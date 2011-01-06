@@ -1,6 +1,6 @@
 TRANSLATIONS = $$files(*.ts)
 
-qtPrepareTool(LRELEASE, lrelease)
+qtPrepareTool(LRELEASE, lrelease, designer)
 qtPrepareTool(LCONVERT, lconvert)
 qtPrepareTool(LUPDATE, lupdate)
 LUPDATE += -locations relative -no-ui-lines
