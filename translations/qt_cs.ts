@@ -31,10 +31,25 @@
     </message>
 </context>
 <context>
+    <name>Debugger::JSAgentWatchData</name>
+    <message>
+        <source>[Array of length %1]</source>
+        <translation>[Pole délky %1]</translation>
+    </message>
+    <message>
+        <source>&lt;undefined&gt;</source>
+        <translation>&lt;nevymezeno&gt;</translation>
+    </message>
+</context>
+<context>
     <name>FakeReply</name>
     <message>
         <source>Fake error !</source>
-        <translation>Napodobená chyba!</translation>
+        <translation type="obsolete">Napodobená chyba!</translation>
+    </message>
+    <message>
+        <source>Fake error!</source>
+        <translation>Falešná chyba!</translation>
     </message>
     <message>
         <source>Invalid URL</source>
@@ -123,7 +138,7 @@
     <message>
         <source>Warning: You do not seem to have the base GStreamer plugins installed.
           All audio and video support has been disabled</source>
-        <translation>Upozornění: Zdá se, že zákládní přídavné moduly pro GStreamer nejsou nainstalovány.￼
+        <translation>Upozornění: Zdá se, že základní přídavné moduly pro GStreamer nejsou nainstalovány.￼
 Podpora audia a videa byla vypnuta</translation>
     </message>
     <message>
@@ -284,7 +299,7 @@ Ověřte, prosím, instalaci Gstreamer a ujistěte se,
     </message>
     <message>
         <source>Multicast error</source>
-        <translation>Chyba ve vícepočítání (multicast)</translation>
+        <translation>Chyba ve vícesměrovém vysílání</translation>
     </message>
     <message>
         <source>Proxy server error</source>
@@ -461,7 +476,7 @@ Ověřte, prosím, instalaci Gstreamer a ujistěte se,
     </message>
     <message>
         <source>Reflections delay (ms)</source>
-        <extracomment>ReflectionsDelay: Amount of delay between the arrival the direct path from the source and the arrival of the first reflection.</extracomment>
+        <extracomment>ReflectionsDelay: Amount of delay between the arrival of the direct path from the source and the arrival of the first reflection.</extracomment>
         <translation>Zpoždění odrazu (ms)</translation>
     </message>
     <message>
@@ -476,7 +491,7 @@ Ověřte, prosím, instalaci Gstreamer a ujistěte se,
     </message>
     <message>
         <source>Reverb level (mB)</source>
-        <extracomment>ReverbLevel Amplitude of reverberations. This value is corrected by the RoomLevel to give the final reverberation amplitude.</extracomment>
+        <extracomment>ReverbLevel: Amplitude of reverberations. This value is corrected by the RoomLevel to give the final reverberation amplitude.</extracomment>
         <translation>Síla ozvěny (mB)</translation>
     </message>
     <message>
@@ -508,6 +523,10 @@ Ověřte, prosím, instalaci Gstreamer a ujistěte se,
         <source>Error opening source: media type could not be determined</source>
         <translation>Zdroj se nepodařilo otevřít: nepodařilo se určit typ média</translation>
     </message>
+    <message>
+        <source>Failed to set requested IAP</source>
+        <translation>Nepodařilo se nastavit požadované IAP</translation>
+    </message>
 </context>
 <context>
     <name>Phonon::MMF::StereoWidening</name>
@@ -530,8 +549,12 @@ Ověřte, prosím, instalaci Gstreamer a ujistěte se,
         <translation>Hlasitost: %1%</translation>
     </message>
     <message>
-        <source>Use this slider to adjust the volume. The leftmost position is 0%, the rightmost is %1%</source>
+        <source>Use this slider to adjust the volume. The leftmost position is 0%. The rightmost is %1%</source>
         <translation>Posuvník se používá k nastavení hlasitosti. Poloha nejvíce vlevo odpovídá 0%; poloha nejvíce vpravo odpovídá %1%</translation>
+    </message>
+    <message>
+        <source>Use this slider to adjust the volume. The leftmost position is 0%, the rightmost is %1%</source>
+        <translation type="obsolete">Posuvník se používá k nastavení hlasitosti. Poloha nejvíce vlevo odpovídá 0%; poloha nejvíce vpravo odpovídá %1%</translation>
     </message>
     <message>
         <source>Muted</source>
@@ -1093,11 +1116,11 @@ na
     </message>
     <message>
         <source>Socket is not connected</source>
-        <translation>Zásuvka (socket) není spojena</translation>
+        <translation>Socket není spojen</translation>
     </message>
     <message>
         <source>Socket operation timed out</source>
-        <translation>Časový limit pro zásuvkovou (socket) operaci byl překročen</translation>
+        <translation>Časový limit pro socket operaci byl překročen</translation>
     </message>
     <message>
         <source>Network unreachable</source>
@@ -1105,7 +1128,7 @@ na
     </message>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>Tato zásuvková (socket) operace není podporována</translation>
+        <translation>Tato socket operace není podporována</translation>
     </message>
 </context>
 <context>
@@ -1125,6 +1148,14 @@ na
 </context>
 <context>
     <name>QAccessibleButton</name>
+    <message>
+        <source>Uncheck</source>
+        <translation>Zrušit zaškrtnutí</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Zaškrtnout</translation>
+    </message>
     <message>
         <source>Press</source>
         <translation>Stisknout</translation>
@@ -1181,7 +1212,7 @@ na
     <name>QCheckBox</name>
     <message>
         <source>Check</source>
-        <translation>Označit křížkem</translation>
+        <translation>Zaškrtnout</translation>
     </message>
     <message>
         <source>Toggle</source>
@@ -1189,7 +1220,7 @@ na
     </message>
     <message>
         <source>Uncheck</source>
-        <translation>Zrušit označení křížkem</translation>
+        <translation>Zrušit zaškrtnutí</translation>
     </message>
 </context>
 <context>
@@ -1204,11 +1235,11 @@ na
     </message>
     <message>
         <source>&amp;Val:</source>
-        <translation>&amp;Jasnost:</translation>
+        <translation>&amp;Hodnota:</translation>
     </message>
     <message>
         <source>Hu&amp;e:</source>
-        <translation>Barevný &amp;odstín:</translation>
+        <translation>&amp;Odstín:</translation>
     </message>
     <message>
         <source>Select Color</source>
@@ -1303,6 +1334,11 @@ na
         <translation>%1: Nejsou již použitelné zdroje</translation>
     </message>
     <message>
+        <source>%1: permission denied</source>
+        <comment>QSystemSemaphore</comment>
+        <translation>%1: Přístup odepřen</translation>
+    </message>
+    <message>
         <source>%1: unknown error %2</source>
         <comment>QSystemSemaphore</comment>
         <translation>%1: Neznámá chyba %2</translation>
@@ -1312,7 +1348,7 @@ na
     <name>QDB2Driver</name>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Transakci se nepodařilo provést (operace &apos;commit&apos;, odeslání, se nezdařila)</translation>
+        <translation>Transakci se nepodařilo zapsat</translation>
     </message>
     <message>
         <source>Unable to set autocommit</source>
@@ -1324,7 +1360,7 @@ na
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Transakci se nepodařilo zvrátit (operace &apos;rollback&apos;, zvrácení, se nezdařila)</translation>
+        <translation>Transakci se nepodařilo zvrátit</translation>
     </message>
 </context>
 <context>
@@ -1454,6 +1490,13 @@ na
     </message>
 </context>
 <context>
+    <name>QDeclarativeApplication</name>
+    <message>
+        <source>Application is an abstract class</source>
+        <translation>Aplikace je abstraktní třída</translation>
+    </message>
+</context>
+<context>
     <name>QDeclarativeBehavior</name>
     <message>
         <source>Cannot change the animation assigned to a Behavior.</source>
@@ -1566,19 +1609,27 @@ na
     </message>
     <message>
         <source>Component objects cannot declare new properties.</source>
-        <translation>Předměty součástek nemohou prohlásit nové vlastnosti.</translation>
+        <translation>Objekty součástek nemohou prohlásit nové vlastnosti.</translation>
     </message>
     <message>
         <source>Component objects cannot declare new signals.</source>
-        <translation>Předměty součástek nemohou prohlásit nové signály.</translation>
+        <translation>Objekty součástek nemohou prohlásit nové signály.</translation>
     </message>
     <message>
         <source>Component objects cannot declare new functions.</source>
-        <translation>Předměty součástek nemohou prohlásit nové funkce.</translation>
+        <translation>Objekty součástek nemohou prohlásit nové funkce.</translation>
     </message>
     <message>
         <source>Cannot create empty component specification</source>
         <translation>Nelze vytvořit prázdné vymezení součástky</translation>
+    </message>
+    <message>
+        <source>&quot;%1.%2&quot; is not available in %3 %4.%5.</source>
+        <translation>&quot;%1.%2&quot; není dostupný v %3 %4.%5.</translation>
+    </message>
+    <message>
+        <source>&quot;%1.%2&quot; is not available due to component versioning.</source>
+        <translation>&quot;%1.%2&quot; není dostupný kvůli verzování součástky.</translation>
     </message>
     <message>
         <source>Incorrectly specified signal assignment</source>
@@ -1602,11 +1653,11 @@ na
     </message>
     <message>
         <source>Non-existent attached object</source>
-        <translation>Pro vlastnost neexistuje žádný připojený předmět</translation>
+        <translation>Pro vlastnost neexistuje žádný připojený objekt</translation>
     </message>
     <message>
         <source>Invalid attached object assignment</source>
-        <translation>Neplatné přiřazení připojeného předmětu</translation>
+        <translation>Neplatné přiřazení připojeného objektu</translation>
     </message>
     <message>
         <source>Cannot assign to non-existent default property</source>
@@ -1654,11 +1705,11 @@ na
     </message>
     <message>
         <source>Unexpected object assignment</source>
-        <translation>Nepřípustné přiřazení předmětu</translation>
+        <translation>Nepřípustné přiřazení objektu</translation>
     </message>
     <message>
         <source>Cannot assign object to list</source>
-        <translation>Přiřazení předmětu k seznamům není přípustné</translation>
+        <translation>Přiřazení objektu k seznamům není přípustné</translation>
     </message>
     <message>
         <source>Can only assign one binding to lists</source>
@@ -1682,7 +1733,7 @@ na
     </message>
     <message>
         <source>Cannot assign object to property</source>
-        <translation>Přiřazení předmětu k vlastnosti není přípustné</translation>
+        <translation>Přiřazení objektu k vlastnosti není přípustné</translation>
     </message>
     <message>
         <source>&quot;%1&quot; cannot operate on &quot;%2&quot;</source>
@@ -1791,6 +1842,10 @@ na
         <source>Invalid empty URL</source>
         <translation>Neplátná prázdná adresa (URL)</translation>
     </message>
+    <message>
+        <source>createObject: value is not an object</source>
+        <translation>createObject: Hodnota není objektem</translation>
+    </message>
 </context>
 <context>
     <name>QDeclarativeConnections</name>
@@ -1800,7 +1855,7 @@ na
     </message>
     <message>
         <source>Connections: nested objects not allowed</source>
-        <translation>Spojení: vkládané předměty nejsou povoleny</translation>
+        <translation>Spojení: vkládané objekty nejsou povoleny</translation>
     </message>
     <message>
         <source>Connections: syntax error</source>
@@ -1853,11 +1908,11 @@ na
     <name>QDeclarativeImportDatabase</name>
     <message>
         <source>cannot load module &quot;%1&quot;: File name case mismatch for &quot;%2&quot;</source>
-        <translation>Nelze nahrát modul &quot;%1&quot;: Velikost písmen v názvu souboru neodpovídá pro %2</translation>
+        <translation type="obsolete">Nelze nahrát modul &quot;%1&quot;: Velikost písmen v názvu souboru neodpovídá pro %2</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; definition &quot;%2&quot; not readable</source>
-        <translation>Modul &quot;%1&quot; vymezení &quot;%2&quot; nečitelné</translation>
+        <translation type="obsolete">Modul &quot;%1&quot; vymezení &quot;%2&quot; nečitelné</translation>
     </message>
     <message>
         <source>plugin cannot be loaded for module &quot;%1&quot;: %2</source>
@@ -1912,8 +1967,12 @@ na
         <translation>není typ</translation>
     </message>
     <message>
+        <source>File name case mismatch for &quot;%1&quot;</source>
+        <translation>Velikost písmen v názvu souboru neodpovídá pro &quot;%1&quot;</translation>
+    </message>
+    <message>
         <source>File name case mismatch for &quot;%2&quot;</source>
-        <translation>Velikost písmen v názvu souboru neodpovídá pro %2</translation>
+        <translation type="obsolete">Velikost písmen v názvu souboru neodpovídá pro %2</translation>
     </message>
 </context>
 <context>
@@ -1931,6 +1990,17 @@ na
     </message>
 </context>
 <context>
+    <name>QDeclarativeLayoutMirroringAttached</name>
+    <message>
+        <source>LayoutDirection attached property only works with Items</source>
+        <translation>Připojená vlastnost LayoutDirection pracuje jen s položkami</translation>
+    </message>
+    <message>
+        <source>LayoutMirroring is only available via attached properties</source>
+        <translation>LayoutMirroring je dostupné pouze prostřednictvím připojených vlastností</translation>
+    </message>
+</context>
+<context>
     <name>QDeclarativeListModel</name>
     <message>
         <source>remove: index %1 out of range</source>
@@ -1938,7 +2008,7 @@ na
     </message>
     <message>
         <source>insert: value is not an object</source>
-        <translation>vložit (insert): Hodnota není předmětem</translation>
+        <translation>vložit (insert): Hodnota není objektem</translation>
     </message>
     <message>
         <source>insert: index %1 out of range</source>
@@ -1950,11 +2020,11 @@ na
     </message>
     <message>
         <source>append: value is not an object</source>
-        <translation>připojit (append): Hodnota není předmětem</translation>
+        <translation>připojit (append): Hodnota není objektem</translation>
     </message>
     <message>
         <source>set: value is not an object</source>
-        <translation>nastavit (set): Hodnota není předmětem</translation>
+        <translation>nastavit (set): Hodnota není objektem</translation>
     </message>
     <message>
         <source>set: index %1 out of range</source>
@@ -2030,6 +2100,10 @@ na
     </message>
     <message>
         <source>Illegal escape squence</source>
+        <translation type="obsolete">Neplatná úniková posloupnost</translation>
+    </message>
+    <message>
+        <source>Illegal escape sequence</source>
         <translation>Neplatná úniková posloupnost</translation>
     </message>
     <message>
@@ -2118,11 +2192,11 @@ na
     </message>
     <message>
         <source>Readonly not yet supported</source>
-        <translation>&quot;Pouze pro čtení&quot; není na tomto místě ještě nepodporováno</translation>
+        <translation>&quot;Pouze pro čtení&quot; není na tomto místě ještě podporováno</translation>
     </message>
     <message>
         <source>JavaScript declaration outside Script element</source>
-        <translation>Prohlášení JavaScriptu není mimo prvek skriptu přípustné</translation>
+        <translation>Deklarace JavaScriptu není mimo prvek skriptu přípustná</translation>
     </message>
 </context>
 <context>
@@ -2158,7 +2232,7 @@ na
     <name>QDeclarativePropertyChanges</name>
     <message>
         <source>PropertyChanges does not support creating state-specific objects.</source>
-        <translation>PropertyChanges nepodporuje vytváření předmětů, které jsou přiřazeny jednomu stavu.</translation>
+        <translation>PropertyChanges nepodporuje vytváření objektů, které jsou přiřazeny jednomu stavu.</translation>
     </message>
     <message>
         <source>Cannot assign to non-existent property &quot;%1&quot;</source>
@@ -2203,7 +2277,7 @@ na
     <name>QDeclarativeVME</name>
     <message>
         <source>Unable to create object of type %1</source>
-        <translation>Nepodařilo se vytvořit žádný předmět typu %1</translation>
+        <translation>Nepodařilo se vytvořit žádný objekt typu %1</translation>
     </message>
     <message>
         <source>Cannot assign value %1 to property %2</source>
@@ -2211,27 +2285,27 @@ na
     </message>
     <message>
         <source>Cannot assign object type %1 with no default method</source>
-        <translation>Typ předmětu %1 nelze přiřadit, protože neexistuje žádná výchozí metoda</translation>
+        <translation>Typ objektu %1 nelze přiřadit, protože neexistuje žádná výchozí metoda</translation>
     </message>
     <message>
         <source>Cannot connect mismatched signal/slot %1 %vs. %2</source>
-        <translation>Nelze vytvořit žádné spojení mezi signálem %1 a otvorem %2, protože se k sobě nehodí</translation>
+        <translation>Nelze vytvořit žádné spojení mezi signálem %1 a zdířkou %2, protože se k sobě nehodí</translation>
     </message>
     <message>
         <source>Cannot assign an object to signal property %1</source>
-        <translation>Vlastnosti signálu %1 nelze přiřadit žádný předmět</translation>
+        <translation>Vlastnosti signálu %1 nelze přiřadit žádný objekt</translation>
     </message>
     <message>
         <source>Cannot assign object to list</source>
-        <translation>Přiřazení předmětu k seznamům není přípustné</translation>
+        <translation>Přiřazení objektu k seznamům není přípustné</translation>
     </message>
     <message>
         <source>Cannot assign object to interface property</source>
-        <translation>Vlastnosti rozhraní nelze přiřadit žádný předmět</translation>
+        <translation>Vlastnosti rozhraní nelze přiřadit žádný objekt</translation>
     </message>
     <message>
         <source>Unable to create attached object</source>
-        <translation>Nepodařilo se vytvořit žádný připojený předmět (typu &apos;attached&apos;)</translation>
+        <translation>Nepodařilo se vytvořit žádný připojený objekt (typu &apos;attached&apos;)</translation>
     </message>
     <message>
         <source>Cannot set properties on %1 as it is null</source>
@@ -2494,6 +2568,10 @@ na
     <message>
         <source>Cannot open %1 for input</source>
         <translation>%1 se nepodařilo otevřít pro čtení</translation>
+    </message>
+    <message>
+        <source>No file engine available or engine does not support UnMapExtension</source>
+        <translation>Není dostupný žádný souborový stroj nebo stroj nepodporuje UnMapExtension</translation>
     </message>
     <message>
         <source>Destination file exists</source>
@@ -2824,7 +2902,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>Lehké</translation>
+        <translation>Jemné</translation>
     </message>
     <message>
         <source>Ogham</source>
@@ -2880,7 +2958,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation>Itala</translation>
+        <translation>Kurzíva</translation>
     </message>
     <message>
         <source>Korean</source>
@@ -2888,11 +2966,11 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>Normal</source>
-        <translation>Obvyklé</translation>
+        <translation>Normální</translation>
     </message>
     <message>
         <source>Oblique</source>
-        <translation>Nakloněné</translation>
+        <translation>Skloněné</translation>
     </message>
     <message>
         <source>Telugu</source>
@@ -3014,7 +3092,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>Connection refused for data connection</source>
-        <translation>Odmítnuto spojení spojení pro data</translation>
+        <translation>Odmítnuto spojení pro data</translation>
     </message>
     <message>
         <source>Login failed:
@@ -3100,6 +3178,13 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
 </context>
 <context>
+    <name>QGroupBox</name>
+    <message>
+        <source>Toggle</source>
+        <translation>Přepnout</translation>
+    </message>
+</context>
+<context>
     <name>QHostInfo</name>
     <message>
         <source>Unknown error</source>
@@ -3131,6 +3216,10 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     <message>
         <source>Invalid hostname</source>
         <translation>Neplatný název pro hostitelský počítač</translation>
+    </message>
+    <message>
+        <source>Unknown error (%1)</source>
+        <translation>Neznámá chyba (%1)</translation>
     </message>
 </context>
 <context>
@@ -3287,7 +3376,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     <name>QIBaseDriver</name>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Transakci se nepodařilo provést (operace &apos;commit&apos;, odeslání, se nezdařila)</translation>
+        <translation>Transakci se nepodařilo zapsat</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
@@ -3299,14 +3388,14 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Transakci se nepodařilo zvrátit (operace &apos;rollback&apos;, zvrácení, se nezdařila)</translation>
+        <translation>Transakci se nepodařilo zvrátit</translation>
     </message>
 </context>
 <context>
     <name>QIBaseResult</name>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Transakci se nepodařilo provést (operace &apos;commit&apos;, odeslání, se nezdařila)</translation>
+        <translation>Transakci se nepodařilo zapsat</translation>
     </message>
     <message>
         <source>Unable to open BLOB</source>
@@ -3480,6 +3569,18 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
         <source>Could not mmap &apos;%1&apos;: %2</source>
         <translation type="obsolete">Operace mmap se nezdařila u &apos;%1&apos;: %2</translation>
     </message>
+    <message>
+        <source>&apos;%1&apos; is not an ELF object (%2)</source>
+        <translation>&apos;%1&apos; není objekt ELF (%2)</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not an ELF object</source>
+        <translation>&apos;%1&apos; není objekt ELF</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is an invalid ELF object (%2)</source>
+        <translation>&apos;%1&apos; je neplatný objekt ELF (%2)</translation>
+    </message>
 </context>
 <context>
     <name>QLineEdit</name>
@@ -3547,15 +3648,15 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>%1: Socket access error</source>
-        <translation>%1: Chyba při přístupu k zásuvce (socketu)</translation>
+        <translation>%1: Chyba při přístupu k socketu</translation>
     </message>
     <message>
         <source>%1: Socket resource error</source>
-        <translation>%1: Chyba zásuvky (socketu) - potíže se zdrojem</translation>
+        <translation>%1: Chyba socketu - potíže se zdrojem</translation>
     </message>
     <message>
         <source>%1: The socket operation is not supported</source>
-        <translation>%1: Tato operace se zásuvkou (socketem) není podporována</translation>
+        <translation>%1: Tato operace se socketem není podporována</translation>
     </message>
     <message>
         <source>%1: Invalid name</source>
@@ -3567,7 +3668,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>%1: Socket operation timed out</source>
-        <translation>%1: Překročení času při operaci se zásuvkou (socketem)</translation>
+        <translation>%1: Překročení času při operaci se socketem</translation>
     </message>
     <message>
         <source>%1: Datagram too large</source>
@@ -3577,12 +3678,16 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
         <source>%1: Remote closed</source>
         <translation>%1: Spojení bylo protější stranou uzavřeno</translation>
     </message>
+    <message>
+        <source>%1: Access denied</source>
+        <translation>Přístup odepřen</translation>
+    </message>
 </context>
 <context>
     <name>QMYSQLDriver</name>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Transakci se nepodařilo provést (operace &apos;commit&apos;, odeslání, se nezdařila)</translation>
+        <translation>Transakci se nepodařilo zapsat</translation>
     </message>
     <message>
         <source>Unable to open database &apos;</source>
@@ -3594,7 +3699,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Transakci se nepodařilo zvrátit (operace &apos;rollback&apos;, zvrácení, se nezdařila)</translation>
+        <translation>Transakci se nepodařilo zvrátit</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
@@ -3751,6 +3856,10 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
         <source>Actions</source>
         <translation>Činnosti</translation>
     </message>
+    <message>
+        <source>Corner Toolbar</source>
+        <translation>Rohový nástrojový pruh</translation>
+    </message>
 </context>
 <context>
     <name>QMessageBox</name>
@@ -3764,7 +3873,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across MS&amp;nbsp;Windows, Mac&amp;nbsp;OS&amp;nbsp;X, Linux, and all major commercial Unix variants. Qt is also available for embedded devices as Qt for Embedded Linux and Qt for Windows CE.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications (proprietary or open source) provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.nokia.com/products/licensing&quot;&gt;qt.nokia.com/products/licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Nokia Corporation and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is a Nokia product. See &lt;a href=&quot;http://qt.nokia.com/&quot;&gt;qt.nokia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Qt je sadou softwarových nástrojů C++ určených pro vývoj aplikací napříč platformami.&lt;/p&gt;&lt;p&gt;Qt poskytuje jednoduchou přenositelnost přes MS&amp;nbsp;Windows, Mac&amp;nbsp;OS&amp;nbsp;X, Linux, a všechny hlavní obchodní varianty systému Unix. Qt je rovněž dostupný pro vložená zařízení jako Qt pro Embedded Linux a Qt pro Windows CE.&lt;/p&gt;&lt;p&gt;Qt je dostupné pod třemi rozdílnými licenčními volbami navrženými pro přizpůsobení se potřebám našich různých uživatelů.&lt;/p&gt;Qt licencované pod naší obchodní licenční smlouvou je vhodné pro vývoj soukromého/obchodního software, kde si nepřejete sdílet jakýkoli zdrojový kód se třetími stranami, nebo jinak řečeno, když nemůžete vyhovět podmínkám GNU LGPL ve verzi 2.1 nebo GNU GPL ve verzi 3.0.&lt;/p&gt;&lt;p&gt;Qt licencované pod GNU LGPL ve verzi 2.1 je vhodné pro vývoj Qt aplikací (soukromých nebo s otevřeným zdrojovým kódem), za předpokladu že můžete souhlasit s požadavky a podmínkami GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licencované pod GNU General Public License ve verzi 3.0 je vhodné pro vývoj aplikací Qt, u nichž si přejete použít takovou aplikaci ve spojení se software, který podléhá požadavkům GNU GPL ve verzi 3.0, nebo kde jste jinak ochoten souhlasit s podmínkami GNU GPL ve verzi 3.0.&lt;/p&gt;&lt;p&gt;Podívejte se, prosím, na &lt;a href=&quot;http://qt.nokia.com/products/licensing&quot;&gt;qt.nokia.com/products/licensing&lt;/a&gt; kvůli přehledu licencování Qt.&lt;/p&gt;&lt;p&gt;Autorské právo (C) 2012 Nokia Corporation a/nebo její dceřinná(é) společnost(i).&lt;/p&gt;&lt;p&gt;Qt je výrobkem společnosti Nokia. Podívejte se na &lt;a href=&quot;http://qt.nokia.com/&quot;&gt;qt.nokia.com&lt;/a&gt;kvůli více informacím.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Qt je sadou softwarových nástrojů C++ určených pro vývoj aplikací napříč platformami.&lt;/p&gt;&lt;p&gt;Qt poskytuje snadnou přenositelnost a jednotný zdrojový kód pro MS&amp;nbsp;Windows, Mac&amp;nbsp;OS&amp;nbsp;X, Linux a všechny hlavní prodejní varianty systému Unix. Qt je rovněž dostupné pro vestavěná zařízení jako Qt pro Embedded Linux a Qt pro Windows CE.&lt;/p&gt;&lt;p&gt;Qt je dostupné pod třemi rozdílnými licencemi navrženými tak, aby vyhověly potřebám našich různých uživatelů.&lt;/p&gt;Qt s naší obchodní licenční smlouvou je vhodné pro vývoj soukromého/obchodního software, kde nechcete sdílet jakýkoli zdrojový kód se třetími stranami, nebo jinak řečeno, když nemůžete vyhovět podmínkám GNU LGPL ve verzi 2.1 nebo GNU GPL ve verzi 3.0.&lt;/p&gt;&lt;p&gt;Qt s licencí GNU LGPL ve verzi 2.1 je vhodné pro vývoj Qt aplikací (soukromých nebo s otevřeným zdrojovým kódem) za předpokladu, že můžete souhlasit s požadavky a podmínkami GNU LGPL verze 2.1.&lt;/p&gt;&lt;p&gt;Qt s licencí GNU General Public License ve verzi 3.0 je vhodné pro vývoj aplikací Qt, u nichž si přejete použít takovou aplikaci ve spojení se software, který podléhá požadavkům GNU GPL ve verzi 3.0, nebo kde jste jinak ochotni souhlasit s podmínkami GNU GPL ve verzi 3.0.&lt;/p&gt;&lt;p&gt;Více informací najdete na &lt;a href=&quot;http://qt.nokia.com/products/licensing&quot;&gt;qt.nokia.com/products/licensing&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Autorské právo (C) 2012 Nokia Corporation a/nebo její dceřinná(é) společnost(i).&lt;/p&gt;&lt;p&gt;Qt je výrobkem společnosti Nokia. Další informace najdete na &lt;a href=&quot;http://qt.nokia.com/&quot;&gt;qt.nokia.com&lt;/a&gt;.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across MS&amp;nbsp;Windows, Mac&amp;nbsp;OS&amp;nbsp;X, Linux, and all major commercial Unix variants. Qt is also available for embedded devices as Qt for Embedded Linux and Qt for Windows CE.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications (proprietary or open source) provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.nokia.com/products/licensing&quot;&gt;qt.nokia.com/products/licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Nokia Corporation and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is a Nokia product. See &lt;a href=&quot;http://qt.nokia.com/&quot;&gt;qt.nokia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
@@ -3833,7 +3942,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>Invalid socket descriptor</source>
-        <translation>Neplatný deskriptor zásuvky (socketu)</translation>
+        <translation>Neplatný deskriptor socketu</translation>
     </message>
     <message>
         <source>Host unreachable</source>
@@ -3849,7 +3958,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>Attempt to use IPv6 socket on a platform with no IPv6 support</source>
-        <translation>Vyzkoušelo se použít IPv6 zásuvku (socket) na systému bez podpory IPv6</translation>
+        <translation>Vyzkoušelo se použít IPv6 socket na systému bez podpory IPv6</translation>
     </message>
     <message>
         <source>Unable to receive a message</source>
@@ -3869,7 +3978,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>Another socket is already listening on the same port</source>
-        <translation>Na tomto portu již naslouchá jiná zásuvka (socket)</translation>
+        <translation>Na tomto portu již naslouchá jiný socket</translation>
     </message>
     <message>
         <source>Unable to send a message</source>
@@ -3889,15 +3998,15 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>Unsupported socket operation</source>
-        <translation>Nepodporovaná zásuvková operace (povel pro socket)</translation>
+        <translation>Nepodporovaná socket operace</translation>
     </message>
     <message>
         <source>Operation on non-socket</source>
-        <translation>Operaci lze použít pouze na jedné zásuvce (socketu)</translation>
+        <translation>Operace mimo socket</translation>
     </message>
     <message>
         <source>Unable to initialize broadcast socket</source>
-        <translation>Zásuvku pro vysílání (socket) se nepodařilo spustit</translation>
+        <translation>Socket pro vysílání se nepodařilo spustit</translation>
     </message>
     <message>
         <source>Unknown error</source>
@@ -3905,7 +4014,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>Unable to initialize non-blocking socket</source>
-        <translation>Neblokující zásuvku (socket) se nepodařilo spustit</translation>
+        <translation>Neblokující socket se nepodařilo spustit</translation>
     </message>
     <message>
         <source>The address is protected</source>
@@ -3935,7 +4044,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     <name>QNetworkAccessDataBackend</name>
     <message>
         <source>Operation not supported on %1</source>
-        <translation>Tato operace není %1 podporována</translation>
+        <translation type="obsolete">Tato operace není %1 podporována</translation>
     </message>
     <message>
         <source>Invalid URI: %1</source>
@@ -3950,7 +4059,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>Socket error on %1: %2</source>
-        <translation>Chyba zásuvky (socketu) u %1: %2</translation>
+        <translation>Chyba socketu u %1: %2</translation>
     </message>
     <message>
         <source>Remote host closed the connection prematurely on %1</source>
@@ -4021,7 +4130,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     <name>QNetworkReply</name>
     <message>
         <source>Error downloading %1 - server replied: %2</source>
-        <translation>Beim Herunterladen von %1 trat ein Fehler auf - Die Antwort des Servers ist: %2</translation>
+        <translation>Při stahování %1 se vyskytla chyba - Odpověď serveru je: %2</translation>
     </message>
     <message>
         <source>Protocol &quot;%1&quot; is unknown</source>
@@ -4030,6 +4139,10 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     <message>
         <source>Network session error.</source>
         <translation>Chyba při spojení přes síť.</translation>
+    </message>
+    <message>
+        <source>backend start error.</source>
+        <translation>Chyba spuštění podpůrné vrstvy.</translation>
     </message>
     <message>
         <source>Temporary network failure.</source>
@@ -4089,7 +4202,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     <name>QOCIDriver</name>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Transakci se nepodařilo provést (operace &apos;commit&apos;, odeslání, se nezdařila)</translation>
+        <translation>Transakci se nepodařilo zapsat</translation>
     </message>
     <message>
         <source>Unable to initialize</source>
@@ -4101,7 +4214,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Transakci se nepodařilo zvrátit (operace &apos;rollback&apos;, zvrácení, se nezdařila)</translation>
+        <translation>Transakci se nepodařilo zvrátit</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
@@ -4156,7 +4269,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     <name>QODBCDriver</name>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Transakci se nepodařilo provést (operace &apos;commit&apos;, odeslání, se nezdařila)</translation>
+        <translation>Transakci se nepodařilo zapsat</translation>
     </message>
     <message>
         <source>Unable to enable autocommit</source>
@@ -4168,7 +4281,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>Unable to disable autocommit</source>
-        <translation>&apos;autocommit&apos;, automatické odeslání, se nepodařilo zastavit</translation>
+        <translation>&apos;autocommit&apos;, automatické zapsání, se nepodařilo zastavit</translation>
     </message>
     <message>
         <source>Unable to connect</source>
@@ -4180,7 +4293,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Transakci se nepodařilo zvrátit (operace &apos;rollback&apos;, zvrácení, se nezdařila)</translation>
+        <translation>Transakci se nepodařilo zvrátit</translation>
     </message>
 </context>
 <context>
@@ -4276,6 +4389,50 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
         <source>invalid query: &quot;%1&quot;</source>
         <translation>Neplátný dotaz: &quot;%1&quot;</translation>
     </message>
+    <message>
+        <source>Host not found</source>
+        <translation>Nepodařilo se najít počítač</translation>
+    </message>
+    <message>
+        <source>Could not read image data</source>
+        <translation>Nepodařilo se přečíst data obrazu</translation>
+    </message>
+    <message>
+        <source>Sequential device (eg socket) for image read not supported</source>
+        <translation>Postupné zařízení (např. socket - komunikační kanál) pro čtení obrazu nepodporováno</translation>
+    </message>
+    <message>
+        <source>Seek file/device for image read failed</source>
+        <translation>Vyhledání souboru/zařízení pro čtení obrazu se nezdařilo</translation>
+    </message>
+    <message>
+        <source>Image mHeader read failed</source>
+        <translation>Čtení mHeader obrazu se nezdařilo</translation>
+    </message>
+    <message>
+        <source>Image type not supported</source>
+        <translation>Typ obrazu nepodporován</translation>
+    </message>
+    <message>
+        <source>Image depth not valid</source>
+        <translation>Hloubka obrazu nepodporována</translation>
+    </message>
+    <message>
+        <source>Could not seek to image read footer</source>
+        <translation>Nepodařilo se vyhledat zápatí čtení obrazu</translation>
+    </message>
+    <message>
+        <source>Could not read footer</source>
+        <translation>Nepodařilo se přečíst zápatí</translation>
+    </message>
+    <message>
+        <source>Image type (non-TrueVision 2.0) not supported</source>
+        <translation>Typ obrazu (non-TrueVision 2.0) nepodporován</translation>
+    </message>
+    <message>
+        <source>Could not reset to start position</source>
+        <translation>Nepodařilo se vrátit na počáteční polohu</translation>
+    </message>
 </context>
 <context>
     <name>QPPDOptionsModel</name>
@@ -4300,11 +4457,11 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>Could not rollback transaction</source>
-        <translation>Transakci se nepodařilo zvrátit (operace &apos;rollback&apos;, zvrácení, se nezdařila)</translation>
+        <translation>Transakci se nepodařilo zvrátit</translation>
     </message>
     <message>
         <source>Could not commit transaction</source>
-        <translation>Transakci se nepodařilo provést (operace &apos;commit&apos;, odeslání, se nezdařila)</translation>
+        <translation>Transakci se nepodařilo zapsat</translation>
     </message>
     <message>
         <source>Unable to connect</source>
@@ -4524,7 +4681,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>Legal (8.5 x 14 inches, 216 x 356 mm)</source>
-        <translation>Právní (8,5 x 14 palců, 216 x 356 mm)</translation>
+        <translation>US Legal (8,5 x 14 palců, 216 x 356 mm)</translation>
     </message>
     <message>
         <source>Folio</source>
@@ -4532,7 +4689,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>Legal</source>
-        <translation>Právní</translation>
+        <translation>US Legal</translation>
     </message>
     <message>
         <source>Print all</source>
@@ -4580,7 +4737,7 @@ Ověřte, prosím, že byl zadán správný název souboru.</translation>
     </message>
     <message>
         <source>Tabloid (279 x 432 mm)</source>
-        <translation>Bulvární noviny/tisk (279 x 432 mm)</translation>
+        <translation>US Tabloid (279 x 432 mm)</translation>
     </message>
     <message>
         <source>B10 (31 x 44 mm)</source>
@@ -4634,11 +4791,11 @@ Má se přepsat?</translation>
     </message>
     <message>
         <source>Ledger</source>
-        <translation>Hlavní (účetní) kniha</translation>
+        <translation>US Ledger</translation>
     </message>
     <message>
         <source>Letter</source>
-        <translation>Dopis</translation>
+        <translation>US Letter</translation>
     </message>
     <message>
         <source>DLE (110 x 220 mm)</source>
@@ -4682,7 +4839,7 @@ Má se přepsat?</translation>
     </message>
     <message>
         <source>Ledger (432 x 279 mm)</source>
-        <translation>Hlavní (účetní) kniha (432 x 279 mm)</translation>
+        <translation>US Ledger (432 x 279 mm)</translation>
     </message>
     <message>
         <source>Aliases: %1</source>
@@ -4702,7 +4859,7 @@ Má se přepsat?</translation>
     </message>
     <message>
         <source>Tabloid</source>
-        <translation>Bulvární noviny</translation>
+        <translation>US Tabloid</translation>
     </message>
     <message>
         <source>A4 (210 x 297 mm, 8.26 x 11.7 inches)</source>
@@ -4710,7 +4867,7 @@ Má se přepsat?</translation>
     </message>
     <message>
         <source>Executive</source>
-        <translation>Prováděcí</translation>
+        <translation>US Executive</translation>
     </message>
     <message>
         <source>unknown</source>
@@ -4722,11 +4879,11 @@ Má se přepsat?</translation>
     </message>
     <message>
         <source>Executive (7.5 x 10 inches, 191 x 254 mm)</source>
-        <translation>Prováděcí (7,5 x 10 palců, 191 x 254 mm)</translation>
+        <translation>US Executive (7,5 x 10 palců, 191 x 254 mm)</translation>
     </message>
     <message>
         <source>Letter (8.5 x 11 inches, 216 x 279 mm)</source>
-        <translation>Dopis (8,5 x 11 palců, 216 x 279 mm)</translation>
+        <translation>US Letter (8,5 x 11 palců, 216 x 279 mm)</translation>
     </message>
     <message>
         <source>The &apos;From&apos; value cannot be greater than the &apos;To&apos; value.</source>
@@ -4943,7 +5100,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Duplex Printing</source>
-        <translation>Zdvojený tisk</translation>
+        <translation>Oboustranný tisk</translation>
     </message>
     <message>
         <source>Current Page</source>
@@ -5050,14 +5207,14 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     <name>QRadioButton</name>
     <message>
         <source>Check</source>
-        <translation>Označit křížkem</translation>
+        <translation>Zaškrtnout</translation>
     </message>
 </context>
 <context>
     <name>QRegExp</name>
     <message>
         <source>bad lookahead syntax</source>
-        <translation>nesprávná syntax pro plánování dopředu</translation>
+        <translation>nesprávná syntax pro dopředný výrok (lookahead)</translation>
     </message>
     <message>
         <source>no error occurred</source>
@@ -5065,15 +5222,19 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>missing left delim</source>
-        <translation>chybějící levé vymezení</translation>
+        <translation>chybějící levý oddělovač</translation>
     </message>
     <message>
         <source>bad char class syntax</source>
-        <translation>nesprávná syntax pro třídu znaku</translation>
+        <translation>nesprávná syntax pro třídu znaků</translation>
     </message>
     <message>
         <source>disabled feature used</source>
         <translation>byla použita zakázaná vlastnost</translation>
+    </message>
+    <message>
+        <source>lookbehinds not supported, see QTBUG-2371</source>
+        <translation>zpětné výroky (lookbehind) nejsou podporovány, viz QTBUG-2371</translation>
     </message>
     <message>
         <source>invalid octal value</source>
@@ -5104,7 +5265,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     <name>QSQLite2Driver</name>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Transakci se nepodařilo provést (operace &apos;commit&apos;, odeslání, se nezdařila)</translation>
+        <translation>Transakci se nepodařilo zapsat</translation>
     </message>
     <message>
         <source>Error to open database</source>
@@ -5124,7 +5285,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Transakci se nepodařilo zvrátit (operace &apos;rollback&apos;, zvrácení, se nezdařila)</translation>
+        <translation>Transakci se nepodařilo zvrátit</translation>
     </message>
 </context>
 <context>
@@ -5142,7 +5303,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     <name>QSQLiteDriver</name>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Transakci se nepodařilo provést (operace &apos;commit&apos;, odeslání, se nezdařila)</translation>
+        <translation>Transakci se nepodařilo zapsat</translation>
     </message>
     <message>
         <source>Error closing database</source>
@@ -5154,7 +5315,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Transakci se nepodařilo zvrátit (operace &apos;rollback&apos;, zvrácení, se nezdařila)</translation>
+        <translation>Transakci se nepodařilo zvrátit</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
@@ -5174,6 +5335,10 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     <message>
         <source>Unable to execute statement</source>
         <translation>Příkaz se nepodařilo provést</translation>
+    </message>
+    <message>
+        <source>Unable to execute multiple statements at a time</source>
+        <translation>Více příkazů naráz se nepodařilo provést</translation>
     </message>
     <message>
         <source>Unable to bind parameters</source>
@@ -5545,6 +5710,10 @@ Zvolte, prosím, pro soubor jiný název.</translation>
         <translation>%1: Bylo dosaženo systémem podmíněné meze velikosti</translation>
     </message>
     <message>
+        <source>%1: bad name</source>
+        <translation>%1: Špatný název</translation>
+    </message>
+    <message>
         <source>%1: unix key file doesn&apos;t exists</source>
         <translation type="obsolete">%1: Soubor s unixovým klíčem neexistuje</translation>
     </message>
@@ -5558,7 +5727,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>%1: key error</source>
-        <translation>%1: Chybný klíč</translation>
+        <translation type="obsolete">%1: Chybný klíč</translation>
     </message>
     <message>
         <source>%1: create size is less then 0</source>
@@ -5735,7 +5904,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Romaji</source>
-        <translation>Romaji</translation>
+        <translation>Rómadži</translation>
     </message>
     <message>
         <source>Hiragana</source>
@@ -5989,7 +6158,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     <message>
         <source>Hangup</source>
         <extracomment>Button to end a call (note: a separate button is used to start the call)</extracomment>
-        <translation>Pověsit</translation>
+        <translation>Zavěsit</translation>
     </message>
     <message>
         <source>Insert</source>
@@ -6203,7 +6372,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Meeting</source>
-        <translation>Schůze</translation>
+        <translation>Setkání</translation>
     </message>
     <message>
         <source>Keyboard Menu</source>
@@ -6387,11 +6556,11 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Suspend</source>
-        <translation>Pozastavit</translation>
+        <translation>Uspat</translation>
     </message>
     <message>
         <source>Hibernate</source>
-        <translation>Přezimovat</translation>
+        <translation>Hibernovat</translation>
     </message>
     <message>
         <source>Context1</source>
@@ -6584,6 +6753,10 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     <name>QSoftKeyManager</name>
     <message>
         <source>Ok</source>
+        <translation type="obsolete">OK</translation>
+    </message>
+    <message>
+        <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
@@ -6804,6 +6977,10 @@ Zvolte, prosím, pro soubor jiný název.</translation>
         <translation>Název hostitelského počítače neodpovídá žádnému z hostitelů platných pro toto osvědčení, kteří jsou na seznamu</translation>
     </message>
     <message>
+        <source>The peer certificate is blacklisted</source>
+        <translation>Osvědčení protějšího místa je na černé listině</translation>
+    </message>
+    <message>
         <source>Unknown error</source>
         <translation>Neznámá chyba</translation>
     </message>
@@ -6828,6 +7005,187 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
 </context>
 <context>
+    <name>QSymSQLDriver</name>
+    <message>
+        <source>Invalid option: </source>
+        <translation>Neplatná volba:</translation>
+    </message>
+    <message>
+        <source>Error opening database</source>
+        <translation>Nepodařilo se otevřít spojení s databází</translation>
+    </message>
+    <message>
+        <source>POLICY_DB_DEFAULT must be defined before any other POLICY definitions can be used</source>
+        <translation>POLICY_DB_DEFAULT musí být stanoveno předtím, než mohou být použity jiné definice POLICY</translation>
+    </message>
+    <message>
+        <source>Unable to begin transaction</source>
+        <translation>Transakci se nepodařilo spustit</translation>
+    </message>
+    <message>
+        <source>Unable to commit transaction</source>
+        <translation>Transakci se nepodařilo zapsat</translation>
+    </message>
+    <message>
+        <source>Unable to rollback transaction</source>
+        <translation>Transakci se nepodařilo zvrátit</translation>
+    </message>
+</context>
+<context>
+    <name>QSymSQLResult</name>
+    <message>
+        <source>Error retrieving column count</source>
+        <translation>Chyba při získávání počtu sloupců</translation>
+    </message>
+    <message>
+        <source>Error retrieving column name</source>
+        <translation>Chyba při získávání názvu sloupce</translation>
+    </message>
+    <message>
+        <source>Error retrieving column type</source>
+        <translation>Chyba při získávání typu sloupce</translation>
+    </message>
+    <message>
+        <source>Unable to fetch row</source>
+        <translation>Řádek se nepodařilo natáhnout</translation>
+    </message>
+    <message>
+        <source>Unable to execute statement</source>
+        <translation>Příkaz se nepodařilo provést</translation>
+    </message>
+    <message>
+        <source>Statement is not prepared</source>
+        <translation>Příkaz není připraven</translation>
+    </message>
+    <message>
+        <source>Unable to reset statement</source>
+        <translation>Příkaz se nepodařilo znovu nastavit</translation>
+    </message>
+    <message>
+        <source>Unable to bind parameters</source>
+        <translation>Parametry se nepodařilo spojit</translation>
+    </message>
+    <message>
+        <source>Parameter count mismatch</source>
+        <translation>Počet parametrů není správný</translation>
+    </message>
+</context>
+<context>
+    <name>QSymbianSocketEngine</name>
+    <message>
+        <source>Unable to initialize non-blocking socket</source>
+        <translation>Neblokující socket se nepodařilo spustit</translation>
+    </message>
+    <message>
+        <source>Unable to initialize broadcast socket</source>
+        <translation>Socket pro vysílání se nepodařilo spustit</translation>
+    </message>
+    <message>
+        <source>Attempt to use IPv6 socket on a platform with no IPv6 support</source>
+        <translation>Vyzkoušelo se použít IPv6 socket na systému bez podpory IPv6</translation>
+    </message>
+    <message>
+        <source>The remote host closed the connection</source>
+        <translation>Vzdálený počítač uzavřel spojení</translation>
+    </message>
+    <message>
+        <source>Network operation timed out</source>
+        <translation>Časový limit pro síťovou operaci byl překročen</translation>
+    </message>
+    <message>
+        <source>Out of resources</source>
+        <translation>Nejsou dostupné žádné zdroje</translation>
+    </message>
+    <message>
+        <source>Unsupported socket operation</source>
+        <translation>Nepodporovaná socket operace</translation>
+    </message>
+    <message>
+        <source>Protocol type not supported</source>
+        <translation>Protokol tohoto typu není podporován</translation>
+    </message>
+    <message>
+        <source>Invalid socket descriptor</source>
+        <translation>Neplatný deskriptor socketu</translation>
+    </message>
+    <message>
+        <source>Host unreachable</source>
+        <translation>Cílový počítač je nedosažitelný</translation>
+    </message>
+    <message>
+        <source>Network unreachable</source>
+        <translation>Síť není dosažitelná</translation>
+    </message>
+    <message>
+        <source>Permission denied</source>
+        <translation>Přístup odepřen</translation>
+    </message>
+    <message>
+        <source>Connection timed out</source>
+        <translation>Časový limit pro spojení byl překročen</translation>
+    </message>
+    <message>
+        <source>Connection refused</source>
+        <translation>Spojení bylo odmítnuto</translation>
+    </message>
+    <message>
+        <source>The bound address is already in use</source>
+        <translation>Uvedená adresa se už používá</translation>
+    </message>
+    <message>
+        <source>The address is not available</source>
+        <translation>Adresa není dostupná</translation>
+    </message>
+    <message>
+        <source>The address is protected</source>
+        <translation>Adresa je chráněna</translation>
+    </message>
+    <message>
+        <source>Datagram was too large to send</source>
+        <translation>Datagram byl pro odeslání příliš veliký</translation>
+    </message>
+    <message>
+        <source>Unable to send a message</source>
+        <translation>Nepodařilo se odeslat zprávu</translation>
+    </message>
+    <message>
+        <source>Unable to receive a message</source>
+        <translation>Zprávu se nepodařilo přijmout</translation>
+    </message>
+    <message>
+        <source>Unable to write</source>
+        <translation>Nepodařilo se zapsat</translation>
+    </message>
+    <message>
+        <source>Network error</source>
+        <translation>Síťová chyba</translation>
+    </message>
+    <message>
+        <source>Another socket is already listening on the same port</source>
+        <translation>Na tomto portu již naslouchá jiný socket</translation>
+    </message>
+    <message>
+        <source>Operation on non-socket</source>
+        <translation>Operaci mimo socket</translation>
+    </message>
+    <message>
+        <source>The proxy type is invalid for this operation</source>
+        <translation>Tuto operaci nelze s tímto typem proxy provést</translation>
+    </message>
+    <message>
+        <source>The address is invalid for this operation</source>
+        <translation>Adresa pro tuto operaci není platná</translation>
+    </message>
+    <message>
+        <source>The specified network session is not opened</source>
+        <translation>Zadané síťové sezení není otevřeno</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>Neznámá chyba</translation>
+    </message>
+</context>
+<context>
     <name>QSystemSemaphore</name>
     <message>
         <source>%1: does not exist</source>
@@ -6836,6 +7194,10 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     <message>
         <source>%1: already exists</source>
         <translation>%1: Již existuje</translation>
+    </message>
+    <message>
+        <source>%1: name error</source>
+        <translation>%1: Chybný název</translation>
     </message>
     <message>
         <source>%1: unknown error %2</source>
@@ -6858,7 +7220,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Unable to use database</source>
-        <translation>Datatbázi se nepodařilo použít</translation>
+        <translation>Databázi se nepodařilo použít</translation>
     </message>
 </context>
 <context>
@@ -6871,12 +7233,32 @@ Zvolte, prosím, pro soubor jiný název.</translation>
         <source>Scroll Right</source>
         <translation>Projíždět doprava</translation>
     </message>
+    <message>
+        <source>Close</source>
+        <translation>Zavřít</translation>
+    </message>
+    <message>
+        <source>Activate</source>
+        <translation>Spustit</translation>
+    </message>
+    <message>
+        <source>Press</source>
+        <translation>Stisknout</translation>
+    </message>
+    <message>
+        <source>Close the tab</source>
+        <translation>Zavřít kartu</translation>
+    </message>
+    <message>
+        <source>Activate the tab</source>
+        <translation>Zapnout kartu</translation>
+    </message>
 </context>
 <context>
     <name>QTcpServer</name>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>Tato zásuvková (socket) operace není podporována</translation>
+        <translation>Tato socket operace není podporována</translation>
     </message>
 </context>
 <context>
@@ -6929,18 +7311,36 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     <name>QUdpSocket</name>
     <message>
         <source>This platform does not support IPv6</source>
-        <translation>Tato patforma nepodpotuje IPv6</translation>
+        <translation>Tato platforma nepodporuje IPv6</translation>
     </message>
 </context>
 <context>
     <name>QUndoGroup</name>
     <message>
         <source>Redo</source>
-        <translation>Znovu</translation>
+        <translation type="obsolete">Znovu</translation>
     </message>
     <message>
         <source>Undo</source>
+        <translation type="obsolete">Zpět</translation>
+    </message>
+    <message>
+        <source>Undo %1</source>
+        <translation>Zpět %1</translation>
+    </message>
+    <message>
+        <source>Undo</source>
+        <comment>Default text for undo action</comment>
         <translation>Zpět</translation>
+    </message>
+    <message>
+        <source>Redo %1</source>
+        <translation>Znovu %1</translation>
+    </message>
+    <message>
+        <source>Redo</source>
+        <comment>Default text for redo action</comment>
+        <translation>Znovu</translation>
     </message>
 </context>
 <context>
@@ -6954,22 +7354,40 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     <name>QUndoStack</name>
     <message>
         <source>Redo</source>
-        <translation>Znovu</translation>
+        <translation type="obsolete">Znovu</translation>
     </message>
     <message>
         <source>Undo</source>
+        <translation type="obsolete">Zpět</translation>
+    </message>
+    <message>
+        <source>Undo %1</source>
+        <translation>Zpět %1</translation>
+    </message>
+    <message>
+        <source>Undo</source>
+        <comment>Default text for undo action</comment>
         <translation>Zpět</translation>
+    </message>
+    <message>
+        <source>Redo %1</source>
+        <translation>Znovu %1</translation>
+    </message>
+    <message>
+        <source>Redo</source>
+        <comment>Default text for redo action</comment>
+        <translation>Znovu</translation>
     </message>
 </context>
 <context>
     <name>QUnicodeControlCharacterMenu</name>
     <message>
         <source>RLE Start of right-to-left embedding</source>
-        <translation>RLE Začátek zapuštění zprava doleva (right-to-left embedding)</translation>
+        <translation>RLE Začátek vložení zprava doleva</translation>
     </message>
     <message>
         <source>ZWSP Zero width space</source>
-        <translation>ZWSP Prostor s nulovou šířkou (Zero width space)</translation>
+        <translation>ZWSP Nulová mezera</translation>
     </message>
     <message>
         <source>Insert Unicode control character</source>
@@ -6977,35 +7395,35 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>LRO Start of left-to-right override</source>
-        <translation>LRO Začátek zrušení zleva doprava (left-to-right override)</translation>
+        <translation>LRO Začátek přepsání zleva doprava</translation>
     </message>
     <message>
         <source>LRE Start of left-to-right embedding</source>
-        <translation>LRE Začátek zapuštění zleva doprava (right-to-left embedding)</translation>
+        <translation>LRE Začátek vložení zleva doprava</translation>
     </message>
     <message>
         <source>RLM Right-to-left mark</source>
-        <translation>RLM Značka zprava doleva (Right-to-left mark)</translation>
+        <translation>RLM Značka zprava doleva</translation>
     </message>
     <message>
         <source>PDF Pop directional formatting</source>
-        <translation>PDF Vsunout směrové formátování (Pop directional formatting)</translation>
+        <translation>PDF Konec vložení/přepsání směru</translation>
     </message>
     <message>
         <source>ZWNJ Zero width non-joiner</source>
-        <translation>ZWNJ Nespojovač s nulovou šířkou (Zero width non-joiner)</translation>
+        <translation>ZWNJ Nulová mezera nespojovací</translation>
     </message>
     <message>
         <source>RLO Start of right-to-left override</source>
-        <translation>RLO Začátek zrušení zprava doleva (right-to-left override)</translation>
+        <translation>RLO Začátek přepsání zprava doleva</translation>
     </message>
     <message>
         <source>ZWJ Zero width joiner</source>
-        <translation>ZWJ Spojovač s nulovou šířkou (Zero width joiner)</translation>
+        <translation>ZWJ Nulová mezera spojovací</translation>
     </message>
     <message>
         <source>LRM Left-to-right mark</source>
-        <translation>LRM Značka zleva doprava (Left-to-right mark)</translation>
+        <translation>LRM Značka zleva doprava</translation>
     </message>
 </context>
 <context>
@@ -7019,12 +7437,20 @@ Zvolte, prosím, pro soubor jiný název.</translation>
         <translation>Požadavek byl zrušen</translation>
     </message>
     <message>
+        <source>Request canceled</source>
+        <translation>Požadavek byl zrušen</translation>
+    </message>
+    <message>
         <source>Cannot show URL</source>
         <translation>Adresu (URL) nelze ukázat</translation>
     </message>
     <message>
         <source>Frame load interrupted by policy change</source>
         <translation>Nahrání rámce bylo přerušeno změnou směrnice</translation>
+    </message>
+    <message>
+        <source>Loading is handled by the media engine</source>
+        <translation>O nahrávání se stará multimediální stroj</translation>
     </message>
     <message>
         <source>Frame load interruped by policy change</source>
@@ -7123,7 +7549,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Select all</source>
-        <translation>Vybrat vše</translation>
+        <translation type="obsolete">Vybrat vše</translation>
     </message>
     <message>
         <source>Select to the start of the line</source>
@@ -7319,6 +7745,11 @@ Zvolte, prosím, pro soubor jiný název.</translation>
         <translation>Nebyl vybrán žádný soubor</translation>
     </message>
     <message>
+        <source>Details</source>
+        <comment>text to display in &lt;details&gt; tag when it has no &lt;summary&gt; child</comment>
+        <translation>Podrobnosti</translation>
+    </message>
+    <message>
         <source>Open in New Window</source>
         <comment>Open in New Window context menu item</comment>
         <translation>Otevřít v novém okně</translation>
@@ -7336,17 +7767,72 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     <message>
         <source>Open Image</source>
         <comment>Open Image in New Window context menu item</comment>
-        <translation>Vyobrazení otevřít v novém okně</translation>
+        <translation>Obrázek otevřít v novém okně</translation>
     </message>
     <message>
         <source>Save Image</source>
         <comment>Download Image context menu item</comment>
-        <translation>Uložit vyobrazení</translation>
+        <translation>Uložit obrázek</translation>
     </message>
     <message>
         <source>Copy Image</source>
         <comment>Copy Link context menu item</comment>
-        <translation>Kopírovat vyobrazení</translation>
+        <translation>Kopírovat obrázek</translation>
+    </message>
+    <message>
+        <source>Copy Image Address</source>
+        <comment>Copy Image Address menu item</comment>
+        <translation>Kopírovat adresu obrázku</translation>
+    </message>
+    <message>
+        <source>Open Video</source>
+        <comment>Open Video in New Window</comment>
+        <translation>Otevřít video</translation>
+    </message>
+    <message>
+        <source>Open Audio</source>
+        <comment>Open Audio in New Window</comment>
+        <translation>Otevřít zvuk</translation>
+    </message>
+    <message>
+        <source>Copy Video</source>
+        <comment>Copy Video Link Location</comment>
+        <translation>Kopírovat video</translation>
+    </message>
+    <message>
+        <source>Copy Audio</source>
+        <comment>Copy Audio Link Location</comment>
+        <translation>Kopírovat umístění odkazu na zvuk</translation>
+    </message>
+    <message>
+        <source>Toggle Controls</source>
+        <comment>Toggle Media Controls</comment>
+        <translation>Přepnout ovládání</translation>
+    </message>
+    <message>
+        <source>Toggle Loop</source>
+        <comment>Toggle Media Loop Playback</comment>
+        <translation>Přepnout smyčku</translation>
+    </message>
+    <message>
+        <source>Enter Fullscreen</source>
+        <comment>Switch Video to Fullscreen</comment>
+        <translation>Vejít do režimu na celou obrazovku</translation>
+    </message>
+    <message>
+        <source>Play</source>
+        <comment>Play</comment>
+        <translation>Přehrát</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <comment>Pause</comment>
+        <translation>Pozastavit</translation>
+    </message>
+    <message>
+        <source>Mute</source>
+        <comment>Mute</comment>
+        <translation>Ztlumit</translation>
     </message>
     <message>
         <source>Open Frame</source>
@@ -7387,6 +7873,11 @@ Zvolte, prosím, pro soubor jiný název.</translation>
         <source>Paste</source>
         <comment>Paste context menu item</comment>
         <translation>Vložit</translation>
+    </message>
+    <message>
+        <source>Select All</source>
+        <comment>Select All context menu item</comment>
+        <translation>Vybrat vše</translation>
     </message>
     <message>
         <source>No Guesses Found</source>
@@ -7866,7 +8357,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Bad HTTP request</source>
-        <translation>Neplatný požadavek HTTP</translation>
+        <translation type="obsolete">Neplatný požadavek HTTP</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -8078,11 +8569,11 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>wrong value for standalone declaration</source>
-        <translation>nesprávná hodnota pro samostatné prohlášení</translation>
+        <translation>nesprávná hodnota vlastnosti standalone</translation>
     </message>
     <message>
         <source>encoding declaration or standalone declaration expected while reading the XML declaration</source>
-        <translation>chybějící prohlášení kódování nebo prohlášení samostatnosti při čtení prohlášení XML</translation>
+        <translation>chybějící deklarace kódování nebo deklarace samostatnosti při čtení deklarace XML</translation>
     </message>
     <message>
         <source>no error occurred</source>
@@ -8094,7 +8585,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>standalone declaration expected while reading the XML declaration</source>
-        <translation>chybějící prohlášení samostatnosti při čtení prohlášení XML</translation>
+        <translation>chybějící deklarace samostatnosti při čtení deklarace XML</translation>
     </message>
     <message>
         <source>invalid name for processing instruction</source>
@@ -8138,7 +8629,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>version expected while reading the XML declaration</source>
-        <translation>chybějící verze při čtení prohlášení XML</translation>
+        <translation>chybějící verze při čtení deklarace XML</translation>
     </message>
     <message>
         <source>letter is expected</source>
@@ -8154,7 +8645,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>error in the text declaration of an external entity</source>
-        <translation>Chyba v prohlášení textu vnější entity</translation>
+        <translation>Chyba v deklaraci textu vnější entity</translation>
     </message>
     <message>
         <source>error occurred while parsing document type definition</source>
@@ -8196,7 +8687,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Illegal namespace declaration.</source>
-        <translation>Neplatné prohlášení jmenného prostoru.</translation>
+        <translation>Neplatná deklarace jmenného prostoru.</translation>
     </message>
     <message>
         <source>Invalid XML character.</source>
@@ -8208,7 +8699,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Standalone accepts only yes or no.</source>
-        <translation>Hodnota pro samostatnou vlastnost může být pouze &quot;ano&quot; nebo &quot;ne&quot;.</translation>
+        <translation>Hodnota pro vlastnost standalone může být pouze &quot;ano&quot; nebo &quot;ne&quot;.</translation>
     </message>
     <message>
         <source>Invalid XML version string.</source>
@@ -8232,7 +8723,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>The standalone pseudo attribute must appear after the encoding.</source>
-        <translation>Samostatná pseudovlastnost musí následovat bezprostředně po kódování.</translation>
+        <translation>Pseudovlastnost standalone musí následovat bezprostředně po kódování.</translation>
     </message>
     <message>
         <source>Sequence &apos;]]&gt;&apos; not allowed in content.</source>
@@ -8268,7 +8759,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Opening and ending tag mismatch.</source>
-        <translation>Počet otevírajících prvků neodpovídá neodpovídá počtu zavírajících prvků.</translation>
+        <translation>Počet otevírajících prvků neodpovídá počtu zavírajících prvků.</translation>
     </message>
     <message>
         <source>Encountered incorrectly encoded content.</source>
@@ -8276,7 +8767,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Invalid attribute in XML declaration.</source>
-        <translation>Prohlášení XML obsahuje neplatnou vlastnost.</translation>
+        <translation>Deklarace XML obsahuje neplatnou vlastnost.</translation>
     </message>
     <message>
         <source>Attribute redefined.</source>
@@ -8300,7 +8791,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>XML declaration not at start of document.</source>
-        <translation>Prohlášení XML se nenachází na začátku dokumentu.</translation>
+        <translation>Deklarace XML se nenachází na začátku dokumentu.</translation>
     </message>
     <message>
         <source>Recursive entity detected.</source>
@@ -8316,7 +8807,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Invalid entity value.</source>
-        <translation>neplatná hodnota entity.</translation>
+        <translation>Neplatná hodnota entity.</translation>
     </message>
     <message>
         <source>Encoding %1 is unsupported</source>
@@ -8324,7 +8815,95 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>NDATA in parameter entity declaration.</source>
-        <translation>Parametrické prohlášení entitynesmí obsahovat žádné NDATA.</translation>
+        <translation>Deklarace parametrické entity nesmí obsahovat NDATA.</translation>
+    </message>
+</context>
+<context>
+    <name>QmlJSDebugger::LiveSelectionTool</name>
+    <message>
+        <source>Items</source>
+        <translation>Položky</translation>
+    </message>
+</context>
+<context>
+    <name>QmlJSDebugger::QmlToolBar</name>
+    <message>
+        <source>Inspector Mode</source>
+        <translation>Režim inspektora</translation>
+    </message>
+    <message>
+        <source>Play/Pause Animations</source>
+        <translation>Přehrát/Pozastavit animace</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Vybrat</translation>
+    </message>
+    <message>
+        <source>Select (Marquee)</source>
+        <translation>Vybrat (Marquee)</translation>
+    </message>
+    <message>
+        <source>Zoom</source>
+        <translation>Přiblížit/Oddálit</translation>
+    </message>
+    <message>
+        <source>Color Picker</source>
+        <translation>Volič barvy</translation>
+    </message>
+    <message>
+        <source>Apply Changes to QML Viewer</source>
+        <translation>Použít změny na prohlížeč QML</translation>
+    </message>
+    <message>
+        <source>Apply Changes to Document</source>
+        <translation>Použít změny na dokument</translation>
+    </message>
+    <message>
+        <source>Tools</source>
+        <translation>Nástroje</translation>
+    </message>
+    <message>
+        <source>1x</source>
+        <translation>1x</translation>
+    </message>
+    <message>
+        <source>0.5x</source>
+        <translation>0.5x</translation>
+    </message>
+    <message>
+        <source>0.25x</source>
+        <translation>0.25x</translation>
+    </message>
+    <message>
+        <source>0.125x</source>
+        <translation>0.125x</translation>
+    </message>
+    <message>
+        <source>0.1x</source>
+        <translation>0.1x</translation>
+    </message>
+</context>
+<context>
+    <name>QmlJSDebugger::ToolBarColorBox</name>
+    <message>
+        <source>Copy Color</source>
+        <translation>Kopírovat barvu</translation>
+    </message>
+</context>
+<context>
+    <name>QmlJSDebugger::ZoomTool</name>
+    <message>
+        <source>Zoom to &amp;100%</source>
+        <translation>Zvětšit na &amp;100%</translation>
+    </message>
+    <message>
+        <source>Zoom In</source>
+        <translation>Přiblížit</translation>
+    </message>
+    <message>
+        <source>Zoom Out</source>
+        <translation>Oddálit</translation>
     </message>
 </context>
 <context>
@@ -8343,11 +8922,11 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>The parameter %1 is required, but no corresponding %2 is supplied.</source>
-        <translation>Nebyl zadán žádný odpovídající %2 pro potřebný parametr %1.</translation>
+        <translation>Pro vyžadovaný parametr %1 nebyl zadán odpovídající %2.</translation>
     </message>
     <message>
         <source>Namespace declarations must occur before function, variable, and option declarations.</source>
-        <translation>Prohlášení jmenných prostorů musí stát před prohlášeními funkcí-, proměnných- nebo prohlášeními voleb.</translation>
+        <translation>Deklarace jmenných prostorů musí stát před prohlášeními funkcí, proměnných nebo prohlášeními voleb.</translation>
     </message>
     <message>
         <source>empty</source>
@@ -8391,7 +8970,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>No function with signature %1 is available</source>
-        <translation>Neexistuje žádná funkce označená jako %1</translation>
+        <translation>Neexistuje žádná funkce s podpisem %1</translation>
     </message>
     <message>
         <source>None of the pragma expressions are supported. Therefore, a fallback expression must be present</source>
@@ -8415,7 +8994,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>The Schema Import feature is not supported, and therefore %1 declarations cannot occur.</source>
-        <translation>Prohlášení %1 je nepřípustné, protože není podporováno zavedení schémat.</translation>
+        <translation>Deklarace %1 je nepřípustná, protože není podporováno zavedení schémat.</translation>
     </message>
     <message>
         <source>Attribute %1 and %2 are mutually exclusive.</source>
@@ -8507,7 +9086,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>A positional predicate must evaluate to a single numeric value.</source>
-        <translation>Poziční přísudek se musí vyhodnotit jako jednoduchá, číselná hodnota.</translation>
+        <translation>Poziční predikát se musí vyhodnotit jako jednoduchá, číselná hodnota.</translation>
     </message>
     <message>
         <source>Element %1 can&apos;t be serialized because it appears outside the document element.</source>
@@ -8555,7 +9134,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Type error in cast, expected %1, received %2.</source>
-        <translation>Chyba psaní u operace předvedení, bylo očekáváno %1, ale přijato %2.</translation>
+        <translation>Chyba typu při přetypování, bylo očekáváno %1, ale přijato %2.</translation>
     </message>
     <message>
         <source>%1 is not a valid numeric literal.</source>
@@ -8595,7 +9174,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>When casting to %1 from %2, the source value cannot be %3.</source>
-        <translation>U operace předvedení z %1 do %2 nesmí být zdrojová hodnota %3.</translation>
+        <translation>Při přetypování z %1 na %2 nesmí být zdrojová hodnota %3.</translation>
     </message>
     <message>
         <source>Attribute %1 can&apos;t be serialized because it appears at the top level.</source>
@@ -8667,7 +9246,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>The namespace for a user defined function cannot be empty (try the predefined prefix %1 which exists for cases like this)</source>
-        <translation>Jmenný prostor uživatelem stanovené funkce nesmí být prázdný (pro tento účel je předstanovená předpona %1)</translation>
+        <translation type="obsolete">Jmenný prostor uživatelem stanovené funkce nesmí být prázdný (pro tento účel je předstanovená předpona %1)</translation>
     </message>
     <message>
         <source>The first operand in an integer division, %1, cannot be infinity (%2).</source>
@@ -8731,7 +9310,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>%1 is an complex type. Casting to complex types is not possible. However, casting to atomic types such as %2 works.</source>
-        <translation>%1 je složeným typem. Operace předvedení u složených typů není možná. Mohou se ovšem provádět operace obsazení u atomárních typů jako %2.</translation>
+        <translation>%1 je složeným typem. Přetypování u složených typů není možné. Může se ovšem provádět přetypování do atomických typů jako %2.</translation>
     </message>
     <message>
         <source>zero or one</source>
@@ -8747,11 +9326,11 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Two namespace declaration attributes have the same name: %1.</source>
-        <translation>Byly nalezeny dvě vlastnosti prohlášení jmenného prostoru se stejným názvem (%1).</translation>
+        <translation>Byly nalezeny dvě vlastnosti deklarace jmenného prostoru se stejným názvem (%1).</translation>
     </message>
     <message>
         <source>Effective Boolean Value cannot be calculated for a sequence containing two or more atomic values.</source>
-        <translation>Skutečná Booleanská hodnota nemůže být vypočítána pro posloupnost ze dvou nebo více atomárních hodnot.</translation>
+        <translation>Skutečná booleanská hodnota nemůže být vypočítána pro posloupnost ze dvou nebo více atomických hodnot.</translation>
     </message>
     <message>
         <source>%1 is an invalid %2</source>
@@ -8831,7 +9410,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Module imports must occur before function, variable, and option declarations.</source>
-        <translation>Zavedení modulů musí nastat před prohlášeními funkcí, proměnných a voleb.</translation>
+        <translation>Zavedení modulů musí nastat před deklaracemi funkcí, proměnných a voleb.</translation>
     </message>
     <message>
         <source>Day %1 is outside the range %2..%3.</source>
@@ -8855,7 +9434,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>A value of type %1 cannot be a predicate. A predicate must have either a numeric type or an Effective Boolean Value type.</source>
-        <translation>Hodnoty typu %1 nesmí ýt přísudkem. Pro přísudky jsou přípustné pouze typ číselný nebo účinný booleánský.</translation>
+        <translation>Hodnoty typu %1 nesmí být predikátem. Pro predikáty jsou přípustné pouze typ číselný nebo účinný booleánský.</translation>
     </message>
     <message>
         <source>%1 is not a valid name for a processing-instruction.</source>
@@ -8879,7 +9458,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>When casting to %1 or types derived from it, the source value must be of the same type, or it must be a string literal. Type %2 is not allowed.</source>
-        <translation>U operace představení k typu %1 nebo odvozených typů musí být zdrojovou hodnotou řetězec znaků tvořený písmeny nebo hodnota stejného typu. Typ %2 je neplatný.</translation>
+        <translation>Při přetypování na typ %1 nebo do odvozených typů musí být zdrojovou hodnotou řetězec znaků tvořený písmeny nebo hodnota stejného typu. Typ %2 je neplatný.</translation>
     </message>
     <message>
         <source>A parameter in a function cannot be declared to be a tunnel.</source>
@@ -8927,7 +9506,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>The Schema Validation Feature is not supported. Hence, %1-expressions may not be used.</source>
-        <translation>%1-výrazy se nemohou používat, protože funkce prohlášení schématu platným není podporována.</translation>
+        <translation>%1-výrazy se nemohou používat, protože funkce ověřování platnosti schématu není podporována.</translation>
     </message>
     <message>
         <source>At least one %1 element must appear as child of %2.</source>
@@ -8963,7 +9542,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>%1 is not an atomic type. Casting is only possible to atomic types.</source>
-        <translation>%1 není atomárním typem. Operace představení se dají provádět pouze s atomárními typy.</translation>
+        <translation>%1 není atomickým typem. Přetypování se dá provádět pouze s atomickými typy.</translation>
     </message>
     <message>
         <source>The first argument to %1 cannot be of type %2.</source>
@@ -8991,11 +9570,11 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>A default namespace declaration must occur before function, variable, and option declarations.</source>
-        <translation>Prohlášení výchozích jmenných prostorů musí stát před prohlášeními funkcí-, proměnných- nebo prohlášeními voleb.</translation>
+        <translation>Deklarace výchozích jmenných prostorů musí stát před deklaracemi funkcí-, proměnných- nebo deklaracemi voleb.</translation>
     </message>
     <message>
         <source>Operator %1 cannot be used on atomic values of type %2 and %3.</source>
-        <translation>Operátor %1 se nemůže používat u atomárních hodnot typů %2 a %3.</translation>
+        <translation>Operátor %1 se nemůže používat u atomických hodnot typů %2 a %3.</translation>
     </message>
     <message>
         <source>The module import feature is not supported</source>
@@ -9138,6 +9717,10 @@ Zvolte, prosím, pro soubor jiný název.</translation>
         <translation>Pro vnější proměnnou s názvem %1 není dostupná žádná hodnota.</translation>
     </message>
     <message>
+        <source>The namespace for a user defined function cannot be empty (try the predefined prefix %1, which exists for cases like this)</source>
+        <translation>Jmenný prostor uživatelem stanovené funkce nesmí být prázdný (pro tento účel je přednastavena předpona (prefix) %1)</translation>
+    </message>
+    <message>
         <source>An argument with name %1 has already been declared. Every argument name must be unique.</source>
         <translation>Již byl prohlášen jeden argument s názvem %1. Názvy argumentů musí být jednoznačné.</translation>
     </message>
@@ -9195,7 +9778,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Only one %1 declaration can occur in the query prolog.</source>
-        <translation>Předmluva k dotazu (prolog) smí obsahovat pouze jedno %1-prohlášení.</translation>
+        <translation>Prolog k dotazu smí obsahovat pouze jednu %1 deklaraci.</translation>
     </message>
     <message>
         <source>Element %1 must have at least one of the attributes %2 or %3.</source>
@@ -9211,7 +9794,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>The last step in a path must contain either nodes or atomic values. It cannot be a mixture between the two.</source>
-        <translation>Poslední krok cesty musí obsahovat buď jen uzly nebo jen atomární hodnoty. Nesmí se vyskytovat společně.</translation>
+        <translation>Poslední krok cesty musí obsahovat buď jen uzly nebo jen atomické hodnoty. Nesmí se vyskytovat společně.</translation>
     </message>
     <message>
         <source>Empty particle cannot be derived from non-empty particle.</source>
@@ -9303,19 +9886,19 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Simple type %1 can only have simple atomic type as base type.</source>
-        <translation>Jednoduchý typ %1 může mít jen jednoduchý malinký základní typ.</translation>
+        <translation>Jednoduchý typ %1 může mít jen jednoduchý atomický základní typ.</translation>
     </message>
     <message>
         <source>Simple type %1 cannot derive from %2 as the latter defines restriction as final.</source>
-        <translation>Jednoduchý typ %1 nesmí být odvozen z %2 , neboť poslední určuje omezení jako konečné.</translation>
+        <translation>Jednoduchý typ %1 nesmí být odvozen z %2 , kterýžto určuje omezení jako konečné.</translation>
     </message>
     <message>
         <source>Variety of item type of %1 must be either atomic or union.</source>
-        <translation>Rozmanitost složkových typů %1 musí být buď malinká nebo sjednocení.</translation>
+        <translation>Typ prvku %1 musí být druhu atomického anebo druhu sjednocení.</translation>
     </message>
     <message>
         <source>Variety of member types of %1 must be atomic.</source>
-        <translation>Rozmanitost členských typů %1 musí být malinká.</translation>
+        <translation>Typy členů %1 musí být druhu atomického.</translation>
     </message>
     <message>
         <source>%1 is not allowed to derive from %2 by list as the latter defines it as final.</source>
@@ -9323,11 +9906,11 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Simple type %1 is only allowed to have %2 facet.</source>
-        <translation>Jednoduchý typ %1 může mít jen stránky %2.</translation>
+        <translation>Jednoduchý typ %1 může mít jen omezující vlastnosti %2.</translation>
     </message>
     <message>
         <source>Base type of simple type %1 must have variety of type list.</source>
-        <translation>Základní typ jednoduchého typu %1 musí mít rozmanitost seznamu typů.</translation>
+        <translation>Základní typ jednoduchého typu %1 musí být druhu seznamu typů.</translation>
     </message>
     <message>
         <source>Base type of simple type %1 has defined derivation by restriction as final.</source>
@@ -9339,7 +9922,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Simple type %1 contains not allowed facet type %2.</source>
-        <translation>Jednoduchý typ %1 obsahuje nedovolený typ stránky %2.</translation>
+        <translation>Jednoduchý typ %1 obsahuje nedovolený typ omezující vlastnosti %2.</translation>
     </message>
     <message>
         <source>%1 is not allowed to derive from %2 by union as the latter defines it as final.</source>
@@ -9347,11 +9930,11 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>%1 is not allowed to have any facets.</source>
-        <translation>%1 nesmí mít žádné stránky.</translation>
+        <translation>%1 nesmí mít žádné omezující vlastnosti.</translation>
     </message>
     <message>
         <source>Base type %1 of simple type %2 must have variety of union.</source>
-        <translation>Základní typ %1 jednoduchého typu %2 musí mít rozmanitost sjednocení typů.</translation>
+        <translation>Základní typ %1 jednoduchého typu %2 musí být druhu sjednocení.</translation>
     </message>
     <message>
         <source>Base type %1 of simple type %2 is not allowed to have restriction in %3 attribute.</source>
@@ -9363,7 +9946,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Derivation method of %1 must be extension because the base type %2 is a simple type.</source>
-        <translation>Rozšíření s musí používat jako způsob dědičnosti (odvození) pro %1, neboť základní typ %2 je jednoduchým typem.</translation>
+        <translation>Rozšíření musí používat jako způsob dědičnosti (odvození) pro %1, neboť základní typ %2 je jednoduchým typem.</translation>
     </message>
     <message>
         <source>Complex type %1 has duplicated element %2 in its content model.</source>
@@ -9371,7 +9954,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Complex type %1 has non-deterministic content.</source>
-        <translation>Složitý typ %1 má ne-neměnný obsah.</translation>
+        <translation>Složitý typ %1 nemá deterministický obsah.</translation>
     </message>
     <message>
         <source>Attributes of complex type %1 are not a valid extension of the attributes of base type %2: %3.</source>
@@ -9415,79 +9998,79 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>%1 facet collides with %2 facet.</source>
-        <translation>Stránka %1 se střetává se stránkou %2.</translation>
+        <translation>Omezující vlastnost %1 se střetává s omezující vlastností %2.</translation>
     </message>
     <message>
         <source>%1 facet must have the same value as %2 facet of base type.</source>
-        <translation>Stránka %1 musí mít tutéž hodnotu, jakou má stránka %2 základního typu.</translation>
+        <translation>Omezující vlastnost %1 musí mít tutéž hodnotu, jakou má omezující vlastnost %2 základního typu.</translation>
     </message>
     <message>
         <source>%1 facet must be equal or greater than %2 facet of base type.</source>
-        <translation>Stránka %1 musí být stejná nebo větší než stránka %2 základního typu.</translation>
+        <translation>Omezující vlastnost %1 musí být stejná nebo větší než omezující vlastnost %2 základního typu.</translation>
     </message>
     <message>
         <source>%1 facet must be less than or equal to %2 facet of base type.</source>
-        <translation>Stránka %1 musí být menší nebo stejná jako stránka %2 základního typu.</translation>
+        <translation>Omezující vlastnost %1 musí být menší nebo stejná jako omezující vlastnost %2 základního typu.</translation>
     </message>
     <message>
         <source>%1 facet contains invalid regular expression</source>
-        <translation>Stránka %1 obsahuje neplatný pravidelný výraz</translation>
+        <translation>Omezující vlastnost %1 obsahuje neplatný pravidelný výraz</translation>
     </message>
     <message>
         <source>Unknown notation %1 used in %2 facet.</source>
-        <translation>Stránka %2 obsahuje neplatné zaznamenání %1.</translation>
+        <translation>Omezující vlastnost %2 obsahuje neplatný zápis %1.</translation>
     </message>
     <message>
         <source>%1 facet contains invalid value %2: %3.</source>
-        <translation>Stránka %1 obsahuje neplatnou hodnotu %2: %3.</translation>
+        <translation>Omezující vlastnost %1 obsahuje neplatnou hodnotu %2: %3.</translation>
     </message>
     <message>
         <source>%1 facet cannot be %2 or %3 if %4 facet of base type is %5.</source>
-        <translation>Stránka %1 nesmí být %2 nebo %3, pokud je stránka %4 základního typu %5.</translation>
+        <translation>Omezující vlastnost %1 nesmí být %2 nebo %3, pokud je omezující vlastnost %4 základního typu %5.</translation>
     </message>
     <message>
         <source>%1 facet cannot be %2 if %3 facet of base type is %4.</source>
-        <translation>Stránka %1 nesmí být %2, pokud je stránka %3 základního typu %4.</translation>
+        <translation>Omezující vlastnost %1 nesmí být %2, pokud je omezující vlastnost %3 základního typu %4.</translation>
     </message>
     <message>
         <source>%1 facet must be less than or equal to %2 facet.</source>
-        <translation>Stránka %1 musí být menší nebo stejná jako stránka %2.</translation>
+        <translation>Omezující vlastnost %1 musí být menší nebo stejná jako omezující vlastnost %2.</translation>
     </message>
     <message>
         <source>%1 facet must be less than %2 facet of base type.</source>
-        <translation>Stránka %1 musí být menší než stránka %2 základního typu.</translation>
+        <translation>Omezující vlastnost %1 musí být menší než omezující vlastnost %2 základního typu.</translation>
     </message>
     <message>
         <source>%1 facet and %2 facet cannot appear together.</source>
-        <translation>Stránky %1 a %2 se nemohou objevit spolu.</translation>
+        <translation>Omezující vlastnosti %1 a %2 se nemohou objevit spolu.</translation>
     </message>
     <message>
         <source>%1 facet must be greater than %2 facet of base type.</source>
-        <translation>Stránka %1 musí být větší než stránka %2 základního typu.</translation>
+        <translation>Omezující vlastnost %1 musí být větší než omezující vlastnost %2 základního typu.</translation>
     </message>
     <message>
         <source>%1 facet must be less than %2 facet.</source>
-        <translation>Stránka %1 musí být menší než stránka %2.</translation>
+        <translation>Omezující vlastnost %1 musí být menší než omezující vlastnost %2.</translation>
     </message>
     <message>
         <source>%1 facet must be greater than or equal to %2 facet of base type.</source>
-        <translation>Stránka %1 musí být větší nebo stejná jako stránka %2 základního typu.</translation>
+        <translation>Omezující vlastnost %1 musí být větší nebo stejná jako omezující vlastnost %2 základního typu.</translation>
     </message>
     <message>
         <source>Simple type contains not allowed facet %1.</source>
-        <translation>Jednoduchý typ obsahuje nedovolenou stránku %1.</translation>
+        <translation>Jednoduchý typ obsahuje nedovolenou omezující vlastnost %1.</translation>
     </message>
     <message>
         <source>%1, %2, %3, %4, %5 and %6 facets are not allowed when derived by list.</source>
-        <translation>Stránky %1, %2, %3, %4, %5 a %6 nejsou při odvození (dědičnosti) pomocí seznamu dovoleny.</translation>
+        <translation>Omezující vlastnosti %1, %2, %3, %4, %5 a %6 nejsou při odvození (dědičnosti) pomocí seznamu dovoleny.</translation>
     </message>
     <message>
         <source>Only %1 and %2 facets are allowed when derived by union.</source>
-        <translation>Při odvození (dědičnosti) pomocí sjednocení jsou dovoleny pouze stránky %1 a %2.</translation>
+        <translation>Při odvození (dědičnosti) pomocí sjednocení jsou dovoleny pouze omezující vlastnosti %1 a %2.</translation>
     </message>
     <message>
         <source>%1 contains %2 facet with invalid data: %3.</source>
-        <translation>%1 obsahuje stránku %2 s neplatnými daty: %3.</translation>
+        <translation>%1 obsahuje omezující vlastnost %2 s neplatnými daty: %3.</translation>
     </message>
     <message>
         <source>Attribute group %1 contains attribute %2 twice.</source>
@@ -9567,7 +10150,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Particle contains non-deterministic wildcards.</source>
-        <translation>Částice obsahuje ne-neměnné zástupné symboly (vzory hledání).</translation>
+        <translation>Částice má nedeterministické zástupné symboly (vzory hledání).</translation>
     </message>
     <message>
         <source>Base attribute %1 is required but derived attribute is not.</source>
@@ -9587,19 +10170,19 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Derived attribute %1 does not exist in the base definition.</source>
-        <translation>Odvozená vlastnost %1 neexistuje v základním vymezení.</translation>
+        <translation>Odvozená vlastnost %1 neexistuje v základní definici.</translation>
     </message>
     <message>
         <source>Derived attribute %1 does not match the wildcard in the base definition.</source>
-        <translation>Odvozená vlastnost %1 neodpovídá zástupnému symbolu (vzoru hledání) v základním vymezení.</translation>
+        <translation>Odvozená vlastnost %1 neodpovídá zástupnému symbolu (vzoru hledání) v základní definici.</translation>
     </message>
     <message>
         <source>Base attribute %1 is required but missing in derived definition.</source>
-        <translation>Základní vlastnost %1 je vyžadována, ale chybí v odvozeném vymezení.</translation>
+        <translation>Základní vlastnost %1 je vyžadována, ale chybí v odvozené definici.</translation>
     </message>
     <message>
         <source>Derived definition contains an %1 element that does not exists in the base definition</source>
-        <translation>Odvozené vymezení obsahuje prvek %1, který v základním vymezení neexistuje</translation>
+        <translation>Odvozená definice obsahuje prvek %1, který v základní definici neexistuje</translation>
     </message>
     <message>
         <source>Derived wildcard is not a subset of the base wildcard.</source>
@@ -9619,7 +10202,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Base definition contains an %1 element that is missing in the derived definition</source>
-        <translation>Základní vymezení obsahuje prvek %1, který v odvozeném vymezení chybí</translation>
+        <translation>Základní definice obsahuje prvek %1, který v odvozené definici chybí</translation>
     </message>
     <message>
         <source>Can not process unknown element %1, expected elements are: %2.</source>
@@ -9779,7 +10362,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Duplicated facets in simple type %1.</source>
-        <translation>Zdvojené stránky v jednoduchém typu %1.</translation>
+        <translation>Zdvojené omezující vlastnosti v jednoduchém typu %1.</translation>
     </message>
     <message>
         <source>%1 references unknown %2 or %3 element %4.</source>
@@ -9819,7 +10402,11 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Content model of complex type %1 contains %2 element so it cannot be derived by extension from a non-empty type.</source>
-        <translation>Model obsahu složitého typu %1 obsahuje prvek %2; nelze jej proto odvodit pomocí rozšíření z ne-prázdného typu.</translation>
+        <translation type="obsolete">Model obsahu složitého typu %1 obsahuje prvek %2; nelze jej proto odvodit pomocí rozšíření z ne-prázdného typu.</translation>
+    </message>
+    <message>
+        <source>Content model of complex type %1 contains %2 element, so it cannot be derived by extension from a non-empty type.</source>
+        <translation>Model obsahu složitého typu %1 obsahuje prvek %2; nelze jej proto odvodit pomocí rozšíření z neprázdného typu.</translation>
     </message>
     <message>
         <source>Complex type %1 cannot be derived by extension from %2 as the latter contains %3 element in its content model.</source>
@@ -9835,7 +10422,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Substitution group %1 has circular definition.</source>
-        <translation>Skupina nahrazení %1 má v kruzích prováděné vymezení.</translation>
+        <translation>Skupina nahrazení %1 má má cyklickou definici.</translation>
     </message>
     <message>
         <source>Duplicated element names %1 in %2 element.</source>
@@ -9867,7 +10454,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Attribute group %1 has circular reference.</source>
-        <translation>Skupina vlastnosti %1 má kruzích prováděný odkaz.</translation>
+        <translation>Skupina vlastnosti %1 má cyklický odkaz.</translation>
     </message>
     <message>
         <source>%1 attribute in %2 must have %3 use like in base type %4.</source>
@@ -9887,7 +10474,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Enumeration facet contains invalid content: {%1} is not a value of type %2.</source>
-        <translation>Výčtová stránka obsahuje neplatný obsah: {%1} není hodnotou typu %2.</translation>
+        <translation>Výčtová omezující vlastnost obsahuje neplatný obsah: {%1} není hodnotou typu %2.</translation>
     </message>
     <message>
         <source>Namespace prefix of qualified name %1 is not defined.</source>
@@ -9903,179 +10490,179 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>String content does not match the length facet.</source>
-        <translation>Obsah řetězce znaků neodpovídá stránce délky.</translation>
+        <translation>Obsah řetězce znaků neodpovídá omezující vlastnosti délky.</translation>
     </message>
     <message>
         <source>String content does not match the minLength facet.</source>
-        <translation>Obsah řetězce znaků neodpovídá stránce délky (nejmenší údaj, &apos;minLength&apos;).</translation>
+        <translation>Obsah řetězce znaků neodpovídá omezující vlastnosti délky (nejmenší; &apos;minLength&apos;).</translation>
     </message>
     <message>
         <source>String content does not match the maxLength facet.</source>
-        <translation>Obsah řetězce znaků neodpovídá stránce délky (největší údaj; &apos;maxLength&apos;).</translation>
+        <translation>Obsah řetězce znaků neodpovídá omezující vlastnosti délky (největší; &apos;maxLength&apos;).</translation>
     </message>
     <message>
         <source>String content does not match pattern facet.</source>
-        <translation>Obsah řetězce znaků neodpovídá stránce vzoru pro hledání.</translation>
+        <translation>Obsah řetězce znaků neodpovídá omezující vlastnosti vzoru pro hledání.</translation>
     </message>
     <message>
         <source>String content is not listed in the enumeration facet.</source>
-        <translation>Obsah řetězce znaků není obsažen ve výčtové stránce.</translation>
+        <translation>Obsah řetězce znaků není obsažen ve výčtové omezující vlastnosti.</translation>
     </message>
     <message>
         <source>Signed integer content does not match the maxInclusive facet.</source>
-        <translation>Celočíselná hodnota označená znaménkem neodpovídá stránce &apos;maxInclusive&apos;.</translation>
+        <translation>Celočíselná hodnota označená znaménkem neodpovídá omezující vlastnosti &apos;maxInclusive&apos;.</translation>
     </message>
     <message>
         <source>Signed integer content does not match the maxExclusive facet.</source>
-        <translation>Celočíselná hodnota označená znaménkem neodpovídá stránce &apos;maxExclusive&apos;.</translation>
+        <translation>Celočíselná hodnota označená znaménkem neodpovídá omezující vlastnosti &apos;maxExclusive&apos;.</translation>
     </message>
     <message>
         <source>Signed integer content does not match the minInclusive facet.</source>
-        <translation>Celočíselná hodnota označená znaménkem neodpovídá stránce &apos;minInclusive&apos;.</translation>
+        <translation>Celočíselná hodnota označená znaménkem neodpovídá omezující vlastnosti &apos;minInclusive&apos;.</translation>
     </message>
     <message>
         <source>Signed integer content does not match the minExclusive facet.</source>
-        <translation>Celočíselná hodnota označená znaménkem neodpovídá stránce &apos;minExclusive&apos;.</translation>
+        <translation>Celočíselná hodnota označená znaménkem neodpovídá omezující vlastnosti &apos;minExclusive&apos;.</translation>
     </message>
     <message>
         <source>Signed integer content is not listed in the enumeration facet.</source>
-        <translation>Celočíselná hodnota označená znaménkem není obsažena ve výčtové stránce.</translation>
+        <translation>Celočíselná hodnota označená znaménkem není obsažena ve výčtové omezující vlastnosti.</translation>
     </message>
     <message>
         <source>Signed integer content does not match pattern facet.</source>
-        <translation>Celočíselná hodnota označená znaménkem neodpovídá stránce vzoru pro hledání.</translation>
+        <translation>Celočíselná hodnota označená znaménkem neodpovídá omezující vlastnosti vzoru pro hledání.</translation>
     </message>
     <message>
         <source>Signed integer content does not match in the totalDigits facet.</source>
-        <translation>Celočíselná hodnota označená znaménkem neodpovídá stránce &apos;totalDigits&apos;.</translation>
+        <translation>Celočíselná hodnota označená znaménkem neodpovídá omezující vlastnosti &apos;totalDigits&apos;.</translation>
     </message>
     <message>
         <source>Unsigned integer content does not match the maxInclusive facet.</source>
-        <translation>Celočíselná hodnota jsoucí bez znaménka neodpovídá stránce &apos;maxInclusive&apos;.</translation>
+        <translation>Celočíselná hodnota jsoucí bez znaménka neodpovídá omezující vlastnosti &apos;maxInclusive&apos;.</translation>
     </message>
     <message>
         <source>Unsigned integer content does not match the maxExclusive facet.</source>
-        <translation>Celočíselná hodnota jsoucí bez znaménka neodpovídá stránce &apos;maxExclusive&apos;.</translation>
+        <translation>Celočíselná hodnota jsoucí bez znaménka neodpovídá omezující vlastnosti &apos;maxExclusive&apos;.</translation>
     </message>
     <message>
         <source>Unsigned integer content does not match the minInclusive facet.</source>
-        <translation>Celočíselná hodnota jsoucí bez znaménka neodpovídá stránce &apos;minInclusive&apos;.</translation>
+        <translation>Celočíselná hodnota jsoucí bez znaménka neodpovídá omezující vlastnosti &apos;minInclusive&apos;.</translation>
     </message>
     <message>
         <source>Unsigned integer content does not match the minExclusive facet.</source>
-        <translation>Celočíselná hodnota jsoucí bez znaménka neodpovídá stránce &apos;minExclusive&apos;.</translation>
+        <translation>Celočíselná hodnota jsoucí bez znaménka neodpovídá omezující vlastnosti &apos;minExclusive&apos;.</translation>
     </message>
     <message>
         <source>Unsigned integer content is not listed in the enumeration facet.</source>
-        <translation>Celočíselná hodnota jsoucí bez znaménka není obsažena ve výčtové stránce.</translation>
+        <translation>Celočíselná hodnota jsoucí bez znaménka není obsažena ve výčtové omezující vlastnosti.</translation>
     </message>
     <message>
         <source>Unsigned integer content does not match pattern facet.</source>
-        <translation>Celočíselná hodnota jsoucí bez znaménka neodpovídá stránce vzoru pro hledání.</translation>
+        <translation>Celočíselná hodnota jsoucí bez znaménka neodpovídá omezující vlastnosti vzoru pro hledání.</translation>
     </message>
     <message>
         <source>Unsigned integer content does not match in the totalDigits facet.</source>
-        <translation>Celočíselná hodnota jsoucí bez znaménka neodpovídá stránce &apos;totalDigits&apos;.</translation>
+        <translation>Celočíselná hodnota jsoucí bez znaménka neodpovídá omezující vlastnosti &apos;totalDigits&apos;.</translation>
     </message>
     <message>
         <source>Double content does not match the maxInclusive facet.</source>
-        <translation>Číslo s pohyblivou čárkou neodpovídá stránce &apos;maxInclusive&apos;.</translation>
+        <translation>Číslo s pohyblivou čárkou neodpovídá omezující vlastnosti &apos;maxInclusive&apos;.</translation>
     </message>
     <message>
         <source>Double content does not match the maxExclusive facet.</source>
-        <translation>Číslo s pohyblivou čárkou neodpovídá stránce &apos;maxExclusive&apos;.</translation>
+        <translation>Číslo s pohyblivou čárkou neodpovídá omezující vlastnosti &apos;maxExclusive&apos;.</translation>
     </message>
     <message>
         <source>Double content does not match the minInclusive facet.</source>
-        <translation>Číslo s pohyblivou čárkou neodpovídá stránce &apos;minInclusive&apos;.</translation>
+        <translation>Číslo s pohyblivou čárkou neodpovídá omezující vlastnosti &apos;minInclusive&apos;.</translation>
     </message>
     <message>
         <source>Double content does not match the minExclusive facet.</source>
-        <translation>Číslo s pohyblivou čárkou neodpovídá stránce &apos;minExclusive&apos;.</translation>
+        <translation>Číslo s pohyblivou čárkou neodpovídá omezující vlastnosti &apos;minExclusive&apos;.</translation>
     </message>
     <message>
         <source>Double content is not listed in the enumeration facet.</source>
-        <translation>Číslo s pohyblivou čárkou není obsaženo ve výčtové stránce.</translation>
+        <translation>Číslo s pohyblivou čárkou není obsaženo ve výčtové omezující vlastnosti.</translation>
     </message>
     <message>
         <source>Double content does not match pattern facet.</source>
-        <translation>Číslo s pohyblivou čárkou neodpovídá stránce vzoru pro hledání.</translation>
+        <translation>Číslo s pohyblivou čárkou neodpovídá omezující vlastnosti vzoru pro hledání.</translation>
     </message>
     <message>
         <source>Decimal content does not match in the fractionDigits facet.</source>
-        <translation>Desetinné číslo neodpovídá stránce &apos;fractionDigits&apos;.</translation>
+        <translation>Desetinné číslo neodpovídá omezující vlastnosti &apos;fractionDigits&apos;.</translation>
     </message>
     <message>
         <source>Decimal content does not match in the totalDigits facet.</source>
-        <translation>Desetinné číslo neodpovídá stránce &apos;totalDigits&apos;.</translation>
+        <translation>Desetinné číslo neodpovídá omezující vlastnosti &apos;totalDigits&apos;.</translation>
     </message>
     <message>
         <source>Date time content does not match the maxInclusive facet.</source>
-        <translation>Údaj o datu neodpovídá stránce &apos;maxInclusive&apos;.</translation>
+        <translation>Údaj o datu neodpovídá omezující vlastnosti &apos;maxInclusive&apos;.</translation>
     </message>
     <message>
         <source>Date time content does not match the maxExclusive facet.</source>
-        <translation>Údaj o datu neodpovídá stránce &apos;maxExclusive&apos;.</translation>
+        <translation>Údaj o datu neodpovídá omezující vlastnosti &apos;maxExclusive&apos;.</translation>
     </message>
     <message>
         <source>Date time content does not match the minInclusive facet.</source>
-        <translation>Údaj o datu neodpovídá stránce &apos;minInclusive&apos;.</translation>
+        <translation>Údaj o datu neodpovídá omezující vlastnosti &apos;minInclusive&apos;.</translation>
     </message>
     <message>
         <source>Date time content does not match the minExclusive facet.</source>
-        <translation>Údaj o datu neodpovídá stránce &apos;minExclusive&apos;.</translation>
+        <translation>Údaj o datu neodpovídá omezující vlastnosti &apos;minExclusive&apos;.</translation>
     </message>
     <message>
         <source>Date time content is not listed in the enumeration facet.</source>
-        <translation>Údaj o datu není obsažen ve výčtové stránce.</translation>
+        <translation>Údaj o datu není obsažen ve výčtové omezující vlastnosti.</translation>
     </message>
     <message>
         <source>Date time content does not match pattern facet.</source>
-        <translation>Údaj o datu neodpovídá stránce vzoru pro hledání.</translation>
+        <translation>Údaj o datu neodpovídá omezující vlastnosti vzoru pro hledání.</translation>
     </message>
     <message>
         <source>Duration content does not match the maxInclusive facet.</source>
-        <translation>Údaj o době trvání neodpovídá stránce &apos;maxInclusive&apos;.</translation>
+        <translation>Údaj o době trvání neodpovídá omezující vlastnosti &apos;maxInclusive&apos;.</translation>
     </message>
     <message>
         <source>Duration content does not match the maxExclusive facet.</source>
-        <translation>Údaj o době trvání neodpovídá stránce &apos;maxExclusive&apos;.</translation>
+        <translation>Údaj o době trvání neodpovídá omezující vlastnosti &apos;maxExclusive&apos;.</translation>
     </message>
     <message>
         <source>Duration content does not match the minInclusive facet.</source>
-        <translation>Údaj o době trvání neodpovídá stránce &apos;minInclusive&apos;.</translation>
+        <translation>Údaj o době trvání neodpovídá omezující vlastnosti &apos;minInclusive&apos;.</translation>
     </message>
     <message>
         <source>Duration content does not match the minExclusive facet.</source>
-        <translation>Údaj o době trvání neodpovídá stránce &apos;minExclusive&apos;.</translation>
+        <translation>Údaj o době trvání neodpovídá omezující vlastnosti &apos;minExclusive&apos;.</translation>
     </message>
     <message>
         <source>Duration content is not listed in the enumeration facet.</source>
-        <translation>Údaj o době trvání není obsažen ve výčtové stránce.</translation>
+        <translation>Údaj o době trvání není obsažen ve výčtové omezující vlastnosti.</translation>
     </message>
     <message>
         <source>Duration content does not match pattern facet.</source>
-        <translation>Údaj o době trvání neodpovídá stránce vzoru pro hledání.</translation>
+        <translation>Údaj o době trvání neodpovídá omezující vlastnosti vzoru pro hledání.</translation>
     </message>
     <message>
         <source>Boolean content does not match pattern facet.</source>
-        <translation>Booleánská hodnota neodpovídá stránce vzoru pro hledání.</translation>
+        <translation>Booleánská hodnota neodpovídá omezující vlastnosti vzoru pro hledání.</translation>
     </message>
     <message>
         <source>Binary content does not match the length facet.</source>
-        <translation>Binární obsah neodpovídá stránce délky.</translation>
+        <translation>Binární obsah neodpovídá omezující vlastnosti délky.</translation>
     </message>
     <message>
         <source>Binary content does not match the minLength facet.</source>
-        <translation>Binární obsah neodpovídá stránce &apos;minLength&apos;.</translation>
+        <translation>Binární obsah neodpovídá omezující vlastnosti &apos;minLength&apos;.</translation>
     </message>
     <message>
         <source>Binary content does not match the maxLength facet.</source>
-        <translation>Binární obsah neodpovídá stránce &apos;maxLength&apos;.</translation>
+        <translation>Binární obsah neodpovídá omezující vlastnosti &apos;maxLength&apos;.</translation>
     </message>
     <message>
         <source>Binary content is not listed in the enumeration facet.</source>
-        <translation>Binární obsah není obsažen ve výčtové stránce.</translation>
+        <translation>Binární obsah není obsažen ve výčtové omezující vlastnosti.</translation>
     </message>
     <message>
         <source>Invalid QName content: %1.</source>
@@ -10083,43 +10670,43 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>QName content is not listed in the enumeration facet.</source>
-        <translation>Obsah způsobilého názvu (&apos;QName&apos;) není obsažen ve výčtové stránce.</translation>
+        <translation>Obsah způsobilého názvu (&apos;QName&apos;) není obsažen ve výčtové omezující vlastnosti.</translation>
     </message>
     <message>
         <source>QName content does not match pattern facet.</source>
-        <translation>Obsah způsobilého názvu (&apos;QName&apos;) neodpovídá stránce vzoru pro hledání.</translation>
+        <translation>Obsah způsobilého názvu (&apos;QName&apos;) neodpovídá omezující vlastnosti vzoru pro hledání.</translation>
     </message>
     <message>
         <source>Notation content is not listed in the enumeration facet.</source>
-        <translation>Obsah zápisu není obsažen ve výčtové stránce.</translation>
+        <translation>Obsah zápisu není obsažen ve výčtové omezující vlastnosti.</translation>
     </message>
     <message>
         <source>List content does not match length facet.</source>
-        <translation>Obsah seznamu neodpovídá stránce délky.</translation>
+        <translation>Obsah seznamu neodpovídá omezující vlastnosti délky.</translation>
     </message>
     <message>
         <source>List content does not match minLength facet.</source>
-        <translation>Obsah seznamu neodpovídá stránce &apos;minLength&apos;.</translation>
+        <translation>Obsah seznamu neodpovídá omezující vlastnosti &apos;minLength&apos;.</translation>
     </message>
     <message>
         <source>List content does not match maxLength facet.</source>
-        <translation>Obsah seznamu neodpovídá stránce &apos;maxLength&apos;.</translation>
+        <translation>Obsah seznamu neodpovídá omezující vlastnosti &apos;maxLength&apos;.</translation>
     </message>
     <message>
         <source>List content is not listed in the enumeration facet.</source>
-        <translation>Obsah seznamu není obsažen ve výčtové stránce.</translation>
+        <translation>Obsah seznamu není obsažen ve výčtové omezující vlastnosti.</translation>
     </message>
     <message>
         <source>List content does not match pattern facet.</source>
-        <translation>Obsah seznamu neodpovídá stránce vzoru pro hledání.</translation>
+        <translation>Obsah seznamu neodpovídá omezující vlastnosti vzoru pro hledání.</translation>
     </message>
     <message>
         <source>Union content is not listed in the enumeration facet.</source>
-        <translation>Obsah sjednocení není obsažen ve výčtové stránce.</translation>
+        <translation>Obsah sjednocení není obsažen ve výčtové omezující vlastnosti.</translation>
     </message>
     <message>
         <source>Union content does not match pattern facet.</source>
-        <translation>Obsah sjednocení neodpovídá stránce vzoru pro hledání.</translation>
+        <translation>Obsah sjednocení neodpovídá omezující vlastnosti vzoru pro hledání.</translation>
     </message>
     <message>
         <source>Data of type %1 are not allowed to be empty.</source>
@@ -10155,7 +10742,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>No definition for element %1 available.</source>
-        <translation>Pro prvek %1 není dostupné žádné vymezení.</translation>
+        <translation>Pro prvek %1 není dostupná žádná definice.</translation>
     </message>
     <message>
         <source>Specified type %1 is not known to the schema.</source>
@@ -10167,7 +10754,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Declaration for element %1 does not exist.</source>
-        <translation>Pro prvek %1 není dostupné žádné prohlášení.</translation>
+        <translation>Pro prvek %1 není dostupná žádná deklarace.</translation>
     </message>
     <message>
         <source>Element %1 contains invalid content.</source>
@@ -10194,8 +10781,12 @@ Zvolte, prosím, pro soubor jiný název.</translation>
         <translation>Pevné omezení hodnoty není dovoleno, pokud je prvek &apos;nillable&apos;.</translation>
     </message>
     <message>
-        <source>Element %1 cannot contain other elements, as it has a fixed content.</source>
+        <source>Element %1 cannot contain other elements, as it has fixed content.</source>
         <translation>Prvek %1 nesmí obsahovat žádné jiné prvky, protože má pevný obsah.</translation>
+    </message>
+    <message>
+        <source>Element %1 cannot contain other elements, as it has a fixed content.</source>
+        <translation type="obsolete">Prvek %1 nesmí obsahovat žádné jiné prvky, protože má pevný obsah.</translation>
     </message>
     <message>
         <source>Fixed value constrained not allowed if element is nillable.</source>
@@ -10219,7 +10810,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Content of element %1 does not match its type definition: %2.</source>
-        <translation>Obsah prvku %1 neodpovídá vymezení svého typu: %2.</translation>
+        <translation>Obsah prvku %1 neodpovídá definici svého typu: %2.</translation>
     </message>
     <message>
         <source>Content of element %1 does not match defined value constraint.</source>
@@ -10239,7 +10830,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Element %1 is missing required attribute %2.</source>
-        <translation>U prvkuk %1 chybí vyžadovaná vlastnost %2.</translation>
+        <translation>U prvku %1 chybí vyžadovaná vlastnost %2.</translation>
     </message>
     <message>
         <source>Attribute %1 does not match the attribute wildcard.</source>
@@ -10247,7 +10838,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Declaration for attribute %1 does not exist.</source>
-        <translation>Pro vlastnost %1 není dostupné žádné prohlášení.</translation>
+        <translation>Pro vlastnost %1 není dostupná žádná deklarace.</translation>
     </message>
     <message>
         <source>Element %1 contains two attributes of type %2.</source>
@@ -10255,7 +10846,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Attribute %1 contains invalid content.</source>
-        <translation>Vlastnost %1 obsahuje neplatný obsah.</translation>
+        <translation>Vlastnost %1 má neplatný obsah.</translation>
     </message>
     <message>
         <source>Element %1 contains unknown attribute %2.</source>
@@ -10263,7 +10854,7 @@ Zvolte, prosím, pro soubor jiný název.</translation>
     </message>
     <message>
         <source>Content of attribute %1 does not match its type definition: %2.</source>
-        <translation>Obsah vlastnosti %1 neodpovídá vymezení svého typu: %2.</translation>
+        <translation>Obsah vlastnosti %1 neodpovídá definici svého typu: %2.</translation>
     </message>
     <message>
         <source>Content of attribute %1 does not match defined value constraint.</source>
