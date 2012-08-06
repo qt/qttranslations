@@ -54,7 +54,6 @@ addTsTargets(linguist, ../tools/linguist/linguist.pro)
 addTsTargets(assistant, ../tools/assistant/tools/tools.pro)
 addTsTargets(qt_help, ../tools/assistant/lib/lib.pro)
 addTsTargets(qtconfig, ../tools/qtconfig/qtconfig.pro)
-addTsTargets(qvfb, ../tools/qvfb/qvfb.pro)
 addTsTargets(qmlviewer, ../tools/qml/qml.pro)
 
 check-ts.commands = (cd $$PWD && perl check-ts.pl)
