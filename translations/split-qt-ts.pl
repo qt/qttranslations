@@ -43,83 +43,31 @@
 
 use strict;
 
-my @groups = (
-    "qtbase", "qtdeclarative", "qtxmlpatterns", "qtmultimedia", "qtscript", "qtquick1",
-#    "qtdocgallery", "qtlocation", "qtpim", "qtsystems",
-    "assistant", "designer", "linguist", "qt_help", "qtconfig", "qmlviewer"
-);
+my @catalogs = ( "qtbase", "qtscript", "qtquick1", "qtmultimedia", "qtxmlpatterns" );
 
-my %scores = ();
-my %langs = ();
+die "Usage: $0 <locale> [<builddir>]\n" if (@ARGV != 1 && @ARGV != 2);
+my $lang = $ARGV[0];
+my $lupdate = "lupdate -locations relative -no-ui-lines";
+$lupdate .=  " -pro-out $ARGV[1]" if (@ARGV == 2);
 
-my $files = join("\n", <*_??.ts>);
-my $res = `xmlpatterns -param files=\"$files\" check-ts.xq`;
-for my $i (split(/ /, $res)) {
-  $i =~ /^([^.]+)\.ts:(.*)$/;
-  my ($fn, $pc) = ($1, $2);
-  for my $g (@groups) {
-    if ($fn =~ /^${g}_((.._)?..)$/) {
-      my $lang = $1;
-      $scores{$g}{$lang} = $pc;
-      $langs{$lang} = 1;
-      last;
-    }
-  }
+for my $cat (@catalogs) {
+    system("$lupdate ../../$cat/src/src.pro qt_$lang.ts -ts ${cat}_$lang.ts") and die;
 }
+# qtdeclarative is special: we import it, but it's not part of the meta catalog
+system("$lupdate ../../qtdeclarative/src/src.pro qt_$lang.ts -ts qtdeclarative_$lang.ts") and die;
 
-my $code = "";
-
-print "L10n  ";
-for my $g (@groups) {
-  print " ".$g." ";
+open META, "> qt_$lang.ts" or die;
+print META <<EOF ;
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="C">
+    <dependencies>
+EOF
+for my $cat (@catalogs) {
+    print META "        <dependency catalog=\"${cat}_$lang\"/>\n";
 }
-print "\n";
-for my $lang (sort(keys(%langs))) {
-  printf "%-5s ", $lang;
-  my $qt = 1;
-  my $rest = 1;
-  my $line = "";
-  for my $g (@groups) {
-    my $pc = $scores{$g}{$lang};
-    $pc = "0" if !defined($pc);
-    if (int($pc) < 98 or !$qt) {
-      if ($g eq "qt") {
-        $qt = 0;
-      } else {
-        $rest = 0;
-      }
-    } else {
-      $line .= " ".$g."_".$lang.".ts";
-    }
-    printf " %-".(length($g)+1)."s", $pc;
-  }
-  if ($qt) {
-    $code .= " \\\n   ".$line;
-    if (!$rest) {
-      print "   (partial)";
-    }
-  } else {
-    print "   (excluded)";
-  }
-  print "\n";
-}
-
-my $fn = "translations.pro";
-my $nfn = $fn."new";
-open IN, $fn or die;
-open OUT, ">".$nfn or die;
-while (1) {
-  $_ = <IN>;
-  last if (/^TRANSLATIONS /);
-  print OUT $_;
-}
-while ($_ =~ /\\\n$/) {
-  $_ = <IN>;
-}
-print OUT "TRANSLATIONS =".$code."\n";
-while (<IN>) {
-  print OUT $_;
-}
-close OUT;
-close IN;
-rename $nfn, $fn;
+print META <<EOF ;
+    </dependencies>
+</TS>
+EOF
+close META or die;

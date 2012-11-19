@@ -10,7 +10,8 @@ TS_TARGETS =
 # meta target name, target name, lupdate base options, files
 defineTest(addTsTarget) {
     cv = $${2}.commands
-    $$cv = cd $$QT_SOURCE_TREE/src && $$LUPDATE $$3 -ts $$4
+    dir = $$section(PWD, /, 0, -3)
+    $$cv = cd $$dir && $$LUPDATE -pro-out $$shadowed($$dir) $$3 -ts $$4
     export($$cv)
     dv = $${1}.depends
     $$dv += $$2
@@ -30,31 +31,35 @@ defineTest(addTsTargets) {
     addTsTarget(ts-all, ts-$$1-all, $$2, $$PWD/$${1}_untranslated.ts $$files)
 }
 
-addTsTargets(qt, -I../include -I../include/Qt \
-    3rdparty/phonon \
-    3rdparty/webkit \
-    activeqt \
-    corelib \
-    declarative \
-    gui \
-    multimedia \
-    network \
-    opengl \
-    plugins \
-    qt3support \
-    script \
-    scripttools \
-    sql \
-    svg \
-    xml \
-    xmlpatterns \
+addTsTargets(qtbase, qtbase/src/src.pro \
+    qtactiveqt/src/src.pro \  # just 4 strings from QAxSelect
+    qtimageformats/src/src.pro \  # just 10 error messages from tga reader. uses bad context.
 )
-addTsTargets(designer, ../tools/designer/designer.pro)
-addTsTargets(linguist, ../tools/linguist/linguist.pro)
-addTsTargets(assistant, ../tools/assistant/tools/tools.pro)
-addTsTargets(qt_help, ../tools/assistant/lib/lib.pro)
-addTsTargets(qtconfig, ../tools/qtconfig/qtconfig.pro)
-addTsTargets(qmlviewer, ../tools/qml/qml.pro)
+addTsTargets(qtdeclarative, qtdeclarative/src/src.pro)
+addTsTargets(qtmultimedia, qtmultimedia/src/src.pro)
+addTsTargets(qtquick1, qtquick1/src/src.pro)
+addTsTargets(qtscript, qtscript/src/src.pro)
+#addTsTargets(qtsvg, qtsvg/src/src.pro) # empty
+addTsTargets(qtxmlpatterns, qtxmlpatterns/src/src.pro)
+#addTsTargets(qtwebkit, qtwebkit/WebKit.pro) # messages from test browser only
+
+#addTsTargets(qt3d, qt3d/src/src.pro)  # empty except one dubious error message
+#addTsTargets(qtconnectivity, qtconnectivity/src/src.pro)  # just 2 error messages
+#addTsTargets(qtdocgallery, qtdocgallery/src/src.pro)  # dead module
+#addTsTargets(qtfeedback, qtfeedback/src/src.pro)  # empty
+#addTsTargets(qtjsondb, qtjsondb/src/src.pro)  # dead module, just 3 error messages
+#addTsTargets(qtlocation, qtlocation/src/src.pro)  # not part of 5.0
+#addTsTargets(qtpim, qtpim/src/src.pro)  # not part of 5.0
+#addTsTargets(qtsensors, qtsensors/src/src.pro) # empty
+#addTsTargets(qtsystems, qtsystems/src/src.pro)  # not part of 5.0
+
+addTsTargets(designer, qttools/src/designer/designer.pro)
+addTsTargets(linguist, qttools/src/linguist/linguist.pro)
+addTsTargets(assistant, qttools/src/assistant/assistant.pro)  # add qcollectiongenerator here as well?
+addTsTargets(qt_help, qttools/src/assistant/help/help.pro)
+addTsTargets(qtconfig, qttools/src/qtconfig/qtconfig.pro)
+addTsTargets(qmlviewer, qtquick1/tools/qml/qml.pro)
+#addTsTargets(qmlscene, qtdeclarative/tools/qmlscene/qmlscene.pro)  # almost empty due to missing tr()
 
 check-ts.commands = (cd $$PWD && perl check-ts.pl)
 check-ts.depends = ts-all
