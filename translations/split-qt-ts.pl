@@ -51,7 +51,9 @@ my $lupdate = "lupdate -locations relative -no-ui-lines";
 $lupdate .=  " -pro-out $ARGV[1]" if (@ARGV == 2);
 
 for my $cat (@catalogs) {
-    system("$lupdate ../../$cat/src/src.pro qt_$lang.ts -ts ${cat}_$lang.ts") and die;
+    my $extra = "";
+    $extra = " ../../qtactiveqt/src/src.pro ../../qtimageformats/src/src.pro" if ($cat eq "qtbase");
+    system("$lupdate ../../$cat/src/src.pro$extra qt_$lang.ts -ts ${cat}_$lang.ts") and die;
 }
 # qtdeclarative is special: we import it, but it's not part of the meta catalog
 system("$lupdate ../../qtdeclarative/src/src.pro qt_$lang.ts -ts qtdeclarative_$lang.ts") and die;
