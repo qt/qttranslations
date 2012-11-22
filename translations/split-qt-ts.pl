@@ -63,7 +63,7 @@ open META, "> qt_$lang.ts" or die;
 print META <<EOF ;
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="C">
+<TS version="2.0" language="$lang">
     <dependencies>
 EOF
 for my $cat (@catalogs) {
