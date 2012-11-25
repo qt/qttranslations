@@ -35,7 +35,7 @@
     <name>QHelpCollectionHandler</name>
     <message>
         <source>The collection file &apos;%1&apos; is not set up yet!</source>
-        <translation>Файл коллекции справки &apos;%1&apos; ещё не установлен!</translation>
+        <translation>Файл коллекции справки «%1» ещё не установлен!</translation>
     </message>
     <message>
         <source>Cannot load sqlite database driver!</source>
@@ -51,23 +51,23 @@
     </message>
     <message>
         <source>The collection file &apos;%1&apos; already exists!</source>
-        <translation>Файл коллекции справки &apos;%1&apos; уже существует!</translation>
+        <translation>Файл коллекции справки «%1» уже существует!</translation>
     </message>
     <message>
         <source>Unknown filter &apos;%1&apos;!</source>
-        <translation>Неизвестный фильтр &apos;%1&apos;!</translation>
+        <translation>Неизвестный фильтр «%1»!</translation>
     </message>
     <message>
         <source>Invalid documentation file &apos;%1&apos;!</source>
-        <translation>Некорректный файл документации &apos;%1&apos;!</translation>
+        <translation>Некорректный файл документации «%1»!</translation>
     </message>
     <message>
         <source>Cannot register namespace &apos;%1&apos;!</source>
-        <translation>Не удалось зарегистрировать пространство имён %1!</translation>
+        <translation>Не удалось зарегистрировать пространство имён «%1»!</translation>
     </message>
     <message>
         <source>Cannot open database &apos;%1&apos; to optimize!</source>
-        <translation>Не удалось открыть базу данных &apos;%1&apos; для оптимизации!</translation>
+        <translation>Не удалось открыть базу данных «%1» для оптимизации!</translation>
     </message>
     <message>
         <source>Cannot create directory: %1</source>
@@ -79,19 +79,19 @@
     </message>
     <message>
         <source>Cannot register filter %1!</source>
-        <translation>Не удалось зарегистрировать фильтр %1!</translation>
+        <translation>Не удалось зарегистрировать фильтр «%1»!</translation>
     </message>
     <message>
         <source>Cannot open documentation file %1!</source>
-        <translation>Не удалось открыть файл документации %1!</translation>
+        <translation>Не удалось открыть файл документации «%1»!</translation>
     </message>
     <message>
         <source>The namespace %1 was not registered!</source>
-        <translation>Пространство имён %1 не зарегистрировано!</translation>
+        <translation>Пространство имён «%1» не зарегистрировано!</translation>
     </message>
     <message>
         <source>Namespace %1 already exists!</source>
-        <translation>Пространство имён %1 уже существует!</translation>
+        <translation>Пространство имён «%1» уже существует!</translation>
     </message>
 </context>
 <context>
@@ -106,7 +106,7 @@
     <name>QHelpEngineCore</name>
     <message>
         <source>Cannot open documentation file %1: %2!</source>
-        <translation>Не удалось открыть файл документации %1: %2!</translation>
+        <translation>Не удалось открыть файл документации «%1»: %2!</translation>
     </message>
     <message>
         <source>The specified namespace does not exist!</source>
@@ -129,15 +129,15 @@
     </message>
     <message>
         <source>The file %1 cannot be overwritten!</source>
-        <translation>Невозможно перезаписать файл %1!</translation>
+        <translation>Невозможно перезаписать файл «%1»!</translation>
     </message>
     <message>
         <source>Cannot open data base file %1!</source>
-        <translation>Не удалось открыть файл базы данных %1!</translation>
+        <translation>Не удалось открыть файл базы данных «%1»!</translation>
     </message>
     <message>
         <source>Cannot register namespace %1!</source>
-        <translation>Не удалось зарегистрировать пространство имён %1!</translation>
+        <translation>Не удалось зарегистрировать пространство имён «%1»!</translation>
     </message>
     <message>
         <source>Insert custom filters...</source>
@@ -168,24 +168,20 @@
         <translation>Добавление файлов...</translation>
     </message>
     <message>
-        <source>The referenced file %1 must be inside or within a subdirectory of (%2). Skipping it.</source>
-        <translation>Файл %1 должен быть в каталоге &apos;%2&apos; или в его подкаталоге. Пропускаем.</translation>
-    </message>
-    <message>
         <source>The file %1 does not exist! Skipping it.</source>
-        <translation>Файл %1 не существует! Пропускаем.</translation>
+        <translation>Файл «%1» не существует! Пропускаем.</translation>
     </message>
     <message>
         <source>Cannot open file %1! Skipping it.</source>
-        <translation>Не удалось открыть файл %1! Пропускаем.</translation>
+        <translation>Не удалось открыть файл «%1»! Пропускаем.</translation>
     </message>
     <message>
         <source>The filter %1 is already registered!</source>
-        <translation>Фильтр %1 уже зарегистрирован!</translation>
+        <translation>Фильтр «%1» уже зарегистрирован!</translation>
     </message>
     <message>
         <source>Cannot register filter %1!</source>
-        <translation>Не удалось зарегистрировать фильтр %1!</translation>
+        <translation>Не удалось зарегистрировать фильтр «%1»!</translation>
     </message>
     <message>
         <source>Insert indices...</source>
@@ -205,15 +201,15 @@
     </message>
     <message>
         <source>File &apos;%1&apos; does not exist.</source>
-        <translation>Файл &apos;%1&apos; не существует.</translation>
+        <translation>Файл «%1» не существует.</translation>
     </message>
     <message>
         <source>File &apos;%1&apos; cannot be opened.</source>
-        <translation>Невозможно открыть файл &apos;%1&apos;.</translation>
+        <translation>Невозможно открыть файл «%1».</translation>
     </message>
     <message>
         <source>File &apos;%1&apos; contains an invalid link to file &apos;%2&apos;</source>
-        <translation>Файл &apos;%1&apos; содержит некорректную ссылку на файл &apos;%2&apos;</translation>
+        <translation>Файл «%1» содержит некорректную ссылку на файл «%2»</translation>
     </message>
     <message>
         <source>Invalid links in HTML files.</source>
@@ -228,7 +224,7 @@
     </message>
     <message>
         <source>Unknown token. Expected &quot;QtHelpProject&quot;!</source>
-        <translation>Неизвестный идентификатор. Ожидается &quot;QtHelpProject&quot;!</translation>
+        <translation>Неизвестный идентификатор. Ожидается «QtHelpProject»!</translation>
     </message>
     <message>
         <source>Error in line %1: %2</source>
@@ -251,12 +247,8 @@
         <translation>В QtHelpProject отсутствует виртуальный каталог</translation>
     </message>
     <message>
-        <source>Missing attribute in keyword at line %1.</source>
-        <translation>Отсутствует атрибут у ключевого слова в строке %1.</translation>
-    </message>
-    <message>
         <source>The input file %1 could not be opened!</source>
-        <translation>Невозможно открыть исходный файл %1!</translation>
+        <translation>Невозможно открыть исходный файл «%1»!</translation>
     </message>
 </context>
 <context>
@@ -299,7 +291,7 @@
     </message>
     <message>
         <source>with &lt;B&gt;at least one&lt;/B&gt; of the words:</source>
-        <translation>содержит &lt;B&gt;хотя бы одно&lt;/B&gt; из слов:</translation>
+        <translation>содержит &lt;B&gt;минимум одно&lt;/B&gt; из слов:</translation>
     </message>
 </context>
 <context>

@@ -29,7 +29,7 @@
     <name>Assistant</name>
     <message>
         <source>Error registering documentation file &apos;%1&apos;: %2</source>
-        <translation>Ошибка регистрации файла документации &apos;%1&apos;: %2</translation>
+        <translation>Ошибка регистрации файла документации «%1»: %2</translation>
     </message>
     <message>
         <source>Error: %1</source>
@@ -69,11 +69,11 @@ Reason:
     </message>
     <message>
         <source>Error reading collection file &apos;%1&apos;: %2.</source>
-        <translation>Ошибка чтения файла коллекции справки &apos;%1&apos;: %2.</translation>
+        <translation>Ошибка чтения файла коллекции справки «%1»: %2.</translation>
     </message>
     <message>
         <source>Error creating collection file &apos;%1&apos;: %2.</source>
-        <translation>Ошибка создания файла коллекции справки &apos;%1&apos;: %2.</translation>
+        <translation>Ошибка создания файла коллекции справки «%1»: %2.</translation>
     </message>
     <message>
         <source>Cannot load sqlite database driver!</source>
@@ -134,7 +134,7 @@ Reason:
     </message>
     <message>
         <source>Ctrl+D</source>
-        <translation></translation>
+        <translation>Ctrl+D</translation>
     </message>
     <message>
         <source>Untitled</source>
@@ -305,7 +305,7 @@ Reason:
     </message>
     <message>
         <source>The collection file &apos;%1&apos; does not exist.</source>
-        <translation>Файл коллекции справки &apos;%1&apos; не существует.</translation>
+        <translation>Файл коллекции справки «%1» не существует.</translation>
     </message>
     <message>
         <source>Usage: assistant [Options]
@@ -345,14 +345,14 @@ Reason:
 -showUrl ссылка            Отобразить документ по ссылке.
 -enableRemoteControl       Включение удалённого управления Assistant.
 -show панель               Отображение указанной панели,
-                           которая может быть &quot;contents&quot;, &quot;index&quot;,
-                           &quot;bookmarks&quot; или &quot;search&quot;.
+                           которая может быть «contents», «index»,
+                           «bookmarks» или «search».
 -activate панель           Включение указанной панели,
-                           которая может быть &quot;contents&quot;, &quot;index&quot;,
-                           &quot;bookmarks&quot; или &quot;search&quot;.
+                           которая может быть «contents», «index»,
+                           «bookmarks» или «search».
 -hide панель               Скрытие указанной панели,
-                           которая может быть &quot;contents&quot;, &quot;index&quot;,
-                           &quot;bookmarks&quot; или &quot;search&quot;.
+                           которая может быть «contents», «index»,
+                           «bookmarks» или «search».
 -register файлСправки      Регистрация указанного файла справки (.qch)
                            в данном файле коллекции.
 -unregister файлСправки    Отмена регистрации указанного файла
@@ -371,7 +371,7 @@ Reason:
     </message>
     <message>
         <source>Invalid URL &apos;%1&apos;.</source>
-        <translation>Некорректный URL &apos;%1&apos;.</translation>
+        <translation>Некорректный URL «%1».</translation>
     </message>
     <message>
         <source>Missing URL.</source>
@@ -383,7 +383,7 @@ Reason:
     </message>
     <message>
         <source>The Qt help file &apos;%1&apos; does not exist.</source>
-        <translation>Файл справки Qt &apos;%1&apos; не существует.</translation>
+        <translation>Файл справки Qt «%1» не существует.</translation>
     </message>
     <message>
         <source>Missing help file.</source>
@@ -522,11 +522,11 @@ Reason:
     </message>
     <message>
         <source>The custom filter &apos;%1&apos; is defined multiple times.</source>
-        <translation>Пользовательский фильтр &quot;%1&quot; определён несколько раз.</translation>
+        <translation>Пользовательский фильтр «%1» определён несколько раз.</translation>
     </message>
     <message>
         <source>The attributes for custom filter &apos;%1&apos; are defined multiple times.</source>
-        <translation>Атрибуты для пользовательского фильтра &quot;%1&quot; определены несколько раз.</translation>
+        <translation>Атрибуты для пользовательского фильтра «%1» определены несколько раз.</translation>
     </message>
     <message>
         <source>unfiltered</source>
@@ -549,8 +549,8 @@ Reason:
         <translation>Учитывать регистр символов</translation>
     </message>
     <message>
-        <source>&lt;img src=&quot;:/trolltech/assistant/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
-        <translation>&lt;img src=&quot;:/trolltech/assistant/images/wrap.png&quot;&gt;&amp;nbsp;Поиск с начала</translation>
+        <source>&lt;img src=&quot;:/qt-project.org/assistant/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
+        <translation>&lt;img src=&quot;:/qt-project.org/assistant/images/wrap.png&quot;&gt;&amp;nbsp;Поиск с начала</translation>
     </message>
 </context>
 <context>
@@ -642,7 +642,7 @@ Reason:
     </message>
     <message>
         <source>ALT+Home</source>
-        <translation></translation>
+        <translation>ALT+Home</translation>
     </message>
     <message>
         <source>Zoom &amp;in</source>
@@ -690,8 +690,8 @@ Reason:
         <translation></translation>
     </message>
     <message>
-        <source>&lt;title&gt;Error 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;The page could not be found&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</source>
-        <translation>&lt;title&gt;Ошибка 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;Страница не найдена&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</translation>
+        <source>&lt;title&gt;Error 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;The page could not be found.&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</source>
+        <translation>&lt;title&gt;Ошибка 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;Страница не найдена.&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;«%1»&lt;/h3&gt;&lt;/div&gt;</translation>
     </message>
     <message>
         <source>Open Link</source>
@@ -939,7 +939,7 @@ Reason:
     </message>
     <message>
         <source>CTRL+Q</source>
-        <translation></translation>
+        <translation>CTRL+Q</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
@@ -967,19 +967,19 @@ Reason:
     </message>
     <message>
         <source>Ctrl+0</source>
-        <translation></translation>
+        <translation>Ctrl+0</translation>
     </message>
     <message>
         <source>ALT+C</source>
-        <translation></translation>
+        <translation>ALT+C</translation>
     </message>
     <message>
         <source>ALT+I</source>
-        <translation></translation>
+        <translation>ALT+I</translation>
     </message>
     <message>
         <source>ALT+O</source>
-        <translation></translation>
+        <translation>ALT+O</translation>
     </message>
     <message>
         <source>Search</source>
@@ -987,7 +987,7 @@ Reason:
     </message>
     <message>
         <source>ALT+S</source>
-        <translation></translation>
+        <translation>ALT+S</translation>
     </message>
     <message>
         <source>&amp;Go</source>
@@ -1007,7 +1007,7 @@ Reason:
     </message>
     <message>
         <source>Ctrl+Alt+Right</source>
-        <translation></translation>
+        <translation>Ctrl+Alt+Right</translation>
     </message>
     <message>
         <source>Previous Page</source>
@@ -1015,19 +1015,15 @@ Reason:
     </message>
     <message>
         <source>Ctrl+Alt+Left</source>
-        <translation></translation>
+        <translation>Ctrl+Alt+Left</translation>
     </message>
     <message>
         <source>&amp;Bookmarks</source>
         <translation>&amp;Закладки</translation>
     </message>
     <message>
-        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2012 Nokia Corporation and/or its subsidiary(-ies).&lt;/p&gt;</source>
-        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Версия %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2012 Nokia Corporation and/or its subsidiary(-ies).&lt;/p&gt;</translation>
-    </message>
-    <message>
         <source>Could not register file &apos;%1&apos;: %2</source>
-        <translation>Не удалось зарегистрировать файл &apos;%1&apos;: %2</translation>
+        <translation>Не удалось зарегистрировать файл «%1»: %2</translation>
     </message>
     <message>
         <source>&amp;Help</source>
@@ -1047,7 +1043,7 @@ Reason:
     </message>
     <message>
         <source>ALT+P</source>
-        <translation></translation>
+        <translation>ALT+P</translation>
     </message>
     <message>
         <source>About...</source>
@@ -1071,7 +1067,7 @@ Reason:
     </message>
     <message>
         <source>Ctrl+M</source>
-        <translation></translation>
+        <translation>Ctrl+M</translation>
     </message>
     <message>
         <source>Toolbars</source>
@@ -1096,6 +1092,10 @@ Reason:
     <message>
         <source>Could not find the associated content item.</source>
         <translation>Не удалось найти элемент, связанный с содержанием.</translation>
+    </message>
+    <message>
+        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;</source>
+        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Версия %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc и/или её дочерние подразделения.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About %1</source>
@@ -1155,7 +1155,7 @@ Reason:
         <source>The specified file %1 already exist.
 
 Do you want to remove it?</source>
-        <translation>Файл %1 уже существует.
+        <translation>Файл «%1» уже существует.
 
 Желаете удалить его?</translation>
     </message>
@@ -1215,7 +1215,7 @@ Do you want to remove it?</source>
     </message>
     <message>
         <source>The namespace %1 is already registered!</source>
-        <translation>Пространство имён %1 уже зарегистрировано!</translation>
+        <translation>Пространство имён «%1» уже зарегистрировано!</translation>
     </message>
     <message>
         <source>The specified file is not a valid Qt Help File!</source>
@@ -1346,6 +1346,29 @@ Do you want to remove it?</source>
     </message>
 </context>
 <context>
+    <name>QCLuceneResultWidget</name>
+    <message>
+        <source>Search Results</source>
+        <translation>Результаты поиска</translation>
+    </message>
+    <message>
+        <source>Note:</source>
+        <translation>Замечание:</translation>
+    </message>
+    <message>
+        <source>The search results may not be complete since the documentation is still being indexed!</source>
+        <translation>Результаты поиска могут быть неполными, так как документация ещё индексируется!</translation>
+    </message>
+    <message>
+        <source>Your search did not match any documents.</source>
+        <translation>Критериям поиска не соответствует ни один документ.</translation>
+    </message>
+    <message>
+        <source>(The reason for this might be that the documentation is still being indexed.)</source>
+        <translation>(Причиной этого может быть то, что документация ещё индексируется.)</translation>
+    </message>
+</context>
+<context>
     <name>QCollectionGenerator</name>
     <message>
         <source>Unknown token at line %1.</source>
@@ -1353,7 +1376,7 @@ Do you want to remove it?</source>
     </message>
     <message>
         <source>Unknown token at line %1. Expected &quot;QtHelpCollectionProject&quot;.</source>
-        <translation>Неизвестный токен в строке %1. Ожидался &quot;QtHelpCollectionProject&quot;.</translation>
+        <translation>Неизвестный токен в строке %1. Ожидался «QtHelpCollectionProject».</translation>
     </message>
     <message>
         <source>Missing end tags.</source>
@@ -1406,7 +1429,7 @@ qcollectiongenerator &lt;файл-конфигурации-коллекции&gt
     <message>
         <source>Could not open %1.
 </source>
-        <translation>Не удалось открыть %1.</translation>
+        <translation>Не удалось открыть «%1».</translation>
     </message>
     <message>
         <source>Reading collection config file...
@@ -1423,7 +1446,7 @@ qcollectiongenerator &lt;файл-конфигурации-коллекции&gt
     <message>
         <source>Generating help for %1...
 </source>
-        <translation>Создание справки для %1...</translation>
+        <translation>Создание справки для «%1»...</translation>
     </message>
     <message>
         <source>Creating collection file...
@@ -1433,18 +1456,107 @@ qcollectiongenerator &lt;файл-конфигурации-коллекции&gt
     <message>
         <source>The file %1 cannot be overwritten.
 </source>
-        <translation>Файл %1 не может быть перезаписан.</translation>
+        <translation>Не удалось перезаписать файл «%1».</translation>
     </message>
     <message>
         <source>Cannot open %1.
 </source>
-        <translation>Не удалось открыть %1.</translation>
+        <translation>Не удалось открыть «%1».</translation>
     </message>
     <message>
         <source>Cannot open referenced image file %1.
 </source>
-        <translation>Не удалось открыть необходимый файл изображения %1.
+        <translation>Не удалось открыть необходимый файл изображения «%1».
 </translation>
+    </message>
+</context>
+<context>
+    <name>QHelp</name>
+    <message>
+        <source>Untitled</source>
+        <translation>Без названия</translation>
+    </message>
+</context>
+<context>
+    <name>QHelpCollectionHandler</name>
+    <message>
+        <source>The collection file &apos;%1&apos; is not set up yet!</source>
+        <translation>Файл коллекции справки «%1» ещё не настроен!</translation>
+    </message>
+    <message>
+        <source>Cannot load sqlite database driver!</source>
+        <translation>Не удалось загрузить драйвер баз данных sqlite!</translation>
+    </message>
+    <message>
+        <source>Cannot open collection file: %1</source>
+        <translation>Не удалось открыть файл коллекции справки: %1</translation>
+    </message>
+    <message>
+        <source>Cannot create tables in file %1!</source>
+        <translation>Не удалось создать таблицы в файле «%1»!</translation>
+    </message>
+    <message>
+        <source>The collection file &apos;%1&apos; already exists!</source>
+        <translation>Файл коллекции справки «%1» уже существует!</translation>
+    </message>
+    <message>
+        <source>Cannot create directory: %1</source>
+        <translation>Не удалось создать каталог: %1</translation>
+    </message>
+    <message>
+        <source>Cannot copy collection file: %1</source>
+        <translation>Не удалось скопировать файл коллекции справки: %1</translation>
+    </message>
+    <message>
+        <source>Unknown filter &apos;%1&apos;!</source>
+        <translation>Неизвестный фильтр «%1»!</translation>
+    </message>
+    <message>
+        <source>Cannot register filter %1!</source>
+        <translation>Не удалось зарегистрировать фильтр «%1»!</translation>
+    </message>
+    <message>
+        <source>Cannot open documentation file %1!</source>
+        <translation>Не удалось открыть файл документации «%1»!</translation>
+    </message>
+    <message>
+        <source>Invalid documentation file &apos;%1&apos;!</source>
+        <translation>Некорректный файл документации «%1»!</translation>
+    </message>
+    <message>
+        <source>The namespace %1 was not registered!</source>
+        <translation>Пространство имён «%1» не зарегистрировано!</translation>
+    </message>
+    <message>
+        <source>Namespace %1 already exists!</source>
+        <translation>Пространство имён «%1» уже существует!</translation>
+    </message>
+    <message>
+        <source>Cannot register namespace &apos;%1&apos;!</source>
+        <translation>Не удалось зарегистрировать пространство имён «%1»!</translation>
+    </message>
+    <message>
+        <source>Cannot open database &apos;%1&apos; to optimize!</source>
+        <translation>Не удалось открыть базу данных «%1» для оптимизации!</translation>
+    </message>
+</context>
+<context>
+    <name>QHelpDBReader</name>
+    <message>
+        <source>Cannot open database &apos;%1&apos; &apos;%2&apos;: %3</source>
+        <extracomment>The placeholders are: %1 - The name of the database which cannot be opened %2 - The unique id for the connection %3 - The actual error string</extracomment>
+        <translation>Не удалось открыть базу данных «%1» (%2): %3</translation>
+    </message>
+</context>
+<context>
+    <name>QHelpEngineCore</name>
+    <message>
+        <source>Cannot open documentation file %1: %2!</source>
+        <translation>Не удалось открыть файл документации «%1»: %2!</translation>
+    </message>
+    <message>
+        <source>The specified namespace does not exist!</source>
+        <translation>Указанное пространство имён не существует!</translation>
     </message>
 </context>
 <context>
@@ -1496,12 +1608,205 @@ qhelpgenerator &lt;файл-проекта-справки&gt; [ОПЦИИ]
     <message>
         <source>Could not open %1.
 </source>
-        <translation>Не удалось открыть %1.</translation>
+        <translation>Не удалось открыть «%1».</translation>
     </message>
     <message>
         <source>Could not create output directory: %1
 </source>
         <translation>Не удалось создать каталог: %1</translation>
+    </message>
+    <message>
+        <source>Invalid help data!</source>
+        <translation>Некорректные данные справки!</translation>
+    </message>
+    <message>
+        <source>No output file name specified!</source>
+        <translation>Имя выходного файла не указано!</translation>
+    </message>
+    <message>
+        <source>The file %1 cannot be overwritten!</source>
+        <translation>Не удалось перезаписать файл «%1»!</translation>
+    </message>
+    <message>
+        <source>Building up file structure...</source>
+        <translation>Создание структуры файлов...</translation>
+    </message>
+    <message>
+        <source>Cannot open data base file %1!</source>
+        <translation>Не удалось открыть файл базы данных «%1»!</translation>
+    </message>
+    <message>
+        <source>Cannot register namespace %1!</source>
+        <translation>Не удалось зарегистрировать пространство имён «%1»!</translation>
+    </message>
+    <message>
+        <source>Insert custom filters...</source>
+        <translation>Вставка пользовательских фильтров...</translation>
+    </message>
+    <message>
+        <source>Insert help data for filter section (%1 of %2)...</source>
+        <translation>Вставка данных справки для секции фильтра (%1 из %2)...</translation>
+    </message>
+    <message>
+        <source>Documentation successfully generated.</source>
+        <translation>Документация успешно создана.</translation>
+    </message>
+    <message>
+        <source>Some tables already exist!</source>
+        <translation>Ряд таблиц уже существует!</translation>
+    </message>
+    <message>
+        <source>Cannot create tables!</source>
+        <translation>Не удалось создать таблицы!</translation>
+    </message>
+    <message>
+        <source>Cannot register virtual folder!</source>
+        <translation>Не удалось зарегистрировать виртуальный каталог!</translation>
+    </message>
+    <message>
+        <source>Insert files...</source>
+        <translation>Вставка файлов...</translation>
+    </message>
+    <message>
+        <source>The file %1 does not exist! Skipping it.</source>
+        <translation>Файл «%1» не существует! Пропущен.</translation>
+    </message>
+    <message>
+        <source>Cannot open file %1! Skipping it.</source>
+        <translation>Не удалось открыть файл «%1»! Пропущен.</translation>
+    </message>
+    <message>
+        <source>The filter %1 is already registered!</source>
+        <translation>Фильтр «%1» уже зарегистрирован!</translation>
+    </message>
+    <message>
+        <source>Cannot register filter %1!</source>
+        <translation>Не удалось зарегистрировать фильтр «%1»!</translation>
+    </message>
+    <message>
+        <source>Insert indices...</source>
+        <translation>Вставка указателей...</translation>
+    </message>
+    <message>
+        <source>Insert contents...</source>
+        <translation>Вставка содержимого...</translation>
+    </message>
+    <message>
+        <source>Cannot insert contents!</source>
+        <translation>Не удалось вставить содержимое!</translation>
+    </message>
+    <message>
+        <source>Cannot register contents!</source>
+        <translation>Не удалось зарегистрировать содержимое!</translation>
+    </message>
+    <message>
+        <source>File &apos;%1&apos; does not exist.</source>
+        <translation>Файл «%1» не существует.</translation>
+    </message>
+    <message>
+        <source>File &apos;%1&apos; cannot be opened.</source>
+        <translation>Не удалось открыть файл «%1».</translation>
+    </message>
+    <message>
+        <source>File &apos;%1&apos; contains an invalid link to file &apos;%2&apos;</source>
+        <translation>Файл «%1» содержит некорректную ссылку на «%2»</translation>
+    </message>
+    <message>
+        <source>Invalid links in HTML files.</source>
+        <translation>Некорректные ссылки на файлы HTML.</translation>
+    </message>
+</context>
+<context>
+    <name>QHelpProject</name>
+    <message>
+        <source>Unknown token.</source>
+        <translation>Неизвестный токен.</translation>
+    </message>
+    <message>
+        <source>Unknown token. Expected &quot;QtHelpProject&quot;!</source>
+        <translation>Неизвестный токен. Ожидался «QtHelpProject»!</translation>
+    </message>
+    <message>
+        <source>Error in line %1: %2</source>
+        <translation>Ошибка в строке %1:%2</translation>
+    </message>
+    <message>
+        <source>Virtual folder has invalid syntax.</source>
+        <translation>Виртуальный каталог имеет некорректный синтаксис.</translation>
+    </message>
+    <message>
+        <source>Namespace has invalid syntax.</source>
+        <translation>Пространство имён имеет некорректный синтаксис.</translation>
+    </message>
+    <message>
+        <source>Missing namespace in QtHelpProject.</source>
+        <translation>Отсутствует пространство имён в QtHelpProject.</translation>
+    </message>
+    <message>
+        <source>Missing virtual folder in QtHelpProject</source>
+        <translation>Отсутствует виртуальный каталог в QtHelpProject</translation>
+    </message>
+    <message>
+        <source>The input file %1 could not be opened!</source>
+        <translation>Не удалось открыть входной файл «%1»!</translation>
+    </message>
+</context>
+<context>
+    <name>QHelpSearchQueryWidget</name>
+    <message>
+        <source>Search for:</source>
+        <translation>Искать:</translation>
+    </message>
+    <message>
+        <source>Previous search</source>
+        <translation>Найти предыдущее</translation>
+    </message>
+    <message>
+        <source>Next search</source>
+        <translation>Найти следующее</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Найти</translation>
+    </message>
+    <message>
+        <source>Advanced search</source>
+        <translation>Расширенный поиск</translation>
+    </message>
+    <message>
+        <source>words &lt;B&gt;similar&lt;/B&gt; to:</source>
+        <translation>слова &lt;B&gt;похожие&lt;/B&gt; на:</translation>
+    </message>
+    <message>
+        <source>&lt;B&gt;without&lt;/B&gt; the words:</source>
+        <translation>&lt;B&gt;без&lt;/B&gt; слов:</translation>
+    </message>
+    <message>
+        <source>with &lt;B&gt;exact phrase&lt;/B&gt;:</source>
+        <translation>с &lt;B&gt;точной фразой&lt;/B&gt;:</translation>
+    </message>
+    <message>
+        <source>with &lt;B&gt;all&lt;/B&gt; of the words:</source>
+        <translation>со &lt;B&gt;всеми&lt;/B&gt; словами:</translation>
+    </message>
+    <message>
+        <source>with &lt;B&gt;at least one&lt;/B&gt; of the words:</source>
+        <translation>&lt;B&gt;минимум с одним&lt;/B&gt; из слов:</translation>
+    </message>
+</context>
+<context>
+    <name>QHelpSearchResultWidget</name>
+    <message numerus="yes">
+        <source>%1 - %2 of %n Hits</source>
+        <translation>
+            <numerusform>%1 - %2 из %n совпадения</numerusform>
+            <numerusform>%1 - %2 из %n совпадений</numerusform>
+            <numerusform>%1 - %2 из %n совпадений</numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>0 - 0 of 0 Hits</source>
+        <translation>0 - 0 из 0 совпадений</translation>
     </message>
 </context>
 <context>

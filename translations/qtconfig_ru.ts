@@ -9,11 +9,11 @@
     </message>
     <message>
         <source>&lt;p&gt;&lt;b&gt;&lt;font size+=2&gt;Fonts&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;Use this tab to select the default font for your Qt applications. The selected font is shown (initially as &apos;Sample Text&apos;) in the line edit below the Family, Style and Point Size drop down lists.&lt;/p&gt;&lt;p&gt;Qt has a powerful font substitution feature that allows you to specify a list of substitute fonts.  Substitute fonts are used when a font cannot be loaded, or if the specified font doesn&apos;t have a particular character.&lt;p&gt;For example, if you select the font Lucida, which doesn&apos;t have Korean characters, but need to show some Korean text using the Mincho font family you can do so by adding Mincho to the list. Once Mincho is added, any Korean characters that are not found in the Lucida font will be taken from the Mincho font.  Because the font substitutions are lists, you can also select multiple families, such as Song Ti (for use with Chinese text).</source>
-        <translation>&lt;p&gt;&lt;b&gt;&lt;font size+=2&gt;Шрифты&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;На этой вкладке можно выбрать шрифт по умолчанию для приложений Qt. Выбранный шрифт отображается в строке редактирования ниже выпадающих списков &quot;Шрифт&quot;, &quot;Начертание&quot; и &quot;Размер&quot; (по умолчанию это текст &quot;Текст для примера (Sample Text)&quot;).&lt;/p&gt;&lt;p&gt;Qt обладает мощным механизмом подмены шрифтов, который позволяет задавать список подставляемых шрифтов. Подставляемые шрифты используются, когда шрифт не удаётся загрузить или в нём отсутствуют необходимые символы.&lt;p&gt;Например, если требуется, чтобы при выборе шрифта Lucida, в котором отсутствуют корейские иероглифы, для отображения корейского текста использовался шрифт Mincho,то можно добавить его в список. После этого все корейские символы, отсутствующие в шрифте Lucida, будут браться из шрифта Mincho. Так как для замены используется список, то можно добавлять несколько шрифтов, например, можно также добавить шрифт Song Ti для отображения китайского текста.</translation>
+        <translation>&lt;p&gt;&lt;b&gt;&lt;font size+=2&gt;Шрифты&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;На этой вкладке можно выбрать шрифт по умолчанию для приложений Qt. Выбранный шрифт отображается в строке редактирования ниже выпадающих списков «Шрифт», «Начертание» и «Размер» (по умолчанию это текст «Текст для примера (Sample Text)»).&lt;/p&gt;&lt;p&gt;Qt обладает мощным механизмом подмены шрифтов, который позволяет задавать список подставляемых шрифтов. Подставляемые шрифты используются, когда шрифт не удаётся загрузить или в нём отсутствуют необходимые символы.&lt;p&gt;Например, если требуется, чтобы при выборе шрифта Lucida, в котором отсутствуют корейские иероглифы, для отображения корейского текста использовался шрифт Mincho,то можно добавить его в список. После этого все корейские символы, отсутствующие в шрифте Lucida, будут браться из шрифта Mincho. Так как для замены используется список, то можно добавлять несколько шрифтов, например, можно также добавить шрифт Song Ti для отображения китайского текста.</translation>
     </message>
     <message>
         <source>&lt;p&gt;&lt;b&gt;&lt;font size+=2&gt;Interface&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;Use this tab to customize the feel of your Qt applications.&lt;/p&gt;&lt;p&gt;If the Resolve Symlinks checkbox is checked Qt will follow symlinks when handling URLs. For example, in the file dialog, if this setting is turned on and /usr/tmp is a symlink to /var/tmp, entering the /usr/tmp directory will cause the file dialog to change to /var/tmp.  With this setting turned off, symlinks are not resolved or followed.&lt;/p&gt;&lt;p&gt;The Global Strut setting is useful for people who require a minimum size for all widgets (e.g. when using a touch panel or for users who are visually impaired).  Leaving the Global Strut width and height at 0 will disable the Global Strut feature&lt;/p&gt;&lt;p&gt;XIM (Extended Input Methods) are used for entering characters in languages that have large character sets, for example, Chinese and Japanese.</source>
-        <translation>&lt;p&gt;&lt;b&gt;&lt;font size+=2&gt;Интерфейс&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;На этой вкладке можно настроить поведение приложений Qt.&lt;/p&gt;&lt;p&gt;Если включено &quot;Разрешать символьные ссылки&quot;, Qt будет следовать по символьным ссылкам при обработке путей URL. Например, если эта функция включена и /usr/tmp является символьной ссылкой на /var/tmp, то в диалоге выбора файла при вводе пути к каталогу /usr/tmp он будет изменён на /var/tmp.&lt;/p&gt;&lt;p&gt;Функция &quot;Минимальные размеры&quot; предназначены для тех, кому необходимо чтобы элементы интерфейса были не менее заданного размера (например, при использовании сенсорной панели или для людей с проблемами зрения). Если задать 0 в полях &quot;минимальная ширина&quot; и &quot;минимальная высота&quot;, то данная функция будет отключена.&lt;/p&gt;&lt;p&gt;Метод ввода XIM (расширенные методы ввода) используется для ввода символов на языках с большим набором символов (например, китайском или японском).</translation>
+        <translation>&lt;p&gt;&lt;b&gt;&lt;font size+=2&gt;Интерфейс&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;На этой вкладке можно настроить поведение приложений Qt.&lt;/p&gt;&lt;p&gt;Если включено «Разрешать символьные ссылки», Qt будет следовать по символьным ссылкам при обработке путей URL. Например, если эта функция включена и /usr/tmp является символьной ссылкой на /var/tmp, то в диалоге выбора файла при вводе пути к каталогу /usr/tmp он будет изменён на /var/tmp.&lt;/p&gt;&lt;p&gt;Функция «Минимальные размеры» предназначены для тех, кому необходимо чтобы элементы интерфейса были не менее заданного размера (например, при использовании сенсорной панели или для людей с проблемами зрения). Если задать 0 в полях «минимальная ширина» и «минимальная высота», то данная функция будет отключена.&lt;/p&gt;&lt;p&gt;Метод ввода XIM (расширенные методы ввода) используется для ввода символов на языках с большим набором символов (например, китайском или японском).</translation>
     </message>
     <message>
         <source>&lt;p&gt;&lt;b&gt;&lt;font size+=2&gt;Printer&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;Use this tab to configure the way Qt generates output for the printer.You can specify if Qt should try to embed fonts into its generated output.If you enable font embedding, the resulting postscript will be more portable and will more accurately reflect the visual output on the screen; however the resulting postscript file size will be bigger.&lt;p&gt;When using font embedding you can select additional directories where Qt should search for embeddable font files.  By default, the X server font path is used.</source>
@@ -21,7 +21,7 @@
     </message>
     <message>
         <source>&lt;p&gt;&lt;b&gt;&lt;font size+=2&gt;Phonon&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;Use this tab to configure the Phonon GStreamer multimedia backend. &lt;p&gt;It is reccommended to leave all settings on &quot;Auto&quot; to let Phonon determine your settings automatically.</source>
-        <translation>&lt;p&gt;&lt;b&gt;&lt;font size+=2&gt;Phonon&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;На этой вкладке можно настроить мультимедийную подсистему Phonon GStreamer.&lt;p&gt;Рекомендуется оставить значение &quot;Автоматически&quot; для всех настроек, чтобы Phonon определил параметры самостоятельно.</translation>
+        <translation>&lt;p&gt;&lt;b&gt;&lt;font size+=2&gt;Phonon&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;На этой вкладке можно настроить мультимедийную подсистему Phonon GStreamer.&lt;p&gt;Рекомендуется оставить значение «Автоматически» для всех настроек, чтобы Phonon определил параметры самостоятельно.</translation>
     </message>
     <message>
         <source>Desktop Settings (Default)</source>
@@ -100,6 +100,10 @@
         <translation>Сохранённые изменения.</translation>
     </message>
     <message>
+        <source>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;Version %2&lt;br/&gt;&lt;br/&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies).</source>
+        <translation>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;Версия %2&lt;br/&gt;&lt;br/&gt;Copyright (C) 2012 Digia Plc и/или её дочерние подразделения.</translation>
+    </message>
+    <message>
         <source>Over The Spot</source>
         <translation>Поверх текста</translation>
     </message>
@@ -114,10 +118,6 @@
     <message>
         <source>Select a Directory</source>
         <translation>Выбор каталога</translation>
-    </message>
-    <message>
-        <source>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;Version %2&lt;br/&gt;&lt;br/&gt;Copyright (C) 2012 Nokia Corporation and/or its subsidiary(-ies).</source>
-        <translation>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;Версия %2&lt;br/&gt;&lt;br/&gt;Copyright (C) 2012 Корпорация Nokia и/или её дочерние подразделения.</translation>
     </message>
     <message>
         <source>Qt Configuration</source>
@@ -285,7 +285,7 @@
     </message>
     <message>
         <source>Alt+E</source>
-        <translation></translation>
+        <translation>Alt+E</translation>
     </message>
     <message>
         <source>&amp;Menu Effect:</source>
@@ -692,7 +692,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>&lt;p&gt;&lt;a href=&quot;http://qt.nokia.com&quot;&gt;http://qt.nokia.com&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.kde.org&quot;&gt;http://www.kde.org&lt;/a&gt;&lt;/p&gt;</source>
-        <translation></translation>
+        <translation>&lt;p&gt;&lt;a href=&quot;http://qt-project.org&quot;&gt;http://qt-project.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kde.org&quot;&gt;http://www.kde.org&lt;/a&gt;&lt;/p&gt;</translation>
     </message>
 </context>
 </TS>
