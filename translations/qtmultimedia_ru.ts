@@ -54,12 +54,12 @@
 <context>
     <name>MFPlayerSession</name>
     <message>
-        <source>Invalid stream source!</source>
-        <translation>Неверный источник потока!</translation>
+        <source>Invalid stream source.</source>
+        <translation>Неверный источник потока.</translation>
     </message>
     <message>
-        <source>Attempting to play invalid Qt resource</source>
-        <translation>Попытка воспроизвести неверный ресурс Qt</translation>
+        <source>Attempting to play invalid Qt resource.</source>
+        <translation>Попытка воспроизвести неверный ресурс Qt.</translation>
     </message>
     <message>
         <source>The system cannot find the file specified.</source>
@@ -74,79 +74,79 @@
         <translation>Не удалось загрузить источник.</translation>
     </message>
     <message>
-        <source>Can&apos;t create presentation descriptor!</source>
-        <translation>Не удалось создать дескриптор презентации!</translation>
+        <source>Cannot create presentation descriptor.</source>
+        <translation>Не удалось создать дескриптор презентации.</translation>
     </message>
     <message>
-        <source>Failed to get stream count</source>
-        <translation>Не удалось получить количество потоков</translation>
+        <source>Failed to get stream count.</source>
+        <translation>Не удалось получить количество потоков.</translation>
     </message>
     <message>
-        <source>Failed to create topology!</source>
-        <translation>Не удалось создать топологию!</translation>
+        <source>Failed to create topology.</source>
+        <translation>Не удалось создать топологию.</translation>
     </message>
     <message>
-        <source>Unable to play some stream</source>
-        <translation>Не удалось воспроизвести некоторые потоки</translation>
+        <source>Unable to play any stream.</source>
+        <translation>Невозможно воспроизводить потоки.</translation>
     </message>
     <message>
-        <source>Unable to play</source>
-        <translation>Не удалось воспроизвести</translation>
+        <source>Unable to play.</source>
+        <translation>Не удалось воспроизвести.</translation>
     </message>
     <message>
-        <source>Failed to set topology!</source>
-        <translation>Не удалось установить топологию!</translation>
+        <source>Failed to set topology.</source>
+        <translation>Не удалось установить топологию.</translation>
     </message>
     <message>
-        <source>Unknown stream type</source>
-        <translation>Тип потока не известен</translation>
+        <source>Unknown stream type.</source>
+        <translation>Тип потока не известен.</translation>
     </message>
     <message>
-        <source>failed to stop</source>
-        <translation>не удалось остановить</translation>
+        <source>Failed to stop.</source>
+        <translation>Не удалось остановить.</translation>
+    </message>
+    <message>
+        <source>Failed to pause.</source>
+        <translation>Не удалось приостановить.</translation>
+    </message>
+    <message>
+        <source>Unable to create mediasession.</source>
+        <translation>Не удалось создать медиа-сессию.</translation>
+    </message>
+    <message>
+        <source>Unable to pull session events.</source>
+        <translation>Не удалось получить события сессии.</translation>
+    </message>
+    <message>
+        <source>Failed to seek.</source>
+        <translation>Не удалось переместиться.</translation>
+    </message>
+    <message>
+        <source>Media session non-fatal error.</source>
+        <translation>Нефатальная ошибка медиа-сессии.</translation>
+    </message>
+    <message>
+        <source>Media session serious error.</source>
+        <translation>Серьёзная ошибка медиа-сессии.</translation>
     </message>
     <message>
         <source>failed to start playback</source>
         <translation>не удалось запустить воспроизведение</translation>
     </message>
-    <message>
-        <source>failed to pause</source>
-        <translation>не удалось приостановить</translation>
-    </message>
-    <message>
-        <source>Unable to create mediasession</source>
-        <translation>Не удалось создать медиа-сессию</translation>
-    </message>
-    <message>
-        <source>Unable to pulling session events</source>
-        <translation>Не удалось получить события сессии</translation>
-    </message>
-    <message>
-        <source>failed to seek</source>
-        <translation>не удалось переместиться</translation>
-    </message>
-    <message>
-        <source>media session non-fatal error!</source>
-        <translation>нефатальная ошибка медиа-сессии!</translation>
-    </message>
-    <message>
-        <source>media session serious error!</source>
-        <translation>серьёзная ошибка медиа-сессии!</translation>
-    </message>
 </context>
 <context>
     <name>PLSParser</name>
     <message>
-        <source>Error parsing pls: %1, expected count = %2</source>
-        <translation>Ошибка разбора pls: %1, ожидается count = %2</translation>
+        <source>Error parsing playlist: %1, expected count = %2</source>
+        <translation>Ошибка разбора списка воспроизведения: %1, ожидается count = %2</translation>
     </message>
     <message>
-        <source>Error parsing pls at line[%1], expected version = 2</source>
-        <translation>Ошибка разора pls в строке %1, ожидается версия = 2</translation>
+        <source>Error parsing playlist at line[%1], expected version = 2</source>
+        <translation>Ошибка разора списка воспроизведения в строке %1, ожидается версия = 2</translation>
     </message>
     <message>
-        <source>Error parsing pls at line[%1]:%2</source>
-        <translation>Ошибка разбора pls в строке %1: %2</translation>
+        <source>Error parsing playlist at line[%1]:%2</source>
+        <translation>Ошибка разбора списка воспроизведения в строке %1: %2</translation>
     </message>
     <message>
         <source>File%1</source>

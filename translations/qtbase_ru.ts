@@ -1738,8 +1738,8 @@ Do you want to delete it anyway?</source>
         <translation>Установлено соединение с узлом %1</translation>
     </message>
     <message>
-        <source>Connection refused for data connection</source>
-        <translation>Отказ в соединении для передачи данных</translation>
+        <source>Data Connection refused</source>
+        <translation>Отклонена попытка подключения для передачи данных</translation>
     </message>
     <message>
         <source>Unknown error</source>
@@ -2254,8 +2254,8 @@ Do you want to delete it anyway?</source>
 <context>
     <name>QMYSQLDriver</name>
     <message>
-        <source>Unable to open database &apos;</source>
-        <translation>Невозможно открыть базу данных &apos;</translation>
+        <source>Unable to open database &apos;%1&apos;</source>
+        <translation>Невозможно открыть базу данных «%1»</translation>
     </message>
     <message>
         <source>Unable to connect</source>
@@ -2426,8 +2426,8 @@ Do you want to delete it anyway?</source>
         <translation>&lt;h3&gt;О Qt&lt;/h3&gt;&lt;p&gt;Данная программа использует Qt версии %1.&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across MS&amp;nbsp;Windows, Mac&amp;nbsp;OS&amp;nbsp;X, Linux, and all major commercial Unix variants. Qt is also available for embedded devices as Qt for Embedded Linux and Qt for Windows CE.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications (proprietary or open source) provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Qt - это инструментарий для разработки кроссплатформенных приложений на C++.&lt;/p&gt;&lt;p&gt;Qt предоставляет совместимость на уровне исходных текстов между MS&amp;nbsp;Windows, Mac&amp;nbsp;OS&amp;nbsp;X, Linux и всеми популярными коммерческими вариантами Unix. Также Qt доступна для встраиваемых устройств в виде Qt для Embedded Linux и Qt для Windows CE.&lt;/p&gt;&lt;p&gt;Qt доступна под тремя различными лицензиями, разработанными для удовлетворения различных требований.&lt;/p&gt;&lt;p&gt;Qt под нашей коммерческой лицензией предназначена для развития проприетарного/коммерческого программного обеспечения, когда Вы не желаете предоставлять исходные тексты третьим сторонам, или в случае невозможности принятия условий лицензий GNU LGPL версии 2.1 или GNU GPL версии 3.0.&lt;/p&gt;&lt;p&gt;Qt под лицензией GNU LGPL версии 2.1 предназначена для разработки программного обеспечения с открытыми исходными текстами или коммерческого программного обеспечения при соблюдении условий лицензии GNU LGPL версии 2.1.&lt;/p&gt;&lt;p&gt;Qt под лицензией GNU General Public License версии 3.0 предназначена для разработки программных приложений в тех случаях, когда Вы хотели бы использовать такие приложения в сочетании с программным обеспечением на условиях лицензии GNU GPL с версии 3.0 или если Вы готовы соблюдать условия лицензии GNU GPL версии 3.0.&lt;/p&gt;&lt;p&gt;Обратитесь к &lt;a href=&quot;http://qt.digia.com/products/licensing&quot;&gt;qt.nokia.com/products/licensing&lt;/a&gt; для обзора лицензий Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt - продукт компании Digia. Обратитесь к &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.nokia.com&lt;/a&gt; для получения дополнительной информации.&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is developed as an open source project on &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Qt - это инструментарий для разработки кроссплатформенных приложений на C++.&lt;/p&gt;&lt;p&gt;Qt предоставляет совместимость на уровне исходных текстов между для всех популярных настольных операционных систем. Также Qt доступна для встраиваемого Linux и других мобильных операционных систем.&lt;/p&gt;&lt;p&gt;Qt доступна под тремя различными лицензиями, разработанными для удовлетворения различных требований.&lt;/p&gt;&lt;p&gt;Qt под нашей коммерческой лицензией предназначена для развития проприетарного/коммерческого программного обеспечения, когда Вы не желаете предоставлять исходные тексты третьим сторонам, или в случае невозможности принятия условий лицензий GNU LGPL версии 2.1 или GNU GPL версии 3.0.&lt;/p&gt;&lt;p&gt;Qt под лицензией GNU LGPL версии 2.1 предназначена для разработки программного обеспечения с открытыми исходными текстами или коммерческого программного обеспечения при соблюдении условий лицензии GNU LGPL версии 2.1.&lt;/p&gt;&lt;p&gt;Qt под лицензией GNU General Public License версии 3.0 предназначена для разработки программных приложений в тех случаях, когда Вы хотели бы использовать такие приложения в сочетании с программным обеспечением на условиях лицензии GNU GPL с версии 3.0 или если Вы готовы соблюдать условия лицензии GNU GPL версии 3.0.&lt;/p&gt;&lt;p&gt;Подробнее с лицензированием Qt можно ознакомиться на сайте &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc и/или её дочерние подразделения и другие участники.&lt;/p&gt;&lt;p&gt;Qt, как открытый проект, разрабатывается на &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt - продукт компании Digia. Более подробную информацию можно найти на сайте &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt;.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About Qt</source>
@@ -2874,17 +2874,6 @@ Do you want to delete it anyway?</source>
     </message>
 </context>
 <context>
-    <name>QPPDOptionsModel</name>
-    <message>
-        <source>Name</source>
-        <translation>Имя</translation>
-    </message>
-    <message>
-        <source>Value</source>
-        <translation>Значение</translation>
-    </message>
-</context>
-<context>
     <name>QPSQLDriver</name>
     <message>
         <source>Unable to connect</source>
@@ -3293,10 +3282,6 @@ Do you want to overwrite it?</source>
     <message>
         <source>Page</source>
         <translation>Страница</translation>
-    </message>
-    <message>
-        <source>Advanced</source>
-        <translation>Дополнительно</translation>
     </message>
 </context>
 <context>
@@ -4297,11 +4282,11 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Launch Mail</source>
-        <translation type="unfinished">Почта</translation>
+        <translation>Почта</translation>
     </message>
     <message>
         <source>Launch Media</source>
-        <translation type="unfinished">Проигрыватель</translation>
+        <translation>Проигрыватель</translation>
     </message>
     <message>
         <source>Launch (0)</source>
@@ -4369,23 +4354,23 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Monitor Brightness Up</source>
-        <translation type="unfinished">Увеличить яркость монитора</translation>
+        <translation>Увеличить яркость монитора</translation>
     </message>
     <message>
         <source>Monitor Brightness Down</source>
-        <translation type="unfinished">Уменьшить яркость монитора</translation>
+        <translation>Уменьшить яркость монитора</translation>
     </message>
     <message>
         <source>Keyboard Light On/Off</source>
-        <translation type="unfinished">Вкл./Откл. подсветку клавиатуры</translation>
+        <translation>Вкл./откл. подсветку клавиатуры</translation>
     </message>
     <message>
         <source>Keyboard Brightness Up</source>
-        <translation type="unfinished">Увеличить яркость подсветки клавиатуры</translation>
+        <translation>Увеличить яркость подсветки клавиатуры</translation>
     </message>
     <message>
         <source>Keyboard Brightness Down</source>
-        <translation type="unfinished">Уменьшить яркость подсветки клавиатуры</translation>
+        <translation>Уменьшить яркость подсветки клавиатуры</translation>
     </message>
     <message>
         <source>Power Off</source>
@@ -4393,15 +4378,15 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Wake Up</source>
-        <translation type="unfinished">Пробуждение</translation>
+        <translation>Пробуждение</translation>
     </message>
     <message>
         <source>Eject</source>
-        <translation type="unfinished">Извлечь</translation>
+        <translation>Извлечь</translation>
     </message>
     <message>
         <source>Screensaver</source>
-        <translation type="unfinished">Экранная заставка</translation>
+        <translation>Хранитель экрана</translation>
     </message>
     <message>
         <source>WWW</source>
@@ -4409,7 +4394,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Sleep</source>
-        <translation type="unfinished">Спящий режим</translation>
+        <translation>Спящий режим</translation>
     </message>
     <message>
         <source>LightBulb</source>
@@ -4433,7 +4418,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Adjust Brightness</source>
-        <translation type="unfinished">Настройка яркости</translation>
+        <translation>Настройка яркости</translation>
     </message>
     <message>
         <source>Finance</source>
@@ -4441,15 +4426,15 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Community</source>
-        <translation type="unfinished">Сообщество</translation>
+        <translation>Сообщество</translation>
     </message>
     <message>
         <source>Audio Rewind</source>
-        <translation type="unfinished">Перемотка аудио назад</translation>
+        <translation>Перемотка аудио назад</translation>
     </message>
     <message>
         <source>Back Forward</source>
-        <translation type="unfinished">Назад/вперёд</translation>
+        <translation>Назад/вперёд</translation>
     </message>
     <message>
         <source>Application Left</source>
@@ -4461,7 +4446,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Book</source>
-        <translation type="unfinished">Книга</translation>
+        <translation>Книга</translation>
     </message>
     <message>
         <source>CD</source>
@@ -4469,7 +4454,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Calculator</source>
-        <translation type="unfinished">Калькулятор</translation>
+        <translation>Калькулятор</translation>
     </message>
     <message>
         <source>Clear</source>
@@ -4481,15 +4466,15 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished">Закрыть</translation>
+        <translation>Закрыть</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation type="unfinished">Копировать</translation>
+        <translation>Копировать</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation type="unfinished">Вырезать</translation>
+        <translation>Вырезать</translation>
     </message>
     <message>
         <source>Display</source>
@@ -4501,7 +4486,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Documents</source>
-        <translation type="unfinished">Документы</translation>
+        <translation>Документы</translation>
     </message>
     <message>
         <source>Spreadsheet</source>
@@ -4561,7 +4546,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Paste</source>
-        <translation type="unfinished">Вставить</translation>
+        <translation>Вставить</translation>
     </message>
     <message>
         <source>Phone</source>
@@ -4573,7 +4558,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Reload</source>
-        <translation type="unfinished">Перезагрузить</translation>
+        <translation>Перезагрузить</translation>
     </message>
     <message>
         <source>Rotate Windows</source>
@@ -4589,7 +4574,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished">Сохранить</translation>
+        <translation>Сохранить</translation>
     </message>
     <message>
         <source>Send</source>
@@ -4625,7 +4610,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Video</source>
-        <translation type="unfinished">Видео</translation>
+        <translation>Видео</translation>
     </message>
     <message>
         <source>Word Processor</source>
@@ -4637,15 +4622,15 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Zoom In</source>
-        <translation type="unfinished">Увеличить</translation>
+        <translation>Увеличить</translation>
     </message>
     <message>
         <source>Zoom Out</source>
-        <translation type="unfinished">Уменьшить</translation>
+        <translation>Уменьшить</translation>
     </message>
     <message>
         <source>Away</source>
-        <translation type="unfinished">Ушёл</translation>
+        <translation>Ушёл</translation>
     </message>
     <message>
         <source>Messenger</source>
@@ -4669,15 +4654,15 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Battery</source>
-        <translation type="unfinished">Батарея</translation>
+        <translation>Батарея</translation>
     </message>
     <message>
         <source>Bluetooth</source>
-        <translation type="unfinished">Bluetooth</translation>
+        <translation>Bluetooth</translation>
     </message>
     <message>
         <source>Wireless</source>
-        <translation type="unfinished">Беспроводная сеть</translation>
+        <translation>Беспроводная сеть</translation>
     </message>
     <message>
         <source>Ultra Wide Band</source>
@@ -4705,7 +4690,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Time</source>
-        <translation type="unfinished">Время</translation>
+        <translation>Время</translation>
     </message>
     <message>
         <source>Select</source>
@@ -4717,7 +4702,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Top Menu</source>
-        <translation type="unfinished">Главное меню</translation>
+        <translation>Главное меню</translation>
     </message>
     <message>
         <source>Suspend</source>
@@ -4725,7 +4710,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Hibernate</source>
-        <translation type="unfinished">Усыпить</translation>
+        <translation>Усыпить</translation>
     </message>
     <message>
         <source>Print Screen</source>
@@ -4773,11 +4758,11 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished">Да</translation>
+        <translation>Да</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished">Нет</translation>
+        <translation>Нет</translation>
     </message>
     <message>
         <source>Context1</source>
@@ -5169,7 +5154,7 @@ Do you want to overwrite it?</source>
         <translation>Ошибка создания сессии SSL: %1</translation>
     </message>
     <message>
-        <source>Unable to init Ssl Context: %1</source>
+        <source>Unable to init SSL Context: %1</source>
         <translation>Не удалось инициализировать контекст SSL: %1</translation>
     </message>
     <message>

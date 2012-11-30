@@ -651,46 +651,46 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>GroupBox</source>
-        <translation type="unfinished">Объединение</translation>
+        <translation>Объединение</translation>
     </message>
     <message>
         <source>RadioButton1</source>
-        <translation type="unfinished">Переключатель1</translation>
+        <translation>Переключатель1</translation>
     </message>
     <message>
         <source>RadioButton2</source>
-        <translation type="unfinished">Переключатель2</translation>
+        <translation>Переключатель2</translation>
     </message>
     <message>
         <source>RadioButton3</source>
-        <translation type="unfinished">Переключатель3</translation>
+        <translation>Переключатель3</translation>
     </message>
     <message>
         <source>GroupBox2</source>
-        <translation type="unfinished">Объединение2</translation>
+        <translation>Объединение2</translation>
     </message>
     <message>
         <source>CheckBox1</source>
-        <translation type="unfinished">Выключатель1</translation>
+        <translation>Выключатель1</translation>
     </message>
     <message>
         <source>CheckBox2</source>
-        <translation type="unfinished">Выключатель2</translation>
+        <translation>Выключатель2</translation>
     </message>
     <message>
         <source>LineEdit</source>
-        <translation type="unfinished">Строка редактирования</translation>
+        <translation>Строка редактирования</translation>
     </message>
     <message>
         <source>ComboBox</source>
-        <translation type="unfinished">Выпадающий список</translation>
+        <translation>Выпадающий список</translation>
     </message>
     <message>
         <source>PushButton</source>
-        <translation type="unfinished">Простая кнопка</translation>
+        <translation>Простая кнопка</translation>
     </message>
     <message>
-        <source>&lt;p&gt;&lt;a href=&quot;http://qt.nokia.com&quot;&gt;http://qt.nokia.com&lt;/a&gt;&lt;/p&gt;
+        <source>&lt;p&gt;&lt;a href=&quot;http://qt-project.org&quot;&gt;http://qt-project.org&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.kde.org&quot;&gt;http://www.kde.org&lt;/a&gt;&lt;/p&gt;</source>
         <translation>&lt;p&gt;&lt;a href=&quot;http://qt-project.org&quot;&gt;http://qt-project.org&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.kde.org&quot;&gt;http://www.kde.org&lt;/a&gt;&lt;/p&gt;</translation>

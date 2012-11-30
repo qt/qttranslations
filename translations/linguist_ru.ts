@@ -2096,8 +2096,8 @@ All files (*)</source>
         <translation>Переключение проверки маркеров форматирования</translation>
     </message>
     <message>
-        <source>Display information about the Qt toolkit by Nokia.</source>
-        <translation>Показать информацию об инструментарии Qt от Nokia.</translation>
+        <source>Display information about the Qt toolkit by Digia.</source>
+        <translation>Показать информацию об инструментарии Qt от Digia.</translation>
     </message>
 </context>
 <context>

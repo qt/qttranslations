@@ -714,6 +714,22 @@ Reason:
         <translation>Открыть ссылку в новой вкладке	Ctrl+LMB</translation>
     </message>
     <message>
+        <source>Error 404...</source>
+        <translation>Ошибка 404...</translation>
+    </message>
+    <message>
+        <source>The page could not be found!</source>
+        <translation>Не удалось найти страницу!</translation>
+    </message>
+    <message>
+        <source>Please make sure that you have all documentation sets installed.</source>
+        <translation>Убедитесь, что установлен весь набор документации.</translation>
+    </message>
+    <message>
+        <source>Error loading: %1</source>
+        <translation>Ошибка загрузки: %1</translation>
+    </message>
+    <message>
         <source>Open Link in New Page</source>
         <translation>Открыть ссылку в новой странице</translation>
     </message>

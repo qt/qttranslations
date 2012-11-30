@@ -9,17 +9,6 @@
     </message>
 </context>
 <context>
-    <name>QObject</name>
-    <message>
-        <source>&quot;%1&quot; duplicates a previous role name and will be disabled.</source>
-        <translation>«%1» повторяет имя предыдущей роли и не будет использовано.</translation>
-    </message>
-    <message>
-        <source>invalid query: &quot;%1&quot;</source>
-        <translation>Некорректный запрос: «%1»</translation>
-    </message>
-</context>
-<context>
     <name>QQmlCompiler</name>
     <message>
         <source>Invalid property assignment: &quot;%1&quot; is a read-only property</source>
@@ -402,6 +391,25 @@
     <message>
         <source>Invalid empty URL</source>
         <translation>Пустой адрес URL</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlConnections</name>
+    <message>
+        <source>Cannot assign to non-existent property &quot;%1&quot;</source>
+        <translation>Невозможно назначить несуществующему свойству «%1»</translation>
+    </message>
+    <message>
+        <source>Connections: nested objects not allowed</source>
+        <translation>Подключения: вложенные объекты недопустимы</translation>
+    </message>
+    <message>
+        <source>Connections: syntax error</source>
+        <translation>Подключения: синтаксическая ошибка</translation>
+    </message>
+    <message>
+        <source>Connections: script expected</source>
+        <translation>Подключения: ожидается сценарий</translation>
     </message>
 </context>
 <context>
@@ -842,25 +850,6 @@
     </message>
 </context>
 <context>
-    <name>QQuickConnections</name>
-    <message>
-        <source>Cannot assign to non-existent property &quot;%1&quot;</source>
-        <translation>Невозможно назначить несуществующему свойству «%1»</translation>
-    </message>
-    <message>
-        <source>Connections: nested objects not allowed</source>
-        <translation>Подключения: вложенные объекты недопустимы</translation>
-    </message>
-    <message>
-        <source>Connections: syntax error</source>
-        <translation>Подключения: синтаксическая ошибка</translation>
-    </message>
-    <message>
-        <source>Connections: script expected</source>
-        <translation>Подключения: ожидается сценарий</translation>
-    </message>
-</context>
-<context>
     <name>QQuickDragAttached</name>
     <message>
         <source>Drag is only available via attached properties</source>
@@ -1233,6 +1222,17 @@
     <message>
         <source>Delegate component must be Package type.</source>
         <translation>Компонента делегата должен быть типа Package.</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickXmlListModel</name>
+    <message>
+        <source>&quot;%1&quot; duplicates a previous role name and will be disabled.</source>
+        <translation>«%1» повторяет имя предыдущей роли и будет отключено.</translation>
+    </message>
+    <message>
+        <source>invalid query: &quot;%1&quot;</source>
+        <translation>Некорректный запрос: «%1»</translation>
     </message>
 </context>
 <context>
