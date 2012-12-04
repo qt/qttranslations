@@ -444,7 +444,7 @@
     </message>
     <message>
         <source>Invalid reply received</source>
-        <translation>Ungültiger Antwort erhalten</translation>
+        <translation>Ungültige Antwort erhalten</translation>
     </message>
     <message>
         <source>Could not expand domain name</source>
@@ -936,7 +936,7 @@ Möchten Sie die Datei trotzdem löschen?</translation>
     </message>
     <message>
         <source>Malayalam</source>
-        <translation>Malayalisch</translation>
+        <translation>Malayalam</translation>
     </message>
     <message>
         <source>Sinhala</source>
@@ -1451,7 +1451,7 @@ Möchten Sie die Datei trotzdem löschen?</translation>
     </message>
     <message>
         <source>The plugin &apos;%1&apos; uses incompatible Qt library. (Cannot mix debug and release libraries.)</source>
-        <translation>Das Plugin &apos;%1&apos; verwendet eine inkompatible Qt-Bibliothek. (Im Debug- bzw. Release-Modus erstellte Bibliotheken können nicht zusammen verwendet werden.)</translation>
+        <translation>Das Plugin &apos;%1&apos; verwendet eine inkompatible Qt-Bibliothek. (Im Debug-Modus erstellte und im Release-Modus erstellte Bibliotheken können nicht zusammen verwendet werden.)</translation>
     </message>
     <message>
         <source>Unknown error</source>
@@ -1583,7 +1583,7 @@ Möchten Sie die Datei trotzdem löschen?</translation>
     <name>QMYSQLDriver</name>
     <message>
         <source>Unable to open database &apos;</source>
-        <translation>Die Datenbank &apos;%1&apos; kann nicht geöffnet werden</translation>
+        <translation>Die Datenbank kann nicht geöffnet werden</translation>
     </message>
     <message>
         <source>Unable to connect</source>
@@ -1712,7 +1712,7 @@ Möchten Sie die Datei trotzdem löschen?</translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>Größe ä&amp;ndern</translation>
+        <translation>&amp;Größe</translation>
     </message>
     <message>
         <source>Mi&amp;nimize</source>
@@ -3030,7 +3030,7 @@ Soll sie überschrieben werden?</translation>
     </message>
     <message>
         <source>\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number</source>
-        <translation>auf \g folgt weder in geschweifte oder eckige Klammern eingeschlossene Nummer beziehungsweise Name noch Nummer</translation>
+        <translation>auf \g folgt weder in Anführungszeichen, geschweifte oder eckige Klammern eingeschlossene Zahl oder Name noch eine einfache Zahl</translation>
     </message>
     <message>
         <source>a numbered reference must not be zero</source>
@@ -3078,7 +3078,7 @@ Soll sie überschrieben werden?</translation>
     </message>
     <message>
         <source>\k is not followed by a braced, angle-bracketed, or quoted name</source>
-        <translation>auf \k folgt kein ein in geschweifte oder eckige Klammern eingeschlossener oder quotierter Name</translation>
+        <translation>auf \k folgt kein in Anführungszeichen, geschweifte oder eckige Klammern eingeschlossener Name</translation>
     </message>
     <message>
         <source>internal error: unknown opcode in find_fixedlength()</source>
@@ -3094,7 +3094,7 @@ Soll sie überschrieben werden?</translation>
     </message>
     <message>
         <source>disallowed Unicode code point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</source>
-        <translation>nicht zulässiger Unicode-Code-Point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)  </translation>
+        <translation>nicht zulässiger Unicode-Code-Point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</translation>
     </message>
     <message>
         <source>invalid UTF-16 string</source>
@@ -3734,7 +3734,7 @@ Soll sie überschrieben werden?</translation>
     </message>
     <message>
         <source>Spreadsheet</source>
-        <translation>Spreadsheet</translation>
+        <translation>Tabellenkalkulation</translation>
     </message>
     <message>
         <source>Browser</source>
@@ -3930,7 +3930,7 @@ Soll sie überschrieben werden?</translation>
     </message>
     <message>
         <source>Audio Cycle Track</source>
-        <translation>Audiospur wechseln</translation>
+        <translation>Audiotitel wiederholen</translation>
     </message>
     <message>
         <source>Time</source>
@@ -4454,7 +4454,7 @@ Soll sie überschrieben werden?</translation>
     </message>
     <message>
         <source>Home</source>
-        <translation>Pos1</translation>
+        <translation>Benutzerverzeichnis</translation>
     </message>
     <message>
         <source>Application Data</source>
