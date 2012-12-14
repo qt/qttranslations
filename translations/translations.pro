@@ -127,8 +127,3 @@ translations.files ~= s,\\.ts$,.qm,g
 translations.files ~= s,^,$$OUT_PWD/,g
 translations.CONFIG += no_check_exist
 INSTALLS += translations
-
-# Make dummy "sis" target to keep recursive "make sis" working.
-sis_target.target = sis
-sis_target.commands =
-QMAKE_EXTRA_TARGETS += sis_target
