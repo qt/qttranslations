@@ -70,6 +70,10 @@
         <translation>Не удалось найти указанный сервер.</translation>
     </message>
     <message>
+        <source>Unsupported media type.</source>
+        <translation>Носитель этого типа не поддерживается.</translation>
+    </message>
+    <message>
         <source>Failed to load source.</source>
         <translation>Не удалось загрузить источник.</translation>
     </message>
@@ -128,6 +132,10 @@
     <message>
         <source>Media session serious error.</source>
         <translation>Серьёзная ошибка медиа-сессии.</translation>
+    </message>
+    <message>
+        <source>Unsupported media, a codec is missing.</source>
+        <translation>Медиа не поддерживается - отсутствует кодек.</translation>
     </message>
     <message>
         <source>failed to start playback</source>

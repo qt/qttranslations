@@ -1283,10 +1283,6 @@ This indicates an inconsistency in the ui-file.</source>
         <translation>Справка по виджету</translation>
     </message>
     <message>
-        <source>What&apos;s New in Qt Designer?</source>
-        <translation>Что нового в Qt Designer?</translation>
-    </message>
-    <message>
         <source>About Plugins</source>
         <translation>О модулях</translation>
     </message>
@@ -3121,8 +3117,8 @@ Do you want overwrite the template?</source>
         <translation>&lt;br/&gt;Qt Designer - дизайнер графического интерфейса пользователя для Qt-приложений.&lt;br/&gt;</translation>
     </message>
     <message>
-        <source>%1&lt;br/&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies).</source>
-        <translation>%1&lt;br/&gt;Copyright (C) 2012 Digia Plc и/или её дочерние подразделения.</translation>
+        <source>%1&lt;br/&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).</source>
+        <translation>%1&lt;br/&gt;Copyright (C) 2013 Digia Plc и/или её дочерние подразделения.</translation>
     </message>
 </context>
 <context>
