@@ -100,8 +100,8 @@
         <translation>Сохранённые изменения.</translation>
     </message>
     <message>
-        <source>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;Version %2&lt;br/&gt;&lt;br/&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies).</source>
-        <translation>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;Версия %2&lt;br/&gt;&lt;br/&gt;Copyright (C) 2012 Digia Plc и/или её дочерние подразделения.</translation>
+        <source>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;Version %2&lt;br/&gt;&lt;br/&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).</source>
+        <translation>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;Версия %2&lt;br/&gt;&lt;br/&gt;Copyright (C) 2013 Digia Plc и/или её дочерние подразделения.</translation>
     </message>
     <message>
         <source>Over The Spot</source>
