@@ -54,7 +54,7 @@ addTsTargets(qtxmlpatterns, qtxmlpatterns/src/src.pro)
 #addTsTargets(qtsystems, qtsystems/src/src.pro)  # not part of 5.0
 
 addTsTargets(designer, qttools/src/designer/designer.pro)
-addTsTargets(linguist, qttools/src/linguist/linguist.pro)
+addTsTargets(linguist, qttools/src/linguist/linguist/linguist.pro)
 addTsTargets(assistant, qttools/src/assistant/assistant/assistant.pro)  # add qcollectiongenerator here as well?
 addTsTargets(qt_help, qttools/src/assistant/help/help.pro)
 addTsTargets(qtconfig, qttools/src/qtconfig/qtconfig.pro)
