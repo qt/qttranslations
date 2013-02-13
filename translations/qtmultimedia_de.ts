@@ -54,12 +54,12 @@
 <context>
     <name>MFPlayerSession</name>
     <message>
-        <source>Invalid stream source!</source>
-        <translation>Ungültige Datenstromquelle!</translation>
+        <source>Invalid stream source.</source>
+        <translation>Ungültige Datenstromquelle.</translation>
     </message>
     <message>
-        <source>Attempting to play invalid Qt resource</source>
-        <translation>Es wurde versucht, eine ungültige Qt-Ressource abzuspielen</translation>
+        <source>Attempting to play invalid Qt resource.</source>
+        <translation>Es wurde versucht, eine ungültige Qt-Ressource abzuspielen.</translation>
     </message>
     <message>
         <source>The system cannot find the file specified.</source>
@@ -70,82 +70,90 @@
         <translation>Der angegebene Server konnte nicht gefunden werden.</translation>
     </message>
     <message>
+        <source>Unsupported media type.</source>
+        <translation>Nicht unterstützter Medientyp.</translation>
+    </message>
+    <message>
         <source>Failed to load source.</source>
         <translation>Die Quelle konnte nicht geladen werden.</translation>
     </message>
     <message>
-        <source>Can&apos;t create presentation descriptor!</source>
-        <translation>Der Präsentationsdeskriptor konnte nicht erzeugt werden!</translation>
+        <source>Cannot create presentation descriptor.</source>
+        <translation>Der Präsentationsdeskriptor kann nicht erzeugt werden.</translation>
     </message>
     <message>
-        <source>Failed to get stream count</source>
-        <translation>Anzahl der Datenströme konnte nicht bestimmt werden</translation>
+        <source>Failed to get stream count.</source>
+        <translation>Anzahl der Datenströme konnte nicht bestimmt werden.</translation>
     </message>
     <message>
-        <source>Failed to create topology!</source>
-        <translation>Topologie konnte nicht erzeugt werden!</translation>
+        <source>Failed to create topology.</source>
+        <translation>Topologie konnte nicht erzeugt werden.</translation>
     </message>
     <message>
-        <source>Unable to play some stream</source>
-        <translation>Es konnte kein Datenstrom abgespielt werden</translation>
+        <source>Unable to play any stream.</source>
+        <translation>Es konnte kein Datenstrom abgespielt werden.</translation>
     </message>
     <message>
-        <source>Unable to play</source>
-        <translation>Abspielen nicht möglich</translation>
+        <source>Unable to play.</source>
+        <translation>Abspielen nicht möglich.</translation>
     </message>
     <message>
-        <source>Failed to set topology!</source>
-        <translation>Topologie konnte nicht gesetzt werden!</translation>
+        <source>Failed to set topology.</source>
+        <translation>Topologie konnte nicht gesetzt werden.</translation>
     </message>
     <message>
-        <source>Unknown stream type</source>
-        <translation>Unbekannter Datenstromtyp</translation>
+        <source>Unknown stream type.</source>
+        <translation>Unbekannter Datenstromtyp.</translation>
     </message>
     <message>
-        <source>failed to stop</source>
-        <translation>Stoppen nicht möglich</translation>
+        <source>Failed to stop.</source>
+        <translation>Stoppen nicht möglich.</translation>
+    </message>
+    <message>
+        <source>Failed to pause.</source>
+        <translation>Pausieren nicht möglich.</translation>
+    </message>
+    <message>
+        <source>Unable to create mediasession.</source>
+        <translation>Es konnte keine Medien-Session erzeugt werden.</translation>
+    </message>
+    <message>
+        <source>Unable to pull session events.</source>
+        <translation>Events der Sitzung konnten nicht abgeholt werden.</translation>
+    </message>
+    <message>
+        <source>Failed to seek.</source>
+        <translation>Positionierung fehlgeschlagen.</translation>
+    </message>
+    <message>
+        <source>Media session non-fatal error.</source>
+        <translation>Unkritischer Fehler der Medien-Session.</translation>
+    </message>
+    <message>
+        <source>Media session serious error.</source>
+        <translation>Kritischer Fehler der Medien-Session.</translation>
+    </message>
+    <message>
+        <source>Unsupported media, a codec is missing.</source>
+        <translation>Nicht unterstütztes Medium; es fehlt ein Codec.</translation>
     </message>
     <message>
         <source>failed to start playback</source>
         <translation>Playback konnte nicht gestartet werden</translation>
     </message>
-    <message>
-        <source>failed to pause</source>
-        <translation>Pausieren nicht möglich</translation>
-    </message>
-    <message>
-        <source>Unable to create mediasession</source>
-        <translation>Es konnte keine Medien-Session erzeugt werden</translation>
-    </message>
-    <message>
-        <source>Unable to pulling session events</source>
-        <translation>Events der Sitzung konnten nicht abgeholt werden</translation>
-    </message>
-    <message>
-        <source>failed to seek</source>
-        <translation>Positionierung fehlgeschlagen</translation>
-    </message>
-    <message>
-        <source>media session non-fatal error!</source>
-        <translation>unkritischer Fehler der Medien-Session</translation>
-    </message>
-    <message>
-        <source>media session serious error!</source>
-        <translation>kritischer Fehler der Medien-Session!</translation>
-    </message>
 </context>
 <context>
     <name>PLSParser</name>
     <message>
-        <source>Error parsing pls: %1, expected count = %2</source>
+        <source>Error parsing playlist: %1, expected count = %2</source>
         <translation>Fehler beim Auswerten der Abspielliste %1, erwartete Anzahl = %2</translation>
     </message>
     <message>
-        <source>Error parsing pls at line[%1], expected version = 2</source>
+        <source>Error parsing playlist at line[%1], expected version = 2</source>
         <translation>Fehler beim Auswerten der Abspielliste bei Zeile [%1], erwartete Version = 2</translation>
     </message>
     <message>
-        <source>Error parsing pls at line[%1]:%2</source>
+        <source>Error parsing playlist at line[%1]:%2</source>
         <translation>Fehler beim Auswerten der Abspielliste bei Zeile [%1]:%2</translation>
     </message>
     <message>
@@ -180,13 +188,6 @@
     <message>
         <source>Device does not support images capture.</source>
         <translation>Das Gerät unterstützt das Aufnehmen von Bildern nicht.</translation>
-    </message>
-</context>
-<context>
-    <name>QCameraPrivate</name>
-    <message>
-        <source>The camera service is missing</source>
-        <translation>Der Kameradienst fehlt</translation>
     </message>
 </context>
 <context>

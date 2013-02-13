@@ -9,17 +9,6 @@
     </message>
 </context>
 <context>
-    <name>QObject</name>
-    <message>
-        <source>&quot;%1&quot; duplicates a previous role name and will be disabled.</source>
-        <translation>&quot;%1&quot; ist bereits als Name einer Rolle vergeben und wird daher deaktiviert.</translation>
-    </message>
-    <message>
-        <source>invalid query: &quot;%1&quot;</source>
-        <translation>Ungültige Abfrage: &quot;%1&quot;</translation>
-    </message>
-</context>
-<context>
     <name>QQmlCompiler</name>
     <message>
         <source>Invalid property assignment: &quot;%1&quot; is a read-only property</source>
@@ -203,7 +192,7 @@
     </message>
     <message>
         <source>Cannot assign to non-existent property &quot;%1&quot;</source>
-        <translation>Es kann keine Zuweisung erfolgen, da keine Eigenschaft des Namens &apos;%1&quot; existiert</translation>
+        <translation>Es kann keine Zuweisung erfolgen, da keine Eigenschaft des Namens &quot;%1&quot; existiert</translation>
     </message>
     <message>
         <source>Invalid use of namespace</source>
@@ -389,6 +378,10 @@
 <context>
     <name>QQmlComponent</name>
     <message>
+        <source>Invalid empty URL</source>
+        <translation>Ungültige leere URL</translation>
+    </message>
+    <message>
         <source>createObject: value is not an object</source>
         <translation>createObject: Der Wert ist kein Objekt</translation>
     </message>
@@ -398,10 +391,22 @@
     </message>
 </context>
 <context>
-    <name>QQmlComponentPrivate</name>
+    <name>QQmlConnections</name>
     <message>
-        <source>Invalid empty URL</source>
-        <translation>Ungültige (leere) URL</translation>
+        <source>Cannot assign to non-existent property &quot;%1&quot;</source>
+        <translation>Es kann keine Zuweisung erfolgen, da keine Eigenschaft des Namens &quot;%1&quot; existiert</translation>
+    </message>
+    <message>
+        <source>Connections: nested objects not allowed</source>
+        <translation>Verbindungen: Verschachtelte Objekte sind nicht zulässig</translation>
+    </message>
+    <message>
+        <source>Connections: syntax error</source>
+        <translation>Verbindungen: Syntaxfehler</translation>
+    </message>
+    <message>
+        <source>Connections: script expected</source>
+        <translation>Verbindungen: Skript erwartet</translation>
     </message>
 </context>
 <context>
@@ -478,39 +483,16 @@
         <translation>ist kein Typ</translation>
     </message>
     <message>
-        <source>&quot;%1&quot; version %2.%3 is defined more than once in module &quot;%4&quot;</source>
-        <translation>&quot;%1&quot; Version %2.%3 ist im Modul &quot;%4&quot; mehrfach definiert</translation>
-    </message>
-    <message>
-        <source>module &quot;%1&quot; version %2.%3 is not installed</source>
-        <translation>Modul &quot;%1&quot; Version %2.%3 ist nicht installiert</translation>
-    </message>
-    <message>
-        <source>File name case mismatch for &quot;%1&quot;</source>
-        <translation>Die Groß/Kleinschreibung des Dateinamens &quot;%1&quot; stimmt nicht überein</translation>
-    </message>
-    <message>
-        <source>Module namespace &apos;%1&apos; does not match import URI &apos;%2&apos;</source>
-        <translation>Der Modul-Namensraum &apos;%1&apos; entspricht nicht dem Import-URI &apos;%2&apos;</translation>
-    </message>
-    <message>
-        <source>Namespace &apos;%1&apos; has already been used for type registration</source>
-        <translation>Der Namensraum &apos;%1&apos; wurde bereits zur Typregistrierung verwendet</translation>
-    </message>
-    <message>
-        <source>Module &apos;%1&apos; does not contain a module identifier directive - it cannot be protected from external registrations.</source>
-        <translation>Der Modul &apos;%1&apos; enthält keine Modulbezeichner-Direktive - er kann nicht vor externen Registrierungen geschützt werden.</translation>
-    </message>
-</context>
-<context>
-    <name>QQmlImportsPrivate</name>
-    <message>
         <source>plugin cannot be loaded for module &quot;%1&quot;: %2</source>
         <translation>Das Plugin des Moduls &quot;%1&quot; kann nicht geladen werden: %2</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; plugin &quot;%2&quot; not found</source>
         <translation>Modul &quot;%1&quot; Plugin &quot;%2&quot; konnte nicht gefunden werden</translation>
+    </message>
+    <message>
+        <source>&quot;%1&quot; version %2.%3 is defined more than once in module &quot;%4&quot;</source>
+        <translation>&quot;%1&quot; Version %2.%3 ist im Modul &quot;%4&quot; mehrfach definiert</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; version %2.%3 is not installed</source>
@@ -527,6 +509,22 @@
     <message>
         <source>import &quot;%1&quot; has no qmldir and no namespace</source>
         <translation>&quot;qmldir&quot; und Namensraum fehlen bei dem Import &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source>File name case mismatch for &quot;%1&quot;</source>
+        <translation>Die Groß/Kleinschreibung des Dateinamens &quot;%1&quot; stimmt nicht überein</translation>
+    </message>
+    <message>
+        <source>Module namespace &apos;%1&apos; does not match import URI &apos;%2&apos;</source>
+        <translation>Der Modul-Namensraum &apos;%1&apos; entspricht nicht dem Import-URI &apos;%2&apos;</translation>
+    </message>
+    <message>
+        <source>Namespace &apos;%1&apos; has already been used for type registration</source>
+        <translation>Der Namensraum &apos;%1&apos; wurde bereits zur Typregistrierung verwendet</translation>
+    </message>
+    <message>
+        <source>Module &apos;%1&apos; does not contain a module identifier directive - it cannot be protected from external registrations.</source>
+        <translation>Der Modul &apos;%1&apos; enthält keine Modulbezeichner-Direktive - er kann nicht vor externen Registrierungen geschützt werden.</translation>
     </message>
 </context>
 <context>
@@ -657,13 +655,6 @@
     <message>
         <source>Signal parameter &quot;%1&quot; hides global variable.</source>
         <translation>Der Signalparameter &quot;%1&quot; überdeckt eine globale Variable.</translation>
-    </message>
-</context>
-<context>
-    <name>QQmlScriptBlob</name>
-    <message>
-        <source>Script %1 unavailable</source>
-        <translation>Das Skript %1 ist nicht verfügbar</translation>
     </message>
 </context>
 <context>
@@ -842,25 +833,6 @@
     </message>
 </context>
 <context>
-    <name>QQuickConnections</name>
-    <message>
-        <source>Cannot assign to non-existent property &quot;%1&quot;</source>
-        <translation>Es kann keine Zuweisung erfolgen, da keine Eigenschaft des Namens &apos;%1&quot; existiert</translation>
-    </message>
-    <message>
-        <source>Connections: nested objects not allowed</source>
-        <translation>Verbindungen: Verschachtelte Objekte sind nicht zulässig</translation>
-    </message>
-    <message>
-        <source>Connections: syntax error</source>
-        <translation>Verbindungen: Syntaxfehler</translation>
-    </message>
-    <message>
-        <source>Connections: script expected</source>
-        <translation>Verbindungen: Skript erwartet</translation>
-    </message>
-</context>
-<context>
     <name>QQuickDragAttached</name>
     <message>
         <source>Drag is only available via attached properties</source>
@@ -975,7 +947,7 @@
     </message>
 </context>
 <context>
-    <name>QQuickLoaderPrivate</name>
+    <name>QQuickLoader</name>
     <message>
         <source>setSource: value is not an object</source>
         <translation>setSource: Der Wert ist kein Objekt</translation>
@@ -1233,6 +1205,17 @@
     <message>
         <source>Delegate component must be Package type.</source>
         <translation>Delegate-Komponente muss vom Typ &apos;Package&apos; sein</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickXmlListModel</name>
+    <message>
+        <source>&quot;%1&quot; duplicates a previous role name and will be disabled.</source>
+        <translation>&quot;%1&quot; ist bereits als Name einer Rolle vergeben und wird daher deaktiviert.</translation>
+    </message>
+    <message>
+        <source>invalid query: &quot;%1&quot;</source>
+        <translation>Ungültige Abfrage: &quot;%1&quot;</translation>
     </message>
 </context>
 <context>
