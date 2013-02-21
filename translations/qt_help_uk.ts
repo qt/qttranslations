@@ -168,10 +168,6 @@
         <translation>Вставка файлів...</translation>
     </message>
     <message>
-        <source>The referenced file %1 must be inside or within a subdirectory of (%2). Skipping it.</source>
-        <translation>Файл %1 має бути всередині підтеки (%2). Пропускаємо його.</translation>
-    </message>
-    <message>
         <source>The file %1 does not exist! Skipping it.</source>
         <translation>Файл %1 не існує! Пропускаємо його.</translation>
     </message>
@@ -249,10 +245,6 @@
     <message>
         <source>Missing virtual folder in QtHelpProject</source>
         <translation>Відсутня віртуальна тека в QtHelpProject</translation>
-    </message>
-    <message>
-        <source>Missing attribute in keyword at line %1.</source>
-        <translation>Відсутній атрибут в ключовому слові на рядку %1.</translation>
     </message>
     <message>
         <source>The input file %1 could not be opened!</source>

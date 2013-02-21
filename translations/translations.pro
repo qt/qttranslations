@@ -54,8 +54,8 @@ addTsTargets(qtxmlpatterns, qtxmlpatterns/src/src.pro)
 #addTsTargets(qtsystems, qtsystems/src/src.pro)  # not part of 5.0
 
 addTsTargets(designer, qttools/src/designer/designer.pro)
-addTsTargets(linguist, qttools/src/linguist/linguist.pro)
-addTsTargets(assistant, qttools/src/assistant/assistant.pro)  # add qcollectiongenerator here as well?
+addTsTargets(linguist, qttools/src/linguist/linguist/linguist.pro)
+addTsTargets(assistant, qttools/src/assistant/assistant/assistant.pro)  # add qcollectiongenerator here as well?
 addTsTargets(qt_help, qttools/src/assistant/help/help.pro)
 addTsTargets(qtconfig, qttools/src/qtconfig/qtconfig.pro)
 addTsTargets(qmlviewer, qtquick1/tools/qml/qml.pro)
@@ -67,6 +67,7 @@ check-ts.depends = ts-all
 isEqual(QMAKE_DIR_SEP, /) {
     commit-ts.commands = \
         cd $$PWD/..; \
+        git add -N translations/*_??.ts && \
         for f in `git diff-files --name-only translations/*_??.ts`; do \
             $$LCONVERT -locations none -i \$\$f -o \$\$f; \
         done; \
@@ -75,6 +76,7 @@ isEqual(QMAKE_DIR_SEP, /) {
     wd = $$replace(PWD, /, \\)\\..
     commit-ts.commands = \
         cd $$wd && \
+        git add -N translations/*_??.ts && \
         for /f usebackq %%f in (`git diff-files --name-only translations/*_??.ts`) do \
             $$LCONVERT -locations none -i %%f -o %%f $$escape_expand(\\n\\t) \
         cd $$wd && git add translations/*_??.ts && git commit

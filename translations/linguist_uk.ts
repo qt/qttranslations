@@ -241,17 +241,17 @@ Will assume a single universal form.</source>
     <message>
         <source>Alt+Delete</source>
         <extracomment>translate, but don&apos;t change</extracomment>
-        <translation></translation>
+        <translation>Alt+Delete</translation>
     </message>
     <message>
         <source>Shift+Alt+Insert</source>
         <extracomment>translate, but don&apos;t change</extracomment>
-        <translation></translation>
+        <translation>Shift+Alt+Insert</translation>
     </message>
     <message>
         <source>Alt+Insert</source>
         <extracomment>translate, but don&apos;t change</extracomment>
-        <translation></translation>
+        <translation>Alt+Insert</translation>
     </message>
     <message>
         <source>Confirmation - Qt Linguist</source>
@@ -627,6 +627,8 @@ Options:
     -pro &lt;filename&gt;
            Name of a .pro file. Useful for files with .pro file syntax but
            different file suffix. Projects are recursed into and merged.
+    -pro-out &lt;directory&gt;
+           Virtual output directory for processing subsequent .pro files.
     -source-language &lt;language&gt;[_&lt;region&gt;]
            Specify the language of the source strings for new files.
            Defaults to POSIX if not specified.
@@ -641,7 +643,8 @@ Options:
     -version
            Display the version of lupdate and exit.
     @lst-file
-           Read additional file names (one per line) from lst-file.
+           Read additional file names (one per line) or includepaths (one per
+           line, and prefixed with -I) from lst-file.
 </source>
         <translation>Використання:
     lupdate [опції] [файл-проект]...
@@ -682,7 +685,9 @@ lupdate - це частина набору програм Qt Linguist. Вона 
            Вимкнути вказану евристику об&apos;єдання. Може бути вказано декілька разів.
     -pro &lt;ім&apos;я-файлу&gt;
            Ім&apos;я .pro файлу. Корисно для файлів із синтаксисом фалів .pro, але з
-           іншим розширенням. Projects are recursed into and merged.
+           іншим розширенням. Проекти обробляються рекурсивно та об&apos;єднуються.
+    -pro-out &lt;тека&gt;
+           Віртуальна тека для виведення при обробці кількох послідовних файлів .pro.
     -source-language &lt;мова&gt;[_&lt;регіон&gt;]
            Вказати мову оригінальних рядків для нових файлів.
            Типово, якщо не вказано - POSIX.
@@ -697,7 +702,8 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     -version
            Показати версію lupdate та вийти.
     @файл-список
-           Читати додаткові імена файлів (одне на рядок) з файла-списку.
+           Читати додаткові імена файлів (одне на рядок) або шлях включення (один на
+           рядок і з префіксом -I) з файлу-списку.
 </translation>
     </message>
     <message>
@@ -729,6 +735,11 @@ lupdate - це частина набору програм Qt Linguist. Вона 
 </source>
         <translation>Видалення не множинних форм в &apos;%1&apos;...
 </translation>
+    </message>
+    <message>
+        <source>lupdate warning: Some files have been ignored due to missing qml/javascript support
+</source>
+        <translation>попередження lupdate: Деякі файли було проігноровано через відсутність підтримки qml/javascript</translation>
     </message>
     <message>
         <source>lupdate warning: Codec for source &apos;%1&apos; is invalid. Falling back to codec for tr().
@@ -806,6 +817,12 @@ lupdate - це частина набору програм Qt Linguist. Вона 
         <source>The -pro option should be followed by a filename of .pro file.
 </source>
         <translation>За опцією -pro має слідувати ім&apos;я .pro файлу.
+</translation>
+    </message>
+    <message>
+        <source>The -pro-out option should be followed by a directory name.
+</source>
+        <translation>За опцією -pro-out має слідувати назва теки.
 </translation>
     </message>
     <message>
@@ -924,12 +941,6 @@ lupdate - це частина набору програм Qt Linguist. Вона 
         <source>//% cannot be used with tr() / QT_TR_NOOP(). Ignoring
 </source>
         <translation>//% не може бути використаний разом з tr() / QT_TR_NOOP(). Ігнорую
-</translation>
-    </message>
-    <message>
-        <source>circular inclusion of %1
-</source>
-        <translation>циклічне вкладення %1
 </translation>
     </message>
     <message>
@@ -1142,38 +1153,6 @@ lupdate - це частина набору програм Qt Linguist. Вона 
         </translation>
     </message>
     <message>
-        <source>Illegal character</source>
-        <translation>Неприпустимий символ</translation>
-    </message>
-    <message>
-        <source>Unclosed string at end of line</source>
-        <translation>Незакритий рядок в кінці файлу</translation>
-    </message>
-    <message>
-        <source>Illegal escape sequence</source>
-        <translation>Неприпустима керуюча послідовність</translation>
-    </message>
-    <message>
-        <source>Illegal unicode escape sequence</source>
-        <translation>Неприпустима керуюча послідовність Unicode</translation>
-    </message>
-    <message>
-        <source>Unclosed comment at end of file</source>
-        <translation>Незакритий коментар в кінці файлу</translation>
-    </message>
-    <message>
-        <source>Illegal syntax for exponential number</source>
-        <translation>Неприпустимий синтаксис для експоненційного числа</translation>
-    </message>
-    <message>
-        <source>Identifier cannot start with numeric literal</source>
-        <translation>Ідентифікатор не може починатись з числового літералу</translation>
-    </message>
-    <message>
-        <source>Unterminated regular expression literal</source>
-        <translation>Незавершений літерал регулярного виразу</translation>
-    </message>
-    <message>
         <source>//% cannot be used with %1(). Ignoring
 </source>
         <translation>//% не може бути використаний разом з %1(). Ігнорую
@@ -1214,11 +1193,6 @@ lupdate - це частина набору програм Qt Linguist. Вона 
 </source>
         <translation>%1(): ідентифікатор повинен бути рядковим літералом.
 </translation>
-    </message>
-    <message>
-        <source>Expected </source>
-        <extracomment>Beginning of the string that contains comma-separated list of expected tokens</extracomment>
-        <translation>Очікувалось </translation>
     </message>
     <message>
         <source>XML error: Parse error at line %1, column %2 (%3).</source>
@@ -1297,7 +1271,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>Ctrl+O</source>
-        <translation></translation>
+        <translation>Ctrl+O</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1309,7 +1283,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>Ctrl+Q</source>
-        <translation></translation>
+        <translation>Ctrl+Q</translation>
     </message>
     <message>
         <source>Save</source>
@@ -1349,7 +1323,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>Ctrl+P</source>
-        <translation></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <source>&amp;Undo</source>
@@ -1361,7 +1335,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>Ctrl+Z</source>
-        <translation></translation>
+        <translation>Ctrl+Z</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
@@ -1373,7 +1347,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>Ctrl+Y</source>
-        <translation></translation>
+        <translation>Ctrl+Y</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
@@ -1385,7 +1359,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>Ctrl+X</source>
-        <translation></translation>
+        <translation>Ctrl+X</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -1397,7 +1371,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>Ctrl+C</source>
-        <translation></translation>
+        <translation>Ctrl+C</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
@@ -1409,7 +1383,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>Ctrl+V</source>
-        <translation></translation>
+        <translation>Ctrl+V</translation>
     </message>
     <message>
         <source>Select &amp;All</source>
@@ -1421,7 +1395,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>Ctrl+A</source>
-        <translation></translation>
+        <translation>Ctrl+A</translation>
     </message>
     <message>
         <source>&amp;Find...</source>
@@ -1433,7 +1407,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>Ctrl+F</source>
-        <translation></translation>
+        <translation>Ctrl+F</translation>
     </message>
     <message>
         <source>Find &amp;Next</source>
@@ -1445,7 +1419,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>F3</source>
-        <translation></translation>
+        <translation>F3</translation>
     </message>
     <message>
         <source>&amp;Prev Unfinished</source>
@@ -1461,7 +1435,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>Ctrl+K</source>
-        <translation></translation>
+        <translation>Ctrl+K</translation>
     </message>
     <message>
         <source>&amp;Next Unfinished</source>
@@ -1477,7 +1451,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>Ctrl+J</source>
-        <translation></translation>
+        <translation>Ctrl+J</translation>
     </message>
     <message>
         <source>P&amp;rev</source>
@@ -1493,7 +1467,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>Ctrl+Shift+K</source>
-        <translation></translation>
+        <translation>Ctrl+Shift+K</translation>
     </message>
     <message>
         <source>Ne&amp;xt</source>
@@ -1509,7 +1483,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>Ctrl+Shift+J</source>
-        <translation></translation>
+        <translation>Ctrl+Shift+J</translation>
     </message>
     <message>
         <source>&amp;Done and Next</source>
@@ -1537,7 +1511,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>Ctrl+B</source>
-        <translation></translation>
+        <translation>Ctrl+B</translation>
     </message>
     <message>
         <source>&amp;Accelerators</source>
@@ -1597,7 +1571,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>Ctrl+N</source>
-        <translation></translation>
+        <translation>Ctrl+N</translation>
     </message>
     <message>
         <source>&amp;Open Phrase Book...</source>
@@ -1609,7 +1583,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>Ctrl+H</source>
-        <translation></translation>
+        <translation>Ctrl+H</translation>
     </message>
     <message>
         <source>&amp;Reset Sorting</source>
@@ -1641,7 +1615,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>F1</source>
-        <translation></translation>
+        <translation>F1</translation>
     </message>
     <message>
         <source>About Qt Linguist</source>
@@ -1650,10 +1624,6 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     <message>
         <source>About Qt</source>
         <translation>Про Qt</translation>
-    </message>
-    <message>
-        <source>Display information about the Qt toolkit by Nokia.</source>
-        <translation>Показати інформацію про інструментарій Qt від Nokia.</translation>
     </message>
     <message>
         <source>&amp;What&apos;s This?</source>
@@ -1693,7 +1663,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>Create a Qt message file suitable for released applications from the current message file. The filename will automatically be determined from the name of the TS file.</source>
-        <translation>Створення файла повідомлень Qt придатного для використання програмами з поточного файлу повідомлень. Ім&apos;я файла буде автоматично визначено з імені файлу TS.</translation>
+        <translation>Створення файлу повідомлень Qt придатного для використання програмами з поточного файлу повідомлень. Ім&apos;я файлу буде автоматично визначено з імені файлу TS.</translation>
     </message>
     <message>
         <source>File</source>
@@ -1725,7 +1695,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>F5</source>
-        <translation></translation>
+        <translation>F5</translation>
     </message>
     <message>
         <source>Translation File &amp;Settings...</source>
@@ -1737,7 +1707,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>Ctrl+T</source>
-        <translation></translation>
+        <translation>Ctrl+T</translation>
     </message>
     <message>
         <source>Open Read-O&amp;nly...</source>
@@ -1749,7 +1719,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>Ctrl+S</source>
-        <translation></translation>
+        <translation>Ctrl+S</translation>
     </message>
     <message>
         <source>&amp;Release All</source>
@@ -1765,7 +1735,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     </message>
     <message>
         <source>Ctrl+W</source>
-        <translation></translation>
+        <translation>Ctrl+W</translation>
     </message>
     <message>
         <source>Length Variants</source>
@@ -1914,7 +1884,7 @@ All files (*)</source>
     </message>
     <message>
         <source>Cannot find the string &apos;%1&apos;.</source>
-        <translation>Неможливо знайти рядок &apos;%1.</translation>
+        <translation>Неможливо знайти рядок &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Search And Translate in &apos;%1&apos; - Qt Linguist</source>
@@ -1991,8 +1961,8 @@ All files (*)</source>
         <translation>Версія %1</translation>
     </message>
     <message>
-        <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Nokia Corporation and/or its subsidiary(-ies).</source>
-        <translation>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist - це засіб для додавання перекладів до програм на Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Корпорація Nokia та/або її дочірні компанії.</translation>
+        <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies).</source>
+        <translation>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist - це засіб для додавання перекладів до програм на Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc та/або її дочірні компанії.</translation>
     </message>
     <message>
         <source>Do you want to save the modified files?</source>
@@ -2024,7 +1994,7 @@ All files (*)</source>
     </message>
     <message>
         <source>Ctrl+M</source>
-        <translation></translation>
+        <translation>Ctrl+M</translation>
     </message>
     <message>
         <source>Display the manual for %1.</source>
@@ -2117,6 +2087,10 @@ All files (*)</source>
     <message>
         <source>All</source>
         <translation>Усе</translation>
+    </message>
+    <message>
+        <source>Display information about the Qt toolkit by Digia.</source>
+        <translation>Показати інформацію про інструментарій Qt від Digia.</translation>
     </message>
 </context>
 <context>

@@ -6,7 +6,7 @@
     <message>
         <location filename="../tools/assistant/tools/assistant/aboutdialog.cpp" line="+117"/>
         <source>&amp;Close</source>
-        <translation>Be&amp;zárás</translation>
+        <translation>&amp;Bezárás</translation>
     </message>
 </context>
 <context>
@@ -20,8 +20,7 @@
         <location line="+1"/>
         <source>Unable to launch external application.
 </source>
-        <translation>A külső alkalmazás elindítása sikertelen.
-</translation>
+        <translation>Nem sikerült elindítani a külső alkalmazást.</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -34,7 +33,7 @@
     <message>
         <location filename="../tools/assistant/tools/assistant/main.cpp" line="+177"/>
         <source>Error registering documentation file &apos;%1&apos;: %2</source>
-        <translation>Hiba a(z) &apos;%1&apos; dokumentáció fájl regisztrálásakor: %2</translation>
+        <translation>Hiba a(z) „%1” dokumentációs fájl regisztrálásakor: %2</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -48,16 +47,16 @@
 
 Reason:
 %2</source>
-        <translation>A dokumentációs fájl regisztrálása sikertelen
+        <translation>Nem sikerült regisztrálni a dokumentációs fájlt:
 %1
 
-Oka:
+Ok:
 %2</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Documentation successfully registered.</source>
-        <translation>A dokumentáció regisztrálása sikerült.</translation>
+        <translation>A dokumentáció sikeresen regisztrálva.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -66,36 +65,36 @@ Oka:
 
 Reason:
 %2</source>
-        <translation>A dokumentációs fájl eltávolítása sikertelen
+        <translation>Nem sikerült eltávolítani a dokumentációs fájlt:
 %1
 
-Oka:
+Ok:
 %2</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Documentation successfully unregistered.</source>
-        <translation>A dokumentáció eltávolítása sikerült.</translation>
+        <translation>A dokumentáció sikeresen eltávolítva.</translation>
     </message>
     <message>
         <location line="+55"/>
         <source>Error reading collection file &apos;%1&apos;: %2.</source>
-        <translation>Hiba a(z) &apos;%1&apos; gyűjteményfájl olvasásakor: %2.</translation>
+        <translation>Hiba a(z) „%1” gyűjteményfájl olvasásakor: %2.</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Error creating collection file &apos;%1&apos;: %2.</source>
-        <translation>Hiba a(z) &apos;%1&apos; gyűjteményfájl létrehozásakor: %2.</translation>
+        <translation>Hiba a(z) „%1” gyűjteményfájl létrehozásakor: %2.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Error reading collection file &apos;%1&apos;: %2</source>
-        <translation>Hiba a(z) &apos;%1&apos; gyűjteményfájl olvasásakor: %2</translation>
+        <translation>Hiba a(z) „%1” gyűjteményfájl olvasásakor: %2</translation>
     </message>
     <message>
         <location line="+53"/>
         <source>Cannot load sqlite database driver!</source>
-        <translation>Az sqlite adatbázisdriver nem tölthető be!</translation>
+        <translation>Az sqlite adatbázis-illesztőprogram nem tölthető be!</translation>
     </message>
 </context>
 <context>
@@ -152,27 +151,27 @@ Oka:
     <message>
         <location line="+65"/>
         <source>Remove</source>
-        <translation>Törlés</translation>
+        <translation>Eltávolítás</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You are going to delete a Folder, this will also&lt;br&gt;remove it&apos;s content. Are you sure to continue?</source>
-        <translation>A mappa törlésekor a tartalma is megsemmisül.&lt;br&gt;Biztosan folytatja?</translation>
+        <translation>A mappa eltávolításakor a tartalma is&lt;br&gt;törlésre kerül. Biztosan folytatja?</translation>
     </message>
     <message>
         <location line="+147"/>
         <source>Manage Bookmarks...</source>
-        <translation>Könyvjelzők kezelése...</translation>
+        <translation>Könyvjelzők kezelése…</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Add Bookmark...</source>
-        <translation>Könyvjelző hozzáadása...</translation>
+        <translation>Könyvjelző hozzáadása…</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ctrl+D</source>
-        <translation></translation>
+        <translation>Ctrl+D</translation>
     </message>
     <message>
         <location line="+68"/>
@@ -192,7 +191,7 @@ Oka:
     <message>
         <location line="+1"/>
         <source>Show Bookmark in New Tab</source>
-        <translation>Könyvjelző megnyitása új fülön</translation>
+        <translation>Könyvjelző megnyitása új lapon</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -253,12 +252,12 @@ Oka:
     <message>
         <location filename="../tools/assistant/tools/assistant/centralwidget.cpp" line="+121"/>
         <source>Add new page</source>
-        <translation>Új fül hozzáadása</translation>
+        <translation>Új lap hozzáadása</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Close current page</source>
-        <translation>Az aktuális fül bezárása</translation>
+        <translation>Aktuális oldal bezárása</translation>
     </message>
     <message>
         <location line="+287"/>
@@ -274,22 +273,22 @@ Oka:
     <message>
         <location line="+101"/>
         <source>Add New Page</source>
-        <translation>Új fül hozzáadása</translation>
+        <translation>Új lap hozzáadása</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Close This Page</source>
-        <translation>Az aktuális fül bezárása</translation>
+        <translation>Lap bezárása</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Close Other Pages</source>
-        <translation>A többi fül bezárása</translation>
+        <translation>Többi lap bezárása</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Add Bookmark for this Page...</source>
-        <translation>A lap mentése könyvjelzőként...</translation>
+        <translation>Lap mentése könyvjelzőként…</translation>
     </message>
     <message>
         <location line="+264"/>
@@ -307,7 +306,7 @@ Oka:
     <message>
         <location line="+33"/>
         <source>The collection file &apos;%1&apos; does not exist.</source>
-        <translation>A(z) &apos;%1&apos; gyűjteményfájl nem található.</translation>
+        <translation>A(z) „%1” gyűjteményfájl nem létezik.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -317,7 +316,7 @@ Oka:
     <message>
         <location line="+13"/>
         <source>Invalid URL &apos;%1&apos;.</source>
-        <translation>Érvénytelen URL: &apos;%1&apos;.</translation>
+        <translation>Érvénytelen URL: „%1”.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -337,7 +336,7 @@ Oka:
     <message>
         <location line="+23"/>
         <source>The Qt help file &apos;%1&apos; does not exist.</source>
-        <translation>A(z) &apos;%1&apos; Qt súgófájl nem létezik.</translation>
+        <translation>A(z) „%1” Qt súgófájl nem létezik.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -365,12 +364,12 @@ Oka:
     <message>
         <location filename="../tools/assistant/tools/assistant/contentwindow.cpp" line="+173"/>
         <source>Open Link</source>
-        <translation>Link megnyitása</translation>
+        <translation>Hivatkozás megnyitása</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open Link in New Tab</source>
-        <translation>Link megnyitása új lapon</translation>
+        <translation>Hivatkozás megnyitása új lapon</translation>
     </message>
 </context>
 <context>
@@ -414,7 +413,7 @@ Oka:
     <message>
         <location filename="../tools/shared/fontpanel/fontpanel.cpp" line="+63"/>
         <source>Font</source>
-        <translation>Betűtípus</translation>
+        <translation>Betűkészlet</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -424,7 +423,7 @@ Oka:
     <message>
         <location line="+3"/>
         <source>&amp;Family</source>
-        <translation>Betű&amp;típus</translation>
+        <translation>&amp;Betűcsalád</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -450,12 +449,12 @@ Oka:
     <message>
         <location filename="../tools/assistant/tools/assistant/helpviewer.cpp" line="+58"/>
         <source>&lt;title&gt;about:blank&lt;/title&gt;</source>
-        <translation></translation>
+        <translation>&lt;title&gt;about:blank&lt;/title&gt;</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&lt;title&gt;Error 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;The page could not be found&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</source>
-        <translation>&lt;title&gt;404-es hiba...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;A lap nem található&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</translation>
+        <translation>&lt;title&gt;404-es hiba…&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;Az oldal nem található&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;„%1”&lt;/h3&gt;&lt;/div&gt;</translation>
     </message>
     <message>
         <source>Copy &amp;Link Location</source>
@@ -481,17 +480,17 @@ Oka:
     <message>
         <location filename="../tools/assistant/tools/assistant/indexwindow.cpp" line="+68"/>
         <source>&amp;Look for:</source>
-        <translation>&amp;Amit keres:</translation>
+        <translation>&amp;Keresés:</translation>
     </message>
     <message>
         <location line="+74"/>
         <source>Open Link</source>
-        <translation>Link megnyitása</translation>
+        <translation>Hivatkozás megnyitása</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open Link in New Tab</source>
-        <translation>Link megnyitása új lapon</translation>
+        <translation>Hivatkozás megnyitás új lapon</translation>
     </message>
 </context>
 <context>
@@ -505,7 +504,7 @@ Oka:
     <message>
         <location filename="../tools/assistant/tools/assistant/installdialog.cpp" line="+33"/>
         <source>Downloading documentation info...</source>
-        <translation>A dokumentáció információinak letöltése...</translation>
+        <translation>A dokumentáció információinak letöltése…</translation>
     </message>
     <message>
         <location line="+51"/>
@@ -522,24 +521,24 @@ Oka:
     <message>
         <location line="-91"/>
         <source>The file %1 already exists. Do you want to overwrite it?</source>
-        <translation>A(z) &apos;%1&apos; nevű fájl már létezik. Felülírja?</translation>
+        <translation>A(z) „%1” nevű fájl már létezik. Felülírja?</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Unable to save the file %1: %2.</source>
-        <translation>A(z) %1 mentése sikertelen: %2.</translation>
+        <translation>A(z) %1 fájl mentése sikertelen: %2.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Downloading %1...</source>
-        <translation>%1 letöltése...</translation>
+        <translation>%1 letöltése…</translation>
     </message>
     <message>
         <location line="+20"/>
         <location line="+42"/>
         <location line="+40"/>
         <source>Download failed: %1.</source>
-        <translation>A letöltés sikertelen: %1.</translation>
+        <translation>Sikertelen letöltés: %1.</translation>
     </message>
     <message>
         <location line="-72"/>
@@ -549,12 +548,12 @@ Oka:
     <message>
         <location line="+37"/>
         <source>Download failed: Downloaded file is corrupted.</source>
-        <translation>A letöltés sikertelen: a letöltött fájl sérült.</translation>
+        <translation>Sikertelen letöltés: a letöltött fájl sérült.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Installing documentation %1...</source>
-        <translation>Dokumentáció telepítése %1...</translation>
+        <translation>%1 dokumentáció telepítése…</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -591,7 +590,7 @@ Oka:
     <message>
         <location/>
         <source>...</source>
-        <translation>...</translation>
+        <translation>…</translation>
     </message>
 </context>
 <context>
@@ -624,7 +623,7 @@ Oka:
         <location line="+680"/>
         <location line="+284"/>
         <source>Qt Assistant</source>
-        <translation>Qt Asszisztens</translation>
+        <translation>Qt Assistant</translation>
     </message>
     <message>
         <source>Unfiltered</source>
@@ -633,27 +632,27 @@ Oka:
     <message>
         <location line="-705"/>
         <source>Page Set&amp;up...</source>
-        <translation>&amp;Oldalbeállítás...</translation>
+        <translation>&amp;Oldalbeállítás…</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Print Preview...</source>
-        <translation>Nyomtatási kép...</translation>
+        <translation>Nyomtatási kép…</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Print...</source>
-        <translation>&amp;Nyomtatás...</translation>
+        <translation>&amp;Nyomtatás…</translation>
     </message>
     <message>
         <location line="-10"/>
         <source>New &amp;Tab</source>
-        <translation>Új &amp;fül</translation>
+        <translation>Új &amp;lap</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>&amp;Close Tab</source>
-        <translation>Fül be&amp;zárása</translation>
+        <translation>Lap be&amp;zárása</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -663,17 +662,17 @@ Oka:
     <message>
         <location line="+3"/>
         <source>CTRL+Q</source>
-        <translation></translation>
+        <translation>Ctrl+Q</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Copy selected Text</source>
-        <translation>A kijelölés &amp;másolása</translation>
+        <translation>Kijelölt szöveg &amp;másolása</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>&amp;Find in Text...</source>
-        <translation>Ke&amp;resés a szövegben...</translation>
+        <translation>Ke&amp;resés a szövegben…</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -683,7 +682,7 @@ Oka:
     <message>
         <location line="+4"/>
         <source>Find &amp;Next</source>
-        <translation>Követke&amp;ző  keresése</translation>
+        <translation>Követke&amp;ző keresése</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -693,7 +692,7 @@ Oka:
     <message>
         <location line="+5"/>
         <source>Preferences...</source>
-        <translation>Beállítások...</translation>
+        <translation>Beállítások…</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -713,22 +712,22 @@ Oka:
     <message>
         <location line="+4"/>
         <source>Ctrl+0</source>
-        <translation></translation>
+        <translation>Ctrl+0</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>ALT+C</source>
-        <translation></translation>
+        <translation>Alt+C</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>ALT+I</source>
-        <translation></translation>
+        <translation>Alt+I</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>ALT+S</source>
-        <translation></translation>
+        <translation>Alt+S</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -763,7 +762,7 @@ Oka:
     <message>
         <location line="+1"/>
         <source>Ctrl+Alt+Right</source>
-        <translation></translation>
+        <translation>Ctrl+Alt+jobbra</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -773,12 +772,12 @@ Oka:
     <message>
         <location line="+1"/>
         <source>Ctrl+Alt+Left</source>
-        <translation></translation>
+        <translation>Ctrl+Alt+balra</translation>
     </message>
     <message>
         <location line="+596"/>
         <source>Could not register file &apos;%1&apos;: %2</source>
-        <translation>A(z) &apos;%1&apos; fájl regisztrálása sikertelen: %2</translation>
+        <translation>Nem sikerült regisztrálni a(z) „%1” fájlt: %2</translation>
     </message>
     <message>
         <source>Add Bookmark...</source>
@@ -787,7 +786,7 @@ Oka:
     <message>
         <location line="-589"/>
         <source>About...</source>
-        <translation>Névjegy...</translation>
+        <translation>Névjegy…</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -827,7 +826,7 @@ Oka:
     <message>
         <location line="+60"/>
         <source>About %1</source>
-        <translation>%1 névjegye</translation>
+        <translation>A(z) %1 névjegye</translation>
     </message>
     <message>
         <location line="+175"/>
@@ -837,7 +836,7 @@ Oka:
     <message>
         <location line="-669"/>
         <source>Looking for Qt Documentation...</source>
-        <translation>Qt dokumentáció keresése...</translation>
+        <translation>Qt dokumentáció keresése…</translation>
     </message>
     <message>
         <location line="+227"/>
@@ -852,7 +851,7 @@ Oka:
     <message>
         <location line="+1"/>
         <source>Ctrl+M</source>
-        <translation></translation>
+        <translation>Ctrl+M</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -877,12 +876,12 @@ Oka:
     <message>
         <location line="+30"/>
         <source>&amp;Go</source>
-        <translation>&amp;Előre</translation>
+        <translation>&amp;Ugrás</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>ALT+Home</source>
-        <translation></translation>
+        <translation>Alt+Home</translation>
     </message>
     <message>
         <location line="+30"/>
@@ -897,7 +896,7 @@ Oka:
     <message>
         <location line="-38"/>
         <source>ALT+O</source>
-        <translation></translation>
+        <translation>Alt+O</translation>
     </message>
 </context>
 <context>
@@ -931,7 +930,7 @@ Oka:
     <message>
         <location line="+1"/>
         <source>Some documents currently opened in Assistant reference the documentation you are attempting to remove. Removing the documentation will close those documents.</source>
-        <translation>Az eltávolítani kívánt dokumentációból néhány dokumentum jelenleg meg van nyitva az Asszisztensben. A dokumentáció eltávolításával ezen dokumentumok automatikusan bezárulnak.</translation>
+        <translation>Az eltávolítani kívánt dokumentációból néhány dokumentum jelenleg meg van nyitva az Assistantban. A dokumentáció eltávolításával ezen dokumentumok automatikusan bezárulnak.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -959,12 +958,12 @@ Oka:
     <message>
         <location/>
         <source>Fonts</source>
-        <translation>Betűtípus</translation>
+        <translation>Betűkészletek</translation>
     </message>
     <message>
         <location/>
         <source>Font settings:</source>
-        <translation>Betűtípus beállítása:</translation>
+        <translation>Betűkészlet-beállítások:</translation>
     </message>
     <message>
         <location/>
@@ -994,7 +993,7 @@ Oka:
     <message>
         <location/>
         <source>1</source>
-        <translation></translation>
+        <translation>1</translation>
     </message>
     <message>
         <location/>
@@ -1004,7 +1003,7 @@ Oka:
     <message>
         <location/>
         <source>Remove</source>
-        <translation>Törlés</translation>
+        <translation>Eltávolítás</translation>
     </message>
     <message>
         <location/>
@@ -1019,7 +1018,7 @@ Oka:
     <message>
         <location/>
         <source>Add...</source>
-        <translation>Hozzáadás...</translation>
+        <translation>Hozzáadás…</translation>
     </message>
     <message>
         <location/>
@@ -1049,23 +1048,23 @@ Oka:
     <message>
         <location/>
         <source>Show my home page</source>
-        <translation>Mutassa a kezdőlapomat</translation>
+        <translation>Kezdőlap megjelenítése</translation>
     </message>
     <message>
         <location/>
         <source>Show a blank page</source>
-        <translation>Mutasson egy üres lapot</translation>
+        <translation>Üres oldal megjelenítése</translation>
     </message>
     <message>
         <location/>
         <source>Show my tabs from last session</source>
         <translatorcomment>Too long...</translatorcomment>
-        <translation>Mutassa az előzőleg megnyitott füleket</translation>
+        <translation>A legutóbbi lapok megjelenítése</translation>
     </message>
     <message>
         <location/>
         <source>Blank Page</source>
-        <translation>Üres lap</translation>
+        <translation>Üres oldal</translation>
     </message>
 </context>
 <context>
@@ -1169,7 +1168,7 @@ Oka:
     <message>
         <location line="+1"/>
         <source>Received Command: %1 %2</source>
-        <translation>A kapott parancs: %1 %2</translation>
+        <translation>Kapott parancs: %1 %2</translation>
     </message>
 </context>
 <context>
@@ -1182,17 +1181,17 @@ Oka:
     <message>
         <location line="+4"/>
         <source>Copy &amp;Link Location</source>
-        <translation>&amp;Link címének másolása</translation>
+        <translation>&amp;Hivatkozás címének másolása</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Open Link in New Tab</source>
-        <translation>Link megnyitása új fülön</translation>
+        <translation>Hivatkozás megnyitása új lapon</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Select All</source>
-        <translation>Mindent kijelöl</translation>
+        <translation>Összes kijelölése</translation>
     </message>
     <message>
         <source>Open Link</source>
@@ -1209,7 +1208,7 @@ Oka:
     <message>
         <location filename="../tools/assistant/tools/assistant/topicchooser.ui"/>
         <source>Choose Topic</source>
-        <translation>Téma választása </translation>
+        <translation>Téma választása</translation>
     </message>
     <message>
         <location/>
