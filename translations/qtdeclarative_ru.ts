@@ -5,7 +5,7 @@
     <name>QInputMethod</name>
     <message>
         <source>InputMethod is an abstract class</source>
-        <translation>InputMethod - абстрактный класс</translation>
+        <translation>InputMethod ― абстрактный класс</translation>
     </message>
 </context>
 <context>
@@ -328,11 +328,11 @@
     </message>
     <message>
         <source>Duplicate signal name: invalid override of property change signal or superclass signal</source>
-        <translation type="unfinished">Повторяющееся имя сигнала: некорректная перегрузка сигнала изменения свойства или сигнал базового класса</translation>
+        <translation>Повторяющееся имя сигнала: неправильная перегрузка сигнала для изменения свойства или сигнала из базового класса</translation>
     </message>
     <message>
         <source>Duplicate method name: invalid override of property change signal or superclass signal</source>
-        <translation type="unfinished">Повторяющееся имя метода: некорректная перегрузка сигнала изменения свойства или сигнал базового класса</translation>
+        <translation>Повторяющееся имя метода: неправильная перегрузка сигнала для изменения свойства или сигнала из базового класса</translation>
     </message>
     <message>
         <source>Invalid property type</source>
@@ -356,7 +356,7 @@
     </message>
     <message>
         <source>Invalid empty ID</source>
-        <translation>Некорректный пустой идентификатор</translation>
+        <translation>Пустой ID недопустим</translation>
     </message>
     <message>
         <source>IDs cannot start with an uppercase letter</source>
@@ -378,19 +378,16 @@
 <context>
     <name>QQmlComponent</name>
     <message>
+        <source>Invalid empty URL</source>
+        <translation>Пустой URL недопустим</translation>
+    </message>
+    <message>
         <source>createObject: value is not an object</source>
         <translation>createObject: значение не является объектом</translation>
     </message>
     <message>
         <source>Object destroyed during incubation</source>
         <translation>Объект уничтожен во время инкубации</translation>
-    </message>
-</context>
-<context>
-    <name>QQmlComponentPrivate</name>
-    <message>
-        <source>Invalid empty URL</source>
-        <translation>Пустой адрес URL</translation>
     </message>
 </context>
 <context>
@@ -410,6 +407,120 @@
     <message>
         <source>Connections: script expected</source>
         <translation>Подключения: ожидается сценарий</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlDelegateModel</name>
+    <message>
+        <source>The delegate of a DelegateModel cannot be changed within onUpdated.</source>
+        <translation>Делегат DelegateModel нельзя менять внутри onUpdated.</translation>
+    </message>
+    <message>
+        <source>The maximum number of supported DelegateModelGroups is 8</source>
+        <translation>Поддерживается максимум 8 DelegateModelGroups</translation>
+    </message>
+    <message>
+        <source>The group of a DelegateModel cannot be changed within onChanged</source>
+        <translation>Нельзя менять группу DelegateModel внутри onChanged</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlDelegateModelGroup</name>
+    <message>
+        <source>Group names must start with a lower case letter</source>
+        <translation>Имена групп должны начинаться с маленькой буквы</translation>
+    </message>
+    <message>
+        <source>get: index out of range</source>
+        <translation>get: индекс вне диапазона</translation>
+    </message>
+    <message>
+        <source>insert: index out of range</source>
+        <translation>insert: индекс вне диапазона</translation>
+    </message>
+    <message>
+        <source>create: index out of range</source>
+        <translation>create: индекс вне диапазона</translation>
+    </message>
+    <message>
+        <source>resolve: from index out of range</source>
+        <translation>resolve: индекс from вне диапазона</translation>
+    </message>
+    <message>
+        <source>resolve: from index invalid</source>
+        <translation>resolve: невереный индекс from</translation>
+    </message>
+    <message>
+        <source>resolve: to index out of range</source>
+        <translation>resolve: индекс to вне диапазона</translation>
+    </message>
+    <message>
+        <source>resolve: to index invalid</source>
+        <translation>resolve: невереный индекс to</translation>
+    </message>
+    <message>
+        <source>resolve: from is not an unresolved item</source>
+        <translation>resolve: from не указывает на разрешённый элемент</translation>
+    </message>
+    <message>
+        <source>resolve: to is not a model item</source>
+        <translation>resolve: to ― не элемент модели</translation>
+    </message>
+    <message>
+        <source>remove: invalid index</source>
+        <translation>remove: неверный индекс</translation>
+    </message>
+    <message>
+        <source>remove: index out of range</source>
+        <translation>remove: индекс вне диапазона</translation>
+    </message>
+    <message>
+        <source>remove: invalid count</source>
+        <translation>remove: неверное количество</translation>
+    </message>
+    <message>
+        <source>addGroups: index out of range</source>
+        <translation>addGroups: индекс вне диапазона</translation>
+    </message>
+    <message>
+        <source>addGroups: invalid count</source>
+        <translation>addGroups: неверное количество</translation>
+    </message>
+    <message>
+        <source>removeGroups: index out of range</source>
+        <translation>removeGroups: индекс вне диапазона</translation>
+    </message>
+    <message>
+        <source>removeGroups: invalid count</source>
+        <translation>removeGroups: неверное количество</translation>
+    </message>
+    <message>
+        <source>setGroups: index out of range</source>
+        <translation>setGroups: индекс вне диапазона</translation>
+    </message>
+    <message>
+        <source>setGroups: invalid count</source>
+        <translation>setGroups: неверное количество</translation>
+    </message>
+    <message>
+        <source>move: invalid from index</source>
+        <translation>move: неверный индекс from</translation>
+    </message>
+    <message>
+        <source>move: invalid to index</source>
+        <translation>move: неверный индекс to</translation>
+    </message>
+    <message>
+        <source>move: invalid count</source>
+        <translation>move: неверное количество</translation>
+    </message>
+    <message>
+        <source>move: from index out of range</source>
+        <translation>move: индекс from вне диапазона</translation>
+    </message>
+    <message>
+        <source>move: to index out of range</source>
+        <translation>move: индекс to вне диапазона</translation>
     </message>
 </context>
 <context>
@@ -444,7 +555,7 @@
     </message>
     <message>
         <source>SQL: can&apos;t create database, offline storage is disabled.</source>
-        <translation>SQL: нельзя создать базу данных - автономное хранилище отключено.</translation>
+        <translation>SQL: нельзя создать базу данных ― автономное хранилище отключено.</translation>
     </message>
     <message>
         <source>SQL: database version mismatch</source>
@@ -459,7 +570,7 @@
     </message>
     <message>
         <source>- %1 is not a namespace</source>
-        <translation>- %1 - некорректное пространство имён</translation>
+        <translation>- %1 ― некорректное пространство имён</translation>
     </message>
     <message>
         <source>- nested namespaces not allowed</source>
@@ -486,39 +597,16 @@
         <translation>не является типом</translation>
     </message>
     <message>
-        <source>&quot;%1&quot; version %2.%3 is defined more than once in module &quot;%4&quot;</source>
-        <translation>«%1» версии %2.%3 определено более одного раза в модуле «%4»</translation>
-    </message>
-    <message>
-        <source>module &quot;%1&quot; version %2.%3 is not installed</source>
-        <translation>модуль «%1» версии %2.%3 не установлен</translation>
-    </message>
-    <message>
-        <source>File name case mismatch for &quot;%1&quot;</source>
-        <translation>Регистр имени файла не соответствует «%1»</translation>
-    </message>
-    <message>
-        <source>Module namespace &apos;%1&apos; does not match import URI &apos;%2&apos;</source>
-        <translation>Пространство имён модуля «%1» не совпадает с импортируемым URI «%2»</translation>
-    </message>
-    <message>
-        <source>Namespace &apos;%1&apos; has already been used for type registration</source>
-        <translation>Пространство имён «%1» уже используется для регистрации типов</translation>
-    </message>
-    <message>
-        <source>Module &apos;%1&apos; does not contain a module identifier directive - it cannot be protected from external registrations.</source>
-        <translation>Модуль «%1» не содержит директивы определения модуля - он не может быть защищён от внешних регистраций.</translation>
-    </message>
-</context>
-<context>
-    <name>QQmlImportsPrivate</name>
-    <message>
         <source>plugin cannot be loaded for module &quot;%1&quot;: %2</source>
         <translation>не удалось загрузить плагин для модуля «%1»: %2</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; plugin &quot;%2&quot; not found</source>
         <translation>модуль «%1» плагина «%2» не найден</translation>
+    </message>
+    <message>
+        <source>&quot;%1&quot; version %2.%3 is defined more than once in module &quot;%4&quot;</source>
+        <translation>«%1» версии %2.%3 определено более одного раза в модуле «%4»</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; version %2.%3 is not installed</source>
@@ -535,6 +623,93 @@
     <message>
         <source>import &quot;%1&quot; has no qmldir and no namespace</source>
         <translation>каталог «%1» не содержит ни qmldir, ни namespace</translation>
+    </message>
+    <message>
+        <source>File name case mismatch for &quot;%1&quot;</source>
+        <translation>Регистр имени файла не соответствует «%1»</translation>
+    </message>
+    <message>
+        <source>Module namespace &apos;%1&apos; does not match import URI &apos;%2&apos;</source>
+        <translation>Пространство имён модуля «%1» не совпадает с импортируемым URI «%2»</translation>
+    </message>
+    <message>
+        <source>Namespace &apos;%1&apos; has already been used for type registration</source>
+        <translation>Пространство имён «%1» уже используется для регистрации типов</translation>
+    </message>
+    <message>
+        <source>Module &apos;%1&apos; does not contain a module identifier directive - it cannot be protected from external registrations.</source>
+        <translation>Модуль «%1» не содержит директивы определения модуля ― он не может быть защищён от внешних регистраций.</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlListModel</name>
+    <message>
+        <source>unable to enable dynamic roles as this model is not empty!</source>
+        <translation>не удалось включить динамические роли, так как эта модель не пуста!</translation>
+    </message>
+    <message>
+        <source>unable to enable static roles as this model is not empty!</source>
+        <translation>не удалось включить статические роли, так как эта модель не пуста!</translation>
+    </message>
+    <message>
+        <source>dynamic role setting must be made from the main thread, before any worker scripts are created</source>
+        <translation>установка динамической роли должна выполняться из основного потока перед созданием каких-либо рабочих сценариев</translation>
+    </message>
+    <message>
+        <source>remove: indices [%1 - %2] out of range [0 - %3]</source>
+        <translation>remove: индексы [%1 - %2] вне диапазона [0 - %3]</translation>
+    </message>
+    <message>
+        <source>remove: incorrect number of arguments</source>
+        <translation>remove: недопустимое число аргументов</translation>
+    </message>
+    <message>
+        <source>insert: index %1 out of range</source>
+        <translation>insert: индекс %1 вне диапазона</translation>
+    </message>
+    <message>
+        <source>insert: value is not an object</source>
+        <translation>insert: значение не является объектом</translation>
+    </message>
+    <message>
+        <source>move: out of range</source>
+        <translation>move: индекс вне диапазона</translation>
+    </message>
+    <message>
+        <source>append: value is not an object</source>
+        <translation>append: значение не является объектом</translation>
+    </message>
+    <message>
+        <source>set: value is not an object</source>
+        <translation>set: значение не является объектом</translation>
+    </message>
+    <message>
+        <source>set: index %1 out of range</source>
+        <translation>set: индекс %1 вне диапазона</translation>
+    </message>
+    <message>
+        <source>ListElement: cannot contain nested elements</source>
+        <translation>ListElement: не может содержать вложенные элементы</translation>
+    </message>
+    <message>
+        <source>ListElement: cannot use reserved &quot;id&quot; property</source>
+        <translation>ListElement: невозможно использовать зарезервированное свойство «id»</translation>
+    </message>
+    <message>
+        <source>ListElement: improperly specified %1</source>
+        <translation>ListElement: неправильно указан %1</translation>
+    </message>
+    <message>
+        <source>ListElement: improperly specified QT_TRANSLATE_NOOP</source>
+        <translation>ListElement: неправильно указан QT_TRANSLATE_NOOP</translation>
+    </message>
+    <message>
+        <source>ListElement: cannot use script for property value</source>
+        <translation>ListElement: невозможно использовать сценарий в качестве значения свойства</translation>
+    </message>
+    <message>
+        <source>ListModel: undefined property &apos;%1&apos;</source>
+        <translation>ListModel: неопределённое свойство «%1»</translation>
     </message>
 </context>
 <context>
@@ -558,6 +733,26 @@
     <message>
         <source>Invalid regular expression flag &apos;%0&apos;</source>
         <translation>Некорректный флаг «%0» в регулярном выражении</translation>
+    </message>
+    <message>
+        <source>Stray newline in string literal</source>
+        <translation>Ненужный перевод строки в строковом литерале</translation>
+    </message>
+    <message>
+        <source>Illegal hexadecimal escape sequence</source>
+        <translation>Недопустимая шестнадцатеричная esc-последовательность</translation>
+    </message>
+    <message>
+        <source>Octal escape sequences are not allowed</source>
+        <translation>Восьмеричные esc-последовательности недопустимы</translation>
+    </message>
+    <message>
+        <source>Decimal numbers can&apos;t start with &apos;0&apos;</source>
+        <translation>Десятичные числа не могут начинаться с «0»</translation>
+    </message>
+    <message>
+        <source>At least one hexadecimal digit is required after &apos;0%1&apos;</source>
+        <translation>Необходима минимум одна шестнадцатеричная цифра после «0%1»</translation>
     </message>
     <message>
         <source>Unterminated regular expression backslash sequence</source>
@@ -657,6 +852,17 @@
     </message>
 </context>
 <context>
+    <name>QQmlPartsModel</name>
+    <message>
+        <source>The group of a DelegateModel cannot be changed within onChanged</source>
+        <translation>Нельзя менять группу DelegateModel внутри onChanged</translation>
+    </message>
+    <message>
+        <source>Delegate component must be Package type.</source>
+        <translation>Компонент делегата должен быть типа Package.</translation>
+    </message>
+</context>
+<context>
     <name>QQmlRewrite</name>
     <message>
         <source>Signal uses unnamed parameter followed by named parameter.</source>
@@ -665,13 +871,6 @@
     <message>
         <source>Signal parameter &quot;%1&quot; hides global variable.</source>
         <translation>Параметр сигнала «%1» скрывает глобальную переменную.</translation>
-    </message>
-</context>
-<context>
-    <name>QQmlScriptBlob</name>
-    <message>
-        <source>Script %1 unavailable</source>
-        <translation>Сценарий %1 недоступен</translation>
     </message>
 </context>
 <context>
@@ -698,7 +897,7 @@
     </message>
     <message>
         <source>Unreported error adding script import to import database</source>
-        <translation type="unfinished">Несообщённая ошибка добавления импорта сценария в БД импорта</translation>
+        <translation>Несообщённая ошибка добавления импорта сценария в БД импорта</translation>
     </message>
     <message>
         <source>%1 %2</source>
@@ -760,7 +959,7 @@
     </message>
     <message>
         <source>Animation is an abstract class</source>
-        <translation>Animation - это абстрактный класс</translation>
+        <translation>Animation ― это абстрактный класс</translation>
     </message>
 </context>
 <context>
@@ -839,7 +1038,7 @@
     <name>QQuickApplication</name>
     <message>
         <source>Application is an abstract class</source>
-        <translation>Класс Application - абстрактный</translation>
+        <translation>Класс Application ― абстрактный</translation>
     </message>
 </context>
 <context>
@@ -860,11 +1059,22 @@
     <name>QQuickFlipable</name>
     <message>
         <source>front is a write-once property</source>
-        <translation>front - свойство для однократной записи</translation>
+        <translation>front ― свойство для однократной записи</translation>
     </message>
     <message>
         <source>back is a write-once property</source>
-        <translation>back - свойство для однократной записи</translation>
+        <translation>back ― свойство для однократной записи</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickItemView</name>
+    <message>
+        <source>ItemView is an abstract base class</source>
+        <translation>ItemView ― абстрактный базовый класс</translation>
+    </message>
+    <message>
+        <source>Delegate must be of Item type</source>
+        <translation>Делегат должен иметь тип Item</translation>
     </message>
 </context>
 <context>
@@ -893,78 +1103,7 @@
     </message>
 </context>
 <context>
-    <name>QQuickListModel</name>
-    <message>
-        <source>unable to enable dynamic roles as this model is not empty!</source>
-        <translation>не удалось включить динамические роли, так как эта модель не пуста!</translation>
-    </message>
-    <message>
-        <source>unable to enable static roles as this model is not empty!</source>
-        <translation>не удалось включить статические роли, так как эта модель не пуста!</translation>
-    </message>
-    <message>
-        <source>dynamic role setting must be made from the main thread, before any worker scripts are created</source>
-        <translation>установка динамической роли должна выполняться из основного потока перед созданием каких-либо рабочих сценариев</translation>
-    </message>
-    <message>
-        <source>remove: indices [%1 - %2] out of range [0 - %3]</source>
-        <translation>remove: индексы [%1 - %2] вне диапазона [0 - %3]</translation>
-    </message>
-    <message>
-        <source>remove: incorrect number of arguments</source>
-        <translation>remove: недопустимое число аргументов</translation>
-    </message>
-    <message>
-        <source>insert: index %1 out of range</source>
-        <translation>insert: индекс %1 вне диапазона</translation>
-    </message>
-    <message>
-        <source>insert: value is not an object</source>
-        <translation>insert: значение не является объектом</translation>
-    </message>
-    <message>
-        <source>move: out of range</source>
-        <translation>move: индекс вне диапазона</translation>
-    </message>
-    <message>
-        <source>append: value is not an object</source>
-        <translation>append: значение не является объектом</translation>
-    </message>
-    <message>
-        <source>set: value is not an object</source>
-        <translation>set: значение не является объектом</translation>
-    </message>
-    <message>
-        <source>set: index %1 out of range</source>
-        <translation>set: индекс %1 вне диапазона</translation>
-    </message>
-    <message>
-        <source>ListElement: cannot contain nested elements</source>
-        <translation>ListElement: не может содержать вложенные элементы</translation>
-    </message>
-    <message>
-        <source>ListElement: cannot use reserved &quot;id&quot; property</source>
-        <translation>ListElement: невозможно использовать зарезервированное свойство «id»</translation>
-    </message>
-    <message>
-        <source>ListElement: improperly specified %1</source>
-        <translation>ListElement: неправильно указан %1</translation>
-    </message>
-    <message>
-        <source>ListElement: improperly specified QT_TRANSLATE_NOOP</source>
-        <translation>ListElement: неправильно указан QT_TRANSLATE_NOOP</translation>
-    </message>
-    <message>
-        <source>ListElement: cannot use script for property value</source>
-        <translation>ListElement: невозможно использовать сценарий в качестве значения свойства</translation>
-    </message>
-    <message>
-        <source>ListModel: undefined property &apos;%1&apos;</source>
-        <translation>ListModel: неопределённое свойство «%1»</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickLoaderPrivate</name>
+    <name>QQuickLoader</name>
     <message>
         <source>setSource: value is not an object</source>
         <translation>setSource: значение не является объектом</translation>
@@ -1012,6 +1151,13 @@
     <message>
         <source>Cannot set a duration of &lt; 0</source>
         <translation>Невозможно установить длительность &lt; 0</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickPathView</name>
+    <message>
+        <source>Delegate must be of Item type</source>
+        <translation>Делегат должен быть типа Item</translation>
     </message>
 </context>
 <context>
@@ -1071,6 +1217,13 @@
     </message>
 </context>
 <context>
+    <name>QQuickRepeater</name>
+    <message>
+        <source>Delegate must be of Item type</source>
+        <translation>Делегат должен быть типа Item</translation>
+    </message>
+</context>
+<context>
     <name>QQuickShaderEffectMesh</name>
     <message>
         <source>Cannot create instance of abstract class ShaderEffectMesh.</source>
@@ -1093,135 +1246,6 @@
     <message>
         <source>ViewTransition is only available via attached properties</source>
         <translation>ViewTransition доступна только через прикреплённые свойства</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickVisualDataGroup</name>
-    <message>
-        <source>Group names must start with a lower case letter</source>
-        <translation>Имена групп должны начинаться с маленькой буквы</translation>
-    </message>
-    <message>
-        <source>get: index out of range</source>
-        <translation>get: индекс вне диапазона</translation>
-    </message>
-    <message>
-        <source>insert: index out of range</source>
-        <translation>insert: индекс вне диапазона</translation>
-    </message>
-    <message>
-        <source>create: index out of range</source>
-        <translation>create: индекс вне диапазона</translation>
-    </message>
-    <message>
-        <source>resolve: from index out of range</source>
-        <translation>resolve: индекс from вне диапазона</translation>
-    </message>
-    <message>
-        <source>resolve: from index invalid</source>
-        <translation>resolve: неверен индекс from</translation>
-    </message>
-    <message>
-        <source>resolve: to index out of range</source>
-        <translation>resolve: индекс to вне диапазона</translation>
-    </message>
-    <message>
-        <source>resolve: to index invalid</source>
-        <translation>resolve: неверен индекс to</translation>
-    </message>
-    <message>
-        <source>resolve: from is not an unresolved item</source>
-        <translation type="unfinished">resolve: from не неразрешаемый элемент</translation>
-    </message>
-    <message>
-        <source>resolve: to is not a model item</source>
-        <translation>resolve: to не элемент модели</translation>
-    </message>
-    <message>
-        <source>remove: invalid index</source>
-        <translation>remove: некорректный индекс</translation>
-    </message>
-    <message>
-        <source>remove: index out of range</source>
-        <translation>remove: индекс вне диапазона</translation>
-    </message>
-    <message>
-        <source>remove: invalid count</source>
-        <translation type="unfinished">remove: некорректный count</translation>
-    </message>
-    <message>
-        <source>addGroups: index out of range</source>
-        <translation>addGroups: индекс вне диапазона</translation>
-    </message>
-    <message>
-        <source>addGroups: invalid count</source>
-        <translation type="unfinished">addGroups: некорректный count</translation>
-    </message>
-    <message>
-        <source>removeGroups: index out of range</source>
-        <translation>removeGroups: индекс вне диапазона</translation>
-    </message>
-    <message>
-        <source>removeGroups: invalid count</source>
-        <translation type="unfinished">removeGroups: некорректный count</translation>
-    </message>
-    <message>
-        <source>setGroups: index out of range</source>
-        <translation>setGroups: индекс вне диапазона</translation>
-    </message>
-    <message>
-        <source>setGroups: invalid count</source>
-        <translation type="unfinished">setGroups: некорректный count</translation>
-    </message>
-    <message>
-        <source>move: invalid from index</source>
-        <translation>move: некорректный индекс from</translation>
-    </message>
-    <message>
-        <source>move: invalid to index</source>
-        <translation>move: некорректный индекс to</translation>
-    </message>
-    <message>
-        <source>move: invalid count</source>
-        <translation type="unfinished">move: некорректный count</translation>
-    </message>
-    <message>
-        <source>move: from index out of range</source>
-        <translation>move: индекс from вне диапазона</translation>
-    </message>
-    <message>
-        <source>move: to index out of range</source>
-        <translation>move: индекс to вне диапазона</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickVisualDataModel</name>
-    <message>
-        <source>The delegate of a VisualDataModel cannot be changed within onUpdated.</source>
-        <translation>Делегат VisualDataModel нельзя менять внутри onUpdated.</translation>
-    </message>
-    <message>
-        <source>The maximum number of supported VisualDataGroups is 8</source>
-        <translation>Поддерживается максимум 8 VisualDataGroups</translation>
-    </message>
-    <message>
-        <source>The group of a VisualDataModel cannot be changed within onChanged</source>
-        <translation>Нельзя менять группу VisualDataModel внутри onChanged</translation>
-    </message>
-    <message>
-        <source>Delegate component must be Item type.</source>
-        <translation>Компонента делегата должна быть типа Item.</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickVisualPartsModel</name>
-    <message>
-        <source>The group of a VisualDataModel cannot be changed within onChanged</source>
-        <translation>Нельзя менять группу VisualDataModel внутри onChanged</translation>
-    </message>
-    <message>
-        <source>Delegate component must be Package type.</source>
-        <translation>Компонента делегата должен быть типа Package.</translation>
     </message>
 </context>
 <context>
