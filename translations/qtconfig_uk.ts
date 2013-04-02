@@ -100,6 +100,10 @@
         <translation>Зміни збережено.</translation>
     </message>
     <message>
+        <source>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;Version %2&lt;br/&gt;&lt;br/&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies).</source>
+        <translation>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;Версія %2&lt;br/&gt;&lt;br/&gt;Copyright (C) 2012 Digia Plc та/або її дочірні компанії.</translation>
+    </message>
+    <message>
         <source>Over The Spot</source>
         <translation>Над вікном документу</translation>
     </message>
@@ -114,10 +118,6 @@
     <message>
         <source>Select a Directory</source>
         <translation>Оберіть теку</translation>
-    </message>
-    <message>
-        <source>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;Version %2&lt;br/&gt;&lt;br/&gt;Copyright (C) 2012 Nokia Corporation and/or its subsidiary(-ies).</source>
-        <translation>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;Version %2&lt;br/&gt;&lt;br/&gt;Copyright (C) 2012 Nokia Corporation and/or its subsidiary(-ies).</translation>
     </message>
     <message>
         <source>Qt Configuration</source>
@@ -285,7 +285,7 @@
     </message>
     <message>
         <source>Alt+E</source>
-        <translation></translation>
+        <translation>Alt+E</translation>
     </message>
     <message>
         <source>&amp;Menu Effect:</source>
@@ -385,7 +385,7 @@
     </message>
     <message>
         <source>&lt;a href=&quot;http://phonon.kde.org&quot;&gt;http://phonon.kde.org/&lt;/a&gt;</source>
-        <translation></translation>
+        <translation>&lt;a href=&quot;http://phonon.kde.org&quot;&gt;http://phonon.kde.org/&lt;/a&gt;</translation>
     </message>
     <message>
         <source>About GStreamer</source>
@@ -393,7 +393,7 @@
     </message>
     <message>
         <source>&lt;a href=&quot;http://gstreamer.freedesktop.org/&quot;&gt;http://gstreamer.freedesktop.org/&lt;/a&gt;</source>
-        <translation></translation>
+        <translation>&lt;a href=&quot;http://gstreamer.freedesktop.org/&quot;&gt;http://gstreamer.freedesktop.org/&lt;/a&gt;</translation>
     </message>
     <message>
         <source>GStreamer backend settings</source>
@@ -437,7 +437,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Ctrl+S</source>
-        <translation></translation>
+        <translation>Ctrl+S</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -449,7 +449,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Ctrl+Q</source>
-        <translation></translation>
+        <translation>Ctrl+Q</translation>
     </message>
     <message>
         <source>&amp;About</source>
@@ -689,9 +689,10 @@ p, li { white-space: pre-wrap; }
         <translation>Кнопка</translation>
     </message>
     <message>
-        <source>&lt;p&gt;&lt;a href=&quot;http://qt.nokia.com&quot;&gt;http://qt.nokia.com&lt;/a&gt;&lt;/p&gt;
+        <source>&lt;p&gt;&lt;a href=&quot;http://qt-project.org&quot;&gt;http://qt-project.org&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.kde.org&quot;&gt;http://www.kde.org&lt;/a&gt;&lt;/p&gt;</source>
-        <translation></translation>
+        <translation>&lt;p&gt;&lt;a href=&quot;http://qt-project.org&quot;&gt;http://qt-project.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kde.org&quot;&gt;http://www.kde.org&lt;/a&gt;&lt;/p&gt;</translation>
     </message>
 </context>
 </TS>

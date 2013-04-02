@@ -168,10 +168,6 @@
         <translation>Dateien einfügen...</translation>
     </message>
     <message>
-        <source>The referenced file %1 must be inside or within a subdirectory of (%2). Skipping it.</source>
-        <translation>Die referenzierte Datei %1 muss sich im Verzeichnis %2 oder in einem Unterverzeichnis davon befinden. Sie wird übersprungen.</translation>
-    </message>
-    <message>
         <source>The file %1 does not exist! Skipping it.</source>
         <translation>Die Datei %1 existiert nicht. Wird übersprungen.</translation>
     </message>
@@ -249,10 +245,6 @@
     <message>
         <source>Missing virtual folder in QtHelpProject</source>
         <translation>Fehlendes virtuelles Verzeichnis in QtHelpProject.</translation>
-    </message>
-    <message>
-        <source>Missing attribute in keyword at line %1.</source>
-        <translation>Fehlendes Attribut in Schlagwort in Zeile %1.</translation>
     </message>
     <message>
         <source>The input file %1 could not be opened!</source>

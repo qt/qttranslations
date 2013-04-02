@@ -1,383 +1,376 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ru_RU">
+<TS version="2.0" language="de_DE">
 <context>
     <name>AudioCaptureSession</name>
     <message>
         <source>RAW file format</source>
-        <translation>Формат файла RAW</translation>
+        <translation>RAW-Dateiformat</translation>
     </message>
     <message>
         <source>WAV file format</source>
-        <translation>Формат файла WAV</translation>
+        <translation>WAV-Dateiformat</translation>
     </message>
 </context>
 <context>
     <name>AudioEncoderControl</name>
     <message>
         <source>PCM audio data</source>
-        <translation>Аудио-данные PCM</translation>
+        <translation>PCM-Audiodaten</translation>
     </message>
 </context>
 <context>
     <name>CameraBinImageCapture</name>
     <message>
         <source>Camera not ready</source>
-        <translation>Камера не готова</translation>
+        <translation>Kamera nicht bereit</translation>
     </message>
 </context>
 <context>
     <name>CameraBinImageEncoder</name>
     <message>
         <source>JPEG image</source>
-        <translation>Изображение JPEG</translation>
+        <translation>JPEG-Bild</translation>
     </message>
 </context>
 <context>
     <name>CameraBinRecorder</name>
     <message>
         <source>QMediaRecorder::pause() is not supported by camerabin2.</source>
-        <translation>QMediaRecorder::pause() не поддерживается camerabin2.</translation>
+        <translation>QMediaRecorder::pause() wird von camerabin2 nicht unterstützt.</translation>
     </message>
     <message>
         <source>Service has not been started</source>
-        <translation>Служба не была запущена</translation>
+        <translation>Der Dienst wurde nicht gestartet</translation>
     </message>
 </context>
 <context>
     <name>CameraBinSession</name>
     <message>
         <source>Camera error</source>
-        <translation>Ошибка камеры</translation>
+        <translation>Kamerafehler</translation>
     </message>
 </context>
 <context>
     <name>MFPlayerSession</name>
     <message>
         <source>Invalid stream source.</source>
-        <translation>Неверный источник потока.</translation>
+        <translation>Ungültige Datenstromquelle.</translation>
     </message>
     <message>
         <source>Attempting to play invalid Qt resource.</source>
-        <translation>Попытка воспроизвести неверный ресурс Qt.</translation>
+        <translation>Es wurde versucht, eine ungültige Qt-Ressource abzuspielen.</translation>
     </message>
     <message>
         <source>The system cannot find the file specified.</source>
-        <translation>Система не может найти указанный файл.</translation>
+        <translation>Das System kann die angegebene Datei nicht finden.</translation>
     </message>
     <message>
         <source>The specified server could not be found.</source>
-        <translation>Не удалось найти указанный сервер.</translation>
+        <translation>Der angegebene Server konnte nicht gefunden werden.</translation>
     </message>
     <message>
         <source>Unsupported media type.</source>
-        <translation>Носитель этого типа не поддерживается.</translation>
+        <translation>Nicht unterstützter Medientyp.</translation>
     </message>
     <message>
         <source>Failed to load source.</source>
-        <translation>Не удалось загрузить источник.</translation>
+        <translation>Die Quelle konnte nicht geladen werden.</translation>
     </message>
     <message>
         <source>Cannot create presentation descriptor.</source>
-        <translation>Не удалось создать дескриптор презентации.</translation>
+        <translation>Der Präsentationsdeskriptor kann nicht erzeugt werden.</translation>
     </message>
     <message>
         <source>Failed to get stream count.</source>
-        <translation>Не удалось получить количество потоков.</translation>
+        <translation>Anzahl der Datenströme konnte nicht bestimmt werden.</translation>
     </message>
     <message>
         <source>Failed to create topology.</source>
-        <translation>Не удалось создать топологию.</translation>
+        <translation>Topologie konnte nicht erzeugt werden.</translation>
     </message>
     <message>
         <source>Unable to play any stream.</source>
-        <translation>Невозможно воспроизводить потоки.</translation>
+        <translation>Es konnte kein Datenstrom abgespielt werden.</translation>
     </message>
     <message>
         <source>Unable to play.</source>
-        <translation>Не удалось воспроизвести.</translation>
+        <translation>Abspielen nicht möglich.</translation>
     </message>
     <message>
         <source>Failed to set topology.</source>
-        <translation>Не удалось установить топологию.</translation>
+        <translation>Topologie konnte nicht gesetzt werden.</translation>
     </message>
     <message>
         <source>Unknown stream type.</source>
-        <translation>Тип потока не известен.</translation>
+        <translation>Unbekannter Datenstromtyp.</translation>
     </message>
     <message>
         <source>Failed to stop.</source>
-        <translation>Не удалось остановить.</translation>
+        <translation>Stoppen nicht möglich.</translation>
     </message>
     <message>
         <source>Failed to pause.</source>
-        <translation>Не удалось приостановить.</translation>
+        <translation>Pausieren nicht möglich.</translation>
     </message>
     <message>
         <source>Unable to create mediasession.</source>
-        <translation>Не удалось создать медиа-сессию.</translation>
+        <translation>Es konnte keine Medien-Session erzeugt werden.</translation>
     </message>
     <message>
         <source>Unable to pull session events.</source>
-        <translation>Не удалось получить события сессии.</translation>
+        <translation>Events der Sitzung konnten nicht abgeholt werden.</translation>
     </message>
     <message>
         <source>Failed to seek.</source>
-        <translation>Не удалось переместиться.</translation>
+        <translation>Positionierung fehlgeschlagen.</translation>
     </message>
     <message>
         <source>Media session non-fatal error.</source>
-        <translation>Нефатальная ошибка медиа-сессии.</translation>
+        <translation>Unkritischer Fehler der Medien-Session.</translation>
     </message>
     <message>
         <source>Media session serious error.</source>
-        <translation>Серьёзная ошибка медиа-сессии.</translation>
+        <translation>Kritischer Fehler der Medien-Session.</translation>
     </message>
     <message>
         <source>Unsupported media, a codec is missing.</source>
-        <translation>Медиа не поддерживается - отсутствует кодек.</translation>
+        <translation>Nicht unterstütztes Medium; es fehlt ein Codec.</translation>
     </message>
     <message>
         <source>failed to start playback</source>
-        <translation>не удалось запустить воспроизведение</translation>
+        <translation>Playback konnte nicht gestartet werden</translation>
     </message>
 </context>
 <context>
     <name>PLSParser</name>
     <message>
         <source>Error parsing playlist: %1, expected count = %2</source>
-        <translation>Ошибка разбора списка воспроизведения: %1, ожидается count = %2</translation>
+        <translation>Fehler beim Auswerten der Abspielliste %1, erwartete Anzahl = %2</translation>
     </message>
     <message>
         <source>Error parsing playlist at line[%1], expected version = 2</source>
-        <translation>Ошибка разора списка воспроизведения в строке %1, ожидается версия = 2</translation>
+        <translation>Fehler beim Auswerten der Abspielliste bei Zeile [%1], erwartete Version = 2</translation>
     </message>
     <message>
         <source>Error parsing playlist at line[%1]:%2</source>
-        <translation>Ошибка разбора списка воспроизведения в строке %1: %2</translation>
+        <translation>Fehler beim Auswerten der Abspielliste bei Zeile [%1]:%2</translation>
     </message>
     <message>
         <source>File%1</source>
-        <translation>Файл%1</translation>
+        <translation>Datei%1</translation>
     </message>
     <message>
         <source>Title%1</source>
-        <translation>Название%1</translation>
+        <translation>Titel%1</translation>
     </message>
     <message>
         <source>Length%1</source>
-        <translation>Длина%1</translation>
+        <translation>Länge%1</translation>
     </message>
 </context>
 <context>
     <name>QAudioDecoder</name>
     <message>
         <source>The QAudioDecoder object does not have a valid service</source>
-        <translation>Объект QAudioDecoder не имеет подходящей службы</translation>
+        <translation>Das QAudioDecoder-Objekt hat keinen gültigen Dienst</translation>
     </message>
 </context>
 <context>
     <name>QCamera</name>
     <message>
         <source>The camera service is missing</source>
-        <translation>Отсутствует служба камеры</translation>
+        <translation>Der Kameradienst fehlt</translation>
     </message>
 </context>
 <context>
     <name>QCameraImageCapture</name>
     <message>
         <source>Device does not support images capture.</source>
-        <translation>Устройство не поддерживает захват изображений.</translation>
-    </message>
-</context>
-<context>
-    <name>QCameraPrivate</name>
-    <message>
-        <source>The camera service is missing</source>
-        <translation>Отсутствует служба камеры</translation>
+        <translation>Das Gerät unterstützt das Aufnehmen von Bildern nicht.</translation>
     </message>
 </context>
 <context>
     <name>QDeclarativeAudio</name>
     <message>
         <source>volume should be between 0.0 and 1.0</source>
-        <translation>Громкость должна быть от 0,0 до 1,0</translation>
+        <translation>Lautstärke sollte zwischen 0.0 und 1.0 liegen</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerAudioDecoderSession</name>
     <message>
         <source>Cannot play stream of type: &lt;unknown&gt;</source>
-        <translation>Невозможно проиграть поток типа: &lt;неизвестный&gt;</translation>
+        <translation>Datenstrom des Typs &lt;unbekannt&gt; kann nicht abgespielt werden</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerAudioEncode</name>
     <message>
         <source>Raw PCM audio</source>
-        <translation>Необработанное PCM-аудио</translation>
+        <translation>Raw-PCM-Audio</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerAudioInputSelector</name>
     <message>
         <source>System default device</source>
-        <translation>Системное устройство по умолчанию</translation>
+        <translation>System-Vorgabegerät</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerCameraControl</name>
     <message>
         <source>State not supported.</source>
-        <translation>Состояние не поддерживается.</translation>
+        <translation>nicht unterstützter Zustand.</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerCaptureSession</name>
     <message>
         <source>Could not create an audio source element</source>
-        <translation>Не удалось создать элемент источника звука</translation>
+        <translation>Das Audio-Quellelement konnte nicht erstellt werden</translation>
     </message>
     <message>
         <source>Failed to build media capture pipeline.</source>
-        <translation>Не удалось создать конвейер захвата медиа-данных.</translation>
+        <translation>Es konnte keine Medien-Aufnahme-Pipeline erstellt werden.</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerImageCaptureControl</name>
     <message>
         <source>Not ready to capture</source>
-        <translation>Не готово для захвата</translation>
+        <translation>Nicht aufnahmebereit</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerImageEncode</name>
     <message>
         <source>JPEG image encoder</source>
-        <translation>Кодировщик изображений JPEG</translation>
+        <translation>JPEG-Bild-Kodierer</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerPlayerControl</name>
     <message>
         <source>Attempting to play invalid Qt resource</source>
-        <translation>Попытка воспроизвести неверный ресурс Qt</translation>
+        <translation>Es wurde versucht, eine ungültige Qt-Ressource abzuspielen</translation>
     </message>
     <message>
         <source>Attempting to play invalid user stream</source>
-        <translation>Попытка воспроизвести неверный пользовательский поток</translation>
+        <translation>Es wurde versucht, einen ungültigen Nutzer-Datenstrom abzuspielen</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerPlayerSession</name>
     <message>
         <source>Cannot play stream of type: &lt;unknown&gt;</source>
-        <translation>Невозможно проиграть поток типа: &lt;неизвестный&gt;</translation>
+        <translation>Datenstrom des Typs &lt;unbekannt&gt; kann nicht abgespielt werden</translation>
     </message>
     <message>
         <source>UDP source timeout</source>
-        <translation>Истекло время источника UDP</translation>
+        <translation>Zeitüberschreitung bei UDP-Quelle</translation>
     </message>
     <message>
         <source>Media is loaded as a playlist</source>
-        <translation>Медиа-данные загружены в виде списка проигрывания</translation>
+        <translation>Medien als Abspielliste geladen</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerRecorderControl</name>
     <message>
         <source>Service has not been started</source>
-        <translation>Служба не была запущена</translation>
+        <translation>Der Dienst wurde nicht gestartet</translation>
     </message>
     <message>
         <source>Not compatible codecs and container format.</source>
-        <translation>Кодек и формат контейнера не совместимы.</translation>
+        <translation>Keine kompatiblen Codecs und Container-Formate.</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerVideoInputDeviceControl</name>
     <message>
         <source>Main camera</source>
-        <translation>Основная камера</translation>
+        <translation>Hauptkamera</translation>
     </message>
     <message>
         <source>Front camera</source>
-        <translation>Передняя камера</translation>
+        <translation>Vordere Kamera</translation>
     </message>
 </context>
 <context>
     <name>QMediaPlayer</name>
     <message>
         <source>The QMediaPlayer object does not have a valid service</source>
-        <translation>Объект QMediaPlayer не имеет подходящей службы</translation>
+        <translation>Das QMediaPlayer-Objekt hat keinen gültigen Dienst</translation>
     </message>
 </context>
 <context>
     <name>QMediaPlaylist</name>
     <message>
         <source>Could not add items to read only playlist.</source>
-        <translation>Не удалось добавить элементы для чтения только списка воспроизведения.</translation>
+        <translation>Konnte keine Elemente zu schreibgeschützter Abspielliste hinzufügen</translation>
     </message>
     <message>
         <source>Playlist format is not supported</source>
-        <translation>Формат списка воспроизведения не поддерживается</translation>
+        <translation>Nicht unterstütztes Format der Abspielliste</translation>
     </message>
     <message>
         <source>The file could not be accessed.</source>
-        <translation>Не удалось получить доступ к файлу.</translation>
+        <translation>Es konnte nicht auf die Datei zugegriffen werden.</translation>
     </message>
     <message>
         <source>Playlist format is not supported.</source>
-        <translation>Формат списка воспроизведения не поддерживается.</translation>
+        <translation>Nicht unterstütztes Format der Abspielliste</translation>
     </message>
 </context>
 <context>
     <name>QMultimediaDeclarativeModule</name>
     <message>
         <source>CameraCapture is provided by Camera</source>
-        <translation>CameraCapture предоставляется камерой</translation>
+        <translation>CameraCapture wird von Camera bereitgestellt</translation>
     </message>
     <message>
         <source>CameraRecorder is provided by Camera</source>
-        <translation>CameraRecorder предоставляется камерой</translation>
+        <translation>CameraRecorder wird von Camera bereitgestellt</translation>
     </message>
     <message>
         <source>CameraExposure is provided by Camera</source>
-        <translation>CameraExposure предоставляется камерой</translation>
+        <translation>CameraExposure wird von Camera bereitgestellt</translation>
     </message>
     <message>
         <source>CameraFocus is provided by Camera</source>
-        <translation>CameraFocus предоставляется камерой</translation>
+        <translation>CameraFocus wird von Camera bereitgestellt</translation>
     </message>
     <message>
         <source>CameraFlash is provided by Camera</source>
-        <translation>CameraFlash предоставляется камерой</translation>
+        <translation>CameraFlash wird von Camera bereitgestellt</translation>
     </message>
     <message>
         <source>CameraImageProcessing is provided by Camera</source>
-        <translation>CameraImageProcessing предоставляется камерой</translation>
+        <translation>CameraImageProcessing wird von Camera bereitgestellt</translation>
     </message>
 </context>
 <context>
     <name>QPlaylistFileParser</name>
     <message>
         <source>%1 does not exist</source>
-        <translation>%1 не существует</translation>
+        <translation>%1 existiert nicht</translation>
     </message>
 </context>
 <context>
     <name>QPlaylistFileParserPrivate</name>
     <message>
         <source>%1 playlist type is unknown</source>
-        <translation>Неизвестный формат списка воспроизведения %1</translation>
+        <translation>Unbekannter Typ der Abspielliste %1</translation>
     </message>
     <message>
         <source>invalid line in playlist file</source>
-        <translation>неверная строка в файле списка воспроизведения</translation>
+        <translation>ungültige Zeile in Abspielliste</translation>
     </message>
     <message>
         <source>Empty file provided</source>
-        <translation>Предоставлен пустой файл</translation>
+        <translation>Leere Datei angegeben</translation>
     </message>
 </context>
 </TS>
