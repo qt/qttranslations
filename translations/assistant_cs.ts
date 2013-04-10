@@ -622,12 +622,16 @@ Grund:
         <translation>Rozlišující velká a malá písmena</translation>
     </message>
     <message>
+        <source>&lt;img src=&quot;:/qt-project.org/assistant/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
+        <translation>&lt;img src=&quot;:/qt-project.org/assistant/images/wrap.png&quot;&gt;&amp;nbsp;Hledání přesáhlo konce</translation>
+    </message>
+    <message>
         <source>Whole words</source>
         <translation type="obsolete">Celá slova</translation>
     </message>
     <message>
         <source>&lt;img src=&quot;:/trolltech/assistant/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
-        <translation>&lt;img src=&quot;:/trolltech/assistant/images/wrap.png&quot;&gt;&amp;nbsp;Konec strany</translation>
+        <translation type="obsolete">&lt;img src=&quot;:/trolltech/assistant/images/wrap.png&quot;&gt;&amp;nbsp;Konec strany</translation>
     </message>
 </context>
 <context>
@@ -775,8 +779,12 @@ Grund:
         <translation>&lt;title&gt;about:blank&lt;/title&gt;</translation>
     </message>
     <message>
-        <source>&lt;title&gt;Error 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;The page could not be found&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</source>
+        <source>&lt;title&gt;Error 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;The page could not be found.&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</source>
         <translation>&lt;title&gt;Chyba 404 ...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;Stranu se nepodařilo najít.&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;title&gt;Error 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;The page could not be found&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</source>
+        <translation type="obsolete">&lt;title&gt;Chyba 404 ...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;Stranu se nepodařilo najít.&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</translation>
     </message>
     <message>
         <source>Open Link</source>
@@ -807,6 +815,22 @@ Grund:
 </source>
         <translation type="obsolete">Chyba při spouštění vnější aplikace.
 </translation>
+    </message>
+    <message>
+        <source>Error 404...</source>
+        <translation>Chyba 404...</translation>
+    </message>
+    <message>
+        <source>The page could not be found!</source>
+        <translation>Stranu se nepodařilo nalézt!</translation>
+    </message>
+    <message>
+        <source>Please make sure that you have all documentation sets installed.</source>
+        <translation>Ujistěte se, prosím, že máte nainstalovány všechny soubory dokumentace.</translation>
+    </message>
+    <message>
+        <source>Error loading: %1</source>
+        <translation>Chyba při nahrávání: %1</translation>
     </message>
     <message>
         <source>Open Link in New Page</source>
@@ -917,7 +941,7 @@ Grund:
     </message>
     <message>
         <source>Downloading documentation info...</source>
-        <translation>Stahuje se informace o  dokumentaci...</translation>
+        <translation>Stahuje se informace o dokumentaci...</translation>
     </message>
     <message>
         <source>Download canceled.</source>
@@ -1129,6 +1153,10 @@ Grund:
         <translation>Ctrl+Alt+Left</translation>
     </message>
     <message>
+        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;</source>
+        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Verze %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Autorské právo (C) 2012 Digia Plc anebo její dceřinné společnosti.&lt;/p&gt;</translation>
+    </message>
+    <message>
         <source>Could not register file &apos;%1&apos;: %2</source>
         <translation>Nepodařilo se zaznamenat soubor &apos;%1&apos;: %2</translation>
     </message>
@@ -1170,7 +1198,7 @@ Grund:
     </message>
     <message>
         <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2012 Nokia Corporation and/or its subsidiary(-ies).&lt;/p&gt;</source>
-        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Verze %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Autorské právo (C) 2012 Nokia Corporation a/nebo její dceřinná společnost(i).&lt;/p&gt;</translation>
+        <translation type="obsolete">&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Verze %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Autorské právo (C) 2012 Nokia Corporation a/nebo její dceřinná společnost(i).&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About %1</source>
@@ -1366,7 +1394,7 @@ Chcete jej odstranit?</translation>
     </message>
     <message>
         <source>The namespace %1 is already registered!</source>
-        <translation>Jmenný prostor %1 je již zaznamenám!</translation>
+        <translation>Jmenný prostor %1 je již zaznamenán!</translation>
     </message>
     <message>
         <source>Remove Documentation</source>
@@ -1493,6 +1521,29 @@ Chcete jej odstranit?</translation>
     </message>
 </context>
 <context>
+    <name>QCLuceneResultWidget</name>
+    <message>
+        <source>Search Results</source>
+        <translation>Výsledky hledání</translation>
+    </message>
+    <message>
+        <source>Note:</source>
+        <translation>Poznámka:</translation>
+    </message>
+    <message>
+        <source>The search results may not be complete since the documentation is still being indexed!</source>
+        <translation>Výsledky hledání nemusí být úplné, protože ještě probíhá rejstříkování dokumentace!</translation>
+    </message>
+    <message>
+        <source>Your search did not match any documents.</source>
+        <translation>Nebyla nalezena shoda v žádném z dokumentů.</translation>
+    </message>
+    <message>
+        <source>(The reason for this might be that the documentation is still being indexed.)</source>
+        <translation>(Důvodem by mohlo být, že dosud ještě probíhá rejstříkování dokumentace.)</translation>
+    </message>
+</context>
+<context>
     <name>QCollectionGenerator</name>
     <message>
         <source>Unknown token at line %1.</source>
@@ -1601,6 +1652,96 @@ qcollectiongenerator &lt;collection-config-file&gt; [volby]
     </message>
 </context>
 <context>
+    <name>QHelp</name>
+    <message>
+        <source>Untitled</source>
+        <translation>Bez názvu</translation>
+    </message>
+</context>
+<context>
+    <name>QHelpCollectionHandler</name>
+    <message>
+        <source>The collection file &apos;%1&apos; is not set up yet!</source>
+        <translatorcomment>vytvořen?</translatorcomment>
+        <translation>Sběrný soubor &apos;%1&apos; není ještě nastaven!</translation>
+    </message>
+    <message>
+        <source>Cannot load sqlite database driver!</source>
+        <translation>Databázový ovladač pro SQLite nelze nahrát!</translation>
+    </message>
+    <message>
+        <source>Cannot open collection file: %1</source>
+        <translation>Nelze otevřít sběrný soubor: %1</translation>
+    </message>
+    <message>
+        <source>Cannot create tables in file %1!</source>
+        <translation>Nelze vytvořit tabulky v souboru %1!</translation>
+    </message>
+    <message>
+        <source>The collection file &apos;%1&apos; already exists!</source>
+        <translation>Sběrný soubor &apos;%1&apos; již existuje!</translation>
+    </message>
+    <message>
+        <source>Cannot create directory: %1</source>
+        <translation>Nelze vytvořit adresář %1</translation>
+    </message>
+    <message>
+        <source>Cannot copy collection file: %1</source>
+        <translation>Nelze kopírovat sběrný soubor: %1</translation>
+    </message>
+    <message>
+        <source>Unknown filter &apos;%1&apos;!</source>
+        <translation>Neznámý filtr: &apos;%1&apos;!</translation>
+    </message>
+    <message>
+        <source>Cannot register filter %1!</source>
+        <translation>Nelze zaznamenat filtr %1!</translation>
+    </message>
+    <message>
+        <source>Cannot open documentation file %1!</source>
+        <translation>Nelze otevřít soubor dokumentace %1!</translation>
+    </message>
+    <message>
+        <source>Invalid documentation file &apos;%1&apos;!</source>
+        <translation>Neplatný soubor dokumentace &apos;%1&apos;!</translation>
+    </message>
+    <message>
+        <source>The namespace %1 was not registered!</source>
+        <translation>Jmenný prostor %1 nebyl zaznamenán!</translation>
+    </message>
+    <message>
+        <source>Namespace %1 already exists!</source>
+        <translation>Jmenný prostor %1 již existuje!</translation>
+    </message>
+    <message>
+        <source>Cannot register namespace &apos;%1&apos;!</source>
+        <translation>Nelze zaznamenat jmenný prostor &apos;%1&apos;!</translation>
+    </message>
+    <message>
+        <source>Cannot open database &apos;%1&apos; to optimize!</source>
+        <translation>Nelze otevřít databázi %1 k vyladění!</translation>
+    </message>
+</context>
+<context>
+    <name>QHelpDBReader</name>
+    <message>
+        <source>Cannot open database &apos;%1&apos; &apos;%2&apos;: %3</source>
+        <extracomment>The placeholders are: %1 - The name of the database which cannot be opened %2 - The unique id for the connection %3 - The actual error string</extracomment>
+        <translation>Nelze otevřít databázi &apos;%1&apos; &apos;%2&apos;: %3</translation>
+    </message>
+</context>
+<context>
+    <name>QHelpEngineCore</name>
+    <message>
+        <source>Cannot open documentation file %1: %2!</source>
+        <translation>Nelze otevřít soubor dokumentace %1: %2!</translation>
+    </message>
+    <message>
+        <source>The specified namespace does not exist!</source>
+        <translation>Zadaný jmenný prostor neexistuje!</translation>
+    </message>
+</context>
+<context>
     <name>QHelpGenerator</name>
     <message>
         <source>Missing output file name.</source>
@@ -1609,12 +1750,11 @@ qcollectiongenerator &lt;collection-config-file&gt; [volby]
     <message>
         <source>Qt Help Generator version 1.0 (Qt %1)
 </source>
-        <translation>Qt Collection Generator verze 1.0 (Qt %1)
-</translation>
+        <translation>Qt Help Generator verze 1.0 (Qt %1)</translation>
     </message>
     <message>
         <source>Missing Qt help project file.</source>
-        <translation>Chybí projektový soubor s nápovědou Qt.</translation>
+        <translation>Chybí projektový soubor nápovědy Qt.</translation>
     </message>
     <message>
         <source>
@@ -1658,6 +1798,199 @@ qhelpgenerator &lt;help-project-file&gt; [volby]
 </source>
         <translation>Nepodařilo se vytvořit výstupní adresář: %1
 </translation>
+    </message>
+    <message>
+        <source>Invalid help data!</source>
+        <translation>Neplatná data s nápovědou!</translation>
+    </message>
+    <message>
+        <source>No output file name specified!</source>
+        <translation>Nebyl zadán žádný název pro výstupní soubor!</translation>
+    </message>
+    <message>
+        <source>The file %1 cannot be overwritten!</source>
+        <translation>Soubor %1 nelze přepsat!</translation>
+    </message>
+    <message>
+        <source>Building up file structure...</source>
+        <translation>Vytváří se struktura souboru...</translation>
+    </message>
+    <message>
+        <source>Cannot open data base file %1!</source>
+        <translation>Nelze otevřít základní datový soubor %1!</translation>
+    </message>
+    <message>
+        <source>Cannot register namespace %1!</source>
+        <translation>Nelze zaznamenat jmenný prostor %1!</translation>
+    </message>
+    <message>
+        <source>Insert custom filters...</source>
+        <translation>Vložit vlastní filtry...</translation>
+    </message>
+    <message>
+        <source>Insert help data for filter section (%1 of %2)...</source>
+        <translation>Vložit data nápovědy pro sekci filtru (%1 z %2)...</translation>
+    </message>
+    <message>
+        <source>Documentation successfully generated.</source>
+        <translation>Dokumentace byla úspěšně vytvořena.</translation>
+    </message>
+    <message>
+        <source>Some tables already exist!</source>
+        <translation>Některé tabulky již existují!</translation>
+    </message>
+    <message>
+        <source>Cannot create tables!</source>
+        <translation>Nelze vytvořit tabulky!</translation>
+    </message>
+    <message>
+        <source>Cannot register virtual folder!</source>
+        <translation>Nelze zaznamenat virtuální složku!</translation>
+    </message>
+    <message>
+        <source>Insert files...</source>
+        <translation>Vložit soubory...</translation>
+    </message>
+    <message>
+        <source>The file %1 does not exist! Skipping it.</source>
+        <translation>Soubor %1 neexistuje! Přeskakuje se.</translation>
+    </message>
+    <message>
+        <source>Cannot open file %1! Skipping it.</source>
+        <translation>Nelze otevřít soubor %1! Přeskakuje se.</translation>
+    </message>
+    <message>
+        <source>The filter %1 is already registered!</source>
+        <translation>Filtr %1 je již zaznamenán!</translation>
+    </message>
+    <message>
+        <source>Cannot register filter %1!</source>
+        <translation>Nelze zaznamenat filtr %1!</translation>
+    </message>
+    <message>
+        <source>Insert indices...</source>
+        <translation>Vložit rejstříky...</translation>
+    </message>
+    <message>
+        <source>Insert contents...</source>
+        <translation>Vložit obsah...</translation>
+    </message>
+    <message>
+        <source>Cannot insert contents!</source>
+        <translation>Nelze vložit obsah!</translation>
+    </message>
+    <message>
+        <source>Cannot register contents!</source>
+        <translation>Nelze zaznamenat obsah!</translation>
+    </message>
+    <message>
+        <source>File &apos;%1&apos; does not exist.</source>
+        <translation>Soubor &apos;%1&apos; neexistuje.</translation>
+    </message>
+    <message>
+        <source>File &apos;%1&apos; cannot be opened.</source>
+        <translation>Soubor &apos;%1&apos; nelze otevřít.</translation>
+    </message>
+    <message>
+        <source>File &apos;%1&apos; contains an invalid link to file &apos;%2&apos;</source>
+        <translation>Soubor &apos;%1&apos; obsahuje neplatný odkaz na soubor &apos;%2&apos;</translation>
+    </message>
+    <message>
+        <source>Invalid links in HTML files.</source>
+        <translation>Neplatné odkazy v souborech HTML.</translation>
+    </message>
+</context>
+<context>
+    <name>QHelpProject</name>
+    <message>
+        <source>Unknown token.</source>
+        <translation>Neznámý symbol.</translation>
+    </message>
+    <message>
+        <source>Unknown token. Expected &quot;QtHelpProject&quot;!</source>
+        <translation>Neznámý symbol. Očekáván &quot;QtHelpProject&quot;!</translation>
+    </message>
+    <message>
+        <source>Error in line %1: %2</source>
+        <translation>Chyba na řádku %1: %2</translation>
+    </message>
+    <message>
+        <source>Virtual folder has invalid syntax.</source>
+        <translation>Virtuální složka má neplatnou skladbu.</translation>
+    </message>
+    <message>
+        <source>Namespace has invalid syntax.</source>
+        <translation>Jmenný prostor má neplatnou skladbu.</translation>
+    </message>
+    <message>
+        <source>Missing namespace in QtHelpProject.</source>
+        <translation>Chybí jmenný prostor v QtHelpProject.</translation>
+    </message>
+    <message>
+        <source>Missing virtual folder in QtHelpProject</source>
+        <translation>Chybí virtuální složka v QtHelpProject</translation>
+    </message>
+    <message>
+        <source>The input file %1 could not be opened!</source>
+        <translation>Vstupní soubor %1 se nepodařilo otevřít!</translation>
+    </message>
+</context>
+<context>
+    <name>QHelpSearchQueryWidget</name>
+    <message>
+        <source>Search for:</source>
+        <translation>Hledat:</translation>
+    </message>
+    <message>
+        <source>Previous search</source>
+        <translation>Předchozí hledání</translation>
+    </message>
+    <message>
+        <source>Next search</source>
+        <translation>Další hledání</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Hledat</translation>
+    </message>
+    <message>
+        <source>Advanced search</source>
+        <translation>Pokročilé hledání</translation>
+    </message>
+    <message>
+        <source>words &lt;B&gt;similar&lt;/B&gt; to:</source>
+        <translation>slova &lt;B&gt;podobná&lt;/B&gt;:</translation>
+    </message>
+    <message>
+        <source>&lt;B&gt;without&lt;/B&gt; the words:</source>
+        <translation>&lt;B&gt;beze&lt;/B&gt; slov:</translation>
+    </message>
+    <message>
+        <source>with &lt;B&gt;exact phrase&lt;/B&gt;:</source>
+        <translation>se &lt;B&gt;slovním spojením&lt;/B&gt;:</translation>
+    </message>
+    <message>
+        <source>with &lt;B&gt;all&lt;/B&gt; of the words:</source>
+        <translation>s &lt;B&gt;každým&lt;/B&gt; ze slov:</translation>
+    </message>
+    <message>
+        <source>with &lt;B&gt;at least one&lt;/B&gt; of the words:</source>
+        <translation>s &lt;B&gt;alespoň jedním&lt;/B&gt; ze slov:</translation>
+    </message>
+</context>
+<context>
+    <name>QHelpSearchResultWidget</name>
+    <message numerus="yes">
+        <source>%1 - %2 of %n Hits</source>
+        <translation>
+            <numerusform>%1 - %2 z %n nálezu</numerusform>
+            <numerusform>%1 - %2 z %n nálezů</numerusform>
+            <numerusform>%1 - %2 z %n nálezů</numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>0 - 0 of 0 Hits</source>
+        <translation>0 - 0 z 0 nálezů</translation>
     </message>
 </context>
 <context>
