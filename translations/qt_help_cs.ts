@@ -34,10 +34,6 @@
 <context>
     <name>QHelpCollectionHandler</name>
     <message>
-        <source>The collection file is not set up yet!</source>
-        <translation type="obsolete">Soubor se sbírkou ještě není zřízen!</translation>
-    </message>
-    <message>
         <source>The collection file &apos;%1&apos; is not set up yet!</source>
         <translation>Soubor se sbírkou &apos;%1&apos; ještě není zřízen!</translation>
     </message>
@@ -74,20 +70,12 @@
         <translation>Databázi &apos;%1&apos; nelze otevřít pro vyladění!</translation>
     </message>
     <message>
-        <source>The specified collection file already exists!</source>
-        <translation type="obsolete">Zadaný soubor se sbírkou již existuje!</translation>
-    </message>
-    <message>
         <source>Cannot create directory: %1</source>
         <translation>Nelze vytvořit adresář: %1</translation>
     </message>
     <message>
         <source>Cannot copy collection file: %1</source>
         <translation>Nelze kopírovat soubor se sbírkou: %1</translation>
-    </message>
-    <message>
-        <source>Unknown filter!</source>
-        <translation type="obsolete">Neznámý filtr!</translation>
     </message>
     <message>
         <source>Cannot register filter %1!</source>
@@ -98,24 +86,12 @@
         <translation>Nelze otevřít soubor s dokumentací: %1!</translation>
     </message>
     <message>
-        <source>Invalid documentation file!</source>
-        <translation type="obsolete">Neplatný soubor s dokumentací!</translation>
-    </message>
-    <message>
         <source>The namespace %1 was not registered!</source>
         <translation>Jmenný prostor %1 nebyl zapsán!</translation>
     </message>
     <message>
         <source>Namespace %1 already exists!</source>
         <translation>Jmenný prostor %1 již existuje!</translation>
-    </message>
-    <message>
-        <source>Cannot register namespace!</source>
-        <translation type="obsolete">Jmenný prostor nelze zapsat!</translation>
-    </message>
-    <message>
-        <source>Cannot open database to optimize!</source>
-        <translation type="obsolete">Databázi nelze otevřít pro vyladění!</translation>
     </message>
 </context>
 <context>
@@ -135,13 +111,6 @@
     <message>
         <source>The specified namespace does not exist!</source>
         <translation>Zadaný jmenný prostor neexistuje!</translation>
-    </message>
-</context>
-<context>
-    <name>QHelpEngineCorePrivate</name>
-    <message>
-        <source>Cannot open documentation file %1: %2!</source>
-        <translation type="obsolete">Nelze otevřít soubor s dokumentací %1: %2!</translation>
     </message>
 </context>
 <context>
@@ -346,56 +315,6 @@
     <message>
         <source>0 - 0 of 0 Hits</source>
         <translation>0 - 0 z 0 zásahů</translation>
-    </message>
-</context>
-<context>
-    <name>QHelpSearchResultWidgetPrivate</name>
-    <message>
-        <source>%1 - %2 of %3 Hits</source>
-        <translation type="obsolete">%1 - %2 z %3 zásahů</translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <source>Untitled</source>
-        <translation type="obsolete">Bez názvu</translation>
-    </message>
-    <message>
-        <source>Unknown token.</source>
-        <translation type="obsolete">Neznámý symbol.</translation>
-    </message>
-    <message>
-        <source>Unknown token. Expected &quot;QtHelpProject&quot;!</source>
-        <translation type="obsolete">Neznámý symbol. Byl očekáván &quot;QtHelpProject&quot;!</translation>
-    </message>
-    <message>
-        <source>Error in line %1: %2</source>
-        <translation type="obsolete">Chyba na řádku %1: %2</translation>
-    </message>
-    <message>
-        <source>A virtual folder must not contain a &apos;/&apos; character!</source>
-        <translation type="obsolete">Virtuální složka nesmí obsahovat znak &apos;/&apos;!</translation>
-    </message>
-    <message>
-        <source>A namespace must not contain a &apos;/&apos; character!</source>
-        <translation type="obsolete">Jmenný prostor nesmí obsahovat znak &apos;/&apos;!</translation>
-    </message>
-    <message>
-        <source>Missing namespace in QtHelpProject.</source>
-        <translation type="obsolete">Chybějící jmenný prostor QtHelpProject.</translation>
-    </message>
-    <message>
-        <source>Missing virtual folder in QtHelpProject</source>
-        <translation type="obsolete">Chybějící virtuální složka v QtHelpProject.</translation>
-    </message>
-    <message>
-        <source>Missing attribute in keyword at line %1.</source>
-        <translation type="obsolete">Chybějící vlastnost v klíčovém slově na řádku %1.</translation>
-    </message>
-    <message>
-        <source>The input file %1 could not be opened!</source>
-        <translation type="obsolete">Vstupní soubor %1 se nepodařilo otevřít!</translation>
     </message>
 </context>
 </TS>
