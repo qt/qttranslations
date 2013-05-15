@@ -9,6 +9,37 @@
     </message>
 </context>
 <context>
+    <name>MAC_APPLICATION_MENU</name>
+    <message>
+        <source>Services</source>
+        <translation>Dienste</translation>
+    </message>
+    <message>
+        <source>Hide %1</source>
+        <translation>%1 ausblenden</translation>
+    </message>
+    <message>
+        <source>Hide Others</source>
+        <translation>Andere ausblenden</translation>
+    </message>
+    <message>
+        <source>Show All</source>
+        <translation>Alle anzeigen</translation>
+    </message>
+    <message>
+        <source>Preferences...</source>
+        <translation>Einstellungen...</translation>
+    </message>
+    <message>
+        <source>Quit %1</source>
+        <translation>%1 beenden</translation>
+    </message>
+    <message>
+        <source>About %1</source>
+        <translation>Über %1</translation>
+    </message>
+</context>
+<context>
     <name>QAbstractSocket</name>
     <message>
         <source>Socket operation timed out</source>
@@ -118,6 +149,45 @@
     <message>
         <source>Incompatible Qt Library Error</source>
         <translation>Die Qt-Bibliothek ist inkompatibel</translation>
+    </message>
+</context>
+<context>
+    <name>QCocoaMenuItem</name>
+    <message>
+        <source>About Qt</source>
+        <translation>Über Qt</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Über</translation>
+    </message>
+    <message>
+        <source>Config</source>
+        <translation>Konfiguration</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Einstellung</translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation>Optionen</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Einstellung</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Einrichten</translation>
+    </message>
+    <message>
+        <source>Quit</source>
+        <translation>Beenden</translation>
+    </message>
+    <message>
+        <source>Exit</source>
+        <translation>Verlassen</translation>
     </message>
 </context>
 <context>
@@ -525,6 +595,14 @@
         <translation>Die Zieldatei existiert bereits</translation>
     </message>
     <message>
+        <source>Error while renaming.</source>
+        <translation>Fehler beim Umbenennen.</translation>
+    </message>
+    <message>
+        <source>Unable to restore from %1: %2</source>
+        <translation>Die Datei konnte nicht von %1 wieder hergestellt werden: %2</translation>
+    </message>
+    <message>
         <source>Will not rename sequential file using block copy</source>
         <translation>Eine sequentielle Datei wird nicht durch blockweises Kopieren umbenannt</translation>
     </message>
@@ -773,6 +851,18 @@ Möchten Sie die Datei trotzdem löschen?</translation>
     <message>
         <source>Unknown</source>
         <translation>Unbekannt</translation>
+    </message>
+    <message>
+        <source>Alt+Left</source>
+        <translation>Alt+Left</translation>
+    </message>
+    <message>
+        <source>Alt+Right</source>
+        <translation>Alt+Right</translation>
+    </message>
+    <message>
+        <source>Alt+Up</source>
+        <translation>Alt+Up</translation>
     </message>
 </context>
 <context>
@@ -1425,6 +1515,10 @@ Möchten Sie die Datei trotzdem löschen?</translation>
     <message>
         <source>too deeply nested document</source>
         <translation>Das Dokument ist zu tief geschachtelt</translation>
+    </message>
+    <message>
+        <source>too large document</source>
+        <translation>zu großes Dokument</translation>
     </message>
 </context>
 <context>
@@ -2558,10 +2652,6 @@ Soll sie überschrieben werden?</translation>
         <source>Export to PDF</source>
         <translation>PDF exportieren</translation>
     </message>
-    <message>
-        <source>Export to PostScript</source>
-        <translation>PostScript exportieren</translation>
-    </message>
 </context>
 <context>
     <name>QPrintPropertiesWidget</name>
@@ -3181,6 +3271,17 @@ Soll sie überschrieben werden?</translation>
     <message>
         <source>Parameter count mismatch</source>
         <translation>Die Anzahl der Parameter ist falsch</translation>
+    </message>
+</context>
+<context>
+    <name>QSaveFile</name>
+    <message>
+        <source>Existing file %1 is not writable</source>
+        <translation>Die existierende Datei %1 ist nicht schreibbar</translation>
+    </message>
+    <message>
+        <source>Writing canceled by application</source>
+        <translation>Das Schreiben wurde von der Anwendung abgebrochen</translation>
     </message>
 </context>
 <context>
@@ -4190,6 +4291,10 @@ Soll sie überschrieben werden?</translation>
         <translation>Meta</translation>
     </message>
     <message>
+        <source>Num</source>
+        <translation>Zahlenblock</translation>
+    </message>
+    <message>
         <source>+</source>
         <translation>+</translation>
     </message>
@@ -4718,6 +4823,10 @@ Role of an accessible object</extracomment>
     <message>
         <source>Unable to decrypt data: %1</source>
         <translation>Die Daten konnten nicht entschlüsselt werden: %1</translation>
+    </message>
+    <message>
+        <source>The TLS/SSL connection has been closed</source>
+        <translation>Die TLS/SSL-Verbindung wurde geschlossen</translation>
     </message>
     <message>
         <source>Error while reading: %1</source>
