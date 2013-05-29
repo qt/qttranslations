@@ -20,6 +20,122 @@
     </message>
 </context>
 <context>
+    <name>BbCameraAudioEncoderSettingsControl</name>
+    <message>
+        <source>No compression</source>
+        <translation>Без стиснення</translation>
+    </message>
+    <message>
+        <source>AAC compression</source>
+        <translation>Стиснення AAC</translation>
+    </message>
+    <message>
+        <source>PCM uncompressed</source>
+        <translation>Без стиснення PCM</translation>
+    </message>
+</context>
+<context>
+    <name>BbCameraMediaRecorderControl</name>
+    <message>
+        <source>Unable to retrieve mute status</source>
+        <translation>Неможливо отримати стан вимкнення звуку</translation>
+    </message>
+    <message>
+        <source>Unable to retrieve audio input volume</source>
+        <translation>Неможливо отримати гучність вхідного звуку</translation>
+    </message>
+    <message>
+        <source>Unable to set mute status</source>
+        <translation>Неможливо встановити стан вимкнення звуку</translation>
+    </message>
+    <message>
+        <source>Unable to set audio input volume</source>
+        <translation>Неможливо встановити гучність вхідного звуку</translation>
+    </message>
+</context>
+<context>
+    <name>BbCameraSession</name>
+    <message>
+        <source>Camera provides image in unsupported format</source>
+        <translation>Камера надає зображення в форматі, що не підтримується</translation>
+    </message>
+    <message>
+        <source>Could not load JPEG data from frame</source>
+        <translation>Не вдалось завантажити дані JPEG з кадру</translation>
+    </message>
+    <message>
+        <source>Camera not ready</source>
+        <translation>Камера не готова</translation>
+    </message>
+    <message>
+        <source>Unable to apply video settings</source>
+        <translation>Неможливо застосувати налаштування відео</translation>
+    </message>
+    <message>
+        <source>Could not open destination file:
+%1</source>
+        <translation>Не вдалось відкрити файл-отримувач:
+%1</translation>
+    </message>
+    <message>
+        <source>Unable to open camera</source>
+        <translation>Неможливо відкрити камеру</translation>
+    </message>
+    <message>
+        <source>Unable to retrieve native camera orientation</source>
+        <translation>Неможливо отримати рідну орієнтацію камери</translation>
+    </message>
+    <message>
+        <source>Unable to close camera</source>
+        <translation>Неможливо закрити камеру</translation>
+    </message>
+    <message>
+        <source>Unable to start video recording</source>
+        <translation>Неможливо розпочати запис відео</translation>
+    </message>
+    <message>
+        <source>Unable to stop video recording</source>
+        <translation>Неможливо закінчити запис відео</translation>
+    </message>
+</context>
+<context>
+    <name>BbCameraVideoEncoderSettingsControl</name>
+    <message>
+        <source>No compression</source>
+        <translation>Без стиснення</translation>
+    </message>
+    <message>
+        <source>AVC1 compression</source>
+        <translation>Стиснення AVC1</translation>
+    </message>
+    <message>
+        <source>H264 compression</source>
+        <translation>Стиснення H264</translation>
+    </message>
+</context>
+<context>
+    <name>BbImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation>Зображення JPEG</translation>
+    </message>
+</context>
+<context>
+    <name>BbVideoDeviceSelectorControl</name>
+    <message>
+        <source>Front Camera</source>
+        <translation>Передня камера</translation>
+    </message>
+    <message>
+        <source>Rear Camera</source>
+        <translation>Задня камера</translation>
+    </message>
+    <message>
+        <source>Desktop Camera</source>
+        <translation>Камера стільниці</translation>
+    </message>
+</context>
+<context>
     <name>CameraBinImageCapture</name>
     <message>
         <source>Camera not ready</source>
@@ -194,7 +310,7 @@
     <name>QCameraPrivate</name>
     <message>
         <source>The camera service is missing</source>
-        <translation>Сервіс камери відсутній</translation>
+        <translation type="obsolete">Сервіс камери відсутній</translation>
     </message>
 </context>
 <context>
