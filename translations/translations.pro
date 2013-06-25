@@ -2,6 +2,8 @@ TEMPLATE = aux
 
 TRANSLATIONS = $$files(*.ts)
 
+load(qt_build_paths)
+
 qtPrepareTool(LRELEASE, lrelease)
 qtPrepareTool(LCONVERT, lconvert)
 qtPrepareTool(LUPDATE, lupdate)
@@ -92,7 +94,7 @@ ts.commands = \
 QMAKE_EXTRA_TARGETS += $$unique(TS_TARGETS) ts commit-ts check-ts
 
 updateqm.input = TRANSLATIONS
-updateqm.output = ${QMAKE_FILE_BASE}.qm
+updateqm.output = $$MODULE_BASE_OUTDIR/translations/${QMAKE_FILE_BASE}.qm
 updateqm.commands = $$LRELEASE ${QMAKE_FILE_IN} -qm ${QMAKE_FILE_OUT}
 silent:updateqm.commands = @echo lrelease ${QMAKE_FILE_IN} && $$updateqm.commands
 updateqm.name = LRELEASE ${QMAKE_FILE_IN}
@@ -102,6 +104,6 @@ QMAKE_EXTRA_COMPILERS += updateqm
 translations.path = $$[QT_INSTALL_TRANSLATIONS]
 translations.files = $$TRANSLATIONS
 translations.files ~= s,\\.ts$,.qm,g
-translations.files ~= s,^,$$OUT_PWD/,g
+translations.files ~= s,^,$$MODULE_BASE_OUTDIR/translations/,g
 translations.CONFIG += no_check_exist
 INSTALLS += translations

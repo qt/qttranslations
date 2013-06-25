@@ -378,6 +378,10 @@
 <context>
     <name>QQmlComponent</name>
     <message>
+        <source>Invalid empty URL</source>
+        <translation>Неправильний порожній URL</translation>
+    </message>
+    <message>
         <source>createObject: value is not an object</source>
         <translation>createObject: значення не є об’єктом</translation>
     </message>
@@ -390,7 +394,7 @@
     <name>QQmlComponentPrivate</name>
     <message>
         <source>Invalid empty URL</source>
-        <translation>Неправильний порожній URL</translation>
+        <translation type="obsolete">Неправильний порожній URL</translation>
     </message>
 </context>
 <context>
@@ -410,6 +414,120 @@
     <message>
         <source>Connections: script expected</source>
         <translation>З’єднання: очікувався скрипт</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlDelegateModel</name>
+    <message>
+        <source>The delegate of a DelegateModel cannot be changed within onUpdated.</source>
+        <translation>Неможливо змінити делегат DelegateModel всередині onUpdated.</translation>
+    </message>
+    <message>
+        <source>The maximum number of supported DelegateModelGroups is 8</source>
+        <translation>Підтримується максимум 8 DelegateModelGroups</translation>
+    </message>
+    <message>
+        <source>The group of a DelegateModel cannot be changed within onChanged</source>
+        <translation>Неможливо змінити групу DelegateModel всередині onChanged</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlDelegateModelGroup</name>
+    <message>
+        <source>Group names must start with a lower case letter</source>
+        <translation>Назви груп повинні почиантись з малої літери</translation>
+    </message>
+    <message>
+        <source>get: index out of range</source>
+        <translation>get: індекс поза межами діапазону</translation>
+    </message>
+    <message>
+        <source>insert: index out of range</source>
+        <translation>insert: індекс поза межами діапазону</translation>
+    </message>
+    <message>
+        <source>create: index out of range</source>
+        <translation>create: індекс поза межами діапазону</translation>
+    </message>
+    <message>
+        <source>resolve: from index out of range</source>
+        <translation>resolve: індекс from поза межами діапазону</translation>
+    </message>
+    <message>
+        <source>resolve: from index invalid</source>
+        <translation>resolve: неправильний індекс from</translation>
+    </message>
+    <message>
+        <source>resolve: to index out of range</source>
+        <translation>resolve: індекс to поза межами діапазону</translation>
+    </message>
+    <message>
+        <source>resolve: to index invalid</source>
+        <translation>resolve: неправильний індекс to</translation>
+    </message>
+    <message>
+        <source>resolve: from is not an unresolved item</source>
+        <translation>resolve: from не є нерозв&apos;язаним елементом</translation>
+    </message>
+    <message>
+        <source>resolve: to is not a model item</source>
+        <translation>resolve: to не є елементом моделі</translation>
+    </message>
+    <message>
+        <source>remove: invalid index</source>
+        <translation>remove: неправильний індекс</translation>
+    </message>
+    <message>
+        <source>remove: index out of range</source>
+        <translation>remove: індекс поза межами діапазону</translation>
+    </message>
+    <message>
+        <source>remove: invalid count</source>
+        <translation>remove: неправильна кількість</translation>
+    </message>
+    <message>
+        <source>addGroups: index out of range</source>
+        <translation>addGroups: індекс поза межами діапазону</translation>
+    </message>
+    <message>
+        <source>addGroups: invalid count</source>
+        <translation>addGroups: неправильна кількість</translation>
+    </message>
+    <message>
+        <source>removeGroups: index out of range</source>
+        <translation>removeGroups: індекс поза межами діапазону</translation>
+    </message>
+    <message>
+        <source>removeGroups: invalid count</source>
+        <translation>removeGroups: неправильна кількість</translation>
+    </message>
+    <message>
+        <source>setGroups: index out of range</source>
+        <translation>setGroups: індекс поза межами діапазону</translation>
+    </message>
+    <message>
+        <source>setGroups: invalid count</source>
+        <translation>setGroups: неправильна кількість</translation>
+    </message>
+    <message>
+        <source>move: invalid from index</source>
+        <translation>move: неправильний індекс from</translation>
+    </message>
+    <message>
+        <source>move: invalid to index</source>
+        <translation>move: неправильний індекс</translation>
+    </message>
+    <message>
+        <source>move: invalid count</source>
+        <translation>move: неправильна кількість</translation>
+    </message>
+    <message>
+        <source>move: from index out of range</source>
+        <translation>move: індекс from поза межами діапазону</translation>
+    </message>
+    <message>
+        <source>move: to index out of range</source>
+        <translation>move: індекс to поза межами діапазону</translation>
     </message>
 </context>
 <context>
@@ -486,12 +604,32 @@
         <translation>не є типом</translation>
     </message>
     <message>
+        <source>plugin cannot be loaded for module &quot;%1&quot;: %2</source>
+        <translation>неможливо завантажити додаток для модуля &quot;%1&quot;: %2</translation>
+    </message>
+    <message>
+        <source>module &quot;%1&quot; plugin &quot;%2&quot; not found</source>
+        <translation>не знайдено додаток &quot;%2&quot; модуля &quot;%1&quot;</translation>
+    </message>
+    <message>
         <source>&quot;%1&quot; version %2.%3 is defined more than once in module &quot;%4&quot;</source>
         <translation>&quot;%1&quot; версії %2.%3 визначено більше одного разу в модулі &quot;%4&quot;</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; version %2.%3 is not installed</source>
         <translation>модуль &quot;%1&quot; версії %2.%3 не встановлено</translation>
+    </message>
+    <message>
+        <source>module &quot;%1&quot; is not installed</source>
+        <translation>модуль &quot;%1&quot; не встановлено</translation>
+    </message>
+    <message>
+        <source>&quot;%1&quot;: no such directory</source>
+        <translation>&quot;%1&quot;: тека не існує</translation>
+    </message>
+    <message>
+        <source>import &quot;%1&quot; has no qmldir and no namespace</source>
+        <translation>import &quot;%1&quot; не має ні qmldir, ні namespace</translation>
     </message>
     <message>
         <source>File name case mismatch for &quot;%1&quot;</source>
@@ -514,27 +652,98 @@
     <name>QQmlImportsPrivate</name>
     <message>
         <source>plugin cannot be loaded for module &quot;%1&quot;: %2</source>
-        <translation>неможливо завантажити додаток для модуля &quot;%1&quot;: %2</translation>
+        <translation type="obsolete">неможливо завантажити додаток для модуля &quot;%1&quot;: %2</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; plugin &quot;%2&quot; not found</source>
-        <translation>не знайдено додаток &quot;%2&quot; модуля &quot;%1&quot;</translation>
+        <translation type="obsolete">не знайдено додаток &quot;%2&quot; модуля &quot;%1&quot;</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; version %2.%3 is not installed</source>
-        <translation>модуль &quot;%1&quot; версії %2.%3 не встановлено</translation>
+        <translation type="obsolete">модуль &quot;%1&quot; версії %2.%3 не встановлено</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; is not installed</source>
-        <translation>модуль &quot;%1&quot; не встановлено</translation>
+        <translation type="obsolete">модуль &quot;%1&quot; не встановлено</translation>
     </message>
     <message>
         <source>&quot;%1&quot;: no such directory</source>
-        <translation>&quot;%1&quot;: тека не існує</translation>
+        <translation type="obsolete">&quot;%1&quot;: тека не існує</translation>
     </message>
     <message>
         <source>import &quot;%1&quot; has no qmldir and no namespace</source>
-        <translation>import &quot;%1&quot; не має ні qmldir, ні namespace</translation>
+        <translation type="obsolete">import &quot;%1&quot; не має ні qmldir, ні namespace</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlListModel</name>
+    <message>
+        <source>unable to enable dynamic roles as this model is not empty!</source>
+        <translation>неможливо увімкнути динамічні ролі, оскільки ця модель не порожня!</translation>
+    </message>
+    <message>
+        <source>unable to enable static roles as this model is not empty!</source>
+        <translation>неможливо увімкнути статичні ролі, оскільки ця модель не порожня!</translation>
+    </message>
+    <message>
+        <source>dynamic role setting must be made from the main thread, before any worker scripts are created</source>
+        <translation>налаштування динамічної ролі має здійснюватись з головної нитки, до створення будь-яких скриптів-виконавців</translation>
+    </message>
+    <message>
+        <source>remove: indices [%1 - %2] out of range [0 - %3]</source>
+        <translation>remove: індекси [%1 - %2] поза межами діапазону [0 - %3]</translation>
+    </message>
+    <message>
+        <source>remove: incorrect number of arguments</source>
+        <translation>remove: неправильна кількіст аргументів</translation>
+    </message>
+    <message>
+        <source>insert: index %1 out of range</source>
+        <translation>insert: індекс %1 поза межами діапазону</translation>
+    </message>
+    <message>
+        <source>insert: value is not an object</source>
+        <translation>insert: значення не є об’єктом</translation>
+    </message>
+    <message>
+        <source>move: out of range</source>
+        <translation>move: поза межами діапазону</translation>
+    </message>
+    <message>
+        <source>append: value is not an object</source>
+        <translation>append: значення не є об’єктом</translation>
+    </message>
+    <message>
+        <source>set: value is not an object</source>
+        <translation>set: значення не є об’єктом</translation>
+    </message>
+    <message>
+        <source>set: index %1 out of range</source>
+        <translation>set: індекс %1 поза межами діапазону</translation>
+    </message>
+    <message>
+        <source>ListElement: cannot contain nested elements</source>
+        <translation>ListElement: не може містити вкладені елементи</translation>
+    </message>
+    <message>
+        <source>ListElement: cannot use reserved &quot;id&quot; property</source>
+        <translation>ListElement: не може використовувати зарезервовану властивість &quot;id&quot;</translation>
+    </message>
+    <message>
+        <source>ListElement: improperly specified %1</source>
+        <translation>ListModel: неправильно вказано &apos;%1&apos;</translation>
+    </message>
+    <message>
+        <source>ListElement: improperly specified QT_TRANSLATE_NOOP</source>
+        <translation>ListModel: неправильно вказано QT_TRANSLATE_NOOP</translation>
+    </message>
+    <message>
+        <source>ListElement: cannot use script for property value</source>
+        <translation>ListElement: неможливо використовувати скрипт в якості значення властивості</translation>
+    </message>
+    <message>
+        <source>ListModel: undefined property &apos;%1&apos;</source>
+        <translation>ListModel: невизначена властивість &apos;%1&apos;</translation>
     </message>
 </context>
 <context>
@@ -550,6 +759,26 @@
     <message>
         <source>Illegal unicode escape sequence</source>
         <translation>Неприпустима керуюча послідовність Unicode</translation>
+    </message>
+    <message>
+        <source>Stray newline in string literal</source>
+        <translation>Зайвий символ нового рядка в рядковому літералі</translation>
+    </message>
+    <message>
+        <source>Illegal hexadecimal escape sequence</source>
+        <translation>Неприпустима шістнадцяткова керуюча послідовність</translation>
+    </message>
+    <message>
+        <source>Octal escape sequences are not allowed</source>
+        <translation>Вісімкові керуючі послідовност не дозволяються</translation>
+    </message>
+    <message>
+        <source>Decimal numbers can&apos;t start with &apos;0&apos;</source>
+        <translation>Десяткові числа не можуть починатись з &apos;0&apos;</translation>
+    </message>
+    <message>
+        <source>At least one hexadecimal digit is required after &apos;0%1&apos;</source>
+        <translation>Необхідна хоча б одна шістнадцяткова цифра після &apos;0%1&apos;</translation>
     </message>
     <message>
         <source>Invalid regular expression flag &apos;%0&apos;</source>
@@ -657,6 +886,17 @@
     </message>
 </context>
 <context>
+    <name>QQmlPartsModel</name>
+    <message>
+        <source>The group of a DelegateModel cannot be changed within onChanged</source>
+        <translation>Неможливо змінити групу DelegateModel всередині onChanged</translation>
+    </message>
+    <message>
+        <source>Delegate component must be Package type.</source>
+        <translation>Компонент делегату має бути типу Package.</translation>
+    </message>
+</context>
+<context>
     <name>QQmlRewrite</name>
     <message>
         <source>Signal uses unnamed parameter followed by named parameter.</source>
@@ -671,7 +911,7 @@
     <name>QQmlScriptBlob</name>
     <message>
         <source>Script %1 unavailable</source>
-        <translation>Скрипт %1 недоступний</translation>
+        <translation type="obsolete">Скрипт %1 недоступний</translation>
     </message>
 </context>
 <context>
@@ -868,6 +1108,17 @@
     </message>
 </context>
 <context>
+    <name>QQuickItemView</name>
+    <message>
+        <source>ItemView is an abstract base class</source>
+        <translation>ItemView - це абстрактний клас</translation>
+    </message>
+    <message>
+        <source>Delegate must be of Item type</source>
+        <translation>Делегат має бути типу Item</translation>
+    </message>
+</context>
+<context>
     <name>QQuickKeyNavigationAttached</name>
     <message>
         <source>KeyNavigation is only available via attached properties</source>
@@ -896,78 +1147,85 @@
     <name>QQuickListModel</name>
     <message>
         <source>unable to enable dynamic roles as this model is not empty!</source>
-        <translation>неможливо увімкнути динамічні ролі, оскільки ця модель не порожня!</translation>
+        <translation type="obsolete">неможливо увімкнути динамічні ролі, оскільки ця модель не порожня!</translation>
     </message>
     <message>
         <source>unable to enable static roles as this model is not empty!</source>
-        <translation>неможливо увімкнути статичні ролі, оскільки ця модель не порожня!</translation>
+        <translation type="obsolete">неможливо увімкнути статичні ролі, оскільки ця модель не порожня!</translation>
     </message>
     <message>
         <source>dynamic role setting must be made from the main thread, before any worker scripts are created</source>
-        <translation>налаштування динамічної ролі має здійснюватись з головної нитки, до створення будь-яких скриптів-виконавців</translation>
+        <translation type="obsolete">налаштування динамічної ролі має здійснюватись з головної нитки, до створення будь-яких скриптів-виконавців</translation>
     </message>
     <message>
         <source>remove: indices [%1 - %2] out of range [0 - %3]</source>
-        <translation>remove: індекси [%1 - %2] поза межами діапазону [0 - %3]</translation>
+        <translation type="obsolete">remove: індекси [%1 - %2] поза межами діапазону [0 - %3]</translation>
     </message>
     <message>
         <source>remove: incorrect number of arguments</source>
-        <translation>remove: неправильна кількіст аргументів</translation>
+        <translation type="obsolete">remove: неправильна кількіст аргументів</translation>
     </message>
     <message>
         <source>insert: index %1 out of range</source>
-        <translation>insert: індекс %1 поза межами діапазону</translation>
+        <translation type="obsolete">insert: індекс %1 поза межами діапазону</translation>
     </message>
     <message>
         <source>insert: value is not an object</source>
-        <translation>insert: значення не є об’єктом</translation>
+        <translation type="obsolete">insert: значення не є об’єктом</translation>
     </message>
     <message>
         <source>move: out of range</source>
-        <translation>move: поза межами діапазону</translation>
+        <translation type="obsolete">move: поза межами діапазону</translation>
     </message>
     <message>
         <source>append: value is not an object</source>
-        <translation>append: значення не є об’єктом</translation>
+        <translation type="obsolete">append: значення не є об’єктом</translation>
     </message>
     <message>
         <source>set: value is not an object</source>
-        <translation>set: значення не є об’єктом</translation>
+        <translation type="obsolete">set: значення не є об’єктом</translation>
     </message>
     <message>
         <source>set: index %1 out of range</source>
-        <translation>set: індекс %1 поза межами діапазону</translation>
+        <translation type="obsolete">set: індекс %1 поза межами діапазону</translation>
     </message>
     <message>
         <source>ListElement: cannot contain nested elements</source>
-        <translation>ListElement: не може містити вкладені елементи</translation>
+        <translation type="obsolete">ListElement: не може містити вкладені елементи</translation>
     </message>
     <message>
         <source>ListElement: cannot use reserved &quot;id&quot; property</source>
-        <translation>ListElement: не може використовувати зарезервовану властивість &quot;id&quot;</translation>
+        <translation type="obsolete">ListElement: не може використовувати зарезервовану властивість &quot;id&quot;</translation>
     </message>
     <message>
         <source>ListElement: improperly specified %1</source>
-        <translation>ListModel: неправильно вказано &apos;%1&apos;</translation>
+        <translation type="obsolete">ListModel: неправильно вказано &apos;%1&apos;</translation>
     </message>
     <message>
         <source>ListElement: improperly specified QT_TRANSLATE_NOOP</source>
-        <translation>ListModel: неправильно вказано QT_TRANSLATE_NOOP</translation>
+        <translation type="obsolete">ListModel: неправильно вказано QT_TRANSLATE_NOOP</translation>
     </message>
     <message>
         <source>ListElement: cannot use script for property value</source>
-        <translation>ListElement: неможливо використовувати скрипт в якості значення властивості</translation>
+        <translation type="obsolete">ListElement: неможливо використовувати скрипт в якості значення властивості</translation>
     </message>
     <message>
         <source>ListModel: undefined property &apos;%1&apos;</source>
-        <translation>ListModel: невизначена властивість &apos;%1&apos;</translation>
+        <translation type="obsolete">ListModel: невизначена властивість &apos;%1&apos;</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickLoader</name>
+    <message>
+        <source>setSource: value is not an object</source>
+        <translation>setSource: значення не є об’єктом</translation>
     </message>
 </context>
 <context>
     <name>QQuickLoaderPrivate</name>
     <message>
         <source>setSource: value is not an object</source>
-        <translation>setSource: значення не є об’єктом</translation>
+        <translation type="obsolete">setSource: значення не є об’єктом</translation>
     </message>
 </context>
 <context>
@@ -1012,6 +1270,13 @@
     <message>
         <source>Cannot set a duration of &lt; 0</source>
         <translation>Не можу встановити тривалість &lt; 0</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickPathView</name>
+    <message>
+        <source>Delegate must be of Item type</source>
+        <translation>Делегат має бути типу Item</translation>
     </message>
 </context>
 <context>
@@ -1071,6 +1336,13 @@
     </message>
 </context>
 <context>
+    <name>QQuickRepeater</name>
+    <message>
+        <source>Delegate must be of Item type</source>
+        <translation>Делегат має бути типу Item</translation>
+    </message>
+</context>
+<context>
     <name>QQuickShaderEffectMesh</name>
     <message>
         <source>Cannot create instance of abstract class ShaderEffectMesh.</source>
@@ -1099,129 +1371,129 @@
     <name>QQuickVisualDataGroup</name>
     <message>
         <source>Group names must start with a lower case letter</source>
-        <translation>Назви груп повинні почиантись з малої літери</translation>
+        <translation type="obsolete">Назви груп повинні почиантись з малої літери</translation>
     </message>
     <message>
         <source>get: index out of range</source>
-        <translation>get: індекс поза межами діапазону</translation>
+        <translation type="obsolete">get: індекс поза межами діапазону</translation>
     </message>
     <message>
         <source>insert: index out of range</source>
-        <translation>insert: індекс поза межами діапазону</translation>
+        <translation type="obsolete">insert: індекс поза межами діапазону</translation>
     </message>
     <message>
         <source>create: index out of range</source>
-        <translation>create: індекс поза межами діапазону</translation>
+        <translation type="obsolete">create: індекс поза межами діапазону</translation>
     </message>
     <message>
         <source>resolve: from index out of range</source>
-        <translation>resolve: індекс from поза межами діапазону</translation>
+        <translation type="obsolete">resolve: індекс from поза межами діапазону</translation>
     </message>
     <message>
         <source>resolve: from index invalid</source>
-        <translation>resolve: неправильний індекс from</translation>
+        <translation type="obsolete">resolve: неправильний індекс from</translation>
     </message>
     <message>
         <source>resolve: to index out of range</source>
-        <translation>resolve: індекс to поза межами діапазону</translation>
+        <translation type="obsolete">resolve: індекс to поза межами діапазону</translation>
     </message>
     <message>
         <source>resolve: to index invalid</source>
-        <translation>resolve: неправильний індекс to</translation>
+        <translation type="obsolete">resolve: неправильний індекс to</translation>
     </message>
     <message>
         <source>resolve: from is not an unresolved item</source>
-        <translation>resolve: from не є нерозв&apos;язаним елементом</translation>
+        <translation type="obsolete">resolve: from не є нерозв&apos;язаним елементом</translation>
     </message>
     <message>
         <source>resolve: to is not a model item</source>
-        <translation>resolve: to не є елементом моделі</translation>
+        <translation type="obsolete">resolve: to не є елементом моделі</translation>
     </message>
     <message>
         <source>remove: invalid index</source>
-        <translation>remove: неправильний індекс</translation>
+        <translation type="obsolete">remove: неправильний індекс</translation>
     </message>
     <message>
         <source>remove: index out of range</source>
-        <translation>remove: індекс поза межами діапазону</translation>
+        <translation type="obsolete">remove: індекс поза межами діапазону</translation>
     </message>
     <message>
         <source>remove: invalid count</source>
-        <translation>remove: неправильна кількість</translation>
+        <translation type="obsolete">remove: неправильна кількість</translation>
     </message>
     <message>
         <source>addGroups: index out of range</source>
-        <translation>addGroups: індекс поза межами діапазону</translation>
+        <translation type="obsolete">addGroups: індекс поза межами діапазону</translation>
     </message>
     <message>
         <source>addGroups: invalid count</source>
-        <translation>addGroups: неправильна кількість</translation>
+        <translation type="obsolete">addGroups: неправильна кількість</translation>
     </message>
     <message>
         <source>removeGroups: index out of range</source>
-        <translation>removeGroups: індекс поза межами діапазону</translation>
+        <translation type="obsolete">removeGroups: індекс поза межами діапазону</translation>
     </message>
     <message>
         <source>removeGroups: invalid count</source>
-        <translation>removeGroups: неправильна кількість</translation>
+        <translation type="obsolete">removeGroups: неправильна кількість</translation>
     </message>
     <message>
         <source>setGroups: index out of range</source>
-        <translation>setGroups: індекс поза межами діапазону</translation>
+        <translation type="obsolete">setGroups: індекс поза межами діапазону</translation>
     </message>
     <message>
         <source>setGroups: invalid count</source>
-        <translation>setGroups: неправильна кількість</translation>
+        <translation type="obsolete">setGroups: неправильна кількість</translation>
     </message>
     <message>
         <source>move: invalid from index</source>
-        <translation>move: неправильний індекс from</translation>
+        <translation type="obsolete">move: неправильний індекс from</translation>
     </message>
     <message>
         <source>move: invalid to index</source>
-        <translation>move: неправильний індекс</translation>
+        <translation type="obsolete">move: неправильний індекс</translation>
     </message>
     <message>
         <source>move: invalid count</source>
-        <translation>move: неправильна кількість</translation>
+        <translation type="obsolete">move: неправильна кількість</translation>
     </message>
     <message>
         <source>move: from index out of range</source>
-        <translation>move: індекс from поза межами діапазону</translation>
+        <translation type="obsolete">move: індекс from поза межами діапазону</translation>
     </message>
     <message>
         <source>move: to index out of range</source>
-        <translation>move: індекс to поза межами діапазону</translation>
+        <translation type="obsolete">move: індекс to поза межами діапазону</translation>
     </message>
 </context>
 <context>
     <name>QQuickVisualDataModel</name>
     <message>
         <source>The delegate of a VisualDataModel cannot be changed within onUpdated.</source>
-        <translation>Неможливо змінити делегат VisualDataModel всередині onUpdated.</translation>
+        <translation type="obsolete">Неможливо змінити делегат VisualDataModel всередині onUpdated.</translation>
     </message>
     <message>
         <source>The maximum number of supported VisualDataGroups is 8</source>
-        <translation>Підтримується максимум 8 VisualDataGroup</translation>
+        <translation type="obsolete">Підтримується максимум 8 VisualDataGroup</translation>
     </message>
     <message>
         <source>The group of a VisualDataModel cannot be changed within onChanged</source>
-        <translation>Неможливо змінити групу VisualDataModel всередині onChanged</translation>
+        <translation type="obsolete">Неможливо змінити групу VisualDataModel всередині onChanged</translation>
     </message>
     <message>
         <source>Delegate component must be Item type.</source>
-        <translation>Компонент делегату має бути типу Item.</translation>
+        <translation type="obsolete">Компонент делегату має бути типу Item.</translation>
     </message>
 </context>
 <context>
     <name>QQuickVisualPartsModel</name>
     <message>
         <source>The group of a VisualDataModel cannot be changed within onChanged</source>
-        <translation>Неможливо змінити групу VisualDataModel всередині onChanged</translation>
+        <translation type="obsolete">Неможливо змінити групу VisualDataModel всередині onChanged</translation>
     </message>
     <message>
         <source>Delegate component must be Package type.</source>
-        <translation>Компонент делегату має бути типу Package.</translation>
+        <translation type="obsolete">Компонент делегату має бути типу Package.</translation>
     </message>
 </context>
 <context>
