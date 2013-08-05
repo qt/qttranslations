@@ -410,6 +410,120 @@
     </message>
 </context>
 <context>
+    <name>QQmlDelegateModel</name>
+    <message>
+        <source>The delegate of a DelegateModel cannot be changed within onUpdated.</source>
+        <translation>Der Delegate eines DelegateModel kann nicht in onUpdated geändert werden.</translation>
+    </message>
+    <message>
+        <source>The maximum number of supported DelegateModelGroups is 8</source>
+        <translation>Die Maximalzahl der unterstützten DelegateModelGroups ist 8</translation>
+    </message>
+    <message>
+        <source>The group of a DelegateModel cannot be changed within onChanged</source>
+        <translation>Die Gruppe eines DelegateModel kann nicht in onChanged geändert werden</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlDelegateModelGroup</name>
+    <message>
+        <source>Group names must start with a lower case letter</source>
+        <translation>Gruppennamen müssen mit einem Kleinbuchstaben beginnen</translation>
+    </message>
+    <message>
+        <source>get: index out of range</source>
+        <translation>get: Der Index ist außerhalb des gültigen Bereichs</translation>
+    </message>
+    <message>
+        <source>insert: index out of range</source>
+        <translation>insert: Der Index ist außerhalb des gültigen Bereichs</translation>
+    </message>
+    <message>
+        <source>create: index out of range</source>
+        <translation>create: Der Index ist außerhalb des gültigen Bereichs</translation>
+    </message>
+    <message>
+        <source>resolve: from index out of range</source>
+        <translation>resolve: Der Index &apos;from&apos; ist außerhalb des gültigen Bereichs</translation>
+    </message>
+    <message>
+        <source>resolve: from index invalid</source>
+        <translation>resolve: Der Index &apos;from&apos; ist ungültig</translation>
+    </message>
+    <message>
+        <source>resolve: to index out of range</source>
+        <translation>resolve: Der Index &apos;to&apos; ist außerhalb des gültigen Bereichs</translation>
+    </message>
+    <message>
+        <source>resolve: to index invalid</source>
+        <translation>resolve: Der Index &apos;to&apos; ist ungültig</translation>
+    </message>
+    <message>
+        <source>resolve: from is not an unresolved item</source>
+        <translation>resolve: Der Index &apos;from&apos; ist kein nicht aufgelöstes Element</translation>
+    </message>
+    <message>
+        <source>resolve: to is not a model item</source>
+        <translation>resolve: &apos;to&apos; ist kein Modellelement</translation>
+    </message>
+    <message>
+        <source>remove: invalid index</source>
+        <translation>remove: ungültiger Index</translation>
+    </message>
+    <message>
+        <source>remove: index out of range</source>
+        <translation>remove: Der Index ist außerhalb des gültigen Bereichs</translation>
+    </message>
+    <message>
+        <source>remove: invalid count</source>
+        <translation>remove: ungültige Anzahl</translation>
+    </message>
+    <message>
+        <source>addGroups: index out of range</source>
+        <translation>addGroups: Der Index ist außerhalb des gültigen Bereichs</translation>
+    </message>
+    <message>
+        <source>addGroups: invalid count</source>
+        <translation>addGroups: ungültige Anzahl</translation>
+    </message>
+    <message>
+        <source>removeGroups: index out of range</source>
+        <translation>removeGroups: Der Index ist außerhalb des gültigen Bereichs</translation>
+    </message>
+    <message>
+        <source>removeGroups: invalid count</source>
+        <translation>removeGroups: ungültige Anzahl</translation>
+    </message>
+    <message>
+        <source>setGroups: index out of range</source>
+        <translation>setGroups: Der Index ist außerhalb des gültigen Bereichs</translation>
+    </message>
+    <message>
+        <source>setGroups: invalid count</source>
+        <translation>setGroups: ungültige Anzahl</translation>
+    </message>
+    <message>
+        <source>move: invalid from index</source>
+        <translation>move: ungültiger Index &apos;from&apos;</translation>
+    </message>
+    <message>
+        <source>move: invalid to index</source>
+        <translation>move: ungültiger Index &apos;to&apos;</translation>
+    </message>
+    <message>
+        <source>move: invalid count</source>
+        <translation>move: ungültige Anzahl</translation>
+    </message>
+    <message>
+        <source>move: from index out of range</source>
+        <translation>move: Der Index &apos;from&apos; ist außerhalb des gültigen Bereichs</translation>
+    </message>
+    <message>
+        <source>move: to index out of range</source>
+        <translation>move: Der Index &apos;to&apos; ist außerhalb des gültigen Bereichs</translation>
+    </message>
+</context>
+<context>
     <name>QQmlEngine</name>
     <message>
         <source>Locale cannot be instantiated.  Use Qt.locale()</source>
@@ -528,6 +642,77 @@
     </message>
 </context>
 <context>
+    <name>QQmlListModel</name>
+    <message>
+        <source>unable to enable dynamic roles as this model is not empty!</source>
+        <translation>Dynamische Rollen können nicht aktiviert werden, da das Modell nicht leer ist!</translation>
+    </message>
+    <message>
+        <source>unable to enable static roles as this model is not empty!</source>
+        <translation>Statische Rollen können nicht aktiviert werden, da das Modell nicht leer ist!</translation>
+    </message>
+    <message>
+        <source>dynamic role setting must be made from the main thread, before any worker scripts are created</source>
+        <translation>Einstellung bezüglich dynamischer Rollen muss aus dem Haupt-Thread vorgenommen werden, bevor Arbeitsskripte erstellt werden</translation>
+    </message>
+    <message>
+        <source>remove: indices [%1 - %2] out of range [0 - %3]</source>
+        <translation>remove: Die Indizes [%1 - %2] sind außerhalb des Bereichs [0 - %3]</translation>
+    </message>
+    <message>
+        <source>remove: incorrect number of arguments</source>
+        <translation>remove: Ungültige Parameterzahl</translation>
+    </message>
+    <message>
+        <source>insert: index %1 out of range</source>
+        <translation>insert: Der Index %1 ist außerhalb des gültigen Bereichs</translation>
+    </message>
+    <message>
+        <source>insert: value is not an object</source>
+        <translation>insert: Der Wert ist kein Objekt</translation>
+    </message>
+    <message>
+        <source>move: out of range</source>
+        <translation>move: Außerhalb des gültigen Bereichs</translation>
+    </message>
+    <message>
+        <source>append: value is not an object</source>
+        <translation>append: Der Wert ist kein Objekt</translation>
+    </message>
+    <message>
+        <source>set: value is not an object</source>
+        <translation>set: Der Wert ist kein Objekt</translation>
+    </message>
+    <message>
+        <source>set: index %1 out of range</source>
+        <translation>set: Der Index %1 ist außerhalb des gültigen Bereichs</translation>
+    </message>
+    <message>
+        <source>ListElement: cannot contain nested elements</source>
+        <translation>ListElement kann keine geschachtelten Elemente enthalten</translation>
+    </message>
+    <message>
+        <source>ListElement: cannot use reserved &quot;id&quot; property</source>
+        <translation>ListElement: Die spezielle &quot;id&quot;-Eigenschaft kann nicht verwendet werden</translation>
+    </message>
+    <message>
+        <source>ListElement: improperly specified %1</source>
+        <translation>ListElement: Ungültige Angabe %1</translation>
+    </message>
+    <message>
+        <source>ListElement: improperly specified QT_TRANSLATE_NOOP</source>
+        <translation>ListElement: Ungültige Angabe von QT_TRANSLATE_NOOP</translation>
+    </message>
+    <message>
+        <source>ListElement: cannot use script for property value</source>
+        <translation>ListElement: Es kann kein Skript für den Wert der Eigenschaft verwendet werden</translation>
+    </message>
+    <message>
+        <source>ListModel: undefined property &apos;%1&apos;</source>
+        <translation>ListModel: Die Eigenschaft &apos;%1&apos; ist nicht definiert</translation>
+    </message>
+</context>
+<context>
     <name>QQmlParser</name>
     <message>
         <source>Illegal syntax for exponential number</source>
@@ -548,6 +733,26 @@
     <message>
         <source>Invalid regular expression flag &apos;%0&apos;</source>
         <translation>Ungültiger Modifikator &apos;%0&apos; bei regulärem Ausdruck</translation>
+    </message>
+    <message>
+        <source>Stray newline in string literal</source>
+        <translation>Freistehendes Zeilenendezeichen in Zeichenkettenliteral</translation>
+    </message>
+    <message>
+        <source>Illegal hexadecimal escape sequence</source>
+        <translation>Ungültige hexadezimale Escape-Sequenz</translation>
+    </message>
+    <message>
+        <source>Octal escape sequences are not allowed</source>
+        <translation>Oktale Escape-Sequenzen sind nicht zulässig</translation>
+    </message>
+    <message>
+        <source>Decimal numbers can&apos;t start with &apos;0&apos;</source>
+        <translation>Dezimalzahlen können nicht mit &apos;0&apos; beginnen</translation>
+    </message>
+    <message>
+        <source>At least one hexadecimal digit is required after &apos;0%1&apos;</source>
+        <translation>Nach &apos;0%1&apos; ist mindestens eine hexadezimale Stelle erforderlich</translation>
     </message>
     <message>
         <source>Unterminated regular expression backslash sequence</source>
@@ -644,6 +849,17 @@
     <message>
         <source>Module import requires a qualifier</source>
         <translation>Modulimport erfordert die Angabe eines Qualifizierers</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlPartsModel</name>
+    <message>
+        <source>The group of a DelegateModel cannot be changed within onChanged</source>
+        <translation>Die Gruppe eines DelegateModel kann nicht in onChanged geändert werden</translation>
+    </message>
+    <message>
+        <source>Delegate component must be Package type.</source>
+        <translation>Delegate-Komponente muss vom Typ &apos;Package&apos; sein.</translation>
     </message>
 </context>
 <context>
@@ -851,6 +1067,17 @@
     </message>
 </context>
 <context>
+    <name>QQuickItemView</name>
+    <message>
+        <source>Delegate must be of Item type</source>
+        <translation>Delegate-Komponente muss vom Typ &apos;Item&apos; sein</translation>
+    </message>
+    <message>
+        <source>ItemView is an abstract base class</source>
+        <translation>ItemView ist eine abstrakte Basisklasse</translation>
+    </message>
+</context>
+<context>
     <name>QQuickKeyNavigationAttached</name>
     <message>
         <source>KeyNavigation is only available via attached properties</source>
@@ -873,77 +1100,6 @@
     <message>
         <source>LayoutMirroring is only available via attached properties</source>
         <translation>LayoutMirroring ist nur in Verbindung mit Eigenschaften des Typs &quot;attached&quot; möglich</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickListModel</name>
-    <message>
-        <source>unable to enable dynamic roles as this model is not empty!</source>
-        <translation>Dynamische Rollen können nicht aktiviert werden, da das Modell nicht leer ist!</translation>
-    </message>
-    <message>
-        <source>unable to enable static roles as this model is not empty!</source>
-        <translation>Statische Rollen können nicht aktiviert werden, da das Modell nicht leer ist!</translation>
-    </message>
-    <message>
-        <source>dynamic role setting must be made from the main thread, before any worker scripts are created</source>
-        <translation>Einstellung bezüglich dynamischer Rollen muss aus dem Haupt-Thread vorgenommen werden, bevor Arbeitsskripte erstellt werden</translation>
-    </message>
-    <message>
-        <source>remove: indices [%1 - %2] out of range [0 - %3]</source>
-        <translation>remove: Die Indizes [%1 - %2] sind außerhalb des Bereichs [0 - %3]</translation>
-    </message>
-    <message>
-        <source>remove: incorrect number of arguments</source>
-        <translation>remove: Ungültige Parameterzahl</translation>
-    </message>
-    <message>
-        <source>insert: index %1 out of range</source>
-        <translation>insert: Der Index %1 ist außerhalb des gültigen Bereichs</translation>
-    </message>
-    <message>
-        <source>insert: value is not an object</source>
-        <translation>insert: Der Wert ist kein Objekt</translation>
-    </message>
-    <message>
-        <source>move: out of range</source>
-        <translation>move: Außerhalb des gültigen Bereichs</translation>
-    </message>
-    <message>
-        <source>append: value is not an object</source>
-        <translation>append: Der Wert ist kein Objekt</translation>
-    </message>
-    <message>
-        <source>set: value is not an object</source>
-        <translation>set: Der Wert ist kein Objekt</translation>
-    </message>
-    <message>
-        <source>set: index %1 out of range</source>
-        <translation>set: Der Index %1 ist außerhalb des gültigen Bereichs</translation>
-    </message>
-    <message>
-        <source>ListElement: cannot contain nested elements</source>
-        <translation>ListElement kann keine geschachtelten Elemente enthalten</translation>
-    </message>
-    <message>
-        <source>ListElement: cannot use reserved &quot;id&quot; property</source>
-        <translation>ListElement: Die &quot;id&quot;-Eigenschaft kann nicht verwendet werden</translation>
-    </message>
-    <message>
-        <source>ListElement: improperly specified %1</source>
-        <translation>ListElement: Ungültige Angabe %1</translation>
-    </message>
-    <message>
-        <source>ListElement: improperly specified QT_TRANSLATE_NOOP</source>
-        <translation>ListElement: Ungültige Angabe von QT_TRANSLATE_NOOP</translation>
-    </message>
-    <message>
-        <source>ListElement: cannot use script for property value</source>
-        <translation>ListElement: Es kann kein Skript für den Wert der Eigenschaft verwendet werden</translation>
-    </message>
-    <message>
-        <source>ListModel: undefined property &apos;%1&apos;</source>
-        <translation>ListModel: Die Eigenschaft &apos;%1&apos; ist nicht definiert</translation>
     </message>
 </context>
 <context>
@@ -995,6 +1151,13 @@
     <message>
         <source>Cannot set a duration of &lt; 0</source>
         <translation>Es kann keine Zeitdauer &lt;0 gesetzt werden</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickPathView</name>
+    <message>
+        <source>Delegate must be of Item type</source>
+        <translation>Delegate-Komponente muss vom Typ &apos;Item&apos; sein</translation>
     </message>
 </context>
 <context>
@@ -1054,6 +1217,13 @@
     </message>
 </context>
 <context>
+    <name>QQuickRepeater</name>
+    <message>
+        <source>Delegate must be of Item type</source>
+        <translation>Delegate-Komponente muss vom Typ &apos;Item&apos; sein</translation>
+    </message>
+</context>
+<context>
     <name>QQuickShaderEffectMesh</name>
     <message>
         <source>Cannot create instance of abstract class ShaderEffectMesh.</source>
@@ -1076,135 +1246,6 @@
     <message>
         <source>ViewTransition is only available via attached properties</source>
         <translation>ViewTransition ist nur über Eigenschaften des Typs &apos;attached&apos; verfügbar</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickVisualDataGroup</name>
-    <message>
-        <source>Group names must start with a lower case letter</source>
-        <translation>Gruppennamen müssen mit einem Kleinbuchstaben beginnen</translation>
-    </message>
-    <message>
-        <source>get: index out of range</source>
-        <translation>get: Der Index ist außerhalb des gültigen Bereichs</translation>
-    </message>
-    <message>
-        <source>insert: index out of range</source>
-        <translation>insert: Der Index ist außerhalb des gültigen Bereichs</translation>
-    </message>
-    <message>
-        <source>create: index out of range</source>
-        <translation>create: Der Index ist außerhalb des gültigen Bereichs</translation>
-    </message>
-    <message>
-        <source>resolve: from index out of range</source>
-        <translation>resolve: Der Index &apos;from&apos; ist außerhalb des gültigen Bereichs</translation>
-    </message>
-    <message>
-        <source>resolve: from index invalid</source>
-        <translation>resolve: Der Index &apos;from&apos; ist ungültig</translation>
-    </message>
-    <message>
-        <source>resolve: to index out of range</source>
-        <translation>resolve: Der Index &apos;to&apos; ist außerhalb des gültigen Bereichs</translation>
-    </message>
-    <message>
-        <source>resolve: to index invalid</source>
-        <translation>resolve: Der Index &apos;to&apos; ist ungültig</translation>
-    </message>
-    <message>
-        <source>resolve: from is not an unresolved item</source>
-        <translation>resolve: Der Index &apos;from&apos; ist kein nicht aufgelöstes Element</translation>
-    </message>
-    <message>
-        <source>resolve: to is not a model item</source>
-        <translation>resolve: &apos;to&apos; ist kein Modellelement</translation>
-    </message>
-    <message>
-        <source>remove: invalid index</source>
-        <translation>resolve: ungültiger Index</translation>
-    </message>
-    <message>
-        <source>remove: index out of range</source>
-        <translation>remove: Der Index ist außerhalb des gültigen Bereichs</translation>
-    </message>
-    <message>
-        <source>remove: invalid count</source>
-        <translation>remove: ungültige Anzahl</translation>
-    </message>
-    <message>
-        <source>addGroups: index out of range</source>
-        <translation>addGroups: Der Index ist außerhalb des gültigen Bereichs</translation>
-    </message>
-    <message>
-        <source>addGroups: invalid count</source>
-        <translation>addGroups: ungültige Anzahl</translation>
-    </message>
-    <message>
-        <source>removeGroups: index out of range</source>
-        <translation>removeGroups: Der Index ist außerhalb des gültigen Bereichs</translation>
-    </message>
-    <message>
-        <source>removeGroups: invalid count</source>
-        <translation>removeGroups: ungültige Anzahl</translation>
-    </message>
-    <message>
-        <source>setGroups: index out of range</source>
-        <translation>setGroups: Der Index ist außerhalb des gültigen Bereichs</translation>
-    </message>
-    <message>
-        <source>setGroups: invalid count</source>
-        <translation>setGroups: ungültige Anzahl</translation>
-    </message>
-    <message>
-        <source>move: invalid from index</source>
-        <translation>move: ungültiger Index &apos;from&apos;</translation>
-    </message>
-    <message>
-        <source>move: invalid to index</source>
-        <translation>move: ungültiger Index &apos;to&apos;</translation>
-    </message>
-    <message>
-        <source>move: invalid count</source>
-        <translation>move: ungültige Anzahl</translation>
-    </message>
-    <message>
-        <source>move: from index out of range</source>
-        <translation>move: Der Index &apos;from&apos; ist außerhalb des gültigen Bereichs</translation>
-    </message>
-    <message>
-        <source>move: to index out of range</source>
-        <translation>move: Der Index &apos;to&apos; ist außerhalb des gültigen Bereichs</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickVisualDataModel</name>
-    <message>
-        <source>The delegate of a VisualDataModel cannot be changed within onUpdated.</source>
-        <translation>Der Delegate eines VisualDataModel kann nicht in onUpdated geändert werden.</translation>
-    </message>
-    <message>
-        <source>The maximum number of supported VisualDataGroups is 8</source>
-        <translation>Die Maximalzahl der unterstützten VisualDataGroups ist 8</translation>
-    </message>
-    <message>
-        <source>The group of a VisualDataModel cannot be changed within onChanged</source>
-        <translation>Die Gruppe eines VisualDataModel kann nicht in onChanged geändert werden</translation>
-    </message>
-    <message>
-        <source>Delegate component must be Item type.</source>
-        <translation>Delegate-Komponente muss vom Typ &apos;Item&apos; sein</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickVisualPartsModel</name>
-    <message>
-        <source>The group of a VisualDataModel cannot be changed within onChanged</source>
-        <translation>Die Gruppe eines VisualDataModel kann nicht in onChanged geändert werden</translation>
-    </message>
-    <message>
-        <source>Delegate component must be Package type.</source>
-        <translation>Delegate-Komponente muss vom Typ &apos;Package&apos; sein</translation>
     </message>
 </context>
 <context>

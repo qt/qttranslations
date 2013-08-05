@@ -352,7 +352,7 @@ Return value:
     2 on read failures
     3 on write failures
 </source>
-        <translation>
+        <translation type="obsolete">
 Використання:
     lconvert [опції] &lt;вхідний_файл&gt; [&lt;вхідний_файл&gt;...]
 
@@ -504,7 +504,7 @@ Options:
     -version
            Display the version of lrelease and exit
 </source>
-        <translation>Використання:
+        <translation type="obsolete">Використання:
     lrelease [опції] файл-проект
     lrelease [опції] файли-ts [-qm файл-qm]
 
@@ -534,53 +534,53 @@ lrelease - це частина набору програм Qt Linguist. Вона
     </message>
     <message>
         <source>lrelease error: %1</source>
-        <translation>помилка lrelease: %1</translation>
+        <translation type="obsolete">помилка lrelease: %1</translation>
     </message>
     <message>
         <source>Updating &apos;%1&apos;...
 </source>
-        <translation>Оновлюю &apos;%1&apos;...
+        <translation type="obsolete">Оновлюю &apos;%1&apos;...
 </translation>
     </message>
     <message>
         <source>Removing translations equal to source text in &apos;%1&apos;...
 </source>
-        <translation>Видалення перекладів однакових з оригінальним текстом в &apos;%1&apos;...
+        <translation type="obsolete">Видалення перекладів однакових з оригінальним текстом в &apos;%1&apos;...
 </translation>
     </message>
     <message>
         <source>lrelease error: cannot create &apos;%1&apos;: %2
 </source>
-        <translation>помилка lrelease: неможливо створити &apos;%1&apos;: %2
+        <translation type="obsolete">помилка lrelease: неможливо створити &apos;%1&apos;: %2
 </translation>
     </message>
     <message>
         <source>lrelease error: cannot save &apos;%1&apos;: %2</source>
-        <translation>помилка lrelease: неможливо зберегти &apos;%1&apos;: %2
+        <translation type="obsolete">помилка lrelease: неможливо зберегти &apos;%1&apos;: %2
 </translation>
     </message>
     <message>
         <source>lrelease version %1
 </source>
-        <translation>lrelease версії %1
+        <translation type="obsolete">lrelease версії %1
 </translation>
     </message>
     <message>
         <source>lrelease error: cannot read project file &apos;%1&apos;.
 </source>
-        <translation>помилка lrelease: неможливо прочитати файл проекту &apos;%1&apos;.
+        <translation type="obsolete">помилка lrelease: неможливо прочитати файл проекту &apos;%1&apos;.
 </translation>
     </message>
     <message>
         <source>lrelease error: cannot process project file &apos;%1&apos;.
 </source>
-        <translation>помилка lrelease: неможливо обробити файл проекту &apos;%1&apos;.
+        <translation type="obsolete">помилка lrelease: неможливо обробити файл проекту &apos;%1&apos;.
 </translation>
     </message>
     <message>
         <source>lrelease warning: Met no &apos;TRANSLATIONS&apos; entry in project file &apos;%1&apos;
 </source>
-        <translation>попередження lrelease: в файлу проекту &apos;%1&apos; не знайдено елементу &apos;TRANSLATIONS&apos;
+        <translation type="obsolete">попередження lrelease: в файлу проекту &apos;%1&apos; не знайдено елементу &apos;TRANSLATIONS&apos;
 </translation>
     </message>
 </context>
@@ -646,7 +646,7 @@ Options:
            Read additional file names (one per line) or includepaths (one per
            line, and prefixed with -I) from lst-file.
 </source>
-        <translation>Використання:
+        <translation type="obsolete">Використання:
     lupdate [опції] [файл-проект]...
     lupdate [опції] [вхідний-файл|шлях|@файл-список]... -ts ts-файли|@файл-список
 
@@ -709,381 +709,381 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     <message>
         <source>lupdate warning: Codec for tr() &apos;%1&apos; disagrees with existing file&apos;s codec &apos;%2&apos;. Expect trouble.
 </source>
-        <translation>попередження lupdate: Кодек для tr() &apos;%1&apos; не узгоджується з існуючим кодеком файлу &apos;%2&apos;. Очікуйте неприємностей.
+        <translation type="obsolete">попередження lupdate: Кодек для tr() &apos;%1&apos; не узгоджується з існуючим кодеком файлу &apos;%2&apos;. Очікуйте неприємностей.
 </translation>
     </message>
     <message>
         <source>lupdate warning: Specified target language &apos;%1&apos; disagrees with existing file&apos;s language &apos;%2&apos;. Ignoring.
 </source>
-        <translation>попередження lupdate: Вказана мова перекладу &apos;%1&apos; не узгоджується з існуючою мовою файлу &apos;%2&apos;. Ігнорую.
+        <translation type="obsolete">попередження lupdate: Вказана мова перекладу &apos;%1&apos; не узгоджується з існуючою мовою файлу &apos;%2&apos;. Ігнорую.
 </translation>
     </message>
     <message>
         <source>lupdate warning: Specified source language &apos;%1&apos; disagrees with existing file&apos;s language &apos;%2&apos;. Ignoring.
 </source>
-        <translation>попередження lupdate: Вказана мова оригіналу &apos;%1&apos; не узгоджується з існуючою мовою файлу &apos;%2&apos;. Ігнорую.
+        <translation type="obsolete">попередження lupdate: Вказана мова оригіналу &apos;%1&apos; не узгоджується з існуючою мовою файлу &apos;%2&apos;. Ігнорую.
 </translation>
     </message>
     <message>
         <source>Updating &apos;%1&apos;...
 </source>
-        <translation>Оновлюю &apos;%1&apos;...
+        <translation type="obsolete">Оновлюю &apos;%1&apos;...
 </translation>
     </message>
     <message>
         <source>Stripping non plural forms in &apos;%1&apos;...
 </source>
-        <translation>Видалення не множинних форм в &apos;%1&apos;...
+        <translation type="obsolete">Видалення не множинних форм в &apos;%1&apos;...
 </translation>
     </message>
     <message>
         <source>lupdate warning: Some files have been ignored due to missing qml/javascript support
 </source>
-        <translation>попередження lupdate: Деякі файли було проігноровано через відсутність підтримки qml/javascript</translation>
+        <translation type="obsolete">попередження lupdate: Деякі файли було проігноровано через відсутність підтримки qml/javascript</translation>
     </message>
     <message>
         <source>lupdate warning: Codec for source &apos;%1&apos; is invalid. Falling back to codec for tr().
 </source>
-        <translation>попередження lupdate: Кодек для джерела &apos;%1&apos; неправильний. Повертаємось до використання кодеку для tr().
+        <translation type="obsolete">попередження lupdate: Кодек для джерела &apos;%1&apos; неправильний. Повертаємось до використання кодеку для tr().
 </translation>
     </message>
     <message>
         <source>lupdate warning: TS files from command line will override TRANSLATIONS in %1.
 </source>
-        <translation>попередження lupdate: файл-TS з командного рядка замінять TRANSLATIONS в %1.
+        <translation type="obsolete">попередження lupdate: файл-TS з командного рядка замінять TRANSLATIONS в %1.
 </translation>
     </message>
     <message>
         <source>lupdate warning: TS files from command line prevent recursing into %1.
 </source>
-        <translation>попередження lupdate: файли TS з командного рядка перешкоджають рекурсивному проходу %1.
+        <translation type="obsolete">попередження lupdate: файли TS з командного рядка перешкоджають рекурсивному проходу %1.
 </translation>
     </message>
     <message>
         <source>lupdate warning: no TS files specified. Only diagnostics will be produced for &apos;%1&apos;.
 </source>
-        <translation>попередження lupdate: не вказано файлів TS. Здійснюватиметься лише діагностика для &apos;%1&apos;.
+        <translation type="obsolete">попередження lupdate: не вказано файлів TS. Здійснюватиметься лише діагностика для &apos;%1&apos;.
 </translation>
     </message>
     <message>
         <source>The option -target-language requires a parameter.
 </source>
-        <translation>Опція -target-language вимагає параметра.
+        <translation type="obsolete">Опція -target-language вимагає параметра.
 </translation>
     </message>
     <message>
         <source>The option -source-language requires a parameter.
 </source>
-        <translation>Опція -source-language вимагає параметра.
+        <translation type="obsolete">Опція -source-language вимагає параметра.
 </translation>
     </message>
     <message>
         <source>The option -disable-heuristic requires a parameter.
 </source>
-        <translation>Опція -disable-heuristic вимагає параметра.
+        <translation type="obsolete">Опція -disable-heuristic вимагає параметра.
 </translation>
     </message>
     <message>
         <source>Invalid heuristic name passed to -disable-heuristic.
 </source>
-        <translation>Неправильна назва евристики для -disable-heuristic.
+        <translation type="obsolete">Неправильна назва евристики для -disable-heuristic.
 </translation>
     </message>
     <message>
         <source>The option -locations requires a parameter.
 </source>
-        <translation>Опція -locations вимагає параметра.
+        <translation type="obsolete">Опція -locations вимагає параметра.
 </translation>
     </message>
     <message>
         <source>Invalid parameter passed to -locations.
 </source>
-        <translation>Неправильний параметр для -locations.
+        <translation type="obsolete">Неправильний параметр для -locations.
 </translation>
     </message>
     <message>
         <source>The -codecfortr option should be followed by a codec name.
 </source>
-        <translation>За опцією -codecfortr має слідувати назва кодека.
+        <translation type="obsolete">За опцією -codecfortr має слідувати назва кодека.
 </translation>
     </message>
     <message>
         <source>The -extensions option should be followed by an extension list.
 </source>
-        <translation>За опцією -extensions має слідувати список розширень.
+        <translation type="obsolete">За опцією -extensions має слідувати список розширень.
 </translation>
     </message>
     <message>
         <source>The -pro option should be followed by a filename of .pro file.
 </source>
-        <translation>За опцією -pro має слідувати ім&apos;я .pro файлу.
+        <translation type="obsolete">За опцією -pro має слідувати ім&apos;я .pro файлу.
 </translation>
     </message>
     <message>
         <source>The -pro-out option should be followed by a directory name.
 </source>
-        <translation>За опцією -pro-out має слідувати назва теки.
+        <translation type="obsolete">За опцією -pro-out має слідувати назва теки.
 </translation>
     </message>
     <message>
         <source>The -I option should be followed by a path.
 </source>
-        <translation>За опцією -l має слідувати шлях.
+        <translation type="obsolete">За опцією -l має слідувати шлях.
 </translation>
     </message>
     <message>
         <source>Unrecognized option &apos;%1&apos;.
 </source>
-        <translation>Нерозпізнана опція &apos;%1&apos;.
+        <translation type="obsolete">Нерозпізнана опція &apos;%1&apos;.
 </translation>
     </message>
     <message>
         <source>lupdate error: List file &apos;%1&apos; is not readable.
 </source>
-        <translation>помилка lupdate: Неможливо прочитати файл списку &apos;%1&apos;.
+        <translation type="obsolete">помилка lupdate: Неможливо прочитати файл списку &apos;%1&apos;.
 </translation>
     </message>
     <message>
         <source>lupdate warning: For some reason, &apos;%1&apos; is not writable.
 </source>
-        <translation>попередження lupdate: З певних причин в &apos;%1&apos; не можливо записати.
+        <translation type="obsolete">попередження lupdate: З певних причин в &apos;%1&apos; не можливо записати.
 </translation>
     </message>
     <message>
         <source>lupdate error: File &apos;%1&apos; has no recognized extension.
 </source>
-        <translation>помилка lupdate: Файл &apos;%1&apos; має невідоме розширення.
+        <translation type="obsolete">помилка lupdate: Файл &apos;%1&apos; має невідоме розширення.
 </translation>
     </message>
     <message>
         <source>lupdate error: File &apos;%1&apos; does not exist.
 </source>
-        <translation>помилка lupdate: Файл &apos;%1&apos; не існує.
+        <translation type="obsolete">помилка lupdate: Файл &apos;%1&apos; не існує.
 </translation>
     </message>
     <message>
         <source>Scanning directory &apos;%1&apos;...
 </source>
-        <translation>Сканування теки &apos;%1&apos;...
+        <translation type="obsolete">Сканування теки &apos;%1&apos;...
 </translation>
     </message>
     <message>
         <source>lupdate warning: -target-language usually only makes sense with exactly one TS file.
 </source>
-        <translation>попередження lupdate: Використання -target-language, зазвичай, має сенс лише з одним файлом TS.
+        <translation type="obsolete">попередження lupdate: Використання -target-language, зазвичай, має сенс лише з одним файлом TS.
 </translation>
     </message>
     <message>
         <source>lupdate warning: -codecfortr has no effect without -ts.
 </source>
-        <translation>попередження lupdate: -codecfortr не дає ефекту без -ts.
+        <translation type="obsolete">попередження lupdate: -codecfortr не дає ефекту без -ts.
 </translation>
     </message>
     <message>
         <source>lupdate warning: no TS files specified. Only diagnostics will be produced.
 </source>
-        <translation>попередження lupdate: не вказано файлів TS. Здійснюватиметься лише діагностика.
+        <translation type="obsolete">попередження lupdate: не вказано файлів TS. Здійснюватиметься лише діагностика.
 </translation>
     </message>
     <message>
         <source>lupdate error: Both project and source files / include paths specified.
 </source>
-        <translation>помилка lupdate: Одночасно вказані файл проекту та вхідні файли / шляхи для включення.
+        <translation type="obsolete">помилка lupdate: Одночасно вказані файл проекту та вхідні файли / шляхи для включення.
 </translation>
     </message>
     <message>
         <source>Parenthesis/bracket/brace mismatch between #if and #else branches; using #if branch
 </source>
-        <translation>Круглі/квадратні/фігурні дужки не збігаються між гілками #if та #else, використовую гілку #if
+        <translation type="obsolete">Круглі/квадратні/фігурні дужки не збігаються між гілками #if та #else, використовую гілку #if
 </translation>
     </message>
     <message>
         <source>Parenthesis/brace mismatch between #if and #else branches; using #if branch
 </source>
-        <translation>Круглі/фігурні дужки не збігаються між гілками #if та #else, використовую гілку #if
+        <translation type="obsolete">Круглі/фігурні дужки не збігаються між гілками #if та #else, використовую гілку #if
 </translation>
     </message>
     <message>
         <source>Unterminated C++ comment
 </source>
-        <translation>Незавершений коментар C++
+        <translation type="obsolete">Незавершений коментар C++
 </translation>
     </message>
     <message>
         <source>Unterminated C++ string
 </source>
-        <translation>Незавершений рядок C++
+        <translation type="obsolete">Незавершений рядок C++
 </translation>
     </message>
     <message>
         <source>Excess closing brace in C++ code (or abuse of the C++ preprocessor)
 </source>
-        <translation>Забагато закриваючих фігурних дужок в коді C++ (або неправильне застосування препроцесора C++)
+        <translation type="obsolete">Забагато закриваючих фігурних дужок в коді C++ (або неправильне застосування препроцесора C++)
 </translation>
     </message>
     <message>
         <source>Excess closing parenthesis in C++ code (or abuse of the C++ preprocessor)
 </source>
-        <translation>Забагато закриваючих круглих дужок в коді C++ (або неправильне застосування препроцесора C++)
+        <translation type="obsolete">Забагато закриваючих круглих дужок в коді C++ (або неправильне застосування препроцесора C++)
 </translation>
     </message>
     <message>
         <source>Excess closing bracket in C++ code (or abuse of the C++ preprocessor)
 </source>
-        <translation>Забагато закриваючих квадратних дужок в коді C++ (або неправильне застосування препроцесора C++)
+        <translation type="obsolete">Забагато закриваючих квадратних дужок в коді C++ (або неправильне застосування препроцесора C++)
 </translation>
     </message>
     <message>
         <source>Cannot open %1: %2</source>
-        <translation>Неможливо відкрити %1: %2</translation>
+        <translation type="obsolete">Неможливо відкрити %1: %2</translation>
     </message>
     <message>
         <source>//% cannot be used with tr() / QT_TR_NOOP(). Ignoring
 </source>
-        <translation>//% не може бути використаний разом з tr() / QT_TR_NOOP(). Ігнорую
+        <translation type="obsolete">//% не може бути використаний разом з tr() / QT_TR_NOOP(). Ігнорую
 </translation>
     </message>
     <message>
         <source>Cannot open %1: %2
 </source>
-        <translation>Неможливо відкрити %1: %2
+        <translation type="obsolete">Неможливо відкрити %1: %2
 </translation>
     </message>
     <message>
         <source>Qualifying with unknown namespace/class %1::%2
 </source>
-        <translation>Задаю з невідомим простором імен/класом %1::%2
+        <translation type="obsolete">Задаю з невідомим простором імен/класом %1::%2
 </translation>
     </message>
     <message>
         <source>tr() cannot be called without context
 </source>
-        <translation>tr() не можна викликати без контексту
+        <translation type="obsolete">tr() не можна викликати без контексту
 </translation>
     </message>
     <message>
         <source>Class &apos;%1&apos; lacks Q_OBJECT macro
 </source>
-        <translation>У класу &apos;%1&apos; не вистачає макросу Q_OBJECT
+        <translation type="obsolete">У класу &apos;%1&apos; не вистачає макросу Q_OBJECT
 </translation>
     </message>
     <message>
         <source>It is not recommended to call tr() from within a constructor &apos;%1::%2&apos;
 </source>
-        <translation>Не рекомендовано викликати tr() з конструктора &apos;%1::%2&apos;
+        <translation type="obsolete">Не рекомендовано викликати tr() з конструктора &apos;%1::%2&apos;
 </translation>
     </message>
     <message>
         <source>//% cannot be used with translate() / QT_TRANSLATE_NOOP(). Ignoring
 </source>
-        <translation>//% не може бути використаний разом з translate() / QT_TRANSLATE_NOOP(). Ігнорую
+        <translation type="obsolete">//% не може бути використаний разом з translate() / QT_TRANSLATE_NOOP(). Ігнорую
 </translation>
     </message>
     <message>
         <source>//= cannot be used with qtTrId() / QT_TRID_NOOP(). Ignoring
 </source>
-        <translation>//= не може бути використаний разом з qtTrId() / QT_TRID_NOOP(). Ігнорую
+        <translation type="obsolete">//= не може бути використаний разом з qtTrId() / QT_TRID_NOOP(). Ігнорую
 </translation>
     </message>
     <message>
         <source>Unexpected character in meta string
 </source>
-        <translation>Неочікуваний символ в мета-рядку
+        <translation type="obsolete">Неочікуваний символ в мета-рядку
 </translation>
     </message>
     <message>
         <source>Unterminated meta string
 </source>
-        <translation>Незавершений мета-рядок
+        <translation type="obsolete">Незавершений мета-рядок
 </translation>
     </message>
     <message>
         <source>Cannot invoke tr() like this
 </source>
-        <translation>Неможливо викликати tr() подібним чином
+        <translation type="obsolete">Неможливо викликати tr() подібним чином
 </translation>
     </message>
     <message>
         <source>Discarding unconsumed meta data
 </source>
-        <translation>Відкидаю невжиті мета-дані
+        <translation type="obsolete">Відкидаю невжиті мета-дані
 </translation>
     </message>
     <message>
         <source>Unbalanced opening brace in C++ code (or abuse of the C++ preprocessor)
 </source>
-        <translation>Незбалансовані відкриваючі фігурні дужки в коді C++ (або неправильне застосування препроцесора C++)
+        <translation type="obsolete">Незбалансовані відкриваючі фігурні дужки в коді C++ (або неправильне застосування препроцесора C++)
 </translation>
     </message>
     <message>
         <source>Unbalanced opening parenthesis in C++ code (or abuse of the C++ preprocessor)
 </source>
-        <translation>Незбалансовані відкриваючі круглі дужки в коді C++ (або неправильне застосування препроцесора C++)
+        <translation type="obsolete">Незбалансовані відкриваючі круглі дужки в коді C++ (або неправильне застосування препроцесора C++)
 </translation>
     </message>
     <message>
         <source>Unbalanced opening bracket in C++ code (or abuse of the C++ preprocessor)
 </source>
-        <translation>Незбалансовані відкриваючі квадратні дужки в коді C++ (або неправильне застосування препроцесора C++)
+        <translation type="obsolete">Незбалансовані відкриваючі квадратні дужки в коді C++ (або неправильне застосування препроцесора C++)
 </translation>
     </message>
     <message>
         <source>Unterminated Java comment.
 </source>
-        <translation>Незавершений коментар Java.
+        <translation type="obsolete">Незавершений коментар Java.
 </translation>
     </message>
     <message>
         <source>Invalid Unicode value.
 </source>
-        <translation>Неправильне значення Unicode.
+        <translation type="obsolete">Неправильне значення Unicode.
 </translation>
     </message>
     <message>
         <source>Unterminated string.
 </source>
-        <translation>Незавершений рядок.
+        <translation type="obsolete">Незавершений рядок.
 </translation>
     </message>
     <message>
         <source>String used in translation can contain only literals concatenated with other literals, not expressions or numbers.
 </source>
-        <translation>Рядки, що використовуються в перекладі, можуть містити лише літерали об&apos;єднані з іншими літералами, а не вирази або числа.
+        <translation type="obsolete">Рядки, що використовуються в перекладі, можуть містити лише літерали об&apos;єднані з іншими літералами, а не вирази або числа.
 </translation>
     </message>
     <message>
         <source>&apos;class&apos; must be followed by a class name.
 </source>
-        <translation>Після &apos;class&apos; повинна слідувати назва класу.
+        <translation type="obsolete">Після &apos;class&apos; повинна слідувати назва класу.
 </translation>
     </message>
     <message>
         <source>Excess closing brace.
 </source>
-        <translation>Забагато закриваючих фігурних дужок.</translation>
+        <translation type="obsolete">Забагато закриваючих фігурних дужок.</translation>
     </message>
     <message>
         <source>&apos;package&apos; must be followed by package name.
 </source>
-        <translation>Після &apos;package&apos; повинна слідувати назва пакунку.
+        <translation type="obsolete">Після &apos;package&apos; повинна слідувати назва пакунку.
 </translation>
     </message>
     <message>
         <source>Unbalanced opening brace.
 </source>
-        <translation>Незбалансовані відкриваючі фігурні дужки.
+        <translation type="obsolete">Незбалансовані відкриваючі фігурні дужки.
 </translation>
     </message>
     <message>
         <source>Unbalanced opening parenthesis.
 </source>
-        <translation>Незбалансовані відкриваючі круглі дужки.
+        <translation type="obsolete">Незбалансовані відкриваючі круглі дужки.
 </translation>
     </message>
     <message numerus="yes">
         <source>    Found %n source text(s) (%1 new and %2 already existing)
 </source>
-        <translation>
+        <translation type="obsolete">
             <numerusform>    Знайдено %n оригінальний текст (%1 новий та %2 вже існує)
 </numerusform>
             <numerusform>    Знайдено %n оригінальних тексти (%1 нових та %2 вже існує)
@@ -1095,7 +1095,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     <message numerus="yes">
         <source>    Removed %n obsolete entries
 </source>
-        <translation>
+        <translation type="obsolete">
             <numerusform>    Видалено %n застарілий елемент
 </numerusform>
             <numerusform>    Видалено %n застарілих елементи
@@ -1107,7 +1107,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     <message numerus="yes">
         <source>    Kept %n obsolete entries
 </source>
-        <translation>
+        <translation type="obsolete">
             <numerusform>    Залишено %n застарілий елемент
 </numerusform>
             <numerusform>    Залишено %n застарілих елементи
@@ -1119,7 +1119,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     <message numerus="yes">
         <source>    Number heuristic provided %n translation(s)
 </source>
-        <translation>
+        <translation type="obsolete">
             <numerusform>Числова евристика надала %n переклад
 </numerusform>
             <numerusform>Числова евристика надала %n переклади
@@ -1131,7 +1131,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     <message numerus="yes">
         <source>    Same-text heuristic provided %n translation(s)
 </source>
-        <translation>
+        <translation type="obsolete">
             <numerusform>Евристика &quot;однаковий текст&quot; надала %n переклад
 </numerusform>
             <numerusform>Евристика &quot;однаковий текст&quot; надала %n переклади
@@ -1143,7 +1143,7 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     <message numerus="yes">
         <source>    Similar-text heuristic provided %n translation(s)
 </source>
-        <translation>
+        <translation type="obsolete">
             <numerusform>Евристика &quot;схожий текст&quot; надала %n переклад
 </numerusform>
             <numerusform>Евристика &quot;схожий текст&quot; надала %n переклади
@@ -1155,52 +1155,79 @@ lupdate - це частина набору програм Qt Linguist. Вона 
     <message>
         <source>//% cannot be used with %1(). Ignoring
 </source>
-        <translation>//% не може бути використаний разом з %1(). Ігнорую
+        <translation type="obsolete">//% не може бути використаний разом з %1(). Ігнорую
 </translation>
     </message>
     <message>
         <source>%1() requires at least two arguments.
 </source>
-        <translation>%1() вимагає щонайменше двох аргументів.
+        <translation type="obsolete">%1() вимагає щонайменше двох аргументів.
 </translation>
     </message>
     <message>
         <source>%1(): both arguments must be literal strings.
 </source>
-        <translation>%1(): обидва аргументи повинні бути рядковими літералами.
+        <translation type="obsolete">%1(): обидва аргументи повинні бути рядковими літералами.
 </translation>
     </message>
     <message>
         <source>%1() requires at least one argument.
 </source>
-        <translation>%1() вимагає щонайменше одного аргументу.
+        <translation type="obsolete">%1() вимагає щонайменше одного аргументу.
 </translation>
     </message>
     <message>
         <source>%1(): text to translate must be a literal string.
 </source>
-        <translation>%1(): текст для перекладу повинен бути рядковим літералом.
+        <translation type="obsolete">%1(): текст для перекладу повинен бути рядковим літералом.
 </translation>
     </message>
     <message>
         <source>//= cannot be used with %1(). Ignoring
 </source>
-        <translation>//= не може бути використаний разом з %1(). Ігнорую
+        <translation type="obsolete">//= не може бути використаний разом з %1(). Ігнорую
 </translation>
     </message>
     <message>
         <source>%1(): identifier must be a literal string.
 </source>
-        <translation>%1(): ідентифікатор повинен бути рядковим літералом.
+        <translation type="obsolete">%1(): ідентифікатор повинен бути рядковим літералом.
 </translation>
     </message>
     <message>
         <source>XML error: Parse error at line %1, column %2 (%3).</source>
-        <translation>Помилка XML: Помилка розбору в рядку %1, позиція %2 (%3).</translation>
+        <translation type="obsolete">Помилка XML: Помилка розбору в рядку %1, позиція %2 (%3).</translation>
     </message>
     <message>
         <source>Parse error in UI file</source>
-        <translation>Помилка розбору файлу UI</translation>
+        <translation type="obsolete">Помилка розбору файлу UI</translation>
+    </message>
+</context>
+<context>
+    <name>Linguist</name>
+    <message>
+        <source>GNU Gettext localization files</source>
+        <translation>Файли локалізації GNU Gettext</translation>
+    </message>
+    <message>
+        <source>GNU Gettext localization template files</source>
+        <translation>Файли шаблонів локалізації GNU Gettext</translation>
+    </message>
+    <message>
+        <source>Compiled Qt translations</source>
+        <translation>Скомпільовані переклади Qt</translation>
+    </message>
+    <message>
+        <source>Qt Linguist &apos;Phrase Book&apos;</source>
+        <translation>&apos;Глосарій&apos; Qt Linguist</translation>
+    </message>
+    <message>
+        <source>Qt translation sources</source>
+        <translation>Переклади Qt</translation>
+    </message>
+    <message>
+        <source>XLIFF localization files</source>
+        <translation>Файли локалізації XLIFF</translation>
     </message>
 </context>
 <context>
@@ -1961,8 +1988,12 @@ All files (*)</source>
         <translation>Версія %1</translation>
     </message>
     <message>
+        <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).</source>
+        <translation>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist - це засіб для додавання перекладів до програм на Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc та/або її дочірні компанії.</translation>
+    </message>
+    <message>
         <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies).</source>
-        <translation>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist - це засіб для додавання перекладів до програм на Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc та/або її дочірні компанії.</translation>
+        <translation type="obsolete">&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist - це засіб для додавання перекладів до програм на Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc та/або її дочірні компанії.</translation>
     </message>
     <message>
         <source>Do you want to save the modified files?</source>
@@ -2349,40 +2380,40 @@ Line: %2</source>
     </message>
     <message>
         <source>GNU Gettext localization files</source>
-        <translation>Файли локалізації GNU Gettext</translation>
+        <translation type="obsolete">Файли локалізації GNU Gettext</translation>
     </message>
     <message>
         <source>GNU Gettext localization template files</source>
-        <translation>Файли шаблонів локалізації GNU Gettext</translation>
+        <translation type="obsolete">Файли шаблонів локалізації GNU Gettext</translation>
     </message>
     <message>
         <source>Compiled Qt translations</source>
-        <translation>Скомпільовані переклади Qt</translation>
+        <translation type="obsolete">Скомпільовані переклади Qt</translation>
     </message>
     <message>
         <source>Qt Linguist &apos;Phrase Book&apos;</source>
-        <translation>&apos;Глосарій&apos; Qt Linguist</translation>
+        <translation type="obsolete">&apos;Глосарій&apos; Qt Linguist</translation>
     </message>
     <message>
         <source>Qt translation sources (format 1.1)</source>
-        <translation>Файли перекладу Qt (формат 1.1)</translation>
+        <translation type="obsolete">Файли перекладу Qt (формат 1.1)</translation>
     </message>
     <message>
         <source>Qt translation sources (format 2.0)</source>
-        <translation>Файли перекладу Qt (формат 2.0)</translation>
+        <translation type="obsolete">Файли перекладу Qt (формат 2.0)</translation>
     </message>
     <message>
         <source>Qt translation sources (latest format)</source>
-        <translation>Файли перекладу Qt (останній формат)</translation>
+        <translation type="obsolete">Файли перекладу Qt (останній формат)</translation>
     </message>
     <message>
         <source>XLIFF localization files</source>
-        <translation>Файли локалізації XLIFF</translation>
+        <translation type="obsolete">Файли локалізації XLIFF</translation>
     </message>
     <message>
         <source>lupdate version %1
 </source>
-        <translation>lupdate версії %1
+        <translation type="obsolete">lupdate версії %1
 </translation>
     </message>
 </context>

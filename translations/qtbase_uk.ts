@@ -5,7 +5,7 @@
     <name>Atom</name>
     <message>
         <source>atom %1 missing</source>
-        <translation>атом %1 відсутній</translation>
+        <translation type="obsolete">атом %1 відсутній</translation>
     </message>
 </context>
 <context>
@@ -19,636 +19,667 @@
     <name>CodeParser</name>
     <message>
         <source>\compat command used, but Qt3 compatibility is no longer supported</source>
-        <translation>Використано команду \compat, однак сумісність з Qt3 більше не підтримується</translation>
+        <translation type="obsolete">Використано команду \compat, однак сумісність з Qt3 більше не підтримується</translation>
     </message>
     <message>
         <source>Ignored &apos;\%1&apos;</source>
-        <translation>Проігноровано &apos;\%1&apos;</translation>
+        <translation type="obsolete">Проігноровано &apos;\%1&apos;</translation>
     </message>
     <message>
         <source>Class %1 has no \inmodule command; using project name by default: %2</source>
-        <translation>Клас %1 не має команди \inmodule; типово використовується назва проекту: %2</translation>
+        <translation type="obsolete">Клас %1 не має команди \inmodule; типово використовується назва проекту: %2</translation>
     </message>
     <message>
         <source>Namespace %1 has no \inmodule command; using project name by default: %2</source>
-        <translation>Простір імен %1 не має команди \inmodule; типово використовується назва проекту: %2</translation>
+        <translation type="obsolete">Простір імен %1 не має команди \inmodule; типово використовується назва проекту: %2</translation>
     </message>
     <message>
         <source>Header file with title &quot;%1&quot; has no \inmodule command; using project name by default: %2</source>
-        <translation>Заголовочний файл з назвою &quot;%1&quot; не має команди \inmodule; типово використовується назва проекту: %2</translation>
+        <translation type="obsolete">Заголовочний файл з назвою &quot;%1&quot; не має команди \inmodule; типово використовується назва проекту: %2</translation>
     </message>
     <message>
         <source>Page with title &quot;%1&quot; has no \inmodule command; using project name by default: %2</source>
-        <translation>Сторінка з назвою &quot;%1&quot; не має команди \inmodule; типово використовується назва проекту: %2</translation>
+        <translation type="obsolete">Сторінка з назвою &quot;%1&quot; не має команди \inmodule; типово використовується назва проекту: %2</translation>
     </message>
     <message>
         <source>Example with title &quot;%1&quot; has no \inmodule command; using project name by default: %2</source>
-        <translation>Приклад з назвою &quot;%1&quot; не має команди \inmodule; типово використовується назва проекту: %2</translation>
+        <translation type="obsolete">Приклад з назвою &quot;%1&quot; не має команди \inmodule; типово використовується назва проекту: %2</translation>
     </message>
 </context>
 <context>
     <name>Config</name>
     <message>
         <source>File &apos;%1&apos; does not exist</source>
-        <translation>Файл &apos;%1&apos; не існує</translation>
+        <translation type="obsolete">Файл &apos;%1&apos; не існує</translation>
     </message>
     <message>
         <source>Cannot open input file for copy: &apos;%1&apos;: %2</source>
-        <translation>Неможливо відкрити вхідний файл для копіювання &apos;%1&apos;: %2</translation>
+        <translation type="obsolete">Неможливо відкрити вхідний файл для копіювання &apos;%1&apos;: %2</translation>
     </message>
     <message>
         <source>Cannot open output file for copy: &apos;%1&apos;: %2</source>
-        <translation>Неможливо відкрити вихідний файл для копіювання &apos;%1&apos;: %2</translation>
+        <translation type="obsolete">Неможливо відкрити вихідний файл для копіювання &apos;%1&apos;: %2</translation>
     </message>
     <message>
         <source>Too many nested includes</source>
-        <translation>Забагато вкладених include</translation>
+        <translation type="obsolete">Забагато вкладених include</translation>
     </message>
     <message>
         <source>Cannot open file &apos;%1&apos;: %2</source>
-        <translation>Неможливо відкрити файл &apos;%1&apos;: %2</translation>
+        <translation type="obsolete">Неможливо відкрити файл &apos;%1&apos;: %2</translation>
     </message>
     <message>
         <source>Bad include syntax</source>
-        <translation>Невірний синтаксис include</translation>
+        <translation type="obsolete">Невірний синтаксис include</translation>
     </message>
     <message>
         <source>Environment variable &apos;%1&apos; undefined</source>
-        <translation>Змінна оточення &apos;%1&apos; не визначена</translation>
+        <translation type="obsolete">Змінна оточення &apos;%1&apos; не визначена</translation>
     </message>
     <message>
         <source>Trailing garbage</source>
-        <translation>Сміття в кінці</translation>
+        <translation type="obsolete">Сміття в кінці</translation>
     </message>
     <message>
         <source>Expected &apos;=&apos; or &apos;+=&apos; after key</source>
-        <translation>Після ключа очікувалось &apos;=&apos; або &apos;+=&apos;</translation>
+        <translation type="obsolete">Після ключа очікувалось &apos;=&apos; або &apos;+=&apos;</translation>
     </message>
     <message>
         <source>Unterminated string</source>
-        <translation>Незавершений рядок</translation>
+        <translation type="obsolete">Незавершений рядок</translation>
     </message>
     <message>
         <source>Unexpected &apos;=&apos;</source>
-        <translation>Неочікуваний &apos;=&apos;</translation>
+        <translation type="obsolete">Неочікуваний &apos;=&apos;</translation>
     </message>
     <message>
         <source>Invalid key &apos;%1&apos;</source>
-        <translation>Неправильний ключ &apos;%1&apos;</translation>
+        <translation type="obsolete">Неправильний ключ &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Unexpected character &apos;%1&apos; at beginning of line</source>
-        <translation>Неочікуваний символ &apos;%1&apos; на початку рядка</translation>
+        <translation type="obsolete">Неочікуваний символ &apos;%1&apos; на початку рядка</translation>
     </message>
 </context>
 <context>
     <name>CppCodeMarker</name>
     <message>
         <source>Base class of QML class &apos;%1&apos; is ambgiguous</source>
-        <translation>Неоднозначний базовий клас для класу QML &apos;%1&apos;</translation>
+        <translation type="obsolete">Неоднозначний базовий клас для класу QML &apos;%1&apos;</translation>
     </message>
 </context>
 <context>
     <name>CppCodeParser</name>
     <message>
         <source>Cannot open C++ header file &apos;%1&apos;</source>
-        <translation>Неможливо відкрити файл заголовків C++ &apos;%1&apos;</translation>
+        <translation type="obsolete">Неможливо відкрити файл заголовків C++ &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Cannot open C++ source file &apos;%1&apos; (%2)</source>
-        <translation>Неможливо відкрити файл коду C++ &apos;%1&apos; (%2)</translation>
+        <translation type="obsolete">Неможливо відкрити файл коду C++ &apos;%1&apos; (%2)</translation>
     </message>
     <message>
         <source>Invalid syntax in &apos;\%1&apos;</source>
-        <translation>Неправильний синтаксис в &apos;\%1&apos;</translation>
+        <translation type="obsolete">Неправильний синтаксис в &apos;\%1&apos;</translation>
     </message>
     <message>
         <source>Cannot find &apos;%1&apos; in &apos;\%2&apos; %3</source>
-        <translation>Неможливо знайти &apos;%1&apos; в &apos;\%2&apos; %3</translation>
+        <translation type="obsolete">Неможливо знайти &apos;%1&apos; в &apos;\%2&apos; %3</translation>
     </message>
     <message>
         <source>I cannot find any function of that name with the specified signature. Make sure that the signature is identical to the declaration, including &apos;const&apos; qualifiers.</source>
-        <translation>Неможливо знайти жодної функції з таким іменем та вказаною сигнатурою. Переконайтесь, що сигнатура ідентична до оголошення, включно зі специфікаторами &apos;const&apos;.</translation>
+        <translation type="obsolete">Неможливо знайти жодної функції з таким іменем та вказаною сигнатурою. Переконайтесь, що сигнатура ідентична до оголошення, включно зі специфікаторами &apos;const&apos;.</translation>
     </message>
     <message>
         <source>Missing &apos;%1::&apos; for &apos;%2&apos; in &apos;\%3&apos;</source>
-        <translation>Відсутнє &apos;%1::&apos; для &apos;%2&apos; в &apos;\%3&apos;</translation>
+        <translation type="obsolete">Відсутнє &apos;%1::&apos; для &apos;%2&apos; в &apos;\%3&apos;</translation>
     </message>
     <message>
         <source>Cannot find &apos;%1&apos; specified with &apos;\%2&apos; in any header file</source>
-        <translation>Неможливо знайти &apos;%1&apos; вказане з &apos;\%2&apos; в будь-якому файлі заголовків</translation>
+        <translation type="obsolete">Неможливо знайти &apos;%1&apos; вказане з &apos;\%2&apos; в будь-якому файлі заголовків</translation>
     </message>
     <message>
         <source>\qmlclass is deprecated; use \qmltype instead</source>
-        <translation>\qmlclass застаріло; вживайте \qmltype</translation>
+        <translation type="obsolete">\qmlclass застаріло; вживайте \qmltype</translation>
     </message>
     <message>
         <source>\qmltype no longer has a 2nd argument; use &apos;\instantiates &lt;class&gt;&apos; in \qmltype comments instead</source>
-        <translation>\qmltype більше не має другого аргументу; використовуйте &apos;\instantiates &lt;class&gt;&apos; в коментарях \qmltype</translation>
+        <translation type="obsolete">\qmltype більше не має другого аргументу; використовуйте &apos;\instantiates &lt;class&gt;&apos; в коментарях \qmltype</translation>
     </message>
     <message>
         <source>The 0 arg is no longer used for indicating that the QML type does not instantiate a C++ class</source>
-        <translation>Аргумент 0 більше не використовується для вказівки, що тип QML не інстанціює клас C++</translation>
+        <translation type="obsolete">Аргумент 0 більше не використовується для вказівки, що тип QML не інстанціює клас C++</translation>
     </message>
     <message>
         <source>QML property documented multiple times: &apos;%1&apos;</source>
-        <translation>Властивість QML задокументовано декілька раз: &apos;%1&apos;</translation>
+        <translation type="obsolete">Властивість QML задокументовано декілька раз: &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Ignored &apos;\%1&apos;</source>
-        <translation>Проігноровано &apos;\%1&apos;</translation>
+        <translation type="obsolete">Проігноровано &apos;\%1&apos;</translation>
     </message>
     <message>
         <source>Cannot find base function for &apos;\%1&apos; in %2()</source>
-        <translation>Неможливо знайти базову функцію для &apos;\%1&apos; в %2()</translation>
+        <translation type="obsolete">Неможливо знайти базову функцію для &apos;\%1&apos; в %2()</translation>
     </message>
     <message>
         <source>The function either doesn&apos;t exist in any base class with the same signature or it exists but isn&apos;t virtual.</source>
-        <translation>Функція з такою сигнатурою або не існує в жодному базовому класі, або існує, але не є віртуальною.</translation>
+        <translation type="obsolete">Функція з такою сигнатурою або не існує в жодному базовому класі, або існує, але не є віртуальною.</translation>
     </message>
     <message>
         <source>&apos;\%1&apos; in %2() should be &apos;\internal&apos; because its base function is private or internal</source>
-        <translation>&apos;\%1&apos; в %2() має бути &apos;\internal&apos;, оскільки її базова функція приватна або внутрішня</translation>
+        <translation type="obsolete">&apos;\%1&apos; в %2() має бути &apos;\internal&apos;, оскільки її базова функція приватна або внутрішня</translation>
     </message>
     <message>
         <source>Ignored &apos;\%1&apos; in %2</source>
-        <translation>Проігноровано &apos;\%1&apos; в %2</translation>
+        <translation type="obsolete">Проігноровано &apos;\%1&apos; в %2</translation>
     </message>
     <message>
         <source>Cannot find &apos;%1&apos; in &apos;\%2&apos;</source>
-        <translation>Неможливо знайти &apos;%1&apos; в &apos;\%2&apos;</translation>
+        <translation type="obsolete">Неможливо знайти &apos;%1&apos; в &apos;\%2&apos;</translation>
     </message>
     <message>
         <source>%1 tries to inherit itself</source>
-        <translation>%1 намагається успадкувати сам себе</translation>
+        <translation type="obsolete">%1 намагається успадкувати сам себе</translation>
     </message>
     <message>
         <source>C++ class %1 not found: \instantiates %1</source>
-        <translation>Не знайдено клас C++ %1: \instantiates %1</translation>
+        <translation type="obsolete">Не знайдено клас C++ %1: \instantiates %1</translation>
     </message>
     <message>
         <source>\instantiates is only allowed in \qmltype</source>
-        <translation>\instantiates дозволена лише в \qmltype</translation>
+        <translation type="obsolete">\instantiates дозволена лише в \qmltype</translation>
     </message>
     <message>
         <source>Invalid revision number: %1</source>
-        <translation>Неправильний номер ревізії: %1</translation>
+        <translation type="obsolete">Неправильний номер ревізії: %1</translation>
     </message>
     <message>
         <source>Cannot tie this documentation to anything</source>
-        <translation>Неможливо прив&apos;язати цю документацію до будь-чого</translation>
+        <translation type="obsolete">Неможливо прив&apos;язати цю документацію до будь-чого</translation>
     </message>
     <message>
         <source>I found a /*! ... */ comment, but there was no topic command (e.g., &apos;\%1&apos;, &apos;\%2&apos;) in the comment and no function definition following the comment.</source>
-        <translation>Знайдено коментар /*! ... */, однак в коментарі відсутня команда теми (наприклад, &apos;\%1&apos;, &apos;\%2&apos;) і немає визначення функції після коментаря.</translation>
+        <translation type="obsolete">Знайдено коментар /*! ... */, однак в коментарі відсутня команда теми (наприклад, &apos;\%1&apos;, &apos;\%2&apos;) і немає визначення функції після коментаря.</translation>
     </message>
     <message>
         <source>Multiple topic commands found in comment: %1</source>
-        <translation>Декілька команд теми знайдено в коментарі: %1</translation>
+        <translation type="obsolete">Декілька команд теми знайдено в коментарі: %1</translation>
     </message>
     <message>
         <source>The qiterator.h hack failed</source>
-        <translation>Збій хаку qiterator.h</translation>
+        <translation type="obsolete">Збій хаку qiterator.h</translation>
     </message>
     <message>
         <source>Cannot find file &apos;%1&apos; or &apos;%2&apos;</source>
-        <translation>Неможливо знайти файл &apos;%1&apos; або &apos;\%2&apos;</translation>
+        <translation type="obsolete">Неможливо знайти файл &apos;%1&apos; або &apos;\%2&apos;</translation>
     </message>
     <message>
         <source>  EXAMPLE PATH DOES NOT EXIST: %1</source>
-        <translation>  ШЛЯХ ДО ПРИКЛАДУ НЕ ІСНУЄ: %1</translation>
+        <translation type="obsolete">  ШЛЯХ ДО ПРИКЛАДУ НЕ ІСНУЄ: %1</translation>
     </message>
 </context>
 <context>
     <name>DitaXmlGenerator</name>
     <message>
         <source>Missing image: %1</source>
-        <translation>Відсутнє зображення: %1</translation>
+        <translation type="obsolete">Відсутнє зображення: %1</translation>
     </message>
     <message>
         <source>Can&apos;t link to &apos;%1&apos;</source>
-        <translation>Неможливо зв&apos;язати з &apos;%1&apos;</translation>
+        <translation type="obsolete">Неможливо зв&apos;язати з &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Cannot link to &apos;%1&apos;</source>
-        <translation>Неможливо зв&apos;язати з &apos;%1&apos;</translation>
+        <translation type="obsolete">Неможливо зв&apos;язати з &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Pop of empty XML tag stack; generating DITA for &apos;%1&apos;</source>
-        <translation>Виштовхування з пустого стеку тегів XML; генерування DITA для &apos;%1&apos;</translation>
+        <translation type="obsolete">Виштовхування з пустого стеку тегів XML; генерування DITA для &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Link to obsolete item &apos;%1&apos; in %2</source>
-        <translation>Зв&apos;язок із застарілим елементом &apos;%1&apos; в %2</translation>
+        <translation type="obsolete">Зв&apos;язок із застарілим елементом &apos;%1&apos; в %2</translation>
     </message>
 </context>
 <context>
     <name>Doc</name>
     <message>
         <source>Command name &apos;\%1&apos; cannot stand for both &apos;\%2&apos; and &apos;\%3&apos;</source>
-        <translation>Назва команди &apos;\%1&apos; не може одночасно використовуватись для &apos;\%2&apos; та &apos;\%3&apos;</translation>
+        <translation type="obsolete">Назва команди &apos;\%1&apos; не може одночасно використовуватись для &apos;\%2&apos; та &apos;\%3&apos;</translation>
     </message>
     <message>
         <source>command %1 missing</source>
-        <translation>відсутня команда %1</translation>
+        <translation type="obsolete">відсутня команда %1</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>типово</translation>
+        <translation type="obsolete">типово</translation>
     </message>
     <message>
         <source>Macro &apos;\%1&apos; takes inconsistent number of arguments (%2 %3, %4 %5)</source>
-        <translation>Макрос &apos;\%1&apos; має несумісну кількість аргументів (%2 %3, %4 %5)</translation>
+        <translation type="obsolete">Макрос &apos;\%1&apos; має несумісну кількість аргументів (%2 %3, %4 %5)</translation>
     </message>
     <message>
         <source>Cannot find file to quote from: &apos;%1&apos;</source>
-        <translation>Неможливо знайти файл для цитування з: &apos;%1&apos;</translation>
+        <translation type="obsolete">Неможливо знайти файл для цитування з: &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Cannot open file to quote from: &apos;%1&apos;</source>
-        <translation>Неможливо відкрити файл для цитування з: &apos;%1&apos;</translation>
+        <translation type="obsolete">Неможливо відкрити файл для цитування з: &apos;%1&apos;</translation>
     </message>
 </context>
 <context>
     <name>DocParser</name>
     <message>
         <source>&apos;\bold&apos; is deprecated. Use &apos;\b&apos;</source>
-        <translation>&apos;\bold&apos; застаріло. Вживайте &apos;\b&apos;</translation>
+        <translation type="obsolete">&apos;\bold&apos; застаріло. Вживайте &apos;\b&apos;</translation>
     </message>
     <message>
         <source>Unexpected &apos;\%1&apos;</source>
-        <translation>Неочікуваний &apos;\%1&apos;</translation>
+        <translation type="obsolete">Неочікуваний &apos;\%1&apos;</translation>
     </message>
     <message>
         <source>Cannot use &apos;\%1&apos; within &apos;\%2&apos;</source>
-        <translation>Не можна вживати &apos;\%1&apos; всередині &apos;\%2&apos;</translation>
+        <translation type="obsolete">Не можна вживати &apos;\%1&apos; всередині &apos;\%2&apos;</translation>
     </message>
     <message>
         <source>Cannot use &apos;\%1&apos; outside of &apos;\%2&apos;</source>
-        <translation>Не можна вживати &apos;\%1&apos; поза &apos;\%2&apos;</translation>
+        <translation type="obsolete">Не можна вживати &apos;\%1&apos; поза &apos;\%2&apos;</translation>
     </message>
     <message>
         <source>&apos;\i&apos; is deprecated. Use &apos;\e&apos; for italic or &apos;\li&apos; for list item</source>
-        <translation>&apos;\i&apos; застаріло. Вживайте &apos;\e&apos; для курсиву або &apos;\li&apos; для елемента списку</translation>
+        <translation type="obsolete">&apos;\i&apos; застаріло. Вживайте &apos;\e&apos; для курсиву або &apos;\li&apos; для елемента списку</translation>
     </message>
     <message>
         <source>&apos;\o&apos; is deprecated. Use &apos;\li&apos;</source>
-        <translation>&apos;\o&apos; застаріло. Вживайте &apos;\li&apos;</translation>
+        <translation type="obsolete">&apos;\o&apos; застаріло. Вживайте &apos;\li&apos;</translation>
     </message>
     <message>
         <source>Missing &apos;\%1&apos; or &apos;\%1&apos; before &apos;\%3&apos;</source>
-        <translation>Відсутнє &apos;\%1&apos; або &apos;\%1&apos; перед &apos;\%3&apos;</translation>
+        <translation type="obsolete">Відсутнє &apos;\%1&apos; або &apos;\%1&apos; перед &apos;\%3&apos;</translation>
     </message>
     <message>
         <source>Command &apos;\%1&apos; outside of &apos;\%2&apos; and &apos;\%3&apos;</source>
-        <translation>Команда &apos;\%1&apos; поза &apos;\%2&apos; або &apos;\%3&apos;</translation>
+        <translation type="obsolete">Команда &apos;\%1&apos; поза &apos;\%2&apos; або &apos;\%3&apos;</translation>
     </message>
     <message>
         <source>Missing format name after &apos;\%1</source>
-        <translation>Відсутня назва формату після &apos;\%1</translation>
+        <translation type="obsolete">Відсутня назва формату після &apos;\%1</translation>
     </message>
     <message>
         <source>Invalid Unicode character &apos;%1&apos; specified with &apos;%2&apos;</source>
-        <translation>Неправильний символ Unicode &apos;%1&apos; заданий з &apos;%2&apos;</translation>
+        <translation type="obsolete">Неправильний символ Unicode &apos;%1&apos; заданий з &apos;%2&apos;</translation>
     </message>
     <message>
         <source>Macro cannot have both format-specific and qdoc- syntax definitions</source>
-        <translation>Макрос не може одночасно містити визначення, що задають форматування та синтаксис qdoc</translation>
+        <translation type="obsolete">Макрос не може одночасно містити визначення, що задають форматування та синтаксис qdoc</translation>
     </message>
     <message>
         <source>Unknown command &apos;\%1&apos;</source>
-        <translation>Невідома команда &apos;\%1&apos;</translation>
+        <translation type="obsolete">Невідома команда &apos;\%1&apos;</translation>
     </message>
     <message>
         <source>Missing &apos;\%1&apos;</source>
-        <translation>Відсутнє &apos;\%1&apos;</translation>
+        <translation type="obsolete">Відсутнє &apos;\%1&apos;</translation>
     </message>
     <message>
         <source>The command &apos;\%1&apos; was renamed &apos;\%2&apos; by the configuration file. Use the new name.</source>
-        <translation>Команду &apos;\%1&apos; було перейменовано на &apos;\%2&apos; в конфігураційному файлі. Використовуйте нове ім&apos;я.</translation>
+        <translation type="obsolete">Команду &apos;\%1&apos; було перейменовано на &apos;\%2&apos; в конфігураційному файлі. Використовуйте нове ім&apos;я.</translation>
     </message>
     <message>
         <source>Maybe you meant &apos;\%1&apos;?</source>
-        <translation>Можливо, ви мали на увазі &apos;\%1&apos;?</translation>
+        <translation type="obsolete">Можливо, ви мали на увазі &apos;\%1&apos;?</translation>
     </message>
     <message>
         <source>Duplicate target name &apos;%1&apos;</source>
-        <translation>Дубльована назва цілі &apos;%1&apos;</translation>
+        <translation type="obsolete">Дубльована назва цілі &apos;%1&apos;</translation>
     </message>
     <message>
         <source>(The previous occurrence is here)</source>
-        <translation>(Попередній збіг тут)</translation>
+        <translation type="obsolete">(Попередній збіг тут)</translation>
     </message>
     <message>
         <source>Too many nested &apos;\%1&apos;s</source>
-        <translation>Забагато вкладених &apos;\%1&apos;</translation>
+        <translation type="obsolete">Забагато вкладених &apos;\%1&apos;</translation>
     </message>
     <message>
         <source>Cannot find qdoc include file &apos;%1&apos;</source>
-        <translation>Неможливо знайти файл-включення qdoc &apos;%1&apos;</translation>
+        <translation type="obsolete">Неможливо знайти файл-включення qdoc &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Cannot open qdoc include file &apos;%1&apos;</source>
-        <translation>Неможливо відкрити файл-включення qdoc &apos;%1&apos;</translation>
+        <translation type="obsolete">Неможливо відкрити файл-включення qdoc &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Cannot find &apos;%1&apos; in &apos;%2&apos;</source>
-        <translation>Неможливо знайти &apos;%1&apos; в &apos;%2&apos;</translation>
+        <translation type="obsolete">Неможливо знайти &apos;%1&apos; в &apos;%2&apos;</translation>
     </message>
     <message>
         <source>Empty qdoc snippet &apos;%1&apos; in &apos;%2&apos;</source>
-        <translation>Порожній фрагмент qdoc %1&apos; в &apos;%2&apos;</translation>
+        <translation type="obsolete">Порожній фрагмент qdoc %1&apos; в &apos;%2&apos;</translation>
     </message>
     <message>
         <source>Cannot nest &apos;\%1&apos; commands</source>
-        <translation>Не можна робити команди &apos;\%1&apos; вкладеними</translation>
+        <translation type="obsolete">Не можна робити команди &apos;\%1&apos; вкладеними</translation>
     </message>
     <message>
         <source>Can&apos;t use &apos;\%1&apos; in &apos;\%2&apos;</source>
-        <translation>Не можна вживати &apos;\%1&apos; в &apos;\%2&apos;</translation>
+        <translation type="obsolete">Не можна вживати &apos;\%1&apos; в &apos;\%2&apos;</translation>
     </message>
     <message>
         <source>Missing &apos;\%1&apos; before &apos;\%2&apos;</source>
-        <translation>Відсутнє &apos;\%1&apos; перед &apos;\%2&apos;</translation>
+        <translation type="obsolete">Відсутнє &apos;\%1&apos; перед &apos;\%2&apos;</translation>
     </message>
     <message>
         <source>Missing comma in &apos;\%1&apos;</source>
-        <translation>Відсутня кома в &apos;\%1&apos;</translation>
+        <translation type="obsolete">Відсутня кома в &apos;\%1&apos;</translation>
     </message>
     <message>
         <source>Missing &apos;}&apos;</source>
-        <translation>Відсутня &apos;}&apos;</translation>
+        <translation type="obsolete">Відсутня &apos;}&apos;</translation>
     </message>
     <message>
         <source>Macro &apos;\%1&apos; invoked with too few arguments (expected %2, got %3)</source>
-        <translation>Макрос &apos;\%1&apos; вжито з недостатньою кількістю аргументів (очікувалось %2, а вказано %3)</translation>
+        <translation type="obsolete">Макрос &apos;\%1&apos; вжито з недостатньою кількістю аргументів (очікувалось %2, а вказано %3)</translation>
     </message>
     <message>
         <source>Invalid section &apos;%1&apos;</source>
-        <translation>Неправильна секція &apos;%1&apos;</translation>
+        <translation type="obsolete">Неправильна секція &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Unbalanced parentheses in &apos;%1&apos;</source>
-        <translation>Неузгоджені круглі дужки в &apos;%1&apos;</translation>
+        <translation type="obsolete">Неузгоджені круглі дужки в &apos;%1&apos;</translation>
     </message>
 </context>
 <context>
     <name>Generator</name>
     <message>
         <source>Cannot open output file &apos;%1&apos;</source>
-        <translation>Неможливо відкрити вихідний файл &apos;%1&apos;</translation>
+        <translation type="obsolete">Неможливо відкрити вихідний файл &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Output format %1 not handled %2</source>
-        <translation>Вихідний формат %1 не обробляється %2</translation>
+        <translation type="obsolete">Вихідний формат %1 не обробляється %2</translation>
     </message>
     <message>
         <source>No documentation for &apos;%1&apos;</source>
-        <translation>Відсутня документація для &apos;%1&apos;</translation>
+        <translation type="obsolete">Відсутня документація для &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Maybe you meant &apos;%1&apos;?</source>
-        <translation>Можливо, ви мали на увазі &apos;%1&apos;?</translation>
+        <translation type="obsolete">Можливо, ви мали на увазі &apos;%1&apos;?</translation>
     </message>
     <message>
         <source>No such enum item &apos;%1&apos; in %2</source>
-        <translation>Немає такого елемента переліку &apos;%1&apos; в %2</translation>
+        <translation type="obsolete">Немає такого елемента переліку &apos;%1&apos; в %2</translation>
     </message>
     <message>
         <source>Undocumented enum item &apos;%1&apos; in %2</source>
-        <translation>Недокументований елемент переліку &apos;%1&apos; в %2</translation>
+        <translation type="obsolete">Недокументований елемент переліку &apos;%1&apos; в %2</translation>
     </message>
     <message>
         <source>Missing parameter name</source>
-        <translation>Відсутня назва параметра</translation>
+        <translation type="obsolete">Відсутня назва параметра</translation>
     </message>
     <message>
         <source>No such parameter &apos;%1&apos; in %2</source>
-        <translation>Немає такого параметра &apos;%1&apos; в %2</translation>
+        <translation type="obsolete">Немає такого параметра &apos;%1&apos; в %2</translation>
     </message>
     <message>
         <source>Undocumented parameter &apos;%1&apos; in %2</source>
-        <translation>Недокументований параметр &apos;%1&apos; в %2</translation>
+        <translation type="obsolete">Недокументований параметр &apos;%1&apos; в %2</translation>
     </message>
     <message>
         <source>Undocumented return value</source>
-        <translation>Недокументоване значення, що повертаєтсья</translation>
+        <translation type="obsolete">Недокументоване значення, що повертаєтсья</translation>
     </message>
     <message>
         <source>Cannot create output directory &apos;%1&apos;</source>
-        <translation>Неможливо створити вихідну теку &apos;%1&apos;</translation>
+        <translation type="obsolete">Неможливо створити вихідну теку &apos;%1&apos;</translation>
     </message>
     <message>
         <source>No output directory specified in configuration file or on the command line</source>
-        <translation>Вихідна тека не вказана ані в конфігураційному файлі, ані в командному рядку</translation>
+        <translation type="obsolete">Вихідна тека не вказана ані в конфігураційному файлі, ані в командному рядку</translation>
     </message>
     <message>
         <source>Cannot empty output directory &apos;%1&apos;</source>
-        <translation>Неможливо спорожнити вихідну теку &apos;%1&apos;</translation>
+        <translation type="obsolete">Неможливо спорожнити вихідну теку &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Cannot create images directory &apos;%1&apos;</source>
-        <translation>Неможливо створити теку зображень &apos;%1&apos;</translation>
+        <translation type="obsolete">Неможливо створити теку зображень &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Cannot create images used in examples directory &apos;%1&apos;</source>
-        <translation>Неможливо створити зображення, що використовуються в теці прикладів &apos;%1&apos;</translation>
+        <translation type="obsolete">Неможливо створити зображення, що використовуються в теці прикладів &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Cannot create scripts directory &apos;%1&apos;</source>
-        <translation>Неможливо створити теку скриптів &apos;%1&apos;</translation>
+        <translation type="obsolete">Неможливо створити теку скриптів &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Cannot create style directory &apos;%1&apos;</source>
-        <translation>Неможливо створити теку стилів &apos;%1&apos;</translation>
+        <translation type="obsolete">Неможливо створити теку стилів &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Formatting &apos;%1&apos; must have exactly one parameter (found %2)</source>
-        <translation>Форматування &apos;%1&apos; повинно мати лише одне параметр (знайдено %2)</translation>
+        <translation type="obsolete">Форматування &apos;%1&apos; повинно мати лише одне параметр (знайдено %2)</translation>
     </message>
     <message>
         <source>Formatting &apos;%1&apos; must contain exactly one occurrence of &apos;\1&apos; (found %2)</source>
-        <translation>Форматування &apos;%1&apos; повинно містити лише одне вживання &apos;\1&apos; (знайдено %2)</translation>
+        <translation type="obsolete">Форматування &apos;%1&apos; повинно містити лише одне вживання &apos;\1&apos; (знайдено %2)</translation>
     </message>
     <message>
         <source>unknown atom type &apos;%1&apos; in %2 generator</source>
-        <translation>невідомий тип атома &apos;%1&apos; в генераторі %2</translation>
+        <translation type="obsolete">невідомий тип атома &apos;%1&apos; в генераторі %2</translation>
     </message>
 </context>
 <context>
     <name>HelpProjectWriter</name>
     <message>
         <source>Bad keyword in %1</source>
-        <translation>Невірне ключове слово в %1</translation>
+        <translation type="obsolete">Невірне ключове слово в %1</translation>
     </message>
     <message>
         <source>%1::%2 Class Reference</source>
-        <translation>Опис класу %1::%2</translation>
+        <translation type="obsolete">Опис класу %1::%2</translation>
     </message>
     <message>
         <source>%1 Class Reference</source>
-        <translation>Опис класу %1</translation>
+        <translation type="obsolete">Опис класу %1</translation>
     </message>
     <message>
         <source>List of all members</source>
-        <translation>Список усіх членів</translation>
+        <translation type="obsolete">Список усіх членів</translation>
     </message>
     <message>
         <source>Compatibility members</source>
-        <translation>Члени для сумісності</translation>
+        <translation type="obsolete">Члени для сумісності</translation>
     </message>
     <message>
         <source>Obsolete members</source>
-        <translation>Застарілі члени</translation>
+        <translation type="obsolete">Застарілі члени</translation>
     </message>
     <message>
         <source>%1 Type Reference</source>
-        <translation>Опис типу %1</translation>
+        <translation type="obsolete">Опис типу %1</translation>
     </message>
     <message>
         <source>Failed to find index: %1</source>
-        <translation>Збій знаходження індексу: %1</translation>
+        <translation type="obsolete">Збій знаходження індексу: %1</translation>
     </message>
 </context>
 <context>
     <name>HtmlGenerator</name>
     <message>
         <source><byte value="x7"/>bstract is not implemented.</source>
-        <translation>\abstract не реалізовано.</translation>
+        <translation type="obsolete">\abstract не реалізовано.</translation>
     </message>
     <message>
         <source>Missing image: %1</source>
-        <translation>Відсутнє зображення: %1</translation>
+        <translation type="obsolete">Відсутнє зображення: %1</translation>
     </message>
     <message>
         <source>Can&apos;t link to &apos;%1&apos;</source>
-        <translation>Неможливо зв&apos;язати з &apos;%1&apos;</translation>
+        <translation type="obsolete">Неможливо зв&apos;язати з &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Cannot link to &apos;%1&apos;</source>
-        <translation>Неможливо зв&apos;язати з &apos;%1&apos;</translation>
+        <translation type="obsolete">Неможливо зв&apos;язати з &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Link to obsolete item &apos;%1&apos; in %2</source>
-        <translation>Зв&apos;язок із застарілим елементом &apos;%1&apos; в %2</translation>
+        <translation type="obsolete">Зв&apos;язок із застарілим елементом &apos;%1&apos; в %2</translation>
     </message>
     <message>
         <source>Global enum, %1, %2</source>
-        <translation>Глобальний перелік, %1, %2</translation>
+        <translation type="obsolete">Глобальний перелік, %1, %2</translation>
     </message>
     <message>
         <source>Global typedef, %1, %2</source>
-        <translation>Глобальне визначення типу, %1, %2</translation>
+        <translation type="obsolete">Глобальне визначення типу, %1, %2</translation>
     </message>
     <message>
         <source>Global macro, %1, %2</source>
-        <translation>Глобальний макрос, %1, %2</translation>
+        <translation type="obsolete">Глобальний макрос, %1, %2</translation>
     </message>
     <message>
         <source>Global function, %1(), %2</source>
-        <translation>Глобальна функція, %1(), %2</translation>
+        <translation type="obsolete">Глобальна функція, %1(), %2</translation>
     </message>
     <message>
         <source>Global variable, %1, %2</source>
-        <translation>Глобальна змінна, %1, %2</translation>
+        <translation type="obsolete">Глобальна змінна, %1, %2</translation>
     </message>
     <message>
         <source>Global QML property, %1, %2</source>
-        <translation>Глобальна властивість QML, %1, %2</translation>
+        <translation type="obsolete">Глобальна властивість QML, %1, %2</translation>
     </message>
     <message>
         <source>Global QML, signal, %1 %2</source>
-        <translation>Глобальний сигнал QML, %1, %2</translation>
+        <translation type="obsolete">Глобальний сигнал QML, %1, %2</translation>
     </message>
     <message>
         <source>Global QML signal handler, %1, %2</source>
-        <translation>Глобальний обробник сигналу QML, %1, %2</translation>
+        <translation type="obsolete">Глобальний обробник сигналу QML, %1, %2</translation>
     </message>
     <message>
         <source>Global QML method, %1, %2</source>
-        <translation>Глобальний метод QML, %1, %2</translation>
+        <translation type="obsolete">Глобальний метод QML, %1, %2</translation>
     </message>
 </context>
 <context>
     <name>JsCodeMarker</name>
     <message>
         <source>Unable to parse JavaScript: &quot;%1&quot; at line %2, column %3</source>
-        <translation>Неможливо розібрати JavaScript: &quot;%1&quot; в рядку %2, стовбець %3</translation>
+        <translation type="obsolete">Неможливо розібрати JavaScript: &quot;%1&quot; в рядку %2, стовбець %3</translation>
     </message>
 </context>
 <context>
     <name>Location</name>
     <message>
         <source>Invalid regular expression &apos;%1&apos;</source>
-        <translation>Неправильний регулярний вираз ’%1’</translation>
+        <translation type="obsolete">Неправильний регулярний вираз ’%1’</translation>
     </message>
     <message>
         <source>Internal error (%1)</source>
-        <translation>Внутрішня помилка (%1)</translation>
+        <translation type="obsolete">Внутрішня помилка (%1)</translation>
     </message>
     <message>
         <source>There is a bug in %1. Seek advice from your local %2 guru.</source>
-        <translation>Помилка в %1. Зверніться за порадою до вашого місцевого фахівця по %2.</translation>
+        <translation type="obsolete">Помилка в %1. Зверніться за порадою до вашого місцевого фахівця по %2.</translation>
     </message>
     <message>
         <source>: error: </source>
-        <translation>: помилка: </translation>
+        <translation type="obsolete">: помилка: </translation>
     </message>
     <message>
         <source>: warning: </source>
-        <translation>: попередження: </translation>
+        <translation type="obsolete">: попередження: </translation>
     </message>
     <message>
         <source>In file included from </source>
-        <translation>В файлі включеном з </translation>
+        <translation type="obsolete">В файлі включеном з </translation>
     </message>
     <message>
         <source>,</source>
-        <translation>,</translation>
+        <translation type="obsolete">,</translation>
     </message>
     <message>
         <source>:</source>
-        <translation>:</translation>
+        <translation type="obsolete">:</translation>
+    </message>
+</context>
+<context>
+    <name>MAC_APPLICATION_MENU</name>
+    <message>
+        <source>Services</source>
+        <translation>Служби</translation>
+    </message>
+    <message>
+        <source>Hide %1</source>
+        <translation>Сховати %1</translation>
+    </message>
+    <message>
+        <source>Hide Others</source>
+        <translation>Сховати інші</translation>
+    </message>
+    <message>
+        <source>Show All</source>
+        <translation>Показати все</translation>
+    </message>
+    <message>
+        <source>Preferences...</source>
+        <translation>Налаштування...</translation>
+    </message>
+    <message>
+        <source>Quit %1</source>
+        <translation>Вихід з %1</translation>
+    </message>
+    <message>
+        <source>About %1</source>
+        <translation>Про %1</translation>
     </message>
 </context>
 <context>
     <name>MetaStack</name>
     <message>
         <source>Unexpected &apos;}&apos;</source>
-        <translation>Неочікувана &apos;}&apos;</translation>
+        <translation type="obsolete">Неочікувана &apos;}&apos;</translation>
     </message>
     <message>
         <source>Missing &apos;}&apos;</source>
-        <translation>Відсутня &apos;}&apos;</translation>
+        <translation type="obsolete">Відсутня &apos;}&apos;</translation>
     </message>
 </context>
 <context>
     <name>Node</name>
     <message>
         <source>Overrides a previous doc</source>
-        <translation>Заміщує попередній doc</translation>
+        <translation type="obsolete">Заміщує попередній doc</translation>
     </message>
     <message>
         <source>(The previous doc is here)</source>
-        <translation>(Попередній doc тут)</translation>
+        <translation type="obsolete">(Попередній doc тут)</translation>
     </message>
 </context>
 <context>
     <name>OpenedList</name>
     <message>
         <source>Unrecognized list style &apos;%1&apos;</source>
-        <translation>Нерозпізнаний стиль списку &apos;%1&apos;</translation>
+        <translation type="obsolete">Нерозпізнаний стиль списку &apos;%1&apos;</translation>
     </message>
 </context>
 <context>
     <name>PureDocParser</name>
     <message>
         <source>Can&apos;t open source file &apos;%1&apos; (%2)</source>
-        <translation>Неможливо відкрити вхідний файл &apos;%1&apos; (%2)</translation>
+        <translation type="obsolete">Неможливо відкрити вхідний файл &apos;%1&apos; (%2)</translation>
     </message>
     <message>
         <source>This qdoc comment contains no topic command (e.g., &apos;\%1&apos;, &apos;\%2&apos;).</source>
-        <translation>Цей коментар qdoc не містить команди теми (наприклад, &apos;\%1&apos; або &apos;\%2&apos;).</translation>
+        <translation type="obsolete">Цей коментар qdoc не містить команди теми (наприклад, &apos;\%1&apos; або &apos;\%2&apos;).</translation>
     </message>
 </context>
 <context>
@@ -761,6 +792,45 @@
     <message>
         <source>Incompatible Qt Library Error</source>
         <translation>Несумісна бібліотека Qt</translation>
+    </message>
+</context>
+<context>
+    <name>QCocoaMenuItem</name>
+    <message>
+        <source>About Qt</source>
+        <translation>Про Qt</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Про</translation>
+    </message>
+    <message>
+        <source>Config</source>
+        <translation>Конфігурація</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Налаштування</translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation>Опції</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Налаштування</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Установки</translation>
+    </message>
+    <message>
+        <source>Quit</source>
+        <translation>Вихід</translation>
+    </message>
+    <message>
+        <source>Exit</source>
+        <translation>Вийти</translation>
     </message>
 </context>
 <context>
@@ -1134,11 +1204,11 @@
     <name>QDocDatabase</name>
     <message>
         <source>This page exists in more than one file: &quot;%1&quot;</source>
-        <translation>Ця сторінка існує більше ніж в одному файлі: &quot;%1&quot;</translation>
+        <translation type="obsolete">Ця сторінка існує більше ніж в одному файлі: &quot;%1&quot;</translation>
     </message>
     <message>
         <source>[It also exists here]</source>
-        <translation>[Також існує тут]</translation>
+        <translation type="obsolete">[Також існує тут]</translation>
     </message>
 </context>
 <context>
@@ -1167,8 +1237,24 @@
 <context>
     <name>QFile</name>
     <message>
+        <source>Destination file is the same file.</source>
+        <translation>Файл-отримувач співпадає з початковим.</translation>
+    </message>
+    <message>
+        <source>Source file does not exist.</source>
+        <translation>Файл-джерело не існує.</translation>
+    </message>
+    <message>
         <source>Destination file exists</source>
         <translation>Файл-отримувач існує</translation>
+    </message>
+    <message>
+        <source>Error while renaming.</source>
+        <translation>Помилка під час перейменування.</translation>
+    </message>
+    <message>
+        <source>Unable to restore from %1: %2</source>
+        <translation>Неможливо відновити з %1: %2</translation>
     </message>
     <message>
         <source>Will not rename sequential file using block copy</source>
@@ -1419,6 +1505,18 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Unknown</source>
         <translation>Невідомо</translation>
+    </message>
+    <message>
+        <source>Alt+Left</source>
+        <translation>Alt+Left</translation>
+    </message>
+    <message>
+        <source>Alt+Right</source>
+        <translation>Alt+Right</translation>
+    </message>
+    <message>
+        <source>Alt+Up</source>
+        <translation>Alt+Up</translation>
     </message>
 </context>
 <context>
@@ -2071,6 +2169,10 @@ Do you want to delete it anyway?</source>
         <source>too deeply nested document</source>
         <translation>завелика глибина вкладеності документа</translation>
     </message>
+    <message>
+        <source>too large document</source>
+        <translation>завеликий документ</translation>
+    </message>
 </context>
 <context>
     <name>QLibrary</name>
@@ -2407,8 +2509,12 @@ Do you want to delete it anyway?</source>
         <translation>&lt;h3&gt;Про Qt&lt;/h3&gt;&lt;p&gt;Ця програма використовує Qt версії %1.&lt;/p&gt;</translation>
     </message>
     <message>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is developed as an open source project on &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Qt - це інструментарій для крос-платформної розробки програм на C++.&lt;/p&gt;&lt;p&gt;Qt надає переносимість єдиного коду між усіма головними операційними системами для стаціонарних комп&apos;ютерів. Також, Qt доступна для вбудованих та мобільних операційних систем.&lt;/p&gt;&lt;p&gt;Qt доступна на умовах трьох різних опцій ліцензування з метою задоволення потреб наших різноманітних користувачів.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах нашої комерційної ліцензійної угоди придатна для розробки пропієтарного/комерційного програмного забезпечення тоді, коли ви не бажаєте надавати будь-який код третім сторонам чи коли не можете прийняти умови ліцензій GNU LGPL версії 2.1 чи GNU GPL версії 3.0.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах GNU LGPL версії 2.1 придатна для розробки програм на базі Qt за умови, що ви можете погодитись з вимогами та умовами GNU LGPL версії 2.1.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах GNU General Public License версії 3.0 придатна для розробки програм на базі Qt, коли ви бажаєте використовувати такі програми у поєднанні з програмним забезпеченням, що підпадає під вимоги GNU GPL версії 3.0 або коли ви бажаєте дотримуватись вимог GNU GPL версії 3.0.&lt;/p&gt;&lt;p&gt;Будь ласка, перегляньте &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; для огляду ліцензування Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc та/або її дочірні компанії.&lt;/p&gt;&lt;p&gt;Qt та логотип Qt є торговими марками Digia Plc та/або її дочірніх компаній.&lt;/p&gt;&lt;p&gt;Qt розробляєтсья як проект з відкритим кодом на &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt - це продукт Digia. Подивіться &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; для додаткової інформації.&lt;/p&gt;</translation>
+    </message>
+    <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is developed as an open source project on &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Qt - це інструментарій для крос-платформної розробки програм на C++.&lt;/p&gt;&lt;p&gt;Qt надає переносимість єдиного коду між усіма головними операційними системами для стаціонарних комп&apos;ютерів. Також, Qt доступна для вбудованих та мобільних операційних систем.&lt;/p&gt;&lt;p&gt;Qt доступна на умовах трьох різних опцій ліцензування з метою задоволення потреб наших різноманітних користувачів.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах нашої комерційної ліцензійної угоди придатна для розробки пропієтарного/комерційного програмного забезпечення тоді, коли ви не бажаєте надавати будь-який код третім сторонам чи коли не можете прийняти умови ліцензій GNU LGPL версії 2.1 чи GNU GPL версії 3.0.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах GNU LGPL версії 2.1 придатна для розробки програм на базі Qt за умови, що ви можете погодитись з вимогами та умовами GNU LGPL версії 2.1.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах GNU General Public License версії 3.0 придатна для розробки програм на базі Qt, коли ви бажаєте використовувати такі програми у поєднанні з програмним забезпеченням, що підпадає під вимоги GNU GPL версії 3.0 або коли ви бажаєте дотримуватись вимог GNU GPL версії 3.0.&lt;/p&gt;&lt;p&gt;Будь ласка, перегляньте &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; для огляду ліцензування Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc та/або її дочірні компанії.&lt;/p&gt;&lt;p&gt;Qt та логотип Qt є торговими марками Digia Plc та/або її дочірніх компаній.&lt;/p&gt;&lt;p&gt;Qt розробляєтсья як проект з відкритим кодом на &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt - це продукт Digia. Подивіться &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; для додаткової інформації.&lt;/p&gt;</translation>
+        <translation type="obsolete">&lt;p&gt;Qt - це інструментарій для крос-платформної розробки програм на C++.&lt;/p&gt;&lt;p&gt;Qt надає переносимість єдиного коду між усіма головними операційними системами для стаціонарних комп&apos;ютерів. Також, Qt доступна для вбудованих та мобільних операційних систем.&lt;/p&gt;&lt;p&gt;Qt доступна на умовах трьох різних опцій ліцензування з метою задоволення потреб наших різноманітних користувачів.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах нашої комерційної ліцензійної угоди придатна для розробки пропієтарного/комерційного програмного забезпечення тоді, коли ви не бажаєте надавати будь-який код третім сторонам чи коли не можете прийняти умови ліцензій GNU LGPL версії 2.1 чи GNU GPL версії 3.0.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах GNU LGPL версії 2.1 придатна для розробки програм на базі Qt за умови, що ви можете погодитись з вимогами та умовами GNU LGPL версії 2.1.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах GNU General Public License версії 3.0 придатна для розробки програм на базі Qt, коли ви бажаєте використовувати такі програми у поєднанні з програмним забезпеченням, що підпадає під вимоги GNU GPL версії 3.0 або коли ви бажаєте дотримуватись вимог GNU GPL версії 3.0.&lt;/p&gt;&lt;p&gt;Будь ласка, перегляньте &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; для огляду ліцензування Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc та/або її дочірні компанії.&lt;/p&gt;&lt;p&gt;Qt та логотип Qt є торговими марками Digia Plc та/або її дочірніх компаній.&lt;/p&gt;&lt;p&gt;Qt розробляєтсья як проект з відкритим кодом на &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt - це продукт Digia. Подивіться &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; для додаткової інформації.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About Qt</source>
@@ -2641,12 +2747,16 @@ Do you want to delete it anyway?</source>
         <source>Operation canceled</source>
         <translation>Операція скасована</translation>
     </message>
+    <message>
+        <source>No suitable proxy found</source>
+        <translation>Не знайдено придатного проксі-сервера</translation>
+    </message>
 </context>
 <context>
     <name>QNetworkReplyHttpImplPrivate</name>
     <message>
         <source>No suitable proxy found</source>
-        <translation>Не знайдено придатного проксі-сервера</translation>
+        <translation type="obsolete">Не знайдено придатного проксі-сервера</translation>
     </message>
 </context>
 <context>
@@ -2815,43 +2925,43 @@ Do you want to delete it anyway?</source>
     <name>QObject</name>
     <message>
         <source>Could not read image data</source>
-        <translation>Не вдалося прочитати дані зображення</translation>
+        <translation type="obsolete">Не вдалося прочитати дані зображення</translation>
     </message>
     <message>
         <source>Sequential device (eg socket) for image read not supported</source>
-        <translation>Не підтримується читання зображень з послідовних пристроїв (наприклад, сокетів)</translation>
+        <translation type="obsolete">Не підтримується читання зображень з послідовних пристроїв (наприклад, сокетів)</translation>
     </message>
     <message>
         <source>Seek file/device for image read failed</source>
-        <translation>Збій переміщення файлу/пристрою при читанні зображення</translation>
+        <translation type="obsolete">Збій переміщення файлу/пристрою при читанні зображення</translation>
     </message>
     <message>
         <source>Image mHeader read failed</source>
-        <translation>Збій читання mHeader зображення</translation>
+        <translation type="obsolete">Збій читання mHeader зображення</translation>
     </message>
     <message>
         <source>Image type not supported</source>
-        <translation>Тип зображення не підтримується</translation>
+        <translation type="obsolete">Тип зображення не підтримується</translation>
     </message>
     <message>
         <source>Image dpeth not valid</source>
-        <translation>Неправильна глибина кольору зображення</translation>
+        <translation type="obsolete">Неправильна глибина кольору зображення</translation>
     </message>
     <message>
         <source>Could not seek to image read footer</source>
-        <translation>Не вдалось переміститись до кінцівки зображення</translation>
+        <translation type="obsolete">Не вдалось переміститись до кінцівки зображення</translation>
     </message>
     <message>
         <source>Could not read footer</source>
-        <translation>Не вдалося прочитати кінцівку</translation>
+        <translation type="obsolete">Не вдалося прочитати кінцівку</translation>
     </message>
     <message>
         <source>Image type (non-TrueVision 2.0) not supported</source>
-        <translation>Тип зображення (відмінний від TrueVision 2.0) не підтримується</translation>
+        <translation type="obsolete">Тип зображення (відмінний від TrueVision 2.0) не підтримується</translation>
     </message>
     <message>
         <source>Could not reset to read data</source>
-        <translation>Не вдалось скинути, щоб прочитати дані</translation>
+        <translation type="obsolete">Не вдалось скинути, щоб прочитати дані</translation>
     </message>
 </context>
 <context>
@@ -3251,7 +3361,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Export to PostScript</source>
-        <translation>Експорт в PostScript</translation>
+        <translation type="obsolete">Експорт в PostScript</translation>
     </message>
 </context>
 <context>
@@ -3434,62 +3544,6 @@ Do you want to overwrite it?</source>
     </message>
 </context>
 <context>
-    <name>QQmlJS::Lexer</name>
-    <message>
-        <source>QQmlParser</source>
-        <comment>Illegal syntax for exponential number</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>QQmlParser</source>
-        <comment>Unclosed string at end of line</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>QQmlParser</source>
-        <comment>Illegal unicode escape sequence</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>QQmlParser</source>
-        <comment>Unterminated regular expression literal</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>QQmlParser</source>
-        <comment>Invalid regular expression flag &apos;%0&apos;</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>QQmlParser</source>
-        <comment>Unterminated regular expression backslash sequence</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>QQmlParser</source>
-        <comment>Unterminated regular expression class</comment>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>QQmlJS::Parser</name>
-    <message>
-        <source>QQmlParser</source>
-        <comment>Syntax error</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>QQmlParser</source>
-        <comment>Unexpected token `%1&apos;</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>QQmlParser</source>
-        <comment>Expected token `%1&apos;</comment>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>QQnxFileDialogHelper</name>
     <message>
         <source>CANCEL</source>
@@ -3575,7 +3629,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>number too big in {} quantifier</source>
-        <translation type="unfinished"></translation>
+        <translation>завелике число в кваліфікаторі {}</translation>
     </message>
     <message>
         <source>missing terminating ] for character class</source>
@@ -3647,7 +3701,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>lookbehind assertion is not fixed length</source>
-        <translation type="unfinished"></translation>
+        <translation>перевірка lookbehind має нефіксовану довжину</translation>
     </message>
     <message>
         <source>malformed number or name after (?(</source>
@@ -3659,7 +3713,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>assertion expected after (?(</source>
-        <translation type="unfinished"></translation>
+        <translation>очікувалась перевірка після (?(</translation>
     </message>
     <message>
         <source>(?R or (?[+-]digits must be followed by )</source>
@@ -3671,7 +3725,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>POSIX collating elements are not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>сортування елементів відповідно до POSIX не підтримується</translation>
     </message>
     <message>
         <source>this version of PCRE is not compiled with PCRE_UTF8 support</source>
@@ -3687,7 +3741,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>\C not allowed in lookbehind assertion</source>
-        <translation type="unfinished"></translation>
+        <translation>\C не дозволена в перевірці lookbehind</translation>
     </message>
     <message>
         <source>PCRE does not support \L, \l, \N{name}, \U, or \u</source>
@@ -3928,6 +3982,17 @@ Do you want to overwrite it?</source>
     <message>
         <source>Parameter count mismatch</source>
         <translation>Кількість параметрів не збігається</translation>
+    </message>
+</context>
+<context>
+    <name>QSaveFile</name>
+    <message>
+        <source>Existing file %1 is not writable</source>
+        <translation>Файл %1, що вже існує, запис заборонено</translation>
+    </message>
+    <message>
+        <source>Writing canceled by application</source>
+        <translation>Запис скасовано програмою</translation>
     </message>
 </context>
 <context>
@@ -4937,6 +5002,10 @@ Do you want to overwrite it?</source>
         <translation>Meta</translation>
     </message>
     <message>
+        <source>Num</source>
+        <translation>Num</translation>
+    </message>
+    <message>
         <source>+</source>
         <translation>+</translation>
     </message>
@@ -5002,6 +5071,326 @@ Do you want to overwrite it?</source>
     <message>
         <source>Network operation timed out</source>
         <translation>Час на мережеву операцію вичерпано</translation>
+    </message>
+</context>
+<context>
+    <name>QSpiAccessibleBridge</name>
+    <message>
+        <source>invalid role</source>
+        <extracomment>Role of an accessible object - the object is in an invalid state or could not be constructed</extracomment>
+        <translation>неправильна роль</translation>
+    </message>
+    <message>
+        <source>title bar</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>заголовок</translation>
+    </message>
+    <message>
+        <source>menu bar</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>меню</translation>
+    </message>
+    <message>
+        <source>scroll bar</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>прокрутка</translation>
+    </message>
+    <message>
+        <source>grip</source>
+        <extracomment>Role of an accessible object - the grip is usually used for resizing another object</extracomment>
+        <translation>зміна розміру</translation>
+    </message>
+    <message>
+        <source>sound</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>звук</translation>
+    </message>
+    <message>
+        <source>cursor</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>курсор</translation>
+    </message>
+    <message>
+        <source>text caret</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>текстовий курсор</translation>
+    </message>
+    <message>
+        <source>alert message</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>попередження</translation>
+    </message>
+    <message>
+        <source>window</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>вікно</translation>
+    </message>
+    <message>
+        <source>filler</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>клієнтська область</translation>
+    </message>
+    <message>
+        <source>popup menu</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>спливаюче меню</translation>
+    </message>
+    <message>
+        <source>menu item</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>елемент меню</translation>
+    </message>
+    <message>
+        <source>tool tip</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>підказка</translation>
+    </message>
+    <message>
+        <source>application</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>програма</translation>
+    </message>
+    <message>
+        <source>document</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>документ</translation>
+    </message>
+    <message>
+        <source>panel</source>
+        <extracomment>Role of an accessible object
+----------
+Role of an accessible object</extracomment>
+        <translation>панель</translation>
+    </message>
+    <message>
+        <source>chart</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>графік</translation>
+    </message>
+    <message>
+        <source>dialog</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>діалог</translation>
+    </message>
+    <message>
+        <source>frame</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>рамка</translation>
+    </message>
+    <message>
+        <source>separator</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>розділювач</translation>
+    </message>
+    <message>
+        <source>tool bar</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>панель інструментів</translation>
+    </message>
+    <message>
+        <source>status bar</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>статусний рядок</translation>
+    </message>
+    <message>
+        <source>table</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>таблиця</translation>
+    </message>
+    <message>
+        <source>column header</source>
+        <extracomment>Role of an accessible object - part of a table</extracomment>
+        <translation>заголовок колонки</translation>
+    </message>
+    <message>
+        <source>row header</source>
+        <extracomment>Role of an accessible object - part of a table</extracomment>
+        <translation>заголовок рядка</translation>
+    </message>
+    <message>
+        <source>column</source>
+        <extracomment>Role of an accessible object - part of a table</extracomment>
+        <translation>колонка</translation>
+    </message>
+    <message>
+        <source>row</source>
+        <extracomment>Role of an accessible object - part of a table</extracomment>
+        <translation>рядок</translation>
+    </message>
+    <message>
+        <source>cell</source>
+        <extracomment>Role of an accessible object - part of a table</extracomment>
+        <translation>комірка</translation>
+    </message>
+    <message>
+        <source>link</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>посиланя</translation>
+    </message>
+    <message>
+        <source>help balloon</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>віконечко з допомогою</translation>
+    </message>
+    <message>
+        <source>assistant</source>
+        <extracomment>Role of an accessible object - a helper dialog</extracomment>
+        <translation>помічник</translation>
+    </message>
+    <message>
+        <source>list</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>список</translation>
+    </message>
+    <message>
+        <source>list item</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>елемент списку</translation>
+    </message>
+    <message>
+        <source>tree</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>дерево</translation>
+    </message>
+    <message>
+        <source>tree item</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>елемент дерева</translation>
+    </message>
+    <message>
+        <source>page tab</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>вкладка</translation>
+    </message>
+    <message>
+        <source>property page</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>сторінка властивостей</translation>
+    </message>
+    <message>
+        <source>indicator</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>індикатор</translation>
+    </message>
+    <message>
+        <source>graphic</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>графіка</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>мітка</translation>
+    </message>
+    <message>
+        <source>text</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>текст</translation>
+    </message>
+    <message>
+        <source>push button</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>кнопка</translation>
+    </message>
+    <message>
+        <source>check box</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>прапорець</translation>
+    </message>
+    <message>
+        <source>radio button</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>перемикач</translation>
+    </message>
+    <message>
+        <source>combo box</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>випадаючий список</translation>
+    </message>
+    <message>
+        <source>progress bar</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>прогрес</translation>
+    </message>
+    <message>
+        <source>dial</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>диск</translation>
+    </message>
+    <message>
+        <source>hotkey field</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>поле для скорочення</translation>
+    </message>
+    <message>
+        <source>slider</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>повзунок</translation>
+    </message>
+    <message>
+        <source>spin box</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>лічильник</translation>
+    </message>
+    <message>
+        <source>canvas</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>полотно</translation>
+    </message>
+    <message>
+        <source>animation</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>анімація</translation>
+    </message>
+    <message>
+        <source>equation</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>формула</translation>
+    </message>
+    <message>
+        <source>button with drop down</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>кнопка відображення списку</translation>
+    </message>
+    <message>
+        <source>button menu</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>кнопка відображення меню</translation>
+    </message>
+    <message>
+        <source>button with drop down grid</source>
+        <extracomment>Role of an accessible object - a button that expands a grid.</extracomment>
+        <translation>кнопка відображення сітки</translation>
+    </message>
+    <message>
+        <source>space</source>
+        <extracomment>Role of an accessible object - blank space between other objects.</extracomment>
+        <translation>порожньо</translation>
+    </message>
+    <message>
+        <source>page tab list</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>список вкладок</translation>
+    </message>
+    <message>
+        <source>clock</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>годинник</translation>
+    </message>
+    <message>
+        <source>splitter</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>спліттер</translation>
+    </message>
+    <message>
+        <source>layered pane</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>багаторівнева панель</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>невідомо</translation>
     </message>
 </context>
 <context>
@@ -5147,6 +5536,10 @@ Do you want to overwrite it?</source>
         <translation>Неможливо дешифрувати дані, %1</translation>
     </message>
     <message>
+        <source>The TLS/SSL connection has been closed</source>
+        <translation>З&apos;єднання TLS/SSL було закрите</translation>
+    </message>
+    <message>
         <source>Error while reading: %1</source>
         <translation>Помилка читання: %1</translation>
     </message>
@@ -5207,7 +5600,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Runtime</source>
-        <translation type="unfinished"></translation>
+        <translation>Тимчасова тека користувача</translation>
     </message>
     <message>
         <source>Configuration</source>
@@ -5291,6 +5684,49 @@ Do you want to overwrite it?</source>
     <message>
         <source>Operation on socket is not supported</source>
         <translation>Непідтримувана для сокета операція</translation>
+    </message>
+</context>
+<context>
+    <name>QTgaFile</name>
+    <message>
+        <source>Could not read image data</source>
+        <translation>Не вдалося прочитати дані зображення</translation>
+    </message>
+    <message>
+        <source>Sequential device (eg socket) for image read not supported</source>
+        <translation>Не підтримується читання зображень з послідовних пристроїв (наприклад, сокетів)</translation>
+    </message>
+    <message>
+        <source>Seek file/device for image read failed</source>
+        <translation>Збій переміщення файлу/пристрою при читанні зображення</translation>
+    </message>
+    <message>
+        <source>Image header read failed</source>
+        <translation>Збій читання заголовку зображення</translation>
+    </message>
+    <message>
+        <source>Image type not supported</source>
+        <translation>Тип зображення не підтримується</translation>
+    </message>
+    <message>
+        <source>Image depth not valid</source>
+        <translation>Неправильна глибина кольору зображення</translation>
+    </message>
+    <message>
+        <source>Could not seek to image read footer</source>
+        <translation>Не вдалось переміститись до кінцівки зображення</translation>
+    </message>
+    <message>
+        <source>Could not read footer</source>
+        <translation>Не вдалося прочитати кінцівку</translation>
+    </message>
+    <message>
+        <source>Image type (non-TrueVision 2.0) not supported</source>
+        <translation>Тип зображення (відмінний від TrueVision 2.0) не підтримується</translation>
+    </message>
+    <message>
+        <source>Could not reset to read data</source>
+        <translation>Не вдалось скинути, щоб прочитати дані</translation>
     </message>
 </context>
 <context>
@@ -5727,98 +6163,98 @@ Do you want to overwrite it?</source>
     <name>QmlCodeMarker</name>
     <message>
         <source>Unable to parse QML snippet: &quot;%1&quot; at line %2, column %3</source>
-        <translation>Неможливо розібрати фрагмент QML: &quot;%1&quot; в рядку %2, стовбець %3</translation>
+        <translation type="obsolete">Неможливо розібрати фрагмент QML: &quot;%1&quot; в рядку %2, стовбець %3</translation>
     </message>
 </context>
 <context>
     <name>QmlCodeParser</name>
     <message>
         <source>Cannot open QML file &apos;%1&apos;</source>
-        <translation>Неможливо відкрити файл QML &apos;%1&apos;</translation>
+        <translation type="obsolete">Неможливо відкрити файл QML &apos;%1&apos;</translation>
     </message>
 </context>
 <context>
     <name>QmlDocVisitor</name>
     <message>
         <source>%1 tries to inherit itself</source>
-        <translation>%1 намагається успадкувати сам себе</translation>
+        <translation type="obsolete">%1 намагається успадкувати сам себе</translation>
     </message>
     <message>
         <source>The \%1 command is ignored in QML files</source>
-        <translation>Команда \%1 ігнорується в файлах QML</translation>
+        <translation type="obsolete">Команда \%1 ігнорується в файлах QML</translation>
     </message>
 </context>
 <context>
     <name>QmlPropertyNode</name>
     <message>
         <source>No Q_PROPERTY for QML property %1::%2::%3 in C++ class documented as QML type: (property not found in the C++ class or its base classes)</source>
-        <translation>Відсутнє Q_PROPERTY для властивості QML %1::%2::%3 в класі C++, задокументованому як тип QML: (властивість не знайдено в класі C++ або його батьківських класах)</translation>
+        <translation type="obsolete">Відсутнє Q_PROPERTY для властивості QML %1::%2::%3 в класі C++, задокументованому як тип QML: (властивість не знайдено в класі C++ або його батьківських класах)</translation>
     </message>
     <message>
         <source>No Q_PROPERTY for QML property %1::%2::%3 in C++ class documented as QML type: (C++ class not specified or not found).</source>
-        <translation>Відсутнє Q_PROPERTY для властивості QML %1::%2::%3 в класі C++, задокументованому як тип QML: (клас C++ не вказано або не знайдено).</translation>
+        <translation type="obsolete">Відсутнє Q_PROPERTY для властивості QML %1::%2::%3 в класі C++, задокументованому як тип QML: (клас C++ не вказано або не знайдено).</translation>
     </message>
 </context>
 <context>
     <name>Quoter</name>
     <message>
         <source>Something is wrong with qdoc&apos;s handling of marked code</source>
-        <translation>Щось не так з обробкою розміченого коду за допомогою qdoc</translation>
+        <translation type="obsolete">Щось не так з обробкою розміченого коду за допомогою qdoc</translation>
     </message>
     <message>
         <source>Missing pattern after &apos;\%1&apos;</source>
-        <translation>Відсутній зразок після &apos;\%1</translation>
+        <translation type="obsolete">Відсутній зразок після &apos;\%1</translation>
     </message>
     <message>
         <source>Command &apos;\%1&apos; failed</source>
-        <translation>Збій команди &apos;\%1&apos;</translation>
+        <translation type="obsolete">Збій команди &apos;\%1&apos;</translation>
     </message>
     <message>
         <source>Pattern &apos;%1&apos; didn&apos;t match here</source>
-        <translation>Зразок &apos;%1&apos; тут не підходить</translation>
+        <translation type="obsolete">Зразок &apos;%1&apos; тут не підходить</translation>
     </message>
     <message>
         <source>Invalid regular expression &apos;%1&apos;</source>
-        <translation>Неправильний регулярний вираз ’%1’</translation>
+        <translation type="obsolete">Неправильний регулярний вираз ’%1’</translation>
     </message>
     <message>
         <source>Unexpected &apos;\%1&apos;</source>
-        <translation>Неочікуваний &apos;\%1&apos;</translation>
+        <translation type="obsolete">Неочікуваний &apos;\%1&apos;</translation>
     </message>
     <message>
         <source>Command &apos;\%1&apos; failed at end of file &apos;%2&apos;</source>
-        <translation>Збій команди &apos;\%1&apos; в кінці файлу &apos;%2&apos;</translation>
+        <translation type="obsolete">Збій команди &apos;\%1&apos; в кінці файлу &apos;%2&apos;</translation>
     </message>
 </context>
 <context>
     <name>Tokenizer</name>
     <message>
         <source>Unterminated C++ string literal</source>
-        <translation>Незавершений рядковий літерал C++</translation>
+        <translation type="obsolete">Незавершений рядковий літерал C++</translation>
     </message>
     <message>
         <source>Maybe you forgot &apos;/*!&apos; at the beginning of the file?</source>
-        <translation>Можливо, ви забули &apos;/*!&apos; на початку файлу?</translation>
+        <translation type="obsolete">Можливо, ви забули &apos;/*!&apos; на початку файлу?</translation>
     </message>
     <message>
         <source>Unterminated C++ character literal</source>
-        <translation>Незавершений символьний літерал C++</translation>
+        <translation type="obsolete">Незавершений символьний літерал C++</translation>
     </message>
     <message>
         <source>Unterminated C++ comment</source>
-        <translation>Незавершений коментар C++</translation>
+        <translation type="obsolete">Незавершений коментар C++</translation>
     </message>
     <message>
         <source>Hostile character 0x%1 in C++ source</source>
-        <translation>Шкідливий символ 0x%1 в коді C++</translation>
+        <translation type="obsolete">Шкідливий символ 0x%1 в коді C++</translation>
     </message>
     <message>
         <source>Expected #endif before end of file</source>
-        <translation>Очікувався #endif до закінчення файлу</translation>
+        <translation type="obsolete">Очікувався #endif до закінчення файлу</translation>
     </message>
     <message>
         <source>Unexpected #elif, #else or #endif</source>
-        <translation>Несподіваний #elif, #else або #endif</translation>
+        <translation type="obsolete">Несподіваний #elif, #else або #endif</translation>
     </message>
 </context>
 </TS>

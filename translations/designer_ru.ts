@@ -940,7 +940,7 @@ Parsing grid layout minimum size values</extracomment>
     </message>
     <message>
         <source>&amp;Pixmap Function</source>
-        <translation type="unfinished">&amp;Загрузчик изображений</translation>
+        <translation>&amp;Загрузчик изображений</translation>
     </message>
     <message>
         <source>Grid</source>
@@ -1171,6 +1171,36 @@ This indicates an inconsistency in the ui-file.</source>
     <message>
         <source>Invalid QButtonGroup reference &apos;%1&apos; referenced by &apos;%2&apos;.</source>
         <translation>«%2» содержит некорректную ссылку на QButtonGroup «%1».</translation>
+    </message>
+</context>
+<context>
+    <name>QAxWidgetPlugin</name>
+    <message>
+        <source>ActiveX control</source>
+        <translation>Элемент ActiveX</translation>
+    </message>
+    <message>
+        <source>ActiveX control widget</source>
+        <translation>Виджет элемента ActiveX</translation>
+    </message>
+</context>
+<context>
+    <name>QAxWidgetTaskMenu</name>
+    <message>
+        <source>Set Control</source>
+        <translation>Задать элемент</translation>
+    </message>
+    <message>
+        <source>Reset Control</source>
+        <translation>Сбросить элемент</translation>
+    </message>
+    <message>
+        <source>Licensed Control</source>
+        <translation>Лицензируемый элемент</translation>
+    </message>
+    <message>
+        <source>The control requires a design-time license</source>
+        <translation>Для элемента необходима лицензия разработчика</translation>
     </message>
 </context>
 <context>
@@ -1503,6 +1533,25 @@ Would you like to retry?</source>
     </message>
 </context>
 <context>
+    <name>QDesignerAxWidget</name>
+    <message>
+        <source>Reset control</source>
+        <translation>Сбросить элемент</translation>
+    </message>
+    <message>
+        <source>Set control</source>
+        <translation>Задать элемент</translation>
+    </message>
+    <message>
+        <source>Control loaded</source>
+        <translation>Элемент загружен</translation>
+    </message>
+    <message>
+        <source>A COM exception occurred when executing a meta call of type %1, index %2 of &quot;%3&quot;.</source>
+        <translation>Произошло исключение COM при выполнении мета-вызова %1 с индексом %2 в виджете «%3».</translation>
+    </message>
+</context>
+<context>
     <name>QDesignerFormBuilder</name>
     <message>
         <source>The preview failed to build.</source>
@@ -1761,8 +1810,8 @@ Container pages should only be added by specifying them in XML returned by the d
         <translation>Последняя сессия Qt Designer не была завершена корректно. Остались резервные копии файлов. Желаете загрузить их?</translation>
     </message>
     <message>
-        <source>The file &lt;b&gt;%1&lt;/b&gt; could not be opened: %1</source>
-        <translation>Не удалось открыть файл &lt;b&gt;%1&lt;/b&gt;: %1</translation>
+        <source>The file &lt;b&gt;%1&lt;/b&gt; could not be opened: %2</source>
+        <translation>Не удалось открыть файл &lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
 </context>
 <context>
@@ -2711,7 +2760,7 @@ to
     </message>
     <message>
         <source>Resource Warning</source>
-        <translation type="unfinished">Предупреждение</translation>
+        <translation>Предупреждение</translation>
     </message>
     <message>
         <source>Dialog</source>
@@ -3555,35 +3604,35 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Normal Off</source>
-        <translation type="unfinished">Нормальный, выкл</translation>
+        <translation>Нормальный, выкл</translation>
     </message>
     <message>
         <source>Normal On</source>
-        <translation type="unfinished">Нормальный, вкл</translation>
+        <translation>Нормальный, вкл</translation>
     </message>
     <message>
         <source>Disabled Off</source>
-        <translation type="unfinished">Выключенный, выкл</translation>
+        <translation>Выключенный, выкл</translation>
     </message>
     <message>
         <source>Disabled On</source>
-        <translation type="unfinished">Выключенный, вкл</translation>
+        <translation>Выключенный, вкл</translation>
     </message>
     <message>
         <source>Active Off</source>
-        <translation type="unfinished">Активный, выкл</translation>
+        <translation>Активный, выкл</translation>
     </message>
     <message>
         <source>Active On</source>
-        <translation type="unfinished">Активный, вкл</translation>
+        <translation>Активный, вкл</translation>
     </message>
     <message>
         <source>Selected Off</source>
-        <translation type="unfinished">Выбранный, выкл</translation>
+        <translation>Выбранный, выкл</translation>
     </message>
     <message>
         <source>Selected On</source>
-        <translation type="unfinished">Выбранный, вкл</translation>
+        <translation>Выбранный, вкл</translation>
     </message>
     <message>
         <source>translatable</source>
@@ -3854,8 +3903,8 @@ Do you want overwrite the template?</source>
         <translation>Некорректная форма</translation>
     </message>
     <message>
-        <source>&lt;p&gt;This file contains top level spacers.&lt;br&gt;They will &lt;b&gt;not&lt;/b&gt; be saved.&lt;/p&gt;&lt;p&gt;Perhaps you forgot to create a layout?&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Этот файл содержит верхнеуровневые разделители.&lt;br&gt;Они &lt;b&gt;не&lt;/b&gt; будут сохранены в форме.&lt;/p&gt;&lt;p&gt;Вероятно вы забыли создать компоновку.&lt;/p&gt;</translation>
+        <source>&lt;p&gt;This file contains top level spacers.&lt;br/&gt;They will &lt;b&gt;not&lt;/b&gt; be saved.&lt;/p&gt;&lt;p&gt;Perhaps you forgot to create a layout?&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Этот файл содержит верхнеуровневые разделители.&lt;br/&gt;Они &lt;b&gt;не&lt;/b&gt; будут сохранены в форме.&lt;/p&gt;&lt;p&gt;Возможно, вы забыли создать компоновку.&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -4102,35 +4151,35 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Normal Off</source>
-        <translation type="unfinished">Нормальный, выкл</translation>
+        <translation>Нормальный, выкл</translation>
     </message>
     <message>
         <source>Normal On</source>
-        <translation type="unfinished">Нормальный, вкл</translation>
+        <translation>Нормальный, вкл</translation>
     </message>
     <message>
         <source>Disabled Off</source>
-        <translation type="unfinished">Выключенный, выкл</translation>
+        <translation>Выключенный, выкл</translation>
     </message>
     <message>
         <source>Disabled On</source>
-        <translation type="unfinished">Выключенный, вкл</translation>
+        <translation>Выключенный, вкл</translation>
     </message>
     <message>
         <source>Active Off</source>
-        <translation type="unfinished">Активный, выкл</translation>
+        <translation>Активный, выкл</translation>
     </message>
     <message>
         <source>Active On</source>
-        <translation type="unfinished">Активный, вкл</translation>
+        <translation>Активный, вкл</translation>
     </message>
     <message>
         <source>Selected Off</source>
-        <translation type="unfinished">Выбранный, выкл</translation>
+        <translation>Выбранный, выкл</translation>
     </message>
     <message>
         <source>Selected On</source>
-        <translation type="unfinished">Выбранный, вкл</translation>
+        <translation>Выбранный, вкл</translation>
     </message>
     <message>
         <source>Choose Resource...</source>
@@ -4733,46 +4782,57 @@ ate the goose who was loose.</source>
     <name>qdesigner_internal::PreviewWidget</name>
     <message>
         <source>Preview Window</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Окно предпросмотра</translation>
     </message>
     <message>
         <source>LineEdit</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>LineEdit</translation>
     </message>
     <message>
         <source>ComboBox</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>ComboBox</translation>
     </message>
     <message>
         <source>PushButton</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>PushButton</translation>
     </message>
     <message>
         <source>ButtonGroup2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>ButtonGroup2</translation>
     </message>
     <message>
         <source>CheckBox1</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>CheckBox1</translation>
     </message>
     <message>
         <source>CheckBox2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>CheckBox2</translation>
     </message>
     <message>
         <source>ButtonGroup</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>ButtonGroup</translation>
     </message>
     <message>
         <source>RadioButton1</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>RadioButton1</translation>
     </message>
     <message>
         <source>RadioButton2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>RadioButton2</translation>
     </message>
     <message>
         <source>RadioButton3</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>RadioButton3</translation>
     </message>
 </context>
@@ -5201,6 +5261,10 @@ Class: %2</source>
     <message>
         <source>Justify</source>
         <translation>По ширине</translation>
+    </message>
+    <message>
+        <source>Right to Left</source>
+        <translation>Справа налево</translation>
     </message>
     <message>
         <source>Superscript</source>

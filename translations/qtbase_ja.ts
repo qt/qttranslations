@@ -1,255 +1,255 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ru_RU">
+<TS version="2.0" language="ja_JP">
 <context>
     <name>CloseButton</name>
     <message>
         <source>Close Tab</source>
-        <translation>Закрыть вкладку</translation>
+        <translation>タブを閉じる</translation>
     </message>
 </context>
 <context>
     <name>MAC_APPLICATION_MENU</name>
     <message>
         <source>Services</source>
-        <translation>Службы</translation>
+        <translation>サービス</translation>
     </message>
     <message>
         <source>Hide %1</source>
-        <translation>Скрыть %1</translation>
+        <translation>%1 を隠す</translation>
     </message>
     <message>
         <source>Hide Others</source>
-        <translation>Скрыть другие</translation>
+        <translation>ほかを隠す</translation>
     </message>
     <message>
         <source>Show All</source>
-        <translation>Показать всё</translation>
+        <translation>すべて表示</translation>
     </message>
     <message>
         <source>Preferences...</source>
-        <translation>Настройки...</translation>
+        <translation>設定...</translation>
     </message>
     <message>
         <source>Quit %1</source>
-        <translation>Завершить %1</translation>
+        <translation>%1 を終了</translation>
     </message>
     <message>
         <source>About %1</source>
-        <translation>О программе %1</translation>
+        <translation>%1 について</translation>
     </message>
 </context>
 <context>
     <name>QAbstractSocket</name>
     <message>
         <source>Socket operation timed out</source>
-        <translation>Время операции истекло</translation>
+        <translation>ソケット操作がタイムアウトしました</translation>
     </message>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>Операция с сокетом не поддерживается</translation>
+        <translation>このソケットへのこの操作はサポートされていません</translation>
     </message>
     <message>
         <source>Host not found</source>
-        <translation>Узел не найден</translation>
+        <translation>ホストが見つかりません</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>Отказано в соединении</translation>
+        <translation>接続が拒否されました</translation>
     </message>
     <message>
         <source>Connection timed out</source>
-        <translation>Время на соединение истекло</translation>
+        <translation>接続がタイムアウトしました</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation>Попытка подключиться во время подключения</translation>
+        <translation>接続の実行中に接続を試みました</translation>
     </message>
     <message>
         <source>Socket is not connected</source>
-        <translation>Сокет не подключён</translation>
+        <translation>ソケットが接続されていません</translation>
     </message>
     <message>
         <source>Network unreachable</source>
-        <translation>Сеть недоступна</translation>
+        <translation>ネットワークへ到達できません</translation>
     </message>
 </context>
 <context>
     <name>QAbstractSpinBox</name>
     <message>
         <source>&amp;Select All</source>
-        <translation>&amp;Выделить всё</translation>
+        <translation>すべてを選択(&amp;S)</translation>
     </message>
     <message>
         <source>&amp;Step up</source>
-        <translation>Шаг вв&amp;ерх</translation>
+        <translation>上(&amp;S)</translation>
     </message>
     <message>
         <source>Step &amp;down</source>
-        <translation>Шаг вн&amp;из</translation>
+        <translation>下(&amp;D)</translation>
     </message>
 </context>
 <context>
     <name>QAccessibleActionInterface</name>
     <message>
         <source>Press</source>
-        <translation>Нажать</translation>
+        <translation>押す</translation>
     </message>
     <message>
         <source>Increase</source>
-        <translation>Увеличить</translation>
+        <translation>増加</translation>
     </message>
     <message>
         <source>Decrease</source>
-        <translation>Уменьшить</translation>
+        <translation>減少</translation>
     </message>
     <message>
         <source>ShowMenu</source>
-        <translation>ПоказатьМеню</translation>
+        <translation>メニューの表示</translation>
     </message>
     <message>
         <source>SetFocus</source>
-        <translation>УстановитьФокус</translation>
+        <translation>フォーカスをセット</translation>
     </message>
     <message>
         <source>Toggle</source>
-        <translation>Сменить</translation>
+        <translation>反転</translation>
     </message>
     <message>
         <source>Triggers the action</source>
-        <translation>Выполнить действие</translation>
+        <translation>アクションを実行する</translation>
     </message>
     <message>
         <source>Increase the value</source>
-        <translation>Увеличить значение</translation>
+        <translation>値を増加させる</translation>
     </message>
     <message>
         <source>Decrease the value</source>
-        <translation>Уменьшить значение</translation>
+        <translation>値を減少させる</translation>
     </message>
     <message>
         <source>Shows the menu</source>
-        <translation>Показать меню</translation>
+        <translation>メニューを表示する</translation>
     </message>
     <message>
         <source>Sets the focus</source>
-        <translation>Установить фокус</translation>
+        <translation>フォーカスをセットする</translation>
     </message>
     <message>
         <source>Toggles the state</source>
-        <translation>Сменить состояние</translation>
+        <translation>状態を反転させる</translation>
     </message>
 </context>
 <context>
     <name>QApplication</name>
     <message>
         <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
-        <translation>Программе «%1» требуется Qt %2, а используется Qt %3.</translation>
+        <translation>実行可能ファイル &apos;%1&apos; には Qt %2 が必要です。Qt %3 が見つかりました。</translation>
     </message>
     <message>
         <source>Incompatible Qt Library Error</source>
-        <translation>Ошибка совместимости библиотеки Qt</translation>
+        <translation>互換性のない Qt ライブラリエラー</translation>
     </message>
 </context>
 <context>
     <name>QCocoaMenuItem</name>
     <message>
         <source>About Qt</source>
-        <translation>О Qt</translation>
+        <translation>Qt について</translation>
     </message>
     <message>
         <source>About</source>
-        <translation>О программе</translation>
+        <translation>について</translation>
     </message>
     <message>
         <source>Config</source>
-        <translation type="unfinished">Конфигур</translation>
+        <translation>コンフィグ</translation>
     </message>
     <message>
         <source>Preference</source>
-        <translation type="unfinished">Свойств</translation>
+        <translation>環境設定</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished">Параметры</translation>
+        <translation>オプション</translation>
     </message>
     <message>
         <source>Setting</source>
-        <translation type="unfinished">Настройк</translation>
+        <translation>設定</translation>
     </message>
     <message>
         <source>Setup</source>
-        <translation type="unfinished">Настр</translation>
+        <translation>セットアップ</translation>
     </message>
     <message>
         <source>Quit</source>
-        <translation type="unfinished">Заверш</translation>
+        <translation>終了</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation type="unfinished">Выход</translation>
+        <translation>終了</translation>
     </message>
 </context>
 <context>
     <name>QColorDialog</name>
     <message>
         <source>Hu&amp;e:</source>
-        <translation>&amp;Тон:</translation>
+        <translation>色相(&amp;E):</translation>
     </message>
     <message>
         <source>&amp;Sat:</source>
-        <translation>&amp;Нас:</translation>
+        <translation>彩度(&amp;S):</translation>
     </message>
     <message>
         <source>&amp;Val:</source>
-        <translation>&amp;Ярк:</translation>
+        <translation>明度(&amp;V):</translation>
     </message>
     <message>
         <source>&amp;Red:</source>
-        <translation>&amp;Красный:</translation>
+        <translation>赤(&amp;R):</translation>
     </message>
     <message>
         <source>&amp;Green:</source>
-        <translation>&amp;Зелёный:</translation>
+        <translation>緑(&amp;G):</translation>
     </message>
     <message>
         <source>Bl&amp;ue:</source>
-        <translation>С&amp;иний:</translation>
+        <translation>青(&amp;U):</translation>
     </message>
     <message>
         <source>A&amp;lpha channel:</source>
-        <translation>&amp;Альфа-канал:</translation>
+        <translation>アルファチャネル(&amp;L):</translation>
     </message>
     <message>
         <source>Select Color</source>
-        <translation>Выбор цвета</translation>
+        <translation>色を選択</translation>
     </message>
     <message>
         <source>&amp;Basic colors</source>
-        <translation>&amp;Основные цвета</translation>
+        <translation>基本色(&amp;B)</translation>
     </message>
     <message>
         <source>&amp;Custom colors</source>
-        <translation>&amp;Пользовательские цвета</translation>
+        <translation>カスタムカラー(&amp;C)</translation>
     </message>
     <message>
         <source>&amp;Add to Custom Colors</source>
-        <translation>&amp;Добавить к пользовательским цветам</translation>
+        <translation>カスタムカラーに追加(&amp;A)</translation>
     </message>
 </context>
 <context>
     <name>QComboBox</name>
     <message>
         <source>False</source>
-        <translation>Нет</translation>
+        <translation>偽</translation>
     </message>
     <message>
         <source>True</source>
-        <translation>Да</translation>
+        <translation>真</translation>
     </message>
     <message>
         <source>Open the combo box selection popup</source>
-        <translation>Открыть выпадающий список</translation>
+        <translation>コンボボックスの選択用ポップアップを開く</translation>
     </message>
 </context>
 <context>
@@ -257,17 +257,17 @@
     <message>
         <source>%1: key is empty</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: пустой ключ</translation>
+        <translation>%1: キーが空です</translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: невозможно создать ключ</translation>
+        <translation>%1: キーを作成できません</translation>
     </message>
     <message>
         <source>%1: ftok failed</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: ошибка ftok</translation>
+        <translation>%1: ftok に失敗しました</translation>
     </message>
     <message>
         <source>QT_LAYOUT_DIRECTION</source>
@@ -279,46 +279,46 @@
     <name>QDB2Driver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>Невозможно соединиться</translation>
+        <translation>接続できません</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Невозможно завершить транзакцию</translation>
+        <translation>トランザクションをコミットできません</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Невозможно откатить транзакцию</translation>
+        <translation>トランザクションをロールバックできません</translation>
     </message>
     <message>
         <source>Unable to set autocommit</source>
-        <translation>Невозможно установить автозавершение транзакций</translation>
+        <translation>自動コミットを設定できません</translation>
     </message>
 </context>
 <context>
     <name>QDB2Result</name>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Невозможно выполнить выражение</translation>
+        <translation>ステートメントを実行できません</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Невозможно подготовить выражение</translation>
+        <translation>プリペアドステートメントを作成できません</translation>
     </message>
     <message>
         <source>Unable to bind variable</source>
-        <translation>Невозможно привязать значение</translation>
+        <translation>変数をバインドできません</translation>
     </message>
     <message>
         <source>Unable to fetch record %1</source>
-        <translation>Невозможно получить запись %1</translation>
+        <translation>レコード %1 をフェッチできません</translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>Невозможно получить следующую строку</translation>
+        <translation>次のレコードをフェッチできません</translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>Невозможно получить первую строку</translation>
+        <translation>最初のレコードをフェッチできません</translation>
     </message>
 </context>
 <context>
@@ -344,1417 +344,1417 @@
     <name>QDialog</name>
     <message>
         <source>What&apos;s This?</source>
-        <translation>Что это?</translation>
+        <translation>ヒント</translation>
     </message>
 </context>
 <context>
     <name>QDialogButtonBox</name>
     <message>
         <source>OK</source>
-        <translation>ОК</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;ОК</translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;Сохранить</translation>
+        <translation>保存(&amp;S)</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Сохранить</translation>
+        <translation>保存</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Открыть</translation>
+        <translation>開く</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>От&amp;мена</translation>
+        <translation>キャンセル(&amp;C)</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Отмена</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Закрыть</translation>
+        <translation>閉じる(&amp;C)</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Закрыть</translation>
+        <translation>閉じる</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation>Применить</translation>
+        <translation>適用</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Сбросить</translation>
+        <translation>リセット</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Справка</translation>
+        <translation>ヘルプ</translation>
     </message>
     <message>
         <source>Don&apos;t Save</source>
-        <translation>Не сохранять</translation>
+        <translation>保存しない</translation>
     </message>
     <message>
         <source>Close without Saving</source>
-        <translation>Закрыть без сохранения</translation>
+        <translation>保存せずに閉じる</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>Отклонить</translation>
+        <translation>変更を破棄</translation>
     </message>
     <message>
         <source>&amp;Yes</source>
-        <translation>&amp;Да</translation>
+        <translation>はい(&amp;Y)</translation>
     </message>
     <message>
         <source>Yes to &amp;All</source>
-        <translation>Да для &amp;всех</translation>
+        <translation>全てにはい(&amp;A)</translation>
     </message>
     <message>
         <source>&amp;No</source>
-        <translation>&amp;Нет</translation>
+        <translation>いいえ(&amp;N)</translation>
     </message>
     <message>
         <source>N&amp;o to All</source>
-        <translation>Н&amp;ет для всех</translation>
+        <translation>全てにいいえ(&amp;O)</translation>
     </message>
     <message>
         <source>Save All</source>
-        <translation>Сохранить все</translation>
+        <translation>すべて保存</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation>Прервать</translation>
+        <translation>中止</translation>
     </message>
     <message>
         <source>Retry</source>
-        <translation>Повторить</translation>
+        <translation>再試行</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation>Пропустить</translation>
+        <translation>無視</translation>
     </message>
     <message>
         <source>Restore Defaults</source>
-        <translation>Восстановить значения</translation>
+        <translation>デフォルトに戻す</translation>
     </message>
 </context>
 <context>
     <name>QDirModel</name>
     <message>
         <source>Name</source>
-        <translation>Имя</translation>
+        <translation>名前</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Размер</translation>
+        <translation>サイズ</translation>
     </message>
     <message>
         <source>Kind</source>
         <comment>Match OS X Finder</comment>
-        <translation>Вид</translation>
+        <translation>種類</translation>
     </message>
     <message>
         <source>Type</source>
         <comment>All other platforms</comment>
-        <translation>Тип</translation>
+        <translation>タイプ</translation>
     </message>
     <message>
         <source>Date Modified</source>
-        <translation>Дата изменения</translation>
+        <translation>更新日</translation>
     </message>
 </context>
 <context>
     <name>QDnsLookup</name>
     <message>
         <source>Operation cancelled</source>
-        <translation>Операция отменена</translation>
+        <translation>操作がキャンセルされました</translation>
     </message>
 </context>
 <context>
     <name>QDnsLookupRunnable</name>
     <message>
         <source>Invalid domain name</source>
-        <translation>Некорректное имя домена</translation>
+        <translation>無効なドメイン名</translation>
     </message>
     <message>
         <source>Not yet supported on Android</source>
-        <translation>Ещё не поддерживается под Android</translation>
+        <translation>Android はまだサポートされていません</translation>
     </message>
     <message>
         <source>Resolver functions not found</source>
-        <translation>Функция разрешения имён не найдена</translation>
+        <translation>リゾルバ関数が見つかりません</translation>
     </message>
     <message>
         <source>Resolver initialization failed</source>
-        <translation>Не удалось инициализировать разрешение имён</translation>
+        <translation>リゾルバの初期化に失敗しました</translation>
     </message>
     <message>
         <source>Server could not process query</source>
-        <translation>Сервер не смог обработать запрос</translation>
+        <translation>サーバが問い合わせを処理できませんでした</translation>
     </message>
     <message>
         <source>Server failure</source>
-        <translation>Ошибка сервера</translation>
+        <translation>サーバが失敗しました</translation>
     </message>
     <message>
         <source>Non existent domain</source>
-        <translation>Домен не существует</translation>
+        <translation>存在しないドメイン</translation>
     </message>
     <message>
         <source>Server refused to answer</source>
-        <translation>Сервер отклонил запрос</translation>
+        <translation>サーバが返答を拒否しました</translation>
     </message>
     <message>
         <source>Invalid reply received</source>
-        <translation>Получен некорректный ответ</translation>
+        <translation>無効な返答を受け取りました</translation>
     </message>
     <message>
         <source>Could not expand domain name</source>
-        <translation>Не удалось развернуть имя домена</translation>
+        <translation>ドメイン名を展開できませんでした</translation>
     </message>
     <message>
         <source>Invalid IPv4 address record</source>
-        <translation>Некорректная запись адреса IPv4</translation>
+        <translation>無効な IPv4 アドレスレコードです</translation>
     </message>
     <message>
         <source>Invalid IPv6 address record</source>
-        <translation>Некорректная запись адреса IPv6</translation>
+        <translation>無効な IPv6 アドレスレコードです</translation>
     </message>
     <message>
         <source>Invalid canonical name record</source>
-        <translation>Некорректная запись cannonical name</translation>
+        <translation>無効な別名(CNAME)レコードです</translation>
     </message>
     <message>
         <source>Invalid name server record</source>
-        <translation>Некорректная запись name server</translation>
+        <translation>無効なネームサーバ(NS)レコードです</translation>
     </message>
     <message>
         <source>Invalid pointer record</source>
-        <translation>Некорректная запись pointer</translation>
+        <translation>無効な PTR レコードです</translation>
     </message>
     <message>
         <source>Invalid mail exchange record</source>
-        <translation>Некорректная запись mail exchange</translation>
+        <translation>無効な MX レコードです</translation>
     </message>
     <message>
         <source>Invalid service record</source>
-        <translation>Некорректная запись service</translation>
+        <translation>無効な SRV レコードです</translation>
     </message>
     <message>
         <source>Invalid text record</source>
-        <translation>Некорректная запись text</translation>
+        <translation>無効なテキスト(TXT)レコードです</translation>
     </message>
     <message>
         <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
-        <translation>Не удалось загрузить библиотеку для разрешения имён: загрузка библиотек во время работы не поддерживается</translation>
+        <translation>リゾルバライブラリがロードできません: ランタイムライブラリのロードがサポートされていません</translation>
     </message>
 </context>
 <context>
     <name>QErrorMessage</name>
     <message>
         <source>Debug Message:</source>
-        <translation>Отладочное сообщение:</translation>
+        <translation>デバッグメッセージ:</translation>
     </message>
     <message>
         <source>Warning:</source>
-        <translation>Предупреждение:</translation>
+        <translation>警告:</translation>
     </message>
     <message>
         <source>Fatal Error:</source>
-        <translation>Критическая ошибка:</translation>
+        <translation>致命的なエラー:</translation>
     </message>
     <message>
         <source>&amp;Show this message again</source>
-        <translation>&amp;Показывать это сообщение в дальнейшем</translation>
+        <translation>次回もこのメッセージを表示する(&amp;S)</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;Закрыть</translation>
+        <translation>&amp;OK</translation>
     </message>
 </context>
 <context>
     <name>QFile</name>
     <message>
         <source>Destination file is the same file.</source>
-        <translation>Файл назначения такой же, что и исходный.</translation>
+        <translation>コピー先のファイルが同じファイルです。</translation>
     </message>
     <message>
         <source>Source file does not exist.</source>
-        <translation>Исходный файл отсутствует.</translation>
+        <translation>コピー元のファイルが存在しません。</translation>
     </message>
     <message>
         <source>Destination file exists</source>
-        <translation>Файл существует</translation>
+        <translation>コピー先のファイルは既に存在しています</translation>
     </message>
     <message>
         <source>Error while renaming.</source>
-        <translation>Возникла ошибка при переименовании.</translation>
+        <translation>名前の変更中にエラーが発生しました。</translation>
     </message>
     <message>
         <source>Unable to restore from %1: %2</source>
-        <translation>Не удалось восстановить из %1: %2</translation>
+        <translation>%1 から復元できませんでした: %2</translation>
     </message>
     <message>
         <source>Will not rename sequential file using block copy</source>
-        <translation>Последовательный файл не будет переименован с использованием поблочного копирования</translation>
+        <translation>ブロックコピーを用いてシーケンシャルファイルの名前を変更することはできません</translation>
     </message>
     <message>
         <source>Cannot remove source file</source>
-        <translation>Невозможно удалить исходный файл</translation>
+        <translation>元のファイルを削除できません</translation>
     </message>
     <message>
         <source>Cannot open %1 for input</source>
-        <translation>Невозможно открыть %1 для ввода</translation>
+        <translation>コピー元ファイル %1 を読み込み用に開けません</translation>
     </message>
     <message>
         <source>Cannot open for output</source>
-        <translation>Невозможно открыть для вывода</translation>
+        <translation>コピー先のファイルを開けません</translation>
     </message>
     <message>
         <source>Failure to write block</source>
-        <translation>Сбой записи блока</translation>
+        <translation>書き込みに失敗しました</translation>
     </message>
     <message>
         <source>Cannot create %1 for output</source>
-        <translation>Невозможно создать %1 для вывода</translation>
+        <translation>コピー先として %1 を作成できません</translation>
     </message>
 </context>
 <context>
     <name>QFileDevice</name>
     <message>
         <source>No file engine available or engine does not support UnMapExtension</source>
-        <translation>Нет файлового движка или он не поддерживает UnMapExtension</translation>
+        <translation>ファイルエンジンが見つからないか、UnMapExtension をサポートしていません</translation>
     </message>
 </context>
 <context>
     <name>QFileDialog</name>
     <message>
         <source>Look in:</source>
-        <translation>Перейти к:</translation>
+        <translation>アドレス:</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Назад</translation>
+        <translation>戻る</translation>
     </message>
     <message>
         <source>Go back</source>
-        <translation>Назад</translation>
-    </message>
-    <message>
-        <source>Forward</source>
-        <translation>Вперёд</translation>
-    </message>
-    <message>
-        <source>Go forward</source>
-        <translation>Вперёд</translation>
-    </message>
-    <message>
-        <source>Parent Directory</source>
-        <translation>Родительский каталог</translation>
-    </message>
-    <message>
-        <source>Go to the parent directory</source>
-        <translation>Перейти в родительский каталог</translation>
-    </message>
-    <message>
-        <source>Create New Folder</source>
-        <translation>Создать папку</translation>
-    </message>
-    <message>
-        <source>Create a New Folder</source>
-        <translation>Создать новую папку</translation>
-    </message>
-    <message>
-        <source>List View</source>
-        <translation>Список</translation>
-    </message>
-    <message>
-        <source>Change to list view mode</source>
-        <translation>Переключить в режим списка</translation>
-    </message>
-    <message>
-        <source>Detail View</source>
-        <translation>Подробный вид</translation>
-    </message>
-    <message>
-        <source>Change to detail view mode</source>
-        <translation>Переключить в подробный режим</translation>
-    </message>
-    <message>
-        <source>Files of type:</source>
-        <translation>Типы файлов:</translation>
-    </message>
-    <message>
-        <source>Find Directory</source>
-        <translation>Найти каталог</translation>
-    </message>
-    <message>
-        <source>Open</source>
-        <translation>Открыть</translation>
-    </message>
-    <message>
-        <source>Save As</source>
-        <translation>Сохранить как</translation>
-    </message>
-    <message>
-        <source>Directory:</source>
-        <translation>Каталог:</translation>
-    </message>
-    <message>
-        <source>File &amp;name:</source>
-        <translation>&amp;Имя файла:</translation>
-    </message>
-    <message>
-        <source>&amp;Open</source>
-        <translation>&amp;Открыть</translation>
-    </message>
-    <message>
-        <source>&amp;Choose</source>
-        <translation>&amp;Выбрать</translation>
-    </message>
-    <message>
-        <source>&amp;Save</source>
-        <translation>&amp;Сохранить</translation>
-    </message>
-    <message>
-        <source>All Files (*)</source>
-        <translation>Все файлы (*)</translation>
-    </message>
-    <message>
-        <source>Show </source>
-        <translation>Показать </translation>
-    </message>
-    <message>
-        <source>&amp;Rename</source>
-        <translation>&amp;Переименовать</translation>
-    </message>
-    <message>
-        <source>&amp;Delete</source>
-        <translation>&amp;Удалить</translation>
-    </message>
-    <message>
-        <source>Show &amp;hidden files</source>
-        <translation>Показать ск&amp;рытые файлы</translation>
-    </message>
-    <message>
-        <source>&amp;New Folder</source>
-        <translation>&amp;Новая папка</translation>
-    </message>
-    <message>
-        <source>Directories</source>
-        <translation>Каталоги</translation>
-    </message>
-    <message>
-        <source>%1
-Directory not found.
-Please verify the correct directory name was given.</source>
-        <translation>%1
-Каталог не найден.
-Проверьте правильность указанного имени каталога.</translation>
-    </message>
-    <message>
-        <source>%1 already exists.
-Do you want to replace it?</source>
-        <translation>%1 уже существует.
-Хотите заменить его?</translation>
-    </message>
-    <message>
-        <source>%1
-File not found.
-Please verify the correct file name was given.</source>
-        <translation>%1
-Файл не найден.
-Проверьте правильность указанного имени файла.</translation>
-    </message>
-    <message>
-        <source>New Folder</source>
-        <translation>Новая папка</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <translation>Удалить</translation>
-    </message>
-    <message>
-        <source>&apos;%1&apos; is write protected.
-Do you want to delete it anyway?</source>
-        <translation>«%1» защищён от записи.
-Действительно желаете удалить?</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to delete &apos;%1&apos;?</source>
-        <translation>Желаете удалить «%1»?</translation>
-    </message>
-    <message>
-        <source>Could not delete directory.</source>
-        <translation>Не удалось удалить каталог.</translation>
-    </message>
-    <message>
-        <source>Recent Places</source>
-        <translation>Недавние документы</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Удалить</translation>
-    </message>
-    <message>
-        <source>My Computer</source>
-        <translation>Мой компьютер</translation>
-    </message>
-    <message>
-        <source>Drive</source>
-        <translation>Диск</translation>
-    </message>
-    <message>
-        <source>File</source>
-        <translation>Файл</translation>
-    </message>
-    <message>
-        <source>File Folder</source>
-        <comment>Match Windows Explorer</comment>
-        <translation>Папка с файлами</translation>
-    </message>
-    <message>
-        <source>Folder</source>
-        <comment>All other platforms</comment>
-        <translation>Папка</translation>
-    </message>
-    <message>
-        <source>Alias</source>
-        <comment>Mac OS X Finder</comment>
-        <translation>Псевдоним</translation>
-    </message>
-    <message>
-        <source>Shortcut</source>
-        <comment>All other platforms</comment>
-        <translation>Ярлык</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation>Неизвестный</translation>
-    </message>
-    <message>
-        <source>Sidebar</source>
-        <translation>Боковая панель</translation>
-    </message>
-    <message>
-        <source>List of places and bookmarks</source>
-        <translation>Места и закладки</translation>
-    </message>
-    <message>
-        <source>Files</source>
-        <translation>Файлы</translation>
+        <translation>戻る</translation>
     </message>
     <message>
         <source>Alt+Left</source>
         <translation>Alt+Left</translation>
     </message>
     <message>
+        <source>Forward</source>
+        <translation>進む</translation>
+    </message>
+    <message>
+        <source>Go forward</source>
+        <translation>進む</translation>
+    </message>
+    <message>
         <source>Alt+Right</source>
         <translation>Alt+Right</translation>
     </message>
     <message>
+        <source>Parent Directory</source>
+        <translation>親ディレクトリ</translation>
+    </message>
+    <message>
+        <source>Go to the parent directory</source>
+        <translation>親ディレクトリへ移動</translation>
+    </message>
+    <message>
         <source>Alt+Up</source>
         <translation>Alt+Up</translation>
+    </message>
+    <message>
+        <source>Create New Folder</source>
+        <translation>新しいフォルダの作成</translation>
+    </message>
+    <message>
+        <source>Create a New Folder</source>
+        <translation>新しいフォルダの作成</translation>
+    </message>
+    <message>
+        <source>List View</source>
+        <translation>一覧表示</translation>
+    </message>
+    <message>
+        <source>Change to list view mode</source>
+        <translation>リスト表示モードへ変更</translation>
+    </message>
+    <message>
+        <source>Detail View</source>
+        <translation>詳細表示</translation>
+    </message>
+    <message>
+        <source>Change to detail view mode</source>
+        <translation>詳細表示モードへ変更</translation>
+    </message>
+    <message>
+        <source>Sidebar</source>
+        <translation>サイドバー</translation>
+    </message>
+    <message>
+        <source>List of places and bookmarks</source>
+        <translation>アドレスやブックマークのリスト</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>ファイル</translation>
+    </message>
+    <message>
+        <source>Files of type:</source>
+        <translation>ファイルの種類:</translation>
+    </message>
+    <message>
+        <source>Find Directory</source>
+        <translation>ディレクトリの検索</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>開く</translation>
+    </message>
+    <message>
+        <source>Save As</source>
+        <translation>名前を付けて保存</translation>
+    </message>
+    <message>
+        <source>Directory:</source>
+        <translation>ディレクトリ:</translation>
+    </message>
+    <message>
+        <source>File &amp;name:</source>
+        <translation>ファイル名(&amp;N):</translation>
+    </message>
+    <message>
+        <source>&amp;Open</source>
+        <translation>開く(&amp;O)</translation>
+    </message>
+    <message>
+        <source>&amp;Choose</source>
+        <translation>選択(&amp;C)</translation>
+    </message>
+    <message>
+        <source>&amp;Save</source>
+        <translation>保存(&amp;S)</translation>
+    </message>
+    <message>
+        <source>All Files (*)</source>
+        <translation>すべてのファイル(*)</translation>
+    </message>
+    <message>
+        <source>Show </source>
+        <translation>表示</translation>
+    </message>
+    <message>
+        <source>&amp;Rename</source>
+        <translation>名前の変更(&amp;R)</translation>
+    </message>
+    <message>
+        <source>&amp;Delete</source>
+        <translation>削除(&amp;D)</translation>
+    </message>
+    <message>
+        <source>Show &amp;hidden files</source>
+        <translation>隠しファイルの表示(&amp;H)</translation>
+    </message>
+    <message>
+        <source>&amp;New Folder</source>
+        <translation>新しいフォルダ(&amp;N)</translation>
+    </message>
+    <message>
+        <source>Directories</source>
+        <translation>ディレクトリ</translation>
+    </message>
+    <message>
+        <source>%1
+Directory not found.
+Please verify the correct directory name was given.</source>
+        <translation>%1
+ディレクトリが見つかりません。
+正しいディレクトリ名が入力されているかを確認してください。</translation>
+    </message>
+    <message>
+        <source>%1 already exists.
+Do you want to replace it?</source>
+        <translation>%1 は既に存在します。
+置き換えますか?</translation>
+    </message>
+    <message>
+        <source>%1
+File not found.
+Please verify the correct file name was given.</source>
+        <translation>%1
+ファイルが見つかりません。
+正しいファイル名が入力されているかを確認してください。</translation>
+    </message>
+    <message>
+        <source>New Folder</source>
+        <translation>新しいフォルダ</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>削除</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is write protected.
+Do you want to delete it anyway?</source>
+        <translation>&apos;%1&apos; は書き込みが禁止されています。
+本当に削除しますか?</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to delete &apos;%1&apos;?</source>
+        <translation>&apos;%1&apos; を本当に削除しますか?</translation>
+    </message>
+    <message>
+        <source>Could not delete directory.</source>
+        <translation>ディレクトリを削除できませんでした。</translation>
+    </message>
+    <message>
+        <source>Recent Places</source>
+        <translation>履歴</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>削除</translation>
+    </message>
+    <message>
+        <source>My Computer</source>
+        <translation>マイコンピュータ</translation>
+    </message>
+    <message>
+        <source>Drive</source>
+        <translation>ドライブ</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ファイル</translation>
+    </message>
+    <message>
+        <source>File Folder</source>
+        <comment>Match Windows Explorer</comment>
+        <translation>ファイルフォルダ</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <comment>All other platforms</comment>
+        <translation>フォルダ</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <comment>Mac OS X Finder</comment>
+        <translation>エイリアス</translation>
+    </message>
+    <message>
+        <source>Shortcut</source>
+        <comment>All other platforms</comment>
+        <translation>ショートカット</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
     </message>
 </context>
 <context>
     <name>QFileSystemModel</name>
     <message>
         <source>%1 TB</source>
-        <translation>%1 Тб</translation>
+        <translation>%1 TB</translation>
     </message>
     <message>
         <source>%1 GB</source>
-        <translation>%1 Гб</translation>
+        <translation>%1 GB</translation>
     </message>
     <message>
         <source>%1 MB</source>
-        <translation>%1 Мб</translation>
+        <translation>%1 MB</translation>
     </message>
     <message>
         <source>%1 KB</source>
-        <translation>%1 Кб</translation>
+        <translation>%1 KB</translation>
     </message>
     <message>
         <source>%1 bytes</source>
-        <translation>%1 байт</translation>
+        <translation>%1 バイト</translation>
     </message>
     <message>
         <source>Invalid filename</source>
-        <translation>Некорректное имя файла</translation>
+        <translation>無効なファイル名</translation>
     </message>
     <message>
         <source>&lt;b&gt;The name &quot;%1&quot; can not be used.&lt;/b&gt;&lt;p&gt;Try using another name, with fewer characters or no punctuations marks.</source>
-        <translation>&lt;b&gt;Имя «%1» не может быть использовано.&lt;/b&gt;&lt;p&gt;Попробуйте использовать имя меньшей длины и/или без символов пунктуации.</translation>
+        <translation>&lt;b&gt;ファイル名 &quot;%1&quot; は使用できません。&lt;/b&gt;&lt;p&gt;名前を短くしたり、アクセント記号などを削除して再度試してください。</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Имя</translation>
+        <translation>名前</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Размер</translation>
+        <translation>サイズ</translation>
     </message>
     <message>
         <source>Kind</source>
         <comment>Match OS X Finder</comment>
-        <translation>Вид</translation>
+        <translation>種類</translation>
     </message>
     <message>
         <source>Type</source>
         <comment>All other platforms</comment>
-        <translation>Тип</translation>
+        <translation>タイプ</translation>
     </message>
     <message>
         <source>Date Modified</source>
-        <translation>Дата изменения</translation>
+        <translation>更新日</translation>
     </message>
     <message>
         <source>My Computer</source>
-        <translation>Мой компьютер</translation>
+        <translation>マイコンピュータ</translation>
     </message>
     <message>
         <source>Computer</source>
-        <translation>Компьютер</translation>
+        <translation>コンピュータ</translation>
     </message>
     <message>
         <source>%1 byte(s)</source>
-        <translation>%1 байт</translation>
+        <translation>%1 バイト</translation>
     </message>
 </context>
 <context>
     <name>QFontDatabase</name>
     <message>
         <source>Normal</source>
-        <translation>Обычный</translation>
+        <translation>標準</translation>
     </message>
     <message>
         <source>Bold</source>
-        <translation>Жирный</translation>
+        <translation>太字</translation>
     </message>
     <message>
         <source>Demi Bold</source>
-        <translation>Полужирный</translation>
+        <translation>Demi Bold</translation>
     </message>
     <message>
         <source>Black</source>
-        <translation>Чёрный</translation>
+        <translation>Black</translation>
     </message>
     <message>
         <source>Demi</source>
-        <translation>Средний</translation>
+        <translation>Demi</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>Светлый</translation>
+        <translation>細字</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation>Курсив</translation>
+        <translation>斜体</translation>
     </message>
     <message>
         <source>Oblique</source>
-        <translation>Наклонный</translation>
+        <translation>斜体</translation>
     </message>
     <message>
         <source>Any</source>
-        <translation>Любая</translation>
+        <translation>すべて</translation>
     </message>
     <message>
         <source>Latin</source>
-        <translation>Латиница</translation>
+        <translation>ラテン</translation>
     </message>
     <message>
         <source>Greek</source>
-        <translation>Греческая</translation>
+        <translation>ギリシャ</translation>
     </message>
     <message>
         <source>Cyrillic</source>
-        <translation>Кириллица</translation>
+        <translation>キリル</translation>
     </message>
     <message>
         <source>Armenian</source>
-        <translation>Армянская</translation>
+        <translation>アルメニア</translation>
     </message>
     <message>
         <source>Hebrew</source>
-        <translation>Иврит</translation>
+        <translation>ヘブライ</translation>
     </message>
     <message>
         <source>Arabic</source>
-        <translation>Арабская</translation>
+        <translation>アラビア</translation>
     </message>
     <message>
         <source>Syriac</source>
-        <translation>Сирийская</translation>
+        <translation>シリア</translation>
     </message>
     <message>
         <source>Thaana</source>
-        <translation>Таана</translation>
+        <translation>ターナ</translation>
     </message>
     <message>
         <source>Devanagari</source>
-        <translation>Деванагири</translation>
+        <translation>デーヴァナーガリー</translation>
     </message>
     <message>
         <source>Bengali</source>
-        <translation>Бенгальская</translation>
+        <translation>ベンガル</translation>
     </message>
     <message>
         <source>Gurmukhi</source>
-        <translation>Гурмукхи</translation>
+        <translation>グルムキー</translation>
     </message>
     <message>
         <source>Gujarati</source>
-        <translation>Гуджарати</translation>
+        <translation>グジャラート</translation>
     </message>
     <message>
         <source>Oriya</source>
-        <translation>Ория</translation>
+        <translation>オリヤー</translation>
     </message>
     <message>
         <source>Tamil</source>
-        <translation>Тамильская</translation>
+        <translation>タミル</translation>
     </message>
     <message>
         <source>Telugu</source>
-        <translation>Телугу</translation>
+        <translation>テルグ</translation>
     </message>
     <message>
         <source>Kannada</source>
-        <translation>Каннада</translation>
+        <translation>カンナダ</translation>
     </message>
     <message>
         <source>Malayalam</source>
-        <translation>Малайялам</translation>
+        <translation>マラヤーラム</translation>
     </message>
     <message>
         <source>Sinhala</source>
-        <translation>Сингальская</translation>
+        <translation>シンハラ</translation>
     </message>
     <message>
         <source>Thai</source>
-        <translation>Тайская</translation>
+        <translation>タイ</translation>
     </message>
     <message>
         <source>Lao</source>
-        <translation>Лаосская</translation>
+        <translation>ラーオ</translation>
     </message>
     <message>
         <source>Tibetan</source>
-        <translation>Тибетская</translation>
+        <translation>チベット</translation>
     </message>
     <message>
         <source>Myanmar</source>
-        <translation>Мьянма</translation>
+        <translation>ビルマ</translation>
     </message>
     <message>
         <source>Georgian</source>
-        <translation>Грузинская</translation>
+        <translation>グルジア</translation>
     </message>
     <message>
         <source>Khmer</source>
-        <translation>Кхмерская</translation>
+        <translation>クメール</translation>
     </message>
     <message>
         <source>Simplified Chinese</source>
-        <translation>Китайская упрощённая</translation>
+        <translation>簡体中国</translation>
     </message>
     <message>
         <source>Traditional Chinese</source>
-        <translation>Китайская традиционная</translation>
+        <translation>繁体中国</translation>
     </message>
     <message>
         <source>Japanese</source>
-        <translation>Японская</translation>
+        <translation>日本</translation>
     </message>
     <message>
         <source>Korean</source>
-        <translation>Корейская</translation>
+        <translation>ハングル</translation>
     </message>
     <message>
         <source>Vietnamese</source>
-        <translation>Вьетнамская</translation>
+        <translation>ベトナム</translation>
     </message>
     <message>
         <source>Symbol</source>
-        <translation>Символьная</translation>
+        <translation>記号</translation>
     </message>
     <message>
         <source>Ogham</source>
-        <translation>Огамическая</translation>
+        <translation>オガム</translation>
     </message>
     <message>
         <source>Runic</source>
-        <translation>Руническая</translation>
+        <translation>ルーン</translation>
     </message>
     <message>
         <source>N&apos;Ko</source>
-        <translation>Нко</translation>
+        <translation>ンコ</translation>
     </message>
 </context>
 <context>
     <name>QFontDialog</name>
     <message>
         <source>Select Font</source>
-        <translation>Выбор шрифта</translation>
+        <translation>フォントの選択</translation>
     </message>
     <message>
         <source>&amp;Font</source>
-        <translation>&amp;Шрифт</translation>
+        <translation>フォント(&amp;F)</translation>
     </message>
     <message>
         <source>Font st&amp;yle</source>
-        <translation>&amp;Начертание</translation>
+        <translation>フォントスタイル(&amp;Y)</translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>&amp;Размер</translation>
+        <translation>サイズ(&amp;S)</translation>
     </message>
     <message>
         <source>Effects</source>
-        <translation>Эффекты</translation>
+        <translation>文字飾り</translation>
     </message>
     <message>
         <source>Stri&amp;keout</source>
-        <translation>Зачёр&amp;кнутый</translation>
+        <translation>取り消し線(&amp;K)</translation>
     </message>
     <message>
         <source>&amp;Underline</source>
-        <translation>П&amp;одчёркнутый</translation>
+        <translation>下線(&amp;U)</translation>
     </message>
     <message>
         <source>Sample</source>
-        <translation>Пример</translation>
+        <translation>サンプル</translation>
     </message>
     <message>
         <source>Wr&amp;iting System</source>
-        <translation>&amp;Система письма</translation>
+        <translation>言語(&amp;I)</translation>
     </message>
 </context>
 <context>
     <name>QFtp</name>
     <message>
         <source>Not connected</source>
-        <translation>Соединение не установлено</translation>
+        <translation>未接続です</translation>
     </message>
     <message>
         <source>Host %1 not found</source>
-        <translation>Узел %1 не найден</translation>
+        <translation>ホスト %1 が見つかりません</translation>
     </message>
     <message>
         <source>Connection refused to host %1</source>
-        <translation>В соединении с узлом %1 отказано</translation>
+        <translation>ホスト %1 への接続が拒否されました</translation>
     </message>
     <message>
         <source>Connection timed out to host %1</source>
-        <translation>Время на соединение с узлом %1 истекло</translation>
+        <translation>ホスト %1 への接続がタイムアウトしました</translation>
     </message>
     <message>
         <source>Connected to host %1</source>
-        <translation>Установлено соединение с узлом %1</translation>
+        <translation>ホスト %1 に接続しました</translation>
     </message>
     <message>
         <source>Data Connection refused</source>
-        <translation>Отклонена попытка подключения для передачи данных</translation>
+        <translation>データ接続が拒否されました</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Неизвестная ошибка</translation>
+        <translation>未知のエラー</translation>
     </message>
     <message>
         <source>Connecting to host failed:
 %1</source>
-        <translation>Не удалось соединиться с узлом:
+        <translation>ホストへの接続に失敗しました:
 %1</translation>
     </message>
     <message>
         <source>Login failed:
 %1</source>
-        <translation>Не удалось авторизоваться:
+        <translation>ログインに失敗しました:
 %1</translation>
     </message>
     <message>
         <source>Listing directory failed:
 %1</source>
-        <translation>Не удалось прочитать каталог:
+        <translation>ディレクトリのファイル一覧が取得できません:
 %1</translation>
     </message>
     <message>
         <source>Changing directory failed:
 %1</source>
-        <translation>Не удалось сменить каталог:
+        <translation>ディレクトリの変更に失敗しました:
 %1</translation>
     </message>
     <message>
         <source>Downloading file failed:
 %1</source>
-        <translation>Не удалось загрузить файл:
+        <translation>ファイルのダウンロードに失敗しました:
 %1</translation>
     </message>
     <message>
         <source>Uploading file failed:
 %1</source>
-        <translation>Не удалось отгрузить файл:
+        <translation>ファイルのアップロードに失敗しました:
 %1</translation>
     </message>
     <message>
         <source>Removing file failed:
 %1</source>
-        <translation>Не удалось удалить файл:
+        <translation>ファイルの削除に失敗しました:
 %1</translation>
     </message>
     <message>
         <source>Creating directory failed:
 %1</source>
-        <translation>Не удалось создать каталог:
+        <translation>ディレクトリの作成に失敗しました:
 %1</translation>
     </message>
     <message>
         <source>Removing directory failed:
 %1</source>
-        <translation>Не удалось удалить каталог:
+        <translation>ディレクトリの削除に失敗しました:
 %1</translation>
     </message>
     <message>
         <source>Connection closed</source>
-        <translation>Соединение закрыто</translation>
+        <translation>接続が閉じられました</translation>
     </message>
 </context>
 <context>
     <name>QHostInfo</name>
     <message>
         <source>No host name given</source>
-        <translation>Имя узла не задано</translation>
+        <translation>ホストネームが与えられていません</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Неизвестная ошибка</translation>
+        <translation>未知のエラー</translation>
     </message>
 </context>
 <context>
     <name>QHostInfoAgent</name>
     <message>
         <source>No host name given</source>
-        <translation>Имя узла не задано</translation>
+        <translation>ホストネームが与えられていません</translation>
     </message>
     <message>
         <source>Invalid hostname</source>
-        <translation>Некорректное имя узла</translation>
+        <translation>無効なホスト名</translation>
     </message>
     <message>
         <source>Unknown address type</source>
-        <translation>Неизвестный тип адреса</translation>
+        <translation>未知のアドレス型です</translation>
     </message>
     <message>
         <source>Host not found</source>
-        <translation>Узел не найден</translation>
+        <translation>ホストが見つかりません</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Неизвестная ошибка</translation>
+        <translation>未知のエラー</translation>
     </message>
     <message>
         <source>Unknown error (%1)</source>
-        <translation>Неизвестная ошибка (%1)</translation>
+        <translation>未知のエラー (%1)</translation>
     </message>
 </context>
 <context>
     <name>QHttp</name>
     <message>
         <source>Host %1 not found</source>
-        <translation>Узел %1 не найден</translation>
+        <translation>ホスト %1 が見つかりません</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>Отказано в соединении</translation>
+        <translation>接続が拒否されました</translation>
     </message>
     <message>
         <source>Connection closed</source>
-        <translation>Соединение закрыто</translation>
+        <translation>接続が閉じられました</translation>
     </message>
     <message>
         <source>Proxy requires authentication</source>
-        <translation>Время на операцию с сокетом истекло</translation>
+        <translation>プロキシでの認証が必要です</translation>
     </message>
     <message>
         <source>Host requires authentication</source>
-        <translation>Узел требует авторизацию</translation>
+        <translation>ホストの認証が必要です</translation>
     </message>
     <message>
         <source>Data corrupted</source>
-        <translation>Данные повреждены</translation>
+        <translation>データが破損しています</translation>
     </message>
     <message>
         <source>Unknown protocol specified</source>
-        <translation>Указан неизвестный протокол</translation>
+        <translation>未対応のプロトコルです</translation>
     </message>
     <message>
         <source>SSL handshake failed</source>
-        <translation>Квитирование SSL не удалось</translation>
+        <translation>SSLのハンドシェークに失敗しました</translation>
     </message>
 </context>
 <context>
     <name>QHttpSocketEngine</name>
     <message>
         <source>Did not receive HTTP response from proxy</source>
-        <translation>Не получен HTTP-ответ от прокси-сервера</translation>
+        <translation>プロキシーからHTTPレスポンスを受信できませんでした</translation>
     </message>
     <message>
         <source>Error parsing authentication request from proxy</source>
-        <translation>Ошибка разбора запроса авторизации от прокси-сервера</translation>
+        <translation>プロキシーからの認証要求のパースに失敗しました</translation>
     </message>
     <message>
         <source>Authentication required</source>
-        <translation>Требуется авторизация</translation>
+        <translation>認証が必要です</translation>
     </message>
     <message>
         <source>Proxy denied connection</source>
-        <translation>Прокси-сервер запретил соединение</translation>
+        <translation>プロキシーが接続を拒否しました</translation>
     </message>
     <message>
         <source>Error communicating with HTTP proxy</source>
-        <translation>Ошибка обмена данными с прокси-сервером HTTP</translation>
+        <translation>HTTP プロキシーとの通信にて、エラーが発生しました</translation>
     </message>
     <message>
         <source>Proxy server not found</source>
-        <translation>Прокси-сервер не найден</translation>
+        <translation>プロキシーサーバが見つかりません</translation>
     </message>
     <message>
         <source>Proxy connection refused</source>
-        <translation>В соединении прокси-сервером отказано</translation>
+        <translation>プロキシーが接続を拒否しました</translation>
     </message>
     <message>
         <source>Proxy server connection timed out</source>
-        <translation>Время на соединение с прокси-сервером истекло</translation>
+        <translation>プロキシーとの接続がタイムアウトしました</translation>
     </message>
     <message>
         <source>Proxy connection closed prematurely</source>
-        <translation>Соединение с прокси-сервером неожиданно закрыто</translation>
+        <translation>プロキシーの接続が通信の終了前に切断されました</translation>
     </message>
 </context>
 <context>
     <name>QIBaseDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>Ошибка открытия базы данных</translation>
+        <translation>データベースのオープン時にエラーが発生しました</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>Не удалось начать транзакцию</translation>
+        <translation>トランザクションを開始できませんでした</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Невозможно завершить транзакцию</translation>
+        <translation>トランザクションをコミットできません</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Невозможно откатить транзакцию</translation>
+        <translation>トランザクションをロールバックできません</translation>
     </message>
 </context>
 <context>
     <name>QIBaseResult</name>
     <message>
         <source>Unable to create BLOB</source>
-        <translation>Невозможно создать BLOB</translation>
+        <translation>バイナリラージオブジェクト(BLOB)を作成できません</translation>
     </message>
     <message>
         <source>Unable to write BLOB</source>
-        <translation>Невозможно записать BLOB</translation>
+        <translation>バイナリラージオブジェクト(BLOB)を書き込めません</translation>
     </message>
     <message>
         <source>Unable to open BLOB</source>
-        <translation>Невозможно открыть BLOB</translation>
+        <translation>バイナリラージオブジェクト(BLOB)を開けません</translation>
     </message>
     <message>
         <source>Unable to read BLOB</source>
-        <translation>Невозможно прочитать BLOB</translation>
+        <translation>バイナリラージオブジェクト(BLOB)を読み込めません</translation>
     </message>
     <message>
         <source>Could not find array</source>
-        <translation>Не удалось найти массив</translation>
+        <translation>配列が見つかりませんでした</translation>
     </message>
     <message>
         <source>Could not get array data</source>
-        <translation>Не удалось найти данные массива</translation>
+        <translation>配列データを取得できませんでした</translation>
     </message>
     <message>
         <source>Could not get query info</source>
-        <translation>Не удалось найти информацию о запросе</translation>
+        <translation>クエリー情報を取得できませんでした</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>Не удалось начать транзакцию</translation>
+        <translation>トランザクションを開始できませんでした</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Невозможно завершить транзакцию</translation>
+        <translation>トランザクションをコミットできません</translation>
     </message>
     <message>
         <source>Could not allocate statement</source>
-        <translation>Не удалось получить ресурсы для создания выражения</translation>
+        <translation>ステートメントの領域を確保できませんでした</translation>
     </message>
     <message>
         <source>Could not prepare statement</source>
-        <translation>Не удалось подготовить выражение</translation>
+        <translation>プリペアドステートメントを作成できませんでした</translation>
     </message>
     <message>
         <source>Could not describe input statement</source>
-        <translation>Не удалось описать входящее выражение</translation>
+        <translation>INPUT ステートメントの情報を取得できませんでした</translation>
     </message>
     <message>
         <source>Could not describe statement</source>
-        <translation>Не удалось описать выражение</translation>
+        <translation>ステートメントの情報を取得できませんでした</translation>
     </message>
     <message>
         <source>Unable to close statement</source>
-        <translation>Невозможно закрыть выражение</translation>
+        <translation>ステートメントをクローズできません</translation>
     </message>
     <message>
         <source>Unable to execute query</source>
-        <translation>Невозможно выполнить запрос</translation>
+        <translation>クエリーを実行できません</translation>
     </message>
     <message>
         <source>Could not fetch next item</source>
-        <translation>Не удалось получить следующий элемент</translation>
+        <translation>次のレコードをフェッチできませんでした</translation>
     </message>
     <message>
         <source>Could not get statement info</source>
-        <translation>Не удалось найти информацию о выражении</translation>
+        <translation>ステートメントの情報を取得できませんでした</translation>
     </message>
 </context>
 <context>
     <name>QIODevice</name>
     <message>
         <source>Permission denied</source>
-        <translation>Доступ запрещён</translation>
+        <translation>許可されていません</translation>
     </message>
     <message>
         <source>Too many open files</source>
-        <translation>Слишком много открытых файлов</translation>
+        <translation>開かれたファイルが多すぎます</translation>
     </message>
     <message>
         <source>No such file or directory</source>
-        <translation>Файл или каталог не существует</translation>
+        <translation>そのようなファイルやディレクトリはありません</translation>
     </message>
     <message>
         <source>No space left on device</source>
-        <translation>Нет свободного места на устройстве</translation>
+        <translation>デバイスに空き容量がありません</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Неизвестная ошибка</translation>
+        <translation>未知のエラー</translation>
     </message>
 </context>
 <context>
     <name>QInputDialog</name>
     <message>
         <source>Enter a value:</source>
-        <translation>Укажите значение:</translation>
+        <translation>値を入力:</translation>
     </message>
 </context>
 <context>
     <name>QJsonParseError</name>
     <message>
         <source>no error occurred</source>
-        <translation>ошибки отсутствуют</translation>
+        <translation>エラーは発生しませんでした</translation>
     </message>
     <message>
         <source>unterminated object</source>
-        <translation>Незавершённый объект</translation>
+        <translation>閉じられていないオブジェクトです</translation>
     </message>
     <message>
         <source>missing name separator</source>
-        <translation>отсутствует разделитель имён</translation>
+        <translation>名前の区切りがありません</translation>
     </message>
     <message>
         <source>unterminated array</source>
-        <translation>незавершённый массив</translation>
+        <translation>閉じられていない配列です</translation>
     </message>
     <message>
         <source>missing value separator</source>
-        <translation>отсутствует разделитель значений</translation>
+        <translation>値の区切りがありません</translation>
     </message>
     <message>
         <source>illegal value</source>
-        <translation>недопустимое значение</translation>
+        <translation>無効な値です</translation>
     </message>
     <message>
         <source>invalid termination by number</source>
-        <translation>некорректное завершение числом</translation>
+        <translation>数値による終端は無効です</translation>
     </message>
     <message>
         <source>illegal number</source>
-        <translation>некорректное число</translation>
+        <translation>無効な数字です</translation>
     </message>
     <message>
         <source>invalid escape sequence</source>
-        <translation>некорректная ESC-последовательность</translation>
+        <translation>無効なエスケープシーケンスです</translation>
     </message>
     <message>
         <source>invalid UTF8 string</source>
-        <translation>некорректная последовательность UTF8</translation>
+        <translation>無効な UTF-8 文字列です</translation>
     </message>
     <message>
         <source>unterminated string</source>
-        <translation>незавершённая строка</translation>
+        <translation>閉じられていない文字列です</translation>
     </message>
     <message>
         <source>object is missing after a comma</source>
-        <translation>отсутствует объект после точки</translation>
+        <translation>コンマの後にオブジェクトがありません</translation>
     </message>
     <message>
         <source>too deeply nested document</source>
-        <translation>документ имеет слишком глубокую вложенность</translation>
+        <translation>ドキュメントのネストが深すぎます</translation>
     </message>
     <message>
         <source>too large document</source>
-        <translation>слишком большой документ</translation>
+        <translation>ドキュメントが大きすぎます</translation>
     </message>
 </context>
 <context>
     <name>QLibrary</name>
     <message>
         <source>&apos;%1&apos; is not an ELF object (%2)</source>
-        <translation>«%1» не является объектом ELF (%2)</translation>
+        <translation>&apos;%1&apos; は ELF オブジェクトではありません(%2)</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not an ELF object</source>
-        <translation>«%1» не является объектом ELF</translation>
+        <translation>&apos;%1&apos; は ELF オブジェクトではありません</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is an invalid ELF object (%2)</source>
-        <translation>«%1» является некорректным объектом ELF (%2)</translation>
+        <translation>&apos;%1&apos; は無効な ELF オブジェクトです(%2)</translation>
     </message>
     <message>
         <source>Plugin verification data mismatch in &apos;%1&apos;</source>
-        <translation>Проверочная информация для модуля «%1» не совпадает</translation>
+        <translation>&apos;%1&apos; でプラグイン検証データが一致しません</translation>
     </message>
     <message>
         <source>The shared library was not found.</source>
-        <translation>Динамическая библиотека не найдена.</translation>
+        <translation>共有ライブラリがみつかりません。</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; is not a valid Qt plugin.</source>
-        <translation>Файл «%1» ― не является корректным модулем Qt.</translation>
+        <translation>ファイル &apos;%1&apos; は有効な Qt プラグインではありません。</translation>
     </message>
     <message>
         <source>The plugin &apos;%1&apos; uses incompatible Qt library. (%2.%3.%4) [%5]</source>
-        <translation>Модуль «%1» использует несоместимую библиотеку Qt. (%2.%3.%4) [%5]</translation>
+        <translation>プラグイン &apos;%1&apos; は、互換性のない Qt ライブラリを使用しています。(%2.%3.%4) [%5]</translation>
     </message>
     <message>
         <source>The plugin &apos;%1&apos; uses incompatible Qt library. (Cannot mix debug and release libraries.)</source>
-        <translation>Модуль «%1» использует несоместимую библиотеку Qt. (Невозможно совместить релизные и отладочные библиотеки.)</translation>
+        <translation>プラグイン &apos;%1&apos; はこの Qt と互換性のないライブラリを使用しています。 (デバック版とリリース版のライブラリを同時に使用することはできません)</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Неизвестная ошибка</translation>
+        <translation>未知のエラー</translation>
     </message>
     <message>
         <source>Cannot load library %1: %2</source>
-        <translation>Невозможно загрузить библиотеку %1: %2</translation>
+        <translation>ライブラリ %1 を読み込めません: %2</translation>
     </message>
     <message>
         <source>Cannot unload library %1: %2</source>
-        <translation>Невозможно выгрузить библиотеку %1: %2</translation>
+        <translation>ライブラリ %1 を解放できません: %2</translation>
     </message>
     <message>
         <source>Cannot resolve symbol &quot;%1&quot; in %2: %3</source>
-        <translation>Невозможно разрешить символ «%1» в %2: %3</translation>
+        <translation>%2 に含まれる識別子 &quot;%1&quot; を解決できません: %3</translation>
     </message>
 </context>
 <context>
     <name>QLineEdit</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;Отменить действие</translation>
+        <translation>元に戻す(&amp;U)</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>&amp;Повторить действие</translation>
+        <translation>やり直す(&amp;R)</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>&amp;Вырезать</translation>
+        <translation>切り取り(&amp;T)</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Копировать</translation>
+        <translation>コピー(&amp;C)</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>В&amp;ставить</translation>
+        <translation>貼り付け(&amp;P)</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Удалить</translation>
+        <translation>削除</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Выделить всё</translation>
+        <translation>すべてを選択</translation>
     </message>
 </context>
 <context>
     <name>QLocalServer</name>
     <message>
         <source>%1: Name error</source>
-        <translation>%1: Некорректное имя</translation>
+        <translation>%1: 名前の解決に失敗</translation>
     </message>
     <message>
         <source>%1: Permission denied</source>
-        <translation>%1: Доступ запрещён</translation>
+        <translation>%1: 許可されていません</translation>
     </message>
     <message>
         <source>%1: Address in use</source>
-        <translation>%1: Адрес используется</translation>
+        <translation>%1: アドレスは既に使用されています</translation>
     </message>
     <message>
         <source>%1: Unknown error %2</source>
-        <translation>%1: Неизвестная ошибка %2</translation>
+        <translation>%1: 未知のエラー %2</translation>
     </message>
 </context>
 <context>
     <name>QLocalSocket</name>
     <message>
         <source>%1: Connection refused</source>
-        <translation>%1: Отказано в соединении</translation>
+        <translation>%1: 接続が拒否されました</translation>
     </message>
     <message>
         <source>%1: Remote closed</source>
-        <translation>%1: Закрыто удаленной стороной</translation>
+        <translation>%1: リモートにより接続が閉じられました</translation>
     </message>
     <message>
         <source>%1: Invalid name</source>
-        <translation>%1: Некорректное имя</translation>
+        <translation>%1: 無効な名前です</translation>
     </message>
     <message>
         <source>%1: Socket access error</source>
-        <translation>%1: Ошибка обращения к сокету</translation>
+        <translation>%1: ソケットアクセスのエラーです</translation>
     </message>
     <message>
         <source>%1: Socket resource error</source>
-        <translation>%1: Ошибка выделения ресурсов сокета</translation>
+        <translation>%1: ソケットリソースのエラーです</translation>
     </message>
     <message>
         <source>%1: Socket operation timed out</source>
-        <translation>%1: Время на операцию с сокетом истекло</translation>
+        <translation>%1: ソケット操作がタイムアウトしました</translation>
     </message>
     <message>
         <source>%1: Datagram too large</source>
-        <translation>%1: Датаграмма слишком большая</translation>
+        <translation>%1: データグラムが大きすぎます</translation>
     </message>
     <message>
         <source>%1: Connection error</source>
-        <translation>%1: Ошибка соединения</translation>
+        <translation>%1: 接続のエラーが発生しました</translation>
     </message>
     <message>
         <source>%1: The socket operation is not supported</source>
-        <translation>%1: Операция с сокетом не поддерживается</translation>
+        <translation>%1: そのソケット操作はサポートされていません</translation>
     </message>
     <message>
         <source>%1: Operation not permitted when socket is in this state</source>
-        <translation>%1: Операция не разрешена, когда сокет в этом состоянии</translation>
+        <translation>%1: ソケットがこの状態の場合、この操作は許可されていません</translation>
     </message>
     <message>
         <source>%1: Unknown error</source>
-        <translation>%1: Неизвестная ошибка</translation>
-    </message>
-    <message>
-        <source>%1: Unknown error %2</source>
-        <translation>%1: Неизвестная ошибка %2</translation>
-    </message>
-    <message>
-        <source>%1: Access denied</source>
-        <translation>%1: Доступ запрещён</translation>
+        <translation>%1: 未知のエラーです</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation>Попытка подключиться во время подключения</translation>
+        <translation>接続の実行中に接続を試みました</translation>
+    </message>
+    <message>
+        <source>%1: Unknown error %2</source>
+        <translation>%1: 未知のエラー %2</translation>
+    </message>
+    <message>
+        <source>%1: Access denied</source>
+        <translation>%1: アクセスが拒否されました</translation>
     </message>
 </context>
 <context>
     <name>QMYSQLDriver</name>
     <message>
         <source>Unable to open database &apos;%1&apos;</source>
-        <translation>Невозможно открыть базу данных «%1»</translation>
+        <translation>データベース &apos;%1&apos; を開けません</translation>
     </message>
     <message>
         <source>Unable to connect</source>
-        <translation>Невозможно соединиться</translation>
+        <translation>接続できません</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>Невозможно начать транзакцию</translation>
+        <translation>トランザクションを開始できません</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Невозможно завершить транзакцию</translation>
+        <translation>トランザクションをコミットできません</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Невозможно откатить транзакцию</translation>
+        <translation>トランザクションをロールバックできません</translation>
     </message>
 </context>
 <context>
     <name>QMYSQLResult</name>
     <message>
         <source>Unable to fetch data</source>
-        <translation>Невозможно получить данные</translation>
+        <translation>データをフェッチできません</translation>
     </message>
     <message>
         <source>Unable to execute query</source>
-        <translation>Невозможно выполнить запрос</translation>
+        <translation>クエリーを実行できません</translation>
     </message>
     <message>
         <source>Unable to store result</source>
-        <translation>Невозможно сохранить результат</translation>
+        <translation>実行結果を記録できません</translation>
     </message>
     <message>
         <source>Unable to execute next query</source>
-        <translation>Невозможно выполнить следующий запрос</translation>
+        <translation>次のクエリーを実行できません</translation>
     </message>
     <message>
         <source>Unable to store next result</source>
-        <translation>Невозможно сохранить следующий результат</translation>
+        <translation>次の結果を記録できません</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Невозможно подготовить выражение</translation>
+        <translation>プリペアドステートメントを作成できません</translation>
     </message>
     <message>
         <source>Unable to reset statement</source>
-        <translation>Невозможно сбросить выражение</translation>
+        <translation>ステートメントをリセットできません</translation>
     </message>
     <message>
         <source>Unable to bind value</source>
-        <translation>Невозможно привязать значение</translation>
+        <translation>値をバインドできません</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Невозможно выполнить выражение</translation>
+        <translation>ステートメントを実行できません</translation>
     </message>
     <message>
         <source>Unable to bind outvalues</source>
-        <translation>Невозможно привязать результирующие значения</translation>
+        <translation>出力値をバインドできません</translation>
     </message>
     <message>
         <source>Unable to store statement results</source>
-        <translation>Невозможно сохранить результаты выполнения выражения</translation>
+        <translation>ステートメントの実行結果を記録できません</translation>
     </message>
 </context>
 <context>
     <name>QMdiArea</name>
     <message>
         <source>(Untitled)</source>
-        <translation>(Неозаглавлено)</translation>
+        <translation>(タイトルなし)</translation>
     </message>
 </context>
 <context>
@@ -1769,366 +1769,366 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>Свернуть</translation>
+        <translation>最小化</translation>
     </message>
     <message>
         <source>Maximize</source>
-        <translation>Распахнуть</translation>
+        <translation>最大化</translation>
     </message>
     <message>
         <source>Unshade</source>
-        <translation>Восстановить из заголовка</translation>
+        <translation>展開する</translation>
     </message>
     <message>
         <source>Shade</source>
-        <translation>Свернуть в заголовок</translation>
+        <translation>折りたたむ</translation>
     </message>
     <message>
         <source>Restore Down</source>
-        <translation>Восстановить</translation>
+        <translation>元に戻す</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation>Восстановить</translation>
+        <translation>元に戻す</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Закрыть</translation>
+        <translation>閉じる</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Справка</translation>
+        <translation>ヘルプ</translation>
     </message>
     <message>
         <source>Menu</source>
-        <translation>Меню</translation>
+        <translation>メニュー</translation>
     </message>
     <message>
         <source>&amp;Restore</source>
-        <translation>&amp;Восстановить</translation>
+        <translation>元に戻す(&amp;R)</translation>
     </message>
     <message>
         <source>&amp;Move</source>
-        <translation>&amp;Переместить</translation>
+        <translation>移動(&amp;M)</translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>&amp;Размер</translation>
+        <translation>サイズ(&amp;S)</translation>
     </message>
     <message>
         <source>Mi&amp;nimize</source>
-        <translation>&amp;Свернуть</translation>
+        <translation>最小化(&amp;N)</translation>
     </message>
     <message>
         <source>Ma&amp;ximize</source>
-        <translation>Р&amp;аспахнуть</translation>
+        <translation>最大化(&amp;X)</translation>
     </message>
     <message>
         <source>Stay on &amp;Top</source>
-        <translation>Оставаться &amp;сверху</translation>
+        <translation>常に手前に表示(&amp;T)</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Закрыть</translation>
+        <translation>閉じる(&amp;C)</translation>
     </message>
 </context>
 <context>
     <name>QMessageBox</name>
     <message>
         <source>Show Details...</source>
-        <translation>Показать подробности...</translation>
+        <translation>詳細を表示...</translation>
     </message>
     <message>
         <source>Hide Details...</source>
-        <translation>Скрыть подробности...</translation>
+        <translation>詳細を隠す...</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>Закрыть</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Справка</translation>
+        <translation>ヘルプ</translation>
     </message>
     <message>
         <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
-        <translation>&lt;h3&gt;О Qt&lt;/h3&gt;&lt;p&gt;Данная программа использует Qt версии %1.&lt;/p&gt;</translation>
+        <translation>&lt;h3&gt;Qt について&lt;/h3&gt;&lt;p&gt;このプログラムは Qt バージョン %1 を使用しています。&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is developed as an open source project on &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Qt ― это инструментарий для разработки кроссплатформенных приложений на C++.&lt;/p&gt;&lt;p&gt;Qt предоставляет совместимость на уровне исходных текстов между для всех популярных настольных операционных систем. Также Qt доступна для встраиваемого Linux и других мобильных операционных систем.&lt;/p&gt;&lt;p&gt;Qt доступна под тремя различными лицензиями, разработанными для удовлетворения различных требований.&lt;/p&gt;&lt;p&gt;Qt под нашей коммерческой лицензией предназначена для развития проприетарного/коммерческого программного обеспечения, когда Вы не желаете предоставлять исходные тексты третьим сторонам, или в случае невозможности принятия условий лицензий GNU LGPL версии 2.1 или GNU GPL версии 3.0.&lt;/p&gt;&lt;p&gt;Qt под лицензией GNU LGPL версии 2.1 предназначена для разработки программного обеспечения с открытыми исходными текстами или коммерческого программного обеспечения при соблюдении условий лицензии GNU LGPL версии 2.1.&lt;/p&gt;&lt;p&gt;Qt под лицензией GNU General Public License версии 3.0 предназначена для разработки программных приложений в тех случаях, когда Вы хотели бы использовать такие приложения в сочетании с программным обеспечением на условиях лицензии GNU GPL с версии 3.0 или если Вы готовы соблюдать условия лицензии GNU GPL версии 3.0.&lt;/p&gt;&lt;p&gt;Подробнее с лицензированием Qt можно ознакомиться на сайте &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc и/или её дочерние подразделения и другие участники.&lt;/p&gt;&lt;p&gt;Qt, как открытый проект, разрабатывается на &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt ― продукт компании Digia. Более подробную информацию можно найти на сайте &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt;.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Qt はクロスプラットフォームアプリケーション開発用の C++ ツールキットです。&lt;/p&gt;&lt;p&gt;Qt はすべての主なデスクトップオペレーティングシステムにまたがってシングルソースポータビリティを提供します。また、組込み Linux やその他の組込み・モバイルオペレーティングシステムにも対応します。&lt;/p&gt;&lt;p&gt;Qt はさまざまなユーザの必要に応じることを目指して、3つの異なるライセンスで提供されています。.&lt;/p&gt;&lt;p&gt;いかなるソースも第三者と共有したくない場合や GNU LGPL v2.1 や GNU GPL v3.0 の条件に従うことができないようなプロプライエタリ/商用ソフトウェアの開発には商用ライセンス版の Qt の利用が適切です。&lt;/p&gt;&lt;p&gt;GNU LGPL v2.1 の条件に応じることができるのであれば GNU LGPL v2.1 版の Qt の利用が適切です。&lt;/p&gt;&lt;p&gt;GNU GPL v3.0 で提供されているソフトウェアをリンクしたアプリケーションを開発する場合や、GNU GPL v3.0 に賛同している場合には GNU GPL v.30 版の Qt の利用が適切です。&lt;/p&gt;&lt;p&gt;Qt のライセンスについての概要は &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; をご覧ください。&lt;/p&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt は &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt; においてオープンソースプロジェクトとして開発されています。&lt;/p&gt;&lt;p&gt;Qt は Digia 社の製品です。詳しい情報は &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; をご覧ください。&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About Qt</source>
-        <translation>О Qt</translation>
+        <translation>Qt について</translation>
     </message>
 </context>
 <context>
     <name>QNativeSocketEngine</name>
     <message>
         <source>Unable to initialize non-blocking socket</source>
-        <translation>Невозможно инициализировать не-блочный сокет</translation>
+        <translation>非ブロック型ソケットを初期化できません</translation>
     </message>
     <message>
         <source>Unable to initialize broadcast socket</source>
-        <translation>Невозможно инициализировать широковещательный сокет</translation>
+        <translation>ブロードキャストソケットを初期化できません</translation>
     </message>
     <message>
         <source>Attempt to use IPv6 socket on a platform with no IPv6 support</source>
-        <translation>Попытка использовать IPv6 на платформе, не поддерживающей IPv6</translation>
+        <translation>IPv6 がサポートされていないプラットフォームで IPv6 ソケットを使用しようとしています</translation>
     </message>
     <message>
         <source>The remote host closed the connection</source>
-        <translation>Удалённый узел закрыл соединение</translation>
+        <translation>リモートホストは接続を閉じました</translation>
     </message>
     <message>
         <source>Network operation timed out</source>
-        <translation>Время на сетевую операцию истекло</translation>
+        <translation>ネットワーク操作がタイムアウトしました</translation>
     </message>
     <message>
         <source>Out of resources</source>
-        <translation>Недостаточно ресурсов</translation>
+        <translation>リソースが足りません</translation>
     </message>
     <message>
         <source>Unsupported socket operation</source>
-        <translation>Операция с сокетом не поддерживается</translation>
+        <translation>サポートされていないソケットの操作です</translation>
     </message>
     <message>
         <source>Protocol type not supported</source>
-        <translation>Протокол не поддерживается</translation>
+        <translation>サポートされていないプロトコル型です</translation>
     </message>
     <message>
         <source>Invalid socket descriptor</source>
-        <translation>Некорректный дескриптор сокета</translation>
+        <translation>無効なソケット記述子です</translation>
     </message>
     <message>
         <source>Host unreachable</source>
-        <translation>Узел недоступен</translation>
+        <translation>ホストへ到達できません</translation>
     </message>
     <message>
         <source>Network unreachable</source>
-        <translation>Сеть недоступна</translation>
+        <translation>ネットワークへ到達できません</translation>
     </message>
     <message>
         <source>Permission denied</source>
-        <translation>Доступ запрещён</translation>
+        <translation>許可されていません</translation>
     </message>
     <message>
         <source>Connection timed out</source>
-        <translation>Время на соединение истекло</translation>
+        <translation>接続がタイムアウトしました</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>Отказано в соединении</translation>
+        <translation>接続を拒否されました</translation>
     </message>
     <message>
         <source>The bound address is already in use</source>
-        <translation>Адрес уже используется</translation>
+        <translation>バインドアドレスは既に使われています</translation>
     </message>
     <message>
         <source>The address is not available</source>
-        <translation>Адрес недоступен</translation>
+        <translation>そのアドレスは使用できません</translation>
     </message>
     <message>
         <source>The address is protected</source>
-        <translation>Адрес защищён</translation>
+        <translation>そのアドレスへのアクセス権がありません</translation>
     </message>
     <message>
         <source>Datagram was too large to send</source>
-        <translation>Датаграмма слишком большая для отправки</translation>
+        <translation>データグラムが大きすぎるため送信できませんでした</translation>
     </message>
     <message>
         <source>Unable to send a message</source>
-        <translation>Невозможно отправить сообщение</translation>
+        <translation>メッセージを送信できません</translation>
     </message>
     <message>
         <source>Unable to receive a message</source>
-        <translation>Невозможно получить сообщение</translation>
+        <translation>メッセージを受信できません</translation>
     </message>
     <message>
         <source>Unable to write</source>
-        <translation>Невозможно записать</translation>
+        <translation>書き込みができません</translation>
     </message>
     <message>
         <source>Network error</source>
-        <translation>Ошибка сети</translation>
+        <translation>ネットワークエラー</translation>
     </message>
     <message>
         <source>Another socket is already listening on the same port</source>
-        <translation>Другой сокет уже прослушивает этот порт</translation>
+        <translation>別のソケットが同じポートで既に待ち受けています</translation>
     </message>
     <message>
         <source>Operation on non-socket</source>
-        <translation>Операция с не-сокетом</translation>
+        <translation>非ソケットに対する操作です</translation>
     </message>
     <message>
         <source>The proxy type is invalid for this operation</source>
-        <translation>Некорректный тип прокси-сервера для данной операции</translation>
+        <translation>このプロキシは、この操作に対応していません</translation>
     </message>
     <message>
         <source>Temporary error</source>
-        <translation>Временная ошибка</translation>
+        <translation>一時エラー</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Неизвестная ошибка</translation>
+        <translation>未知のエラー</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessCacheBackend</name>
     <message>
         <source>Error opening %1</source>
-        <translation>Ошибка открытия %1</translation>
+        <translation>%1 オープン時のエラー</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessDataBackend</name>
     <message>
         <source>Invalid URI: %1</source>
-        <translation>Некорректный URI: %1</translation>
+        <translation>無効なURIです: %1</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessDebugPipeBackend</name>
     <message>
         <source>Write error writing to %1: %2</source>
-        <translation>Ошибка записи в %1: %2</translation>
+        <translation>%1 への書き込み時にエラーが発生しました: %2</translation>
     </message>
     <message>
         <source>Socket error on %1: %2</source>
-        <translation>Ошика сокета для %1: %2</translation>
+        <translation>%1 のソケットにおいてエラーが発生しました: %2</translation>
     </message>
     <message>
         <source>Remote host closed the connection prematurely on %1</source>
-        <translation>Удалённый узел неожиданно прервал соединение для %1</translation>
+        <translation>リモートホスト %1 との接続が通信の終了前に切断されました</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessFileBackend</name>
     <message>
         <source>Request for opening non-local file %1</source>
-        <translation>Запрос на открытие файла вне файловой системы %1</translation>
+        <translation>非ローカルファイル %1 をオープンするよう要求されましたが、ローカルファイルのみオープンできます</translation>
     </message>
     <message>
         <source>Error opening %1: %2</source>
-        <translation>Ошибка открытия %1: %2</translation>
+        <translation>%1 のオープン時にエラーが発生しました: %2</translation>
     </message>
     <message>
         <source>Write error writing to %1: %2</source>
-        <translation>Ошибка записи в %1: %2</translation>
+        <translation>%1 への書き込み時にエラーが発生しました: %2</translation>
     </message>
     <message>
         <source>Cannot open %1: Path is a directory</source>
-        <translation>Невозможно открыть %1: Указан путь к каталогу</translation>
+        <translation>%1 を開けません。指定されたパスはディレクトリです</translation>
     </message>
     <message>
         <source>Read error reading from %1: %2</source>
-        <translation>Ошибка чтения из %1: %2</translation>
+        <translation>%1 の読み込み時にエラーが発生しました: %2</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessFtpBackend</name>
     <message>
         <source>No suitable proxy found</source>
-        <translation>Подходящий прокси-сервер не найден</translation>
+        <translation>適切なプロキシがみつかりません</translation>
     </message>
     <message>
         <source>Cannot open %1: is a directory</source>
-        <translation>Невозможно открыть %1: Указан путь к каталогу</translation>
+        <translation>%1 を開けません: 指定されたパスはディレクトリです</translation>
     </message>
     <message>
         <source>Logging in to %1 failed: authentication required</source>
-        <translation>Соединение с %1 не удалось: требуется авторизация</translation>
+        <translation>%1 へのログインに失敗しました: 認証が必要です</translation>
     </message>
     <message>
         <source>Error while downloading %1: %2</source>
-        <translation>Ошибка в процессе загрузки %1: %2</translation>
+        <translation>%1 のダウンロード中にエラーが発生しました: %2</translation>
     </message>
     <message>
         <source>Error while uploading %1: %2</source>
-        <translation>Ошибка в процессе отгрузки %1: %2</translation>
+        <translation>%1 のアップロード中にエラーが発生しました: %2</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessManager</name>
     <message>
         <source>Network access is disabled.</source>
-        <translation>Доступ в сеть отключён.</translation>
+        <translation>ネットワークへのアクセスが無効になっています。</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReply</name>
     <message>
         <source>Error downloading %1 - server replied: %2</source>
-        <translation>Ошибка загрузки %1 ― ответ сервера: %2</translation>
+        <translation>%1 のダウンロード中にエラーが発生しました。サーバの返答: %2</translation>
     </message>
     <message>
         <source>Background request not allowed.</source>
-        <translation>Фоновые запросы недопустимы.</translation>
+        <translation>バックグランドでの要求は許可されていません。</translation>
     </message>
     <message>
         <source>Network session error.</source>
-        <translation>Ошибка сетевой сессии.</translation>
+        <translation>ネットワークセッションエラー。</translation>
     </message>
     <message>
         <source>backend start error.</source>
-        <translation>ошибка запуска драйвера.</translation>
+        <translation>バックエンド開始時のエラー。</translation>
     </message>
     <message>
         <source>Temporary network failure.</source>
-        <translation>Временная ошибка сети.</translation>
+        <translation>一時的なネットワークの失敗。</translation>
     </message>
     <message>
         <source>Protocol &quot;%1&quot; is unknown</source>
-        <translation>Неизвестный протокол «%1»</translation>
+        <translation>プロトコル &quot;%1&quot; はサポートされていません</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReplyHttpImpl</name>
     <message>
         <source>Operation canceled</source>
-        <translation>Операция отменена</translation>
+        <translation>操作はキャンセルされました</translation>
     </message>
     <message>
         <source>No suitable proxy found</source>
-        <translation>Подходящий прокси-сервер не найден</translation>
+        <translation>適切なプロキシーがみつかりません</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReplyImpl</name>
     <message>
         <source>Operation canceled</source>
-        <translation>Операция отменена</translation>
+        <translation>操作がキャンセルされました</translation>
     </message>
 </context>
 <context>
     <name>QNetworkSession</name>
     <message>
         <source>Invalid configuration.</source>
-        <translation>Некорректная конфигурация.</translation>
+        <translation>無効な設定です。</translation>
     </message>
 </context>
 <context>
     <name>QNetworkSessionPrivateImpl</name>
     <message>
         <source>Unknown session error.</source>
-        <translation>Неизвестная ошибка сессии.</translation>
+        <translation>未知のセッションエラーです。</translation>
     </message>
     <message>
         <source>The session was aborted by the user or system.</source>
-        <translation>Сессия была прервана пользователем или системой.</translation>
+        <translation>このセッションはユーザもしくはシステムによって停止されました。</translation>
     </message>
     <message>
         <source>The requested operation is not supported by the system.</source>
-        <translation>Требуемая операция не поддерживается системой.</translation>
+        <translation>要求された操作はこのシステムではサポートされていません。</translation>
     </message>
     <message>
         <source>The specified configuration cannot be used.</source>
-        <translation>Невозможно использовать указанную конфигурацию.</translation>
+        <translation>この設定は利用できません。</translation>
     </message>
     <message>
         <source>Roaming was aborted or is not possible.</source>
-        <translation>Роуминг прерван или невозможен.</translation>
+        <translation>ローミングは停止されたか利用できません。</translation>
     </message>
 </context>
 <context>
@@ -2136,263 +2136,263 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Unable to initialize</source>
         <comment>QOCIDriver</comment>
-        <translation>Невозможно инициализировать</translation>
+        <translation>初期化できません</translation>
     </message>
     <message>
         <source>Unable to logon</source>
-        <translation>Невозможно авторизоваться</translation>
+        <translation>ログオンできません</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>Невозможно начать транзакцию</translation>
+        <translation>トランザクションを開始できません</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Невозможно завершить транзакцию</translation>
+        <translation>トランザクションをコミットできません</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Невозможно откатить транзакцию</translation>
+        <translation>トランザクションをロールバックできません</translation>
     </message>
 </context>
 <context>
     <name>QOCIResult</name>
     <message>
         <source>Unable to bind column for batch execute</source>
-        <translation>Невозможно привязать столбец для пакетного выполнения</translation>
+        <translation>バッチ処理用にフィールドをバインドできません</translation>
     </message>
     <message>
         <source>Unable to execute batch statement</source>
-        <translation>Невозможно выполнить пакетное выражение</translation>
+        <translation>バッチステートメントを実行できません</translation>
     </message>
     <message>
         <source>Unable to goto next</source>
-        <translation>Невозможно перейти к следующей строке</translation>
+        <translation>次のレコードへ進めません</translation>
     </message>
     <message>
         <source>Unable to alloc statement</source>
-        <translation>Невозможно создать выражение</translation>
+        <translation>ステートメントの領域を確保できません</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Невозможно подготовить выражение</translation>
+        <translation>プリペアドステートメントを作成できません</translation>
     </message>
     <message>
         <source>Unable to get statement type</source>
-        <translation>Невозможно определить тип выражения</translation>
+        <translation>ステートメントの型を取得できません</translation>
     </message>
     <message>
         <source>Unable to bind value</source>
-        <translation>Невозможно привязать результирующие значения</translation>
+        <translation>値をバインドできません</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Невозможно выполнить выражение</translation>
+        <translation>ステートメントを実行できません</translation>
     </message>
 </context>
 <context>
     <name>QODBCDriver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>Невозможно соединиться</translation>
+        <translation>接続できません</translation>
     </message>
     <message>
         <source>Unable to connect - Driver doesn&apos;t support all functionality required</source>
-        <translation>Невозможно соединиться ― Драйвер не поддерживает требуемый функционал</translation>
+        <translation>接続できません - ドライバは必要なすべての機能をサポートしていません</translation>
     </message>
     <message>
         <source>Unable to disable autocommit</source>
-        <translation>Невозможно отключить автозавершение транзакций</translation>
+        <translation>自動コミットを無効にできません</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Невозможно завершить транзакцию</translation>
+        <translation>トランザクションをコミットできません</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Невозможно откатить транзакцию</translation>
+        <translation>トランザクションをロールバックできません</translation>
     </message>
     <message>
         <source>Unable to enable autocommit</source>
-        <translation>Невозможно включить автозавершение транзакций</translation>
+        <translation>自動コミットを有効にできません</translation>
     </message>
 </context>
 <context>
     <name>QODBCResult</name>
     <message>
         <source>Unable to fetch last</source>
-        <translation>Невозможно получить последнюю строку</translation>
+        <translation>ラストレコードをフェッチできません</translation>
     </message>
     <message>
         <source>QODBCResult::reset: Unable to set &apos;SQL_CURSOR_STATIC&apos; as statement attribute. Please check your ODBC driver configuration</source>
-        <translation>QODBCResult::reset: Невозможно установить «SQL_CURSOR_STATIC» атрибутом выражение. Проверьте настройки драйвера ODBC</translation>
+        <translation>QODBCResult::reset: ステートメントの属性として &apos;SQL_CURSOR_STATUS&apos; を設定できません。ODBC ドライバの構成を確認してください</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Невозможно выполнить выражение</translation>
+        <translation>ステートメントを実行できません</translation>
     </message>
     <message>
         <source>Unable to fetch</source>
-        <translation>Невозможно получить данные</translation>
+        <translation>フェッチできません</translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>Невозможно получить следующую строку</translation>
+        <translation>次のレコードをフェッチできません</translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>Невозможно получить первую строку</translation>
+        <translation>最初のレコードをフェッチできません</translation>
     </message>
     <message>
         <source>Unable to fetch previous</source>
-        <translation>Невозможно получить предыдущую строку</translation>
+        <translation>前のレコードをフェッチできません</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Невозможно подготовить выражение</translation>
+        <translation>プリペアドステートメントを作成できません</translation>
     </message>
     <message>
         <source>Unable to bind variable</source>
-        <translation>Невозможно привязать значение</translation>
+        <translation>変数をバインドできません</translation>
     </message>
 </context>
 <context>
     <name>QPSQLDriver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>Невозможно соединиться</translation>
+        <translation>接続できません</translation>
     </message>
     <message>
         <source>Could not begin transaction</source>
-        <translation>Не удалось начать транзакцию</translation>
+        <translation>トランザクションを開始できませんでした</translation>
     </message>
     <message>
         <source>Could not commit transaction</source>
-        <translation>Не удалось завершить транзакцию</translation>
+        <translation>トランザクションをコミットできませんでした</translation>
     </message>
     <message>
         <source>Could not rollback transaction</source>
-        <translation>Не удалось откатить транзакцию</translation>
+        <translation>トランザクションをロールバックできませんでした</translation>
     </message>
     <message>
         <source>Unable to subscribe</source>
-        <translation>Невозможно подписаться</translation>
+        <translation>サブスクライブできません</translation>
     </message>
     <message>
         <source>Unable to unsubscribe</source>
-        <translation>Невозможно отписаться</translation>
+        <translation>サブスクリプションを削除できません</translation>
     </message>
 </context>
 <context>
     <name>QPSQLResult</name>
     <message>
         <source>Unable to create query</source>
-        <translation>Невозможно создать запрос</translation>
+        <translation>クエリーを作成できません</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Невозможно подготовить выражение</translation>
+        <translation>プリペアドステートメントを作成できません</translation>
     </message>
 </context>
 <context>
     <name>QPageSetupWidget</name>
     <message>
         <source>Form</source>
-        <translation>Форма</translation>
+        <translation>書式設定</translation>
     </message>
     <message>
         <source>Paper</source>
-        <translation>Бумага</translation>
+        <translation>用紙</translation>
     </message>
     <message>
         <source>Page size:</source>
-        <translation>Размер страницы:</translation>
+        <translation>用紙サイズ:</translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation>Ширина:</translation>
+        <translation>幅:</translation>
     </message>
     <message>
         <source>Height:</source>
-        <translation>Высота:</translation>
+        <translation>高さ:</translation>
     </message>
     <message>
         <source>Paper source:</source>
-        <translation>Источник бумаги:</translation>
+        <translation>給紙装置:</translation>
     </message>
     <message>
         <source>Orientation</source>
-        <translation>Ориентация страницы</translation>
+        <translation>印刷の向き</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>Книжная</translation>
+        <translation>縦 (ポートレート)</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>Альбомная</translation>
+        <translation>横 (ランドスケープ)</translation>
     </message>
     <message>
         <source>Reverse landscape</source>
-        <translation>Перевёрнутая альбомная</translation>
+        <translation>横 反転 (リバースランドスケープ)</translation>
     </message>
     <message>
         <source>Reverse portrait</source>
-        <translation>Перевёрнутая книжная</translation>
+        <translation>縦 反転 (リバースポートレート)</translation>
     </message>
     <message>
         <source>Margins</source>
-        <translation>Поля</translation>
+        <translation>余白</translation>
     </message>
     <message>
         <source>top margin</source>
-        <translation>верхнее поле</translation>
+        <translation>上端余白</translation>
     </message>
     <message>
         <source>left margin</source>
-        <translation>левое поле</translation>
+        <translation>左端余白</translation>
     </message>
     <message>
         <source>right margin</source>
-        <translation>правое поле</translation>
+        <translation>右端余白</translation>
     </message>
     <message>
         <source>bottom margin</source>
-        <translation>нижнее поле</translation>
+        <translation>下端余白</translation>
     </message>
     <message>
         <source>Centimeters (cm)</source>
-        <translation>Сантиметры (cm)</translation>
+        <translation>センチメートル (cm)</translation>
     </message>
     <message>
         <source>Millimeters (mm)</source>
-        <translation>Миллиметры (mm)</translation>
+        <translation>ミリメートル (mm)</translation>
     </message>
     <message>
         <source>Inches (in)</source>
-        <translation>Дюймы (in)</translation>
+        <translation>インチ (in)</translation>
     </message>
     <message>
         <source>Points (pt)</source>
-        <translation>Точки (pt)</translation>
+        <translation>ポイント (pt)</translation>
     </message>
 </context>
 <context>
     <name>QPluginLoader</name>
     <message>
         <source>The plugin was not loaded.</source>
-        <translation>Модуль не был загружен.</translation>
+        <translation>そのプラグインはロードされていません。</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Неизвестная ошибка</translation>
+        <translation>未知のエラー</translation>
     </message>
 </context>
 <context>
     <name>QPrintDialog</name>
     <message>
         <source>Print</source>
-        <translation>Печать</translation>
+        <translation>印刷</translation>
     </message>
     <message>
         <source>A0</source>
@@ -2488,85 +2488,85 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Executive</source>
-        <translation>Executive</translation>
+        <translation>エグゼクティヴ</translation>
     </message>
     <message>
         <source>Folio</source>
-        <translation>Folio</translation>
+        <translation>フォリオ</translation>
     </message>
     <message>
         <source>Ledger</source>
-        <translation>Ledger</translation>
+        <translation>レジャー</translation>
     </message>
     <message>
         <source>Legal</source>
-        <translation>Legal</translation>
+        <translation>リーガルサイズ</translation>
     </message>
     <message>
         <source>Letter</source>
-        <translation>Letter</translation>
+        <translation>レターサイズ</translation>
     </message>
     <message>
         <source>Tabloid</source>
-        <translation>Таблоид</translation>
+        <translation>タブロイドサイズ</translation>
     </message>
     <message>
         <source>US Common #10 Envelope</source>
-        <translation>US Common #10 Envelope</translation>
+        <translation>US標準#10封筒</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>Пользовательский</translation>
+        <translation>カスタム</translation>
     </message>
     <message>
         <source>&amp;Options &gt;&gt;</source>
-        <translation>&amp;Параметры &gt;&gt;</translation>
+        <translation>オプション(&amp;O) &gt;&gt;</translation>
     </message>
     <message>
         <source>&amp;Print</source>
-        <translation>&amp;Печать</translation>
+        <translation>印刷(&amp;P)</translation>
     </message>
     <message>
         <source>&amp;Options &lt;&lt;</source>
-        <translation>&amp;Параметры &lt;&lt;</translation>
+        <translation>オプション(&amp;O) &lt;&lt;</translation>
     </message>
     <message>
         <source>Print to File (PDF)</source>
-        <translation>Печать в файл (PDF)</translation>
+        <translation>PDF ファイルに出力</translation>
     </message>
     <message>
         <source>Local file</source>
-        <translation>Локальный файл</translation>
+        <translation>ローカルファイル</translation>
     </message>
     <message>
         <source>Write PDF file</source>
-        <translation>Запись файл PDF</translation>
+        <translation>PDF ファイルへ書き込み</translation>
     </message>
     <message>
         <source>Print To File ...</source>
-        <translation>Печать в файл ...</translation>
+        <translation>ファイルへ出力...</translation>
     </message>
     <message>
         <source>%1 is a directory.
 Please choose a different file name.</source>
-        <translation>%1 ― это каталог.
-Выберите другое имя файла.</translation>
+        <translation>%1 はディレクトリです。
+別のファイル名を指定してください。</translation>
     </message>
     <message>
         <source>File %1 is not writable.
 Please choose a different file name.</source>
-        <translation>%1 недоступен для записи.
-Выберите другое имя файла.</translation>
+        <translation>ファイル %1 は書き込み可能ではありません。
+別のファイル名を指定してください。</translation>
     </message>
     <message>
         <source>%1 already exists.
 Do you want to overwrite it?</source>
-        <translation>%1 уже существует.
-Хотите заменить его?</translation>
+        <translation>%1 は既に存在します。
+上書きしますか?</translation>
     </message>
     <message>
         <source>The &apos;From&apos; value cannot be greater than the &apos;To&apos; value.</source>
-        <translation>Значение «с» не может быть больше значения «по».</translation>
+        <translation>印刷開始ページ番号は、印刷終了ページ番号より小さくなければなりません。</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2577,7 +2577,7 @@ Do you want to overwrite it?</source>
     <name>QPrintPreviewDialog</name>
     <message>
         <source>Page Setup</source>
-        <translation>Параметры страницы</translation>
+        <translation>ページ設定</translation>
     </message>
     <message>
         <source>%1%</source>
@@ -2585,200 +2585,200 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Print Preview</source>
-        <translation>Просмотр печати</translation>
+        <translation>印刷のプレビュー</translation>
     </message>
     <message>
         <source>Next page</source>
-        <translation>Следующая страница</translation>
+        <translation>次のページ</translation>
     </message>
     <message>
         <source>Previous page</source>
-        <translation>Предыдущая страница</translation>
+        <translation>前のページ</translation>
     </message>
     <message>
         <source>First page</source>
-        <translation>Первая страница</translation>
+        <translation>最初のページ</translation>
     </message>
     <message>
         <source>Last page</source>
-        <translation>Последняя страница</translation>
+        <translation>最後のページ</translation>
     </message>
     <message>
         <source>Fit width</source>
-        <translation>По ширине</translation>
+        <translation>幅をあわせる</translation>
     </message>
     <message>
         <source>Fit page</source>
-        <translation>На всю страницу</translation>
+        <translation>ページ全体を表示</translation>
     </message>
     <message>
         <source>Zoom in</source>
-        <translation>Увеличить</translation>
+        <translation>拡大</translation>
     </message>
     <message>
         <source>Zoom out</source>
-        <translation>Уменьшить</translation>
+        <translation>縮小</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>Книжная</translation>
+        <translation>縦</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>Альбомная</translation>
+        <translation>横</translation>
     </message>
     <message>
         <source>Show single page</source>
-        <translation>Показать одну страницу</translation>
+        <translation>単一ページで表示する</translation>
     </message>
     <message>
         <source>Show facing pages</source>
-        <translation>Показать титульные страницы</translation>
+        <translation>見開きページで表示する</translation>
     </message>
     <message>
         <source>Show overview of all pages</source>
-        <translation>Показать обзор всех страниц</translation>
+        <translation>すべてのページの概要を表示する</translation>
     </message>
     <message>
         <source>Print</source>
-        <translation>Печать</translation>
+        <translation>印刷</translation>
     </message>
     <message>
         <source>Page setup</source>
-        <translation>Параметры страницы</translation>
+        <translation>ページ設定</translation>
     </message>
     <message>
         <source>Export to PDF</source>
-        <translation>Экспорт в PDF</translation>
+        <translation>PDF に出力</translation>
     </message>
 </context>
 <context>
     <name>QPrintPropertiesWidget</name>
     <message>
         <source>Form</source>
-        <translation>Форма</translation>
+        <translation>書式</translation>
     </message>
     <message>
         <source>Page</source>
-        <translation>Страница</translation>
+        <translation>ページ</translation>
     </message>
 </context>
 <context>
     <name>QPrintSettingsOutput</name>
     <message>
         <source>Form</source>
-        <translation>Форма</translation>
+        <translation>書式</translation>
     </message>
     <message>
         <source>Copies</source>
-        <translation>Копии</translation>
+        <translation>印刷部数</translation>
     </message>
     <message>
         <source>Print range</source>
-        <translation>Диапазон печати</translation>
+        <translation>印刷範囲</translation>
     </message>
     <message>
         <source>Print all</source>
-        <translation>Все</translation>
+        <translation>すべて印刷</translation>
     </message>
     <message>
         <source>Pages from</source>
-        <translation>Страницы с</translation>
+        <translation>先頭のページ</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>по</translation>
+        <translation>末尾のページ</translation>
     </message>
     <message>
         <source>Current Page</source>
-        <translation>Текущая страница</translation>
+        <translation>現在のページ</translation>
     </message>
     <message>
         <source>Selection</source>
-        <translation>Выделенный фрагмент</translation>
+        <translation>選択した部分を印刷</translation>
     </message>
     <message>
         <source>Output Settings</source>
-        <translation>Настройки вывода</translation>
+        <translation>出力設定</translation>
     </message>
     <message>
         <source>Copies:</source>
-        <translation>Количество копий:</translation>
+        <translation>印刷部数:</translation>
     </message>
     <message>
         <source>Collate</source>
-        <translation>Разобрать по копиям</translation>
+        <translation>丁合い</translation>
     </message>
     <message>
         <source>Reverse</source>
-        <translation>Обратный порядок</translation>
+        <translation>逆順</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Параметры</translation>
+        <translation>オプション</translation>
     </message>
     <message>
         <source>Color Mode</source>
-        <translation>Режим цвета</translation>
+        <translation>カラーモード</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation>Цвет</translation>
+        <translation>カラー</translation>
     </message>
     <message>
         <source>Grayscale</source>
-        <translation>Оттенки серого</translation>
+        <translation>グレースケール</translation>
     </message>
     <message>
         <source>Duplex Printing</source>
-        <translation>Двусторонняя печать</translation>
+        <translation>両面印刷</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Нет</translation>
+        <translation>なし</translation>
     </message>
     <message>
         <source>Long side</source>
-        <translation>По длинной стороне</translation>
+        <translation>長辺綴じ</translation>
     </message>
     <message>
         <source>Short side</source>
-        <translation>По короткой стороне</translation>
+        <translation>短辺綴じ</translation>
     </message>
 </context>
 <context>
     <name>QPrintWidget</name>
     <message>
         <source>Form</source>
-        <translation>Форма</translation>
+        <translation>書式</translation>
     </message>
     <message>
         <source>Printer</source>
-        <translation>Принтер</translation>
+        <translation>プリンタ</translation>
     </message>
     <message>
         <source>&amp;Name:</source>
-        <translation>&amp;Название:</translation>
+        <translation>名前(&amp;N):</translation>
     </message>
     <message>
         <source>P&amp;roperties</source>
-        <translation>С&amp;войства</translation>
+        <translation>プロパティ(&amp;R)</translation>
     </message>
     <message>
         <source>Location:</source>
-        <translation>Расположение:</translation>
+        <translation>設置場所:</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation>Просмотр</translation>
+        <translation>プレビュー</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation>Тип:</translation>
+        <translation>タイプ:</translation>
     </message>
     <message>
         <source>Output &amp;file:</source>
-        <translation>Вывод в &amp;файл:</translation>
+        <translation>出力ファイル名(&amp;F):</translation>
     </message>
     <message>
         <source>...</source>
@@ -2789,53 +2789,53 @@ Do you want to overwrite it?</source>
     <name>QProcess</name>
     <message>
         <source>Error reading from process</source>
-        <translation>Ошибка получения данных от процесса</translation>
+        <translation>プロセスからの読み込みにおいてエラーが発生しました</translation>
     </message>
     <message>
         <source>Error writing to process</source>
-        <translation>Ошибка отправки данных процессу</translation>
+        <translation>プロセスへの書き込みにおいてエラーが発生しました</translation>
     </message>
     <message>
         <source>Process crashed</source>
-        <translation>Процесс завершился с ошибкой</translation>
+        <translation>プロセスがクラッシュしました</translation>
     </message>
     <message>
         <source>No program defined</source>
-        <translation>Программа не указана</translation>
+        <translation>プログラムが指定されていません</translation>
     </message>
     <message>
         <source>Could not open input redirection for reading</source>
-        <translation>Не удалось открыть перенаправление ввода для чтения</translation>
+        <translation>読み込み用に入力リダイレクトを開けませんでした</translation>
     </message>
     <message>
         <source>Could not open output redirection for writing</source>
-        <translation>Не удалось открыть перенаправление вывода для записи</translation>
+        <translation>書き込み用に出力リダイレクトを開けませんでした</translation>
     </message>
     <message>
         <source>Resource error (fork failure): %1</source>
-        <translation>Ошибка выделения ресурсов (сбой fork): %1</translation>
+        <translation>リソースエラー (fork に失敗しました): %1</translation>
     </message>
     <message>
         <source>Process operation timed out</source>
-        <translation>Время на операцию с процессом истекло</translation>
+        <translation>プロセス処理がタイムアウトしました</translation>
     </message>
     <message>
         <source>Process failed to start: %1</source>
-        <translation>Не удалось запустить процесс: %1</translation>
+        <translation>プロセスの起動に失敗しました: %1</translation>
     </message>
 </context>
 <context>
     <name>QProgressDialog</name>
     <message>
         <source>Cancel</source>
-        <translation>Отменить</translation>
+        <translation>キャンセル</translation>
     </message>
 </context>
 <context>
     <name>QQnxFileDialogHelper</name>
     <message>
         <source>CANCEL</source>
-        <translation>ОТМЕНИТЬ</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2846,571 +2846,571 @@ Do you want to overwrite it?</source>
     <name>QRegExp</name>
     <message>
         <source>no error occurred</source>
-        <translation>ошибки отсутствуют</translation>
+        <translation>エラーは発生しませんでした</translation>
     </message>
     <message>
         <source>disabled feature used</source>
-        <translation>использование отключённых возможностей</translation>
+        <translation>無効な機能が使用されました</translation>
     </message>
     <message>
         <source>bad char class syntax</source>
-        <translation>неправильный синтаксис класса символов</translation>
+        <translation>不正な文字クラス構文</translation>
     </message>
     <message>
         <source>bad lookahead syntax</source>
-        <translation>неправильный синтаксис lookahead</translation>
+        <translation>不正なlookahead構文</translation>
     </message>
     <message>
         <source>lookbehinds not supported, see QTBUG-2371</source>
-        <translation>lookbehind не поддерживается, см. QTBUG-2371</translation>
+        <translation>lookbehind はサポートされていません。QTBUG-2371 を参照してください</translation>
     </message>
     <message>
         <source>bad repetition syntax</source>
-        <translation>неправильный синтаксис повторения</translation>
+        <translation>不正なrepetition構文</translation>
     </message>
     <message>
         <source>invalid octal value</source>
-        <translation>некорректное восьмеричное значение</translation>
+        <translation>無効な8進値</translation>
     </message>
     <message>
         <source>missing left delim</source>
-        <translation>отсутствует левый разделитель</translation>
+        <translation>左の区切り文字がありません</translation>
     </message>
     <message>
         <source>unexpected end</source>
-        <translation>неожиданный конец</translation>
+        <translation>予期しない末尾です</translation>
     </message>
     <message>
         <source>met internal limit</source>
-        <translation>достигнуто внутреннее ограничение</translation>
+        <translation>内部制限を満たしました</translation>
     </message>
     <message>
         <source>invalid interval</source>
-        <translation>некорректный интервал</translation>
+        <translation>無効な間隔</translation>
     </message>
     <message>
         <source>invalid category</source>
-        <translation>некорректная категория</translation>
+        <translation>無効なカテゴリー</translation>
     </message>
 </context>
 <context>
     <name>QRegularExpression</name>
     <message>
         <source>no error</source>
-        <translation>нет ошибки</translation>
+        <translation>エラーはありません</translation>
     </message>
     <message>
         <source>\ at end of pattern</source>
-        <translation>\ в конце шаблона</translation>
+        <translation>パターンの終端に \ があります</translation>
     </message>
     <message>
         <source>\c at end of pattern</source>
-        <translation>\c в конце шаблона</translation>
+        <translation>パターンの終端に \c があります</translation>
     </message>
     <message>
         <source>unrecognized character follows \</source>
-        <translation>символ следующий за \ не опознан</translation>
+        <translation>認識できない文字が \\ の後にあります</translation>
     </message>
     <message>
         <source>numbers out of order in {} quantifier</source>
-        <translation>некорректные числа в квалификаторе {}</translation>
+        <translation>量指定子 {} の中にある数値の順番が間違っています</translation>
     </message>
     <message>
         <source>number too big in {} quantifier</source>
-        <translation>число слишком велико в квалификаторе {}</translation>
+        <translation>量指定子 {} の中にある数値が大きすぎます</translation>
     </message>
     <message>
         <source>missing terminating ] for character class</source>
-        <translation>отсутствует завершающая ] для класса символов</translation>
+        <translation>文字クラスを閉じる ] がありません</translation>
     </message>
     <message>
         <source>invalid escape sequence in character class</source>
-        <translation>некорректная ESC-последовательность в классе символов</translation>
+        <translation>文字クラス内に無効なエスケープシーケンスがあります</translation>
     </message>
     <message>
         <source>range out of order in character class</source>
-        <translation>некорректный диапазон в классе символов</translation>
+        <translation>文字クラスの範囲の順番が間違っています</translation>
     </message>
     <message>
         <source>nothing to repeat</source>
-        <translation>нечего повторять</translation>
+        <translation>繰り返すものがありません</translation>
     </message>
     <message>
         <source>internal error: unexpected repeat</source>
-        <translation>внутренняя ошибка: неожиданный повтор</translation>
+        <translation>内部エラー: 予期しない繰り返し</translation>
     </message>
     <message>
         <source>unrecognized character after (? or (?-</source>
-        <translation>символ следующий за (? или (?- не опознан</translation>
+        <translation>認識できない文字が (? か (?- の後にあります</translation>
     </message>
     <message>
         <source>POSIX named classes are supported only within a class</source>
-        <translation>классы именованные в стиле POSIX поддерживаются только внутри класса</translation>
+        <translation>POSIX の名前付きクラスは文字クラスの中でだけサポートされています</translation>
     </message>
     <message>
         <source>missing )</source>
-        <translation>отсутствует )</translation>
+        <translation>) がありません</translation>
     </message>
     <message>
         <source>reference to non-existent subpattern</source>
-        <translation>ссылка на несуществующий подшаблон</translation>
+        <translation>存在しないサブパターンを参照しています</translation>
     </message>
     <message>
         <source>erroffset passed as NULL</source>
-        <translation>в качестве erroffset передан NULL</translation>
+        <translation>erroffset に NULL が渡されました</translation>
     </message>
     <message>
         <source>unknown option bit(s) set</source>
-        <translation>неизвестный набор флагов регулярного выражения</translation>
+        <translation>未知のオプションビットセットです</translation>
     </message>
     <message>
         <source>missing ) after comment</source>
-        <translation>отсутствует ) после комментария</translation>
+        <translation>コメントの後に ) がありません</translation>
     </message>
     <message>
         <source>regular expression is too large</source>
-        <translation>Регулярное выражение слишком велико</translation>
+        <translation>正規表現が大きすぎます</translation>
     </message>
     <message>
         <source>failed to get memory</source>
-        <translation>не удалось выделить память</translation>
+        <translation>メモリの確保に失敗しました</translation>
     </message>
     <message>
         <source>unmatched parentheses</source>
-        <translation>круглые скобки не согласованы</translation>
+        <translation>括弧の対応が取れていません</translation>
     </message>
     <message>
         <source>internal error: code overflow</source>
-        <translation>внутренняя ошибка: переполнение кода</translation>
+        <translation>内部エラー: コードオーバーフロー</translation>
     </message>
     <message>
         <source>unrecognized character after (?&lt;</source>
-        <translation>символ после (?&lt; не опознан</translation>
+        <translation>認識できない文字が (?&lt; の後にあります</translation>
     </message>
     <message>
         <source>lookbehind assertion is not fixed length</source>
-        <translation>проверка lookbehind имеет нефиксированную длину</translation>
+        <translation>戻り読み(lookbehind)アサーションが固定長ではありません</translation>
     </message>
     <message>
         <source>malformed number or name after (?(</source>
-        <translation>некорректно сформировано число или имя после (?(</translation>
+        <translation>不正な数値あるいは名前が (?( の後にあります</translation>
     </message>
     <message>
         <source>conditional group contains more than two branches</source>
-        <translation>условная группа содержит более двух веток</translation>
+        <translation>条件付きグループに3つ以上の枝があります</translation>
     </message>
     <message>
         <source>assertion expected after (?(</source>
-        <translation>после (?( требуется проверка</translation>
+        <translation>(?( の後にアサーションがありません</translation>
     </message>
     <message>
         <source>(?R or (?[+-]digits must be followed by )</source>
-        <translation>за (?R или (?[+-]цифры должна следовать )</translation>
+        <translation>(?R や (?[+-]数字 の後には ) が必要です</translation>
     </message>
     <message>
         <source>unknown POSIX class name</source>
-        <translation>неизвестное имя POSIX класса</translation>
+        <translation>未知の POSIX クラスの名前です</translation>
     </message>
     <message>
         <source>POSIX collating elements are not supported</source>
-        <translation>POSIX-сортировка элементов не поддерживается</translation>
+        <translation>POSIX の照合順序の要素はサポートされていません</translation>
     </message>
     <message>
         <source>this version of PCRE is not compiled with PCRE_UTF8 support</source>
-        <translation>эта версия PCRE собрана без поддержки PCRE_UTF8</translation>
+        <translation>このバージョンの PCRE は PCRE_UTF8 サポート込みでコンパイルされていません</translation>
     </message>
     <message>
         <source>character value in \x{...} sequence is too large</source>
-        <translation>значение символа в последовательности \x{...} слишком большое</translation>
+        <translation>\x{...} シーケンス内の文字の値が大きすぎます</translation>
     </message>
     <message>
         <source>invalid condition (?(0)</source>
-        <translation>некорректное условие (?(0)</translation>
+        <translation>無効な条件です (?(0)</translation>
     </message>
     <message>
         <source>\C not allowed in lookbehind assertion</source>
-        <translation>\C не допустима в проверке lookbehind</translation>
+        <translation>戻り読み(lookbehind)アサーションで \c は許可されていません</translation>
     </message>
     <message>
         <source>PCRE does not support \L, \l, \N{name}, \U, or \u</source>
-        <translation>PCRE не поддерживает \L, \l, \N{имя}, \U и \u</translation>
+        <translation>PCRE は \L, \l, \N{name}, \U, \u をサポートしていません</translation>
     </message>
     <message>
         <source>number after (?C is &gt; 255</source>
-        <translation>число после (?C больше 255</translation>
+        <translation>(?C の後の数値が 255 よりも大きいです</translation>
     </message>
     <message>
         <source>closing ) for (?C expected</source>
-        <translation>требуется закрывающая ) для (?C</translation>
+        <translation>(?C を閉じる ) がありません</translation>
     </message>
     <message>
         <source>recursive call could loop indefinitely</source>
-        <translation>рекурсивный вызов может зациклиться навечно</translation>
+        <translation>再起呼び出しが無限ループとなる可能性があります</translation>
     </message>
     <message>
         <source>unrecognized character after (?P</source>
-        <translation>символ после (?P не опознан</translation>
+        <translation>認識できない文字が (?P の後にあります</translation>
     </message>
     <message>
         <source>syntax error in subpattern name (missing terminator)</source>
-        <translation>синтаксическая ошибка в имени подшаблона (отсутствует признак завершения)</translation>
+        <translation>サブパターン名に構文エラーがあります(終端文字がありません)</translation>
     </message>
     <message>
         <source>two named subpatterns have the same name</source>
-        <translation>два именованных подшаблона имеют одинаковое имя</translation>
+        <translation>二つの名前付きサブパターンの名前が同じです</translation>
     </message>
     <message>
         <source>invalid UTF-8 string</source>
-        <translation>некорректная строка UTF-8</translation>
+        <translation>無効な UTF-8 文字列です</translation>
     </message>
     <message>
         <source>support for \P, \p, and \X has not been compiled</source>
-        <translation>поддержка \P, \p и \X не скомпилирована</translation>
+        <translation>\P, \p, \X のサポートはコンパイル時に外されています</translation>
     </message>
     <message>
         <source>malformed \P or \p sequence</source>
-        <translation>некорректно сформирована последовательность \P или \p</translation>
+        <translation>不正な \P あるいは \p のシーケンスです</translation>
     </message>
     <message>
         <source>unknown property name after \P or \p</source>
-        <translation>неизвестное имя свойства после \P или \p</translation>
+        <translation>\P あるいは \p の後に未知のプロパティ名があります</translation>
     </message>
     <message>
         <source>subpattern name is too long (maximum 32 characters)</source>
-        <translation>название подшаблона слишком велико (ограничено в 32 символа)</translation>
+        <translation>サブパターン名が長すぎます(最長32文字です)</translation>
     </message>
     <message>
         <source>too many named subpatterns (maximum 10000)</source>
-        <translation>слишком много именованых подшаблонов (ограничено 10000)</translation>
+        <translation>名前付きサブパターンが多すぎます(10000個以下にしてください)</translation>
     </message>
     <message>
         <source>octal value is greater than \377 (not in UTF-8 mode)</source>
-        <translation>восьмиричное число больше \377 (в режиме не UTF-8)</translation>
+        <translation>8進数の値が \377 よりも大きいです(非 UTF-8 モード時)</translation>
     </message>
     <message>
         <source>internal error: overran compiling workspace</source>
-        <translation>внутренняя ошибка: выход за пределы области компиляции</translation>
+        <translation>内部エラー: コンパイル作業領域をオーバーランしました</translation>
     </message>
     <message>
         <source>internal error: previously-checked referenced subpattern not found</source>
-        <translation type="unfinished">внутренняя ошибка: ранее проверенный подшаблон не найден</translation>
+        <translation>内部エラー: 直前にチェックしたサブパターンへのリファレンスが見つかりません</translation>
     </message>
     <message>
         <source>DEFINE group contains more than one branch</source>
-        <translation>группа DEFINE содержит более одной ветки</translation>
+        <translation>DEFINE グループが2つ以上の枝があります</translation>
     </message>
     <message>
         <source>repeating a DEFINE group is not allowed</source>
-        <translation>повтор группы DEFINE не допустим</translation>
+        <translation>DEFINE グループの繰り返しは許可されていません</translation>
     </message>
     <message>
         <source>inconsistent NEWLINE options</source>
-        <translation>несовместимая опция NEWLINE</translation>
+        <translation>NEWLINE オプションが矛盾しています</translation>
     </message>
     <message>
         <source>\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number</source>
-        <translation>за \g должно следовать число или название/число заключённое в фигурные/угловые скобки или кавычки</translation>
+        <translation>\g の後に波括弧 {} や山括弧 &lt;&gt; や引用符 &apos; でくくられた名前や数値、あるいはただの数字がありません</translation>
     </message>
     <message>
         <source>a numbered reference must not be zero</source>
-        <translation>нумерованная ссылка не должна быть нулём</translation>
+        <translation>数値での参照に 0 は使用できません</translation>
     </message>
     <message>
         <source>an argument is not allowed for (*ACCEPT), (*FAIL), or (*COMMIT)</source>
-        <translation>для (*ACCEPT), (*FAIL) и (*COMMIT) аргументы не допустимы</translation>
+        <translation>(*ACCEPT), (*FAIL), (*COMMIT) の引数は一つではありません</translation>
     </message>
     <message>
         <source>(*VERB) not recognized</source>
-        <translation>(*VERB) не опознан</translation>
+        <translation>(*VERB) を認識できません</translation>
     </message>
     <message>
         <source>number is too big</source>
-        <translation>число слишком велико</translation>
+        <translation>数値が大きすぎます</translation>
     </message>
     <message>
         <source>subpattern name expected</source>
-        <translation>требуется имя подшаблона</translation>
+        <translation>サブパターンに名前が必要です</translation>
     </message>
     <message>
         <source>digit expected after (?+</source>
-        <translation>после (?+ требуется цифра</translation>
+        <translation>(?+ の後に数字が必要です</translation>
     </message>
     <message>
         <source>] is an invalid data character in JavaScript compatibility mode</source>
-        <translation>] недопустимый символ данных в режиме совместимости с JavaScript</translation>
+        <translation>JavaScript 互換モードでは ] は無効なデータ文字です</translation>
     </message>
     <message>
         <source>different names for subpatterns of the same number are not allowed</source>
-        <translation>отличные имена для подшаблонов с одним номером не допустимы</translation>
+        <translation>同じ番号のサブパターンの名前が違うことは許可されていません</translation>
     </message>
     <message>
         <source>(*MARK) must have an argument</source>
-        <translation>(*MARK) должен иметь аргумент</translation>
+        <translation>(*MARK) には引数が一つ必要です</translation>
     </message>
     <message>
         <source>this version of PCRE is not compiled with PCRE_UCP support</source>
-        <translation>эта версия PCRE собрана без поддержки PCRE_UCP</translation>
+        <translation>このバージョンの PCRE は PCRE_UCP サポート込みでコンパイルされていません</translation>
     </message>
     <message>
         <source>\c must be followed by an ASCII character</source>
-        <translation>после \c должен следовать символ ASCII</translation>
+        <translation>\c の後には ASCII 文字が必要です</translation>
     </message>
     <message>
         <source>\k is not followed by a braced, angle-bracketed, or quoted name</source>
-        <translation>за \k должно следовать название заключённое в фигурные/угловые скобки или кавычки</translation>
+        <translation>\g の後に波括弧 {} や山括弧 &lt;&gt; や引用符 &apos; でくくられた名前がありません</translation>
     </message>
     <message>
         <source>internal error: unknown opcode in find_fixedlength()</source>
-        <translation>внутренняя ошибка: неизвестный опкод в find_fixedlength()</translation>
+        <translation>内部エラー: find_fixedlength() で未知のオペコード</translation>
     </message>
     <message>
         <source>\N is not supported in a class</source>
-        <translation>\N не поддерживается в классе</translation>
+        <translation>文字クラスで \N はサポートされていません</translation>
     </message>
     <message>
         <source>too many forward references</source>
-        <translation>слишком много опережающих ссылок</translation>
+        <translation>前方参照が多すぎます</translation>
     </message>
     <message>
         <source>disallowed Unicode code point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</source>
-        <translation>недопустимая кодовая точка Unicode (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</translation>
+        <translation>許可されていないコードの Unicode です(&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</translation>
     </message>
     <message>
         <source>invalid UTF-16 string</source>
-        <translation>некорректная строка UTF-16</translation>
+        <translation>無効な UTF-16 文字列です</translation>
     </message>
     <message>
         <source>name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)</source>
-        <translation>слишком длинное имя в (*MARK), (*PRUNE), (*SKIP) или (*THEN)</translation>
+        <translation>(*MARK), (*PRUNE), (*SKIP), (*THEN) の名前が長すぎます</translation>
     </message>
     <message>
         <source>character value in \u.... sequence is too large</source>
-        <translation>значение символа в последовательности \u... слишком велико</translation>
+        <translation>\u... シーケンスの文字の値が大きすぎます</translation>
     </message>
 </context>
 <context>
     <name>QSQLite2Driver</name>
     <message>
         <source>Error opening database</source>
-        <translation>Ошибка открытия базы данных</translation>
+        <translation>データベースのオープン時にエラーが発生しました</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>Невозможно начать транзакцию</translation>
+        <translation>トランザクションを開始できません</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Невозможно завершить транзакцию</translation>
+        <translation>トランザクションをコミットできません</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Невозможно откатить транзакцию</translation>
+        <translation>トランザクションをロールバックできません</translation>
     </message>
 </context>
 <context>
     <name>QSQLite2Result</name>
     <message>
         <source>Unable to fetch results</source>
-        <translation>Невозможно получить результаты</translation>
+        <translation>実行結果をフェッチできません</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Невозможно выполнить выражение</translation>
+        <translation>ステートメントを実行できません</translation>
     </message>
 </context>
 <context>
     <name>QSQLiteDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>Ошибка открытия базы данных</translation>
+        <translation>データベースのオープン時にエラーが発生しました</translation>
     </message>
     <message>
         <source>Error closing database</source>
-        <translation>Ошибка закрытия базы данных</translation>
+        <translation>データベースのクローズ時にエラーが発生しました</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>Невозможно начать транзакцию</translation>
+        <translation>トランザクションを開始できません</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Невозможно завершить транзакцию</translation>
+        <translation>トランザクションをコミットできません</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Невозможно откатить транзакцию</translation>
+        <translation>トランザクションをロールバックできません</translation>
     </message>
 </context>
 <context>
     <name>QSQLiteResult</name>
     <message>
         <source>Unable to fetch row</source>
-        <translation>Невозможно получить строку</translation>
+        <translation>レコードをフェッチできません</translation>
     </message>
     <message>
         <source>No query</source>
-        <translation>Отсутствует запрос</translation>
+        <translation>クエリーがありません</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Невозможно выполнить выражение</translation>
+        <translation>ステートメントを実行できません</translation>
     </message>
     <message>
         <source>Unable to execute multiple statements at a time</source>
-        <translation>Невозможно одновременно запустить несколько операторов</translation>
+        <translation>一度に複数ステートメントを実行することはできません</translation>
     </message>
     <message>
         <source>Unable to reset statement</source>
-        <translation>Невозможно сбросить выражение</translation>
+        <translation>ステートメントをリセットできません</translation>
     </message>
     <message>
         <source>Unable to bind parameters</source>
-        <translation>Невозможно привязать параметр</translation>
+        <translation>パラメータをバインドできません</translation>
     </message>
     <message>
         <source>Parameter count mismatch</source>
-        <translation>Количество параметров не совпадает</translation>
+        <translation>パラメータの数が合っていません</translation>
     </message>
 </context>
 <context>
     <name>QSaveFile</name>
     <message>
         <source>Existing file %1 is not writable</source>
-        <translation>Существующий файл «%1» защищён от записи</translation>
+        <translation>既存のファイル %1 は書き込み可能ではありません</translation>
     </message>
     <message>
         <source>Writing canceled by application</source>
-        <translation>Запись прервана приложением</translation>
+        <translation>アプリケーションによって書き込みがキャンセルされました</translation>
     </message>
 </context>
 <context>
     <name>QScrollBar</name>
     <message>
         <source>Scroll here</source>
-        <translation>Прокрутить сюда</translation>
+        <translation>ここにスクロール</translation>
     </message>
     <message>
         <source>Left edge</source>
-        <translation>К левой границе</translation>
+        <translation>左端にスクロール</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation>Вверх</translation>
+        <translation>上端にスクロール</translation>
     </message>
     <message>
         <source>Right edge</source>
-        <translation>К правой границе</translation>
+        <translation>右端にスクロール</translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation>Вниз</translation>
+        <translation>下端にスクロール</translation>
     </message>
     <message>
         <source>Page left</source>
-        <translation>На страницу влево</translation>
+        <translation>１ページ左へスクロール</translation>
     </message>
     <message>
         <source>Page up</source>
-        <translation>На страницу вверх</translation>
+        <translation>１ページ戻る</translation>
     </message>
     <message>
         <source>Page right</source>
-        <translation>На страницу вправо</translation>
+        <translation>１ページ右へスクロール</translation>
     </message>
     <message>
         <source>Page down</source>
-        <translation>На страницу вниз</translation>
+        <translation>１ページ進む</translation>
     </message>
     <message>
         <source>Scroll left</source>
-        <translation>Прокрутить влево</translation>
+        <translation>左へスクロール</translation>
     </message>
     <message>
         <source>Scroll up</source>
-        <translation>Прокрутить вверх</translation>
+        <translation>上へスクロール</translation>
     </message>
     <message>
         <source>Scroll right</source>
-        <translation>Прокрутить вправо</translation>
+        <translation>右へスクロール</translation>
     </message>
     <message>
         <source>Scroll down</source>
-        <translation>Прокрутить вниз</translation>
+        <translation>下へスクロール</translation>
     </message>
 </context>
 <context>
     <name>QSharedMemory</name>
     <message>
         <source>%1: unable to set key on lock</source>
-        <translation>%1: невозможно установить ключ блокировки</translation>
+        <translation>%1: ロックするためのキーを設定できません</translation>
     </message>
     <message>
         <source>%1: create size is less then 0</source>
-        <translation>%1: размер меньше нуля</translation>
+        <translation>%1: 0 より小さいサイズの共有メモリは作成できません</translation>
     </message>
     <message>
         <source>%1: unable to lock</source>
-        <translation>%1: невозможно заблокировать</translation>
+        <translation>%1: ロックできません</translation>
     </message>
     <message>
         <source>%1: unable to unlock</source>
-        <translation>%1: невозможно разблокировать</translation>
+        <translation>%1: アンロックできません</translation>
     </message>
     <message>
         <source>%1: permission denied</source>
-        <translation>%1: доступ запрещён</translation>
+        <translation>%1: 許可されていません</translation>
     </message>
     <message>
         <source>%1: already exists</source>
-        <translation>%1: уже существует</translation>
+        <translation>%1: 既に存在します</translation>
     </message>
     <message>
         <source>%1: doesn&apos;t exist</source>
-        <translation>%1: не существует</translation>
+        <translation>%1: 存在しません</translation>
     </message>
     <message>
         <source>%1: out of resources</source>
-        <translation>%1: недостаточно ресурсов</translation>
+        <translation>%1: リソース不足です</translation>
     </message>
     <message>
         <source>%1: unknown error %2</source>
-        <translation>%1: неизвестная ошибка %2</translation>
+        <translation>%1: 未知のエラー %2</translation>
     </message>
     <message>
         <source>%1: key is empty</source>
-        <translation>%1: пустой ключ</translation>
+        <translation>%1: キーが空です</translation>
     </message>
     <message>
         <source>%1: UNIX key file doesn&apos;t exist</source>
-        <translation>%1: специфический ключ UNIX не существует</translation>
+        <translation>%1: UNIX key file が存在しません</translation>
     </message>
     <message>
         <source>%1: ftok failed</source>
-        <translation>%1: ошибка ftok</translation>
+        <translation>%1: ftok に失敗しました</translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
-        <translation>%1: невозможно создать ключ</translation>
+        <translation>%1: キーを作成できません</translation>
     </message>
     <message>
         <source>%1: system-imposed size restrictions</source>
-        <translation>%1: системой наложены ограничения на размер</translation>
+        <translation>%1: 指定されたサイズはシステムにより拒否されました</translation>
     </message>
     <message>
         <source>%1: not attached</source>
-        <translation>%1: не приложенный</translation>
+        <translation>%1: アタッチしていません</translation>
     </message>
     <message>
         <source>%1: invalid size</source>
-        <translation>%1: недопустимый размер</translation>
+        <translation>%1: 無効なサイズです</translation>
     </message>
     <message>
         <source>%1: key error</source>
-        <translation>%1: ошибка ключа</translation>
+        <translation>%1: キーにエラーが発生しました</translation>
     </message>
     <message>
         <source>%1: size query failed</source>
-        <translation>%1: не удалось запросить размер</translation>
+        <translation>%1: サイズのクエリーに失敗しました</translation>
     </message>
 </context>
 <context>
@@ -3418,47 +3418,47 @@ Do you want to overwrite it?</source>
     <message>
         <source>Space</source>
         <extracomment>This and all following &quot;incomprehensible&quot; strings in QShortcut context are key names. Please use the localized names appearing on actual keyboards or whatever is commonly used.</extracomment>
-        <translation>Пробел</translation>
+        <translation>スペース</translation>
     </message>
     <message>
         <source>Esc</source>
-        <translation>Esc</translation>
+        <translation>エスケープ</translation>
     </message>
     <message>
         <source>Tab</source>
-        <translation>Tab</translation>
+        <translation>タブ</translation>
     </message>
     <message>
         <source>Backtab</source>
-        <translation>Backtab</translation>
+        <translation>バックタブ</translation>
     </message>
     <message>
         <source>Backspace</source>
-        <translation>Backspace</translation>
+        <translation>バックスペース</translation>
     </message>
     <message>
         <source>Return</source>
-        <translation>Return</translation>
+        <translation>リターン</translation>
     </message>
     <message>
         <source>Enter</source>
-        <translation>Enter</translation>
+        <translation>エンター</translation>
     </message>
     <message>
         <source>Ins</source>
-        <translation>Ins</translation>
+        <translation>インサート</translation>
     </message>
     <message>
         <source>Del</source>
-        <translation>Del</translation>
+        <translation>デリート</translation>
     </message>
     <message>
         <source>Pause</source>
-        <translation>Pause</translation>
+        <translation>ポーズ</translation>
     </message>
     <message>
         <source>Print</source>
-        <translation>Print</translation>
+        <translation>印刷</translation>
     </message>
     <message>
         <source>SysReq</source>
@@ -3466,261 +3466,261 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Home</source>
-        <translation>Home</translation>
+        <translation>ホーム</translation>
     </message>
     <message>
         <source>End</source>
-        <translation>End</translation>
+        <translation>エンド</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation>Влево</translation>
+        <translation>←</translation>
     </message>
     <message>
         <source>Up</source>
-        <translation>Вверх</translation>
+        <translation>↑</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation>Вправо</translation>
+        <translation>→</translation>
     </message>
     <message>
         <source>Down</source>
-        <translation>Вниз</translation>
+        <translation>↓</translation>
     </message>
     <message>
         <source>PgUp</source>
-        <translation>PgUp</translation>
+        <translation>ページアップ</translation>
     </message>
     <message>
         <source>PgDown</source>
-        <translation>PgDown</translation>
+        <translation>ページダウン</translation>
     </message>
     <message>
         <source>CapsLock</source>
-        <translation>CapsLock</translation>
+        <translation>キャプスロック</translation>
     </message>
     <message>
         <source>NumLock</source>
-        <translation>NumLock</translation>
+        <translation>ナムロック</translation>
     </message>
     <message>
         <source>ScrollLock</source>
-        <translation>ScrollLock</translation>
+        <translation>スクロールロック</translation>
     </message>
     <message>
         <source>Menu</source>
-        <translation>Menu</translation>
+        <translation>メニュー</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Help</translation>
+        <translation>ヘルプ</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Назад</translation>
+        <translation>戻る</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>Вперёд</translation>
+        <translation>進む</translation>
     </message>
     <message>
         <source>Stop</source>
-        <translation>Остановить</translation>
+        <translation>停止</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation>Обновить</translation>
+        <translation>更新</translation>
     </message>
     <message>
         <source>Volume Down</source>
-        <translation>Тише</translation>
+        <translation>音量を下げる</translation>
     </message>
     <message>
         <source>Volume Mute</source>
-        <translation>Выключить звук</translation>
+        <translation>消音</translation>
     </message>
     <message>
         <source>Volume Up</source>
-        <translation>Громче</translation>
+        <translation>音量を上げる</translation>
     </message>
     <message>
         <source>Bass Boost</source>
-        <translation>Усиление басов</translation>
+        <translation>低音ブースト</translation>
     </message>
     <message>
         <source>Bass Up</source>
-        <translation>Басы выше</translation>
+        <translation>低音を上げる</translation>
     </message>
     <message>
         <source>Bass Down</source>
-        <translation>Басы ниже</translation>
+        <translation>低音を下げる</translation>
     </message>
     <message>
         <source>Treble Up</source>
-        <translation>ВЧ выше</translation>
+        <translation>高音を上げる</translation>
     </message>
     <message>
         <source>Treble Down</source>
-        <translation>ВЧ ниже</translation>
+        <translation>高音を下げる</translation>
     </message>
     <message>
         <source>Media Play</source>
-        <translation>Начать воспроизведение</translation>
+        <translation>メディアの再生</translation>
     </message>
     <message>
         <source>Media Stop</source>
-        <translation>Остановить воспроизведение</translation>
+        <translation>メディアの停止</translation>
     </message>
     <message>
         <source>Media Previous</source>
-        <translation>Воспроизвести предыдущее</translation>
+        <translation>前のメディア</translation>
     </message>
     <message>
         <source>Media Next</source>
-        <translation>Воспроизвести следующее</translation>
+        <translation>次のメディア</translation>
     </message>
     <message>
         <source>Media Record</source>
-        <translation>Начать запись</translation>
+        <translation>メディアの録音</translation>
     </message>
     <message>
         <source>Media Pause</source>
         <extracomment>Media player pause button</extracomment>
-        <translation>Приостановить воспроизведение</translation>
+        <translation>メディアの一時停止</translation>
     </message>
     <message>
         <source>Toggle Media Play/Pause</source>
         <extracomment>Media player button to toggle between playing and paused</extracomment>
-        <translation>Приостановить/продолжить воспроизведение</translation>
+        <translation>メディアの再生と一時停止の切り替え</translation>
     </message>
     <message>
         <source>Home Page</source>
-        <translation>Домашняя страница</translation>
+        <translation>ホームページ</translation>
     </message>
     <message>
         <source>Favorites</source>
-        <translation>Избранное</translation>
+        <translation>お気に入り</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Поиск</translation>
+        <translation>検索</translation>
     </message>
     <message>
         <source>Standby</source>
-        <translation>Режим ожидания</translation>
+        <translation>スタンバイ</translation>
     </message>
     <message>
         <source>Open URL</source>
-        <translation>Открыть URL</translation>
+        <translation>URL を開く</translation>
     </message>
     <message>
         <source>Launch Mail</source>
-        <translation>Почта</translation>
+        <translation>メールの起動</translation>
     </message>
     <message>
         <source>Launch Media</source>
-        <translation>Проигрыватель</translation>
+        <translation>メディアの起動</translation>
     </message>
     <message>
         <source>Launch (0)</source>
-        <translation type="unfinished">Запустить (0)</translation>
+        <translation>(0)の起動</translation>
     </message>
     <message>
         <source>Launch (1)</source>
-        <translation type="unfinished">Запустить (1)</translation>
+        <translation>(1)の起動</translation>
     </message>
     <message>
         <source>Launch (2)</source>
-        <translation type="unfinished">Запустить (2)</translation>
+        <translation>(2)の起動</translation>
     </message>
     <message>
         <source>Launch (3)</source>
-        <translation type="unfinished">Запустить (3)</translation>
+        <translation>(3)の起動</translation>
     </message>
     <message>
         <source>Launch (4)</source>
-        <translation type="unfinished">Запустить (4)</translation>
+        <translation>(4)の起動</translation>
     </message>
     <message>
         <source>Launch (5)</source>
-        <translation type="unfinished">Запустить (5)</translation>
+        <translation>(5)の起動</translation>
     </message>
     <message>
         <source>Launch (6)</source>
-        <translation type="unfinished">Запустить (6)</translation>
+        <translation>(6)の起動</translation>
     </message>
     <message>
         <source>Launch (7)</source>
-        <translation type="unfinished">Запустить (7)</translation>
+        <translation>(7)の起動</translation>
     </message>
     <message>
         <source>Launch (8)</source>
-        <translation type="unfinished">Запустить (8)</translation>
+        <translation>(8)の起動</translation>
     </message>
     <message>
         <source>Launch (9)</source>
-        <translation type="unfinished">Запустить (9)</translation>
+        <translation>(9)の起動</translation>
     </message>
     <message>
         <source>Launch (A)</source>
-        <translation type="unfinished">Запустить (A)</translation>
+        <translation>(A)の起動</translation>
     </message>
     <message>
         <source>Launch (B)</source>
-        <translation type="unfinished">Запустить (B)</translation>
+        <translation>(B)の起動</translation>
     </message>
     <message>
         <source>Launch (C)</source>
-        <translation type="unfinished">Запустить (C)</translation>
+        <translation>(C)の起動</translation>
     </message>
     <message>
         <source>Launch (D)</source>
-        <translation type="unfinished">Запустить (D)</translation>
+        <translation>(D)の起動</translation>
     </message>
     <message>
         <source>Launch (E)</source>
-        <translation type="unfinished">Запустить (E)</translation>
+        <translation>(E)の起動</translation>
     </message>
     <message>
         <source>Launch (F)</source>
-        <translation type="unfinished">Запустить (F)</translation>
+        <translation>(F)の起動</translation>
     </message>
     <message>
         <source>Monitor Brightness Up</source>
-        <translation>Увеличить яркость монитора</translation>
+        <translation>モニタの輝度を上げる</translation>
     </message>
     <message>
         <source>Monitor Brightness Down</source>
-        <translation>Уменьшить яркость монитора</translation>
+        <translation>モニタの輝度を下げる</translation>
     </message>
     <message>
         <source>Keyboard Light On/Off</source>
-        <translation>Вкл./откл. подсветку клавиатуры</translation>
+        <translation>キーボードライトのオン・オフ</translation>
     </message>
     <message>
         <source>Keyboard Brightness Up</source>
-        <translation>Увеличить яркость подсветки клавиатуры</translation>
+        <translation>キーボードの輝度を上げる</translation>
     </message>
     <message>
         <source>Keyboard Brightness Down</source>
-        <translation>Уменьшить яркость подсветки клавиатуры</translation>
+        <translation>キーボードの輝度を下げる</translation>
     </message>
     <message>
         <source>Power Off</source>
-        <translation>Отключение питания</translation>
+        <translation>電源オフ</translation>
     </message>
     <message>
         <source>Wake Up</source>
-        <translation>Пробуждение</translation>
+        <translation>起動</translation>
     </message>
     <message>
         <source>Eject</source>
-        <translation>Извлечь</translation>
+        <translation>取り出し</translation>
     </message>
     <message>
         <source>Screensaver</source>
-        <translation>Хранитель экрана</translation>
+        <translation>スクリーンセーバ</translation>
     </message>
     <message>
         <source>WWW</source>
@@ -3728,115 +3728,115 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Sleep</source>
-        <translation>Спящий режим</translation>
+        <translation>スリープ</translation>
     </message>
     <message>
         <source>LightBulb</source>
-        <translation type="unfinished">Лампочка</translation>
+        <translation>ライト</translation>
     </message>
     <message>
         <source>Shop</source>
-        <translation type="unfinished">Магазин</translation>
+        <translation>ショップ</translation>
     </message>
     <message>
         <source>History</source>
-        <translation type="unfinished">История</translation>
+        <translation>履歴</translation>
     </message>
     <message>
         <source>Add Favorite</source>
-        <translation type="unfinished">Добавить в избранное</translation>
+        <translation>お気に入りに追加</translation>
     </message>
     <message>
         <source>Hot Links</source>
-        <translation type="unfinished">Горячие ссылки</translation>
+        <translation>人気のリンク</translation>
     </message>
     <message>
         <source>Adjust Brightness</source>
-        <translation>Настройка яркости</translation>
+        <translation>輝度の調整</translation>
     </message>
     <message>
         <source>Finance</source>
-        <translation type="unfinished">Финансы</translation>
+        <translation>ファイナンス</translation>
     </message>
     <message>
         <source>Community</source>
-        <translation>Сообщество</translation>
+        <translation>コミュニティ</translation>
     </message>
     <message>
         <source>Audio Rewind</source>
-        <translation>Перемотка аудио назад</translation>
+        <translation>オーディオの巻き戻し</translation>
     </message>
     <message>
         <source>Back Forward</source>
-        <translation>Назад/вперёд</translation>
+        <translation>戻る</translation>
     </message>
     <message>
         <source>Application Left</source>
-        <translation type="unfinished"></translation>
+        <translation>次のアプリケーション</translation>
     </message>
     <message>
         <source>Application Right</source>
-        <translation type="unfinished"></translation>
+        <translation>前のアプリケーション</translation>
     </message>
     <message>
         <source>Book</source>
-        <translation>Книга</translation>
+        <translation>書籍</translation>
     </message>
     <message>
         <source>CD</source>
-        <translation type="unfinished">CD</translation>
+        <translation>CD</translation>
     </message>
     <message>
         <source>Calculator</source>
-        <translation>Калькулятор</translation>
+        <translation>電卓</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation type="unfinished">Очистить</translation>
+        <translation>クリア</translation>
     </message>
     <message>
         <source>Clear Grab</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Clear Grab</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Закрыть</translation>
+        <translation>閉じる</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Копировать</translation>
+        <translation>コピー</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation>Вырезать</translation>
+        <translation>切り取り</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation type="unfinished">Display</translation>
+        <translation>ディスプレイ</translation>
     </message>
     <message>
         <source>DOS</source>
-        <translation type="unfinished">DOS</translation>
+        <translation>DOS</translation>
     </message>
     <message>
         <source>Documents</source>
-        <translation>Документы</translation>
+        <translation>ドキュメント</translation>
     </message>
     <message>
         <source>Spreadsheet</source>
-        <translation type="unfinished">Электронная таблицы</translation>
+        <translation>スプレッドシート</translation>
     </message>
     <message>
         <source>Browser</source>
-        <translation type="unfinished">Обозреватель</translation>
+        <translation>ブラウザ</translation>
     </message>
     <message>
         <source>Game</source>
-        <translation type="unfinished">Игра</translation>
+        <translation>ゲーム</translation>
     </message>
     <message>
         <source>Go</source>
-        <translation type="unfinished">Перейти</translation>
+        <translation>確定</translation>
     </message>
     <message>
         <source>iTouch</source>
@@ -3844,454 +3844,454 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Logoff</source>
-        <translation type="unfinished">Выйти из системы</translation>
+        <translation>ログオフ</translation>
     </message>
     <message>
         <source>Market</source>
-        <translation type="unfinished">Рынок</translation>
+        <translation>マーケット</translation>
     </message>
     <message>
         <source>Meeting</source>
-        <translation type="unfinished">Встреча</translation>
+        <translation>会議</translation>
     </message>
     <message>
         <source>Keyboard Menu</source>
-        <translation type="unfinished">Клавиатурное меню</translation>
+        <translation>キーボードメニュー</translation>
     </message>
     <message>
         <source>Menu PB</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Menu PB</translation>
     </message>
     <message>
         <source>My Sites</source>
-        <translation type="unfinished">Мои сайты</translation>
+        <translation>マイサイト</translation>
     </message>
     <message>
         <source>News</source>
-        <translation type="unfinished">Новости</translation>
+        <translation>ニュース</translation>
     </message>
     <message>
         <source>Home Office</source>
-        <translation type="unfinished">Домашний офис</translation>
+        <translation>ホームオフィス</translation>
     </message>
     <message>
         <source>Option</source>
-        <translation type="unfinished">Опция</translation>
+        <translation>オプション</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>Вставить</translation>
+        <translation>貼り付け</translation>
     </message>
     <message>
         <source>Phone</source>
-        <translation type="unfinished">Телефон</translation>
+        <translation>電話</translation>
     </message>
     <message>
         <source>Reply</source>
-        <translation type="unfinished">Ответить</translation>
+        <translation>返信</translation>
     </message>
     <message>
         <source>Reload</source>
-        <translation>Перезагрузить</translation>
+        <translation>リロード</translation>
     </message>
     <message>
         <source>Rotate Windows</source>
-        <translation type="unfinished">Повернуть окна</translation>
+        <translation>ウィンドウ切り替え</translation>
     </message>
     <message>
         <source>Rotation PB</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Rotation PB</translation>
     </message>
     <message>
         <source>Rotation KB</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Rotation KB</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Сохранить</translation>
+        <translation>保存</translation>
     </message>
     <message>
         <source>Send</source>
-        <translation type="unfinished">Отправить</translation>
+        <translation>送信</translation>
     </message>
     <message>
         <source>Spellchecker</source>
-        <translation type="unfinished">Проверка орфографии</translation>
+        <translation>スペルチェッカー</translation>
     </message>
     <message>
         <source>Split Screen</source>
-        <translation type="unfinished">Разделить экран</translation>
+        <translation>画面の分割</translation>
     </message>
     <message>
         <source>Support</source>
-        <translation type="unfinished">Поддержка</translation>
+        <translation>サポート</translation>
     </message>
     <message>
         <source>Task Panel</source>
-        <translation type="unfinished">Панель задач</translation>
+        <translation>タスクパネル</translation>
     </message>
     <message>
         <source>Terminal</source>
-        <translation type="unfinished">Терминал</translation>
+        <translation>端末</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished">Инструменты</translation>
+        <translation>ツール</translation>
     </message>
     <message>
         <source>Travel</source>
-        <translation type="unfinished">Путешествие</translation>
+        <translation>旅行</translation>
     </message>
     <message>
         <source>Video</source>
-        <translation>Видео</translation>
+        <translation>動画</translation>
     </message>
     <message>
         <source>Word Processor</source>
-        <translation type="unfinished">Текстовый редактор</translation>
+        <translation>ワードプロセッサ</translation>
     </message>
     <message>
         <source>XFer</source>
-        <translation type="unfinished"></translation>
+        <translation>変換</translation>
     </message>
     <message>
         <source>Zoom In</source>
-        <translation>Увеличить</translation>
+        <translation>拡大</translation>
     </message>
     <message>
         <source>Zoom Out</source>
-        <translation>Уменьшить</translation>
+        <translation>縮小</translation>
     </message>
     <message>
         <source>Away</source>
-        <translation>Ушёл</translation>
+        <translation>離席</translation>
     </message>
     <message>
         <source>Messenger</source>
-        <translation type="unfinished">Клиент обмена мгновенными сообщениями</translation>
+        <translation>メッセンジャー</translation>
     </message>
     <message>
         <source>WebCam</source>
-        <translation type="unfinished">Вэб-камера</translation>
+        <translation>Webカメラ</translation>
     </message>
     <message>
         <source>Mail Forward</source>
-        <translation type="unfinished">Переслать письмо</translation>
+        <translation>メールの転送</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>Изображения</translation>
+        <translation>画像</translation>
     </message>
     <message>
         <source>Music</source>
-        <translation>Музыка</translation>
+        <translation>音楽</translation>
     </message>
     <message>
         <source>Battery</source>
-        <translation>Батарея</translation>
+        <translation>バッテリ</translation>
     </message>
     <message>
         <source>Bluetooth</source>
-        <translation>Bluetooth</translation>
+        <translation>ブルートゥース</translation>
     </message>
     <message>
         <source>Wireless</source>
-        <translation>Беспроводная сеть</translation>
+        <translation>無線</translation>
     </message>
     <message>
         <source>Ultra Wide Band</source>
-        <translation type="unfinished">Сверхширокополосная связь</translation>
+        <translation>超広帯域無線(UWB)</translation>
     </message>
     <message>
         <source>Audio Forward</source>
-        <translation type="unfinished">Последовательное воспроизведение</translation>
+        <translation>オーディオの早送り</translation>
     </message>
     <message>
         <source>Audio Repeat</source>
-        <translation type="unfinished">Воспроизведение по кругу</translation>
+        <translation>オーディオの繰り返し</translation>
     </message>
     <message>
         <source>Audio Random Play</source>
-        <translation type="unfinished">Случайное воспроизведение</translation>
+        <translation>オーディオのランダム再生</translation>
     </message>
     <message>
         <source>Subtitle</source>
-        <translation type="unfinished">Субтитры</translation>
+        <translation>字幕</translation>
     </message>
     <message>
         <source>Audio Cycle Track</source>
-        <translation type="unfinished">Зацикленное воспроизведение дорожки</translation>
+        <translation type="unfinished">Audio Cycle Track</translation>
     </message>
     <message>
         <source>Time</source>
-        <translation>Время</translation>
+        <translation>時間</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation type="unfinished">Выбрать</translation>
+        <translation>選択</translation>
     </message>
     <message>
         <source>View</source>
-        <translation type="unfinished">Вид</translation>
+        <translation>表示</translation>
     </message>
     <message>
         <source>Top Menu</source>
-        <translation>Главное меню</translation>
+        <translation>トップメニュー</translation>
     </message>
     <message>
         <source>Suspend</source>
-        <translation type="unfinished">Приостановить</translation>
+        <translation>サスペンド</translation>
     </message>
     <message>
         <source>Hibernate</source>
-        <translation>Усыпить</translation>
+        <translation>休止</translation>
     </message>
     <message>
         <source>Print Screen</source>
-        <translation>Печать экрана</translation>
+        <translation>プリントスクリーン</translation>
     </message>
     <message>
         <source>Page Up</source>
-        <translation>Страница вверх</translation>
+        <translation>ページアップ</translation>
     </message>
     <message>
         <source>Page Down</source>
-        <translation>Страница вниз</translation>
+        <translation>ページダウン</translation>
     </message>
     <message>
         <source>Caps Lock</source>
-        <translation>Верний регистр</translation>
+        <translation>キャプスロック</translation>
     </message>
     <message>
         <source>Num Lock</source>
-        <translation>Цифровые клавиши</translation>
+        <translation>ナムロック</translation>
     </message>
     <message>
         <source>Number Lock</source>
-        <translation>Цифровые клавиши</translation>
+        <translation>ナンバーロック</translation>
     </message>
     <message>
         <source>Scroll Lock</source>
-        <translation>Фиксация прокрутки</translation>
+        <translation>スクロールロック</translation>
     </message>
     <message>
         <source>Insert</source>
-        <translation>Вставить</translation>
+        <translation>挿入</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Удалить</translation>
+        <translation>削除</translation>
     </message>
     <message>
         <source>Escape</source>
-        <translation>Escape</translation>
+        <translation>エスケープ</translation>
     </message>
     <message>
         <source>System Request</source>
-        <translation>Системный запрос</translation>
+        <translation>システムリクエスト</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Да</translation>
+        <translation>はい</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Нет</translation>
+        <translation>いいえ</translation>
     </message>
     <message>
         <source>Context1</source>
-        <translation type="unfinished"></translation>
+        <translation>コンテキスト1</translation>
     </message>
     <message>
         <source>Context2</source>
-        <translation type="unfinished"></translation>
+        <translation>コンテキスト2</translation>
     </message>
     <message>
         <source>Context3</source>
-        <translation type="unfinished"></translation>
+        <translation>コンテキスト3</translation>
     </message>
     <message>
         <source>Context4</source>
-        <translation type="unfinished"></translation>
+        <translation>コンテキスト4</translation>
     </message>
     <message>
         <source>Call</source>
         <extracomment>Button to start a call (note: a separate button is used to end the call)</extracomment>
-        <translation>Позвонить</translation>
+        <translation>通話</translation>
     </message>
     <message>
         <source>Hangup</source>
         <extracomment>Button to end a call (note: a separate button is used to start the call)</extracomment>
-        <translation>Отбой</translation>
+        <translation>終話</translation>
     </message>
     <message>
         <source>Toggle Call/Hangup</source>
         <extracomment>Button that will hang up if we&apos;re in call, or make a call if we&apos;re not.</extracomment>
-        <translation>Снять/положить трубку</translation>
+        <translation>通話/終話の切替</translation>
     </message>
     <message>
         <source>Flip</source>
-        <translation>Крышка</translation>
+        <translation>フリップ</translation>
     </message>
     <message>
         <source>Voice Dial</source>
         <extracomment>Button to trigger voice dialing</extracomment>
-        <translation>Голосовой вызов</translation>
+        <translation>ボイスダイアル</translation>
     </message>
     <message>
         <source>Last Number Redial</source>
         <extracomment>Button to redial the last number called</extracomment>
-        <translation>Повторный набор</translation>
+        <translation>直前の番号にリダイヤル</translation>
     </message>
     <message>
         <source>Camera Shutter</source>
         <extracomment>Button to trigger the camera shutter (take a picture)</extracomment>
-        <translation>Затвор камеры</translation>
+        <translation>カメラシャッター</translation>
     </message>
     <message>
         <source>Camera Focus</source>
         <extracomment>Button to focus the camera</extracomment>
-        <translation>Фокусировка камеры</translation>
+        <translation>カメラフォーカス</translation>
     </message>
     <message>
         <source>Kanji</source>
-        <translation type="unfinished"></translation>
+        <translation>漢字</translation>
     </message>
     <message>
         <source>Muhenkan</source>
-        <translation type="unfinished"></translation>
+        <translation>無変換</translation>
     </message>
     <message>
         <source>Henkan</source>
-        <translation type="unfinished"></translation>
+        <translation>変換</translation>
     </message>
     <message>
         <source>Romaji</source>
-        <translation type="unfinished"></translation>
+        <translation>ローマ字</translation>
     </message>
     <message>
         <source>Hiragana</source>
-        <translation type="unfinished"></translation>
+        <translation>ひらがな</translation>
     </message>
     <message>
         <source>Katakana</source>
-        <translation type="unfinished"></translation>
+        <translation>カタカナ</translation>
     </message>
     <message>
         <source>Hiragana Katakana</source>
-        <translation type="unfinished"></translation>
+        <translation>ひらがな/カタカナ</translation>
     </message>
     <message>
         <source>Zenkaku</source>
-        <translation type="unfinished"></translation>
+        <translation>全角</translation>
     </message>
     <message>
         <source>Hankaku</source>
-        <translation type="unfinished"></translation>
+        <translation>半角</translation>
     </message>
     <message>
         <source>Zenkaku Hankaku</source>
-        <translation type="unfinished"></translation>
+        <translation>全角/半角</translation>
     </message>
     <message>
         <source>Touroku</source>
-        <translation type="unfinished"></translation>
+        <translation>単語登録</translation>
     </message>
     <message>
         <source>Massyo</source>
-        <translation type="unfinished"></translation>
+        <translation>単語抹消</translation>
     </message>
     <message>
         <source>Kana Lock</source>
-        <translation type="unfinished"></translation>
+        <translation>カナロック</translation>
     </message>
     <message>
         <source>Kana Shift</source>
-        <translation type="unfinished"></translation>
+        <translation>カナシフト</translation>
     </message>
     <message>
         <source>Eisu Shift</source>
-        <translation type="unfinished"></translation>
+        <translation>英数シフト</translation>
     </message>
     <message>
         <source>Eisu toggle</source>
-        <translation type="unfinished"></translation>
+        <translation>英数</translation>
     </message>
     <message>
         <source>Code input</source>
-        <translation type="unfinished">Ввод кода</translation>
+        <translation>コード入力</translation>
     </message>
     <message>
         <source>Multiple Candidate</source>
-        <translation type="unfinished">Несколько вариантов</translation>
+        <translation>全候補</translation>
     </message>
     <message>
         <source>Previous Candidate</source>
-        <translation type="unfinished">Предыдущий вариант</translation>
+        <translation>前候補</translation>
     </message>
     <message>
         <source>Hangul</source>
-        <translation type="unfinished"></translation>
+        <translation>ハングル</translation>
     </message>
     <message>
         <source>Hangul Start</source>
-        <translation type="unfinished"></translation>
+        <translation>ハングル 入力開始</translation>
     </message>
     <message>
         <source>Hangul End</source>
-        <translation type="unfinished"></translation>
+        <translation>ハングル 入力終了</translation>
     </message>
     <message>
         <source>Hangul Hanja</source>
-        <translation type="unfinished"></translation>
+        <translation>ハングル 漢字</translation>
     </message>
     <message>
         <source>Hangul Jamo</source>
-        <translation type="unfinished"></translation>
+        <translation>ハングル 字母</translation>
     </message>
     <message>
         <source>Hangul Romaja</source>
-        <translation type="unfinished"></translation>
+        <translation>ハングル ローマ字入力</translation>
     </message>
     <message>
         <source>Hangul Jeonja</source>
-        <translation type="unfinished"></translation>
+        <translation>ハングル Jeonja モード</translation>
     </message>
     <message>
         <source>Hangul Banja</source>
-        <translation type="unfinished"></translation>
+        <translation>ハングル Banja モード</translation>
     </message>
     <message>
         <source>Hangul PreHanja</source>
-        <translation type="unfinished"></translation>
+        <translation>ハングル 漢字前変換</translation>
     </message>
     <message>
         <source>Hangul PostHanja</source>
-        <translation type="unfinished"></translation>
+        <translation>ハングル 漢字後変換</translation>
     </message>
     <message>
         <source>Hangul Special</source>
-        <translation type="unfinished"></translation>
+        <translation>ハングル スペシャル</translation>
     </message>
     <message>
         <source>Ctrl</source>
-        <translation>Ctrl</translation>
+        <translation>コントロール</translation>
     </message>
     <message>
         <source>Shift</source>
-        <translation>Shift</translation>
+        <translation>シフト</translation>
     </message>
     <message>
         <source>Alt</source>
-        <translation>Alt</translation>
+        <translation>オルト</translation>
     </message>
     <message>
         <source>Meta</source>
-        <translation>Meta</translation>
+        <translation>メタ</translation>
     </message>
     <message>
         <source>Num</source>
-        <translation>Num</translation>
+        <translation>ナム</translation>
     </message>
     <message>
         <source>+</source>
@@ -4306,59 +4306,59 @@ Do you want to overwrite it?</source>
     <name>QSocks5SocketEngine</name>
     <message>
         <source>Connection to proxy refused</source>
-        <translation>В соединении с прокси-сервером отказано</translation>
+        <translation>プロキシへの接続が拒否されました</translation>
     </message>
     <message>
         <source>Connection to proxy closed prematurely</source>
-        <translation>Соединение с прокси-сервером неожиданно закрыто</translation>
+        <translation>プロキシの接続が通信の終了前に切断されました</translation>
     </message>
     <message>
         <source>Proxy host not found</source>
-        <translation>Прокси-сервер не найден</translation>
+        <translation>プロキシホストが見つかりません</translation>
     </message>
     <message>
         <source>Connection to proxy timed out</source>
-        <translation>Время на соединение с прокси-сервером истекло</translation>
+        <translation>プロキシとの接続がタイムアウトしました</translation>
     </message>
     <message>
         <source>Proxy authentication failed</source>
-        <translation>Не удалось авторизоваться на прокси-сервере</translation>
+        <translation>プロキシでの認証に失敗しました</translation>
     </message>
     <message>
         <source>Proxy authentication failed: %1</source>
-        <translation>Не удалось авторизоваться на прокси-сервере: %1</translation>
+        <translation>プロキシでの認証に失敗しました: %1</translation>
     </message>
     <message>
         <source>SOCKS version 5 protocol error</source>
-        <translation>Ошибка протокола SOCKSv5</translation>
+        <translation>SOCKS バージョン 5 プロトコルのエラーです</translation>
     </message>
     <message>
         <source>General SOCKSv5 server failure</source>
-        <translation>Ошибка сервере SOCKSv5</translation>
+        <translation>SOCKS バージョン 5 サーバのエラーです</translation>
     </message>
     <message>
         <source>Connection not allowed by SOCKSv5 server</source>
-        <translation>Соединение не разрешено сервером SOCKSv5</translation>
+        <translation>SOCKS バージョン 5 サーバより接続を拒否されました</translation>
     </message>
     <message>
         <source>TTL expired</source>
-        <translation>Сеть недоступна</translation>
+        <translation>ネットワークへ到達できません</translation>
     </message>
     <message>
         <source>SOCKSv5 command not supported</source>
-        <translation>Команда SOCKSv5 не поддерживается</translation>
+        <translation>この SOCKSv5 コマンドはサポートされていません</translation>
     </message>
     <message>
         <source>Address type not supported</source>
-        <translation>Тип адреса не поддерживается</translation>
+        <translation>指定されたアドレスタイプはサポートされていません</translation>
     </message>
     <message>
         <source>Unknown SOCKSv5 proxy error code 0x%1</source>
-        <translation>Неизвестная ошибка SOCKSv5 прокси (код 0x%1)</translation>
+        <translation>未知の SOCKSv5 プロキシエラーです: 0x%1</translation>
     </message>
     <message>
         <source>Network operation timed out</source>
-        <translation>Время на сетевую операцию истекло</translation>
+        <translation>ネットワーク操作がタイムアウトしました</translation>
     </message>
 </context>
 <context>
@@ -4366,758 +4366,758 @@ Do you want to overwrite it?</source>
     <message>
         <source>invalid role</source>
         <extracomment>Role of an accessible object - the object is in an invalid state or could not be constructed</extracomment>
-        <translation>некорректная роль</translation>
+        <translation>無効なロール</translation>
     </message>
     <message>
         <source>title bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>строка заголовка</translation>
+        <translation>タイトルバー</translation>
     </message>
     <message>
         <source>menu bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>строка меню</translation>
+        <translation>メニューバー</translation>
     </message>
     <message>
         <source>scroll bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>полоса прокрутки</translation>
+        <translation>スクロールバー</translation>
     </message>
     <message>
         <source>grip</source>
         <extracomment>Role of an accessible object - the grip is usually used for resizing another object</extracomment>
-        <translation>регулятор размера</translation>
+        <translation>グリップ</translation>
     </message>
     <message>
         <source>sound</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>звук</translation>
+        <translation>サウンド</translation>
     </message>
     <message>
         <source>cursor</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>курсор мыши</translation>
+        <translation>カーソル</translation>
     </message>
     <message>
         <source>text caret</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>курсор в тексте</translation>
+        <translation>キャレット</translation>
     </message>
     <message>
         <source>alert message</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>диалог с предупреждением</translation>
+        <translation>警告メッセージ</translation>
     </message>
     <message>
         <source>window</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>окно</translation>
+        <translation>ウィンドウ</translation>
     </message>
     <message>
         <source>filler</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>заполнитель</translation>
+        <translation>フィルタ</translation>
     </message>
     <message>
         <source>popup menu</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>всплывающее меню</translation>
+        <translation>ポップアップメニュー</translation>
     </message>
     <message>
         <source>menu item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>элемент меню</translation>
+        <translation>メニューアイテム</translation>
     </message>
     <message>
         <source>tool tip</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>подсказка</translation>
+        <translation>ツールチップ</translation>
     </message>
     <message>
         <source>application</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>приложение</translation>
+        <translation>アプリケーション</translation>
     </message>
     <message>
         <source>document</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>документ</translation>
+        <translation>ドキュメント</translation>
     </message>
     <message>
         <source>panel</source>
         <extracomment>Role of an accessible object
 ----------
 Role of an accessible object</extracomment>
-        <translation>панель</translation>
+        <translation>パネル</translation>
     </message>
     <message>
         <source>chart</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>диаграмма</translation>
+        <translation>チャート</translation>
     </message>
     <message>
         <source>dialog</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>диалог</translation>
+        <translation>ダイアログ</translation>
     </message>
     <message>
         <source>frame</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>рамка</translation>
+        <translation>枠</translation>
     </message>
     <message>
         <source>separator</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>разделитель</translation>
+        <translation>仕切り</translation>
     </message>
     <message>
         <source>tool bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>панель инструментов</translation>
+        <translation>ツールバー</translation>
     </message>
     <message>
         <source>status bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>строка состояния</translation>
+        <translation>ステータスバー</translation>
     </message>
     <message>
         <source>table</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>таблица</translation>
+        <translation>テーブル</translation>
     </message>
     <message>
         <source>column header</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>название колонки</translation>
+        <translation>列ヘッダ</translation>
     </message>
     <message>
         <source>row header</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>название строки</translation>
+        <translation>行ヘッダ</translation>
     </message>
     <message>
         <source>column</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>колонка</translation>
+        <translation>列</translation>
     </message>
     <message>
         <source>row</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>строка</translation>
+        <translation>行</translation>
     </message>
     <message>
         <source>cell</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>ячейка</translation>
+        <translation>セル</translation>
     </message>
     <message>
         <source>link</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ссылка</translation>
+        <translation>リンク</translation>
     </message>
     <message>
         <source>help balloon</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>всплывающая подсказка</translation>
+        <translation>ヘルプバルーン</translation>
     </message>
     <message>
         <source>assistant</source>
         <extracomment>Role of an accessible object - a helper dialog</extracomment>
-        <translation>помощник</translation>
+        <translation>アシスタント</translation>
     </message>
     <message>
         <source>list</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>список</translation>
+        <translation>リスト</translation>
     </message>
     <message>
         <source>list item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>элемент списка</translation>
+        <translation>リストアイテム</translation>
     </message>
     <message>
         <source>tree</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>дерево</translation>
+        <translation>ツリー</translation>
     </message>
     <message>
         <source>tree item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>элемент дерева</translation>
+        <translation>ツリーアイテム</translation>
     </message>
     <message>
         <source>page tab</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>вкладка страницы</translation>
+        <translation>ページタブ</translation>
     </message>
     <message>
         <source>property page</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>страница свойств</translation>
+        <translation>プロパティページ</translation>
     </message>
     <message>
         <source>indicator</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>индикатор</translation>
+        <translation>インジケーター</translation>
     </message>
     <message>
         <source>graphic</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>графика</translation>
+        <translation>グラフィック</translation>
     </message>
     <message>
         <source>label</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>надпись</translation>
+        <translation>ラベル</translation>
     </message>
     <message>
         <source>text</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>текст</translation>
+        <translation>テキスト</translation>
     </message>
     <message>
         <source>push button</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>кнопка</translation>
+        <translation>プッシュボタン</translation>
     </message>
     <message>
         <source>check box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>флажок</translation>
+        <translation>チェックボックス</translation>
     </message>
     <message>
         <source>radio button</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>переключатель</translation>
+        <translation>ラジオボタン</translation>
     </message>
     <message>
         <source>combo box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>выпадающий список</translation>
+        <translation>コンボボックス</translation>
     </message>
     <message>
         <source>progress bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>индикатор выполнения</translation>
+        <translation>プログレスバー</translation>
     </message>
     <message>
         <source>dial</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>регулятор</translation>
+        <translation>ダイアル</translation>
     </message>
     <message>
         <source>hotkey field</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>поле для ввода горячей клавиши</translation>
+        <translation>ホットキー領域</translation>
     </message>
     <message>
         <source>slider</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ползунок</translation>
+        <translation>スライダー</translation>
     </message>
     <message>
         <source>spin box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>числовое поле</translation>
+        <translation>スピンボックス</translation>
     </message>
     <message>
         <source>canvas</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>холст</translation>
+        <translation>キャンバス</translation>
     </message>
     <message>
         <source>animation</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>анимация</translation>
+        <translation>アニメーション</translation>
     </message>
     <message>
         <source>equation</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>уравнение</translation>
+        <translation>数式</translation>
     </message>
     <message>
         <source>button with drop down</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>кнопка с выпадающим меню</translation>
+        <translation>ドロップダウン付きボタン</translation>
     </message>
     <message>
         <source>button menu</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>меню кнопки</translation>
+        <translation>ボタンメニュー</translation>
     </message>
     <message>
         <source>button with drop down grid</source>
         <extracomment>Role of an accessible object - a button that expands a grid.</extracomment>
-        <translation>кнопка с выпадающей таблицей</translation>
+        <translation>ドロップダウングリッド付きボタン</translation>
     </message>
     <message>
         <source>space</source>
         <extracomment>Role of an accessible object - blank space between other objects.</extracomment>
-        <translation>пустое место</translation>
+        <translation>スペース</translation>
     </message>
     <message>
         <source>page tab list</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>список вкладок</translation>
+        <translation>ページタブのリスト</translation>
     </message>
     <message>
         <source>clock</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>часы</translation>
+        <translation>クロック</translation>
     </message>
     <message>
         <source>splitter</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>разделитель окон</translation>
+        <translation>仕切り</translation>
     </message>
     <message>
         <source>layered pane</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>каскадная панель</translation>
+        <translation>階層ペイン</translation>
     </message>
     <message>
         <source>unknown</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>неизвестная</translation>
+        <translation>不明</translation>
     </message>
 </context>
 <context>
     <name>QSslSocket</name>
     <message>
-        <source>No error</source>
-        <translation>Нет ошибки</translation>
-    </message>
-    <message>
-        <source>The issuer certificate could not be found</source>
-        <translation>Не удалось найти сертификат издателя</translation>
-    </message>
-    <message>
-        <source>The certificate signature could not be decrypted</source>
-        <translation>Не удалось расшифровать подпись сертификата</translation>
-    </message>
-    <message>
-        <source>The public key in the certificate could not be read</source>
-        <translation>Не удалось прочитать открытый ключ сертификата</translation>
-    </message>
-    <message>
-        <source>The signature of the certificate is invalid</source>
-        <translation>Некорректная подпись сертификата</translation>
-    </message>
-    <message>
-        <source>The certificate is not yet valid</source>
-        <translation>Срок действия сертификата ещё не наступил</translation>
-    </message>
-    <message>
-        <source>The certificate has expired</source>
-        <translation>Срок действия сертификата истёк</translation>
-    </message>
-    <message>
-        <source>The certificate&apos;s notBefore field contains an invalid time</source>
-        <translation>Поле notBefore сертификата содержит некорректное время</translation>
-    </message>
-    <message>
-        <source>The certificate&apos;s notAfter field contains an invalid time</source>
-        <translation>Поле notAfter сертификата содержит некорректное время</translation>
-    </message>
-    <message>
-        <source>The certificate is self-signed, and untrusted</source>
-        <translation>Сертификат самоподписанный и не является заверенным</translation>
-    </message>
-    <message>
-        <source>The root certificate of the certificate chain is self-signed, and untrusted</source>
-        <translation>Корневой сертификат цепочки сертификатов самоподписанный и не является заверенным</translation>
-    </message>
-    <message>
-        <source>The issuer certificate of a locally looked up certificate could not be found</source>
-        <translation>Не удалось найти сертификат издателя локального сертификата</translation>
-    </message>
-    <message>
-        <source>No certificates could be verified</source>
-        <translation>Не удалось проверить сертификаты</translation>
-    </message>
-    <message>
-        <source>One of the CA certificates is invalid</source>
-        <translation>Один из сертификатов центра сертификации некорректен</translation>
-    </message>
-    <message>
-        <source>The basicConstraints path length parameter has been exceeded</source>
-        <translation>Превышено значение параметра длины пути поля basicConstraints сертификата</translation>
-    </message>
-    <message>
-        <source>The supplied certificate is unsuitable for this purpose</source>
-        <translation>Представленный сертификат непригоден для данной цели</translation>
-    </message>
-    <message>
-        <source>The root CA certificate is not trusted for this purpose</source>
-        <translation>Корневой сертификат центра сертификации не является заверенным для данной цели</translation>
-    </message>
-    <message>
-        <source>The root CA certificate is marked to reject the specified purpose</source>
-        <translation>Корневой сертификат центра сертификации отмечен на отклонение для данной цели</translation>
-    </message>
-    <message>
-        <source>The current candidate issuer certificate was rejected because its subject name did not match the issuer name of the current certificate</source>
-        <translation>Текущий сертификат издателя был отклонён, так как название темы не совпадает с названием издателя сертификата</translation>
-    </message>
-    <message>
-        <source>The current candidate issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate</source>
-        <translation>Текущий сертификат издателя был отклонён, так как название издателя и серийный номер не совпадают с идентификатором ключа сертификата</translation>
-    </message>
-    <message>
-        <source>The peer did not present any certificate</source>
-        <translation>Сертификат не был предоставлен</translation>
-    </message>
-    <message>
-        <source>The host name did not match any of the valid hosts for this certificate</source>
-        <translation>Название узла не совпадает с допустимыми названиями узлов сертификата</translation>
-    </message>
-    <message>
-        <source>The peer certificate is blacklisted</source>
-        <translation>Сертификат узла в чёрном списке</translation>
-    </message>
-    <message>
-        <source>Unknown error</source>
-        <translation>Неизвестная ошибка</translation>
-    </message>
-    <message>
         <source>Error creating SSL context (%1)</source>
-        <translation>Ошибка создания контекста SSL: (%1)</translation>
+        <translation>SSL context の作成に失敗しました (%1)</translation>
     </message>
     <message>
         <source>Invalid or empty cipher list (%1)</source>
-        <translation>Некорректный или пустой список шифров (%1)</translation>
+        <translation>暗号方式リストが不正または空です (%1)</translation>
     </message>
     <message>
         <source>Cannot provide a certificate with no key, %1</source>
-        <translation>Невозможно предоставить сертификат без ключа, %1</translation>
+        <translation>秘密鍵のない証明書は利用できません: %1</translation>
     </message>
     <message>
         <source>Error loading local certificate, %1</source>
-        <translation>Ошибка загрузки локального сертификата, %1</translation>
+        <translation>ローカルの証明書をロードできません。 %1</translation>
     </message>
     <message>
         <source>Error loading private key, %1</source>
-        <translation>Ошибка загрузки закрытого ключа, %1</translation>
+        <translation>秘密鍵をロードできません。 %1</translation>
     </message>
     <message>
         <source>Private key does not certify public key, %1</source>
-        <translation>Закрытый ключ не соответствует открытому ключу, %1</translation>
+        <translation>秘密鍵が公開鍵を認証していません。 %1</translation>
+    </message>
+    <message>
+        <source>No error</source>
+        <translation>エラーはありません</translation>
+    </message>
+    <message>
+        <source>The issuer certificate could not be found</source>
+        <translation>発行者証明書が見つかりません</translation>
+    </message>
+    <message>
+        <source>The certificate signature could not be decrypted</source>
+        <translation>証明書の署名が復号できません</translation>
+    </message>
+    <message>
+        <source>The public key in the certificate could not be read</source>
+        <translation>証明書の公開鍵が読めません</translation>
+    </message>
+    <message>
+        <source>The signature of the certificate is invalid</source>
+        <translation>証明書の署名が不正です</translation>
+    </message>
+    <message>
+        <source>The certificate is not yet valid</source>
+        <translation>証明書が有効ではありません</translation>
+    </message>
+    <message>
+        <source>The certificate has expired</source>
+        <translation>証明書の有効期限が切れています</translation>
+    </message>
+    <message>
+        <source>The certificate&apos;s notBefore field contains an invalid time</source>
+        <translation>証明書の notBefore フィールドに不正な時刻が含まれています</translation>
+    </message>
+    <message>
+        <source>The certificate&apos;s notAfter field contains an invalid time</source>
+        <translation>証明書の notAfter フィールドに不正な時刻が含まれています</translation>
+    </message>
+    <message>
+        <source>The certificate is self-signed, and untrusted</source>
+        <translation>この証明書は自己証明書であり、信頼されていません</translation>
+    </message>
+    <message>
+        <source>The root certificate of the certificate chain is self-signed, and untrusted</source>
+        <translation>証明書チェインのルート証明書が自己証明書であり、信頼されていません</translation>
+    </message>
+    <message>
+        <source>The issuer certificate of a locally looked up certificate could not be found</source>
+        <translation>ローカルで発見した証明書の発行者証明書が見つかりません</translation>
+    </message>
+    <message>
+        <source>No certificates could be verified</source>
+        <translation>どの証明書も検証できませんでした</translation>
+    </message>
+    <message>
+        <source>One of the CA certificates is invalid</source>
+        <translation>CA 証明書に不正な証明書があります</translation>
+    </message>
+    <message>
+        <source>The basicConstraints path length parameter has been exceeded</source>
+        <translation>基本制約(basicConstraints)で制限されたパスの長さを超えています</translation>
+    </message>
+    <message>
+        <source>The supplied certificate is unsuitable for this purpose</source>
+        <translation>与えられた証明書はこの目的には利用できません</translation>
+    </message>
+    <message>
+        <source>The root CA certificate is not trusted for this purpose</source>
+        <translation>ルートCA証明書はこの目的には信頼されていません</translation>
+    </message>
+    <message>
+        <source>The root CA certificate is marked to reject the specified purpose</source>
+        <translation>ルートCA証明書を指定された目的に使用することは拒否されています</translation>
+    </message>
+    <message>
+        <source>The current candidate issuer certificate was rejected because its subject name did not match the issuer name of the current certificate</source>
+        <translation>更新用に準備された発行者証明書は、その所有者名が現在の証明書の発行者名と異なるため拒否されました</translation>
+    </message>
+    <message>
+        <source>The current candidate issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate</source>
+        <translation>更新用に準備された発行者証明書は、その発行者名とシリアル番号が現在の証明書の機関鍵識別子と異なるため拒否されました</translation>
+    </message>
+    <message>
+        <source>The peer did not present any certificate</source>
+        <translation>通信相手は証明書を提示しませんでした</translation>
+    </message>
+    <message>
+        <source>The host name did not match any of the valid hosts for this certificate</source>
+        <translation>ホスト名がこの証明書のどの有効なホストとも一致しませんでした</translation>
+    </message>
+    <message>
+        <source>The peer certificate is blacklisted</source>
+        <translation>通信相手の証明書がブラックリストに載っています</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>未知のエラー</translation>
     </message>
     <message>
         <source>Error creating SSL session, %1</source>
-        <translation>Ошибка создания сессии SSL, %1</translation>
+        <translation>SSL セッションを作成できません。 %1</translation>
     </message>
     <message>
         <source>Error creating SSL session: %1</source>
-        <translation>Ошибка создания сессии SSL: %1</translation>
+        <translation>SSL セッションを作成できません: %1</translation>
     </message>
     <message>
         <source>Unable to init SSL Context: %1</source>
-        <translation>Не удалось инициализировать контекст SSL: %1</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Unable to write data: %1</source>
-        <translation>Не удалось записать данные: %1</translation>
+        <translation>データを書き込みできません: %1</translation>
     </message>
     <message>
         <source>Unable to decrypt data: %1</source>
-        <translation>Не удалось расшифровать данные: %1</translation>
+        <translation>データを解読できません: %1</translation>
     </message>
     <message>
         <source>The TLS/SSL connection has been closed</source>
-        <translation>Соединение TLS/SSL было закрыто</translation>
+        <translation>TLS/SSL 接続が閉じられました</translation>
     </message>
     <message>
         <source>Error while reading: %1</source>
-        <translation>Ошибка чтения: %1</translation>
+        <translation>読み込み時にエラーが発生しました: %1</translation>
     </message>
     <message>
         <source>Error during SSL handshake: %1</source>
-        <translation>Ошибка квитирования SSL: %1</translation>
+        <translation>SSL ハンドシェーク時にエラーが発生しました: %1</translation>
     </message>
 </context>
 <context>
     <name>QStandardPaths</name>
     <message>
         <source>Desktop</source>
-        <translation>Рабочий стол</translation>
+        <translation>デスクトップ</translation>
     </message>
     <message>
         <source>Documents</source>
-        <translation>Документы</translation>
+        <translation>ドキュメント</translation>
     </message>
     <message>
         <source>Fonts</source>
-        <translation>Шрифты</translation>
+        <translation>フォント</translation>
     </message>
     <message>
         <source>Applications</source>
-        <translation>Приложения</translation>
+        <translation>アプリケーション</translation>
     </message>
     <message>
         <source>Music</source>
-        <translation>Музыка</translation>
+        <translation>音楽</translation>
     </message>
     <message>
         <source>Movies</source>
-        <translation>Фильмы</translation>
+        <translation>ムービー</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>Изображения</translation>
+        <translation>画像</translation>
     </message>
     <message>
         <source>Temporary Directory</source>
-        <translation>Временный каталог</translation>
+        <translation>一時ディレクトリ</translation>
     </message>
     <message>
         <source>Home</source>
-        <translation>Домашний каталог</translation>
+        <translation>ホーム</translation>
     </message>
     <message>
         <source>Application Data</source>
-        <translation>Данные приложений</translation>
+        <translation>アプリケーションデータ</translation>
     </message>
     <message>
         <source>Cache</source>
-        <translation>Кэш</translation>
+        <translation>キャッシュ</translation>
     </message>
     <message>
         <source>Shared Data</source>
-        <translation>Общие данные</translation>
+        <translation>共有データ</translation>
     </message>
     <message>
         <source>Runtime</source>
-        <translation>Исполняемые файлы</translation>
+        <translation>ランタイム</translation>
     </message>
     <message>
         <source>Configuration</source>
-        <translation>Настройки</translation>
+        <translation>設定</translation>
     </message>
     <message>
         <source>Shared Cache</source>
-        <translation>Общий кэш</translation>
+        <translation>共有キャッシュ</translation>
     </message>
     <message>
         <source>Download</source>
-        <translation>Загрузки</translation>
+        <translation>ダウンロード</translation>
     </message>
 </context>
 <context>
     <name>QStateMachine</name>
     <message>
         <source>Missing initial state in compound state &apos;%1&apos;</source>
-        <translation>Отсутствует исходное состояние в составном состоянии «%1»</translation>
+        <translation>複合ステート &apos;%1&apos; に初期ステートが見つかりません</translation>
     </message>
     <message>
         <source>Missing default state in history state &apos;%1&apos;</source>
-        <translation>Отсутствует состояние по умолчанию в историческом состоянии «%1»</translation>
+        <translation>ヒストリーステート &apos;%1&apos; にデフォルトステートが見つかりません</translation>
     </message>
     <message>
         <source>No common ancestor for targets and source of transition from state &apos;%1&apos;</source>
-        <translation>Нет общего предка у источника и цели перехода из состояния «%1»</translation>
+        <translation>ステート &apos;%1&apos; からの遷移のソースおよびターゲットに共通した祖先がありません</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Неизвестная ошибка</translation>
+        <translation>未知のエラー</translation>
     </message>
 </context>
 <context>
     <name>QSystemSemaphore</name>
     <message>
         <source>%1: permission denied</source>
-        <translation>%1: доступ запрещён</translation>
+        <translation>%1: 許可されていません</translation>
     </message>
     <message>
         <source>%1: already exists</source>
-        <translation>%1: уже существует</translation>
+        <translation>%1: 既に存在します</translation>
     </message>
     <message>
         <source>%1: does not exist</source>
-        <translation>%1: не существует</translation>
+        <translation>%1: 存在しません</translation>
     </message>
     <message>
         <source>%1: out of resources</source>
-        <translation>%1: недостаточно ресурсов</translation>
+        <translation>%1: リソース不足です</translation>
     </message>
     <message>
         <source>%1: unknown error %2</source>
-        <translation>%1: неизвестная ошибка %2</translation>
+        <translation>%1: 未知のエラーです %2</translation>
     </message>
 </context>
 <context>
     <name>QTDSDriver</name>
     <message>
         <source>Unable to open connection</source>
-        <translation>Невозможно открыть соединение</translation>
+        <translation>接続を開けません</translation>
     </message>
     <message>
         <source>Unable to use database</source>
-        <translation>Невозможно использовать базу данных</translation>
+        <translation>データベースを使用できません</translation>
     </message>
 </context>
 <context>
     <name>QTabBar</name>
     <message>
         <source>Scroll Left</source>
-        <translation>Прокрутить влево</translation>
+        <translation>左へスクロール</translation>
     </message>
     <message>
         <source>Scroll Right</source>
-        <translation>Прокрутить вправо</translation>
+        <translation>右へスクロール</translation>
     </message>
 </context>
 <context>
     <name>QTcpServer</name>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>Операция с сокетом не поддерживается</translation>
+        <translation>このソケットへのこの操作はサポートされていません</translation>
     </message>
 </context>
 <context>
     <name>QTgaFile</name>
     <message>
         <source>Could not read image data</source>
-        <translation>Не удалось прочитать данные изображения</translation>
+        <translation>画像データを読み込めません</translation>
     </message>
     <message>
         <source>Sequential device (eg socket) for image read not supported</source>
-        <translation>Чтение из последовательных устройств (например, из сокета) не поддерживается</translation>
+        <translation>(ソケットなどの)シーケンシャルデバイスからの画像の読み込みはサポートしていません</translation>
     </message>
     <message>
         <source>Seek file/device for image read failed</source>
-        <translation>Не удалось произвести перемещение по файлу/устройству для чтения изображения</translation>
+        <translation>画像読み込み中にファイル/デバイスのシークに失敗しました</translation>
     </message>
     <message>
         <source>Image header read failed</source>
-        <translation>Не удалось прочитать заголовок изображения</translation>
+        <translation>画像ヘッダの読み込みに失敗しました</translation>
     </message>
     <message>
         <source>Image type not supported</source>
-        <translation>Неподдерживаемый тип изображения</translation>
+        <translation>サポートされていない型の画像です</translation>
     </message>
     <message>
         <source>Image depth not valid</source>
-        <translation>Недопустимая глубина цвета изображения</translation>
+        <translation>画像のデプスが不正です</translation>
     </message>
     <message>
         <source>Could not seek to image read footer</source>
-        <translation>Не удалось переместиться к концу изображения</translation>
+        <translation>画像のフッタ読み込み時にシークできませんでした</translation>
     </message>
     <message>
         <source>Could not read footer</source>
-        <translation>Не удалось прочитать окончание изображения</translation>
+        <translation>フッタを読み込めませんでした</translation>
     </message>
     <message>
         <source>Image type (non-TrueVision 2.0) not supported</source>
-        <translation>Неподдерживаемый тип изображения: не TrueVision 2.0</translation>
+        <translation>(TrueVision 2.0 ではない)型の画像はサポートされていません</translation>
     </message>
     <message>
         <source>Could not reset to read data</source>
-        <translation>Не удалось переместиться к данным</translation>
+        <translation>読み込んだデータをリセットできませんでした</translation>
     </message>
 </context>
 <context>
     <name>QUndoGroup</name>
     <message>
         <source>Undo %1</source>
-        <translation>Отменить %1</translation>
+        <translation>%1 を元に戻す</translation>
     </message>
     <message>
         <source>Undo</source>
         <comment>Default text for undo action</comment>
-        <translation>Отменить действие</translation>
+        <translation>元に戻す</translation>
     </message>
     <message>
         <source>Redo %1</source>
-        <translation>Повторить %1</translation>
+        <translation>%1 をやり直す</translation>
     </message>
     <message>
         <source>Redo</source>
         <comment>Default text for redo action</comment>
-        <translation>Повторить действие</translation>
+        <translation>やり直す</translation>
     </message>
 </context>
 <context>
     <name>QUndoModel</name>
     <message>
         <source>&lt;empty&gt;</source>
-        <translation>&lt;пусто&gt;</translation>
+        <translation>&lt;空&gt;</translation>
     </message>
 </context>
 <context>
     <name>QUndoStack</name>
     <message>
         <source>Undo %1</source>
-        <translation>Отменить %1</translation>
+        <translation>%1 を元に戻す</translation>
     </message>
     <message>
         <source>Undo</source>
         <comment>Default text for undo action</comment>
-        <translation>Отменить действие</translation>
+        <translation>元に戻す</translation>
     </message>
     <message>
         <source>Redo %1</source>
-        <translation>Повторить %1</translation>
+        <translation>%1 をやり直す</translation>
     </message>
     <message>
         <source>Redo</source>
         <comment>Default text for redo action</comment>
-        <translation>Повторить действие</translation>
+        <translation>やり直す</translation>
     </message>
 </context>
 <context>
     <name>QUnicodeControlCharacterMenu</name>
     <message>
         <source>LRM Left-to-right mark</source>
-        <translation>LRM Признак написания слева направо</translation>
+        <translation>LRM (左横書き指定)</translation>
     </message>
     <message>
         <source>RLM Right-to-left mark</source>
-        <translation>RLM Признак написания справа налево</translation>
+        <translation>RLM (右横書き指定)</translation>
     </message>
     <message>
         <source>ZWJ Zero width joiner</source>
-        <translation>ZWJ Объединяющий символ нулевой ширины</translation>
+        <translation>ZWJ (幅のない接続文字)</translation>
     </message>
     <message>
         <source>ZWNJ Zero width non-joiner</source>
-        <translation>ZWNJ Необъединяющий символ нулевой ширины</translation>
+        <translation>ZWNJ (幅のない非接続文字)</translation>
     </message>
     <message>
         <source>ZWSP Zero width space</source>
-        <translation>ZWSP Пробел нулевой ширины</translation>
+        <translation>ZWSP (幅の無い空白)</translation>
     </message>
     <message>
         <source>LRE Start of left-to-right embedding</source>
-        <translation>LRE Начало встраивания написания слева направо</translation>
+        <translation>LRE (左横書き開始指定)</translation>
     </message>
     <message>
         <source>RLE Start of right-to-left embedding</source>
-        <translation>LRE Начало встраивания написания справа налево</translation>
+        <translation>RLE (右横書き開始指定)</translation>
     </message>
     <message>
         <source>LRO Start of left-to-right override</source>
-        <translation>LRO Начало замены написания слева направо</translation>
+        <translation>LRO (左横書き上書き開始指定)</translation>
     </message>
     <message>
         <source>RLO Start of right-to-left override</source>
-        <translation>RLO Начало замены написания справа налево</translation>
+        <translation>RLO (右横書き上書き開始指定)</translation>
     </message>
     <message>
         <source>PDF Pop directional formatting</source>
-        <translation>PDF Признак окончания написания с другим направлением</translation>
+        <translation>PDF (方向上書きの終了指定)</translation>
     </message>
     <message>
         <source>Insert Unicode control character</source>
-        <translation>Вставить управляющий символ Unicode</translation>
+        <translation>Unicode制御文字を挿入</translation>
     </message>
 </context>
 <context>
     <name>QWhatsThisAction</name>
     <message>
         <source>What&apos;s This?</source>
-        <translation>Что это?</translation>
+        <translation>ヒント</translation>
     </message>
 </context>
 <context>
@@ -5131,320 +5131,320 @@ Role of an accessible object</extracomment>
     <name>QWidgetTextControl</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;Отменить действие</translation>
+        <translation>元に戻す(&amp;U)</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>&amp;Повторить действие</translation>
+        <translation>やり直す(&amp;R)</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>&amp;Вырезать</translation>
+        <translation>切り取り(&amp;T)</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Копировать</translation>
+        <translation>コピー(&amp;C)</translation>
     </message>
     <message>
         <source>Copy &amp;Link Location</source>
-        <translation>Скопировать &amp;адрес ссылки</translation>
+        <translation>リンクの場所をコピー(&amp;L)</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>В&amp;ставить</translation>
+        <translation>貼り付け(&amp;P)</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Удалить</translation>
+        <translation>削除</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Выделить всё</translation>
+        <translation>すべてを選択</translation>
     </message>
 </context>
 <context>
     <name>QWizard</name>
     <message>
         <source>Go Back</source>
-        <translation>Назад</translation>
+        <translation>戻る</translation>
     </message>
     <message>
         <source>&lt; &amp;Back</source>
-        <translation>&lt; &amp;Назад</translation>
+        <translation>&lt; 戻る(&amp;B)</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation>Продолжить</translation>
+        <translation>続き</translation>
     </message>
     <message>
         <source>&amp;Next</source>
-        <translation>&amp;Далее</translation>
+        <translation>次へ(&amp;N)</translation>
     </message>
     <message>
         <source>&amp;Next &gt;</source>
-        <translation>&amp;Далее &gt;</translation>
+        <translation>次へ(&amp;N) &gt;</translation>
     </message>
     <message>
         <source>Commit</source>
-        <translation>Подтвердить</translation>
+        <translation>適用</translation>
     </message>
     <message>
         <source>Done</source>
-        <translation>Готово</translation>
+        <translation>終了</translation>
     </message>
     <message>
         <source>&amp;Finish</source>
-        <translation>&amp;Завершить</translation>
+        <translation>完了(&amp;F)</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Отмена</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Справка</translation>
+        <translation>ヘルプ</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Справка</translation>
+        <translation>ヘルプ(&amp;H)</translation>
     </message>
 </context>
 <context>
     <name>QXml</name>
     <message>
         <source>no error occurred</source>
-        <translation>ошибки отсутствуют</translation>
+        <translation>エラーは発生しませんでした</translation>
     </message>
     <message>
         <source>error triggered by consumer</source>
-        <translation>ошибка вызвана пользователем</translation>
+        <translation>コンシューマによってエラーが誘発されました</translation>
     </message>
     <message>
         <source>unexpected end of file</source>
-        <translation>неожиданный конец файла</translation>
+        <translation>予期しないファイルの終りです</translation>
     </message>
     <message>
         <source>more than one document type definition</source>
-        <translation>указано более одного типа документа</translation>
+        <translation>ドキュメントタイプの定義が複数あります</translation>
     </message>
     <message>
         <source>error occurred while parsing element</source>
-        <translation>ошибка разбора элемента</translation>
+        <translation>要素の解析中にエラーが発生しました</translation>
     </message>
     <message>
         <source>tag mismatch</source>
-        <translation>тэг не совпадает</translation>
+        <translation>タグが一致しません</translation>
     </message>
     <message>
         <source>error occurred while parsing content</source>
-        <translation>ошибка разбора документа</translation>
+        <translation>コンテンツの解析中にエラーが発生しました</translation>
     </message>
     <message>
         <source>unexpected character</source>
-        <translation>неожиданный символ</translation>
+        <translation>予期しない文字です</translation>
     </message>
     <message>
         <source>invalid name for processing instruction</source>
-        <translation>некорректное имя директивы разбора</translation>
+        <translation>無効な処理命令名です</translation>
     </message>
     <message>
         <source>version expected while reading the XML declaration</source>
-        <translation>в объявлении XML требуется параметр version</translation>
+        <translation>XML 宣言にはバージョンが必要です</translation>
     </message>
     <message>
         <source>wrong value for standalone declaration</source>
-        <translation>некорректное значение параметра standalone</translation>
+        <translation>スタンドアロン宣言として正しくない値です</translation>
     </message>
     <message>
         <source>encoding declaration or standalone declaration expected while reading the XML declaration</source>
-        <translation>в объявлении XML требуются параметры encoding или standalone</translation>
+        <translation>XML宣言にはエンコーディング宣言かスタンドアローン宣言が必要です</translation>
     </message>
     <message>
         <source>standalone declaration expected while reading the XML declaration</source>
-        <translation>в объявлении XML требуется параметр standalone</translation>
+        <translation>XML宣言にはスタンドアローン宣言が必要です</translation>
     </message>
     <message>
         <source>error occurred while parsing document type definition</source>
-        <translation>ошибка разбора объявления типа документа</translation>
+        <translation>ドキュメントタイプの定義を解析中にエラーが発生しました</translation>
     </message>
     <message>
         <source>letter is expected</source>
-        <translation>требуется буква</translation>
+        <translation>文字が必要です</translation>
     </message>
     <message>
         <source>error occurred while parsing comment</source>
-        <translation>ошибка разбора комментария</translation>
+        <translation>コメントの解析中にエラーが発生しました</translation>
     </message>
     <message>
         <source>error occurred while parsing reference</source>
-        <translation>ошибка разбора ссылки</translation>
+        <translation>参照の解析中にエラーが発生しました</translation>
     </message>
     <message>
         <source>internal general entity reference not allowed in DTD</source>
-        <translation>внутренняя ссылка на общий объект недопустима в DTD</translation>
+        <translation>DTDでの内部一般実体への参照は許可されていません</translation>
     </message>
     <message>
         <source>external parsed general entity reference not allowed in attribute value</source>
-        <translation>внешняя ссылка на общий объект недопустима в значении атрибута</translation>
+        <translation>属性値での外部一般解析対象実体への参照は許可されていません</translation>
     </message>
     <message>
         <source>external parsed general entity reference not allowed in DTD</source>
-        <translation>внешняя ссылка на общий объект недопустима в DTD</translation>
+        <translation>DTDでの外部一般解析対象実体への参照は許可されていません</translation>
     </message>
     <message>
         <source>unparsed entity reference in wrong context</source>
-        <translation>неразобранная ссылка на объект в неправильном контексте</translation>
+        <translation>不正な文脈で解析対象外実体を参照しました</translation>
     </message>
     <message>
         <source>recursive entities</source>
-        <translation>рекурсивные объекты</translation>
+        <translation>実体が再帰しています</translation>
     </message>
     <message>
         <source>error in the text declaration of an external entity</source>
-        <translation>ошибка в объявлении внешнего объекта</translation>
+        <translation>外部実体のテキスト宣言にエラーがあります</translation>
     </message>
 </context>
 <context>
     <name>QXmlStream</name>
     <message>
         <source>Extra content at end of document.</source>
-        <translation>Лишние данные в конце документа.</translation>
+        <translation>ドキュメントの末尾に余計なものがついています。</translation>
     </message>
     <message>
         <source>Invalid entity value.</source>
-        <translation>Некорректное значение объекта.</translation>
+        <translation>実体の値が無効です。</translation>
     </message>
     <message>
         <source>Invalid XML character.</source>
-        <translation>Некорректный символ XML.</translation>
+        <translation>無効な XML 文字です。</translation>
     </message>
     <message>
         <source>Sequence &apos;]]&gt;&apos; not allowed in content.</source>
-        <translation>Последовательность «]]&gt;» недопустима в содержимом.</translation>
+        <translation>このコンテンツでは、&apos;]]&gt;&apos; は許可されていません。</translation>
     </message>
     <message>
         <source>Encountered incorrectly encoded content.</source>
-        <translation>Обнаружено некорректно закодированное содержимое.</translation>
+        <translation>正しくないエンコードの文脈に遭遇しました。</translation>
     </message>
     <message>
         <source>Namespace prefix &apos;%1&apos; not declared</source>
-        <translation>Префикс пространства имён «%1» не объявлен</translation>
+        <translation>名前空間のブリフィックス &apos;%1&apos; は宣言されていません</translation>
     </message>
     <message>
         <source>Illegal namespace declaration.</source>
-        <translation>Некорректное объявление пространства имён.</translation>
+        <translation>無効な名前空間の宣言です。</translation>
     </message>
     <message>
         <source>Attribute redefined.</source>
-        <translation>Атрибут переопределён.</translation>
+        <translation>属性が再度定義されています。</translation>
     </message>
     <message>
         <source>Unexpected character &apos;%1&apos; in public id literal.</source>
-        <translation>Неожиданный символ «%1» в литерале открытого идентификатора.</translation>
+        <translation>公開 ID に使用できない文字 &apos;%1&apos; が使用されています。</translation>
     </message>
     <message>
         <source>Invalid XML version string.</source>
-        <translation>Некорректная строка версии XML.</translation>
+        <translation>無効な XML バージョン指定です。</translation>
     </message>
     <message>
         <source>Unsupported XML version.</source>
-        <translation>Неподдерживаемая версия XML.</translation>
+        <translation>この XML のバージョンはサポートされていません。</translation>
     </message>
     <message>
         <source>The standalone pseudo attribute must appear after the encoding.</source>
-        <translation>Псевдоатрибут «standalone» должен находиться после указания кодировки.</translation>
+        <translation>仮想属性指定は、エンコーディング指定の後にのみ使用できます。</translation>
     </message>
     <message>
         <source>%1 is an invalid encoding name.</source>
-        <translation>%1 ― не является корректным названием кодировки.</translation>
+        <translation>%1 は無効なエンコーディングの名前です。</translation>
     </message>
     <message>
         <source>Encoding %1 is unsupported</source>
-        <translation>Кодировка %1 не поддерживается</translation>
+        <translation>エンコーディング &apos;%1&apos; はサポートされていません</translation>
     </message>
     <message>
         <source>Standalone accepts only yes or no.</source>
-        <translation>Псевдоатрибут «standalone» может принимать только значения «yes» или «no».</translation>
+        <translation>standalone には yes または no のみ指定できます。</translation>
     </message>
     <message>
         <source>Invalid attribute in XML declaration.</source>
-        <translation>Некорректный атрибут в объявлении XML.</translation>
+        <translation>XML 宣言に無効な属性があります。</translation>
     </message>
     <message>
         <source>Premature end of document.</source>
-        <translation>Неожиданный конец документа.</translation>
+        <translation>ドキュメントが途中で終わっています。</translation>
     </message>
     <message>
         <source>Invalid document.</source>
-        <translation>Некорректный документ.</translation>
+        <translation>無効なドキュメントです。</translation>
     </message>
     <message>
         <source>Expected </source>
-        <translation>Требуется </translation>
+        <translation>予期していた表現は、</translation>
     </message>
     <message>
         <source>, but got &apos;</source>
-        <translation>, получили &apos;</translation>
+        <translation>ですが、取得した表現は以下のものでした &apos;</translation>
     </message>
     <message>
         <source>Unexpected &apos;</source>
-        <translation>Неожиданное &apos;</translation>
+        <translation>予期していなかった表現 &apos;</translation>
     </message>
     <message>
         <source>Expected character data.</source>
-        <translation>Требуются символьные данные.</translation>
+        <translation>予期していた文字列。</translation>
     </message>
     <message>
         <source>Recursive entity detected.</source>
-        <translation>Обнаружен рекурсивный объект.</translation>
+        <translation>再帰しているエンティティを発見しました。</translation>
     </message>
     <message>
         <source>Start tag expected.</source>
-        <translation>Требуется открывающий тэг.</translation>
+        <translation>開始タグを予期していましたが、みつかりません。</translation>
     </message>
     <message>
         <source>NDATA in parameter entity declaration.</source>
-        <translation>NDATA в объявлении параметра.</translation>
+        <translation>パラメータ実体の宣言において NDATA があります。</translation>
     </message>
     <message>
         <source>XML declaration not at start of document.</source>
-        <translation>Объявление XML находится не в начале документа.</translation>
+        <translation>XML 宣言がドキュメントの先頭にありません。</translation>
     </message>
     <message>
         <source>%1 is an invalid processing instruction name.</source>
-        <translation>%1 не является корректным названием обрабатываемой инструкции.</translation>
+        <translation>%1 は無効な処理命令名です。</translation>
     </message>
     <message>
         <source>Invalid processing instruction name.</source>
-        <translation>Некорректное название обрабатываемой инструкции.</translation>
+        <translation>無効な処理命令名です。</translation>
     </message>
     <message>
         <source>%1 is an invalid PUBLIC identifier.</source>
-        <translation>%1 ― некорректный идентификатор PUBLIC.</translation>
+        <translation>%1 は、公開 (PUBLIC) 識別子として無効です。</translation>
     </message>
     <message>
         <source>Invalid XML name.</source>
-        <translation>Некорректное имя XML.</translation>
+        <translation>無効な XML 名です。</translation>
     </message>
     <message>
         <source>Opening and ending tag mismatch.</source>
-        <translation>Открывающий тэг не совпадает с закрывающим.</translation>
+        <translation>開始タグと、終了タグがマッチしません。</translation>
     </message>
     <message>
         <source>Entity &apos;%1&apos; not declared.</source>
-        <translation>Объект «%1» не объявлен.</translation>
+        <translation>実体 &apos;%1&apos; は宣言されていません。</translation>
     </message>
     <message>
         <source>Reference to unparsed entity &apos;%1&apos;.</source>
-        <translation>Ссылка на необработанный объект «%1».</translation>
+        <translation>解析対象外実体 &apos;%1&apos; を参照しています。</translation>
     </message>
     <message>
         <source>Reference to external entity &apos;%1&apos; in attribute value.</source>
-        <translation>Ссылка на внешний объект «%1» в значении атрибута.</translation>
+        <translation>属性値として、外部実体 &apos;%1&apos; を参照しています。</translation>
     </message>
     <message>
         <source>Invalid character reference.</source>
-        <translation>Некорректная символьная ссылка.</translation>
+        <translation>無効な文字への参照です。</translation>
     </message>
 </context>
 </TS>

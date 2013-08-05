@@ -413,50 +413,50 @@ Reason:
     <name>ConversionWizard</name>
     <message>
         <source>Help Conversion Wizard</source>
-        <translation>Майстер конвертування довідки</translation>
+        <translation type="obsolete">Майстер конвертування довідки</translation>
     </message>
     <message>
         <source>Converting %1...</source>
-        <translation>Конвертую %1...</translation>
+        <translation type="obsolete">Конвертую %1...</translation>
     </message>
     <message>
         <source>Writing help collection file...</source>
-        <translation>Записую файл колекції довідки...</translation>
+        <translation type="obsolete">Записую файл колекції довідки...</translation>
     </message>
     <message>
         <source>Done.</source>
-        <translation>Виконано.</translation>
+        <translation type="obsolete">Виконано.</translation>
     </message>
 </context>
 <context>
     <name>FilesPage</name>
     <message>
         <source>Form</source>
-        <translation>Форма</translation>
+        <translation type="obsolete">Форма</translation>
     </message>
     <message>
         <source>Files:</source>
-        <translation>Файли:</translation>
+        <translation type="obsolete">Файли:</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Видалити</translation>
+        <translation type="obsolete">Видалити</translation>
     </message>
     <message>
         <source>Remove All</source>
-        <translation>Видалити все</translation>
+        <translation type="obsolete">Видалити все</translation>
     </message>
     <message>
         <source>Unreferenced Files</source>
-        <translation>Файли,на які немає посилань</translation>
+        <translation type="obsolete">Файли,на які немає посилань</translation>
     </message>
     <message>
         <source>Remove files which are neither referenced by a keyword nor by the TOC.</source>
-        <translation>Видаліть файли, на які немає посилань ні за ключовим словом, ні зі змісту.</translation>
+        <translation type="obsolete">Видаліть файли, на які немає посилань ні за ключовим словом, ні зі змісту.</translation>
     </message>
     <message>
         <source>&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; When removing images or stylesheets, be aware that those files are not directly referenced by the .adp or .dcf file.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;b&gt;Попередження:&lt;/b&gt; При видаленні зображень чи таблиць стилів, майте на увазі, що на ці файли не має прямих посилань з файлу .adp чи .dcf.&lt;/p&gt;</translation>
+        <translation type="obsolete">&lt;p&gt;&lt;b&gt;Попередження:&lt;/b&gt; При видаленні зображень чи таблиць стилів, майте на увазі, що на ці файли не має прямих посилань з файлу .adp чи .dcf.&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -474,60 +474,60 @@ Reason:
     <name>FilterPage</name>
     <message>
         <source>Form</source>
-        <translation>Форма</translation>
+        <translation type="obsolete">Форма</translation>
     </message>
     <message>
         <source>Filter attributes for current documentation (comma separated list):</source>
-        <translation>Атрибути фільтра для поточної документації (список, розділений комою):</translation>
+        <translation type="obsolete">Атрибути фільтра для поточної документації (список, розділений комою):</translation>
     </message>
     <message>
         <source>Custom Filters</source>
-        <translation>Користувацькі фільтри</translation>
+        <translation type="obsolete">Користувацькі фільтри</translation>
     </message>
     <message>
         <source>1</source>
-        <translation>1</translation>
+        <translation type="obsolete">1</translation>
     </message>
     <message>
         <source>2</source>
-        <translation>2</translation>
+        <translation type="obsolete">2</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation>Додати</translation>
+        <translation type="obsolete">Додати</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Видалити</translation>
+        <translation type="obsolete">Видалити</translation>
     </message>
     <message>
         <source>Filter Settings</source>
-        <translation>Налаштування фільтрів</translation>
+        <translation type="obsolete">Налаштування фільтрів</translation>
     </message>
     <message>
         <source>Specify the filter attributes for the documentation. If filter attributes are used, also define a custom filter for it. Both the filter attributes and the custom filters are optional.</source>
-        <translation>Вкажіть атрибути фільтра для документації. Якщо використовуються атрибути фільтра, то, також, визначіть користувацький фільтр для нього. Як атрибути фільтра, так і користувацькі фільтри, є необов&apos;язковими.</translation>
+        <translation type="obsolete">Вкажіть атрибути фільтра для документації. Якщо використовуються атрибути фільтра, то, також, визначіть користувацький фільтр для нього. Як атрибути фільтра, так і користувацькі фільтри, є необов&apos;язковими.</translation>
     </message>
     <message>
         <source>Filter Name</source>
-        <translation>Назва фільтра</translation>
+        <translation type="obsolete">Назва фільтра</translation>
     </message>
     <message>
         <source>Filter Attributes</source>
-        <translation>Атрибути фільтра</translation>
+        <translation type="obsolete">Атрибути фільтра</translation>
     </message>
     <message>
         <source>The custom filter &apos;%1&apos; is defined multiple times.</source>
-        <translation>Користувацький фільтр &apos;%1&apos; визначено декілька раз.</translation>
+        <translation type="obsolete">Користувацький фільтр &apos;%1&apos; визначено декілька раз.</translation>
     </message>
     <message>
         <source>The attributes for custom filter &apos;%1&apos; are defined multiple times.</source>
-        <translation>Атрибути для користувацького фільтра &apos;%1&apos; визначено декілька раз.</translation>
+        <translation type="obsolete">Атрибути для користувацького фільтра &apos;%1&apos; визначено декілька раз.</translation>
     </message>
     <message>
         <source>unfiltered</source>
         <comment>list of available documentation</comment>
-        <translation>без фільтра</translation>
+        <translation type="obsolete">без фільтра</translation>
     </message>
 </context>
 <context>
@@ -553,11 +553,11 @@ Reason:
     <name>FinishPage</name>
     <message>
         <source>Converting File</source>
-        <translation>Конвертування файлу</translation>
+        <translation type="obsolete">Конвертування файлу</translation>
     </message>
     <message>
         <source>Creating the new Qt help files from the old ADP file.</source>
-        <translation>Створення нових файлів довідки Qt зі старого файлу ADP.</translation>
+        <translation type="obsolete">Створення нових файлів довідки Qt зі старого файлу ADP.</translation>
     </message>
 </context>
 <context>
@@ -587,39 +587,39 @@ Reason:
     <name>GeneralPage</name>
     <message>
         <source>Form</source>
-        <translation>Форма</translation>
+        <translation type="obsolete">Форма</translation>
     </message>
     <message>
         <source>Namespace:</source>
-        <translation>Простір імен:</translation>
+        <translation type="obsolete">Простір імен:</translation>
     </message>
     <message>
         <source>Virtual Folder:</source>
-        <translation>Віртуальна тека:</translation>
+        <translation type="obsolete">Віртуальна тека:</translation>
     </message>
     <message>
         <source>General Settings</source>
-        <translation>Загальні налаштування</translation>
+        <translation type="obsolete">Загальні налаштування</translation>
     </message>
     <message>
         <source>Specify the namespace and the virtual folder for the documentation.</source>
-        <translation>Вкажіть простір імен та віртуальну теку для документації.</translation>
+        <translation type="obsolete">Вкажіть простір імен та віртуальну теку для документації.</translation>
     </message>
     <message>
         <source>Namespace Error</source>
-        <translation>Помилка простору імен</translation>
+        <translation type="obsolete">Помилка простору імен</translation>
     </message>
     <message>
         <source>The namespace contains some invalid characters.</source>
-        <translation>Простір імен містить деякі неприпустимі символи.</translation>
+        <translation type="obsolete">Простір імен містить деякі неприпустимі символи.</translation>
     </message>
     <message>
         <source>Virtual Folder Error</source>
-        <translation>Помилка віртуальної теки</translation>
+        <translation type="obsolete">Помилка віртуальної теки</translation>
     </message>
     <message>
         <source>The virtual folder contains some invalid characters.</source>
-        <translation>Віртуальна тека містить деякі неприпустимі символи.</translation>
+        <translation type="obsolete">Віртуальна тека містить деякі неприпустимі символи.</translation>
     </message>
 </context>
 <context>
@@ -676,7 +676,7 @@ Reason:
     <name>HelpGenerator</name>
     <message>
         <source>Warning: %1</source>
-        <translation>Попередження: %1</translation>
+        <translation type="obsolete">Попередження: %1</translation>
     </message>
 </context>
 <context>
@@ -734,34 +734,34 @@ Reason:
     <name>HelpWindow</name>
     <message>
         <source>&lt;center&gt;&lt;b&gt;Wizard Assistant&lt;/b&gt;&lt;/center&gt;</source>
-        <translation>&lt;center&gt;&lt;b&gt;Майстер Assistant&lt;/b&gt;&lt;/center&gt;</translation>
+        <translation type="obsolete">&lt;center&gt;&lt;b&gt;Майстер Assistant&lt;/b&gt;&lt;/center&gt;</translation>
     </message>
 </context>
 <context>
     <name>IdentifierPage</name>
     <message>
         <source>Form</source>
-        <translation>Форма</translation>
+        <translation type="obsolete">Форма</translation>
     </message>
     <message>
         <source>Create identifiers</source>
-        <translation>Створювати ідентифікатори</translation>
+        <translation type="obsolete">Створювати ідентифікатори</translation>
     </message>
     <message>
         <source>Global prefix:</source>
-        <translation>Глобальний префікс:</translation>
+        <translation type="obsolete">Глобальний префікс:</translation>
     </message>
     <message>
         <source>Inherit prefix from file names</source>
-        <translation>Успадковувати префікс з імен файлів</translation>
+        <translation type="obsolete">Успадковувати префікс з імен файлів</translation>
     </message>
     <message>
         <source>Identifiers</source>
-        <translation>Ідентифікатори</translation>
+        <translation type="obsolete">Ідентифікатори</translation>
     </message>
     <message>
         <source>This page allows you to create identifiers from the keywords found in the .adp or .dcf file.</source>
-        <translation>Ця сторінка дозволяє вам створювати ідентифікатори з ключових слів, знайдених в файлі .adp чи .dcf.</translation>
+        <translation type="obsolete">Ця сторінка дозволяє вам створювати ідентифікатори з ключових слів, знайдених в файлі .adp чи .dcf.</translation>
     </message>
 </context>
 <context>
@@ -783,47 +783,47 @@ Reason:
     <name>InputPage</name>
     <message>
         <source>Form</source>
-        <translation>Форма</translation>
+        <translation type="obsolete">Форма</translation>
     </message>
     <message>
         <source>File name:</source>
-        <translation>Ім&apos;я файлу:</translation>
+        <translation type="obsolete">Ім&apos;я файлу:</translation>
     </message>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation type="obsolete">...</translation>
     </message>
     <message>
         <source>Input File</source>
-        <translation>Вхідний файл</translation>
+        <translation type="obsolete">Вхідний файл</translation>
     </message>
     <message>
         <source>Specify the .adp or .dcf file you want to convert to the new Qt help project format and/or collection format.</source>
-        <translation>Вкажіть файл .adp чи .dcf, який ви бажаєте сконвертувати до нового формату проекту довідки Qt та/або формату колекції.</translation>
+        <translation type="obsolete">Вкажіть файл .adp чи .dcf, який ви бажаєте сконвертувати до нового формату проекту довідки Qt та/або формату колекції.</translation>
     </message>
     <message>
         <source>Open file</source>
-        <translation>Відкрити файл</translation>
+        <translation type="obsolete">Відкрити файл</translation>
     </message>
     <message>
         <source>Qt Help Files (*.adp *.dcf)</source>
-        <translation>Файли довідки Qt (*.adp *.dcf)</translation>
+        <translation type="obsolete">Файли довідки Qt (*.adp *.dcf)</translation>
     </message>
     <message>
         <source>File Open Error</source>
-        <translation>Помилка відкриття файлу</translation>
+        <translation type="obsolete">Помилка відкриття файлу</translation>
     </message>
     <message>
         <source>The specified file could not be opened!</source>
-        <translation>Не вдалось відкрити вказаний файл!</translation>
+        <translation type="obsolete">Не вдалось відкрити вказаний файл!</translation>
     </message>
     <message>
         <source>File Parsing Error</source>
-        <translation>Помилка розбору файлу</translation>
+        <translation type="obsolete">Помилка розбору файлу</translation>
     </message>
     <message>
         <source>Parsing error in line %1!</source>
-        <translation>Помилка розбору в рядку %1!</translation>
+        <translation type="obsolete">Помилка розбору в рядку %1!</translation>
     </message>
 </context>
 <context>
@@ -1102,8 +1102,12 @@ Reason:
         <translation>Не вдалось знайти елемент, пов&apos;язаний зі змістом.</translation>
     </message>
     <message>
+        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;</source>
+        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Версія %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc та/або її дочірні компанії.&lt;/p&gt;</translation>
+    </message>
+    <message>
         <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;</source>
-        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Версія %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc та/або її дочірні компанії.&lt;/p&gt;</translation>
+        <translation type="obsolete">&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Версія %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc та/або її дочірні компанії.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About %1</source>
@@ -1133,86 +1137,86 @@ Reason:
     <name>OutputPage</name>
     <message>
         <source>Form</source>
-        <translation>Форма</translation>
+        <translation type="obsolete">Форма</translation>
     </message>
     <message>
         <source>Project file name:</source>
-        <translation>Ім&apos;я файлу проекту:</translation>
+        <translation type="obsolete">Ім&apos;я файлу проекту:</translation>
     </message>
     <message>
         <source>Collection file name:</source>
-        <translation>Ім&apos;я файлу колекції:</translation>
+        <translation type="obsolete">Ім&apos;я файлу колекції:</translation>
     </message>
     <message>
         <source>Output File Names</source>
-        <translation>Імена вихідний файлів</translation>
+        <translation type="obsolete">Імена вихідний файлів</translation>
     </message>
     <message>
         <source>Specify the file names for the output files.</source>
-        <translation>Вкажіть імена вихідних файлів.</translation>
+        <translation type="obsolete">Вкажіть імена вихідних файлів.</translation>
     </message>
     <message>
         <source>Convert...</source>
-        <translation>Конвертувати...</translation>
+        <translation type="obsolete">Конвертувати...</translation>
     </message>
     <message>
         <source>Qt Help Project File</source>
-        <translation>Файл проекту довідки Qt</translation>
+        <translation type="obsolete">Файл проекту довідки Qt</translation>
     </message>
     <message>
         <source>Qt Help Collection Project File</source>
-        <translation>Файл проекту колекції довідки Qt</translation>
+        <translation type="obsolete">Файл проекту колекції довідки Qt</translation>
     </message>
     <message>
         <source>The specified file %1 already exist.
 
 Do you want to remove it?</source>
-        <translation>Вказаний файл %1 вже існує
+        <translation type="obsolete">Вказаний файл %1 вже існує
 
 Бажаєте видалити його?</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Видалити</translation>
+        <translation type="obsolete">Видалити</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Скасувати</translation>
+        <translation type="obsolete">Скасувати</translation>
     </message>
 </context>
 <context>
     <name>PathPage</name>
     <message>
         <source>Form</source>
-        <translation>Форма</translation>
+        <translation type="obsolete">Форма</translation>
     </message>
     <message>
         <source>File filters:</source>
-        <translation>Фільтри файлів:</translation>
+        <translation type="obsolete">Фільтри файлів:</translation>
     </message>
     <message>
         <source>Documentation source file paths:</source>
-        <translation>Шляхи вхідних файлів документації:</translation>
+        <translation type="obsolete">Шляхи вхідних файлів документації:</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation>Додати</translation>
+        <translation type="obsolete">Додати</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Видалити</translation>
+        <translation type="obsolete">Видалити</translation>
     </message>
     <message>
         <source>Source File Paths</source>
-        <translation>Шляхи вхідних файлів</translation>
+        <translation type="obsolete">Шляхи вхідних файлів</translation>
     </message>
     <message>
         <source>Specify the paths where the sources files are located. By default, all files in those directories matched by the file filter will be included.</source>
-        <translation>Вкажіть шляхи, де розташовані вхідні файли. Зазвичай, усі файли в цих теках, що відповідають фільтру файлів, будуть включені.</translation>
+        <translation type="obsolete">Вкажіть шляхи, де розташовані вхідні файли. Зазвичай, усі файли в цих теках, що відповідають фільтру файлів, будуть включені.</translation>
     </message>
     <message>
         <source>Source File Path</source>
-        <translation>Шлях вхідного файлу</translation>
+        <translation type="obsolete">Шлях вхідного файлу</translation>
     </message>
 </context>
 <context>
@@ -1361,39 +1365,39 @@ Do you want to remove it?</source>
     <name>QCLuceneResultWidget</name>
     <message>
         <source>Search Results</source>
-        <translation>Результати пошуку</translation>
+        <translation type="obsolete">Результати пошуку</translation>
     </message>
     <message>
         <source>Note:</source>
-        <translation>Примітка:</translation>
+        <translation type="obsolete">Примітка:</translation>
     </message>
     <message>
         <source>The search results may not be complete since the documentation is still being indexed!</source>
-        <translation>Результати пошуку можуть бути не повні, оскільки документація досі індексується!</translation>
+        <translation type="obsolete">Результати пошуку можуть бути не повні, оскільки документація досі індексується!</translation>
     </message>
     <message>
         <source>Your search did not match any documents.</source>
-        <translation>Ваш пошук не повернув результатів.</translation>
+        <translation type="obsolete">Ваш пошук не повернув результатів.</translation>
     </message>
     <message>
         <source>(The reason for this might be that the documentation is still being indexed.)</source>
-        <translation>(Причиною цього може бути те, що документація досі індексується.)</translation>
+        <translation type="obsolete">(Причиною цього може бути те, що документація досі індексується.)</translation>
     </message>
 </context>
 <context>
     <name>QCollectionGenerator</name>
     <message>
         <source>Unknown token at line %1.</source>
-        <translation>Невідомий токен в рядку %1.</translation>
+        <translation type="obsolete">Невідомий токен в рядку %1.</translation>
     </message>
     <message>
         <source>Missing end tags.</source>
-        <translation>Відсутні кінцеві теги.</translation>
+        <translation type="obsolete">Відсутні кінцеві теги.</translation>
     </message>
     <message>
         <source>Qt Collection Generator version 1.0 (Qt %1)
 </source>
-        <translation>Qt Collection Generator версії 1.0 (Qt %1)
+        <translation type="obsolete">Qt Collection Generator версії 1.0 (Qt %1)
 </translation>
     </message>
     <message>
@@ -1410,7 +1414,7 @@ qcollectiongenerator &lt;collection-config-file&gt; [options]
                          qcollectiongenerator.
 
 </source>
-        <translation>
+        <translation type="obsolete">
 Використання:
 
 qcollectiongenerator &lt;файл-налаштувань-колекції&gt; [опції]
@@ -1425,66 +1429,66 @@ qcollectiongenerator &lt;файл-налаштувань-колекції&gt; [�
     </message>
     <message>
         <source>Unknown token at line %1. Expected &quot;QtHelpCollectionProject&quot;.</source>
-        <translation>Невідомий токен в рядку %1. Очікувався &quot;QtHelpCollectionProject&quot;.</translation>
+        <translation type="obsolete">Невідомий токен в рядку %1. Очікувався &quot;QtHelpCollectionProject&quot;.</translation>
     </message>
     <message>
         <source>Missing input or output file for help file generation.</source>
-        <translation>Відсутній вхідний чи вихідний файл для генерації файлу довідки.</translation>
+        <translation type="obsolete">Відсутній вхідний чи вихідний файл для генерації файлу довідки.</translation>
     </message>
     <message>
         <source>Missing output file name.</source>
-        <translation>Відсутнє ім&apos;я вихідного файлу.</translation>
+        <translation type="obsolete">Відсутнє ім&apos;я вихідного файлу.</translation>
     </message>
     <message>
         <source>Missing collection config file.</source>
-        <translation>Відсутній файл налаштувань колекції.</translation>
+        <translation type="obsolete">Відсутній файл налаштувань колекції.</translation>
     </message>
     <message>
         <source>Could not open %1.
 </source>
-        <translation>Не вдалось відкрити %1.
+        <translation type="obsolete">Не вдалось відкрити %1.
 </translation>
     </message>
     <message>
         <source>Reading collection config file...
 </source>
-        <translation>Читання файлу налаштувань колекції...
+        <translation type="obsolete">Читання файлу налаштувань колекції...
 </translation>
     </message>
     <message>
         <source>Collection config file error: %1
 </source>
-        <translation>Помилка файлу налаштувань колекції: %1
+        <translation type="obsolete">Помилка файлу налаштувань колекції: %1
 </translation>
     </message>
     <message>
         <source>Generating help for %1...
 </source>
-        <translation>Генерування довідки для %1...
+        <translation type="obsolete">Генерування довідки для %1...
 </translation>
     </message>
     <message>
         <source>Creating collection file...
 </source>
-        <translation>Створення файлу колекції...
+        <translation type="obsolete">Створення файлу колекції...
 </translation>
     </message>
     <message>
         <source>The file %1 cannot be overwritten.
 </source>
-        <translation>Неможливо перезаписати файл %1.
+        <translation type="obsolete">Неможливо перезаписати файл %1.
 </translation>
     </message>
     <message>
         <source>Cannot open %1.
 </source>
-        <translation>Неможливо відкрити %1.
+        <translation type="obsolete">Неможливо відкрити %1.
 </translation>
     </message>
     <message>
         <source>Cannot open referenced image file %1.
 </source>
-        <translation>Неможливо відкрити файл зображення %1, на який є посилання.
+        <translation type="obsolete">Неможливо відкрити файл зображення %1, на який є посилання.
 </translation>
     </message>
 </context>
@@ -1492,70 +1496,70 @@ qcollectiongenerator &lt;файл-налаштувань-колекції&gt; [�
     <name>QHelp</name>
     <message>
         <source>Untitled</source>
-        <translation>Без назви</translation>
+        <translation type="obsolete">Без назви</translation>
     </message>
 </context>
 <context>
     <name>QHelpCollectionHandler</name>
     <message>
         <source>The collection file &apos;%1&apos; is not set up yet!</source>
-        <translation>Файл колекції &apos;%1&apos; ще не встановлено!</translation>
+        <translation type="obsolete">Файл колекції &apos;%1&apos; ще не встановлено!</translation>
     </message>
     <message>
         <source>Cannot load sqlite database driver!</source>
-        <translation>Неможливо завантажити драйвер бази даних sqlite!</translation>
+        <translation type="obsolete">Неможливо завантажити драйвер бази даних sqlite!</translation>
     </message>
     <message>
         <source>Cannot open collection file: %1</source>
-        <translation>Неможливо відкрити файл колекції: %1</translation>
+        <translation type="obsolete">Неможливо відкрити файл колекції: %1</translation>
     </message>
     <message>
         <source>Cannot create tables in file %1!</source>
-        <translation>Неможливо створити таблиці в файлі %1!</translation>
+        <translation type="obsolete">Неможливо створити таблиці в файлі %1!</translation>
     </message>
     <message>
         <source>The collection file &apos;%1&apos; already exists!</source>
-        <translation>Файл колекції &apos;%1&apos; вже існує!</translation>
+        <translation type="obsolete">Файл колекції &apos;%1&apos; вже існує!</translation>
     </message>
     <message>
         <source>Cannot create directory: %1</source>
-        <translation>Неможливо створити теку: %1</translation>
+        <translation type="obsolete">Неможливо створити теку: %1</translation>
     </message>
     <message>
         <source>Cannot copy collection file: %1</source>
-        <translation>Неможливо скопіювати файл колекції: %1</translation>
+        <translation type="obsolete">Неможливо скопіювати файл колекції: %1</translation>
     </message>
     <message>
         <source>Unknown filter &apos;%1&apos;!</source>
-        <translation>Невідомий фільтр &apos;%1&apos;!</translation>
+        <translation type="obsolete">Невідомий фільтр &apos;%1&apos;!</translation>
     </message>
     <message>
         <source>Cannot register filter %1!</source>
-        <translation>Неможливо зареєструвати фільтр %1!</translation>
+        <translation type="obsolete">Неможливо зареєструвати фільтр %1!</translation>
     </message>
     <message>
         <source>Cannot open documentation file %1!</source>
-        <translation>Неможливо відкрити файл документації %1!</translation>
+        <translation type="obsolete">Неможливо відкрити файл документації %1!</translation>
     </message>
     <message>
         <source>Invalid documentation file &apos;%1&apos;!</source>
-        <translation>Неправильний файл документації &apos;%1&apos;!</translation>
+        <translation type="obsolete">Неправильний файл документації &apos;%1&apos;!</translation>
     </message>
     <message>
         <source>The namespace %1 was not registered!</source>
-        <translation>Простір імен %1 не зареєстровано!</translation>
+        <translation type="obsolete">Простір імен %1 не зареєстровано!</translation>
     </message>
     <message>
         <source>Namespace %1 already exists!</source>
-        <translation>Простір імен %1 вже існує!</translation>
+        <translation type="obsolete">Простір імен %1 вже існує!</translation>
     </message>
     <message>
         <source>Cannot register namespace &apos;%1&apos;!</source>
-        <translation>Неможливо зареєструвати простір імен &apos;%1&apos;!</translation>
+        <translation type="obsolete">Неможливо зареєструвати простір імен &apos;%1&apos;!</translation>
     </message>
     <message>
         <source>Cannot open database &apos;%1&apos; to optimize!</source>
-        <translation>Неможливо відкрити базу даних &apos;%1&apos; для оптимізації!</translation>
+        <translation type="obsolete">Неможливо відкрити базу даних &apos;%1&apos; для оптимізації!</translation>
     </message>
 </context>
 <context>
@@ -1563,40 +1567,40 @@ qcollectiongenerator &lt;файл-налаштувань-колекції&gt; [�
     <message>
         <source>Cannot open database &apos;%1&apos; &apos;%2&apos;: %3</source>
         <extracomment>The placeholders are: %1 - The name of the database which cannot be opened %2 - The unique id for the connection %3 - The actual error string</extracomment>
-        <translation>Не можу відкрити базу даних &apos;%1&apos; &apos;%2&apos;: %3</translation>
+        <translation type="obsolete">Не можу відкрити базу даних &apos;%1&apos; &apos;%2&apos;: %3</translation>
     </message>
 </context>
 <context>
     <name>QHelpEngineCore</name>
     <message>
         <source>Cannot open documentation file %1: %2!</source>
-        <translation>Неможливо відкрити файл документації %1: %2!</translation>
+        <translation type="obsolete">Неможливо відкрити файл документації %1: %2!</translation>
     </message>
     <message>
         <source>The specified namespace does not exist!</source>
-        <translation>Вказаний простір імен не існує!</translation>
+        <translation type="obsolete">Вказаний простір імен не існує!</translation>
     </message>
 </context>
 <context>
     <name>QHelpGenerator</name>
     <message>
         <source>Missing output file name.</source>
-        <translation>Відсутнє ім&apos;я вихідного файлу.</translation>
+        <translation type="obsolete">Відсутнє ім&apos;я вихідного файлу.</translation>
     </message>
     <message>
         <source>Qt Help Generator version 1.0 (Qt %1)
 </source>
-        <translation>Qt Help Generator версії 1.0 (Qt %1)
+        <translation type="obsolete">Qt Help Generator версії 1.0 (Qt %1)
 </translation>
     </message>
     <message>
         <source>Missing Qt help project file.</source>
-        <translation>Відсутній файл проекту колекції довідки Qt.</translation>
+        <translation type="obsolete">Відсутній файл проекту колекції довідки Qt.</translation>
     </message>
     <message>
         <source>Could not open %1.
 </source>
-        <translation>Не вдалось відкрити %1.
+        <translation type="obsolete">Не вдалось відкрити %1.
 </translation>
     </message>
     <message>
@@ -1615,7 +1619,7 @@ qhelpgenerator &lt;help-project-file&gt; [options]
                          qhelpgenerator.
 
 </source>
-        <translation>
+        <translation type="obsolete">
 Використання:
 
 qhelpgenerator &lt;файл-проекту-довідки&gt; [опції]
@@ -1634,193 +1638,193 @@ qhelpgenerator &lt;файл-проекту-довідки&gt; [опції]
     <message>
         <source>Could not create output directory: %1
 </source>
-        <translation>Не вдалось створити вихідну теку: %1
+        <translation type="obsolete">Не вдалось створити вихідну теку: %1
 </translation>
     </message>
     <message>
         <source>Invalid help data!</source>
-        <translation>Неправильні дані довідки!</translation>
+        <translation type="obsolete">Неправильні дані довідки!</translation>
     </message>
     <message>
         <source>No output file name specified!</source>
-        <translation>Не вказане ім&apos;я вихідного файлу!</translation>
+        <translation type="obsolete">Не вказане ім&apos;я вихідного файлу!</translation>
     </message>
     <message>
         <source>The file %1 cannot be overwritten!</source>
-        <translation>Неможливо перезаписати файл %1!</translation>
+        <translation type="obsolete">Неможливо перезаписати файл %1!</translation>
     </message>
     <message>
         <source>Building up file structure...</source>
-        <translation>Побудова структури файлу....</translation>
+        <translation type="obsolete">Побудова структури файлу....</translation>
     </message>
     <message>
         <source>Cannot open data base file %1!</source>
-        <translation>Неможливо відкрити файл бази даних %1!</translation>
+        <translation type="obsolete">Неможливо відкрити файл бази даних %1!</translation>
     </message>
     <message>
         <source>Cannot register namespace %1!</source>
-        <translation>Неможливо зареєструвати простір імен %1!</translation>
+        <translation type="obsolete">Неможливо зареєструвати простір імен %1!</translation>
     </message>
     <message>
         <source>Insert custom filters...</source>
-        <translation>Вставка фільтрів користувача...</translation>
+        <translation type="obsolete">Вставка фільтрів користувача...</translation>
     </message>
     <message>
         <source>Insert help data for filter section (%1 of %2)...</source>
-        <translation>Вставка даних довідки для розділу фільтра (%1 з %2)...</translation>
+        <translation type="obsolete">Вставка даних довідки для розділу фільтра (%1 з %2)...</translation>
     </message>
     <message>
         <source>Documentation successfully generated.</source>
-        <translation>Документацію успішно згенеровано.</translation>
+        <translation type="obsolete">Документацію успішно згенеровано.</translation>
     </message>
     <message>
         <source>Some tables already exist!</source>
-        <translation>Деякі таблиці вже існують!</translation>
+        <translation type="obsolete">Деякі таблиці вже існують!</translation>
     </message>
     <message>
         <source>Cannot create tables!</source>
-        <translation>Неможливо створити таблиці!</translation>
+        <translation type="obsolete">Неможливо створити таблиці!</translation>
     </message>
     <message>
         <source>Cannot register virtual folder!</source>
-        <translation>Неможливо зареєструвати віртуальну теку!</translation>
+        <translation type="obsolete">Неможливо зареєструвати віртуальну теку!</translation>
     </message>
     <message>
         <source>Insert files...</source>
-        <translation>Вставка файлів...</translation>
+        <translation type="obsolete">Вставка файлів...</translation>
     </message>
     <message>
         <source>The file %1 does not exist! Skipping it.</source>
-        <translation>Файл %1 не існує! Пропускаємо його.</translation>
+        <translation type="obsolete">Файл %1 не існує! Пропускаємо його.</translation>
     </message>
     <message>
         <source>Cannot open file %1! Skipping it.</source>
-        <translation>Неможливо відкрити файл %1! Пропускаємо його.</translation>
+        <translation type="obsolete">Неможливо відкрити файл %1! Пропускаємо його.</translation>
     </message>
     <message>
         <source>The filter %1 is already registered!</source>
-        <translation>Фільтр %1 вже зареєстровано!</translation>
+        <translation type="obsolete">Фільтр %1 вже зареєстровано!</translation>
     </message>
     <message>
         <source>Cannot register filter %1!</source>
-        <translation>Неможливо зареєструвати фільтр %1!</translation>
+        <translation type="obsolete">Неможливо зареєструвати фільтр %1!</translation>
     </message>
     <message>
         <source>Insert indices...</source>
-        <translation>Вставка індексів...</translation>
+        <translation type="obsolete">Вставка індексів...</translation>
     </message>
     <message>
         <source>Insert contents...</source>
-        <translation>Вставка змісту...</translation>
+        <translation type="obsolete">Вставка змісту...</translation>
     </message>
     <message>
         <source>Cannot insert contents!</source>
-        <translation>Неможливо вставити зміст!</translation>
+        <translation type="obsolete">Неможливо вставити зміст!</translation>
     </message>
     <message>
         <source>Cannot register contents!</source>
-        <translation>Неможливо зареєструвати зміст!</translation>
+        <translation type="obsolete">Неможливо зареєструвати зміст!</translation>
     </message>
     <message>
         <source>File &apos;%1&apos; does not exist.</source>
-        <translation>Файл &apos;%1&apos; не існує.</translation>
+        <translation type="obsolete">Файл &apos;%1&apos; не існує.</translation>
     </message>
     <message>
         <source>File &apos;%1&apos; cannot be opened.</source>
-        <translation>Неможливо відкрити файл &apos;%1&apos;.</translation>
+        <translation type="obsolete">Неможливо відкрити файл &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>File &apos;%1&apos; contains an invalid link to file &apos;%2&apos;</source>
-        <translation>Файл &apos;%1&apos; містить неправильне посилання до файлу &apos;%2&apos;</translation>
+        <translation type="obsolete">Файл &apos;%1&apos; містить неправильне посилання до файлу &apos;%2&apos;</translation>
     </message>
     <message>
         <source>Invalid links in HTML files.</source>
-        <translation>Неправильні посилання в файлах HTML.</translation>
+        <translation type="obsolete">Неправильні посилання в файлах HTML.</translation>
     </message>
 </context>
 <context>
     <name>QHelpProject</name>
     <message>
         <source>Unknown token.</source>
-        <translation>Невідомий токен.</translation>
+        <translation type="obsolete">Невідомий токен.</translation>
     </message>
     <message>
         <source>Unknown token. Expected &quot;QtHelpProject&quot;!</source>
-        <translation>Невідомий токен. Очікувався &quot;QtHelpProject&quot;!</translation>
+        <translation type="obsolete">Невідомий токен. Очікувався &quot;QtHelpProject&quot;!</translation>
     </message>
     <message>
         <source>Error in line %1: %2</source>
-        <translation>Помилка в рядку %1: %2</translation>
+        <translation type="obsolete">Помилка в рядку %1: %2</translation>
     </message>
     <message>
         <source>Virtual folder has invalid syntax.</source>
-        <translation>Віртуальна тека має неправильний синтаксис.</translation>
+        <translation type="obsolete">Віртуальна тека має неправильний синтаксис.</translation>
     </message>
     <message>
         <source>Namespace has invalid syntax.</source>
-        <translation>Простір імен має неправильний синтаксис.</translation>
+        <translation type="obsolete">Простір імен має неправильний синтаксис.</translation>
     </message>
     <message>
         <source>Missing namespace in QtHelpProject.</source>
-        <translation>Відсутній простір імен в QtHelpProject.</translation>
+        <translation type="obsolete">Відсутній простір імен в QtHelpProject.</translation>
     </message>
     <message>
         <source>Missing virtual folder in QtHelpProject</source>
-        <translation>Відсутня віртуальна тека в QtHelpProject</translation>
+        <translation type="obsolete">Відсутня віртуальна тека в QtHelpProject</translation>
     </message>
     <message>
         <source>The input file %1 could not be opened!</source>
-        <translation>Не вдалось відкрити вхідний файл %1!</translation>
+        <translation type="obsolete">Не вдалось відкрити вхідний файл %1!</translation>
     </message>
 </context>
 <context>
     <name>QHelpSearchQueryWidget</name>
     <message>
         <source>Search for:</source>
-        <translation>Шукати:</translation>
+        <translation type="obsolete">Шукати:</translation>
     </message>
     <message>
         <source>Previous search</source>
-        <translation>Попередній пошук</translation>
+        <translation type="obsolete">Попередній пошук</translation>
     </message>
     <message>
         <source>Next search</source>
-        <translation>Наступний пошук</translation>
+        <translation type="obsolete">Наступний пошук</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Шукати</translation>
+        <translation type="obsolete">Шукати</translation>
     </message>
     <message>
         <source>Advanced search</source>
-        <translation>Розширений пошук</translation>
+        <translation type="obsolete">Розширений пошук</translation>
     </message>
     <message>
         <source>words &lt;B&gt;similar&lt;/B&gt; to:</source>
-        <translation>слова &lt;B&gt;схожі&lt;/B&gt; на:</translation>
+        <translation type="obsolete">слова &lt;B&gt;схожі&lt;/B&gt; на:</translation>
     </message>
     <message>
         <source>&lt;B&gt;without&lt;/B&gt; the words:</source>
-        <translation>&lt;B&gt;без&lt;/B&gt; слів:</translation>
+        <translation type="obsolete">&lt;B&gt;без&lt;/B&gt; слів:</translation>
     </message>
     <message>
         <source>with &lt;B&gt;exact phrase&lt;/B&gt;:</source>
-        <translation>з &lt;B&gt;точною фразою&lt;/B&gt;:</translation>
+        <translation type="obsolete">з &lt;B&gt;точною фразою&lt;/B&gt;:</translation>
     </message>
     <message>
         <source>with &lt;B&gt;all&lt;/B&gt; of the words:</source>
-        <translation>з &lt;B&gt;усіма&lt;/B&gt; словами:</translation>
+        <translation type="obsolete">з &lt;B&gt;усіма&lt;/B&gt; словами:</translation>
     </message>
     <message>
         <source>with &lt;B&gt;at least one&lt;/B&gt; of the words:</source>
-        <translation>з &lt;B&gt;щонайменше одним&lt;/B&gt; зі слів:</translation>
+        <translation type="obsolete">з &lt;B&gt;щонайменше одним&lt;/B&gt; зі слів:</translation>
     </message>
 </context>
 <context>
     <name>QHelpSearchResultWidget</name>
     <message numerus="yes">
         <source>%1 - %2 of %n Hits</source>
-        <translation>
+        <translation type="obsolete">
             <numerusform>%1 - %2 з %n збіг</numerusform>
             <numerusform>%1 - %2 з %n збіги</numerusform>
             <numerusform>%1 - %2 з %n збігів</numerusform>
@@ -1828,7 +1832,7 @@ qhelpgenerator &lt;файл-проекту-довідки&gt; [опції]
     </message>
     <message>
         <source>0 - 0 of 0 Hits</source>
-        <translation>0 - 0 з 0 збігів</translation>
+        <translation type="obsolete">0 - 0 з 0 збігів</translation>
     </message>
 </context>
 <context>
@@ -1901,6 +1905,10 @@ qhelpgenerator &lt;файл-проекту-довідки&gt; [опції]
     <message>
         <source>&amp;Close</source>
         <translation>&amp;Закрити</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Фільтр</translation>
     </message>
     <message>
         <source>Choose a topic for &lt;b&gt;%1&lt;/b&gt;:</source>

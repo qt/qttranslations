@@ -292,6 +292,33 @@ Es wird mit einer einfachen Universalform gearbeitet.</translation>
     </message>
 </context>
 <context>
+    <name>Linguist</name>
+    <message>
+        <source>GNU Gettext localization files</source>
+        <translation>GNU-Gettext-Übersetzungsdateien</translation>
+    </message>
+    <message>
+        <source>GNU Gettext localization template files</source>
+        <translation>Vorlagen für GNU-Gettext-Übersetzungsdateien</translation>
+    </message>
+    <message>
+        <source>Compiled Qt translations</source>
+        <translation>Kompilierte Qt-Übersetzungen</translation>
+    </message>
+    <message>
+        <source>Qt Linguist &apos;Phrase Book&apos;</source>
+        <translation>Qt-Linguist-Wörterbuch</translation>
+    </message>
+    <message>
+        <source>Qt translation sources</source>
+        <translation>Qt-Übersetzungsdateien</translation>
+    </message>
+    <message>
+        <source>XLIFF localization files</source>
+        <translation>XLIFF-Übersetzungsdateien</translation>
+    </message>
+</context>
+<context>
     <name>MainWindow</name>
     <message>
         <source>MainWindow</source>
@@ -1426,10 +1453,6 @@ Zeile: %2</translation>
 <context>
     <name>QObject</name>
     <message>
-        <source>Compiled Qt translations</source>
-        <translation>Kompilierte Qt-Übersetzungen</translation>
-    </message>
-    <message>
         <source>Translation files (%1);;</source>
         <translation>Übersetzungsdateien (%1);;</translation>
     </message>
@@ -1440,34 +1463,6 @@ Zeile: %2</translation>
     <message>
         <source>Qt Linguist</source>
         <translation>Qt Linguist</translation>
-    </message>
-    <message>
-        <source>GNU Gettext localization files</source>
-        <translation>GNU-Gettext-Übersetzungsdateien</translation>
-    </message>
-    <message>
-        <source>GNU Gettext localization template files</source>
-        <translation>Vorlagen für GNU-Gettext-Übersetzungsdateien</translation>
-    </message>
-    <message>
-        <source>Qt translation sources (format 1.1)</source>
-        <translation>Qt-Übersetzungsdateien (Formatversion 1.1)</translation>
-    </message>
-    <message>
-        <source>Qt translation sources (format 2.0)</source>
-        <translation>Qt-Übersetzungsdateien (Formatversion 2.0)</translation>
-    </message>
-    <message>
-        <source>Qt translation sources (latest format)</source>
-        <translation>Qt-Übersetzungsdateien (aktuelles Format)</translation>
-    </message>
-    <message>
-        <source>XLIFF localization files</source>
-        <translation>XLIFF-Übersetzungsdateien</translation>
-    </message>
-    <message>
-        <source>Qt Linguist &apos;Phrase Book&apos;</source>
-        <translation>Qt-Linguist-Wörterbuch</translation>
     </message>
 </context>
 <context>

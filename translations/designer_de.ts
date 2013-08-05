@@ -1172,6 +1172,36 @@ This indicates an inconsistency in the ui-file.</source>
     </message>
 </context>
 <context>
+    <name>QAxWidgetPlugin</name>
+    <message>
+        <source>ActiveX control</source>
+        <translation>ActiveX-Steuerelement</translation>
+    </message>
+    <message>
+        <source>ActiveX control widget</source>
+        <translation>ActiveX-Widget</translation>
+    </message>
+</context>
+<context>
+    <name>QAxWidgetTaskMenu</name>
+    <message>
+        <source>Set Control</source>
+        <translation>Steuerelement setzen</translation>
+    </message>
+    <message>
+        <source>Reset Control</source>
+        <translation>Steuerelement zurücksetzen</translation>
+    </message>
+    <message>
+        <source>Licensed Control</source>
+        <translation>Steuerelement erfordert Lizenz</translation>
+    </message>
+    <message>
+        <source>The control requires a design-time license</source>
+        <translation>Dieses Steuerelement erfordert eine Lizenz zur Entwurfszeit</translation>
+    </message>
+</context>
+<context>
     <name>QCoreApplication</name>
     <message>
         <source>%1 is not a promoted class.</source>
@@ -1497,6 +1527,25 @@ Möchten Sie es noch einmal versuchen?</translation>
     <message>
         <source>Toolwindow Font</source>
         <translation>Font für Dockfenster</translation>
+    </message>
+</context>
+<context>
+    <name>QDesignerAxWidget</name>
+    <message>
+        <source>Reset control</source>
+        <translation>Steuerelement zurücksetzen</translation>
+    </message>
+    <message>
+        <source>Set control</source>
+        <translation>Steuerelement setzen</translation>
+    </message>
+    <message>
+        <source>Control loaded</source>
+        <translation>Steuerelement geladen</translation>
+    </message>
+    <message>
+        <source>A COM exception occurred when executing a meta call of type %1, index %2 of &quot;%3&quot;.</source>
+        <translation>Beim Ausführen eines Meta-Aufrufs des Typs %1, Index %2 von &quot;%3&quot; trat eine eine COM-Ausnahme auf.</translation>
     </message>
 </context>
 <context>
@@ -3844,8 +3893,8 @@ Möchten Sie sie überschreiben?</translation>
         <translation>Ungültiges Formular</translation>
     </message>
     <message>
-        <source>&lt;p&gt;This file contains top level spacers.&lt;br&gt;They will &lt;b&gt;not&lt;/b&gt; be saved.&lt;/p&gt;&lt;p&gt;Perhaps you forgot to create a layout?&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Das Formular enthält freistehende Layoutelemente.&lt;br&gt;Sie werden &lt;b&gt;nicht&lt;/b&gt; gespeichert.&lt;/p&gt;&lt;p&gt;Haben Sie möglicherweise vergessen, ein Layout zu erstellen?&lt;/p&gt;</translation>
+        <source>&lt;p&gt;This file contains top level spacers.&lt;br/&gt;They will &lt;b&gt;not&lt;/b&gt; be saved.&lt;/p&gt;&lt;p&gt;Perhaps you forgot to create a layout?&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Das Formular enthält freistehende Layoutelemente.&lt;br/&gt;Sie werden &lt;b&gt;nicht&lt;/b&gt; gespeichert.&lt;/p&gt;&lt;p&gt;Haben Sie möglicherweise vergessen, ein Layout zu erstellen?&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -4723,46 +4772,57 @@ ate the goose who was loose.</translation>
     <name>qdesigner_internal::PreviewWidget</name>
     <message>
         <source>Preview Window</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Vorschaufenster</translation>
     </message>
     <message>
         <source>LineEdit</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>LineEdit</translation>
     </message>
     <message>
         <source>ComboBox</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>ComboBox</translation>
     </message>
     <message>
         <source>PushButton</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>PushButton</translation>
     </message>
     <message>
         <source>ButtonGroup2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>ButtonGroup2</translation>
     </message>
     <message>
         <source>CheckBox1</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>CheckBox1</translation>
     </message>
     <message>
         <source>CheckBox2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>CheckBox2</translation>
     </message>
     <message>
         <source>ButtonGroup</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>ButtonGroup</translation>
     </message>
     <message>
         <source>RadioButton1</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>RadioButton1</translation>
     </message>
     <message>
         <source>RadioButton2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>RadioButton2</translation>
     </message>
     <message>
         <source>RadioButton3</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>RadioButton3</translation>
     </message>
 </context>
@@ -5189,6 +5249,10 @@ Klasse: %2</translation>
     <message>
         <source>Justify</source>
         <translation>Blocksatz</translation>
+    </message>
+    <message>
+        <source>Right to Left</source>
+        <translation>Schreibrichtung rechts nach links</translation>
     </message>
     <message>
         <source>Superscript</source>

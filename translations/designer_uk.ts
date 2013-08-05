@@ -1174,6 +1174,36 @@ This indicates an inconsistency in the ui-file.</source>
     </message>
 </context>
 <context>
+    <name>QAxWidgetPlugin</name>
+    <message>
+        <source>ActiveX control</source>
+        <translation>Елемент управління ActiveX</translation>
+    </message>
+    <message>
+        <source>ActiveX control widget</source>
+        <translation>Віджет елемента управління ActiveX</translation>
+    </message>
+</context>
+<context>
+    <name>QAxWidgetTaskMenu</name>
+    <message>
+        <source>Set Control</source>
+        <translation>Встановити елемент управління</translation>
+    </message>
+    <message>
+        <source>Reset Control</source>
+        <translation>Скинути елемент управління</translation>
+    </message>
+    <message>
+        <source>Licensed Control</source>
+        <translation>Ліцензований елемент управління</translation>
+    </message>
+    <message>
+        <source>The control requires a design-time license</source>
+        <translation>Цей елемент управління вимагає ліцензії для розробки</translation>
+    </message>
+</context>
+<context>
     <name>QCoreApplication</name>
     <message>
         <source>%1 is not a promoted class.</source>
@@ -1502,6 +1532,25 @@ Would you like to retry?</source>
     </message>
 </context>
 <context>
+    <name>QDesignerAxWidget</name>
+    <message>
+        <source>Reset control</source>
+        <translation>Скинути елемент управління</translation>
+    </message>
+    <message>
+        <source>Set control</source>
+        <translation>Встановити елемент управління</translation>
+    </message>
+    <message>
+        <source>Control loaded</source>
+        <translation>Елемент управління завантажено</translation>
+    </message>
+    <message>
+        <source>A COM exception occurred when executing a meta call of type %1, index %2 of &quot;%3&quot;.</source>
+        <translation>Під час здійснення мета-виклику типу %1, індес %2 з &quot;%3&quot; сталась виключна ситуація COM.</translation>
+    </message>
+</context>
+<context>
     <name>QDesignerFormBuilder</name>
     <message>
         <source>The preview failed to build.</source>
@@ -1760,8 +1809,12 @@ Container pages should only be added by specifying them in XML returned by the d
         <translation>Останній сеанс Qt Designer не був правильно завершений. Залишились резервні копії файлів. Бажаєте їх завантажити?</translation>
     </message>
     <message>
+        <source>The file &lt;b&gt;%1&lt;/b&gt; could not be opened: %2</source>
+        <translation>Не вдалось відкрити файл &lt;b&gt;%1&lt;/b&gt;: %2</translation>
+    </message>
+    <message>
         <source>The file &lt;b&gt;%1&lt;/b&gt; could not be opened: %1</source>
-        <translation>Не вдалось відкрити файл &lt;b&gt;%1&lt;/b&gt;: %1</translation>
+        <translation type="obsolete">Не вдалось відкрити файл &lt;b&gt;%1&lt;/b&gt;: %1</translation>
     </message>
 </context>
 <context>
@@ -3115,8 +3168,12 @@ Do you want overwrite the template?</source>
         <translation>&lt;br/&gt;Qt Designer - це дизайнер графічного інтерфейсу користувача для програм Qt.&lt;br/&gt;</translation>
     </message>
     <message>
+        <source>%1&lt;br/&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).</source>
+        <translation>%1&lt;br/&gt;Copyright (C) 2013 Digia Plc та/або її дочірні компанії.</translation>
+    </message>
+    <message>
         <source>%1&lt;br/&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies).</source>
-        <translation>%1&lt;br/&gt;Copyright (C) 2012 Digia Plc та/або її дочірні компанії.</translation>
+        <translation type="obsolete">%1&lt;br/&gt;Copyright (C) 2012 Digia Plc та/або її дочірні компанії.</translation>
     </message>
 </context>
 <context>
@@ -3852,8 +3909,12 @@ Do you want overwrite the template?</source>
         <translation>Неправильна форма</translation>
     </message>
     <message>
+        <source>&lt;p&gt;This file contains top level spacers.&lt;br/&gt;They will &lt;b&gt;not&lt;/b&gt; be saved.&lt;/p&gt;&lt;p&gt;Perhaps you forgot to create a layout?&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Цей файл містить роздільники верхнього рівня.&lt;br/&gt;Вони &lt;b&gt;не&lt;/b&gt; будуть збережені&lt;/p&gt;&lt;p&gt;Можливо ви забули створити розташування?&lt;/p&gt;</translation>
+    </message>
+    <message>
         <source>&lt;p&gt;This file contains top level spacers.&lt;br&gt;They will &lt;b&gt;not&lt;/b&gt; be saved.&lt;/p&gt;&lt;p&gt;Perhaps you forgot to create a layout?&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Цей файл містить роздільники верхнього рівня.&lt;br&gt;Вони &lt;b&gt;не&lt;/b&gt; будуть збережені&lt;/p&gt;&lt;p&gt;Можливо ви забули створити розташування?&lt;/p&gt;</translation>
+        <translation type="obsolete">&lt;p&gt;Цей файл містить роздільники верхнього рівня.&lt;br&gt;Вони &lt;b&gt;не&lt;/b&gt; будуть збережені&lt;/p&gt;&lt;p&gt;Можливо ви забули створити розташування?&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -4732,46 +4793,57 @@ ate the goose who was loose.</source>
     <name>qdesigner_internal::PreviewWidget</name>
     <message>
         <source>Preview Window</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Вікно попереднього перегляду</translation>
     </message>
     <message>
         <source>LineEdit</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Поле введення</translation>
     </message>
     <message>
         <source>ComboBox</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Випадаючий список</translation>
     </message>
     <message>
         <source>PushButton</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Кнопка</translation>
     </message>
     <message>
         <source>ButtonGroup2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Група кнопок 2</translation>
     </message>
     <message>
         <source>CheckBox1</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Прапорець 1</translation>
     </message>
     <message>
         <source>CheckBox2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Прапорець 2</translation>
     </message>
     <message>
         <source>ButtonGroup</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Група кнопок</translation>
     </message>
     <message>
         <source>RadioButton1</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Перемикач 1</translation>
     </message>
     <message>
         <source>RadioButton2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Перемикач 2</translation>
     </message>
     <message>
         <source>RadioButton3</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Перемикач 3</translation>
     </message>
 </context>
@@ -5200,6 +5272,10 @@ Class: %2</source>
     <message>
         <source>Justify</source>
         <translation>По ширині</translation>
+    </message>
+    <message>
+        <source>Right to Left</source>
+        <translation>Справа наліво</translation>
     </message>
     <message>
         <source>Superscript</source>

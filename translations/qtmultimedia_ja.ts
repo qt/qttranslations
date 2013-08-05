@@ -1,492 +1,492 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ru_RU">
+<TS version="2.0" language="ja_JP">
 <context>
     <name>AudioCaptureSession</name>
     <message>
         <source>RAW file format</source>
-        <translation>Формат файла RAW</translation>
+        <translation>RAW ファイル形式</translation>
     </message>
     <message>
         <source>WAV file format</source>
-        <translation>Формат файла WAV</translation>
+        <translation>WAV ファイル形式</translation>
     </message>
 </context>
 <context>
     <name>AudioEncoderControl</name>
     <message>
         <source>PCM audio data</source>
-        <translation>Аудио-данные PCM</translation>
+        <translation>PCM オーディオデータ</translation>
     </message>
 </context>
 <context>
     <name>BbCameraAudioEncoderSettingsControl</name>
     <message>
         <source>No compression</source>
-        <translation>Без сжатия</translation>
+        <translation>非圧縮</translation>
     </message>
     <message>
         <source>AAC compression</source>
-        <translation>Сжатие AAC</translation>
+        <translation>AAC 圧縮</translation>
     </message>
     <message>
         <source>PCM uncompressed</source>
-        <translation>PCM без сжатия</translation>
+        <translation>PCM 非圧縮</translation>
     </message>
 </context>
 <context>
     <name>BbCameraMediaRecorderControl</name>
     <message>
         <source>Unable to retrieve mute status</source>
-        <translation>Не удалось определить включён ли звук</translation>
+        <translation>ミュートの状態を取得できません</translation>
     </message>
     <message>
         <source>Unable to retrieve audio input volume</source>
-        <translation>Не удалось определить громкость входного звука</translation>
+        <translation>オーディオ入力のボリュームを取得できません</translation>
     </message>
     <message>
         <source>Unable to set mute status</source>
-        <translation>Не удалось включить/выключить звук</translation>
+        <translation>ミュートの状態を設定できません</translation>
     </message>
     <message>
         <source>Unable to set audio input volume</source>
-        <translation>Не удалось установить громкость входного звука</translation>
+        <translation>オーディオ入力のボリュームを設定できません</translation>
     </message>
 </context>
 <context>
     <name>BbCameraSession</name>
     <message>
         <source>Camera provides image in unsupported format</source>
-        <translation>Камера выдаёт изображение в неподдерживаемом формате</translation>
+        <translation>カメラが提供する画像フォーマットがサポートされていません</translation>
     </message>
     <message>
         <source>Could not load JPEG data from frame</source>
-        <translation>Не удалось загрузить данные JPEG из кадра</translation>
+        <translation>フレームから JPEG データを読み込めません</translation>
     </message>
     <message>
         <source>Camera not ready</source>
-        <translation>Камера не готова</translation>
+        <translation>カメラが準備できていません</translation>
     </message>
     <message>
         <source>Unable to apply video settings</source>
-        <translation>Не удалось применить настройки видео</translation>
+        <translation>ビデオの設定を反映できません</translation>
     </message>
     <message>
         <source>Could not open destination file:
 %1</source>
-        <translation>Не удалось открыть выходной файл:
+        <translation>保存先のファイルを開けませんでした:
 %1</translation>
     </message>
     <message>
         <source>Unable to open camera</source>
-        <translation>Не удалось открыть камеру</translation>
+        <translation>カメラを開けません</translation>
     </message>
     <message>
         <source>Unable to retrieve native camera orientation</source>
-        <translation>Не удалось получить исходное положение камеры</translation>
+        <translation>カメラのネイティブの方向を取得できません</translation>
     </message>
     <message>
         <source>Unable to close camera</source>
-        <translation>Не удалось закрыть камеру</translation>
+        <translation>カメラを閉じれません</translation>
     </message>
     <message>
         <source>Unable to start video recording</source>
-        <translation>Не удалось начать запись видео</translation>
+        <translation>ビデオ録画を開始できません</translation>
     </message>
     <message>
         <source>Unable to stop video recording</source>
-        <translation>Не удалось остановить запись видео</translation>
+        <translation>ビデオ録画を停止できません</translation>
     </message>
 </context>
 <context>
     <name>BbCameraVideoEncoderSettingsControl</name>
     <message>
         <source>No compression</source>
-        <translation>Без сжатия</translation>
+        <translation>非圧縮</translation>
     </message>
     <message>
         <source>AVC1 compression</source>
-        <translation>Сжатие AVC1</translation>
+        <translation>AVC1 圧縮</translation>
     </message>
     <message>
         <source>H264 compression</source>
-        <translation>Сжатие H264</translation>
+        <translation>H264 圧縮</translation>
     </message>
 </context>
 <context>
     <name>BbImageEncoderControl</name>
     <message>
         <source>JPEG image</source>
-        <translation>Изображение JPEG</translation>
+        <translation>JPEG 画像</translation>
     </message>
 </context>
 <context>
     <name>BbVideoDeviceSelectorControl</name>
     <message>
         <source>Front Camera</source>
-        <translation>Передняя камера</translation>
+        <translation>フロントカメラ</translation>
     </message>
     <message>
         <source>Rear Camera</source>
-        <translation>Задняя камера</translation>
+        <translation>リアカメラ</translation>
     </message>
     <message>
         <source>Desktop Camera</source>
-        <translation>Виртуальная камера: рабочий стол</translation>
+        <translation>デスクトップカメラ</translation>
     </message>
 </context>
 <context>
     <name>CameraBinImageCapture</name>
     <message>
         <source>Camera not ready</source>
-        <translation>Камера не готова</translation>
+        <translation>カメラが準備できていません</translation>
     </message>
 </context>
 <context>
     <name>CameraBinImageEncoder</name>
     <message>
         <source>JPEG image</source>
-        <translation>Изображение JPEG</translation>
+        <translation>JPEG 画像</translation>
     </message>
 </context>
 <context>
     <name>CameraBinRecorder</name>
     <message>
         <source>QMediaRecorder::pause() is not supported by camerabin2.</source>
-        <translation>QMediaRecorder::pause() не поддерживается camerabin2.</translation>
+        <translation>camerabin2 は QMediaRecorder::pause() をサポートしていません。</translation>
     </message>
     <message>
         <source>Service has not been started</source>
-        <translation>Служба не была запущена</translation>
+        <translation>サービスが開始されていません</translation>
     </message>
 </context>
 <context>
     <name>CameraBinSession</name>
     <message>
         <source>Camera error</source>
-        <translation>Ошибка камеры</translation>
+        <translation>カメラでエラーが発生しました</translation>
     </message>
 </context>
 <context>
     <name>MFPlayerSession</name>
     <message>
         <source>Invalid stream source.</source>
-        <translation>Неверный источник потока.</translation>
+        <translation>無効なストリームのソースです。</translation>
     </message>
     <message>
         <source>Attempting to play invalid Qt resource.</source>
-        <translation>Попытка воспроизвести неверный ресурс Qt.</translation>
+        <translation>無効な Qt リソースを再生しようとしています。</translation>
     </message>
     <message>
         <source>The system cannot find the file specified.</source>
-        <translation>Система не может найти указанный файл.</translation>
+        <translation>システムは指定されたファイルを見つけられません。</translation>
     </message>
     <message>
         <source>The specified server could not be found.</source>
-        <translation>Не удалось найти указанный сервер.</translation>
+        <translation>指定されたサーバが見つかりません。</translation>
     </message>
     <message>
         <source>Unsupported media type.</source>
-        <translation>Носитель этого типа не поддерживается.</translation>
+        <translation>サポートされていない型のメディアです。</translation>
     </message>
     <message>
         <source>Failed to load source.</source>
-        <translation>Не удалось загрузить источник.</translation>
+        <translation>ソースの読み込みに失敗しました。</translation>
     </message>
     <message>
         <source>Cannot create presentation descriptor.</source>
-        <translation>Не удалось создать дескриптор презентации.</translation>
+        <translation>プレゼンテーション記述子が作成できません。</translation>
     </message>
     <message>
         <source>Failed to get stream count.</source>
-        <translation>Не удалось получить количество потоков.</translation>
+        <translation>ストリームカウントの取得に失敗しました。</translation>
     </message>
     <message>
         <source>Failed to create topology.</source>
-        <translation>Не удалось создать топологию.</translation>
+        <translation>トポロジーの作成に失敗しました。</translation>
     </message>
     <message>
         <source>Unable to play any stream.</source>
-        <translation>Невозможно воспроизводить потоки.</translation>
+        <translation>どのストリームも再生できません。</translation>
     </message>
     <message>
         <source>Unable to play.</source>
-        <translation>Не удалось воспроизвести.</translation>
+        <translation>再生できません。</translation>
     </message>
     <message>
         <source>Failed to set topology.</source>
-        <translation>Не удалось установить топологию.</translation>
+        <translation>トポロジーのセットに失敗しました。</translation>
     </message>
     <message>
         <source>Unknown stream type.</source>
-        <translation>Тип потока не известен.</translation>
+        <translation>未知の型のストリームです。</translation>
     </message>
     <message>
         <source>Failed to stop.</source>
-        <translation>Не удалось остановить.</translation>
-    </message>
-    <message>
-        <source>Failed to pause.</source>
-        <translation>Не удалось приостановить.</translation>
-    </message>
-    <message>
-        <source>Unable to create mediasession.</source>
-        <translation>Не удалось создать медиа-сессию.</translation>
-    </message>
-    <message>
-        <source>Unable to pull session events.</source>
-        <translation>Не удалось получить события сессии.</translation>
-    </message>
-    <message>
-        <source>Failed to seek.</source>
-        <translation>Не удалось переместиться.</translation>
-    </message>
-    <message>
-        <source>Media session non-fatal error.</source>
-        <translation>Нефатальная ошибка медиа-сессии.</translation>
-    </message>
-    <message>
-        <source>Media session serious error.</source>
-        <translation>Серьёзная ошибка медиа-сессии.</translation>
-    </message>
-    <message>
-        <source>Unsupported media, a codec is missing.</source>
-        <translation>Медиа не поддерживается - отсутствует кодек.</translation>
+        <translation>停止に失敗しました。</translation>
     </message>
     <message>
         <source>failed to start playback</source>
-        <translation>не удалось запустить воспроизведение</translation>
+        <translation>プレイバックの開始に失敗しました</translation>
+    </message>
+    <message>
+        <source>Failed to pause.</source>
+        <translation>一時停止に失敗しました。</translation>
+    </message>
+    <message>
+        <source>Unable to create mediasession.</source>
+        <translation>メディアセッションが作成できません。</translation>
+    </message>
+    <message>
+        <source>Unable to pull session events.</source>
+        <translation>セッションイベントをプルできません。</translation>
+    </message>
+    <message>
+        <source>Failed to seek.</source>
+        <translation>シークに失敗しました。</translation>
+    </message>
+    <message>
+        <source>Media session non-fatal error.</source>
+        <translation>メディアセッションに致命的ではないエラーが発生しました。</translation>
+    </message>
+    <message>
+        <source>Media session serious error.</source>
+        <translation>メディアセッションに深刻なエラーが発生しました。</translation>
+    </message>
+    <message>
+        <source>Unsupported media, a codec is missing.</source>
+        <translation>サポートされていないメディアです。コーデックがありません。</translation>
     </message>
 </context>
 <context>
     <name>PLSParser</name>
     <message>
         <source>Error parsing playlist: %1, expected count = %2</source>
-        <translation>Ошибка разбора списка воспроизведения: %1, ожидается count = %2</translation>
+        <translation>プレイリストの解析中にエラーが発生しました: %1; エントリー数が %2 ではありません</translation>
     </message>
     <message>
         <source>Error parsing playlist at line[%1], expected version = 2</source>
-        <translation>Ошибка разора списка воспроизведения в строке %1, ожидается версия = 2</translation>
+        <translation>プレイリストの解析中に%1行でエラーが発生しました: バージョンが2ではありません</translation>
     </message>
     <message>
         <source>Error parsing playlist at line[%1]:%2</source>
-        <translation>Ошибка разбора списка воспроизведения в строке %1: %2</translation>
+        <translation>プレイリストの解析中に%1行でエラーが発生しました: %2</translation>
     </message>
     <message>
         <source>File%1</source>
-        <translation>Файл%1</translation>
+        <translation>ファイル%1</translation>
     </message>
     <message>
         <source>Title%1</source>
-        <translation>Название%1</translation>
+        <translation>タイトル%1</translation>
     </message>
     <message>
         <source>Length%1</source>
-        <translation>Длина%1</translation>
+        <translation>長さ%1</translation>
     </message>
 </context>
 <context>
     <name>QAudioDecoder</name>
     <message>
         <source>The QAudioDecoder object does not have a valid service</source>
-        <translation>Объект QAudioDecoder не имеет подходящей службы</translation>
+        <translation>QAudioDecoder には有効なサービスがありません</translation>
     </message>
 </context>
 <context>
     <name>QCamera</name>
     <message>
         <source>The camera service is missing</source>
-        <translation>Отсутствует служба камеры</translation>
+        <translation>カメラサービスがありません</translation>
     </message>
 </context>
 <context>
     <name>QCameraImageCapture</name>
     <message>
         <source>Device does not support images capture.</source>
-        <translation>Устройство не поддерживает захват изображений.</translation>
+        <translation>デバイスが画像のキャプチャをサポートしていません。</translation>
     </message>
 </context>
 <context>
     <name>QDeclarativeAudio</name>
     <message>
         <source>volume should be between 0.0 and 1.0</source>
-        <translation>Громкость должна быть от 0,0 до 1,0</translation>
+        <translation>ボリュームは 0.0 から 1.0 の間の値で指定してください</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerAudioDecoderSession</name>
     <message>
         <source>Cannot play stream of type: &lt;unknown&gt;</source>
-        <translation>Невозможно проиграть поток типа: &lt;неизвестный&gt;</translation>
+        <translation>再生不可能な型のストリームです: &lt;不明&gt;</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerAudioEncode</name>
     <message>
         <source>Raw PCM audio</source>
-        <translation>Необработанное PCM-аудио</translation>
+        <translation>PCM オーディオ</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerAudioInputSelector</name>
     <message>
         <source>System default device</source>
-        <translation>Системное устройство по умолчанию</translation>
+        <translation>システムのデフォルトデバイス</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerCameraControl</name>
     <message>
         <source>State not supported.</source>
-        <translation>Состояние не поддерживается.</translation>
+        <translation>サポートされていない状態です。</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerCaptureSession</name>
     <message>
         <source>Could not create an audio source element</source>
-        <translation>Не удалось создать элемент источника звука</translation>
+        <translation>オーディオソースエレメントを作成できませんでした</translation>
     </message>
     <message>
         <source>Failed to build media capture pipeline.</source>
-        <translation>Не удалось создать конвейер захвата медиа-данных.</translation>
+        <translation>メディアキャプチャパイプラインの構築に失敗しました。</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerImageCaptureControl</name>
     <message>
         <source>Not ready to capture</source>
-        <translation>Не готово для захвата</translation>
+        <translation>キャプチャの準備ができていません</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerImageEncode</name>
     <message>
         <source>JPEG image encoder</source>
-        <translation>Кодировщик изображений JPEG</translation>
+        <translation>JPEG 画像エンコーダ</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerPlayerControl</name>
     <message>
         <source>Attempting to play invalid Qt resource</source>
-        <translation>Попытка воспроизвести неверный ресурс Qt</translation>
+        <translation>無効な Qt リソースを再生しようとしています</translation>
     </message>
     <message>
         <source>Attempting to play invalid user stream</source>
-        <translation>Попытка воспроизвести неверный пользовательский поток</translation>
+        <translation>無効なユーザストリームを再生しようとしています</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerPlayerSession</name>
     <message>
         <source>Cannot play stream of type: &lt;unknown&gt;</source>
-        <translation>Невозможно проиграть поток типа: &lt;неизвестный&gt;</translation>
+        <translation>再生不可能な型のストリームです: &lt;不明&gt;</translation>
     </message>
     <message>
         <source>UDP source timeout</source>
-        <translation>Истекло время источника UDP</translation>
+        <translation>UDP ソースがタイムアウトしました</translation>
     </message>
     <message>
         <source>Media is loaded as a playlist</source>
-        <translation>Медиа-данные загружены в виде списка проигрывания</translation>
+        <translation>メディアがプレイリストとして読み込まれました</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerRecorderControl</name>
     <message>
         <source>Service has not been started</source>
-        <translation>Служба не была запущена</translation>
+        <translation>サービスが開始されていません</translation>
     </message>
     <message>
         <source>Not compatible codecs and container format.</source>
-        <translation>Кодек и формат контейнера не совместимы.</translation>
+        <translation>互換性のないコーデックおよびコンテナ形式です。</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerVideoInputDeviceControl</name>
     <message>
         <source>Main camera</source>
-        <translation>Основная камера</translation>
+        <translation>メインカメラ</translation>
     </message>
     <message>
         <source>Front camera</source>
-        <translation>Передняя камера</translation>
+        <translation>フロントカメラ</translation>
     </message>
 </context>
 <context>
     <name>QMediaPlayer</name>
     <message>
         <source>The QMediaPlayer object does not have a valid service</source>
-        <translation>Объект QMediaPlayer не имеет подходящей службы</translation>
+        <translation>QMediaPlayer には有効なサービスがありません</translation>
     </message>
 </context>
 <context>
     <name>QMediaPlaylist</name>
     <message>
         <source>Could not add items to read only playlist.</source>
-        <translation>Не удалось добавить элементы для чтения только списка воспроизведения.</translation>
+        <translation>読み込み専用のプレイリストにはアイテムを追加できません。</translation>
     </message>
     <message>
         <source>Playlist format is not supported</source>
-        <translation>Формат списка воспроизведения не поддерживается</translation>
+        <translation>プレイリストのフォーマットがサポートされていません</translation>
     </message>
     <message>
         <source>The file could not be accessed.</source>
-        <translation>Не удалось получить доступ к файлу.</translation>
+        <translation>ファイルにアクセスできませんでした。</translation>
     </message>
     <message>
         <source>Playlist format is not supported.</source>
-        <translation>Формат списка воспроизведения не поддерживается.</translation>
+        <translation>プレイリストのフォーマットがサポートされていません。</translation>
     </message>
 </context>
 <context>
     <name>QMultimediaDeclarativeModule</name>
     <message>
         <source>CameraCapture is provided by Camera</source>
-        <translation>CameraCapture предоставляется камерой</translation>
+        <translation>カメラが提供する CameraCapture</translation>
     </message>
     <message>
         <source>CameraRecorder is provided by Camera</source>
-        <translation>CameraRecorder предоставляется камерой</translation>
+        <translation>カメラが提供する CameraRecorder</translation>
     </message>
     <message>
         <source>CameraExposure is provided by Camera</source>
-        <translation>CameraExposure предоставляется камерой</translation>
+        <translation>カメラが提供する CameraExposure</translation>
     </message>
     <message>
         <source>CameraFocus is provided by Camera</source>
-        <translation>CameraFocus предоставляется камерой</translation>
+        <translation>カメラが提供する CameraFocus</translation>
     </message>
     <message>
         <source>CameraFlash is provided by Camera</source>
-        <translation>CameraFlash предоставляется камерой</translation>
+        <translation>カメラが提供する CameraFlash</translation>
     </message>
     <message>
         <source>CameraImageProcessing is provided by Camera</source>
-        <translation>CameraImageProcessing предоставляется камерой</translation>
+        <translation>カメラが提供する CameraImageProcessing</translation>
     </message>
 </context>
 <context>
     <name>QPlaylistFileParser</name>
     <message>
         <source>%1 does not exist</source>
-        <translation>%1 не существует</translation>
+        <translation>%1 が存在しません</translation>
     </message>
 </context>
 <context>
     <name>QPlaylistFileParserPrivate</name>
     <message>
         <source>%1 playlist type is unknown</source>
-        <translation>Неизвестный формат списка воспроизведения %1</translation>
+        <translation>プレイリスト %1 の型が不明です</translation>
     </message>
     <message>
         <source>invalid line in playlist file</source>
-        <translation>неверная строка в файле списка воспроизведения</translation>
+        <translation>プレイリストに無効な行があります</translation>
     </message>
     <message>
         <source>Empty file provided</source>
-        <translation>Предоставлен пустой файл</translation>
+        <translation>ファイルが空です</translation>
     </message>
 </context>
 </TS>

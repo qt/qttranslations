@@ -20,6 +20,122 @@
     </message>
 </context>
 <context>
+    <name>BbCameraAudioEncoderSettingsControl</name>
+    <message>
+        <source>No compression</source>
+        <translation>Keine Kompression</translation>
+    </message>
+    <message>
+        <source>AAC compression</source>
+        <translation>AAC-Kompression</translation>
+    </message>
+    <message>
+        <source>PCM uncompressed</source>
+        <translation>Unkomprimiertes PCM</translation>
+    </message>
+</context>
+<context>
+    <name>BbCameraMediaRecorderControl</name>
+    <message>
+        <source>Unable to retrieve mute status</source>
+        <translation>Status der Stummschaltung kann nicht bestimmt werden</translation>
+    </message>
+    <message>
+        <source>Unable to retrieve audio input volume</source>
+        <translation>Lautstärke des Audio-Eingangs kann nicht bestimmt werden</translation>
+    </message>
+    <message>
+        <source>Unable to set mute status</source>
+        <translation>Status der Stummschaltung kann nicht gesetzt werden</translation>
+    </message>
+    <message>
+        <source>Unable to set audio input volume</source>
+        <translation>Lautstärke des Audio-Eingangs kann nicht gesetzt werden</translation>
+    </message>
+</context>
+<context>
+    <name>BbCameraSession</name>
+    <message>
+        <source>Camera provides image in unsupported format</source>
+        <translation>Die Kamera liefert Bilddaten in einem nicht unterstützten Format</translation>
+    </message>
+    <message>
+        <source>Could not load JPEG data from frame</source>
+        <translation>Es konnten keine JPEG-Daten vom Bild geladen werden</translation>
+    </message>
+    <message>
+        <source>Camera not ready</source>
+        <translation>Kamera nicht bereit</translation>
+    </message>
+    <message>
+        <source>Unable to apply video settings</source>
+        <translation>Die Videoeinstellungen können nicht vorgenommen werden</translation>
+    </message>
+    <message>
+        <source>Could not open destination file:
+%1</source>
+        <translation>Die Zieldatei konnte nicht geöffnet werden:
+%1</translation>
+    </message>
+    <message>
+        <source>Unable to open camera</source>
+        <translation>Die Kamera kann nicht geöffnet werden</translation>
+    </message>
+    <message>
+        <source>Unable to retrieve native camera orientation</source>
+        <translation>Die gerätespezifische Ausrichtung der Kamera kann nicht bestimmt werden</translation>
+    </message>
+    <message>
+        <source>Unable to close camera</source>
+        <translation>Die Kamera kann nicht geschlossen werden</translation>
+    </message>
+    <message>
+        <source>Unable to start video recording</source>
+        <translation>Die Videoaufaufzeichnung kann nicht gestartet werden</translation>
+    </message>
+    <message>
+        <source>Unable to stop video recording</source>
+        <translation>Die Videoaufaufzeichnung kann nicht angehalten werden</translation>
+    </message>
+</context>
+<context>
+    <name>BbCameraVideoEncoderSettingsControl</name>
+    <message>
+        <source>No compression</source>
+        <translation>Keine Kompression</translation>
+    </message>
+    <message>
+        <source>AVC1 compression</source>
+        <translation>AVC1-Kompression</translation>
+    </message>
+    <message>
+        <source>H264 compression</source>
+        <translation>H264-Kompression</translation>
+    </message>
+</context>
+<context>
+    <name>BbImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation>JPEG-Bild</translation>
+    </message>
+</context>
+<context>
+    <name>BbVideoDeviceSelectorControl</name>
+    <message>
+        <source>Front Camera</source>
+        <translation>Vordere Kamera</translation>
+    </message>
+    <message>
+        <source>Rear Camera</source>
+        <translation>Hintere Kamera</translation>
+    </message>
+    <message>
+        <source>Desktop Camera</source>
+        <translation>Tischkamera</translation>
+    </message>
+</context>
+<context>
     <name>CameraBinImageCapture</name>
     <message>
         <source>Camera not ready</source>
