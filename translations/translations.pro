@@ -11,11 +11,13 @@ LUPDATE += -locations relative -no-ui-lines
 
 TS_TARGETS =
 
-# meta target name, target name, lupdate base options, files
+# meta target name, target name, project files, ts files
 defineTest(addTsTarget) {
-    cv = $${2}.commands
     dir = $$section(PWD, /, 0, -3)
-    $$cv = cd $$dir && $$LUPDATE -pro-out $$shadowed($$dir) $$3 -ts $$4
+    for(p, 3): \
+        pros += -pro-out $$shadowed($$dir/$$dirname(p)) $$p
+    cv = $${2}.commands
+    $$cv = cd $$dir && $$LUPDATE $$pros -ts $$4
     export($$cv)
     dv = $${1}.depends
     $$dv += $$2
@@ -24,7 +26,7 @@ defineTest(addTsTarget) {
     export(TS_TARGETS)
 }
 
-# target basename, lupdate base options
+# target basename, project files
 defineTest(addTsTargets) {
     files = $$files($$PWD/$${1}_??.ts) $$files($$PWD/$${1}_??_??.ts)
     for(file, files) {
