@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="de_DE">
+<TS version="2.1" language="de_DE">
 <context>
     <name>AudioCaptureSession</name>
     <message>
@@ -283,6 +283,81 @@
     <message>
         <source>Length%1</source>
         <translation>Länge%1</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidAudioEncoderSettingsControl</name>
+    <message>
+        <source>Adaptive Multi-Rate Narrowband (AMR-NB) audio codec</source>
+        <translation>Adaptive Multi-Rate Narrowband (AMR-NB) audio codec</translation>
+    </message>
+    <message>
+        <source>Adaptive Multi-Rate Wideband (AMR-WB) audio codec</source>
+        <translation>Adaptive Multi-Rate Wideband (AMR-WB) audio codec</translation>
+    </message>
+    <message>
+        <source>AAC Low Complexity (AAC-LC) audio codec</source>
+        <translation>AAC Low Complexity (AAC-LC) audio codec</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidCameraSession</name>
+    <message>
+        <source>Camera not ready</source>
+        <translation>Kamera nicht bereit</translation>
+    </message>
+    <message>
+        <source>Drive mode not supported</source>
+        <translation>Auslösemodus wird nicht unterstützt</translation>
+    </message>
+    <message>
+        <source>Could not open destination file: %1</source>
+        <translation>Die Zieldatei %1 konnte nicht geöffnet werden</translation>
+    </message>
+    <message>
+        <source>Could not load JPEG data from captured image</source>
+        <translation>Die JPEG-Daten des aufgenommen Bildes konnten nicht geladen werden</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation>JPEG-Bild</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidMediaContainerControl</name>
+    <message>
+        <source>MPEG4 media file format</source>
+        <translation>MPEG4-Medien-Dateiformat</translation>
+    </message>
+    <message>
+        <source>3GPP media file format</source>
+        <translation>3GPP-Medien-Dateiformat</translation>
+    </message>
+    <message>
+        <source>AMR NB file format</source>
+        <translation>AMR-NB-Dateiformat</translation>
+    </message>
+    <message>
+        <source>AMR WB file format</source>
+        <translation>AMR-WB-Dateiformat</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidVideoEncoderSettingsControl</name>
+    <message>
+        <source>H.263 compression</source>
+        <translation>H.263-Kompression</translation>
+    </message>
+    <message>
+        <source>H.264 compression</source>
+        <translation>H.264-Kompression</translation>
+    </message>
+    <message>
+        <source>MPEG-4 SP compression</source>
+        <translation>MPEG-4-SP-Kompression</translation>
     </message>
 </context>
 <context>

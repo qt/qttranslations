@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="de_DE">
+<TS version="2.1" language="de_DE">
 <context>
     <name>QXmlPatternistCLI</name>
     <message>
@@ -1847,6 +1847,90 @@
     <message>
         <source>Only the Unicode Codepoint Collation is supported(%1). %2 is unsupported.</source>
         <translation>Es wird nur Unicode Codepoint Collation unterstützt (%1). %2 wird nicht unterstützt.</translation>
+    </message>
+    <message>
+        <source>An %1-attribute with value %2 has already been declared.</source>
+        <translation>Ein %1-Attribut mit dem Wert %2 wurde bereits deklariert.</translation>
+    </message>
+    <message>
+        <source>An %1-attribute must have a valid %2 as value, which %3 isn&apos;t.</source>
+        <translation>Ein %1-Attribut muss einen gültigen %2 als Wert haben, was bei %3 nicht der Fall ist.</translation>
+    </message>
+    <message>
+        <source>No operand in an integer division, %1, can be %2.</source>
+        <translation>Fehlender Operand bei ganzzahliger Division, %1, es könnte sich um %2 handeln.</translation>
+    </message>
+    <message>
+        <source>The first operand in an integer division, %1, cannot be infinity (%2).</source>
+        <translation>Der erste Operand einer ganzzahligen Division, %1, kann nicht Unendlich (%2) sein.</translation>
+    </message>
+    <message>
+        <source>The second operand in a division, %1, cannot be zero (%2).</source>
+        <translation>Der zweite Operand einer Division, %1, kann nicht Null (%2) sein.</translation>
+    </message>
+    <message>
+        <source>No casting is possible with %1 as the target type.</source>
+        <translation>Es ist keine Typumwandlung mit %1 als Zieltyp möglich.</translation>
+    </message>
+    <message>
+        <source>It is not possible to cast from %1 to %2.</source>
+        <translation>Es ist keine Typumwandlung von %1 nach %2 möglich.</translation>
+    </message>
+    <message>
+        <source>Casting to %1 is not possible because it is an abstract type, and can therefore never be instantiated.</source>
+        <translation>Eine Typumwandlung nach %1 ist nicht möglich, da es ein abstrakter Typ ist und somit niemals instanziiert werden kann.</translation>
+    </message>
+    <message>
+        <source>It&apos;s not possible to cast the value %1 of type %2 to %3</source>
+        <translation>Es ist nicht möglich, den Wert %1 des Typs %2 in %3 zu wandeln</translation>
+    </message>
+    <message>
+        <source>Failure when casting from %1 to %2: %3</source>
+        <translation>Fehlschlag beim Umwandeln von %1 nach %2: %3</translation>
+    </message>
+    <message>
+        <source>No comparisons can be done involving the type %1.</source>
+        <translation>Es können keine Vergleichsoperationen mit dem Typ %1 durchgeführt werden.</translation>
+    </message>
+    <message>
+        <source>Operator %1 is not available between atomic values of type %2 and %3.</source>
+        <translation>Der Operator %1 ist für die atomaren Typen %2 und %3 nicht verfügbar.</translation>
+    </message>
+    <message>
+        <source>Circularity detected</source>
+        <translation>Zirkularität festgestellt</translation>
+    </message>
+    <message>
+        <source>The first argument to %1 cannot be of type %2.</source>
+        <translation>Das erste Argument für %1 kann nicht vom Typ %2 sein.</translation>
+    </message>
+    <message>
+        <source>Attribute %1 cannot appear on the element %2. Only the standard attributes can appear.</source>
+        <translation>Das Attribut %1 kann nicht beim Element %2 erscheinen. Es sind nur Standardattribute zulässig.</translation>
+    </message>
+    <message>
+        <source>Attribute %1 cannot appear on the element %2. Only %3 is allowed, and the standard attributes.</source>
+        <translation>Das Attribut %1 kann nicht beim Element %2 erscheinen. Es sind nur %3 und die Standardattribute zulässig.</translation>
+    </message>
+    <message>
+        <source>Attribute %1 cannot appear on the element %2. Allowed is %3, %4, and the standard attributes.</source>
+        <translation>Das Attribut %1 kann nicht beim Element %2 erscheinen. Es sind nur %3, %4 und die Standardattribute zulässig.</translation>
+    </message>
+    <message>
+        <source>Attribute %1 cannot appear on the element %2. Allowed is %3, and the standard attributes.</source>
+        <translation>Das Attribut %1 kann nicht beim Element %2 erscheinen. Es sind nur %3 und die Standardattribute zulässig.</translation>
+    </message>
+    <message>
+        <source>XSL-T attributes on XSL-T elements must be in the null namespace, not in the XSL-T namespace which %1 is.</source>
+        <translation>XSL-T-Attribute von XSL-T-Elementen müssen im Null-Namensraum sein und nicht im XSL-T Namensraum, was für %1 der Fall ist.</translation>
+    </message>
+    <message>
+        <source>The attribute %1 must appear on element %2.</source>
+        <translation>Bei dem Element %2 muss das Attribut %1 erscheinen.</translation>
+    </message>
+    <message>
+        <source>The element with local name %1 does not exist in XSL-T.</source>
+        <translation>Das Element mit dem lokalen Namen %1 existiert in XSL-T nicht.</translation>
     </message>
 </context>
 </TS>

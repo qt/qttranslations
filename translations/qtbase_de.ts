@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="de_DE">
+<TS version="2.1" language="de_DE">
 <context>
     <name>CloseButton</name>
     <message>
@@ -221,8 +221,22 @@
         <translation>A&amp;lphakanal:</translation>
     </message>
     <message>
+        <source>&amp;HTML:</source>
+        <translation>&amp;HTML:</translation>
+    </message>
+    <message>
+        <source>Cursor at %1, %2, color: %3
+Press ESC to cancel</source>
+        <translation>Cursor bei %1, %2, Farbe: %3
+Drücken Sie ESC, um abzubrechen</translation>
+    </message>
+    <message>
         <source>Select Color</source>
         <translation>Farbauswahl</translation>
+    </message>
+    <message>
+        <source>Pick Screen Color</source>
+        <translation>Farbe vom Bildschirm wählen</translation>
     </message>
     <message>
         <source>&amp;Basic colors</source>
@@ -253,6 +267,49 @@
     </message>
 </context>
 <context>
+    <name>QCommandLineParser</name>
+    <message>
+        <source>Displays version information.</source>
+        <translation>Zeigt Versionsinformation an.</translation>
+    </message>
+    <message>
+        <source>Displays this help.</source>
+        <translation>Zeigt diese Hilfe an.</translation>
+    </message>
+    <message>
+        <source>Unknown option &apos;%1&apos;.</source>
+        <translation>Unbekannte Option &apos;%1&apos;.</translation>
+    </message>
+    <message>
+        <source>Unknown options: %1.</source>
+        <translation>Unbekannte Optionen: %1.</translation>
+    </message>
+    <message>
+        <source>Missing value after &apos;%1&apos;.</source>
+        <translation>Nach &apos;%1&apos; fehlt der Wert.</translation>
+    </message>
+    <message>
+        <source>Unexpected value after &apos;%1&apos;.</source>
+        <translation>Wert unerwartet nach &apos;%1&apos;.</translation>
+    </message>
+    <message>
+        <source>[options]</source>
+        <translation>[Optionen]</translation>
+    </message>
+    <message>
+        <source>Usage: %1</source>
+        <translation>Aufruf: %1</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation>Optionen:</translation>
+    </message>
+    <message>
+        <source>Arguments:</source>
+        <translation>Argumente:</translation>
+    </message>
+</context>
+<context>
     <name>QCoreApplication</name>
     <message>
         <source>%1: key is empty</source>
@@ -273,6 +330,110 @@
         <source>QT_LAYOUT_DIRECTION</source>
         <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
         <translation>LTR</translation>
+    </message>
+</context>
+<context>
+    <name>QCupsJobWidget</name>
+    <message>
+        <source>Job</source>
+        <translation>Druckauftrag</translation>
+    </message>
+    <message>
+        <source>Job Control</source>
+        <translation>Einstellungen zum Druckauftrag</translation>
+    </message>
+    <message>
+        <source>Scheduled printing:</source>
+        <translation>Zum Drucken vorgesehen:</translation>
+    </message>
+    <message>
+        <source>Billing information:</source>
+        <translation>Rechnungsinformation:</translation>
+    </message>
+    <message>
+        <source>Job priority:</source>
+        <translation>Priorität des Druckauftrags:</translation>
+    </message>
+    <message>
+        <source>Banner Pages</source>
+        <translation>Kopfseiten</translation>
+    </message>
+    <message>
+        <source>End:</source>
+        <comment>Banner page at end</comment>
+        <translation>Ende:</translation>
+    </message>
+    <message>
+        <source>Start:</source>
+        <comment>Banner page at start</comment>
+        <translation>Anfang:</translation>
+    </message>
+    <message>
+        <source>Print Immediately</source>
+        <translation>Sofort ausdrucken</translation>
+    </message>
+    <message>
+        <source>Hold Indefinitely</source>
+        <translation>Unbegrenzt vorhalten</translation>
+    </message>
+    <message>
+        <source>Day (06:00 to 17:59)</source>
+        <translation>Tagsüber (06:00 bis 17:59)</translation>
+    </message>
+    <message>
+        <source>Night (18:00 to 05:59)</source>
+        <translation>Nachts (18:00 bis 05:59)</translation>
+    </message>
+    <message>
+        <source>Second Shift (16:00 to 23:59)</source>
+        <translation>Zweite Schicht (16:00 bis 23:59)</translation>
+    </message>
+    <message>
+        <source>Third Shift (00:00 to 07:59)</source>
+        <translation>Dritte Schicht (00:00 bis 07:59)</translation>
+    </message>
+    <message>
+        <source>Weekend (Saturday to Sunday)</source>
+        <translation>Wochenende (Samstag bis Sonntag)</translation>
+    </message>
+    <message>
+        <source>Specific Time</source>
+        <translation>Zu festgelegter Zeit</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Keine</translation>
+    </message>
+    <message>
+        <source>Standard</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Vorgabe</translation>
+    </message>
+    <message>
+        <source>Unclassified</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Öffentlich</translation>
+    </message>
+    <message>
+        <source>Confidential</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Vertraulich</translation>
+    </message>
+    <message>
+        <source>Classified</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Nicht öffentlich</translation>
+    </message>
+    <message>
+        <source>Secret</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Geheim</translation>
+    </message>
+    <message>
+        <source>Top Secret</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Streng geheim</translation>
     </message>
 </context>
 <context>
@@ -759,6 +920,10 @@
     <message>
         <source>&amp;New Folder</source>
         <translation>&amp;Neues Verzeichnis</translation>
+    </message>
+    <message>
+        <source>All files (*)</source>
+        <translation>Alle Dateien (*)</translation>
     </message>
     <message>
         <source>Directories</source>
@@ -1522,6 +1687,18 @@ Möchten Sie die Datei trotzdem löschen?</translation>
     </message>
 </context>
 <context>
+    <name>QKeySequenceEdit</name>
+    <message>
+        <source>Press shortcut</source>
+        <translation>Geben Sie ein Tastenkürzel ein</translation>
+    </message>
+    <message>
+        <source>%1, ...</source>
+        <extracomment>This text is an &quot;unfinished&quot; shortcut, expands like &quot;Ctrl+A, ...&quot;</extracomment>
+        <translation>%1, ...</translation>
+    </message>
+</context>
+<context>
     <name>QLibrary</name>
     <message>
         <source>&apos;%1&apos; is not an ELF object (%2)</source>
@@ -1570,6 +1747,38 @@ Möchten Sie die Datei trotzdem löschen?</translation>
     <message>
         <source>Cannot resolve symbol &quot;%1&quot; in %2: %3</source>
         <translation>Das Symbol &quot;%1&quot; kann in %2 nicht aufgelöst werden: %3</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a valid Mach-O binary (%2)</source>
+        <translation>&apos;%1&apos; ist keine gültige ausführbare Datei des Typs Mach-O (%2)</translation>
+    </message>
+    <message>
+        <source>file is corrupt</source>
+        <translation>Datei beschädigt</translation>
+    </message>
+    <message>
+        <source>file too small</source>
+        <translation>Datei zu klein</translation>
+    </message>
+    <message>
+        <source>no suitable architecture in fat binary</source>
+        <translation>Keine passende Architektur in ausführbarer Datei (fat binary)</translation>
+    </message>
+    <message>
+        <source>invalid magic %1</source>
+        <translation>Ungültiger Magic-Code: %1</translation>
+    </message>
+    <message>
+        <source>wrong architecture</source>
+        <translation>Falsche Architektur</translation>
+    </message>
+    <message>
+        <source>not a dynamic library</source>
+        <translation>Keine dynamische Bibliothek</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a Qt plugin</source>
+        <translation>&apos;%1&apos; ist kein Qt-Plugin</translation>
     </message>
 </context>
 <context>
@@ -2377,6 +2586,18 @@ Möchten Sie die Datei trotzdem löschen?</translation>
         <source>Points (pt)</source>
         <translation>Punkte (pt)</translation>
     </message>
+    <message>
+        <source>Page Layout</source>
+        <translation>Seitenaufbau</translation>
+    </message>
+    <message>
+        <source>Page order:</source>
+        <translation>Reihenfolge der Seiten:</translation>
+    </message>
+    <message>
+        <source>Pages per sheet:</source>
+        <translation>Seiten pro Blatt:</translation>
+    </message>
 </context>
 <context>
     <name>QPluginLoader</name>
@@ -2520,6 +2741,74 @@ Möchten Sie die Datei trotzdem löschen?</translation>
         <translation>Benutzerdefiniert</translation>
     </message>
     <message>
+        <source>Left to Right, Top to Bottom</source>
+        <translation>Von links nach rechts, von oben nach unten</translation>
+    </message>
+    <message>
+        <source>Left to Right, Bottom to Top</source>
+        <translation>Von links nach rechts, von unten nach oben</translation>
+    </message>
+    <message>
+        <source>Right to Left, Bottom to Top</source>
+        <translation>Von rechts nach links, von unten nach oben</translation>
+    </message>
+    <message>
+        <source>Right to Left, Top to Bottom</source>
+        <translation>Von rechts nach links, von oben nach unten</translation>
+    </message>
+    <message>
+        <source>Bottom to Top, Left to Right</source>
+        <translation>Von unten nach oben, von links nach rechts</translation>
+    </message>
+    <message>
+        <source>Bottom to Top, Right to Left</source>
+        <translation>Von unten nach oben, von rechts nach links</translation>
+    </message>
+    <message>
+        <source>Top to Bottom, Left to Right</source>
+        <translation>Von oben nach unten, von links nach rechts</translation>
+    </message>
+    <message>
+        <source>Top to Bottom, Right to Left</source>
+        <translation>Von oben nach unten, von rechts nach links</translation>
+    </message>
+    <message>
+        <source>1 (1x1)</source>
+        <translation>1 (1x1)</translation>
+    </message>
+    <message>
+        <source>2 (2x1)</source>
+        <translation>2 (2x1)</translation>
+    </message>
+    <message>
+        <source>4 (2x2)</source>
+        <translation>4 (2x2)</translation>
+    </message>
+    <message>
+        <source>6 (2x3)</source>
+        <translation>6 (2x3)</translation>
+    </message>
+    <message>
+        <source>9 (3x3)</source>
+        <translation>9 (3x3)</translation>
+    </message>
+    <message>
+        <source>16 (4x4)</source>
+        <translation>16 (4x4)</translation>
+    </message>
+    <message>
+        <source>All Pages</source>
+        <translation>Alle Seiten</translation>
+    </message>
+    <message>
+        <source>Odd Pages</source>
+        <translation>Ungerade Seiten</translation>
+    </message>
+    <message>
+        <source>Even Pages</source>
+        <translation>Gerade Seiten</translation>
+    </message>
+    <message>
         <source>&amp;Options &gt;&gt;</source>
         <translation>&amp;Einstellungen &gt;&gt;</translation>
     </message>
@@ -2564,6 +2853,12 @@ Bitte wählen Sie einen anderen Dateinamen.</translation>
 Do you want to overwrite it?</source>
         <translation>Die Datei %1 existiert bereits.
 Soll sie überschrieben werden?</translation>
+    </message>
+    <message>
+        <source>Options &apos;Pages Per Sheet&apos; and &apos;Page Set&apos; cannot be used together.
+Please turn one of those options off.</source>
+        <translation>Die Einstellungen &quot;Seiten pro Blatt&quot; und &quot;Seiten-Satz&quot; können nicht zusammen verwendet werden.
+Bitte deaktivieren Sie eine der beiden.</translation>
     </message>
     <message>
         <source>The &apos;From&apos; value cannot be greater than the &apos;To&apos; value.</source>
@@ -2651,6 +2946,13 @@ Soll sie überschrieben werden?</translation>
     <message>
         <source>Export to PDF</source>
         <translation>PDF exportieren</translation>
+    </message>
+</context>
+<context>
+    <name>QPrintPropertiesDialog</name>
+    <message>
+        <source>Job Options</source>
+        <translation>Einstellungen zum Druckauftrag</translation>
     </message>
 </context>
 <context>
@@ -2745,6 +3047,10 @@ Soll sie überschrieben werden?</translation>
     <message>
         <source>Short side</source>
         <translation>Kurze Seite</translation>
+    </message>
+    <message>
+        <source>Page Set:</source>
+        <translation>Seiten-Satz:</translation>
     </message>
 </context>
 <context>
@@ -2841,6 +3147,17 @@ Soll sie überschrieben werden?</translation>
     <message>
         <source>OK</source>
         <translation>OK</translation>
+    </message>
+    <message>
+        <source>All files (*.*)</source>
+        <translation>Alle Dateien (*.*)</translation>
+    </message>
+</context>
+<context>
+    <name>QQnxFilePicker</name>
+    <message>
+        <source>Pick a file</source>
+        <translation>Wählen Sie eine Datei aus</translation>
     </message>
 </context>
 <context>
@@ -4275,6 +4592,26 @@ Soll sie überschrieben werden?</translation>
         <translation>Hangeul Special</translation>
     </message>
     <message>
+        <source>Cancel</source>
+        <translation>Abbrechen</translation>
+    </message>
+    <message>
+        <source>Printer</source>
+        <translation>Drucker</translation>
+    </message>
+    <message>
+        <source>Execute</source>
+        <translation>Ausführen</translation>
+    </message>
+    <message>
+        <source>Play</source>
+        <translation>Abspielen</translation>
+    </message>
+    <message>
+        <source>Zoom</source>
+        <translation>Vergrößern</translation>
+    </message>
+    <message>
         <source>Ctrl</source>
         <translation>Strg</translation>
     </message>
@@ -4446,9 +4783,7 @@ Soll sie überschrieben werden?</translation>
     </message>
     <message>
         <source>panel</source>
-        <extracomment>Role of an accessible object
-----------
-Role of an accessible object</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>Panel</translation>
     </message>
     <message>
