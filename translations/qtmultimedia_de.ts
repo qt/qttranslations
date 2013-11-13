@@ -2,10 +2,10 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="de_DE">
 <context>
-    <name>AudioCaptureSession</name>
+    <name>AudioContainerControl</name>
     <message>
-        <source>RAW file format</source>
-        <translation>RAW-Dateiformat</translation>
+        <source>RAW (headerless) file format</source>
+        <translation>RAW-Dateiformat (ohne Header)</translation>
     </message>
     <message>
         <source>WAV file format</source>
@@ -15,8 +15,8 @@
 <context>
     <name>AudioEncoderControl</name>
     <message>
-        <source>PCM audio data</source>
-        <translation>PCM-Audiodaten</translation>
+        <source>Linear PCM audio data</source>
+        <translation>PCM-Audiodaten (linear)</translation>
     </message>
 </context>
 <context>
@@ -308,15 +308,12 @@
     </message>
     <message>
         <source>Drive mode not supported</source>
+        <extracomment>Drive mode is the camera&apos;s shutter mode, for example single shot, continuos exposure, etc.</extracomment>
         <translation>Auslösemodus wird nicht unterstützt</translation>
     </message>
     <message>
         <source>Could not open destination file: %1</source>
         <translation>Die Zieldatei %1 konnte nicht geöffnet werden</translation>
-    </message>
-    <message>
-        <source>Could not load JPEG data from captured image</source>
-        <translation>Die JPEG-Daten des aufgenommen Bildes konnten nicht geladen werden</translation>
     </message>
 </context>
 <context>

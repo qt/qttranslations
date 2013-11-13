@@ -39,10 +39,6 @@
         <translation>Größe</translation>
     </message>
     <message>
-        <source>Others</source>
-        <translation>Andere</translation>
-    </message>
-    <message>
         <source>Italic</source>
         <translation>Kursiv</translation>
     </message>
@@ -61,6 +57,10 @@
     <message>
         <source>Sample</source>
         <translation>Beispiel</translation>
+    </message>
+    <message>
+        <source>Style</source>
+        <translation>Schriftstil</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -801,8 +801,20 @@
         <translation>ist kein Typ</translation>
     </message>
     <message>
+        <source>static plugin for module &quot;%1&quot; with name &quot;%2&quot; has no metadata URI</source>
+        <translation>Das statische Plugin des Moduls &quot;%1&quot; mit dem Namen &quot;%2&quot; hat keinen Metadaten-URI</translation>
+    </message>
+    <message>
         <source>plugin cannot be loaded for module &quot;%1&quot;: %2</source>
         <translation>Das Plugin des Moduls &quot;%1&quot; kann nicht geladen werden: %2</translation>
+    </message>
+    <message>
+        <source>static plugin for module &quot;%1&quot; with name &quot;%2&quot; cannot be loaded: %3</source>
+        <translation>Das statische Plugin des Moduls &quot;%1&quot; mit dem Namen &quot;%2&quot; kann nicht geladen werden: %3</translation>
+    </message>
+    <message>
+        <source>could not resolve all plugins for module &quot;%1&quot;</source>
+        <translation>Es konnten nicht alle Plugins für das Modul &quot;%1&quot; aufgelöst werden</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; plugin &quot;%2&quot; not found</source>
@@ -827,6 +839,10 @@
     <message>
         <source>import &quot;%1&quot; has no qmldir and no namespace</source>
         <translation>&quot;qmldir&quot; und Namensraum fehlen bei dem Import &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source>Module loaded for URI &apos;%1&apos; does not implement QQmlTypesExtensionInterface</source>
+        <translation>Das für den URI &apos;%1&apos; geladene Modul implementiert nicht QQmlTypesExtensionInterface</translation>
     </message>
     <message>
         <source>File name case mismatch for &quot;%1&quot;</source>
@@ -965,10 +981,6 @@
     <message>
         <source>Unterminated regular expression class</source>
         <translation>Klasse im regulären Ausdruck nicht abgeschlossen</translation>
-    </message>
-    <message>
-        <source>Deprecated JavaScript `with&apos; statement detected in QML expression. Support for this will be removed in Qt 5.2!</source>
-        <translation>In dem QML-Ausdruck wurde die veraltete JavaScript-Anweisung &apos;with&apos; gefunden. Sie wird in Qt 5.2 nicht mehr unterstützt!</translation>
     </message>
     <message>
         <source>Syntax error</source>
@@ -1388,13 +1400,6 @@
     </message>
 </context>
 <context>
-    <name>QQuickMessageAttached</name>
-    <message>
-        <source>Message can only be used via the attached property.</source>
-        <translation>Message kann nur über die Eigenschaft des Typs &quot;attached&quot; verwendet werden.</translation>
-    </message>
-</context>
-<context>
     <name>QQuickPaintedItem</name>
     <message>
         <source>Cannot create instance of abstract class PaintedItem</source>
@@ -1680,6 +1685,10 @@
         <source>Unable to create object of type %1</source>
         <translation>Es konnte kein Objekt des Typs %1 erzeugt werden</translation>
     </message>
+    <message>
+        <source>Composite Singleton Type %1 is not creatable</source>
+        <translation>Das Composite Singleton des Typs %1 ist nicht erzeugbar</translation>
+    </message>
 </context>
 <context>
     <name>qmlRegisterType</name>
@@ -1698,73 +1707,6 @@
     <message>
         <source>Cannot install %1 &apos;%2&apos; into protected module &apos;%3&apos; version &apos;%4&apos;</source>
         <translation>%1 &apos;%2&apos; kann nicht in das geschützte Modul &apos;%3&apos; der Version &apos;%4&apos; installiert werden</translation>
-    </message>
-</context>
-<context>
-    <name>qv4codegen</name>
-    <message>
-        <source>Unexpected strict mode reserved word</source>
-        <translation>Für strikten Modus vorgesehenes Wort ist hier unerwartet</translation>
-    </message>
-    <message>
-        <source>Variable name may not be eval or arguments in strict mode</source>
-        <translation>Im strikten Modus darf der Variablenname weder eval noch arguments sein</translation>
-    </message>
-    <message>
-        <source>conditional function or closure declaration</source>
-        <translation>Bedingte Funktion oder closure-Deklaration</translation>
-    </message>
-    <message>
-        <source>unexpected token</source>
-        <translation>Unerwartetes Token</translation>
-    </message>
-    <message>
-        <source>Function name may not be eval or arguments in strict mode</source>
-        <translation>Im strikten Modus darf der Funktionsname weder eval noch arguments sein</translation>
-    </message>
-    <message>
-        <source>&apos;with&apos; statement is not allowed in strict mode</source>
-        <translation>Die &apos;with&apos;-Anweisung ist im strikten Modus nicht zulässig</translation>
-    </message>
-    <message>
-        <source>Duplicate parameter name &apos;%1&apos; is not allowed in strict mode</source>
-        <translation>Der gedoppelte Parametername &apos;%1&apos; ist im strikten Modus nicht zulässig</translation>
-    </message>
-    <message>
-        <source>&apos;%1&apos; cannot be used as parameter name in strict mode</source>
-        <translation>&apos;%1&apos; kann im strikten Modus nicht als Parametername verwendet werden</translation>
-    </message>
-    <message>
-        <source>left-hand side of assignment operator is not an lvalue</source>
-        <translation>Die linke Seite der Zuweisung ist kein lvalue</translation>
-    </message>
-    <message>
-        <source>left-hand side of inplace operator is not an lvalue</source>
-        <translation>Die linke Seite des inplace-Operators ist kein lvalue</translation>
-    </message>
-    <message>
-        <source>Illegal duplicate key &apos;%1&apos; in object literal</source>
-        <translation>Unzulässiger doppelt vorhandender Schlüssel &apos;%1&apos; im Objektliteral</translation>
-    </message>
-    <message>
-        <source>Break outside of loop</source>
-        <translation>Break außerhalb einer Schleife</translation>
-    </message>
-    <message>
-        <source>Undefined label &apos;%1&apos;</source>
-        <translation>Nicht definierte Sprungmarke &apos;%1&apos;</translation>
-    </message>
-    <message>
-        <source>continue outside of loop</source>
-        <translation>continue außerhalb einer Schleife</translation>
-    </message>
-    <message>
-        <source>Return statement outside of function</source>
-        <translation>Return-Anweisung außerhalb einer Funktion</translation>
-    </message>
-    <message>
-        <source>Catch variable name may not be eval or arguments in strict mode</source>
-        <translation>Im strikten Modus darf der Name einer catch-Variablen weder eval noch arguments sein</translation>
     </message>
 </context>
 </TS>
