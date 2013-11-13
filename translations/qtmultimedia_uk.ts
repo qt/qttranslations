@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="uk_UA">
+<TS version="2.1" language="uk_UA">
 <context>
     <name>AudioCaptureSession</name>
     <message>
         <source>RAW file format</source>
-        <translation>Файл формату RAW</translation>
+        <translation type="vanished">Файл формату RAW</translation>
+    </message>
+    <message>
+        <source>WAV file format</source>
+        <translation type="vanished">Файл формату WAV</translation>
+    </message>
+</context>
+<context>
+    <name>AudioContainerControl</name>
+    <message>
+        <source>RAW (headerless) file format</source>
+        <translation>Файл формату RAW (без заголовку)</translation>
     </message>
     <message>
         <source>WAV file format</source>
@@ -16,7 +27,11 @@
     <name>AudioEncoderControl</name>
     <message>
         <source>PCM audio data</source>
-        <translation>Аудіо-дані PCM</translation>
+        <translation type="vanished">Аудіо-дані PCM</translation>
+    </message>
+    <message>
+        <source>Linear PCM audio data</source>
+        <translation>Лінійні аудіо-дані PCM</translation>
     </message>
 </context>
 <context>
@@ -283,6 +298,78 @@
     <message>
         <source>Length%1</source>
         <translation>Довжина%1</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidAudioEncoderSettingsControl</name>
+    <message>
+        <source>Adaptive Multi-Rate Narrowband (AMR-NB) audio codec</source>
+        <translation>Адаптивний вузькополосне кодування звуку зі змінною швидкістю (AMR-NB)</translation>
+    </message>
+    <message>
+        <source>Adaptive Multi-Rate Wideband (AMR-WB) audio codec</source>
+        <translation>Адаптивний широкополосне кодування звуку зі змінною швидкістю (AMR-WB)</translation>
+    </message>
+    <message>
+        <source>AAC Low Complexity (AAC-LC) audio codec</source>
+        <translation>Аудіо-кодек AAC низької складності (AAC-LC)</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidCameraSession</name>
+    <message>
+        <source>Camera not ready</source>
+        <translation>Камера не готова</translation>
+    </message>
+    <message>
+        <source>Drive mode not supported</source>
+        <extracomment>Drive mode is the camera&apos;s shutter mode, for example single shot, continuos exposure, etc.</extracomment>
+        <translation>Режим не підтримується</translation>
+    </message>
+    <message>
+        <source>Could not open destination file: %1</source>
+        <translation>Не вдалось відкрити файл-отримувач: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation>Зображення JPEG</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidMediaContainerControl</name>
+    <message>
+        <source>MPEG4 media file format</source>
+        <translation>Медіа-файл формату MPEG4</translation>
+    </message>
+    <message>
+        <source>3GPP media file format</source>
+        <translation>Медіа-файл формату 3GPP</translation>
+    </message>
+    <message>
+        <source>AMR NB file format</source>
+        <translation>Файл формату AMR NB</translation>
+    </message>
+    <message>
+        <source>AMR WB file format</source>
+        <translation>Файл формату AMR WB</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidVideoEncoderSettingsControl</name>
+    <message>
+        <source>H.263 compression</source>
+        <translation>Стиснення H.263</translation>
+    </message>
+    <message>
+        <source>H.264 compression</source>
+        <translation>Стиснення H.264</translation>
+    </message>
+    <message>
+        <source>MPEG-4 SP compression</source>
+        <translation>Стиснення MPEG-4 SP</translation>
     </message>
 </context>
 <context>
