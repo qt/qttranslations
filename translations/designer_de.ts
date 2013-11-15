@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="de">
+<TS version="2.1" language="de">
 <context>
     <name>AbstractFindWidget</name>
     <message>
@@ -819,16 +819,12 @@
     <name>FormBuilder</name>
     <message>
         <source>Invalid stretch value for &apos;%1&apos;: &apos;%2&apos;</source>
-        <extracomment>Parsing layout stretch values
-----------
-Parsing layout stretch values</extracomment>
+        <extracomment>Parsing layout stretch values</extracomment>
         <translation>Ungültiger Stretch-Wert für &apos;%1&apos;: &apos;%2&apos;</translation>
     </message>
     <message>
         <source>Invalid minimum size for &apos;%1&apos;: &apos;%2&apos;</source>
-        <extracomment>Parsing grid layout minimum size values
-----------
-Parsing grid layout minimum size values</extracomment>
+        <extracomment>Parsing grid layout minimum size values</extracomment>
         <translation>Ungültige Minimalgröße für &apos;%1&apos;: &apos;%2&apos;</translation>
     </message>
 </context>
@@ -1814,9 +1810,7 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     <name>QFormBuilder</name>
     <message>
         <source>An empty class name was passed on to %1 (object name: &apos;%2&apos;).</source>
-        <extracomment>Empty class name passed to widget factory method
-----------
-Empty class name passed to widget factory method</extracomment>
+        <extracomment>Empty class name passed to widget factory method</extracomment>
         <translation>Der Methode %1 wurde ein leerer Klassennamen übergeben (Name &apos;%2&apos;).</translation>
     </message>
     <message>
@@ -2815,6 +2809,10 @@ Dies kann zum Beispiel eine Sprachkennung wie &quot;_de&quot; sein.</translation
         <source>Copy Path</source>
         <translation>Pfad kopieren</translation>
     </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filter</translation>
+    </message>
 </context>
 <context>
     <name>QtResourceViewDialog</name>
@@ -3225,6 +3223,10 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <source>Detailed View</source>
         <translation>Detaillierte Ansicht</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filter</translation>
     </message>
     <message>
         <source>Remove actions</source>
@@ -3766,17 +3768,6 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <source>Default</source>
         <translation>Vorgabe</translation>
-    </message>
-</context>
-<context>
-    <name>qdesigner_internal::FilterWidget</name>
-    <message>
-        <source>Filter</source>
-        <translation>Filter</translation>
-    </message>
-    <message>
-        <source>Clear text</source>
-        <translation>Text löschen</translation>
     </message>
 </context>
 <context>
@@ -4887,6 +4878,10 @@ ate the goose who was loose.</translation>
         <translation>Detailansicht</translation>
     </message>
     <message>
+        <source>Filter</source>
+        <translation>Filter</translation>
+    </message>
+    <message>
         <source>Object: %1
 Class: %2</source>
         <translation>Objekt: %1
@@ -5631,6 +5626,10 @@ Klasse: %2</translation>
     <message>
         <source>Warning: Widget creation failed in the widget box. This could be caused by invalid custom widget XML.</source>
         <translation>Warnung: Die Erzeugung des Widgets in der Widget-Box schlug fehl. Das könnte durch fehlerhaften XML-Code benutzerdefinierter Widgets verursacht worden sein.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filter</translation>
     </message>
 </context>
 <context>

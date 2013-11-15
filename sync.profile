@@ -7,11 +7,5 @@
 #
 %dependencies = (
     "qtbase" => "",
-    "qtscript" => "",
-    "qtsvg" => "",
-    "qtxmlpatterns" => "",
-    "qtdeclarative" => "",
-    "qtjsbackend" => "",
-    "qtactiveqt" => "",
     "qttools" => "",
 );

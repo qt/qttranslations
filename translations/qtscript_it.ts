@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE">
+<TS version="2.0" language="it_IT">
 <context>
     <name>QScriptBreakpointsModel</name>
     <message>
@@ -9,49 +9,49 @@
     </message>
     <message>
         <source>Location</source>
-        <translation>Stelle</translation>
+        <translation>Posizione</translation>
     </message>
     <message>
         <source>Condition</source>
-        <translation>Bedingung</translation>
+        <translation>Condizione</translation>
     </message>
     <message>
         <source>Ignore-count</source>
-        <translation>Auslösen nach</translation>
+        <translation>Ignora contatore</translation>
     </message>
     <message>
         <source>Single-shot</source>
-        <translation>Einmal auslösen</translation>
+        <translation>Una sola volta</translation>
     </message>
     <message>
         <source>Hit-count</source>
-        <translation>Ausgelöst</translation>
+        <translation>Raggiunto</translation>
     </message>
 </context>
 <context>
     <name>QScriptBreakpointsWidget</name>
     <message>
         <source>New</source>
-        <translation>Neu</translation>
+        <translation>Nuovo</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Löschen</translation>
+        <translation>Elimina</translation>
     </message>
 </context>
 <context>
     <name>QScriptDebugger</name>
     <message>
         <source>Go to Line</source>
-        <translation>Gehe zu Zeile</translation>
+        <translation>Vai alla riga</translation>
     </message>
     <message>
         <source>Line:</source>
-        <translation>Zeile:</translation>
+        <translation>Riga:</translation>
     </message>
     <message>
         <source>Interrupt</source>
-        <translation>Unterbrechen</translation>
+        <translation>Interrompi</translation>
     </message>
     <message>
         <source>Shift+F5</source>
@@ -59,7 +59,7 @@
     </message>
     <message>
         <source>Continue</source>
-        <translation>Weiter</translation>
+        <translation>Continua</translation>
     </message>
     <message>
         <source>F5</source>
@@ -67,7 +67,7 @@
     </message>
     <message>
         <source>Step Into</source>
-        <translation>Einzelschritt herein</translation>
+        <translation>Passa dentro</translation>
     </message>
     <message>
         <source>F11</source>
@@ -75,7 +75,7 @@
     </message>
     <message>
         <source>Step Over</source>
-        <translation>Einzelschritt über</translation>
+        <translation>Passa oltre</translation>
     </message>
     <message>
         <source>F10</source>
@@ -83,7 +83,7 @@
     </message>
     <message>
         <source>Step Out</source>
-        <translation>Einzelschritt heraus</translation>
+        <translation>Passa fuori</translation>
     </message>
     <message>
         <source>Shift+F11</source>
@@ -91,7 +91,7 @@
     </message>
     <message>
         <source>Run to Cursor</source>
-        <translation>Bis Cursor ausführen</translation>
+        <translation>Esegui fino al cursore</translation>
     </message>
     <message>
         <source>Ctrl+F10</source>
@@ -99,11 +99,11 @@
     </message>
     <message>
         <source>Run to New Script</source>
-        <translation>Bis zu neuem Skript ausführen</translation>
+        <translation>Esegui fino al nuovo script</translation>
     </message>
     <message>
         <source>Toggle Breakpoint</source>
-        <translation>Haltepunkt umschalten</translation>
+        <translation>Abilita/Disabilita punto di interruzione</translation>
     </message>
     <message>
         <source>F9</source>
@@ -111,19 +111,19 @@
     </message>
     <message>
         <source>Clear Debug Output</source>
-        <translation>Debug-Ausgabe löschen</translation>
+        <translation>Pulisci output di debug</translation>
     </message>
     <message>
         <source>Clear Error Log</source>
-        <translation>Fehlerausgabe löschen</translation>
+        <translation>Pulisci log degli errori</translation>
     </message>
     <message>
         <source>Clear Console</source>
-        <translation>Konsole löschen</translation>
+        <translation>Pulisci console</translation>
     </message>
     <message>
         <source>&amp;Find in Script...</source>
-        <translation>&amp;Suche im Skript...</translation>
+        <translation>&amp;Trova nello script...</translation>
     </message>
     <message>
         <source>Ctrl+F</source>
@@ -131,7 +131,7 @@
     </message>
     <message>
         <source>Find &amp;Next</source>
-        <translation>&amp;Nächste Fundstelle</translation>
+        <translation>Trova &amp;successivo</translation>
     </message>
     <message>
         <source>F3</source>
@@ -139,7 +139,7 @@
     </message>
     <message>
         <source>Find &amp;Previous</source>
-        <translation>&amp;Vorhergehende Fundstelle</translation>
+        <translation>Trova &amp;precedente</translation>
     </message>
     <message>
         <source>Shift+F3</source>
@@ -151,129 +151,129 @@
     </message>
     <message>
         <source>Debug</source>
-        <translation>Debuggen</translation>
+        <translation>Debug</translation>
     </message>
 </context>
 <context>
     <name>QScriptDebuggerCodeFinderWidget</name>
     <message>
         <source>Close</source>
-        <translation>Schließen</translation>
+        <translation>Chiudi</translation>
     </message>
     <message>
         <source>Previous</source>
-        <translation>Vorige</translation>
+        <translation>Precedente</translation>
     </message>
     <message>
         <source>Next</source>
-        <translation>Nächste</translation>
+        <translation>Successivo</translation>
     </message>
     <message>
         <source>Case Sensitive</source>
-        <translation>Groß/Kleinschreibung beachten</translation>
+        <translation>Distingui le maiuscole</translation>
     </message>
     <message>
         <source>Whole words</source>
-        <translation>Ganze Worte</translation>
+        <translation>Parole intere</translation>
     </message>
     <message>
         <source>&lt;img src=&quot;:/qt/scripttools/debugging/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
-        <translation>&lt;img src=&quot;:/qt/scripttools/debugging/images/wrap.png&quot;&gt;&amp;nbsp;Die Suche hat das Ende erreicht</translation>
+        <translation>&lt;img src=&quot;:/qt/scripttools/debugging/images/wrap.png&quot;&gt;&amp;nbsp;Riavvolgimento ricerca</translation>
     </message>
 </context>
 <context>
     <name>QScriptDebuggerLocalsModel</name>
     <message>
         <source>Name</source>
-        <translation>Name</translation>
+        <translation>Nome</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation>Wert</translation>
+        <translation>Valore</translation>
     </message>
 </context>
 <context>
     <name>QScriptDebuggerStackModel</name>
     <message>
         <source>Level</source>
-        <translation>Ebene</translation>
+        <translation>Livello</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Name</translation>
+        <translation>Nome</translation>
     </message>
     <message>
         <source>Location</source>
-        <translation>Stelle</translation>
+        <translation>Posizione</translation>
     </message>
 </context>
 <context>
     <name>QScriptEdit</name>
     <message>
         <source>Toggle Breakpoint</source>
-        <translation>Haltepunkt umschalten</translation>
+        <translation>Abilita/Disabilita punto di interruzione</translation>
     </message>
     <message>
         <source>Disable Breakpoint</source>
-        <translation>Haltepunkt deaktivieren</translation>
+        <translation>Disabilita punto di interruzione</translation>
     </message>
     <message>
         <source>Enable Breakpoint</source>
-        <translation>Haltepunkt aktivieren</translation>
+        <translation>Abilita punto di interruzione</translation>
     </message>
     <message>
         <source>Breakpoint Condition:</source>
-        <translation>Bedingung:</translation>
+        <translation>Condizione del punto di interruzione:</translation>
     </message>
 </context>
 <context>
     <name>QScriptEngineDebugger</name>
     <message>
         <source>Loaded Scripts</source>
-        <translation>Geladene Skripte</translation>
+        <translation>Script caricati</translation>
     </message>
     <message>
         <source>Breakpoints</source>
-        <translation>Haltepunkte</translation>
+        <translation>Punti di interruzione</translation>
     </message>
     <message>
         <source>Stack</source>
-        <translation>Stapel</translation>
+        <translation>Stack</translation>
     </message>
     <message>
         <source>Locals</source>
-        <translation>Lokale Variablen</translation>
+        <translation>Variabili locali</translation>
     </message>
     <message>
         <source>Console</source>
-        <translation>Konsole</translation>
+        <translation>Console</translation>
     </message>
     <message>
         <source>Debug Output</source>
-        <translation>Debug-Ausgabe</translation>
+        <translation>Output di debug</translation>
     </message>
     <message>
         <source>Error Log</source>
-        <translation>Fehlerausgabe</translation>
+        <translation>Log degli errori</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Suche</translation>
+        <translation>Ricerca</translation>
     </message>
     <message>
         <source>View</source>
-        <translation>Ansicht</translation>
+        <translation>Visualizza</translation>
     </message>
     <message>
         <source>Qt Script Debugger</source>
-        <translation>Qt Script Debugger</translation>
+        <translation>Debugger Qt Script</translation>
     </message>
 </context>
 <context>
     <name>QScriptNewBreakpointWidget</name>
     <message>
         <source>Close</source>
-        <translation>Schließen</translation>
+        <translation>Chiudi</translation>
     </message>
 </context>
 </TS>
