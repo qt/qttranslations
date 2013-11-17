@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ja_JP">
+<TS version="2.1" language="ja">
 <context>
     <name>QCLuceneResultWidget</name>
     <message>
@@ -54,28 +54,16 @@
         <translation>コレクションファイル &apos;%1&apos; が既に存在します!</translation>
     </message>
     <message>
-        <source>Unknown filter &apos;%1&apos;!</source>
-        <translation>不明なフィルタ &apos;%1&apos;!</translation>
-    </message>
-    <message>
-        <source>Invalid documentation file &apos;%1&apos;!</source>
-        <translation>無効なドキュメントファイル &apos;%1&apos;!</translation>
-    </message>
-    <message>
-        <source>Cannot register namespace &apos;%1&apos;!</source>
-        <translation>ネームスペース &apos;%1&apos; を登録できません!</translation>
-    </message>
-    <message>
-        <source>Cannot open database &apos;%1&apos; to optimize!</source>
-        <translation>最適化用にデータベース &apos;%1&apos; を開けません!</translation>
-    </message>
-    <message>
         <source>Cannot create directory: %1</source>
         <translation>ディレクトリを作成できません: %1</translation>
     </message>
     <message>
         <source>Cannot copy collection file: %1</source>
         <translation>コレクションファイルをコピーできません: %1</translation>
+    </message>
+    <message>
+        <source>Unknown filter &apos;%1&apos;!</source>
+        <translation>不明なフィルタ &apos;%1&apos;!</translation>
     </message>
     <message>
         <source>Cannot register filter %1!</source>
@@ -86,12 +74,24 @@
         <translation>ドキュメントファイル %1 を開けません!</translation>
     </message>
     <message>
+        <source>Invalid documentation file &apos;%1&apos;!</source>
+        <translation>無効なドキュメントファイル &apos;%1&apos;!</translation>
+    </message>
+    <message>
         <source>The namespace %1 was not registered!</source>
         <translation>ネームスペース %1 は登録されていません!</translation>
     </message>
     <message>
         <source>Namespace %1 already exists!</source>
         <translation>ネームスペース %1 は既に存在します!</translation>
+    </message>
+    <message>
+        <source>Cannot register namespace &apos;%1&apos;!</source>
+        <translation>ネームスペース &apos;%1&apos; を登録できません!</translation>
+    </message>
+    <message>
+        <source>Cannot open database &apos;%1&apos; to optimize!</source>
+        <translation>最適化用にデータベース &apos;%1&apos; を開けません!</translation>
     </message>
 </context>
 <context>
@@ -124,12 +124,12 @@
         <translation>出力ファイル名が指定されていません!</translation>
     </message>
     <message>
-        <source>Building up file structure...</source>
-        <translation>ファイル構造の構築中...</translation>
-    </message>
-    <message>
         <source>The file %1 cannot be overwritten!</source>
         <translation>ファイル %1 は上書きできません!</translation>
+    </message>
+    <message>
+        <source>Building up file structure...</source>
+        <translation>ファイル構造の構築中...</translation>
     </message>
     <message>
         <source>Cannot open data base file %1!</source>
@@ -166,10 +166,6 @@
     <message>
         <source>Insert files...</source>
         <translation>ファイルの挿入...</translation>
-    </message>
-    <message>
-        <source>The referenced file %1 must be inside or within a subdirectory of (%2). Skipping it.</source>
-        <translation>参照されるファイル %1 は (%2) のサブディレクトリに存在する必要があります。スキップします。</translation>
     </message>
     <message>
         <source>The file %1 does not exist! Skipping it.</source>
@@ -249,10 +245,6 @@
     <message>
         <source>Missing virtual folder in QtHelpProject</source>
         <translation>QtHelpProject に仮装フォルダがありません</translation>
-    </message>
-    <message>
-        <source>Missing attribute in keyword at line %1.</source>
-        <translation>%1 行目のキーワードに属性がありません。</translation>
     </message>
     <message>
         <source>The input file %1 could not be opened!</source>

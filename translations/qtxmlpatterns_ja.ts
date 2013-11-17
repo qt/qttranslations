@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ja_JP">
+<TS version="2.1" language="ja">
 <context>
     <name>QXmlPatternistCLI</name>
     <message>
@@ -26,6 +26,14 @@
 </context>
 <context>
     <name>QtXmlPatterns</name>
+    <message>
+        <source>An %1-attribute with value %2 has already been declared.</source>
+        <translation>値 %2 を持つ %1 属性は、既に宣言されています。</translation>
+    </message>
+    <message>
+        <source>An %1-attribute must have a valid %2 as value, which %3 isn&apos;t.</source>
+        <translation>%1 属性は有効な %2 を値として持たなければいけません、%3 は有効ではありません。</translation>
+    </message>
     <message>
         <source>%1 is an unsupported encoding.</source>
         <translation>%1 はサポートされていないエンコーディングです。</translation>
@@ -89,6 +97,18 @@
     <message>
         <source>At least one time component must appear after the %1-delimiter.</source>
         <translation>%1 の後には、時刻を指定しなければなりません。</translation>
+    </message>
+    <message>
+        <source>No operand in an integer division, %1, can be %2.</source>
+        <translation>整数除算(%1)のオペランドに %2 は使用できません。</translation>
+    </message>
+    <message>
+        <source>The first operand in an integer division, %1, cannot be infinity (%2).</source>
+        <translation>整数除算(%1)の第一オペランドに無限大(%2)は使用できません。</translation>
+    </message>
+    <message>
+        <source>The second operand in a division, %1, cannot be zero (%2).</source>
+        <translation>除算(%1)の第二オペランドにゼロ(%2)は使用できません。</translation>
     </message>
     <message>
         <source>%1 is not a valid value of type %2.</source>
@@ -175,12 +195,40 @@
         <translation>%1 またはそれを継承している型への型変換においては、元の値の型は同じ型か、リテラルな文字列である必要があります。型 %2 は許可されていません。</translation>
     </message>
     <message>
+        <source>No casting is possible with %1 as the target type.</source>
+        <translation>%1 をターゲットの型にキャストできません。</translation>
+    </message>
+    <message>
+        <source>It is not possible to cast from %1 to %2.</source>
+        <translation>&apos;%1&apos; から &apos;%2&apos; にキャストすることはできません。</translation>
+    </message>
+    <message>
+        <source>Casting to %1 is not possible because it is an abstract type, and can therefore never be instantiated.</source>
+        <translation>%1 は抽象型でインスタンスを生成できないため、キャストすることはできません。</translation>
+    </message>
+    <message>
+        <source>It&apos;s not possible to cast the value %1 of type %2 to %3</source>
+        <translation>型 %2 の値 %1 を型 %3 にキャストすることはできません</translation>
+    </message>
+    <message>
+        <source>Failure when casting from %1 to %2: %3</source>
+        <translation>%1 から %2 へのキャストに失敗しました: %3</translation>
+    </message>
+    <message>
         <source>A comment cannot contain %1</source>
         <translation>コメントが %1 を含むことはできません</translation>
     </message>
     <message>
         <source>A comment cannot end with a %1.</source>
         <translation>コメントは %1 で終了することはできません。</translation>
+    </message>
+    <message>
+        <source>No comparisons can be done involving the type %1.</source>
+        <translation>型 %1 を伴う比較は実行できません。</translation>
+    </message>
+    <message>
+        <source>Operator %1 is not available between atomic values of type %2 and %3.</source>
+        <translation>アトミックな型 %2 と %3 に対して、オペレータ %1 は使用できません。</translation>
     </message>
     <message>
         <source>In a namespace constructor, the value for a namespace cannot be an empty string.</source>
@@ -201,6 +249,10 @@
     <message>
         <source>An attribute node cannot be a child of a document node. Therefore, the attribute %1 is out of place.</source>
         <translation>ドキュメントノードの子として属性ノードを指定することはできません。属性 %1 は誤った場所にあります。</translation>
+    </message>
+    <message>
+        <source>Circularity detected</source>
+        <translation>循環を検出しました</translation>
     </message>
     <message>
         <source>A library module cannot be evaluated directly. It must be imported from a main module.</source>
@@ -281,6 +333,10 @@
     <message>
         <source>%1 is not a valid XML 1.0 character.</source>
         <translation>%1 は、XML 1.0 文字として無効です。</translation>
+    </message>
+    <message>
+        <source>The first argument to %1 cannot be of type %2.</source>
+        <translation>%1 への最初の引数は、型 %2 であってはなりません。</translation>
     </message>
     <message>
         <source>The root node of the second argument to function %1 must be a document node. %2 is not a document node.</source>
@@ -369,6 +425,34 @@
     <message>
         <source>The item %1 did not match the required type %2.</source>
         <translation>アイテム %1 は、要求された型 %2 にマッチしません。</translation>
+    </message>
+    <message>
+        <source>Attribute %1 cannot appear on the element %2. Only the standard attributes can appear.</source>
+        <translation>属性 %1 は要素 %2 上には使用できません。標準属性のみ使用可能です。</translation>
+    </message>
+    <message>
+        <source>Attribute %1 cannot appear on the element %2. Only %3 is allowed, and the standard attributes.</source>
+        <translation>属性 %1 は要素 %2 上には使用できません。%3 および標準属性のみが使用可能です。</translation>
+    </message>
+    <message>
+        <source>Attribute %1 cannot appear on the element %2. Allowed is %3, %4, and the standard attributes.</source>
+        <translation>属性 %1 は要素 %2 上には使用できません。%3, %4 および標準属性が使用可能です。</translation>
+    </message>
+    <message>
+        <source>Attribute %1 cannot appear on the element %2. Allowed is %3, and the standard attributes.</source>
+        <translation>属性 %1 は要素 %2 上には使用できません。%3 および標準属性が使用可能です。</translation>
+    </message>
+    <message>
+        <source>XSL-T attributes on XSL-T elements must be in the null namespace, not in the XSL-T namespace which %1 is.</source>
+        <translation>XSL-T 要素上の XSL-T 属性のネームスペースは %1 ではなく、null である必要があります。</translation>
+    </message>
+    <message>
+        <source>The attribute %1 must appear on element %2.</source>
+        <translation>属性 %1 は、要素 %2 に指定する必要があります。</translation>
+    </message>
+    <message>
+        <source>The element with local name %1 does not exist in XSL-T.</source>
+        <translation>ローカル名 %1 を持つエレメントが XSL-T に存在しません。</translation>
     </message>
     <message>
         <source>The variable %1 is unused</source>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ja_JP">
+<TS version="2.1" language="ja">
 <context>
-    <name>AudioCaptureSession</name>
+    <name>AudioContainerControl</name>
     <message>
-        <source>RAW file format</source>
-        <translation>RAW ファイル形式</translation>
+        <source>RAW (headerless) file format</source>
+        <translation>RAW(ヘッダなし)ファイル形式</translation>
     </message>
     <message>
         <source>WAV file format</source>
@@ -15,8 +15,8 @@
 <context>
     <name>AudioEncoderControl</name>
     <message>
-        <source>PCM audio data</source>
-        <translation>PCM オーディオデータ</translation>
+        <source>Linear PCM audio data</source>
+        <translation>リニアPCM音声データ</translation>
     </message>
 </context>
 <context>
@@ -57,7 +57,7 @@
     <name>BbCameraSession</name>
     <message>
         <source>Camera provides image in unsupported format</source>
-        <translation>カメラが提供する画像フォーマットがサポートされていません</translation>
+        <translation>カメラが提供する画像形式はサポートされていません</translation>
     </message>
     <message>
         <source>Could not load JPEG data from frame</source>
@@ -286,6 +286,78 @@
     </message>
 </context>
 <context>
+    <name>QAndroidAudioEncoderSettingsControl</name>
+    <message>
+        <source>Adaptive Multi-Rate Narrowband (AMR-NB) audio codec</source>
+        <translation>狭帯域用適応多重レート(AMR-NB)音声コーデック</translation>
+    </message>
+    <message>
+        <source>Adaptive Multi-Rate Wideband (AMR-WB) audio codec</source>
+        <translation>広帯域用適応多重レート(AMR-WB)音声コーデック</translation>
+    </message>
+    <message>
+        <source>AAC Low Complexity (AAC-LC) audio codec</source>
+        <translation>AAL-LC 音声コーデック</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidCameraSession</name>
+    <message>
+        <source>Camera not ready</source>
+        <translation>カメラが使用可能ではありません</translation>
+    </message>
+    <message>
+        <source>Drive mode not supported</source>
+        <extracomment>Drive mode is the camera&apos;s shutter mode, for example single shot, continuos exposure, etc.</extracomment>
+        <translation>ドライブモードはサポートされていません</translation>
+    </message>
+    <message>
+        <source>Could not open destination file: %1</source>
+        <translation>保存先のファイルを開けませんでした: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation>JPEG 画像</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidMediaContainerControl</name>
+    <message>
+        <source>MPEG4 media file format</source>
+        <translation>MPEG4 メディアファイル形式</translation>
+    </message>
+    <message>
+        <source>3GPP media file format</source>
+        <translation>3GPP メディアファイル形式</translation>
+    </message>
+    <message>
+        <source>AMR NB file format</source>
+        <translation>AMR NB ファイル形式</translation>
+    </message>
+    <message>
+        <source>AMR WB file format</source>
+        <translation>AMR WB ファイル形式</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidVideoEncoderSettingsControl</name>
+    <message>
+        <source>H.263 compression</source>
+        <translation>H.263 圧縮</translation>
+    </message>
+    <message>
+        <source>H.264 compression</source>
+        <translation>H.264 圧縮</translation>
+    </message>
+    <message>
+        <source>MPEG-4 SP compression</source>
+        <translation>MPEG-4 SP 圧縮</translation>
+    </message>
+</context>
+<context>
     <name>QAudioDecoder</name>
     <message>
         <source>The QAudioDecoder object does not have a valid service</source>
@@ -429,7 +501,7 @@
     </message>
     <message>
         <source>Playlist format is not supported</source>
-        <translation>プレイリストのフォーマットがサポートされていません</translation>
+        <translation>サポートされていないプレイリストの形式です。</translation>
     </message>
     <message>
         <source>The file could not be accessed.</source>
@@ -437,7 +509,7 @@
     </message>
     <message>
         <source>Playlist format is not supported.</source>
-        <translation>プレイリストのフォーマットがサポートされていません。</translation>
+        <translation>サポートされていないプレイリストの形式です。</translation>
     </message>
 </context>
 <context>
