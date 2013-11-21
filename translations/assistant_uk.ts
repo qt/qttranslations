@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="uk_UA">
+<TS version="2.1" language="uk_UA">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -830,76 +830,76 @@ Reason:
     <name>InstallDialog</name>
     <message>
         <source>Install Documentation</source>
-        <translation>Встановити документацію</translation>
+        <translation type="vanished">Встановити документацію</translation>
     </message>
     <message>
         <source>Available Documentation:</source>
-        <translation>Доступна документація:</translation>
+        <translation type="vanished">Доступна документація:</translation>
     </message>
     <message>
         <source>Install</source>
-        <translation>Встановити</translation>
+        <translation type="vanished">Встановити</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Скасувати</translation>
+        <translation type="vanished">Скасувати</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Закрити</translation>
+        <translation type="vanished">Закрити</translation>
     </message>
     <message>
         <source>Installation Path:</source>
-        <translation>Шлях встановлення:</translation>
+        <translation type="vanished">Шлях встановлення:</translation>
     </message>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation type="vanished">...</translation>
     </message>
     <message>
         <source>Downloading documentation info...</source>
-        <translation>Звантажую інформацію про документацію...</translation>
+        <translation type="vanished">Звантажую інформацію про документацію...</translation>
     </message>
     <message>
         <source>Download canceled.</source>
-        <translation>Звантаження скасоване.</translation>
+        <translation type="vanished">Звантаження скасоване.</translation>
     </message>
     <message>
         <source>Done.</source>
-        <translation>Виконано.</translation>
+        <translation type="vanished">Виконано.</translation>
     </message>
     <message>
         <source>The file %1 already exists. Do you want to overwrite it?</source>
-        <translation>Файл %1 вже існує. Бажаєте перезаписати?</translation>
+        <translation type="vanished">Файл %1 вже існує. Бажаєте перезаписати?</translation>
     </message>
     <message>
         <source>Unable to save the file %1: %2.</source>
-        <translation>Неможливо зберегти файл %1: %2.</translation>
+        <translation type="vanished">Неможливо зберегти файл %1: %2.</translation>
     </message>
     <message>
         <source>Downloading %1...</source>
-        <translation>Звантажую %1...</translation>
+        <translation type="vanished">Звантажую %1...</translation>
     </message>
     <message>
         <source>Download failed: %1.</source>
-        <translation>Звантаження провалилось: %1.</translation>
+        <translation type="vanished">Звантаження провалилось: %1.</translation>
     </message>
     <message>
         <source>Documentation info file is corrupt!</source>
-        <translation>Файл інформації про документацію пошкоджений!</translation>
+        <translation type="vanished">Файл інформації про документацію пошкоджений!</translation>
     </message>
     <message>
         <source>Download failed: Downloaded file is corrupted.</source>
-        <translation>Звантаження провалилось: Звантажений файл пошкоджений.</translation>
+        <translation type="vanished">Звантаження провалилось: Звантажений файл пошкоджений.</translation>
     </message>
     <message>
         <source>Installing documentation %1...</source>
-        <translation>Встановлюю документацію %1...</translation>
+        <translation type="vanished">Встановлюю документацію %1...</translation>
     </message>
     <message>
         <source>Error while installing documentation:
 %1</source>
-        <translation>Помилка під час встановлення документації:
+        <translation type="vanished">Помилка під час встановлення документації:
 %1</translation>
     </message>
 </context>

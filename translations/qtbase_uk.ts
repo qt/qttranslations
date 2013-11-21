@@ -3193,75 +3193,75 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation type="vanished">OK</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Зберегти</translation>
+        <translation type="vanished">Зберегти</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Відкрити</translation>
+        <translation type="vanished">Відкрити</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Скасувати</translation>
+        <translation type="vanished">Скасувати</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Закрити</translation>
+        <translation type="vanished">Закрити</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation>Застосувати</translation>
+        <translation type="vanished">Застосувати</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Скинути</translation>
+        <translation type="vanished">Скинути</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Довідка</translation>
+        <translation type="vanished">Довідка</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>Відхилити</translation>
+        <translation type="vanished">Відхилити</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Так</translation>
+        <translation type="vanished">Так</translation>
     </message>
     <message>
         <source>Yes to All</source>
-        <translation>Так для всіх</translation>
+        <translation type="vanished">Так для всіх</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Ні</translation>
+        <translation type="vanished">Ні</translation>
     </message>
     <message>
         <source>No to All</source>
-        <translation>Ні для всіх</translation>
+        <translation type="vanished">Ні для всіх</translation>
     </message>
     <message>
         <source>Save All</source>
-        <translation>Зберегти все</translation>
+        <translation type="vanished">Зберегти все</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation>Перервати</translation>
+        <translation type="vanished">Перервати</translation>
     </message>
     <message>
         <source>Retry</source>
-        <translation>Повторити</translation>
+        <translation type="vanished">Повторити</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation>Ігнорувати</translation>
+        <translation type="vanished">Ігнорувати</translation>
     </message>
     <message>
         <source>Restore Defaults</source>
-        <translation>Відновити типово</translation>
+        <translation type="vanished">Відновити типово</translation>
     </message>
 </context>
 <context>
@@ -6623,6 +6623,81 @@ Please turn one of those options off.</source>
     <message>
         <source>No Q_PROPERTY for QML property %1::%2::%3 in C++ class documented as QML type: (C++ class not specified or not found).</source>
         <translation type="obsolete">Відсутнє Q_PROPERTY для властивості QML %1::%2::%3 в класі C++, задокументованому як тип QML: (клас C++ не вказано або не знайдено).</translation>
+    </message>
+</context>
+<context>
+    <name>QtAndroidDialogHelpers::QAndroidPlatformMessageDialogHelper</name>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Зберегти</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Відкрити</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Скасувати</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Закрити</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Застосувати</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Скинути</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Довідка</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Відхилити</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Так</translation>
+    </message>
+    <message>
+        <source>Yes to All</source>
+        <translation>Так для всіх</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Ні</translation>
+    </message>
+    <message>
+        <source>No to All</source>
+        <translation>Ні для всіх</translation>
+    </message>
+    <message>
+        <source>Save All</source>
+        <translation>Зберегти все</translation>
+    </message>
+    <message>
+        <source>Abort</source>
+        <translation>Перервати</translation>
+    </message>
+    <message>
+        <source>Retry</source>
+        <translation>Повторити</translation>
+    </message>
+    <message>
+        <source>Ignore</source>
+        <translation>Ігнорувати</translation>
+    </message>
+    <message>
+        <source>Restore Defaults</source>
+        <translation>Відновити типово</translation>
     </message>
 </context>
 <context>

@@ -3186,6 +3186,13 @@ Do you want overwrite the template?</source>
     </message>
 </context>
 <context>
+    <name>qdesigner_internal</name>
+    <message>
+        <source>%1 Widget</source>
+        <translation>Віджет %1</translation>
+    </message>
+</context>
+<context>
     <name>qdesigner_internal::ActionEditor</name>
     <message>
         <source>New...</source>
@@ -5731,7 +5738,7 @@ Class: %2</source>
     </message>
     <message>
         <source>%1 Widget</source>
-        <translation>Віджет %1</translation>
+        <translation type="vanished">Віджет %1</translation>
     </message>
     <message>
         <source>The current page of the container &apos;%1&apos; (%2) could not be determined while creating a layout.This indicates an inconsistency in the ui-file, probably a layout being constructed on a container widget.</source>
