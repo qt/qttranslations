@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="uk_UA">
+<TS version="2.1" language="uk_UA">
 <context>
     <name>Atom</name>
     <message>
@@ -864,8 +864,22 @@
         <translation>&amp;Альфа-канал:</translation>
     </message>
     <message>
+        <source>&amp;HTML:</source>
+        <translation>&amp;HTML:</translation>
+    </message>
+    <message>
+        <source>Cursor at %1, %2, color: %3
+Press ESC to cancel</source>
+        <translation>Курсор в %1, %2, колір: %3
+Натисніть ESC, щоб скасувати</translation>
+    </message>
+    <message>
         <source>Select Color</source>
         <translation>Оберіть колір</translation>
+    </message>
+    <message>
+        <source>Pick Screen Color</source>
+        <translation>Взяти колір з екрану</translation>
     </message>
     <message>
         <source>&amp;Basic colors</source>
@@ -896,6 +910,49 @@
     </message>
 </context>
 <context>
+    <name>QCommandLineParser</name>
+    <message>
+        <source>Displays version information.</source>
+        <translation>Відображає інформацію про версію.</translation>
+    </message>
+    <message>
+        <source>Displays this help.</source>
+        <translation>Відображає цю довідку.</translation>
+    </message>
+    <message>
+        <source>Unknown option &apos;%1&apos;.</source>
+        <translation>Невідома опція &apos;%1&apos;.</translation>
+    </message>
+    <message>
+        <source>Unknown options: %1.</source>
+        <translation>Невідомі опції %1.</translation>
+    </message>
+    <message>
+        <source>Missing value after &apos;%1&apos;.</source>
+        <translation>Відсутнє значення після &apos;%1&apos;.</translation>
+    </message>
+    <message>
+        <source>Unexpected value after &apos;%1&apos;.</source>
+        <translation>Неочікуване значення після &apos;%1&apos;.</translation>
+    </message>
+    <message>
+        <source>[options]</source>
+        <translation>[опції]</translation>
+    </message>
+    <message>
+        <source>Usage: %1</source>
+        <translation>Застосування: %1</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation>Опції:</translation>
+    </message>
+    <message>
+        <source>Arguments:</source>
+        <translation>Аргументи:</translation>
+    </message>
+</context>
+<context>
     <name>QCoreApplication</name>
     <message>
         <source>%1: key is empty</source>
@@ -916,6 +973,110 @@
         <source>QT_LAYOUT_DIRECTION</source>
         <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
         <translation>LTR</translation>
+    </message>
+</context>
+<context>
+    <name>QCupsJobWidget</name>
+    <message>
+        <source>Job</source>
+        <translation>Завдання</translation>
+    </message>
+    <message>
+        <source>Job Control</source>
+        <translation>Управління завданням</translation>
+    </message>
+    <message>
+        <source>Scheduled printing:</source>
+        <translation>Запланований друк:</translation>
+    </message>
+    <message>
+        <source>Billing information:</source>
+        <translation>Інформація про сплату:</translation>
+    </message>
+    <message>
+        <source>Job priority:</source>
+        <translation>Пріоритет завдання:</translation>
+    </message>
+    <message>
+        <source>Banner Pages</source>
+        <translation>Титульні сторінки</translation>
+    </message>
+    <message>
+        <source>End:</source>
+        <comment>Banner page at end</comment>
+        <translation>В кінці:</translation>
+    </message>
+    <message>
+        <source>Start:</source>
+        <comment>Banner page at start</comment>
+        <translation>На початку:</translation>
+    </message>
+    <message>
+        <source>Print Immediately</source>
+        <translation>Друкувати негайно</translation>
+    </message>
+    <message>
+        <source>Hold Indefinitely</source>
+        <translation>Затримати якнайдовше</translation>
+    </message>
+    <message>
+        <source>Day (06:00 to 17:59)</source>
+        <translation>Вдень (з 06:00 до 17:59)</translation>
+    </message>
+    <message>
+        <source>Night (18:00 to 05:59)</source>
+        <translation>Вночі (з 18:00 до 05:59)</translation>
+    </message>
+    <message>
+        <source>Second Shift (16:00 to 23:59)</source>
+        <translation>Друга зміна (з 16:00 до 23:59)</translation>
+    </message>
+    <message>
+        <source>Third Shift (00:00 to 07:59)</source>
+        <translation>Третя зміна (з 00:00 до 07:59)</translation>
+    </message>
+    <message>
+        <source>Weekend (Saturday to Sunday)</source>
+        <translation>У вихідний (з суботи по неділю)</translation>
+    </message>
+    <message>
+        <source>Specific Time</source>
+        <translation>Вказаний час</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Відсутній</translation>
+    </message>
+    <message>
+        <source>Standard</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Стандартний</translation>
+    </message>
+    <message>
+        <source>Unclassified</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Несекретно</translation>
+    </message>
+    <message>
+        <source>Confidential</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Конфіденційно</translation>
+    </message>
+    <message>
+        <source>Classified</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Засекречено</translation>
+    </message>
+    <message>
+        <source>Secret</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Таємно</translation>
+    </message>
+    <message>
+        <source>Top Secret</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Цілком таємно</translation>
     </message>
 </context>
 <context>
@@ -1212,6 +1373,25 @@
     </message>
 </context>
 <context>
+    <name>QDockWidget</name>
+    <message>
+        <source>Float</source>
+        <translation>Відкріпити</translation>
+    </message>
+    <message>
+        <source>Undocks and re-attaches the dock widget</source>
+        <translation>Відкріпляє та прикріпляє плаваючий віджет</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Закрити</translation>
+    </message>
+    <message>
+        <source>Closes the dock widget</source>
+        <translation>Закриває плаваючий віджет</translation>
+    </message>
+</context>
+<context>
     <name>QErrorMessage</name>
     <message>
         <source>Debug Message:</source>
@@ -1413,6 +1593,10 @@
     <message>
         <source>&amp;New Folder</source>
         <translation>&amp;Нова тека</translation>
+    </message>
+    <message>
+        <source>All files (*)</source>
+        <translation>Усі файли (*)</translation>
     </message>
     <message>
         <source>Directories</source>
@@ -2175,6 +2359,18 @@ Do you want to delete it anyway?</source>
     </message>
 </context>
 <context>
+    <name>QKeySequenceEdit</name>
+    <message>
+        <source>Press shortcut</source>
+        <translation>Натисніть скорочення</translation>
+    </message>
+    <message>
+        <source>%1, ...</source>
+        <extracomment>This text is an &quot;unfinished&quot; shortcut, expands like &quot;Ctrl+A, ...&quot;</extracomment>
+        <translation>%1, ...</translation>
+    </message>
+</context>
+<context>
     <name>QLibrary</name>
     <message>
         <source>&apos;%1&apos; is not an ELF object (%2)</source>
@@ -2223,6 +2419,38 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Cannot resolve symbol &quot;%1&quot; in %2: %3</source>
         <translation>Неможливо розв’язати символ &quot;%1&quot; в %2: %3</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a valid Mach-O binary (%2)</source>
+        <translation>&apos;%1&apos; - неправильний двійковий модуль Mach-O (%2)</translation>
+    </message>
+    <message>
+        <source>file is corrupt</source>
+        <translation>файл пошкоджено</translation>
+    </message>
+    <message>
+        <source>file too small</source>
+        <translation>файл замалий</translation>
+    </message>
+    <message>
+        <source>no suitable architecture in fat binary</source>
+        <translation>відсутня потрібна архітектура в Fat binary</translation>
+    </message>
+    <message>
+        <source>invalid magic %1</source>
+        <translation>неправильна магічна послідовність %1</translation>
+    </message>
+    <message>
+        <source>wrong architecture</source>
+        <translation>неправильна архітектура</translation>
+    </message>
+    <message>
+        <source>not a dynamic library</source>
+        <translation>не динамічна бібліотека</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a Qt plugin</source>
+        <translation>&apos;%1&apos; не є додатком Qt</translation>
     </message>
 </context>
 <context>
@@ -2963,6 +3191,78 @@ Do you want to delete it anyway?</source>
         <source>Could not reset to read data</source>
         <translation type="obsolete">Не вдалось скинути, щоб прочитати дані</translation>
     </message>
+    <message>
+        <source>OK</source>
+        <translation type="vanished">OK</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation type="vanished">Зберегти</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation type="vanished">Відкрити</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="vanished">Скасувати</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="vanished">Закрити</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation type="vanished">Застосувати</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation type="vanished">Скинути</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation type="vanished">Довідка</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation type="vanished">Відхилити</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation type="vanished">Так</translation>
+    </message>
+    <message>
+        <source>Yes to All</source>
+        <translation type="vanished">Так для всіх</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation type="vanished">Ні</translation>
+    </message>
+    <message>
+        <source>No to All</source>
+        <translation type="vanished">Ні для всіх</translation>
+    </message>
+    <message>
+        <source>Save All</source>
+        <translation type="vanished">Зберегти все</translation>
+    </message>
+    <message>
+        <source>Abort</source>
+        <translation type="vanished">Перервати</translation>
+    </message>
+    <message>
+        <source>Retry</source>
+        <translation type="vanished">Повторити</translation>
+    </message>
+    <message>
+        <source>Ignore</source>
+        <translation type="vanished">Ігнорувати</translation>
+    </message>
+    <message>
+        <source>Restore Defaults</source>
+        <translation type="vanished">Відновити типово</translation>
+    </message>
 </context>
 <context>
     <name>QPSQLDriver</name>
@@ -3083,6 +3383,18 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Points (pt)</source>
         <translation>Точки (pt)</translation>
+    </message>
+    <message>
+        <source>Page Layout</source>
+        <translation>Макет сторінки</translation>
+    </message>
+    <message>
+        <source>Page order:</source>
+        <translation>Порядок сторінок:</translation>
+    </message>
+    <message>
+        <source>Pages per sheet:</source>
+        <translation>Сторінок на аркуш:</translation>
     </message>
 </context>
 <context>
@@ -3227,6 +3539,74 @@ Do you want to delete it anyway?</source>
         <translation>Користувацький</translation>
     </message>
     <message>
+        <source>Left to Right, Top to Bottom</source>
+        <translation>Зліва направо, згори донизу</translation>
+    </message>
+    <message>
+        <source>Left to Right, Bottom to Top</source>
+        <translation>Зліва направо, знизу догори</translation>
+    </message>
+    <message>
+        <source>Right to Left, Bottom to Top</source>
+        <translation>Справа наліво, знизу догори</translation>
+    </message>
+    <message>
+        <source>Right to Left, Top to Bottom</source>
+        <translation>Справа наліво, згори донизу</translation>
+    </message>
+    <message>
+        <source>Bottom to Top, Left to Right</source>
+        <translation>Знизу догори, зліва направо</translation>
+    </message>
+    <message>
+        <source>Bottom to Top, Right to Left</source>
+        <translation>Знизу догори, справа наліво</translation>
+    </message>
+    <message>
+        <source>Top to Bottom, Left to Right</source>
+        <translation>Згори донизу, зліва направо</translation>
+    </message>
+    <message>
+        <source>Top to Bottom, Right to Left</source>
+        <translation>Згори донизу, справа наліво</translation>
+    </message>
+    <message>
+        <source>1 (1x1)</source>
+        <translation>1 (1x1)</translation>
+    </message>
+    <message>
+        <source>2 (2x1)</source>
+        <translation>2 (2x1)</translation>
+    </message>
+    <message>
+        <source>4 (2x2)</source>
+        <translation>4 (2x2)</translation>
+    </message>
+    <message>
+        <source>6 (2x3)</source>
+        <translation>6 (2x3)</translation>
+    </message>
+    <message>
+        <source>9 (3x3)</source>
+        <translation>9 (3x3)</translation>
+    </message>
+    <message>
+        <source>16 (4x4)</source>
+        <translation>16 (4x4)</translation>
+    </message>
+    <message>
+        <source>All Pages</source>
+        <translation>Усі сторінки</translation>
+    </message>
+    <message>
+        <source>Odd Pages</source>
+        <translation>Непарні сторінки</translation>
+    </message>
+    <message>
+        <source>Even Pages</source>
+        <translation>Парні сторінки</translation>
+    </message>
+    <message>
         <source>&amp;Options &gt;&gt;</source>
         <translation>&amp;Опції &gt;&gt;</translation>
     </message>
@@ -3271,6 +3651,12 @@ Please choose a different file name.</source>
 Do you want to overwrite it?</source>
         <translation>%1 вже існує.
 Бажаєте перезаписати його?</translation>
+    </message>
+    <message>
+        <source>Options &apos;Pages Per Sheet&apos; and &apos;Page Set&apos; cannot be used together.
+Please turn one of those options off.</source>
+        <translation>Неможливо вжити одночасно опцій &apos;Сторінок на аркуш&apos; та &apos;Набір сторінок&apos;.
+Будь ласка, вимкніть одну з цих опцій.</translation>
     </message>
     <message>
         <source>The &apos;From&apos; value cannot be greater than the &apos;To&apos; value.</source>
@@ -3365,6 +3751,13 @@ Do you want to overwrite it?</source>
     </message>
 </context>
 <context>
+    <name>QPrintPropertiesDialog</name>
+    <message>
+        <source>Job Options</source>
+        <translation>Опції завдання</translation>
+    </message>
+</context>
+<context>
     <name>QPrintPropertiesWidget</name>
     <message>
         <source>Form</source>
@@ -3456,6 +3849,10 @@ Do you want to overwrite it?</source>
     <message>
         <source>Short side</source>
         <translation>По короткій стороні</translation>
+    </message>
+    <message>
+        <source>Page Set:</source>
+        <translation>Набір сторінок:</translation>
     </message>
 </context>
 <context>
@@ -3553,6 +3950,17 @@ Do you want to overwrite it?</source>
         <source>OK</source>
         <translation>OK</translation>
     </message>
+    <message>
+        <source>All files (*.*)</source>
+        <translation>Усі файли (*.*)</translation>
+    </message>
+</context>
+<context>
+    <name>QQnxFilePicker</name>
+    <message>
+        <source>Pick a file</source>
+        <translation>Вибір файлу</translation>
+    </message>
 </context>
 <context>
     <name>QRegExp</name>
@@ -3625,7 +4033,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>numbers out of order in {} quantifier</source>
-        <translation type="unfinished"></translation>
+        <translation>неправильний порядок чисел в кваліфікаторі {}</translation>
     </message>
     <message>
         <source>number too big in {} quantifier</source>
@@ -3641,7 +4049,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>range out of order in character class</source>
-        <translation type="unfinished"></translation>
+        <translation>неправильний порядок значень діапазону в символьному класі</translation>
     </message>
     <message>
         <source>nothing to repeat</source>
@@ -3673,7 +4081,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>unknown option bit(s) set</source>
-        <translation type="unfinished"></translation>
+        <translation>встановлено невідомі опції компіляції</translation>
     </message>
     <message>
         <source>missing ) after comment</source>
@@ -4716,7 +5124,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Audio Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Перемотка вперед</translation>
     </message>
     <message>
         <source>Audio Repeat</source>
@@ -4986,6 +5394,26 @@ Do you want to overwrite it?</source>
         <translation>Хангиль спеціальний</translation>
     </message>
     <message>
+        <source>Cancel</source>
+        <translation>Скасувати</translation>
+    </message>
+    <message>
+        <source>Printer</source>
+        <translation>Принтер</translation>
+    </message>
+    <message>
+        <source>Execute</source>
+        <translation>Виконати</translation>
+    </message>
+    <message>
+        <source>Play</source>
+        <translation>Відтворити</translation>
+    </message>
+    <message>
+        <source>Zoom</source>
+        <translation>Масштабувати</translation>
+    </message>
+    <message>
         <source>Ctrl</source>
         <translation>Ctrl</translation>
     </message>
@@ -5157,9 +5585,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>panel</source>
-        <extracomment>Role of an accessible object
-----------
-Role of an accessible object</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>панель</translation>
     </message>
     <message>
@@ -5605,6 +6031,10 @@ Role of an accessible object</extracomment>
     <message>
         <source>Configuration</source>
         <translation>Налаштування</translation>
+    </message>
+    <message>
+        <source>Shared Configuration</source>
+        <translation>Спільні налаштування</translation>
     </message>
     <message>
         <source>Shared Cache</source>
@@ -6193,6 +6623,81 @@ Role of an accessible object</extracomment>
     <message>
         <source>No Q_PROPERTY for QML property %1::%2::%3 in C++ class documented as QML type: (C++ class not specified or not found).</source>
         <translation type="obsolete">Відсутнє Q_PROPERTY для властивості QML %1::%2::%3 в класі C++, задокументованому як тип QML: (клас C++ не вказано або не знайдено).</translation>
+    </message>
+</context>
+<context>
+    <name>QtAndroidDialogHelpers::QAndroidPlatformMessageDialogHelper</name>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Зберегти</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Відкрити</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Скасувати</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Закрити</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Застосувати</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Скинути</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Довідка</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Відхилити</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Так</translation>
+    </message>
+    <message>
+        <source>Yes to All</source>
+        <translation>Так для всіх</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Ні</translation>
+    </message>
+    <message>
+        <source>No to All</source>
+        <translation>Ні для всіх</translation>
+    </message>
+    <message>
+        <source>Save All</source>
+        <translation>Зберегти все</translation>
+    </message>
+    <message>
+        <source>Abort</source>
+        <translation>Перервати</translation>
+    </message>
+    <message>
+        <source>Retry</source>
+        <translation>Повторити</translation>
+    </message>
+    <message>
+        <source>Ignore</source>
+        <translation>Ігнорувати</translation>
+    </message>
+    <message>
+        <source>Restore Defaults</source>
+        <translation>Відновити типово</translation>
     </message>
 </context>
 <context>

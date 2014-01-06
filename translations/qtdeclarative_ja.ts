@@ -1,11 +1,211 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ja_JP">
+<TS version="2.1" language="ja">
+<context>
+    <name>DefaultColorDialog</name>
+    <message>
+        <source>Hue</source>
+        <translation>色相</translation>
+    </message>
+    <message>
+        <source>Saturation</source>
+        <translation>彩度</translation>
+    </message>
+    <message>
+        <source>Luminosity</source>
+        <translation>光度</translation>
+    </message>
+    <message>
+        <source>Alpha</source>
+        <translation>アルファ</translation>
+    </message>
+</context>
+<context>
+    <name>DefaultFontDialog</name>
+    <message>
+        <source>Writing System</source>
+        <translation>文字セット</translation>
+    </message>
+    <message>
+        <source>Font</source>
+        <translation>フォント</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>Weight</source>
+        <translation>ウェイト</translation>
+    </message>
+    <message>
+        <source>Style</source>
+        <translation>スタイル</translation>
+    </message>
+    <message>
+        <source>Sample</source>
+        <translation>サンプル</translation>
+    </message>
+    <message>
+        <source>Italic</source>
+        <translation>イタリック</translation>
+    </message>
+    <message>
+        <source>Underline</source>
+        <translation>下線</translation>
+    </message>
+    <message>
+        <source>Overline</source>
+        <translation>取消線</translation>
+    </message>
+    <message>
+        <source>Strikeout</source>
+        <translation>取消線</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+</context>
 <context>
     <name>QInputMethod</name>
     <message>
         <source>InputMethod is an abstract class</source>
         <translation>InputMethod は抽象クラスです</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlAnonymousComponentResolver</name>
+    <message>
+        <source>Component objects cannot declare new functions.</source>
+        <translation>Component オブジェクトには新しい関数を宣言できません。</translation>
+    </message>
+    <message>
+        <source>Component objects cannot declare new properties.</source>
+        <translation>Component オブジェクトには新しいプロパティを宣言できません。</translation>
+    </message>
+    <message>
+        <source>Component objects cannot declare new signals.</source>
+        <translation>Component オブジェクトには新しいシグナルを宣言できません。</translation>
+    </message>
+    <message>
+        <source>Cannot create empty component specification</source>
+        <translation>空のコンポーネントは作成できません</translation>
+    </message>
+    <message>
+        <source>Component elements may not contain properties other than id</source>
+        <translation>Component 要素に id 以外のプロパティが含まれていません</translation>
+    </message>
+    <message>
+        <source>id is not unique</source>
+        <translation>id が重複しています</translation>
+    </message>
+    <message>
+        <source>Invalid alias reference. Unable to find id &quot;%1&quot;</source>
+        <translation>無効なエイリアスの参照です。id &quot;%1&quot; が見つかりません</translation>
+    </message>
+    <message>
+        <source>Invalid alias location</source>
+        <translation>無効なエイリアスのパス</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlCodeGenerator</name>
+    <message>
+        <source>Duplicate method name</source>
+        <translation>メソッドの名前が重複しています</translation>
+    </message>
+    <message>
+        <source>Method names cannot begin with an upper case letter</source>
+        <translation>メソッドの名前を大文字から始めることはできません</translation>
+    </message>
+    <message>
+        <source>Illegal method name</source>
+        <translation>メソッドの名前が無効です</translation>
+    </message>
+    <message>
+        <source>Duplicate signal name</source>
+        <translation>シグナルの名前が重複しています</translation>
+    </message>
+    <message>
+        <source>Signal names cannot begin with an upper case letter</source>
+        <translation>シグナルの名前を大文字から始めることはできません</translation>
+    </message>
+    <message>
+        <source>Illegal signal name</source>
+        <translation>シグナルの名前が無効です</translation>
+    </message>
+    <message>
+        <source>No property alias location</source>
+        <translation>プロパティのエイリアスへのパスがありません</translation>
+    </message>
+    <message>
+        <source>Invalid alias reference. An alias reference must be specified as &lt;id&gt;, &lt;id&gt;.&lt;property&gt; or &lt;id&gt;.&lt;value property&gt;.&lt;property&gt;</source>
+        <translation>無効なエイリアスの参照です。エイリアスの参照先は &lt;id&gt;, &lt;id&gt;.&lt;プロパティ&gt; もしくは &lt;id&gt;.&lt;値プロパティ&gt;.&lt;プロパティ&gt; のいずれかでなくてはいけません</translation>
+    </message>
+    <message>
+        <source>Invalid alias location</source>
+        <translation>無効なエイリアスのパス</translation>
+    </message>
+    <message>
+        <source>Invalid component id specification</source>
+        <translation>無効なコンポーネント id が指定されています</translation>
+    </message>
+    <message>
+        <source>Invalid empty ID</source>
+        <translation>空の id は無効です</translation>
+    </message>
+    <message>
+        <source>IDs cannot start with an uppercase letter</source>
+        <translation>id を大文字から始めることはできません</translation>
+    </message>
+    <message>
+        <source>IDs must start with a letter or underscore</source>
+        <translation>id は英字もしくはアンダースコアで始まらなくてはいけません</translation>
+    </message>
+    <message>
+        <source>IDs must contain only letters, numbers, and underscores</source>
+        <translation>id には英数字およびアンダースコアのみ使用できます</translation>
+    </message>
+    <message>
+        <source>ID illegally masks global JavaScript property</source>
+        <translation>id はグローバルな JavaScript のプロパティを不正に隠しています</translation>
+    </message>
+    <message>
+        <source>Invalid use of id property</source>
+        <translation>無効な id プロパティの使用法です</translation>
+    </message>
+    <message>
+        <source>Duplicate property name</source>
+        <translation>プロパティの名前が重複しています</translation>
+    </message>
+    <message>
+        <source>Property names cannot begin with an upper case letter</source>
+        <translation>プロパティの名前を大文字から始めることはできません</translation>
+    </message>
+    <message>
+        <source>Illegal property name</source>
+        <translation>プロパティの名前が無効です</translation>
+    </message>
+    <message>
+        <source>Non-existent attached object</source>
+        <translation>アタッチされたオブジェクトが存在しません</translation>
+    </message>
+    <message>
+        <source>Incorrectly specified signal assignment</source>
+        <translation>仕様の異なるシグナルが割り当てられています</translation>
+    </message>
+    <message>
+        <source>&quot;%1.%2&quot; is not available in %3 %4.%5.</source>
+        <translation>%3 %4.%5 で &quot;%1.%2&quot; は利用できません。</translation>
+    </message>
+    <message>
+        <source>&quot;%1.%2&quot; is not available due to component versioning.</source>
+        <translation>コンポーネントのバージョンの問題により &quot;%1.%2&quot; は利用できません。</translation>
     </message>
 </context>
 <context>
@@ -113,6 +313,10 @@
     <message>
         <source>Invalid property assignment: unsupported type &quot;%1&quot;</source>
         <translation>無効なプロパティの値: 未知の型 &quot;%1&quot; です</translation>
+    </message>
+    <message>
+        <source>Composite Singleton Type %1 is not creatable.</source>
+        <translation>Composite Singleton な型 %1 が作成できません。</translation>
     </message>
     <message>
         <source>Element is not creatable.</source>
@@ -597,8 +801,20 @@
         <translation>は型ではありません</translation>
     </message>
     <message>
+        <source>static plugin for module &quot;%1&quot; with name &quot;%2&quot; has no metadata URI</source>
+        <translation>モジュール &quot;%1&quot;(&quot;%2&quot;) 用のスタティックプラグインにメタデータ URI が有りません</translation>
+    </message>
+    <message>
         <source>plugin cannot be loaded for module &quot;%1&quot;: %2</source>
         <translation>&quot;%1&quot; モジュール用のプラグインがロードできません: %2</translation>
+    </message>
+    <message>
+        <source>static plugin for module &quot;%1&quot; with name &quot;%2&quot; cannot be loaded: %3</source>
+        <translation>モジュール &quot;%1&quot;(&quot;%2&quot;) 用のスタティックプラグインがロードできません: %3</translation>
+    </message>
+    <message>
+        <source>could not resolve all plugins for module &quot;%1&quot;</source>
+        <translation>モジュール &quot;%1&quot; 用プラグインのすべてシンボルを解決することが出来ませんでした</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; plugin &quot;%2&quot; not found</source>
@@ -625,8 +841,8 @@
         <translation>import する &quot;%1&quot; に qmldir も名前空間もありません</translation>
     </message>
     <message>
-        <source>File name case mismatch for &quot;%1&quot;</source>
-        <translation>ファイル名の大文字小文字が &quot;%1&quot; に合っていません</translation>
+        <source>Module loaded for URI &apos;%1&apos; does not implement QQmlTypesExtensionInterface</source>
+        <translation>URI &apos;%1&apos; としてロードしたモジュールが QQmlTypesExtensionInterface を実装していません</translation>
     </message>
     <message>
         <source>Module namespace &apos;%1&apos; does not match import URI &apos;%2&apos;</source>
@@ -639,6 +855,10 @@
     <message>
         <source>Module &apos;%1&apos; does not contain a module identifier directive - it cannot be protected from external registrations.</source>
         <translation>モジュール &apos;%1&apos; にモジュール識別子が含まれていません。そのため、外部からの登録から保護することができません。</translation>
+    </message>
+    <message>
+        <source>File name case mismatch for &quot;%1&quot;</source>
+        <translation>ファイル名の大文字小文字が &quot;%1&quot; に合っていません</translation>
     </message>
 </context>
 <context>
@@ -715,6 +935,62 @@
 <context>
     <name>QQmlParser</name>
     <message>
+        <source>Unexpected object definition</source>
+        <translation>予期しないオブジェクト定義です</translation>
+    </message>
+    <message>
+        <source>Invalid import qualifier ID</source>
+        <translation>import する名前空間の id が無効です</translation>
+    </message>
+    <message>
+        <source>Reserved name &quot;Qt&quot; cannot be used as an qualifier</source>
+        <translation>予約語 &quot;Qt&quot; を import する名前空間に使用することはできません</translation>
+    </message>
+    <message>
+        <source>Script import qualifiers must be unique.</source>
+        <translation>スクリプトを import する名前空間は一意である必要があります。</translation>
+    </message>
+    <message>
+        <source>Script import requires a qualifier</source>
+        <translation>スクリプトを import する際には名前空間の指定が必要です</translation>
+    </message>
+    <message>
+        <source>Library import requires a version</source>
+        <translation>ライブラリの import にはバージョンが必要です</translation>
+    </message>
+    <message>
+        <source>Pragma requires a valid qualifier</source>
+        <translation>Pragma には有効な修飾子が必要です</translation>
+    </message>
+    <message>
+        <source>Expected parameter type</source>
+        <translation>予期するパラメータの型</translation>
+    </message>
+    <message>
+        <source>Invalid signal parameter type: </source>
+        <translation>無効な型のシグナルの引数: </translation>
+    </message>
+    <message>
+        <source>Invalid property type modifier</source>
+        <translation>無効なプロパティの型の修飾子</translation>
+    </message>
+    <message>
+        <source>Unexpected property type modifier</source>
+        <translation>予期しないプロパティの型の修飾子</translation>
+    </message>
+    <message>
+        <source>Expected property type</source>
+        <translation>予期するプロパティの型</translation>
+    </message>
+    <message>
+        <source>Duplicate default property</source>
+        <translation>デフォルトプロパティが重複しています</translation>
+    </message>
+    <message>
+        <source>JavaScript declaration outside Script element</source>
+        <translation>Script 要素の外部での JavaScript の宣言</translation>
+    </message>
+    <message>
         <source>Illegal syntax for exponential number</source>
         <translation>無効な指数の構文です</translation>
     </message>
@@ -763,10 +1039,6 @@
         <translation>正規表現リテラルが閉じていません</translation>
     </message>
     <message>
-        <source>Deprecated JavaScript `with&apos; statement detected in QML expression. Support for this will be removed in Qt 5.2!</source>
-        <translation>非推奨の JavaScript &apos;with&apos; 文が QML の式で使用されています。&apos;with&apos; 文のサポートは Qt 5.2 で削除されます。</translation>
-    </message>
-    <message>
         <source>Syntax error</source>
         <translation>構文エラー</translation>
     </message>
@@ -785,50 +1057,6 @@
     <message>
         <source>Expected type name</source>
         <translation>予期する型の名前</translation>
-    </message>
-    <message>
-        <source>Invalid import qualifier ID</source>
-        <translation>import する名前空間の id が無効です</translation>
-    </message>
-    <message>
-        <source>Reserved name &quot;Qt&quot; cannot be used as an qualifier</source>
-        <translation>予約語 &quot;Qt&quot; を import する名前空間に使用することはできません</translation>
-    </message>
-    <message>
-        <source>Script import qualifiers must be unique.</source>
-        <translation>スクリプトを import する名前空間は一意である必要があります。</translation>
-    </message>
-    <message>
-        <source>Script import requires a qualifier</source>
-        <translation>スクリプトを import する際には名前空間の指定が必要です</translation>
-    </message>
-    <message>
-        <source>Library import requires a version</source>
-        <translation>ライブラリの import にはバージョンが必要です</translation>
-    </message>
-    <message>
-        <source>Expected parameter type</source>
-        <translation>予期するパラメータの型</translation>
-    </message>
-    <message>
-        <source>Invalid signal parameter type: </source>
-        <translation>無効な型のシグナルの引数: </translation>
-    </message>
-    <message>
-        <source>Invalid property type modifier</source>
-        <translation>無効なプロパティの型の修飾子</translation>
-    </message>
-    <message>
-        <source>Unexpected property type modifier</source>
-        <translation>予期しないプロパティの型の修飾子</translation>
-    </message>
-    <message>
-        <source>Expected property type</source>
-        <translation>予期するプロパティの型</translation>
-    </message>
-    <message>
-        <source>JavaScript declaration outside Script element</source>
-        <translation>Script 要素の外部での JavaScript の宣言</translation>
     </message>
     <message>
         <source>Imported file must be a script</source>
@@ -867,6 +1095,48 @@
     </message>
 </context>
 <context>
+    <name>QQmlPropertyCacheCreator</name>
+    <message>
+        <source>Cannot override FINAL property</source>
+        <translation>FINAL プロパティは上書きできません</translation>
+    </message>
+    <message>
+        <source>Invalid signal parameter type: %1</source>
+        <translation>無効な型のシグナルの引数: %1</translation>
+    </message>
+    <message>
+        <source>Duplicate signal name: invalid override of property change signal or superclass signal</source>
+        <translation>シグナル名が重複しています: プロパティの変更通知シグナルや基底クラスのシグナルのオーバーライドは無効です</translation>
+    </message>
+    <message>
+        <source>Duplicate method name: invalid override of property change signal or superclass signal</source>
+        <translation>メソッド名が重複しています: プロパティの変更通知シグナルや基底クラスのシグナルのオーバーライドは無効です</translation>
+    </message>
+    <message>
+        <source>Invalid property type</source>
+        <translation>無効なプロパティの型です</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlPropertyValidator</name>
+    <message>
+        <source>&quot;%1.%2&quot; is not available in %3 %4.%5.</source>
+        <translation>%3 %4.%5 で &quot;%1.%2&quot; は利用できません。</translation>
+    </message>
+    <message>
+        <source>&quot;%1.%2&quot; is not available due to component versioning.</source>
+        <translation>コンポーネントのバージョンの問題により &quot;%1.%2&quot; は利用できません。</translation>
+    </message>
+    <message>
+        <source>Cannot assign to non-existent default property</source>
+        <translation>存在しないデフォルトプロパティへは割り当てできません</translation>
+    </message>
+    <message>
+        <source>Cannot assign to non-existent property &quot;%1&quot;</source>
+        <translation>存在しないプロパティ &quot;%1&quot; へは割り当てできません</translation>
+    </message>
+</context>
+<context>
     <name>QQmlRewrite</name>
     <message>
         <source>Signal uses unnamed parameter followed by named parameter.</source>
@@ -884,12 +1154,24 @@
         <translation>qmldir &quot;%1&quot; のコンテンツの更新ができませんでした</translation>
     </message>
     <message>
+        <source>No matching type found, pragma Singleton files cannot be used by QQmlComponent.</source>
+        <translation>合致する型が見つからないため、Singleton pragma ファイルを QQmlComponent から使用できません。</translation>
+    </message>
+    <message>
+        <source>pragma Singleton used with a non composite singleton type %1</source>
+        <translation>Singleton pragma がコンポジットではないシングルトンな型 %1 で使われています</translation>
+    </message>
+    <message>
         <source>Script %1 unavailable</source>
         <translation>スクリプト %1 が利用できません</translation>
     </message>
     <message>
         <source>Type %1 unavailable</source>
         <translation>型 %1 が利用できません</translation>
+    </message>
+    <message>
+        <source>qmldir defines type as singleton, but no pragma Singleton found in type %1.</source>
+        <translation>qmldir はシングルトンな型として定義されていますが、Singleton pragma が型 %1 に見つかりません。</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; is not installed</source>
@@ -964,6 +1246,10 @@
     <message>
         <source>Animation is an abstract class</source>
         <translation>Animation は抽象クラスです</translation>
+    </message>
+    <message>
+        <source>Animator is an abstract class</source>
+        <translation>Animator は抽象クラスです</translation>
     </message>
 </context>
 <context>
@@ -1278,10 +1564,130 @@
     </message>
 </context>
 <context>
-    <name>QV4Bindings</name>
+    <name>QmlObjectCreator</name>
     <message>
-        <source>Binding loop detected for property &quot;%1&quot;</source>
-        <translation>プロパティ &quot;%1&quot; へのバインディングにループが発生しています</translation>
+        <source>Invalid property assignment: string expected</source>
+        <translation>無効なプロパティの値: 文字列(string)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: string or string list expected</source>
+        <translation>無効なプロパティの値: 文字列(string)あるいは文字列の配列を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: byte array expected</source>
+        <translation>無効なプロパティの値: バイトアレイを指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: url expected</source>
+        <translation>無効なプロパティの値: URL を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: unsigned int expected</source>
+        <translation>無効なプロパティの値: 符号なしの整数(unsigned int)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: int expected</source>
+        <translation>無効なプロパティの値: 整数(int)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: number expected</source>
+        <translation>無効なプロパティの値: 数値(real)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: color expected</source>
+        <translation>無効なプロパティの値: 色(color)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: date expected</source>
+        <translation>無効なプロパティの値: 日付(date)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: time expected</source>
+        <translation>無効なプロパティの値: 時間(time)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: datetime expected</source>
+        <translation>無効なプロパティの値: 日付と時間(datetime)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: point expected</source>
+        <translation>無効なプロパティの値: 位置(point)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: size expected</source>
+        <translation>無効なプロパティの値: サイズ(size)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: boolean expected</source>
+        <translation>無効なプロパティの値: 真偽値(bool)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: 3D vector expected</source>
+        <translation>無効なプロパティの値: 3D ベクターを指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: 4D vector expected</source>
+        <translation>無効なプロパティの値: 4D ベクターを指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: regular expression expected; use /pattern/ syntax</source>
+        <translation>無効なプロパティの値: /パターン/ 形式で正規表現を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: real or array of reals expected</source>
+        <translation>無効なプロパティの値: 実数(real)あるいはその配列を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: int or array of ints expected</source>
+        <translation>無効なプロパティの値: 整数(int)あるいはその配列を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: bool or array of bools expected</source>
+        <translation>無効なプロパティの値: 真偽値(bool)あるいはその配列を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: url or array of urls expected</source>
+        <translation>無効なプロパティの値: URL あるいはその配列を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: string or array of strings expected</source>
+        <translation>無効なプロパティの値: 文字列(string)あるいはその配列を指定してください</translation>
+    </message>
+    <message>
+        <source>Cannot assign value %1 to property %2</source>
+        <translation>プロパティ %2 へ値 %1 を割り当てできません</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: unsupported type &quot;%1&quot;</source>
+        <translation>無効なプロパティの値: 未知の型 &quot;%1&quot; です</translation>
+    </message>
+    <message>
+        <source>Cannot set properties on %1 as it is null</source>
+        <translation>%1 のプロパティが空のため値を代入できません</translation>
+    </message>
+    <message>
+        <source>Invalid grouped property access</source>
+        <translation>無効なグループ化されたプロパティへのアクセスです</translation>
+    </message>
+    <message>
+        <source>Cannot assign object to interface property</source>
+        <translation>オブジェクトをインターフェースプロパティに割り当てることはできません</translation>
+    </message>
+    <message>
+        <source>Cannot assign object to property</source>
+        <translation>オブジェクトをプロパティに割り当てできません</translation>
+    </message>
+    <message>
+        <source>Cannot assign primitives to lists</source>
+        <translation>プリミティブをリストに割り当てできません</translation>
+    </message>
+    <message>
+        <source>Unable to create object of type %1</source>
+        <translation>%1 型のオブジェクトは作成できません</translation>
+    </message>
+    <message>
+        <source>Composite Singleton Type %1 is not creatable</source>
+        <translation>Composite Singleton な型 %1 が作成できません</translation>
     </message>
 </context>
 <context>
@@ -1297,6 +1703,10 @@
     <message>
         <source>Cannot install %1 &apos;%2&apos; into protected namespace &apos;%3&apos;</source>
         <translation>%1 &apos;%2&apos; を保護された名前空間 &apos;%3&apos; にはインストールできません</translation>
+    </message>
+    <message>
+        <source>Cannot install %1 &apos;%2&apos; into protected module &apos;%3&apos; version &apos;%4&apos;</source>
+        <translation>%1 &apos;%2&apos; を保護されたモジュール &apos;%3&apos; バージョン &apos;%4&apos; へインストールできません</translation>
     </message>
 </context>
 </TS>

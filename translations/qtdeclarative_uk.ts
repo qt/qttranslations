@@ -1,11 +1,211 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="uk_UA">
+<TS version="2.1" language="uk_UA">
+<context>
+    <name>DefaultColorDialog</name>
+    <message>
+        <source>Hue</source>
+        <translation>Відтінок</translation>
+    </message>
+    <message>
+        <source>Saturation</source>
+        <translation>Насиченість</translation>
+    </message>
+    <message>
+        <source>Luminosity</source>
+        <translation>Світність</translation>
+    </message>
+    <message>
+        <source>Alpha</source>
+        <translation>Альфа</translation>
+    </message>
+</context>
+<context>
+    <name>DefaultFontDialog</name>
+    <message>
+        <source>Writing System</source>
+        <translation>Система письма</translation>
+    </message>
+    <message>
+        <source>Font</source>
+        <translation>Шрифт</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Розмір</translation>
+    </message>
+    <message>
+        <source>Weight</source>
+        <translation>Жирність</translation>
+    </message>
+    <message>
+        <source>Style</source>
+        <translation>Стиль</translation>
+    </message>
+    <message>
+        <source>Sample</source>
+        <translation>Приклад</translation>
+    </message>
+    <message>
+        <source>Italic</source>
+        <translation>Курсив</translation>
+    </message>
+    <message>
+        <source>Underline</source>
+        <translation>Підкреслений</translation>
+    </message>
+    <message>
+        <source>Overline</source>
+        <translation>Надкреслений</translation>
+    </message>
+    <message>
+        <source>Strikeout</source>
+        <translation>Перекреслений</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Скасувати</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+</context>
 <context>
     <name>QInputMethod</name>
     <message>
         <source>InputMethod is an abstract class</source>
         <translation>InputMethod - це абстрактний клас</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlAnonymousComponentResolver</name>
+    <message>
+        <source>Component objects cannot declare new functions.</source>
+        <translation>Об&apos;єкти Component не можуть оголошувати нові функції.</translation>
+    </message>
+    <message>
+        <source>Component objects cannot declare new properties.</source>
+        <translation>Об&apos;єкти Component не можуть оголошувати нові властивості.</translation>
+    </message>
+    <message>
+        <source>Component objects cannot declare new signals.</source>
+        <translation>Об&apos;єкти Component не можуть оголошувати нові сигнали.</translation>
+    </message>
+    <message>
+        <source>Cannot create empty component specification</source>
+        <translation>Неможливо створити порожню специфікацію компоненти</translation>
+    </message>
+    <message>
+        <source>Component elements may not contain properties other than id</source>
+        <translation>Елементи Component не можуть містити властивостей окрім id</translation>
+    </message>
+    <message>
+        <source>id is not unique</source>
+        <translation>ідентифікатор не унікальний</translation>
+    </message>
+    <message>
+        <source>Invalid alias reference. Unable to find id &quot;%1&quot;</source>
+        <translation>Неправильне посилання на псевдонім. Неможливо знайти id &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source>Invalid alias location</source>
+        <translation>Неправильна позиція псевдоніму</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlCodeGenerator</name>
+    <message>
+        <source>Duplicate method name</source>
+        <translation>Дубльована назва методу</translation>
+    </message>
+    <message>
+        <source>Method names cannot begin with an upper case letter</source>
+        <translation>Назви методів не можуть починатись з великої літери</translation>
+    </message>
+    <message>
+        <source>Illegal method name</source>
+        <translation>Неприпустима назва методу</translation>
+    </message>
+    <message>
+        <source>Duplicate signal name</source>
+        <translation>Дубльована назва сигналу</translation>
+    </message>
+    <message>
+        <source>Signal names cannot begin with an upper case letter</source>
+        <translation>Назви сигналів не можуть починатись з великої літери</translation>
+    </message>
+    <message>
+        <source>Illegal signal name</source>
+        <translation>Неприпустима назва сигналу</translation>
+    </message>
+    <message>
+        <source>No property alias location</source>
+        <translation>Відсутня позиція псевдоніма властивості</translation>
+    </message>
+    <message>
+        <source>Invalid alias reference. An alias reference must be specified as &lt;id&gt;, &lt;id&gt;.&lt;property&gt; or &lt;id&gt;.&lt;value property&gt;.&lt;property&gt;</source>
+        <translation>Неправильне посилання на псевдонім. Посилання на псевдонім повинно бути вказане як &lt;id&gt;, &lt;id&gt;.&lt;властивість&gt; або &lt;id&gt;.&lt;властивість-значення&gt;.&lt;властивість&gt;</translation>
+    </message>
+    <message>
+        <source>Invalid alias location</source>
+        <translation>Неправильна позиція псевдоніму</translation>
+    </message>
+    <message>
+        <source>Invalid component id specification</source>
+        <translation>Неправильна специфікація ідентифікатора компоненти</translation>
+    </message>
+    <message>
+        <source>Invalid empty ID</source>
+        <translation>Неправильний порожній ID</translation>
+    </message>
+    <message>
+        <source>IDs cannot start with an uppercase letter</source>
+        <translation>Ідентифікатори не можуть починатись з великої літери</translation>
+    </message>
+    <message>
+        <source>IDs must start with a letter or underscore</source>
+        <translation>Ідентифікатори повинні починатись з літери чи підкреслення</translation>
+    </message>
+    <message>
+        <source>IDs must contain only letters, numbers, and underscores</source>
+        <translation>Ідентифікатори повинні містити лише літери, цифри та підкреслення</translation>
+    </message>
+    <message>
+        <source>ID illegally masks global JavaScript property</source>
+        <translation>Ідентифікатор неправильно маскує глобальну властивість JavaScript</translation>
+    </message>
+    <message>
+        <source>Invalid use of id property</source>
+        <translation>Неправильне використання властивості id</translation>
+    </message>
+    <message>
+        <source>Duplicate property name</source>
+        <translation>Дубльована назва властивості</translation>
+    </message>
+    <message>
+        <source>Property names cannot begin with an upper case letter</source>
+        <translation>Назви властивостей не можуть починатись з великої літери</translation>
+    </message>
+    <message>
+        <source>Illegal property name</source>
+        <translation>Неприпустима назва властивості</translation>
+    </message>
+    <message>
+        <source>Non-existent attached object</source>
+        <translation>Неіснуючий прикріплений об&apos;єкт</translation>
+    </message>
+    <message>
+        <source>Incorrectly specified signal assignment</source>
+        <translation>Неправильно вказане призначення сигналу</translation>
+    </message>
+    <message>
+        <source>&quot;%1.%2&quot; is not available in %3 %4.%5.</source>
+        <translation>&quot;%1.%2&quot; не доступно в %3 %4.%5.</translation>
+    </message>
+    <message>
+        <source>&quot;%1.%2&quot; is not available due to component versioning.</source>
+        <translation>&quot;%1.%2&quot; не доступно через версіювання компонента.</translation>
     </message>
 </context>
 <context>
@@ -113,6 +313,10 @@
     <message>
         <source>Invalid property assignment: unsupported type &quot;%1&quot;</source>
         <translation>Неправильне присвоєння властивості: непідтримуваний тип &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source>Composite Singleton Type %1 is not creatable.</source>
+        <translation>Складений тип Singleton %1 не є створюваним.</translation>
     </message>
     <message>
         <source>Element is not creatable.</source>
@@ -604,8 +808,20 @@
         <translation>не є типом</translation>
     </message>
     <message>
+        <source>static plugin for module &quot;%1&quot; with name &quot;%2&quot; has no metadata URI</source>
+        <translation>статичний додаток для модуля &quot;%1&quot; з назвою &quot;%2&quot; не має URI для метаданих</translation>
+    </message>
+    <message>
         <source>plugin cannot be loaded for module &quot;%1&quot;: %2</source>
         <translation>неможливо завантажити додаток для модуля &quot;%1&quot;: %2</translation>
+    </message>
+    <message>
+        <source>static plugin for module &quot;%1&quot; with name &quot;%2&quot; cannot be loaded: %3</source>
+        <translation>неможливо завантажити статичний додаток для модуля &quot;%1&quot; з назвою &quot;%2&quot;: %3</translation>
+    </message>
+    <message>
+        <source>could not resolve all plugins for module &quot;%1&quot;</source>
+        <translation>не вдалось розв&apos;язати всі додатки для модуля &quot;%1&quot;</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; plugin &quot;%2&quot; not found</source>
@@ -630,6 +846,10 @@
     <message>
         <source>import &quot;%1&quot; has no qmldir and no namespace</source>
         <translation>import &quot;%1&quot; не має ні qmldir, ні namespace</translation>
+    </message>
+    <message>
+        <source>Module loaded for URI &apos;%1&apos; does not implement QQmlTypesExtensionInterface</source>
+        <translation>Модуль завантажений для URI &apos;%1&apos; не містить реалізаціїї QQmlTypesExtensionInterface</translation>
     </message>
     <message>
         <source>File name case mismatch for &quot;%1&quot;</source>
@@ -817,6 +1037,10 @@
         <translation>Очікувалась назва типу</translation>
     </message>
     <message>
+        <source>Unexpected object definition</source>
+        <translation>Неочікуване визначення об&apos;єкта</translation>
+    </message>
+    <message>
         <source>Invalid import qualifier ID</source>
         <translation>Неправильний ID специфікатору імпорту</translation>
     </message>
@@ -837,6 +1061,10 @@
         <translation>Імпорт бібліотеки вимагає версії</translation>
     </message>
     <message>
+        <source>Pragma requires a valid qualifier</source>
+        <translation>Прагма вимагає правильного специфікатора</translation>
+    </message>
+    <message>
         <source>Expected parameter type</source>
         <translation>Очікувався тип параметра</translation>
     </message>
@@ -855,6 +1083,10 @@
     <message>
         <source>Expected property type</source>
         <translation>Очікувався тип властивості</translation>
+    </message>
+    <message>
+        <source>Duplicate default property</source>
+        <translation>Дубльована типова властивість</translation>
     </message>
     <message>
         <source>JavaScript declaration outside Script element</source>
@@ -897,6 +1129,48 @@
     </message>
 </context>
 <context>
+    <name>QQmlPropertyCacheCreator</name>
+    <message>
+        <source>Cannot override FINAL property</source>
+        <translation>Неможливо перевизначити властивість FINAL</translation>
+    </message>
+    <message>
+        <source>Invalid signal parameter type: %1</source>
+        <translation>Неправильний тип параметра сигналу: %1</translation>
+    </message>
+    <message>
+        <source>Duplicate signal name: invalid override of property change signal or superclass signal</source>
+        <translation>Назва сигналу повторюється: неправильне перевизначення сигналу зміни властивості або сигналу суперкласу</translation>
+    </message>
+    <message>
+        <source>Duplicate method name: invalid override of property change signal or superclass signal</source>
+        <translation>Назва методу повторюється: неправильне перевизначення сигналу зміни властивості або сигналу суперкласу</translation>
+    </message>
+    <message>
+        <source>Invalid property type</source>
+        <translation>Неправильний тип властивості</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlPropertyValidator</name>
+    <message>
+        <source>&quot;%1.%2&quot; is not available in %3 %4.%5.</source>
+        <translation>&quot;%1.%2&quot; не доступно в %3 %4.%5.</translation>
+    </message>
+    <message>
+        <source>&quot;%1.%2&quot; is not available due to component versioning.</source>
+        <translation>&quot;%1.%2&quot; не доступно через версіювання компонента.</translation>
+    </message>
+    <message>
+        <source>Cannot assign to non-existent default property</source>
+        <translation>Неможливо призначити до неіснуючої типової властивості</translation>
+    </message>
+    <message>
+        <source>Cannot assign to non-existent property &quot;%1&quot;</source>
+        <translation>Неможливо призначити неіснуючій властивості &quot;%1&quot;</translation>
+    </message>
+</context>
+<context>
     <name>QQmlRewrite</name>
     <message>
         <source>Signal uses unnamed parameter followed by named parameter.</source>
@@ -921,12 +1195,24 @@
         <translation>Неможливо оновити зміст qmldir для &apos;%1&apos;</translation>
     </message>
     <message>
+        <source>No matching type found, pragma Singleton files cannot be used by QQmlComponent.</source>
+        <translation>Не знайдено відповідний тип, QQmlComponent не може вживати файли з pragma Singleton.</translation>
+    </message>
+    <message>
+        <source>pragma Singleton used with a non composite singleton type %1</source>
+        <translation>pragma Singleton використовується з нескладеним типом Singleton %1</translation>
+    </message>
+    <message>
         <source>Script %1 unavailable</source>
         <translation>Скрипт %1 недоступний</translation>
     </message>
     <message>
         <source>Type %1 unavailable</source>
         <translation>Тип %1 недоступний</translation>
+    </message>
+    <message>
+        <source>qmldir defines type as singleton, but no pragma Singleton found in type %1.</source>
+        <translation>qmldir визначає тип як singleton, але відсутня pragma Singleton в типі %1.</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; is not installed</source>
@@ -1001,6 +1287,10 @@
     <message>
         <source>Animation is an abstract class</source>
         <translation>Animation - це абстрактний клас</translation>
+    </message>
+    <message>
+        <source>Animator is an abstract class</source>
+        <translation>Animator - це абстрактний клас</translation>
     </message>
 </context>
 <context>
@@ -1525,7 +1815,134 @@
     <name>QV4Bindings</name>
     <message>
         <source>Binding loop detected for property &quot;%1&quot;</source>
-        <translation>Знайдено циклічну прив’язку для властивості &quot;%1&quot;</translation>
+        <translation type="vanished">Знайдено циклічну прив’язку для властивості &quot;%1&quot;</translation>
+    </message>
+</context>
+<context>
+    <name>QmlObjectCreator</name>
+    <message>
+        <source>Invalid property assignment: string expected</source>
+        <translation>Неправильне присвоєння властивості: очікувався рядок</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: string or string list expected</source>
+        <translation>Неправильне присвоєння властивості: очікувались рядок або список рядків</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: byte array expected</source>
+        <translation>Неправильне присвоєння властивості: очікувався масив байтів</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: url expected</source>
+        <translation>Неправильне присвоєння властивості: очікувався URL</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: unsigned int expected</source>
+        <translation>Неправильне присвоєння властивості: очікувалось беззнакове ціле</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: int expected</source>
+        <translation>Неправильне присвоєння властивості: очікувалось ціле</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: number expected</source>
+        <translation>Неправильне присвоєння властивості: очікувалось число</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: color expected</source>
+        <translation>Неправильне присвоєння властивості: очікувався колір</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: date expected</source>
+        <translation>Неправильне присвоєння властивості: очікувалась дата</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: time expected</source>
+        <translation>Неправильне присвоєння властивості: очікувався час</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: datetime expected</source>
+        <translation>Неправильне присвоєння властивості: очікувались дата та час</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: point expected</source>
+        <translation>Неправильне присвоєння властивості: очікувалась точка</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: size expected</source>
+        <translation>Неправильне присвоєння властивості: очікувався розмір</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: boolean expected</source>
+        <translation>Неправильне присвоєння властивості: очікувалось булеве</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: 3D vector expected</source>
+        <translation>Неправильне присвоєння властивості: очікувався тривимірний вектор</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: 4D vector expected</source>
+        <translation>Неправильне присвоєння властивості: очікувався чотиривимірний вектор</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: regular expression expected; use /pattern/ syntax</source>
+        <translation>Неправильне присвоєння властивості: очікувався регулярний вираз, використовуйте синтаксис /pattern/</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: real or array of reals expected</source>
+        <translation>Неправильне присвоєння властивості: очікувались дійсне число або масив дійсних чисел</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: int or array of ints expected</source>
+        <translation>Неправильне присвоєння властивості: очікувались ціле число або масив цілих чисел</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: bool or array of bools expected</source>
+        <translation>Неправильне присвоєння властивості: очікувались булеве значення або масив булевих значень</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: url or array of urls expected</source>
+        <translation>Неправильне присвоєння властивості: очікувались url або масив url</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: string or array of strings expected</source>
+        <translation>Неправильне присвоєння властивості: очікувались рядок або масив рядків</translation>
+    </message>
+    <message>
+        <source>Cannot assign value %1 to property %2</source>
+        <translation>Неможливо призначити властивості %2 значення %1</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: unsupported type &quot;%1&quot;</source>
+        <translation>Неправильне присвоєння властивості: непідтримуваний тип &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source>Cannot set properties on %1 as it is null</source>
+        <translation>Неможливо встановити властивості для %1, оскільки він нульовий</translation>
+    </message>
+    <message>
+        <source>Invalid grouped property access</source>
+        <translation>Неправильний доступ до згрупованої властивості</translation>
+    </message>
+    <message>
+        <source>Cannot assign object to interface property</source>
+        <translation>Неможливо призначити об’єкт до властивості інтерфейсу</translation>
+    </message>
+    <message>
+        <source>Cannot assign object to property</source>
+        <translation>Неможливо призначити об&apos;єкт властивості</translation>
+    </message>
+    <message>
+        <source>Cannot assign primitives to lists</source>
+        <translation>Неможливо призначити примітиви до списків</translation>
+    </message>
+    <message>
+        <source>Unable to create object of type %1</source>
+        <translation>Неможливо створити об’єкт типу %1</translation>
+    </message>
+    <message>
+        <source>Composite Singleton Type %1 is not creatable</source>
+        <translation>Складений тип Singleton %1 не є створюваним</translation>
     </message>
 </context>
 <context>
@@ -1541,6 +1958,10 @@
     <message>
         <source>Cannot install %1 &apos;%2&apos; into protected namespace &apos;%3&apos;</source>
         <translation>Неможливо встановити %1 &apos;%2&apos; до захищеного простору імен &apos;%3&apos;</translation>
+    </message>
+    <message>
+        <source>Cannot install %1 &apos;%2&apos; into protected module &apos;%3&apos; version &apos;%4&apos;</source>
+        <translation>Неможливо встановити %1 &apos;%2&apos; до захищеного модуля &apos;%3&apos; версії &apos;%4&apos;</translation>
     </message>
 </context>
 </TS>

@@ -1654,6 +1654,10 @@ Möchten Sie es noch einmal versuchen?</translation>
         <source>The class attribute for the class %1 does not match the class name %2.</source>
         <translation>Das Klassenattribut der Klasse %1 entspricht nicht dem Klassennamen (%2).</translation>
     </message>
+    <message>
+        <source>Not loaded due to potential symbol clashes (QTCREATORBUG-10273)</source>
+        <translation>Nicht geladen aufgrund potenzieller Symbolkonflikte (QTCREATORBUG-10273)</translation>
+    </message>
 </context>
 <context>
     <name>QDesignerPropertySheet</name>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="uk_UA">
+<TS version="2.1" language="uk_UA">
 <context>
     <name>QXmlPatternistCLI</name>
     <message>
@@ -1196,11 +1196,11 @@
     </message>
     <message>
         <source>%1 attribute of %2 element must have a value of %3.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 елемента %2 повинен мати значення %3.</translation>
     </message>
     <message>
         <source>%1 attribute of %2 element must have a value of %3 or %4.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 елемента %2 повинен мати значення %3 або %4.</translation>
     </message>
     <message>
         <source>%1 element must not have %2 and %3 attribute together.</source>
@@ -1212,11 +1212,11 @@
     </message>
     <message>
         <source>%1 attribute of %2 element must not be %3.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 елемента %2 не може бути %3.</translation>
     </message>
     <message>
         <source>%1 attribute of %2 element must have the value %3 because the %4 attribute is set.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 елемента %2 повинен мати значення %3, оскільки встановлено атрибут %4.</translation>
     </message>
     <message>
         <source>Specifying use=&apos;prohibited&apos; inside an attribute group has no effect.</source>
@@ -1240,7 +1240,7 @@
     </message>
     <message>
         <source>%1 attribute of %2 element must contain %3, %4 or a list of URIs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 елемента %2 повинен містити %3, %4 або список URI.</translation>
     </message>
     <message>
         <source>%1 element is not allowed in this context.</source>
@@ -1248,7 +1248,7 @@
     </message>
     <message>
         <source>%1 attribute of %2 element has larger value than %3 attribute.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 елемента %2 має більше значення ніж атрибут %3.</translation>
     </message>
     <message>
         <source>Prefix of qualified name %1 is not defined.</source>
@@ -1256,7 +1256,7 @@
     </message>
     <message>
         <source>%1 attribute of %2 element must either contain %3 or the other values.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 елемента %2 повинен містити %3 або інші значення.</translation>
     </message>
     <message>
         <source>Component with ID %1 has been defined previously.</source>
@@ -1652,7 +1652,7 @@
     </message>
     <message>
         <source>%1 contains invalid data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Неправильні дані в %1.</translation>
     </message>
     <message>
         <source>xsi:schemaLocation namespace %1 has already appeared earlier in the instance document.</source>
@@ -1848,6 +1848,90 @@
     </message>
     <message>
         <source>Only the Unicode Codepoint Collation is supported(%1). %2 is unsupported.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An %1-attribute with value %2 has already been declared.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An %1-attribute must have a valid %2 as value, which %3 isn&apos;t.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No operand in an integer division, %1, can be %2.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The first operand in an integer division, %1, cannot be infinity (%2).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The second operand in a division, %1, cannot be zero (%2).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No casting is possible with %1 as the target type.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It is not possible to cast from %1 to %2.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Casting to %1 is not possible because it is an abstract type, and can therefore never be instantiated.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It&apos;s not possible to cast the value %1 of type %2 to %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failure when casting from %1 to %2: %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No comparisons can be done involving the type %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Operator %1 is not available between atomic values of type %2 and %3.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Circularity detected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The first argument to %1 cannot be of type %2.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Attribute %1 cannot appear on the element %2. Only the standard attributes can appear.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Attribute %1 cannot appear on the element %2. Only %3 is allowed, and the standard attributes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Attribute %1 cannot appear on the element %2. Allowed is %3, %4, and the standard attributes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Attribute %1 cannot appear on the element %2. Allowed is %3, and the standard attributes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>XSL-T attributes on XSL-T elements must be in the null namespace, not in the XSL-T namespace which %1 is.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The attribute %1 must appear on element %2.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The element with local name %1 does not exist in XSL-T.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

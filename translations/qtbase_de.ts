@@ -719,6 +719,25 @@ Drücken Sie ESC, um abzubrechen</translation>
     </message>
 </context>
 <context>
+    <name>QDockWidget</name>
+    <message>
+        <source>Float</source>
+        <translation>Lösen</translation>
+    </message>
+    <message>
+        <source>Undocks and re-attaches the dock widget</source>
+        <translation>Löst das Dockwidget und verankert es wieder</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Schließen</translation>
+    </message>
+    <message>
+        <source>Closes the dock widget</source>
+        <translation>Schließt das Dockwidget</translation>
+    </message>
+</context>
+<context>
     <name>QErrorMessage</name>
     <message>
         <source>Debug Message:</source>
@@ -5231,6 +5250,10 @@ Bitte deaktivieren Sie eine der beiden.</translation>
         <translation>Konfiguration</translation>
     </message>
     <message>
+        <source>Shared Configuration</source>
+        <translation>Gemeinsame Konfiguration</translation>
+    </message>
+    <message>
         <source>Shared Cache</source>
         <translation>Gemeinsamer Zwischenspeicher</translation>
     </message>
@@ -5781,6 +5804,81 @@ Bitte deaktivieren Sie eine der beiden.</translation>
     <message>
         <source>Invalid character reference.</source>
         <translation>Ungültige Zeichenreferenz.</translation>
+    </message>
+</context>
+<context>
+    <name>QtAndroidDialogHelpers::QAndroidPlatformMessageDialogHelper</name>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Öffnen</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Abbrechen</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Schließen</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Anwenden</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Zurücksetzen</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Hilfe</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Verwerfen</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Ja</translation>
+    </message>
+    <message>
+        <source>Yes to All</source>
+        <translation>Ja, alle</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Nein</translation>
+    </message>
+    <message>
+        <source>No to All</source>
+        <translation>Nein, keine</translation>
+    </message>
+    <message>
+        <source>Save All</source>
+        <translation>Alles speichern</translation>
+    </message>
+    <message>
+        <source>Abort</source>
+        <translation>Abbrechen</translation>
+    </message>
+    <message>
+        <source>Retry</source>
+        <translation>Wiederholen</translation>
+    </message>
+    <message>
+        <source>Ignore</source>
+        <translation>Ignorieren</translation>
+    </message>
+    <message>
+        <source>Restore Defaults</source>
+        <translation>Voreinstellungen</translation>
     </message>
 </context>
 </TS>

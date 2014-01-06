@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="uk_UA">
+<TS version="2.1" language="uk_UA">
 <context>
     <name>AbstractFindWidget</name>
     <message>
@@ -820,16 +820,12 @@
     <name>FormBuilder</name>
     <message>
         <source>Invalid stretch value for &apos;%1&apos;: &apos;%2&apos;</source>
-        <extracomment>Parsing layout stretch values
-----------
-Parsing layout stretch values</extracomment>
+        <extracomment>Parsing layout stretch values</extracomment>
         <translation>Неправильне значення розтягування для &apos;%1&apos;: &apos;%2&apos;</translation>
     </message>
     <message>
         <source>Invalid minimum size for &apos;%1&apos;: &apos;%2&apos;</source>
-        <extracomment>Parsing grid layout minimum size values
-----------
-Parsing grid layout minimum size values</extracomment>
+        <extracomment>Parsing grid layout minimum size values</extracomment>
         <translation>Неправильне значення мінімального розміру для &apos;%1&apos;: &apos;%2&apos;</translation>
     </message>
 </context>
@@ -1660,6 +1656,10 @@ Would you like to retry?</source>
         <source>The class attribute for the class %1 does not match the class name %2.</source>
         <translation>Атрибут &quot;клас&quot; для класу %1 не збігається з іменем класу %2.</translation>
     </message>
+    <message>
+        <source>Not loaded due to potential symbol clashes (QTCREATORBUG-10273)</source>
+        <translation>Не завантажено через можливий конфлікт сиволів (QTCREATORBUG-10273)</translation>
+    </message>
 </context>
 <context>
     <name>QDesignerPropertySheet</name>
@@ -1821,9 +1821,7 @@ Container pages should only be added by specifying them in XML returned by the d
     <name>QFormBuilder</name>
     <message>
         <source>An empty class name was passed on to %1 (object name: &apos;%2&apos;).</source>
-        <extracomment>Empty class name passed to widget factory method
-----------
-Empty class name passed to widget factory method</extracomment>
+        <extracomment>Empty class name passed to widget factory method</extracomment>
         <translation>До %1 було передане пусте ім&apos;я класу (ім&apos;я об&apos;єкта: &apos;%2&apos;).</translation>
     </message>
     <message>
@@ -2822,6 +2820,10 @@ to
         <source>Copy Path</source>
         <translation>Копіювати шлях</translation>
     </message>
+    <message>
+        <source>Filter</source>
+        <translation>Фільтр</translation>
+    </message>
 </context>
 <context>
     <name>QtResourceViewDialog</name>
@@ -3184,6 +3186,13 @@ Do you want overwrite the template?</source>
     </message>
 </context>
 <context>
+    <name>qdesigner_internal</name>
+    <message>
+        <source>%1 Widget</source>
+        <translation>Віджет %1</translation>
+    </message>
+</context>
+<context>
     <name>qdesigner_internal::ActionEditor</name>
     <message>
         <source>New...</source>
@@ -3232,6 +3241,10 @@ Do you want overwrite the template?</source>
     <message>
         <source>Detailed View</source>
         <translation>Детально</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Фільтр</translation>
     </message>
     <message>
         <source>New action</source>
@@ -3786,11 +3799,11 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::FilterWidget</name>
     <message>
         <source>Filter</source>
-        <translation>Фільтр</translation>
+        <translation type="vanished">Фільтр</translation>
     </message>
     <message>
         <source>Clear text</source>
-        <translation>Очистити текст</translation>
+        <translation type="vanished">Очистити текст</translation>
     </message>
 </context>
 <context>
@@ -4932,6 +4945,10 @@ ate the goose who was loose.</source>
         <translation>Налаштувати редактор властивостей</translation>
     </message>
     <message>
+        <source>Filter</source>
+        <translation>Фільтр</translation>
+    </message>
+    <message>
         <source>Object: %1
 Class: %2</source>
         <translation>Об&apos;єкт: %1
@@ -5655,6 +5672,10 @@ Class: %2</source>
         <source>Warning: Widget creation failed in the widget box. This could be caused by invalid custom widget XML.</source>
         <translation>Попередження: Збій створення віджета в панелі віджетів. Причиною цього може бути неправильний XML користувацького віджета.</translation>
     </message>
+    <message>
+        <source>Filter</source>
+        <translation>Фільтр</translation>
+    </message>
 </context>
 <context>
     <name>qdesigner_internal::WidgetBoxTreeWidget</name>
@@ -5717,7 +5738,7 @@ Class: %2</source>
     </message>
     <message>
         <source>%1 Widget</source>
-        <translation>Віджет %1</translation>
+        <translation type="vanished">Віджет %1</translation>
     </message>
     <message>
         <source>The current page of the container &apos;%1&apos; (%2) could not be determined while creating a layout.This indicates an inconsistency in the ui-file, probably a layout being constructed on a container widget.</source>

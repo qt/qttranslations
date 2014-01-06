@@ -53,11 +53,11 @@ $lupdate .=  " -pro-out $ARGV[1]" if (@ARGV == 2);
 for my $cat (@catalogs) {
     my $extra = "";
     $extra = " ../../qtactiveqt/src/src.pro ../../qtimageformats/src/src.pro" if ($cat eq "qtbase");
-    system("$lupdate ../../$cat/src/src.pro$extra qt_$lang.ts -ts ${cat}_$lang.ts") and die;
+    system("$lupdate ../../$cat/src/src.pro$extra -xts qt_$lang.ts -ts ${cat}_$lang.ts") and die;
 }
 # qtdeclarative & qmlviewer are special: we import them, but they are not part of the meta catalog
-system("$lupdate ../../qtdeclarative/src/src.pro qt_$lang.ts -ts qtdeclarative_$lang.ts") and die;
-system("$lupdate ../../qtquick1/tools/qml/qml.pro qt_$lang.ts -ts qmlviewer_$lang.ts") and die;
+system("$lupdate ../../qtdeclarative/src/src.pro -xts qt_$lang.ts -ts qtdeclarative_$lang.ts") and die;
+system("$lupdate ../../qtquick1/tools/qml/qml.pro -xts qt_$lang.ts -ts qmlviewer_$lang.ts") and die;
 
 open META, "> qt_$lang.ts" or die;
 print META <<EOF ;

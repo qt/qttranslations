@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ja_JP">
+<TS version="2.1" language="ja">
 <context>
     <name>CloseButton</name>
     <message>
@@ -144,7 +144,7 @@
     <name>QApplication</name>
     <message>
         <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
-        <translation>実行可能ファイル &apos;%1&apos; には Qt %2 が必要です。Qt %3 が見つかりました。</translation>
+        <translation>実行可能ファイル &apos;%1&apos; には Qt %2 が必要ですが Qt %3 が見つかりました。</translation>
     </message>
     <message>
         <source>Incompatible Qt Library Error</source>
@@ -221,12 +221,26 @@
         <translation>アルファチャネル(&amp;L):</translation>
     </message>
     <message>
+        <source>&amp;HTML:</source>
+        <translation>&amp;HTML:</translation>
+    </message>
+    <message>
+        <source>Cursor at %1, %2, color: %3
+Press ESC to cancel</source>
+        <translation>カーソル位置 (%1, %2), 色: %3
+エスケープキーでキャンセル</translation>
+    </message>
+    <message>
         <source>Select Color</source>
         <translation>色を選択</translation>
     </message>
     <message>
+        <source>Pick Screen Color</source>
+        <translation>スクリーンの色を取得</translation>
+    </message>
+    <message>
         <source>&amp;Basic colors</source>
-        <translation>基本色(&amp;B)</translation>
+        <translation>基本カラー(&amp;B)</translation>
     </message>
     <message>
         <source>&amp;Custom colors</source>
@@ -253,6 +267,49 @@
     </message>
 </context>
 <context>
+    <name>QCommandLineParser</name>
+    <message>
+        <source>Displays version information.</source>
+        <translation>バージョン情報を表示する。</translation>
+    </message>
+    <message>
+        <source>Displays this help.</source>
+        <translation>このヘルプを表示する。</translation>
+    </message>
+    <message>
+        <source>Unknown option &apos;%1&apos;.</source>
+        <translation>&apos;%1&apos; は未知のオプションです。</translation>
+    </message>
+    <message>
+        <source>Unknown options: %1.</source>
+        <translation>は未知のオプション: %1</translation>
+    </message>
+    <message>
+        <source>Missing value after &apos;%1&apos;.</source>
+        <translation>&apos;%1&apos; の後の値が欠けています。</translation>
+    </message>
+    <message>
+        <source>Unexpected value after &apos;%1&apos;.</source>
+        <translation>&apos;%1&apos; の後が予期せぬ値です。</translation>
+    </message>
+    <message>
+        <source>[options]</source>
+        <translation>[オプション]</translation>
+    </message>
+    <message>
+        <source>Usage: %1</source>
+        <translation>使い方: %1</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation>オプション:</translation>
+    </message>
+    <message>
+        <source>Arguments:</source>
+        <translation>引数:</translation>
+    </message>
+</context>
+<context>
     <name>QCoreApplication</name>
     <message>
         <source>%1: key is empty</source>
@@ -273,6 +330,110 @@
         <source>QT_LAYOUT_DIRECTION</source>
         <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
         <translation>LTR</translation>
+    </message>
+</context>
+<context>
+    <name>QCupsJobWidget</name>
+    <message>
+        <source>Job</source>
+        <translation>ジョブ</translation>
+    </message>
+    <message>
+        <source>Job Control</source>
+        <translation>ジョブコントロール</translation>
+    </message>
+    <message>
+        <source>Scheduled printing:</source>
+        <translation>印刷スケジュール:</translation>
+    </message>
+    <message>
+        <source>Billing information:</source>
+        <translation>課金情報:</translation>
+    </message>
+    <message>
+        <source>Job priority:</source>
+        <translation>ジョブ優先度:</translation>
+    </message>
+    <message>
+        <source>Banner Pages</source>
+        <translation>バナーページ</translation>
+    </message>
+    <message>
+        <source>End:</source>
+        <comment>Banner page at end</comment>
+        <translation>終了バナー:</translation>
+    </message>
+    <message>
+        <source>Start:</source>
+        <comment>Banner page at start</comment>
+        <translation>開始バナー:</translation>
+    </message>
+    <message>
+        <source>Print Immediately</source>
+        <translation>すぐに印刷</translation>
+    </message>
+    <message>
+        <source>Hold Indefinitely</source>
+        <translation>待機</translation>
+    </message>
+    <message>
+        <source>Day (06:00 to 17:59)</source>
+        <translation>昼間 (06:00 から 17:59)</translation>
+    </message>
+    <message>
+        <source>Night (18:00 to 05:59)</source>
+        <translation>夜間 (18:00 から 05:59)</translation>
+    </message>
+    <message>
+        <source>Second Shift (16:00 to 23:59)</source>
+        <translation>第2直 (16:00 から 23:59)</translation>
+    </message>
+    <message>
+        <source>Third Shift (00:00 to 07:59)</source>
+        <translation>第3直 (0:00 から 07:59)</translation>
+    </message>
+    <message>
+        <source>Weekend (Saturday to Sunday)</source>
+        <translation>週末 (土曜日から日曜日)</translation>
+    </message>
+    <message>
+        <source>Specific Time</source>
+        <translation>指定時刻</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <comment>CUPS Banner page</comment>
+        <translation>なし</translation>
+    </message>
+    <message>
+        <source>Standard</source>
+        <comment>CUPS Banner page</comment>
+        <translation>標準</translation>
+    </message>
+    <message>
+        <source>Unclassified</source>
+        <comment>CUPS Banner page</comment>
+        <translation>機密扱いなし</translation>
+    </message>
+    <message>
+        <source>Confidential</source>
+        <comment>CUPS Banner page</comment>
+        <translation>内密</translation>
+    </message>
+    <message>
+        <source>Classified</source>
+        <comment>CUPS Banner page</comment>
+        <translation>機密扱い</translation>
+    </message>
+    <message>
+        <source>Secret</source>
+        <comment>CUPS Banner page</comment>
+        <translation>機密</translation>
+    </message>
+    <message>
+        <source>Top Secret</source>
+        <comment>CUPS Banner page</comment>
+        <translation>最高機密</translation>
     </message>
 </context>
 <context>
@@ -415,7 +576,7 @@
     </message>
     <message>
         <source>Yes to &amp;All</source>
-        <translation>全てにはい(&amp;A)</translation>
+        <translation>全てはい(&amp;A)</translation>
     </message>
     <message>
         <source>&amp;No</source>
@@ -423,7 +584,7 @@
     </message>
     <message>
         <source>N&amp;o to All</source>
-        <translation>全てにいいえ(&amp;O)</translation>
+        <translation>全ていいえ(&amp;O)</translation>
     </message>
     <message>
         <source>Save All</source>
@@ -555,6 +716,25 @@
     <message>
         <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
         <translation>リゾルバライブラリがロードできません: ランタイムライブラリのロードがサポートされていません</translation>
+    </message>
+</context>
+<context>
+    <name>QDockWidget</name>
+    <message>
+        <source>Float</source>
+        <translation>フロート</translation>
+    </message>
+    <message>
+        <source>Undocks and re-attaches the dock widget</source>
+        <translation>ドックウィジェットのドッキング解除やドッキングを行う</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
+    </message>
+    <message>
+        <source>Closes the dock widget</source>
+        <translation>ドックウィジェットを閉じる</translation>
     </message>
 </context>
 <context>
@@ -771,6 +951,10 @@
     <message>
         <source>&amp;New Folder</source>
         <translation>新しいフォルダ(&amp;N)</translation>
+    </message>
+    <message>
+        <source>All files (*)</source>
+        <translation>すべてのファイル(*)</translation>
     </message>
     <message>
         <source>Directories</source>
@@ -1521,6 +1705,18 @@ Do you want to delete it anyway?</source>
     </message>
 </context>
 <context>
+    <name>QKeySequenceEdit</name>
+    <message>
+        <source>Press shortcut</source>
+        <translation>ショートカットを押してください</translation>
+    </message>
+    <message>
+        <source>%1, ...</source>
+        <extracomment>This text is an &quot;unfinished&quot; shortcut, expands like &quot;Ctrl+A, ...&quot;</extracomment>
+        <translation>%1, ...</translation>
+    </message>
+</context>
+<context>
     <name>QLibrary</name>
     <message>
         <source>&apos;%1&apos; is not an ELF object (%2)</source>
@@ -1569,6 +1765,38 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Cannot resolve symbol &quot;%1&quot; in %2: %3</source>
         <translation>%2 に含まれる識別子 &quot;%1&quot; を解決できません: %3</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a valid Mach-O binary (%2)</source>
+        <translation>&apos;%1&apos; は有効な Mach-O バイナリ(%2)ではありません</translation>
+    </message>
+    <message>
+        <source>file is corrupt</source>
+        <translation>ファイルが破損しています</translation>
+    </message>
+    <message>
+        <source>file too small</source>
+        <translation>ファイルが小さすぎます</translation>
+    </message>
+    <message>
+        <source>no suitable architecture in fat binary</source>
+        <translation>ファットバイナリに適切なアーキテクチャが含まれていません</translation>
+    </message>
+    <message>
+        <source>invalid magic %1</source>
+        <translation>無効なマジック %1</translation>
+    </message>
+    <message>
+        <source>wrong architecture</source>
+        <translation>アーキテクチャが異なります</translation>
+    </message>
+    <message>
+        <source>not a dynamic library</source>
+        <translation>ダイナミックライブラリではありません</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a Qt plugin</source>
+        <translation>&apos;%1&apos; は Qt のプラグインではありません</translation>
     </message>
 </context>
 <context>
@@ -2257,6 +2485,81 @@ Do you want to delete it anyway?</source>
     </message>
 </context>
 <context>
+    <name>QObject</name>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>開く</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>適用</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>リセット</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>ヘルプ</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>変更を破棄</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>はい</translation>
+    </message>
+    <message>
+        <source>Yes to All</source>
+        <translation>全てはい</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>いいえ</translation>
+    </message>
+    <message>
+        <source>No to All</source>
+        <translation>全ていいえ</translation>
+    </message>
+    <message>
+        <source>Save All</source>
+        <translation>すべて保存</translation>
+    </message>
+    <message>
+        <source>Abort</source>
+        <translation>中止</translation>
+    </message>
+    <message>
+        <source>Retry</source>
+        <translation>再試行</translation>
+    </message>
+    <message>
+        <source>Ignore</source>
+        <translation>無視</translation>
+    </message>
+    <message>
+        <source>Restore Defaults</source>
+        <translation>デフォルトに戻す</translation>
+    </message>
+</context>
+<context>
     <name>QPSQLDriver</name>
     <message>
         <source>Unable to connect</source>
@@ -2359,6 +2662,18 @@ Do you want to delete it anyway?</source>
     <message>
         <source>bottom margin</source>
         <translation>下端余白</translation>
+    </message>
+    <message>
+        <source>Page Layout</source>
+        <translation>ページレイアウト</translation>
+    </message>
+    <message>
+        <source>Page order:</source>
+        <translation>ページの順序:</translation>
+    </message>
+    <message>
+        <source>Pages per sheet:</source>
+        <translation>シートごとのページ数:</translation>
     </message>
     <message>
         <source>Centimeters (cm)</source>
@@ -2519,6 +2834,74 @@ Do you want to delete it anyway?</source>
         <translation>カスタム</translation>
     </message>
     <message>
+        <source>Left to Right, Top to Bottom</source>
+        <translation>左から右、上から下</translation>
+    </message>
+    <message>
+        <source>Left to Right, Bottom to Top</source>
+        <translation>左から右、下から上</translation>
+    </message>
+    <message>
+        <source>Right to Left, Bottom to Top</source>
+        <translation>右から左、下から上</translation>
+    </message>
+    <message>
+        <source>Right to Left, Top to Bottom</source>
+        <translation>右から左、上から下</translation>
+    </message>
+    <message>
+        <source>Bottom to Top, Left to Right</source>
+        <translation>下から上、左から右</translation>
+    </message>
+    <message>
+        <source>Bottom to Top, Right to Left</source>
+        <translation>下から上、右から左</translation>
+    </message>
+    <message>
+        <source>Top to Bottom, Left to Right</source>
+        <translation>上から下、左から右</translation>
+    </message>
+    <message>
+        <source>Top to Bottom, Right to Left</source>
+        <translation>上から下、右から左</translation>
+    </message>
+    <message>
+        <source>1 (1x1)</source>
+        <translation>1 (1x1)</translation>
+    </message>
+    <message>
+        <source>2 (2x1)</source>
+        <translation>2 (2x1)</translation>
+    </message>
+    <message>
+        <source>4 (2x2)</source>
+        <translation>4 (2x2)</translation>
+    </message>
+    <message>
+        <source>6 (2x3)</source>
+        <translation>6 (2x3)</translation>
+    </message>
+    <message>
+        <source>9 (3x3)</source>
+        <translation>9 (3x3)</translation>
+    </message>
+    <message>
+        <source>16 (4x4)</source>
+        <translation>16 (4x4)</translation>
+    </message>
+    <message>
+        <source>All Pages</source>
+        <translation>全てのページ</translation>
+    </message>
+    <message>
+        <source>Odd Pages</source>
+        <translation>奇数ページ</translation>
+    </message>
+    <message>
+        <source>Even Pages</source>
+        <translation>偶数ページ</translation>
+    </message>
+    <message>
         <source>&amp;Options &gt;&gt;</source>
         <translation>オプション(&amp;O) &gt;&gt;</translation>
     </message>
@@ -2563,6 +2946,12 @@ Please choose a different file name.</source>
 Do you want to overwrite it?</source>
         <translation>%1 は既に存在します。
 上書きしますか?</translation>
+    </message>
+    <message>
+        <source>Options &apos;Pages Per Sheet&apos; and &apos;Page Set&apos; cannot be used together.
+Please turn one of those options off.</source>
+        <translation>「シートごとのページ数」と「ページセット」オプションは同時には使用できません。
+どちらかのオプションをオフにしてください。</translation>
     </message>
     <message>
         <source>The &apos;From&apos; value cannot be greater than the &apos;To&apos; value.</source>
@@ -2653,6 +3042,13 @@ Do you want to overwrite it?</source>
     </message>
 </context>
 <context>
+    <name>QPrintPropertiesDialog</name>
+    <message>
+        <source>Job Options</source>
+        <translation>ジョブオプション</translation>
+    </message>
+</context>
+<context>
     <name>QPrintPropertiesWidget</name>
     <message>
         <source>Form</source>
@@ -2696,6 +3092,10 @@ Do you want to overwrite it?</source>
     <message>
         <source>Selection</source>
         <translation>選択した部分を印刷</translation>
+    </message>
+    <message>
+        <source>Page Set:</source>
+        <translation>ページセット:</translation>
     </message>
     <message>
         <source>Output Settings</source>
@@ -2834,12 +3234,23 @@ Do you want to overwrite it?</source>
 <context>
     <name>QQnxFileDialogHelper</name>
     <message>
+        <source>All files (*.*)</source>
+        <translation>すべてのファイル(*.*)</translation>
+    </message>
+    <message>
         <source>CANCEL</source>
         <translation>キャンセル</translation>
     </message>
     <message>
         <source>OK</source>
         <translation>OK</translation>
+    </message>
+</context>
+<context>
+    <name>QQnxFilePicker</name>
+    <message>
+        <source>Pick a file</source>
+        <translation>ファイルの選択</translation>
     </message>
 </context>
 <context>
@@ -3796,7 +4207,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Clear Grab</source>
-        <translation type="unfinished">Clear Grab</translation>
+        <translation>グラブのクリア</translation>
     </message>
     <message>
         <source>Close</source>
@@ -3840,7 +4251,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>iTouch</source>
-        <translation type="unfinished">iTouch</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Logoff</source>
@@ -3860,7 +4271,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Menu PB</source>
-        <translation type="unfinished">Menu PB</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>My Sites</source>
@@ -3900,11 +4311,11 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Rotation PB</source>
-        <translation type="unfinished">Rotation PB</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Rotation KB</source>
-        <translation type="unfinished">Rotation KB</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Save</source>
@@ -4020,7 +4431,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Audio Cycle Track</source>
-        <translation type="unfinished">Audio Cycle Track</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Time</source>
@@ -4274,6 +4685,26 @@ Do you want to overwrite it?</source>
         <translation>ハングル スペシャル</translation>
     </message>
     <message>
+        <source>Cancel</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>Printer</source>
+        <translation>プリンタ</translation>
+    </message>
+    <message>
+        <source>Execute</source>
+        <translation>実行</translation>
+    </message>
+    <message>
+        <source>Play</source>
+        <translation>再生</translation>
+    </message>
+    <message>
+        <source>Zoom</source>
+        <translation>拡大・縮小</translation>
+    </message>
+    <message>
         <source>Ctrl</source>
         <translation>コントロール</translation>
     </message>
@@ -4445,9 +4876,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>panel</source>
-        <extracomment>Role of an accessible object
-----------
-Role of an accessible object</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>パネル</translation>
     </message>
     <message>
@@ -4813,7 +5242,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>Unable to init SSL Context: %1</source>
-        <translation></translation>
+        <translation>SSL コンテキストを初期化できません: %1</translation>
     </message>
     <message>
         <source>Unable to write data: %1</source>
@@ -4893,6 +5322,10 @@ Role of an accessible object</extracomment>
     <message>
         <source>Configuration</source>
         <translation>設定</translation>
+    </message>
+    <message>
+        <source>Shared Configuration</source>
+        <translation>共有設定</translation>
     </message>
     <message>
         <source>Shared Cache</source>
