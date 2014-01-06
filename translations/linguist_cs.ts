@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="cs_CZ">
+<TS version="2.1" language="cs_CZ">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1379,6 +1379,33 @@ Volby:
     </message>
 </context>
 <context>
+    <name>Linguist</name>
+    <message>
+        <source>GNU Gettext localization files</source>
+        <translation>Překladové soubory GNU Gettext</translation>
+    </message>
+    <message>
+        <source>GNU Gettext localization template files</source>
+        <translation>Soubory s předlohami pro překlad GNU Gettext</translation>
+    </message>
+    <message>
+        <source>Compiled Qt translations</source>
+        <translation>Sestavené překlady Qt</translation>
+    </message>
+    <message>
+        <source>Qt Linguist &apos;Phrase Book&apos;</source>
+        <translation>Slovník Qt Linguist</translation>
+    </message>
+    <message>
+        <source>Qt translation sources</source>
+        <translation>Zdroje s překlady Qt</translation>
+    </message>
+    <message>
+        <source>XLIFF localization files</source>
+        <translation>Překladové soubory XLIFF</translation>
+    </message>
+</context>
+<context>
     <name>MainWindow</name>
     <message>
         <source>MainWindow</source>
@@ -2041,6 +2068,10 @@ Všechny soubory (*)</translation>
     <message>
         <source>Version %1</source>
         <translation>Verze %1</translation>
+    </message>
+    <message>
+        <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).</source>
+        <translation>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist je nástrojem pro přidávání překladů do programů Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc anebo její dceřinné společnosti.</translation>
     </message>
     <message>
         <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies).</source>

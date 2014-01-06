@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="cs_CZ">
+<TS version="2.1" language="cs_CZ">
 <context>
     <name>AudioCaptureSession</name>
     <message>
@@ -13,10 +13,141 @@
     </message>
 </context>
 <context>
+    <name>AudioContainerControl</name>
+    <message>
+        <source>RAW (headerless) file format</source>
+        <translation>Souborový formát RAW (bez hlavičky)</translation>
+    </message>
+    <message>
+        <source>WAV file format</source>
+        <translation>Souborový formát WAW</translation>
+    </message>
+</context>
+<context>
     <name>AudioEncoderControl</name>
     <message>
         <source>PCM audio data</source>
         <translation>Data PCM audio</translation>
+    </message>
+    <message>
+        <source>Linear PCM audio data</source>
+        <translation>Zvuková data PCM (lineární)</translation>
+    </message>
+</context>
+<context>
+    <name>BbCameraAudioEncoderSettingsControl</name>
+    <message>
+        <source>No compression</source>
+        <translation>Žádná komprese</translation>
+    </message>
+    <message>
+        <source>AAC compression</source>
+        <translation>Komprese AAC</translation>
+    </message>
+    <message>
+        <source>PCM uncompressed</source>
+        <translation>Komprese PCM</translation>
+    </message>
+</context>
+<context>
+    <name>BbCameraMediaRecorderControl</name>
+    <message>
+        <source>Unable to retrieve mute status</source>
+        <translation>Nelze určit stav ztlumení</translation>
+    </message>
+    <message>
+        <source>Unable to retrieve audio input volume</source>
+        <translation>Nelze určit sílu hlasitosti zvukového vstupu</translation>
+    </message>
+    <message>
+        <source>Unable to set mute status</source>
+        <translation>Nelze nastavit stav ztlumení</translation>
+    </message>
+    <message>
+        <source>Unable to set audio input volume</source>
+        <translation>Nelze nastavit sílu hlasitosti zvukového vstupu</translation>
+    </message>
+</context>
+<context>
+    <name>BbCameraSession</name>
+    <message>
+        <source>Camera provides image in unsupported format</source>
+        <translation>Kamera poskytuje obraz v nepodporovaném formátu</translation>
+    </message>
+    <message>
+        <source>Could not load JPEG data from frame</source>
+        <translation>Nepodařilo se nahrát data JPEG ze snímku</translation>
+    </message>
+    <message>
+        <source>Camera not ready</source>
+        <translation>Kamera není připravena</translation>
+    </message>
+    <message>
+        <source>Unable to apply video settings</source>
+        <translation>Nelze použít nastavení pro obraz</translation>
+    </message>
+    <message>
+        <source>Could not open destination file:
+%1</source>
+        <translation>Nepodařilo se otevřít cílový soubor:
+%1</translation>
+    </message>
+    <message>
+        <source>Unable to open camera</source>
+        <translation>Nelze otevřít kameru</translation>
+    </message>
+    <message>
+        <source>Unable to retrieve native camera orientation</source>
+        <translation>Nelze určit přirozené zaměření kamery</translation>
+    </message>
+    <message>
+        <source>Unable to close camera</source>
+        <translation>Nelze zavřít kameru</translation>
+    </message>
+    <message>
+        <source>Unable to start video recording</source>
+        <translation>Nelze spustit nahrávání obrazu</translation>
+    </message>
+    <message>
+        <source>Unable to stop video recording</source>
+        <translation>Nelze zastavit nahrávání obrazu</translation>
+    </message>
+</context>
+<context>
+    <name>BbCameraVideoEncoderSettingsControl</name>
+    <message>
+        <source>No compression</source>
+        <translation>Žádná komprese</translation>
+    </message>
+    <message>
+        <source>AVC1 compression</source>
+        <translation>Komprese AVC1</translation>
+    </message>
+    <message>
+        <source>H264 compression</source>
+        <translation>Komprese H264</translation>
+    </message>
+</context>
+<context>
+    <name>BbImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation>Soubor s obrázkem JPEG</translation>
+    </message>
+</context>
+<context>
+    <name>BbVideoDeviceSelectorControl</name>
+    <message>
+        <source>Front Camera</source>
+        <translation>Čelní kamera</translation>
+    </message>
+    <message>
+        <source>Rear Camera</source>
+        <translation>Zadní kamera</translation>
+    </message>
+    <message>
+        <source>Desktop Camera</source>
+        <translation>Stolní kamera</translation>
     </message>
 </context>
 <context>
@@ -68,6 +199,10 @@
     <message>
         <source>The specified server could not be found.</source>
         <translation>Zadaný server se nepodařilo najít.</translation>
+    </message>
+    <message>
+        <source>Unsupported media type.</source>
+        <translation>Nepodporovaný multimediální typ.</translation>
     </message>
     <message>
         <source>Failed to load source.</source>
@@ -133,6 +268,10 @@
         <source>Media session serious error.</source>
         <translation>Závažná chyba multimediálního sezení.</translation>
     </message>
+    <message>
+        <source>Unsupported media, a codec is missing.</source>
+        <translation>Nepodporované médium. Chybí kodek.</translation>
+    </message>
 </context>
 <context>
     <name>PLSParser</name>
@@ -159,6 +298,78 @@
     <message>
         <source>Length%1</source>
         <translation>Délka %1</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidAudioEncoderSettingsControl</name>
+    <message>
+        <source>Adaptive Multi-Rate Narrowband (AMR-NB) audio codec</source>
+        <translation>Zvukový kodek Adaptive Multi-Rate Narrowband (AMR-NB)</translation>
+    </message>
+    <message>
+        <source>Adaptive Multi-Rate Wideband (AMR-WB) audio codec</source>
+        <translation>Zvukový kodek Adaptive Multi-Rate Wideband (AMR-WB)</translation>
+    </message>
+    <message>
+        <source>AAC Low Complexity (AAC-LC) audio codec</source>
+        <translation>Zvukový kodek AAC Low Complexity (AAC-LC)</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidCameraSession</name>
+    <message>
+        <source>Camera not ready</source>
+        <translation>Kamera není připravena</translation>
+    </message>
+    <message>
+        <source>Drive mode not supported</source>
+        <extracomment>Drive mode is the camera&apos;s shutter mode, for example single shot, continuos exposure, etc.</extracomment>
+        <translation>Režim spouště nepodporován</translation>
+    </message>
+    <message>
+        <source>Could not open destination file: %1</source>
+        <translation>Nepodařilo se otevřít cílový soubor: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation>Soubor s obrázkem JPEG</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidMediaContainerControl</name>
+    <message>
+        <source>MPEG4 media file format</source>
+        <translation>Multimediální souborový formát MPEG4</translation>
+    </message>
+    <message>
+        <source>3GPP media file format</source>
+        <translation>Multimediální souborový formát 3GPP</translation>
+    </message>
+    <message>
+        <source>AMR NB file format</source>
+        <translation>Souborový formát AMR NB</translation>
+    </message>
+    <message>
+        <source>AMR WB file format</source>
+        <translation>Souborový formát AMR WB</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidVideoEncoderSettingsControl</name>
+    <message>
+        <source>H.263 compression</source>
+        <translation>Komprese H.263</translation>
+    </message>
+    <message>
+        <source>H.264 compression</source>
+        <translation>Komprese H.264</translation>
+    </message>
+    <message>
+        <source>MPEG-4 SP compression</source>
+        <translation>Komprese MPEG-4 SP</translation>
     </message>
 </context>
 <context>

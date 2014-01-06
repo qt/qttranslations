@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="cs_CZ">
+<TS version="2.1" language="cs_CZ">
 <context>
     <name>QXmlPatternistCLI</name>
     <message>
@@ -1849,6 +1849,90 @@
     <message>
         <source>Only the Unicode Codepoint Collation is supported(%1). %2 is unsupported.</source>
         <translation>Je podporován pouze Unicode Codepoint Collation (%1). %2 není podporován.</translation>
+    </message>
+    <message>
+        <source>An %1-attribute with value %2 has already been declared.</source>
+        <translation>Vlastnost %1 s hodnotou %2 již existuje.</translation>
+    </message>
+    <message>
+        <source>An %1-attribute must have a valid %2 as value, which %3 isn&apos;t.</source>
+        <translation>Vlastnost %1 musí mít platnou %2 jako hodnotu, což není případ %3.</translation>
+    </message>
+    <message>
+        <source>No operand in an integer division, %1, can be %2.</source>
+        <translation>Při celočíselném dělení, %1, nelze užít operand %2.</translation>
+    </message>
+    <message>
+        <source>The first operand in an integer division, %1, cannot be infinity (%2).</source>
+        <translation>První operand celočíselného dělení, %1, nemůže být nekonečno (%2).</translation>
+    </message>
+    <message>
+        <source>The second operand in a division, %1, cannot be zero (%2).</source>
+        <translation>Druhý operand celočíselného dělení, %1, nemůže být nula (%2).</translation>
+    </message>
+    <message>
+        <source>No casting is possible with %1 as the target type.</source>
+        <translation>Přetypování na cílový typ %1 není možné.</translation>
+    </message>
+    <message>
+        <source>It is not possible to cast from %1 to %2.</source>
+        <translation>Není možné přetypování z %1 na %2.</translation>
+    </message>
+    <message>
+        <source>Casting to %1 is not possible because it is an abstract type, and can therefore never be instantiated.</source>
+        <translation>Přetypování na %1 není možné, protože se jedná o abstraktní typ, a proto nelze vytvořit jeho instanci.</translation>
+    </message>
+    <message>
+        <source>It&apos;s not possible to cast the value %1 of type %2 to %3</source>
+        <translation>Není možné přetypovat hodnotu %1 z typu %2 na %3</translation>
+    </message>
+    <message>
+        <source>Failure when casting from %1 to %2: %3</source>
+        <translation>Neúspěch při přetypování z %1 na %2: %3</translation>
+    </message>
+    <message>
+        <source>No comparisons can be done involving the type %1.</source>
+        <translation>Nelze provádět žádné srovnávací operace s typem %1.</translation>
+    </message>
+    <message>
+        <source>Operator %1 is not available between atomic values of type %2 and %3.</source>
+        <translation>Operátor %1 není dostupný pro atomické typy %2 a %3.</translation>
+    </message>
+    <message>
+        <source>Circularity detected</source>
+        <translation>Zjištěna kruhovitost</translation>
+    </message>
+    <message>
+        <source>The first argument to %1 cannot be of type %2.</source>
+        <translation>První argument pro %1 nemůže být typu %2.</translation>
+    </message>
+    <message>
+        <source>Attribute %1 cannot appear on the element %2. Only the standard attributes can appear.</source>
+        <translation>Vlastnost %1 se nemůže objevit u prvku %2. Jsou přípustné pouze standardní vlastnosti.</translation>
+    </message>
+    <message>
+        <source>Attribute %1 cannot appear on the element %2. Only %3 is allowed, and the standard attributes.</source>
+        <translation>Vlastnost %1 se nemůže objevit u prvku %2. Jsou přípustné pouze %3 a standardní vlastnosti.</translation>
+    </message>
+    <message>
+        <source>Attribute %1 cannot appear on the element %2. Allowed is %3, %4, and the standard attributes.</source>
+        <translation>Vlastnost %1 se nemůže objevit u prvku %2. Jsou přípustné pouze %3, %4 a standardní vlastnosti.</translation>
+    </message>
+    <message>
+        <source>Attribute %1 cannot appear on the element %2. Allowed is %3, and the standard attributes.</source>
+        <translation>Vlastnost %1 se nemůže objevit u prvku %2. Jsou přípustné pouze %3 a standardní vlastnosti.</translation>
+    </message>
+    <message>
+        <source>XSL-T attributes on XSL-T elements must be in the null namespace, not in the XSL-T namespace which %1 is.</source>
+        <translation>Vlastnosti XSL-T prvků XSL-T musí být v nulovém jmenném prostoru, a ne v XSL-T jmenném prostoru, což je případ %1.</translation>
+    </message>
+    <message>
+        <source>The attribute %1 must appear on element %2.</source>
+        <translation>U prvku %2 se musí objevit vlastnost %1.</translation>
+    </message>
+    <message>
+        <source>The element with local name %1 does not exist in XSL-T.</source>
+        <translation>Prvek s místním názvem %1 v XSL-T neexistuje.</translation>
     </message>
 </context>
 </TS>

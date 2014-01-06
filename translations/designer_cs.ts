@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="cs_CZ">
+<TS version="2.1" language="cs_CZ">
 <context>
     <name>AbstractFindWidget</name>
     <message>
@@ -885,16 +885,12 @@
     <name>FormBuilder</name>
     <message>
         <source>Invalid stretch value for &apos;%1&apos;: &apos;%2&apos;</source>
-        <extracomment>Parsing layout stretch values
-----------
-Parsing layout stretch values</extracomment>
+        <extracomment>Parsing layout stretch values</extracomment>
         <translation>Neplatná hodnota roztažení pro &apos;%1&apos;: &apos;%2&apos;</translation>
     </message>
     <message>
         <source>Invalid minimum size for &apos;%1&apos;: &apos;%2&apos;</source>
-        <extracomment>Parsing grid layout minimum size values
-----------
-Parsing grid layout minimum size values</extracomment>
+        <extracomment>Parsing grid layout minimum size values</extracomment>
         <translation>Neplatná nejmenší velikost pro &apos;%1&apos;: &apos;%2&apos;</translation>
     </message>
 </context>
@@ -1256,30 +1252,30 @@ This indicates an inconsistency in the ui-file.</source>
     <name>QAxWidgetPlugin</name>
     <message>
         <source>ActiveX control</source>
-        <translation type="obsolete">Ovládací prvek ActiveX</translation>
+        <translation>Ovládací prvek ActiveX</translation>
     </message>
     <message>
         <source>ActiveX control widget</source>
-        <translation type="obsolete">Ovládací prvek ActiveX</translation>
+        <translation>Ovládací prvek ActiveX</translation>
     </message>
 </context>
 <context>
     <name>QAxWidgetTaskMenu</name>
     <message>
         <source>Set Control</source>
-        <translation type="obsolete">Nastavit ovládací prvek</translation>
+        <translation>Nastavit ovládací prvek</translation>
     </message>
     <message>
         <source>Reset Control</source>
-        <translation type="obsolete">Nastavit znovu ovládací prvek</translation>
+        <translation>Nastavit znovu ovládací prvek</translation>
     </message>
     <message>
         <source>Licensed Control</source>
-        <translation type="obsolete">Licencovaný ovládací prvek</translation>
+        <translation>Licencovaný ovládací prvek</translation>
     </message>
     <message>
         <source>The control requires a design-time license</source>
-        <translation type="obsolete">Ovládací prvek vyžaduje licenci k času návrhu</translation>
+        <translation>Ovládací prvek vyžaduje vývojářskou licenci</translation>
     </message>
 </context>
 <context>
@@ -1631,19 +1627,19 @@ Chcete to zkusit ještě jednou?</translation>
     <name>QDesignerAxWidget</name>
     <message>
         <source>Reset control</source>
-        <translation type="obsolete">Nastavit znovu ovládací prvek</translation>
+        <translation>Nastavit znovu ovládací prvek</translation>
     </message>
     <message>
         <source>Set control</source>
-        <translation type="obsolete">Nastavit ovládací prvek</translation>
+        <translation>Nastavit ovládací prvek</translation>
     </message>
     <message>
         <source>Control loaded</source>
-        <translation type="obsolete">Ovládací prvek nahrán</translation>
+        <translation>Ovládací prvek nahrán</translation>
     </message>
     <message>
         <source>A COM exception occurred when executing a meta call of type %1, index %2 of &quot;%3&quot;.</source>
-        <translation type="obsolete">Při vyvolání postupu typu %1 se vyskytla výjimka COM, rejstřík %2 &quot;%3&quot;.</translation>
+        <translation>Při vyvolání postupu typu %1 se vyskytla výjimka COM, index %2 &quot;%3&quot;.</translation>
     </message>
 </context>
 <context>
@@ -1759,6 +1755,10 @@ Chcete to zkusit ještě jednou?</translation>
     <message>
         <source>The class attribute for the class %1 does not match the class name %2.</source>
         <translation>Vlastnost třídy pro třídu %1 neodpovídá názvu třídy (%2).</translation>
+    </message>
+    <message>
+        <source>Not loaded due to potential symbol clashes (QTCREATORBUG-10273)</source>
+        <translation>Nenahráno z důvodu možného střetu symbolů (QTCREATORBUG-10273)</translation>
     </message>
 </context>
 <context>
@@ -1905,6 +1905,10 @@ Kontejnerové stránky by měly být zadány výhradně v XML vrácené metodě 
         <translation>Designer zřejmě nebyl řádně ukončen; existují soubory z ukládání na pozadí. Chcete je nahrát?</translation>
     </message>
     <message>
+        <source>The file &lt;b&gt;%1&lt;/b&gt; could not be opened: %2</source>
+        <translation>Soubor &lt;b&gt;%2&lt;/b&gt; se nepodařilo otevřít: %2</translation>
+    </message>
+    <message>
         <source>The file &lt;b&gt;%1&lt;/b&gt; could not be opened: %1</source>
         <translation>Soubor &lt;b&gt;%1&lt;/b&gt; se nepodařilo otevřít: %1</translation>
     </message>
@@ -1929,9 +1933,7 @@ Kontejnerové stránky by měly být zadány výhradně v XML vrácené metodě 
     <name>QFormBuilder</name>
     <message>
         <source>An empty class name was passed on to %1 (object name: &apos;%2&apos;).</source>
-        <extracomment>Empty class name passed to widget factory method
-----------
-Empty class name passed to widget factory method</extracomment>
+        <extracomment>Empty class name passed to widget factory method</extracomment>
         <translation>Metodě %1 byl předán prázdný název třídy (název objektu &apos;%2&apos;).</translation>
     </message>
     <message>
@@ -2930,6 +2932,10 @@ Může to být například jazykové rozšíření &quot;_cs&quot;.</translation
         <source>Copy Path</source>
         <translation>Kopírovat cestu</translation>
     </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filtr</translation>
+    </message>
 </context>
 <context>
     <name>QtResourceViewDialog</name>
@@ -3285,6 +3291,10 @@ Chcete tuto předlohu přepsat?</translation>
         <translation>&lt;br/&gt;Qt Designer je obrazový návrhář uživatelského rozhraní pro programy Qt.&lt;br/&gt;</translation>
     </message>
     <message>
+        <source>%1&lt;br/&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).</source>
+        <translation>%1&lt;br/&gt;Autorské právo (C) 2013 Digia Plc a/nebo její dceřinná společnost(i).</translation>
+    </message>
+    <message>
         <source>%1&lt;br/&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies).</source>
         <translation>%1&lt;br/&gt;Autorské právo (C) 2012 Digia Plc a/nebo její dceřinná společnost(i).</translation>
     </message>
@@ -3340,6 +3350,13 @@ Chcete tuto předlohu přepsat?</translation>
     </message>
 </context>
 <context>
+    <name>qdesigner_internal</name>
+    <message>
+        <source>%1 Widget</source>
+        <translation>%1 prvek</translation>
+    </message>
+</context>
+<context>
     <name>qdesigner_internal::ActionEditor</name>
     <message>
         <source>Actions</source>
@@ -3392,6 +3409,10 @@ Chcete tuto předlohu přepsat?</translation>
     <message>
         <source>Detailed View</source>
         <translation>Podrobný pohled</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filtr</translation>
     </message>
     <message>
         <source>Remove actions</source>
@@ -4092,8 +4113,12 @@ Chcete tuto předlohu přepsat?</translation>
         <translation>Neplatný formulář</translation>
     </message>
     <message>
+        <source>&lt;p&gt;This file contains top level spacers.&lt;br/&gt;They will &lt;b&gt;not&lt;/b&gt; be saved.&lt;/p&gt;&lt;p&gt;Perhaps you forgot to create a layout?&lt;/p&gt;</source>
+        <translation>Formulář obsahuje volně stojící rozpínavé mezery, které &lt;b&gt;NEBUDOU&lt;/b&gt; uloženy do formuláře.&lt;/p&gt;&lt;p&gt;Nezapomněli jste vytvořit rozvržení?&lt;/p&gt;</translation>
+    </message>
+    <message>
         <source>&lt;p&gt;This file contains top level spacers.&lt;br&gt;They will &lt;b&gt;not&lt;/b&gt; be saved.&lt;/p&gt;&lt;p&gt;Perhaps you forgot to create a layout?&lt;/p&gt;</source>
-        <translation>Formulář obsahuje volně stojící rozpínavé mezery, které &lt;b&gt;NEBUDOU&lt;/b&gt; uloženy do formuláře.&lt;/p&gt;&lt;p&gt;Možná jste zapomněli na vytvoření rozvržení?&lt;/p&gt;</translation>
+        <translation>Formulář obsahuje volně stojící rozpínavé mezery, které &lt;b&gt;NEBUDOU&lt;/b&gt; uloženy do formuláře.&lt;/p&gt;&lt;p&gt;Nezapomněli jste vytvořit rozvržení?&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -5020,46 +5045,57 @@ která byla volně puštěná.</translation>
     <name>qdesigner_internal::PreviewWidget</name>
     <message>
         <source>Preview Window</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Náhledové okno</translation>
     </message>
     <message>
         <source>LineEdit</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Upravitelný řádek</translation>
     </message>
     <message>
         <source>ComboBox</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Rozbalovací seznam</translation>
     </message>
     <message>
         <source>PushButton</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Tlačítko</translation>
     </message>
     <message>
         <source>ButtonGroup2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Skupina tlačítek 2</translation>
     </message>
     <message>
         <source>CheckBox1</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Zaškrtávací pole 1</translation>
     </message>
     <message>
         <source>CheckBox2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Zaškrtávací pole 2</translation>
     </message>
     <message>
         <source>ButtonGroup</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Skupina tlačítek</translation>
     </message>
     <message>
         <source>RadioButton1</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Přepínač 1</translation>
     </message>
     <message>
         <source>RadioButton2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Přepínač 2</translation>
     </message>
     <message>
         <source>RadioButton3</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Přepínač 3</translation>
     </message>
 </context>
@@ -5122,6 +5158,10 @@ která byla volně puštěná.</translation>
     <message>
         <source>Drop Down Button View</source>
         <translation>Rozbalovací pohled</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filtr</translation>
     </message>
     <message>
         <source>Object: %1
@@ -5492,6 +5532,10 @@ Třída: %2</translation>
     <message>
         <source>Justify</source>
         <translation>Zarovnat do bloku</translation>
+    </message>
+    <message>
+        <source>Right to Left</source>
+        <translation>Zprava doleva</translation>
     </message>
     <message>
         <source>Superscript</source>
@@ -5892,6 +5936,10 @@ Třída: %2</translation>
     <message>
         <source>Warning: Widget creation failed in the widget box. This could be caused by invalid custom widget XML.</source>
         <translation>Upozornění: Vytvoření prvku v krabici s prvky se nezdařilo. Mohlo by to být zapříčiněno chybným XML kódem uživatelsky stanoveného prvku.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filtr</translation>
     </message>
 </context>
 <context>

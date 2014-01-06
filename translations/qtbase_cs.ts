@@ -1,11 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="cs_CZ">
+<TS version="2.1" language="cs_CZ">
 <context>
     <name>CloseButton</name>
     <message>
         <source>Close Tab</source>
         <translation>Zavřít kartu</translation>
+    </message>
+</context>
+<context>
+    <name>MAC_APPLICATION_MENU</name>
+    <message>
+        <source>Services</source>
+        <translation>Služby</translation>
+    </message>
+    <message>
+        <source>Hide %1</source>
+        <translation>Skrýt %1</translation>
+    </message>
+    <message>
+        <source>Hide Others</source>
+        <translation>Skrýt ostatní</translation>
+    </message>
+    <message>
+        <source>Show All</source>
+        <translation>Ukázat vše</translation>
+    </message>
+    <message>
+        <source>Preferences...</source>
+        <translation>Nastavení...</translation>
+    </message>
+    <message>
+        <source>Quit %1</source>
+        <translation>Ukončit %1</translation>
+    </message>
+    <message>
+        <source>About %1</source>
+        <translation>O %1</translation>
     </message>
 </context>
 <context>
@@ -140,6 +171,45 @@
     </message>
 </context>
 <context>
+    <name>QCocoaMenuItem</name>
+    <message>
+        <source>About Qt</source>
+        <translation>O Qt</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>O</translation>
+    </message>
+    <message>
+        <source>Config</source>
+        <translation>Nastavení</translation>
+    </message>
+    <message>
+        <source>Preference</source>
+        <translation>Nastavení</translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation>Volby</translation>
+    </message>
+    <message>
+        <source>Setting</source>
+        <translation>Nastavení</translation>
+    </message>
+    <message>
+        <source>Setup</source>
+        <translation>Nastavení</translation>
+    </message>
+    <message>
+        <source>Quit</source>
+        <translation>Ukončit</translation>
+    </message>
+    <message>
+        <source>Exit</source>
+        <translation>Ukončit</translation>
+    </message>
+</context>
+<context>
     <name>QColorDialog</name>
     <message>
         <source>Hu&amp;e:</source>
@@ -170,8 +240,22 @@
         <translation>A&amp;lfa kanál:</translation>
     </message>
     <message>
+        <source>&amp;HTML:</source>
+        <translation>&amp;HTML:</translation>
+    </message>
+    <message>
+        <source>Cursor at %1, %2, color: %3
+Press ESC to cancel</source>
+        <translation>Ukazatel na %1, %2, barva: %3
+Stiskněte Esc pro zrušení</translation>
+    </message>
+    <message>
         <source>Select Color</source>
         <translation>Vybrat barvu</translation>
+    </message>
+    <message>
+        <source>Pick Screen Color</source>
+        <translation>Zvolit barvu obrazovky</translation>
     </message>
     <message>
         <source>&amp;Basic colors</source>
@@ -202,6 +286,49 @@
     </message>
 </context>
 <context>
+    <name>QCommandLineParser</name>
+    <message>
+        <source>Displays version information.</source>
+        <translation>Zobrazit informace o verzi.</translation>
+    </message>
+    <message>
+        <source>Displays this help.</source>
+        <translation>Zobrazit tuto nápovědu.</translation>
+    </message>
+    <message>
+        <source>Unknown option &apos;%1&apos;.</source>
+        <translation>Neznámá volba &apos;%1&apos;.</translation>
+    </message>
+    <message>
+        <source>Unknown options: %1.</source>
+        <translation>Neznámé volby: %1.</translation>
+    </message>
+    <message>
+        <source>Missing value after &apos;%1&apos;.</source>
+        <translation>Chybějící hodnota po &apos;%1&apos;.</translation>
+    </message>
+    <message>
+        <source>Unexpected value after &apos;%1&apos;.</source>
+        <translation>Neočekávaná hodnota po &apos;%1&apos;.</translation>
+    </message>
+    <message>
+        <source>[options]</source>
+        <translation>[volby]</translation>
+    </message>
+    <message>
+        <source>Usage: %1</source>
+        <translation>Použití: %1</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation>Volby:</translation>
+    </message>
+    <message>
+        <source>Arguments:</source>
+        <translation>Argumenty:</translation>
+    </message>
+</context>
+<context>
     <name>QCoreApplication</name>
     <message>
         <source>%1: key is empty</source>
@@ -222,6 +349,110 @@
         <source>QT_LAYOUT_DIRECTION</source>
         <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
         <translation>LTR</translation>
+    </message>
+</context>
+<context>
+    <name>QCupsJobWidget</name>
+    <message>
+        <source>Job</source>
+        <translation>Úloha</translation>
+    </message>
+    <message>
+        <source>Job Control</source>
+        <translation>Ovládání úlohy</translation>
+    </message>
+    <message>
+        <source>Scheduled printing:</source>
+        <translation>Naplánovaný tisk:</translation>
+    </message>
+    <message>
+        <source>Billing information:</source>
+        <translation>Vyúčtování:</translation>
+    </message>
+    <message>
+        <source>Job priority:</source>
+        <translation>Přednost úlohy:</translation>
+    </message>
+    <message>
+        <source>Banner Pages</source>
+        <translation>Úvodní stránky</translation>
+    </message>
+    <message>
+        <source>End:</source>
+        <comment>Banner page at end</comment>
+        <translation>Konec:</translation>
+    </message>
+    <message>
+        <source>Start:</source>
+        <comment>Banner page at start</comment>
+        <translation>Začátek:</translation>
+    </message>
+    <message>
+        <source>Print Immediately</source>
+        <translation>Vytisknout okamžitě</translation>
+    </message>
+    <message>
+        <source>Hold Indefinitely</source>
+        <translation>Pozdržet na neurčito</translation>
+    </message>
+    <message>
+        <source>Day (06:00 to 17:59)</source>
+        <translation>Den (06:00 až 17:59)</translation>
+    </message>
+    <message>
+        <source>Night (18:00 to 05:59)</source>
+        <translation>Noc (18:00 až 05:59)</translation>
+    </message>
+    <message>
+        <source>Second Shift (16:00 to 23:59)</source>
+        <translation>Druhá směna (16:00 až 23:59)</translation>
+    </message>
+    <message>
+        <source>Third Shift (00:00 to 07:59)</source>
+        <translation>Třetí směna (10:00 až 07:59)</translation>
+    </message>
+    <message>
+        <source>Weekend (Saturday to Sunday)</source>
+        <translation>Sobota a neděle</translation>
+    </message>
+    <message>
+        <source>Specific Time</source>
+        <translation>Určitý čas</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Žádný</translation>
+    </message>
+    <message>
+        <source>Standard</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Standardní</translation>
+    </message>
+    <message>
+        <source>Unclassified</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Neutajovaný</translation>
+    </message>
+    <message>
+        <source>Confidential</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Důvěrný</translation>
+    </message>
+    <message>
+        <source>Classified</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Utajovaný</translation>
+    </message>
+    <message>
+        <source>Secret</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Tajný</translation>
+    </message>
+    <message>
+        <source>Top Secret</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Přísně tajný</translation>
     </message>
 </context>
 <context>
@@ -508,6 +739,25 @@
     </message>
 </context>
 <context>
+    <name>QDockWidget</name>
+    <message>
+        <source>Float</source>
+        <translation>Uvolnit</translation>
+    </message>
+    <message>
+        <source>Undocks and re-attaches the dock widget</source>
+        <translation>Zruší ukotvení a znovupřipojí kotvící prvek</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Zavřít</translation>
+    </message>
+    <message>
+        <source>Closes the dock widget</source>
+        <translation>Zavře kotvící prvek</translation>
+    </message>
+</context>
+<context>
     <name>QErrorMessage</name>
     <message>
         <source>Debug Message:</source>
@@ -533,8 +783,24 @@
 <context>
     <name>QFile</name>
     <message>
+        <source>Destination file is the same file.</source>
+        <translation>Cílový soubor je týž soubor.</translation>
+    </message>
+    <message>
+        <source>Source file does not exist.</source>
+        <translation>Zdrojový soubor neexistuje.</translation>
+    </message>
+    <message>
         <source>Destination file exists</source>
         <translation>Cílový soubor již existuje</translation>
+    </message>
+    <message>
+        <source>Error while renaming.</source>
+        <translation>Chyba při přejmenovávání.</translation>
+    </message>
+    <message>
+        <source>Unable to restore from %1: %2</source>
+        <translation>Nelze obnovit z %1: %2</translation>
     </message>
     <message>
         <source>Will not rename sequential file using block copy</source>
@@ -695,6 +961,10 @@
         <translation>&amp;Nová složka</translation>
     </message>
     <message>
+        <source>All files (*)</source>
+        <translation>Všechny soubory (*)</translation>
+    </message>
+    <message>
         <source>Directories</source>
         <translation>Adresáře</translation>
     </message>
@@ -785,6 +1055,18 @@ Přesto chcete soubor smazat?</translation>
     <message>
         <source>Unknown</source>
         <translation>Neznámý</translation>
+    </message>
+    <message>
+        <source>Alt+Left</source>
+        <translation>Alt+Left</translation>
+    </message>
+    <message>
+        <source>Alt+Right</source>
+        <translation>Alt+Right</translation>
+    </message>
+    <message>
+        <source>Alt+Up</source>
+        <translation>Alt+Up</translation>
     </message>
 </context>
 <context>
@@ -1437,6 +1719,22 @@ Přesto chcete soubor smazat?</translation>
         <source>too deeply nested document</source>
         <translation>Příliš hluboko zanořený dokument</translation>
     </message>
+    <message>
+        <source>too large document</source>
+        <translation>Příliš velký dokument</translation>
+    </message>
+</context>
+<context>
+    <name>QKeySequenceEdit</name>
+    <message>
+        <source>Press shortcut</source>
+        <translation>Stiskněte klávesovou zkratku</translation>
+    </message>
+    <message>
+        <source>%1, ...</source>
+        <extracomment>This text is an &quot;unfinished&quot; shortcut, expands like &quot;Ctrl+A, ...&quot;</extracomment>
+        <translation>%1, ...</translation>
+    </message>
 </context>
 <context>
     <name>QLibrary</name>
@@ -1487,6 +1785,38 @@ Přesto chcete soubor smazat?</translation>
     <message>
         <source>Cannot resolve symbol &quot;%1&quot; in %2: %3</source>
         <translation>Symbol &quot;%1&quot; nelze v %2 vyřešit: %3</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a valid Mach-O binary (%2)</source>
+        <translation>&apos;%1&apos; není platným spustitelným souborem Mach-O (%2)</translation>
+    </message>
+    <message>
+        <source>file is corrupt</source>
+        <translation>Soubor je poškozen</translation>
+    </message>
+    <message>
+        <source>file too small</source>
+        <translation>Soubor je příliš malý</translation>
+    </message>
+    <message>
+        <source>no suitable architecture in fat binary</source>
+        <translation>Žádná vhodná architektura ve spustitelném souboru (fat binary)</translation>
+    </message>
+    <message>
+        <source>invalid magic %1</source>
+        <translation>Neplatné magické číslo %1</translation>
+    </message>
+    <message>
+        <source>wrong architecture</source>
+        <translation>Nesprává architektura</translation>
+    </message>
+    <message>
+        <source>not a dynamic library</source>
+        <translation>Není dynamická knihovna</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a Qt plugin</source>
+        <translation>&apos;%1&apos; není přídavný modul Qt</translation>
     </message>
 </context>
 <context>
@@ -1773,8 +2103,12 @@ Přesto chcete soubor smazat?</translation>
         <translation>&lt;h3&gt;O Qt&lt;/h3&gt;&lt;p&gt;Tento program používá Qt-verze %1.&lt;/p&gt;</translation>
     </message>
     <message>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is developed as an open source project on &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Qt je sadou softwarových nástrojů C++ určených pro víceplatformní vývoj aplikací.&lt;/p&gt;&lt;p&gt;Qt poskytuje snadnou přenositelnost a jednotný zdrojový kód pro MS&amp;nbsp;Windows, Mac&amp;nbsp;OS&amp;nbsp;X, Linux a všechny hlavní prodejní varianty systému Unix. Qt je rovněž dostupné pro vestavěná zařízení jako Qt pro Embedded Linux a Qt pro Windows CE.&lt;/p&gt;&lt;p&gt;Qt je dostupné s třemi rozdílnými licencemi, aby vyhovělo širokým řadám našich uživatelů.&lt;/p&gt;Qt s naší obchodní licenční smlouvou je vhodné pro vývoj soukromého/obchodního software, u kterého si nepřejete sdílet jakýkoli zdrojový kód se třetími stranami anebo z jiného důvodu nemůžete vyhovět podmínkám GNU LGPL ve verzi 2.1 nebo GNU GPL ve verzi 3.0.&lt;/p&gt;&lt;p&gt;Qt s licencí GNU LGPL ve verzi 2.1 je vhodné pro vývoj Qt aplikací (soukromých nebo s otevřeným zdrojovým kódem) za předpokladu, že můžete souhlasit s požadavky a podmínkami GNU LGPL verze 2.1.&lt;/p&gt;&lt;p&gt;Qt s licencí GNU General Public License ve verzi 3.0 je vhodné pro vývoj aplikací Qt, u nichž si přejete použít takovou aplikaci ve spojení se software, který podléhá požadavkům GNU GPL ve verzi 3.0, nebo kde jste jinak ochotni souhlasit s podmínkami GNU GPL ve verzi 3.0.&lt;/p&gt;&lt;p&gt;Více informací najdete na &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.nokia.com/products/licensing&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Autorské právo (C) 2013 Digia Plc a/nebo její dceřinná(é) společnost(i) a další přispěvatelé.&lt;/p&gt;&lt;p&gt;Qt a logo Qt jsou obchodní značky Digia Plc a/nebo její dceřinná(é) společnost(i).&lt;/p&gt;&lt;p&gt;Qt je vyvíjeno jako projekt s otevřeným zdrojovým kódem na &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt je výrobkem společnosti Digia. Další informace najdete na &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt;. href=&quot;http://qt.digia.com/&quot;&gt;qt.nokia.com&lt;/a&gt;.&lt;/p&gt;</translation>
+    </message>
+    <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is developed as an open source project on &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Qt je sadou softwarových nástrojů C++ určených pro vývoj aplikací napříč platformami.&lt;/p&gt;&lt;p&gt;Qt poskytuje snadnou přenositelnost a jednotný zdrojový kód pro MS&amp;nbsp;Windows, Mac&amp;nbsp;OS&amp;nbsp;X, Linux a všechny hlavní prodejní varianty systému Unix. Qt je rovněž dostupné pro vestavěná zařízení jako Qt pro Embedded Linux a Qt pro Windows CE.&lt;/p&gt;&lt;p&gt;Qt je dostupné pod třemi rozdílnými licencemi navrženými tak, aby vyhověly potřebám našich různých uživatelů.&lt;/p&gt;Qt s naší obchodní licenční smlouvou je vhodné pro vývoj soukromého/obchodního software, kde nechcete sdílet jakýkoli zdrojový kód se třetími stranami, nebo jinak řečeno, když nemůžete vyhovět podmínkám GNU LGPL ve verzi 2.1 nebo GNU GPL ve verzi 3.0.&lt;/p&gt;&lt;p&gt;Qt s licencí GNU LGPL ve verzi 2.1 je vhodné pro vývoj Qt aplikací (soukromých nebo s otevřeným zdrojovým kódem) za předpokladu, že můžete souhlasit s požadavky a podmínkami GNU LGPL verze 2.1.&lt;/p&gt;&lt;p&gt;Qt s licencí GNU General Public License ve verzi 3.0 je vhodné pro vývoj aplikací Qt, u nichž si přejete použít takovou aplikaci ve spojení se software, který podléhá požadavkům GNU GPL ve verzi 3.0, nebo kde jste jinak ochotni souhlasit s podmínkami GNU GPL ve verzi 3.0.&lt;/p&gt;&lt;p&gt;Více informací najdete na &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.nokia.com/products/licensing&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Autorské právo (C) 2012 Digia Plc a/nebo její dceřinná(é) společnost(i).&lt;/p&gt;&lt;p&gt;Qt je výrobkem společnosti Nokia. Další informace najdete na &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.nokia.com&lt;/a&gt;.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Qt je sadou softwarových nástrojů C++ určených pro víceplatformní vývoj aplikací.&lt;/p&gt;&lt;p&gt;Qt poskytuje snadnou přenositelnost a jednotný zdrojový kód pro MS&amp;nbsp;Windows, Mac&amp;nbsp;OS&amp;nbsp;X, Linux a všechny hlavní prodejní varianty systému Unix. Qt je rovněž dostupné pro vestavěná zařízení jako Qt pro Embedded Linux a Qt pro Windows CE.&lt;/p&gt;&lt;p&gt;Qt je dostupné s třemi rozdílnými licencemi, aby vyhovělo širokým řadám našich uživatelů.&lt;/p&gt;Qt s naší obchodní licenční smlouvou je vhodné pro vývoj soukromého/obchodního software, u kterého si nepřejete sdílet jakýkoli zdrojový kód se třetími stranami anebo z jiného důvodu nemůžete vyhovět podmínkám GNU LGPL ve verzi 2.1 nebo GNU GPL ve verzi 3.0.&lt;/p&gt;&lt;p&gt;Qt s licencí GNU LGPL ve verzi 2.1 je vhodné pro vývoj Qt aplikací (soukromých nebo s otevřeným zdrojovým kódem) za předpokladu, že můžete souhlasit s požadavky a podmínkami GNU LGPL verze 2.1.&lt;/p&gt;&lt;p&gt;Qt s licencí GNU General Public License ve verzi 3.0 je vhodné pro vývoj aplikací Qt, u nichž si přejete použít takovou aplikaci ve spojení se software, který podléhá požadavkům GNU GPL ve verzi 3.0, nebo kde jste jinak ochotni souhlasit s podmínkami GNU GPL ve verzi 3.0.&lt;/p&gt;&lt;p&gt;Více informací najdete na &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.nokia.com/products/licensing&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Autorské právo (C) 2012 Digia Plc a/nebo její dceřinná(é) společnost(i).&lt;/p&gt;&lt;p&gt;Qt je výrobkem společnosti Nokia. Další informace najdete na &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.nokia.com&lt;/a&gt;.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About Qt</source>
@@ -2006,6 +2340,10 @@ Přesto chcete soubor smazat?</translation>
     <message>
         <source>Operation canceled</source>
         <translation>Operace byla zrušena</translation>
+    </message>
+    <message>
+        <source>No suitable proxy found</source>
+        <translation>Nepodařilo se najít žádný vhodný proxy server</translation>
     </message>
 </context>
 <context>
@@ -2340,6 +2678,18 @@ Přesto chcete soubor smazat?</translation>
         <source>Points (pt)</source>
         <translation>Body (pt)</translation>
     </message>
+    <message>
+        <source>Page Layout</source>
+        <translation>Rozvržení stran</translation>
+    </message>
+    <message>
+        <source>Page order:</source>
+        <translation>Pořadí stran:</translation>
+    </message>
+    <message>
+        <source>Pages per sheet:</source>
+        <translation>Stran na list:</translation>
+    </message>
 </context>
 <context>
     <name>QPluginLoader</name>
@@ -2483,6 +2833,74 @@ Přesto chcete soubor smazat?</translation>
         <translation>Stanovený uživatelem</translation>
     </message>
     <message>
+        <source>Left to Right, Top to Bottom</source>
+        <translation>Zleva doprava, shora dolů</translation>
+    </message>
+    <message>
+        <source>Left to Right, Bottom to Top</source>
+        <translation>Zleva doprava, zdola nahoru</translation>
+    </message>
+    <message>
+        <source>Right to Left, Bottom to Top</source>
+        <translation>Zprava doleva, zdola nahoru</translation>
+    </message>
+    <message>
+        <source>Right to Left, Top to Bottom</source>
+        <translation>Zprava doleva, shora dolů</translation>
+    </message>
+    <message>
+        <source>Bottom to Top, Left to Right</source>
+        <translation>Zdola nahoru, zleva doprava</translation>
+    </message>
+    <message>
+        <source>Bottom to Top, Right to Left</source>
+        <translation>Zdola nahoru, zprava doleva</translation>
+    </message>
+    <message>
+        <source>Top to Bottom, Left to Right</source>
+        <translation>Shora dolů, zleva doprava</translation>
+    </message>
+    <message>
+        <source>Top to Bottom, Right to Left</source>
+        <translation>Shora dolů, zprava doleva</translation>
+    </message>
+    <message>
+        <source>1 (1x1)</source>
+        <translation>1 (1x1)</translation>
+    </message>
+    <message>
+        <source>2 (2x1)</source>
+        <translation>2 (2x1)</translation>
+    </message>
+    <message>
+        <source>4 (2x2)</source>
+        <translation>4 (2x2)</translation>
+    </message>
+    <message>
+        <source>6 (2x3)</source>
+        <translation>6 (2x3)</translation>
+    </message>
+    <message>
+        <source>9 (3x3)</source>
+        <translation>9 (3x3)</translation>
+    </message>
+    <message>
+        <source>16 (4x4)</source>
+        <translation>16 (4x4)</translation>
+    </message>
+    <message>
+        <source>All Pages</source>
+        <translation>Všechny strany</translation>
+    </message>
+    <message>
+        <source>Odd Pages</source>
+        <translation>Liché strany</translation>
+    </message>
+    <message>
+        <source>Even Pages</source>
+        <translation>Sudé strany</translation>
+    </message>
+    <message>
         <source>&amp;Options &gt;&gt;</source>
         <translation>&amp;Nastavení &gt;&gt;</translation>
     </message>
@@ -2527,6 +2945,12 @@ Zvolte, prosím, pro soubor jiný název.</translation>
 Do you want to overwrite it?</source>
         <translation>Soubor %1 již existuje.
 Má se přepsat?</translation>
+    </message>
+    <message>
+        <source>Options &apos;Pages Per Sheet&apos; and &apos;Page Set&apos; cannot be used together.
+Please turn one of those options off.</source>
+        <translation>Volby &amp;apos;Stran na list&amp;apos; a &amp;apos;Sada stran&amp;apos; nelze použít zároveň.
+Vypněte, prosím, jednu z voleb.</translation>
     </message>
     <message>
         <source>The &apos;From&apos; value cannot be greater than the &apos;To&apos; value.</source>
@@ -2621,6 +3045,13 @@ Má se přepsat?</translation>
     </message>
 </context>
 <context>
+    <name>QPrintPropertiesDialog</name>
+    <message>
+        <source>Job Options</source>
+        <translation>Volby pro úlohy</translation>
+    </message>
+</context>
+<context>
     <name>QPrintPropertiesWidget</name>
     <message>
         <source>Form</source>
@@ -2712,6 +3143,10 @@ Má se přepsat?</translation>
     <message>
         <source>Short side</source>
         <translation>Krátká strana</translation>
+    </message>
+    <message>
+        <source>Page Set:</source>
+        <translation>Sada stran:</translation>
     </message>
 </context>
 <context>
@@ -2808,6 +3243,17 @@ Má se přepsat?</translation>
     <message>
         <source>OK</source>
         <translation>OK</translation>
+    </message>
+    <message>
+        <source>All files (*.*)</source>
+        <translation>Všechny soubory (*.*)</translation>
+    </message>
+</context>
+<context>
+    <name>QQnxFilePicker</name>
+    <message>
+        <source>Pick a file</source>
+        <translation>Zvolte soubor</translation>
     </message>
 </context>
 <context>
@@ -3240,6 +3686,17 @@ Má se přepsat?</translation>
     <message>
         <source>Parameter count mismatch</source>
         <translation>Počet parametrů není správný</translation>
+    </message>
+</context>
+<context>
+    <name>QSaveFile</name>
+    <message>
+        <source>Existing file %1 is not writable</source>
+        <translation>Stávající soubor %1 není zapisovatelný</translation>
+    </message>
+    <message>
+        <source>Writing canceled by application</source>
+        <translation>Zápis zrušen programem</translation>
     </message>
 </context>
 <context>
@@ -3995,7 +4452,7 @@ Má se přepsat?</translation>
     </message>
     <message>
         <source>Top Menu</source>
-        <translation>Hlavní nabídka</translation>
+        <translation>Pruh nabídky</translation>
     </message>
     <message>
         <source>Suspend</source>
@@ -4166,7 +4623,7 @@ Má se přepsat?</translation>
     </message>
     <message>
         <source>Kana Shift</source>
-        <translation>Kany Posun</translation>
+        <translation>Kana Posun</translation>
     </message>
     <message>
         <source>Eisu Shift</source>
@@ -4233,6 +4690,26 @@ Má se přepsat?</translation>
         <translation>Hangul zvláštní</translation>
     </message>
     <message>
+        <source>Cancel</source>
+        <translation>Zrušit</translation>
+    </message>
+    <message>
+        <source>Printer</source>
+        <translation>Tiskárna</translation>
+    </message>
+    <message>
+        <source>Execute</source>
+        <translation>Provést</translation>
+    </message>
+    <message>
+        <source>Play</source>
+        <translation>Přehrát</translation>
+    </message>
+    <message>
+        <source>Zoom</source>
+        <translation>Zvětšení</translation>
+    </message>
+    <message>
         <source>Ctrl</source>
         <translation>Ctrl</translation>
     </message>
@@ -4247,6 +4724,10 @@ Má se přepsat?</translation>
     <message>
         <source>Meta</source>
         <translation>Meta</translation>
+    </message>
+    <message>
+        <source>Num</source>
+        <translation>Num</translation>
     </message>
     <message>
         <source>+</source>
@@ -4314,6 +4795,324 @@ Má se přepsat?</translation>
     <message>
         <source>Network operation timed out</source>
         <translation>Časový limit pro síťovou operaci byl překročen</translation>
+    </message>
+</context>
+<context>
+    <name>QSpiAccessibleBridge</name>
+    <message>
+        <source>invalid role</source>
+        <extracomment>Role of an accessible object - the object is in an invalid state or could not be constructed</extracomment>
+        <translation>Neplatná role</translation>
+    </message>
+    <message>
+        <source>title bar</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Titulkový pruh</translation>
+    </message>
+    <message>
+        <source>menu bar</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Pruh nabídky</translation>
+    </message>
+    <message>
+        <source>scroll bar</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Posuvník</translation>
+    </message>
+    <message>
+        <source>grip</source>
+        <extracomment>Role of an accessible object - the grip is usually used for resizing another object</extracomment>
+        <translation>Úchop</translation>
+    </message>
+    <message>
+        <source>sound</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Zvuk</translation>
+    </message>
+    <message>
+        <source>cursor</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Ukazovátko myši</translation>
+    </message>
+    <message>
+        <source>text caret</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Vsuvka pro text</translation>
+    </message>
+    <message>
+        <source>alert message</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Oznámení</translation>
+    </message>
+    <message>
+        <source>window</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Okno</translation>
+    </message>
+    <message>
+        <source>filler</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Plnič</translation>
+    </message>
+    <message>
+        <source>popup menu</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Vyskakovací nabídka</translation>
+    </message>
+    <message>
+        <source>menu item</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Položka v nabídce</translation>
+    </message>
+    <message>
+        <source>tool tip</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Nástrojová rada</translation>
+    </message>
+    <message>
+        <source>application</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Program</translation>
+    </message>
+    <message>
+        <source>document</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Dokument</translation>
+    </message>
+    <message>
+        <source>panel</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Panel</translation>
+    </message>
+    <message>
+        <source>chart</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Graf</translation>
+    </message>
+    <message>
+        <source>dialog</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Dialog</translation>
+    </message>
+    <message>
+        <source>frame</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Rámeček</translation>
+    </message>
+    <message>
+        <source>separator</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Oddělovač</translation>
+    </message>
+    <message>
+        <source>tool bar</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Nástrojový pruh</translation>
+    </message>
+    <message>
+        <source>status bar</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Stavový řádek</translation>
+    </message>
+    <message>
+        <source>table</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Tabulka</translation>
+    </message>
+    <message>
+        <source>column header</source>
+        <extracomment>Role of an accessible object - part of a table</extracomment>
+        <translation>Záhlaví sloupce</translation>
+    </message>
+    <message>
+        <source>row header</source>
+        <extracomment>Role of an accessible object - part of a table</extracomment>
+        <translation>Záhlaví řádku</translation>
+    </message>
+    <message>
+        <source>column</source>
+        <extracomment>Role of an accessible object - part of a table</extracomment>
+        <translation>Sloupec</translation>
+    </message>
+    <message>
+        <source>row</source>
+        <extracomment>Role of an accessible object - part of a table</extracomment>
+        <translation>Řádek</translation>
+    </message>
+    <message>
+        <source>cell</source>
+        <extracomment>Role of an accessible object - part of a table</extracomment>
+        <translation>Buňka</translation>
+    </message>
+    <message>
+        <source>link</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Odkaz</translation>
+    </message>
+    <message>
+        <source>help balloon</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Bublinová nápověda</translation>
+    </message>
+    <message>
+        <source>assistant</source>
+        <extracomment>Role of an accessible object - a helper dialog</extracomment>
+        <translation>Pomocník</translation>
+    </message>
+    <message>
+        <source>list</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Seznam</translation>
+    </message>
+    <message>
+        <source>list item</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Položka seznamu</translation>
+    </message>
+    <message>
+        <source>tree</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Strom</translation>
+    </message>
+    <message>
+        <source>tree item</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Položka stromu</translation>
+    </message>
+    <message>
+        <source>page tab</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Karta strany</translation>
+    </message>
+    <message>
+        <source>property page</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Strana vlastnosti</translation>
+    </message>
+    <message>
+        <source>indicator</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Ukazatel</translation>
+    </message>
+    <message>
+        <source>graphic</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Grafika</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Textové pole</translation>
+    </message>
+    <message>
+        <source>text</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Text</translation>
+    </message>
+    <message>
+        <source>push button</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Tlačítko</translation>
+    </message>
+    <message>
+        <source>check box</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Zaškrtávací pole</translation>
+    </message>
+    <message>
+        <source>radio button</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Přepínač</translation>
+    </message>
+    <message>
+        <source>combo box</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Rozbalovací seznam</translation>
+    </message>
+    <message>
+        <source>progress bar</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Ukazatel postupu</translation>
+    </message>
+    <message>
+        <source>dial</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Číselník</translation>
+    </message>
+    <message>
+        <source>hotkey field</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Pole s klávesovou zkratkou</translation>
+    </message>
+    <message>
+        <source>slider</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Posuvník</translation>
+    </message>
+    <message>
+        <source>spin box</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Přírůstkové pole</translation>
+    </message>
+    <message>
+        <source>canvas</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Plátno</translation>
+    </message>
+    <message>
+        <source>animation</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Animace</translation>
+    </message>
+    <message>
+        <source>equation</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Rovnice</translation>
+    </message>
+    <message>
+        <source>button with drop down</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Tlačítko, které rozbalí okno</translation>
+    </message>
+    <message>
+        <source>button menu</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Tlačítko s nabídkou</translation>
+    </message>
+    <message>
+        <source>button with drop down grid</source>
+        <extracomment>Role of an accessible object - a button that expands a grid.</extracomment>
+        <translation>Tlačítko, které rozbalí okno, jež ukazuje mřížku</translation>
+    </message>
+    <message>
+        <source>space</source>
+        <extracomment>Role of an accessible object - blank space between other objects.</extracomment>
+        <translation>Prázdný prostor</translation>
+    </message>
+    <message>
+        <source>page tab list</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Seznam karet stran</translation>
+    </message>
+    <message>
+        <source>clock</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Hodiny</translation>
+    </message>
+    <message>
+        <source>splitter</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Dělitel oken</translation>
+    </message>
+    <message>
+        <source>layered pane</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Panel s více vrstvami</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Neznámý</translation>
     </message>
 </context>
 <context>
@@ -4459,6 +5258,10 @@ Má se přepsat?</translation>
         <translation>Data se nepodařilo rozluštit: %1</translation>
     </message>
     <message>
+        <source>The TLS/SSL connection has been closed</source>
+        <translation>Spojení TLS/SSL bylo zavřeno</translation>
+    </message>
+    <message>
         <source>Error while reading: %1</source>
         <translation>Při čtení se vyskytla chyba: %1</translation>
     </message>
@@ -4524,6 +5327,10 @@ Má se přepsat?</translation>
     <message>
         <source>Configuration</source>
         <translation>Nastavení</translation>
+    </message>
+    <message>
+        <source>Shared Configuration</source>
+        <translation>Sdílené nastavení</translation>
     </message>
     <message>
         <source>Shared Cache</source>
@@ -4603,6 +5410,49 @@ Má se přepsat?</translation>
     <message>
         <source>Operation on socket is not supported</source>
         <translation>Tato socket operace není podporována</translation>
+    </message>
+</context>
+<context>
+    <name>QTgaFile</name>
+    <message>
+        <source>Could not read image data</source>
+        <translation>Nepodařilo se přečíst data obrazu</translation>
+    </message>
+    <message>
+        <source>Sequential device (eg socket) for image read not supported</source>
+        <translation>Postupné zařízení (např. socket - komunikační kanál) pro čtení obrazu nepodporováno</translation>
+    </message>
+    <message>
+        <source>Seek file/device for image read failed</source>
+        <translation>Vyhledání souboru/zařízení pro čtení obrazu se nezdařilo</translation>
+    </message>
+    <message>
+        <source>Image header read failed</source>
+        <translation>Nepodařilo se přečíst hlavičku obrazu</translation>
+    </message>
+    <message>
+        <source>Image type not supported</source>
+        <translation>Typ obrazu nepodporován</translation>
+    </message>
+    <message>
+        <source>Image depth not valid</source>
+        <translation>Hloubka obrazu nepodporována</translation>
+    </message>
+    <message>
+        <source>Could not seek to image read footer</source>
+        <translation>Nepodařilo se vyhledat zápatí čtení obrazu</translation>
+    </message>
+    <message>
+        <source>Could not read footer</source>
+        <translation>Nepodařilo se přečíst zápatí</translation>
+    </message>
+    <message>
+        <source>Image type (non-TrueVision 2.0) not supported</source>
+        <translation>Typ obrazu (non-TrueVision 2.0) nepodporován</translation>
+    </message>
+    <message>
+        <source>Could not reset to read data</source>
+        <translation>Nepodařilo se nastavit znovu na čtení dat</translation>
     </message>
 </context>
 <context>
@@ -5033,6 +5883,81 @@ Má se přepsat?</translation>
     <message>
         <source>Invalid character reference.</source>
         <translation>Odkaz na neplatný znak.</translation>
+    </message>
+</context>
+<context>
+    <name>QtAndroidDialogHelpers::QAndroidPlatformMessageDialogHelper</name>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Uložit</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Otevřít</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Zrušit</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Zavřít</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Použít</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Nastavit znovu</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Nápověda</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Zahodit změny</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Ano</translation>
+    </message>
+    <message>
+        <source>Yes to All</source>
+        <translation>Ano, vše</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Ne</translation>
+    </message>
+    <message>
+        <source>No to All</source>
+        <translation>Ne, žádné</translation>
+    </message>
+    <message>
+        <source>Save All</source>
+        <translation>Uložit vše</translation>
+    </message>
+    <message>
+        <source>Abort</source>
+        <translation>Zrušit</translation>
+    </message>
+    <message>
+        <source>Retry</source>
+        <translation>Opakovat</translation>
+    </message>
+    <message>
+        <source>Ignore</source>
+        <translation>Přehlížet</translation>
+    </message>
+    <message>
+        <source>Restore Defaults</source>
+        <translation>Obnovit výchozí</translation>
     </message>
 </context>
 </TS>

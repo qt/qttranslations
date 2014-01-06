@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="cs_CZ">
+<TS version="2.1" language="cs_CZ">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1261,6 +1261,10 @@ Grund:
         <translation>&amp;Jít na</translation>
     </message>
     <message>
+        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;</source>
+        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Verze %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Autorské právo (C) 2013 Digia Plc anebo její dceřinné společnosti.&lt;/p&gt;</translation>
+    </message>
+    <message>
         <source>ALT+Home</source>
         <translation type="obsolete">ALT+Home</translation>
     </message>
@@ -2133,6 +2137,10 @@ Grund:
 </context>
 <context>
     <name>TopicChooser</name>
+    <message>
+        <source>Filter</source>
+        <translation>Filtr</translation>
+    </message>
     <message>
         <source>Choose a topic for &lt;b&gt;%1&lt;/b&gt;:</source>
         <translation>Vyberte námět pro &lt;b&gt;%1&lt;/b&gt;:</translation>
