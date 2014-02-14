@@ -50,11 +50,11 @@ addTsTargets(qtxmlpatterns, qtxmlpatterns/src/src.pro)
 #addTsTargets(qtwebkit, qtwebkit/WebKit.pro) # messages from test browser only
 
 #addTsTargets(qt3d, qt3d/src/src.pro)  # empty except one dubious error message
-#addTsTargets(qtconnectivity, qtconnectivity/src/src.pro)  # just 2 error messages
+addTsTargets(qtconnectivity, qtconnectivity/src/src.pro)
 #addTsTargets(qtdocgallery, qtdocgallery/src/src.pro)  # dead module
 #addTsTargets(qtfeedback, qtfeedback/src/src.pro)  # empty
 #addTsTargets(qtjsondb, qtjsondb/src/src.pro)  # dead module, just 3 error messages
-#addTsTargets(qtlocation, qtlocation/src/src.pro)  # not part of 5.0
+addTsTargets(qtlocation, qtlocation/src/src.pro)
 #addTsTargets(qtpim, qtpim/src/src.pro)  # not part of 5.0
 #addTsTargets(qtsensors, qtsensors/src/src.pro) # empty
 #addTsTargets(qtsystems, qtsystems/src/src.pro)  # not part of 5.0
