@@ -163,31 +163,37 @@
     </message>
     <message>
         <source>Config</source>
-        <translation type="unfinished">Конфигур</translation>
+        <translatorcomment>Это общая часть названия. Окончание пропущено специально.</translatorcomment>
+        <translation>Конфигур</translation>
     </message>
     <message>
         <source>Preference</source>
-        <translation type="unfinished">Свойств</translation>
+        <translatorcomment>Это общая часть названия. Окончание пропущено специально.</translatorcomment>
+        <translation>Свойств</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished">Параметры</translation>
+        <translatorcomment>Это общая часть названия. Окончание пропущено специально.</translatorcomment>
+        <translation>Параметры</translation>
     </message>
     <message>
         <source>Setting</source>
-        <translation type="unfinished">Настройк</translation>
+        <translatorcomment>Это общая часть названия. Окончание пропущено специально.</translatorcomment>
+        <translation>Настройк</translation>
     </message>
     <message>
         <source>Setup</source>
-        <translation type="unfinished">Настр</translation>
+        <translatorcomment>Это общая часть названия. Окончание пропущено специально.</translatorcomment>
+        <translation>Настр</translation>
     </message>
     <message>
         <source>Quit</source>
-        <translation type="unfinished">Заверш</translation>
+        <translatorcomment>Это общая часть названия. Окончание пропущено специально.</translatorcomment>
+        <translation>Заверш</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation type="unfinished">Выход</translation>
+        <translation>Выход</translation>
     </message>
 </context>
 <context>
@@ -221,8 +227,22 @@
         <translation>&amp;Альфа-канал:</translation>
     </message>
     <message>
+        <source>&amp;HTML:</source>
+        <translation>&amp;HTML:</translation>
+    </message>
+    <message>
+        <source>Cursor at %1, %2, color: %3
+Press ESC to cancel</source>
+        <translation>Курсор в %1, %2, цвет: %3
+Нажмите ESC для отмены</translation>
+    </message>
+    <message>
         <source>Select Color</source>
         <translation>Выбор цвета</translation>
+    </message>
+    <message>
+        <source>Pick Screen Color</source>
+        <translation>Взять цвет с экрана</translation>
     </message>
     <message>
         <source>&amp;Basic colors</source>
@@ -253,6 +273,49 @@
     </message>
 </context>
 <context>
+    <name>QCommandLineParser</name>
+    <message>
+        <source>Displays version information.</source>
+        <translation>Отобразить информацию о версии.</translation>
+    </message>
+    <message>
+        <source>Displays this help.</source>
+        <translation>Отобразить эту справку.</translation>
+    </message>
+    <message>
+        <source>Unknown option &apos;%1&apos;.</source>
+        <translation>Неизвестный параметр «%1».</translation>
+    </message>
+    <message>
+        <source>Unknown options: %1.</source>
+        <translation>Неизвестные параметры: %1.</translation>
+    </message>
+    <message>
+        <source>Missing value after &apos;%1&apos;.</source>
+        <translation>Отсутствует значение после «%1».</translation>
+    </message>
+    <message>
+        <source>Unexpected value after &apos;%1&apos;.</source>
+        <translation>Неожиданное значение после «%1».</translation>
+    </message>
+    <message>
+        <source>[options]</source>
+        <translation>[параметры]</translation>
+    </message>
+    <message>
+        <source>Usage: %1</source>
+        <translation>Использование: %1</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation>Параметры:</translation>
+    </message>
+    <message>
+        <source>Arguments:</source>
+        <translation>Аргументы:</translation>
+    </message>
+</context>
+<context>
     <name>QCoreApplication</name>
     <message>
         <source>%1: key is empty</source>
@@ -273,6 +336,110 @@
         <source>QT_LAYOUT_DIRECTION</source>
         <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
         <translation>LTR</translation>
+    </message>
+</context>
+<context>
+    <name>QCupsJobWidget</name>
+    <message>
+        <source>Job</source>
+        <translation>Задание</translation>
+    </message>
+    <message>
+        <source>Job Control</source>
+        <translation>Управление</translation>
+    </message>
+    <message>
+        <source>Scheduled printing:</source>
+        <translation>Отложенная печать:</translation>
+    </message>
+    <message>
+        <source>Billing information:</source>
+        <translation>Платёжная информация:</translation>
+    </message>
+    <message>
+        <source>Job priority:</source>
+        <translation>Приоритет:</translation>
+    </message>
+    <message>
+        <source>Banner Pages</source>
+        <translation>Гриф</translation>
+    </message>
+    <message>
+        <source>End:</source>
+        <comment>Banner page at end</comment>
+        <translation>В конце:</translation>
+    </message>
+    <message>
+        <source>Start:</source>
+        <comment>Banner page at start</comment>
+        <translation>В начале:</translation>
+    </message>
+    <message>
+        <source>Print Immediately</source>
+        <translation>Напечатать сейчас</translation>
+    </message>
+    <message>
+        <source>Hold Indefinitely</source>
+        <translation>Отложить</translation>
+    </message>
+    <message>
+        <source>Day (06:00 to 17:59)</source>
+        <translation>Днём (с 6:00 по 17:59)</translation>
+    </message>
+    <message>
+        <source>Night (18:00 to 05:59)</source>
+        <translation>Ночью (с 18:00 по 5:59)</translation>
+    </message>
+    <message>
+        <source>Second Shift (16:00 to 23:59)</source>
+        <translation>Во вторую смену (с 16:00 по 23:59)</translation>
+    </message>
+    <message>
+        <source>Third Shift (00:00 to 07:59)</source>
+        <translation>В третью смену (с 0:00 по 7:59)</translation>
+    </message>
+    <message>
+        <source>Weekend (Saturday to Sunday)</source>
+        <translation>В выходные (суббота и воскресенье)</translation>
+    </message>
+    <message>
+        <source>Specific Time</source>
+        <translation>В определённое время</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Нет</translation>
+    </message>
+    <message>
+        <source>Standard</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Стандартная</translation>
+    </message>
+    <message>
+        <source>Unclassified</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Открытая информация</translation>
+    </message>
+    <message>
+        <source>Confidential</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Секретно</translation>
+    </message>
+    <message>
+        <source>Classified</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Ограниченный доступ</translation>
+    </message>
+    <message>
+        <source>Secret</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Совершенно секретно</translation>
+    </message>
+    <message>
+        <source>Top Secret</source>
+        <comment>CUPS Banner page</comment>
+        <translation>Особой важности</translation>
     </message>
 </context>
 <context>
@@ -558,6 +725,25 @@
     </message>
 </context>
 <context>
+    <name>QDockWidget</name>
+    <message>
+        <source>Float</source>
+        <translation>Плавающее</translation>
+    </message>
+    <message>
+        <source>Undocks and re-attaches the dock widget</source>
+        <translation>Отсоединяет и перегруппирует виджет</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Закрыть</translation>
+    </message>
+    <message>
+        <source>Closes the dock widget</source>
+        <translation>Закрывает виджет</translation>
+    </message>
+</context>
+<context>
     <name>QErrorMessage</name>
     <message>
         <source>Debug Message:</source>
@@ -747,6 +933,10 @@
     <message>
         <source>&amp;New Folder</source>
         <translation>&amp;Новая папка</translation>
+    </message>
+    <message>
+        <source>All files (*)</source>
+        <translation>Все файлы (*)</translation>
     </message>
     <message>
         <source>Directories</source>
@@ -1521,6 +1711,18 @@ Do you want to delete it anyway?</source>
     </message>
 </context>
 <context>
+    <name>QKeySequenceEdit</name>
+    <message>
+        <source>Press shortcut</source>
+        <translation>Нажмите сочетание клавиш</translation>
+    </message>
+    <message>
+        <source>%1, ...</source>
+        <extracomment>This text is an &quot;unfinished&quot; shortcut, expands like &quot;Ctrl+A, ...&quot;</extracomment>
+        <translation>%1, ...</translation>
+    </message>
+</context>
+<context>
     <name>QLibrary</name>
     <message>
         <source>&apos;%1&apos; is not an ELF object (%2)</source>
@@ -1569,6 +1771,38 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Cannot resolve symbol &quot;%1&quot; in %2: %3</source>
         <translation>Невозможно разрешить символ «%1» в %2: %3</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a valid Mach-O binary (%2)</source>
+        <translation>«%1» неверный бинарный файл Mach-O (%2)</translation>
+    </message>
+    <message>
+        <source>file is corrupt</source>
+        <translation>файл повреждён</translation>
+    </message>
+    <message>
+        <source>file too small</source>
+        <translation>файл слишком мал</translation>
+    </message>
+    <message>
+        <source>no suitable architecture in fat binary</source>
+        <translation>нет подходящей архитектуры в файле</translation>
+    </message>
+    <message>
+        <source>invalid magic %1</source>
+        <translation>неверный идентификатор %1</translation>
+    </message>
+    <message>
+        <source>wrong architecture</source>
+        <translation>неверная архитектура</translation>
+    </message>
+    <message>
+        <source>not a dynamic library</source>
+        <translation>не динамическая библиотека</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a Qt plugin</source>
+        <translation>«%1» не плагин Qt</translation>
     </message>
 </context>
 <context>
@@ -2376,6 +2610,18 @@ Do you want to delete it anyway?</source>
         <source>Points (pt)</source>
         <translation>Точки (pt)</translation>
     </message>
+    <message>
+        <source>Page Layout</source>
+        <translation>Компоновка страницы</translation>
+    </message>
+    <message>
+        <source>Page order:</source>
+        <translation>Порядок страниц:</translation>
+    </message>
+    <message>
+        <source>Pages per sheet:</source>
+        <translation>Страниц на листе:</translation>
+    </message>
 </context>
 <context>
     <name>QPluginLoader</name>
@@ -2519,6 +2765,74 @@ Do you want to delete it anyway?</source>
         <translation>Пользовательский</translation>
     </message>
     <message>
+        <source>Left to Right, Top to Bottom</source>
+        <translation>Слева направо, сверху вниз</translation>
+    </message>
+    <message>
+        <source>Left to Right, Bottom to Top</source>
+        <translation>Слева направо, снизу вверх</translation>
+    </message>
+    <message>
+        <source>Right to Left, Bottom to Top</source>
+        <translation>Справа налево, снизу вверх</translation>
+    </message>
+    <message>
+        <source>Right to Left, Top to Bottom</source>
+        <translation>Справа налево, сверху вниз</translation>
+    </message>
+    <message>
+        <source>Bottom to Top, Left to Right</source>
+        <translation>Снизу вверх, слева направо</translation>
+    </message>
+    <message>
+        <source>Bottom to Top, Right to Left</source>
+        <translation>Снизу вверх, справа налево</translation>
+    </message>
+    <message>
+        <source>Top to Bottom, Left to Right</source>
+        <translation>Сверху вниз, слева направо</translation>
+    </message>
+    <message>
+        <source>Top to Bottom, Right to Left</source>
+        <translation>Сверху вниз, справа налево</translation>
+    </message>
+    <message>
+        <source>1 (1x1)</source>
+        <translation>1 (1x1)</translation>
+    </message>
+    <message>
+        <source>2 (2x1)</source>
+        <translation>2 (2x1)</translation>
+    </message>
+    <message>
+        <source>4 (2x2)</source>
+        <translation>4 (2x2)</translation>
+    </message>
+    <message>
+        <source>6 (2x3)</source>
+        <translation>6 (2x3)</translation>
+    </message>
+    <message>
+        <source>9 (3x3)</source>
+        <translation>9 (3x3)</translation>
+    </message>
+    <message>
+        <source>16 (4x4)</source>
+        <translation>16 (4x4)</translation>
+    </message>
+    <message>
+        <source>All Pages</source>
+        <translation>Все страницы</translation>
+    </message>
+    <message>
+        <source>Odd Pages</source>
+        <translation>Нечётные</translation>
+    </message>
+    <message>
+        <source>Even Pages</source>
+        <translation>Чётные</translation>
+    </message>
+    <message>
         <source>&amp;Options &gt;&gt;</source>
         <translation>&amp;Параметры &gt;&gt;</translation>
     </message>
@@ -2563,6 +2877,12 @@ Please choose a different file name.</source>
 Do you want to overwrite it?</source>
         <translation>%1 уже существует.
 Хотите заменить его?</translation>
+    </message>
+    <message>
+        <source>Options &apos;Pages Per Sheet&apos; and &apos;Page Set&apos; cannot be used together.
+Please turn one of those options off.</source>
+        <translation>Параметры «Страниц на листе» и «Список страниц» не могут использоваться одновременно.
+Выключите один из них.</translation>
     </message>
     <message>
         <source>The &apos;From&apos; value cannot be greater than the &apos;To&apos; value.</source>
@@ -2650,6 +2970,13 @@ Do you want to overwrite it?</source>
     <message>
         <source>Export to PDF</source>
         <translation>Экспорт в PDF</translation>
+    </message>
+</context>
+<context>
+    <name>QPrintPropertiesDialog</name>
+    <message>
+        <source>Job Options</source>
+        <translation>Параметры задания</translation>
     </message>
 </context>
 <context>
@@ -2744,6 +3071,10 @@ Do you want to overwrite it?</source>
     <message>
         <source>Short side</source>
         <translation>По короткой стороне</translation>
+    </message>
+    <message>
+        <source>Page Set:</source>
+        <translation>Список страниц:</translation>
     </message>
 </context>
 <context>
@@ -2840,6 +3171,17 @@ Do you want to overwrite it?</source>
     <message>
         <source>OK</source>
         <translation>OK</translation>
+    </message>
+    <message>
+        <source>All files (*.*)</source>
+        <translation>Все файлы (*.*)</translation>
+    </message>
+</context>
+<context>
+    <name>QQnxFilePicker</name>
+    <message>
+        <source>Pick a file</source>
+        <translation>Выбор файла</translation>
     </message>
 </context>
 <context>
@@ -3093,7 +3435,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>internal error: previously-checked referenced subpattern not found</source>
-        <translation type="unfinished">внутренняя ошибка: ранее проверенный подшаблон не найден</translation>
+        <translation>внутренняя ошибка: ранее проверенный подшаблон не найден</translation>
     </message>
     <message>
         <source>DEFINE group contains more than one branch</source>
@@ -4274,6 +4616,26 @@ Do you want to overwrite it?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Cancel</source>
+        <translation>Отмена</translation>
+    </message>
+    <message>
+        <source>Printer</source>
+        <translation>Принтер</translation>
+    </message>
+    <message>
+        <source>Execute</source>
+        <translation>Выполнить</translation>
+    </message>
+    <message>
+        <source>Play</source>
+        <translation>Воспроизвести</translation>
+    </message>
+    <message>
+        <source>Zoom</source>
+        <translation>Увеличить</translation>
+    </message>
+    <message>
         <source>Ctrl</source>
         <translation>Ctrl</translation>
     </message>
@@ -4445,9 +4807,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>panel</source>
-        <extracomment>Role of an accessible object
-----------
-Role of an accessible object</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>панель</translation>
     </message>
     <message>
@@ -4893,6 +5253,10 @@ Role of an accessible object</extracomment>
     <message>
         <source>Configuration</source>
         <translation>Настройки</translation>
+    </message>
+    <message>
+        <source>Shared Configuration</source>
+        <translation>Общая конфигурация</translation>
     </message>
     <message>
         <source>Shared Cache</source>
@@ -5445,6 +5809,81 @@ Role of an accessible object</extracomment>
     <message>
         <source>Invalid character reference.</source>
         <translation>Некорректная символьная ссылка.</translation>
+    </message>
+</context>
+<context>
+    <name>QtAndroidDialogHelpers::QAndroidPlatformMessageDialogHelper</name>
+    <message>
+        <source>OK</source>
+        <translation>ОК</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Сохранить</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Открыть</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Отмена</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Закрыть</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Применить</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Сбросить</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Справка</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Отклонить</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Да</translation>
+    </message>
+    <message>
+        <source>Yes to All</source>
+        <translation>Да для всех</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Нет</translation>
+    </message>
+    <message>
+        <source>No to All</source>
+        <translation>Нет для всех</translation>
+    </message>
+    <message>
+        <source>Save All</source>
+        <translation>Сохранить все</translation>
+    </message>
+    <message>
+        <source>Abort</source>
+        <translation>Прервать</translation>
+    </message>
+    <message>
+        <source>Retry</source>
+        <translation>Повторить</translation>
+    </message>
+    <message>
+        <source>Ignore</source>
+        <translation>Пропустить</translation>
+    </message>
+    <message>
+        <source>Restore Defaults</source>
+        <translation>Восстановить значения</translation>
     </message>
 </context>
 </TS>

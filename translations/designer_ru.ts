@@ -820,16 +820,12 @@
     <name>FormBuilder</name>
     <message>
         <source>Invalid stretch value for &apos;%1&apos;: &apos;%2&apos;</source>
-        <extracomment>Parsing layout stretch values
-----------
-Parsing layout stretch values</extracomment>
+        <extracomment>Parsing layout stretch values</extracomment>
         <translation>Некорректный коэффициент растяжения для «%1»: «%2»</translation>
     </message>
     <message>
         <source>Invalid minimum size for &apos;%1&apos;: &apos;%2&apos;</source>
-        <extracomment>Parsing grid layout minimum size values
-----------
-Parsing grid layout minimum size values</extracomment>
+        <extracomment>Parsing grid layout minimum size values</extracomment>
         <translation>Некорректный минимальный размер для «%1»: «%2»</translation>
     </message>
 </context>
@@ -1661,6 +1657,10 @@ Would you like to retry?</source>
         <source>The class attribute for the class %1 does not match the class name %2.</source>
         <translation>Атрибут для класса %1 не совпадает с именем класса %2.</translation>
     </message>
+    <message>
+        <source>Not loaded due to potential symbol clashes (QTCREATORBUG-10273)</source>
+        <translation>Не загружен из-за возможного конфликта имён (QTCREATORBUG-10273)</translation>
+    </message>
 </context>
 <context>
     <name>QDesignerPropertySheet</name>
@@ -1818,9 +1818,7 @@ Container pages should only be added by specifying them in XML returned by the d
     <name>QFormBuilder</name>
     <message>
         <source>An empty class name was passed on to %1 (object name: &apos;%2&apos;).</source>
-        <extracomment>Empty class name passed to widget factory method
-----------
-Empty class name passed to widget factory method</extracomment>
+        <extracomment>Empty class name passed to widget factory method</extracomment>
         <translation>Методу %1 (объекта «%2») было передано пустое имя класса.</translation>
     </message>
     <message>
@@ -2819,6 +2817,10 @@ to
         <source>Copy Path</source>
         <translation>Скопировать путь</translation>
     </message>
+    <message>
+        <source>Filter</source>
+        <translation>Фильтр</translation>
+    </message>
 </context>
 <context>
     <name>QtResourceViewDialog</name>
@@ -3178,6 +3180,13 @@ Do you want overwrite the template?</source>
     </message>
 </context>
 <context>
+    <name>qdesigner_internal</name>
+    <message>
+        <source>%1 Widget</source>
+        <translation>Виджет %1</translation>
+    </message>
+</context>
+<context>
     <name>qdesigner_internal::ActionEditor</name>
     <message>
         <source>New...</source>
@@ -3226,6 +3235,10 @@ Do you want overwrite the template?</source>
     <message>
         <source>Detailed View</source>
         <translation>Подробно</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Фильтр</translation>
     </message>
     <message>
         <source>New action</source>
@@ -4921,6 +4934,10 @@ ate the goose who was loose.</source>
         <translation>Настроить радактор свойств</translation>
     </message>
     <message>
+        <source>Filter</source>
+        <translation>Фильтр</translation>
+    </message>
+    <message>
         <source>Object: %1
 Class: %2</source>
         <translation>Объект: %1
@@ -5643,6 +5660,10 @@ Class: %2</source>
     <message>
         <source>Warning: Widget creation failed in the widget box. This could be caused by invalid custom widget XML.</source>
         <translation>Предупреждение: Не удалось создать виджет. Это могло произойти из-за некорректного XML пользовательского виджета.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Фильтр</translation>
     </message>
 </context>
 <context>

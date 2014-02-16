@@ -455,6 +455,10 @@
         <translation>Не удаётся связать префикс %1. По умолчанию префикс связан с пространством имён %2.</translation>
     </message>
     <message>
+        <source>The prefix %1 can not be bound. By default, it is already bound to the namespace %2.</source>
+        <translation>Не удаётся связать префикс %1. По умолчанию префикс связан с пространством имён %2.</translation>
+    </message>
+    <message>
         <source>Prefix %1 is already declared in the prolog.</source>
         <translation>Префикс %1 уже объявлен в прологе.</translation>
     </message>
@@ -1064,11 +1068,11 @@
     </message>
     <message>
         <source>%1 attribute in derived complex type must be %2 like in base type.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 производного сложного типа должен быть подобен %2 базового типа.</translation>
     </message>
     <message>
         <source>Attribute %1 in derived complex type must have %2 value constraint like in base type.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 производного сложного типа должен иметь ограничение значения %2, как в базовом типе.</translation>
     </message>
     <message>
         <source>Attribute %1 in derived complex type must have the same %2 value constraint like in base type.</source>
@@ -1084,11 +1088,11 @@
     </message>
     <message>
         <source>Element %1 exists twice with different types.</source>
-        <translation type="unfinished"></translation>
+        <translation>Присутствует два элемента %1 разных типов.</translation>
     </message>
     <message>
         <source>Particle contains non-deterministic wildcards.</source>
-        <translation type="unfinished"></translation>
+        <translation>Частицы содержат недетерминированные шаблоны.</translation>
     </message>
     <message>
         <source>Base attribute %1 is required but derived attribute is not.</source>
@@ -1152,7 +1156,7 @@
     </message>
     <message>
         <source>Document is not a XML schema.</source>
-        <translation type="unfinished"></translation>
+        <translation>Документ не является схемой XML.</translation>
     </message>
     <message>
         <source>%1 attribute of %2 element contains invalid content: {%3} is not a value of type %4.</source>
@@ -1192,19 +1196,19 @@
     </message>
     <message>
         <source>%1 attribute of %2 element must be %3 or %4.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 элемента %2 должен быть %3 или %4.</translation>
     </message>
     <message>
         <source>%1 attribute of %2 element must have a value of %3.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 элемента %2 должен иметь значение %3.</translation>
     </message>
     <message>
         <source>%1 attribute of %2 element must have a value of %3 or %4.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 элемента %2 должен иметь значение %3 или %4.</translation>
     </message>
     <message>
         <source>%1 element must not have %2 and %3 attribute together.</source>
-        <translation type="unfinished"></translation>
+        <translation>Элемент %1 не должен одновременно содержать атрибуты %2 и %3.</translation>
     </message>
     <message>
         <source>Content of %1 attribute of %2 element must not be from namespace %3.</source>
@@ -1212,7 +1216,7 @@
     </message>
     <message>
         <source>%1 attribute of %2 element must not be %3.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 элемента %2 не должен быть %3.</translation>
     </message>
     <message>
         <source>%1 attribute of %2 element must have the value %3 because the %4 attribute is set.</source>
@@ -1244,7 +1248,7 @@
     </message>
     <message>
         <source>%1 element is not allowed in this context.</source>
-        <translation type="unfinished"></translation>
+        <translation>Элемент %1 недопустим в этом контексте.</translation>
     </message>
     <message>
         <source>%1 attribute of %2 element has larger value than %3 attribute.</source>
@@ -1252,7 +1256,7 @@
     </message>
     <message>
         <source>Prefix of qualified name %1 is not defined.</source>
-        <translation type="unfinished"></translation>
+        <translation>Префикс подходящего имени %1 не определён.</translation>
     </message>
     <message>
         <source>%1 attribute of %2 element must either contain %3 or the other values.</source>
@@ -1260,7 +1264,7 @@
     </message>
     <message>
         <source>Component with ID %1 has been defined previously.</source>
-        <translation type="unfinished"></translation>
+        <translation>Компонент с идентификатором %1 был уже определён ранее.</translation>
     </message>
     <message>
         <source>Element %1 already defined.</source>
@@ -1296,7 +1300,7 @@
     </message>
     <message>
         <source>%1 references unknown %2 or %3 element %4.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ссылается на неизвестные элементы %2 и %3 из %4.</translation>
     </message>
     <message>
         <source>%1 references identity constraint %2 that is no %3 or %4 element.</source>
@@ -1404,7 +1408,7 @@
     </message>
     <message>
         <source>Namespace prefix of qualified name %1 is not defined.</source>
-        <translation type="unfinished"></translation>
+        <translation>Не определена приставка пространства имён для уточнённого имени %1.</translation>
     </message>
     <message>
         <source>%1 element %2 is not a valid restriction of the %3 element it redefines: %4.</source>
@@ -1849,6 +1853,90 @@
     <message>
         <source>Only the Unicode Codepoint Collation is supported(%1). %2 is unsupported.</source>
         <translation>Поддерживается только Unicode Codepoint Collation (%1). %2 не поддерживается.</translation>
+    </message>
+    <message>
+        <source>An %1-attribute with value %2 has already been declared.</source>
+        <translation>Атрибут %1 со значением %2 был уже объявлен.</translation>
+    </message>
+    <message>
+        <source>An %1-attribute must have a valid %2 as value, which %3 isn&apos;t.</source>
+        <translation>Атрибут %1 должен иметь значение типа %2, а %3 им не является.</translation>
+    </message>
+    <message>
+        <source>No operand in an integer division, %1, can be %2.</source>
+        <translation>Операнд целочисленного деления %1 не может быть %2.</translation>
+    </message>
+    <message>
+        <source>The first operand in an integer division, %1, cannot be infinity (%2).</source>
+        <translation>Первый операнд целочисленного деления %1 не должен быть бесконечностью (%2).</translation>
+    </message>
+    <message>
+        <source>The second operand in a division, %1, cannot be zero (%2).</source>
+        <translation>Второй операнд веления %1 не может быть нулён (%2).</translation>
+    </message>
+    <message>
+        <source>No casting is possible with %1 as the target type.</source>
+        <translation>Невозможно преобразовать в тип %1.</translation>
+    </message>
+    <message>
+        <source>It is not possible to cast from %1 to %2.</source>
+        <translation>Невозможно преобразовать из %1 в %2.</translation>
+    </message>
+    <message>
+        <source>Casting to %1 is not possible because it is an abstract type, and can therefore never be instantiated.</source>
+        <translation>Невозможно преобразовать в %1, так как это абстрактный тип и его нельзя инстанцировать.</translation>
+    </message>
+    <message>
+        <source>It&apos;s not possible to cast the value %1 of type %2 to %3</source>
+        <translation>Невозможно преобразовать значение %1 типа %2 в %3</translation>
+    </message>
+    <message>
+        <source>Failure when casting from %1 to %2: %3</source>
+        <translation>Ошибка преобразования из %1 в %2: %3</translation>
+    </message>
+    <message>
+        <source>No comparisons can be done involving the type %1.</source>
+        <translation>Невозможно выполнить сравнение с типом %1.</translation>
+    </message>
+    <message>
+        <source>Operator %1 is not available between atomic values of type %2 and %3.</source>
+        <translation>Оператор %1 недоступен между атомарными значениями типов %2 и %3.</translation>
+    </message>
+    <message>
+        <source>Circularity detected</source>
+        <translation>Обнаружена зацикленность</translation>
+    </message>
+    <message>
+        <source>The first argument to %1 cannot be of type %2.</source>
+        <translation>Первый аргумент %1 не может быть типа %2.</translation>
+    </message>
+    <message>
+        <source>Attribute %1 cannot appear on the element %2. Only the standard attributes can appear.</source>
+        <translation>У элемента %2 не должно быть атрибута %1. Допустимы только стандартные атрибуты.</translation>
+    </message>
+    <message>
+        <source>Attribute %1 cannot appear on the element %2. Only %3 is allowed, and the standard attributes.</source>
+        <translation>У элемента %2 не должно быть атрибута %1. Допустимы только %3 и стандартные атрибуты.</translation>
+    </message>
+    <message>
+        <source>Attribute %1 cannot appear on the element %2. Allowed is %3, %4, and the standard attributes.</source>
+        <translation>У элемента %2 не должно быть атрибута %1. Допустимы только %3, %4 и стандартные атрибуты.</translation>
+    </message>
+    <message>
+        <source>Attribute %1 cannot appear on the element %2. Allowed is %3, and the standard attributes.</source>
+        <translation>У элемента %2 не должно быть атрибута %1. Допустимы только %3 и стандартные атрибуты.</translation>
+    </message>
+    <message>
+        <source>XSL-T attributes on XSL-T elements must be in the null namespace, not in the XSL-T namespace which %1 is.</source>
+        <translation>Атрибуты XSL-T у XSL-T элементов должны быть в пустом пространстве имён, а не в XSL-T, в котором находится %1.</translation>
+    </message>
+    <message>
+        <source>The attribute %1 must appear on element %2.</source>
+        <translation>Атрибут %1 должен присутствовать у элемента %2.</translation>
+    </message>
+    <message>
+        <source>The element with local name %1 does not exist in XSL-T.</source>
+        <translation>Элемент с локальным именем %1 отсутствует в XSL-T.</translation>
     </message>
 </context>
 </TS>

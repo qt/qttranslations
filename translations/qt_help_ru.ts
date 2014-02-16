@@ -223,12 +223,32 @@
         <translation>Неизвестный идентификатор.</translation>
     </message>
     <message>
+        <source>Unknown token in file &quot;%1&quot;.</source>
+        <translation>Неизвестный идентификатор в файле «%1».</translation>
+    </message>
+    <message>
         <source>Unknown token. Expected &quot;QtHelpProject&quot;!</source>
         <translation>Неизвестный идентификатор. Ожидается «QtHelpProject»!</translation>
     </message>
     <message>
         <source>Error in line %1: %2</source>
         <translation>Ошибка в строке %1: %2</translation>
+    </message>
+    <message>
+        <source>Virtual folder has invalid syntax in file: &quot;%1&quot;</source>
+        <translation>В файле «%1» виртуальный каталог содержит ошибку синтаксиса</translation>
+    </message>
+    <message>
+        <source>Namespace &quot;%1&quot; has invalid syntax in file: &quot;%2&quot;</source>
+        <translation>В файле «%2» пространство имён «%1» содержит ошибку синтаксиса</translation>
+    </message>
+    <message>
+        <source>Missing namespace in QtHelpProject file: &quot;%1&quot;</source>
+        <translation>Отсутствует пространство имён в файле QtHelpProject: «%1»</translation>
+    </message>
+    <message>
+        <source>Missing virtual folder in QtHelpProject file: &quot;%1&quot;</source>
+        <translation>Отсутствует виртуальный каталог в файле QtHelpProject: «%1»</translation>
     </message>
     <message>
         <source>Virtual folder has invalid syntax.</source>
