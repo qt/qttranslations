@@ -2,10 +2,210 @@
 <!DOCTYPE TS>
 <TS version="2.0" language="ru_RU">
 <context>
+    <name>DefaultColorDialog</name>
+    <message>
+        <source>Hue</source>
+        <translation>Оттенок</translation>
+    </message>
+    <message>
+        <source>Saturation</source>
+        <translation>Насыщенность</translation>
+    </message>
+    <message>
+        <source>Luminosity</source>
+        <translation>Яркость</translation>
+    </message>
+    <message>
+        <source>Alpha</source>
+        <translation>Альфа</translation>
+    </message>
+</context>
+<context>
+    <name>DefaultFontDialog</name>
+    <message>
+        <source>Writing System</source>
+        <translation>Система письма</translation>
+    </message>
+    <message>
+        <source>Font</source>
+        <translation>Шрифт</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Размер</translation>
+    </message>
+    <message>
+        <source>Weight</source>
+        <translation>Толщина</translation>
+    </message>
+    <message>
+        <source>Style</source>
+        <translation>Начертание</translation>
+    </message>
+    <message>
+        <source>Sample</source>
+        <translation>Пример</translation>
+    </message>
+    <message>
+        <source>Italic</source>
+        <translation>Наклонный</translation>
+    </message>
+    <message>
+        <source>Underline</source>
+        <translation>Подчёркнутый</translation>
+    </message>
+    <message>
+        <source>Overline</source>
+        <translation>Надчёркивание</translation>
+    </message>
+    <message>
+        <source>Strikeout</source>
+        <translation>Зачёркивание</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Отмена</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>ОК</translation>
+    </message>
+</context>
+<context>
     <name>QInputMethod</name>
     <message>
         <source>InputMethod is an abstract class</source>
         <translation>InputMethod ― абстрактный класс</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlAnonymousComponentResolver</name>
+    <message>
+        <source>Component objects cannot declare new functions.</source>
+        <translation>Объекты Component не могут объявлять новые функции.</translation>
+    </message>
+    <message>
+        <source>Component objects cannot declare new properties.</source>
+        <translation>Объекты Component не могут объявлять новые свойства.</translation>
+    </message>
+    <message>
+        <source>Component objects cannot declare new signals.</source>
+        <translation>Объекты Component не могут объявлять новые сигналы.</translation>
+    </message>
+    <message>
+        <source>Cannot create empty component specification</source>
+        <translation>Невозможно создать пустую спецификацю компонента</translation>
+    </message>
+    <message>
+        <source>Component elements may not contain properties other than id</source>
+        <translation>Элементы Component не могут содержать свойств кроме id</translation>
+    </message>
+    <message>
+        <source>id is not unique</source>
+        <translation>id не уникален</translation>
+    </message>
+    <message>
+        <source>Invalid alias reference. Unable to find id &quot;%1&quot;</source>
+        <translation>Некорректная ссылка на псевдоним. Не удалось найти id «%1»</translation>
+    </message>
+    <message>
+        <source>Invalid alias location</source>
+        <translation>Некорректное размещение псевдонима</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlCodeGenerator</name>
+    <message>
+        <source>Duplicate method name</source>
+        <translation>Дублирование имени метода</translation>
+    </message>
+    <message>
+        <source>Method names cannot begin with an upper case letter</source>
+        <translation>Имена методов не могут начинаться с заглавной буквы</translation>
+    </message>
+    <message>
+        <source>Illegal method name</source>
+        <translation>Недопустимое имя метода</translation>
+    </message>
+    <message>
+        <source>Duplicate signal name</source>
+        <translation>Дублирование имени сигнала</translation>
+    </message>
+    <message>
+        <source>Signal names cannot begin with an upper case letter</source>
+        <translation>Имена сигналов не могут начинаться с заглавной буквы</translation>
+    </message>
+    <message>
+        <source>Illegal signal name</source>
+        <translation>Недопустимое имя сигнала</translation>
+    </message>
+    <message>
+        <source>No property alias location</source>
+        <translation>Отсутствует размещение псевдонима свойства</translation>
+    </message>
+    <message>
+        <source>Invalid alias reference. An alias reference must be specified as &lt;id&gt;, &lt;id&gt;.&lt;property&gt; or &lt;id&gt;.&lt;value property&gt;.&lt;property&gt;</source>
+        <translation>Некорректная ссылка на псевдоним. Ссылка на псевдоним должна быть указана, как &lt;id&gt;, &lt;id&gt;.&lt;свойство&gt; или &lt;id&gt;.&lt;свойство значения&gt;.&lt;свойство&gt;</translation>
+    </message>
+    <message>
+        <source>Invalid alias location</source>
+        <translation>Нет свойства размещения псевдонима</translation>
+    </message>
+    <message>
+        <source>Invalid component id specification</source>
+        <translation>Некорректная спецификация идентификатора компонента</translation>
+    </message>
+    <message>
+        <source>Invalid empty ID</source>
+        <translation>Пустой идентификатор недопустим</translation>
+    </message>
+    <message>
+        <source>IDs cannot start with an uppercase letter</source>
+        <translation>Идентификаторы не могут начинаться с заглавной буквы</translation>
+    </message>
+    <message>
+        <source>IDs must start with a letter or underscore</source>
+        <translation>Идентификаторы должны начинаться с буквы или подчёркивания</translation>
+    </message>
+    <message>
+        <source>IDs must contain only letters, numbers, and underscores</source>
+        <translation>Идентификаторы должны содержать только буквы, цифры и подчёркивания</translation>
+    </message>
+    <message>
+        <source>ID illegally masks global JavaScript property</source>
+        <translation>Недопустимо, чтобы идентификатор маскировал глобальное свойство JavaScript</translation>
+    </message>
+    <message>
+        <source>Invalid use of id property</source>
+        <translation>Некорректное использование свойства id</translation>
+    </message>
+    <message>
+        <source>Duplicate property name</source>
+        <translation>Дублирование имени свойства</translation>
+    </message>
+    <message>
+        <source>Property names cannot begin with an upper case letter</source>
+        <translation>Имена свойств не могут начинаться с заглавной буквы</translation>
+    </message>
+    <message>
+        <source>Illegal property name</source>
+        <translation>Недопустимое имя свойства</translation>
+    </message>
+    <message>
+        <source>Non-existent attached object</source>
+        <translation>Несуществующий прикреплённый объект</translation>
+    </message>
+    <message>
+        <source>Incorrectly specified signal assignment</source>
+        <translation>Неверно указано назначение сигнала</translation>
+    </message>
+    <message>
+        <source>&quot;%1.%2&quot; is not available in %3 %4.%5.</source>
+        <translation>«%1.%2» не доступно в %3 %4.%5.</translation>
+    </message>
+    <message>
+        <source>&quot;%1.%2&quot; is not available due to component versioning.</source>
+        <translation>«%1.%2» не доступно из-за версии компоненты.</translation>
     </message>
 </context>
 <context>
@@ -113,6 +313,10 @@
     <message>
         <source>Invalid property assignment: unsupported type &quot;%1&quot;</source>
         <translation>Некорректное присваивание свойства: неподдерживаемый тип «%1»</translation>
+    </message>
+    <message>
+        <source>Composite Singleton Type %1 is not creatable.</source>
+        <translation>Сложный Singleton-тип %1 нельзя создать.</translation>
     </message>
     <message>
         <source>Element is not creatable.</source>
@@ -269,6 +473,18 @@
     <message>
         <source>&quot;%1&quot; cannot operate on &quot;%2&quot;</source>
         <translation>«%1» не может воздействовать на «%2»</translation>
+    </message>
+    <message>
+        <source>Fully dynamic types cannot declare new properties.</source>
+        <translation>Полностью динамические типы не могут объявлять новые свойства.</translation>
+    </message>
+    <message>
+        <source>Fully dynamic types cannot declare new signals.</source>
+        <translation>Полностью динамические типы не могут объявлять новые сигналы.</translation>
+    </message>
+    <message>
+        <source>Fully Dynamic types cannot declare new functions.</source>
+        <translation>Полностью динамические типы не могут объявлять новые функции.</translation>
     </message>
     <message>
         <source>Duplicate default property</source>
@@ -597,8 +813,20 @@
         <translation>не является типом</translation>
     </message>
     <message>
+        <source>static plugin for module &quot;%1&quot; with name &quot;%2&quot; has no metadata URI</source>
+        <translation>в статическом плагине «%2» модуля «%1» нет URI метаданных</translation>
+    </message>
+    <message>
         <source>plugin cannot be loaded for module &quot;%1&quot;: %2</source>
         <translation>не удалось загрузить плагин для модуля «%1»: %2</translation>
+    </message>
+    <message>
+        <source>static plugin for module &quot;%1&quot; with name &quot;%2&quot; cannot be loaded: %3</source>
+        <translation>невозможно загрузить статический плагин «%2» для модулья «%1»: %3</translation>
+    </message>
+    <message>
+        <source>could not resolve all plugins for module &quot;%1&quot;</source>
+        <translation>невозможно найти все плагины для модуля «%1»</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; plugin &quot;%2&quot; not found</source>
@@ -623,6 +851,10 @@
     <message>
         <source>import &quot;%1&quot; has no qmldir and no namespace</source>
         <translation>каталог «%1» не содержит ни qmldir, ни namespace</translation>
+    </message>
+    <message>
+        <source>Module loaded for URI &apos;%1&apos; does not implement QQmlTypesExtensionInterface</source>
+        <translation>Модуль загруженный для URI «%1» не реализует QQmlTypesExtensionInterface</translation>
     </message>
     <message>
         <source>File name case mismatch for &quot;%1&quot;</source>
@@ -783,6 +1015,10 @@
         <translation>Ожидается название типа</translation>
     </message>
     <message>
+        <source>Unexpected object definition</source>
+        <translation>Неожиданное определение объекта</translation>
+    </message>
+    <message>
         <source>Invalid import qualifier ID</source>
         <translation>Некорректный ID спецификатора импорта</translation>
     </message>
@@ -803,6 +1039,10 @@
         <translation>Импорт библиотеки требует версию</translation>
     </message>
     <message>
+        <source>Pragma requires a valid qualifier</source>
+        <translation>Pragma требует корректный квалификатор</translation>
+    </message>
+    <message>
         <source>Expected parameter type</source>
         <translation>Ожидается тип параметра</translation>
     </message>
@@ -821,6 +1061,10 @@
     <message>
         <source>Expected property type</source>
         <translation>Требуется тип свойства</translation>
+    </message>
+    <message>
+        <source>Duplicate default property</source>
+        <translation>Дублирование свойства по умолчанию</translation>
     </message>
     <message>
         <source>JavaScript declaration outside Script element</source>
@@ -863,6 +1107,48 @@
     </message>
 </context>
 <context>
+    <name>QQmlPropertyCacheCreator</name>
+    <message>
+        <source>Cannot override FINAL property</source>
+        <translation>Невозможно переопределить свойство FINAL</translation>
+    </message>
+    <message>
+        <source>Invalid signal parameter type: %1</source>
+        <translation>Недопустимый тип параметра сигнала: %1</translation>
+    </message>
+    <message>
+        <source>Duplicate signal name: invalid override of property change signal or superclass signal</source>
+        <translation>Повторяющееся имя сигнала: неправильная перегрузка сигнала для изменения свойства или сигнала из базового класса</translation>
+    </message>
+    <message>
+        <source>Duplicate method name: invalid override of property change signal or superclass signal</source>
+        <translation>Повторяющееся имя метода: неправильная перегрузка сигнала для изменения свойства или сигнала из базового класса</translation>
+    </message>
+    <message>
+        <source>Invalid property type</source>
+        <translation>Некорректный тип свойства</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlPropertyValidator</name>
+    <message>
+        <source>&quot;%1.%2&quot; is not available in %3 %4.%5.</source>
+        <translation>«%1.%2» не доступно в %3 %4.%5.</translation>
+    </message>
+    <message>
+        <source>&quot;%1.%2&quot; is not available due to component versioning.</source>
+        <translation>«%1.%2» не доступно из-за версии компоненты.</translation>
+    </message>
+    <message>
+        <source>Cannot assign to non-existent default property</source>
+        <translation>Невозможно назначить несуществующему свойству по умолчанию</translation>
+    </message>
+    <message>
+        <source>Cannot assign to non-existent property &quot;%1&quot;</source>
+        <translation>Невозможно назначить несуществующему свойству «%1»</translation>
+    </message>
+</context>
+<context>
     <name>QQmlRewrite</name>
     <message>
         <source>Signal uses unnamed parameter followed by named parameter.</source>
@@ -880,12 +1166,24 @@
         <translation>Не удалось обновить содержимое qmldir для «%1»</translation>
     </message>
     <message>
+        <source>No matching type found, pragma Singleton files cannot be used by QQmlComponent.</source>
+        <translation>Подходящий тип не найден, файлы pragma Singleton не могут использоваться QQmlComponent.</translation>
+    </message>
+    <message>
+        <source>pragma Singleton used with a non composite singleton type %1</source>
+        <translation>pragma Singleton используется с несложным одиночным типом %1</translation>
+    </message>
+    <message>
         <source>Script %1 unavailable</source>
         <translation>Сценарий %1 недоступен</translation>
     </message>
     <message>
         <source>Type %1 unavailable</source>
         <translation>Тип «%1» недоступен</translation>
+    </message>
+    <message>
+        <source>qmldir defines type as singleton, but no pragma Singleton found in type %1.</source>
+        <translation>qmldir определяет тип как одиночный, но pragma Singleton не найдена в типе %1.</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; is not installed</source>
@@ -960,6 +1258,10 @@
     <message>
         <source>Animation is an abstract class</source>
         <translation>Animation ― это абстрактный класс</translation>
+    </message>
+    <message>
+        <source>Animator is an abstract class</source>
+        <translation>Animator является абстрактным классом</translation>
     </message>
 </context>
 <context>
@@ -1249,6 +1551,17 @@
     </message>
 </context>
 <context>
+    <name>QQuickWindowQmlImpl</name>
+    <message>
+        <source>Conflicting properties &apos;visible&apos; and &apos;visibility&apos; for Window &apos;%1&apos;</source>
+        <translation>Свойства окна «%1» «visible» и «visibility» конфликтуют</translation>
+    </message>
+    <message>
+        <source>Conflicting properties &apos;visible&apos; and &apos;visibility&apos;</source>
+        <translation>Свойства «visible» и «visibility» конфликтуют</translation>
+    </message>
+</context>
+<context>
     <name>QQuickXmlListModel</name>
     <message>
         <source>&quot;%1&quot; duplicates a previous role name and will be disabled.</source>
@@ -1281,6 +1594,133 @@
     </message>
 </context>
 <context>
+    <name>QmlObjectCreator</name>
+    <message>
+        <source>Invalid property assignment: string expected</source>
+        <translation>Некорректное присваивание свойства: ожидается значение типа «string»</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: string or string list expected</source>
+        <translation>Некорректное присваивание свойства: ожидается значение типа «string» или «string list»</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: byte array expected</source>
+        <translation>Некорректное присваивание свойства: ожидается значение типа массив «byte»</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: url expected</source>
+        <translation>Некорректное присваивание свойства: ожидается значение типа «url»</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: unsigned int expected</source>
+        <translation>Некорректное присваивание свойства: ожидается значение типа «unsigned int»</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: int expected</source>
+        <translation>Некорректное присваивание свойства: ожидается значение типа «int»</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: number expected</source>
+        <translation>Некорректное присваивание свойства: ожидается число</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: color expected</source>
+        <translation>Некорректное присваивание свойства: ожидается значение типа «color»</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: date expected</source>
+        <translation>Некорректное присваивание свойства: ожидается значение типа «date»</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: time expected</source>
+        <translation>Некорректное присваивание свойства: ожидается значение типа «time»</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: datetime expected</source>
+        <translation>Некорректное присваивание свойства: ожидается значение типа «datetime»</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: point expected</source>
+        <translation>Некорректное присваивание свойства: ожидается значение типа «point»</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: size expected</source>
+        <translation>Некорректное присваивание свойства: ожидается значение типа «size»</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: boolean expected</source>
+        <translation>Некорректное присваивание свойства: ожидается значение булевого типа</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: 3D vector expected</source>
+        <translation>Некорректное присваивание свойства: ожидается значение типа «трёхмерный вектор»</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: 4D vector expected</source>
+        <translation>Некорректное присваивание свойства: ожидается значение типа «четырёхмерный вектор»</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: regular expression expected; use /pattern/ syntax</source>
+        <translation>Некорректное присваивание свойства: ожидается регулярное выражение; используйте синтаксис /pattern/</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: real or array of reals expected</source>
+        <translation>Некорректное присваивание свойства: ожидается значение типа «real» или массив «real»</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: int or array of ints expected</source>
+        <translation>Некорректное присваивание свойства: ожидается значение типа «int» или массив «int»</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: bool or array of bools expected</source>
+        <translation>Некорректное присваивание свойства: ожидается значение типа «bool» или массив «bool»</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: url or array of urls expected</source>
+        <translation>Некорректное присваивание свойства: ожидается значение типа «url» или массив «url»</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: string or array of strings expected</source>
+        <translation>Некорректное присваивание свойства: ожидается значение типа «string» или массив «string»</translation>
+    </message>
+    <message>
+        <source>Cannot assign value %1 to property %2</source>
+        <translation>Невозможно присвоить значение «%1» свойству «%2»</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: unsupported type &quot;%1&quot;</source>
+        <translation>Некорректное присваивание свойства: неподдерживаемый тип «%1»</translation>
+    </message>
+    <message>
+        <source>Cannot set properties on %1 as it is null</source>
+        <translation>Невозможно установить свойства у %1, так как он пустой</translation>
+    </message>
+    <message>
+        <source>Invalid grouped property access</source>
+        <translation>Некорректный доступ к сгруппированному свойству</translation>
+    </message>
+    <message>
+        <source>Cannot assign object to interface property</source>
+        <translation>Невозможно назначить объект свойству интерфейса</translation>
+    </message>
+    <message>
+        <source>Cannot assign object to property</source>
+        <translation>Невозможно назначить объект свойству</translation>
+    </message>
+    <message>
+        <source>Cannot assign primitives to lists</source>
+        <translation>Невозможно назначить примитивы списку</translation>
+    </message>
+    <message>
+        <source>Unable to create object of type %1</source>
+        <translation>Невозможно создать объект типа «%1»</translation>
+    </message>
+    <message>
+        <source>Composite Singleton Type %1 is not creatable</source>
+        <translation>Нельзя создавать сложный Singleton-тип %1</translation>
+    </message>
+</context>
+<context>
     <name>qmlRegisterType</name>
     <message>
         <source>Invalid QML %1 name &quot;%2&quot;</source>
@@ -1293,6 +1733,10 @@
     <message>
         <source>Cannot install %1 &apos;%2&apos; into protected namespace &apos;%3&apos;</source>
         <translation>Нельзя устанавливать %1 «%2» в защищённое пространство имён «%3»</translation>
+    </message>
+    <message>
+        <source>Cannot install %1 &apos;%2&apos; into protected module &apos;%3&apos; version &apos;%4&apos;</source>
+        <translation>Нельзя установить %1 «%2» в защищённый модуль «%3» версии «%4»</translation>
     </message>
 </context>
 </TS>
