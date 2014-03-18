@@ -159,6 +159,10 @@
         <source>Service has not been started</source>
         <translation>Der Dienst wurde nicht gestartet</translation>
     </message>
+    <message>
+        <source>Recording permissions are not available</source>
+        <translation>Berechtigung zur Aufnahme fehlt</translation>
+    </message>
 </context>
 <context>
     <name>CameraBinSession</name>

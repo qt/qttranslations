@@ -1246,14 +1246,6 @@ This indicates an inconsistency in the ui-file.</source>
         <source>%1 - warning</source>
         <translation>%1 - Warnung</translation>
     </message>
-    <message>
-        <source>Qt Designer</source>
-        <translation>Qt Designer</translation>
-    </message>
-    <message>
-        <source>This application cannot be used for the Console edition of Qt</source>
-        <translation>Diese Anwendung kann in der Qt-Konsolen-Edition nicht benutzt werden</translation>
-    </message>
 </context>
 <context>
     <name>QDesignerActions</name>
@@ -2458,13 +2450,6 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     </message>
 </context>
 <context>
-    <name>QtKeySequenceEdit</name>
-    <message>
-        <source>Clear Shortcut</source>
-        <translation>Tastenkürzel löschen</translation>
-    </message>
-</context>
-<context>
     <name>QtLocalePropertyManager</name>
     <message>
         <source>&lt;Invalid&gt;</source>
@@ -3172,6 +3157,13 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
         <translation>Die Datei enthält ein benutzerdefiniertes Widget &apos;%1&apos; dessen Basisklasse (%2) nicht mit dem Eintrag in der Widget-Datenbank übereinstimmt. Die Widget-Datenbank wird nicht geändert.</translation>
+    </message>
+</context>
+<context>
+    <name>qdesigner_internal</name>
+    <message>
+        <source>%1 Widget</source>
+        <translation>%1 Widget</translation>
     </message>
 </context>
 <context>
@@ -5707,10 +5699,6 @@ This indicates an inconsistency in the ui-file.</source>
     <message>
         <source>Cannot create style &apos;%1&apos;.</source>
         <translation>Der Stil &apos;%1&apos; konnte nicht erzeugt werden.</translation>
-    </message>
-    <message>
-        <source>%1 Widget</source>
-        <translation>%1 Widget</translation>
     </message>
 </context>
 <context>

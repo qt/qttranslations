@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="de">
+<TS version="2.1" language="de">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -582,83 +582,6 @@ Grund:
     <message>
         <source>Open Link in New Tab</source>
         <translation>Link in neuem Reiter öffnen</translation>
-    </message>
-</context>
-<context>
-    <name>InstallDialog</name>
-    <message>
-        <source>Install Documentation</source>
-        <translation>Dokumentation installieren</translation>
-    </message>
-    <message>
-        <source>Downloading documentation info...</source>
-        <translation>Dokumentationsinformation herunterladen ...</translation>
-    </message>
-    <message>
-        <source>Download canceled.</source>
-        <translation>Herunterladen abgebrochen.</translation>
-    </message>
-    <message>
-        <source>Done.</source>
-        <translation>Fertig.</translation>
-    </message>
-    <message>
-        <source>The file %1 already exists. Do you want to overwrite it?</source>
-        <translation>Die Datei %1 existiert bereits. Möchten Sie sie überschreiben?</translation>
-    </message>
-    <message>
-        <source>Unable to save the file %1: %2.</source>
-        <translation>Die Datei %1 kann nicht gespeichert werden: %2.</translation>
-    </message>
-    <message>
-        <source>Downloading %1...</source>
-        <translation>Herunterladen der Datei %1 ...</translation>
-    </message>
-    <message>
-        <source>Download failed: %1.</source>
-        <translation>Herunterladen fehlgeschlagen: %1.</translation>
-    </message>
-    <message>
-        <source>Documentation info file is corrupt!</source>
-        <translation>Die Dokumentationsdatei ist beschädigt.</translation>
-    </message>
-    <message>
-        <source>Download failed: Downloaded file is corrupted.</source>
-        <translation>Herunterladen fehlgeschlagen: Die Datei ist wahrscheinlich beschädigt.</translation>
-    </message>
-    <message>
-        <source>Installing documentation %1...</source>
-        <translation>Dokumentation %1 installieren ...</translation>
-    </message>
-    <message>
-        <source>Error while installing documentation:
-%1</source>
-        <translation>Fehler bei der Installation von:
-%1</translation>
-    </message>
-    <message>
-        <source>Available Documentation:</source>
-        <translation>Verfügbare Dokumentation:</translation>
-    </message>
-    <message>
-        <source>Install</source>
-        <translation>Installieren</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Abbrechen</translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation>Schließen</translation>
-    </message>
-    <message>
-        <source>Installation Path:</source>
-        <translation>Installationsordner:</translation>
-    </message>
-    <message>
-        <source>...</source>
-        <translation>...</translation>
     </message>
 </context>
 <context>

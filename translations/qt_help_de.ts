@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="de">
+<TS version="2.1" language="de">
 <context>
     <name>QCLuceneResultWidget</name>
     <message>
@@ -161,7 +161,7 @@
     </message>
     <message>
         <source>Cannot register virtual folder!</source>
-        <translation>Virtuelles Verzeichnis nicht registriert werden.</translation>
+        <translation>Virtueller Order kann nicht registriert werden.</translation>
     </message>
     <message>
         <source>Insert files...</source>
@@ -219,8 +219,8 @@
 <context>
     <name>QHelpProject</name>
     <message>
-        <source>Unknown token.</source>
-        <translation>Unbekanntes Token.</translation>
+        <source>Unknown token in file &quot;%1&quot;.</source>
+        <translation>Unbekanntes Token in der Datei &quot;%1&quot;.</translation>
     </message>
     <message>
         <source>Unknown token. Expected &quot;QtHelpProject&quot;!</source>
@@ -231,20 +231,20 @@
         <translation>Fehler in Zeile %1: %2</translation>
     </message>
     <message>
-        <source>Virtual folder has invalid syntax.</source>
-        <translation>Ungültige Syntax bei Angabe des virtuellen Verzeichnisses.</translation>
+        <source>Virtual folder has invalid syntax in file: &quot;%1&quot;</source>
+        <translation>Der virtuelle Ordner hat in der Datei &quot;%1&quot; eine ungültige Syntax</translation>
     </message>
     <message>
-        <source>Namespace has invalid syntax.</source>
-        <translation>Ungültige Syntax der Namensraum-Angabe.</translation>
+        <source>Namespace &quot;%1&quot; has invalid syntax in file: &quot;%2&quot;</source>
+        <translation>Der Namensraum &quot;%1&quot; hat in der Datei &quot;%2&quot; eine ungültige Syntax</translation>
     </message>
     <message>
-        <source>Missing namespace in QtHelpProject.</source>
-        <translation>Fehlender Namensraum in QtHelpProject.</translation>
+        <source>Missing namespace in QtHelpProject file: &quot;%1&quot;</source>
+        <translation>Fehlender Namensraum in der QtHelpProject-Datei: &quot;%1&quot;</translation>
     </message>
     <message>
-        <source>Missing virtual folder in QtHelpProject</source>
-        <translation>Fehlendes virtuelles Verzeichnis in QtHelpProject.</translation>
+        <source>Missing virtual folder in QtHelpProject file: &quot;%1&quot;</source>
+        <translation>Fehlender virtueller Ordner in der QtHelpProject-Datei: &quot;%1&quot;</translation>
     </message>
     <message>
         <source>The input file %1 could not be opened!</source>

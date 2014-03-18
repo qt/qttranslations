@@ -449,7 +449,7 @@
         <translation>Der Präfix %1 kann nicht redeklariert werden.</translation>
     </message>
     <message>
-        <source>The prefix %1 cannot be bound. By default, it is already bound to the namespace %2.</source>
+        <source>The prefix %1 can not be bound. By default, it is already bound to the namespace %2.</source>
         <translation>Der Präfix %1 kann nicht gebunden werden. Er ist bereits per Vorgabe an den Namensraum %2 gebunden.</translation>
     </message>
     <message>

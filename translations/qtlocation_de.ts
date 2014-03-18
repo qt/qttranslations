@@ -394,6 +394,10 @@ Bitte registrieren Sie sich unter https://developer.here.com/ to get your person
         <translation>Anfrage wurde abgebrochen.</translation>
     </message>
     <message>
+        <source>The response from the service was not in a recognizable format.</source>
+        <translation>Die Antwort des Dienstes war in keinem erkennbaren Format.</translation>
+    </message>
+    <message>
         <source>Plugin property is not set.</source>
         <translation>Plug-in Property wurde nicht gesetzt.</translation>
     </message>
