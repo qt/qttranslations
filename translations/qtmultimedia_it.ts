@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="it_IT">
+<TS version="2.1" language="it_IT">
 <context>
     <name>AudioCaptureSession</name>
     <message>
@@ -173,6 +173,10 @@
     <message>
         <source>Service has not been started</source>
         <translation>Il servizio non è stato avviato</translation>
+    </message>
+    <message>
+        <source>Recording permissions are not available</source>
+        <translation>I permessi per la registrazione non sono disponibili</translation>
     </message>
 </context>
 <context>
@@ -399,6 +403,7 @@
     </message>
     <message>
         <source>Drive mode not supported</source>
+        <extracomment>Drive mode is the camera&apos;s shutter mode, for example single shot, continuos exposure, etc.</extracomment>
         <translation>Modalità di guida non supportata</translation>
     </message>
     <message>
