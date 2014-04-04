@@ -234,6 +234,14 @@ Will assume a single universal form.</source>
         <source>Cancel</source>
         <translation>Отмена</translation>
     </message>
+    <message>
+        <source>Obsoleted messages are skipped when checked.</source>
+        <translation>Если отмечено, будут пропускаться устаревшие сообщения.</translation>
+    </message>
+    <message>
+        <source>Skip &amp;obsolete</source>
+        <translation>Пропускать &amp;устаревшие</translation>
+    </message>
 </context>
 <context>
     <name>FormMultiWidget</name>
@@ -1211,6 +1219,14 @@ All files (*)</source>
     <message>
         <source>Display information about the Qt toolkit by Digia.</source>
         <translation>Показать информацию об инструментарии Qt от Digia.</translation>
+    </message>
+    <message>
+        <source>Visualize whitespace</source>
+        <translation>Отображать пробелы</translation>
+    </message>
+    <message>
+        <source>Toggle visualize whitespace in editors</source>
+        <translation>Переключение отображения пробельных символов в редакторе</translation>
     </message>
 </context>
 <context>
