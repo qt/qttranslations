@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ru_RU">
-<context>
-    <name>AudioCaptureSession</name>
-    <message>
-        <source>RAW file format</source>
-        <translation>Формат файла RAW</translation>
-    </message>
-    <message>
-        <source>WAV file format</source>
-        <translation>Формат файла WAV</translation>
-    </message>
-</context>
+<TS version="2.1" language="ru_RU">
 <context>
     <name>AudioContainerControl</name>
     <message>
@@ -25,10 +14,6 @@
 </context>
 <context>
     <name>AudioEncoderControl</name>
-    <message>
-        <source>PCM audio data</source>
-        <translation>Аудио-данные PCM</translation>
-    </message>
     <message>
         <source>Linear PCM audio data</source>
         <translation>Аудио-данные Linear PCM</translation>
