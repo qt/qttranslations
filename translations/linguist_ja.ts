@@ -232,6 +232,14 @@ Will assume a single universal form.</source>
         <comment>Choose Edit|Find from the menu bar or press Ctrl+F to pop up the Find dialog</comment>
         <translation></translation>
     </message>
+    <message>
+        <source>Obsoleted messages are skipped when checked.</source>
+        <translation>選択すると、廃止されたメッセージを検索対象から外します。</translation>
+    </message>
+    <message>
+        <source>Skip &amp;obsolete</source>
+        <translation>廃止された項目を無視(&amp;O)</translation>
+    </message>
 </context>
 <context>
     <name>FormMultiWidget</name>
@@ -1194,6 +1202,14 @@ All files (*)</source>
     <message>
         <source>All</source>
         <translation>すべて</translation>
+    </message>
+    <message>
+        <source>Visualize whitespace</source>
+        <translation>空白を表示</translation>
+    </message>
+    <message>
+        <source>Toggle visualize whitespace in editors</source>
+        <translation>エディタで空白を表示するかどうかを切り替えます</translation>
     </message>
 </context>
 <context>

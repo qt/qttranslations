@@ -2,73 +2,38 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="ja">
 <context>
-    <name>DefaultColorDialog</name>
+    <name>Object</name>
     <message>
-        <source>Hue</source>
-        <translation>色相</translation>
+        <source>Duplicate method name</source>
+        <translation>メソッドの名前が重複しています</translation>
     </message>
     <message>
-        <source>Saturation</source>
-        <translation>彩度</translation>
+        <source>Method names cannot begin with an upper case letter</source>
+        <translation>メソッドの名前を大文字から始めることはできません</translation>
     </message>
     <message>
-        <source>Luminosity</source>
-        <translation>光度</translation>
+        <source>Illegal method name</source>
+        <translation>メソッドの名前が無効です</translation>
     </message>
     <message>
-        <source>Alpha</source>
-        <translation>アルファ</translation>
-    </message>
-</context>
-<context>
-    <name>DefaultFontDialog</name>
-    <message>
-        <source>Writing System</source>
-        <translation>文字セット</translation>
+        <source>Duplicate signal name</source>
+        <translation>シグナルの名前が重複しています</translation>
     </message>
     <message>
-        <source>Font</source>
-        <translation>フォント</translation>
+        <source>Duplicate property name</source>
+        <translation>プロパティの名前が重複しています</translation>
     </message>
     <message>
-        <source>Size</source>
-        <translation>サイズ</translation>
+        <source>Property names cannot begin with an upper case letter</source>
+        <translation>プロパティの名前を大文字から始めることはできません</translation>
     </message>
     <message>
-        <source>Weight</source>
-        <translation>ウェイト</translation>
+        <source>Duplicate default property</source>
+        <translation>デフォルトプロパティが重複しています</translation>
     </message>
     <message>
-        <source>Style</source>
-        <translation>スタイル</translation>
-    </message>
-    <message>
-        <source>Sample</source>
-        <translation>サンプル</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>イタリック</translation>
-    </message>
-    <message>
-        <source>Underline</source>
-        <translation>下線</translation>
-    </message>
-    <message>
-        <source>Overline</source>
-        <translation>取消線</translation>
-    </message>
-    <message>
-        <source>Strikeout</source>
-        <translation>取消線</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>キャンセル</translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation>OK</translation>
+        <source>Property value set multiple times</source>
+        <translation>複数回プロパティに値を割り当てています</translation>
     </message>
 </context>
 <context>
@@ -101,6 +66,10 @@
         <translation>Component 要素に id 以外のプロパティが含まれていません</translation>
     </message>
     <message>
+        <source>Invalid component body specification</source>
+        <translation>無効なコンポーネントボディが指定されています</translation>
+    </message>
+    <message>
         <source>id is not unique</source>
         <translation>id が重複しています</translation>
     </message>
@@ -116,447 +85,36 @@
 <context>
     <name>QQmlCodeGenerator</name>
     <message>
-        <source>Duplicate method name</source>
-        <translation>メソッドの名前が重複しています</translation>
-    </message>
-    <message>
-        <source>Method names cannot begin with an upper case letter</source>
-        <translation>メソッドの名前を大文字から始めることはできません</translation>
-    </message>
-    <message>
-        <source>Illegal method name</source>
-        <translation>メソッドの名前が無効です</translation>
-    </message>
-    <message>
-        <source>Duplicate signal name</source>
-        <translation>シグナルの名前が重複しています</translation>
-    </message>
-    <message>
-        <source>Signal names cannot begin with an upper case letter</source>
-        <translation>シグナルの名前を大文字から始めることはできません</translation>
-    </message>
-    <message>
-        <source>Illegal signal name</source>
-        <translation>シグナルの名前が無効です</translation>
-    </message>
-    <message>
-        <source>No property alias location</source>
-        <translation>プロパティのエイリアスへのパスがありません</translation>
-    </message>
-    <message>
-        <source>Invalid alias reference. An alias reference must be specified as &lt;id&gt;, &lt;id&gt;.&lt;property&gt; or &lt;id&gt;.&lt;value property&gt;.&lt;property&gt;</source>
-        <translation>無効なエイリアスの参照です。エイリアスの参照先は &lt;id&gt;, &lt;id&gt;.&lt;プロパティ&gt; もしくは &lt;id&gt;.&lt;値プロパティ&gt;.&lt;プロパティ&gt; のいずれかでなくてはいけません</translation>
-    </message>
-    <message>
-        <source>Invalid alias location</source>
-        <translation>無効なエイリアスのパス</translation>
-    </message>
-    <message>
-        <source>Invalid component id specification</source>
-        <translation>無効なコンポーネント id が指定されています</translation>
-    </message>
-    <message>
-        <source>Invalid empty ID</source>
-        <translation>空の id は無効です</translation>
-    </message>
-    <message>
-        <source>IDs cannot start with an uppercase letter</source>
-        <translation>id を大文字から始めることはできません</translation>
-    </message>
-    <message>
-        <source>IDs must start with a letter or underscore</source>
-        <translation>id は英字もしくはアンダースコアで始まらなくてはいけません</translation>
-    </message>
-    <message>
-        <source>IDs must contain only letters, numbers, and underscores</source>
-        <translation>id には英数字およびアンダースコアのみ使用できます</translation>
-    </message>
-    <message>
-        <source>ID illegally masks global JavaScript property</source>
-        <translation>id はグローバルな JavaScript のプロパティを不正に隠しています</translation>
-    </message>
-    <message>
-        <source>Invalid use of id property</source>
-        <translation>無効な id プロパティの使用法です</translation>
-    </message>
-    <message>
-        <source>Duplicate property name</source>
-        <translation>プロパティの名前が重複しています</translation>
-    </message>
-    <message>
-        <source>Property names cannot begin with an upper case letter</source>
-        <translation>プロパティの名前を大文字から始めることはできません</translation>
-    </message>
-    <message>
-        <source>Illegal property name</source>
-        <translation>プロパティの名前が無効です</translation>
-    </message>
-    <message>
-        <source>Non-existent attached object</source>
-        <translation>アタッチされたオブジェクトが存在しません</translation>
-    </message>
-    <message>
-        <source>Incorrectly specified signal assignment</source>
-        <translation>仕様の異なるシグナルが割り当てられています</translation>
-    </message>
-    <message>
-        <source>&quot;%1.%2&quot; is not available in %3 %4.%5.</source>
-        <translation>%3 %4.%5 で &quot;%1.%2&quot; は利用できません。</translation>
-    </message>
-    <message>
-        <source>&quot;%1.%2&quot; is not available due to component versioning.</source>
-        <translation>コンポーネントのバージョンの問題により &quot;%1.%2&quot; は利用できません。</translation>
-    </message>
-</context>
-<context>
-    <name>QQmlCompiler</name>
-    <message>
-        <source>Invalid property assignment: &quot;%1&quot; is a read-only property</source>
-        <translation>無効なプロパティの値: &quot;%1&quot; は読込専用のプロパティです</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: unknown enumeration</source>
-        <translation>無効なプロパティの値: 未知の列挙型(enum)です</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: string expected</source>
-        <translation>無効なプロパティの値: 文字列(string)を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: string or string list expected</source>
-        <translation>無効なプロパティの値: 文字列(string)あるいは文字列の配列を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: byte array expected</source>
-        <translation>無効なプロパティの値: バイトアレイを指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: url expected</source>
-        <translation>無効なプロパティの値: URL を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: regular expression expected; use /pattern/ syntax</source>
-        <translation>無効なプロパティの値: /パターン/ 形式で正規表現を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: unsigned int expected</source>
-        <translation>無効なプロパティの値: 符号なしの整数(unsigned int)を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: int expected</source>
-        <translation>無効なプロパティの値: 整数(int)を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: number expected</source>
-        <translation>無効なプロパティの値: 数値(real)を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: color expected</source>
-        <translation>無効なプロパティの値: 色(color)を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: date expected</source>
-        <translation>無効なプロパティの値: 日付(date)を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: time expected</source>
-        <translation>無効なプロパティの値: 時間(time)を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: datetime expected</source>
-        <translation>無効なプロパティの値: 日付と時間(datetime)を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: point expected</source>
-        <translation>無効なプロパティの値: 位置(point)を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: size expected</source>
-        <translation>無効なプロパティの値: サイズ(size)を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: rect expected</source>
-        <translation>無効なプロパティの値: 矩形(rect)を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: boolean expected</source>
-        <translation>無効なプロパティの値: 真偽値(bool)を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: 3D vector expected</source>
-        <translation>無効なプロパティの値: 3D ベクターを指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: 4D vector expected</source>
-        <translation>無効なプロパティの値: 4D ベクターを指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: real or array of reals expected</source>
-        <translation>無効なプロパティの値: 実数(real)あるいはその配列を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: int or array of ints expected</source>
-        <translation>無効なプロパティの値: 整数(int)あるいはその配列を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: bool or array of bools expected</source>
-        <translation>無効なプロパティの値: 真偽値(bool)あるいはその配列を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: string or array of strings expected</source>
-        <translation>無効なプロパティの値: 文字列(string)あるいはその配列を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: url or array of urls expected</source>
-        <translation>無効なプロパティの値: URL あるいはその配列を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: unsupported type &quot;%1&quot;</source>
-        <translation>無効なプロパティの値: 未知の型 &quot;%1&quot; です</translation>
-    </message>
-    <message>
-        <source>Composite Singleton Type %1 is not creatable.</source>
-        <translation>Composite Singleton な型 %1 が作成できません。</translation>
-    </message>
-    <message>
-        <source>Element is not creatable.</source>
-        <translation>作成可能な要素ではありません。</translation>
-    </message>
-    <message>
-        <source>Component elements may not contain properties other than id</source>
-        <translation>Component 要素に id 以外のプロパティが含まれていません</translation>
-    </message>
-    <message>
-        <source>Invalid component id specification</source>
-        <translation>無効なコンポーネント id が指定されています</translation>
-    </message>
-    <message>
-        <source>id is not unique</source>
-        <translation>id が重複しています</translation>
-    </message>
-    <message>
-        <source>Invalid component body specification</source>
-        <translation>無効なコンポーネントボディが指定されています</translation>
-    </message>
-    <message>
-        <source>Component objects cannot declare new properties.</source>
-        <translation>Component オブジェクトには新しいプロパティを宣言できません。</translation>
-    </message>
-    <message>
-        <source>Component objects cannot declare new signals.</source>
-        <translation>Component オブジェクトには新しいシグナルを宣言できません。</translation>
-    </message>
-    <message>
-        <source>Component objects cannot declare new functions.</source>
-        <translation>Component オブジェクトには新しい関数を宣言できません。</translation>
-    </message>
-    <message>
-        <source>Cannot create empty component specification</source>
-        <translation>空のコンポーネントは作成できません</translation>
-    </message>
-    <message>
-        <source>&quot;%1.%2&quot; is not available in %3 %4.%5.</source>
-        <translation>%3 %4.%5 で &quot;%1.%2&quot; は利用できません。</translation>
-    </message>
-    <message>
-        <source>&quot;%1.%2&quot; is not available due to component versioning.</source>
-        <translation>コンポーネントのバージョンの問題により &quot;%1.%2&quot; は利用できません。</translation>
-    </message>
-    <message>
-        <source>Incorrectly specified signal assignment</source>
-        <translation>仕様の異なるシグナルが割り当てられています</translation>
-    </message>
-    <message>
-        <source>Cannot assign a value to a signal (expecting a script to be run)</source>
-        <translation>値はシグナルに割り当てできません(スクリプト自体は実行されます)</translation>
-    </message>
-    <message>
-        <source>Empty signal assignment</source>
-        <translation>シグナルへの割り当てが空です</translation>
-    </message>
-    <message>
-        <source>Empty property assignment</source>
-        <translation>プロパティの値が空です</translation>
-    </message>
-    <message>
-        <source>Attached properties cannot be used here</source>
-        <translation>アタッチされたプロパティはここでは利用できません</translation>
-    </message>
-    <message>
-        <source>Non-existent attached object</source>
-        <translation>アタッチされたオブジェクトが存在しません</translation>
-    </message>
-    <message>
-        <source>Invalid attached object assignment</source>
-        <translation>無効なアタッチされたオブジェクトへの割り当て</translation>
-    </message>
-    <message>
-        <source>Cannot assign to non-existent default property</source>
-        <translation>存在しないデフォルトプロパティへは割り当てできません</translation>
-    </message>
-    <message>
-        <source>Cannot assign to non-existent property &quot;%1&quot;</source>
-        <translation>存在しないプロパティ &quot;%1&quot; へは割り当てできません</translation>
-    </message>
-    <message>
-        <source>Invalid use of namespace</source>
-        <translation>無効な名前空間の使用法です</translation>
-    </message>
-    <message>
-        <source>Not an attached property name</source>
-        <translation>アタッチされたプロパティの名前ではありません</translation>
-    </message>
-    <message>
-        <source>Invalid use of id property</source>
-        <translation>無効な id プロパティの使用法です</translation>
-    </message>
-    <message>
-        <source>Property has already been assigned a value</source>
-        <translation>プロパティには既に値が割り当てられています</translation>
-    </message>
-    <message>
-        <source>Objects cannot be assigned to value types</source>
-        <translation>オブジェクトを値の型に割り当てできません</translation>
-    </message>
-    <message>
-        <source>Invalid grouped property access</source>
-        <translation>無効なグループ化されたプロパティへのアクセスです</translation>
-    </message>
-    <message>
-        <source>Cannot assign a value directly to a grouped property</source>
-        <translation>グループ化されたプロパティに直接値を割り当てできません</translation>
-    </message>
-    <message>
-        <source>Invalid property use</source>
-        <translation>無効なプロパティの使用法です</translation>
-    </message>
-    <message>
-        <source>Property assignment expected</source>
-        <translation>プロパティに値が必要です</translation>
-    </message>
-    <message>
-        <source>Single property assignment expected</source>
-        <translation>プロパティに複数の値は割り当てできません</translation>
-    </message>
-    <message>
-        <source>Unexpected object assignment</source>
-        <translation>オブジェクトを割り当てできません</translation>
-    </message>
-    <message>
-        <source>Cannot assign object to list</source>
-        <translation>オブジェクトをリストに割り当てることはできません</translation>
-    </message>
-    <message>
-        <source>Can only assign one binding to lists</source>
-        <translation>リストへは一つのバインディングのみ割り当てることができます</translation>
-    </message>
-    <message>
-        <source>Cannot assign primitives to lists</source>
-        <translation>プリミティブをリストに割り当てできません</translation>
-    </message>
-    <message>
-        <source>Cannot assign multiple values to a script property</source>
-        <translation>複数の値をスクリプトプロパティに割り当てできません</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: script expected</source>
-        <translation>無効なプロパティの値: スクリプトを指定してください</translation>
-    </message>
-    <message>
-        <source>Cannot assign multiple values to a singular property</source>
-        <translation>複数の値を単数プロパティに割り当てできません</translation>
-    </message>
-    <message>
-        <source>Cannot assign object to property</source>
-        <translation>オブジェクトをプロパティに割り当てできません</translation>
-    </message>
-    <message>
-        <source>&quot;%1&quot; cannot operate on &quot;%2&quot;</source>
-        <translation>&quot;%1&quot; は &quot;%2&quot; を操作できません</translation>
-    </message>
-    <message>
-        <source>Duplicate default property</source>
-        <translation>デフォルトプロパティが重複しています</translation>
-    </message>
-    <message>
-        <source>Duplicate property name</source>
-        <translation>プロパティの名前が重複しています</translation>
-    </message>
-    <message>
-        <source>Property names cannot begin with an upper case letter</source>
-        <translation>プロパティの名前を大文字から始めることはできません</translation>
-    </message>
-    <message>
-        <source>Illegal property name</source>
-        <translation>プロパティの名前が無効です</translation>
-    </message>
-    <message>
-        <source>Duplicate signal name</source>
-        <translation>シグナルの名前が重複しています</translation>
-    </message>
-    <message>
-        <source>Signal names cannot begin with an upper case letter</source>
-        <translation>シグナルの名前を大文字から始めることはできません</translation>
-    </message>
-    <message>
-        <source>Illegal signal name</source>
-        <translation>シグナルの名前が無効です</translation>
-    </message>
-    <message>
-        <source>Duplicate method name</source>
-        <translation>メソッドの名前が重複しています</translation>
-    </message>
-    <message>
-        <source>Method names cannot begin with an upper case letter</source>
-        <translation>メソッドの名前を大文字から始めることはできません</translation>
-    </message>
-    <message>
-        <source>Illegal method name</source>
-        <translation>メソッドの名前が無効です</translation>
-    </message>
-    <message>
         <source>Property value set multiple times</source>
         <translation>複数回プロパティに値を割り当てています</translation>
     </message>
     <message>
-        <source>Invalid property nesting</source>
-        <translation>無効なプロパティのネストです</translation>
+        <source>Expected type name</source>
+        <translation>予期する型の名前</translation>
     </message>
     <message>
-        <source>Cannot override FINAL property</source>
-        <translation>FINAL プロパティは上書きできません</translation>
+        <source>Signal names cannot begin with an upper case letter</source>
+        <translation>シグナルの名前を大文字から始めることはできません</translation>
     </message>
     <message>
-        <source>Invalid signal parameter type: %1</source>
-        <translation>無効な型のシグナルの引数: %1</translation>
-    </message>
-    <message>
-        <source>Duplicate signal name: invalid override of property change signal or superclass signal</source>
-        <translation>シグナル名が重複しています: プロパティの変更通知シグナルや基底クラスのシグナルのオーバーライドは無効です</translation>
-    </message>
-    <message>
-        <source>Duplicate method name: invalid override of property change signal or superclass signal</source>
-        <translation>メソッド名が重複しています: プロパティの変更通知シグナルや基底クラスのシグナルのオーバーライドは無効です</translation>
-    </message>
-    <message>
-        <source>Invalid property type</source>
-        <translation>無効なプロパティの型です</translation>
+        <source>Illegal signal name</source>
+        <translation>シグナルの名前が無効です</translation>
     </message>
     <message>
         <source>No property alias location</source>
         <translation>プロパティのエイリアスへのパスがありません</translation>
     </message>
     <message>
-        <source>Invalid alias location</source>
-        <translation>無効なエイリアスのパス</translation>
-    </message>
-    <message>
         <source>Invalid alias reference. An alias reference must be specified as &lt;id&gt;, &lt;id&gt;.&lt;property&gt; or &lt;id&gt;.&lt;value property&gt;.&lt;property&gt;</source>
         <translation>無効なエイリアスの参照です。エイリアスの参照先は &lt;id&gt;, &lt;id&gt;.&lt;プロパティ&gt; もしくは &lt;id&gt;.&lt;値プロパティ&gt;.&lt;プロパティ&gt; のいずれかでなくてはいけません</translation>
     </message>
     <message>
-        <source>Invalid alias reference. Unable to find id &quot;%1&quot;</source>
-        <translation>無効なエイリアスの参照です。id &quot;%1&quot; が見つかりません</translation>
+        <source>Invalid alias location</source>
+        <translation>無効なエイリアスのパス</translation>
+    </message>
+    <message>
+        <source>Invalid component id specification</source>
+        <translation>無効なコンポーネント id が指定されています</translation>
     </message>
     <message>
         <source>Invalid empty ID</source>
@@ -577,6 +135,14 @@
     <message>
         <source>ID illegally masks global JavaScript property</source>
         <translation>id はグローバルな JavaScript のプロパティを不正に隠しています</translation>
+    </message>
+    <message>
+        <source>Invalid use of id property</source>
+        <translation>無効な id プロパティの使用法です</translation>
+    </message>
+    <message>
+        <source>Illegal property name</source>
+        <translation>プロパティの名前が無効です</translation>
     </message>
 </context>
 <context>
@@ -767,6 +333,13 @@
     </message>
 </context>
 <context>
+    <name>QQmlEnumTypeResolver</name>
+    <message>
+        <source>Invalid property assignment: &quot;%1&quot; is a read-only property</source>
+        <translation>無効なプロパティの値: &quot;%1&quot; は読込専用のプロパティです</translation>
+    </message>
+</context>
+<context>
     <name>QQmlImportDatabase</name>
     <message>
         <source>&quot;%1&quot; is ambiguous. Found in %2 and in %3</source>
@@ -916,20 +489,55 @@
         <translation>ListElement: 予約語 &quot;id&quot; をプロパティに使用できません</translation>
     </message>
     <message>
-        <source>ListElement: improperly specified %1</source>
-        <translation>ListElement: %1 の使用法が不適切です</translation>
-    </message>
-    <message>
-        <source>ListElement: improperly specified QT_TRANSLATE_NOOP</source>
-        <translation>ListElement: QT_TRANSLATE_NOOP の使用法が不適切です</translation>
-    </message>
-    <message>
         <source>ListElement: cannot use script for property value</source>
         <translation>ListElement: スクリプトをプロパティの値には使用できません</translation>
     </message>
     <message>
         <source>ListModel: undefined property &apos;%1&apos;</source>
         <translation>ListModel: &apos;%1&apos; は未定義のプロパティです</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlObjectCreator</name>
+    <message>
+        <source>Cannot assign value %1 to property %2</source>
+        <translation>プロパティ %2 へ値 %1 を割り当てできません</translation>
+    </message>
+    <message>
+        <source>Cannot set properties on %1 as it is null</source>
+        <translation>%1 のプロパティが空のため値を代入できません</translation>
+    </message>
+    <message>
+        <source>Cannot assign an object to signal property %1</source>
+        <translation>オブジェクトをシグナルプロパティ %1 に割り当てることはできません</translation>
+    </message>
+    <message>
+        <source>Cannot assign object type %1 with no default method</source>
+        <translation>デフォルトメソッドの無い型 %1 のオブジェクトは割り当てできません</translation>
+    </message>
+    <message>
+        <source>Cannot connect mismatched signal/slot %1 %vs. %2</source>
+        <translation>型の合わないシグナルとスロット(%1 %vs %2)を接続することはできません</translation>
+    </message>
+    <message>
+        <source>Cannot assign object to interface property</source>
+        <translation>オブジェクトをインターフェースプロパティに割り当てることはできません</translation>
+    </message>
+    <message>
+        <source>Cannot assign object to read only list</source>
+        <translation>オブジェクトを読込専用リストに割り当てることはできません</translation>
+    </message>
+    <message>
+        <source>Cannot assign primitives to lists</source>
+        <translation>プリミティブをリストに割り当てできません</translation>
+    </message>
+    <message>
+        <source>Unable to create object of type %1</source>
+        <translation>%1 型のオブジェクトは作成できません</translation>
+    </message>
+    <message>
+        <source>Composite Singleton Type %1 is not creatable</source>
+        <translation>Composite Singleton な型 %1 が作成できません</translation>
     </message>
 </context>
 <context>
@@ -981,10 +589,6 @@
     <message>
         <source>Expected property type</source>
         <translation>予期するプロパティの型</translation>
-    </message>
-    <message>
-        <source>Duplicate default property</source>
-        <translation>デフォルトプロパティが重複しています</translation>
     </message>
     <message>
         <source>JavaScript declaration outside Script element</source>
@@ -1051,14 +655,6 @@
         <translation>トークン &apos;%1&apos; を予期してます</translation>
     </message>
     <message>
-        <source>Property value set multiple times</source>
-        <translation>複数回プロパティに値を割り当てています</translation>
-    </message>
-    <message>
-        <source>Expected type name</source>
-        <translation>予期する型の名前</translation>
-    </message>
-    <message>
         <source>Imported file must be a script</source>
         <translation>インポートしたファイルがスクリプトではありません</translation>
     </message>
@@ -1097,6 +693,22 @@
 <context>
     <name>QQmlPropertyCacheCreator</name>
     <message>
+        <source>Fully dynamic types cannot declare new properties.</source>
+        <translation>完全に動的な型に新たなプロパティを宣言することはできません。</translation>
+    </message>
+    <message>
+        <source>Fully dynamic types cannot declare new signals.</source>
+        <translation>完全に動的な型に新たなシグナルを宣言することはできません。</translation>
+    </message>
+    <message>
+        <source>Fully Dynamic types cannot declare new functions.</source>
+        <translation>完全に動的な型に新たな関数を宣言することはできません。</translation>
+    </message>
+    <message>
+        <source>Non-existent attached object</source>
+        <translation>アタッチされたオブジェクトが存在しません</translation>
+    </message>
+    <message>
         <source>Cannot override FINAL property</source>
         <translation>FINAL プロパティは上書きできません</translation>
     </message>
@@ -1120,6 +732,18 @@
 <context>
     <name>QQmlPropertyValidator</name>
     <message>
+        <source>Property assignment expected</source>
+        <translation>プロパティに値が必要です</translation>
+    </message>
+    <message>
+        <source>Invalid use of namespace</source>
+        <translation>無効な名前空間の使用法です</translation>
+    </message>
+    <message>
+        <source>Invalid attached object assignment</source>
+        <translation>無効なアタッチされたオブジェクトへの割り当て</translation>
+    </message>
+    <message>
         <source>&quot;%1.%2&quot; is not available in %3 %4.%5.</source>
         <translation>%3 %4.%5 で &quot;%1.%2&quot; は利用できません。</translation>
     </message>
@@ -1128,12 +752,164 @@
         <translation>コンポーネントのバージョンの問題により &quot;%1.%2&quot; は利用できません。</translation>
     </message>
     <message>
+        <source>Cannot assign a value directly to a grouped property</source>
+        <translation>グループ化されたプロパティに直接値を割り当てできません</translation>
+    </message>
+    <message>
+        <source>Attached properties cannot be used here</source>
+        <translation>アタッチされたプロパティはここでは利用できません</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: &quot;%1&quot; is a read-only property</source>
+        <translation>無効なプロパティの値: &quot;%1&quot; は読込専用のプロパティです</translation>
+    </message>
+    <message>
+        <source>Cannot assign multiple values to a script property</source>
+        <translation>複数の値をスクリプトプロパティに割り当てできません</translation>
+    </message>
+    <message>
+        <source>Cannot assign multiple values to a singular property</source>
+        <translation>複数の値を単数プロパティに割り当てできません</translation>
+    </message>
+    <message>
+        <source>Property has already been assigned a value</source>
+        <translation>プロパティには既に値が割り当てられています</translation>
+    </message>
+    <message>
+        <source>Invalid grouped property access</source>
+        <translation>無効なグループ化されたプロパティへのアクセスです</translation>
+    </message>
+    <message>
         <source>Cannot assign to non-existent default property</source>
         <translation>存在しないデフォルトプロパティへは割り当てできません</translation>
     </message>
     <message>
         <source>Cannot assign to non-existent property &quot;%1&quot;</source>
         <translation>存在しないプロパティ &quot;%1&quot; へは割り当てできません</translation>
+    </message>
+    <message>
+        <source>Cannot assign primitives to lists</source>
+        <translation>プリミティブをリストに割り当てできません</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: unknown enumeration</source>
+        <translation>無効なプロパティの値: 未知の列挙型(enum)です</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: string expected</source>
+        <translation>無効なプロパティの値: 文字列(string)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: string or string list expected</source>
+        <translation>無効なプロパティの値: 文字列(string)あるいは文字列の配列を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: byte array expected</source>
+        <translation>無効なプロパティの値: バイトアレイを指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: url expected</source>
+        <translation>無効なプロパティの値: URL を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: unsigned int expected</source>
+        <translation>無効なプロパティの値: 符号なしの整数(unsigned int)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: int expected</source>
+        <translation>無効なプロパティの値: 整数(int)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: number expected</source>
+        <translation>無効なプロパティの値: 数値(real)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: color expected</source>
+        <translation>無効なプロパティの値: 色(color)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: date expected</source>
+        <translation>無効なプロパティの値: 日付(date)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: time expected</source>
+        <translation>無効なプロパティの値: 時間(time)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: datetime expected</source>
+        <translation>無効なプロパティの値: 日付と時間(datetime)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: point expected</source>
+        <translation>無効なプロパティの値: 位置(point)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: size expected</source>
+        <translation>無効なプロパティの値: サイズ(size)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: rect expected</source>
+        <translation>無効なプロパティの値: 矩形(rect)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: boolean expected</source>
+        <translation>無効なプロパティの値: 真偽値(bool)を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: 3D vector expected</source>
+        <translation>無効なプロパティの値: 3D ベクターを指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: 4D vector expected</source>
+        <translation>無効なプロパティの値: 4D ベクターを指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: regular expression expected; use /pattern/ syntax</source>
+        <translation>無効なプロパティの値: /パターン/ 形式で正規表現を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: real or array of reals expected</source>
+        <translation>無効なプロパティの値: 実数(real)あるいはその配列を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: int or array of ints expected</source>
+        <translation>無効なプロパティの値: 整数(int)あるいはその配列を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: bool or array of bools expected</source>
+        <translation>無効なプロパティの値: 真偽値(bool)あるいはその配列を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: url or array of urls expected</source>
+        <translation>無効なプロパティの値: URL あるいはその配列を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: string or array of strings expected</source>
+        <translation>無効なプロパティの値: 文字列(string)あるいはその配列を指定してください</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: unsupported type &quot;%1&quot;</source>
+        <translation>無効なプロパティの値: 未知の型 &quot;%1&quot; です</translation>
+    </message>
+    <message>
+        <source>&quot;%1&quot; cannot operate on &quot;%2&quot;</source>
+        <translation>&quot;%1&quot; は &quot;%2&quot; を操作できません</translation>
+    </message>
+    <message>
+        <source>Cannot assign object to list</source>
+        <translation>オブジェクトをリストに割り当てることはできません</translation>
+    </message>
+    <message>
+        <source>Unexpected object assignment</source>
+        <translation>オブジェクトを割り当てできません</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: script expected</source>
+        <translation>無効なプロパティの値: スクリプトを指定してください</translation>
+    </message>
+    <message>
+        <source>Cannot assign object to property</source>
+        <translation>オブジェクトをプロパティに割り当てできません</translation>
     </message>
 </context>
 <context>
@@ -1145,6 +921,17 @@
     <message>
         <source>Signal parameter &quot;%1&quot; hides global variable.</source>
         <translation>シグナルの引数 &quot;%1&quot; がグローバル変数を隠しています。</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlTypeCompiler</name>
+    <message>
+        <source>Composite Singleton Type %1 is not creatable.</source>
+        <translation>Composite Singleton な型 %1 が作成できません。</translation>
+    </message>
+    <message>
+        <source>Element is not creatable.</source>
+        <translation>作成可能な要素ではありません。</translation>
     </message>
 </context>
 <context>
@@ -1188,49 +975,6 @@
     <message>
         <source>%1 %2</source>
         <translation>%1 %2</translation>
-    </message>
-</context>
-<context>
-    <name>QQmlVME</name>
-    <message>
-        <source>Unable to create object of type %1</source>
-        <translation>%1 型のオブジェクトは作成できません</translation>
-    </message>
-    <message>
-        <source>Cannot assign value %1 to property %2</source>
-        <translation>プロパティ %2 へ値 %1 を割り当てできません</translation>
-    </message>
-    <message>
-        <source>Cannot assign object type %1 with no default method</source>
-        <translation>デフォルトメソッドの無い型 %1 のオブジェクトは割り当てできません</translation>
-    </message>
-    <message>
-        <source>Cannot connect mismatched signal/slot %1 %vs. %2</source>
-        <translation>型の合わないシグナルとスロット(%1 %vs %2)を接続することはできません</translation>
-    </message>
-    <message>
-        <source>Cannot assign an object to signal property %1</source>
-        <translation>オブジェクトをシグナルプロパティ %1 に割り当てることはできません</translation>
-    </message>
-    <message>
-        <source>Cannot assign object to read only list</source>
-        <translation>オブジェクトを読込専用リストに割り当てることはできません</translation>
-    </message>
-    <message>
-        <source>Cannot assign object to list</source>
-        <translation>オブジェクトをリストに割り当てることはできません</translation>
-    </message>
-    <message>
-        <source>Cannot assign object to interface property</source>
-        <translation>オブジェクトをインターフェースプロパティに割り当てることはできません</translation>
-    </message>
-    <message>
-        <source>Unable to create attached object</source>
-        <translation>アタッチされたオブジェクトを作成できません</translation>
-    </message>
-    <message>
-        <source>Cannot set properties on %1 as it is null</source>
-        <translation>%1 のプロパティが空のため値を代入できません</translation>
     </message>
 </context>
 <context>
@@ -1517,7 +1261,7 @@
     <name>QQuickShaderEffectMesh</name>
     <message>
         <source>Cannot create instance of abstract class ShaderEffectMesh.</source>
-        <translation>抽象クラス ShaderEffectMesh のインスタンスは作成できません</translation>
+        <translation>抽象クラス ShaderEffectMesh のインスタンスは作成できません。</translation>
     </message>
 </context>
 <context>
@@ -1536,6 +1280,36 @@
     <message>
         <source>ViewTransition is only available via attached properties</source>
         <translation>ViewTransition はアタッチされたプロパティ(Attached Property: 型名.プロパティ名)の形式でのみ利用できます</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickWindow</name>
+    <message>
+        <source>Failed to create %1 context for format %2.
+This is most likely caused by not having the necessary graphics drivers installed.
+
+Install a driver providing OpenGL 2.0 or higher, or, if this is not possible, make sure the ANGLE Open GL ES 2.0 emulation libraries (%3, %4 and d3dcompiler_*.dll) are available in the application executable&apos;s directory or in a location listed in PATH.</source>
+        <extracomment>%1 Context type (Open GL, EGL), %2 format, ANGLE %3, %4 library names</extracomment>
+        <translation>フォーマット %2 用の %1 コンテキストの作成に失敗しました。
+多くの場合、このエラーは適切なグラフィックドライバーがインストールされていないために発生します。
+
+OpenGL 2.0 以上に対応したドライバーをインストールするか、それが不可能な場合、ANGLE OpenGL ES 2.0 エミュレーションライブラリ(%3, %4 および d3dcompiler_*.dll)がアプリケーションの実行ファイルのあるディレクトリか PATH の通ったディレクトリに存在することを確認してください。</translation>
+    </message>
+    <message>
+        <source>Failed to create %1 context for format %2</source>
+        <extracomment>%1 Context type (Open GL, EGL), %2 format specification</extracomment>
+        <translation>フォーマット %2 用の %1 コンテキストの作成に失敗しました</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickWindowQmlImpl</name>
+    <message>
+        <source>Conflicting properties &apos;visible&apos; and &apos;visibility&apos; for Window &apos;%1&apos;</source>
+        <translation>ウィンドウ &apos;%1&apos; で &apos;visible&apos; と &apos;visibility&apos; プロパティが衝突しています</translation>
+    </message>
+    <message>
+        <source>Conflicting properties &apos;visible&apos; and &apos;visibility&apos;</source>
+        <translation>&apos;visible&apos; と &apos;visibility&apos; プロパティが衝突しています</translation>
     </message>
 </context>
 <context>
@@ -1564,130 +1338,34 @@
     </message>
 </context>
 <context>
-    <name>QmlObjectCreator</name>
+    <name>SignalHandlerConverter</name>
     <message>
-        <source>Invalid property assignment: string expected</source>
-        <translation>無効なプロパティの値: 文字列(string)を指定してください</translation>
+        <source>Non-existent attached object</source>
+        <translation>アタッチされたオブジェクトが存在しません</translation>
     </message>
     <message>
-        <source>Invalid property assignment: string or string list expected</source>
-        <translation>無効なプロパティの値: 文字列(string)あるいは文字列の配列を指定してください</translation>
+        <source>Signal uses unnamed parameter followed by named parameter.</source>
+        <translation>シグナルは名前付きの引数の後に無名の引数を使用しています。</translation>
     </message>
     <message>
-        <source>Invalid property assignment: byte array expected</source>
-        <translation>無効なプロパティの値: バイトアレイを指定してください</translation>
+        <source>Signal parameter &quot;%1&quot; hides global variable.</source>
+        <translation>シグナルの引数 &quot;%1&quot; がグローバル変数を隠しています。</translation>
     </message>
     <message>
-        <source>Invalid property assignment: url expected</source>
-        <translation>無効なプロパティの値: URL を指定してください</translation>
+        <source>&quot;%1.%2&quot; is not available in %3 %4.%5.</source>
+        <translation>%3 %4.%5 で &quot;%1.%2&quot; は利用できません。</translation>
     </message>
     <message>
-        <source>Invalid property assignment: unsigned int expected</source>
-        <translation>無効なプロパティの値: 符号なしの整数(unsigned int)を指定してください</translation>
+        <source>&quot;%1.%2&quot; is not available due to component versioning.</source>
+        <translation>コンポーネントのバージョンの問題により &quot;%1.%2&quot; は利用できません。</translation>
     </message>
     <message>
-        <source>Invalid property assignment: int expected</source>
-        <translation>無効なプロパティの値: 整数(int)を指定してください</translation>
+        <source>Cannot assign a value to a signal (expecting a script to be run)</source>
+        <translation>値はシグナルに割り当てできません(スクリプト自体は実行されます)</translation>
     </message>
     <message>
-        <source>Invalid property assignment: number expected</source>
-        <translation>無効なプロパティの値: 数値(real)を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: color expected</source>
-        <translation>無効なプロパティの値: 色(color)を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: date expected</source>
-        <translation>無効なプロパティの値: 日付(date)を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: time expected</source>
-        <translation>無効なプロパティの値: 時間(time)を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: datetime expected</source>
-        <translation>無効なプロパティの値: 日付と時間(datetime)を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: point expected</source>
-        <translation>無効なプロパティの値: 位置(point)を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: size expected</source>
-        <translation>無効なプロパティの値: サイズ(size)を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: boolean expected</source>
-        <translation>無効なプロパティの値: 真偽値(bool)を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: 3D vector expected</source>
-        <translation>無効なプロパティの値: 3D ベクターを指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: 4D vector expected</source>
-        <translation>無効なプロパティの値: 4D ベクターを指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: regular expression expected; use /pattern/ syntax</source>
-        <translation>無効なプロパティの値: /パターン/ 形式で正規表現を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: real or array of reals expected</source>
-        <translation>無効なプロパティの値: 実数(real)あるいはその配列を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: int or array of ints expected</source>
-        <translation>無効なプロパティの値: 整数(int)あるいはその配列を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: bool or array of bools expected</source>
-        <translation>無効なプロパティの値: 真偽値(bool)あるいはその配列を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: url or array of urls expected</source>
-        <translation>無効なプロパティの値: URL あるいはその配列を指定してください</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: string or array of strings expected</source>
-        <translation>無効なプロパティの値: 文字列(string)あるいはその配列を指定してください</translation>
-    </message>
-    <message>
-        <source>Cannot assign value %1 to property %2</source>
-        <translation>プロパティ %2 へ値 %1 を割り当てできません</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: unsupported type &quot;%1&quot;</source>
-        <translation>無効なプロパティの値: 未知の型 &quot;%1&quot; です</translation>
-    </message>
-    <message>
-        <source>Cannot set properties on %1 as it is null</source>
-        <translation>%1 のプロパティが空のため値を代入できません</translation>
-    </message>
-    <message>
-        <source>Invalid grouped property access</source>
-        <translation>無効なグループ化されたプロパティへのアクセスです</translation>
-    </message>
-    <message>
-        <source>Cannot assign object to interface property</source>
-        <translation>オブジェクトをインターフェースプロパティに割り当てることはできません</translation>
-    </message>
-    <message>
-        <source>Cannot assign object to property</source>
-        <translation>オブジェクトをプロパティに割り当てできません</translation>
-    </message>
-    <message>
-        <source>Cannot assign primitives to lists</source>
-        <translation>プリミティブをリストに割り当てできません</translation>
-    </message>
-    <message>
-        <source>Unable to create object of type %1</source>
-        <translation>%1 型のオブジェクトは作成できません</translation>
-    </message>
-    <message>
-        <source>Composite Singleton Type %1 is not creatable</source>
-        <translation>Composite Singleton な型 %1 が作成できません</translation>
+        <source>Incorrectly specified signal assignment</source>
+        <translation>仕様の異なるシグナルが割り当てられています</translation>
     </message>
 </context>
 <context>

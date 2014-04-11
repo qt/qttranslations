@@ -1240,14 +1240,6 @@ UI ファイルの記述が矛盾しています。</translation>
         <source>%1 - warning</source>
         <translation>%1 - 警告</translation>
     </message>
-    <message>
-        <source>Qt Designer</source>
-        <translation>Qt Designer</translation>
-    </message>
-    <message>
-        <source>This application cannot be used for the Console edition of Qt</source>
-        <translation>このアプリケーションは、Qt コンソール版では使えません</translation>
-    </message>
 </context>
 <context>
     <name>QDesignerActions</name>
@@ -2450,13 +2442,6 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
 </context>
 <context>
-    <name>QtKeySequenceEdit</name>
-    <message>
-        <source>Clear Shortcut</source>
-        <translation>ショートカットをクリア</translation>
-    </message>
-</context>
-<context>
     <name>QtLocalePropertyManager</name>
     <message>
         <source>&lt;Invalid&gt;</source>
@@ -3165,6 +3150,13 @@ Do you want overwrite the template?</source>
     <message>
         <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
         <translation>ファイルに含まれるカスタムウィジェット &apos;%1&apos; の基底クラス(%2)が現在のウィジェットデータベースの基底クラス(%3)と異なります。ウィジェットデータベースは変更していません。</translation>
+    </message>
+</context>
+<context>
+    <name>qdesigner_internal</name>
+    <message>
+        <source>%1 Widget</source>
+        <translation>%1 ウィジェット</translation>
     </message>
 </context>
 <context>
@@ -5683,10 +5675,6 @@ Class: %2</source>
     <message>
         <source>A class name mismatch occurred when creating a widget using the custom widget factory registered for widgets of class %1. It returned a widget of class %2.</source>
         <translation>クラス %1 のウィジェット用に登録されたカスタムウィジェットファクトリーを用いてウィジェットを作成中に、クラス名のミスマッチが発生しました。%2 というクラスのウィジェットを返しました。</translation>
-    </message>
-    <message>
-        <source>%1 Widget</source>
-        <translation>%1 ウィジェット</translation>
     </message>
     <message>
         <source>The current page of the container &apos;%1&apos; (%2) could not be determined while creating a layout.This indicates an inconsistency in the ui-file, probably a layout being constructed on a container widget.</source>
