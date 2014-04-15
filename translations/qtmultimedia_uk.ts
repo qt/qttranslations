@@ -174,6 +174,10 @@
         <source>Service has not been started</source>
         <translation>Сервіс не було запущено</translation>
     </message>
+    <message>
+        <source>Recording permissions are not available</source>
+        <translation>Дозволи на запис недоступні</translation>
+    </message>
 </context>
 <context>
     <name>CameraBinSession</name>

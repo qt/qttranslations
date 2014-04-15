@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="uk_UA">
+<TS version="2.1" language="uk_UA">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -234,6 +234,14 @@ Will assume a single universal form.</source>
         <comment>Choose Edit|Find from the menu bar or press Ctrl+F to pop up the Find dialog</comment>
         <translatorcomment>Виберіть Правка|Пошук з головного меню чи натисніть Ctrl+F, щоб відкрити діалог пошуку</translatorcomment>
         <translation></translation>
+    </message>
+    <message>
+        <source>Obsoleted messages are skipped when checked.</source>
+        <translation>Якщо відмічено, то застарілі повідомлення будуть пропущені.</translation>
+    </message>
+    <message>
+        <source>Skip &amp;obsolete</source>
+        <translation>Пропускати &amp;застарілі</translation>
     </message>
 </context>
 <context>
@@ -2122,6 +2130,14 @@ All files (*)</source>
     <message>
         <source>Display information about the Qt toolkit by Digia.</source>
         <translation>Показати інформацію про інструментарій Qt від Digia.</translation>
+    </message>
+    <message>
+        <source>Visualize whitespace</source>
+        <translation>Показувати пропуски</translation>
+    </message>
+    <message>
+        <source>Toggle visualize whitespace in editors</source>
+        <translation>Перемикання відображення пропусків в редакторах</translation>
     </message>
 </context>
 <context>
