@@ -234,6 +234,14 @@ Pracuje se s jednoduchým všeobecným tvarem.</translation>
         <comment>Choose Edit|Find from the menu bar or press Ctrl+F to pop up the Find dialog</comment>
         <translation></translation>
     </message>
+    <message>
+        <source>Obsoleted messages are skipped when checked.</source>
+        <translation>Zastaralé zprávy jsou přeskočeny, když zaškrtnuto.</translation>
+    </message>
+    <message>
+        <source>Skip &amp;obsolete</source>
+        <translation>Přeskočit &amp;zastaralé</translation>
+    </message>
 </context>
 <context>
     <name>FormMultiWidget</name>
@@ -2308,6 +2316,14 @@ Všechny soubory (*)</translation>
     <message>
         <source>Display information about the Qt toolkit by Digia.</source>
         <translation>Zobrazit informace o sadě nástrojů Qt od firmy Digia.</translation>
+    </message>
+    <message>
+        <source>Visualize whitespace</source>
+        <translation>Zviditelnit bílé znaky</translation>
+    </message>
+    <message>
+        <source>Toggle visualize whitespace in editors</source>
+        <translation>Přepnout zviditelnění bílých znaků v editorech</translation>
     </message>
 </context>
 <context>

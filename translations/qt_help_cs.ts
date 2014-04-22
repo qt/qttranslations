@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="cs_CZ">
+<TS version="2.1" language="cs_CZ">
 <context>
     <name>QCLuceneResultWidget</name>
     <message>
@@ -227,12 +227,32 @@
         <translation>Neznámý symbol.</translation>
     </message>
     <message>
+        <source>Unknown token in file &quot;%1&quot;.</source>
+        <translation>Neznámý symbol v souboru &quot;%1&quot;.</translation>
+    </message>
+    <message>
         <source>Unknown token. Expected &quot;QtHelpProject&quot;!</source>
         <translation>Neznámý symbol. Byl očekáván &quot;QtHelpProject&quot;!</translation>
     </message>
     <message>
         <source>Error in line %1: %2</source>
         <translation>Chyba na řádku %1: %2</translation>
+    </message>
+    <message>
+        <source>Virtual folder has invalid syntax in file: &quot;%1&quot;</source>
+        <translation>Virtuální složka má neplatný obsah v souboru: &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source>Namespace &quot;%1&quot; has invalid syntax in file: &quot;%2&quot;</source>
+        <translation>Jmenný prostor &quot;%1&quot; má neplatný obsah v souboru: &quot;%2&quot;</translation>
+    </message>
+    <message>
+        <source>Missing namespace in QtHelpProject file: &quot;%1&quot;</source>
+        <translation>Chybějící jmenný prostor v souboru QtHelpProject: &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source>Missing virtual folder in QtHelpProject file: &quot;%1&quot;</source>
+        <translation>Chybějící virtuální složka v souboru QtHelpProject: &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Virtual folder has invalid syntax.</source>
