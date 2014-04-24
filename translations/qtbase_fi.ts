@@ -63,7 +63,7 @@
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation type="unfinished"></translation>
+        <translation>Yritettiin yhdistää, vaikka yhteys on jo käytössä</translation>
     </message>
     <message>
         <source>Socket is not connected</source>
@@ -93,62 +93,81 @@
     <name>QAccessibleActionInterface</name>
     <message>
         <source>Press</source>
-        <translation type="unfinished"></translation>
+        <translation>Paina</translation>
     </message>
     <message>
         <source>Increase</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisää</translation>
     </message>
     <message>
         <source>Decrease</source>
-        <translation type="unfinished"></translation>
+        <translation>Vähennä</translation>
     </message>
     <message>
         <source>ShowMenu</source>
-        <translation type="unfinished"></translation>
+        <translation>NäytäValikko</translation>
     </message>
     <message>
         <source>SetFocus</source>
-        <translation type="unfinished"></translation>
+        <translation>AsetaKohdistus</translation>
     </message>
     <message>
         <source>Toggle</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaihda</translation>
     </message>
     <message>
         <source>Triggers the action</source>
-        <translation type="unfinished"></translation>
+        <translation>Käynnistää toiminnon</translation>
     </message>
     <message>
         <source>Increase the value</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisää arvoa</translation>
     </message>
     <message>
         <source>Decrease the value</source>
-        <translation type="unfinished"></translation>
+        <translation>Vähentää arvoa</translation>
     </message>
     <message>
         <source>Shows the menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Näyttää valikon</translation>
     </message>
     <message>
         <source>Sets the focus</source>
-        <translation type="unfinished"></translation>
+        <translation>Asettaa kohdistuksen</translation>
     </message>
     <message>
         <source>Toggles the state</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaihtaa tilaa</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidPlatformTheme</name>
+    <message>
+        <source>Yes</source>
+        <translation>Kyllä</translation>
+    </message>
+    <message>
+        <source>Yes to All</source>
+        <translation>Kyllä kaikkiin</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Ei</translation>
+    </message>
+    <message>
+        <source>No to All</source>
+        <translation>Ei kaikkiin</translation>
     </message>
 </context>
 <context>
     <name>QApplication</name>
     <message>
         <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sovellus ”%1” vaatii Qt-version %2, mutta löytyi versio %3.</translation>
     </message>
     <message>
         <source>Incompatible Qt Library Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Virhe: yhteensopimaton Qt-kirjasto</translation>
     </message>
 </context>
 <context>
@@ -188,6 +207,29 @@
     <message>
         <source>Exit</source>
         <translation>Poistu</translation>
+    </message>
+    <message>
+        <source>Cut</source>
+        <translation>Leikkaa</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>Kopioi</translation>
+    </message>
+    <message>
+        <source>Paste</source>
+        <translation>Liitä</translation>
+    </message>
+    <message>
+        <source>Select All</source>
+        <translation>Valitse kaikki</translation>
+    </message>
+</context>
+<context>
+    <name>QCocoaTheme</name>
+    <message>
+        <source>Don&apos;t Save</source>
+        <translation>Älä tallenna</translation>
     </message>
 </context>
 <context>
@@ -263,7 +305,7 @@ Peru painamalla ESC</translation>
     </message>
     <message>
         <source>Open the combo box selection popup</source>
-        <translation type="unfinished"></translation>
+        <translation>Avaa yhdistelmäruudun vaihtoehdot</translation>
     </message>
 </context>
 <context>
@@ -286,11 +328,11 @@ Peru painamalla ESC</translation>
     </message>
     <message>
         <source>Missing value after &apos;%1&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitsin ”%1” vaatii arvon.</translation>
     </message>
     <message>
         <source>Unexpected value after &apos;%1&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Odottamaton arvo valitsimen ”%1” jälkeen.</translation>
     </message>
     <message>
         <source>[options]</source>
@@ -514,98 +556,6 @@ Peru painamalla ESC</translation>
         <source>OK</source>
         <translation>OK</translation>
     </message>
-    <message>
-        <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
-    </message>
-    <message>
-        <source>&amp;Save</source>
-        <translation>&amp;Tallenna</translation>
-    </message>
-    <message>
-        <source>Save</source>
-        <translation>Tallenna</translation>
-    </message>
-    <message>
-        <source>Open</source>
-        <translation>Avaa</translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation>&amp;Peru</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Peru</translation>
-    </message>
-    <message>
-        <source>&amp;Close</source>
-        <translation>&amp;Sulje</translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation>Sulje</translation>
-    </message>
-    <message>
-        <source>Apply</source>
-        <translation>Käytä</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>Nollaa</translation>
-    </message>
-    <message>
-        <source>Help</source>
-        <translation>Ohje</translation>
-    </message>
-    <message>
-        <source>Don&apos;t Save</source>
-        <translation>Älä tallenna</translation>
-    </message>
-    <message>
-        <source>Close without Saving</source>
-        <translation>Sulje tallentamatta</translation>
-    </message>
-    <message>
-        <source>Discard</source>
-        <translation>Hylkää</translation>
-    </message>
-    <message>
-        <source>&amp;Yes</source>
-        <translation>&amp;Kyllä</translation>
-    </message>
-    <message>
-        <source>Yes to &amp;All</source>
-        <translation>Kyllä k&amp;aikkiin</translation>
-    </message>
-    <message>
-        <source>&amp;No</source>
-        <translation>&amp;Ei</translation>
-    </message>
-    <message>
-        <source>N&amp;o to All</source>
-        <translation>E&amp;i kaikkiin</translation>
-    </message>
-    <message>
-        <source>Save All</source>
-        <translation>Tallenna kaikki</translation>
-    </message>
-    <message>
-        <source>Abort</source>
-        <translation>Keskeytä</translation>
-    </message>
-    <message>
-        <source>Retry</source>
-        <translation>Yritä uudelleen</translation>
-    </message>
-    <message>
-        <source>Ignore</source>
-        <translation>Ohita</translation>
-    </message>
-    <message>
-        <source>Restore Defaults</source>
-        <translation>Palauta oletukset</translation>
-    </message>
 </context>
 <context>
     <name>QDirModel</name>
@@ -636,124 +586,138 @@ Peru painamalla ESC</translation>
     <name>QDnsLookup</name>
     <message>
         <source>Operation cancelled</source>
-        <translation type="unfinished"></translation>
+        <translation>Toiminto keskeytettiin</translation>
     </message>
 </context>
 <context>
     <name>QDnsLookupRunnable</name>
     <message>
         <source>Invalid domain name</source>
-        <translation type="unfinished"></translation>
+        <translation>Virheellinen verkkotunnus</translation>
     </message>
     <message>
         <source>Not yet supported on Android</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei tuettu Androidissa</translation>
     </message>
     <message>
         <source>Resolver functions not found</source>
-        <translation type="unfinished"></translation>
+        <translation>Selvitysfunktioita ei löytynyt</translation>
     </message>
     <message>
         <source>Resolver initialization failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Alustus epäonnistui</translation>
+    </message>
+    <message>
+        <source>IPv6 addresses for nameservers is currently not supported</source>
+        <translation>Nimipalvelimien IPv6-osoitteita ei tällä hetkellä tueta</translation>
     </message>
     <message>
         <source>Server could not process query</source>
-        <translation type="unfinished"></translation>
+        <translation>Palvelin ei onnistunut käsittelemään kyselyä</translation>
     </message>
     <message>
         <source>Server failure</source>
-        <translation type="unfinished"></translation>
+        <translation>Palvelimen virhe</translation>
     </message>
     <message>
         <source>Non existent domain</source>
-        <translation type="unfinished"></translation>
+        <translation>Verkkotunnusta ei löytynyt</translation>
     </message>
     <message>
         <source>Server refused to answer</source>
-        <translation type="unfinished"></translation>
+        <translation>Palvelin hylkäsi kyselyn</translation>
     </message>
     <message>
         <source>Invalid reply received</source>
-        <translation type="unfinished"></translation>
+        <translation>Saatiin virheellinen vastaus</translation>
     </message>
     <message>
         <source>Could not expand domain name</source>
-        <translation type="unfinished"></translation>
+        <translation>Verkkotunnusta ei voitu purkaa</translation>
     </message>
     <message>
         <source>Invalid IPv4 address record</source>
-        <translation type="unfinished"></translation>
+        <translation>Virheellinen IPv4-osoitetietue</translation>
     </message>
     <message>
         <source>Invalid IPv6 address record</source>
-        <translation type="unfinished"></translation>
+        <translation>Virheellinen IPv6-osoitetietue</translation>
     </message>
     <message>
         <source>Invalid canonical name record</source>
-        <translation type="unfinished"></translation>
+        <translation>Virheellinen kanoninen nimitietue</translation>
     </message>
     <message>
         <source>Invalid name server record</source>
-        <translation type="unfinished"></translation>
+        <translation>Virheellinen nimipalvelintietue</translation>
     </message>
     <message>
         <source>Invalid pointer record</source>
-        <translation type="unfinished"></translation>
+        <translation>Virheellinen osoitintietue</translation>
     </message>
     <message>
         <source>Invalid mail exchange record</source>
-        <translation type="unfinished"></translation>
+        <translation>Virheellinen postivaihdetietue</translation>
     </message>
     <message>
         <source>Invalid service record</source>
-        <translation type="unfinished"></translation>
+        <translation>Virheellinen palvelutietue</translation>
     </message>
     <message>
         <source>Invalid text record</source>
-        <translation type="unfinished"></translation>
+        <translation>Virheellinen tekstitietue</translation>
     </message>
     <message>
         <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
-        <translation type="unfinished"></translation>
+        <translation>Selvityskirjastoa ei voida ladata. Ajonaikaista kirjaston lataamista ei tueta</translation>
+    </message>
+    <message>
+        <source>No hostname given</source>
+        <translation>Konenimeä ei annettu</translation>
+    </message>
+    <message>
+        <source>Invalid hostname</source>
+        <translation>Virheellinen konenimi</translation>
     </message>
 </context>
 <context>
     <name>QDockWidget</name>
     <message>
         <source>Float</source>
+        <extracomment>Accessible name for button undocking a dock widget (floating state)</extracomment>
         <translation>Kelluta</translation>
     </message>
     <message>
         <source>Undocks and re-attaches the dock widget</source>
-        <translation type="unfinished"></translation>
+        <translation>Irrottaa ja kiinnittää telakoitavan elementin</translation>
     </message>
     <message>
         <source>Close</source>
+        <extracomment>Accessible name for button closing a dock widget</extracomment>
         <translation>Sulje</translation>
     </message>
     <message>
         <source>Closes the dock widget</source>
-        <translation type="unfinished"></translation>
+        <translation>Sulkee telakoitavan elementin</translation>
     </message>
 </context>
 <context>
     <name>QErrorMessage</name>
     <message>
         <source>Debug Message:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vianjäljitysviesti:</translation>
     </message>
     <message>
         <source>Warning:</source>
-        <translation type="unfinished"></translation>
+        <translation>Varoitus:</translation>
     </message>
     <message>
         <source>Fatal Error:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vakava virhe:</translation>
     </message>
     <message>
         <source>&amp;Show this message again</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä tämä vie&amp;sti uudelleen</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -764,11 +728,11 @@ Peru painamalla ESC</translation>
     <name>QFile</name>
     <message>
         <source>Destination file is the same file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kohdetiedosto on sama tiedosto.</translation>
     </message>
     <message>
         <source>Source file does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lähdetiedostoa ei ole olemassa.</translation>
     </message>
     <message>
         <source>Destination file exists</source>
@@ -776,11 +740,11 @@ Peru painamalla ESC</translation>
     </message>
     <message>
         <source>Error while renaming.</source>
-        <translation type="unfinished"></translation>
+        <translation>Virhe nimeä muutettaessa.</translation>
     </message>
     <message>
         <source>Unable to restore from %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei voitu palauttaa kohteesta %1: %2</translation>
     </message>
     <message>
         <source>Will not rename sequential file using block copy</source>
@@ -818,189 +782,195 @@ Peru painamalla ESC</translation>
     <name>QFileDialog</name>
     <message>
         <source>Look in:</source>
-        <translation type="unfinished"></translation>
+        <translation>Lähde:</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Takaisin</translation>
     </message>
     <message>
         <source>Go back</source>
-        <translation type="unfinished"></translation>
+        <translation>Siirry takaisin</translation>
     </message>
     <message>
         <source>Alt+Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Left</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Eteenpäin</translation>
     </message>
     <message>
         <source>Go forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Siirry eteenpäin</translation>
     </message>
     <message>
         <source>Alt+Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Right</translation>
     </message>
     <message>
         <source>Parent Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Yläkansio</translation>
     </message>
     <message>
         <source>Go to the parent directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Siirry yläkansioon</translation>
     </message>
     <message>
         <source>Alt+Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+Up</translation>
     </message>
     <message>
         <source>Create New Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Uusi kansio</translation>
     </message>
     <message>
         <source>Create a New Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Luo uusi kansio</translation>
     </message>
     <message>
         <source>List View</source>
-        <translation type="unfinished"></translation>
+        <translation>Listanäkymä</translation>
     </message>
     <message>
         <source>Change to list view mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaihda listanäkymään</translation>
     </message>
     <message>
         <source>Detail View</source>
-        <translation type="unfinished"></translation>
+        <translation>Yksityiskohtainen näkymä</translation>
     </message>
     <message>
         <source>Change to detail view mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaihda yksityiskohtaiseen näkymään</translation>
     </message>
     <message>
         <source>Sidebar</source>
-        <translation type="unfinished"></translation>
+        <translation>Sivupalkki</translation>
     </message>
     <message>
         <source>List of places and bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>Sijaintien ja kirjanmerkkien lista</translation>
     </message>
     <message>
         <source>Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiedostot</translation>
     </message>
     <message>
         <source>Files of type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiedostotyypit:</translation>
     </message>
     <message>
         <source>Find Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Etsi kansio</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="unfinished"></translation>
+        <translation>Avaa</translation>
     </message>
     <message>
         <source>Save As</source>
-        <translation type="unfinished"></translation>
+        <translation>Tallenna nimellä</translation>
     </message>
     <message>
         <source>Directory:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kansio:</translation>
     </message>
     <message>
         <source>File &amp;name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiedosto&amp;nimi:</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Avaa</translation>
     </message>
     <message>
         <source>&amp;Choose</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Valitse</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tallenna</translation>
     </message>
     <message>
         <source>All Files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kaikki tiedostot (*)</translation>
     </message>
     <message>
         <source>Show </source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä </translation>
     </message>
     <message>
         <source>&amp;Rename</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Muuta nimeä</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Poista</translation>
     </message>
     <message>
         <source>Show &amp;hidden files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Näytä piilotiedostot</translation>
     </message>
     <message>
         <source>&amp;New Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Uusi kansio</translation>
     </message>
     <message>
         <source>All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kaikki tiedostot (*)</translation>
     </message>
     <message>
         <source>Directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Kansiot</translation>
     </message>
     <message>
         <source>%1
 Directory not found.
 Please verify the correct directory name was given.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1
+Kansiota ei löydy.
+Varmista oikea kansion nimi.</translation>
     </message>
     <message>
         <source>%1 already exists.
 Do you want to replace it?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 on jo olemassa.
+Korvataanko se?</translation>
     </message>
     <message>
         <source>%1
 File not found.
 Please verify the correct file name was given.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1
+Tiedostoa ei löydy.
+Varmista oikea tiedoston nimi.</translation>
     </message>
     <message>
         <source>New Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Uusi kansio</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Poisto</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is write protected.
 Do you want to delete it anyway?</source>
-        <translation type="unfinished"></translation>
+        <translation>”%1” on kirjoitussuojattu.
+Haluatko silti poistaa sen?</translation>
     </message>
     <message>
         <source>Are you sure you want to delete &apos;%1&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>Haluatko varmasti poistaa kohteen ”%1”?</translation>
     </message>
     <message>
         <source>Could not delete directory.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kansion poistaminen epäonnistui.</translation>
     </message>
     <message>
         <source>Recent Places</source>
-        <translation type="unfinished"></translation>
+        <translation>Viimeaikaiset sijainnit</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -1330,19 +1300,19 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Connection refused to host %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Yhteys koneeseen %1 torjuttu</translation>
     </message>
     <message>
         <source>Connection timed out to host %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Yhteys koneeseen %1 aikakatkaistiin</translation>
     </message>
     <message>
         <source>Connected to host %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Yhdistetty koneeseen %1</translation>
     </message>
     <message>
         <source>Data Connection refused</source>
-        <translation type="unfinished"></translation>
+        <translation>Datayhteys torjuttu</translation>
     </message>
     <message>
         <source>Unknown error</source>
@@ -1351,51 +1321,83 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Connecting to host failed:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Yhteys koneeseen epäonnistui:
+%1</translation>
     </message>
     <message>
         <source>Login failed:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kirjautuminen epäonnistui:
+%1</translation>
     </message>
     <message>
         <source>Listing directory failed:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hakemistolistaus epäonnistui:
+%1</translation>
     </message>
     <message>
         <source>Changing directory failed:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hakemiston vaihtaminen epäonnistui:
+%1</translation>
     </message>
     <message>
         <source>Downloading file failed:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiedoston lataaminen epäonnistui:
+%1</translation>
     </message>
     <message>
         <source>Uploading file failed:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiedoston kopioiminen palvelimelle epäonnistui:
+%1</translation>
     </message>
     <message>
         <source>Removing file failed:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiedoston poisto epäonnistui:
+%1</translation>
     </message>
     <message>
         <source>Creating directory failed:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hakemiston luonti epäonnistui:
+%1</translation>
     </message>
     <message>
         <source>Removing directory failed:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hakemiston poisto epäonnistui:
+%1</translation>
     </message>
     <message>
         <source>Connection closed</source>
         <translation>Yhteys suljettu</translation>
+    </message>
+</context>
+<context>
+    <name>QGnomeTheme</name>
+    <message>
+        <source>&amp;OK</source>
+        <translation>&amp;OK</translation>
+    </message>
+    <message>
+        <source>&amp;Save</source>
+        <translation>&amp;Tallenna</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>&amp;Peru</translation>
+    </message>
+    <message>
+        <source>&amp;Close</source>
+        <translation>&amp;Sulje</translation>
+    </message>
+    <message>
+        <source>Close without Saving</source>
+        <translation>Sulje tallentamatta</translation>
     </message>
 </context>
 <context>
@@ -1452,62 +1454,62 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Proxy requires authentication</source>
-        <translation type="unfinished"></translation>
+        <translation>Välityspalvelin vaatii todentamisen</translation>
     </message>
     <message>
         <source>Host requires authentication</source>
-        <translation type="unfinished"></translation>
+        <translation>Kone vaatii todentamisen</translation>
     </message>
     <message>
         <source>Data corrupted</source>
-        <translation type="unfinished"></translation>
+        <translation>Korruptoitunut data</translation>
     </message>
     <message>
         <source>Unknown protocol specified</source>
-        <translation type="unfinished"></translation>
+        <translation>Tuntematon protokolla</translation>
     </message>
     <message>
         <source>SSL handshake failed</source>
-        <translation type="unfinished"></translation>
+        <translation>SSL-kättely epäonnistui</translation>
     </message>
 </context>
 <context>
     <name>QHttpSocketEngine</name>
     <message>
         <source>Did not receive HTTP response from proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei saatu HTTP-vastausta välityspalvelimelta</translation>
     </message>
     <message>
         <source>Error parsing authentication request from proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Välityspalvelimen todennuspyynnön jäsennys epäonnistui</translation>
     </message>
     <message>
         <source>Authentication required</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaaditaan todennus</translation>
     </message>
     <message>
         <source>Proxy denied connection</source>
-        <translation type="unfinished"></translation>
+        <translation>Välityspalvelin esti yhteyden</translation>
     </message>
     <message>
         <source>Error communicating with HTTP proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Viestintä HTTP-välityspalvelimen kanssa epäonnistui</translation>
     </message>
     <message>
         <source>Proxy server not found</source>
-        <translation type="unfinished"></translation>
+        <translation>Välityspalvelinta ei löytynyt</translation>
     </message>
     <message>
         <source>Proxy connection refused</source>
-        <translation type="unfinished"></translation>
+        <translation>Välityspalvelinyhteys torjuttu</translation>
     </message>
     <message>
         <source>Proxy server connection timed out</source>
-        <translation type="unfinished"></translation>
+        <translation>Välityspalvelinyhteyden aikakatkaisu</translation>
     </message>
     <message>
         <source>Proxy connection closed prematurely</source>
-        <translation type="unfinished"></translation>
+        <translation>Yhteys välityspalvelimeen katkesi ennenaikaisesti</translation>
     </message>
 </context>
 <context>
@@ -1622,6 +1624,10 @@ Do you want to delete it anyway?</source>
         <source>Unknown error</source>
         <translation>Tuntematon virhe</translation>
     </message>
+    <message>
+        <source>file to open is a directory</source>
+        <translation>avattava tiedosto on kansio</translation>
+    </message>
 </context>
 <context>
     <name>QInputDialog</name>
@@ -1638,67 +1644,67 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>unterminated object</source>
-        <translation type="unfinished"></translation>
+        <translation>päättämätön objekti</translation>
     </message>
     <message>
         <source>missing name separator</source>
-        <translation type="unfinished"></translation>
+        <translation>puuttuva nimen erotin</translation>
     </message>
     <message>
         <source>unterminated array</source>
-        <translation type="unfinished"></translation>
+        <translation>päättämätön taulukko</translation>
     </message>
     <message>
         <source>missing value separator</source>
-        <translation type="unfinished"></translation>
+        <translation>puuttuva arvon erotin</translation>
     </message>
     <message>
         <source>illegal value</source>
-        <translation type="unfinished"></translation>
+        <translation>virheellinen arvo</translation>
     </message>
     <message>
         <source>invalid termination by number</source>
-        <translation type="unfinished"></translation>
+        <translation>vaillinainen numero</translation>
     </message>
     <message>
         <source>illegal number</source>
-        <translation type="unfinished"></translation>
+        <translation>virheellinen numero</translation>
     </message>
     <message>
         <source>invalid escape sequence</source>
-        <translation type="unfinished"></translation>
+        <translation>virheellinen ohjauskoodi</translation>
     </message>
     <message>
         <source>invalid UTF8 string</source>
-        <translation type="unfinished"></translation>
+        <translation>virheellinen UTF8-merkkijono</translation>
     </message>
     <message>
         <source>unterminated string</source>
-        <translation type="unfinished"></translation>
+        <translation>päättämätön merkkijono</translation>
     </message>
     <message>
         <source>object is missing after a comma</source>
-        <translation type="unfinished"></translation>
+        <translation>pilkun jälkeen puuttuu objekti</translation>
     </message>
     <message>
         <source>too deeply nested document</source>
-        <translation type="unfinished"></translation>
+        <translation>liian syvä sisäkkäisyys dokumentissa</translation>
     </message>
     <message>
         <source>too large document</source>
-        <translation type="unfinished"></translation>
+        <translation>liian suuri dokumentti</translation>
     </message>
 </context>
 <context>
     <name>QKeySequenceEdit</name>
     <message>
         <source>Press shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Syötä pikanäppäin</translation>
     </message>
     <message>
         <source>%1, ...</source>
         <extracomment>This text is an &quot;unfinished&quot; shortcut, expands like &quot;Ctrl+A, ...&quot;</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>%1, …</translation>
     </message>
 </context>
 <context>
@@ -1757,7 +1763,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>file is corrupt</source>
-        <translation type="unfinished"></translation>
+        <translation>tiedosto on vioittunut</translation>
     </message>
     <message>
         <source>file too small</source>
@@ -1765,11 +1771,11 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>no suitable architecture in fat binary</source>
-        <translation type="unfinished"></translation>
+        <translation>ei sopivaa arkkitehtuuria fat-binäärissä</translation>
     </message>
     <message>
         <source>invalid magic %1</source>
-        <translation type="unfinished"></translation>
+        <translation>virheellinen tiedostotyypin tunniste (magic) %1</translation>
     </message>
     <message>
         <source>wrong architecture</source>
@@ -1842,7 +1848,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>%1: Remote closed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: Etäyhteys suljettu</translation>
     </message>
     <message>
         <source>%1: Invalid name</source>
@@ -1850,11 +1856,11 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>%1: Socket access error</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: Virhe pistokkeeseen pääsyssä</translation>
     </message>
     <message>
         <source>%1: Socket resource error</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: Virhe pistokeresurssissa</translation>
     </message>
     <message>
         <source>%1: Socket operation timed out</source>
@@ -1862,19 +1868,19 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>%1: Datagram too large</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: Datagrammi on liian suuri</translation>
     </message>
     <message>
         <source>%1: Connection error</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: Yhteysvirhe</translation>
     </message>
     <message>
         <source>%1: The socket operation is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: Pistokeoperaatiota ei tueta</translation>
     </message>
     <message>
         <source>%1: Operation not permitted when socket is in this state</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: Toimintoa ei tueta pistokkeen tässä tilassa</translation>
     </message>
     <message>
         <source>%1: Unknown error</source>
@@ -1882,7 +1888,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation type="unfinished"></translation>
+        <translation>Yritettiin yhdistää vaikka yhteys on jo käytössä</translation>
     </message>
     <message>
         <source>%1: Unknown error %2</source>
@@ -1890,7 +1896,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>%1: Access denied</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: Pääsy estetty</translation>
     </message>
 </context>
 <context>
@@ -2068,7 +2074,7 @@ Do you want to delete it anyway?</source>
         <translation>&lt;h3&gt;Tietoja Qt:stä&lt;/h3&gt;&lt;p&gt;Tämä ohjelma käyttää Qt-versiota %1.&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is developed as an open source project on &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is developed as an open source project on &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Qt on C++-työkalupaketti alustariippumattomaan sovelluskehitykseen.&lt;/p&gt;
 &lt;p&gt;Qt tarjoaa saman lähdekoodin siirrettävyyden kaikkiin merkittäviin työpöytäkäyttöjärjestelmiin.
 Qt on myös saatavilla sulautetulle Linuxille ja muille mobiili- sekä sulautetuille käyttöjärjestelmille.&lt;/p&gt;
@@ -2084,7 +2090,7 @@ GPL 3.0:n ehtoja.&lt;/p&gt;
 &lt;p&gt;Katso yhteenveto Qt-lisensoinnista osoitteesta &lt;a 
 href=&quot;http://qt.digia.com/Product/Licensing&quot;&gt;
 qt.digia.com/Product/Licensing&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Copyright © 2013 Digia Plc ja/tai sen tytäryhtiö(t) ja muut avustajat.&lt;/p&gt;
+&lt;p&gt;Copyright © 2014 Digia Plc ja/tai sen tytäryhtiö(t) ja muut avustajat.&lt;/p&gt;
 &lt;p&gt;Qt ja Qt-logo ovat Digia Plc:n ja/tai sen tytäryhtiö(ide)n tavaramerkkejä.&lt;/p&gt;
 &lt;p&gt;Qt:ta kehitetään avoimen lähdekoodin projektina osoitteessa &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Qt on Digia-tuote. Katso lisätietoja osoitteesta &lt;a 
@@ -2296,7 +2302,7 @@ href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt;.&lt;/p&gt;</tran
     </message>
     <message>
         <source>Background request not allowed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Taustapyyntö ei ole sallittu.</translation>
     </message>
     <message>
         <source>Network session error.</source>
@@ -2489,81 +2495,6 @@ href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt;.&lt;/p&gt;</tran
     </message>
 </context>
 <context>
-    <name>QObject</name>
-    <message>
-        <source>OK</source>
-        <translation>OK</translation>
-    </message>
-    <message>
-        <source>Save</source>
-        <translation>Tallenna</translation>
-    </message>
-    <message>
-        <source>Open</source>
-        <translation>Avaa</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Peru</translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation>Sulje</translation>
-    </message>
-    <message>
-        <source>Apply</source>
-        <translation>Käytä</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>Nollaa</translation>
-    </message>
-    <message>
-        <source>Help</source>
-        <translation>Ohje</translation>
-    </message>
-    <message>
-        <source>Discard</source>
-        <translation>Hylkää</translation>
-    </message>
-    <message>
-        <source>Yes</source>
-        <translation>Kyllä</translation>
-    </message>
-    <message>
-        <source>Yes to All</source>
-        <translation>Kyllä kaikkiin</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation>Ei</translation>
-    </message>
-    <message>
-        <source>No to All</source>
-        <translation>Ei kaikkiin</translation>
-    </message>
-    <message>
-        <source>Save All</source>
-        <translation>Tallenna kaikki</translation>
-    </message>
-    <message>
-        <source>Abort</source>
-        <translation>Keskeytä</translation>
-    </message>
-    <message>
-        <source>Retry</source>
-        <translation>Yritä uudelleen</translation>
-    </message>
-    <message>
-        <source>Ignore</source>
-        <translation>Ohita</translation>
-    </message>
-    <message>
-        <source>Restore Defaults</source>
-        <translation>Palauta oletukset</translation>
-    </message>
-</context>
-<context>
     <name>QPSQLDriver</name>
     <message>
         <source>Unable to connect</source>
@@ -2680,10 +2611,6 @@ href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt;.&lt;/p&gt;</tran
         <translation>Sivuja arkilla:</translation>
     </message>
     <message>
-        <source>Centimeters (cm)</source>
-        <translation>Senttimetrit (cm)</translation>
-    </message>
-    <message>
         <source>Millimeters (mm)</source>
         <translation>Millimetrit (mm)</translation>
     </message>
@@ -2695,23 +2622,89 @@ href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt;.&lt;/p&gt;</tran
         <source>Points (pt)</source>
         <translation>Pisteet (pt)</translation>
     </message>
-</context>
-<context>
-    <name>QPluginLoader</name>
     <message>
-        <source>The plugin was not loaded.</source>
-        <translation>Liitännäistä ei ladattu.</translation>
+        <source>Pica (P̸)</source>
+        <translation>Pica (P̸)</translation>
     </message>
     <message>
-        <source>Unknown error</source>
-        <translation>Tuntematon virhe</translation>
+        <source>Didot (DD)</source>
+        <translation>Didot (dd)</translation>
+    </message>
+    <message>
+        <source>Cicero (CC)</source>
+        <translation>Cicero (cc)</translation>
+    </message>
+    <message>
+        <source>Custom</source>
+        <translation>Muu</translation>
+    </message>
+    <message>
+        <source>mm</source>
+        <extracomment>Unit &apos;Millimeter&apos;</extracomment>
+        <translation>mm</translation>
+    </message>
+    <message>
+        <source>pt</source>
+        <extracomment>Unit &apos;Points&apos;</extracomment>
+        <translation>pt</translation>
+    </message>
+    <message>
+        <source>in</source>
+        <extracomment>Unit &apos;Inch&apos;</extracomment>
+        <translation>in</translation>
+    </message>
+    <message>
+        <source>P̸</source>
+        <extracomment>Unit &apos;Pica&apos;</extracomment>
+        <translation>P̸</translation>
+    </message>
+    <message>
+        <source>DD</source>
+        <extracomment>Unit &apos;Didot&apos;</extracomment>
+        <translation>dd</translation>
+    </message>
+    <message>
+        <source>CC</source>
+        <extracomment>Unit &apos;Cicero&apos;</extracomment>
+        <translation>cc</translation>
     </message>
 </context>
 <context>
-    <name>QPrintDialog</name>
+    <name>QPageSize</name>
     <message>
-        <source>Print</source>
-        <translation>Tulosta</translation>
+        <source>Custom (%1mm x %2mm)</source>
+        <extracomment>Custom size name in millimeters</extracomment>
+        <translation>Muu (%1 mm × %2 mm)</translation>
+    </message>
+    <message>
+        <source>Custom (%1pt x %2pt)</source>
+        <extracomment>Custom size name in points</extracomment>
+        <translation>Muu (%1 pt × %2 pt)</translation>
+    </message>
+    <message>
+        <source>Custom (%1in x %2in)</source>
+        <extracomment>Custom size name in inches</extracomment>
+        <translation>Muu (%1 in × %2 in)</translation>
+    </message>
+    <message>
+        <source>Custom (%1pc x %2pc)</source>
+        <extracomment>Custom size name in picas</extracomment>
+        <translation>Muu (%1 P̸ × %2 P̸)</translation>
+    </message>
+    <message>
+        <source>Custom (%1DD x %2DD)</source>
+        <extracomment>Custom size name in didots</extracomment>
+        <translation>Muu (%1 dd × %2 dd)</translation>
+    </message>
+    <message>
+        <source>Custom (%1CC x %2CC)</source>
+        <extracomment>Custom size name in ciceros</extracomment>
+        <translation>Muu (%1 cc × %2 cc)</translation>
+    </message>
+    <message>
+        <source>%1 x %2 in</source>
+        <extracomment>Page size in &apos;Inch&apos;.</extracomment>
+        <translation>%1 × %2 in</translation>
     </message>
     <message>
         <source>A0</source>
@@ -2752,6 +2745,10 @@ href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt;.&lt;/p&gt;</tran
     <message>
         <source>A9</source>
         <translation>A9</translation>
+    </message>
+    <message>
+        <source>A10</source>
+        <translation>A10</translation>
     </message>
     <message>
         <source>B0</source>
@@ -2798,44 +2795,449 @@ href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt;.&lt;/p&gt;</tran
         <translation>B10</translation>
     </message>
     <message>
-        <source>C5E</source>
-        <translation>C5E</translation>
+        <source>Executive (7.5 x 10 in)</source>
+        <translation>Executive (7,5 × 10 in)</translation>
     </message>
     <message>
-        <source>DLE</source>
-        <translation>DLE</translation>
+        <source>Executive (7.25 x 10.5 in)</source>
+        <translation>Executive (7,25 × 10,5 in)</translation>
     </message>
     <message>
-        <source>Executive</source>
-        <translation>Executive-koko</translation>
-    </message>
-    <message>
-        <source>Folio</source>
-        <translation>Folio-koko</translation>
-    </message>
-    <message>
-        <source>Ledger</source>
-        <translation>Ledger-koko</translation>
+        <source>Folio (8.27 x 13 in)</source>
+        <translation>Folio (8,27 × 13 in)</translation>
     </message>
     <message>
         <source>Legal</source>
-        <translation>Legal-koko</translation>
+        <translation>Legal</translation>
     </message>
     <message>
-        <source>Letter</source>
-        <translation>Letter-koko</translation>
+        <source>Letter / ANSI A</source>
+        <translation>Letter / ANSI A</translation>
     </message>
     <message>
-        <source>Tabloid</source>
-        <translation>Tabloid-koko</translation>
+        <source>Tabloid / ANSI B</source>
+        <translation>Tabloid / ANSI B</translation>
     </message>
     <message>
-        <source>US Common #10 Envelope</source>
-        <translation>US yleinen #10 kirjekoko</translation>
+        <source>Ledger / ANSI B</source>
+        <translation>Ledger / ANSI B</translation>
     </message>
     <message>
         <source>Custom</source>
         <translation>Muu</translation>
+    </message>
+    <message>
+        <source>A3 Extra</source>
+        <translation>A3 Extra</translation>
+    </message>
+    <message>
+        <source>A4 Extra</source>
+        <translation>A4 Extra</translation>
+    </message>
+    <message>
+        <source>A4 Plus</source>
+        <translation>A4 Plus</translation>
+    </message>
+    <message>
+        <source>A4 Small</source>
+        <translation>A4 Small</translation>
+    </message>
+    <message>
+        <source>A5 Extra</source>
+        <translation>A5 Extra</translation>
+    </message>
+    <message>
+        <source>B5 Extra</source>
+        <translation>B5 Extra</translation>
+    </message>
+    <message>
+        <source>JIS B0</source>
+        <translation>JIS B0</translation>
+    </message>
+    <message>
+        <source>JIS B1</source>
+        <translation>JIS B1</translation>
+    </message>
+    <message>
+        <source>JIS B2</source>
+        <translation>JIS B2</translation>
+    </message>
+    <message>
+        <source>JIS B3</source>
+        <translation>JIS B3</translation>
+    </message>
+    <message>
+        <source>JIS B4</source>
+        <translation>JIS B4</translation>
+    </message>
+    <message>
+        <source>JIS B5</source>
+        <translation>JIS B5</translation>
+    </message>
+    <message>
+        <source>JIS B6</source>
+        <translation>JIS B6</translation>
+    </message>
+    <message>
+        <source>JIS B7</source>
+        <translation>JIS B7</translation>
+    </message>
+    <message>
+        <source>JIS B8</source>
+        <translation>JIS B8</translation>
+    </message>
+    <message>
+        <source>JIS B9</source>
+        <translation>JIS B9</translation>
+    </message>
+    <message>
+        <source>JIS B10</source>
+        <translation>JIS B10</translation>
+    </message>
+    <message>
+        <source>ANSI C</source>
+        <translation>ANSI C</translation>
+    </message>
+    <message>
+        <source>ANSI D</source>
+        <translation>ANSI D</translation>
+    </message>
+    <message>
+        <source>ANSI E</source>
+        <translation>ANSI E</translation>
+    </message>
+    <message>
+        <source>Legal Extra</source>
+        <translation>Legal Extra</translation>
+    </message>
+    <message>
+        <source>Letter Extra</source>
+        <translation>Letter Extra</translation>
+    </message>
+    <message>
+        <source>Letter Plus</source>
+        <translation>Letter Plus</translation>
+    </message>
+    <message>
+        <source>Letter Small</source>
+        <translation>Letter Small</translation>
+    </message>
+    <message>
+        <source>Tabloid Extra</source>
+        <translation>Tabloid Extra</translation>
+    </message>
+    <message>
+        <source>Architect A</source>
+        <translation>Architect A</translation>
+    </message>
+    <message>
+        <source>Architect B</source>
+        <translation>Architect B</translation>
+    </message>
+    <message>
+        <source>Architect C</source>
+        <translation>Architect C</translation>
+    </message>
+    <message>
+        <source>Architect D</source>
+        <translation>Architect D</translation>
+    </message>
+    <message>
+        <source>Architect E</source>
+        <translation>Architect E</translation>
+    </message>
+    <message>
+        <source>Note</source>
+        <translation>Note</translation>
+    </message>
+    <message>
+        <source>Quarto</source>
+        <translation>Quarto</translation>
+    </message>
+    <message>
+        <source>Statement</source>
+        <translation>Statement</translation>
+    </message>
+    <message>
+        <source>Super A</source>
+        <translation>Super A</translation>
+    </message>
+    <message>
+        <source>Super B</source>
+        <translation>Super B</translation>
+    </message>
+    <message>
+        <source>Postcard</source>
+        <translation>Postikortti</translation>
+    </message>
+    <message>
+        <source>Double Postcard</source>
+        <translation>Tuplapostikortti</translation>
+    </message>
+    <message>
+        <source>PRC 16K</source>
+        <translation>PRC 16K</translation>
+    </message>
+    <message>
+        <source>PRC 32K</source>
+        <translation>PRC 32K</translation>
+    </message>
+    <message>
+        <source>PRC 32K Big</source>
+        <translation>PRC 32K Big</translation>
+    </message>
+    <message>
+        <source>Fan-fold US (14.875 x 11 in)</source>
+        <translation>Fan-fold US (14,875 × 11 in)</translation>
+    </message>
+    <message>
+        <source>Fan-fold German (8.5 x 12 in)</source>
+        <translation>Fan-fold German (8,5 × 12 in)</translation>
+    </message>
+    <message>
+        <source>Fan-fold German Legal (8.5 x 13 in)</source>
+        <translation>Fan-fold German Legal (8,5 × 13 in)</translation>
+    </message>
+    <message>
+        <source>Envelope B4</source>
+        <translation>Kirjekuori B4</translation>
+    </message>
+    <message>
+        <source>Envelope B5</source>
+        <translation>Kirjekuori B5</translation>
+    </message>
+    <message>
+        <source>Envelope B6</source>
+        <translation>Kirjekuori B6</translation>
+    </message>
+    <message>
+        <source>Envelope C0</source>
+        <translation>Kirjekuori C0</translation>
+    </message>
+    <message>
+        <source>Envelope C1</source>
+        <translation>Kirjekuori C1</translation>
+    </message>
+    <message>
+        <source>Envelope C2</source>
+        <translation>Kirjekuori C2</translation>
+    </message>
+    <message>
+        <source>Envelope C3</source>
+        <translation>Kirjekuori C3</translation>
+    </message>
+    <message>
+        <source>Envelope C4</source>
+        <translation>Kirjekuori C4</translation>
+    </message>
+    <message>
+        <source>Envelope C5</source>
+        <translation>Kirjekuori C5</translation>
+    </message>
+    <message>
+        <source>Envelope C6</source>
+        <translation>Kirjekuori C6</translation>
+    </message>
+    <message>
+        <source>Envelope C65</source>
+        <translation>Kirjekuori C65</translation>
+    </message>
+    <message>
+        <source>Envelope C7</source>
+        <translation>Kirjekuori C7</translation>
+    </message>
+    <message>
+        <source>Envelope DL</source>
+        <translation>Kirjekuori DL</translation>
+    </message>
+    <message>
+        <source>Envelope US 9</source>
+        <translation>Kirjekuori US 9</translation>
+    </message>
+    <message>
+        <source>Envelope US 10</source>
+        <translation>Kirjekuori US 10</translation>
+    </message>
+    <message>
+        <source>Envelope US 11</source>
+        <translation>Kirjekuori US 11</translation>
+    </message>
+    <message>
+        <source>Envelope US 12</source>
+        <translation>Kirjekuori US 12</translation>
+    </message>
+    <message>
+        <source>Envelope US 14</source>
+        <translation>Kirjekuori US 14</translation>
+    </message>
+    <message>
+        <source>Envelope Monarch</source>
+        <translation>Kirjekuori Monarch</translation>
+    </message>
+    <message>
+        <source>Envelope Personal</source>
+        <translation>Kirjekuori Personal</translation>
+    </message>
+    <message>
+        <source>Envelope Chou 3</source>
+        <translation>Kirjekuori Chou 3</translation>
+    </message>
+    <message>
+        <source>Envelope Chou 4</source>
+        <translation>Kirjekuori Chou 4</translation>
+    </message>
+    <message>
+        <source>Envelope Invite</source>
+        <translation>Kirjekuori Invite</translation>
+    </message>
+    <message>
+        <source>Envelope Italian</source>
+        <translation>Kirjekuori Italian</translation>
+    </message>
+    <message>
+        <source>Envelope Kaku 2</source>
+        <translation>Kirjekuori Kaku 2</translation>
+    </message>
+    <message>
+        <source>Envelope Kaku 3</source>
+        <translation>Kirjekuori Kaku 3</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 1</source>
+        <translation>Kirjekuori PRC 1</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 2</source>
+        <translation>Kirjekuori PRC 2</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 3</source>
+        <translation>Kirjekuori PRC 3</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 4</source>
+        <translation>Kirjekuori PRC 4</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 5</source>
+        <translation>Kirjekuori PRC 5</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 6</source>
+        <translation>Kirjekuori PRC 6</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 7</source>
+        <translation>Kirjekuori PRC 7</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 8</source>
+        <translation>Kirjekuori PRC 8</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 9</source>
+        <translation>Kirjekuori PRC 9</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 10</source>
+        <translation>Kirjekuori PRC 10</translation>
+    </message>
+    <message>
+        <source>Envelope You 4</source>
+        <translation>Kirjekuori You 4</translation>
+    </message>
+</context>
+<context>
+    <name>QPlatformTheme</name>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Tallenna</translation>
+    </message>
+    <message>
+        <source>Save All</source>
+        <translation>Tallenna kaikki</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Avaa</translation>
+    </message>
+    <message>
+        <source>&amp;Yes</source>
+        <translation>&amp;Kyllä</translation>
+    </message>
+    <message>
+        <source>Yes to &amp;All</source>
+        <translation>Kyllä k&amp;aikkiin</translation>
+    </message>
+    <message>
+        <source>&amp;No</source>
+        <translation>&amp;Ei</translation>
+    </message>
+    <message>
+        <source>N&amp;o to All</source>
+        <translation>E&amp;i kaikkiin</translation>
+    </message>
+    <message>
+        <source>Abort</source>
+        <translation>Keskeytä</translation>
+    </message>
+    <message>
+        <source>Retry</source>
+        <translation>Yritä uudelleen</translation>
+    </message>
+    <message>
+        <source>Ignore</source>
+        <translation>Ohita</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Sulje</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Peru</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Hylkää</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Ohje</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Käytä</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Palauta</translation>
+    </message>
+    <message>
+        <source>Restore Defaults</source>
+        <translation>Palauta oletukset</translation>
+    </message>
+</context>
+<context>
+    <name>QPluginLoader</name>
+    <message>
+        <source>The plugin was not loaded.</source>
+        <translation>Liitännäistä ei ladattu.</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>Tuntematon virhe</translation>
+    </message>
+</context>
+<context>
+    <name>QPrintDialog</name>
+    <message>
+        <source>Print</source>
+        <translation>Tulosta</translation>
     </message>
     <message>
         <source>Left to Right, Top to Bottom</source>
@@ -2964,6 +3366,10 @@ Poista toinen niistä käytöstä.</translation>
     <message>
         <source>OK</source>
         <translation>OK</translation>
+    </message>
+    <message>
+        <source>Automatic</source>
+        <translation>Automaattinen</translation>
     </message>
 </context>
 <context>
@@ -3368,15 +3774,15 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>reference to non-existent subpattern</source>
-        <translation></translation>
+        <translation>viittaus olemattomaan alimalliin</translation>
     </message>
     <message>
         <source>erroffset passed as NULL</source>
-        <translation type="unfinished"></translation>
+        <translation>annettu erroffset on NULL</translation>
     </message>
     <message>
         <source>unknown option bit(s) set</source>
-        <translation type="unfinished"></translation>
+        <translation>tuntematon valitsinbitti tai -bitit</translation>
     </message>
     <message>
         <source>missing ) after comment</source>
@@ -3384,7 +3790,7 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>regular expression is too large</source>
-        <translation type="unfinished"></translation>
+        <translation>liian pitkä säännöllinen lauseke</translation>
     </message>
     <message>
         <source>failed to get memory</source>
@@ -3404,7 +3810,7 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>lookbehind assertion is not fixed length</source>
-        <translation>lookbehind-tyyppinen assert-makro ei ole kiinteäpituinen</translation>
+        <translation>lookbehind-tyyppinen ehtolause ei ole kiinteäpituinen</translation>
     </message>
     <message>
         <source>malformed number or name after (?(</source>
@@ -3416,11 +3822,11 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>assertion expected after (?(</source>
-        <translation type="unfinished"></translation>
+        <translation>odotettiin ehtolause (?( jälkeen</translation>
     </message>
     <message>
         <source>(?R or (?[+-]digits must be followed by )</source>
-        <translation type="unfinished"></translation>
+        <translation>) tulee seurata (?R tai (?[+-]numeroita</translation>
     </message>
     <message>
         <source>unknown POSIX class name</source>
@@ -3428,15 +3834,15 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>POSIX collating elements are not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>POSIX-merkkijärjestyselementtejä ei tueta</translation>
     </message>
     <message>
         <source>this version of PCRE is not compiled with PCRE_UTF8 support</source>
-        <translation type="unfinished"></translation>
+        <translation>tätä PCRE-versiota ei ole käännetty PCRE_UTF8-tuella</translation>
     </message>
     <message>
         <source>character value in \x{...} sequence is too large</source>
-        <translation type="unfinished"></translation>
+        <translation>merkin arvo \x{...} sekvenssissä on liian suuri</translation>
     </message>
     <message>
         <source>invalid condition (?(0)</source>
@@ -3444,19 +3850,19 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>\C not allowed in lookbehind assertion</source>
-        <translation type="unfinished"></translation>
+        <translation>\C ei ole sallittu lookbehind-ehtolauseessa</translation>
     </message>
     <message>
         <source>PCRE does not support \L, \l, \N{name}, \U, or \u</source>
-        <translation type="unfinished"></translation>
+        <translation>PCRE ei tue \L, \I, \N{nimi}, \U tai \u</translation>
     </message>
     <message>
         <source>number after (?C is &gt; 255</source>
-        <translation type="unfinished"></translation>
+        <translation>numero (?C jälkeen &gt; 255</translation>
     </message>
     <message>
         <source>closing ) for (?C expected</source>
-        <translation type="unfinished"></translation>
+        <translation>(?C jälkeen odotettiin sulkeva )</translation>
     </message>
     <message>
         <source>recursive call could loop indefinitely</source>
@@ -3468,11 +3874,11 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>syntax error in subpattern name (missing terminator)</source>
-        <translation type="unfinished"></translation>
+        <translation>syntaksivirhe alimallin nimessä (päätemerkki puuttuu)</translation>
     </message>
     <message>
         <source>two named subpatterns have the same name</source>
-        <translation type="unfinished"></translation>
+        <translation>kahdella nimetyllä alimallilla on sama nimi</translation>
     </message>
     <message>
         <source>invalid UTF-8 string</source>
@@ -3480,7 +3886,7 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>support for \P, \p, and \X has not been compiled</source>
-        <translation type="unfinished"></translation>
+        <translation>\P, \p ja \X tukea ei ole käännetty</translation>
     </message>
     <message>
         <source>malformed \P or \p sequence</source>
@@ -3492,23 +3898,23 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>subpattern name is too long (maximum 32 characters)</source>
-        <translation type="unfinished"></translation>
+        <translation>alimallin nimi on liian pitkä (enintään 32 merkkiä)</translation>
     </message>
     <message>
         <source>too many named subpatterns (maximum 10000)</source>
-        <translation type="unfinished"></translation>
+        <translation>liian monta nimettyä alimallia (enintään 10000)</translation>
     </message>
     <message>
         <source>octal value is greater than \377 (not in UTF-8 mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>oktaaliarvo on suurempi kuin \377 (ei UTF-8-tilassa)</translation>
     </message>
     <message>
         <source>internal error: overran compiling workspace</source>
-        <translation type="unfinished"></translation>
+        <translation>sisäinen virhe: kääntötyötila ylitettiin</translation>
     </message>
     <message>
         <source>internal error: previously-checked referenced subpattern not found</source>
-        <translation type="unfinished"></translation>
+        <translation>sisäinen virhe: aiemmin tarkistettu viitattu alimalli ei löytynyt</translation>
     </message>
     <message>
         <source>DEFINE group contains more than one branch</source>
@@ -3516,79 +3922,79 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>repeating a DEFINE group is not allowed</source>
-        <translation type="unfinished"></translation>
+        <translation>DEFINE-ryhmän toisto ei ole sallittua</translation>
     </message>
     <message>
         <source>inconsistent NEWLINE options</source>
-        <translation type="unfinished"></translation>
+        <translation>sopimaton yhdistelmä NEWLINE-valitsimia</translation>
     </message>
     <message>
         <source>\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number</source>
-        <translation type="unfinished"></translation>
+        <translation>\g:tä ei seuraa nimi tai numero suljettuna {}, [] tai &apos;&apos;-merkkeihin, eikä paljas numero</translation>
     </message>
     <message>
         <source>a numbered reference must not be zero</source>
-        <translation type="unfinished"></translation>
+        <translation>numeroitu viittaus ei voi olla nolla</translation>
     </message>
     <message>
         <source>an argument is not allowed for (*ACCEPT), (*FAIL), or (*COMMIT)</source>
-        <translation type="unfinished"></translation>
+        <translation>(*ACCEPT), (*FAIL) tai (*COMMIT) ei hyväksy argumenttia</translation>
     </message>
     <message>
         <source>(*VERB) not recognized</source>
-        <translation type="unfinished"></translation>
+        <translation>ei tunnistettu (*VERBI)</translation>
     </message>
     <message>
         <source>number is too big</source>
-        <translation type="unfinished"></translation>
+        <translation>numero on liian suuri</translation>
     </message>
     <message>
         <source>subpattern name expected</source>
-        <translation type="unfinished"></translation>
+        <translation>odotettiin alimallin nimeä</translation>
     </message>
     <message>
         <source>digit expected after (?+</source>
-        <translation type="unfinished"></translation>
+        <translation>odotettiin numero (?+ jälkeen</translation>
     </message>
     <message>
         <source>] is an invalid data character in JavaScript compatibility mode</source>
-        <translation type="unfinished"></translation>
+        <translation>] on virheellinen datamerkki JavaScript-yhteensopivuustilassa</translation>
     </message>
     <message>
         <source>different names for subpatterns of the same number are not allowed</source>
-        <translation type="unfinished"></translation>
+        <translation>saman numeron alimalleille ei sallita eri nimiä</translation>
     </message>
     <message>
         <source>(*MARK) must have an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>(*MARK) vaatii argumentin</translation>
     </message>
     <message>
         <source>this version of PCRE is not compiled with PCRE_UCP support</source>
-        <translation type="unfinished"></translation>
+        <translation>tätä PCRE-versiota ei ole käännetty PCRE_UCP-tuella</translation>
     </message>
     <message>
         <source>\c must be followed by an ASCII character</source>
-        <translation type="unfinished"></translation>
+        <translation>ASCII-merkki pitää tulla \c jälkeen</translation>
     </message>
     <message>
         <source>\k is not followed by a braced, angle-bracketed, or quoted name</source>
-        <translation type="unfinished"></translation>
+        <translation>\k:ta ei seuraa nimi suljettuna {}, [] tai &apos;&apos;-merkkeihin</translation>
     </message>
     <message>
         <source>internal error: unknown opcode in find_fixedlength()</source>
-        <translation type="unfinished"></translation>
+        <translation>sisäinen virhe: tuntematon toimintakoodi find_fixedlength()-funktiossa</translation>
     </message>
     <message>
         <source>\N is not supported in a class</source>
-        <translation type="unfinished"></translation>
+        <translation>\N ei ole tuettu luokassa</translation>
     </message>
     <message>
         <source>too many forward references</source>
-        <translation type="unfinished"></translation>
+        <translation>liian monta viittausta eteenpäin</translation>
     </message>
     <message>
         <source>disallowed Unicode code point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</source>
-        <translation type="unfinished"></translation>
+        <translation>ei sallittu Unicode-merkkikoodi (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</translation>
     </message>
     <message>
         <source>invalid UTF-16 string</source>
@@ -3596,11 +4002,11 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)</source>
-        <translation type="unfinished"></translation>
+        <translation>nimi on liian pitkä jollekin (*MARK), (*PRUNE), (*SKIP) tai (*THEN)</translation>
     </message>
     <message>
         <source>character value in \u.... sequence is too large</source>
-        <translation type="unfinished"></translation>
+        <translation>merkin arvo \u... -sekvenssissä on liian suuri</translation>
     </message>
 </context>
 <context>
@@ -3691,11 +4097,11 @@ Poista toinen niistä käytöstä.</translation>
     <name>QSaveFile</name>
     <message>
         <source>Existing file %1 is not writable</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei voida kirjoittaa olemassa olevaan tiedostoon %1</translation>
     </message>
     <message>
         <source>Writing canceled by application</source>
-        <translation type="unfinished"></translation>
+        <translation>Ohjelma keskeytti kirjoittamisen</translation>
     </message>
 </context>
 <context>
@@ -3821,7 +4227,7 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>%1: key error</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: avainvirhe</translation>
     </message>
     <message>
         <source>%1: size query failed</source>
@@ -5321,7 +5727,7 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>Runtime</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajonaikaiset</translation>
     </message>
     <message>
         <source>Configuration</source>
@@ -5427,7 +5833,7 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>Image header read failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Kuvatiedoston alkuosan lukeminen epäonnistui</translation>
     </message>
     <message>
         <source>Image type not supported</source>
@@ -5544,6 +5950,22 @@ Poista toinen niistä käytöstä.</translation>
     <message>
         <source>PDF Pop directional formatting</source>
         <translation>Suunnan muotoilun lopetus (PDF)</translation>
+    </message>
+    <message>
+        <source>LRI Left-to-right isolate</source>
+        <translation>Vasemmalta oikealle eristys (LRI)</translation>
+    </message>
+    <message>
+        <source>RLI Right-to-left isolate</source>
+        <translation>Oikealta vasemmalle eristys (RLI)</translation>
+    </message>
+    <message>
+        <source>FSI First strong isolate</source>
+        <translation>Ensimmäinen vahva eristys (FSI)</translation>
+    </message>
+    <message>
+        <source>PDI Pop directional isolate</source>
+        <translation>Suunnan eristyksen lopetus (PDI)</translation>
     </message>
     <message>
         <source>Insert Unicode control character</source>
@@ -5833,55 +6255,55 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>Recursive entity detected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Löydettiin rekursiivinen entiteetti.</translation>
     </message>
     <message>
         <source>Start tag expected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Odotettiin aloitustunnistetta.</translation>
     </message>
     <message>
         <source>NDATA in parameter entity declaration.</source>
-        <translation type="unfinished"></translation>
+        <translation>NDATA parametrientiteettimäärittelyssä.</translation>
     </message>
     <message>
         <source>XML declaration not at start of document.</source>
-        <translation type="unfinished"></translation>
+        <translation>XML-määrittely ei ole dokumentin alussa.</translation>
     </message>
     <message>
         <source>%1 is an invalid processing instruction name.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 on virheellinen prosessointikomennon nimi.</translation>
     </message>
     <message>
         <source>Invalid processing instruction name.</source>
-        <translation type="unfinished"></translation>
+        <translation>Virheellinen prosessointikomennon nimi.</translation>
     </message>
     <message>
         <source>%1 is an invalid PUBLIC identifier.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 on virheellinen PUBLIC-tunniste.</translation>
     </message>
     <message>
         <source>Invalid XML name.</source>
-        <translation type="unfinished"></translation>
+        <translation>Virheellinen XML-nimi.</translation>
     </message>
     <message>
         <source>Opening and ending tag mismatch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aloitus- ja lopetustunnisteet eivät täsmää.</translation>
     </message>
     <message>
         <source>Entity &apos;%1&apos; not declared.</source>
-        <translation type="unfinished"></translation>
+        <translation>Entiteettiä ”%1” ei ole määritelty.</translation>
     </message>
     <message>
         <source>Reference to unparsed entity &apos;%1&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Viittaus jäsentämättömään entiteettiin ”%1”.</translation>
     </message>
     <message>
         <source>Reference to external entity &apos;%1&apos; in attribute value.</source>
-        <translation type="unfinished"></translation>
+        <translation>Viittaus ulkoiseen entiteettiin ”%1” attribuutin arvossa.</translation>
     </message>
     <message>
         <source>Invalid character reference.</source>
-        <translation type="unfinished"></translation>
+        <translation>Virheellinen merkkiviittaus.</translation>
     </message>
 </context>
 </TS>
