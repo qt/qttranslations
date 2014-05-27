@@ -141,6 +141,25 @@
     </message>
 </context>
 <context>
+    <name>QAndroidPlatformTheme</name>
+    <message>
+        <source>Yes</source>
+        <translation>はい</translation>
+    </message>
+    <message>
+        <source>Yes to All</source>
+        <translation>全てはい</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>いいえ</translation>
+    </message>
+    <message>
+        <source>No to All</source>
+        <translation>全ていいえ</translation>
+    </message>
+</context>
+<context>
     <name>QApplication</name>
     <message>
         <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
@@ -188,6 +207,29 @@
     <message>
         <source>Exit</source>
         <translation>終了</translation>
+    </message>
+    <message>
+        <source>Cut</source>
+        <translation>切り取り</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>コピー</translation>
+    </message>
+    <message>
+        <source>Paste</source>
+        <translation>貼り付け</translation>
+    </message>
+    <message>
+        <source>Select All</source>
+        <translation>すべてを選択</translation>
+    </message>
+</context>
+<context>
+    <name>QCocoaTheme</name>
+    <message>
+        <source>Don&apos;t Save</source>
+        <translation>保存しない</translation>
     </message>
 </context>
 <context>
@@ -282,7 +324,7 @@ Press ESC to cancel</source>
     </message>
     <message>
         <source>Unknown options: %1.</source>
-        <translation>は未知のオプション: %1</translation>
+        <translation>未知のオプション: %1.</translation>
     </message>
     <message>
         <source>Missing value after &apos;%1&apos;.</source>
@@ -514,98 +556,6 @@ Press ESC to cancel</source>
         <source>OK</source>
         <translation>OK</translation>
     </message>
-    <message>
-        <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
-    </message>
-    <message>
-        <source>&amp;Save</source>
-        <translation>保存(&amp;S)</translation>
-    </message>
-    <message>
-        <source>Save</source>
-        <translation>保存</translation>
-    </message>
-    <message>
-        <source>Open</source>
-        <translation>開く</translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation>キャンセル(&amp;C)</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>キャンセル</translation>
-    </message>
-    <message>
-        <source>&amp;Close</source>
-        <translation>閉じる(&amp;C)</translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation>閉じる</translation>
-    </message>
-    <message>
-        <source>Apply</source>
-        <translation>適用</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>リセット</translation>
-    </message>
-    <message>
-        <source>Help</source>
-        <translation>ヘルプ</translation>
-    </message>
-    <message>
-        <source>Don&apos;t Save</source>
-        <translation>保存しない</translation>
-    </message>
-    <message>
-        <source>Close without Saving</source>
-        <translation>保存せずに閉じる</translation>
-    </message>
-    <message>
-        <source>Discard</source>
-        <translation>変更を破棄</translation>
-    </message>
-    <message>
-        <source>&amp;Yes</source>
-        <translation>はい(&amp;Y)</translation>
-    </message>
-    <message>
-        <source>Yes to &amp;All</source>
-        <translation>全てはい(&amp;A)</translation>
-    </message>
-    <message>
-        <source>&amp;No</source>
-        <translation>いいえ(&amp;N)</translation>
-    </message>
-    <message>
-        <source>N&amp;o to All</source>
-        <translation>全ていいえ(&amp;O)</translation>
-    </message>
-    <message>
-        <source>Save All</source>
-        <translation>すべて保存</translation>
-    </message>
-    <message>
-        <source>Abort</source>
-        <translation>中止</translation>
-    </message>
-    <message>
-        <source>Retry</source>
-        <translation>再試行</translation>
-    </message>
-    <message>
-        <source>Ignore</source>
-        <translation>無視</translation>
-    </message>
-    <message>
-        <source>Restore Defaults</source>
-        <translation>デフォルトに戻す</translation>
-    </message>
 </context>
 <context>
     <name>QDirModel</name>
@@ -656,6 +606,10 @@ Press ESC to cancel</source>
     <message>
         <source>Resolver initialization failed</source>
         <translation>リゾルバの初期化に失敗しました</translation>
+    </message>
+    <message>
+        <source>IPv6 addresses for nameservers is currently not supported</source>
+        <translation>IPv6 アドレス用ネームサーバは現在サポートされていません</translation>
     </message>
     <message>
         <source>Server could not process query</source>
@@ -717,11 +671,20 @@ Press ESC to cancel</source>
         <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
         <translation>リゾルバライブラリがロードできません: ランタイムライブラリのロードがサポートされていません</translation>
     </message>
+    <message>
+        <source>No hostname given</source>
+        <translation>ホストネームが与えられていません</translation>
+    </message>
+    <message>
+        <source>Invalid hostname</source>
+        <translation>無効なホスト名</translation>
+    </message>
 </context>
 <context>
     <name>QDockWidget</name>
     <message>
         <source>Float</source>
+        <extracomment>Accessible name for button undocking a dock widget (floating state)</extracomment>
         <translation>フロート</translation>
     </message>
     <message>
@@ -730,6 +693,7 @@ Press ESC to cancel</source>
     </message>
     <message>
         <source>Close</source>
+        <extracomment>Accessible name for button closing a dock widget</extracomment>
         <translation>閉じる</translation>
     </message>
     <message>
@@ -1414,6 +1378,29 @@ Do you want to delete it anyway?</source>
     </message>
 </context>
 <context>
+    <name>QGnomeTheme</name>
+    <message>
+        <source>&amp;OK</source>
+        <translation>&amp;OK</translation>
+    </message>
+    <message>
+        <source>&amp;Save</source>
+        <translation>保存(&amp;S)</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>キャンセル(&amp;C)</translation>
+    </message>
+    <message>
+        <source>&amp;Close</source>
+        <translation>閉じる(&amp;C)</translation>
+    </message>
+    <message>
+        <source>Close without Saving</source>
+        <translation>保存せずに閉じる</translation>
+    </message>
+</context>
+<context>
     <name>QHostInfo</name>
     <message>
         <source>No host name given</source>
@@ -1636,6 +1623,10 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Unknown error</source>
         <translation>未知のエラー</translation>
+    </message>
+    <message>
+        <source>file to open is a directory</source>
+        <translation>ディレクトリを開こうとしました</translation>
     </message>
 </context>
 <context>
@@ -2083,8 +2074,8 @@ Do you want to delete it anyway?</source>
         <translation>&lt;h3&gt;Qt について&lt;/h3&gt;&lt;p&gt;このプログラムは Qt バージョン %1 を使用しています。&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is developed as an open source project on &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Qt はクロスプラットフォームアプリケーション開発用の C++ ツールキットです。&lt;/p&gt;&lt;p&gt;Qt はすべての主なデスクトップオペレーティングシステムにまたがってシングルソースポータビリティを提供します。また、組込み Linux やその他の組込み・モバイルオペレーティングシステムにも対応します。&lt;/p&gt;&lt;p&gt;Qt はさまざまなユーザの必要に応じることを目指して、3つの異なるライセンスで提供されています。.&lt;/p&gt;&lt;p&gt;いかなるソースも第三者と共有したくない場合や GNU LGPL v2.1 や GNU GPL v3.0 の条件に従うことができないようなプロプライエタリ/商用ソフトウェアの開発には商用ライセンス版の Qt の利用が適切です。&lt;/p&gt;&lt;p&gt;GNU LGPL v2.1 の条件に応じることができるのであれば GNU LGPL v2.1 版の Qt の利用が適切です。&lt;/p&gt;&lt;p&gt;GNU GPL v3.0 で提供されているソフトウェアをリンクしたアプリケーションを開発する場合や、GNU GPL v3.0 に賛同している場合には GNU GPL v.30 版の Qt の利用が適切です。&lt;/p&gt;&lt;p&gt;Qt のライセンスについての概要は &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; をご覧ください。&lt;/p&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt は &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt; においてオープンソースプロジェクトとして開発されています。&lt;/p&gt;&lt;p&gt;Qt は Digia 社の製品です。詳しい情報は &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; をご覧ください。&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is developed as an open source project on &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Qt はクロスプラットフォームアプリケーション開発用の C++ ツールキットです。&lt;/p&gt;&lt;p&gt;Qt はすべての主なデスクトップオペレーティングシステムにまたがってシングルソースポータビリティを提供します。また、組込み Linux やその他の組込み・モバイルオペレーティングシステムにも対応しています。&lt;/p&gt;&lt;p&gt;Qt はさまざまなユーザの需要に応えるために、3つの異なるライセンスで提供されています。&lt;/p&gt;&lt;p&gt;いかなるソースも第三者と共有したくない場合や GNU LGPL v2.1 や GNU GPL v3.0 の条件に従うことができないようなプロプライエタリ/商用ソフトウェアの開発には商用ライセンス版の Qt の利用が適切です。&lt;/p&gt;&lt;p&gt;GNU LGPL v2.1 の条件に応じることができるのであれば GNU LGPL v2.1 版の Qt の利用が適切です。&lt;/p&gt;&lt;p&gt;GNU GPL v3.0 で提供されているソフトウェアをリンクしたアプリケーションを開発する場合や、GNU GPL v3.0 に賛同している場合には GNU GPL v.30 版の Qt の利用が適切です。&lt;/p&gt;&lt;p&gt;Qt のライセンスについての概要は &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; をご覧ください。&lt;/p&gt;&lt;p&gt;Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt は &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt; においてオープンソースプロジェクトとして開発されています。&lt;/p&gt;&lt;p&gt;Qt は Digia 社の製品です。詳しい情報は &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; をご覧ください。&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About Qt</source>
@@ -2485,81 +2476,6 @@ Do you want to delete it anyway?</source>
     </message>
 </context>
 <context>
-    <name>QObject</name>
-    <message>
-        <source>OK</source>
-        <translation>OK</translation>
-    </message>
-    <message>
-        <source>Save</source>
-        <translation>保存</translation>
-    </message>
-    <message>
-        <source>Open</source>
-        <translation>開く</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>キャンセル</translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation>閉じる</translation>
-    </message>
-    <message>
-        <source>Apply</source>
-        <translation>適用</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>リセット</translation>
-    </message>
-    <message>
-        <source>Help</source>
-        <translation>ヘルプ</translation>
-    </message>
-    <message>
-        <source>Discard</source>
-        <translation>変更を破棄</translation>
-    </message>
-    <message>
-        <source>Yes</source>
-        <translation>はい</translation>
-    </message>
-    <message>
-        <source>Yes to All</source>
-        <translation>全てはい</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation>いいえ</translation>
-    </message>
-    <message>
-        <source>No to All</source>
-        <translation>全ていいえ</translation>
-    </message>
-    <message>
-        <source>Save All</source>
-        <translation>すべて保存</translation>
-    </message>
-    <message>
-        <source>Abort</source>
-        <translation>中止</translation>
-    </message>
-    <message>
-        <source>Retry</source>
-        <translation>再試行</translation>
-    </message>
-    <message>
-        <source>Ignore</source>
-        <translation>無視</translation>
-    </message>
-    <message>
-        <source>Restore Defaults</source>
-        <translation>デフォルトに戻す</translation>
-    </message>
-</context>
-<context>
     <name>QPSQLDriver</name>
     <message>
         <source>Unable to connect</source>
@@ -2676,10 +2592,6 @@ Do you want to delete it anyway?</source>
         <translation>シートごとのページ数:</translation>
     </message>
     <message>
-        <source>Centimeters (cm)</source>
-        <translation>センチメートル (cm)</translation>
-    </message>
-    <message>
         <source>Millimeters (mm)</source>
         <translation>ミリメートル (mm)</translation>
     </message>
@@ -2691,23 +2603,89 @@ Do you want to delete it anyway?</source>
         <source>Points (pt)</source>
         <translation>ポイント (pt)</translation>
     </message>
-</context>
-<context>
-    <name>QPluginLoader</name>
     <message>
-        <source>The plugin was not loaded.</source>
-        <translation>そのプラグインはロードされていません。</translation>
+        <source>Pica (P̸)</source>
+        <translation>パイカ (pc)</translation>
     </message>
     <message>
-        <source>Unknown error</source>
-        <translation>未知のエラー</translation>
+        <source>Didot (DD)</source>
+        <translation>ディドー (DD)</translation>
+    </message>
+    <message>
+        <source>Cicero (CC)</source>
+        <translation>シセロ (CC)</translation>
+    </message>
+    <message>
+        <source>Custom</source>
+        <translation>カスタム</translation>
+    </message>
+    <message>
+        <source>mm</source>
+        <extracomment>Unit &apos;Millimeter&apos;</extracomment>
+        <translation>mm</translation>
+    </message>
+    <message>
+        <source>pt</source>
+        <extracomment>Unit &apos;Points&apos;</extracomment>
+        <translation>pt</translation>
+    </message>
+    <message>
+        <source>in</source>
+        <extracomment>Unit &apos;Inch&apos;</extracomment>
+        <translation>in</translation>
+    </message>
+    <message>
+        <source>P̸</source>
+        <extracomment>Unit &apos;Pica&apos;</extracomment>
+        <translation>pc</translation>
+    </message>
+    <message>
+        <source>DD</source>
+        <extracomment>Unit &apos;Didot&apos;</extracomment>
+        <translation>DD</translation>
+    </message>
+    <message>
+        <source>CC</source>
+        <extracomment>Unit &apos;Cicero&apos;</extracomment>
+        <translation>CC</translation>
     </message>
 </context>
 <context>
-    <name>QPrintDialog</name>
+    <name>QPageSize</name>
     <message>
-        <source>Print</source>
-        <translation>印刷</translation>
+        <source>Custom (%1mm x %2mm)</source>
+        <extracomment>Custom size name in millimeters</extracomment>
+        <translation>カスタム (%1mm × %2mm)</translation>
+    </message>
+    <message>
+        <source>Custom (%1pt x %2pt)</source>
+        <extracomment>Custom size name in points</extracomment>
+        <translation>カスタム (%1pt × %2pt)</translation>
+    </message>
+    <message>
+        <source>Custom (%1in x %2in)</source>
+        <extracomment>Custom size name in inches</extracomment>
+        <translation>カスタム (%1in × %2in)</translation>
+    </message>
+    <message>
+        <source>Custom (%1pc x %2pc)</source>
+        <extracomment>Custom size name in picas</extracomment>
+        <translation>カスタム (%1pc × %2pc)</translation>
+    </message>
+    <message>
+        <source>Custom (%1DD x %2DD)</source>
+        <extracomment>Custom size name in didots</extracomment>
+        <translation>カスタム (%1DD × %2DD)</translation>
+    </message>
+    <message>
+        <source>Custom (%1CC x %2CC)</source>
+        <extracomment>Custom size name in ciceros</extracomment>
+        <translation>カスタム (%1CC × %2CC)</translation>
+    </message>
+    <message>
+        <source>%1 x %2 in</source>
+        <extracomment>Page size in &apos;Inch&apos;.</extracomment>
+        <translation>%1 × %2in</translation>
     </message>
     <message>
         <source>A0</source>
@@ -2748,6 +2726,10 @@ Do you want to delete it anyway?</source>
     <message>
         <source>A9</source>
         <translation>A9</translation>
+    </message>
+    <message>
+        <source>A10</source>
+        <translation>A10</translation>
     </message>
     <message>
         <source>B0</source>
@@ -2794,44 +2776,449 @@ Do you want to delete it anyway?</source>
         <translation>B10</translation>
     </message>
     <message>
-        <source>C5E</source>
-        <translation>C5E</translation>
+        <source>Executive (7.5 x 10 in)</source>
+        <translation>エグゼクティヴ (7.5 × 10in)</translation>
     </message>
     <message>
-        <source>DLE</source>
-        <translation>DLE</translation>
+        <source>Executive (7.25 x 10.5 in)</source>
+        <translation>エグゼクティヴ (7.25 × 10.5in)</translation>
     </message>
     <message>
-        <source>Executive</source>
-        <translation>エグゼクティヴ</translation>
-    </message>
-    <message>
-        <source>Folio</source>
-        <translation>フォリオ</translation>
-    </message>
-    <message>
-        <source>Ledger</source>
-        <translation>レジャー</translation>
+        <source>Folio (8.27 x 13 in)</source>
+        <translation>フォリオ (8.27 × 13in)</translation>
     </message>
     <message>
         <source>Legal</source>
         <translation>リーガルサイズ</translation>
     </message>
     <message>
-        <source>Letter</source>
-        <translation>レターサイズ</translation>
+        <source>Letter / ANSI A</source>
+        <translation>レター / ANSI A</translation>
     </message>
     <message>
-        <source>Tabloid</source>
-        <translation>タブロイドサイズ</translation>
+        <source>Tabloid / ANSI B</source>
+        <translation>タブロイド / ANSI B</translation>
     </message>
     <message>
-        <source>US Common #10 Envelope</source>
-        <translation>US標準#10封筒</translation>
+        <source>Ledger / ANSI B</source>
+        <translation>レジャー / ANSI B</translation>
     </message>
     <message>
         <source>Custom</source>
         <translation>カスタム</translation>
+    </message>
+    <message>
+        <source>A3 Extra</source>
+        <translation>A3 Extra</translation>
+    </message>
+    <message>
+        <source>A4 Extra</source>
+        <translation>A4 Extra</translation>
+    </message>
+    <message>
+        <source>A4 Plus</source>
+        <translation>A4 Plus</translation>
+    </message>
+    <message>
+        <source>A4 Small</source>
+        <translation>A4 Small</translation>
+    </message>
+    <message>
+        <source>A5 Extra</source>
+        <translation>A5 Extra</translation>
+    </message>
+    <message>
+        <source>B5 Extra</source>
+        <translation>B5 Extra</translation>
+    </message>
+    <message>
+        <source>JIS B0</source>
+        <translation>JIS B0</translation>
+    </message>
+    <message>
+        <source>JIS B1</source>
+        <translation>JIS B1</translation>
+    </message>
+    <message>
+        <source>JIS B2</source>
+        <translation>JIS B2</translation>
+    </message>
+    <message>
+        <source>JIS B3</source>
+        <translation>JIS B3</translation>
+    </message>
+    <message>
+        <source>JIS B4</source>
+        <translation>JIS B4</translation>
+    </message>
+    <message>
+        <source>JIS B5</source>
+        <translation>JIS B5</translation>
+    </message>
+    <message>
+        <source>JIS B6</source>
+        <translation>JIS B6</translation>
+    </message>
+    <message>
+        <source>JIS B7</source>
+        <translation>JIS B7</translation>
+    </message>
+    <message>
+        <source>JIS B8</source>
+        <translation>JIS B8</translation>
+    </message>
+    <message>
+        <source>JIS B9</source>
+        <translation>JIS B9</translation>
+    </message>
+    <message>
+        <source>JIS B10</source>
+        <translation>JIS B10</translation>
+    </message>
+    <message>
+        <source>ANSI C</source>
+        <translation>ANSI C</translation>
+    </message>
+    <message>
+        <source>ANSI D</source>
+        <translation>ANSI D</translation>
+    </message>
+    <message>
+        <source>ANSI E</source>
+        <translation>ANSI E</translation>
+    </message>
+    <message>
+        <source>Legal Extra</source>
+        <translation>リーガル Extra</translation>
+    </message>
+    <message>
+        <source>Letter Extra</source>
+        <translation>レター Extra</translation>
+    </message>
+    <message>
+        <source>Letter Plus</source>
+        <translation>レター Plus</translation>
+    </message>
+    <message>
+        <source>Letter Small</source>
+        <translation>レター Small</translation>
+    </message>
+    <message>
+        <source>Tabloid Extra</source>
+        <translation>タブロイド・エクストラ</translation>
+    </message>
+    <message>
+        <source>Architect A</source>
+        <translation>ARCH A</translation>
+    </message>
+    <message>
+        <source>Architect B</source>
+        <translation>ARCH B</translation>
+    </message>
+    <message>
+        <source>Architect C</source>
+        <translation>ARCH C</translation>
+    </message>
+    <message>
+        <source>Architect D</source>
+        <translation>ARCH D</translation>
+    </message>
+    <message>
+        <source>Architect E</source>
+        <translation>ARCH E</translation>
+    </message>
+    <message>
+        <source>Note</source>
+        <translation>ノート</translation>
+    </message>
+    <message>
+        <source>Quarto</source>
+        <translation>クォート</translation>
+    </message>
+    <message>
+        <source>Statement</source>
+        <translation>ステイトメント</translation>
+    </message>
+    <message>
+        <source>Super A</source>
+        <translation>Super A</translation>
+    </message>
+    <message>
+        <source>Super B</source>
+        <translation>Super B</translation>
+    </message>
+    <message>
+        <source>Postcard</source>
+        <translation>ポストカード</translation>
+    </message>
+    <message>
+        <source>Double Postcard</source>
+        <translation>ダブルポストカード</translation>
+    </message>
+    <message>
+        <source>PRC 16K</source>
+        <translation>PRC 16K</translation>
+    </message>
+    <message>
+        <source>PRC 32K</source>
+        <translation>PRC 32K</translation>
+    </message>
+    <message>
+        <source>PRC 32K Big</source>
+        <translation>PRC 32K(大)</translation>
+    </message>
+    <message>
+        <source>Fan-fold US (14.875 x 11 in)</source>
+        <translation>US ファンフォールド (14.875 × 11in)</translation>
+    </message>
+    <message>
+        <source>Fan-fold German (8.5 x 12 in)</source>
+        <translation>ドイツファンフォールド (8.5 × 12in)</translation>
+    </message>
+    <message>
+        <source>Fan-fold German Legal (8.5 x 13 in)</source>
+        <translation>ドイツリーガルファンフォールド (8.5 × 13in)</translation>
+    </message>
+    <message>
+        <source>Envelope B4</source>
+        <translation>B4 封筒</translation>
+    </message>
+    <message>
+        <source>Envelope B5</source>
+        <translation>B5 封筒</translation>
+    </message>
+    <message>
+        <source>Envelope B6</source>
+        <translation>B6 封筒</translation>
+    </message>
+    <message>
+        <source>Envelope C0</source>
+        <translation>C0 封筒</translation>
+    </message>
+    <message>
+        <source>Envelope C1</source>
+        <translation>C1 封筒</translation>
+    </message>
+    <message>
+        <source>Envelope C2</source>
+        <translation>C2 封筒</translation>
+    </message>
+    <message>
+        <source>Envelope C3</source>
+        <translation>C3 封筒</translation>
+    </message>
+    <message>
+        <source>Envelope C4</source>
+        <translation>C4 封筒</translation>
+    </message>
+    <message>
+        <source>Envelope C5</source>
+        <translation>C5 封筒</translation>
+    </message>
+    <message>
+        <source>Envelope C6</source>
+        <translation>C6 封筒</translation>
+    </message>
+    <message>
+        <source>Envelope C65</source>
+        <translation>C65 封筒</translation>
+    </message>
+    <message>
+        <source>Envelope C7</source>
+        <translation>C7 封筒</translation>
+    </message>
+    <message>
+        <source>Envelope DL</source>
+        <translation>DL 封筒</translation>
+    </message>
+    <message>
+        <source>Envelope US 9</source>
+        <translation>US 封筒 #9</translation>
+    </message>
+    <message>
+        <source>Envelope US 10</source>
+        <translation>US 封筒 #10</translation>
+    </message>
+    <message>
+        <source>Envelope US 11</source>
+        <translation>US 封筒 #11</translation>
+    </message>
+    <message>
+        <source>Envelope US 12</source>
+        <translation>US 封筒 #12</translation>
+    </message>
+    <message>
+        <source>Envelope US 14</source>
+        <translation>US 封筒 #14</translation>
+    </message>
+    <message>
+        <source>Envelope Monarch</source>
+        <translation>封筒モナーク</translation>
+    </message>
+    <message>
+        <source>Envelope Personal</source>
+        <translation>個人用封筒</translation>
+    </message>
+    <message>
+        <source>Envelope Chou 3</source>
+        <translation>長形3号封筒</translation>
+    </message>
+    <message>
+        <source>Envelope Chou 4</source>
+        <translation>長形4号封筒</translation>
+    </message>
+    <message>
+        <source>Envelope Invite</source>
+        <translation>招待状用封筒</translation>
+    </message>
+    <message>
+        <source>Envelope Italian</source>
+        <translation>封筒イタリア</translation>
+    </message>
+    <message>
+        <source>Envelope Kaku 2</source>
+        <translation>角形2号封筒</translation>
+    </message>
+    <message>
+        <source>Envelope Kaku 3</source>
+        <translation>角形3号封筒</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 1</source>
+        <translation>PRC 封筒 #1</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 2</source>
+        <translation>PRC 封筒 #2</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 3</source>
+        <translation>PRC 封筒 #3</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 4</source>
+        <translation>PRC 封筒 #4</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 5</source>
+        <translation>PRC 封筒 #5</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 6</source>
+        <translation>PRC 封筒 #6</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 7</source>
+        <translation>PRC 封筒 #7</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 8</source>
+        <translation>PRC 封筒 #8</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 9</source>
+        <translation>PRC 封筒 #9</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 10</source>
+        <translation>PRC 封筒 #10</translation>
+    </message>
+    <message>
+        <source>Envelope You 4</source>
+        <translation>洋形4号封筒</translation>
+    </message>
+</context>
+<context>
+    <name>QPlatformTheme</name>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Save All</source>
+        <translation>すべて保存</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>開く</translation>
+    </message>
+    <message>
+        <source>&amp;Yes</source>
+        <translation>はい(&amp;Y)</translation>
+    </message>
+    <message>
+        <source>Yes to &amp;All</source>
+        <translation>全てはい(&amp;A)</translation>
+    </message>
+    <message>
+        <source>&amp;No</source>
+        <translation>いいえ(&amp;N)</translation>
+    </message>
+    <message>
+        <source>N&amp;o to All</source>
+        <translation>全ていいえ(&amp;O)</translation>
+    </message>
+    <message>
+        <source>Abort</source>
+        <translation>中止</translation>
+    </message>
+    <message>
+        <source>Retry</source>
+        <translation>再試行</translation>
+    </message>
+    <message>
+        <source>Ignore</source>
+        <translation>無視</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>変更を破棄</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>ヘルプ</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>適用</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>リセット</translation>
+    </message>
+    <message>
+        <source>Restore Defaults</source>
+        <translation>デフォルトに戻す</translation>
+    </message>
+</context>
+<context>
+    <name>QPluginLoader</name>
+    <message>
+        <source>The plugin was not loaded.</source>
+        <translation>そのプラグインはロードされていません。</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>未知のエラー</translation>
+    </message>
+</context>
+<context>
+    <name>QPrintDialog</name>
+    <message>
+        <source>Print</source>
+        <translation>印刷</translation>
     </message>
     <message>
         <source>Left to Right, Top to Bottom</source>
@@ -2960,6 +3347,10 @@ Please turn one of those options off.</source>
     <message>
         <source>OK</source>
         <translation>OK</translation>
+    </message>
+    <message>
+        <source>Automatic</source>
+        <translation>自動</translation>
     </message>
 </context>
 <context>
@@ -3829,15 +4220,15 @@ Please turn one of those options off.</source>
     <message>
         <source>Space</source>
         <extracomment>This and all following &quot;incomprehensible&quot; strings in QShortcut context are key names. Please use the localized names appearing on actual keyboards or whatever is commonly used.</extracomment>
-        <translation>スペース</translation>
+        <translation>Space</translation>
     </message>
     <message>
         <source>Esc</source>
-        <translation>エスケープ</translation>
+        <translation>Esc</translation>
     </message>
     <message>
         <source>Tab</source>
-        <translation>タブ</translation>
+        <translation>Tab</translation>
     </message>
     <message>
         <source>Backtab</source>
@@ -3845,23 +4236,23 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Backspace</source>
-        <translation>バックスペース</translation>
+        <translation>Backspae</translation>
     </message>
     <message>
         <source>Return</source>
-        <translation>リターン</translation>
+        <translation>Return</translation>
     </message>
     <message>
         <source>Enter</source>
-        <translation>エンター</translation>
+        <translation>Enter</translation>
     </message>
     <message>
         <source>Ins</source>
-        <translation>インサート</translation>
+        <translation>Ins</translation>
     </message>
     <message>
         <source>Del</source>
-        <translation>デリート</translation>
+        <translation>Del</translation>
     </message>
     <message>
         <source>Pause</source>
@@ -4271,7 +4662,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Menu PB</source>
-        <translation type="unfinished"></translation>
+        <translation>PB メニュー</translation>
     </message>
     <message>
         <source>My Sites</source>
@@ -4706,23 +5097,23 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Ctrl</source>
-        <translation>コントロール</translation>
+        <translation>Ctrl</translation>
     </message>
     <message>
         <source>Shift</source>
-        <translation>シフト</translation>
+        <translation>Shift</translation>
     </message>
     <message>
         <source>Alt</source>
-        <translation>オルト</translation>
+        <translation>Alt</translation>
     </message>
     <message>
         <source>Meta</source>
-        <translation>メタ</translation>
+        <translation>Meta</translation>
     </message>
     <message>
         <source>Num</source>
-        <translation>ナム</translation>
+        <translation>Num</translation>
     </message>
     <message>
         <source>+</source>
@@ -5503,43 +5894,59 @@ Please turn one of those options off.</source>
     <name>QUnicodeControlCharacterMenu</name>
     <message>
         <source>LRM Left-to-right mark</source>
-        <translation>LRM (左横書き指定)</translation>
+        <translation>LRM(Left-to-right mark)</translation>
     </message>
     <message>
         <source>RLM Right-to-left mark</source>
-        <translation>RLM (右横書き指定)</translation>
+        <translation>RLM(Right-to-left mark)</translation>
     </message>
     <message>
         <source>ZWJ Zero width joiner</source>
-        <translation>ZWJ (幅のない接続文字)</translation>
+        <translation>ZWJ(幅0の接続文字)</translation>
     </message>
     <message>
         <source>ZWNJ Zero width non-joiner</source>
-        <translation>ZWNJ (幅のない非接続文字)</translation>
+        <translation>ZWNJ(幅0の非接続文字)</translation>
     </message>
     <message>
         <source>ZWSP Zero width space</source>
-        <translation>ZWSP (幅の無い空白)</translation>
+        <translation>ZWSP(幅0の空白)</translation>
     </message>
     <message>
         <source>LRE Start of left-to-right embedding</source>
-        <translation>LRE (左横書き開始指定)</translation>
+        <translation>LRE(Start of left-to-right embedding)</translation>
     </message>
     <message>
         <source>RLE Start of right-to-left embedding</source>
-        <translation>RLE (右横書き開始指定)</translation>
+        <translation>RLE(Start of right-to-left embedding)</translation>
     </message>
     <message>
         <source>LRO Start of left-to-right override</source>
-        <translation>LRO (左横書き上書き開始指定)</translation>
+        <translation>LRO(Start of left-to-right override)</translation>
     </message>
     <message>
         <source>RLO Start of right-to-left override</source>
-        <translation>RLO (右横書き上書き開始指定)</translation>
+        <translation>RLO(Start of right-to-left override)</translation>
     </message>
     <message>
         <source>PDF Pop directional formatting</source>
-        <translation>PDF (方向上書きの終了指定)</translation>
+        <translation>PDF(Pop directional formatting)</translation>
+    </message>
+    <message>
+        <source>LRI Left-to-right isolate</source>
+        <translation>LRI(Left-to-right isolate)</translation>
+    </message>
+    <message>
+        <source>RLI Right-to-left isolate</source>
+        <translation>RLI(Right-to-left isolate)</translation>
+    </message>
+    <message>
+        <source>FSI First strong isolate</source>
+        <translation>FSI(First strong isolate)</translation>
+    </message>
+    <message>
+        <source>PDI Pop directional isolate</source>
+        <translation>PDI(Pop directional isolate)</translation>
     </message>
     <message>
         <source>Insert Unicode control character</source>

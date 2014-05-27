@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ru_RU">
+<TS version="2.1" language="ru_RU">
 <context>
     <name>CloseButton</name>
     <message>
@@ -213,6 +213,22 @@
     <message>
         <source>Exit</source>
         <translation>Выход</translation>
+    </message>
+    <message>
+        <source>Cut</source>
+        <translation>Вырезать</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>Копировать</translation>
+    </message>
+    <message>
+        <source>Paste</source>
+        <translation>Вставить</translation>
+    </message>
+    <message>
+        <source>Select All</source>
+        <translation>Выделить всё</translation>
     </message>
 </context>
 <context>
@@ -545,98 +561,6 @@ Press ESC to cancel</source>
     <message>
         <source>OK</source>
         <translation>ОК</translation>
-    </message>
-    <message>
-        <source>&amp;OK</source>
-        <translation>&amp;ОК</translation>
-    </message>
-    <message>
-        <source>&amp;Save</source>
-        <translation>&amp;Сохранить</translation>
-    </message>
-    <message>
-        <source>Save</source>
-        <translation>Сохранить</translation>
-    </message>
-    <message>
-        <source>Open</source>
-        <translation>Открыть</translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation>От&amp;мена</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Отмена</translation>
-    </message>
-    <message>
-        <source>&amp;Close</source>
-        <translation>&amp;Закрыть</translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation>Закрыть</translation>
-    </message>
-    <message>
-        <source>Apply</source>
-        <translation>Применить</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>Сбросить</translation>
-    </message>
-    <message>
-        <source>Help</source>
-        <translation>Справка</translation>
-    </message>
-    <message>
-        <source>Don&apos;t Save</source>
-        <translation>Не сохранять</translation>
-    </message>
-    <message>
-        <source>Close without Saving</source>
-        <translation>Закрыть без сохранения</translation>
-    </message>
-    <message>
-        <source>Discard</source>
-        <translation>Отклонить</translation>
-    </message>
-    <message>
-        <source>&amp;Yes</source>
-        <translation>&amp;Да</translation>
-    </message>
-    <message>
-        <source>Yes to &amp;All</source>
-        <translation>Да для &amp;всех</translation>
-    </message>
-    <message>
-        <source>&amp;No</source>
-        <translation>&amp;Нет</translation>
-    </message>
-    <message>
-        <source>N&amp;o to All</source>
-        <translation>Н&amp;ет для всех</translation>
-    </message>
-    <message>
-        <source>Save All</source>
-        <translation>Сохранить все</translation>
-    </message>
-    <message>
-        <source>Abort</source>
-        <translation>Прервать</translation>
-    </message>
-    <message>
-        <source>Retry</source>
-        <translation>Повторить</translation>
-    </message>
-    <message>
-        <source>Ignore</source>
-        <translation>Пропустить</translation>
-    </message>
-    <message>
-        <source>Restore Defaults</source>
-        <translation>Восстановить значения</translation>
     </message>
 </context>
 <context>
@@ -2160,10 +2084,6 @@ Do you want to delete it anyway?</source>
         <translation>&lt;p&gt;Qt ― это инструментарий для разработки кроссплатформенных приложений на C++.&lt;/p&gt;&lt;p&gt;Qt предоставляет совместимость на уровне исходных текстов для всех популярных настольных операционных систем. Также Qt доступна для встраиваемого Linux и других мобильных операционных систем.&lt;/p&gt;&lt;p&gt;Qt доступна под тремя лицензиями, разработанными для удовлетворения различных требований.&lt;/p&gt;&lt;p&gt;Qt под нашей коммерческой лицензией предназначена для развития проприетарного/коммерческого программного обеспечения, когда Вы не желаете предоставлять исходные тексты третьим сторонам, или в случае невозможности принятия условий лицензий GNU LGPL версии 2.1 или GNU GPL версии 3.0.&lt;/p&gt;&lt;p&gt;Qt под лицензией GNU LGPL версии 2.1 предназначена для разработки программного обеспечения с открытыми исходными текстами или коммерческого программного обеспечения при соблюдении условий лицензии GNU LGPL версии 2.1.&lt;/p&gt;&lt;p&gt;Qt под лицензией GNU General Public License версии 3.0 предназначена для разработки программных приложений в тех случаях, когда Вы хотели бы использовать такие приложения в сочетании с программным обеспечением на условиях лицензии GNU GPL с версии 3.0 или если Вы готовы соблюдать условия лицензии GNU GPL версии 3.0.&lt;/p&gt;&lt;p&gt;Подробнее с лицензированием Qt можно ознакомиться на сайте &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Copyright (C) 2014 Digia Plc и/или её дочерние подразделения и другие участники.&lt;/p&gt;&lt;p&gt;Qt, как открытый проект, разрабатывается на &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt ― продукт компании Digia. Более подробную информацию можно найти на сайте &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt;.&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is developed as an open source project on &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Qt ― это инструментарий для разработки кроссплатформенных приложений на C++.&lt;/p&gt;&lt;p&gt;Qt предоставляет совместимость на уровне исходных текстов между для всех популярных настольных операционных систем. Также Qt доступна для встраиваемого Linux и других мобильных операционных систем.&lt;/p&gt;&lt;p&gt;Qt доступна под тремя различными лицензиями, разработанными для удовлетворения различных требований.&lt;/p&gt;&lt;p&gt;Qt под нашей коммерческой лицензией предназначена для развития проприетарного/коммерческого программного обеспечения, когда Вы не желаете предоставлять исходные тексты третьим сторонам, или в случае невозможности принятия условий лицензий GNU LGPL версии 2.1 или GNU GPL версии 3.0.&lt;/p&gt;&lt;p&gt;Qt под лицензией GNU LGPL версии 2.1 предназначена для разработки программного обеспечения с открытыми исходными текстами или коммерческого программного обеспечения при соблюдении условий лицензии GNU LGPL версии 2.1.&lt;/p&gt;&lt;p&gt;Qt под лицензией GNU General Public License версии 3.0 предназначена для разработки программных приложений в тех случаях, когда Вы хотели бы использовать такие приложения в сочетании с программным обеспечением на условиях лицензии GNU GPL с версии 3.0 или если Вы готовы соблюдать условия лицензии GNU GPL версии 3.0.&lt;/p&gt;&lt;p&gt;Подробнее с лицензированием Qt можно ознакомиться на сайте &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc и/или её дочерние подразделения и другие участники.&lt;/p&gt;&lt;p&gt;Qt, как открытый проект, разрабатывается на &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt ― продукт компании Digia. Более подробную информацию можно найти на сайте &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt;.&lt;/p&gt;</translation>
-    </message>
-    <message>
         <source>About Qt</source>
         <translation>О Qt</translation>
     </message>
@@ -2666,16 +2586,12 @@ Do you want to delete it anyway?</source>
         <translation>нижнее поле</translation>
     </message>
     <message>
-        <source>Centimeters (cm)</source>
-        <translation>Сантиметры (cm)</translation>
-    </message>
-    <message>
         <source>Millimeters (mm)</source>
-        <translation>Миллиметры (mm)</translation>
+        <translation>Миллиметры (мм)</translation>
     </message>
     <message>
         <source>Inches (in)</source>
-        <translation>Дюймы (in)</translation>
+        <translation>Дюймы (дм)</translation>
     </message>
     <message>
         <source>Points (pt)</source>
@@ -2705,7 +2621,7 @@ Do you want to delete it anyway?</source>
     <message>
         <source>pt</source>
         <extracomment>Unit &apos;Points&apos;</extracomment>
-        <translation>пт</translation>
+        <translation>pt</translation>
     </message>
     <message>
         <source>in</source>
@@ -3309,130 +3225,6 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Print</source>
         <translation>Печать</translation>
-    </message>
-    <message>
-        <source>A0</source>
-        <translation>A0</translation>
-    </message>
-    <message>
-        <source>A1</source>
-        <translation>A1</translation>
-    </message>
-    <message>
-        <source>A2</source>
-        <translation>A2</translation>
-    </message>
-    <message>
-        <source>A3</source>
-        <translation>A3</translation>
-    </message>
-    <message>
-        <source>A4</source>
-        <translation>A4</translation>
-    </message>
-    <message>
-        <source>A5</source>
-        <translation>A5</translation>
-    </message>
-    <message>
-        <source>A6</source>
-        <translation>A6</translation>
-    </message>
-    <message>
-        <source>A7</source>
-        <translation>A7</translation>
-    </message>
-    <message>
-        <source>A8</source>
-        <translation>A8</translation>
-    </message>
-    <message>
-        <source>A9</source>
-        <translation>A9</translation>
-    </message>
-    <message>
-        <source>B0</source>
-        <translation>B0</translation>
-    </message>
-    <message>
-        <source>B1</source>
-        <translation>B1</translation>
-    </message>
-    <message>
-        <source>B2</source>
-        <translation>B2</translation>
-    </message>
-    <message>
-        <source>B3</source>
-        <translation>B3</translation>
-    </message>
-    <message>
-        <source>B4</source>
-        <translation>B4</translation>
-    </message>
-    <message>
-        <source>B5</source>
-        <translation>B5</translation>
-    </message>
-    <message>
-        <source>B6</source>
-        <translation>B6</translation>
-    </message>
-    <message>
-        <source>B7</source>
-        <translation>B7</translation>
-    </message>
-    <message>
-        <source>B8</source>
-        <translation>B8</translation>
-    </message>
-    <message>
-        <source>B9</source>
-        <translation>B9</translation>
-    </message>
-    <message>
-        <source>B10</source>
-        <translation>B10</translation>
-    </message>
-    <message>
-        <source>C5E</source>
-        <translation>C5E</translation>
-    </message>
-    <message>
-        <source>DLE</source>
-        <translation>DLE</translation>
-    </message>
-    <message>
-        <source>Executive</source>
-        <translation>Executive</translation>
-    </message>
-    <message>
-        <source>Folio</source>
-        <translation>Folio</translation>
-    </message>
-    <message>
-        <source>Ledger</source>
-        <translation>Ledger</translation>
-    </message>
-    <message>
-        <source>Legal</source>
-        <translation>Legal</translation>
-    </message>
-    <message>
-        <source>Letter</source>
-        <translation>Letter</translation>
-    </message>
-    <message>
-        <source>Tabloid</source>
-        <translation>Таблоид</translation>
-    </message>
-    <message>
-        <source>US Common #10 Envelope</source>
-        <translation>US Common #10 Envelope</translation>
-    </message>
-    <message>
-        <source>Custom</source>
-        <translation>Пользовательский</translation>
     </message>
     <message>
         <source>Left to Right, Top to Bottom</source>
@@ -4640,67 +4432,67 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Launch (0)</source>
-        <translation type="unfinished">Запустить (0)</translation>
+        <translation>Запустить (0)</translation>
     </message>
     <message>
         <source>Launch (1)</source>
-        <translation type="unfinished">Запустить (1)</translation>
+        <translation>Запустить (1)</translation>
     </message>
     <message>
         <source>Launch (2)</source>
-        <translation type="unfinished">Запустить (2)</translation>
+        <translation>Запустить (2)</translation>
     </message>
     <message>
         <source>Launch (3)</source>
-        <translation type="unfinished">Запустить (3)</translation>
+        <translation>Запустить (3)</translation>
     </message>
     <message>
         <source>Launch (4)</source>
-        <translation type="unfinished">Запустить (4)</translation>
+        <translation>Запустить (4)</translation>
     </message>
     <message>
         <source>Launch (5)</source>
-        <translation type="unfinished">Запустить (5)</translation>
+        <translation>Запустить (5)</translation>
     </message>
     <message>
         <source>Launch (6)</source>
-        <translation type="unfinished">Запустить (6)</translation>
+        <translation>Запустить (6)</translation>
     </message>
     <message>
         <source>Launch (7)</source>
-        <translation type="unfinished">Запустить (7)</translation>
+        <translation>Запустить (7)</translation>
     </message>
     <message>
         <source>Launch (8)</source>
-        <translation type="unfinished">Запустить (8)</translation>
+        <translation>Запустить (8)</translation>
     </message>
     <message>
         <source>Launch (9)</source>
-        <translation type="unfinished">Запустить (9)</translation>
+        <translation>Запустить (9)</translation>
     </message>
     <message>
         <source>Launch (A)</source>
-        <translation type="unfinished">Запустить (A)</translation>
+        <translation>Запустить (A)</translation>
     </message>
     <message>
         <source>Launch (B)</source>
-        <translation type="unfinished">Запустить (B)</translation>
+        <translation>Запустить (B)</translation>
     </message>
     <message>
         <source>Launch (C)</source>
-        <translation type="unfinished">Запустить (C)</translation>
+        <translation>Запустить (C)</translation>
     </message>
     <message>
         <source>Launch (D)</source>
-        <translation type="unfinished">Запустить (D)</translation>
+        <translation>Запустить (D)</translation>
     </message>
     <message>
         <source>Launch (E)</source>
-        <translation type="unfinished">Запустить (E)</translation>
+        <translation>Запустить (E)</translation>
     </message>
     <message>
         <source>Launch (F)</source>
-        <translation type="unfinished">Запустить (F)</translation>
+        <translation>Запустить (F)</translation>
     </message>
     <message>
         <source>Monitor Brightness Up</source>
@@ -4748,23 +4540,23 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>LightBulb</source>
-        <translation type="unfinished">Лампочка</translation>
+        <translation>Лампочка</translation>
     </message>
     <message>
         <source>Shop</source>
-        <translation type="unfinished">Магазин</translation>
+        <translation>Магазин</translation>
     </message>
     <message>
         <source>History</source>
-        <translation type="unfinished">История</translation>
+        <translation>История</translation>
     </message>
     <message>
         <source>Add Favorite</source>
-        <translation type="unfinished">Добавить в избранное</translation>
+        <translation>Добавить в избранное</translation>
     </message>
     <message>
         <source>Hot Links</source>
-        <translation type="unfinished">Горячие ссылки</translation>
+        <translation>Горячие ссылки</translation>
     </message>
     <message>
         <source>Adjust Brightness</source>
@@ -4772,7 +4564,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Finance</source>
-        <translation type="unfinished">Финансы</translation>
+        <translation>Финансы</translation>
     </message>
     <message>
         <source>Community</source>
@@ -4788,11 +4580,13 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Application Left</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>я так понимаю, левая кнопка, операция которой зависит от приложения</translatorcomment>
+        <translation>Левая приложения</translation>
     </message>
     <message>
         <source>Application Right</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>я так понимаю, правая кнопка, операция которой зависит от приложения</translatorcomment>
+        <translation>Правая приложения</translation>
     </message>
     <message>
         <source>Book</source>
@@ -4800,7 +4594,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>CD</source>
-        <translation type="unfinished">CD</translation>
+        <translation>CD</translation>
     </message>
     <message>
         <source>Calculator</source>
@@ -4808,7 +4602,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Clear</source>
-        <translation type="unfinished">Очистить</translation>
+        <translation>Очистить</translation>
     </message>
     <message>
         <source>Clear Grab</source>
@@ -4828,11 +4622,11 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Display</source>
-        <translation type="unfinished">Display</translation>
+        <translation>Display</translation>
     </message>
     <message>
         <source>DOS</source>
-        <translation type="unfinished">DOS</translation>
+        <translation>DOS</translation>
     </message>
     <message>
         <source>Documents</source>
@@ -4840,39 +4634,39 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Spreadsheet</source>
-        <translation type="unfinished">Электронная таблицы</translation>
+        <translation>Электронная таблицы</translation>
     </message>
     <message>
         <source>Browser</source>
-        <translation type="unfinished">Обозреватель</translation>
+        <translation>Обозреватель</translation>
     </message>
     <message>
         <source>Game</source>
-        <translation type="unfinished">Игра</translation>
+        <translation>Игра</translation>
     </message>
     <message>
         <source>Go</source>
-        <translation type="unfinished">Перейти</translation>
+        <translation>Перейти</translation>
     </message>
     <message>
         <source>iTouch</source>
-        <translation type="unfinished">iTouch</translation>
+        <translation>iTouch</translation>
     </message>
     <message>
         <source>Logoff</source>
-        <translation type="unfinished">Выйти из системы</translation>
+        <translation>Выйти из системы</translation>
     </message>
     <message>
         <source>Market</source>
-        <translation type="unfinished">Рынок</translation>
+        <translation>Рынок</translation>
     </message>
     <message>
         <source>Meeting</source>
-        <translation type="unfinished">Встреча</translation>
+        <translation>Встреча</translation>
     </message>
     <message>
         <source>Keyboard Menu</source>
-        <translation type="unfinished">Клавиатурное меню</translation>
+        <translation>Клавиатурное меню</translation>
     </message>
     <message>
         <source>Menu PB</source>
@@ -4880,19 +4674,19 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>My Sites</source>
-        <translation type="unfinished">Мои сайты</translation>
+        <translation>Мои сайты</translation>
     </message>
     <message>
         <source>News</source>
-        <translation type="unfinished">Новости</translation>
+        <translation>Новости</translation>
     </message>
     <message>
         <source>Home Office</source>
-        <translation type="unfinished">Домашний офис</translation>
+        <translation>Домашний офис</translation>
     </message>
     <message>
         <source>Option</source>
-        <translation type="unfinished">Опция</translation>
+        <translation>Опция</translation>
     </message>
     <message>
         <source>Paste</source>
@@ -4900,11 +4694,11 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Phone</source>
-        <translation type="unfinished">Телефон</translation>
+        <translation>Телефон</translation>
     </message>
     <message>
         <source>Reply</source>
-        <translation type="unfinished">Ответить</translation>
+        <translation>Ответить</translation>
     </message>
     <message>
         <source>Reload</source>
@@ -4912,7 +4706,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Rotate Windows</source>
-        <translation type="unfinished">Повернуть окна</translation>
+        <translation>Повернуть окна</translation>
     </message>
     <message>
         <source>Rotation PB</source>
@@ -4928,35 +4722,35 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Send</source>
-        <translation type="unfinished">Отправить</translation>
+        <translation>Отправить</translation>
     </message>
     <message>
         <source>Spellchecker</source>
-        <translation type="unfinished">Проверка орфографии</translation>
+        <translation>Проверка орфографии</translation>
     </message>
     <message>
         <source>Split Screen</source>
-        <translation type="unfinished">Разделить экран</translation>
+        <translation>Разделить экран</translation>
     </message>
     <message>
         <source>Support</source>
-        <translation type="unfinished">Поддержка</translation>
+        <translation>Поддержка</translation>
     </message>
     <message>
         <source>Task Panel</source>
-        <translation type="unfinished">Панель задач</translation>
+        <translation>Панель задач</translation>
     </message>
     <message>
         <source>Terminal</source>
-        <translation type="unfinished">Терминал</translation>
+        <translation>Терминал</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished">Инструменты</translation>
+        <translation>Инструменты</translation>
     </message>
     <message>
         <source>Travel</source>
-        <translation type="unfinished">Путешествие</translation>
+        <translation>Путешествие</translation>
     </message>
     <message>
         <source>Video</source>
@@ -4964,7 +4758,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Word Processor</source>
-        <translation type="unfinished">Текстовый редактор</translation>
+        <translation>Текстовый редактор</translation>
     </message>
     <message>
         <source>XFer</source>
@@ -4984,15 +4778,15 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Messenger</source>
-        <translation type="unfinished">Клиент обмена мгновенными сообщениями</translation>
+        <translation>Клиент обмена мгновенными сообщениями</translation>
     </message>
     <message>
         <source>WebCam</source>
-        <translation type="unfinished">Вэб-камера</translation>
+        <translation>Вэб-камера</translation>
     </message>
     <message>
         <source>Mail Forward</source>
-        <translation type="unfinished">Переслать письмо</translation>
+        <translation>Переслать письмо</translation>
     </message>
     <message>
         <source>Pictures</source>
@@ -5016,27 +4810,27 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Ultra Wide Band</source>
-        <translation type="unfinished">Сверхширокополосная связь</translation>
+        <translation>Сверхширокополосная связь</translation>
     </message>
     <message>
         <source>Audio Forward</source>
-        <translation type="unfinished">Последовательное воспроизведение</translation>
+        <translation>Последовательное воспроизведение</translation>
     </message>
     <message>
         <source>Audio Repeat</source>
-        <translation type="unfinished">Воспроизведение по кругу</translation>
+        <translation>Воспроизведение по кругу</translation>
     </message>
     <message>
         <source>Audio Random Play</source>
-        <translation type="unfinished">Случайное воспроизведение</translation>
+        <translation>Случайное воспроизведение</translation>
     </message>
     <message>
         <source>Subtitle</source>
-        <translation type="unfinished">Субтитры</translation>
+        <translation>Субтитры</translation>
     </message>
     <message>
         <source>Audio Cycle Track</source>
-        <translation type="unfinished">Зацикленное воспроизведение дорожки</translation>
+        <translation>Зацикленное воспроизведение дорожки</translation>
     </message>
     <message>
         <source>Time</source>
@@ -5044,11 +4838,11 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Select</source>
-        <translation type="unfinished">Выбрать</translation>
+        <translation>Выбрать</translation>
     </message>
     <message>
         <source>View</source>
-        <translation type="unfinished">Вид</translation>
+        <translation>Вид</translation>
     </message>
     <message>
         <source>Top Menu</source>
@@ -5056,7 +4850,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Suspend</source>
-        <translation type="unfinished">Приостановить</translation>
+        <translation>Приостановить</translation>
     </message>
     <message>
         <source>Hibernate</source>
@@ -5116,19 +4910,19 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Context1</source>
-        <translation type="unfinished"></translation>
+        <translation>Контекст1</translation>
     </message>
     <message>
         <source>Context2</source>
-        <translation type="unfinished"></translation>
+        <translation>Контекст2</translation>
     </message>
     <message>
         <source>Context3</source>
-        <translation type="unfinished"></translation>
+        <translation>Контекст3</translation>
     </message>
     <message>
         <source>Context4</source>
-        <translation type="unfinished"></translation>
+        <translation>Контекст4</translation>
     </message>
     <message>
         <source>Call</source>
@@ -5171,123 +4965,123 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Kanji</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanji</translation>
     </message>
     <message>
         <source>Muhenkan</source>
-        <translation type="unfinished"></translation>
+        <translation>Muhenkan</translation>
     </message>
     <message>
         <source>Henkan</source>
-        <translation type="unfinished"></translation>
+        <translation>Henkan</translation>
     </message>
     <message>
         <source>Romaji</source>
-        <translation type="unfinished"></translation>
+        <translation>Romaji</translation>
     </message>
     <message>
         <source>Hiragana</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiragana</translation>
     </message>
     <message>
         <source>Katakana</source>
-        <translation type="unfinished"></translation>
+        <translation>Katakana</translation>
     </message>
     <message>
         <source>Hiragana Katakana</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiragana Katakana</translation>
     </message>
     <message>
         <source>Zenkaku</source>
-        <translation type="unfinished"></translation>
+        <translation>Zenkaku</translation>
     </message>
     <message>
         <source>Hankaku</source>
-        <translation type="unfinished"></translation>
+        <translation>Hankaku</translation>
     </message>
     <message>
         <source>Zenkaku Hankaku</source>
-        <translation type="unfinished"></translation>
+        <translation>Zenkaku Hankaku</translation>
     </message>
     <message>
         <source>Touroku</source>
-        <translation type="unfinished"></translation>
+        <translation>Touroku</translation>
     </message>
     <message>
         <source>Massyo</source>
-        <translation type="unfinished"></translation>
+        <translation>Massyo</translation>
     </message>
     <message>
         <source>Kana Lock</source>
-        <translation type="unfinished"></translation>
+        <translation>Kana Lock</translation>
     </message>
     <message>
         <source>Kana Shift</source>
-        <translation type="unfinished"></translation>
+        <translation>Kana Shift</translation>
     </message>
     <message>
         <source>Eisu Shift</source>
-        <translation type="unfinished"></translation>
+        <translation>Eisu Shift</translation>
     </message>
     <message>
         <source>Eisu toggle</source>
-        <translation type="unfinished"></translation>
+        <translation>Переключение Eisu</translation>
     </message>
     <message>
         <source>Code input</source>
-        <translation type="unfinished">Ввод кода</translation>
+        <translation>Ввод кода</translation>
     </message>
     <message>
         <source>Multiple Candidate</source>
-        <translation type="unfinished">Несколько вариантов</translation>
+        <translation>Несколько вариантов</translation>
     </message>
     <message>
         <source>Previous Candidate</source>
-        <translation type="unfinished">Предыдущий вариант</translation>
+        <translation>Предыдущий вариант</translation>
     </message>
     <message>
         <source>Hangul</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul</translation>
     </message>
     <message>
         <source>Hangul Start</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul Start</translation>
     </message>
     <message>
         <source>Hangul End</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul End</translation>
     </message>
     <message>
         <source>Hangul Hanja</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul Hanja</translation>
     </message>
     <message>
         <source>Hangul Jamo</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul Jamo</translation>
     </message>
     <message>
         <source>Hangul Romaja</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul Romaja</translation>
     </message>
     <message>
         <source>Hangul Jeonja</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul Jeonja</translation>
     </message>
     <message>
         <source>Hangul Banja</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul Banja</translation>
     </message>
     <message>
         <source>Hangul PreHanja</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul PreHanja</translation>
     </message>
     <message>
         <source>Hangul PostHanja</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul PostHanja</translation>
     </message>
     <message>
         <source>Hangul Special</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul Special</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -6499,81 +6293,6 @@ Please turn one of those options off.</source>
     <message>
         <source>Invalid character reference.</source>
         <translation>Некорректная символьная ссылка.</translation>
-    </message>
-</context>
-<context>
-    <name>QtAndroidDialogHelpers::QAndroidPlatformMessageDialogHelper</name>
-    <message>
-        <source>OK</source>
-        <translation>ОК</translation>
-    </message>
-    <message>
-        <source>Save</source>
-        <translation>Сохранить</translation>
-    </message>
-    <message>
-        <source>Open</source>
-        <translation>Открыть</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Отмена</translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation>Закрыть</translation>
-    </message>
-    <message>
-        <source>Apply</source>
-        <translation>Применить</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>Сбросить</translation>
-    </message>
-    <message>
-        <source>Help</source>
-        <translation>Справка</translation>
-    </message>
-    <message>
-        <source>Discard</source>
-        <translation>Отклонить</translation>
-    </message>
-    <message>
-        <source>Yes</source>
-        <translation>Да</translation>
-    </message>
-    <message>
-        <source>Yes to All</source>
-        <translation>Да для всех</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation>Нет</translation>
-    </message>
-    <message>
-        <source>No to All</source>
-        <translation>Нет для всех</translation>
-    </message>
-    <message>
-        <source>Save All</source>
-        <translation>Сохранить все</translation>
-    </message>
-    <message>
-        <source>Abort</source>
-        <translation>Прервать</translation>
-    </message>
-    <message>
-        <source>Retry</source>
-        <translation>Повторить</translation>
-    </message>
-    <message>
-        <source>Ignore</source>
-        <translation>Пропустить</translation>
-    </message>
-    <message>
-        <source>Restore Defaults</source>
-        <translation>Восстановить значения</translation>
     </message>
 </context>
 </TS>

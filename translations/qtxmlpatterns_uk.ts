@@ -451,7 +451,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The prefix %1 cannot be bound. By default, it is already bound to the namespace %2.</source>
+        <source>The prefix %1 can not be bound. By default, it is already bound to the namespace %2.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

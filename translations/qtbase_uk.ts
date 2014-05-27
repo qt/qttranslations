@@ -784,6 +784,25 @@
     </message>
 </context>
 <context>
+    <name>QAndroidPlatformTheme</name>
+    <message>
+        <source>Yes</source>
+        <translation>Так</translation>
+    </message>
+    <message>
+        <source>Yes to All</source>
+        <translation>Так для всіх</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Ні</translation>
+    </message>
+    <message>
+        <source>No to All</source>
+        <translation>Ні для всіх</translation>
+    </message>
+</context>
+<context>
     <name>QApplication</name>
     <message>
         <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
@@ -831,6 +850,29 @@
     <message>
         <source>Exit</source>
         <translation>Вийти</translation>
+    </message>
+    <message>
+        <source>Cut</source>
+        <translation>Вирізати</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>Копіювати</translation>
+    </message>
+    <message>
+        <source>Paste</source>
+        <translation>Вставити</translation>
+    </message>
+    <message>
+        <source>Select All</source>
+        <translation>Виділити все</translation>
+    </message>
+</context>
+<context>
+    <name>QCocoaTheme</name>
+    <message>
+        <source>Don&apos;t Save</source>
+        <translation>Не зберігати</translation>
     </message>
 </context>
 <context>
@@ -1159,95 +1201,95 @@ Press ESC to cancel</source>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
+        <translation type="vanished">&amp;OK</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;Зберегти</translation>
+        <translation type="vanished">&amp;Зберегти</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Зберегти</translation>
+        <translation type="vanished">Зберегти</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Відкрити</translation>
+        <translation type="vanished">Відкрити</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Скасувати</translation>
+        <translation type="vanished">&amp;Скасувати</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Скасувати</translation>
+        <translation type="vanished">Скасувати</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>Закри&amp;ти</translation>
+        <translation type="vanished">Закри&amp;ти</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Закрити</translation>
+        <translation type="vanished">Закрити</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation>Застосувати</translation>
+        <translation type="vanished">Застосувати</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Скинути</translation>
+        <translation type="vanished">Скинути</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Довідка</translation>
+        <translation type="vanished">Довідка</translation>
     </message>
     <message>
         <source>Don&apos;t Save</source>
-        <translation>Не зберігати</translation>
+        <translation type="vanished">Не зберігати</translation>
     </message>
     <message>
         <source>Close without Saving</source>
-        <translation>Закрити без збереження</translation>
+        <translation type="vanished">Закрити без збереження</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>Відхилити</translation>
+        <translation type="vanished">Відхилити</translation>
     </message>
     <message>
         <source>&amp;Yes</source>
-        <translation>Т&amp;ак</translation>
+        <translation type="vanished">Т&amp;ак</translation>
     </message>
     <message>
         <source>Yes to &amp;All</source>
-        <translation>Так &amp;для всіх</translation>
+        <translation type="vanished">Так &amp;для всіх</translation>
     </message>
     <message>
         <source>&amp;No</source>
-        <translation>&amp;Ні</translation>
+        <translation type="vanished">&amp;Ні</translation>
     </message>
     <message>
         <source>N&amp;o to All</source>
-        <translation>Ні для вс&amp;іх</translation>
+        <translation type="vanished">Ні для вс&amp;іх</translation>
     </message>
     <message>
         <source>Save All</source>
-        <translation>Зберегти все</translation>
+        <translation type="vanished">Зберегти все</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation>Перервати</translation>
+        <translation type="vanished">Перервати</translation>
     </message>
     <message>
         <source>Retry</source>
-        <translation>Повторити</translation>
+        <translation type="vanished">Повторити</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation>Ігнорувати</translation>
+        <translation type="vanished">Ігнорувати</translation>
     </message>
     <message>
         <source>Restore Defaults</source>
-        <translation>Відновити типово</translation>
+        <translation type="vanished">Відновити типово</translation>
     </message>
 </context>
 <context>
@@ -1299,6 +1341,10 @@ Press ESC to cancel</source>
     <message>
         <source>Resolver initialization failed</source>
         <translation>Збій ініціалізації розв&apos;язання імен</translation>
+    </message>
+    <message>
+        <source>IPv6 addresses for nameservers is currently not supported</source>
+        <translation>Адреси IPv6 для серверів імен поки що не підтримуються</translation>
     </message>
     <message>
         <source>Server could not process query</source>
@@ -1360,6 +1406,14 @@ Press ESC to cancel</source>
         <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
         <translation>Неможливо завантажити бібліотеку для розв&apos;язання імен: відсутня підтримка динамічного підвантаження бібліотек</translation>
     </message>
+    <message>
+        <source>No hostname given</source>
+        <translation>Ім&apos;я вузла не задано</translation>
+    </message>
+    <message>
+        <source>Invalid hostname</source>
+        <translation>Неправильне ім&apos;я вузла</translation>
+    </message>
 </context>
 <context>
     <name>QDocDatabase</name>
@@ -1376,6 +1430,7 @@ Press ESC to cancel</source>
     <name>QDockWidget</name>
     <message>
         <source>Float</source>
+        <extracomment>Accessible name for button undocking a dock widget (floating state)</extracomment>
         <translation>Відкріпити</translation>
     </message>
     <message>
@@ -1384,6 +1439,7 @@ Press ESC to cancel</source>
     </message>
     <message>
         <source>Close</source>
+        <extracomment>Accessible name for button closing a dock widget</extracomment>
         <translation>Закрити</translation>
     </message>
     <message>
@@ -2068,6 +2124,29 @@ Do you want to delete it anyway?</source>
     </message>
 </context>
 <context>
+    <name>QGnomeTheme</name>
+    <message>
+        <source>&amp;OK</source>
+        <translation>&amp;OK</translation>
+    </message>
+    <message>
+        <source>&amp;Save</source>
+        <translation>&amp;Зберегти</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>&amp;Скасувати</translation>
+    </message>
+    <message>
+        <source>&amp;Close</source>
+        <translation>Закри&amp;ти</translation>
+    </message>
+    <message>
+        <source>Close without Saving</source>
+        <translation>Закрити без збереження</translation>
+    </message>
+</context>
+<context>
     <name>QHostInfo</name>
     <message>
         <source>No host name given</source>
@@ -2290,6 +2369,10 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Unknown error</source>
         <translation>Невідома помилка</translation>
+    </message>
+    <message>
+        <source>file to open is a directory</source>
+        <translation>файл для відкриття є текою</translation>
     </message>
 </context>
 <context>
@@ -2737,8 +2820,12 @@ Do you want to delete it anyway?</source>
         <translation>&lt;h3&gt;Про Qt&lt;/h3&gt;&lt;p&gt;Ця програма використовує Qt версії %1.&lt;/p&gt;</translation>
     </message>
     <message>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is developed as an open source project on &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Qt - це інструментарій для крос-платформної розробки програм на C++.&lt;/p&gt;&lt;p&gt;Qt надає переносимість єдиного коду між усіма головними операційними системами для стаціонарних комп&apos;ютерів. Також, Qt доступна для вбудованого Linux та інших вбудованих та мобільних операційних систем.&lt;/p&gt;&lt;p&gt;Qt доступна на умовах трьох різних опцій ліцензування з метою задоволення потреб наших різноманітних користувачів.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах нашої комерційної ліцензійної угоди придатна для розробки пропієтарного/комерційного програмного забезпечення тоді, коли ви не бажаєте надавати будь-який код третім сторонам чи коли не можете прийняти умови ліцензій GNU LGPL версії 2.1 чи GNU GPL версії 3.0.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах GNU LGPL версії 2.1 придатна для розробки програм на базі Qt за умови, що ви можете погодитись з вимогами та умовами GNU LGPL версії 2.1.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах GNU General Public License версії 3.0 придатна для розробки програм на базі Qt, коли ви бажаєте використовувати такі програми у поєднанні з програмним забезпеченням, що підпадає під вимоги GNU GPL версії 3.0 або коли ви бажаєте дотримуватись вимог GNU GPL версії 3.0.&lt;/p&gt;&lt;p&gt;Будь ласка, перегляньте &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; для огляду ліцензування Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) 2014 Digia Plc та/або її дочірні компанії а також інші учасники.&lt;/p&gt;&lt;p&gt;Qt та логотип Qt є торговими марками Digia Plc та/або її дочірніх компаній.&lt;/p&gt;&lt;p&gt;Qt розробляєтсья як проект з відкритим кодом на &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt - це продукт Digia. Подивіться &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; для додаткової інформації.&lt;/p&gt;</translation>
+    </message>
+    <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is developed as an open source project on &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Qt - це інструментарій для крос-платформної розробки програм на C++.&lt;/p&gt;&lt;p&gt;Qt надає переносимість єдиного коду між усіма головними операційними системами для стаціонарних комп&apos;ютерів. Також, Qt доступна для вбудованих та мобільних операційних систем.&lt;/p&gt;&lt;p&gt;Qt доступна на умовах трьох різних опцій ліцензування з метою задоволення потреб наших різноманітних користувачів.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах нашої комерційної ліцензійної угоди придатна для розробки пропієтарного/комерційного програмного забезпечення тоді, коли ви не бажаєте надавати будь-який код третім сторонам чи коли не можете прийняти умови ліцензій GNU LGPL версії 2.1 чи GNU GPL версії 3.0.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах GNU LGPL версії 2.1 придатна для розробки програм на базі Qt за умови, що ви можете погодитись з вимогами та умовами GNU LGPL версії 2.1.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах GNU General Public License версії 3.0 придатна для розробки програм на базі Qt, коли ви бажаєте використовувати такі програми у поєднанні з програмним забезпеченням, що підпадає під вимоги GNU GPL версії 3.0 або коли ви бажаєте дотримуватись вимог GNU GPL версії 3.0.&lt;/p&gt;&lt;p&gt;Будь ласка, перегляньте &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; для огляду ліцензування Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc та/або її дочірні компанії.&lt;/p&gt;&lt;p&gt;Qt та логотип Qt є торговими марками Digia Plc та/або її дочірніх компаній.&lt;/p&gt;&lt;p&gt;Qt розробляєтсья як проект з відкритим кодом на &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt - це продукт Digia. Подивіться &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; для додаткової інформації.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;Qt - це інструментарій для крос-платформної розробки програм на C++.&lt;/p&gt;&lt;p&gt;Qt надає переносимість єдиного коду між усіма головними операційними системами для стаціонарних комп&apos;ютерів. Також, Qt доступна для вбудованих та мобільних операційних систем.&lt;/p&gt;&lt;p&gt;Qt доступна на умовах трьох різних опцій ліцензування з метою задоволення потреб наших різноманітних користувачів.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах нашої комерційної ліцензійної угоди придатна для розробки пропієтарного/комерційного програмного забезпечення тоді, коли ви не бажаєте надавати будь-який код третім сторонам чи коли не можете прийняти умови ліцензій GNU LGPL версії 2.1 чи GNU GPL версії 3.0.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах GNU LGPL версії 2.1 придатна для розробки програм на базі Qt за умови, що ви можете погодитись з вимогами та умовами GNU LGPL версії 2.1.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах GNU General Public License версії 3.0 придатна для розробки програм на базі Qt, коли ви бажаєте використовувати такі програми у поєднанні з програмним забезпеченням, що підпадає під вимоги GNU GPL версії 3.0 або коли ви бажаєте дотримуватись вимог GNU GPL версії 3.0.&lt;/p&gt;&lt;p&gt;Будь ласка, перегляньте &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; для огляду ліцензування Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc та/або її дочірні компанії.&lt;/p&gt;&lt;p&gt;Qt та логотип Qt є торговими марками Digia Plc та/або її дочірніх компаній.&lt;/p&gt;&lt;p&gt;Qt розробляєтсья як проект з відкритим кодом на &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt - це продукт Digia. Подивіться &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; для додаткової інформації.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is developed as an open source project on &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
@@ -3370,7 +3457,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Centimeters (cm)</source>
-        <translation>Сантиметри (см)</translation>
+        <translation type="vanished">Сантиметри (см)</translation>
     </message>
     <message>
         <source>Millimeters (mm)</source>
@@ -3383,6 +3470,52 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Points (pt)</source>
         <translation>Точки (pt)</translation>
+    </message>
+    <message>
+        <source>Pica (P̸)</source>
+        <translation>Піка (P̸)</translation>
+    </message>
+    <message>
+        <source>Didot (DD)</source>
+        <translation>Дідо (DD)</translation>
+    </message>
+    <message>
+        <source>Cicero (CC)</source>
+        <translation>Цицеро (CC)</translation>
+    </message>
+    <message>
+        <source>Custom</source>
+        <translation>Користувацький</translation>
+    </message>
+    <message>
+        <source>mm</source>
+        <extracomment>Unit &apos;Millimeter&apos;</extracomment>
+        <translation>мм</translation>
+    </message>
+    <message>
+        <source>pt</source>
+        <extracomment>Unit &apos;Points&apos;</extracomment>
+        <translation>pt</translation>
+    </message>
+    <message>
+        <source>in</source>
+        <extracomment>Unit &apos;Inch&apos;</extracomment>
+        <translation>дюйм</translation>
+    </message>
+    <message>
+        <source>P̸</source>
+        <extracomment>Unit &apos;Pica&apos;</extracomment>
+        <translation>P̸</translation>
+    </message>
+    <message>
+        <source>DD</source>
+        <extracomment>Unit &apos;Didot&apos;</extracomment>
+        <translation>DD</translation>
+    </message>
+    <message>
+        <source>CC</source>
+        <extracomment>Unit &apos;Cicero&apos;</extracomment>
+        <translation>CC</translation>
     </message>
     <message>
         <source>Page Layout</source>
@@ -3398,21 +3531,41 @@ Do you want to delete it anyway?</source>
     </message>
 </context>
 <context>
-    <name>QPluginLoader</name>
+    <name>QPageSize</name>
     <message>
-        <source>The plugin was not loaded.</source>
-        <translation>Додаток не було завантажено.</translation>
+        <source>Custom (%1mm x %2mm)</source>
+        <extracomment>Custom size name in millimeters</extracomment>
+        <translation>Користувацький (%1 мм x %2 мм)</translation>
     </message>
     <message>
-        <source>Unknown error</source>
-        <translation>Невідома помилка</translation>
+        <source>Custom (%1pt x %2pt)</source>
+        <extracomment>Custom size name in points</extracomment>
+        <translation>Користувацький (%1 x %2 точок)</translation>
     </message>
-</context>
-<context>
-    <name>QPrintDialog</name>
     <message>
-        <source>Print</source>
-        <translation>Друк</translation>
+        <source>Custom (%1in x %2in)</source>
+        <extracomment>Custom size name in inches</extracomment>
+        <translation>Користувацький (%1 x %2 дюймів)</translation>
+    </message>
+    <message>
+        <source>Custom (%1pc x %2pc)</source>
+        <extracomment>Custom size name in picas</extracomment>
+        <translation>Користувацький (%1 x %2 піка)</translation>
+    </message>
+    <message>
+        <source>Custom (%1DD x %2DD)</source>
+        <extracomment>Custom size name in didots</extracomment>
+        <translation>Користувацький (%1 DD x %2 DD)</translation>
+    </message>
+    <message>
+        <source>Custom (%1CC x %2CC)</source>
+        <extracomment>Custom size name in ciceros</extracomment>
+        <translation>Користувацький (%1 CC x %2 CC)</translation>
+    </message>
+    <message>
+        <source>%1 x %2 in</source>
+        <extracomment>Page size in &apos;Inch&apos;.</extracomment>
+        <translation>%1 x %2 дюйми</translation>
     </message>
     <message>
         <source>A0</source>
@@ -3453,6 +3606,10 @@ Do you want to delete it anyway?</source>
     <message>
         <source>A9</source>
         <translation>A9</translation>
+    </message>
+    <message>
+        <source>A10</source>
+        <translation>A10</translation>
     </message>
     <message>
         <source>B0</source>
@@ -3499,44 +3656,573 @@ Do you want to delete it anyway?</source>
         <translation>B10</translation>
     </message>
     <message>
-        <source>C5E</source>
-        <translation>C5E</translation>
+        <source>Executive (7.5 x 10 in)</source>
+        <translation>Executive (7.5 x 10 дюймів)</translation>
     </message>
     <message>
-        <source>DLE</source>
-        <translation>DLE</translation>
+        <source>Executive (7.25 x 10.5 in)</source>
+        <translation>Executive (7.25 x 10.5 дюймів)</translation>
     </message>
     <message>
-        <source>Executive</source>
-        <translation>Executive</translation>
-    </message>
-    <message>
-        <source>Folio</source>
-        <translation>Folio</translation>
-    </message>
-    <message>
-        <source>Ledger</source>
-        <translation>Ledger</translation>
+        <source>Folio (8.27 x 13 in)</source>
+        <translation>Folio (8.27 x 13 дюймів)</translation>
     </message>
     <message>
         <source>Legal</source>
         <translation>Legal</translation>
     </message>
     <message>
-        <source>Letter</source>
-        <translation>Letter</translation>
+        <source>Letter / ANSI A</source>
+        <translation>Letter / ANSI A</translation>
     </message>
     <message>
-        <source>Tabloid</source>
-        <translation>Tabloid</translation>
+        <source>Tabloid / ANSI B</source>
+        <translation>Tabloid / ANSI B</translation>
     </message>
     <message>
-        <source>US Common #10 Envelope</source>
-        <translation>US Common #10 Envelope</translation>
+        <source>Ledger / ANSI B</source>
+        <translation>Ledger / ANSI B</translation>
     </message>
     <message>
         <source>Custom</source>
         <translation>Користувацький</translation>
+    </message>
+    <message>
+        <source>A3 Extra</source>
+        <translation>A3 Extra</translation>
+    </message>
+    <message>
+        <source>A4 Extra</source>
+        <translation>A4 Extra</translation>
+    </message>
+    <message>
+        <source>A4 Plus</source>
+        <translation>A4 Plus</translation>
+    </message>
+    <message>
+        <source>A4 Small</source>
+        <translation>A4 Small</translation>
+    </message>
+    <message>
+        <source>A5 Extra</source>
+        <translation>A5 Extra</translation>
+    </message>
+    <message>
+        <source>B5 Extra</source>
+        <translation>B5 Extra</translation>
+    </message>
+    <message>
+        <source>JIS B0</source>
+        <translation>JIS B0</translation>
+    </message>
+    <message>
+        <source>JIS B1</source>
+        <translation>JIS B1</translation>
+    </message>
+    <message>
+        <source>JIS B2</source>
+        <translation>JIS B2</translation>
+    </message>
+    <message>
+        <source>JIS B3</source>
+        <translation>JIS B3</translation>
+    </message>
+    <message>
+        <source>JIS B4</source>
+        <translation>JIS B4</translation>
+    </message>
+    <message>
+        <source>JIS B5</source>
+        <translation>JIS B5</translation>
+    </message>
+    <message>
+        <source>JIS B6</source>
+        <translation>JIS B6</translation>
+    </message>
+    <message>
+        <source>JIS B7</source>
+        <translation>JIS B7</translation>
+    </message>
+    <message>
+        <source>JIS B8</source>
+        <translation>JIS B8</translation>
+    </message>
+    <message>
+        <source>JIS B9</source>
+        <translation>JIS B9</translation>
+    </message>
+    <message>
+        <source>JIS B10</source>
+        <translation>JIS B10</translation>
+    </message>
+    <message>
+        <source>ANSI C</source>
+        <translation>ANSI C</translation>
+    </message>
+    <message>
+        <source>ANSI D</source>
+        <translation>ANSI D</translation>
+    </message>
+    <message>
+        <source>ANSI E</source>
+        <translation>ANSI E</translation>
+    </message>
+    <message>
+        <source>Legal Extra</source>
+        <translation>Legal Extra</translation>
+    </message>
+    <message>
+        <source>Letter Extra</source>
+        <translation>Letter Extra</translation>
+    </message>
+    <message>
+        <source>Letter Plus</source>
+        <translation>Letter Plus</translation>
+    </message>
+    <message>
+        <source>Letter Small</source>
+        <translation>Letter Small</translation>
+    </message>
+    <message>
+        <source>Tabloid Extra</source>
+        <translation>Tabloid Extra</translation>
+    </message>
+    <message>
+        <source>Architect A</source>
+        <translation>Architect A</translation>
+    </message>
+    <message>
+        <source>Architect B</source>
+        <translation>Architect B</translation>
+    </message>
+    <message>
+        <source>Architect C</source>
+        <translation>Architect C</translation>
+    </message>
+    <message>
+        <source>Architect D</source>
+        <translation>Architect D</translation>
+    </message>
+    <message>
+        <source>Architect E</source>
+        <translation>Architect E</translation>
+    </message>
+    <message>
+        <source>Note</source>
+        <translation>Note</translation>
+    </message>
+    <message>
+        <source>Quarto</source>
+        <translation>Quarto</translation>
+    </message>
+    <message>
+        <source>Statement</source>
+        <translation>Statement</translation>
+    </message>
+    <message>
+        <source>Super A</source>
+        <translation>Super A</translation>
+    </message>
+    <message>
+        <source>Super B</source>
+        <translation>Super B</translation>
+    </message>
+    <message>
+        <source>Postcard</source>
+        <translation>Postcard</translation>
+    </message>
+    <message>
+        <source>Double Postcard</source>
+        <translation>Double Postcard</translation>
+    </message>
+    <message>
+        <source>PRC 16K</source>
+        <translation>PRC 16K</translation>
+    </message>
+    <message>
+        <source>PRC 32K</source>
+        <translation>PRC 32K</translation>
+    </message>
+    <message>
+        <source>PRC 32K Big</source>
+        <translation>PRC 32K Big</translation>
+    </message>
+    <message>
+        <source>Fan-fold US (14.875 x 11 in)</source>
+        <translation>Fan-fold US (14.875 x 11 дюймів)</translation>
+    </message>
+    <message>
+        <source>Fan-fold German (8.5 x 12 in)</source>
+        <translation>Fan-fold German (8.5 x 12 дюймів)</translation>
+    </message>
+    <message>
+        <source>Fan-fold German Legal (8.5 x 13 in)</source>
+        <translation>Fan-fold German Legal (8.5 x 13 дюймів)</translation>
+    </message>
+    <message>
+        <source>Envelope B4</source>
+        <translation>Envelope B4</translation>
+    </message>
+    <message>
+        <source>Envelope B5</source>
+        <translation>Envelope B5</translation>
+    </message>
+    <message>
+        <source>Envelope B6</source>
+        <translation>Envelope B6</translation>
+    </message>
+    <message>
+        <source>Envelope C0</source>
+        <translation>Envelope C0</translation>
+    </message>
+    <message>
+        <source>Envelope C1</source>
+        <translation>Envelope C1</translation>
+    </message>
+    <message>
+        <source>Envelope C2</source>
+        <translation>Envelope C2</translation>
+    </message>
+    <message>
+        <source>Envelope C3</source>
+        <translation>Envelope C3</translation>
+    </message>
+    <message>
+        <source>Envelope C4</source>
+        <translation>Envelope C4</translation>
+    </message>
+    <message>
+        <source>Envelope C5</source>
+        <translation>Envelope C5</translation>
+    </message>
+    <message>
+        <source>Envelope C6</source>
+        <translation>Envelope C6</translation>
+    </message>
+    <message>
+        <source>Envelope C65</source>
+        <translation>Envelope C65</translation>
+    </message>
+    <message>
+        <source>Envelope C7</source>
+        <translation>Envelope C7</translation>
+    </message>
+    <message>
+        <source>Envelope DL</source>
+        <translation>Envelope DL</translation>
+    </message>
+    <message>
+        <source>Envelope US 9</source>
+        <translation>Envelope US 9</translation>
+    </message>
+    <message>
+        <source>Envelope US 10</source>
+        <translation>Envelope US 10</translation>
+    </message>
+    <message>
+        <source>Envelope US 11</source>
+        <translation>Envelope US 11</translation>
+    </message>
+    <message>
+        <source>Envelope US 12</source>
+        <translation>Envelope US 12</translation>
+    </message>
+    <message>
+        <source>Envelope US 14</source>
+        <translation>Envelope US 14</translation>
+    </message>
+    <message>
+        <source>Envelope Monarch</source>
+        <translation>Envelope Monarch</translation>
+    </message>
+    <message>
+        <source>Envelope Personal</source>
+        <translation>Envelope Personal</translation>
+    </message>
+    <message>
+        <source>Envelope Chou 3</source>
+        <translation>Envelope Chou 3</translation>
+    </message>
+    <message>
+        <source>Envelope Chou 4</source>
+        <translation>Envelope Chou 4</translation>
+    </message>
+    <message>
+        <source>Envelope Invite</source>
+        <translation>Envelope Invite</translation>
+    </message>
+    <message>
+        <source>Envelope Italian</source>
+        <translation>Envelope Italian</translation>
+    </message>
+    <message>
+        <source>Envelope Kaku 2</source>
+        <translation>Envelope Kaku 2</translation>
+    </message>
+    <message>
+        <source>Envelope Kaku 3</source>
+        <translation>Envelope Kaku 3</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 1</source>
+        <translation>Envelope PRC 1</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 2</source>
+        <translation>Envelope PRC 2</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 3</source>
+        <translation>Envelope PRC 3</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 4</source>
+        <translation>Envelope PRC 4</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 5</source>
+        <translation>Envelope PRC 5</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 6</source>
+        <translation>Envelope PRC 6</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 7</source>
+        <translation>Envelope PRC 7</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 8</source>
+        <translation>Envelope PRC 8</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 9</source>
+        <translation>Envelope PRC 9</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 10</source>
+        <translation>Envelope PRC 10</translation>
+    </message>
+    <message>
+        <source>Envelope You 4</source>
+        <translation>Envelope You 4</translation>
+    </message>
+</context>
+<context>
+    <name>QPlatformTheme</name>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Зберегти</translation>
+    </message>
+    <message>
+        <source>Save All</source>
+        <translation>Зберегти все</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Відкрити</translation>
+    </message>
+    <message>
+        <source>&amp;Yes</source>
+        <translation>Т&amp;ак</translation>
+    </message>
+    <message>
+        <source>Yes to &amp;All</source>
+        <translation>Так &amp;для всіх</translation>
+    </message>
+    <message>
+        <source>&amp;No</source>
+        <translation>&amp;Ні</translation>
+    </message>
+    <message>
+        <source>N&amp;o to All</source>
+        <translation>Ні для вс&amp;іх</translation>
+    </message>
+    <message>
+        <source>Abort</source>
+        <translation>Перервати</translation>
+    </message>
+    <message>
+        <source>Retry</source>
+        <translation>Повторити</translation>
+    </message>
+    <message>
+        <source>Ignore</source>
+        <translation>Ігнорувати</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Закрити</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Скасувати</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Відхилити</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Довідка</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Застосувати</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Скинути</translation>
+    </message>
+    <message>
+        <source>Restore Defaults</source>
+        <translation>Відновити типово</translation>
+    </message>
+</context>
+<context>
+    <name>QPluginLoader</name>
+    <message>
+        <source>The plugin was not loaded.</source>
+        <translation>Додаток не було завантажено.</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>Невідома помилка</translation>
+    </message>
+</context>
+<context>
+    <name>QPrintDialog</name>
+    <message>
+        <source>Print</source>
+        <translation>Друк</translation>
+    </message>
+    <message>
+        <source>A0</source>
+        <translation type="vanished">A0</translation>
+    </message>
+    <message>
+        <source>A1</source>
+        <translation type="vanished">A1</translation>
+    </message>
+    <message>
+        <source>A2</source>
+        <translation type="vanished">A2</translation>
+    </message>
+    <message>
+        <source>A3</source>
+        <translation type="vanished">A3</translation>
+    </message>
+    <message>
+        <source>A4</source>
+        <translation type="vanished">A4</translation>
+    </message>
+    <message>
+        <source>A5</source>
+        <translation type="vanished">A5</translation>
+    </message>
+    <message>
+        <source>A6</source>
+        <translation type="vanished">A6</translation>
+    </message>
+    <message>
+        <source>A7</source>
+        <translation type="vanished">A7</translation>
+    </message>
+    <message>
+        <source>A8</source>
+        <translation type="vanished">A8</translation>
+    </message>
+    <message>
+        <source>A9</source>
+        <translation type="vanished">A9</translation>
+    </message>
+    <message>
+        <source>B0</source>
+        <translation type="vanished">B0</translation>
+    </message>
+    <message>
+        <source>B1</source>
+        <translation type="vanished">B1</translation>
+    </message>
+    <message>
+        <source>B2</source>
+        <translation type="vanished">B2</translation>
+    </message>
+    <message>
+        <source>B3</source>
+        <translation type="vanished">B3</translation>
+    </message>
+    <message>
+        <source>B4</source>
+        <translation type="vanished">B4</translation>
+    </message>
+    <message>
+        <source>B5</source>
+        <translation type="vanished">B5</translation>
+    </message>
+    <message>
+        <source>B6</source>
+        <translation type="vanished">B6</translation>
+    </message>
+    <message>
+        <source>B7</source>
+        <translation type="vanished">B7</translation>
+    </message>
+    <message>
+        <source>B8</source>
+        <translation type="vanished">B8</translation>
+    </message>
+    <message>
+        <source>B9</source>
+        <translation type="vanished">B9</translation>
+    </message>
+    <message>
+        <source>B10</source>
+        <translation type="vanished">B10</translation>
+    </message>
+    <message>
+        <source>C5E</source>
+        <translation type="vanished">C5E</translation>
+    </message>
+    <message>
+        <source>DLE</source>
+        <translation type="vanished">DLE</translation>
+    </message>
+    <message>
+        <source>Executive</source>
+        <translation type="vanished">Executive</translation>
+    </message>
+    <message>
+        <source>Folio</source>
+        <translation type="vanished">Folio</translation>
+    </message>
+    <message>
+        <source>Ledger</source>
+        <translation type="vanished">Ledger</translation>
+    </message>
+    <message>
+        <source>Legal</source>
+        <translation type="vanished">Legal</translation>
+    </message>
+    <message>
+        <source>Letter</source>
+        <translation type="vanished">Letter</translation>
+    </message>
+    <message>
+        <source>Tabloid</source>
+        <translation type="vanished">Tabloid</translation>
+    </message>
+    <message>
+        <source>US Common #10 Envelope</source>
+        <translation type="vanished">US Common #10 Envelope</translation>
+    </message>
+    <message>
+        <source>Custom</source>
+        <translation type="vanished">Користувацький</translation>
     </message>
     <message>
         <source>Left to Right, Top to Bottom</source>
@@ -3665,6 +4351,10 @@ Please turn one of those options off.</source>
     <message>
         <source>OK</source>
         <translation>OK</translation>
+    </message>
+    <message>
+        <source>Automatic</source>
+        <translation>Автоматично</translation>
     </message>
 </context>
 <context>
@@ -6251,6 +6941,22 @@ Please turn one of those options off.</source>
         <translation>PDF Забрати направлене форматування</translation>
     </message>
     <message>
+        <source>LRI Left-to-right isolate</source>
+        <translation>LRI Ізоляція зліва направо</translation>
+    </message>
+    <message>
+        <source>RLI Right-to-left isolate</source>
+        <translation>RLI Ізоляція справа наліво</translation>
+    </message>
+    <message>
+        <source>FSI First strong isolate</source>
+        <translation>FSI Ізоляція першого жорсткого</translation>
+    </message>
+    <message>
+        <source>PDI Pop directional isolate</source>
+        <translation>PDI Відновити направлену ізоляцію</translation>
+    </message>
+    <message>
         <source>Insert Unicode control character</source>
         <translation>Вставити керуючий символ Unicode</translation>
     </message>
@@ -6629,75 +7335,75 @@ Please turn one of those options off.</source>
     <name>QtAndroidDialogHelpers::QAndroidPlatformMessageDialogHelper</name>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation type="vanished">OK</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Зберегти</translation>
+        <translation type="vanished">Зберегти</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Відкрити</translation>
+        <translation type="vanished">Відкрити</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Скасувати</translation>
+        <translation type="vanished">Скасувати</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Закрити</translation>
+        <translation type="vanished">Закрити</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation>Застосувати</translation>
+        <translation type="vanished">Застосувати</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Скинути</translation>
+        <translation type="vanished">Скинути</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Довідка</translation>
+        <translation type="vanished">Довідка</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>Відхилити</translation>
+        <translation type="vanished">Відхилити</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Так</translation>
+        <translation type="vanished">Так</translation>
     </message>
     <message>
         <source>Yes to All</source>
-        <translation>Так для всіх</translation>
+        <translation type="vanished">Так для всіх</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Ні</translation>
+        <translation type="vanished">Ні</translation>
     </message>
     <message>
         <source>No to All</source>
-        <translation>Ні для всіх</translation>
+        <translation type="vanished">Ні для всіх</translation>
     </message>
     <message>
         <source>Save All</source>
-        <translation>Зберегти все</translation>
+        <translation type="vanished">Зберегти все</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation>Перервати</translation>
+        <translation type="vanished">Перервати</translation>
     </message>
     <message>
         <source>Retry</source>
-        <translation>Повторити</translation>
+        <translation type="vanished">Повторити</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation>Ігнорувати</translation>
+        <translation type="vanished">Ігнорувати</translation>
     </message>
     <message>
         <source>Restore Defaults</source>
-        <translation>Відновити типово</translation>
+        <translation type="vanished">Відновити типово</translation>
     </message>
 </context>
 <context>
