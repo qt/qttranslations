@@ -378,6 +378,11 @@
         <translation>staattisella liitännäisellä moduulille ”%1” nimellä ”%2” ei ole metadata-URI:ta</translation>
     </message>
     <message>
+        <source>module does not support the designer &quot;%1&quot;</source>
+        <translatorcomment>Designer viittaa Qt Quick Designeriin. %1 on nimiavaruuden nimi.</translatorcomment>
+        <translation>moduuli ”%1” ei tue Designeria</translation>
+    </message>
+    <message>
         <source>plugin cannot be loaded for module &quot;%1&quot;: %2</source>
         <translation>moduulin ”%1” liitännäistä ei voida ladata: %2</translation>
     </message>
@@ -487,14 +492,6 @@
     <message>
         <source>ListElement: cannot use reserved &quot;id&quot; property</source>
         <translation>ListElement: ei voi käyttää varattua ”id”-ominaisuutta</translation>
-    </message>
-    <message>
-        <source>ListElement: improperly specified %1</source>
-        <translation>ListElement: väärin määritetty %1</translation>
-    </message>
-    <message>
-        <source>ListElement: improperly specified QT_TRANSLATE_NOOP</source>
-        <translation>ListElement: väärin määritetty QT_TRANSLATE_NOOP</translation>
     </message>
     <message>
         <source>ListElement: cannot use script for property value</source>
@@ -612,15 +609,15 @@
     </message>
     <message>
         <source>Illegal unicode escape sequence</source>
-        <translation>Virheellinen Unicode-koodinvaihtosekvenssi</translation>
+        <translation>Virheellinen Unicode-ohjauskoodi</translation>
     </message>
     <message>
         <source>Illegal hexadecimal escape sequence</source>
-        <translation>Virheellinen heksadesimaalinen koodinvaihtosekvenssi</translation>
+        <translation>Virheellinen heksadesimaalinen ohjauskoodi</translation>
     </message>
     <message>
         <source>Octal escape sequences are not allowed</source>
-        <translation>Oktaalisia koodinvaihtosekvenssejä ei sallita</translation>
+        <translation>Oktaalisia ohjauskoodeja ei sallita</translation>
     </message>
     <message>
         <source>Unclosed string at end of line</source>
@@ -876,8 +873,8 @@
         <translation>Virheellinen sijoitus ominaisuuteen: odotettiin säännöllistä lauseketta; käytä /malli/-syntaksia</translation>
     </message>
     <message>
-        <source>Invalid property assignment: real or array of reals expected</source>
-        <translation>Virheellinen sijoitus ominaisuuteen: odotettiin liukulukua tai liukulukutaulukkoa</translation>
+        <source>Invalid property assignment: number or array of numbers expected</source>
+        <translation>Virheellinen sijoitus ominaisuuteen: odotettiin lukua tai lukutaulukkoa</translation>
     </message>
     <message>
         <source>Invalid property assignment: int or array of ints expected</source>
@@ -1149,6 +1146,13 @@
     <message>
         <source>setSource: value is not an object</source>
         <translation>setSource: arvo ei ole olio</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickOpenGLInfo</name>
+    <message>
+        <source>OpenGLInfo is only available via attached properties</source>
+        <translation>OpenGLInfo on käytettävissä vain liitettyjen ominaisuuksien välityksellä</translation>
     </message>
 </context>
 <context>

@@ -172,6 +172,17 @@
     </message>
 </context>
 <context>
+    <name>DSCameraSession</name>
+    <message>
+        <source>Camera not ready for capture</source>
+        <translation>Kamera ei ole valmiina kaappaamaan</translation>
+    </message>
+    <message>
+        <source>Could not save image to file.</source>
+        <translation>Kuvan tallentaminen tiedostoon epäonnistui.</translation>
+    </message>
+</context>
+<context>
     <name>MFPlayerSession</name>
     <message>
         <source>Invalid stream source.</source>
@@ -264,36 +275,6 @@
     </message>
 </context>
 <context>
-    <name>PLSParser</name>
-    <message>
-        <source>Error parsing playlist: %1, expected count = %2</source>
-        <translation>Virhe soittolistaa luettaessa: %1, odotettiin %2 kpl</translation>
-    </message>
-    <message>
-        <source>Error parsing playlist at line[%1], expected version = 2</source>
-        <translation>Virhe soittolistaa luettaessa, rivi %1, odotettiin versiota 2</translation>
-    </message>
-    <message>
-        <source>Error parsing playlist at line[%1]:%2</source>
-        <translation>Virhe soittolistaa luettaessa, rivi %1:%2</translation>
-    </message>
-    <message>
-        <source>File%1</source>
-        <translatorcomment>Vaikuttaa tiedostoformaatin lukuun, tuskin pitäisi edes olla lokalisoitavissa</translatorcomment>
-        <translation>File%1</translation>
-    </message>
-    <message>
-        <source>Title%1</source>
-        <translatorcomment>Vaikuttaa tiedostoformaatin lukuun, tuskin pitäisi edes olla lokalisoitavissa</translatorcomment>
-        <translation>Title%1</translation>
-    </message>
-    <message>
-        <source>Length%1</source>
-        <translatorcomment>Vaikuttaa tiedostoformaatin lukuun, tuskin pitäisi edes olla lokalisoitavissa</translatorcomment>
-        <translation>Length%1</translation>
-    </message>
-</context>
-<context>
     <name>QAndroidAudioEncoderSettingsControl</name>
     <message>
         <source>Adaptive Multi-Rate Narrowband (AMR-NB) audio codec</source>
@@ -310,6 +291,10 @@
 </context>
 <context>
     <name>QAndroidCameraSession</name>
+    <message>
+        <source>Camera cannot be started without a viewfinder.</source>
+        <translation>Kameraa ei voida käynnistää ilman etsintä.</translation>
+    </message>
     <message>
         <source>Camera not ready</source>
         <translation>Kamera ei ole valmis</translation>
@@ -547,6 +532,10 @@
         <source>CameraImageProcessing is provided by Camera</source>
         <translation>Camera tarjoaa CameraImageProcessingin</translation>
     </message>
+    <message>
+        <source>CameraViewfinder is provided by Camera</source>
+        <translation>Camera tarjoaa CameraViewfinderin</translation>
+    </message>
 </context>
 <context>
     <name>QPlaylistFileParser</name>
@@ -568,6 +557,21 @@
     <message>
         <source>Empty file provided</source>
         <translation>Saatiin tyhjä tiedosto</translation>
+    </message>
+</context>
+<context>
+    <name>QWinRTCameraImageCaptureControl</name>
+    <message>
+        <source>Camera not ready</source>
+        <translation>Kamera ei ole valmis</translation>
+    </message>
+    <message>
+        <source>Invalid photo data length.</source>
+        <translation>Virheellinen kuvadatan pituus.</translation>
+    </message>
+    <message>
+        <source>Image saving failed</source>
+        <translation>Kuvan tallentaminen epäonnistui</translation>
     </message>
 </context>
 </TS>

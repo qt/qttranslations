@@ -698,7 +698,7 @@
     <name>QDeclarativeParser</name>
     <message>
         <source>Illegal unicode escape sequence</source>
-        <translation>Virheellinen Unicode-koodinvaihtosekvenssi</translation>
+        <translation>Virheellinen Unicode-ohjauskoodi</translation>
     </message>
     <message>
         <source>Illegal character</source>
@@ -710,7 +710,7 @@
     </message>
     <message>
         <source>Illegal escape sequence</source>
-        <translation>Virheellinen koodinvaihtosekvenssi</translation>
+        <translation>Virheellinen ohjauskoodi</translation>
     </message>
     <message>
         <source>Unclosed comment at end of file</source>
