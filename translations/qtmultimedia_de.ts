@@ -276,18 +276,6 @@
         <source>Error parsing playlist at line[%1]:%2</source>
         <translation>Fehler beim Auswerten der Abspielliste bei Zeile [%1]:%2</translation>
     </message>
-    <message>
-        <source>File%1</source>
-        <translation>Datei%1</translation>
-    </message>
-    <message>
-        <source>Title%1</source>
-        <translation>Titel%1</translation>
-    </message>
-    <message>
-        <source>Length%1</source>
-        <translation>Länge%1</translation>
-    </message>
 </context>
 <context>
     <name>QAndroidAudioEncoderSettingsControl</name>
@@ -306,6 +294,10 @@
 </context>
 <context>
     <name>QAndroidCameraSession</name>
+    <message>
+        <source>Camera cannot be started without a viewfinder.</source>
+        <translation>Die Kamera kann nicht ohne Sucher gestartet werden.</translation>
+    </message>
     <message>
         <source>Camera not ready</source>
         <translation>Kamera nicht bereit</translation>

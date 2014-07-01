@@ -12,7 +12,7 @@
         <translation>Achtung:</translation>
     </message>
     <message>
-        <source>The search results may not be complete since the documentation is still being indexed!</source>
+        <source>The search results may not be complete since the documentation is still being indexed.</source>
         <translation>Es können nicht alle möglichen Ergebnisse angezeigt werden, da die Dokumentation noch indiziert wird.</translation>
     </message>
     <message>
@@ -34,40 +34,24 @@
 <context>
     <name>QHelpCollectionHandler</name>
     <message>
-        <source>The collection file &apos;%1&apos; is not set up yet!</source>
-        <translation>Die Katalogdatei &apos;%1&apos; ist noch nicht eingerichtet.</translation>
-    </message>
-    <message>
-        <source>Cannot load sqlite database driver!</source>
-        <translation>Der Datenbanktreiber für SQLite kann nicht geladen werden.</translation>
-    </message>
-    <message>
         <source>Cannot open collection file: %1</source>
         <translation>Katalogdatei kann nicht geöffnet werden: %1</translation>
     </message>
     <message>
-        <source>Cannot create tables in file %1!</source>
+        <source>The collection file &apos;%1&apos; is not set up yet.</source>
+        <translation>Die Katalogdatei &apos;%1&apos; ist noch nicht eingerichtet.</translation>
+    </message>
+    <message>
+        <source>Cannot load sqlite database driver.</source>
+        <translation>Der Datenbanktreiber für SQLite kann nicht geladen werden.</translation>
+    </message>
+    <message>
+        <source>Cannot create tables in file %1.</source>
         <translation>In Datei %1 können keine Tabellen angelegt werden.</translation>
     </message>
     <message>
-        <source>The collection file &apos;%1&apos; already exists!</source>
+        <source>The collection file &apos;%1&apos; already exists.</source>
         <translation>Die Katalogdatei &apos;%1&apos; existiert bereits.</translation>
-    </message>
-    <message>
-        <source>Unknown filter &apos;%1&apos;!</source>
-        <translation>Unbekannter Filter &apos;%1&apos;.</translation>
-    </message>
-    <message>
-        <source>Invalid documentation file &apos;%1&apos;!</source>
-        <translation>Ungültige Dokumentationsdatei &apos;%1&apos;.</translation>
-    </message>
-    <message>
-        <source>Cannot register namespace &apos;%1&apos;!</source>
-        <translation>Der Namensraum &apos;%1&apos; kann nicht registriert werden.</translation>
-    </message>
-    <message>
-        <source>Cannot open database &apos;%1&apos; to optimize!</source>
-        <translation>Die Datenbank &apos;%1&apos; kann nicht zur Optimierung geöffnet werden.</translation>
     </message>
     <message>
         <source>Cannot create directory: %1</source>
@@ -78,20 +62,36 @@
         <translation>Die Katalogdatei kann nicht kopiert werden: %1</translation>
     </message>
     <message>
-        <source>Cannot register filter %1!</source>
-        <translation>Der Filter kann nicht registriert werden: %1</translation>
+        <source>Unknown filter &apos;%1&apos;.</source>
+        <translation>Unbekannter Filter &apos;%1&apos;.</translation>
     </message>
     <message>
-        <source>Cannot open documentation file %1!</source>
-        <translation>Die Dokumentationsdatei kann nicht geöffnet werden: %1</translation>
+        <source>Cannot register filter %1.</source>
+        <translation>Der Filter %1 kann nicht registriert werden.</translation>
     </message>
     <message>
-        <source>The namespace %1 was not registered!</source>
+        <source>Cannot open documentation file %1.</source>
+        <translation>Die Dokumentationsdatei %1 kann nicht geöffnet werden.</translation>
+    </message>
+    <message>
+        <source>Invalid documentation file &apos;%1&apos;.</source>
+        <translation>Ungültige Dokumentationsdatei &apos;%1&apos;.</translation>
+    </message>
+    <message>
+        <source>The namespace %1 was not registered.</source>
         <translation>Der Namensraum %1 wurde nicht registriert.</translation>
     </message>
     <message>
-        <source>Namespace %1 already exists!</source>
+        <source>Namespace %1 already exists.</source>
         <translation>Der Namensraum %1 existiert bereits.</translation>
+    </message>
+    <message>
+        <source>Cannot register namespace &apos;%1&apos;.</source>
+        <translation>Der Namensraum &apos;%1&apos; kann nicht registriert werden.</translation>
+    </message>
+    <message>
+        <source>Cannot open database &apos;%1&apos; to optimize.</source>
+        <translation>Die Datenbank &apos;%1&apos; kann nicht zur Optimierung geöffnet werden.</translation>
     </message>
 </context>
 <context>
@@ -105,39 +105,19 @@
 <context>
     <name>QHelpEngineCore</name>
     <message>
-        <source>Cannot open documentation file %1: %2!</source>
-        <translation>Die Dokumentationsdatei %1 kann nicht geöffnet werden: %2!</translation>
+        <source>Cannot open documentation file %1: %2.</source>
+        <translation>Die Dokumentationsdatei %1 kann nicht geöffnet werden: %2.</translation>
     </message>
     <message>
-        <source>The specified namespace does not exist!</source>
+        <source>The specified namespace does not exist.</source>
         <translation>Der angegebene Namensraum existiert nicht.</translation>
     </message>
 </context>
 <context>
     <name>QHelpGenerator</name>
     <message>
-        <source>Invalid help data!</source>
-        <translation>Ungültige Hilfe-Daten.</translation>
-    </message>
-    <message>
-        <source>No output file name specified!</source>
-        <translation>Für die Ausgabe-Datei wurde kein Name angegeben.</translation>
-    </message>
-    <message>
         <source>Building up file structure...</source>
         <translation>Dateistruktur wird erzeugt...</translation>
-    </message>
-    <message>
-        <source>The file %1 cannot be overwritten!</source>
-        <translation>Die Datei %1 kann nicht überschrieben werden.</translation>
-    </message>
-    <message>
-        <source>Cannot open data base file %1!</source>
-        <translation>Die Datenbank-Datei %1 kann nicht geöffnet werden.</translation>
-    </message>
-    <message>
-        <source>Cannot register namespace %1!</source>
-        <translation>Der Namensraum %1 kann nicht registriert werden.</translation>
     </message>
     <message>
         <source>Insert custom filters...</source>
@@ -152,18 +132,6 @@
         <translation>Dokumentation erfolgreich generiert.</translation>
     </message>
     <message>
-        <source>Some tables already exist!</source>
-        <translation>Einige Tabellen existieren bereits.</translation>
-    </message>
-    <message>
-        <source>Cannot create tables!</source>
-        <translation>Tabellen können nicht erstellt werden.</translation>
-    </message>
-    <message>
-        <source>Cannot register virtual folder!</source>
-        <translation>Virtueller Order kann nicht registriert werden.</translation>
-    </message>
-    <message>
         <source>Insert files...</source>
         <translation>Dateien einfügen...</translation>
     </message>
@@ -176,14 +144,6 @@
         <translation>Die Datei %1 kann nicht geöffnet werden. Wird übersprungen.</translation>
     </message>
     <message>
-        <source>The filter %1 is already registered!</source>
-        <translation>Der Filter %1 ist bereits registriert.</translation>
-    </message>
-    <message>
-        <source>Cannot register filter %1!</source>
-        <translation>Der Filter %1 kann nicht registriert werden.</translation>
-    </message>
-    <message>
         <source>Insert indices...</source>
         <translation>Indizes einfügen...</translation>
     </message>
@@ -192,11 +152,51 @@
         <translation>Inhalt einfügen...</translation>
     </message>
     <message>
-        <source>Cannot insert contents!</source>
+        <source>Invalid help data.</source>
+        <translation>Ungültige Hilfe-Daten.</translation>
+    </message>
+    <message>
+        <source>No output file name specified.</source>
+        <translation>Kein Name für die Ausgabe-Datei angegeben.</translation>
+    </message>
+    <message>
+        <source>The file %1 cannot be overwritten.</source>
+        <translation>Die Datei %1 kann nicht überschrieben werden.</translation>
+    </message>
+    <message>
+        <source>Cannot open data base file %1.</source>
+        <translation>Die Datenbank-Datei %1 kann nicht geöffnet werden.</translation>
+    </message>
+    <message>
+        <source>Cannot register namespace %1.</source>
+        <translation>Der Namensraum %1 kann nicht registriert werden.</translation>
+    </message>
+    <message>
+        <source>Some tables already exist.</source>
+        <translation>Einige Tabellen existieren bereits.</translation>
+    </message>
+    <message>
+        <source>Cannot create tables.</source>
+        <translation>Es können keine Tabellen erstellt werden.</translation>
+    </message>
+    <message>
+        <source>Cannot register virtual folder.</source>
+        <translation>Virtueller Order kann nicht registriert werden.</translation>
+    </message>
+    <message>
+        <source>The filter %1 is already registered.</source>
+        <translation>Der Filter %1 ist bereits registriert.</translation>
+    </message>
+    <message>
+        <source>Cannot register filter %1.</source>
+        <translation>Der Filter %1 kann nicht registriert werden.</translation>
+    </message>
+    <message>
+        <source>Cannot insert contents.</source>
         <translation>Inhalt kann nicht eingefügt werden.</translation>
     </message>
     <message>
-        <source>Cannot register contents!</source>
+        <source>Cannot register contents.</source>
         <translation>Inhalt kann nicht registriert werden.</translation>
     </message>
     <message>
@@ -223,7 +223,7 @@
         <translation>Unbekanntes Token in der Datei &quot;%1&quot;.</translation>
     </message>
     <message>
-        <source>Unknown token. Expected &quot;QtHelpProject&quot;!</source>
+        <source>Unknown token. Expected &quot;QtHelpProject&quot;.</source>
         <translation>Unbekanntes Token. &quot;QtHelpProject&quot; erwartet.</translation>
     </message>
     <message>
@@ -247,8 +247,8 @@
         <translation>Fehlender virtueller Ordner in der QtHelpProject-Datei: &quot;%1&quot;</translation>
     </message>
     <message>
-        <source>The input file %1 could not be opened!</source>
-        <translation>Die Eingabe-Datei %1 kann nicht geöffnet werden.</translation>
+        <source>The input file %1 could not be opened.</source>
+        <translation>Die Eingabe-Datei %1 konnte nicht geöffnet werden.</translation>
     </message>
 </context>
 <context>

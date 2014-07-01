@@ -144,34 +144,6 @@
         <source>Expected type name</source>
         <translation>Es wird ein Typname erwartet</translation>
     </message>
-    <message>
-        <source>Non-existent attached object</source>
-        <translation>Es existiert kein Bezugselement für die Eigenschaft</translation>
-    </message>
-    <message>
-        <source>Signal uses unnamed parameter followed by named parameter.</source>
-        <translation>Das Signal verwendet einen namenlosen Parameter gefolgt von einem Parameter mit Namen.</translation>
-    </message>
-    <message>
-        <source>Signal parameter &quot;%1&quot; hides global variable.</source>
-        <translation>Der Signalparameter &quot;%1&quot; überdeckt eine globale Variable.</translation>
-    </message>
-    <message>
-        <source>Cannot assign a value to a signal (expecting a script to be run)</source>
-        <translation>Einem Signal können keine Werte zugewiesen werden (es wird ein ausführbares Skript erwartet)</translation>
-    </message>
-    <message>
-        <source>Incorrectly specified signal assignment</source>
-        <translation>Angegebene Signalzuweisung ist nicht korrekt</translation>
-    </message>
-    <message>
-        <source>&quot;%1.%2&quot; is not available in %3 %4.%5.</source>
-        <translation>&quot;%1.%2&quot; ist in %3 %4.%5 nicht verfügbar.</translation>
-    </message>
-    <message>
-        <source>&quot;%1.%2&quot; is not available due to component versioning.</source>
-        <translation>&quot;%1.%2&quot; ist in dieser Version der Komponente nicht verfügbar.</translation>
-    </message>
 </context>
 <context>
     <name>QQmlComponent</name>
@@ -515,14 +487,6 @@
     <message>
         <source>ListElement: cannot use reserved &quot;id&quot; property</source>
         <translation>ListElement: Die spezielle &quot;id&quot;-Eigenschaft kann nicht verwendet werden</translation>
-    </message>
-    <message>
-        <source>ListElement: improperly specified %1</source>
-        <translation>ListElement: Ungültige Angabe %1</translation>
-    </message>
-    <message>
-        <source>ListElement: improperly specified QT_TRANSLATE_NOOP</source>
-        <translation>ListElement: Ungültige Angabe von QT_TRANSLATE_NOOP</translation>
     </message>
     <message>
         <source>ListElement: cannot use script for property value</source>
@@ -1371,6 +1335,37 @@ Installieren Sie einen Treiber, der OpenGL 2.0 oder neuer bereitstellt, oder ste
     <message>
         <source>An XmlListModel query must start with &apos;/&apos; or &quot;//&quot;</source>
         <translation>Eine XmlListModel-Abfrage muss mit &apos;/&apos; oder &quot;//&quot; beginnen</translation>
+    </message>
+</context>
+<context>
+    <name>SignalHandlerConverter</name>
+    <message>
+        <source>Non-existent attached object</source>
+        <translation>Das als &quot;attached&quot; angegebene Objekt existiert nicht</translation>
+    </message>
+    <message>
+        <source>Signal uses unnamed parameter followed by named parameter.</source>
+        <translation>Das Signal verwendet einen unbenannten Parameter, auf den ein benannter Parameter folgt.</translation>
+    </message>
+    <message>
+        <source>Signal parameter &quot;%1&quot; hides global variable.</source>
+        <translation>Der Signalparameter &quot;%1&quot; überdeckt eine globale Variable.</translation>
+    </message>
+    <message>
+        <source>&quot;%1.%2&quot; is not available in %3 %4.%5.</source>
+        <translation>&quot;%1.%2&quot; ist in %3 %4.%5 nicht verfügbar.</translation>
+    </message>
+    <message>
+        <source>&quot;%1.%2&quot; is not available due to component versioning.</source>
+        <translation>&quot;%1.%2&quot; ist wegen der Versionierung der Komponente nicht verfügbar.</translation>
+    </message>
+    <message>
+        <source>Cannot assign a value to a signal (expecting a script to be run)</source>
+        <translation>Einem Signal können keine Werte zugewiesen werden (es wird ein ausführbares Skript erwartet)</translation>
+    </message>
+    <message>
+        <source>Incorrectly specified signal assignment</source>
+        <translation>Angegebene Signalzuweisung ist nicht korrekt</translation>
     </message>
 </context>
 <context>
