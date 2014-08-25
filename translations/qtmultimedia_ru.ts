@@ -172,6 +172,17 @@
     </message>
 </context>
 <context>
+    <name>DSCameraSession</name>
+    <message>
+        <source>Camera not ready for capture</source>
+        <translation>Камера не готова к захвату</translation>
+    </message>
+    <message>
+        <source>Could not save image to file.</source>
+        <translation>Не удалось сохранить изображение в файл.</translation>
+    </message>
+</context>
+<context>
     <name>MFPlayerSession</name>
     <message>
         <source>Invalid stream source.</source>
@@ -276,18 +287,6 @@
         <source>Error parsing playlist at line[%1]:%2</source>
         <translation>Ошибка разбора списка воспроизведения в строке %1: %2</translation>
     </message>
-    <message>
-        <source>File%1</source>
-        <translation>Файл%1</translation>
-    </message>
-    <message>
-        <source>Title%1</source>
-        <translation>Название%1</translation>
-    </message>
-    <message>
-        <source>Length%1</source>
-        <translation>Длина%1</translation>
-    </message>
 </context>
 <context>
     <name>QAndroidAudioEncoderSettingsControl</name>
@@ -306,6 +305,10 @@
 </context>
 <context>
     <name>QAndroidCameraSession</name>
+    <message>
+        <source>Camera cannot be started without a viewfinder.</source>
+        <translation>Невозможно запустить камеру без видоискателя.</translation>
+    </message>
     <message>
         <source>Camera not ready</source>
         <translation>Камера не готова</translation>

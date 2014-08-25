@@ -4606,7 +4606,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Clear Grab</source>
-        <translation type="unfinished"></translation>
+        <translation>Очистить захват</translation>
     </message>
     <message>
         <source>Close</source>
@@ -6008,6 +6008,21 @@ Please turn one of those options off.</source>
     <message>
         <source>Select All</source>
         <translation>Выделить всё</translation>
+    </message>
+</context>
+<context>
+    <name>QWindowsDirect2DIntegration</name>
+    <message>
+        <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
+
+The minimum Direct2D version required is %1.%2.%3.%4. The Direct2D version on this system is %5.%6.%7.%8.</source>
+        <translation>Qt не может загрузить модуль платформы direct2d, так как установленная версия Direct2D слишком старая. Минимальные требования этого модуля: Windows 7 SP1 с Platform Update.
+
+Требуется Direct2D версии не ниже %1.%2.%3.%4. Версия обнаруженного Direct2D: %5.%6.%7.%8.</translation>
+    </message>
+    <message>
+        <source>Cannot load direct2d platform plugin</source>
+        <translation>Не удалось загрузить модуль платформы direct2d</translation>
     </message>
 </context>
 <context>
