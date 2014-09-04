@@ -42,6 +42,7 @@ addTsTargets(qtbase, qtbase/src/src.pro \
     qtimageformats/src/src.pro \  # just 10 error messages from tga reader. uses bad context.
 )
 addTsTargets(qtdeclarative, qtdeclarative/src/src.pro)
+addTsTargets(qtquickcontrols, qtquickcontrols/src/src.pro)
 addTsTargets(qtmultimedia, qtmultimedia/src/src.pro)
 addTsTargets(qtquick1, qtquick1/src/src.pro)
 addTsTargets(qtscript, qtscript/src/src.pro)

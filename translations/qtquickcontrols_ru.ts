@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="ru_RU">
+<context>
+    <name>DefaultColorDialog</name>
+    <message>
+        <source>Hue</source>
+        <translation>Оттенок</translation>
+    </message>
+    <message>
+        <source>Saturation</source>
+        <translation>Насыщенность</translation>
+    </message>
+    <message>
+        <source>Luminosity</source>
+        <translation>Яркость</translation>
+    </message>
+    <message>
+        <source>Alpha</source>
+        <translation>Альфа</translation>
+    </message>
+</context>
+<context>
+    <name>DefaultFontDialog</name>
+    <message>
+        <source>Writing System</source>
+        <translation>Система письма</translation>
+    </message>
+    <message>
+        <source>Font</source>
+        <translation>Шрифт</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Размер</translation>
+    </message>
+    <message>
+        <source>Weight</source>
+        <translation>Толщина</translation>
+    </message>
+    <message>
+        <source>Style</source>
+        <translation>Начертание</translation>
+    </message>
+    <message>
+        <source>Sample</source>
+        <translation>Пример</translation>
+    </message>
+    <message>
+        <source>Italic</source>
+        <translation>Наклонный</translation>
+    </message>
+    <message>
+        <source>Underline</source>
+        <translation>Подчёркнутый</translation>
+    </message>
+    <message>
+        <source>Overline</source>
+        <translation>Надчёркивание</translation>
+    </message>
+    <message>
+        <source>Strikeout</source>
+        <translation>Зачёркивание</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Отмена</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>ОК</translation>
+    </message>
+</context>
+</TS>
