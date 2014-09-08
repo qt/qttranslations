@@ -159,6 +159,10 @@
         <source>Service has not been started</source>
         <translation>サービスが開始されていません</translation>
     </message>
+    <message>
+        <source>Recording permissions are not available</source>
+        <translation>録画の権限がありません</translation>
+    </message>
 </context>
 <context>
     <name>CameraBinSession</name>
@@ -501,7 +505,7 @@
     </message>
     <message>
         <source>Playlist format is not supported</source>
-        <translation>サポートされていないプレイリストの形式です。</translation>
+        <translation>サポートされていないプレイリストの形式です</translation>
     </message>
     <message>
         <source>The file could not be accessed.</source>

@@ -174,6 +174,10 @@
         <source>Service has not been started</source>
         <translation>Služba nebyla spuštěna</translation>
     </message>
+    <message>
+        <source>Recording permissions are not available</source>
+        <translation>Oprávnění pro nahrávání nejsou dostupná</translation>
+    </message>
 </context>
 <context>
     <name>CameraBinSession</name>

@@ -240,11 +240,11 @@
     </message>
     <message>
         <source>The prefix %1 cannot be bound.</source>
-        <translation>プレフィックス %1 はバウンドできません。</translation>
+        <translation>プレフィックス %1 をバインドできません。</translation>
     </message>
     <message>
         <source>Only the prefix %1 can be bound to %2 and vice versa.</source>
-        <translation>プレフィックス %1 は、%2 にのみバウンドできます。逆も同じです。</translation>
+        <translation>プレフィックス %1 は、%2 にのみバインドできます。逆も同じです。</translation>
     </message>
     <message>
         <source>An attribute node cannot be a child of a document node. Therefore, the attribute %1 is out of place.</source>
@@ -531,8 +531,8 @@
         <translation>プレフィックス &apos;%1&apos; を再定義することはできません。</translation>
     </message>
     <message>
-        <source>The prefix %1 cannot be bound. By default, it is already bound to the namespace %2.</source>
-        <translation>プレフィックス &apos;%1&apos; はバウンドできません。デフォルトでは、それは既に名前空間 &apos;%2&apos; にバウンドされています。</translation>
+        <source>The prefix %1 can not be bound. By default, it is already bound to the namespace %2.</source>
+        <translation>プレフィックス %1 をバインドできません。デフォルトで名前空間 %2 にバインド済みです。</translation>
     </message>
     <message>
         <source>Prefix %1 is already declared in the prolog.</source>
@@ -656,11 +656,11 @@
     </message>
     <message>
         <source>Namespace %1 can only be bound to %2 (and it is, in either case, pre-declared).</source>
-        <translation>名前空間 %1 は %2 にのみバウンドできます。</translation>
+        <translation>名前空間 %1 は(宣言済みの) %2 にのみバインドできます。</translation>
     </message>
     <message>
         <source>Prefix %1 can only be bound to %2 (and it is, in either case, pre-declared).</source>
-        <translation>プリフィックス %1 は %2 にのみバウンドできます。</translation>
+        <translation>プリフィックス %1 は(宣言済みの) %2 にのみバインドできます。</translation>
     </message>
     <message>
         <source>Two namespace declaration attributes have the same name: %1.</source>

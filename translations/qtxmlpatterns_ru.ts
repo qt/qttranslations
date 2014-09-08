@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ru_RU">
+<TS version="2.1" language="ru_RU">
 <context>
     <name>QXmlPatternistCLI</name>
     <message>
@@ -449,10 +449,6 @@
     <message>
         <source>It is not possible to redeclare prefix %1.</source>
         <translation>Невозможно переопределить префикс %1.</translation>
-    </message>
-    <message>
-        <source>The prefix %1 cannot be bound. By default, it is already bound to the namespace %2.</source>
-        <translation>Не удаётся связать префикс %1. По умолчанию префикс связан с пространством имён %2.</translation>
     </message>
     <message>
         <source>The prefix %1 can not be bound. By default, it is already bound to the namespace %2.</source>

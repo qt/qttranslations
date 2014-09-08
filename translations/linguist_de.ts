@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="de">
+<TS version="2.1" language="de">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -232,6 +232,14 @@ Es wird mit einer einfachen Universalform gearbeitet.</translation>
         <source></source>
         <comment>Choose Edit|Find from the menu bar or press Ctrl+F to pop up the Find dialog</comment>
         <translation></translation>
+    </message>
+    <message>
+        <source>Obsoleted messages are skipped when checked.</source>
+        <translation>Bewirkt, dass als &apos;obsolet&apos; gekennzeichnete Texte übersprungen werden.</translation>
+    </message>
+    <message>
+        <source>Skip &amp;obsolete</source>
+        <translation>&apos;&amp;obsolet&apos; überspringen</translation>
     </message>
 </context>
 <context>
@@ -1202,6 +1210,14 @@ Alle Dateien (*)</translation>
     <message>
         <source>Display information about the Qt toolkit by Digia.</source>
         <translation>Information über das Qt-Toolkit von Digia anzeigen.</translation>
+    </message>
+    <message>
+        <source>Visualize whitespace</source>
+        <translation>Leerzeichen darstellen</translation>
+    </message>
+    <message>
+        <source>Toggle visualize whitespace in editors</source>
+        <translation>Schaltet die Darstellung der Leerzeichen in den Editoren um</translation>
     </message>
 </context>
 <context>

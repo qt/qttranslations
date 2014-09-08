@@ -141,6 +141,25 @@
     </message>
 </context>
 <context>
+    <name>QAndroidPlatformTheme</name>
+    <message>
+        <source>Yes</source>
+        <translation>Sì</translation>
+    </message>
+    <message>
+        <source>Yes to All</source>
+        <translation>Sì a tutti</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>No</translation>
+    </message>
+    <message>
+        <source>No to All</source>
+        <translation>No a tutti</translation>
+    </message>
+</context>
+<context>
     <name>QApplication</name>
     <message>
         <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
@@ -188,6 +207,13 @@
     <message>
         <source>Exit</source>
         <translation>Esci</translation>
+    </message>
+</context>
+<context>
+    <name>QCocoaTheme</name>
+    <message>
+        <source>Don&apos;t Save</source>
+        <translation>Non salvare</translation>
     </message>
 </context>
 <context>
@@ -658,6 +684,10 @@ Premi ESC per annullare</translation>
         <translation>Inizializzazione del risolutore non riuscita</translation>
     </message>
     <message>
+        <source>IPv6 addresses for nameservers is currently not supported</source>
+        <translation>Gli indirizzi IPv6 per i server di risoluzione dei nomi non sono al momento supportati</translation>
+    </message>
+    <message>
         <source>Server could not process query</source>
         <translation>Il server non può elaborare la query</translation>
     </message>
@@ -716,6 +746,35 @@ Premi ESC per annullare</translation>
     <message>
         <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
         <translation>La libreria di risoluzione non può essere caricata. Nessun supporto per il caricamento di librerie</translation>
+    </message>
+    <message>
+        <source>No hostname given</source>
+        <translation>Nessun nome host inserito</translation>
+    </message>
+    <message>
+        <source>Invalid hostname</source>
+        <translation>Nome dell&apos;host non valido</translation>
+    </message>
+</context>
+<context>
+    <name>QDockWidget</name>
+    <message>
+        <source>Float</source>
+        <extracomment>Accessible name for button undocking a dock widget (floating state)</extracomment>
+        <translation>Fluttua</translation>
+    </message>
+    <message>
+        <source>Undocks and re-attaches the dock widget</source>
+        <translation>Separa e ri-collega l&apos;oggetto contenitore</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <extracomment>Accessible name for button closing a dock widget</extracomment>
+        <translation>Chiudi</translation>
+    </message>
+    <message>
+        <source>Closes the dock widget</source>
+        <translation>Chiudi l&apos;oggetto contenitore</translation>
     </message>
 </context>
 <context>
@@ -1399,6 +1458,29 @@ Vuoi eliminarlo comunque?</translation>
     </message>
 </context>
 <context>
+    <name>QGnomeTheme</name>
+    <message>
+        <source>&amp;OK</source>
+        <translation>&amp;OK</translation>
+    </message>
+    <message>
+        <source>&amp;Save</source>
+        <translation>&amp;Salva</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>&amp;Annulla</translation>
+    </message>
+    <message>
+        <source>&amp;Close</source>
+        <translation>&amp;Chiudi</translation>
+    </message>
+    <message>
+        <source>Close without Saving</source>
+        <translation>Chiudi senza salvare</translation>
+    </message>
+</context>
+<context>
     <name>QHostInfo</name>
     <message>
         <source>No host name given</source>
@@ -1621,6 +1703,10 @@ Vuoi eliminarlo comunque?</translation>
     <message>
         <source>Unknown error</source>
         <translation>Errore sconosciuto</translation>
+    </message>
+    <message>
+        <source>file to open is a directory</source>
+        <translation>il file da aprire è una cartella</translation>
     </message>
 </context>
 <context>
@@ -2613,6 +2699,52 @@ Vuoi eliminarlo comunque?</translation>
         <translation>Punti (pt)</translation>
     </message>
     <message>
+        <source>Pica (P̸)</source>
+        <translation>Pica (P̸)</translation>
+    </message>
+    <message>
+        <source>Didot (DD)</source>
+        <translation>Didot (DD)</translation>
+    </message>
+    <message>
+        <source>Cicero (CC)</source>
+        <translation>Cicero (CC)</translation>
+    </message>
+    <message>
+        <source>Custom</source>
+        <translation>Personalizzata</translation>
+    </message>
+    <message>
+        <source>mm</source>
+        <extracomment>Unit &apos;Millimeter&apos;</extracomment>
+        <translation>mm</translation>
+    </message>
+    <message>
+        <source>pt</source>
+        <extracomment>Unit &apos;Points&apos;</extracomment>
+        <translation>pt</translation>
+    </message>
+    <message>
+        <source>in</source>
+        <extracomment>Unit &apos;Inch&apos;</extracomment>
+        <translation>in</translation>
+    </message>
+    <message>
+        <source>P̸</source>
+        <extracomment>Unit &apos;Pica&apos;</extracomment>
+        <translation>P̸</translation>
+    </message>
+    <message>
+        <source>DD</source>
+        <extracomment>Unit &apos;Didot&apos;</extracomment>
+        <translation>DD</translation>
+    </message>
+    <message>
+        <source>CC</source>
+        <extracomment>Unit &apos;Cicero&apos;</extracomment>
+        <translation>CC</translation>
+    </message>
+    <message>
         <source>Page Layout</source>
         <translation>Impaginazione</translation>
     </message>
@@ -2623,6 +2755,559 @@ Vuoi eliminarlo comunque?</translation>
     <message>
         <source>Pages per sheet:</source>
         <translation>Pagine per foglio:</translation>
+    </message>
+</context>
+<context>
+    <name>QPageSize</name>
+    <message>
+        <source>Custom (%1mm x %2mm)</source>
+        <extracomment>Custom size name in millimeters</extracomment>
+        <translation>Personalizzata (%1mm x %2mm)</translation>
+    </message>
+    <message>
+        <source>Custom (%1pt x %2pt)</source>
+        <extracomment>Custom size name in points</extracomment>
+        <translation>Personalizzata (%1pt x %2pt)</translation>
+    </message>
+    <message>
+        <source>Custom (%1in x %2in)</source>
+        <extracomment>Custom size name in inches</extracomment>
+        <translation>Personalizzata (%1in x %2in)</translation>
+    </message>
+    <message>
+        <source>Custom (%1pc x %2pc)</source>
+        <extracomment>Custom size name in picas</extracomment>
+        <translation>Personalizzata (%1pc x %2pc)</translation>
+    </message>
+    <message>
+        <source>Custom (%1DD x %2DD)</source>
+        <extracomment>Custom size name in didots</extracomment>
+        <translation>Personalizzata (%1DD x %2DD)</translation>
+    </message>
+    <message>
+        <source>Custom (%1CC x %2CC)</source>
+        <extracomment>Custom size name in ciceros</extracomment>
+        <translation>Personalizzata (%1CC x %2CC)</translation>
+    </message>
+    <message>
+        <source>%1 x %2 in</source>
+        <extracomment>Page size in &apos;Inch&apos;.</extracomment>
+        <translation>%1 x %2 pollici</translation>
+    </message>
+    <message>
+        <source>A0</source>
+        <translation>A0</translation>
+    </message>
+    <message>
+        <source>A1</source>
+        <translation>A1</translation>
+    </message>
+    <message>
+        <source>A2</source>
+        <translation>A2</translation>
+    </message>
+    <message>
+        <source>A3</source>
+        <translation>A3</translation>
+    </message>
+    <message>
+        <source>A4</source>
+        <translation>A4</translation>
+    </message>
+    <message>
+        <source>A5</source>
+        <translation>A5</translation>
+    </message>
+    <message>
+        <source>A6</source>
+        <translation>A6</translation>
+    </message>
+    <message>
+        <source>A7</source>
+        <translation>A7</translation>
+    </message>
+    <message>
+        <source>A8</source>
+        <translation>A8</translation>
+    </message>
+    <message>
+        <source>A9</source>
+        <translation>A9</translation>
+    </message>
+    <message>
+        <source>A10</source>
+        <translation>A10</translation>
+    </message>
+    <message>
+        <source>B0</source>
+        <translation>B0</translation>
+    </message>
+    <message>
+        <source>B1</source>
+        <translation>B1</translation>
+    </message>
+    <message>
+        <source>B2</source>
+        <translation>B2</translation>
+    </message>
+    <message>
+        <source>B3</source>
+        <translation>B3</translation>
+    </message>
+    <message>
+        <source>B4</source>
+        <translation>B4</translation>
+    </message>
+    <message>
+        <source>B5</source>
+        <translation>B5</translation>
+    </message>
+    <message>
+        <source>B6</source>
+        <translation>B6</translation>
+    </message>
+    <message>
+        <source>B7</source>
+        <translation>B7</translation>
+    </message>
+    <message>
+        <source>B8</source>
+        <translation>B8</translation>
+    </message>
+    <message>
+        <source>B9</source>
+        <translation>B9</translation>
+    </message>
+    <message>
+        <source>B10</source>
+        <translation>B10</translation>
+    </message>
+    <message>
+        <source>Executive (7.5 x 10 in)</source>
+        <translation>Esecutivo (7.5 x 10 pollici)</translation>
+    </message>
+    <message>
+        <source>Executive (7.25 x 10.5 in)</source>
+        <translation>Esecutivo (7.25 x 10.5 pollici)</translation>
+    </message>
+    <message>
+        <source>Folio (8.27 x 13 in)</source>
+        <translation>Folio (8.27 x 13 pollici)</translation>
+    </message>
+    <message>
+        <source>Legal</source>
+        <translation>Legale</translation>
+    </message>
+    <message>
+        <source>Letter / ANSI A</source>
+        <translation>Lettera / ANSI A</translation>
+    </message>
+    <message>
+        <source>Tabloid / ANSI B</source>
+        <translation>Tabloid / ANSI B</translation>
+    </message>
+    <message>
+        <source>Ledger / ANSI B</source>
+        <translation>Libro mastro / ANSI B</translation>
+    </message>
+    <message>
+        <source>Custom</source>
+        <translation>Personalizzata</translation>
+    </message>
+    <message>
+        <source>A3 Extra</source>
+        <translation>A3 Extra</translation>
+    </message>
+    <message>
+        <source>A4 Extra</source>
+        <translation>A4 Extra</translation>
+    </message>
+    <message>
+        <source>A4 Plus</source>
+        <translation>A4 Plus</translation>
+    </message>
+    <message>
+        <source>A4 Small</source>
+        <translation>A4 Piccolo</translation>
+    </message>
+    <message>
+        <source>A5 Extra</source>
+        <translation>A5 Extra</translation>
+    </message>
+    <message>
+        <source>B5 Extra</source>
+        <translation>B5 Extra</translation>
+    </message>
+    <message>
+        <source>JIS B0</source>
+        <translation>JIS B0</translation>
+    </message>
+    <message>
+        <source>JIS B1</source>
+        <translation>JIS B1</translation>
+    </message>
+    <message>
+        <source>JIS B2</source>
+        <translation>JIS B2</translation>
+    </message>
+    <message>
+        <source>JIS B3</source>
+        <translation>JIS B3</translation>
+    </message>
+    <message>
+        <source>JIS B4</source>
+        <translation>JIS B4</translation>
+    </message>
+    <message>
+        <source>JIS B5</source>
+        <translation>JIS B5</translation>
+    </message>
+    <message>
+        <source>JIS B6</source>
+        <translation>JIS B6</translation>
+    </message>
+    <message>
+        <source>JIS B7</source>
+        <translation>JIS B7</translation>
+    </message>
+    <message>
+        <source>JIS B8</source>
+        <translation>JIS B8</translation>
+    </message>
+    <message>
+        <source>JIS B9</source>
+        <translation>JIS B9</translation>
+    </message>
+    <message>
+        <source>JIS B10</source>
+        <translation>JIS B10</translation>
+    </message>
+    <message>
+        <source>ANSI C</source>
+        <translation>ANSI C</translation>
+    </message>
+    <message>
+        <source>ANSI D</source>
+        <translation>ANSI D</translation>
+    </message>
+    <message>
+        <source>ANSI E</source>
+        <translation>ANSI E</translation>
+    </message>
+    <message>
+        <source>Legal Extra</source>
+        <translation>Legale extra</translation>
+    </message>
+    <message>
+        <source>Letter Extra</source>
+        <translation>Lettera extra</translation>
+    </message>
+    <message>
+        <source>Letter Plus</source>
+        <translation>Lettera plus</translation>
+    </message>
+    <message>
+        <source>Letter Small</source>
+        <translation>Lettera piccola</translation>
+    </message>
+    <message>
+        <source>Tabloid Extra</source>
+        <translation>Tabloid extra</translation>
+    </message>
+    <message>
+        <source>Architect A</source>
+        <translation>Architetto A</translation>
+    </message>
+    <message>
+        <source>Architect B</source>
+        <translation>Architetto B</translation>
+    </message>
+    <message>
+        <source>Architect C</source>
+        <translation>Architetto C</translation>
+    </message>
+    <message>
+        <source>Architect D</source>
+        <translation>Architetto D</translation>
+    </message>
+    <message>
+        <source>Architect E</source>
+        <translation>Architetto E</translation>
+    </message>
+    <message>
+        <source>Note</source>
+        <translation>Nota</translation>
+    </message>
+    <message>
+        <source>Quarto</source>
+        <translation>Quarto</translation>
+    </message>
+    <message>
+        <source>Statement</source>
+        <translation>Dichiarazione</translation>
+    </message>
+    <message>
+        <source>Super A</source>
+        <translation>Super A</translation>
+    </message>
+    <message>
+        <source>Super B</source>
+        <translation>Super B</translation>
+    </message>
+    <message>
+        <source>Postcard</source>
+        <translation>Cartolina</translation>
+    </message>
+    <message>
+        <source>Double Postcard</source>
+        <translation>Cartolina doppia</translation>
+    </message>
+    <message>
+        <source>PRC 16K</source>
+        <translation>PRC 16K</translation>
+    </message>
+    <message>
+        <source>PRC 32K</source>
+        <translation>PRC 32K</translation>
+    </message>
+    <message>
+        <source>PRC 32K Big</source>
+        <translation>PRC 32K Grande</translation>
+    </message>
+    <message>
+        <source>Fan-fold US (14.875 x 11 in)</source>
+        <translation>Pieghevole US (14.875 x 11 pollici)</translation>
+    </message>
+    <message>
+        <source>Fan-fold German (8.5 x 12 in)</source>
+        <translation>Pieghevole tedesco (8.5 x 12 pollici)</translation>
+    </message>
+    <message>
+        <source>Fan-fold German Legal (8.5 x 13 in)</source>
+        <translation>Pieghevole tedesco legale (8.5 x 13 pollici)</translation>
+    </message>
+    <message>
+        <source>Envelope B4</source>
+        <translation>Busta B4</translation>
+    </message>
+    <message>
+        <source>Envelope B5</source>
+        <translation>Busta B5</translation>
+    </message>
+    <message>
+        <source>Envelope B6</source>
+        <translation>Busta B6</translation>
+    </message>
+    <message>
+        <source>Envelope C0</source>
+        <translation>Busta C0</translation>
+    </message>
+    <message>
+        <source>Envelope C1</source>
+        <translation>Busta C1</translation>
+    </message>
+    <message>
+        <source>Envelope C2</source>
+        <translation>Busta C2</translation>
+    </message>
+    <message>
+        <source>Envelope C3</source>
+        <translation>Busta C3</translation>
+    </message>
+    <message>
+        <source>Envelope C4</source>
+        <translation>Busta C4</translation>
+    </message>
+    <message>
+        <source>Envelope C5</source>
+        <translation>Busta C5</translation>
+    </message>
+    <message>
+        <source>Envelope C6</source>
+        <translation>Busta C6</translation>
+    </message>
+    <message>
+        <source>Envelope C65</source>
+        <translation>Busta C65</translation>
+    </message>
+    <message>
+        <source>Envelope C7</source>
+        <translation>Busta C7</translation>
+    </message>
+    <message>
+        <source>Envelope DL</source>
+        <translation>Busta DL</translation>
+    </message>
+    <message>
+        <source>Envelope US 9</source>
+        <translation>Busta US 9</translation>
+    </message>
+    <message>
+        <source>Envelope US 10</source>
+        <translation>Busta US 10</translation>
+    </message>
+    <message>
+        <source>Envelope US 11</source>
+        <translation>Busta US 11</translation>
+    </message>
+    <message>
+        <source>Envelope US 12</source>
+        <translation>Busta US 12</translation>
+    </message>
+    <message>
+        <source>Envelope US 14</source>
+        <translation>Busta US 14</translation>
+    </message>
+    <message>
+        <source>Envelope Monarch</source>
+        <translation>Busta Monarch</translation>
+    </message>
+    <message>
+        <source>Envelope Personal</source>
+        <translation>Busta personale</translation>
+    </message>
+    <message>
+        <source>Envelope Chou 3</source>
+        <translation>Busta Chou 3</translation>
+    </message>
+    <message>
+        <source>Envelope Chou 4</source>
+        <translation>Busta Chou 4</translation>
+    </message>
+    <message>
+        <source>Envelope Invite</source>
+        <translation>Busta invito</translation>
+    </message>
+    <message>
+        <source>Envelope Italian</source>
+        <translation>Busta italiana</translation>
+    </message>
+    <message>
+        <source>Envelope Kaku 2</source>
+        <translation>Busta Kaku 2</translation>
+    </message>
+    <message>
+        <source>Envelope Kaku 3</source>
+        <translation>Busta Kaku 3</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 1</source>
+        <translation>Busta PRC 1</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 2</source>
+        <translation>Busta PRC 2</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 3</source>
+        <translation>Busta PRC 3</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 4</source>
+        <translation>Busta PRC 4</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 5</source>
+        <translation>Busta PRC 5</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 6</source>
+        <translation>Busta PRC 6</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 7</source>
+        <translation>Busta PRC 7</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 8</source>
+        <translation>Busta PRC 8</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 9</source>
+        <translation>Busta PRC 9</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 10</source>
+        <translation>Busta PRC 10</translation>
+    </message>
+    <message>
+        <source>Envelope You 4</source>
+        <translation>Busta You 4</translation>
+    </message>
+</context>
+<context>
+    <name>QPlatformTheme</name>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Salva</translation>
+    </message>
+    <message>
+        <source>Save All</source>
+        <translation>Salva tutti</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Apri</translation>
+    </message>
+    <message>
+        <source>&amp;Yes</source>
+        <translation>&amp;Sì</translation>
+    </message>
+    <message>
+        <source>Yes to &amp;All</source>
+        <translation>Sì &amp;a tutti</translation>
+    </message>
+    <message>
+        <source>&amp;No</source>
+        <translation>&amp;No</translation>
+    </message>
+    <message>
+        <source>N&amp;o to All</source>
+        <translation>N&amp;o a tutti</translation>
+    </message>
+    <message>
+        <source>Abort</source>
+        <translation>Interrompi</translation>
+    </message>
+    <message>
+        <source>Retry</source>
+        <translation>Riprova</translation>
+    </message>
+    <message>
+        <source>Ignore</source>
+        <translation>Ignora</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Chiudi</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Annulla</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Tralascia</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Aiuto</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Applica</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Ripristina</translation>
+    </message>
+    <message>
+        <source>Restore Defaults</source>
+        <translation>Ripristina valori predefiniti</translation>
     </message>
 </context>
 <context>
@@ -2893,6 +3578,10 @@ Disattiva una di queste opzioni.</translation>
     <message>
         <source>OK</source>
         <translation>OK</translation>
+    </message>
+    <message>
+        <source>Automatic</source>
+        <translation>Automatico</translation>
     </message>
 </context>
 <context>
@@ -4663,7 +5352,7 @@ Disattiva una di queste opzioni.</translation>
     </message>
     <message>
         <source>Num</source>
-        <translation type="unfinished"></translation>
+        <translation>Num</translation>
     </message>
     <message>
         <source>+</source>
@@ -5269,6 +5958,10 @@ Disattiva una di queste opzioni.</translation>
         <translation>Configurazione</translation>
     </message>
     <message>
+        <source>Shared Configuration</source>
+        <translation>Configurazione condivisa</translation>
+    </message>
+    <message>
         <source>Shared Cache</source>
         <translation>Cache condivisa</translation>
     </message>
@@ -5376,7 +6069,7 @@ Disattiva una di queste opzioni.</translation>
     </message>
     <message>
         <source>Could not seek to image read footer</source>
-        <translation type="unfinished"></translation>
+        <translation>Impossibile saltare al fondo del file dell&apos;immagine</translation>
     </message>
     <message>
         <source>Could not read footer</source>
@@ -5481,6 +6174,22 @@ Disattiva una di queste opzioni.</translation>
     <message>
         <source>PDF Pop directional formatting</source>
         <translation>PDF ripristina impostazioni di direzione del testo</translation>
+    </message>
+    <message>
+        <source>LRI Left-to-right isolate</source>
+        <translation>LRI Isolato da sinistra a destra</translation>
+    </message>
+    <message>
+        <source>RLI Right-to-left isolate</source>
+        <translation>RLI Isolato da destra a sinistra</translation>
+    </message>
+    <message>
+        <source>FSI First strong isolate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>PDI Pop directional isolate</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Insert Unicode control character</source>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ru">
+<TS version="2.1" language="ru">
 <context>
     <name>QCLuceneResultWidget</name>
     <message>
@@ -12,8 +12,8 @@
         <translation>Примечание:</translation>
     </message>
     <message>
-        <source>The search results may not be complete since the documentation is still being indexed!</source>
-        <translation>Результат поиска может быть неполным, так как документация ещё индексируется!</translation>
+        <source>The search results may not be complete since the documentation is still being indexed.</source>
+        <translation>Результат поиска может быть неполным, так как документация ещё индексируется.</translation>
     </message>
     <message>
         <source>Your search did not match any documents.</source>
@@ -34,40 +34,24 @@
 <context>
     <name>QHelpCollectionHandler</name>
     <message>
-        <source>The collection file &apos;%1&apos; is not set up yet!</source>
-        <translation>Файл коллекции справки «%1» ещё не установлен!</translation>
-    </message>
-    <message>
-        <source>Cannot load sqlite database driver!</source>
-        <translation>Не удалось загрузить драйвер базы данных sqlite!</translation>
-    </message>
-    <message>
         <source>Cannot open collection file: %1</source>
         <translation>Не удалось открыть файл коллекции справки: %1</translation>
     </message>
     <message>
-        <source>Cannot create tables in file %1!</source>
-        <translation>Не удалось создать таблицы в файле %1!</translation>
+        <source>The collection file &apos;%1&apos; is not set up yet.</source>
+        <translation>Файл коллекции справки «%1» ещё не установлен.</translation>
     </message>
     <message>
-        <source>The collection file &apos;%1&apos; already exists!</source>
-        <translation>Файл коллекции справки «%1» уже существует!</translation>
+        <source>Cannot load sqlite database driver.</source>
+        <translation>Не удалось загрузить драйвер базы данных sqlite.</translation>
     </message>
     <message>
-        <source>Unknown filter &apos;%1&apos;!</source>
-        <translation>Неизвестный фильтр «%1»!</translation>
+        <source>Cannot create tables in file %1.</source>
+        <translation>Не удалось создать таблицы в файле %1.</translation>
     </message>
     <message>
-        <source>Invalid documentation file &apos;%1&apos;!</source>
-        <translation>Некорректный файл документации «%1»!</translation>
-    </message>
-    <message>
-        <source>Cannot register namespace &apos;%1&apos;!</source>
-        <translation>Не удалось зарегистрировать пространство имён «%1»!</translation>
-    </message>
-    <message>
-        <source>Cannot open database &apos;%1&apos; to optimize!</source>
-        <translation>Не удалось открыть базу данных «%1» для оптимизации!</translation>
+        <source>The collection file &apos;%1&apos; already exists.</source>
+        <translation>Файл коллекции справки «%1» уже существует.</translation>
     </message>
     <message>
         <source>Cannot create directory: %1</source>
@@ -78,20 +62,36 @@
         <translation>Не удалось скопировать файл коллекции справки: %1</translation>
     </message>
     <message>
-        <source>Cannot register filter %1!</source>
-        <translation>Не удалось зарегистрировать фильтр «%1»!</translation>
+        <source>Unknown filter &apos;%1&apos;.</source>
+        <translation>Неизвестный фильтр «%1».</translation>
     </message>
     <message>
-        <source>Cannot open documentation file %1!</source>
-        <translation>Не удалось открыть файл документации «%1»!</translation>
+        <source>Cannot register filter %1.</source>
+        <translation>Не удалось зарегистрировать фильтр «%1».</translation>
     </message>
     <message>
-        <source>The namespace %1 was not registered!</source>
-        <translation>Пространство имён «%1» не зарегистрировано!</translation>
+        <source>Cannot open documentation file %1.</source>
+        <translation>Не удалось открыть файл документации «%1».</translation>
     </message>
     <message>
-        <source>Namespace %1 already exists!</source>
-        <translation>Пространство имён «%1» уже существует!</translation>
+        <source>Invalid documentation file &apos;%1&apos;.</source>
+        <translation>Некорректный файл документации «%1».</translation>
+    </message>
+    <message>
+        <source>The namespace %1 was not registered.</source>
+        <translation>Пространство имён «%1» не зарегистрировано.</translation>
+    </message>
+    <message>
+        <source>Namespace %1 already exists.</source>
+        <translation>Пространство имён «%1» уже существует.</translation>
+    </message>
+    <message>
+        <source>Cannot register namespace &apos;%1&apos;.</source>
+        <translation>Не удалось зарегистрировать пространство имён «%1».</translation>
+    </message>
+    <message>
+        <source>Cannot open database &apos;%1&apos; to optimize.</source>
+        <translation>Не удалось открыть базу данных «%1» для оптимизации.</translation>
     </message>
 </context>
 <context>
@@ -105,39 +105,19 @@
 <context>
     <name>QHelpEngineCore</name>
     <message>
-        <source>Cannot open documentation file %1: %2!</source>
-        <translation>Не удалось открыть файл документации «%1»: %2!</translation>
+        <source>Cannot open documentation file %1: %2.</source>
+        <translation>Не удалось открыть файл документации «%1»: %2.</translation>
     </message>
     <message>
-        <source>The specified namespace does not exist!</source>
-        <translation>Указанное пространство имён не существует!</translation>
+        <source>The specified namespace does not exist.</source>
+        <translation>Указанное пространство имён не существует.</translation>
     </message>
 </context>
 <context>
     <name>QHelpGenerator</name>
     <message>
-        <source>Invalid help data!</source>
-        <translation>Некорректные данные справки!</translation>
-    </message>
-    <message>
-        <source>No output file name specified!</source>
-        <translation>Не указано имя результирующего файла!</translation>
-    </message>
-    <message>
         <source>Building up file structure...</source>
         <translation>Создание структуры файла...</translation>
-    </message>
-    <message>
-        <source>The file %1 cannot be overwritten!</source>
-        <translation>Невозможно перезаписать файл «%1»!</translation>
-    </message>
-    <message>
-        <source>Cannot open data base file %1!</source>
-        <translation>Не удалось открыть файл базы данных «%1»!</translation>
-    </message>
-    <message>
-        <source>Cannot register namespace %1!</source>
-        <translation>Не удалось зарегистрировать пространство имён «%1»!</translation>
     </message>
     <message>
         <source>Insert custom filters...</source>
@@ -152,18 +132,6 @@
         <translation>Документация успешно создана.</translation>
     </message>
     <message>
-        <source>Some tables already exist!</source>
-        <translation>Некоторые таблицы уже существуют!</translation>
-    </message>
-    <message>
-        <source>Cannot create tables!</source>
-        <translation>Не удалось создать таблицы!</translation>
-    </message>
-    <message>
-        <source>Cannot register virtual folder!</source>
-        <translation>Не удалось зарегистрировать виртуальный каталог!</translation>
-    </message>
-    <message>
         <source>Insert files...</source>
         <translation>Добавление файлов...</translation>
     </message>
@@ -176,14 +144,6 @@
         <translation>Не удалось открыть файл «%1»! Пропускаем.</translation>
     </message>
     <message>
-        <source>The filter %1 is already registered!</source>
-        <translation>Фильтр «%1» уже зарегистрирован!</translation>
-    </message>
-    <message>
-        <source>Cannot register filter %1!</source>
-        <translation>Не удалось зарегистрировать фильтр «%1»!</translation>
-    </message>
-    <message>
         <source>Insert indices...</source>
         <translation>Добавление указателей...</translation>
     </message>
@@ -192,12 +152,52 @@
         <translation>Добавление оглавления...</translation>
     </message>
     <message>
-        <source>Cannot insert contents!</source>
-        <translation>Не удалось добавить оглавление!</translation>
+        <source>Invalid help data.</source>
+        <translation>Некорректные данные справки.</translation>
     </message>
     <message>
-        <source>Cannot register contents!</source>
-        <translation>Не удалось зарегистрировать оглавление!</translation>
+        <source>No output file name specified.</source>
+        <translation>Не указано имя результирующего файла.</translation>
+    </message>
+    <message>
+        <source>The file %1 cannot be overwritten.</source>
+        <translation>Невозможно перезаписать файл «%1».</translation>
+    </message>
+    <message>
+        <source>Cannot open data base file %1.</source>
+        <translation>Не удалось открыть файл базы данных «%1».</translation>
+    </message>
+    <message>
+        <source>Cannot register namespace %1.</source>
+        <translation>Не удалось зарегистрировать пространство имён «%1».</translation>
+    </message>
+    <message>
+        <source>Some tables already exist.</source>
+        <translation>Некоторые таблицы уже существуют.</translation>
+    </message>
+    <message>
+        <source>Cannot create tables.</source>
+        <translation>Не удалось создать таблицы.</translation>
+    </message>
+    <message>
+        <source>Cannot register virtual folder.</source>
+        <translation>Не удалось зарегистрировать виртуальный каталог.</translation>
+    </message>
+    <message>
+        <source>The filter %1 is already registered.</source>
+        <translation>Фильтр «%1» уже зарегистрирован.</translation>
+    </message>
+    <message>
+        <source>Cannot register filter %1.</source>
+        <translation>Не удалось зарегистрировать фильтр «%1».</translation>
+    </message>
+    <message>
+        <source>Cannot insert contents.</source>
+        <translation>Не удалось добавить оглавление.</translation>
+    </message>
+    <message>
+        <source>Cannot register contents.</source>
+        <translation>Не удалось зарегистрировать оглавление.</translation>
     </message>
     <message>
         <source>File &apos;%1&apos; does not exist.</source>
@@ -219,16 +219,12 @@
 <context>
     <name>QHelpProject</name>
     <message>
-        <source>Unknown token.</source>
-        <translation>Неизвестный идентификатор.</translation>
-    </message>
-    <message>
         <source>Unknown token in file &quot;%1&quot;.</source>
         <translation>Неизвестный идентификатор в файле «%1».</translation>
     </message>
     <message>
-        <source>Unknown token. Expected &quot;QtHelpProject&quot;!</source>
-        <translation>Неизвестный идентификатор. Ожидается «QtHelpProject»!</translation>
+        <source>Unknown token. Expected &quot;QtHelpProject&quot;.</source>
+        <translation>Неизвестный идентификатор. Ожидается «QtHelpProject».</translation>
     </message>
     <message>
         <source>Error in line %1: %2</source>
@@ -251,24 +247,8 @@
         <translation>Отсутствует виртуальный каталог в файле QtHelpProject: «%1»</translation>
     </message>
     <message>
-        <source>Virtual folder has invalid syntax.</source>
-        <translation>Виртуальный каталог имеет некорректный синтаксис.</translation>
-    </message>
-    <message>
-        <source>Namespace has invalid syntax.</source>
-        <translation>Пространство имён имеет некорректный синтаксис.</translation>
-    </message>
-    <message>
-        <source>Missing namespace in QtHelpProject.</source>
-        <translation>В QtHelpProject отсутствует пространство имён.</translation>
-    </message>
-    <message>
-        <source>Missing virtual folder in QtHelpProject</source>
-        <translation>В QtHelpProject отсутствует виртуальный каталог</translation>
-    </message>
-    <message>
-        <source>The input file %1 could not be opened!</source>
-        <translation>Невозможно открыть исходный файл «%1»!</translation>
+        <source>The input file %1 could not be opened.</source>
+        <translation>Невозможно открыть исходный файл «%1».</translation>
     </message>
 </context>
 <context>

@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="uk_UA">
+<TS version="2.1" language="fi">
 <context>
     <name>QScriptBreakpointsModel</name>
     <message>
         <source>ID</source>
-        <translation>ID</translation>
+        <translation>Tunniste (ID)</translation>
     </message>
     <message>
         <source>Location</source>
-        <translation>Позиція</translation>
+        <translation>Sijainti</translation>
     </message>
     <message>
         <source>Condition</source>
-        <translation>Умова</translation>
+        <translation>Ehto</translation>
     </message>
     <message>
         <source>Ignore-count</source>
-        <translation>Пропущено</translation>
+        <translation>Ohituslaskuri</translation>
     </message>
     <message>
         <source>Single-shot</source>
-        <translation>Один раз</translation>
+        <translation>Vain kerran</translation>
     </message>
     <message>
         <source>Hit-count</source>
-        <translation>Збігів</translation>
+        <translation>Osumalaskuri</translation>
     </message>
 </context>
 <context>
     <name>QScriptBreakpointsWidget</name>
     <message>
         <source>New</source>
-        <translation>Новий</translation>
+        <translation>Uusi</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Видалити</translation>
+        <translation>Poista</translation>
     </message>
 </context>
 <context>
     <name>QScriptDebugger</name>
     <message>
         <source>Go to Line</source>
-        <translation>Перейти до рядка</translation>
+        <translation>Siirry riville</translation>
     </message>
     <message>
         <source>Line:</source>
-        <translation>Рядок:</translation>
+        <translation>Rivi:</translation>
     </message>
     <message>
         <source>Interrupt</source>
-        <translation>Перервати</translation>
+        <translation>Keskeytä</translation>
     </message>
     <message>
         <source>Shift+F5</source>
@@ -59,7 +59,7 @@
     </message>
     <message>
         <source>Continue</source>
-        <translation>Продовжити</translation>
+        <translation>Jatka</translation>
     </message>
     <message>
         <source>F5</source>
@@ -67,7 +67,7 @@
     </message>
     <message>
         <source>Step Into</source>
-        <translation>Увійти в</translation>
+        <translation>Askel sisään</translation>
     </message>
     <message>
         <source>F11</source>
@@ -75,7 +75,7 @@
     </message>
     <message>
         <source>Step Over</source>
-        <translation>Перейти через</translation>
+        <translation>Askel yli</translation>
     </message>
     <message>
         <source>F10</source>
@@ -83,7 +83,7 @@
     </message>
     <message>
         <source>Step Out</source>
-        <translation>Вийти з</translation>
+        <translation>Askel ulos</translation>
     </message>
     <message>
         <source>Shift+F11</source>
@@ -91,7 +91,7 @@
     </message>
     <message>
         <source>Run to Cursor</source>
-        <translation>Виконати до курсору</translation>
+        <translation>Suorita kohdistimeen</translation>
     </message>
     <message>
         <source>Ctrl+F10</source>
@@ -99,11 +99,11 @@
     </message>
     <message>
         <source>Run to New Script</source>
-        <translation>Виконати до нового скрипту</translation>
+        <translation>Suorita uuteen skriptiin</translation>
     </message>
     <message>
         <source>Toggle Breakpoint</source>
-        <translation>Перемкнути точку перепину</translation>
+        <translation>Aseta tai poista keskeytyskohta</translation>
     </message>
     <message>
         <source>F9</source>
@@ -111,19 +111,19 @@
     </message>
     <message>
         <source>Clear Debug Output</source>
-        <translation>Очистити зневаджувальне виведення</translation>
+        <translation>Tyhjennä vianjäljityksen tuloste</translation>
     </message>
     <message>
         <source>Clear Error Log</source>
-        <translation>Очистити журнал помилок</translation>
+        <translation>Tyhjennä virheloki</translation>
     </message>
     <message>
         <source>Clear Console</source>
-        <translation>Очистити консоль</translation>
+        <translation>Tyhjennä pääte</translation>
     </message>
     <message>
         <source>&amp;Find in Script...</source>
-        <translation>&amp;Знайти в скрипті...</translation>
+        <translation>&amp;Etsi skriptistä…</translation>
     </message>
     <message>
         <source>Ctrl+F</source>
@@ -131,7 +131,7 @@
     </message>
     <message>
         <source>Find &amp;Next</source>
-        <translation>Знайти &amp;наступне</translation>
+        <translation>Etsi &amp;seuraava</translation>
     </message>
     <message>
         <source>F3</source>
@@ -139,11 +139,11 @@
     </message>
     <message>
         <source>Find &amp;Previous</source>
-        <translation>Знайти &amp;попереднє</translation>
+        <translation>Etsi &amp;edellinen</translation>
     </message>
     <message>
         <source>Shift+F3</source>
-        <translation>Shift+F3</translation>
+        <translation>Vaihto+F3</translation>
     </message>
     <message>
         <source>Ctrl+G</source>
@@ -151,129 +151,129 @@
     </message>
     <message>
         <source>Debug</source>
-        <translation>Зневадження</translation>
+        <translation>Vianjäljitys</translation>
     </message>
 </context>
 <context>
     <name>QScriptDebuggerCodeFinderWidget</name>
     <message>
         <source>Close</source>
-        <translation>Закрити</translation>
+        <translation>Sulje</translation>
     </message>
     <message>
         <source>Previous</source>
-        <translation>Попередній</translation>
+        <translation>Edellinen</translation>
     </message>
     <message>
         <source>Next</source>
-        <translation>Наступний</translation>
+        <translation>Seuraava</translation>
     </message>
     <message>
         <source>Case Sensitive</source>
-        <translation>Враховувати регістр</translation>
+        <translation>Erota pien- ja suuraakkoset</translation>
     </message>
     <message>
         <source>Whole words</source>
-        <translation>Цілі слова</translation>
+        <translation>Vain kokonaiset sanat</translation>
     </message>
     <message>
         <source>&lt;img src=&quot;:/qt/scripttools/debugging/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
-        <translation>&lt;img src=&quot;:/qt/scripttools/debugging/images/wrap.png&quot;&gt;&amp;nbsp;Пошук з початку</translation>
+        <translation>&lt;img src=&quot;:/qt/scripttools/debugging/images/wrap.png&quot;&gt;&amp;nbsp;Haku alkoi alusta</translation>
     </message>
 </context>
 <context>
     <name>QScriptDebuggerLocalsModel</name>
     <message>
         <source>Name</source>
-        <translation>Назва</translation>
+        <translation>Nimi</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation>Значення</translation>
+        <translation>Arvo</translation>
     </message>
 </context>
 <context>
     <name>QScriptDebuggerStackModel</name>
     <message>
         <source>Level</source>
-        <translation>Рівень</translation>
+        <translation>Taso</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Назва</translation>
+        <translation>Nimi</translation>
     </message>
     <message>
         <source>Location</source>
-        <translation>Позиція</translation>
+        <translation>Sijainti</translation>
     </message>
 </context>
 <context>
     <name>QScriptEdit</name>
     <message>
         <source>Toggle Breakpoint</source>
-        <translation>Перемкнути точку перепину</translation>
+        <translation>Aseta tai poista keskeytyskohta</translation>
     </message>
     <message>
         <source>Disable Breakpoint</source>
-        <translation>Вимкнути точку перепину</translation>
+        <translation>Poista keskeytyskohta käytöstä</translation>
     </message>
     <message>
         <source>Enable Breakpoint</source>
-        <translation>Увімкнути точку перепину</translation>
+        <translation>Ota keskeytyskohta käyttöön</translation>
     </message>
     <message>
         <source>Breakpoint Condition:</source>
-        <translation>Умова перепину:</translation>
+        <translation>Keskeytyskohdan ehto:</translation>
     </message>
 </context>
 <context>
     <name>QScriptEngineDebugger</name>
     <message>
         <source>Loaded Scripts</source>
-        <translation>Завантажені скрипти</translation>
+        <translation>Ladatut skriptit</translation>
     </message>
     <message>
         <source>Breakpoints</source>
-        <translation>Точки перепину</translation>
+        <translation>Keskeytyskohdat</translation>
     </message>
     <message>
         <source>Stack</source>
-        <translation>Стек</translation>
+        <translation>Pino</translation>
     </message>
     <message>
         <source>Locals</source>
-        <translation>Локальні змінні</translation>
+        <translation>Paikalliset muuttujat</translation>
     </message>
     <message>
         <source>Console</source>
-        <translation>Консоль</translation>
+        <translation>Pääte</translation>
     </message>
     <message>
         <source>Debug Output</source>
-        <translation>Зневаджувальне виведення</translation>
+        <translation>Vianjäljitystuloste</translation>
     </message>
     <message>
         <source>Error Log</source>
-        <translation>Журнал помилок</translation>
+        <translation>Virheloki</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Пошук</translation>
+        <translation>Etsi</translation>
     </message>
     <message>
         <source>View</source>
-        <translation>Вид</translation>
+        <translation>Näytä</translation>
     </message>
     <message>
         <source>Qt Script Debugger</source>
-        <translation>Зневаджувач скриптів Qt</translation>
+        <translation>Qt Script -vianjäljitys</translation>
     </message>
 </context>
 <context>
     <name>QScriptNewBreakpointWidget</name>
     <message>
         <source>Close</source>
-        <translation>Закрити</translation>
+        <translation>Sulje</translation>
     </message>
 </context>
 </TS>
