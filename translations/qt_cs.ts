@@ -3,8 +3,6 @@
 <TS version="2.0" language="cs">
     <dependencies>
         <dependency catalog="qtbase_cs"/>
-        <dependency catalog="qtdeclarative_cs"/>
-        <dependency catalog="qtquickcontrols_cs"/>
         <dependency catalog="qtscript_cs"/>
         <dependency catalog="qtquick1_cs"/>
         <dependency catalog="qtmultimedia_cs"/>
