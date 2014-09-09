@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ru_RU">
+<TS version="2.1" language="ru_RU">
 <context>
     <name>DefaultColorDialog</name>
     <message>
@@ -18,6 +18,76 @@
     <message>
         <source>Alpha</source>
         <translation>Альфа</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Отмена</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+</context>
+<context>
+    <name>DefaultDialogWrapper</name>
+    <message>
+        <source>Show Details...</source>
+        <translation>Показать подробности...</translation>
+    </message>
+</context>
+<context>
+    <name>DefaultFileDialog</name>
+    <message>
+        <source>Go up to the folder containing this one</source>
+        <translation>Перейти к родительской папке</translation>
+    </message>
+    <message>
+        <source>List View</source>
+        <translation>Список</translation>
+    </message>
+    <message>
+        <source>Detail View</source>
+        <translation>Подробности</translation>
+    </message>
+    <message>
+        <source>Remove favorite</source>
+        <translation>Удалить закладку</translation>
+    </message>
+    <message>
+        <source>Add the current directory as a favorite</source>
+        <translation>Добавить текущую папки в закладки</translation>
+    </message>
+    <message>
+        <source>Filename</source>
+        <translation>Имя</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <comment>file type (extension)</comment>
+        <translation>Тип</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <comment>file size</comment>
+        <translation>Размер</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <comment>last-modified time</comment>
+        <translation>Изменён</translation>
+    </message>
+    <message>
+        <source>Accessed</source>
+        <comment>last-accessed time</comment>
+        <translation>Открыт</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Отмена</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
     </message>
 </context>
 <context>
@@ -68,7 +138,94 @@
     </message>
     <message>
         <source>OK</source>
-        <translation>ОК</translation>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Font Family</source>
+        <translation>Семейство шрифтов</translation>
+    </message>
+</context>
+<context>
+    <name>DefaultMessageDialog</name>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Открыть</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Сохранить</translation>
+    </message>
+    <message>
+        <source>Save All</source>
+        <translation>Сохранить всё</translation>
+    </message>
+    <message>
+        <source>Retry</source>
+        <translation>Повторить</translation>
+    </message>
+    <message>
+        <source>Ignore</source>
+        <translation>Пропустить</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Применить</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Да</translation>
+    </message>
+    <message>
+        <source>Yes to All</source>
+        <translation>Да для всех</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Нет</translation>
+    </message>
+    <message>
+        <source>No to All</source>
+        <translation>Нет для всех</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Отменить</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Сбросить</translation>
+    </message>
+    <message>
+        <source>Restore Defaults</source>
+        <translation>По умолчанию</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Отмена</translation>
+    </message>
+    <message>
+        <source>Abort</source>
+        <translation>Прервать</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Закрыть</translation>
+    </message>
+    <message>
+        <source>Show Details...</source>
+        <translation>Показать подробности...</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Справка</translation>
+    </message>
+    <message>
+        <source>Hide Details</source>
+        <translation>Скрыть подробности</translation>
     </message>
 </context>
 </TS>

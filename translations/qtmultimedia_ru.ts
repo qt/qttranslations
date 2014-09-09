@@ -545,6 +545,10 @@
         <source>CameraImageProcessing is provided by Camera</source>
         <translation>CameraImageProcessing предоставляется камерой</translation>
     </message>
+    <message>
+        <source>CameraViewfinder is provided by Camera</source>
+        <translation>CameraViewfinder предоставляется камерой</translation>
+    </message>
 </context>
 <context>
     <name>QPlaylistFileParser</name>
@@ -566,6 +570,21 @@
     <message>
         <source>Empty file provided</source>
         <translation>Предоставлен пустой файл</translation>
+    </message>
+</context>
+<context>
+    <name>QWinRTCameraImageCaptureControl</name>
+    <message>
+        <source>Camera not ready</source>
+        <translation>Камера не готова</translation>
+    </message>
+    <message>
+        <source>Invalid photo data length.</source>
+        <translation>Неверная длина данных фотографии.</translation>
+    </message>
+    <message>
+        <source>Image saving failed</source>
+        <translation>Не удалось сохранить изображение</translation>
     </message>
 </context>
 </TS>
