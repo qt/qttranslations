@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ru">
+<TS version="2.1" language="ru">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -259,8 +259,8 @@ Reason:
         <translation>Адрес</translation>
     </message>
     <message>
-        <source>Toolbar Menu</source>
-        <translation>Меню панели инструментов</translation>
+        <source>Bookmarks Toolbar</source>
+        <translation>Панель закладок</translation>
     </message>
     <message>
         <source>Bookmarks Menu</source>
@@ -580,83 +580,6 @@ Reason:
     <message>
         <source>Open Link in New Tab</source>
         <translation>Открыть ссылку в новой вкладке</translation>
-    </message>
-</context>
-<context>
-    <name>InstallDialog</name>
-    <message>
-        <source>Install Documentation</source>
-        <translation>Установка документации</translation>
-    </message>
-    <message>
-        <source>Downloading documentation info...</source>
-        <translation>Загрузка информации о документации...</translation>
-    </message>
-    <message>
-        <source>Download canceled.</source>
-        <translation>Загрузка отменена.</translation>
-    </message>
-    <message>
-        <source>Done.</source>
-        <translation>Готово.</translation>
-    </message>
-    <message>
-        <source>The file %1 already exists. Do you want to overwrite it?</source>
-        <translation>Файл %1 уже существует. Желаете перезаписать его?</translation>
-    </message>
-    <message>
-        <source>Unable to save the file %1: %2.</source>
-        <translation>Невозможно сохранить файл %1: %2.</translation>
-    </message>
-    <message>
-        <source>Downloading %1...</source>
-        <translation>Загрузка %1...</translation>
-    </message>
-    <message>
-        <source>Download failed: %1.</source>
-        <translation>Загрузка не удалась: %1.</translation>
-    </message>
-    <message>
-        <source>Documentation info file is corrupt!</source>
-        <translation>Файл информации о документации повреждён!</translation>
-    </message>
-    <message>
-        <source>Download failed: Downloaded file is corrupted.</source>
-        <translation>Загрузка не удалась: загруженный файл повреждён.</translation>
-    </message>
-    <message>
-        <source>Installing documentation %1...</source>
-        <translation>Установка документации %1...</translation>
-    </message>
-    <message>
-        <source>Error while installing documentation:
-%1</source>
-        <translation>При установке документации возникла ошибка:
-%1</translation>
-    </message>
-    <message>
-        <source>Available Documentation:</source>
-        <translation>Доступная документация:</translation>
-    </message>
-    <message>
-        <source>Install</source>
-        <translation>Установить</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Отмена</translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation>Закрыть</translation>
-    </message>
-    <message>
-        <source>Installation Path:</source>
-        <translation>Путь установки:</translation>
-    </message>
-    <message>
-        <source>...</source>
-        <translation>...</translation>
     </message>
 </context>
 <context>

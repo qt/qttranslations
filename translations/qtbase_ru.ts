@@ -1747,6 +1747,10 @@ Do you want to delete it anyway?</source>
         <source>too large document</source>
         <translation>слишком большой документ</translation>
     </message>
+    <message>
+        <source>garbage at the end of the document</source>
+        <translation>мусор в конце документа</translation>
+    </message>
 </context>
 <context>
     <name>QKeySequenceEdit</name>
@@ -4665,11 +4669,11 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Application Left</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Левая софт-кнопка</translation>
     </message>
     <message>
         <source>Application Right</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Правая софт-кнопка</translation>
     </message>
     <message>
         <source>Book</source>
@@ -5666,7 +5670,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>web document</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished">web-документ</translation>
+        <translation>web-документ</translation>
     </message>
     <message>
         <source>paragraph</source>
@@ -6155,7 +6159,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>FSI First strong isolate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">FSI Первая жёсткая изоляция</translation>
     </message>
     <message>
         <source>PDI Pop directional isolate</source>

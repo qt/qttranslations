@@ -42,14 +42,6 @@
         <translation>Перейти к родительской папке</translation>
     </message>
     <message>
-        <source>List View</source>
-        <translation>Список</translation>
-    </message>
-    <message>
-        <source>Detail View</source>
-        <translation>Подробности</translation>
-    </message>
-    <message>
         <source>Remove favorite</source>
         <translation>Удалить закладку</translation>
     </message>
