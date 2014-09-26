@@ -378,6 +378,10 @@
         <translation>Das statische Plugin des Moduls &quot;%1&quot; mit dem Namen &quot;%2&quot; hat keinen Metadaten-URI</translation>
     </message>
     <message>
+        <source>module does not support the designer &quot;%1&quot;</source>
+        <translation>Das Modul unterstützt den Designer &quot;%1&quot; nicht</translation>
+    </message>
+    <message>
         <source>plugin cannot be loaded for module &quot;%1&quot;: %2</source>
         <translation>Das Plugin des Moduls &quot;%1&quot; kann nicht geladen werden: %2</translation>
     </message>
@@ -868,8 +872,8 @@
         <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein regulärer Ausdruck erwartet; verwenden Sie die Schreibweise /Muster/</translation>
     </message>
     <message>
-        <source>Invalid property assignment: real or array of reals expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine reelle Zahl oder ein Feld von reellen Zahlen erwartet</translation>
+        <source>Invalid property assignment: number or array of numbers expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Zahl oder ein Feld von Zahlen erwartet</translation>
     </message>
     <message>
         <source>Invalid property assignment: int or array of ints expected</source>
@@ -1141,6 +1145,13 @@
     <message>
         <source>setSource: value is not an object</source>
         <translation>setSource: Der Wert ist kein Objekt</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickOpenGLInfo</name>
+    <message>
+        <source>OpenGLInfo is only available via attached properties</source>
+        <translation>Auf OpenGLInfo kann nur mittels Eigenschaften des Typs &apos;attached&apos; zugegriffen werden</translation>
     </message>
 </context>
 <context>

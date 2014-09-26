@@ -1219,6 +1219,34 @@ Alle Dateien (*)</translation>
         <source>Toggle visualize whitespace in editors</source>
         <translation>Schaltet die Darstellung der Leerzeichen in den Editoren um</translation>
     </message>
+    <message>
+        <source>&amp;Zoom</source>
+        <translation>&amp;Vergrößerung</translation>
+    </message>
+    <message>
+        <source>Increase</source>
+        <translation>Vergrößern</translation>
+    </message>
+    <message>
+        <source>Ctrl++</source>
+        <translation>Ctrl++</translation>
+    </message>
+    <message>
+        <source>Decrease</source>
+        <translation>Verkleinern</translation>
+    </message>
+    <message>
+        <source>Ctrl+-</source>
+        <translation>Ctrl+-</translation>
+    </message>
+    <message>
+        <source>Reset to default</source>
+        <translation>Standardgröße</translation>
+    </message>
+    <message>
+        <source>Ctrl+0</source>
+        <translation>Ctrl+0</translation>
+    </message>
 </context>
 <context>
     <name>MessageEditor</name>

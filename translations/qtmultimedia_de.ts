@@ -172,6 +172,17 @@
     </message>
 </context>
 <context>
+    <name>DSCameraSession</name>
+    <message>
+        <source>Camera not ready for capture</source>
+        <translation>Die Kamera ist nicht aufnahmebereit</translation>
+    </message>
+    <message>
+        <source>Could not save image to file.</source>
+        <translation>Das Bild konnte nicht in eine Datei gespeichert werden.</translation>
+    </message>
+</context>
+<context>
     <name>MFPlayerSession</name>
     <message>
         <source>Invalid stream source.</source>
@@ -534,6 +545,10 @@
         <source>CameraImageProcessing is provided by Camera</source>
         <translation>CameraImageProcessing wird von Camera bereitgestellt</translation>
     </message>
+    <message>
+        <source>CameraViewfinder is provided by Camera</source>
+        <translation>CameraViewfinder wird von Camera bereitgestellt</translation>
+    </message>
 </context>
 <context>
     <name>QPlaylistFileParser</name>
@@ -555,6 +570,21 @@
     <message>
         <source>Empty file provided</source>
         <translation>Leere Datei angegeben</translation>
+    </message>
+</context>
+<context>
+    <name>QWinRTCameraImageCaptureControl</name>
+    <message>
+        <source>Camera not ready</source>
+        <translation>Kamera nicht bereit</translation>
+    </message>
+    <message>
+        <source>Invalid photo data length.</source>
+        <translation>Ungültige Länge der Bilddaten.</translation>
+    </message>
+    <message>
+        <source>Image saving failed</source>
+        <translation>Das Speichern des Bildes schlug fehl</translation>
     </message>
 </context>
 </TS>

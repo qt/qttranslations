@@ -973,6 +973,11 @@ Möchten Sie die Datei trotzdem löschen?</translation>
         <translation>Laufwerk</translation>
     </message>
     <message>
+        <source>%1 File</source>
+        <extracomment>%1 is a file name suffix, for example txt</extracomment>
+        <translation>%1-Datei</translation>
+    </message>
+    <message>
         <source>File</source>
         <translation>Datei</translation>
     </message>
@@ -1630,6 +1635,48 @@ Möchten Sie die Datei trotzdem löschen?</translation>
     </message>
 </context>
 <context>
+    <name>QImageReader</name>
+    <message>
+        <source>Invalid device</source>
+        <translation>Ungültiges Gerät</translation>
+    </message>
+    <message>
+        <source>File not found</source>
+        <translation>Datei nicht gefunden</translation>
+    </message>
+    <message>
+        <source>Unsupported image format</source>
+        <translation>Dieser Typ von Bilddaten wird nicht unterstützt</translation>
+    </message>
+    <message>
+        <source>Unable to read image data</source>
+        <translation>Die Bilddaten konnten nicht gelesen werden</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>Unbekannter Fehler</translation>
+    </message>
+</context>
+<context>
+    <name>QImageWriter</name>
+    <message>
+        <source>Unknown error</source>
+        <translation>Unbekannter Fehler</translation>
+    </message>
+    <message>
+        <source>Device is not set</source>
+        <translation>Kein Ausgabegerät</translation>
+    </message>
+    <message>
+        <source>Device not writable</source>
+        <translation>Kann nicht auf Ausgabegerät schreiben</translation>
+    </message>
+    <message>
+        <source>Unsupported image format</source>
+        <translation>Dieser Typ von Bilddaten wird nicht unterstützt</translation>
+    </message>
+</context>
+<context>
     <name>QInputDialog</name>
     <message>
         <source>Enter a value:</source>
@@ -1694,6 +1741,10 @@ Möchten Sie die Datei trotzdem löschen?</translation>
     <message>
         <source>too large document</source>
         <translation>zu großes Dokument</translation>
+    </message>
+    <message>
+        <source>garbage at the end of the document</source>
+        <translation>Überzähliger Inhalt nach Ende des Dokuments</translation>
     </message>
 </context>
 <context>
@@ -3980,7 +4031,7 @@ Bitte deaktivieren Sie eine der beiden.</translation>
     </message>
     <message>
         <source>invalid UTF-16 string</source>
-        <translation>Ungültige UTF16-Zeichenkette</translation>
+        <translation>Ungültige UTF-16-Zeichenkette</translation>
     </message>
     <message>
         <source>name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)</source>
@@ -3989,6 +4040,42 @@ Bitte deaktivieren Sie eine der beiden.</translation>
     <message>
         <source>character value in \u.... sequence is too large</source>
         <translation>Zeichenwert in \u....-Sequenz ist zu groß</translation>
+    </message>
+    <message>
+        <source>invalid UTF-32 string</source>
+        <translation>Ungültige UTF-32-Zeichenkette</translation>
+    </message>
+    <message>
+        <source>setting UTF is disabled by the application</source>
+        <translation>UTF-Einstellung durch Anwendung deaktiviert</translation>
+    </message>
+    <message>
+        <source>non-hex character in \x{} (closing brace missing?)</source>
+        <translation>\x{} enthält ein Zeichen, das keine Hexadezimalziffer ist (fehlt eventuell eine schließende Klammer?)</translation>
+    </message>
+    <message>
+        <source>non-octal character in \o{} (closing brace missing?)</source>
+        <translation>\o{} enthält ein Zeichen, das keine Oktalziffer ist (fehlt eventuell eine schließende Klammer?)</translation>
+    </message>
+    <message>
+        <source>missing opening brace after \o</source>
+        <translation>öffnende Klammer fehlt nach \o</translation>
+    </message>
+    <message>
+        <source>parentheses are too deeply nested</source>
+        <translation>Klammern zu tief geschachtelt</translation>
+    </message>
+    <message>
+        <source>invalid range in character class</source>
+        <translation>Ungültiger Bereich in Zeichenklasse</translation>
+    </message>
+    <message>
+        <source>group name must start with a non-digit</source>
+        <translation>Gruppenname darf nicht mit einer Ziffer beginnen</translation>
+    </message>
+    <message>
+        <source>parentheses are too deeply nested (stack check)</source>
+        <translation>Klammern zu tief geschachtelt (Stack-Prüfung)</translation>
     </message>
 </context>
 <context>
@@ -4080,6 +4167,10 @@ Bitte deaktivieren Sie eine der beiden.</translation>
     <message>
         <source>Existing file %1 is not writable</source>
         <translation>Die existierende Datei %1 ist nicht schreibbar</translation>
+    </message>
+    <message>
+        <source>Filename refers to a directory</source>
+        <translation>Dateiname bezeichnet ein Verzeichnis</translation>
     </message>
     <message>
         <source>Writing canceled by application</source>
@@ -4566,10 +4657,6 @@ Bitte deaktivieren Sie eine der beiden.</translation>
         <translation>Community</translation>
     </message>
     <message>
-        <source>Audio Rewind</source>
-        <translation>Audio rückspulen</translation>
-    </message>
-    <message>
         <source>Back Forward</source>
         <translation>Hinterstes nach vorn</translation>
     </message>
@@ -4806,10 +4893,6 @@ Bitte deaktivieren Sie eine der beiden.</translation>
         <translation>Ultra Wide Band</translation>
     </message>
     <message>
-        <source>Audio Forward</source>
-        <translation>Audio vorspulen</translation>
-    </message>
-    <message>
         <source>Audio Repeat</source>
         <translation>Audio wiederholen</translation>
     </message>
@@ -4848,6 +4931,86 @@ Bitte deaktivieren Sie eine der beiden.</translation>
     <message>
         <source>Hibernate</source>
         <translation>Hibernate</translation>
+    </message>
+    <message>
+        <source>Media Rewind</source>
+        <translation>Medium zurückspulen</translation>
+    </message>
+    <message>
+        <source>Media Fast Forward</source>
+        <translation>Medium vorspulen</translation>
+    </message>
+    <message>
+        <source>Power Down</source>
+        <translation>Ausschalten</translation>
+    </message>
+    <message>
+        <source>Microphone Mute</source>
+        <translation>Mikrofon stummschalten</translation>
+    </message>
+    <message>
+        <source>Red</source>
+        <translation>Rot</translation>
+    </message>
+    <message>
+        <source>Green</source>
+        <translation>Grün</translation>
+    </message>
+    <message>
+        <source>Yellow</source>
+        <translation>Gelb</translation>
+    </message>
+    <message>
+        <source>Blue</source>
+        <translation>Blau</translation>
+    </message>
+    <message>
+        <source>Channel Up</source>
+        <translation>nächster Kanal</translation>
+    </message>
+    <message>
+        <source>Channel Down</source>
+        <translation>vorangehender Kanal</translation>
+    </message>
+    <message>
+        <source>Guide</source>
+        <translation>Anleitung</translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>Information</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Einstellungen</translation>
+    </message>
+    <message>
+        <source>Microphone Volume Up</source>
+        <translation>Mikrofon lauter</translation>
+    </message>
+    <message>
+        <source>Microphone Volume Down</source>
+        <translation>Mikrofon leiser</translation>
+    </message>
+    <message>
+        <source>New</source>
+        <translation>Neu</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Öffnen</translation>
+    </message>
+    <message>
+        <source>Find</source>
+        <translation>Suchen</translation>
+    </message>
+    <message>
+        <source>Undo</source>
+        <translation>Rückgängig</translation>
+    </message>
+    <message>
+        <source>Redo</source>
+        <translation>Wiederherstellen</translation>
     </message>
     <message>
         <source>Print Screen</source>
@@ -5097,6 +5260,10 @@ Bitte deaktivieren Sie eine der beiden.</translation>
         <translation>Vergrößern</translation>
     </message>
     <message>
+        <source>Exit</source>
+        <translation>Verlassen</translation>
+    </message>
+    <message>
         <source>Ctrl</source>
         <translation>Strg</translation>
     </message>
@@ -5232,11 +5399,6 @@ Bitte deaktivieren Sie eine der beiden.</translation>
         <translation>Benachrichtigung</translation>
     </message>
     <message>
-        <source>window</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation>Fenster</translation>
-    </message>
-    <message>
         <source>filler</source>
         <extracomment>Role of an accessible object</extracomment>
         <translation>Füller</translation>
@@ -5283,7 +5445,9 @@ Bitte deaktivieren Sie eine der beiden.</translation>
     </message>
     <message>
         <source>frame</source>
-        <extracomment>Role of an accessible object</extracomment>
+        <extracomment>Role of an accessible object: a window with frame and title
+----------
+Role of an accessible object</extracomment>
         <translation>Rahmen</translation>
     </message>
     <message>
@@ -5495,6 +5659,51 @@ Bitte deaktivieren Sie eine der beiden.</translation>
         <source>layered pane</source>
         <extracomment>Role of an accessible object</extracomment>
         <translation>Panel mit mehreren Schichten</translation>
+    </message>
+    <message>
+        <source>web document</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Web-Dokument</translation>
+    </message>
+    <message>
+        <source>paragraph</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Absatz</translation>
+    </message>
+    <message>
+        <source>section</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Abschnitt</translation>
+    </message>
+    <message>
+        <source>color chooser</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Farbauswahl</translation>
+    </message>
+    <message>
+        <source>footer</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Fußzeile</translation>
+    </message>
+    <message>
+        <source>form</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>heading</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Kopfzeile</translation>
+    </message>
+    <message>
+        <source>note</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Hinweis</translation>
+    </message>
+    <message>
+        <source>complementary content</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Ergänzender Inhalt</translation>
     </message>
     <message>
         <source>unknown</source>
@@ -6191,8 +6400,8 @@ Die minimal erforderliche Version von Direct2D ist %1.%2.%3.%4. Die auf diesem S
         <translation>Ungültige Namensraum-Deklaration.</translation>
     </message>
     <message>
-        <source>Attribute redefined.</source>
-        <translation>Redefinition eines Attributes.</translation>
+        <source>Attribute &apos;%1&apos; redefined.</source>
+        <translation>Attribut &apos;%1&apos; mehrfach definiert.</translation>
     </message>
     <message>
         <source>Unexpected character &apos;%1&apos; in public id literal.</source>

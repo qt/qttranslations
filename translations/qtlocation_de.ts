@@ -318,16 +318,32 @@
         <translation>Fußgängerkarte</translation>
     </message>
     <message>
-        <source>Pedestrian map view in daylight mode for mobile usage</source>
+        <source>Pedestrian map view in daylight mode</source>
+        <translation>Fußgängerkarte bei Tageslicht</translation>
+    </message>
+    <message>
+        <source>Mobile Pedestrian Street Map</source>
+        <translation>Mobile Fußgängerkarte</translation>
+    </message>
+    <message>
+        <source>Mobile pedestrian map view in daylight mode for mobile usage</source>
         <translation>Fußgängerkarte für mobilen Einsatz bei Tageslicht</translation>
+    </message>
+    <message>
+        <source>Pedestrian map view in night mode</source>
+        <translation>Fußgängerkarte bei Nacht</translation>
+    </message>
+    <message>
+        <source>Mobile Pedestrian Night Street Map</source>
+        <translation>Mobile Fußgängerkarte bei Nacht</translation>
+    </message>
+    <message>
+        <source>Mobile pedestrian map view in night mode for mobile usage</source>
+        <translation>Fußgängerkarte für mobilen Einsatz bei Nacht</translation>
     </message>
     <message>
         <source>Pedestrian Night Street Map</source>
         <translation>Fußgängerkarte bei Nacht</translation>
-    </message>
-    <message>
-        <source>Pedestrian map view in night mode for mobile usage</source>
-        <translation>Fußgängerkarte für mobilen Einsatz bei Nacht</translation>
     </message>
     <message>
         <source>Car Navigation Map</source>

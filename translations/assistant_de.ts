@@ -257,8 +257,8 @@ Grund:
         <translation>Adresse</translation>
     </message>
     <message>
-        <source>Toolbar Menu</source>
-        <translation>Werkzeugleisten-Menu</translation>
+        <source>Bookmarks Toolbar</source>
+        <translation>Lesezeichenleiste</translation>
     </message>
     <message>
         <source>Bookmarks Menu</source>
