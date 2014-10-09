@@ -1250,11 +1250,11 @@ This indicates an inconsistency in the ui-file.</source>
     </message>
     <message>
         <source>Qt Designer</source>
-        <translation>Qt Designer</translation>
+        <translation type="vanished">Qt Designer</translation>
     </message>
     <message>
         <source>This application cannot be used for the Console edition of Qt</source>
-        <translation>Ця програма не може бути використана консольною редакцією Qt</translation>
+        <translation type="vanished">Ця програма не може бути використана консольною редакцією Qt</translation>
     </message>
 </context>
 <context>
@@ -2468,7 +2468,7 @@ Container pages should only be added by specifying them in XML returned by the d
     <name>QtKeySequenceEdit</name>
     <message>
         <source>Clear Shortcut</source>
-        <translation>Видалити поєднання клавіш</translation>
+        <translation type="vanished">Видалити поєднання клавіш</translation>
     </message>
 </context>
 <context>

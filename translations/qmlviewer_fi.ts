@@ -1,109 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="uk_UA">
+<TS version="2.1" language="fi">
 <context>
     <name>LoggerWidget</name>
     <message>
         <source>Warnings</source>
-        <translation>Попередження</translation>
+        <translation>Varoitukset</translation>
     </message>
     <message>
         <source>(No warnings)</source>
-        <translation>(Немає попереджень)</translation>
+        <translation>(Ei varoituksia)</translation>
     </message>
     <message>
         <source>Show by default</source>
-        <translation>Показувати типово</translation>
+        <translation>Näytä oletusarvoisesti</translation>
     </message>
     <message>
         <source>Hide by default</source>
-        <translation>Ховати типово</translation>
+        <translation>Piilota oletusarvoisesti</translation>
     </message>
     <message>
         <source>Show for first warning</source>
-        <translation>Показувати для першого попередження</translation>
+        <translation>Näytä ensimmäiselle varoitukselle</translation>
     </message>
 </context>
 <context>
     <name>ProxySettings</name>
     <message>
         <source>Dialog</source>
-        <translation>Діалог</translation>
+        <translation>Ikkuna</translation>
     </message>
     <message>
         <source>Use http proxy</source>
-        <translation>Використовувати проксі http</translation>
+        <translation>Käytä HTTP-välityspalvelinta</translation>
     </message>
     <message>
         <source>Server Address:</source>
-        <translation>Адреса сервера:</translation>
+        <translation>Palvelimen osoite:</translation>
     </message>
     <message>
         <source>Port:</source>
-        <translation>Порт:</translation>
+        <translation>Portti:</translation>
     </message>
     <message>
         <source>Username:</source>
-        <translation>Ім&apos;я користувача:</translation>
+        <translation>Käyttäjätunnus:</translation>
     </message>
     <message>
         <source>Password:</source>
-        <translation>Пароль:</translation>
+        <translation>Salasana:</translation>
     </message>
 </context>
 <context>
     <name>QDeclarativeViewer</name>
     <message>
         <source>Qt QML Viewer</source>
-        <translation>Qt QML Viewer</translation>
+        <translation>Qt:n QML-katselin</translation>
     </message>
     <message>
         <source>Save Video File</source>
-        <translation>Зберегти файл відео</translation>
+        <translation>Tallenna videotiedosto</translation>
     </message>
     <message>
         <source>Save PNG Frames</source>
-        <translation>Зберегти кадри PNG</translation>
+        <translation>Tallenna PNG-kuvat</translation>
     </message>
     <message>
         <source>Common Video files</source>
-        <translation>Типові файли відео</translation>
+        <translation>Yleiset videotiedostot</translation>
     </message>
     <message>
         <source>GIF Animation</source>
-        <translation>Анімація GIF</translation>
+        <translation>GIF-animaatio</translation>
     </message>
     <message>
         <source>Individual PNG frames</source>
-        <translation>Окремі кадри PNG</translation>
+        <translation>Erilliset PNG-kuvat</translation>
     </message>
     <message>
         <source>All ffmpeg formats (*.*)</source>
-        <translation>Усі формати ffmpeg (*.*)</translation>
+        <translation>Kaikki ffmpeg-tiedostomuodot (*.*)</translation>
     </message>
     <message>
         <source>ffmpeg and ImageMagick not available - no video output</source>
-        <translation>ffmpeg та ImageMagick не достуані - виведення відео відсутнє</translation>
+        <translation>ffmpeg ja ImageMagick eivät ole käytettävissä – ei videon ulostuloa</translation>
     </message>
     <message>
         <source>ffmpeg not available - GIF and PNG outputs only</source>
-        <translation>ffmpeg не доступний - лише виведення до GIF та PNG</translation>
+        <translation>ffmpeg ei ole käytettävissä – vain GIF- ja PNG-ulostulot</translation>
     </message>
     <message>
         <source>&amp;Open...</source>
-        <translation>&amp;Відкрити...</translation>
+        <translation>&amp;Avaa…</translation>
     </message>
     <message>
         <source>Open &amp;URL...</source>
-        <translation>Відкрити &amp;URL...</translation>
+        <translation>Avaa &amp;URL…</translation>
     </message>
     <message>
         <source>&amp;Reload</source>
-        <translation>&amp;Оновити</translation>
+        <translation>&amp;Lataa uudelleen</translation>
     </message>
     <message>
         <source>&amp;Take Snapshot</source>
-        <translation>Зробити з&amp;німок екрана</translation>
+        <translation>&amp;Kaappaa kuva</translation>
     </message>
     <message>
         <source>F3</source>
@@ -111,7 +111,7 @@
     </message>
     <message>
         <source>Start Recording &amp;Video</source>
-        <translation>Розпочати запис &amp;відео</translation>
+        <translation>Aloita &amp;videon tallennus</translation>
     </message>
     <message>
         <source>F9</source>
@@ -119,11 +119,11 @@
     </message>
     <message>
         <source>Video &amp;Options...</source>
-        <translation>Налаштування &amp;відео...</translation>
+        <translation>&amp;Videoasetukset…</translation>
     </message>
     <message>
         <source>&amp;Slow Down Animations</source>
-        <translation>&amp;Сповільнити анімацію</translation>
+        <translation>&amp;Hidasta animaatioita</translation>
     </message>
     <message>
         <source>Ctrl+.</source>
@@ -131,19 +131,19 @@
     </message>
     <message>
         <source>Show Warnings</source>
-        <translation>Показувати попередження</translation>
+        <translation>Näytä varoitukset</translation>
     </message>
     <message>
         <source>HTTP &amp;Proxy...</source>
-        <translation>&amp;Проксі HTTP...</translation>
+        <translation>&amp;HTTP-välityspalvelin…</translation>
     </message>
     <message>
         <source>Full Screen</source>
-        <translation>На повний екран</translation>
+        <translation>Koko näyttö</translation>
     </message>
     <message>
         <source>Rotate orientation</source>
-        <translation>Орієнтація</translation>
+        <translation>Käännä suuntaa</translation>
     </message>
     <message>
         <source>Ctrl+T</source>
@@ -151,121 +151,121 @@
     </message>
     <message>
         <source>Portrait</source>
-        <translation>Портрет</translation>
+        <translation>Pystysuuntainen</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>Ландшафт</translation>
+        <translation>Vaakasuuntainen</translation>
     </message>
     <message>
         <source>Portrait (inverted)</source>
-        <translation>Обернений портрет</translation>
+        <translation>Pystysuuntainen (ylösalaisin)</translation>
     </message>
     <message>
         <source>Landscape (inverted)</source>
-        <translation>Обернений ландшафт</translation>
+        <translation>Vaakasuuntainen (ylösalaisin)</translation>
     </message>
     <message>
         <source>&amp;About Qt...</source>
-        <translation>&amp;Про Qt...</translation>
+        <translation>&amp;Tietoja Qt:sta…</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>Закри&amp;ти</translation>
+        <translation>&amp;Sulje</translation>
     </message>
     <message>
         <source>&amp;Quit</source>
-        <translation>Ви&amp;йти</translation>
+        <translation>&amp;Lopeta</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Файл</translation>
+        <translation>&amp;Tiedosto</translation>
     </message>
     <message>
         <source>&amp;Recording</source>
-        <translation>&amp;Запис</translation>
+        <translation>Tall&amp;ennus</translation>
     </message>
     <message>
         <source>&amp;Debugging</source>
-        <translation>Зневад&amp;ження</translation>
+        <translation>&amp;Vianjäljitys</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>Нала&amp;штування</translation>
+        <translation>&amp;Asetukset</translation>
     </message>
     <message>
         <source>Properties</source>
-        <translation>Властивості</translation>
+        <translation>Ominaisuudet</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Довідка</translation>
+        <translation>&amp;Ohje</translation>
     </message>
     <message>
         <source>&amp;Stop Recording Video	F9</source>
-        <translation>Зупинити запис &amp;відео	F9</translation>
+        <translation>Pysäytä &amp;videon tallennus	F9</translation>
     </message>
     <message>
         <source>&amp;Start Recording Video	F9</source>
-        <translation>Розпочати запис &amp;відео	F9</translation>
+        <translation>Aloita &amp;videon tallennus	F9</translation>
     </message>
     <message>
         <source>Open QML file</source>
-        <translation>Відкрити файл QML</translation>
+        <translation>Avaa QML-tiedosto</translation>
     </message>
     <message>
         <source>QML Files (*.qml)</source>
-        <translation>Файли QML (*.qml)</translation>
+        <translation>QML-tiedostot (*.qml)</translation>
     </message>
     <message>
         <source>URL of main QML file:</source>
-        <translation>URL головного файлу QML:</translation>
+        <translation>QML-päätiedoston URL:</translation>
     </message>
     <message>
         <source>%1 - Qt QML Viewer</source>
-        <translation>%1 - Qt QML Viewer</translation>
+        <translation>%1 – Qt:n QML-katselin</translation>
     </message>
     <message>
         <source>Video recording uses ffmpeg:</source>
-        <translation>Запис відео з використанням ffmpeg:</translation>
+        <translation>Videon tallennus käyttää ffmpeg:tä:</translation>
     </message>
     <message>
         <source>Saving frames...</source>
-        <translation>Збереження кадрів...</translation>
+        <translation>Tallennetaan kuvia…</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Скасувати</translation>
+        <translation>Peru</translation>
     </message>
     <message>
         <source>Converting frames to GIF file...</source>
-        <translation>Конвертування кадрів до файлу GIF...</translation>
+        <translation>Muunnetaan kuvia GIF-tiedostoksi…</translation>
     </message>
 </context>
 <context>
     <name>RecordingDialog</name>
     <message>
         <source>Original (%1x%2)</source>
-        <translation>Оригінальний (%1x%2)</translation>
+        <translation>Alkuperäinen (%1 × %2)</translation>
     </message>
 </context>
 <context>
     <name>RecordingOptions</name>
     <message>
         <source>Video options</source>
-        <translation>Налаштування відео</translation>
+        <translation>Videoasetukset</translation>
     </message>
     <message>
         <source>File:</source>
-        <translation>Файл:</translation>
+        <translation>Tiedosto:</translation>
     </message>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation>…</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Розмір</translation>
+        <translation>Koko</translation>
     </message>
     <message>
         <source>VGA</source>
@@ -281,43 +281,43 @@
     </message>
     <message>
         <source>Width:</source>
-        <translation>Ширина:</translation>
+        <translation>Leveys:</translation>
     </message>
     <message>
         <source>Height:</source>
-        <translation>Висота:</translation>
+        <translation>Korkeus:</translation>
     </message>
     <message>
         <source>Rate</source>
-        <translation>Частота</translation>
+        <translation>Nopeus</translation>
     </message>
     <message>
         <source>60Hz</source>
-        <translation>60 Гц</translation>
+        <translation>60 Hz</translation>
     </message>
     <message>
         <source>50Hz</source>
-        <translation>50 Гц</translation>
+        <translation>50 Hz</translation>
     </message>
     <message>
         <source>25Hz</source>
-        <translation>25 Гц</translation>
+        <translation>25 Hz</translation>
     </message>
     <message>
         <source>Hz</source>
-        <translation>Гц</translation>
+        <translation>Hz</translation>
     </message>
     <message>
         <source>24Hz</source>
-        <translation>24 Гц</translation>
+        <translation>24 Hz</translation>
     </message>
     <message>
         <source>Profile</source>
-        <translation>Профіль</translation>
+        <translation>Profiili</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Довідка</translation>
+        <translation>Ohje</translation>
     </message>
 </context>
 </TS>

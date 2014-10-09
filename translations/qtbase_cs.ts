@@ -63,7 +63,7 @@
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation></translation>
+        <translation>Při navázaném spojení došlo k dalšímu pokusu o spojení</translation>
     </message>
     <message>
         <source>Socket is not connected</source>
@@ -141,6 +141,25 @@
     </message>
 </context>
 <context>
+    <name>QAndroidPlatformTheme</name>
+    <message>
+        <source>Yes</source>
+        <translation>Ano</translation>
+    </message>
+    <message>
+        <source>Yes to All</source>
+        <translation>Ano, vše</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Ne</translation>
+    </message>
+    <message>
+        <source>No to All</source>
+        <translation>Ne, žádné</translation>
+    </message>
+</context>
+<context>
     <name>QApplication</name>
     <message>
         <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
@@ -148,7 +167,7 @@
     </message>
     <message>
         <source>Incompatible Qt Library Error</source>
-        <translation>Qt není slučitelná</translation>
+        <translation>Nekompatibilní knihovna Qt</translation>
     </message>
 </context>
 <context>
@@ -207,6 +226,13 @@
     <message>
         <source>Exit</source>
         <translation>Ukončit</translation>
+    </message>
+</context>
+<context>
+    <name>QCocoaTheme</name>
+    <message>
+        <source>Don&apos;t Save</source>
+        <translation>Neukládat</translation>
     </message>
 </context>
 <context>
@@ -467,7 +493,7 @@ Stiskněte Esc pro zrušení</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Transakci se nepodařilo zvrátit</translation>
+        <translation>Transakci se nepodařilo vrátit</translation>
     </message>
     <message>
         <source>Unable to set autocommit</source>
@@ -587,7 +613,7 @@ Stiskněte Esc pro zrušení</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>Odmítnout</translation>
+        <translation>Zahodit</translation>
     </message>
     <message>
         <source>&amp;Yes</source>
@@ -619,7 +645,7 @@ Stiskněte Esc pro zrušení</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation>Přehlížet</translation>
+        <translation>Ignorovat</translation>
     </message>
     <message>
         <source>Restore Defaults</source>
@@ -675,6 +701,10 @@ Stiskněte Esc pro zrušení</translation>
     <message>
         <source>Resolver initialization failed</source>
         <translation>Inicializace překladače adres se nezdařila</translation>
+    </message>
+    <message>
+        <source>IPv6 addresses for nameservers is currently not supported</source>
+        <translation>Adresy IPv6 pro DNS servery nejsou v současnosti podporovány</translation>
     </message>
     <message>
         <source>Server could not process query</source>
@@ -737,11 +767,20 @@ Stiskněte Esc pro zrušení</translation>
         <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
         <translation>Knihovnu překladače adres nelze nahrát: Žádná podpora pro nahrání běhové knihovny</translation>
     </message>
+    <message>
+        <source>No hostname given</source>
+        <translation>Nebyl zadán název serveru</translation>
+    </message>
+    <message>
+        <source>Invalid hostname</source>
+        <translation>Neplatný název serveru</translation>
+    </message>
 </context>
 <context>
     <name>QDockWidget</name>
     <message>
         <source>Float</source>
+        <extracomment>Accessible name for button undocking a dock widget (floating state)</extracomment>
         <translation>Uvolnit</translation>
     </message>
     <message>
@@ -750,6 +789,7 @@ Stiskněte Esc pro zrušení</translation>
     </message>
     <message>
         <source>Close</source>
+        <extracomment>Accessible name for button closing a dock widget</extracomment>
         <translation>Zavřít</translation>
     </message>
     <message>
@@ -1434,6 +1474,29 @@ Přesto chcete soubor smazat?</translation>
     </message>
 </context>
 <context>
+    <name>QGnomeTheme</name>
+    <message>
+        <source>&amp;OK</source>
+        <translation>&amp;OK</translation>
+    </message>
+    <message>
+        <source>&amp;Save</source>
+        <translation>&amp;Uložit</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>&amp;Zrušit</translation>
+    </message>
+    <message>
+        <source>&amp;Close</source>
+        <translation>&amp;Zavřít</translation>
+    </message>
+    <message>
+        <source>Close without Saving</source>
+        <translation>Zavřít bez uložení</translation>
+    </message>
+</context>
+<context>
     <name>QHostInfo</name>
     <message>
         <source>No host name given</source>
@@ -1561,7 +1624,7 @@ Přesto chcete soubor smazat?</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Transakci se nepodařilo zvrátit</translation>
+        <translation>Transakci se nepodařilo vrátit</translation>
     </message>
 </context>
 <context>
@@ -1656,6 +1719,10 @@ Přesto chcete soubor smazat?</translation>
     <message>
         <source>Unknown error</source>
         <translation>Neznámá chyba</translation>
+    </message>
+    <message>
+        <source>file to open is a directory</source>
+        <translation>Soubor k otevření je adresářem</translation>
     </message>
 </context>
 <context>
@@ -1948,7 +2015,7 @@ Přesto chcete soubor smazat?</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Transakci se nepodařilo zvrátit</translation>
+        <translation>Transakci se nepodařilo vrátit</translation>
     </message>
 </context>
 <context>
@@ -2411,7 +2478,7 @@ Přesto chcete soubor smazat?</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Transakci se nepodařilo zvrátit</translation>
+        <translation>Transakci se nepodařilo vrátit</translation>
     </message>
 </context>
 <context>
@@ -2469,7 +2536,7 @@ Přesto chcete soubor smazat?</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Transakci se nepodařilo zvrátit</translation>
+        <translation>Transakci se nepodařilo vrátit</translation>
     </message>
     <message>
         <source>Unable to enable autocommit</source>
@@ -2574,7 +2641,7 @@ Přesto chcete soubor smazat?</translation>
     </message>
     <message>
         <source>Could not rollback transaction</source>
-        <translation>Transakci se nepodařilo zvrátit</translation>
+        <translation>Transakci se nepodařilo vrátit</translation>
     </message>
     <message>
         <source>Unable to subscribe</source>
@@ -2679,6 +2746,52 @@ Přesto chcete soubor smazat?</translation>
         <translation>Body (pt)</translation>
     </message>
     <message>
+        <source>Pica (P̸)</source>
+        <translation>Pica (P̸)</translation>
+    </message>
+    <message>
+        <source>Didot (DD)</source>
+        <translation>Didot (DD)</translation>
+    </message>
+    <message>
+        <source>Cicero (CC)</source>
+        <translation>Cicero (CC)</translation>
+    </message>
+    <message>
+        <source>Custom</source>
+        <translation>Stanovený uživatelem</translation>
+    </message>
+    <message>
+        <source>mm</source>
+        <extracomment>Unit &apos;Millimeter&apos;</extracomment>
+        <translation>mm</translation>
+    </message>
+    <message>
+        <source>pt</source>
+        <extracomment>Unit &apos;Points&apos;</extracomment>
+        <translation>pt</translation>
+    </message>
+    <message>
+        <source>in</source>
+        <extracomment>Unit &apos;Inch&apos;</extracomment>
+        <translation>in</translation>
+    </message>
+    <message>
+        <source>P̸</source>
+        <extracomment>Unit &apos;Pica&apos;</extracomment>
+        <translation>P̸</translation>
+    </message>
+    <message>
+        <source>DD</source>
+        <extracomment>Unit &apos;Didot&apos;</extracomment>
+        <translation>DD</translation>
+    </message>
+    <message>
+        <source>CC</source>
+        <extracomment>Unit &apos;Cicero&apos;</extracomment>
+        <translation>CC</translation>
+    </message>
+    <message>
         <source>Page Layout</source>
         <translation>Rozvržení stran</translation>
     </message>
@@ -2689,6 +2802,559 @@ Přesto chcete soubor smazat?</translation>
     <message>
         <source>Pages per sheet:</source>
         <translation>Stran na list:</translation>
+    </message>
+</context>
+<context>
+    <name>QPageSize</name>
+    <message>
+        <source>Custom (%1mm x %2mm)</source>
+        <extracomment>Custom size name in millimeters</extracomment>
+        <translation>Vlastní (%1 mm x %2 mm)</translation>
+    </message>
+    <message>
+        <source>Custom (%1pt x %2pt)</source>
+        <extracomment>Custom size name in points</extracomment>
+        <translation>Vlastní (%1 pt x %2 pt)</translation>
+    </message>
+    <message>
+        <source>Custom (%1in x %2in)</source>
+        <extracomment>Custom size name in inches</extracomment>
+        <translation>Vlastní (%1 in x %2 in)</translation>
+    </message>
+    <message>
+        <source>Custom (%1pc x %2pc)</source>
+        <extracomment>Custom size name in picas</extracomment>
+        <translation>Vlastní (%1 pc x %2 pc)</translation>
+    </message>
+    <message>
+        <source>Custom (%1DD x %2DD)</source>
+        <extracomment>Custom size name in didots</extracomment>
+        <translation>Vlastní (%1 DD x %2 DD)</translation>
+    </message>
+    <message>
+        <source>Custom (%1CC x %2CC)</source>
+        <extracomment>Custom size name in ciceros</extracomment>
+        <translation>Vlastní (%1 CC x %2 CC)</translation>
+    </message>
+    <message>
+        <source>%1 x %2 in</source>
+        <extracomment>Page size in &apos;Inch&apos;.</extracomment>
+        <translation>%1 x %2 in</translation>
+    </message>
+    <message>
+        <source>A0</source>
+        <translation>A0</translation>
+    </message>
+    <message>
+        <source>A1</source>
+        <translation>A1</translation>
+    </message>
+    <message>
+        <source>A2</source>
+        <translation>A2</translation>
+    </message>
+    <message>
+        <source>A3</source>
+        <translation>A3</translation>
+    </message>
+    <message>
+        <source>A4</source>
+        <translation>A4</translation>
+    </message>
+    <message>
+        <source>A5</source>
+        <translation>A5</translation>
+    </message>
+    <message>
+        <source>A6</source>
+        <translation>A6</translation>
+    </message>
+    <message>
+        <source>A7</source>
+        <translation>A7</translation>
+    </message>
+    <message>
+        <source>A8</source>
+        <translation>A8</translation>
+    </message>
+    <message>
+        <source>A9</source>
+        <translation>A9</translation>
+    </message>
+    <message>
+        <source>A10</source>
+        <translation>A10</translation>
+    </message>
+    <message>
+        <source>B0</source>
+        <translation>B0</translation>
+    </message>
+    <message>
+        <source>B1</source>
+        <translation>B1</translation>
+    </message>
+    <message>
+        <source>B2</source>
+        <translation>B2</translation>
+    </message>
+    <message>
+        <source>B3</source>
+        <translation>B3</translation>
+    </message>
+    <message>
+        <source>B4</source>
+        <translation>B4</translation>
+    </message>
+    <message>
+        <source>B5</source>
+        <translation>B5</translation>
+    </message>
+    <message>
+        <source>B6</source>
+        <translation>B6</translation>
+    </message>
+    <message>
+        <source>B7</source>
+        <translation>B7</translation>
+    </message>
+    <message>
+        <source>B8</source>
+        <translation>B8</translation>
+    </message>
+    <message>
+        <source>B9</source>
+        <translation>B9</translation>
+    </message>
+    <message>
+        <source>B10</source>
+        <translation>B10</translation>
+    </message>
+    <message>
+        <source>Executive (7.5 x 10 in)</source>
+        <translation>Executive (7.5 x 10 in)</translation>
+    </message>
+    <message>
+        <source>Executive (7.25 x 10.5 in)</source>
+        <translation>Executive (7.25 x 10.5 in)</translation>
+    </message>
+    <message>
+        <source>Folio (8.27 x 13 in)</source>
+        <translation>Folio (8.27 x 13 in)</translation>
+    </message>
+    <message>
+        <source>Legal</source>
+        <translation>US Legal</translation>
+    </message>
+    <message>
+        <source>Letter / ANSI A</source>
+        <translation>Letter / ANSI A</translation>
+    </message>
+    <message>
+        <source>Tabloid / ANSI B</source>
+        <translation>Tabloid / ANSI B</translation>
+    </message>
+    <message>
+        <source>Ledger / ANSI B</source>
+        <translation>Ledger / ANSI B</translation>
+    </message>
+    <message>
+        <source>Custom</source>
+        <translation>Vlastní</translation>
+    </message>
+    <message>
+        <source>A3 Extra</source>
+        <translation>A3 Extra</translation>
+    </message>
+    <message>
+        <source>A4 Extra</source>
+        <translation>A4 Extra</translation>
+    </message>
+    <message>
+        <source>A4 Plus</source>
+        <translation>A4 Plus</translation>
+    </message>
+    <message>
+        <source>A4 Small</source>
+        <translation>A4 malý</translation>
+    </message>
+    <message>
+        <source>A5 Extra</source>
+        <translation>A5 Extra</translation>
+    </message>
+    <message>
+        <source>B5 Extra</source>
+        <translation>B5 Extra</translation>
+    </message>
+    <message>
+        <source>JIS B0</source>
+        <translation>JIS B0</translation>
+    </message>
+    <message>
+        <source>JIS B1</source>
+        <translation>JIS B1</translation>
+    </message>
+    <message>
+        <source>JIS B2</source>
+        <translation>JIS B2</translation>
+    </message>
+    <message>
+        <source>JIS B3</source>
+        <translation>JIS B3</translation>
+    </message>
+    <message>
+        <source>JIS B4</source>
+        <translation>JIS B4</translation>
+    </message>
+    <message>
+        <source>JIS B5</source>
+        <translation>JIS B5</translation>
+    </message>
+    <message>
+        <source>JIS B6</source>
+        <translation>JIS B6</translation>
+    </message>
+    <message>
+        <source>JIS B7</source>
+        <translation>JIS B7</translation>
+    </message>
+    <message>
+        <source>JIS B8</source>
+        <translation>JIS B8</translation>
+    </message>
+    <message>
+        <source>JIS B9</source>
+        <translation>JIS B9</translation>
+    </message>
+    <message>
+        <source>JIS B10</source>
+        <translation>JIS B10</translation>
+    </message>
+    <message>
+        <source>ANSI C</source>
+        <translation>ANSI C</translation>
+    </message>
+    <message>
+        <source>ANSI D</source>
+        <translation>ANSI D</translation>
+    </message>
+    <message>
+        <source>ANSI E</source>
+        <translation>ANSI E</translation>
+    </message>
+    <message>
+        <source>Legal Extra</source>
+        <translation>Legal Extra</translation>
+    </message>
+    <message>
+        <source>Letter Extra</source>
+        <translation>Letter Extra</translation>
+    </message>
+    <message>
+        <source>Letter Plus</source>
+        <translation>Letter Plus</translation>
+    </message>
+    <message>
+        <source>Letter Small</source>
+        <translation>Letter malý</translation>
+    </message>
+    <message>
+        <source>Tabloid Extra</source>
+        <translation>Tabloid Extra</translation>
+    </message>
+    <message>
+        <source>Architect A</source>
+        <translation>Architect A</translation>
+    </message>
+    <message>
+        <source>Architect B</source>
+        <translation>Architect B</translation>
+    </message>
+    <message>
+        <source>Architect C</source>
+        <translation>Architect C</translation>
+    </message>
+    <message>
+        <source>Architect D</source>
+        <translation>Architect D</translation>
+    </message>
+    <message>
+        <source>Architect E</source>
+        <translation>Architect E</translation>
+    </message>
+    <message>
+        <source>Note</source>
+        <translation>Note</translation>
+    </message>
+    <message>
+        <source>Quarto</source>
+        <translation>Kvartový formát</translation>
+    </message>
+    <message>
+        <source>Statement</source>
+        <translation>Statement</translation>
+    </message>
+    <message>
+        <source>Super A</source>
+        <translation>Super A</translation>
+    </message>
+    <message>
+        <source>Super B</source>
+        <translation>Super B</translation>
+    </message>
+    <message>
+        <source>Postcard</source>
+        <translation>Korespondenční lístek</translation>
+    </message>
+    <message>
+        <source>Double Postcard</source>
+        <translation>Dvojitý korespondenční lístek</translation>
+    </message>
+    <message>
+        <source>PRC 16K</source>
+        <translation>PRC 16K</translation>
+    </message>
+    <message>
+        <source>PRC 32K</source>
+        <translation>PRC 32K</translation>
+    </message>
+    <message>
+        <source>PRC 32K Big</source>
+        <translation>PRC 32K velký</translation>
+    </message>
+    <message>
+        <source>Fan-fold US (14.875 x 11 in)</source>
+        <translation>Fan-fold US (14.875 x 11 in)</translation>
+    </message>
+    <message>
+        <source>Fan-fold German (8.5 x 12 in)</source>
+        <translation>Fan-fold německý (8.5 x 12 in)</translation>
+    </message>
+    <message>
+        <source>Fan-fold German Legal (8.5 x 13 in)</source>
+        <translation>Fan-fold německý Legal (8.5 x 13 in)</translation>
+    </message>
+    <message>
+        <source>Envelope B4</source>
+        <translation>Obálka B4</translation>
+    </message>
+    <message>
+        <source>Envelope B5</source>
+        <translation>Obálka B5</translation>
+    </message>
+    <message>
+        <source>Envelope B6</source>
+        <translation>Obálka B6</translation>
+    </message>
+    <message>
+        <source>Envelope C0</source>
+        <translation>Obálka C0</translation>
+    </message>
+    <message>
+        <source>Envelope C1</source>
+        <translation>Obálka C1</translation>
+    </message>
+    <message>
+        <source>Envelope C2</source>
+        <translation>Obálka C2</translation>
+    </message>
+    <message>
+        <source>Envelope C3</source>
+        <translation>Obálka C3</translation>
+    </message>
+    <message>
+        <source>Envelope C4</source>
+        <translation>Obálka C4</translation>
+    </message>
+    <message>
+        <source>Envelope C5</source>
+        <translation>Obálka C5</translation>
+    </message>
+    <message>
+        <source>Envelope C6</source>
+        <translation>Obálka C6</translation>
+    </message>
+    <message>
+        <source>Envelope C65</source>
+        <translation>Obálka C65</translation>
+    </message>
+    <message>
+        <source>Envelope C7</source>
+        <translation>Obálka C7</translation>
+    </message>
+    <message>
+        <source>Envelope DL</source>
+        <translation>Obálka DL</translation>
+    </message>
+    <message>
+        <source>Envelope US 9</source>
+        <translation>Obálka US 9</translation>
+    </message>
+    <message>
+        <source>Envelope US 10</source>
+        <translation>Obálka US 10</translation>
+    </message>
+    <message>
+        <source>Envelope US 11</source>
+        <translation>Obálka US 11</translation>
+    </message>
+    <message>
+        <source>Envelope US 12</source>
+        <translation>Obálka US 12</translation>
+    </message>
+    <message>
+        <source>Envelope US 14</source>
+        <translation>Obálka US 14</translation>
+    </message>
+    <message>
+        <source>Envelope Monarch</source>
+        <translation>Obálka Monarch</translation>
+    </message>
+    <message>
+        <source>Envelope Personal</source>
+        <translation>Obálka osobní</translation>
+    </message>
+    <message>
+        <source>Envelope Chou 3</source>
+        <translation>Obálka růžička 3</translation>
+    </message>
+    <message>
+        <source>Envelope Chou 4</source>
+        <translation>Obálka růžička 4</translation>
+    </message>
+    <message>
+        <source>Envelope Invite</source>
+        <translation>Obálka pozvánka</translation>
+    </message>
+    <message>
+        <source>Envelope Italian</source>
+        <translation>Obálka italská</translation>
+    </message>
+    <message>
+        <source>Envelope Kaku 2</source>
+        <translation>Obálka Kaku 2</translation>
+    </message>
+    <message>
+        <source>Envelope Kaku 3</source>
+        <translation>Obálka Kaku 3</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 1</source>
+        <translation>Obálka PRC 1</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 2</source>
+        <translation>Obálka PRC 2</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 3</source>
+        <translation>Obálka PRC 3</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 4</source>
+        <translation>Obálka PRC 4</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 5</source>
+        <translation>Obálka PRC 5</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 6</source>
+        <translation>Obálka PRC 6</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 7</source>
+        <translation>Obálka PRC 7</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 8</source>
+        <translation>Obálka PRC 8</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 9</source>
+        <translation>Obálka PRC 9</translation>
+    </message>
+    <message>
+        <source>Envelope PRC 10</source>
+        <translation>Obálka PRC 10</translation>
+    </message>
+    <message>
+        <source>Envelope You 4</source>
+        <translation>Obálka ty 4</translation>
+    </message>
+</context>
+<context>
+    <name>QPlatformTheme</name>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Uložit</translation>
+    </message>
+    <message>
+        <source>Save All</source>
+        <translation>Uložit vše</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Otevřít</translation>
+    </message>
+    <message>
+        <source>&amp;Yes</source>
+        <translation>&amp;Ano</translation>
+    </message>
+    <message>
+        <source>Yes to &amp;All</source>
+        <translation>Ano, &amp;vše</translation>
+    </message>
+    <message>
+        <source>&amp;No</source>
+        <translation>&amp;Ne</translation>
+    </message>
+    <message>
+        <source>N&amp;o to All</source>
+        <translation>N&amp;e, žádné</translation>
+    </message>
+    <message>
+        <source>Abort</source>
+        <translation>Zrušit</translation>
+    </message>
+    <message>
+        <source>Retry</source>
+        <translation>Opakovat</translation>
+    </message>
+    <message>
+        <source>Ignore</source>
+        <translation>Ignorovat</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Zavřít</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Zrušit</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Zahodit</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Nápověda</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Použít</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Vrátit</translation>
+    </message>
+    <message>
+        <source>Restore Defaults</source>
+        <translation>Obnovit výchozí</translation>
     </message>
 </context>
 <context>
@@ -2960,6 +3626,10 @@ Vypněte, prosím, jednu z voleb.</translation>
         <source>OK</source>
         <translation>OK</translation>
     </message>
+    <message>
+        <source>Automatic</source>
+        <translation>Automaticky</translation>
+    </message>
 </context>
 <context>
     <name>QPrintPreviewDialog</name>
@@ -3037,11 +3707,11 @@ Vypněte, prosím, jednu z voleb.</translation>
     </message>
     <message>
         <source>Export to PDF</source>
-        <translation>Vyvést do PDF</translation>
+        <translation>Exportovat do PDF</translation>
     </message>
     <message>
         <source>Export to PostScript</source>
-        <translation>Vyvést do PostScriptu</translation>
+        <translation>Exportovat do PostScriptu</translation>
     </message>
 </context>
 <context>
@@ -3620,7 +4290,7 @@ Vypněte, prosím, jednu z voleb.</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Transakci se nepodařilo zvrátit</translation>
+        <translation>Transakci se nepodařilo vrátit</translation>
     </message>
 </context>
 <context>
@@ -3654,7 +4324,7 @@ Vypněte, prosím, jednu z voleb.</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Transakci se nepodařilo zvrátit</translation>
+        <translation>Transakci se nepodařilo vrátit</translation>
     </message>
 </context>
 <context>
@@ -5547,6 +6217,22 @@ Vypněte, prosím, jednu z voleb.</translation>
         <translation>PDF Konec vložení/přepsání směru</translation>
     </message>
     <message>
+        <source>LRI Left-to-right isolate</source>
+        <translation>LRI zleva doprava oddělit</translation>
+    </message>
+    <message>
+        <source>RLI Right-to-left isolate</source>
+        <translation>RLI zprava doleva oddělit</translation>
+    </message>
+    <message>
+        <source>FSI First strong isolate</source>
+        <translation>FSI první silný oddělit</translation>
+    </message>
+    <message>
+        <source>PDI Pop directional isolate</source>
+        <translation>PDI Pop směrově oddělit</translation>
+    </message>
+    <message>
         <source>Insert Unicode control character</source>
         <translation>Vložit kontrolní znak Unicode</translation>
     </message>
@@ -5953,7 +6639,7 @@ Vypněte, prosím, jednu z voleb.</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation>Přehlížet</translation>
+        <translation>Ignorovat</translation>
     </message>
     <message>
         <source>Restore Defaults</source>

@@ -159,12 +159,27 @@
         <source>Service has not been started</source>
         <translation>Der Dienst wurde nicht gestartet</translation>
     </message>
+    <message>
+        <source>Recording permissions are not available</source>
+        <translation>Berechtigung zur Aufnahme fehlt</translation>
+    </message>
 </context>
 <context>
     <name>CameraBinSession</name>
     <message>
         <source>Camera error</source>
         <translation>Kamerafehler</translation>
+    </message>
+</context>
+<context>
+    <name>DSCameraSession</name>
+    <message>
+        <source>Camera not ready for capture</source>
+        <translation>Die Kamera ist nicht aufnahmebereit</translation>
+    </message>
+    <message>
+        <source>Could not save image to file.</source>
+        <translation>Das Bild konnte nicht in eine Datei gespeichert werden.</translation>
     </message>
 </context>
 <context>
@@ -272,18 +287,6 @@
         <source>Error parsing playlist at line[%1]:%2</source>
         <translation>Fehler beim Auswerten der Abspielliste bei Zeile [%1]:%2</translation>
     </message>
-    <message>
-        <source>File%1</source>
-        <translation>Datei%1</translation>
-    </message>
-    <message>
-        <source>Title%1</source>
-        <translation>Titel%1</translation>
-    </message>
-    <message>
-        <source>Length%1</source>
-        <translation>Länge%1</translation>
-    </message>
 </context>
 <context>
     <name>QAndroidAudioEncoderSettingsControl</name>
@@ -302,6 +305,10 @@
 </context>
 <context>
     <name>QAndroidCameraSession</name>
+    <message>
+        <source>Camera cannot be started without a viewfinder.</source>
+        <translation>Die Kamera kann nicht ohne Sucher gestartet werden.</translation>
+    </message>
     <message>
         <source>Camera not ready</source>
         <translation>Kamera nicht bereit</translation>
@@ -538,6 +545,10 @@
         <source>CameraImageProcessing is provided by Camera</source>
         <translation>CameraImageProcessing wird von Camera bereitgestellt</translation>
     </message>
+    <message>
+        <source>CameraViewfinder is provided by Camera</source>
+        <translation>CameraViewfinder wird von Camera bereitgestellt</translation>
+    </message>
 </context>
 <context>
     <name>QPlaylistFileParser</name>
@@ -559,6 +570,21 @@
     <message>
         <source>Empty file provided</source>
         <translation>Leere Datei angegeben</translation>
+    </message>
+</context>
+<context>
+    <name>QWinRTCameraImageCaptureControl</name>
+    <message>
+        <source>Camera not ready</source>
+        <translation>Kamera nicht bereit</translation>
+    </message>
+    <message>
+        <source>Invalid photo data length.</source>
+        <translation>Ungültige Länge der Bilddaten.</translation>
+    </message>
+    <message>
+        <source>Image saving failed</source>
+        <translation>Das Speichern des Bildes schlug fehl</translation>
     </message>
 </context>
 </TS>

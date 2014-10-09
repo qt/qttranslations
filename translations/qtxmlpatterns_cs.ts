@@ -184,7 +184,7 @@
     </message>
     <message>
         <source>In a namespace constructor, the value for a namespace cannot be an empty string.</source>
-        <translation>Ve staviteli jmenného prostoru nesmí mýt hodnota jmenného prostoru prázdným řetězcem.</translation>
+        <translation>V konstruktoru jmenného prostoru nesmí mýt hodnota jmenného prostoru prázdným řetězcem.</translation>
     </message>
     <message>
         <source>The prefix must be a valid %1, which %2 is not.</source>
@@ -340,15 +340,15 @@
     </message>
     <message>
         <source>It will not be possible to retrieve %1.</source>
-        <translation>%1 nelze určit.</translation>
+        <translation>Nebude možné získat %1.</translation>
     </message>
     <message>
         <source>The default collection is undefined</source>
-        <translation>Pro sbírku není stanovena žádná předloha</translation>
+        <translation>Výchozí sbírka XSLT není definována</translation>
     </message>
     <message>
         <source>%1 cannot be retrieved</source>
-        <translation>%1 nelze určit</translation>
+        <translation>%1 nelze získat</translation>
     </message>
     <message>
         <source>The normalization form %1 is unsupported. The supported forms are %2, %3, %4, and %5, and none, i.e. the empty string (no normalization).</source>
@@ -364,7 +364,7 @@
     </message>
     <message>
         <source>The URI cannot have a fragment</source>
-        <translation>URI nesmí obsahovat kousek</translation>
+        <translation>URI nesmí obsahovat fragment</translation>
     </message>
     <message>
         <source>Required cardinality is %1; got cardinality %2.</source>
@@ -452,6 +452,10 @@
     </message>
     <message>
         <source>The prefix %1 cannot be bound. By default, it is already bound to the namespace %2.</source>
+        <translation>Předpona %1 nemůže být přiřazena. Ve výchozím nastavení je již spojena se jmenným prostorem %2.</translation>
+    </message>
+    <message>
+        <source>The prefix %1 can not be bound. By default, it is already bound to the namespace %2.</source>
         <translation>Předpona %1 nemůže být spojena. Ve výchozím nastavení je již spojena se jmenným prostorem %2.</translation>
     </message>
     <message>

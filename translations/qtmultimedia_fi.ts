@@ -1,568 +1,573 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ja">
+<TS version="2.1" language="fi">
 <context>
     <name>AudioContainerControl</name>
     <message>
         <source>RAW (headerless) file format</source>
-        <translation>RAW(ヘッダなし)ファイル形式</translation>
+        <translation>RAW-tiedostomuoto (tunnukseton)</translation>
     </message>
     <message>
         <source>WAV file format</source>
-        <translation>WAV ファイル形式</translation>
+        <translation>WAV-tiedostomuoto</translation>
     </message>
 </context>
 <context>
     <name>AudioEncoderControl</name>
     <message>
         <source>Linear PCM audio data</source>
-        <translation>リニアPCM音声データ</translation>
+        <translation>Lineaarinen PCM-äänidata</translation>
     </message>
 </context>
 <context>
     <name>BbCameraAudioEncoderSettingsControl</name>
     <message>
         <source>No compression</source>
-        <translation>非圧縮</translation>
+        <translation>Ei pakkausta</translation>
     </message>
     <message>
         <source>AAC compression</source>
-        <translation>AAC 圧縮</translation>
+        <translation>AAC-pakkaus</translation>
     </message>
     <message>
         <source>PCM uncompressed</source>
-        <translation>PCM 非圧縮</translation>
+        <translation>PCM, pakkaamaton</translation>
     </message>
 </context>
 <context>
     <name>BbCameraMediaRecorderControl</name>
     <message>
         <source>Unable to retrieve mute status</source>
-        <translation>ミュートの状態を取得できません</translation>
+        <translation>Ei voitu hakea vaimennuksen tilaa</translation>
     </message>
     <message>
         <source>Unable to retrieve audio input volume</source>
-        <translation>オーディオ入力のボリュームを取得できません</translation>
+        <translation>Ei voitu hakea äänitulon voimakkuutta</translation>
     </message>
     <message>
         <source>Unable to set mute status</source>
-        <translation>ミュートの状態を設定できません</translation>
+        <translation>Ei voitu asettaa vaimennuksen tilaa</translation>
     </message>
     <message>
         <source>Unable to set audio input volume</source>
-        <translation>オーディオ入力のボリュームを設定できません</translation>
+        <translation>Ei voitu asettaa äänitulon voimakkuutta</translation>
     </message>
 </context>
 <context>
     <name>BbCameraSession</name>
     <message>
         <source>Camera provides image in unsupported format</source>
-        <translation>カメラが提供する画像形式はサポートされていません</translation>
+        <translation>Kameralta saatu kuva ei ole tuetussa muodossa</translation>
     </message>
     <message>
         <source>Could not load JPEG data from frame</source>
-        <translation>フレームから JPEG データを読み込めません</translation>
+        <translation>JPEG-dataa ei saatu ladattua puskurista</translation>
     </message>
     <message>
         <source>Camera not ready</source>
-        <translation>カメラが準備できていません</translation>
+        <translation>Kamera ei ole valmis</translation>
     </message>
     <message>
         <source>Unable to apply video settings</source>
-        <translation>ビデオの設定を反映できません</translation>
+        <translation>Videoasetusten asettaminen epäonnistui</translation>
     </message>
     <message>
         <source>Could not open destination file:
 %1</source>
-        <translation>保存先のファイルを開けませんでした:
+        <translation>Virhe avattaessa kohdetiedostoa:
 %1</translation>
     </message>
     <message>
         <source>Unable to open camera</source>
-        <translation>カメラを開けません</translation>
+        <translation>Ei voitu avata kameraa</translation>
     </message>
     <message>
         <source>Unable to retrieve native camera orientation</source>
-        <translation>カメラのネイティブの方向を取得できません</translation>
+        <translation>Ei voitu hakea kameran asennusasentoa</translation>
     </message>
     <message>
         <source>Unable to close camera</source>
-        <translation>カメラを閉じれません</translation>
+        <translation>Ei voitu sulkea kameraa</translation>
     </message>
     <message>
         <source>Unable to start video recording</source>
-        <translation>ビデオ録画を開始できません</translation>
+        <translation>Ei voitu aloittaa videon tallennusta</translation>
     </message>
     <message>
         <source>Unable to stop video recording</source>
-        <translation>ビデオ録画を停止できません</translation>
+        <translation>Ei voitu lopettaa videon tallennusta</translation>
     </message>
 </context>
 <context>
     <name>BbCameraVideoEncoderSettingsControl</name>
     <message>
         <source>No compression</source>
-        <translation>非圧縮</translation>
+        <translation>Ei pakkausta</translation>
     </message>
     <message>
         <source>AVC1 compression</source>
-        <translation>AVC1 圧縮</translation>
+        <translation>AVC1-pakkaus</translation>
     </message>
     <message>
         <source>H264 compression</source>
-        <translation>H264 圧縮</translation>
+        <translation>H264-pakkaus</translation>
     </message>
 </context>
 <context>
     <name>BbImageEncoderControl</name>
     <message>
         <source>JPEG image</source>
-        <translation>JPEG 画像</translation>
+        <translation>JPEG-kuva</translation>
     </message>
 </context>
 <context>
     <name>BbVideoDeviceSelectorControl</name>
     <message>
         <source>Front Camera</source>
-        <translation>フロントカメラ</translation>
+        <translation>Etukamera</translation>
     </message>
     <message>
         <source>Rear Camera</source>
-        <translation>リアカメラ</translation>
+        <translation>Takakamera</translation>
     </message>
     <message>
         <source>Desktop Camera</source>
-        <translation>デスクトップカメラ</translation>
+        <translation>Työpöytäkamera</translation>
     </message>
 </context>
 <context>
     <name>CameraBinImageCapture</name>
     <message>
         <source>Camera not ready</source>
-        <translation>カメラが準備できていません</translation>
+        <translation>Kamera ei ole valmis</translation>
     </message>
 </context>
 <context>
     <name>CameraBinImageEncoder</name>
     <message>
         <source>JPEG image</source>
-        <translation>JPEG 画像</translation>
+        <translation>JPEG-kuva</translation>
     </message>
 </context>
 <context>
     <name>CameraBinRecorder</name>
     <message>
         <source>QMediaRecorder::pause() is not supported by camerabin2.</source>
-        <translation>camerabin2 は QMediaRecorder::pause() をサポートしていません。</translation>
+        <translation>camerabin2 ei tue QMediaRecorder::pause()-funktiota.</translation>
     </message>
     <message>
         <source>Service has not been started</source>
-        <translation>サービスが開始されていません</translation>
+        <translation>Palvelua ei ole käynnistetty</translation>
     </message>
     <message>
         <source>Recording permissions are not available</source>
-        <translation>録画の権限がありません</translation>
+        <translation>Tallennusoikeutta ei ole</translation>
     </message>
 </context>
 <context>
     <name>CameraBinSession</name>
     <message>
         <source>Camera error</source>
-        <translation>カメラでエラーが発生しました</translation>
+        <translation>Kameravirhe</translation>
     </message>
 </context>
 <context>
     <name>MFPlayerSession</name>
     <message>
         <source>Invalid stream source.</source>
-        <translation>無効なストリームのソースです。</translation>
+        <translation>Virheellinen virran lähde.</translation>
     </message>
     <message>
         <source>Attempting to play invalid Qt resource.</source>
-        <translation>無効な Qt リソースを再生しようとしています。</translation>
+        <translation>Yritettiin toistaa virheellinen Qt-resurssi.</translation>
     </message>
     <message>
         <source>The system cannot find the file specified.</source>
-        <translation>システムは指定されたファイルを見つけられません。</translation>
+        <translation>Järjestelmä ei löydä määritettyä tiedostoa.</translation>
     </message>
     <message>
         <source>The specified server could not be found.</source>
-        <translation>指定されたサーバが見つかりません。</translation>
+        <translation>Määritettyä palvelinta ei löydy.</translation>
     </message>
     <message>
         <source>Unsupported media type.</source>
-        <translation>サポートされていない型のメディアです。</translation>
+        <translation>Mediatyyppiä ei tueta.</translation>
     </message>
     <message>
         <source>Failed to load source.</source>
-        <translation>ソースの読み込みに失敗しました。</translation>
+        <translation>Virhe ladattaessa lähdettä.</translation>
     </message>
     <message>
         <source>Cannot create presentation descriptor.</source>
-        <translation>プレゼンテーション記述子が作成できません。</translation>
+        <translation>Ei voitu luoda esityksen kuvausta.</translation>
     </message>
     <message>
         <source>Failed to get stream count.</source>
-        <translation>ストリームカウントの取得に失敗しました。</translation>
+        <translation>Virtojen määrän hakeminen epäonnistui.</translation>
     </message>
     <message>
         <source>Failed to create topology.</source>
-        <translation>トポロジーの作成に失敗しました。</translation>
+        <translation>Topologian luonti epäonnistui.</translation>
     </message>
     <message>
         <source>Unable to play any stream.</source>
-        <translation>どのストリームも再生できません。</translation>
+        <translation>Ei voitu toistaa yhtään virtaa.</translation>
     </message>
     <message>
         <source>Unable to play.</source>
-        <translation>再生できません。</translation>
+        <translation>Ei voitu toistaa.</translation>
     </message>
     <message>
         <source>Failed to set topology.</source>
-        <translation>トポロジーのセットに失敗しました。</translation>
+        <translation>Topologian asettaminen epäonnistui.</translation>
     </message>
     <message>
         <source>Unknown stream type.</source>
-        <translation>未知の型のストリームです。</translation>
+        <translation>Tuntematon virtatyyppi.</translation>
     </message>
     <message>
         <source>Failed to stop.</source>
-        <translation>停止に失敗しました。</translation>
+        <translation>Pysäyttäminen epäonnistui.</translation>
     </message>
     <message>
         <source>failed to start playback</source>
-        <translation>プレイバックの開始に失敗しました</translation>
+        <translation>toiston aloittaminen epäonnistui</translation>
     </message>
     <message>
         <source>Failed to pause.</source>
-        <translation>一時停止に失敗しました。</translation>
+        <translation>Tauon aloittaminen epäonnistui.</translation>
     </message>
     <message>
         <source>Unable to create mediasession.</source>
-        <translation>メディアセッションが作成できません。</translation>
+        <translation>Ei voitu luoda mediaistuntoa.</translation>
     </message>
     <message>
         <source>Unable to pull session events.</source>
-        <translation>セッションイベントをプルできません。</translation>
+        <translation>Ei voitu hakea istunnon tapahtumia.</translation>
     </message>
     <message>
         <source>Failed to seek.</source>
-        <translation>シークに失敗しました。</translation>
+        <translation>Sijainnin asettaminen epäonnistui.</translation>
     </message>
     <message>
         <source>Media session non-fatal error.</source>
-        <translation>メディアセッションに致命的ではないエラーが発生しました。</translation>
+        <translation>Ei vakava virhe mediaistunnossa.</translation>
     </message>
     <message>
         <source>Media session serious error.</source>
-        <translation>メディアセッションに深刻なエラーが発生しました。</translation>
+        <translation>Vakava virhe mediaistunnossa.</translation>
     </message>
     <message>
         <source>Unsupported media, a codec is missing.</source>
-        <translation>サポートされていないメディアです。コーデックがありません。</translation>
+        <translatorcomment>Pakkauksenhallinta on Microsoftin käyttämä suomennos sanalle codec. Koska tämä teksti on käytössä vain Windowsissa, niin paras kaiketi käyttää sitä.</translatorcomment>
+        <translation>Mediaa ei tueta, pakkauksenhallinta puuttuu.</translation>
     </message>
 </context>
 <context>
     <name>PLSParser</name>
     <message>
         <source>Error parsing playlist: %1, expected count = %2</source>
-        <translation>プレイリストの解析中にエラーが発生しました: %1; エントリー数が %2 ではありません</translation>
+        <translation>Virhe soittolistaa luettaessa: %1, odotettiin %2 kpl</translation>
     </message>
     <message>
         <source>Error parsing playlist at line[%1], expected version = 2</source>
-        <translation>プレイリストの解析中に%1行でエラーが発生しました: バージョンが2ではありません</translation>
+        <translation>Virhe soittolistaa luettaessa, rivi %1, odotettiin versiota 2</translation>
     </message>
     <message>
         <source>Error parsing playlist at line[%1]:%2</source>
-        <translation>プレイリストの解析中に%1行でエラーが発生しました: %2</translation>
+        <translation>Virhe soittolistaa luettaessa, rivi %1:%2</translation>
     </message>
     <message>
         <source>File%1</source>
-        <translation>ファイル%1</translation>
+        <translatorcomment>Vaikuttaa tiedostoformaatin lukuun, tuskin pitäisi edes olla lokalisoitavissa</translatorcomment>
+        <translation>File%1</translation>
     </message>
     <message>
         <source>Title%1</source>
-        <translation>タイトル%1</translation>
+        <translatorcomment>Vaikuttaa tiedostoformaatin lukuun, tuskin pitäisi edes olla lokalisoitavissa</translatorcomment>
+        <translation>Title%1</translation>
     </message>
     <message>
         <source>Length%1</source>
-        <translation>長さ%1</translation>
+        <translatorcomment>Vaikuttaa tiedostoformaatin lukuun, tuskin pitäisi edes olla lokalisoitavissa</translatorcomment>
+        <translation>Length%1</translation>
     </message>
 </context>
 <context>
     <name>QAndroidAudioEncoderSettingsControl</name>
     <message>
         <source>Adaptive Multi-Rate Narrowband (AMR-NB) audio codec</source>
-        <translation>狭帯域用適応多重レート(AMR-NB)音声コーデック</translation>
+        <translation>Adaptive Multi-Rate Narrowband (AMR-NB) äänikoodekki</translation>
     </message>
     <message>
         <source>Adaptive Multi-Rate Wideband (AMR-WB) audio codec</source>
-        <translation>広帯域用適応多重レート(AMR-WB)音声コーデック</translation>
+        <translation>Adaptive Multi-Rate Wideband (AMR-WB) äänikoodekki</translation>
     </message>
     <message>
         <source>AAC Low Complexity (AAC-LC) audio codec</source>
-        <translation>AAL-LC 音声コーデック</translation>
+        <translation>AAC Low Complexity (AAC-LC) äänikoodekki</translation>
     </message>
 </context>
 <context>
     <name>QAndroidCameraSession</name>
     <message>
         <source>Camera not ready</source>
-        <translation>カメラが使用可能ではありません</translation>
+        <translation>Kamera ei ole valmis</translation>
     </message>
     <message>
         <source>Drive mode not supported</source>
         <extracomment>Drive mode is the camera&apos;s shutter mode, for example single shot, continuos exposure, etc.</extracomment>
-        <translation>ドライブモードはサポートされていません</translation>
+        <translation>Kuvaustilaa ei tueta</translation>
     </message>
     <message>
         <source>Could not open destination file: %1</source>
-        <translation>保存先のファイルを開けませんでした: %1</translation>
+        <translation>Kohdetiedostoa ei voitu avata: %1</translation>
     </message>
 </context>
 <context>
     <name>QAndroidImageEncoderControl</name>
     <message>
         <source>JPEG image</source>
-        <translation>JPEG 画像</translation>
+        <translation>JPEG-kuva</translation>
     </message>
 </context>
 <context>
     <name>QAndroidMediaContainerControl</name>
     <message>
         <source>MPEG4 media file format</source>
-        <translation>MPEG4 メディアファイル形式</translation>
+        <translation>MPEG4-tiedostomuoto</translation>
     </message>
     <message>
         <source>3GPP media file format</source>
-        <translation>3GPP メディアファイル形式</translation>
+        <translation>3GPP-tiedostomuoto</translation>
     </message>
     <message>
         <source>AMR NB file format</source>
-        <translation>AMR NB ファイル形式</translation>
+        <translation>AMR NB -tiedostomuoto</translation>
     </message>
     <message>
         <source>AMR WB file format</source>
-        <translation>AMR WB ファイル形式</translation>
+        <translation>AMR WB -tiedostomuoto</translation>
     </message>
 </context>
 <context>
     <name>QAndroidVideoEncoderSettingsControl</name>
     <message>
         <source>H.263 compression</source>
-        <translation>H.263 圧縮</translation>
+        <translation>H.263-pakkaus</translation>
     </message>
     <message>
         <source>H.264 compression</source>
-        <translation>H.264 圧縮</translation>
+        <translation>H.264-pakkaus</translation>
     </message>
     <message>
         <source>MPEG-4 SP compression</source>
-        <translation>MPEG-4 SP 圧縮</translation>
+        <translation>MPEG-4 SP -pakkaus</translation>
     </message>
 </context>
 <context>
     <name>QAudioDecoder</name>
     <message>
         <source>The QAudioDecoder object does not have a valid service</source>
-        <translation>QAudioDecoder には有効なサービスがありません</translation>
+        <translation>QAudioDecoder-oliolla ei ole sopivaa palvelua</translation>
     </message>
 </context>
 <context>
     <name>QCamera</name>
     <message>
         <source>The camera service is missing</source>
-        <translation>カメラサービスがありません</translation>
+        <translation>Ei kamerapalvelua</translation>
     </message>
 </context>
 <context>
     <name>QCameraImageCapture</name>
     <message>
         <source>Device does not support images capture.</source>
-        <translation>デバイスが画像のキャプチャをサポートしていません。</translation>
+        <translation>Laite ei tue kuvien ottamista.</translation>
     </message>
 </context>
 <context>
     <name>QDeclarativeAudio</name>
     <message>
         <source>volume should be between 0.0 and 1.0</source>
-        <translation>ボリュームは 0.0 から 1.0 の間の値で指定してください</translation>
+        <translatorcomment>volume viittaa metodin parametrin nimeen</translatorcomment>
+        <translation>volume-parametrin arvo pitää olla 0,0 ja 1,0 välillä</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerAudioDecoderSession</name>
     <message>
         <source>Cannot play stream of type: &lt;unknown&gt;</source>
-        <translation>再生不可能な型のストリームです: &lt;不明&gt;</translation>
+        <translation>Ei voida toistaa virtaa jonka tyyppi on: &lt;tuntematon&gt;</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerAudioEncode</name>
     <message>
         <source>Raw PCM audio</source>
-        <translation>PCM オーディオ</translation>
+        <translation>Raaka PCM-audio</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerAudioInputSelector</name>
     <message>
         <source>System default device</source>
-        <translation>システムのデフォルトデバイス</translation>
+        <translation>Järjestelmän oletuslaite</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerCameraControl</name>
     <message>
         <source>State not supported.</source>
-        <translation>サポートされていない状態です。</translation>
+        <translation>Tila ei ole tuettu.</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerCaptureSession</name>
     <message>
         <source>Could not create an audio source element</source>
-        <translation>オーディオソースエレメントを作成できませんでした</translation>
+        <translation>Ei voitu luoda äänilähde-elementtiä</translation>
     </message>
     <message>
         <source>Failed to build media capture pipeline.</source>
-        <translation>メディアキャプチャパイプラインの構築に失敗しました。</translation>
+        <translation>Virhe luotaessa median tallennusliukuhihnaa.</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerImageCaptureControl</name>
     <message>
         <source>Not ready to capture</source>
-        <translation>キャプチャの準備ができていません</translation>
+        <translation>Ei valmiina kaappaamaan</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerImageEncode</name>
     <message>
         <source>JPEG image encoder</source>
-        <translation>JPEG 画像エンコーダ</translation>
+        <translation>JPEG-kuvapakkaaja</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerPlayerControl</name>
     <message>
         <source>Attempting to play invalid Qt resource</source>
-        <translation>無効な Qt リソースを再生しようとしています</translation>
+        <translation>Yritettiin toistaa virheellinen Qt-resurssi</translation>
     </message>
     <message>
         <source>Attempting to play invalid user stream</source>
-        <translation>無効なユーザストリームを再生しようとしています</translation>
+        <translation>Yritettiin toistaa virheellinen käyttäjän virta</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerPlayerSession</name>
     <message>
         <source>Cannot play stream of type: &lt;unknown&gt;</source>
-        <translation>再生不可能な型のストリームです: &lt;不明&gt;</translation>
+        <translation>Ei voida toistaa virtaa jonka tyyppi on: &lt;tuntematon&gt;</translation>
     </message>
     <message>
         <source>UDP source timeout</source>
-        <translation>UDP ソースがタイムアウトしました</translation>
+        <translation>UDP-lähteen aikakatkaisu</translation>
     </message>
     <message>
         <source>Media is loaded as a playlist</source>
-        <translation>メディアがプレイリストとして読み込まれました</translation>
+        <translation>Media on ladattu soittolistana</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerRecorderControl</name>
     <message>
         <source>Service has not been started</source>
-        <translation>サービスが開始されていません</translation>
+        <translation>Palvelua ei ole käynnistetty</translation>
     </message>
     <message>
         <source>Not compatible codecs and container format.</source>
-        <translation>互換性のないコーデックおよびコンテナ形式です。</translation>
+        <translation>Yhteensopimattomat koodekit ja säiliömuoto.</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerVideoInputDeviceControl</name>
     <message>
         <source>Main camera</source>
-        <translation>メインカメラ</translation>
+        <translation>Pääkamera</translation>
     </message>
     <message>
         <source>Front camera</source>
-        <translation>フロントカメラ</translation>
+        <translation>Etukamera</translation>
     </message>
 </context>
 <context>
     <name>QMediaPlayer</name>
     <message>
         <source>The QMediaPlayer object does not have a valid service</source>
-        <translation>QMediaPlayer には有効なサービスがありません</translation>
+        <translation>QMediaPlayer-oliolla ei ole sopivaa palvelua</translation>
     </message>
 </context>
 <context>
     <name>QMediaPlaylist</name>
     <message>
         <source>Could not add items to read only playlist.</source>
-        <translation>読み込み専用のプレイリストにはアイテムを追加できません。</translation>
+        <translation>Ei voitu lisätä tietueita vain luettavaan soittolistaan.</translation>
     </message>
     <message>
         <source>Playlist format is not supported</source>
-        <translation>サポートされていないプレイリストの形式です</translation>
+        <translation>Soittolistan muotoa ei tueta</translation>
     </message>
     <message>
         <source>The file could not be accessed.</source>
-        <translation>ファイルにアクセスできませんでした。</translation>
+        <translation>Tiedostoa ei voitu käsitellä.</translation>
     </message>
     <message>
         <source>Playlist format is not supported.</source>
-        <translation>サポートされていないプレイリストの形式です。</translation>
+        <translation>Soittolistan muotoa ei tueta.</translation>
     </message>
 </context>
 <context>
     <name>QMultimediaDeclarativeModule</name>
     <message>
         <source>CameraCapture is provided by Camera</source>
-        <translation>カメラが提供する CameraCapture</translation>
+        <translation>Camera tarjoaa CameraCapturen</translation>
     </message>
     <message>
         <source>CameraRecorder is provided by Camera</source>
-        <translation>カメラが提供する CameraRecorder</translation>
+        <translation>Camera tarjoaa CameraRecorderin</translation>
     </message>
     <message>
         <source>CameraExposure is provided by Camera</source>
-        <translation>カメラが提供する CameraExposure</translation>
+        <translation>Camera tarjoaa CameraExposuren</translation>
     </message>
     <message>
         <source>CameraFocus is provided by Camera</source>
-        <translation>カメラが提供する CameraFocus</translation>
+        <translation>Camera tarjoaa CameraFocusin</translation>
     </message>
     <message>
         <source>CameraFlash is provided by Camera</source>
-        <translation>カメラが提供する CameraFlash</translation>
+        <translation>Camera tarjoaa CameraFlashin</translation>
     </message>
     <message>
         <source>CameraImageProcessing is provided by Camera</source>
-        <translation>カメラが提供する CameraImageProcessing</translation>
+        <translation>Camera tarjoaa CameraImageProcessingin</translation>
     </message>
 </context>
 <context>
     <name>QPlaylistFileParser</name>
     <message>
         <source>%1 does not exist</source>
-        <translation>%1 が存在しません</translation>
+        <translation>%1 ei ole olemassa</translation>
     </message>
 </context>
 <context>
     <name>QPlaylistFileParserPrivate</name>
     <message>
         <source>%1 playlist type is unknown</source>
-        <translation>プレイリスト %1 の型が不明です</translation>
+        <translation>soittolistan %1 tyyppi on tuntematon</translation>
     </message>
     <message>
         <source>invalid line in playlist file</source>
-        <translation>プレイリストに無効な行があります</translation>
+        <translation>virheellinen rivi soittolistatiedostossa</translation>
     </message>
     <message>
         <source>Empty file provided</source>
-        <translation>ファイルが空です</translation>
+        <translation>Saatiin tyhjä tiedosto</translation>
     </message>
 </context>
 </TS>

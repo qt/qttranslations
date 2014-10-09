@@ -2,73 +2,38 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="de_DE">
 <context>
-    <name>DefaultColorDialog</name>
+    <name>Object</name>
     <message>
-        <source>Hue</source>
-        <translation>Farbton</translation>
+        <source>Duplicate method name</source>
+        <translation>Mehrfaches Auftreten eines Methodennamens</translation>
     </message>
     <message>
-        <source>Saturation</source>
-        <translation>Sättigung</translation>
+        <source>Method names cannot begin with an upper case letter</source>
+        <translation>Methodennamen dürfen nicht mit einem Großbuchstaben beginnen</translation>
     </message>
     <message>
-        <source>Luminosity</source>
-        <translation>Helligkeit</translation>
+        <source>Illegal method name</source>
+        <translation>Ungültiger Methodenname</translation>
     </message>
     <message>
-        <source>Alpha</source>
-        <translation>Alpha</translation>
-    </message>
-</context>
-<context>
-    <name>DefaultFontDialog</name>
-    <message>
-        <source>Writing System</source>
-        <translation>Schriftsystem</translation>
+        <source>Duplicate signal name</source>
+        <translation>Mehrfaches Auftreten eines Signalnamens</translation>
     </message>
     <message>
-        <source>Font</source>
-        <translation>Schriftart</translation>
+        <source>Duplicate property name</source>
+        <translation>Mehrfaches Auftreten eines Eigenschaftsnamens</translation>
     </message>
     <message>
-        <source>Weight</source>
-        <translation>Dicke</translation>
+        <source>Property names cannot begin with an upper case letter</source>
+        <translation>Eigenschaftsnamen dürfen nicht mit einem Großbuchstaben beginnen</translation>
     </message>
     <message>
-        <source>Size</source>
-        <translation>Größe</translation>
+        <source>Duplicate default property</source>
+        <translation>Mehrfaches Auftreten der Vorgabe-Eigenschaft</translation>
     </message>
     <message>
-        <source>Italic</source>
-        <translation>Kursiv</translation>
-    </message>
-    <message>
-        <source>Underline</source>
-        <translation>Unterstrichen</translation>
-    </message>
-    <message>
-        <source>Overline</source>
-        <translation>Überstrichen</translation>
-    </message>
-    <message>
-        <source>Strikeout</source>
-        <translation>Durchgestrichen</translation>
-    </message>
-    <message>
-        <source>Sample</source>
-        <translation>Beispiel</translation>
-    </message>
-    <message>
-        <source>Style</source>
-        <translation>Schriftstil</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Abbrechen</translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation>OK</translation>
+        <source>Property value set multiple times</source>
+        <translation>Mehrfache Zuweisung eines Wertes an eine Eigenschaft</translation>
     </message>
 </context>
 <context>
@@ -101,6 +66,10 @@
         <translation>Komponenten dürfen außer id keine weiteren Eigenschaften enthalten</translation>
     </message>
     <message>
+        <source>Invalid component body specification</source>
+        <translation>Ungültige Spezifikation des Komponentenkörpers</translation>
+    </message>
+    <message>
         <source>id is not unique</source>
         <translation>Id-Wert nicht eindeutig</translation>
     </message>
@@ -116,22 +85,6 @@
 <context>
     <name>QQmlCodeGenerator</name>
     <message>
-        <source>Duplicate method name</source>
-        <translation>Mehrfaches Auftreten eines Methodennamens</translation>
-    </message>
-    <message>
-        <source>Method names cannot begin with an upper case letter</source>
-        <translation>Methodennamen dürfen nicht mit einem Großbuchstaben beginnen</translation>
-    </message>
-    <message>
-        <source>Illegal method name</source>
-        <translation>Ungültiger Name für Methode</translation>
-    </message>
-    <message>
-        <source>Duplicate signal name</source>
-        <translation>Mehrfaches Auftreten eines Signalnamens</translation>
-    </message>
-    <message>
         <source>Signal names cannot begin with an upper case letter</source>
         <translation>Signalnamen dürfen nicht mit einem Großbuchstaben beginnen</translation>
     </message>
@@ -174,409 +127,22 @@
     <message>
         <source>ID illegally masks global JavaScript property</source>
         <translation>Der Id-Wert überdeckt eine globale Eigenschaft aus JavaScript</translation>
-    </message>
-    <message>
-        <source>Invalid use of id property</source>
-        <translation>Ungültige Verwendung der Eigenschaft &apos;id&apos;</translation>
-    </message>
-    <message>
-        <source>Duplicate property name</source>
-        <translation>Mehrfaches Auftreten eines Eigenschaftsnamens</translation>
-    </message>
-    <message>
-        <source>Property names cannot begin with an upper case letter</source>
-        <translation>Eigenschaftsnamen dürfen nicht mit einem Großbuchstaben beginnen</translation>
-    </message>
-    <message>
-        <source>Illegal property name</source>
-        <translation>Ungültiger Name der Eigenschaft</translation>
-    </message>
-    <message>
-        <source>Non-existent attached object</source>
-        <translation>Es existiert kein Bezugselement für die Eigenschaft</translation>
-    </message>
-    <message>
-        <source>Incorrectly specified signal assignment</source>
-        <translation>Angegebene Signalzuweisung ist nicht korrekt</translation>
-    </message>
-    <message>
-        <source>&quot;%1.%2&quot; is not available in %3 %4.%5.</source>
-        <translation>&quot;%1.%2&quot; ist in %3 %4.%5 nicht verfügbar.</translation>
-    </message>
-    <message>
-        <source>&quot;%1.%2&quot; is not available due to component versioning.</source>
-        <translation>&quot;%1.%2&quot; ist in dieser Version der Komponente nicht verfügbar.</translation>
-    </message>
-</context>
-<context>
-    <name>QQmlCompiler</name>
-    <message>
-        <source>Invalid property assignment: &quot;%1&quot; is a read-only property</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: &quot;%1&quot; ist schreibgeschützt</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: unknown enumeration</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Unbekannter Aufzählungswert</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: string expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Zeichenkette erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: string or string list expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Zeichenkette oder eine Liste von Zeichenketten erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: byte array expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein Bytefeld erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: url expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine URL erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: regular expression expected; use /pattern/ syntax</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein regulärer Ausdruck erwartet; verwenden Sie die Schreibweise /Muster/</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: unsigned int expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein vorzeichenloser Ganzzahlwert erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: int expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein Ganzzahlwert erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: number expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Zahl erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: color expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Farbspezifikation erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: date expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Datumsangabe erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: time expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Zeitangabe erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: datetime expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein Zeitstempel erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: point expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Koordinatenangabe für einen Punkt erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: size expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Größenangabe erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: rect expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es werden Parameter für ein Rechteck erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: boolean expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein boolescher Wert erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: 3D vector expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein dreidimensionaler Vektor erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: 4D vector expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein vierdimensionaler Vektor erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: real or array of reals expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine reelle Zahl oder ein Feld von reellen Zahlen erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: int or array of ints expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein Ganzahlwert oder ein Feld ganzer Zahlen erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: bool or array of bools expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird boolescher Wert oder ein Feld boolescher Werten erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: string or array of strings expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Zeichenkette oder ein Feld von Zeichenketten erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: url or array of urls expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine URL oder ein Feld von URLs erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: unsupported type &quot;%1&quot;</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Der Typ &quot;%1&quot; wird nicht unterstützt</translation>
-    </message>
-    <message>
-        <source>Composite Singleton Type %1 is not creatable.</source>
-        <translation>Es kann kein Composite Singleton des Typs %1 erzeugt werden.</translation>
-    </message>
-    <message>
-        <source>Element is not creatable.</source>
-        <translation>Das Element kann nicht erzeugt werden.</translation>
-    </message>
-    <message>
-        <source>Component elements may not contain properties other than id</source>
-        <translation>Komponenten dürfen außer id keine weiteren Eigenschaften enthalten</translation>
-    </message>
-    <message>
-        <source>Invalid component id specification</source>
-        <translation>Id-Wert der Komponente ungültig</translation>
-    </message>
-    <message>
-        <source>id is not unique</source>
-        <translation>Id-Wert nicht eindeutig</translation>
-    </message>
-    <message>
-        <source>Invalid component body specification</source>
-        <translation>Inhalt der Komponente ungültig</translation>
-    </message>
-    <message>
-        <source>Component objects cannot declare new properties.</source>
-        <translation>Komponentenobjekte können keine neuen Eigenschaften deklarieren.</translation>
-    </message>
-    <message>
-        <source>Component objects cannot declare new signals.</source>
-        <translation>Komponentenobjekte können keine neuen Signale deklarieren.</translation>
-    </message>
-    <message>
-        <source>Component objects cannot declare new functions.</source>
-        <translation>Komponentenobjekte können keine neuen Funktionen deklarieren.</translation>
-    </message>
-    <message>
-        <source>Cannot create empty component specification</source>
-        <translation>Es kann keine leere Komponentenangabe erzeugt werden</translation>
-    </message>
-    <message>
-        <source>&quot;%1.%2&quot; is not available in %3 %4.%5.</source>
-        <translation>&quot;%1.%2&quot; ist in %3 %4.%5 nicht verfügbar.</translation>
-    </message>
-    <message>
-        <source>&quot;%1.%2&quot; is not available due to component versioning.</source>
-        <translation>&quot;%1.%2&quot; ist in dieser Version der Komponente nicht verfügbar.</translation>
-    </message>
-    <message>
-        <source>Incorrectly specified signal assignment</source>
-        <translation>Angegebene Signalzuweisung ist nicht korrekt</translation>
-    </message>
-    <message>
-        <source>Cannot assign a value to a signal (expecting a script to be run)</source>
-        <translation>Einem Signal können keine Werte zugewiesen werden (es wird ein Skript erwartet)</translation>
-    </message>
-    <message>
-        <source>Empty signal assignment</source>
-        <translation>Leere Signalzuweisung</translation>
-    </message>
-    <message>
-        <source>Empty property assignment</source>
-        <translation>Leere Eigenschaftszuweisung</translation>
-    </message>
-    <message>
-        <source>Attached properties cannot be used here</source>
-        <translation>An dieser Stelle können keine Eigenschaften des Typs &apos;attached&apos; verwendet werden</translation>
-    </message>
-    <message>
-        <source>Non-existent attached object</source>
-        <translation>Es existiert kein Bezugselement für die Eigenschaft</translation>
-    </message>
-    <message>
-        <source>Invalid attached object assignment</source>
-        <translation>Ungültige Zuweisung des Bezugselements</translation>
-    </message>
-    <message>
-        <source>Cannot assign to non-existent default property</source>
-        <translation>Es kann keine Zuweisung erfolgen, da keine Vorgabe-Eigenschaft existiert</translation>
-    </message>
-    <message>
-        <source>Cannot assign to non-existent property &quot;%1&quot;</source>
-        <translation>Es kann keine Zuweisung erfolgen, da keine Eigenschaft des Namens &quot;%1&quot; existiert</translation>
-    </message>
-    <message>
-        <source>Invalid use of namespace</source>
-        <translation>Ungültige Verwendung eines Namensraums</translation>
-    </message>
-    <message>
-        <source>Not an attached property name</source>
-        <translation>Kein gültiger Name einer Eigenschaft des Typs &apos;attached&apos;</translation>
-    </message>
-    <message>
-        <source>Invalid use of id property</source>
-        <translation>Ungültige Verwendung einer Eigenschaft des Typs &apos;Id&apos;</translation>
-    </message>
-    <message>
-        <source>Property has already been assigned a value</source>
-        <translation>Der Eigenschaft wurde bereits ein Wert zugewiesen</translation>
-    </message>
-    <message>
-        <source>Objects cannot be assigned to value types</source>
-        <translation>Objekte können nicht an Werttypen zugewiesen werden</translation>
-    </message>
-    <message>
-        <source>Invalid grouped property access</source>
-        <translation>Falsche Gruppierung bei Zugriff auf Eigenschaft</translation>
-    </message>
-    <message>
-        <source>Cannot assign a value directly to a grouped property</source>
-        <translation>Bei einer Eigenschaft, die Teil einer Gruppierung ist, ist keine direkte Wertzuweisung zulässig</translation>
-    </message>
-    <message>
-        <source>Invalid property use</source>
-        <translation>Ungültige Verwendung von Eigenschaften</translation>
-    </message>
-    <message>
-        <source>Property assignment expected</source>
-        <translation>Zuweisung an Eigenschaft erwartet</translation>
-    </message>
-    <message>
-        <source>Single property assignment expected</source>
-        <translation>Einzelne Zuweisung an Eigenschaft erwartet</translation>
-    </message>
-    <message>
-        <source>Unexpected object assignment</source>
-        <translation>Unerwartete Zuweisung des Objekts</translation>
-    </message>
-    <message>
-        <source>Cannot assign object to list</source>
-        <translation>Zuweisung eines Objekts an eine Liste nicht zulässig</translation>
-    </message>
-    <message>
-        <source>Can only assign one binding to lists</source>
-        <translation>Listen kann nur eine einzige Bindung zugewiesen werden</translation>
-    </message>
-    <message>
-        <source>Cannot assign primitives to lists</source>
-        <translation>Zuweisung eines einfachen Werts (primitive) an eine Liste nicht zulässig</translation>
-    </message>
-    <message>
-        <source>Cannot assign multiple values to a script property</source>
-        <translation>Eine Zuweisung mehrerer Werte an eine Skript-Eigenschaft ist nicht zulässig</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: script expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein Skript erwartet</translation>
-    </message>
-    <message>
-        <source>Cannot assign multiple values to a singular property</source>
-        <translation>Eine Zuweisung mehrerer Werte an eine einfache Eigenschaft ist nicht zulässig</translation>
-    </message>
-    <message>
-        <source>Cannot assign object to property</source>
-        <translation>Zuweisung eines Objekts an eine Eigenschaft nicht zulässig</translation>
-    </message>
-    <message>
-        <source>&quot;%1&quot; cannot operate on &quot;%2&quot;</source>
-        <translation>&quot;%1&quot; kann nicht auf  &quot;%2&quot; angewandt werden</translation>
-    </message>
-    <message>
-        <source>Duplicate default property</source>
-        <translation>Mehrfaches Auftreten der Vorgabe-Eigenschaft</translation>
-    </message>
-    <message>
-        <source>Duplicate property name</source>
-        <translation>Mehrfaches Auftreten eines Eigenschaftsnamens</translation>
-    </message>
-    <message>
-        <source>Property names cannot begin with an upper case letter</source>
-        <translation>Eigenschaftsnamen dürfen nicht mit einem Großbuchstaben beginnen</translation>
-    </message>
-    <message>
-        <source>Illegal property name</source>
-        <translation>Ungültiger Name der Eigenschaft</translation>
-    </message>
-    <message>
-        <source>Duplicate signal name</source>
-        <translation>Mehrfaches Auftreten eines Signalnamens</translation>
-    </message>
-    <message>
-        <source>Signal names cannot begin with an upper case letter</source>
-        <translation>Signalnamen dürfen nicht mit einem Großbuchstaben beginnen</translation>
-    </message>
-    <message>
-        <source>Illegal signal name</source>
-        <translation>Ungültiger Name für Signal</translation>
-    </message>
-    <message>
-        <source>Duplicate method name</source>
-        <translation>Mehrfaches Auftreten eines Methodennamens</translation>
-    </message>
-    <message>
-        <source>Method names cannot begin with an upper case letter</source>
-        <translation>Methodennamen dürfen nicht mit einem Großbuchstaben beginnen</translation>
-    </message>
-    <message>
-        <source>Illegal method name</source>
-        <translation>Ungültiger Name für Methode</translation>
     </message>
     <message>
         <source>Property value set multiple times</source>
         <translation>Mehrfache Zuweisung eines Wertes an eine Eigenschaft</translation>
     </message>
     <message>
-        <source>Invalid property nesting</source>
-        <translation>Ungültige Schachtelung von Eigenschaften</translation>
+        <source>Invalid use of id property</source>
+        <translation>Ungültige Verwendung der Eigenschaft &apos;id&apos;</translation>
     </message>
     <message>
-        <source>Cannot override FINAL property</source>
-        <translation>Eine als &apos;FINAL&apos; ausgewiesene Eigenschaft kann nicht überschrieben werden</translation>
+        <source>Illegal property name</source>
+        <translation>Ungültiger Name der Eigenschaft</translation>
     </message>
     <message>
-        <source>Invalid signal parameter type: %1</source>
-        <translation>Der Signalparameter hat einen ungültigen Typ: %1</translation>
-    </message>
-    <message>
-        <source>Duplicate signal name: invalid override of property change signal or superclass signal</source>
-        <translation>Bereits vorhandener Signalname: Das Überschreiben eines Signals einer Eigenschaftsänderung oder der Basisklasse ist nicht zulässig</translation>
-    </message>
-    <message>
-        <source>Duplicate method name: invalid override of property change signal or superclass signal</source>
-        <translation>Bereits vorhandener Methodenname: Das Überschreiben eines Signals einer Eigenschaftsänderung oder der Basisklasse ist nicht zulässig</translation>
-    </message>
-    <message>
-        <source>Invalid property type</source>
-        <translation>Ungültiger Typ der Eigenschaft</translation>
-    </message>
-    <message>
-        <source>No property alias location</source>
-        <translation>Alias-Eigenschaft ohne Quellangabe</translation>
-    </message>
-    <message>
-        <source>Invalid alias location</source>
-        <translation>Ungültige Quellangabe bei Alias-Eigenschaft</translation>
-    </message>
-    <message>
-        <source>Invalid alias reference. An alias reference must be specified as &lt;id&gt;, &lt;id&gt;.&lt;property&gt; or &lt;id&gt;.&lt;value property&gt;.&lt;property&gt;</source>
-        <translation>Ungültige Alias-Referenz. Eine Alias-Referenz muss in der Form &lt;id&gt;, &lt;id&gt;.&lt;property&gt; oder &lt;id&gt;.&lt;value property&gt;.&lt;property&gt; angegeben werden</translation>
-    </message>
-    <message>
-        <source>Invalid alias reference. Unable to find id &quot;%1&quot;</source>
-        <translation>Ungültige Referenzierung einer Alias-Eigenschaft. Der Id-Wert &quot;%1&quot; konnte nicht gefunden werden</translation>
-    </message>
-    <message>
-        <source>Invalid empty ID</source>
-        <translation>Ungültiger (leerer) Id-Wert</translation>
-    </message>
-    <message>
-        <source>IDs cannot start with an uppercase letter</source>
-        <translation>Id-Werte dürfen nicht mit einem Großbuchstaben beginnen</translation>
-    </message>
-    <message>
-        <source>IDs must start with a letter or underscore</source>
-        <translation>Id-Werte müssen mit einem Buchstaben oder Unterstrich beginnen</translation>
-    </message>
-    <message>
-        <source>IDs must contain only letters, numbers, and underscores</source>
-        <translation>Id-Werte dürfen nur Ziffern, Buchstaben oder Unterstriche enthalten</translation>
-    </message>
-    <message>
-        <source>ID illegally masks global JavaScript property</source>
-        <translation>Der Id-Wert überdeckt eine globale Eigenschaft aus JavaScript</translation>
+        <source>Expected type name</source>
+        <translation>Es wird ein Typname erwartet</translation>
     </message>
 </context>
 <context>
@@ -767,6 +333,13 @@
     </message>
 </context>
 <context>
+    <name>QQmlEnumTypeResolver</name>
+    <message>
+        <source>Invalid property assignment: &quot;%1&quot; is a read-only property</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: &quot;%1&quot; ist eine schreibgeschützte Eigenschaft</translation>
+    </message>
+</context>
+<context>
     <name>QQmlImportDatabase</name>
     <message>
         <source>&quot;%1&quot; is ambiguous. Found in %2 and in %3</source>
@@ -803,6 +376,10 @@
     <message>
         <source>static plugin for module &quot;%1&quot; with name &quot;%2&quot; has no metadata URI</source>
         <translation>Das statische Plugin des Moduls &quot;%1&quot; mit dem Namen &quot;%2&quot; hat keinen Metadaten-URI</translation>
+    </message>
+    <message>
+        <source>module does not support the designer &quot;%1&quot;</source>
+        <translation>Das Modul unterstützt den Designer &quot;%1&quot; nicht</translation>
     </message>
     <message>
         <source>plugin cannot be loaded for module &quot;%1&quot;: %2</source>
@@ -916,20 +493,55 @@
         <translation>ListElement: Die spezielle &quot;id&quot;-Eigenschaft kann nicht verwendet werden</translation>
     </message>
     <message>
-        <source>ListElement: improperly specified %1</source>
-        <translation>ListElement: Ungültige Angabe %1</translation>
-    </message>
-    <message>
-        <source>ListElement: improperly specified QT_TRANSLATE_NOOP</source>
-        <translation>ListElement: Ungültige Angabe von QT_TRANSLATE_NOOP</translation>
-    </message>
-    <message>
         <source>ListElement: cannot use script for property value</source>
         <translation>ListElement: Es kann kein Skript für den Wert der Eigenschaft verwendet werden</translation>
     </message>
     <message>
         <source>ListModel: undefined property &apos;%1&apos;</source>
         <translation>ListModel: Die Eigenschaft &apos;%1&apos; ist nicht definiert</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlObjectCreator</name>
+    <message>
+        <source>Cannot assign value %1 to property %2</source>
+        <translation>Der Wert %1 kann der Eigenschaft %2 nicht zugewiesen werden</translation>
+    </message>
+    <message>
+        <source>Cannot set properties on %1 as it is null</source>
+        <translation>Es können keine Eigenschaften auf %1 gesetzt werden, da es &apos;null&apos; ist</translation>
+    </message>
+    <message>
+        <source>Cannot assign an object to signal property %1</source>
+        <translation>Der Signal-Eigenschaft %1 kann kein Objekt zugewiesen werden</translation>
+    </message>
+    <message>
+        <source>Cannot assign object type %1 with no default method</source>
+        <translation>Der Objekttyp %1 kann nicht zugewiesen werden, da keine Vorgabe-Methode existiert</translation>
+    </message>
+    <message>
+        <source>Cannot connect mismatched signal/slot %1 %vs. %2</source>
+        <translation>Es kann keine Verbindung zwischen dem Signal %1 und dem Slot %2 hergestellt werden, da sie nicht zusammenpassen</translation>
+    </message>
+    <message>
+        <source>Cannot assign object to interface property</source>
+        <translation>Der Eigenschaft der Schnittstelle kann kein Objekt zugewiesen werden</translation>
+    </message>
+    <message>
+        <source>Cannot assign object to read only list</source>
+        <translation>Zuweisung eines Objekts an eine schreibgeschützte Liste nicht zulässig</translation>
+    </message>
+    <message>
+        <source>Cannot assign primitives to lists</source>
+        <translation>Zuweisung eines einfachen Werts (primitive) an eine Liste nicht zulässig</translation>
+    </message>
+    <message>
+        <source>Unable to create object of type %1</source>
+        <translation>Es konnte kein Objekt des Typs %1 erzeugt werden</translation>
+    </message>
+    <message>
+        <source>Composite Singleton Type %1 is not creatable</source>
+        <translation>Das Composite Singleton des Typs %1 ist nicht erzeugbar</translation>
     </message>
 </context>
 <context>
@@ -995,14 +607,6 @@
         <translation>Es wird das Element &apos;%1&apos; erwartet</translation>
     </message>
     <message>
-        <source>Property value set multiple times</source>
-        <translation>Mehrfache Zuweisung eines Wertes an eine Eigenschaft</translation>
-    </message>
-    <message>
-        <source>Expected type name</source>
-        <translation>Es wird ein Typname erwartet</translation>
-    </message>
-    <message>
         <source>Unexpected object definition</source>
         <translation>Objektdefinition an dieser Stelle nicht erwartet</translation>
     </message>
@@ -1045,10 +649,6 @@
     <message>
         <source>Expected property type</source>
         <translation>Typangabe für Eigenschaft erwartet</translation>
-    </message>
-    <message>
-        <source>Duplicate default property</source>
-        <translation>Mehrfaches Auftreten der Vorgabe-Eigenschaft</translation>
     </message>
     <message>
         <source>JavaScript declaration outside Script element</source>
@@ -1097,6 +697,22 @@
 <context>
     <name>QQmlPropertyCacheCreator</name>
     <message>
+        <source>Fully dynamic types cannot declare new properties.</source>
+        <translation>Vollständig dynamische Typen können keine neuen Eigenschaften deklarieren.</translation>
+    </message>
+    <message>
+        <source>Fully dynamic types cannot declare new signals.</source>
+        <translation>Vollständig dynamische Typen können keine neuen Signale deklarieren.</translation>
+    </message>
+    <message>
+        <source>Fully Dynamic types cannot declare new functions.</source>
+        <translation>Vollständig dynamische Typen können keine neuen Funktionen deklarieren.</translation>
+    </message>
+    <message>
+        <source>Non-existent attached object</source>
+        <translation>Es existiert kein Bezugselement für die Eigenschaft</translation>
+    </message>
+    <message>
         <source>Cannot override FINAL property</source>
         <translation>Eine als FINAL ausgewiesene Eigenschaft kann nicht überschrieben werden</translation>
     </message>
@@ -1120,6 +736,18 @@
 <context>
     <name>QQmlPropertyValidator</name>
     <message>
+        <source>Property assignment expected</source>
+        <translation>Zuweisung an Eigenschaft erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid use of namespace</source>
+        <translation>Ungültige Verwendung eines Namensraums</translation>
+    </message>
+    <message>
+        <source>Invalid attached object assignment</source>
+        <translation>Ungültige Zuweisung des Bezugselements</translation>
+    </message>
+    <message>
         <source>&quot;%1.%2&quot; is not available in %3 %4.%5.</source>
         <translation>&quot;%1.%2&quot; ist in %3 %4.%5 nicht verfügbar.</translation>
     </message>
@@ -1128,12 +756,164 @@
         <translation>&quot;%1.%2&quot; ist in dieser Version der Komponente nicht verfügbar.</translation>
     </message>
     <message>
+        <source>Cannot assign a value directly to a grouped property</source>
+        <translation>Bei einer Eigenschaft, die Teil einer Gruppierung ist, ist eine direkte Wertzuweisung unzulässig</translation>
+    </message>
+    <message>
+        <source>Attached properties cannot be used here</source>
+        <translation>An dieser Stelle können keine Eigenschaften des Typs &apos;attached&apos; verwendet werden</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: &quot;%1&quot; is a read-only property</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: &quot;%1&quot; ist schreibgeschützt</translation>
+    </message>
+    <message>
+        <source>Cannot assign multiple values to a script property</source>
+        <translation>Eine Zuweisung mehrerer Werte an eine Skript-Eigenschaft ist nicht zulässig</translation>
+    </message>
+    <message>
+        <source>Cannot assign multiple values to a singular property</source>
+        <translation>Eine Zuweisung mehrerer Werte an eine einfache Eigenschaft ist nicht zulässig</translation>
+    </message>
+    <message>
+        <source>Property has already been assigned a value</source>
+        <translation>Der Eigenschaft wurde bereits ein Wert zugewiesen</translation>
+    </message>
+    <message>
+        <source>Invalid grouped property access</source>
+        <translation>Falscher Zugriff auf gruppierte Eigenschaft</translation>
+    </message>
+    <message>
         <source>Cannot assign to non-existent default property</source>
         <translation>Es kann keine Zuweisung an eine nicht existierende Vorgabe-Eigenschaft erfolgen</translation>
     </message>
     <message>
         <source>Cannot assign to non-existent property &quot;%1&quot;</source>
         <translation>Es kann keine Zuweisung erfolgen, da keine Eigenschaft des Namens &quot;%1&quot; existiert</translation>
+    </message>
+    <message>
+        <source>Cannot assign primitives to lists</source>
+        <translation>Zuweisung eines einfachen Werts (primitive) an eine Liste nicht zulässig</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: unknown enumeration</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Unbekannter Aufzählungswert</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: string expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Zeichenkette erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: string or string list expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Zeichenkette oder eine Liste von Zeichenketten erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: byte array expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein Bytefeld erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: url expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine URL erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: unsigned int expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein vorzeichenloser Ganzzahlwert erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: int expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein Ganzzahlwert erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: number expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Zahl erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: color expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Farbspezifikation erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: date expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Datumsangabe erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: time expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Zeitangabe erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: datetime expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein Zeitstempel erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: point expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Koordinatenangabe für einen Punkt erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: size expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Größenangabe erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: rect expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es werden Parameter für ein Rechteck erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: boolean expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein boolescher Wert erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: 3D vector expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein dreidimensionaler Vektor erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: 4D vector expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein vierdimensionaler Vektor erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: regular expression expected; use /pattern/ syntax</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein regulärer Ausdruck erwartet; verwenden Sie die Schreibweise /Muster/</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: number or array of numbers expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Zahl oder ein Feld von Zahlen erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: int or array of ints expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein Ganzahlwert oder ein Feld ganzer Zahlen erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: bool or array of bools expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird boolescher Wert oder ein Feld boolescher Werten erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: url or array of urls expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine URL oder ein Feld von URLs erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: string or array of strings expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Zeichenkette oder ein Feld von Zeichenketten erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: unsupported type &quot;%1&quot;</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Der Typ &quot;%1&quot; wird nicht unterstützt</translation>
+    </message>
+    <message>
+        <source>&quot;%1&quot; cannot operate on &quot;%2&quot;</source>
+        <translation>&quot;%1&quot; kann nicht auf  &quot;%2&quot; angewandt werden</translation>
+    </message>
+    <message>
+        <source>Cannot assign object to list</source>
+        <translation>Zuweisung eines Objekts an eine Liste nicht zulässig</translation>
+    </message>
+    <message>
+        <source>Unexpected object assignment</source>
+        <translation>Unerwartete Zuweisung des Objekts</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: script expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein Skript erwartet</translation>
+    </message>
+    <message>
+        <source>Cannot assign object to property</source>
+        <translation>Zuweisung eines Objekts an eine Eigenschaft nicht zulässig</translation>
     </message>
 </context>
 <context>
@@ -1145,6 +925,17 @@
     <message>
         <source>Signal parameter &quot;%1&quot; hides global variable.</source>
         <translation>Der Signalparameter &quot;%1&quot; überdeckt eine globale Variable.</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlTypeCompiler</name>
+    <message>
+        <source>Composite Singleton Type %1 is not creatable.</source>
+        <translation>Es kann kein Composite Singleton des Typs %1 erzeugt werden.</translation>
+    </message>
+    <message>
+        <source>Element is not creatable.</source>
+        <translation>Das Element kann nicht erzeugt werden.</translation>
     </message>
 </context>
 <context>
@@ -1188,49 +979,6 @@
     <message>
         <source>%1 %2</source>
         <translation>%1 %2</translation>
-    </message>
-</context>
-<context>
-    <name>QQmlVME</name>
-    <message>
-        <source>Unable to create object of type %1</source>
-        <translation>Es konnte kein Objekt des Typs %1 erzeugt werden</translation>
-    </message>
-    <message>
-        <source>Cannot assign value %1 to property %2</source>
-        <translation>Der Wert &apos;%1&apos; kann der Eigenschaft %2 nicht zugewiesen werden</translation>
-    </message>
-    <message>
-        <source>Cannot assign object type %1 with no default method</source>
-        <translation>Der Objekttyp %1 kann nicht zugewiesen werden, da keine Vorgabe-Methode existiert</translation>
-    </message>
-    <message>
-        <source>Cannot connect mismatched signal/slot %1 %vs. %2</source>
-        <translation>Es kann keine Verbindung zwischen dem Signal %1 und dem Slot %2 hergestellt werden, da sie nicht zusammenpassen</translation>
-    </message>
-    <message>
-        <source>Cannot assign an object to signal property %1</source>
-        <translation>Der Signal-Eigenschaft %1 kann kein Objekt zugewiesen werden</translation>
-    </message>
-    <message>
-        <source>Cannot assign object to read only list</source>
-        <translation>Zuweisung eines Objekts an eine schreibgeschützte Liste nicht zulässig</translation>
-    </message>
-    <message>
-        <source>Cannot assign object to list</source>
-        <translation>Zuweisung eines Objekts an eine Liste nicht zulässig</translation>
-    </message>
-    <message>
-        <source>Cannot assign object to interface property</source>
-        <translation>Der Eigenschaft der Schnittstelle kann kein Objekt zugewiesen werden</translation>
-    </message>
-    <message>
-        <source>Unable to create attached object</source>
-        <translation>Es konnte kein &apos;attached&apos;-Objekt erzeugt werden</translation>
-    </message>
-    <message>
-        <source>Cannot set properties on %1 as it is null</source>
-        <translation>Es können keine Eigenschaften auf %1 gesetzt werden, da es &apos;null&apos; ist</translation>
     </message>
 </context>
 <context>
@@ -1400,6 +1148,13 @@
     </message>
 </context>
 <context>
+    <name>QQuickOpenGLInfo</name>
+    <message>
+        <source>OpenGLInfo is only available via attached properties</source>
+        <translation>Auf OpenGLInfo kann nur mittels Eigenschaften des Typs &apos;attached&apos; zugegriffen werden</translation>
+    </message>
+</context>
+<context>
     <name>QQuickPaintedItem</name>
     <message>
         <source>Cannot create instance of abstract class PaintedItem</source>
@@ -1539,6 +1294,36 @@
     </message>
 </context>
 <context>
+    <name>QQuickWindow</name>
+    <message>
+        <source>Failed to create %1 context for format %2.
+This is most likely caused by not having the necessary graphics drivers installed.
+
+Install a driver providing OpenGL 2.0 or higher, or, if this is not possible, make sure the ANGLE Open GL ES 2.0 emulation libraries (%3, %4 and d3dcompiler_*.dll) are available in the application executable&apos;s directory or in a location listed in PATH.</source>
+        <extracomment>%1 Context type (Open GL, EGL), %2 format, ANGLE %3, %4 library names</extracomment>
+        <translation>Es konnte kein %1-Kontext für das Format %2 erzeugt werden.
+Die wahrscheinliche Ursache ist, dass die erforderlichen Grafiktreiber nicht installiert sind.
+
+Installieren Sie einen Treiber, der OpenGL 2.0 oder neuer bereitstellt, oder stellen Sie sicher, dass die ANGLE-Open GL ES 2.0-Emulationsbibliotheken (%3, %4 und d3dcompiler_*.dll) im Verzeichnis der ausführbaren Datei der Anwendung oder im Pfad verfügbar sind.</translation>
+    </message>
+    <message>
+        <source>Failed to create %1 context for format %2</source>
+        <extracomment>%1 Context type (Open GL, EGL), %2 format specification</extracomment>
+        <translation>Es konnte kein %1-Kontext für das Format %2 erzeugt werden</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickWindowQmlImpl</name>
+    <message>
+        <source>Conflicting properties &apos;visible&apos; and &apos;visibility&apos; for Window &apos;%1&apos;</source>
+        <translation>Widersprüchliche Eigenschaften &apos;visible&apos; und &apos;visibility&apos; für das Fenster &apos;%1&apos;</translation>
+    </message>
+    <message>
+        <source>Conflicting properties &apos;visible&apos; and &apos;visibility&apos;</source>
+        <translation>Widersprüchliche Eigenschaften &apos;visible&apos; und &apos;visibility&apos;</translation>
+    </message>
+</context>
+<context>
     <name>QQuickXmlListModel</name>
     <message>
         <source>&quot;%1&quot; duplicates a previous role name and will be disabled.</source>
@@ -1564,130 +1349,34 @@
     </message>
 </context>
 <context>
-    <name>QmlObjectCreator</name>
+    <name>SignalHandlerConverter</name>
     <message>
-        <source>Invalid property assignment: string expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Zeichenkette erwartet</translation>
+        <source>Non-existent attached object</source>
+        <translation>Das als &quot;attached&quot; angegebene Objekt existiert nicht</translation>
     </message>
     <message>
-        <source>Invalid property assignment: string or string list expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Zeichenkette oder eine Liste von Zeichenketten erwartet</translation>
+        <source>Signal uses unnamed parameter followed by named parameter.</source>
+        <translation>Das Signal verwendet einen unbenannten Parameter, auf den ein benannter Parameter folgt.</translation>
     </message>
     <message>
-        <source>Invalid property assignment: byte array expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein Bytefeld erwartet</translation>
+        <source>Signal parameter &quot;%1&quot; hides global variable.</source>
+        <translation>Der Signalparameter &quot;%1&quot; überdeckt eine globale Variable.</translation>
     </message>
     <message>
-        <source>Invalid property assignment: url expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine URL erwartet</translation>
+        <source>&quot;%1.%2&quot; is not available in %3 %4.%5.</source>
+        <translation>&quot;%1.%2&quot; ist in %3 %4.%5 nicht verfügbar.</translation>
     </message>
     <message>
-        <source>Invalid property assignment: unsigned int expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein vorzeichenloser Ganzzahlwert erwartet</translation>
+        <source>&quot;%1.%2&quot; is not available due to component versioning.</source>
+        <translation>&quot;%1.%2&quot; ist wegen der Versionierung der Komponente nicht verfügbar.</translation>
     </message>
     <message>
-        <source>Invalid property assignment: int expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein Ganzzahlwert erwartet</translation>
+        <source>Cannot assign a value to a signal (expecting a script to be run)</source>
+        <translation>Einem Signal können keine Werte zugewiesen werden (es wird ein ausführbares Skript erwartet)</translation>
     </message>
     <message>
-        <source>Invalid property assignment: number expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Zahl erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: color expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Farbspezifikation erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: date expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Datumsangabe erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: time expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Zeitangabe erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: datetime expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein Zeitstempel erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: point expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Koordinatenangabe für einen Punkt erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: size expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Größenangabe erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: boolean expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein boolescher Wert erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: 3D vector expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein dreidimensionaler Vektor erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: 4D vector expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein vierdimensionaler Vektor erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: regular expression expected; use /pattern/ syntax</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein regulärer Ausdruck erwartet; verwenden Sie die Schreibweise /Muster/</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: real or array of reals expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine reelle Zahl oder ein Feld von reellen Zahlen erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: int or array of ints expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein Ganzahlwert oder ein Feld ganzer Zahlen erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: bool or array of bools expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird boolescher Wert oder ein Feld boolescher Werten erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: url or array of urls expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine URL oder ein Feld von URLs erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: string or array of strings expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Zeichenkette oder ein Feld von Zeichenketten erwartet</translation>
-    </message>
-    <message>
-        <source>Cannot assign value %1 to property %2</source>
-        <translation>Der Wert &apos;%1&apos; kann der Eigenschaft %2 nicht zugewiesen werden</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: unsupported type &quot;%1&quot;</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Der Typ &quot;%1&quot; wird nicht unterstützt</translation>
-    </message>
-    <message>
-        <source>Cannot set properties on %1 as it is null</source>
-        <translation>Es können keine Eigenschaften auf %1 gesetzt werden, da es &apos;null&apos; ist</translation>
-    </message>
-    <message>
-        <source>Invalid grouped property access</source>
-        <translation>Falsche Gruppierung bei Zugriff auf Eigenschaft</translation>
-    </message>
-    <message>
-        <source>Cannot assign object to interface property</source>
-        <translation>Der Eigenschaft der Schnittstelle kann kein Objekt zugewiesen werden</translation>
-    </message>
-    <message>
-        <source>Cannot assign object to property</source>
-        <translation>Zuweisung eines Objekts an eine Eigenschaft nicht zulässig</translation>
-    </message>
-    <message>
-        <source>Cannot assign primitives to lists</source>
-        <translation>Zuweisung eines einfachen Werts (primitive) an eine Liste nicht zulässig</translation>
-    </message>
-    <message>
-        <source>Unable to create object of type %1</source>
-        <translation>Es konnte kein Objekt des Typs %1 erzeugt werden</translation>
-    </message>
-    <message>
-        <source>Composite Singleton Type %1 is not creatable</source>
-        <translation>Das Composite Singleton des Typs %1 ist nicht erzeugbar</translation>
+        <source>Incorrectly specified signal assignment</source>
+        <translation>Angegebene Signalzuweisung ist nicht korrekt</translation>
     </message>
 </context>
 <context>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ru">
+<TS version="2.1" language="ru">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -233,6 +233,14 @@ Will assume a single universal form.</source>
     <message>
         <source>Cancel</source>
         <translation>Отмена</translation>
+    </message>
+    <message>
+        <source>Obsoleted messages are skipped when checked.</source>
+        <translation>Если включено, то пропускать устаревшие сообщения.</translation>
+    </message>
+    <message>
+        <source>Skip &amp;obsolete</source>
+        <translation>Пропускать &amp;устаревшие</translation>
     </message>
 </context>
 <context>
@@ -1058,7 +1066,7 @@ All files (*)</source>
     </message>
     <message>
         <source>&amp;Reset Sorting</source>
-        <translation>&amp;Сброс сортировки</translation>
+        <translation>С&amp;брос сортировки</translation>
     </message>
     <message>
         <source>Sort the items back in the same order as in the message file.</source>
@@ -1211,6 +1219,42 @@ All files (*)</source>
     <message>
         <source>Display information about the Qt toolkit by Digia.</source>
         <translation>Показать информацию об инструментарии Qt от Digia.</translation>
+    </message>
+    <message>
+        <source>&amp;Zoom</source>
+        <translation>&amp;Масштаб</translation>
+    </message>
+    <message>
+        <source>Visualize whitespace</source>
+        <translation>Отображать пробелы</translation>
+    </message>
+    <message>
+        <source>Toggle visualize whitespace in editors</source>
+        <translation>Переключение режима отображения в редакторах непечатаемых символов</translation>
+    </message>
+    <message>
+        <source>Increase</source>
+        <translation>Увеличить</translation>
+    </message>
+    <message>
+        <source>Ctrl++</source>
+        <translation>Ctrl++</translation>
+    </message>
+    <message>
+        <source>Decrease</source>
+        <translation>Уменьшить</translation>
+    </message>
+    <message>
+        <source>Ctrl+-</source>
+        <translation>Ctrl+-</translation>
+    </message>
+    <message>
+        <source>Reset to default</source>
+        <translation>По умолчанию</translation>
+    </message>
+    <message>
+        <source>Ctrl+0</source>
+        <translation>Ctrl+0</translation>
     </message>
 </context>
 <context>

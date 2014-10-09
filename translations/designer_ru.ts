@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ru">
+<TS version="2.1" language="ru">
 <context>
     <name>AbstractFindWidget</name>
     <message>
@@ -1249,14 +1249,6 @@ This indicates an inconsistency in the ui-file.</source>
         <source>%1 - warning</source>
         <translation>%1 - предупреждение</translation>
     </message>
-    <message>
-        <source>Qt Designer</source>
-        <translation>Qt Designer</translation>
-    </message>
-    <message>
-        <source>This application cannot be used for the Console edition of Qt</source>
-        <translation>Это приложение не может быть использовано для консольной версии Qt</translation>
-    </message>
 </context>
 <context>
     <name>QDesignerActions</name>
@@ -2459,13 +2451,6 @@ Container pages should only be added by specifying them in XML returned by the d
     <message>
         <source>Select Gradient</source>
         <translation>Выбрать градиент</translation>
-    </message>
-</context>
-<context>
-    <name>QtKeySequenceEdit</name>
-    <message>
-        <source>Clear Shortcut</source>
-        <translation>Удалить комбинацию горячих клавиш</translation>
     </message>
 </context>
 <context>
@@ -3787,17 +3772,6 @@ Do you want overwrite the template?</source>
     <message>
         <source>Default</source>
         <translation>По умолчанию</translation>
-    </message>
-</context>
-<context>
-    <name>qdesigner_internal::FilterWidget</name>
-    <message>
-        <source>Filter</source>
-        <translation>Фильтр</translation>
-    </message>
-    <message>
-        <source>Clear text</source>
-        <translation>Очистить текст</translation>
     </message>
 </context>
 <context>
@@ -5724,10 +5698,6 @@ Class: %2</source>
     <message>
         <source>A class name mismatch occurred when creating a widget using the custom widget factory registered for widgets of class %1. It returned a widget of class %2.</source>
         <translation>Обнаружено несоответствие имени класса при создании виджета с использованием пользовательской фабрики виджетов, зарегистрированной для класса %1. Она вернула виджет класса %2.</translation>
-    </message>
-    <message>
-        <source>%1 Widget</source>
-        <translation>Виджет %1</translation>
     </message>
     <message>
         <source>The current page of the container &apos;%1&apos; (%2) could not be determined while creating a layout.This indicates an inconsistency in the ui-file, probably a layout being constructed on a container widget.</source>

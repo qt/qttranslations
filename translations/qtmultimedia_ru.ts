@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ru_RU">
-<context>
-    <name>AudioCaptureSession</name>
-    <message>
-        <source>RAW file format</source>
-        <translation>Формат файла RAW</translation>
-    </message>
-    <message>
-        <source>WAV file format</source>
-        <translation>Формат файла WAV</translation>
-    </message>
-</context>
+<TS version="2.1" language="ru_RU">
 <context>
     <name>AudioContainerControl</name>
     <message>
@@ -25,10 +14,6 @@
 </context>
 <context>
     <name>AudioEncoderControl</name>
-    <message>
-        <source>PCM audio data</source>
-        <translation>Аудио-данные PCM</translation>
-    </message>
     <message>
         <source>Linear PCM audio data</source>
         <translation>Аудио-данные Linear PCM</translation>
@@ -187,6 +172,17 @@
     </message>
 </context>
 <context>
+    <name>DSCameraSession</name>
+    <message>
+        <source>Camera not ready for capture</source>
+        <translation>Камера не готова к захвату</translation>
+    </message>
+    <message>
+        <source>Could not save image to file.</source>
+        <translation>Не удалось сохранить изображение в файл.</translation>
+    </message>
+</context>
+<context>
     <name>MFPlayerSession</name>
     <message>
         <source>Invalid stream source.</source>
@@ -291,18 +287,6 @@
         <source>Error parsing playlist at line[%1]:%2</source>
         <translation>Ошибка разбора списка воспроизведения в строке %1: %2</translation>
     </message>
-    <message>
-        <source>File%1</source>
-        <translation>Файл%1</translation>
-    </message>
-    <message>
-        <source>Title%1</source>
-        <translation>Название%1</translation>
-    </message>
-    <message>
-        <source>Length%1</source>
-        <translation>Длина%1</translation>
-    </message>
 </context>
 <context>
     <name>QAndroidAudioEncoderSettingsControl</name>
@@ -321,6 +305,10 @@
 </context>
 <context>
     <name>QAndroidCameraSession</name>
+    <message>
+        <source>Camera cannot be started without a viewfinder.</source>
+        <translation>Невозможно запустить камеру без видоискателя.</translation>
+    </message>
     <message>
         <source>Camera not ready</source>
         <translation>Камера не готова</translation>
@@ -557,6 +545,10 @@
         <source>CameraImageProcessing is provided by Camera</source>
         <translation>CameraImageProcessing предоставляется камерой</translation>
     </message>
+    <message>
+        <source>CameraViewfinder is provided by Camera</source>
+        <translation>CameraViewfinder предоставляется камерой</translation>
+    </message>
 </context>
 <context>
     <name>QPlaylistFileParser</name>
@@ -578,6 +570,21 @@
     <message>
         <source>Empty file provided</source>
         <translation>Предоставлен пустой файл</translation>
+    </message>
+</context>
+<context>
+    <name>QWinRTCameraImageCaptureControl</name>
+    <message>
+        <source>Camera not ready</source>
+        <translation>Камера не готова</translation>
+    </message>
+    <message>
+        <source>Invalid photo data length.</source>
+        <translation>Неверная длина данных фотографии.</translation>
+    </message>
+    <message>
+        <source>Image saving failed</source>
+        <translation>Не удалось сохранить изображение</translation>
     </message>
 </context>
 </TS>
