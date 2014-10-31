@@ -3153,8 +3153,8 @@ Do you want overwrite the template?</source>
         <translation>&lt;br/&gt;Qt Designer - дизайнер графического интерфейса пользователя для Qt-приложений.&lt;br/&gt;</translation>
     </message>
     <message>
-        <source>%1&lt;br/&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).</source>
-        <translation>%1&lt;br/&gt;Copyright (C) 2013 Digia Plc и/или её дочерние подразделения.</translation>
+        <source>%1&lt;br/&gt;Copyright (C) %2 Digia Plc and/or its subsidiary(-ies).</source>
+        <translation>%1&lt;br/&gt;Copyright (C) %2 Digia Plc и/или её дочерние подразделения.</translation>
     </message>
 </context>
 <context>
