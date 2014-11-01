@@ -326,7 +326,7 @@ Press ESC to cancel</source>
     </message>
     <message>
         <source>Unknown option &apos;%1&apos;.</source>
-        <translation>Неизвестный параметр «%1».</translation>
+        <translation>Неизвестный параметр &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Unknown options: %1.</source>
@@ -334,11 +334,11 @@ Press ESC to cancel</source>
     </message>
     <message>
         <source>Missing value after &apos;%1&apos;.</source>
-        <translation>Отсутствует значение после «%1».</translation>
+        <translation>Отсутствует значение после &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Unexpected value after &apos;%1&apos;.</source>
-        <translation>Неожиданное значение после «%1».</translation>
+        <translation>Неожиданное значение после &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>[options]</source>
