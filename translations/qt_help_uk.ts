@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Cannot load sqlite database driver.</source>
-        <translation>Неможливо завантажити драйвер бази даних sqlite/</translation>
+        <translation>Неможливо завантажити драйвер бази даних sqlite.</translation>
     </message>
     <message>
         <source>Cannot create tables in file %1.</source>
-        <translation>Неможливо створити таблиці в файлі %1! {1.?}</translation>
+        <translation>Неможливо створити таблиці в файлі %1.</translation>
     </message>
     <message>
         <source>The collection file &apos;%1&apos; already exists.</source>
@@ -67,7 +67,7 @@
     </message>
     <message>
         <source>Cannot register filter %1.</source>
-        <translation>Неможливо зареєструвати фільтр %1! {1.?}</translation>
+        <translation>Неможливо зареєструвати фільтр %1.</translation>
     </message>
     <message>
         <source>Cannot open documentation file %1.</source>
