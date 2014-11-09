@@ -123,7 +123,7 @@
     </message>
     <message>
         <source>&amp;Find in Script...</source>
-        <translation>&amp;Troba a l&apos;script</translation>
+        <translation>&amp;Cerca en l&apos;script...</translation>
     </message>
     <message>
         <source>Ctrl+F</source>
