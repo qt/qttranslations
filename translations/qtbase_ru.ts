@@ -374,11 +374,6 @@ Press ESC to cancel</source>
         <comment>QSystemSemaphore</comment>
         <translation>%1: ошибка ftok</translation>
     </message>
-    <message>
-        <source>QT_LAYOUT_DIRECTION</source>
-        <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
-        <translation>LTR</translation>
-    </message>
 </context>
 <context>
     <name>QCupsJobWidget</name>
@@ -1409,6 +1404,14 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Close without Saving</source>
         <translation>Закрыть без сохранения</translation>
+    </message>
+</context>
+<context>
+    <name>QGuiApplication</name>
+    <message>
+        <source>QT_LAYOUT_DIRECTION</source>
+        <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
+        <translation>LTR</translation>
     </message>
 </context>
 <context>

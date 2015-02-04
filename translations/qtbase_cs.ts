@@ -371,11 +371,6 @@ Stiskněte Esc pro zrušení</translation>
         <comment>QSystemSemaphore</comment>
         <translation>%1: Vyvolání ftok se nezdařilo</translation>
     </message>
-    <message>
-        <source>QT_LAYOUT_DIRECTION</source>
-        <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
-        <translation>LTR</translation>
-    </message>
 </context>
 <context>
     <name>QCupsJobWidget</name>
@@ -1494,6 +1489,14 @@ Přesto chcete soubor smazat?</translation>
     <message>
         <source>Close without Saving</source>
         <translation>Zavřít bez uložení</translation>
+    </message>
+</context>
+<context>
+    <name>QGuiApplication</name>
+    <message>
+        <source>QT_LAYOUT_DIRECTION</source>
+        <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
+        <translation>LTR</translation>
     </message>
 </context>
 <context>

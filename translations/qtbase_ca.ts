@@ -368,11 +368,6 @@ Premeu Esc per cancel·lar</translation>
         <comment>QSystemSemaphore</comment>
         <translation>%1: ha fallat el «ftok»</translation>
     </message>
-    <message>
-        <source>QT_LAYOUT_DIRECTION</source>
-        <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
-        <translation>LTR</translation>
-    </message>
 </context>
 <context>
     <name>QCupsJobWidget</name>
@@ -1398,6 +1393,14 @@ El voleu suprimir igualment?</translation>
     <message>
         <source>Close without Saving</source>
         <translation>Tanca sense desar</translation>
+    </message>
+</context>
+<context>
+    <name>QGuiApplication</name>
+    <message>
+        <source>QT_LAYOUT_DIRECTION</source>
+        <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
+        <translation>LTR</translation>
     </message>
 </context>
 <context>

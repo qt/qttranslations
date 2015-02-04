@@ -2075,11 +2075,6 @@ erre:
         <translation type="obsolete">Aktiválás</translation>
     </message>
     <message>
-        <source>QT_LAYOUT_DIRECTION</source>
-        <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
-        <translation type="obsolete">LTR</translation>
-    </message>
-    <message>
         <source>Activates the program&apos;s main window</source>
         <translation type="obsolete">Aktívvá teszi a program főablakát</translation>
     </message>
@@ -2237,12 +2232,6 @@ erre:
         <source>%1: ftok failed</source>
         <comment>QSystemSemaphore</comment>
         <translation type="unfinished">%1: ftok hibát adott vissza</translation>
-    </message>
-    <message>
-        <location filename="../../qtbase/src/gui/kernel/qguiapplication.cpp" line="+166"/>
-        <source>QT_LAYOUT_DIRECTION</source>
-        <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
-        <translation type="unfinished">LTR</translation>
     </message>
     <message>
         <source>%1: permission denied</source>
@@ -4037,6 +4026,14 @@ Ellenőrizze, hogy jól adta-e meg a fájl nevét</translation>
     <message>
         <source>Unable to play %1</source>
         <translation type="obsolete">Nem lehet lejátszani: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QGuiApplication</name>
+    <message>
+        <source>QT_LAYOUT_DIRECTION</source>
+        <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
+        <translation>LTR</translation>
     </message>
 </context>
 <context>

@@ -368,11 +368,6 @@ Peru painamalla ESC</translation>
         <comment>QSystemSemaphore</comment>
         <translation>%1: ftok epäonnistui</translation>
     </message>
-    <message>
-        <source>QT_LAYOUT_DIRECTION</source>
-        <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
-        <translation>LTR</translation>
-    </message>
 </context>
 <context>
     <name>QCupsJobWidget</name>
@@ -1398,6 +1393,14 @@ Haluatko silti poistaa sen?</translation>
     <message>
         <source>Close without Saving</source>
         <translation>Sulje tallentamatta</translation>
+    </message>
+</context>
+<context>
+    <name>QGuiApplication</name>
+    <message>
+        <source>QT_LAYOUT_DIRECTION</source>
+        <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
+        <translation>LTR</translation>
     </message>
 </context>
 <context>
