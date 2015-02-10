@@ -37,7 +37,7 @@ use strict;
 
 my @groups = (
     "qtbase", "qtdeclarative", "qtxmlpatterns", "qtmultimedia", "qtscript", "qtquick1",
-    "qtlocation", "qtconnectivity",
+    "qtlocation", "qtconnectivity", "qtwebsockets",
 #    "qtdocgallery", "qtpim", "qtsystems",
     "assistant", "designer", "linguist", "qt_help", "qtconfig", "qmlviewer"
 );
