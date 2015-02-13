@@ -456,8 +456,8 @@ p, li { white-space: pre-wrap; }
         <translation>Vybrať priečinok</translation>
     </message>
     <message>
-        <source>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;Version %2&lt;br/&gt;&lt;br/&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies).</source>
-        <translation>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;Verzia %2&lt;br/&gt;&lt;br/&gt;Copyright (C) 2012 Digia Plc a/alebo jej pobočky.</translation>
+        <source>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;Version %2&lt;br/&gt;&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd.</source>
+        <translation>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;Verzia %2&lt;br/&gt;&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd a/alebo jej pobočky.</translation>
     </message>
     <message>
         <source>Save Changes</source>

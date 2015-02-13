@@ -3119,8 +3119,8 @@ Chcete prepísať túto šablónu?</translation>
         <translation>&lt;br/&gt;Qt Designer je grafický návrhár používateľského rozhrania Qt aplikácií.&lt;br/&gt;</translation>
     </message>
     <message>
-        <source>%1&lt;br/&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies).</source>
-        <translation>%1&lt;br/&gt;Copyright (C) 2012 Digia Plc a/alebo jej pobočky.</translation>
+        <source>%1&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd.</source>
+        <translation>%1&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd a/alebo jej pobočky.</translation>
     </message>
 </context>
 <context>

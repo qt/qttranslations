@@ -3148,8 +3148,8 @@ Möchten Sie sie überschreiben?</translation>
         <translation>&lt;br/&gt;Qt Designer is a graphical user interface designer for Qt applications.&lt;br/&gt;</translation>
     </message>
     <message>
-        <source>%1&lt;br/&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).</source>
-        <translation>%1&lt;br/&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).</translation>
+        <source>%1&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd.</source>
+        <translation>%1&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd.</translation>
     </message>
 </context>
 <context>

@@ -3291,12 +3291,12 @@ Chcete tuto předlohu přepsat?</translation>
         <translation>&lt;br/&gt;Qt Designer je obrazový návrhář uživatelského rozhraní pro programy Qt.&lt;br/&gt;</translation>
     </message>
     <message>
-        <source>%1&lt;br/&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).</source>
-        <translation>%1&lt;br/&gt;Autorské právo (C) 2013 Digia Plc a/nebo její dceřinná společnost(i).</translation>
+        <source>%1&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd.</source>
+        <translation>%1&lt;br/&gt;Autorské právo (C) 2015 The Qt Company Ltd a/nebo její dceřinná společnost(i).</translation>
     </message>
     <message>
-        <source>%1&lt;br/&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies).</source>
-        <translation>%1&lt;br/&gt;Autorské právo (C) 2012 Digia Plc a/nebo její dceřinná společnost(i).</translation>
+        <source>%1&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd.</source>
+        <translation>%1&lt;br/&gt;Autorské právo (C) 2015 The Qt Company Ltd a/nebo její dceřinná společnost(i).</translation>
     </message>
     <message>
         <source>%1&lt;br/&gt;Copyright (C) 2012 Nokia Corporation and/or its subsidiary(-ies).</source>
