@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ko_KR">
+<TS version="2.1" language="ko">
 <context>
     <name>QCLuceneResultWidget</name>
     <message>
@@ -12,8 +12,8 @@
         <translation>메모:</translation>
     </message>
     <message>
-        <source>The search results may not be complete since the documentation is still being indexed!</source>
-        <translation>문서의 인덱싱 작업이 진행 중이므로 검색 결과가 완전하지 않을 수도 있습니다!</translation>
+        <source>The search results may not be complete since the documentation is still being indexed.</source>
+        <translation>문서의 인덱싱 작업이 진행 중이므로 검색 결과가 완전하지 않을 수도 있습니다.</translation>
     </message>
     <message>
         <source>Your search did not match any documents.</source>
@@ -34,24 +34,24 @@
 <context>
     <name>QHelpCollectionHandler</name>
     <message>
-        <source>The collection file &apos;%1&apos; is not set up yet!</source>
-        <translation>모음집 파일 &apos;%1&apos;이(가) 설정되지 않았습니다!</translation>
+        <source>The collection file &apos;%1&apos; is not set up yet.</source>
+        <translation>모음집 파일 &apos;%1&apos;이(가) 설정되지 않았습니다.</translation>
     </message>
     <message>
-        <source>Cannot load sqlite database driver!</source>
-        <translation>sqlite 데이터베이스 드라이버를 불러올 수 없습니다!</translation>
+        <source>Cannot load sqlite database driver.</source>
+        <translation>sqlite 데이터베이스 드라이버를 불러올 수 없습니다.</translation>
     </message>
     <message>
         <source>Cannot open collection file: %1</source>
         <translation>모음집 파일을 열 수 없음: %1</translation>
     </message>
     <message>
-        <source>Cannot create tables in file %1!</source>
-        <translation>파일 %1에 테이블을 만들 수 없습니다!</translation>
+        <source>Cannot create tables in file %1.</source>
+        <translation>파일 %1에 테이블을 만들 수 없습니다.</translation>
     </message>
     <message>
-        <source>The collection file &apos;%1&apos; already exists!</source>
-        <translation>모음집 파일 &apos;%1&apos;이(가) 이미 존재합니다!</translation>
+        <source>The collection file &apos;%1&apos; already exists.</source>
+        <translation>모음집 파일 &apos;%1&apos;이(가) 이미 존재합니다.</translation>
     </message>
     <message>
         <source>Cannot create directory: %1</source>
@@ -62,82 +62,83 @@
         <translation>모음집 파일을 복사할 수 없음: %1</translation>
     </message>
     <message>
-        <source>Unknown filter &apos;%1&apos;!</source>
-        <translation>알 수 없는 필터 &apos;%1&apos;!</translation>
+        <source>Unknown filter &apos;%1&apos;.</source>
+        <translation>알 수 없는 필터 &apos;%1&apos;.</translation>
     </message>
     <message>
-        <source>Cannot register filter %1!</source>
-        <translation>필터 &apos;%1&apos;을(를) 등록할 수 없습니다!</translation>
+        <source>Cannot register filter %1.</source>
+        <translation>필터 %1을(를) 등록할 수 없습니다.</translation>
     </message>
     <message>
-        <source>Cannot open documentation file %1!</source>
-        <translation>문서 파일 %1을(를) 열 수 없습니다!</translation>
+        <source>Cannot open documentation file %1.</source>
+        <translation>문서 파일 %1을(를) 열 수 없습니다.</translation>
     </message>
     <message>
-        <source>Invalid documentation file &apos;%1&apos;!</source>
-        <translation>문서 파일 &apos;%1&apos;이(가) 잘못되었습니다!</translation>
+        <source>Invalid documentation file &apos;%1&apos;.</source>
+        <translation>문서 파일 &apos;%1&apos;이(가) 잘못되었습니다.</translation>
     </message>
     <message>
-        <source>The namespace %1 was not registered!</source>
-        <translation>네임스페이스 %1이(가) 등록되지 않았습니다!</translation>
+        <source>The namespace %1 was not registered.</source>
+        <translation>네임스페이스 %1이(가) 등록되지 않았습니다.</translation>
     </message>
     <message>
-        <source>Namespace %1 already exists!</source>
-        <translation>네임스페이스 %1이(가) 이미 존재합니다!</translation>
+        <source>Namespace %1 already exists.</source>
+        <translation>네임스페이스 %1이(가) 이미 존재합니다.</translation>
     </message>
     <message>
-        <source>Cannot register namespace &apos;%1&apos;!</source>
-        <translation>네임스페이스 &apos;%1&apos;을(를) 등록할 수 없습니다!</translation>
+        <source>Cannot register namespace &apos;%1&apos;.</source>
+        <translation>네임스페이스 &apos;%1&apos;을(를) 등록할 수 없습니다.</translation>
     </message>
     <message>
-        <source>Cannot open database &apos;%1&apos; to optimize!</source>
-        <translation>데이터베이스 &apos;%1&apos;을(를) 최적화하기 위하여 열 수 없습니다!</translation>
+        <source>Cannot open database &apos;%1&apos; to optimize.</source>
+        <translation>데이터베이스 &apos;%1&apos;을(를) 최적화하기 위하여 열 수 없습니다.</translation>
     </message>
 </context>
 <context>
     <name>QHelpDBReader</name>
     <message>
         <source>Cannot open database &apos;%1&apos; &apos;%2&apos;: %3</source>
-        <extracomment>The placeholders are: %1 - The name of the database which cannot be opened %2 - The unique id for the connection %3 - The actual error string</extracomment>
+        <extracomment>The placeholders are: %1 - The name of the database which cannot be opened %2 - The unique id for the connection %3 - The actual error string
+</extracomment>
         <translation>데이터베이스 &apos;%1&apos; &apos;%2&apos;을(를) 열 수 없음: %3</translation>
     </message>
 </context>
 <context>
     <name>QHelpEngineCore</name>
     <message>
-        <source>Cannot open documentation file %1: %2!</source>
-        <translation>문서 파일 %1을(를) 열 수 없음: %2!</translation>
+        <source>Cannot open documentation file %1: %2.</source>
+        <translation>문서 파일 %1을(를) 열 수 없음: %2.</translation>
     </message>
     <message>
-        <source>The specified namespace does not exist!</source>
-        <translation>지정한 네임스페이스가 존재하지 않습니다!</translation>
+        <source>The specified namespace does not exist.</source>
+        <translation>지정한 네임스페이스가 존재하지 않습니다.</translation>
     </message>
 </context>
 <context>
     <name>QHelpGenerator</name>
     <message>
-        <source>Invalid help data!</source>
-        <translation>도움말 데이터가 잘못되었습니다!</translation>
+        <source>Invalid help data.</source>
+        <translation>도움말 데이터가 잘못되었습니다.</translation>
     </message>
     <message>
-        <source>No output file name specified!</source>
-        <translation>출력 파일 이름이 지정되지 않았습니다!</translation>
+        <source>No output file name specified.</source>
+        <translation>출력 파일 이름이 지정되지 않았습니다.</translation>
     </message>
     <message>
-        <source>The file %1 cannot be overwritten!</source>
-        <translation>파일 %1에 겹쳐쓸 수 없습니다!</translation>
+        <source>The file %1 cannot be overwritten.</source>
+        <translation>파일 %1에 겹쳐쓸 수 없습니다.</translation>
     </message>
     <message>
         <source>Building up file structure...</source>
         <translation>파일 구조 생성 중...</translation>
     </message>
     <message>
-        <source>Cannot open data base file %1!</source>
-        <translation>데이터베이스 파일 %1을(를) 열 수 없습니다!</translation>
+        <source>Cannot open data base file %1.</source>
+        <translation>데이터베이스 파일 %1을(를) 열 수 없습니다.</translation>
     </message>
     <message>
-        <source>Cannot register namespace %1!</source>
-        <translation>네임스페이스 %1을(를) 등록할 수 없습니다!</translation>
+        <source>Cannot register namespace %1.</source>
+        <translation>네임스페이스 %1을(를) 등록할 수 없습니다.</translation>
     </message>
     <message>
         <source>Insert custom filters...</source>
@@ -145,31 +146,27 @@
     </message>
     <message>
         <source>Insert help data for filter section (%1 of %2)...</source>
-        <translation>필터 섹션 (%2 중 %1)에 도움말 데이터 추가...</translation>
+        <translation>필터 섹션에 도움말 데이터 추가(%2 중 %1)...</translation>
     </message>
     <message>
         <source>Documentation successfully generated.</source>
         <translation>문서가 성공적으로 생성되었습니다.</translation>
     </message>
     <message>
-        <source>Some tables already exist!</source>
-        <translation>일부 테이블이 이미 존재합니다!</translation>
+        <source>Some tables already exist.</source>
+        <translation>일부 테이블이 이미 존재합니다.</translation>
     </message>
     <message>
-        <source>Cannot create tables!</source>
-        <translation>테이블을 만들 수 없습니다!</translation>
+        <source>Cannot create tables.</source>
+        <translation>테이블을 만들 수 없습니다.</translation>
     </message>
     <message>
-        <source>Cannot register virtual folder!</source>
-        <translation>가상 폴더를 등록할 수 없습니다!</translation>
+        <source>Cannot register virtual folder.</source>
+        <translation>가상 폴더를 등록할 수 없습니다.</translation>
     </message>
     <message>
         <source>Insert files...</source>
-        <translation>파일 추가...</translation>
-    </message>
-    <message>
-        <source>The referenced file %1 must be inside or within a subdirectory of (%2). Skipping it.</source>
-        <translation>참조되는 파일 %1은(는) (%2) 그 자체 및 하위 디렉터리에 있어야 합니다. 건너뜁니다.</translation>
+        <translation>파일 삽입...</translation>
     </message>
     <message>
         <source>The file %1 does not exist! Skipping it.</source>
@@ -180,12 +177,12 @@
         <translation>파일 %1을(를) 열 수 없습니다! 건너뜁니다.</translation>
     </message>
     <message>
-        <source>The filter %1 is already registered!</source>
-        <translation>필터 %1이(가) 이미 등록되었습니다!</translation>
+        <source>The filter %1 is already registered.</source>
+        <translation>필터 %1이(가) 이미 등록되었습니다.</translation>
     </message>
     <message>
-        <source>Cannot register filter %1!</source>
-        <translation>필터 %1을(를) 등록할 수 없습니다!</translation>
+        <source>Cannot register filter %1.</source>
+        <translation>필터 %1을(를) 등록할 수 없습니다.</translation>
     </message>
     <message>
         <source>Insert indices...</source>
@@ -196,12 +193,12 @@
         <translation>내용 추가...</translation>
     </message>
     <message>
-        <source>Cannot insert contents!</source>
-        <translation>내용을 추가할 수 없습니다!</translation>
+        <source>Cannot insert contents.</source>
+        <translation>내용을 추가할 수 없습니다.</translation>
     </message>
     <message>
-        <source>Cannot register contents!</source>
-        <translation>내용을 등록할 수 없습니다!</translation>
+        <source>Cannot register contents.</source>
+        <translation>내용을 등록할 수 없습니다.</translation>
     </message>
     <message>
         <source>File &apos;%1&apos; does not exist.</source>
@@ -223,40 +220,36 @@
 <context>
     <name>QHelpProject</name>
     <message>
-        <source>Unknown token.</source>
-        <translation>알 수 없는 토큰.</translation>
+        <source>Unknown token in file &quot;%1&quot;.</source>
+        <translation>파일 &quot;%1&quot;에 알 수 없는 토큰이 있습니다.</translation>
     </message>
     <message>
-        <source>Unknown token. Expected &quot;QtHelpProject&quot;!</source>
-        <translation>알 수 없는 토큰. &quot;QtHelpProject&quot;를 예상하였습니다!</translation>
+        <source>Unknown token. Expected &quot;QtHelpProject&quot;.</source>
+        <translation>알 수 없는 토큰. &quot;QtHelpProject&quot;를 예상하였습니다.</translation>
     </message>
     <message>
         <source>Error in line %1: %2</source>
-        <translation>%1줄에 오류가 있음: %2</translation>
+        <translation>%1번째 줄에 오류가 있음: %2</translation>
     </message>
     <message>
-        <source>Virtual folder has invalid syntax.</source>
-        <translation>가상 폴더 문법이 잘못되었습니다.</translation>
+        <source>Virtual folder has invalid syntax in file: &quot;%1&quot;</source>
+        <translation>다음 파일에 있는 가상 폴더 문법이 잘못되었습니다: &quot;%1&quot;</translation>
     </message>
     <message>
-        <source>Namespace has invalid syntax.</source>
-        <translation>네임스페이스 문법이 잘못되었습니다.</translation>
+        <source>Namespace &quot;%1&quot; has invalid syntax in file: &quot;%2&quot;</source>
+        <translation>다음 파일에 있는 네임스페이스 &quot;%1&quot;의 문법이 잘못되었습니다: &quot;%2&quot;</translation>
     </message>
     <message>
-        <source>Missing namespace in QtHelpProject.</source>
-        <translation>QtHelpProject에 네임스페이스가 없습니다.</translation>
+        <source>Missing namespace in QtHelpProject file: &quot;%1&quot;</source>
+        <translation>QtHelpProject 파일에 네임스페이스가 없습니다: &quot;%1&quot;</translation>
     </message>
     <message>
-        <source>Missing virtual folder in QtHelpProject</source>
-        <translation>QtHelpProject에 가상 폴더가 없습니다</translation>
+        <source>Missing virtual folder in QtHelpProject file: &quot;%1&quot;</source>
+        <translation>QtHelpProject 파일에 가상 폴더가 없습니다: &quot;%1&quot;</translation>
     </message>
     <message>
-        <source>Missing attribute in keyword at line %1.</source>
-        <translation>%1줄에 있는 키워드에 속성이 없습니다.</translation>
-    </message>
-    <message>
-        <source>The input file %1 could not be opened!</source>
-        <translation>입력 파일 %1을(를) 열 수 없습니다!</translation>
+        <source>The input file %1 could not be opened.</source>
+        <translation>입력 파일 %1을(를) 열 수 없습니다.</translation>
     </message>
 </context>
 <context>
