@@ -6204,7 +6204,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>&amp;Leikkaa</translation>
+        <translation>L&amp;eikkaa</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -6216,7 +6216,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>L&amp;iitä</translation>
+        <translation>&amp;Liitä</translation>
     </message>
     <message>
         <source>Delete</source>
