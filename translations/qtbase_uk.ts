@@ -1719,6 +1719,11 @@ Do you want to delete it anyway?</source>
         <translation>Диск</translation>
     </message>
     <message>
+        <source>%1 File</source>
+        <extracomment>%1 is a file name suffix, for example txt</extracomment>
+        <translation>Файл %1</translation>
+    </message>
+    <message>
         <source>File</source>
         <translation>Файл</translation>
     </message>
@@ -2376,6 +2381,48 @@ Do you want to delete it anyway?</source>
     </message>
 </context>
 <context>
+    <name>QImageReader</name>
+    <message>
+        <source>Invalid device</source>
+        <translation>Неправильний пристрій</translation>
+    </message>
+    <message>
+        <source>File not found</source>
+        <translation>Файл не знайдено</translation>
+    </message>
+    <message>
+        <source>Unsupported image format</source>
+        <translation>Непідтримуваний формат зображення</translation>
+    </message>
+    <message>
+        <source>Unable to read image data</source>
+        <translation>Неможливо прочитати дані зображення</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>Невідома помилка</translation>
+    </message>
+</context>
+<context>
+    <name>QImageWriter</name>
+    <message>
+        <source>Unknown error</source>
+        <translation>Невідома помилка</translation>
+    </message>
+    <message>
+        <source>Device is not set</source>
+        <translation>Пристрій не задано</translation>
+    </message>
+    <message>
+        <source>Device not writable</source>
+        <translation>Пристрій захищено від запису</translation>
+    </message>
+    <message>
+        <source>Unsupported image format</source>
+        <translation>Непідтримуваний формат зображення</translation>
+    </message>
+</context>
+<context>
     <name>QInputDialog</name>
     <message>
         <source>Enter a value:</source>
@@ -2439,6 +2486,10 @@ Do you want to delete it anyway?</source>
     <message>
         <source>too large document</source>
         <translation>завеликий документ</translation>
+    </message>
+    <message>
+        <source>garbage at the end of the document</source>
+        <translation>сміття в кінці документа</translation>
     </message>
 </context>
 <context>
@@ -2820,8 +2871,12 @@ Do you want to delete it anyway?</source>
         <translation>&lt;h3&gt;Про Qt&lt;/h3&gt;&lt;p&gt;Ця програма використовує Qt версії %1.&lt;/p&gt;</translation>
     </message>
     <message>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3 or GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is a Digia product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Qt - це інструментарій для крос-платформної розробки програм на C++.&lt;/p&gt;&lt;p&gt;Qt надає переносимість єдиного коду між усіма головними операційними системами для стаціонарних комп&apos;ютерів. Також, Qt доступна для вбудованого Linux та інших вбудованих та мобільних операційних систем.&lt;/p&gt;&lt;p&gt;Qt доступна на умовах трьох різних опцій ліцензування з метою задоволення потреб наших різноманітних користувачів.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах нашої комерційної ліцензійної угоди придатна для розробки пропієтарного/комерційного програмного забезпечення тоді, коли ви не бажаєте надавати будь-який код третім сторонам чи коли не можете прийняти умови ліцензій GNU LGPL версії 3 чи GNU LGPL версії 2.1.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах GNU LGPL версії 3 придатна для розробки програм на базі Qt за умови, що ви можете погодитись з вимогами та умовами GNU LGPL версії 3.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах GNU LGPL версії 2.1 придатна для розробки програм на базі Qt за умови, що ви можете погодитись з вимогами та умовами GNU LGPL версії 2.1.&lt;/p&gt;&lt;p&gt;Будь ласка, перегляньте &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; для огляду ліцензування Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 Digia Plc та/або її дочірні компанії а також інші учасники.&lt;/p&gt;&lt;p&gt;Qt та логотип Qt є торговими марками  Plc та/або її дочірніх компаній.&lt;/p&gt;&lt;p&gt;Qt є продуктом Digia, що розробляєтсья як проект з відкритим кодом. Подивіться &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; для додаткової інформації.&lt;/p&gt;</translation>
+    </message>
+    <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is developed as an open source project on &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Qt - це інструментарій для крос-платформної розробки програм на C++.&lt;/p&gt;&lt;p&gt;Qt надає переносимість єдиного коду між усіма головними операційними системами для стаціонарних комп&apos;ютерів. Також, Qt доступна для вбудованого Linux та інших вбудованих та мобільних операційних систем.&lt;/p&gt;&lt;p&gt;Qt доступна на умовах трьох різних опцій ліцензування з метою задоволення потреб наших різноманітних користувачів.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах нашої комерційної ліцензійної угоди придатна для розробки пропієтарного/комерційного програмного забезпечення тоді, коли ви не бажаєте надавати будь-який код третім сторонам чи коли не можете прийняти умови ліцензій GNU LGPL версії 2.1 чи GNU GPL версії 3.0.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах GNU LGPL версії 2.1 придатна для розробки програм на базі Qt за умови, що ви можете погодитись з вимогами та умовами GNU LGPL версії 2.1.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах GNU General Public License версії 3.0 придатна для розробки програм на базі Qt, коли ви бажаєте використовувати такі програми у поєднанні з програмним забезпеченням, що підпадає під вимоги GNU GPL версії 3.0 або коли ви бажаєте дотримуватись вимог GNU GPL версії 3.0.&lt;/p&gt;&lt;p&gt;Будь ласка, перегляньте &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; для огляду ліцензування Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) 2014 Digia Plc та/або її дочірні компанії а також інші учасники.&lt;/p&gt;&lt;p&gt;Qt та логотип Qt є торговими марками Digia Plc та/або її дочірніх компаній.&lt;/p&gt;&lt;p&gt;Qt розробляєтсья як проект з відкритим кодом на &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt - це продукт Digia. Подивіться &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; для додаткової інформації.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;Qt - це інструментарій для крос-платформної розробки програм на C++.&lt;/p&gt;&lt;p&gt;Qt надає переносимість єдиного коду між усіма головними операційними системами для стаціонарних комп&apos;ютерів. Також, Qt доступна для вбудованого Linux та інших вбудованих та мобільних операційних систем.&lt;/p&gt;&lt;p&gt;Qt доступна на умовах трьох різних опцій ліцензування з метою задоволення потреб наших різноманітних користувачів.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах нашої комерційної ліцензійної угоди придатна для розробки пропієтарного/комерційного програмного забезпечення тоді, коли ви не бажаєте надавати будь-який код третім сторонам чи коли не можете прийняти умови ліцензій GNU LGPL версії 2.1 чи GNU GPL версії 3.0.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах GNU LGPL версії 2.1 придатна для розробки програм на базі Qt за умови, що ви можете погодитись з вимогами та умовами GNU LGPL версії 2.1.&lt;/p&gt;&lt;p&gt;Qt ліцензована на умовах GNU General Public License версії 3.0 придатна для розробки програм на базі Qt, коли ви бажаєте використовувати такі програми у поєднанні з програмним забезпеченням, що підпадає під вимоги GNU GPL версії 3.0 або коли ви бажаєте дотримуватись вимог GNU GPL версії 3.0.&lt;/p&gt;&lt;p&gt;Будь ласка, перегляньте &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; для огляду ліцензування Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) 2014 Digia Plc та/або її дочірні компанії а також інші учасники.&lt;/p&gt;&lt;p&gt;Qt та логотип Qt є торговими марками Digia Plc та/або її дочірніх компаній.&lt;/p&gt;&lt;p&gt;Qt розробляєтсья як проект з відкритим кодом на &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt - це продукт Digia. Подивіться &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; для додаткової інформації.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.digia.com/Product/Licensing/&quot;&gt;qt.digia.com/Product/Licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is developed as an open source project on &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
@@ -4997,6 +5052,42 @@ Please turn one of those options off.</source>
         <source>character value in \u.... sequence is too large</source>
         <translation>значення символу в послідовності \u.... завелике</translation>
     </message>
+    <message>
+        <source>invalid UTF-32 string</source>
+        <translation>неправильний рядок UTF-32</translation>
+    </message>
+    <message>
+        <source>setting UTF is disabled by the application</source>
+        <translation>програма вимкнула використання UTF</translation>
+    </message>
+    <message>
+        <source>non-hex character in \x{} (closing brace missing?)</source>
+        <translation>не-шістнадцятковий символ в \x{} (відсутня закриваюча фігурна дужка?)</translation>
+    </message>
+    <message>
+        <source>non-octal character in \o{} (closing brace missing?)</source>
+        <translation>не-вісімковий символ в \x{} (відсутня закриваюча фігурна дужка?)</translation>
+    </message>
+    <message>
+        <source>missing opening brace after \o</source>
+        <translation>відсутня відкриваюча фігурна дужка після \o</translation>
+    </message>
+    <message>
+        <source>parentheses are too deeply nested</source>
+        <translation>забагато вкладених дужок</translation>
+    </message>
+    <message>
+        <source>invalid range in character class</source>
+        <translation>неправильний діапазон в класі символів</translation>
+    </message>
+    <message>
+        <source>group name must start with a non-digit</source>
+        <translation>назва групи не може починатись з цифри</translation>
+    </message>
+    <message>
+        <source>parentheses are too deeply nested (stack check)</source>
+        <translation>забагато вкладених дужок (перевірка стеку)</translation>
+    </message>
 </context>
 <context>
     <name>QSQLite2Driver</name>
@@ -5087,6 +5178,10 @@ Please turn one of those options off.</source>
     <message>
         <source>Existing file %1 is not writable</source>
         <translation>Файл %1, що вже існує, запис заборонено</translation>
+    </message>
+    <message>
+        <source>Filename refers to a directory</source>
+        <translation>Назва вказує на теку</translation>
     </message>
     <message>
         <source>Writing canceled by application</source>
@@ -5574,7 +5669,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Audio Rewind</source>
-        <translation>Перемотка звуку на початок</translation>
+        <translation type="vanished">Перемотка звуку на початок</translation>
     </message>
     <message>
         <source>Back Forward</source>
@@ -5814,7 +5909,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Audio Forward</source>
-        <translation>Перемотка вперед</translation>
+        <translation type="vanished">Перемотка вперед</translation>
     </message>
     <message>
         <source>Audio Repeat</source>
@@ -5855,6 +5950,86 @@ Please turn one of those options off.</source>
     <message>
         <source>Hibernate</source>
         <translation>Приспати</translation>
+    </message>
+    <message>
+        <source>Media Rewind</source>
+        <translation>Перемотка на початок</translation>
+    </message>
+    <message>
+        <source>Media Fast Forward</source>
+        <translation>Перемотка вперед</translation>
+    </message>
+    <message>
+        <source>Power Down</source>
+        <translation>Вимкнути живлення</translation>
+    </message>
+    <message>
+        <source>Microphone Mute</source>
+        <translation>Вимкнути мікрофон</translation>
+    </message>
+    <message>
+        <source>Red</source>
+        <translation>Червоний</translation>
+    </message>
+    <message>
+        <source>Green</source>
+        <translation>Зелений</translation>
+    </message>
+    <message>
+        <source>Yellow</source>
+        <translation>Жовтий</translation>
+    </message>
+    <message>
+        <source>Blue</source>
+        <translation>Блакитний</translation>
+    </message>
+    <message>
+        <source>Channel Up</source>
+        <translation>Наступний канал</translation>
+    </message>
+    <message>
+        <source>Channel Down</source>
+        <translation>Попередній канал</translation>
+    </message>
+    <message>
+        <source>Guide</source>
+        <translation>Гід</translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>Інформація</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Налаштування</translation>
+    </message>
+    <message>
+        <source>Microphone Volume Up</source>
+        <translation>Гучніше мікрофон</translation>
+    </message>
+    <message>
+        <source>Microphone Volume Down</source>
+        <translation>Тихіше мікрофон</translation>
+    </message>
+    <message>
+        <source>New</source>
+        <translation>Новий</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Відкрити</translation>
+    </message>
+    <message>
+        <source>Find</source>
+        <translation>Пошук</translation>
+    </message>
+    <message>
+        <source>Undo</source>
+        <translation>Повернути</translation>
+    </message>
+    <message>
+        <source>Redo</source>
+        <translation>Повторити</translation>
     </message>
     <message>
         <source>Print Screen</source>
@@ -6104,6 +6279,10 @@ Please turn one of those options off.</source>
         <translation>Масштабувати</translation>
     </message>
     <message>
+        <source>Exit</source>
+        <translation>Вийти</translation>
+    </message>
+    <message>
         <source>Ctrl</source>
         <translation>Ctrl</translation>
     </message>
@@ -6241,7 +6420,7 @@ Please turn one of those options off.</source>
     <message>
         <source>window</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>вікно</translation>
+        <translation type="vanished">вікно</translation>
     </message>
     <message>
         <source>filler</source>
@@ -6290,7 +6469,9 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>frame</source>
-        <extracomment>Role of an accessible object</extracomment>
+        <extracomment>Role of an accessible object: a window with frame and title
+----------
+Role of an accessible object</extracomment>
         <translation>рамка</translation>
     </message>
     <message>
@@ -6504,6 +6685,51 @@ Please turn one of those options off.</source>
         <translation>багаторівнева панель</translation>
     </message>
     <message>
+        <source>web document</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>web-документ</translation>
+    </message>
+    <message>
+        <source>paragraph</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>абзац</translation>
+    </message>
+    <message>
+        <source>section</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>розділ</translation>
+    </message>
+    <message>
+        <source>color chooser</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>вибір кольору</translation>
+    </message>
+    <message>
+        <source>footer</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>нижній колонтитул</translation>
+    </message>
+    <message>
+        <source>form</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>форма</translation>
+    </message>
+    <message>
+        <source>heading</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>заголовок</translation>
+    </message>
+    <message>
+        <source>note</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>примітка</translation>
+    </message>
+    <message>
+        <source>complementary content</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>додатковий зміст</translation>
+    </message>
+    <message>
         <source>unknown</source>
         <extracomment>Role of an accessible object</extracomment>
         <translation>невідомо</translation>
@@ -6610,6 +6836,10 @@ Please turn one of those options off.</source>
     <message>
         <source>Error creating SSL context (%1)</source>
         <translation>Помилка створення контексту SSL (%1)</translation>
+    </message>
+    <message>
+        <source>unsupported protocol</source>
+        <translation>Непідтримуваний протокол</translation>
     </message>
     <message>
         <source>Invalid or empty cipher list (%1)</source>
@@ -7011,6 +7241,21 @@ Please turn one of those options off.</source>
     </message>
 </context>
 <context>
+    <name>QWindowsDirect2DIntegration</name>
+    <message>
+        <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
+
+The minimum Direct2D version required is %1.%2.%3.%4. The Direct2D version on this system is %5.%6.%7.%8.</source>
+        <translation>Qt не змогла завантажити додаток direct2d, оскільки версія Direct2D на цій системі застара. Мінімальні вимоги до системи для цього додатку - це Windows 7 SP1 з Platform Update.
+
+Мінімальна необхідна версія Direct2D %1.%2.%3.%4. Версія Direct2D на цій системі %5.%6.%7.%8.</translation>
+    </message>
+    <message>
+        <source>Cannot load direct2d platform plugin</source>
+        <translation>Неможливо завантажити додаток direct2d</translation>
+    </message>
+</context>
+<context>
     <name>QWizard</name>
     <message>
         <source>Go Back</source>
@@ -7184,7 +7429,11 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Attribute redefined.</source>
-        <translation>Атрибути перевизначено.</translation>
+        <translation type="vanished">Атрибути перевизначено.</translation>
+    </message>
+    <message>
+        <source>Attribute &apos;%1&apos; redefined.</source>
+        <translation>Атрибут &apos;%1&apos; перевизначено.</translation>
     </message>
     <message>
         <source>Unexpected character &apos;%1&apos; in public id literal.</source>

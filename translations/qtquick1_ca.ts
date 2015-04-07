@@ -770,7 +770,7 @@
     </message>
     <message>
         <source>Script import qualifiers must be unique.</source>
-        <translation>Els qualificadors per a la importació d&apos;scripts han de ser únics</translation>
+        <translation>Els qualificadors per a la importació d&apos;scripts han de ser únics.</translation>
     </message>
     <message>
         <source>Script import requires a qualifier</source>

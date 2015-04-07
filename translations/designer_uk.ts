@@ -3170,8 +3170,12 @@ Do you want overwrite the template?</source>
         <translation>&lt;br/&gt;Qt Designer - це дизайнер графічного інтерфейсу користувача для програм Qt.&lt;br/&gt;</translation>
     </message>
     <message>
+        <source>%1&lt;br/&gt;Copyright (C) %2 Digia Plc and/or its subsidiary(-ies).</source>
+        <translation>%1&lt;br/&gt;Copyright (C) %2 Digia Plc та/або її дочірні компанії.</translation>
+    </message>
+    <message>
         <source>%1&lt;br/&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).</source>
-        <translation>%1&lt;br/&gt;Copyright (C) 2013 Digia Plc та/або її дочірні компанії.</translation>
+        <translation type="vanished">%1&lt;br/&gt;Copyright (C) 2013 Digia Plc та/або її дочірні компанії.</translation>
     </message>
     <message>
         <source>%1&lt;br/&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies).</source>

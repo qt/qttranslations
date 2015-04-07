@@ -20,7 +20,7 @@
     </message>
     <message>
         <source>Hide Others</source>
-        <translation>Amaga altres</translation>
+        <translation>Oculta altres</translation>
     </message>
     <message>
         <source>Show All</source>
@@ -985,6 +985,11 @@ El voleu suprimir igualment?</translation>
         <translation>Controlador</translation>
     </message>
     <message>
+        <source>%1 File</source>
+        <extracomment>%1 is a file name suffix, for example txt</extracomment>
+        <translation>Fitxer %1</translation>
+    </message>
+    <message>
         <source>File</source>
         <translation>Fitxer</translation>
     </message>
@@ -1630,6 +1635,48 @@ El voleu suprimir igualment?</translation>
     </message>
 </context>
 <context>
+    <name>QImageReader</name>
+    <message>
+        <source>Invalid device</source>
+        <translation>Dispositiu no vàlid</translation>
+    </message>
+    <message>
+        <source>File not found</source>
+        <translation>No s&apos;ha trobat el fitxer</translation>
+    </message>
+    <message>
+        <source>Unsupported image format</source>
+        <translation>Format d&apos;imatge no implementat</translation>
+    </message>
+    <message>
+        <source>Unable to read image data</source>
+        <translation>No s&apos;han pogut llegir les dades de la imatge</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>Error desconegut</translation>
+    </message>
+</context>
+<context>
+    <name>QImageWriter</name>
+    <message>
+        <source>Unknown error</source>
+        <translation>Error desconegut</translation>
+    </message>
+    <message>
+        <source>Device is not set</source>
+        <translation>No s&apos;ha definit cap dispositiu</translation>
+    </message>
+    <message>
+        <source>Device not writable</source>
+        <translation>No es pot escriure en el dispositiu</translation>
+    </message>
+    <message>
+        <source>Unsupported image format</source>
+        <translation>Format d&apos;imatge no implementat</translation>
+    </message>
+</context>
+<context>
     <name>QInputDialog</name>
     <message>
         <source>Enter a value:</source>
@@ -1693,6 +1740,10 @@ El voleu suprimir igualment?</translation>
     <message>
         <source>too large document</source>
         <translation>document massa gran</translation>
+    </message>
+    <message>
+        <source>garbage at the end of the document</source>
+        <translation>brutícia al final del document</translation>
     </message>
 </context>
 <context>
@@ -2072,6 +2123,10 @@ El voleu suprimir igualment?</translation>
     <message>
         <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
         <translation>&lt;h3&gt;Quan a les Qt&lt;/h3&gt;&lt;p&gt;Aquest programa utilitza la versió %1 de les Qt.&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3 or GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is a Digia product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Les Qt són un conjunt d&apos;eines C++ pel desenvolupament d&apos;aplicacions multiplataforma.&lt;/p&gt;&lt;p&gt;Les Qt proporcionen portabilitat amb un codi font únic entre els principals sistemes operatius. Les Qt també són disponibles per a Linux incrustat i sistemes operatius incrustats i mòbils.&lt;/p&gt;&lt;p&gt;Les Qt estan disponibles en tres opcions de llicència diferents dissenyades per a adaptar-se a les necessitats dels diversos usuaris.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota el nostre acord de llicència comercial són apropiades per al desenvolupament de programari propietari/comercial a on no voleu compartir cap codi font amb terceres parts o no podeu complir amb els termes de la versió 3 de la GNU LGPL o de la versió 2.1 de la GNU LGPL.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota la versió 3 de la LGPL de la GNU són apropiades per al desenvolupament d&apos;aplicacions Qt quan podeu complir amb els termes i condicions de la versió 3 de la GNU LGPL.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota la versió 2.1 de la GNU LGPL són apropiades per al desenvolupament d&apos;aplicacions Qt proporcionades per a que pugueu complir amb els termes i condicions de la versió 2.1 de la GNU LGPL.&lt;/p&gt;&lt;p&gt;Si us plau, vegeu a &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; un resum de les llicències de les Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 Digia Plc i/o les seves filials i altres col·laboradors.&lt;/p&gt;&lt;p&gt;Les Qt i el logotip de les Qt són marques comercials de Digia Plc i/o les seves filials.&lt;/p&gt;&lt;p&gt;Les Qt són un producte de Digia desenvolupat com un projecte de codi font obert. Vegeu &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; per a més informació.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt 
@@ -2623,32 +2678,32 @@ applications where you wish to use such applications in combination with softwar
     <message>
         <source>mm</source>
         <extracomment>Unit &apos;Millimeter&apos;</extracomment>
-        <translation></translation>
+        <translation>mm</translation>
     </message>
     <message>
         <source>pt</source>
         <extracomment>Unit &apos;Points&apos;</extracomment>
-        <translation></translation>
+        <translation>pt</translation>
     </message>
     <message>
         <source>in</source>
         <extracomment>Unit &apos;Inch&apos;</extracomment>
-        <translation></translation>
+        <translation>in</translation>
     </message>
     <message>
         <source>P̸</source>
         <extracomment>Unit &apos;Pica&apos;</extracomment>
-        <translation></translation>
+        <translation>P̸</translation>
     </message>
     <message>
         <source>DD</source>
         <extracomment>Unit &apos;Didot&apos;</extracomment>
-        <translation></translation>
+        <translation>DD</translation>
     </message>
     <message>
         <source>CC</source>
         <extracomment>Unit &apos;Cicero&apos;</extracomment>
-        <translation></translation>
+        <translation>CC</translation>
     </message>
 </context>
 <context>
@@ -2730,7 +2785,7 @@ applications where you wish to use such applications in combination with softwar
     </message>
     <message>
         <source>A10</source>
-        <translation></translation>
+        <translation>A10</translation>
     </message>
     <message>
         <source>B0</source>
@@ -3812,8 +3867,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>unknown POSIX class name</source>
-        <translatorcomment>nom de classe POSIX desconegut</translatorcomment>
-        <translation></translation>
+        <translation>nom desconegut de classe POSIX</translation>
     </message>
     <message>
         <source>POSIX collating elements are not supported</source>
@@ -3991,6 +4045,42 @@ Desactiveu una de les dues opcions.</translation>
         <source>character value in \u.... sequence is too large</source>
         <translation>el valor del caràcter en la seqüència \u.... és massa gran</translation>
     </message>
+    <message>
+        <source>invalid UTF-32 string</source>
+        <translation>cadena UTF-32 no vàlida</translation>
+    </message>
+    <message>
+        <source>setting UTF is disabled by the application</source>
+        <translation>L&apos;aplicació ha desactivat la definició de l&apos;UTF</translation>
+    </message>
+    <message>
+        <source>non-hex character in \x{} (closing brace missing?)</source>
+        <translation>caràcter no hexadecimal en \x{} (manca la clau de tancament?)</translation>
+    </message>
+    <message>
+        <source>non-octal character in \o{} (closing brace missing?)</source>
+        <translation>caràcter no octal en \o{} (manca la clau de tancament?)</translation>
+    </message>
+    <message>
+        <source>missing opening brace after \o</source>
+        <translation>manca una clau d&apos;obertura després de \o</translation>
+    </message>
+    <message>
+        <source>parentheses are too deeply nested</source>
+        <translation>els parèntesis s&apos;han imbricat amb massa profunditat</translation>
+    </message>
+    <message>
+        <source>invalid range in character class</source>
+        <translation>interval no vàlid en la classe caràcter</translation>
+    </message>
+    <message>
+        <source>group name must start with a non-digit</source>
+        <translation>el nom del grup ha de començar sense un dígit</translation>
+    </message>
+    <message>
+        <source>parentheses are too deeply nested (stack check)</source>
+        <translation>els parèntesis s&apos;han imbricat amb massa profunditat (verificació de pila)</translation>
+    </message>
 </context>
 <context>
     <name>QSQLite2Driver</name>
@@ -4081,6 +4171,10 @@ Desactiveu una de les dues opcions.</translation>
     <message>
         <source>Existing file %1 is not writable</source>
         <translation>No es pot escriure al fitxer existent %1</translation>
+    </message>
+    <message>
+        <source>Filename refers to a directory</source>
+        <translation>El nom del fitxer es refereix a un directori</translation>
     </message>
     <message>
         <source>Writing canceled by application</source>
@@ -4851,6 +4945,86 @@ Desactiveu una de les dues opcions.</translation>
         <translation>Hiberna</translation>
     </message>
     <message>
+        <source>Media Rewind</source>
+        <translation>Rebobina el suport</translation>
+    </message>
+    <message>
+        <source>Media Fast Forward</source>
+        <translation>Avança ràpidament el suport</translation>
+    </message>
+    <message>
+        <source>Power Down</source>
+        <translation>Apaga</translation>
+    </message>
+    <message>
+        <source>Microphone Mute</source>
+        <translation>Silencia el micròfon</translation>
+    </message>
+    <message>
+        <source>Red</source>
+        <translation>Vermell</translation>
+    </message>
+    <message>
+        <source>Green</source>
+        <translation>Verd</translation>
+    </message>
+    <message>
+        <source>Yellow</source>
+        <translation>Groc</translation>
+    </message>
+    <message>
+        <source>Blue</source>
+        <translation>Blau</translation>
+    </message>
+    <message>
+        <source>Channel Up</source>
+        <translation>Canal següent</translation>
+    </message>
+    <message>
+        <source>Channel Down</source>
+        <translation>Canal anterior</translation>
+    </message>
+    <message>
+        <source>Guide</source>
+        <translation>Guia</translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>Informació</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Configuració</translation>
+    </message>
+    <message>
+        <source>Microphone Volume Up</source>
+        <translation>Puja el volum del micròfon</translation>
+    </message>
+    <message>
+        <source>Microphone Volume Down</source>
+        <translation>Baixa el volum del micròfon</translation>
+    </message>
+    <message>
+        <source>New</source>
+        <translation>Nou</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Obre</translation>
+    </message>
+    <message>
+        <source>Find</source>
+        <translation>Cerca</translation>
+    </message>
+    <message>
+        <source>Undo</source>
+        <translation>Desfés</translation>
+    </message>
+    <message>
+        <source>Redo</source>
+        <translation>Refés</translation>
+    </message>
+    <message>
         <source>Print Screen</source>
         <translation>Impr Pant</translation>
     </message>
@@ -5098,6 +5272,10 @@ Desactiveu una de les dues opcions.</translation>
         <translation>Zoom</translation>
     </message>
     <message>
+        <source>Exit</source>
+        <translation>Surt</translation>
+    </message>
+    <message>
         <source>Ctrl</source>
         <translation>Ctrl</translation>
     </message>
@@ -5225,7 +5403,7 @@ Desactiveu una de les dues opcions.</translation>
     <message>
         <source>text caret</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>indicador de cursor</translation>
+        <translation>cursor de text</translation>
     </message>
     <message>
         <source>alert message</source>
@@ -5284,7 +5462,9 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>frame</source>
-        <extracomment>Role of an accessible object</extracomment>
+        <extracomment>Role of an accessible object: a window with frame and title
+----------
+Role of an accessible object</extracomment>
         <translation>marc</translation>
     </message>
     <message>
@@ -5498,6 +5678,51 @@ Desactiveu una de les dues opcions.</translation>
         <translation>subfinestra amb capes</translation>
     </message>
     <message>
+        <source>web document</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>document web</translation>
+    </message>
+    <message>
+        <source>paragraph</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>paràgraf</translation>
+    </message>
+    <message>
+        <source>section</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>secció</translation>
+    </message>
+    <message>
+        <source>color chooser</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>selector de color</translation>
+    </message>
+    <message>
+        <source>footer</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>peu de pàgina</translation>
+    </message>
+    <message>
+        <source>form</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>formulari</translation>
+    </message>
+    <message>
+        <source>heading</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>capçalera</translation>
+    </message>
+    <message>
+        <source>note</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>nota</translation>
+    </message>
+    <message>
+        <source>complementary content</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>contingut complementari</translation>
+    </message>
+    <message>
         <source>unknown</source>
         <extracomment>Role of an accessible object</extracomment>
         <translation>desconegut</translation>
@@ -5508,6 +5733,10 @@ Desactiveu una de les dues opcions.</translation>
     <message>
         <source>Error creating SSL context (%1)</source>
         <translation>Error en crear el context SSL (%1)</translation>
+    </message>
+    <message>
+        <source>unsupported protocol</source>
+        <translation>protocol no implementat</translation>
     </message>
     <message>
         <source>Invalid or empty cipher list (%1)</source>
@@ -6194,6 +6423,10 @@ La versió mínima requerida del Direct2D és %1.%2.%3.%4. La versió del Direct
     <message>
         <source>Attribute redefined.</source>
         <translation>S&apos;ha redefinit l&apos;atribut.</translation>
+    </message>
+    <message>
+        <source>Attribute &apos;%1&apos; redefined.</source>
+        <translation>S&apos;ha redefinit l&apos;atribut «%1».</translation>
     </message>
     <message>
         <source>Unexpected character &apos;%1&apos; in public id literal.</source>

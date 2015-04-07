@@ -713,10 +713,6 @@ Reason:
         <translation>&amp;Закладки</translation>
     </message>
     <message>
-        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;</source>
-        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Версия %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2013 Digia Plc и/или её дочерние подразделения.&lt;/p&gt;</translation>
-    </message>
-    <message>
         <source>Could not register file &apos;%1&apos;: %2</source>
         <translation>Не удалось зарегистрировать файл «%1»: %2</translation>
     </message>
@@ -787,6 +783,10 @@ Reason:
     <message>
         <source>Could not find the associated content item.</source>
         <translation>Не удалось найти элемент, связанный с содержанием.</translation>
+    </message>
+    <message>
+        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %3 Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;</source>
+        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Версия %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %3 Digia Plc и/или её дочерние подразделения.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About %1</source>
