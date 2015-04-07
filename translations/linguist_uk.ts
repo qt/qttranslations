@@ -2000,10 +2000,6 @@ All files (*)</source>
         <translation>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist - це засіб для додавання перекладів до програм на Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd та/або її дочірні компанії.</translation>
     </message>
     <message>
-        <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd.</source>
-        <translation type="obsolete">&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist - це засіб для додавання перекладів до програм на Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd та/або її дочірні компанії.</translation>
-    </message>
-    <message>
         <source>Do you want to save the modified files?</source>
         <translation>Бажаєте зберегти модифіковані файли?</translation>
     </message>
@@ -2138,6 +2134,34 @@ All files (*)</source>
     <message>
         <source>Toggle visualize whitespace in editors</source>
         <translation>Перемикання відображення пропусків в редакторах</translation>
+    </message>
+    <message>
+        <source>&amp;Zoom</source>
+        <translation>&amp;Масштаб</translation>
+    </message>
+    <message>
+        <source>Increase</source>
+        <translation>Збільшити</translation>
+    </message>
+    <message>
+        <source>Ctrl++</source>
+        <translation>Ctrl++</translation>
+    </message>
+    <message>
+        <source>Decrease</source>
+        <translation>Зменшити</translation>
+    </message>
+    <message>
+        <source>Ctrl+-</source>
+        <translation>Ctrl+-</translation>
+    </message>
+    <message>
+        <source>Reset to default</source>
+        <translation>Типово</translation>
+    </message>
+    <message>
+        <source>Ctrl+0</source>
+        <translation>Ctrl+0</translation>
     </message>
 </context>
 <context>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ca">
+<TS version="2.0" language="lv_LV">
 <context>
     <name>QScriptBreakpointsModel</name>
     <message>
@@ -9,57 +9,57 @@
     </message>
     <message>
         <source>Location</source>
-        <translation>Ubicació</translation>
+        <translation>Vieta</translation>
     </message>
     <message>
         <source>Condition</source>
-        <translation>Condició</translation>
+        <translation>Nosacījums</translation>
     </message>
     <message>
         <source>Ignore-count</source>
-        <translation>Ignora la quantitat</translation>
+        <translation>Ignorēt skaitu</translation>
     </message>
     <message>
         <source>Single-shot</source>
-        <translation>Només una vegada</translation>
+        <translation>Viens šāviens</translation>
     </message>
     <message>
         <source>Hit-count</source>
-        <translation>Quantitat d&apos;assolits</translation>
+        <translation>Trāpījumu skaits</translation>
     </message>
 </context>
 <context>
     <name>QScriptBreakpointsWidget</name>
     <message>
         <source>New</source>
-        <translation>Nou</translation>
+        <translation>Jauns</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Suprimeix</translation>
+        <translation>Dzēst</translation>
     </message>
 </context>
 <context>
     <name>QScriptDebugger</name>
     <message>
         <source>Go to Line</source>
-        <translation>Vés a la línia</translation>
+        <translation>Iet uz rindu</translation>
     </message>
     <message>
         <source>Line:</source>
-        <translation>Línia:</translation>
+        <translation>Rinda:</translation>
     </message>
     <message>
         <source>Interrupt</source>
-        <translation>Interrupció</translation>
+        <translation>Pārtraukums</translation>
     </message>
     <message>
         <source>Shift+F5</source>
-        <translation>Majús+F5</translation>
+        <translation>Shift+F5</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation>Continua</translation>
+        <translation>Turpināt</translation>
     </message>
     <message>
         <source>F5</source>
@@ -67,7 +67,7 @@
     </message>
     <message>
         <source>Step Into</source>
-        <translation>Passa a dins</translation>
+        <translation>Solis iekšā</translation>
     </message>
     <message>
         <source>F11</source>
@@ -75,7 +75,7 @@
     </message>
     <message>
         <source>Step Over</source>
-        <translation>Passa per sobre</translation>
+        <translation>Solis pāri</translation>
     </message>
     <message>
         <source>F10</source>
@@ -83,15 +83,15 @@
     </message>
     <message>
         <source>Step Out</source>
-        <translation>Avança per fora</translation>
+        <translation>Solis uz āru</translation>
     </message>
     <message>
         <source>Shift+F11</source>
-        <translation>Majús+F11</translation>
+        <translation>Shift+F11</translation>
     </message>
     <message>
         <source>Run to Cursor</source>
-        <translation>Executa fins al cursor</translation>
+        <translation>Darbināt līdz kursoram</translation>
     </message>
     <message>
         <source>Ctrl+F10</source>
@@ -99,11 +99,11 @@
     </message>
     <message>
         <source>Run to New Script</source>
-        <translation>Executa a un script nou</translation>
+        <translation>Palaist uz “jauns skripts”</translation>
     </message>
     <message>
         <source>Toggle Breakpoint</source>
-        <translation>Commuta el punt d&apos;interrupció</translation>
+        <translation>Pārslēgt pārtraukuma punktu</translation>
     </message>
     <message>
         <source>F9</source>
@@ -111,19 +111,19 @@
     </message>
     <message>
         <source>Clear Debug Output</source>
-        <translation>Neteja la sortida de depuració</translation>
+        <translation>Attīrīt atkļūdošanas izvadi</translation>
     </message>
     <message>
         <source>Clear Error Log</source>
-        <translation>Neteja el registre d&apos;errors</translation>
+        <translation>Attīrīt kļūdu žurnālu</translation>
     </message>
     <message>
         <source>Clear Console</source>
-        <translation>Neteja la consola</translation>
+        <translation>Attīrīt konsoli</translation>
     </message>
     <message>
         <source>&amp;Find in Script...</source>
-        <translation>&amp;Cerca en l&apos;script...</translation>
+        <translation>&amp;Meklēt skriptā...</translation>
     </message>
     <message>
         <source>Ctrl+F</source>
@@ -131,7 +131,7 @@
     </message>
     <message>
         <source>Find &amp;Next</source>
-        <translation>Cerca el se&amp;güent</translation>
+        <translation>Meklēt &amp;nākamo</translation>
     </message>
     <message>
         <source>F3</source>
@@ -139,11 +139,11 @@
     </message>
     <message>
         <source>Find &amp;Previous</source>
-        <translation>Cerca l&apos;a&amp;nterior</translation>
+        <translation>Meklēt ie&amp;priekšējo</translation>
     </message>
     <message>
         <source>Shift+F3</source>
-        <translation>Majús+F3</translation>
+        <translation>Shift+F3</translation>
     </message>
     <message>
         <source>Ctrl+G</source>
@@ -151,129 +151,129 @@
     </message>
     <message>
         <source>Debug</source>
-        <translation>Depura</translation>
+        <translation>Atkļūdot</translation>
     </message>
 </context>
 <context>
     <name>QScriptDebuggerCodeFinderWidget</name>
     <message>
         <source>Close</source>
-        <translation>Tanca</translation>
+        <translation>Aizvērt</translation>
     </message>
     <message>
         <source>Previous</source>
-        <translation>Anterior</translation>
+        <translation>Iepriekšējais</translation>
     </message>
     <message>
         <source>Next</source>
-        <translation>Següent</translation>
+        <translation>Nākamais</translation>
     </message>
     <message>
         <source>Case Sensitive</source>
-        <translation>Distingeix entre majúscules i minúscules</translation>
+        <translation>Reģistrjutīgs</translation>
     </message>
     <message>
         <source>Whole words</source>
-        <translation>Paraules senceres</translation>
+        <translation>Veseli vārdi</translation>
     </message>
     <message>
         <source>&lt;img src=&quot;:/qt/scripttools/debugging/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
-        <translation>&lt;img src=&quot;:/qt/scripttools/debugging/images/wrap.png&quot;&gt;&amp;nbsp;Cerca embolcallada</translation>
+        <translation>&lt;img src=&quot;:/qt/scripttools/debugging/images/wrap.png&quot;&gt;&amp;nbsp;Meklēt viscaur</translation>
     </message>
 </context>
 <context>
     <name>QScriptDebuggerLocalsModel</name>
     <message>
         <source>Name</source>
-        <translation>Nom</translation>
+        <translation>Nosaukums</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation>Valor</translation>
+        <translation>Vērtība</translation>
     </message>
 </context>
 <context>
     <name>QScriptDebuggerStackModel</name>
     <message>
         <source>Level</source>
-        <translation>Nivell</translation>
+        <translation>Līmenis</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Nom</translation>
+        <translation>Nosaukums</translation>
     </message>
     <message>
         <source>Location</source>
-        <translation>Ubicació</translation>
+        <translation>Vieta</translation>
     </message>
 </context>
 <context>
     <name>QScriptEdit</name>
     <message>
         <source>Toggle Breakpoint</source>
-        <translation>Commuta el punt d&apos;interrupció</translation>
+        <translation>Pārslēgt pārtraukuma punktu</translation>
     </message>
     <message>
         <source>Disable Breakpoint</source>
-        <translation>Desactiva el punt d&apos;interrupció</translation>
+        <translation>Izslēgt pārtraukuma punktu</translation>
     </message>
     <message>
         <source>Enable Breakpoint</source>
-        <translation>Activa el punt d&apos;interrupció</translation>
+        <translation>Ieslēgt pārtraukuma punktu</translation>
     </message>
     <message>
         <source>Breakpoint Condition:</source>
-        <translation>Condició del punt d&apos;interrupció:</translation>
+        <translation>Pārtraukuma punkta stāvoklis:</translation>
     </message>
 </context>
 <context>
     <name>QScriptEngineDebugger</name>
     <message>
         <source>Loaded Scripts</source>
-        <translation>Scripts carregats</translation>
+        <translation>Ielādēti skripti</translation>
     </message>
     <message>
         <source>Breakpoints</source>
-        <translation>Punts d&apos;interrupció</translation>
+        <translation>Pārtraukuma punkti</translation>
     </message>
     <message>
         <source>Stack</source>
-        <translation>Pila</translation>
+        <translation>Steks</translation>
     </message>
     <message>
         <source>Locals</source>
-        <translation>Locals</translation>
+        <translation>Lokālās vērtības</translation>
     </message>
     <message>
         <source>Console</source>
-        <translation>Consola</translation>
+        <translation>Konsole</translation>
     </message>
     <message>
         <source>Debug Output</source>
-        <translation>Sortida de depuració</translation>
+        <translation>Atkļūdošanas izvade</translation>
     </message>
     <message>
         <source>Error Log</source>
-        <translation>Registre d&apos;errors</translation>
+        <translation>Kļūdu žurnāls</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Cerca</translation>
+        <translation>Meklēt</translation>
     </message>
     <message>
         <source>View</source>
-        <translation>Vista</translation>
+        <translation>Skats</translation>
     </message>
     <message>
         <source>Qt Script Debugger</source>
-        <translation>Depurador d&apos;scripts de Qt</translation>
+        <translation>Qt skriptu atkļūdotājs</translation>
     </message>
 </context>
 <context>
     <name>QScriptNewBreakpointWidget</name>
     <message>
         <source>Close</source>
-        <translation>Tanca</translation>
+        <translation>Aizvērt</translation>
     </message>
 </context>
 </TS>

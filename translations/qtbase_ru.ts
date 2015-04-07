@@ -5824,6 +5824,10 @@ Role of an accessible object</extracomment>
         <translation>Ошибка создания контекста SSL: (%1)</translation>
     </message>
     <message>
+        <source>unsupported protocol</source>
+        <translation>протокол не поддерживается</translation>
+    </message>
+    <message>
         <source>Invalid or empty cipher list (%1)</source>
         <translation>Некорректный или пустой список шифров (%1)</translation>
     </message>
