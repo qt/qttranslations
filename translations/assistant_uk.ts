@@ -259,8 +259,12 @@ Reason:
         <translation>Адреса</translation>
     </message>
     <message>
-        <source>Toolbar Menu</source>
+        <source>Bookmarks Toolbar</source>
         <translation>Панель закладок</translation>
+    </message>
+    <message>
+        <source>Toolbar Menu</source>
+        <translation type="vanished">Панель закладок</translation>
     </message>
     <message>
         <source>Bookmarks Menu</source>
@@ -1104,10 +1108,6 @@ Reason:
     <message>
         <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd.&lt;/p&gt;</source>
         <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Версія %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd та/або її дочірні компанії.&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd.&lt;/p&gt;</source>
-        <translation type="obsolete">&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Версія %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd та/або її дочірні компанії.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About %1</source>

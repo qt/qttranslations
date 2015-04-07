@@ -311,7 +311,7 @@
         <translation>
             <numerusform>%1 pren com a màxim %n argument. Per tant %2 no és vàlid.</numerusform>
             <numerusform>%1 pren com a màxim %n arguments. Per tant %2 no és vàlid.</numerusform>
-            <numerusform></numerusform>
+            <numerusform>%1 pren com a màxim %n arguments. Per tant %2 no és vàlid.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -319,7 +319,7 @@
         <translation>
             <numerusform>%1 almenys requereix %n argument. Per tant %2 no és vàlid.</numerusform>
             <numerusform>%1 almenys requereix %n arguments. Per tant %2 no és vàlid.</numerusform>
-            <numerusform></numerusform>
+            <numerusform>%1 almenys requereix %n arguments. Per tant %2 no és vàlid.</numerusform>
         </translation>
     </message>
     <message>
@@ -1320,7 +1320,7 @@
     </message>
     <message>
         <source>Text or entity references not allowed inside %1 element</source>
-        <translation>Text o referència a entitat no permesa dins l&apos;element %1.</translation>
+        <translation>Text o referència a entitat no permesa dins l&apos;element %1</translation>
     </message>
     <message>
         <source>%1 attribute of %2 element must contain %3, %4 or a list of URIs.</source>
@@ -1780,7 +1780,7 @@
     </message>
     <message>
         <source>Attribute %1 contains invalid data: %2</source>
-        <translation>L&apos;atribut %1 conté dades no vàlides: %2.</translation>
+        <translation>L&apos;atribut %1 conté dades no vàlides: %2</translation>
     </message>
     <message>
         <source>Element contains content although it is nillable.</source>

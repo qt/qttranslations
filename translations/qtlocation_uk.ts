@@ -318,8 +318,32 @@
         <translation>Пішохідна карта вулиць</translation>
     </message>
     <message>
+        <source>Pedestrian map view in daylight mode</source>
+        <translation>Перегляд пішохідної карти в денному режимі</translation>
+    </message>
+    <message>
+        <source>Mobile Pedestrian Street Map</source>
+        <translation>Мобільна пішохідна карта вулиць</translation>
+    </message>
+    <message>
+        <source>Mobile pedestrian map view in daylight mode for mobile usage</source>
+        <translation>Перегляд мобільної пішохідної карти для мобільного використання в денному режимі</translation>
+    </message>
+    <message>
+        <source>Pedestrian map view in night mode</source>
+        <translation>Перегляд пішохідної карти в нічному режимі</translation>
+    </message>
+    <message>
+        <source>Mobile Pedestrian Night Street Map</source>
+        <translation>Мобільна пішохідна нічна карта вулиць</translation>
+    </message>
+    <message>
+        <source>Mobile pedestrian map view in night mode for mobile usage</source>
+        <translation>Перегляд мобільної пішохідної карти для мобільного використання в нічному режимі</translation>
+    </message>
+    <message>
         <source>Pedestrian map view in daylight mode for mobile usage</source>
-        <translation>Перегляд пішохідної карти для мобільного використання в денному режимі</translation>
+        <translation type="vanished">Перегляд пішохідної карти для мобільного використання в денному режимі</translation>
     </message>
     <message>
         <source>Pedestrian Night Street Map</source>
@@ -327,7 +351,7 @@
     </message>
     <message>
         <source>Pedestrian map view in night mode for mobile usage</source>
-        <translation>Перегляд пішохідної карти для мобільного використання в нічному режимі</translation>
+        <translation type="vanished">Перегляд пішохідної карти для мобільного використання в нічному режимі</translation>
     </message>
     <message>
         <source>Car Navigation Map</source>

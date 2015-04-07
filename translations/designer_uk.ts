@@ -3173,10 +3173,6 @@ Do you want overwrite the template?</source>
         <source>%1&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd.</source>
         <translation>%1&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd та/або її дочірні компанії.</translation>
     </message>
-    <message>
-        <source>%1&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd.</source>
-        <translation type="obsolete">%1&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd та/або її дочірні компанії.</translation>
-    </message>
 </context>
 <context>
     <name>WidgetDataBase</name>
