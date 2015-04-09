@@ -181,10 +181,45 @@
     </message>
 </context>
 <context>
+    <name>QGeoServiceProviderFactoryMapbox</name>
+    <message>
+        <source>Mapbox plugin requires &apos;mapbox.map_id&apos; and &apos;mapbox.access_token&apos; parameters.
+Please visit https://www.mapbox.com</source>
+        <translation>Das Mapbox-Plugin erfordert die Parameter &apos;mapbox.map_id&apos; und &apos;mapbox.access_token&apos;.
+Bitte besuchen Sie https://www.mapbox.com</translation>
+    </message>
+</context>
+<context>
     <name>QGeoTileFetcherNokia</name>
     <message>
         <source>Mapping manager no longer exists</source>
         <translation>Kartenmanager existiert nicht mehr</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoTiledMapDataOsm</name>
+    <message>
+        <source>Tiles Courtesy of &lt;a href=&apos;http://www.mapquest.com/&apos;&gt;MapQuest&lt;/a&gt;&lt;br/&gt;Data &amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt; contributors</source>
+        <translation>Die Kartenabschnitte wurden von &lt;a href=&apos;http://www.mapquest.com/&apos;&gt;MapQuest&lt;/a&gt; zur Verfügung gestellt&lt;br/&gt;Daten &amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt;-Mitwirkende</translation>
+    </message>
+    <message>
+        <source>Maps &amp;copy; &lt;a href=&apos;http://www.thunderforest.com/&apos;&gt;Thunderforest&lt;/a&gt;&lt;br/&gt;Data &amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt; contributors</source>
+        <translation>Karten &amp;copy; &lt;a href=&apos;http://www.thunderforest.com/&apos;&gt;Thunderforest&lt;/a&gt;&lt;br/&gt;Daten &amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt;-Mitwirkende</translation>
+    </message>
+    <message>
+        <source>&amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt; contributors</source>
+        <translation>&amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt;-Mitwirkende</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoTiledMappingManagerEngineMapbox</name>
+    <message>
+        <source>Custom</source>
+        <translation>Benutzerdefiniert</translation>
+    </message>
+    <message>
+        <source>Mapbox custom map</source>
+        <translation>Benutzerdefinierte Karte von Mapbox</translation>
     </message>
 </context>
 <context>
@@ -361,16 +396,130 @@
         <translation>Straßenkarte</translation>
     </message>
     <message>
-        <source>OpenStreetMap street map</source>
-        <translation>OpenStreetMap Straßenkarte</translation>
+        <source>Street map view in daylight mode</source>
+        <translation>Ansicht Straßenkarte bei Tageslicht</translation>
     </message>
     <message>
-        <source>OpenStreetMap satellite map</source>
-        <translation>OpenStreetMap Satellitenkarte</translation>
+        <source>Satellite map view in daylight mode</source>
+        <translation>Ansicht Satellitenkarte bei Tageslicht</translation>
+    </message>
+    <message>
+        <source>Cycle Map</source>
+        <translation>Fahrradkarte</translation>
+    </message>
+    <message>
+        <source>Cycle map view in daylight mode</source>
+        <translation>Ansicht Fahrradkarte bei Tageslicht</translation>
+    </message>
+    <message>
+        <source>Transit Map</source>
+        <translation>Nahverkehrskarte</translation>
+    </message>
+    <message>
+        <source>Public transit map view in daylight mode</source>
+        <translation>Ansicht Nahverkehrskarte bei Tageslicht</translation>
+    </message>
+    <message>
+        <source>Night Transit Map</source>
+        <translation>Nahverkehrskarte bei Nacht</translation>
+    </message>
+    <message>
+        <source>Public transit map view in night mode</source>
+        <translation>Ansicht Nahverkehrskarte bei Nacht</translation>
+    </message>
+    <message>
+        <source>Terrain Map</source>
+        <translation>Topografische Karte</translation>
+    </message>
+    <message>
+        <source>Terrain map view</source>
+        <translation>Ansicht Topografische Karte</translation>
+    </message>
+    <message>
+        <source>Hiking Map</source>
+        <translation>Wanderkarte</translation>
+    </message>
+    <message>
+        <source>Hiking map view</source>
+        <translation>Ansicht Wanderkarte</translation>
     </message>
     <message>
         <source>Satellite Map</source>
         <translation>Satellitenkarte</translation>
+    </message>
+</context>
+<context>
+    <name>QPlaceManagerEngineOsm</name>
+    <message>
+        <source>Aeroway</source>
+        <translation>Luftverkehr</translation>
+    </message>
+    <message>
+        <source>Amenity</source>
+        <translation>Öffentliche Einrichtung</translation>
+    </message>
+    <message>
+        <source>Building</source>
+        <translation>Gebäude</translation>
+    </message>
+    <message>
+        <source>Highway</source>
+        <translation>Straße</translation>
+    </message>
+    <message>
+        <source>Historic</source>
+        <translation>Historisch</translation>
+    </message>
+    <message>
+        <source>Land use</source>
+        <translation>Landnutzung</translation>
+    </message>
+    <message>
+        <source>Leisure</source>
+        <translation>Freizeit</translation>
+    </message>
+    <message>
+        <source>Man made</source>
+        <translation>Menschlichen Ursprungs</translation>
+    </message>
+    <message>
+        <source>Natural</source>
+        <translation>Natürlich</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Ort</translation>
+    </message>
+    <message>
+        <source>Railway</source>
+        <translation>Eisenbahn</translation>
+    </message>
+    <message>
+        <source>Shop</source>
+        <translation>Geschäft</translation>
+    </message>
+    <message>
+        <source>Tourism</source>
+        <translation>Tourismus</translation>
+    </message>
+    <message>
+        <source>Waterway</source>
+        <translation>Wasserweg</translation>
+    </message>
+    <message>
+        <source>Network request error</source>
+        <translation>Netzwerkfehler</translation>
+    </message>
+</context>
+<context>
+    <name>QPlaceSearchReplyOsm</name>
+    <message>
+        <source>Communication error</source>
+        <translation>Fehler bei Kommunikation</translation>
+    </message>
+    <message>
+        <source>Response parse error</source>
+        <translation>Fehler beim Parsen der Antwort</translation>
     </message>
 </context>
 <context>
@@ -379,7 +528,7 @@
         <source>Qt Location requires app_id and token parameters.
 Please register at https://developer.here.com/ to get your personal application credentials.</source>
         <translation>Qt Location benötigt die app_id und token Parameter.
-Bitte registrieren Sie sich unter https://developer.here.com/ to get your personal application credentials.</translation>
+Bitte registrieren Sie sich unter https://developer.here.com/ um Ihre persönlichen Anmeldedaten zu erhalten.</translation>
     </message>
     <message>
         <source>Saving places is not supported.</source>

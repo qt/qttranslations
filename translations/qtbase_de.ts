@@ -116,6 +116,30 @@
         <translation>Umschalten</translation>
     </message>
     <message>
+        <source>Scroll Left</source>
+        <translation>Nach links scrollen</translation>
+    </message>
+    <message>
+        <source>Scroll Right</source>
+        <translation>Nach rechts scrollen</translation>
+    </message>
+    <message>
+        <source>Scroll Up</source>
+        <translation>Nach oben scrollen</translation>
+    </message>
+    <message>
+        <source>Scroll Down</source>
+        <translation>Nach unten scrollen</translation>
+    </message>
+    <message>
+        <source>Previous Page</source>
+        <translation>Vorige Seite</translation>
+    </message>
+    <message>
+        <source>Next Page</source>
+        <translation>Nächste Seite</translation>
+    </message>
+    <message>
         <source>Triggers the action</source>
         <translation>Aktion auslösen</translation>
     </message>
@@ -138,6 +162,30 @@
     <message>
         <source>Toggles the state</source>
         <translation>Schaltet den Zustand um</translation>
+    </message>
+    <message>
+        <source>Scrolls to the left</source>
+        <translation>Scrollt nach links</translation>
+    </message>
+    <message>
+        <source>Scrolls to the right</source>
+        <translation>Scrollt nach rechts</translation>
+    </message>
+    <message>
+        <source>Scrolls up</source>
+        <translation>Scrollt nach oben</translation>
+    </message>
+    <message>
+        <source>Scrolls down</source>
+        <translation>Scrollt nach unten</translation>
+    </message>
+    <message>
+        <source>Goes back a page</source>
+        <translation>Geht zur vorigen Seite</translation>
+    </message>
+    <message>
+        <source>Goes to the next page</source>
+        <translation>Geht zur nächsten Seite</translation>
     </message>
 </context>
 <context>
@@ -267,18 +315,18 @@
         <translation>&amp;HTML:</translation>
     </message>
     <message>
-        <source>Cursor at %1, %2, color: %3
+        <source>Cursor at %1, %2
 Press ESC to cancel</source>
-        <translation>Cursor bei %1, %2, Farbe: %3
+        <translation>Cursor bei %1, %2
 Drücken Sie ESC, um abzubrechen</translation>
+    </message>
+    <message>
+        <source>&amp;Pick Screen Color</source>
+        <translation>&amp;Farbe vom Bildschirm wählen</translation>
     </message>
     <message>
         <source>Select Color</source>
         <translation>Farbauswahl</translation>
-    </message>
-    <message>
-        <source>Pick Screen Color</source>
-        <translation>Farbe vom Bildschirm wählen</translation>
     </message>
     <message>
         <source>&amp;Basic colors</source>
@@ -517,6 +565,13 @@ Drücken Sie ESC, um abzubrechen</translation>
     <message>
         <source>Unable to fetch first</source>
         <translation>Der erste Datensatz kann nicht abgeholt werden</translation>
+    </message>
+</context>
+<context>
+    <name>QDBusTrayIcon</name>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
     </message>
 </context>
 <context>
@@ -930,18 +985,18 @@ Die Datei konnte nicht gefunden werden.
 Stellen Sie sicher, dass der Dateiname richtig ist.</translation>
     </message>
     <message>
+        <source>&apos;%1&apos; is write protected.
+Do you want to delete it anyway?</source>
+        <translation>&apos;%1&apos; ist schreibgeschützt.
+Möchten Sie die Datei trotzdem löschen?</translation>
+    </message>
+    <message>
         <source>New Folder</source>
         <translation>Neues Verzeichnis</translation>
     </message>
     <message>
         <source>Delete</source>
         <translation>Löschen</translation>
-    </message>
-    <message>
-        <source>&apos;%1&apos; is write protected.
-Do you want to delete it anyway?</source>
-        <translation>&apos;%1&apos; ist schreibgeschützt.
-Möchten Sie die Datei trotzdem löschen?</translation>
     </message>
     <message>
         <source>Are you sure you want to delete &apos;%1&apos;?</source>
@@ -1098,11 +1153,39 @@ Möchten Sie die Datei trotzdem löschen?</translation>
     </message>
     <message>
         <source>Demi</source>
-        <translation>Semi</translation>
+        <extracomment>The word for &quot;Demi&quot; as in &quot;Demi Bold&quot; used as a pattern for string searches</extracomment>
+        <translation>Halb</translation>
     </message>
     <message>
         <source>Light</source>
         <translation>Leicht</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <comment>The Normal or Regular font weight</comment>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Medium</source>
+        <comment>The Medium font weight</comment>
+        <translation>Mittel</translation>
+    </message>
+    <message>
+        <source>Thin</source>
+        <translation>Dünn</translation>
+    </message>
+    <message>
+        <source>Extra Light</source>
+        <translation>Sehr dünn</translation>
+    </message>
+    <message>
+        <source>Extra Bold</source>
+        <translation>Sehr fett</translation>
+    </message>
+    <message>
+        <source>Extra</source>
+        <extracomment>The word for &quot;Extra&quot; as in &quot;Extra Bold, Extra Thin&quot; used as a pattern for string searches</extracomment>
+        <translation>Sehr</translation>
     </message>
     <message>
         <source>Italic</source>
@@ -2129,8 +2212,8 @@ Möchten Sie die Datei trotzdem löschen?</translation>
         <translation>&lt;h3&gt;Über Qt&lt;/h3&gt;&lt;p&gt;Dieses Programm verwendet Qt Version %1.&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.io/licensing/&quot;&gt;qt.io/licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is developed as an open source project on &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.io/&quot;&gt;qt.io&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.io/licensing/&quot;&gt;qt.io/licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is developed as an open source project on &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.io/&quot;&gt;qt.io&lt;/a&gt; for more information.&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3 or GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3 or GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About Qt</source>
@@ -3646,6 +3729,10 @@ Bitte deaktivieren Sie eine der beiden.</translation>
         <translation>Der Prozess ist abgestürzt</translation>
     </message>
     <message>
+        <source>Process failed to start (spawned process exited with code 127)</source>
+        <translation>Das Starten des Prozesses ist fehlgeschlagen (der Unterprozess wurde mit Rückgabewert 127 beendet)</translation>
+    </message>
+    <message>
         <source>No program defined</source>
         <translation>Es wurde kein Programm angegeben</translation>
     </message>
@@ -3679,14 +3766,6 @@ Bitte deaktivieren Sie eine der beiden.</translation>
 </context>
 <context>
     <name>QQnxFileDialogHelper</name>
-    <message>
-        <source>CANCEL</source>
-        <translation>ABBRECHEN</translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation>OK</translation>
-    </message>
     <message>
         <source>All files (*.*)</source>
         <translation>Alle Dateien (*.*)</translation>
@@ -4276,6 +4355,10 @@ Bitte deaktivieren Sie eine der beiden.</translation>
     <message>
         <source>%1: key is empty</source>
         <translation>%1: Ungültige Schlüsselangabe (leer)</translation>
+    </message>
+    <message>
+        <source>%1: bad name</source>
+        <translation>%1: Ungültiger Name</translation>
     </message>
     <message>
         <source>%1: UNIX key file doesn&apos;t exist</source>
@@ -5267,6 +5350,18 @@ Bitte deaktivieren Sie eine der beiden.</translation>
         <translation>Verlassen</translation>
     </message>
     <message>
+        <source>Touchpad Toggle</source>
+        <translation>Touchpad-Umschalter</translation>
+    </message>
+    <message>
+        <source>Touchpad On</source>
+        <translation>Touchpad an</translation>
+    </message>
+    <message>
+        <source>Touchpad Off</source>
+        <translation>Touchpad aus</translation>
+    </message>
+    <message>
         <source>Ctrl</source>
         <translation>Strg</translation>
     </message>
@@ -5817,6 +5912,10 @@ Role of an accessible object</extracomment>
         <translation>Es konnte keine SSL-Kontextstruktur erzeugt werden (%1)</translation>
     </message>
     <message>
+        <source>unsupported protocol</source>
+        <translation>Nicht unterstütztes Protokoll</translation>
+    </message>
+    <message>
         <source>Invalid or empty cipher list (%1)</source>
         <translation>Ungültige oder leere Schlüsselliste (%1)</translation>
     </message>
@@ -5835,6 +5934,14 @@ Role of an accessible object</extracomment>
     <message>
         <source>Private key does not certify public key, %1</source>
         <translation>Der private Schlüssel passt nicht zum öffentlichen Schlüssel, %1</translation>
+    </message>
+    <message>
+        <source>OpenSSL version too old, need at least v1.0.2</source>
+        <translation>Die verwendete Version von OpenSSL ist zu alt, es muss v1.0.2 oder neuer sein</translation>
+    </message>
+    <message>
+        <source>Error when setting the elliptic curves (%1)</source>
+        <translation>Fehler beim Setzen der elliptischen Kurven (%1)</translation>
     </message>
     <message>
         <source>Error creating SSL session, %1</source>
@@ -5910,6 +6017,10 @@ Role of an accessible object</extracomment>
     <message>
         <source>Application Data</source>
         <translation>Anwendungsdaten</translation>
+    </message>
+    <message>
+        <source>Application Configuration</source>
+        <translation>Anwendungskonfiguration</translation>
     </message>
     <message>
         <source>Cache</source>

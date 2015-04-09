@@ -117,7 +117,7 @@
     </message>
     <message>
         <source>The font &apos;%1&apos; (%2) could not be unloaded.</source>
-        <translation>Die Schriftart  &apos;%1&apos; (%2) konnte nicht entladen werden.</translation>
+        <translation>Die Schriftart &apos;%1&apos; (%2) konnte nicht entladen werden.</translation>
     </message>
 </context>
 <context>
@@ -1646,10 +1646,6 @@ Möchten Sie es noch einmal versuchen?</translation>
         <source>The class attribute for the class %1 does not match the class name %2.</source>
         <translation>Das Klassenattribut der Klasse %1 entspricht nicht dem Klassennamen (%2).</translation>
     </message>
-    <message>
-        <source>Not loaded due to potential symbol clashes (QTCREATORBUG-10273)</source>
-        <translation>Nicht geladen aufgrund potenzieller Symbolkonflikte (QTCREATORBUG-10273)</translation>
-    </message>
 </context>
 <context>
     <name>QDesignerPropertySheet</name>
@@ -3148,8 +3144,8 @@ Möchten Sie sie überschreiben?</translation>
         <translation>&lt;br/&gt;Qt Designer is a graphical user interface designer for Qt applications.&lt;br/&gt;</translation>
     </message>
     <message>
-        <source>%1&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd.</source>
-        <translation>%1&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd.</translation>
+        <source>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</source>
+        <translation>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</translation>
     </message>
 </context>
 <context>

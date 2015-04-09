@@ -854,14 +854,20 @@ Soll die erstgenannte Datei übersprungen werden?</translation>
         <translation>Datei gespeichert.</translation>
     </message>
     <message>
-        <source>Release</source>
-        <translation>Freigeben</translation>
-    </message>
-    <message>
         <source>Qt message files for released applications (*.qm)
 All files (*)</source>
         <translation>Qt-Nachrichtendateien (*.qm)
 Alle Dateien (*)</translation>
+    </message>
+    <message>
+        <source>Qt phrase books (*.qph)
+All files (*)</source>
+        <translation>Qt-Wörterbücher (*.qph)
+Alle Dateien (*)</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Freigeben</translation>
     </message>
     <message>
         <source>File created.</source>
@@ -935,12 +941,6 @@ Alle Dateien (*)</translation>
         <translation>Erzeugen eines neuen Wörterbuchs</translation>
     </message>
     <message>
-        <source>Qt phrase books (*.qph)
-All files (*)</source>
-        <translation>Qt-Wörterbücher (*.qph)
-Alle Dateien (*)</translation>
-    </message>
-    <message>
         <source>Phrase book created.</source>
         <translation>Wörterbuch erzeugt.</translation>
     </message>
@@ -984,8 +984,8 @@ Alle Dateien (*)</translation>
         <translation>Version %1</translation>
     </message>
     <message>
-        <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd.</source>
-        <translation>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd.</translation>
+        <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</source>
+        <translation>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</translation>
     </message>
     <message>
         <source>Do you want to save the modified files?</source>
