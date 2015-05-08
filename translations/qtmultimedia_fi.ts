@@ -435,10 +435,6 @@
 <context>
     <name>QGstreamerPlayerControl</name>
     <message>
-        <source>Attempting to play invalid Qt resource</source>
-        <translation>Yritettiin toistaa virheellinen Qt-resurssi</translation>
-    </message>
-    <message>
         <source>Attempting to play invalid user stream</source>
         <translation>Yritettiin toistaa virheellinen käyttäjän virta</translation>
     </message>
@@ -482,6 +478,10 @@
 </context>
 <context>
     <name>QMediaPlayer</name>
+    <message>
+        <source>Attempting to play invalid Qt resource</source>
+        <translation>Yritetään toistaa virheellinen Qt-resurssi</translation>
+    </message>
     <message>
         <source>The QMediaPlayer object does not have a valid service</source>
         <translation>QMediaPlayer-oliolla ei ole sopivaa palvelua</translation>
@@ -538,14 +538,7 @@
     </message>
 </context>
 <context>
-    <name>QPlaylistFileParser</name>
-    <message>
-        <source>%1 does not exist</source>
-        <translation>%1 ei ole olemassa</translation>
-    </message>
-</context>
-<context>
-    <name>QPlaylistFileParserPrivate</name>
+    <name>QObject</name>
     <message>
         <source>%1 playlist type is unknown</source>
         <translation>soittolistan %1 tyyppi on tuntematon</translation>
@@ -557,6 +550,13 @@
     <message>
         <source>Empty file provided</source>
         <translation>Saatiin tyhjä tiedosto</translation>
+    </message>
+</context>
+<context>
+    <name>QPlaylistFileParser</name>
+    <message>
+        <source>%1 does not exist</source>
+        <translation>%1 ei ole olemassa</translation>
     </message>
 </context>
 <context>

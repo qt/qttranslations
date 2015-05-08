@@ -78,8 +78,16 @@
         <translation>Peru</translation>
     </message>
     <message>
-        <source>OK</source>
-        <translation>OK</translation>
+        <source>Choose</source>
+        <translation>Valitse</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Avaa</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Tallenna</translation>
     </message>
 </context>
 <context>
@@ -223,6 +231,14 @@
 <context>
     <name>EditMenu_base</name>
     <message>
+        <source>&amp;Undo</source>
+        <translation>&amp;Kumoa</translation>
+    </message>
+    <message>
+        <source>&amp;Redo</source>
+        <translation>&amp;Tee uudelleen</translation>
+    </message>
+    <message>
         <source>Cu&amp;t</source>
         <translation>L&amp;eikkaa</translation>
     </message>
@@ -233,6 +249,46 @@
     <message>
         <source>&amp;Paste</source>
         <translation>&amp;Liitä</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Poista</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Tyhjennä</translation>
+    </message>
+    <message>
+        <source>Select All</source>
+        <translation>Valitse kaikki</translation>
+    </message>
+</context>
+<context>
+    <name>EditMenu_ios</name>
+    <message>
+        <source>Cut</source>
+        <translation>Leikkaa</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>Kopioi</translation>
+    </message>
+    <message>
+        <source>Paste</source>
+        <translatorcomment>Apple uses a different Finnish translation for paste.</translatorcomment>
+        <translation>Sijoita</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Poista</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Valitse</translation>
+    </message>
+    <message>
+        <source>Select All</source>
+        <translation>Valitse kaikki</translation>
     </message>
 </context>
 </TS>

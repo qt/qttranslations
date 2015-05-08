@@ -914,8 +914,8 @@
         <translation>&quot;%1&quot; cannot operate on &quot;%2&quot;</translation>
     </message>
     <message>
-        <source>Cannot assign object to list</source>
-        <translation>Cannot assign object to list</translation>
+        <source>Cannot assign object to list property &quot;%1&quot;</source>
+        <translation>Cannot assign object to list property &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Unexpected object assignment</source>
