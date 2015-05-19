@@ -1649,10 +1649,6 @@ Would you like to retry?</source>
         <source>The class attribute for the class %1 does not match the class name %2.</source>
         <translation>Атрибут для класса %1 не совпадает с именем класса %2.</translation>
     </message>
-    <message>
-        <source>Not loaded due to potential symbol clashes (QTCREATORBUG-10273)</source>
-        <translation>Не загружен из-за возможного конфликта имён (QTCREATORBUG-10273)</translation>
-    </message>
 </context>
 <context>
     <name>QDesignerPropertySheet</name>
@@ -3153,8 +3149,8 @@ Do you want overwrite the template?</source>
         <translation>&lt;br/&gt;Qt Designer - дизайнер графического интерфейса пользователя для Qt-приложений.&lt;br/&gt;</translation>
     </message>
     <message>
-        <source>%1&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd.</source>
-        <translation>%1&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd и/или её дочерние подразделения.</translation>
+        <source>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</source>
+        <translation>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</translation>
     </message>
 </context>
 <context>

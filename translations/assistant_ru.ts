@@ -713,10 +713,6 @@ Reason:
         <translation>&amp;Закладки</translation>
     </message>
     <message>
-        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd.&lt;/p&gt;</source>
-        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Версия %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd и/или её дочерние подразделения.&lt;/p&gt;</translation>
-    </message>
-    <message>
         <source>Could not register file &apos;%1&apos;: %2</source>
         <translation>Не удалось зарегистрировать файл «%1»: %2</translation>
     </message>
@@ -789,8 +785,8 @@ Reason:
         <translation>Не удалось найти элемент, связанный с содержанием.</translation>
     </message>
     <message>
-        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %3 Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;</source>
-        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Версия %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %3 Digia Plc и/или её дочерние подразделения.&lt;/p&gt;</translation>
+        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;p&gt;Browser: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</source>
+        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Версия %2&lt;/p&gt;&lt;p&gt;Обозреватель: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About %1</source>

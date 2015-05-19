@@ -78,8 +78,16 @@
         <translation>Отмена</translation>
     </message>
     <message>
-        <source>OK</source>
-        <translation>OK</translation>
+        <source>Choose</source>
+        <translation>Выбрать</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Открыть</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Сохранить</translation>
     </message>
 </context>
 <context>
@@ -218,6 +226,68 @@
     <message>
         <source>Hide Details</source>
         <translation>Скрыть подробности</translation>
+    </message>
+</context>
+<context>
+    <name>EditMenu_base</name>
+    <message>
+        <source>&amp;Undo</source>
+        <translation>&amp;Отменить</translation>
+    </message>
+    <message>
+        <source>&amp;Redo</source>
+        <translation>&amp;Повторить</translation>
+    </message>
+    <message>
+        <source>Cu&amp;t</source>
+        <translation>&amp;Вырезать</translation>
+    </message>
+    <message>
+        <source>&amp;Copy</source>
+        <translation>&amp;Копировать</translation>
+    </message>
+    <message>
+        <source>&amp;Paste</source>
+        <translation>В&amp;ставить</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Удалить</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Очистить</translation>
+    </message>
+    <message>
+        <source>Select All</source>
+        <translation>Выделить всё</translation>
+    </message>
+</context>
+<context>
+    <name>EditMenu_ios</name>
+    <message>
+        <source>Cut</source>
+        <translation>Вырезать</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>Копировать</translation>
+    </message>
+    <message>
+        <source>Paste</source>
+        <translation>Вставить</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Удалить</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Выбрать</translation>
+    </message>
+    <message>
+        <source>Select All</source>
+        <translation>Выбрать всё</translation>
     </message>
 </context>
 </TS>
