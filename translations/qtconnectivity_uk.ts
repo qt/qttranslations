@@ -20,6 +20,22 @@
         <translation>Пристрій вимкнено</translation>
     </message>
     <message>
+        <source>Input Output Error</source>
+        <translation>Помилка введення-виведення</translation>
+    </message>
+    <message>
+        <source>Bluetooth LE is not supported</source>
+        <translation>Bluetooth LE не підтримується</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>Невідома помилка</translation>
+    </message>
+    <message>
+        <source>Cannot start low energy device inquiry</source>
+        <translation>Неможливо розпочати опитування пристрою з низькою енергією</translation>
+    </message>
+    <message>
         <source>Discovery cannot be started</source>
         <translation>Неможливо розпочати виявлення</translation>
     </message>
@@ -29,7 +45,7 @@
     </message>
     <message>
         <source>No Bluetooth device available</source>
-        <translation>Пристрої Bluetooth не доступні</translation>
+        <translation type="vanished">Пристрої Bluetooth не доступні</translation>
     </message>
     <message>
         <source>Cannot open remote device socket</source>
@@ -55,9 +71,17 @@
         <source>Cannot access adapter during service discovery</source>
         <translation>Неможливо отримати доступ до адаптера під час виявлення сервісів</translation>
     </message>
+    <message>
+        <source>Device discovery not supported on this platform</source>
+        <translation>Пошук пристроїв не підтримується на цій платформі</translation>
+    </message>
 </context>
 <context>
     <name>QBluetoothServiceDiscoveryAgent</name>
+    <message>
+        <source>Minimal service discovery failed</source>
+        <translation>Збій мінімального пошуку пристроїв</translation>
+    </message>
     <message>
         <source>Invalid Bluetooth adapter address</source>
         <translation>Неправильна адреса адаптера Bluetooth</translation>
@@ -312,11 +336,11 @@
     </message>
     <message>
         <source>Running Speed and Cadance</source>
-        <translation>Running Speed and Cadance</translation>
+        <translation type="vanished">Running Speed and Cadance</translation>
     </message>
     <message>
         <source>Cycling Speed and Cadance</source>
-        <translation>Cycling Speed and Cadance</translation>
+        <translation type="vanished">Cycling Speed and Cadance</translation>
     </message>
     <message>
         <source>Cycling Power</source>
@@ -416,7 +440,44 @@
     </message>
     <message>
         <source>Multi-Channel Adaptation Protocol -Conrol</source>
-        <translation>Multi-Channel Adaptation Protocol -Conrol</translation>
+        <translation type="vanished">Multi-Channel Adaptation Protocol -Conrol</translation>
+    </message>
+    <message>
+        <source>Running Speed and Cadence</source>
+        <translation>Running Speed and Cadence</translation>
+    </message>
+    <message>
+        <source>Cycling Speed and Cadence</source>
+        <translation>Cycling Speed and Cadence</translation>
+    </message>
+    <message>
+        <source>Environmental Sensing</source>
+        <translation>Environmental Sensing</translation>
+    </message>
+    <message>
+        <source>Body Composition</source>
+        <translation>Body Composition</translation>
+    </message>
+    <message>
+        <source>User Data</source>
+        <translation>User Data</translation>
+    </message>
+    <message>
+        <source>Weight Scale</source>
+        <translation>Weight Scale</translation>
+    </message>
+    <message>
+        <source>Bond Management</source>
+        <extracomment>Connection management (Bluetooth)</extracomment>
+        <translation>Bond Management</translation>
+    </message>
+    <message>
+        <source>Continuous Glucose Monitoring</source>
+        <translation>Continuous Glucose Monitoring</translation>
+    </message>
+    <message>
+        <source>Multi-Channel Adaptation Protocol - Control</source>
+        <translation>Multi-Channel Adaptation Protocol - Control</translation>
     </message>
     <message>
         <source>Multi-Channel Adaptation Protocol - Data</source>
@@ -428,18 +489,22 @@
     </message>
     <message>
         <source>GAP Device Name</source>
+        <extracomment>GAP: Generic Access Profile (Bluetooth)</extracomment>
         <translation>GAP Device Name</translation>
     </message>
     <message>
         <source>GAP Appearance</source>
+        <extracomment>GAP: Generic Access Profile (Bluetooth)</extracomment>
         <translation>GAP Appearance</translation>
     </message>
     <message>
         <source>GAP Peripheral Privacy Flag</source>
+        <extracomment>GAP: Generic Access Profile (Bluetooth)</extracomment>
         <translation>GAP Peripheral Privacy Flag</translation>
     </message>
     <message>
         <source>GAP Reconnection Address</source>
+        <extracomment>GAP: Generic Access Profile (Bluetooth)</extracomment>
         <translation>GAP Reconnection Address</translation>
     </message>
     <message>
@@ -448,6 +513,7 @@
     </message>
     <message>
         <source>GATT Service Changed</source>
+        <extracomment>GATT: _G_eneric _Att_ribute Profile (Bluetooth)</extracomment>
         <translation>GATT Service Changed</translation>
     </message>
     <message>
@@ -656,6 +722,7 @@
     </message>
     <message>
         <source>HID Information</source>
+        <extracomment>HID: Human Interface Device Profile (Bluetooth)</extracomment>
         <translation>HID Information</translation>
     </message>
     <message>
@@ -664,6 +731,7 @@
     </message>
     <message>
         <source>HID Control Point</source>
+        <extracomment>HID: Human Interface Device Profile (Bluetooth)</extracomment>
         <translation>HID Control Point</translation>
     </message>
     <message>
@@ -688,14 +756,17 @@
     </message>
     <message>
         <source>Record Access Control Point</source>
+        <extracomment>Glucose Sensor patient record database.</extracomment>
         <translation>Record Access Control Point</translation>
     </message>
     <message>
         <source>RSC Measurement</source>
+        <extracomment>RSC: Running Speed and Cadence</extracomment>
         <translation>RSC Measurement</translation>
     </message>
     <message>
         <source>RSC Feature</source>
+        <extracomment>RSC: Running Speed and Cadence</extracomment>
         <translation>RSC Feature</translation>
     </message>
     <message>
@@ -704,10 +775,12 @@
     </message>
     <message>
         <source>CSC Measurement</source>
+        <extracomment>CSC: Cycling Speed and Cadence</extracomment>
         <translation>CSC Measurement</translation>
     </message>
     <message>
         <source>CSC Feature</source>
+        <extracomment>CSC: Cycling Speed and Cadence</extracomment>
         <translation>CSC Feature</translation>
     </message>
     <message>
@@ -727,8 +800,28 @@
         <translation>Cycling Power Feature</translation>
     </message>
     <message>
+        <source>Cycling Power Control Point</source>
+        <translation>Cycling Power Control Point</translation>
+    </message>
+    <message>
+        <source>Server Characteristic Configuration</source>
+        <translation>Server Characteristic Configuration</translation>
+    </message>
+    <message>
+        <source>Environmental Sensing Configuration</source>
+        <translation>Environmental Sensing Configuration</translation>
+    </message>
+    <message>
+        <source>Environmental Sensing Measurement</source>
+        <translation>Environmental Sensing Measurement</translation>
+    </message>
+    <message>
+        <source>Environmental Sensing Trigger Setting</source>
+        <translation>Environmental Sensing Trigger Setting</translation>
+    </message>
+    <message>
         <source>Cycling Power COntrol Point</source>
-        <translation>Cycling Power COntrol Point</translation>
+        <translation type="vanished">Cycling Power COntrol Point</translation>
     </message>
     <message>
         <source>Location And Speed</source>
@@ -751,6 +844,235 @@
         <translation>LN Control Point</translation>
     </message>
     <message>
+        <source>Magnetic Declination</source>
+        <extracomment>Angle between geographic and magnetic north</extracomment>
+        <translation>Magnetic Declination</translation>
+    </message>
+    <message>
+        <source>Elevation</source>
+        <extracomment>Above/below sea level</extracomment>
+        <translation>Elevation</translation>
+    </message>
+    <message>
+        <source>Pressure</source>
+        <translation>Pressure</translation>
+    </message>
+    <message>
+        <source>Temperature</source>
+        <translation>Temperature</translation>
+    </message>
+    <message>
+        <source>Humidity</source>
+        <translation>Humidity</translation>
+    </message>
+    <message>
+        <source>True Wind Speed</source>
+        <extracomment>Wind speed while standing</extracomment>
+        <translation>True Wind Speed</translation>
+    </message>
+    <message>
+        <source>True Wind Direction</source>
+        <translation>True Wind Direction</translation>
+    </message>
+    <message>
+        <source>Apparent Wind Speed</source>
+        <extracomment>Wind speed while observer is moving</extracomment>
+        <translation>Apparent Wind Speed</translation>
+    </message>
+    <message>
+        <source>Apparent Wind Direction</source>
+        <translation>Apparent Wind Direction</translation>
+    </message>
+    <message>
+        <source>Gust Factor</source>
+        <extracomment>Factor by which wind gust is stronger than average wind</extracomment>
+        <translation>Gust Factor</translation>
+    </message>
+    <message>
+        <source>Pollen Concentration</source>
+        <translation>Pollen Concentration</translation>
+    </message>
+    <message>
+        <source>UV Index</source>
+        <translation>UV Index</translation>
+    </message>
+    <message>
+        <source>Irradiance</source>
+        <translation>Irradiance</translation>
+    </message>
+    <message>
+        <source>Rainfall</source>
+        <translation>Rainfall</translation>
+    </message>
+    <message>
+        <source>Wind Chill</source>
+        <translation>Wind Chill</translation>
+    </message>
+    <message>
+        <source>Heat Index</source>
+        <translation>Heat Index</translation>
+    </message>
+    <message>
+        <source>Dew Point</source>
+        <translation>Dew Point</translation>
+    </message>
+    <message>
+        <source>Descriptor Value Changed</source>
+        <extracomment>Environmental sensing related</extracomment>
+        <translation>Descriptor Value Changed</translation>
+    </message>
+    <message>
+        <source>Aerobic Heart Rate Lower Limit</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Aerobic Heart Rate Upper Limit</source>
+        <translation>Aerobic Heart Rate Upper Limit</translation>
+    </message>
+    <message>
+        <source>Aerobic Threshold</source>
+        <translation>Aerobic Threshold</translation>
+    </message>
+    <message>
+        <source>Age</source>
+        <extracomment>Age of person</extracomment>
+        <translation>Age</translation>
+    </message>
+    <message>
+        <source>Anaerobic Heart Rate Lower Limit</source>
+        <translation>Anaerobic Heart Rate Lower Limit</translation>
+    </message>
+    <message>
+        <source>Anaerobic Heart Rate Upper Limit</source>
+        <translation>Anaerobic Heart Rate Upper Limit</translation>
+    </message>
+    <message>
+        <source>Anaerobic Threshold</source>
+        <translation>Anaerobic Threshold</translation>
+    </message>
+    <message>
+        <source>Date Of Birth</source>
+        <translation>Date Of Birth</translation>
+    </message>
+    <message>
+        <source>Date Of Threshold Assessment</source>
+        <translation>Date Of Threshold Assessment</translation>
+    </message>
+    <message>
+        <source>Email Address</source>
+        <translation>Email Address</translation>
+    </message>
+    <message>
+        <source>Fat Burn Heart Rate Lower Limit</source>
+        <translation>Fat Burn Heart Rate Lower Limit</translation>
+    </message>
+    <message>
+        <source>Fat Burn Heart Rate Upper Limit</source>
+        <translation>Fat Burn Heart Rate Upper Limit</translation>
+    </message>
+    <message>
+        <source>First Name</source>
+        <translation>First Name</translation>
+    </message>
+    <message>
+        <source>5-Zone Heart Rate Limits</source>
+        <translation>3-Zone Heart Rate Limits</translation>
+    </message>
+    <message>
+        <source>Gender</source>
+        <translation>Gender</translation>
+    </message>
+    <message>
+        <source>Heart Rate Maximum</source>
+        <translation>Heart Rate Maximum</translation>
+    </message>
+    <message>
+        <source>Height</source>
+        <extracomment>Height of a person</extracomment>
+        <translation>Height</translation>
+    </message>
+    <message>
+        <source>Hip Circumference</source>
+        <translation>Hip Circumference</translation>
+    </message>
+    <message>
+        <source>Last Name</source>
+        <translation>Last Name</translation>
+    </message>
+    <message>
+        <source>Maximum Recommended Heart Rate</source>
+        <translation>Maximum Recommended Heart Rate</translation>
+    </message>
+    <message>
+        <source>Resting Heart Rate</source>
+        <translation>Resting Heart Rate</translation>
+    </message>
+    <message>
+        <source>Sport Type For Aerobic/Anaerobic Thresholds</source>
+        <translation>Sport Type For Aerobic/Anaerobic Thresholds</translation>
+    </message>
+    <message>
+        <source>3-Zone Heart Rate Limits</source>
+        <translation>3-Zone Heart Rate Limits</translation>
+    </message>
+    <message>
+        <source>2-Zone Heart Rate Limits</source>
+        <translation>2-Zone Heart Rate Limits</translation>
+    </message>
+    <message>
+        <source>Oxygen Uptake</source>
+        <translation>Oxygen Uptake</translation>
+    </message>
+    <message>
+        <source>Waist Circumference</source>
+        <translation>Waist Circumference</translation>
+    </message>
+    <message>
+        <source>Weight</source>
+        <translation>Weight</translation>
+    </message>
+    <message>
+        <source>Database Change Increment</source>
+        <extracomment>Environmental sensing related</extracomment>
+        <translation>Database Change Increment</translation>
+    </message>
+    <message>
+        <source>User Index</source>
+        <translation>User Index</translation>
+    </message>
+    <message>
+        <source>Body Composition Feature</source>
+        <translation>Body Composition Feature</translation>
+    </message>
+    <message>
+        <source>Body Composition Measurement</source>
+        <translation>Body Composition Measurement</translation>
+    </message>
+    <message>
+        <source>Weight Measurement</source>
+        <translation>Weight Measurement</translation>
+    </message>
+    <message>
+        <source>User Control Point</source>
+        <translation>User Control Point</translation>
+    </message>
+    <message>
+        <source>Magnetic Flux Density 2D</source>
+        <translation>Magnetic Flux Density 2D</translation>
+    </message>
+    <message>
+        <source>Magnetic Flux Density 3D</source>
+        <translation>Magnetic Flux Density 3D</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Language</translation>
+    </message>
+    <message>
+        <source>Barometric Pressure Trend</source>
+        <translation>Barometric Pressure Trend</translation>
+    </message>
+    <message>
         <source>Characteristic Extended Properties</source>
         <translation>Characteristic Extended Properties</translation>
     </message>
@@ -764,7 +1086,7 @@
     </message>
     <message>
         <source>Server Characteristic Configuratio</source>
-        <translation>Server Characteristic Configuratio</translation>
+        <translation type="vanished">Server Characteristic Configuratio</translation>
     </message>
     <message>
         <source>Characteristic Presentation Format</source>
@@ -1040,7 +1362,7 @@
     </message>
     <message>
         <source>QIODevice cannot be read.Make sure it is open for reading.</source>
-        <translation>Неможливо прочитати QIODevice. Переконайтесь, що він відкритий для читання.</translation>
+        <translation type="vanished">Неможливо прочитати QIODevice. Переконайтесь, що він відкритий для читання.</translation>
     </message>
     <message>
         <source>Source file does not exist</source>
@@ -1055,7 +1377,35 @@
         <translation>Неможливо розпочати сеанс push</translation>
     </message>
     <message>
+        <source>Push session cannot connect</source>
+        <translation>Неможливо підключитись до сеансу push</translation>
+    </message>
+    <message>
+        <source>QIODevice cannot be read. Make sure it is open for reading.</source>
+        <translation>Неможливо прочитати QIODevice. Переконайтесь, що він відкритий для читання.</translation>
+    </message>
+    <message>
+        <source>Push session failed</source>
+        <translation>Збій сеансу push</translation>
+    </message>
+    <message>
+        <source>Operation canceled</source>
+        <translation>Операція скасована</translation>
+    </message>
+    <message>
+        <source>Transfer already started</source>
+        <translation>Передача вже розпочалась</translation>
+    </message>
+    <message>
+        <source>Push service not found</source>
+        <translation>Сервіс push не знайдено</translation>
+    </message>
+    <message>
         <source>Resurce busy.</source>
+        <translation type="vanished">Ресур зайнятий.</translation>
+    </message>
+    <message>
+        <source>Resource busy.</source>
         <translation>Ресур зайнятий.</translation>
     </message>
 </context>

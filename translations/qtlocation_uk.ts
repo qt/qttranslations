@@ -181,10 +181,45 @@
     </message>
 </context>
 <context>
+    <name>QGeoServiceProviderFactoryMapbox</name>
+    <message>
+        <source>Mapbox plugin requires &apos;mapbox.map_id&apos; and &apos;mapbox.access_token&apos; parameters.
+Please visit https://www.mapbox.com</source>
+        <translation>Додато Mapbox потребує параметрів &apos;mapbox.map_id&apos; та &apos;mapbox.access_token&apos;.
+Будь ласка, відвідайте https://www.mapbox.com</translation>
+    </message>
+</context>
+<context>
     <name>QGeoTileFetcherNokia</name>
     <message>
         <source>Mapping manager no longer exists</source>
         <translation>Менеджер карт більше не існує</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoTiledMapOsm</name>
+    <message>
+        <source>Tiles Courtesy of &lt;a href=&apos;http://www.mapquest.com/&apos;&gt;MapQuest&lt;/a&gt;&lt;br/&gt;Data &amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt; contributors</source>
+        <translation>Тайли надано &lt;a href=&apos;http://www.mapquest.com/&apos;&gt;MapQuest&lt;/a&gt;&lt;br/&gt;Дані авторів &amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <source>Maps &amp;copy; &lt;a href=&apos;http://www.thunderforest.com/&apos;&gt;Thunderforest&lt;/a&gt;&lt;br/&gt;Data &amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt; contributors</source>
+        <translation>Карти &amp;copy; &lt;a href=&apos;http://www.thunderforest.com/&apos;&gt;Thunderforest&lt;/a&gt;&lt;br/&gt;Дані авторів &amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <source>&amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt; contributors</source>
+        <translation>авторів&amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt;</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoTiledMappingManagerEngineMapbox</name>
+    <message>
+        <source>Custom</source>
+        <translation>Користувацька</translation>
+    </message>
+    <message>
+        <source>Mapbox custom map</source>
+        <translation>Користувацька карта Mapbox</translation>
     </message>
 </context>
 <context>
@@ -369,8 +404,64 @@
         <translation>Карта вулиць</translation>
     </message>
     <message>
+        <source>Street map view in daylight mode</source>
+        <translation>Перегляд карти вулиць в денному режимі</translation>
+    </message>
+    <message>
+        <source>Satellite map view in daylight mode</source>
+        <translation>Перегляд супутникової карти в режимі денного світла</translation>
+    </message>
+    <message>
+        <source>Cycle Map</source>
+        <translation>Карта для велосипеду</translation>
+    </message>
+    <message>
+        <source>Cycle map view in daylight mode</source>
+        <translation>Перегляд карти для велосипеду в денному режимі</translation>
+    </message>
+    <message>
+        <source>Transit Map</source>
+        <translation>Транзитна карта</translation>
+    </message>
+    <message>
+        <source>Public transit map view in daylight mode</source>
+        <translation>Перегляд публічної транзитної карти в денному режимі</translation>
+    </message>
+    <message>
+        <source>Night Transit Map</source>
+        <translation>Нічна транзитна карта</translation>
+    </message>
+    <message>
+        <source>Public transit map view in night mode</source>
+        <translation>Перегляд публічної транзитної карти в нічному режимі</translation>
+    </message>
+    <message>
+        <source>Terrain Map</source>
+        <translation>Карта місцевості</translation>
+    </message>
+    <message>
+        <source>Terrain map view</source>
+        <translation>Перегляд карти місцевості</translation>
+    </message>
+    <message>
+        <source>Hiking Map</source>
+        <translation>Туристична карта</translation>
+    </message>
+    <message>
+        <source>Hiking map view</source>
+        <translation>Перегляд туристичної карти</translation>
+    </message>
+    <message>
+        <source>Custom URL Map</source>
+        <translation>URL до карти користувача</translation>
+    </message>
+    <message>
+        <source>Custom url map view set via urlprefix parameter</source>
+        <translation>URL до карти користувача, вказаний через параметр urlprefix</translation>
+    </message>
+    <message>
         <source>OpenStreetMap street map</source>
-        <translation>Карта вулиць OpenStreetMap</translation>
+        <translation type="vanished">Карта вулиць OpenStreetMap</translation>
     </message>
     <message>
         <source>Satellite Map</source>
@@ -378,7 +469,81 @@
     </message>
     <message>
         <source>OpenStreetMap satellite map</source>
-        <translation>Супутникова карта OpenStreetMap</translation>
+        <translation type="vanished">Супутникова карта OpenStreetMap</translation>
+    </message>
+</context>
+<context>
+    <name>QPlaceManagerEngineOsm</name>
+    <message>
+        <source>Aeroway</source>
+        <translation>Авіамаршрут</translation>
+    </message>
+    <message>
+        <source>Amenity</source>
+        <translation>Зручності</translation>
+    </message>
+    <message>
+        <source>Building</source>
+        <translation>Будівля</translation>
+    </message>
+    <message>
+        <source>Highway</source>
+        <translation>Шосе</translation>
+    </message>
+    <message>
+        <source>Historic</source>
+        <translation>Історичне</translation>
+    </message>
+    <message>
+        <source>Land use</source>
+        <translation>Земельна ділянка</translation>
+    </message>
+    <message>
+        <source>Leisure</source>
+        <translation>Дозвілля</translation>
+    </message>
+    <message>
+        <source>Man made</source>
+        <translation>Створено людиною</translation>
+    </message>
+    <message>
+        <source>Natural</source>
+        <translation>Природнє</translation>
+    </message>
+    <message>
+        <source>Place</source>
+        <translation>Місце</translation>
+    </message>
+    <message>
+        <source>Railway</source>
+        <translation>Залізниця</translation>
+    </message>
+    <message>
+        <source>Shop</source>
+        <translation>Крамниця</translation>
+    </message>
+    <message>
+        <source>Tourism</source>
+        <translation>Туризм</translation>
+    </message>
+    <message>
+        <source>Waterway</source>
+        <translation>Водний шлях</translation>
+    </message>
+    <message>
+        <source>Network request error</source>
+        <translation>Помилка запиту до мережі</translation>
+    </message>
+</context>
+<context>
+    <name>QPlaceSearchReplyOsm</name>
+    <message>
+        <source>Communication error</source>
+        <translation>Помилка зв&apos;язку</translation>
+    </message>
+    <message>
+        <source>Response parse error</source>
+        <translation>Помилка розбору відповіді</translation>
     </message>
 </context>
 <context>

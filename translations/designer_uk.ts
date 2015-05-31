@@ -1658,7 +1658,7 @@ Would you like to retry?</source>
     </message>
     <message>
         <source>Not loaded due to potential symbol clashes (QTCREATORBUG-10273)</source>
-        <translation>Не завантажено через можливий конфлікт сиволів (QTCREATORBUG-10273)</translation>
+        <translation type="vanished">Не завантажено через можливий конфлікт сиволів (QTCREATORBUG-10273)</translation>
     </message>
 </context>
 <context>
@@ -3170,8 +3170,12 @@ Do you want overwrite the template?</source>
         <translation>&lt;br/&gt;Qt Designer - це дизайнер графічного інтерфейсу користувача для програм Qt.&lt;br/&gt;</translation>
     </message>
     <message>
+        <source>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</source>
+        <translation>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</translation>
+    </message>
+    <message>
         <source>%1&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd.</source>
-        <translation>%1&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd та/або її дочірні компанії.</translation>
+        <translation type="vanished">%1&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd та/або її дочірні компанії.</translation>
     </message>
 </context>
 <context>

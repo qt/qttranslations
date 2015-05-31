@@ -78,8 +78,20 @@
         <translation>Скасувати</translation>
     </message>
     <message>
+        <source>Choose</source>
+        <translation>Вибір</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Відкрити</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Зберегти</translation>
+    </message>
+    <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation type="vanished">OK</translation>
     </message>
 </context>
 <context>
@@ -115,6 +127,42 @@
     <message>
         <source>Font Family</source>
         <translation>Родина шрифтів</translation>
+    </message>
+    <message>
+        <source>Thin</source>
+        <translation>Тонкий</translation>
+    </message>
+    <message>
+        <source>ExtraLight</source>
+        <translation>Надлегкий</translation>
+    </message>
+    <message>
+        <source>Light</source>
+        <translation>Легкий</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Нормальний</translation>
+    </message>
+    <message>
+        <source>Medium</source>
+        <translation>Середні</translation>
+    </message>
+    <message>
+        <source>DemiBold</source>
+        <translation>Напівжирний</translation>
+    </message>
+    <message>
+        <source>Bold</source>
+        <translation>Жирний</translation>
+    </message>
+    <message>
+        <source>ExtraBold</source>
+        <translation>Наджирний</translation>
+    </message>
+    <message>
+        <source>Black</source>
+        <translation>Чорний</translation>
     </message>
     <message>
         <source>Underline</source>
@@ -218,6 +266,68 @@
     <message>
         <source>Hide Details</source>
         <translation>Сховати деталі</translation>
+    </message>
+</context>
+<context>
+    <name>EditMenu_base</name>
+    <message>
+        <source>&amp;Undo</source>
+        <translation>&amp;Повернути</translation>
+    </message>
+    <message>
+        <source>&amp;Redo</source>
+        <translation>П&amp;овторити</translation>
+    </message>
+    <message>
+        <source>Cu&amp;t</source>
+        <translation>Ви&amp;різати</translation>
+    </message>
+    <message>
+        <source>&amp;Copy</source>
+        <translation>&amp;Копіювати</translation>
+    </message>
+    <message>
+        <source>&amp;Paste</source>
+        <translation>&amp;Вставити</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Видалити</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Очистити</translation>
+    </message>
+    <message>
+        <source>Select All</source>
+        <translation>Вибрати все</translation>
+    </message>
+</context>
+<context>
+    <name>EditMenu_ios</name>
+    <message>
+        <source>Cut</source>
+        <translation>Вирізати</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>Копіювати</translation>
+    </message>
+    <message>
+        <source>Paste</source>
+        <translation>Вставити</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Видалити</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Вибрати</translation>
+    </message>
+    <message>
+        <source>Select All</source>
+        <translation>Вибрати все</translation>
     </message>
 </context>
 </TS>
