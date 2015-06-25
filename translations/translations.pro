@@ -1,7 +1,5 @@
 TEMPLATE = aux
 
-TRANSLATIONS = $$files(*.ts)
-
 load(qt_build_paths)
 
 qtPrepareTool(LRELEASE, lrelease)
@@ -26,6 +24,8 @@ defineTest(addTsTarget) {
     export(TS_TARGETS)
 }
 
+TS_MODULES =
+
 # target basename, project files
 defineTest(addTsTargets) {
     files = $$files($$PWD/$${1}_??.ts) $$files($$PWD/$${1}_??_??.ts)
@@ -35,6 +35,8 @@ defineTest(addTsTargets) {
     }
     addTsTarget(ts-untranslated, ts-$$1-untranslated, $$2, $$PWD/$${1}_untranslated.ts)
     addTsTarget(ts-all, ts-$$1-all, $$2, $$PWD/$${1}_untranslated.ts $$files)
+    TS_MODULES += $$1
+    export(TS_MODULES)
 }
 
 addTsTargets(qtbase, qtbase/src/src.pro \
@@ -104,6 +106,16 @@ silent:updateqm.commands = @echo lrelease ${QMAKE_FILE_IN} && $$updateqm.command
 updateqm.name = LRELEASE ${QMAKE_FILE_IN}
 updateqm.CONFIG += no_link target_predeps
 QMAKE_EXTRA_COMPILERS += updateqm
+
+# generate empty _en.ts files
+empty_ts = "<TS></TS>"
+for (module_name, TS_MODULES) {
+    write_file($$OUT_PWD/$${module_name}_en.ts, empty_ts)|error("Aborting.")
+}
+write_file($$OUT_PWD/qt_en.ts, empty_ts)|error("Aborting.")
+
+TRANSLATIONS = $$files(*.ts)
+!isEqual(OUT_PWD, $$PWD): TRANSLATIONS += $$files($$OUT_PWD/*.ts)
 
 translations.path = $$[QT_INSTALL_TRANSLATIONS]
 translations.files = $$TRANSLATIONS
