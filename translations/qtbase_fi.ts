@@ -116,6 +116,30 @@
         <translation>Vaihda</translation>
     </message>
     <message>
+        <source>Scroll Left</source>
+        <translation>Vieritä vasemmalle</translation>
+    </message>
+    <message>
+        <source>Scroll Right</source>
+        <translation>Vieritä oikealle</translation>
+    </message>
+    <message>
+        <source>Scroll Up</source>
+        <translation>Vieritä ylös</translation>
+    </message>
+    <message>
+        <source>Scroll Down</source>
+        <translation>Vieritä alas</translation>
+    </message>
+    <message>
+        <source>Previous Page</source>
+        <translation>Edellinen sivu</translation>
+    </message>
+    <message>
+        <source>Next Page</source>
+        <translation>Seuraava sivu</translation>
+    </message>
+    <message>
         <source>Triggers the action</source>
         <translation>Käynnistää toiminnon</translation>
     </message>
@@ -138,6 +162,30 @@
     <message>
         <source>Toggles the state</source>
         <translation>Vaihtaa tilaa</translation>
+    </message>
+    <message>
+        <source>Scrolls to the left</source>
+        <translation>Vierittää vasemmalle</translation>
+    </message>
+    <message>
+        <source>Scrolls to the right</source>
+        <translation>Vierittää oikealle</translation>
+    </message>
+    <message>
+        <source>Scrolls up</source>
+        <translation>Vierittää ylös</translation>
+    </message>
+    <message>
+        <source>Scrolls down</source>
+        <translation>Vierittää alas</translation>
+    </message>
+    <message>
+        <source>Goes back a page</source>
+        <translation>Siirtyy sivun taaksepäin</translation>
+    </message>
+    <message>
+        <source>Goes to the next page</source>
+        <translation>Siirtyy seuraavalle sivulle</translation>
     </message>
 </context>
 <context>
@@ -267,18 +315,18 @@
         <translation>&amp;HTML:</translation>
     </message>
     <message>
-        <source>Cursor at %1, %2, color: %3
+        <source>Cursor at %1, %2
 Press ESC to cancel</source>
-        <translation>Osoitin kohdassa %1, %2, väri: %3
+        <translation>Osoitin kohdassa %1, %2
 Peru painamalla ESC</translation>
+    </message>
+    <message>
+        <source>&amp;Pick Screen Color</source>
+        <translation>Valitse väri &amp;näytöltä</translation>
     </message>
     <message>
         <source>Select Color</source>
         <translation>Valitse väri</translation>
-    </message>
-    <message>
-        <source>Pick Screen Color</source>
-        <translation>Valitse väri näytöltä</translation>
     </message>
     <message>
         <source>&amp;Basic colors</source>
@@ -517,6 +565,13 @@ Peru painamalla ESC</translation>
     <message>
         <source>Unable to fetch first</source>
         <translation>Ensimmäisen noutaminen epäonnistui</translation>
+    </message>
+</context>
+<context>
+    <name>QDBusTrayIcon</name>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
     </message>
 </context>
 <context>
@@ -1098,11 +1153,39 @@ Haluatko silti poistaa sen?</translation>
     </message>
     <message>
         <source>Demi</source>
+        <extracomment>The word for &quot;Demi&quot; as in &quot;Demi Bold&quot; used as a pattern for string searches</extracomment>
         <translation>Puoli</translation>
     </message>
     <message>
         <source>Light</source>
         <translation>Ohut</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <comment>The Normal or Regular font weight</comment>
+        <translation>Normaali</translation>
+    </message>
+    <message>
+        <source>Medium</source>
+        <comment>The Medium font weight</comment>
+        <translation>Lievästi lihava</translation>
+    </message>
+    <message>
+        <source>Thin</source>
+        <translation>Ohuin</translation>
+    </message>
+    <message>
+        <source>Extra Light</source>
+        <translation>Erittäin ohut</translation>
+    </message>
+    <message>
+        <source>Extra Bold</source>
+        <translation>Erittäin lihava</translation>
+    </message>
+    <message>
+        <source>Extra</source>
+        <extracomment>The word for &quot;Extra&quot; as in &quot;Extra Bold, Extra Thin&quot; used as a pattern for string searches</extracomment>
+        <translation>Erittäin</translation>
     </message>
     <message>
         <source>Italic</source>
@@ -1856,7 +1939,7 @@ Haluatko silti poistaa sen?</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>&amp;Leikkaa</translation>
+        <translation>L&amp;eikkaa</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -1864,7 +1947,7 @@ Haluatko silti poistaa sen?</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>L&amp;iitä</translation>
+        <translation>&amp;Liitä</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -2128,27 +2211,22 @@ Haluatko silti poistaa sen?</translation>
         <translation>&lt;h3&gt;Tietoja Qt:stä&lt;/h3&gt;&lt;p&gt;Tämä ohjelma käyttää Qt-versiota %1.&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.io/licensing/&quot;&gt;qt.io/licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is developed as an open source project on &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.io/&quot;&gt;qt.io&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3 or GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Qt on C++-työkalupaketti alustariippumattomaan sovelluskehitykseen.&lt;/p&gt;
 &lt;p&gt;Qt tarjoaa saman lähdekoodin siirrettävyyden kaikkiin merkittäviin työpöytäkäyttöjärjestelmiin.
 Qt on myös saatavilla sulautetulle Linuxille ja muille mobiili- sekä sulautetuille käyttöjärjestelmille.&lt;/p&gt;
 &lt;p&gt;Qt on saatavilla kolmella eri lisenssillä, jotka on tarkoitettu vastaamaan erilaisten käyttäjien tarpeisiin.&lt;/p&gt;
 &lt;p&gt;Kaupallisen lisenssisopimuksen ehtojen mukaisesti lisensoitu Qt sopii omisteisen tai kaupallisen ohjelmiston
 kehittämiseen silloin, kun lähdekoodia ei haluta jakaa kolmansille osapuolille tai ei voida muuten noudattaa
-GNU LGPL 2.1:n tai GNU GPL 3.0:n ehtoja.&lt;/p&gt;
+GNU LGPL 3:n tai GNU LGPL 2.1:n ehtoja.&lt;/p&gt;
+&lt;p&gt;GNU LGPL 3:n ehtojen mukaisesti lisensoitu Qt sopii Qt-sovellusten kehittämiseen silloin,
+kun GNU LGPL 3:n ehtoja voidaan noudattaa.&lt;/p&gt;
 &lt;p&gt;GNU LGPL 2.1:n ehtojen mukaisesti lisensoitu Qt sopii Qt-sovellusten kehittämiseen silloin,
 kun GNU LGPL 2.1:n ehtoja voidaan noudattaa.&lt;/p&gt;
-&lt;p&gt;GNU General Public License 3.0:n ehtojen mukaisesti lisensoitu Qt 
-sopii sellaisten Qt-sovellusten kehittämiseen, joita halutaan yhdistää GNU GPL 3.0:n ehtoja noudattavan ohjelmiston kanssa tai joissa muuten halutaan noudattaa GNU 
-GPL 3.0:n ehtoja.&lt;/p&gt;
-&lt;p&gt;Katso yhteenveto Qt-lisensoinnista osoitteesta &lt;a 
-href=&quot;http://qt.io/licensing&quot;&gt;
-qt.io/licensing&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Copyright © 2015 The Qt Company Ltd ja/tai sen tytäryhtiö(t) ja muut avustajat.&lt;/p&gt;
-&lt;p&gt;Qt ja Qt-logo ovat Digia Plc:n ja/tai sen tytäryhtiö(ide)n tavaramerkkejä.&lt;/p&gt;
-&lt;p&gt;Qt:ta kehitetään avoimen lähdekoodin projektina osoitteessa &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Qt on Digia-tuote. Katso lisätietoja osoitteesta &lt;a 
-href=&quot;http://qt.io/&quot;&gt;qt.io&lt;/a&gt;.&lt;/p&gt;</translation>
+&lt;p&gt;Katso yhteenveto Qt-lisensoinnista osoitteesta &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Copyright © %1 The Qt Company Ltd ja/tai sen tytäryhtiö(t) ja muut avustajat.&lt;/p&gt;
+&lt;p&gt;Qt ja Qt-logo ovat The Qt Company Ltd:n ja/tai sen tytäryhtiö(ide)n tavaramerkkejä.&lt;/p&gt;
+&lt;p&gt;Qt on The Qt Company Ltd -tuote, jota kehitetään avoimen lähdekoodin projektina. Katso lisätietoja osoitteesta &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt;.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About Qt</source>
@@ -3664,6 +3742,10 @@ Poista toinen niistä käytöstä.</translation>
         <translation>Prosessi kaatui</translation>
     </message>
     <message>
+        <source>Process failed to start (spawned process exited with code 127)</source>
+        <translation>Prosessin käynnistyminen epäonnistui (luotu prosessi päättyi koodilla 127)</translation>
+    </message>
+    <message>
         <source>No program defined</source>
         <translation>Ohjelmaa ei ole määritetty</translation>
     </message>
@@ -3700,14 +3782,6 @@ Poista toinen niistä käytöstä.</translation>
     <message>
         <source>All files (*.*)</source>
         <translation>Kaikki tiedostot (*.*)</translation>
-    </message>
-    <message>
-        <source>CANCEL</source>
-        <translation>PERU</translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation>OK</translation>
     </message>
 </context>
 <context>
@@ -4098,6 +4172,10 @@ Poista toinen niistä käytöstä.</translation>
         <source>parentheses are too deeply nested (stack check)</source>
         <translation>liian paljon sisäkkäisiä sulkeita (pinotarkistus)</translation>
     </message>
+    <message>
+        <source>digits missing in \x{} or \o{}</source>
+        <translation>numerot puuttuvat merkinnästä \x{} tai \o{}</translation>
+    </message>
 </context>
 <context>
     <name>QSQLite2Driver</name>
@@ -4294,6 +4372,10 @@ Poista toinen niistä käytöstä.</translation>
     <message>
         <source>%1: key is empty</source>
         <translation>%1: avain on tyhjä</translation>
+    </message>
+    <message>
+        <source>%1: bad name</source>
+        <translation>%1: virheellinen nimi</translation>
     </message>
     <message>
         <source>%1: UNIX key file doesn&apos;t exist</source>
@@ -5285,6 +5367,18 @@ Poista toinen niistä käytöstä.</translation>
         <translation>Poistu</translation>
     </message>
     <message>
+        <source>Touchpad Toggle</source>
+        <translation>Kosketuslevy päälle/pois</translation>
+    </message>
+    <message>
+        <source>Touchpad On</source>
+        <translation>Kosketuslevy päälle</translation>
+    </message>
+    <message>
+        <source>Touchpad Off</source>
+        <translation>Kosketuslevy pois</translation>
+    </message>
+    <message>
         <source>Ctrl</source>
         <translation>Ctrl</translation>
     </message>
@@ -5735,6 +5829,10 @@ Role of an accessible object</extracomment>
 <context>
     <name>QSslSocket</name>
     <message>
+        <source>Error when setting the elliptic curves (%1)</source>
+        <translation>Virhe asetettaessa elliptisiä käyriä (%1)</translation>
+    </message>
+    <message>
         <source>Error creating SSL context (%1)</source>
         <translation>Virhe luotaessa SSL-kontekstia (%1)</translation>
     </message>
@@ -5761,6 +5859,10 @@ Role of an accessible object</extracomment>
     <message>
         <source>Private key does not certify public key, %1</source>
         <translation>Yksityinen avain ei varmenna julkista avainta, %1</translation>
+    </message>
+    <message>
+        <source>OpenSSL version too old, need at least v1.0.2</source>
+        <translation>OpenSSL-versio on liian vanha; tarvitaan vähintään v1.0.2</translation>
     </message>
     <message>
         <source>No error</source>
@@ -5932,6 +6034,10 @@ Role of an accessible object</extracomment>
     <message>
         <source>Application Data</source>
         <translation>Sovellusten data</translation>
+    </message>
+    <message>
+        <source>Application Configuration</source>
+        <translation>Sovellusten asetukset</translation>
     </message>
     <message>
         <source>Cache</source>
@@ -6214,7 +6320,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>&amp;Leikkaa</translation>
+        <translation>L&amp;eikkaa</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -6226,7 +6332,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>L&amp;iitä</translation>
+        <translation>&amp;Liitä</translation>
     </message>
     <message>
         <source>Delete</source>

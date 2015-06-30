@@ -1341,6 +1341,10 @@
         <translation>Неправильне присвоєння властивості: очікувались число або масив чисел</translation>
     </message>
     <message>
+        <source>Cannot assign object to list property &quot;%1&quot;</source>
+        <translation>Неможливо призначити об’єкт до властивості-списку &quot;%1&quot;</translation>
+    </message>
+    <message>
         <source>Invalid property assignment: real or array of reals expected</source>
         <translation type="vanished">Неправильне присвоєння властивості: очікувались дійсне число або масив дійсних чисел</translation>
     </message>
@@ -1370,7 +1374,7 @@
     </message>
     <message>
         <source>Cannot assign object to list</source>
-        <translation>Неможливо призначити об&apos;єкт списку</translation>
+        <translation type="vanished">Неможливо призначити об&apos;єкт списку</translation>
     </message>
     <message>
         <source>Unexpected object assignment</source>

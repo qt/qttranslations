@@ -496,6 +496,10 @@
 <context>
     <name>QMediaPlayer</name>
     <message>
+        <source>Attempting to play invalid Qt resource</source>
+        <translation>S&apos;intenta reproduir un recurs de Qt no vàlid</translation>
+    </message>
+    <message>
         <source>The QMediaPlayer object does not have a valid service</source>
         <translation>L&apos;objecte «QMediaPlayer» no té un servei vàlid</translation>
     </message>
@@ -548,6 +552,21 @@
     <message>
         <source>CameraViewfinder is provided by Camera</source>
         <translation>El visor és proporcionat per la càmera</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>%1 playlist type is unknown</source>
+        <translation>El tipus %1 per a llistes de reproducció és desconegut</translation>
+    </message>
+    <message>
+        <source>invalid line in playlist file</source>
+        <translation>línia no vàlida al fitxer de la llista de reproducció</translation>
+    </message>
+    <message>
+        <source>Empty file provided</source>
+        <translation>S&apos;ha proporcionat un fitxer buit</translation>
     </message>
 </context>
 <context>

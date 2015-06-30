@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE">
+<TS version="2.1" language="fi">
 <context>
     <name>DefaultColorDialog</name>
     <message>
         <source>Hue</source>
-        <translation>Farbton</translation>
+        <translation>Sävy</translation>
     </message>
     <message>
         <source>Saturation</source>
-        <translation>Sättigung</translation>
+        <translation>Kylläisyys</translation>
     </message>
     <message>
         <source>Luminosity</source>
-        <translation>Helligkeit</translation>
+        <translation>Valoisuus</translation>
     </message>
     <message>
         <source>Alpha</source>
-        <translation>Alpha</translation>
+        <translation>Alfa</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Abbrechen</translation>
+        <translation>Peru</translation>
     </message>
     <message>
         <source>OK</source>
@@ -32,113 +32,113 @@
     <name>DefaultDialogWrapper</name>
     <message>
         <source>Show Details...</source>
-        <translation>Details anzeigen...</translation>
+        <translation>Näytä yksityiskohdat…</translation>
     </message>
 </context>
 <context>
     <name>DefaultFileDialog</name>
     <message>
         <source>Go up to the folder containing this one</source>
-        <translation>Gehe nach oben zum Ordner, der diesen enthält</translation>
+        <translation>Siirry ylös kansioon, joka sisältää tämän kansion</translation>
     </message>
     <message>
         <source>Remove favorite</source>
-        <translation>Favoriten löschen</translation>
+        <translation>Poista suosikki</translation>
     </message>
     <message>
         <source>Add the current directory as a favorite</source>
-        <translation>Aktuellen Ordner als Favoriten hinzufügen</translation>
+        <translation>Lisää nykyinen kansio suosikiksi</translation>
     </message>
     <message>
         <source>Filename</source>
-        <translation>Dateiname</translation>
+        <translation>Tiedostonimi</translation>
     </message>
     <message>
         <source>Type</source>
         <comment>file type (extension)</comment>
-        <translation>Typ</translation>
+        <translation>Tyyppi</translation>
     </message>
     <message>
         <source>Size</source>
         <comment>file size</comment>
-        <translation>Größe</translation>
+        <translation>Koko</translation>
     </message>
     <message>
         <source>Modified</source>
         <comment>last-modified time</comment>
-        <translation>Letzte Änderung</translation>
+        <translation>Muutettu</translation>
     </message>
     <message>
         <source>Accessed</source>
         <comment>last-accessed time</comment>
-        <translation>Letzter Zugriff</translation>
+        <translation>Käytetty</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Abbrechen</translation>
-    </message>
-    <message>
-        <source>Open</source>
-        <translation>Öffnen</translation>
-    </message>
-    <message>
-        <source>Save</source>
-        <translation>Speichern</translation>
+        <translation>Peru</translation>
     </message>
     <message>
         <source>Choose</source>
-        <translation>Auswählen</translation>
+        <translation>Valitse</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Avaa</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Tallenna</translation>
     </message>
 </context>
 <context>
     <name>DefaultFontDialog</name>
     <message>
-        <source>Writing System</source>
-        <translation>Schriftsystem</translation>
-    </message>
-    <message>
         <source>Font</source>
-        <translation>Schriftart</translation>
+        <translation>Fontti</translation>
     </message>
     <message>
         <source>Weight</source>
-        <translation>Dicke</translation>
+        <translation>Lihavuus</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Größe</translation>
+        <translation>Koko</translation>
     </message>
     <message>
         <source>Font Family</source>
-        <translation>Schriftfamilie</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Kursiv</translation>
-    </message>
-    <message>
-        <source>Underline</source>
-        <translation>Unterstrichen</translation>
-    </message>
-    <message>
-        <source>Overline</source>
-        <translation>Überstrichen</translation>
-    </message>
-    <message>
-        <source>Strikeout</source>
-        <translation>Durchgestrichen</translation>
-    </message>
-    <message>
-        <source>Sample</source>
-        <translation>Beispiel</translation>
+        <translation>Fonttiperhe</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation>Schriftstil</translation>
+        <translation>Tyyli</translation>
+    </message>
+    <message>
+        <source>Italic</source>
+        <translation>Kursivoitu</translation>
+    </message>
+    <message>
+        <source>Underline</source>
+        <translation>Alleviivattu</translation>
+    </message>
+    <message>
+        <source>Overline</source>
+        <translation>Ylleviivattu</translation>
+    </message>
+    <message>
+        <source>Strikeout</source>
+        <translation>Yliviivattu</translation>
+    </message>
+    <message>
+        <source>Writing System</source>
+        <translation>Kirjoitusjärjestelmä</translation>
+    </message>
+    <message>
+        <source>Sample</source>
+        <translation>Näyte</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Abbrechen</translation>
+        <translation>Peru</translation>
     </message>
     <message>
         <source>OK</source>
@@ -153,141 +153,142 @@
     </message>
     <message>
         <source>Open</source>
-        <translation>Öffnen</translation>
+        <translation>Avaa</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Speichern</translation>
+        <translation>Tallenna</translation>
     </message>
     <message>
         <source>Save All</source>
-        <translation>Alles Speichern</translation>
+        <translation>Tallenna kaikki</translation>
     </message>
     <message>
         <source>Retry</source>
-        <translation>Wiederholen</translation>
+        <translation>Yritä uudelleen</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation>Ignorieren</translation>
+        <translation>Ohita</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation>Anwenden</translation>
+        <translation>Käytä</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Ja</translation>
+        <translation>Kyllä</translation>
     </message>
     <message>
         <source>Yes to All</source>
-        <translation>Ja, alle</translation>
+        <translation>Kyllä kaikkiin</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Nein</translation>
+        <translation>Ei</translation>
     </message>
     <message>
         <source>No to All</source>
-        <translation>Nein, keine</translation>
+        <translation>Ei kaikkiin</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>Verwerfen</translation>
+        <translation>Hylkää</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Zurücksetzen</translation>
+        <translation>Palauta</translation>
     </message>
     <message>
         <source>Restore Defaults</source>
-        <translation>Voreinstellungen</translation>
+        <translation>Palauta oletukset</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Abbrechen</translation>
+        <translation>Peru</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation>Abbrechen</translation>
+        <translation>Keskeytä</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Schließen</translation>
+        <translation>Sulje</translation>
     </message>
     <message>
         <source>Show Details...</source>
-        <translation>Details anzeigen...</translation>
+        <translation>Näytä yksityiskohdat…</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Hilfe</translation>
+        <translation>Ohje</translation>
     </message>
     <message>
         <source>Hide Details</source>
-        <translation>Details verbergen</translation>
+        <translation>Piilota yksityiskohdat</translation>
     </message>
 </context>
 <context>
     <name>EditMenu_base</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;Rückgängig</translation>
+        <translation>&amp;Kumoa</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>Wieder&amp;herstellen</translation>
+        <translation>&amp;Tee uudelleen</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>&amp;Ausschneiden</translation>
+        <translation>L&amp;eikkaa</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Kopieren</translation>
+        <translation>K&amp;opioi</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>Einf&amp;ügen</translation>
+        <translation>&amp;Liitä</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Löschen</translation>
+        <translation>Poista</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Alles löschen</translation>
+        <translation>Tyhjennä</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Alles auswählen</translation>
+        <translation>Valitse kaikki</translation>
     </message>
 </context>
 <context>
     <name>EditMenu_ios</name>
     <message>
         <source>Cut</source>
-        <translation>Ausschneiden</translation>
+        <translation>Leikkaa</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Kopieren</translation>
+        <translation>Kopioi</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>Einsetzen</translation>
+        <translatorcomment>Apple uses a different Finnish translation for paste.</translatorcomment>
+        <translation>Sijoita</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Löschen</translation>
+        <translation>Poista</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation>Auswählen</translation>
+        <translation>Valitse</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Alles</translation>
+        <translation>Valitse kaikki</translation>
     </message>
 </context>
 </TS>

@@ -274,21 +274,6 @@
     </message>
 </context>
 <context>
-    <name>PLSParser</name>
-    <message>
-        <source>Error parsing playlist: %1, expected count = %2</source>
-        <translation>Fehler beim Auswerten der Abspielliste %1, erwartete Anzahl = %2</translation>
-    </message>
-    <message>
-        <source>Error parsing playlist at line[%1], expected version = 2</source>
-        <translation>Fehler beim Auswerten der Abspielliste bei Zeile [%1], erwartete Version = 2</translation>
-    </message>
-    <message>
-        <source>Error parsing playlist at line[%1]:%2</source>
-        <translation>Fehler beim Auswerten der Abspielliste bei Zeile [%1]:%2</translation>
-    </message>
-</context>
-<context>
     <name>QAndroidAudioEncoderSettingsControl</name>
     <message>
         <source>Adaptive Multi-Rate Narrowband (AMR-NB) audio codec</source>
@@ -448,10 +433,6 @@
 <context>
     <name>QGstreamerPlayerControl</name>
     <message>
-        <source>Attempting to play invalid Qt resource</source>
-        <translation>Es wurde versucht, eine ungültige Qt-Ressource abzuspielen</translation>
-    </message>
-    <message>
         <source>Attempting to play invalid user stream</source>
         <translation>Es wurde versucht, einen ungültigen Nutzer-Datenstrom abzuspielen</translation>
     </message>
@@ -495,6 +476,10 @@
 </context>
 <context>
     <name>QMediaPlayer</name>
+    <message>
+        <source>Attempting to play invalid Qt resource</source>
+        <translation>Es wurde versucht, eine ungültige Qt-Ressource abzuspielen</translation>
+    </message>
     <message>
         <source>The QMediaPlayer object does not have a valid service</source>
         <translation>Das QMediaPlayer-Objekt hat keinen gültigen Dienst</translation>

@@ -900,8 +900,8 @@
         <translation>«%1» не может воздействовать на «%2»</translation>
     </message>
     <message>
-        <source>Cannot assign object to list</source>
-        <translation>Невозможно назначить объект списку</translation>
+        <source>Cannot assign object to list property &quot;%1&quot;</source>
+        <translation>Невозможно назначить объект свойству «%1» списка</translation>
     </message>
     <message>
         <source>Unexpected object assignment</source>
@@ -1310,10 +1310,6 @@ Install a driver providing OpenGL 2.0 or higher, or, if this is not possible, ma
         <source>Failed to create %1 context for format %2</source>
         <extracomment>%1 Context type (Open GL, EGL), %2 format specification</extracomment>
         <translation>Не удалось создать контекст %1 для формата %2</translation>
-    </message>
-    <message>
-        <source>Window is available via attached properties</source>
-        <translation>Window доступно только через подключаемые свойства</translation>
     </message>
 </context>
 <context>

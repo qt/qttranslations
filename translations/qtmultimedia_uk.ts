@@ -483,7 +483,7 @@
     <name>QGstreamerPlayerControl</name>
     <message>
         <source>Attempting to play invalid Qt resource</source>
-        <translation>Спроба відтворити неправильний ресурс Qt</translation>
+        <translation type="vanished">Спроба відтворити неправильний ресурс Qt</translation>
     </message>
     <message>
         <source>Attempting to play invalid user stream</source>
@@ -529,6 +529,10 @@
 </context>
 <context>
     <name>QMediaPlayer</name>
+    <message>
+        <source>Attempting to play invalid Qt resource</source>
+        <translation>Спроба відтворити неправильний ресурс Qt</translation>
+    </message>
     <message>
         <source>The QMediaPlayer object does not have a valid service</source>
         <translation>Об&apos;єкт QMediaPlayer не має правильного сервісу</translation>
@@ -585,14 +589,7 @@
     </message>
 </context>
 <context>
-    <name>QPlaylistFileParser</name>
-    <message>
-        <source>%1 does not exist</source>
-        <translation>%1 не існує</translation>
-    </message>
-</context>
-<context>
-    <name>QPlaylistFileParserPrivate</name>
+    <name>QObject</name>
     <message>
         <source>%1 playlist type is unknown</source>
         <translation>Невідомий тип списку відтворення %1</translation>
@@ -604,6 +601,28 @@
     <message>
         <source>Empty file provided</source>
         <translation>Надано порожній файл</translation>
+    </message>
+</context>
+<context>
+    <name>QPlaylistFileParser</name>
+    <message>
+        <source>%1 does not exist</source>
+        <translation>%1 не існує</translation>
+    </message>
+</context>
+<context>
+    <name>QPlaylistFileParserPrivate</name>
+    <message>
+        <source>%1 playlist type is unknown</source>
+        <translation type="vanished">Невідомий тип списку відтворення %1</translation>
+    </message>
+    <message>
+        <source>invalid line in playlist file</source>
+        <translation type="vanished">неправильний рядок в файлі списку відтворення</translation>
+    </message>
+    <message>
+        <source>Empty file provided</source>
+        <translation type="vanished">Надано порожній файл</translation>
     </message>
 </context>
 <context>

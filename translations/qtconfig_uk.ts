@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="uk_UA">
+<TS version="2.1" language="uk_UA">
 <context>
     <name>MainWindow</name>
     <message>
@@ -102,10 +102,6 @@
     <message>
         <source>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;Version %2&lt;br/&gt;&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd.</source>
         <translation>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;Версія %2&lt;br/&gt;&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd та/або її дочірні компанії.</translation>
-    </message>
-    <message>
-        <source>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;Version %2&lt;br/&gt;&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd.</source>
-        <translation type="obsolete">&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;Версія %2&lt;br/&gt;&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd та/або її дочірні компанії.</translation>
     </message>
     <message>
         <source>Over The Spot</source>

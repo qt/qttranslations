@@ -900,8 +900,8 @@
         <translation>&quot;%1&quot; kann nicht auf  &quot;%2&quot; angewandt werden</translation>
     </message>
     <message>
-        <source>Cannot assign object to list</source>
-        <translation>Zuweisung eines Objekts an eine Liste nicht zulässig</translation>
+        <source>Cannot assign object to list property &quot;%1&quot;</source>
+        <translation>Der Listeneigenschaft &quot;%1&quot; kann kein Objekt zugewiesen werden</translation>
     </message>
     <message>
         <source>Unexpected object assignment</source>

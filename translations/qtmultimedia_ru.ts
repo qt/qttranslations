@@ -274,21 +274,6 @@
     </message>
 </context>
 <context>
-    <name>PLSParser</name>
-    <message>
-        <source>Error parsing playlist: %1, expected count = %2</source>
-        <translation>Ошибка разбора списка воспроизведения: %1, ожидается count = %2</translation>
-    </message>
-    <message>
-        <source>Error parsing playlist at line[%1], expected version = 2</source>
-        <translation>Ошибка разора списка воспроизведения в строке %1, ожидается версия = 2</translation>
-    </message>
-    <message>
-        <source>Error parsing playlist at line[%1]:%2</source>
-        <translation>Ошибка разбора списка воспроизведения в строке %1: %2</translation>
-    </message>
-</context>
-<context>
     <name>QAndroidAudioEncoderSettingsControl</name>
     <message>
         <source>Adaptive Multi-Rate Narrowband (AMR-NB) audio codec</source>
@@ -448,10 +433,6 @@
 <context>
     <name>QGstreamerPlayerControl</name>
     <message>
-        <source>Attempting to play invalid Qt resource</source>
-        <translation>Попытка воспроизвести неверный ресурс Qt</translation>
-    </message>
-    <message>
         <source>Attempting to play invalid user stream</source>
         <translation>Попытка воспроизвести неверный пользовательский поток</translation>
     </message>
@@ -495,6 +476,10 @@
 </context>
 <context>
     <name>QMediaPlayer</name>
+    <message>
+        <source>Attempting to play invalid Qt resource</source>
+        <translation>Попытка воспроизвести неверный ресурс Qt</translation>
+    </message>
     <message>
         <source>The QMediaPlayer object does not have a valid service</source>
         <translation>Объект QMediaPlayer не имеет подходящей службы</translation>
@@ -551,14 +536,7 @@
     </message>
 </context>
 <context>
-    <name>QPlaylistFileParser</name>
-    <message>
-        <source>%1 does not exist</source>
-        <translation>%1 не существует</translation>
-    </message>
-</context>
-<context>
-    <name>QPlaylistFileParserPrivate</name>
+    <name>QObject</name>
     <message>
         <source>%1 playlist type is unknown</source>
         <translation>Неизвестный формат списка воспроизведения %1</translation>
@@ -570,6 +548,13 @@
     <message>
         <source>Empty file provided</source>
         <translation>Предоставлен пустой файл</translation>
+    </message>
+</context>
+<context>
+    <name>QPlaylistFileParser</name>
+    <message>
+        <source>%1 does not exist</source>
+        <translation>%1 не существует</translation>
     </message>
 </context>
 <context>

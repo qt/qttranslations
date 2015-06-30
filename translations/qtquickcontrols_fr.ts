@@ -1,333 +1,329 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="uk_UA">
+<TS version="2.1" language="fr_FR">
 <context>
     <name>DefaultColorDialog</name>
     <message>
         <source>Hue</source>
-        <translation>Відтінок</translation>
+        <translation>Teinte</translation>
     </message>
     <message>
         <source>Saturation</source>
-        <translation>Насиченість</translation>
+        <translation>Saturation</translation>
     </message>
     <message>
         <source>Luminosity</source>
-        <translation>Світність</translation>
+        <translation>Luminosité</translation>
     </message>
     <message>
         <source>Alpha</source>
-        <translation>Альфа</translation>
+        <translation>Alpha</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Скасувати</translation>
+        <translation>Annuler</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>Ok</translation>
     </message>
 </context>
 <context>
     <name>DefaultDialogWrapper</name>
     <message>
         <source>Show Details...</source>
-        <translation>Показати деталі...</translation>
+        <translation>Afficher les détails</translation>
     </message>
 </context>
 <context>
     <name>DefaultFileDialog</name>
     <message>
         <source>Go up to the folder containing this one</source>
-        <translation>Перейти нагору до теки, що містить цю</translation>
+        <translation>Remonter vers le dossier contenant celui-ci</translation>
     </message>
     <message>
         <source>Remove favorite</source>
-        <translation>Видалити улюблену</translation>
+        <translation>Supprimer le favori</translation>
     </message>
     <message>
         <source>Add the current directory as a favorite</source>
-        <translation>Додати поточну теку як улюблену</translation>
+        <translation>Ajouter le dossier actuel aux favoris</translation>
     </message>
     <message>
         <source>Filename</source>
-        <translation>Назва файлу</translation>
+        <translation>Nom du fichier</translation>
     </message>
     <message>
         <source>Type</source>
         <comment>file type (extension)</comment>
-        <translation>Тип</translation>
+        <translation>Type</translation>
     </message>
     <message>
         <source>Size</source>
         <comment>file size</comment>
-        <translation>Розмір</translation>
+        <translation>Taille</translation>
     </message>
     <message>
         <source>Modified</source>
         <comment>last-modified time</comment>
-        <translation>Змінено</translation>
+        <translation>Modifié</translation>
     </message>
     <message>
         <source>Accessed</source>
         <comment>last-accessed time</comment>
-        <translation>Доступ</translation>
+        <translation>Accédé</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Скасувати</translation>
+        <translation>Annuler</translation>
     </message>
     <message>
         <source>Choose</source>
-        <translation>Вибір</translation>
+        <translation>Choisir</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Відкрити</translation>
+        <translation>Ouvrir</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Зберегти</translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation type="vanished">OK</translation>
+        <translation>Sauver</translation>
     </message>
 </context>
 <context>
     <name>DefaultFontDialog</name>
     <message>
-        <source>Writing System</source>
-        <translation>Система письма</translation>
-    </message>
-    <message>
         <source>Font</source>
-        <translation>Шрифт</translation>
-    </message>
-    <message>
-        <source>Size</source>
-        <translation>Розмір</translation>
+        <translation>Police</translation>
     </message>
     <message>
         <source>Weight</source>
-        <translation>Жирність</translation>
+        <translation>Poids</translation>
     </message>
     <message>
-        <source>Style</source>
-        <translation>Стиль</translation>
-    </message>
-    <message>
-        <source>Sample</source>
-        <translation>Приклад</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Курсив</translation>
+        <source>Size</source>
+        <translation>Taille</translation>
     </message>
     <message>
         <source>Font Family</source>
-        <translation>Родина шрифтів</translation>
+        <translation>Famille de Polices</translation>
     </message>
     <message>
         <source>Thin</source>
-        <translation>Тонкий</translation>
+        <translation>Fin</translation>
     </message>
     <message>
         <source>ExtraLight</source>
-        <translation>Надлегкий</translation>
+        <translation>Très léger</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>Легкий</translation>
+        <translation>Léger</translation>
     </message>
     <message>
         <source>Normal</source>
-        <translation>Нормальний</translation>
+        <translation>Normal</translation>
     </message>
     <message>
         <source>Medium</source>
-        <translation>Середні</translation>
+        <translation>Medium</translation>
     </message>
     <message>
         <source>DemiBold</source>
-        <translation>Напівжирний</translation>
+        <translation>Semi gras</translation>
     </message>
     <message>
         <source>Bold</source>
-        <translation>Жирний</translation>
+        <translation>Gras</translation>
     </message>
     <message>
         <source>ExtraBold</source>
-        <translation>Наджирний</translation>
+        <translation>Très gras</translation>
     </message>
     <message>
         <source>Black</source>
-        <translation>Чорний</translation>
+        <translation>Ultra gras</translation>
+    </message>
+    <message>
+        <source>Style</source>
+        <translation>Style</translation>
+    </message>
+    <message>
+        <source>Italic</source>
+        <translation>Italique</translation>
     </message>
     <message>
         <source>Underline</source>
-        <translation>Підкреслений</translation>
+        <translation>Souligné</translation>
     </message>
     <message>
         <source>Overline</source>
-        <translation>Надкреслений</translation>
+        <translation>Trait suscrit</translation>
     </message>
     <message>
         <source>Strikeout</source>
-        <translation>Перекреслений</translation>
+        <translation>Barré</translation>
+    </message>
+    <message>
+        <source>Writing System</source>
+        <translation>Système d&apos;Écriture</translation>
+    </message>
+    <message>
+        <source>Sample</source>
+        <translation>Exemple</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Скасувати</translation>
+        <translation>Annuler</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>Ok</translation>
     </message>
 </context>
 <context>
     <name>DefaultMessageDialog</name>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Відкрити</translation>
+        <translation>Ouvrir</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Зберегти</translation>
+        <translation>Enregistrer</translation>
     </message>
     <message>
         <source>Save All</source>
-        <translation>Зберегти все</translation>
+        <translation>Tout Enregistrer</translation>
     </message>
     <message>
         <source>Retry</source>
-        <translation>Повторити</translation>
+        <translation>Réessayer</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation>Ігнорувати</translation>
+        <translation>Ignorer</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation>Застосувати</translation>
+        <translation>Appliquer</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Так</translation>
+        <translation>Oui</translation>
     </message>
     <message>
         <source>Yes to All</source>
-        <translation>Так для всіх</translation>
+        <translation>Oui à Tout</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Ні</translation>
+        <translation>Non</translation>
     </message>
     <message>
         <source>No to All</source>
-        <translation>Ні для всіх</translation>
+        <translation>Non à Tout</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>Відкинути</translation>
+        <translation>Ne pas tenir compte</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Скинути</translation>
+        <translation>Réinitialiser</translation>
     </message>
     <message>
         <source>Restore Defaults</source>
-        <translation>Відновити типові</translation>
+        <translation>Restaurer les valeurs par defaut</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Скасувати</translation>
+        <translation>Annuler</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation>Перервати</translation>
+        <translation>Abandonner</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Закрити</translation>
+        <translation>Fermer</translation>
     </message>
     <message>
         <source>Show Details...</source>
-        <translation>Показати деталі...</translation>
+        <translation>Afficher les détails...</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Довідка</translation>
+        <translation>Aide</translation>
     </message>
     <message>
         <source>Hide Details</source>
-        <translation>Сховати деталі</translation>
+        <translation>Masquer les détails</translation>
     </message>
 </context>
 <context>
     <name>EditMenu_base</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;Повернути</translation>
+        <translation>&amp;Annuler</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>П&amp;овторити</translation>
+        <translation>&amp;Rejouer</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>Ви&amp;різати</translation>
+        <translation>Co&amp;uper</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Копіювати</translation>
+        <translation>&amp;Copier</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>&amp;Вставити</translation>
+        <translation>Co&amp;ller</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Видалити</translation>
+        <translation>Supprimer</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Очистити</translation>
+        <translation>Nettoyer</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Вибрати все</translation>
+        <translation>Sélectionner tout</translation>
     </message>
 </context>
 <context>
     <name>EditMenu_ios</name>
     <message>
         <source>Cut</source>
-        <translation>Вирізати</translation>
+        <translation>Couper</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Копіювати</translation>
+        <translation>Copier</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>Вставити</translation>
+        <translation>Coller</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Видалити</translation>
+        <translation>Supprimer</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation>Вибрати</translation>
+        <translation>Sélectionner</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Вибрати все</translation>
+        <translation>Sélectionner tout</translation>
     </message>
 </context>
 </TS>
