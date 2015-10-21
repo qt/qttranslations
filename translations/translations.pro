@@ -47,6 +47,7 @@ addTsTargets(qtbase, qtbase/src/src.pro \
 )
 addTsTargets(qtdeclarative, qtdeclarative/src/src.pro)
 addTsTargets(qtquickcontrols, qtquickcontrols/src/src.pro)
+addTsTargets(qtquickcontrols2, qtquickcontrols2/src/src.pro)
 addTsTargets(qtmultimedia, qtmultimedia/src/src.pro)
 addTsTargets(qtquick1, qtquick1/src/src.pro)
 addTsTargets(qtscript, qtscript/src/src.pro)
