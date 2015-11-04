@@ -63,6 +63,7 @@ addTsTargets(qtlocation, qtlocation/src/src.pro)
 #addTsTargets(qtsystems, qtsystems/src/src.pro)  # not part of 5.0
 addTsTargets(qtwebsockets, qtwebsockets/src/src.pro)
 addTsTargets(qtserialport, qtserialport/src/src.pro)
+addTsTargets(qtwebengine, qtwebengine/src/src.pro)
 
 addTsTargets(designer, qttools/src/designer/designer.pro)
 addTsTargets(linguist, qttools/src/linguist/linguist/linguist.pro)
