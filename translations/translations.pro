@@ -122,6 +122,7 @@ TRANSLATIONS = $$files(*.ts)
 translations.path = $$[QT_INSTALL_TRANSLATIONS]
 translations.files = $$TRANSLATIONS
 translations.files ~= s,\\.ts$,.qm,g
+translations.files ~= s,^$$re_escape($$OUT_PWD),,g
 translations.files ~= s,^,$$MODULE_BASE_OUTDIR/translations/,g
 translations.CONFIG += no_check_exist
 INSTALLS += translations
