@@ -24,12 +24,16 @@
         <translation>Ошибка доступа в процессе блокировки устройства</translation>
     </message>
     <message>
+        <source>Cannot set custom speed for one direction</source>
+        <translation>Невозможно установить особую скорость только в одном направлении</translation>
+    </message>
+    <message>
         <source>No suitable custom baud rate divisor</source>
-        <translation>Нет подходящего делителя для установки нестандартной скорости передачи</translation>
+        <translation>Нет подходящего делителя для установки особой скорости передачи</translation>
     </message>
     <message>
         <source>Custom baud rate is not supported</source>
-        <translation>Пользовательская скорость передачи не поддерживается</translation>
+        <translation>Особая скорость передачи не поддерживается</translation>
     </message>
     <message>
         <source>Invalid baud rate value</source>
@@ -53,7 +57,7 @@
     </message>
     <message>
         <source>Custom baud rate direction is unsupported</source>
-        <translation>Независимые скорости передачи и приема не поддерживаются</translation>
+        <translation>Направления передачи для особых скоростей не поддерживаются</translation>
     </message>
     <message>
         <source>ParityError error detected while reading</source>
@@ -62,6 +66,10 @@
     <message>
         <source>Unknown streaming error</source>
         <translation>Неизвестная ошибка данных</translation>
+    </message>
+    <message>
+        <source>No error</source>
+        <translation>Нет ошибок</translation>
     </message>
     <message>
         <source>Error reading from device</source>
@@ -74,6 +82,10 @@
     <message>
         <source>Device disappeared from the system</source>
         <translation>Устройство удалено из системы</translation>
+    </message>
+    <message>
+        <source>The device supports only the ignoring policy</source>
+        <translation>Устройство поддерживает политику только игнорировать</translation>
     </message>
 </context>
 </TS>

@@ -78,6 +78,10 @@
         <translation>Некорректная ссылка на псевдоним. Не удалось найти id «%1»</translation>
     </message>
     <message>
+        <source>Invalid alias target location: %1</source>
+        <translation>Некорректное размещение цели псевдонима: %1</translation>
+    </message>
+    <message>
         <source>Invalid alias location</source>
         <translation>Некорректное размещение псевдонима</translation>
     </message>
@@ -542,6 +546,21 @@
     <message>
         <source>Composite Singleton Type %1 is not creatable</source>
         <translation>Нельзя создавать сложный Singleton-тип %1</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlObjectModel</name>
+    <message>
+        <source>insert: index %1 out of range</source>
+        <translation>insert: индекс %1 вне диапазона</translation>
+    </message>
+    <message>
+        <source>move: out of range</source>
+        <translation>move: индекс вне диапазона</translation>
+    </message>
+    <message>
+        <source>remove: indices [%1 - %2] out of range [0 - %3]</source>
+        <translation>remove: индексы [%1 - %2] вне диапазона [0 - %3]</translation>
     </message>
 </context>
 <context>
@@ -1091,6 +1110,17 @@
     <message>
         <source>Drag is only available via attached properties</source>
         <translation>Drag доступна только через прикреплённые свойства</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickEnterKeyAttached</name>
+    <message>
+        <source>EnterKey attached property only works with Items</source>
+        <translation>Подключённое свойство EnterKey работает только с элементами</translation>
+    </message>
+    <message>
+        <source>EnterKey is only available via attached properties</source>
+        <translation>EnterKey доступно только через подключённые свойства</translation>
     </message>
 </context>
 <context>
