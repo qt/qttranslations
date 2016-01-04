@@ -325,18 +325,8 @@ Press ESC to cancel</source>
         <translation>&amp;בחר צבע מסך</translation>
     </message>
     <message>
-        <source>Cursor at %1, %2, color: %3
-Press ESC to cancel</source>
-        <translation type="vanished">סמן על %1, %2, צבע: %3
-לחץ ESC לבטל</translation>
-    </message>
-    <message>
         <source>Select Color</source>
         <translation>בחר צבע</translation>
-    </message>
-    <message>
-        <source>Pick Screen Color</source>
-        <translation type="vanished">מסך בחירת צבע</translation>
     </message>
     <message>
         <source>&amp;Basic colors</source>
@@ -425,11 +415,6 @@ Press ESC to cancel</source>
         <source>%1: ftok failed</source>
         <comment>QSystemSemaphore</comment>
         <translation>%1: פעולת ftok נכשלה</translation>
-    </message>
-    <message>
-        <source>QT_LAYOUT_DIRECTION</source>
-        <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
-        <translation type="vanished">RTL</translation>
     </message>
 </context>
 <context>
@@ -590,25 +575,6 @@ Press ESC to cancel</source>
     </message>
 </context>
 <context>
-    <name>QDateTimeEdit</name>
-    <message>
-        <source>AM</source>
-        <translation type="vanished">לפני הצהריים</translation>
-    </message>
-    <message>
-        <source>am</source>
-        <translation type="vanished">לפני הצהריים</translation>
-    </message>
-    <message>
-        <source>PM</source>
-        <translation type="vanished">אחרי הצהריים</translation>
-    </message>
-    <message>
-        <source>pm</source>
-        <translation type="vanished">אחרי הצהריים</translation>
-    </message>
-</context>
-<context>
     <name>QDateTimeParser</name>
     <message>
         <source>AM</source>
@@ -676,6 +642,10 @@ Press ESC to cancel</source>
 <context>
     <name>QDnsLookupRunnable</name>
     <message>
+        <source>IPv6 addresses for nameservers are currently not supported</source>
+        <translation>כתובות IPv6 עבור שרתי שמות לא נתמכות כרגע</translation>
+    </message>
+    <message>
         <source>Invalid domain name</source>
         <translation>שם מתחם לא תקין</translation>
     </message>
@@ -690,10 +660,6 @@ Press ESC to cancel</source>
     <message>
         <source>Resolver initialization failed</source>
         <translation>אתחול מפענח נכשל</translation>
-    </message>
-    <message>
-        <source>IPv6 addresses for nameservers is currently not supported</source>
-        <translation>כתובות IPv6 עבור שרתי שמות לא נתמכות כרגע</translation>
     </message>
     <message>
         <source>Server could not process query</source>
@@ -1093,11 +1059,6 @@ Do you want to delete it anyway?</source>
         <translation>כינוי</translation>
     </message>
     <message>
-        <source>Alias</source>
-        <comment>Mac OS X Finder</comment>
-        <translation type="vanished">כינוי</translation>
-    </message>
-    <message>
         <source>Shortcut</source>
         <comment>All other platforms</comment>
         <translation>קיצור דרך</translation>
@@ -1174,10 +1135,6 @@ Do you want to delete it anyway?</source>
 </context>
 <context>
     <name>QFontDatabase</name>
-    <message>
-        <source>Normal</source>
-        <translation type="obsolete">רגיל</translation>
-    </message>
     <message>
         <source>Bold</source>
         <translation>מודגש</translation>
@@ -1567,6 +1524,10 @@ Do you want to delete it anyway?</source>
         <source>Unknown error (%1)</source>
         <translation>שגיאה לא מוכרת (%1)</translation>
     </message>
+    <message>
+        <source>Host %1 could not be found.</source>
+        <translation>מארח %1 לא נמצא</translation>
+    </message>
 </context>
 <context>
     <name>QHttp</name>
@@ -1601,6 +1562,14 @@ Do you want to delete it anyway?</source>
     <message>
         <source>SSL handshake failed</source>
         <translation>לחיצת ידיים של SSL נכשלה</translation>
+    </message>
+    <message>
+        <source>Too many redirects</source>
+        <translation>יותר מדי הפניות חוזרות</translation>
+    </message>
+    <message>
+        <source>Insecure redirect</source>
+        <translation>הפנייה חוזרת לא מאובטחת</translation>
     </message>
 </context>
 <context>
@@ -2078,6 +2047,10 @@ Do you want to delete it anyway?</source>
 <context>
     <name>QMYSQLDriver</name>
     <message>
+        <source>Unable to allocate a MYSQL object</source>
+        <translation>לא ניתן להקצות אובייקט MYSQL</translation>
+    </message>
+    <message>
         <source>Unable to open database &apos;%1&apos;</source>
         <translation>לא ניתן לפתוח מסד נתונים &apos;%1&apos;</translation>
     </message>
@@ -2454,10 +2427,6 @@ Do you want to delete it anyway?</source>
 <context>
     <name>QNetworkReply</name>
     <message>
-        <source>Error downloading %1 - server replied: %2</source>
-        <translation>שגיאה בהורדת %1 - שרת ענה: %2</translation>
-    </message>
-    <message>
         <source>Background request not allowed.</source>
         <translation>בקשת רקע לא מורשית.</translation>
     </message>
@@ -2476,6 +2445,10 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Protocol &quot;%1&quot; is unknown</source>
         <translation>פרוטוקול &quot;%1&quot; אינו מוכר</translation>
+    </message>
+    <message>
+        <source>Error transferring %1 - server replied: %2</source>
+        <translation>שגיאה בהעברת %1 - שרת ענה: %2</translation>
     </message>
 </context>
 <context>
@@ -3611,6 +3584,10 @@ Please turn one of those options off.</source>
 <context>
     <name>QPrintPropertiesDialog</name>
     <message>
+        <source>Printer Properties</source>
+        <translation>מאפייני מדפסת</translation>
+    </message>
+    <message>
         <source>Job Options</source>
         <translation>אפשרויות עבודה</translation>
     </message>
@@ -3767,6 +3744,10 @@ Please turn one of those options off.</source>
         <translation>תהליך קרס</translation>
     </message>
     <message>
+        <source>Process failed to start</source>
+        <translation>תהליך נכשל בעליה</translation>
+    </message>
+    <message>
         <source>Process failed to start (spawned process exited with code 127)</source>
         <translation>תהליך נכשל בהפעלה (תהליך שהותחל יצא עם קוד 127)</translation>
     </message>
@@ -3807,10 +3788,6 @@ Please turn one of those options off.</source>
     <message>
         <source>All files (*.*)</source>
         <translation></translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation type="obsolete">אישור</translation>
     </message>
 </context>
 <context>
