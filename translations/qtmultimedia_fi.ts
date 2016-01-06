@@ -538,7 +538,7 @@
     </message>
 </context>
 <context>
-    <name>QObject</name>
+    <name>QPlaylistFileParser</name>
     <message>
         <source>%1 playlist type is unknown</source>
         <translation>soittolistan %1 tyyppi on tuntematon</translation>
@@ -551,9 +551,6 @@
         <source>Empty file provided</source>
         <translation>Saatiin tyhjä tiedosto</translation>
     </message>
-</context>
-<context>
-    <name>QPlaylistFileParser</name>
     <message>
         <source>%1 does not exist</source>
         <translation>%1 ei ole olemassa</translation>
@@ -572,6 +569,13 @@
     <message>
         <source>Image saving failed</source>
         <translation>Kuvan tallentaminen epäonnistui</translation>
+    </message>
+</context>
+<context>
+    <name>QWinRTImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation>JPEG-kuva</translation>
     </message>
 </context>
 </TS>
