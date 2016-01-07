@@ -78,8 +78,8 @@
         <translation>無効なエイリアスの参照です。id &quot;%1&quot; が見つかりません</translation>
     </message>
     <message>
-        <source>Invalid alias location</source>
-        <translation>無効なエイリアスのパス</translation>
+        <source>Invalid alias target location: %1</source>
+        <translation>無効なエイリアス先のパス: %1</translation>
     </message>
 </context>
 <context>
@@ -378,6 +378,10 @@
         <translation>モジュール &quot;%1&quot;(&quot;%2&quot;) 用のスタティックプラグインにメタデータ URI が有りません</translation>
     </message>
     <message>
+        <source>module does not support the designer &quot;%1&quot;</source>
+        <translation>モジュール &quot;%1&quot; はデザイナをサポートしていません</translation>
+    </message>
+    <message>
         <source>plugin cannot be loaded for module &quot;%1&quot;: %2</source>
         <translation>&quot;%1&quot; モジュール用のプラグインがロードできません: %2</translation>
     </message>
@@ -538,6 +542,21 @@
     <message>
         <source>Composite Singleton Type %1 is not creatable</source>
         <translation>Composite Singleton な型 %1 が作成できません</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlObjectModel</name>
+    <message>
+        <source>insert: index %1 out of range</source>
+        <translation>insert: インデックス %1 の値が有効範囲外です</translation>
+    </message>
+    <message>
+        <source>move: out of range</source>
+        <translation>move: 値が有効範囲外です</translation>
+    </message>
+    <message>
+        <source>remove: indices [%1 - %2] out of range [0 - %3]</source>
+        <translation>remove: 削除対象のインデックス [%1 - %2] は有効範囲 [0 - %3] 外の値です</translation>
     </message>
 </context>
 <context>
@@ -868,8 +887,12 @@
         <translation>無効なプロパティの値: /パターン/ 形式で正規表現を指定してください</translation>
     </message>
     <message>
-        <source>Invalid property assignment: real or array of reals expected</source>
-        <translation>無効なプロパティの値: 実数(real)あるいはその配列を指定してください</translation>
+        <source>Invalid property assignment: number or array of numbers expected</source>
+        <translation>無効なプロパティの値: 数値あるいはその配列を指定してください</translation>
+    </message>
+    <message>
+        <source>Cannot assign object to list property &quot;%1&quot;</source>
+        <translation>オブジェクトをリストプロパティ %1 に割り当てることはできません</translation>
     </message>
     <message>
         <source>Invalid property assignment: int or array of ints expected</source>
@@ -894,10 +917,6 @@
     <message>
         <source>&quot;%1&quot; cannot operate on &quot;%2&quot;</source>
         <translation>&quot;%1&quot; は &quot;%2&quot; を操作できません</translation>
-    </message>
-    <message>
-        <source>Cannot assign object to list</source>
-        <translation>オブジェクトをリストに割り当てることはできません</translation>
     </message>
     <message>
         <source>Unexpected object assignment</source>
@@ -1090,6 +1109,17 @@
     </message>
 </context>
 <context>
+    <name>QQuickEnterKeyAttached</name>
+    <message>
+        <source>EnterKey attached property only works with Items</source>
+        <translation>アタッチされたプロパティ EnterKey は Item およびその派生クラスでのみ利用できます</translation>
+    </message>
+    <message>
+        <source>EnterKey is only available via attached properties</source>
+        <translation>EnterKey はアタッチされたプロパティ(Attached Property: 型名.プロパティ名)の形式でのみ利用できます</translation>
+    </message>
+</context>
+<context>
     <name>QQuickFlipable</name>
     <message>
         <source>front is a write-once property</source>
@@ -1129,7 +1159,7 @@
     <name>QQuickLayoutMirroringAttached</name>
     <message>
         <source>LayoutDirection attached property only works with Items</source>
-        <translation>アタッチされたプロパティ LayoutDirection は Item でのみ利用できます</translation>
+        <translation>アタッチされたプロパティ LayoutDirection は Item およびその派生クラスでのみ利用できます</translation>
     </message>
     <message>
         <source>LayoutMirroring is only available via attached properties</source>
@@ -1141,6 +1171,13 @@
     <message>
         <source>setSource: value is not an object</source>
         <translation>setSource: オブジェクト以外の値は挿入できません</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickOpenGLInfo</name>
+    <message>
+        <source>OpenGLInfo is only available via attached properties</source>
+        <translation>OpenGLInfo はアタッチされたプロパティ(Attached Property: 型名.プロパティ名)の形式でのみ利用できます</translation>
     </message>
 </context>
 <context>

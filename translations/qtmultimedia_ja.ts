@@ -2,6 +2,85 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="ja">
 <context>
+    <name>AVFCameraControl</name>
+    <message>
+        <source>Requested capture mode is not supported</source>
+        <translation>要求されたキャプチャモードはサポートされていません</translation>
+    </message>
+</context>
+<context>
+    <name>AVFCameraSession</name>
+    <message>
+        <source>Runtime camera error</source>
+        <translation>実行時のカメラエラー</translation>
+    </message>
+</context>
+<context>
+    <name>AVFImageCaptureControl</name>
+    <message>
+        <source>Camera not ready</source>
+        <translation>カメラが準備できていません</translation>
+    </message>
+    <message>
+        <source>Could not open destination file:
+%1</source>
+        <translation>保存先のファイルを開けませんでした:
+%1</translation>
+    </message>
+</context>
+<context>
+    <name>AVFImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation>JPEG 画像</translation>
+    </message>
+</context>
+<context>
+    <name>AVFMediaPlayerSession</name>
+    <message>
+        <source>Failed to load media</source>
+        <translation>メディアの読み込みに失敗しました</translation>
+    </message>
+</context>
+<context>
+    <name>AVFMediaRecorderControl</name>
+    <message>
+        <source>Recorder not configured</source>
+        <translation>レコーダが設定されていません</translation>
+    </message>
+    <message>
+        <source>Recording pause not supported</source>
+        <translation>録画時の一時停止はサポートされていません</translation>
+    </message>
+    <message>
+        <source>Could not connect the video recorder</source>
+        <translation>ビデオレコーダに接続できませんでした</translation>
+    </message>
+</context>
+<context>
+    <name>AVFMediaRecorderControlIOS</name>
+    <message>
+        <source>Failed to start recording</source>
+        <translation>録画の開始に失敗しました</translation>
+    </message>
+    <message>
+        <source>Invalid output file URL</source>
+        <translation>出力ファイルのURLが無効です</translation>
+    </message>
+    <message>
+        <source>Non-writeable file location</source>
+        <translation>書き込み不可能なファイルのパスです</translation>
+    </message>
+    <message>
+        <source>File already exists</source>
+        <translation>ファイルは既に存在します</translation>
+    </message>
+    <message>
+        <source>Recording pause not supported</source>
+        <translation>録画時の一時停止はサポートされていません</translation>
+    </message>
+</context>
+<context>
     <name>AudioContainerControl</name>
     <message>
         <source>RAW (headerless) file format</source>
@@ -172,6 +251,17 @@
     </message>
 </context>
 <context>
+    <name>DSCameraSession</name>
+    <message>
+        <source>Camera not ready for capture</source>
+        <translation>カメラはキャプチャする準備ができていません</translation>
+    </message>
+    <message>
+        <source>Could not save image to file.</source>
+        <translation>画像をファイルに保存できませんでした。</translation>
+    </message>
+</context>
+<context>
     <name>MFPlayerSession</name>
     <message>
         <source>Invalid stream source.</source>
@@ -263,33 +353,6 @@
     </message>
 </context>
 <context>
-    <name>PLSParser</name>
-    <message>
-        <source>Error parsing playlist: %1, expected count = %2</source>
-        <translation>プレイリストの解析中にエラーが発生しました: %1; エントリー数が %2 ではありません</translation>
-    </message>
-    <message>
-        <source>Error parsing playlist at line[%1], expected version = 2</source>
-        <translation>プレイリストの解析中に%1行でエラーが発生しました: バージョンが2ではありません</translation>
-    </message>
-    <message>
-        <source>Error parsing playlist at line[%1]:%2</source>
-        <translation>プレイリストの解析中に%1行でエラーが発生しました: %2</translation>
-    </message>
-    <message>
-        <source>File%1</source>
-        <translation>ファイル%1</translation>
-    </message>
-    <message>
-        <source>Title%1</source>
-        <translation>タイトル%1</translation>
-    </message>
-    <message>
-        <source>Length%1</source>
-        <translation>長さ%1</translation>
-    </message>
-</context>
-<context>
     <name>QAndroidAudioEncoderSettingsControl</name>
     <message>
         <source>Adaptive Multi-Rate Narrowband (AMR-NB) audio codec</source>
@@ -306,6 +369,10 @@
 </context>
 <context>
     <name>QAndroidCameraSession</name>
+    <message>
+        <source>Camera cannot be started without a viewfinder.</source>
+        <translation>カメラはビューファインダ無しでは開始できません。</translation>
+    </message>
     <message>
         <source>Camera not ready</source>
         <translation>カメラが使用可能ではありません</translation>
@@ -445,10 +512,6 @@
 <context>
     <name>QGstreamerPlayerControl</name>
     <message>
-        <source>Attempting to play invalid Qt resource</source>
-        <translation>無効な Qt リソースを再生しようとしています</translation>
-    </message>
-    <message>
         <source>Attempting to play invalid user stream</source>
         <translation>無効なユーザストリームを再生しようとしています</translation>
     </message>
@@ -493,6 +556,10 @@
 <context>
     <name>QMediaPlayer</name>
     <message>
+        <source>Attempting to play invalid Qt resource</source>
+        <translation>無効な Qt リソースを再生しようとしています</translation>
+    </message>
+    <message>
         <source>The QMediaPlayer object does not have a valid service</source>
         <translation>QMediaPlayer には有効なサービスがありません</translation>
     </message>
@@ -520,41 +587,38 @@
     <name>QMultimediaDeclarativeModule</name>
     <message>
         <source>CameraCapture is provided by Camera</source>
-        <translation>カメラが提供する CameraCapture</translation>
+        <translation>Camera エレメントが提供する CameraCapture エレメント</translation>
     </message>
     <message>
         <source>CameraRecorder is provided by Camera</source>
-        <translation>カメラが提供する CameraRecorder</translation>
+        <translation>Camera エレメントが提供する CameraRecorder エレメント</translation>
     </message>
     <message>
         <source>CameraExposure is provided by Camera</source>
-        <translation>カメラが提供する CameraExposure</translation>
+        <translation>Camera エレメントが提供する CameraExposure エレメント</translation>
     </message>
     <message>
         <source>CameraFocus is provided by Camera</source>
-        <translation>カメラが提供する CameraFocus</translation>
+        <translation>Camera エレメントが提供する CameraFocus エレメント</translation>
     </message>
     <message>
         <source>CameraFlash is provided by Camera</source>
-        <translation>カメラが提供する CameraFlash</translation>
+        <translation>Camera エレメントが提供する CameraFlash エレメント</translation>
     </message>
     <message>
         <source>CameraImageProcessing is provided by Camera</source>
-        <translation>カメラが提供する CameraImageProcessing</translation>
+        <translation>Camera エレメントが提供する CameraImageProcessing エレメント</translation>
+    </message>
+    <message>
+        <source>CameraViewfinder is provided by Camera</source>
+        <translation>Camera エレメントが提供する CameraViewfinder エレメント</translation>
     </message>
 </context>
 <context>
     <name>QPlaylistFileParser</name>
     <message>
-        <source>%1 does not exist</source>
-        <translation>%1 が存在しません</translation>
-    </message>
-</context>
-<context>
-    <name>QPlaylistFileParserPrivate</name>
-    <message>
         <source>%1 playlist type is unknown</source>
-        <translation>プレイリスト %1 の型が不明です</translation>
+        <translation>プレイリスト %1 の形式が不明です</translation>
     </message>
     <message>
         <source>invalid line in playlist file</source>
@@ -563,6 +627,32 @@
     <message>
         <source>Empty file provided</source>
         <translation>ファイルが空です</translation>
+    </message>
+    <message>
+        <source>%1 does not exist</source>
+        <translation>%1 が存在しません</translation>
+    </message>
+</context>
+<context>
+    <name>QWinRTCameraImageCaptureControl</name>
+    <message>
+        <source>Camera not ready</source>
+        <translation>カメラが準備できていません</translation>
+    </message>
+    <message>
+        <source>Invalid photo data length.</source>
+        <translation>画像のデータ長が無効です。</translation>
+    </message>
+    <message>
+        <source>Image saving failed</source>
+        <translation>画像の保存に失敗しました</translation>
+    </message>
+</context>
+<context>
+    <name>QWinRTImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation>JPEG 画像</translation>
     </message>
 </context>
 </TS>
