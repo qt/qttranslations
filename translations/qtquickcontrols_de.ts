@@ -113,6 +113,42 @@
         <translation>Schriftfamilie</translation>
     </message>
     <message>
+        <source>Thin</source>
+        <translation>Dünn</translation>
+    </message>
+    <message>
+        <source>ExtraLight</source>
+        <translation>Sehr dünn</translation>
+    </message>
+    <message>
+        <source>Light</source>
+        <translation>Leicht</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Medium</source>
+        <translation>Mittel</translation>
+    </message>
+    <message>
+        <source>DemiBold</source>
+        <translation>Halbfett</translation>
+    </message>
+    <message>
+        <source>Bold</source>
+        <translation>Fett</translation>
+    </message>
+    <message>
+        <source>ExtraBold</source>
+        <translation>Sehr fett</translation>
+    </message>
+    <message>
+        <source>Black</source>
+        <translation>Schwarz</translation>
+    </message>
+    <message>
         <source>Italic</source>
         <translation>Kursiv</translation>
     </message>
@@ -261,33 +297,6 @@
     <message>
         <source>Select All</source>
         <translation>Alles auswählen</translation>
-    </message>
-</context>
-<context>
-    <name>EditMenu_ios</name>
-    <message>
-        <source>Cut</source>
-        <translation>Ausschneiden</translation>
-    </message>
-    <message>
-        <source>Copy</source>
-        <translation>Kopieren</translation>
-    </message>
-    <message>
-        <source>Paste</source>
-        <translation>Einsetzen</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <translation>Löschen</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation>Auswählen</translation>
-    </message>
-    <message>
-        <source>Select All</source>
-        <translation>Alles</translation>
     </message>
 </context>
 </TS>

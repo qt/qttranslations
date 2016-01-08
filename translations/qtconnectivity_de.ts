@@ -44,14 +44,6 @@
         <translation>Suche kann nicht gestoppt werden</translation>
     </message>
     <message>
-        <source>Cannot open remote device socket</source>
-        <translation>Socket der Gegenseite konnte nicht geöffnet werden</translation>
-    </message>
-    <message>
-        <source>Cannot connect to Bluetooth socket notifier</source>
-        <translation>Verbindung mit Socket-Benachrichtiger konnte nicht hergestellt werden</translation>
-    </message>
-    <message>
         <source>Cannot start device inquiry</source>
         <translation>Gerätesuche konnte nicht gestartet werden</translation>
     </message>
@@ -1205,30 +1197,6 @@
         <translation>Benutzerdefinierter Dienst</translation>
     </message>
     <message>
-        <source>Result received in callback is null</source>
-        <translation>Resultat des Systemrückrufs ist leer</translation>
-    </message>
-    <message>
-        <source>Failed to initialize Bluetooth stack</source>
-        <translation>Fehler bei der Initialisierung des Bluetooth-Stack</translation>
-    </message>
-    <message>
-        <source>Could not retrieve remote device address</source>
-        <translation>Addresse der Gegenstelle nicht ermittelbar</translation>
-    </message>
-    <message>
-        <source>Failed to open remote device file</source>
-        <translation>Fehler beim Öffnen der Datei auf der Gegenstelle</translation>
-    </message>
-    <message>
-        <source>Operation canceled</source>
-        <translation>Operation abgebrochen</translation>
-    </message>
-    <message>
-        <source>Service query timed out</source>
-        <translation>Zeitüberschreitung der Dienstanfrage</translation>
-    </message>
-    <message>
         <source>Unknown Service</source>
         <translation>Unbekannter Dienst</translation>
     </message>
@@ -1309,6 +1277,10 @@
         <source>Cannot read while not connected</source>
         <translation>Lesevorgang wegen fehlender Verbindung fehlgeschlagen</translation>
     </message>
+    <message>
+        <source>Cannot set connection security level</source>
+        <translation>Die Sicherheitsstufe der Verbindung konnte nicht eingestellt werden</translation>
+    </message>
 </context>
 <context>
     <name>QBluetoothTransferReply</name>
@@ -1352,10 +1324,6 @@
         <source>Push session cannot be started</source>
         <translation>Push-Session konnte nicht gestartet werden</translation>
     </message>
-    <message>
-        <source>Resource busy.</source>
-        <translation>Ressource ist belegt.</translation>
-    </message>
 </context>
 <context>
     <name>QBluetoothTransferReplyBluez</name>
@@ -1393,6 +1361,10 @@
     <message>
         <source>Unknown Error</source>
         <translation>Unbekannter Fehler</translation>
+    </message>
+    <message>
+        <source>Error occurred trying to connect to remote device.</source>
+        <translation>Beim Aufbau der Verbindung zum Gerät trat ein Fehler auf.</translation>
     </message>
 </context>
 </TS>
