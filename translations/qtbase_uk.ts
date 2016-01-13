@@ -1406,6 +1406,10 @@ Press ESC to cancel</source>
 <context>
     <name>QDnsLookupRunnable</name>
     <message>
+        <source>IPv6 addresses for nameservers are currently not supported</source>
+        <translation>Адреси IPv6 для серверів імен поки що не підтримуються</translation>
+    </message>
+    <message>
         <source>Invalid domain name</source>
         <translation>Неправильне ім&apos;я домену</translation>
     </message>
@@ -1423,7 +1427,7 @@ Press ESC to cancel</source>
     </message>
     <message>
         <source>IPv6 addresses for nameservers is currently not supported</source>
-        <translation>Адреси IPv6 для серверів імен поки що не підтримуються</translation>
+        <translation type="vanished">Адреси IPv6 для серверів імен поки що не підтримуються</translation>
     </message>
     <message>
         <source>Server could not process query</source>
@@ -1492,6 +1496,14 @@ Press ESC to cancel</source>
     <message>
         <source>Invalid hostname</source>
         <translation>Неправильне ім&apos;я вузла</translation>
+    </message>
+    <message>
+        <source>Host %1 could not be found.</source>
+        <translation>Не вдалось знайти вузол %1.</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>Невідома помилка</translation>
     </message>
 </context>
 <context>
@@ -1818,8 +1830,13 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Alias</source>
-        <comment>Mac OS X Finder</comment>
+        <comment>OS X Finder</comment>
         <translation>Псевдонім</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <comment>Mac OS X Finder</comment>
+        <translation type="vanished">Псевдонім</translation>
     </message>
     <message>
         <source>Shortcut</source>
@@ -1912,7 +1929,7 @@ Do you want to delete it anyway?</source>
     <name>QFontDatabase</name>
     <message>
         <source>Normal</source>
-        <translation>Звичайний</translation>
+        <translation type="vanished">Звичайний</translation>
     </message>
     <message>
         <source>Bold</source>
@@ -2303,6 +2320,10 @@ Do you want to delete it anyway?</source>
         <source>Unknown error (%1)</source>
         <translation>Невідома помилка (%1)</translation>
     </message>
+    <message>
+        <source>Host %1 could not be found.</source>
+        <translation type="vanished">Не вдалось знайти вузол %1.</translation>
+    </message>
 </context>
 <context>
     <name>QHttp</name>
@@ -2337,6 +2358,14 @@ Do you want to delete it anyway?</source>
     <message>
         <source>SSL handshake failed</source>
         <translation>Збій рукостискання SSL</translation>
+    </message>
+    <message>
+        <source>Too many redirects</source>
+        <translation>Забагато перенаправлень</translation>
+    </message>
+    <message>
+        <source>Insecure redirect</source>
+        <translation>Незахищене перенаправлення</translation>
     </message>
 </context>
 <context>
@@ -2814,6 +2843,10 @@ Do you want to delete it anyway?</source>
 <context>
     <name>QMYSQLDriver</name>
     <message>
+        <source>Unable to allocate a MYSQL object</source>
+        <translation>Неможливо виділити об&apos;єкт MYSQL</translation>
+    </message>
+    <message>
         <source>Unable to open database &apos;%1&apos;</source>
         <translation>Неможливо відкрити базу даних &apos;%1&apos;</translation>
     </message>
@@ -3195,7 +3228,7 @@ Do you want to delete it anyway?</source>
     <name>QNetworkReply</name>
     <message>
         <source>Error downloading %1 - server replied: %2</source>
-        <translation>Помилка звантаження %1 - сервер відповів: %2</translation>
+        <translation type="vanished">Помилка звантаження %1 - сервер відповів: %2</translation>
     </message>
     <message>
         <source>Background request not allowed.</source>
@@ -3216,6 +3249,10 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Protocol &quot;%1&quot; is unknown</source>
         <translation>Невідомий протокол &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source>Error transferring %1 - server replied: %2</source>
+        <translation>Помилка передачі %1 - сервер відповів: %2</translation>
     </message>
 </context>
 <context>
@@ -4605,6 +4642,10 @@ Please turn one of those options off.</source>
 <context>
     <name>QPrintPropertiesDialog</name>
     <message>
+        <source>Printer Properties</source>
+        <translation>Властивості друкарки</translation>
+    </message>
+    <message>
         <source>Job Options</source>
         <translation>Опції завдання</translation>
     </message>
@@ -4759,6 +4800,10 @@ Please turn one of those options off.</source>
     <message>
         <source>Process crashed</source>
         <translation>Процес аварійно завершився</translation>
+    </message>
+    <message>
+        <source>Process failed to start</source>
+        <translation>Збій запуску процесу</translation>
     </message>
     <message>
         <source>Process failed to start (spawned process exited with code 127)</source>

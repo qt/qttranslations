@@ -346,6 +346,14 @@
         <translation>Режим не підтримується</translation>
     </message>
     <message>
+        <source>Failed to capture image</source>
+        <translation>Збій захоплення зображення</translation>
+    </message>
+    <message>
+        <source>Camera preview failed to start.</source>
+        <translation>Збій запуску попереднього перегляду камери.</translation>
+    </message>
+    <message>
         <source>Could not open destination file: %1</source>
         <translation>Не вдалось відкрити файл-отримувач: %1</translation>
     </message>
@@ -592,6 +600,21 @@
     <name>QObject</name>
     <message>
         <source>%1 playlist type is unknown</source>
+        <translation type="vanished">Невідомий тип списку відтворення %1</translation>
+    </message>
+    <message>
+        <source>invalid line in playlist file</source>
+        <translation type="vanished">неправильний рядок в файлі списку відтворення</translation>
+    </message>
+    <message>
+        <source>Empty file provided</source>
+        <translation type="vanished">Надано порожній файл</translation>
+    </message>
+</context>
+<context>
+    <name>QPlaylistFileParser</name>
+    <message>
+        <source>%1 playlist type is unknown</source>
         <translation>Невідомий тип списку відтворення %1</translation>
     </message>
     <message>
@@ -602,9 +625,6 @@
         <source>Empty file provided</source>
         <translation>Надано порожній файл</translation>
     </message>
-</context>
-<context>
-    <name>QPlaylistFileParser</name>
     <message>
         <source>%1 does not exist</source>
         <translation>%1 не існує</translation>
@@ -638,6 +658,13 @@
     <message>
         <source>Image saving failed</source>
         <translation>Збій збереження зображення</translation>
+    </message>
+</context>
+<context>
+    <name>QWinRTImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation>Зображення JPEG</translation>
     </message>
 </context>
 </TS>

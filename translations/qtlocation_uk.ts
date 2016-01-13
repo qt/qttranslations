@@ -2,6 +2,55 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="uk_UA">
 <context>
+    <name>QDeclarativeGeoMap</name>
+    <message>
+        <source>No Map</source>
+        <translation>Немає карти</translation>
+    </message>
+    <message>
+        <source>Plugin does not support mapping.</source>
+        <translation>Додаток не підтримує карти.</translation>
+    </message>
+</context>
+<context>
+    <name>QDeclarativeGeoRouteModel</name>
+    <message>
+        <source>Plugin does not support routing.</source>
+        <translation>Додаток не підтримує навігацію.</translation>
+    </message>
+    <message>
+        <source>Cannot route, plugin not set.</source>
+        <translation>Неможливо прокласти маршрут, додаток не задано.</translation>
+    </message>
+    <message>
+        <source>Cannot route, route manager not set.</source>
+        <translation>Неможливо прокласти маршрут, менеджер маршрутів не задано.</translation>
+    </message>
+    <message>
+        <source>Not enough waypoints for routing.</source>
+        <translation>Не достатня кількість точок для проколадання маршруту.</translation>
+    </message>
+</context>
+<context>
+    <name>QDeclarativeGeocodeModel</name>
+    <message>
+        <source>Cannot geocode, plugin not set.</source>
+        <translation>Неможливо геокодувати, додаток не задано.</translation>
+    </message>
+    <message>
+        <source>Cannot geocode, geocode manager not set.</source>
+        <translation>Неможливо геокодувати, менеджер геокодування не задано.</translation>
+    </message>
+    <message>
+        <source>Cannot geocode, valid query not set.</source>
+        <translation>Неможливо геокодувати, не задано правильний запит.</translation>
+    </message>
+    <message>
+        <source>Plugin does not support (reverse) geocoding.</source>
+        <translation>Додаток не підтримує (зворотнє) геокодування.</translation>
+    </message>
+</context>
+<context>
     <name>QGeoRouteReplyOsm</name>
     <message>
         <source>Go straight.</source>
@@ -609,6 +658,10 @@ Please register at https://developer.here.com/ to get your personal application 
     <message>
         <source>Unable to create request</source>
         <translation>Неможливо створити запит</translation>
+    </message>
+    <message>
+        <source>Index &apos;%1&apos; out of range</source>
+        <translation>Індекс &apos;%1&apos; поза межами діапазону</translation>
     </message>
 </context>
 </TS>

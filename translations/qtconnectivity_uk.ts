@@ -49,11 +49,11 @@
     </message>
     <message>
         <source>Cannot open remote device socket</source>
-        <translation>Неможливо відкрити сокет віддаленого пристрою</translation>
+        <translation type="vanished">Неможливо відкрити сокет віддаленого пристрою</translation>
     </message>
     <message>
         <source>Cannot connect to Bluetooth socket notifier</source>
-        <translation>Неможливо підключитись до повідомника сокета Bluetooth</translation>
+        <translation type="vanished">Неможливо підключитись до повідомника сокета Bluetooth</translation>
     </message>
     <message>
         <source>Cannot start device inquiry</source>
@@ -1246,23 +1246,23 @@
     </message>
     <message>
         <source>Result received in callback is null</source>
-        <translation>Результат отриманий в зворотному виклику є null</translation>
+        <translation type="vanished">Результат отриманий в зворотному виклику є null</translation>
     </message>
     <message>
         <source>Failed to initialize Bluetooth stack</source>
-        <translation>Збій ініціалізації стеку Bluetooth</translation>
+        <translation type="vanished">Збій ініціалізації стеку Bluetooth</translation>
     </message>
     <message>
         <source>Could not retrieve remote device address</source>
-        <translation>Не вдалось отримати адресу віддаленого пристрою</translation>
+        <translation type="vanished">Не вдалось отримати адресу віддаленого пристрою</translation>
     </message>
     <message>
         <source>Failed to open remote device file</source>
-        <translation>Збій відкриття файлу віддаленого пристрою</translation>
+        <translation type="vanished">Збій відкриття файлу віддаленого пристрою</translation>
     </message>
     <message>
         <source>Operation canceled</source>
-        <translation>Операція скасована</translation>
+        <translation type="vanished">Операція скасована</translation>
     </message>
     <message>
         <source>Failed to connect to notifier</source>
@@ -1270,7 +1270,7 @@
     </message>
     <message>
         <source>Service query timed out</source>
-        <translation>Час очікування на запит до серевісу вичерпано</translation>
+        <translation type="vanished">Час очікування на запит до серевісу вичерпано</translation>
     </message>
     <message>
         <source>Unknown Service</source>
@@ -1353,6 +1353,10 @@
         <source>Network Error</source>
         <translation>Помилка мережі</translation>
     </message>
+    <message>
+        <source>Cannot set connection security level</source>
+        <translation>Неможливо задати рівень безпечності з&apos;єднання</translation>
+    </message>
 </context>
 <context>
     <name>QBluetoothTransferReply</name>
@@ -1406,7 +1410,7 @@
     </message>
     <message>
         <source>Resource busy.</source>
-        <translation>Ресур зайнятий.</translation>
+        <translation type="vanished">Ресур зайнятий.</translation>
     </message>
 </context>
 <context>
@@ -1445,6 +1449,10 @@
     <message>
         <source>Unknown Error</source>
         <translation>Невідома помилка</translation>
+    </message>
+    <message>
+        <source>Error occurred trying to connect to remote device.</source>
+        <translation>Під час спроби підключення до віддаленого пристрою трапилась помилка.</translation>
     </message>
 </context>
 <context>

@@ -78,8 +78,12 @@
         <translation>Неправильне посилання на псевдонім. Неможливо знайти id &quot;%1&quot;</translation>
     </message>
     <message>
+        <source>Invalid alias target location: %1</source>
+        <translation>Неправильне цільове призначення псевдоніму: %1</translation>
+    </message>
+    <message>
         <source>Invalid alias location</source>
-        <translation>Неправильна позиція псевдоніму</translation>
+        <translation type="vanished">Неправильна позиція псевдоніму</translation>
     </message>
 </context>
 <context>
@@ -998,6 +1002,21 @@
     </message>
 </context>
 <context>
+    <name>QQmlObjectModel</name>
+    <message>
+        <source>insert: index %1 out of range</source>
+        <translation>insert: індекс %1 поза межами діапазону</translation>
+    </message>
+    <message>
+        <source>move: out of range</source>
+        <translation>move: поза межами діапазону</translation>
+    </message>
+    <message>
+        <source>remove: indices [%1 - %2] out of range [0 - %3]</source>
+        <translation>remove: індекси [%1 - %2] поза межами діапазону [0 - %3]</translation>
+    </message>
+</context>
+<context>
     <name>QQmlParser</name>
     <message>
         <source>Illegal syntax for exponential number</source>
@@ -1614,6 +1633,17 @@
     <message>
         <source>Drag is only available via attached properties</source>
         <translation>Drag доступна лише через прикріплені властивості</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickEnterKeyAttached</name>
+    <message>
+        <source>EnterKey attached property only works with Items</source>
+        <translation>Прикріплена властивість EnterKey працює лише з Items</translation>
+    </message>
+    <message>
+        <source>EnterKey is only available via attached properties</source>
+        <translation>EnterKey доступні лише через прикріплені властивості</translation>
     </message>
 </context>
 <context>
