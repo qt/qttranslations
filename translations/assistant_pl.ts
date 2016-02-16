@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="pl">
+<TS version="2.1" language="pl">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -73,10 +73,6 @@ Powód:
     <message>
         <source>Error creating collection file &apos;%1&apos;: %2.</source>
         <translation>Błąd podczas tworzenia pliku kolekcji &quot;%1&quot;: %2.</translation>
-    </message>
-    <message>
-        <source>Error reading collection file &apos;%1&apos;: %2</source>
-        <translation type="obsolete">Błąd podczas czytania pliku kolekcji &quot;%1&quot;: %2</translation>
     </message>
     <message>
         <source>Cannot load sqlite database driver!</source>
@@ -262,8 +258,8 @@ Powód:
         <translation>Adres</translation>
     </message>
     <message>
-        <source>Toolbar Menu</source>
-        <translation>Menu paska narzędzi</translation>
+        <source>Bookmarks Toolbar</source>
+        <translation>Pasek z zakładkami</translation>
     </message>
     <message>
         <source>Bookmarks Menu</source>
@@ -292,40 +288,8 @@ Powód:
 <context>
     <name>CentralWidget</name>
     <message>
-        <source>Add new page</source>
-        <translation type="obsolete">Dodaj nową stronę</translation>
-    </message>
-    <message>
-        <source>Close current page</source>
-        <translation type="obsolete">Zamknij bieżącą stronę</translation>
-    </message>
-    <message>
         <source>Print Document</source>
         <translation>Wydrukuj dokument</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation type="obsolete">nieznany</translation>
-    </message>
-    <message>
-        <source>Add New Page</source>
-        <translation type="obsolete">Dodaj nową stronę</translation>
-    </message>
-    <message>
-        <source>Close This Page</source>
-        <translation type="obsolete">Zamknij tą stronę</translation>
-    </message>
-    <message>
-        <source>Close Other Pages</source>
-        <translation type="obsolete">Zamknij inne strony</translation>
-    </message>
-    <message>
-        <source>Add Bookmark for this Page...</source>
-        <translation type="obsolete">Dodaj zakładkę dla tej strony...</translation>
-    </message>
-    <message>
-        <source>Search</source>
-        <translation type="obsolete">Wyszukaj</translation>
     </message>
 </context>
 <context>
@@ -452,56 +416,6 @@ Powód:
     </message>
 </context>
 <context>
-    <name>ConversionWizard</name>
-    <message>
-        <source>Help Conversion Wizard</source>
-        <translation>Kreator konwersji pomocy</translation>
-    </message>
-    <message>
-        <source>Converting %1...</source>
-        <translation>Konwertowanie %1...</translation>
-    </message>
-    <message>
-        <source>Writing help collection file...</source>
-        <translation>Zapisywanie pliku kolekcji pomocy...</translation>
-    </message>
-    <message>
-        <source>Done.</source>
-        <translation>Zrobione.</translation>
-    </message>
-</context>
-<context>
-    <name>FilesPage</name>
-    <message>
-        <source>Form</source>
-        <translation>Formularz</translation>
-    </message>
-    <message>
-        <source>Files:</source>
-        <translation>Pliki:</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Usuń</translation>
-    </message>
-    <message>
-        <source>Remove All</source>
-        <translation>Usuń wszystko</translation>
-    </message>
-    <message>
-        <source>Unreferenced Files</source>
-        <translation>Niezreferowane pliki</translation>
-    </message>
-    <message>
-        <source>Remove files which are neither referenced by a keyword nor by the TOC.</source>
-        <translation>Usuwa pliki do których nie odnoszą się słowa kluczowe ani spis treści.</translation>
-    </message>
-    <message>
-        <source>&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; When removing images or stylesheets, be aware that those files are not directly referenced by the .adp or .dcf file.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;b&gt;Ostrzeżenie:&lt;/b&gt; Podczas usuwania obrazów oraz arkuszy stylów, bądź świadom, iż owe pliki nie są bezpośrednio używane przez plik .adp lub .dcf.&lt;/p&gt;</translation>
-    </message>
-</context>
-<context>
     <name>FilterNameDialogClass</name>
     <message>
         <source>Add Filter Name</source>
@@ -510,66 +424,6 @@ Powód:
     <message>
         <source>Filter Name:</source>
         <translation>Nazwa filtru:</translation>
-    </message>
-</context>
-<context>
-    <name>FilterPage</name>
-    <message>
-        <source>Form</source>
-        <translation>Formularz</translation>
-    </message>
-    <message>
-        <source>Filter attributes for current documentation (comma separated list):</source>
-        <translation>Atrybuty filtru bieżącej dokumentacji (lista oddzielona przecinkami):</translation>
-    </message>
-    <message>
-        <source>Custom Filters</source>
-        <translation>Własne filtry</translation>
-    </message>
-    <message>
-        <source>1</source>
-        <translation>1</translation>
-    </message>
-    <message>
-        <source>2</source>
-        <translation>2</translation>
-    </message>
-    <message>
-        <source>Add</source>
-        <translation>Dodaj</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Usuń</translation>
-    </message>
-    <message>
-        <source>Filter Settings</source>
-        <translation>Ustawienia filtru</translation>
-    </message>
-    <message>
-        <source>Specify the filter attributes for the documentation. If filter attributes are used, also define a custom filter for it. Both the filter attributes and the custom filters are optional.</source>
-        <translation type="unfinished">Podaj atrybuty filtru dla dokumentacji. </translation>
-    </message>
-    <message>
-        <source>Filter Name</source>
-        <translation>Nazwa filtru</translation>
-    </message>
-    <message>
-        <source>Filter Attributes</source>
-        <translation>Atrybuty filtru</translation>
-    </message>
-    <message>
-        <source>The custom filter &apos;%1&apos; is defined multiple times.</source>
-        <translation>Własny filtr &quot;%1&quot; jest wielokrotnie zdefiniowany.</translation>
-    </message>
-    <message>
-        <source>The attributes for custom filter &apos;%1&apos; are defined multiple times.</source>
-        <translation>Atrybuty własnego filtru &quot;%1&quot; są wielokrotnie zdefiniowane.</translation>
-    </message>
-    <message>
-        <source>unfiltered</source>
-        <comment>list of available documentation</comment>
-        <translation>nieprzefiltrowana</translation>
     </message>
 </context>
 <context>
@@ -587,19 +441,8 @@ Powód:
         <translation>Uwzględniaj wielkość liter</translation>
     </message>
     <message>
-        <source>&lt;img src=&quot;:/trolltech/assistant/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
-        <translation>&lt;img src=&quot;:/trolltech/assistant/images/wrap.png&quot;&gt;&amp;nbsp;Przeszukano od początku</translation>
-    </message>
-</context>
-<context>
-    <name>FinishPage</name>
-    <message>
-        <source>Converting File</source>
-        <translation>Konwertowanie pliku</translation>
-    </message>
-    <message>
-        <source>Creating the new Qt help files from the old ADP file.</source>
-        <translation>Tworzenie nowych plików pomocy Qt ze starego pliku ADP.</translation>
+        <source>&lt;img src=&quot;:/qt-project.org/assistant/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
+        <translation>&lt;img src=&quot;:/qt-project.org/assistant/images/wrap.png&quot;&gt;&amp;nbsp;Przeszukano od początku</translation>
     </message>
 </context>
 <context>
@@ -623,45 +466,6 @@ Powód:
     <message>
         <source>&amp;Point size</source>
         <translation>&amp;Wielkość punktu</translation>
-    </message>
-</context>
-<context>
-    <name>GeneralPage</name>
-    <message>
-        <source>Form</source>
-        <translation>Formularz</translation>
-    </message>
-    <message>
-        <source>Namespace:</source>
-        <translation>Przestrzeń nazw:</translation>
-    </message>
-    <message>
-        <source>Virtual Folder:</source>
-        <translation>Wirtualny katalog:</translation>
-    </message>
-    <message>
-        <source>General Settings</source>
-        <translation>Ustawienia ogólne</translation>
-    </message>
-    <message>
-        <source>Specify the namespace and the virtual folder for the documentation.</source>
-        <translation>Podaj przestrzeń nazw i wirtualny katalog dla dokumentacji.</translation>
-    </message>
-    <message>
-        <source>Namespace Error</source>
-        <translation>Błąd przestrzeni nazw</translation>
-    </message>
-    <message>
-        <source>The namespace contains some invalid characters.</source>
-        <translation>Przestrzeń nazw zawiera niepoprawne znaki.</translation>
-    </message>
-    <message>
-        <source>Virtual Folder Error</source>
-        <translation>Błąd wirtualnego katalogu</translation>
-    </message>
-    <message>
-        <source>The virtual folder contains some invalid characters.</source>
-        <translation>Wirtualny katalog zawiera niepoprawne znaki.</translation>
     </message>
 </context>
 <context>
@@ -715,21 +519,14 @@ Powód:
     </message>
 </context>
 <context>
-    <name>HelpGenerator</name>
-    <message>
-        <source>Warning: %1</source>
-        <translation>Ostrzeżenie: %1</translation>
-    </message>
-</context>
-<context>
     <name>HelpViewer</name>
     <message>
         <source>&lt;title&gt;about:blank&lt;/title&gt;</source>
-        <translation>&lt;title&gt;o:pusty&lt;/title&gt;</translation>
+        <translation>&lt;title&gt;informacje o:pusty&lt;/title&gt;</translation>
     </message>
     <message>
-        <source>&lt;title&gt;Error 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;The page could not be found&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</source>
-        <translation>&lt;title&gt;Błąd 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;Strona nie może być znaleziona&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</translation>
+        <source>&lt;title&gt;Error 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;The page could not be found.&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</source>
+        <translation>&lt;title&gt;Błąd 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;Strona nie może zostać odnaleziona.&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</translation>
     </message>
     <message>
         <source>Open Link</source>
@@ -752,46 +549,24 @@ Powód:
         <translation>Otwórz odsyłacz w nowej karcie	Ctrl+LMB</translation>
     </message>
     <message>
-        <source>Open Link in New Tab</source>
-        <translation type="obsolete">Otwórz odsyłacz w nowej karcie</translation>
-    </message>
-    <message>
         <source>Open Link in New Page</source>
         <translation>Otwórz odsyłacz na nowej stronie</translation>
     </message>
-</context>
-<context>
-    <name>HelpWindow</name>
     <message>
-        <source>&lt;center&gt;&lt;b&gt;Wizard Assistant&lt;/b&gt;&lt;/center&gt;</source>
-        <translation>&lt;center&gt;&lt;b&gt;Asystent kreatora&lt;/b&gt;&lt;/center&gt;</translation>
-    </message>
-</context>
-<context>
-    <name>IdentifierPage</name>
-    <message>
-        <source>Form</source>
-        <translation>Formularz</translation>
+        <source>Error 404...</source>
+        <translation>Błąd 404...</translation>
     </message>
     <message>
-        <source>Create identifiers</source>
-        <translation>Utwórz identyfikatory</translation>
+        <source>The page could not be found!</source>
+        <translation>Strona nie może zostać odnaleziona.</translation>
     </message>
     <message>
-        <source>Global prefix:</source>
-        <translation>Przedrostek globalny:</translation>
+        <source>Please make sure that you have all documentation sets installed.</source>
+        <translation>Proszę sprawdzić, czy zainstalowano wszystkie zestawy dokumentacji.</translation>
     </message>
     <message>
-        <source>Inherit prefix from file names</source>
-        <translation>Wywiedź przedrostek z nazw plików</translation>
-    </message>
-    <message>
-        <source>Identifiers</source>
-        <translation>Identyfikatory</translation>
-    </message>
-    <message>
-        <source>This page allows you to create identifiers from the keywords found in the .adp or .dcf file.</source>
-        <translation>Ta strona umożliwia utworzenie identyfikatorów na podstawie kluczy znalezionych w pliku .adp lub .dcf.</translation>
+        <source>Error loading: %1</source>
+        <translation>Błąd ładowania: %1</translation>
     </message>
 </context>
 <context>
@@ -807,130 +582,6 @@ Powód:
     <message>
         <source>Open Link in New Tab</source>
         <translation>Otwórz odsyłacz w nowej karcie</translation>
-    </message>
-</context>
-<context>
-    <name>InputPage</name>
-    <message>
-        <source>Form</source>
-        <translation>Formularz</translation>
-    </message>
-    <message>
-        <source>File name:</source>
-        <translation>Nazwa pliku:</translation>
-    </message>
-    <message>
-        <source>...</source>
-        <translation>...</translation>
-    </message>
-    <message>
-        <source>Input File</source>
-        <translation>Plik wejściowy</translation>
-    </message>
-    <message>
-        <source>Specify the .adp or .dcf file you want to convert to the new Qt help project format and/or collection format.</source>
-        <translation>Podaj plik .adp albo .dcf, który chcesz skonwertować do nowego formatu projektu albo kolekcji pomocy Qt.</translation>
-    </message>
-    <message>
-        <source>Open file</source>
-        <translation>Otwórz plik</translation>
-    </message>
-    <message>
-        <source>Qt Help Files (*.adp *.dcf)</source>
-        <translation>Pliki pomocy Qt (*.adp *.dcf)</translation>
-    </message>
-    <message>
-        <source>File Open Error</source>
-        <translation>Błąd otwierania pliku</translation>
-    </message>
-    <message>
-        <source>The specified file could not be opened!</source>
-        <translation>Nie można otworzyć podanego pliku!</translation>
-    </message>
-    <message>
-        <source>File Parsing Error</source>
-        <translation>Błąd parsowania pliku</translation>
-    </message>
-    <message>
-        <source>Parsing error in line %1!</source>
-        <translation>Błąd parsowania w linii %1!</translation>
-    </message>
-</context>
-<context>
-    <name>InstallDialog</name>
-    <message>
-        <source>Install Documentation</source>
-        <translation>Zainstaluj dokumentację</translation>
-    </message>
-    <message>
-        <source>Downloading documentation info...</source>
-        <translation>Pobieranie informacji o dokumentacji...</translation>
-    </message>
-    <message>
-        <source>Download canceled.</source>
-        <translation>Anulowano pobieranie.</translation>
-    </message>
-    <message>
-        <source>Done.</source>
-        <translation>Zrobione.</translation>
-    </message>
-    <message>
-        <source>The file %1 already exists. Do you want to overwrite it?</source>
-        <translation>Plik %1 już istnieje. Czy chcesz go nadpisać?</translation>
-    </message>
-    <message>
-        <source>Unable to save the file %1: %2.</source>
-        <translation>Nie można zachować pliku %1: %2.</translation>
-    </message>
-    <message>
-        <source>Downloading %1...</source>
-        <translation>Pobieranie %1...</translation>
-    </message>
-    <message>
-        <source>Download failed: %1.</source>
-        <translation>Pobieranie nie powiodło się: %1.</translation>
-    </message>
-    <message>
-        <source>Documentation info file is corrupt!</source>
-        <translation>Plik z informacjami o dokumentacji jest uszkodzony!</translation>
-    </message>
-    <message>
-        <source>Download failed: Downloaded file is corrupted.</source>
-        <translation>Pobieranie nie powiodło się: pobrany plik jest uszkodzony.</translation>
-    </message>
-    <message>
-        <source>Installing documentation %1...</source>
-        <translation>Instalowanie dokumentacji %1...</translation>
-    </message>
-    <message>
-        <source>Error while installing documentation:
-%1</source>
-        <translation>Błąd podczas instalowania dokumentacji:
-%1</translation>
-    </message>
-    <message>
-        <source>Available Documentation:</source>
-        <translation>Dostępna dokumentacja:</translation>
-    </message>
-    <message>
-        <source>Install</source>
-        <translation>Zainstaluj</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Anuluj</translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation>Zamknij</translation>
-    </message>
-    <message>
-        <source>Installation Path:</source>
-        <translation>Ścieżka instalacji:</translation>
-    </message>
-    <message>
-        <source>...</source>
-        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -964,10 +615,6 @@ Powód:
         <translation>Podgląd wydruku...</translation>
     </message>
     <message>
-        <source>&amp;Print...</source>
-        <translation type="obsolete">Wy&amp;drukuj...</translation>
-    </message>
-    <message>
         <source>New &amp;Tab</source>
         <translation>Nowa kar&amp;ta</translation>
     </message>
@@ -984,18 +631,6 @@ Powód:
         <translation>CTRL+Q</translation>
     </message>
     <message>
-        <source>&amp;Copy selected Text</source>
-        <translation type="obsolete">S&amp;kopiuj zaznaczony tekst</translation>
-    </message>
-    <message>
-        <source>&amp;Find in Text...</source>
-        <translation type="obsolete">Znajdź w &amp;tekście...</translation>
-    </message>
-    <message>
-        <source>&amp;Find</source>
-        <translation type="obsolete">&amp;Znajdź</translation>
-    </message>
-    <message>
         <source>Find &amp;Next</source>
         <translation>Znajdź &amp;następny</translation>
     </message>
@@ -1006,14 +641,6 @@ Powód:
     <message>
         <source>Preferences...</source>
         <translation>Ustawienia...</translation>
-    </message>
-    <message>
-        <source>Zoom &amp;in</source>
-        <translation type="obsolete">Po&amp;większ</translation>
-    </message>
-    <message>
-        <source>Zoom &amp;out</source>
-        <translation type="obsolete">Po&amp;mniejsz</translation>
     </message>
     <message>
         <source>Normal &amp;Size</source>
@@ -1034,18 +661,6 @@ Powód:
     <message>
         <source>ALT+S</source>
         <translation>ALT+S</translation>
-    </message>
-    <message>
-        <source>&amp;Home</source>
-        <translation type="obsolete">Strona &amp;startowa</translation>
-    </message>
-    <message>
-        <source>&amp;Back</source>
-        <translation type="obsolete">&amp;Wstecz</translation>
-    </message>
-    <message>
-        <source>&amp;Forward</source>
-        <translation type="obsolete">W &amp;przód</translation>
     </message>
     <message>
         <source>Sync with Table of Contents</source>
@@ -1070,10 +685,6 @@ Powód:
     <message>
         <source>Ctrl+Alt+Left</source>
         <translation></translation>
-    </message>
-    <message>
-        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2012 Nokia Corporation and/or its subsidiary(-ies).&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Could not register file &apos;%1&apos;: %2</source>
@@ -1128,6 +739,10 @@ Powód:
         <translation>Nie można znaleźć skojarzonego elementu zawartości.</translation>
     </message>
     <message>
+        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;p&gt;Browser: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>About %1</source>
         <translation>Informacje o %1</translation>
     </message>
@@ -1172,10 +787,6 @@ Powód:
         <translation>&amp;Nawigacja</translation>
     </message>
     <message>
-        <source>ALT+Home</source>
-        <translation type="obsolete">ALT+Home</translation>
-    </message>
-    <message>
         <source>&amp;Bookmarks</source>
         <translation>&amp;Zakładki</translation>
     </message>
@@ -1197,92 +808,6 @@ Powód:
     <message>
         <source>Close All Except %1</source>
         <translation>Zamknij wszystko z wyjątkiem %1</translation>
-    </message>
-</context>
-<context>
-    <name>OutputPage</name>
-    <message>
-        <source>Form</source>
-        <translation>Formularz</translation>
-    </message>
-    <message>
-        <source>Project file name:</source>
-        <translation>Nazwa pliku projektu:</translation>
-    </message>
-    <message>
-        <source>Collection file name:</source>
-        <translation>Nazwa pliku kolekcji:</translation>
-    </message>
-    <message>
-        <source>Output File Names</source>
-        <translation>Nazwy plików wyjściowych</translation>
-    </message>
-    <message>
-        <source>Specify the file names for the output files.</source>
-        <translation>Podaj nazwy plików wyjściowych.</translation>
-    </message>
-    <message>
-        <source>Convert...</source>
-        <translation>Konwertuj...</translation>
-    </message>
-    <message>
-        <source>Qt Help Project File</source>
-        <translation>Plik projektu pomocy Qt</translation>
-    </message>
-    <message>
-        <source>Qt Help Collection Project File</source>
-        <translation>Plik projektu kolekcji pomocy Qt</translation>
-    </message>
-    <message>
-        <source>The specified file %1 already exist.
-
-Do you want to remove it?</source>
-        <translation>Podany plik %1 już istnieje.
-
-Czy chcesz go usunąć?</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Usuń</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Anuluj</translation>
-    </message>
-</context>
-<context>
-    <name>PathPage</name>
-    <message>
-        <source>Form</source>
-        <translation>Formularz</translation>
-    </message>
-    <message>
-        <source>File filters:</source>
-        <translation>Filtry pliku:</translation>
-    </message>
-    <message>
-        <source>Documentation source file paths:</source>
-        <translation>Ścieżki do plików źródłowych dokumentacji:</translation>
-    </message>
-    <message>
-        <source>Add</source>
-        <translation>Dodaj</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Usuń</translation>
-    </message>
-    <message>
-        <source>Source File Paths</source>
-        <translation>Ścieżki do plików źródłowych</translation>
-    </message>
-    <message>
-        <source>Specify the paths where the sources files are located. By default, all files in those directories matched by the file filter will be included.</source>
-        <translation>Podaj ścieżki do plików źródłowych. Domyślnie dołączone zostaną wszystkie pliki przepuszczone przez filtr w tych katalogach.</translation>
-    </message>
-    <message>
-        <source>Source File Path</source>
-        <translation>Ścieżka do pliku źródłowego</translation>
     </message>
 </context>
 <context>
@@ -1428,173 +953,6 @@ Czy chcesz go usunąć?</translation>
     </message>
 </context>
 <context>
-    <name>QCollectionGenerator</name>
-    <message>
-        <source>Unknown token at line %1.</source>
-        <translation>Nieznany znak w linii %1.</translation>
-    </message>
-    <message>
-        <source>Unknown token at line %1. Expected &quot;QtHelpCollectionProject&quot;.</source>
-        <translation>Nieznany znak w linii %1. Oczekiwano &quot;QtHelpCollectionProject&quot;.</translation>
-    </message>
-    <message>
-        <source>Missing end tags.</source>
-        <translation>Brak tagu końcowego.</translation>
-    </message>
-    <message>
-        <source>Missing input or output file for help file generation.</source>
-        <translation>Brak pliku wejściowego lub wyjściowego potrzebnego do wygenerowania pliku pomocy.</translation>
-    </message>
-    <message>
-        <source>Missing output file name.</source>
-        <translation>Brak nazwy pliku wyjściowego.</translation>
-    </message>
-    <message>
-        <source>Qt Collection Generator version 1.0 (Qt %1)
-</source>
-        <translation>Wersja 1.0 (Qt %1) generatora kolekcji Qt</translation>
-    </message>
-    <message>
-        <source>Missing collection config file.</source>
-        <translation>Brak pliku konfiguracyjnego kolekcji.</translation>
-    </message>
-    <message>
-        <source>
-Usage:
-
-qcollectiongenerator &lt;collection-config-file&gt; [options]
-
-  -o &lt;collection-file&gt;   Generates a collection file
-                         called &lt;collection-file&gt;. If
-                         this option is not specified
-                         a default name will be used.
-  -v                     Displays the version of
-                         qcollectiongenerator.
-
-</source>
-        <translation>
-Sposób użycia:
-
-qcollectiongenerator &lt;plik-konfiguracyjny-kolekcji&gt; [opcje]
-
-  -o &lt;plik-kolekcji&gt;     Generuje plik kolekcji
-                         &lt;plik-kolekcji&gt;. Jeśli opcja ta
-                         nie jest podana, użyta zostanie
-                         domyślna nazwa.
-  -v                     Wyświetla wersję
-                         qcollectiongeneratora.
-
-</translation>
-    </message>
-    <message>
-        <source>Could not open %1.
-</source>
-        <translation>Nie można otworzyć %1.
-</translation>
-    </message>
-    <message>
-        <source>Reading collection config file...
-</source>
-        <translation>Wczytywanie pliku konfiguracyjnego kolekcji...</translation>
-    </message>
-    <message>
-        <source>Collection config file error: %1
-</source>
-        <translation>Błąd pliku konfiguracyjnego kolekcji: %1
-</translation>
-    </message>
-    <message>
-        <source>Generating help for %1...
-</source>
-        <translation>Generowanie pomocy dla %1...
-</translation>
-    </message>
-    <message>
-        <source>Creating collection file...
-</source>
-        <translation>Tworzenie pliku kolekcji...
-</translation>
-    </message>
-    <message>
-        <source>The file %1 cannot be overwritten.
-</source>
-        <translation>Nie można nadpisać pliku %1.
-</translation>
-    </message>
-    <message>
-        <source>Cannot open %1.
-</source>
-        <translation>Nie można otworzyć %1.
-</translation>
-    </message>
-    <message>
-        <source>Cannot open referenced image file %1.
-</source>
-        <translation>Nie można otworzyć pliku obrazu %1.
-</translation>
-    </message>
-</context>
-<context>
-    <name>QHelpGenerator</name>
-    <message>
-        <source>Missing output file name.</source>
-        <translation>Brak nazwy pliku wyjściowego.</translation>
-    </message>
-    <message>
-        <source>Qt Help Generator version 1.0 (Qt %1)
-</source>
-        <translation>Wersja 1.0 (Qt %1) generatora pomocy Qt</translation>
-    </message>
-    <message>
-        <source>Missing Qt help project file.</source>
-        <translation>Brak pliku projektu pomocy Qt.</translation>
-    </message>
-    <message>
-        <source>
-Usage:
-
-qhelpgenerator &lt;help-project-file&gt; [options]
-
-  -o &lt;compressed-file&gt;   Generates a Qt compressed help
-                         file called &lt;compressed-file&gt;.
-                         If this option is not specified
-                         a default name will be used.
-  -c                     Checks whether all links in HTML files
-                         point to files in this help project.
-  -v                     Displays the version of 
-                         qhelpgenerator.
-
-</source>
-        <translation>
-Sposób użycia:
-
-qhelpgenerator &lt;plik-projektu-pomocy&gt; [opcje]
-
-  -o &lt;skompresowany-plik&gt;  Generuje skompresowany plik
-                           pomocy Qt &lt;skompresowany-plik&gt;.
-                           Jeśli opcja ta nie jest podana, użyta
-                           zostanie domyślna nazwa.
-  -c                       Sprawdza czy wszystkie odnośniki w plikach HTML
-                           wskazują na pliki w tym projekcie pomocy.
-  -v                       Wyświetla wersję
-                           qhelpgeneratora.
-
-</translation>
-    </message>
-    <message>
-        <source>Could not open %1.
-</source>
-        <translation>Nie można otworzyć %1.
-</translation>
-    </message>
-    <message>
-        <source>Could not create output directory: %1
-</source>
-        <translation>Nie można utorzyć katalogu wyjściowego: %1
-</translation>
-    </message>
-</context>
-<context>
     <name>RemoteControl</name>
     <message>
         <source>Debugging Remote Control</source>
@@ -1649,6 +1007,10 @@ qhelpgenerator &lt;plik-projektu-pomocy&gt; [opcje]
 </context>
 <context>
     <name>TopicChooser</name>
+    <message>
+        <source>Filter</source>
+        <translation>Filtr</translation>
+    </message>
     <message>
         <source>Choose a topic for &lt;b&gt;%1&lt;/b&gt;:</source>
         <translation>Wybierz temat dla &lt;b&gt;%1&lt;/b&gt;:</translation>
