@@ -79,8 +79,8 @@
         <translation>Invalid alias reference. Unable to find id &quot;%1&quot;</translation>
     </message>
     <message>
-        <source>Invalid alias location</source>
-        <translation>Invalid alias location</translation>
+        <source>Invalid alias target location: %1</source>
+        <translation>Invalid alias target location: %1</translation>
     </message>
 </context>
 <context>
@@ -555,6 +555,21 @@
     <message>
         <source>Composite Singleton Type %1 is not creatable</source>
         <translation>Composite Singleton Type %1 is not creatable</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlObjectModel</name>
+    <message>
+        <source>insert: index %1 out of range</source>
+        <translation>insert: index %1 out of range</translation>
+    </message>
+    <message>
+        <source>move: out of range</source>
+        <translation>move: out of range</translation>
+    </message>
+    <message>
+        <source>remove: indices [%1 - %2] out of range [0 - %3]</source>
+        <translation>remove: indices [%1 - %2] out of range [0 - %3]</translation>
     </message>
 </context>
 <context>
@@ -1106,6 +1121,17 @@
     <message>
         <source>Drag is only available via attached properties</source>
         <translation>Drag is only available via attached properties</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickEnterKeyAttached</name>
+    <message>
+        <source>EnterKey attached property only works with Items</source>
+        <translation>EnterKey attached property only works with Items</translation>
+    </message>
+    <message>
+        <source>EnterKey is only available via attached properties</source>
+        <translation>EnterKey is only available via attached properties</translation>
     </message>
 </context>
 <context>

@@ -947,12 +947,6 @@ till
         <translation>Inkompatibelt Qt-biblioteksfel</translation>
     </message>
     <message>
-        <location filename="../src/gui/kernel/qapplication.cpp" line="+2248"/>
-        <source>QT_LAYOUT_DIRECTION</source>
-        <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
-        <translation>LTR</translation>
-    </message>
-    <message>
         <location filename="../src/gui/accessible/qaccessibleobject.cpp" line="+2"/>
         <source>Activates the program&apos;s main window</source>
         <translation>Aktiverar programmets huvudfönster</translation>
@@ -2188,6 +2182,15 @@ Vill du ta bort den ändå?</translation>
         <location line="+2"/>
         <source>Connected to host</source>
         <translation>Ansluten till värden</translation>
+    </message>
+</context>
+<context>
+    <name>QGuiApplication</name>
+    <message>
+        <location filename="../src/gui/kernel/qapplication.cpp" line="+2248"/>
+        <source>QT_LAYOUT_DIRECTION</source>
+        <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
+        <translation>LTR</translation>
     </message>
 </context>
 <context>

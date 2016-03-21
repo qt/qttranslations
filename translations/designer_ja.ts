@@ -746,6 +746,13 @@
     </message>
 </context>
 <context>
+    <name>Dialog</name>
+    <message>
+        <source>Dialog</source>
+        <translation>ダイアログ</translation>
+    </message>
+</context>
+<context>
     <name>EmbeddedOptionsControl</name>
     <message>
         <source>&lt;html&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Font&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1, %2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Style&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Resolution&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%4 x %5&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;</source>
@@ -806,6 +813,13 @@
     <message>
         <source>Antialiasing</source>
         <translation>アンチエイリアス</translation>
+    </message>
+</context>
+<context>
+    <name>Form</name>
+    <message>
+        <source>Form</source>
+        <translation>フォーム</translation>
     </message>
 </context>
 <context>
@@ -952,6 +966,13 @@
         <source>XX Icon Selected off</source>
         <extracomment>Sample string to determinate the width for the first column of the list item property browser</extracomment>
         <translation>XX Icon Selected off</translation>
+    </message>
+</context>
+<context>
+    <name>MainWindow</name>
+    <message>
+        <source>MainWindow</source>
+        <translation>メインウィンドウ</translation>
     </message>
 </context>
 <context>
@@ -1638,10 +1659,6 @@ Would you like to retry?</source>
     <message>
         <source>The class attribute for the class %1 does not match the class name %2.</source>
         <translation>クラス %1 のクラス属性はクラス名 %2 と一致しません。</translation>
-    </message>
-    <message>
-        <source>Not loaded due to potential symbol clashes (QTCREATORBUG-10273)</source>
-        <translation>存在的なシンボルクラッシュ (QTCREATORBUG-10273)の影響によりロードされません</translation>
     </message>
 </context>
 <context>
@@ -3141,8 +3158,8 @@ Do you want overwrite the template?</source>
         <translation>&lt;br/&gt;Qt Designer は、Qt アプリケーションをデザインするための GUI ツールです。&lt;br/&gt;</translation>
     </message>
     <message>
-        <source>%1&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd.</source>
-        <translation>%1&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd.</translation>
+        <source>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</source>
+        <translation>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</translation>
     </message>
 </context>
 <context>

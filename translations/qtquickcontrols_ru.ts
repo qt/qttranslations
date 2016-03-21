@@ -121,6 +121,42 @@
         <translation>Наклонный</translation>
     </message>
     <message>
+        <source>Thin</source>
+        <translation>Тонкий</translation>
+    </message>
+    <message>
+        <source>ExtraLight</source>
+        <translation>Очень светлый</translation>
+    </message>
+    <message>
+        <source>Light</source>
+        <translation>Светлый</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Стандартный</translation>
+    </message>
+    <message>
+        <source>Medium</source>
+        <translation>Средний</translation>
+    </message>
+    <message>
+        <source>DemiBold</source>
+        <translation>Полужирный</translation>
+    </message>
+    <message>
+        <source>Bold</source>
+        <translation>Жирный</translation>
+    </message>
+    <message>
+        <source>ExtraBold</source>
+        <translation>Очень жирный</translation>
+    </message>
+    <message>
+        <source>Black</source>
+        <translation>Чёрный</translation>
+    </message>
+    <message>
         <source>Underline</source>
         <translation>Подчёркнутый</translation>
     </message>

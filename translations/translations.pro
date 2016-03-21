@@ -1,7 +1,5 @@
 TEMPLATE = aux
 
-TRANSLATIONS = $$files(*.ts)
-
 load(qt_build_paths)
 
 qtPrepareTool(LRELEASE, lrelease)
@@ -26,6 +24,8 @@ defineTest(addTsTarget) {
     export(TS_TARGETS)
 }
 
+TS_MODULES =
+
 # target basename, project files
 defineTest(addTsTargets) {
     files = $$files($$PWD/$${1}_??.ts) $$files($$PWD/$${1}_??_??.ts)
@@ -35,6 +35,8 @@ defineTest(addTsTargets) {
     }
     addTsTarget(ts-untranslated, ts-$$1-untranslated, $$2, $$PWD/$${1}_untranslated.ts)
     addTsTarget(ts-all, ts-$$1-all, $$2, $$PWD/$${1}_untranslated.ts $$files)
+    TS_MODULES += $$1
+    export(TS_MODULES)
 }
 
 addTsTargets(qtbase, qtbase/src/src.pro \
@@ -60,6 +62,8 @@ addTsTargets(qtlocation, qtlocation/src/src.pro)
 #addTsTargets(qtsensors, qtsensors/src/src.pro) # empty
 #addTsTargets(qtsystems, qtsystems/src/src.pro)  # not part of 5.0
 addTsTargets(qtwebsockets, qtwebsockets/src/src.pro)
+addTsTargets(qtserialport, qtserialport/src/src.pro)
+addTsTargets(qtwebengine, qtwebengine/src/src.pro)
 
 addTsTargets(designer, qttools/src/designer/designer.pro)
 addTsTargets(linguist, qttools/src/linguist/linguist/linguist.pro)
@@ -75,19 +79,19 @@ check-ts.depends = ts-all
 isEqual(QMAKE_DIR_SEP, /) {
     commit-ts.commands = \
         cd $$PWD/..; \
-        git add -N translations/*_??.ts && \
+        git add -N \"translations/*_??.ts\" && \
         for f in `git diff-files --name-only translations/*_??.ts`; do \
             $$LCONVERT -locations none -i \$\$f -o \$\$f; \
         done; \
-        git add translations/*_??.ts && git commit
+        git add \"translations/*_??.ts\" && git commit
 } else {
     wd = $$replace(PWD, /, \\)\\..
     commit-ts.commands = \
         cd $$wd && \
-        git add -N translations/*_??.ts && \
+        git add -N \"translations/*_??.ts\" && \
         for /f usebackq %%f in (`git diff-files --name-only translations/*_??.ts`) do \
             $$LCONVERT -locations none -i %%f -o %%f $$escape_expand(\\n\\t) \
-        cd $$wd && git add translations/*_??.ts && git commit
+        cd $$wd && git add \"translations/*_??.ts\" && git commit
 }
 
 ts.commands = \
@@ -105,9 +109,20 @@ updateqm.name = LRELEASE ${QMAKE_FILE_IN}
 updateqm.CONFIG += no_link target_predeps
 QMAKE_EXTRA_COMPILERS += updateqm
 
+# generate empty _en.ts files
+empty_ts = "<TS></TS>"
+for (module_name, TS_MODULES) {
+    write_file($$OUT_PWD/$${module_name}_en.ts, empty_ts)|error("Aborting.")
+}
+write_file($$OUT_PWD/qt_en.ts, empty_ts)|error("Aborting.")
+
+TRANSLATIONS = $$files(*.ts)
+!isEqual(OUT_PWD, $$PWD): TRANSLATIONS += $$files($$OUT_PWD/*.ts)
+
 translations.path = $$[QT_INSTALL_TRANSLATIONS]
 translations.files = $$TRANSLATIONS
 translations.files ~= s,\\.ts$,.qm,g
+translations.files ~= s,^$$re_escape($$OUT_PWD),,g
 translations.files ~= s,^,$$MODULE_BASE_OUTDIR/translations/,g
 translations.CONFIG += no_check_exist
 INSTALLS += translations

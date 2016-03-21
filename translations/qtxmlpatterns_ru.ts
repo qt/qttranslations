@@ -1072,15 +1072,15 @@
     </message>
     <message>
         <source>Attribute %1 in derived complex type must have the same %2 value constraint like in base type.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 производного сложного типа должен иметь такое же ограничение %2 значения, как и базовый тип.</translation>
     </message>
     <message>
         <source>Attribute %1 in derived complex type must have %2 value constraint.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 производного сложного типа должен иметь ограничение %2 значения.</translation>
     </message>
     <message>
         <source>processContent of base wildcard must be weaker than derived wildcard.</source>
-        <translation type="unfinished"></translation>
+        <translation>processContent базового шаблона должен быть слабее производного.</translation>
     </message>
     <message>
         <source>Element %1 exists twice with different types.</source>
@@ -1092,63 +1092,63 @@
     </message>
     <message>
         <source>Base attribute %1 is required but derived attribute is not.</source>
-        <translation type="unfinished"></translation>
+        <translation>Базовый атрибут %1 необходим, а производный нет.</translation>
     </message>
     <message>
         <source>Type of derived attribute %1 cannot be validly derived from type of base attribute.</source>
-        <translation type="unfinished"></translation>
+        <translation>Нельзя унаследовать тип производного атрибута %1 от базового.</translation>
     </message>
     <message>
         <source>Value constraint of derived attribute %1 does not match value constraint of base attribute.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ограничение значения производного атрибута %1 не соответствует базовому.</translation>
     </message>
     <message>
         <source>Derived attribute %1 does not exist in the base definition.</source>
-        <translation type="unfinished"></translation>
+        <translation>Производный атрибут %1 отсутствует в определении предка.</translation>
     </message>
     <message>
         <source>Derived attribute %1 does not match the wildcard in the base definition.</source>
-        <translation type="unfinished"></translation>
+        <translation>Производный атрибут %1 не соответствует шаблону в определении предка.</translation>
     </message>
     <message>
         <source>Base attribute %1 is required but missing in derived definition.</source>
-        <translation type="unfinished"></translation>
+        <translation>Базовый атрибут %1 требуется, но отсутствует в определении производного.</translation>
     </message>
     <message>
         <source>Derived definition contains an %1 element that does not exists in the base definition</source>
-        <translation type="unfinished"></translation>
+        <translation>Определение производного содержит элемент %1, который отсутствует в базовом</translation>
     </message>
     <message>
         <source>Derived wildcard is not a subset of the base wildcard.</source>
-        <translation type="unfinished"></translation>
+        <translation>Производный шаблон не является подмножеством базового.</translation>
     </message>
     <message>
         <source>%1 of derived wildcard is not a valid restriction of %2 of base wildcard</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 производного шаблона не является корректным ограничением %2 базового</translation>
     </message>
     <message>
         <source>Attribute %1 from base type is missing in derived type.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 базового типа отсуствует в производном.</translation>
     </message>
     <message>
         <source>Type of derived attribute %1 differs from type of base attribute.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тип производного атрибута %1 отличается от типа базового.</translation>
     </message>
     <message>
         <source>Base definition contains an %1 element that is missing in the derived definition</source>
-        <translation type="unfinished"></translation>
+        <translation>Определение предка содержит элемент %1, отсутствующий в производном</translation>
     </message>
     <message>
         <source>Can not process unknown element %1, expected elements are: %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно обработать неизвестный элемент %1, ожидаемые элементы: %2.</translation>
     </message>
     <message>
         <source>Element %1 is not allowed in this scope, possible elements are: %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Элемент %1 недопустим в этой области, возможны следующие элементы: %2.</translation>
     </message>
     <message>
         <source>Child element is missing in that scope, possible child elements are: %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Отсутствует дочерний элемент в этой области. Допустимы следующие дочерние элементы: %1.</translation>
     </message>
     <message>
         <source>Document is not a XML schema.</source>
@@ -1156,11 +1156,11 @@
     </message>
     <message>
         <source>%1 attribute of %2 element contains invalid content: {%3} is not a value of type %4.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 элемента %2 содержит недопустимые данные: {%3} не является значением типа %4.</translation>
     </message>
     <message>
         <source>%1 attribute of %2 element contains invalid content: {%3}.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 элемента %2 содержит неверные данные: {%3}.</translation>
     </message>
     <message>
         <source>Target namespace %1 of included schema is different from the target namespace %2 as defined by the including schema.</source>
@@ -1188,7 +1188,7 @@
     </message>
     <message>
         <source>%1 element with %2 child element must not have a %3 attribute.</source>
-        <translation type="unfinished"></translation>
+        <translation>Элемент %1 с дочерним элементом %2 не должен иметь атрибут %3.</translation>
     </message>
     <message>
         <source>%1 attribute of %2 element must be %3 or %4.</source>
@@ -1208,7 +1208,7 @@
     </message>
     <message>
         <source>Content of %1 attribute of %2 element must not be from namespace %3.</source>
-        <translation type="unfinished"></translation>
+        <translation>Содержимое атрибута %1 элемента %2 не должно быть из пространства имён %3.</translation>
     </message>
     <message>
         <source>%1 attribute of %2 element must not be %3.</source>
@@ -1216,23 +1216,23 @@
     </message>
     <message>
         <source>%1 attribute of %2 element must have the value %3 because the %4 attribute is set.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 элемента %2 должен иметь значение %3, так как задан атрибут %4.</translation>
     </message>
     <message>
         <source>Specifying use=&apos;prohibited&apos; inside an attribute group has no effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Нет смысла указывать use=&apos;prohibited&apos; внутри группы атрибутов.</translation>
     </message>
     <message>
         <source>%1 element must have either %2 or %3 attribute.</source>
-        <translation type="unfinished"></translation>
+        <translation>Элемент %1 должен иметь атрибут %2 или %3.</translation>
     </message>
     <message>
         <source>%1 element must have either %2 attribute or %3 or %4 as child element.</source>
-        <translation type="unfinished"></translation>
+        <translation>Элемент %1 должен иметь атрибут %2 или %3 или дочерний элемент %4.</translation>
     </message>
     <message>
         <source>%1 element requires either %2 or %3 attribute.</source>
-        <translation type="unfinished"></translation>
+        <translation>Элемент %1 должен иметь атрибут %2 или %3.</translation>
     </message>
     <message>
         <source>Text or entity references not allowed inside %1 element</source>
@@ -1240,7 +1240,7 @@
     </message>
     <message>
         <source>%1 attribute of %2 element must contain %3, %4 or a list of URIs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 элемента %2 должен содержать %3, %4 или список URI.</translation>
     </message>
     <message>
         <source>%1 element is not allowed in this context.</source>
@@ -1248,7 +1248,7 @@
     </message>
     <message>
         <source>%1 attribute of %2 element has larger value than %3 attribute.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 элемента %2 имеет значение большее, чем атрибут %3.</translation>
     </message>
     <message>
         <source>Prefix of qualified name %1 is not defined.</source>
@@ -1256,7 +1256,7 @@
     </message>
     <message>
         <source>%1 attribute of %2 element must either contain %3 or the other values.</source>
-        <translation type="unfinished"></translation>
+        <translation>Атрибут %1 элемента %2 должен содержать %3 или другие значения.</translation>
     </message>
     <message>
         <source>Component with ID %1 has been defined previously.</source>
@@ -1308,27 +1308,27 @@
     </message>
     <message>
         <source>Base type %1 of %2 element cannot be resolved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось определить базовый тип %1 элемента %2.</translation>
     </message>
     <message>
         <source>Item type %1 of %2 element cannot be resolved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось определить тип элемента %1 элемента %2.</translation>
     </message>
     <message>
         <source>Member type %1 of %2 element cannot be resolved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось определить тип члена %1 элемента %2.</translation>
     </message>
     <message>
         <source>Type %1 of %2 element cannot be resolved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось определить тип %1 элемента %2.</translation>
     </message>
     <message>
         <source>Base type %1 of complex type cannot be resolved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось определить базовый тип %1 сложного типа.</translation>
     </message>
     <message>
         <source>%1 cannot have complex base type that has a %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 не может иметь базовый тип, имеющий %2.</translation>
     </message>
     <message>
         <source>Content model of complex type %1 contains %2 element so it cannot be derived by extension from a non-empty type.</source>
@@ -1340,7 +1340,7 @@
     </message>
     <message>
         <source>Type of %1 element must be a simple type, %2 is not.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тип элемента %1 должен быть простым, а %2 им не является.</translation>
     </message>
     <message>
         <source>Substitution group %1 of %2 element cannot be resolved.</source>
@@ -1352,7 +1352,7 @@
     </message>
     <message>
         <source>Duplicated element names %1 in %2 element.</source>
-        <translation type="unfinished"></translation>
+        <translation>Дублирующиеся имена элементов %1 в элементе %2.</translation>
     </message>
     <message>
         <source>Reference %1 of %2 element cannot be resolved.</source>

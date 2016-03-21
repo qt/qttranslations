@@ -115,6 +115,7 @@ tests/auto/qresourceengine/runtime_resource.rcc
 tools/activeqt/testcon/testcon.tlb
 translations/*.qm
 translations/*_untranslated.ts
+translations/*_en.ts
 qrc_*.cpp
 
 # Test generated files

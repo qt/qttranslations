@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="pl">
+<TS version="2.1" language="pl">
 <context>
     <name>QCLuceneResultWidget</name>
     <message>
@@ -12,8 +12,8 @@
         <translation>Uwaga:</translation>
     </message>
     <message>
-        <source>The search results may not be complete since the documentation is still being indexed!</source>
-        <translation>Wyniki wyszukiwania mogą być niekompletne ponieważ dokumentacja jest wciąż indeksowana!</translation>
+        <source>The search results may not be complete since the documentation is still being indexed.</source>
+        <translation>Wyniki wyszukiwania mogą być niekompletne, ponieważ dokumentacja jest wciąż indeksowana.</translation>
     </message>
     <message>
         <source>Your search did not match any documents.</source>
@@ -34,40 +34,24 @@
 <context>
     <name>QHelpCollectionHandler</name>
     <message>
-        <source>The collection file &apos;%1&apos; is not set up yet!</source>
-        <translation>Plik z kolekcją &quot;%1&quot; nie jest jeszcze ustawiony!</translation>
-    </message>
-    <message>
-        <source>Cannot load sqlite database driver!</source>
-        <translation>Nie można załadować sterownika bazy danych sqlite!</translation>
-    </message>
-    <message>
         <source>Cannot open collection file: %1</source>
         <translation>Nie można otworzyć pliku z kolekcją: %1</translation>
     </message>
     <message>
-        <source>Cannot create tables in file %1!</source>
-        <translation>Nie można utworzyć tabel w pliku %1!</translation>
+        <source>The collection file &apos;%1&apos; is not set up yet.</source>
+        <translation>Plik z kolekcją &quot;%1&quot; nie jest jeszcze ustawiony.</translation>
     </message>
     <message>
-        <source>The collection file &apos;%1&apos; already exists!</source>
-        <translation>Plik z kolekcją &quot;%1&quot; już istnieje!</translation>
+        <source>Cannot load sqlite database driver.</source>
+        <translation>Nie można załadować sterownika bazy danych sqlite.</translation>
     </message>
     <message>
-        <source>Unknown filter &apos;%1&apos;!</source>
-        <translation>Nieznany filtr &quot;%1&quot;!</translation>
+        <source>Cannot create tables in file %1.</source>
+        <translation>Nie można utworzyć tabel w pliku %1.</translation>
     </message>
     <message>
-        <source>Invalid documentation file &apos;%1&apos;!</source>
-        <translation>Niepoprawny plik z dokumentacją &quot;%1&quot;!</translation>
-    </message>
-    <message>
-        <source>Cannot register namespace &apos;%1&apos;!</source>
-        <translation>Nie można zarejestrować przestrzeni nazw &quot;%1&quot;!</translation>
-    </message>
-    <message>
-        <source>Cannot open database &apos;%1&apos; to optimize!</source>
-        <translation>Nie można otworzyć bazy danych &quot;%1&quot; do zoptymalizowania!</translation>
+        <source>The collection file &apos;%1&apos; already exists.</source>
+        <translation>Plik z kolekcją &quot;%1&quot; już istnieje.</translation>
     </message>
     <message>
         <source>Cannot create directory: %1</source>
@@ -78,20 +62,36 @@
         <translation>Nie można skopiować pliku z kolekcją: %1</translation>
     </message>
     <message>
-        <source>Cannot register filter %1!</source>
-        <translation>Nie można zarejestrować pliku %1!</translation>
+        <source>Unknown filter &apos;%1&apos;.</source>
+        <translation>Nieznany filtr &quot;%1&quot;.</translation>
     </message>
     <message>
-        <source>Cannot open documentation file %1!</source>
-        <translation>Nie można otworzyć pliku z dokumentacją %1!</translation>
+        <source>Cannot register filter %1.</source>
+        <translation>Nie można zarejestrować filtru %1.</translation>
     </message>
     <message>
-        <source>The namespace %1 was not registered!</source>
-        <translation>Przestrzeń nazw %1 nie została zarejestrowana!</translation>
+        <source>Cannot open documentation file %1.</source>
+        <translation>Nie można otworzyć pliku z dokumentacją %1.</translation>
     </message>
     <message>
-        <source>Namespace %1 already exists!</source>
-        <translation>Przestrzeń nazw %1 już istnieje!</translation>
+        <source>Invalid documentation file &apos;%1&apos;.</source>
+        <translation>Niepoprawny plik z dokumentacją &quot;%1&quot;.</translation>
+    </message>
+    <message>
+        <source>The namespace %1 was not registered.</source>
+        <translation>Przestrzeń nazw %1 nie została zarejestrowana.</translation>
+    </message>
+    <message>
+        <source>Namespace %1 already exists.</source>
+        <translation>Przestrzeń nazw %1 już istnieje.</translation>
+    </message>
+    <message>
+        <source>Cannot register namespace &apos;%1&apos;.</source>
+        <translation>Nie można zarejestrować przestrzeni nazw &quot;%1&quot;.</translation>
+    </message>
+    <message>
+        <source>Cannot open database &apos;%1&apos; to optimize.</source>
+        <translation>Nie można otworzyć bazy danych &quot;%1&quot; do zoptymalizowania.</translation>
     </message>
 </context>
 <context>
@@ -105,39 +105,19 @@
 <context>
     <name>QHelpEngineCore</name>
     <message>
-        <source>Cannot open documentation file %1: %2!</source>
-        <translation>Nie można otworzyć pliku z dokumentacją %1: %2!</translation>
+        <source>Cannot open documentation file %1: %2.</source>
+        <translation>Nie można otworzyć pliku z dokumentacją %1: %2.</translation>
     </message>
     <message>
-        <source>The specified namespace does not exist!</source>
-        <translation>Podana przestrzeń nazw nie istnieje!</translation>
+        <source>The specified namespace does not exist.</source>
+        <translation>Podana przestrzeń nazw nie istnieje.</translation>
     </message>
 </context>
 <context>
     <name>QHelpGenerator</name>
     <message>
-        <source>Invalid help data!</source>
-        <translation>Niepoprawne dane pomocy!</translation>
-    </message>
-    <message>
-        <source>No output file name specified!</source>
-        <translation>Nie podano nazwy pliku wyjściowego!</translation>
-    </message>
-    <message>
         <source>Building up file structure...</source>
         <translation>Budowanie struktury plików...</translation>
-    </message>
-    <message>
-        <source>The file %1 cannot be overwritten!</source>
-        <translation>Nie można nadpisać pliku %1!</translation>
-    </message>
-    <message>
-        <source>Cannot open data base file %1!</source>
-        <translation>Nie można otworzyć pliku z bazą danych %1!</translation>
-    </message>
-    <message>
-        <source>Cannot register namespace %1!</source>
-        <translation>Nie można zarejestrować przestrzeni nazw %1!</translation>
     </message>
     <message>
         <source>Insert custom filters...</source>
@@ -152,24 +132,8 @@
         <translation>Dokumentacja została poprawnie wygenerowana.</translation>
     </message>
     <message>
-        <source>Some tables already exist!</source>
-        <translation>Niektóre tabele już istnieją!</translation>
-    </message>
-    <message>
-        <source>Cannot create tables!</source>
-        <translation>Nie można utworzyć tabel!</translation>
-    </message>
-    <message>
-        <source>Cannot register virtual folder!</source>
-        <translation>Nie można zarejestrować wirtualnego katalogu!</translation>
-    </message>
-    <message>
         <source>Insert files...</source>
         <translation>Wstaw pliki...</translation>
-    </message>
-    <message>
-        <source>The referenced file %1 must be inside or within a subdirectory of (%2). Skipping it.</source>
-        <translation>Plik %1 do którego się odwołano musi być wewnątrz poddrzewa (%2). Plik ten został pominięty.</translation>
     </message>
     <message>
         <source>The file %1 does not exist! Skipping it.</source>
@@ -180,14 +144,6 @@
         <translation>Nie można otworzyć pliku %1! Zostaje on opuszczony.</translation>
     </message>
     <message>
-        <source>The filter %1 is already registered!</source>
-        <translation>Filtr %1 jest już zarejestrowany!</translation>
-    </message>
-    <message>
-        <source>Cannot register filter %1!</source>
-        <translation>Nie można zarejestrować filtru %1!</translation>
-    </message>
-    <message>
         <source>Insert indices...</source>
         <translation>Wstaw indeksy...</translation>
     </message>
@@ -196,12 +152,52 @@
         <translation>Wstaw zawartość...</translation>
     </message>
     <message>
-        <source>Cannot insert contents!</source>
-        <translation>Nie można wstawić zawartości!</translation>
+        <source>Invalid help data.</source>
+        <translation>Niepoprawne dane pomocy.</translation>
     </message>
     <message>
-        <source>Cannot register contents!</source>
-        <translation>Nie można zarejestrować zawartości!</translation>
+        <source>No output file name specified.</source>
+        <translation>Nie podano nazwy pliku wyjściowego.</translation>
+    </message>
+    <message>
+        <source>The file %1 cannot be overwritten.</source>
+        <translation>Nie można nadpisać pliku %1.</translation>
+    </message>
+    <message>
+        <source>Cannot open data base file %1.</source>
+        <translation>Nie można otworzyć pliku z bazą danych %1.</translation>
+    </message>
+    <message>
+        <source>Cannot register namespace %1.</source>
+        <translation>Nie można zarejestrować przestrzeni nazw %1.</translation>
+    </message>
+    <message>
+        <source>Some tables already exist.</source>
+        <translation>Niektóre tabele już istnieją.</translation>
+    </message>
+    <message>
+        <source>Cannot create tables.</source>
+        <translation>Nie można utworzyć tabel.</translation>
+    </message>
+    <message>
+        <source>Cannot register virtual folder.</source>
+        <translation>Nie można zarejestrować wirtualnego katalogu.</translation>
+    </message>
+    <message>
+        <source>The filter %1 is already registered.</source>
+        <translation>Filtr %1 jest już zarejestrowany.</translation>
+    </message>
+    <message>
+        <source>Cannot register filter %1.</source>
+        <translation>Nie można zarejestrować filtru %1.</translation>
+    </message>
+    <message>
+        <source>Cannot insert contents.</source>
+        <translation>Nie można wstawić zawartości.</translation>
+    </message>
+    <message>
+        <source>Cannot register contents.</source>
+        <translation>Nie można zarejestrować zawartości.</translation>
     </message>
     <message>
         <source>File &apos;%1&apos; does not exist.</source>
@@ -223,40 +219,36 @@
 <context>
     <name>QHelpProject</name>
     <message>
-        <source>Unknown token.</source>
-        <translation>Nieznany znak.</translation>
+        <source>Unknown token in file &quot;%1&quot;.</source>
+        <translation>Nieznany element w pliku &quot;%1&quot;.</translation>
     </message>
     <message>
-        <source>Unknown token. Expected &quot;QtHelpProject&quot;!</source>
-        <translation>Nieznany znak. Spodziewano się &quot;QtHelpProject&quot;!</translation>
+        <source>Unknown token. Expected &quot;QtHelpProject&quot;.</source>
+        <translation>Nieznany element. Spodziewano się &quot;QtHelpProject&quot;.</translation>
     </message>
     <message>
         <source>Error in line %1: %2</source>
         <translation>Błąd w linii %1: %2</translation>
     </message>
     <message>
-        <source>Virtual folder has invalid syntax.</source>
-        <translation>Wirtualny katalog posiada niepoprawną składnię.</translation>
+        <source>Virtual folder has invalid syntax in file: &quot;%1&quot;</source>
+        <translation>Wirtualny katalog posiada niepoprawną składnię w pliku &quot;%1&quot;</translation>
     </message>
     <message>
-        <source>Namespace has invalid syntax.</source>
-        <translation>Przestrzeń nazw posiada niepoprawną składnię.</translation>
+        <source>Namespace &quot;%1&quot; has invalid syntax in file: &quot;%2&quot;</source>
+        <translation>Przestrzeń nazw &quot;%1&quot; posiada niepoprawną składnię w pliku &quot;%2&quot;</translation>
     </message>
     <message>
-        <source>Missing namespace in QtHelpProject.</source>
-        <translation>Brak przestrzeni nazw w QtHelpProject.</translation>
+        <source>Missing namespace in QtHelpProject file: &quot;%1&quot;</source>
+        <translation>Brak przestrzeni nazw w pliku QtHelpProject &quot;%1&quot;</translation>
     </message>
     <message>
-        <source>Missing virtual folder in QtHelpProject</source>
-        <translation>Brak wirtualnego katalogu QtHelpProject</translation>
+        <source>Missing virtual folder in QtHelpProject file: &quot;%1&quot;</source>
+        <translation>Brak wirtualnego katalogu w pliku QtHelpProject &quot;%1&quot;</translation>
     </message>
     <message>
-        <source>Missing attribute in keyword at line %1.</source>
-        <translation>Brak atrybutu w słowie kluczowym w linii %1.</translation>
-    </message>
-    <message>
-        <source>The input file %1 could not be opened!</source>
-        <translation>Nie można otworzyć pliku wejściowego %1!</translation>
+        <source>The input file %1 could not be opened.</source>
+        <translation>Nie można otworzyć pliku wejściowego &quot;%1&quot;.</translation>
     </message>
 </context>
 <context>

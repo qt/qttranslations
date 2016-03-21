@@ -1090,11 +1090,6 @@ v
         <translation>Napaka nezdružljivosti knjižnice Qt</translation>
     </message>
     <message>
-        <source>QT_LAYOUT_DIRECTION</source>
-        <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
-        <translation>LTR</translation>
-    </message>
-    <message>
         <source>Activates the program&apos;s main window</source>
         <translation>Aktivira glavno okno programa</translation>
     </message>
@@ -3013,6 +3008,14 @@ Ali jo kljub temu želite izbrisati?</translation>
     <message>
         <source>Connected to host</source>
         <translation>Povezan z gostiteljem</translation>
+    </message>
+</context>
+<context>
+    <name>QGuiApplication</name>
+    <message>
+        <source>QT_LAYOUT_DIRECTION</source>
+        <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
+        <translation>LTR</translation>
     </message>
 </context>
 <context>

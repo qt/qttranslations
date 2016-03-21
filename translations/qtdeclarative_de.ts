@@ -78,8 +78,8 @@
         <translation>Ungültige Referenzierung einer Alias-Eigenschaft. Der Id-Wert &quot;%1&quot; konnte nicht gefunden werden</translation>
     </message>
     <message>
-        <source>Invalid alias location</source>
-        <translation>Ungültige Quellangabe bei Alias-Eigenschaft</translation>
+        <source>Invalid alias target location: %1</source>
+        <translation>Ungültige Zielangabe bei Alias-Eigenschaft: %1</translation>
     </message>
 </context>
 <context>
@@ -542,6 +542,21 @@
     <message>
         <source>Composite Singleton Type %1 is not creatable</source>
         <translation>Das Composite Singleton des Typs %1 ist nicht erzeugbar</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlObjectModel</name>
+    <message>
+        <source>insert: index %1 out of range</source>
+        <translation>insert: Der Index %1 ist außerhalb des gültigen Bereichs</translation>
+    </message>
+    <message>
+        <source>move: out of range</source>
+        <translation>move: Außerhalb des gültigen Bereichs</translation>
+    </message>
+    <message>
+        <source>remove: indices [%1 - %2] out of range [0 - %3]</source>
+        <translation>remove: Die Indizes [%1 - %2] sind außerhalb des Bereichs [0 - %3]</translation>
     </message>
 </context>
 <context>
@@ -1091,6 +1106,17 @@
     <message>
         <source>Drag is only available via attached properties</source>
         <translation>Auf Drag kann nur mittels Eigenschaften des Typs &apos;attached&apos; zugegriffen werden</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickEnterKeyAttached</name>
+    <message>
+        <source>EnterKey attached property only works with Items</source>
+        <translation>Die EnterKey-Eigenschaft des Typs &apos;attached&apos; kann nur mit Elementen der Klasse Item verwendet werden</translation>
+    </message>
+    <message>
+        <source>EnterKey is only available via attached properties</source>
+        <translation>Auf EnterKey kann nur mittels Eigenschaften des Typs &apos;attached&apos; zugegriffen werden</translation>
     </message>
 </context>
 <context>

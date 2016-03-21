@@ -307,27 +307,27 @@
     <name>EditMenu_ios</name>
     <message>
         <source>Cut</source>
-        <translation>Вирізати</translation>
+        <translation type="vanished">Вирізати</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Копіювати</translation>
+        <translation type="vanished">Копіювати</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>Вставити</translation>
+        <translation type="vanished">Вставити</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Видалити</translation>
+        <translation type="vanished">Видалити</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation>Вибрати</translation>
+        <translation type="vanished">Вибрати</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Вибрати все</translation>
+        <translation type="vanished">Вибрати все</translation>
     </message>
 </context>
 </TS>
