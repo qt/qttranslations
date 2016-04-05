@@ -105,6 +105,7 @@ updateqm.input = TRANSLATIONS
 updateqm.output = $$MODULE_BASE_OUTDIR/translations/${QMAKE_FILE_BASE}.qm
 updateqm.commands = $$LRELEASE ${QMAKE_FILE_IN} -qm ${QMAKE_FILE_OUT}
 silent:updateqm.commands = @echo lrelease ${QMAKE_FILE_IN} && $$updateqm.commands
+updateqm.depends = $$LRELEASE_EXE
 updateqm.name = LRELEASE ${QMAKE_FILE_IN}
 updateqm.CONFIG += no_link target_predeps
 QMAKE_EXTRA_COMPILERS += updateqm
