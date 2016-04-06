@@ -13,7 +13,9 @@ TS_TARGETS =
 defineTest(addTsTarget) {
     dir = $$section(PWD, /, 0, -3)
     for(p, 3): \
-        pros += -pro-out $$shadowed($$dir/$$dirname(p)) $$p
+        exists($$dir/$$p): \
+            pros += -pro-out $$shadowed($$dir/$$dirname(p)) $$p
+    isEmpty(pros): return()
     cv = $${2}.commands
     $$cv = cd $$dir && $$LUPDATE $$pros -ts $$4
     export($$cv)
