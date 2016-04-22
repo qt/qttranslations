@@ -2343,6 +2343,14 @@ Möchten Sie die Datei trotzdem löschen?</translation>
         <translation>Vorübergehender Fehler</translation>
     </message>
     <message>
+        <source>Network dropped connection on reset</source>
+        <translation>Beim Rücksetzen wurde die Verbindung getrennt</translation>
+    </message>
+    <message>
+        <source>Connection reset by peer</source>
+        <translation>Verbindung durch Gegenseite zurückgesetzt</translation>
+    </message>
+    <message>
         <source>Unknown error</source>
         <translation>Unbekannter Fehler</translation>
     </message>
@@ -3753,10 +3761,6 @@ Bitte deaktivieren Sie eine der beiden.</translation>
         <translation>Das Starten des Prozesses ist fehlgeschlagen</translation>
     </message>
     <message>
-        <source>Process failed to start (spawned process exited with code 127)</source>
-        <translation>Das Starten des Prozesses ist fehlgeschlagen (der Unterprozess wurde mit Rückgabewert 127 beendet)</translation>
-    </message>
-    <message>
         <source>No program defined</source>
         <translation>Es wurde kein Programm angegeben</translation>
     </message>
@@ -3786,20 +3790,6 @@ Bitte deaktivieren Sie eine der beiden.</translation>
     <message>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
-    </message>
-</context>
-<context>
-    <name>QQnxFileDialogHelper</name>
-    <message>
-        <source>All files (*.*)</source>
-        <translation>Alle Dateien (*.*)</translation>
-    </message>
-</context>
-<context>
-    <name>QQnxFilePicker</name>
-    <message>
-        <source>Pick a file</source>
-        <translation>Wählen Sie eine Datei aus</translation>
     </message>
 </context>
 <context>

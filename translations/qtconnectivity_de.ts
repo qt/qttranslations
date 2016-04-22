@@ -1366,5 +1366,9 @@
         <source>Error occurred trying to connect to remote device.</source>
         <translation>Beim Aufbau der Verbindung zum Gerät trat ein Fehler auf.</translation>
     </message>
+    <message>
+        <source>Error occurred trying to start advertising</source>
+        <translation>Bei der Ankündigung trat ein Fehler auf</translation>
+    </message>
 </context>
 </TS>

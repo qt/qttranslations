@@ -951,6 +951,10 @@ Grund:
         <source>Show tabs for each individual page</source>
         <translation>Reiter für jede einzelne Seite anzeigen</translation>
     </message>
+    <message>
+        <source>&lt;Filter&gt;</source>
+        <translation>&lt;Filter&gt;</translation>
+    </message>
 </context>
 <context>
     <name>RemoteControl</name>

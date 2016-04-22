@@ -9,7 +9,7 @@
     </message>
     <message>
         <source>Username:</source>
-        <translation>Benutzername:</translation>
+        <translation>Nutzername:</translation>
     </message>
     <message>
         <source>Password:</source>
@@ -45,6 +45,10 @@
     <message>
         <source>Copy</source>
         <translation>Kopieren</translation>
+    </message>
+    <message>
+        <source>Unselect</source>
+        <translation>Auswahl aufheben</translation>
     </message>
     <message>
         <source>Copy Link URL</source>
@@ -158,6 +162,10 @@
         <translation>Link in neuem Reiter öffnen</translation>
     </message>
     <message>
+        <source>Open Link in New Background Tab</source>
+        <translation>Link in neuem Reiter im Hintergrund öffnen</translation>
+    </message>
+    <message>
         <source>Copy Link URL</source>
         <translation>Link-Adresse kopieren</translation>
     </message>
@@ -214,6 +222,14 @@
         <translation>Seite schließen</translation>
     </message>
     <message>
+        <source>Unselect</source>
+        <translation>Auswahl aufheben</translation>
+    </message>
+    <message>
+        <source>Save &amp;Page</source>
+        <translation>Seite s&amp;peichern</translation>
+    </message>
+    <message>
         <source>Are you sure you want to leave this page?</source>
         <translation>Möchten Sie diese Seite wirklich verlassen?</translation>
     </message>
@@ -267,6 +283,10 @@
         <source>Cannot create a separate instance of WebEngineViewport</source>
         <translation>Es kann keine separate Instanz der Klasse WebEngineViewport erstellt werden</translation>
     </message>
+    <message>
+        <source>Cannot create a separate instance of WebEngineContextMenuData</source>
+        <translation>Es kann keine separate Instanz der Klasse WebEngineContextMenuData erstellt werden</translation>
+    </message>
 </context>
 <context>
     <name>QtWebEnginePlugin</name>
@@ -317,8 +337,8 @@
         <translation>Verbinde zu Proxy &quot;%1&quot; unter Verwendung von:</translation>
     </message>
     <message>
-        <source>Enter username and password for &quot;%1&quot; at %2</source>
-        <translation>Geben Sie Nutzername und Passwort für &quot;%1&quot; auf %2 ein</translation>
+        <source>Enter username and password for &quot;%1&quot; at %2://%3</source>
+        <translation>Geben Sie Nutzername und Passwort für &quot;%1&quot; auf %2://%3 ein</translation>
     </message>
 </context>
 </TS>

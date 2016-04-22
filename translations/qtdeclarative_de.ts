@@ -180,6 +180,77 @@
     </message>
 </context>
 <context>
+    <name>QQmlDebugServerImpl</name>
+    <message>
+        <source>QML Debugger: Invalid argument &quot;%1&quot; detected. Ignoring the same.</source>
+        <translation>QML Debugger: Ungültiges Argument &quot;%1&quot;. Es hat keinerlei Auswirkung.</translation>
+    </message>
+    <message>
+        <source>QML Debugger: Ignoring &quot;-qmljsdebugger=%1&quot;.</source>
+        <translation>QML Debugger: &quot;-qmljsdebugger=%1&quot; hat keinerlei Auswirkung.</translation>
+    </message>
+    <message>
+        <source>The format is &quot;-qmljsdebugger=[file:&lt;file&gt;|port:&lt;port_from&gt;][,&lt;port_to&gt;][,host:&lt;ip address&gt;][,block][,services:&lt;service&gt;][,&lt;service&gt;]*&quot;</source>
+        <translation>Das Format ist &quot;-qmljsdebugger=[file:&lt;file&gt;|port:&lt;port_from&gt;][,&lt;port_to&gt;][,host:&lt;ip address&gt;][,block][,services:&lt;service&gt;][,&lt;service&gt;]*&quot;</translation>
+    </message>
+    <message>
+        <source>&quot;file:&quot; can be used to specify the name of a file the debugger will try to connect to using a QLocalSocket. If &quot;file:&quot; is given any &quot;host:&quot; and&quot;port:&quot; arguments will be ignored.</source>
+        <translation>&quot;file:&quot; gibt einen Dateinamen an, auf den sich der Debugger mittels eines QLocalSocket verbinden wird. Wenn &quot;file:&quot; angegeben wird, haben die Argumente &quot;host:&quot; oder &quot;port:&quot; keinerlei Auswirkung.</translation>
+    </message>
+    <message>
+        <source>&quot;host:&quot; and &quot;port:&quot; can be used to specify an address and a single port or a range of ports the debugger will try to bind to with a QTcpServer.</source>
+        <translation>&quot;host:&quot; und &quot;port:&quot; geben eine Adresse beziehungsweise einen Port oder einen Bereich von Ports an, auf denen der Debugger mittels eines QTcpServer versuchen wird, zu lauschen.</translation>
+    </message>
+    <message>
+        <source>&quot;block&quot; makes the debugger and some services wait for clients to be connected and ready before the first QML engine starts.</source>
+        <translation>&quot;block&quot; bewirkt, dass der Debugger und einige Dienste warten, bis sich Clients verbinden und Bereitschaft signalisieren, bevor die erste QML-Engine startet.</translation>
+    </message>
+    <message>
+        <source>The QML debugger</source>
+        <translation>Der QML-Debugger</translation>
+    </message>
+    <message>
+        <source>The V4 debugger</source>
+        <translation>Der V4-Debugger</translation>
+    </message>
+    <message>
+        <source>The QML inspector</source>
+        <translation>Der QML-Inspector</translation>
+    </message>
+    <message>
+        <source>The QML profiler</source>
+        <translation>Der QML-Profiler</translation>
+    </message>
+    <message>
+        <source>Allows the client to delay the starting and stopping of
+		  QML engines until other services are ready. QtCreator
+		  uses this service with the QML profiler in order to
+		  profile multiple QML engines at the same time.</source>
+        <translation>Ermöglicht dem Klienten das Starten und Anhalten von
+		  QML-Engines zu verzögern, bis andere Dienste Bereitschaft
+		  signalisieren. Qt Creator benutzt diesen Dienst mit dem
+		  QML-Profiler, um mehrere QML-Engines gleichzeitig zu
+		  analysieren.</translation>
+    </message>
+    <message>
+        <source>&quot;services:&quot; can be used to specify which debug services the debugger should load. Some debug services interact badly with others. The V4 debugger should not be loaded when using the QML profiler as it will force any V4 engines to use the JavaScript interpreter rather than the JIT. The following debug services are available by default:</source>
+        <translation>&quot;services:&quot; gibt an, welche Debug-Dienste der Debugger laden soll. Einige Debug-Dienste können sich gegenseitig behindern. Der V4-Debugger sollte nicht geladen werden, wenn der QML-Profiler benutzt wird, da er bewirkt, dass die V4-Engines den JavaScript-Interpreter an Stelle von JIT benutzen. Folgende Debug-Dienste stehen zur Verfügung:</translation>
+    </message>
+    <message>
+        <source>Sends qDebug() and similar messages over the QML debug
+		  connection. QtCreator uses this for showing debug
+		  messages in the debugger console.</source>
+        <translation>Sendet qDebug() und ähnliche Nachrichten über die
+		  QML-Debug-Verbindung. Qt Creator benutzt dies,
+		  um Debug-Nachrichten in der Debugger-Konsole
+		  anzuzeigen.</translation>
+    </message>
+    <message>
+        <source>Other services offered by qmltooling plugins that implement QQmlDebugServiceFactory and which can be found in the standard plugin paths will also be available and can be specified. If no &quot;services&quot; argument is given, all services found this way, including the default ones, are loaded.</source>
+        <translation>Es können auch andere Dienste angegeben werden, die von qmltooling-Plugins bereitgestellt werden, die QQmlDebugServiceFactory implementieren und in den Standard-Plugin-Pfaden gefunden werden können. Wenn kein &quot;services&quot;-Argument angegeben wurde, werden alle auf diesem Wege gefundenen Dienste einschließlich der Standarddienste geladen.</translation>
+    </message>
+</context>
+<context>
     <name>QQmlDelegateModel</name>
     <message>
         <source>The delegate of a DelegateModel cannot be changed within onUpdated.</source>
@@ -335,6 +406,10 @@
 <context>
     <name>QQmlEnumTypeResolver</name>
     <message>
+        <source>Invalid property assignment: Enum value &quot;%1&quot; cannot start with a lowercase letter</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Der Aufzählungswert &quot;%1&quot; darf nicht mit einem Kleinbuchstaben beginnen</translation>
+    </message>
+    <message>
         <source>Invalid property assignment: &quot;%1&quot; is a read-only property</source>
         <translation>Ungültige Zuweisung bei Eigenschaft: &quot;%1&quot; ist eine schreibgeschützte Eigenschaft</translation>
     </message>
@@ -428,6 +503,10 @@
     <message>
         <source>Module namespace &apos;%1&apos; does not match import URI &apos;%2&apos;</source>
         <translation>Der Modul-Namensraum &apos;%1&apos; entspricht nicht dem Import-URI &apos;%2&apos;</translation>
+    </message>
+    <message>
+        <source>library loading is disabled</source>
+        <translation>Das Laden von Bibliotheken ist deaktiviert</translation>
     </message>
     <message>
         <source>Namespace &apos;%1&apos; has already been used for type registration</source>
@@ -1174,6 +1253,13 @@
     </message>
 </context>
 <context>
+    <name>QQuickMouseEvent</name>
+    <message>
+        <source>MouseEvent is only available within handlers in MouseArea</source>
+        <translation>MouseEvent ist nur in Handler-Funktionen von MouseArea verfügbar</translation>
+    </message>
+</context>
+<context>
     <name>QQuickOpenGLInfo</name>
     <message>
         <source>OpenGLInfo is only available via attached properties</source>
@@ -1259,10 +1345,6 @@
     <message>
         <source>Cannot open: %1</source>
         <translation>Fehlschlag beim Öffnen: %1</translation>
-    </message>
-    <message>
-        <source>Invalid image data: %1</source>
-        <translation>Ungültige Bilddaten: %1</translation>
     </message>
 </context>
 <context>
@@ -1403,6 +1485,17 @@ Installieren Sie einen Treiber, der OpenGL 2.0 oder neuer bereitstellt, oder ste
     <message>
         <source>Incorrectly specified signal assignment</source>
         <translation>Angegebene Signalzuweisung ist nicht korrekt</translation>
+    </message>
+</context>
+<context>
+    <name>SignalTransition</name>
+    <message>
+        <source>Cannot assign to non-existent property &quot;%1&quot;</source>
+        <translation>Es kann keine Zuweisung erfolgen, da keine Eigenschaft des Namens &quot;%1&quot; existiert</translation>
+    </message>
+    <message>
+        <source>SignalTransition: script expected</source>
+        <translation>SignalTransition: Skript erwartet</translation>
     </message>
 </context>
 <context>
