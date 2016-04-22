@@ -68,11 +68,11 @@
     </message>
     <message>
         <source>Copy Media URL</source>
-        <translation type="unfinished">Скопировать адрес ресурса</translation>
+        <translation>Скопировать адрес ресурса</translation>
     </message>
     <message>
         <source>Save Media</source>
-        <translation type="unfinished">Сохранить ресурс</translation>
+        <translation>Сохранить ресурс</translation>
     </message>
     <message>
         <source>Toggle Play/Pause</source>
@@ -179,7 +179,7 @@
     </message>
     <message>
         <source>Copy Media URL</source>
-        <translation type="unfinished">Скопировать адрес ресурса</translation>
+        <translation>Скопировать адрес ресурса</translation>
     </message>
     <message>
         <source>Toggle Media Controls</source>
@@ -199,7 +199,7 @@
     </message>
     <message>
         <source>Save Media</source>
-        <translation type="unfinished">Сохранить ресурс</translation>
+        <translation>Сохранить ресурс</translation>
     </message>
     <message>
         <source>Inspect Element</source>
@@ -317,8 +317,8 @@
         <translation>Подключение к прокси «%1» с использованием:</translation>
     </message>
     <message>
-        <source>Enter username and password for &quot;%1&quot; at %2</source>
-        <translation>Введите имя пользователя и пароль для «%1» в %2</translation>
+        <source>Enter username and password for &quot;%1&quot; at %2://%3</source>
+        <translation>Введите имя пользователя и пароль для «%1» в %2://%3</translation>
     </message>
 </context>
 </TS>

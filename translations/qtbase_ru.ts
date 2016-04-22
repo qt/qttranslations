@@ -581,25 +581,6 @@ Press ESC to cancel</source>
     </message>
 </context>
 <context>
-    <name>QDateTimeEdit</name>
-    <message>
-        <source>AM</source>
-        <translation>AM</translation>
-    </message>
-    <message>
-        <source>am</source>
-        <translation>am</translation>
-    </message>
-    <message>
-        <source>PM</source>
-        <translation>PM</translation>
-    </message>
-    <message>
-        <source>pm</source>
-        <translation>pm</translation>
-    </message>
-</context>
-<context>
     <name>QDateTimeParser</name>
     <message>
         <source>AM</source>
@@ -689,10 +670,6 @@ Press ESC to cancel</source>
     <message>
         <source>Resolver initialization failed</source>
         <translation>Не удалось инициализировать разрешение имён</translation>
-    </message>
-    <message>
-        <source>IPv6 addresses for nameservers is currently not supported</source>
-        <translation>Адреса IPv6 серверов имён ещё не поддерживаются</translation>
     </message>
     <message>
         <source>Server could not process query</source>
@@ -1076,11 +1053,6 @@ Do you want to delete it anyway?</source>
         <translation>Псевдоним</translation>
     </message>
     <message>
-        <source>Alias</source>
-        <comment>Mac OS X Finder</comment>
-        <translation>Псевдоним</translation>
-    </message>
-    <message>
         <source>Shortcut</source>
         <comment>All other platforms</comment>
         <translation>Ярлык</translation>
@@ -1181,10 +1153,6 @@ Do you want to delete it anyway?</source>
 </context>
 <context>
     <name>QFontDatabase</name>
-    <message>
-        <source>Normal</source>
-        <translation>Обычный</translation>
-    </message>
     <message>
         <source>Bold</source>
         <translation>Жирный</translation>
@@ -1573,10 +1541,6 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Unknown error (%1)</source>
         <translation>Неизвестная ошибка (%1)</translation>
-    </message>
-    <message>
-        <source>Host %1 could not be found.</source>
-        <translation>Не удалось найти узел %1.</translation>
     </message>
 </context>
 <context>
@@ -2388,6 +2352,14 @@ Do you want to delete it anyway?</source>
         <translation>Временная ошибка</translation>
     </message>
     <message>
+        <source>Network dropped connection on reset</source>
+        <translation>Сеть сбросила соединение</translation>
+    </message>
+    <message>
+        <source>Connection reset by peer</source>
+        <translation>Соединение сброшено удалённой стороной</translation>
+    </message>
+    <message>
         <source>Unknown error</source>
         <translation>Неизвестная ошибка</translation>
     </message>
@@ -2476,10 +2448,6 @@ Do you want to delete it anyway?</source>
 </context>
 <context>
     <name>QNetworkReply</name>
-    <message>
-        <source>Error downloading %1 - server replied: %2</source>
-        <translation>Ошибка загрузки %1 ― ответ сервера: %2</translation>
-    </message>
     <message>
         <source>Background request not allowed.</source>
         <translation>Фоновые запросы недопустимы.</translation>
@@ -3802,10 +3770,6 @@ Please turn one of those options off.</source>
     <message>
         <source>Process failed to start</source>
         <translation>Не удалось запустить процесс</translation>
-    </message>
-    <message>
-        <source>Process failed to start (spawned process exited with code 127)</source>
-        <translation>Не удалось запустить программу (порождённый процесс завершился с кодом 127)</translation>
     </message>
     <message>
         <source>No program defined</source>

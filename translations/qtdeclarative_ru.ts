@@ -81,10 +81,6 @@
         <source>Invalid alias target location: %1</source>
         <translation>Некорректное размещение цели псевдонима: %1</translation>
     </message>
-    <message>
-        <source>Invalid alias location</source>
-        <translation>Некорректное размещение псевдонима</translation>
-    </message>
 </context>
 <context>
     <name>QQmlCodeGenerator</name>
@@ -338,6 +334,10 @@
 </context>
 <context>
     <name>QQmlEnumTypeResolver</name>
+    <message>
+        <source>Invalid property assignment: Enum value &quot;%1&quot; cannot start with a lowercase letter</source>
+        <translation>Некорректное присваивание свойства: Значение перечисления «%1» не может начинаться с маленькой буквы</translation>
+    </message>
     <message>
         <source>Invalid property assignment: &quot;%1&quot; is a read-only property</source>
         <translation>Некорректное присваивание свойства: «%1» свойство только для чтения</translation>
@@ -1264,10 +1264,6 @@
         <source>Cannot open: %1</source>
         <translation>Не удалось открыть: %1</translation>
     </message>
-    <message>
-        <source>Invalid image data: %1</source>
-        <translation>Некорректные данные изображения: %1</translation>
-    </message>
 </context>
 <context>
     <name>QQuickPropertyAnimation</name>
@@ -1407,6 +1403,17 @@ Install a driver providing OpenGL 2.0 or higher, or, if this is not possible, ma
     <message>
         <source>Incorrectly specified signal assignment</source>
         <translation>Неверно указано назначение сигнала</translation>
+    </message>
+</context>
+<context>
+    <name>SignalTransition</name>
+    <message>
+        <source>Cannot assign to non-existent property &quot;%1&quot;</source>
+        <translation>Невозможно назначить несуществующему свойству «%1»</translation>
+    </message>
+    <message>
+        <source>SignalTransition: script expected</source>
+        <translation>SignalTransition: ожидается сценарий</translation>
     </message>
 </context>
 <context>
