@@ -47,6 +47,10 @@
         <translation>Скопировать</translation>
     </message>
     <message>
+        <source>Unselect</source>
+        <translation>Снять выделение</translation>
+    </message>
+    <message>
         <source>Copy Link URL</source>
         <translation>Скопировать адрес ссылки</translation>
     </message>
@@ -68,11 +72,11 @@
     </message>
     <message>
         <source>Copy Media URL</source>
-        <translation type="unfinished">Скопировать адрес ресурса</translation>
+        <translation>Скопировать адрес ресурса</translation>
     </message>
     <message>
         <source>Save Media</source>
-        <translation type="unfinished">Сохранить ресурс</translation>
+        <translation>Сохранить ресурс</translation>
     </message>
     <message>
         <source>Toggle Play/Pause</source>
@@ -158,6 +162,10 @@
         <translation>Открыть ссылку в новой вкладке</translation>
     </message>
     <message>
+        <source>Open Link in New Background Tab</source>
+        <translation>Открыть ссылку в новой фоновой вкладке</translation>
+    </message>
+    <message>
         <source>Copy Link URL</source>
         <translation>Скопировать адрес ссылки</translation>
     </message>
@@ -179,7 +187,7 @@
     </message>
     <message>
         <source>Copy Media URL</source>
-        <translation type="unfinished">Скопировать адрес ресурса</translation>
+        <translation>Скопировать адрес ресурса</translation>
     </message>
     <message>
         <source>Toggle Media Controls</source>
@@ -199,7 +207,7 @@
     </message>
     <message>
         <source>Save Media</source>
-        <translation type="unfinished">Сохранить ресурс</translation>
+        <translation>Сохранить ресурс</translation>
     </message>
     <message>
         <source>Inspect Element</source>
@@ -212,6 +220,14 @@
     <message>
         <source>Close Page</source>
         <translation>Закрыть страницу</translation>
+    </message>
+    <message>
+        <source>Unselect</source>
+        <translation>Снять выделение</translation>
+    </message>
+    <message>
+        <source>Save &amp;Page</source>
+        <translation>Сохранить страни&amp;цу</translation>
     </message>
     <message>
         <source>Are you sure you want to leave this page?</source>
@@ -267,6 +283,10 @@
         <source>Cannot create a separate instance of WebEngineViewport</source>
         <translation>Невозможно создать отдельный экземпляр WebEngineViewport</translation>
     </message>
+    <message>
+        <source>Cannot create a separate instance of WebEngineContextMenuData</source>
+        <translation>Невозможно создать отдельный экземпляр WebEngineContextMenuData</translation>
+    </message>
 </context>
 <context>
     <name>QtWebEnginePlugin</name>
@@ -317,8 +337,8 @@
         <translation>Подключение к прокси «%1» с использованием:</translation>
     </message>
     <message>
-        <source>Enter username and password for &quot;%1&quot; at %2</source>
-        <translation>Введите имя пользователя и пароль для «%1» в %2</translation>
+        <source>Enter username and password for &quot;%1&quot; at %2://%3</source>
+        <translation>Введите имя пользователя и пароль для «%1» в %2://%3</translation>
     </message>
 </context>
 </TS>

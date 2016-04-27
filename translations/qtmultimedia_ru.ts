@@ -544,21 +544,6 @@
     </message>
 </context>
 <context>
-    <name>QObject</name>
-    <message>
-        <source>%1 playlist type is unknown</source>
-        <translation>Неизвестный формат списка воспроизведения %1</translation>
-    </message>
-    <message>
-        <source>invalid line in playlist file</source>
-        <translation>неверная строка в файле списка воспроизведения</translation>
-    </message>
-    <message>
-        <source>Empty file provided</source>
-        <translation>Предоставлен пустой файл</translation>
-    </message>
-</context>
-<context>
     <name>QPlaylistFileParser</name>
     <message>
         <source>%1 playlist type is unknown</source>

@@ -949,6 +949,10 @@ Reason:
         <source>Show tabs for each individual page</source>
         <translation>Показывать вкладки для каждой страницы</translation>
     </message>
+    <message>
+        <source>&lt;Filter&gt;</source>
+        <translation>&lt;Фильтр&gt;</translation>
+    </message>
 </context>
 <context>
     <name>RemoteControl</name>

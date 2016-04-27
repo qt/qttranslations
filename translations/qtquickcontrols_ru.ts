@@ -299,31 +299,4 @@
         <translation>Выделить всё</translation>
     </message>
 </context>
-<context>
-    <name>EditMenu_ios</name>
-    <message>
-        <source>Cut</source>
-        <translation>Вырезать</translation>
-    </message>
-    <message>
-        <source>Copy</source>
-        <translation>Копировать</translation>
-    </message>
-    <message>
-        <source>Paste</source>
-        <translation>Вставить</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <translation>Удалить</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation>Выбрать</translation>
-    </message>
-    <message>
-        <source>Select All</source>
-        <translation>Выбрать всё</translation>
-    </message>
-</context>
 </TS>

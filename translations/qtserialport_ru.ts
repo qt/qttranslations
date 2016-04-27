@@ -44,28 +44,8 @@
         <translation>Время ожидания операции истекло</translation>
     </message>
     <message>
-        <source>Parity error detected while reading</source>
-        <translation>Обнаружена ошибка четности в процессе чтения</translation>
-    </message>
-    <message>
-        <source>Break condition detected while reading</source>
-        <translation>Обнаружено состояние прерывания в процессе чтения</translation>
-    </message>
-    <message>
-        <source>Framing error detected while reading</source>
-        <translation>Обнаружена ошибка кадра в процессе чтения</translation>
-    </message>
-    <message>
         <source>Custom baud rate direction is unsupported</source>
         <translation>Направления передачи для особых скоростей не поддерживаются</translation>
-    </message>
-    <message>
-        <source>ParityError error detected while reading</source>
-        <translation>Обнаружена ошибка четности в процессе чтения</translation>
-    </message>
-    <message>
-        <source>Unknown streaming error</source>
-        <translation>Неизвестная ошибка данных</translation>
     </message>
     <message>
         <source>No error</source>
