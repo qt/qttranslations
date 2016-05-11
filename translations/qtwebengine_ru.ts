@@ -122,6 +122,10 @@
         <translation>Перезагрузить</translation>
     </message>
     <message>
+        <source>Reload and Bypass Cache</source>
+        <translation>Перезагрузить без кэша</translation>
+    </message>
+    <message>
         <source>Cut</source>
         <translation>Вырезать</translation>
     </message>
