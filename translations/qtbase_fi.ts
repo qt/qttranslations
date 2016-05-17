@@ -729,6 +729,14 @@ Peru painamalla ESC</translation>
         <source>Invalid hostname</source>
         <translation>Virheellinen konenimi</translation>
     </message>
+    <message>
+        <source>Host %1 could not be found.</source>
+        <translation>Konetta %1 ei löydetty.</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>Tuntematon virhe</translation>
+    </message>
 </context>
 <context>
     <name>QDockWidget</name>
@@ -1523,10 +1531,6 @@ Haluatko silti poistaa sen?</translation>
     <message>
         <source>Unknown error (%1)</source>
         <translation>Tuntematon virhe (%1)</translation>
-    </message>
-    <message>
-        <source>Host %1 could not be found.</source>
-        <translation>Konetta %1 ei löydetty.</translation>
     </message>
 </context>
 <context>
@@ -2350,6 +2354,14 @@ kun GNU LGPL 2.1:n ehtoja voidaan noudattaa.&lt;/p&gt;
     <message>
         <source>Temporary error</source>
         <translation>Tilapäinen virhe</translation>
+    </message>
+    <message>
+        <source>Network dropped connection on reset</source>
+        <translation>Verkko pudotti yhteyden nollauksen yhteydessä</translation>
+    </message>
+    <message>
+        <source>Connection reset by peer</source>
+        <translation>Verkkovertainen nollasi yhteyden</translation>
     </message>
     <message>
         <source>Unknown error</source>
@@ -3762,10 +3774,6 @@ Poista toinen niistä käytöstä.</translation>
         <translation>Prosessin käynnistyminen epäonnistui</translation>
     </message>
     <message>
-        <source>Process failed to start (spawned process exited with code 127)</source>
-        <translation>Prosessin käynnistyminen epäonnistui (luotu prosessi päättyi koodilla 127)</translation>
-    </message>
-    <message>
         <source>No program defined</source>
         <translation>Ohjelmaa ei ole määritetty</translation>
     </message>
@@ -3795,20 +3803,6 @@ Poista toinen niistä käytöstä.</translation>
     <message>
         <source>Cancel</source>
         <translation>Peru</translation>
-    </message>
-</context>
-<context>
-    <name>QQnxFileDialogHelper</name>
-    <message>
-        <source>All files (*.*)</source>
-        <translation>Kaikki tiedostot (*.*)</translation>
-    </message>
-</context>
-<context>
-    <name>QQnxFilePicker</name>
-    <message>
-        <source>Pick a file</source>
-        <translation>Valitse tiedosto</translation>
     </message>
 </context>
 <context>

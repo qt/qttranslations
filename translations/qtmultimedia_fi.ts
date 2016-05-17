@@ -305,6 +305,14 @@
         <translation>Kuvaustilaa ei tueta</translation>
     </message>
     <message>
+        <source>Failed to capture image</source>
+        <translation>Kuvan ottaminen epäonnistui</translation>
+    </message>
+    <message>
+        <source>Camera preview failed to start.</source>
+        <translation>Kameran esikatselun käynnistys epäonnistui.</translation>
+    </message>
+    <message>
         <source>Could not open destination file: %1</source>
         <translation>Kohdetiedostoa ei voitu avata: %1</translation>
     </message>
