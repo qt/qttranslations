@@ -757,6 +757,10 @@
 <context>
     <name>QQmlEnumTypeResolver</name>
     <message>
+        <source>Invalid property assignment: Enum value &quot;%1&quot; cannot start with a lowercase letter</source>
+        <translation>Неправильне присвоєння властивості: значення переліку &quot;%1&quot; не може починатись з малої літери</translation>
+    </message>
+    <message>
         <source>Invalid property assignment: &quot;%1&quot; is a read-only property</source>
         <translation>Неправильне присвоєння властивості: властивість &quot;%1&quot; лише для читання</translation>
     </message>
@@ -1867,7 +1871,7 @@
     </message>
     <message>
         <source>Invalid image data: %1</source>
-        <translation>Неправильні дані зображення: %1</translation>
+        <translation type="vanished">Неправильні дані зображення: %1</translation>
     </message>
 </context>
 <context>
@@ -2275,6 +2279,17 @@ Install a driver providing OpenGL 2.0 or higher, or, if this is not possible, ma
     <message>
         <source>Incorrectly specified signal assignment</source>
         <translation>Неправильно вказане призначення сигналу</translation>
+    </message>
+</context>
+<context>
+    <name>SignalTransition</name>
+    <message>
+        <source>Cannot assign to non-existent property &quot;%1&quot;</source>
+        <translation>Неможливо призначити неіснуючій властивості &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source>SignalTransition: script expected</source>
+        <translation>SignalTransition: очікувався скрипт</translation>
     </message>
 </context>
 <context>

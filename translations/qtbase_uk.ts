@@ -3138,6 +3138,14 @@ Do you want to delete it anyway?</source>
         <translation>Тимчасова помилка</translation>
     </message>
     <message>
+        <source>Network dropped connection on reset</source>
+        <translation>З’єднання розірване через скидання мережі</translation>
+    </message>
+    <message>
+        <source>Connection reset by peer</source>
+        <translation>З&apos;єднання розірвано іншою стороною</translation>
+    </message>
+    <message>
         <source>Unknown error</source>
         <translation>Невідома помилка</translation>
     </message>
@@ -4807,7 +4815,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Process failed to start (spawned process exited with code 127)</source>
-        <translation>Збій запуску процеса (запущений процес завершився з кодом 127)</translation>
+        <translation type="vanished">Збій запуску процеса (запущений процес завершився з кодом 127)</translation>
     </message>
     <message>
         <source>No program defined</source>
