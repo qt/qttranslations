@@ -4861,14 +4861,14 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>All files (*.*)</source>
-        <translation>Усі файли (*.*)</translation>
+        <translation type="vanished">Усі файли (*.*)</translation>
     </message>
 </context>
 <context>
     <name>QQnxFilePicker</name>
     <message>
         <source>Pick a file</source>
-        <translation>Вибір файлу</translation>
+        <translation type="vanished">Вибір файлу</translation>
     </message>
 </context>
 <context>

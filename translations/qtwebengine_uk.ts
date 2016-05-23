@@ -47,6 +47,10 @@
         <translation>Скопіювати</translation>
     </message>
     <message>
+        <source>Unselect</source>
+        <translation>Зняти віділення</translation>
+    </message>
+    <message>
         <source>Copy Link URL</source>
         <translation>Копіювати посилання</translation>
     </message>
@@ -118,6 +122,10 @@
         <translation>Перезавантажити</translation>
     </message>
     <message>
+        <source>Reload and Bypass Cache</source>
+        <translation>Перезавантажити оминаючи кеш</translation>
+    </message>
+    <message>
         <source>Cut</source>
         <translation>Вирізати</translation>
     </message>
@@ -156,6 +164,10 @@
     <message>
         <source>Open Link in New Tab</source>
         <translation>Відкрити посилання в новій вкладці</translation>
+    </message>
+    <message>
+        <source>Open Link in New Background Tab</source>
+        <translation>Відкрити посилання в новій фоновій вкладці</translation>
     </message>
     <message>
         <source>Copy Link URL</source>
@@ -214,6 +226,14 @@
         <translation>Закрити сторінку</translation>
     </message>
     <message>
+        <source>Unselect</source>
+        <translation>Зняти віділення</translation>
+    </message>
+    <message>
+        <source>Save &amp;Page</source>
+        <translation>Зберегти &amp;сторінку</translation>
+    </message>
+    <message>
         <source>Are you sure you want to leave this page?</source>
         <translation>Ви впевненні, що бажаєте покинути цю сторінку?</translation>
     </message>
@@ -266,6 +286,10 @@
     <message>
         <source>Cannot create a separate instance of WebEngineViewport</source>
         <translation>Неможливо створити окремий екземпляр WebEngineViewport</translation>
+    </message>
+    <message>
+        <source>Cannot create a separate instance of WebEngineContextMenuData</source>
+        <translation>Неможливо створити окремий екземпляр WebEngineContextMenuData</translation>
     </message>
 </context>
 <context>

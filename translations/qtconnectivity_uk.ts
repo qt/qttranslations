@@ -1454,6 +1454,10 @@
         <source>Error occurred trying to connect to remote device.</source>
         <translation>Під час спроби підключення до віддаленого пристрою трапилась помилка.</translation>
     </message>
+    <message>
+        <source>Error occurred trying to start advertising</source>
+        <translation>Під час спроби розпочати оголошення трапилась помилка</translation>
+    </message>
 </context>
 <context>
     <name>QObject</name>

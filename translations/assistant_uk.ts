@@ -1364,6 +1364,10 @@ Do you want to remove it?</source>
         <source>Show tabs for each individual page</source>
         <translation>Показувати вкладки для кожної окремої сторінки</translation>
     </message>
+    <message>
+        <source>&lt;Filter&gt;</source>
+        <translation>&lt;Фільтр&gt;</translation>
+    </message>
 </context>
 <context>
     <name>QCLuceneResultWidget</name>

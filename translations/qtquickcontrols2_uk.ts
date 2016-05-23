@@ -17,6 +17,57 @@
     </message>
 </context>
 <context>
+    <name>ButtonSection</name>
+    <message>
+        <source>Text</source>
+        <translation>Текст</translation>
+    </message>
+    <message>
+        <source>The text displayed on the %1.</source>
+        <translation>Текст, що відображується на %1.</translation>
+    </message>
+    <message>
+        <source>Highlighted</source>
+        <translation>Підсвічувати</translation>
+    </message>
+    <message>
+        <source>Whether the %1 is highlighted.</source>
+        <translation>Чи %1 підсвічено.</translation>
+    </message>
+    <message>
+        <source>Checkable</source>
+        <translation>Можна відмічати</translation>
+    </message>
+    <message>
+        <source>Whether the %1 is checkable.</source>
+        <translation>Чи %1 можна відмічати.</translation>
+    </message>
+    <message>
+        <source>Checked</source>
+        <translation>Відмічено</translation>
+    </message>
+    <message>
+        <source>Whether the %1 is checked.</source>
+        <translation>Чи %1 відмічено.</translation>
+    </message>
+    <message>
+        <source>Exclusive</source>
+        <translation>Ексклюзивно</translation>
+    </message>
+    <message>
+        <source>Whether the %1 is exclusive.</source>
+        <translation>Чи %1 відмічено ексклюзивно.</translation>
+    </message>
+    <message>
+        <source>Repeat</source>
+        <translation>Повторення</translation>
+    </message>
+    <message>
+        <source>Whether the %1 repeats while pressed and held down.</source>
+        <translation>Чи %1 повторюється, коли натиснено і утримується.</translation>
+    </message>
+</context>
+<context>
     <name>ButtonSpecifics</name>
     <message>
         <source>Button</source>
@@ -24,11 +75,11 @@
     </message>
     <message>
         <source>Text</source>
-        <translation>Текст</translation>
+        <translation type="vanished">Текст</translation>
     </message>
     <message>
         <source>The text displayed on the button.</source>
-        <translation>Текст, що відображується на кнопці.</translation>
+        <translation type="vanished">Текст, що відображується на кнопці.</translation>
     </message>
 </context>
 <context>
@@ -39,19 +90,42 @@
     </message>
     <message>
         <source>Text</source>
-        <translation>Текст</translation>
+        <translation type="vanished">Текст</translation>
     </message>
     <message>
         <source>The text displayed on the check box.</source>
-        <translation>Текст, що відображується на прапорці.</translation>
+        <translation type="vanished">Текст, що відображується на прапорці.</translation>
     </message>
     <message>
         <source>Checked</source>
-        <translation>Відмічено</translation>
+        <translation type="vanished">Відмічено</translation>
     </message>
     <message>
         <source>The checked state of the check box.</source>
-        <translation>Стан відміченості прапорця.</translation>
+        <translation type="vanished">Стан відміченості прапорця.</translation>
+    </message>
+</context>
+<context>
+    <name>ComboBoxSpecifics</name>
+    <message>
+        <source>Combo Box</source>
+        <translation>Випадаючий список</translation>
+    </message>
+    <message>
+        <source>Text Role</source>
+        <translation>Роль для тексту</translation>
+    </message>
+    <message>
+        <source>The model role used for displaying text.</source>
+        <translation>Роль моделі, що використовується для відображення тексту.</translation>
+    </message>
+    <message>
+        <source>Current</source>
+        <translation>Поточний</translation>
+    </message>
+    <message>
+        <source>The index of the current item.</source>
+        <translation>Номер поточного елементу.</translation>
     </message>
 </context>
 <context>
@@ -81,329 +155,368 @@
     <name>DefaultColorDialog</name>
     <message>
         <source>Hue</source>
-        <translation>Відтінок</translation>
+        <translation type="vanished">Відтінок</translation>
     </message>
     <message>
         <source>Saturation</source>
-        <translation>Насиченість</translation>
+        <translation type="vanished">Насиченість</translation>
     </message>
     <message>
         <source>Luminosity</source>
-        <translation>Світність</translation>
+        <translation type="vanished">Світність</translation>
     </message>
     <message>
         <source>Alpha</source>
-        <translation>Альфа</translation>
+        <translation type="vanished">Альфа</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Скасувати</translation>
+        <translation type="vanished">Скасувати</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation type="vanished">OK</translation>
     </message>
 </context>
 <context>
     <name>DefaultDialogWrapper</name>
     <message>
         <source>Show Details...</source>
-        <translation>Показати деталі...</translation>
+        <translation type="vanished">Показати деталі...</translation>
     </message>
 </context>
 <context>
     <name>DefaultFileDialog</name>
     <message>
         <source>Go up to the folder containing this one</source>
-        <translation>Перейти нагору до теки, що містить цю</translation>
+        <translation type="vanished">Перейти нагору до теки, що містить цю</translation>
     </message>
     <message>
         <source>Remove favorite</source>
-        <translation>Видалити улюблену</translation>
+        <translation type="vanished">Видалити улюблену</translation>
     </message>
     <message>
         <source>Add the current directory as a favorite</source>
-        <translation>Додати поточну теку як улюблену</translation>
+        <translation type="vanished">Додати поточну теку як улюблену</translation>
     </message>
     <message>
         <source>Filename</source>
-        <translation>Назва файлу</translation>
+        <translation type="vanished">Назва файлу</translation>
     </message>
     <message>
         <source>Type</source>
         <comment>file type (extension)</comment>
-        <translation>Тип</translation>
+        <translation type="vanished">Тип</translation>
     </message>
     <message>
         <source>Size</source>
         <comment>file size</comment>
-        <translation>Розмір</translation>
+        <translation type="vanished">Розмір</translation>
     </message>
     <message>
         <source>Modified</source>
         <comment>last-modified time</comment>
-        <translation>Змінено</translation>
+        <translation type="vanished">Змінено</translation>
     </message>
     <message>
         <source>Accessed</source>
         <comment>last-accessed time</comment>
-        <translation>Доступ</translation>
+        <translation type="vanished">Доступ</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Скасувати</translation>
+        <translation type="vanished">Скасувати</translation>
     </message>
     <message>
         <source>Choose</source>
-        <translation>Вибір</translation>
+        <translation type="vanished">Вибір</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Відкрити</translation>
+        <translation type="vanished">Відкрити</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Зберегти</translation>
+        <translation type="vanished">Зберегти</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation type="vanished">OK</translation>
     </message>
 </context>
 <context>
     <name>DefaultFontDialog</name>
     <message>
         <source>Writing System</source>
-        <translation>Система письма</translation>
+        <translation type="vanished">Система письма</translation>
     </message>
     <message>
         <source>Font</source>
-        <translation>Шрифт</translation>
+        <translation type="vanished">Шрифт</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Розмір</translation>
+        <translation type="vanished">Розмір</translation>
     </message>
     <message>
         <source>Weight</source>
-        <translation>Жирність</translation>
+        <translation type="vanished">Жирність</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation>Стиль</translation>
+        <translation type="vanished">Стиль</translation>
     </message>
     <message>
         <source>Sample</source>
-        <translation>Приклад</translation>
+        <translation type="vanished">Приклад</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation>Курсив</translation>
+        <translation type="vanished">Курсив</translation>
     </message>
     <message>
         <source>Font Family</source>
-        <translation>Родина шрифтів</translation>
+        <translation type="vanished">Родина шрифтів</translation>
     </message>
     <message>
         <source>Thin</source>
-        <translation>Тонкий</translation>
+        <translation type="vanished">Тонкий</translation>
     </message>
     <message>
         <source>ExtraLight</source>
-        <translation>Надлегкий</translation>
+        <translation type="vanished">Надлегкий</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>Легкий</translation>
+        <translation type="vanished">Легкий</translation>
     </message>
     <message>
         <source>Normal</source>
-        <translation>Нормальний</translation>
+        <translation type="vanished">Нормальний</translation>
     </message>
     <message>
         <source>Medium</source>
-        <translation>Середні</translation>
+        <translation type="vanished">Середні</translation>
     </message>
     <message>
         <source>DemiBold</source>
-        <translation>Напівжирний</translation>
+        <translation type="vanished">Напівжирний</translation>
     </message>
     <message>
         <source>Bold</source>
-        <translation>Жирний</translation>
+        <translation type="vanished">Жирний</translation>
     </message>
     <message>
         <source>ExtraBold</source>
-        <translation>Наджирний</translation>
+        <translation type="vanished">Наджирний</translation>
     </message>
     <message>
         <source>Black</source>
-        <translation>Чорний</translation>
+        <translation type="vanished">Чорний</translation>
     </message>
     <message>
         <source>Underline</source>
-        <translation>Підкреслений</translation>
+        <translation type="vanished">Підкреслений</translation>
     </message>
     <message>
         <source>Overline</source>
-        <translation>Надкреслений</translation>
+        <translation type="vanished">Надкреслений</translation>
     </message>
     <message>
         <source>Strikeout</source>
-        <translation>Перекреслений</translation>
+        <translation type="vanished">Перекреслений</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Скасувати</translation>
+        <translation type="vanished">Скасувати</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation type="vanished">OK</translation>
     </message>
 </context>
 <context>
     <name>DefaultMessageDialog</name>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation type="vanished">OK</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Відкрити</translation>
+        <translation type="vanished">Відкрити</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Зберегти</translation>
+        <translation type="vanished">Зберегти</translation>
     </message>
     <message>
         <source>Save All</source>
-        <translation>Зберегти все</translation>
+        <translation type="vanished">Зберегти все</translation>
     </message>
     <message>
         <source>Retry</source>
-        <translation>Повторити</translation>
+        <translation type="vanished">Повторити</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation>Ігнорувати</translation>
+        <translation type="vanished">Ігнорувати</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation>Застосувати</translation>
+        <translation type="vanished">Застосувати</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Так</translation>
+        <translation type="vanished">Так</translation>
     </message>
     <message>
         <source>Yes to All</source>
-        <translation>Так для всіх</translation>
+        <translation type="vanished">Так для всіх</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Ні</translation>
+        <translation type="vanished">Ні</translation>
     </message>
     <message>
         <source>No to All</source>
-        <translation>Ні для всіх</translation>
+        <translation type="vanished">Ні для всіх</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>Відкинути</translation>
+        <translation type="vanished">Відкинути</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Скинути</translation>
+        <translation type="vanished">Скинути</translation>
     </message>
     <message>
         <source>Restore Defaults</source>
-        <translation>Відновити типові</translation>
+        <translation type="vanished">Відновити типові</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Скасувати</translation>
+        <translation type="vanished">Скасувати</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation>Перервати</translation>
+        <translation type="vanished">Перервати</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Закрити</translation>
+        <translation type="vanished">Закрити</translation>
     </message>
     <message>
         <source>Show Details...</source>
-        <translation>Показати деталі...</translation>
+        <translation type="vanished">Показати деталі...</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Довідка</translation>
+        <translation type="vanished">Довідка</translation>
     </message>
     <message>
         <source>Hide Details</source>
-        <translation>Сховати деталі</translation>
+        <translation type="vanished">Сховати деталі</translation>
+    </message>
+</context>
+<context>
+    <name>DialSpecifics</name>
+    <message>
+        <source>Dial</source>
+        <translation>Набирач</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Значення</translation>
+    </message>
+    <message>
+        <source>The current value of the dial.</source>
+        <translation>Поточне значення набирача.</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Від</translation>
+    </message>
+    <message>
+        <source>The starting value of the dial range.</source>
+        <translation>Початкове значення набирача.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>До</translation>
+    </message>
+    <message>
+        <source>The ending value of the dial range.</source>
+        <translation>Кінцеве значення набирача.</translation>
+    </message>
+    <message>
+        <source>Step Size</source>
+        <translation>Розмір кроку</translation>
+    </message>
+    <message>
+        <source>The step size of the dial.</source>
+        <translation>Розмір кроку набирача.</translation>
     </message>
 </context>
 <context>
     <name>EditMenu_base</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;Повернути</translation>
+        <translation type="vanished">&amp;Повернути</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>П&amp;овторити</translation>
+        <translation type="vanished">П&amp;овторити</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>Ви&amp;різати</translation>
+        <translation type="vanished">Ви&amp;різати</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Копіювати</translation>
+        <translation type="vanished">&amp;Копіювати</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>&amp;Вставити</translation>
+        <translation type="vanished">&amp;Вставити</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Видалити</translation>
+        <translation type="vanished">Видалити</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Очистити</translation>
+        <translation type="vanished">Очистити</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Вибрати все</translation>
+        <translation type="vanished">Вибрати все</translation>
     </message>
 </context>
 <context>
     <name>EditMenu_ios</name>
     <message>
         <source>Cut</source>
-        <translation>Вирізати</translation>
+        <translation type="vanished">Вирізати</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Копіювати</translation>
+        <translation type="vanished">Копіювати</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>Вставити</translation>
+        <translation type="vanished">Вставити</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Видалити</translation>
+        <translation type="vanished">Видалити</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation>Вибрати</translation>
+        <translation type="vanished">Вибрати</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Вибрати все</translation>
+        <translation type="vanished">Вибрати все</translation>
     </message>
 </context>
 <context>
@@ -479,8 +592,12 @@
         <translation>Поточна</translation>
     </message>
     <message>
+        <source>The index of the current page.</source>
+        <translation>Номер поточної сторінки.</translation>
+    </message>
+    <message>
         <source>The index of the current page</source>
-        <translation>Номер поточної сторінки</translation>
+        <translation type="vanished">Номер поточної сторінки</translation>
     </message>
 </context>
 <context>
@@ -526,11 +643,25 @@
     <name>QtLabsMaterialStylePlugin</name>
     <message>
         <source>Material is an attached property</source>
-        <translation>Material є прикріпленою властивістю</translation>
+        <translation type="vanished">Material є прикріпленою властивістю</translation>
     </message>
 </context>
 <context>
     <name>QtLabsUniversalStylePlugin</name>
+    <message>
+        <source>Universal is an attached property</source>
+        <translation type="vanished">Universal є прикріпленою властивістю</translation>
+    </message>
+</context>
+<context>
+    <name>QtQuickControls2MaterialStylePlugin</name>
+    <message>
+        <source>Material is an attached property</source>
+        <translation>Material є прикріпленою властивістю</translation>
+    </message>
+</context>
+<context>
+    <name>QtQuickControls2UniversalStylePlugin</name>
     <message>
         <source>Universal is an attached property</source>
         <translation>Universal є прикріпленою властивістю</translation>
@@ -544,19 +675,19 @@
     </message>
     <message>
         <source>Text</source>
-        <translation>Текст</translation>
+        <translation type="vanished">Текст</translation>
     </message>
     <message>
         <source>The text displayed on the radio button.</source>
-        <translation>Текст, що відображується на перемикачі.</translation>
+        <translation type="vanished">Текст, що відображується на перемикачі.</translation>
     </message>
     <message>
         <source>Checked</source>
-        <translation>Відмічено</translation>
+        <translation type="vanished">Відмічено</translation>
     </message>
     <message>
         <source>The checked state of the radio button.</source>
-        <translation>Стан відміченості перемикача.</translation>
+        <translation type="vanished">Стан відміченості перемикача.</translation>
     </message>
 </context>
 <context>
@@ -590,8 +721,12 @@
         <translation>Кінцеве значення повзунка.</translation>
     </message>
     <message>
-        <source>Step size</source>
+        <source>Step Size</source>
         <translation>Розмір кроку</translation>
+    </message>
+    <message>
+        <source>Step size</source>
+        <translation type="vanished">Розмір кроку</translation>
     </message>
     <message>
         <source>The step size of the slider.</source>
@@ -607,6 +742,45 @@
     </message>
 </context>
 <context>
+    <name>SpinBoxSpecifics</name>
+    <message>
+        <source>Spin Box</source>
+        <translation>Лічильник</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Значення</translation>
+    </message>
+    <message>
+        <source>The current value of the spinbox.</source>
+        <translation>Поточне значення лічильника.</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Від</translation>
+    </message>
+    <message>
+        <source>The starting value of the spinbox range.</source>
+        <translation>Початкове значення лічильника.</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>До</translation>
+    </message>
+    <message>
+        <source>The ending value of the spinbox range.</source>
+        <translation>Кінцеве значення лічильника.</translation>
+    </message>
+    <message>
+        <source>Step Size</source>
+        <translation>Розмір кроку</translation>
+    </message>
+    <message>
+        <source>The step size of the spinbox.</source>
+        <translation>Розмір кроку лічильника.</translation>
+    </message>
+</context>
+<context>
     <name>SwitchSpecifics</name>
     <message>
         <source>Switch</source>
@@ -614,19 +788,19 @@
     </message>
     <message>
         <source>Text</source>
-        <translation>Текст</translation>
+        <translation type="vanished">Текст</translation>
     </message>
     <message>
         <source>The text displayed on the switch.</source>
-        <translation>Текст, що відображується на вмикачі.</translation>
+        <translation type="vanished">Текст, що відображується на вмикачі.</translation>
     </message>
     <message>
         <source>Checked</source>
-        <translation>Відмічено</translation>
+        <translation type="vanished">Відмічено</translation>
     </message>
     <message>
         <source>The checked state of the switch.</source>
-        <translation>Стан відміченості вмикача.</translation>
+        <translation type="vanished">Стан відміченості вмикача.</translation>
     </message>
 </context>
 <context>
@@ -637,11 +811,34 @@
     </message>
     <message>
         <source>Text</source>
-        <translation>Текст</translation>
+        <translation type="vanished">Текст</translation>
     </message>
     <message>
         <source>The text displayed on the tool button.</source>
-        <translation>Текст, що відображується на кнопці.</translation>
+        <translation type="vanished">Текст, що відображується на кнопці.</translation>
+    </message>
+</context>
+<context>
+    <name>TumblerSpecifics</name>
+    <message>
+        <source>Tumbler</source>
+        <translation>Тумблер</translation>
+    </message>
+    <message>
+        <source>Visible Count</source>
+        <translation>Видима кількість</translation>
+    </message>
+    <message>
+        <source>The count of visible items.</source>
+        <translation>Кількість видимих елементів.</translation>
+    </message>
+    <message>
+        <source>Current</source>
+        <translation>Поточний</translation>
+    </message>
+    <message>
+        <source>The index of the current item.</source>
+        <translation>Номер поточного елементу.</translation>
     </message>
 </context>
 </TS>
