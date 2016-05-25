@@ -40,7 +40,7 @@
     </message>
     <message>
         <source>%1 contains octets which are disallowed in the requested encoding %2.</source>
-        <translation>%1 conté octets que estan deshabilitats en la codificació %2 requerida.</translation>
+        <translation>%1 conté octets que estan no estan permesos en la codificació %2 requerida.</translation>
     </message>
     <message>
         <source>The codepoint %1, occurring in %2 using encoding %3, is an invalid XML character.</source>
@@ -412,7 +412,7 @@
     </message>
     <message>
         <source>A zone offset must be in the range %1..%2 inclusive. %3 is out of range.</source>
-        <translation>Un desplaçament de zona ha d&apos;estar a l&apos;interval %1..%2 inclusius. %3 està fora de l&apos;interval.</translation>
+        <translation>Un desplaçament de zona ha d&apos;estar a l&apos;interval %1..%2 inclosos. %3 està fora de l&apos;interval.</translation>
     </message>
     <message>
         <source>%1 is not a whole number of minutes.</source>
@@ -568,7 +568,7 @@
     </message>
     <message>
         <source>A stylesheet function must have a prefixed name.</source>
-        <translation>Una funció de fulla d&apos;estils ha de tenir un nom prefixat.</translation>
+        <translation>Una funció de full d&apos;estils ha de tenir un nom prefixat.</translation>
     </message>
     <message>
         <source>The namespace for a user defined function cannot be empty (try the predefined prefix %1 which exists for cases like this)</source>
@@ -912,7 +912,7 @@
     </message>
     <message>
         <source>Simple type %1 cannot derive from %2 as the latter defines restriction as final.</source>
-        <translation>El tipus simple %1 no pot derivar des de %2 docs el darrer defineix una restricció com a final.</translation>
+        <translation>El tipus simple %1 no pot derivar des de %2, doncs el darrer defineix una restricció com a final.</translation>
     </message>
     <message>
         <source>Variety of item type of %1 must be either atomic or union.</source>
@@ -1388,7 +1388,7 @@
     </message>
     <message>
         <source>%1 has a different number of fields from the identity constraint %2 that it references.</source>
-        <translation>%1 té un nombre diferent de camps a la restricció d&apos;identitat %2 que hi referència.</translation>
+        <translation>%1 té un nombre diferent de camps a la restricció d&apos;identitat %2 que la referència.</translation>
     </message>
     <message>
         <source>Base type %1 of %2 element cannot be resolved.</source>
@@ -1492,7 +1492,7 @@
     </message>
     <message>
         <source>%1 element %2 is not a valid restriction of the %3 element it redefines: %4.</source>
-        <translation>L&apos;element %1 %2 no és una restricció vàlida de l&apos;element %3 al que redefineix: %4.</translation>
+        <translation>L&apos;element %1 %2 no és una restricció vàlida de l&apos;element %3 al qual redefineix: %4.</translation>
     </message>
     <message>
         <source>%1 is not valid according to %2.</source>

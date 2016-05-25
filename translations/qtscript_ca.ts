@@ -55,7 +55,7 @@
     </message>
     <message>
         <source>Shift+F5</source>
-        <translation>Majús+F5</translation>
+        <translation>Maj+F5</translation>
     </message>
     <message>
         <source>Continue</source>
@@ -67,7 +67,7 @@
     </message>
     <message>
         <source>Step Into</source>
-        <translation>Passa a dins</translation>
+        <translation>Avança dins</translation>
     </message>
     <message>
         <source>F11</source>
@@ -75,7 +75,7 @@
     </message>
     <message>
         <source>Step Over</source>
-        <translation>Passa per sobre</translation>
+        <translation>Avança sobre</translation>
     </message>
     <message>
         <source>F10</source>
@@ -83,11 +83,11 @@
     </message>
     <message>
         <source>Step Out</source>
-        <translation>Avança per fora</translation>
+        <translation>Avança fora</translation>
     </message>
     <message>
         <source>Shift+F11</source>
-        <translation>Majús+F11</translation>
+        <translation>Maj+F11</translation>
     </message>
     <message>
         <source>Run to Cursor</source>
@@ -143,7 +143,7 @@
     </message>
     <message>
         <source>Shift+F3</source>
-        <translation>Majús+F3</translation>
+        <translation>Maj+F3</translation>
     </message>
     <message>
         <source>Ctrl+G</source>
@@ -266,7 +266,7 @@
     </message>
     <message>
         <source>Qt Script Debugger</source>
-        <translation>Depurador d&apos;scripts de Qt</translation>
+        <translation>Depurador de scripts de Qt</translation>
     </message>
 </context>
 <context>

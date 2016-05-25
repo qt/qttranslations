@@ -770,7 +770,7 @@
     </message>
     <message>
         <source>Script import qualifiers must be unique.</source>
-        <translation>Els qualificadors per a la importació d&apos;scripts han de ser únics.</translation>
+        <translation>Els qualificadors per a la importació de scripts han de ser únics.</translation>
     </message>
     <message>
         <source>Script import requires a qualifier</source>
@@ -950,7 +950,7 @@
     <name>QObject</name>
     <message>
         <source>&quot;%1&quot; duplicates a previous role name and will be disabled.</source>
-        <translation>«%1» duplica un nom de rol previ i es deshabilitarà.</translation>
+        <translation>«%1» duplica un nom de rol previ i s&apos;inactivarà.</translation>
     </message>
     <message>
         <source>invalid query: &quot;%1&quot;</source>
