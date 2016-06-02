@@ -473,7 +473,7 @@
     <name>QDeclarativeEngine</name>
     <message>
         <source>executeSql called outside transaction()</source>
-        <translation>&quot;executeSql&quot; zawołane na zewnątrz &quot;transation()&quot;</translation>
+        <translation>&quot;executeSql&quot; zawołane na zewnątrz &quot;transaction()&quot;</translation>
     </message>
     <message>
         <source>Read-only Transaction</source>

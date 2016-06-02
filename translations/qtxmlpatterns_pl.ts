@@ -208,7 +208,7 @@
     </message>
     <message>
         <source>It&apos;s not possible to cast the value %1 of type %2 to %3</source>
-        <translation>Nie moża rzutować wartości %1 typu %2 do typu %3</translation>
+        <translation>Nie można rzutować wartości %1 typu %2 do typu %3</translation>
     </message>
     <message>
         <source>Failure when casting from %1 to %2: %3</source>
@@ -224,7 +224,7 @@
     </message>
     <message>
         <source>No comparisons can be done involving the type %1.</source>
-        <translation>Nie można porównynać typu %1.</translation>
+        <translation>Nie można porównywać typu %1.</translation>
     </message>
     <message>
         <source>Operator %1 is not available between atomic values of type %2 and %3.</source>
@@ -1820,7 +1820,7 @@
     </message>
     <message>
         <source>Element %1 contains not allowed text content.</source>
-        <translation>Element %1 zawiera niedozwolony text.</translation>
+        <translation>Element %1 zawiera niedozwolony tekst.</translation>
     </message>
     <message>
         <source>Element %1 cannot contain other elements, as it has a fixed content.</source>

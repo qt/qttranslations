@@ -156,7 +156,7 @@
     </message>
     <message>
         <source>Remove Fonts</source>
-        <translation>Unuń czcionki</translation>
+        <translation>Usuń czcionki</translation>
     </message>
     <message>
         <source>Would you like to remove all fonts?</source>
@@ -178,7 +178,7 @@
     <name>AssistantClient</name>
     <message>
         <source>Unable to send request: Assistant is not responding.</source>
-        <translation>Nie można wysłac komendy. Asystent nie odpowiada.</translation>
+        <translation>Nie można wysłać komendy. Asystent nie odpowiada.</translation>
     </message>
     <message>
         <source>The binary &apos;%1&apos; does not exist.</source>
@@ -533,8 +533,8 @@
         <source>Changed &apos;%1&apos; of %n objects</source>
         <translation>
             <numerusform>Zmieniono &apos;%1&apos; w %n obiekcie</numerusform>
-            <numerusform>Zmieniono &apos;%1&apos; w %n obiekach</numerusform>
-            <numerusform>Zmieniono &apos;%1&apos; w %n obiekach</numerusform>
+            <numerusform>Zmieniono &apos;%1&apos; w %n obiektach</numerusform>
+            <numerusform>Zmieniono &apos;%1&apos; w %n obiektach</numerusform>
         </translation>
     </message>
     <message>
@@ -545,8 +545,8 @@
         <source>Reset &apos;%1&apos; of %n objects</source>
         <translation>
             <numerusform>Przywrócono domyślną wartość &apos;%1&apos; w &apos;%n&apos; obiekcie</numerusform>
-            <numerusform>Przywrócono domyślne wartości &apos;%1&apos; w &apos;%n&apos; obiekach</numerusform>
-            <numerusform>Przywrócono domyślne wartości &apos;%1&apos; w &apos;%n&apos; obiekach</numerusform>
+            <numerusform>Przywrócono domyślne wartości &apos;%1&apos; w &apos;%n&apos; obiektach</numerusform>
+            <numerusform>Przywrócono domyślne wartości &apos;%1&apos; w &apos;%n&apos; obiektach</numerusform>
         </translation>
     </message>
     <message>
@@ -821,7 +821,7 @@
     <message>
         <source>Invalid stretch value for &apos;%1&apos;: &apos;%2&apos;</source>
         <extracomment>Parsing layout stretch values</extracomment>
-        <translation>Niepoprawna wartość rozciągniecia dla &apos;%1&apos;: &apos;%2&apos;</translation>
+        <translation>Niepoprawna wartość rozciągnięcia dla &apos;%1&apos;: &apos;%2&apos;</translation>
     </message>
     <message>
         <source>Invalid minimum size for &apos;%1&apos;: &apos;%2&apos;</source>
@@ -862,7 +862,7 @@
     </message>
     <message>
         <source>&amp;Label text:</source>
-        <translation>Text &amp;etykiety:</translation>
+        <translation>Tekst &amp;etykiety:</translation>
     </message>
     <message>
         <source>Field &amp;type:</source>
@@ -3155,7 +3155,7 @@ Czy chcesz nadpisać szablon?</translation>
     <name>WidgetDataBase</name>
     <message>
         <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
-        <translation>Plik zawiera własny widżet &apos;%1&apos; którego klasa bazowa (%2) różni się od bieżącego elementu w bazie danych z widżetami (%3). Baza danych z widżetami została niezmieniona.</translation>
+        <translation>Plik zawiera własny widżet &apos;%1&apos; którego klasa bazowa (%2) różni się od bieżącego elementu w bazie danych z widżetami (%3). Baza danych z widżetami pozostała niezmieniona.</translation>
     </message>
 </context>
 <context>
@@ -4008,7 +4008,7 @@ Czy chcesz nadpisać szablon?</translation>
     </message>
     <message>
         <source>Preview current form</source>
-        <translation>Podgląd bierzącego formularza</translation>
+        <translation>Podgląd bieżącego formularza</translation>
     </message>
     <message>
         <source>Form &amp;Settings...</source>
@@ -4194,11 +4194,11 @@ Czy chcesz nadpisać szablon?</translation>
     <name>qdesigner_internal::ItemListEditor</name>
     <message>
         <source>Properties &amp;&lt;&lt;</source>
-        <translation>Własciwości &amp;&lt;&lt;</translation>
+        <translation>Właściwości &amp;&lt;&lt;</translation>
     </message>
     <message>
         <source>Properties &amp;&gt;&gt;</source>
-        <translation>Własciwości &amp;&gt;&gt;</translation>
+        <translation>Właściwości &amp;&gt;&gt;</translation>
     </message>
     <message>
         <source>Items List</source>
@@ -4705,7 +4705,7 @@ Wybierz inną nazwę.</translation>
     </message>
     <message>
         <source>%1 - Duplicate Skin</source>
-        <translation>%1 - zduplikowana skórka (skin)</translation>
+        <translation>%1 - powielona skórka (skin)</translation>
     </message>
     <message>
         <source>The skin &apos;%1&apos; already exists.</source>
@@ -5121,7 +5121,7 @@ Klasa: %2</translation>
     </message>
     <message>
         <source>A widget element could not be found.</source>
-        <translation>Nie można odnależć elementu &lt;widget&gt;.</translation>
+        <translation>Nie można odnaleźć elementu &lt;widget&gt;.</translation>
     </message>
 </context>
 <context>
@@ -5285,7 +5285,7 @@ Klasa: %2</translation>
     </message>
     <message>
         <source>%1 - Duplicate Signature</source>
-        <translation>%1 - zduplikowany zapis</translation>
+        <translation>%1 - powielony zapis</translation>
     </message>
     <message>
         <source>Signals/Slots of %1</source>
@@ -5416,11 +5416,11 @@ Klasa: %2</translation>
     </message>
     <message>
         <source>Properties &amp;&lt;&lt;</source>
-        <translation>Własciwości &amp;&lt;&lt;</translation>
+        <translation>Właściwości &amp;&lt;&lt;</translation>
     </message>
     <message>
         <source>Properties &amp;&gt;&gt;</source>
-        <translation>Własciwości &amp;&gt;&gt;</translation>
+        <translation>Właściwości &amp;&gt;&gt;</translation>
     </message>
     <message>
         <source>Table Items</source>
@@ -5538,7 +5538,7 @@ Klasa: %2</translation>
     </message>
     <message>
         <source>Per column properties</source>
-        <translation>Właściowści dla kolumny</translation>
+        <translation>Właściwości dla kolumny</translation>
     </message>
     <message>
         <source>Common properties</source>
@@ -5554,11 +5554,11 @@ Klasa: %2</translation>
     </message>
     <message>
         <source>Properties &amp;&lt;&lt;</source>
-        <translation>Własciwości &amp;&lt;&lt;</translation>
+        <translation>Właściwości &amp;&lt;&lt;</translation>
     </message>
     <message>
         <source>Properties &amp;&gt;&gt;</source>
-        <translation>Własciwości &amp;&gt;&gt;</translation>
+        <translation>Właściwości &amp;&gt;&gt;</translation>
     </message>
     <message>
         <source>New &amp;Subitem</source>
@@ -5621,7 +5621,7 @@ Klasa: %2</translation>
     <name>qdesigner_internal::TreeWidgetTaskMenu</name>
     <message>
         <source>Edit Items...</source>
-        <translation>Modyfikujj elementy...</translation>
+        <translation>Modyfikuj elementy...</translation>
     </message>
 </context>
 <context>

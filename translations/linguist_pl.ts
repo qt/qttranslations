@@ -298,9 +298,9 @@ Przyjmie on uniwersalną formę liczby pojedynczej.</translation>
     <message numerus="yes">
         <source>    Ignored %n untranslated source text(s)</source>
         <translation>
-            <numerusform>    Pominięto %n nieprzetłumaczony tekst źródłowy￼</numerusform>
+            <numerusform>    Pominięto %n nieprzetłumaczony tekst źródłowy</numerusform>
             <numerusform>    Pominięto %n nieprzetłumaczone teksty źródłowe</numerusform>
-            <numerusform>    Pominięto %n nieprzetłumaczonych tekstów źródłowy￼ch</numerusform>
+            <numerusform>    Pominięto %n nieprzetłumaczonych tekstów źródłowych</numerusform>
         </translation>
     </message>
 </context>
@@ -957,7 +957,7 @@ Wszystkie pliki (*)</translation>
     </message>
     <message>
         <source>Do you want to save phrase book &apos;%1&apos;?</source>
-        <translation>Czy chcesz zachować książke wyrażeń &apos;%1&apos;?</translation>
+        <translation>Czy chcesz zachować książkę wyrażeń &apos;%1&apos;?</translation>
     </message>
     <message>
         <source>All</source>
