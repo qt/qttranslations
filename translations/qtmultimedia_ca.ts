@@ -277,15 +277,15 @@
     <name>PLSParser</name>
     <message>
         <source>Error parsing playlist: %1, expected count = %2</source>
-        <translation>Error en analitzar la llista de reproducció: %1, s&apos;esperava el compte = %2</translation>
+        <translation type="vanished">Error en analitzar la llista de reproducció: %1, s&apos;esperava el compte = %2</translation>
     </message>
     <message>
         <source>Error parsing playlist at line[%1], expected version = 2</source>
-        <translation>Error en analitzar la llista de reproducció a la línia [%1], s&apos;esperava la versió = 2</translation>
+        <translation type="vanished">Error en analitzar la llista de reproducció a la línia [%1], s&apos;esperava la versió = 2</translation>
     </message>
     <message>
         <source>Error parsing playlist at line[%1]:%2</source>
-        <translation>Error en analitzar la llista de reproducció a la línia [%1]: %2</translation>
+        <translation type="vanished">Error en analitzar la llista de reproducció a la línia [%1]: %2</translation>
     </message>
 </context>
 <context>
@@ -317,6 +317,14 @@
         <source>Drive mode not supported</source>
         <extracomment>Drive mode is the camera&apos;s shutter mode, for example single shot, continuos exposure, etc.</extracomment>
         <translation>El mode continu no s&apos;accepta</translation>
+    </message>
+    <message>
+        <source>Failed to capture image</source>
+        <translation>Ha fallat en capturar la imatge</translation>
+    </message>
+    <message>
+        <source>Camera preview failed to start.</source>
+        <translation>La vista prèvia de la càmara ha fallat en iniciar-se.</translation>
     </message>
     <message>
         <source>Could not open destination file: %1</source>
@@ -449,7 +457,7 @@
     <name>QGstreamerPlayerControl</name>
     <message>
         <source>Attempting to play invalid Qt resource</source>
-        <translation>S&apos;intenta reproduir un recurs de Qt no vàlid</translation>
+        <translation type="vanished">S&apos;intenta reproduir un recurs de Qt no vàlid</translation>
     </message>
     <message>
         <source>Attempting to play invalid user stream</source>
@@ -558,26 +566,19 @@
     <name>QObject</name>
     <message>
         <source>%1 playlist type is unknown</source>
-        <translation>El tipus %1 per a llistes de reproducció és desconegut</translation>
+        <translation type="vanished">El tipus %1 per a llistes de reproducció és desconegut</translation>
     </message>
     <message>
         <source>invalid line in playlist file</source>
-        <translation>línia no vàlida al fitxer de la llista de reproducció</translation>
+        <translation type="vanished">línia no vàlida al fitxer de la llista de reproducció</translation>
     </message>
     <message>
         <source>Empty file provided</source>
-        <translation>S&apos;ha proporcionat un fitxer buit</translation>
+        <translation type="vanished">S&apos;ha proporcionat un fitxer buit</translation>
     </message>
 </context>
 <context>
     <name>QPlaylistFileParser</name>
-    <message>
-        <source>%1 does not exist</source>
-        <translation>%1 no existeix</translation>
-    </message>
-</context>
-<context>
-    <name>QPlaylistFileParserPrivate</name>
     <message>
         <source>%1 playlist type is unknown</source>
         <translation>El tipus %1 per a llistes de reproducció és desconegut</translation>
@@ -589,6 +590,25 @@
     <message>
         <source>Empty file provided</source>
         <translation>S&apos;ha proporcionat un fitxer buit</translation>
+    </message>
+    <message>
+        <source>%1 does not exist</source>
+        <translation>%1 no existeix</translation>
+    </message>
+</context>
+<context>
+    <name>QPlaylistFileParserPrivate</name>
+    <message>
+        <source>%1 playlist type is unknown</source>
+        <translation type="vanished">El tipus %1 per a llistes de reproducció és desconegut</translation>
+    </message>
+    <message>
+        <source>invalid line in playlist file</source>
+        <translation type="vanished">línia no vàlida al fitxer de la llista de reproducció</translation>
+    </message>
+    <message>
+        <source>Empty file provided</source>
+        <translation type="vanished">S&apos;ha proporcionat un fitxer buit</translation>
     </message>
 </context>
 <context>
@@ -604,6 +624,13 @@
     <message>
         <source>Image saving failed</source>
         <translation>Ha fallat en desar la imatge</translation>
+    </message>
+</context>
+<context>
+    <name>QWinRTImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation>Imatge JPEG</translation>
     </message>
 </context>
 </TS>

@@ -14,7 +14,7 @@ defineTest(addTsTarget) {
     dir = $$section(PWD, /, 0, -3)
     for(p, 3): \
         exists($$dir/$$p): \
-            pros += -pro-out $$shadowed($$dir/$$dirname(p)) $$p
+            pros += -pro-out $$shell_quote($$shadowed($$dir/$$dirname(p))) $$p
     isEmpty(pros): return()
     cv = $${2}.commands
     $$cv = cd $$dir && $$LUPDATE $$pros -ts $$4
@@ -47,6 +47,7 @@ addTsTargets(qtbase, qtbase/src/src.pro \
 )
 addTsTargets(qtdeclarative, qtdeclarative/src/src.pro)
 addTsTargets(qtquickcontrols, qtquickcontrols/src/src.pro)
+addTsTargets(qtquickcontrols2, qtquickcontrols2/src/src.pro)
 addTsTargets(qtmultimedia, qtmultimedia/src/src.pro)
 addTsTargets(qtquick1, qtquick1/src/src.pro)
 addTsTargets(qtscript, qtscript/src/src.pro)
