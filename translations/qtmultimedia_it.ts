@@ -5,11 +5,11 @@
     <name>AudioCaptureSession</name>
     <message>
         <source>RAW file format</source>
-        <translation>Formato file RAW</translation>
+        <translation type="vanished">Formato file RAW</translation>
     </message>
     <message>
         <source>WAV file format</source>
-        <translation>Formato file WAV</translation>
+        <translation type="vanished">Formato file WAV</translation>
     </message>
 </context>
 <context>
@@ -27,7 +27,7 @@
     <name>AudioEncoderControl</name>
     <message>
         <source>PCM audio data</source>
-        <translation>Dati audio PCM</translation>
+        <translation type="vanished">Dati audio PCM</translation>
     </message>
     <message>
         <source>Linear PCM audio data</source>
@@ -187,14 +187,25 @@
     </message>
 </context>
 <context>
+    <name>DSCameraSession</name>
+    <message>
+        <source>Camera not ready for capture</source>
+        <translation>Fotocamera non pronta per la cattura</translation>
+    </message>
+    <message>
+        <source>Could not save image to file.</source>
+        <translation>Impossibile salvare l&apos;immagine in un file.</translation>
+    </message>
+</context>
+<context>
     <name>MFPlayerSession</name>
     <message>
         <source>Invalid stream source!</source>
-        <translation>Sorgente del flusso non valida!</translation>
+        <translation type="vanished">Sorgente del flusso non valida!</translation>
     </message>
     <message>
         <source>Attempting to play invalid Qt resource</source>
-        <translation>Tentativo di riproduzione di una risorsa Qt non valida</translation>
+        <translation type="vanished">Tentativo di riproduzione di una risorsa Qt non valida</translation>
     </message>
     <message>
         <source>Invalid stream source.</source>
@@ -230,7 +241,7 @@
     </message>
     <message>
         <source>Failed to create topology.</source>
-        <translation>Creazione della tolopogia non riuscita.</translation>
+        <translation>Creazione della topologia non riuscita.</translation>
     </message>
     <message>
         <source>Unable to play any stream.</source>
@@ -282,35 +293,35 @@
     </message>
     <message>
         <source>Can&apos;t create presentation descriptor!</source>
-        <translation>Impossibile creare il descrittore di presentazione!</translation>
+        <translation type="vanished">Impossibile creare il descrittore di presentazione!</translation>
     </message>
     <message>
         <source>Failed to get stream count</source>
-        <translation>Impossibile recuperare il numero di flussi</translation>
+        <translation type="vanished">Impossibile recuperare il numero di flussi</translation>
     </message>
     <message>
         <source>Failed to create topology!</source>
-        <translation>Creazione della tolopogia non riuscito!</translation>
+        <translation type="vanished">Creazione della topologia non riuscito!</translation>
     </message>
     <message>
         <source>Unable to play some stream</source>
-        <translation>Impossibile riprodurre alcuni flussi</translation>
+        <translation type="vanished">Impossibile riprodurre alcuni flussi</translation>
     </message>
     <message>
         <source>Unable to play</source>
-        <translation>Impossibile effettuare la riproduzione</translation>
+        <translation type="vanished">Impossibile effettuare la riproduzione</translation>
     </message>
     <message>
         <source>Failed to set topology!</source>
-        <translation>Impostazione della topologia non riuscita!</translation>
+        <translation type="vanished">Impostazione della topologia non riuscita!</translation>
     </message>
     <message>
         <source>Unknown stream type</source>
-        <translation>Tipo di flusso sconosciuto</translation>
+        <translation type="vanished">Tipo di flusso sconosciuto</translation>
     </message>
     <message>
         <source>failed to stop</source>
-        <translation>stop non riuscito</translation>
+        <translation type="vanished">stop non riuscito</translation>
     </message>
     <message>
         <source>failed to start playback</source>
@@ -318,66 +329,66 @@
     </message>
     <message>
         <source>failed to pause</source>
-        <translation>pausa fallita</translation>
+        <translation type="vanished">pausa fallita</translation>
     </message>
     <message>
         <source>Unable to create mediasession</source>
-        <translation>Impossibile creare una sessione multimediale</translation>
+        <translation type="vanished">Impossibile creare una sessione multimediale</translation>
     </message>
     <message>
         <source>Unable to pulling session events</source>
-        <translation>Impossibile ottenere gli eventi della sessione</translation>
+        <translation type="vanished">Impossibile ottenere gli eventi della sessione</translation>
     </message>
     <message>
         <source>failed to seek</source>
-        <translation>ricerca fallita</translation>
+        <translation type="vanished">ricerca fallita</translation>
     </message>
     <message>
         <source>media session non-fatal error!</source>
-        <translation>errore non fatale della sessione multimediale!</translation>
+        <translation type="vanished">errore non fatale della sessione multimediale!</translation>
     </message>
     <message>
         <source>media session serious error!</source>
-        <translation>errore grave della sessione multimediale!</translation>
+        <translation type="vanished">errore grave della sessione multimediale!</translation>
     </message>
 </context>
 <context>
     <name>PLSParser</name>
     <message>
         <source>Error parsing pls: %1, expected count = %2</source>
-        <translation>Errore di analisi pls: %1, valore atteso = %2</translation>
+        <translation type="vanished">Errore di analisi pls: %1, valore atteso = %2</translation>
     </message>
     <message>
         <source>Error parsing pls at line[%1], expected version = 2</source>
-        <translation>Errore di analisi pls alla riga[%1], versione attesa = 2</translation>
+        <translation type="vanished">Errore di analisi pls alla riga[%1], versione attesa = 2</translation>
     </message>
     <message>
         <source>Error parsing pls at line[%1]:%2</source>
-        <translation>Errore di analisi pls alla riga[%1]:%2</translation>
+        <translation type="vanished">Errore di analisi pls alla riga[%1]:%2</translation>
     </message>
     <message>
         <source>Error parsing playlist: %1, expected count = %2</source>
-        <translation>Errore di analisi della scaletta: %1, previsto contatore = %2</translation>
+        <translation type="vanished">Errore di analisi della scaletta: %1, previsto contatore = %2</translation>
     </message>
     <message>
         <source>Error parsing playlist at line[%1], expected version = 2</source>
-        <translation>Errore di analisi della scaletta alla riga[%1], prevista versione = 2</translation>
+        <translation type="vanished">Errore di analisi della scaletta alla riga[%1], prevista versione = 2</translation>
     </message>
     <message>
         <source>Error parsing playlist at line[%1]:%2</source>
-        <translation>Errore di analisi della scaletta alla riga[%1]:%2</translation>
+        <translation type="vanished">Errore di analisi della scaletta alla riga[%1]:%2</translation>
     </message>
     <message>
         <source>File%1</source>
-        <translation>File%1</translation>
+        <translation type="vanished">File%1</translation>
     </message>
     <message>
         <source>Title%1</source>
-        <translation>Titolo%1</translation>
+        <translation type="vanished">Titolo%1</translation>
     </message>
     <message>
         <source>Length%1</source>
-        <translation>Lughezza%1</translation>
+        <translation type="vanished">Lunghezza%1</translation>
     </message>
 </context>
 <context>
@@ -398,6 +409,10 @@
 <context>
     <name>QAndroidCameraSession</name>
     <message>
+        <source>Camera cannot be started without a viewfinder.</source>
+        <translation>La fotocamera non può essere avviata senza un mirino.</translation>
+    </message>
+    <message>
         <source>Camera not ready</source>
         <translation>Fotocamera non pronta</translation>
     </message>
@@ -407,12 +422,20 @@
         <translation>Modalità di guida non supportata</translation>
     </message>
     <message>
+        <source>Failed to capture image</source>
+        <translation>Cattura dell&apos;immagine non riuscita</translation>
+    </message>
+    <message>
+        <source>Camera preview failed to start.</source>
+        <translation>Impossibile avviare l&apos;anteprima della fotocamera.</translation>
+    </message>
+    <message>
         <source>Could not open destination file: %1</source>
         <translation>Impossibile aprire il file di destinazione: %1</translation>
     </message>
     <message>
         <source>Could not load JPEG data from captured image</source>
-        <translation>Impossibile caricare i dati JPEG dall&apos;immagine catturata</translation>
+        <translation type="vanished">Impossibile caricare i dati JPEG dall&apos;immagine catturata</translation>
     </message>
 </context>
 <context>
@@ -481,7 +504,7 @@
     <name>QCameraPrivate</name>
     <message>
         <source>The camera service is missing</source>
-        <translation>Servizio della fotocamera mancante</translation>
+        <translation type="vanished">Servizio della fotocamera mancante</translation>
     </message>
 </context>
 <context>
@@ -548,7 +571,7 @@
     <name>QGstreamerPlayerControl</name>
     <message>
         <source>Attempting to play invalid Qt resource</source>
-        <translation>Tentativo di riproduzione di una risorsa Qt non valida</translation>
+        <translation type="vanished">Tentativo di riproduzione di una risorsa Qt non valida</translation>
     </message>
     <message>
         <source>Attempting to play invalid user stream</source>
@@ -567,7 +590,7 @@
     </message>
     <message>
         <source>Media is loaded as a playlist</source>
-        <translation>Media caricato come playlist</translation>
+        <translation>Media caricato come scaletta</translation>
     </message>
 </context>
 <context>
@@ -595,6 +618,10 @@
 <context>
     <name>QMediaPlayer</name>
     <message>
+        <source>Attempting to play invalid Qt resource</source>
+        <translation>Tentativo di riproduzione di una risorsa Qt non valida</translation>
+    </message>
+    <message>
         <source>The QMediaPlayer object does not have a valid service</source>
         <translation>L&apos;oggetto QMediaPlayer non ha un servizio valido</translation>
     </message>
@@ -603,11 +630,11 @@
     <name>QMediaPlaylist</name>
     <message>
         <source>Could not add items to read only playlist.</source>
-        <translation>Impossibile aggiungere elementi ad una playlist di sola lettura.</translation>
+        <translation>Impossibile aggiungere elementi ad una scaletta in sola lettura.</translation>
     </message>
     <message>
         <source>Playlist format is not supported</source>
-        <translation>Il formato della playlist non è supportato</translation>
+        <translation>Il formato della scaletta non è supportato</translation>
     </message>
     <message>
         <source>The file could not be accessed.</source>
@@ -615,7 +642,7 @@
     </message>
     <message>
         <source>Playlist format is not supported.</source>
-        <translation>Il formato della playlist non è supportato.</translation>
+        <translation>Il formato della scaletta non è supportato.</translation>
     </message>
 </context>
 <context>
@@ -644,9 +671,25 @@
         <source>CameraImageProcessing is provided by Camera</source>
         <translation>CameraImageProcessing è reso disponibile da Camera</translation>
     </message>
+    <message>
+        <source>CameraViewfinder is provided by Camera</source>
+        <translation>CameraViewfinder è fornito da Camera</translation>
+    </message>
 </context>
 <context>
     <name>QPlaylistFileParser</name>
+    <message>
+        <source>%1 playlist type is unknown</source>
+        <translation>Tipo di scaletta %1 sconosciuto</translation>
+    </message>
+    <message>
+        <source>invalid line in playlist file</source>
+        <translation>Riga non valida nel file della scaletta</translation>
+    </message>
+    <message>
+        <source>Empty file provided</source>
+        <translation>Fornito un file vuoto</translation>
+    </message>
     <message>
         <source>%1 does not exist</source>
         <translation>%1 non esiste</translation>
@@ -656,15 +699,37 @@
     <name>QPlaylistFileParserPrivate</name>
     <message>
         <source>%1 playlist type is unknown</source>
-        <translation>Tipo di playlist %1 sconosciuto</translation>
+        <translation type="vanished">Tipo di playlist %1 sconosciuto</translation>
     </message>
     <message>
         <source>invalid line in playlist file</source>
-        <translation>Riga non valida nel file di playlist</translation>
+        <translation type="vanished">Riga non valida nel file di playlist</translation>
     </message>
     <message>
         <source>Empty file provided</source>
-        <translation>Fornito un file vuoto</translation>
+        <translation type="vanished">Fornito un file vuoto</translation>
+    </message>
+</context>
+<context>
+    <name>QWinRTCameraImageCaptureControl</name>
+    <message>
+        <source>Camera not ready</source>
+        <translation>Fotocamera non pronta</translation>
+    </message>
+    <message>
+        <source>Invalid photo data length.</source>
+        <translation>Lunghezza non valida dei dati dell&apos;immagine.</translation>
+    </message>
+    <message>
+        <source>Image saving failed</source>
+        <translation>Salvataggio dell&apos;immagine non riuscito</translation>
+    </message>
+</context>
+<context>
+    <name>QWinRTImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation>Immagine JPEG</translation>
     </message>
 </context>
 </TS>
