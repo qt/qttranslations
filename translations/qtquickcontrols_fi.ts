@@ -109,6 +109,42 @@
         <translation>Fonttiperhe</translation>
     </message>
     <message>
+        <source>Thin</source>
+        <translation>Ohuin</translation>
+    </message>
+    <message>
+        <source>ExtraLight</source>
+        <translation>Erittäin ohut</translation>
+    </message>
+    <message>
+        <source>Light</source>
+        <translation>Ohut</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normaali</translation>
+    </message>
+    <message>
+        <source>Medium</source>
+        <translation>Lievästi lihava</translation>
+    </message>
+    <message>
+        <source>DemiBold</source>
+        <translation>Puolilihava</translation>
+    </message>
+    <message>
+        <source>Bold</source>
+        <translation>Lihava</translation>
+    </message>
+    <message>
+        <source>ExtraBold</source>
+        <translation>Erittäin lihava</translation>
+    </message>
+    <message>
+        <source>Black</source>
+        <translation>Musta</translation>
+    </message>
+    <message>
         <source>Style</source>
         <translation>Tyyli</translation>
     </message>
@@ -257,34 +293,6 @@
     <message>
         <source>Clear</source>
         <translation>Tyhjennä</translation>
-    </message>
-    <message>
-        <source>Select All</source>
-        <translation>Valitse kaikki</translation>
-    </message>
-</context>
-<context>
-    <name>EditMenu_ios</name>
-    <message>
-        <source>Cut</source>
-        <translation>Leikkaa</translation>
-    </message>
-    <message>
-        <source>Copy</source>
-        <translation>Kopioi</translation>
-    </message>
-    <message>
-        <source>Paste</source>
-        <translatorcomment>Apple uses a different Finnish translation for paste.</translatorcomment>
-        <translation>Sijoita</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <translation>Poista</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation>Valitse</translation>
     </message>
     <message>
         <source>Select All</source>

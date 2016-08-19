@@ -305,6 +305,14 @@
         <translation>Kuvaustilaa ei tueta</translation>
     </message>
     <message>
+        <source>Failed to capture image</source>
+        <translation>Kuvan ottaminen epäonnistui</translation>
+    </message>
+    <message>
+        <source>Camera preview failed to start.</source>
+        <translation>Kameran esikatselun käynnistys epäonnistui.</translation>
+    </message>
+    <message>
         <source>Could not open destination file: %1</source>
         <translation>Kohdetiedostoa ei voitu avata: %1</translation>
     </message>
@@ -538,7 +546,7 @@
     </message>
 </context>
 <context>
-    <name>QObject</name>
+    <name>QPlaylistFileParser</name>
     <message>
         <source>%1 playlist type is unknown</source>
         <translation>soittolistan %1 tyyppi on tuntematon</translation>
@@ -551,9 +559,6 @@
         <source>Empty file provided</source>
         <translation>Saatiin tyhjä tiedosto</translation>
     </message>
-</context>
-<context>
-    <name>QPlaylistFileParser</name>
     <message>
         <source>%1 does not exist</source>
         <translation>%1 ei ole olemassa</translation>
@@ -572,6 +577,13 @@
     <message>
         <source>Image saving failed</source>
         <translation>Kuvan tallentaminen epäonnistui</translation>
+    </message>
+</context>
+<context>
+    <name>QWinRTImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation>JPEG-kuva</translation>
     </message>
 </context>
 </TS>

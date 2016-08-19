@@ -259,8 +259,8 @@ Reason:
         <translation>アドレス</translation>
     </message>
     <message>
-        <source>Toolbar Menu</source>
-        <translation>ツールバーメニュー</translation>
+        <source>Bookmarks Toolbar</source>
+        <translation>ブックマークツールバー</translation>
     </message>
     <message>
         <source>Bookmarks Menu</source>
@@ -777,8 +777,8 @@ Reason:
         <translation>関連付いた内容が見つかりません。</translation>
     </message>
     <message>
-        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd.&lt;/p&gt;</source>
-        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;バージョン %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd.&lt;/p&gt;</translation>
+        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;p&gt;Browser: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</source>
+        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;バージョン %2&lt;/p&gt;&lt;p&gt;ブラウザ: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About %1</source>

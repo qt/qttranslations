@@ -78,8 +78,8 @@
         <translation>Некорректная ссылка на псевдоним. Не удалось найти id «%1»</translation>
     </message>
     <message>
-        <source>Invalid alias location</source>
-        <translation>Некорректное размещение псевдонима</translation>
+        <source>Invalid alias target location: %1</source>
+        <translation>Некорректное размещение цели псевдонима: %1</translation>
     </message>
 </context>
 <context>
@@ -177,6 +177,75 @@
     <message>
         <source>Connections: script expected</source>
         <translation>Подключения: ожидается сценарий</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlDebugServerImpl</name>
+    <message>
+        <source>QML Debugger: Invalid argument &quot;%1&quot; detected. Ignoring the same.</source>
+        <translation>Отладчик QML: Обнаружен неверный параметр «%1». Пропускается.</translation>
+    </message>
+    <message>
+        <source>QML Debugger: Ignoring &quot;-qmljsdebugger=%1&quot;.</source>
+        <translation>Отладчик QML: Пропускается «-qmljsdebugger=%1».</translation>
+    </message>
+    <message>
+        <source>The format is &quot;-qmljsdebugger=[file:&lt;file&gt;|port:&lt;port_from&gt;][,&lt;port_to&gt;][,host:&lt;ip address&gt;][,block][,services:&lt;service&gt;][,&lt;service&gt;]*&quot;</source>
+        <translation>Формат: -qmljsdebugger=[file:&lt;файл&gt;|port:&lt;начальный_порт&gt;][,&lt;конечный_порт&gt;][,host:&lt;ip адрес&gt;][,блок][,services:&lt;сервис&gt;][,&lt;сервис&gt;]*</translation>
+    </message>
+    <message>
+        <source>&quot;file:&quot; can be used to specify the name of a file the debugger will try to connect to using a QLocalSocket. If &quot;file:&quot; is given any &quot;host:&quot; and&quot;port:&quot; arguments will be ignored.</source>
+        <translation>«file:» может использоваться для указания имени файла, к которому отладчик попытается подключиться с помощью QLocalSocket. Если передан параметр «file:», то «host:» и «port:» будут проигнорированы.</translation>
+    </message>
+    <message>
+        <source>&quot;host:&quot; and &quot;port:&quot; can be used to specify an address and a single port or a range of ports the debugger will try to bind to with a QTcpServer.</source>
+        <translation>«host:» и «port:» могут использоваться для задания адреса и одного или диапазона портов, к которым отладчик попытается подключиться через QTcpServer.</translation>
+    </message>
+    <message>
+        <source>&quot;block&quot; makes the debugger and some services wait for clients to be connected and ready before the first QML engine starts.</source>
+        <translation>«block» заставляет отладчик и некоторые сервисы ждать подключения и готовности клиентов перед первым запуском движка QML.</translation>
+    </message>
+    <message>
+        <source>&quot;services:&quot; can be used to specify which debug services the debugger should load. Some debug services interact badly with others. The V4 debugger should not be loaded when using the QML profiler as it will force any V4 engines to use the JavaScript interpreter rather than the JIT. The following debug services are available by default:</source>
+        <translation>«services:» используется для задания списка отладочных сервисов, загружаемых отладчиком. Некоторые из них могут конфликтовать с другими. Отладчик V4 не должен загружаться при использовании профайлера QML, так как последний отключает JIT в пользу интерпретатора JavaScript. Следующие сервисы доступны по умолчанию:</translation>
+    </message>
+    <message>
+        <source>The QML debugger</source>
+        <translation>Отладчик QML</translation>
+    </message>
+    <message>
+        <source>The V4 debugger</source>
+        <translation>Отладчик V4</translation>
+    </message>
+    <message>
+        <source>The QML inspector</source>
+        <translation>Инспектор QML</translation>
+    </message>
+    <message>
+        <source>The QML profiler</source>
+        <translation>Профайлер QML</translation>
+    </message>
+    <message>
+        <source>Allows the client to delay the starting and stopping of
+		  QML engines until other services are ready. QtCreator
+		  uses this service with the QML profiler in order to
+		  profile multiple QML engines at the same time.</source>
+        <translation>Позволяет клиентам задерживать запуск и остановку
+		  движков QML, пока остальные сервисы не будут готовы. QtCreator
+		  использует этот сервис совместно с профайлером QML для
+		  одновременного профилирования нескольких движков QML.</translation>
+    </message>
+    <message>
+        <source>Sends qDebug() and similar messages over the QML debug
+		  connection. QtCreator uses this for showing debug
+		  messages in the debugger console.</source>
+        <translation>Отправляет qDebug() и прочие сообщения через отладочное соединение
+		  QML. QtCreator использует его для отображения
+		  отладочных сообщений в консоли отладчика.</translation>
+    </message>
+    <message>
+        <source>Other services offered by qmltooling plugins that implement QQmlDebugServiceFactory and which can be found in the standard plugin paths will also be available and can be specified. If no &quot;services&quot; argument is given, all services found this way, including the default ones, are loaded.</source>
+        <translation>Другие сервисы, предоставляемые модулями qmltooling, реализующими QQmlDebugServiceFactory и находящимися в стандартных каталогах модулей, также будут доступны и могут быть указаны. Если параметр «services» не указан, то будут загружены все найденные сервисы.</translation>
     </message>
 </context>
 <context>
@@ -335,6 +404,10 @@
 <context>
     <name>QQmlEnumTypeResolver</name>
     <message>
+        <source>Invalid property assignment: Enum value &quot;%1&quot; cannot start with a lowercase letter</source>
+        <translation>Некорректное присваивание свойства: Значение перечисления «%1» не может начинаться с маленькой буквы</translation>
+    </message>
+    <message>
         <source>Invalid property assignment: &quot;%1&quot; is a read-only property</source>
         <translation>Некорректное присваивание свойства: «%1» свойство только для чтения</translation>
     </message>
@@ -396,6 +469,10 @@
     <message>
         <source>module &quot;%1&quot; plugin &quot;%2&quot; not found</source>
         <translation>модуль «%1» плагина «%2» не найден</translation>
+    </message>
+    <message>
+        <source>library loading is disabled</source>
+        <translation>загрузка библиотек отключена</translation>
     </message>
     <message>
         <source>&quot;%1&quot; version %2.%3 is defined more than once in module &quot;%4&quot;</source>
@@ -542,6 +619,21 @@
     <message>
         <source>Composite Singleton Type %1 is not creatable</source>
         <translation>Нельзя создавать сложный Singleton-тип %1</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlObjectModel</name>
+    <message>
+        <source>insert: index %1 out of range</source>
+        <translation>insert: индекс %1 вне диапазона</translation>
+    </message>
+    <message>
+        <source>move: out of range</source>
+        <translation>move: индекс вне диапазона</translation>
+    </message>
+    <message>
+        <source>remove: indices [%1 - %2] out of range [0 - %3]</source>
+        <translation>remove: индексы [%1 - %2] вне диапазона [0 - %3]</translation>
     </message>
 </context>
 <context>
@@ -1094,6 +1186,17 @@
     </message>
 </context>
 <context>
+    <name>QQuickEnterKeyAttached</name>
+    <message>
+        <source>EnterKey attached property only works with Items</source>
+        <translation>Подключённое свойство EnterKey работает только с элементами</translation>
+    </message>
+    <message>
+        <source>EnterKey is only available via attached properties</source>
+        <translation>EnterKey доступно только через подключённые свойства</translation>
+    </message>
+</context>
+<context>
     <name>QQuickFlipable</name>
     <message>
         <source>front is a write-once property</source>
@@ -1145,6 +1248,13 @@
     <message>
         <source>setSource: value is not an object</source>
         <translation>setSource: значение не является объектом</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickMouseEvent</name>
+    <message>
+        <source>MouseEvent is only available within handlers in MouseArea</source>
+        <translation>MouseEvent доступен только внутри обработчиков в MouseArea</translation>
     </message>
 </context>
 <context>
@@ -1233,10 +1343,6 @@
     <message>
         <source>Cannot open: %1</source>
         <translation>Не удалось открыть: %1</translation>
-    </message>
-    <message>
-        <source>Invalid image data: %1</source>
-        <translation>Некорректные данные изображения: %1</translation>
     </message>
 </context>
 <context>
@@ -1377,6 +1483,17 @@ Install a driver providing OpenGL 2.0 or higher, or, if this is not possible, ma
     <message>
         <source>Incorrectly specified signal assignment</source>
         <translation>Неверно указано назначение сигнала</translation>
+    </message>
+</context>
+<context>
+    <name>SignalTransition</name>
+    <message>
+        <source>Cannot assign to non-existent property &quot;%1&quot;</source>
+        <translation>Невозможно назначить несуществующему свойству «%1»</translation>
+    </message>
+    <message>
+        <source>SignalTransition: script expected</source>
+        <translation>SignalTransition: ожидается сценарий</translation>
     </message>
 </context>
 <context>

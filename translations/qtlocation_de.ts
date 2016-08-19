@@ -2,6 +2,55 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="de_DE">
 <context>
+    <name>QDeclarativeGeoMap</name>
+    <message>
+        <source>No Map</source>
+        <translation>Keine Karte</translation>
+    </message>
+    <message>
+        <source>Plugin does not support mapping.</source>
+        <translation>Das Plugin unterstützt keine Karten.</translation>
+    </message>
+</context>
+<context>
+    <name>QDeclarativeGeoRouteModel</name>
+    <message>
+        <source>Plugin does not support routing.</source>
+        <translation>Das Plugin unterstützt keine Navigation.</translation>
+    </message>
+    <message>
+        <source>Cannot route, plugin not set.</source>
+        <translation>Kein Plugin gesetzt, kann keine Navigation durchführen.</translation>
+    </message>
+    <message>
+        <source>Cannot route, route manager not set.</source>
+        <translation>Es ist kein Routen-Manager gesetzt, kann keine Navigation durchführen.</translation>
+    </message>
+    <message>
+        <source>Not enough waypoints for routing.</source>
+        <translation>Es sind nicht ausreichend Wegpunkte für die Navigation vorhanden.</translation>
+    </message>
+</context>
+<context>
+    <name>QDeclarativeGeocodeModel</name>
+    <message>
+        <source>Cannot geocode, plugin not set.</source>
+        <translation>Kein Plugin gesetzt, kann keine Koordinatenbestimmung durchführen.</translation>
+    </message>
+    <message>
+        <source>Cannot geocode, geocode manager not set.</source>
+        <translation>Es ist kein Geocode-Manager gesetzt, kann keine Koordinatenbestimmung durchführen.</translation>
+    </message>
+    <message>
+        <source>Cannot geocode, valid query not set.</source>
+        <translation>Es ist keine gültige Abfrage gesetzt, kann keine Koordinatenbestimmung durchführen.</translation>
+    </message>
+    <message>
+        <source>Plugin does not support (reverse) geocoding.</source>
+        <translation>Das Plugin unterstützt keine (umgekehrte) Koordinatenbestimmung.</translation>
+    </message>
+</context>
+<context>
     <name>QGeoRouteReplyOsm</name>
     <message>
         <source>Go straight.</source>
@@ -197,7 +246,7 @@ Bitte besuchen Sie https://www.mapbox.com</translation>
     </message>
 </context>
 <context>
-    <name>QGeoTiledMapDataOsm</name>
+    <name>QGeoTiledMapOsm</name>
     <message>
         <source>Tiles Courtesy of &lt;a href=&apos;http://www.mapquest.com/&apos;&gt;MapQuest&lt;/a&gt;&lt;br/&gt;Data &amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt; contributors</source>
         <translation>Die Kartenabschnitte wurden von &lt;a href=&apos;http://www.mapquest.com/&apos;&gt;MapQuest&lt;/a&gt; zur Verfügung gestellt&lt;br/&gt;Daten &amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt;-Mitwirkende</translation>
@@ -444,6 +493,14 @@ Bitte besuchen Sie https://www.mapbox.com</translation>
         <translation>Ansicht Wanderkarte</translation>
     </message>
     <message>
+        <source>Custom URL Map</source>
+        <translation>Karte von benutzerdefinierter URL</translation>
+    </message>
+    <message>
+        <source>Custom url map view set via urlprefix parameter</source>
+        <translation>Ansicht Karte von benutzerdefinierter URL</translation>
+    </message>
+    <message>
         <source>Satellite Map</source>
         <translation>Satellitenkarte</translation>
     </message>
@@ -585,6 +642,10 @@ Bitte registrieren Sie sich unter https://developer.here.com/ um Ihre persönlic
     <message>
         <source>Unable to create request</source>
         <translation>Anfrage konnte nicht erstellt werden</translation>
+    </message>
+    <message>
+        <source>Index &apos;%1&apos; out of range</source>
+        <translation>Der Index &apos;%1&apos; ist außerhalb des gültigen Bereichs</translation>
     </message>
 </context>
 </TS>

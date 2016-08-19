@@ -304,6 +304,14 @@
         <translation>Режим множественной съёмки не поддерживается</translation>
     </message>
     <message>
+        <source>Failed to capture image</source>
+        <translation>Не удалось захватить изображение</translation>
+    </message>
+    <message>
+        <source>Camera preview failed to start.</source>
+        <translation>Не удалось запустить предпросмотр камеры.</translation>
+    </message>
+    <message>
         <source>Could not open destination file: %1</source>
         <translation>Не удалось открыть выходной файл: %1</translation>
     </message>
@@ -536,7 +544,7 @@
     </message>
 </context>
 <context>
-    <name>QObject</name>
+    <name>QPlaylistFileParser</name>
     <message>
         <source>%1 playlist type is unknown</source>
         <translation>Неизвестный формат списка воспроизведения %1</translation>
@@ -549,9 +557,6 @@
         <source>Empty file provided</source>
         <translation>Предоставлен пустой файл</translation>
     </message>
-</context>
-<context>
-    <name>QPlaylistFileParser</name>
     <message>
         <source>%1 does not exist</source>
         <translation>%1 не существует</translation>
@@ -570,6 +575,13 @@
     <message>
         <source>Image saving failed</source>
         <translation>Не удалось сохранить изображение</translation>
+    </message>
+</context>
+<context>
+    <name>QWinRTImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation>Изображение JPEG</translation>
     </message>
 </context>
 </TS>

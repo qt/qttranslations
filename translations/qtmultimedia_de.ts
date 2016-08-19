@@ -304,6 +304,14 @@
         <translation>Auslösemodus wird nicht unterstützt</translation>
     </message>
     <message>
+        <source>Failed to capture image</source>
+        <translation>Es konnte kein Bild aufgenommen werden</translation>
+    </message>
+    <message>
+        <source>Camera preview failed to start.</source>
+        <translation>Die Kamera-Vorschau konnte nicht gestartet werden.</translation>
+    </message>
+    <message>
         <source>Could not open destination file: %1</source>
         <translation>Die Zieldatei %1 konnte nicht geöffnet werden</translation>
     </message>
@@ -538,13 +546,6 @@
 <context>
     <name>QPlaylistFileParser</name>
     <message>
-        <source>%1 does not exist</source>
-        <translation>%1 existiert nicht</translation>
-    </message>
-</context>
-<context>
-    <name>QPlaylistFileParserPrivate</name>
-    <message>
         <source>%1 playlist type is unknown</source>
         <translation>Unbekannter Typ der Abspielliste %1</translation>
     </message>
@@ -555,6 +556,10 @@
     <message>
         <source>Empty file provided</source>
         <translation>Leere Datei angegeben</translation>
+    </message>
+    <message>
+        <source>%1 does not exist</source>
+        <translation>%1 existiert nicht</translation>
     </message>
 </context>
 <context>
@@ -570,6 +575,13 @@
     <message>
         <source>Image saving failed</source>
         <translation>Das Speichern des Bildes schlug fehl</translation>
+    </message>
+</context>
+<context>
+    <name>QWinRTImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation>JPEG-Bild</translation>
     </message>
 </context>
 </TS>

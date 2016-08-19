@@ -581,22 +581,26 @@ Press ESC to cancel</source>
     </message>
 </context>
 <context>
-    <name>QDateTimeEdit</name>
+    <name>QDateTimeParser</name>
     <message>
         <source>AM</source>
-        <translation>AM</translation>
+        <translatorcomment>до полудня</translatorcomment>
+        <translation>ДП</translation>
     </message>
     <message>
         <source>am</source>
-        <translation>am</translation>
+        <translatorcomment>до полудня</translatorcomment>
+        <translation>дп</translation>
     </message>
     <message>
         <source>PM</source>
-        <translation>PM</translation>
+        <translatorcomment>после полудня</translatorcomment>
+        <translation>ПП</translation>
     </message>
     <message>
         <source>pm</source>
-        <translation>pm</translation>
+        <translatorcomment>после полудня</translatorcomment>
+        <translation>пп</translation>
     </message>
 </context>
 <context>
@@ -648,6 +652,10 @@ Press ESC to cancel</source>
 <context>
     <name>QDnsLookupRunnable</name>
     <message>
+        <source>IPv6 addresses for nameservers are currently not supported</source>
+        <translation>Адреса IPv6 серверов имён ещё не поддерживаются</translation>
+    </message>
+    <message>
         <source>Invalid domain name</source>
         <translation>Некорректное имя домена</translation>
     </message>
@@ -662,10 +670,6 @@ Press ESC to cancel</source>
     <message>
         <source>Resolver initialization failed</source>
         <translation>Не удалось инициализировать разрешение имён</translation>
-    </message>
-    <message>
-        <source>IPv6 addresses for nameservers is currently not supported</source>
-        <translation>Адреса IPv6 серверов имён ещё не поддерживаются</translation>
     </message>
     <message>
         <source>Server could not process query</source>
@@ -734,6 +738,14 @@ Press ESC to cancel</source>
     <message>
         <source>Invalid hostname</source>
         <translation>Некорректное имя узла</translation>
+    </message>
+    <message>
+        <source>Host %1 could not be found.</source>
+        <translation>Не удалось найти узел %1.</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>Неизвестная ошибка</translation>
     </message>
 </context>
 <context>
@@ -1037,7 +1049,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Alias</source>
-        <comment>Mac OS X Finder</comment>
+        <comment>OS X Finder</comment>
         <translation>Псевдоним</translation>
     </message>
     <message>
@@ -1141,10 +1153,6 @@ Do you want to delete it anyway?</source>
 </context>
 <context>
     <name>QFontDatabase</name>
-    <message>
-        <source>Normal</source>
-        <translation>Обычный</translation>
-    </message>
     <message>
         <source>Bold</source>
         <translation>Жирный</translation>
@@ -1568,6 +1576,14 @@ Do you want to delete it anyway?</source>
     <message>
         <source>SSL handshake failed</source>
         <translation>Квитирование SSL не удалось</translation>
+    </message>
+    <message>
+        <source>Too many redirects</source>
+        <translation>Слишком много перенаправлений</translation>
+    </message>
+    <message>
+        <source>Insecure redirect</source>
+        <translation>Небезопасное перенаправление</translation>
     </message>
 </context>
 <context>
@@ -2045,6 +2061,10 @@ Do you want to delete it anyway?</source>
 <context>
     <name>QMYSQLDriver</name>
     <message>
+        <source>Unable to allocate a MYSQL object</source>
+        <translation>Не удалось создать объект MYSQL</translation>
+    </message>
+    <message>
         <source>Unable to open database &apos;%1&apos;</source>
         <translation>Невозможно открыть базу данных «%1»</translation>
     </message>
@@ -2332,6 +2352,14 @@ Do you want to delete it anyway?</source>
         <translation>Временная ошибка</translation>
     </message>
     <message>
+        <source>Network dropped connection on reset</source>
+        <translation>Сеть сбросила соединение</translation>
+    </message>
+    <message>
+        <source>Connection reset by peer</source>
+        <translation>Соединение сброшено удалённой стороной</translation>
+    </message>
+    <message>
         <source>Unknown error</source>
         <translation>Неизвестная ошибка</translation>
     </message>
@@ -2421,10 +2449,6 @@ Do you want to delete it anyway?</source>
 <context>
     <name>QNetworkReply</name>
     <message>
-        <source>Error downloading %1 - server replied: %2</source>
-        <translation>Ошибка загрузки %1 ― ответ сервера: %2</translation>
-    </message>
-    <message>
         <source>Background request not allowed.</source>
         <translation>Фоновые запросы недопустимы.</translation>
     </message>
@@ -2443,6 +2467,10 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Protocol &quot;%1&quot; is unknown</source>
         <translation>Неизвестный протокол «%1»</translation>
+    </message>
+    <message>
+        <source>Error transferring %1 - server replied: %2</source>
+        <translation>Ошибка передачи %1 ― ответ сервера: %2</translation>
     </message>
 </context>
 <context>
@@ -3580,6 +3608,10 @@ Please turn one of those options off.</source>
 <context>
     <name>QPrintPropertiesDialog</name>
     <message>
+        <source>Printer Properties</source>
+        <translation>Свойства принтера</translation>
+    </message>
+    <message>
         <source>Job Options</source>
         <translation>Параметры задания</translation>
     </message>
@@ -3736,8 +3768,8 @@ Please turn one of those options off.</source>
         <translation>Процесс завершился с ошибкой</translation>
     </message>
     <message>
-        <source>Process failed to start (spawned process exited with code 127)</source>
-        <translation>Не удалось запустить программу (порождённый процесс завершился с кодом 127)</translation>
+        <source>Process failed to start</source>
+        <translation>Не удалось запустить процесс</translation>
     </message>
     <message>
         <source>No program defined</source>
@@ -3769,20 +3801,6 @@ Please turn one of those options off.</source>
     <message>
         <source>Cancel</source>
         <translation>Отменить</translation>
-    </message>
-</context>
-<context>
-    <name>QQnxFileDialogHelper</name>
-    <message>
-        <source>All files (*.*)</source>
-        <translation>Все файлы (*.*)</translation>
-    </message>
-</context>
-<context>
-    <name>QQnxFilePicker</name>
-    <message>
-        <source>Pick a file</source>
-        <translation>Выбор файла</translation>
     </message>
 </context>
 <context>
@@ -5218,7 +5236,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Kanji</source>
-        <translation type="unfinished"></translation>
+        <translation>Кандзи</translation>
     </message>
     <message>
         <source>Muhenkan</source>
@@ -5230,19 +5248,19 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Romaji</source>
-        <translation type="unfinished"></translation>
+        <translation>Ромадзи</translation>
     </message>
     <message>
         <source>Hiragana</source>
-        <translation type="unfinished"></translation>
+        <translation>Хирагана</translation>
     </message>
     <message>
         <source>Katakana</source>
-        <translation type="unfinished"></translation>
+        <translation>Катакана</translation>
     </message>
     <message>
         <source>Hiragana Katakana</source>
-        <translation type="unfinished"></translation>
+        <translation>Хирагана-катакана</translation>
     </message>
     <message>
         <source>Zenkaku</source>
@@ -5294,7 +5312,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Hangul</source>
-        <translation type="unfinished"></translation>
+        <translation>Хангул</translation>
     </message>
     <message>
         <source>Hangul Start</source>
@@ -5362,15 +5380,15 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Touchpad Toggle</source>
-        <translation type="unfinished">Переключение тачпада</translation>
+        <translation>Переключение тачпада</translation>
     </message>
     <message>
         <source>Touchpad On</source>
-        <translation type="unfinished">Включение тачпада</translation>
+        <translation>Включение тачпада</translation>
     </message>
     <message>
         <source>Touchpad Off</source>
-        <translation type="unfinished">Выключение тачпада</translation>
+        <translation>Выключение тачпада</translation>
     </message>
     <message>
         <source>Ctrl</source>

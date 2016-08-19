@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="pl_PL">
+<TS version="2.1" language="pl_PL">
 <context>
     <name>MainWindow</name>
     <message>
@@ -465,11 +465,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;About</source>
-        <translation>&amp;Informacje o</translation>
+        <translation>&amp;Informacje o programie</translation>
     </message>
     <message>
         <source>About</source>
-        <translation>Informacje o</translation>
+        <translation>Informacje o programie</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>

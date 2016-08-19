@@ -121,6 +121,42 @@
         <translation>Наклонный</translation>
     </message>
     <message>
+        <source>Thin</source>
+        <translation>Тонкий</translation>
+    </message>
+    <message>
+        <source>ExtraLight</source>
+        <translation>Очень светлый</translation>
+    </message>
+    <message>
+        <source>Light</source>
+        <translation>Светлый</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Стандартный</translation>
+    </message>
+    <message>
+        <source>Medium</source>
+        <translation>Средний</translation>
+    </message>
+    <message>
+        <source>DemiBold</source>
+        <translation>Полужирный</translation>
+    </message>
+    <message>
+        <source>Bold</source>
+        <translation>Жирный</translation>
+    </message>
+    <message>
+        <source>ExtraBold</source>
+        <translation>Очень жирный</translation>
+    </message>
+    <message>
+        <source>Black</source>
+        <translation>Чёрный</translation>
+    </message>
+    <message>
         <source>Underline</source>
         <translation>Подчёркнутый</translation>
     </message>
@@ -261,33 +297,6 @@
     <message>
         <source>Select All</source>
         <translation>Выделить всё</translation>
-    </message>
-</context>
-<context>
-    <name>EditMenu_ios</name>
-    <message>
-        <source>Cut</source>
-        <translation>Вырезать</translation>
-    </message>
-    <message>
-        <source>Copy</source>
-        <translation>Копировать</translation>
-    </message>
-    <message>
-        <source>Paste</source>
-        <translation>Вставить</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <translation>Удалить</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation>Выбрать</translation>
-    </message>
-    <message>
-        <source>Select All</source>
-        <translation>Выбрать всё</translation>
     </message>
 </context>
 </TS>

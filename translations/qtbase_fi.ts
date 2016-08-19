@@ -575,7 +575,7 @@ Peru painamalla ESC</translation>
     </message>
 </context>
 <context>
-    <name>QDateTimeEdit</name>
+    <name>QDateTimeParser</name>
     <message>
         <source>AM</source>
         <translation>AP</translation>
@@ -642,6 +642,10 @@ Peru painamalla ESC</translation>
 <context>
     <name>QDnsLookupRunnable</name>
     <message>
+        <source>IPv6 addresses for nameservers are currently not supported</source>
+        <translation>Nimipalvelimien IPv6-osoitteita ei tällä hetkellä tueta</translation>
+    </message>
+    <message>
         <source>Invalid domain name</source>
         <translation>Virheellinen verkkotunnus</translation>
     </message>
@@ -656,10 +660,6 @@ Peru painamalla ESC</translation>
     <message>
         <source>Resolver initialization failed</source>
         <translation>Alustus epäonnistui</translation>
-    </message>
-    <message>
-        <source>IPv6 addresses for nameservers is currently not supported</source>
-        <translation>Nimipalvelimien IPv6-osoitteita ei tällä hetkellä tueta</translation>
     </message>
     <message>
         <source>Server could not process query</source>
@@ -728,6 +728,14 @@ Peru painamalla ESC</translation>
     <message>
         <source>Invalid hostname</source>
         <translation>Virheellinen konenimi</translation>
+    </message>
+    <message>
+        <source>Host %1 could not be found.</source>
+        <translation>Konetta %1 ei löydetty.</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>Tuntematon virhe</translation>
     </message>
 </context>
 <context>
@@ -1055,7 +1063,7 @@ Haluatko silti poistaa sen?</translation>
     </message>
     <message>
         <source>Alias</source>
-        <comment>Mac OS X Finder</comment>
+        <comment>OS X Finder</comment>
         <translation>Alias</translation>
     </message>
     <message>
@@ -1135,10 +1143,6 @@ Haluatko silti poistaa sen?</translation>
 </context>
 <context>
     <name>QFontDatabase</name>
-    <message>
-        <source>Normal</source>
-        <translation>Tavallinen</translation>
-    </message>
     <message>
         <source>Bold</source>
         <translation>Lihava</translation>
@@ -1562,6 +1566,14 @@ Haluatko silti poistaa sen?</translation>
     <message>
         <source>SSL handshake failed</source>
         <translation>SSL-kättely epäonnistui</translation>
+    </message>
+    <message>
+        <source>Too many redirects</source>
+        <translation>Liian monta uudelleenohjausta</translation>
+    </message>
+    <message>
+        <source>Insecure redirect</source>
+        <translation>Turvaton uudelleenohjaus</translation>
     </message>
 </context>
 <context>
@@ -2039,6 +2051,10 @@ Haluatko silti poistaa sen?</translation>
 <context>
     <name>QMYSQLDriver</name>
     <message>
+        <source>Unable to allocate a MYSQL object</source>
+        <translation>MYSQL-objektin varaaminen epäonnistui</translation>
+    </message>
+    <message>
         <source>Unable to open database &apos;%1&apos;</source>
         <translation>Tietokannan ”%1” avaaminen epäonnistui</translation>
     </message>
@@ -2340,6 +2356,14 @@ kun GNU LGPL 2.1:n ehtoja voidaan noudattaa.&lt;/p&gt;
         <translation>Tilapäinen virhe</translation>
     </message>
     <message>
+        <source>Network dropped connection on reset</source>
+        <translation>Verkko pudotti yhteyden nollauksen yhteydessä</translation>
+    </message>
+    <message>
+        <source>Connection reset by peer</source>
+        <translation>Verkkovertainen nollasi yhteyden</translation>
+    </message>
+    <message>
         <source>Unknown error</source>
         <translation>Tuntematon virhe</translation>
     </message>
@@ -2429,10 +2453,6 @@ kun GNU LGPL 2.1:n ehtoja voidaan noudattaa.&lt;/p&gt;
 <context>
     <name>QNetworkReply</name>
     <message>
-        <source>Error downloading %1 - server replied: %2</source>
-        <translation>Virhe ladattaessa kohdetta %1 – palvelin vastasi: %2</translation>
-    </message>
-    <message>
         <source>Background request not allowed.</source>
         <translation>Taustapyyntö ei ole sallittu.</translation>
     </message>
@@ -2451,6 +2471,10 @@ kun GNU LGPL 2.1:n ehtoja voidaan noudattaa.&lt;/p&gt;
     <message>
         <source>Protocol &quot;%1&quot; is unknown</source>
         <translation>Protokolla ”%1” on tuntematon</translation>
+    </message>
+    <message>
+        <source>Error transferring %1 - server replied: %2</source>
+        <translation>Virhe siirrettäessä kohdetta %1 – palvelin vastasi: %2</translation>
     </message>
 </context>
 <context>
@@ -3586,6 +3610,10 @@ Poista toinen niistä käytöstä.</translation>
 <context>
     <name>QPrintPropertiesDialog</name>
     <message>
+        <source>Printer Properties</source>
+        <translation>Tulostimen ominaisuudet</translation>
+    </message>
+    <message>
         <source>Job Options</source>
         <translation>Työn asetukset</translation>
     </message>
@@ -3742,8 +3770,8 @@ Poista toinen niistä käytöstä.</translation>
         <translation>Prosessi kaatui</translation>
     </message>
     <message>
-        <source>Process failed to start (spawned process exited with code 127)</source>
-        <translation>Prosessin käynnistyminen epäonnistui (luotu prosessi päättyi koodilla 127)</translation>
+        <source>Process failed to start</source>
+        <translation>Prosessin käynnistyminen epäonnistui</translation>
     </message>
     <message>
         <source>No program defined</source>
@@ -3775,20 +3803,6 @@ Poista toinen niistä käytöstä.</translation>
     <message>
         <source>Cancel</source>
         <translation>Peru</translation>
-    </message>
-</context>
-<context>
-    <name>QQnxFileDialogHelper</name>
-    <message>
-        <source>All files (*.*)</source>
-        <translation>Kaikki tiedostot (*.*)</translation>
-    </message>
-</context>
-<context>
-    <name>QQnxFilePicker</name>
-    <message>
-        <source>Pick a file</source>
-        <translation>Valitse tiedosto</translation>
     </message>
 </context>
 <context>

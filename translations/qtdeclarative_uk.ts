@@ -78,8 +78,12 @@
         <translation>Неправильне посилання на псевдонім. Неможливо знайти id &quot;%1&quot;</translation>
     </message>
     <message>
+        <source>Invalid alias target location: %1</source>
+        <translation>Неправильне цільове призначення псевдоніму: %1</translation>
+    </message>
+    <message>
         <source>Invalid alias location</source>
-        <translation>Неправильна позиція псевдоніму</translation>
+        <translation type="vanished">Неправильна позиція псевдоніму</translation>
     </message>
 </context>
 <context>
@@ -598,6 +602,75 @@
     </message>
 </context>
 <context>
+    <name>QQmlDebugServerImpl</name>
+    <message>
+        <source>QML Debugger: Invalid argument &quot;%1&quot; detected. Ignoring the same.</source>
+        <translation>Зневаджувач QML: знайдено неправильний аргумент &quot;%1&quot;. Ігнорування повторення.</translation>
+    </message>
+    <message>
+        <source>QML Debugger: Ignoring &quot;-qmljsdebugger=%1&quot;.</source>
+        <translation>Зневаджувач QML: ігноруємо &quot;-qmljsdebugger=%1&quot;.</translation>
+    </message>
+    <message>
+        <source>The format is &quot;-qmljsdebugger=[file:&lt;file&gt;|port:&lt;port_from&gt;][,&lt;port_to&gt;][,host:&lt;ip address&gt;][,block][,services:&lt;service&gt;][,&lt;service&gt;]*&quot;</source>
+        <translation>Формат: &quot;-qmljsdebugger=[file:&lt;файл&gt;|port:&lt;перший порт&gt;][,&lt;останній порт&gt;][,host:&lt;ip-адреса&gt;][,block][,services:&lt;сервіс&gt;][,&lt;сервіс&gt;]*&quot;</translation>
+    </message>
+    <message>
+        <source>&quot;file:&quot; can be used to specify the name of a file the debugger will try to connect to using a QLocalSocket. If &quot;file:&quot; is given any &quot;host:&quot; and&quot;port:&quot; arguments will be ignored.</source>
+        <translation>&quot;file:&quot; може бути вжито, для вибору назви файлу, до якого зневаджувач буде намагатись під&apos;єднати за допомогою . Якщо надано &quot;file:&quot;, то будь-які аргументи &quot;host:&quot; та &quot;port:&quot; буде проігноровано.</translation>
+    </message>
+    <message>
+        <source>&quot;host:&quot; and &quot;port:&quot; can be used to specify an address and a single port or a range of ports the debugger will try to bind to with a QTcpServer.</source>
+        <translation>&quot;host:&quot; та &quot;port:&quot; можуть бути використані для вказання адреси та єдиного або діапазону портів, до яких зневаджувач спробує прив&apos;язатись за допомогою QTcpServer.</translation>
+    </message>
+    <message>
+        <source>&quot;block&quot; makes the debugger and some services wait for clients to be connected and ready before the first QML engine starts.</source>
+        <translation>&quot;block&quot; змусить зневаджувач та деякі служби чекати на готовність та підключення клієнтів до запуску першого рушія QML.</translation>
+    </message>
+    <message>
+        <source>&quot;services:&quot; can be used to specify which debug services the debugger should load. Some debug services interact badly with others. The V4 debugger should not be loaded when using the QML profiler as it will force any V4 engines to use the JavaScript interpreter rather than the JIT. The following debug services are available by default:</source>
+        <translation>&quot;services:&quot; можна використати, щоб вказати, які служби має завантажити зневаджувач. Деякі служби зневадження можуть пагано взаємодіяти з іншими. Зневаджувач V4 не слід завантажувати разом із профайлером QML, оскільки це призведе до застосування інтерпретатора JavaScript заміть JIT будь-якими рушіями V4. Наступні служби є доступними типово:</translation>
+    </message>
+    <message>
+        <source>The QML debugger</source>
+        <translation>Зневаджувач QML</translation>
+    </message>
+    <message>
+        <source>The V4 debugger</source>
+        <translation>Зневаджувач V4</translation>
+    </message>
+    <message>
+        <source>The QML inspector</source>
+        <translation>Інспектор QML</translation>
+    </message>
+    <message>
+        <source>The QML profiler</source>
+        <translation>Профайлер QML</translation>
+    </message>
+    <message>
+        <source>Allows the client to delay the starting and stopping of
+		  QML engines until other services are ready. QtCreator
+		  uses this service with the QML profiler in order to
+		  profile multiple QML engines at the same time.</source>
+        <translation>Дозволяє клієнту затримати запуск та зупинку
+		  рушіїв QML до моменту готовності інших служб. QtCreator
+		  використовує цю службу разом з профайлером QML, щоб
+		  профілювати декілька рушіїв QML одночасно.</translation>
+    </message>
+    <message>
+        <source>Sends qDebug() and similar messages over the QML debug
+		  connection. QtCreator uses this for showing debug
+		  messages in the debugger console.</source>
+        <translation>Надсилає qDebug() та подібні повідомлення через підключення зневадження QML.
+		  QtCreator використовує це, для відображення повідомлень
+		  в консолі зневаджувача.</translation>
+    </message>
+    <message>
+        <source>Other services offered by qmltooling plugins that implement QQmlDebugServiceFactory and which can be found in the standard plugin paths will also be available and can be specified. If no &quot;services&quot; argument is given, all services found this way, including the default ones, are loaded.</source>
+        <translation>Інші служби, які пропонуються додатками qmltooling plugins, реалізують QQmlDebugServiceFactory та можуть бути знайдені в стандартних шляхах для додатків, також досутпні та можуть бути вказані. Якщо параметр &quot;services&quot; не вказано, то усі служби, що знайдені в такий спосіб, включно з типовими, будуть завантажені.</translation>
+    </message>
+</context>
+<context>
     <name>QQmlDelegateModel</name>
     <message>
         <source>The delegate of a DelegateModel cannot be changed within onUpdated.</source>
@@ -753,6 +826,10 @@
 <context>
     <name>QQmlEnumTypeResolver</name>
     <message>
+        <source>Invalid property assignment: Enum value &quot;%1&quot; cannot start with a lowercase letter</source>
+        <translation>Неправильне присвоєння властивості: значення переліку &quot;%1&quot; не може починатись з малої літери</translation>
+    </message>
+    <message>
         <source>Invalid property assignment: &quot;%1&quot; is a read-only property</source>
         <translation>Неправильне присвоєння властивості: властивість &quot;%1&quot; лише для читання</translation>
     </message>
@@ -814,6 +891,10 @@
     <message>
         <source>module &quot;%1&quot; plugin &quot;%2&quot; not found</source>
         <translation>не знайдено додаток &quot;%2&quot; модуля &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source>library loading is disabled</source>
+        <translation>завантаження бібліотек вимкнено</translation>
     </message>
     <message>
         <source>&quot;%1&quot; version %2.%3 is defined more than once in module &quot;%4&quot;</source>
@@ -995,6 +1076,21 @@
     <message>
         <source>Composite Singleton Type %1 is not creatable</source>
         <translation>Складений тип Singleton %1 не є створюваним</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlObjectModel</name>
+    <message>
+        <source>insert: index %1 out of range</source>
+        <translation>insert: індекс %1 поза межами діапазону</translation>
+    </message>
+    <message>
+        <source>move: out of range</source>
+        <translation>move: поза межами діапазону</translation>
+    </message>
+    <message>
+        <source>remove: indices [%1 - %2] out of range [0 - %3]</source>
+        <translation>remove: індекси [%1 - %2] поза межами діапазону [0 - %3]</translation>
     </message>
 </context>
 <context>
@@ -1617,6 +1713,17 @@
     </message>
 </context>
 <context>
+    <name>QQuickEnterKeyAttached</name>
+    <message>
+        <source>EnterKey attached property only works with Items</source>
+        <translation>Прикріплена властивість EnterKey працює лише з Items</translation>
+    </message>
+    <message>
+        <source>EnterKey is only available via attached properties</source>
+        <translation>EnterKey доступні лише через прикріплені властивості</translation>
+    </message>
+</context>
+<context>
     <name>QQuickFlipable</name>
     <message>
         <source>front is a write-once property</source>
@@ -1749,6 +1856,13 @@
     </message>
 </context>
 <context>
+    <name>QQuickMouseEvent</name>
+    <message>
+        <source>MouseEvent is only available within handlers in MouseArea</source>
+        <translation>MouseEvent доступний лише з обробників в MouseArea</translation>
+    </message>
+</context>
+<context>
     <name>QQuickOpenGLInfo</name>
     <message>
         <source>OpenGLInfo is only available via attached properties</source>
@@ -1837,7 +1951,7 @@
     </message>
     <message>
         <source>Invalid image data: %1</source>
-        <translation>Неправильні дані зображення: %1</translation>
+        <translation type="vanished">Неправильні дані зображення: %1</translation>
     </message>
 </context>
 <context>
@@ -2245,6 +2359,17 @@ Install a driver providing OpenGL 2.0 or higher, or, if this is not possible, ma
     <message>
         <source>Incorrectly specified signal assignment</source>
         <translation>Неправильно вказане призначення сигналу</translation>
+    </message>
+</context>
+<context>
+    <name>SignalTransition</name>
+    <message>
+        <source>Cannot assign to non-existent property &quot;%1&quot;</source>
+        <translation>Неможливо призначити неіснуючій властивості &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source>SignalTransition: script expected</source>
+        <translation>SignalTransition: очікувався скрипт</translation>
     </message>
 </context>
 <context>
