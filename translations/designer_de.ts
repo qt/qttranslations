@@ -852,6 +852,22 @@
         <source>Default Grid</source>
         <translation>Raster für neue Formulare</translation>
     </message>
+    <message>
+        <source>Object Naming Convention</source>
+        <translation>Namenskonvention für Objekte</translation>
+    </message>
+    <message>
+        <source>Naming convention used for generating action object names from their text</source>
+        <translation>Konvention für die Benennung von Instanzen von QAction nach ihrem Text</translation>
+    </message>
+    <message>
+        <source>Camel Case</source>
+        <translation>Camel Case</translation>
+    </message>
+    <message>
+        <source>Underscore</source>
+        <translation>Trennung durch Unterstrich</translation>
+    </message>
 </context>
 <context>
     <name>FormLayoutRowDialog</name>
@@ -949,8 +965,80 @@
 <context>
     <name>IconSelector</name>
     <message>
+        <source>The pixmap file &apos;%1&apos; cannot be read.</source>
+        <translation>Die Pixmap-Datei &apos;%1&apos; kann nicht gelesen werden.</translation>
+    </message>
+    <message>
+        <source>The file &apos;%1&apos; does not appear to be a valid pixmap file: %2</source>
+        <translation>Die Datei &apos;%1&apos; ist keine gültige Pixmap-Datei: %2</translation>
+    </message>
+    <message>
+        <source>The file &apos;%1&apos; could not be read: %2</source>
+        <translation>Die Datei &apos;%1&apos; konnte nicht gelesen werden: %2</translation>
+    </message>
+    <message>
         <source>All Pixmaps (</source>
         <translation>Alle Pixmap-Dateien (</translation>
+    </message>
+    <message>
+        <source>Choose a Pixmap</source>
+        <translation>Pixmap-Datei auswählen</translation>
+    </message>
+    <message>
+        <source>Pixmap Read Error</source>
+        <translation>Fehler beim Lesen der Pixmap</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+    <message>
+        <source>Normal Off</source>
+        <translation>Normal, aus</translation>
+    </message>
+    <message>
+        <source>Normal On</source>
+        <translation>Normal, ein</translation>
+    </message>
+    <message>
+        <source>Disabled Off</source>
+        <translation>Nicht verfügbar, aus</translation>
+    </message>
+    <message>
+        <source>Disabled On</source>
+        <translation>Verfügbar, ein</translation>
+    </message>
+    <message>
+        <source>Active Off</source>
+        <translation>Aktiv, aus</translation>
+    </message>
+    <message>
+        <source>Active On</source>
+        <translation>Aktiv, ein</translation>
+    </message>
+    <message>
+        <source>Selected Off</source>
+        <translation>Ausgewählt, aus</translation>
+    </message>
+    <message>
+        <source>Selected On</source>
+        <translation>Ausgewählt, ein</translation>
+    </message>
+    <message>
+        <source>Choose Resource...</source>
+        <translation>Ressource auswählen...</translation>
+    </message>
+    <message>
+        <source>Choose File...</source>
+        <translation>Datei auswählen...</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Zurücksetzen</translation>
+    </message>
+    <message>
+        <source>Reset All</source>
+        <translation>Alle zurücksetzen</translation>
     </message>
 </context>
 <context>
@@ -3151,6 +3239,10 @@ Möchten Sie sie überschreiben?</translation>
 <context>
     <name>WidgetDataBase</name>
     <message>
+        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
+        <translation>Es wurde ein Plugin gefunden, das ein benutzerdefiniertes Widget enthält, dessen Klassenname (%1) einer existierenden Klasse entspricht.</translation>
+    </message>
+    <message>
         <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
         <translation>Die Datei enthält ein benutzerdefiniertes Widget &apos;%1&apos; dessen Basisklasse (%2) nicht mit dem Eintrag in der Widget-Datenbank übereinstimmt. Die Widget-Datenbank wird nicht geändert.</translation>
     </message>
@@ -4094,81 +4186,6 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <source>Insert HTML entity</source>
         <translation>HTML-Sonderzeichen einfügen</translation>
-    </message>
-</context>
-<context>
-    <name>qdesigner_internal::IconSelector</name>
-    <message>
-        <source>The pixmap file &apos;%1&apos; cannot be read.</source>
-        <translation>Die Pixmap-Datei &apos;%1&apos; kann nicht gelesen werden.</translation>
-    </message>
-    <message>
-        <source>The file &apos;%1&apos; does not appear to be a valid pixmap file: %2</source>
-        <translation>Die Datei &apos;%1&apos; ist keine gültige Pixmap-Datei: %2</translation>
-    </message>
-    <message>
-        <source>The file &apos;%1&apos; could not be read: %2</source>
-        <translation>Die Datei &apos;%1&apos; konnte nicht gelesen werden: %2</translation>
-    </message>
-    <message>
-        <source>Pixmap Read Error</source>
-        <translation>Fehler beim Lesen der Pixmap</translation>
-    </message>
-    <message>
-        <source>...</source>
-        <translation>...</translation>
-    </message>
-    <message>
-        <source>Normal Off</source>
-        <translation>Normal, aus</translation>
-    </message>
-    <message>
-        <source>Normal On</source>
-        <translation>Normal, ein</translation>
-    </message>
-    <message>
-        <source>Disabled Off</source>
-        <translation>Nicht verfügbar, aus</translation>
-    </message>
-    <message>
-        <source>Disabled On</source>
-        <translation>Verfügbar, ein</translation>
-    </message>
-    <message>
-        <source>Active Off</source>
-        <translation>Aktiv, aus</translation>
-    </message>
-    <message>
-        <source>Active On</source>
-        <translation>Aktiv, ein</translation>
-    </message>
-    <message>
-        <source>Selected Off</source>
-        <translation>Ausgewählt, aus</translation>
-    </message>
-    <message>
-        <source>Selected On</source>
-        <translation>Ausgewählt, ein</translation>
-    </message>
-    <message>
-        <source>Choose Resource...</source>
-        <translation>Ressource auswählen...</translation>
-    </message>
-    <message>
-        <source>Choose File...</source>
-        <translation>Datei auswählen...</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>Rücksetzen</translation>
-    </message>
-    <message>
-        <source>Reset All</source>
-        <translation>Alle rücksetzen</translation>
-    </message>
-    <message>
-        <source>Choose a Pixmap</source>
-        <translation>Pixmap-Datei auswählen</translation>
     </message>
 </context>
 <context>
@@ -5657,13 +5674,6 @@ Klasse: %2</translation>
     <message>
         <source>Edit name</source>
         <translation>Namen ändern</translation>
-    </message>
-</context>
-<context>
-    <name>qdesigner_internal::WidgetDataBase</name>
-    <message>
-        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
-        <translation>Es wurde ein Plugin gefunden, das ein benutzerdefiniertes Widget enthält, dessen Klassenname (%1) einer existierenden Klasse entspricht.</translation>
     </message>
 </context>
 <context>

@@ -2,6 +2,15 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="de_DE">
 <context>
+    <name>GeoServiceProviderFactoryEsri</name>
+    <message>
+        <source>Esri plugin requires a &apos;esri.token&apos; parameter.
+Please visit https://developers.arcgis.com/authentication/accessing-arcgis-online-services/</source>
+        <translation>Das Esri-Plugin erfordert einen &apos;esri.token&apos; Parameter.
+Bitte besuchen Sie https://developers.arcgis.com/authentication/accessing-arcgis-online-services/</translation>
+    </message>
+</context>
+<context>
     <name>QDeclarativeGeoMap</name>
     <message>
         <source>No Map</source>
@@ -232,9 +241,9 @@
 <context>
     <name>QGeoServiceProviderFactoryMapbox</name>
     <message>
-        <source>Mapbox plugin requires &apos;mapbox.map_id&apos; and &apos;mapbox.access_token&apos; parameters.
+        <source>Mapbox plugin requires a &apos;mapbox.access_token&apos; parameter.
 Please visit https://www.mapbox.com</source>
-        <translation>Das Mapbox-Plugin erfordert die Parameter &apos;mapbox.map_id&apos; und &apos;mapbox.access_token&apos;.
+        <translation>Das Mapbox-Plugin erfordert einen Parameter &apos;mapbox.access_token&apos;.
 Bitte besuchen Sie https://www.mapbox.com</translation>
     </message>
 </context>
@@ -246,29 +255,76 @@ Bitte besuchen Sie https://www.mapbox.com</translation>
     </message>
 </context>
 <context>
-    <name>QGeoTiledMapOsm</name>
-    <message>
-        <source>Tiles Courtesy of &lt;a href=&apos;http://www.mapquest.com/&apos;&gt;MapQuest&lt;/a&gt;&lt;br/&gt;Data &amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt; contributors</source>
-        <translation>Die Kartenabschnitte wurden von &lt;a href=&apos;http://www.mapquest.com/&apos;&gt;MapQuest&lt;/a&gt; zur Verfügung gestellt&lt;br/&gt;Daten &amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt;-Mitwirkende</translation>
-    </message>
-    <message>
-        <source>Maps &amp;copy; &lt;a href=&apos;http://www.thunderforest.com/&apos;&gt;Thunderforest&lt;/a&gt;&lt;br/&gt;Data &amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt; contributors</source>
-        <translation>Karten &amp;copy; &lt;a href=&apos;http://www.thunderforest.com/&apos;&gt;Thunderforest&lt;/a&gt;&lt;br/&gt;Daten &amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt;-Mitwirkende</translation>
-    </message>
-    <message>
-        <source>&amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt; contributors</source>
-        <translation>&amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt;-Mitwirkende</translation>
-    </message>
-</context>
-<context>
     <name>QGeoTiledMappingManagerEngineMapbox</name>
     <message>
-        <source>Custom</source>
-        <translation>Benutzerdefiniert</translation>
+        <source>Street</source>
+        <extracomment>Noun describing map type &apos;Street map&apos;</extracomment>
+        <translation>Straßenkarte</translation>
     </message>
     <message>
-        <source>Mapbox custom map</source>
-        <translation>Benutzerdefinierte Karte von Mapbox</translation>
+        <source>Light</source>
+        <extracomment>Noun describing type of a map using light colors (weak contrast)</extracomment>
+        <translation>Hell</translation>
+    </message>
+    <message>
+        <source>Dark</source>
+        <extracomment>Noun describing type of a map using dark colors</extracomment>
+        <translation>Dunkel</translation>
+    </message>
+    <message>
+        <source>Satellite</source>
+        <extracomment>Noun describing type of a map created by satellite</extracomment>
+        <translation>Satellitenansicht</translation>
+    </message>
+    <message>
+        <source>Streets Satellite</source>
+        <extracomment>Noun describing type of a street map created by satellite</extracomment>
+        <translation>Straßenkarte in Satellitenansicht</translation>
+    </message>
+    <message>
+        <source>Wheatpaste</source>
+        <extracomment>Noun describing type of a map using wheat paste colors</extracomment>
+        <translation>mehlfarben</translation>
+    </message>
+    <message>
+        <source>Streets Basic</source>
+        <extracomment>Noun describing type of a basic street map</extracomment>
+        <translation>Einfache Straßenkarte</translation>
+    </message>
+    <message>
+        <source>Comic</source>
+        <extracomment>Noun describing type of a map using cartoon-style fonts</extracomment>
+        <translation>Comic</translation>
+    </message>
+    <message>
+        <source>Outdoors</source>
+        <extracomment>Noun describing type of a map for outdoor activities</extracomment>
+        <translation>Outdoor-Karte</translation>
+    </message>
+    <message>
+        <source>Run Bike Hike</source>
+        <extracomment>Noun describing type of a map for sports</extracomment>
+        <translation>Laufen Radfahren Wandern</translation>
+    </message>
+    <message>
+        <source>Pencil</source>
+        <extracomment>Noun describing type of a map drawn by pencil</extracomment>
+        <translation>Bleistiftzeichnung</translation>
+    </message>
+    <message>
+        <source>Pirates</source>
+        <extracomment>Noun describing type of a treasure map with pirate boat watermark</extracomment>
+        <translation>Schatzkarte</translation>
+    </message>
+    <message>
+        <source>Emerald</source>
+        <extracomment>Noun describing type of a map using emerald colors</extracomment>
+        <translation>Smaragdfarben</translation>
+    </message>
+    <message>
+        <source>High Contrast</source>
+        <extracomment>Noun describing type of a map with high contrast</extracomment>
+        <translation>Hoher Kontrast</translation>
     </message>
 </context>
 <context>

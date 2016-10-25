@@ -2,29 +2,6 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="de_DE">
 <context>
-    <name>AuthenticationDialog</name>
-    <message>
-        <source>Authentication Required</source>
-        <translation>Authentifizierung erforderlich</translation>
-    </message>
-    <message>
-        <source>Username:</source>
-        <translation>Nutzername:</translation>
-    </message>
-    <message>
-        <source>Password:</source>
-        <translation>Passwort:</translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation>&amp;Abbrechen</translation>
-    </message>
-    <message>
-        <source>&amp;Log In</source>
-        <translation>&amp;Anmelden</translation>
-    </message>
-</context>
-<context>
     <name>QQuickWebEngineView</name>
     <message>
         <source>Follow Link</source>
@@ -41,6 +18,10 @@
     <message>
         <source>Reload</source>
         <translation>Neu laden</translation>
+    </message>
+    <message>
+        <source>View Page Source</source>
+        <translation>Seitenquelltext anzeigen</translation>
     </message>
     <message>
         <source>Copy</source>
@@ -120,6 +101,10 @@
     <message>
         <source>Reload</source>
         <translation>Neu laden</translation>
+    </message>
+    <message>
+        <source>Reload and Bypass Cache</source>
+        <translation>Unter Umgehung des Caches neu laden</translation>
     </message>
     <message>
         <source>Cut</source>
@@ -230,6 +215,10 @@
         <translation>Seite s&amp;peichern</translation>
     </message>
     <message>
+        <source>&amp;View Page Source</source>
+        <translation>Seiten&amp;quelltext anzeigen</translation>
+    </message>
+    <message>
         <source>Are you sure you want to leave this page?</source>
         <translation>Möchten Sie diese Seite wirklich verlassen?</translation>
     </message>
@@ -274,41 +263,10 @@
     </message>
 </context>
 <context>
-    <name>QtWebEngineExperimentalPlugin</name>
-    <message>
-        <source>Cannot create a separate instance of WebEngineViewExperimental</source>
-        <translation>Es kann keine separate Instanz der Klasse WebEngineViewExperimental erstellt werden</translation>
-    </message>
-    <message>
-        <source>Cannot create a separate instance of WebEngineViewport</source>
-        <translation>Es kann keine separate Instanz der Klasse WebEngineViewport erstellt werden</translation>
-    </message>
-    <message>
-        <source>Cannot create a separate instance of WebEngineContextMenuData</source>
-        <translation>Es kann keine separate Instanz der Klasse WebEngineContextMenuData erstellt werden</translation>
-    </message>
-</context>
-<context>
     <name>QtWebEnginePlugin</name>
-    <message>
-        <source>Cannot create separate instance of WebEngineLoadRequest</source>
-        <translation>Es kann keine separate Instanz der Klasse WebEngineLoadRequest erstellt werden</translation>
-    </message>
-    <message>
-        <source>Cannot create separate instance of WebEngineNavigationRequest</source>
-        <translation>Es kann keine separate Instanz der Klasse WebEngineNavigationRequest erstellt werden</translation>
-    </message>
-    <message>
-        <source>Cannot create separate instance of WebEngineCertificateError</source>
-        <translation>Es kann keine separate Instanz der Klasse WebEngineCertificateError erstellt werden</translation>
-    </message>
     <message>
         <source>Cannot create a separate instance of WebEngineDownloadItem</source>
         <translation>Es kann keine separate Instanz der Klasse WebEngineDownloadItem erstellt werden</translation>
-    </message>
-    <message>
-        <source>Cannot create separate instance of WebEngineNewViewRequest</source>
-        <translation>Es kann keine separate Instanz der Klasse WebEngineNewViewRequest erstellt werden</translation>
     </message>
     <message>
         <source>Cannot create a separate instance of WebEngineSettings</source>
@@ -321,6 +279,10 @@
     <message>
         <source>Cannot create a separate instance of FullScreenRequest</source>
         <translation>Es kann keine separate Instanz der Klasse FullScreenRequest erstellt werden</translation>
+    </message>
+    <message>
+        <source>Cannot create separate instance of %1</source>
+        <translation>Es kann keine separate Instanz der Klasse %1 erstellt werden</translation>
     </message>
 </context>
 <context>

@@ -32,6 +32,14 @@
         <translation>Mehrfaches Auftreten der Vorgabe-Eigenschaft</translation>
     </message>
     <message>
+        <source>Duplicate alias name</source>
+        <translation>Mehrfaches Auftreten eines Aliasnamens</translation>
+    </message>
+    <message>
+        <source>Alias names cannot begin with an upper case letter</source>
+        <translation>Aliasnamen dürfen nicht mit einem Großbuchstaben beginnen</translation>
+    </message>
+    <message>
         <source>Property value set multiple times</source>
         <translation>Mehrfache Zuweisung eines Wertes an eine Eigenschaft</translation>
     </message>
@@ -72,6 +80,10 @@
     <message>
         <source>id is not unique</source>
         <translation>Id-Wert nicht eindeutig</translation>
+    </message>
+    <message>
+        <source>Circular alias reference detected</source>
+        <translation>Zirkuläre Referenzierung eines Alias festgestellt</translation>
     </message>
     <message>
         <source>Invalid alias reference. Unable to find id &quot;%1&quot;</source>
@@ -506,7 +518,7 @@
     </message>
     <message>
         <source>library loading is disabled</source>
-        <translation>Das Laden von Bibliotheken ist deaktiviert</translation>
+        <translation>das Laden von Bibliotheken ist deaktiviert</translation>
     </message>
     <message>
         <source>Namespace &apos;%1&apos; has already been used for type registration</source>
@@ -789,7 +801,7 @@
     </message>
 </context>
 <context>
-    <name>QQmlPropertyCacheCreator</name>
+    <name>QQmlPropertyCacheCreatorBase</name>
     <message>
         <source>Fully dynamic types cannot declare new properties.</source>
         <translation>Vollständig dynamische Typen können keine neuen Eigenschaften deklarieren.</translation>
@@ -804,7 +816,7 @@
     </message>
     <message>
         <source>Non-existent attached object</source>
-        <translation>Es existiert kein Bezugselement für die Eigenschaft</translation>
+        <translation>Das Objekt des Typs &apos;attached&apos; existiert nicht</translation>
     </message>
     <message>
         <source>Cannot override FINAL property</source>
@@ -954,12 +966,20 @@
         <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein boolescher Wert erwartet</translation>
     </message>
     <message>
+        <source>Invalid property assignment: 2D vector expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein zweidimensionaler Vektor erwartet</translation>
+    </message>
+    <message>
         <source>Invalid property assignment: 3D vector expected</source>
         <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein dreidimensionaler Vektor erwartet</translation>
     </message>
     <message>
         <source>Invalid property assignment: 4D vector expected</source>
         <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein vierdimensionaler Vektor erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: quaternion expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Quaternion erwartet</translation>
     </message>
     <message>
         <source>Invalid property assignment: regular expression expected; use /pattern/ syntax</source>
@@ -1022,7 +1042,7 @@
     </message>
 </context>
 <context>
-    <name>QQmlTypeCompiler</name>
+    <name>QQmlTypeData</name>
     <message>
         <source>Composite Singleton Type %1 is not creatable.</source>
         <translation>Es kann kein Composite Singleton des Typs %1 erzeugt werden.</translation>
@@ -1210,6 +1230,13 @@
     </message>
 </context>
 <context>
+    <name>QQuickGraphicsInfo</name>
+    <message>
+        <source>GraphicsInfo is only available via attached properties</source>
+        <translation>Auf GraphicsInfo kann nur mittels Eigenschaften des Typs &apos;attached&apos; zugegriffen werden</translation>
+    </message>
+</context>
+<context>
     <name>QQuickItemView</name>
     <message>
         <source>Delegate must be of Item type</source>
@@ -1237,12 +1264,12 @@
 <context>
     <name>QQuickLayoutMirroringAttached</name>
     <message>
-        <source>LayoutDirection attached property only works with Items</source>
-        <translation>LayoutDirection-Eigenschaften des Typs &apos;attached&apos; können nur mit Elementen der Klasse Item verwendet werden</translation>
-    </message>
-    <message>
         <source>LayoutMirroring is only available via attached properties</source>
         <translation>LayoutMirroring ist nur in Verbindung mit Eigenschaften des Typs &quot;attached&quot; möglich</translation>
+    </message>
+    <message>
+        <source>LayoutDirection attached property only works with Items and Windows</source>
+        <translation>Die Eigenschaft LayoutDirection des Typs &apos;attached&apos; funktioniert nur mit Objekten des Typs Item oder Window</translation>
     </message>
 </context>
 <context>
@@ -1489,6 +1516,10 @@ Installieren Sie einen Treiber, der OpenGL 2.0 oder neuer bereitstellt, oder ste
 </context>
 <context>
     <name>SignalTransition</name>
+    <message>
+        <source>Specified signal does not exist.</source>
+        <translation>Das angegebene Signal existiert nicht.</translation>
+    </message>
     <message>
         <source>Cannot assign to non-existent property &quot;%1&quot;</source>
         <translation>Es kann keine Zuweisung erfolgen, da keine Eigenschaft des Namens &quot;%1&quot; existiert</translation>

@@ -146,12 +146,39 @@ Es wird mit einer einfachen Universalform gearbeitet.</translation>
         <translation>Platzhalter im Übersetzungstext und Ursprungstext unterscheiden sich.</translation>
     </message>
     <message>
-        <source>Translation does not contain the necessary %n place marker.</source>
-        <translation>Der erforderliche Platzhalter (%n) fehlt in der Übersetzung.</translation>
+        <source>Translation does not contain the necessary %n/%Ln place marker.</source>
+        <translation>Der erforderliche Platzhalter (%n/%Ln) fehlt in der Übersetzung.</translation>
     </message>
     <message>
         <source>Unknown error</source>
         <translation>Unbekannter Fehler</translation>
+    </message>
+</context>
+<context>
+    <name>FMT</name>
+    <message>
+        <source>GNU Gettext localization files</source>
+        <translation>GNU-Gettext-Übersetzungsdateien</translation>
+    </message>
+    <message>
+        <source>GNU Gettext localization template files</source>
+        <translation>Vorlagen für GNU-Gettext-Übersetzungsdateien</translation>
+    </message>
+    <message>
+        <source>Compiled Qt translations</source>
+        <translation>Kompilierte Qt-Übersetzungen</translation>
+    </message>
+    <message>
+        <source>Qt Linguist &apos;Phrase Book&apos;</source>
+        <translation>Qt-Linguist-Wörterbuch</translation>
+    </message>
+    <message>
+        <source>Qt translation sources</source>
+        <translation>Qt-Übersetzungsdateien</translation>
+    </message>
+    <message>
+        <source>XLIFF localization files</source>
+        <translation>XLIFF-Übersetzungsdateien</translation>
     </message>
 </context>
 <context>
