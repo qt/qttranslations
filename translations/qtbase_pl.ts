@@ -421,37 +421,37 @@ Naciśnij ESC aby anulować</translation>
     <name>QCupsJobWidget</name>
     <message>
         <source>Job</source>
-        <translation type="unfinished"></translation>
+        <translation>Zadanie</translation>
     </message>
     <message>
         <source>Job Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrola zadania</translation>
     </message>
     <message>
         <source>Scheduled printing:</source>
-        <translation type="unfinished"></translation>
+        <translation>Planowany wydruk:</translation>
     </message>
     <message>
         <source>Billing information:</source>
-        <translation type="unfinished"></translation>
+        <translation>Informacje billingowe:</translation>
     </message>
     <message>
         <source>Job priority:</source>
-        <translation type="unfinished"></translation>
+        <translation>Priorytet zadania:</translation>
     </message>
     <message>
         <source>Banner Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Strony oddzielające</translation>
     </message>
     <message>
         <source>End:</source>
         <comment>Banner page at end</comment>
-        <translation>Koniec:</translation>
+        <translation>Końcowa:</translation>
     </message>
     <message>
         <source>Start:</source>
         <comment>Banner page at start</comment>
-        <translation>Początek:</translation>
+        <translation>Początkowa:</translation>
     </message>
     <message>
         <source>Print Immediately</source>
@@ -483,42 +483,42 @@ Naciśnij ESC aby anulować</translation>
     </message>
     <message>
         <source>Specific Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Konkretny czas</translation>
     </message>
     <message>
         <source>None</source>
         <comment>CUPS Banner page</comment>
-        <translation type="unfinished">Brak</translation>
+        <translation>Brak</translation>
     </message>
     <message>
         <source>Standard</source>
         <comment>CUPS Banner page</comment>
-        <translation type="unfinished"></translation>
+        <translation>Standardowe</translation>
     </message>
     <message>
         <source>Unclassified</source>
         <comment>CUPS Banner page</comment>
-        <translation type="unfinished"></translation>
+        <translation>Jawne</translation>
     </message>
     <message>
         <source>Confidential</source>
         <comment>CUPS Banner page</comment>
-        <translation type="unfinished"></translation>
+        <translation>Poufne</translation>
     </message>
     <message>
         <source>Classified</source>
         <comment>CUPS Banner page</comment>
-        <translation type="unfinished"></translation>
+        <translation>Niejawne</translation>
     </message>
     <message>
         <source>Secret</source>
         <comment>CUPS Banner page</comment>
-        <translation type="unfinished"></translation>
+        <translation>Tajne</translation>
     </message>
     <message>
         <source>Top Secret</source>
         <comment>CUPS Banner page</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ściśle tajne</translation>
     </message>
 </context>
 <context>
@@ -578,19 +578,19 @@ Naciśnij ESC aby anulować</translation>
     <name>QDateTimeParser</name>
     <message>
         <source>AM</source>
-        <translation type="unfinished">AM</translation>
+        <translation>AM</translation>
     </message>
     <message>
         <source>am</source>
-        <translation type="unfinished">am</translation>
+        <translation>am</translation>
     </message>
     <message>
         <source>PM</source>
-        <translation type="unfinished">PM</translation>
+        <translation>PM</translation>
     </message>
     <message>
         <source>pm</source>
-        <translation type="unfinished">pm</translation>
+        <translation>pm</translation>
     </message>
 </context>
 <context>
@@ -655,11 +655,7 @@ Naciśnij ESC aby anulować</translation>
     </message>
     <message>
         <source>Resolver initialization failed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>IPv6 addresses for nameservers is currently not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd inicjalizacji resolvera</translation>
     </message>
     <message>
         <source>Server could not process query</source>
@@ -732,6 +728,14 @@ Naciśnij ESC aby anulować</translation>
     <message>
         <source>Invalid hostname</source>
         <translation>Niepoprawna nazwa hosta</translation>
+    </message>
+    <message>
+        <source>Host %1 could not be found.</source>
+        <translation>Host %1 nie znaleziony.</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>Nieznany błąd</translation>
     </message>
 </context>
 <context>
@@ -1528,10 +1532,6 @@ Czy na pewno chcesz go usunąć?</translation>
         <source>Unknown error (%1)</source>
         <translation>Nieznany błąd (%1)</translation>
     </message>
-    <message>
-        <source>Host %1 could not be found.</source>
-        <translation>Host %1 nie znaleziony</translation>
-    </message>
 </context>
 <context>
     <name>QHttp</name>
@@ -1924,7 +1924,7 @@ Czy na pewno chcesz go usunąć?</translation>
     </message>
     <message>
         <source>invalid magic %1</source>
-        <translation type="unfinished"></translation>
+        <translation>niepoprawna liczba magiczna %1</translation>
     </message>
     <message>
         <source>wrong architecture</source>
@@ -2331,7 +2331,7 @@ Czy na pewno chcesz go usunąć?</translation>
     </message>
     <message>
         <source>Operation on non-socket</source>
-        <translation type="unfinished">Nieprawidłowa operacja na gnieździe</translation>
+        <translation>Operacja na nieistniejącym gnieździe</translation>
     </message>
     <message>
         <source>The proxy type is invalid for this operation</source>
@@ -2340,6 +2340,14 @@ Czy na pewno chcesz go usunąć?</translation>
     <message>
         <source>Temporary error</source>
         <translation>Chwilowy błąd</translation>
+    </message>
+    <message>
+        <source>Network dropped connection on reset</source>
+        <translation>Utrata połączenia z siecią po resecie</translation>
+    </message>
+    <message>
+        <source>Connection reset by peer</source>
+        <translation>Połączenie zresetowane przez drugą stronę</translation>
     </message>
     <message>
         <source>Unknown error</source>
@@ -2436,7 +2444,7 @@ Czy na pewno chcesz go usunąć?</translation>
     </message>
     <message>
         <source>Background request not allowed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Żądanie w tle nie jest dozwolone.</translation>
     </message>
     <message>
         <source>Network session error.</source>
@@ -2444,7 +2452,7 @@ Czy na pewno chcesz go usunąć?</translation>
     </message>
     <message>
         <source>backend start error.</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd uruchomienia back-endu.</translation>
     </message>
     <message>
         <source>Temporary network failure.</source>
@@ -3788,20 +3796,6 @@ Wyłącz jedną z tych opcji.</translation>
     </message>
 </context>
 <context>
-    <name>QQnxFileDialogHelper</name>
-    <message>
-        <source>All files (*.*)</source>
-        <translation>Wszystkie pliki (*.*)</translation>
-    </message>
-</context>
-<context>
-    <name>QQnxFilePicker</name>
-    <message>
-        <source>Pick a file</source>
-        <translation>Wybierz plik</translation>
-    </message>
-</context>
-<context>
     <name>QRegExp</name>
     <message>
         <source>no error occurred</source>
@@ -4028,7 +4022,7 @@ Wyłącz jedną z tych opcji.</translation>
     </message>
     <message>
         <source>malformed \P or \p sequence</source>
-        <translation>niepoprawnie sformatowana sekwecja \P lub \p</translation>
+        <translation>niepoprawnie sformatowana sekwencja \P lub \p</translation>
     </message>
     <message>
         <source>unknown property name after \P or \p</source>
@@ -5047,7 +5041,7 @@ Wyłącz jedną z tych opcji.</translation>
     </message>
     <message>
         <source>Power Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyłącz zasilanie</translation>
     </message>
     <message>
         <source>Suspend</source>
@@ -5533,7 +5527,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>filler</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>wypełniacz</translation>
     </message>
     <message>
         <source>popup menu</source>
@@ -5673,7 +5667,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>graphic</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>grafika</translation>
     </message>
     <message>
         <source>label</source>
@@ -5808,7 +5802,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>footer</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>stopka</translation>
     </message>
     <message>
         <source>form</source>
@@ -5818,7 +5812,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>heading</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>nagłówek</translation>
     </message>
     <message>
         <source>note</source>
@@ -5956,7 +5950,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>The peer did not present any certificate</source>
-        <translation>Element równorzędny nie przedstawił żadnego certyfikatu</translation>
+        <translation>Druga strona nie przedstawiła żadnego certyfikatu</translation>
     </message>
     <message>
         <source>The host name did not match any of the valid hosts for this certificate</source>
@@ -5964,7 +5958,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>The peer certificate is blacklisted</source>
-        <translation>Element równorzędny widnieje na czarnej liście</translation>
+        <translation>Druga strona widnieje na czarnej liście</translation>
     </message>
     <message>
         <source>Unknown error</source>

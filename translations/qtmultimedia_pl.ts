@@ -304,6 +304,14 @@
         <translation>Nieobsługiwany tryb migawki</translation>
     </message>
     <message>
+        <source>Failed to capture image</source>
+        <translation>Nie można uchwycić obrazu</translation>
+    </message>
+    <message>
+        <source>Camera preview failed to start.</source>
+        <translation>Błąd uruchomienia podglądu kamery.</translation>
+    </message>
+    <message>
         <source>Could not open destination file: %1</source>
         <translation>Nie można otworzyć docelowego pliku: %1</translation>
     </message>
@@ -441,7 +449,7 @@
     <name>QGstreamerPlayerSession</name>
     <message>
         <source>Cannot play stream of type: &lt;unknown&gt;</source>
-        <translation>Nie można odtworzyć stumienia typu: &lt;unknown&gt;</translation>
+        <translation>Nie można odtworzyć strumienia typu: &lt;unknown&gt;</translation>
     </message>
     <message>
         <source>UDP source timeout</source>
