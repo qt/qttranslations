@@ -853,6 +853,22 @@
         <source>Default Grid</source>
         <translation>Domyślna siatka</translation>
     </message>
+    <message>
+        <source>Object Naming Convention</source>
+        <translation>Konwencja nazywania obiektów</translation>
+    </message>
+    <message>
+        <source>Naming convention used for generating action object names from their text</source>
+        <translation>Konwencja używana do generowania nazw akcji na podstawie ich teksu</translation>
+    </message>
+    <message>
+        <source>Camel Case</source>
+        <translation>CamelCase</translation>
+    </message>
+    <message>
+        <source>Underscore</source>
+        <translation>Znaki podkreślenia</translation>
+    </message>
 </context>
 <context>
     <name>FormLayoutRowDialog</name>
@@ -950,8 +966,80 @@
 <context>
     <name>IconSelector</name>
     <message>
+        <source>The pixmap file &apos;%1&apos; cannot be read.</source>
+        <translation>Nie można odczytać pliku z pixmapą %1.</translation>
+    </message>
+    <message>
+        <source>The file &apos;%1&apos; does not appear to be a valid pixmap file: %2</source>
+        <translation>Plik &apos;%1&apos; nie jest poprawnym plikiem z pixmapą: %2</translation>
+    </message>
+    <message>
+        <source>The file &apos;%1&apos; could not be read: %2</source>
+        <translation>Nie można odczytać pliku &quot;%1&quot;, %2</translation>
+    </message>
+    <message>
         <source>All Pixmaps (</source>
         <translation>Wszystkie pixmapy (</translation>
+    </message>
+    <message>
+        <source>Choose a Pixmap</source>
+        <translation>Wybierz pixmapę</translation>
+    </message>
+    <message>
+        <source>Pixmap Read Error</source>
+        <translation>Błąd odczytu pixmapy</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+    <message>
+        <source>Normal Off</source>
+        <translation>Normalny wyciśnięty</translation>
+    </message>
+    <message>
+        <source>Normal On</source>
+        <translation>Normalny wciśnięty</translation>
+    </message>
+    <message>
+        <source>Disabled Off</source>
+        <translation>Wyłączony wyciśnięty</translation>
+    </message>
+    <message>
+        <source>Disabled On</source>
+        <translation>Wyłączony wciśnięty</translation>
+    </message>
+    <message>
+        <source>Active Off</source>
+        <translation>Aktywny wyciśnięty</translation>
+    </message>
+    <message>
+        <source>Active On</source>
+        <translation>Aktywny wciśnięty</translation>
+    </message>
+    <message>
+        <source>Selected Off</source>
+        <translation>Zaznaczony wyciśnięty</translation>
+    </message>
+    <message>
+        <source>Selected On</source>
+        <translation>Zaznaczony wciśnięty</translation>
+    </message>
+    <message>
+        <source>Choose Resource...</source>
+        <translation>Wybierz zasób...</translation>
+    </message>
+    <message>
+        <source>Choose File...</source>
+        <translation>Wybierz plik...</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Przywróć</translation>
+    </message>
+    <message>
+        <source>Reset All</source>
+        <translation>Przywróć wszystkie</translation>
     </message>
 </context>
 <context>
@@ -3154,6 +3242,10 @@ Czy chcesz nadpisać szablon?</translation>
 <context>
     <name>WidgetDataBase</name>
     <message>
+        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
+        <translation>Znaleziono wtyczkę widżetu, którego nazwa klasy (%1) odpowiada istniejącej już klasie.</translation>
+    </message>
+    <message>
         <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
         <translation>Plik zawiera własny widżet &apos;%1&apos; którego klasa bazowa (%2) różni się od bieżącego elementu w bazie danych z widżetami (%3). Baza danych z widżetami pozostała niezmieniona.</translation>
     </message>
@@ -4102,81 +4194,6 @@ Czy chcesz nadpisać szablon?</translation>
     <message>
         <source>Insert HTML entity</source>
         <translation>Wstaw jednostkę HTML</translation>
-    </message>
-</context>
-<context>
-    <name>qdesigner_internal::IconSelector</name>
-    <message>
-        <source>The pixmap file &apos;%1&apos; cannot be read.</source>
-        <translation>Nie można odczytać pliku z pixmapą %1.</translation>
-    </message>
-    <message>
-        <source>The file &apos;%1&apos; does not appear to be a valid pixmap file: %2</source>
-        <translation>Plik &apos;%1&apos; nie wygląda na poprawny plik z pixmapą: %2</translation>
-    </message>
-    <message>
-        <source>The file &apos;%1&apos; could not be read: %2</source>
-        <translation>Nie można odczytać pliku &quot;%1&quot;, %2</translation>
-    </message>
-    <message>
-        <source>Pixmap Read Error</source>
-        <translation>Błąd przy odczycie pixmapy</translation>
-    </message>
-    <message>
-        <source>...</source>
-        <translation>...</translation>
-    </message>
-    <message>
-        <source>Normal Off</source>
-        <translation>Normalny wyciśnięty</translation>
-    </message>
-    <message>
-        <source>Normal On</source>
-        <translation>Normalny wciśnięty</translation>
-    </message>
-    <message>
-        <source>Disabled Off</source>
-        <translation>Wyłączony wyciśnięty</translation>
-    </message>
-    <message>
-        <source>Disabled On</source>
-        <translation>Wyłączony wciśnięty</translation>
-    </message>
-    <message>
-        <source>Active Off</source>
-        <translation>Aktywny wyciśnięty</translation>
-    </message>
-    <message>
-        <source>Active On</source>
-        <translation>Aktywny wciśnięty</translation>
-    </message>
-    <message>
-        <source>Selected Off</source>
-        <translation>Zaznaczony wyciśnięty</translation>
-    </message>
-    <message>
-        <source>Selected On</source>
-        <translation>Zaznaczony wciśnięty</translation>
-    </message>
-    <message>
-        <source>Choose Resource...</source>
-        <translation>Wybierz zasób...</translation>
-    </message>
-    <message>
-        <source>Choose File...</source>
-        <translation>Wybierz plik...</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>Przywróć</translation>
-    </message>
-    <message>
-        <source>Reset All</source>
-        <translation>Przywróć wszystkie</translation>
-    </message>
-    <message>
-        <source>Choose a Pixmap</source>
-        <translation>Wybierz pixmapę</translation>
     </message>
 </context>
 <context>
@@ -5668,13 +5685,6 @@ Klasa: %2</translation>
     <message>
         <source>Edit name</source>
         <translation>Modyfikuj nazwę</translation>
-    </message>
-</context>
-<context>
-    <name>qdesigner_internal::WidgetDataBase</name>
-    <message>
-        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
-        <translation>Została znaleziona wtyczka widżetu, w której nazwa klasy (%1) odpowiada istniejącej już klasie.</translation>
     </message>
 </context>
 <context>

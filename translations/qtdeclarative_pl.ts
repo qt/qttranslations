@@ -32,6 +32,14 @@
         <translation>Powielona domyślna właściwość</translation>
     </message>
     <message>
+        <source>Duplicate alias name</source>
+        <translation>Powielona nazwa aliasu</translation>
+    </message>
+    <message>
+        <source>Alias names cannot begin with an upper case letter</source>
+        <translation>Nazwa aliasu nie może rozpoczynać się wielką literą</translation>
+    </message>
+    <message>
         <source>Property value set multiple times</source>
         <translation>Wartość właściwości ustawiona wielokrotnie</translation>
     </message>
@@ -72,6 +80,10 @@
     <message>
         <source>id is not unique</source>
         <translation>Wartość &quot;id&quot; nie jest unikatowa</translation>
+    </message>
+    <message>
+        <source>Circular alias reference detected</source>
+        <translation>Wykryto zapętlenie w referencji aliasu</translation>
     </message>
     <message>
         <source>Invalid alias reference. Unable to find id &quot;%1&quot;</source>
@@ -518,11 +530,11 @@
     <name>QQmlListModel</name>
     <message>
         <source>unable to enable dynamic roles as this model is not empty!</source>
-        <translation>nie można włączyć dynamicznych roli ponieważ ten model nie jest pusty.</translation>
+        <translation>nie można włączyć dynamicznych roli, ponieważ ten model nie jest pusty.</translation>
     </message>
     <message>
         <source>unable to enable static roles as this model is not empty!</source>
-        <translation>nie można włączyć statycznych roli ponieważ ten model nie jest pusty.</translation>
+        <translation>nie można włączyć statycznych roli, ponieważ ten model nie jest pusty.</translation>
     </message>
     <message>
         <source>dynamic role setting must be made from the main thread, before any worker scripts are created</source>
@@ -786,7 +798,7 @@
     </message>
 </context>
 <context>
-    <name>QQmlPropertyCacheCreator</name>
+    <name>QQmlPropertyCacheCreatorBase</name>
     <message>
         <source>Fully dynamic types cannot declare new properties.</source>
         <translation>Typy w pełni dynamiczne nie mogą deklarować nowych właściwości.</translation>
@@ -951,12 +963,20 @@
         <translation>Niepoprawne przypisanie wartości: oczekiwano wartości boolowskiej</translation>
     </message>
     <message>
+        <source>Invalid property assignment: 2D vector expected</source>
+        <translation>Niepoprawne przypisanie wartości: oczekiwano wektora 2D</translation>
+    </message>
+    <message>
         <source>Invalid property assignment: 3D vector expected</source>
         <translation>Niepoprawne przypisanie wartości: oczekiwano wektora 3D</translation>
     </message>
     <message>
         <source>Invalid property assignment: 4D vector expected</source>
         <translation>Niepoprawne przypisanie wartości: oczekiwano wektora 3D</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: quaternion expected</source>
+        <translation>Niepoprawne przypisanie wartości: oczekiwano kwaternionu</translation>
     </message>
     <message>
         <source>Invalid property assignment: regular expression expected; use /pattern/ syntax</source>
@@ -1019,14 +1039,14 @@
     </message>
 </context>
 <context>
-    <name>QQmlTypeCompiler</name>
+    <name>QQmlTypeData</name>
     <message>
         <source>Composite Singleton Type %1 is not creatable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Element is not creatable.</source>
-        <translation>Nie można utworzyć elementu (&quot;creatable&quot; wyłączone).</translation>
+        <translation type="unfinished">Nie można utworzyć elementu (&quot;creatable&quot; wyłączone).</translation>
     </message>
 </context>
 <context>
@@ -1207,6 +1227,13 @@
     </message>
 </context>
 <context>
+    <name>QQuickGraphicsInfo</name>
+    <message>
+        <source>GraphicsInfo is only available via attached properties</source>
+        <translation>&quot;OpenGLInfo&quot; jest dostępny jedynie poprzez dołączone właściwości</translation>
+    </message>
+</context>
+<context>
     <name>QQuickItemView</name>
     <message>
         <source>ItemView is an abstract base class</source>
@@ -1234,12 +1261,12 @@
 <context>
     <name>QQuickLayoutMirroringAttached</name>
     <message>
-        <source>LayoutDirection attached property only works with Items</source>
-        <translation>Dołączona właściwość &quot;LayoutDirection&quot; działa tylko z &quot;Item&quot;</translation>
-    </message>
-    <message>
         <source>LayoutMirroring is only available via attached properties</source>
         <translation>&quot;LayoutMirroring&quot; dostępny jest tylko poprzez dołączone właściwości</translation>
+    </message>
+    <message>
+        <source>LayoutDirection attached property only works with Items and Windows</source>
+        <translation>Dołączona właściwość &quot;LayoutDirection&quot; działa tylko z &quot;Item&quot; lub z &quot;Window&quot;</translation>
     </message>
 </context>
 <context>
@@ -1487,12 +1514,16 @@ Zainstaluj sterownik obsługujący OpenGL w wersji 2.0 lub wyższej, lub jeśli 
 <context>
     <name>SignalTransition</name>
     <message>
+        <source>Specified signal does not exist.</source>
+        <translation>Podany sygnał nie istnieje.</translation>
+    </message>
+    <message>
         <source>Cannot assign to non-existent property &quot;%1&quot;</source>
         <translation>Nie można przypisać wartości do nieistniejącej właściwości &quot;%1&quot;</translation>
     </message>
     <message>
         <source>SignalTransition: script expected</source>
-        <translation type="unfinished"></translation>
+        <translation>SignalTransition: oczekiwano skryptu</translation>
     </message>
 </context>
 <context>

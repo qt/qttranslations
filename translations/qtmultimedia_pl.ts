@@ -361,7 +361,7 @@
     <name>QAudioDecoder</name>
     <message>
         <source>The QAudioDecoder object does not have a valid service</source>
-        <translation type="unfinished"></translation>
+        <translation>Obiekt QAudioDecoder nie posiada poprawnego serwisu</translation>
     </message>
 </context>
 <context>
@@ -490,7 +490,7 @@
     </message>
     <message>
         <source>The QMediaPlayer object does not have a valid service</source>
-        <translation type="unfinished"></translation>
+        <translation>Obiekt QMediaPlayer nie posiada poprawnego serwisu</translation>
     </message>
 </context>
 <context>
