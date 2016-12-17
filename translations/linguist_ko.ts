@@ -145,12 +145,43 @@ Will assume a single universal form.</source>
         <translation>번역된 메시지와 원본 메시지의 자리 표시자가 일치하지 않습니다.</translation>
     </message>
     <message>
+        <source>Translation does not contain the necessary %n/%Ln place marker.</source>
+        <translation>필요한 %n/%Ln개의 자리 표시자가 번역된 메시지에 포함되지 않았습니다.</translation>
+    </message>
+    <message>
         <source>Translation does not contain the necessary %n place marker.</source>
         <translation>필요한 %n개의 자리 표시자가 번역된 메시지에 포함되지 않았습니다.</translation>
     </message>
     <message>
         <source>Unknown error</source>
         <translation>알 수 없는 오류</translation>
+    </message>
+</context>
+<context>
+    <name>FMT</name>
+    <message>
+        <source>GNU Gettext localization files</source>
+        <translation>GNU Gettext 번역 파일</translation>
+    </message>
+    <message>
+        <source>GNU Gettext localization template files</source>
+        <translation>GNU Gettext 번역 템플릿 파일</translation>
+    </message>
+    <message>
+        <source>Compiled Qt translations</source>
+        <translation>컴파일된 Qt 번역</translation>
+    </message>
+    <message>
+        <source>Qt Linguist &apos;Phrase Book&apos;</source>
+        <translation>Qt Linguist &apos;단어장&apos;</translation>
+    </message>
+    <message>
+        <source>Qt translation sources</source>
+        <translation>Qt 번역 원본</translation>
+    </message>
+    <message>
+        <source>XLIFF localization files</source>
+        <translation>XLIFF 번역 파일</translation>
     </message>
 </context>
 <context>
@@ -231,6 +262,14 @@ Will assume a single universal form.</source>
         <source></source>
         <comment>Choose Edit|Find from the menu bar or press Ctrl+F to pop up the Find dialog</comment>
         <translation></translation>
+    </message>
+    <message>
+        <source>Obsoleted messages are skipped when checked.</source>
+        <translation>선택하면 검색할 때 오래된 메시지를 건너뜁니다.</translation>
+    </message>
+    <message>
+        <source>Skip &amp;obsolete</source>
+        <translation>오래된 항목 건너뛰기(&amp;O)</translation>
     </message>
 </context>
 <context>
@@ -1950,6 +1989,10 @@ All files (*)</source>
         <translation>버전 %1</translation>
     </message>
     <message>
+        <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</source>
+        <translation>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist는 Qt 프로그램을 번역하는 도구입니다.&lt;/p&gt;&lt;p&gt;저작권자 (C) %2 The Qt Company Ltd.</translation>
+    </message>
+    <message>
         <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Nokia Corporation and/or its subsidiary(-ies).</source>
         <translation>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist는 Qt 프로그램을 번역하는 도구입니다.&lt;/p&gt;&lt;p&gt;저작권자 (C) 2012 Nokia Corporation and/or its subsidiary(-ies).</translation>
     </message>
@@ -2076,6 +2119,46 @@ All files (*)</source>
     <message>
         <source>All</source>
         <translation>모두</translation>
+    </message>
+    <message>
+        <source>&amp;Zoom</source>
+        <translation>확대/축소(&amp;Z)</translation>
+    </message>
+    <message>
+        <source>Display information about the Qt toolkit by Digia.</source>
+        <translation>Qt 툴킷의 정보를 표시합니다.</translation>
+    </message>
+    <message>
+        <source>Visualize whitespace</source>
+        <translation>공백 문자 시각화</translation>
+    </message>
+    <message>
+        <source>Toggle visualize whitespace in editors</source>
+        <translation>편집기에서 공백 문자 표시를 켜거나 끕니다</translation>
+    </message>
+    <message>
+        <source>Increase</source>
+        <translation>확대</translation>
+    </message>
+    <message>
+        <source>Ctrl++</source>
+        <translation>Ctrl++</translation>
+    </message>
+    <message>
+        <source>Decrease</source>
+        <translation>축소</translation>
+    </message>
+    <message>
+        <source>Ctrl+-</source>
+        <translation>Ctrl+-</translation>
+    </message>
+    <message>
+        <source>Reset to default</source>
+        <translation>기본값으로 초기화</translation>
+    </message>
+    <message>
+        <source>Ctrl+0</source>
+        <translation>Ctrl+0</translation>
     </message>
 </context>
 <context>

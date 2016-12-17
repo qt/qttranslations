@@ -259,6 +259,10 @@ Reason:
         <translation>주소</translation>
     </message>
     <message>
+        <source>Bookmarks Toolbar</source>
+        <translation>책갈피 도구 모음</translation>
+    </message>
+    <message>
         <source>Toolbar Menu</source>
         <translation>도구 모음 메뉴</translation>
     </message>
@@ -583,6 +587,10 @@ Reason:
         <translation>대소문자 구분</translation>
     </message>
     <message>
+        <source>&lt;img src=&quot;:/qt-project.org/assistant/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
+        <translation>&lt;img src=&quot;:/qt-project.org/assistant/images/wrap.png&quot;&gt;&amp;nbsp;검색 다시 시작됨</translation>
+    </message>
+    <message>
         <source>&lt;img src=&quot;:/trolltech/assistant/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
         <translation>&lt;img src=&quot;:/trolltech/assistant/images/wrap.png&quot;&gt;&amp;nbsp;검색 다시 시작됨</translation>
     </message>
@@ -724,6 +732,10 @@ Reason:
         <translation>&lt;title&gt;about:blank&lt;/title&gt;</translation>
     </message>
     <message>
+        <source>&lt;title&gt;Error 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;The page could not be found.&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</source>
+        <translation>&lt;title&gt;404 오류...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;페이지를 찾을 수 없습니다.&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</translation>
+    </message>
+    <message>
         <source>&lt;title&gt;Error 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;The page could not be found&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</source>
         <translation>&lt;title&gt;404 오류...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;페이지를 찾을 수 없음&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</translation>
     </message>
@@ -754,6 +766,22 @@ Reason:
     <message>
         <source>Open Link in New Page</source>
         <translation>새 쪽으로 링크 열기</translation>
+    </message>
+    <message>
+        <source>Error 404...</source>
+        <translation>404 오류...</translation>
+    </message>
+    <message>
+        <source>The page could not be found!</source>
+        <translation>페이지를 찾을 수 없습니다!</translation>
+    </message>
+    <message>
+        <source>Please make sure that you have all documentation sets installed.</source>
+        <translation>모든 문서 모음을 설치했는지 확인하십시오.</translation>
+    </message>
+    <message>
+        <source>Error loading: %1</source>
+        <translation>불러오기 오류: %1</translation>
     </message>
 </context>
 <context>
@@ -1168,6 +1196,10 @@ Reason:
         <translation>연결된 내용을 찾을 수 없습니다.</translation>
     </message>
     <message>
+        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;p&gt;Browser: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</source>
+        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;버전 %2&lt;/p&gt;&lt;p&gt;브라우저: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;저작권자 (C) %4 The Qt Company Ltd.&lt;/p&gt;</translation>
+    </message>
+    <message>
         <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2012 Nokia Corporation and/or its subsidiary(-ies).&lt;/p&gt;</source>
         <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;버전 %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;저작권자 (C) 2012 Nokia Corporation and/or its subsidiary(-ies).&lt;/p&gt;</translation>
     </message>
@@ -1422,6 +1454,10 @@ Do you want to remove it?</source>
         <source>Show tabs for each individual page</source>
         <translation>각각 쪽마다 탭 보이기</translation>
     </message>
+    <message>
+        <source>&lt;Filter&gt;</source>
+        <translation>&lt;필터&gt;</translation>
+    </message>
 </context>
 <context>
     <name>QCollectionGenerator</name>
@@ -1663,6 +1699,10 @@ qhelpgenerator &lt;help-project-file&gt; [옵션]
     <message>
         <source>&amp;Close</source>
         <translation>닫기(&amp;C)</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>필터</translation>
     </message>
     <message>
         <source>Choose a topic for &lt;b&gt;%1&lt;/b&gt;:</source>

@@ -300,9 +300,16 @@
     </message>
     <message>
         <source>Drive mode not supported</source>
-        <extracomment>Drive mode is the camera&apos;s shutter mode, for example single shot, continuos exposure, etc.
-</extracomment>
+        <extracomment>Drive mode is the camera&apos;s shutter mode, for example single shot, continuos exposure, etc.</extracomment>
         <translation>셔터 모드를 지원하지 않음</translation>
+    </message>
+    <message>
+        <source>Failed to capture image</source>
+        <translation>그림을 캡처할 수 없음</translation>
+    </message>
+    <message>
+        <source>Camera preview failed to start.</source>
+        <translation>카메라 미리 보기를 시작할 수 없습니다.</translation>
     </message>
     <message>
         <source>Could not open destination file: %1</source>
@@ -482,6 +489,10 @@
 <context>
     <name>QMediaPlayer</name>
     <message>
+        <source>Attempting to play invalid Qt resource</source>
+        <translation>잘못된 Qt 자원을 재생하려고 함</translation>
+    </message>
+    <message>
         <source>The QMediaPlayer object does not have a valid service</source>
         <translation>QMediaPlayer 객체에 올바른 서비스가 없음</translation>
     </message>
@@ -539,6 +550,18 @@
 <context>
     <name>QPlaylistFileParser</name>
     <message>
+        <source>%1 playlist type is unknown</source>
+        <translation>%1 재생 목록 형식을 알 수 없음</translation>
+    </message>
+    <message>
+        <source>invalid line in playlist file</source>
+        <translation>재생 목록 파일에 잘못된 줄이 있음</translation>
+    </message>
+    <message>
+        <source>Empty file provided</source>
+        <translation>빈 파일을 제공함</translation>
+    </message>
+    <message>
         <source>%1 does not exist</source>
         <translation>%1이(가) 존재하지 않음</translation>
     </message>
@@ -571,6 +594,13 @@
     <message>
         <source>Image saving failed</source>
         <translation>그림을 저장할 수 없음</translation>
+    </message>
+</context>
+<context>
+    <name>QWinRTImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation>JPEG 그림</translation>
     </message>
 </context>
 </TS>

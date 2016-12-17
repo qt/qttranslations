@@ -8,6 +8,10 @@
         <translation>잘못된 블루투스 어댑터 주소</translation>
     </message>
     <message>
+        <source>One or more device discovery methods are not supported on this platform</source>
+        <translation>이 플랫폼에서 하나 이상의 장치 발견 방식을 지원하지 않음</translation>
+    </message>
+    <message>
         <source>Device does not support Bluetooth</source>
         <translation>장치에서 블루투스를 지원하지 않음</translation>
     </message>
@@ -16,8 +20,36 @@
         <translation>전달한 주소가 로컬 장치가 아닙니다.</translation>
     </message>
     <message>
+        <source>Missing Location permission. Search is not possible</source>
+        <translation>위치 권한이 없습니다. 검색할 수 없습니다</translation>
+    </message>
+    <message>
+        <source>Classic Discovery cannot be started</source>
+        <translation>일반 장치 발견을 시작할 수 없음</translation>
+    </message>
+    <message>
+        <source>Low Energy Discovery not supported</source>
+        <translation>LE 장치 발견을 시작할 수 없음</translation>
+    </message>
+    <message>
         <source>Device is powered off</source>
         <translation>장치가 꺼져 있음</translation>
+    </message>
+    <message>
+        <source>Input Output Error</source>
+        <translation>입출력 오류</translation>
+    </message>
+    <message>
+        <source>Bluetooth LE is not supported</source>
+        <translation>블루투스 LE를 지원하지 않음</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>알 수 없는 오류</translation>
+    </message>
+    <message>
+        <source>Cannot start low energy device inquiry</source>
+        <translation>LE 장치 조회를 시작할 수 없음</translation>
     </message>
     <message>
         <source>Discovery cannot be started</source>
@@ -55,9 +87,17 @@
         <source>Cannot access adapter during service discovery</source>
         <translation>서비스 발견 중 어댑터에 접근할 수 없음</translation>
     </message>
+    <message>
+        <source>Device discovery not supported on this platform</source>
+        <translation>이 플랫폼에서 장치 발견을 지원하지 않음</translation>
+    </message>
 </context>
 <context>
     <name>QBluetoothServiceDiscoveryAgent</name>
+    <message>
+        <source>Minimal service discovery failed</source>
+        <translation>최소 서비스 발견 실패</translation>
+    </message>
     <message>
         <source>Invalid Bluetooth adapter address</source>
         <translation>잘못된 블루투스 어댑터 주소</translation>
@@ -455,6 +495,38 @@
         <translation>스캔 인자</translation>
     </message>
     <message>
+        <source>Running Speed and Cadence</source>
+        <translation>달리는 속도와 박자</translation>
+    </message>
+    <message>
+        <source>Cycling Speed and Cadence</source>
+        <translation>사이클 속도와 박자</translation>
+    </message>
+    <message>
+        <source>Multi-Channel Adaptation Protocol - Control</source>
+        <translation>다채널 적응형 프로토콜 - 제어</translation>
+    </message>
+    <message>
+        <source>Cycling Power Control Point</source>
+        <translation>사이클 힘 제어 지점</translation>
+    </message>
+    <message>
+        <source>Server Characteristic Configuration</source>
+        <translation>서버 특징 설정</translation>
+    </message>
+    <message>
+        <source>Environmental Sensing Configuration</source>
+        <translation>환경 감지 설정</translation>
+    </message>
+    <message>
+        <source>Environmental Sensing Measurement</source>
+        <translation>환경 감지 측정</translation>
+    </message>
+    <message>
+        <source>Environmental Sensing Trigger Setting</source>
+        <translation>환경 감지 트리거 설정</translation>
+    </message>
+    <message>
         <source>Running Speed and Cadance</source>
         <translation>달리는 속도와 박자</translation>
     </message>
@@ -469,6 +541,31 @@
     <message>
         <source>Location and Navigation</source>
         <translation>위치와 탐색</translation>
+    </message>
+    <message>
+        <source>Environmental Sensing</source>
+        <translation>환경 감지</translation>
+    </message>
+    <message>
+        <source>Body Composition</source>
+        <translation>체성분 구성</translation>
+    </message>
+    <message>
+        <source>User Data</source>
+        <translation>사용자 데이터</translation>
+    </message>
+    <message>
+        <source>Weight Scale</source>
+        <translation>체중</translation>
+    </message>
+    <message>
+        <source>Bond Management</source>
+        <extracomment>Connection management (Bluetooth)</extracomment>
+        <translation>연결 관리</translation>
+    </message>
+    <message>
+        <source>Continuous Glucose Monitoring</source>
+        <translation>연속적 혈당 측정</translation>
     </message>
     <message>
         <source>Service Discovery Protocol</source>
@@ -572,18 +669,22 @@
     </message>
     <message>
         <source>GAP Device Name</source>
+        <extracomment>GAP: Generic Access Profile (Bluetooth)</extracomment>
         <translation>GAP 장치 이름</translation>
     </message>
     <message>
         <source>GAP Appearance</source>
+        <extracomment>GAP: Generic Access Profile (Bluetooth)</extracomment>
         <translation>GAP 외양</translation>
     </message>
     <message>
         <source>GAP Peripheral Privacy Flag</source>
+        <extracomment>GAP: Generic Access Profile (Bluetooth)</extracomment>
         <translation>GAP 장치 프라이버시 플래그</translation>
     </message>
     <message>
         <source>GAP Reconnection Address</source>
+        <extracomment>GAP: Generic Access Profile (Bluetooth)</extracomment>
         <translation>GAP 재연결 주소</translation>
     </message>
     <message>
@@ -592,6 +693,7 @@
     </message>
     <message>
         <source>GATT Service Changed</source>
+        <extracomment>GATT: _G_eneric _Att_ribute Profile (Bluetooth)</extracomment>
         <translation>GATT 서비스 변경됨</translation>
     </message>
     <message>
@@ -800,6 +902,7 @@
     </message>
     <message>
         <source>HID Information</source>
+        <extracomment>HID: Human Interface Device Profile (Bluetooth)</extracomment>
         <translation>HID 정보</translation>
     </message>
     <message>
@@ -808,6 +911,7 @@
     </message>
     <message>
         <source>HID Control Point</source>
+        <extracomment>HID: Human Interface Device Profile (Bluetooth)</extracomment>
         <translation>HID 제어 지점</translation>
     </message>
     <message>
@@ -832,14 +936,17 @@
     </message>
     <message>
         <source>Record Access Control Point</source>
+        <extracomment>Glucose Sensor patient record database.</extracomment>
         <translation>녹음 접근 제어 지점</translation>
     </message>
     <message>
         <source>RSC Measurement</source>
+        <extracomment>RSC: Running Speed and Cadence</extracomment>
         <translation>RSC 측정</translation>
     </message>
     <message>
         <source>RSC Feature</source>
+        <extracomment>RSC: Running Speed and Cadence</extracomment>
         <translation>RSC 기능</translation>
     </message>
     <message>
@@ -848,10 +955,12 @@
     </message>
     <message>
         <source>CSC Measurement</source>
+        <extracomment>CSC: Cycling Speed and Cadence</extracomment>
         <translation>CSC 측정</translation>
     </message>
     <message>
         <source>CSC Feature</source>
+        <extracomment>CSC: Cycling Speed and Cadence</extracomment>
         <translation>CSC 기능</translation>
     </message>
     <message>
@@ -893,6 +1002,235 @@
     <message>
         <source>LN Control Point</source>
         <translation>LN 제어 지점</translation>
+    </message>
+    <message>
+        <source>Magnetic Declination</source>
+        <extracomment>Angle between geographic and magnetic north</extracomment>
+        <translation>편각</translation>
+    </message>
+    <message>
+        <source>Elevation</source>
+        <extracomment>Above/below sea level</extracomment>
+        <translation>고도</translation>
+    </message>
+    <message>
+        <source>Pressure</source>
+        <translation>기압</translation>
+    </message>
+    <message>
+        <source>Temperature</source>
+        <translation>온도</translation>
+    </message>
+    <message>
+        <source>Humidity</source>
+        <translation>습도</translation>
+    </message>
+    <message>
+        <source>True Wind Speed</source>
+        <extracomment>Wind speed while standing</extracomment>
+        <translation>진풍속</translation>
+    </message>
+    <message>
+        <source>True Wind Direction</source>
+        <translation>진풍향</translation>
+    </message>
+    <message>
+        <source>Apparent Wind Speed</source>
+        <extracomment>Wind speed while observer is moving</extracomment>
+        <translation>겉보기 풍속</translation>
+    </message>
+    <message>
+        <source>Apparent Wind Direction</source>
+        <translation>겉보기 풍향</translation>
+    </message>
+    <message>
+        <source>Gust Factor</source>
+        <extracomment>Factor by which wind gust is stronger than average wind</extracomment>
+        <translation>돌풍 계수</translation>
+    </message>
+    <message>
+        <source>Pollen Concentration</source>
+        <translation>꽃가루 농도</translation>
+    </message>
+    <message>
+        <source>UV Index</source>
+        <translation>자외선 지수</translation>
+    </message>
+    <message>
+        <source>Irradiance</source>
+        <translation>조도</translation>
+    </message>
+    <message>
+        <source>Rainfall</source>
+        <translation>강우</translation>
+    </message>
+    <message>
+        <source>Wind Chill</source>
+        <translation>체감 온도</translation>
+    </message>
+    <message>
+        <source>Heat Index</source>
+        <translation>불쾌 지수</translation>
+    </message>
+    <message>
+        <source>Dew Point</source>
+        <translation>이슬점</translation>
+    </message>
+    <message>
+        <source>Descriptor Value Changed</source>
+        <extracomment>Environmental sensing related</extracomment>
+        <translation>설명자 값 변경됨</translation>
+    </message>
+    <message>
+        <source>Aerobic Heart Rate Lower Limit</source>
+        <translation>유산소 운동 심박수 최소</translation>
+    </message>
+    <message>
+        <source>Aerobic Heart Rate Upper Limit</source>
+        <translation>유산소 운동 심박수 최대</translation>
+    </message>
+    <message>
+        <source>Aerobic Threshold</source>
+        <translation>유산소 운동 기준치</translation>
+    </message>
+    <message>
+        <source>Age</source>
+        <extracomment>Age of person</extracomment>
+        <translation>나이</translation>
+    </message>
+    <message>
+        <source>Anaerobic Heart Rate Lower Limit</source>
+        <translation>무산소 운동 심박수 최소</translation>
+    </message>
+    <message>
+        <source>Anaerobic Heart Rate Upper Limit</source>
+        <translation>무산소 운동 심박수 최대</translation>
+    </message>
+    <message>
+        <source>Anaerobic Threshold</source>
+        <translation>무산소 운동 기준치</translation>
+    </message>
+    <message>
+        <source>Date Of Birth</source>
+        <translation>생일</translation>
+    </message>
+    <message>
+        <source>Date Of Threshold Assessment</source>
+        <translation>기준치 평가일</translation>
+    </message>
+    <message>
+        <source>Email Address</source>
+        <translation>이메일 주소</translation>
+    </message>
+    <message>
+        <source>Fat Burn Heart Rate Lower Limit</source>
+        <translation>지방 소모 심박수 최소</translation>
+    </message>
+    <message>
+        <source>Fat Burn Heart Rate Upper Limit</source>
+        <translation>지방 소모 심박수 최대</translation>
+    </message>
+    <message>
+        <source>First Name</source>
+        <translation>이름</translation>
+    </message>
+    <message>
+        <source>5-Zone Heart Rate Limits</source>
+        <translation>5점 심박수 제한</translation>
+    </message>
+    <message>
+        <source>Gender</source>
+        <translation>성별</translation>
+    </message>
+    <message>
+        <source>Heart Rate Maximum</source>
+        <translation>심박수 최대</translation>
+    </message>
+    <message>
+        <source>Height</source>
+        <extracomment>Height of a person</extracomment>
+        <translation>키</translation>
+    </message>
+    <message>
+        <source>Hip Circumference</source>
+        <translation>엉덩이 둘레</translation>
+    </message>
+    <message>
+        <source>Last Name</source>
+        <translation>성</translation>
+    </message>
+    <message>
+        <source>Maximum Recommended Heart Rate</source>
+        <translation>최대 추천 심박수</translation>
+    </message>
+    <message>
+        <source>Resting Heart Rate</source>
+        <translation>휴식 심박수</translation>
+    </message>
+    <message>
+        <source>Sport Type For Aerobic/Anaerobic Thresholds</source>
+        <translation>유산소/무산소 기준치 운동 종류</translation>
+    </message>
+    <message>
+        <source>3-Zone Heart Rate Limits</source>
+        <translation>3점 심박수 제한</translation>
+    </message>
+    <message>
+        <source>2-Zone Heart Rate Limits</source>
+        <translation>2점 심박수 제한</translation>
+    </message>
+    <message>
+        <source>Oxygen Uptake</source>
+        <translation>산소 흡수율</translation>
+    </message>
+    <message>
+        <source>Waist Circumference</source>
+        <translation>가슴 둘레</translation>
+    </message>
+    <message>
+        <source>Weight</source>
+        <translation>체중</translation>
+    </message>
+    <message>
+        <source>Database Change Increment</source>
+        <extracomment>Environmental sensing related</extracomment>
+        <translation>데이터베이스 변경 증분</translation>
+    </message>
+    <message>
+        <source>User Index</source>
+        <translation>사용자 인덱스</translation>
+    </message>
+    <message>
+        <source>Body Composition Feature</source>
+        <translation>체성분 기능</translation>
+    </message>
+    <message>
+        <source>Body Composition Measurement</source>
+        <translation>체성분 측정</translation>
+    </message>
+    <message>
+        <source>Weight Measurement</source>
+        <translation>체중 측정</translation>
+    </message>
+    <message>
+        <source>User Control Point</source>
+        <translation>사용자 제어 지점</translation>
+    </message>
+    <message>
+        <source>Magnetic Flux Density 2D</source>
+        <translation>자기 선속 밀도 2D</translation>
+    </message>
+    <message>
+        <source>Magnetic Flux Density 3D</source>
+        <translation>자기 선속 밀도 3D</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>언어</translation>
+    </message>
+    <message>
+        <source>Barometric Pressure Trend</source>
+        <translation>기압 경향</translation>
     </message>
     <message>
         <source>Characteristic Extended Properties</source>
@@ -1011,6 +1349,14 @@
         <source>Network Error</source>
         <translation>네트워크 오류</translation>
     </message>
+    <message>
+        <source>Cannot set connection security level</source>
+        <translation>연결 보안 수준을 설정할 수 없음</translation>
+    </message>
+    <message>
+        <source>Network Error: %1</source>
+        <translation>네트워크 오류: %1</translation>
+    </message>
 </context>
 <context>
     <name>QBluetoothTransferReply</name>
@@ -1033,6 +1379,30 @@
     <message>
         <source>Push session cannot be started</source>
         <translation>푸시 세션을 시작할 수 없음</translation>
+    </message>
+    <message>
+        <source>Push session cannot connect</source>
+        <translation>푸시 세션에서 연결할 수 없음</translation>
+    </message>
+    <message>
+        <source>QIODevice cannot be read. Make sure it is open for reading.</source>
+        <translation>QIODevice에서 읽을 수 없습니다. 읽을 수 였도록 열려 있는지 확인하십시오.</translation>
+    </message>
+    <message>
+        <source>Push session failed</source>
+        <translation>푸시 세션 실패</translation>
+    </message>
+    <message>
+        <source>Operation canceled</source>
+        <translation>작업 취소됨</translation>
+    </message>
+    <message>
+        <source>Transfer already started</source>
+        <translation>전송이 이미 시작됨</translation>
+    </message>
+    <message>
+        <source>Push service not found</source>
+        <translation>푸시 서비스를 찾을 수 없음</translation>
     </message>
     <message>
         <source>Resurce busy.</source>
@@ -1075,6 +1445,14 @@
     <message>
         <source>Unknown Error</source>
         <translation>알 수 없는 오류</translation>
+    </message>
+    <message>
+        <source>Error occurred trying to connect to remote device.</source>
+        <translation>원격 장치에 연결을 시도하는 중 오류가 발생했습니다.</translation>
+    </message>
+    <message>
+        <source>Error occurred trying to start advertising</source>
+        <translation>알림을 시작하는 중 오류 발생</translation>
     </message>
 </context>
 </TS>

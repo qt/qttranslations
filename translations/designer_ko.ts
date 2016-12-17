@@ -20,6 +20,10 @@
         <translation>단어 단위로(&amp;W)</translation>
     </message>
     <message>
+        <source>&lt;img src=&quot;:/qt-project.org/shared/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
+        <translation>&lt;img src=&quot;:/qt-project.org/shared/images/wrap.png&quot;&gt;&amp;nbsp;검색 다시 시작됨</translation>
+    </message>
+    <message>
         <source>&lt;img src=&quot;:/trolltech/shared/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
         <translation>&lt;img src=&quot;:/trolltech/shared/images/wrap.png&quot;&gt;&amp;nbsp;검색 다시 시작됨</translation>
     </message>
@@ -870,20 +874,12 @@
     <name>FormBuilder</name>
     <message>
         <source>Invalid stretch value for &apos;%1&apos;: &apos;%2&apos;</source>
-        <extracomment>Parsing layout stretch values
-----------
-Parsing layout stretch values
-----------
-Parsing layout stretch values</extracomment>
+        <extracomment>Parsing layout stretch values</extracomment>
         <translation>&apos;%1&apos;의 stretch 값이 잘못됨: &apos;%2&apos;</translation>
     </message>
     <message>
         <source>Invalid minimum size for &apos;%1&apos;: &apos;%2&apos;</source>
-        <extracomment>Parsing grid layout minimum size values
-----------
-Parsing grid layout minimum size values
-----------
-Parsing grid layout minimum size values</extracomment>
+        <extracomment>Parsing grid layout minimum size values</extracomment>
         <translation>&apos;%1&apos;의 최소 크기가 잘못됨: &apos;%2&apos;</translation>
     </message>
 </context>
@@ -910,6 +906,22 @@ Parsing grid layout minimum size values</extracomment>
     <message>
         <source>Default Grid</source>
         <translation>기본 격자</translation>
+    </message>
+    <message>
+        <source>Object Naming Convention</source>
+        <translation>객체 이름 규칙</translation>
+    </message>
+    <message>
+        <source>Naming convention used for generating action object names from their text</source>
+        <translation>텍스트에서 동작 객체 이름을 생성할 때 사용할 규칙</translation>
+    </message>
+    <message>
+        <source>Camel Case</source>
+        <translation>캐멀 케이스</translation>
+    </message>
+    <message>
+        <source>Underscore</source>
+        <translation>밑줄</translation>
     </message>
 </context>
 <context>
@@ -1008,8 +1020,80 @@ Parsing grid layout minimum size values</extracomment>
 <context>
     <name>IconSelector</name>
     <message>
+        <source>The pixmap file &apos;%1&apos; cannot be read.</source>
+        <translation>픽스맵 파일 &apos;%1&apos;을(를) 읽을 수 없습니다.</translation>
+    </message>
+    <message>
+        <source>The file &apos;%1&apos; does not appear to be a valid pixmap file: %2</source>
+        <translation>파일 &apos;%1&apos;은(는) 올바른 픽스맵 파일 같지 않습니다: %2</translation>
+    </message>
+    <message>
+        <source>The file &apos;%1&apos; could not be read: %2</source>
+        <translation>파일 &apos;%1&apos;을(를) 읽을 수 없습니다: %2</translation>
+    </message>
+    <message>
         <source>All Pixmaps (</source>
         <translation>모든 픽스맵 (</translation>
+    </message>
+    <message>
+        <source>Choose a Pixmap</source>
+        <translation>픽스맵 선택</translation>
+    </message>
+    <message>
+        <source>Pixmap Read Error</source>
+        <translation>픽스맵 읽기 오류</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+    <message>
+        <source>Normal Off</source>
+        <translation>일반 꺼짐</translation>
+    </message>
+    <message>
+        <source>Normal On</source>
+        <translation>일반 켜짐</translation>
+    </message>
+    <message>
+        <source>Disabled Off</source>
+        <translation>사용 불가능 꺼짐</translation>
+    </message>
+    <message>
+        <source>Disabled On</source>
+        <translation>사용 불가능 켜짐</translation>
+    </message>
+    <message>
+        <source>Active Off</source>
+        <translation>활성 꺼짐</translation>
+    </message>
+    <message>
+        <source>Active On</source>
+        <translation>활성 켜짐</translation>
+    </message>
+    <message>
+        <source>Selected Off</source>
+        <translation>선택 꺼짐</translation>
+    </message>
+    <message>
+        <source>Selected On</source>
+        <translation>선택 켜짐</translation>
+    </message>
+    <message>
+        <source>Choose Resource...</source>
+        <translation>리소스 선택...</translation>
+    </message>
+    <message>
+        <source>Choose File...</source>
+        <translation>파일 선택...</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>초기화</translation>
+    </message>
+    <message>
+        <source>Reset All</source>
+        <translation>모두 초기화</translation>
     </message>
 </context>
 <context>
@@ -1192,8 +1276,20 @@ Parsing grid layout minimum size values</extracomment>
         <translation>UI 파일의 %1번째 줄, %2번째 칸을 읽는 중 오류가 발생하였습니다: %3</translation>
     </message>
     <message>
+        <source>This file was created using Designer from Qt-%1 and cannot be read.</source>
+        <translation>이 파일은 Qt %1의 Designer로 만들었기 때문에 읽을 수 없습니다.</translation>
+    </message>
+    <message>
+        <source>This file cannot be read because it was created using %1.</source>
+        <translation>이 파일은 %1을(를) 사용하여 만들었기 때문에 읽을 수 없습니다.</translation>
+    </message>
+    <message>
         <source>Invalid UI file: The root element &lt;ui&gt; is missing.</source>
         <translation>잘못된 UI 파일: root 원소 &lt;ui&gt;가 없습니다.</translation>
+    </message>
+    <message>
+        <source>Invalid UI file</source>
+        <translation>잘못된 UI 파일</translation>
     </message>
     <message>
         <source>The creation of a widget of the class &apos;%1&apos; failed.</source>
@@ -1497,6 +1593,10 @@ Do you want to update the file location or generate a new form?</source>
     <message>
         <source>&amp;New Form</source>
         <translation>새 폼 생성(&amp;N)</translation>
+    </message>
+    <message>
+        <source>Qt Designer</source>
+        <translation>Qt Designer</translation>
     </message>
     <message>
         <source>Save Form?</source>
@@ -1886,6 +1986,10 @@ Container pages should only be added by specifying them in XML returned by the d
         <translation>Designer가 마지막으로 실행되었을 때 올바르게 종료되지 않았으며, 백업 파일이 생성되었습니다. 백업 파일을 불러오시겠습니까?</translation>
     </message>
     <message>
+        <source>The file &lt;b&gt;%1&lt;/b&gt; could not be opened: %2</source>
+        <translation>파일 &lt;b&gt;%1&lt;/b&gt;을(를) 열 수 없습니다: %2</translation>
+    </message>
+    <message>
         <source>The file &lt;b&gt;%1&lt;/b&gt; could not be opened.</source>
         <translation>파일 &lt;b&gt;%1&lt;/b&gt;을(를) 열 수 없습니다.</translation>
     </message>
@@ -1898,11 +2002,7 @@ Container pages should only be added by specifying them in XML returned by the d
     <name>QFormBuilder</name>
     <message>
         <source>An empty class name was passed on to %1 (object name: &apos;%2&apos;).</source>
-        <extracomment>Empty class name passed to widget factory method
-----------
-Empty class name passed to widget factory method
-----------
-Empty class name passed to widget factory method</extracomment>
+        <extracomment>Empty class name passed to widget factory method</extracomment>
         <translation>%1(객체 이름: &apos;%2&apos;)에 빈 클래스 이름이 전달되었습니다.</translation>
     </message>
     <message>
@@ -2901,6 +3001,10 @@ to
         <source>Copy Path</source>
         <translation>경로 복사</translation>
     </message>
+    <message>
+        <source>Filter</source>
+        <translation>필터</translation>
+    </message>
 </context>
 <context>
     <name>QtResourceViewDialog</name>
@@ -3256,6 +3360,10 @@ Do you want overwrite the template?</source>
         <translation>&lt;br/&gt;Qt Designer는 Qt 프로그램의 그래픽 사용자 인터페이스 디자이너입니다.&lt;br/&gt;</translation>
     </message>
     <message>
+        <source>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</source>
+        <translation>%1&lt;br/&gt;저작권자 (C) %2 The Qt Company Ltd.</translation>
+    </message>
+    <message>
         <source>%1&lt;br/&gt;Copyright (C) 2012 Nokia Corporation and/or its subsidiary(-ies).</source>
         <translation>%1&lt;br/&gt;저작권자 (C) 2012 Nokia Corporation and/or its subsidiary(-ies).</translation>
     </message>
@@ -3302,8 +3410,19 @@ Do you want overwrite the template?</source>
 <context>
     <name>WidgetDataBase</name>
     <message>
+        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
+        <translation>사용자 정의 위젯 플러그인의 전체 클래스 이름(%1)이 기존의 클래스 이름과 일치합니다.</translation>
+    </message>
+    <message>
         <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
         <translation>이 파일에는 사용자 정의 위젯 &apos;%1&apos;이(가) 포함되어 있으며, 정의된 기본 클래스(%2)가 위젯 데이터베이스의 항목(%3)에 정의된 것과 다릅니다. 위젯 데이터베이스는 변경되지 않았습니다.</translation>
+    </message>
+</context>
+<context>
+    <name>qdesigner_internal</name>
+    <message>
+        <source>%1 Widget</source>
+        <translation>%1 위젯</translation>
     </message>
 </context>
 <context>
@@ -3355,6 +3474,10 @@ Do you want overwrite the template?</source>
     <message>
         <source>Detailed View</source>
         <translation>자세히 보기</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>필터</translation>
     </message>
     <message>
         <source>New action</source>
@@ -4039,6 +4162,14 @@ Do you want overwrite the template?</source>
     <message>
         <source>Delete</source>
         <translation>삭제</translation>
+    </message>
+    <message>
+        <source>Invalid form</source>
+        <translation>잘못된 폼</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;This file contains top level spacers.&lt;br/&gt;They will &lt;b&gt;not&lt;/b&gt; be saved.&lt;/p&gt;&lt;p&gt;Perhaps you forgot to create a layout?&lt;/p&gt;</source>
+        <translation>&lt;p&gt;이 파일에는 최상위 단계 스페이서가 포함되어 있습니다.&lt;br/&gt;이들은 폼에 저장되지 &lt;b&gt;않았습니다&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;레이아웃을 만들지 않으셨습니까?&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -4929,46 +5060,57 @@ ate the goose who was loose.</source>
     <name>qdesigner_internal::PreviewWidget</name>
     <message>
         <source>Preview Window</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>미리 보기 창</translation>
     </message>
     <message>
         <source>LineEdit</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>라인 편집기</translation>
     </message>
     <message>
         <source>ComboBox</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>콤보 상자</translation>
     </message>
     <message>
         <source>PushButton</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>누름 단추</translation>
     </message>
     <message>
         <source>ButtonGroup2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>단추 그룹 2</translation>
     </message>
     <message>
         <source>CheckBox1</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>체크 상자 1</translation>
     </message>
     <message>
         <source>CheckBox2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>체크 상자 2</translation>
     </message>
     <message>
         <source>ButtonGroup</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>단추 그룹</translation>
     </message>
     <message>
         <source>RadioButton1</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>라디오 단추 1</translation>
     </message>
     <message>
         <source>RadioButton2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>라디오 단추 2</translation>
     </message>
     <message>
         <source>RadioButton3</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>라디오 단추 3</translation>
     </message>
 </context>
@@ -5055,6 +5197,10 @@ ate the goose who was loose.</source>
     <message>
         <source>Configure Property Editor</source>
         <translation>속성 편집기 설정</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>필터</translation>
     </message>
     <message>
         <source>Object: %1
@@ -5399,6 +5545,10 @@ Class: %2</source>
     <message>
         <source>Justify</source>
         <translation>양쪽 맞춤</translation>
+    </message>
+    <message>
+        <source>Right to Left</source>
+        <translation>오른쪽에서 왼쪽</translation>
     </message>
     <message>
         <source>Superscript</source>
@@ -5799,6 +5949,10 @@ Class: %2</source>
     <message>
         <source>Warning: Widget creation failed in the widget box. This could be caused by invalid custom widget XML.</source>
         <translation>경고: 위젯 상자에 위젯을 만들 수 없습니다. 잘못된 사용자 정의 위젯 XML 때문일 수 있습니다.</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>필터</translation>
     </message>
 </context>
 <context>

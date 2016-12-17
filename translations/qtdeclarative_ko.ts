@@ -32,6 +32,14 @@
         <translation>중복된 기본 속성</translation>
     </message>
     <message>
+        <source>Duplicate alias name</source>
+        <translation>중복된 별명 이름</translation>
+    </message>
+    <message>
+        <source>Alias names cannot begin with an upper case letter</source>
+        <translation>별명 이름은 대문자로 시작할 수 없음</translation>
+    </message>
+    <message>
         <source>Property value set multiple times</source>
         <translation>속성 값이 여러 번 설정됨</translation>
     </message>
@@ -47,15 +55,15 @@
     <name>QQmlAnonymousComponentResolver</name>
     <message>
         <source>Component objects cannot declare new functions.</source>
-        <translation>컴포넌트 개체에서는 새로운 함수를 정의할 수 없습니다.</translation>
+        <translation>컴포넌트 객체에서는 새로운 함수를 정의할 수 없습니다.</translation>
     </message>
     <message>
         <source>Component objects cannot declare new properties.</source>
-        <translation>컴포넌트 개체에서는 새로운 속성을 정의할 수 없습니다.</translation>
+        <translation>컴포넌트 객체에서는 새로운 속성을 정의할 수 없습니다.</translation>
     </message>
     <message>
         <source>Component objects cannot declare new signals.</source>
-        <translation>컴포넌트 개체에서는 새로운 시그널을 정의할 수 없습니다.</translation>
+        <translation>컴포넌트 객체에서는 새로운 시그널을 정의할 수 없습니다.</translation>
     </message>
     <message>
         <source>Cannot create empty component specification</source>
@@ -74,8 +82,16 @@
         <translation>중복되는 id가 있음</translation>
     </message>
     <message>
+        <source>Circular alias reference detected</source>
+        <translation>순환 별명 참조 감지됨</translation>
+    </message>
+    <message>
         <source>Invalid alias reference. Unable to find id &quot;%1&quot;</source>
         <translation>잘못된 별명 참조. id &quot;%1&quot;을(를) 찾을 수 없음</translation>
+    </message>
+    <message>
+        <source>Invalid alias target location: %1</source>
+        <translation>잘못된 별명 대상 위치: %1</translation>
     </message>
     <message>
         <source>Invalid alias location</source>
@@ -168,7 +184,7 @@
     </message>
     <message>
         <source>Connections: nested objects not allowed</source>
-        <translation>연결: 중첩된 개체를 사용할 수 없음</translation>
+        <translation>연결: 중첩된 객체를 사용할 수 없음</translation>
     </message>
     <message>
         <source>Connections: syntax error</source>
@@ -177,6 +193,75 @@
     <message>
         <source>Connections: script expected</source>
         <translation>연결: 스크립트가 필요함</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlDebugServerImpl</name>
+    <message>
+        <source>QML Debugger: Invalid argument &quot;%1&quot; detected. Ignoring the same.</source>
+        <translation>QML 디버거: 잘못된 인자 &quot;%1&quot;이(가) 감지되었습니다. 해당 인자를 무시합니다.</translation>
+    </message>
+    <message>
+        <source>QML Debugger: Ignoring &quot;-qmljsdebugger=%1&quot;.</source>
+        <translation>QML 디버거: &quot;-qmljsdebugger=%1&quot; 인자를 무시합니다.</translation>
+    </message>
+    <message>
+        <source>The format is &quot;-qmljsdebugger=[file:&lt;file&gt;|port:&lt;port_from&gt;][,&lt;port_to&gt;][,host:&lt;ip address&gt;][,block][,services:&lt;service&gt;][,&lt;service&gt;]*&quot;</source>
+        <translation>올바른 형식은 &quot;-qmljsdebugger=[file:&lt;file&gt;|port:&lt;port_from&gt;][,&lt;port_to&gt;][,host:&lt;ip address&gt;][,block][,services:&lt;service&gt;][,&lt;service&gt;]*&quot;입니다</translation>
+    </message>
+    <message>
+        <source>&quot;file:&quot; can be used to specify the name of a file the debugger will try to connect to using a QLocalSocket. If &quot;file:&quot; is given any &quot;host:&quot; and&quot;port:&quot; arguments will be ignored.</source>
+        <translation>&quot;file:&quot; 인자는 디버거에서 QLocalSocket을 통해 연결할 파일입니다. &quot;file:&quot; 인자를 지정하면 &quot;host:&quot; 및 &quot;port:&quot; 인자를 무시합니다.</translation>
+    </message>
+    <message>
+        <source>&quot;host:&quot; and &quot;port:&quot; can be used to specify an address and a single port or a range of ports the debugger will try to bind to with a QTcpServer.</source>
+        <translation>&quot;host:&quot; 및 &quot;port:&quot; 인자는 디버거에서 QTcpServer를 통해 연결할 호스트 주소나 단일 포트 및 포트 범위입니다.</translation>
+    </message>
+    <message>
+        <source>&quot;block&quot; makes the debugger and some services wait for clients to be connected and ready before the first QML engine starts.</source>
+        <translation>&quot;block&quot; 인자를 지정하면 디버거와 일부 서비스가 첫 QML 엔진을 시작할 때까지 클라이언트가 연결되고 준비되기를 기다립니다.</translation>
+    </message>
+    <message>
+        <source>&quot;services:&quot; can be used to specify which debug services the debugger should load. Some debug services interact badly with others. The V4 debugger should not be loaded when using the QML profiler as it will force any V4 engines to use the JavaScript interpreter rather than the JIT. The following debug services are available by default:</source>
+        <translation>&quot;services:&quot; 인자는 디버거에서 불러올 디버그 서비스입니다. 일부 디버그 서비스는 서로간에 간섭을 발생시킬 수 있습니다. QML 프로파일러를 사용하면 V4 엔진이 JIT 대신 자바스크립트 인터프리터를 사용하는 것을 강제하므로, QML 프로파일러를 사용할 때에는 V4 디버거를 불러오지 말아야 합니다. 다음 디버그 서비스를 사용할 수 있습니다:</translation>
+    </message>
+    <message>
+        <source>The QML debugger</source>
+        <translation>QML 디버거</translation>
+    </message>
+    <message>
+        <source>The V4 debugger</source>
+        <translation>V4 디버거</translation>
+    </message>
+    <message>
+        <source>The QML inspector</source>
+        <translation>QML 검사 도구</translation>
+    </message>
+    <message>
+        <source>The QML profiler</source>
+        <translation>QML 프로파일러</translation>
+    </message>
+    <message>
+        <source>Allows the client to delay the starting and stopping of
+		  QML engines until other services are ready. QtCreator
+		  uses this service with the QML profiler in order to
+		  profile multiple QML engines at the same time.</source>
+        <translation>다른 서비스가 준비될 때까지 클라이언트에서 QML 엔진 시작과 정지를
+		  지연시킬 수 있도록 합니다. Qt Creator는 여러 개의
+		  QML 엔진을 동시에 프로파일링할 수 있도록 이 서비스를
+		  QML 프로파일러와 함께 사용합니다.</translation>
+    </message>
+    <message>
+        <source>Sends qDebug() and similar messages over the QML debug
+		  connection. QtCreator uses this for showing debug
+		  messages in the debugger console.</source>
+        <translation>QML 디버그 연결로 qDebug() 및 비슷한 메시지를 전송합니다.
+		  Qt Creator는 디버거 콘솔에 디버그 메시지를
+		  표시할 수 있도록 이 서비스를 사용합니다.</translation>
+    </message>
+    <message>
+        <source>Other services offered by qmltooling plugins that implement QQmlDebugServiceFactory and which can be found in the standard plugin paths will also be available and can be specified. If no &quot;services&quot; argument is given, all services found this way, including the default ones, are loaded.</source>
+        <translation>표준 플러그인 경로에서 찾을 수 있는 QQmlDebugServiceFactory를 구현하는 qmltooling 플러그인도 사용할 수 있으며 여기에 지정할 수 있습니다. &quot;services&quot; 인자를 지정하지 않으면 기본 서비스를 포함하여 여기에 해당하는 모든 서비스를 불러옵니다.</translation>
     </message>
 </context>
 <context>
@@ -335,6 +420,10 @@
 <context>
     <name>QQmlEnumTypeResolver</name>
     <message>
+        <source>Invalid property assignment: Enum value &quot;%1&quot; cannot start with a lowercase letter</source>
+        <translation>잘못된 속성 대입: 열거형 값 &quot;%1&quot;은(는) 소문자로 시작할 수 없음</translation>
+    </message>
+    <message>
         <source>Invalid property assignment: &quot;%1&quot; is a read-only property</source>
         <translation>잘못된 속성 대입: &quot;%1&quot;은(는) 읽기 전용 속성</translation>
     </message>
@@ -396,6 +485,10 @@
     <message>
         <source>module &quot;%1&quot; plugin &quot;%2&quot; not found</source>
         <translation>모듈 &quot;%1&quot;의 플러그인 &quot;%2&quot;을(를) 찾을 수 없음</translation>
+    </message>
+    <message>
+        <source>library loading is disabled</source>
+        <translation>라이브러리 불러오기가 비활성화됨</translation>
     </message>
     <message>
         <source>&quot;%1&quot; version %2.%3 is defined more than once in module &quot;%4&quot;</source>
@@ -466,7 +559,7 @@
     </message>
     <message>
         <source>insert: value is not an object</source>
-        <translation>insert: 값이 개체가 아님</translation>
+        <translation>insert: 값이 객체가 아님</translation>
     </message>
     <message>
         <source>move: out of range</source>
@@ -474,11 +567,11 @@
     </message>
     <message>
         <source>append: value is not an object</source>
-        <translation>append: 값이 개체가 아님</translation>
+        <translation>append: 값이 객체가 아님</translation>
     </message>
     <message>
         <source>set: value is not an object</source>
-        <translation>set: 값이 개체가 아님</translation>
+        <translation>set: 값이 객체가 아님</translation>
     </message>
     <message>
         <source>set: index %1 out of range</source>
@@ -513,11 +606,11 @@
     </message>
     <message>
         <source>Cannot assign an object to signal property %1</source>
-        <translation>개체를 시그널 속성 %1에 할당할 수 없음</translation>
+        <translation>객체를 시그널 속성 %1에 할당할 수 없음</translation>
     </message>
     <message>
         <source>Cannot assign object type %1 with no default method</source>
-        <translation>개체 타입 %1에 기본 메서드를 지정하지 않고 할당할 수 없음</translation>
+        <translation>객체 형식 %1에 기본 메서드를 지정하지 않고 할당할 수 없음</translation>
     </message>
     <message>
         <source>Cannot connect mismatched signal/slot %1 %vs. %2</source>
@@ -525,7 +618,7 @@
     </message>
     <message>
         <source>Cannot assign object to interface property</source>
-        <translation>개체를 인터페이스 속성에 할당할 수 없음</translation>
+        <translation>객체를 인터페이스 속성에 할당할 수 없음</translation>
     </message>
     <message>
         <source>Cannot assign object to read only list</source>
@@ -537,11 +630,26 @@
     </message>
     <message>
         <source>Unable to create object of type %1</source>
-        <translation>형식 %1인 개체를 만들 수 없음</translation>
+        <translation>형식 %1인 객체를 만들 수 없음</translation>
     </message>
     <message>
         <source>Composite Singleton Type %1 is not creatable</source>
         <translation>복합 싱글톤 형식 %1을(를) 만들 수 없음</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlObjectModel</name>
+    <message>
+        <source>insert: index %1 out of range</source>
+        <translation>insert: 인덱스 %1이(가) 범위를 벗어남</translation>
+    </message>
+    <message>
+        <source>move: out of range</source>
+        <translation>move: 범위를 벗어남</translation>
+    </message>
+    <message>
+        <source>remove: indices [%1 - %2] out of range [0 - %3]</source>
+        <translation>remove: 인덱스 [%1 - %2]이(가) 범위 [0 - %3]을(를) 벗어남</translation>
     </message>
 </context>
 <context>
@@ -572,7 +680,7 @@
     </message>
     <message>
         <source>Unexpected object definition</source>
-        <translation>예상하지 못한 개체 선언</translation>
+        <translation>예상하지 못한 객체 선언</translation>
     </message>
     <message>
         <source>Invalid import qualifier ID</source>
@@ -734,6 +842,45 @@
     </message>
 </context>
 <context>
+    <name>QQmlPropertyCacheCreatorBase</name>
+    <message>
+        <source>Fully dynamic types cannot declare new properties.</source>
+        <translation>완전 동적 형식에서는 새로운 속성을 선언할 수 없습니다.</translation>
+    </message>
+    <message>
+        <source>Fully dynamic types cannot declare new signals.</source>
+        <translation>완전 동적 형식에서는 새로운 시그널을 선언할 수 없습니다.</translation>
+    </message>
+    <message>
+        <source>Fully Dynamic types cannot declare new functions.</source>
+        <translation>완전 동적 형식에서는 새로운 함수를 선언할 수 없습니다.</translation>
+    </message>
+    <message>
+        <source>Non-existent attached object</source>
+        <translation>존재하지 않는 첨부된 객체</translation>
+    </message>
+    <message>
+        <source>Cannot override FINAL property</source>
+        <translation>FINAL 속성을 재정의할 수 없음</translation>
+    </message>
+    <message>
+        <source>Invalid signal parameter type: %1</source>
+        <translation>잘못된 시그널 인자 종류: %1</translation>
+    </message>
+    <message>
+        <source>Duplicate signal name: invalid override of property change signal or superclass signal</source>
+        <translation>중복된 시그널 이름: 속성 변경 시그널이나 상위 클래스의 시그널을 잘못 재정의함</translation>
+    </message>
+    <message>
+        <source>Duplicate method name: invalid override of property change signal or superclass signal</source>
+        <translation>중복된 메서드 이름: 속성 변경 시그널이나 상위 클래스의 시그널을 잘못 재정의함</translation>
+    </message>
+    <message>
+        <source>Invalid property type</source>
+        <translation>잘못된 속성 형식</translation>
+    </message>
+</context>
+<context>
     <name>QQmlPropertyValidator</name>
     <message>
         <source>Property assignment expected</source>
@@ -745,7 +892,7 @@
     </message>
     <message>
         <source>Invalid attached object assignment</source>
-        <translation>잘못된 첨부된 개체 할당</translation>
+        <translation>잘못된 첨부된 객체 할당</translation>
     </message>
     <message>
         <source>&quot;%1.%2&quot; is not available in %3 %4.%5.</source>
@@ -860,12 +1007,20 @@
         <translation>잘못된 속성 대입: 참/거짓이 필요함</translation>
     </message>
     <message>
+        <source>Invalid property assignment: 2D vector expected</source>
+        <translation>잘못된 속성 대입: 2차원 벡터가 필요함</translation>
+    </message>
+    <message>
         <source>Invalid property assignment: 3D vector expected</source>
         <translation>잘못된 속성 대입: 3차원 벡터가 필요함</translation>
     </message>
     <message>
         <source>Invalid property assignment: 4D vector expected</source>
-        <translation>잘못된 속성 대입: 3차원 벡터가 필요함 {4D?}</translation>
+        <translation>잘못된 속성 대입: 4차원 벡터가 필요함</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: quaternion expected</source>
+        <translation>잘못된 속성 대입: 사원수가 필요함</translation>
     </message>
     <message>
         <source>Invalid property assignment: regular expression expected; use /pattern/ syntax</source>
@@ -900,12 +1055,16 @@
         <translation>&quot;%1&quot;은(는) &quot;%2&quot;에서 작동할 수 없음</translation>
     </message>
     <message>
+        <source>Cannot assign object to list property &quot;%1&quot;</source>
+        <translation>객체를 목록 속성 &quot;%1&quot;에 할당할 수 없음</translation>
+    </message>
+    <message>
         <source>Cannot assign object to list</source>
         <translation>개체를 목록에 할당할 수 없음</translation>
     </message>
     <message>
         <source>Unexpected object assignment</source>
-        <translation>예상하지 못한 개체 할당</translation>
+        <translation>예상하지 못한 객체 할당</translation>
     </message>
     <message>
         <source>Invalid property assignment: script expected</source>
@@ -913,7 +1072,7 @@
     </message>
     <message>
         <source>Cannot assign object to property</source>
-        <translation>개체를 속성에 할당할 수 없음</translation>
+        <translation>객체를 속성에 할당할 수 없음</translation>
     </message>
 </context>
 <context>
@@ -929,6 +1088,17 @@
 </context>
 <context>
     <name>QQmlTypeCompiler</name>
+    <message>
+        <source>Composite Singleton Type %1 is not creatable.</source>
+        <translation>복합 싱글톤 형식 %1을(를) 만들 수 없습니다.</translation>
+    </message>
+    <message>
+        <source>Element is not creatable.</source>
+        <translation>원소를 만들 수 없습니다.</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlTypeData</name>
     <message>
         <source>Composite Singleton Type %1 is not creatable.</source>
         <translation>복합 싱글톤 형식 %1을(를) 만들 수 없습니다.</translation>
@@ -1094,6 +1264,17 @@
     </message>
 </context>
 <context>
+    <name>QQuickEnterKeyAttached</name>
+    <message>
+        <source>EnterKey attached property only works with Items</source>
+        <translation>EnterKey 첨부된 속성은 Item에서만 동작함</translation>
+    </message>
+    <message>
+        <source>EnterKey is only available via attached properties</source>
+        <translation>EnterKeys는 첨부된 속성을 통해서만 사용할 수 있음</translation>
+    </message>
+</context>
+<context>
     <name>QQuickFlipable</name>
     <message>
         <source>front is a write-once property</source>
@@ -1102,6 +1283,13 @@
     <message>
         <source>back is a write-once property</source>
         <translation>back은 한 번만 쓸 수 있는 속성임</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickGraphicsInfo</name>
+    <message>
+        <source>GraphicsInfo is only available via attached properties</source>
+        <translation>GraphicsInfo는 첨부된 속성을 통해서만 사용할 수 있음</translation>
     </message>
 </context>
 <context>
@@ -1139,12 +1327,23 @@
         <source>LayoutMirroring is only available via attached properties</source>
         <translation>LayoutMirroring은 첨부된 속성을 통해서만 사용할 수 있음</translation>
     </message>
+    <message>
+        <source>LayoutDirection attached property only works with Items and Windows</source>
+        <translation>첨부된 속성 LayoutDirection은 Item이나 Window에서만 동작함</translation>
+    </message>
 </context>
 <context>
     <name>QQuickLoader</name>
     <message>
         <source>setSource: value is not an object</source>
-        <translation>setSource: 값이 개체가 아님</translation>
+        <translation>setSource: 값이 객체가 아님</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickMouseEvent</name>
+    <message>
+        <source>MouseEvent is only available within handlers in MouseArea</source>
+        <translation>MouseEvent는 MouseArea의 핸들러에서만 사용할 수 있음</translation>
     </message>
 </context>
 <context>
@@ -1250,7 +1449,7 @@
     <name>QQuickPropertyChanges</name>
     <message>
         <source>PropertyChanges does not support creating state-specific objects.</source>
-        <translation>PropertyChanges는 상태별 개체를 만들 수 없습니다.</translation>
+        <translation>PropertyChanges는 상태별 객체를 만들 수 없습니다.</translation>
     </message>
     <message>
         <source>Cannot assign to non-existent property &quot;%1&quot;</source>
@@ -1300,8 +1499,7 @@
 This is most likely caused by not having the necessary graphics drivers installed.
 
 Install a driver providing OpenGL 2.0 or higher, or, if this is not possible, make sure the ANGLE Open GL ES 2.0 emulation libraries (%3, %4 and d3dcompiler_*.dll) are available in the application executable&apos;s directory or in a location listed in PATH.</source>
-        <extracomment>%1 Context type (Open GL, EGL), %2 format, ANGLE %3, %4 library names
-</extracomment>
+        <extracomment>%1 Context type (Open GL, EGL), %2 format, ANGLE %3, %4 library names</extracomment>
         <translation>형식 %2에 대한 %1 컨텍스트를 생성할 수 없습니다.
 필요한 그래픽 드라이버가 설치되어 있지 않을 수도 있습니다.
 
@@ -1309,8 +1507,7 @@ OpenGL 2.0 이상을 지원하는 드라이버를 설치하시거나, 해당 드
     </message>
     <message>
         <source>Failed to create %1 context for format %2</source>
-        <extracomment>%1 Context type (Open GL, EGL), %2 format specification
-</extracomment>
+        <extracomment>%1 Context type (Open GL, EGL), %2 format specification</extracomment>
         <translation>형식 %2에 대한 %1 컨텍스트를 생성할 수 없음</translation>
     </message>
 </context>
@@ -1354,7 +1551,7 @@ OpenGL 2.0 이상을 지원하는 드라이버를 설치하시거나, 해당 드
     <name>SignalHandlerConverter</name>
     <message>
         <source>Non-existent attached object</source>
-        <translation>존재하지 않는 첨부된 개체</translation>
+        <translation>존재하지 않는 첨부된 객체</translation>
     </message>
     <message>
         <source>Signal uses unnamed parameter followed by named parameter.</source>
@@ -1379,6 +1576,21 @@ OpenGL 2.0 이상을 지원하는 드라이버를 설치하시거나, 해당 드
     <message>
         <source>Incorrectly specified signal assignment</source>
         <translation>잘못 지정된 시그널 할당</translation>
+    </message>
+</context>
+<context>
+    <name>SignalTransition</name>
+    <message>
+        <source>Specified signal does not exist.</source>
+        <translation>지정한 시그널이 존재하지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Cannot assign to non-existent property &quot;%1&quot;</source>
+        <translation>존재하지 않는 속성 &quot;%1&quot;에 할당할 수 없음</translation>
+    </message>
+    <message>
+        <source>SignalTransition: script expected</source>
+        <translation>SignalTransition: 스크립트가 필요함</translation>
     </message>
 </context>
 <context>
