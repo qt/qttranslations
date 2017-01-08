@@ -1871,8 +1871,8 @@ Haluatko silti poistaa sen?</translation>
         <translation>”%1” on virheellinen ELF-objekti (%2)</translation>
     </message>
     <message>
-        <source>Plugin verification data mismatch in &apos;%1&apos;</source>
-        <translation>Liitännäisen varmennus ei täsmää kirjastossa ”%1”</translation>
+        <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
+        <translation>Liitännäismetatietojen saaminen kirjastosta ”%1” epäonnistui</translation>
     </message>
     <message>
         <source>The shared library was not found.</source>
@@ -2215,34 +2215,24 @@ Haluatko silti poistaa sen?</translation>
         <translation>Piilota yksityiskohdat…</translation>
     </message>
     <message>
-        <source>OK</source>
-        <translation>OK</translation>
-    </message>
-    <message>
-        <source>Help</source>
-        <translation>Ohje</translation>
-    </message>
-    <message>
-        <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
-        <translation>&lt;h3&gt;Tietoja Qt:stä&lt;/h3&gt;&lt;p&gt;Tämä ohjelma käyttää Qt-versiota %1.&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3 or GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Qt on C++-työkalupaketti alustariippumattomaan sovelluskehitykseen.&lt;/p&gt;
 &lt;p&gt;Qt tarjoaa saman lähdekoodin siirrettävyyden kaikkiin merkittäviin työpöytäkäyttöjärjestelmiin.
 Qt on myös saatavilla sulautetulle Linuxille ja muille mobiili- sekä sulautetuille käyttöjärjestelmille.&lt;/p&gt;
 &lt;p&gt;Qt on saatavilla kolmella eri lisenssillä, jotka on tarkoitettu vastaamaan erilaisten käyttäjien tarpeisiin.&lt;/p&gt;
 &lt;p&gt;Kaupallisen lisenssisopimuksen ehtojen mukaisesti lisensoitu Qt sopii omisteisen tai kaupallisen ohjelmiston
 kehittämiseen silloin, kun lähdekoodia ei haluta jakaa kolmansille osapuolille tai ei voida muuten noudattaa
-GNU LGPL 3:n tai GNU LGPL 2.1:n ehtoja.&lt;/p&gt;
+GNU LGPL 3:n ehtoja.&lt;/p&gt;
 &lt;p&gt;GNU LGPL 3:n ehtojen mukaisesti lisensoitu Qt sopii Qt-sovellusten kehittämiseen silloin,
 kun GNU LGPL 3:n ehtoja voidaan noudattaa.&lt;/p&gt;
-&lt;p&gt;GNU LGPL 2.1:n ehtojen mukaisesti lisensoitu Qt sopii Qt-sovellusten kehittämiseen silloin,
-kun GNU LGPL 2.1:n ehtoja voidaan noudattaa.&lt;/p&gt;
 &lt;p&gt;Katso yhteenveto Qt-lisensoinnista osoitteesta &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Copyright © %1 The Qt Company Ltd ja/tai sen tytäryhtiö(t) ja muut avustajat.&lt;/p&gt;
 &lt;p&gt;Qt ja Qt-logo ovat The Qt Company Ltd:n ja/tai sen tytäryhtiö(ide)n tavaramerkkejä.&lt;/p&gt;
 &lt;p&gt;Qt on The Qt Company Ltd -tuote, jota kehitetään avoimen lähdekoodin projektina. Katso lisätietoja osoitteesta &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt;.&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
+        <translation>&lt;h3&gt;Tietoja Qt:stä&lt;/h3&gt;&lt;p&gt;Tämä ohjelma käyttää Qt-versiota %1.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About Qt</source>
@@ -4346,6 +4336,13 @@ Poista toinen niistä käytöstä.</translation>
     </message>
 </context>
 <context>
+    <name>QSctpSocket</name>
+    <message>
+        <source>The remote host closed the connection</source>
+        <translation>Palvelin sulki yhteyden</translation>
+    </message>
+</context>
+<context>
     <name>QSharedMemory</name>
     <message>
         <source>%1: unable to set key on lock</source>
@@ -5841,6 +5838,21 @@ Role of an accessible object</extracomment>
     </message>
 </context>
 <context>
+    <name>QSslDiffieHellmanParameter</name>
+    <message>
+        <source>No error</source>
+        <translation>Ei virhettä</translation>
+    </message>
+    <message>
+        <source>Invalid input data</source>
+        <translation>Virheelliset syötetiedot</translation>
+    </message>
+    <message>
+        <source>The given Diffie-Hellman parameters are deemed unsafe</source>
+        <translation>Annetut Diffie-Hellman-parametrit katsotaan turvattomiksi</translation>
+    </message>
+</context>
+<context>
     <name>QSslSocket</name>
     <message>
         <source>Error when setting the elliptic curves (%1)</source>
@@ -5873,6 +5885,10 @@ Role of an accessible object</extracomment>
     <message>
         <source>Private key does not certify public key, %1</source>
         <translation>Yksityinen avain ei varmenna julkista avainta, %1</translation>
+    </message>
+    <message>
+        <source>Diffie-Hellman parameters are not valid</source>
+        <translation>Diffie-Hellman-parametrit eivät ole kelvolliset</translation>
     </message>
     <message>
         <source>OpenSSL version too old, need at least v1.0.2</source>
@@ -6194,6 +6210,17 @@ Role of an accessible object</extracomment>
     <message>
         <source>Could not reset to read data</source>
         <translation>Nollaaminen luettuun dataan epäonnistui</translation>
+    </message>
+</context>
+<context>
+    <name>QUdpSocket</name>
+    <message>
+        <source>Unable to send a datagram</source>
+        <translation>Datagrammin lähetys epäonnistui</translation>
+    </message>
+    <message>
+        <source>No datagram available for reading</source>
+        <translation>Ei datagrammia luettavaksi</translation>
     </message>
 </context>
 <context>

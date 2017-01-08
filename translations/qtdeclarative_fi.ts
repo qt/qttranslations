@@ -33,6 +33,14 @@
         <translation>Duplicate default property</translation>
     </message>
     <message>
+        <source>Duplicate alias name</source>
+        <translation>Duplicate alias name</translation>
+    </message>
+    <message>
+        <source>Alias names cannot begin with an upper case letter</source>
+        <translation>Alias names cannot begin with an upper case letter</translation>
+    </message>
+    <message>
         <source>Property value set multiple times</source>
         <translation>Property value set multiple times</translation>
     </message>
@@ -73,6 +81,10 @@
     <message>
         <source>id is not unique</source>
         <translation>id is not unique</translation>
+    </message>
+    <message>
+        <source>Circular alias reference detected</source>
+        <translation>Circular alias reference detected</translation>
     </message>
     <message>
         <source>Invalid alias reference. Unable to find id &quot;%1&quot;</source>
@@ -801,7 +813,7 @@
     </message>
 </context>
 <context>
-    <name>QQmlPropertyCacheCreator</name>
+    <name>QQmlPropertyCacheCreatorBase</name>
     <message>
         <source>Fully dynamic types cannot declare new properties.</source>
         <translation>Fully dynamic types cannot declare new properties.</translation>
@@ -966,12 +978,20 @@
         <translation>Invalid property assignment: boolean expected</translation>
     </message>
     <message>
+        <source>Invalid property assignment: 2D vector expected</source>
+        <translation>Invalid property assignment: 2D vector expected</translation>
+    </message>
+    <message>
         <source>Invalid property assignment: 3D vector expected</source>
         <translation>Invalid property assignment: 3D vector expected</translation>
     </message>
     <message>
         <source>Invalid property assignment: 4D vector expected</source>
         <translation>Invalid property assignment: 4D vector expected</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: quaternion expected</source>
+        <translation>Invalid property assignment: quaternion expected</translation>
     </message>
     <message>
         <source>Invalid property assignment: regular expression expected; use /pattern/ syntax</source>
@@ -1034,7 +1054,7 @@
     </message>
 </context>
 <context>
-    <name>QQmlTypeCompiler</name>
+    <name>QQmlTypeData</name>
     <message>
         <source>Composite Singleton Type %1 is not creatable.</source>
         <translation>Composite Singleton Type %1 is not creatable.</translation>
@@ -1223,6 +1243,13 @@
     </message>
 </context>
 <context>
+    <name>QQuickGraphicsInfo</name>
+    <message>
+        <source>GraphicsInfo is only available via attached properties</source>
+        <translation>GraphicsInfo is only available via attached properties</translation>
+    </message>
+</context>
+<context>
     <name>QQuickItemView</name>
     <message>
         <source>ItemView is an abstract base class</source>
@@ -1250,12 +1277,12 @@
 <context>
     <name>QQuickLayoutMirroringAttached</name>
     <message>
-        <source>LayoutDirection attached property only works with Items</source>
-        <translation>LayoutDirection attached property only works with Items</translation>
-    </message>
-    <message>
         <source>LayoutMirroring is only available via attached properties</source>
         <translation>LayoutMirroring is only available via attached properties</translation>
+    </message>
+    <message>
+        <source>LayoutDirection attached property only works with Items and Windows</source>
+        <translation>LayoutDirection attached property only works with Items and Windows</translation>
     </message>
 </context>
 <context>
@@ -1505,6 +1532,10 @@ Asenna ajuri, joka tukee OpenGL 2.0:aa tai uudempaa. Mikäli sellaisen asentamin
 </context>
 <context>
     <name>SignalTransition</name>
+    <message>
+        <source>Specified signal does not exist.</source>
+        <translation>Specified signal does not exist.</translation>
+    </message>
     <message>
         <source>Cannot assign to non-existent property &quot;%1&quot;</source>
         <translation>Cannot assign to non-existent property &quot;%1&quot;</translation>
