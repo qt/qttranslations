@@ -1872,7 +1872,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
-        <translation>שגיאה בחילוץ מידע על של תוסף מתוך &apos;%1&apos;</translation>
+        <translation>שגיאה בחילוץ מטה־מידע של תוסף מתוך &apos;%1&apos;</translation>
     </message>
     <message>
         <source>The shared library was not found.</source>
