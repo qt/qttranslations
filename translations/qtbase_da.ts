@@ -1,402 +1,402 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="he_IL">
+<TS version="2.1" language="da">
 <context>
     <name>CloseButton</name>
     <message>
         <source>Close Tab</source>
-        <translation>סגור כרטיסייה</translation>
+        <translation>Luk faneblad</translation>
     </message>
 </context>
 <context>
     <name>MAC_APPLICATION_MENU</name>
     <message>
         <source>Services</source>
-        <translation>שירותים</translation>
+        <translation>Tjenester</translation>
     </message>
     <message>
         <source>Hide %1</source>
-        <translation>הסתר את %1</translation>
+        <translation>Skjul %1</translation>
     </message>
     <message>
         <source>Hide Others</source>
-        <translation>הסתר את האחרים</translation>
+        <translation>Skjul andre</translation>
     </message>
     <message>
         <source>Show All</source>
-        <translation>הצג הכל</translation>
+        <translation>Vis alle</translation>
     </message>
     <message>
         <source>Preferences...</source>
-        <translation>העדפות...</translation>
+        <translation>Præferencer...</translation>
     </message>
     <message>
         <source>Quit %1</source>
-        <translation>צא מתוך %1</translation>
+        <translation>Afslut %1</translation>
     </message>
     <message>
         <source>About %1</source>
-        <translation>אודות %1</translation>
+        <translation>Om %1</translation>
     </message>
 </context>
 <context>
     <name>QAbstractSocket</name>
     <message>
         <source>Socket operation timed out</source>
-        <translation>פג זמן פעולת שקע</translation>
+        <translation>Socket-handlingen fik timeout</translation>
     </message>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>פעולה על שקע אינה נתמכת</translation>
+        <translation>Handling på socket understøttes ikke</translation>
     </message>
     <message>
         <source>Host not found</source>
-        <translation>מארח לא נמצא</translation>
+        <translation>Værten blev ikke fundet</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>חיבור נדחה</translation>
+        <translation>Forbindelsen blev afvist</translation>
     </message>
     <message>
         <source>Connection timed out</source>
-        <translation>פג זמן חיבור</translation>
+        <translation>Forbindelsen fik timeout</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation>ניסיון להתחבר כאשר התחברות בתהליך</translation>
+        <translation>Prøver at oprette forbindelse mens forbindelse er under oprettelse</translation>
     </message>
     <message>
         <source>Socket is not connected</source>
-        <translation>שקע לא מחובר</translation>
+        <translation>Socket er ikke forbundet</translation>
     </message>
     <message>
         <source>Network unreachable</source>
-        <translation>רשת לא ניתנת להשגה</translation>
+        <translation>Netværket kan ikke tilgås</translation>
     </message>
 </context>
 <context>
     <name>QAbstractSpinBox</name>
     <message>
         <source>&amp;Select All</source>
-        <translation>&amp;בחר הכל</translation>
+        <translation>&amp;Markér alt</translation>
     </message>
     <message>
         <source>&amp;Step up</source>
-        <translation>הע&amp;לה</translation>
+        <translation>&amp;Trin op</translation>
     </message>
     <message>
         <source>Step &amp;down</source>
-        <translation>הו&amp;רד</translation>
+        <translation>Trin &amp;ned</translation>
     </message>
 </context>
 <context>
     <name>QAccessibleActionInterface</name>
     <message>
         <source>Press</source>
-        <translation>לחץ</translation>
+        <translation>Tryk på</translation>
     </message>
     <message>
         <source>Increase</source>
-        <translation>הגבר</translation>
+        <translation>Forøg</translation>
     </message>
     <message>
         <source>Decrease</source>
-        <translation>הנמך</translation>
+        <translation>Formindsk</translation>
     </message>
     <message>
         <source>ShowMenu</source>
-        <translation>הצג תפריט</translation>
+        <translation>Vis menu</translation>
     </message>
     <message>
         <source>SetFocus</source>
-        <translation>קבע מיקוד</translation>
+        <translation>SætFokus</translation>
     </message>
     <message>
         <source>Toggle</source>
-        <translation>הדלק/כבה</translation>
+        <translation>Til/fra</translation>
     </message>
     <message>
         <source>Scroll Left</source>
-        <translation>גלול שמאלה</translation>
+        <translation>Rul til venstre</translation>
     </message>
     <message>
         <source>Scroll Right</source>
-        <translation>גלול ימינה</translation>
+        <translation>Rul til højre</translation>
     </message>
     <message>
         <source>Scroll Up</source>
-        <translation>גלול מעלה</translation>
+        <translation>Rul op</translation>
     </message>
     <message>
         <source>Scroll Down</source>
-        <translation>גלול מטה</translation>
+        <translation>Rul ned</translation>
     </message>
     <message>
         <source>Previous Page</source>
-        <translation>דף קודם</translation>
+        <translation>Forrige side</translation>
     </message>
     <message>
         <source>Next Page</source>
-        <translation>דף הבא</translation>
+        <translation>Næste side</translation>
     </message>
     <message>
         <source>Triggers the action</source>
-        <translation>מתניע את הפעולה</translation>
+        <translation>Udløser handlingen</translation>
     </message>
     <message>
         <source>Increase the value</source>
-        <translation>מגביר את הערך</translation>
+        <translation>Forøg værdien</translation>
     </message>
     <message>
         <source>Decrease the value</source>
-        <translation>מנמיך את הערך</translation>
+        <translation>Formindsk værdien</translation>
     </message>
     <message>
         <source>Shows the menu</source>
-        <translation>מציג את התפריט</translation>
+        <translation>Viser menuen</translation>
     </message>
     <message>
         <source>Sets the focus</source>
-        <translation>קובע את המיקוד</translation>
+        <translation>Sæt fokussen</translation>
     </message>
     <message>
         <source>Toggles the state</source>
-        <translation>משנה את המצב</translation>
+        <translation>Slår tilstanden til/fra</translation>
     </message>
     <message>
         <source>Scrolls to the left</source>
-        <translation>גולל שמאלה</translation>
+        <translation>Ruller til venstre</translation>
     </message>
     <message>
         <source>Scrolls to the right</source>
-        <translation>גולל ימינה</translation>
+        <translation>Ruller til højre</translation>
     </message>
     <message>
         <source>Scrolls up</source>
-        <translation>גולל מעלה</translation>
+        <translation>Ruller op</translation>
     </message>
     <message>
         <source>Scrolls down</source>
-        <translation>גולל מטה</translation>
+        <translation>Ruller ned</translation>
     </message>
     <message>
         <source>Goes back a page</source>
-        <translation>הולך דף אחורה</translation>
+        <translation>Går en side tilbage</translation>
     </message>
     <message>
         <source>Goes to the next page</source>
-        <translation>הולך לדף הבא</translation>
+        <translation>Går til den næste side</translation>
     </message>
 </context>
 <context>
     <name>QAndroidPlatformTheme</name>
     <message>
         <source>Yes</source>
-        <translation>כן</translation>
+        <translation>Ja</translation>
     </message>
     <message>
         <source>Yes to All</source>
-        <translation>כן להכל</translation>
+        <translation>Ja til alle</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>לא</translation>
+        <translation>Nej</translation>
     </message>
     <message>
         <source>No to All</source>
-        <translation>לא להכל</translation>
+        <translation>Nej til alle</translation>
     </message>
 </context>
 <context>
     <name>QApplication</name>
     <message>
         <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
-        <translation>קובץ הפעלה &quot;%1&quot; דורש את Qt %2, נמצא Qt %3.</translation>
+        <translation>Eksekverbar &apos;%1&apos; kræver Qt %2, fandt Qt %3.</translation>
     </message>
     <message>
         <source>Incompatible Qt Library Error</source>
-        <translation>שגיאת תאימות ספריית Qt</translation>
+        <translation>Fejl om inkompatibelt Qt-bibliotek</translation>
     </message>
 </context>
 <context>
     <name>QCocoaMenuItem</name>
     <message>
         <source>About Qt</source>
-        <translation>אודות Qt</translation>
+        <translation>Om Qt</translation>
     </message>
     <message>
         <source>About</source>
-        <translation>שירותים</translation>
+        <translation>Om</translation>
     </message>
     <message>
         <source>Config</source>
-        <translation>הגדרות</translation>
+        <translation>Konfig</translation>
     </message>
     <message>
         <source>Preference</source>
-        <translation>העדפות</translation>
+        <translation>Præference</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>אפשרויות</translation>
+        <translation>Valgmuligheder</translation>
     </message>
     <message>
         <source>Setting</source>
-        <translation>הגדרות</translation>
+        <translation>Indstilling</translation>
     </message>
     <message>
         <source>Setup</source>
-        <translation>תצורה</translation>
+        <translation>Opsætning</translation>
     </message>
     <message>
         <source>Quit</source>
-        <translation>יציאה</translation>
+        <translation>Afslut</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>יציאה</translation>
+        <translation>Afslut</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation>גזור</translation>
+        <translation>Klip</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>העתק</translation>
+        <translation>Kopiér</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>הדבק</translation>
+        <translation>Sæt ind</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>בחר הכל</translation>
+        <translation>Markér alt</translation>
     </message>
 </context>
 <context>
     <name>QCocoaTheme</name>
     <message>
         <source>Don&apos;t Save</source>
-        <translation>אל תשמור</translation>
+        <translation>Gem ikke</translation>
     </message>
 </context>
 <context>
     <name>QColorDialog</name>
     <message>
         <source>Hu&amp;e:</source>
-        <translation>&amp;גוון:</translation>
+        <translation>Farveton&amp;e:</translation>
     </message>
     <message>
         <source>&amp;Sat:</source>
-        <translation>&amp;רוויה:</translation>
+        <translation>&amp;Mætning:</translation>
     </message>
     <message>
         <source>&amp;Val:</source>
-        <translation>&amp;ערך:</translation>
+        <translation>&amp;Værdi:</translation>
     </message>
     <message>
         <source>&amp;Red:</source>
-        <translation>&amp;אדום:</translation>
+        <translation>&amp;Rød:</translation>
     </message>
     <message>
         <source>&amp;Green:</source>
-        <translation>ירו&amp;ק:</translation>
+        <translation>&amp;Grøn:</translation>
     </message>
     <message>
         <source>Bl&amp;ue:</source>
-        <translation>&amp;כחול:</translation>
+        <translation>Bl&amp;å:</translation>
     </message>
     <message>
         <source>A&amp;lpha channel:</source>
-        <translation>ע&amp;רוץ אלפא:</translation>
+        <translation>Al&amp;fa-kanal:</translation>
     </message>
     <message>
         <source>&amp;HTML:</source>
-        <translation></translation>
+        <translation>&amp;HTML:</translation>
     </message>
     <message>
         <source>Cursor at %1, %2
 Press ESC to cancel</source>
-        <translation>סמן במיקום ‎%1, %2
-הקש ESC לביטול</translation>
-    </message>
-    <message>
-        <source>&amp;Pick Screen Color</source>
-        <translation>&amp;בחר צבע מסך</translation>
+        <translation>Markør ved %1, %2
+Tryk på ESC for at annullere</translation>
     </message>
     <message>
         <source>Select Color</source>
-        <translation>בחר צבע</translation>
+        <translation>Vælg farve</translation>
     </message>
     <message>
         <source>&amp;Basic colors</source>
-        <translation>&amp;צבעים בסיסיים</translation>
+        <translation>&amp;Grundlæggende farver</translation>
     </message>
     <message>
         <source>&amp;Custom colors</source>
-        <translation>צבעים &amp;מותאמים אישית</translation>
+        <translation>&amp;Brugerdefineret farver</translation>
     </message>
     <message>
         <source>&amp;Add to Custom Colors</source>
-        <translation>&amp;הוסף לצבעים מותאמים אישית</translation>
+        <translation>&amp;Føj til brugerdefineret farver</translation>
+    </message>
+    <message>
+        <source>&amp;Pick Screen Color</source>
+        <translation>&amp;Vælg farve på skærmen</translation>
     </message>
 </context>
 <context>
     <name>QComboBox</name>
     <message>
         <source>Open the combo box selection popup</source>
-        <translation>פתח את חלונית הבחירה של תיבת הבחירה</translation>
+        <translation>Åbn komboboksens valg-pop-op</translation>
     </message>
     <message>
         <source>False</source>
-        <translation>שקר</translation>
+        <translation>Falsk</translation>
     </message>
     <message>
         <source>True</source>
-        <translation>אמת</translation>
+        <translation>Sand</translation>
     </message>
 </context>
 <context>
     <name>QCommandLineParser</name>
     <message>
         <source>Displays version information.</source>
-        <translation></translation>
+        <translation>Viser versionsinformation.</translation>
     </message>
     <message>
         <source>Displays this help.</source>
-        <translation></translation>
+        <translation>Viser denne hjælp.</translation>
     </message>
     <message>
         <source>Unknown option &apos;%1&apos;.</source>
-        <translation></translation>
+        <translation>Ukendt valgmulighed &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Unknown options: %1.</source>
-        <translation></translation>
+        <translation>Ukendte valgmuligheder: %1.</translation>
     </message>
     <message>
         <source>Missing value after &apos;%1&apos;.</source>
-        <translation></translation>
+        <translation>Manglende værdi efter &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Unexpected value after &apos;%1&apos;.</source>
-        <translation></translation>
+        <translation>Uventet værdi efter &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>[options]</source>
-        <translation></translation>
+        <translation>[valgmuligheder]</translation>
     </message>
     <message>
         <source>Usage: %1</source>
-        <translation></translation>
+        <translation>Brug: %1</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation></translation>
+        <translation>Valgmuligheder:</translation>
     </message>
     <message>
         <source>Arguments:</source>
-        <translation></translation>
+        <translation>Argumenter:</translation>
     </message>
 </context>
 <context>
@@ -404,338 +404,338 @@ Press ESC to cancel</source>
     <message>
         <source>%1: key is empty</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: המפתח הוא ריק</translation>
+        <translation>%1: nøglen er tom</translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: אין אפשרות ליצור מפתח</translation>
+        <translation>%1: kunne ikke lave nøglen</translation>
     </message>
     <message>
         <source>%1: ftok failed</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: פעולת ftok נכשלה</translation>
+        <translation>%1: ftok fejlede</translation>
     </message>
 </context>
 <context>
     <name>QCupsJobWidget</name>
     <message>
         <source>Job</source>
-        <translation>משימה</translation>
+        <translation>Job</translation>
     </message>
     <message>
         <source>Job Control</source>
-        <translation>בקרת משימות</translation>
+        <translation>Jobstyring</translation>
     </message>
     <message>
         <source>Scheduled printing:</source>
-        <translation>הדפסה מתוזמנת:</translation>
+        <translation>Planlagt udskrivning:</translation>
     </message>
     <message>
         <source>Billing information:</source>
-        <translation>מידע חיוב:</translation>
+        <translation>Betalingsinformation:</translation>
     </message>
     <message>
         <source>Job priority:</source>
-        <translation>עדיפות משימה:</translation>
+        <translation>Jobprioritet:</translation>
     </message>
     <message>
         <source>Banner Pages</source>
-        <translation>עמודי באנר</translation>
+        <translation>Bannersider</translation>
     </message>
     <message>
         <source>End:</source>
         <comment>Banner page at end</comment>
-        <translation>בסיום:</translation>
+        <translation>Slut:</translation>
     </message>
     <message>
         <source>Start:</source>
         <comment>Banner page at start</comment>
-        <translation>בהתחלה:</translation>
+        <translation>Start:</translation>
     </message>
     <message>
         <source>Print Immediately</source>
-        <translation>הדפס מיד</translation>
+        <translation>Udskriv med det samme</translation>
     </message>
     <message>
         <source>Hold Indefinitely</source>
-        <translation>השהה ללא הגבלת זמן</translation>
+        <translation>Hold på ubestemt tid</translation>
     </message>
     <message>
         <source>Day (06:00 to 17:59)</source>
-        <translation>יום (06:00 עד 17:59)</translation>
+        <translation>Dag (06:00 til 17:59)</translation>
     </message>
     <message>
         <source>Night (18:00 to 05:59)</source>
-        <translation>לילה (18:00 עד 05:59)</translation>
+        <translation>Nat (18:00 til 05:59)</translation>
     </message>
     <message>
         <source>Second Shift (16:00 to 23:59)</source>
-        <translation>משמרת שניה (16:00 עד 23:59)</translation>
+        <translation>Andet skiftehold (16:00 til 23:59)</translation>
     </message>
     <message>
         <source>Third Shift (00:00 to 07:59)</source>
-        <translation>משמרת שלישית (00:00 עד 07:59)</translation>
+        <translation>Tredje skiftehold (00:00 til 07:59)</translation>
     </message>
     <message>
         <source>Weekend (Saturday to Sunday)</source>
-        <translation>סוף שבוע (שבת עד ראשון)</translation>
+        <translation>Weekend (lørdag til søndag)</translation>
     </message>
     <message>
         <source>Specific Time</source>
-        <translation>זמן מוגדר</translation>
+        <translation>Bestemt tid</translation>
     </message>
     <message>
         <source>None</source>
         <comment>CUPS Banner page</comment>
-        <translation>ללא</translation>
+        <translation>Intet</translation>
     </message>
     <message>
         <source>Standard</source>
         <comment>CUPS Banner page</comment>
-        <translation>תקני</translation>
+        <translation>Standard</translation>
     </message>
     <message>
         <source>Unclassified</source>
         <comment>CUPS Banner page</comment>
-        <translation>בלתי מסווג</translation>
+        <translation>Uklassificeret</translation>
     </message>
     <message>
         <source>Confidential</source>
         <comment>CUPS Banner page</comment>
-        <translation>חסוי</translation>
+        <translation>Fortroligt</translation>
     </message>
     <message>
         <source>Classified</source>
         <comment>CUPS Banner page</comment>
-        <translation>מסווג</translation>
+        <translation>Klassificeret</translation>
     </message>
     <message>
         <source>Secret</source>
         <comment>CUPS Banner page</comment>
-        <translation>סודי</translation>
+        <translation>Hemmeligt</translation>
     </message>
     <message>
         <source>Top Secret</source>
         <comment>CUPS Banner page</comment>
-        <translation>סודי ביותר</translation>
+        <translation>Top hemmeligt</translation>
     </message>
 </context>
 <context>
     <name>QDB2Driver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>אין אפשרות להתחבר</translation>
+        <translation>Kunne ikke oprette forbindelse</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>אין אפשרות לבצע טרנזקציה</translation>
+        <translation>Kunne ikke gennemføre transaktionen</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>אין אפשרות להחזיר לאחור טרנזקציה</translation>
+        <translation>Kunne ikke tilbagetrække transaktionen</translation>
     </message>
     <message>
         <source>Unable to set autocommit</source>
-        <translation>אין אפשרות לקבוע ביצוע ממוכן</translation>
+        <translation>Kunne ikke sætte auto-gennemfør</translation>
     </message>
 </context>
 <context>
     <name>QDB2Result</name>
     <message>
         <source>Unable to execute statement</source>
-        <translation>אין אפשרות לבצע הוראה</translation>
+        <translation>Kunne ikke eksekvere udsagn</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>אין אפשרות להכין הוראה</translation>
+        <translation>Kunne ikke forberede udsagn</translation>
     </message>
     <message>
         <source>Unable to bind variable</source>
-        <translation>אין אפשרות לכרוך משתנה</translation>
+        <translation>Kunne ikke binde variablen</translation>
     </message>
     <message>
         <source>Unable to fetch record %1</source>
-        <translation>אין אפשרות להביא את הרשומה %1</translation>
+        <translation>Kunne ikke hente record&apos;en %1</translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>אין אפשרות להביא את הבא</translation>
+        <translation>Kunne ikke hente næste</translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>אין אפשרות להביא את הראשון</translation>
+        <translation>Kunne ikke hente første</translation>
     </message>
 </context>
 <context>
     <name>QDBusTrayIcon</name>
     <message>
         <source>OK</source>
-        <translation>אישור</translation>
+        <translation>OK</translation>
     </message>
 </context>
 <context>
     <name>QDateTimeParser</name>
     <message>
         <source>AM</source>
-        <translation>לפני הצהריים</translation>
+        <translation>AM</translation>
     </message>
     <message>
         <source>am</source>
-        <translation>לפני הצהריים</translation>
+        <translation>am</translation>
     </message>
     <message>
         <source>PM</source>
-        <translation>אחרי הצהריים</translation>
+        <translation>PM</translation>
     </message>
     <message>
         <source>pm</source>
-        <translation>אחרי הצהריים</translation>
+        <translation>pm</translation>
     </message>
 </context>
 <context>
     <name>QDialog</name>
     <message>
         <source>What&apos;s This?</source>
-        <translation>מה זה?</translation>
+        <translation>Hvad er det?</translation>
     </message>
 </context>
 <context>
     <name>QDialogButtonBox</name>
     <message>
         <source>OK</source>
-        <translation>אישור</translation>
+        <translation>OK</translation>
     </message>
 </context>
 <context>
     <name>QDirModel</name>
     <message>
         <source>Name</source>
-        <translation>שם</translation>
+        <translation>Navn</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>גודל</translation>
+        <translation>Størrelse</translation>
     </message>
     <message>
         <source>Kind</source>
         <comment>Match OS X Finder</comment>
-        <translation>סוג</translation>
+        <translation>Type</translation>
     </message>
     <message>
         <source>Type</source>
         <comment>All other platforms</comment>
-        <translation>סוג</translation>
+        <translation>Type</translation>
     </message>
     <message>
         <source>Date Modified</source>
-        <translation>תאריך שינוי</translation>
+        <translation>Ændringsdato</translation>
     </message>
 </context>
 <context>
     <name>QDnsLookup</name>
     <message>
         <source>Operation cancelled</source>
-        <translation>פעולה בוטלה</translation>
+        <translation>Handlingen blev annulleret</translation>
     </message>
 </context>
 <context>
     <name>QDnsLookupRunnable</name>
     <message>
         <source>IPv6 addresses for nameservers are currently not supported</source>
-        <translation>כתובות IPv6 עבור שרתי שמות לא נתמכות כרגע</translation>
+        <translation>IPv6-adresser for navneservere understøttes ikke aktuelt</translation>
     </message>
     <message>
         <source>Invalid domain name</source>
-        <translation>שם מתחם לא תקין</translation>
+        <translation>Ugyldigt domænenavn</translation>
     </message>
     <message>
         <source>Not yet supported on Android</source>
-        <translation>עדיין לא נתמך באנדרואיד</translation>
+        <translation>Endnu ikke understøttet på Android</translation>
     </message>
     <message>
         <source>Resolver functions not found</source>
-        <translation>פונקציות מפענח לא נמצאו</translation>
+        <translation>Løser-funktioner ikke fundet</translation>
     </message>
     <message>
         <source>Resolver initialization failed</source>
-        <translation>אתחול מפענח נכשל</translation>
+        <translation>Løser initialisering fejlede</translation>
     </message>
     <message>
         <source>Server could not process query</source>
-        <translation>שרת נכשל בעיבוד הבקשה</translation>
+        <translation>Serveren kunne ikke behandle forespørgsel</translation>
     </message>
     <message>
         <source>Server failure</source>
-        <translation>כשל שרת</translation>
+        <translation>Serverfejl</translation>
     </message>
     <message>
         <source>Non existent domain</source>
-        <translation>שם מתחם לא קיים</translation>
+        <translation>Ikke eksisterende domæne</translation>
     </message>
     <message>
         <source>Server refused to answer</source>
-        <translation>שרת סירב לענות</translation>
+        <translation>Serveren nægtede at svare</translation>
     </message>
     <message>
         <source>Invalid reply received</source>
-        <translation>התקבל תגובה לא תקינה</translation>
+        <translation>Ugyldigt svar modtaget</translation>
     </message>
     <message>
         <source>Could not expand domain name</source>
-        <translation>לא ניתן להרחיב את שם המתחם</translation>
+        <translation>Kunne ikke udvide domænenavn</translation>
     </message>
     <message>
         <source>Invalid IPv4 address record</source>
-        <translation>רשומת כתובת IPv4 לא תקינה</translation>
+        <translation>Ugyldig IPv4-adresse-record</translation>
     </message>
     <message>
         <source>Invalid IPv6 address record</source>
-        <translation>רשומת כתובת IPv6 לא תקינה</translation>
+        <translation>Ugyldig IPv6-adresse-record</translation>
     </message>
     <message>
         <source>Invalid canonical name record</source>
-        <translation>רשומת שם קאנוני לא תקינה</translation>
+        <translation>Ugyldig kanonisk navn-record</translation>
     </message>
     <message>
         <source>Invalid name server record</source>
-        <translation>רשומת שרת שמות לא תקינה</translation>
+        <translation>Ugyldig navneserver-record</translation>
     </message>
     <message>
         <source>Invalid pointer record</source>
-        <translation>רשומת הצבעה לא תקינה</translation>
+        <translation>Ugyldig pointer-record</translation>
     </message>
     <message>
         <source>Invalid mail exchange record</source>
-        <translation>רשומת שרת דואר לא תקינה</translation>
+        <translation>Ugyldig mail exchange-record</translation>
     </message>
     <message>
         <source>Invalid service record</source>
-        <translation>רשומת שירות לא תקינה</translation>
+        <translation>Ugyldig service-record</translation>
     </message>
     <message>
         <source>Invalid text record</source>
-        <translation>רשומת טקסט לא תקינה</translation>
+        <translation>Ugyldig tekst-record</translation>
     </message>
     <message>
         <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
-        <translation>לא ניתן לטעון ספריית מפענח שמות: אין תמיכה בטעינת ספריות בזמן ריצה</translation>
+        <translation>Løser-bibliotek kan ikke indlæses: ingen understøttelse af rumtime-bibliotek indlæsning</translation>
     </message>
     <message>
         <source>No hostname given</source>
-        <translation>לא ניתן שם מארח</translation>
+        <translation>Intet værtsnavn givet</translation>
     </message>
     <message>
         <source>Invalid hostname</source>
-        <translation>שם מארח לא תקין</translation>
+        <translation>Ugyldigt værtsnavn</translation>
     </message>
     <message>
         <source>Host %1 could not be found.</source>
-        <translation>מארח %1 לא נמצא.</translation>
+        <translation>Værten %1 kunne ikke findes.</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>שגיאה לא מוכרת</translation>
+        <translation>Ukendt fejl</translation>
     </message>
 </context>
 <context>
@@ -743,748 +743,748 @@ Press ESC to cancel</source>
     <message>
         <source>Float</source>
         <extracomment>Accessible name for button undocking a dock widget (floating state)</extracomment>
-        <translation>הצף</translation>
+        <translation>Flyd</translation>
     </message>
     <message>
         <source>Undocks and re-attaches the dock widget</source>
-        <translation>מפריד ומחבר מחדש את רכיב ה־dock</translation>
+        <translation>Frigør og gentilkobler dok-widget&apos;en</translation>
     </message>
     <message>
         <source>Close</source>
         <extracomment>Accessible name for button closing a dock widget</extracomment>
-        <translation>סגור</translation>
+        <translation>Luk</translation>
     </message>
     <message>
         <source>Closes the dock widget</source>
-        <translation>סוגר את רכיב ה־dock</translation>
+        <translation>Lukker dok-widget&apos;en</translation>
     </message>
 </context>
 <context>
     <name>QErrorMessage</name>
     <message>
         <source>Debug Message:</source>
-        <translation>הודעת דיבאג:</translation>
+        <translation>Fejlretningsmeddelelse:</translation>
     </message>
     <message>
         <source>Warning:</source>
-        <translation>אזהרה:</translation>
+        <translation>Advarsel:</translation>
     </message>
     <message>
         <source>Fatal Error:</source>
-        <translation>שגיאה קריטית:</translation>
+        <translation>Fatal fejl:</translation>
     </message>
     <message>
         <source>&amp;Show this message again</source>
-        <translation>&amp;הצג הודעה זו שנית</translation>
+        <translation>&amp;Vis denne meddelelse igen</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;אישור</translation>
+        <translation>&amp;OK</translation>
     </message>
 </context>
 <context>
     <name>QFile</name>
     <message>
         <source>Destination file is the same file.</source>
-        <translation>קובץ יעד הוא אותו קובץ.</translation>
+        <translation>Destinationsfilen er den samme fil.</translation>
     </message>
     <message>
         <source>Source file does not exist.</source>
-        <translation>קובץ מקור לא קיים.</translation>
+        <translation>Kildefilen findes ikke.</translation>
     </message>
     <message>
         <source>Destination file exists</source>
-        <translation>קובץ יעד קיים</translation>
+        <translation>Destinationsfilen findes</translation>
     </message>
     <message>
         <source>Error while renaming.</source>
-        <translation>שגיאה בשינוי שם.</translation>
+        <translation>Fejl under omdøbning.</translation>
     </message>
     <message>
         <source>Unable to restore from %1: %2</source>
-        <translation>לא ניתן לשחזר מתוך %1: %2</translation>
+        <translation>Kunne ikke genskabe fra %1: %2</translation>
     </message>
     <message>
         <source>Will not rename sequential file using block copy</source>
-        <translation>לא יתבצע שינוי שם לקובץ סדרתי באמצעות העתקת בלוק</translation>
+        <translation>Vil ikke omdøbe fortløbende fil ved brug af blokkopiering</translation>
     </message>
     <message>
         <source>Cannot remove source file</source>
-        <translation>אין אפשרות להסיר קובץ מקור</translation>
+        <translation>Kan ikke fjerne kildefilen</translation>
     </message>
     <message>
         <source>Cannot open %1 for input</source>
-        <translation>אין אפשרות לפתוח את %1 לקריאה</translation>
+        <translation>Kan ikke åbne %1 for input</translation>
     </message>
     <message>
         <source>Cannot open for output</source>
-        <translation>אין אפשרות לפתוח לכתיבה</translation>
+        <translation>Kan ikke åbne for output</translation>
     </message>
     <message>
         <source>Failure to write block</source>
-        <translation>אין אפשרות לכתוב בלוק</translation>
+        <translation>Kunne ikke skrive blok</translation>
     </message>
     <message>
         <source>Cannot create %1 for output</source>
-        <translation>אין אפשרות ליצור את %1 לכתיבה</translation>
+        <translation>Kan ikke oprette %1 for output</translation>
     </message>
 </context>
 <context>
     <name>QFileDevice</name>
     <message>
         <source>No file engine available or engine does not support UnMapExtension</source>
-        <translation>אין מנוע קבצים זמין או שהמנוע אינו תומך UnMapExtension</translation>
+        <translation>Ingen tilgængelig fil-motor eller motor understøtter ikke UnMapExtension</translation>
     </message>
 </context>
 <context>
     <name>QFileDialog</name>
     <message>
+        <source>All Files (*)</source>
+        <translation>Alle filer (*)</translation>
+    </message>
+    <message>
         <source>Look in:</source>
-        <translation>חפש בתוך:</translation>
+        <translation>Kig i:</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>אחורה</translation>
+        <translation>Tilbage</translation>
     </message>
     <message>
         <source>Go back</source>
-        <translation>לך אחורה</translation>
+        <translation>Gå tilbage</translation>
     </message>
     <message>
         <source>Alt+Left</source>
-        <translation></translation>
+        <translation>Alt+Venstre</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>קדימה</translation>
+        <translation>Frem</translation>
     </message>
     <message>
         <source>Go forward</source>
-        <translation>לך קדימה</translation>
+        <translation>Gå fremad</translation>
     </message>
     <message>
         <source>Alt+Right</source>
-        <translation></translation>
+        <translation>Alt+Højre</translation>
     </message>
     <message>
         <source>Parent Directory</source>
-        <translation>ספרייה מעלה</translation>
+        <translation>Ovenliggende mappe</translation>
     </message>
     <message>
         <source>Go to the parent directory</source>
-        <translation>לך אל ספרייה מעלה</translation>
+        <translation>Gå til den overliggende mappe</translation>
     </message>
     <message>
         <source>Alt+Up</source>
-        <translation></translation>
+        <translation>Alt+Op</translation>
     </message>
     <message>
         <source>Create New Folder</source>
-        <translation>צור תיקייה חדשה</translation>
+        <translation>Opret ny mappe</translation>
     </message>
     <message>
         <source>Create a New Folder</source>
-        <translation>צור תיקייה חדשה</translation>
+        <translation>Opret en ny mappe</translation>
     </message>
     <message>
         <source>List View</source>
-        <translation>תצוגת רשימה</translation>
+        <translation>Listevisning</translation>
     </message>
     <message>
         <source>Change to list view mode</source>
-        <translation>החלף למצב תצוגת רשימה</translation>
+        <translation>Skift til listevisningstilstand</translation>
     </message>
     <message>
         <source>Detail View</source>
-        <translation>תצוגת פרטים</translation>
+        <translation>Detaljeret visning</translation>
     </message>
     <message>
         <source>Change to detail view mode</source>
-        <translation>החלף למצב תצוגת פרטים</translation>
+        <translation>Skift til detaljeret visningstilstand</translation>
     </message>
     <message>
         <source>Sidebar</source>
-        <translation>סרגל צד</translation>
+        <translation>Sidebjælke</translation>
     </message>
     <message>
         <source>List of places and bookmarks</source>
-        <translation>רשימת מיקומים וסימניות</translation>
+        <translation>Liste med steder og bogmærker</translation>
     </message>
     <message>
         <source>Files</source>
-        <translation>קבצים</translation>
+        <translation>Filer</translation>
     </message>
     <message>
         <source>Files of type:</source>
-        <translation>קבצים מסוג:</translation>
+        <translation>Filer af type:</translation>
     </message>
     <message>
         <source>Find Directory</source>
-        <translation>חפש ספרייה</translation>
+        <translation>Find mappe</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>פתיחה</translation>
+        <translation>Åbn</translation>
     </message>
     <message>
         <source>Save As</source>
-        <translation>שמירה בשם</translation>
+        <translation>Gem som</translation>
     </message>
     <message>
         <source>Directory:</source>
-        <translation>ספרייה:</translation>
+        <translation>Mappe:</translation>
     </message>
     <message>
         <source>File &amp;name:</source>
-        <translation>&amp;שם קובץ:</translation>
+        <translation>&amp;Filnavn:</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;פתח</translation>
+        <translation>&amp;Åbn</translation>
     </message>
     <message>
         <source>&amp;Choose</source>
-        <translation>בח&amp;ר</translation>
+        <translation>&amp;Vælg</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;שמור</translation>
-    </message>
-    <message>
-        <source>All Files (*)</source>
-        <translation>כל הקבצים (*)</translation>
+        <translation>&amp;Gem</translation>
     </message>
     <message>
         <source>Show </source>
-        <translation>הצג </translation>
+        <translation>Vis </translation>
     </message>
     <message>
         <source>&amp;Rename</source>
-        <translation>ש&amp;נה שם</translation>
+        <translation>&amp;Omdøb</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;מחק</translation>
+        <translation>&amp;Slet</translation>
     </message>
     <message>
         <source>Show &amp;hidden files</source>
-        <translation>ה&amp;צג קבצים מוסתרים</translation>
+        <translation>Vis s&amp;kjulte filer</translation>
     </message>
     <message>
         <source>&amp;New Folder</source>
-        <translation>תיקייה &amp;חדשה</translation>
+        <translation>&amp;Ny mappe</translation>
     </message>
     <message>
         <source>All files (*)</source>
-        <translation>כל הקבצים (*)</translation>
+        <translation>Alle filer (*)</translation>
     </message>
     <message>
         <source>Directories</source>
-        <translation>ספריות</translation>
+        <translation>Mapper</translation>
     </message>
     <message>
         <source>%1
 Directory not found.
 Please verify the correct directory name was given.</source>
         <translation>%1
-ספרייה לא נמצאה.
-אנא ודא כי ניתן שם ספרייה מדויק.</translation>
+Mappen blev ikke fundet.
+Kontrollér, at det korrekte mappenavn blev givet.</translation>
     </message>
     <message>
         <source>%1 already exists.
 Do you want to replace it?</source>
-        <translation>‏%1 כבר קיים.
-האם ברצונך להחליף אותו?</translation>
+        <translation>%1 findes allerede.
+Vil du erstatte den?</translation>
     </message>
     <message>
         <source>%1
 File not found.
 Please verify the correct file name was given.</source>
         <translation>%1
-הקובץ לא נמצא.
-אנא ודא כי שם הקובץ הנכון הוזן.</translation>
+Filen blev ikke fundet.
+Kontrollér, at det korrekte filnavn blev givet.</translation>
     </message>
     <message>
         <source>New Folder</source>
-        <translation>תיקייה חדשה</translation>
+        <translation>Ny mappe</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>מחק</translation>
+        <translation>Slet</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is write protected.
 Do you want to delete it anyway?</source>
-        <translation>%1 מוגן בפני כתיבה.
-האם ברצונך למחוק אותו בכל זאת?</translation>
+        <translation>&apos;%1&apos; er skrivebeskyttet.
+Vil du slette den alligevel?</translation>
     </message>
     <message>
         <source>Are you sure you want to delete &apos;%1&apos;?</source>
-        <translation>האם אתה בטוח כי ברצונך למחוק את &apos;%1&apos;?</translation>
+        <translation>Er du sikker på, at du vil slette &apos;%1&apos;?</translation>
     </message>
     <message>
         <source>Could not delete directory.</source>
-        <translation>אין אפשרות למחוק ספרייה.</translation>
+        <translation>Kunne ikke slette mappen.</translation>
     </message>
     <message>
         <source>Recent Places</source>
-        <translation>מיקומים אחרונים</translation>
+        <translation>Nylige steder</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>הסר</translation>
+        <translation>Fjern</translation>
     </message>
     <message>
         <source>My Computer</source>
-        <translation>המחשב שלי</translation>
+        <translation>Denne Computer</translation>
     </message>
     <message>
         <source>Drive</source>
-        <translation>כונן</translation>
+        <translation>Drev</translation>
     </message>
     <message>
         <source>%1 File</source>
         <extracomment>%1 is a file name suffix, for example txt</extracomment>
-        <translation>קובץ %1</translation>
+        <translation>%1-fil</translation>
     </message>
     <message>
         <source>File</source>
-        <translation>קובץ</translation>
+        <translation>Fil</translation>
     </message>
     <message>
         <source>File Folder</source>
         <comment>Match Windows Explorer</comment>
-        <translation>תיקיית קבצים</translation>
+        <translation>Filmappe</translation>
     </message>
     <message>
         <source>Folder</source>
         <comment>All other platforms</comment>
-        <translation>תיקייה</translation>
+        <translation>Mappe</translation>
     </message>
     <message>
         <source>Alias</source>
         <comment>OS X Finder</comment>
-        <translation>כינוי</translation>
+        <translation>Alias</translation>
     </message>
     <message>
         <source>Shortcut</source>
         <comment>All other platforms</comment>
-        <translation>קיצור דרך</translation>
+        <translation>Genvej</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>לא ידוע</translation>
+        <translation>Ukendt</translation>
     </message>
 </context>
 <context>
     <name>QFileSystemModel</name>
     <message>
         <source>%1 TB</source>
-        <translation>%1 ט&quot;ב</translation>
+        <translation>%1 TB</translation>
     </message>
     <message>
         <source>%1 GB</source>
-        <translation>%1 ג&quot;ב</translation>
+        <translation>%1 GB</translation>
     </message>
     <message>
         <source>%1 MB</source>
-        <translation>%1 מ&quot;ב</translation>
+        <translation>%1 MB</translation>
     </message>
     <message>
         <source>%1 KB</source>
-        <translation>%1 ק&quot;ב</translation>
+        <translation>%1 KB</translation>
     </message>
     <message>
         <source>%1 bytes</source>
-        <translation>%1 בתים</translation>
+        <translation>%1 byte</translation>
     </message>
     <message>
         <source>Invalid filename</source>
-        <translation>שם קובץ לא תקין</translation>
+        <translation>Ugyldigt filnavn</translation>
     </message>
     <message>
         <source>&lt;b&gt;The name &quot;%1&quot; can not be used.&lt;/b&gt;&lt;p&gt;Try using another name, with fewer characters or no punctuations marks.</source>
-        <translation>&lt;b&gt;אין אפשרות להשתמש בשם &quot;%1&quot;.&lt;/b&gt;&lt;p&gt;נסה שם אחר, עם פחות תווים או בלי סימני פיסוק.</translation>
+        <translation>&lt;b&gt;Navnet &quot;%1&quot; kan ikke bruges.&lt;/b&gt;&lt;p&gt;Prøv et andet navn, med færre tegn eller ingen tegnsætningstegn.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>שם</translation>
+        <translation>Navn</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>גודל</translation>
+        <translation>Størrelse</translation>
     </message>
     <message>
         <source>Kind</source>
         <comment>Match OS X Finder</comment>
-        <translation>סוג</translation>
+        <translation>Type</translation>
     </message>
     <message>
         <source>Type</source>
         <comment>All other platforms</comment>
-        <translation>סוג</translation>
+        <translation>Type</translation>
     </message>
     <message>
         <source>Date Modified</source>
-        <translation>תאריך שינוי</translation>
+        <translation>Ændringsdato</translation>
     </message>
     <message>
         <source>My Computer</source>
-        <translation>המחשב שלי</translation>
+        <translation>Denne Computer</translation>
     </message>
     <message>
         <source>Computer</source>
-        <translation>מחשב</translation>
+        <translation>Computer</translation>
     </message>
     <message>
         <source>%1 byte(s)</source>
-        <translation>%1 בתים</translation>
+        <translation>%1 byte</translation>
     </message>
 </context>
 <context>
     <name>QFontDatabase</name>
     <message>
+        <source>Normal</source>
+        <comment>The Normal or Regular font weight</comment>
+        <translation>Normal</translation>
+    </message>
+    <message>
         <source>Bold</source>
-        <translation>מודגש</translation>
+        <translation>Fed</translation>
     </message>
     <message>
         <source>Demi Bold</source>
-        <translation>מודגש למחצה</translation>
-    </message>
-    <message>
-        <source>Black</source>
-        <translation>שחור</translation>
-    </message>
-    <message>
-        <source>Demi</source>
-        <extracomment>The word for &quot;Demi&quot; as in &quot;Demi Bold&quot; used as a pattern for string searches</extracomment>
-        <translation>למחצה</translation>
-    </message>
-    <message>
-        <source>Light</source>
-        <translation>קל</translation>
-    </message>
-    <message>
-        <source>Normal</source>
-        <comment>The Normal or Regular font weight</comment>
-        <translation>רגיל</translation>
+        <translation>Semi fed</translation>
     </message>
     <message>
         <source>Medium</source>
         <comment>The Medium font weight</comment>
-        <translation>בינוני</translation>
+        <translation>Medium</translation>
+    </message>
+    <message>
+        <source>Black</source>
+        <translation>Sort</translation>
+    </message>
+    <message>
+        <source>Light</source>
+        <translation>Let</translation>
     </message>
     <message>
         <source>Thin</source>
-        <translation>רזה</translation>
+        <translation>Tynd</translation>
     </message>
     <message>
         <source>Extra Light</source>
-        <translation>קל מאד</translation>
+        <translation>Ekstra let</translation>
     </message>
     <message>
         <source>Extra Bold</source>
-        <translation>מודגש מאד</translation>
+        <translation>Ekstra fed</translation>
     </message>
     <message>
         <source>Extra</source>
         <extracomment>The word for &quot;Extra&quot; as in &quot;Extra Bold, Extra Thin&quot; used as a pattern for string searches</extracomment>
-        <translation>מאד</translation>
+        <translation>Ekstra</translation>
+    </message>
+    <message>
+        <source>Demi</source>
+        <extracomment>The word for &quot;Demi&quot; as in &quot;Demi Bold&quot; used as a pattern for string searches</extracomment>
+        <translation>Semi</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation>נטוי</translation>
+        <translation>Kursiv</translation>
     </message>
     <message>
         <source>Oblique</source>
-        <translation>אלכסוני</translation>
+        <translation>Skæv</translation>
     </message>
     <message>
         <source>Any</source>
-        <translation>כולם</translation>
+        <translation>Vilkårligt</translation>
     </message>
     <message>
         <source>Latin</source>
-        <translation>לטינית</translation>
+        <translation>Latinsk</translation>
     </message>
     <message>
         <source>Greek</source>
-        <translation>יוונית</translation>
+        <translation>Græsk</translation>
     </message>
     <message>
         <source>Cyrillic</source>
-        <translation>קירילית</translation>
+        <translation>Kyrillisk</translation>
     </message>
     <message>
         <source>Armenian</source>
-        <translation>ארמנית</translation>
+        <translation>Armensk</translation>
     </message>
     <message>
         <source>Hebrew</source>
-        <translation>עברית</translation>
+        <translation>Hebraisk</translation>
     </message>
     <message>
         <source>Arabic</source>
-        <translation>ערבית</translation>
+        <translation>Arabisk</translation>
     </message>
     <message>
         <source>Syriac</source>
-        <translation>סורית</translation>
+        <translation>Syrisk</translation>
     </message>
     <message>
         <source>Thaana</source>
-        <translation>טאנה</translation>
+        <translation>Thaana</translation>
     </message>
     <message>
         <source>Devanagari</source>
-        <translation>דוונאגרי</translation>
+        <translation>Devanagari</translation>
     </message>
     <message>
         <source>Bengali</source>
-        <translation>בנגלית</translation>
+        <translation>Bengalsk</translation>
     </message>
     <message>
         <source>Gurmukhi</source>
-        <translation>גורמוכי</translation>
+        <translation>Gurmukhi</translation>
     </message>
     <message>
         <source>Gujarati</source>
-        <translation>גוג&apos;ראטית</translation>
+        <translation>Gujarati</translation>
     </message>
     <message>
         <source>Oriya</source>
-        <translation>אוריה</translation>
+        <translation>Orija</translation>
     </message>
     <message>
         <source>Tamil</source>
-        <translation>טמילית</translation>
+        <translation>Tamilsk</translation>
     </message>
     <message>
         <source>Telugu</source>
-        <translation>טלוגו</translation>
+        <translation>Telugu</translation>
     </message>
     <message>
         <source>Kannada</source>
-        <translation>קאנאדה</translation>
+        <translation>Kannaresisk</translation>
     </message>
     <message>
         <source>Malayalam</source>
-        <translation>מליאלאם</translation>
+        <translation>Malayalam</translation>
     </message>
     <message>
         <source>Sinhala</source>
-        <translation>סינהלזית</translation>
+        <translation>Sinhala</translation>
     </message>
     <message>
         <source>Thai</source>
-        <translation>תאילנדית</translation>
+        <translation>Thailandsk</translation>
     </message>
     <message>
         <source>Lao</source>
-        <translation>לאו</translation>
+        <translation>Laotisk</translation>
     </message>
     <message>
         <source>Tibetan</source>
-        <translation>טיבטי</translation>
+        <translation>Tibetansk</translation>
     </message>
     <message>
         <source>Myanmar</source>
-        <translation>מיאנמר</translation>
+        <translation>Myanmar</translation>
     </message>
     <message>
         <source>Georgian</source>
-        <translation>גרוזינית</translation>
+        <translation>Georgisk</translation>
     </message>
     <message>
         <source>Khmer</source>
-        <translation>חמר</translation>
+        <translation>Khmer</translation>
     </message>
     <message>
         <source>Simplified Chinese</source>
-        <translation>סינית מפושטת</translation>
+        <translation>Kinesisk (forenklet)</translation>
     </message>
     <message>
         <source>Traditional Chinese</source>
-        <translation>סינית מסורתית</translation>
+        <translation>Kinesisk (traditionelt)</translation>
     </message>
     <message>
         <source>Japanese</source>
-        <translation>יפנית</translation>
+        <translation>Japansk</translation>
     </message>
     <message>
         <source>Korean</source>
-        <translation>קוריאנית</translation>
+        <translation>Koreansk</translation>
     </message>
     <message>
         <source>Vietnamese</source>
-        <translation>ויאטנמית</translation>
+        <translation>Vietnamesisk</translation>
     </message>
     <message>
         <source>Symbol</source>
-        <translation>סימנים</translation>
+        <translation>Symboler</translation>
     </message>
     <message>
         <source>Ogham</source>
-        <translation>אוגם</translation>
+        <translation>Ogham</translation>
     </message>
     <message>
         <source>Runic</source>
-        <translation>רוני</translation>
+        <translation>Runer</translation>
     </message>
     <message>
         <source>N&apos;Ko</source>
-        <translation>נ&apos;קו</translation>
+        <translation>N&apos;Ko</translation>
     </message>
 </context>
 <context>
     <name>QFontDialog</name>
     <message>
         <source>Select Font</source>
-        <translation>בחר גופן</translation>
+        <translation>Vælg skrifttype</translation>
     </message>
     <message>
         <source>&amp;Font</source>
-        <translation>&amp;גופן</translation>
+        <translation>S&amp;krifttype</translation>
     </message>
     <message>
         <source>Font st&amp;yle</source>
-        <translation>&amp;סגנון גופן</translation>
+        <translation>Skrifts&amp;til</translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>גו&amp;דל</translation>
+        <translation>&amp;Størrelse</translation>
     </message>
     <message>
         <source>Effects</source>
-        <translation>אפקטים</translation>
+        <translation>Effekter</translation>
     </message>
     <message>
         <source>Stri&amp;keout</source>
-        <translation>קו &amp;חוצה</translation>
+        <translation>&amp;Overstreget</translation>
     </message>
     <message>
         <source>&amp;Underline</source>
-        <translation>קו &amp;תחתי</translation>
+        <translation>&amp;Understreget</translation>
     </message>
     <message>
         <source>Sample</source>
-        <translation>דוגמה</translation>
+        <translation>Prøve</translation>
     </message>
     <message>
         <source>Wr&amp;iting System</source>
-        <translation>&amp;מערכת כתיבה</translation>
+        <translation>Skr&amp;ivesystem</translation>
     </message>
 </context>
 <context>
     <name>QFtp</name>
     <message>
         <source>Not connected</source>
-        <translation>לא מחובר</translation>
+        <translation>Ikke forbundet</translation>
     </message>
     <message>
         <source>Host %1 not found</source>
-        <translation>מארח %1 לא נמצא</translation>
+        <translation>Værten %1 blev ikke fundet</translation>
     </message>
     <message>
         <source>Connection refused to host %1</source>
-        <translation>חיבור אל מארח %1 נדחה</translation>
+        <translation>Forbindelse til værten %1 afvist</translation>
     </message>
     <message>
         <source>Connection timed out to host %1</source>
-        <translation>זמן חיבור אל מארח %1 פקע</translation>
+        <translation>Forbindelsen fik timeout til værten %1</translation>
     </message>
     <message>
         <source>Connected to host %1</source>
-        <translation>מחובר אל מארח %1</translation>
+        <translation>Forbundet til værten %1</translation>
     </message>
     <message>
         <source>Data Connection refused</source>
-        <translation>חיבור נתונים נדחה</translation>
+        <translation>Dataforbindelsen blev afvist</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>שגיאה לא מוכרת</translation>
+        <translation>Ukendt fejl</translation>
     </message>
     <message>
         <source>Connecting to host failed:
 %1</source>
-        <translation>חיבור אל מארח נכשל:
+        <translation>Forbindelsen til værten fejlede:
 %1</translation>
     </message>
     <message>
         <source>Login failed:
 %1</source>
-        <translation>התחברות נכשלה:
+        <translation>Login fejlede:
 %1</translation>
     </message>
     <message>
         <source>Listing directory failed:
 %1</source>
-        <translation>קבלת רשימת הקבצים מתוך ספרייה נכשלה:
+        <translation>Mappevisning fejlede:
 %1</translation>
     </message>
     <message>
         <source>Changing directory failed:
 %1</source>
-        <translation>שינוי ספרייה נכשל:
+        <translation>Ændring af mappe fejlede:
 %1</translation>
     </message>
     <message>
         <source>Downloading file failed:
 %1</source>
-        <translation>הורדת קובץ נכשלה:
+        <translation>Download af fil fejlede:
 %1</translation>
     </message>
     <message>
         <source>Uploading file failed:
 %1</source>
-        <translation>העלאת קובץ נכשלה:
+        <translation>Upload af fil fejlede:
 %1</translation>
     </message>
     <message>
         <source>Removing file failed:
 %1</source>
-        <translation>הסרת קובץ נכשלה:
+        <translation>Fjernelse af fil fejlede:
 %1</translation>
     </message>
     <message>
         <source>Creating directory failed:
 %1</source>
-        <translation>יצירת ספרייה נכשלה:
+        <translation>Oprettelse af mappe fejlede:
 %1</translation>
     </message>
     <message>
         <source>Removing directory failed:
 %1</source>
-        <translation>הסרת ספרייה נכשלה:
+        <translation>Fjernelse af mappe fejlede:
 %1</translation>
     </message>
     <message>
         <source>Connection closed</source>
-        <translation>חיבור נסגר</translation>
+        <translation>Forbindelsen lukket</translation>
     </message>
 </context>
 <context>
     <name>QGnomeTheme</name>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;אישור</translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;שמור</translation>
+        <translation>&amp;Gem</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;ביטול</translation>
+        <translation>&amp;Annuller</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;סגור</translation>
+        <translation>&amp;Luk</translation>
     </message>
     <message>
         <source>Close without Saving</source>
-        <translation>סגור ללא שמירה</translation>
+        <translation>Luk uden at gemme</translation>
     </message>
 </context>
 <context>
@@ -1492,363 +1492,363 @@ Do you want to delete it anyway?</source>
     <message>
         <source>QT_LAYOUT_DIRECTION</source>
         <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
-        <translation>RTL</translation>
+        <translation>LTR</translation>
     </message>
 </context>
 <context>
     <name>QHostInfo</name>
     <message>
         <source>No host name given</source>
-        <translation>לא ניתן שם מארח</translation>
+        <translation>Intet værtsnavn givet</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>שגיאה לא מוכרת</translation>
+        <translation>Ukendt fejl</translation>
     </message>
 </context>
 <context>
     <name>QHostInfoAgent</name>
     <message>
         <source>No host name given</source>
-        <translation>לא ניתן שם מארח</translation>
+        <translation>Intet værtsnavn givet</translation>
     </message>
     <message>
         <source>Invalid hostname</source>
-        <translation>שם מארח לא תקין</translation>
+        <translation>Ugyldigt værtsnavn</translation>
     </message>
     <message>
         <source>Unknown address type</source>
-        <translation>טיפוס כתובת לא מוכר</translation>
+        <translation>Ukendt adressetype</translation>
     </message>
     <message>
         <source>Host not found</source>
-        <translation>מארח לא נמצא</translation>
+        <translation>Værten blev ikke fundet</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>שגיאה לא מוכרת</translation>
+        <translation>Ukendt fejl</translation>
     </message>
     <message>
         <source>Unknown error (%1)</source>
-        <translation>שגיאה לא מוכרת (%1)</translation>
+        <translation>Ukendt fejl (%1)</translation>
     </message>
 </context>
 <context>
     <name>QHttp</name>
     <message>
         <source>Host %1 not found</source>
-        <translation>מארח %1 לא נמצא</translation>
+        <translation>Værten %1 blev ikke fundet</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>חיבור נדחה</translation>
+        <translation>Forbindelsen blev afvist</translation>
     </message>
     <message>
         <source>Connection closed</source>
-        <translation>חיבור נסגר</translation>
+        <translation>Forbindelsen blev lukket</translation>
     </message>
     <message>
         <source>Proxy requires authentication</source>
-        <translation>תם זמן פעולת שקע</translation>
+        <translation>Proxyen kræver autentifikation</translation>
     </message>
     <message>
         <source>Host requires authentication</source>
-        <translation>מארח דורש אימות</translation>
+        <translation>Værten kræver autentifikation</translation>
     </message>
     <message>
         <source>Data corrupted</source>
-        <translation>מידע משובש</translation>
+        <translation>Data er ødelagt</translation>
     </message>
     <message>
         <source>Unknown protocol specified</source>
-        <translation>צוין פרוטוקול לא מוכר</translation>
+        <translation>Ukendt protokol specificeret</translation>
     </message>
     <message>
         <source>SSL handshake failed</source>
-        <translation>לחיצת ידיים של SSL נכשלה</translation>
+        <translation>SSL-håndtryk fejlede</translation>
     </message>
     <message>
         <source>Too many redirects</source>
-        <translation>יותר מדי הפניות חוזרות</translation>
+        <translation>For mange omdirigeringer</translation>
     </message>
     <message>
         <source>Insecure redirect</source>
-        <translation>הפנייה חוזרת לא מאובטחת</translation>
+        <translation>Usikker omdirigering</translation>
     </message>
 </context>
 <context>
     <name>QHttpSocketEngine</name>
     <message>
         <source>Did not receive HTTP response from proxy</source>
-        <translation>לא התקבלה תשובת HTTP מהשרת המתווך</translation>
+        <translation>Modtog ikke HTTP-svar fra proxyen</translation>
     </message>
     <message>
         <source>Error parsing authentication request from proxy</source>
-        <translation>שגיאה בפענוח בקשת האימות מהשרת המתווך</translation>
+        <translation>Fejl under fortolkning af autentifikationsanmodning fra proxyen</translation>
     </message>
     <message>
         <source>Authentication required</source>
-        <translation>נדרש אימות</translation>
+        <translation>Autentifikation kræves</translation>
     </message>
     <message>
         <source>Proxy denied connection</source>
-        <translation>שרת מתווך דחה חיבור</translation>
+        <translation>Proxyen nægtede forbindelsen</translation>
     </message>
     <message>
         <source>Error communicating with HTTP proxy</source>
-        <translation>שגיאה בהתקשורות עם שרת מתווך של HTTP</translation>
+        <translation>Fejl under kommunikation med HTTP-proxyen</translation>
     </message>
     <message>
         <source>Proxy server not found</source>
-        <translation>שרת מתווך לא נמצא</translation>
+        <translation>Proxy-serveren blev ikke fundet</translation>
     </message>
     <message>
         <source>Proxy connection refused</source>
-        <translation>חיבור שרת מתווך נדחה</translation>
+        <translation>Proxy-forbindelsen blev afvist</translation>
     </message>
     <message>
         <source>Proxy server connection timed out</source>
-        <translation>פג זמן חיבור שרת מתווך</translation>
+        <translation>Proxy-serverforbindelsen fik timeout</translation>
     </message>
     <message>
         <source>Proxy connection closed prematurely</source>
-        <translation>חיבור שרת מתווך נסגר בטרם עת</translation>
+        <translation>Proxy-forbindelsen lukkede i utide</translation>
     </message>
 </context>
 <context>
     <name>QIBaseDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>שגיאה בפתיחת מסד נתונים</translation>
+        <translation>Fejl ved åbning af databasen</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>אין אפשרות להפעיל טרנזקציה</translation>
+        <translation>Kunne ikke påbegynde transaktionen</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>אין אפשרות לבצע טרנזקציה</translation>
+        <translation>Kunne ikke gennemføre transaktionen</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>אין אפשרות להחזיר לאחור טרנזקציה</translation>
+        <translation>Kunne ikke tilbagetrække transaktionen</translation>
     </message>
 </context>
 <context>
     <name>QIBaseResult</name>
     <message>
         <source>Unable to create BLOB</source>
-        <translation>אין אפשרות ליצור BLOB</translation>
+        <translation>Kunne ikke oprette BLOB</translation>
     </message>
     <message>
         <source>Unable to write BLOB</source>
-        <translation>אין אפשרות לכתוב BLOB</translation>
+        <translation>Kunne ikke skrive BLOB</translation>
     </message>
     <message>
         <source>Unable to open BLOB</source>
-        <translation>אין אפשרות לפתוח BLOB</translation>
+        <translation>Kunne ikke åbne BLOB</translation>
     </message>
     <message>
         <source>Unable to read BLOB</source>
-        <translation>אין אפשרות לקרוא BLOB</translation>
+        <translation>Kunne ikke læse BLOB</translation>
     </message>
     <message>
         <source>Could not find array</source>
-        <translation>אין אפשרות למצוא מערך נתונים</translation>
+        <translation>Kunne ikke finde array</translation>
     </message>
     <message>
         <source>Could not get array data</source>
-        <translation>אין אפשרות להשיג מידע מערך נתונים</translation>
+        <translation>Kunne ikke hente array-data</translation>
     </message>
     <message>
         <source>Could not get query info</source>
-        <translation>אין אפשרות להשיג מידע שאילתא</translation>
+        <translation>Kunne ikke hente forespørgselsinfo</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>אין אפשרות להפעיל טרנזקציה</translation>
+        <translation>Kunne ikke påbegynde transaktion</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>אין אפשרות לבצע טרנזקציה</translation>
+        <translation>Kunne ikke gennemføre transaktionen</translation>
     </message>
     <message>
         <source>Could not allocate statement</source>
-        <translation>אין אפשרות להקצות הוראה</translation>
+        <translation>Kunne ikke allokere udsagn</translation>
     </message>
     <message>
         <source>Could not prepare statement</source>
-        <translation>אין אפשרות להכין הוראה</translation>
+        <translation>Kunne ikke forberede udsagn</translation>
     </message>
     <message>
         <source>Could not describe input statement</source>
-        <translation>אין אפשרות לתאר הוראת קלט</translation>
+        <translation>Kunne ikke beskrive input-udsagn</translation>
     </message>
     <message>
         <source>Could not describe statement</source>
-        <translation>אין אפשרות לתאר הוראה</translation>
+        <translation>Kunne ikke beskrive udsagn</translation>
     </message>
     <message>
         <source>Unable to close statement</source>
-        <translation>אין אפשרות לסגור הוראה</translation>
+        <translation>Kunne ikke lukke udsagn</translation>
     </message>
     <message>
         <source>Unable to execute query</source>
-        <translation>אין אפשרות לבצע שאילתא</translation>
+        <translation>Kunne ikke eksekvere forespørgsel</translation>
     </message>
     <message>
         <source>Could not fetch next item</source>
-        <translation>אין אפשרות להביא את הפריט הבא</translation>
+        <translation>Kunne ikke hente næste punkt</translation>
     </message>
     <message>
         <source>Could not get statement info</source>
-        <translation>אין אפשרות להשיג מידע הוראה</translation>
+        <translation>Kunne ikke hente udsagnsinformation</translation>
     </message>
 </context>
 <context>
     <name>QIODevice</name>
     <message>
         <source>Permission denied</source>
-        <translation>הרשאה נדחתה</translation>
+        <translation>Tilladelse nægtet</translation>
     </message>
     <message>
         <source>Too many open files</source>
-        <translation>יותר מדי קבצים פתוחים</translation>
+        <translation>For mange åbne filer</translation>
     </message>
     <message>
         <source>No such file or directory</source>
-        <translation>לא קיים קובץ או ספרייה</translation>
+        <translation>Filen eller mappen findes ikke</translation>
     </message>
     <message>
         <source>No space left on device</source>
-        <translation>לא נשאר מקום בהתקן</translation>
+        <translation>Ingen ledig plads på enheden</translation>
     </message>
     <message>
         <source>file to open is a directory</source>
-        <translation>קובץ לפתיחה הוא ספרייה</translation>
+        <translation>filen der skal åbnes er en mappe</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>שגיאה לא מוכרת</translation>
+        <translation>Ukendt fejl</translation>
     </message>
 </context>
 <context>
     <name>QImageReader</name>
     <message>
         <source>Invalid device</source>
-        <translation>התקן לא תקין</translation>
+        <translation>Ugyldig enhed</translation>
     </message>
     <message>
         <source>File not found</source>
-        <translation>קובץ לא נמצא</translation>
+        <translation>Filen blev ikke fundet</translation>
     </message>
     <message>
         <source>Unsupported image format</source>
-        <translation>פורמט תמונה לא נתמך</translation>
+        <translation>Billedformatet understøttes ikke</translation>
     </message>
     <message>
         <source>Unable to read image data</source>
-        <translation>לא ניתן לקרוא מידע תמונה</translation>
+        <translation>Kunne ikke læse billeddata</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>שגיאה לא מוכרת</translation>
+        <translation>Ukendt fejl</translation>
     </message>
 </context>
 <context>
     <name>QImageWriter</name>
     <message>
         <source>Unknown error</source>
-        <translation>שגיאה לא מוכרת</translation>
+        <translation>Ukendt fejl</translation>
     </message>
     <message>
         <source>Device is not set</source>
-        <translation>התקן אינו מוגדר</translation>
+        <translation>Enheden er ikke sat</translation>
     </message>
     <message>
         <source>Device not writable</source>
-        <translation>התקן לא ניתן לכתיבה</translation>
+        <translation>Der kan ikke skrives til enheden</translation>
     </message>
     <message>
         <source>Unsupported image format</source>
-        <translation>פורמט תמונה לא נתמך</translation>
+        <translation>Billedformatet understøttes ikke</translation>
     </message>
 </context>
 <context>
     <name>QInputDialog</name>
     <message>
         <source>Enter a value:</source>
-        <translation>הכנס ערך:</translation>
+        <translation>Indtast en værdi:</translation>
     </message>
 </context>
 <context>
     <name>QJsonParseError</name>
     <message>
         <source>no error occurred</source>
-        <translation>לא אירעה כל שגיאה</translation>
+        <translation>der opstod ingen fejl</translation>
     </message>
     <message>
         <source>unterminated object</source>
-        <translation>אובייקט ללא סיום</translation>
+        <translation>utermineret objekt</translation>
     </message>
     <message>
         <source>missing name separator</source>
-        <translation>חסר מפריד שם</translation>
+        <translation>manglende navneseparator</translation>
     </message>
     <message>
         <source>unterminated array</source>
-        <translation>מערך ללא סיום</translation>
+        <translation>utermineret array</translation>
     </message>
     <message>
         <source>missing value separator</source>
-        <translation>חסר מפריד ערך</translation>
+        <translation>manglende værdiseparator</translation>
     </message>
     <message>
         <source>illegal value</source>
-        <translation>ערך לא חוקי</translation>
+        <translation>forbudt værdi</translation>
     </message>
     <message>
         <source>invalid termination by number</source>
-        <translation>סיום לא תקין באמצעות מספר</translation>
+        <translation>ugyldig terminering af tal</translation>
     </message>
     <message>
         <source>illegal number</source>
-        <translation>מספר לא חוקי</translation>
+        <translation>forbudt nummer</translation>
     </message>
     <message>
         <source>invalid escape sequence</source>
-        <translation>רצף escape לא תקין</translation>
+        <translation>ugyldig undvigesekvens</translation>
     </message>
     <message>
         <source>invalid UTF8 string</source>
-        <translation>מחרוזת UTF8 לא תקינה</translation>
+        <translation>ugyldig UTF8-streng</translation>
     </message>
     <message>
         <source>unterminated string</source>
-        <translation>מחרוזת ללא סיום</translation>
+        <translation>utermineret streng</translation>
     </message>
     <message>
         <source>object is missing after a comma</source>
-        <translation>חסר אובייקט אחרי פסיק</translation>
+        <translation>objekt mangler efter et komma</translation>
     </message>
     <message>
         <source>too deeply nested document</source>
-        <translation>מסמך עם קינון עמוק מדי</translation>
+        <translation>for dybt indlejret dokument</translation>
     </message>
     <message>
         <source>too large document</source>
-        <translation>מסמך גדול מדי</translation>
+        <translation>for stort dokument</translation>
     </message>
     <message>
         <source>garbage at the end of the document</source>
-        <translation>זבל בסוף המסמך</translation>
+        <translation>affald ved slutningen af dokumentet</translation>
     </message>
 </context>
 <context>
     <name>QKeySequenceEdit</name>
     <message>
         <source>Press shortcut</source>
-        <translation>לחץ על קיצור דרך</translation>
+        <translation>Tryk på genvej</translation>
     </message>
     <message>
         <source>%1, ...</source>
@@ -1860,273 +1860,273 @@ Do you want to delete it anyway?</source>
     <name>QLibrary</name>
     <message>
         <source>&apos;%1&apos; is not an ELF object (%2)</source>
-        <translation>&apos;%1&apos; אינו אובייקט ELF (%2)</translation>
+        <translation>&apos;%1&apos; er ikke et ELF-objekt (%2)</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not an ELF object</source>
-        <translation>&apos;%1&apos; אינו אובייקט ELF</translation>
+        <translation>&apos;%1&apos; er ikke et ELF-objekt</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is an invalid ELF object (%2)</source>
-        <translation>&apos;%1&apos; אינו אובייקט ELF תקין (%2)</translation>
+        <translation>&apos;%1&apos; er et ugyldigt ELF-objekt (%2)</translation>
     </message>
     <message>
         <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
-        <translation>שגיאה בחילוץ מטה־מידע של תוסף מתוך &apos;%1&apos;</translation>
+        <translation>Kunne ikke udtrække plugin-metadata fra &apos;%1&apos;</translation>
     </message>
     <message>
         <source>The shared library was not found.</source>
-        <translation>הספרייה המשותפת לא נמצאה.</translation>
+        <translation>Det delte bibliotek blev ikke fundet.</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; is not a valid Qt plugin.</source>
-        <translation>הקובץ &apos;%1&apos; אינו תוסף Qt תקין.</translation>
+        <translation>Filen &apos;%1&apos; er ikke et gyldigt Qt-plugin.</translation>
     </message>
     <message>
         <source>The plugin &apos;%1&apos; uses incompatible Qt library. (%2.%3.%4) [%5]</source>
-        <translation>התוסף &apos;%1&apos; משתמש בספריית Qt שאינה תואמת (%2.%3.%4) [%5]</translation>
+        <translation>Pluginet &apos;%1&apos; bruger inkompatibelt Qt-bibliotek. (%2.%3.%4) [%5]</translation>
     </message>
     <message>
         <source>The plugin &apos;%1&apos; uses incompatible Qt library. (Cannot mix debug and release libraries.)</source>
-        <translation>התוסף &apos;%1&apos; משתמש בספריית Qt שאינה תואמת (לא ניתן לערבב ספריית debug וספריית release.)</translation>
+        <translation>Pluginet &apos;%1&apos; bruger inkompatibelt Qt-bibliotek. (kan ikke blande debug- og release-biblioteker).</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>שגיאה לא מוכרת</translation>
+        <translation>Ukendt fejl</translation>
     </message>
     <message>
         <source>Cannot load library %1: %2</source>
-        <translation>אין אפשרות לטעון ספרייה %1: %2</translation>
+        <translation>Kan ikke indlæse biblioteket %1: %2</translation>
     </message>
     <message>
         <source>Cannot unload library %1: %2</source>
-        <translation>אין אפשרות לפרוק ספרייה %1: %2</translation>
+        <translation>Kan ikke afregistrere biblioteket %1: %2</translation>
     </message>
     <message>
         <source>Cannot resolve symbol &quot;%1&quot; in %2: %3</source>
-        <translation>אין אפשרות לפתור סמל &quot;%1&quot; בתוך %2: %3</translation>
+        <translation>Kan ikke løse symbolet &quot;%1&quot; i %2: %3</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a valid Mach-O binary (%2)</source>
-        <translation>&apos;%1&apos; אינו קובץ הרצה Mach-O תקין (%2)</translation>
+        <translation>&apos;%1&apos; er ikke en gyldig Mach-O-binær (%2)</translation>
     </message>
     <message>
         <source>file is corrupt</source>
-        <translation>קובץ פגום</translation>
+        <translation>filen er ødelagt</translation>
     </message>
     <message>
         <source>file too small</source>
-        <translation>קובץ קטן מדי</translation>
+        <translation>filen er for lille</translation>
     </message>
     <message>
         <source>no suitable architecture in fat binary</source>
-        <translation>אין ארכיטקטורה מתאימה בבינארי שמן</translation>
+        <translation>ingen egnede arkitektur i fat-binær</translation>
     </message>
     <message>
         <source>invalid magic %1</source>
-        <translation>ערך magic לא תקין %1</translation>
+        <translation>ugyldig magisk %1</translation>
     </message>
     <message>
         <source>wrong architecture</source>
-        <translation>ארכיטקטורה שגויה</translation>
+        <translation>forkert arkitektur</translation>
     </message>
     <message>
         <source>not a dynamic library</source>
-        <translation>לא ספרייה דינאמית</translation>
+        <translation>ikke et dynamisk bibliotek</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a Qt plugin</source>
-        <translation>&apos;%1&apos; אינו תוסף Qt</translation>
+        <translation>&apos;%1&apos; er ikke et Qt-plugin</translation>
     </message>
 </context>
 <context>
     <name>QLineEdit</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;בטל</translation>
+        <translation>&amp;Fortryd</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>בצע &amp;שוב</translation>
+        <translation>&amp;Omgør</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>&amp;גזור</translation>
+        <translation>K&amp;lip</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>הע&amp;תק</translation>
+        <translation>&amp;Kopiér</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>ה&amp;דבק</translation>
+        <translation>&amp;Sæt ind</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>מחק</translation>
+        <translation>Slet</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>בחר הכל</translation>
+        <translation>Markér alt</translation>
     </message>
 </context>
 <context>
     <name>QLocalServer</name>
     <message>
         <source>%1: Name error</source>
-        <translation>%1: שגיאת שם</translation>
+        <translation>%1: navnefejl</translation>
     </message>
     <message>
         <source>%1: Permission denied</source>
-        <translation>%1: הרשאה נדחתה</translation>
+        <translation>%1: tilladelse nægtet</translation>
     </message>
     <message>
         <source>%1: Address in use</source>
-        <translation>%1: כתובת בשימוש</translation>
+        <translation>%1: adresse i brug</translation>
     </message>
     <message>
         <source>%1: Unknown error %2</source>
-        <translation>%1: שגיאה לא מוכרת %2</translation>
+        <translation>%1: ukendt fejl %2</translation>
     </message>
 </context>
 <context>
     <name>QLocalSocket</name>
     <message>
         <source>%1: Connection refused</source>
-        <translation>%1: חיבור נדחה</translation>
+        <translation>%1: forbindelsen blev afvist</translation>
     </message>
     <message>
         <source>%1: Remote closed</source>
-        <translation>%1: קצה מרוחק סגר</translation>
+        <translation>%1: fjern lukkede</translation>
     </message>
     <message>
         <source>%1: Invalid name</source>
-        <translation>%1: שם לא תקין</translation>
+        <translation>%1: ugyldigt navn</translation>
     </message>
     <message>
         <source>%1: Socket access error</source>
-        <translation>%1: שגיאת גישה לשקע</translation>
+        <translation>%1: socket adgangsfejl</translation>
     </message>
     <message>
         <source>%1: Socket resource error</source>
-        <translation>%1: שגיאת משאב שקע</translation>
+        <translation>%1: socket ressourcefejl</translation>
     </message>
     <message>
         <source>%1: Socket operation timed out</source>
-        <translation>%1: תם זמן פעולת שקע</translation>
+        <translation>%1: socket-handlingen fik timeout</translation>
     </message>
     <message>
         <source>%1: Datagram too large</source>
-        <translation>%1: צרור נתונים גדול מדי</translation>
+        <translation>%1: datagram er for stort</translation>
     </message>
     <message>
         <source>%1: Connection error</source>
-        <translation>%1: שגיאת חיבור</translation>
+        <translation>%1: forbindelsesfejl</translation>
     </message>
     <message>
         <source>%1: The socket operation is not supported</source>
-        <translation>%1: פעולת השקע אינה נתמכת</translation>
+        <translation>%1: socket-handlingen understøttes ikke</translation>
     </message>
     <message>
         <source>%1: Operation not permitted when socket is in this state</source>
-        <translation>%1: פעולה לא מורשית בזמן ששקע במצב זה</translation>
+        <translation>%1: handlingen er ikke tilladt når socket er i denne tilstand</translation>
     </message>
     <message>
         <source>%1: Unknown error</source>
-        <translation>%1: שגיאה לא מוכרת</translation>
+        <translation>%1: ukendt fejl</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation>ניסיון להתחבר כאשר התחברות בתהליך</translation>
+        <translation>Prøver at oprette forbindelse mens forbindelse er under oprettelse</translation>
     </message>
     <message>
         <source>%1: Unknown error %2</source>
-        <translation>%1: שגיאה לא מוכרת %2</translation>
+        <translation>%1: ukendt fejl %2</translation>
     </message>
     <message>
         <source>%1: Access denied</source>
-        <translation>%1: גישה נדחתה</translation>
+        <translation>%1: adgang nægtet</translation>
     </message>
 </context>
 <context>
     <name>QMYSQLDriver</name>
     <message>
         <source>Unable to allocate a MYSQL object</source>
-        <translation>לא ניתן להקצות אובייקט MYSQL</translation>
+        <translation>Kunne ikke allokere et MYSQL-objekt</translation>
     </message>
     <message>
         <source>Unable to open database &apos;%1&apos;</source>
-        <translation>לא ניתן לפתוח מסד נתונים &apos;%1&apos;</translation>
+        <translation>Kunne ikke åbne databasen &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Unable to connect</source>
-        <translation>אין אפשרות להתחבר</translation>
+        <translation>Kunne ikke oprette forbindelse</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>אין אפשרות להתחיל טרנזקציה</translation>
+        <translation>Kunne ikke påbegynde transaktionen</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>אין אפשרות לבצע טרנזקציה</translation>
+        <translation>Kunne ikke gennemføre transaktionen</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>אין אפשרות להחזיר לאחור טרנזקציה</translation>
+        <translation>Kunne ikke tilbagetrække transaktionen</translation>
     </message>
 </context>
 <context>
     <name>QMYSQLResult</name>
     <message>
         <source>Unable to fetch data</source>
-        <translation>אין אפשרות להביא נתונים</translation>
+        <translation>Kunne ikke hente data</translation>
     </message>
     <message>
         <source>Unable to execute query</source>
-        <translation>אין אפשרות לבצע שאילתא</translation>
+        <translation>Kunne ikke eksekvere forespørgsel</translation>
     </message>
     <message>
         <source>Unable to store result</source>
-        <translation>אין אפשרות לאחסן תוצאה</translation>
+        <translation>Kunne ikke lagre resultatet</translation>
     </message>
     <message>
         <source>Unable to execute next query</source>
-        <translation>אין אפשרות לבצע שאילתא באה</translation>
+        <translation>Kunne ikke eksekvere næste forespørgsel</translation>
     </message>
     <message>
         <source>Unable to store next result</source>
-        <translation>אין אפשרות לאחסן תוצאה באה</translation>
+        <translation>Kunne ikke lagre næste resultat</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>אין אפשרות להכין הוראה</translation>
+        <translation>Kunne ikke forberede udsagn</translation>
     </message>
     <message>
         <source>Unable to reset statement</source>
-        <translation>אין אפשרות לאפס הוראה</translation>
+        <translation>Kunne ikke nulstille udsagn</translation>
     </message>
     <message>
         <source>Unable to bind value</source>
-        <translation>אין אפשרות לכרוך ערך</translation>
+        <translation>Kunne ikke binde værdi</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>אין אפשרות לבצע הוראה</translation>
+        <translation>Kunne ikke eksekvere udsagn</translation>
     </message>
     <message>
         <source>Unable to bind outvalues</source>
-        <translation>אין אפשרות לכרוך outvalues</translation>
+        <translation>Kunne ikke binde ud-værdier</translation>
     </message>
     <message>
         <source>Unable to store statement results</source>
-        <translation>אין אפשרות לאחסן תוצאות הוראה</translation>
+        <translation>Kunne ikke lagre udsagnsresultater</translation>
     </message>
 </context>
 <context>
     <name>QMdiArea</name>
     <message>
         <source>(Untitled)</source>
-        <translation>(ללא שם)</translation>
+        <translation>(unavngivet)</translation>
     </message>
 </context>
 <context>
@@ -2141,374 +2141,374 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>מזער</translation>
+        <translation>Minimer</translation>
     </message>
     <message>
         <source>Maximize</source>
-        <translation>הגדל</translation>
+        <translation>Maksimer</translation>
     </message>
     <message>
         <source>Unshade</source>
-        <translation>בטל הצללה</translation>
+        <translation>Rul ud</translation>
     </message>
     <message>
         <source>Shade</source>
-        <translation>הצלל</translation>
+        <translation>Rul sammen</translation>
     </message>
     <message>
         <source>Restore Down</source>
-        <translation>שחזר למטה</translation>
+        <translation>Genskab ned</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation>שחזר</translation>
+        <translation>Genskab</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>סגור</translation>
+        <translation>Luk</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>עזרה</translation>
+        <translation>Hjælp</translation>
     </message>
     <message>
         <source>Menu</source>
-        <translation>תפריט</translation>
+        <translation>Menu</translation>
     </message>
     <message>
         <source>&amp;Restore</source>
-        <translation>ש&amp;חזר</translation>
+        <translation>&amp;Genskab</translation>
     </message>
     <message>
         <source>&amp;Move</source>
-        <translation>ה&amp;זז</translation>
+        <translation>&amp;Flyt</translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>גו&amp;דל</translation>
+        <translation>&amp;Størrelse</translation>
     </message>
     <message>
         <source>Mi&amp;nimize</source>
-        <translation>&amp;מזער</translation>
+        <translation>Mi&amp;nimer</translation>
     </message>
     <message>
         <source>Ma&amp;ximize</source>
-        <translation>&amp;הגדל</translation>
+        <translation>Ma&amp;ksimer</translation>
     </message>
     <message>
         <source>Stay on &amp;Top</source>
-        <translation>&amp;תמיד עליון</translation>
+        <translation>Altid &amp;øverst</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;סגור</translation>
+        <translation>&amp;Luk</translation>
     </message>
 </context>
 <context>
     <name>QMessageBox</name>
     <message>
         <source>Show Details...</source>
-        <translation>הצג פרטים...</translation>
+        <translation>Vis detaljer...</translation>
     </message>
     <message>
         <source>Hide Details...</source>
-        <translation>הסתר פרטים...</translation>
+        <translation>Skjul detaljer...</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>אישור</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>עזרה</translation>
+        <translation>Hjælp</translation>
     </message>
     <message>
         <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
-        <translation>&lt;h3&gt;אודות Qt&lt;/h3&gt;&lt;p&gt;תוכנית זו משתמשת ב־Qt גירסה %1.&lt;/p&gt;</translation>
+        <translation>&lt;h3&gt;Om Qt&lt;/h3&gt;&lt;p&gt;Dette program bruger Qt version %1.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;‏Qt הינה ערכת כלי C++‎ עבור פיתוח יישומים חוצי-פלטפורמה.&lt;/p&gt;&lt;p&gt;‏Qt מספקת ניידות קוד-בודד על פני כל מערכות ההפעלה הגדולות לשולחן העבודה. ‏Qt גם כן זמינה עבור Embedded Linux וגם מערכות הפעלה משובצות וניידות אחרות.&lt;/p&gt;&lt;p&gt;‏Qt זמינה תחת שלוש אפשרויות רישוי שונות המיועדות להתאים לצרכים של המשתמשים השונים שלנו.&lt;/p&gt;&lt;p&gt;‏Qt אשר רשויה תחת הסכם ההרשאה המסחרי שלנו הינה מתאימה לצורך פיתוח של תכנות קנייניות/מסחריות כאשר אין ברצונך לשתף שום קוד מקור עם צדדים שלישיים או שבמובן אחר לא יכול להיענות עם התנאים של GNU LGPL גירסה 3.&lt;/p&gt;&lt;p&gt;‏Qt אשר רשויה תחת הרשיון GNU LGPL גירסה 3 הינה מתאימה לצורך פיתוח של יישומי Qt בתנאי שביכולתך להיענות עם התנאים והסייגים של הרשיון GNU LGPL גירסה 3.&lt;/p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Qt er et C++-værktøjskit til programudvikling på tværs af platforme.&lt;/p&gt;&lt;p&gt;Qt giver enkelt-kilde portability på tværs af alle større skrivebordsstyresystemer. Det er også tilgængeligt til Embedded Linux og andre indlejrede og mobile styresystemer.&lt;/p&gt;&lt;p&gt;Qt er tilgængelig under tre forskellige licenseringsmuligheder, designet til at rumme behovene af vores forskellige brugere.&lt;/p&gt;&lt;p&gt;Qt licenseret under vores kommercielle licensaftale er passende til udvikling af proprietær/kommerciel software, hvor du ikke vil dele kildekode med tredjeparter eller på anden måde ikke kan efterleve vilkårene i GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licenseret under GNU LGPL version 3 er passende til udvikling af Qt-programmer, på forudsætning af at du kan efterleve vilkårene og betingelserne i GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Se venligst &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for en oversigt af Qt-licensering.&lt;/p&gt;&lt;p&gt;Ophavsret (C) %1 Qt Company Ltd og andre bidragydere.&lt;/p&gt;&lt;p&gt;Qt og Qt-logoet er varemærker af Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt er Qt Company Ltd-produktet, udviklet som et open source projekt. Se &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for mere information.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About Qt</source>
-        <translation>אודות Qt</translation>
+        <translation>Om Qt</translation>
     </message>
 </context>
 <context>
     <name>QNativeSocketEngine</name>
     <message>
         <source>Unable to initialize non-blocking socket</source>
-        <translation>אין אפשרות לאתחל שקע לא-חוסם</translation>
+        <translation>Kunne ikke initialisere ikke-blokerende socket</translation>
     </message>
     <message>
         <source>Unable to initialize broadcast socket</source>
-        <translation>אין אפשרות לאתחל שקע broadcast</translation>
+        <translation>Kunne ikke initialisere broadcast-socket</translation>
     </message>
     <message>
         <source>Attempt to use IPv6 socket on a platform with no IPv6 support</source>
-        <translation>ניסיון להשתמש בשקע IPv6 על פלטפורמה אשר לא תומכת IPv6</translation>
+        <translation>Forsøg på at bruge IPv6-socket på en platform uden IPv6-understøttelse</translation>
     </message>
     <message>
         <source>The remote host closed the connection</source>
-        <translation>המארח המרוחק סגר את החיבור</translation>
+        <translation>Fjern-værten lukkede forbindelsen</translation>
     </message>
     <message>
         <source>Network operation timed out</source>
-        <translation>תם זמן פעולת רשת</translation>
+        <translation>Netværkshandlingen fik timeout</translation>
     </message>
     <message>
         <source>Out of resources</source>
-        <translation>לא נותרו משאבים</translation>
+        <translation>Ikke flere ressourcer</translation>
     </message>
     <message>
         <source>Unsupported socket operation</source>
-        <translation>פעולת שקע לא נתמכת</translation>
+        <translation>Socket-handlingen understøttes ikke</translation>
     </message>
     <message>
         <source>Protocol type not supported</source>
-        <translation>טיפוס פרוטוקול לא נתמך</translation>
+        <translation>Protokoltypen understøttes ikke</translation>
     </message>
     <message>
         <source>Invalid socket descriptor</source>
-        <translation>מתאר שקע לא תקין</translation>
+        <translation>Ugyldig socket-deskriptor</translation>
     </message>
     <message>
         <source>Host unreachable</source>
-        <translation>מארח לא ניתן להשגה</translation>
+        <translation>Værten kan ikke tilgås</translation>
     </message>
     <message>
         <source>Network unreachable</source>
-        <translation>רשת לא ניתנת להשגה</translation>
+        <translation>Netværket kan ikke tilgås</translation>
     </message>
     <message>
         <source>Permission denied</source>
-        <translation>הרשאה נדחתה</translation>
+        <translation>Tilladelse nægtet</translation>
     </message>
     <message>
         <source>Connection timed out</source>
-        <translation>פג זמן חיבור</translation>
+        <translation>Forbindelsen fik timeout</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>חיבור נדחה</translation>
+        <translation>Forbindelsen blev afvist</translation>
     </message>
     <message>
         <source>The bound address is already in use</source>
-        <translation>הכתובת הכרוכה כבר מצויה בשימוש</translation>
+        <translation>Den bundne adresse er allerede i brug</translation>
     </message>
     <message>
         <source>The address is not available</source>
-        <translation>הכתובת אינה זמינה</translation>
+        <translation>Adressen er ikke tilgængelig</translation>
     </message>
     <message>
         <source>The address is protected</source>
-        <translation>הכתובת מוגנת</translation>
+        <translation>Adressen er beskyttet</translation>
     </message>
     <message>
         <source>Datagram was too large to send</source>
-        <translation>צרור הנתונים היה גדול מדי בכדי להישלח</translation>
+        <translation>Datagrammet var for stort til at blive sendt</translation>
     </message>
     <message>
         <source>Unable to send a message</source>
-        <translation>אין אפשרות לשלוח הודעה</translation>
+        <translation>Kunne ikke sende en meddelelse</translation>
     </message>
     <message>
         <source>Unable to receive a message</source>
-        <translation>אין אפשרות לקבל הודעה</translation>
+        <translation>Kunne ikke modtage en meddelelse</translation>
     </message>
     <message>
         <source>Unable to write</source>
-        <translation>אין אפשרות לכתוב</translation>
+        <translation>Kunne ikke skrive</translation>
     </message>
     <message>
         <source>Network error</source>
-        <translation>שגיאת רשת</translation>
+        <translation>Netværksfejl</translation>
     </message>
     <message>
         <source>Another socket is already listening on the same port</source>
-        <translation>שקע אחר כבר מאזין על אותו הפורט</translation>
+        <translation>En anden socket lytter allerede på den samme port</translation>
     </message>
     <message>
         <source>Operation on non-socket</source>
-        <translation>פעולה על אובייקט שאינו שקע</translation>
+        <translation>Handling på ikke-socket</translation>
     </message>
     <message>
         <source>The proxy type is invalid for this operation</source>
-        <translation>טיפוס שרת מתווך אינו תקין לפעולה זו</translation>
+        <translation>Proxytypen er ugyldig for denne handling</translation>
     </message>
     <message>
         <source>Temporary error</source>
-        <translation>שגיאה זמנית</translation>
+        <translation>Midlertidig fejl</translation>
     </message>
     <message>
         <source>Network dropped connection on reset</source>
-        <translation>רשת ניתקה את החיבור בעת אתחול</translation>
+        <translation>Netværket droppede forbindelsen ved nulstilling</translation>
     </message>
     <message>
         <source>Connection reset by peer</source>
-        <translation>חיבור נותק בידי הצד השני</translation>
+        <translation>Forbindelsen blev nulstillet af peer</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>שגיאה לא מוכרת</translation>
+        <translation>Ukendt fejl</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessCacheBackend</name>
     <message>
         <source>Error opening %1</source>
-        <translation>שגיאה בפתיחת %1</translation>
+        <translation>Fejl under åbning af %1</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessDataBackend</name>
     <message>
         <source>Invalid URI: %1</source>
-        <translation>כתובת URI לא תקינה: %1</translation>
+        <translation>Ugyldig URI: %1</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessDebugPipeBackend</name>
     <message>
         <source>Write error writing to %1: %2</source>
-        <translation>שגיאת כתיבה בעת כתיבה אל %1: %2</translation>
+        <translation>Skrivefejl ved skrivning til %1: %2</translation>
     </message>
     <message>
         <source>Socket error on %1: %2</source>
-        <translation>שגיאת שקע על %1: %2</translation>
+        <translation>Socket-fejl på %1: %2</translation>
     </message>
     <message>
         <source>Remote host closed the connection prematurely on %1</source>
-        <translation>מארח מרוחק סגר בטרם עת את החיבור על %1</translation>
+        <translation>Fjern-værten lukkede forbindelsen i utide på %1</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessFileBackend</name>
     <message>
         <source>Request for opening non-local file %1</source>
-        <translation>בקשה לפתיחת קובץ שאינו מקומי %1</translation>
+        <translation>Anmodning om at åbne ikke-lokal fil %1</translation>
     </message>
     <message>
         <source>Error opening %1: %2</source>
-        <translation>שגיאה בפתיחת %1: ‏%2</translation>
+        <translation>Fejl ved åbning af %1: %2</translation>
     </message>
     <message>
         <source>Write error writing to %1: %2</source>
-        <translation>שגיאת כתיבה בעת כתיבה אל %1: %2</translation>
+        <translation>Skrivefejl ved skrivning til %1: %2</translation>
     </message>
     <message>
         <source>Cannot open %1: Path is a directory</source>
-        <translation>אין אפשרות לפתוח את %1: נתיב הינו ספרייה</translation>
+        <translation>Kan ikke åbne %1: stien er en mappe</translation>
     </message>
     <message>
         <source>Read error reading from %1: %2</source>
-        <translation>שגיאת קריאה בעת קריאה מתוך %1: %2</translation>
+        <translation>Læsefejl ved læsning fra %1: %2</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessFtpBackend</name>
     <message>
         <source>No suitable proxy found</source>
-        <translation>לא נמצא שרת מתווך מתאים</translation>
+        <translation>Der blev ikke fundet en egnet proxy</translation>
     </message>
     <message>
         <source>Cannot open %1: is a directory</source>
-        <translation>אין אפשרות לפתוח את %1: הינו ספרייה</translation>
+        <translation>Kan ikke åbne %1: er en mappe</translation>
     </message>
     <message>
         <source>Logging in to %1 failed: authentication required</source>
-        <translation>כניסה אל %1 נכשלה: נדרש אימות</translation>
+        <translation>Logning til %1 fejlede: autentifikation kræves</translation>
     </message>
     <message>
         <source>Error while downloading %1: %2</source>
-        <translation>שגיאה במהלך הורדת %1: %2</translation>
+        <translation>Fejl under download af %1: %2</translation>
     </message>
     <message>
         <source>Error while uploading %1: %2</source>
-        <translation>שגיאה במהלך העלאת %1: %2</translation>
+        <translation>Fejl under upload af %1: %2</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessManager</name>
     <message>
         <source>Network access is disabled.</source>
-        <translation>גישת רשת הינה מנוטרלת.</translation>
+        <translation>Netværksadgang er deaktiveret.</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReply</name>
     <message>
+        <source>Error transferring %1 - server replied: %2</source>
+        <translation>Fejl ved overførsel af %1 - serveren svarede: %2</translation>
+    </message>
+    <message>
         <source>Background request not allowed.</source>
-        <translation>בקשת רקע לא מורשית.</translation>
+        <translation>Baggrundsanmodning ikke tilladt.</translation>
     </message>
     <message>
         <source>Network session error.</source>
-        <translation>שגיאת פגישת רשת.</translation>
+        <translation>Netværkssessionsfejl.</translation>
     </message>
     <message>
         <source>backend start error.</source>
-        <translation>שגיאת התחלת מגשר עורפי.</translation>
+        <translation>backend startfejl.</translation>
     </message>
     <message>
         <source>Temporary network failure.</source>
-        <translation>כשל רשת זמני.</translation>
+        <translation>Midlertidig netværksfejl.</translation>
     </message>
     <message>
         <source>Protocol &quot;%1&quot; is unknown</source>
-        <translation>פרוטוקול &quot;%1&quot; אינו מוכר</translation>
-    </message>
-    <message>
-        <source>Error transferring %1 - server replied: %2</source>
-        <translation>שגיאה בהעברת %1 - שרת ענה: %2</translation>
+        <translation>Protokollen &quot;%1&quot; er ukendt</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReplyHttpImpl</name>
     <message>
         <source>Operation canceled</source>
-        <translation>פעולה בוטלה</translation>
+        <translation>Handlingen blev annulleret</translation>
     </message>
     <message>
         <source>No suitable proxy found</source>
-        <translation>לא נמצא שרת מתווך מתאים</translation>
+        <translation>Der blev ikke fundet en egnet proxy</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReplyImpl</name>
     <message>
         <source>Operation canceled</source>
-        <translation>פעולה בוטלה</translation>
+        <translation>Handlingen blev annulleret</translation>
     </message>
 </context>
 <context>
     <name>QNetworkSession</name>
     <message>
         <source>Invalid configuration.</source>
-        <translation>תצורה לא תקינה.</translation>
+        <translation>Ugyldig konfiguration.</translation>
     </message>
 </context>
 <context>
     <name>QNetworkSessionPrivateImpl</name>
     <message>
         <source>Unknown session error.</source>
-        <translation>שגיאת פגישה לא מוכרת.</translation>
+        <translation>Ukendt sessionsfejl.</translation>
     </message>
     <message>
         <source>The session was aborted by the user or system.</source>
-        <translation>הפגישה בוטלה על ידי משתמש או מערכת.</translation>
+        <translation>Sessionen blev afbrudt af brugeren eller systemet.</translation>
     </message>
     <message>
         <source>The requested operation is not supported by the system.</source>
-        <translation>הפעולה המבוקשת אינה נתמכת על ידי המערכת.</translation>
+        <translation>Den anmodede handling understøttes ikke af systemet.</translation>
     </message>
     <message>
         <source>The specified configuration cannot be used.</source>
-        <translation>התצורה אשר צוינה לא שמישה.</translation>
+        <translation>Den specificerede konfiguration kan ikke bruges.</translation>
     </message>
     <message>
         <source>Roaming was aborted or is not possible.</source>
-        <translation>נדידה בוטלה או אינה אפשרית.</translation>
+        <translation>Roaming blev afbrudt eller er ikke mulig.</translation>
     </message>
 </context>
 <context>
@@ -2516,299 +2516,299 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Unable to initialize</source>
         <comment>QOCIDriver</comment>
-        <translation>אין אפשרות לאתחל</translation>
+        <translation>Kunne ikke initialisere</translation>
     </message>
     <message>
         <source>Unable to logon</source>
-        <translation>אין אפשרות להתחבר</translation>
+        <translation>Kunne ikke logge ind</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>אין אפשרות להתחיל טרנזקציה</translation>
+        <translation>Kunne ikke påbegynde transaktionen</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>אין אפשרות לבצע טרנזקציה</translation>
+        <translation>Kunne ikke gennemføre transaktionen</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>אין אפשרות להחזיר לאחור טרנזקציה</translation>
+        <translation>Kunne ikke tilbagetrække transaktionen</translation>
     </message>
 </context>
 <context>
     <name>QOCIResult</name>
     <message>
         <source>Unable to bind column for batch execute</source>
-        <translation>אין אפשרות לכרוך טור עבור הרצת אצווה</translation>
+        <translation>Kunne ikke binde kolonne til batch-eksekvering</translation>
     </message>
     <message>
         <source>Unable to execute batch statement</source>
-        <translation>אין אפשרות לבצע הוראת אצווה</translation>
+        <translation>Kunne ikke eksekvere batch-udsagn</translation>
     </message>
     <message>
         <source>Unable to goto next</source>
-        <translation>אין אפשרות להמשיך הלאה</translation>
+        <translation>Kunne ikke gå til næste</translation>
     </message>
     <message>
         <source>Unable to alloc statement</source>
-        <translation>אין אפשרות להקצות הוראה</translation>
+        <translation>Kunne ikke allokere udsagn</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>אין אפשרות להכין הוראה</translation>
+        <translation>Kunne ikke forberede udsagn</translation>
     </message>
     <message>
         <source>Unable to get statement type</source>
-        <translation>אין אפשרות להשיג טיפוס הוראה</translation>
+        <translation>Kunne ikke hente udsagnstype</translation>
     </message>
     <message>
         <source>Unable to bind value</source>
-        <translation>אין אפשרות לכרוך ערך</translation>
+        <translation>Kunne ikke binde værdi</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>אין אפשרות לבצע הוראה</translation>
+        <translation>Kunne ikke eksekvere udsagn</translation>
     </message>
 </context>
 <context>
     <name>QODBCDriver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>אין אפשרות להתחבר</translation>
+        <translation>Kunne ikke oprette forbindelsen</translation>
     </message>
     <message>
         <source>Unable to connect - Driver doesn&apos;t support all functionality required</source>
-        <translation>אין אפשרות להתחבר - דרייבר לא תומך בכל התפקודיות הנדרשת</translation>
+        <translation>Kunne ikke oprette forbindelsen - driveren understøtter ikke alle de krævede funktionaliteter</translation>
     </message>
     <message>
         <source>Unable to disable autocommit</source>
-        <translation>אין אפשרות לנטרל ביצוע ממוכן</translation>
+        <translation>Kunne ikke deaktivere auto-gennemfør</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>אין אפשרות לבצע טרנזקציה</translation>
+        <translation>Kunne ikke gennemføre transaktionen</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>אין אפשרות להחזיר לאחור טרנזקציה</translation>
+        <translation>Kunne ikke tilbagetrække transaktionen</translation>
     </message>
     <message>
         <source>Unable to enable autocommit</source>
-        <translation>אין אפשרות לאפשר ביצוע ממוכן</translation>
+        <translation>Kunne ikke aktivere auto-gennemfør</translation>
     </message>
 </context>
 <context>
     <name>QODBCResult</name>
     <message>
         <source>Unable to fetch last</source>
-        <translation>אין אפשרות להביא את האחרון</translation>
+        <translation>Kunne ikke hente sidste</translation>
     </message>
     <message>
         <source>QODBCResult::reset: Unable to set &apos;SQL_CURSOR_STATIC&apos; as statement attribute. Please check your ODBC driver configuration</source>
-        <translation>QODBCResult::reset: לא ניתן לקבוע את &apos;SQL_CURSOR_STATIC&apos; כתכונת הוראה. נא לבדוק את תצורת דרייבר ה־ODBC</translation>
+        <translation>QODBCResult::reset: kunne ikke sætte &apos;SQL_CURSOR_STATIC&apos; som udsagnsattribut. Tjek venligst din ODBC-driverkonfiguration</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>אין אפשרות לבצע הוראה</translation>
+        <translation>Kunne ikke eksekvere udsagn</translation>
     </message>
     <message>
         <source>Unable to fetch</source>
-        <translation>אין אפשרות להביא</translation>
+        <translation>Kunne ikke hente</translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>אין אפשרות להביא את הבא</translation>
+        <translation>Kunne ikke hente næste</translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>אין אפשרות להביא את הראשון</translation>
+        <translation>Kunne ikke hente første</translation>
     </message>
     <message>
         <source>Unable to fetch previous</source>
-        <translation>אין אפשרות להביא את הקודם</translation>
+        <translation>Kunne ikke hente forrige</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>אין אפשרות להכין הוראה</translation>
+        <translation>Kunne ikke forberede udsagn</translation>
     </message>
     <message>
         <source>Unable to bind variable</source>
-        <translation>אין אפשרות לכרוך משתנה</translation>
+        <translation>Kunne ikke binde variablen</translation>
     </message>
 </context>
 <context>
     <name>QPSQLDriver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>אין אפשרות להתחבר</translation>
+        <translation>Kunne ikke oprette forbindelse</translation>
     </message>
     <message>
         <source>Could not begin transaction</source>
-        <translation>אין אפשרות להתחיל טרנזקציה</translation>
+        <translation>Kunne ikke påbegynde transaktionen</translation>
     </message>
     <message>
         <source>Could not commit transaction</source>
-        <translation>אין אפשרות לבצע טרנזקציה</translation>
+        <translation>Kunne ikke gennemføre transaktionen</translation>
     </message>
     <message>
         <source>Could not rollback transaction</source>
-        <translation>אין אפשרות להחזיר לאחור טרנזקציה</translation>
+        <translation>Kunne ikke tilbagetrække transaktionen</translation>
     </message>
     <message>
         <source>Unable to subscribe</source>
-        <translation>אין אפשרות להירשם</translation>
+        <translation>Kunne ikke tilmelde</translation>
     </message>
     <message>
         <source>Unable to unsubscribe</source>
-        <translation>אין אפשרות לבטל הרשמה</translation>
+        <translation>Kunne ikke afmelde</translation>
     </message>
 </context>
 <context>
     <name>QPSQLResult</name>
     <message>
         <source>Unable to create query</source>
-        <translation>אין אפשרות ליצור שאילתא</translation>
+        <translation>Kunne ikke oprette forespørgsel</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>אין אפשרות להכין הוראה</translation>
+        <translation>Kunne ikke forberede udsagn</translation>
     </message>
 </context>
 <context>
     <name>QPageSetupWidget</name>
     <message>
         <source>Form</source>
-        <translation>טופס</translation>
+        <translation>Form</translation>
     </message>
     <message>
         <source>Paper</source>
-        <translation>נייר</translation>
+        <translation>Papir</translation>
     </message>
     <message>
         <source>Page size:</source>
-        <translation>מידת עמוד:</translation>
+        <translation>Sidestørrelse:</translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation>רוחב:</translation>
+        <translation>Bredde:</translation>
     </message>
     <message>
         <source>Height:</source>
-        <translation>גובה:</translation>
+        <translation>Højde:</translation>
     </message>
     <message>
         <source>Paper source:</source>
-        <translation>מקור נייר:</translation>
+        <translation>Papirkilde:</translation>
     </message>
     <message>
         <source>Orientation</source>
-        <translation>כיוון הדפסה</translation>
+        <translation>Orientering</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>לאורך</translation>
+        <translation>Portræt</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>לרוחב</translation>
+        <translation>Landskab</translation>
     </message>
     <message>
         <source>Reverse landscape</source>
-        <translation>במהופך לרוחב</translation>
+        <translation>Omvendt landskab</translation>
     </message>
     <message>
         <source>Reverse portrait</source>
-        <translation>במהופך לאורך</translation>
+        <translation>Omvendt portræt</translation>
     </message>
     <message>
         <source>Margins</source>
-        <translation>שוליים</translation>
+        <translation>Margener</translation>
     </message>
     <message>
         <source>top margin</source>
-        <translation>קצה עליון</translation>
+        <translation>øverste margen</translation>
     </message>
     <message>
         <source>left margin</source>
-        <translation>קצה שמאלי</translation>
+        <translation>venstre margen</translation>
     </message>
     <message>
         <source>right margin</source>
-        <translation>קצה ימני</translation>
+        <translation>højre margen</translation>
     </message>
     <message>
         <source>bottom margin</source>
-        <translation>קצה תחתון</translation>
+        <translation>nederste margen</translation>
     </message>
     <message>
         <source>Page Layout</source>
-        <translation>פריסת עמוד</translation>
+        <translation>Sidelayout</translation>
     </message>
     <message>
         <source>Page order:</source>
-        <translation>סדר עמודים:</translation>
+        <translation>Sideorden:</translation>
     </message>
     <message>
         <source>Pages per sheet:</source>
-        <translation>עמודים לגליון:</translation>
+        <translation>Sider pr. ark:</translation>
     </message>
     <message>
         <source>Millimeters (mm)</source>
-        <translation>מילימטרים (מ״מ)</translation>
+        <translation>Millimeter (mm)</translation>
     </message>
     <message>
         <source>Inches (in)</source>
-        <translation>אינצ&apos;ים (אינ)</translation>
+        <translation>Tommer (tommer)</translation>
     </message>
     <message>
         <source>Points (pt)</source>
-        <translation>נקודות (נק)</translation>
+        <translation>Punkter (pt)</translation>
     </message>
     <message>
         <source>Pica (P̸)</source>
-        <translation>פיקה (P̸)</translation>
+        <translation>Pica (P̸)</translation>
     </message>
     <message>
         <source>Didot (DD)</source>
-        <translation>דידוט (DD)</translation>
+        <translation>Didot (DD)</translation>
     </message>
     <message>
         <source>Cicero (CC)</source>
-        <translation>סיסרו (CC)</translation>
+        <translation>Cicero (CC)</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>מותאם</translation>
+        <translation>Brugerdefineret</translation>
     </message>
     <message>
         <source>mm</source>
         <extracomment>Unit &apos;Millimeter&apos;</extracomment>
-        <translation>מ״מ</translation>
+        <translation>mm</translation>
     </message>
     <message>
         <source>pt</source>
         <extracomment>Unit &apos;Points&apos;</extracomment>
-        <translation>נקודות</translation>
+        <translation>pt</translation>
     </message>
     <message>
         <source>in</source>
         <extracomment>Unit &apos;Inch&apos;</extracomment>
-        <translation>אינץ׳</translation>
+        <translation>tommer</translation>
     </message>
     <message>
         <source>P̸</source>
         <extracomment>Unit &apos;Pica&apos;</extracomment>
-        <translation>פיקה</translation>
+        <translation>P̸</translation>
     </message>
     <message>
         <source>DD</source>
         <extracomment>Unit &apos;Didot&apos;</extracomment>
-        <translation>דידוט</translation>
+        <translation>DD</translation>
     </message>
     <message>
         <source>CC</source>
         <extracomment>Unit &apos;Cicero&apos;</extracomment>
-        <translation>סיסרו</translation>
+        <translation>CC</translation>
     </message>
 </context>
 <context>
@@ -2816,709 +2816,709 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Custom (%1mm x %2mm)</source>
         <extracomment>Custom size name in millimeters</extracomment>
-        <translation>מותאם אישית (%1 מ״מ x %2 מ״מ)</translation>
+        <translation>Brugerdefineret (%1 mm x %2 mm)</translation>
     </message>
     <message>
         <source>Custom (%1pt x %2pt)</source>
         <extracomment>Custom size name in points</extracomment>
-        <translation>מותאם אישית (%1 נק&apos; x %2 נ&apos;)</translation>
+        <translation>Brugerdefineret (%1 pt x %2 pt)</translation>
     </message>
     <message>
         <source>Custom (%1in x %2in)</source>
         <extracomment>Custom size name in inches</extracomment>
-        <translation>מותאם אישית (%1 אינץ׳ x %2 אינץ׳)</translation>
+        <translation>Brugerdefineret (%1 tommer x %2 tommer)</translation>
     </message>
     <message>
         <source>Custom (%1pc x %2pc)</source>
         <extracomment>Custom size name in picas</extracomment>
-        <translation>מותאם אישית (%1 פיקה x %2 פיקה)</translation>
+        <translation>Brugerdefineret (%1 pc x %2 pc)</translation>
     </message>
     <message>
         <source>Custom (%1DD x %2DD)</source>
         <extracomment>Custom size name in didots</extracomment>
-        <translation>מותאם אישית (%1 DD x %2 DD)</translation>
+        <translation>Brugerdefineret (%1 DD x %2 DD)</translation>
     </message>
     <message>
         <source>Custom (%1CC x %2CC)</source>
         <extracomment>Custom size name in ciceros</extracomment>
-        <translation>מותאם אישית (%1 CC x %2 CC)</translation>
+        <translation>Brugerdefineret (%1 CC x %2 CC)</translation>
     </message>
     <message>
         <source>%1 x %2 in</source>
         <extracomment>Page size in &apos;Inch&apos;.</extracomment>
-        <translation>%1 x %2 אינץ׳</translation>
+        <translation>%1 x %2 tommer</translation>
     </message>
     <message>
         <source>A0</source>
-        <translation></translation>
+        <translation>A0</translation>
     </message>
     <message>
         <source>A1</source>
-        <translation></translation>
+        <translation>A1</translation>
     </message>
     <message>
         <source>A2</source>
-        <translation></translation>
+        <translation>A2</translation>
     </message>
     <message>
         <source>A3</source>
-        <translation></translation>
+        <translation>A3</translation>
     </message>
     <message>
         <source>A4</source>
-        <translation></translation>
+        <translation>A4</translation>
     </message>
     <message>
         <source>A5</source>
-        <translation></translation>
+        <translation>A5</translation>
     </message>
     <message>
         <source>A6</source>
-        <translation></translation>
+        <translation>A6</translation>
     </message>
     <message>
         <source>A7</source>
-        <translation></translation>
+        <translation>A7</translation>
     </message>
     <message>
         <source>A8</source>
-        <translation></translation>
+        <translation>A8</translation>
     </message>
     <message>
         <source>A9</source>
-        <translation></translation>
+        <translation>A9</translation>
     </message>
     <message>
         <source>A10</source>
-        <translation></translation>
+        <translation>A10</translation>
     </message>
     <message>
         <source>B0</source>
-        <translation></translation>
+        <translation>B0</translation>
     </message>
     <message>
         <source>B1</source>
-        <translation></translation>
+        <translation>B1</translation>
     </message>
     <message>
         <source>B2</source>
-        <translation></translation>
+        <translation>B2</translation>
     </message>
     <message>
         <source>B3</source>
-        <translation></translation>
+        <translation>B3</translation>
     </message>
     <message>
         <source>B4</source>
-        <translation></translation>
+        <translation>B4</translation>
     </message>
     <message>
         <source>B5</source>
-        <translation></translation>
+        <translation>B5</translation>
     </message>
     <message>
         <source>B6</source>
-        <translation></translation>
+        <translation>B6</translation>
     </message>
     <message>
         <source>B7</source>
-        <translation></translation>
+        <translation>B7</translation>
     </message>
     <message>
         <source>B8</source>
-        <translation></translation>
+        <translation>B8</translation>
     </message>
     <message>
         <source>B9</source>
-        <translation></translation>
+        <translation>B9</translation>
     </message>
     <message>
         <source>B10</source>
-        <translation></translation>
+        <translation>B10</translation>
     </message>
     <message>
         <source>Executive (7.5 x 10 in)</source>
-        <translation></translation>
+        <translation>Executive (7,5 x 10 tommer)</translation>
     </message>
     <message>
         <source>Executive (7.25 x 10.5 in)</source>
-        <translation></translation>
+        <translation>Executive (7,25 x 10,5 tommer)</translation>
     </message>
     <message>
         <source>Folio (8.27 x 13 in)</source>
-        <translation></translation>
+        <translation>Folio (8,27 x 13 tommer)</translation>
     </message>
     <message>
         <source>Legal</source>
-        <translation>משפטי</translation>
+        <translation>Juridisk</translation>
     </message>
     <message>
         <source>Letter / ANSI A</source>
-        <translation></translation>
+        <translation>Brev/ANSI A</translation>
     </message>
     <message>
         <source>Tabloid / ANSI B</source>
-        <translation></translation>
+        <translation>Tabloid/ANSI B</translation>
     </message>
     <message>
         <source>Ledger / ANSI B</source>
-        <translation></translation>
+        <translation>Ledger/ANSI B</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>מותאם</translation>
+        <translation>Brugerdefineret</translation>
     </message>
     <message>
         <source>A3 Extra</source>
-        <translation></translation>
+        <translation>A3 ekstra</translation>
     </message>
     <message>
         <source>A4 Extra</source>
-        <translation></translation>
+        <translation>A4 ekstra</translation>
     </message>
     <message>
         <source>A4 Plus</source>
-        <translation></translation>
+        <translation>A4 plus</translation>
     </message>
     <message>
         <source>A4 Small</source>
-        <translation></translation>
+        <translation>A4 lille</translation>
     </message>
     <message>
         <source>A5 Extra</source>
-        <translation></translation>
+        <translation>A5 ekstra</translation>
     </message>
     <message>
         <source>B5 Extra</source>
-        <translation></translation>
+        <translation>B5 ekstra</translation>
     </message>
     <message>
         <source>JIS B0</source>
-        <translation></translation>
+        <translation>JIS B0</translation>
     </message>
     <message>
         <source>JIS B1</source>
-        <translation></translation>
+        <translation>JIS B1</translation>
     </message>
     <message>
         <source>JIS B2</source>
-        <translation></translation>
+        <translation>JIS B2</translation>
     </message>
     <message>
         <source>JIS B3</source>
-        <translation></translation>
+        <translation>JIS B3</translation>
     </message>
     <message>
         <source>JIS B4</source>
-        <translation></translation>
+        <translation>JIS B4</translation>
     </message>
     <message>
         <source>JIS B5</source>
-        <translation></translation>
+        <translation>JIS B5</translation>
     </message>
     <message>
         <source>JIS B6</source>
-        <translation></translation>
+        <translation>JIS B6</translation>
     </message>
     <message>
         <source>JIS B7</source>
-        <translation></translation>
+        <translation>JIS B7</translation>
     </message>
     <message>
         <source>JIS B8</source>
-        <translation></translation>
+        <translation>JIS B8</translation>
     </message>
     <message>
         <source>JIS B9</source>
-        <translation></translation>
+        <translation>JIS B9</translation>
     </message>
     <message>
         <source>JIS B10</source>
-        <translation></translation>
+        <translation>JIS B10</translation>
     </message>
     <message>
         <source>ANSI C</source>
-        <translation></translation>
+        <translation>ANSI C</translation>
     </message>
     <message>
         <source>ANSI D</source>
-        <translation></translation>
+        <translation>ANSI D</translation>
     </message>
     <message>
         <source>ANSI E</source>
-        <translation></translation>
+        <translation>ANSI E</translation>
     </message>
     <message>
         <source>Legal Extra</source>
-        <translation></translation>
+        <translation>Juridisk ekstra</translation>
     </message>
     <message>
         <source>Letter Extra</source>
-        <translation></translation>
+        <translation>Brev ekstra</translation>
     </message>
     <message>
         <source>Letter Plus</source>
-        <translation></translation>
+        <translation>Brev plus</translation>
     </message>
     <message>
         <source>Letter Small</source>
-        <translation></translation>
+        <translation>Brev lille</translation>
     </message>
     <message>
         <source>Tabloid Extra</source>
-        <translation></translation>
+        <translation>Tabloid ekstra</translation>
     </message>
     <message>
         <source>Architect A</source>
-        <translation></translation>
+        <translation>Arkitekt A</translation>
     </message>
     <message>
         <source>Architect B</source>
-        <translation></translation>
+        <translation>Arkitekt B</translation>
     </message>
     <message>
         <source>Architect C</source>
-        <translation></translation>
+        <translation>Arkitekt C</translation>
     </message>
     <message>
         <source>Architect D</source>
-        <translation></translation>
+        <translation>Arkitekt D</translation>
     </message>
     <message>
         <source>Architect E</source>
-        <translation></translation>
+        <translation>Arkitekt E</translation>
     </message>
     <message>
         <source>Note</source>
-        <translation></translation>
+        <translation>Notits</translation>
     </message>
     <message>
         <source>Quarto</source>
-        <translation></translation>
+        <translation>Quarto</translation>
     </message>
     <message>
         <source>Statement</source>
-        <translation></translation>
+        <translation>Erklæring</translation>
     </message>
     <message>
         <source>Super A</source>
-        <translation></translation>
+        <translation>Super A</translation>
     </message>
     <message>
         <source>Super B</source>
-        <translation></translation>
+        <translation>Super B</translation>
     </message>
     <message>
         <source>Postcard</source>
-        <translation></translation>
+        <translation>Postkort</translation>
     </message>
     <message>
         <source>Double Postcard</source>
-        <translation></translation>
+        <translation>Dobbelt postkort</translation>
     </message>
     <message>
         <source>PRC 16K</source>
-        <translation></translation>
+        <translation>PRC 16K</translation>
     </message>
     <message>
         <source>PRC 32K</source>
-        <translation></translation>
+        <translation>PRC 32K</translation>
     </message>
     <message>
         <source>PRC 32K Big</source>
-        <translation></translation>
+        <translation>PRC 32K stor</translation>
     </message>
     <message>
         <source>Fan-fold US (14.875 x 11 in)</source>
-        <translation></translation>
+        <translation>Fan-fold US (14,875 x 11 tommer)</translation>
     </message>
     <message>
         <source>Fan-fold German (8.5 x 12 in)</source>
-        <translation></translation>
+        <translation>Fan-fold tysk (8,5 x 12 tommer)</translation>
     </message>
     <message>
         <source>Fan-fold German Legal (8.5 x 13 in)</source>
-        <translation></translation>
+        <translation>Fan-fold tysk juridisk (8,5 x 13 tommer)</translation>
     </message>
     <message>
         <source>Envelope B4</source>
-        <translation></translation>
+        <translation>Konvolut B4</translation>
     </message>
     <message>
         <source>Envelope B5</source>
-        <translation></translation>
+        <translation>Konvolut B5</translation>
     </message>
     <message>
         <source>Envelope B6</source>
-        <translation></translation>
+        <translation>Konvolut B6</translation>
     </message>
     <message>
         <source>Envelope C0</source>
-        <translation></translation>
+        <translation>Konvolut C0</translation>
     </message>
     <message>
         <source>Envelope C1</source>
-        <translation></translation>
+        <translation>Konvolut C1</translation>
     </message>
     <message>
         <source>Envelope C2</source>
-        <translation></translation>
+        <translation>Konvolut C2</translation>
     </message>
     <message>
         <source>Envelope C3</source>
-        <translation></translation>
+        <translation>Konvolut C3</translation>
     </message>
     <message>
         <source>Envelope C4</source>
-        <translation></translation>
+        <translation>Konvolut C4</translation>
     </message>
     <message>
         <source>Envelope C5</source>
-        <translation></translation>
+        <translation>Konvolut C5</translation>
     </message>
     <message>
         <source>Envelope C6</source>
-        <translation></translation>
+        <translation>Konvolut C6</translation>
     </message>
     <message>
         <source>Envelope C65</source>
-        <translation></translation>
+        <translation>Konvolut C65</translation>
     </message>
     <message>
         <source>Envelope C7</source>
-        <translation></translation>
+        <translation>Konvolut C7</translation>
     </message>
     <message>
         <source>Envelope DL</source>
-        <translation></translation>
+        <translation>Konvolut DL</translation>
     </message>
     <message>
         <source>Envelope US 9</source>
-        <translation></translation>
+        <translation>Konvolut US 9</translation>
     </message>
     <message>
         <source>Envelope US 10</source>
-        <translation></translation>
+        <translation>Konvolut US 10</translation>
     </message>
     <message>
         <source>Envelope US 11</source>
-        <translation></translation>
+        <translation>Konvolut US 11</translation>
     </message>
     <message>
         <source>Envelope US 12</source>
-        <translation></translation>
+        <translation>Konvolut US 12</translation>
     </message>
     <message>
         <source>Envelope US 14</source>
-        <translation></translation>
+        <translation>Konvolut US 14</translation>
     </message>
     <message>
         <source>Envelope Monarch</source>
-        <translation></translation>
+        <translation>Konvolut monark</translation>
     </message>
     <message>
         <source>Envelope Personal</source>
-        <translation></translation>
+        <translation>Konvolut personlig</translation>
     </message>
     <message>
         <source>Envelope Chou 3</source>
-        <translation></translation>
+        <translation>Konvolut chou 3</translation>
     </message>
     <message>
         <source>Envelope Chou 4</source>
-        <translation></translation>
+        <translation>Konvolut chou 4</translation>
     </message>
     <message>
         <source>Envelope Invite</source>
-        <translation></translation>
+        <translation>Konvolut invitation</translation>
     </message>
     <message>
         <source>Envelope Italian</source>
-        <translation></translation>
+        <translation>Konvolut italiensk</translation>
     </message>
     <message>
         <source>Envelope Kaku 2</source>
-        <translation></translation>
+        <translation>Konvolut kaku 2</translation>
     </message>
     <message>
         <source>Envelope Kaku 3</source>
-        <translation></translation>
+        <translation>Konvolut kaku 3</translation>
     </message>
     <message>
         <source>Envelope PRC 1</source>
-        <translation></translation>
+        <translation>Konvolut PRC 1</translation>
     </message>
     <message>
         <source>Envelope PRC 2</source>
-        <translation></translation>
+        <translation>Konvolut PRC 2</translation>
     </message>
     <message>
         <source>Envelope PRC 3</source>
-        <translation></translation>
+        <translation>Konvolut PRC 3</translation>
     </message>
     <message>
         <source>Envelope PRC 4</source>
-        <translation></translation>
+        <translation>Konvolut PRC 4</translation>
     </message>
     <message>
         <source>Envelope PRC 5</source>
-        <translation></translation>
+        <translation>Konvolut PRC 5</translation>
     </message>
     <message>
         <source>Envelope PRC 6</source>
-        <translation></translation>
+        <translation>Konvolut PRC 6</translation>
     </message>
     <message>
         <source>Envelope PRC 7</source>
-        <translation></translation>
+        <translation>Konvolut PRC 7</translation>
     </message>
     <message>
         <source>Envelope PRC 8</source>
-        <translation></translation>
+        <translation>Konvolut PRC 8</translation>
     </message>
     <message>
         <source>Envelope PRC 9</source>
-        <translation></translation>
+        <translation>Konvolut PRC 9</translation>
     </message>
     <message>
         <source>Envelope PRC 10</source>
-        <translation></translation>
+        <translation>Konvolut PRC 10</translation>
     </message>
     <message>
         <source>Envelope You 4</source>
-        <translation></translation>
+        <translation>Konvolut you 4</translation>
     </message>
 </context>
 <context>
     <name>QPlatformTheme</name>
     <message>
         <source>OK</source>
-        <translation>אישור</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>שמור</translation>
+        <translation>Gem</translation>
     </message>
     <message>
         <source>Save All</source>
-        <translation>שמור הכל</translation>
+        <translation>Gem alle</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>פתיחה</translation>
+        <translation>Åbn</translation>
     </message>
     <message>
         <source>&amp;Yes</source>
-        <translation>&amp;כן</translation>
+        <translation>&amp;Ja</translation>
     </message>
     <message>
         <source>Yes to &amp;All</source>
-        <translation>כן ל&amp;הכל</translation>
+        <translation>Ja til &amp;alle</translation>
     </message>
     <message>
         <source>&amp;No</source>
-        <translation>&amp;לא</translation>
+        <translation>&amp;Nej</translation>
     </message>
     <message>
         <source>N&amp;o to All</source>
-        <translation>ל&amp;א להכל</translation>
+        <translation>Ne&amp;j til alle</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation>בטל</translation>
+        <translation>Afbryd</translation>
     </message>
     <message>
         <source>Retry</source>
-        <translation>נסה שוב</translation>
+        <translation>Prøv igen</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation>התעלם</translation>
+        <translation>Ignorer</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>סגור</translation>
+        <translation>Luk</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>ביטול</translation>
+        <translation>Annuller</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>שכח</translation>
+        <translation>Forkast</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>עזרה</translation>
+        <translation>Hjælp</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation>החל</translation>
+        <translation>Anvend</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>אפס</translation>
+        <translation>Nulstil</translation>
     </message>
     <message>
         <source>Restore Defaults</source>
-        <translation>שחזר ברירות מחדל</translation>
+        <translation>Genskab standarder</translation>
     </message>
 </context>
 <context>
     <name>QPluginLoader</name>
     <message>
         <source>The plugin was not loaded.</source>
-        <translation>התוסף לא נטען.</translation>
+        <translation>Pluginet blev ikke indlæst.</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>שגיאה לא מוכרת</translation>
+        <translation>Ukendt fejl</translation>
     </message>
 </context>
 <context>
     <name>QPrintDialog</name>
     <message>
         <source>Print</source>
-        <translation>הדפסה</translation>
+        <translation>Udskriv</translation>
     </message>
     <message>
         <source>Left to Right, Top to Bottom</source>
-        <translation>משמאל לימין, ממעלה למטה</translation>
+        <translation>Venstre til højre, øverst til nederst</translation>
     </message>
     <message>
         <source>Left to Right, Bottom to Top</source>
-        <translation>משמאל לימין, ממטה למעלה</translation>
+        <translation>Venstre til højre, nederst til øverst</translation>
     </message>
     <message>
         <source>Right to Left, Bottom to Top</source>
-        <translation>מימין לשמאל, ממטה למעלה</translation>
+        <translation>Højre til venstre, nederst til øverst</translation>
     </message>
     <message>
         <source>Right to Left, Top to Bottom</source>
-        <translation>מימין לשמאל, ממעלה למטה</translation>
+        <translation>Højre til venstre, øverst til nederst</translation>
     </message>
     <message>
         <source>Bottom to Top, Left to Right</source>
-        <translation>ממטה למעלה, משמאל לימין</translation>
+        <translation>Nederst til øverst, venstre til højre</translation>
     </message>
     <message>
         <source>Bottom to Top, Right to Left</source>
-        <translation>ממטה למעלה, מימין לשמאל</translation>
+        <translation>Nederst til øverst, højre til venstre</translation>
     </message>
     <message>
         <source>Top to Bottom, Left to Right</source>
-        <translation>ממעלה למטה, משמאל לימין</translation>
+        <translation>Øverst til nederst, venstre til højre</translation>
     </message>
     <message>
         <source>Top to Bottom, Right to Left</source>
-        <translation>ממעלה למטה, מימין לשמאל</translation>
+        <translation>Øverst til nederst, højre til venstre</translation>
     </message>
     <message>
         <source>1 (1x1)</source>
-        <translation></translation>
+        <translation>1 (1x1)</translation>
     </message>
     <message>
         <source>2 (2x1)</source>
-        <translation></translation>
+        <translation>2 (2x1)</translation>
     </message>
     <message>
         <source>4 (2x2)</source>
-        <translation></translation>
+        <translation>4 (2x2)</translation>
     </message>
     <message>
         <source>6 (2x3)</source>
-        <translation></translation>
+        <translation>6 (2x3)</translation>
     </message>
     <message>
         <source>9 (3x3)</source>
-        <translation></translation>
+        <translation>9 (3x3)</translation>
     </message>
     <message>
         <source>16 (4x4)</source>
-        <translation></translation>
+        <translation>16 (4x4)</translation>
     </message>
     <message>
         <source>All Pages</source>
-        <translation>כל העמודים</translation>
+        <translation>Alle sider</translation>
     </message>
     <message>
         <source>Odd Pages</source>
-        <translation>עמודים אי זוגיים</translation>
+        <translation>Ulige sider</translation>
     </message>
     <message>
         <source>Even Pages</source>
-        <translation>עמודים זוגיים</translation>
+        <translation>Lige sider</translation>
     </message>
     <message>
         <source>&amp;Options &gt;&gt;</source>
-        <translation>&amp;אפשרויות &gt;&gt;</translation>
+        <translation>&amp;Valgmuligheder &gt;&gt;</translation>
     </message>
     <message>
         <source>&amp;Print</source>
-        <translation>&amp;הדפס</translation>
+        <translation>&amp;Udskriv</translation>
     </message>
     <message>
         <source>&amp;Options &lt;&lt;</source>
-        <translation>&amp;אפשרויות &lt;&lt;</translation>
+        <translation>&amp;Valgmuligheder &lt;&lt;</translation>
     </message>
     <message>
         <source>Print to File (PDF)</source>
-        <translation>הדפס לקובץ (PDF)</translation>
+        <translation>Udskriv til fil (PDF)</translation>
     </message>
     <message>
         <source>Local file</source>
-        <translation>קובץ מקומי</translation>
+        <translation>Lokal fil</translation>
     </message>
     <message>
         <source>Write PDF file</source>
-        <translation>כתיבה אל קובץ PDF</translation>
+        <translation>Skriv PDF-fil</translation>
     </message>
     <message>
         <source>Print To File ...</source>
-        <translation>הדפסה אל קובץ...</translation>
+        <translation>Udskriv til fil...</translation>
     </message>
     <message>
         <source>%1 is a directory.
 Please choose a different file name.</source>
-        <translation>%1 הינו ספרייה.
-אנא בחר שם קובץ אחר.</translation>
+        <translation>%1 er en mappe.
+Vælg venligst et andet filnavn.</translation>
     </message>
     <message>
         <source>File %1 is not writable.
 Please choose a different file name.</source>
-        <translation>הקובץ %1 אינו בר כתיבה.
-אנא בחר שם קובץ אחר.</translation>
+        <translation>Der kan ikke skrives til filen %1.
+Vælg venligst et andet filnavn.</translation>
     </message>
     <message>
         <source>%1 already exists.
 Do you want to overwrite it?</source>
-        <translation>‏%1 כבר קיים.
-האם ברצונך להחליף אותו?</translation>
+        <translation>%1 findes allerede.
+Vil du overskrive den?</translation>
     </message>
     <message>
         <source>Options &apos;Pages Per Sheet&apos; and &apos;Page Set&apos; cannot be used together.
 Please turn one of those options off.</source>
-        <translation>לא ניתן להשתמש באפשרויות &apos;עמודים לגליון&apos; ו&apos;אוסף עמודים&apos; יחד.
-נא כבה אחת מהאפשרויות הנ&quot;ל.</translation>
+        <translation>Valgmuligheder &apos;Sider pr. ark&apos; og &apos;Sidesæt&apos; kan ikke bruges sammen.
+Slå venligst en at disse valgmuligheder fra.</translation>
     </message>
     <message>
         <source>The &apos;From&apos; value cannot be greater than the &apos;To&apos; value.</source>
-        <translation>ערך התחלה לא יכול להיות גדול מערך סיום.</translation>
+        <translation>&apos;Fra&apos;-værdien kan ikke være større end &apos;Til&apos;-værdien.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>אישור</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Automatic</source>
-        <translation>אוטומטי</translation>
+        <translation>Automatisk</translation>
     </message>
 </context>
 <context>
     <name>QPrintPreviewDialog</name>
     <message>
         <source>Page Setup</source>
-        <translation>הגדרת עמוד</translation>
+        <translation>Sideopsætning</translation>
     </message>
     <message>
         <source>%1%</source>
@@ -3526,215 +3526,215 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Print Preview</source>
-        <translation>תצוגה מקדימה</translation>
+        <translation>Forhåndsvis udskrift</translation>
     </message>
     <message>
         <source>Next page</source>
-        <translation>עמוד הבא</translation>
+        <translation>Næste side</translation>
     </message>
     <message>
         <source>Previous page</source>
-        <translation>עמוד קודם</translation>
+        <translation>Forrige side</translation>
     </message>
     <message>
         <source>First page</source>
-        <translation>עמוד ראשון</translation>
+        <translation>Første side</translation>
     </message>
     <message>
         <source>Last page</source>
-        <translation>עמוד אחרון</translation>
+        <translation>Sidste side</translation>
     </message>
     <message>
         <source>Fit width</source>
-        <translation>התאם רוחב</translation>
+        <translation>Tilpas bredde</translation>
     </message>
     <message>
         <source>Fit page</source>
-        <translation>התאם עמוד</translation>
+        <translation>Tilpas side</translation>
     </message>
     <message>
         <source>Zoom in</source>
-        <translation>זום פנימה</translation>
+        <translation>Zoom ind</translation>
     </message>
     <message>
         <source>Zoom out</source>
-        <translation>זום החוצה</translation>
+        <translation>Zoom ud</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>לאורך</translation>
+        <translation>Portræt</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>לרוחב</translation>
+        <translation>Landskab</translation>
     </message>
     <message>
         <source>Show single page</source>
-        <translation>הצג עמוד בודד</translation>
+        <translation>Vis enkelt side</translation>
     </message>
     <message>
         <source>Show facing pages</source>
-        <translation>הצג עמודים facing</translation>
+        <translation>Vis sideopslag</translation>
     </message>
     <message>
         <source>Show overview of all pages</source>
-        <translation>הצג סקירה כללית של כל העמודים</translation>
+        <translation>Vis oversigt af alle sider</translation>
     </message>
     <message>
         <source>Print</source>
-        <translation>הדפסה</translation>
+        <translation>Udskriv</translation>
     </message>
     <message>
         <source>Page setup</source>
-        <translation>הגדרת עמוד</translation>
+        <translation>Sideopsætning</translation>
     </message>
     <message>
         <source>Export to PDF</source>
-        <translation>יצא ל־PDF</translation>
+        <translation>Eksportér til PDF</translation>
     </message>
 </context>
 <context>
     <name>QPrintPropertiesDialog</name>
     <message>
         <source>Printer Properties</source>
-        <translation>מאפייני מדפסת</translation>
+        <translation>Printeregenskaber</translation>
     </message>
     <message>
         <source>Job Options</source>
-        <translation>אפשרויות עבודה</translation>
+        <translation>Job-valgmuligheder</translation>
     </message>
 </context>
 <context>
     <name>QPrintPropertiesWidget</name>
     <message>
         <source>Form</source>
-        <translation>טופס</translation>
+        <translation>Udformning</translation>
     </message>
     <message>
         <source>Page</source>
-        <translation>עמוד</translation>
+        <translation>Side</translation>
     </message>
 </context>
 <context>
     <name>QPrintSettingsOutput</name>
     <message>
         <source>Form</source>
-        <translation>טופס</translation>
+        <translation>Form</translation>
     </message>
     <message>
         <source>Copies</source>
-        <translation>עותקים</translation>
+        <translation>Kopier</translation>
     </message>
     <message>
         <source>Print range</source>
-        <translation>טווח הדפסה</translation>
+        <translation>Udskriftsområde</translation>
     </message>
     <message>
         <source>Print all</source>
-        <translation>הדפס הכל</translation>
+        <translation>Udskriv alle</translation>
     </message>
     <message>
         <source>Pages from</source>
-        <translation>מעמוד</translation>
+        <translation>Sider fra</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>עד</translation>
+        <translation>til</translation>
     </message>
     <message>
         <source>Current Page</source>
-        <translation>עמוד נוכחי</translation>
+        <translation>Aktuelle side</translation>
     </message>
     <message>
         <source>Selection</source>
-        <translation>בחירה</translation>
+        <translation>Valg</translation>
     </message>
     <message>
         <source>Page Set:</source>
-        <translation>אוסף עמודים:</translation>
+        <translation>Sidesæt:</translation>
     </message>
     <message>
         <source>Output Settings</source>
-        <translation>הגדרות פלט</translation>
+        <translation>Outputindstillinger</translation>
     </message>
     <message>
         <source>Copies:</source>
-        <translation>עותקים:</translation>
+        <translation>Kopier:</translation>
     </message>
     <message>
         <source>Collate</source>
-        <translation>השווה</translation>
+        <translation>Sætvis</translation>
     </message>
     <message>
         <source>Reverse</source>
-        <translation>הפוך</translation>
+        <translation>Omvendt</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>אפשרויות</translation>
+        <translation>Valgmuligheder</translation>
     </message>
     <message>
         <source>Color Mode</source>
-        <translation>מצב צבע</translation>
+        <translation>Farvetilstand</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation>צבע</translation>
+        <translation>Farve</translation>
     </message>
     <message>
         <source>Grayscale</source>
-        <translation>גווני אפור</translation>
+        <translation>Gråtone</translation>
     </message>
     <message>
         <source>Duplex Printing</source>
-        <translation>הדפסה דו כיוונית</translation>
+        <translation>Dupleksudskrivning</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>ללא</translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <source>Long side</source>
-        <translation>צד ארוך</translation>
+        <translation>Lang side</translation>
     </message>
     <message>
         <source>Short side</source>
-        <translation>צד קצר</translation>
+        <translation>Kort side</translation>
     </message>
 </context>
 <context>
     <name>QPrintWidget</name>
     <message>
         <source>Form</source>
-        <translation>טופס</translation>
+        <translation>Udformning</translation>
     </message>
     <message>
         <source>Printer</source>
-        <translation>מדפסת</translation>
+        <translation>Printer</translation>
     </message>
     <message>
         <source>&amp;Name:</source>
-        <translation>&amp;שם:</translation>
+        <translation>&amp;Navn:</translation>
     </message>
     <message>
         <source>P&amp;roperties</source>
-        <translation>&amp;מאפיינים</translation>
+        <translation>&amp;Egenskaber</translation>
     </message>
     <message>
         <source>Location:</source>
-        <translation>מיקום:</translation>
+        <translation>Placering:</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation>תצוגה מקדימה</translation>
+        <translation>Forhåndsvis</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation>טיפוס:</translation>
+        <translation>Type:</translation>
     </message>
     <message>
         <source>Output &amp;file:</source>
-        <translation>&amp;קובץ פלט:</translation>
+        <translation>Output&amp;fil:</translation>
     </message>
     <message>
         <source>...</source>
@@ -3744,670 +3744,670 @@ Please turn one of those options off.</source>
 <context>
     <name>QProcess</name>
     <message>
-        <source>Error reading from process</source>
-        <translation>שגיאה בקריאה מתהליך</translation>
-    </message>
-    <message>
-        <source>Error writing to process</source>
-        <translation>שגיאה בכתיבה אל תהליך</translation>
+        <source>Process failed to start</source>
+        <translation>Processen kunne ikke starte</translation>
     </message>
     <message>
         <source>Process crashed</source>
-        <translation>תהליך קרס</translation>
-    </message>
-    <message>
-        <source>Process failed to start</source>
-        <translation>תהליך נכשל בעליה</translation>
-    </message>
-    <message>
-        <source>No program defined</source>
-        <translation>לא הוגדרה תוכנית</translation>
-    </message>
-    <message>
-        <source>Could not open input redirection for reading</source>
-        <translation>לא ניתן לפתוח הפניית קלט לקריאה</translation>
-    </message>
-    <message>
-        <source>Could not open output redirection for writing</source>
-        <translation>לא ניתן לפתוח הפניית פלט לכתיבה</translation>
-    </message>
-    <message>
-        <source>Resource error (fork failure): %1</source>
-        <translation>שגיאת משאב (כשלון fork)‏: %1</translation>
+        <translation>Processen holdt op med at virke</translation>
     </message>
     <message>
         <source>Process operation timed out</source>
-        <translation>תם זמן פעולת תהליך</translation>
+        <translation>Proceshandlingen fik timeout</translation>
+    </message>
+    <message>
+        <source>Error reading from process</source>
+        <translation>Fejl ved læsning fra proces</translation>
+    </message>
+    <message>
+        <source>Error writing to process</source>
+        <translation>Fejl ved skrivning til proces</translation>
+    </message>
+    <message>
+        <source>No program defined</source>
+        <translation>Intet program defineret</translation>
+    </message>
+    <message>
+        <source>Could not open input redirection for reading</source>
+        <translation>Kunne ikke åbne input-omdirigering for læsning</translation>
+    </message>
+    <message>
+        <source>Resource error (fork failure): %1</source>
+        <translation>Ressourcefejl (fork fejl): %1</translation>
+    </message>
+    <message>
+        <source>Could not open output redirection for writing</source>
+        <translation>Kunne ikke åbne output-omdirigering for skrivning</translation>
     </message>
     <message>
         <source>Process failed to start: %1</source>
-        <translation>תהליך נכשל בעליה: %1</translation>
+        <translation>Processen kunne ikke starte: %1</translation>
     </message>
 </context>
 <context>
     <name>QProgressDialog</name>
     <message>
         <source>Cancel</source>
-        <translation>ביטול</translation>
+        <translation>Annuller</translation>
     </message>
 </context>
 <context>
     <name>QRegExp</name>
     <message>
         <source>no error occurred</source>
-        <translation>לא אירעה כל שגיאה</translation>
+        <translation>der opstod ingen fejl</translation>
     </message>
     <message>
         <source>disabled feature used</source>
-        <translation>נעשה שימוש בתכונה מנוטרלת</translation>
+        <translation>deaktiveret facilitet blev brugt</translation>
     </message>
     <message>
         <source>bad char class syntax</source>
-        <translation>תחביר רע למחלקת תו</translation>
+        <translation>dårlig tegnklasse-syntaks</translation>
     </message>
     <message>
         <source>bad lookahead syntax</source>
-        <translation>תחביר lookahead שגוי</translation>
+        <translation>dårlig fremadseende syntaks</translation>
     </message>
     <message>
         <source>lookbehinds not supported, see QTBUG-2371</source>
-        <translation>סריקה לאחור לא נתמכת, ראה QTBUG-2371</translation>
+        <translation>lookbehinds understøttes ikke, se QTBUG-2371</translation>
     </message>
     <message>
         <source>bad repetition syntax</source>
-        <translation>תחביר הישנות שגוי</translation>
+        <translation>dårlig gentagelsessyntaks</translation>
     </message>
     <message>
         <source>invalid octal value</source>
-        <translation>ערך אוקטלי לא תקין</translation>
+        <translation>ugyldigt oktal-værdi</translation>
     </message>
     <message>
         <source>missing left delim</source>
-        <translation>חסר תוחם שמאלי</translation>
+        <translation>manglende venstre afgrænser</translation>
     </message>
     <message>
         <source>unexpected end</source>
-        <translation>סוף לא צפוי</translation>
+        <translation>uventet afslutning</translation>
     </message>
     <message>
         <source>met internal limit</source>
-        <translation>גבול פנימי עבר</translation>
+        <translation>mødte intern grænse</translation>
     </message>
     <message>
         <source>invalid interval</source>
-        <translation>פרק זמן לא תקין</translation>
+        <translation>ugyldigt interval</translation>
     </message>
     <message>
         <source>invalid category</source>
-        <translation>קטגוריה לא תקינה</translation>
+        <translation>ugyldig kategori</translation>
     </message>
 </context>
 <context>
     <name>QRegularExpression</name>
     <message>
         <source>no error</source>
-        <translation>אין שגיאה</translation>
+        <translation>ingen fejl</translation>
     </message>
     <message>
         <source>\ at end of pattern</source>
-        <translation>\ בסוף תבנית</translation>
+        <translation>\ i slutningen af mønster</translation>
     </message>
     <message>
         <source>\c at end of pattern</source>
-        <translation>\c בסוף תבנית</translation>
+        <translation>\c i slutningen af mønster</translation>
     </message>
     <message>
         <source>unrecognized character follows \</source>
-        <translation>תו לא מזוהה אחרי \</translation>
+        <translation>ikke genkendt tegn efterfølger \</translation>
     </message>
     <message>
         <source>numbers out of order in {} quantifier</source>
-        <translation>מספרים פגומים במכמת {}</translation>
+        <translation>numre udenfor rækkefølge i {}-kvantor</translation>
     </message>
     <message>
         <source>number too big in {} quantifier</source>
-        <translation>מספר גדול מדי במכמת {}</translation>
+        <translation>nummer for stort i {}-kvantor</translation>
     </message>
     <message>
         <source>missing terminating ] for character class</source>
-        <translation>חסר ] סוגר למחלקת תוים</translation>
+        <translation>manglende afsluttende ] for tegnklasse</translation>
     </message>
     <message>
         <source>invalid escape sequence in character class</source>
-        <translation>רצף escape לא תקין במחלקת תוים</translation>
+        <translation>ugyldig undvigesekvens i tegnklasse</translation>
     </message>
     <message>
         <source>range out of order in character class</source>
-        <translation>טווח פגום במחלקת תוים</translation>
+        <translation>område udenfor rækkefølge i tegnklasse</translation>
     </message>
     <message>
         <source>nothing to repeat</source>
-        <translation>אין על מה לחזור</translation>
+        <translation>intet at gentage</translation>
     </message>
     <message>
         <source>internal error: unexpected repeat</source>
-        <translation>שגיאה פנימית: חזרה לא צפויה</translation>
+        <translation>intern fejl: uventet gentag</translation>
     </message>
     <message>
         <source>unrecognized character after (? or (?-</source>
-        <translation>תו לא מזוהה אחרי ‎(?‎ או ‎(?-‎</translation>
+        <translation>ikke genkendt tegn efter (? eller (?-</translation>
     </message>
     <message>
         <source>POSIX named classes are supported only within a class</source>
-        <translation>מחלקות עם שמות POSIX נתמכות רק בתוך מחלקה</translation>
+        <translation>POSIX-navngivne klasser understøttes kun inden i en klasse</translation>
     </message>
     <message>
         <source>missing )</source>
-        <translation>חסר )</translation>
+        <translation>mangler )</translation>
     </message>
     <message>
         <source>reference to non-existent subpattern</source>
-        <translation>הפניה אל תת תבנית לא קיימת</translation>
+        <translation>reference til ikke-eksisterende undermønster</translation>
     </message>
     <message>
         <source>erroffset passed as NULL</source>
-        <translation>‏erroffset מועבר בתור NULL</translation>
+        <translation>erroffset givet som NULL</translation>
     </message>
     <message>
         <source>unknown option bit(s) set</source>
-        <translation>נקבעו ביט(ים) לא ידועים של אפשרויות</translation>
+        <translation>ukendt valgmulighed bit sat</translation>
     </message>
     <message>
         <source>missing ) after comment</source>
-        <translation>חסר ) אחרי הערה</translation>
+        <translation>manglende ) efter kommentar</translation>
     </message>
     <message>
         <source>regular expression is too large</source>
-        <translation>ביטוי רגולארי גדול מדי</translation>
+        <translation>regulært udtryk er for stort</translation>
     </message>
     <message>
         <source>failed to get memory</source>
-        <translation>כשלון בהקצאת זכרון</translation>
+        <translation>kunne ikke få hukommelse</translation>
     </message>
     <message>
         <source>unmatched parentheses</source>
-        <translation>סוגריים לא מתואמים</translation>
+        <translation>umatchede parenteser</translation>
     </message>
     <message>
         <source>internal error: code overflow</source>
-        <translation>שגיאה פנימית: חריגה בקוד</translation>
+        <translation>intern fejl: kodeoverløb</translation>
     </message>
     <message>
         <source>unrecognized character after (?&lt;</source>
-        <translation>תו לא מזוהה אחרי ‎)?&gt;</translation>
+        <translation>ikke genkendt tegn efter (?&lt;</translation>
     </message>
     <message>
         <source>lookbehind assertion is not fixed length</source>
-        <translation>דרישת מבט לאחור אינה באורך קבוע</translation>
+        <translation>lookbehind-påstand er ikke fast længde</translation>
     </message>
     <message>
         <source>malformed number or name after (?(</source>
-        <translation>מספר או שם מעוות אחרי ‎(?(‎</translation>
+        <translation>forkert udformet nummer eller navn efter (?(</translation>
     </message>
     <message>
         <source>conditional group contains more than two branches</source>
-        <translation>קבוצת תנאי מכילה יותר משני ענפים</translation>
+        <translation>betinget gruppe indeholder mere end to grene</translation>
     </message>
     <message>
         <source>assertion expected after (?(</source>
-        <translation>צפויה דרישה אחרי ‎(?(‎</translation>
+        <translation>påstand ventet efter (?(</translation>
     </message>
     <message>
         <source>(?R or (?[+-]digits must be followed by )</source>
-        <translation>‏‎(?R או ‎(?[+-]‎ ספרות חייב להיסגר באמצעות ‎)‎</translation>
+        <translation>(?R eller (?[+-]cifre skal efterfølges af )</translation>
     </message>
     <message>
         <source>unknown POSIX class name</source>
-        <translation>שם מחלקת POSIX לא ידוע</translation>
+        <translation>ukendt POSIX-klassenavn</translation>
     </message>
     <message>
         <source>POSIX collating elements are not supported</source>
-        <translation>אלמנטים להתאמה של POSIX לא נתמכים</translation>
+        <translation>POSIX-arrangerende elementer understøttes ikke</translation>
     </message>
     <message>
         <source>this version of PCRE is not compiled with PCRE_UTF8 support</source>
-        <translation>גירסה זו של PCRE אינה מהודרת עם תמיכת PCRE_UTF8</translation>
+        <translation>denne version af PCRE er ikke kompileret med PCRE_UTF8-understøttelse</translation>
     </message>
     <message>
         <source>character value in \x{...} sequence is too large</source>
-        <translation>ערך תו בתוך רצף ‎\x{...}‎ הינו גדול מדי</translation>
+        <translation>tegnværdi i \x{...}-sekvens er for stor</translation>
     </message>
     <message>
         <source>invalid condition (?(0)</source>
-        <translation>תנאי לא תקין ‎(?(0)‎</translation>
+        <translation>ugyldig betingelse (?(0)</translation>
     </message>
     <message>
         <source>\C not allowed in lookbehind assertion</source>
-        <translation>‏‎\C אסור בדרישת מבט לאחור</translation>
+        <translation>\C ikke tillad i lookbehind-påstand</translation>
     </message>
     <message>
         <source>PCRE does not support \L, \l, \N{name}, \U, or \u</source>
-        <translation>‏PCRE לא תומך בצירופים ‎\L,‏ ‎\l,‏ ‎N{name}‎,‏ ‎\U, או ‎\u</translation>
+        <translation>PCRE understøtter ikke \L, \l, \N{navn}, \U eller \u</translation>
     </message>
     <message>
         <source>number after (?C is &gt; 255</source>
-        <translation>מספר אחרי ‎(?C הוא גדול מ־255</translation>
+        <translation>nummer efter (?C er &gt; 255</translation>
     </message>
     <message>
         <source>closing ) for (?C expected</source>
-        <translation>נדרש ‎)‎ סוגר עבור ‎(?C</translation>
+        <translation>lukkende ) til (?C ventet</translation>
     </message>
     <message>
         <source>recursive call could loop indefinitely</source>
-        <translation>קריאה רקורסיבית עלולה להיכנס ללולאה אינסופית</translation>
+        <translation>rekursive kald kan danne uendelig løkke</translation>
     </message>
     <message>
         <source>unrecognized character after (?P</source>
-        <translation>תו לא מזוהה אחרי ‎(?P</translation>
+        <translation>ikke genkendt tegn efter (?P</translation>
     </message>
     <message>
         <source>syntax error in subpattern name (missing terminator)</source>
-        <translation>שגיאת תחביר בשם תת תבנית (חסר סיום)</translation>
+        <translation>syntaksfejl i undermønsternavn (manglende terminator)</translation>
     </message>
     <message>
         <source>two named subpatterns have the same name</source>
-        <translation>לשתי תתי תבניות יש את אותו השם</translation>
+        <translation>to navngivne undermønstre har det samme navn</translation>
     </message>
     <message>
         <source>invalid UTF-8 string</source>
-        <translation>מחרוזת UTF-8 לא תקינה</translation>
+        <translation>ugyldig UTF-8-streng</translation>
     </message>
     <message>
         <source>support for \P, \p, and \X has not been compiled</source>
-        <translation>תמיכה עבור ‎\P‏, ‎\p, ו־‎\X לא הודרה</translation>
+        <translation>understøttelse af \P, \p og \X er ikke blevet kompileret</translation>
     </message>
     <message>
         <source>malformed \P or \p sequence</source>
-        <translation>רצף ‎\P או ‎\p מעוות</translation>
+        <translation>forkert udformet \P- eller \p-sekvens</translation>
     </message>
     <message>
         <source>unknown property name after \P or \p</source>
-        <translation>שם תכונה לא ידוע אחרי ‎\P או ‎\p</translation>
+        <translation>ukendt egenskabsnavn efter \P eller \p</translation>
     </message>
     <message>
         <source>subpattern name is too long (maximum 32 characters)</source>
-        <translation>שם תת תבנית ארוך מדי (לכל היותר 32 תוים)</translation>
+        <translation>undermønsternavn er for langt (maksimum 32 tegn)</translation>
     </message>
     <message>
         <source>too many named subpatterns (maximum 10000)</source>
-        <translation>יותר מדי שמות תתי תבניות (לכל היותר 10,000)</translation>
+        <translation>for mange navngivne undermønstre (maksimum 10000)</translation>
     </message>
     <message>
         <source>octal value is greater than \377 (not in UTF-8 mode)</source>
-        <translation>ערך אוקטאלי גדול מ־‎\377 (לא במצב UTF-8)</translation>
+        <translation>oktal-værdi er større end \377 (ikke i UTF-8-tilstand)</translation>
     </message>
     <message>
         <source>internal error: overran compiling workspace</source>
-        <translation>שגיאה פנימית: נדרס שטח העבודה להידור</translation>
+        <translation>intern fejl: overløb kompileringsarbejdsområde</translation>
     </message>
     <message>
         <source>internal error: previously-checked referenced subpattern not found</source>
-        <translation>שגיאה פנימית: תת תבנית עם הפניה שנבדקה בעבר לא נמצאה</translation>
+        <translation>intern fejl: tidligere tjekket, refereret undermønster ikke fundet</translation>
     </message>
     <message>
         <source>DEFINE group contains more than one branch</source>
-        <translation>קבוצת DEFINE מכילה יותר מענף אחד</translation>
+        <translation>DEFINE-gruppe indeholder mere end én gren</translation>
     </message>
     <message>
         <source>repeating a DEFINE group is not allowed</source>
-        <translation>חזרה על קבוצת DEFINE אינה מורשית</translation>
+        <translation>gentagelse a en DEFINE-gruppe er ikke tilladt</translation>
     </message>
     <message>
         <source>inconsistent NEWLINE options</source>
-        <translation>אפשרויות NEWLINE לא עקביות</translation>
+        <translation>inkonsistente NEWLINE-valgmuligheder</translation>
     </message>
     <message>
         <source>\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number</source>
-        <translation>אחרי ‎\g אין סוגר משולש או מסולסל, או שם\מספר עם גרשיים או מספר פשוט</translation>
+        <translation>\g efterfølges ikke af et navn/nummer i klammer, vinkelklammer, citationstegn eller af et almindeligt nummer</translation>
     </message>
     <message>
         <source>a numbered reference must not be zero</source>
-        <translation>הפניה ממוספרת לא יכולה להיות אפס</translation>
+        <translation>en nummereret reference må ikke være nul</translation>
     </message>
     <message>
         <source>an argument is not allowed for (*ACCEPT), (*FAIL), or (*COMMIT)</source>
-        <translation>אין אפשרות להעביר ארגומנט עבור ‎(*ACCEPT)‎‏, ‎(*FAIL)‎ או ‎(*COMMIT)‎</translation>
+        <translation>et argument er ikke tilladt for (*ACCEPT), (*FAIL) eller (*COMMIT)</translation>
     </message>
     <message>
         <source>(*VERB) not recognized</source>
-        <translation>‏‎(*VERB)‎ לא מזוהה</translation>
+        <translation>(*VERB) ikke genkendt</translation>
     </message>
     <message>
         <source>number is too big</source>
-        <translation>מספר גדול מדי</translation>
+        <translation>nummer er for stort</translation>
     </message>
     <message>
         <source>subpattern name expected</source>
-        <translation>צפוי שם תת תבנית</translation>
+        <translation>undermønsternavn ventet</translation>
     </message>
     <message>
         <source>digit expected after (?+</source>
-        <translation>צפויה ספרה אחרי ‎(?+‎</translation>
+        <translation>ciffer ventet efter (?+</translation>
     </message>
     <message>
         <source>] is an invalid data character in JavaScript compatibility mode</source>
-        <translation>‏‎] הוא תו מידע לא תקין במצב תאימות JavaScript</translation>
+        <translation>] er et ugyldigt datategn i JavaScript-kompatibilitetstilstand</translation>
     </message>
     <message>
         <source>different names for subpatterns of the same number are not allowed</source>
-        <translation>שמות שונים לתתי תבניות של אותו המספר אסורים</translation>
+        <translation>forskellige navne til undermønstre af det samme nummer er ikke tilladt</translation>
     </message>
     <message>
         <source>(*MARK) must have an argument</source>
-        <translation>חייב להיות ארגומנט עבור ‎(*MARK)‎</translation>
+        <translation>(*MARK) skal have et argument</translation>
     </message>
     <message>
         <source>this version of PCRE is not compiled with PCRE_UCP support</source>
-        <translation>גירסה זו של PCRE אינה מהודרת עם תמיכת PCRE_UCP</translation>
+        <translation>denne version af PCRE er ikke kompileret med PCRE_UCP-understøttelse</translation>
     </message>
     <message>
         <source>\c must be followed by an ASCII character</source>
-        <translation>אחרי ‎\c חייב להיות תו ASCII</translation>
+        <translation>\c skal være efterfulgt af et ASCII-tegn</translation>
     </message>
     <message>
         <source>\k is not followed by a braced, angle-bracketed, or quoted name</source>
-        <translation>אחרי ‎\k אין סוגר מסולסל, משולש או שם עם גרשיים</translation>
+        <translation>\k efterfølges ikke af et navn i klammer, vinkelklammer eller citationstegn</translation>
     </message>
     <message>
         <source>internal error: unknown opcode in find_fixedlength()</source>
-        <translation>שגיאה פנימית: opcode לא ידוע עבור ‎find_fixedlength()‎</translation>
+        <translation>intern fejl: ukendt opcode i find_fixedlength()</translation>
     </message>
     <message>
         <source>\N is not supported in a class</source>
-        <translation>‏‎\N לא נתמך במחלקה</translation>
+        <translation>\N understøttes ikke i en klasse</translation>
     </message>
     <message>
         <source>too many forward references</source>
-        <translation>יותר מדי הפניות קדימה</translation>
+        <translation>for mange fremad-referencer</translation>
     </message>
     <message>
         <source>disallowed Unicode code point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</source>
-        <translation></translation>
+        <translation>ikke tilladt unicode-kodepunkt (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</translation>
     </message>
     <message>
         <source>invalid UTF-16 string</source>
-        <translation>מחרוזת UTF-16 לא תקינה</translation>
+        <translation>ugyldig UTF-16-streng</translation>
     </message>
     <message>
         <source>name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)</source>
-        <translation>שם ארוך מדי בתוך ‎(*MARK)‎‏, ‎(*PRUNE)‎‏, ‎(*SKIP)‎, או ‎(*THEN)‎</translation>
+        <translation>navn er for langt i (*MARK), (*PRUNE), (*SKIP) eller (*THEN)</translation>
     </message>
     <message>
         <source>character value in \u.... sequence is too large</source>
-        <translation>ערך תו ברצף ‎\u...‎ הוא גדול מדי</translation>
+        <translation>tegnværdi i \u...-sekvens er for stor</translation>
     </message>
     <message>
         <source>invalid UTF-32 string</source>
-        <translation>מחרוזת UTF-32 לא תקינה</translation>
+        <translation>ugyldig UTF-32-streng</translation>
     </message>
     <message>
         <source>setting UTF is disabled by the application</source>
-        <translation>היישום מונע קביעת UTF</translation>
+        <translation>sættelse af UTF er deaktiveret af programmet</translation>
     </message>
     <message>
         <source>non-hex character in \x{} (closing brace missing?)</source>
-        <translation>תו שאינו הקסאדצימאלי בתוך ‎\x{}‎ (חסר סוגר ימני?)</translation>
+        <translation>ikke-heksadecimal-tegn i \x{} (lukkende klamme mangler?)</translation>
     </message>
     <message>
         <source>non-octal character in \o{} (closing brace missing?)</source>
-        <translation>תו שאינו אוקטאלי בתוך ‎\o{}‎ (חסר סוגר ימני?)</translation>
+        <translation>ikke-oktal-tegn i \o{} (lukkende klamme mangler?)</translation>
     </message>
     <message>
         <source>missing opening brace after \o</source>
-        <translation>חסר סוגר פותח אחרי ‎\o</translation>
+        <translation>manglende åbningsklamme efter \o</translation>
     </message>
     <message>
         <source>parentheses are too deeply nested</source>
-        <translation>סוגריים מקוננים עמוק מדי</translation>
+        <translation>parenteser er for dybt indlejret</translation>
     </message>
     <message>
         <source>invalid range in character class</source>
-        <translation>טווח לא תקין במחלקת תוים</translation>
+        <translation>ugyldigt område i tegnklasse</translation>
     </message>
     <message>
         <source>group name must start with a non-digit</source>
-        <translation>שם קבוצה חיב להתחיל עם תו שאינו ספרה</translation>
+        <translation>gruppenavn skal begynde med et ikke-ciffer</translation>
     </message>
     <message>
         <source>parentheses are too deeply nested (stack check)</source>
-        <translation>סוגריים מקוננים עמוק מדי (בדיקת מחסנית)</translation>
+        <translation>parenteser er for dybt indlejret (staktjek)</translation>
     </message>
     <message>
         <source>digits missing in \x{} or \o{}</source>
-        <translation>ספרות חסרות בתוך ‎\x{}‎ או ‎\o{}‎</translation>
+        <translation>cifre mangler i \x{} eller \o{}</translation>
     </message>
 </context>
 <context>
     <name>QSQLite2Driver</name>
     <message>
         <source>Error opening database</source>
-        <translation>שגיאה בפתיחת מסד נתונים</translation>
+        <translation>Fejl ved åbning af databasen</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>אין אפשרות להתחיל טרנזקציה</translation>
+        <translation>Kunne ikke påbegynde transaktionen</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>אין אפשרות לבצע טרנזקציה</translation>
+        <translation>Kunne ikke gennemføre transaktionen</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>אין אפשרות להחזיר לאחור טרנזקציה</translation>
+        <translation>Kunne ikke tilbagetrække transaktionen</translation>
     </message>
 </context>
 <context>
     <name>QSQLite2Result</name>
     <message>
         <source>Unable to fetch results</source>
-        <translation>אין אפשרות להביא תוצאות</translation>
+        <translation>Kunne ikke hente resultater</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>אין אפשרות לבצע הוראה</translation>
+        <translation>Kunne ikke eksekvere udsagn</translation>
     </message>
 </context>
 <context>
     <name>QSQLiteDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>שגיאה בפתיחת מסד נתונים</translation>
+        <translation>Fejl ved åbning af databasen</translation>
     </message>
     <message>
         <source>Error closing database</source>
-        <translation>שגיאה בסגירת מסד נתונים</translation>
+        <translation>Fejl ved lukning af databasen</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>אין אפשרות להתחיל טרנזקציה</translation>
+        <translation>Kunne ikke påbegynde transaktionen</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>אין אפשרות לבצע טרנזקציה</translation>
+        <translation>Kunne ikke gennemføre transaktionen</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>אין אפשרות להחזיר לאחור טרנזקציה</translation>
+        <translation>Kunne ikke tilbagetrække transaktionen</translation>
     </message>
 </context>
 <context>
     <name>QSQLiteResult</name>
     <message>
         <source>Unable to fetch row</source>
-        <translation>אין אפשרות להביא שורה</translation>
+        <translation>Kunne ikke hente række</translation>
     </message>
     <message>
         <source>No query</source>
-        <translation>אין שאילתא</translation>
+        <translation>Ingen forespørgsel</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>אין אפשרות לבצע הוראה</translation>
+        <translation>Kunne ikke eksekvere udsagn</translation>
     </message>
     <message>
         <source>Unable to execute multiple statements at a time</source>
-        <translation>אין אפשרות לבצע הוראות מרובות בבת אחת</translation>
+        <translation>Kunne ikke eksekvere flere udsagn på samme tid</translation>
     </message>
     <message>
         <source>Unable to reset statement</source>
-        <translation>אין אפשרות לאפס הוראה</translation>
+        <translation>Kunne ikke nulstille udsagn</translation>
     </message>
     <message>
         <source>Unable to bind parameters</source>
-        <translation>אין אפשרות לכרוך פרמטרים</translation>
+        <translation>Kunne ikke binde parametre</translation>
     </message>
     <message>
         <source>Parameter count mismatch</source>
-        <translation>ספירת פרמטרים לא מתאימה</translation>
+        <translation>Uoverensstemmende parameter antal</translation>
     </message>
 </context>
 <context>
     <name>QSaveFile</name>
     <message>
         <source>Existing file %1 is not writable</source>
-        <translation>קובץ קיים %1 אינו בר כתיבה</translation>
+        <translation>Der kan ikke skrives til den eksisterende fil %1</translation>
     </message>
     <message>
         <source>Filename refers to a directory</source>
-        <translation>שם קובץ מפנה לספרייה</translation>
+        <translation>Filnavnet refererer til en mappe</translation>
     </message>
     <message>
         <source>Writing canceled by application</source>
-        <translation>כתיבה התבטלה ע״י היישום</translation>
+        <translation>Skrivning annulleret af program</translation>
     </message>
 </context>
 <context>
     <name>QScrollBar</name>
     <message>
         <source>Scroll here</source>
-        <translation>גלול לכאן</translation>
+        <translation>Rul her</translation>
     </message>
     <message>
         <source>Left edge</source>
-        <translation>קצה שמאלי</translation>
+        <translation>Venstre kant</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation>קצה עליון</translation>
+        <translation>Øverst</translation>
     </message>
     <message>
         <source>Right edge</source>
-        <translation>קצה ימני</translation>
+        <translation>Højre kant</translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation>קצה תחתון</translation>
+        <translation>Nederst</translation>
     </message>
     <message>
         <source>Page left</source>
-        <translation>עמוד שמאלה</translation>
+        <translation>Side til venstre</translation>
     </message>
     <message>
         <source>Page up</source>
-        <translation>עמוד מעלה</translation>
+        <translation>Side op</translation>
     </message>
     <message>
         <source>Page right</source>
-        <translation>עמוד ימינה</translation>
+        <translation>Side til højre</translation>
     </message>
     <message>
         <source>Page down</source>
-        <translation>עמוד מטה</translation>
+        <translation>Side ned</translation>
     </message>
     <message>
         <source>Scroll left</source>
-        <translation>גלול שמאלה</translation>
+        <translation>Rul til venstre</translation>
     </message>
     <message>
         <source>Scroll up</source>
-        <translation>גלול מעלה</translation>
+        <translation>Rul op</translation>
     </message>
     <message>
         <source>Scroll right</source>
-        <translation>גלול ימינה</translation>
+        <translation>Rul til højre</translation>
     </message>
     <message>
         <source>Scroll down</source>
-        <translation>גלול מטה</translation>
+        <translation>Rul ned</translation>
     </message>
 </context>
 <context>
     <name>QSharedMemory</name>
     <message>
         <source>%1: unable to set key on lock</source>
-        <translation>%1: לא ניתן לקבוע מפתח במנעול</translation>
+        <translation>%1: kunne ikke sætte nøgle på lås</translation>
     </message>
     <message>
         <source>%1: create size is less then 0</source>
-        <translation>%1: גודל יצירה הוא פחות מ־0</translation>
+        <translation>%1: oprettelsesstørrelse er mindre end 0</translation>
     </message>
     <message>
         <source>%1: unable to lock</source>
-        <translation>%1: אין אפשרות לנעול</translation>
+        <translation>%1: kunne ikke låse</translation>
     </message>
     <message>
         <source>%1: unable to unlock</source>
-        <translation>%1: אין אפשרות לבטל נעילה</translation>
-    </message>
-    <message>
-        <source>%1: permission denied</source>
-        <translation>%1: הרשאה נדחתה</translation>
-    </message>
-    <message>
-        <source>%1: already exists</source>
-        <translation>‏%1: כבר קיים</translation>
-    </message>
-    <message>
-        <source>%1: doesn&apos;t exist</source>
-        <translation>%1: לא קיים</translation>
-    </message>
-    <message>
-        <source>%1: out of resources</source>
-        <translation>%1: לא נותרו משאבים</translation>
-    </message>
-    <message>
-        <source>%1: unknown error %2</source>
-        <translation>%1: שגיאה לא מוכרת %2</translation>
+        <translation>%1: kunne ikke låse op</translation>
     </message>
     <message>
         <source>%1: key is empty</source>
-        <translation>%1: מפתח ריק</translation>
+        <translation>%1: nøglen er tom</translation>
     </message>
     <message>
         <source>%1: bad name</source>
-        <translation>%1: שם לא טוב</translation>
+        <translation>%1: dårligt navn</translation>
     </message>
     <message>
         <source>%1: UNIX key file doesn&apos;t exist</source>
-        <translation>%1: קובץ מפתח UNIX לא קיים</translation>
+        <translation>%1: UNIX-nøglefil findes ikke</translation>
     </message>
     <message>
         <source>%1: ftok failed</source>
-        <translation>%1: ftok נכשלה</translation>
+        <translation>%1: ftok fejlede</translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
-        <translation>%1: אין אפשרות לייצר מפתח</translation>
+        <translation>%1: kunne ikke lave nøgle</translation>
     </message>
     <message>
         <source>%1: system-imposed size restrictions</source>
-        <translation>%1: מגבלות גודל נקבעו ע״י המערכת</translation>
+        <translation>%1: system-pålagte størrelsesrestriktioner</translation>
     </message>
     <message>
         <source>%1: not attached</source>
-        <translation>%1: לא מחובר</translation>
+        <translation>%1: ikke tilkoblet</translation>
+    </message>
+    <message>
+        <source>%1: permission denied</source>
+        <translation>%1: tilladelse nægtet</translation>
+    </message>
+    <message>
+        <source>%1: already exists</source>
+        <translation>%1: findes allerede</translation>
+    </message>
+    <message>
+        <source>%1: doesn&apos;t exist</source>
+        <translation>%1: findes ikke</translation>
+    </message>
+    <message>
+        <source>%1: out of resources</source>
+        <translation>%1: ikke flere ressourcer</translation>
+    </message>
+    <message>
+        <source>%1: unknown error %2</source>
+        <translation>%1: ukendt fejl %2</translation>
     </message>
     <message>
         <source>%1: invalid size</source>
-        <translation>%1: גודל לא תקין</translation>
+        <translation>%1: ugyldig størrelse</translation>
     </message>
     <message>
         <source>%1: key error</source>
-        <translation>%1: שגיאת מפתח</translation>
+        <translation>%1: nøglefejl</translation>
     </message>
     <message>
         <source>%1: size query failed</source>
-        <translation>%1: שאילתת גודל נכשלה</translation>
+        <translation>%1: størrelsesforespørgsel fejlede</translation>
     </message>
 </context>
 <context>
@@ -4415,7 +4415,7 @@ Please turn one of those options off.</source>
     <message>
         <source>Space</source>
         <extracomment>This and all following &quot;incomprehensible&quot; strings in QShortcut context are key names. Please use the localized names appearing on actual keyboards or whatever is commonly used.</extracomment>
-        <translation>רווח</translation>
+        <translation>Mellemrum</translation>
     </message>
     <message>
         <source>Esc</source>
@@ -4423,19 +4423,19 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Tab</source>
-        <translation>Tab</translation>
+        <translation>Tabulator</translation>
     </message>
     <message>
         <source>Backtab</source>
-        <translation>Backtab</translation>
+        <translation>Tilbage-tabulator</translation>
     </message>
     <message>
         <source>Backspace</source>
-        <translation>Backspace</translation>
+        <translation>Tilbage</translation>
     </message>
     <message>
         <source>Return</source>
-        <translation>Return</translation>
+        <translation>Retur</translation>
     </message>
     <message>
         <source>Enter</source>
@@ -4455,7 +4455,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Print</source>
-        <translation>Print</translation>
+        <translation>Udskriv</translation>
     </message>
     <message>
         <source>SysReq</source>
@@ -4471,19 +4471,19 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Left</source>
-        <translation>שמאלה</translation>
+        <translation>Venstre</translation>
     </message>
     <message>
         <source>Up</source>
-        <translation>למעלה</translation>
+        <translation>Op</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation>ימינה</translation>
+        <translation>Højre</translation>
     </message>
     <message>
         <source>Down</source>
-        <translation>למטה</translation>
+        <translation>Ned</translation>
     </message>
     <message>
         <source>PgUp</source>
@@ -4507,101 +4507,101 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Menu</source>
-        <translation>תפריט</translation>
+        <translation>Menu</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>עזרה</translation>
+        <translation>Hjælp</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>אחורה</translation>
+        <translation>Tilbage</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>קדימה</translation>
+        <translation>Fremad</translation>
     </message>
     <message>
         <source>Stop</source>
-        <translation>עצור</translation>
+        <translation>Stop</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation>רענן</translation>
+        <translation>Opdater</translation>
     </message>
     <message>
         <source>Volume Down</source>
-        <translation>עוצמת שמע: הנמך</translation>
+        <translation>Lydstyrke ned</translation>
     </message>
     <message>
         <source>Volume Mute</source>
-        <translation>עוצמת שמע: השתק</translation>
+        <translation>Lydstyrke mute</translation>
     </message>
     <message>
         <source>Volume Up</source>
-        <translation>עוצמת שמע: הגבר</translation>
+        <translation>Lydstyrke op</translation>
     </message>
     <message>
         <source>Bass Boost</source>
-        <translation>בס: הרם</translation>
+        <translation>Bas boost</translation>
     </message>
     <message>
         <source>Bass Up</source>
-        <translation>בס: הגבר</translation>
+        <translation>Bas op</translation>
     </message>
     <message>
         <source>Bass Down</source>
-        <translation>בס: הנמך</translation>
+        <translation>Bas ned</translation>
     </message>
     <message>
         <source>Treble Up</source>
-        <translation>טרבל: הגבר</translation>
+        <translation>Diskant op</translation>
     </message>
     <message>
         <source>Treble Down</source>
-        <translation>טרבל: הנמך</translation>
+        <translation>Diskant ned</translation>
     </message>
     <message>
         <source>Media Play</source>
-        <translation>מדיה: נגן</translation>
+        <translation>Medie afspil</translation>
     </message>
     <message>
         <source>Media Stop</source>
-        <translation>מדיה: עצור</translation>
+        <translation>Medie stop</translation>
     </message>
     <message>
         <source>Media Previous</source>
-        <translation>מדיה: קודם</translation>
+        <translation>Medie forrige</translation>
     </message>
     <message>
         <source>Media Next</source>
-        <translation>מדיה: הבא</translation>
+        <translation>Medie næste</translation>
     </message>
     <message>
         <source>Media Record</source>
-        <translation>מדיה: הקלט</translation>
+        <translation>Medie optag</translation>
     </message>
     <message>
         <source>Media Pause</source>
         <extracomment>Media player pause button</extracomment>
-        <translation>מדיה: השהה</translation>
+        <translation>Medie pause</translation>
     </message>
     <message>
         <source>Toggle Media Play/Pause</source>
         <extracomment>Media player button to toggle between playing and paused</extracomment>
-        <translation>מדיה: נגן/השהה</translation>
+        <translation>Medie afspil/pause til/fra</translation>
     </message>
     <message>
         <source>Home Page</source>
-        <translation>דף בית</translation>
+        <translation>Startside</translation>
     </message>
     <message>
         <source>Favorites</source>
-        <translation>מועדפים</translation>
+        <translation>Favoritter</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>חפש</translation>
+        <translation>Søg</translation>
     </message>
     <message>
         <source>Standby</source>
@@ -4609,115 +4609,115 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Open URL</source>
-        <translation>פתח URL</translation>
+        <translation>Åbn URL</translation>
     </message>
     <message>
         <source>Launch Mail</source>
-        <translation>שגר דואר</translation>
+        <translation>Start mail</translation>
     </message>
     <message>
         <source>Launch Media</source>
-        <translation>שגר מדיה</translation>
+        <translation>Start medie</translation>
     </message>
     <message>
         <source>Launch (0)</source>
-        <translation>שגר (0)</translation>
+        <translation>Start (0)</translation>
     </message>
     <message>
         <source>Launch (1)</source>
-        <translation>שגר (1)</translation>
+        <translation>Start (1)</translation>
     </message>
     <message>
         <source>Launch (2)</source>
-        <translation>שגר (2)</translation>
+        <translation>Start (2)</translation>
     </message>
     <message>
         <source>Launch (3)</source>
-        <translation>שגר (3)</translation>
+        <translation>Start (3)</translation>
     </message>
     <message>
         <source>Launch (4)</source>
-        <translation>שגר (4)</translation>
+        <translation>Start (4)</translation>
     </message>
     <message>
         <source>Launch (5)</source>
-        <translation>שגר (5)</translation>
+        <translation>Start (5)</translation>
     </message>
     <message>
         <source>Launch (6)</source>
-        <translation>שגר (6)</translation>
+        <translation>Start (6)</translation>
     </message>
     <message>
         <source>Launch (7)</source>
-        <translation>שגר (7)</translation>
+        <translation>Start (7)</translation>
     </message>
     <message>
         <source>Launch (8)</source>
-        <translation>שגר (8)</translation>
+        <translation>Start (8)</translation>
     </message>
     <message>
         <source>Launch (9)</source>
-        <translation>שגר (9)</translation>
+        <translation>Start (9)</translation>
     </message>
     <message>
         <source>Launch (A)</source>
-        <translation>שגר (A)</translation>
+        <translation>Start (A)</translation>
     </message>
     <message>
         <source>Launch (B)</source>
-        <translation>שגר (B)</translation>
+        <translation>Start (B)</translation>
     </message>
     <message>
         <source>Launch (C)</source>
-        <translation>שגר (C)</translation>
+        <translation>Start (C)</translation>
     </message>
     <message>
         <source>Launch (D)</source>
-        <translation>שגר (D)</translation>
+        <translation>Start (D)</translation>
     </message>
     <message>
         <source>Launch (E)</source>
-        <translation>שגר (E)</translation>
+        <translation>Start (E)</translation>
     </message>
     <message>
         <source>Launch (F)</source>
-        <translation>שגר (F)</translation>
+        <translation>Start (F)</translation>
     </message>
     <message>
         <source>Monitor Brightness Up</source>
-        <translation>בהירות צג: הגבר</translation>
+        <translation>Skærm lysstyrke op</translation>
     </message>
     <message>
         <source>Monitor Brightness Down</source>
-        <translation>בהירות צג: הנמך</translation>
+        <translation>Skærm lysstyrke ned</translation>
     </message>
     <message>
         <source>Keyboard Light On/Off</source>
-        <translation>אור מקלדת: דלוק/כבוי</translation>
+        <translation>Tastaturlys til/fra</translation>
     </message>
     <message>
         <source>Keyboard Brightness Up</source>
-        <translation>בהירות מקלדת: הגבר</translation>
+        <translation>Tastatur lysstyrke op</translation>
     </message>
     <message>
         <source>Keyboard Brightness Down</source>
-        <translation>בהירות מקלדת: הנמך</translation>
+        <translation>Tastatur lysstyrke ned</translation>
     </message>
     <message>
         <source>Power Off</source>
-        <translation>כיבוי</translation>
+        <translation>Sluk computer</translation>
     </message>
     <message>
         <source>Wake Up</source>
-        <translation>התעורר</translation>
+        <translation>Vågn op</translation>
     </message>
     <message>
         <source>Eject</source>
-        <translation>Eject</translation>
+        <translation>Skub ud</translation>
     </message>
     <message>
         <source>Screensaver</source>
-        <translation>שומר מסך</translation>
+        <translation>Pauseskærm</translation>
     </message>
     <message>
         <source>WWW</source>
@@ -4725,91 +4725,91 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Sleep</source>
-        <translation>תנומה</translation>
+        <translation>Sov</translation>
     </message>
     <message>
         <source>LightBulb</source>
-        <translation>נורה</translation>
+        <translation>Pære</translation>
     </message>
     <message>
         <source>Shop</source>
-        <translation>חנות</translation>
+        <translation>Shop</translation>
     </message>
     <message>
         <source>History</source>
-        <translation>היסטוריה</translation>
+        <translation>Historik</translation>
     </message>
     <message>
         <source>Add Favorite</source>
-        <translation>הוסף מועדף</translation>
+        <translation>Tilføj favorit</translation>
     </message>
     <message>
         <source>Hot Links</source>
-        <translation>קישורים חמים</translation>
+        <translation>Hotte links</translation>
     </message>
     <message>
         <source>Adjust Brightness</source>
-        <translation>התאם בהירות</translation>
+        <translation>Juster lysstyrke</translation>
     </message>
     <message>
         <source>Finance</source>
-        <translation>פיננסים</translation>
+        <translation>Finans</translation>
     </message>
     <message>
         <source>Community</source>
-        <translation>קהילה</translation>
+        <translation>Fællesskab</translation>
     </message>
     <message>
         <source>Media Rewind</source>
-        <translation>מדיה העבר אחורה</translation>
+        <translation>Medie spol tilbage</translation>
     </message>
     <message>
         <source>Back Forward</source>
-        <translation>העברה אחורה</translation>
+        <translation>Tilbage fremad</translation>
     </message>
     <message>
         <source>Application Left</source>
-        <translation>יישום שמאלה</translation>
+        <translation>Program venstre</translation>
     </message>
     <message>
         <source>Application Right</source>
-        <translation>יישום ימינה</translation>
+        <translation>Program højre</translation>
     </message>
     <message>
         <source>Book</source>
-        <translation>ספר</translation>
+        <translation>Bog</translation>
     </message>
     <message>
         <source>CD</source>
-        <translation>תקליטור</translation>
+        <translation>CD</translation>
     </message>
     <message>
         <source>Calculator</source>
-        <translation>מחשבון</translation>
+        <translation>Lommeregner</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>נקה</translation>
+        <translation>Ryd</translation>
     </message>
     <message>
         <source>Clear Grab</source>
-        <translation>ניקוי גרירה</translation>
+        <translation>Clear Grab</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>סגור</translation>
+        <translation>Luk</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>העתק</translation>
+        <translation>Kopiér</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation>גזור</translation>
+        <translation>Klip</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation>תצוגה</translation>
+        <translation>Skærm</translation>
     </message>
     <message>
         <source>DOS</source>
@@ -4817,23 +4817,23 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Documents</source>
-        <translation>מסמכים</translation>
+        <translation>Dokumenter</translation>
     </message>
     <message>
         <source>Spreadsheet</source>
-        <translation>גיליון אלקטרוני</translation>
+        <translation>Regneark</translation>
     </message>
     <message>
         <source>Browser</source>
-        <translation>דפדפן</translation>
+        <translation>Browser</translation>
     </message>
     <message>
         <source>Game</source>
-        <translation>משחק</translation>
+        <translation>Spil</translation>
     </message>
     <message>
         <source>Go</source>
-        <translation>המשך</translation>
+        <translation>Gå</translation>
     </message>
     <message>
         <source>iTouch</source>
@@ -4841,151 +4841,151 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Logoff</source>
-        <translation>התנתק</translation>
+        <translation>Log af</translation>
     </message>
     <message>
         <source>Market</source>
-        <translation>שוק</translation>
+        <translation>Marked</translation>
     </message>
     <message>
         <source>Meeting</source>
-        <translation>פגישה</translation>
+        <translation>Møde</translation>
     </message>
     <message>
         <source>Keyboard Menu</source>
-        <translation>תפריט מקלדת</translation>
+        <translation>Tastaturmenu</translation>
     </message>
     <message>
         <source>Menu PB</source>
-        <translation>תפריט PB</translation>
+        <translation>Menu PB</translation>
     </message>
     <message>
         <source>My Sites</source>
-        <translation>האתרים שלי</translation>
+        <translation>Mine steder</translation>
     </message>
     <message>
         <source>News</source>
-        <translation>חדשות</translation>
+        <translation>Nyheder</translation>
     </message>
     <message>
         <source>Home Office</source>
-        <translation>משרד ביתי</translation>
+        <translation>Hjemmekontor</translation>
     </message>
     <message>
         <source>Option</source>
-        <translation>אפשרות</translation>
+        <translation>Valgmulighed</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>הדבק</translation>
+        <translation>Sæt ind</translation>
     </message>
     <message>
         <source>Phone</source>
-        <translation>טלפון</translation>
+        <translation>Telefon</translation>
     </message>
     <message>
         <source>Reply</source>
-        <translation>מענה</translation>
+        <translation>Svar</translation>
     </message>
     <message>
         <source>Reload</source>
-        <translation>טען מחדש</translation>
+        <translation>Genindlæs</translation>
     </message>
     <message>
         <source>Rotate Windows</source>
-        <translation>סובב חלונות</translation>
+        <translation>Roter vinduer</translation>
     </message>
     <message>
         <source>Rotation PB</source>
-        <translation>סיבוב PB</translation>
+        <translation>Rotation PB</translation>
     </message>
     <message>
         <source>Rotation KB</source>
-        <translation>סיבוב KB</translation>
+        <translation>Rotation KB</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>שמור</translation>
+        <translation>Gem</translation>
     </message>
     <message>
         <source>Send</source>
-        <translation>שלח</translation>
+        <translation>Send</translation>
     </message>
     <message>
         <source>Spellchecker</source>
-        <translation>בודק איות</translation>
+        <translation>Stavekontrol</translation>
     </message>
     <message>
         <source>Split Screen</source>
-        <translation>פצל מסך</translation>
+        <translation>Opdel skærm</translation>
     </message>
     <message>
         <source>Support</source>
-        <translation>תמיכה</translation>
+        <translation>Support</translation>
     </message>
     <message>
         <source>Task Panel</source>
-        <translation>לוח משימות</translation>
+        <translation>Opgavepanel</translation>
     </message>
     <message>
         <source>Terminal</source>
-        <translation>מסוף</translation>
+        <translation>Terminal</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation>כלים</translation>
+        <translation>Værktøjer</translation>
     </message>
     <message>
         <source>Travel</source>
-        <translation>מסע</translation>
+        <translation>Rejse</translation>
     </message>
     <message>
         <source>Video</source>
-        <translation>וידאו</translation>
+        <translation>Video</translation>
     </message>
     <message>
         <source>Word Processor</source>
-        <translation>מעבד תמלילים</translation>
+        <translation>Tekstbehandling</translation>
     </message>
     <message>
         <source>XFer</source>
-        <translation>העבר</translation>
+        <translation>XFer</translation>
     </message>
     <message>
         <source>Zoom In</source>
-        <translation>זום פנימה</translation>
+        <translation>Zoom ind</translation>
     </message>
     <message>
         <source>Zoom Out</source>
-        <translation>זום החוצה</translation>
+        <translation>Zoom ud</translation>
     </message>
     <message>
         <source>Away</source>
-        <translation>רחוק</translation>
+        <translation>Væk</translation>
     </message>
     <message>
         <source>Messenger</source>
-        <translation>מסרים מיידיים</translation>
+        <translation>Messenger</translation>
     </message>
     <message>
         <source>WebCam</source>
-        <translation>מצלמת רשת</translation>
+        <translation>Webcam</translation>
     </message>
     <message>
         <source>Mail Forward</source>
-        <translation>העברת דואר</translation>
+        <translation>Mail Forward</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>תמונות</translation>
+        <translation>Billeder</translation>
     </message>
     <message>
         <source>Music</source>
-        <translation>מוזיקה</translation>
+        <translation>Musik</translation>
     </message>
     <message>
         <source>Battery</source>
-        <translation>סוללה</translation>
+        <translation>Batteri</translation>
     </message>
     <message>
         <source>Bluetooth</source>
@@ -4993,123 +4993,123 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Wireless</source>
-        <translation>אלחוטי</translation>
+        <translation>Trådlås</translation>
     </message>
     <message>
         <source>Ultra Wide Band</source>
-        <translation>פס אולטרה רחב</translation>
+        <translation>Ultra Wide Band</translation>
     </message>
     <message>
         <source>Media Fast Forward</source>
-        <translation>מדיה העבר קדימה</translation>
+        <translation>Medie spol fremad</translation>
     </message>
     <message>
         <source>Audio Repeat</source>
-        <translation>שמע: חזור</translation>
+        <translation>Lyd gentag</translation>
     </message>
     <message>
         <source>Audio Random Play</source>
-        <translation>שמע: נגינה אקראית</translation>
+        <translation>Lyd tilfældig afspil</translation>
     </message>
     <message>
         <source>Subtitle</source>
-        <translation>כתוביות</translation>
+        <translation>Undertekst</translation>
     </message>
     <message>
         <source>Audio Cycle Track</source>
-        <translation>שמע: חזרה על רצועה</translation>
+        <translation>Lyd gennemløb spor</translation>
     </message>
     <message>
         <source>Time</source>
-        <translation>זמן</translation>
+        <translation>Tid</translation>
     </message>
     <message>
         <source>Hibernate</source>
-        <translation>דומם</translation>
+        <translation>Dvale</translation>
     </message>
     <message>
         <source>View</source>
-        <translation>תצוגה</translation>
+        <translation>Vis</translation>
     </message>
     <message>
         <source>Top Menu</source>
-        <translation>תפריט עליון</translation>
+        <translation>Topmenu</translation>
     </message>
     <message>
         <source>Power Down</source>
-        <translation>כיבוי</translation>
+        <translation>Sluk</translation>
     </message>
     <message>
         <source>Suspend</source>
-        <translation>השהה</translation>
+        <translation>Hvile</translation>
     </message>
     <message>
         <source>Microphone Mute</source>
-        <translation>מיקרופון השתק</translation>
+        <translation>Mikrofon mute</translation>
     </message>
     <message>
         <source>Red</source>
-        <translation>אדום</translation>
+        <translation>Rød</translation>
     </message>
     <message>
         <source>Green</source>
-        <translation>ירוק</translation>
+        <translation>Grøn</translation>
     </message>
     <message>
         <source>Yellow</source>
-        <translation>צהוב</translation>
+        <translation>Gul</translation>
     </message>
     <message>
         <source>Blue</source>
-        <translation>כחול</translation>
+        <translation>Blå</translation>
     </message>
     <message>
         <source>Channel Up</source>
-        <translation>ערוץ מעלה</translation>
+        <translation>Kanal op</translation>
     </message>
     <message>
         <source>Channel Down</source>
-        <translation>ערוץ מטה</translation>
+        <translation>Kanal ned</translation>
     </message>
     <message>
         <source>Guide</source>
-        <translation>מדריך</translation>
+        <translation>Guide</translation>
     </message>
     <message>
         <source>Info</source>
-        <translation>מידע</translation>
+        <translation>Info</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation>הגדרות</translation>
+        <translation>Indstillinger</translation>
     </message>
     <message>
         <source>Microphone Volume Up</source>
-        <translation>מיקרופון הגבר עוצמה</translation>
+        <translation>Mikrofon lydstyrke op</translation>
     </message>
     <message>
         <source>Microphone Volume Down</source>
-        <translation>מיקרופון הנמך עוצמה</translation>
+        <translation>Mikrofon lydstyrke ned</translation>
     </message>
     <message>
         <source>New</source>
-        <translation>חדש</translation>
+        <translation>Ny</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>פתח</translation>
+        <translation>Åbn</translation>
     </message>
     <message>
         <source>Find</source>
-        <translation>חפש</translation>
+        <translation>Find</translation>
     </message>
     <message>
         <source>Undo</source>
-        <translation>בטל</translation>
+        <translation>Fortryd</translation>
     </message>
     <message>
         <source>Redo</source>
-        <translation>בצע שוב</translation>
+        <translation>Omgør</translation>
     </message>
     <message>
         <source>Print Screen</source>
@@ -5117,11 +5117,11 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Page Up</source>
-        <translation>Page Up</translation>
+        <translation>Side op</translation>
     </message>
     <message>
         <source>Page Down</source>
-        <translation>Page Down</translation>
+        <translation>Side ned</translation>
     </message>
     <message>
         <source>Caps Lock</source>
@@ -5141,11 +5141,11 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Insert</source>
-        <translation>Insert</translation>
+        <translation>Indsæt</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Delete</translation>
+        <translation>Slet</translation>
     </message>
     <message>
         <source>Escape</source>
@@ -5157,226 +5157,226 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Select</source>
-        <translation>בחר</translation>
+        <translation>Vælg</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>כן</translation>
+        <translation>Ja</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>לא</translation>
+        <translation>Nej</translation>
     </message>
     <message>
         <source>Context1</source>
-        <translation>הקשר1</translation>
+        <translation>Kontekst1</translation>
     </message>
     <message>
         <source>Context2</source>
-        <translation>הקשר2</translation>
+        <translation>Kontekst2</translation>
     </message>
     <message>
         <source>Context3</source>
-        <translation>הקשר3</translation>
+        <translation>Kontekst3</translation>
     </message>
     <message>
         <source>Context4</source>
-        <translation>הקשר4</translation>
+        <translation>Kontekst4</translation>
     </message>
     <message>
         <source>Call</source>
         <extracomment>Button to start a call (note: a separate button is used to end the call)</extracomment>
-        <translation>התקשר</translation>
+        <translation>Ring op</translation>
     </message>
     <message>
         <source>Hangup</source>
         <extracomment>Button to end a call (note: a separate button is used to start the call)</extracomment>
-        <translation>נתק</translation>
+        <translation>Læg på</translation>
     </message>
     <message>
         <source>Toggle Call/Hangup</source>
         <extracomment>Button that will hang up if we&apos;re in call, or make a call if we&apos;re not.</extracomment>
-        <translation>התקשר/נתק</translation>
+        <translation>Ring op/læg på til/fra</translation>
     </message>
     <message>
         <source>Flip</source>
-        <translation>הפוך</translation>
+        <translation>Vend</translation>
     </message>
     <message>
         <source>Voice Dial</source>
         <extracomment>Button to trigger voice dialing</extracomment>
-        <translation>חיוג קולי</translation>
+        <translation>Stemmeopkald</translation>
     </message>
     <message>
         <source>Last Number Redial</source>
         <extracomment>Button to redial the last number called</extracomment>
-        <translation>חיוג חוזר</translation>
+        <translation>Sidste kaldte nummer</translation>
     </message>
     <message>
         <source>Camera Shutter</source>
         <extracomment>Button to trigger the camera shutter (take a picture)</extracomment>
-        <translation>צַמְצָם מצלמה</translation>
+        <translation>Kameralukker</translation>
     </message>
     <message>
         <source>Camera Focus</source>
         <extracomment>Button to focus the camera</extracomment>
-        <translation>מוקד מצלמה</translation>
+        <translation>Kamerafokus</translation>
     </message>
     <message>
         <source>Kanji</source>
-        <translation>קאנג&apos;י</translation>
+        <translation>Kanji</translation>
     </message>
     <message>
         <source>Muhenkan</source>
-        <translation>מוהנקאן</translation>
+        <translation>Muhenkan</translation>
     </message>
     <message>
         <source>Henkan</source>
-        <translation>הנקאן</translation>
+        <translation>Henkan</translation>
     </message>
     <message>
         <source>Romaji</source>
-        <translation>רומאנג&apos;י</translation>
+        <translation>Romaji</translation>
     </message>
     <message>
         <source>Hiragana</source>
-        <translation>היראגאנה</translation>
+        <translation>Hiragana</translation>
     </message>
     <message>
         <source>Katakana</source>
-        <translation>קאטאקאנה</translation>
+        <translation>Katakana</translation>
     </message>
     <message>
         <source>Hiragana Katakana</source>
-        <translation>היראגאנה קטאטקאנה</translation>
+        <translation>Hiragana Katakana</translation>
     </message>
     <message>
         <source>Zenkaku</source>
-        <translation>זנקאקו</translation>
+        <translation>Zenkaku</translation>
     </message>
     <message>
         <source>Hankaku</source>
-        <translation>האנקאקו</translation>
+        <translation>Hankaku</translation>
     </message>
     <message>
         <source>Zenkaku Hankaku</source>
-        <translation>זנקאקו האנקאקו</translation>
+        <translation>Zenkaku Hankaku</translation>
     </message>
     <message>
         <source>Touroku</source>
-        <translation>טואורוקו</translation>
+        <translation>Touroku</translation>
     </message>
     <message>
         <source>Massyo</source>
-        <translation>מאסיו</translation>
+        <translation>Massyo</translation>
     </message>
     <message>
         <source>Kana Lock</source>
-        <translation></translation>
+        <translation>Kana lås</translation>
     </message>
     <message>
         <source>Kana Shift</source>
-        <translation></translation>
+        <translation>Kana skift</translation>
     </message>
     <message>
         <source>Eisu Shift</source>
-        <translation></translation>
+        <translation>Eisu skift</translation>
     </message>
     <message>
         <source>Eisu toggle</source>
-        <translation></translation>
+        <translation>Eisu til/fra</translation>
     </message>
     <message>
         <source>Code input</source>
-        <translation>קלט קוד</translation>
+        <translation>Kodeinput</translation>
     </message>
     <message>
         <source>Multiple Candidate</source>
-        <translation>מספר מועמדים</translation>
+        <translation>Flere kandidat</translation>
     </message>
     <message>
         <source>Previous Candidate</source>
-        <translation>מועמד קודם</translation>
+        <translation>Forrige kandidat</translation>
     </message>
     <message>
         <source>Hangul</source>
-        <translation>האנגול</translation>
+        <translation>Hangul</translation>
     </message>
     <message>
         <source>Hangul Start</source>
-        <translation>האנגול התחלה</translation>
+        <translation>Hangul start</translation>
     </message>
     <message>
         <source>Hangul End</source>
-        <translation>האנגול סיום</translation>
+        <translation>Hangul slut</translation>
     </message>
     <message>
         <source>Hangul Hanja</source>
-        <translation>האנגול האנג&apos;ה</translation>
+        <translation>Hangul Hanja</translation>
     </message>
     <message>
         <source>Hangul Jamo</source>
-        <translation>האנגול ג&apos;אמו</translation>
+        <translation>Hangul Jamo</translation>
     </message>
     <message>
         <source>Hangul Romaja</source>
-        <translation>האנגול רומאג&apos;ה</translation>
+        <translation>Hangul Romaja</translation>
     </message>
     <message>
         <source>Hangul Jeonja</source>
-        <translation>האנגול ג&apos;אונג&apos;ה</translation>
+        <translation>Hangul Jeonja</translation>
     </message>
     <message>
         <source>Hangul Banja</source>
-        <translation>האנגול באנג&apos;ה</translation>
+        <translation>Hangul Banja</translation>
     </message>
     <message>
         <source>Hangul PreHanja</source>
-        <translation>האנגול  לפני האנג&apos;ה</translation>
+        <translation>Hangul præ-Hanja</translation>
     </message>
     <message>
         <source>Hangul PostHanja</source>
-        <translation>האנגול אחרי האנג&apos;ה</translation>
+        <translation>Hangul post-Hanja</translation>
     </message>
     <message>
         <source>Hangul Special</source>
-        <translation>האנגול מיוחד</translation>
+        <translation>Hangul speciel</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>ביטול</translation>
+        <translation>Annuller</translation>
     </message>
     <message>
         <source>Printer</source>
-        <translation>מדפסת</translation>
+        <translation>Printer</translation>
     </message>
     <message>
         <source>Execute</source>
-        <translation>הפעל</translation>
+        <translation>Eksekver</translation>
     </message>
     <message>
         <source>Play</source>
-        <translation>נגן</translation>
+        <translation>Afspil</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation>זום</translation>
+        <translation>Zoom</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>יציאה</translation>
+        <translation>Afslut</translation>
     </message>
     <message>
         <source>Touchpad Toggle</source>
-        <translation>הפעל/כבה משטח מגע</translation>
+        <translation>Pegeplade til/fra</translation>
     </message>
     <message>
         <source>Touchpad On</source>
-        <translation>הפעל משטח מגע</translation>
+        <translation>Pegeplade til</translation>
     </message>
     <message>
         <source>Touchpad Off</source>
-        <translation>כבה משטח מגע</translation>
+        <translation>Pegeplade fra</translation>
     </message>
     <message>
         <source>Ctrl</source>
@@ -5384,7 +5384,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Shift</source>
-        <translation>Shift</translation>
+        <translation>Skift</translation>
     </message>
     <message>
         <source>Alt</source>
@@ -5392,15 +5392,15 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Meta</source>
-        <translation>מטא</translation>
+        <translation>Meta</translation>
     </message>
     <message>
         <source>Num</source>
-        <translation>מספר</translation>
+        <translation>Num</translation>
     </message>
     <message>
         <source>+</source>
-        <translation>+‪</translation>
+        <translation>+</translation>
     </message>
     <message>
         <source>F%1</source>
@@ -5411,59 +5411,59 @@ Please turn one of those options off.</source>
     <name>QSocks5SocketEngine</name>
     <message>
         <source>Connection to proxy refused</source>
-        <translation>החיבור אל שרת מתווך נדחה</translation>
+        <translation>Proxy-forbindelsen blev nægtet</translation>
     </message>
     <message>
         <source>Connection to proxy closed prematurely</source>
-        <translation>החיבור אל שרת מתווך נסגר בטרם עת</translation>
+        <translation>Proxy-forbindelsen lukkede i utide</translation>
     </message>
     <message>
         <source>Proxy host not found</source>
-        <translation>מארח שרת מתווך לא נמצא</translation>
+        <translation>Proxy-værten blev ikke fundet</translation>
     </message>
     <message>
         <source>Connection to proxy timed out</source>
-        <translation>פג זמן חיבור אל שרת מתווך</translation>
+        <translation>Proxy-forbindelsen fik timeout</translation>
     </message>
     <message>
         <source>Proxy authentication failed</source>
-        <translation>אימות שרת מתווך נכשל</translation>
+        <translation>Proxy-autentifikation fejlede</translation>
     </message>
     <message>
         <source>Proxy authentication failed: %1</source>
-        <translation>אימות שרת מתווך נכשל: %1</translation>
+        <translation>Proxy-autentifikation fejlede: %1</translation>
     </message>
     <message>
         <source>SOCKS version 5 protocol error</source>
-        <translation>שגיאת פרוטוקול SOCKS גירסה 5</translation>
+        <translation>SOCKS version 5 protokolfejl</translation>
     </message>
     <message>
         <source>General SOCKSv5 server failure</source>
-        <translation>כשל שרת SOCKSv5 כללי</translation>
+        <translation>General SOCKSv5 serverfejl</translation>
     </message>
     <message>
         <source>Connection not allowed by SOCKSv5 server</source>
-        <translation>שרת SOCKSv5 לא מאפשר חיבור</translation>
+        <translation>Forbindelse ikke tilladt a SOCKSv5-server</translation>
     </message>
     <message>
         <source>TTL expired</source>
-        <translation>רשת לא ניתנת להשגה</translation>
+        <translation>TTL udløbet</translation>
     </message>
     <message>
         <source>SOCKSv5 command not supported</source>
-        <translation>פקודת SOCKSv5 לא נתמכת</translation>
+        <translation>SOCKSv5-kommando understøttes ikke</translation>
     </message>
     <message>
         <source>Address type not supported</source>
-        <translation>טיפוס כתובת לא נתמך</translation>
+        <translation>Adressetypen understøttes ikke</translation>
     </message>
     <message>
         <source>Unknown SOCKSv5 proxy error code 0x%1</source>
-        <translation>קוד שגיאת שרת מתווך SOCKSv5 לא מוכר 0x%1</translation>
+        <translation>Ukendt SOCKSv5-proxy fejlkode 0x%1</translation>
     </message>
     <message>
         <source>Network operation timed out</source>
-        <translation>תם זמן פעולת רשת</translation>
+        <translation>Netværkshandlingen fik timeout</translation>
     </message>
 </context>
 <context>
@@ -5471,834 +5471,834 @@ Please turn one of those options off.</source>
     <message>
         <source>invalid role</source>
         <extracomment>Role of an accessible object - the object is in an invalid state or could not be constructed</extracomment>
-        <translation>תפקיד לא תקין</translation>
+        <translation>ugyldig rolle</translation>
     </message>
     <message>
         <source>title bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>פס כותרת</translation>
+        <translation>titellinje</translation>
     </message>
     <message>
         <source>menu bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>שורת תפריטים</translation>
+        <translation>menulinje</translation>
     </message>
     <message>
         <source>scroll bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>פס גלילה</translation>
+        <translation>rullebjælke</translation>
     </message>
     <message>
         <source>grip</source>
         <extracomment>Role of an accessible object - the grip is usually used for resizing another object</extracomment>
-        <translation>החזקה לשינוי גודל</translation>
+        <translation>greb</translation>
     </message>
     <message>
         <source>sound</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>צליל</translation>
+        <translation>lyd</translation>
     </message>
     <message>
         <source>cursor</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>סמן</translation>
+        <translation>markør</translation>
     </message>
     <message>
         <source>text caret</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>סמן טקסט</translation>
+        <translation>tekstmarkør</translation>
     </message>
     <message>
         <source>alert message</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>הודעת אזהרה</translation>
+        <translation>beskedmeddelelse</translation>
     </message>
     <message>
         <source>frame</source>
         <extracomment>Role of an accessible object: a window with frame and title
 ----------
 Role of an accessible object</extracomment>
-        <translation>מסגרת</translation>
+        <translation>ramme</translation>
     </message>
     <message>
         <source>filler</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ממלא</translation>
+        <translation>udfylder</translation>
     </message>
     <message>
         <source>popup menu</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>תפריט קופץ</translation>
+        <translation>pop-op-menu</translation>
     </message>
     <message>
         <source>menu item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>פריט תפריט</translation>
+        <translation>menupunkt</translation>
     </message>
     <message>
         <source>tool tip</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>חלונית עזרה</translation>
+        <translation>værktøjstip</translation>
     </message>
     <message>
         <source>application</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>יישום</translation>
+        <translation>program</translation>
     </message>
     <message>
         <source>document</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>מסמך</translation>
+        <translation>dokument</translation>
     </message>
     <message>
         <source>panel</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>פאנל</translation>
+        <translation>panel</translation>
     </message>
     <message>
         <source>chart</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>תרשים</translation>
+        <translation>graf</translation>
     </message>
     <message>
         <source>dialog</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>דו שיח</translation>
+        <translation>dialog</translation>
     </message>
     <message>
         <source>separator</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>מפריד</translation>
+        <translation>separator</translation>
     </message>
     <message>
         <source>tool bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>סרגל כלים</translation>
+        <translation>værktøjslinje</translation>
     </message>
     <message>
         <source>status bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>שורת מצב</translation>
+        <translation>statuslinje</translation>
     </message>
     <message>
         <source>table</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>טבלה</translation>
+        <translation>tabel</translation>
     </message>
     <message>
         <source>column header</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>כותרת עמודה</translation>
+        <translation>kolonnehoved</translation>
     </message>
     <message>
         <source>row header</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>כותרת שורה</translation>
+        <translation>rækkehoved</translation>
     </message>
     <message>
         <source>column</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>עמודה</translation>
+        <translation>kolonne</translation>
     </message>
     <message>
         <source>row</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>שורה</translation>
+        <translation>række</translation>
     </message>
     <message>
         <source>cell</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>תא</translation>
+        <translation>celle</translation>
     </message>
     <message>
         <source>link</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>קישור</translation>
+        <translation>link</translation>
     </message>
     <message>
         <source>help balloon</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>בלון עזרה</translation>
+        <translation>hjælp-ballon</translation>
     </message>
     <message>
         <source>assistant</source>
         <extracomment>Role of an accessible object - a helper dialog</extracomment>
-        <translation>מסייע</translation>
+        <translation>assistent</translation>
     </message>
     <message>
         <source>list</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>רשימה</translation>
+        <translation>liste</translation>
     </message>
     <message>
         <source>list item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>פריט רשימה</translation>
+        <translation>listepunkt</translation>
     </message>
     <message>
         <source>tree</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>עץ</translation>
+        <translation>træ</translation>
     </message>
     <message>
         <source>tree item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>פריט עץ</translation>
+        <translation>træpunkt</translation>
     </message>
     <message>
         <source>page tab</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>לשונית עמוד</translation>
+        <translation>sidefaneblad</translation>
     </message>
     <message>
         <source>property page</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>עמוד תכונות</translation>
+        <translation>egenskabsside</translation>
     </message>
     <message>
         <source>indicator</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>מציין</translation>
+        <translation>indikator</translation>
     </message>
     <message>
         <source>graphic</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>גרפי</translation>
+        <translation>grafik</translation>
     </message>
     <message>
         <source>label</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>תוית</translation>
+        <translation>etiket</translation>
     </message>
     <message>
         <source>text</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>טקסט</translation>
+        <translation>tekst</translation>
     </message>
     <message>
         <source>push button</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>כפתור לחיצה</translation>
+        <translation>trykknap</translation>
     </message>
     <message>
         <source>check box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>תיבת סימון</translation>
+        <translation>afkrydsningsboks</translation>
     </message>
     <message>
         <source>radio button</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>כפתור רדיו</translation>
+        <translation>radioknap</translation>
     </message>
     <message>
         <source>combo box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>תיבת בחירה</translation>
+        <translation>komboboks</translation>
     </message>
     <message>
         <source>progress bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>סרגל התקדמות</translation>
+        <translation>fremgangslinje</translation>
     </message>
     <message>
         <source>dial</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>חוגה</translation>
+        <translation>drejeskive</translation>
     </message>
     <message>
         <source>hotkey field</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>שדה מקש קיצור</translation>
+        <translation>genvejstastfelt</translation>
     </message>
     <message>
         <source>slider</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>מחוון</translation>
+        <translation>skyder</translation>
     </message>
     <message>
         <source>spin box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>תיבת בחירת מספר</translation>
+        <translation>rotationsboks</translation>
     </message>
     <message>
         <source>canvas</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>אריג</translation>
+        <translation>lærred</translation>
     </message>
     <message>
         <source>animation</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>הנפשה</translation>
+        <translation>animation</translation>
     </message>
     <message>
         <source>equation</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>משוואה</translation>
+        <translation>ligning</translation>
     </message>
     <message>
         <source>button with drop down</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>כפתור עם תפריט</translation>
+        <translation>knap med rullegardin</translation>
     </message>
     <message>
         <source>button menu</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>תפריט כפתור</translation>
+        <translation>knapmenu</translation>
     </message>
     <message>
         <source>button with drop down grid</source>
         <extracomment>Role of an accessible object - a button that expands a grid.</extracomment>
-        <translation>כפתור עם רשת קופצת</translation>
+        <translation>knap med rullegardinsgitter</translation>
     </message>
     <message>
         <source>space</source>
         <extracomment>Role of an accessible object - blank space between other objects.</extracomment>
-        <translation>רווח</translation>
+        <translation>mellemrum</translation>
     </message>
     <message>
         <source>page tab list</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>רשימת כרטיסיות עמוד</translation>
+        <translation>sidefanebladsliste</translation>
     </message>
     <message>
         <source>clock</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>שעון</translation>
+        <translation>ur</translation>
     </message>
     <message>
         <source>splitter</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>מפצל</translation>
+        <translation>adskiller</translation>
     </message>
     <message>
         <source>layered pane</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>משטח שכבתי</translation>
+        <translation>laglagt rude</translation>
     </message>
     <message>
         <source>web document</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>מסמך רשת</translation>
+        <translation>webdokument</translation>
     </message>
     <message>
         <source>paragraph</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>פיסקה</translation>
+        <translation>afsnit</translation>
     </message>
     <message>
         <source>section</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>מקטע</translation>
+        <translation>sektion</translation>
     </message>
     <message>
         <source>color chooser</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>בוחר צבע</translation>
+        <translation>farvevælger</translation>
     </message>
     <message>
         <source>footer</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>הערת שוליים</translation>
+        <translation>sidefod</translation>
     </message>
     <message>
         <source>form</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>טופס</translation>
+        <translation>formular</translation>
     </message>
     <message>
         <source>heading</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>כותרת</translation>
+        <translation>overskrift</translation>
     </message>
     <message>
         <source>note</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>הערה</translation>
+        <translation>bemærkning</translation>
     </message>
     <message>
         <source>complementary content</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>תוכן משלים</translation>
+        <translation>supplerende indhold</translation>
     </message>
     <message>
         <source>unknown</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>לא מוכר</translation>
+        <translation>ukendt</translation>
     </message>
 </context>
 <context>
     <name>QSslSocket</name>
     <message>
         <source>Error when setting the elliptic curves (%1)</source>
-        <translation>שגיאה בקביעת עקומים אליפטיים (%1)</translation>
+        <translation>Fejl under indstilling af de elliptiske kurver (%1)</translation>
     </message>
     <message>
         <source>Error creating SSL context (%1)</source>
-        <translation>שגיאה ביצירת הקשר SSL‏ (%1)</translation>
+        <translation>Fejl under oprettelse af SSL-kontekst (%1)</translation>
     </message>
     <message>
         <source>unsupported protocol</source>
-        <translation>פרוטוקול לא נתמך</translation>
+        <translation>protokollen understøttes ikke</translation>
     </message>
     <message>
         <source>Invalid or empty cipher list (%1)</source>
-        <translation>רשימת צופן לא תקינה או ריקה (%1)</translation>
+        <translation>Ugyldig eller tom chifferliste (%1)</translation>
     </message>
     <message>
         <source>Cannot provide a certificate with no key, %1</source>
-        <translation>אין אפשרות לספק תעודה בלי מפתח, %1</translation>
+        <translation>Kan ikke give et certifikat uden nøgle, %1</translation>
     </message>
     <message>
         <source>Error loading local certificate, %1</source>
-        <translation>שגיאה בטעינת תעודה מקומית, %1</translation>
+        <translation>Fejl under indlæsning af lokalt certifikat, %1</translation>
     </message>
     <message>
         <source>Error loading private key, %1</source>
-        <translation>שגיאה בטעינת מפתח פרטי, %1</translation>
+        <translation>Fejl under indlæsning af privat nøgle, %1</translation>
     </message>
     <message>
         <source>Private key does not certify public key, %1</source>
-        <translation>מפתח פרטי לא מסמיך מפתח ציבורי, %1</translation>
+        <translation>Privat nøgle certificere ikke offentlig nøgle, %1</translation>
     </message>
     <message>
         <source>OpenSSL version too old, need at least v1.0.2</source>
-        <translation>גירסת OpenSSL ישנה מדי, נדרשת לפחות v1.0.2</translation>
+        <translation>OpenSSL-version for gammel, skal mindst være v1.0.2</translation>
     </message>
     <message>
         <source>No error</source>
-        <translation>אין שגיאה</translation>
+        <translation>Ingen fejl</translation>
     </message>
     <message>
         <source>The issuer certificate could not be found</source>
-        <translation>אין אפשרות למצוא את תעודת המנפיק</translation>
+        <translation>Udstedercertifikatet kunne ikke findes</translation>
     </message>
     <message>
         <source>The certificate signature could not be decrypted</source>
-        <translation>חתימת תעודה לא ניתנת לפיענוח</translation>
+        <translation>Certifikatsignaturen kunne ikke dekrypteres</translation>
     </message>
     <message>
         <source>The public key in the certificate could not be read</source>
-        <translation>אין אפשרות לקרוא את המפתח הציבורי בתעודה</translation>
+        <translation>Den offentlige nøgle i certifikatet kunne ikke læses</translation>
     </message>
     <message>
         <source>The signature of the certificate is invalid</source>
-        <translation>החתימה של התעודה אינה תקינה</translation>
+        <translation>Signaturen på certifikatet er ugyldigt</translation>
     </message>
     <message>
         <source>The certificate is not yet valid</source>
-        <translation>התעודה עדיין אינה תקפה</translation>
+        <translation>Certifikatet er endnu ikke gyldigt</translation>
     </message>
     <message>
         <source>The certificate has expired</source>
-        <translation>התעודה פקעה</translation>
+        <translation>Certifikatet er udløbet</translation>
     </message>
     <message>
         <source>The certificate&apos;s notBefore field contains an invalid time</source>
-        <translation>שדה notBefore של התעודה מכיל זמן לא תקין</translation>
+        <translation>Certifikatets notBefore-felt indeholder en ugyldig tid</translation>
     </message>
     <message>
         <source>The certificate&apos;s notAfter field contains an invalid time</source>
-        <translation>שדה notAfter של התעודה מכיל זמן לא תקין</translation>
+        <translation>Certifikatets notAfter-felt indeholder en ugyldig tid</translation>
     </message>
     <message>
         <source>The certificate is self-signed, and untrusted</source>
-        <translation>התעודה חתומה באופן-עצמי, ולא מהימנה</translation>
+        <translation>Certifikatet er selv-signeret, og ikke betroet</translation>
     </message>
     <message>
         <source>The root certificate of the certificate chain is self-signed, and untrusted</source>
-        <translation>תעודת השורש של שרשרת התעודות היא בעלת חתימה עצמית, ולא אמינה</translation>
+        <translation>Rod-certifikatet af certifikatskæden er selv-signeret, og ikke betroet</translation>
     </message>
     <message>
         <source>The issuer certificate of a locally looked up certificate could not be found</source>
-        <translation>תעודת המנפיק של תעודה בחיפוש מקומי לא נמצא</translation>
+        <translation>Udstedercertifikatet af en lokalt opslået certifikat kunne ikke findes</translation>
     </message>
     <message>
         <source>No certificates could be verified</source>
-        <translation>לא ניתן לאמת תעודות</translation>
+        <translation>Ingen certifikater kunne verificeres</translation>
     </message>
     <message>
         <source>One of the CA certificates is invalid</source>
-        <translation>אחת מתעודות CA אינה תקינה</translation>
+        <translation>Et af CA-certifikaterne er ugyldigt</translation>
     </message>
     <message>
         <source>The basicConstraints path length parameter has been exceeded</source>
-        <translation>חריגה מפרמטר אורך הנתיב basicConstraints</translation>
+        <translation>Stilængde-parameteren basicConstraints er blevet overskredet</translation>
     </message>
     <message>
         <source>The supplied certificate is unsuitable for this purpose</source>
-        <translation>התעודה שסופקה אינה מתאימה למטרה זו</translation>
+        <translation>Det givet certifikat er uegnet til dette formål</translation>
     </message>
     <message>
         <source>The root CA certificate is not trusted for this purpose</source>
-        <translation>תעודת CA השורש אינה אמינה למטרה זו</translation>
+        <translation>Rod-CA-certifikatet er ikke betroet til dette formål</translation>
     </message>
     <message>
         <source>The root CA certificate is marked to reject the specified purpose</source>
-        <translation>תעודת CA השורש מסומנת לדחיית המטרה המוגדרת</translation>
+        <translation>Rod-CA-certifikatet er markeret til at afvise det specifikke formål</translation>
     </message>
     <message>
         <source>The current candidate issuer certificate was rejected because its subject name did not match the issuer name of the current certificate</source>
-        <translation>תעודת המנפיק של התעודה הנוכחית נדחתה כיוון ששם הנושא לא תואם לשם המנפיק של התעודה הנוכחית</translation>
+        <translation>Det aktuelle kandidat-udstedercertifikat blev afvist fordi dets subjektnavn ikke matchede udstedernavnet på det aktuelle certifikat</translation>
     </message>
     <message>
         <source>The current candidate issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate</source>
-        <translation>תעודת המנפיק של התעודה הנוכחית נדחתה כיוון ששם המנפיק והמספר הסידורי נמצאים ואינם תואמים למזהה מפתח האמינות של התעודה הנוכחית</translation>
+        <translation>Det aktuelle kandidat-udstedercertifikat blev afvist fordi dets udstedernavn og serienummer var tilstede og ikke matchede myndighedsnøgle-identifikatoren på det aktuelle certifikat</translation>
     </message>
     <message>
         <source>The peer did not present any certificate</source>
-        <translation>העמית לא הציג שום תעודה</translation>
+        <translation>Peer&apos;en præsenterede ikke noget certifikat</translation>
     </message>
     <message>
         <source>The host name did not match any of the valid hosts for this certificate</source>
-        <translation>שם המארח אינו תואם אף אחד מהמארחים החוקיים עבור תעודה זו</translation>
+        <translation>Værtsnavnet matchede ikke nogen af de gyldige værter for dette certifikat</translation>
     </message>
     <message>
         <source>The peer certificate is blacklisted</source>
-        <translation>תעודת העמית מצויה ברשימה שחורה</translation>
+        <translation>Peer-certifikatet er sortlistet</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>שגיאה לא מוכרת</translation>
-    </message>
-    <message>
-        <source>Error creating SSL session, %1</source>
-        <translation>שגיאה ביצירת פגישת SSL‏, %1</translation>
-    </message>
-    <message>
-        <source>Error creating SSL session: %1</source>
-        <translation>שגיאה ביצירת פגישת SSL‏: %1</translation>
-    </message>
-    <message>
-        <source>Unable to init SSL Context: %1</source>
-        <translation>אין אפשרות לאתחל הקשר SSL:‏ %1</translation>
-    </message>
-    <message>
-        <source>Unable to write data: %1</source>
-        <translation>אין אפשרות לרשום נתונים: %1</translation>
-    </message>
-    <message>
-        <source>Unable to decrypt data: %1</source>
-        <translation>אין אפשרות לפענח נתונים: %1</translation>
+        <translation>Ukendt fejl</translation>
     </message>
     <message>
         <source>The TLS/SSL connection has been closed</source>
-        <translation>חיבור TLS/SSL נסגר</translation>
+        <translation>TLS-/SSL-forbindelsen er blevet lukket</translation>
+    </message>
+    <message>
+        <source>Error creating SSL session, %1</source>
+        <translation>Fejl under oprettelse af SSL-session, %1</translation>
+    </message>
+    <message>
+        <source>Error creating SSL session: %1</source>
+        <translation>Fejl under oprettelse af SSL-session: %1</translation>
+    </message>
+    <message>
+        <source>Unable to init SSL Context: %1</source>
+        <translation>Kunne ikke initialisere SSL-kontekst: %1</translation>
+    </message>
+    <message>
+        <source>Unable to write data: %1</source>
+        <translation>Kunne ikke skrive data: %1</translation>
+    </message>
+    <message>
+        <source>Unable to decrypt data: %1</source>
+        <translation>Kunne ikke dekryptere data: %1</translation>
     </message>
     <message>
         <source>Error while reading: %1</source>
-        <translation>שגיאה במהלך קריאה: %1</translation>
+        <translation>Fejl under læsning af: %1</translation>
     </message>
     <message>
         <source>Error during SSL handshake: %1</source>
-        <translation>שגיאה בעת לחיצת יד SSL‏: %1</translation>
+        <translation>Fejl under SSL-håndtryk: %1</translation>
     </message>
 </context>
 <context>
     <name>QStandardPaths</name>
     <message>
         <source>Desktop</source>
-        <translation>שולחן עבודה</translation>
+        <translation>Skrivebord</translation>
     </message>
     <message>
         <source>Documents</source>
-        <translation>מסמכים</translation>
+        <translation>Dokumenter</translation>
     </message>
     <message>
         <source>Fonts</source>
-        <translation>גופנים</translation>
+        <translation>Skrifttyper</translation>
     </message>
     <message>
         <source>Applications</source>
-        <translation>יישומים</translation>
+        <translation>Programmer</translation>
     </message>
     <message>
         <source>Music</source>
-        <translation>מוזיקה</translation>
+        <translation>Musik</translation>
     </message>
     <message>
         <source>Movies</source>
-        <translation>סרטים</translation>
+        <translation>Film</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>תמונות</translation>
+        <translation>Billeder</translation>
     </message>
     <message>
         <source>Temporary Directory</source>
-        <translation>ספרייה זמנית</translation>
+        <translation>Midlertidig mappe</translation>
     </message>
     <message>
         <source>Home</source>
-        <translation>בית</translation>
+        <translation>Hjem</translation>
     </message>
     <message>
         <source>Cache</source>
-        <translation>מטמון</translation>
+        <translation>Mellemlager</translation>
     </message>
     <message>
         <source>Shared Data</source>
-        <translation>מידע משותף</translation>
+        <translation>Delte data</translation>
     </message>
     <message>
         <source>Runtime</source>
-        <translation>זמן ריצה</translation>
+        <translation>Runtime</translation>
     </message>
     <message>
         <source>Configuration</source>
-        <translation>תצורה</translation>
+        <translation>Konfiguration</translation>
     </message>
     <message>
         <source>Shared Configuration</source>
-        <translation>תצורה משותפת</translation>
+        <translation>Delte konfiguration</translation>
     </message>
     <message>
         <source>Shared Cache</source>
-        <translation>מטמון משותף</translation>
+        <translation>Delte mellemlager</translation>
     </message>
     <message>
         <source>Download</source>
-        <translation>הורדה</translation>
+        <translation>Download</translation>
     </message>
     <message>
         <source>Application Data</source>
-        <translation>נתוני יישומים</translation>
+        <translation>Programdata</translation>
     </message>
     <message>
         <source>Application Configuration</source>
-        <translation>תצורת יישומים</translation>
+        <translation>Programkonfiguration</translation>
     </message>
 </context>
 <context>
     <name>QStateMachine</name>
     <message>
         <source>Missing initial state in compound state &apos;%1&apos;</source>
-        <translation>חסר מצב ראשוני במצב מורכב &apos;%1&apos;</translation>
+        <translation>Manglende indledende tilstand i den sammensatte tilstand &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Missing default state in history state &apos;%1&apos;</source>
-        <translation>חסר מצב ברירת מחדל במצב הסטוריה &apos;%1&apos;</translation>
+        <translation>Manglende standardtilstand i historiktilstanden &apos;%1&apos;</translation>
     </message>
     <message>
         <source>No common ancestor for targets and source of transition from state &apos;%1&apos;</source>
-        <translation>אין אב משותף ליעדים והמקור של המעבר ממצב &apos;%1&apos;</translation>
+        <translation>Ingen fælles forfader for mål og kilde af overgang fra tilstanden &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>שגיאה לא מוכרת</translation>
+        <translation>Ukendt fejl</translation>
     </message>
 </context>
 <context>
     <name>QSystemSemaphore</name>
     <message>
         <source>%1: permission denied</source>
-        <translation>%1: הרשאה נדחתה</translation>
+        <translation>%1: tilladelse nægtet</translation>
     </message>
     <message>
         <source>%1: already exists</source>
-        <translation>‏%1: כבר קיים</translation>
+        <translation>%1: findes allerede</translation>
     </message>
     <message>
         <source>%1: does not exist</source>
-        <translation>‏%1: לא קיים</translation>
+        <translation>%1: findes ikke</translation>
     </message>
     <message>
         <source>%1: out of resources</source>
-        <translation>%1: לא נותרו משאבים</translation>
+        <translation>%1: ikke flere ressourcer</translation>
     </message>
     <message>
         <source>%1: unknown error %2</source>
-        <translation>%1: שגיאה לא מוכרת %2</translation>
+        <translation>%1: ukendt fejl %2</translation>
     </message>
 </context>
 <context>
     <name>QTDSDriver</name>
     <message>
         <source>Unable to open connection</source>
-        <translation>אין אפשרות לפתוח חיבור</translation>
+        <translation>Kunne ikke åbne forbindelsen</translation>
     </message>
     <message>
         <source>Unable to use database</source>
-        <translation>אין אפשרות להשתמש במסד נתונים</translation>
+        <translation>Kunne ikke bruge databasen</translation>
     </message>
 </context>
 <context>
     <name>QTabBar</name>
     <message>
         <source>Scroll Left</source>
-        <translation>גלול שמאלה</translation>
+        <translation>Rul til venstre</translation>
     </message>
     <message>
         <source>Scroll Right</source>
-        <translation>גלול ימינה</translation>
+        <translation>Rul til højre</translation>
     </message>
 </context>
 <context>
     <name>QTcpServer</name>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>פעולה על שקע אינה נתמכת</translation>
+        <translation>Handling på socket understøttes ikke</translation>
     </message>
 </context>
 <context>
     <name>QTgaFile</name>
     <message>
         <source>Could not read image data</source>
-        <translation>אין אפשרות לקרוא נתוני תמונה</translation>
+        <translation>Kunne ikke læse billeddata</translation>
     </message>
     <message>
         <source>Sequential device (eg socket) for image read not supported</source>
-        <translation>התקן סדרתי (לדוגמה socket) לקריאת תמונה אינו נתמך</translation>
+        <translation>Fortløbende enhed (såsom socket) for billedlæsning understøttes ikke</translation>
     </message>
     <message>
         <source>Seek file/device for image read failed</source>
-        <translation>סריקת קובץ/התקן לקריאת תמונה נכשלה</translation>
+        <translation>Søgefil/enhed for billedlæsning fejlede</translation>
     </message>
     <message>
         <source>Image header read failed</source>
-        <translation>שגיאה בקריאת כותרת תמונה</translation>
+        <translation>Billedfilhoved læsefejl</translation>
     </message>
     <message>
         <source>Image type not supported</source>
-        <translation>טיפוס תמונה לא נתמך</translation>
+        <translation>Billedtypen understøttes ikke</translation>
     </message>
     <message>
         <source>Image depth not valid</source>
-        <translation>עומק תמונה לא תקין</translation>
+        <translation>Billeddybden er ikke gyldig</translation>
     </message>
     <message>
         <source>Could not seek to image read footer</source>
-        <translation>לא ניתן לסרוק לסיומת קריאת תמונה</translation>
+        <translation>Kunne ikke søge til billedlæsningsfilfod</translation>
     </message>
     <message>
         <source>Could not read footer</source>
-        <translation>לא ניתן לקרוא סיומת</translation>
+        <translation>Kunne ikke læse filfod</translation>
     </message>
     <message>
         <source>Image type (non-TrueVision 2.0) not supported</source>
-        <translation>סוג תמונה (לא TrueVision 2.0) לא נתמך</translation>
+        <translation>Billedtype (ikke-TrueVision 2.0) understøttes ikke</translation>
     </message>
     <message>
         <source>Could not reset to read data</source>
-        <translation>אין אפשרות לאתחל ע״מ לקרוא מידע</translation>
+        <translation>Kunne ikke nulstille læsedata</translation>
     </message>
 </context>
 <context>
     <name>QUndoGroup</name>
     <message>
         <source>Undo %1</source>
-        <translation>בטל %1</translation>
+        <translation>Fortryd %1</translation>
     </message>
     <message>
         <source>Undo</source>
         <comment>Default text for undo action</comment>
-        <translation>בטל</translation>
+        <translation>Fortryd</translation>
     </message>
     <message>
         <source>Redo %1</source>
-        <translation>בצע שוב %1</translation>
+        <translation>Omgør %1</translation>
     </message>
     <message>
         <source>Redo</source>
         <comment>Default text for redo action</comment>
-        <translation>בצע שוב</translation>
+        <translation>Omgør</translation>
     </message>
 </context>
 <context>
     <name>QUndoModel</name>
     <message>
         <source>&lt;empty&gt;</source>
-        <translation>&lt;ריק&gt;</translation>
+        <translation>&lt;tom&gt;</translation>
     </message>
 </context>
 <context>
     <name>QUndoStack</name>
     <message>
         <source>Undo %1</source>
-        <translation>בטל %1</translation>
+        <translation>Fortryd %1</translation>
     </message>
     <message>
         <source>Undo</source>
         <comment>Default text for undo action</comment>
-        <translation>בטל</translation>
+        <translation>Fortryd</translation>
     </message>
     <message>
         <source>Redo %1</source>
-        <translation>בצע שוב %1</translation>
+        <translation>Omgør %1</translation>
     </message>
     <message>
         <source>Redo</source>
         <comment>Default text for redo action</comment>
-        <translation>בצע שוב</translation>
+        <translation>Omgør</translation>
     </message>
 </context>
 <context>
     <name>QUnicodeControlCharacterMenu</name>
     <message>
         <source>LRM Left-to-right mark</source>
-        <translation></translation>
+        <translation>LRM Left-to-right mark (venstre-til-højre-mærkat)</translation>
     </message>
     <message>
         <source>RLM Right-to-left mark</source>
-        <translation></translation>
+        <translation>RLM Right-to-left mark (højre-til-venstre-mærkat)</translation>
     </message>
     <message>
         <source>ZWJ Zero width joiner</source>
-        <translation></translation>
+        <translation>ZWJ Zero width joiner (nul-bredde-sammenslutter)</translation>
     </message>
     <message>
         <source>ZWNJ Zero width non-joiner</source>
-        <translation></translation>
+        <translation>ZWNJ Zero width non-joiner (nul-bredde-ikke-sammenslutter)</translation>
     </message>
     <message>
         <source>ZWSP Zero width space</source>
-        <translation></translation>
+        <translation>ZWSP Zero width space (nul med mellemrum)</translation>
     </message>
     <message>
         <source>LRE Start of left-to-right embedding</source>
-        <translation></translation>
+        <translation>LRE Start of left-to-right embedding (start på venstre-til-højre-indlejring)</translation>
     </message>
     <message>
         <source>RLE Start of right-to-left embedding</source>
-        <translation></translation>
+        <translation>RLE Start of right-to-left embedding (start på højre-til-venstre-indlejring)</translation>
     </message>
     <message>
         <source>LRO Start of left-to-right override</source>
-        <translation></translation>
+        <translation>LRO Start of left-to-right override (start på venstre-til-højre-tilsidesætning)</translation>
     </message>
     <message>
         <source>RLO Start of right-to-left override</source>
-        <translation></translation>
+        <translation>RLO Start of right-to-left override (start på højre-til-venstre-tilsidesætning)</translation>
     </message>
     <message>
         <source>PDF Pop directional formatting</source>
-        <translation></translation>
+        <translation>PDF Pop directional formatting (glem retningsformatering)</translation>
     </message>
     <message>
         <source>LRI Left-to-right isolate</source>
-        <translation></translation>
+        <translation>LRI Left-to-right isolate (venstre-til-højre-isolering)</translation>
     </message>
     <message>
         <source>RLI Right-to-left isolate</source>
-        <translation></translation>
+        <translation>RLI Right-to-left isolate (højre-til-venstre-indlejring)</translation>
     </message>
     <message>
         <source>FSI First strong isolate</source>
-        <translation></translation>
+        <translation>FSI First strong isolate (første stærke isolering)</translation>
     </message>
     <message>
         <source>PDI Pop directional isolate</source>
-        <translation></translation>
+        <translation>PDI Pop directional isolate (glem retningsisolering)</translation>
     </message>
     <message>
         <source>Insert Unicode control character</source>
-        <translation>הוסף תו בקרה של Unicode</translation>
+        <translation>Indsæt unicode-kontroltegn</translation>
     </message>
 </context>
 <context>
     <name>QWhatsThisAction</name>
     <message>
         <source>What&apos;s This?</source>
-        <translation>מה זה?</translation>
+        <translation>Hvad er det?</translation>
     </message>
 </context>
 <context>
@@ -6312,35 +6312,35 @@ Role of an accessible object</extracomment>
     <name>QWidgetTextControl</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;בטל</translation>
+        <translation>&amp;Fortryd</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>בצע &amp;שוב</translation>
+        <translation>&amp;Omgør</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>&amp;גזור</translation>
+        <translation>K&amp;lip</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>הע&amp;תק</translation>
+        <translation>&amp;Kopiér</translation>
     </message>
     <message>
         <source>Copy &amp;Link Location</source>
-        <translation>העתק כתובת &amp;קישור</translation>
+        <translation>Kopiér l&amp;inkplacering</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>ה&amp;דבק</translation>
+        <translation>&amp;Sæt ind</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>מחק</translation>
+        <translation>Slet</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>בחר הכל</translation>
+        <translation>Markér alt</translation>
     </message>
 </context>
 <context>
@@ -6349,298 +6349,298 @@ Role of an accessible object</extracomment>
         <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
 
 The minimum Direct2D version required is %1.%2.%3.%4. The Direct2D version on this system is %5.%6.%7.%8.</source>
-        <translation>‏Qt לא יכולה לטעון את תוסף הפלטפורמה direct2d מכיוון שגירסת Direct2D במערכת זו ישנה מדי. גירסת המערכת המינימאלית עבור תוסף פלטפורמה זה היא חלונות 7 SP1 עם Platform Update.
+        <translation>Qt kan ikke indlæse direct2d-platform-pluginet fordi Direct2D-versionen på dette system er for gammel. Minimum systemkrav for dette platform-plugin er Windows 7 SP1 med platformsopdatering.
 
-גירסת Direct2D המינימאלית הנדרשת היא %1.%2.%3.%4. גירסת Direct2D במערכת זו היא %5.%6.%7.%8.</translation>
+Direct2D-versionen skal minimum være %1.%2.%3.%4. Direct2D-versionen på dette system er %5.%6.%7.%8.</translation>
     </message>
     <message>
         <source>Cannot load direct2d platform plugin</source>
-        <translation>אין אפשרות לטעון את תוסף הפלטפורמה direct2d</translation>
+        <translation>Kan ikke indlæse direct2d-platform-plugin</translation>
     </message>
 </context>
 <context>
     <name>QWizard</name>
     <message>
         <source>Go Back</source>
-        <translation>אחורה</translation>
+        <translation>Gå tilbage</translation>
     </message>
     <message>
         <source>&lt; &amp;Back</source>
-        <translation>&lt; &amp;אחורה</translation>
+        <translation>&lt; &amp;Tilbage</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation>המשך</translation>
+        <translation>Fortsæt</translation>
     </message>
     <message>
         <source>&amp;Next</source>
-        <translation>&amp;קדימה</translation>
+        <translation>&amp;Næste</translation>
     </message>
     <message>
         <source>&amp;Next &gt;</source>
-        <translation>&amp;קדימה &gt;</translation>
+        <translation>&amp;Næste &gt;</translation>
     </message>
     <message>
         <source>Commit</source>
-        <translation>בצע</translation>
+        <translation>Gennemfør</translation>
     </message>
     <message>
         <source>Done</source>
-        <translation>סיום</translation>
+        <translation>Færdig</translation>
     </message>
     <message>
         <source>&amp;Finish</source>
-        <translation>&amp;סיים</translation>
+        <translation>&amp;Slut</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>ביטול</translation>
+        <translation>Annuller</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>עזרה</translation>
+        <translation>Hjælp</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;עזרה</translation>
+        <translation>&amp;Hjælp</translation>
     </message>
 </context>
 <context>
     <name>QXml</name>
     <message>
         <source>no error occurred</source>
-        <translation>לא אירעה כל שגיאה</translation>
+        <translation>der opstod ingen fejl</translation>
     </message>
     <message>
         <source>error triggered by consumer</source>
-        <translation>נגרמה שגיאה על ידי הצרכן</translation>
+        <translation>fejl udløst af forbruger</translation>
     </message>
     <message>
         <source>unexpected end of file</source>
-        <translation>סוף קובץ לא צפוי</translation>
+        <translation>uventet afslutning på fil</translation>
     </message>
     <message>
         <source>more than one document type definition</source>
-        <translation>יותר מאשר הגדרת טיפוס מסמך אחת</translation>
+        <translation>mere end én dokumenttypedefinition</translation>
     </message>
     <message>
         <source>error occurred while parsing element</source>
-        <translation>אירעה שגיאה במהלך פענוח מרכיב</translation>
+        <translation>fejl under fortolkning af element</translation>
     </message>
     <message>
         <source>tag mismatch</source>
-        <translation>אי-התאמה בתגית</translation>
+        <translation>uoverensstemmende tag</translation>
     </message>
     <message>
         <source>error occurred while parsing content</source>
-        <translation>אירעה שגיאה במהלך פענוח תוכן</translation>
+        <translation>fejl under fortolkning af indhold</translation>
     </message>
     <message>
         <source>unexpected character</source>
-        <translation>תו לא צפוי</translation>
+        <translation>uventet tegn</translation>
     </message>
     <message>
         <source>invalid name for processing instruction</source>
-        <translation>שם לא תקין עבור הוראת העיבוד</translation>
+        <translation>ugyldigt navn for behandlende instruktion</translation>
     </message>
     <message>
         <source>version expected while reading the XML declaration</source>
-        <translation>צפויה גירסה במהלך קריאת הצהרת XML</translation>
+        <translation>version forventet under læsning af XML-deklaration</translation>
     </message>
     <message>
         <source>wrong value for standalone declaration</source>
-        <translation>ערך שגוי עבור ההגדרה העצמאית</translation>
+        <translation>forkert værdi for selvstændig deklaration</translation>
     </message>
     <message>
         <source>encoding declaration or standalone declaration expected while reading the XML declaration</source>
-        <translation>צפויה הצהרה על קידוד או הצהרה עצמאית במהלך קריאת הצהרת XML</translation>
+        <translation>kodningsdeklaration eller selvstændig deklaration ventet ved læsning af XML-deklaration</translation>
     </message>
     <message>
         <source>standalone declaration expected while reading the XML declaration</source>
-        <translation>צפויה הצהרה עצמאית במהלך קריאת הצהרת XML</translation>
+        <translation>selvstændig deklaration ventet ved læsning af XML-deklaration</translation>
     </message>
     <message>
         <source>error occurred while parsing document type definition</source>
-        <translation>אירעה שגיאה במהלך פענוח הגדרת טיפוס מסמך</translation>
+        <translation>fejl under fortolkning af dokumenttypedefinition</translation>
     </message>
     <message>
         <source>letter is expected</source>
-        <translation>צפויה אות</translation>
+        <translation>bogstav er ventet</translation>
     </message>
     <message>
         <source>error occurred while parsing comment</source>
-        <translation>אירעה שגיאה במהלך פענוח הערה</translation>
+        <translation>fejl under fortolkning af kommentar</translation>
     </message>
     <message>
         <source>error occurred while parsing reference</source>
-        <translation>אירעה שגיאה במהלך פענוח התייחסות</translation>
+        <translation>fejl under fortolkning af reference</translation>
     </message>
     <message>
         <source>internal general entity reference not allowed in DTD</source>
-        <translation>התייחסות לישות כללית פנימית אסורה בתוך DTD</translation>
+        <translation>intern generel entitetsreference ikke tilladt i DTD</translation>
     </message>
     <message>
         <source>external parsed general entity reference not allowed in attribute value</source>
-        <translation>התייחסות לישות כללית מפוענחת חיצונית אסורה בתוך ערך מאפיין</translation>
+        <translation>eksternt fortolket generel entitetsreference ikke tilladt i attributværdi</translation>
     </message>
     <message>
         <source>external parsed general entity reference not allowed in DTD</source>
-        <translation>התייחסות לישות כללית מפוענחת חיצונית אסורה בתוך DTD</translation>
+        <translation>eksternt fortolket generel entitetsreference ikke tilladt i DTD</translation>
     </message>
     <message>
         <source>unparsed entity reference in wrong context</source>
-        <translation>התייחסות לישות לא מפוענחת בהקשר שגוי</translation>
+        <translation>ufortolket enhedsreference i forkert kontekst</translation>
     </message>
     <message>
         <source>recursive entities</source>
-        <translation>ישויות רקורסיביות</translation>
+        <translation>rekursive entiteter</translation>
     </message>
     <message>
         <source>error in the text declaration of an external entity</source>
-        <translation>שגיאה בהצהרת טקסט של ישות חיצונית</translation>
+        <translation>fejl i tekstdeklaration på en ekstern entitet</translation>
     </message>
 </context>
 <context>
     <name>QXmlStream</name>
     <message>
         <source>Extra content at end of document.</source>
-        <translation>תוכן נוסף בסוף מסמך.</translation>
+        <translation>Ekstra indhold sidst i dokumentet.</translation>
     </message>
     <message>
         <source>Invalid entity value.</source>
-        <translation>ערך ישות לא תקין.</translation>
+        <translation>Ugyldig entitetværdi.</translation>
     </message>
     <message>
         <source>Invalid XML character.</source>
-        <translation>תו XML לא תקין.</translation>
+        <translation>Ugyldigt XML-tegn.</translation>
     </message>
     <message>
         <source>Sequence &apos;]]&gt;&apos; not allowed in content.</source>
-        <translation>רצף &apos;]]&gt;&apos; אסור בתוכן.</translation>
+        <translation>Sekvensen &apos;]]&gt;&apos; ikke tilladt i indhold.</translation>
     </message>
     <message>
         <source>Encountered incorrectly encoded content.</source>
-        <translation>נמצא תוכן בקידוד לא נכון.</translation>
+        <translation>Mødte forkert kodet indhold.</translation>
     </message>
     <message>
         <source>Namespace prefix &apos;%1&apos; not declared</source>
-        <translation>קידומת namespace‏ &apos;%1&apos; לא הוצהרה</translation>
+        <translation>Navnerumspræfikset &apos;%1&apos; ikke deklareret</translation>
     </message>
     <message>
         <source>Illegal namespace declaration.</source>
-        <translation>הצהרת namespace לא חוקית.</translation>
+        <translation>Ulovligt navnerumsdeklaration.</translation>
     </message>
     <message>
         <source>Attribute &apos;%1&apos; redefined.</source>
-        <translation>תכונה &apos;%1&apos; הוגדרה מחדש.</translation>
+        <translation>Attributten &apos;%1&apos; redefineret.</translation>
     </message>
     <message>
         <source>Unexpected character &apos;%1&apos; in public id literal.</source>
-        <translation>תו לא צפוי &apos;%1&apos; בליטראל מזהה ציבורי.</translation>
+        <translation>Uventet tegn &apos;%1&apos; i offentlig id-literal.</translation>
     </message>
     <message>
         <source>Invalid XML version string.</source>
-        <translation>מחרוזת גירסת XML לא תקינה.</translation>
+        <translation>Ugyldig XML-versionsstreng.</translation>
     </message>
     <message>
         <source>Unsupported XML version.</source>
-        <translation>גירסת XML לא נתמכת.</translation>
+        <translation>XML-versionen understøttes ikke.</translation>
     </message>
     <message>
         <source>The standalone pseudo attribute must appear after the encoding.</source>
-        <translation>מאפיין הדמה standalone חייב להופיע אחרי הקידוד.</translation>
+        <translation>Den selvstændige pseudo-attribut skal optræde efter kodningen.</translation>
     </message>
     <message>
         <source>%1 is an invalid encoding name.</source>
-        <translation>%1 אינו שם קידוד תקין.</translation>
+        <translation>%1 er et ugyldigt kodningsnavn.</translation>
     </message>
     <message>
         <source>Encoding %1 is unsupported</source>
-        <translation>קידוד %1 אינו נתמך</translation>
+        <translation>Kodningen %1 understøttes ikke</translation>
     </message>
     <message>
         <source>Standalone accepts only yes or no.</source>
-        <translation>‏Standalone מקבל רק כן או לא.</translation>
+        <translation>Selvstændig accepterer kun ja eller nej.</translation>
     </message>
     <message>
         <source>Invalid attribute in XML declaration.</source>
-        <translation>מאפיין לא תקין בתוך הצהרת XML.</translation>
+        <translation>Ugyldig attribut i XML-deklaration.</translation>
     </message>
     <message>
         <source>Premature end of document.</source>
-        <translation>סיום מסמך מוקדם מדי.</translation>
+        <translation>For tidlig slutning på dokument.</translation>
     </message>
     <message>
         <source>Invalid document.</source>
-        <translation>מסמך לא תקין.</translation>
+        <translation>Ugyldigt dokument.</translation>
     </message>
     <message>
         <source>Expected </source>
-        <translation>צפוי </translation>
+        <translation>Forventede </translation>
     </message>
     <message>
         <source>, but got &apos;</source>
-        <translation>, אך נמצא &apos;</translation>
+        <translation>, men fik &apos;</translation>
     </message>
     <message>
         <source>Unexpected &apos;</source>
-        <translation>לא צפוי &apos;</translation>
+        <translation>Uventet &apos;</translation>
     </message>
     <message>
         <source>Expected character data.</source>
-        <translation>צפוי מידע תו.</translation>
+        <translation>Ventet tegndata.</translation>
     </message>
     <message>
         <source>Recursive entity detected.</source>
-        <translation>נמצאה ישות רקורסיבית.</translation>
+        <translation>Rekursiv entitet registreret.</translation>
     </message>
     <message>
         <source>Start tag expected.</source>
-        <translation>צפוי תג התחלה.</translation>
+        <translation>Start-tag forventet.</translation>
     </message>
     <message>
         <source>NDATA in parameter entity declaration.</source>
-        <translation>‏NDATA בהצהרת יישות פרמטר.</translation>
+        <translation>NDATA i parameterentitetsdeklaration.</translation>
     </message>
     <message>
         <source>XML declaration not at start of document.</source>
-        <translation>הצהרת XML לא בתחילת מסמך.</translation>
+        <translation>XML-deklaration ikke i start af dokument.</translation>
     </message>
     <message>
         <source>%1 is an invalid processing instruction name.</source>
-        <translation>%1 הוא שם לא תקין להוראת עיבוד.</translation>
+        <translation>%1 er et ugyldigt behandlende instruktionsnavn.</translation>
     </message>
     <message>
         <source>Invalid processing instruction name.</source>
-        <translation>שם לא תקין להוראת עיבוד.</translation>
+        <translation>Ugyldigt behandlende instruktionsnavn.</translation>
     </message>
     <message>
         <source>%1 is an invalid PUBLIC identifier.</source>
-        <translation>%1 הוא מזהה PUBLIC לא חוקי.</translation>
+        <translation>%1 er en ugyldig PUBLIC-identifikator.</translation>
     </message>
     <message>
         <source>Invalid XML name.</source>
-        <translation>שם XML לא תקין.</translation>
+        <translation>Ugyldigt XML-navn.</translation>
     </message>
     <message>
         <source>Opening and ending tag mismatch.</source>
-        <translation>חוסר התאמה בין תג פותח לסוגר.</translation>
+        <translation>Uoverensstemmende åbnende og afsluttende tag.</translation>
     </message>
     <message>
         <source>Entity &apos;%1&apos; not declared.</source>
-        <translation>ישות &apos;%1&apos; לא מוצהרת.</translation>
+        <translation>Entiteten &apos;%1&apos; ikke deklareret.</translation>
     </message>
     <message>
         <source>Reference to unparsed entity &apos;%1&apos;.</source>
-        <translation>התייחסות אל ישות לא מפוענחת &apos;%1&apos;.</translation>
+        <translation>Reference to ufortolket entitet &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Reference to external entity &apos;%1&apos; in attribute value.</source>
-        <translation>התייחסות אל ישות חיצונית &apos;%1&apos; בתוך ערך מאפיין.</translation>
+        <translation>Reference til ekstern enhed &apos;%1&apos; i attributværdi.</translation>
     </message>
     <message>
         <source>Invalid character reference.</source>
-        <translation>התייחסות לתו לא תקינה.</translation>
+        <translation>Ugyldig tegnreference.</translation>
     </message>
 </context>
 </TS>
