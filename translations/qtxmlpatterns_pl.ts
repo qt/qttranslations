@@ -536,7 +536,7 @@
     </message>
     <message>
         <source>The prefix %1 can not be bound. By default, it is already bound to the namespace %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można powiązać przedrostka %1. Domyślnie jest już on powiązany z przestrzenią nazw %2.</translation>
     </message>
     <message>
         <source>Prefix %1 is already declared in the prolog.</source>
@@ -700,7 +700,7 @@
     </message>
     <message>
         <source>%1 is not in the in-scope attribute declarations. Note that the schema import feature is not supported.</source>
-        <translation type="unfinished">%1 nie jest wewnątrz zakresu deklaracji atrybutów. Zwróć uwagę, że importowanie schematów nie jest obsługiwane.</translation>
+        <translation>%1 nie jest wewnątrz zakresu deklaracji atrybutów. Zwróć uwagę, że importowanie schematów nie jest obsługiwane.</translation>
     </message>
     <message>
         <source>The name of an extension expression must be in a namespace.</source>
@@ -828,15 +828,15 @@
     </message>
     <message>
         <source>Derived element %1 is missing value constraint as defined in base particle.</source>
-        <translation type="unfinished">Brak ograniczenia wartości w pochodnym elemencie %1 takiego jak w elemencie bazowym.</translation>
+        <translation>Brak ograniczenia wartości w pochodnym elemencie %1, które jest zdefiniowane w elemencie bazowym.</translation>
     </message>
     <message>
         <source>Derived element %1 has weaker value constraint than base particle.</source>
-        <translation>Element pochodny %1 posiada słabsze ograniczenie wartości niż element bazowy.</translation>
+        <translation>Element pochodny %1 posiada słabsze ograniczenie wartości niż to zdefiniowane w elemencie bazowym.</translation>
     </message>
     <message>
         <source>Fixed value constraint of element %1 differs from value constraint in base particle.</source>
-        <translation type="unfinished">Stałe ograniczenie wartości elementu %1 różni się od ograniczenia wartości w elemencie bazowym.</translation>
+        <translation>Stałe ograniczenie wartości elementu %1 różni się od tego zdefiniowanego w elemencie bazowym.</translation>
     </message>
     <message>
         <source>Derived element %1 cannot be nillable as base element is not nillable.</source>
@@ -844,15 +844,15 @@
     </message>
     <message>
         <source>Block constraints of derived element %1 must not be more weaker than in the base element.</source>
-        <translation type="unfinished">Ograniczenia blokujące elementu pochodnego %1 nie mogą być słabsze od ograniczeń w elemencie bazowym.</translation>
+        <translation>Ograniczenia blokujące elementu pochodnego %1 nie mogą być słabsze od ograniczeń zdefiniowanych w elemencie bazowym.</translation>
     </message>
     <message>
         <source>Simple type of derived element %1 cannot be validly derived from base element.</source>
-        <translation type="unfinished">Typ prosty elementu pochodnego %1 nie może poprawnie dziedziczyć po elemencie bazowym.</translation>
+        <translation>Typ prosty elementu pochodnego %1 nie może poprawnie dziedziczyć po elemencie bazowym.</translation>
     </message>
     <message>
         <source>Complex type of derived element %1 cannot be validly derived from base element.</source>
-        <translation type="unfinished">Typ złożony elementu pochodnego %1 nie może poprawnie dziedziczyć po elemencie bazowym.</translation>
+        <translation>Typ złożony elementu pochodnego %1 nie może poprawnie dziedziczyć po elemencie bazowym.</translation>
     </message>
     <message>
         <source>Element %1 is missing in derived particle.</source>
@@ -860,15 +860,15 @@
     </message>
     <message>
         <source>Element %1 does not match namespace constraint of wildcard in base particle.</source>
-        <translation type="unfinished">Element %1 nie pasuje do ograniczenia przestrzeni nazw dżokera w elemencie bazowym.</translation>
+        <translation>Element %1 nie pasuje do wzorca ograniczenia przestrzeni nazw w elemencie bazowym.</translation>
     </message>
     <message>
         <source>Wildcard in derived particle is not a valid subset of wildcard in base particle.</source>
-        <translation type="unfinished">Dżoker w elemencie pochodnym nie jest poprawnym podzbiorem dżokera w elemencie bazowym.</translation>
+        <translation>Wzorzec w elemencie pochodnym nie jest poprawnym podzbiorem wzorca w elemencie bazowym.</translation>
     </message>
     <message>
         <source>processContent of wildcard in derived particle is weaker than wildcard in base particle.</source>
-        <translation type="unfinished">&quot;processContent&quot; dżokera w elemencie pochodnym jest słabszy od dżokera w elemencie bazowym.</translation>
+        <translation>&quot;processContent&quot; wzorca w elemencie pochodnym jest słabszy od wzorca w elemencie bazowym.</translation>
     </message>
     <message>
         <source>Derived particle allows content that is not allowed in the base particle.</source>
@@ -916,19 +916,19 @@
     </message>
     <message>
         <source>Variety of item type of %1 must be either atomic or union.</source>
-        <translation type="unfinished">Typem elementów listy %1 musi być albo typ atomowy albo unia.</translation>
+        <translation>Odmianą typu elementu %1 musi być albo typ atomowy albo unia.</translation>
     </message>
     <message>
         <source>Variety of member types of %1 must be atomic.</source>
-        <translation type="unfinished">Typy składników %1 muszą być atomowe.</translation>
+        <translation>Odmianą typu składnika %1 musi być typ atomowy.</translation>
     </message>
     <message>
         <source>%1 is not allowed to derive from %2 by list as the latter defines it as final.</source>
-        <translation type="unfinished">Nie można dziedziczyć %1 po %2 poprzez listę, ponieważ typ bazowy jest zdefiniowany jako finalny.</translation>
+        <translation>Nie można dziedziczyć %1 po %2 poprzez listę, ponieważ typ bazowy jest zdefiniowany jako finalny.</translation>
     </message>
     <message>
         <source>Simple type %1 is only allowed to have %2 facet.</source>
-        <translation type="unfinished">Typ prosty %1 może jedynie posiadać aspekt %2.</translation>
+        <translation>Typ prosty %1 może jedynie posiadać ograniczenie %2.</translation>
     </message>
     <message>
         <source>Base type of simple type %1 must have variety of type list.</source>
@@ -944,15 +944,15 @@
     </message>
     <message>
         <source>Simple type %1 contains not allowed facet type %2.</source>
-        <translation type="unfinished">Typ prosty %1 posiada niedozwolony aspekt %2.</translation>
+        <translation>Typ prosty %1 posiada niedozwolone ograniczenie %2.</translation>
     </message>
     <message>
         <source>%1 is not allowed to derive from %2 by union as the latter defines it as final.</source>
-        <translation type="unfinished">Nie można dziedziczyć %1 po %2 poprzez unię, ponieważ typ bazowy definiuje to jako finalne.</translation>
+        <translation>Nie można dziedziczyć %1 po %2 poprzez unię, ponieważ typ bazowy zdefiniowany jest jako finalny.</translation>
     </message>
     <message>
         <source>%1 is not allowed to have any facets.</source>
-        <translation type="unfinished">%1 nie może posiadać żadnych aspektów.</translation>
+        <translation>%1 nie może posiadać żadnych ograniczeń.</translation>
     </message>
     <message>
         <source>Base type %1 of simple type %2 must have variety of union.</source>
@@ -964,7 +964,7 @@
     </message>
     <message>
         <source>Member type %1 cannot be derived from member type %2 of %3&apos;s base type %4.</source>
-        <translation type="unfinished">Typ %1 składnika nie może dziedziczyć po typie %2 który jest typem składnika %3 typu bazowego %4.</translation>
+        <translation>Typ %1 składnika nie może dziedziczyć po typie %2, który jest typem składnika %3 typu bazowego %4.</translation>
     </message>
     <message>
         <source>Derivation method of %1 must be extension because the base type %2 is a simple type.</source>
@@ -972,7 +972,7 @@
     </message>
     <message>
         <source>Complex type %1 has duplicated element %2 in its content model.</source>
-        <translation type="unfinished">Typ złożony %1 posiada powielony element %2.</translation>
+        <translation>Typ złożony %1 posiada powielony element %2 w jego modelu zawartości.</translation>
     </message>
     <message>
         <source>Complex type %1 has non-deterministic content.</source>
@@ -984,7 +984,7 @@
     </message>
     <message>
         <source>Content model of complex type %1 is not a valid extension of content model of %2.</source>
-        <translation type="unfinished">Model zawartości typu złożonego %1 nie jest poprawnym rozszerzeniem modelu zawartości %2.</translation>
+        <translation>Model zawartości typu złożonego %1 nie jest poprawnym rozszerzeniem modelu zawartości %2.</translation>
     </message>
     <message>
         <source>Complex type %1 must have simple content.</source>
@@ -992,7 +992,7 @@
     </message>
     <message>
         <source>Complex type %1 must have the same simple type as its base class %2.</source>
-        <translation type="unfinished">Typ złożony %1 musi posiadać ten sam typ prosty, jaki posiada jego klasa bazowa %2.</translation>
+        <translation>Typ złożony %1 musi posiadać ten sam typ prosty, jaki posiada jego klasa bazowa %2.</translation>
     </message>
     <message>
         <source>Complex type %1 cannot be derived from base type %2%3.</source>
@@ -1016,83 +1016,83 @@
     </message>
     <message>
         <source>%1 is not allowed to have a member type with the same name as itself.</source>
-        <translation type="unfinished">%1 nie może posiadać typu składnika o tej samej nazwie jaką on sam posiada.</translation>
+        <translation>%1 nie może posiadać typu składnika o tej samej nazwie, jaką on sam posiada.</translation>
     </message>
     <message>
         <source>%1 facet collides with %2 facet.</source>
-        <translation>Aspekt %1 koliduje z aspektem %2.</translation>
+        <translation>Ograniczenie %1 koliduje z ograniczeniem %2.</translation>
     </message>
     <message>
         <source>%1 facet must have the same value as %2 facet of base type.</source>
-        <translation>Aspekt %1 musi mieć tę samą wartość jaką ma aspekt %2 typu bazowego.</translation>
+        <translation>Ograniczenie %1 musi mieć tę samą wartość jaką ma ograniczenie %2 typu bazowego.</translation>
     </message>
     <message>
         <source>%1 facet must be equal or greater than %2 facet of base type.</source>
-        <translation>Wartość aspektu %1 musi być większa lub równa wartości aspektu %2 typu bazowego.</translation>
+        <translation>Wartość ograniczenia %1 musi być większa lub równa wartości ograniczenia %2 typu bazowego.</translation>
     </message>
     <message>
         <source>%1 facet must be less than or equal to %2 facet of base type.</source>
-        <translation>Wartość aspektu %1 musi być mniejsza lub równa wartości aspektu %2 typu bazowego.</translation>
+        <translation>Wartość ograniczenia %1 musi być mniejsza lub równa wartości ograniczenia %2 typu bazowego.</translation>
     </message>
     <message>
         <source>%1 facet contains invalid regular expression</source>
-        <translation>Aspekt %1 zawiera niepoprawne wyrażenie regularne</translation>
+        <translation>Ograniczenie %1 zawiera niepoprawne wyrażenie regularne</translation>
     </message>
     <message>
         <source>Unknown notation %1 used in %2 facet.</source>
-        <translation>Nieznany zapis %1 użyty w aspekcie %2.</translation>
+        <translation>Nieznany zapis %1 użyty w ograniczeniu %2.</translation>
     </message>
     <message>
         <source>%1 facet contains invalid value %2: %3.</source>
-        <translation>Aspekt %1 zawiera niepoprawną wartość %2: %3.</translation>
+        <translation>Ograniczenie %1 zawiera niepoprawną wartość %2: %3.</translation>
     </message>
     <message>
         <source>%1 facet cannot be %2 or %3 if %4 facet of base type is %5.</source>
-        <translation>Aspektem %1 nie może być %2 ani %3 jeśli aspektem %4 typu bazowego jest %5.</translation>
+        <translation>Ograniczenie %1 nie może być %2 ani %3 jeśli ograniczeniem %4 typu bazowego jest %5.</translation>
     </message>
     <message>
         <source>%1 facet cannot be %2 if %3 facet of base type is %4.</source>
-        <translation>Aspektem %1 nie może być %2 jeśli aspektem %3 typu bazowego jest %4.</translation>
+        <translation>Ograniczeniem %1 nie może być %2 jeśli ograniczeniem %3 typu bazowego jest %4.</translation>
     </message>
     <message>
         <source>%1 facet must be less than or equal to %2 facet.</source>
-        <translation>Wartość aspektu %1 musi być mniejsza lub równa wartości aspektu %2.</translation>
+        <translation>Wartość Ograniczenia %1 musi być mniejsza lub równa wartości ograniczenia %2.</translation>
     </message>
     <message>
         <source>%1 facet must be less than %2 facet of base type.</source>
-        <translation>Wartość aspektu %1 musi być mniejsza od wartości aspektu %2 typu bazowego.</translation>
+        <translation>Wartość ograniczenia %1 musi być mniejsza od wartości ograniczenia %2 typu bazowego.</translation>
     </message>
     <message>
         <source>%1 facet and %2 facet cannot appear together.</source>
-        <translation>Aspekty %1 i %2 nie mogą wystąpić jednocześnie.</translation>
+        <translation>Ograniczenia %1 i %2 nie mogą wystąpić jednocześnie.</translation>
     </message>
     <message>
         <source>%1 facet must be greater than %2 facet of base type.</source>
-        <translation>Wartość aspektu %1 musi być większa od wartości aspektu %2 typu bazowego.</translation>
+        <translation>Wartość ograniczenia %1 musi być większa od wartości ograniczenia %2 typu bazowego.</translation>
     </message>
     <message>
         <source>%1 facet must be less than %2 facet.</source>
-        <translation>Wartość aspektu %1 musi być mniejsza od wartości aspektu %2.</translation>
+        <translation>Wartość ograniczenia %1 musi być mniejsza od wartości ograniczenia %2.</translation>
     </message>
     <message>
         <source>%1 facet must be greater than or equal to %2 facet of base type.</source>
-        <translation>Wartość aspektu %1 musi być większa lub równa wartości aspektu %2 typu bazowego.</translation>
+        <translation>Wartość ograniczenia %1 musi być większa lub równa wartości ograniczenia %2 typu bazowego.</translation>
     </message>
     <message>
         <source>Simple type contains not allowed facet %1.</source>
-        <translation>Typ prosty zawiera niedozwolony aspekt %1.</translation>
+        <translation>Typ prosty zawiera niedozwolone ograniczenie %1.</translation>
     </message>
     <message>
         <source>%1, %2, %3, %4, %5 and %6 facets are not allowed when derived by list.</source>
-        <translation>Aspekty %1, %2, %3, %4, %5 i %6 nie są dozwolone podczas dziedziczenia poprzez listę.</translation>
+        <translation>Ograniczenia %1, %2, %3, %4, %5 i %6 nie są dozwolone podczas dziedziczenia poprzez listę.</translation>
     </message>
     <message>
         <source>Only %1 and %2 facets are allowed when derived by union.</source>
-        <translation>Dozwolone są jedynie aspekty %1 i %2 podczas dziedziczenia poprzez unię.</translation>
+        <translation>Dozwolone są jedynie ograniczenia %1 i %2 podczas dziedziczenia poprzez unię.</translation>
     </message>
     <message>
         <source>%1 contains %2 facet with invalid data: %3.</source>
-        <translation>%1 zawiera aspekt %2 z niepoprawnymi danymi: %3.</translation>
+        <translation>%1 zawiera ograniczenia %2 z niepoprawnymi danymi: %3.</translation>
     </message>
     <message>
         <source>Attribute group %1 contains attribute %2 twice.</source>
@@ -1128,15 +1128,15 @@
     </message>
     <message>
         <source>Value constraint of element %1 is not of elements type: %2.</source>
-        <translation type="unfinished">Ograniczenie wartości elementu %1 nie jest typu: %2.</translation>
+        <translation>Ograniczenie wartości elementu %1 nie jest typu: %2.</translation>
     </message>
     <message>
         <source>Element %1 is not allowed to have substitution group affiliation as it is no global element.</source>
-        <translation type="unfinished">Element %1 nie może przynależeć do grupy zastępującej, ponieważ nie jest on elementem globalnym.</translation>
+        <translation>Element %1 nie może przynależeć do grupy zastępującej, ponieważ nie jest on elementem globalnym.</translation>
     </message>
     <message>
         <source>Type of element %1 cannot be derived from type of substitution group affiliation.</source>
-        <translation type="unfinished">Typ elementu %1 nie może być dziedziczony po typie przynależnym do grupy zastępującej.</translation>
+        <translation>Typ elementu %1 nie może być dziedziczony po typie przynależnym do grupy zastępującej.</translation>
     </message>
     <message>
         <source>Value constraint of attribute %1 is not of attributes type: %2.</source>
@@ -1164,7 +1164,7 @@
     </message>
     <message>
         <source>processContent of base wildcard must be weaker than derived wildcard.</source>
-        <translation type="unfinished">&quot;processContent&quot; bazowego dżokera musi być słabszy od wywiedzionego dżokera.</translation>
+        <translation>&quot;processContent&quot; bazowego wzorca musi być słabszy od wywiedzionego wzorca.</translation>
     </message>
     <message>
         <source>Element %1 exists twice with different types.</source>
@@ -1172,7 +1172,7 @@
     </message>
     <message>
         <source>Particle contains non-deterministic wildcards.</source>
-        <translation type="unfinished">Element zawiera nieokreślone dżokery.</translation>
+        <translation>Element zawiera nieokreślone wzorce.</translation>
     </message>
     <message>
         <source>Base attribute %1 is required but derived attribute is not.</source>
@@ -1192,11 +1192,11 @@
     </message>
     <message>
         <source>Derived attribute %1 does not match the wildcard in the base definition.</source>
-        <translation type="unfinished">Atrybut pochodny %1 nie pasuje do dżokera w podstawowej definicji.</translation>
+        <translation>Atrybut pochodny %1 nie pasuje do wzorca w podstawowej definicji.</translation>
     </message>
     <message>
         <source>Base attribute %1 is required but missing in derived definition.</source>
-        <translation type="unfinished">Brak wymaganego atrybutu bazowego %1 w definicji pochodnej.</translation>
+        <translation>Brak wymaganego atrybutu bazowego %1 w definicji pochodnej.</translation>
     </message>
     <message>
         <source>Derived definition contains an %1 element that does not exists in the base definition</source>
@@ -1204,11 +1204,11 @@
     </message>
     <message>
         <source>Derived wildcard is not a subset of the base wildcard.</source>
-        <translation type="unfinished">Wywiedziony dżoker nie jest podzbiorem bazowego dżokera.</translation>
+        <translation>Wzorzec wywiedziony nie jest podzbiorem wzorca bazowego.</translation>
     </message>
     <message>
         <source>%1 of derived wildcard is not a valid restriction of %2 of base wildcard</source>
-        <translation type="unfinished">%1 pochodnego dżokera nie jest poprawnym ograniczeniem %2 bazowego dżokera</translation>
+        <translation>%1 wzorca pochodnego nie jest poprawnym ograniczeniem %2 wzorca bazowego</translation>
     </message>
     <message>
         <source>Attribute %1 from base type is missing in derived type.</source>
@@ -1216,7 +1216,7 @@
     </message>
     <message>
         <source>Type of derived attribute %1 differs from type of base attribute.</source>
-        <translation type="unfinished">Typ pochodnego atrybutu %1 różni się od typu bazowego atrybutu.</translation>
+        <translation>Typ pochodnego atrybutu %1 różni się od typu bazowego atrybutu.</translation>
     </message>
     <message>
         <source>Base definition contains an %1 element that is missing in the derived definition</source>
@@ -1376,7 +1376,7 @@
     </message>
     <message>
         <source>Duplicated facets in simple type %1.</source>
-        <translation>Powielone aspekty w prostym typie %1.</translation>
+        <translation>Powielone ograniczenia w prostym typie %1.</translation>
     </message>
     <message>
         <source>%1 references unknown %2 or %3 element %4.</source>
@@ -1416,7 +1416,7 @@
     </message>
     <message>
         <source>Content model of complex type %1 contains %2 element so it cannot be derived by extension from a non-empty type.</source>
-        <translation type="unfinished"></translation>
+        <translation>Model zawartości typu złożonego %1 zawiera element %2, nie może on więc dziedziczyć poprzez rozszerzenie po niepustym typie.</translation>
     </message>
     <message>
         <source>Complex type %1 cannot be derived by extension from %2 as the latter contains %3 element in its content model.</source>
@@ -1472,19 +1472,19 @@
     </message>
     <message>
         <source>Attribute wildcard of %1 is not a valid restriction of attribute wildcard of base type %2.</source>
-        <translation type="unfinished">Atrybut dżokera %1 nie jest poprawnym ograniczeniem atrybutu dżokera typu bazowego %2.</translation>
+        <translation>Atrybut wzorca %1 nie jest poprawnym ograniczeniem atrybutu wzorca typu bazowego %2.</translation>
     </message>
     <message>
         <source>%1 has attribute wildcard but its base type %2 has not.</source>
-        <translation type="unfinished">%1 posiada atrybut dżokera lecz jego typ bazowy %2 go nie posiada.</translation>
+        <translation>%1 posiada atrybut wzorca, lecz jego typ bazowy %2 go nie posiada.</translation>
     </message>
     <message>
         <source>Union of attribute wildcard of type %1 and attribute wildcard of its base type %2 is not expressible.</source>
-        <translation type="unfinished">Nie można wyrazić unii atrybutu dżokera typu %1 i atrybutu dżokera jego typu bazowego %2.</translation>
+        <translation>Nie można wyrazić unii atrybutu wzorca typu %1 i atrybutu wzorca jego typu bazowego %2.</translation>
     </message>
     <message>
         <source>Enumeration facet contains invalid content: {%1} is not a value of type %2.</source>
-        <translation>Aspekt &quot;enumeration&quot; posiada niepoprawną zawartość: {%1} nie jest wartością typu %2.</translation>
+        <translation>Ograniczenie &quot;enumeration&quot; posiada niepoprawną zawartość: {%1} nie jest wartością typu %2.</translation>
     </message>
     <message>
         <source>Namespace prefix of qualified name %1 is not defined.</source>
@@ -1500,179 +1500,179 @@
     </message>
     <message>
         <source>String content does not match the length facet.</source>
-        <translation>Wartość ciągu koliduje z aspektem &quot;length&quot;.</translation>
+        <translation>Wartość ciągu koliduje z ograniczeniem &quot;length&quot;.</translation>
     </message>
     <message>
         <source>String content does not match the minLength facet.</source>
-        <translation>Wartość ciągu koliduje z aspektem &quot;minLength&quot;.</translation>
+        <translation>Wartość ciągu koliduje z ograniczeniem &quot;minLength&quot;.</translation>
     </message>
     <message>
         <source>String content does not match the maxLength facet.</source>
-        <translation>Wartość ciągu koliduje z aspektem &quot;maxLength&quot;.</translation>
+        <translation>Wartość ciągu koliduje z ograniczeniem &quot;maxLength&quot;.</translation>
     </message>
     <message>
         <source>String content does not match pattern facet.</source>
-        <translation>Wartość ciągu koliduje z aspektem &quot;pattern&quot;.</translation>
+        <translation>Wartość ciągu nie pasuje do wzorca ograniczenia.</translation>
     </message>
     <message>
         <source>String content is not listed in the enumeration facet.</source>
-        <translation>Wartość ciągu nie widnieje na liście aspektu &quot;enumeration&quot;.</translation>
+        <translation>Wartość ciągu nie widnieje na liście wyliczeniowej ograniczenia.</translation>
     </message>
     <message>
         <source>Signed integer content does not match the maxInclusive facet.</source>
-        <translation>Wartość liczby całkowitej koliduje z aspektem &quot;maxInclusive&quot;.</translation>
+        <translation>Wartość liczby całkowitej koliduje z ograniczeniem &quot;maxInclusive&quot;.</translation>
     </message>
     <message>
         <source>Signed integer content does not match the maxExclusive facet.</source>
-        <translation>Wartość liczby całkowitej koliduje z aspektem &quot;maxExclusive&quot;.</translation>
+        <translation>Wartość liczby całkowitej koliduje z ograniczeniem &quot;maxExclusive&quot;.</translation>
     </message>
     <message>
         <source>Signed integer content does not match the minInclusive facet.</source>
-        <translation>Wartość liczby całkowitej koliduje z aspektem &quot;minInclusive&quot;.</translation>
+        <translation>Wartość liczby całkowitej koliduje z ograniczeniem &quot;minInclusive&quot;.</translation>
     </message>
     <message>
         <source>Signed integer content does not match the minExclusive facet.</source>
-        <translation>Wartość liczby całkowitej koliduje z aspektem &quot;minExclusive&quot;.</translation>
+        <translation>Wartość liczby całkowitej koliduje z ograniczeniem &quot;minExclusive&quot;.</translation>
     </message>
     <message>
         <source>Signed integer content is not listed in the enumeration facet.</source>
-        <translation>Wartość liczby całkowitej nie widnieje na liście aspektu &quot;enumeration&quot;.</translation>
+        <translation>Wartość liczby całkowitej nie widnieje na liście wyliczeniowej ograniczenia.</translation>
     </message>
     <message>
         <source>Signed integer content does not match pattern facet.</source>
-        <translation>Wartość liczby całkowitej koliduje z aspektem &quot;pattern&quot;.</translation>
+        <translation>Wartość liczby całkowitej nie pasuje do wzorca ograniczenia.</translation>
     </message>
     <message>
         <source>Signed integer content does not match in the totalDigits facet.</source>
-        <translation>Wartość liczby całkowitej koliduje z aspektem &quot;totalDigits&quot;.</translation>
+        <translation>Wartość liczby całkowitej koliduje z ograniczeniem &quot;totalDigits&quot;.</translation>
     </message>
     <message>
         <source>Unsigned integer content does not match the maxInclusive facet.</source>
-        <translation>Wartość liczby naturalnej koliduje z aspektem &quot;maxInclusive&quot;.</translation>
+        <translation>Wartość liczby naturalnej koliduje z ograniczeniem &quot;maxInclusive&quot;.</translation>
     </message>
     <message>
         <source>Unsigned integer content does not match the maxExclusive facet.</source>
-        <translation>Wartość liczby naturalnej koliduje z aspektem &quot;maxExclusive&quot;.</translation>
+        <translation>Wartość liczby naturalnej koliduje z ograniczeniem &quot;maxExclusive&quot;.</translation>
     </message>
     <message>
         <source>Unsigned integer content does not match the minInclusive facet.</source>
-        <translation>Wartość liczby naturalnej koliduje z aspektem &quot;minInclusive&quot;.</translation>
+        <translation>Wartość liczby naturalnej koliduje z ograniczeniem &quot;minInclusive&quot;.</translation>
     </message>
     <message>
         <source>Unsigned integer content does not match the minExclusive facet.</source>
-        <translation>Wartość liczby naturalnej koliduje z aspektem &quot;minExclusive&quot;.</translation>
+        <translation>Wartość liczby naturalnej koliduje z ograniczeniem &quot;minExclusive&quot;.</translation>
     </message>
     <message>
         <source>Unsigned integer content is not listed in the enumeration facet.</source>
-        <translation>Wartość liczby naturalnej nie widnieje na liście aspektu &quot;enumeration&quot;.</translation>
+        <translation>Wartość liczby naturalnej nie widnieje na liście wyliczeniowej ograniczenia.</translation>
     </message>
     <message>
         <source>Unsigned integer content does not match pattern facet.</source>
-        <translation>Wartość liczby naturalnej koliduje z aspektem &quot;pattern&quot;.</translation>
+        <translation>Wartość liczby naturalnej nie pasuje do wzorca ograniczenia.</translation>
     </message>
     <message>
         <source>Unsigned integer content does not match in the totalDigits facet.</source>
-        <translation>Wartość liczby naturalnej koliduje z aspektem &quot;totalDigits&quot;.</translation>
+        <translation>Wartość liczby naturalnej koliduje z ograniczeniem &quot;totalDigits&quot;.</translation>
     </message>
     <message>
         <source>Double content does not match the maxInclusive facet.</source>
-        <translation>Wartość liczby rzeczywistej koliduje z aspektem &quot;maxInclusive&quot;.</translation>
+        <translation>Wartość liczby rzeczywistej koliduje z ograniczeniem &quot;maxInclusive&quot;.</translation>
     </message>
     <message>
         <source>Double content does not match the maxExclusive facet.</source>
-        <translation>Wartość liczby rzeczywistej koliduje z aspektem &quot;maxExclusive&quot;.</translation>
+        <translation>Wartość liczby rzeczywistej koliduje z ograniczeniem &quot;maxExclusive&quot;.</translation>
     </message>
     <message>
         <source>Double content does not match the minInclusive facet.</source>
-        <translation>Wartość liczby rzeczywistej koliduje z aspektem &quot;minInclusive&quot;.</translation>
+        <translation>Wartość liczby rzeczywistej koliduje z ograniczeniem &quot;minInclusive&quot;.</translation>
     </message>
     <message>
         <source>Double content does not match the minExclusive facet.</source>
-        <translation>Wartość liczby rzeczywistej koliduje z aspektem &quot;minExclusive&quot;.</translation>
+        <translation>Wartość liczby rzeczywistej koliduje z ograniczeniem &quot;minExclusive&quot;.</translation>
     </message>
     <message>
         <source>Double content is not listed in the enumeration facet.</source>
-        <translation>Wartość liczby rzeczywistej nie widnieje na liście aspektu &quot;enumeration&quot;.</translation>
+        <translation>Wartość liczby rzeczywistej nie widnieje na liście wyliczeniowej ograniczenia.</translation>
     </message>
     <message>
         <source>Double content does not match pattern facet.</source>
-        <translation>Wartość liczby rzeczywistej koliduje z aspektem &quot;pattern&quot;.</translation>
+        <translation>Wartość liczby rzeczywistej nie pasuje do wzorca ograniczenia.</translation>
     </message>
     <message>
         <source>Decimal content does not match in the fractionDigits facet.</source>
-        <translation>Wartość liczby rzeczywistej koliduje z aspektem &quot;fractionDigits&quot;.</translation>
+        <translation>Wartość liczby rzeczywistej koliduje z ograniczeniem &quot;fractionDigits&quot;.</translation>
     </message>
     <message>
         <source>Decimal content does not match in the totalDigits facet.</source>
-        <translation>Wartość liczby rzeczywistej koliduje z aspektem &quot;totalDigits&quot;.</translation>
+        <translation>Wartość liczby rzeczywistej koliduje z ograniczeniem &quot;totalDigits&quot;.</translation>
     </message>
     <message>
         <source>Date time content does not match the maxInclusive facet.</source>
-        <translation>Zawartość daty i czasu koliduje z aspektem &quot;maxInclusive&quot;.</translation>
+        <translation>Zawartość daty i czasu koliduje z ograniczeniem &quot;maxInclusive&quot;.</translation>
     </message>
     <message>
         <source>Date time content does not match the maxExclusive facet.</source>
-        <translation>Zawartość daty i czasu koliduje z aspektem &quot;maxExclusive&quot;.</translation>
+        <translation>Zawartość daty i czasu koliduje z ograniczeniem &quot;maxExclusive&quot;.</translation>
     </message>
     <message>
         <source>Date time content does not match the minInclusive facet.</source>
-        <translation>Zawartość daty i czasu koliduje z aspektem &quot;minInclusive&quot;.</translation>
+        <translation>Zawartość daty i czasu koliduje z ograniczeniem &quot;minInclusive&quot;.</translation>
     </message>
     <message>
         <source>Date time content does not match the minExclusive facet.</source>
-        <translation>Zawartość daty i czasu koliduje z aspektem &quot;minExclusive&quot;.</translation>
+        <translation>Zawartość daty i czasu koliduje z ograniczeniem &quot;minExclusive&quot;.</translation>
     </message>
     <message>
         <source>Date time content is not listed in the enumeration facet.</source>
-        <translation>Zawartość daty i czasu nie widnieje na liście aspektu &quot;enumeration&quot;.</translation>
+        <translation>Zawartość daty i czasu nie widnieje na liście wyliczeniowej ograniczenia.</translation>
     </message>
     <message>
         <source>Date time content does not match pattern facet.</source>
-        <translation>Zawartość daty i czasu koliduje z aspektem &quot;pattern&quot;.</translation>
+        <translation>Zawartość daty i czasu nie pasuje do wzorca ograniczenia.</translation>
     </message>
     <message>
         <source>Duration content does not match the maxInclusive facet.</source>
-        <translation>Wartość czasu trwania koliduje z aspektem &quot;maxInclusive&quot;.</translation>
+        <translation>Wartość czasu trwania koliduje z ograniczeniem &quot;maxInclusive&quot;.</translation>
     </message>
     <message>
         <source>Duration content does not match the maxExclusive facet.</source>
-        <translation>Wartość czasu trwania koliduje z aspektem &quot;maxExclusive&quot;.</translation>
+        <translation>Wartość czasu trwania koliduje z ograniczeniem &quot;maxExclusive&quot;.</translation>
     </message>
     <message>
         <source>Duration content does not match the minInclusive facet.</source>
-        <translation>Wartość czasu trwania koliduje z aspektem &quot;minInclusive&quot;.</translation>
+        <translation>Wartość czasu trwania koliduje z ograniczeniem &quot;minInclusive&quot;.</translation>
     </message>
     <message>
         <source>Duration content does not match the minExclusive facet.</source>
-        <translation>Wartość czasu trwania koliduje z aspektem &quot;minExclusive&quot;.</translation>
+        <translation>Wartość czasu trwania koliduje z ograniczeniem &quot;minExclusive&quot;.</translation>
     </message>
     <message>
         <source>Duration content is not listed in the enumeration facet.</source>
-        <translation>Wartość czasu trwania nie widnieje na liście aspektu &quot;enumeration&quot;.</translation>
+        <translation>Wartość czasu trwania nie widnieje na liście wyliczeniowej ograniczenia.</translation>
     </message>
     <message>
         <source>Duration content does not match pattern facet.</source>
-        <translation>Wartość czasu trwania koliduje z aspektem &quot;pattern&quot;.</translation>
+        <translation>Wartość czasu trwania nie pasuje do wzorca ograniczenia.</translation>
     </message>
     <message>
         <source>Boolean content does not match pattern facet.</source>
-        <translation>Wartość boolowska koliduje z aspektem &quot;pattern&quot;.</translation>
+        <translation>Wartość boolowska nie pasuje do wzorca ograniczenia.</translation>
     </message>
     <message>
         <source>Binary content does not match the length facet.</source>
-        <translation>Wartość binarna koliduje z aspektem &quot;length&quot;.</translation>
+        <translation>Wartość binarna koliduje z ograniczeniem &quot;length&quot;.</translation>
     </message>
     <message>
         <source>Binary content does not match the minLength facet.</source>
-        <translation>Wartość binarna koliduje z aspektem &quot;minLength&quot;.</translation>
+        <translation>Wartość binarna koliduje z ograniczeniem &quot;minLength&quot;.</translation>
     </message>
     <message>
         <source>Binary content does not match the maxLength facet.</source>
-        <translation>Wartość binarna koliduje z aspektem &quot;maxLength&quot;.</translation>
+        <translation>Wartość binarna koliduje z ograniczeniem &quot;maxLength&quot;.</translation>
     </message>
     <message>
         <source>Binary content is not listed in the enumeration facet.</source>
-        <translation>Wartość binarna nie widnieje na liście aspektu &quot;enumeration&quot;.</translation>
+        <translation>Wartość binarna nie widnieje na liście wyliczeniowej ograniczenia.</translation>
     </message>
     <message>
         <source>Invalid QName content: %1.</source>
@@ -1680,43 +1680,43 @@
     </message>
     <message>
         <source>QName content is not listed in the enumeration facet.</source>
-        <translation>Zawartość QName nie widnieje na liście aspektu &quot;enumeration&quot;.</translation>
+        <translation>Zawartość QName nie widnieje na liście wyliczeniowej ograniczenia.</translation>
     </message>
     <message>
         <source>QName content does not match pattern facet.</source>
-        <translation>Zawartość QName koliduje z aspektem &quot;pattern&quot;.</translation>
+        <translation>Zawartość QName nie pasuje do wzorca ograniczenia.</translation>
     </message>
     <message>
         <source>Notation content is not listed in the enumeration facet.</source>
-        <translation>Zapis zawartości nie widnieje na liście aspektu &quot;enumeration&quot;.</translation>
+        <translation>Zapis zawartości nie widnieje na liście wyliczeniowej ograniczenia.</translation>
     </message>
     <message>
         <source>List content does not match length facet.</source>
-        <translation>Zawartość listy koliduje z aspektem &quot;length&quot;.</translation>
+        <translation>Zawartość listy koliduje z ograniczeniem &quot;length&quot;.</translation>
     </message>
     <message>
         <source>List content does not match minLength facet.</source>
-        <translation>Zawartość listy koliduje z aspektem &quot;minLength&quot;.</translation>
+        <translation>Zawartość listy koliduje z ograniczeniem &quot;minLength&quot;.</translation>
     </message>
     <message>
         <source>List content does not match maxLength facet.</source>
-        <translation>Zawartość listy koliduje z aspektem &quot;maxLength&quot;.</translation>
+        <translation>Zawartość listy koliduje z ograniczeniem &quot;maxLength&quot;.</translation>
     </message>
     <message>
         <source>List content is not listed in the enumeration facet.</source>
-        <translation>Zawartość listy nie widnieje na liście aspektu &quot;enumeration&quot;.</translation>
+        <translation>Zawartość listy nie widnieje na liście wyliczeniowej ograniczenia.</translation>
     </message>
     <message>
         <source>List content does not match pattern facet.</source>
-        <translation>Zawartość listy koliduje z aspektem &quot;pattern&quot;.</translation>
+        <translation>Zawartość listy nie pasuje do wzorca ograniczenia.</translation>
     </message>
     <message>
         <source>Union content is not listed in the enumeration facet.</source>
-        <translation>Zawartość unii nie widnieje na liście aspektu &quot;enumeration&quot;.</translation>
+        <translation>Zawartość unii nie widnieje na liście wyliczeniowej ograniczenia.</translation>
     </message>
     <message>
         <source>Union content does not match pattern facet.</source>
-        <translation>Zawartość unii koliduje z aspektem &quot;pattern&quot;.</translation>
+        <translation>Zawartość unii nie pasuje do wzorca ograniczenia.</translation>
     </message>
     <message>
         <source>Data of type %1 are not allowed to be empty.</source>
@@ -1832,7 +1832,7 @@
     </message>
     <message>
         <source>Attribute %1 does not match the attribute wildcard.</source>
-        <translation type="unfinished">Atrybut %1 nie pasuje do atrybutu dżokera.</translation>
+        <translation>Atrybut %1 nie pasuje do atrybutu wzorca.</translation>
     </message>
     <message>
         <source>Declaration for attribute %1 does not exist.</source>

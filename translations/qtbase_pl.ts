@@ -1793,7 +1793,7 @@ Czy na pewno chcesz go usunąć?</translation>
     </message>
     <message>
         <source>missing name separator</source>
-        <translation type="unfinished"></translation>
+        <translation>brak separatora nazwy</translation>
     </message>
     <message>
         <source>unterminated array</source>
@@ -1801,7 +1801,7 @@ Czy na pewno chcesz go usunąć?</translation>
     </message>
     <message>
         <source>missing value separator</source>
-        <translation type="unfinished"></translation>
+        <translation>brak separatora wartości</translation>
     </message>
     <message>
         <source>illegal value</source>
@@ -1871,8 +1871,8 @@ Czy na pewno chcesz go usunąć?</translation>
         <translation>&quot;%1&quot; jest niepoprawnym obiektem ELF (%2)</translation>
     </message>
     <message>
-        <source>Plugin verification data mismatch in &apos;%1&apos;</source>
-        <translation>Niezgodność podczas weryfikacji danych we wtyczce &quot;%1&quot;</translation>
+        <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
+        <translation>Niezgodność weryfikacji metadanych we wtyczce &quot;%1&quot;</translation>
     </message>
     <message>
         <source>The shared library was not found.</source>
@@ -2215,20 +2215,12 @@ Czy na pewno chcesz go usunąć?</translation>
         <translation>Ukryj szczegóły...</translation>
     </message>
     <message>
-        <source>OK</source>
-        <translation>OK</translation>
-    </message>
-    <message>
-        <source>Help</source>
-        <translation>Pomoc</translation>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
         <translation>&lt;h3&gt;Informacje o Qt&lt;/h3&gt;&lt;p&gt; Ten program używa Qt w wersji %1.&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3 or GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>About Qt</source>
@@ -3764,10 +3756,6 @@ Wyłącz jedną z tych opcji.</translation>
         <translation>Błąd zapisywania do procesu</translation>
     </message>
     <message>
-        <source>Process failed to start (spawned process exited with code 127)</source>
-        <translation>Proces nie został uruchomiony (zakończony kodem 127)</translation>
-    </message>
-    <message>
         <source>No program defined</source>
         <translation>Nie zdefiniowano programu</translation>
     </message>
@@ -3970,11 +3958,11 @@ Wyłącz jedną z tych opcji.</translation>
     </message>
     <message>
         <source>this version of PCRE is not compiled with PCRE_UTF8 support</source>
-        <translation type="unfinished"></translation>
+        <translation>ta wersja PCRE nie jest skompilowana z obsługą PCRE_UTF8</translation>
     </message>
     <message>
         <source>character value in \x{...} sequence is too large</source>
-        <translation type="unfinished"></translation>
+        <translation>wartość znakowa w sekwencji \x{...} za duża</translation>
     </message>
     <message>
         <source>invalid condition (?(0)</source>
@@ -4102,7 +4090,7 @@ Wyłącz jedną z tych opcji.</translation>
     </message>
     <message>
         <source>this version of PCRE is not compiled with PCRE_UCP support</source>
-        <translation type="unfinished"></translation>
+        <translation>ta wersja PCRE nie jest skompilowana z obsługą PCRE_UCP</translation>
     </message>
     <message>
         <source>\c must be followed by an ASCII character</source>
@@ -4333,6 +4321,13 @@ Wyłącz jedną z tych opcji.</translation>
     <message>
         <source>Scroll down</source>
         <translation>Przewiń w dół</translation>
+    </message>
+</context>
+<context>
+    <name>QSctpSocket</name>
+    <message>
+        <source>The remote host closed the connection</source>
+        <translation>Zdalny host zamknął połączenie</translation>
     </message>
 </context>
 <context>
@@ -5657,7 +5652,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>property page</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>strona z właściwościami</translation>
     </message>
     <message>
         <source>indicator</source>
@@ -5707,7 +5702,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>dial</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>pokrętło</translation>
     </message>
     <message>
         <source>hotkey field</source>
@@ -5727,7 +5722,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>canvas</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>płótno</translation>
     </message>
     <message>
         <source>animation</source>
@@ -5831,6 +5826,21 @@ Role of an accessible object</extracomment>
     </message>
 </context>
 <context>
+    <name>QSslDiffieHellmanParameter</name>
+    <message>
+        <source>No error</source>
+        <translation>Brak błędu</translation>
+    </message>
+    <message>
+        <source>Invalid input data</source>
+        <translation>Niepoprawne dane wejściowe</translation>
+    </message>
+    <message>
+        <source>The given Diffie-Hellman parameters are deemed unsafe</source>
+        <translation>Podane parametry protokołu Diffiego-Hellmana uznano jako niepewne</translation>
+    </message>
+</context>
+<context>
     <name>QSslSocket</name>
     <message>
         <source>Error when setting the elliptic curves (%1)</source>
@@ -5863,6 +5873,10 @@ Role of an accessible object</extracomment>
     <message>
         <source>Private key does not certify public key, %1</source>
         <translation>Prywatny klucz nie uwiarygodnia publicznego, %1</translation>
+    </message>
+    <message>
+        <source>Diffie-Hellman parameters are not valid</source>
+        <translation>Niepoprawne parametry protokołu Diffiego-Hellmana</translation>
     </message>
     <message>
         <source>OpenSSL version too old, need at least v1.0.2</source>
@@ -6187,6 +6201,17 @@ Role of an accessible object</extracomment>
     </message>
 </context>
 <context>
+    <name>QUdpSocket</name>
+    <message>
+        <source>Unable to send a datagram</source>
+        <translation>Nie można wysłać datagramu</translation>
+    </message>
+    <message>
+        <source>No datagram available for reading</source>
+        <translation>Brak datagramów dostępnych do odczytu</translation>
+    </message>
+</context>
+<context>
     <name>QUndoGroup</name>
     <message>
         <source>Undo %1</source>
@@ -6353,11 +6378,13 @@ Role of an accessible object</extracomment>
         <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
 
 The minimum Direct2D version required is %1.%2.%3.%4. The Direct2D version on this system is %5.%6.%7.%8.</source>
-        <translation type="unfinished"></translation>
+        <translation>Qt nie może załadować wtyczki platformy direct2d ponieważ wersja Direct2D zainstalowana na tym systemie jest zbyt stara. Minimalne wymagania systemowe dla tej wtyczki to Windows 7 SP1 z uaktualnieniami platformy.
+
+Minimalną wymaganą wersją Direct2D jest %1.%2.%3.%4. Zainstalowaną wersją na tym systemie jest %5.%6.%7.%8.</translation>
     </message>
     <message>
         <source>Cannot load direct2d platform plugin</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można załadować wtyczki platformy direct2d</translation>
     </message>
 </context>
 <context>

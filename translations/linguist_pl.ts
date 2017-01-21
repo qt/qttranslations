@@ -147,12 +147,39 @@ Przyjmie on uniwersalną formę liczby pojedynczej.</translation>
         <translation>Tłumaczenie nie zawiera tych samych znaczników co tekst źródłowy.</translation>
     </message>
     <message>
-        <source>Translation does not contain the necessary %n place marker.</source>
-        <translation>Tłumaczenie nie zawiera koniecznego znacznika %n.</translation>
+        <source>Translation does not contain the necessary %n/%Ln place marker.</source>
+        <translation>Tłumaczenie nie zawiera koniecznego znacznika %n/%Ln.</translation>
     </message>
     <message>
         <source>Unknown error</source>
         <translation>Nieznany błąd</translation>
+    </message>
+</context>
+<context>
+    <name>FMT</name>
+    <message>
+        <source>GNU Gettext localization files</source>
+        <translation>Pliki lokalizacyjne GNU Gettext</translation>
+    </message>
+    <message>
+        <source>GNU Gettext localization template files</source>
+        <translation>Szablony plików lokalizacyjnych GNU Gettext</translation>
+    </message>
+    <message>
+        <source>Compiled Qt translations</source>
+        <translation>Skompilowane tłumaczenia Qt</translation>
+    </message>
+    <message>
+        <source>Qt Linguist &apos;Phrase Book&apos;</source>
+        <translation>&quot;Książka wyrażeń&quot; Qt Linguista</translation>
+    </message>
+    <message>
+        <source>Qt translation sources</source>
+        <translation>Źródła tłumaczeń Qt</translation>
+    </message>
+    <message>
+        <source>XLIFF localization files</source>
+        <translation>Pliki lokalizacyjne XLIFF</translation>
     </message>
 </context>
 <context>
@@ -302,33 +329,6 @@ Przyjmie on uniwersalną formę liczby pojedynczej.</translation>
             <numerusform>    Pominięto %n nieprzetłumaczone teksty źródłowe</numerusform>
             <numerusform>    Pominięto %n nieprzetłumaczonych tekstów źródłowych</numerusform>
         </translation>
-    </message>
-</context>
-<context>
-    <name>Linguist</name>
-    <message>
-        <source>GNU Gettext localization files</source>
-        <translation>Pliki GNU Gettext</translation>
-    </message>
-    <message>
-        <source>GNU Gettext localization template files</source>
-        <translation>Szablony plików GNU Gettext</translation>
-    </message>
-    <message>
-        <source>Compiled Qt translations</source>
-        <translation>Skompilowane tłumaczenia Qt</translation>
-    </message>
-    <message>
-        <source>Qt Linguist &apos;Phrase Book&apos;</source>
-        <translation>&quot;Książka wyrażeń&quot; Qt Linguista</translation>
-    </message>
-    <message>
-        <source>Qt translation sources</source>
-        <translation>Źródła tłumaczeń Qt</translation>
-    </message>
-    <message>
-        <source>XLIFF localization files</source>
-        <translation>Pliki XLIFF</translation>
     </message>
 </context>
 <context>

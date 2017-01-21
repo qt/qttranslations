@@ -40,6 +40,10 @@
         <translation>Niepoprawny adres adaptera Bluetooth</translation>
     </message>
     <message>
+        <source>One or more device discovery methods are not supported on this platform</source>
+        <translation>Przynajmniej jedna metoda wykrywania urządzeń na tej platformie nie jest obsługiwana</translation>
+    </message>
+    <message>
         <source>Device does not support Bluetooth</source>
         <translation>Urządzenie nie obsługuje Bluetooth</translation>
     </message>
@@ -48,8 +52,16 @@
         <translation>Podany adres nie wskazuje na lokalne urządzenie.</translation>
     </message>
     <message>
-        <source>Discovery cannot be started</source>
-        <translation>Nie można rozpocząć wykrywania</translation>
+        <source>Missing Location permission. Search is not possible</source>
+        <translation>Brak pozwolenia na wykrywanie lokalizacji. Brak możliwości wyszukiwania.</translation>
+    </message>
+    <message>
+        <source>Classic Discovery cannot be started</source>
+        <translation>Nie można uruchomić klasycznego wykrywania</translation>
+    </message>
+    <message>
+        <source>Low Energy Discovery not supported</source>
+        <translation>Brak obsługi wykrywania niskiego poziomu naładowania</translation>
     </message>
     <message>
         <source>Bluetooth adapter error</source>
@@ -132,7 +144,7 @@
     </message>
     <message>
         <source>Browse Group Descriptor</source>
-        <translation type="unfinished"></translation>
+        <translation>Deskryptor grupy przeglądania</translation>
     </message>
     <message>
         <source>Public Browse Group</source>
@@ -232,11 +244,11 @@
     </message>
     <message>
         <source>Hands-Free</source>
-        <translation type="unfinished"></translation>
+        <translation>Bezdotykowy</translation>
     </message>
     <message>
         <source>Hands-Free AG</source>
-        <translation type="unfinished"></translation>
+        <translation>Bezdotykowy AG</translation>
     </message>
     <message>
         <source>Basic Printing RefObject Service</source>
@@ -276,11 +288,11 @@
     </message>
     <message>
         <source>Phonebook Access PCE</source>
-        <translation type="unfinished"></translation>
+        <translation>Dostęp do książki telefonicznej (PCE)</translation>
     </message>
     <message>
         <source>Phonebook Access PSE</source>
-        <translation type="unfinished"></translation>
+        <translation>Dostęp do książki telefonicznej (PSE)</translation>
     </message>
     <message>
         <source>Phonebook Access</source>
@@ -304,19 +316,19 @@
     </message>
     <message>
         <source>Global Navigation Satellite System</source>
-        <translation type="unfinished"></translation>
+        <translation>Globalny satelitarny system nawigacji</translation>
     </message>
     <message>
         <source>Global Navigation Satellite System Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Serwer globalnego satelitarnego systemu nawigacji</translation>
     </message>
     <message>
         <source>3D Synchronization Display</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyświetlacz synchronizacji 3D</translation>
     </message>
     <message>
         <source>3D Synchronization Glasses</source>
-        <translation type="unfinished"></translation>
+        <translation>Okulary synchronizacji 3D</translation>
     </message>
     <message>
         <source>3D Synchronization</source>
@@ -1280,6 +1292,10 @@
     <message>
         <source>Cannot set connection security level</source>
         <translation>Nie można ustawić poziomu bezpieczeństwa połączenia</translation>
+    </message>
+    <message>
+        <source>Network Error: %1</source>
+        <translation>Błąd sieci: %1</translation>
     </message>
 </context>
 <context>
