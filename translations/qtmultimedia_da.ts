@@ -1,473 +1,587 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="fi">
+<TS version="2.1" language="da">
 <context>
     <name>AudioContainerControl</name>
     <message>
         <source>RAW (headerless) file format</source>
-        <translation>RAW-tiedostomuoto (tunnukseton)</translation>
+        <translation>Råt (hovedløst) filformat</translation>
     </message>
     <message>
         <source>WAV file format</source>
-        <translation>WAV-tiedostomuoto</translation>
+        <translation>WAV-filformat</translation>
     </message>
 </context>
 <context>
     <name>AudioEncoderControl</name>
     <message>
         <source>Linear PCM audio data</source>
-        <translation>Lineaarinen PCM-äänidata</translation>
+        <translation>Linær PCM-lyddata</translation>
+    </message>
+</context>
+<context>
+    <name>BbCameraAudioEncoderSettingsControl</name>
+    <message>
+        <source>No compression</source>
+        <translation>Ingen komprimering</translation>
+    </message>
+    <message>
+        <source>AAC compression</source>
+        <translation>AAC-komprimering</translation>
+    </message>
+    <message>
+        <source>PCM uncompressed</source>
+        <translation>PCM ukomprimeret</translation>
+    </message>
+</context>
+<context>
+    <name>BbCameraMediaRecorderControl</name>
+    <message>
+        <source>Unable to retrieve mute status</source>
+        <translation>Kunne ikke hente mute-status</translation>
+    </message>
+    <message>
+        <source>Unable to retrieve audio input volume</source>
+        <translation>Kunne ikke hente lydinput-lydstyrke</translation>
+    </message>
+    <message>
+        <source>Unable to set mute status</source>
+        <translation>Kunne ikke sætte mute-status</translation>
+    </message>
+    <message>
+        <source>Unable to set audio input volume</source>
+        <translation>Kunne ikke sætte lydinput-lydstyrke</translation>
+    </message>
+</context>
+<context>
+    <name>BbCameraSession</name>
+    <message>
+        <source>Camera provides image in unsupported format</source>
+        <translation>Kameraet leverer billede i format som ikke understøttes</translation>
+    </message>
+    <message>
+        <source>Could not load JPEG data from frame</source>
+        <translation>Kunne ikke indlæse JPEG-data fra ramme</translation>
+    </message>
+    <message>
+        <source>Camera not ready</source>
+        <translation>Kameraet er ikke klar</translation>
+    </message>
+    <message>
+        <source>Unable to apply video settings</source>
+        <translation>Kunne ikke anvende videoindstillinger</translation>
+    </message>
+    <message>
+        <source>Could not open destination file:
+%1</source>
+        <translation>Kunne ikke åbne destinationsfilen:
+%1</translation>
+    </message>
+    <message>
+        <source>Unable to open camera</source>
+        <translation>Kunne ikke åbne kameraet</translation>
+    </message>
+    <message>
+        <source>Unable to retrieve native camera orientation</source>
+        <translation>Kunne ikke hente oprindelig kameraorientering</translation>
+    </message>
+    <message>
+        <source>Unable to close camera</source>
+        <translation>Kunne ikke lukke kameraet</translation>
+    </message>
+    <message>
+        <source>Unable to start video recording</source>
+        <translation>Kunne ikke starte videooptagelsen</translation>
+    </message>
+    <message>
+        <source>Unable to stop video recording</source>
+        <translation>Kunne ikke stoppe videooptagelsen</translation>
+    </message>
+</context>
+<context>
+    <name>BbCameraVideoEncoderSettingsControl</name>
+    <message>
+        <source>No compression</source>
+        <translation>Ingen komprimering</translation>
+    </message>
+    <message>
+        <source>AVC1 compression</source>
+        <translation>AVC1-komprimering</translation>
+    </message>
+    <message>
+        <source>H264 compression</source>
+        <translation>H264-komprimering</translation>
+    </message>
+</context>
+<context>
+    <name>BbImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation>JPEG-billede</translation>
+    </message>
+</context>
+<context>
+    <name>BbVideoDeviceSelectorControl</name>
+    <message>
+        <source>Front Camera</source>
+        <translation>Frontkamera</translation>
+    </message>
+    <message>
+        <source>Rear Camera</source>
+        <translation>Bagkamera</translation>
+    </message>
+    <message>
+        <source>Desktop Camera</source>
+        <translation>Skrivebordskamera</translation>
     </message>
 </context>
 <context>
     <name>CameraBinImageCapture</name>
     <message>
         <source>Camera not ready</source>
-        <translation>Kamera ei ole valmis</translation>
+        <translation>Kamera er ikke klar</translation>
     </message>
 </context>
 <context>
     <name>CameraBinImageEncoder</name>
     <message>
         <source>JPEG image</source>
-        <translation>JPEG-kuva</translation>
+        <translation>JPEG-billede</translation>
     </message>
 </context>
 <context>
     <name>CameraBinRecorder</name>
     <message>
         <source>QMediaRecorder::pause() is not supported by camerabin2.</source>
-        <translation>camerabin2 ei tue QMediaRecorder::pause()-funktiota.</translation>
+        <translation>QMediaRecorder::pause() understøttes ikke af camerabin2.</translation>
     </message>
     <message>
         <source>Service has not been started</source>
-        <translation>Palvelua ei ole käynnistetty</translation>
+        <translation>Tjenesten er ikke startet</translation>
     </message>
     <message>
         <source>Recording permissions are not available</source>
-        <translation>Tallennusoikeutta ei ole</translation>
+        <translation>Optagetilladelser er ikke tilgængelige</translation>
     </message>
 </context>
 <context>
     <name>CameraBinSession</name>
     <message>
         <source>Camera error</source>
-        <translation>Kameravirhe</translation>
+        <translation>Kamerafejl</translation>
     </message>
 </context>
 <context>
     <name>DSCameraSession</name>
     <message>
         <source>Camera not ready for capture</source>
-        <translation>Kamera ei ole valmiina kaappaamaan</translation>
+        <translation>Kameraet er ikke klar til optagelse</translation>
     </message>
     <message>
         <source>Could not save image to file.</source>
-        <translation>Kuvan tallentaminen tiedostoon epäonnistui.</translation>
+        <translation>Kunne ikke gemme billede til fil.</translation>
     </message>
 </context>
 <context>
     <name>MFPlayerSession</name>
     <message>
         <source>Invalid stream source.</source>
-        <translation>Virheellinen virran lähde.</translation>
+        <translation>Ugyldig strømkilde.</translation>
     </message>
     <message>
         <source>Attempting to play invalid Qt resource.</source>
-        <translation>Yritettiin toistaa virheellinen Qt-resurssi.</translation>
+        <translation>Forsøger at afspille ugyldig Qt-ressource.</translation>
     </message>
     <message>
         <source>The system cannot find the file specified.</source>
-        <translation>Järjestelmä ei löydä määritettyä tiedostoa.</translation>
+        <translation>Systemet kan ikke finde den specificerede fil.</translation>
     </message>
     <message>
         <source>The specified server could not be found.</source>
-        <translation>Määritettyä palvelinta ei löydy.</translation>
+        <translation>Den specificerede server kunne ikke findes.</translation>
     </message>
     <message>
         <source>Unsupported media type.</source>
-        <translation>Mediatyyppiä ei tueta.</translation>
+        <translation>Medietypen understøttes ikke.</translation>
     </message>
     <message>
         <source>Failed to load source.</source>
-        <translation>Virhe ladattaessa lähdettä.</translation>
+        <translation>Kunne ikke indlæse kilde.</translation>
     </message>
     <message>
         <source>Cannot create presentation descriptor.</source>
-        <translation>Ei voitu luoda esityksen kuvausta.</translation>
+        <translation>Kan ikke oprette præsentationsdeskriptor.</translation>
     </message>
     <message>
         <source>Failed to get stream count.</source>
-        <translation>Virtojen määrän hakeminen epäonnistui.</translation>
+        <translation>Kunne ikke få strømantal.</translation>
     </message>
     <message>
         <source>Failed to create topology.</source>
-        <translation>Topologian luonti epäonnistui.</translation>
+        <translation>Kunne ikke oprette topologi.</translation>
     </message>
     <message>
         <source>Unable to play any stream.</source>
-        <translation>Ei voitu toistaa yhtään virtaa.</translation>
+        <translation>Kunne ikke afspille nogen strøm.</translation>
     </message>
     <message>
         <source>Unable to play.</source>
-        <translation>Ei voitu toistaa.</translation>
+        <translation>Kunne ikke afspille.</translation>
     </message>
     <message>
         <source>Failed to set topology.</source>
-        <translation>Topologian asettaminen epäonnistui.</translation>
+        <translation>Kunne ikke sætte topologi.</translation>
     </message>
     <message>
         <source>Unknown stream type.</source>
-        <translation>Tuntematon virtatyyppi.</translation>
+        <translation>Ukendt strømtype.</translation>
     </message>
     <message>
         <source>Failed to stop.</source>
-        <translation>Pysäyttäminen epäonnistui.</translation>
+        <translation>Kunne ikke stoppe.</translation>
     </message>
     <message>
         <source>failed to start playback</source>
-        <translation>toiston aloittaminen epäonnistui</translation>
+        <translation>kunne ikke starte afspilningen</translation>
     </message>
     <message>
         <source>Failed to pause.</source>
-        <translation>Tauon aloittaminen epäonnistui.</translation>
+        <translation>Kunne ikke pause.</translation>
     </message>
     <message>
         <source>Unable to create mediasession.</source>
-        <translation>Ei voitu luoda mediaistuntoa.</translation>
+        <translation>Kunne ikke oprette mediesessionen.</translation>
     </message>
     <message>
         <source>Unable to pull session events.</source>
-        <translation>Ei voitu hakea istunnon tapahtumia.</translation>
+        <translation>Kunne ikke trække sessionsbegivenhederne.</translation>
     </message>
     <message>
         <source>Failed to seek.</source>
-        <translation>Sijainnin asettaminen epäonnistui.</translation>
+        <translation>Kunne ikke søge.</translation>
     </message>
     <message>
         <source>Media session non-fatal error.</source>
-        <translation>Ei vakava virhe mediaistunnossa.</translation>
+        <translation>Ikke-fatal mediesessionsfejl.</translation>
     </message>
     <message>
         <source>Media session serious error.</source>
-        <translation>Vakava virhe mediaistunnossa.</translation>
+        <translation>Seriøs mediesessionsfejl.</translation>
     </message>
     <message>
         <source>Unsupported media, a codec is missing.</source>
-        <translatorcomment>Pakkauksenhallinta on Microsoftin käyttämä suomennos sanalle codec. Koska tämä teksti on käytössä vain Windowsissa, niin paras kaiketi käyttää sitä.</translatorcomment>
-        <translation>Mediaa ei tueta, pakkauksenhallinta puuttuu.</translation>
+        <translation>Ikke understøttede medie, et codec mangler.</translation>
     </message>
 </context>
 <context>
     <name>QAndroidAudioEncoderSettingsControl</name>
     <message>
         <source>Adaptive Multi-Rate Narrowband (AMR-NB) audio codec</source>
-        <translation>Adaptive Multi-Rate Narrowband (AMR-NB) äänikoodekki</translation>
+        <translation>Adaptive Multi-Rate Narrowband (AMR-NB) lyd-codec</translation>
     </message>
     <message>
         <source>Adaptive Multi-Rate Wideband (AMR-WB) audio codec</source>
-        <translation>Adaptive Multi-Rate Wideband (AMR-WB) äänikoodekki</translation>
+        <translation>Adaptive Multi-Rate Wideband (AMR-WB) lyd-codec</translation>
     </message>
     <message>
         <source>AAC Low Complexity (AAC-LC) audio codec</source>
-        <translation>AAC Low Complexity (AAC-LC) äänikoodekki</translation>
+        <translation>AAC Low Complexity (AAC-LC) lyd-codec</translation>
     </message>
 </context>
 <context>
     <name>QAndroidCameraSession</name>
     <message>
         <source>Camera cannot be started without a viewfinder.</source>
-        <translation>Kameraa ei voida käynnistää ilman etsintä.</translation>
+        <translation>Kameraet kan ikke startes uden en søger.</translation>
     </message>
     <message>
         <source>Camera not ready</source>
-        <translation>Kamera ei ole valmis</translation>
+        <translation>Kameraet er ikke klar</translation>
     </message>
     <message>
         <source>Drive mode not supported</source>
         <extracomment>Drive mode is the camera&apos;s shutter mode, for example single shot, continuos exposure, etc.</extracomment>
-        <translation>Kuvaustilaa ei tueta</translation>
+        <translation>Drivertilstanden understøttes ikke</translation>
     </message>
     <message>
         <source>Failed to capture image</source>
-        <translation>Kuvan ottaminen epäonnistui</translation>
+        <translation>Kunne ikke optage billede</translation>
     </message>
     <message>
         <source>Camera preview failed to start.</source>
-        <translation>Kameran esikatselun käynnistys epäonnistui.</translation>
+        <translation>Forhåndsvisning af kamera kunne ikke starte.</translation>
     </message>
     <message>
         <source>Could not open destination file: %1</source>
-        <translation>Kohdetiedostoa ei voitu avata: %1</translation>
+        <translation>Kunne ikke åbne destinationsfilen: %1</translation>
     </message>
 </context>
 <context>
     <name>QAndroidImageEncoderControl</name>
     <message>
         <source>JPEG image</source>
-        <translation>JPEG-kuva</translation>
+        <translation>JPEG-billede</translation>
     </message>
 </context>
 <context>
     <name>QAndroidMediaContainerControl</name>
     <message>
         <source>MPEG4 media file format</source>
-        <translation>MPEG4-tiedostomuoto</translation>
+        <translation>MPEG4 medie-filformat</translation>
     </message>
     <message>
         <source>3GPP media file format</source>
-        <translation>3GPP-tiedostomuoto</translation>
+        <translation>3GPP medie-filformat</translation>
     </message>
     <message>
         <source>AMR NB file format</source>
-        <translation>AMR NB -tiedostomuoto</translation>
+        <translation>AMR NB-filformat</translation>
     </message>
     <message>
         <source>AMR WB file format</source>
-        <translation>AMR WB -tiedostomuoto</translation>
+        <translation>AMR WB-filformat</translation>
     </message>
 </context>
 <context>
     <name>QAndroidVideoEncoderSettingsControl</name>
     <message>
         <source>H.263 compression</source>
-        <translation>H.263-pakkaus</translation>
+        <translation>H.263-komprimering</translation>
     </message>
     <message>
         <source>H.264 compression</source>
-        <translation>H.264-pakkaus</translation>
+        <translation>H.264-komprimering</translation>
     </message>
     <message>
         <source>MPEG-4 SP compression</source>
-        <translation>MPEG-4 SP -pakkaus</translation>
+        <translation>MPEG-4 SP-komprimering</translation>
     </message>
 </context>
 <context>
     <name>QAudioDecoder</name>
     <message>
         <source>The QAudioDecoder object does not have a valid service</source>
-        <translation>QAudioDecoder-oliolla ei ole sopivaa palvelua</translation>
+        <translation>QAudioDecoder-objektet har ikke en gyldig tjeneste</translation>
     </message>
 </context>
 <context>
     <name>QCamera</name>
     <message>
         <source>The camera service is missing</source>
-        <translation>Ei kamerapalvelua</translation>
+        <translation>Kameratjenesten mangler</translation>
     </message>
 </context>
 <context>
     <name>QCameraImageCapture</name>
     <message>
         <source>Device does not support images capture.</source>
-        <translation>Laite ei tue kuvien ottamista.</translation>
+        <translation>Enheden understøtter ikke billedoptagelse.</translation>
     </message>
 </context>
 <context>
     <name>QDeclarativeAudio</name>
     <message>
         <source>volume should be between 0.0 and 1.0</source>
-        <translatorcomment>volume viittaa metodin parametrin nimeen</translatorcomment>
-        <translation>volume-parametrin arvo pitää olla 0,0 ja 1,0 välillä</translation>
+        <translation>volume skal være mellem 0.0 og 1.0</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerAudioDecoderSession</name>
     <message>
         <source>Cannot play stream of type: &lt;unknown&gt;</source>
-        <translation>Ei voida toistaa virtaa jonka tyyppi on: &lt;tuntematon&gt;</translation>
+        <translation>Kan ikke afspille strøm af typen: &lt;ukendt&gt;</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerAudioEncode</name>
     <message>
         <source>Raw PCM audio</source>
-        <translation>Raaka PCM-audio</translation>
+        <translation>Rå PCM-lyd</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerAudioInputSelector</name>
     <message>
         <source>System default device</source>
-        <translation>Järjestelmän oletuslaite</translation>
+        <translation>Systemets standardenhed</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerCameraControl</name>
     <message>
         <source>State not supported.</source>
-        <translation>Tila ei ole tuettu.</translation>
+        <translation>Tilstanden understøttes ikke.</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerCaptureSession</name>
     <message>
         <source>Could not create an audio source element</source>
-        <translation>Ei voitu luoda äänilähde-elementtiä</translation>
+        <translation>Kunne ikke oprette et lydkildeelement</translation>
     </message>
     <message>
         <source>Failed to build media capture pipeline.</source>
-        <translation>Virhe luotaessa median tallennusliukuhihnaa.</translation>
+        <translation>Kunne ikke bygge medieoptage-pipeline.</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerImageCaptureControl</name>
     <message>
         <source>Not ready to capture</source>
-        <translation>Ei valmiina kaappaamaan</translation>
+        <translation>Ikke klar til optagelse</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerImageEncode</name>
     <message>
         <source>JPEG image encoder</source>
-        <translation>JPEG-kuvapakkaaja</translation>
+        <translation>JPEG-billedkoder</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerPlayerControl</name>
     <message>
         <source>Attempting to play invalid user stream</source>
-        <translation>Yritettiin toistaa virheellinen käyttäjän virta</translation>
+        <translation>Forsøger at afspille ugyldig brugerstrøm</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerPlayerSession</name>
     <message>
         <source>Cannot play stream of type: &lt;unknown&gt;</source>
-        <translation>Ei voida toistaa virtaa jonka tyyppi on: &lt;tuntematon&gt;</translation>
+        <translation>Kan ikke afspille strøm af typen: &lt;ukendt&gt;</translation>
     </message>
     <message>
         <source>UDP source timeout</source>
-        <translation>UDP-lähteen aikakatkaisu</translation>
+        <translation>UDP-kilde fik timeout</translation>
     </message>
     <message>
         <source>Media is loaded as a playlist</source>
-        <translation>Media on ladattu soittolistana</translation>
+        <translation>Mediet er indlæst som en spilleliste</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerRecorderControl</name>
     <message>
         <source>Service has not been started</source>
-        <translation>Palvelua ei ole käynnistetty</translation>
+        <translation>Tjenesten er ikke startet</translation>
     </message>
     <message>
         <source>Not compatible codecs and container format.</source>
-        <translation>Yhteensopimattomat koodekit ja säiliömuoto.</translation>
+        <translation>Ikke-kompatible codecs og containerformat.</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerVideoInputDeviceControl</name>
     <message>
         <source>Main camera</source>
-        <translation>Pääkamera</translation>
+        <translation>Hovedkamera</translation>
     </message>
     <message>
         <source>Front camera</source>
-        <translation>Etukamera</translation>
+        <translation>Frontkamera</translation>
     </message>
 </context>
 <context>
     <name>QMediaPlayer</name>
     <message>
         <source>Attempting to play invalid Qt resource</source>
-        <translation>Yritetään toistaa virheellinen Qt-resurssi</translation>
+        <translation>Forsøger at afspille ugyldig Qt-ressource</translation>
     </message>
     <message>
         <source>The QMediaPlayer object does not have a valid service</source>
-        <translation>QMediaPlayer-oliolla ei ole sopivaa palvelua</translation>
+        <translation>QMediaPlayer-objektet har ikke en gyldig tjeneste</translation>
     </message>
 </context>
 <context>
     <name>QMediaPlaylist</name>
     <message>
         <source>Could not add items to read only playlist.</source>
-        <translation>Ei voitu lisätä tietueita vain luettavaan soittolistaan.</translation>
+        <translation>Kunne ikke føje poster til skrivebeskyttet spilleliste.</translation>
     </message>
     <message>
         <source>Playlist format is not supported</source>
-        <translation>Soittolistan muotoa ei tueta</translation>
+        <translation>Spillelisteformatet understøttes ikke</translation>
     </message>
     <message>
         <source>The file could not be accessed.</source>
-        <translation>Tiedostoa ei voitu käsitellä.</translation>
+        <translation>Kunne ikke få adgang til filen.</translation>
     </message>
     <message>
         <source>Playlist format is not supported.</source>
-        <translation>Soittolistan muotoa ei tueta.</translation>
+        <translation>Spillelisteformatet understøttes ikke.</translation>
     </message>
 </context>
 <context>
     <name>QMultimediaDeclarativeModule</name>
     <message>
         <source>CameraCapture is provided by Camera</source>
-        <translation>Camera tarjoaa CameraCapturen</translation>
+        <translation>CameraCapture er leveret af kamera</translation>
     </message>
     <message>
         <source>CameraRecorder is provided by Camera</source>
-        <translation>Camera tarjoaa CameraRecorderin</translation>
+        <translation>CameraRecorder er leveret af kamera</translation>
     </message>
     <message>
         <source>CameraExposure is provided by Camera</source>
-        <translation>Camera tarjoaa CameraExposuren</translation>
+        <translation>CameraExposure er leveret af kamera</translation>
     </message>
     <message>
         <source>CameraFocus is provided by Camera</source>
-        <translation>Camera tarjoaa CameraFocusin</translation>
+        <translation>CameraFocus er leveret af kamera</translation>
     </message>
     <message>
         <source>CameraFlash is provided by Camera</source>
-        <translation>Camera tarjoaa CameraFlashin</translation>
+        <translation>CameraFlash er leveret af kamera</translation>
     </message>
     <message>
         <source>CameraImageProcessing is provided by Camera</source>
-        <translation>Camera tarjoaa CameraImageProcessingin</translation>
+        <translation>CameraImageProcessing er leveret af kamera</translation>
     </message>
     <message>
         <source>CameraViewfinder is provided by Camera</source>
-        <translation>Camera tarjoaa CameraViewfinderin</translation>
+        <translation>CameraViewfinder er leveret af kamera</translation>
     </message>
 </context>
 <context>
     <name>QPlaylistFileParser</name>
     <message>
         <source>%1 playlist type is unknown</source>
-        <translation>soittolistan %1 tyyppi on tuntematon</translation>
+        <translation>%1 spillelistetype er ukendt</translation>
     </message>
     <message>
         <source>invalid line in playlist file</source>
-        <translation>virheellinen rivi soittolistatiedostossa</translation>
+        <translation>ugyldig linje i spillelistefilen</translation>
     </message>
     <message>
         <source>Empty file provided</source>
-        <translation>Saatiin tyhjä tiedosto</translation>
+        <translation>Tom fil givet</translation>
     </message>
     <message>
         <source>%1 does not exist</source>
-        <translation>%1 ei ole olemassa</translation>
+        <translation>%1 findes ikke</translation>
     </message>
 </context>
 <context>
     <name>QWinRTCameraImageCaptureControl</name>
     <message>
         <source>Camera not ready</source>
-        <translation>Kamera ei ole valmis</translation>
+        <translation>Kameraet er ikke klar</translation>
     </message>
     <message>
         <source>Invalid photo data length.</source>
-        <translation>Virheellinen kuvadatan pituus.</translation>
+        <translation>Ugyldig længde på fotodata.</translation>
     </message>
     <message>
         <source>Image saving failed</source>
-        <translation>Kuvan tallentaminen epäonnistui</translation>
+        <translation>Gemning af billede fejlede</translation>
     </message>
 </context>
 <context>
     <name>QWinRTImageEncoderControl</name>
     <message>
         <source>JPEG image</source>
-        <translation>JPEG-kuva</translation>
+        <translation>JPEG-billede</translation>
     </message>
 </context>
 </TS>

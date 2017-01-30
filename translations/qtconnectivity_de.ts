@@ -8,12 +8,28 @@
         <translation>Ungültige Bluetooth-Geräteadresse</translation>
     </message>
     <message>
+        <source>One or more device discovery methods are not supported on this platform</source>
+        <translation>Eine oder mehrere Gerätesuchmethoden werden auf dieser Plattform nicht unterstützt</translation>
+    </message>
+    <message>
         <source>Device does not support Bluetooth</source>
         <translation>Das Gerät unterstützt kein Bluetooth</translation>
     </message>
     <message>
         <source>Passed address is not a local device.</source>
         <translation>Übergebene Adresse gehört zu keinem lokalen Gerät.</translation>
+    </message>
+    <message>
+        <source>Missing Location permission. Search is not possible</source>
+        <translation>Die Berechtigung zur Positionsbestimmung fehlt. Es ist keine Suche möglich</translation>
+    </message>
+    <message>
+        <source>Classic Discovery cannot be started</source>
+        <translation>Standardsuche kann nicht gestartet werden</translation>
+    </message>
+    <message>
+        <source>Low Energy Discovery not supported</source>
+        <translation>Low Energy-Suche wird nicht unterstützt</translation>
     </message>
     <message>
         <source>Device is powered off</source>
@@ -34,10 +50,6 @@
     <message>
         <source>Cannot start low energy device inquiry</source>
         <translation>Kann keine Bluetooth LE-Suche starten</translation>
-    </message>
-    <message>
-        <source>Discovery cannot be started</source>
-        <translation>Suche kann nicht gestartet werden</translation>
     </message>
     <message>
         <source>Discovery cannot be stopped</source>
@@ -61,7 +73,7 @@
     </message>
     <message>
         <source>Device discovery not supported on this platform</source>
-        <translation>Gerätesuchlauf wird auf dieser Platform nicht unterstützt</translation>
+        <translation>Gerätesuchlauf wird auf dieser Plattform nicht unterstützt</translation>
     </message>
 </context>
 <context>
@@ -76,7 +88,7 @@
     </message>
     <message>
         <source>Platform does not support Bluetooth</source>
-        <translation>Die Platform unterstützt kein Bluetooth</translation>
+        <translation>Die Plattform unterstützt kein Bluetooth</translation>
     </message>
     <message>
         <source>Android API below v15 does not support SDP discovery</source>
@@ -1280,6 +1292,10 @@
     <message>
         <source>Cannot set connection security level</source>
         <translation>Die Sicherheitsstufe der Verbindung konnte nicht eingestellt werden</translation>
+    </message>
+    <message>
+        <source>Network Error: %1</source>
+        <translation>Netzwerkfehler: %1</translation>
     </message>
 </context>
 <context>

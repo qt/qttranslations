@@ -1,306 +1,306 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE">
+<TS version="2.0" language="ko_KR">
 <context>
     <name>QQuickWebEngineView</name>
     <message>
         <source>Follow Link</source>
-        <translation>Link folgen</translation>
+        <translation>링크 따라가기</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Zurück</translation>
+        <translation>뒤로</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>Vorwärts</translation>
+        <translation>앞으로</translation>
     </message>
     <message>
         <source>Reload</source>
-        <translation>Neu laden</translation>
+        <translation>새로 고침</translation>
     </message>
     <message>
         <source>View Page Source</source>
-        <translation>Seitenquelltext anzeigen</translation>
+        <translation>페이지 원본 보기</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Kopieren</translation>
+        <translation>복사</translation>
     </message>
     <message>
         <source>Unselect</source>
-        <translation>Auswahl aufheben</translation>
+        <translation>선택 해제</translation>
     </message>
     <message>
         <source>Copy Link URL</source>
-        <translation>Link-Adresse kopieren</translation>
+        <translation>링크 URL 복사</translation>
     </message>
     <message>
         <source>Save Link</source>
-        <translation>Link speichern</translation>
+        <translation>링크 저장</translation>
     </message>
     <message>
         <source>Copy Image URL</source>
-        <translation>Adresse des Bildes kopieren</translation>
+        <translation>그림 URL 복사</translation>
     </message>
     <message>
         <source>Copy Image</source>
-        <translation>Bild kopieren</translation>
+        <translation>그림 복사</translation>
     </message>
     <message>
         <source>Save Image</source>
-        <translation>Bild speichern</translation>
+        <translation>그림 저장</translation>
     </message>
     <message>
         <source>Copy Media URL</source>
-        <translation>Adresse des Medieninhalts kopieren</translation>
+        <translation>미디어 URL 복사</translation>
     </message>
     <message>
         <source>Save Media</source>
-        <translation>Medieninhalt speichern</translation>
+        <translation>미디어 저장</translation>
     </message>
     <message>
         <source>Toggle Play/Pause</source>
-        <translation>Abspielen/Pausieren umschalten</translation>
+        <translation>재생/일시 정지 전환</translation>
     </message>
     <message>
         <source>Toggle Looping</source>
-        <translation>Wiederholung umschalten</translation>
+        <translation>반복 전환</translation>
     </message>
     <message>
         <source>Toggle Mute</source>
-        <translation>Stummschaltung umschalten</translation>
+        <translation>음소거 전환</translation>
     </message>
     <message>
         <source>Toggle Media Controls</source>
-        <translation>Steuerelemente für Medieninhalte umschalten</translation>
+        <translation>미디어 제어 전환</translation>
     </message>
     <message>
         <source>Inspect Element</source>
-        <translation>Element untersuchen</translation>
+        <translation>요소 검사</translation>
     </message>
     <message>
         <source>Exit Full Screen Mode</source>
-        <translation>Vollbildmodus verlassen</translation>
+        <translation>전체 화면 모드 끝내기</translation>
     </message>
 </context>
 <context>
     <name>QWebEnginePage</name>
     <message>
         <source>Back</source>
-        <translation>Zurück</translation>
+        <translation>뒤로</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>Vorwärts</translation>
+        <translation>앞으로</translation>
     </message>
     <message>
         <source>Stop</source>
-        <translation>Stop</translation>
+        <translation>정지</translation>
     </message>
     <message>
         <source>Reload</source>
-        <translation>Neu laden</translation>
+        <translation>새로 고침</translation>
     </message>
     <message>
         <source>Reload and Bypass Cache</source>
-        <translation>Unter Umgehung des Caches neu laden</translation>
+        <translation>캐시 무시하고 새로 고침</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation>Ausschneiden</translation>
+        <translation>잘라내기</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Kopieren</translation>
+        <translation>복사</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>Einfügen</translation>
+        <translation>붙여넣기</translation>
     </message>
     <message>
         <source>Undo</source>
-        <translation>Rückgängig machen</translation>
+        <translation>실행 취소</translation>
     </message>
     <message>
         <source>Redo</source>
-        <translation>Wiederherstellen</translation>
+        <translation>다시 실행</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Alles auswählen</translation>
+        <translation>모두 선택</translation>
     </message>
     <message>
         <source>Paste and Match Style</source>
-        <translation>Einfügen und Stil anpassen</translation>
+        <translation>붙여넣고 스타일 맞춤</translation>
     </message>
     <message>
         <source>Open Link in This Window</source>
-        <translation>Link in diesem Fenster öffnen</translation>
+        <translation>이 창에서 링크 열기</translation>
     </message>
     <message>
         <source>Open Link in New Window</source>
-        <translation>Link in neuem Fenster öffnen</translation>
+        <translation>새 창으로 링크 열기</translation>
     </message>
     <message>
         <source>Open Link in New Tab</source>
-        <translation>Link in neuem Reiter öffnen</translation>
+        <translation>새 탭으로 링크 열기</translation>
     </message>
     <message>
         <source>Open Link in New Background Tab</source>
-        <translation>Link in neuem Reiter im Hintergrund öffnen</translation>
+        <translation>배경 탭으로 링크 열기</translation>
     </message>
     <message>
         <source>Copy Link URL</source>
-        <translation>Link-Adresse kopieren</translation>
+        <translation>링크 URL 복사</translation>
     </message>
     <message>
         <source>Save Link</source>
-        <translation>Link speichern</translation>
+        <translation>링크 저장</translation>
     </message>
     <message>
         <source>Copy Image</source>
-        <translation>Bild kopieren</translation>
+        <translation>그림 복사</translation>
     </message>
     <message>
         <source>Copy Image URL</source>
-        <translation>Adresse des Bildes kopieren</translation>
+        <translation>그림 URL 복사</translation>
     </message>
     <message>
         <source>Save Image</source>
-        <translation>Bild speichern</translation>
+        <translation>그림 저장</translation>
     </message>
     <message>
         <source>Copy Media URL</source>
-        <translation>Adresse des Medieninhalts kopieren</translation>
+        <translation>미디어 URL 복사</translation>
     </message>
     <message>
         <source>Toggle Media Controls</source>
-        <translation>Steuerelemente für Medieninhalte umschalten</translation>
+        <translation>미디어 제어 전환</translation>
     </message>
     <message>
         <source>Toggle Looping</source>
-        <translation>Wiederholung umschalten</translation>
+        <translation>반복 전환</translation>
     </message>
     <message>
         <source>Toggle Play/Pause</source>
-        <translation>Abspielen/Pausieren umschalten</translation>
+        <translation>재생/일시 정지 전환</translation>
     </message>
     <message>
         <source>Toggle Mute</source>
-        <translation>Stummschaltung umschalten</translation>
+        <translation>음소거 전환</translation>
     </message>
     <message>
         <source>Save Media</source>
-        <translation>Medieninhalt speichern</translation>
+        <translation>미디어 저장</translation>
     </message>
     <message>
         <source>Inspect Element</source>
-        <translation>Element untersuchen</translation>
+        <translation>요소 검사</translation>
     </message>
     <message>
         <source>Exit Full Screen Mode</source>
-        <translation>Vollbildmodus verlassen</translation>
+        <translation>전체 화면 모드 끝내기</translation>
     </message>
     <message>
         <source>Close Page</source>
-        <translation>Seite schließen</translation>
+        <translation>페이지 닫기</translation>
     </message>
     <message>
         <source>Unselect</source>
-        <translation>Auswahl aufheben</translation>
+        <translation>선택 해제</translation>
     </message>
     <message>
         <source>Save &amp;Page</source>
-        <translation>Seite s&amp;peichern</translation>
+        <translation>페이지 저장(&amp;P)</translation>
     </message>
     <message>
         <source>&amp;View Page Source</source>
-        <translation>Seiten&amp;quelltext anzeigen</translation>
+        <translation>페이지 원본 보기(&amp;V)</translation>
     </message>
     <message>
         <source>Are you sure you want to leave this page?</source>
-        <translation>Möchten Sie diese Seite wirklich verlassen?</translation>
+        <translation>이 페이지를 떠나시겠습니까?</translation>
     </message>
     <message>
         <source>Follow Link</source>
-        <translation>Link folgen</translation>
+        <translation>링크 따라가기</translation>
     </message>
     <message>
         <source>&amp;Back</source>
-        <translation>&amp;Zurück</translation>
+        <translation>뒤로(&amp;B)</translation>
     </message>
     <message>
         <source>&amp;Forward</source>
-        <translation>&amp;Vorwärts</translation>
+        <translation>앞으로(&amp;F)</translation>
     </message>
     <message>
         <source>&amp;Reload</source>
-        <translation>&amp;Neu laden</translation>
+        <translation>새로 고침(&amp;R)</translation>
     </message>
     <message>
         <source>Select folder to upload</source>
-        <translation>Verzeichnis zum Hochladen</translation>
+        <translation>업로드할 폴더 선택</translation>
     </message>
 </context>
 <context>
     <name>QtWebEngineCore</name>
     <message>
         <source>Javascript Alert - %1</source>
-        <translation>Javascript-Warnung - %1</translation>
+        <translation>자바스크립트 알림 - %1</translation>
     </message>
     <message>
         <source>Javascript Confirm - %1</source>
-        <translation>Javascript-Bestätigung - %1</translation>
+        <translation>자바스크립트 확인 - %1</translation>
     </message>
     <message>
         <source>Javascript Prompt - %1</source>
-        <translation>Javascript-Abfrage - %1</translation>
+        <translation>자바스크립트 질문 - %1</translation>
     </message>
     <message>
         <source>Are you sure you want to leave this page?</source>
-        <translation>Möchten Sie diese Seite wirklich verlassen?</translation>
+        <translation>이 페이지를 떠나시겠습니까?</translation>
     </message>
 </context>
 <context>
     <name>QtWebEnginePlugin</name>
     <message>
         <source>Cannot create a separate instance of WebEngineDownloadItem</source>
-        <translation>Es kann keine separate Instanz der Klasse WebEngineDownloadItem erstellt werden</translation>
+        <translation>WebEngineDownloadItem의 별도 인스턴스를 만들 수 없음</translation>
     </message>
     <message>
         <source>Cannot create a separate instance of WebEngineSettings</source>
-        <translation>Es kann keine separate Instanz der Klasse WebEngineSettings erstellt werden</translation>
+        <translation>WebEngineSettings의 별도 인스턴스를 만들 수 없음</translation>
     </message>
     <message>
         <source>Cannot create a separate instance of NavigationHistory</source>
-        <translation>Es kann keine separate Instanz der Klasse NavigationHistory erstellt werden</translation>
+        <translation>NavigationHistory의 별도 인스턴스를 만들 수 없음</translation>
     </message>
     <message>
         <source>Cannot create a separate instance of FullScreenRequest</source>
-        <translation>Es kann keine separate Instanz der Klasse FullScreenRequest erstellt werden</translation>
+        <translation>FullScreenRequest의 별도 인스턴스를 만들 수 없음</translation>
     </message>
     <message>
         <source>Cannot create separate instance of %1</source>
-        <translation>Es kann keine separate Instanz der Klasse %1 erstellt werden</translation>
+        <translation>%1의 별도 인스턴스를 만들 수 없음</translation>
     </message>
 </context>
 <context>
     <name>QtWebEngineTestSupportPlugin</name>
     <message>
         <source>Cannot create a separate instance of WebEngineErrorPage</source>
-        <translation>Es kann keine separate Instanz der Klasse WebEngineErrorPage erstellt werden</translation>
+        <translation>WebEngineErrorPage의 별도 인스턴스를 만들 수 없음</translation>
     </message>
 </context>
 <context>
     <name>UIDelegatesManager</name>
     <message>
         <source>Connect to proxy &quot;%1&quot; using:</source>
-        <translation>Verbinde zu Proxy &quot;%1&quot; unter Verwendung von:</translation>
+        <translation>다음을 사용하여 프록시 &quot;%1&quot;에 연결:</translation>
     </message>
     <message>
         <source>Enter username and password for &quot;%1&quot; at %2://%3</source>
-        <translation>Geben Sie Nutzername und Passwort für &quot;%1&quot; auf %2://%3 ein</translation>
+        <translation>%2://%3의 &quot;%1&quot; 사용자 이름과 암호 입력</translation>
     </message>
 </context>
 </TS>

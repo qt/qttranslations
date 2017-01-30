@@ -98,8 +98,7 @@
     <name>QHelpDBReader</name>
     <message>
         <source>Cannot open database &apos;%1&apos; &apos;%2&apos;: %3</source>
-        <extracomment>The placeholders are: %1 - The name of the database which cannot be opened %2 - The unique id for the connection %3 - The actual error string
-</extracomment>
+        <extracomment>The placeholders are: %1 - The name of the database which cannot be opened %2 - The unique id for the connection %3 - The actual error string</extracomment>
         <translation>데이터베이스 &apos;%1&apos; &apos;%2&apos;을(를) 열 수 없음: %3</translation>
     </message>
 </context>

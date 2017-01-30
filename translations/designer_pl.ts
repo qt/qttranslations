@@ -156,7 +156,7 @@
     </message>
     <message>
         <source>Remove Fonts</source>
-        <translation>Unuń czcionki</translation>
+        <translation>Usuń czcionki</translation>
     </message>
     <message>
         <source>Would you like to remove all fonts?</source>
@@ -178,7 +178,7 @@
     <name>AssistantClient</name>
     <message>
         <source>Unable to send request: Assistant is not responding.</source>
-        <translation>Nie można wysłac komendy. Asystent nie odpowiada.</translation>
+        <translation>Nie można wysłać komendy. Asystent nie odpowiada.</translation>
     </message>
     <message>
         <source>The binary &apos;%1&apos; does not exist.</source>
@@ -533,8 +533,8 @@
         <source>Changed &apos;%1&apos; of %n objects</source>
         <translation>
             <numerusform>Zmieniono &apos;%1&apos; w %n obiekcie</numerusform>
-            <numerusform>Zmieniono &apos;%1&apos; w %n obiekach</numerusform>
-            <numerusform>Zmieniono &apos;%1&apos; w %n obiekach</numerusform>
+            <numerusform>Zmieniono &apos;%1&apos; w %n obiektach</numerusform>
+            <numerusform>Zmieniono &apos;%1&apos; w %n obiektach</numerusform>
         </translation>
     </message>
     <message>
@@ -545,8 +545,8 @@
         <source>Reset &apos;%1&apos; of %n objects</source>
         <translation>
             <numerusform>Przywrócono domyślną wartość &apos;%1&apos; w &apos;%n&apos; obiekcie</numerusform>
-            <numerusform>Przywrócono domyślne wartości &apos;%1&apos; w &apos;%n&apos; obiekach</numerusform>
-            <numerusform>Przywrócono domyślne wartości &apos;%1&apos; w &apos;%n&apos; obiekach</numerusform>
+            <numerusform>Przywrócono domyślne wartości &apos;%1&apos; w &apos;%n&apos; obiektach</numerusform>
+            <numerusform>Przywrócono domyślne wartości &apos;%1&apos; w &apos;%n&apos; obiektach</numerusform>
         </translation>
     </message>
     <message>
@@ -821,7 +821,7 @@
     <message>
         <source>Invalid stretch value for &apos;%1&apos;: &apos;%2&apos;</source>
         <extracomment>Parsing layout stretch values</extracomment>
-        <translation>Niepoprawna wartość rozciągniecia dla &apos;%1&apos;: &apos;%2&apos;</translation>
+        <translation>Niepoprawna wartość rozciągnięcia dla &apos;%1&apos;: &apos;%2&apos;</translation>
     </message>
     <message>
         <source>Invalid minimum size for &apos;%1&apos;: &apos;%2&apos;</source>
@@ -853,6 +853,22 @@
         <source>Default Grid</source>
         <translation>Domyślna siatka</translation>
     </message>
+    <message>
+        <source>Object Naming Convention</source>
+        <translation>Konwencja nazywania obiektów</translation>
+    </message>
+    <message>
+        <source>Naming convention used for generating action object names from their text</source>
+        <translation>Konwencja używana do generowania nazw akcji na podstawie ich teksu</translation>
+    </message>
+    <message>
+        <source>Camel Case</source>
+        <translation>CamelCase</translation>
+    </message>
+    <message>
+        <source>Underscore</source>
+        <translation>Znaki podkreślenia</translation>
+    </message>
 </context>
 <context>
     <name>FormLayoutRowDialog</name>
@@ -862,7 +878,7 @@
     </message>
     <message>
         <source>&amp;Label text:</source>
-        <translation>Text &amp;etykiety:</translation>
+        <translation>Tekst &amp;etykiety:</translation>
     </message>
     <message>
         <source>Field &amp;type:</source>
@@ -950,8 +966,80 @@
 <context>
     <name>IconSelector</name>
     <message>
+        <source>The pixmap file &apos;%1&apos; cannot be read.</source>
+        <translation>Nie można odczytać pliku z pixmapą %1.</translation>
+    </message>
+    <message>
+        <source>The file &apos;%1&apos; does not appear to be a valid pixmap file: %2</source>
+        <translation>Plik &apos;%1&apos; nie jest poprawnym plikiem z pixmapą: %2</translation>
+    </message>
+    <message>
+        <source>The file &apos;%1&apos; could not be read: %2</source>
+        <translation>Nie można odczytać pliku &quot;%1&quot;, %2</translation>
+    </message>
+    <message>
         <source>All Pixmaps (</source>
         <translation>Wszystkie pixmapy (</translation>
+    </message>
+    <message>
+        <source>Choose a Pixmap</source>
+        <translation>Wybierz pixmapę</translation>
+    </message>
+    <message>
+        <source>Pixmap Read Error</source>
+        <translation>Błąd odczytu pixmapy</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+    <message>
+        <source>Normal Off</source>
+        <translation>Normalny wyciśnięty</translation>
+    </message>
+    <message>
+        <source>Normal On</source>
+        <translation>Normalny wciśnięty</translation>
+    </message>
+    <message>
+        <source>Disabled Off</source>
+        <translation>Wyłączony wyciśnięty</translation>
+    </message>
+    <message>
+        <source>Disabled On</source>
+        <translation>Wyłączony wciśnięty</translation>
+    </message>
+    <message>
+        <source>Active Off</source>
+        <translation>Aktywny wyciśnięty</translation>
+    </message>
+    <message>
+        <source>Active On</source>
+        <translation>Aktywny wciśnięty</translation>
+    </message>
+    <message>
+        <source>Selected Off</source>
+        <translation>Zaznaczony wyciśnięty</translation>
+    </message>
+    <message>
+        <source>Selected On</source>
+        <translation>Zaznaczony wciśnięty</translation>
+    </message>
+    <message>
+        <source>Choose Resource...</source>
+        <translation>Wybierz zasób...</translation>
+    </message>
+    <message>
+        <source>Choose File...</source>
+        <translation>Wybierz plik...</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Przywróć</translation>
+    </message>
+    <message>
+        <source>Reset All</source>
+        <translation>Przywróć wszystkie</translation>
     </message>
 </context>
 <context>
@@ -3154,8 +3242,12 @@ Czy chcesz nadpisać szablon?</translation>
 <context>
     <name>WidgetDataBase</name>
     <message>
+        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
+        <translation>Znaleziono wtyczkę widżetu, którego nazwa klasy (%1) odpowiada istniejącej już klasie.</translation>
+    </message>
+    <message>
         <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
-        <translation>Plik zawiera własny widżet &apos;%1&apos; którego klasa bazowa (%2) różni się od bieżącego elementu w bazie danych z widżetami (%3). Baza danych z widżetami została niezmieniona.</translation>
+        <translation>Plik zawiera własny widżet &apos;%1&apos; którego klasa bazowa (%2) różni się od bieżącego elementu w bazie danych z widżetami (%3). Baza danych z widżetami pozostała niezmieniona.</translation>
     </message>
 </context>
 <context>
@@ -4008,7 +4100,7 @@ Czy chcesz nadpisać szablon?</translation>
     </message>
     <message>
         <source>Preview current form</source>
-        <translation>Podgląd bierzącego formularza</translation>
+        <translation>Podgląd bieżącego formularza</translation>
     </message>
     <message>
         <source>Form &amp;Settings...</source>
@@ -4105,81 +4197,6 @@ Czy chcesz nadpisać szablon?</translation>
     </message>
 </context>
 <context>
-    <name>qdesigner_internal::IconSelector</name>
-    <message>
-        <source>The pixmap file &apos;%1&apos; cannot be read.</source>
-        <translation>Nie można odczytać pliku z pixmapą %1.</translation>
-    </message>
-    <message>
-        <source>The file &apos;%1&apos; does not appear to be a valid pixmap file: %2</source>
-        <translation>Plik &apos;%1&apos; nie wygląda na poprawny plik z pixmapą: %2</translation>
-    </message>
-    <message>
-        <source>The file &apos;%1&apos; could not be read: %2</source>
-        <translation>Nie można odczytać pliku &quot;%1&quot;, %2</translation>
-    </message>
-    <message>
-        <source>Pixmap Read Error</source>
-        <translation>Błąd przy odczycie pixmapy</translation>
-    </message>
-    <message>
-        <source>...</source>
-        <translation>...</translation>
-    </message>
-    <message>
-        <source>Normal Off</source>
-        <translation>Normalny wyciśnięty</translation>
-    </message>
-    <message>
-        <source>Normal On</source>
-        <translation>Normalny wciśnięty</translation>
-    </message>
-    <message>
-        <source>Disabled Off</source>
-        <translation>Wyłączony wyciśnięty</translation>
-    </message>
-    <message>
-        <source>Disabled On</source>
-        <translation>Wyłączony wciśnięty</translation>
-    </message>
-    <message>
-        <source>Active Off</source>
-        <translation>Aktywny wyciśnięty</translation>
-    </message>
-    <message>
-        <source>Active On</source>
-        <translation>Aktywny wciśnięty</translation>
-    </message>
-    <message>
-        <source>Selected Off</source>
-        <translation>Zaznaczony wyciśnięty</translation>
-    </message>
-    <message>
-        <source>Selected On</source>
-        <translation>Zaznaczony wciśnięty</translation>
-    </message>
-    <message>
-        <source>Choose Resource...</source>
-        <translation>Wybierz zasób...</translation>
-    </message>
-    <message>
-        <source>Choose File...</source>
-        <translation>Wybierz plik...</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>Przywróć</translation>
-    </message>
-    <message>
-        <source>Reset All</source>
-        <translation>Przywróć wszystkie</translation>
-    </message>
-    <message>
-        <source>Choose a Pixmap</source>
-        <translation>Wybierz pixmapę</translation>
-    </message>
-</context>
-<context>
     <name>qdesigner_internal::IconThemeDialog</name>
     <message>
         <source>Set Icon From Theme</source>
@@ -4194,11 +4211,11 @@ Czy chcesz nadpisać szablon?</translation>
     <name>qdesigner_internal::ItemListEditor</name>
     <message>
         <source>Properties &amp;&lt;&lt;</source>
-        <translation>Własciwości &amp;&lt;&lt;</translation>
+        <translation>Właściwości &amp;&lt;&lt;</translation>
     </message>
     <message>
         <source>Properties &amp;&gt;&gt;</source>
-        <translation>Własciwości &amp;&gt;&gt;</translation>
+        <translation>Właściwości &amp;&gt;&gt;</translation>
     </message>
     <message>
         <source>Items List</source>
@@ -4705,7 +4722,7 @@ Wybierz inną nazwę.</translation>
     </message>
     <message>
         <source>%1 - Duplicate Skin</source>
-        <translation>%1 - zduplikowana skórka (skin)</translation>
+        <translation>%1 - powielona skórka (skin)</translation>
     </message>
     <message>
         <source>The skin &apos;%1&apos; already exists.</source>
@@ -5121,7 +5138,7 @@ Klasa: %2</translation>
     </message>
     <message>
         <source>A widget element could not be found.</source>
-        <translation>Nie można odnależć elementu &lt;widget&gt;.</translation>
+        <translation>Nie można odnaleźć elementu &lt;widget&gt;.</translation>
     </message>
 </context>
 <context>
@@ -5285,7 +5302,7 @@ Klasa: %2</translation>
     </message>
     <message>
         <source>%1 - Duplicate Signature</source>
-        <translation>%1 - zduplikowany zapis</translation>
+        <translation>%1 - powielony zapis</translation>
     </message>
     <message>
         <source>Signals/Slots of %1</source>
@@ -5416,11 +5433,11 @@ Klasa: %2</translation>
     </message>
     <message>
         <source>Properties &amp;&lt;&lt;</source>
-        <translation>Własciwości &amp;&lt;&lt;</translation>
+        <translation>Właściwości &amp;&lt;&lt;</translation>
     </message>
     <message>
         <source>Properties &amp;&gt;&gt;</source>
-        <translation>Własciwości &amp;&gt;&gt;</translation>
+        <translation>Właściwości &amp;&gt;&gt;</translation>
     </message>
     <message>
         <source>Table Items</source>
@@ -5538,7 +5555,7 @@ Klasa: %2</translation>
     </message>
     <message>
         <source>Per column properties</source>
-        <translation>Właściowści dla kolumny</translation>
+        <translation>Właściwości dla kolumny</translation>
     </message>
     <message>
         <source>Common properties</source>
@@ -5554,11 +5571,11 @@ Klasa: %2</translation>
     </message>
     <message>
         <source>Properties &amp;&lt;&lt;</source>
-        <translation>Własciwości &amp;&lt;&lt;</translation>
+        <translation>Właściwości &amp;&lt;&lt;</translation>
     </message>
     <message>
         <source>Properties &amp;&gt;&gt;</source>
-        <translation>Własciwości &amp;&gt;&gt;</translation>
+        <translation>Właściwości &amp;&gt;&gt;</translation>
     </message>
     <message>
         <source>New &amp;Subitem</source>
@@ -5621,7 +5638,7 @@ Klasa: %2</translation>
     <name>qdesigner_internal::TreeWidgetTaskMenu</name>
     <message>
         <source>Edit Items...</source>
-        <translation>Modyfikujj elementy...</translation>
+        <translation>Modyfikuj elementy...</translation>
     </message>
 </context>
 <context>
@@ -5668,13 +5685,6 @@ Klasa: %2</translation>
     <message>
         <source>Edit name</source>
         <translation>Modyfikuj nazwę</translation>
-    </message>
-</context>
-<context>
-    <name>qdesigner_internal::WidgetDataBase</name>
-    <message>
-        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
-        <translation>Została znaleziona wtyczka widżetu, w której nazwa klasy (%1) odpowiada istniejącej już klasie.</translation>
     </message>
 </context>
 <context>

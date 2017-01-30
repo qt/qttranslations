@@ -196,7 +196,7 @@ Powód:
     </message>
     <message>
         <source>Export...</source>
-        <translation>Exportuj...</translation>
+        <translation>Eksportuj...</translation>
     </message>
     <message>
         <source>Open File</source>
@@ -328,7 +328,7 @@ Powód:
         <translation>Sposób użycia: assistant [opcje]
 
 -collectionFile plik       Używa podanego pliku kolekcji
-                           zamiast domyślego.
+                           zamiast domyślnego.
 -showUrl url               Pokazuje dokument z
                            url.
 -enableRemoteControl       Umożliwia zdalną kontrolę
@@ -950,6 +950,10 @@ Powód:
     <message>
         <source>Show tabs for each individual page</source>
         <translation>Pokazuj karty dla każdej otwartej strony</translation>
+    </message>
+    <message>
+        <source>&lt;Filter&gt;</source>
+        <translation>&lt;Filtr&gt;</translation>
     </message>
 </context>
 <context>

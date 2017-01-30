@@ -421,37 +421,37 @@ Naciśnij ESC aby anulować</translation>
     <name>QCupsJobWidget</name>
     <message>
         <source>Job</source>
-        <translation type="unfinished"></translation>
+        <translation>Zadanie</translation>
     </message>
     <message>
         <source>Job Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrola zadania</translation>
     </message>
     <message>
         <source>Scheduled printing:</source>
-        <translation type="unfinished"></translation>
+        <translation>Planowany wydruk:</translation>
     </message>
     <message>
         <source>Billing information:</source>
-        <translation type="unfinished"></translation>
+        <translation>Informacje billingowe:</translation>
     </message>
     <message>
         <source>Job priority:</source>
-        <translation type="unfinished"></translation>
+        <translation>Priorytet zadania:</translation>
     </message>
     <message>
         <source>Banner Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Strony oddzielające</translation>
     </message>
     <message>
         <source>End:</source>
         <comment>Banner page at end</comment>
-        <translation>Koniec:</translation>
+        <translation>Końcowa:</translation>
     </message>
     <message>
         <source>Start:</source>
         <comment>Banner page at start</comment>
-        <translation>Początek:</translation>
+        <translation>Początkowa:</translation>
     </message>
     <message>
         <source>Print Immediately</source>
@@ -483,42 +483,42 @@ Naciśnij ESC aby anulować</translation>
     </message>
     <message>
         <source>Specific Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Konkretny czas</translation>
     </message>
     <message>
         <source>None</source>
         <comment>CUPS Banner page</comment>
-        <translation type="unfinished">Brak</translation>
+        <translation>Brak</translation>
     </message>
     <message>
         <source>Standard</source>
         <comment>CUPS Banner page</comment>
-        <translation type="unfinished"></translation>
+        <translation>Standardowe</translation>
     </message>
     <message>
         <source>Unclassified</source>
         <comment>CUPS Banner page</comment>
-        <translation type="unfinished"></translation>
+        <translation>Jawne</translation>
     </message>
     <message>
         <source>Confidential</source>
         <comment>CUPS Banner page</comment>
-        <translation type="unfinished"></translation>
+        <translation>Poufne</translation>
     </message>
     <message>
         <source>Classified</source>
         <comment>CUPS Banner page</comment>
-        <translation type="unfinished"></translation>
+        <translation>Niejawne</translation>
     </message>
     <message>
         <source>Secret</source>
         <comment>CUPS Banner page</comment>
-        <translation type="unfinished"></translation>
+        <translation>Tajne</translation>
     </message>
     <message>
         <source>Top Secret</source>
         <comment>CUPS Banner page</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ściśle tajne</translation>
     </message>
 </context>
 <context>
@@ -578,19 +578,19 @@ Naciśnij ESC aby anulować</translation>
     <name>QDateTimeParser</name>
     <message>
         <source>AM</source>
-        <translation type="unfinished">AM</translation>
+        <translation>AM</translation>
     </message>
     <message>
         <source>am</source>
-        <translation type="unfinished">am</translation>
+        <translation>am</translation>
     </message>
     <message>
         <source>PM</source>
-        <translation type="unfinished">PM</translation>
+        <translation>PM</translation>
     </message>
     <message>
         <source>pm</source>
-        <translation type="unfinished">pm</translation>
+        <translation>pm</translation>
     </message>
 </context>
 <context>
@@ -655,11 +655,7 @@ Naciśnij ESC aby anulować</translation>
     </message>
     <message>
         <source>Resolver initialization failed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>IPv6 addresses for nameservers is currently not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd inicjalizacji resolvera</translation>
     </message>
     <message>
         <source>Server could not process query</source>
@@ -732,6 +728,14 @@ Naciśnij ESC aby anulować</translation>
     <message>
         <source>Invalid hostname</source>
         <translation>Niepoprawna nazwa hosta</translation>
+    </message>
+    <message>
+        <source>Host %1 could not be found.</source>
+        <translation>Host %1 nie znaleziony.</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>Nieznany błąd</translation>
     </message>
 </context>
 <context>
@@ -1528,10 +1532,6 @@ Czy na pewno chcesz go usunąć?</translation>
         <source>Unknown error (%1)</source>
         <translation>Nieznany błąd (%1)</translation>
     </message>
-    <message>
-        <source>Host %1 could not be found.</source>
-        <translation>Host %1 nie znaleziony</translation>
-    </message>
 </context>
 <context>
     <name>QHttp</name>
@@ -1793,7 +1793,7 @@ Czy na pewno chcesz go usunąć?</translation>
     </message>
     <message>
         <source>missing name separator</source>
-        <translation type="unfinished"></translation>
+        <translation>brak separatora nazwy</translation>
     </message>
     <message>
         <source>unterminated array</source>
@@ -1801,7 +1801,7 @@ Czy na pewno chcesz go usunąć?</translation>
     </message>
     <message>
         <source>missing value separator</source>
-        <translation type="unfinished"></translation>
+        <translation>brak separatora wartości</translation>
     </message>
     <message>
         <source>illegal value</source>
@@ -1871,8 +1871,8 @@ Czy na pewno chcesz go usunąć?</translation>
         <translation>&quot;%1&quot; jest niepoprawnym obiektem ELF (%2)</translation>
     </message>
     <message>
-        <source>Plugin verification data mismatch in &apos;%1&apos;</source>
-        <translation>Niezgodność podczas weryfikacji danych we wtyczce &quot;%1&quot;</translation>
+        <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
+        <translation>Niezgodność weryfikacji metadanych we wtyczce &quot;%1&quot;</translation>
     </message>
     <message>
         <source>The shared library was not found.</source>
@@ -1924,7 +1924,7 @@ Czy na pewno chcesz go usunąć?</translation>
     </message>
     <message>
         <source>invalid magic %1</source>
-        <translation type="unfinished"></translation>
+        <translation>niepoprawna liczba magiczna %1</translation>
     </message>
     <message>
         <source>wrong architecture</source>
@@ -2215,20 +2215,12 @@ Czy na pewno chcesz go usunąć?</translation>
         <translation>Ukryj szczegóły...</translation>
     </message>
     <message>
-        <source>OK</source>
-        <translation>OK</translation>
-    </message>
-    <message>
-        <source>Help</source>
-        <translation>Pomoc</translation>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
         <translation>&lt;h3&gt;Informacje o Qt&lt;/h3&gt;&lt;p&gt; Ten program używa Qt w wersji %1.&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3 or GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>About Qt</source>
@@ -2331,7 +2323,7 @@ Czy na pewno chcesz go usunąć?</translation>
     </message>
     <message>
         <source>Operation on non-socket</source>
-        <translation type="unfinished">Nieprawidłowa operacja na gnieździe</translation>
+        <translation>Operacja na nieistniejącym gnieździe</translation>
     </message>
     <message>
         <source>The proxy type is invalid for this operation</source>
@@ -2340,6 +2332,14 @@ Czy na pewno chcesz go usunąć?</translation>
     <message>
         <source>Temporary error</source>
         <translation>Chwilowy błąd</translation>
+    </message>
+    <message>
+        <source>Network dropped connection on reset</source>
+        <translation>Utrata połączenia z siecią po resecie</translation>
+    </message>
+    <message>
+        <source>Connection reset by peer</source>
+        <translation>Połączenie zresetowane przez drugą stronę</translation>
     </message>
     <message>
         <source>Unknown error</source>
@@ -2436,7 +2436,7 @@ Czy na pewno chcesz go usunąć?</translation>
     </message>
     <message>
         <source>Background request not allowed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Żądanie w tle nie jest dozwolone.</translation>
     </message>
     <message>
         <source>Network session error.</source>
@@ -2444,7 +2444,7 @@ Czy na pewno chcesz go usunąć?</translation>
     </message>
     <message>
         <source>backend start error.</source>
-        <translation type="unfinished"></translation>
+        <translation>Błąd uruchomienia back-endu.</translation>
     </message>
     <message>
         <source>Temporary network failure.</source>
@@ -3756,10 +3756,6 @@ Wyłącz jedną z tych opcji.</translation>
         <translation>Błąd zapisywania do procesu</translation>
     </message>
     <message>
-        <source>Process failed to start (spawned process exited with code 127)</source>
-        <translation>Proces nie został uruchomiony (zakończony kodem 127)</translation>
-    </message>
-    <message>
         <source>No program defined</source>
         <translation>Nie zdefiniowano programu</translation>
     </message>
@@ -3785,20 +3781,6 @@ Wyłącz jedną z tych opcji.</translation>
     <message>
         <source>Cancel</source>
         <translation>Anuluj</translation>
-    </message>
-</context>
-<context>
-    <name>QQnxFileDialogHelper</name>
-    <message>
-        <source>All files (*.*)</source>
-        <translation>Wszystkie pliki (*.*)</translation>
-    </message>
-</context>
-<context>
-    <name>QQnxFilePicker</name>
-    <message>
-        <source>Pick a file</source>
-        <translation>Wybierz plik</translation>
     </message>
 </context>
 <context>
@@ -3976,11 +3958,11 @@ Wyłącz jedną z tych opcji.</translation>
     </message>
     <message>
         <source>this version of PCRE is not compiled with PCRE_UTF8 support</source>
-        <translation type="unfinished"></translation>
+        <translation>ta wersja PCRE nie jest skompilowana z obsługą PCRE_UTF8</translation>
     </message>
     <message>
         <source>character value in \x{...} sequence is too large</source>
-        <translation type="unfinished"></translation>
+        <translation>wartość znakowa w sekwencji \x{...} za duża</translation>
     </message>
     <message>
         <source>invalid condition (?(0)</source>
@@ -4028,7 +4010,7 @@ Wyłącz jedną z tych opcji.</translation>
     </message>
     <message>
         <source>malformed \P or \p sequence</source>
-        <translation>niepoprawnie sformatowana sekwecja \P lub \p</translation>
+        <translation>niepoprawnie sformatowana sekwencja \P lub \p</translation>
     </message>
     <message>
         <source>unknown property name after \P or \p</source>
@@ -4108,7 +4090,7 @@ Wyłącz jedną z tych opcji.</translation>
     </message>
     <message>
         <source>this version of PCRE is not compiled with PCRE_UCP support</source>
-        <translation type="unfinished"></translation>
+        <translation>ta wersja PCRE nie jest skompilowana z obsługą PCRE_UCP</translation>
     </message>
     <message>
         <source>\c must be followed by an ASCII character</source>
@@ -4339,6 +4321,13 @@ Wyłącz jedną z tych opcji.</translation>
     <message>
         <source>Scroll down</source>
         <translation>Przewiń w dół</translation>
+    </message>
+</context>
+<context>
+    <name>QSctpSocket</name>
+    <message>
+        <source>The remote host closed the connection</source>
+        <translation>Zdalny host zamknął połączenie</translation>
     </message>
 </context>
 <context>
@@ -5047,7 +5036,7 @@ Wyłącz jedną z tych opcji.</translation>
     </message>
     <message>
         <source>Power Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyłącz zasilanie</translation>
     </message>
     <message>
         <source>Suspend</source>
@@ -5533,7 +5522,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>filler</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>wypełniacz</translation>
     </message>
     <message>
         <source>popup menu</source>
@@ -5663,7 +5652,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>property page</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>strona z właściwościami</translation>
     </message>
     <message>
         <source>indicator</source>
@@ -5673,7 +5662,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>graphic</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>grafika</translation>
     </message>
     <message>
         <source>label</source>
@@ -5713,7 +5702,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>dial</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>pokrętło</translation>
     </message>
     <message>
         <source>hotkey field</source>
@@ -5733,7 +5722,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>canvas</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>płótno</translation>
     </message>
     <message>
         <source>animation</source>
@@ -5808,7 +5797,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>footer</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>stopka</translation>
     </message>
     <message>
         <source>form</source>
@@ -5818,7 +5807,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>heading</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>nagłówek</translation>
     </message>
     <message>
         <source>note</source>
@@ -5834,6 +5823,21 @@ Role of an accessible object</extracomment>
         <source>unknown</source>
         <extracomment>Role of an accessible object</extracomment>
         <translation>nieznany</translation>
+    </message>
+</context>
+<context>
+    <name>QSslDiffieHellmanParameter</name>
+    <message>
+        <source>No error</source>
+        <translation>Brak błędu</translation>
+    </message>
+    <message>
+        <source>Invalid input data</source>
+        <translation>Niepoprawne dane wejściowe</translation>
+    </message>
+    <message>
+        <source>The given Diffie-Hellman parameters are deemed unsafe</source>
+        <translation>Podane parametry protokołu Diffiego-Hellmana uznano jako niepewne</translation>
     </message>
 </context>
 <context>
@@ -5869,6 +5873,10 @@ Role of an accessible object</extracomment>
     <message>
         <source>Private key does not certify public key, %1</source>
         <translation>Prywatny klucz nie uwiarygodnia publicznego, %1</translation>
+    </message>
+    <message>
+        <source>Diffie-Hellman parameters are not valid</source>
+        <translation>Niepoprawne parametry protokołu Diffiego-Hellmana</translation>
     </message>
     <message>
         <source>OpenSSL version too old, need at least v1.0.2</source>
@@ -5956,7 +5964,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>The peer did not present any certificate</source>
-        <translation>Element równorzędny nie przedstawił żadnego certyfikatu</translation>
+        <translation>Druga strona nie przedstawiła żadnego certyfikatu</translation>
     </message>
     <message>
         <source>The host name did not match any of the valid hosts for this certificate</source>
@@ -5964,7 +5972,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>The peer certificate is blacklisted</source>
-        <translation>Element równorzędny widnieje na czarnej liście</translation>
+        <translation>Druga strona widnieje na czarnej liście</translation>
     </message>
     <message>
         <source>Unknown error</source>
@@ -6193,6 +6201,17 @@ Role of an accessible object</extracomment>
     </message>
 </context>
 <context>
+    <name>QUdpSocket</name>
+    <message>
+        <source>Unable to send a datagram</source>
+        <translation>Nie można wysłać datagramu</translation>
+    </message>
+    <message>
+        <source>No datagram available for reading</source>
+        <translation>Brak datagramów dostępnych do odczytu</translation>
+    </message>
+</context>
+<context>
     <name>QUndoGroup</name>
     <message>
         <source>Undo %1</source>
@@ -6359,11 +6378,13 @@ Role of an accessible object</extracomment>
         <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
 
 The minimum Direct2D version required is %1.%2.%3.%4. The Direct2D version on this system is %5.%6.%7.%8.</source>
-        <translation type="unfinished"></translation>
+        <translation>Qt nie może załadować wtyczki platformy direct2d ponieważ wersja Direct2D zainstalowana na tym systemie jest zbyt stara. Minimalne wymagania systemowe dla tej wtyczki to Windows 7 SP1 z uaktualnieniami platformy.
+
+Minimalną wymaganą wersją Direct2D jest %1.%2.%3.%4. Zainstalowaną wersją na tym systemie jest %5.%6.%7.%8.</translation>
     </message>
     <message>
         <source>Cannot load direct2d platform plugin</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można załadować wtyczki platformy direct2d</translation>
     </message>
 </context>
 <context>
