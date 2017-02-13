@@ -70,12 +70,12 @@
         <translation>Kan ikke registrere filteret %1.</translation>
     </message>
     <message>
-        <source>Insert indices...</source>
-        <translation>Indsæt indekser...</translation>
+        <source>Cannot open documentation file %1.</source>
+        <translation>Kan ikke åbne dokumentationsfilen %1.</translation>
     </message>
     <message>
-        <source>Insert contents...</source>
-        <translation>Indsæt indhold...</translation>
+        <source>Invalid documentation file &apos;%1&apos;.</source>
+        <translation>Ugyldig dokumentationsfil &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>The namespace %1 was not registered.</source>

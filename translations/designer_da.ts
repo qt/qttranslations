@@ -849,6 +849,22 @@
         <source>Default Grid</source>
         <translation>Standardgitter</translation>
     </message>
+    <message>
+        <source>Object Naming Convention</source>
+        <translation>Objekt-navngivningskonvention</translation>
+    </message>
+    <message>
+        <source>Naming convention used for generating action object names from their text</source>
+        <translation>Navngivningskonvention brugt til at generere handlingsobjektnavne fra deres tekst</translation>
+    </message>
+    <message>
+        <source>Camel Case</source>
+        <translation>Camel Case</translation>
+    </message>
+    <message>
+        <source>Underscore</source>
+        <translation>Understregning</translation>
+    </message>
 </context>
 <context>
     <name>FormLayoutRowDialog</name>

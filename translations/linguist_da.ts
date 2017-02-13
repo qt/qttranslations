@@ -155,6 +155,33 @@ Formoder en enkelt universel form.</translation>
     </message>
 </context>
 <context>
+    <name>FMT</name>
+    <message>
+        <source>GNU Gettext localization files</source>
+        <translation>GNU Gettext-lokaliseringsfiler</translation>
+    </message>
+    <message>
+        <source>GNU Gettext localization template files</source>
+        <translation>GNU Gettext-lokaliseringsskabelonsfiler</translation>
+    </message>
+    <message>
+        <source>Compiled Qt translations</source>
+        <translation>Kompileret Qt-oversættelser</translation>
+    </message>
+    <message>
+        <source>Qt Linguist &apos;Phrase Book&apos;</source>
+        <translation>Qt Linguist-&apos;frasebog&apos;</translation>
+    </message>
+    <message>
+        <source>Qt translation sources</source>
+        <translation>Qt-oversættelseskilder</translation>
+    </message>
+    <message>
+        <source>XLIFF localization files</source>
+        <translation>XLIFF-lokaliseringsfiler</translation>
+    </message>
+</context>
+<context>
     <name>FindDialog</name>
     <message>
         <source>Find</source>
@@ -297,33 +324,6 @@ Formoder en enkelt universel form.</translation>
             <numerusform>    Ignorerede %n uoversat kildetekst</numerusform>
             <numerusform>    Ignorerede %n uoversatte kildetekster</numerusform>
         </translation>
-    </message>
-</context>
-<context>
-    <name>Linguist</name>
-    <message>
-        <source>GNU Gettext localization files</source>
-        <translation>GNU Gettext-lokaliseringsfiler</translation>
-    </message>
-    <message>
-        <source>GNU Gettext localization template files</source>
-        <translation>GNU Gettext-lokaliseringsskabelonsfiler</translation>
-    </message>
-    <message>
-        <source>Compiled Qt translations</source>
-        <translation>Kompileret Qt-oversættelser</translation>
-    </message>
-    <message>
-        <source>Qt Linguist &apos;Phrase Book&apos;</source>
-        <translation>Qt Linguist-&apos;frasebog&apos;</translation>
-    </message>
-    <message>
-        <source>Qt translation sources</source>
-        <translation>Qt-oversættelseskilder</translation>
-    </message>
-    <message>
-        <source>XLIFF localization files</source>
-        <translation>XLIFF-lokaliseringsfiler</translation>
     </message>
 </context>
 <context>
