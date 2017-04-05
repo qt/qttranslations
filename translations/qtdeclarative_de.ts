@@ -411,6 +411,10 @@
         <translation>SQL: Es kann keine Datenbank erstellt werden, offline storage ist deaktiviert.</translation>
     </message>
     <message>
+        <source>LocalStorage: can&apos;t create path %1</source>
+        <translation>LocalStorage: Der Pfad %1 kann nicht angelegt werden</translation>
+    </message>
+    <message>
         <source>SQL: database version mismatch</source>
         <translation>SQL: Die Version der Datenbank entspricht nicht der erwarteten Version</translation>
     </message>
@@ -515,10 +519,6 @@
     <message>
         <source>Module namespace &apos;%1&apos; does not match import URI &apos;%2&apos;</source>
         <translation>Der Modul-Namensraum &apos;%1&apos; entspricht nicht dem Import-URI &apos;%2&apos;</translation>
-    </message>
-    <message>
-        <source>library loading is disabled</source>
-        <translation>das Laden von Bibliotheken ist deaktiviert</translation>
     </message>
     <message>
         <source>Namespace &apos;%1&apos; has already been used for type registration</source>
@@ -1079,6 +1079,10 @@
         <translation>qmldir definiert den Typ als Singleton, aber der Typ %1 enthält kein pragma Singleton.</translation>
     </message>
     <message>
+        <source>No such file or directory</source>
+        <translation>Die Datei oder das Verzeichnis konnte nicht gefunden werden</translation>
+    </message>
+    <message>
         <source>module &quot;%1&quot; is not installed</source>
         <translation>Modul &quot;%1&quot; ist nicht installiert</translation>
     </message>
@@ -1419,6 +1423,13 @@
     <message>
         <source>Could not load cursor delegate</source>
         <translation>Cursor-Delegate konnte nicht geladen werden</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickTouchPoint</name>
+    <message>
+        <source>PointingDeviceUniqueId is only available via read-only properties</source>
+        <translation>PointingDeviceUniqueId ist nur über schreibgeschützte Eigenschaften verfügbar</translation>
     </message>
 </context>
 <context>

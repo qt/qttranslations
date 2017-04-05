@@ -36,6 +36,10 @@ Bitte besuchen Sie https://developers.arcgis.com/authentication/accessing-arcgis
         <translation>Es ist kein Routen-Manager gesetzt, kann keine Navigation durchführen.</translation>
     </message>
     <message>
+        <source>Cannot route, valid query not set.</source>
+        <translation>Es ist keine gültige Abfrage gesetzt, kann keine Navigation durchführen.</translation>
+    </message>
+    <message>
         <source>Not enough waypoints for routing.</source>
         <translation>Es sind nicht ausreichend Wegpunkte für die Navigation vorhanden.</translation>
     </message>
@@ -60,38 +64,99 @@ Bitte besuchen Sie https://developers.arcgis.com/authentication/accessing-arcgis
     </message>
 </context>
 <context>
-    <name>QGeoRouteReplyOsm</name>
+    <name>QGeoMapMapboxGL</name>
+    <message>
+        <source>Development access token, do not use in production!</source>
+        <translation>Dieses Access-Token ist nur zur Entwicklung vorgesehen; es darf nicht in der Produktion verwendet werden!</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoMappingManagerEngineItemsOverlay</name>
+    <message>
+        <source>Empty Map</source>
+        <translation>Leere Karte</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoMappingManagerEngineMapboxGL</name>
+    <message>
+        <source>Streets</source>
+        <translation>Straßen</translation>
+    </message>
+    <message>
+        <source>Basic</source>
+        <translation>Einfach</translation>
+    </message>
+    <message>
+        <source>Bright</source>
+        <translation>Hell</translation>
+    </message>
+    <message>
+        <source>Outdoors</source>
+        <translation>Outdoor-Karte</translation>
+    </message>
+    <message>
+        <source>Satellite</source>
+        <translation>Satellitenansicht</translation>
+    </message>
+    <message>
+        <source>Satellite Streets</source>
+        <translation>Straßenkarte in Satellitenansicht</translation>
+    </message>
+    <message>
+        <source>Light</source>
+        <translation>Hell</translation>
+    </message>
+    <message>
+        <source>Dark</source>
+        <translation>Dunkel</translation>
+    </message>
+    <message>
+        <source>Streets Traffic Day</source>
+        <translation>Verkehrskarte Tag</translation>
+    </message>
+    <message>
+        <source>Streets Traffic Night</source>
+        <translation>Verkehrskarte Nacht</translation>
+    </message>
+    <message>
+        <source>User provided style</source>
+        <translation>Benutzerdefinierter Stil</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoRouteParserOsrmV4</name>
     <message>
         <source>Go straight.</source>
         <translation>Geradeaus folgen.</translation>
     </message>
     <message>
         <source>Go straight onto %1.</source>
-        <translation>Geradeaus auf %1 wechseln.</translation>
+        <translation>Fahren Sie geradeaus auf %1.</translation>
     </message>
     <message>
         <source>Turn slightly right.</source>
-        <translation>Rechts halten.</translation>
+        <translation>Biegen Sie halbrechts ab.</translation>
     </message>
     <message>
         <source>Turn slightly right onto %1.</source>
-        <translation>Rechts halten, um auf %1 zu wechseln.</translation>
+        <translation>Biegen Sie halbrechts auf %1 ab.</translation>
     </message>
     <message>
         <source>Turn right.</source>
-        <translation>Abzweigung rechts nehmen.</translation>
+        <translation>Biegen Sie rechts ab.</translation>
     </message>
     <message>
         <source>Turn right onto %1.</source>
-        <translation>Abzweigung rechts nehmen, um auf %1 zu wechseln.</translation>
+        <translation>Biegen Sie rechts auf %1 ab.</translation>
     </message>
     <message>
         <source>Make a sharp right.</source>
-        <translation>Abzweigung scharf rechts nehmen.</translation>
+        <translation>Biegen Sie scharf rechts ab.</translation>
     </message>
     <message>
         <source>Make a sharp right onto %1.</source>
-        <translation>Abzweigung scharf rechts nehmen, um auf %1 zu wechseln.</translation>
+        <translation>Biegen Sie scharf rechts auf %1 ab.</translation>
     </message>
     <message>
         <source>When it is safe to do so, perform a U-turn.</source>
@@ -99,27 +164,27 @@ Bitte besuchen Sie https://developers.arcgis.com/authentication/accessing-arcgis
     </message>
     <message>
         <source>Make a sharp left.</source>
-        <translation>Abzweigung scharf links nehmen.</translation>
+        <translation>Biegen Sie scharf links ab.</translation>
     </message>
     <message>
         <source>Make a sharp left onto %1.</source>
-        <translation>Abzweigung scharf links nehmen, um auf %1 zu wechseln.</translation>
+        <translation>Biegen Sie scharf links auf %1 ab.</translation>
     </message>
     <message>
         <source>Turn left.</source>
-        <translation>Abzweigung links nehmen.</translation>
+        <translation>Biegen Sie links ab.</translation>
     </message>
     <message>
         <source>Turn left onto %1.</source>
-        <translation>Abzweigung links nehmen, um auf %1 zu wechseln.</translation>
+        <translation>Biegen Sie links auf %1 ab.</translation>
     </message>
     <message>
         <source>Turn slightly left.</source>
-        <translation>Links halten.</translation>
+        <translation>Biegen Sie halblinks ab.</translation>
     </message>
     <message>
         <source>Turn slightly left onto %1.</source>
-        <translation>Links halten, um auf %1 zu wechseln.</translation>
+        <translation>Biegen Sie halblinks auf %1 ab.</translation>
     </message>
     <message>
         <source>Reached waypoint.</source>
@@ -236,6 +301,646 @@ Bitte besuchen Sie https://developers.arcgis.com/authentication/accessing-arcgis
     <message>
         <source>Don&apos;t know what to say for &apos;%1&apos;</source>
         <translation>Unbekannte Anweisung: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoRouteParserOsrmV5</name>
+    <message>
+        <source>North</source>
+        <extracomment>Translations exist at https://github.com/Project-OSRM/osrm-text-instructions. Always used in &quot;Head %1 [onto &lt;street name&gt;]&quot;</extracomment>
+        <translation>nach Norden</translation>
+    </message>
+    <message>
+        <source>East</source>
+        <translation>nach Osten</translation>
+    </message>
+    <message>
+        <source>South</source>
+        <translation>nach Süden </translation>
+    </message>
+    <message>
+        <source>West</source>
+        <translation>nach Westen</translation>
+    </message>
+    <message>
+        <source>first</source>
+        <comment>roundabout exit</comment>
+        <extracomment>always used in &quot; and take the %1 exit [onto &lt;street name&gt;]&quot;</extracomment>
+        <translation>erste</translation>
+    </message>
+    <message>
+        <source>second</source>
+        <comment>roundabout exit</comment>
+        <translation>zweite</translation>
+    </message>
+    <message>
+        <source>third</source>
+        <comment>roundabout exit</comment>
+        <translation>dritte</translation>
+    </message>
+    <message>
+        <source>fourth</source>
+        <comment>roundabout exit</comment>
+        <translation>vierte</translation>
+    </message>
+    <message>
+        <source>fifth</source>
+        <comment>roundabout exit</comment>
+        <translation>fünfte</translation>
+    </message>
+    <message>
+        <source>sixth</source>
+        <comment>roundabout exit</comment>
+        <translation>sechste</translation>
+    </message>
+    <message>
+        <source>seventh</source>
+        <comment>roundabout exit</comment>
+        <translation>siebente</translation>
+    </message>
+    <message>
+        <source>eighth</source>
+        <comment>roundabout exit</comment>
+        <translation>achte</translation>
+    </message>
+    <message>
+        <source>ninth</source>
+        <comment>roundabout exit</comment>
+        <translation>neunte</translation>
+    </message>
+    <message>
+        <source>tenth</source>
+        <comment>roundabout exit</comment>
+        <translation>zehnte</translation>
+    </message>
+    <message>
+        <source>eleventh</source>
+        <comment>roundabout exit</comment>
+        <translation>elfte</translation>
+    </message>
+    <message>
+        <source>twelfth</source>
+        <comment>roundabout exit</comment>
+        <translation>zwölfte</translation>
+    </message>
+    <message>
+        <source>thirteenth</source>
+        <comment>roundabout exit</comment>
+        <translation>dreizehnte</translation>
+    </message>
+    <message>
+        <source>fourteenth</source>
+        <comment>roundabout exit</comment>
+        <translation>vierzehnte</translation>
+    </message>
+    <message>
+        <source>fifteenth</source>
+        <comment>roundabout exit</comment>
+        <translation>fünfzehnte</translation>
+    </message>
+    <message>
+        <source>sixteenth</source>
+        <comment>roundabout exit</comment>
+        <translation>sechzehnte</translation>
+    </message>
+    <message>
+        <source>seventeenth</source>
+        <comment>roundabout exit</comment>
+        <translation>siebzehnte</translation>
+    </message>
+    <message>
+        <source>eighteenth</source>
+        <comment>roundabout exit</comment>
+        <translation>achtzehnte</translation>
+    </message>
+    <message>
+        <source>nineteenth</source>
+        <comment>roundabout exit</comment>
+        <translation>neunzehnte</translation>
+    </message>
+    <message>
+        <source>twentieth</source>
+        <comment>roundabout exit</comment>
+        <translation>zwanzigste</translation>
+    </message>
+    <message>
+        <source> and take the %1 exit</source>
+        <extracomment>Always appended to one of the following strings: - &quot;Enter the roundabout&quot; - &quot;Enter the rotary&quot; - &quot;Enter the rotary &lt;rotaryname&gt;&quot;</extracomment>
+        <translation> und nehmen Sie die %1 Ausfahrt</translation>
+    </message>
+    <message>
+        <source> and take the %1 exit onto %2</source>
+        <translation> und nehmen Sie die %1 Ausfahrt auf %2</translation>
+    </message>
+    <message>
+        <source>You have arrived at your destination, straight ahead</source>
+        <translation>Ihr Ziel liegt geradeaus vor Ihnen</translation>
+    </message>
+    <message>
+        <source>You have arrived at your destination, on the left</source>
+        <translation>Ihr Ziel liegt links vor Ihnen</translation>
+    </message>
+    <message>
+        <source>You have arrived at your destination, on the right</source>
+        <translation>Ihr Ziel liegt rechts vor Ihnen</translation>
+    </message>
+    <message>
+        <source>You have arrived at your destination</source>
+        <translation>Sie haben Ihr Ziel erreicht</translation>
+    </message>
+    <message>
+        <source>Continue straight</source>
+        <translation>Fahren Sie geradeaus weiter</translation>
+    </message>
+    <message>
+        <source>Continue straight on %1</source>
+        <translation>Fahren Sie geradeaus auf %1 weiter</translation>
+    </message>
+    <message>
+        <source>Continue left</source>
+        <translation>Fahren Sie links weiter</translation>
+    </message>
+    <message>
+        <source>Continue left onto %1</source>
+        <translation>Fahren Sie links auf %1 weiter</translation>
+    </message>
+    <message>
+        <source>Continue slightly left</source>
+        <translation>Fahren Sie halblinks weiter</translation>
+    </message>
+    <message>
+        <source>Continue slightly left on %1</source>
+        <translation>Fahren Sie halblinks auf %1 weiter</translation>
+    </message>
+    <message>
+        <source>Continue right</source>
+        <translation>Fahren Sie rechts weiter</translation>
+    </message>
+    <message>
+        <source>Continue right onto %1</source>
+        <translation>Fahren Sie rechts auf %1 weiter</translation>
+    </message>
+    <message>
+        <source>Continue slightly right</source>
+        <translation>Fahren Sie halbrechts weiter</translation>
+    </message>
+    <message>
+        <source>Continue slightly right on %1</source>
+        <translation>Fahren Sie halbrechts auf %1 weiter</translation>
+    </message>
+    <message>
+        <source>Make a U-turn</source>
+        <translation>Bitte wenden Sie</translation>
+    </message>
+    <message>
+        <source>Make a U-turn onto %1</source>
+        <translation>Bitte wenden Sie auf %1</translation>
+    </message>
+    <message>
+        <source>Continue</source>
+        <translation>Fahren Sie weiter</translation>
+    </message>
+    <message>
+        <source>Continue on %1</source>
+        <translation>Fahren Sie auf %1 weiter</translation>
+    </message>
+    <message>
+        <source>Head %1</source>
+        <translation>Fahren Sie %1</translation>
+    </message>
+    <message>
+        <source>Head %1 onto %2</source>
+        <translation>Fahren Sie %1 auf %2</translation>
+    </message>
+    <message>
+        <source>Depart</source>
+        <translation>Fahren Sie ab</translation>
+    </message>
+    <message>
+        <source>Depart onto %1</source>
+        <translation>Fahren Sie auf %1 ab</translation>
+    </message>
+    <message>
+        <source>At the end of the road, turn left</source>
+        <translation>Biegen Sie am Ende der Straße links ab</translation>
+    </message>
+    <message>
+        <source>At the end of the road, turn left onto %1</source>
+        <translation>Biegen Sie am Ende der Straße links auf %1 ab</translation>
+    </message>
+    <message>
+        <source>At the end of the road, turn right</source>
+        <translation>Biegen Sie am Ende der Straße rechts ab</translation>
+    </message>
+    <message>
+        <source>At the end of the road, turn right onto %1</source>
+        <translation>Biegen Sie am Ende der Straße rechts auf %1 ab</translation>
+    </message>
+    <message>
+        <source>At the end of the road, make a U-turn</source>
+        <translation>Wenden Sie am Ende der Straße</translation>
+    </message>
+    <message>
+        <source>At the end of the road, make a U-turn onto %1</source>
+        <translation>Wenden Sie am Ende der Straße auf %1</translation>
+    </message>
+    <message>
+        <source>At the end of the road, continue straight</source>
+        <translation>Fahren Sie am Ende der Straße geradeaus weiter</translation>
+    </message>
+    <message>
+        <source>At the end of the road, continue straight onto %1</source>
+        <translation>Fahren Sie am Ende der Straße geradeaus auf %1 weiter</translation>
+    </message>
+    <message>
+        <source>At the end of the road, continue</source>
+        <translation>Fahren Sie am Ende der Straße weiter</translation>
+    </message>
+    <message>
+        <source>At the end of the road, continue onto %1</source>
+        <translation>Fahren Sie am Ende der Straße auf %1 weiter</translation>
+    </message>
+    <message>
+        <source>Take the ferry</source>
+        <translation>Nehmen Sie die Fähre</translation>
+    </message>
+    <message>
+        <source>At the fork, take a sharp left</source>
+        <translation>Biegen Sie an der Gabelung scharf links ab</translation>
+    </message>
+    <message>
+        <source>At the fork, take a sharp left onto %1</source>
+        <translation>Biegen Sie an der Gabelung scharf links auf %1 ab</translation>
+    </message>
+    <message>
+        <source>At the fork, turn left</source>
+        <translation>Biegen Sie an der Gabelung links ab</translation>
+    </message>
+    <message>
+        <source>At the fork, turn left onto %1</source>
+        <translation>Biegen Sie an der Gabelung links auf %1 ab</translation>
+    </message>
+    <message>
+        <source>At the fork, keep left</source>
+        <translation>Halten Sie sich an der Gabelung links</translation>
+    </message>
+    <message>
+        <source>At the fork, keep left onto %1</source>
+        <translation>Halten Sie sich an der Gabelung links auf %1</translation>
+    </message>
+    <message>
+        <source>At the fork, take a sharp right</source>
+        <translation>Biegen Sie an der Gabelung scharf rechts ab</translation>
+    </message>
+    <message>
+        <source>At the fork, take a sharp right onto %1</source>
+        <translation>Biegen Sie an der Gabelung scharf rechts auf %1 ab</translation>
+    </message>
+    <message>
+        <source>At the fork, turn right</source>
+        <translation>Biegen Sie an der Gabelung rechts ab</translation>
+    </message>
+    <message>
+        <source>At the fork, turn right onto %1</source>
+        <translation>Biegen Sie an der Gabelung rechts auf %1 ab</translation>
+    </message>
+    <message>
+        <source>At the fork, keep right</source>
+        <translation>Halten Sie sich an der Gabelung rechts</translation>
+    </message>
+    <message>
+        <source>At the fork, keep right onto %1</source>
+        <translation>Halten Sie sich an der Gabelung rechts auf %1</translation>
+    </message>
+    <message>
+        <source>At the fork, continue straight ahead</source>
+        <translation>Fahren Sie an der Gabelung geradeaus weiter</translation>
+    </message>
+    <message>
+        <source>At the fork, continue straight ahead onto %1</source>
+        <translation>Fahren Sie an der Gabelung geradeaus auf %1 weiter</translation>
+    </message>
+    <message>
+        <source>At the fork, continue</source>
+        <translation>Fahren Sie an der Gabelung weiter</translation>
+    </message>
+    <message>
+        <source>At the fork, continue onto %1</source>
+        <translation>Fahren Sie an der Gabelung auf %1 weiter</translation>
+    </message>
+    <message>
+        <source>Merge sharply left</source>
+        <translation>Fahren Sie scharf links auf</translation>
+    </message>
+    <message>
+        <source>Merge sharply left onto %1</source>
+        <translation>Fahren Sie scharf links auf %1 auf</translation>
+    </message>
+    <message>
+        <source>Merge left</source>
+        <translation>Fahren Sie links auf</translation>
+    </message>
+    <message>
+        <source>Merge left onto %1</source>
+        <translation>Fahren Sie links auf %1 auf</translation>
+    </message>
+    <message>
+        <source>Merge slightly left</source>
+        <translation>Fahren Sie halblinks auf</translation>
+    </message>
+    <message>
+        <source>Merge slightly left on %1</source>
+        <translation>Fahren Sie halblinks auf %1 auf</translation>
+    </message>
+    <message>
+        <source>Merge sharply right</source>
+        <translation>Fahren Sie in scharf rechts auf</translation>
+    </message>
+    <message>
+        <source>Merge sharply right onto %1</source>
+        <translation>Fahren Sie scharf rechts auf %1 auf</translation>
+    </message>
+    <message>
+        <source>Merge right</source>
+        <translation>Fahren Sie rechts auf</translation>
+    </message>
+    <message>
+        <source>Merge right onto %1</source>
+        <translation>Fahren Sie rechts auf %1 auf</translation>
+    </message>
+    <message>
+        <source>Merge slightly right</source>
+        <translation>Fahren Sie halbrechts auf</translation>
+    </message>
+    <message>
+        <source>Merge slightly right on %1</source>
+        <translation>Fahren Sie halbrechts auf %1 auf</translation>
+    </message>
+    <message>
+        <source>Merge straight</source>
+        <translation>Fahren Sie geradeaus auf</translation>
+    </message>
+    <message>
+        <source>Merge straight on %1</source>
+        <translation>Fahren Sie geradeaus auf %1 auf</translation>
+    </message>
+    <message>
+        <source>Merge</source>
+        <translation>Fahren Sie auf</translation>
+    </message>
+    <message>
+        <source>Merge onto %1</source>
+        <translation>Fahren Sie auf %1 auf</translation>
+    </message>
+    <message>
+        <source>Take a sharp left</source>
+        <translation>Biegen Sie scharf links ab</translation>
+    </message>
+    <message>
+        <source>Take a sharp left onto %1</source>
+        <translation>Biegen Sie scharf links auf %1 ab</translation>
+    </message>
+    <message>
+        <source>Turn left</source>
+        <translation>Biegen Sie links ab</translation>
+    </message>
+    <message>
+        <source>Turn left onto %1</source>
+        <translation>Biegen Sie links auf %1 ab</translation>
+    </message>
+    <message>
+        <source>Continue slightly left onto %1</source>
+        <translation>Fahren Sie halblinks auf %1 weiter</translation>
+    </message>
+    <message>
+        <source>Take a sharp right</source>
+        <translation>Biegen Sie scharf rechts ab</translation>
+    </message>
+    <message>
+        <source>Take a sharp right onto %1</source>
+        <translation>Biegen Sie scharf rechts auf %1 ab</translation>
+    </message>
+    <message>
+        <source>Turn right</source>
+        <translation>Biegen Sie rechts ab</translation>
+    </message>
+    <message>
+        <source>Turn right onto %1</source>
+        <translation>Biegen Sie rechts auf %1 ab</translation>
+    </message>
+    <message>
+        <source>Continue slightly right onto %1</source>
+        <translation>Fahren Sie halbrechts auf %1 weiter</translation>
+    </message>
+    <message>
+        <source>Continue straight onto %1</source>
+        <translation>Fahren Sie geradeaus auf %1 weiter</translation>
+    </message>
+    <message>
+        <source>Continue onto %1</source>
+        <translation>Fahren Sie auf %1 weiter</translation>
+    </message>
+    <message>
+        <source>Continue on the left</source>
+        <translation>Fahren Sie links weiter</translation>
+    </message>
+    <message>
+        <source>Continue on the left on %1</source>
+        <translation>Fahren Sie links auf %1 weiter</translation>
+    </message>
+    <message>
+        <source>Continue on the right</source>
+        <translation>Fahren Sie rechts weiter</translation>
+    </message>
+    <message>
+        <source>Continue on the right on %1</source>
+        <translation>Fahren Sie rechts auf %1 weiter</translation>
+    </message>
+    <message>
+        <source>Take the ramp on the left</source>
+        <translation>Fahren Sie auf die linke Auffahrt</translation>
+    </message>
+    <message>
+        <source>Take the ramp on the left onto %1</source>
+        <translation>Fahren Sie über die linke Auffahrt auf %1</translation>
+    </message>
+    <message>
+        <source>Take the ramp on the right</source>
+        <translation>Fahren Sie auf die rechte Auffahrt</translation>
+    </message>
+    <message>
+        <source>Take the ramp on the right onto %1</source>
+        <translation>Fahren Sie über die rechte Auffahrt auf %1</translation>
+    </message>
+    <message>
+        <source>Take the ramp</source>
+        <translation>Fahren Sie auf die Auffahrt</translation>
+    </message>
+    <message>
+        <source>Take the ramp onto %1</source>
+        <translation>Fahren Sie über die Auffahrt auf %1</translation>
+    </message>
+    <message>
+        <source>Get off the bike and push</source>
+        <translation>Steigen Sie ab und schieben Sie das Fahrrad</translation>
+    </message>
+    <message>
+        <source>Get off the bike and push onto %1</source>
+        <translation>Steigen Sie ab und schieben Sie das Rad auf %1</translation>
+    </message>
+    <message>
+        <source>Enter the rotary</source>
+        <extracomment>This string will be prepended to &quot; and take the &lt;nth&gt; exit [onto &lt;streetname&gt;]</extracomment>
+        <translation>Fahren Sie in den Kreisverkehr</translation>
+    </message>
+    <message>
+        <source>Enter the roundabout</source>
+        <extracomment>This string will be prepended to &quot; and take the &lt;nth&gt; exit [onto &lt;streetname&gt;]</extracomment>
+        <translation>Fahren Sie in den Kreisverkehr ein</translation>
+    </message>
+    <message>
+        <source>At the roundabout, continue straight</source>
+        <translation>Fahren Sie im Kreisverkehr geradeaus weiter</translation>
+    </message>
+    <message>
+        <source>At the roundabout, continue straight on %1</source>
+        <translation>Fahren Sie im Kreisverkehr geradeaus auf %1 weiter</translation>
+    </message>
+    <message>
+        <source>At the roundabout, turn left</source>
+        <translation>Biegen Sie im Kreisverkehr links ab</translation>
+    </message>
+    <message>
+        <source>At the roundabout, turn left onto %1</source>
+        <translation>Biegen Sie im Kreisverkehr links auf %1 ab</translation>
+    </message>
+    <message>
+        <source>At the roundabout, turn right</source>
+        <translation>Biegen Sie im Kreisverkehr rechts ab</translation>
+    </message>
+    <message>
+        <source>At the roundabout, turn right onto %1</source>
+        <translation>Biegen Sie im Kreisverkehr rechts auf %1 ab</translation>
+    </message>
+    <message>
+        <source>At the roundabout, turn around</source>
+        <translation>Wenden Sie im Kreisverkehr</translation>
+    </message>
+    <message>
+        <source>At the roundabout, turn around onto %1</source>
+        <translation>Wenden Sie im Kreisverkehr auf %1</translation>
+    </message>
+    <message>
+        <source>At the roundabout, continue</source>
+        <translation>Fahren Sie durch den Kreisverkehr weiter</translation>
+    </message>
+    <message>
+        <source>At the roundabout, continue onto %1</source>
+        <translation>Fahren Sie im Kreisverkehr auf %1 weiter</translation>
+    </message>
+    <message>
+        <source>Take the train</source>
+        <translation>Nehmen Sie den Zug</translation>
+    </message>
+    <message>
+        <source>Take the train [%1]</source>
+        <translation>Nehmen Sie den Zug [%1]</translation>
+    </message>
+    <message>
+        <source>Go straight</source>
+        <translation>Fahren Sie geradeaus</translation>
+    </message>
+    <message>
+        <source>Go straight onto %1</source>
+        <translation>Fahren Sie geradeaus auf %1</translation>
+    </message>
+    <message>
+        <source>Turn slightly left</source>
+        <translation>Biegen Sie halblinks ab</translation>
+    </message>
+    <message>
+        <source>Turn slightly left onto %1</source>
+        <translation>Biegen Sie halblinks auf %1 ab</translation>
+    </message>
+    <message>
+        <source>Turn slightly right</source>
+        <translation>Biegen Sie halbrechts ab</translation>
+    </message>
+    <message>
+        <source>Turn slightly right onto %1</source>
+        <translation>Biegen Sie halbrechts auf %1 ab</translation>
+    </message>
+    <message>
+        <source>Turn</source>
+        <translation>Biegen Sie ab</translation>
+    </message>
+    <message>
+        <source>Turn onto %1</source>
+        <translation>Biegen Sie auf %1 ab</translation>
+    </message>
+    <message>
+        <source> and continue straight</source>
+        <translation> und fahren Sie geradeaus weiter</translation>
+    </message>
+    <message>
+        <source> and continue straight onto %1</source>
+        <translation> und fahren Sie geradeaus auf %1 weiter</translation>
+    </message>
+    <message>
+        <source> and make a sharp left</source>
+        <translation> und biegen Sie scharf links ab</translation>
+    </message>
+    <message>
+        <source> and make a sharp left onto %1</source>
+        <translation> und biegen Sie scharf links auf %1 ab</translation>
+    </message>
+    <message>
+        <source> and turn left</source>
+        <translation> und biegen Sie links ab</translation>
+    </message>
+    <message>
+        <source> and turn left onto %1</source>
+        <translation> und biegen Sie links auf %1 ab</translation>
+    </message>
+    <message>
+        <source> and make a slight left</source>
+        <translation> und biegen Sie halblinks ab</translation>
+    </message>
+    <message>
+        <source> and make a slight left onto %1</source>
+        <translation> und biegen Sie halblinls auf %1 ab</translation>
+    </message>
+    <message>
+        <source> and make a sharp right</source>
+        <translation> und biegen Sie scharf rechts ab</translation>
+    </message>
+    <message>
+        <source> and make a sharp right onto %1</source>
+        <translation> und biegen Sie scharf rechts auf %1 ab</translation>
+    </message>
+    <message>
+        <source> and turn right</source>
+        <translation> und biegen Sie rechts ab</translation>
+    </message>
+    <message>
+        <source> and turn right onto %1</source>
+        <translation> und biegen Sie rechts auf %1 ab</translation>
+    </message>
+    <message>
+        <source> and make a slight right</source>
+        <translation> und biegen Sie halbrechts ab</translation>
+    </message>
+    <message>
+        <source> and make a slight right onto %1</source>
+        <translation> und biegen Sie halbrechts auf %1 ab</translation>
+    </message>
+    <message>
+        <source> and make a U-turn</source>
+        <translation> und wenden Sie</translation>
+    </message>
+    <message>
+        <source> and make a U-turn onto %1</source>
+        <translation> und wenden Sie auf %1</translation>
     </message>
 </context>
 <context>
@@ -626,10 +1331,6 @@ Bitte besuchen Sie https://www.mapbox.com</translation>
 </context>
 <context>
     <name>QPlaceSearchReplyOsm</name>
-    <message>
-        <source>Communication error</source>
-        <translation>Fehler bei Kommunikation</translation>
-    </message>
     <message>
         <source>Response parse error</source>
         <translation>Fehler beim Parsen der Antwort</translation>

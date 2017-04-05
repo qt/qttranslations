@@ -134,6 +134,10 @@ Es wird mit einer einfachen Universalform gearbeitet.</translation>
         <translation>Kurzbefehl fehlt im Übersetzungstext.</translation>
     </message>
     <message>
+        <source>Translation does not have same leading and trailing whitespace as the source text.</source>
+        <translation>Die Leerzeichen am Anfang bzw. Ende des Übersetzungstextes stimmen nicht mit denen des Ursprungstextes überein.</translation>
+    </message>
+    <message>
         <source>Translation does not end with the same punctuation as the source text.</source>
         <translation>Interpunktion am Ende des Übersetzungstextes unterscheidet sich von Interpunktion des Ursprungstextes.</translation>
     </message>
@@ -324,33 +328,6 @@ Es wird mit einer einfachen Universalform gearbeitet.</translation>
             <numerusform>    Ein nicht übersetzter Text wurde ignoriert</numerusform>
             <numerusform>    %n nicht übersetzte Texte wurden ignoriert</numerusform>
         </translation>
-    </message>
-</context>
-<context>
-    <name>Linguist</name>
-    <message>
-        <source>GNU Gettext localization files</source>
-        <translation>GNU-Gettext-Übersetzungsdateien</translation>
-    </message>
-    <message>
-        <source>GNU Gettext localization template files</source>
-        <translation>Vorlagen für GNU-Gettext-Übersetzungsdateien</translation>
-    </message>
-    <message>
-        <source>Compiled Qt translations</source>
-        <translation>Kompilierte Qt-Übersetzungen</translation>
-    </message>
-    <message>
-        <source>Qt Linguist &apos;Phrase Book&apos;</source>
-        <translation>Qt-Linguist-Wörterbuch</translation>
-    </message>
-    <message>
-        <source>Qt translation sources</source>
-        <translation>Qt-Übersetzungsdateien</translation>
-    </message>
-    <message>
-        <source>XLIFF localization files</source>
-        <translation>XLIFF-Übersetzungsdateien</translation>
     </message>
 </context>
 <context>
@@ -1273,6 +1250,18 @@ Alle Dateien (*)</translation>
     <message>
         <source>Ctrl+0</source>
         <translation>Ctrl+0</translation>
+    </message>
+    <message>
+        <source>Surrounding &amp;Whitespace.</source>
+        <translation>Umgebende &amp;Leerzeichen.</translation>
+    </message>
+    <message>
+        <source>Toggle the validity check of surrounding whitespace.</source>
+        <translation>Schaltet die Prüfung der Übereinstimmung umgebender Leerzeichen um.</translation>
+    </message>
+    <message>
+        <source>Toggle the validity check of surrounding whitespace. If the check fails, a message is shown in the warnings window.</source>
+        <translation>Schaltet die Prüfung der Übereinstimmung umgebender Leerzeichen um. Wenn die Prüfung fehlschlägt, wird eine Meldung im Warnungsfenster angezeigt.</translation>
     </message>
 </context>
 <context>
