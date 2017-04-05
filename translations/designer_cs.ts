@@ -918,6 +918,22 @@
         <source>Default Grid</source>
         <translation>Výchozí mřížka pro nové formuláře</translation>
     </message>
+    <message>
+        <source>Object Naming Convention</source>
+        <translation>Ustálený způsob pojmenovávání objektů</translation>
+    </message>
+    <message>
+        <source>Naming convention used for generating action object names from their text</source>
+        <translation>Ustálený způsob používaný pro činnost vytváření názvů objektů z jejich textu</translation>
+    </message>
+    <message>
+        <source>Camel Case</source>
+        <translation>Camel Case</translation>
+    </message>
+    <message>
+        <source>Underscore</source>
+        <translation>Podtržení</translation>
+    </message>
 </context>
 <context>
     <name>FormLayoutRowDialog</name>
@@ -1015,8 +1031,80 @@
 <context>
     <name>IconSelector</name>
     <message>
+        <source>The pixmap file &apos;%1&apos; cannot be read.</source>
+        <translation>Soubor s pixmapou &apos;%1&apos; nelze přečíst.</translation>
+    </message>
+    <message>
+        <source>The file &apos;%1&apos; does not appear to be a valid pixmap file: %2</source>
+        <translation>Soubor &apos;%1&apos; není platným souborem s pixmapou: %2</translation>
+    </message>
+    <message>
+        <source>The file &apos;%1&apos; could not be read: %2</source>
+        <translation>Soubor %1 se nepodařilo přečíst: %2</translation>
+    </message>
+    <message>
         <source>All Pixmaps (</source>
         <translation>Všechny soubory s pixmapami (</translation>
+    </message>
+    <message>
+        <source>Choose a Pixmap</source>
+        <translation>Vybrat pixmapu</translation>
+    </message>
+    <message>
+        <source>Pixmap Read Error</source>
+        <translation>Chyba při čtení pixmapy</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+    <message>
+        <source>Normal Off</source>
+        <translation>Obvyklé, vypnuto</translation>
+    </message>
+    <message>
+        <source>Normal On</source>
+        <translation>Obvyklé, zapnuto</translation>
+    </message>
+    <message>
+        <source>Disabled Off</source>
+        <translation>Zakázáno, vypnuto</translation>
+    </message>
+    <message>
+        <source>Disabled On</source>
+        <translation>Zakázáno, zapnuto</translation>
+    </message>
+    <message>
+        <source>Active Off</source>
+        <translation>V činnosti, vypnuto</translation>
+    </message>
+    <message>
+        <source>Active On</source>
+        <translation>V činnosti, zapnuto</translation>
+    </message>
+    <message>
+        <source>Selected Off</source>
+        <translation>Vybráno, vypnuto</translation>
+    </message>
+    <message>
+        <source>Selected On</source>
+        <translation>Vybráno, zapnuto</translation>
+    </message>
+    <message>
+        <source>Choose Resource...</source>
+        <translation>Vybrat prostředky...</translation>
+    </message>
+    <message>
+        <source>Choose File...</source>
+        <translation>Vybrat soubor...</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Nastavit znovu</translation>
+    </message>
+    <message>
+        <source>Reset All</source>
+        <translation>Nastavit znovu vše</translation>
     </message>
 </context>
 <context>
@@ -3291,8 +3379,8 @@ Chcete tuto předlohu přepsat?</translation>
         <translation>&lt;br/&gt;Qt Designer je obrazový návrhář uživatelského rozhraní pro programy Qt.&lt;br/&gt;</translation>
     </message>
     <message>
-        <source>%1&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd.</source>
-        <translation>%1&lt;br/&gt;Autorské právo (C) 2015 The Qt Company Ltd a/nebo její dceřinná společnost(i).</translation>
+        <source>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</source>
+        <translation>%1&lt;br/&gt;Autorské právo (C) %2 The Qt Company Ltd a/nebo její dceřinná společnost(i).</translation>
     </message>
     <message>
         <source>%1&lt;br/&gt;Copyright (C) 2015 The Qt Company Ltd.</source>
@@ -3344,6 +3432,10 @@ Chcete tuto předlohu přepsat?</translation>
 </context>
 <context>
     <name>WidgetDataBase</name>
+    <message>
+        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
+        <translation>Byl nalezen přídavný modul, který obsahuje uživatelsky stanovený prvek, jehož název pro třídu (%1) odpovídá stávající třídě.</translation>
+    </message>
     <message>
         <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
         <translation>Soubor obsahuje uživatelsky stanovený prvek &apos;%1&apos;, jehož základní třída (%2) se neshoduje se současným záznamem v databázi prvků (%3). databáze prvků se nemění.</translation>
@@ -4349,7 +4441,7 @@ Chcete tuto předlohu přepsat?</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; could not be read: %2</source>
-        <translation>Soubor %1 se nepodařilo přečít: %2</translation>
+        <translation>Soubor %1 se nepodařilo přečíst: %2</translation>
     </message>
     <message>
         <source>Pixmap Read Error</source>

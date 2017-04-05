@@ -12,6 +12,10 @@
         <translation>Poznámka:</translation>
     </message>
     <message>
+        <source>The search results may not be complete since the documentation is still being indexed.</source>
+        <translation>Nemusí být ukázány všechny výsledky, protože dokumentace je stále ještě rejstříkována.</translation>
+    </message>
+    <message>
         <source>The search results may not be complete since the documentation is still being indexed!</source>
         <translation>Nemusí být ukázány všechny výsledky, protože dokumentace je stále ještě rejstříkována!</translation>
     </message>
@@ -70,12 +74,60 @@
         <translation>Databázi &apos;%1&apos; nelze otevřít pro vyladění!</translation>
     </message>
     <message>
+        <source>The collection file &apos;%1&apos; is not set up yet.</source>
+        <translation>Soubor se sbírkou &apos;%1&apos; ještě není zřízen.</translation>
+    </message>
+    <message>
+        <source>Cannot load sqlite database driver.</source>
+        <translation>Databázový ovladač pro SQLite nelze nahrát.</translation>
+    </message>
+    <message>
+        <source>Cannot create tables in file %1.</source>
+        <translation>V souboru %1 nelze vytvořit žádné tabulky.</translation>
+    </message>
+    <message>
+        <source>The collection file &apos;%1&apos; already exists.</source>
+        <translation>Soubor se sbírkou &apos;%1&apos; již existuje.</translation>
+    </message>
+    <message>
         <source>Cannot create directory: %1</source>
         <translation>Nelze vytvořit adresář: %1</translation>
     </message>
     <message>
         <source>Cannot copy collection file: %1</source>
         <translation>Nelze kopírovat soubor se sbírkou: %1</translation>
+    </message>
+    <message>
+        <source>Unknown filter &apos;%1&apos;.</source>
+        <translation>Neznámý filtr &apos;%1&apos;.</translation>
+    </message>
+    <message>
+        <source>Cannot register filter %1.</source>
+        <translation>Nelze zapsat filtr %1.</translation>
+    </message>
+    <message>
+        <source>Cannot open documentation file %1.</source>
+        <translation>Nelze otevřít soubor s dokumentací: %1.</translation>
+    </message>
+    <message>
+        <source>Invalid documentation file &apos;%1&apos;.</source>
+        <translation>Neplatný soubor s dokumentací &apos;%1&apos;.</translation>
+    </message>
+    <message>
+        <source>The namespace %1 was not registered.</source>
+        <translation>Jmenný prostor %1 nebyl zapsán.</translation>
+    </message>
+    <message>
+        <source>Namespace %1 already exists.</source>
+        <translation>Jmenný prostor %1 již existuje.</translation>
+    </message>
+    <message>
+        <source>Cannot register namespace &apos;%1&apos;.</source>
+        <translation>Nelze zapsat jmenný prostor %1.</translation>
+    </message>
+    <message>
+        <source>Cannot open database &apos;%1&apos; to optimize.</source>
+        <translation>Databázi &apos;%1&apos; nelze otevřít pro vyladění.</translation>
     </message>
     <message>
         <source>Cannot register filter %1!</source>
@@ -111,6 +163,14 @@
     <message>
         <source>The specified namespace does not exist!</source>
         <translation>Zadaný jmenný prostor neexistuje!</translation>
+    </message>
+    <message>
+        <source>Cannot open documentation file %1: %2.</source>
+        <translation>Nelze otevřít soubor s dokumentací %1: %2.</translation>
+    </message>
+    <message>
+        <source>The specified namespace does not exist.</source>
+        <translation>Zadaný jmenný prostor neexistuje.</translation>
     </message>
 </context>
 <context>
@@ -204,6 +264,54 @@
         <translation>Obsah nelze zapsat!</translation>
     </message>
     <message>
+        <source>Invalid help data.</source>
+        <translation>Neplatná data s nápovědou.</translation>
+    </message>
+    <message>
+        <source>No output file name specified.</source>
+        <translation>Pro výstupní soubor nebyl zadán žádný název.</translation>
+    </message>
+    <message>
+        <source>The file %1 cannot be overwritten.</source>
+        <translation>Soubor %1 nelze přepsat.</translation>
+    </message>
+    <message>
+        <source>Cannot open data base file %1.</source>
+        <translation>Nelze otevřít soubor s databází: %1.</translation>
+    </message>
+    <message>
+        <source>Cannot register namespace %1.</source>
+        <translation>Nelze zapsat jmenný prostor %1.</translation>
+    </message>
+    <message>
+        <source>Some tables already exist.</source>
+        <translation>Některé tabulky již existují.</translation>
+    </message>
+    <message>
+        <source>Cannot create tables.</source>
+        <translation>Tabulky nelze vytvořit.</translation>
+    </message>
+    <message>
+        <source>Cannot register virtual folder.</source>
+        <translation>Virtuální adresář nelze zapsat.</translation>
+    </message>
+    <message>
+        <source>The filter %1 is already registered.</source>
+        <translation>Filtr %1 je již zapsán.</translation>
+    </message>
+    <message>
+        <source>Cannot register filter %1.</source>
+        <translation>Nelze zapsat filtr %1.</translation>
+    </message>
+    <message>
+        <source>Cannot insert contents.</source>
+        <translation>Obsah nelze vložit.</translation>
+    </message>
+    <message>
+        <source>Cannot register contents.</source>
+        <translation>Obsah nelze zapsat.</translation>
+    </message>
+    <message>
         <source>File &apos;%1&apos; does not exist.</source>
         <translation>Soubor &apos;%1&apos; neexistuje.</translation>
     </message>
@@ -235,6 +343,10 @@
         <translation>Neznámý symbol. Byl očekáván &quot;QtHelpProject&quot;!</translation>
     </message>
     <message>
+        <source>Unknown token. Expected &quot;QtHelpProject&quot;.</source>
+        <translation>Neznámý symbol. Byl očekáván &quot;QtHelpProject&quot;.</translation>
+    </message>
+    <message>
         <source>Error in line %1: %2</source>
         <translation>Chyba na řádku %1: %2</translation>
     </message>
@@ -253,6 +365,10 @@
     <message>
         <source>Missing virtual folder in QtHelpProject file: &quot;%1&quot;</source>
         <translation>Chybějící virtuální složka v souboru QtHelpProject: &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source>The input file %1 could not be opened.</source>
+        <translation>Vstupní soubor %1 se nepodařilo otevřít.</translation>
     </message>
     <message>
         <source>Virtual folder has invalid syntax.</source>

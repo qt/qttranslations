@@ -273,6 +273,10 @@ Grund:
         <translation>Adresa</translation>
     </message>
     <message>
+        <source>Bookmarks Toolbar</source>
+        <translation>Pruh záložek</translation>
+    </message>
+    <message>
         <source>Toolbar Menu</source>
         <translation>Nabídka nástrojového pruhu</translation>
     </message>
@@ -1234,7 +1238,7 @@ Grund:
     </message>
     <message>
         <source>Bookmark Toolbar</source>
-        <translation>Nástrojový pruh záložek</translation>
+        <translation>Pruh záložek</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -1261,8 +1265,8 @@ Grund:
         <translation>&amp;Jít na</translation>
     </message>
     <message>
-        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd.&lt;/p&gt;</source>
-        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Verze %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Autorské právo (C) 2015 The Qt Company Ltd anebo její dceřinné společnosti.&lt;/p&gt;</translation>
+        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;p&gt;Browser: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</source>
+        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Verze %2&lt;/p&gt;&lt;p&gt;Prohlížeč: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Autorské právo  (C) %4 The Qt Company Ltd anebo její dceřinné společnosti.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>ALT+Home</source>
@@ -1522,6 +1526,10 @@ Chcete jej odstranit?</translation>
     <message>
         <source>Show tabs for each individual page</source>
         <translation>Ukázat karty pro každou jednotlivou stranu</translation>
+    </message>
+    <message>
+        <source>&lt;Filter&gt;</source>
+        <translation>&lt;Filtr&gt;</translation>
     </message>
 </context>
 <context>
