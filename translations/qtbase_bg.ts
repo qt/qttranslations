@@ -1,314 +1,314 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="da">
+<TS version="2.1" language="bg_BG">
 <context>
     <name>CloseButton</name>
     <message>
         <source>Close Tab</source>
-        <translation>Luk faneblad</translation>
+        <translation>Затваряне на раздела</translation>
     </message>
 </context>
 <context>
     <name>MAC_APPLICATION_MENU</name>
     <message>
         <source>Services</source>
-        <translation>Tjenester</translation>
+        <translation>Услуги</translation>
     </message>
     <message>
         <source>Hide %1</source>
-        <translation>Skjul %1</translation>
+        <translation>Скриване на %1</translation>
     </message>
     <message>
         <source>Hide Others</source>
-        <translation>Skjul andre</translation>
+        <translation>Скриване на останалите</translation>
     </message>
     <message>
         <source>Show All</source>
-        <translation>Vis alle</translation>
+        <translation>Показване на всички</translation>
     </message>
     <message>
         <source>Preferences...</source>
-        <translation>Præferencer...</translation>
+        <translation>Предпочитания…</translation>
     </message>
     <message>
         <source>Quit %1</source>
-        <translation>Afslut %1</translation>
+        <translation>Изход от %1</translation>
     </message>
     <message>
         <source>About %1</source>
-        <translation>Om %1</translation>
+        <translation>Относно %1</translation>
     </message>
 </context>
 <context>
     <name>QAbstractSocket</name>
     <message>
         <source>Socket operation timed out</source>
-        <translation>Socket-handlingen fik timeout</translation>
+        <translation>Времето на операцията със сокет изтече</translation>
     </message>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>Handling på socket understøttes ikke</translation>
+        <translation>Тази операция със сокета не се поддържа</translation>
     </message>
     <message>
         <source>Host not found</source>
-        <translation>Værten blev ikke fundet</translation>
+        <translation>Хостът не е намерен</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>Forbindelsen blev afvist</translation>
+        <translation>Връзката е отказана</translation>
     </message>
     <message>
         <source>Connection timed out</source>
-        <translation>Forbindelsen fik timeout</translation>
+        <translation>Времето на връзката изтече</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation>Prøver at oprette forbindelse mens forbindelse er under oprettelse</translation>
+        <translation>Опит за свързване докато вече протича такъв</translation>
     </message>
     <message>
         <source>Socket is not connected</source>
-        <translation>Socket er ikke forbundet</translation>
+        <translation>Сокетът не е свързан</translation>
     </message>
     <message>
         <source>Network unreachable</source>
-        <translation>Netværket kan ikke tilgås</translation>
+        <translation>Мрежата е недостъпна</translation>
     </message>
 </context>
 <context>
     <name>QAbstractSpinBox</name>
     <message>
         <source>&amp;Select All</source>
-        <translation>&amp;Markér alt</translation>
+        <translation>&amp;Избиране на всичко</translation>
     </message>
     <message>
         <source>&amp;Step up</source>
-        <translation>&amp;Trin op</translation>
+        <translation>&amp;Стъпка нагоре</translation>
     </message>
     <message>
         <source>Step &amp;down</source>
-        <translation>Trin &amp;ned</translation>
+        <translation>Стъпка &amp;надолу</translation>
     </message>
 </context>
 <context>
     <name>QAccessibleActionInterface</name>
     <message>
         <source>Press</source>
-        <translation>Tryk på</translation>
+        <translation>Натискане</translation>
     </message>
     <message>
         <source>Increase</source>
-        <translation>Forøg</translation>
+        <translation>Увеличаване</translation>
     </message>
     <message>
         <source>Decrease</source>
-        <translation>Formindsk</translation>
+        <translation>Намаляване</translation>
     </message>
     <message>
         <source>ShowMenu</source>
-        <translation>Vis menu</translation>
+        <translation>Показване на менюто</translation>
     </message>
     <message>
         <source>SetFocus</source>
-        <translation>SætFokus</translation>
+        <translation>Задаване на фокуса</translation>
     </message>
     <message>
         <source>Toggle</source>
-        <translation>Til/fra</translation>
+        <translation>Превключване</translation>
     </message>
     <message>
         <source>Scroll Left</source>
-        <translation>Rul til venstre</translation>
+        <translation>Превъртане наляво</translation>
     </message>
     <message>
         <source>Scroll Right</source>
-        <translation>Rul til højre</translation>
+        <translation>Превъртане надясно</translation>
     </message>
     <message>
         <source>Scroll Up</source>
-        <translation>Rul op</translation>
+        <translation>Превъртане нагоре</translation>
     </message>
     <message>
         <source>Scroll Down</source>
-        <translation>Rul ned</translation>
+        <translation>Превъртане надолу</translation>
     </message>
     <message>
         <source>Previous Page</source>
-        <translation>Forrige side</translation>
+        <translation>Предишна страница</translation>
     </message>
     <message>
         <source>Next Page</source>
-        <translation>Næste side</translation>
+        <translation>Следваща страница</translation>
     </message>
     <message>
         <source>Triggers the action</source>
-        <translation>Udløser handlingen</translation>
+        <translation>Предизвикване на действието</translation>
     </message>
     <message>
         <source>Increase the value</source>
-        <translation>Forøg værdien</translation>
+        <translation>Увеличаване на стойността</translation>
     </message>
     <message>
         <source>Decrease the value</source>
-        <translation>Formindsk værdien</translation>
+        <translation>Намаляване на стойността</translation>
     </message>
     <message>
         <source>Shows the menu</source>
-        <translation>Viser menuen</translation>
+        <translation>Показване на менюто</translation>
     </message>
     <message>
         <source>Sets the focus</source>
-        <translation>Sæt fokussen</translation>
+        <translation>Задаване на фокуса</translation>
     </message>
     <message>
         <source>Toggles the state</source>
-        <translation>Slår tilstanden til/fra</translation>
+        <translation>Превключване на състоянието</translation>
     </message>
     <message>
         <source>Scrolls to the left</source>
-        <translation>Ruller til venstre</translation>
+        <translation>Превъртане наляво</translation>
     </message>
     <message>
         <source>Scrolls to the right</source>
-        <translation>Ruller til højre</translation>
+        <translation>Превъртане надясно</translation>
     </message>
     <message>
         <source>Scrolls up</source>
-        <translation>Ruller op</translation>
+        <translation>Превъртане нагоре</translation>
     </message>
     <message>
         <source>Scrolls down</source>
-        <translation>Ruller ned</translation>
+        <translation>Превъртане надолу</translation>
     </message>
     <message>
         <source>Goes back a page</source>
-        <translation>Går en side tilbage</translation>
+        <translation>Преминаване една страница назад</translation>
     </message>
     <message>
         <source>Goes to the next page</source>
-        <translation>Går til den næste side</translation>
+        <translation>Преминаване една страница напред</translation>
     </message>
 </context>
 <context>
     <name>QAndroidPlatformTheme</name>
     <message>
         <source>Yes</source>
-        <translation>Ja</translation>
+        <translation>Да</translation>
     </message>
     <message>
         <source>Yes to All</source>
-        <translation>Ja til alle</translation>
+        <translation>Да за всички</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Nej</translation>
+        <translation>Не</translation>
     </message>
     <message>
         <source>No to All</source>
-        <translation>Nej til alle</translation>
+        <translation>Не за всички</translation>
     </message>
 </context>
 <context>
     <name>QApplication</name>
     <message>
         <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
-        <translation>Eksekverbar &apos;%1&apos; kræver Qt %2, fandt Qt %3.</translation>
+        <translation>Изпълнимият файл „%1“ изисква Qt %2, намерена е Qt %3.</translation>
     </message>
     <message>
         <source>Incompatible Qt Library Error</source>
-        <translation>Fejl om inkompatibelt Qt-bibliotek</translation>
+        <translation>Грешка поради несъвместима библиотека Qt</translation>
     </message>
 </context>
 <context>
     <name>QCocoaMenuItem</name>
     <message>
         <source>About Qt</source>
-        <translation>Om Qt</translation>
+        <translation>Относно Qt</translation>
     </message>
     <message>
         <source>About</source>
-        <translation>Om</translation>
+        <translation>Относно</translation>
     </message>
     <message>
         <source>Config</source>
-        <translation>Konfig</translation>
+        <translation>Конфигурация</translation>
     </message>
     <message>
         <source>Preference</source>
-        <translation>Præference</translation>
+        <translation>Предпочитание</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Valgmuligheder</translation>
+        <translation>Опции</translation>
     </message>
     <message>
         <source>Setting</source>
-        <translation>Indstilling</translation>
+        <translation>Настройка</translation>
     </message>
     <message>
         <source>Setup</source>
-        <translation>Opsætning</translation>
+        <translation>Установяване</translation>
     </message>
     <message>
         <source>Quit</source>
-        <translation>Afslut</translation>
+        <translation>Затваряне</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>Afslut</translation>
+        <translation>Изход</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation>Klip</translation>
+        <translation>Изрязване</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Kopiér</translation>
+        <translation>Копиране</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>Sæt ind</translation>
+        <translation>Поставяне</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Markér alt</translation>
+        <translation>Избиране на всичко</translation>
     </message>
 </context>
 <context>
     <name>QCocoaTheme</name>
     <message>
         <source>Don&apos;t Save</source>
-        <translation>Gem ikke</translation>
+        <translation>Без запазване</translation>
     </message>
 </context>
 <context>
     <name>QColorDialog</name>
     <message>
         <source>Hu&amp;e:</source>
-        <translation>Farveton&amp;e:</translation>
+        <translation>&amp;Тон:</translation>
     </message>
     <message>
         <source>&amp;Sat:</source>
-        <translation>&amp;Mætning:</translation>
+        <translation>&amp;Нас:</translation>
     </message>
     <message>
         <source>&amp;Val:</source>
-        <translation>&amp;Værdi:</translation>
+        <translation>Ст&amp;о:</translation>
     </message>
     <message>
         <source>&amp;Red:</source>
-        <translation>&amp;Rød:</translation>
+        <translation>&amp;Червено:</translation>
     </message>
     <message>
         <source>&amp;Green:</source>
-        <translation>&amp;Grøn:</translation>
+        <translation>&amp;Зелено:</translation>
     </message>
     <message>
         <source>Bl&amp;ue:</source>
-        <translation>Bl&amp;å:</translation>
+        <translation>&amp;Синьо:</translation>
     </message>
     <message>
         <source>A&amp;lpha channel:</source>
-        <translation>Al&amp;fa-kanal:</translation>
+        <translation>&amp;Плътност:</translation>
     </message>
     <message>
         <source>&amp;HTML:</source>
@@ -317,86 +317,86 @@
     <message>
         <source>Cursor at %1, %2
 Press ESC to cancel</source>
-        <translation>Markør ved %1, %2
-Tryk på ESC for at annullere</translation>
+        <translation>Курсорът е на %1, %2
+Натиснете ESC за отказ</translation>
     </message>
     <message>
         <source>Select Color</source>
-        <translation>Vælg farve</translation>
+        <translation>Избор на цвят</translation>
     </message>
     <message>
         <source>&amp;Basic colors</source>
-        <translation>&amp;Grundlæggende farver</translation>
+        <translation>&amp;Основни цветове</translation>
     </message>
     <message>
         <source>&amp;Custom colors</source>
-        <translation>&amp;Brugerdefineret farver</translation>
+        <translation>&amp;Персонализирани цветове</translation>
     </message>
     <message>
         <source>&amp;Add to Custom Colors</source>
-        <translation>&amp;Føj til brugerdefineret farver</translation>
+        <translation>&amp;Добавяне към перс. цветове</translation>
     </message>
     <message>
         <source>&amp;Pick Screen Color</source>
-        <translation>&amp;Vælg farve på skærmen</translation>
+        <translation>&amp;Избиране на цвят от екрана</translation>
     </message>
 </context>
 <context>
     <name>QComboBox</name>
     <message>
         <source>Open the combo box selection popup</source>
-        <translation>Åbn komboboksens valg-pop op</translation>
+        <translation>Отваряне на изскачащото меню за избор</translation>
     </message>
     <message>
         <source>False</source>
-        <translation>Falsk</translation>
+        <translation>Невярно</translation>
     </message>
     <message>
         <source>True</source>
-        <translation>Sand</translation>
+        <translation>Вярно</translation>
     </message>
 </context>
 <context>
     <name>QCommandLineParser</name>
     <message>
         <source>Displays version information.</source>
-        <translation>Viser versionsinformation.</translation>
+        <translation>Показва информация за версията.</translation>
     </message>
     <message>
         <source>Displays this help.</source>
-        <translation>Viser denne hjælp.</translation>
+        <translation>Показва това помощно съобщение.</translation>
     </message>
     <message>
         <source>Unknown option &apos;%1&apos;.</source>
-        <translation>Ukendt valgmulighed &apos;%1&apos;.</translation>
+        <translation>Непозната опция: „%1“.</translation>
     </message>
     <message>
         <source>Unknown options: %1.</source>
-        <translation>Ukendte valgmuligheder: %1.</translation>
+        <translation>Непознати опции: %1.</translation>
     </message>
     <message>
         <source>Missing value after &apos;%1&apos;.</source>
-        <translation>Manglende værdi efter &apos;%1&apos;.</translation>
+        <translation>Липсва стойност след „%1“.</translation>
     </message>
     <message>
         <source>Unexpected value after &apos;%1&apos;.</source>
-        <translation>Uventet værdi efter &apos;%1&apos;.</translation>
+        <translation>Неочаквана стойност след „%1“.</translation>
     </message>
     <message>
         <source>[options]</source>
-        <translation>[valgmuligheder]</translation>
+        <translation>[опции]</translation>
     </message>
     <message>
         <source>Usage: %1</source>
-        <translation>Brug: %1</translation>
+        <translation>Използване: %1</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>Valgmuligheder:</translation>
+        <translation>Опции:</translation>
     </message>
     <message>
         <source>Arguments:</source>
-        <translation>Argumenter:</translation>
+        <translation>Аргументи:</translation>
     </message>
 </context>
 <context>
@@ -404,167 +404,167 @@ Tryk på ESC for at annullere</translation>
     <message>
         <source>%1: key is empty</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: nøglen er tom</translation>
+        <translation>%1: празен ключ</translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: kunne ikke lave nøglen</translation>
+        <translation>%1: неуспешно създаване на ключ</translation>
     </message>
     <message>
         <source>%1: ftok failed</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: ftok fejlede</translation>
+        <translation>%1: неуспешно изпълнение на „ftok“</translation>
     </message>
 </context>
 <context>
     <name>QCupsJobWidget</name>
     <message>
         <source>Job</source>
-        <translation>Job</translation>
+        <translation>Задача</translation>
     </message>
     <message>
         <source>Job Control</source>
-        <translation>Jobstyring</translation>
+        <translation>Управление на задачите</translation>
     </message>
     <message>
         <source>Scheduled printing:</source>
-        <translation>Planlagt udskrivning:</translation>
+        <translation>Планирано разпечатване:</translation>
     </message>
     <message>
         <source>Billing information:</source>
-        <translation>Betalingsinformation:</translation>
+        <translation>Разплащателна информация:</translation>
     </message>
     <message>
         <source>Job priority:</source>
-        <translation>Jobprioritet:</translation>
+        <translation>Приоритет на задачата:</translation>
     </message>
     <message>
         <source>Banner Pages</source>
-        <translation>Bannersider</translation>
+        <translation>Информационни страници</translation>
     </message>
     <message>
         <source>End:</source>
         <comment>Banner page at end</comment>
-        <translation>Slut:</translation>
+        <translation>Край:</translation>
     </message>
     <message>
         <source>Start:</source>
         <comment>Banner page at start</comment>
-        <translation>Start:</translation>
+        <translation>Начало:</translation>
     </message>
     <message>
         <source>Print Immediately</source>
-        <translation>Udskriv med det samme</translation>
+        <translation>Разпечатване веднага</translation>
     </message>
     <message>
         <source>Hold Indefinitely</source>
-        <translation>Hold på ubestemt tid</translation>
+        <translation>Отлагане за неопределено време</translation>
     </message>
     <message>
         <source>Day (06:00 to 17:59)</source>
-        <translation>Dag (06:00 til 17:59)</translation>
+        <translation>Ден (от 06:00 до 17:59)</translation>
     </message>
     <message>
         <source>Night (18:00 to 05:59)</source>
-        <translation>Nat (18:00 til 05:59)</translation>
+        <translation>Нощ (от 18:00 до 05:59)</translation>
     </message>
     <message>
         <source>Second Shift (16:00 to 23:59)</source>
-        <translation>Andet skiftehold (16:00 til 23:59)</translation>
+        <translation>Втора смяна (от 16:00 до 23:59)</translation>
     </message>
     <message>
         <source>Third Shift (00:00 to 07:59)</source>
-        <translation>Tredje skiftehold (00:00 til 07:59)</translation>
+        <translation>Трета смяна (от 00:00 до 07:59)</translation>
     </message>
     <message>
         <source>Weekend (Saturday to Sunday)</source>
-        <translation>Weekend (lørdag til søndag)</translation>
+        <translation>Събота и неделя</translation>
     </message>
     <message>
         <source>Specific Time</source>
-        <translation>Bestemt tid</translation>
+        <translation>Конкретно време</translation>
     </message>
     <message>
         <source>None</source>
         <comment>CUPS Banner page</comment>
-        <translation>Intet</translation>
+        <translation>Няма</translation>
     </message>
     <message>
         <source>Standard</source>
         <comment>CUPS Banner page</comment>
-        <translation>Standard</translation>
+        <translation>Стандартна</translation>
     </message>
     <message>
         <source>Unclassified</source>
         <comment>CUPS Banner page</comment>
-        <translation>Uklassificeret</translation>
+        <translation>Некласифицирана</translation>
     </message>
     <message>
         <source>Confidential</source>
         <comment>CUPS Banner page</comment>
-        <translation>Fortroligt</translation>
+        <translation>Поверителна</translation>
     </message>
     <message>
         <source>Classified</source>
         <comment>CUPS Banner page</comment>
-        <translation>Klassificeret</translation>
+        <translation>Класифицирана</translation>
     </message>
     <message>
         <source>Secret</source>
         <comment>CUPS Banner page</comment>
-        <translation>Hemmeligt</translation>
+        <translation>Тайна</translation>
     </message>
     <message>
         <source>Top Secret</source>
         <comment>CUPS Banner page</comment>
-        <translation>Top hemmeligt</translation>
+        <translation>Строго поверителна</translation>
     </message>
 </context>
 <context>
     <name>QDB2Driver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>Kunne ikke oprette forbindelse</translation>
+        <translation>Неуспешно свързване</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Kunne ikke gennemføre transaktionen</translation>
+        <translation>Неуспешно прилагане на трансакцията</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Kunne ikke tilbagetrække transaktionen</translation>
+        <translation>Неуспешна отмяна на трансакцията</translation>
     </message>
     <message>
         <source>Unable to set autocommit</source>
-        <translation>Kunne ikke sætte auto-gennemfør</translation>
+        <translation>Неуспешно задаване на автоматично прилагане</translation>
     </message>
 </context>
 <context>
     <name>QDB2Result</name>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Kunne ikke eksekvere udsagn</translation>
+        <translation>Неуспешно изпълнение на израза</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Kunne ikke forberede udsagn</translation>
+        <translation>Неуспешна подготовка на израза</translation>
     </message>
     <message>
         <source>Unable to bind variable</source>
-        <translation>Kunne ikke binde variablen</translation>
+        <translation>Неуспешно свързване на променлива</translation>
     </message>
     <message>
         <source>Unable to fetch record %1</source>
-        <translation>Kunne ikke hente record&apos;en %1</translation>
+        <translation>Неуспешно получаване на запис %1</translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>Kunne ikke hente næste</translation>
+        <translation>Неуспешно получаване на следващия запис</translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>Kunne ikke hente første</translation>
+        <translation>Неуспешно получаване на първия запис</translation>
     </message>
 </context>
 <context>
@@ -578,164 +578,164 @@ Tryk på ESC for at annullere</translation>
     <name>QDateTimeParser</name>
     <message>
         <source>AM</source>
-        <translation>AM</translation>
+        <translation>преди обяд</translation>
     </message>
     <message>
         <source>am</source>
-        <translation>am</translation>
+        <translation>преди обяд</translation>
     </message>
     <message>
         <source>PM</source>
-        <translation>PM</translation>
+        <translation>след обяд</translation>
     </message>
     <message>
         <source>pm</source>
-        <translation>pm</translation>
+        <translation>след обяд</translation>
     </message>
 </context>
 <context>
     <name>QDialog</name>
     <message>
         <source>What&apos;s This?</source>
-        <translation>Hvad er det?</translation>
+        <translation>Какво е това?</translation>
     </message>
 </context>
 <context>
     <name>QDialogButtonBox</name>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>Добре</translation>
     </message>
 </context>
 <context>
     <name>QDirModel</name>
     <message>
         <source>Name</source>
-        <translation>Navn</translation>
+        <translation>Име</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Størrelse</translation>
+        <translation>Размер</translation>
     </message>
     <message>
         <source>Kind</source>
         <comment>Match OS X Finder</comment>
-        <translation>Type</translation>
+        <translation>Вид</translation>
     </message>
     <message>
         <source>Type</source>
         <comment>All other platforms</comment>
-        <translation>Type</translation>
+        <translation>Тип</translation>
     </message>
     <message>
         <source>Date Modified</source>
-        <translation>Ændringsdato</translation>
+        <translation>Дата на промяна</translation>
     </message>
 </context>
 <context>
     <name>QDnsLookup</name>
     <message>
         <source>Operation cancelled</source>
-        <translation>Handlingen blev annulleret</translation>
+        <translation>Операцията е отказана</translation>
     </message>
 </context>
 <context>
     <name>QDnsLookupRunnable</name>
     <message>
         <source>IPv6 addresses for nameservers are currently not supported</source>
-        <translation>IPv6-adresser for navneservere understøttes ikke aktuelt</translation>
+        <translation>В момента не се поддържат IPv6 адреси за DNS сървъри</translation>
     </message>
     <message>
         <source>Invalid domain name</source>
-        <translation>Ugyldigt domænenavn</translation>
+        <translation>Грешно име на домейн</translation>
     </message>
     <message>
         <source>Not yet supported on Android</source>
-        <translation>Endnu ikke understøttet på Android</translation>
+        <translation>Все още не се поддържа на Андроид</translation>
     </message>
     <message>
         <source>Resolver functions not found</source>
-        <translation>Løser-funktioner ikke fundet</translation>
+        <translation>Функциите за преобразуване на имена не са намерени</translation>
     </message>
     <message>
         <source>Resolver initialization failed</source>
-        <translation>Løser initialisering fejlede</translation>
+        <translation>Неуспешна инициализация на преобразуването на имена</translation>
     </message>
     <message>
         <source>Server could not process query</source>
-        <translation>Serveren kunne ikke behandle forespørgsel</translation>
+        <translation>Сървърът не може да обработи заявката</translation>
     </message>
     <message>
         <source>Server failure</source>
-        <translation>Serverfejl</translation>
+        <translation>Сървърна грешка</translation>
     </message>
     <message>
         <source>Non existent domain</source>
-        <translation>Ikke eksisterende domæne</translation>
+        <translation>Несъществуващ домейн</translation>
     </message>
     <message>
         <source>Server refused to answer</source>
-        <translation>Serveren nægtede at svare</translation>
+        <translation>Сървърът отказа да отговори</translation>
     </message>
     <message>
         <source>Invalid reply received</source>
-        <translation>Ugyldigt svar modtaget</translation>
+        <translation>Получен е грешен отговор</translation>
     </message>
     <message>
         <source>Could not expand domain name</source>
-        <translation>Kunne ikke udvide domænenavn</translation>
+        <translation>Името на домейна не може да бъде разгънато</translation>
     </message>
     <message>
         <source>Invalid IPv4 address record</source>
-        <translation>Ugyldig IPv4-adresse-record</translation>
+        <translation>Грешен запис за IPv4 адрес</translation>
     </message>
     <message>
         <source>Invalid IPv6 address record</source>
-        <translation>Ugyldig IPv6-adresse-record</translation>
+        <translation>Грешен запис за IPv6 адрес</translation>
     </message>
     <message>
         <source>Invalid canonical name record</source>
-        <translation>Ugyldig kanonisk navn-record</translation>
+        <translation>Грешен запис за канонично име</translation>
     </message>
     <message>
         <source>Invalid name server record</source>
-        <translation>Ugyldig navneserver-record</translation>
+        <translation>Грешен DNS запис</translation>
     </message>
     <message>
         <source>Invalid pointer record</source>
-        <translation>Ugyldig pointer-record</translation>
+        <translation>Грешен запис за указател</translation>
     </message>
     <message>
         <source>Invalid mail exchange record</source>
-        <translation>Ugyldig mail exchange-record</translation>
+        <translation>Грешен запис за обмяна на поща</translation>
     </message>
     <message>
         <source>Invalid service record</source>
-        <translation>Ugyldig service-record</translation>
+        <translation>Грешен запис за услуга</translation>
     </message>
     <message>
         <source>Invalid text record</source>
-        <translation>Ugyldig tekst-record</translation>
+        <translation>Грешен текстов (DNS) запис</translation>
     </message>
     <message>
         <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
-        <translation>Løser-bibliotek kan ikke indlæses: ingen understøttelse af rumtime-bibliotek indlæsning</translation>
+        <translation>Библиотеката за преобразуване на имена не може да бъде заредена: Няма поддръжка за зареждане на библиотеки по време на изпълнение</translation>
     </message>
     <message>
         <source>No hostname given</source>
-        <translation>Intet værtsnavn givet</translation>
+        <translation>Не е посочено име на хост</translation>
     </message>
     <message>
         <source>Invalid hostname</source>
-        <translation>Ugyldigt værtsnavn</translation>
+        <translation>Грешно име на хост</translation>
     </message>
     <message>
         <source>Host %1 could not be found.</source>
-        <translation>Værten %1 kunne ikke findes.</translation>
+        <translation>Хостът %1 не може да бъде намерен.</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Ukendt fejl</translation>
+        <translation>Неизвестна грешка</translation>
     </message>
 </context>
 <context>
@@ -743,402 +743,402 @@ Tryk på ESC for at annullere</translation>
     <message>
         <source>Float</source>
         <extracomment>Accessible name for button undocking a dock widget (floating state)</extracomment>
-        <translation>Flyd</translation>
+        <translation>Откачане</translation>
     </message>
     <message>
         <source>Undocks and re-attaches the dock widget</source>
-        <translation>Frigør og gentilkobler dok-widget&apos;en</translation>
+        <translation>Откача и отново закача прикачащия се елемент</translation>
     </message>
     <message>
         <source>Close</source>
         <extracomment>Accessible name for button closing a dock widget</extracomment>
-        <translation>Luk</translation>
+        <translation>Затваряне</translation>
     </message>
     <message>
         <source>Closes the dock widget</source>
-        <translation>Lukker dok-widget&apos;en</translation>
+        <translation>Затваря прикачащия се елемент</translation>
     </message>
 </context>
 <context>
     <name>QErrorMessage</name>
     <message>
         <source>Debug Message:</source>
-        <translation>Fejlretningsmeddelelse:</translation>
+        <translation>Съобщение за отстраняване на грешки:</translation>
     </message>
     <message>
         <source>Warning:</source>
-        <translation>Advarsel:</translation>
+        <translation>Предупреждение:</translation>
     </message>
     <message>
         <source>Fatal Error:</source>
-        <translation>Fatal fejl:</translation>
+        <translation>Фатална грешка:</translation>
     </message>
     <message>
         <source>&amp;Show this message again</source>
-        <translation>&amp;Vis denne meddelelse igen</translation>
+        <translation>&amp;Показване на това съобщение отново</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
+        <translation>&amp;Добре</translation>
     </message>
 </context>
 <context>
     <name>QFile</name>
     <message>
         <source>Destination file is the same file.</source>
-        <translation>Destinationsfilen er den samme fil.</translation>
+        <translation>Целевият файл е същият.</translation>
     </message>
     <message>
         <source>Source file does not exist.</source>
-        <translation>Kildefilen findes ikke.</translation>
+        <translation>Изходният файл не съществува.</translation>
     </message>
     <message>
         <source>Destination file exists</source>
-        <translation>Destinationsfilen findes</translation>
+        <translation>Целевият файл съществува</translation>
     </message>
     <message>
         <source>Error while renaming.</source>
-        <translation>Fejl under omdøbning.</translation>
+        <translation>Грешка при преименуване.</translation>
     </message>
     <message>
         <source>Unable to restore from %1: %2</source>
-        <translation>Kunne ikke genskabe fra %1: %2</translation>
+        <translation>Неуспешно възстановяване от %1: %2</translation>
     </message>
     <message>
         <source>Will not rename sequential file using block copy</source>
-        <translation>Vil ikke omdøbe fortløbende fil ved brug af blokkopiering</translation>
+        <translation>Последователният файл няма да бъде преименуван чрез поблоково копиране</translation>
     </message>
     <message>
         <source>Cannot remove source file</source>
-        <translation>Kan ikke fjerne kildefilen</translation>
+        <translation>Изходният файл не може да бъде премахнат</translation>
     </message>
     <message>
         <source>Cannot open %1 for input</source>
-        <translation>Kan ikke åbne %1 for input</translation>
+        <translation>%1 не може да бъде отворен за входни операции</translation>
     </message>
     <message>
         <source>Cannot open for output</source>
-        <translation>Kan ikke åbne for output</translation>
+        <translation>Отварянето за изходни операции е невъзможно</translation>
     </message>
     <message>
         <source>Failure to write block</source>
-        <translation>Kunne ikke skrive blok</translation>
+        <translation>Неуспешен запис на блок</translation>
     </message>
     <message>
         <source>Cannot create %1 for output</source>
-        <translation>Kan ikke oprette %1 for output</translation>
+        <translation>%1 не може да бъде създаден за извеждане</translation>
     </message>
 </context>
 <context>
     <name>QFileDevice</name>
     <message>
         <source>No file engine available or engine does not support UnMapExtension</source>
-        <translation>Ingen tilgængelig fil-motor eller motor understøtter ikke UnMapExtension</translation>
+        <translation>Не е наличен посредник за работа с файлове или наличният не поддържа UnMapExtension</translation>
     </message>
 </context>
 <context>
     <name>QFileDialog</name>
     <message>
         <source>All Files (*)</source>
-        <translation>Alle filer (*)</translation>
+        <translation>Всички файлове (*)</translation>
     </message>
     <message>
         <source>Look in:</source>
-        <translation>Kig i:</translation>
+        <translation>Преглед на:</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Tilbage</translation>
+        <translation>Назад</translation>
     </message>
     <message>
         <source>Go back</source>
-        <translation>Gå tilbage</translation>
+        <translation>Връщане назад</translation>
     </message>
     <message>
         <source>Alt+Left</source>
-        <translation>Alt+Venstre</translation>
+        <translation>Alt + Наляво</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>Frem</translation>
+        <translation>Напред</translation>
     </message>
     <message>
         <source>Go forward</source>
-        <translation>Gå fremad</translation>
+        <translation>Преминаване напред</translation>
     </message>
     <message>
         <source>Alt+Right</source>
-        <translation>Alt+Højre</translation>
+        <translation>Alt + Надясно</translation>
     </message>
     <message>
         <source>Parent Directory</source>
-        <translation>Ovenliggende mappe</translation>
+        <translation>Горна папка</translation>
     </message>
     <message>
         <source>Go to the parent directory</source>
-        <translation>Gå til den overliggende mappe</translation>
+        <translation>Преминаване към горната папка</translation>
     </message>
     <message>
         <source>Alt+Up</source>
-        <translation>Alt+Op</translation>
+        <translation>Alt + Нагоре</translation>
     </message>
     <message>
         <source>Create New Folder</source>
-        <translation>Opret ny mappe</translation>
+        <translation>Създаване на нова папка</translation>
     </message>
     <message>
         <source>Create a New Folder</source>
-        <translation>Opret en ny mappe</translation>
+        <translation>Създаване на нова папка</translation>
     </message>
     <message>
         <source>List View</source>
-        <translation>Listevisning</translation>
+        <translation>Компактен списък</translation>
     </message>
     <message>
         <source>Change to list view mode</source>
-        <translation>Skift til listevisningstilstand</translation>
+        <translation>Превключване в режим на компактен списък</translation>
     </message>
     <message>
         <source>Detail View</source>
-        <translation>Detaljeret visning</translation>
+        <translation>Подробен списък</translation>
     </message>
     <message>
         <source>Change to detail view mode</source>
-        <translation>Skift til detaljeret visningstilstand</translation>
+        <translation>Превключване в режим на подробен списък</translation>
     </message>
     <message>
         <source>Sidebar</source>
-        <translation>Sidebjælke</translation>
+        <translation>Страничен панел	</translation>
     </message>
     <message>
         <source>List of places and bookmarks</source>
-        <translation>Liste med steder og bogmærker</translation>
+        <translation>Списък от системни и любими места</translation>
     </message>
     <message>
         <source>Files</source>
-        <translation>Filer</translation>
+        <translation>Файлове</translation>
     </message>
     <message>
         <source>Files of type:</source>
-        <translation>Filer af type:</translation>
+        <translation>Файлове от тип:</translation>
     </message>
     <message>
         <source>Find Directory</source>
-        <translation>Find mappe</translation>
+        <translation>Търсене на папка</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Åbn</translation>
+        <translation>Отваряне</translation>
     </message>
     <message>
         <source>Save As</source>
-        <translation>Gem som</translation>
+        <translation>Запазване като</translation>
     </message>
     <message>
         <source>Directory:</source>
-        <translation>Mappe:</translation>
+        <translation>Папка:</translation>
     </message>
     <message>
         <source>File &amp;name:</source>
-        <translation>&amp;Filnavn:</translation>
+        <translation>Име на &amp;файла:</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Åbn</translation>
+        <translation>&amp;Отваряне</translation>
     </message>
     <message>
         <source>&amp;Choose</source>
-        <translation>&amp;Vælg</translation>
+        <translation>Из&amp;биране</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;Gem</translation>
+        <translation>&amp;Запазване</translation>
     </message>
     <message>
         <source>Show </source>
-        <translation>Vis </translation>
+        <translation>Показване</translation>
     </message>
     <message>
         <source>&amp;Rename</source>
-        <translation>&amp;Omdøb</translation>
+        <translation>&amp;Преименуване</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Slet</translation>
+        <translation>&amp;Изтриване</translation>
     </message>
     <message>
         <source>Show &amp;hidden files</source>
-        <translation>Vis s&amp;kjulte filer</translation>
+        <translation>Показване на &amp;скритите файлове</translation>
     </message>
     <message>
         <source>&amp;New Folder</source>
-        <translation>&amp;Ny mappe</translation>
+        <translation>&amp;Нова папка</translation>
     </message>
     <message>
         <source>All files (*)</source>
-        <translation>Alle filer (*)</translation>
+        <translation>Всички файлове (*)</translation>
     </message>
     <message>
         <source>Directories</source>
-        <translation>Mapper</translation>
+        <translation>Папки</translation>
     </message>
     <message>
         <source>%1
 Directory not found.
 Please verify the correct directory name was given.</source>
         <translation>%1
-Mappen blev ikke fundet.
-Kontrollér, at det korrekte mappenavn blev givet.</translation>
+Папката не е намерена.
+Моля, уверете се, че е посочено правилно име на папка.</translation>
     </message>
     <message>
         <source>%1 already exists.
 Do you want to replace it?</source>
-        <translation>%1 findes allerede.
-Vil du erstatte den?</translation>
+        <translation>%1 вече съществува.
+Искате ли да го замените?</translation>
     </message>
     <message>
         <source>%1
 File not found.
 Please verify the correct file name was given.</source>
         <translation>%1
-Filen blev ikke fundet.
-Kontrollér, at det korrekte filnavn blev givet.</translation>
+Файлът не е намерен.
+Моля, уверете се, че е посочено правилно име на файл.</translation>
     </message>
     <message>
         <source>New Folder</source>
-        <translation>Ny mappe</translation>
+        <translation>Нова папка</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Slet</translation>
+        <translation>Изтриване</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is write protected.
 Do you want to delete it anyway?</source>
-        <translation>&apos;%1&apos; er skrivebeskyttet.
-Vil du slette den alligevel?</translation>
+        <translation>„%1“ има защита против запис.
+Искате ли въпреки това да продължите с изтриването?</translation>
     </message>
     <message>
         <source>Are you sure you want to delete &apos;%1&apos;?</source>
-        <translation>Er du sikker på, at du vil slette &apos;%1&apos;?</translation>
+        <translation>Наистина ли искате да изтриете „%1“?</translation>
     </message>
     <message>
         <source>Could not delete directory.</source>
-        <translation>Kunne ikke slette mappen.</translation>
+        <translation>Папката не може да бъде изтрита.</translation>
     </message>
     <message>
         <source>Recent Places</source>
-        <translation>Nylige steder</translation>
+        <translation>Наскоро използвани места</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Fjern</translation>
+        <translation>Премахване</translation>
     </message>
     <message>
         <source>My Computer</source>
-        <translation>Denne Computer</translation>
+        <translation>Моят компютър</translation>
     </message>
     <message>
         <source>Drive</source>
-        <translation>Drev</translation>
+        <translation>Дял</translation>
     </message>
     <message>
         <source>%1 File</source>
         <extracomment>%1 is a file name suffix, for example txt</extracomment>
-        <translation>%1-fil</translation>
+        <translation>Файл %1</translation>
     </message>
     <message>
         <source>File</source>
-        <translation>Fil</translation>
+        <translation>Файл</translation>
     </message>
     <message>
         <source>File Folder</source>
         <comment>Match Windows Explorer</comment>
-        <translation>Filmappe</translation>
+        <translation>Папка</translation>
     </message>
     <message>
         <source>Folder</source>
         <comment>All other platforms</comment>
-        <translation>Mappe</translation>
+        <translation>Папка</translation>
     </message>
     <message>
         <source>Alias</source>
         <comment>OS X Finder</comment>
-        <translation>Alias</translation>
+        <translation>Псевдоним</translation>
     </message>
     <message>
         <source>Shortcut</source>
         <comment>All other platforms</comment>
-        <translation>Genvej</translation>
+        <translation>Пряк път</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Ukendt</translation>
+        <translation>Неизвестно</translation>
     </message>
 </context>
 <context>
     <name>QFileSystemModel</name>
     <message>
         <source>%1 TB</source>
-        <translation>%1 TB</translation>
+        <translation>%1 ТБ</translation>
     </message>
     <message>
         <source>%1 GB</source>
-        <translation>%1 GB</translation>
+        <translation>%1 ГБ</translation>
     </message>
     <message>
         <source>%1 MB</source>
-        <translation>%1 MB</translation>
+        <translation>%1 МБ</translation>
     </message>
     <message>
         <source>%1 KB</source>
-        <translation>%1 KB</translation>
+        <translation>%1 КБ</translation>
     </message>
     <message>
         <source>%1 bytes</source>
-        <translation>%1 byte</translation>
+        <translation>%1 байта</translation>
     </message>
     <message>
         <source>Invalid filename</source>
-        <translation>Ugyldigt filnavn</translation>
+        <translation>Грешно име на файл</translation>
     </message>
     <message>
         <source>&lt;b&gt;The name &quot;%1&quot; can not be used.&lt;/b&gt;&lt;p&gt;Try using another name, with fewer characters or no punctuations marks.</source>
-        <translation>&lt;b&gt;Navnet &quot;%1&quot; kan ikke bruges.&lt;/b&gt;&lt;p&gt;Prøv et andet navn, med færre tegn eller ingen tegnsætningstegn.</translation>
+        <translation>&lt;b&gt;Името „%1“ не може да бъде използвано.&lt;/b&gt;&lt;p&gt;Опитайте да използвате друго име с по-малко знаци и/или без пунктуационни знаци.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Navn</translation>
+        <translation>Име</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Størrelse</translation>
+        <translation>Размер</translation>
     </message>
     <message>
         <source>Kind</source>
         <comment>Match OS X Finder</comment>
-        <translation>Type</translation>
+        <translation>Вид</translation>
     </message>
     <message>
         <source>Type</source>
         <comment>All other platforms</comment>
-        <translation>Type</translation>
+        <translation>Тип</translation>
     </message>
     <message>
         <source>Date Modified</source>
-        <translation>Ændringsdato</translation>
+        <translation>Дата на промяна</translation>
     </message>
     <message>
         <source>My Computer</source>
-        <translation>Denne Computer</translation>
+        <translation>Моят компютър</translation>
     </message>
     <message>
         <source>Computer</source>
-        <translation>Computer</translation>
+        <translation>Компютър</translation>
     </message>
     <message>
         <source>%1 byte(s)</source>
-        <translation>%1 byte</translation>
+        <translation>%1 байт(а)</translation>
     </message>
 </context>
 <context>
@@ -1146,345 +1146,345 @@ Vil du slette den alligevel?</translation>
     <message>
         <source>Normal</source>
         <comment>The Normal or Regular font weight</comment>
-        <translation>Normal</translation>
+        <translation>Нормален</translation>
     </message>
     <message>
         <source>Bold</source>
-        <translation>Fed</translation>
+        <translation>Удебелен</translation>
     </message>
     <message>
         <source>Demi Bold</source>
-        <translation>Semi fed</translation>
+        <translation>Полуудебелен</translation>
     </message>
     <message>
         <source>Medium</source>
         <comment>The Medium font weight</comment>
-        <translation>Medium</translation>
+        <translation>Среден</translation>
     </message>
     <message>
         <source>Black</source>
-        <translation>Sort</translation>
+        <translation>Черен</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>Let</translation>
+        <translation>Олекотен</translation>
     </message>
     <message>
         <source>Thin</source>
-        <translation>Tynd</translation>
+        <translation>Тънък</translation>
     </message>
     <message>
         <source>Extra Light</source>
-        <translation>Ekstra let</translation>
+        <translation>Допълнително олекотен</translation>
     </message>
     <message>
         <source>Extra Bold</source>
-        <translation>Ekstra fed</translation>
+        <translation>Допълнително удебелен</translation>
     </message>
     <message>
         <source>Extra</source>
         <extracomment>The word for &quot;Extra&quot; as in &quot;Extra Bold, Extra Thin&quot; used as a pattern for string searches</extracomment>
-        <translation>Ekstra</translation>
+        <translation>Допълнително</translation>
     </message>
     <message>
         <source>Demi</source>
         <extracomment>The word for &quot;Demi&quot; as in &quot;Demi Bold&quot; used as a pattern for string searches</extracomment>
-        <translation>Semi</translation>
+        <translation>Полу</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation>Kursiv</translation>
+        <translation>Курсив</translation>
     </message>
     <message>
         <source>Oblique</source>
-        <translation>Skæv</translation>
+        <translation>Наклонен</translation>
     </message>
     <message>
         <source>Any</source>
-        <translation>Vilkårligt</translation>
+        <translation>Всякаква</translation>
     </message>
     <message>
         <source>Latin</source>
-        <translation>Latinsk</translation>
+        <translation>Латиница</translation>
     </message>
     <message>
         <source>Greek</source>
-        <translation>Græsk</translation>
+        <translation>Гръцка</translation>
     </message>
     <message>
         <source>Cyrillic</source>
-        <translation>Kyrillisk</translation>
+        <translation>Кирилица</translation>
     </message>
     <message>
         <source>Armenian</source>
-        <translation>Armensk</translation>
+        <translation>Арменска</translation>
     </message>
     <message>
         <source>Hebrew</source>
-        <translation>Hebraisk</translation>
+        <translation>Еврейска</translation>
     </message>
     <message>
         <source>Arabic</source>
-        <translation>Arabisk</translation>
+        <translation>Арабска</translation>
     </message>
     <message>
         <source>Syriac</source>
-        <translation>Syrisk</translation>
+        <translation>Сирийска</translation>
     </message>
     <message>
         <source>Thaana</source>
-        <translation>Thaana</translation>
+        <translation>Тана</translation>
     </message>
     <message>
         <source>Devanagari</source>
-        <translation>Devanagari</translation>
+        <translation>Деванагари</translation>
     </message>
     <message>
         <source>Bengali</source>
-        <translation>Bengalsk</translation>
+        <translation>Бенгалска</translation>
     </message>
     <message>
         <source>Gurmukhi</source>
-        <translation>Gurmukhi</translation>
+        <translation>Гурмукхи</translation>
     </message>
     <message>
         <source>Gujarati</source>
-        <translation>Gujarati</translation>
+        <translation>Гуджарати</translation>
     </message>
     <message>
         <source>Oriya</source>
-        <translation>Orija</translation>
+        <translation>Ория</translation>
     </message>
     <message>
         <source>Tamil</source>
-        <translation>Tamilsk</translation>
+        <translation>Тамилска</translation>
     </message>
     <message>
         <source>Telugu</source>
-        <translation>Telugu</translation>
+        <translation>Телугу</translation>
     </message>
     <message>
         <source>Kannada</source>
-        <translation>Kannaresisk</translation>
+        <translation>Каннада</translation>
     </message>
     <message>
         <source>Malayalam</source>
-        <translation>Malayalam</translation>
+        <translation>Малаялам</translation>
     </message>
     <message>
         <source>Sinhala</source>
-        <translation>Sinhala</translation>
+        <translation>Синхалска</translation>
     </message>
     <message>
         <source>Thai</source>
-        <translation>Thailandsk</translation>
+        <translation>Тайска</translation>
     </message>
     <message>
         <source>Lao</source>
-        <translation>Laotisk</translation>
+        <translation>Лаоска</translation>
     </message>
     <message>
         <source>Tibetan</source>
-        <translation>Tibetansk</translation>
+        <translation>Тибетска</translation>
     </message>
     <message>
         <source>Myanmar</source>
-        <translation>Myanmar</translation>
+        <translation>Бирманска</translation>
     </message>
     <message>
         <source>Georgian</source>
-        <translation>Georgisk</translation>
+        <translation>Грузинска</translation>
     </message>
     <message>
         <source>Khmer</source>
-        <translation>Khmer</translation>
+        <translation>Кхмерска</translation>
     </message>
     <message>
         <source>Simplified Chinese</source>
-        <translation>Kinesisk (forenklet)</translation>
+        <translation>Опростен китайски</translation>
     </message>
     <message>
         <source>Traditional Chinese</source>
-        <translation>Kinesisk (traditionelt)</translation>
+        <translation>Традиционен китайски</translation>
     </message>
     <message>
         <source>Japanese</source>
-        <translation>Japansk</translation>
+        <translation>Японска</translation>
     </message>
     <message>
         <source>Korean</source>
-        <translation>Koreansk</translation>
+        <translation>Корейска</translation>
     </message>
     <message>
         <source>Vietnamese</source>
-        <translation>Vietnamesisk</translation>
+        <translation>Виетнамска</translation>
     </message>
     <message>
         <source>Symbol</source>
-        <translation>Symboler</translation>
+        <translation>Знаци</translation>
     </message>
     <message>
         <source>Ogham</source>
-        <translation>Ogham</translation>
+        <translation>Огам</translation>
     </message>
     <message>
         <source>Runic</source>
-        <translation>Runer</translation>
+        <translation>Руническа</translation>
     </message>
     <message>
         <source>N&apos;Ko</source>
-        <translation>N&apos;Ko</translation>
+        <translation>Н&apos;Ко</translation>
     </message>
 </context>
 <context>
     <name>QFontDialog</name>
     <message>
         <source>Select Font</source>
-        <translation>Vælg skrifttype</translation>
+        <translation>Избор на шрифт</translation>
     </message>
     <message>
         <source>&amp;Font</source>
-        <translation>S&amp;krifttype</translation>
+        <translation>&amp;Шрифт</translation>
     </message>
     <message>
         <source>Font st&amp;yle</source>
-        <translation>Skrifts&amp;til</translation>
+        <translation>&amp;Стил</translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>&amp;Størrelse</translation>
+        <translation>&amp;Размер</translation>
     </message>
     <message>
         <source>Effects</source>
-        <translation>Effekter</translation>
+        <translation>Ефекти</translation>
     </message>
     <message>
         <source>Stri&amp;keout</source>
-        <translation>&amp;Overstreget</translation>
+        <translation>&amp;Зачертан</translation>
     </message>
     <message>
         <source>&amp;Underline</source>
-        <translation>&amp;Understreget</translation>
+        <translation>&amp;Подчертан</translation>
     </message>
     <message>
         <source>Sample</source>
-        <translation>Prøve</translation>
+        <translation>Преглед</translation>
     </message>
     <message>
         <source>Wr&amp;iting System</source>
-        <translation>Skr&amp;ivesystem</translation>
+        <translation>Пис&amp;меност</translation>
     </message>
 </context>
 <context>
     <name>QFtp</name>
     <message>
         <source>Not connected</source>
-        <translation>Ikke forbundet</translation>
+        <translation>Няма връзка</translation>
     </message>
     <message>
         <source>Host %1 not found</source>
-        <translation>Værten %1 blev ikke fundet</translation>
+        <translation>Сървърът %1 не е намерен</translation>
     </message>
     <message>
         <source>Connection refused to host %1</source>
-        <translation>Forbindelse til værten %1 afvist</translation>
+        <translation>Връзката със сървъра %1 е отказана</translation>
     </message>
     <message>
         <source>Connection timed out to host %1</source>
-        <translation>Forbindelsen fik timeout til værten %1</translation>
+        <translation>Времето на връзката към сървъра %1 изтече</translation>
     </message>
     <message>
         <source>Connected to host %1</source>
-        <translation>Forbundet til værten %1</translation>
+        <translation>Свързан с %1</translation>
     </message>
     <message>
         <source>Data Connection refused</source>
-        <translation>Dataforbindelsen blev afvist</translation>
+        <translation>Връзката за данни е отказана</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Ukendt fejl</translation>
+        <translation>Неизвестна грешка</translation>
     </message>
     <message>
         <source>Connecting to host failed:
 %1</source>
-        <translation>Forbindelsen til værten fejlede:
+        <translation>Неуспешно свързване със сървъра:
 %1</translation>
     </message>
     <message>
         <source>Login failed:
 %1</source>
-        <translation>Login fejlede:
+        <translation>неуспешно влизане:
 %1</translation>
     </message>
     <message>
         <source>Listing directory failed:
 %1</source>
-        <translation>Mappevisning fejlede:
+        <translation>Неуспешно изтегляне на съдържанието на папка:
 %1</translation>
     </message>
     <message>
         <source>Changing directory failed:
 %1</source>
-        <translation>Ændring af mappe fejlede:
+        <translation>Неуспешно преминаване към друга папка:
 %1</translation>
     </message>
     <message>
         <source>Downloading file failed:
 %1</source>
-        <translation>Download af fil fejlede:
+        <translation>Неуспешно сваляне на файл:
 %1</translation>
     </message>
     <message>
         <source>Uploading file failed:
 %1</source>
-        <translation>Upload af fil fejlede:
+        <translation>Неуспешно качване на файл:
 %1</translation>
     </message>
     <message>
         <source>Removing file failed:
 %1</source>
-        <translation>Fjernelse af fil fejlede:
+        <translation>Неуспешно изтриване на файл:
 %1</translation>
     </message>
     <message>
         <source>Creating directory failed:
 %1</source>
-        <translation>Oprettelse af mappe fejlede:
+        <translation>Неуспешно създаване на папка:
 %1</translation>
     </message>
     <message>
         <source>Removing directory failed:
 %1</source>
-        <translation>Fjernelse af mappe fejlede:
+        <translation>Неуспешно изтриване на папка:
 %1</translation>
     </message>
     <message>
         <source>Connection closed</source>
-        <translation>Forbindelsen lukket</translation>
+        <translation>Връзката е преустановена</translation>
     </message>
 </context>
 <context>
     <name>QGnomeTheme</name>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
+        <translation>&amp;Добре</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;Gem</translation>
+        <translation>&amp;Запазване</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Annuller</translation>
+        <translation>&amp;Отказ</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Luk</translation>
+        <translation>З&amp;атваряне</translation>
     </message>
     <message>
         <source>Close without Saving</source>
-        <translation>Luk uden at gemme</translation>
+        <translation>Затваряне без запазване</translation>
     </message>
 </context>
 <context>
@@ -1499,1008 +1499,1008 @@ Vil du slette den alligevel?</translation>
     <name>QHostInfo</name>
     <message>
         <source>No host name given</source>
-        <translation>Intet værtsnavn givet</translation>
+        <translation>Не е посочено име на хост</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Ukendt fejl</translation>
+        <translation>Неизвестна грешка</translation>
     </message>
 </context>
 <context>
     <name>QHostInfoAgent</name>
     <message>
         <source>No host name given</source>
-        <translation>Intet værtsnavn givet</translation>
+        <translation>Не е посочено име на хост</translation>
     </message>
     <message>
         <source>Invalid hostname</source>
-        <translation>Ugyldigt værtsnavn</translation>
+        <translation>Грешно име на хост</translation>
     </message>
     <message>
         <source>Unknown address type</source>
-        <translation>Ukendt adressetype</translation>
+        <translation>Непознат тип адрес</translation>
     </message>
     <message>
         <source>Host not found</source>
-        <translation>Værten blev ikke fundet</translation>
+        <translation>Хостът не е намерен</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Ukendt fejl</translation>
+        <translation>Неизвестна грешка</translation>
     </message>
     <message>
         <source>Unknown error (%1)</source>
-        <translation>Ukendt fejl (%1)</translation>
+        <translation>Неизвестна грешка (%1)</translation>
     </message>
 </context>
 <context>
     <name>QHttp</name>
     <message>
         <source>Host %1 not found</source>
-        <translation>Værten %1 blev ikke fundet</translation>
+        <translation>Сървърът %1 не е намерен</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>Forbindelsen blev afvist</translation>
+        <translation>Връзката е отказана</translation>
     </message>
     <message>
         <source>Connection closed</source>
-        <translation>Forbindelsen blev lukket</translation>
+        <translation>Връзката е преустановена</translation>
     </message>
     <message>
         <source>Proxy requires authentication</source>
-        <translation>Proxyen kræver autentifikation</translation>
+        <translation>Сървърът-посредник изисква удостоверяване</translation>
     </message>
     <message>
         <source>Host requires authentication</source>
-        <translation>Værten kræver autentifikation</translation>
+        <translation>Сървърът изисква удостоверяване</translation>
     </message>
     <message>
         <source>Data corrupted</source>
-        <translation>Data er ødelagt</translation>
+        <translation>Данните са повредени</translation>
     </message>
     <message>
         <source>Unknown protocol specified</source>
-        <translation>Ukendt protokol specificeret</translation>
+        <translation>Указаният протокол е непознат</translation>
     </message>
     <message>
         <source>SSL handshake failed</source>
-        <translation>SSL-håndtryk fejlede</translation>
+        <translation>Неуспешно съгласуване на SSL връзката</translation>
     </message>
     <message>
         <source>Too many redirects</source>
-        <translation>For mange omdirigeringer</translation>
+        <translation>Твърде много пренасочвания</translation>
     </message>
     <message>
         <source>Insecure redirect</source>
-        <translation>Usikker omdirigering</translation>
+        <translation>Необезопасено пренасочване</translation>
     </message>
 </context>
 <context>
     <name>QHttpSocketEngine</name>
     <message>
         <source>Did not receive HTTP response from proxy</source>
-        <translation>Modtog ikke HTTP-svar fra proxyen</translation>
+        <translation>Не е получен HTTP-отговор от сървъра-посредник</translation>
     </message>
     <message>
         <source>Error parsing authentication request from proxy</source>
-        <translation>Fejl under fortolkning af autentifikationsanmodning fra proxyen</translation>
+        <translation>Грешка при анализа на заявката за удостоверяване от сървъра-посредник</translation>
     </message>
     <message>
         <source>Authentication required</source>
-        <translation>Autentifikation kræves</translation>
+        <translation>Изисква се удостоверяване</translation>
     </message>
     <message>
         <source>Proxy denied connection</source>
-        <translation>Proxyen nægtede forbindelsen</translation>
+        <translation>Сървърът-посредник отказа връзката</translation>
     </message>
     <message>
         <source>Error communicating with HTTP proxy</source>
-        <translation>Fejl under kommunikation med HTTP-proxyen</translation>
+        <translation>Грешка при обмена на данни със сървъра-посредник за HTTP</translation>
     </message>
     <message>
         <source>Proxy server not found</source>
-        <translation>Proxy-serveren blev ikke fundet</translation>
+        <translation>Сървърът-посредник не е намерен</translation>
     </message>
     <message>
         <source>Proxy connection refused</source>
-        <translation>Proxy-forbindelsen blev afvist</translation>
+        <translation>Връзката със сървъра-посредник е отказана</translation>
     </message>
     <message>
         <source>Proxy server connection timed out</source>
-        <translation>Proxy-serverforbindelsen fik timeout</translation>
+        <translation>Времето на връзката със сървъра-посредник изтече</translation>
     </message>
     <message>
         <source>Proxy connection closed prematurely</source>
-        <translation>Proxy-forbindelsen lukkede i utide</translation>
+        <translation>Връзката със сървъра-посредник беше преждевременно преустановена</translation>
     </message>
 </context>
 <context>
     <name>QIBaseDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>Fejl ved åbning af databasen</translation>
+        <translation>Грешка при отварянето на базата данни</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>Kunne ikke påbegynde transaktionen</translation>
+        <translation>Трансакцията не успя да започне</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Kunne ikke gennemføre transaktionen</translation>
+        <translation>Трансакцията не може да бъде приложена</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Kunne ikke tilbagetrække transaktionen</translation>
+        <translation>Трансакцията не може да бъде отменена</translation>
     </message>
 </context>
 <context>
     <name>QIBaseResult</name>
     <message>
         <source>Unable to create BLOB</source>
-        <translation>Kunne ikke oprette BLOB</translation>
+        <translation>Неуспешно създаване на BLOB</translation>
     </message>
     <message>
         <source>Unable to write BLOB</source>
-        <translation>Kunne ikke skrive BLOB</translation>
+        <translation>Неуспешно записване на BLOB</translation>
     </message>
     <message>
         <source>Unable to open BLOB</source>
-        <translation>Kunne ikke åbne BLOB</translation>
+        <translation>Неуспешно отваряне на BLOB</translation>
     </message>
     <message>
         <source>Unable to read BLOB</source>
-        <translation>Kunne ikke læse BLOB</translation>
+        <translation>Неуспешно прочитане на BLOB</translation>
     </message>
     <message>
         <source>Could not find array</source>
-        <translation>Kunne ikke finde array</translation>
+        <translation>Масивът не може да бъде намерен</translation>
     </message>
     <message>
         <source>Could not get array data</source>
-        <translation>Kunne ikke hente array-data</translation>
+        <translation>Данните на масива не могат да бъдат получени</translation>
     </message>
     <message>
         <source>Could not get query info</source>
-        <translation>Kunne ikke hente forespørgselsinfo</translation>
+        <translation>Информацията за заявката не може да бъде получена</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>Kunne ikke påbegynde transaktion</translation>
+        <translation>Трансакцията не успя да започне</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Kunne ikke gennemføre transaktionen</translation>
+        <translation>Трансакцията не може да бъде приложена</translation>
     </message>
     <message>
         <source>Could not allocate statement</source>
-        <translation>Kunne ikke allokere udsagn</translation>
+        <translation>Неуспешно заделяне на ресурси за създаване на израза</translation>
     </message>
     <message>
         <source>Could not prepare statement</source>
-        <translation>Kunne ikke forberede udsagn</translation>
+        <translation>Неуспешно подготвяне на израза</translation>
     </message>
     <message>
         <source>Could not describe input statement</source>
-        <translation>Kunne ikke beskrive input-udsagn</translation>
+        <translation>Неуспешно описание на входящия израз</translation>
     </message>
     <message>
         <source>Could not describe statement</source>
-        <translation>Kunne ikke beskrive udsagn</translation>
+        <translation>Неуспешно описание на израза</translation>
     </message>
     <message>
         <source>Unable to close statement</source>
-        <translation>Kunne ikke lukke udsagn</translation>
+        <translation>Неуспешно затваряне на израза</translation>
     </message>
     <message>
         <source>Unable to execute query</source>
-        <translation>Kunne ikke eksekvere forespørgsel</translation>
+        <translation>Заявката не може да бъде изпълнена</translation>
     </message>
     <message>
         <source>Could not fetch next item</source>
-        <translation>Kunne ikke hente næste punkt</translation>
+        <translation>Неуспешно получаване на следващия запис</translation>
     </message>
     <message>
         <source>Could not get statement info</source>
-        <translation>Kunne ikke hente udsagnsinformation</translation>
+        <translation>Неуспешно получаване на информация за израза</translation>
     </message>
 </context>
 <context>
     <name>QIODevice</name>
     <message>
         <source>Permission denied</source>
-        <translation>Tilladelse nægtet</translation>
+        <translation>Достъпът е забранен</translation>
     </message>
     <message>
         <source>Too many open files</source>
-        <translation>For mange åbne filer</translation>
+        <translation>Твърде много отворени файлове</translation>
     </message>
     <message>
         <source>No such file or directory</source>
-        <translation>Filen eller mappen findes ikke</translation>
+        <translation>Няма такъв файл или папка</translation>
     </message>
     <message>
         <source>No space left on device</source>
-        <translation>Ingen ledig plads på enheden</translation>
+        <translation>На устройството няма свободно място</translation>
     </message>
     <message>
         <source>file to open is a directory</source>
-        <translation>filen der skal åbnes er en mappe</translation>
+        <translation>файлът за отваряне е папка</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Ukendt fejl</translation>
+        <translation>Неизвестна грешка</translation>
     </message>
 </context>
 <context>
     <name>QImageReader</name>
     <message>
         <source>Invalid device</source>
-        <translation>Ugyldig enhed</translation>
+        <translation>Неправилно устройство</translation>
     </message>
     <message>
         <source>File not found</source>
-        <translation>Filen blev ikke fundet</translation>
+        <translation>Файлът не е намерен</translation>
     </message>
     <message>
         <source>Unsupported image format</source>
-        <translation>Billedformatet understøttes ikke</translation>
+        <translation>Неподдържан формат за изображения</translation>
     </message>
     <message>
         <source>Unable to read image data</source>
-        <translation>Kunne ikke læse billeddata</translation>
+        <translation>Данните на изображението не могат да бъдат прочетени</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Ukendt fejl</translation>
+        <translation>Неизвестна грешка</translation>
     </message>
 </context>
 <context>
     <name>QImageWriter</name>
     <message>
         <source>Unknown error</source>
-        <translation>Ukendt fejl</translation>
+        <translation>Неизвестна грешка</translation>
     </message>
     <message>
         <source>Device is not set</source>
-        <translation>Enheden er ikke sat</translation>
+        <translation>Не е зададено устройство</translation>
     </message>
     <message>
         <source>Device not writable</source>
-        <translation>Der kan ikke skrives til enheden</translation>
+        <translation>Устройството не позволява запис</translation>
     </message>
     <message>
         <source>Unsupported image format</source>
-        <translation>Billedformatet understøttes ikke</translation>
+        <translation>Неподдържан формат за изображения</translation>
     </message>
 </context>
 <context>
     <name>QInputDialog</name>
     <message>
         <source>Enter a value:</source>
-        <translation>Indtast en værdi:</translation>
+        <translation>Въведете стойност:</translation>
     </message>
 </context>
 <context>
     <name>QJsonParseError</name>
     <message>
         <source>no error occurred</source>
-        <translation>der opstod ingen fejl</translation>
+        <translation>няма грешки</translation>
     </message>
     <message>
         <source>unterminated object</source>
-        <translation>utermineret objekt</translation>
+        <translation>незавършен обект</translation>
     </message>
     <message>
         <source>missing name separator</source>
-        <translation>manglende navneseparator</translation>
+        <translation>липсва разделител на имената</translation>
     </message>
     <message>
         <source>unterminated array</source>
-        <translation>utermineret array</translation>
+        <translation>незавършен масив</translation>
     </message>
     <message>
         <source>missing value separator</source>
-        <translation>manglende værdiseparator</translation>
+        <translation>липсва разделител на стойностите</translation>
     </message>
     <message>
         <source>illegal value</source>
-        <translation>forbudt værdi</translation>
+        <translation>непозволена стойност</translation>
     </message>
     <message>
         <source>invalid termination by number</source>
-        <translation>ugyldig terminering af tal</translation>
+        <translation>неправилно завършване с число</translation>
     </message>
     <message>
         <source>illegal number</source>
-        <translation>forbudt nummer</translation>
+        <translation>неправилно число</translation>
     </message>
     <message>
         <source>invalid escape sequence</source>
-        <translation>ugyldig undvigesekvens</translation>
+        <translation>неправилна управляваща последователност</translation>
     </message>
     <message>
         <source>invalid UTF8 string</source>
-        <translation>ugyldig UTF8-streng</translation>
+        <translation>неправилен низ с кодиране по UTF-8</translation>
     </message>
     <message>
         <source>unterminated string</source>
-        <translation>utermineret streng</translation>
+        <translation>незавършен низ</translation>
     </message>
     <message>
         <source>object is missing after a comma</source>
-        <translation>objekt mangler efter et komma</translation>
+        <translation>липсва обект след запетая</translation>
     </message>
     <message>
         <source>too deeply nested document</source>
-        <translation>for dybt indlejret dokument</translation>
+        <translation>документът има твърде много нива на вложеност</translation>
     </message>
     <message>
         <source>too large document</source>
-        <translation>for stort dokument</translation>
+        <translation>документът е твърде голям</translation>
     </message>
     <message>
         <source>garbage at the end of the document</source>
-        <translation>affald ved slutningen af dokumentet</translation>
+        <translation>излишни данни в края на документа</translation>
     </message>
 </context>
 <context>
     <name>QKeySequenceEdit</name>
     <message>
         <source>Press shortcut</source>
-        <translation>Tryk på genvej</translation>
+        <translation>Натиснете клавиш или комбинация</translation>
     </message>
     <message>
         <source>%1, ...</source>
         <extracomment>This text is an &quot;unfinished&quot; shortcut, expands like &quot;Ctrl+A, ...&quot;</extracomment>
-        <translation>%1, ...</translation>
+        <translation>%1, …</translation>
     </message>
 </context>
 <context>
     <name>QLibrary</name>
     <message>
         <source>&apos;%1&apos; is not an ELF object (%2)</source>
-        <translation>&apos;%1&apos; er ikke et ELF-objekt (%2)</translation>
+        <translation>„%1“ не е обект във формата ELF (%2)</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not an ELF object</source>
-        <translation>&apos;%1&apos; er ikke et ELF-objekt</translation>
+        <translation>„%1“ не е обект във формата ELF</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is an invalid ELF object (%2)</source>
-        <translation>&apos;%1&apos; er et ugyldigt ELF-objekt (%2)</translation>
+        <translation>„%1“ е неправилен обект ELF (%2)</translation>
     </message>
     <message>
         <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
-        <translation>Kunne ikke udtrække plugin-metadata fra &apos;%1&apos;</translation>
+        <translation>Неуспешно извличане на мета-данните за приставката от „%1“</translation>
     </message>
     <message>
         <source>The shared library was not found.</source>
-        <translation>Det delte bibliotek blev ikke fundet.</translation>
+        <translation>Споделената библиотека не беше намерена.</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; is not a valid Qt plugin.</source>
-        <translation>Filen &apos;%1&apos; er ikke et gyldigt Qt-plugin.</translation>
+        <translation>Файлът „%1“ не е правилна приставка на Qt.</translation>
     </message>
     <message>
         <source>The plugin &apos;%1&apos; uses incompatible Qt library. (%2.%3.%4) [%5]</source>
-        <translation>Pluginet &apos;%1&apos; bruger inkompatibelt Qt-bibliotek. (%2.%3.%4) [%5]</translation>
+        <translation>Приставката „%1“ използва несъвместима библиотека Qt. (%2.%3.%4) [%5]</translation>
     </message>
     <message>
         <source>The plugin &apos;%1&apos; uses incompatible Qt library. (Cannot mix debug and release libraries.)</source>
-        <translation>Pluginet &apos;%1&apos; bruger inkompatibelt Qt-bibliotek. (kan ikke blande debug- og release-biblioteker).</translation>
+        <translation>Приставката „%1“ използва несъвместима библиотека Qt. (Не може да се смесват библиотеки, компилирани в различни режими.)</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Ukendt fejl</translation>
+        <translation>Неизвестна грешка</translation>
     </message>
     <message>
         <source>Cannot load library %1: %2</source>
-        <translation>Kan ikke indlæse biblioteket %1: %2</translation>
+        <translation>Неуспешно зареждане на библиотеката %1: %2</translation>
     </message>
     <message>
         <source>Cannot unload library %1: %2</source>
-        <translation>Kan ikke afregistrere biblioteket %1: %2</translation>
+        <translation>Неуспешно освобождаване на библиотеката %1: %2</translation>
     </message>
     <message>
         <source>Cannot resolve symbol &quot;%1&quot; in %2: %3</source>
-        <translation>Kan ikke løse symbolet &quot;%1&quot; i %2: %3</translation>
+        <translation>Символът „%1“ не може да бъде открит в %2: %3</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a valid Mach-O binary (%2)</source>
-        <translation>&apos;%1&apos; er ikke en gyldig Mach-O-binær (%2)</translation>
+        <translation>„%1“ не е двоичен файл във формата Mach-O (%2)</translation>
     </message>
     <message>
         <source>file is corrupt</source>
-        <translation>filen er ødelagt</translation>
+        <translation>файлът е повреден</translation>
     </message>
     <message>
         <source>file too small</source>
-        <translation>filen er for lille</translation>
+        <translation>файлът е твърде малък</translation>
     </message>
     <message>
         <source>no suitable architecture in fat binary</source>
-        <translation>ingen egnede arkitektur i fat-binær</translation>
+        <translation>във файла няма подходяща архитектура</translation>
     </message>
     <message>
         <source>invalid magic %1</source>
-        <translation>ugyldig magisk %1</translation>
+        <translation>грешен вълшебен идентификатор %1</translation>
     </message>
     <message>
         <source>wrong architecture</source>
-        <translation>forkert arkitektur</translation>
+        <translation>грешна архитектура</translation>
     </message>
     <message>
         <source>not a dynamic library</source>
-        <translation>ikke et dynamisk bibliotek</translation>
+        <translation>не е динамична библиотека</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a Qt plugin</source>
-        <translation>&apos;%1&apos; er ikke et Qt-plugin</translation>
+        <translation>„%1“ не е приставка на Qt</translation>
     </message>
 </context>
 <context>
     <name>QLineEdit</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;Fortryd</translation>
+        <translation>&amp;Отмяна</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>&amp;Omgør</translation>
+        <translation>По&amp;втаряне</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>K&amp;lip</translation>
+        <translation>&amp;Изрязване</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Kopiér</translation>
+        <translation>&amp;Копиране</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>&amp;Sæt ind</translation>
+        <translation>&amp;Поставяне</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Slet</translation>
+        <translation>Изтриване</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Markér alt</translation>
+        <translation>Избиране на всичко</translation>
     </message>
 </context>
 <context>
     <name>QLocalServer</name>
     <message>
         <source>%1: Name error</source>
-        <translation>%1: navnefejl</translation>
+        <translation>%1: Неправилно име</translation>
     </message>
     <message>
         <source>%1: Permission denied</source>
-        <translation>%1: tilladelse nægtet</translation>
+        <translation>%1: Достъпът е отказан</translation>
     </message>
     <message>
         <source>%1: Address in use</source>
-        <translation>%1: adresse i brug</translation>
+        <translation>%1: Адресът вече се използва</translation>
     </message>
     <message>
         <source>%1: Unknown error %2</source>
-        <translation>%1: ukendt fejl %2</translation>
+        <translation>%1: Неизвестна грешка %2</translation>
     </message>
 </context>
 <context>
     <name>QLocalSocket</name>
     <message>
         <source>%1: Connection refused</source>
-        <translation>%1: forbindelsen blev afvist</translation>
+        <translation>%1: Връзката е отказана</translation>
     </message>
     <message>
         <source>%1: Remote closed</source>
-        <translation>%1: fjern lukkede</translation>
+        <translation>%1: Отдалечената страна преустанови връзката</translation>
     </message>
     <message>
         <source>%1: Invalid name</source>
-        <translation>%1: ugyldigt navn</translation>
+        <translation>%1: Неправилно име</translation>
     </message>
     <message>
         <source>%1: Socket access error</source>
-        <translation>%1: socket adgangsfejl</translation>
+        <translation>%1: Грешка с достъпа на сокета</translation>
     </message>
     <message>
         <source>%1: Socket resource error</source>
-        <translation>%1: socket ressourcefejl</translation>
+        <translation>%1: Грешка с ресурсите на сокета</translation>
     </message>
     <message>
         <source>%1: Socket operation timed out</source>
-        <translation>%1: socket-handlingen fik timeout</translation>
+        <translation>%1: Времето на операцията със сокета изтече</translation>
     </message>
     <message>
         <source>%1: Datagram too large</source>
-        <translation>%1: datagram er for stort</translation>
+        <translation>%1: Блокът с данни е твърде голям</translation>
     </message>
     <message>
         <source>%1: Connection error</source>
-        <translation>%1: forbindelsesfejl</translation>
+        <translation>%1: Грешка във връзката</translation>
     </message>
     <message>
         <source>%1: The socket operation is not supported</source>
-        <translation>%1: socket-handlingen understøttes ikke</translation>
+        <translation>%1: Операцията със сокета не се поддържа</translation>
     </message>
     <message>
         <source>%1: Operation not permitted when socket is in this state</source>
-        <translation>%1: handlingen er ikke tilladt når socket er i denne tilstand</translation>
+        <translation>%1: Операцията не е разрешена, когато сокетът е в това състояние</translation>
     </message>
     <message>
         <source>%1: Unknown error</source>
-        <translation>%1: ukendt fejl</translation>
+        <translation>%1: Неизвестна грешка</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation>Prøver at oprette forbindelse mens forbindelse er under oprettelse</translation>
+        <translation>Опит за свързване, докато вече протича такъв</translation>
     </message>
     <message>
         <source>%1: Unknown error %2</source>
-        <translation>%1: ukendt fejl %2</translation>
+        <translation>%1: Неизвестна грешка %2</translation>
     </message>
     <message>
         <source>%1: Access denied</source>
-        <translation>%1: adgang nægtet</translation>
+        <translation>%1: Достъпът е отказан</translation>
     </message>
 </context>
 <context>
     <name>QMYSQLDriver</name>
     <message>
         <source>Unable to allocate a MYSQL object</source>
-        <translation>Kunne ikke allokere et MYSQL-objekt</translation>
+        <translation>Неуспешно създаване на обект MYSQL</translation>
     </message>
     <message>
         <source>Unable to open database &apos;%1&apos;</source>
-        <translation>Kunne ikke åbne databasen &apos;%1&apos;</translation>
+        <translation>Неуспешно отваряне на базата данни „%1“</translation>
     </message>
     <message>
         <source>Unable to connect</source>
-        <translation>Kunne ikke oprette forbindelse</translation>
+        <translation>Неуспешно свързване</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>Kunne ikke påbegynde transaktionen</translation>
+        <translation>Трансакцията не може да бъде започната</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Kunne ikke gennemføre transaktionen</translation>
+        <translation>Трансакцията не може да бъде приложена</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Kunne ikke tilbagetrække transaktionen</translation>
+        <translation>Трансакцията не може да бъде отменена</translation>
     </message>
 </context>
 <context>
     <name>QMYSQLResult</name>
     <message>
         <source>Unable to fetch data</source>
-        <translation>Kunne ikke hente data</translation>
+        <translation>Неуспешно получаване на данните</translation>
     </message>
     <message>
         <source>Unable to execute query</source>
-        <translation>Kunne ikke eksekvere forespørgsel</translation>
+        <translation>Заявката не може да бъде изпълнена</translation>
     </message>
     <message>
         <source>Unable to store result</source>
-        <translation>Kunne ikke lagre resultatet</translation>
+        <translation>Резултатът не може да бъде съхранен</translation>
     </message>
     <message>
         <source>Unable to execute next query</source>
-        <translation>Kunne ikke eksekvere næste forespørgsel</translation>
+        <translation>Следващата заявка не може да бъде изпълнена</translation>
     </message>
     <message>
         <source>Unable to store next result</source>
-        <translation>Kunne ikke lagre næste resultat</translation>
+        <translation>Следващият резултат не може да бъде съхранен</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Kunne ikke forberede udsagn</translation>
+        <translation>Изразът не може да бъде подготвен</translation>
     </message>
     <message>
         <source>Unable to reset statement</source>
-        <translation>Kunne ikke nulstille udsagn</translation>
+        <translation>Изразът не може да бъде нулиран</translation>
     </message>
     <message>
         <source>Unable to bind value</source>
-        <translation>Kunne ikke binde værdi</translation>
+        <translation>Стойността не може да бъде свързана</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Kunne ikke eksekvere udsagn</translation>
+        <translation>Изразът не може да бъде изпълнен</translation>
     </message>
     <message>
         <source>Unable to bind outvalues</source>
-        <translation>Kunne ikke binde ud-værdier</translation>
+        <translation>Изходните стойности не могат да бъдат свързани</translation>
     </message>
     <message>
         <source>Unable to store statement results</source>
-        <translation>Kunne ikke lagre udsagnsresultater</translation>
+        <translation>Резултатите от израза не могат да бъдат съхранени</translation>
     </message>
 </context>
 <context>
     <name>QMdiArea</name>
     <message>
         <source>(Untitled)</source>
-        <translation>(unavngivet)</translation>
+        <translation>(Неозаглавено)</translation>
     </message>
 </context>
 <context>
     <name>QMdiSubWindow</name>
     <message>
         <source>- [%1]</source>
-        <translation>- [%1]</translation>
+        <translation>– [%1]</translation>
     </message>
     <message>
         <source>%1 - [%2]</source>
-        <translation>%1 - [%2]</translation>
+        <translation>%1 – [%2]</translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>Minimer</translation>
+        <translation>Минимизиране</translation>
     </message>
     <message>
         <source>Maximize</source>
-        <translation>Maksimer</translation>
+        <translation>Уголемяване</translation>
     </message>
     <message>
         <source>Unshade</source>
-        <translation>Rul ud</translation>
+        <translation>Разгъване</translation>
     </message>
     <message>
         <source>Shade</source>
-        <translation>Rul sammen</translation>
+        <translation>Свиване</translation>
     </message>
     <message>
         <source>Restore Down</source>
-        <translation>Genskab ned</translation>
+        <translation>Смаляване</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation>Genskab</translation>
+        <translation>Възстановяване</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Luk</translation>
+        <translation>Затваряне</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Hjælp</translation>
+        <translation>Помощ</translation>
     </message>
     <message>
         <source>Menu</source>
-        <translation>Menu</translation>
+        <translation>Меню</translation>
     </message>
     <message>
         <source>&amp;Restore</source>
-        <translation>&amp;Genskab</translation>
+        <translation>&amp;Възстановяване</translation>
     </message>
     <message>
         <source>&amp;Move</source>
-        <translation>&amp;Flyt</translation>
+        <translation>&amp;Преместване</translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>&amp;Størrelse</translation>
+        <translation>Прео&amp;размеряване</translation>
     </message>
     <message>
         <source>Mi&amp;nimize</source>
-        <translation>Mi&amp;nimer</translation>
+        <translation>&amp;Минимизиране</translation>
     </message>
     <message>
         <source>Ma&amp;ximize</source>
-        <translation>Ma&amp;ksimer</translation>
+        <translation>&amp;Уголемяване</translation>
     </message>
     <message>
         <source>Stay on &amp;Top</source>
-        <translation>Altid &amp;øverst</translation>
+        <translation>Винаги &amp;отгоре</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Luk</translation>
+        <translation>&amp;Затваряне</translation>
     </message>
 </context>
 <context>
     <name>QMessageBox</name>
     <message>
         <source>Show Details...</source>
-        <translation>Vis detaljer...</translation>
+        <translation>Подробности…</translation>
     </message>
     <message>
         <source>Hide Details...</source>
-        <translation>Skjul detaljer...</translation>
+        <translation>По-малко…</translation>
     </message>
     <message>
         <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
-        <translation>&lt;h3&gt;Om Qt&lt;/h3&gt;&lt;p&gt;Dette program bruger Qt version %1.&lt;/p&gt;</translation>
+        <translation>&lt;h3&gt;Относно Qt&lt;/h3&gt;&lt;p&gt;Тази програма използва Qt версия %1.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Qt er et C++-værktøjskit til programudvikling på tværs af platforme.&lt;/p&gt;&lt;p&gt;Qt giver enkelt-kilde portability på tværs af alle større skrivebordsstyresystemer. Det er også tilgængeligt til Embedded Linux og andre indlejrede og mobile styresystemer.&lt;/p&gt;&lt;p&gt;Qt er tilgængelig under tre forskellige licenseringsmuligheder, designet til at rumme behovene af vores forskellige brugere.&lt;/p&gt;&lt;p&gt;Qt licenseret under vores kommercielle licensaftale er passende til udvikling af proprietær/kommerciel software, hvor du ikke vil dele kildekode med tredjeparter eller på anden måde ikke kan efterleve vilkårene i GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licenseret under GNU LGPL version 3 er passende til udvikling af Qt-programmer, på forudsætning af at du kan efterleve vilkårene og betingelserne i GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Se venligst &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for en oversigt af Qt-licensering.&lt;/p&gt;&lt;p&gt;Ophavsret (C) %1 Qt Company Ltd og andre bidragydere.&lt;/p&gt;&lt;p&gt;Qt og Qt-logoet er varemærker af Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt er Qt Company Ltd-produktet, udviklet som et open source projekt. Se &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for mere information.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Qt е комплект от библиотеки и инструменти за разработка на многоплатформени приложения.&lt;/p&gt;&lt;p&gt;Qt дава възможност без промяна в изходния код програмите да се компилират за всички най-разпространени компютърни операционни системи. Освен това чрез Qt могат да се създават приложения за вградени системи, работещи с Линукс, както и за някои мобилни операционни системи.&lt;/p&gt;&lt;p&gt;Qt предлага три вида лиценз, предназначени за нуждите на различните потребители.&lt;/p&gt;&lt;p&gt;Комерсиалният лиценз на Qt е подходящ за разработка на частни/комерсиални програми, при които разработчикът не желае да прави изходния си код достъпен за другите или по друга причина не може да спази условията на лиценза  GNU LGPL версия 3.&lt;/p&gt;&lt;p&gt;Използването на Qt при условията на лиценза GNU LGPL версия 3 е подходящо за разработка на приложения с Qt, стига да можете да спазите условията на GNU LGPL версия 3.&lt;/p&gt;&lt;p&gt;Моля, посетете &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt;, където ще намерите информация относно лицензите на Qt.&lt;/p&gt;&lt;p&gt;Всички права запазени (C) %1 „The Qt Company“ ООД и други участници.&lt;/p&gt;&lt;p&gt;Qt и логото на Qt са запазени марки на „The Qt Company“ ООД.&lt;/p&gt;&lt;p&gt;Qt е продукт на „The Qt Company“ ООД, който се разработва като проект с отворен код. Посетете &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; за повече информация.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About Qt</source>
-        <translation>Om Qt</translation>
+        <translation>Относно Qt</translation>
     </message>
 </context>
 <context>
     <name>QNativeSocketEngine</name>
     <message>
         <source>Unable to initialize non-blocking socket</source>
-        <translation>Kunne ikke initialisere ikke-blokerende socket</translation>
+        <translation>Неуспешна инициализация на неблокиращ сокет</translation>
     </message>
     <message>
         <source>Unable to initialize broadcast socket</source>
-        <translation>Kunne ikke initialisere broadcast-socket</translation>
+        <translation>Неуспешна инициализация на разпращащ сокет</translation>
     </message>
     <message>
         <source>Attempt to use IPv6 socket on a platform with no IPv6 support</source>
-        <translation>Forsøg på at bruge IPv6-socket på en platform uden IPv6-understøttelse</translation>
+        <translation>Опит за използване на сокет за IPv6 на система, която не поддържа IPv6</translation>
     </message>
     <message>
         <source>The remote host closed the connection</source>
-        <translation>Fjern-værten lukkede forbindelsen</translation>
+        <translation>Отдалечената страна преустанови връзката</translation>
     </message>
     <message>
         <source>Network operation timed out</source>
-        <translation>Netværkshandlingen fik timeout</translation>
+        <translation>Времето на мрежовата операция изтече</translation>
     </message>
     <message>
         <source>Out of resources</source>
-        <translation>Ikke flere ressourcer</translation>
+        <translation>Недостатъчно ресурси</translation>
     </message>
     <message>
         <source>Unsupported socket operation</source>
-        <translation>Socket-handlingen understøttes ikke</translation>
+        <translation>Неподдържана операция със сокет</translation>
     </message>
     <message>
         <source>Protocol type not supported</source>
-        <translation>Protokoltypen understøttes ikke</translation>
+        <translation>Протоколът не се поддържа</translation>
     </message>
     <message>
         <source>Invalid socket descriptor</source>
-        <translation>Ugyldig socket-deskriptor</translation>
+        <translation>Грешен дескриптор на сокет</translation>
     </message>
     <message>
         <source>Host unreachable</source>
-        <translation>Værten kan ikke tilgås</translation>
+        <translation>Хостът е недостъпен</translation>
     </message>
     <message>
         <source>Network unreachable</source>
-        <translation>Netværket kan ikke tilgås</translation>
+        <translation>Мрежата е недостъпна</translation>
     </message>
     <message>
         <source>Permission denied</source>
-        <translation>Tilladelse nægtet</translation>
+        <translation>Достъпът е забранен</translation>
     </message>
     <message>
         <source>Connection timed out</source>
-        <translation>Forbindelsen fik timeout</translation>
+        <translation>Времето на връзката изтече</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>Forbindelsen blev afvist</translation>
+        <translation>Връзката е отказана</translation>
     </message>
     <message>
         <source>The bound address is already in use</source>
-        <translation>Den bundne adresse er allerede i brug</translation>
+        <translation>Адресът вече се използва</translation>
     </message>
     <message>
         <source>The address is not available</source>
-        <translation>Adressen er ikke tilgængelig</translation>
+        <translation>Адресът е недостъпен</translation>
     </message>
     <message>
         <source>The address is protected</source>
-        <translation>Adressen er beskyttet</translation>
+        <translation>Адресът е защитен</translation>
     </message>
     <message>
         <source>Datagram was too large to send</source>
-        <translation>Datagrammet var for stort til at blive sendt</translation>
+        <translation>Блокът с данни е твърде голям и не може да бъде изпратен</translation>
     </message>
     <message>
         <source>Unable to send a message</source>
-        <translation>Kunne ikke sende en meddelelse</translation>
+        <translation>Неуспешно изпращане на съобщение</translation>
     </message>
     <message>
         <source>Unable to receive a message</source>
-        <translation>Kunne ikke modtage en meddelelse</translation>
+        <translation>Неуспешно получаване на съобщение</translation>
     </message>
     <message>
         <source>Unable to write</source>
-        <translation>Kunne ikke skrive</translation>
+        <translation>Неуспешен запис</translation>
     </message>
     <message>
         <source>Network error</source>
-        <translation>Netværksfejl</translation>
+        <translation>Мрежова грешка</translation>
     </message>
     <message>
         <source>Another socket is already listening on the same port</source>
-        <translation>En anden socket lytter allerede på den samme port</translation>
+        <translation>Друг сокет вече слуша на същия порт</translation>
     </message>
     <message>
         <source>Operation on non-socket</source>
-        <translation>Handling på ikke-socket</translation>
+        <translation>Опит за изпълнение на операция върху обект, който не е сокет</translation>
     </message>
     <message>
         <source>The proxy type is invalid for this operation</source>
-        <translation>Proxytypen er ugyldig for denne handling</translation>
+        <translation>Типът на сървъра-посредник не е съвместим с тази операция</translation>
     </message>
     <message>
         <source>Temporary error</source>
-        <translation>Midlertidig fejl</translation>
+        <translation>Временна грешка</translation>
     </message>
     <message>
         <source>Network dropped connection on reset</source>
-        <translation>Netværket droppede forbindelsen ved nulstilling</translation>
+        <translation>Мрежата прекъсна връзката</translation>
     </message>
     <message>
         <source>Connection reset by peer</source>
-        <translation>Forbindelsen blev nulstillet af peer</translation>
+        <translation>Връзката е прекъсната от отдалечената страна</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Ukendt fejl</translation>
+        <translation>Неизвестна грешка</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessCacheBackend</name>
     <message>
         <source>Error opening %1</source>
-        <translation>Fejl under åbning af %1</translation>
+        <translation>Грешка при отваряне на %1</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessDataBackend</name>
     <message>
         <source>Invalid URI: %1</source>
-        <translation>Ugyldig URI: %1</translation>
+        <translation>Грешен ресурсен ид.: %1</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessDebugPipeBackend</name>
     <message>
         <source>Write error writing to %1: %2</source>
-        <translation>Skrivefejl ved skrivning til %1: %2</translation>
+        <translation>Грешка при записа в %1: %2</translation>
     </message>
     <message>
         <source>Socket error on %1: %2</source>
-        <translation>Socket-fejl på %1: %2</translation>
+        <translation>Грешка в сокета за %1: %2</translation>
     </message>
     <message>
         <source>Remote host closed the connection prematurely on %1</source>
-        <translation>Fjern-værten lukkede forbindelsen i utide på %1</translation>
+        <translation>Отдалечената страна преустанови връзката преждевременно за %1</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessFileBackend</name>
     <message>
         <source>Request for opening non-local file %1</source>
-        <translation>Anmodning om at åbne ikke-lokal fil %1</translation>
+        <translation>Заявка за отваряне на файл, който не е локален: %1</translation>
     </message>
     <message>
         <source>Error opening %1: %2</source>
-        <translation>Fejl ved åbning af %1: %2</translation>
+        <translation>Грешка при отваряне на %1: %2</translation>
     </message>
     <message>
         <source>Write error writing to %1: %2</source>
-        <translation>Skrivefejl ved skrivning til %1: %2</translation>
+        <translation>Грешка при записа в %1: %2</translation>
     </message>
     <message>
         <source>Cannot open %1: Path is a directory</source>
-        <translation>Kan ikke åbne %1: stien er en mappe</translation>
+        <translation>Отварянето на %1 е невъзможно: указаният път е папка</translation>
     </message>
     <message>
         <source>Read error reading from %1: %2</source>
-        <translation>Læsefejl ved læsning fra %1: %2</translation>
+        <translation>Грешка при четенето от %1: %2</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessFtpBackend</name>
     <message>
         <source>No suitable proxy found</source>
-        <translation>Der blev ikke fundet en egnet proxy</translation>
+        <translation>Не е открит подходящ сървър-посредник</translation>
     </message>
     <message>
         <source>Cannot open %1: is a directory</source>
-        <translation>Kan ikke åbne %1: er en mappe</translation>
+        <translation>Отварянето на %1 е невъзможно: това е папка</translation>
     </message>
     <message>
         <source>Logging in to %1 failed: authentication required</source>
-        <translation>Logning til %1 fejlede: autentifikation kræves</translation>
+        <translation>Неуспешно влизане в %1: изисква се удостоверяване</translation>
     </message>
     <message>
         <source>Error while downloading %1: %2</source>
-        <translation>Fejl under download af %1: %2</translation>
+        <translation>Грешка при свалянето на %1: %2</translation>
     </message>
     <message>
         <source>Error while uploading %1: %2</source>
-        <translation>Fejl under upload af %1: %2</translation>
+        <translation>Грешка при качването на %1: %2</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessManager</name>
     <message>
         <source>Network access is disabled.</source>
-        <translation>Netværksadgang er deaktiveret.</translation>
+        <translation>Достъпът до мрежата е забранен.</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReply</name>
     <message>
         <source>Error transferring %1 - server replied: %2</source>
-        <translation>Fejl ved overførsel af %1 - serveren svarede: %2</translation>
+        <translation>Грешка при прехвърлянето на %1 – отговорът на сървъра е: %2</translation>
     </message>
     <message>
         <source>Background request not allowed.</source>
-        <translation>Baggrundsanmodning ikke tilladt.</translation>
+        <translation>Фоновите заявки не са разрешени.</translation>
     </message>
     <message>
         <source>Network session error.</source>
-        <translation>Netværkssessionsfejl.</translation>
+        <translation>Грешка в мрежовата сесия.</translation>
     </message>
     <message>
         <source>backend start error.</source>
-        <translation>backend startfejl.</translation>
+        <translation>грешка при стартиране на сървърната услуга.</translation>
     </message>
     <message>
         <source>Temporary network failure.</source>
-        <translation>Midlertidig netværksfejl.</translation>
+        <translation>Временна мрежова грешка.</translation>
     </message>
     <message>
         <source>Protocol &quot;%1&quot; is unknown</source>
-        <translation>Protokollen &quot;%1&quot; er ukendt</translation>
+        <translation>Протоколът „%1“ е непознат</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReplyHttpImpl</name>
     <message>
         <source>Operation canceled</source>
-        <translation>Handlingen blev annulleret</translation>
+        <translation>Операцията е отказана</translation>
     </message>
     <message>
         <source>No suitable proxy found</source>
-        <translation>Der blev ikke fundet en egnet proxy</translation>
+        <translation>Не е открит подходящ сървър-посредник</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReplyImpl</name>
     <message>
         <source>Operation canceled</source>
-        <translation>Handlingen blev annulleret</translation>
+        <translation>Операцията е отказана</translation>
     </message>
 </context>
 <context>
     <name>QNetworkSession</name>
     <message>
         <source>Invalid configuration.</source>
-        <translation>Ugyldig konfiguration.</translation>
+        <translation>Неправилна конфигурация.</translation>
     </message>
 </context>
 <context>
     <name>QNetworkSessionPrivateImpl</name>
     <message>
         <source>Unknown session error.</source>
-        <translation>Ukendt sessionsfejl.</translation>
+        <translation>Неизвестна грешка в сесията.</translation>
     </message>
     <message>
         <source>The session was aborted by the user or system.</source>
-        <translation>Sessionen blev afbrudt af brugeren eller systemet.</translation>
+        <translation>Сесията беше прекратена от потребителя или системата.</translation>
     </message>
     <message>
         <source>The requested operation is not supported by the system.</source>
-        <translation>Den anmodede handling understøttes ikke af systemet.</translation>
+        <translation>Заявената операция не се поддържа от системата.</translation>
     </message>
     <message>
         <source>The specified configuration cannot be used.</source>
-        <translation>Den specificerede konfiguration kan ikke bruges.</translation>
+        <translation>Посочената конфигурация не може да бъде използвана.</translation>
     </message>
     <message>
         <source>Roaming was aborted or is not possible.</source>
-        <translation>Roaming blev afbrudt eller er ikke mulig.</translation>
+        <translation>Роумингът беше прекратен или не е възможен.</translation>
     </message>
 </context>
 <context>
@@ -2508,269 +2508,269 @@ Vil du slette den alligevel?</translation>
     <message>
         <source>Unable to initialize</source>
         <comment>QOCIDriver</comment>
-        <translation>Kunne ikke initialisere</translation>
+        <translation>Неуспешна инициализация</translation>
     </message>
     <message>
         <source>Unable to logon</source>
-        <translation>Kunne ikke logge ind</translation>
+        <translation>Неуспешно удостоверяване</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>Kunne ikke påbegynde transaktionen</translation>
+        <translation>Трансакцията не може да бъде започната</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Kunne ikke gennemføre transaktionen</translation>
+        <translation>Трансакцията не може да бъде приложена</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Kunne ikke tilbagetrække transaktionen</translation>
+        <translation>Трансакцията не може да бъде отменена</translation>
     </message>
 </context>
 <context>
     <name>QOCIResult</name>
     <message>
         <source>Unable to bind column for batch execute</source>
-        <translation>Kunne ikke binde kolonne til batch-eksekvering</translation>
+        <translation>Свързването на колона за групово изпълнение е невъзможно</translation>
     </message>
     <message>
         <source>Unable to execute batch statement</source>
-        <translation>Kunne ikke eksekvere batch-udsagn</translation>
+        <translation>Изразът за групово изпълнение не може да бъде изпълнен</translation>
     </message>
     <message>
         <source>Unable to goto next</source>
-        <translation>Kunne ikke gå til næste</translation>
+        <translation>Преминаването към следващ е невъзможно</translation>
     </message>
     <message>
         <source>Unable to alloc statement</source>
-        <translation>Kunne ikke allokere udsagn</translation>
+        <translation>Изразът не може да бъде създаден</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Kunne ikke forberede udsagn</translation>
+        <translation>Изразът не може да бъде подготвен</translation>
     </message>
     <message>
         <source>Unable to get statement type</source>
-        <translation>Kunne ikke hente udsagnstype</translation>
+        <translation>Типът на израза не може да бъде получен</translation>
     </message>
     <message>
         <source>Unable to bind value</source>
-        <translation>Kunne ikke binde værdi</translation>
+        <translation>Стойността не може да бъде свързана</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Kunne ikke eksekvere udsagn</translation>
+        <translation>Изразът не може да бъде изпълнен</translation>
     </message>
 </context>
 <context>
     <name>QODBCDriver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>Kunne ikke oprette forbindelsen</translation>
+        <translation>Неуспешно свързване</translation>
     </message>
     <message>
         <source>Unable to connect - Driver doesn&apos;t support all functionality required</source>
-        <translation>Kunne ikke oprette forbindelsen - driveren understøtter ikke alle de krævede funktionaliteter</translation>
+        <translation>Неуспешно свързване: драйверът не поддържа цялата нужна функционалност</translation>
     </message>
     <message>
         <source>Unable to disable autocommit</source>
-        <translation>Kunne ikke deaktivere auto-gennemfør</translation>
+        <translation>Автоматичното прилагане не може да бъде изключено</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Kunne ikke gennemføre transaktionen</translation>
+        <translation>Трансакцията не може да бъде приложена</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Kunne ikke tilbagetrække transaktionen</translation>
+        <translation>Трансакцията не може да бъде отменена</translation>
     </message>
     <message>
         <source>Unable to enable autocommit</source>
-        <translation>Kunne ikke aktivere auto-gennemfør</translation>
+        <translation>Автоматичното прилагане не може да бъде включено</translation>
     </message>
 </context>
 <context>
     <name>QODBCResult</name>
     <message>
-        <source>Unable to fetch last</source>
-        <translation>Kunne ikke hente sidste</translation>
-    </message>
-    <message>
         <source>QODBCResult::reset: Unable to set &apos;SQL_CURSOR_STATIC&apos; as statement attribute. Please check your ODBC driver configuration</source>
-        <translation>QODBCResult::reset: kunne ikke sætte &apos;SQL_CURSOR_STATIC&apos; som udsagnsattribut. Tjek venligst din ODBC-driverkonfiguration</translation>
+        <translation>QODBCResult::reset: Стойността „SQL_CURSOR_STATIC“ не може да бъде зададена като атрибут на израз. Моля, проверете конфигурацията на драйвера си за ODBC</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Kunne ikke eksekvere udsagn</translation>
+        <translation>Изразът не може да бъде изпълнен</translation>
     </message>
     <message>
         <source>Unable to fetch</source>
-        <translation>Kunne ikke hente</translation>
+        <translation>Неуспешно получаване на данните</translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>Kunne ikke hente næste</translation>
+        <translation>Неуспешно получаване на следващия запис</translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>Kunne ikke hente første</translation>
+        <translation>Неуспешно получаване на първия запис</translation>
     </message>
     <message>
         <source>Unable to fetch previous</source>
-        <translation>Kunne ikke hente forrige</translation>
+        <translation>Неуспешно получаване на предишния запис</translation>
+    </message>
+    <message>
+        <source>Unable to fetch last</source>
+        <translation>Неуспешно получаване на последния запис</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Kunne ikke forberede udsagn</translation>
+        <translation>Изразът не може да бъде подготвен</translation>
     </message>
     <message>
         <source>Unable to bind variable</source>
-        <translation>Kunne ikke binde variablen</translation>
+        <translation>Неуспешно свързване на променлива</translation>
     </message>
 </context>
 <context>
     <name>QPSQLDriver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>Kunne ikke oprette forbindelse</translation>
+        <translation>Неуспешно свързване</translation>
     </message>
     <message>
         <source>Could not begin transaction</source>
-        <translation>Kunne ikke påbegynde transaktionen</translation>
+        <translation>Неуспешно започване на трансакцията</translation>
     </message>
     <message>
         <source>Could not commit transaction</source>
-        <translation>Kunne ikke gennemføre transaktionen</translation>
+        <translation>Неуспешно прилагане на трансакцията</translation>
     </message>
     <message>
         <source>Could not rollback transaction</source>
-        <translation>Kunne ikke tilbagetrække transaktionen</translation>
+        <translation>Неуспешна отмяна на трансакцията</translation>
     </message>
     <message>
         <source>Unable to subscribe</source>
-        <translation>Kunne ikke tilmelde</translation>
+        <translation>Абонирането е невъзможно</translation>
     </message>
     <message>
         <source>Unable to unsubscribe</source>
-        <translation>Kunne ikke afmelde</translation>
+        <translation>Отписването е невъзможно</translation>
     </message>
 </context>
 <context>
     <name>QPSQLResult</name>
     <message>
         <source>Unable to create query</source>
-        <translation>Kunne ikke oprette forespørgsel</translation>
+        <translation>Създаването на заявка е невъзможно</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Kunne ikke forberede udsagn</translation>
+        <translation>Изразът не може да бъде подготвен</translation>
     </message>
 </context>
 <context>
     <name>QPageSetupWidget</name>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation>Форма</translation>
     </message>
     <message>
         <source>Paper</source>
-        <translation>Papir</translation>
+        <translation>Хартия</translation>
     </message>
     <message>
         <source>Page size:</source>
-        <translation>Sidestørrelse:</translation>
+        <translation>Формат:</translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation>Bredde:</translation>
+        <translation>Ширина:</translation>
     </message>
     <message>
         <source>Height:</source>
-        <translation>Højde:</translation>
+        <translation>Височина:</translation>
     </message>
     <message>
         <source>Paper source:</source>
-        <translation>Papirkilde:</translation>
+        <translation>Касета с хартия:</translation>
     </message>
     <message>
         <source>Orientation</source>
-        <translation>Orientering</translation>
+        <translation>Ориентация</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>Portræt</translation>
+        <translation>Портрет</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>Landskab</translation>
+        <translation>Пейзаж</translation>
     </message>
     <message>
         <source>Reverse landscape</source>
-        <translation>Omvendt landskab</translation>
+        <translation>Обърнат пейзаж</translation>
     </message>
     <message>
         <source>Reverse portrait</source>
-        <translation>Omvendt portræt</translation>
+        <translation>Обърнат портрет</translation>
     </message>
     <message>
         <source>Margins</source>
-        <translation>Margener</translation>
+        <translation>Полета</translation>
     </message>
     <message>
         <source>top margin</source>
-        <translation>øverste margen</translation>
+        <translation>отгоре</translation>
     </message>
     <message>
         <source>left margin</source>
-        <translation>venstre margen</translation>
+        <translation>отляво</translation>
     </message>
     <message>
         <source>right margin</source>
-        <translation>højre margen</translation>
+        <translation>отдясно</translation>
     </message>
     <message>
         <source>bottom margin</source>
-        <translation>nederste margen</translation>
+        <translation>отдолу</translation>
     </message>
     <message>
         <source>Page Layout</source>
-        <translation>Sidelayout</translation>
+        <translation>Оформление на страниците</translation>
     </message>
     <message>
         <source>Page order:</source>
-        <translation>Sideorden:</translation>
+        <translation>Подредба на страниците:</translation>
     </message>
     <message>
         <source>Pages per sheet:</source>
-        <translation>Sider pr. ark:</translation>
+        <translation>Страници на лист:</translation>
     </message>
     <message>
         <source>Millimeters (mm)</source>
-        <translation>Millimeter (mm)</translation>
+        <translation>Милиметри (mm)</translation>
     </message>
     <message>
         <source>Inches (in)</source>
-        <translation>Tommer (tommer)</translation>
+        <translation>Инчове (in)</translation>
     </message>
     <message>
         <source>Points (pt)</source>
-        <translation>Punkter (pt)</translation>
+        <translation>Пунктове (pt)</translation>
     </message>
     <message>
         <source>Pica (P̸)</source>
-        <translation>Pica (P̸)</translation>
+        <translation>Пики (P̸)</translation>
     </message>
     <message>
         <source>Didot (DD)</source>
-        <translation>Didot (DD)</translation>
+        <translation>Дидо (DD)</translation>
     </message>
     <message>
         <source>Cicero (CC)</source>
-        <translation>Cicero (CC)</translation>
+        <translation>Цицеро (CC)</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>Brugerdefineret</translation>
+        <translation>По избор</translation>
     </message>
     <message>
         <source>mm</source>
@@ -2785,7 +2785,7 @@ Vil du slette den alligevel?</translation>
     <message>
         <source>in</source>
         <extracomment>Unit &apos;Inch&apos;</extracomment>
-        <translation>tommer</translation>
+        <translation>in</translation>
     </message>
     <message>
         <source>P̸</source>
@@ -2808,37 +2808,37 @@ Vil du slette den alligevel?</translation>
     <message>
         <source>Custom (%1mm x %2mm)</source>
         <extracomment>Custom size name in millimeters</extracomment>
-        <translation>Brugerdefineret (%1 mm x %2 mm)</translation>
+        <translation>По избор (%1mm x %2mm)</translation>
     </message>
     <message>
         <source>Custom (%1pt x %2pt)</source>
         <extracomment>Custom size name in points</extracomment>
-        <translation>Brugerdefineret (%1 pt x %2 pt)</translation>
+        <translation>По избор (%1pt x %2pt)</translation>
     </message>
     <message>
         <source>Custom (%1in x %2in)</source>
         <extracomment>Custom size name in inches</extracomment>
-        <translation>Brugerdefineret (%1 tommer x %2 tommer)</translation>
+        <translation>По избор (%1in x %2in)</translation>
     </message>
     <message>
         <source>Custom (%1pc x %2pc)</source>
         <extracomment>Custom size name in picas</extracomment>
-        <translation>Brugerdefineret (%1 pc x %2 pc)</translation>
+        <translation>По избор (%1pc x %2pc)</translation>
     </message>
     <message>
         <source>Custom (%1DD x %2DD)</source>
         <extracomment>Custom size name in didots</extracomment>
-        <translation>Brugerdefineret (%1 DD x %2 DD)</translation>
+        <translation>По избор (%1DD x %2DD)</translation>
     </message>
     <message>
         <source>Custom (%1CC x %2CC)</source>
         <extracomment>Custom size name in ciceros</extracomment>
-        <translation>Brugerdefineret (%1 CC x %2 CC)</translation>
+        <translation>По избор (%1CC x %2CC)</translation>
     </message>
     <message>
         <source>%1 x %2 in</source>
         <extracomment>Page size in &apos;Inch&apos;.</extracomment>
-        <translation>%1 x %2 tommer</translation>
+        <translation>%1 x %2 in</translation>
     </message>
     <message>
         <source>A0</source>
@@ -2930,59 +2930,59 @@ Vil du slette den alligevel?</translation>
     </message>
     <message>
         <source>Executive (7.5 x 10 in)</source>
-        <translation>Executive (7,5 x 10 tommer)</translation>
+        <translation>Изпълнителен (7.5 x 10 in)</translation>
     </message>
     <message>
         <source>Executive (7.25 x 10.5 in)</source>
-        <translation>Executive (7,25 x 10,5 tommer)</translation>
+        <translation>Изпълнителен (7.25 x 10.5 in)</translation>
     </message>
     <message>
         <source>Folio (8.27 x 13 in)</source>
-        <translation>Folio (8,27 x 13 tommer)</translation>
+        <translation>Фолио (8.27 x 13 in)</translation>
     </message>
     <message>
         <source>Legal</source>
-        <translation>Juridisk</translation>
+        <translation>Правен</translation>
     </message>
     <message>
         <source>Letter / ANSI A</source>
-        <translation>Brev/ANSI A</translation>
+        <translation>Писмо / ANSI A</translation>
     </message>
     <message>
         <source>Tabloid / ANSI B</source>
-        <translation>Tabloid/ANSI B</translation>
+        <translation>Таблоид / ANSI B</translation>
     </message>
     <message>
         <source>Ledger / ANSI B</source>
-        <translation>Ledger/ANSI B</translation>
+        <translation>Счетоводна книга / ANSI B</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>Brugerdefineret</translation>
+        <translation>По избор</translation>
     </message>
     <message>
         <source>A3 Extra</source>
-        <translation>A3 ekstra</translation>
+        <translation>A3 – екстра</translation>
     </message>
     <message>
         <source>A4 Extra</source>
-        <translation>A4 ekstra</translation>
+        <translation>A4 – екстра</translation>
     </message>
     <message>
         <source>A4 Plus</source>
-        <translation>A4 plus</translation>
+        <translation>A4 – плюс</translation>
     </message>
     <message>
         <source>A4 Small</source>
-        <translation>A4 lille</translation>
+        <translation>A4 – малък</translation>
     </message>
     <message>
         <source>A5 Extra</source>
-        <translation>A5 ekstra</translation>
+        <translation>A5 – екстра</translation>
     </message>
     <message>
         <source>B5 Extra</source>
-        <translation>B5 ekstra</translation>
+        <translation>B5 – екстра</translation>
     </message>
     <message>
         <source>JIS B0</source>
@@ -3042,71 +3042,71 @@ Vil du slette den alligevel?</translation>
     </message>
     <message>
         <source>Legal Extra</source>
-        <translation>Juridisk ekstra</translation>
+        <translation>Правен – екстра</translation>
     </message>
     <message>
         <source>Letter Extra</source>
-        <translation>Brev ekstra</translation>
+        <translation>Писмо – екстра</translation>
     </message>
     <message>
         <source>Letter Plus</source>
-        <translation>Brev plus</translation>
+        <translation>Писмо – плюс</translation>
     </message>
     <message>
         <source>Letter Small</source>
-        <translation>Brev lille</translation>
+        <translation>Писмо – малък</translation>
     </message>
     <message>
         <source>Tabloid Extra</source>
-        <translation>Tabloid ekstra</translation>
+        <translation>Таблоид – екстра</translation>
     </message>
     <message>
         <source>Architect A</source>
-        <translation>Arkitekt A</translation>
+        <translation>Архитект A</translation>
     </message>
     <message>
         <source>Architect B</source>
-        <translation>Arkitekt B</translation>
+        <translation>Архитект B</translation>
     </message>
     <message>
         <source>Architect C</source>
-        <translation>Arkitekt C</translation>
+        <translation>Архитект C</translation>
     </message>
     <message>
         <source>Architect D</source>
-        <translation>Arkitekt D</translation>
+        <translation>Архитект D</translation>
     </message>
     <message>
         <source>Architect E</source>
-        <translation>Arkitekt E</translation>
+        <translation>Архитект E</translation>
     </message>
     <message>
         <source>Note</source>
-        <translation>Notits</translation>
+        <translation>Бележка</translation>
     </message>
     <message>
         <source>Quarto</source>
-        <translation>Quarto</translation>
+        <translation>Кварто</translation>
     </message>
     <message>
         <source>Statement</source>
-        <translation>Erklæring</translation>
+        <translation>Изявление</translation>
     </message>
     <message>
         <source>Super A</source>
-        <translation>Super A</translation>
+        <translation>Супер A</translation>
     </message>
     <message>
         <source>Super B</source>
-        <translation>Super B</translation>
+        <translation>Супер B</translation>
     </message>
     <message>
         <source>Postcard</source>
-        <translation>Postkort</translation>
+        <translation>Пощенска картичка</translation>
     </message>
     <message>
         <source>Double Postcard</source>
-        <translation>Dobbelt postkort</translation>
+        <translation>Двойна пощенска картичка</translation>
     </message>
     <message>
         <source>PRC 16K</source>
@@ -3118,292 +3118,292 @@ Vil du slette den alligevel?</translation>
     </message>
     <message>
         <source>PRC 32K Big</source>
-        <translation>PRC 32K stor</translation>
+        <translation>PRC 32K – голям</translation>
     </message>
     <message>
         <source>Fan-fold US (14.875 x 11 in)</source>
-        <translation>Fan-fold US (14,875 x 11 tommer)</translation>
+        <translation>Безконечна хартия – САЩ (14.875 x 11 in)</translation>
     </message>
     <message>
         <source>Fan-fold German (8.5 x 12 in)</source>
-        <translation>Fan-fold tysk (8,5 x 12 tommer)</translation>
+        <translation>Безконечна хартия – Германия (8.5 x 12 in)</translation>
     </message>
     <message>
         <source>Fan-fold German Legal (8.5 x 13 in)</source>
-        <translation>Fan-fold tysk juridisk (8,5 x 13 tommer)</translation>
+        <translation>Безконечна хартия – Германия, правен формат (8.5 x 13 in)</translation>
     </message>
     <message>
         <source>Envelope B4</source>
-        <translation>Konvolut B4</translation>
+        <translation>Плик – B4</translation>
     </message>
     <message>
         <source>Envelope B5</source>
-        <translation>Konvolut B5</translation>
+        <translation>Плик – B5</translation>
     </message>
     <message>
         <source>Envelope B6</source>
-        <translation>Konvolut B6</translation>
+        <translation>Плик – B6</translation>
     </message>
     <message>
         <source>Envelope C0</source>
-        <translation>Konvolut C0</translation>
+        <translation>Плик – C0</translation>
     </message>
     <message>
         <source>Envelope C1</source>
-        <translation>Konvolut C1</translation>
+        <translation>Плик – C1</translation>
     </message>
     <message>
         <source>Envelope C2</source>
-        <translation>Konvolut C2</translation>
+        <translation>Плик – C2</translation>
     </message>
     <message>
         <source>Envelope C3</source>
-        <translation>Konvolut C3</translation>
+        <translation>Плик – C3</translation>
     </message>
     <message>
         <source>Envelope C4</source>
-        <translation>Konvolut C4</translation>
+        <translation>Плик – C4</translation>
     </message>
     <message>
         <source>Envelope C5</source>
-        <translation>Konvolut C5</translation>
+        <translation>Плик – C5</translation>
     </message>
     <message>
         <source>Envelope C6</source>
-        <translation>Konvolut C6</translation>
+        <translation>Плик – C6</translation>
     </message>
     <message>
         <source>Envelope C65</source>
-        <translation>Konvolut C65</translation>
+        <translation>Плик – C65</translation>
     </message>
     <message>
         <source>Envelope C7</source>
-        <translation>Konvolut C7</translation>
+        <translation>Плик – C7</translation>
     </message>
     <message>
         <source>Envelope DL</source>
-        <translation>Konvolut DL</translation>
+        <translation>Плик – DL</translation>
     </message>
     <message>
         <source>Envelope US 9</source>
-        <translation>Konvolut US 9</translation>
+        <translation>Плик – САЩ 9</translation>
     </message>
     <message>
         <source>Envelope US 10</source>
-        <translation>Konvolut US 10</translation>
+        <translation>Плик – САЩ 10</translation>
     </message>
     <message>
         <source>Envelope US 11</source>
-        <translation>Konvolut US 11</translation>
+        <translation>Плик – САЩ 11</translation>
     </message>
     <message>
         <source>Envelope US 12</source>
-        <translation>Konvolut US 12</translation>
+        <translation>Плик – САЩ 12</translation>
     </message>
     <message>
         <source>Envelope US 14</source>
-        <translation>Konvolut US 14</translation>
+        <translation>Плик – САЩ 14</translation>
     </message>
     <message>
         <source>Envelope Monarch</source>
-        <translation>Konvolut monark</translation>
+        <translation>Плик – монарх</translation>
     </message>
     <message>
         <source>Envelope Personal</source>
-        <translation>Konvolut personlig</translation>
+        <translation>Плик – личен</translation>
     </message>
     <message>
         <source>Envelope Chou 3</source>
-        <translation>Konvolut chou 3</translation>
+        <translation>Плик – Чоу 3</translation>
     </message>
     <message>
         <source>Envelope Chou 4</source>
-        <translation>Konvolut chou 4</translation>
+        <translation>Плик – Чоу 4</translation>
     </message>
     <message>
         <source>Envelope Invite</source>
-        <translation>Konvolut invitation</translation>
+        <translation>Плик – покана</translation>
     </message>
     <message>
         <source>Envelope Italian</source>
-        <translation>Konvolut italiensk</translation>
+        <translation>Плик – италиански</translation>
     </message>
     <message>
         <source>Envelope Kaku 2</source>
-        <translation>Konvolut kaku 2</translation>
+        <translation>Плик – Каку 2</translation>
     </message>
     <message>
         <source>Envelope Kaku 3</source>
-        <translation>Konvolut kaku 3</translation>
+        <translation>Плик – Каку 3</translation>
     </message>
     <message>
         <source>Envelope PRC 1</source>
-        <translation>Konvolut PRC 1</translation>
+        <translation>Плик – PRC 1</translation>
     </message>
     <message>
         <source>Envelope PRC 2</source>
-        <translation>Konvolut PRC 2</translation>
+        <translation>Плик – PRC 2</translation>
     </message>
     <message>
         <source>Envelope PRC 3</source>
-        <translation>Konvolut PRC 3</translation>
+        <translation>Плик – PRC 3</translation>
     </message>
     <message>
         <source>Envelope PRC 4</source>
-        <translation>Konvolut PRC 4</translation>
+        <translation>Плик – PRC 4</translation>
     </message>
     <message>
         <source>Envelope PRC 5</source>
-        <translation>Konvolut PRC 5</translation>
+        <translation>Плик – PRC 5</translation>
     </message>
     <message>
         <source>Envelope PRC 6</source>
-        <translation>Konvolut PRC 6</translation>
+        <translation>Плик – PRC 6</translation>
     </message>
     <message>
         <source>Envelope PRC 7</source>
-        <translation>Konvolut PRC 7</translation>
+        <translation>Плик – PRC 7</translation>
     </message>
     <message>
         <source>Envelope PRC 8</source>
-        <translation>Konvolut PRC 8</translation>
+        <translation>Плик – PRC 8</translation>
     </message>
     <message>
         <source>Envelope PRC 9</source>
-        <translation>Konvolut PRC 9</translation>
+        <translation>Плик – PRC 9</translation>
     </message>
     <message>
         <source>Envelope PRC 10</source>
-        <translation>Konvolut PRC 10</translation>
+        <translation>Плик – PRC 10</translation>
     </message>
     <message>
         <source>Envelope You 4</source>
-        <translation>Konvolut you 4</translation>
+        <translation>Плик – Ю 4</translation>
     </message>
 </context>
 <context>
     <name>QPlatformTheme</name>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>Добре</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Gem</translation>
+        <translation>Запазване</translation>
     </message>
     <message>
         <source>Save All</source>
-        <translation>Gem alle</translation>
+        <translation>Запазване на всичко</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Åbn</translation>
+        <translation>Отваряне</translation>
     </message>
     <message>
         <source>&amp;Yes</source>
-        <translation>&amp;Ja</translation>
+        <translation>&amp;Да</translation>
     </message>
     <message>
         <source>Yes to &amp;All</source>
-        <translation>Ja til &amp;alle</translation>
+        <translation>Да за &amp;всички</translation>
     </message>
     <message>
         <source>&amp;No</source>
-        <translation>&amp;Nej</translation>
+        <translation>&amp;Не</translation>
     </message>
     <message>
         <source>N&amp;o to All</source>
-        <translation>Ne&amp;j til alle</translation>
+        <translation>Н&amp;е за всички</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation>Afbryd</translation>
+        <translation>Прекъсване</translation>
     </message>
     <message>
         <source>Retry</source>
-        <translation>Prøv igen</translation>
+        <translation>Повторен опит</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation>Ignorer</translation>
+        <translation>Пренебрегване</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Luk</translation>
+        <translation>Затваряне</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Annuller</translation>
+        <translation>Отказ</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>Forkast</translation>
+        <translation>Отхвърляне</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Hjælp</translation>
+        <translation>Помощ</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation>Anvend</translation>
+        <translation>Прилагане</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Nulstil</translation>
+        <translation>Нулиране</translation>
     </message>
     <message>
         <source>Restore Defaults</source>
-        <translation>Genskab standarder</translation>
+        <translation>По подразбиране</translation>
     </message>
 </context>
 <context>
     <name>QPluginLoader</name>
     <message>
         <source>The plugin was not loaded.</source>
-        <translation>Pluginet blev ikke indlæst.</translation>
+        <translation>Приставката не беше заредена.</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Ukendt fejl</translation>
+        <translation>Неизвестна грешка</translation>
     </message>
 </context>
 <context>
     <name>QPrintDialog</name>
     <message>
         <source>Print</source>
-        <translation>Udskriv</translation>
+        <translation>Печат</translation>
     </message>
     <message>
         <source>Left to Right, Top to Bottom</source>
-        <translation>Venstre til højre, øverst til nederst</translation>
+        <translation>От ляво надясно, от горе надолу</translation>
     </message>
     <message>
         <source>Left to Right, Bottom to Top</source>
-        <translation>Venstre til højre, nederst til øverst</translation>
+        <translation>От ляво надясно, от долу нагоре</translation>
     </message>
     <message>
         <source>Right to Left, Bottom to Top</source>
-        <translation>Højre til venstre, nederst til øverst</translation>
+        <translation>От дясно наляво, от долу нагоре</translation>
     </message>
     <message>
         <source>Right to Left, Top to Bottom</source>
-        <translation>Højre til venstre, øverst til nederst</translation>
+        <translation>От дясно наляво, от горе надолу</translation>
     </message>
     <message>
         <source>Bottom to Top, Left to Right</source>
-        <translation>Nederst til øverst, venstre til højre</translation>
+        <translation>От долу нагоре, от ляво надясно</translation>
     </message>
     <message>
         <source>Bottom to Top, Right to Left</source>
-        <translation>Nederst til øverst, højre til venstre</translation>
+        <translation>От долу нагоре, от дясно наляво</translation>
     </message>
     <message>
         <source>Top to Bottom, Left to Right</source>
-        <translation>Øverst til nederst, venstre til højre</translation>
+        <translation>От горе надолу, от ляво надясно</translation>
     </message>
     <message>
         <source>Top to Bottom, Right to Left</source>
-        <translation>Øverst til nederst, højre til venstre</translation>
+        <translation>От горе надолу, от дясно наляво</translation>
     </message>
     <message>
         <source>1 (1x1)</source>
@@ -3431,86 +3431,86 @@ Vil du slette den alligevel?</translation>
     </message>
     <message>
         <source>All Pages</source>
-        <translation>Alle sider</translation>
+        <translation>Всички страници</translation>
     </message>
     <message>
         <source>Odd Pages</source>
-        <translation>Ulige sider</translation>
+        <translation>Само нечетните</translation>
     </message>
     <message>
         <source>Even Pages</source>
-        <translation>Lige sider</translation>
+        <translation>Само четните</translation>
     </message>
     <message>
         <source>&amp;Options &gt;&gt;</source>
-        <translation>&amp;Valgmuligheder &gt;&gt;</translation>
+        <translation>&amp;Настройки &gt;&gt;</translation>
     </message>
     <message>
         <source>&amp;Print</source>
-        <translation>&amp;Udskriv</translation>
+        <translation>&amp;Печат</translation>
     </message>
     <message>
         <source>&amp;Options &lt;&lt;</source>
-        <translation>&amp;Valgmuligheder &lt;&lt;</translation>
+        <translation>&amp;Настройки &lt;&lt;</translation>
     </message>
     <message>
         <source>Print to File (PDF)</source>
-        <translation>Udskriv til fil (PDF)</translation>
+        <translation>Печат във файл (PDF)</translation>
     </message>
     <message>
         <source>Local file</source>
-        <translation>Lokal fil</translation>
+        <translation>Локален файл</translation>
     </message>
     <message>
         <source>Write PDF file</source>
-        <translation>Skriv PDF-fil</translation>
+        <translation>Записване на файл PDF</translation>
     </message>
     <message>
         <source>Print To File ...</source>
-        <translation>Udskriv til fil...</translation>
+        <translation>Печат във файл…</translation>
     </message>
     <message>
         <source>%1 is a directory.
 Please choose a different file name.</source>
-        <translation>%1 er en mappe.
-Vælg venligst et andet filnavn.</translation>
+        <translation>%1 е папка.
+Моля, изберете друго име на файл.</translation>
     </message>
     <message>
         <source>File %1 is not writable.
 Please choose a different file name.</source>
-        <translation>Der kan ikke skrives til filen %1.
-Vælg venligst et andet filnavn.</translation>
+        <translation>Файлът %1 не позволява запис.
+Моля, изберете друго име на файл.</translation>
     </message>
     <message>
         <source>%1 already exists.
 Do you want to overwrite it?</source>
-        <translation>%1 findes allerede.
-Vil du overskrive den?</translation>
+        <translation>%1 вече съществува.
+Искате ли да го презапишете?</translation>
     </message>
     <message>
         <source>Options &apos;Pages Per Sheet&apos; and &apos;Page Set&apos; cannot be used together.
 Please turn one of those options off.</source>
-        <translation>Valgmuligheder &apos;Sider pr. ark&apos; og &apos;Sidesæt&apos; kan ikke bruges sammen.
-Slå venligst en at disse valgmuligheder fra.</translation>
+        <translation>Настройките „страници на лист“ и „набор от страници“ не могат да бъдат използвани заедно.
+Моля, изключете една от тези настройки.</translation>
     </message>
     <message>
         <source>The &apos;From&apos; value cannot be greater than the &apos;To&apos; value.</source>
-        <translation>&apos;Fra&apos;-værdien kan ikke være større end &apos;Til&apos;-værdien.</translation>
+        <translation>Стойността „от“ не може да бъде по-голяма от „до“.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>Добре</translation>
     </message>
     <message>
         <source>Automatic</source>
-        <translation>Automatisk</translation>
+        <translation>Автоматично</translation>
     </message>
 </context>
 <context>
     <name>QPrintPreviewDialog</name>
     <message>
         <source>Page Setup</source>
-        <translation>Sideopsætning</translation>
+        <translation>Настройки на страниците</translation>
     </message>
     <message>
         <source>%1%</source>
@@ -3518,895 +3518,895 @@ Slå venligst en at disse valgmuligheder fra.</translation>
     </message>
     <message>
         <source>Print Preview</source>
-        <translation>Forhåndsvis udskrift</translation>
+        <translation>Преглед за печат</translation>
     </message>
     <message>
         <source>Next page</source>
-        <translation>Næste side</translation>
+        <translation>Следваща страница</translation>
     </message>
     <message>
         <source>Previous page</source>
-        <translation>Forrige side</translation>
+        <translation>Предишна страница</translation>
     </message>
     <message>
         <source>First page</source>
-        <translation>Første side</translation>
+        <translation>Първа страница</translation>
     </message>
     <message>
         <source>Last page</source>
-        <translation>Sidste side</translation>
+        <translation>Последна страница</translation>
     </message>
     <message>
         <source>Fit width</source>
-        <translation>Tilpas bredde</translation>
+        <translation>Ширина на страницата</translation>
     </message>
     <message>
         <source>Fit page</source>
-        <translation>Tilpas side</translation>
+        <translation>Цялата страница</translation>
     </message>
     <message>
         <source>Zoom in</source>
-        <translation>Zoom ind</translation>
+        <translation>Увеличаване</translation>
     </message>
     <message>
         <source>Zoom out</source>
-        <translation>Zoom ud</translation>
+        <translation>Намаляване</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>Portræt</translation>
+        <translation>Портрет</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>Landskab</translation>
+        <translation>Пейзаж</translation>
     </message>
     <message>
         <source>Show single page</source>
-        <translation>Vis enkelt side</translation>
+        <translation>Показване на една страница</translation>
     </message>
     <message>
         <source>Show facing pages</source>
-        <translation>Vis sideopslag</translation>
+        <translation>Показване на лицевите страници</translation>
     </message>
     <message>
         <source>Show overview of all pages</source>
-        <translation>Vis oversigt af alle sider</translation>
+        <translation>Показване на преглед на всички страници</translation>
     </message>
     <message>
         <source>Print</source>
-        <translation>Udskriv</translation>
+        <translation>Печат</translation>
     </message>
     <message>
         <source>Page setup</source>
-        <translation>Sideopsætning</translation>
+        <translation>Настройки на страниците</translation>
     </message>
     <message>
         <source>Export to PDF</source>
-        <translation>Eksportér til PDF</translation>
+        <translation>Изнасяне като PDF</translation>
     </message>
 </context>
 <context>
     <name>QPrintPropertiesDialog</name>
     <message>
         <source>Printer Properties</source>
-        <translation>Printeregenskaber</translation>
+        <translation>Настройки на принтера</translation>
     </message>
     <message>
         <source>Job Options</source>
-        <translation>Job-valgmuligheder</translation>
+        <translation>Настройки на задачата</translation>
     </message>
 </context>
 <context>
     <name>QPrintPropertiesWidget</name>
     <message>
         <source>Form</source>
-        <translation>Udformning</translation>
+        <translation>Форма</translation>
     </message>
     <message>
         <source>Page</source>
-        <translation>Side</translation>
+        <translation>Страница</translation>
     </message>
 </context>
 <context>
     <name>QPrintSettingsOutput</name>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation>Форма</translation>
     </message>
     <message>
         <source>Copies</source>
-        <translation>Kopier</translation>
+        <translation>Копия</translation>
     </message>
     <message>
         <source>Print range</source>
-        <translation>Udskriftsområde</translation>
+        <translation>Обхват</translation>
     </message>
     <message>
         <source>Print all</source>
-        <translation>Udskriv alle</translation>
+        <translation>Всички страници</translation>
     </message>
     <message>
         <source>Pages from</source>
-        <translation>Sider fra</translation>
+        <translation>Страниците от</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>til</translation>
+        <translation>до</translation>
     </message>
     <message>
         <source>Current Page</source>
-        <translation>Aktuelle side</translation>
+        <translation>Текуща страница</translation>
     </message>
     <message>
         <source>Selection</source>
-        <translation>Valg</translation>
+        <translation>Избраното</translation>
     </message>
     <message>
         <source>Page Set:</source>
-        <translation>Sidesæt:</translation>
+        <translation>Набор от страници:</translation>
     </message>
     <message>
         <source>Output Settings</source>
-        <translation>Outputindstillinger</translation>
+        <translation>Настройки за извеждане</translation>
     </message>
     <message>
         <source>Copies:</source>
-        <translation>Kopier:</translation>
+        <translation>Брой копия:</translation>
     </message>
     <message>
         <source>Collate</source>
-        <translation>Sætvis</translation>
+        <translation>Подреждане</translation>
     </message>
     <message>
         <source>Reverse</source>
-        <translation>Omvendt</translation>
+        <translation>Обратен ред</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Valgmuligheder</translation>
+        <translation>Настройки</translation>
     </message>
     <message>
         <source>Color Mode</source>
-        <translation>Farvetilstand</translation>
+        <translation>Цветови режим</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation>Farve</translation>
+        <translation>Цвят</translation>
     </message>
     <message>
         <source>Grayscale</source>
-        <translation>Gråtone</translation>
+        <translation>Черно-бяло</translation>
     </message>
     <message>
         <source>Duplex Printing</source>
-        <translation>Dupleksudskrivning</translation>
+        <translation>Двустранен печат</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Ingen</translation>
+        <translation>Не</translation>
     </message>
     <message>
         <source>Long side</source>
-        <translation>Lang side</translation>
+        <translation>Дълга страна</translation>
     </message>
     <message>
         <source>Short side</source>
-        <translation>Kort side</translation>
+        <translation>Къса страна</translation>
     </message>
 </context>
 <context>
     <name>QPrintWidget</name>
     <message>
         <source>Form</source>
-        <translation>Udformning</translation>
+        <translation>Форма</translation>
     </message>
     <message>
         <source>Printer</source>
-        <translation>Printer</translation>
+        <translation>Принтер</translation>
     </message>
     <message>
         <source>&amp;Name:</source>
-        <translation>&amp;Navn:</translation>
+        <translation>&amp;Име:</translation>
     </message>
     <message>
         <source>P&amp;roperties</source>
-        <translation>&amp;Egenskaber</translation>
+        <translation>&amp;Настройки</translation>
     </message>
     <message>
         <source>Location:</source>
-        <translation>Placering:</translation>
+        <translation>Местоположение:</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation>Forhåndsvis</translation>
+        <translation>Преглед</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation>Type:</translation>
+        <translation>Тип:</translation>
     </message>
     <message>
         <source>Output &amp;file:</source>
-        <translation>Output&amp;fil:</translation>
+        <translation>Изходен &amp;файл:</translation>
     </message>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation>…</translation>
     </message>
 </context>
 <context>
     <name>QProcess</name>
     <message>
         <source>Process failed to start</source>
-        <translation>Processen kunne ikke starte</translation>
+        <translation>Процесът не успя да започне</translation>
     </message>
     <message>
         <source>Process crashed</source>
-        <translation>Processen holdt op med at virke</translation>
+        <translation>Процесът се срина</translation>
     </message>
     <message>
         <source>Process operation timed out</source>
-        <translation>Proceshandlingen fik timeout</translation>
+        <translation>Времето на операцията на процеса изтече</translation>
     </message>
     <message>
         <source>Error reading from process</source>
-        <translation>Fejl ved læsning fra proces</translation>
+        <translation>Грешка при получаване на данни от процеса</translation>
     </message>
     <message>
         <source>Error writing to process</source>
-        <translation>Fejl ved skrivning til proces</translation>
+        <translation>Грешка при изпращане на данни към процеса</translation>
     </message>
     <message>
         <source>No program defined</source>
-        <translation>Intet program defineret</translation>
+        <translation>Не е посочена програма</translation>
     </message>
     <message>
         <source>Could not open input redirection for reading</source>
-        <translation>Kunne ikke åbne input-omdirigering for læsning</translation>
+        <translation>Неуспешно пренасочване на входа за четене</translation>
     </message>
     <message>
         <source>Resource error (fork failure): %1</source>
-        <translation>Ressourcefejl (fork fejl): %1</translation>
+        <translation>Ресурсна грешка (неуспешно изпълнение на „fork“): %1</translation>
     </message>
     <message>
         <source>Could not open output redirection for writing</source>
-        <translation>Kunne ikke åbne output-omdirigering for skrivning</translation>
+        <translation>Неуспешно пренасочване на изхода за запис</translation>
     </message>
     <message>
         <source>Process failed to start: %1</source>
-        <translation>Processen kunne ikke starte: %1</translation>
+        <translation>Процесът не успя да започне: %1</translation>
     </message>
 </context>
 <context>
     <name>QProgressDialog</name>
     <message>
         <source>Cancel</source>
-        <translation>Annuller</translation>
+        <translation>Отказ</translation>
     </message>
 </context>
 <context>
     <name>QRegExp</name>
     <message>
         <source>no error occurred</source>
-        <translation>der opstod ingen fejl</translation>
+        <translation>няма грешки</translation>
     </message>
     <message>
         <source>disabled feature used</source>
-        <translation>deaktiveret facilitet blev brugt</translation>
+        <translation>използвана е изключена функционалност</translation>
     </message>
     <message>
         <source>bad char class syntax</source>
-        <translation>dårlig tegnklasse-syntaks</translation>
+        <translation>грешен синтаксис за символен клас</translation>
     </message>
     <message>
         <source>bad lookahead syntax</source>
-        <translation>dårlig fremadseende syntaks</translation>
+        <translation>грешен синтаксис за поглеждане напред</translation>
     </message>
     <message>
         <source>lookbehinds not supported, see QTBUG-2371</source>
-        <translation>lookbehinds understøttes ikke, se QTBUG-2371</translation>
+        <translation>поглеждането назад не се поддържа, вж. QTBUG-2371</translation>
     </message>
     <message>
         <source>bad repetition syntax</source>
-        <translation>dårlig gentagelsessyntaks</translation>
+        <translation>грешен синтаксис за повторение</translation>
     </message>
     <message>
         <source>invalid octal value</source>
-        <translation>ugyldigt oktal-værdi</translation>
+        <translation>грешна осмична стойност</translation>
     </message>
     <message>
         <source>missing left delim</source>
-        <translation>manglende venstre afgrænser</translation>
+        <translation>липсва ляв разделител</translation>
     </message>
     <message>
         <source>unexpected end</source>
-        <translation>uventet afslutning</translation>
+        <translation>неочакван край</translation>
     </message>
     <message>
         <source>met internal limit</source>
-        <translation>mødte intern grænse</translation>
+        <translation>достигнато е вътрешно ограничение</translation>
     </message>
     <message>
         <source>invalid interval</source>
-        <translation>ugyldigt interval</translation>
+        <translation>грешен интервал</translation>
     </message>
     <message>
         <source>invalid category</source>
-        <translation>ugyldig kategori</translation>
+        <translation>грешна категория</translation>
     </message>
 </context>
 <context>
     <name>QRegularExpression</name>
     <message>
         <source>no error</source>
-        <translation>ingen fejl</translation>
+        <translation>няма грешки</translation>
     </message>
     <message>
         <source>\ at end of pattern</source>
-        <translation>\ i slutningen af mønster</translation>
+        <translation>\ в края на шаблона</translation>
     </message>
     <message>
         <source>\c at end of pattern</source>
-        <translation>\c i slutningen af mønster</translation>
+        <translation>\c в края на шаблона</translation>
     </message>
     <message>
         <source>unrecognized character follows \</source>
-        <translation>ikke genkendt tegn efterfølger \</translation>
+        <translation>знакът след \ е непознат</translation>
     </message>
     <message>
         <source>numbers out of order in {} quantifier</source>
-        <translation>numre udenfor rækkefølge i {}-kvantor</translation>
+        <translation>неправилни числа в квантора {}</translation>
     </message>
     <message>
         <source>number too big in {} quantifier</source>
-        <translation>nummer for stort i {}-kvantor</translation>
+        <translation>числото в квантора {} е твърде голямо</translation>
     </message>
     <message>
         <source>missing terminating ] for character class</source>
-        <translation>manglende afsluttende ] for tegnklasse</translation>
+        <translation>липсва завършващ знак ] за символен клас</translation>
     </message>
     <message>
         <source>invalid escape sequence in character class</source>
-        <translation>ugyldig undvigesekvens i tegnklasse</translation>
+        <translation>грешна управляваща последователност в символен клас</translation>
     </message>
     <message>
         <source>range out of order in character class</source>
-        <translation>område udenfor rækkefølge i tegnklasse</translation>
+        <translation>неправилен интервал в символен клас</translation>
     </message>
     <message>
         <source>nothing to repeat</source>
-        <translation>intet at gentage</translation>
+        <translation>няма нищо за повторение</translation>
     </message>
     <message>
         <source>internal error: unexpected repeat</source>
-        <translation>intern fejl: uventet gentag</translation>
+        <translation>вътрешна грешка: неочаквано повтаряне</translation>
     </message>
     <message>
         <source>unrecognized character after (? or (?-</source>
-        <translation>ikke genkendt tegn efter (? eller (?-</translation>
+        <translation>знакът след (? или (?- е непознат</translation>
     </message>
     <message>
         <source>POSIX named classes are supported only within a class</source>
-        <translation>POSIX-navngivne klasser understøttes kun inden i en klasse</translation>
+        <translation>POSIX класовете се поддържат само вътре в клас</translation>
     </message>
     <message>
         <source>missing )</source>
-        <translation>mangler )</translation>
+        <translation>липсва )</translation>
     </message>
     <message>
         <source>reference to non-existent subpattern</source>
-        <translation>reference til ikke-eksisterende undermønster</translation>
+        <translation>препратка към несъществуващ подшаблон</translation>
     </message>
     <message>
         <source>erroffset passed as NULL</source>
-        <translation>erroffset givet som NULL</translation>
+        <translation>подадената стойност за erroffset е NULL</translation>
     </message>
     <message>
         <source>unknown option bit(s) set</source>
-        <translation>ukendt valgmulighed bit sat</translation>
+        <translation>зададен е непознат опционален бит или битове</translation>
     </message>
     <message>
         <source>missing ) after comment</source>
-        <translation>manglende ) efter kommentar</translation>
+        <translation>липсва ) след коментар</translation>
     </message>
     <message>
         <source>regular expression is too large</source>
-        <translation>regulært udtryk er for stort</translation>
+        <translation>регулярният израз е твърде голям</translation>
     </message>
     <message>
         <source>failed to get memory</source>
-        <translation>kunne ikke få hukommelse</translation>
+        <translation>неуспешно заделяне на памет</translation>
     </message>
     <message>
         <source>unmatched parentheses</source>
-        <translation>umatchede parenteser</translation>
+        <translation>несъгласувани кръгли скоби</translation>
     </message>
     <message>
         <source>internal error: code overflow</source>
-        <translation>intern fejl: kodeoverløb</translation>
+        <translation>вътрешна грешка: препълване на кода</translation>
     </message>
     <message>
         <source>unrecognized character after (?&lt;</source>
-        <translation>ikke genkendt tegn efter (?&lt;</translation>
+        <translation>знакът след (?&lt; е непознат</translation>
     </message>
     <message>
         <source>lookbehind assertion is not fixed length</source>
-        <translation>lookbehind-påstand er ikke fast længde</translation>
+        <translation>проверката чрез поглеждане назад не е с фиксирана дължина</translation>
     </message>
     <message>
         <source>malformed number or name after (?(</source>
-        <translation>forkert udformet nummer eller navn efter (?(</translation>
+        <translation>неправилно изписано число или име след (?(</translation>
     </message>
     <message>
         <source>conditional group contains more than two branches</source>
-        <translation>betinget gruppe indeholder mere end to grene</translation>
+        <translation>условната група съдържа повече от две разклонения</translation>
     </message>
     <message>
         <source>assertion expected after (?(</source>
-        <translation>påstand ventet efter (?(</translation>
+        <translation>след (?( се очаква проверка</translation>
     </message>
     <message>
         <source>(?R or (?[+-]digits must be followed by )</source>
-        <translation>(?R eller (?[+-]cifre skal efterfølges af )</translation>
+        <translation>след (?R или (?[+-]цифри трябва да има )</translation>
     </message>
     <message>
         <source>unknown POSIX class name</source>
-        <translation>ukendt POSIX-klassenavn</translation>
+        <translation>неизвестно име на клас от POSIX</translation>
     </message>
     <message>
         <source>POSIX collating elements are not supported</source>
-        <translation>POSIX-arrangerende elementer understøttes ikke</translation>
+        <translation>елементите за подредба на POSIX не се поддържат</translation>
     </message>
     <message>
         <source>this version of PCRE is not compiled with PCRE_UTF8 support</source>
-        <translation>denne version af PCRE er ikke kompileret med PCRE_UTF8-understøttelse</translation>
+        <translation>тази версия на PCRE не е компилирана с поддръжка на PCRE_UTF8</translation>
     </message>
     <message>
         <source>character value in \x{...} sequence is too large</source>
-        <translation>tegnværdi i \x{...}-sekvens er for stor</translation>
+        <translation>стойността на знака в последователността \x{…} е твърде голяма</translation>
     </message>
     <message>
         <source>invalid condition (?(0)</source>
-        <translation>ugyldig betingelse (?(0)</translation>
+        <translation>грешно условие (?(0)</translation>
     </message>
     <message>
         <source>\C not allowed in lookbehind assertion</source>
-        <translation>\C ikke tillad i lookbehind-påstand</translation>
+        <translation>употребата на \C в проверка с поглеждане назад не е разрешено</translation>
     </message>
     <message>
         <source>PCRE does not support \L, \l, \N{name}, \U, or \u</source>
-        <translation>PCRE understøtter ikke \L, \l, \N{navn}, \U eller \u</translation>
+        <translation>PCRE не поддържа \L, \l, \N{name}, \U, и \u</translation>
     </message>
     <message>
         <source>number after (?C is &gt; 255</source>
-        <translation>nummer efter (?C er &gt; 255</translation>
+        <translation>числото след (?C е по-голямо от 255</translation>
     </message>
     <message>
         <source>closing ) for (?C expected</source>
-        <translation>lukkende ) til (?C ventet</translation>
+        <translation>нужна е затваряща ) за (?C</translation>
     </message>
     <message>
         <source>recursive call could loop indefinitely</source>
-        <translation>rekursive kald kan danne uendelig løkke</translation>
+        <translation>рекурсивното извикване може да зацикли безкрайно</translation>
     </message>
     <message>
         <source>unrecognized character after (?P</source>
-        <translation>ikke genkendt tegn efter (?P</translation>
+        <translation>знака след (?P е непознат</translation>
     </message>
     <message>
         <source>syntax error in subpattern name (missing terminator)</source>
-        <translation>syntaksfejl i undermønsternavn (manglende terminator)</translation>
+        <translation>синтактична грешка в името на подшаблон (липсва завършващ знак)</translation>
     </message>
     <message>
         <source>two named subpatterns have the same name</source>
-        <translation>to navngivne undermønstre har det samme navn</translation>
+        <translation>два именувани подшаблона имат едно и също име</translation>
     </message>
     <message>
         <source>invalid UTF-8 string</source>
-        <translation>ugyldig UTF-8-streng</translation>
+        <translation>грешен низ с кодировка UTF-8</translation>
     </message>
     <message>
         <source>support for \P, \p, and \X has not been compiled</source>
-        <translation>understøttelse af \P, \p og \X er ikke blevet kompileret</translation>
+        <translation>поддръжката на \P, \p и \X не е била компилирана</translation>
     </message>
     <message>
         <source>malformed \P or \p sequence</source>
-        <translation>forkert udformet \P- eller \p-sekvens</translation>
+        <translation>грешна последователност \P или \p</translation>
     </message>
     <message>
         <source>unknown property name after \P or \p</source>
-        <translation>ukendt egenskabsnavn efter \P eller \p</translation>
+        <translation>неизвестно име на свойство след \P или \p</translation>
     </message>
     <message>
         <source>subpattern name is too long (maximum 32 characters)</source>
-        <translation>undermønsternavn er for langt (maksimum 32 tegn)</translation>
+        <translation>името на подшаблон е твърде дълго (ограничението е 32 знака)</translation>
     </message>
     <message>
         <source>too many named subpatterns (maximum 10000)</source>
-        <translation>for mange navngivne undermønstre (maksimum 10000)</translation>
+        <translation>твърде много именувани подшаблони (ограничението е 10000)</translation>
     </message>
     <message>
         <source>octal value is greater than \377 (not in UTF-8 mode)</source>
-        <translation>oktal-værdi er større end \377 (ikke i UTF-8-tilstand)</translation>
+        <translation>осмичната стойност е по-голяма от \377 (режимът не е UTF-8)</translation>
     </message>
     <message>
         <source>internal error: overran compiling workspace</source>
-        <translation>intern fejl: overløb kompileringsarbejdsområde</translation>
+        <translation>вътрешна грешка: преминаване извън работната област за компилиране</translation>
     </message>
     <message>
         <source>internal error: previously-checked referenced subpattern not found</source>
-        <translation>intern fejl: tidligere tjekket, refereret undermønster ikke fundet</translation>
+        <translation>вътрешна грешка: не е открит подшаблон, който по-рано е бил проверен</translation>
     </message>
     <message>
         <source>DEFINE group contains more than one branch</source>
-        <translation>DEFINE-gruppe indeholder mere end én gren</translation>
+        <translation>групата „DEFINE“ съдържа повече от един клон</translation>
     </message>
     <message>
         <source>repeating a DEFINE group is not allowed</source>
-        <translation>gentagelse a en DEFINE-gruppe er ikke tilladt</translation>
+        <translation>повторението на група „DEFINE“ не е позволено</translation>
     </message>
     <message>
         <source>inconsistent NEWLINE options</source>
-        <translation>inkonsistente NEWLINE-valgmuligheder</translation>
+        <translation>несъвместими опции NEWLINE</translation>
     </message>
     <message>
         <source>\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number</source>
-        <translation>\g efterfølges ikke af et navn/nummer i klammer, vinkelklammer, citationstegn eller af et almindeligt nummer</translation>
+        <translation>след \g трябва да има обикновено число или име/число в къдрави/ъглови скоби или кавички</translation>
     </message>
     <message>
         <source>a numbered reference must not be zero</source>
-        <translation>en nummereret reference må ikke være nul</translation>
+        <translation>номерирана препратка не трябва да бъде нула</translation>
     </message>
     <message>
         <source>an argument is not allowed for (*ACCEPT), (*FAIL), or (*COMMIT)</source>
-        <translation>et argument er ikke tilladt for (*ACCEPT), (*FAIL) eller (*COMMIT)</translation>
+        <translation>(*ACCEPT), (*FAIL) и (*COMMIT) не могат да приемат аргументи</translation>
     </message>
     <message>
         <source>(*VERB) not recognized</source>
-        <translation>(*VERB) ikke genkendt</translation>
+        <translation>(*VERB) не може да бъде разпознат</translation>
     </message>
     <message>
         <source>number is too big</source>
-        <translation>nummer er for stort</translation>
+        <translation>числото е твърде голямо</translation>
     </message>
     <message>
         <source>subpattern name expected</source>
-        <translation>undermønsternavn ventet</translation>
+        <translation>очаква се име на подшаблон</translation>
     </message>
     <message>
         <source>digit expected after (?+</source>
-        <translation>ciffer ventet efter (?+</translation>
+        <translation>след (?+ трябва да има число</translation>
     </message>
     <message>
         <source>] is an invalid data character in JavaScript compatibility mode</source>
-        <translation>] er et ugyldigt datategn i JavaScript-kompatibilitetstilstand</translation>
+        <translation>] е недопустим знак за данни в режима на съвместимост на JavaScript</translation>
     </message>
     <message>
         <source>different names for subpatterns of the same number are not allowed</source>
-        <translation>forskellige navne til undermønstre af det samme nummer er ikke tilladt</translation>
+        <translation>подшаблоните с еднакви номера не може да имат различни имена</translation>
     </message>
     <message>
         <source>(*MARK) must have an argument</source>
-        <translation>(*MARK) skal have et argument</translation>
+        <translation>(*MARK) трябва да има аргумент</translation>
     </message>
     <message>
         <source>this version of PCRE is not compiled with PCRE_UCP support</source>
-        <translation>denne version af PCRE er ikke kompileret med PCRE_UCP-understøttelse</translation>
+        <translation>тази версия на PCRE не е компилирана с поддръжка на PCRE_UCP</translation>
     </message>
     <message>
         <source>\c must be followed by an ASCII character</source>
-        <translation>\c skal være efterfulgt af et ASCII-tegn</translation>
+        <translation>след \c трябва да има знак от ASCII</translation>
     </message>
     <message>
         <source>\k is not followed by a braced, angle-bracketed, or quoted name</source>
-        <translation>\k efterfølges ikke af et navn i klammer, vinkelklammer eller citationstegn</translation>
+        <translation>след \k трябва да има име в къдрави/ъглови скоби или кавички</translation>
     </message>
     <message>
         <source>internal error: unknown opcode in find_fixedlength()</source>
-        <translation>intern fejl: ukendt opcode i find_fixedlength()</translation>
+        <translation>вътрешна грешка: неизвестен код на операция в find_fixedlength()</translation>
     </message>
     <message>
         <source>\N is not supported in a class</source>
-        <translation>\N understøttes ikke i en klasse</translation>
+        <translation>\N не се поддържа в клас</translation>
     </message>
     <message>
         <source>too many forward references</source>
-        <translation>for mange fremad-referencer</translation>
+        <translation>твърде много предварителни препратки</translation>
     </message>
     <message>
         <source>disallowed Unicode code point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</source>
-        <translation>ikke tilladt unicode-kodepunkt (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</translation>
+        <translation>непозволена кодова точка на Уникод (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</translation>
     </message>
     <message>
         <source>invalid UTF-16 string</source>
-        <translation>ugyldig UTF-16-streng</translation>
+        <translation>неправилно кодиран в UTF-16 низ</translation>
     </message>
     <message>
         <source>name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)</source>
-        <translation>navn er for langt i (*MARK), (*PRUNE), (*SKIP) eller (*THEN)</translation>
+        <translation>твърде дълго име в (*MARK), (*PRUNE), (*SKIP) или  (*THEN)</translation>
     </message>
     <message>
         <source>character value in \u.... sequence is too large</source>
-        <translation>tegnværdi i \u...-sekvens er for stor</translation>
+        <translation>стойността на знака в последователността\u.... е твърде голяма</translation>
     </message>
     <message>
         <source>invalid UTF-32 string</source>
-        <translation>ugyldig UTF-32-streng</translation>
+        <translation>неправилно кодиран в UTF-32 низ</translation>
     </message>
     <message>
         <source>setting UTF is disabled by the application</source>
-        <translation>sættelse af UTF er deaktiveret af programmet</translation>
+        <translation>задаването на UTF е забранено от приложението</translation>
     </message>
     <message>
         <source>non-hex character in \x{} (closing brace missing?)</source>
-        <translation>ikke-heksadecimal-tegn i \x{} (lukkende klamme mangler?)</translation>
+        <translation>неправилен шестнадесетичен знак в \x{} (дали не липсва затваряща къдрава скоба?)</translation>
     </message>
     <message>
         <source>non-octal character in \o{} (closing brace missing?)</source>
-        <translation>ikke-oktal-tegn i \o{} (lukkende klamme mangler?)</translation>
+        <translation>неправилен осмичен знак в \o{} (дали не липсва затваряща къдрава скоба?)</translation>
     </message>
     <message>
         <source>missing opening brace after \o</source>
-        <translation>manglende åbningsklamme efter \o</translation>
+        <translation>липсва отваряща къдрава скоба след \o</translation>
     </message>
     <message>
         <source>parentheses are too deeply nested</source>
-        <translation>parenteser er for dybt indlejret</translation>
+        <translation>твърде много вложени скоби</translation>
     </message>
     <message>
         <source>invalid range in character class</source>
-        <translation>ugyldigt område i tegnklasse</translation>
+        <translation>неправилен интервал в символен клас</translation>
     </message>
     <message>
         <source>group name must start with a non-digit</source>
-        <translation>gruppenavn skal begynde med et ikke-ciffer</translation>
+        <translation>името на група трябва да започва със знак, който не е цифра</translation>
     </message>
     <message>
         <source>parentheses are too deeply nested (stack check)</source>
-        <translation>parenteser er for dybt indlejret (staktjek)</translation>
+        <translation>твърде много вложени скоби (проверка на стека)</translation>
     </message>
     <message>
         <source>digits missing in \x{} or \o{}</source>
-        <translation>cifre mangler i \x{} eller \o{}</translation>
+        <translation>липсват цифри в \x{} или \o{}</translation>
     </message>
 </context>
 <context>
     <name>QSQLite2Driver</name>
     <message>
         <source>Error opening database</source>
-        <translation>Fejl ved åbning af databasen</translation>
+        <translation>Грешка при отварянето на базата данни</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>Kunne ikke påbegynde transaktionen</translation>
+        <translation>Трансакцията не може да бъде започната</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Kunne ikke gennemføre transaktionen</translation>
+        <translation>Трансакцията не може да бъде приложена</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Kunne ikke tilbagetrække transaktionen</translation>
+        <translation>Трансакцията не може да бъде отменена</translation>
     </message>
 </context>
 <context>
     <name>QSQLite2Result</name>
     <message>
         <source>Unable to fetch results</source>
-        <translation>Kunne ikke hente resultater</translation>
+        <translation>Неуспешно получаване на резултатите</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Kunne ikke eksekvere udsagn</translation>
+        <translation>Изразът не може да бъде изпълнен</translation>
     </message>
 </context>
 <context>
     <name>QSQLiteDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>Fejl ved åbning af databasen</translation>
+        <translation>Грешка при отварянето на базата данни</translation>
     </message>
     <message>
         <source>Error closing database</source>
-        <translation>Fejl ved lukning af databasen</translation>
+        <translation>Грешка при затварянето на базата данни</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>Kunne ikke påbegynde transaktionen</translation>
+        <translation>Трансакцията не може да бъде започната</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Kunne ikke gennemføre transaktionen</translation>
+        <translation>Трансакцията не може да бъде приложена</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Kunne ikke tilbagetrække transaktionen</translation>
+        <translation>Трансакцията не може да бъде отменена</translation>
     </message>
 </context>
 <context>
     <name>QSQLiteResult</name>
     <message>
         <source>Unable to fetch row</source>
-        <translation>Kunne ikke hente række</translation>
+        <translation>Неуспешно получаване на ред</translation>
     </message>
     <message>
         <source>No query</source>
-        <translation>Ingen forespørgsel</translation>
+        <translation>Няма заявка</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Kunne ikke eksekvere udsagn</translation>
+        <translation>Изразът не може да бъде изпълнен</translation>
     </message>
     <message>
         <source>Unable to execute multiple statements at a time</source>
-        <translation>Kunne ikke eksekvere flere udsagn på samme tid</translation>
+        <translation>Изпълнението на няколко израза едновременно е невъзможно</translation>
     </message>
     <message>
         <source>Unable to reset statement</source>
-        <translation>Kunne ikke nulstille udsagn</translation>
+        <translation>Изразът не може да бъде нулиран</translation>
     </message>
     <message>
         <source>Unable to bind parameters</source>
-        <translation>Kunne ikke binde parametre</translation>
+        <translation>Параметрите не могат да бъдат свързани</translation>
     </message>
     <message>
         <source>Parameter count mismatch</source>
-        <translation>Uoverensstemmende parameter antal</translation>
+        <translation>Броят на параметрите не съвпада</translation>
     </message>
 </context>
 <context>
     <name>QSaveFile</name>
     <message>
         <source>Existing file %1 is not writable</source>
-        <translation>Der kan ikke skrives til den eksisterende fil %1</translation>
+        <translation>Съществуващият файл „%1“ не позволява запис</translation>
     </message>
     <message>
         <source>Filename refers to a directory</source>
-        <translation>Filnavnet refererer til en mappe</translation>
+        <translation>Името на файла сочи към папка</translation>
     </message>
     <message>
         <source>Writing canceled by application</source>
-        <translation>Skrivning annulleret af program</translation>
+        <translation>Записът е отказан от приложението</translation>
     </message>
 </context>
 <context>
     <name>QScrollBar</name>
     <message>
         <source>Scroll here</source>
-        <translation>Rul her</translation>
+        <translation>Превъртайте тук</translation>
     </message>
     <message>
         <source>Left edge</source>
-        <translation>Venstre kant</translation>
+        <translation>Ляв ръб</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation>Øverst</translation>
+        <translation>Отгоре</translation>
     </message>
     <message>
         <source>Right edge</source>
-        <translation>Højre kant</translation>
+        <translation>Десен ръб</translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation>Nederst</translation>
+        <translation>Отдолу</translation>
     </message>
     <message>
         <source>Page left</source>
-        <translation>Side til venstre</translation>
+        <translation>Страница наляво</translation>
     </message>
     <message>
         <source>Page up</source>
-        <translation>Side op</translation>
+        <translation>Страница нагоре</translation>
     </message>
     <message>
         <source>Page right</source>
-        <translation>Side til højre</translation>
+        <translation>Страница надясно</translation>
     </message>
     <message>
         <source>Page down</source>
-        <translation>Side ned</translation>
+        <translation>Страница надолу</translation>
     </message>
     <message>
         <source>Scroll left</source>
-        <translation>Rul til venstre</translation>
+        <translation>Превъртане наляво</translation>
     </message>
     <message>
         <source>Scroll up</source>
-        <translation>Rul op</translation>
+        <translation>Превъртане нагоре</translation>
     </message>
     <message>
         <source>Scroll right</source>
-        <translation>Rul til højre</translation>
+        <translation>Превъртане надясно</translation>
     </message>
     <message>
         <source>Scroll down</source>
-        <translation>Rul ned</translation>
+        <translation>Превъртане надолу</translation>
     </message>
 </context>
 <context>
     <name>QSctpSocket</name>
     <message>
         <source>The remote host closed the connection</source>
-        <translation>Fjern-værten lukkede forbindelsen</translation>
+        <translation>Отдалечената страна преустанови връзката</translation>
     </message>
 </context>
 <context>
     <name>QSharedMemory</name>
     <message>
         <source>%1: unable to set key on lock</source>
-        <translation>%1: kunne ikke sætte nøgle på lås</translation>
+        <translation>%1: неуспешно задаване на ключ за заключването</translation>
     </message>
     <message>
         <source>%1: create size is less then 0</source>
-        <translation>%1: oprettelsesstørrelse er mindre end 0</translation>
+        <translation>%1: размерът за създаване е по-малък от 0</translation>
     </message>
     <message>
         <source>%1: unable to lock</source>
-        <translation>%1: kunne ikke låse</translation>
+        <translation>%1: неуспешно заключване</translation>
     </message>
     <message>
         <source>%1: unable to unlock</source>
-        <translation>%1: kunne ikke låse op</translation>
+        <translation>%1: неуспешно отключване</translation>
     </message>
     <message>
         <source>%1: key is empty</source>
-        <translation>%1: nøglen er tom</translation>
+        <translation>%1: ключът е празен</translation>
     </message>
     <message>
         <source>%1: bad name</source>
-        <translation>%1: dårligt navn</translation>
+        <translation>%1: лошо име</translation>
     </message>
     <message>
         <source>%1: UNIX key file doesn&apos;t exist</source>
-        <translation>%1: UNIX-nøglefil findes ikke</translation>
+        <translation>%1: файлът-ключ на UNIX не съществува</translation>
     </message>
     <message>
         <source>%1: ftok failed</source>
-        <translation>%1: ftok fejlede</translation>
+        <translation>%1: неуспешно изпълнение на „ftok“</translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
-        <translation>%1: kunne ikke lave nøgle</translation>
+        <translation>%1: неуспешно създаване на ключ</translation>
     </message>
     <message>
         <source>%1: system-imposed size restrictions</source>
-        <translation>%1: system-pålagte størrelsesrestriktioner</translation>
+        <translation>%1: системно наложени ограничения на размера</translation>
     </message>
     <message>
         <source>%1: not attached</source>
-        <translation>%1: ikke tilkoblet</translation>
+        <translation>%1: не е закачено</translation>
     </message>
     <message>
         <source>%1: permission denied</source>
-        <translation>%1: tilladelse nægtet</translation>
+        <translation>%1: достъпът е отказан</translation>
     </message>
     <message>
         <source>%1: already exists</source>
-        <translation>%1: findes allerede</translation>
+        <translation>%1: вече съществува</translation>
     </message>
     <message>
         <source>%1: doesn&apos;t exist</source>
-        <translation>%1: findes ikke</translation>
+        <translation>%1: не съществува</translation>
     </message>
     <message>
         <source>%1: out of resources</source>
-        <translation>%1: ikke flere ressourcer</translation>
+        <translation>%1: недостатъчно ресурси</translation>
     </message>
     <message>
         <source>%1: unknown error %2</source>
-        <translation>%1: ukendt fejl %2</translation>
+        <translation>%1: неизвестна грешка %2</translation>
     </message>
     <message>
         <source>%1: invalid size</source>
-        <translation>%1: ugyldig størrelse</translation>
+        <translation>%1: неправилен размер</translation>
     </message>
     <message>
         <source>%1: key error</source>
-        <translation>%1: nøglefejl</translation>
+        <translation>%1: грешка в ключа</translation>
     </message>
     <message>
         <source>%1: size query failed</source>
-        <translation>%1: størrelsesforespørgsel fejlede</translation>
+        <translation>%1: неуспешно заявка за размера</translation>
     </message>
 </context>
 <context>
@@ -4414,7 +4414,7 @@ Slå venligst en at disse valgmuligheder fra.</translation>
     <message>
         <source>Space</source>
         <extracomment>This and all following &quot;incomprehensible&quot; strings in QShortcut context are key names. Please use the localized names appearing on actual keyboards or whatever is commonly used.</extracomment>
-        <translation>Mellemrum</translation>
+        <translation>Интервал</translation>
     </message>
     <message>
         <source>Esc</source>
@@ -4422,19 +4422,19 @@ Slå venligst en at disse valgmuligheder fra.</translation>
     </message>
     <message>
         <source>Tab</source>
-        <translation>Tabulator</translation>
+        <translation>Tab</translation>
     </message>
     <message>
         <source>Backtab</source>
-        <translation>Tilbage-tabulator</translation>
+        <translation>Backtab</translation>
     </message>
     <message>
         <source>Backspace</source>
-        <translation>Tilbage</translation>
+        <translation>Backspace</translation>
     </message>
     <message>
         <source>Return</source>
-        <translation>Retur</translation>
+        <translation>Return</translation>
     </message>
     <message>
         <source>Enter</source>
@@ -4454,7 +4454,7 @@ Slå venligst en at disse valgmuligheder fra.</translation>
     </message>
     <message>
         <source>Print</source>
-        <translation>Udskriv</translation>
+        <translation>Print</translation>
     </message>
     <message>
         <source>SysReq</source>
@@ -4470,19 +4470,19 @@ Slå venligst en at disse valgmuligheder fra.</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation>Venstre</translation>
+        <translation>Наляво</translation>
     </message>
     <message>
         <source>Up</source>
-        <translation>Op</translation>
+        <translation>Нагоре</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation>Højre</translation>
+        <translation>Надясно</translation>
     </message>
     <message>
         <source>Down</source>
-        <translation>Ned</translation>
+        <translation>Надолу</translation>
     </message>
     <message>
         <source>PgUp</source>
@@ -4506,309 +4506,309 @@ Slå venligst en at disse valgmuligheder fra.</translation>
     </message>
     <message>
         <source>Menu</source>
-        <translation>Menu</translation>
+        <translation>Меню</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Hjælp</translation>
+        <translation>Помощ</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Tilbage</translation>
+        <translation>Назад</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>Fremad</translation>
+        <translation>Напред</translation>
     </message>
     <message>
         <source>Stop</source>
-        <translation>Stop</translation>
+        <translation>Спиране</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation>Opdater</translation>
+        <translation>Опресняване</translation>
     </message>
     <message>
         <source>Volume Down</source>
-        <translation>Lydstyrke ned</translation>
+        <translation>Намаляване на звука</translation>
     </message>
     <message>
         <source>Volume Mute</source>
-        <translation>Lydstyrke mute</translation>
+        <translation>Заглушаване</translation>
     </message>
     <message>
         <source>Volume Up</source>
-        <translation>Lydstyrke op</translation>
+        <translation>Увеличаване на звука</translation>
     </message>
     <message>
         <source>Bass Boost</source>
-        <translation>Bas boost</translation>
+        <translation>Подсилване на басите</translation>
     </message>
     <message>
         <source>Bass Up</source>
-        <translation>Bas op</translation>
+        <translation>Увеличаване на басите</translation>
     </message>
     <message>
         <source>Bass Down</source>
-        <translation>Bas ned</translation>
+        <translation>Намаляване на басите</translation>
     </message>
     <message>
         <source>Treble Up</source>
-        <translation>Diskant op</translation>
+        <translation>Увеличаване на високите</translation>
     </message>
     <message>
         <source>Treble Down</source>
-        <translation>Diskant ned</translation>
+        <translation>Намаляване на високите</translation>
     </message>
     <message>
         <source>Media Play</source>
-        <translation>Medie afspil</translation>
+        <translation>Пускане</translation>
     </message>
     <message>
         <source>Media Stop</source>
-        <translation>Medie stop</translation>
+        <translation>Спиране</translation>
     </message>
     <message>
         <source>Media Previous</source>
-        <translation>Medie forrige</translation>
+        <translation>Предишно</translation>
     </message>
     <message>
         <source>Media Next</source>
-        <translation>Medie næste</translation>
+        <translation>Следващо</translation>
     </message>
     <message>
         <source>Media Record</source>
-        <translation>Medie optag</translation>
+        <translation>Запис</translation>
     </message>
     <message>
         <source>Media Pause</source>
         <extracomment>Media player pause button</extracomment>
-        <translation>Medie pause</translation>
+        <translation>Пауза</translation>
     </message>
     <message>
         <source>Toggle Media Play/Pause</source>
         <extracomment>Media player button to toggle between playing and paused</extracomment>
-        <translation>Medie afspil/pause til/fra</translation>
+        <translation>Пускане/пауза</translation>
     </message>
     <message>
         <source>Home Page</source>
-        <translation>Startside</translation>
+        <translation>Начална страница</translation>
     </message>
     <message>
         <source>Favorites</source>
-        <translation>Favoritter</translation>
+        <translation>Любими</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Søg</translation>
+        <translation>Търсене</translation>
     </message>
     <message>
         <source>Standby</source>
-        <translation>Standby</translation>
+        <translation>Режим на изчакване</translation>
     </message>
     <message>
         <source>Open URL</source>
-        <translation>Åbn URL</translation>
+        <translation>Отваряне на адрес</translation>
     </message>
     <message>
         <source>Launch Mail</source>
-        <translation>Start mail</translation>
+        <translation>Поща</translation>
     </message>
     <message>
         <source>Launch Media</source>
-        <translation>Start medie</translation>
+        <translation>Медия</translation>
     </message>
     <message>
         <source>Launch (0)</source>
-        <translation>Start (0)</translation>
+        <translation>Пускане (0)</translation>
     </message>
     <message>
         <source>Launch (1)</source>
-        <translation>Start (1)</translation>
+        <translation>Пускане (1)</translation>
     </message>
     <message>
         <source>Launch (2)</source>
-        <translation>Start (2)</translation>
+        <translation>Пускане (2)</translation>
     </message>
     <message>
         <source>Launch (3)</source>
-        <translation>Start (3)</translation>
+        <translation>Пускане (3)</translation>
     </message>
     <message>
         <source>Launch (4)</source>
-        <translation>Start (4)</translation>
+        <translation>Пускане (4)</translation>
     </message>
     <message>
         <source>Launch (5)</source>
-        <translation>Start (5)</translation>
+        <translation>Пускане (5)</translation>
     </message>
     <message>
         <source>Launch (6)</source>
-        <translation>Start (6)</translation>
+        <translation>Пускане (6)</translation>
     </message>
     <message>
         <source>Launch (7)</source>
-        <translation>Start (7)</translation>
+        <translation>Пускане (7)</translation>
     </message>
     <message>
         <source>Launch (8)</source>
-        <translation>Start (8)</translation>
+        <translation>Пускане (8)</translation>
     </message>
     <message>
         <source>Launch (9)</source>
-        <translation>Start (9)</translation>
+        <translation>Пускане (9)</translation>
     </message>
     <message>
         <source>Launch (A)</source>
-        <translation>Start (A)</translation>
+        <translation>Пускане (A)</translation>
     </message>
     <message>
         <source>Launch (B)</source>
-        <translation>Start (B)</translation>
+        <translation>Пускане (B)</translation>
     </message>
     <message>
         <source>Launch (C)</source>
-        <translation>Start (C)</translation>
+        <translation>Пускане (C)</translation>
     </message>
     <message>
         <source>Launch (D)</source>
-        <translation>Start (D)</translation>
+        <translation>Пускане (D)</translation>
     </message>
     <message>
         <source>Launch (E)</source>
-        <translation>Start (E)</translation>
+        <translation>Пускане (E)</translation>
     </message>
     <message>
         <source>Launch (F)</source>
-        <translation>Start (F)</translation>
+        <translation>Пускане (F)</translation>
     </message>
     <message>
         <source>Monitor Brightness Up</source>
-        <translation>Skærm lysstyrke op</translation>
+        <translation>Увеличаване на яркостта на екрана</translation>
     </message>
     <message>
         <source>Monitor Brightness Down</source>
-        <translation>Skærm lysstyrke ned</translation>
+        <translation>Намаляване на яркостта на екрана</translation>
     </message>
     <message>
         <source>Keyboard Light On/Off</source>
-        <translation>Tastaturlys til/fra</translation>
+        <translation>Вкл./изкл. на подсветката на клавиатурата</translation>
     </message>
     <message>
         <source>Keyboard Brightness Up</source>
-        <translation>Tastatur lysstyrke op</translation>
+        <translation>Увеличаване на яркостта на клавиатурата</translation>
     </message>
     <message>
         <source>Keyboard Brightness Down</source>
-        <translation>Tastatur lysstyrke ned</translation>
+        <translation>Намаляване на яркостта на клавиатурата</translation>
     </message>
     <message>
         <source>Power Off</source>
-        <translation>Sluk computer</translation>
+        <translation>Изключване</translation>
     </message>
     <message>
         <source>Wake Up</source>
-        <translation>Vågn op</translation>
+        <translation>Събуждане</translation>
     </message>
     <message>
         <source>Eject</source>
-        <translation>Skub ud</translation>
+        <translation>Изваждане</translation>
     </message>
     <message>
         <source>Screensaver</source>
-        <translation>Pauseskærm</translation>
+        <translation>Скрийнсейвър</translation>
     </message>
     <message>
         <source>WWW</source>
-        <translation>WWW</translation>
+        <translation>Интернет</translation>
     </message>
     <message>
         <source>Sleep</source>
-        <translation>Sov</translation>
+        <translation>Приспиване</translation>
     </message>
     <message>
         <source>LightBulb</source>
-        <translation>Pære</translation>
+        <translation>Лампичка</translation>
     </message>
     <message>
         <source>Shop</source>
-        <translation>Shop</translation>
+        <translation>Магазин</translation>
     </message>
     <message>
         <source>History</source>
-        <translation>Historik</translation>
+        <translation>История</translation>
     </message>
     <message>
         <source>Add Favorite</source>
-        <translation>Tilføj favorit</translation>
+        <translation>Добавяне в любими</translation>
     </message>
     <message>
         <source>Hot Links</source>
-        <translation>Hotte links</translation>
+        <translation>Интересни връзки</translation>
     </message>
     <message>
         <source>Adjust Brightness</source>
-        <translation>Juster lysstyrke</translation>
+        <translation>Настройка на яркостта</translation>
     </message>
     <message>
         <source>Finance</source>
-        <translation>Finans</translation>
+        <translation>Финанси</translation>
     </message>
     <message>
         <source>Community</source>
-        <translation>Fællesskab</translation>
+        <translation>Общност</translation>
     </message>
     <message>
         <source>Media Rewind</source>
-        <translation>Medie spol tilbage</translation>
+        <translation>Превъртане до началото</translation>
     </message>
     <message>
         <source>Back Forward</source>
-        <translation>Tilbage fremad</translation>
+        <translation>Назад / напред</translation>
     </message>
     <message>
         <source>Application Left</source>
-        <translation>Program venstre</translation>
+        <translation>Приложение – наляво</translation>
     </message>
     <message>
         <source>Application Right</source>
-        <translation>Program højre</translation>
+        <translation>Приложение – надясно</translation>
     </message>
     <message>
         <source>Book</source>
-        <translation>Bog</translation>
+        <translation>Книга</translation>
     </message>
     <message>
         <source>CD</source>
-        <translation>CD</translation>
+        <translation>Диск</translation>
     </message>
     <message>
         <source>Calculator</source>
-        <translation>Lommeregner</translation>
+        <translation>Калкулатор</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Ryd</translation>
+        <translation>Изчистване</translation>
     </message>
     <message>
         <source>Clear Grab</source>
-        <translation>Clear Grab</translation>
+        <translation>Изчистване на хванатото</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Luk</translation>
+        <translation>Затваряне</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Kopiér</translation>
+        <translation>Копиране</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation>Klip</translation>
+        <translation>Изрязване</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation>Skærm</translation>
+        <translation>Екран</translation>
     </message>
     <message>
         <source>DOS</source>
@@ -4816,23 +4816,23 @@ Slå venligst en at disse valgmuligheder fra.</translation>
     </message>
     <message>
         <source>Documents</source>
-        <translation>Dokumenter</translation>
+        <translation>Документи</translation>
     </message>
     <message>
         <source>Spreadsheet</source>
-        <translation>Regneark</translation>
+        <translation>Електронна таблица</translation>
     </message>
     <message>
         <source>Browser</source>
-        <translation>Browser</translation>
+        <translation>Браузър</translation>
     </message>
     <message>
         <source>Game</source>
-        <translation>Spil</translation>
+        <translation>Игра</translation>
     </message>
     <message>
         <source>Go</source>
-        <translation>Gå</translation>
+        <translation>Отиване</translation>
     </message>
     <message>
         <source>iTouch</source>
@@ -4840,111 +4840,111 @@ Slå venligst en at disse valgmuligheder fra.</translation>
     </message>
     <message>
         <source>Logoff</source>
-        <translation>Log af</translation>
+        <translation>Изход от системата</translation>
     </message>
     <message>
         <source>Market</source>
-        <translation>Marked</translation>
+        <translation>Пазар</translation>
     </message>
     <message>
         <source>Meeting</source>
-        <translation>Møde</translation>
+        <translation>Среща</translation>
     </message>
     <message>
         <source>Keyboard Menu</source>
-        <translation>Tastaturmenu</translation>
+        <translation>Клавиатурно меню</translation>
     </message>
     <message>
         <source>Menu PB</source>
-        <translation>Menu PB</translation>
+        <translation>Меню – PB</translation>
     </message>
     <message>
         <source>My Sites</source>
-        <translation>Mine steder</translation>
+        <translation>Моите места</translation>
     </message>
     <message>
         <source>News</source>
-        <translation>Nyheder</translation>
+        <translation>Новини</translation>
     </message>
     <message>
         <source>Home Office</source>
-        <translation>Hjemmekontor</translation>
+        <translation>Домашен офис</translation>
     </message>
     <message>
         <source>Option</source>
-        <translation>Valgmulighed</translation>
+        <translation>Опция</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>Sæt ind</translation>
+        <translation>Поставяне</translation>
     </message>
     <message>
         <source>Phone</source>
-        <translation>Telefon</translation>
+        <translation>Телефон</translation>
     </message>
     <message>
         <source>Reply</source>
-        <translation>Svar</translation>
+        <translation>Отговор</translation>
     </message>
     <message>
         <source>Reload</source>
-        <translation>Genindlæs</translation>
+        <translation>Презареждане</translation>
     </message>
     <message>
         <source>Rotate Windows</source>
-        <translation>Roter vinduer</translation>
+        <translation>Завъртане на прозорците</translation>
     </message>
     <message>
         <source>Rotation PB</source>
-        <translation>Rotation PB</translation>
+        <translation>Завъртане – PB</translation>
     </message>
     <message>
         <source>Rotation KB</source>
-        <translation>Rotation KB</translation>
+        <translation>Завъртане – KB</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Gem</translation>
+        <translation>Запазване</translation>
     </message>
     <message>
         <source>Send</source>
-        <translation>Send</translation>
+        <translation>Изпращане</translation>
     </message>
     <message>
         <source>Spellchecker</source>
-        <translation>Stavekontrol</translation>
+        <translation>Проверка на правописа</translation>
     </message>
     <message>
         <source>Split Screen</source>
-        <translation>Opdel skærm</translation>
+        <translation>Разделяне на екрана</translation>
     </message>
     <message>
         <source>Support</source>
-        <translation>Support</translation>
+        <translation>Поддръжка</translation>
     </message>
     <message>
         <source>Task Panel</source>
-        <translation>Opgavepanel</translation>
+        <translation>Панел на задачите</translation>
     </message>
     <message>
         <source>Terminal</source>
-        <translation>Terminal</translation>
+        <translation>Терминал</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation>Værktøjer</translation>
+        <translation>Инструменти</translation>
     </message>
     <message>
         <source>Travel</source>
-        <translation>Rejse</translation>
+        <translation>Пътуване</translation>
     </message>
     <message>
         <source>Video</source>
-        <translation>Video</translation>
+        <translation>Видео</translation>
     </message>
     <message>
         <source>Word Processor</source>
-        <translation>Tekstbehandling</translation>
+        <translation>Текстов редактор</translation>
     </message>
     <message>
         <source>XFer</source>
@@ -4952,430 +4952,430 @@ Slå venligst en at disse valgmuligheder fra.</translation>
     </message>
     <message>
         <source>Zoom In</source>
-        <translation>Zoom ind</translation>
+        <translation>Увеличаване</translation>
     </message>
     <message>
         <source>Zoom Out</source>
-        <translation>Zoom ud</translation>
+        <translation>Намаляване</translation>
     </message>
     <message>
         <source>Away</source>
-        <translation>Væk</translation>
+        <translation>Отсъстващ</translation>
     </message>
     <message>
         <source>Messenger</source>
-        <translation>Messenger</translation>
+        <translation>Програма за обмен на мигновени съобщения</translation>
     </message>
     <message>
         <source>WebCam</source>
-        <translation>Webcam</translation>
+        <translation>Камера</translation>
     </message>
     <message>
         <source>Mail Forward</source>
-        <translation>Mail Forward</translation>
+        <translation>Препращане на писмо</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>Billeder</translation>
+        <translation>Снимки</translation>
     </message>
     <message>
         <source>Music</source>
-        <translation>Musik</translation>
+        <translation>Музика</translation>
     </message>
     <message>
         <source>Battery</source>
-        <translation>Batteri</translation>
+        <translation>Батерия</translation>
     </message>
     <message>
         <source>Bluetooth</source>
-        <translation>Bluetooth</translation>
+        <translation>Блутут</translation>
     </message>
     <message>
         <source>Wireless</source>
-        <translation>Trådlås</translation>
+        <translation>Безжична мрежа</translation>
     </message>
     <message>
         <source>Ultra Wide Band</source>
-        <translation>Ultra Wide Band</translation>
+        <translation>Ултра-широколентова връзка</translation>
     </message>
     <message>
         <source>Media Fast Forward</source>
-        <translation>Medie spol fremad</translation>
+        <translation>Превъртане напред</translation>
     </message>
     <message>
         <source>Audio Repeat</source>
-        <translation>Lyd gentag</translation>
+        <translation>Повтаряне на възпроизвеждането</translation>
     </message>
     <message>
         <source>Audio Random Play</source>
-        <translation>Lyd tilfældig afspil</translation>
+        <translation>Възпроизвеждане в произволен ред</translation>
     </message>
     <message>
         <source>Subtitle</source>
-        <translation>Undertekst</translation>
+        <translation>Надписи</translation>
     </message>
     <message>
         <source>Audio Cycle Track</source>
-        <translation>Lyd gennemløb spor</translation>
+        <translation>Зацикляне на звуковия запис</translation>
     </message>
     <message>
         <source>Time</source>
-        <translation>Tid</translation>
+        <translation>Време</translation>
     </message>
     <message>
         <source>Hibernate</source>
-        <translation>Dvale</translation>
+        <translation>Дълбоко приспиване</translation>
     </message>
     <message>
         <source>View</source>
-        <translation>Vis</translation>
+        <translation>Изглед</translation>
     </message>
     <message>
         <source>Top Menu</source>
-        <translation>Topmenu</translation>
+        <translation>Горно меню</translation>
     </message>
     <message>
         <source>Power Down</source>
-        <translation>Sluk</translation>
+        <translation>Изключване</translation>
     </message>
     <message>
         <source>Suspend</source>
-        <translation>Hvile</translation>
+        <translation>Приспиване</translation>
     </message>
     <message>
         <source>Microphone Mute</source>
-        <translation>Mikrofon mute</translation>
+        <translation>Заглушаване на микрофона</translation>
     </message>
     <message>
         <source>Red</source>
-        <translation>Rød</translation>
+        <translation>Червено</translation>
     </message>
     <message>
         <source>Green</source>
-        <translation>Grøn</translation>
+        <translation>Зелено</translation>
     </message>
     <message>
         <source>Yellow</source>
-        <translation>Gul</translation>
+        <translation>Жълто</translation>
     </message>
     <message>
         <source>Blue</source>
-        <translation>Blå</translation>
+        <translation>Синьо</translation>
     </message>
     <message>
         <source>Channel Up</source>
-        <translation>Kanal op</translation>
+        <translation>Канал нагоре</translation>
     </message>
     <message>
         <source>Channel Down</source>
-        <translation>Kanal ned</translation>
+        <translation>Канал надолу</translation>
     </message>
     <message>
         <source>Guide</source>
-        <translation>Guide</translation>
+        <translation>Ръководство</translation>
     </message>
     <message>
         <source>Info</source>
-        <translation>Info</translation>
+        <translation>Информация</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation>Indstillinger</translation>
+        <translation>Настройки</translation>
     </message>
     <message>
         <source>Microphone Volume Up</source>
-        <translation>Mikrofon lydstyrke op</translation>
+        <translation>Увеличаване на звука на микрофона</translation>
     </message>
     <message>
         <source>Microphone Volume Down</source>
-        <translation>Mikrofon lydstyrke ned</translation>
+        <translation>Намаляване на звука на микрофона</translation>
     </message>
     <message>
         <source>New</source>
-        <translation>Ny</translation>
+        <translation>Създаване</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Åbn</translation>
+        <translation>Отваряне</translation>
     </message>
     <message>
         <source>Find</source>
-        <translation>Find</translation>
+        <translation>Търсене</translation>
     </message>
     <message>
         <source>Undo</source>
-        <translation>Fortryd</translation>
+        <translation>Отмяна</translation>
     </message>
     <message>
         <source>Redo</source>
-        <translation>Omgør</translation>
+        <translation>Повторение</translation>
     </message>
     <message>
         <source>Print Screen</source>
-        <translation>Print Screen</translation>
+        <translation>Заснемане на екрана</translation>
     </message>
     <message>
         <source>Page Up</source>
-        <translation>Side op</translation>
+        <translation>Страница нагоре</translation>
     </message>
     <message>
         <source>Page Down</source>
-        <translation>Side ned</translation>
+        <translation>Страница надолу</translation>
     </message>
     <message>
         <source>Caps Lock</source>
-        <translation>Caps Lock</translation>
+        <translation>Заключване на горния регистър</translation>
     </message>
     <message>
         <source>Num Lock</source>
-        <translation>Num Lock</translation>
+        <translation>Цифрови клавиши</translation>
     </message>
     <message>
         <source>Number Lock</source>
-        <translation>Number Lock</translation>
+        <translation>Цифрови клавиши</translation>
     </message>
     <message>
         <source>Scroll Lock</source>
-        <translation>Scroll Lock</translation>
+        <translation>Заключване на превъртането</translation>
     </message>
     <message>
         <source>Insert</source>
-        <translation>Indsæt</translation>
+        <translation>Вмъкване</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Slet</translation>
+        <translation>Изтриване</translation>
     </message>
     <message>
         <source>Escape</source>
-        <translation>Escape</translation>
+        <translation>Изход</translation>
     </message>
     <message>
         <source>System Request</source>
-        <translation>System Request</translation>
+        <translation>Системна заявка</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation>Vælg</translation>
+        <translation>Избиране</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Ja</translation>
+        <translation>Да</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Nej</translation>
+        <translation>Не</translation>
     </message>
     <message>
         <source>Context1</source>
-        <translation>Kontekst1</translation>
+        <translation>Контекст 1</translation>
     </message>
     <message>
         <source>Context2</source>
-        <translation>Kontekst2</translation>
+        <translation>Контекст 2</translation>
     </message>
     <message>
         <source>Context3</source>
-        <translation>Kontekst3</translation>
+        <translation>Контекст 3</translation>
     </message>
     <message>
         <source>Context4</source>
-        <translation>Kontekst4</translation>
+        <translation>Контекст 4</translation>
     </message>
     <message>
         <source>Call</source>
         <extracomment>Button to start a call (note: a separate button is used to end the call)</extracomment>
-        <translation>Ring op</translation>
+        <translation>Обаждане</translation>
     </message>
     <message>
         <source>Hangup</source>
         <extracomment>Button to end a call (note: a separate button is used to start the call)</extracomment>
-        <translation>Læg på</translation>
+        <translation>Затваряне</translation>
     </message>
     <message>
         <source>Toggle Call/Hangup</source>
         <extracomment>Button that will hang up if we&apos;re in call, or make a call if we&apos;re not.</extracomment>
-        <translation>Ring op/læg på til/fra</translation>
+        <translation>Обаждане/затваряне</translation>
     </message>
     <message>
         <source>Flip</source>
-        <translation>Vend</translation>
+        <translation>Обръщане</translation>
     </message>
     <message>
         <source>Voice Dial</source>
         <extracomment>Button to trigger voice dialing</extracomment>
-        <translation>Stemmeopkald</translation>
+        <translation>Гласово набиране</translation>
     </message>
     <message>
         <source>Last Number Redial</source>
         <extracomment>Button to redial the last number called</extracomment>
-        <translation>Sidste kaldte nummer</translation>
+        <translation>Набиране на последния номер</translation>
     </message>
     <message>
         <source>Camera Shutter</source>
         <extracomment>Button to trigger the camera shutter (take a picture)</extracomment>
-        <translation>Kameralukker</translation>
+        <translation>Затвор на камерата</translation>
     </message>
     <message>
         <source>Camera Focus</source>
         <extracomment>Button to focus the camera</extracomment>
-        <translation>Kamerafokus</translation>
+        <translation>Фокусиране на камерата</translation>
     </message>
     <message>
         <source>Kanji</source>
-        <translation>Kanji</translation>
+        <translation>Канджи</translation>
     </message>
     <message>
         <source>Muhenkan</source>
-        <translation>Muhenkan</translation>
+        <translation>Мухенкан</translation>
     </message>
     <message>
         <source>Henkan</source>
-        <translation>Henkan</translation>
+        <translation>Хенкан</translation>
     </message>
     <message>
         <source>Romaji</source>
-        <translation>Romaji</translation>
+        <translation>Ромадзи</translation>
     </message>
     <message>
         <source>Hiragana</source>
-        <translation>Hiragana</translation>
+        <translation>Хирагана</translation>
     </message>
     <message>
         <source>Katakana</source>
-        <translation>Katakana</translation>
+        <translation>Катакана</translation>
     </message>
     <message>
         <source>Hiragana Katakana</source>
-        <translation>Hiragana Katakana</translation>
+        <translation>Хирагана-катакана</translation>
     </message>
     <message>
         <source>Zenkaku</source>
-        <translation>Zenkaku</translation>
+        <translation>Зенкакку</translation>
     </message>
     <message>
         <source>Hankaku</source>
-        <translation>Hankaku</translation>
+        <translation>Ханкаку</translation>
     </message>
     <message>
         <source>Zenkaku Hankaku</source>
-        <translation>Zenkaku Hankaku</translation>
+        <translation>Зенкаку-ханкаку</translation>
     </message>
     <message>
         <source>Touroku</source>
-        <translation>Touroku</translation>
+        <translation>Тоуроку</translation>
     </message>
     <message>
         <source>Massyo</source>
-        <translation>Massyo</translation>
+        <translation>Масио</translation>
     </message>
     <message>
         <source>Kana Lock</source>
-        <translation>Kana lås</translation>
+        <translation>Заключване на кана</translation>
     </message>
     <message>
         <source>Kana Shift</source>
-        <translation>Kana skift</translation>
+        <translation>Кана Shift</translation>
     </message>
     <message>
         <source>Eisu Shift</source>
-        <translation>Eisu skift</translation>
+        <translation>Ейсу Shift</translation>
     </message>
     <message>
         <source>Eisu toggle</source>
-        <translation>Eisu til/fra</translation>
+        <translation>Ейсу – превключване</translation>
     </message>
     <message>
         <source>Code input</source>
-        <translation>Kodeinput</translation>
+        <translation>Въвеждане на код</translation>
     </message>
     <message>
         <source>Multiple Candidate</source>
-        <translation>Flere kandidat</translation>
+        <translation>Няколко възможности</translation>
     </message>
     <message>
         <source>Previous Candidate</source>
-        <translation>Forrige kandidat</translation>
+        <translation>Предишна възможност</translation>
     </message>
     <message>
         <source>Hangul</source>
-        <translation>Hangul</translation>
+        <translation>Хангъл</translation>
     </message>
     <message>
         <source>Hangul Start</source>
-        <translation>Hangul start</translation>
+        <translation>Хангъл – начало</translation>
     </message>
     <message>
         <source>Hangul End</source>
-        <translation>Hangul slut</translation>
+        <translation>Хангъл – край</translation>
     </message>
     <message>
         <source>Hangul Hanja</source>
-        <translation>Hangul Hanja</translation>
+        <translation>Хангъл – ханча</translation>
     </message>
     <message>
         <source>Hangul Jamo</source>
-        <translation>Hangul Jamo</translation>
+        <translation>Хангъл – чамо</translation>
     </message>
     <message>
         <source>Hangul Romaja</source>
-        <translation>Hangul Romaja</translation>
+        <translation>Хангъл – ромача</translation>
     </message>
     <message>
         <source>Hangul Jeonja</source>
-        <translation>Hangul Jeonja</translation>
+        <translation>Хангъл – чеонча</translation>
     </message>
     <message>
         <source>Hangul Banja</source>
-        <translation>Hangul Banja</translation>
+        <translation>Хангъл – банча</translation>
     </message>
     <message>
         <source>Hangul PreHanja</source>
-        <translation>Hangul præ-Hanja</translation>
+        <translation>Хангъл – преди ханча</translation>
     </message>
     <message>
         <source>Hangul PostHanja</source>
-        <translation>Hangul post-Hanja</translation>
+        <translation>Хангъл – след ханча</translation>
     </message>
     <message>
         <source>Hangul Special</source>
-        <translation>Hangul speciel</translation>
+        <translation>Хангъл – специален</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Annuller</translation>
+        <translation>Отказ</translation>
     </message>
     <message>
         <source>Printer</source>
-        <translation>Printer</translation>
+        <translation>Принтер</translation>
     </message>
     <message>
         <source>Execute</source>
-        <translation>Eksekver</translation>
+        <translation>Изпълнение</translation>
     </message>
     <message>
         <source>Play</source>
-        <translation>Afspil</translation>
+        <translation>Пускане</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation>Zoom</translation>
+        <translation>Увеличение</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>Afslut</translation>
+        <translation>Изход</translation>
     </message>
     <message>
         <source>Touchpad Toggle</source>
-        <translation>Pegeplade til/fra</translation>
+        <translation>Превключване на сензорния панел</translation>
     </message>
     <message>
         <source>Touchpad On</source>
-        <translation>Pegeplade til</translation>
+        <translation>Включване на сензорния панел</translation>
     </message>
     <message>
         <source>Touchpad Off</source>
-        <translation>Pegeplade fra</translation>
+        <translation>Изключване на сензорния панел</translation>
     </message>
     <message>
         <source>Ctrl</source>
@@ -5383,7 +5383,7 @@ Slå venligst en at disse valgmuligheder fra.</translation>
     </message>
     <message>
         <source>Shift</source>
-        <translation>Skift</translation>
+        <translation>Shift</translation>
     </message>
     <message>
         <source>Alt</source>
@@ -5410,59 +5410,59 @@ Slå venligst en at disse valgmuligheder fra.</translation>
     <name>QSocks5SocketEngine</name>
     <message>
         <source>Connection to proxy refused</source>
-        <translation>Proxy-forbindelsen blev nægtet</translation>
+        <translation>Връзката със сървъра-посредник е отказана</translation>
     </message>
     <message>
         <source>Connection to proxy closed prematurely</source>
-        <translation>Proxy-forbindelsen lukkede i utide</translation>
+        <translation>Връзката със сървъра-посредник беше преждевременно преустановена</translation>
     </message>
     <message>
         <source>Proxy host not found</source>
-        <translation>Proxy-værten blev ikke fundet</translation>
+        <translation>Сървърът-посредник не е намерен</translation>
     </message>
     <message>
         <source>Connection to proxy timed out</source>
-        <translation>Proxy-forbindelsen fik timeout</translation>
+        <translation>Времето на връзката със сървъра-посредник изтече</translation>
     </message>
     <message>
         <source>Proxy authentication failed</source>
-        <translation>Proxy-autentifikation fejlede</translation>
+        <translation>Неуспешно удостоверяване в сървъра-посредник</translation>
     </message>
     <message>
         <source>Proxy authentication failed: %1</source>
-        <translation>Proxy-autentifikation fejlede: %1</translation>
+        <translation>Неуспешно удостоверяване в сървъра-посредник: %1</translation>
     </message>
     <message>
         <source>SOCKS version 5 protocol error</source>
-        <translation>SOCKS version 5 protokolfejl</translation>
+        <translation>Грешка в протокола SOCKS версия 5</translation>
     </message>
     <message>
         <source>General SOCKSv5 server failure</source>
-        <translation>General SOCKSv5 serverfejl</translation>
+        <translation>Обща грешка в сървъра за SOCKSv5</translation>
     </message>
     <message>
         <source>Connection not allowed by SOCKSv5 server</source>
-        <translation>Forbindelse ikke tilladt a SOCKSv5-server</translation>
+        <translation>Връзката не е позволена от сървъра за SOCKSv5</translation>
     </message>
     <message>
         <source>TTL expired</source>
-        <translation>TTL udløbet</translation>
+        <translation>Времето на живот (TTL) е изтекло</translation>
     </message>
     <message>
         <source>SOCKSv5 command not supported</source>
-        <translation>SOCKSv5-kommando understøttes ikke</translation>
+        <translation>Командата за SOCKSv5 не се поддържа</translation>
     </message>
     <message>
         <source>Address type not supported</source>
-        <translation>Adressetypen understøttes ikke</translation>
+        <translation>Видът на адреса не се поддържа</translation>
     </message>
     <message>
         <source>Unknown SOCKSv5 proxy error code 0x%1</source>
-        <translation>Ukendt SOCKSv5-proxy fejlkode 0x%1</translation>
+        <translation>Неизвестна грешка в сървъра-посредник за SOCKSv5 (код: 0x%1)</translation>
     </message>
     <message>
         <source>Network operation timed out</source>
-        <translation>Netværkshandlingen fik timeout</translation>
+        <translation>Времето на мрежовата операция изтече</translation>
     </message>
 </context>
 <context>
@@ -5470,864 +5470,864 @@ Slå venligst en at disse valgmuligheder fra.</translation>
     <message>
         <source>invalid role</source>
         <extracomment>Role of an accessible object - the object is in an invalid state or could not be constructed</extracomment>
-        <translation>ugyldig rolle</translation>
+        <translation>неправилна роля</translation>
     </message>
     <message>
         <source>title bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>titellinje</translation>
+        <translation>заглавна лента</translation>
     </message>
     <message>
         <source>menu bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>menulinje</translation>
+        <translation>лента с менюта</translation>
     </message>
     <message>
         <source>scroll bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>rullebjælke</translation>
+        <translation>лента за придвижване</translation>
     </message>
     <message>
         <source>grip</source>
         <extracomment>Role of an accessible object - the grip is usually used for resizing another object</extracomment>
-        <translation>greb</translation>
+        <translation>хватка за преоразмеряване</translation>
     </message>
     <message>
         <source>sound</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>lyd</translation>
+        <translation>звук</translation>
     </message>
     <message>
         <source>cursor</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>markør</translation>
+        <translation>курсор на мишката</translation>
     </message>
     <message>
         <source>text caret</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>tekstmarkør</translation>
+        <translation>текстов курсор</translation>
     </message>
     <message>
         <source>alert message</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>beskedmeddelelse</translation>
+        <translation>предупредително съобщение</translation>
     </message>
     <message>
         <source>frame</source>
         <extracomment>Role of an accessible object: a window with frame and title
 ----------
 Role of an accessible object</extracomment>
-        <translation>ramme</translation>
+        <translation>рамка</translation>
     </message>
     <message>
         <source>filler</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>udfylder</translation>
+        <translation>пълнеж</translation>
     </message>
     <message>
         <source>popup menu</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>pop op-menu</translation>
+        <translation>изскачащо меню</translation>
     </message>
     <message>
         <source>menu item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>menupunkt</translation>
+        <translation>елемент от меню</translation>
     </message>
     <message>
         <source>tool tip</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>værktøjstip</translation>
+        <translation>подсказка</translation>
     </message>
     <message>
         <source>application</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>program</translation>
+        <translation>приложение</translation>
     </message>
     <message>
         <source>document</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>dokument</translation>
+        <translation>документ</translation>
     </message>
     <message>
         <source>panel</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>panel</translation>
+        <translation>панел</translation>
     </message>
     <message>
         <source>chart</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>graf</translation>
+        <translation>графика</translation>
     </message>
     <message>
         <source>dialog</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>dialog</translation>
+        <translation>диалогов прозорец</translation>
     </message>
     <message>
         <source>separator</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>separator</translation>
+        <translation>разделител</translation>
     </message>
     <message>
         <source>tool bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>værktøjslinje</translation>
+        <translation>лента с инструменти</translation>
     </message>
     <message>
         <source>status bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>statuslinje</translation>
+        <translation>лента за състояние</translation>
     </message>
     <message>
         <source>table</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>tabel</translation>
+        <translation>таблица</translation>
     </message>
     <message>
         <source>column header</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>kolonnehoved</translation>
+        <translation>заглавие на колона</translation>
     </message>
     <message>
         <source>row header</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>rækkehoved</translation>
+        <translation>заглавие на ред</translation>
     </message>
     <message>
         <source>column</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>kolonne</translation>
+        <translation>колона</translation>
     </message>
     <message>
         <source>row</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>række</translation>
+        <translation>ред</translation>
     </message>
     <message>
         <source>cell</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>celle</translation>
+        <translation>клетка</translation>
     </message>
     <message>
         <source>link</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>link</translation>
+        <translation>връзка</translation>
     </message>
     <message>
         <source>help balloon</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>hjælp-ballon</translation>
+        <translation>помощно балонче</translation>
     </message>
     <message>
         <source>assistant</source>
         <extracomment>Role of an accessible object - a helper dialog</extracomment>
-        <translation>assistent</translation>
+        <translation>помощник</translation>
     </message>
     <message>
         <source>list</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>liste</translation>
+        <translation>списък</translation>
     </message>
     <message>
         <source>list item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>listepunkt</translation>
+        <translation>елемент от списък</translation>
     </message>
     <message>
         <source>tree</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>træ</translation>
+        <translation>дърво</translation>
     </message>
     <message>
         <source>tree item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>træpunkt</translation>
+        <translation>елемент от дърво</translation>
     </message>
     <message>
         <source>page tab</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>sidefaneblad</translation>
+        <translation>раздел на страница</translation>
     </message>
     <message>
         <source>property page</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>egenskabsside</translation>
+        <translation>страница със свойства</translation>
     </message>
     <message>
         <source>indicator</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>indikator</translation>
+        <translation>индикатор</translation>
     </message>
     <message>
         <source>graphic</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>grafik</translation>
+        <translation>графика</translation>
     </message>
     <message>
         <source>label</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>etiket</translation>
+        <translation>етикет</translation>
     </message>
     <message>
         <source>text</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>tekst</translation>
+        <translation>текст</translation>
     </message>
     <message>
         <source>push button</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>trykknap</translation>
+        <translation>бутон</translation>
     </message>
     <message>
         <source>check box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>afkrydsningsboks</translation>
+        <translation>поле за отметка</translation>
     </message>
     <message>
         <source>radio button</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>radioknap</translation>
+        <translation>превключвател</translation>
     </message>
     <message>
         <source>combo box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>komboboks</translation>
+        <translation>падащо меню</translation>
     </message>
     <message>
         <source>progress bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>fremgangslinje</translation>
+        <translation>лента за напредък</translation>
     </message>
     <message>
         <source>dial</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>drejeskive</translation>
+        <translation>врътка</translation>
     </message>
     <message>
         <source>hotkey field</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>genvejstastfelt</translation>
+        <translation>поле за бърз клавиш</translation>
     </message>
     <message>
         <source>slider</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>skyder</translation>
+        <translation>плъзгач</translation>
     </message>
     <message>
         <source>spin box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>rotationsboks</translation>
+        <translation>числово поле</translation>
     </message>
     <message>
         <source>canvas</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>lærred</translation>
+        <translation>платно</translation>
     </message>
     <message>
         <source>animation</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>animation</translation>
+        <translation>анимация</translation>
     </message>
     <message>
         <source>equation</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ligning</translation>
+        <translation>уравнение</translation>
     </message>
     <message>
         <source>button with drop down</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>knap med rullegardin</translation>
+        <translation>бутон с падащо меню</translation>
     </message>
     <message>
         <source>button menu</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>knapmenu</translation>
+        <translation>бутонно меню</translation>
     </message>
     <message>
         <source>button with drop down grid</source>
         <extracomment>Role of an accessible object - a button that expands a grid.</extracomment>
-        <translation>knap med rullegardinsgitter</translation>
+        <translation>бутон с падаща решетка</translation>
     </message>
     <message>
         <source>space</source>
         <extracomment>Role of an accessible object - blank space between other objects.</extracomment>
-        <translation>mellemrum</translation>
+        <translation>празно място</translation>
     </message>
     <message>
         <source>page tab list</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>sidefanebladsliste</translation>
+        <translation>списък с раздели на страници</translation>
     </message>
     <message>
         <source>clock</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ur</translation>
+        <translation>часовник</translation>
     </message>
     <message>
         <source>splitter</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>adskiller</translation>
+        <translation>подвижен разделител</translation>
     </message>
     <message>
         <source>layered pane</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>laglagt rude</translation>
+        <translation>наслоен панел</translation>
     </message>
     <message>
         <source>web document</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>webdokument</translation>
+        <translation>уеб документ</translation>
     </message>
     <message>
         <source>paragraph</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>afsnit</translation>
+        <translation>абзац</translation>
     </message>
     <message>
         <source>section</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>sektion</translation>
+        <translation>секция</translation>
     </message>
     <message>
         <source>color chooser</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>farvevælger</translation>
+        <translation>избор на цвят</translation>
     </message>
     <message>
         <source>footer</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>sidefod</translation>
+        <translation>долен колонтитул</translation>
     </message>
     <message>
         <source>form</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>formular</translation>
+        <translation>формуляр</translation>
     </message>
     <message>
         <source>heading</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>overskrift</translation>
+        <translation>заглавие</translation>
     </message>
     <message>
         <source>note</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>bemærkning</translation>
+        <translation>бележка</translation>
     </message>
     <message>
         <source>complementary content</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>supplerende indhold</translation>
+        <translation>допълнително съдържание</translation>
     </message>
     <message>
         <source>unknown</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ukendt</translation>
+        <translation>неизвестно</translation>
     </message>
 </context>
 <context>
     <name>QSslDiffieHellmanParameter</name>
     <message>
         <source>No error</source>
-        <translation>Ingen fejl</translation>
+        <translation>Няма грешки</translation>
     </message>
     <message>
         <source>Invalid input data</source>
-        <translation>Ugyldig inputdata</translation>
+        <translation>Неправилни входни данни</translation>
     </message>
     <message>
         <source>The given Diffie-Hellman parameters are deemed unsafe</source>
-        <translation>De givne Diffie-Hellman-parametre skønnes usikre</translation>
+        <translation>Подадените параметри за алгоритъма Дифи-Хелман се смятат за небезопасни</translation>
     </message>
 </context>
 <context>
     <name>QSslSocket</name>
     <message>
         <source>Error when setting the elliptic curves (%1)</source>
-        <translation>Fejl under indstilling af de elliptiske kurver (%1)</translation>
+        <translation>Грешка при задаването на елиптичните криви (%1)</translation>
     </message>
     <message>
         <source>Error creating SSL context (%1)</source>
-        <translation>Fejl under oprettelse af SSL-kontekst (%1)</translation>
+        <translation>Грешка при създаването на контекст за SSL (%1)</translation>
     </message>
     <message>
         <source>unsupported protocol</source>
-        <translation>protokollen understøttes ikke</translation>
+        <translation>неподдържан протокол</translation>
     </message>
     <message>
         <source>Invalid or empty cipher list (%1)</source>
-        <translation>Ugyldig eller tom chifferliste (%1)</translation>
+        <translation>Грешен или празен списък от шифри (%1)</translation>
     </message>
     <message>
         <source>Cannot provide a certificate with no key, %1</source>
-        <translation>Kan ikke give et certifikat uden nøgle, %1</translation>
+        <translation>Не може да бъде предоставен сертификат без ключ, %1</translation>
     </message>
     <message>
         <source>Error loading local certificate, %1</source>
-        <translation>Fejl under indlæsning af lokalt certifikat, %1</translation>
+        <translation>Грешка при зареждането на локален сертификат, %1</translation>
     </message>
     <message>
         <source>Error loading private key, %1</source>
-        <translation>Fejl under indlæsning af privat nøgle, %1</translation>
+        <translation>Грешка при зареждането на частния ключ, %1</translation>
     </message>
     <message>
         <source>Private key does not certify public key, %1</source>
-        <translation>Privat nøgle certificere ikke offentlig nøgle, %1</translation>
+        <translation>Частният ключ не потвърждава публичния, %1</translation>
     </message>
     <message>
         <source>Diffie-Hellman parameters are not valid</source>
-        <translation>Diffie-Hellman-parametre er ikke gyldige</translation>
+        <translation>Параметрите за алгоритъма Дифи-Хелман са неправилни</translation>
     </message>
     <message>
         <source>OpenSSL version too old, need at least v1.0.2</source>
-        <translation>OpenSSL-version for gammel, skal mindst være v1.0.2</translation>
+        <translation>Версията на OpenSSL е твърде стара, трябва да бъде поне 1.0.2</translation>
     </message>
     <message>
         <source>No error</source>
-        <translation>Ingen fejl</translation>
+        <translation>Няма грешки</translation>
     </message>
     <message>
         <source>The issuer certificate could not be found</source>
-        <translation>Udstedercertifikatet kunne ikke findes</translation>
+        <translation>Издаващият сертификат не може да бъде намерен</translation>
     </message>
     <message>
         <source>The certificate signature could not be decrypted</source>
-        <translation>Certifikatsignaturen kunne ikke dekrypteres</translation>
+        <translation>Подписът на сертификата не може да бъде дешифриран</translation>
     </message>
     <message>
         <source>The public key in the certificate could not be read</source>
-        <translation>Den offentlige nøgle i certifikatet kunne ikke læses</translation>
+        <translation>Публичният ключ в сертификата не може да бъде прочетен</translation>
     </message>
     <message>
         <source>The signature of the certificate is invalid</source>
-        <translation>Signaturen på certifikatet er ugyldigt</translation>
+        <translation>Подписът на сертификата е неправилен</translation>
     </message>
     <message>
         <source>The certificate is not yet valid</source>
-        <translation>Certifikatet er endnu ikke gyldigt</translation>
+        <translation>Срокът на действие на сертификата все още не е настъпил</translation>
     </message>
     <message>
         <source>The certificate has expired</source>
-        <translation>Certifikatet er udløbet</translation>
+        <translation>Сертификатът е изтекъл</translation>
     </message>
     <message>
         <source>The certificate&apos;s notBefore field contains an invalid time</source>
-        <translation>Certifikatets notBefore-felt indeholder en ugyldig tid</translation>
+        <translation>Полето „notBefore“ на сертификата съдържа неправилно време</translation>
     </message>
     <message>
         <source>The certificate&apos;s notAfter field contains an invalid time</source>
-        <translation>Certifikatets notAfter-felt indeholder en ugyldig tid</translation>
+        <translation>Полето „notAfter“ на сертификата съдържа неправилно време</translation>
     </message>
     <message>
         <source>The certificate is self-signed, and untrusted</source>
-        <translation>Certifikatet er selv-signeret, og ikke betroet</translation>
+        <translation>Сертификатът е самоподписан и ненадежден</translation>
     </message>
     <message>
         <source>The root certificate of the certificate chain is self-signed, and untrusted</source>
-        <translation>Rod-certifikatet af certifikatskæden er selv-signeret, og ikke betroet</translation>
+        <translation>Коренният сертификат на сертификационната верига е самоподписан и ненадежден</translation>
     </message>
     <message>
         <source>The issuer certificate of a locally looked up certificate could not be found</source>
-        <translation>Udstedercertifikatet af en lokalt opslået certifikat kunne ikke findes</translation>
+        <translation>Издаващият сертификат на локално търсен сертификат не може да бъде намерен</translation>
     </message>
     <message>
         <source>No certificates could be verified</source>
-        <translation>Ingen certifikater kunne verificeres</translation>
+        <translation>Нито един сертификат не може да бъде проверен</translation>
     </message>
     <message>
         <source>One of the CA certificates is invalid</source>
-        <translation>Et af CA-certifikaterne er ugyldigt</translation>
+        <translation>Един от сертификатите на центъра за сертификация е неправилен</translation>
     </message>
     <message>
         <source>The basicConstraints path length parameter has been exceeded</source>
-        <translation>Stilængde-parameteren basicConstraints er blevet overskredet</translation>
+        <translation>Стойността на параметъра за дължина на пътя в „basicConstraints“ е превишена</translation>
     </message>
     <message>
         <source>The supplied certificate is unsuitable for this purpose</source>
-        <translation>Det givet certifikat er uegnet til dette formål</translation>
+        <translation>Предоставеният сертификат не е подходящ за тази цел</translation>
     </message>
     <message>
         <source>The root CA certificate is not trusted for this purpose</source>
-        <translation>Rod-CA-certifikatet er ikke betroet til dette formål</translation>
+        <translation>Коренният сертификат на центъра за сертификация е ненадежден за тази цел</translation>
     </message>
     <message>
         <source>The root CA certificate is marked to reject the specified purpose</source>
-        <translation>Rod-CA-certifikatet er markeret til at afvise det specifikke formål</translation>
+        <translation>Коренният сертификат на центъра за сертификация е отбелязан да отхвърля посочената цел</translation>
     </message>
     <message>
         <source>The current candidate issuer certificate was rejected because its subject name did not match the issuer name of the current certificate</source>
-        <translation>Det aktuelle kandidat-udstedercertifikat blev afvist fordi dets subjektnavn ikke matchede udstedernavnet på det aktuelle certifikat</translation>
+        <translation>Текущият кандидат за издаващ сертификат беше отхвърлен, тъй като името на субекта му не съвпада с името на издателя на текущия сертификат</translation>
     </message>
     <message>
         <source>The current candidate issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate</source>
-        <translation>Det aktuelle kandidat-udstedercertifikat blev afvist fordi dets udstedernavn og serienummer var tilstede og ikke matchede myndighedsnøgle-identifikatoren på det aktuelle certifikat</translation>
+        <translation>Текущият кандидат за издаващ сертификат беше отхвърлен, тъй като името на издателя му и серийният номер бяха налични и не съвпадаха с идентификатора на ключа за удостоверяване на текущия сертификат</translation>
     </message>
     <message>
         <source>The peer did not present any certificate</source>
-        <translation>Peer&apos;en præsenterede ikke noget certifikat</translation>
+        <translation>Другата страна не представи сертификат</translation>
     </message>
     <message>
         <source>The host name did not match any of the valid hosts for this certificate</source>
-        <translation>Værtsnavnet matchede ikke nogen af de gyldige værter for dette certifikat</translation>
+        <translation>Името на сървъра не съвпада с нито едно от допустимите имена за този сертификат</translation>
     </message>
     <message>
         <source>The peer certificate is blacklisted</source>
-        <translation>Peer-certifikatet er sortlistet</translation>
+        <translation>Сертификатът на другата страна е в черния списък</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Ukendt fejl</translation>
+        <translation>Неизвестна грешка</translation>
     </message>
     <message>
         <source>The TLS/SSL connection has been closed</source>
-        <translation>TLS-/SSL-forbindelsen er blevet lukket</translation>
+        <translation>Връзката чрез TLS/SSL беше преустановена</translation>
     </message>
     <message>
         <source>Error creating SSL session, %1</source>
-        <translation>Fejl under oprettelse af SSL-session, %1</translation>
+        <translation>Грешка при създаването на сесия за SSL, %1</translation>
     </message>
     <message>
         <source>Error creating SSL session: %1</source>
-        <translation>Fejl under oprettelse af SSL-session: %1</translation>
+        <translation>Грешка при създаването на сесия за SSL: %1</translation>
     </message>
     <message>
         <source>Unable to init SSL Context: %1</source>
-        <translation>Kunne ikke initialisere SSL-kontekst: %1</translation>
+        <translation>Неуспешна инициализация на контекста за SSL: %1</translation>
     </message>
     <message>
         <source>Unable to write data: %1</source>
-        <translation>Kunne ikke skrive data: %1</translation>
+        <translation>Неуспешен запис на данните: %1</translation>
     </message>
     <message>
         <source>Unable to decrypt data: %1</source>
-        <translation>Kunne ikke dekryptere data: %1</translation>
+        <translation>Неуспешно дешифриране на данните: %1</translation>
     </message>
     <message>
         <source>Error while reading: %1</source>
-        <translation>Fejl under læsning af: %1</translation>
+        <translation>Грешка при четене: %1</translation>
     </message>
     <message>
         <source>Error during SSL handshake: %1</source>
-        <translation>Fejl under SSL-håndtryk: %1</translation>
+        <translation>Грешка при ръкостискането на SSL: %1</translation>
     </message>
 </context>
 <context>
     <name>QStandardPaths</name>
     <message>
         <source>Desktop</source>
-        <translation>Skrivebord</translation>
+        <translation>Работен плот</translation>
     </message>
     <message>
         <source>Documents</source>
-        <translation>Dokumenter</translation>
+        <translation>Документи</translation>
     </message>
     <message>
         <source>Fonts</source>
-        <translation>Skrifttyper</translation>
+        <translation>Шрифтове</translation>
     </message>
     <message>
         <source>Applications</source>
-        <translation>Programmer</translation>
+        <translation>Приложения</translation>
     </message>
     <message>
         <source>Music</source>
-        <translation>Musik</translation>
+        <translation>Музика</translation>
     </message>
     <message>
         <source>Movies</source>
-        <translation>Film</translation>
+        <translation>Филми</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>Billeder</translation>
+        <translation>Изображения</translation>
     </message>
     <message>
         <source>Temporary Directory</source>
-        <translation>Midlertidig mappe</translation>
+        <translation>Временна папка</translation>
     </message>
     <message>
         <source>Home</source>
-        <translation>Hjem</translation>
+        <translation>Домашна папка</translation>
     </message>
     <message>
         <source>Cache</source>
-        <translation>Mellemlager</translation>
+        <translation>Кеш</translation>
     </message>
     <message>
         <source>Shared Data</source>
-        <translation>Delte data</translation>
+        <translation>Споделени данни</translation>
     </message>
     <message>
         <source>Runtime</source>
-        <translation>Runtime</translation>
+        <translation>Изпълними файлове</translation>
     </message>
     <message>
         <source>Configuration</source>
-        <translation>Konfiguration</translation>
+        <translation>Конфигурация</translation>
     </message>
     <message>
         <source>Shared Configuration</source>
-        <translation>Delte konfiguration</translation>
+        <translation>Споделена конфигурация</translation>
     </message>
     <message>
         <source>Shared Cache</source>
-        <translation>Delte mellemlager</translation>
+        <translation>Споделен кеш</translation>
     </message>
     <message>
         <source>Download</source>
-        <translation>Download</translation>
+        <translation>Сваляния</translation>
     </message>
     <message>
         <source>Application Data</source>
-        <translation>Programdata</translation>
+        <translation>Данни на приложението</translation>
     </message>
     <message>
         <source>Application Configuration</source>
-        <translation>Programkonfiguration</translation>
+        <translation>Конфигурация на приложението</translation>
     </message>
 </context>
 <context>
     <name>QStateMachine</name>
     <message>
         <source>Missing initial state in compound state &apos;%1&apos;</source>
-        <translation>Manglende indledende tilstand i den sammensatte tilstand &apos;%1&apos;</translation>
+        <translation>Липсва начално състояние в съставното състояние „%1“</translation>
     </message>
     <message>
         <source>Missing default state in history state &apos;%1&apos;</source>
-        <translation>Manglende standardtilstand i historiktilstanden &apos;%1&apos;</translation>
+        <translation>Липсва състояние по подразбиране в историческото състояние „%1“</translation>
     </message>
     <message>
         <source>No common ancestor for targets and source of transition from state &apos;%1&apos;</source>
-        <translation>Ingen fælles forfader for mål og kilde af overgang fra tilstanden &apos;%1&apos;</translation>
+        <translation>Няма общ предшественик за източника и целите на прехода от състояние„%1“</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Ukendt fejl</translation>
+        <translation>Неизвестна грешка</translation>
     </message>
 </context>
 <context>
     <name>QSystemSemaphore</name>
     <message>
         <source>%1: permission denied</source>
-        <translation>%1: tilladelse nægtet</translation>
+        <translation>%1: достъпът е отказан</translation>
     </message>
     <message>
         <source>%1: already exists</source>
-        <translation>%1: findes allerede</translation>
+        <translation>%1: вече съществува</translation>
     </message>
     <message>
         <source>%1: does not exist</source>
-        <translation>%1: findes ikke</translation>
+        <translation>%1: не съществува</translation>
     </message>
     <message>
         <source>%1: out of resources</source>
-        <translation>%1: ikke flere ressourcer</translation>
+        <translation>%1: недостатъчно ресурси</translation>
     </message>
     <message>
         <source>%1: unknown error %2</source>
-        <translation>%1: ukendt fejl %2</translation>
+        <translation>%1: неизвестна грешка %2</translation>
     </message>
 </context>
 <context>
     <name>QTDSDriver</name>
     <message>
         <source>Unable to open connection</source>
-        <translation>Kunne ikke åbne forbindelsen</translation>
+        <translation>Не може да бъде установена връзка</translation>
     </message>
     <message>
         <source>Unable to use database</source>
-        <translation>Kunne ikke bruge databasen</translation>
+        <translation>Базата данни не може да бъде използвана</translation>
     </message>
 </context>
 <context>
     <name>QTabBar</name>
     <message>
         <source>Scroll Left</source>
-        <translation>Rul til venstre</translation>
+        <translation>Превъртане наляво</translation>
     </message>
     <message>
         <source>Scroll Right</source>
-        <translation>Rul til højre</translation>
+        <translation>Превъртане надясно</translation>
     </message>
 </context>
 <context>
     <name>QTcpServer</name>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>Handling på socket understøttes ikke</translation>
+        <translation>Тази операция със сокета не се поддържа</translation>
     </message>
 </context>
 <context>
     <name>QTgaFile</name>
     <message>
         <source>Could not read image data</source>
-        <translation>Kunne ikke læse billeddata</translation>
+        <translation>Данните на изображението не могат да бъдат прочетени</translation>
     </message>
     <message>
         <source>Sequential device (eg socket) for image read not supported</source>
-        <translation>Fortløbende enhed (såsom socket) for billedlæsning understøttes ikke</translation>
+        <translation>Четенето на данни на изображение от последователно устройство (напр. сокет) не се поддържа</translation>
     </message>
     <message>
         <source>Seek file/device for image read failed</source>
-        <translation>Søgefil/enhed for billedlæsning fejlede</translation>
+        <translation>Придвижването във файла/устройството за четене на изображение беше неуспешно</translation>
     </message>
     <message>
         <source>Image header read failed</source>
-        <translation>Billedfilhoved læsefejl</translation>
+        <translation>Неуспешно прочитане на заглавката на изображението</translation>
     </message>
     <message>
         <source>Image type not supported</source>
-        <translation>Billedtypen understøttes ikke</translation>
+        <translation>Типът на изображението не се поддържа</translation>
     </message>
     <message>
         <source>Image depth not valid</source>
-        <translation>Billeddybden er ikke gyldig</translation>
+        <translation>Дълбочината на цветовете на изображението не е правилна</translation>
     </message>
     <message>
         <source>Could not seek to image read footer</source>
-        <translation>Kunne ikke søge til billedlæsningsfilfod</translation>
+        <translation>Неуспешно придвижване в края на заглавката на изображението</translation>
     </message>
     <message>
         <source>Could not read footer</source>
-        <translation>Kunne ikke læse filfod</translation>
+        <translation>Неуспешно прочитане на крайната част на изображението</translation>
     </message>
     <message>
         <source>Image type (non-TrueVision 2.0) not supported</source>
-        <translation>Billedtype (ikke-TrueVision 2.0) understøttes ikke</translation>
+        <translation>Типът на изображението не се поддържа (това не е „TrueVision 2.0“)</translation>
     </message>
     <message>
         <source>Could not reset to read data</source>
-        <translation>Kunne ikke nulstille læsedata</translation>
+        <translation>Неуспешно нулиране за четене на данните</translation>
     </message>
 </context>
 <context>
     <name>QUdpSocket</name>
     <message>
         <source>Unable to send a datagram</source>
-        <translation>Kunne ikke sende et datagram</translation>
+        <translation>Неуспешно изпращане на блок с данни</translation>
     </message>
     <message>
         <source>No datagram available for reading</source>
-        <translation>Intet tilgængeligt datagram til læsning</translation>
+        <translation>Няма блок с данни за четене</translation>
     </message>
 </context>
 <context>
     <name>QUndoGroup</name>
     <message>
         <source>Undo %1</source>
-        <translation>Fortryd %1</translation>
+        <translation>Отмяна на %1</translation>
     </message>
     <message>
         <source>Undo</source>
         <comment>Default text for undo action</comment>
-        <translation>Fortryd</translation>
+        <translation>Отмяна</translation>
     </message>
     <message>
         <source>Redo %1</source>
-        <translation>Omgør %1</translation>
+        <translation>Повтаряне на %1</translation>
     </message>
     <message>
         <source>Redo</source>
         <comment>Default text for redo action</comment>
-        <translation>Omgør</translation>
+        <translation>Повтаряне</translation>
     </message>
 </context>
 <context>
     <name>QUndoModel</name>
     <message>
         <source>&lt;empty&gt;</source>
-        <translation>&lt;tom&gt;</translation>
+        <translation>&lt;празно&gt;</translation>
     </message>
 </context>
 <context>
     <name>QUndoStack</name>
     <message>
         <source>Undo %1</source>
-        <translation>Fortryd %1</translation>
+        <translation>Отмяна на %1</translation>
     </message>
     <message>
         <source>Undo</source>
         <comment>Default text for undo action</comment>
-        <translation>Fortryd</translation>
+        <translation>Отмяна</translation>
     </message>
     <message>
         <source>Redo %1</source>
-        <translation>Omgør %1</translation>
+        <translation>Повтаряне на %1</translation>
     </message>
     <message>
         <source>Redo</source>
         <comment>Default text for redo action</comment>
-        <translation>Omgør</translation>
+        <translation>Повторение</translation>
     </message>
 </context>
 <context>
     <name>QUnicodeControlCharacterMenu</name>
     <message>
         <source>LRM Left-to-right mark</source>
-        <translation>LRM Left-to-right mark (venstre-til-højre-mærkat)</translation>
+        <translation>LRM – знак за направление от ляво надясно</translation>
     </message>
     <message>
         <source>RLM Right-to-left mark</source>
-        <translation>RLM Right-to-left mark (højre-til-venstre-mærkat)</translation>
+        <translation>RLM – знак за направление от дясно наляво</translation>
     </message>
     <message>
         <source>ZWJ Zero width joiner</source>
-        <translation>ZWJ Zero width joiner (nul-bredde-sammenslutter)</translation>
+        <translation>ZWJ – съединяващ знак с нулева ширина</translation>
     </message>
     <message>
         <source>ZWNJ Zero width non-joiner</source>
-        <translation>ZWNJ Zero width non-joiner (nul-bredde-ikke-sammenslutter)</translation>
+        <translation>ZWNJ – несъединяващ знак с нулева ширина</translation>
     </message>
     <message>
         <source>ZWSP Zero width space</source>
-        <translation>ZWSP Zero width space (nul med mellemrum)</translation>
+        <translation>ZWSP – интервал с нулева ширина</translation>
     </message>
     <message>
         <source>LRE Start of left-to-right embedding</source>
-        <translation>LRE Start of left-to-right embedding (start på venstre-til-højre-indlejring)</translation>
+        <translation>LRE – начало на вградено направление от ляво надясно</translation>
     </message>
     <message>
         <source>RLE Start of right-to-left embedding</source>
-        <translation>RLE Start of right-to-left embedding (start på højre-til-venstre-indlejring)</translation>
+        <translation>RLE – начало на вградено направление от дясно наляво</translation>
     </message>
     <message>
         <source>LRO Start of left-to-right override</source>
-        <translation>LRO Start of left-to-right override (start på venstre-til-højre-tilsidesætning)</translation>
+        <translation>LRO – начало на заменящо направление от ляво надясно</translation>
     </message>
     <message>
         <source>RLO Start of right-to-left override</source>
-        <translation>RLO Start of right-to-left override (start på højre-til-venstre-tilsidesætning)</translation>
+        <translation>RLO  – начало на заменящо направление от дясно наляво</translation>
     </message>
     <message>
         <source>PDF Pop directional formatting</source>
-        <translation>PDF Pop directional formatting (glem retningsformatering)</translation>
+        <translation>PDF – край на промяанта на направлението</translation>
     </message>
     <message>
         <source>LRI Left-to-right isolate</source>
-        <translation>LRI Left-to-right isolate (venstre-til-højre-isolering)</translation>
+        <translation>LRI – начало на изолирано направление от ляво надясно</translation>
     </message>
     <message>
         <source>RLI Right-to-left isolate</source>
-        <translation>RLI Right-to-left isolate (højre-til-venstre-indlejring)</translation>
+        <translation>RLI – начало на изолирано направление от дясно наляво</translation>
     </message>
     <message>
         <source>FSI First strong isolate</source>
-        <translation>FSI First strong isolate (første stærke isolering)</translation>
+        <translation>FSI – първо силно изолиране</translation>
     </message>
     <message>
         <source>PDI Pop directional isolate</source>
-        <translation>PDI Pop directional isolate (glem retningsisolering)</translation>
+        <translation>PDI – край на изолирано направление</translation>
     </message>
     <message>
         <source>Insert Unicode control character</source>
-        <translation>Indsæt unicode-kontroltegn</translation>
+        <translation>Вмъкване на управляващ знак от Уникод</translation>
     </message>
 </context>
 <context>
     <name>QWhatsThisAction</name>
     <message>
         <source>What&apos;s This?</source>
-        <translation>Hvad er det?</translation>
+        <translation>Какво е това?</translation>
     </message>
 </context>
 <context>
@@ -6341,35 +6341,35 @@ Role of an accessible object</extracomment>
     <name>QWidgetTextControl</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;Fortryd</translation>
+        <translation>&amp;Отмяна</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>&amp;Omgør</translation>
+        <translation>По&amp;втаряне</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>K&amp;lip</translation>
+        <translation>&amp;Изрязване</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Kopiér</translation>
+        <translation>&amp;Копиране</translation>
     </message>
     <message>
         <source>Copy &amp;Link Location</source>
-        <translation>Kopiér l&amp;inkplacering</translation>
+        <translation>Копиране на &amp;адреса на връзката</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>&amp;Sæt ind</translation>
+        <translation>&amp;Поставяне</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Slet</translation>
+        <translation>Изтриване</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Markér alt</translation>
+        <translation>Избиране на всичко</translation>
     </message>
 </context>
 <context>
@@ -6378,298 +6378,298 @@ Role of an accessible object</extracomment>
         <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
 
 The minimum Direct2D version required is %1.%2.%3.%4. The Direct2D version on this system is %5.%6.%7.%8.</source>
-        <translation>Qt kan ikke indlæse direct2d-platform-pluginet fordi Direct2D-versionen på dette system er for gammel. Minimum systemkrav for dette platform-plugin er Windows 7 SP1 med platformsopdatering.
+        <translation>Qt не може да зареди системната приставката „direct2d“, тъй като версията на „Direct2D“ на тази система е твърде стара. Минималното системно изискване за тази системна приставка е „Windows 7 SP1“ с „Platform Update“.
 
-Direct2D-versionen skal minimum være %1.%2.%3.%4. Direct2D-versionen på dette system er %5.%6.%7.%8.</translation>
+Минималната необходима версия на „Direct2D“ е: %1.%2.%3.%4. Версията на „Direct2D“ на тази система е: %5.%6.%7.%8.</translation>
     </message>
     <message>
         <source>Cannot load direct2d platform plugin</source>
-        <translation>Kan ikke indlæse direct2d-platform-plugin</translation>
+        <translation>Неуспешно зареждане на системната приставка „direct2d“</translation>
     </message>
 </context>
 <context>
     <name>QWizard</name>
     <message>
         <source>Go Back</source>
-        <translation>Gå tilbage</translation>
+        <translation>Назад</translation>
     </message>
     <message>
         <source>&lt; &amp;Back</source>
-        <translation>&lt; &amp;Tilbage</translation>
+        <translation>&lt; На&amp;зад</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation>Fortsæt</translation>
+        <translation>Продължаване</translation>
     </message>
     <message>
         <source>&amp;Next</source>
-        <translation>&amp;Næste</translation>
+        <translation>&amp;Напред</translation>
     </message>
     <message>
         <source>&amp;Next &gt;</source>
-        <translation>&amp;Næste &gt;</translation>
+        <translation>&amp;Напред &gt;</translation>
     </message>
     <message>
         <source>Commit</source>
-        <translation>Gennemfør</translation>
+        <translation>Потвърждаване</translation>
     </message>
     <message>
         <source>Done</source>
-        <translation>Færdig</translation>
+        <translation>Готово</translation>
     </message>
     <message>
         <source>&amp;Finish</source>
-        <translation>&amp;Slut</translation>
+        <translation>&amp;Край</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Annuller</translation>
+        <translation>Отказ</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Hjælp</translation>
+        <translation>Помощ</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Hjælp</translation>
+        <translation>&amp;Помощ</translation>
     </message>
 </context>
 <context>
     <name>QXml</name>
     <message>
         <source>no error occurred</source>
-        <translation>der opstod ingen fejl</translation>
+        <translation>няма грешки</translation>
     </message>
     <message>
         <source>error triggered by consumer</source>
-        <translation>fejl udløst af forbruger</translation>
+        <translation>грешка, предизвикана от консуматора</translation>
     </message>
     <message>
         <source>unexpected end of file</source>
-        <translation>uventet afslutning på fil</translation>
+        <translation>неочакван край на файла</translation>
     </message>
     <message>
         <source>more than one document type definition</source>
-        <translation>mere end én dokumenttypedefinition</translation>
+        <translation>има повече от едно определение за типа на документа</translation>
     </message>
     <message>
         <source>error occurred while parsing element</source>
-        <translation>fejl under fortolkning af element</translation>
+        <translation>грешка при анализа на елемент</translation>
     </message>
     <message>
         <source>tag mismatch</source>
-        <translation>uoverensstemmende tag</translation>
+        <translation>имената на елементите не съвпадат</translation>
     </message>
     <message>
         <source>error occurred while parsing content</source>
-        <translation>fejl under fortolkning af indhold</translation>
+        <translation>грешка при анализа на съдържанието</translation>
     </message>
     <message>
         <source>unexpected character</source>
-        <translation>uventet tegn</translation>
+        <translation>неочакван знак</translation>
     </message>
     <message>
         <source>invalid name for processing instruction</source>
-        <translation>ugyldigt navn for behandlende instruktion</translation>
+        <translation>неправилно име на инструкция за обработка</translation>
     </message>
     <message>
         <source>version expected while reading the XML declaration</source>
-        <translation>version forventet under læsning af XML-deklaration</translation>
+        <translation>в декларация на XML трябва да има версия</translation>
     </message>
     <message>
         <source>wrong value for standalone declaration</source>
-        <translation>forkert værdi for selvstændig deklaration</translation>
+        <translation>грешна стойност за декларацията „standalone“</translation>
     </message>
     <message>
         <source>encoding declaration or standalone declaration expected while reading the XML declaration</source>
-        <translation>kodningsdeklaration eller selvstændig deklaration ventet ved læsning af XML-deklaration</translation>
+        <translation>при прочитането на декларацията на XML се очаква да има „encoding“ или „standalone“</translation>
     </message>
     <message>
         <source>standalone declaration expected while reading the XML declaration</source>
-        <translation>selvstændig deklaration ventet ved læsning af XML-deklaration</translation>
+        <translation>при прочитането на декларацията на XML се очаква да има „standalone“</translation>
     </message>
     <message>
         <source>error occurred while parsing document type definition</source>
-        <translation>fejl under fortolkning af dokumenttypedefinition</translation>
+        <translation>грешка при анализа на определението за типа на документа</translation>
     </message>
     <message>
         <source>letter is expected</source>
-        <translation>bogstav er ventet</translation>
+        <translation>очаква се буква</translation>
     </message>
     <message>
         <source>error occurred while parsing comment</source>
-        <translation>fejl under fortolkning af kommentar</translation>
+        <translation>грешка при анализа на коментар</translation>
     </message>
     <message>
         <source>error occurred while parsing reference</source>
-        <translation>fejl under fortolkning af reference</translation>
+        <translation>грешка при анализа на препратка</translation>
     </message>
     <message>
         <source>internal general entity reference not allowed in DTD</source>
-        <translation>intern generel entitetsreference ikke tilladt i DTD</translation>
+        <translation>вътрешната препратка към общ обект не е позволена в DTD</translation>
     </message>
     <message>
         <source>external parsed general entity reference not allowed in attribute value</source>
-        <translation>eksternt fortolket generel entitetsreference ikke tilladt i attributværdi</translation>
+        <translation>външно анализираната връзка към общ обект не е разрешена в стойност на атрибут</translation>
     </message>
     <message>
         <source>external parsed general entity reference not allowed in DTD</source>
-        <translation>eksternt fortolket generel entitetsreference ikke tilladt i DTD</translation>
+        <translation>външно анализираната връзка към общ обект не е разрешена в DTD</translation>
     </message>
     <message>
         <source>unparsed entity reference in wrong context</source>
-        <translation>ufortolket enhedsreference i forkert kontekst</translation>
+        <translation>неанализирана връзка към обект в грешен контекст</translation>
     </message>
     <message>
         <source>recursive entities</source>
-        <translation>rekursive entiteter</translation>
+        <translation>рекурсивни обекти</translation>
     </message>
     <message>
         <source>error in the text declaration of an external entity</source>
-        <translation>fejl i tekstdeklaration på en ekstern entitet</translation>
+        <translation>грешка в обявлението на текста на външен обект</translation>
     </message>
 </context>
 <context>
     <name>QXmlStream</name>
     <message>
         <source>Extra content at end of document.</source>
-        <translation>Ekstra indhold sidst i dokumentet.</translation>
+        <translation>Излишни данни в края на документа.</translation>
     </message>
     <message>
         <source>Invalid entity value.</source>
-        <translation>Ugyldig entitetværdi.</translation>
+        <translation>Неправилна стойност на обект.</translation>
     </message>
     <message>
         <source>Invalid XML character.</source>
-        <translation>Ugyldigt XML-tegn.</translation>
+        <translation>Грешен знак в XML.</translation>
     </message>
     <message>
         <source>Sequence &apos;]]&gt;&apos; not allowed in content.</source>
-        <translation>Sekvensen &apos;]]&gt;&apos; ikke tilladt i indhold.</translation>
+        <translation>Последователността „]]&gt;“ не може да се използва в съдържанието.</translation>
     </message>
     <message>
         <source>Encountered incorrectly encoded content.</source>
-        <translation>Mødte forkert kodet indhold.</translation>
+        <translation>Открито е съдържание с неправилна кодировка.</translation>
     </message>
     <message>
         <source>Namespace prefix &apos;%1&apos; not declared</source>
-        <translation>Navnerumspræfikset &apos;%1&apos; ikke deklareret</translation>
+        <translation>Представката за именувано пространство „%1“ не е декларирана</translation>
     </message>
     <message>
         <source>Illegal namespace declaration.</source>
-        <translation>Ulovligt navnerumsdeklaration.</translation>
+        <translation>Грешно обявяване на именувано пространство.</translation>
     </message>
     <message>
         <source>Attribute &apos;%1&apos; redefined.</source>
-        <translation>Attributten &apos;%1&apos; redefineret.</translation>
+        <translation>Атрибутът „%1“ вече е определен.</translation>
     </message>
     <message>
         <source>Unexpected character &apos;%1&apos; in public id literal.</source>
-        <translation>Uventet tegn &apos;%1&apos; i offentlig id-literal.</translation>
+        <translation>Неочакван знак „%1“ в литерал на публичен идентификатор.</translation>
     </message>
     <message>
         <source>Invalid XML version string.</source>
-        <translation>Ugyldig XML-versionsstreng.</translation>
+        <translation>Грешен низ за версията на XML.</translation>
     </message>
     <message>
         <source>Unsupported XML version.</source>
-        <translation>XML-versionen understøttes ikke.</translation>
+        <translation>Неподдържана версия на XML.</translation>
     </message>
     <message>
         <source>The standalone pseudo attribute must appear after the encoding.</source>
-        <translation>Den selvstændige pseudo-attribut skal optræde efter kodningen.</translation>
+        <translation>Псевдо-атрибутът „standalone“ трябва да се намира след описанието на кодировката.</translation>
     </message>
     <message>
         <source>%1 is an invalid encoding name.</source>
-        <translation>%1 er et ugyldigt kodningsnavn.</translation>
+        <translation>„%1“ не е правилно име на кодировка.</translation>
     </message>
     <message>
         <source>Encoding %1 is unsupported</source>
-        <translation>Kodningen %1 understøttes ikke</translation>
+        <translation>Кодировката „%1“ не се поддържа</translation>
     </message>
     <message>
         <source>Standalone accepts only yes or no.</source>
-        <translation>Selvstændig accepterer kun ja eller nej.</translation>
+        <translation>Параметърът „standalone“ приема само стойностите „yes“ и „no“.</translation>
     </message>
     <message>
         <source>Invalid attribute in XML declaration.</source>
-        <translation>Ugyldig attribut i XML-deklaration.</translation>
+        <translation>Грешен атрибут в декларацията на XML.</translation>
     </message>
     <message>
         <source>Premature end of document.</source>
-        <translation>For tidlig slutning på dokument.</translation>
+        <translation>Неочакван край на документа.</translation>
     </message>
     <message>
         <source>Invalid document.</source>
-        <translation>Ugyldigt dokument.</translation>
+        <translation>Неправилен документ.</translation>
     </message>
     <message>
         <source>Expected </source>
-        <translation>Forventede </translation>
+        <translation>Очакваше се </translation>
     </message>
     <message>
         <source>, but got &apos;</source>
-        <translation>, men fik &apos;</translation>
+        <translation>, но вместо това имаше &apos;</translation>
     </message>
     <message>
         <source>Unexpected &apos;</source>
-        <translation>Uventet &apos;</translation>
+        <translation>Неочаквано &apos;</translation>
     </message>
     <message>
         <source>Expected character data.</source>
-        <translation>Ventet tegndata.</translation>
+        <translation>Очакваше се да има текстови данни.</translation>
     </message>
     <message>
         <source>Recursive entity detected.</source>
-        <translation>Rekursiv entitet registreret.</translation>
+        <translation>Засечен е рекурсивен обект.</translation>
     </message>
     <message>
         <source>Start tag expected.</source>
-        <translation>Start-tag forventet.</translation>
+        <translation>Очаква се отварящ елемент.</translation>
     </message>
     <message>
         <source>NDATA in parameter entity declaration.</source>
-        <translation>NDATA i parameterentitetsdeklaration.</translation>
+        <translation>NDATA в обявлението на параметър.</translation>
     </message>
     <message>
         <source>XML declaration not at start of document.</source>
-        <translation>XML-deklaration ikke i start af dokument.</translation>
+        <translation>Декларацията на XML не е в началото на документа.</translation>
     </message>
     <message>
         <source>%1 is an invalid processing instruction name.</source>
-        <translation>%1 er et ugyldigt behandlende instruktionsnavn.</translation>
+        <translation>„%1“ не е правилно има на инструкция за обработка.</translation>
     </message>
     <message>
         <source>Invalid processing instruction name.</source>
-        <translation>Ugyldigt behandlende instruktionsnavn.</translation>
+        <translation>Неправилна име на инструкция за обработка.</translation>
     </message>
     <message>
         <source>%1 is an invalid PUBLIC identifier.</source>
-        <translation>%1 er en ugyldig PUBLIC-identifikator.</translation>
+        <translation>„%1“ не е правилен идентификатор от вида „PUBLIC“.</translation>
     </message>
     <message>
         <source>Invalid XML name.</source>
-        <translation>Ugyldigt XML-navn.</translation>
+        <translation>Неправилно име в XML.</translation>
     </message>
     <message>
         <source>Opening and ending tag mismatch.</source>
-        <translation>Uoverensstemmende åbnende og afsluttende tag.</translation>
+        <translation>Отварящият и затварящият елемент не съвпадат.</translation>
     </message>
     <message>
         <source>Entity &apos;%1&apos; not declared.</source>
-        <translation>Entiteten &apos;%1&apos; ikke deklareret.</translation>
+        <translation>Обектът „%1“ не е деклариран.</translation>
     </message>
     <message>
         <source>Reference to unparsed entity &apos;%1&apos;.</source>
-        <translation>Reference to ufortolket entitet &apos;%1&apos;.</translation>
+        <translation>Връзка към непрочетен обект „%1“.</translation>
     </message>
     <message>
         <source>Reference to external entity &apos;%1&apos; in attribute value.</source>
-        <translation>Reference til ekstern enhed &apos;%1&apos; i attributværdi.</translation>
+        <translation>Връзка към външен обект „%1“ в стойността на атрибут.</translation>
     </message>
     <message>
         <source>Invalid character reference.</source>
-        <translation>Ugyldig tegnreference.</translation>
+        <translation>Неправилна връзка към знак.</translation>
     </message>
 </context>
 </TS>

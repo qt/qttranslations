@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="da">
+<TS version="2.1" language="bg_BG">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -12,73 +12,73 @@
     <name>BatchTranslationDialog</name>
     <message>
         <source>Qt Linguist - Batch Translation</source>
-        <translation>Qt Linguist - batchoversættelse</translation>
+        <translation>Qt Linguist – Автоматичен превод</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Valgmuligheder</translation>
+        <translation>Настройки</translation>
     </message>
     <message>
         <source>Set translated entries to finished</source>
-        <translation>Sæt oversatte indtastninger til færdig</translation>
+        <translation>Отбелязване на преведените записи като завършени</translation>
     </message>
     <message>
         <source>Retranslate entries with existing translation</source>
-        <translation>Genoversæt indtastninger med eksisterende oversættelse</translation>
+        <translation>Повторно превеждане на записите с вече съществуващ превод</translation>
     </message>
     <message>
         <source>Note that the modified entries will be reset to unfinished if &apos;Set translated entries to finished&apos; above is unchecked</source>
-        <translation>Bemærk at de ændrede indtastninger nulstilles til ufærdige hvis &apos;Sæt oversatte indtastninger til færdig&apos; er fravalgt ovenfor</translation>
+        <translation>Имайте предвид, че променените записи ще бъдат отбелязани като „незавършени“, ако горната настройка „Отбелязване на преведените записи като завършени“ не е включена</translation>
     </message>
     <message>
         <source>Translate also finished entries</source>
-        <translation>Oversæt også færdige indtastninger</translation>
+        <translation>Превеждане и на завършените записи</translation>
     </message>
     <message>
         <source>Phrase book preference</source>
-        <translation>Frasebog-præference</translation>
+        <translation>Предпочитани речници</translation>
     </message>
     <message>
         <source>Move up</source>
-        <translation>Flyt op</translation>
+        <translation>Нагоре</translation>
     </message>
     <message>
         <source>Move down</source>
-        <translation>Flyt ned</translation>
+        <translation>Надолу</translation>
     </message>
     <message>
         <source>The batch translator will search through the selected phrase books in the order given above</source>
-        <translation>Batchoversætteren gennemsøger de valgte frasebøger, i rækkefølgen givet ovenfor</translation>
+        <translation>Автоматичният превод ще преглежда избраните речници в реда, в който са подредени тук</translation>
     </message>
     <message>
         <source>&amp;Run</source>
-        <translation>&amp;Kør</translation>
+        <translation>&amp;Изпълнение</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Annuller</translation>
+        <translation>Отказ</translation>
     </message>
     <message>
         <source>Batch Translation of &apos;%1&apos; - Qt Linguist</source>
-        <translation>Batchoversættelse af &apos;%1&apos; - Qt Linguist</translation>
+        <translation>Автоматичен превод на „%1“ – Qt Linguist</translation>
     </message>
     <message>
         <source>Searching, please wait...</source>
-        <translation>Søger, vent venligst...</translation>
+        <translation>Претърсване, моля, изчакайте…</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Annuller</translation>
+        <translation>&amp;Отказ</translation>
     </message>
     <message>
         <source>Linguist batch translator</source>
-        <translation>Linguist batchoversætter</translation>
+        <translation>Автоматичен превод</translation>
     </message>
     <message numerus="yes">
         <source>Batch translated %n entries</source>
         <translation>
-            <numerusform>Batchoversatte %n indtastning</numerusform>
-            <numerusform>Batchoversatte %n indtastninger</numerusform>
+            <numerusform>%n запис беше преведен автоматично</numerusform>
+            <numerusform>%n записа бяха преведени автоматично</numerusform>
         </translation>
     </message>
 </context>
@@ -86,182 +86,182 @@
     <name>DataModel</name>
     <message>
         <source>The translation file &apos;%1&apos; will not be loaded because it is empty.</source>
-        <translation>Oversættelsesfilen &apos;%1&apos; indlæses ikke, da den er tom.</translation>
+        <translation>Файлът за превод „%1“ няма да бъде зареден, тъй като е празен.</translation>
     </message>
     <message>
         <source>&lt;qt&gt;Duplicate messages found in &apos;%1&apos;:</source>
-        <translation>&lt;qt&gt;Duplikatmeddelelse fundet i &apos;%1&apos;:</translation>
+        <translation>&lt;qt&gt;Открит е повтарящ се текст в „%1“:</translation>
     </message>
     <message>
         <source>&lt;p&gt;[more duplicates omitted]</source>
-        <translation>&lt;p&gt;[flere duplikater udeladt]</translation>
+        <translation>&lt;p&gt;[останалите повторения не са показани]</translation>
     </message>
     <message>
         <source>&lt;p&gt;* ID: %1</source>
-        <translation>&lt;p&gt;* ID: %1</translation>
+        <translation>&lt;p&gt;* Идентификатор: %1</translation>
     </message>
     <message>
         <source>&lt;p&gt;* Context: %1&lt;br&gt;* Source: %2</source>
-        <translation>&lt;p&gt;* Kontekst: %1&lt;br&gt;* Kilde: %2</translation>
+        <translation>&lt;p&gt;* Контекст: %1&lt;br&gt;* Оригинал: %2</translation>
     </message>
     <message>
         <source>&lt;br&gt;* Comment: %3</source>
-        <translation>&lt;br&gt;* Kommentar: %3</translation>
+        <translation>&lt;br&gt;* Коментар: %3</translation>
     </message>
     <message>
         <source>Linguist does not know the plural rules for &apos;%1&apos;.
 Will assume a single universal form.</source>
-        <translation>Linguist kender ikke flertalsreglerne for &apos;%1&apos;.
-Formoder en enkelt universel form.</translation>
+        <translation>Qt Linguist не познава правилата за множествено число за „%1“.
+Ще бъде използвана само една универсална форма.</translation>
     </message>
     <message>
         <source>Cannot create &apos;%2&apos;: %1</source>
-        <translation>Kan ikke oprette &apos;%2&apos;: %1</translation>
+        <translation>„%2“ не може да се създаде: %1</translation>
     </message>
     <message>
         <source>Universal Form</source>
-        <translation>Universel form</translation>
+        <translation>Универсална форма</translation>
     </message>
 </context>
 <context>
     <name>ErrorsView</name>
     <message>
         <source>Accelerator possibly superfluous in translation.</source>
-        <translation>Accelerator muligvis overflødig i oversættelsen.</translation>
+        <translation>Активният символ в превода може би е излишен.</translation>
     </message>
     <message>
         <source>Accelerator possibly missing in translation.</source>
-        <translation>Accelerator mangler muligvis i oversættelsen.</translation>
+        <translation>В превода може би липсва активен символ.</translation>
     </message>
     <message>
         <source>Translation does not end with the same punctuation as the source text.</source>
-        <translation>Oversættelsen slutter ikke med den samme tegnsætning som kildeteksten.</translation>
+        <translation>Преводът не завършва със същия препинателен знак като оригиналния текст.</translation>
     </message>
     <message>
         <source>A phrase book suggestion for &apos;%1&apos; was ignored.</source>
-        <translation>Et frasebogsforslag for &apos;%1&apos; blev ignoreret.</translation>
+        <translation>Предложението на речника за „%1“ беше пренебрегнато.</translation>
     </message>
     <message>
         <source>Translation does not refer to the same place markers as in the source text.</source>
-        <translation>Oversættelsen refererer ikke til de samme stedmarkørere som kildeteksten.</translation>
+        <translation>Преводът не използва същите маркери за заместване като оригиналния текст.</translation>
     </message>
     <message>
         <source>Translation does not contain the necessary %n/%Ln place marker.</source>
-        <translation>Oversættelsen indeholder ikke den nødvendige %n/%Ln-stedmarkør.</translation>
+        <translation>Преводът не съдържа нужния маркер за заместване %n/%Ln.</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Ukendt fejl</translation>
+        <translation>Неизвестна грешка</translation>
     </message>
 </context>
 <context>
     <name>FMT</name>
     <message>
         <source>GNU Gettext localization files</source>
-        <translation>GNU Gettext-lokaliseringsfiler</translation>
+        <translation>Файлове за превод на GNU Gettext</translation>
     </message>
     <message>
         <source>GNU Gettext localization template files</source>
-        <translation>GNU Gettext-lokaliseringsskabelonsfiler</translation>
+        <translation>Шаблонни файлове за превод на GNU Gettext</translation>
     </message>
     <message>
         <source>Compiled Qt translations</source>
-        <translation>Kompileret Qt-oversættelser</translation>
+        <translation>Компилирани преводи на Qt</translation>
     </message>
     <message>
         <source>Qt Linguist &apos;Phrase Book&apos;</source>
-        <translation>Qt Linguist-&apos;frasebog&apos;</translation>
+        <translation>Речник за Qt Linguist</translation>
     </message>
     <message>
         <source>Qt translation sources</source>
-        <translation>Qt-oversættelseskilder</translation>
+        <translation>Оригинални текстове за превод на Qt</translation>
     </message>
     <message>
         <source>XLIFF localization files</source>
-        <translation>XLIFF-lokaliseringsfiler</translation>
+        <translation>Файлове за превод във формата XLIFF</translation>
     </message>
 </context>
 <context>
     <name>FindDialog</name>
     <message>
         <source>Find</source>
-        <translation>Find</translation>
+        <translation>Търсене</translation>
     </message>
     <message>
         <source>This window allows you to search for some text in the translation source file.</source>
-        <translation>Dette vindue giver dig mulighed for at søge efter noget tekst i oversættelsens kildefil.</translation>
+        <translation>Този прозорец Ви дава възможност да търсите даден текст във файла за превод.</translation>
     </message>
     <message>
         <source>&amp;Find what:</source>
-        <translation>&amp;Find hvad:</translation>
+        <translation>&amp;Търсене:</translation>
     </message>
     <message>
         <source>Type in the text to search for.</source>
-        <translation>Skriv teksten som der skal søges efter.</translation>
+        <translation>Въведете текста, който търсите.</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Valgmuligheder</translation>
+        <translation>Настройки</translation>
     </message>
     <message>
         <source>Source texts are searched when checked.</source>
-        <translation>Der søges i kildetekster, når tilvalgt.</translation>
+        <translation>Ако е избрано, ще се търси в оригиналните текстове.</translation>
     </message>
     <message>
         <source>&amp;Source texts</source>
-        <translation>&amp;Kildetekster</translation>
+        <translation>&amp;Оригинални текстове</translation>
     </message>
     <message>
         <source>Translations are searched when checked.</source>
-        <translation>Der søges i oversættelser, når tilvalgt.</translation>
+        <translation>Ако е избрано, ще се търси в преводите.</translation>
     </message>
     <message>
         <source>&amp;Translations</source>
-        <translation>&amp;Oversættelser</translation>
+        <translation>&amp;Преводи</translation>
     </message>
     <message>
         <source>Texts such as &apos;TeX&apos; and &apos;tex&apos; are considered as different when checked.</source>
-        <translation>Tekster såsom &apos;TeX&apos; og &apos;tex&apos; betragtes som forskellige, når tilvalgt.</translation>
+        <translation>Ако е избрано, текстове като „ПрИмЕр“ и „пример“ ще бъдат считани за различни.</translation>
     </message>
     <message>
         <source>&amp;Match case</source>
-        <translation>Forskel på store og små &amp;bogstaver</translation>
+        <translation>&amp;Съвпадение на регистъра</translation>
     </message>
     <message>
         <source>Comments and contexts are searched when checked.</source>
-        <translation>Der søges i kommentarer og kontekster, når tilvalgt.</translation>
+        <translation>Ако е избрано, ще се търси в коментарите и контекстната информация.</translation>
     </message>
     <message>
         <source>&amp;Comments</source>
-        <translation>Ko&amp;mmentarer</translation>
+        <translation>&amp;Коментари</translation>
     </message>
     <message>
         <source>Ignore &amp;accelerators</source>
-        <translation>Ignorer &amp;acceleratorer</translation>
+        <translation>Пренебрегване на &amp;активните символи</translation>
     </message>
     <message>
         <source>Obsoleted messages are skipped when checked.</source>
-        <translation>Forældede meddelelser springes over, når tilvalgt.</translation>
+        <translation>Ако е избрано, остарелите текстове ще бъдат пропускани.</translation>
     </message>
     <message>
         <source>Skip &amp;obsolete</source>
-        <translation>&amp;Spring forældede over</translation>
+        <translation>Пропускане на оста&amp;релите</translation>
     </message>
     <message>
         <source>Click here to find the next occurrence of the text you typed in.</source>
-        <translation>Klik her for at finde den næste forekomst af den tekst du skrev.</translation>
+        <translation>Натиснете тук, за да намерите следващото срещане на търсения текст.</translation>
     </message>
     <message>
         <source>Find Next</source>
-        <translation>Find næste</translation>
+        <translation>Търсене напред</translation>
     </message>
     <message>
         <source>Click here to close this window.</source>
-        <translation>Klik her for at lukke dette vindue.</translation>
+        <translation>Натиснете тук, за да затворите прозореца.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Annuller</translation>
+        <translation>Отказ</translation>
     </message>
     <message>
         <source></source>
@@ -274,12 +274,12 @@ Formoder en enkelt universel form.</translation>
     <message>
         <source>Alt+Delete</source>
         <extracomment>translate, but don&apos;t change</extracomment>
-        <translation>Alt+Slet</translation>
+        <translation>Alt+Delete</translation>
     </message>
     <message>
         <source>Shift+Alt+Insert</source>
         <extracomment>translate, but don&apos;t change</extracomment>
-        <translation>Skift+Alt+Insert</translation>
+        <translation>Shift+Alt+Insert</translation>
     </message>
     <message>
         <source>Alt+Insert</source>
@@ -288,11 +288,11 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>Confirmation - Qt Linguist</source>
-        <translation>Bekræftelse - Qt Linguist</translation>
+        <translation>Потвърждение – Qt Linguist</translation>
     </message>
     <message>
         <source>Delete non-empty length variant?</source>
-        <translation>Slet længdevarianter som ikke er tomme?</translation>
+        <translation>Изтриване на непразния вариант за дължина на превода?</translation>
     </message>
 </context>
 <context>
@@ -300,29 +300,29 @@ Formoder en enkelt universel form.</translation>
     <message numerus="yes">
         <source>Dropped %n message(s) which had no ID.</source>
         <translation>
-            <numerusform>Droppede %n meddelelse som ikke havde ID.</numerusform>
-            <numerusform>Droppede %n meddelelser som ikke havde ID.</numerusform>
+            <numerusform>Изтрит е %n текст без идентификатор.</numerusform>
+            <numerusform>Изтрити са %n текста без идентификатор.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>Excess context/disambiguation dropped from %n message(s).</source>
         <translation>
-            <numerusform>Overskydende indhold/tvetydighed droppet fra %n meddelelse.</numerusform>
-            <numerusform>Overskydende indhold/tvetydighed droppet fra %n meddelelser.</numerusform>
+            <numerusform>Излишният контекст/пояснение е изтрит от %n текст.</numerusform>
+            <numerusform>Излишният контекст/пояснение е изтрит от %n текста.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>    Generated %n translation(s) (%1 finished and %2 unfinished)</source>
         <translation>
-            <numerusform>    Genererede %n oversættelse (%1 færdig og %2 ufærdig)</numerusform>
-            <numerusform>    Genererede %n oversættelser (%1 færdig og %2 ufærdig)</numerusform>
+            <numerusform>    Създаден е %n превод (завършени: %1, незавършени: %2)</numerusform>
+            <numerusform>    Създадени са %n превода (завършени: %1, незавършени: %2)</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>    Ignored %n untranslated source text(s)</source>
         <translation>
-            <numerusform>    Ignorerede %n uoversat kildetekst</numerusform>
-            <numerusform>    Ignorerede %n uoversatte kildetekster</numerusform>
+            <numerusform>    Пропуснат е %n непреведен оригинален текст</numerusform>
+            <numerusform>    Пропуснати са %n непреведени оригинални текста</numerusform>
         </translation>
     </message>
 </context>
@@ -330,71 +330,71 @@ Formoder en enkelt universel form.</translation>
     <name>MainWindow</name>
     <message>
         <source>MainWindow</source>
-        <translation>Hoved vindue</translation>
+        <translation>Основен прозорец</translation>
     </message>
     <message>
         <source>&amp;Phrases</source>
-        <translation>Fra&amp;ser</translation>
+        <translation>Ре&amp;чник</translation>
     </message>
     <message>
         <source>&amp;Close Phrase Book</source>
-        <translation>&amp;Luk frasebog</translation>
+        <translation>&amp;Затваряне на речник</translation>
     </message>
     <message>
         <source>&amp;Edit Phrase Book</source>
-        <translation>&amp;Rediger frasebog</translation>
+        <translation>&amp;Редактиране на речник</translation>
     </message>
     <message>
         <source>&amp;Print Phrase Book</source>
-        <translation>U&amp;dskriv frasebog</translation>
+        <translation>Раз&amp;печатване на речник</translation>
     </message>
     <message>
         <source>V&amp;alidation</source>
-        <translation>V&amp;alidering</translation>
+        <translation>П&amp;роверка</translation>
     </message>
     <message>
         <source>&amp;View</source>
-        <translation>&amp;Vis</translation>
+        <translation>&amp;Изглед</translation>
     </message>
     <message>
         <source>Vie&amp;ws</source>
-        <translation>V&amp;isninger</translation>
+        <translation>Па&amp;нели</translation>
     </message>
     <message>
         <source>&amp;Toolbars</source>
-        <translation>&amp;Værktøjslinjer</translation>
+        <translation>&amp;Ленти с инструменти</translation>
     </message>
     <message>
         <source>&amp;Zoom</source>
-        <translation>&amp;Zoom</translation>
+        <translation>&amp;Мащаб</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Hjælp</translation>
+        <translation>По&amp;мощ</translation>
     </message>
     <message>
         <source>&amp;Translation</source>
-        <translation>&amp;Oversættelse</translation>
+        <translation>&amp;Превод</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Fil</translation>
+        <translation>&amp;Файл</translation>
     </message>
     <message>
         <source>Recently Opened &amp;Files</source>
-        <translation>Nyligt åbnet &amp;filer</translation>
+        <translation>Последно отвар&amp;яни</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Rediger</translation>
+        <translation>&amp;Редактиране</translation>
     </message>
     <message>
         <source>&amp;Open...</source>
-        <translation>&amp;Åbn...</translation>
+        <translation>&amp;Отваряне…</translation>
     </message>
     <message>
         <source>Open a Qt translation source file (TS file) for editing</source>
-        <translation>Åbn en Qt-oversættelseskildefil (TS-fil) til redigering</translation>
+        <translation>Отваряне на файл за превод на Qt (във формата TS) за редактиране</translation>
     </message>
     <message>
         <source>Ctrl+O</source>
@@ -402,11 +402,11 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>&amp;Afslut</translation>
+        <translation>&amp;Изход</translation>
     </message>
     <message>
         <source>Close this window and exit.</source>
-        <translation>Luk dette vindue og afslut.</translation>
+        <translation>Затваряне на прозореца и излизане от програмата.</translation>
     </message>
     <message>
         <source>Ctrl+Q</source>
@@ -414,39 +414,40 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Gem</translation>
+        <translation>Запазване</translation>
     </message>
     <message>
         <source>Save changes made to this Qt translation source file</source>
-        <translation>Gem ændringer som er foretaget til denne Qt-oversættelseskildefil</translation>
+        <translation>Запазване на промените, направени по този файл за превод на Qt</translation>
     </message>
     <message>
         <source>Save &amp;As...</source>
-        <translation>Gem &amp;som...</translation>
+        <translation>Запазване &amp;като…</translation>
     </message>
     <message>
         <source>Save As...</source>
-        <translation>Gem som...</translation>
+        <translation>Запазване като…</translation>
     </message>
     <message>
         <source>Save changes made to this Qt translation source file into a new file.</source>
-        <translation>Gem ændringer som er foretaget til denne Qt-oversættelseskildefil, i en ny fil.</translation>
+        <translation>Запазване на промените, направени по този файл
+ за превод на Qt, в нов файл.</translation>
     </message>
     <message>
         <source>Release</source>
-        <translation>Udgiv</translation>
+        <translation>Изнасяне</translation>
     </message>
     <message>
         <source>Create a Qt message file suitable for released applications from the current message file.</source>
-        <translation>Opret en Qt-meddelelsesfil som er egnet til udgivne programmer, fra den aktuelle meddelelsesfil.</translation>
+        <translation>Създаване на файл с текстове на Qt, подходящ за използване в крайно приложение.</translation>
     </message>
     <message>
         <source>&amp;Print...</source>
-        <translation>U&amp;dskriv...</translation>
+        <translation>&amp;Печат…</translation>
     </message>
     <message>
         <source>Print a list of all the translation units in the current translation source file.</source>
-        <translation>Udskriver en liste over alle oversættelsesenhederne i den aktuelle oversættelsesfil.</translation>
+        <translation>Разпечатване на списък с текстовете и преводите на текущия файл.</translation>
     </message>
     <message>
         <source>Ctrl+P</source>
@@ -454,11 +455,11 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;Fortryd</translation>
+        <translation>&amp;Отмяна</translation>
     </message>
     <message>
         <source>Undo the last editing operation performed on the current translation.</source>
-        <translation>Fortryd den sidste redigeringshandling udført på den aktuelle oversættelse.</translation>
+        <translation>Отмяна на последната промяна на текущия превод.</translation>
     </message>
     <message>
         <source>Ctrl+Z</source>
@@ -466,11 +467,11 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>&amp;Omgør</translation>
+        <translation>По&amp;втаряне</translation>
     </message>
     <message>
         <source>Redo an undone editing operation performed on the translation.</source>
-        <translation>Omgør og fortryd redigeringshandling udført på oversættelsen.</translation>
+        <translation>Повтаряне на отменена промяна на текущия превод.</translation>
     </message>
     <message>
         <source>Ctrl+Y</source>
@@ -478,11 +479,11 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>K&amp;lip</translation>
+        <translation>&amp;Изрязване</translation>
     </message>
     <message>
         <source>Copy the selected translation text to the clipboard and deletes it.</source>
-        <translation>Kopiér den valgte oversættelsestekst til udklipsholderen og slet den.</translation>
+        <translation>Копиране на избрания текст в буфера за обмен и изтриване от редактора.</translation>
     </message>
     <message>
         <source>Ctrl+X</source>
@@ -490,11 +491,11 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Kopiér</translation>
+        <translation>&amp;Копиране</translation>
     </message>
     <message>
         <source>Copy the selected translation text to the clipboard.</source>
-        <translation>Kopiér den valgte oversættelsestekst til udklipsholderen.</translation>
+        <translation>Копиране на избрания текст в буфера за обмен.</translation>
     </message>
     <message>
         <source>Ctrl+C</source>
@@ -502,11 +503,11 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>&amp;Indsæt</translation>
+        <translation>&amp;Поставяне</translation>
     </message>
     <message>
         <source>Paste the clipboard text into the translation.</source>
-        <translation>Indsæt udklipsholderens tekst i oversættelsen.</translation>
+        <translation>Поставяне на текста от буфера за обмен в превода.</translation>
     </message>
     <message>
         <source>Ctrl+V</source>
@@ -514,11 +515,11 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>Select &amp;All</source>
-        <translation>Markér &amp;alt</translation>
+        <translation>Избиране на в&amp;сичко</translation>
     </message>
     <message>
         <source>Select the whole translation text.</source>
-        <translation>Markér hele oversættelsesteksten.</translation>
+        <translation>Избиране на целия текст на превода.</translation>
     </message>
     <message>
         <source>Ctrl+A</source>
@@ -526,11 +527,11 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>&amp;Find...</source>
-        <translation>&amp;Find...</translation>
+        <translation>&amp;Търсене…</translation>
     </message>
     <message>
         <source>Search for some text in the translation source file.</source>
-        <translation>Søg efter noget tekst i oversættelsens kildefil.</translation>
+        <translation>Търсене на даден текст във файла за превод.</translation>
     </message>
     <message>
         <source>Ctrl+F</source>
@@ -538,11 +539,11 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>Find &amp;Next</source>
-        <translation>Find &amp;næste</translation>
+        <translation>Търсене &amp;напред</translation>
     </message>
     <message>
         <source>Continue the search where it was left.</source>
-        <translation>Fortsæt søgningen hvor den slap.</translation>
+        <translation>Продължаване на търсенето от там, от където е спряло.</translation>
     </message>
     <message>
         <source>F3</source>
@@ -550,15 +551,15 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>&amp;Prev Unfinished</source>
-        <translation>&amp;Forrige ufærdig</translation>
+        <translation>&amp;Предходен незавършен</translation>
     </message>
     <message>
         <source>Previous unfinished item</source>
-        <translation>Forrige ufærdige post</translation>
+        <translation>Предходен незавършен текст</translation>
     </message>
     <message>
         <source>Move to the previous unfinished item.</source>
-        <translation>Flyt til den forrige ufærdige post.</translation>
+        <translation>Преминаване към предходния незавършен текст.</translation>
     </message>
     <message>
         <source>Ctrl+K</source>
@@ -566,15 +567,15 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>&amp;Next Unfinished</source>
-        <translation>&amp;Næste ufærdig</translation>
+        <translation>&amp;Следващ незавършен</translation>
     </message>
     <message>
         <source>Next unfinished item</source>
-        <translation>Næste ufærdige post</translation>
+        <translation>Следващ незавършен текст</translation>
     </message>
     <message>
         <source>Move to the next unfinished item.</source>
-        <translation>Flyt til den næste ufærdige post.</translation>
+        <translation>Преминаване към следващия незавършен текст.</translation>
     </message>
     <message>
         <source>Ctrl+J</source>
@@ -582,59 +583,59 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>P&amp;rev</source>
-        <translation>F&amp;orrige</translation>
+        <translation>П&amp;редходен</translation>
     </message>
     <message>
         <source>Move to previous item</source>
-        <translation>Flyt til forrige post</translation>
+        <translation>Към предходния текст</translation>
     </message>
     <message>
         <source>Move to the previous item.</source>
-        <translation>Flyt til den forrige post.</translation>
+        <translation>Преминаване към предходния текст.</translation>
     </message>
     <message>
         <source>Ctrl+Shift+K</source>
-        <translation>Ctrl+Skift+K</translation>
+        <translation>Ctrl+Shift+K</translation>
     </message>
     <message>
         <source>Ne&amp;xt</source>
-        <translation>N&amp;æste</translation>
+        <translation>С&amp;ледващ</translation>
     </message>
     <message>
         <source>Next item</source>
-        <translation>Næste post</translation>
+        <translation>Следващ текст</translation>
     </message>
     <message>
         <source>Move to the next item.</source>
-        <translation>Flyt til den næste post.</translation>
+        <translation>Преминаване към следващия текст.</translation>
     </message>
     <message>
         <source>Ctrl+Shift+J</source>
-        <translation>Ctrl+Skift+J</translation>
+        <translation>Ctrl+Shift+J</translation>
     </message>
     <message>
         <source>&amp;Done and Next</source>
-        <translation>Fæ&amp;rdig og næste</translation>
+        <translation>&amp;Готово, към следващия</translation>
     </message>
     <message>
         <source>Mark item as done and move to the next unfinished item</source>
-        <translation>Mærk post som færdig og flyt til den næste ufærdige post</translation>
+        <translation>Отбелязване на текста като „завършен“ и преминаване към следващия незавършен</translation>
     </message>
     <message>
         <source>Mark this item as done and move to the next unfinished item.</source>
-        <translation>Mærk denne post som færdig og flyt til den næste ufærdige post.</translation>
+        <translation>Отбелязване на този текст като „завършен“ и преминаване към следващия незавършен.</translation>
     </message>
     <message>
         <source>Copy from source text</source>
-        <translation>Kopiér fra kildetekst</translation>
+        <translation>Копиране на оригиналния текст</translation>
     </message>
     <message>
         <source>Copies the source text into the translation field</source>
-        <translation>Kopiér kildeteksten ind i oversættelsesfeltet</translation>
+        <translation>Копиране на оригиналния текст в полето за превод</translation>
     </message>
     <message>
         <source>Copies the source text into the translation field.</source>
-        <translation>Kopiér kildeteksten ind i oversættelsesfeltet.</translation>
+        <translation>Копиране на оригиналния текст в полето за превод.</translation>
     </message>
     <message>
         <source>Ctrl+B</source>
@@ -642,59 +643,59 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>&amp;Accelerators</source>
-        <translation>&amp;Acceleratorer</translation>
+        <translation>&amp;Активни символи</translation>
     </message>
     <message>
         <source>Toggle the validity check of accelerators</source>
-        <translation>Valideringstjek af acceleratorer til/fra</translation>
+        <translation>Превключване на проверката на активните символи</translation>
     </message>
     <message>
         <source>Toggle the validity check of accelerators, i.e. whether the number of ampersands in the source and translation text is the same. If the check fails, a message is shown in the warnings window.</source>
-        <translation>Valideringstjek af acceleratorer til/fra, såsom hvorvidt antallet af &amp;-tegn i kilde- og oversættelsesteksten er den samme. Hvis tjekket fejler, vises en meddelelse i advarselsvinduet.</translation>
+        <translation>Превключване на проверката на активните символи, тоест дали броят на амперсандите в оригиналния текст и в превода е един и същ. Ако това не е така, ще се изведе съобщение в панела за предупреждения.</translation>
     </message>
     <message>
         <source>&amp;Ending Punctuation</source>
-        <translation>Afsluttende &amp;tegnsætning</translation>
+        <translation>&amp;Препинателни знаци в края</translation>
     </message>
     <message>
         <source>Toggle the validity check of ending punctuation</source>
-        <translation>Valideringstjek af afsluttende tegnsætning til/fra</translation>
+        <translation>Превключване на проверката на препинателните знаци в края</translation>
     </message>
     <message>
         <source>Toggle the validity check of ending punctuation. If the check fails, a message is shown in the warnings window.</source>
-        <translation>Valideringstjek af afsluttende tegnsætning til/fra. Hvis tjekket fejler, vises en meddelelse i advarselsvinduet.</translation>
+        <translation>Превключване на проверката на препинателните знаци в края. Ако те не са еднакви, ще се изведе съобщение в панела за предупреждения.</translation>
     </message>
     <message>
         <source>&amp;Phrase matches</source>
-        <translation>&amp;Frase matcher</translation>
+        <translation>Съвпадения в &amp;речника</translation>
     </message>
     <message>
         <source>Toggle checking that phrase suggestions are used</source>
-        <translation>Tjek at fraseforslag bruges til/fra</translation>
+        <translation>Превключване на проверката дали се използват съвпаденията от речника</translation>
     </message>
     <message>
         <source>Toggle checking that phrase suggestions are used. If the check fails, a message is shown in the warnings window.</source>
-        <translation>Tjek at fraseforslag bruges til/fra. Hvis tjekket fejler, vises en meddelelse i advarselsvinduet.</translation>
+        <translation>Превключване на проверката дали се използват съвпаденията от речника. Ако това не е така, ще се изведе съобщение в панела за предупреждения.</translation>
     </message>
     <message>
         <source>Place &amp;Marker Matches</source>
-        <translation>&amp;Stedmarkør matcher</translation>
+        <translation>Съответствия на &amp;маркерите за заместване</translation>
     </message>
     <message>
         <source>Toggle the validity check of place markers</source>
-        <translation>Valideringstjek af stedmarkører til/fra</translation>
+        <translation>Превключване на проверката за съответствие на маркерите за заместване</translation>
     </message>
     <message>
         <source>Toggle the validity check of place markers, i.e. whether %1, %2, ... are used consistently in the source text and translation text. If the check fails, a message is shown in the warnings window.</source>
-        <translation>Valideringstjek af stedmarkører til/fra, såsom hvorvidt %1, %2, ...  bruges konsekvent i kildeteksten og oversættelsesteksten. Hvis tjekket fejler, vises en meddelelse i advarselsvinduet.</translation>
+        <translation>Превключване на проверката за съответствие на маркерите за заместване, тоест дали %1, %2, и т.н. се срещат в превода. Ако това не е така, ще се изведе съобщение в панела за предупреждения.</translation>
     </message>
     <message>
         <source>&amp;New Phrase Book...</source>
-        <translation>&amp;Ny frasebog...</translation>
+        <translation>&amp;Нов речник…</translation>
     </message>
     <message>
         <source>Create a new phrase book.</source>
-        <translation>Opret en ny frasebog.</translation>
+        <translation>Създаване на нов речник.</translation>
     </message>
     <message>
         <source>Ctrl+N</source>
@@ -702,11 +703,11 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>&amp;Open Phrase Book...</source>
-        <translation>&amp;Åbn frasebog...</translation>
+        <translation>&amp;Отваряне на речник…</translation>
     </message>
     <message>
         <source>Open a phrase book to assist translation.</source>
-        <translation>Åbn en frasebog for at assistere oversættelsen.</translation>
+        <translation>Отваряне на речник, който да помогне при превода.</translation>
     </message>
     <message>
         <source>Ctrl+H</source>
@@ -714,31 +715,31 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>&amp;Reset Sorting</source>
-        <translation>&amp;Nulstil sortering</translation>
+        <translation>Възстановяване на &amp;подредбата</translation>
     </message>
     <message>
         <source>Sort the items back in the same order as in the message file.</source>
-        <translation>Sortér posterne tilbage til den samme rækkefølge som i meddelelsesfilen.</translation>
+        <translation>Подрежда текстовете отново в реда, в който те са описани във файла.</translation>
     </message>
     <message>
         <source>&amp;Display guesses</source>
-        <translation>Vis &amp;gæt</translation>
+        <translation>Показване на п&amp;редложения</translation>
     </message>
     <message>
         <source>Set whether or not to display translation guesses.</source>
-        <translation>Sæt om oversættelsesgæt skal vises eller ej.</translation>
+        <translation>Дали да се показват предложения за превод.</translation>
     </message>
     <message>
         <source>&amp;Statistics</source>
-        <translation>&amp;Statistik</translation>
+        <translation>&amp;Статистика</translation>
     </message>
     <message>
         <source>Display translation statistics.</source>
-        <translation>Vis oversættelsesstatistik.</translation>
+        <translation>Показване на статистика за превода.</translation>
     </message>
     <message>
         <source>&amp;Manual</source>
-        <translation>&amp;Manual</translation>
+        <translation>&amp;Ръководство</translation>
     </message>
     <message>
         <source>F1</source>
@@ -746,83 +747,83 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>About Qt Linguist</source>
-        <translation>Om Qt Linguist</translation>
+        <translation>Относно Qt Linguist</translation>
     </message>
     <message>
         <source>About Qt</source>
-        <translation>Om Qt</translation>
+        <translation>Относно Qt</translation>
     </message>
     <message>
         <source>Display information about the Qt toolkit by Digia.</source>
-        <translation>Vis information om Qt-værktøjskittet af Digia.</translation>
+        <translation>Показване на информация за Qt.</translation>
     </message>
     <message>
         <source>&amp;What&apos;s This?</source>
-        <translation>&amp;Hvad er det?</translation>
+        <translation>&amp;Какво е това?</translation>
     </message>
     <message>
         <source>What&apos;s This?</source>
-        <translation>Hvad er det?</translation>
+        <translation>Какво е това?</translation>
     </message>
     <message>
         <source>Enter What&apos;s This? mode.</source>
-        <translation>Gå i Hvad er det?-tilstand.</translation>
+        <translation>Влизане в режима „Какво е това?“.</translation>
     </message>
     <message>
         <source>Shift+F1</source>
-        <translation>Skift+F1</translation>
+        <translation>Shift+F1</translation>
     </message>
     <message>
         <source>&amp;Search And Translate...</source>
-        <translation>&amp;Søg og oversæt...</translation>
+        <translation>Търс&amp;ене и превод…</translation>
     </message>
     <message>
         <source>Replace the translation on all entries that matches the search source text.</source>
-        <translation>Erstat oversættelsen på alle indtastninger som matcher søgningens kildetekst.</translation>
+        <translation>Замяна на превода на всички записи, които съвпадат с търсения текст.</translation>
     </message>
     <message>
         <source>&amp;Batch Translation...</source>
-        <translation>&amp;Batchoversættelse...</translation>
+        <translation>&amp;Автоматичен превод…</translation>
     </message>
     <message>
         <source>Batch translate all entries using the information in the phrase books.</source>
-        <translation>Batchoversæt alle indtastninger ved brug af informationen i frasebøgerne.</translation>
+        <translation>Автоматичен превод чрез използване на информацията от речниците.</translation>
     </message>
     <message>
         <source>Release As...</source>
-        <translation>Udgiv som...</translation>
+        <translation>Изнасяне като…</translation>
     </message>
     <message>
         <source>Create a Qt message file suitable for released applications from the current message file. The filename will automatically be determined from the name of the TS file.</source>
-        <translation>Opret en Qt-meddelelsesfil som er egnet til udgivne programmer, fra den aktuelle meddelelsesfil. Filnavnet fastslås automatisk ud fra navnet på TS-filen.</translation>
+        <translation>Създаване на файл с текстове на Qt, подходящ за използване в крайно приложение. Името на файла ще бъде автоматично зададено, използвайки името на файла TS.</translation>
     </message>
     <message>
         <source>File</source>
-        <translation>Fil</translation>
+        <translation>Файл</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Rediger</translation>
+        <translation>Редактиране</translation>
     </message>
     <message>
         <source>Translation</source>
-        <translation>Oversættelse</translation>
+        <translation>Превод</translation>
     </message>
     <message>
         <source>Validation</source>
-        <translation>Validering</translation>
+        <translation>Проверка</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Hjælp</translation>
+        <translation>Помощ</translation>
     </message>
     <message>
         <source>Open/Refresh Form &amp;Preview</source>
-        <translation>&amp;Åbn/genindlæs formforhåndsvisning</translation>
+        <translation>Отваряне/опресняване на &amp;прегледа на прозорец</translation>
     </message>
     <message>
         <source>Form Preview Tool</source>
-        <translation>Formforhåndsvisningsværktøj</translation>
+        <translation>Инструмент за преглед на прозорци</translation>
     </message>
     <message>
         <source>F5</source>
@@ -830,11 +831,11 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>Translation File &amp;Settings...</source>
-        <translation>&amp;Oversættelsens filindstillinger...</translation>
+        <translation>Настро&amp;йки на файла за превод…</translation>
     </message>
     <message>
         <source>&amp;Add to Phrase Book</source>
-        <translation>&amp;Føj til frasebog</translation>
+        <translation>&amp;Добавяне към речника</translation>
     </message>
     <message>
         <source>Ctrl+T</source>
@@ -842,11 +843,11 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>Open Read-O&amp;nly...</source>
-        <translation>Å&amp;bn skrivebeskyttet...</translation>
+        <translation>Отваряне само за &amp;четене…</translation>
     </message>
     <message>
         <source>&amp;Save All</source>
-        <translation>&amp;Gem alle</translation>
+        <translation>Запазване на &amp;всички</translation>
     </message>
     <message>
         <source>Ctrl+S</source>
@@ -854,15 +855,15 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>&amp;Release All</source>
-        <translation>&amp;Udgiv alle</translation>
+        <translation>Изнасяне на в&amp;сички</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Luk</translation>
+        <translation>Затваряне</translation>
     </message>
     <message>
         <source>&amp;Close All</source>
-        <translation>&amp;Luk alle</translation>
+        <translation>&amp;Затваряне на всички</translation>
     </message>
     <message>
         <source>Ctrl+W</source>
@@ -870,19 +871,19 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>Length Variants</source>
-        <translation>Længdevarianter</translation>
+        <translation>Варианти за дължината на превода</translation>
     </message>
     <message>
         <source>Visualize whitespace</source>
-        <translation>Synliggør blanktegn</translation>
+        <translation>Показване на празните места</translation>
     </message>
     <message>
         <source>Toggle visualize whitespace in editors</source>
-        <translation>Synlighed af blanktegn i redigering til/fra</translation>
+        <translation>Показване на празните места в текстовите полета</translation>
     </message>
     <message>
         <source>Increase</source>
-        <translation>Forøg</translation>
+        <translation>Увеличаване</translation>
     </message>
     <message>
         <source>Ctrl++</source>
@@ -890,7 +891,7 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>Decrease</source>
-        <translation>Formindsk</translation>
+        <translation>Намаляване</translation>
     </message>
     <message>
         <source>Ctrl+-</source>
@@ -898,7 +899,7 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>Reset to default</source>
-        <translation>Nulstil til standard</translation>
+        <translation>По подразбиране</translation>
     </message>
     <message>
         <source>Ctrl+0</source>
@@ -911,133 +912,133 @@ Formoder en enkelt universel form.</translation>
     </message>
     <message>
         <source>Source text</source>
-        <translation>Kildetekst</translation>
+        <translation>Оригинален текст</translation>
     </message>
     <message>
         <source>Index</source>
-        <translation>Indeks</translation>
+        <translation>Индекс</translation>
     </message>
     <message>
         <source>Context</source>
-        <translation>Kontekst</translation>
+        <translation>Контекст</translation>
     </message>
     <message>
         <source>Items</source>
-        <translation>Poster</translation>
+        <translation>Елементи</translation>
     </message>
     <message>
         <source>This panel lists the source contexts.</source>
-        <translation>Dette panel viser kildekonteksterne.</translation>
+        <translation>В този панел са показани оригиналните контексти.</translation>
     </message>
     <message>
         <source>Strings</source>
-        <translation>Strenge</translation>
+        <translation>Текстове</translation>
     </message>
     <message>
         <source>Phrases and guesses</source>
-        <translation>Fraser og gæt</translation>
+        <translation>Предложения</translation>
     </message>
     <message>
         <source>Sources and Forms</source>
-        <translation>Kilder og forme</translation>
+        <translation>Изходен код и прозорци</translation>
     </message>
     <message>
         <source>Warnings</source>
-        <translation>Advarsler</translation>
+        <translation>Предупреждения</translation>
     </message>
     <message>
         <source> MOD </source>
         <comment>status bar: file(s) modified</comment>
-        <translation> ÆNDRET </translation>
+        <translation> ИЗМ </translation>
     </message>
     <message>
         <source>Loading...</source>
-        <translation>Indlæser...</translation>
+        <translation>Зареждане…</translation>
     </message>
     <message>
         <source>Loading File - Qt Linguist</source>
-        <translation>Indlæser fil - Qt Linguist</translation>
+        <translation>Зареждане на файл – Qt Linguist</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; does not seem to be related to the currently open file(s) &apos;%2&apos;.
 
 Close the open file(s) first?</source>
-        <translation>Filen &apos;%1&apos; ser ikke ud til at være relaterede til de aktuelt åbne fil(er) &apos;%2&apos;.
+        <translation>Файлът „%1“ не изглежда да има връзка с текущо отворения файл или файлове „%2“.
 
-Luk de åbne fil(er) først?</translation>
+Да бъде ли преди това затворен отвореният файл или файлове?</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; does not seem to be related to the file &apos;%2&apos; which is being loaded as well.
 
 Skip loading the first named file?</source>
-        <translation>Filen &apos;%1&apos; ser ikke ud til at være relaterede til filen &apos;%2&apos; som også indlæses.
+        <translation>Файлът „%1“ не изглежда де има връзка с файла „%2“, който също ще бъде зареден.
 
-Spring indlæsningen af den første navngivne fil over?</translation>
+Да бъде ли пропуснат първият файл?</translation>
     </message>
     <message numerus="yes">
         <source>%n translation unit(s) loaded.</source>
         <translation>
-            <numerusform>%n oversættelsesenhed indlæst.</numerusform>
-            <numerusform>%n oversættelsesenheder indlæst.</numerusform>
+            <numerusform>Зареден е %n запис.</numerusform>
+            <numerusform>Заредени са %n записа.</numerusform>
         </translation>
     </message>
     <message>
         <source>Related files (%1);;</source>
-        <translation>Relaterede filer (%1);;</translation>
+        <translation>Свързани файлове (%1);;</translation>
     </message>
     <message>
         <source>Open Translation Files</source>
-        <translation>Åbn oversættelsesfiler</translation>
+        <translation>Отваряне на файлове за превод</translation>
     </message>
     <message>
         <source>File saved.</source>
-        <translation>Fil gemt.</translation>
+        <translation>Файлът е запазен.</translation>
     </message>
     <message>
         <source>Qt message files for released applications (*.qm)
 All files (*)</source>
-        <translation>Qt-meddelelsesfiler til udgivne programmer (*.qm)
-Alle filer (*)</translation>
+        <translation>Файлове с преводи на Qt за крайни приложения (*.qm)
+Всички файлове (*)</translation>
     </message>
     <message>
         <source>File created.</source>
-        <translation>Fil oprettet.</translation>
+        <translation>Файлът е създаден.</translation>
     </message>
     <message>
         <source>Printing...</source>
-        <translation>Udskriver...</translation>
+        <translation>Разпечатване…</translation>
     </message>
     <message>
         <source>Context: %1</source>
-        <translation>Kontekst: %1</translation>
+        <translation>Контекст: %1</translation>
     </message>
     <message>
         <source>finished</source>
-        <translation>færdig</translation>
+        <translation>завършен</translation>
     </message>
     <message>
         <source>unresolved</source>
-        <translation>uløst</translation>
+        <translation>неразрешен</translation>
     </message>
     <message>
         <source>obsolete</source>
-        <translation>forældede</translation>
+        <translation>остарял</translation>
     </message>
     <message>
         <source>Printing... (page %1)</source>
-        <translation>Udskriver... (side %1)</translation>
+        <translation>Разпечатване… (страница %1)</translation>
     </message>
     <message>
         <source>Printing completed</source>
-        <translation>Udskrivning fuldført</translation>
+        <translation>Разпечатването е завършено</translation>
     </message>
     <message>
         <source>Printing aborted</source>
-        <translation>Udskrivning afbrudt</translation>
+        <translation>Разпечатването беше прекратено</translation>
     </message>
     <message>
         <source>Search wrapped.</source>
-        <translation>Søgningen startede forfra.</translation>
+        <translation>Търсенето започна отначало.</translation>
     </message>
     <message>
         <source>Qt Linguist</source>
@@ -1045,91 +1046,91 @@ Alle filer (*)</translation>
     </message>
     <message>
         <source>Cannot find the string &apos;%1&apos;.</source>
-        <translation>Kan ikke finde strengen &apos;%1&apos;.</translation>
+        <translation>Текстът „%1“ не може да бъде намерен.</translation>
     </message>
     <message>
         <source>Search And Translate in &apos;%1&apos; - Qt Linguist</source>
-        <translation>Søg og oversæt i &apos;%1&apos; - Qt Linguist</translation>
+        <translation>Търсене и превод в „%1“ – Qt Linguist</translation>
     </message>
     <message>
         <source>Translate - Qt Linguist</source>
-        <translation>Oversæt - Qt Linguist</translation>
+        <translation>Превод – Qt Linguist</translation>
     </message>
     <message numerus="yes">
         <source>Translated %n entry(s)</source>
         <translation>
-            <numerusform>Oversatte %n indtastning</numerusform>
-            <numerusform>Oversatte %n indtastninger</numerusform>
+            <numerusform>Преведен е %n запис</numerusform>
+            <numerusform>Преведени са %n записа</numerusform>
         </translation>
     </message>
     <message>
         <source>No more occurrences of &apos;%1&apos;. Start over?</source>
-        <translation>Ikke flere forekomster af &apos;%1&apos;. Start forfra?</translation>
+        <translation>Няма повече срещания на „%1“. Започване отначало?</translation>
     </message>
     <message>
         <source>Create New Phrase Book</source>
-        <translation>Opret ny frasebog</translation>
+        <translation>Създаване на нов речник</translation>
     </message>
     <message>
         <source>Qt phrase books (*.qph)
 All files (*)</source>
-        <translation>Qt-frasebøger (*.qph)
-Alle filer (*)</translation>
+        <translation>Речници на Qt (*.qph)
+Всички файлове (*)</translation>
     </message>
     <message>
         <source>Phrase book created.</source>
-        <translation>Frasebog oprettet.</translation>
+        <translation>Речникът е създаден.</translation>
     </message>
     <message>
         <source>Open Phrase Book</source>
-        <translation>Åbn frasebog</translation>
+        <translation>Отваряне на речник</translation>
     </message>
     <message>
         <source>Qt phrase books (*.qph);;All files (*)</source>
-        <translation>Qt-frasebøger (*.qph);;Alle filer (*)</translation>
+        <translation>Речници на Qt (*.qph);;Всички файлове (*)</translation>
     </message>
     <message numerus="yes">
         <source>%n phrase(s) loaded.</source>
         <translation>
-            <numerusform>%n frase indlæst.</numerusform>
-            <numerusform>%n fraser indlæst.</numerusform>
+            <numerusform>Заредена е %n фраза.</numerusform>
+            <numerusform>Заредени са %n фрази.</numerusform>
         </translation>
     </message>
     <message>
         <source>Add to phrase book</source>
-        <translation>Føj til frasebog</translation>
+        <translation>Добавяне към речника</translation>
     </message>
     <message>
         <source>No appropriate phrasebook found.</source>
-        <translation>Ingen passende frasebog fundet.</translation>
+        <translation>Не е открит речник.</translation>
     </message>
     <message>
         <source>Adding entry to phrasebook %1</source>
-        <translation>Føjer indtastning til frasebogen %1</translation>
+        <translation>Искате ли да добавите текущия превод в речника „%1“?</translation>
     </message>
     <message>
         <source>Select phrase book to add to</source>
-        <translation>Vælg den frasebog der skal føjes til</translation>
+        <translation>Изберете в кой речник да бъде добавен преводът:</translation>
     </message>
     <message>
         <source>Unable to launch Qt Assistant (%1)</source>
-        <translation>Kunne ikke starte Qt Assistant (%1)</translation>
+        <translation>Qt Assistant не може да бъде стартиран (%1)</translation>
     </message>
     <message>
         <source>Version %1</source>
-        <translation>Version %1</translation>
+        <translation>Версия %1</translation>
     </message>
     <message>
         <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</source>
-        <translation>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist er et værktøj til at føje oversættelser til Qt-programmer.&lt;/p&gt;&lt;p&gt;Ophavsret (C) %2 Qt Company Ltd.</translation>
+        <translation>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;„Qt Linguist“ е инструмент за превеждане на приложения, разработени чрез Qt.&lt;/p&gt;&lt;p&gt;Всички права запазени (C) %2 The Qt Company ООД</translation>
     </message>
     <message>
         <source>Do you want to save the modified files?</source>
-        <translation>Vil du gemme de ændrede filer?</translation>
+        <translation>Да бъдат ли запазени променените файлове?</translation>
     </message>
     <message>
         <source>Do you want to save &apos;%1&apos;?</source>
-        <translation>Vil du gemme &apos;%1&apos;?</translation>
+        <translation>Искате ли „%1“ да се запази?</translation>
     </message>
     <message>
         <source>Qt Linguist[*]</source>
@@ -1137,19 +1138,19 @@ Alle filer (*)</translation>
     </message>
     <message>
         <source>%1[*] - Qt Linguist</source>
-        <translation>%1[*] - Qt Linguist</translation>
+        <translation>%1[*] – Qt Linguist</translation>
     </message>
     <message>
         <source>No untranslated translation units left.</source>
-        <translation>Ingen uoversatte oversættelsesenheder tilbage.</translation>
+        <translation>Няма непреведени записи.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;Vindue</translation>
+        <translation>&amp;Прозорец</translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>Minimer</translation>
+        <translation>Минимизиране</translation>
     </message>
     <message>
         <source>Ctrl+M</source>
@@ -1157,95 +1158,95 @@ Alle filer (*)</translation>
     </message>
     <message>
         <source>Display the manual for %1.</source>
-        <translation>Vis manualen for %1.</translation>
+        <translation>Показване на ръководството за %1.</translation>
     </message>
     <message>
         <source>Display information about %1.</source>
-        <translation>Vis information om %1.</translation>
+        <translation>Показване на информация относно %1.</translation>
     </message>
     <message>
         <source>&amp;Save &apos;%1&apos;</source>
-        <translation>&amp;Gem &apos;%1&apos;</translation>
+        <translation>&amp;Запазване на „%1“</translation>
     </message>
     <message>
         <source>Save &apos;%1&apos; &amp;As...</source>
-        <translation>Gem &apos;%1&apos; &amp;som...</translation>
+        <translation>Запазване на „%1“ &amp;като…</translation>
     </message>
     <message>
         <source>Release &apos;%1&apos;</source>
-        <translation>Udgiv &apos;%1&apos;</translation>
+        <translation>Изнасяне на „%1“</translation>
     </message>
     <message>
         <source>Release &apos;%1&apos; As...</source>
-        <translation>Udgiv &apos;%1&apos; som...</translation>
+        <translation>Изнасяне на „%1“ като…</translation>
     </message>
     <message>
         <source>&amp;Close &apos;%1&apos;</source>
-        <translation>&amp;Luk &apos;%1&apos;</translation>
+        <translation>&amp;Затваряне на „%1“</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;Gem</translation>
+        <translation>&amp;Запазване</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Luk</translation>
+        <translation>&amp;Затваряне</translation>
     </message>
     <message>
         <source>Save All</source>
-        <translation>Gem alle</translation>
+        <translation>Запазване на всички</translation>
     </message>
     <message>
         <source>Close All</source>
-        <translation>Luk alle</translation>
+        <translation>Затваряне на всички</translation>
     </message>
     <message>
         <source>&amp;Release</source>
-        <translation>&amp;Udgiv</translation>
+        <translation>Из&amp;насяне</translation>
     </message>
     <message>
         <source>Translation File &amp;Settings for &apos;%1&apos;...</source>
-        <translation>O&amp;versættelsens fileindstillinger for &apos;%1&apos;...</translation>
+        <translation>Настро&amp;йки на файла за превод „%1“…</translation>
     </message>
     <message>
         <source>&amp;Batch Translation of &apos;%1&apos;...</source>
-        <translation>&amp;Batchoversættelse af &apos;%1&apos;...</translation>
+        <translation>&amp;Автоматичен превод на „%1“…</translation>
     </message>
     <message>
         <source>Search And &amp;Translate in &apos;%1&apos;...</source>
-        <translation>Søg og &amp;oversæt i &apos;%1&apos;...</translation>
+        <translation>Търс&amp;ене и превод в „%1“…</translation>
     </message>
     <message>
         <source>Search And &amp;Translate...</source>
-        <translation>Søg og &amp;oversæt...</translation>
+        <translation>Търс&amp;ене и превод…</translation>
     </message>
     <message>
         <source>Cannot read from phrase book &apos;%1&apos;.</source>
-        <translation>Kan ikke læse fra frasebogen &apos;%1&apos;.</translation>
+        <translation>Четенето от речника „%1“ е невъзможно.</translation>
     </message>
     <message>
         <source>Close this phrase book.</source>
-        <translation>Luk denne frasebog.</translation>
+        <translation>Затваряне на този речник.</translation>
     </message>
     <message>
         <source>Enables you to add, modify, or delete entries in this phrase book.</source>
-        <translation>Giver dig mulighed for at tilføje, ændre eller slette indtastninger i denne frasebog.</translation>
+        <translation>Позволява да добавяте, променяте и изтривате записи от този речник.</translation>
     </message>
     <message>
         <source>Print the entries in this phrase book.</source>
-        <translation>Udskriver indtastningerne i denne frasebog.</translation>
+        <translation>Разпечатване на записите от този речник.</translation>
     </message>
     <message>
         <source>Cannot create phrase book &apos;%1&apos;.</source>
-        <translation>Kan ikke oprette frasebogen &apos;%1&apos;.</translation>
+        <translation>Речникът „%1“ не може да бъде създаден.</translation>
     </message>
     <message>
         <source>Do you want to save phrase book &apos;%1&apos;?</source>
-        <translation>Vil du gemme frasebogen &apos;%1&apos;?</translation>
+        <translation>Да бъде ли запазен речникът „%1“?</translation>
     </message>
     <message>
         <source>All</source>
-        <translation>Alle</translation>
+        <translation>Всичко</translation>
     </message>
 </context>
 <context>
@@ -1257,178 +1258,178 @@ Alle filer (*)</translation>
     </message>
     <message>
         <source>Russian</source>
-        <translation>Russisk</translation>
+        <translation>Руски</translation>
     </message>
     <message>
         <source>German</source>
-        <translation>Tysk</translation>
+        <translation>Немски</translation>
     </message>
     <message>
         <source>Japanese</source>
-        <translation>Japansk</translation>
+        <translation>Японски</translation>
     </message>
     <message>
         <source>French</source>
-        <translation>Fransk</translation>
+        <translation>Френски</translation>
     </message>
     <message>
         <source>Polish</source>
-        <translation>Polsk</translation>
+        <translation>Полски</translation>
     </message>
     <message>
         <source>Chinese</source>
-        <translation>Kinesisk</translation>
+        <translation>Китайски</translation>
     </message>
     <message>
         <source>This whole panel allows you to view and edit the translation of some source text.</source>
-        <translation>Hele dette panel giver dig mulighed for at vise og redigere oversættelsen af noget kildetekst.</translation>
+        <translation>Целият този панел Ви позволява да преглеждате и редактирате превода на даден оригинален текст.</translation>
     </message>
     <message>
         <source>Source text</source>
-        <translation>Kildetekst</translation>
+        <translation>Оригинален текст</translation>
     </message>
     <message>
         <source>This area shows the source text.</source>
-        <translation>Dette område viser kildeteksten.</translation>
+        <translation>Тази област показва оригиналния текст.</translation>
     </message>
     <message>
         <source>Source text (Plural)</source>
-        <translation>Kildetekst (flertal)</translation>
+        <translation>Оригинален текст (множествено число)</translation>
     </message>
     <message>
         <source>This area shows the plural form of the source text.</source>
-        <translation>Dette område viser flertalsformen af kildeteksten.</translation>
+        <translation>Тази област показва формата за множествено число на оригиналния текст.</translation>
     </message>
     <message>
         <source>Developer comments</source>
-        <translation>Udviklerkommentarer</translation>
+        <translation>Коментари от разработчика</translation>
     </message>
     <message>
         <source>This area shows a comment that may guide you, and the context in which the text occurs.</source>
-        <translation>Dette område viser en kommentar som kan vejlede dig og konteksten hvor teksten forekommer.</translation>
+        <translation>Тази област показва коментар, който може да Ви помогне, както и контекстът, в който се среща текстът.</translation>
     </message>
     <message>
         <source>Here you can enter comments for your own use. They have no effect on the translated applications.</source>
-        <translation>Her kan du indtaste kommentarer til eget brug. De har ingen indflydelse på de oversatte programmer.</translation>
+        <translation>Тук можете да въведете свой собствен коментар. Той няма да повлияе по никакъв начин на преведеното приложение.</translation>
     </message>
     <message>
         <source>%1 translation (%2)</source>
-        <translation>%1 oversættelse (%2)</translation>
+        <translation>%1 превод (%2)</translation>
     </message>
     <message>
         <source>This is where you can enter or modify the translation of the above source text.</source>
-        <translation>Her kan du indtaste eller ændre oversættelsen af kildeteksten ovenfor.</translation>
+        <translation>Тук е мястото, където можете да въведете или промените превода на горния оригинален текст.</translation>
     </message>
     <message>
         <source>%1 translation</source>
-        <translation>%1 oversættelse</translation>
+        <translation>%1 превод</translation>
     </message>
     <message>
         <source>%1 translator comments</source>
-        <translation>%1 oversætterkommentarer</translation>
+        <translation>%1 превод: коментар от преводача</translation>
     </message>
     <message>
         <source>&apos;%1&apos;
 Line: %2</source>
-        <translation>&apos;%1&apos;
-Linje: %2</translation>
+        <translation>„%1“
+Ред: %2</translation>
     </message>
 </context>
 <context>
     <name>MessageModel</name>
     <message>
         <source>Completion status for %1</source>
-        <translation>Fuldførselsstatus for %1</translation>
+        <translation>Състояние на завършеност за „%1“</translation>
     </message>
     <message>
         <source>&lt;file header&gt;</source>
-        <translation>&lt;filhoved&gt;</translation>
+        <translation>&lt;заглавен файл&gt;</translation>
     </message>
     <message>
         <source>&lt;context comment&gt;</source>
-        <translation>&lt;kontekstkommentar&gt;</translation>
+        <translation>&lt;контекстен коментар&gt;</translation>
     </message>
     <message>
         <source>&lt;unnamed context&gt;</source>
-        <translation>&lt;unavngivet kontekst&gt;</translation>
+        <translation>&lt;безименен контекст&gt;</translation>
     </message>
 </context>
 <context>
     <name>PhraseBook</name>
     <message>
         <source>Parse error at line %1, column %2 (%3).</source>
-        <translation>Parse-fejl på linje %1, kolonne %2 (%3).</translation>
+        <translation>Грешка при анализа на ред %1, колона %2 (%3).</translation>
     </message>
 </context>
 <context>
     <name>PhraseBookBox</name>
     <message>
         <source>Edit Phrase Book</source>
-        <translation>Rediger frasebog</translation>
+        <translation>Редактиране на речник</translation>
     </message>
     <message>
         <source>This window allows you to add, modify, or delete entries in a phrase book.</source>
-        <translation>Dette vindue giver dig mulighed for at tilføje, ændre eller slette indtastninger i en frasebog.</translation>
+        <translation>Този прозорец Ви позволява да добавяте, променяте и изтривате записи от този речник.</translation>
     </message>
     <message>
         <source>&amp;Translation:</source>
-        <translation>&amp;Oversættelse:</translation>
+        <translation>&amp;Превод:</translation>
     </message>
     <message>
         <source>This is the phrase in the target language corresponding to the source phrase.</source>
-        <translation>Dette er frasen i målsproget som tilsvarer kildefrasen.</translation>
+        <translation>Това е фразата на целевия език, отговаряща на оригиналната фраза.</translation>
     </message>
     <message>
         <source>S&amp;ource phrase:</source>
-        <translation>&amp;Kildefrase:</translation>
+        <translation>Оригинална &amp;фраза:</translation>
     </message>
     <message>
         <source>This is a definition for the source phrase.</source>
-        <translation>Dette er en definition af kildefrasen.</translation>
+        <translation>Това е определение за оригиналната фраза.</translation>
     </message>
     <message>
         <source>This is the phrase in the source language.</source>
-        <translation>Dette er frasen i kildesproget.</translation>
+        <translation>Това е фразата на оригиналния език.</translation>
     </message>
     <message>
         <source>&amp;Definition:</source>
-        <translation>&amp;Definition:</translation>
+        <translation>&amp;Определение:</translation>
     </message>
     <message>
         <source>Click here to add the phrase to the phrase book.</source>
-        <translation>Klik her for at føje frasen til frasebogen.</translation>
+        <translation>Натиснете тук, за да добавите нова фраза в речника.</translation>
     </message>
     <message>
         <source>&amp;New Entry</source>
-        <translation>&amp;Ny indtastning</translation>
+        <translation>&amp;Нов запис</translation>
     </message>
     <message>
         <source>Click here to remove the entry from the phrase book.</source>
-        <translation>Klik her for at fjerne indtastningen fra frasebogen.</translation>
+        <translation>Натиснете тук, за да премахнете избрания запис от речника.</translation>
     </message>
     <message>
         <source>&amp;Remove Entry</source>
-        <translation>&amp;Fjern indtastning</translation>
+        <translation>&amp;Премахване</translation>
     </message>
     <message>
         <source>Settin&amp;gs...</source>
-        <translation>&amp;Indstillinger...</translation>
+        <translation>Настро&amp;йки…</translation>
     </message>
     <message>
         <source>Click here to save the changes made.</source>
-        <translation>Klik her for at gemme ændringerne.</translation>
+        <translation>Натиснете тук, за да запазите направените промени.</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;Gem</translation>
+        <translation>&amp;Запазване</translation>
     </message>
     <message>
         <source>Click here to close this window.</source>
-        <translation>Klik her for at lukke dette vindue.</translation>
+        <translation>Натиснете тук, за да затворите прозореца.</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Luk</translation>
+        <translation>Затваряне</translation>
     </message>
     <message>
         <source></source>
@@ -1437,11 +1438,11 @@ Linje: %2</translation>
     </message>
     <message>
         <source>(New Entry)</source>
-        <translation>(ny indtastning)</translation>
+        <translation>(Нов запис)</translation>
     </message>
     <message>
         <source>%1[*] - Qt Linguist</source>
-        <translation>%1[*] - Qt Linguist</translation>
+        <translation>%1[*] – Qt Linguist</translation>
     </message>
     <message>
         <source>Qt Linguist</source>
@@ -1449,52 +1450,52 @@ Linje: %2</translation>
     </message>
     <message>
         <source>Cannot save phrase book &apos;%1&apos;.</source>
-        <translation>Kan ikke gemme frasebogen &apos;%1&apos;.</translation>
+        <translation>Речникът „%1“ не може да бъде запазен.</translation>
     </message>
 </context>
 <context>
     <name>PhraseModel</name>
     <message>
         <source>Source phrase</source>
-        <translation>Kildefrase</translation>
+        <translation>Оригинална фраза</translation>
     </message>
     <message>
         <source>Translation</source>
-        <translation>Oversættelse</translation>
+        <translation>Превод</translation>
     </message>
     <message>
         <source>Definition</source>
-        <translation>Definition</translation>
+        <translation>Определение</translation>
     </message>
 </context>
 <context>
     <name>PhraseView</name>
     <message>
         <source>Insert</source>
-        <translation>Indsæt</translation>
+        <translation>Вмъкване</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Rediger</translation>
+        <translation>Редактиране</translation>
     </message>
     <message>
         <source>Guess (%1)</source>
-        <translation>Gæt (%1)</translation>
+        <translation>Предложение (%1)</translation>
     </message>
     <message>
         <source>Guess</source>
-        <translation>Gæt</translation>
+        <translation>Предложение</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>Translation files (%1);;</source>
-        <translation>Oversættelsesfiler (%1);;</translation>
+        <translation>Файлове за превод (%1);;</translation>
     </message>
     <message>
         <source>All files (*)</source>
-        <translation>Alle filer (*)</translation>
+        <translation>Всички файлове (*)</translation>
     </message>
     <message>
         <source>Qt Linguist</source>
@@ -1505,34 +1506,34 @@ Linje: %2</translation>
     <name>SourceCodeView</name>
     <message>
         <source>&lt;i&gt;Source code not available&lt;/i&gt;</source>
-        <translation>&lt;i&gt;Kildekoden er ikke tilgængelig&lt;/i&gt;</translation>
+        <translation>&lt;i&gt;Изходният код не е наличен&lt;/i&gt;</translation>
     </message>
     <message>
         <source>&lt;i&gt;File %1 not available&lt;/i&gt;</source>
-        <translation>&lt;i&gt;Filen %1 er ikke tilgængelig&lt;/i&gt;</translation>
+        <translation>&lt;i&gt;Файлът „%1“ не е наличен&lt;/i&gt;</translation>
     </message>
     <message>
         <source>&lt;i&gt;File %1 not readable&lt;/i&gt;</source>
-        <translation>&lt;i&gt;Filen %1 kan ikke læses&lt;/i&gt;</translation>
+        <translation>&lt;i&gt;Файлът „%1“ не е достъпен за четене&lt;/i&gt;</translation>
     </message>
 </context>
 <context>
     <name>Statistics</name>
     <message>
         <source>Statistics</source>
-        <translation>Statistik</translation>
+        <translation>Статистика</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Luk</translation>
+        <translation>Затваряне</translation>
     </message>
     <message>
         <source>Translation</source>
-        <translation>Oversættelse</translation>
+        <translation>Превод</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation>Kilde</translation>
+        <translation>Оригинал</translation>
     </message>
     <message>
         <source>0</source>
@@ -1540,101 +1541,101 @@ Linje: %2</translation>
     </message>
     <message>
         <source>Words:</source>
-        <translation>Ord:</translation>
+        <translation>Думи:</translation>
     </message>
     <message>
         <source>Characters:</source>
-        <translation>Tegn:</translation>
+        <translation>Знаци:</translation>
     </message>
     <message>
         <source>Characters (with spaces):</source>
-        <translation>Tegn (med mellemrum):</translation>
+        <translation>Знаци (вкл. празни места):</translation>
     </message>
 </context>
 <context>
     <name>TranslateDialog</name>
     <message>
         <source>This window allows you to search for some text in the translation source file.</source>
-        <translation>Dette vindue giver dig mulighed for at søge efter noget tekst i oversættelsens kildefil.</translation>
+        <translation>Този прозорец Ви дава възможност да търсите даден текст във файла за превод.</translation>
     </message>
     <message>
         <source>Type in the text to search for.</source>
-        <translation>Skriv teksten som der skal søges efter.</translation>
+        <translation>Въведете текста, който искате търсите.</translation>
     </message>
     <message>
         <source>Find &amp;source text:</source>
-        <translation>Find &amp;kildetekst:</translation>
+        <translation>Търсене на &amp;оригинален текст:</translation>
     </message>
     <message>
         <source>&amp;Translate to:</source>
-        <translation>&amp;Oversæt til:</translation>
+        <translation>&amp;Превеждане като:</translation>
     </message>
     <message>
         <source>Search options</source>
-        <translation>Søgevalgmuligheder</translation>
+        <translation>Настройки на търсенето</translation>
     </message>
     <message>
         <source>Texts such as &apos;TeX&apos; and &apos;tex&apos; are considered as different when checked.</source>
-        <translation>Tekster såsom &apos;TeX&apos; og &apos;tex&apos; betragtes som forskellige, når tilvalgt.</translation>
+        <translation>Ако е избрано, текстове като „ПрИмЕр“ и „пример“ ще бъдат считани за различни.</translation>
     </message>
     <message>
         <source>Match &amp;case</source>
-        <translation>Forskel på store og små &amp;bogstaver</translation>
+        <translation>&amp;Съвпадение на регистъра</translation>
     </message>
     <message>
         <source>Mark new translation as &amp;finished</source>
-        <translation>Mærk ny oversættelse som &amp;færdig</translation>
+        <translation>Отбелязване на новите преводи като &amp;завършени</translation>
     </message>
     <message>
         <source>Click here to find the next occurrence of the text you typed in.</source>
-        <translation>Klik her for at finde den næste forekomst af den tekst du skrev.</translation>
+        <translation>Натиснете тук, за да намерите следващото срещане на търсения текст.</translation>
     </message>
     <message>
         <source>Find Next</source>
-        <translation>Find næste</translation>
+        <translation>Търсене напред</translation>
     </message>
     <message>
         <source>Translate</source>
-        <translation>Oversæt</translation>
+        <translation>Превеждане</translation>
     </message>
     <message>
         <source>Translate All</source>
-        <translation>Oversæt alle</translation>
+        <translation>Превеждане на всички</translation>
     </message>
     <message>
         <source>Click here to close this window.</source>
-        <translation>Klik her for at lukke dette vindue.</translation>
+        <translation>Натиснете тук, за да затворите прозореца.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Annuller</translation>
+        <translation>Отказ</translation>
     </message>
 </context>
 <context>
     <name>TranslationSettingsDialog</name>
     <message>
         <source>Source language</source>
-        <translation>Kildesprog</translation>
+        <translation>Оригинален език</translation>
     </message>
     <message>
         <source>Language</source>
-        <translation>Sprog</translation>
+        <translation>Език</translation>
     </message>
     <message>
         <source>Country/Region</source>
-        <translation>Land/region</translation>
+        <translation>Държава/регион</translation>
     </message>
     <message>
         <source>Target language</source>
-        <translation>Målsprog</translation>
+        <translation>Целеви език</translation>
     </message>
     <message>
         <source>Settings for &apos;%1&apos; - Qt Linguist</source>
-        <translation>Indstillinger for &apos;%1&apos; - Qt Linguist</translation>
+        <translation>Настройки за „%1“ – Qt Linguist</translation>
     </message>
     <message>
         <source>Any Country</source>
-        <translation>Vilkårligt land</translation>
+        <translation>Без значение</translation>
     </message>
 </context>
 </TS>

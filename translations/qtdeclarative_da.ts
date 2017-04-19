@@ -32,6 +32,14 @@
         <translation>Duplikeret standard egenskab</translation>
     </message>
     <message>
+        <source>Duplicate alias name</source>
+        <translation>Duplikeret aliasnavn</translation>
+    </message>
+    <message>
+        <source>Alias names cannot begin with an upper case letter</source>
+        <translation>Aliasnavne må ikke begynde med et stort bogstav</translation>
+    </message>
+    <message>
         <source>Property value set multiple times</source>
         <translation>Egenskabsværdi sat flere gange</translation>
     </message>
@@ -72,6 +80,10 @@
     <message>
         <source>id is not unique</source>
         <translation>id er ikke unikt</translation>
+    </message>
+    <message>
+        <source>Circular alias reference detected</source>
+        <translation>Cirkulær aliasreference detekteret</translation>
     </message>
     <message>
         <source>Invalid alias reference. Unable to find id &quot;%1&quot;</source>
@@ -787,7 +799,7 @@
     </message>
 </context>
 <context>
-    <name>QQmlPropertyCacheCreator</name>
+    <name>QQmlPropertyCacheCreatorBase</name>
     <message>
         <source>Fully dynamic types cannot declare new properties.</source>
         <translation>Fuld ud dynamiske typer kan ikke deklarerer nye egenskaber.</translation>
@@ -952,12 +964,20 @@
         <translation>Ugyldig egenskabstildeling: boolesk forventet</translation>
     </message>
     <message>
+        <source>Invalid property assignment: 2D vector expected</source>
+        <translation>Ugyldig egenskabstildeling: 2D-vektor forventet</translation>
+    </message>
+    <message>
         <source>Invalid property assignment: 3D vector expected</source>
         <translation>Ugyldig egenskabstildeling: 3D-vektor forventet</translation>
     </message>
     <message>
         <source>Invalid property assignment: 4D vector expected</source>
         <translation>Ugyldig egenskabstildeling: 4D-vektor forventet</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: quaternion expected</source>
+        <translation>Ugyldig egenskabstildeling: quaternion forventet</translation>
     </message>
     <message>
         <source>Invalid property assignment: regular expression expected; use /pattern/ syntax</source>
@@ -1020,7 +1040,7 @@
     </message>
 </context>
 <context>
-    <name>QQmlTypeCompiler</name>
+    <name>QQmlTypeData</name>
     <message>
         <source>Composite Singleton Type %1 is not creatable.</source>
         <translation>Composite Singleton typen %1 er ikke opretbar.</translation>
@@ -1208,6 +1228,13 @@
     </message>
 </context>
 <context>
+    <name>QQuickGraphicsInfo</name>
+    <message>
+        <source>GraphicsInfo is only available via attached properties</source>
+        <translation>GraphicsInfo er kun tilgængelig via tilkoblet egenskaber</translation>
+    </message>
+</context>
+<context>
     <name>QQuickItemView</name>
     <message>
         <source>ItemView is an abstract base class</source>
@@ -1235,12 +1262,12 @@
 <context>
     <name>QQuickLayoutMirroringAttached</name>
     <message>
-        <source>LayoutDirection attached property only works with Items</source>
-        <translation>LayoutDirection tilkoblet egenskab virker kun med poster</translation>
-    </message>
-    <message>
         <source>LayoutMirroring is only available via attached properties</source>
         <translation>LayoutMirroring er kun tilgængelig via tilkoblet egenskaber</translation>
+    </message>
+    <message>
+        <source>LayoutDirection attached property only works with Items and Windows</source>
+        <translation>LayoutDirection tilkoblet egenskab virker kun med poster og vinduer</translation>
     </message>
 </context>
 <context>
