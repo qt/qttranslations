@@ -36,6 +36,10 @@ Besøg venligst https://developers.arcgis.com/authentication/accessing-arcgis-on
         <translation>Kan ikke rutelægge, rutehåndtering ikke sat.</translation>
     </message>
     <message>
+        <source>Cannot route, valid query not set.</source>
+        <translation>Kan ikke rutelægge, gyldig forespørgsel ikke sat.</translation>
+    </message>
+    <message>
         <source>Not enough waypoints for routing.</source>
         <translation>Ikke nok vejpunkter til rutelægning.</translation>
     </message>
@@ -57,6 +61,67 @@ Besøg venligst https://developers.arcgis.com/authentication/accessing-arcgis-on
     <message>
         <source>Plugin does not support (reverse) geocoding.</source>
         <translation>Plugin understøtter ikke (omvendt) geokodning.</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoMapMapboxGL</name>
+    <message>
+        <source>Development access token, do not use in production!</source>
+        <translation>Udviklingsadgangstoken, brug ikke i produktion!</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoMappingManagerEngineItemsOverlay</name>
+    <message>
+        <source>Empty Map</source>
+        <translation>Tomt kort</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoMappingManagerEngineMapboxGL</name>
+    <message>
+        <source>Streets</source>
+        <translation>Gader</translation>
+    </message>
+    <message>
+        <source>Basic</source>
+        <translation>Basal</translation>
+    </message>
+    <message>
+        <source>Bright</source>
+        <translation>Lyst</translation>
+    </message>
+    <message>
+        <source>Outdoors</source>
+        <translation>Udendørs</translation>
+    </message>
+    <message>
+        <source>Satellite</source>
+        <translation>Sattelit</translation>
+    </message>
+    <message>
+        <source>Satellite Streets</source>
+        <translation>Sattelit-gader</translation>
+    </message>
+    <message>
+        <source>Light</source>
+        <translation>Let</translation>
+    </message>
+    <message>
+        <source>Dark</source>
+        <translation>Mørkt</translation>
+    </message>
+    <message>
+        <source>Streets Traffic Day</source>
+        <translation>Gader-trafik dag</translation>
+    </message>
+    <message>
+        <source>Streets Traffic Night</source>
+        <translation>Gader-trafik nat</translation>
+    </message>
+    <message>
+        <source>User provided style</source>
+        <translation>Brugerleveret stil</translation>
     </message>
 </context>
 <context>
@@ -242,7 +307,7 @@ Besøg venligst https://developers.arcgis.com/authentication/accessing-arcgis-on
     <name>QGeoRouteParserOsrmV5</name>
     <message>
         <source>North</source>
-        <extracomment>Always used in &quot;Head %1 [onto &lt;street name&gt;]&quot;</extracomment>
+        <extracomment>Translations exist at https://github.com/Project-OSRM/osrm-text-instructions. Always used in &quot;Head %1 [onto &lt;street name&gt;]&quot;</extracomment>
         <translation>Nord</translation>
     </message>
     <message>
@@ -778,6 +843,10 @@ Besøg venligst https://developers.arcgis.com/authentication/accessing-arcgis-on
         <translation>Tag toget</translation>
     </message>
     <message>
+        <source>Take the train [%1]</source>
+        <translation>Tag toget[%1]</translation>
+    </message>
+    <message>
         <source>Go straight</source>
         <translation>Direkte</translation>
     </message>
@@ -1262,10 +1331,6 @@ Besøg venligst https://www.mapbox.com</translation>
 </context>
 <context>
     <name>QPlaceSearchReplyOsm</name>
-    <message>
-        <source>Communication error</source>
-        <translation>Kommunikaitionsfejl</translation>
-    </message>
     <message>
         <source>Response parse error</source>
         <translation>Fejl ved parsing af svar</translation>

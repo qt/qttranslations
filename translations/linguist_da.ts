@@ -134,6 +134,10 @@ Formoder en enkelt universel form.</translation>
         <translation>Accelerator mangler muligvis i oversættelsen.</translation>
     </message>
     <message>
+        <source>Translation does not have same leading and trailing whitespace as the source text.</source>
+        <translation>Oversættelsen har ikke den samme foranstillet og efterstillet blanktegn som kildeteksten.</translation>
+    </message>
+    <message>
         <source>Translation does not end with the same punctuation as the source text.</source>
         <translation>Oversættelsen slutter ikke med den samme tegnsætning som kildeteksten.</translation>
     </message>
@@ -1247,6 +1251,18 @@ Alle filer (*)</translation>
         <source>All</source>
         <translation>Alle</translation>
     </message>
+    <message>
+        <source>Surrounding &amp;Whitespace.</source>
+        <translation>Omgivenende &amp;blanktegn.</translation>
+    </message>
+    <message>
+        <source>Toggle the validity check of surrounding whitespace.</source>
+        <translation>Valideringstjek af omgivende blanktegn til/fra.</translation>
+    </message>
+    <message>
+        <source>Toggle the validity check of surrounding whitespace. If the check fails, a message is shown in the warnings window.</source>
+        <translation>Valideringstjek af omgivende blanktegn til/fra. Hvis tjekket fejler, vises en meddelelse i advarselsvinduet.</translation>
+    </message>
 </context>
 <context>
     <name>MessageEditor</name>
@@ -1338,7 +1354,7 @@ Linje: %2</translation>
     <name>MessageModel</name>
     <message>
         <source>Completion status for %1</source>
-        <translation>Fuldførselsstatus for %1</translation>
+        <translation>Færdiggørelsesstatus for %1</translation>
     </message>
     <message>
         <source>&lt;file header&gt;</source>
