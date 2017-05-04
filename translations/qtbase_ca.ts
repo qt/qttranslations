@@ -47,7 +47,7 @@
     </message>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>Operació no implementada en el sòcol</translation>
+        <translation>Operació no admesa en el sòcol</translation>
     </message>
     <message>
         <source>Host not found</source>
@@ -604,6 +604,25 @@ Premeu Esc per cancel·lar</translation>
     </message>
 </context>
 <context>
+    <name>QDateTimeParser</name>
+    <message>
+        <source>AM</source>
+        <translation>AM</translation>
+    </message>
+    <message>
+        <source>am</source>
+        <translation>am</translation>
+    </message>
+    <message>
+        <source>PM</source>
+        <translation>PM</translation>
+    </message>
+    <message>
+        <source>pm</source>
+        <translation>pm</translation>
+    </message>
+</context>
+<context>
     <name>QDialog</name>
     <message>
         <source>What&apos;s This?</source>
@@ -652,12 +671,16 @@ Premeu Esc per cancel·lar</translation>
 <context>
     <name>QDnsLookupRunnable</name>
     <message>
+        <source>IPv6 addresses for nameservers are currently not supported</source>
+        <translation>Actualment les adreces IPv6 no estan admeses pels servidors de noms</translation>
+    </message>
+    <message>
         <source>Invalid domain name</source>
         <translation>Nom de domini no vàlid</translation>
     </message>
     <message>
         <source>Not yet supported on Android</source>
-        <translation>Encara no està implementat a l&apos;Android</translation>
+        <translation>Encara no està admès a l&apos;Android</translation>
     </message>
     <message>
         <source>Resolver functions not found</source>
@@ -669,7 +692,7 @@ Premeu Esc per cancel·lar</translation>
     </message>
     <message>
         <source>IPv6 addresses for nameservers is currently not supported</source>
-        <translation>Actualment les adreces IPv6 no estan implementades pels servidors de noms</translation>
+        <translation>Actualment les adreces IPv6 no són admeses pels servidors de noms</translation>
     </message>
     <message>
         <source>Server could not process query</source>
@@ -729,7 +752,7 @@ Premeu Esc per cancel·lar</translation>
     </message>
     <message>
         <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
-        <translation>No s&apos;ha pogut carregar la biblioteca de resolució: No s&apos;ha implementat la càrrega de biblioteques en execució</translation>
+        <translation>No s&apos;ha pogut carregar la biblioteca de resolució: No s&apos;admet la càrrega de biblioteques en execució</translation>
     </message>
     <message>
         <source>No hostname given</source>
@@ -738,6 +761,14 @@ Premeu Esc per cancel·lar</translation>
     <message>
         <source>Invalid hostname</source>
         <translation>Nom d&apos;ordinador no vàlid</translation>
+    </message>
+    <message>
+        <source>Host %1 could not be found.</source>
+        <translation>No s&apos;ha pogut trobar l&apos;ordinador %1.</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>Error desconegut</translation>
     </message>
 </context>
 <context>
@@ -1062,6 +1093,11 @@ El voleu suprimir igualment?</translation>
         <source>Folder</source>
         <comment>All other platforms</comment>
         <translation>Carpeta</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <comment>OS X Finder</comment>
+        <translation>Àlies</translation>
     </message>
     <message>
         <source>Alias</source>
@@ -1573,6 +1609,14 @@ El voleu suprimir igualment?</translation>
         <source>SSL handshake failed</source>
         <translation>Ha fallat la conformitat de la connexió SSL</translation>
     </message>
+    <message>
+        <source>Too many redirects</source>
+        <translation>Massa redireccions</translation>
+    </message>
+    <message>
+        <source>Insecure redirect</source>
+        <translation>Redirecció insegura</translation>
+    </message>
 </context>
 <context>
     <name>QHttpSocketEngine</name>
@@ -1742,7 +1786,7 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>Unsupported image format</source>
-        <translation>Format d&apos;imatge no implementat</translation>
+        <translation>Format d&apos;imatge no admès</translation>
     </message>
     <message>
         <source>Unable to read image data</source>
@@ -1769,7 +1813,7 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>Unsupported image format</source>
-        <translation>Format d&apos;imatge no implementat</translation>
+        <translation>Format d&apos;imatge no admès</translation>
     </message>
 </context>
 <context>
@@ -1871,6 +1915,10 @@ El voleu suprimir igualment?</translation>
     <message>
         <source>Plugin verification data mismatch in &apos;%1&apos;</source>
         <translation>Error de verificació de dades del connector a «%1»</translation>
+    </message>
+    <message>
+        <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
+        <translation>Ha fallat en extreure les metadades del connector des de «%1»</translation>
     </message>
     <message>
         <source>The shared library was not found.</source>
@@ -2023,7 +2071,7 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>%1: The socket operation is not supported</source>
-        <translation>%1: Operació no implementada en el sòcol</translation>
+        <translation>%1: Operació no admesa en el sòcol</translation>
     </message>
     <message>
         <source>%1: Operation not permitted when socket is in this state</source>
@@ -2048,6 +2096,10 @@ El voleu suprimir igualment?</translation>
 </context>
 <context>
     <name>QMYSQLDriver</name>
+    <message>
+        <source>Unable to allocate a MYSQL object</source>
+        <translation>No s&apos;ha pogut assignar un objecte MYSQL</translation>
+    </message>
     <message>
         <source>Unable to open database &apos;%1&apos;</source>
         <translation>No s&apos;ha pogut obrir la base de dades «%1»</translation>
@@ -2209,6 +2261,10 @@ El voleu suprimir igualment?</translation>
         <translation>Oculta els detalls...</translation>
     </message>
     <message>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Les Qt són un conjunt d&apos;eines C++ pel desenvolupament d&apos;aplicacions multiplataforma.&lt;/p&gt;&lt;p&gt;Les Qt proporcionen portabilitat amb un codi font únic entre els principals sistemes operatius. Les Qt també són disponibles per a Linux incrustat i sistemes operatius incrustats i mòbils.&lt;/p&gt;&lt;p&gt;Les Qt estan disponibles en tres opcions de llicència diferents dissenyades per adaptar-se a les necessitats dels diversos usuaris.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota el nostre acord de llicència comercial són apropiades per al desenvolupament de programari propietari/comercial a on no voleu compartir cap codi font amb terceres parts o no podeu complir amb els termes de la versió 3 de la LGPL de la GNU.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota la versió 3 de la LGPL de la GNU són apropiades per al desenvolupament d&apos;aplicacions Qt quan podeu complir amb els termes i condicions de la versió 3 de la LGPL de la GNU.&lt;/p&gt;&lt;p&gt;Si us plau, vegeu a &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; un resum de les llicències de les Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd i altres col·laboradors.&lt;/p&gt;&lt;p&gt;Les Qt i el logotip de les Qt són marques comercials de The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Les Qt són un producte de The Qt Company Ltd desenvolupat com un projecte de codi font obert. Vegeu &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; per a més informació.&lt;/p&gt;</translation>
+    </message>
+    <message>
         <source>OK</source>
         <translation>D&apos;acord</translation>
     </message>
@@ -2250,7 +2306,7 @@ applications where you wish to use such applications in combination with softwar
     </message>
     <message>
         <source>Attempt to use IPv6 socket on a platform with no IPv6 support</source>
-        <translation>S&apos;intenta usar un sòcol IPv6 en una plataforma que no implementa IPv6</translation>
+        <translation>S&apos;intenta usar un sòcol IPv6 en una plataforma que no admet IPv6</translation>
     </message>
     <message>
         <source>The remote host closed the connection</source>
@@ -2266,11 +2322,11 @@ applications where you wish to use such applications in combination with softwar
     </message>
     <message>
         <source>Unsupported socket operation</source>
-        <translation>Operació de sòcol no implementada</translation>
+        <translation>Operació de sòcol no admesa</translation>
     </message>
     <message>
         <source>Protocol type not supported</source>
-        <translation>Tipus de protocol no implementat</translation>
+        <translation>Tipus de protocol no admès</translation>
     </message>
     <message>
         <source>Invalid socket descriptor</source>
@@ -2343,6 +2399,14 @@ applications where you wish to use such applications in combination with softwar
     <message>
         <source>Temporary error</source>
         <translation>Error temporal</translation>
+    </message>
+    <message>
+        <source>Network dropped connection on reset</source>
+        <translation>La xarxa ha tallat la connexió per un reinici</translation>
+    </message>
+    <message>
+        <source>Connection reset by peer</source>
+        <translation>La màquina remota ha reiniciat la connexió</translation>
     </message>
     <message>
         <source>Unknown error</source>
@@ -2457,6 +2521,10 @@ applications where you wish to use such applications in combination with softwar
         <source>Protocol &quot;%1&quot; is unknown</source>
         <translation>El protocol «%1» és desconegut</translation>
     </message>
+    <message>
+        <source>Error transferring %1 - server replied: %2</source>
+        <translation>Error en transferir %1 - el servidor ha replicat: %2</translation>
+    </message>
 </context>
 <context>
     <name>QNetworkReplyHttpImpl</name>
@@ -2495,7 +2563,7 @@ applications where you wish to use such applications in combination with softwar
     </message>
     <message>
         <source>The requested operation is not supported by the system.</source>
-        <translation>L&apos;operació sol·licitada no està implementada en el sistema.</translation>
+        <translation>L&apos;operació sol·licitada no està admesa pel sistema.</translation>
     </message>
     <message>
         <source>The specified configuration cannot be used.</source>
@@ -2573,7 +2641,7 @@ applications where you wish to use such applications in combination with softwar
     </message>
     <message>
         <source>Unable to connect - Driver doesn&apos;t support all functionality required</source>
-        <translation>No s&apos;ha pogut connectar - El controlador no implementa totes les funcionalitats requerides</translation>
+        <translation>No s&apos;ha pogut connectar - El controlador no admet totes les funcionalitats requerides</translation>
     </message>
     <message>
         <source>Unable to disable autocommit</source>
@@ -3591,6 +3659,10 @@ Desactiveu una de les dues opcions.</translation>
 <context>
     <name>QPrintPropertiesDialog</name>
     <message>
+        <source>Printer Properties</source>
+        <translation>Propietats de la impressora</translation>
+    </message>
+    <message>
         <source>Job Options</source>
         <translation>Opcions del treball</translation>
     </message>
@@ -3734,6 +3806,10 @@ Desactiveu una de les dues opcions.</translation>
 </context>
 <context>
     <name>QProcess</name>
+    <message>
+        <source>Process failed to start</source>
+        <translation>El procés ha fallat en iniciar</translation>
+    </message>
     <message>
         <source>Error reading from process</source>
         <translation>Error en llegir des del procés</translation>
@@ -4342,6 +4418,13 @@ Desactiveu una de les dues opcions.</translation>
     <message>
         <source>Scroll down</source>
         <translation>Desplaça avall</translation>
+    </message>
+</context>
+<context>
+    <name>QSctpSocket</name>
+    <message>
+        <source>The remote host closed the connection</source>
+        <translation>L&apos;ordinador remot ha tancat la connexió</translation>
     </message>
 </context>
 <context>
@@ -5472,11 +5555,11 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>SOCKSv5 command not supported</source>
-        <translation>Ordre SOCKSv5 no implementada</translation>
+        <translation>Ordre SOCKSv5 no admesa</translation>
     </message>
     <message>
         <source>Address type not supported</source>
-        <translation>Tipus d&apos;accés no implementat</translation>
+        <translation>Tipus d&apos;accés no admès</translation>
     </message>
     <message>
         <source>Unknown SOCKSv5 proxy error code 0x%1</source>
@@ -5853,6 +5936,21 @@ Role of an accessible object</extracomment>
     </message>
 </context>
 <context>
+    <name>QSslDiffieHellmanParameter</name>
+    <message>
+        <source>No error</source>
+        <translation>Sense error</translation>
+    </message>
+    <message>
+        <source>Invalid input data</source>
+        <translation>Dades d&apos;entrada no vàlides</translation>
+    </message>
+    <message>
+        <source>The given Diffie-Hellman parameters are deemed unsafe</source>
+        <translation>Els paràmetres del Diffie-Hellman indicats es consideren insegurs</translation>
+    </message>
+</context>
+<context>
     <name>QSslSocket</name>
     <message>
         <source>Error when setting the elliptic curves (%1)</source>
@@ -5864,7 +5962,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>unsupported protocol</source>
-        <translation>protocol no implementat</translation>
+        <translation>protocol no admès</translation>
     </message>
     <message>
         <source>Invalid or empty cipher list (%1)</source>
@@ -5885,6 +5983,10 @@ Role of an accessible object</extracomment>
     <message>
         <source>Private key does not certify public key, %1</source>
         <translation>La clau privada no certifica la clau pública, %1</translation>
+    </message>
+    <message>
+        <source>Diffie-Hellman parameters are not valid</source>
+        <translation>Els paràmetres del Diffie-Hellman no són vàlids</translation>
     </message>
     <message>
         <source>OpenSSL version too old, need at least v1.0.2</source>
@@ -6162,7 +6264,7 @@ Role of an accessible object</extracomment>
     <name>QTcpServer</name>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>Operació no implementada en el sòcol</translation>
+        <translation>Operació no admesa pel sòcol</translation>
     </message>
 </context>
 <context>
@@ -6173,7 +6275,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>Sequential device (eg socket) for image read not supported</source>
-        <translation>No s&apos;ha implementat cap dispositiu seqüencial (p. ex. sòcol) per llegir una imatge</translation>
+        <translation>No s&apos;admet cap dispositiu seqüencial (p. ex. sòcol) per llegir una imatge</translation>
     </message>
     <message>
         <source>Seek file/device for image read failed</source>
@@ -6185,7 +6287,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>Image type not supported</source>
-        <translation>Tipus d&apos;imatge no implementat</translation>
+        <translation>Tipus d&apos;imatge no admès</translation>
     </message>
     <message>
         <source>Image depth not valid</source>
@@ -6201,11 +6303,22 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>Image type (non-TrueVision 2.0) not supported</source>
-        <translation>Tipus d&apos;imatge no implementat (no és TrueVision 2.0)</translation>
+        <translation>Tipus d&apos;imatge no admès (no és TrueVision 2.0)</translation>
     </message>
     <message>
         <source>Could not reset to read data</source>
         <translation>No s&apos;ha pogut reiniciar la lectura de les dades</translation>
+    </message>
+</context>
+<context>
+    <name>QUdpSocket</name>
+    <message>
+        <source>Unable to send a datagram</source>
+        <translation>No s&apos;ha pogut enviar un datagrama</translation>
+    </message>
+    <message>
+        <source>No datagram available for reading</source>
+        <translation>No hi ha cap datagrama disponible per llegir</translation>
     </message>
 </context>
 <context>
@@ -6574,7 +6687,7 @@ La versió mínima requerida del Direct2D és %1.%2.%3.%4. La versió del Direct
     </message>
     <message>
         <source>Unsupported XML version.</source>
-        <translation>Versió no implementada de l&apos;XML.</translation>
+        <translation>Versió no admesa de l&apos;XML.</translation>
     </message>
     <message>
         <source>The standalone pseudo attribute must appear after the encoding.</source>
@@ -6586,7 +6699,7 @@ La versió mínima requerida del Direct2D és %1.%2.%3.%4. La versió del Direct
     </message>
     <message>
         <source>Encoding %1 is unsupported</source>
-        <translation>La codificació %1 no està implementada</translation>
+        <translation>La codificació %1 no està admesa</translation>
     </message>
     <message>
         <source>Standalone accepts only yes or no.</source>
