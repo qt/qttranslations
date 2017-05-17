@@ -2,29 +2,6 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="pl">
 <context>
-    <name>QCLuceneResultWidget</name>
-    <message>
-        <source>Search Results</source>
-        <translation>Wyniki wyszukiwania</translation>
-    </message>
-    <message>
-        <source>Note:</source>
-        <translation>Uwaga:</translation>
-    </message>
-    <message>
-        <source>The search results may not be complete since the documentation is still being indexed.</source>
-        <translation>Wyniki wyszukiwania mogą być niekompletne, ponieważ dokumentacja jest wciąż indeksowana.</translation>
-    </message>
-    <message>
-        <source>Your search did not match any documents.</source>
-        <translation>Nie znaleziono żadnych pasujących dokumentów.</translation>
-    </message>
-    <message>
-        <source>(The reason for this might be that the documentation is still being indexed.)</source>
-        <translation>(Może to być spowodowane tym że dokumentacja jest wciąż indeksowana.)</translation>
-    </message>
-</context>
-<context>
     <name>QHelp</name>
     <message>
         <source>Untitled</source>
@@ -99,7 +76,7 @@
     <message>
         <source>Cannot open database &apos;%1&apos; &apos;%2&apos;: %3</source>
         <extracomment>The placeholders are: %1 - The name of the database which cannot be opened %2 - The unique id for the connection %3 - The actual error string</extracomment>
-        <translation>Nie można otworzyć bazy danych &apos;%1&apos; &apos;%2&apos;: %3</translation>
+        <translation>Nie można otworzyć bazy danych &quot;%1&quot; &quot;%2&quot;: %3</translation>
     </message>
 </context>
 <context>
@@ -201,7 +178,7 @@
     </message>
     <message>
         <source>File &apos;%1&apos; does not exist.</source>
-        <translation>Plik %1 nie istnieje.</translation>
+        <translation>Plik &quot;%1&quot; nie istnieje.</translation>
     </message>
     <message>
         <source>File &apos;%1&apos; cannot be opened.</source>
@@ -209,7 +186,7 @@
     </message>
     <message>
         <source>File &apos;%1&apos; contains an invalid link to file &apos;%2&apos;</source>
-        <translation>Plik &quot;%1&quot; zawiera niepoprawny odnośnik do pliku &quot;%2&quot;</translation>
+        <translation>Plik &quot;%1&quot; zawiera niepoprawne odwołanie do pliku &quot;%2&quot;</translation>
     </message>
     <message>
         <source>Invalid links in HTML files.</source>
@@ -269,30 +246,6 @@
         <source>Search</source>
         <translation>Wyszukaj</translation>
     </message>
-    <message>
-        <source>Advanced search</source>
-        <translation>Wyszukiwanie zaawansowane</translation>
-    </message>
-    <message>
-        <source>words &lt;B&gt;similar&lt;/B&gt; to:</source>
-        <translation>słowa &lt;B&gt;podobne&lt;/B&gt; do:</translation>
-    </message>
-    <message>
-        <source>&lt;B&gt;without&lt;/B&gt; the words:</source>
-        <translation>&lt;B&gt;bez&lt;/B&gt; słów:</translation>
-    </message>
-    <message>
-        <source>with &lt;B&gt;exact phrase&lt;/B&gt;:</source>
-        <translation>z &lt;B&gt;dokładnym wyrażeniem&lt;/B&gt;:</translation>
-    </message>
-    <message>
-        <source>with &lt;B&gt;all&lt;/B&gt; of the words:</source>
-        <translation>ze &lt;B&gt;wszystkimi&lt;/B&gt; słowami:</translation>
-    </message>
-    <message>
-        <source>with &lt;B&gt;at least one&lt;/B&gt; of the words:</source>
-        <translation>z &lt;B&gt;przynajmniej jednym&lt;/B&gt; ze słów:</translation>
-    </message>
 </context>
 <context>
     <name>QHelpSearchResultWidget</name>
@@ -307,6 +260,36 @@
     <message>
         <source>0 - 0 of 0 Hits</source>
         <translation>0 - 0 z 0 Trafień</translation>
+    </message>
+</context>
+<context>
+    <name>QResultWidget</name>
+    <message>
+        <source>Search Results</source>
+        <translation>Wyniki wyszukiwania</translation>
+    </message>
+    <message>
+        <source>Note:</source>
+        <translation>Uwaga:</translation>
+    </message>
+    <message>
+        <source>The search results may not be complete since the documentation is still being indexed.</source>
+        <translation>Wyniki wyszukiwania mogą być niekompletne, ponieważ dokumentacja jest wciąż indeksowana.</translation>
+    </message>
+    <message>
+        <source>Your search did not match any documents.</source>
+        <translation>Nie znaleziono żadnych pasujących dokumentów.</translation>
+    </message>
+    <message>
+        <source>(The reason for this might be that the documentation is still being indexed.)</source>
+        <translation>(Może to być spowodowane tym, że dokumentacja jest wciąż indeksowana.)</translation>
+    </message>
+</context>
+<context>
+    <name>fulltextsearch::qt::QHelpSearchIndexWriter</name>
+    <message>
+        <source>Cannot open database &quot;%1&quot; using connection &quot;%2&quot;: %3</source>
+        <translation>Nie można otworzyć bazy danych &quot;%1&quot; używając połączenia &quot;%2&quot;: %3</translation>
     </message>
 </context>
 </TS>

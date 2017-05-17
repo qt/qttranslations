@@ -36,6 +36,10 @@ Odwiedź stronę https://developers.arcgis.com/authentication/accessing-arcgis-o
         <translation>Błąd planowania trasy, brak managera planowania trasy.</translation>
     </message>
     <message>
+        <source>Cannot route, valid query not set.</source>
+        <translation>Błąd planowania trasy, brak poprawnego zapytania.</translation>
+    </message>
+    <message>
         <source>Not enough waypoints for routing.</source>
         <translation>Za mało punktów odniesienia do wyznaczenia trasy.</translation>
     </message>
@@ -57,6 +61,67 @@ Odwiedź stronę https://developers.arcgis.com/authentication/accessing-arcgis-o
     <message>
         <source>Plugin does not support (reverse) geocoding.</source>
         <translation>Wtyczka nie obsługuje odwrotnego geokodowania.</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoMapMapboxGL</name>
+    <message>
+        <source>Development access token, do not use in production!</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QGeoMappingManagerEngineItemsOverlay</name>
+    <message>
+        <source>Empty Map</source>
+        <translation>Pusta mapa</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoMappingManagerEngineMapboxGL</name>
+    <message>
+        <source>Streets</source>
+        <translation>Ulice</translation>
+    </message>
+    <message>
+        <source>Basic</source>
+        <translation>Podstawowa</translation>
+    </message>
+    <message>
+        <source>Bright</source>
+        <translation>Jasna</translation>
+    </message>
+    <message>
+        <source>Outdoors</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Satellite</source>
+        <translation>Satelita</translation>
+    </message>
+    <message>
+        <source>Satellite Streets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Light</source>
+        <translation>Dzienna</translation>
+    </message>
+    <message>
+        <source>Dark</source>
+        <translation>Nocna</translation>
+    </message>
+    <message>
+        <source>Streets Traffic Day</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Streets Traffic Night</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User provided style</source>
+        <translation>Własny styl</translation>
     </message>
 </context>
 <context>
@@ -242,7 +307,7 @@ Odwiedź stronę https://developers.arcgis.com/authentication/accessing-arcgis-o
     <name>QGeoRouteParserOsrmV5</name>
     <message>
         <source>North</source>
-        <extracomment>Always used in &quot;Head %1 [onto &lt;street name&gt;]&quot;</extracomment>
+        <extracomment>Translations exist at https://github.com/Project-OSRM/osrm-text-instructions. Always used in &quot;Head %1 [onto &lt;street name&gt;]&quot;</extracomment>
         <translation>na północ</translation>
     </message>
     <message>
@@ -664,12 +729,16 @@ Odwiedź stronę https://developers.arcgis.com/authentication/accessing-arcgis-o
         <translation>Skieruj się na prawo na %1</translation>
     </message>
     <message>
-        <source>Contine slightly right</source>
-        <translation>Kontynuuj lekko na prawo</translation>
+        <source>Continue slightly right onto %1</source>
+        <translation>Kontynuuj lekko na prawo na %1</translation>
     </message>
     <message>
-        <source>Contine slightly right onto %1</source>
-        <translation>Kontynuuj lekko na prawo na %1</translation>
+        <source>Continue on the right</source>
+        <translation>Kontynuuj po prawej</translation>
+    </message>
+    <message>
+        <source>Continue on the right on %1</source>
+        <translation>Kontynuuj po prawej do %1</translation>
     </message>
     <message>
         <source>Continue straight onto %1</source>
@@ -686,14 +755,6 @@ Odwiedź stronę https://developers.arcgis.com/authentication/accessing-arcgis-o
     <message>
         <source>Continue on the left on %1</source>
         <translation>Kontynuuj po lewej do %1</translation>
-    </message>
-    <message>
-        <source>Contine on the right</source>
-        <translation>Kontynuuj po prawej</translation>
-    </message>
-    <message>
-        <source>Contine on the right on %1</source>
-        <translation>Kontynuuj po prawej do %1</translation>
     </message>
     <message>
         <source>Take the ramp on the left</source>
@@ -780,6 +841,10 @@ Odwiedź stronę https://developers.arcgis.com/authentication/accessing-arcgis-o
     <message>
         <source>Take the train</source>
         <translation>Wsiądź do pociągu</translation>
+    </message>
+    <message>
+        <source>Take the train [%1]</source>
+        <translation>Wsiądź do pociągu [%1]</translation>
     </message>
     <message>
         <source>Go straight</source>
@@ -899,27 +964,27 @@ Odwiedź stronę https://www.mapbox.com</translation>
     <message>
         <source>Street</source>
         <extracomment>Noun describing map type &apos;Street map&apos;</extracomment>
-        <translation>Ulica</translation>
+        <translation>Mapa ulic</translation>
     </message>
     <message>
         <source>Light</source>
         <extracomment>Noun describing type of a map using light colors (weak contrast)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Mapa dzienna</translation>
     </message>
     <message>
         <source>Dark</source>
         <extracomment>Noun describing type of a map using dark colors</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Mapa nocna</translation>
     </message>
     <message>
         <source>Satellite</source>
         <extracomment>Noun describing type of a map created by satellite</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Mapa satelitarna</translation>
     </message>
     <message>
         <source>Streets Satellite</source>
         <extracomment>Noun describing type of a street map created by satellite</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Mapa satelitarna ulic</translation>
     </message>
     <message>
         <source>Wheatpaste</source>
@@ -929,12 +994,12 @@ Odwiedź stronę https://www.mapbox.com</translation>
     <message>
         <source>Streets Basic</source>
         <extracomment>Noun describing type of a basic street map</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Podstawowa mapa ulic</translation>
     </message>
     <message>
         <source>Comic</source>
         <extracomment>Noun describing type of a map using cartoon-style fonts</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Komiks</translation>
     </message>
     <message>
         <source>Outdoors</source>
@@ -944,7 +1009,7 @@ Odwiedź stronę https://www.mapbox.com</translation>
     <message>
         <source>Run Bike Hike</source>
         <extracomment>Noun describing type of a map for sports</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Mapy sportowe</translation>
     </message>
     <message>
         <source>Pencil</source>
@@ -1266,10 +1331,6 @@ Odwiedź stronę https://www.mapbox.com</translation>
 </context>
 <context>
     <name>QPlaceSearchReplyOsm</name>
-    <message>
-        <source>Communication error</source>
-        <translation>Błąd komunikacji</translation>
-    </message>
     <message>
         <source>Response parse error</source>
         <translation>Błąd parsowania odpowiedzi</translation>
