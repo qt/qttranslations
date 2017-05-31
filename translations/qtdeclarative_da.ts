@@ -409,6 +409,10 @@
         <translation>SQL: kan ikke oprette database, offline-lager deaktiveret.</translation>
     </message>
     <message>
+        <source>LocalStorage: can&apos;t create path %1</source>
+        <translation>LocalStorage: kan ikke oprette sti %1</translation>
+    </message>
+    <message>
         <source>SQL: database version mismatch</source>
         <translation>SQL: uoverensstemmelse i database-version</translation>
     </message>
@@ -481,10 +485,6 @@
     <message>
         <source>module &quot;%1&quot; plugin &quot;%2&quot; not found</source>
         <translation>modul &quot;%1&quot; plugin &quot;%2&quot; ikke fundet</translation>
-    </message>
-    <message>
-        <source>library loading is disabled</source>
-        <translation>indlæsning af bibliotek er deaktiveret</translation>
     </message>
     <message>
         <source>&quot;%1&quot; version %2.%3 is defined more than once in module &quot;%4&quot;</source>
@@ -1077,6 +1077,10 @@
         <translation>qmldir definerer type som singleton, men ingen pragma singleton fundet i type %1.</translation>
     </message>
     <message>
+        <source>No such file or directory</source>
+        <translation>Ingen sådan fil eller mappe</translation>
+    </message>
+    <message>
         <source>module &quot;%1&quot; is not installed</source>
         <translation>modul &quot;%1&quot; er ikke installeret</translation>
     </message>
@@ -1417,6 +1421,13 @@
     <message>
         <source>Could not load cursor delegate</source>
         <translation>Kunne ikke indlæse markør-delegat</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickTouchPoint</name>
+    <message>
+        <source>PointingDeviceUniqueId is only available via read-only properties</source>
+        <translation>PointingDeviceUniqueId er kun tilgængelig via skrivebeskyttede egenskaber</translation>
     </message>
 </context>
 <context>

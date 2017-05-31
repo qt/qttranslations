@@ -32,10 +32,6 @@
         <translation>Fejl ved registrering af dokumentationsfilen &apos;%1&apos;: %2</translation>
     </message>
     <message>
-        <source>Error: %1</source>
-        <translation>Fejl: %1</translation>
-    </message>
-    <message>
         <source>Could not register documentation file
 %1
 
@@ -321,7 +317,9 @@ Reason:
                            file.
 -setCurrentFilter filter   Set the filter as the active filter.
 -remove-search-index       Removes the full text search index.
--rebuild-search-index      Re-builds the full text search index (potentially slow).
+-rebuild-search-index      Obsolete. Use -remove-search-index instead.
+                           Removes the full text search index.
+                           It will be rebuilt on next Assistant run.
 -quiet                     Does not display any error or
                            status message.
 -help                      Displays this help.
@@ -347,8 +345,9 @@ Reason:
                            (.qch) fra den angivne samlingsfil.
 -setCurrentFilter filter   Sæt filteret som det aktive filter.
 -remove-search-index       Fjerner fuldtekst-søgeindekset.
--rebuild-search-index      Genopbygger fuldtekst-søgeindekset
-                           (kan tage lang tid).
+-rebuild-search-index      Forældet. Brug i stedet -remove-search-index.
+                           Fjerner fuld tekst-søgeindekset.
+                           Det vil blive bygget igen næste gang Assistant køres.
 -quiet                     Viser ingen fejl eller statusmeddelelser.
 -help                      Viser denne hjælp.
 </translation>

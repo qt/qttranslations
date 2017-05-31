@@ -277,13 +277,6 @@
     </message>
 </context>
 <context>
-    <name>QGstreamerAudioEncode</name>
-    <message>
-        <source>Raw PCM audio</source>
-        <translation>Rå PCM-lyd</translation>
-    </message>
-</context>
-<context>
     <name>QGstreamerAudioInputSelector</name>
     <message>
         <source>System default device</source>
@@ -338,10 +331,6 @@
     <message>
         <source>UDP source timeout</source>
         <translation>UDP-kilde fik timeout</translation>
-    </message>
-    <message>
-        <source>Media is loaded as a playlist</source>
-        <translation>Mediet er indlæst som en spilleliste</translation>
     </message>
 </context>
 <context>
@@ -436,6 +425,10 @@
     <message>
         <source>invalid line in playlist file</source>
         <translation>ugyldig linje i spillelistefilen</translation>
+    </message>
+    <message>
+        <source>Invalid stream</source>
+        <translation>Ugyldig strøm</translation>
     </message>
     <message>
         <source>Empty file provided</source>
