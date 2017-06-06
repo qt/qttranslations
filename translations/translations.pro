@@ -110,7 +110,7 @@ updateqm.commands = $$LRELEASE ${QMAKE_FILE_IN} -qm ${QMAKE_FILE_OUT}
 silent:updateqm.commands = @echo lrelease ${QMAKE_FILE_IN} && $$updateqm.commands
 updateqm.depends = $$LRELEASE_EXE
 updateqm.name = LRELEASE ${QMAKE_FILE_IN}
-updateqm.CONFIG += no_link target_predeps
+updateqm.CONFIG += no_link no_clean target_predeps
 QMAKE_EXTRA_COMPILERS += updateqm
 
 # generate empty _en.ts files
@@ -130,3 +130,5 @@ translations.files ~= s,^$$re_escape($$OUT_PWD),,g
 translations.files ~= s,^,$$MODULE_BASE_OUTDIR/translations/,g
 translations.CONFIG += no_check_exist
 INSTALLS += translations
+
+QMAKE_DISTCLEAN += $$translations.files
