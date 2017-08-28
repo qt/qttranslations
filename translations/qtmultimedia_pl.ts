@@ -20,122 +20,6 @@
     </message>
 </context>
 <context>
-    <name>BbCameraAudioEncoderSettingsControl</name>
-    <message>
-        <source>No compression</source>
-        <translation>Brak kompresji</translation>
-    </message>
-    <message>
-        <source>AAC compression</source>
-        <translation>Kompresja AAC</translation>
-    </message>
-    <message>
-        <source>PCM uncompressed</source>
-        <translation>Nieskompresowane PCM</translation>
-    </message>
-</context>
-<context>
-    <name>BbCameraMediaRecorderControl</name>
-    <message>
-        <source>Unable to retrieve mute status</source>
-        <translation>Nie można uzyskać informacji o stanie wyciszenia głosu</translation>
-    </message>
-    <message>
-        <source>Unable to retrieve audio input volume</source>
-        <translation>Nie można uzyskać informacji o wejściowej sile głosu</translation>
-    </message>
-    <message>
-        <source>Unable to set mute status</source>
-        <translation>Nie można ustawić stanu wyciszenia głosu</translation>
-    </message>
-    <message>
-        <source>Unable to set audio input volume</source>
-        <translation>Nie można ustawić wejściowej siły głosu</translation>
-    </message>
-</context>
-<context>
-    <name>BbCameraSession</name>
-    <message>
-        <source>Camera provides image in unsupported format</source>
-        <translation>Kamera dostarcza obrazy w nieobsługiwanym formacie</translation>
-    </message>
-    <message>
-        <source>Could not load JPEG data from frame</source>
-        <translation>Nie można załadować danych JPEG z ramki</translation>
-    </message>
-    <message>
-        <source>Camera not ready</source>
-        <translation>Kamera nie jest gotowa</translation>
-    </message>
-    <message>
-        <source>Unable to apply video settings</source>
-        <translation>Nie można zastosować ustawień wideo</translation>
-    </message>
-    <message>
-        <source>Could not open destination file:
-%1</source>
-        <translation>Nie można otworzyć docelowego pliku:
-%1</translation>
-    </message>
-    <message>
-        <source>Unable to open camera</source>
-        <translation>Nie można otworzyć kamery</translation>
-    </message>
-    <message>
-        <source>Unable to retrieve native camera orientation</source>
-        <translation>Nie można uzyskać informacji o orientacji kamery</translation>
-    </message>
-    <message>
-        <source>Unable to close camera</source>
-        <translation>Nie można zamknąć kamery</translation>
-    </message>
-    <message>
-        <source>Unable to start video recording</source>
-        <translation>Nie można rozpocząć nagrywania wideo</translation>
-    </message>
-    <message>
-        <source>Unable to stop video recording</source>
-        <translation>Nie można zatrzymać nagrywania wideo</translation>
-    </message>
-</context>
-<context>
-    <name>BbCameraVideoEncoderSettingsControl</name>
-    <message>
-        <source>No compression</source>
-        <translation>Brak kompresji</translation>
-    </message>
-    <message>
-        <source>AVC1 compression</source>
-        <translation>Kompresja AVC1</translation>
-    </message>
-    <message>
-        <source>H264 compression</source>
-        <translation>Kompresja H264</translation>
-    </message>
-</context>
-<context>
-    <name>BbImageEncoderControl</name>
-    <message>
-        <source>JPEG image</source>
-        <translation>Obraz JPEG</translation>
-    </message>
-</context>
-<context>
-    <name>BbVideoDeviceSelectorControl</name>
-    <message>
-        <source>Front Camera</source>
-        <translation>Przednia kamera</translation>
-    </message>
-    <message>
-        <source>Rear Camera</source>
-        <translation>Tylna kamera</translation>
-    </message>
-    <message>
-        <source>Desktop Camera</source>
-        <translation>Desktopowa kamera</translation>
-    </message>
-</context>
-<context>
     <name>CameraBinImageCapture</name>
     <message>
         <source>Camera not ready</source>
@@ -368,7 +252,7 @@
     <name>QCamera</name>
     <message>
         <source>The camera service is missing</source>
-        <translation type="unfinished"></translation>
+        <translation>Brak serwisu obsługującego kamerę</translation>
     </message>
 </context>
 <context>
@@ -390,13 +274,6 @@
     <message>
         <source>Cannot play stream of type: &lt;unknown&gt;</source>
         <translation>Nie można odtworzyć strumienia typu: &lt;unknown&gt;</translation>
-    </message>
-</context>
-<context>
-    <name>QGstreamerAudioEncode</name>
-    <message>
-        <source>Raw PCM audio</source>
-        <translation>Surowe dane dźwiękowe PCM</translation>
     </message>
 </context>
 <context>
@@ -454,10 +331,6 @@
     <message>
         <source>UDP source timeout</source>
         <translation>Przekroczony czas oczekiwania na źródło UDP</translation>
-    </message>
-    <message>
-        <source>Media is loaded as a playlist</source>
-        <translation>Multimedia załadowane jako lista odtwarzania</translation>
     </message>
 </context>
 <context>
@@ -552,6 +425,10 @@
     <message>
         <source>invalid line in playlist file</source>
         <translation>niepoprawna linia w pliku z listą odtwarzania</translation>
+    </message>
+    <message>
+        <source>Invalid stream</source>
+        <translation>Niepoprawny strumień</translation>
     </message>
     <message>
         <source>Empty file provided</source>

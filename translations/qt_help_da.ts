@@ -2,29 +2,6 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="da">
 <context>
-    <name>QCLuceneResultWidget</name>
-    <message>
-        <source>Search Results</source>
-        <translation>Søgeresultater</translation>
-    </message>
-    <message>
-        <source>Note:</source>
-        <translation>Bemærk:</translation>
-    </message>
-    <message>
-        <source>The search results may not be complete since the documentation is still being indexed.</source>
-        <translation>Søgeresultaterne kan være ufuldstændige, eftersom dokumentationen er ved at blive indekseret.</translation>
-    </message>
-    <message>
-        <source>Your search did not match any documents.</source>
-        <translation>Din søgning matchede ikke nogen dokumenter.</translation>
-    </message>
-    <message>
-        <source>(The reason for this might be that the documentation is still being indexed.)</source>
-        <translation>(årsagen til dette kan være, at dokumentationen er ved at blive indekseret).</translation>
-    </message>
-</context>
-<context>
     <name>QHelp</name>
     <message>
         <source>Untitled</source>
@@ -70,12 +47,12 @@
         <translation>Kan ikke registrere filteret %1.</translation>
     </message>
     <message>
-        <source>Insert indices...</source>
-        <translation>Indsæt indekser...</translation>
+        <source>Cannot open documentation file %1.</source>
+        <translation>Kan ikke åbne dokumentationsfilen %1.</translation>
     </message>
     <message>
-        <source>Insert contents...</source>
-        <translation>Indsæt indhold...</translation>
+        <source>Invalid documentation file &apos;%1&apos;.</source>
+        <translation>Ugyldig dokumentationsfil &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>The namespace %1 was not registered.</source>
@@ -269,30 +246,6 @@
         <source>Search</source>
         <translation>Søg</translation>
     </message>
-    <message>
-        <source>Advanced search</source>
-        <translation>Avanceret søgning</translation>
-    </message>
-    <message>
-        <source>words &lt;B&gt;similar&lt;/B&gt; to:</source>
-        <translation>ord som &lt;B&gt;ligner&lt;/B&gt;:</translation>
-    </message>
-    <message>
-        <source>&lt;B&gt;without&lt;/B&gt; the words:</source>
-        <translation>&lt;B&gt;uden&lt;/B&gt; ordene:</translation>
-    </message>
-    <message>
-        <source>with &lt;B&gt;exact phrase&lt;/B&gt;:</source>
-        <translation>med &lt;B&gt;denne sætning&lt;/B&gt;:</translation>
-    </message>
-    <message>
-        <source>with &lt;B&gt;all&lt;/B&gt; of the words:</source>
-        <translation>med &lt;B&gt;alle&lt;/B&gt; ordene:</translation>
-    </message>
-    <message>
-        <source>with &lt;B&gt;at least one&lt;/B&gt; of the words:</source>
-        <translation>med &lt;B&gt;mindst ét&lt;/B&gt; af ordene:</translation>
-    </message>
 </context>
 <context>
     <name>QHelpSearchResultWidget</name>
@@ -306,6 +259,36 @@
     <message>
         <source>0 - 0 of 0 Hits</source>
         <translation>0 - 0 af 0 træf</translation>
+    </message>
+</context>
+<context>
+    <name>QResultWidget</name>
+    <message>
+        <source>Search Results</source>
+        <translation>Søgeresultater</translation>
+    </message>
+    <message>
+        <source>Note:</source>
+        <translation>Bemærk:</translation>
+    </message>
+    <message>
+        <source>The search results may not be complete since the documentation is still being indexed.</source>
+        <translation>Søgeresultaterne kan være ufuldstændige, eftersom dokumentationen er ved at blive indekseret.</translation>
+    </message>
+    <message>
+        <source>Your search did not match any documents.</source>
+        <translation>Din søgning matchede ikke nogen dokumenter.</translation>
+    </message>
+    <message>
+        <source>(The reason for this might be that the documentation is still being indexed.)</source>
+        <translation>(årsagen til dette kan være, at dokumentationen er ved at blive indekseret).</translation>
+    </message>
+</context>
+<context>
+    <name>fulltextsearch::qt::QHelpSearchIndexWriter</name>
+    <message>
+        <source>Cannot open database &quot;%1&quot; using connection &quot;%2&quot;: %3</source>
+        <translation>Kan ikke åbne database &quot;%1&quot; ved brug af forbindelse &quot;%2&quot;: %3</translation>
     </message>
 </context>
 </TS>

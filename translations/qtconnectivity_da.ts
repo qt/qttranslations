@@ -40,6 +40,10 @@
         <translation>Ugyldig Bluetooth-adaptor-adresse</translation>
     </message>
     <message>
+        <source>One or more device discovery methods are not supported on this platform</source>
+        <translation>En eller flere metoder til opdagelse af enhed understøttes ikke på denne platform</translation>
+    </message>
+    <message>
         <source>Device does not support Bluetooth</source>
         <translation>Enhed understøtter ikke Bluetooth</translation>
     </message>
@@ -48,8 +52,16 @@
         <translation>Videregivet adresse er ikke en lokal enhed.</translation>
     </message>
     <message>
-        <source>Discovery cannot be started</source>
-        <translation>Opdagelse kan ikke startes</translation>
+        <source>Missing Location permission. Search is not possible</source>
+        <translation>Manglende placeringstilladelse. Søgning er ikke mulig</translation>
+    </message>
+    <message>
+        <source>Classic Discovery cannot be started</source>
+        <translation>Klassisk opdagelse kan ikke startes</translation>
+    </message>
+    <message>
+        <source>Low Energy Discovery not supported</source>
+        <translation>Opdagelse af lav energi understøttes ikke</translation>
     </message>
     <message>
         <source>Bluetooth adapter error</source>
@@ -136,7 +148,7 @@
     </message>
     <message>
         <source>Public Browse Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Offentlig gennemse gruppe</translation>
     </message>
     <message>
         <source>LAN Access Profile</source>
@@ -966,7 +978,7 @@
     </message>
     <message>
         <source>Pollen Concentration</source>
-        <translation>Pollen konsentration</translation>
+        <translation>Pollen koncentration</translation>
     </message>
     <message>
         <source>UV Index</source>
@@ -1036,7 +1048,7 @@
     </message>
     <message>
         <source>Email Address</source>
-        <translation>E-mail-adresse</translation>
+        <translation>E-mailadresse</translation>
     </message>
     <message>
         <source>Fat Burn Heart Rate Lower Limit</source>
@@ -1174,7 +1186,7 @@
     </message>
     <message>
         <source>Valid Range</source>
-        <translation>Gyldigt område</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>External Report Reference</source>
@@ -1281,6 +1293,26 @@
         <source>Cannot set connection security level</source>
         <translation>Kan ikke sætte forbindelsens sikkerhedsniveau</translation>
     </message>
+    <message>
+        <source>Network Error: %1</source>
+        <translation>Netværksfejl: %1</translation>
+    </message>
+    <message>
+        <source>Network error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Connection timed out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Host not reachable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Host refused connection</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QBluetoothTransferReply</name>
@@ -1369,6 +1401,22 @@
     <message>
         <source>Error occurred trying to start advertising</source>
         <translation>Der opstod fejl ved forsøg på start af reklamering</translation>
+    </message>
+    <message>
+        <source>Advertisement data is larger than 31 bytes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Advertisement feature not supported on the platform</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed due to too many advertisers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unknown advertisement error</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

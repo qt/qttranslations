@@ -2,29 +2,6 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="de">
 <context>
-    <name>QCLuceneResultWidget</name>
-    <message>
-        <source>Search Results</source>
-        <translation>Suchergebnisse</translation>
-    </message>
-    <message>
-        <source>Note:</source>
-        <translation>Achtung:</translation>
-    </message>
-    <message>
-        <source>The search results may not be complete since the documentation is still being indexed.</source>
-        <translation>Es können nicht alle möglichen Ergebnisse angezeigt werden, da die Dokumentation noch indiziert wird.</translation>
-    </message>
-    <message>
-        <source>Your search did not match any documents.</source>
-        <translation>Es wurden keine mit Ihrer Suche übereinstimmenden Dokumente gefunden.</translation>
-    </message>
-    <message>
-        <source>(The reason for this might be that the documentation is still being indexed.)</source>
-        <translation>(Ein Grund dafür könnte sein, das die Dokumentation noch nicht vollständig indiziert ist.)</translation>
-    </message>
-</context>
-<context>
     <name>QHelp</name>
     <message>
         <source>Untitled</source>
@@ -269,30 +246,6 @@
         <source>Search</source>
         <translation>Suche</translation>
     </message>
-    <message>
-        <source>Advanced search</source>
-        <translation>Erweiterte Suche</translation>
-    </message>
-    <message>
-        <source>words &lt;B&gt;similar&lt;/B&gt; to:</source>
-        <translation>Worte &lt;B&gt;ähnlich&lt;/B&gt; zu:</translation>
-    </message>
-    <message>
-        <source>&lt;B&gt;without&lt;/B&gt; the words:</source>
-        <translation>&lt;B&gt;ohne&lt;/B&gt; die Wörter:</translation>
-    </message>
-    <message>
-        <source>with &lt;B&gt;exact phrase&lt;/B&gt;:</source>
-        <translation>mit der &lt;B&gt;genauen Wortgruppe&lt;/B&gt;:</translation>
-    </message>
-    <message>
-        <source>with &lt;B&gt;all&lt;/B&gt; of the words:</source>
-        <translation>mit &lt;B&gt;allen&lt;/B&gt; Wörtern:</translation>
-    </message>
-    <message>
-        <source>with &lt;B&gt;at least one&lt;/B&gt; of the words:</source>
-        <translation>mit &lt;B&gt;irgendeinem&lt;/B&gt; der Wörter:</translation>
-    </message>
 </context>
 <context>
     <name>QHelpSearchResultWidget</name>
@@ -306,6 +259,36 @@
     <message>
         <source>0 - 0 of 0 Hits</source>
         <translation>0 - 0 von 0 Treffern</translation>
+    </message>
+</context>
+<context>
+    <name>QResultWidget</name>
+    <message>
+        <source>Search Results</source>
+        <translation>Suchergebnisse</translation>
+    </message>
+    <message>
+        <source>Note:</source>
+        <translation>Anmerkung:</translation>
+    </message>
+    <message>
+        <source>The search results may not be complete since the documentation is still being indexed.</source>
+        <translation>Die Ergebnisse sind eventuell unvollständig, da die Dokumentation noch indiziert wird.</translation>
+    </message>
+    <message>
+        <source>Your search did not match any documents.</source>
+        <translation>Es wurden keine mit Ihrer Suche übereinstimmenden Dokumente gefunden.</translation>
+    </message>
+    <message>
+        <source>(The reason for this might be that the documentation is still being indexed.)</source>
+        <translation>(Ein Grund dafür könnte sein, dass die Dokumentation noch nicht vollständig indiziert ist.)</translation>
+    </message>
+</context>
+<context>
+    <name>fulltextsearch::qt::QHelpSearchIndexWriter</name>
+    <message>
+        <source>Cannot open database &quot;%1&quot; using connection &quot;%2&quot;: %3</source>
+        <translation>Kann die Datenbank &quot;%1&quot; über die Verbindung &quot;%2&quot; nicht öffnen: %3</translation>
     </message>
 </context>
 </TS>

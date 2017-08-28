@@ -31,10 +31,6 @@
         <translation>Błąd podczas zarejestrowania pliku z dokumentacją &quot;%1&quot;: %2</translation>
     </message>
     <message>
-        <source>Error: %1</source>
-        <translation>Błąd: %1</translation>
-    </message>
-    <message>
         <source>Could not register documentation file
 %1
 
@@ -320,7 +316,9 @@ Powód:
                            file.
 -setCurrentFilter filter   Set the filter as the active filter.
 -remove-search-index       Removes the full text search index.
--rebuild-search-index      Re-builds the full text search index (potentially slow).
+-rebuild-search-index      Obsolete. Use -remove-search-index instead.
+                           Removes the full text search index.
+                           It will be rebuilt on next Assistant run.
 -quiet                     Does not display any error or
                            status message.
 -help                      Displays this help.
@@ -329,7 +327,7 @@ Powód:
 
 -collectionFile plik       Używa podanego pliku kolekcji
                            zamiast domyślnego.
--showUrl url               Pokazuje dokument z
+-showUrl url               Pokazuje dokument wraz z
                            url.
 -enableRemoteControl       Umożliwia zdalną kontrolę
                            nad Assistantem.
@@ -348,8 +346,9 @@ Powód:
                            (.qch) w podanym pliku kolekcji.
 -setCurrentFilter filtr    Ustawia filtr jako aktywny.
 -remove-search-index       Usuwa indeks pełnego przeszukiwania tekstu.
--rebuild-search-index      Przebudowuje indeks pełnego
-                           przeszukiwania tekstu (potencjalnie wolne).
+-rebuild-search-index      Opcja zdezaktualizowana, użyj w zamian -remove-search-index
+                           Usuwa indeks pełnego przeszukiwania tekstu.
+                           Indeks zostanie przebudowany po kolejnym uruchomieniu Asystenta.
 -quiet                     Nie pokazuje żadnych błędów ani
                            komunikatów o stanie.
 -help                      Pokazuje tę pomoc.
@@ -740,7 +739,7 @@ Powód:
     </message>
     <message>
         <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;p&gt;Browser: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Wersja %2&lt;/p&gt;&lt;p&gt;Przeglądarka: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Prawa autorskie %4 The Qt Company Ltd.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About %1</source>
@@ -834,7 +833,7 @@ Powód:
     </message>
     <message>
         <source>Some documents currently opened in Assistant reference the documentation you are attempting to remove. Removing the documentation will close those documents.</source>
-        <translation>Niektóre dokumenty otwarte w Assistant odwołują sie do dokumentacji którą próbujesz usunąć. Usunięcie dokumentacji spowoduje zamknięcie tych dokumentów.</translation>
+        <translation>Niektóre dokumenty otwarte w Assistant odwołują się do dokumentacji którą próbujesz usunąć. Usunięcie dokumentacji spowoduje zamknięcie tych dokumentów.</translation>
     </message>
     <message>
         <source>Cancel</source>

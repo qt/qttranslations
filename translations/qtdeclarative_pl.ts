@@ -408,6 +408,10 @@
         <translation>SQL: nie można utworzyć bazy danych, praca offline jest wyłączona.</translation>
     </message>
     <message>
+        <source>LocalStorage: can&apos;t create path %1</source>
+        <translation>LocalStorage: nie można utworzyć ścieżki %1</translation>
+    </message>
+    <message>
         <source>SQL: database version mismatch</source>
         <translation>SQL: niezgodność wersji bazy danych</translation>
     </message>
@@ -463,7 +467,7 @@
     </message>
     <message>
         <source>module does not support the designer &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>moduł nie obsługuje Designera &quot;%1&quot;</translation>
     </message>
     <message>
         <source>plugin cannot be loaded for module &quot;%1&quot;: %2</source>
@@ -480,10 +484,6 @@
     <message>
         <source>module &quot;%1&quot; plugin &quot;%2&quot; not found</source>
         <translation>wtyczka &quot;%2&quot; modułu &quot;%1&quot; nie została odnaleziona</translation>
-    </message>
-    <message>
-        <source>library loading is disabled</source>
-        <translation>ładowanie bibliotek wyłączone</translation>
     </message>
     <message>
         <source>&quot;%1&quot; version %2.%3 is defined more than once in module &quot;%4&quot;</source>
@@ -710,16 +710,20 @@
         <translation>Przypadkowy znak nowej linii w literale łańcuchowym</translation>
     </message>
     <message>
+        <source>End of file reached at escape sequence</source>
+        <translation>Osiągnięto koniec pliku wewnątrz sekwencji specjalnej</translation>
+    </message>
+    <message>
         <source>Illegal unicode escape sequence</source>
-        <translation>Niepoprawny znak w sekwencji escape</translation>
+        <translation>Niepoprawny znak w sekwencji specjalnej</translation>
     </message>
     <message>
         <source>Illegal hexadecimal escape sequence</source>
-        <translation>Niepoprawna szesnastkowa sekwencja escape</translation>
+        <translation>Niepoprawna szesnastkowa sekwencja specjalna</translation>
     </message>
     <message>
         <source>Octal escape sequences are not allowed</source>
-        <translation>Ósemkowe sekwencje escape są niedozwolone</translation>
+        <translation>Ósemkowe sekwencje specjalne są niedozwolone</translation>
     </message>
     <message>
         <source>Unclosed string at end of line</source>
@@ -1076,6 +1080,10 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>No such file or directory</source>
+        <translation>Brak pliku lub katalogu</translation>
+    </message>
+    <message>
         <source>module &quot;%1&quot; is not installed</source>
         <translation>moduł &quot;%1&quot; nie jest zainstalowany</translation>
     </message>
@@ -1416,6 +1424,13 @@
     <message>
         <source>Could not load cursor delegate</source>
         <translation>Nie można załadować delegata kursora</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickTouchPoint</name>
+    <message>
+        <source>PointingDeviceUniqueId is only available via read-only properties</source>
+        <translation>PointingDeviceUniqueId jest dostępny jedynie poprzez właściwości tylko do odczytu</translation>
     </message>
 </context>
 <context>
