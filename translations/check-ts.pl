@@ -40,7 +40,7 @@ my @groups = (
     "qtquickcontrols", "qtquickcontrols2",
     "qtlocation", "qtconnectivity", "qtwebsockets", "qtserialport", "qtwebengine",
 #    "qtdocgallery", "qtpim", "qtsystems",
-    "assistant", "designer", "linguist", "qt_help", "qtconfig", "qmlviewer"
+    "assistant", "designer", "linguist", "qt_help", "qmlviewer"
 );
 
 my %scores = ();
