@@ -16,6 +16,10 @@
         <translation>Ungültiger Methodenname</translation>
     </message>
     <message>
+        <source>Duplicate scoped enum name</source>
+        <translation>Mehrfaches Auftreten eines bereichsgebundenen Aufzählungsnamens</translation>
+    </message>
+    <message>
         <source>Duplicate signal name</source>
         <translation>Mehrfaches Auftreten eines Signalnamens</translation>
     </message>
@@ -115,6 +119,22 @@
     <message>
         <source>Invalid alias reference. An alias reference must be specified as &lt;id&gt;, &lt;id&gt;.&lt;property&gt; or &lt;id&gt;.&lt;value property&gt;.&lt;property&gt;</source>
         <translation>Ungültige Alias-Referenz. Eine Alias-Referenz muss in der Form &lt;id&gt;, &lt;id&gt;.&lt;property&gt; oder &lt;id&gt;.&lt;value property&gt;.&lt;property&gt; angegeben werden</translation>
+    </message>
+    <message>
+        <source>Scoped enum names must begin with an upper case letter</source>
+        <translation>Bereichsgebundene Aufzählungsnamen müssen mit einem Großbuchstaben beginnen</translation>
+    </message>
+    <message>
+        <source>Enum names must begin with an upper case letter</source>
+        <translation>Aufzählungsnamen müssen mit einem Großbuchstaben beginnen</translation>
+    </message>
+    <message>
+        <source>Enum value must be an integer</source>
+        <translation>Ein Aufzählungswert muss ganzzahlig sein</translation>
+    </message>
+    <message>
+        <source>Enum value out of range</source>
+        <translation>Der Aufzählungswert ist außerhalb des gültigen Bereichs</translation>
     </message>
     <message>
         <source>Invalid component id specification</source>
@@ -532,12 +552,12 @@
 <context>
     <name>QQmlListModel</name>
     <message>
-        <source>unable to enable dynamic roles as this model is not empty!</source>
-        <translation>Dynamische Rollen können nicht aktiviert werden, da das Modell nicht leer ist!</translation>
+        <source>unable to enable dynamic roles as this model is not empty</source>
+        <translation>dynamische Rollen können nicht aktiviert werden, da das Modell nicht leer ist</translation>
     </message>
     <message>
-        <source>unable to enable static roles as this model is not empty!</source>
-        <translation>Statische Rollen können nicht aktiviert werden, da das Modell nicht leer ist!</translation>
+        <source>unable to enable static roles as this model is not empty</source>
+        <translation>statische Rollen können nicht aktiviert werden, da das Modell nicht leer ist</translation>
     </message>
     <message>
         <source>dynamic role setting must be made from the main thread, before any worker scripts are created</source>
@@ -675,6 +695,10 @@
     <message>
         <source>Stray newline in string literal</source>
         <translation>Freistehendes Zeilenendezeichen in Zeichenkettenliteral</translation>
+    </message>
+    <message>
+        <source>End of file reached at escape sequence</source>
+        <translation>In der Escape-Sequenz wurde das Dateiende erreicht</translation>
     </message>
     <message>
         <source>Illegal hexadecimal escape sequence</source>
@@ -1212,6 +1236,13 @@
     </message>
 </context>
 <context>
+    <name>QQuickDragHandler</name>
+    <message>
+        <source>DragAxis is only available as a grouped property of DragHandler</source>
+        <translation>DragAxis ist nur über gruppierte Eigenschaften von DragHandler verfügbar</translation>
+    </message>
+</context>
+<context>
     <name>QQuickEnterKeyAttached</name>
     <message>
         <source>EnterKey attached property only works with Items</source>
@@ -1374,8 +1405,39 @@
         <translation>Es konnte keine Textur vom Provider %1 erhalten werden</translation>
     </message>
     <message>
+        <source>Error decoding: %1</source>
+        <translation>Fehler beim Dekodieren: %1</translation>
+    </message>
+    <message>
         <source>Cannot open: %1</source>
         <translation>Fehlschlag beim Öffnen: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickPointerHandler</name>
+    <message>
+        <source>PointerEvent is only available as a parameter of several signals in PointerHandler</source>
+        <translation>PointerEvent ist nur als Parameter einiger Signale von PointerHandler verfügbar</translation>
+    </message>
+    <message>
+        <source>EventPoint is only available as a member of PointerEvent</source>
+        <translation>EventPoint ist nur als Member von PointerEvent verfügbar</translation>
+    </message>
+    <message>
+        <source>EventTouchPoint is only available as a member of PointerEvent</source>
+        <translation>EventTouchPoint ist nur als Member von PointerEvent verfügbar</translation>
+    </message>
+    <message>
+        <source>PointerDevice is only available as a property of PointerEvent</source>
+        <translation>PointerDevice ist nur als Eigenschaft von PointerEvent verfügbar</translation>
+    </message>
+    <message>
+        <source>PointingDeviceUniqueId is only available as a property of PointerEvent</source>
+        <translation>PointingDeviceUniqueId ist nur als Eigenschaft von PointerEvent verfügbar</translation>
+    </message>
+    <message>
+        <source>PointerHandler is an abstract base class</source>
+        <translation>PointerHandler ist eine abstrakte Basisklasse</translation>
     </message>
 </context>
 <context>
@@ -1412,6 +1474,13 @@
     <message>
         <source>Cannot create instance of abstract class ShaderEffectMesh.</source>
         <translation>Es kann keine Instanz der abstrakten Klasse ShaderEffectMesh erstellt werden.</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickShapeGradient</name>
+    <message>
+        <source>ShapeGradient is an abstract base class</source>
+        <translation>ShapeGradient ist eine abstrakte Basisklasse</translation>
     </message>
 </context>
 <context>

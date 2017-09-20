@@ -805,8 +805,8 @@ Drücken Sie ESC, um abzubrechen</translation>
         <translation>Die Zieldatei existiert bereits</translation>
     </message>
     <message>
-        <source>Error while renaming.</source>
-        <translation>Fehler beim Umbenennen.</translation>
+        <source>Error while renaming: %1</source>
+        <translation>Fehler beim Umbenennen: %1</translation>
     </message>
     <message>
         <source>Unable to restore from %1: %2</source>
@@ -841,7 +841,11 @@ Drücken Sie ESC, um abzubrechen</translation>
     <name>QFileDevice</name>
     <message>
         <source>No file engine available or engine does not support UnMapExtension</source>
-        <translation>Es ist kein Datei-Engine verfügbar oder der gegenwärtig aktive Engine unterstützt die UnMap-Erweiterung nicht</translation>
+        <translation>Es ist kein Backend verfügbar oder das gegenwärtig aktive Backend unterstützt die UnMap-Erweiterung nicht</translation>
+    </message>
+    <message>
+        <source>No file engine available</source>
+        <translation>Es ist kein Backend verfügbar</translation>
     </message>
 </context>
 <context>
@@ -1087,26 +1091,6 @@ Möchten Sie die Datei trotzdem löschen?</translation>
 <context>
     <name>QFileSystemModel</name>
     <message>
-        <source>%1 TB</source>
-        <translation>%1 TB</translation>
-    </message>
-    <message>
-        <source>%1 GB</source>
-        <translation>%1 GB</translation>
-    </message>
-    <message>
-        <source>%1 MB</source>
-        <translation>%1 MB</translation>
-    </message>
-    <message>
-        <source>%1 KB</source>
-        <translation>%1 KB</translation>
-    </message>
-    <message>
-        <source>%1 bytes</source>
-        <translation>%1 Byte</translation>
-    </message>
-    <message>
         <source>Invalid filename</source>
         <translation>Ungültiger Dateiname</translation>
     </message>
@@ -1143,10 +1127,6 @@ Möchten Sie die Datei trotzdem löschen?</translation>
     <message>
         <source>Computer</source>
         <translation>Computer</translation>
-    </message>
-    <message>
-        <source>%1 byte(s)</source>
-        <translation>%1 Byte</translation>
     </message>
 </context>
 <context>
@@ -1784,6 +1764,10 @@ Möchten Sie die Datei trotzdem löschen?</translation>
     <message>
         <source>Unsupported image format</source>
         <translation>Dieser Typ von Bilddaten wird nicht unterstützt</translation>
+    </message>
+    <message>
+        <source>Image is empty</source>
+        <translation>Das Bild ist leer</translation>
     </message>
 </context>
 <context>
@@ -4597,6 +4581,10 @@ Bitte deaktivieren Sie eine der beiden.</translation>
         <translation>Dateiname bezeichnet ein Verzeichnis</translation>
     </message>
     <message>
+        <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled: path contains an Alternate Data Stream specifier</source>
+        <translation>QSaveFile kann &apos;%1&apos; ohne den Direct-Write-Fallback nicht öffnen; der Pfad enthält eine Alternate-Data-Stream-Angabe</translation>
+    </message>
+    <message>
         <source>Writing canceled by application</source>
         <translation>Das Schreiben wurde von der Anwendung abgebrochen</translation>
     </message>
@@ -6304,6 +6292,10 @@ Role of an accessible object</extracomment>
         <translation>Die Diffie-Hellman-Parameter sind ungültig</translation>
     </message>
     <message>
+        <source>OpenSSL version with disabled elliptic curves</source>
+        <translation>Elliptische Kurven sind in dieser Version von OpenSSL nicht verfügbar</translation>
+    </message>
+    <message>
         <source>OpenSSL version too old, need at least v1.0.2</source>
         <translation>Die verwendete Version von OpenSSL ist zu alt, es muss v1.0.2 oder neuer sein</translation>
     </message>
@@ -6937,16 +6929,36 @@ Die minimal erforderliche Version von Direct2D ist %1.%2.%3.%4. Die auf diesem S
         <translation>Ungültiges Dokument.</translation>
     </message>
     <message>
-        <source>Expected </source>
-        <translation>Es wurde </translation>
+        <source>&apos;%1&apos;</source>
+        <comment>expected</comment>
+        <extracomment>&apos;&lt;first option&gt;&apos;</extracomment>
+        <translation>&apos;%1&apos;</translation>
     </message>
     <message>
-        <source>, but got &apos;</source>
-        <translation>erwartet, stattdessen erhalten &apos;</translation>
+        <source>%1 or &apos;%2&apos;</source>
+        <comment>expected</comment>
+        <extracomment>&lt;first option&gt;, &apos;&lt;second option&gt;&apos;</extracomment>
+        <translation>%1 oder &apos;%2&apos;</translation>
     </message>
     <message>
-        <source>Unexpected &apos;</source>
-        <translation>Ungültig an dieser Stelle &apos; </translation>
+        <source>%1, &apos;%2&apos;</source>
+        <comment>expected</comment>
+        <extracomment>&lt;options so far&gt;, &apos;&lt;next option&gt;&apos;</extracomment>
+        <translation>%1, &apos;%2&apos;</translation>
+    </message>
+    <message>
+        <source>%1, or &apos;%2&apos;</source>
+        <comment>expected</comment>
+        <extracomment>&lt;options so far&gt;, or &apos;&lt;final option&gt;&apos;</extracomment>
+        <translation>%1 oder &apos;%2&apos;</translation>
+    </message>
+    <message>
+        <source>Expected %1, but got &apos;%2&apos;.</source>
+        <translation>%1 erwartet, jedoch &apos;%2&apos; erhalten.</translation>
+    </message>
+    <message>
+        <source>Unexpected &apos;%1&apos;.</source>
+        <translation>Unerwartet &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Expected character data.</source>

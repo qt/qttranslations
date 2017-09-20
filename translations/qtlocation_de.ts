@@ -66,8 +66,8 @@ Bitte besuchen Sie https://developers.arcgis.com/authentication/accessing-arcgis
 <context>
     <name>QGeoMapMapboxGL</name>
     <message>
-        <source>Development access token, do not use in production!</source>
-        <translation>Dieses Access-Token ist nur zur Entwicklung vorgesehen; es darf nicht in der Produktion verwendet werden!</translation>
+        <source>Development access token, do not use in production.</source>
+        <translation>Dieses Access-Token ist nur zur Entwicklung vorgesehen; es darf nicht in der Produktion verwendet werden.</translation>
     </message>
 </context>
 <context>
@@ -112,12 +112,20 @@ Bitte besuchen Sie https://developers.arcgis.com/authentication/accessing-arcgis
         <translation>Dunkel</translation>
     </message>
     <message>
-        <source>Streets Traffic Day</source>
-        <translation>Verkehrskarte Tag</translation>
+        <source>Navigation Preview Day</source>
+        <translation>Navigationsvorschau Tag</translation>
     </message>
     <message>
-        <source>Streets Traffic Night</source>
-        <translation>Verkehrskarte Nacht</translation>
+        <source>Navigation Preview Night</source>
+        <translation>Navigationsvorschau Nacht</translation>
+    </message>
+    <message>
+        <source>Navigation Guidance Day</source>
+        <translation>Navigationsanleitung Tag</translation>
+    </message>
+    <message>
+        <source>Navigation Guidance Night</source>
+        <translation>Navigationsanleitung Nacht</translation>
     </message>
     <message>
         <source>User provided style</source>

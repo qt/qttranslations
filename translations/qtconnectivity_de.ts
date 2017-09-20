@@ -20,8 +20,8 @@
         <translation>Übergebene Adresse gehört zu keinem lokalen Gerät.</translation>
     </message>
     <message>
-        <source>Missing Location permission. Search is not possible</source>
-        <translation>Die Berechtigung zur Positionsbestimmung fehlt. Es ist keine Suche möglich</translation>
+        <source>Missing Location permission. Search is not possible.</source>
+        <translation>Die Berechtigung zur Positionsbestimmung fehlt. Es ist keine Suche möglich.</translation>
     </message>
     <message>
         <source>Classic Discovery cannot be started</source>
@@ -1266,6 +1266,11 @@
         <translation>Öffnen der Eingabe- und Ausgabestreams des Dienstes fehlgeschlagen</translation>
     </message>
     <message>
+        <source>Cannot connect to %1</source>
+        <comment>%1 = uuid</comment>
+        <translation>Verbindung mit %1 kann nicht hergestellt werden</translation>
+    </message>
+    <message>
         <source>Input stream thread cannot be started</source>
         <translation>Thread des Eingabestreams konnte nicht gestartet werden</translation>
     </message>
@@ -1300,6 +1305,10 @@
     <message>
         <source>Network error</source>
         <translation>Netzwerkfehler</translation>
+    </message>
+    <message>
+        <source>Remote host closed connection</source>
+        <translation>Der Zielrechner hat die Verbindung geschlossen</translation>
     </message>
     <message>
         <source>Connection timed out</source>
@@ -1401,6 +1410,10 @@
     <message>
         <source>Error occurred trying to start advertising</source>
         <translation>Bei der Ankündigung trat ein Fehler auf</translation>
+    </message>
+    <message>
+        <source>Remote device closed the connection</source>
+        <translation>Das Zielgerät hat die Verbindung geschlossen</translation>
     </message>
     <message>
         <source>Advertisement data is larger than 31 bytes</source>
