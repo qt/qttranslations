@@ -770,8 +770,16 @@ Bruth ESC gus sgur dheth</translation>
         <translation>Rabhadh:</translation>
     </message>
     <message>
+        <source>Critical Error:</source>
+        <translation>Mearachd mharbhtach:</translation>
+    </message>
+    <message>
         <source>Fatal Error:</source>
         <translation>Mearachd mharbhtach:</translation>
+    </message>
+    <message>
+        <source>Information:</source>
+        <translation>Fiosrachadh:</translation>
     </message>
     <message>
         <source>&amp;Show this message again</source>
@@ -1766,6 +1774,10 @@ A bheil thu airson sgrìobhadh thairis air co-dhiù?</translation>
         <translation>Cha deach an t-uidheam a shuidheachadh</translation>
     </message>
     <message>
+        <source>Cannot open device for writing: %1</source>
+        <translation>Cha b’ urrainn dhuinn an t-inneal fhosgladh a chum sgrìobhaidh: %1</translation>
+    </message>
+    <message>
         <source>Device not writable</source>
         <translation>Cha ghabh sgrìobhadh dhan uidheam</translation>
     </message>
@@ -1869,6 +1881,55 @@ A bheil thu airson sgrìobhadh thairis air co-dhiù?</translation>
     <message>
         <source>&apos;%1&apos; is an invalid ELF object (%2)</source>
         <translation>Chan eil “%1” ’na oibseact ELF dligheach (%2)</translation>
+    </message>
+    <message>
+        <source>odd cpu architecture</source>
+        <translation>ailtireachd cpu neònach</translation>
+    </message>
+    <message>
+        <source>wrong cpu architecture</source>
+        <translation>ailtireachd cpu chearr</translation>
+    </message>
+    <message>
+        <source>odd endianness</source>
+        <translation>seòrsa endian neònach</translation>
+    </message>
+    <message>
+        <source>unexpected e_shsize</source>
+        <translation>e_shsize ris nach robh dùil</translation>
+    </message>
+    <message>
+        <source>unexpected e_shentsize</source>
+        <translation>e_shentsize ris nach robh dùil</translation>
+    </message>
+    <message numerus="yes">
+        <source>announced %n section(s), each %1 byte(s), exceed file size</source>
+        <translation>
+            <numerusform>chaidh %n earra(i)nn a ghairm, %1 baidht aig gach tè, meud faidhle ro mhòr</numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>shstrtab section header seems to be at %1</source>
+        <translation>tha coltas gu bheil bann-cinn shstrtab aig %1</translation>
+    </message>
+    <message>
+        <source>string table seems to be at %1</source>
+        <translation>tha coltas gu bheil clàr sreanga aig %1</translation>
+    </message>
+    <message>
+        <source>section name %1 of %2 behind end of file</source>
+        <translation>tha ainm earrainn %1 aig %2 air cùl deireadh an fhaidhle</translation>
+    </message>
+    <message>
+        <source>empty .rodata. not a library.</source>
+        <translation>chan eil .rodata. falamh ’na thasglann.</translation>
+    </message>
+    <message>
+        <source>missing section data. This is not a library.</source>
+        <translation>tha dàta earrainn a dhìth. Chan eil seo ’na thasglann.</translation>
     </message>
     <message>
         <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
@@ -2215,12 +2276,16 @@ A bheil thu airson sgrìobhadh thairis air co-dhiù?</translation>
         <translation>Falaich am mion-fhiosrachadh…</translation>
     </message>
     <message>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;’S e acainn C++ a th ann an Qt gus aplacaidean ioma-ùrlarach a leasachadh.&lt;/p&gt;&lt;p&gt;Le Qt, gabhaidh an t-aon bhun-tùs a phortadh thar nan siostaman-obrachaidh desktop mòra uile. Tha e ri fhaighinn airson Linux leabaichte agus siostaman-obrachaidh leabaichte ’s mobile eile cuideachd.&lt;/p&gt;&lt;p&gt;Tha Qt ri fhaighinn fo thrì roghainnean ceadachais eadar-dhealaichte ach am bi e freagarrach do dh’fheumalachdan iomadh luchd-chleachdaidh.&lt;/p&gt;&lt;p&gt;Tha Qt fon aonta cheadachais choimeirsealta againn iomchaidh dha leasachadh bathair-bhog fo shealbh/coimeirsealta mur eilear airson bun-tùs a cho-roinneadh le treas-phàrtaidh no mur urrainnear gèilleadh ri teirmichean GNU LGPL tionndadh 3 air adhbhar eile.&lt;/p&gt;&lt;p&gt;Tha Qt fo cheadachas GNU LGPL tionndadh 3 iomchaidh dha leasachadh aplacaidean Qt mas urrainnear gèilleadh ri teirmichean ’s cumhaichean a’ GNU LGPL tionndadh 3.&lt;/p&gt;&lt;p&gt;Faic &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; airson foir-shealladh air ceadachasan Qt.&lt;/p&gt;&lt;p&gt;Còir-lethbhreac (C) %1 The Qt Company earr. ’s tabhartaichean eile.&lt;/p&gt;&lt;p&gt;Tha Qt agus suaicheantas Qt ’nan comharran-malairt aig The Qt Company earr.&lt;/p&gt;&lt;p&gt;Is Qt am bathar aig The Qt Company earr. A tha ’ga leasachadh mar phròiseact open source. Faic &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; airson barrachd fiosrachaidh.&lt;/p&gt;</translation>
+    </message>
+    <message>
         <source>OK</source>
-        <translation>Ceart ma-thà</translation>
+        <translation type="vanished">Ceart ma-thà</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Cobhair</translation>
+        <translation type="vanished">Cobhair</translation>
     </message>
     <message>
         <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
@@ -2228,7 +2293,7 @@ A bheil thu airson sgrìobhadh thairis air co-dhiù?</translation>
     </message>
     <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3 or GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;’S e acainn C++ a th ann an Qt gus aplacaidean ioma-ùrlarach a leasachadh.&lt;/p&gt;&lt;p&gt;Le Qt, gabhaidh an t-aon bhun-tùs a phortadh thar nan siostaman-obrachaidh desktop mòra uile. Tha e ri fhaighinn airson Linux leabaichte agus siostaman-obrachaidh leabaichte ’s mobile eile cuideachd.&lt;/p&gt;&lt;p&gt;Tha Qt ri fhaighinn fo thrì roghainnean ceadachais eadar-dhealaichte ach am bi e freagarrach do dh’fheumalachdan iomadh luchd-chleachdaidh.&lt;/p&gt;&lt;p&gt;Tha Qt fon aonta cheadachais choimeirsealta againn iomchaidh dha leasachadh bathair-bhog fo shealbh/coimeirsealta mur eilear airson bun-tùs a cho-roinneadh le treas-phàrtaidh no mur urrainnear gèilleadh ri teirmichean GNU LGPL tionndadh 3 no GNU LGPL tionndadh 2.1. air adhbhar eile.&lt;/p&gt;&lt;p&gt;Tha Qt fo cheadachas GNU LGPL tionndadh 3 iomchaidh dha leasachadh aplacaidean Qt mas urrainnear gèilleadh ri teirmichean ’s cumhaichean a’ GNU LGPL tionndadh 3.&lt;/p&gt;&lt;p&gt;Tha Qt fo cheadachas GNU LGPL tionndadh 2.1 iomchaidh dha leasachadh aplacaidean Qt mas urrainnear gèilleadh ri teirmichean ’s cumhaichean a’ GNU LGPL tionndadh 2.1.&lt;/p&gt;&lt;p&gt;Faic &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; airson foir-shealladh air ceadachasan Qt.&lt;/p&gt;&lt;p&gt;Còir-lethbhreac (C) %1 The Qt Company earr. ’s tabhartaichean eile.&lt;/p&gt;&lt;p&gt;Tha Qt agus suaicheantas Qt ’nan comharran-malairt aig The Qt Company earr.&lt;/p&gt;&lt;p&gt;Is Qt am bathar aig The Qt Company earr. A tha ’ga leasachadh mar phròiseact open source. Faic &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; airson barrachd fiosrachaidh.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;’S e acainn C++ a th ann an Qt gus aplacaidean ioma-ùrlarach a leasachadh.&lt;/p&gt;&lt;p&gt;Le Qt, gabhaidh an t-aon bhun-tùs a phortadh thar nan siostaman-obrachaidh desktop mòra uile. Tha e ri fhaighinn airson Linux leabaichte agus siostaman-obrachaidh leabaichte ’s mobile eile cuideachd.&lt;/p&gt;&lt;p&gt;Tha Qt ri fhaighinn fo thrì roghainnean ceadachais eadar-dhealaichte ach am bi e freagarrach do dh’fheumalachdan iomadh luchd-chleachdaidh.&lt;/p&gt;&lt;p&gt;Tha Qt fon aonta cheadachais choimeirsealta againn iomchaidh dha leasachadh bathair-bhog fo shealbh/coimeirsealta mur eilear airson bun-tùs a cho-roinneadh le treas-phàrtaidh no mur urrainnear gèilleadh ri teirmichean GNU LGPL tionndadh 3 no GNU LGPL tionndadh 2.1. air adhbhar eile.&lt;/p&gt;&lt;p&gt;Tha Qt fo cheadachas GNU LGPL tionndadh 3 iomchaidh dha leasachadh aplacaidean Qt mas urrainnear gèilleadh ri teirmichean ’s cumhaichean a’ GNU LGPL tionndadh 3.&lt;/p&gt;&lt;p&gt;Tha Qt fo cheadachas GNU LGPL tionndadh 2.1 iomchaidh dha leasachadh aplacaidean Qt mas urrainnear gèilleadh ri teirmichean ’s cumhaichean a’ GNU LGPL tionndadh 2.1.&lt;/p&gt;&lt;p&gt;Faic &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; airson foir-shealladh air ceadachasan Qt.&lt;/p&gt;&lt;p&gt;Còir-lethbhreac (C) %1 The Qt Company earr. ’s tabhartaichean eile.&lt;/p&gt;&lt;p&gt;Tha Qt agus suaicheantas Qt ’nan comharran-malairt aig The Qt Company earr.&lt;/p&gt;&lt;p&gt;Is Qt am bathar aig The Qt Company earr. A tha ’ga leasachadh mar phròiseact open source. Faic &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; airson barrachd fiosrachaidh.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About Qt</source>
@@ -3795,14 +3860,14 @@ Cuir tè dhe na roghainnean sin dheth.</translation>
     <name>QQnxFileDialogHelper</name>
     <message>
         <source>All files (*.*)</source>
-        <translation>Na h-uile faidhle (*.*)</translation>
+        <translation type="vanished">Na h-uile faidhle (*.*)</translation>
     </message>
 </context>
 <context>
     <name>QQnxFilePicker</name>
     <message>
         <source>Pick a file</source>
-        <translation>Tagh faidhle</translation>
+        <translation type="vanished">Tagh faidhle</translation>
     </message>
 </context>
 <context>
@@ -3896,7 +3961,7 @@ Cuir tè dhe na roghainnean sin dheth.</translation>
     </message>
     <message>
         <source>nothing to repeat</source>
-        <translation>chan eil dad ri atharrais ann</translation>
+        <translation type="vanished">chan eil dad ri atharrais ann</translation>
     </message>
     <message>
         <source>internal error: unexpected repeat</source>
@@ -3912,7 +3977,7 @@ Cuir tè dhe na roghainnean sin dheth.</translation>
     </message>
     <message>
         <source>missing )</source>
-        <translation>tha ) a dhìth</translation>
+        <translation type="vanished">tha ) a dhìth</translation>
     </message>
     <message>
         <source>reference to non-existent subpattern</source>
@@ -3920,15 +3985,15 @@ Cuir tè dhe na roghainnean sin dheth.</translation>
     </message>
     <message>
         <source>erroffset passed as NULL</source>
-        <translation>chaidh erroffset a chur ann ’na NULL</translation>
+        <translation type="vanished">chaidh erroffset a chur ann ’na NULL</translation>
     </message>
     <message>
         <source>unknown option bit(s) set</source>
-        <translation>tha seata biod(aichean) ann nach aithne dhuinn</translation>
+        <translation type="vanished">tha seata biod(aichean) ann nach aithne dhuinn</translation>
     </message>
     <message>
         <source>missing ) after comment</source>
-        <translation>tha ) a dhìth às dèidh beachd</translation>
+        <translation type="vanished">tha ) a dhìth às dèidh beachd</translation>
     </message>
     <message>
         <source>regular expression is too large</source>
@@ -3936,11 +4001,11 @@ Cuir tè dhe na roghainnean sin dheth.</translation>
     </message>
     <message>
         <source>failed to get memory</source>
-        <translation>cha deach leinn cuimhne fhaighinn</translation>
+        <translation type="vanished">cha deach leinn cuimhne fhaighinn</translation>
     </message>
     <message>
         <source>unmatched parentheses</source>
-        <translation>chan eil na camagan a-rèir a chèile</translation>
+        <translation type="vanished">chan eil na camagan a-rèir a chèile</translation>
     </message>
     <message>
         <source>internal error: code overflow</source>
@@ -3948,7 +4013,7 @@ Cuir tè dhe na roghainnean sin dheth.</translation>
     </message>
     <message>
         <source>unrecognized character after (?&lt;</source>
-        <translation>tha caractar nach aithne dhuinn às dhèidh (?&lt; ann</translation>
+        <translation type="vanished">tha caractar nach aithne dhuinn às dhèidh (?&lt; ann</translation>
     </message>
     <message>
         <source>lookbehind assertion is not fixed length</source>
@@ -3964,7 +4029,7 @@ Cuir tè dhe na roghainnean sin dheth.</translation>
     </message>
     <message>
         <source>assertion expected after (?(</source>
-        <translation>tha dùil air assertion às dèidh (?(</translation>
+        <translation type="vanished">tha dùil air assertion às dèidh (?(</translation>
     </message>
     <message>
         <source>(?R or (?[+-]digits must be followed by )</source>
@@ -3980,11 +4045,11 @@ Cuir tè dhe na roghainnean sin dheth.</translation>
     </message>
     <message>
         <source>this version of PCRE is not compiled with PCRE_UTF8 support</source>
-        <translation>cha deach an tionndadh seo dhe PCRE a thrusadh le taic ri PCRE_UTF8</translation>
+        <translation type="vanished">cha deach an tionndadh seo dhe PCRE a thrusadh le taic ri PCRE_UTF8</translation>
     </message>
     <message>
         <source>character value in \x{...} sequence is too large</source>
-        <translation>tha luach caractair ann an sreath \x{...} ro mhòr</translation>
+        <translation type="vanished">tha luach caractair ann an sreath \x{...} ro mhòr</translation>
     </message>
     <message>
         <source>invalid condition (?(0)</source>
@@ -3992,7 +4057,7 @@ Cuir tè dhe na roghainnean sin dheth.</translation>
     </message>
     <message>
         <source>\C not allowed in lookbehind assertion</source>
-        <translation>chan eil \C ceadaichte ann an lookbehind assertion</translation>
+        <translation type="vanished">chan eil \C ceadaichte ann an lookbehind assertion</translation>
     </message>
     <message>
         <source>PCRE does not support \L, \l, \N{name}, \U, or \u</source>
@@ -4000,15 +4065,15 @@ Cuir tè dhe na roghainnean sin dheth.</translation>
     </message>
     <message>
         <source>number after (?C is &gt; 255</source>
-        <translation>tha àireamh às dèidh (?C nas motha na 255</translation>
+        <translation type="vanished">tha àireamh às dèidh (?C nas motha na 255</translation>
     </message>
     <message>
         <source>closing ) for (?C expected</source>
-        <translation>an dùil air ) a dhùineas (?C</translation>
+        <translation type="vanished">an dùil air ) a dhùineas (?C</translation>
     </message>
     <message>
         <source>recursive call could loop indefinitely</source>
-        <translation>b’ urrainn do ghairm ath-chùrsach a lùbadh gu buan</translation>
+        <translation type="vanished">b’ urrainn do ghairm ath-chùrsach a lùbadh gu buan</translation>
     </message>
     <message>
         <source>unrecognized character after (?P</source>
@@ -4020,15 +4085,15 @@ Cuir tè dhe na roghainnean sin dheth.</translation>
     </message>
     <message>
         <source>two named subpatterns have the same name</source>
-        <translation>tha an t-aon ainm air dà fho-phàtran ainmichte</translation>
+        <translation type="vanished">tha an t-aon ainm air dà fho-phàtran ainmichte</translation>
     </message>
     <message>
         <source>invalid UTF-8 string</source>
-        <translation>sreang UTF-8 mhì-dhligheach</translation>
+        <translation type="vanished">sreang UTF-8 mhì-dhligheach</translation>
     </message>
     <message>
         <source>support for \P, \p, and \X has not been compiled</source>
-        <translation>cha deach taic ri \P, \p agus \X a thrusadh</translation>
+        <translation type="vanished">cha deach taic ri \P, \p agus \X a thrusadh</translation>
     </message>
     <message>
         <source>malformed \P or \p sequence</source>
@@ -4040,15 +4105,15 @@ Cuir tè dhe na roghainnean sin dheth.</translation>
     </message>
     <message>
         <source>subpattern name is too long (maximum 32 characters)</source>
-        <translation>tha ainm an fho-phàtrain ro fhada (32 caractar air a char as motha)</translation>
+        <translation type="vanished">tha ainm an fho-phàtrain ro fhada (32 caractar air a char as motha)</translation>
     </message>
     <message>
         <source>too many named subpatterns (maximum 10000)</source>
-        <translation>tha cus fho-phàtranan ainmichte ann (10000 air a char as motha)</translation>
+        <translation type="vanished">tha cus fho-phàtranan ainmichte ann (10000 air a char as motha)</translation>
     </message>
     <message>
         <source>octal value is greater than \377 (not in UTF-8 mode)</source>
-        <translation>tha luach ochdach nas motha na \377 (chan ann sa mhodh UTF-8)</translation>
+        <translation type="vanished">tha luach ochdach nas motha na \377 (chan ann sa mhodh UTF-8)</translation>
     </message>
     <message>
         <source>internal error: overran compiling workspace</source>
@@ -4064,11 +4129,11 @@ Cuir tè dhe na roghainnean sin dheth.</translation>
     </message>
     <message>
         <source>repeating a DEFINE group is not allowed</source>
-        <translation>Chan fhaodar buidheann DEFINE atharrais</translation>
+        <translation type="vanished">Chan fhaodar buidheann DEFINE atharrais</translation>
     </message>
     <message>
         <source>inconsistent NEWLINE options</source>
-        <translation>roghainnean NEWLINE neo-chunbhalach</translation>
+        <translation type="vanished">roghainnean NEWLINE neo-chunbhalach</translation>
     </message>
     <message>
         <source>\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number</source>
@@ -4084,7 +4149,7 @@ Cuir tè dhe na roghainnean sin dheth.</translation>
     </message>
     <message>
         <source>(*VERB) not recognized</source>
-        <translation>cha do dh’aithnich sinn (*VERB)</translation>
+        <translation type="vanished">cha do dh’aithnich sinn (*VERB)</translation>
     </message>
     <message>
         <source>number is too big</source>
@@ -4100,7 +4165,7 @@ Cuir tè dhe na roghainnean sin dheth.</translation>
     </message>
     <message>
         <source>] is an invalid data character in JavaScript compatibility mode</source>
-        <translation>tha ] ’na charactar dàta mì-dhligheach ann am modh co-chòrdalachd JavaScript</translation>
+        <translation type="vanished">tha ] ’na charactar dàta mì-dhligheach ann am modh co-chòrdalachd JavaScript</translation>
     </message>
     <message>
         <source>different names for subpatterns of the same number are not allowed</source>
@@ -4112,11 +4177,11 @@ Cuir tè dhe na roghainnean sin dheth.</translation>
     </message>
     <message>
         <source>this version of PCRE is not compiled with PCRE_UCP support</source>
-        <translation>cha deach an tionndadh seo dhe PCRE a thrusadh le taic ri PCRE_UCP</translation>
+        <translation type="vanished">cha deach an tionndadh seo dhe PCRE a thrusadh le taic ri PCRE_UCP</translation>
     </message>
     <message>
         <source>\c must be followed by an ASCII character</source>
-        <translation>feumaidh caractar ASCII a bhith ann às dèidh \c</translation>
+        <translation type="vanished">feumaidh caractar ASCII a bhith ann às dèidh \c</translation>
     </message>
     <message>
         <source>\k is not followed by a braced, angle-bracketed, or quoted name</source>
@@ -4132,7 +4197,7 @@ Cuir tè dhe na roghainnean sin dheth.</translation>
     </message>
     <message>
         <source>too many forward references</source>
-        <translation>tha cus reifreansan air adhart ann</translation>
+        <translation type="vanished">tha cus reifreansan air adhart ann</translation>
     </message>
     <message>
         <source>disallowed Unicode code point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</source>
@@ -4140,7 +4205,7 @@ Cuir tè dhe na roghainnean sin dheth.</translation>
     </message>
     <message>
         <source>invalid UTF-16 string</source>
-        <translation>sreang UTF-16 mhì-dhligheach</translation>
+        <translation type="vanished">sreang UTF-16 mhì-dhligheach</translation>
     </message>
     <message>
         <source>name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)</source>
@@ -4148,15 +4213,15 @@ Cuir tè dhe na roghainnean sin dheth.</translation>
     </message>
     <message>
         <source>character value in \u.... sequence is too large</source>
-        <translation>tha luach caractair ann an sreath \u.... ro mhòr</translation>
+        <translation type="vanished">tha luach caractair ann an sreath \u.... ro mhòr</translation>
     </message>
     <message>
         <source>invalid UTF-32 string</source>
-        <translation>sreang UTF-32 mhì-dhligheach</translation>
+        <translation type="vanished">sreang UTF-32 mhì-dhligheach</translation>
     </message>
     <message>
         <source>setting UTF is disabled by the application</source>
-        <translation>chaidh suidheachadh UTF a chur à comas leis an aplacaid</translation>
+        <translation type="vanished">chaidh suidheachadh UTF a chur à comas leis an aplacaid</translation>
     </message>
     <message>
         <source>non-hex character in \x{} (closing brace missing?)</source>
@@ -4183,12 +4248,412 @@ Cuir tè dhe na roghainnean sin dheth.</translation>
         <translation>chan fhaod ainm buidhinn a thòiseachadh le àireamh</translation>
     </message>
     <message>
+        <source>quantifier does not follow a repeatable item</source>
+        <translation>chan eil an t-uimhrichear a’ tighinn às dèidh nì a ghabhas atharrais</translation>
+    </message>
+    <message>
+        <source>missing closing parenthesis</source>
+        <translation>tha camag dùnaidh a dhìth</translation>
+    </message>
+    <message>
+        <source>pattern passed as NULL</source>
+        <translation>chaidh pàtran a chur ann ’na NULL</translation>
+    </message>
+    <message>
+        <source>unrecognised compile-time option bit(s)</source>
+        <translation>tha biod no dhà nach aithne dhuinn ann an roghainn àm trusaidh</translation>
+    </message>
+    <message>
+        <source>missing ) after (?# comment</source>
+        <translation>tha ) a dhìth às dèidh beachd (?#</translation>
+    </message>
+    <message>
+        <source>failed to allocate heap memory</source>
+        <translation>cha deach leinn cuimhne heap a riarachadh</translation>
+    </message>
+    <message>
+        <source>unmatched closing parenthesis</source>
+        <translation>camag dùnaidh gun seise</translation>
+    </message>
+    <message>
+        <source>letter or underscore expected after (?&lt; or (?&apos;</source>
+        <translation>thathar an dùil air litir no fo-loidhne às dèidh (?&lt; no (?&apos;</translation>
+    </message>
+    <message>
+        <source>assertion expected after (?( or (?(?C)</source>
+        <translation>tha dùil air assertion às dèidh (?( no (?(?C)</translation>
+    </message>
+    <message>
+        <source>internal error in pcre2_study(): should not occur</source>
+        <translation>mearachd inntearnail ann am pcre2_study(): cha bu chòir dha a bhith ann</translation>
+    </message>
+    <message>
+        <source>this version of PCRE2 does not have Unicode support</source>
+        <translation>cha chuir an tionndadh seo dhe PCRE2 taic ri Unicode</translation>
+    </message>
+    <message>
         <source>parentheses are too deeply nested (stack check)</source>
         <translation>tha neadachadh ro dhomhainn air na camagan (dearbhadh staca)</translation>
     </message>
     <message>
+        <source>character code point value in \x{} or \o{} is too large</source>
+        <translation>tha an luach air puing còd caractair ann an sreath \x{...} no \o{} ro mhòr</translation>
+    </message>
+    <message>
+        <source>\C is not allowed in a lookbehind assertion</source>
+        <translation>chan eil \C ceadaichte ann an lookbehind assertion</translation>
+    </message>
+    <message>
+        <source>number after (?C is greater than 255</source>
+        <translation>tha àireamh às dèidh (?C nas motha na 255</translation>
+    </message>
+    <message>
+        <source>closing parenthesis for (?C expected</source>
+        <translation>an dùil air camag a dhùineas (?C</translation>
+    </message>
+    <message>
+        <source>invalid escape sequence in (*VERB) name</source>
+        <translation>sreath teàrnaidh mì-dligheach ann an ainm (*VERB)</translation>
+    </message>
+    <message>
+        <source>two named subpatterns have the same name (PCRE2_DUPNAMES not set)</source>
+        <translation>tha an t-aon ainm air dà fho-phàtran ainmichte (cha deach PCRE2_DUPNAMES a shuidheachadh)</translation>
+    </message>
+    <message>
+        <source>this version of PCRE2 does not have support for \P, \p, or \X</source>
+        <translation>cha chuir an tionndadh seo dhe PCRE2 taic ri \P, \p no \X</translation>
+    </message>
+    <message>
+        <source>subpattern name is too long (maximum 10000 characters)</source>
+        <translation>tha ainm an fho-phàtrain ro fhada (10000 caractar air a char as motha)</translation>
+    </message>
+    <message>
+        <source>too many named subpatterns (maximum 256)</source>
+        <translation>tha cus fho-phàtranan ainmichte ann (256 air a char as motha)</translation>
+    </message>
+    <message>
+        <source>octal value is greater than \377 in 8-bit non-UTF-8 mode</source>
+        <translation>tha luach ochdach nas motha na \377 ann am modh 8-biodan gun UTF-8</translation>
+    </message>
+    <message>
+        <source>internal error: unknown newline setting</source>
+        <translation>mearachd inntearnail: roghainn loidhnichean ùra nach aithne dhuinn</translation>
+    </message>
+    <message>
+        <source>(*VERB) not recognized or malformed</source>
+        <translation>cha do dh’aithnich sinn (*VERB) no tha droch-chrùth air</translation>
+    </message>
+    <message>
+        <source>\c must be followed by a printable ASCII character</source>
+        <translation>feumaidh caractar ASCII a ghabhas clò-bhualadh a bhith ann às dèidh \c</translation>
+    </message>
+    <message>
+        <source>\c must be followed by a letter or one of [\]^_?</source>
+        <translation>feumaidh litir no fear dhe [\]^_? a bhith ann às dèidh \c</translation>
+    </message>
+    <message>
+        <source>SPARE ERROR</source>
+        <translation>MEARACHD SPARE</translation>
+    </message>
+    <message>
+        <source>using UTF is disabled by the application</source>
+        <translation>chaidh cleachdadh UTF a chur à comas leis an aplacaid</translation>
+    </message>
+    <message>
+        <source>using UCP is disabled by the application</source>
+        <translation>chaidh cleachdadh UCP a chur à comas leis an aplacaid</translation>
+    </message>
+    <message>
+        <source>character code point value in \u.... sequence is too large</source>
+        <translation>tha an luach air puing còd caractair ann an sreath \u.... ro mhòr</translation>
+    </message>
+    <message>
         <source>digits missing in \x{} or \o{}</source>
         <translation>tha àireamhan a dìth ann an \x{} no \o{}</translation>
+    </message>
+    <message>
+        <source>syntax error in (?(VERSION condition</source>
+        <translation>Mearachd co-chàraidh ann an cumha (?(VERSION</translation>
+    </message>
+    <message>
+        <source>internal error: unknown opcode in auto_possessify()</source>
+        <translation>mearachd inntearnail: tha opcode nach aithne dhuinn ann am auto_possessify()</translation>
+    </message>
+    <message>
+        <source>missing terminating delimiter for callout with string argument</source>
+        <translation>tha comharra-crìche deiridh a dhìth air gairm le argamaid sreanga</translation>
+    </message>
+    <message>
+        <source>unrecognized string delimiter follows (?C</source>
+        <translation>Tha comharra-crìche nach aithne dhuinn às dèidh (?C</translation>
+    </message>
+    <message>
+        <source>using \C is disabled by the application</source>
+        <translation>chaidh cleachdadh \C a chur à comas leis an aplacaid</translation>
+    </message>
+    <message>
+        <source>(?| and/or (?J: or (?x: parentheses are too deeply nested</source>
+        <translation>tha neadachadh ro dhomhainn air camagan (?| agus/no (?J: no (?x:</translation>
+    </message>
+    <message>
+        <source>using \C is disabled in this PCRE2 library</source>
+        <translation>chaidh cleachdadh \C a chur à comas san leabharlann PCRE2 seo</translation>
+    </message>
+    <message>
+        <source>regular expression is too complicated</source>
+        <translation>tha an t-eas-preisean riaghailteach ro thoinnte</translation>
+    </message>
+    <message>
+        <source>lookbehind assertion is too long</source>
+        <translation>tha an lookbehind assertion ro fhada</translation>
+    </message>
+    <message>
+        <source>pattern string is longer than the limit set by the application</source>
+        <translation>tha sreang a’ phàtrain nas fhaide na a’ chrìoch a chaidh a shuidheachadh leis an aplacaid</translation>
+    </message>
+    <message>
+        <source>no match</source>
+        <translation>cha deach seise a lorg</translation>
+    </message>
+    <message>
+        <source>partial match</source>
+        <translation>seise nach eil foirfe</translation>
+    </message>
+    <message>
+        <source>UTF-8 error: 1 byte missing at end</source>
+        <translation>mearachd UTF-8: tha 1 bhaidht a dhìth air an deireadh</translation>
+    </message>
+    <message>
+        <source>UTF-8 error: 2 bytes missing at end</source>
+        <translation>mearachd UTF-8: tha 2 bhaidht a dhìth air an deireadh</translation>
+    </message>
+    <message>
+        <source>UTF-8 error: 3 bytes missing at end</source>
+        <translation>mearachd UTF-8: tha 3 baidhtichean a dhìth air an deireadh</translation>
+    </message>
+    <message>
+        <source>UTF-8 error: 4 bytes missing at end</source>
+        <translation>mearachd UTF-8: tha 4 baidhtichean a dhìth air an deireadh</translation>
+    </message>
+    <message>
+        <source>UTF-8 error: 5 bytes missing at end</source>
+        <translation>mearachd UTF-8: tha 5 baidhtichean a dhìth air an deireadh</translation>
+    </message>
+    <message>
+        <source>UTF-8 error: byte 2 top bits not 0x80</source>
+        <translation>mearachd UTF-8: chan eil an 2 bhiod as àirde aig a’ bhaidht ’nan 0x80</translation>
+    </message>
+    <message>
+        <source>UTF-8 error: byte 3 top bits not 0x80</source>
+        <translation>mearachd UTF-8: chan eil na 3 biotaichean as àirde aig a’ bhaidht ’nan 0x80</translation>
+    </message>
+    <message>
+        <source>UTF-8 error: byte 4 top bits not 0x80</source>
+        <translation>mearachd UTF-8: chan eil na 4 biotaichean as àirde aig a’ bhaidht ’nan 0x80</translation>
+    </message>
+    <message>
+        <source>UTF-8 error: byte 5 top bits not 0x80</source>
+        <translation>mearachd UTF-8: chan eil na 5 biotaichean as àirde aig a’ bhaidht ’nan 0x80</translation>
+    </message>
+    <message>
+        <source>UTF-8 error: byte 6 top bits not 0x80</source>
+        <translation>mearachd UTF-8: chan eil na 6 biotaichean as àirde aig a’ bhaidht ’nan 0x80</translation>
+    </message>
+    <message>
+        <source>UTF-8 error: 5-byte character is not allowed (RFC 3629)</source>
+        <translation>mearachd UTF-8: chan eil caractar aig a bheil 5 baidhtichean ceadaichte (RFC 3629)</translation>
+    </message>
+    <message>
+        <source>UTF-8 error: 6-byte character is not allowed (RFC 3629)</source>
+        <translation>mearachd UTF-8: chan eil caractar aig a bheil 6 baidhtichean ceadaichte (RFC 3629)</translation>
+    </message>
+    <message>
+        <source>UTF-8 error: code points greater than 0x10ffff are not defined</source>
+        <translation>mearachd UTF-8: cha deach puingean còdachaidh nas motha na 0x10ffff a mhìneachadh</translation>
+    </message>
+    <message>
+        <source>UTF-8 error: code points 0xd800-0xdfff are not defined</source>
+        <translation>mearachd UTF-8: cha deach na puingean còdachaidh 0xd800-0xdfff a mhìneachadh</translation>
+    </message>
+    <message>
+        <source>UTF-8 error: overlong 2-byte sequence</source>
+        <translation>mearachd UTF-8: sreath 2 bhaidht a tha ro fhada</translation>
+    </message>
+    <message>
+        <source>UTF-8 error: overlong 3-byte sequence</source>
+        <translation>mearachd UTF-8: sreath 3 baidhtichean a tha ro fhada</translation>
+    </message>
+    <message>
+        <source>UTF-8 error: overlong 4-byte sequence</source>
+        <translation>mearachd UTF-8: sreath 4 baidhtichean a tha ro fhada</translation>
+    </message>
+    <message>
+        <source>UTF-8 error: overlong 5-byte sequence</source>
+        <translation>mearachd UTF-8: sreath 5 baidhtichean a tha ro fhada</translation>
+    </message>
+    <message>
+        <source>UTF-8 error: overlong 6-byte sequence</source>
+        <translation>mearachd UTF-8: sreath 6 baidhtichean a tha ro fhada</translation>
+    </message>
+    <message>
+        <source>UTF-8 error: isolated byte with 0x80 bit set</source>
+        <translation>mearachd UTF-8: baidht fa leth air an deach am biod 0x80 a shuidheachadh</translation>
+    </message>
+    <message>
+        <source>UTF-8 error: illegal byte (0xfe or 0xff)</source>
+        <translation>mearachd UTF-8: baidht mì-dhligheach (0xfe no 0xff)</translation>
+    </message>
+    <message>
+        <source>UTF-16 error: missing low surrogate at end</source>
+        <translation>mearachd UTF-16: tha ionadair ìosal a dhìth air an deireadh</translation>
+    </message>
+    <message>
+        <source>UTF-16 error: invalid low surrogate</source>
+        <translation>mearachd UTF-16: tha an t-ionadair ìosal mì-dhligheach</translation>
+    </message>
+    <message>
+        <source>UTF-16 error: isolated low surrogate</source>
+        <translation>mearachd UTF-16: tha an t-ionadair ìosal fa leth</translation>
+    </message>
+    <message>
+        <source>UTF-32 error: code points 0xd800-0xdfff are not defined</source>
+        <translation>mearachd UTF-32: cha deach na puingean còrachaidh 0xd800-0xdfff a mhìneachadh</translation>
+    </message>
+    <message>
+        <source>UTF-32 error: code points greater than 0x10ffff are not defined</source>
+        <translation>mearachd UTF-32: cha deach puingean còdachaidh nas motha na 0x10ffff a mhìneachadh</translation>
+    </message>
+    <message>
+        <source>bad data value</source>
+        <translation>droch-luach dàta</translation>
+    </message>
+    <message>
+        <source>patterns do not all use the same character tables</source>
+        <translation>cha chleachd na pàtranan uile na h-aon chlàran charactaran</translation>
+    </message>
+    <message>
+        <source>magic number missing</source>
+        <translation>tha àireamh dhraoidheach a dhìth</translation>
+    </message>
+    <message>
+        <source>pattern compiled in wrong mode: 8/16/32-bit error</source>
+        <translation>chaidh am pàtran a thrusadh sa mhodh chearr: mearachd 8/16/32-biod</translation>
+    </message>
+    <message>
+        <source>bad offset value</source>
+        <translation>droch-luach frìth-àireimh</translation>
+    </message>
+    <message>
+        <source>bad option value</source>
+        <translation>droch-luach roghainne</translation>
+    </message>
+    <message>
+        <source>invalid replacement string</source>
+        <translation>sreang ionadaich mhì-dhligheach</translation>
+    </message>
+    <message>
+        <source>bad offset into UTF string</source>
+        <translation>droch-fhrìth-àireimh a-steach dha shreang UTF</translation>
+    </message>
+    <message>
+        <source>callout error code</source>
+        <translation>còd mearachd gairme</translation>
+    </message>
+    <message>
+        <source>invalid data in workspace for DFA restart</source>
+        <translation>tha dàta mì-dhligheach san rum-obrach airson ath-thòiseachadh DFA</translation>
+    </message>
+    <message>
+        <source>too much recursion for DFA matching</source>
+        <translation>tha cus ath-chùrsachd airson maideadh DFA ann</translation>
+    </message>
+    <message>
+        <source>backreference condition or recursion test is not supported for DFA matching</source>
+        <translation>cha chuir maidseadh DFA taic ri cumha backreference no deuchainn air ath-chùrsachd</translation>
+    </message>
+    <message>
+        <source>function is not supported for DFA matching</source>
+        <translation>cha chuir maidseadh DFA taic ris an fhoincsean</translation>
+    </message>
+    <message>
+        <source>pattern contains an item that is not supported for DFA matching</source>
+        <translation>tha nì sa phàtran ris nach cuir maidseadh DFA taic</translation>
+    </message>
+    <message>
+        <source>workspace size exceeded in DFA matching</source>
+        <translation>tha meud an ruim-obrach ro mhòr sa mhaidseadh DFA</translation>
+    </message>
+    <message>
+        <source>internal error - pattern overwritten?</source>
+        <translation>mearachd inntearnail - an deach sgrìobhadh thairis air a’ phàtran?</translation>
+    </message>
+    <message>
+        <source>bad JIT option</source>
+        <translation>droch-roghainn JIT</translation>
+    </message>
+    <message>
+        <source>JIT stack limit reached</source>
+        <translation>ràinig sinn crìoch an staca JIT</translation>
+    </message>
+    <message>
+        <source>match limit exceeded</source>
+        <translation>chaidh sinn thar crìochan a’ mhaidsidh</translation>
+    </message>
+    <message>
+        <source>no more memory</source>
+        <translation>chan eil cuimhne air a fàgail</translation>
+    </message>
+    <message>
+        <source>unknown substring</source>
+        <translation>fo-shreang nach aithne dhuinn</translation>
+    </message>
+    <message>
+        <source>non-unique substring name</source>
+        <translation>ainm air fo-shreang nach eil fa leth</translation>
+    </message>
+    <message>
+        <source>NULL argument passed</source>
+        <translation>chaidh argamaid NULL a chur a-nall</translation>
+    </message>
+    <message>
+        <source>nested recursion at the same subject position</source>
+        <translation>tha ath-chùrsachd leabaichte air an aon ionaid cuspair</translation>
+    </message>
+    <message>
+        <source>recursion limit exceeded</source>
+        <translation>chaidh sinn thar crìochan na h-ath-chùrsachd</translation>
+    </message>
+    <message>
+        <source>requested value is not available</source>
+        <translation>chan eil an luach a dh’iarr thu ri fhaighinn</translation>
+    </message>
+    <message>
+        <source>requested value is not set</source>
+        <translation>cha deach an luach a dh’iarr thu a shuidheachadh</translation>
+    </message>
+    <message>
+        <source>offset limit set without PCRE2_USE_OFFSET_LIMIT</source>
+        <translation>chaidh crìoch na frìth-àireimh a shuidheachadh às aonais PCRE2_USE_OFFSET_LIMIT</translation>
+    </message>
+    <message>
+        <source>bad escape sequence in replacement string</source>
+        <translation>droch-shreath teàrnaidh ann an sreang ionadaich</translation>
+    </message>
+    <message>
+        <source>expected closing curly bracket in replacement string</source>
+        <translation>an dùil air camag dhualach dùnaidh ann an sreang ionadaich</translation>
+    </message>
+    <message>
+        <source>bad substitution in replacement string</source>
+        <translation>droch-ionadachadh ann an sreang ionadaich</translation>
+    </message>
+    <message>
+        <source>match with end before start is not supported</source>
+        <translation>cha chuir sinn taic ri maideadh an deiridh ro mhaidseadh an toisich</translation>
+    </message>
+    <message>
+        <source>too many replacements (more than INT_MAX)</source>
+        <translation>tha cus ionadachaidhean ann (corr is INT_MAX)</translation>
     </message>
 </context>
 <context>
@@ -4343,6 +4808,13 @@ Cuir tè dhe na roghainnean sin dheth.</translation>
     <message>
         <source>Scroll down</source>
         <translation>Sgrolaich sìos</translation>
+    </message>
+</context>
+<context>
+    <name>QSctpSocket</name>
+    <message>
+        <source>The remote host closed the connection</source>
+        <translation>Dhùin an t-òstair cèin an ceangal</translation>
     </message>
 </context>
 <context>
@@ -5841,6 +6313,21 @@ Role of an accessible object</extracomment>
     </message>
 </context>
 <context>
+    <name>QSslDiffieHellmanParameter</name>
+    <message>
+        <source>No error</source>
+        <translation>Gun mhearachd</translation>
+    </message>
+    <message>
+        <source>Invalid input data</source>
+        <translation>Dàta ion-chuir mì-dhligheach</translation>
+    </message>
+    <message>
+        <source>The given Diffie-Hellman parameters are deemed unsafe</source>
+        <translation>Thathar a’ meas nach eil na paramadairean Diffie-Hellman a chaidh a thoirt seachad sàbhailte</translation>
+    </message>
+</context>
+<context>
     <name>QSslSocket</name>
     <message>
         <source>Error when setting the elliptic curves (%1)</source>
@@ -5873,6 +6360,10 @@ Role of an accessible object</extracomment>
     <message>
         <source>Private key does not certify public key, %1</source>
         <translation>Chan eil an iuchair phrìobhaideach ’na theisteanas dhan iuchair phoblach, %1</translation>
+    </message>
+    <message>
+        <source>Diffie-Hellman parameters are not valid</source>
+        <translation>Chan eil na paramadairean Diffie-Hellman dligheach</translation>
     </message>
     <message>
         <source>OpenSSL version too old, need at least v1.0.2</source>
@@ -6194,6 +6685,17 @@ Role of an accessible object</extracomment>
     <message>
         <source>Could not reset to read data</source>
         <translation>Cha b’ urrainn dhuinn ath-shuidheachadh gus an dàta a leughadh</translation>
+    </message>
+</context>
+<context>
+    <name>QUdpSocket</name>
+    <message>
+        <source>Unable to send a datagram</source>
+        <translation>Cha b’ urrainn dhuinn an dàta-ghram a chur</translation>
+    </message>
+    <message>
+        <source>No datagram available for reading</source>
+        <translation>Chan eil dàta-ghram ri fhaighinn a chum leughaidh</translation>
     </message>
 </context>
 <context>
