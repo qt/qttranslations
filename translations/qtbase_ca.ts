@@ -839,7 +839,11 @@ Premeu Esc per cancel·lar</translation>
     </message>
     <message>
         <source>Error while renaming.</source>
-        <translation>Error en canviar de nom.</translation>
+        <translation type="vanished">Error en canviar de nom.</translation>
+    </message>
+    <message>
+        <source>Error while renaming: %1</source>
+        <translation>Error en canviar de nom: %1</translation>
     </message>
     <message>
         <source>Unable to restore from %1: %2</source>
@@ -875,6 +879,10 @@ Premeu Esc per cancel·lar</translation>
     <message>
         <source>No file engine available or engine does not support UnMapExtension</source>
         <translation>No hi ha disponible cap motor de fitxers o el motor no accepta «UnMapExtension»</translation>
+    </message>
+    <message>
+        <source>No file engine available</source>
+        <translation>No hi ha disponible cap motor de fitxers</translation>
     </message>
 </context>
 <context>
@@ -1126,23 +1134,23 @@ El voleu suprimir igualment?</translation>
     <name>QFileSystemModel</name>
     <message>
         <source>%1 TB</source>
-        <translation>%1 TB</translation>
+        <translation type="vanished">%1 TB</translation>
     </message>
     <message>
         <source>%1 GB</source>
-        <translation>%1 GB</translation>
+        <translation type="vanished">%1 GB</translation>
     </message>
     <message>
         <source>%1 MB</source>
-        <translation>%1 MB</translation>
+        <translation type="vanished">%1 MB</translation>
     </message>
     <message>
         <source>%1 KB</source>
-        <translation>%1 KB</translation>
+        <translation type="vanished">%1 KB</translation>
     </message>
     <message>
         <source>%1 bytes</source>
-        <translation>%1 bytes</translation>
+        <translation type="vanished">%1 bytes</translation>
     </message>
     <message>
         <source>Invalid filename</source>
@@ -1184,7 +1192,7 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>%1 byte(s)</source>
-        <translation>%1 byte(s)</translation>
+        <translation type="vanished">%1 byte(s)</translation>
     </message>
 </context>
 <context>
@@ -1576,7 +1584,7 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Error desconegut</translation>
+        <translation type="vanished">Error desconegut</translation>
     </message>
     <message>
         <source>Unknown error (%1)</source>
@@ -1827,6 +1835,10 @@ El voleu suprimir igualment?</translation>
         <source>Unsupported image format</source>
         <translation>Format d&apos;imatge no admès</translation>
     </message>
+    <message>
+        <source>Image is empty</source>
+        <translation>La imatge és buida</translation>
+    </message>
 </context>
 <context>
     <name>QInputDialog</name>
@@ -1948,7 +1960,6 @@ El voleu suprimir igualment?</translation>
         <source>announced %n section(s), each %1 byte(s), exceed file size</source>
         <translation>
             <numerusform>s&apos;han anunciat %n secció, cada una de %1 byte, s&apos;ha excedit la mida del fitxer</numerusform>
-            <numerusform>s&apos;han anunciat %n seccions, cada una de %1 bytes, s&apos;ha excedit la mida del fitxer</numerusform>
             <numerusform>s&apos;han anunciat %n seccions, cada una de %1 bytes, s&apos;ha excedit la mida del fitxer</numerusform>
         </translation>
     </message>
@@ -4821,6 +4832,10 @@ Desactiveu una de les dues opcions.</translation>
         <translation>El nom del fitxer es refereix a un directori</translation>
     </message>
     <message>
+        <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled: path contains an Alternate Data Stream specifier</source>
+        <translation>QSaveFile no pot obrir «%1» sense una reserva d&apos;escriptura activada: el camí conté un especificador de flux de dades alternatiu</translation>
+    </message>
+    <message>
         <source>Writing canceled by application</source>
         <translation>L&apos;aplicació ha cancel·lat l&apos;escriptura</translation>
     </message>
@@ -6449,6 +6464,10 @@ Role of an accessible object</extracomment>
         <translation>Els paràmetres del Diffie-Hellman no són vàlids</translation>
     </message>
     <message>
+        <source>OpenSSL version with disabled elliptic curves</source>
+        <translation>Vesió de l&apos;OpenSSL amb les corbes el·líptiques desactivades</translation>
+    </message>
+    <message>
         <source>OpenSSL version too old, need at least v1.0.2</source>
         <translation>La versió de l&apos;OpenSSL és massa antiga, cal com a mínim la v1.0.2</translation>
     </message>
@@ -7178,16 +7197,48 @@ La versió mínima requerida del Direct2D és %1.%2.%3.%4. La versió del Direct
         <translation>Document no vàlid.</translation>
     </message>
     <message>
+        <source>&apos;%1&apos;</source>
+        <comment>expected</comment>
+        <extracomment>&apos;&lt;first option&gt;&apos;</extracomment>
+        <translation>«%1»</translation>
+    </message>
+    <message>
+        <source>%1 or &apos;%2&apos;</source>
+        <comment>expected</comment>
+        <extracomment>&lt;first option&gt;, &apos;&lt;second option&gt;&apos;</extracomment>
+        <translation>%1 o «%2»</translation>
+    </message>
+    <message>
+        <source>%1, &apos;%2&apos;</source>
+        <comment>expected</comment>
+        <extracomment>&lt;options so far&gt;, &apos;&lt;next option&gt;&apos;</extracomment>
+        <translation>%1, «%2»</translation>
+    </message>
+    <message>
+        <source>%1, or &apos;%2&apos;</source>
+        <comment>expected</comment>
+        <extracomment>&lt;options so far&gt;, or &apos;&lt;final option&gt;&apos;</extracomment>
+        <translation>%1, o «%2»</translation>
+    </message>
+    <message>
+        <source>Expected %1, but got &apos;%2&apos;.</source>
+        <translation>S&apos;esperava %1, però s&apos;ha obtingut «%2».</translation>
+    </message>
+    <message>
+        <source>Unexpected &apos;%1&apos;.</source>
+        <translation></translation>
+    </message>
+    <message>
         <source>Expected </source>
-        <translation>S&apos;esperava </translation>
+        <translation type="vanished">S&apos;esperava </translation>
     </message>
     <message>
         <source>, but got &apos;</source>
-        <translation>, però s&apos;ha trobat &apos;</translation>
+        <translation type="vanished">, però s&apos;ha trobat &apos;</translation>
     </message>
     <message>
         <source>Unexpected &apos;</source>
-        <translation>No s&apos;esperava &apos;</translation>
+        <translation type="vanished">No s&apos;esperava &apos;</translation>
     </message>
     <message>
         <source>Expected character data.</source>
