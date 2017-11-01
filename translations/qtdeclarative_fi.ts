@@ -17,6 +17,10 @@
         <translation>Illegal method name</translation>
     </message>
     <message>
+        <source>Duplicate scoped enum name</source>
+        <translation>Duplicate scoped enum name</translation>
+    </message>
+    <message>
         <source>Duplicate signal name</source>
         <translation>Duplicate signal name</translation>
     </message>
@@ -104,6 +108,22 @@
     <message>
         <source>Expected type name</source>
         <translation>Expected type name</translation>
+    </message>
+    <message>
+        <source>Scoped enum names must begin with an upper case letter</source>
+        <translation>Scoped enum names must begin with an upper case letter</translation>
+    </message>
+    <message>
+        <source>Enum names must begin with an upper case letter</source>
+        <translation>Enum names must begin with an upper case letter</translation>
+    </message>
+    <message>
+        <source>Enum value must be an integer</source>
+        <translation>Enum value must be an integer</translation>
+    </message>
+    <message>
+        <source>Enum value out of range</source>
+        <translation>Enum value out of range</translation>
     </message>
     <message>
         <source>Signal names cannot begin with an upper case letter</source>
@@ -415,6 +435,10 @@
         <translation>SQL: tietokannan luonti epäonnistui. Offline-tietokanta ei ole käytössä.</translation>
     </message>
     <message>
+        <source>LocalStorage: can&apos;t create path %1</source>
+        <translation>LocalStorage: can&apos;t create path %1</translation>
+    </message>
+    <message>
         <source>SQL: database version mismatch</source>
         <translatorcomment>Tämä viesti on suomennettu, koska siitä voi olla hyötyä myös ongelmaa selvittävälle Qt:lla tehdyn ohjelman loppukäyttäjälle eikä tämän viestin suomentamisen luulisi vaikeuttavan ongelman selvittämistä.</translatorcomment>
         <translation>SQL: tietokannan versio ei täsmää</translation>
@@ -493,10 +517,6 @@
         <translation>module &quot;%1&quot; plugin &quot;%2&quot; not found</translation>
     </message>
     <message>
-        <source>library loading is disabled</source>
-        <translation>kirjastojen lataaminen ei ole käytössä</translation>
-    </message>
-    <message>
         <source>&quot;%1&quot; version %2.%3 is defined more than once in module &quot;%4&quot;</source>
         <translation>&quot;%1&quot; version %2.%3 is defined more than once in module &quot;%4&quot;</translation>
     </message>
@@ -543,12 +563,12 @@
 <context>
     <name>QQmlListModel</name>
     <message>
-        <source>unable to enable dynamic roles as this model is not empty!</source>
-        <translation>unable to enable dynamic roles as this model is not empty!</translation>
+        <source>unable to enable dynamic roles as this model is not empty</source>
+        <translation>unable to enable dynamic roles as this model is not empty</translation>
     </message>
     <message>
-        <source>unable to enable static roles as this model is not empty!</source>
-        <translation>unable to enable static roles as this model is not empty!</translation>
+        <source>unable to enable static roles as this model is not empty</source>
+        <translation>unable to enable static roles as this model is not empty</translation>
     </message>
     <message>
         <source>dynamic role setting must be made from the main thread, before any worker scripts are created</source>
@@ -722,6 +742,10 @@
     <message>
         <source>Stray newline in string literal</source>
         <translation>Stray newline in string literal</translation>
+    </message>
+    <message>
+        <source>End of file reached at escape sequence</source>
+        <translation>End of file reached at escape sequence</translation>
     </message>
     <message>
         <source>Illegal unicode escape sequence</source>
@@ -1091,6 +1115,11 @@
         <translation>qmldir defines type as singleton, but no pragma Singleton found in type %1.</translation>
     </message>
     <message>
+        <source>No such file or directory</source>
+        <translatorcomment>Tämä viesti on suomennettu, koska siitä voi olla hyötyä myös ongelmaa selvittävälle Qt:lla tehdyn ohjelman loppukäyttäjälle eikä tämän viestin suomentamisen luulisi vaikeuttavan ongelman selvittämistä.</translatorcomment>
+        <translation>Tiedostoa tai kansiota ei ole olemassa</translation>
+    </message>
+    <message>
         <source>module &quot;%1&quot; is not installed</source>
         <translatorcomment>Tämä viesti on suomennettu, koska siitä voi olla hyötyä myös ongelmaa selvittävälle Qt:lla tehdyn ohjelman loppukäyttäjälle eikä tämän viestin suomentamisen luulisi vaikeuttavan ongelman selvittämistä.</translatorcomment>
         <translation>moduulia ”%1” ei ole asennettu</translation>
@@ -1218,6 +1247,13 @@
     <message>
         <source>Drag is only available via attached properties</source>
         <translation>Drag is only available via attached properties</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickDragHandler</name>
+    <message>
+        <source>DragAxis is only available as a grouped property of DragHandler</source>
+        <translation>DragAxis is only available as a grouped property of DragHandler</translation>
     </message>
 </context>
 <context>
@@ -1383,9 +1419,40 @@
         <translation>Failed to get texture from provider: %1</translation>
     </message>
     <message>
+        <source>Error decoding: %1</source>
+        <translation>Error decoding: %1</translation>
+    </message>
+    <message>
         <source>Cannot open: %1</source>
         <translatorcomment>Tämä viesti on suomennettu, koska siitä voi olla hyötyä myös ongelmaa selvittävälle Qt:lla tehdyn ohjelman loppukäyttäjälle eikä tämän viestin suomentamisen luulisi vaikeuttavan ongelman selvittämistä.</translatorcomment>
         <translation>Ei voi avata: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickPointerHandler</name>
+    <message>
+        <source>PointerEvent is only available as a parameter of several signals in PointerHandler</source>
+        <translation>PointerEvent is only available as a parameter of several signals in PointerHandler</translation>
+    </message>
+    <message>
+        <source>EventPoint is only available as a member of PointerEvent</source>
+        <translation>EventPoint is only available as a member of PointerEvent</translation>
+    </message>
+    <message>
+        <source>EventTouchPoint is only available as a member of PointerEvent</source>
+        <translation>EventTouchPoint is only available as a member of PointerEvent</translation>
+    </message>
+    <message>
+        <source>PointerDevice is only available as a property of PointerEvent</source>
+        <translation>PointerDevice is only available as a property of PointerEvent</translation>
+    </message>
+    <message>
+        <source>PointingDeviceUniqueId is only available as a property of PointerEvent</source>
+        <translation>PointingDeviceUniqueId is only available as a property of PointerEvent</translation>
+    </message>
+    <message>
+        <source>PointerHandler is an abstract base class</source>
+        <translation>PointerHandler is an abstract base class</translation>
     </message>
 </context>
 <context>
@@ -1425,6 +1492,13 @@
     </message>
 </context>
 <context>
+    <name>QQuickShapeGradient</name>
+    <message>
+        <source>ShapeGradient is an abstract base class</source>
+        <translation>ShapeGradient is an abstract base class</translation>
+    </message>
+</context>
+<context>
     <name>QQuickTextUtil</name>
     <message>
         <source>%1 does not support loading non-visual cursor delegates.</source>
@@ -1433,6 +1507,13 @@
     <message>
         <source>Could not load cursor delegate</source>
         <translation>Could not load cursor delegate</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickTouchPoint</name>
+    <message>
+        <source>PointingDeviceUniqueId is only available via read-only properties</source>
+        <translation>PointingDeviceUniqueId is only available via read-only properties</translation>
     </message>
 </context>
 <context>
