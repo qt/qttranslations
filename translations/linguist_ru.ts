@@ -135,6 +135,10 @@ Will assume a single universal form.</source>
         <translation>Возможно, пропущен акселератор в переводе.</translation>
     </message>
     <message>
+        <source>Translation does not have same leading and trailing whitespace as the source text.</source>
+        <translation>У перевода нет начального и конечного пробелов аналогичных исходному тексту.</translation>
+    </message>
+    <message>
         <source>Translation does not end with the same punctuation as the source text.</source>
         <translation>Перевод не заканчивается тем же знаком препинания, что и исходный текст.</translation>
     </message>
@@ -147,12 +151,39 @@ Will assume a single universal form.</source>
         <translation>Перевод не содержит тех же маркеров форматирования, что и исходный текст.</translation>
     </message>
     <message>
-        <source>Translation does not contain the necessary %n place marker.</source>
-        <translation>Перевод не содержит необходимого маркера форматирования %n.</translation>
+        <source>Translation does not contain the necessary %n/%Ln place marker.</source>
+        <translation>Перевод не содержит необходимого маркера форматирования %n/%Ln.</translation>
     </message>
     <message>
         <source>Unknown error</source>
         <translation>Неизвестная ошибка</translation>
+    </message>
+</context>
+<context>
+    <name>FMT</name>
+    <message>
+        <source>GNU Gettext localization files</source>
+        <translation>Файлы локализации GNU Gettext</translation>
+    </message>
+    <message>
+        <source>GNU Gettext localization template files</source>
+        <translation>Файлы шаблонов локализации GNU Gettext</translation>
+    </message>
+    <message>
+        <source>Compiled Qt translations</source>
+        <translation>Скомпилированные переводы Qt</translation>
+    </message>
+    <message>
+        <source>Qt Linguist &apos;Phrase Book&apos;</source>
+        <translation>«Глоссарий» Qt Linguist</translation>
+    </message>
+    <message>
+        <source>Qt translation sources</source>
+        <translation>Исходники переводов Qt</translation>
+    </message>
+    <message>
+        <source>XLIFF localization files</source>
+        <translation>Файлы локализации XLIFF</translation>
     </message>
 </context>
 <context>
@@ -302,33 +333,6 @@ Will assume a single universal form.</source>
             <numerusform>    Пропущено %n непереведённых исходных текста</numerusform>
             <numerusform>    Пропущено %n непереведённых исходных текстов</numerusform>
         </translation>
-    </message>
-</context>
-<context>
-    <name>Linguist</name>
-    <message>
-        <source>GNU Gettext localization files</source>
-        <translation>Файлы локализации GNU Gettext</translation>
-    </message>
-    <message>
-        <source>GNU Gettext localization template files</source>
-        <translation>Файлы шаблонов локализации GNU Gettext</translation>
-    </message>
-    <message>
-        <source>Compiled Qt translations</source>
-        <translation>Скомпилированные переводы Qt</translation>
-    </message>
-    <message>
-        <source>Qt Linguist &apos;Phrase Book&apos;</source>
-        <translation>«Глоссарий» Qt Linguist</translation>
-    </message>
-    <message>
-        <source>Qt translation sources</source>
-        <translation>Исходники переводов Qt</translation>
-    </message>
-    <message>
-        <source>XLIFF localization files</source>
-        <translation>Файлы локализации XLIFF</translation>
     </message>
 </context>
 <context>
@@ -1255,6 +1259,18 @@ All files (*)</source>
     <message>
         <source>Ctrl+0</source>
         <translation>Ctrl+0</translation>
+    </message>
+    <message>
+        <source>Surrounding &amp;Whitespace.</source>
+        <translation>Обрамл&amp;ять пробелы.</translation>
+    </message>
+    <message>
+        <source>Toggle the validity check of surrounding whitespace.</source>
+        <translation>Переключение проверки обрамления пробелов.</translation>
+    </message>
+    <message>
+        <source>Toggle the validity check of surrounding whitespace. If the check fails, a message is shown in the warnings window.</source>
+        <translation>Переключение проверки обрамления пробелов. Если выявлено несовпадение, будет показано сообщение в окне предупреждений.</translation>
     </message>
 </context>
 <context>

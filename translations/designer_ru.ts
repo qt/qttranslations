@@ -853,6 +853,22 @@
         <source>Default Grid</source>
         <translation>Сетка по умолчанию</translation>
     </message>
+    <message>
+        <source>Object Naming Convention</source>
+        <translation>Правило именования объектов</translation>
+    </message>
+    <message>
+        <source>Naming convention used for generating action object names from their text</source>
+        <translation>Правило именования используется для создания имён объектов QAction по их тексту</translation>
+    </message>
+    <message>
+        <source>Camel Case</source>
+        <translation>Camel Case</translation>
+    </message>
+    <message>
+        <source>Underscore</source>
+        <translation>С подчёркиваниями</translation>
+    </message>
 </context>
 <context>
     <name>FormLayoutRowDialog</name>
@@ -950,8 +966,80 @@
 <context>
     <name>IconSelector</name>
     <message>
+        <source>The pixmap file &apos;%1&apos; cannot be read.</source>
+        <translation>Невозможно прочитать файл растрового изображения «%1».</translation>
+    </message>
+    <message>
+        <source>The file &apos;%1&apos; does not appear to be a valid pixmap file: %2</source>
+        <translation>Файл «%1» не похож на корректный файл растрового изображения: %2</translation>
+    </message>
+    <message>
+        <source>The file &apos;%1&apos; could not be read: %2</source>
+        <translation>Не удалось прочитать файл «%1»: %2</translation>
+    </message>
+    <message>
         <source>All Pixmaps (</source>
         <translation>Растровые изображения (</translation>
+    </message>
+    <message>
+        <source>Choose a Pixmap</source>
+        <translation>Выбор растрового изображения</translation>
+    </message>
+    <message>
+        <source>Pixmap Read Error</source>
+        <translation>Ошибка чтения растрового изображения</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+    <message>
+        <source>Normal Off</source>
+        <translation>Нормальный, выкл</translation>
+    </message>
+    <message>
+        <source>Normal On</source>
+        <translation>Нормальный, вкл</translation>
+    </message>
+    <message>
+        <source>Disabled Off</source>
+        <translation>Выключенный, выкл</translation>
+    </message>
+    <message>
+        <source>Disabled On</source>
+        <translation>Выключенный, вкл</translation>
+    </message>
+    <message>
+        <source>Active Off</source>
+        <translation>Активный, выкл</translation>
+    </message>
+    <message>
+        <source>Active On</source>
+        <translation>Активный, вкл</translation>
+    </message>
+    <message>
+        <source>Selected Off</source>
+        <translation>Выбранный, выкл</translation>
+    </message>
+    <message>
+        <source>Selected On</source>
+        <translation>Выбранный, вкл</translation>
+    </message>
+    <message>
+        <source>Choose Resource...</source>
+        <translation>Выбрать ресурс...</translation>
+    </message>
+    <message>
+        <source>Choose File...</source>
+        <translation>Выбрать файл...</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Сбросить</translation>
+    </message>
+    <message>
+        <source>Reset All</source>
+        <translation>Сбросить всё</translation>
     </message>
 </context>
 <context>
@@ -1694,6 +1782,13 @@ Container pages should only be added by specifying them in XML returned by the d
     <message>
         <source>An error has been encountered while parsing device profile XML: %1</source>
         <translation>Обнаружена ошибка при разборе XML профиля устройства: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QDesignerTaskMenu</name>
+    <message>
+        <source>no signals available</source>
+        <translation>Нет доступных сигналов</translation>
     </message>
 </context>
 <context>
@@ -3156,6 +3251,10 @@ Do you want overwrite the template?</source>
 <context>
     <name>WidgetDataBase</name>
     <message>
+        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
+        <translation>Обнаружен пользовательский модуль виджета, имя класса которого (%1) совпадает с уже имеющимся.</translation>
+    </message>
+    <message>
         <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
         <translation>Файл содержит пользовательский виджет «%1», базовый класс (%2) которого отличается от текущей записи в базе виджетов (%3). База виджетов оставлена без изменений.</translation>
     </message>
@@ -4107,81 +4206,6 @@ Do you want overwrite the template?</source>
     </message>
 </context>
 <context>
-    <name>qdesigner_internal::IconSelector</name>
-    <message>
-        <source>The pixmap file &apos;%1&apos; cannot be read.</source>
-        <translation>Невозможно прочитать файл растрового изображения «%1».</translation>
-    </message>
-    <message>
-        <source>The file &apos;%1&apos; does not appear to be a valid pixmap file: %2</source>
-        <translation>Файл «%1» не похож на корректный файл растрового изображения: %2</translation>
-    </message>
-    <message>
-        <source>The file &apos;%1&apos; could not be read: %2</source>
-        <translation>Не удалось прочитать файл «%1»: %2</translation>
-    </message>
-    <message>
-        <source>Choose a Pixmap</source>
-        <translation>Выбор растрового изображения</translation>
-    </message>
-    <message>
-        <source>Pixmap Read Error</source>
-        <translation>Ошибка чтения растрового изображения</translation>
-    </message>
-    <message>
-        <source>...</source>
-        <translation>...</translation>
-    </message>
-    <message>
-        <source>Normal Off</source>
-        <translation>Нормальный, выкл</translation>
-    </message>
-    <message>
-        <source>Normal On</source>
-        <translation>Нормальный, вкл</translation>
-    </message>
-    <message>
-        <source>Disabled Off</source>
-        <translation>Выключенный, выкл</translation>
-    </message>
-    <message>
-        <source>Disabled On</source>
-        <translation>Выключенный, вкл</translation>
-    </message>
-    <message>
-        <source>Active Off</source>
-        <translation>Активный, выкл</translation>
-    </message>
-    <message>
-        <source>Active On</source>
-        <translation>Активный, вкл</translation>
-    </message>
-    <message>
-        <source>Selected Off</source>
-        <translation>Выбранный, выкл</translation>
-    </message>
-    <message>
-        <source>Selected On</source>
-        <translation>Выбранный, вкл</translation>
-    </message>
-    <message>
-        <source>Choose Resource...</source>
-        <translation>Выбрать ресурс...</translation>
-    </message>
-    <message>
-        <source>Choose File...</source>
-        <translation>Выбрать файл...</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>Сбросить</translation>
-    </message>
-    <message>
-        <source>Reset All</source>
-        <translation>Сбросить всё</translation>
-    </message>
-</context>
-<context>
     <name>qdesigner_internal::IconThemeDialog</name>
     <message>
         <source>Set Icon From Theme</source>
@@ -5077,10 +5101,6 @@ Class: %2</source>
         <source>Edit WhatsThis</source>
         <translation>Правка текста подсказки режима &quot;Что это?&quot;</translation>
     </message>
-    <message>
-        <source>no signals available</source>
-        <translation>Нет доступных сигналов</translation>
-    </message>
     <message numerus="yes">
         <source>Set size constraint on %n widget(s)</source>
         <translation>
@@ -5669,13 +5689,6 @@ Class: %2</source>
     <message>
         <source>Edit name</source>
         <translation>Изменить имя</translation>
-    </message>
-</context>
-<context>
-    <name>qdesigner_internal::WidgetDataBase</name>
-    <message>
-        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
-        <translation>Обнаружен пользовательский модуль виджета, имя класса (%1) которого совпадает с уже имеющимся.</translation>
     </message>
 </context>
 <context>

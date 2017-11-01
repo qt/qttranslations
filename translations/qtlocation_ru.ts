@@ -2,6 +2,15 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="ru">
 <context>
+    <name>GeoServiceProviderFactoryEsri</name>
+    <message>
+        <source>Esri plugin requires a &apos;esri.token&apos; parameter.
+Please visit https://developers.arcgis.com/authentication/accessing-arcgis-online-services/</source>
+        <translation>Модуль Esri требует параметр «esri.token».
+Посетите https://developers.arcgis.com/authentication/accessing-arcgis-online-services/</translation>
+    </message>
+</context>
+<context>
     <name>QDeclarativeGeoMap</name>
     <message>
         <source>No Map</source>
@@ -25,6 +34,10 @@
     <message>
         <source>Cannot route, route manager not set.</source>
         <translation>Навигация невозможна, навигатор не задан.</translation>
+    </message>
+    <message>
+        <source>Cannot route, valid query not set.</source>
+        <translation>Навигация невозможна, верный запрос не задан.</translation>
     </message>
     <message>
         <source>Not enough waypoints for routing.</source>
@@ -51,7 +64,76 @@
     </message>
 </context>
 <context>
-    <name>QGeoRouteReplyOsm</name>
+    <name>QGeoMapMapboxGL</name>
+    <message>
+        <source>Development access token, do not use in production.</source>
+        <translation>Токен доступа разработчика, не использовать в релизе.</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoMappingManagerEngineItemsOverlay</name>
+    <message>
+        <source>Empty Map</source>
+        <translation>Пустая карта</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoMappingManagerEngineMapboxGL</name>
+    <message>
+        <source>Streets</source>
+        <translation>Схема</translation>
+    </message>
+    <message>
+        <source>Basic</source>
+        <translation>Базовый</translation>
+    </message>
+    <message>
+        <source>Bright</source>
+        <translation>Яркий</translation>
+    </message>
+    <message>
+        <source>Outdoors</source>
+        <translation>На улице</translation>
+    </message>
+    <message>
+        <source>Satellite</source>
+        <translation>Спутник</translation>
+    </message>
+    <message>
+        <source>Satellite Streets</source>
+        <translation>Спутник+Схема</translation>
+    </message>
+    <message>
+        <source>Light</source>
+        <translation>Светлый</translation>
+    </message>
+    <message>
+        <source>Dark</source>
+        <translation>Темный</translation>
+    </message>
+    <message>
+        <source>Navigation Preview Day</source>
+        <translation>Предпросмотр навигации днём</translation>
+    </message>
+    <message>
+        <source>Navigation Preview Night</source>
+        <translation>Предпросмотр навигации ночью</translation>
+    </message>
+    <message>
+        <source>Navigation Guidance Day</source>
+        <translation>Подсказки навигации днём</translation>
+    </message>
+    <message>
+        <source>Navigation Guidance Night</source>
+        <translation>Подсказки навигации ночью</translation>
+    </message>
+    <message>
+        <source>User provided style</source>
+        <translation>Стиль пользователя</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoRouteParserOsrmV4</name>
     <message>
         <source>Go straight.</source>
         <translation>Следуйте прямо.</translation>
@@ -118,11 +200,11 @@
     </message>
     <message>
         <source>Head on.</source>
-        <translation type="unfinished">Продолжайте движение.</translation>
+        <translation>Продолжайте движение.</translation>
     </message>
     <message>
         <source>Head onto %1.</source>
-        <translation type="unfinished">Продолжайте движение на %1.</translation>
+        <translation>Продолжайте движение на %1.</translation>
     </message>
     <message>
         <source>Enter the roundabout.</source>
@@ -214,11 +296,11 @@
     </message>
     <message>
         <source>Start at the end of the street.</source>
-        <translation type="unfinished">Начало в конце улицы.</translation>
+        <translation>Начало в конце улицы.</translation>
     </message>
     <message>
         <source>Start at the end of %1.</source>
-        <translation type="unfinished">Начало в конце %1.</translation>
+        <translation>Начало в конце %1.</translation>
     </message>
     <message>
         <source>You have reached your destination.</source>
@@ -230,11 +312,652 @@
     </message>
 </context>
 <context>
+    <name>QGeoRouteParserOsrmV5</name>
+    <message>
+        <source>North</source>
+        <extracomment>Translations exist at https://github.com/Project-OSRM/osrm-text-instructions. Always used in &quot;Head %1 [onto &lt;street name&gt;]&quot;</extracomment>
+        <translation>Север</translation>
+    </message>
+    <message>
+        <source>East</source>
+        <translation>Восток</translation>
+    </message>
+    <message>
+        <source>South</source>
+        <translation>Юг</translation>
+    </message>
+    <message>
+        <source>West</source>
+        <translation>Запад</translation>
+    </message>
+    <message>
+        <source>first</source>
+        <comment>roundabout exit</comment>
+        <extracomment>always used in &quot; and take the %1 exit [onto &lt;street name&gt;]&quot;</extracomment>
+        <translation>первый</translation>
+    </message>
+    <message>
+        <source>second</source>
+        <comment>roundabout exit</comment>
+        <translation>второй</translation>
+    </message>
+    <message>
+        <source>third</source>
+        <comment>roundabout exit</comment>
+        <translation>третий</translation>
+    </message>
+    <message>
+        <source>fourth</source>
+        <comment>roundabout exit</comment>
+        <translation>четвёртый</translation>
+    </message>
+    <message>
+        <source>fifth</source>
+        <comment>roundabout exit</comment>
+        <translation>пятый</translation>
+    </message>
+    <message>
+        <source>sixth</source>
+        <comment>roundabout exit</comment>
+        <translation>шестой</translation>
+    </message>
+    <message>
+        <source>seventh</source>
+        <comment>roundabout exit</comment>
+        <translation>седьмой</translation>
+    </message>
+    <message>
+        <source>eighth</source>
+        <comment>roundabout exit</comment>
+        <translation>восьмой</translation>
+    </message>
+    <message>
+        <source>ninth</source>
+        <comment>roundabout exit</comment>
+        <translation>девятый</translation>
+    </message>
+    <message>
+        <source>tenth</source>
+        <comment>roundabout exit</comment>
+        <translation>десятый</translation>
+    </message>
+    <message>
+        <source>eleventh</source>
+        <comment>roundabout exit</comment>
+        <translation>одиннадцатый</translation>
+    </message>
+    <message>
+        <source>twelfth</source>
+        <comment>roundabout exit</comment>
+        <translation>двенадцатый</translation>
+    </message>
+    <message>
+        <source>thirteenth</source>
+        <comment>roundabout exit</comment>
+        <translation>тринадцатый</translation>
+    </message>
+    <message>
+        <source>fourteenth</source>
+        <comment>roundabout exit</comment>
+        <translation>четырнадцатый</translation>
+    </message>
+    <message>
+        <source>fifteenth</source>
+        <comment>roundabout exit</comment>
+        <translation>пятнадцатый</translation>
+    </message>
+    <message>
+        <source>sixteenth</source>
+        <comment>roundabout exit</comment>
+        <translation>шестнадцатый</translation>
+    </message>
+    <message>
+        <source>seventeenth</source>
+        <comment>roundabout exit</comment>
+        <translation>семнадцатый</translation>
+    </message>
+    <message>
+        <source>eighteenth</source>
+        <comment>roundabout exit</comment>
+        <translation>восемнадцатый</translation>
+    </message>
+    <message>
+        <source>nineteenth</source>
+        <comment>roundabout exit</comment>
+        <translation>девятнадцатый</translation>
+    </message>
+    <message>
+        <source>twentieth</source>
+        <comment>roundabout exit</comment>
+        <translation>двадцатый</translation>
+    </message>
+    <message>
+        <source> and take the %1 exit</source>
+        <extracomment>Always appended to one of the following strings: - &quot;Enter the roundabout&quot; - &quot;Enter the rotary&quot; - &quot;Enter the rotary &lt;rotaryname&gt;&quot;</extracomment>
+        <translation> %1 съезд с кольца</translation>
+    </message>
+    <message>
+        <source> and take the %1 exit onto %2</source>
+        <translation> %1 съезд с кольца на %2</translation>
+    </message>
+    <message>
+        <source>You have arrived at your destination, straight ahead</source>
+        <translation>Вы прибыли в пункт назначения, он перед вами</translation>
+    </message>
+    <message>
+        <source>You have arrived at your destination, on the left</source>
+        <translation>Вы прибыли в пункт назначения, он слева</translation>
+    </message>
+    <message>
+        <source>You have arrived at your destination, on the right</source>
+        <translation>Вы прибыли в пункт назначения, он справа</translation>
+    </message>
+    <message>
+        <source>You have arrived at your destination</source>
+        <translation>Вы прибыли в пункт назначения</translation>
+    </message>
+    <message>
+        <source>Continue straight</source>
+        <translation>Продолжайте движение прямо</translation>
+    </message>
+    <message>
+        <source>Continue straight on %1</source>
+        <translation>Продолжайте движение прямо по %1</translation>
+    </message>
+    <message>
+        <source>Continue left</source>
+        <translation>Продолжайте движение налево</translation>
+    </message>
+    <message>
+        <source>Continue left onto %1</source>
+        <translation>Продолжайте движение налево на %1</translation>
+    </message>
+    <message>
+        <source>Continue slightly left</source>
+        <translation>Продолжайте движение левее</translation>
+    </message>
+    <message>
+        <source>Continue slightly left on %1</source>
+        <translation>Продолжайте движение левее по %1</translation>
+    </message>
+    <message>
+        <source>Continue right</source>
+        <translation>Продолжайте движение направо</translation>
+    </message>
+    <message>
+        <source>Continue right onto %1</source>
+        <translation>Продолжайте движение направо на %1</translation>
+    </message>
+    <message>
+        <source>Continue slightly right</source>
+        <translation>Продолжайте движение правее</translation>
+    </message>
+    <message>
+        <source>Continue slightly right on %1</source>
+        <translation>Продолжайте движение правее по %1</translation>
+    </message>
+    <message>
+        <source>Make a U-turn</source>
+        <translation>Развернитесь</translation>
+    </message>
+    <message>
+        <source>Make a U-turn onto %1</source>
+        <translation>Развернитесь на %1</translation>
+    </message>
+    <message>
+        <source>Continue</source>
+        <translation>Продолжайте движение</translation>
+    </message>
+    <message>
+        <source>Continue on %1</source>
+        <translation>Продолжайте движение по %1</translation>
+    </message>
+    <message>
+        <source>Head %1</source>
+        <translation>Направляйтесь на %1</translation>
+    </message>
+    <message>
+        <source>Head %1 onto %2</source>
+        <translation>Направляйтесь на %1 на %2</translation>
+    </message>
+    <message>
+        <source>Depart</source>
+        <translation>Отправляйтесь</translation>
+    </message>
+    <message>
+        <source>Depart onto %1</source>
+        <translation>Отправляйтесь по %1</translation>
+    </message>
+    <message>
+        <source>At the end of the road, turn left</source>
+        <translation>В конце дороги поверните налево</translation>
+    </message>
+    <message>
+        <source>At the end of the road, turn left onto %1</source>
+        <translation>В конце дороги поверните налево на %1</translation>
+    </message>
+    <message>
+        <source>At the end of the road, turn right</source>
+        <translation>В конце дороги поверните направо</translation>
+    </message>
+    <message>
+        <source>At the end of the road, turn right onto %1</source>
+        <translation>В конце дороги поверните направо на %1</translation>
+    </message>
+    <message>
+        <source>At the end of the road, make a U-turn</source>
+        <translation>Развернитесь в конце дороги</translation>
+    </message>
+    <message>
+        <source>At the end of the road, make a U-turn onto %1</source>
+        <translation>Развернитесь в конце дороги на %1</translation>
+    </message>
+    <message>
+        <source>At the end of the road, continue straight</source>
+        <translation>В конце дороги продолжайте движение прямо</translation>
+    </message>
+    <message>
+        <source>At the end of the road, continue straight onto %1</source>
+        <translation>В конце дороги продолжайте движение прямо на %1</translation>
+    </message>
+    <message>
+        <source>At the end of the road, continue</source>
+        <translation>В конце дороги продолжайте движение</translation>
+    </message>
+    <message>
+        <source>At the end of the road, continue onto %1</source>
+        <translation>В конце дороги продолжайте движение на %1</translation>
+    </message>
+    <message>
+        <source>Take the ferry</source>
+        <translation>Погрузитесь на паром</translation>
+    </message>
+    <message>
+        <source>At the fork, take a sharp left</source>
+        <translation>На развилке резко поверните налево</translation>
+    </message>
+    <message>
+        <source>At the fork, take a sharp left onto %1</source>
+        <translation>На развилке резко поверните налево на %1</translation>
+    </message>
+    <message>
+        <source>At the fork, turn left</source>
+        <translation>На развилке поверните налево</translation>
+    </message>
+    <message>
+        <source>At the fork, turn left onto %1</source>
+        <translation>На развилке поверните налево на %1</translation>
+    </message>
+    <message>
+        <source>At the fork, keep left</source>
+        <translation>На развилке держитесь левее</translation>
+    </message>
+    <message>
+        <source>At the fork, keep left onto %1</source>
+        <translation>На развилке держитесь левее на %1</translation>
+    </message>
+    <message>
+        <source>At the fork, take a sharp right</source>
+        <translation>На развилке резко поверните направо</translation>
+    </message>
+    <message>
+        <source>At the fork, take a sharp right onto %1</source>
+        <translation>На развилке резко поверните направо на %1</translation>
+    </message>
+    <message>
+        <source>At the fork, turn right</source>
+        <translation>На развилке поверните направо</translation>
+    </message>
+    <message>
+        <source>At the fork, turn right onto %1</source>
+        <translation>На развилке поверните направо на %1</translation>
+    </message>
+    <message>
+        <source>At the fork, keep right</source>
+        <translation>На развилке держитесь правее</translation>
+    </message>
+    <message>
+        <source>At the fork, keep right onto %1</source>
+        <translation>На развилке держитесь правее на %1</translation>
+    </message>
+    <message>
+        <source>At the fork, continue straight ahead</source>
+        <translation>На развилке продолжайте движение прямо</translation>
+    </message>
+    <message>
+        <source>At the fork, continue straight ahead onto %1</source>
+        <translation>На развилке продолжайте движение прямо на %1</translation>
+    </message>
+    <message>
+        <source>At the fork, continue</source>
+        <translation>На развилке продолжайте движение</translation>
+    </message>
+    <message>
+        <source>At the fork, continue onto %1</source>
+        <translation>На развилке продолжайте движение на %1</translation>
+    </message>
+    <message>
+        <source>Merge sharply left</source>
+        <translation>Быстро перестройтесь налево</translation>
+    </message>
+    <message>
+        <source>Merge sharply left onto %1</source>
+        <translation>Быстро перестройтесь налево на %1</translation>
+    </message>
+    <message>
+        <source>Merge left</source>
+        <translation>Перестройтесь левее</translation>
+    </message>
+    <message>
+        <source>Merge left onto %1</source>
+        <translation>Перестройтесь левее на %1</translation>
+    </message>
+    <message>
+        <source>Merge slightly left</source>
+        <translation>Перестройтесь немного левее</translation>
+    </message>
+    <message>
+        <source>Merge slightly left on %1</source>
+        <translation>Перестройтесь немного левее на %1</translation>
+    </message>
+    <message>
+        <source>Merge sharply right</source>
+        <translation>Быстро перестройтесь направо</translation>
+    </message>
+    <message>
+        <source>Merge sharply right onto %1</source>
+        <translation>Быстро перестройтесь направо на %1</translation>
+    </message>
+    <message>
+        <source>Merge right</source>
+        <translation>Перестройтесь правее</translation>
+    </message>
+    <message>
+        <source>Merge right onto %1</source>
+        <translation>Перестройтесь правее на %1</translation>
+    </message>
+    <message>
+        <source>Merge slightly right</source>
+        <translation>Перестройтесь немного правее</translation>
+    </message>
+    <message>
+        <source>Merge slightly right on %1</source>
+        <translation>Перестройтесь немного правее на %1</translation>
+    </message>
+    <message>
+        <source>Merge straight</source>
+        <translatorcomment>Бред какой-то</translatorcomment>
+        <translation type="unfinished">Перестройтесь прямо</translation>
+    </message>
+    <message>
+        <source>Merge straight on %1</source>
+        <translation type="unfinished">Перестройтесь прямо на %1</translation>
+    </message>
+    <message>
+        <source>Merge</source>
+        <translation>Перестройтесь</translation>
+    </message>
+    <message>
+        <source>Merge onto %1</source>
+        <translation>Перестройтесь на %1</translation>
+    </message>
+    <message>
+        <source>Take a sharp left</source>
+        <translation>Крутой поворот налево</translation>
+    </message>
+    <message>
+        <source>Take a sharp left onto %1</source>
+        <translation>Крутой поворот налево на %1</translation>
+    </message>
+    <message>
+        <source>Turn left</source>
+        <translation>Поверните налево</translation>
+    </message>
+    <message>
+        <source>Turn left onto %1</source>
+        <translation>Поверните налево на %1</translation>
+    </message>
+    <message>
+        <source>Continue slightly left onto %1</source>
+        <translation>Продолжайте движение левее на %1</translation>
+    </message>
+    <message>
+        <source>Take a sharp right</source>
+        <translation>Крутой поворот направо</translation>
+    </message>
+    <message>
+        <source>Take a sharp right onto %1</source>
+        <translation>Крутой поворот направо на %1</translation>
+    </message>
+    <message>
+        <source>Turn right</source>
+        <translation>Поверните направо</translation>
+    </message>
+    <message>
+        <source>Turn right onto %1</source>
+        <translation>Поверните направо на %1</translation>
+    </message>
+    <message>
+        <source>Continue slightly right onto %1</source>
+        <translation>Продолжайте движение правее на %1</translation>
+    </message>
+    <message>
+        <source>Continue straight onto %1</source>
+        <translation>Продолжайте движение прямо на %1</translation>
+    </message>
+    <message>
+        <source>Continue onto %1</source>
+        <translation>Продолжайте движение на %1</translation>
+    </message>
+    <message>
+        <source>Continue on the left</source>
+        <translation>Продолжайте движение налево</translation>
+    </message>
+    <message>
+        <source>Continue on the left on %1</source>
+        <translation>Продолжайте движение налево на %1</translation>
+    </message>
+    <message>
+        <source>Continue on the right</source>
+        <translation>Продолжайте движение направо</translation>
+    </message>
+    <message>
+        <source>Continue on the right on %1</source>
+        <translation>Продолжайте движение направо на %1</translation>
+    </message>
+    <message>
+        <source>Take the ramp on the left</source>
+        <translation>Сверните на левый съезд</translation>
+    </message>
+    <message>
+        <source>Take the ramp on the left onto %1</source>
+        <translation>Сверните на левый съезд на %1</translation>
+    </message>
+    <message>
+        <source>Take the ramp on the right</source>
+        <translation>Сверните на правый съезд</translation>
+    </message>
+    <message>
+        <source>Take the ramp on the right onto %1</source>
+        <translation>Сверните на правый съезд на %1</translation>
+    </message>
+    <message>
+        <source>Take the ramp</source>
+        <translation>Сверните на съезд</translation>
+    </message>
+    <message>
+        <source>Take the ramp onto %1</source>
+        <translation>Сверните на съезд на %1</translation>
+    </message>
+    <message>
+        <source>Get off the bike and push</source>
+        <translation>Слезьте с велосипеда и толкайте его</translation>
+    </message>
+    <message>
+        <source>Get off the bike and push onto %1</source>
+        <translation>Слезьте с велосипеда и толкайте его на %1</translation>
+    </message>
+    <message>
+        <source>Enter the rotary</source>
+        <extracomment>This string will be prepended to &quot; and take the &lt;nth&gt; exit [onto &lt;streetname&gt;]</extracomment>
+        <translation>Въезжайте на круговую развязку</translation>
+    </message>
+    <message>
+        <source>Enter the roundabout</source>
+        <extracomment>This string will be prepended to &quot; and take the &lt;nth&gt; exit [onto &lt;streetname&gt;]</extracomment>
+        <translation>Въезжайте на круг</translation>
+    </message>
+    <message>
+        <source>At the roundabout, continue straight</source>
+        <translation>На круге продолжайте движение прямо</translation>
+    </message>
+    <message>
+        <source>At the roundabout, continue straight on %1</source>
+        <translation>На круге продолжайте движение прямо по %1</translation>
+    </message>
+    <message>
+        <source>At the roundabout, turn left</source>
+        <translation>На круге поверните налево</translation>
+    </message>
+    <message>
+        <source>At the roundabout, turn left onto %1</source>
+        <translation>На круге поверните налево на %1</translation>
+    </message>
+    <message>
+        <source>At the roundabout, turn right</source>
+        <translation>На круге поверните направо</translation>
+    </message>
+    <message>
+        <source>At the roundabout, turn right onto %1</source>
+        <translation>На круге поверните направо на %1</translation>
+    </message>
+    <message>
+        <source>At the roundabout, turn around</source>
+        <translation>Развернитесь на круге</translation>
+    </message>
+    <message>
+        <source>At the roundabout, turn around onto %1</source>
+        <translation>Развернитесь на круге на %1</translation>
+    </message>
+    <message>
+        <source>At the roundabout, continue</source>
+        <translation>Продолжайте движение по кругу</translation>
+    </message>
+    <message>
+        <source>At the roundabout, continue onto %1</source>
+        <translation>Продолжайте движение по кругу на %1</translation>
+    </message>
+    <message>
+        <source>Take the train</source>
+        <translation>Сядьте в поезд</translation>
+    </message>
+    <message>
+        <source>Take the train [%1]</source>
+        <translation>Сядьте в поезд [%1]</translation>
+    </message>
+    <message>
+        <source>Go straight</source>
+        <translation>Следуйте прямо</translation>
+    </message>
+    <message>
+        <source>Go straight onto %1</source>
+        <translation>Следуйте прямо на %1</translation>
+    </message>
+    <message>
+        <source>Turn slightly left</source>
+        <translation>Возьмите левее</translation>
+    </message>
+    <message>
+        <source>Turn slightly left onto %1</source>
+        <translation>Возьмите левее на %1</translation>
+    </message>
+    <message>
+        <source>Turn slightly right</source>
+        <translation>Возьмите правее</translation>
+    </message>
+    <message>
+        <source>Turn slightly right onto %1</source>
+        <translation>Возьмите правее на %1</translation>
+    </message>
+    <message>
+        <source>Turn</source>
+        <translation>Поверните</translation>
+    </message>
+    <message>
+        <source>Turn onto %1</source>
+        <translation>Поверните на %1</translation>
+    </message>
+    <message>
+        <source> and continue straight</source>
+        <translation> и продолжайте движение прямо</translation>
+    </message>
+    <message>
+        <source> and continue straight onto %1</source>
+        <translation> и продолжайте движение прямо на %1</translation>
+    </message>
+    <message>
+        <source> and make a sharp left</source>
+        <translation> и резко поверните налево</translation>
+    </message>
+    <message>
+        <source> and make a sharp left onto %1</source>
+        <translation> и резко поверните налево на %1</translation>
+    </message>
+    <message>
+        <source> and turn left</source>
+        <translation> и поверните налево</translation>
+    </message>
+    <message>
+        <source> and turn left onto %1</source>
+        <translation> и поверните налево на %1</translation>
+    </message>
+    <message>
+        <source> and make a slight left</source>
+        <translation> и возьмите левее</translation>
+    </message>
+    <message>
+        <source> and make a slight left onto %1</source>
+        <translation> и возьмите левее на %1</translation>
+    </message>
+    <message>
+        <source> and make a sharp right</source>
+        <translation> и резко поверните направо</translation>
+    </message>
+    <message>
+        <source> and make a sharp right onto %1</source>
+        <translation> и резко поверните направо на %1</translation>
+    </message>
+    <message>
+        <source> and turn right</source>
+        <translation> и поверните направо</translation>
+    </message>
+    <message>
+        <source> and turn right onto %1</source>
+        <translation> и поверните направо на %1</translation>
+    </message>
+    <message>
+        <source> and make a slight right</source>
+        <translation> и возьмите правее</translation>
+    </message>
+    <message>
+        <source> and make a slight right onto %1</source>
+        <translation> и возьмите правее на %1</translation>
+    </message>
+    <message>
+        <source> and make a U-turn</source>
+        <translation> и развернитесь</translation>
+    </message>
+    <message>
+        <source> and make a U-turn onto %1</source>
+        <translation> и развернитесь на %1</translation>
+    </message>
+</context>
+<context>
     <name>QGeoServiceProviderFactoryMapbox</name>
     <message>
-        <source>Mapbox plugin requires &apos;mapbox.map_id&apos; and &apos;mapbox.access_token&apos; parameters.
+        <source>Mapbox plugin requires a &apos;mapbox.access_token&apos; parameter.
 Please visit https://www.mapbox.com</source>
-        <translation>Модулю Mapbox требуются параметры «mapbox.map_id» и «mapbox.access_token».
+        <translation>Модулю Mapbox требуется параметр «mapbox.access_token».
 Посетите https://www.mapbox.com</translation>
     </message>
 </context>
@@ -246,29 +969,77 @@ Please visit https://www.mapbox.com</source>
     </message>
 </context>
 <context>
-    <name>QGeoTiledMapOsm</name>
-    <message>
-        <source>Tiles Courtesy of &lt;a href=&apos;http://www.mapquest.com/&apos;&gt;MapQuest&lt;/a&gt;&lt;br/&gt;Data &amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt; contributors</source>
-        <translation type="unfinished">Сегменты предоставлены &lt;a href=&apos;http://www.mapquest.com/&apos;&gt;MapQuest&lt;/a&gt;&lt;br/&gt;Данные &amp;copy; участники &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <source>Maps &amp;copy; &lt;a href=&apos;http://www.thunderforest.com/&apos;&gt;Thunderforest&lt;/a&gt;&lt;br/&gt;Data &amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt; contributors</source>
-        <translation type="unfinished">Карты &amp;copy; &lt;a href=&apos;http://www.thunderforest.com/&apos;&gt;Thunderforest&lt;/a&gt;&lt;br/&gt;Данные &amp;copy; участники &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <source>&amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt; contributors</source>
-        <translation type="unfinished">&amp;copy; участники &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt;</translation>
-    </message>
-</context>
-<context>
     <name>QGeoTiledMappingManagerEngineMapbox</name>
     <message>
-        <source>Custom</source>
-        <translation>Особая</translation>
+        <source>Street</source>
+        <extracomment>Noun describing map type &apos;Street map&apos;</extracomment>
+        <translation type="unfinished">Схема</translation>
     </message>
     <message>
-        <source>Mapbox custom map</source>
-        <translation>Особая карта Mapbox</translation>
+        <source>Light</source>
+        <extracomment>Noun describing type of a map using light colors (weak contrast)</extracomment>
+        <translation type="unfinished">Светлая</translation>
+    </message>
+    <message>
+        <source>Dark</source>
+        <extracomment>Noun describing type of a map using dark colors</extracomment>
+        <translation type="unfinished">Темная</translation>
+    </message>
+    <message>
+        <source>Satellite</source>
+        <extracomment>Noun describing type of a map created by satellite</extracomment>
+        <translation type="unfinished">Спутниковая</translation>
+    </message>
+    <message>
+        <source>Streets Satellite</source>
+        <extracomment>Noun describing type of a street map created by satellite</extracomment>
+        <translation type="unfinished">Спутник+Схема</translation>
+    </message>
+    <message>
+        <source>Wheatpaste</source>
+        <extracomment>Noun describing type of a map using wheat paste colors</extracomment>
+        <translatorcomment>Как перевести не знаю. Буквальный перевод &quot;Клейстер&quot;.</translatorcomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Streets Basic</source>
+        <extracomment>Noun describing type of a basic street map</extracomment>
+        <translation type="unfinished">Стандартная</translation>
+    </message>
+    <message>
+        <source>Comic</source>
+        <extracomment>Noun describing type of a map using cartoon-style fonts</extracomment>
+        <translation type="unfinished">Комическая</translation>
+    </message>
+    <message>
+        <source>Outdoors</source>
+        <extracomment>Noun describing type of a map for outdoor activities</extracomment>
+        <translation type="unfinished">Уличная</translation>
+    </message>
+    <message>
+        <source>Run Bike Hike</source>
+        <extracomment>Noun describing type of a map for sports</extracomment>
+        <translation type="unfinished">Спортивная</translation>
+    </message>
+    <message>
+        <source>Pencil</source>
+        <extracomment>Noun describing type of a map drawn by pencil</extracomment>
+        <translation type="unfinished">В карандаше</translation>
+    </message>
+    <message>
+        <source>Pirates</source>
+        <extracomment>Noun describing type of a treasure map with pirate boat watermark</extracomment>
+        <translation type="unfinished">Пиратская</translation>
+    </message>
+    <message>
+        <source>Emerald</source>
+        <extracomment>Noun describing type of a map using emerald colors</extracomment>
+        <translation type="unfinished">Изумрудная</translation>
+    </message>
+    <message>
+        <source>High Contrast</source>
+        <extracomment>Noun describing type of a map with high contrast</extracomment>
+        <translation type="unfinished">Высококонтрастная</translation>
     </message>
 </context>
 <context>
@@ -570,10 +1341,6 @@ Please visit https://www.mapbox.com</source>
 </context>
 <context>
     <name>QPlaceSearchReplyOsm</name>
-    <message>
-        <source>Communication error</source>
-        <translation>Ошибка связи</translation>
-    </message>
     <message>
         <source>Response parse error</source>
         <translation>Ошибка разбора ответа</translation>

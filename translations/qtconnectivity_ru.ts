@@ -8,12 +8,28 @@
         <translation>Неверный адрес адаптера Bluetooth</translation>
     </message>
     <message>
+        <source>One or more device discovery methods are not supported on this platform</source>
+        <translation>Один или более методов обнаружения устройств не поддерживается данной платформой</translation>
+    </message>
+    <message>
         <source>Device does not support Bluetooth</source>
         <translation>Устройство не поддерживает Bluetooth</translation>
     </message>
     <message>
         <source>Passed address is not a local device.</source>
         <translation>Передан адрес не локального устройства.</translation>
+    </message>
+    <message>
+        <source>Missing Location permission. Search is not possible.</source>
+        <translation>Отсутствует разрешение на определение местоположения. Поиск невозможен.</translation>
+    </message>
+    <message>
+        <source>Classic Discovery cannot be started</source>
+        <translation>Невозможно запустить классическое обнаружение</translation>
+    </message>
+    <message>
+        <source>Low Energy Discovery not supported</source>
+        <translation>Обнаружение в режиме низкого потребления энергии не поддерживается</translation>
     </message>
     <message>
         <source>Device is powered off</source>
@@ -34,10 +50,6 @@
     <message>
         <source>Cannot start low energy device inquiry</source>
         <translation>Невозможно запустить опрос спящих устройств</translation>
-    </message>
-    <message>
-        <source>Discovery cannot be started</source>
-        <translation>Невозможно запустить обнаружение</translation>
     </message>
     <message>
         <source>Discovery cannot be stopped</source>
@@ -272,7 +284,7 @@
     </message>
     <message>
         <source>Next DST Change Service</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Сервис следующей смены летнего/зимнего времени</translation>
     </message>
     <message>
         <source>Glucose</source>
@@ -312,7 +324,7 @@
     </message>
     <message>
         <source>Cycling Power</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Энергия велосипедиста</translation>
     </message>
     <message>
         <source>Location and Navigation</source>
@@ -336,11 +348,11 @@
     </message>
     <message>
         <source>Telephony Control Specification - Binary</source>
-        <translation type="unfinished"></translation>
+        <translation>Спецификация управления телефоном - Двоичная</translation>
     </message>
     <message>
         <source>Telephony Control Specification - AT</source>
-        <translation type="unfinished"></translation>
+        <translation>Спецификация управления телефоном - AT</translation>
     </message>
     <message>
         <source>Attribute Protocol</source>
@@ -498,11 +510,11 @@
     </message>
     <message>
         <source>Day Date Time</source>
-        <translation type="unfinished"></translation>
+        <translation>День Дата Время</translation>
     </message>
     <message>
         <source>Exact Time 256</source>
-        <translation type="unfinished"></translation>
+        <translation>Точное время 256</translation>
     </message>
     <message>
         <source>DST Offset</source>
@@ -1262,6 +1274,11 @@
         <translation>Не удалось получить потоки сервиса</translation>
     </message>
     <message>
+        <source>Cannot connect to %1</source>
+        <comment>%1 = uuid</comment>
+        <translation>Невозможно подключиться к %1</translation>
+    </message>
+    <message>
         <source>Input stream thread cannot be started</source>
         <translation>Не удалось запустить процесс входного потока</translation>
     </message>
@@ -1288,6 +1305,30 @@
     <message>
         <source>Cannot set connection security level</source>
         <translation>Не удалось задать уровень безопасности подключения</translation>
+    </message>
+    <message>
+        <source>Network Error: %1</source>
+        <translation>Ошибка сети: %1</translation>
+    </message>
+    <message>
+        <source>Network error</source>
+        <translation>Ошибка сети</translation>
+    </message>
+    <message>
+        <source>Remote host closed connection</source>
+        <translation>Удалённый узел закрыл соединение</translation>
+    </message>
+    <message>
+        <source>Connection timed out</source>
+        <translation>Время подключения истекло</translation>
+    </message>
+    <message>
+        <source>Host not reachable</source>
+        <translation>Узел недоступен</translation>
+    </message>
+    <message>
+        <source>Host refused connection</source>
+        <translation>Узел отклонил подключение</translation>
     </message>
 </context>
 <context>
@@ -1377,6 +1418,26 @@
     <message>
         <source>Error occurred trying to start advertising</source>
         <translation>Возникла ошибка при попытке запуска Bluetooth-маркетинга</translation>
+    </message>
+    <message>
+        <source>Remote device closed the connection</source>
+        <translation>Удалённое устройство закрыло подключение</translation>
+    </message>
+    <message>
+        <source>Advertisement data is larger than 31 bytes</source>
+        <translation>Данные анонса больше 31 байта</translation>
+    </message>
+    <message>
+        <source>Advertisement feature not supported on the platform</source>
+        <translation>Анонс не поддерживается на данной платформе</translation>
+    </message>
+    <message>
+        <source>Failed due to too many advertisers</source>
+        <translation>Не удалось из-за большого числа анонсов</translation>
+    </message>
+    <message>
+        <source>Unknown advertisement error</source>
+        <translation>Неизвестная ошибка анонса</translation>
     </message>
 </context>
 </TS>
