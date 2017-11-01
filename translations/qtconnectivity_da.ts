@@ -52,6 +52,10 @@
         <translation>Videregivet adresse er ikke en lokal enhed.</translation>
     </message>
     <message>
+        <source>Missing Location permission. Search is not possible.</source>
+        <translation>Manglende placeringstilladelse. Søgning er ikke mulig.</translation>
+    </message>
+    <message>
         <source>Missing Location permission. Search is not possible</source>
         <translation>Manglende placeringstilladelse. Søgning er ikke mulig</translation>
     </message>
@@ -152,7 +156,7 @@
     </message>
     <message>
         <source>LAN Access Profile</source>
-        <translation type="unfinished"></translation>
+        <translation>LAN-adgangsprofil</translation>
     </message>
     <message>
         <source>Dial-Up Networking</source>
@@ -184,11 +188,11 @@
     </message>
     <message>
         <source>Audio Sink</source>
-        <translation type="unfinished"></translation>
+        <translation>Lyd-sink</translation>
     </message>
     <message>
         <source>Audio/Video Remote Control Target</source>
-        <translation type="unfinished"></translation>
+        <translation>Mål for fjernbetjening til lyd/video</translation>
     </message>
     <message>
         <source>Advanced Audio Distribution</source>
@@ -196,11 +200,11 @@
     </message>
     <message>
         <source>Audio/Video Remote Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Fjernbetjening til lyd/video</translation>
     </message>
     <message>
         <source>Audio/Video Remote Control Controller</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontroller for fjernbetjening til lyd/video</translation>
     </message>
     <message>
         <source>Headset AG</source>
@@ -220,11 +224,11 @@
     </message>
     <message>
         <source>Basic Direct Printing (BPP)</source>
-        <translation type="unfinished"></translation>
+        <translation>Grundlæggende direkte udskrivning (BPP)</translation>
     </message>
     <message>
         <source>Basic Reference Printing (BPP)</source>
-        <translation type="unfinished"></translation>
+        <translation>Grundlæggende reference udskrivning (BPP)</translation>
     </message>
     <message>
         <source>Basic Imaging Profile</source>
@@ -368,7 +372,7 @@
     </message>
     <message>
         <source>Video Sink</source>
-        <translation type="unfinished"></translation>
+        <translation>Video-sink</translation>
     </message>
     <message>
         <source>Video Distribution</source>
@@ -376,15 +380,15 @@
     </message>
     <message>
         <source>Health Device</source>
-        <translation type="unfinished"></translation>
+        <translation>Helbredsenhed</translation>
     </message>
     <message>
         <source>Health Device Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Helbredsenhedskilde</translation>
     </message>
     <message>
         <source>Health Device Sink</source>
-        <translation type="unfinished"></translation>
+        <translation>Helbredsenhed-sink</translation>
     </message>
     <message>
         <source>Generic Access</source>
@@ -400,7 +404,7 @@
     </message>
     <message>
         <source>Link Loss</source>
-        <translation type="unfinished"></translation>
+        <translation>Link tab</translation>
     </message>
     <message>
         <source>Tx Power</source>
@@ -408,7 +412,7 @@
     </message>
     <message>
         <source>Current Time Service</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuelle tid-tjeneste</translation>
     </message>
     <message>
         <source>Reference Time Update Service</source>
@@ -424,7 +428,7 @@
     </message>
     <message>
         <source>Health Thermometer</source>
-        <translation type="unfinished"></translation>
+        <translation>Helbredstermometer</translation>
     </message>
     <message>
         <source>Device Information</source>
@@ -432,7 +436,7 @@
     </message>
     <message>
         <source>Heart Rate</source>
-        <translation type="unfinished"></translation>
+        <translation>Puls</translation>
     </message>
     <message>
         <source>Phone Alert Status Service</source>
@@ -452,31 +456,31 @@
     </message>
     <message>
         <source>Scan Parameters</source>
-        <translation type="unfinished"></translation>
+        <translation>Skan parametre</translation>
     </message>
     <message>
         <source>Running Speed and Cadence</source>
-        <translation type="unfinished"></translation>
+        <translation>Løb hastighed og kadence</translation>
     </message>
     <message>
         <source>Cycling Speed and Cadence</source>
-        <translation type="unfinished"></translation>
+        <translation>Cykling hastighed og kadence</translation>
     </message>
     <message>
         <source>Cycling Power</source>
-        <translation type="unfinished"></translation>
+        <translation>Cykling ydelse</translation>
     </message>
     <message>
         <source>Location and Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>Placering og navigation</translation>
     </message>
     <message>
         <source>Environmental Sensing</source>
-        <translation type="unfinished"></translation>
+        <translation>Miljøsansning</translation>
     </message>
     <message>
         <source>Body Composition</source>
-        <translation type="unfinished"></translation>
+        <translation>Kropssammensætning</translation>
     </message>
     <message>
         <source>User Data</source>
@@ -634,7 +638,7 @@
     </message>
     <message>
         <source>Date Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Dato klokkeslæt</translation>
     </message>
     <message>
         <source>Day Of Week</source>
@@ -642,7 +646,7 @@
     </message>
     <message>
         <source>Day Date Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Dag dato klokkeslæt</translation>
     </message>
     <message>
         <source>Exact Time 256</source>
@@ -666,7 +670,7 @@
     </message>
     <message>
         <source>Time Accuracy</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidspræcision</translation>
     </message>
     <message>
         <source>Time Source</source>
@@ -674,11 +678,11 @@
     </message>
     <message>
         <source>Reference Time Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Referencetidsinformation</translation>
     </message>
     <message>
         <source>Time Update Control Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidsopdatering kontrolpunkt</translation>
     </message>
     <message>
         <source>Time Update State</source>
@@ -702,11 +706,11 @@
     </message>
     <message>
         <source>Intermediate Temperature</source>
-        <translation type="unfinished"></translation>
+        <translation>Middeltemperatur</translation>
     </message>
     <message>
         <source>Measurement Interval</source>
-        <translation type="unfinished"></translation>
+        <translation>Interval for måling</translation>
     </message>
     <message>
         <source>Boot Keyboard Input Report</source>
@@ -746,7 +750,7 @@
     </message>
     <message>
         <source>Current Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuelle tid</translation>
     </message>
     <message>
         <source>Scan Refresh</source>
@@ -774,15 +778,15 @@
     </message>
     <message>
         <source>Heart Rate Measurement</source>
-        <translation type="unfinished"></translation>
+        <translation>Pulsmåling</translation>
     </message>
     <message>
         <source>Body Sensor Location</source>
-        <translation type="unfinished"></translation>
+        <translation>Placering af kropssensor</translation>
     </message>
     <message>
         <source>Heart Rate Control Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Puls-kontrolpunkt</translation>
     </message>
     <message>
         <source>Alert Status</source>
@@ -790,11 +794,11 @@
     </message>
     <message>
         <source>Ringer Control Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Ringer-kontrolpunkt</translation>
     </message>
     <message>
         <source>Ringer Setting</source>
-        <translation type="unfinished"></translation>
+        <translation>Ringer-indstilling</translation>
     </message>
     <message>
         <source>Alert Category ID Bit Mask</source>
@@ -835,7 +839,7 @@
     </message>
     <message>
         <source>Report Map</source>
-        <translation type="unfinished"></translation>
+        <translation>Rapportkort</translation>
     </message>
     <message>
         <source>HID Control Point</source>
@@ -844,7 +848,7 @@
     </message>
     <message>
         <source>Report</source>
-        <translation type="unfinished"></translation>
+        <translation>Rapport</translation>
     </message>
     <message>
         <source>Protocol Mode</source>
@@ -856,7 +860,7 @@
     </message>
     <message>
         <source>PnP ID</source>
-        <translation type="unfinished"></translation>
+        <translation>PnP-ID</translation>
     </message>
     <message>
         <source>Glucose Feature</source>
@@ -870,7 +874,7 @@
     <message>
         <source>RSC Measurement</source>
         <extracomment>RSC: Running Speed and Cadence</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>RSC-måling</translation>
     </message>
     <message>
         <source>RSC Feature</source>
@@ -897,23 +901,23 @@
     </message>
     <message>
         <source>Cycling Power Measurement</source>
-        <translation type="unfinished"></translation>
+        <translation>Cykling ydelse måling</translation>
     </message>
     <message>
         <source>Cycling Power Vector</source>
-        <translation type="unfinished"></translation>
+        <translation>Cykling ydelse vektor</translation>
     </message>
     <message>
         <source>Cycling Power Feature</source>
-        <translation type="unfinished"></translation>
+        <translation>Cykling ydelse funktionalitet</translation>
     </message>
     <message>
         <source>Cycling Power Control Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Cykling ydelse kontrolpunkt</translation>
     </message>
     <message>
         <source>Location And Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Placering og hastighed</translation>
     </message>
     <message>
         <source>Navigation</source>
@@ -929,7 +933,7 @@
     </message>
     <message>
         <source>LN Control Point</source>
-        <translation type="unfinished"></translation>
+        <translation>LN-kontrolpunkt</translation>
     </message>
     <message>
         <source>Magnetic Declination</source>
@@ -939,7 +943,7 @@
     <message>
         <source>Elevation</source>
         <extracomment>Above/below sea level</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>højde</translation>
     </message>
     <message>
         <source>Pressure</source>
@@ -974,7 +978,7 @@
     <message>
         <source>Gust Factor</source>
         <extracomment>Factor by which wind gust is stronger than average wind</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Vindstødsfaktor</translation>
     </message>
     <message>
         <source>Pollen Concentration</source>
@@ -1002,7 +1006,7 @@
     </message>
     <message>
         <source>Dew Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Dugpunkt</translation>
     </message>
     <message>
         <source>Descriptor Value Changed</source>
@@ -1072,7 +1076,7 @@
     </message>
     <message>
         <source>Heart Rate Maximum</source>
-        <translation type="unfinished"></translation>
+        <translation>Maksimum puls</translation>
     </message>
     <message>
         <source>Height</source>
@@ -1081,7 +1085,7 @@
     </message>
     <message>
         <source>Hip Circumference</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoftevidde</translation>
     </message>
     <message>
         <source>Last Name</source>
@@ -1089,11 +1093,11 @@
     </message>
     <message>
         <source>Maximum Recommended Heart Rate</source>
-        <translation type="unfinished"></translation>
+        <translation>Maksimum anbefalet puls</translation>
     </message>
     <message>
         <source>Resting Heart Rate</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvilepuls</translation>
     </message>
     <message>
         <source>Sport Type For Aerobic/Anaerobic Thresholds</source>
@@ -1109,11 +1113,11 @@
     </message>
     <message>
         <source>Oxygen Uptake</source>
-        <translation type="unfinished"></translation>
+        <translation>Iltoptagelse</translation>
     </message>
     <message>
         <source>Waist Circumference</source>
-        <translation type="unfinished"></translation>
+        <translation>Livvidde</translation>
     </message>
     <message>
         <source>Weight</source>
@@ -1130,11 +1134,11 @@
     </message>
     <message>
         <source>Body Composition Feature</source>
-        <translation type="unfinished"></translation>
+        <translation>Kropssammensætning funktionalitet</translation>
     </message>
     <message>
         <source>Body Composition Measurement</source>
-        <translation type="unfinished"></translation>
+        <translation>Kropssammensætning måling</translation>
     </message>
     <message>
         <source>Weight Measurement</source>
@@ -1142,7 +1146,7 @@
     </message>
     <message>
         <source>User Control Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Bruger-kontrolpunkt</translation>
     </message>
     <message>
         <source>Magnetic Flux Density 2D</source>
@@ -1186,15 +1190,15 @@
     </message>
     <message>
         <source>Valid Range</source>
-        <translation type="unfinished"></translation>
+        <translation>Gyldigt område</translation>
     </message>
     <message>
         <source>External Report Reference</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekstern rapportreference</translation>
     </message>
     <message>
         <source>Report Reference</source>
-        <translation type="unfinished"></translation>
+        <translation>Rapportreference</translation>
     </message>
     <message>
         <source>Environmental Sensing Configuration</source>
@@ -1252,6 +1256,11 @@
         <translation>Oprettelse af forbindelse til port understøttes ikke</translation>
     </message>
     <message>
+        <source>Cannot connect to %1</source>
+        <comment>%1 = uuid</comment>
+        <translation>Kan ikke oprette forbindelse til %1</translation>
+    </message>
+    <message>
         <source>Device does not support Bluetooth</source>
         <translation>Enhed understøtter ikke Bluetooth</translation>
     </message>
@@ -1299,19 +1308,23 @@
     </message>
     <message>
         <source>Network error</source>
-        <translation type="unfinished"></translation>
+        <translation>Netværksfejl</translation>
+    </message>
+    <message>
+        <source>Remote host closed connection</source>
+        <translation>Fjern-vært lukkede forbindelse</translation>
     </message>
     <message>
         <source>Connection timed out</source>
-        <translation type="unfinished"></translation>
+        <translation>Forbindelse fik timeout</translation>
     </message>
     <message>
         <source>Host not reachable</source>
-        <translation type="unfinished"></translation>
+        <translation>Vært kan ikke kontaktes</translation>
     </message>
     <message>
         <source>Host refused connection</source>
-        <translation type="unfinished"></translation>
+        <translation>Vært nægtede forbindelse</translation>
     </message>
 </context>
 <context>
@@ -1400,23 +1413,27 @@
     </message>
     <message>
         <source>Error occurred trying to start advertising</source>
-        <translation>Der opstod fejl ved forsøg på start af reklamering</translation>
+        <translation>Der opstod fejl ved forsøg på start af reklame</translation>
+    </message>
+    <message>
+        <source>Remote device closed the connection</source>
+        <translation>Fjern-enhed lukkede forbindelsen</translation>
     </message>
     <message>
         <source>Advertisement data is larger than 31 bytes</source>
-        <translation type="unfinished"></translation>
+        <translation>Reklamedata er større end 31 bytes</translation>
     </message>
     <message>
         <source>Advertisement feature not supported on the platform</source>
-        <translation type="unfinished"></translation>
+        <translation>Reklamefacilitet understøttes ikke på platformen</translation>
     </message>
     <message>
         <source>Failed due to too many advertisers</source>
-        <translation type="unfinished"></translation>
+        <translation>Fejlede pga. for mange annoncører</translation>
     </message>
     <message>
         <source>Unknown advertisement error</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukendt reklamefejl</translation>
     </message>
 </context>
 </TS>

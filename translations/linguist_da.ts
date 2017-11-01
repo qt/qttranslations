@@ -325,8 +325,8 @@ Formoder en enkelt universel form.</translation>
     <message numerus="yes">
         <source>    Ignored %n untranslated source text(s)</source>
         <translation>
-            <numerusform>    Ignorerede %n uoversat kildetekst</numerusform>
-            <numerusform>    Ignorerede %n uoversatte kildetekster</numerusform>
+            <numerusform>    Ignorerede %n ikke oversat kildetekst</numerusform>
+            <numerusform>    Ignorerede %n ikke oversatte kildetekster</numerusform>
         </translation>
     </message>
 </context>
@@ -1145,7 +1145,7 @@ Alle filer (*)</translation>
     </message>
     <message>
         <source>No untranslated translation units left.</source>
-        <translation>Ingen uoversatte oversættelsesenheder tilbage.</translation>
+        <translation>Ingen ikke oversatte oversættelsesenheder tilbage.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
