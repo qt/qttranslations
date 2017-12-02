@@ -415,6 +415,10 @@
         <translation>SQL: tietokannan luonti epäonnistui. Offline-tietokanta ei ole käytössä.</translation>
     </message>
     <message>
+        <source>LocalStorage: can&apos;t create path %1</source>
+        <translation>LocalStorage: can&apos;t create path %1</translation>
+    </message>
+    <message>
         <source>SQL: database version mismatch</source>
         <translatorcomment>Tämä viesti on suomennettu, koska siitä voi olla hyötyä myös ongelmaa selvittävälle Qt:lla tehdyn ohjelman loppukäyttäjälle eikä tämän viestin suomentamisen luulisi vaikeuttavan ongelman selvittämistä.</translatorcomment>
         <translation>SQL: tietokannan versio ei täsmää</translation>
@@ -491,10 +495,6 @@
     <message>
         <source>module &quot;%1&quot; plugin &quot;%2&quot; not found</source>
         <translation>module &quot;%1&quot; plugin &quot;%2&quot; not found</translation>
-    </message>
-    <message>
-        <source>library loading is disabled</source>
-        <translation>kirjastojen lataaminen ei ole käytössä</translation>
     </message>
     <message>
         <source>&quot;%1&quot; version %2.%3 is defined more than once in module &quot;%4&quot;</source>
@@ -722,6 +722,10 @@
     <message>
         <source>Stray newline in string literal</source>
         <translation>Stray newline in string literal</translation>
+    </message>
+    <message>
+        <source>End of file reached at escape sequence</source>
+        <translation>End of file reached at escape sequence</translation>
     </message>
     <message>
         <source>Illegal unicode escape sequence</source>
@@ -1091,6 +1095,11 @@
         <translation>qmldir defines type as singleton, but no pragma Singleton found in type %1.</translation>
     </message>
     <message>
+        <source>No such file or directory</source>
+        <translatorcomment>Tämä viesti on suomennettu, koska siitä voi olla hyötyä myös ongelmaa selvittävälle Qt:lla tehdyn ohjelman loppukäyttäjälle eikä tämän viestin suomentamisen luulisi vaikeuttavan ongelman selvittämistä.</translatorcomment>
+        <translation>Tiedostoa tai kansiota ei ole olemassa</translation>
+    </message>
+    <message>
         <source>module &quot;%1&quot; is not installed</source>
         <translatorcomment>Tämä viesti on suomennettu, koska siitä voi olla hyötyä myös ongelmaa selvittävälle Qt:lla tehdyn ohjelman loppukäyttäjälle eikä tämän viestin suomentamisen luulisi vaikeuttavan ongelman selvittämistä.</translatorcomment>
         <translation>moduulia ”%1” ei ole asennettu</translation>
@@ -1295,6 +1304,10 @@
 <context>
     <name>QQuickMouseEvent</name>
     <message>
+        <source>GestureEvent is only available in the context of handling the gestureStarted signal from MultiPointTouchArea</source>
+        <translation>GestureEvent is only available in the context of handling the gestureStarted signal from MultiPointTouchArea</translation>
+    </message>
+    <message>
         <source>MouseEvent is only available within handlers in MouseArea</source>
         <translation>MouseEvent is only available within handlers in MouseArea</translation>
     </message>
@@ -1433,6 +1446,13 @@
     <message>
         <source>Could not load cursor delegate</source>
         <translation>Could not load cursor delegate</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickTouchPoint</name>
+    <message>
+        <source>PointingDeviceUniqueId is only available via read-only properties</source>
+        <translation>PointingDeviceUniqueId is only available via read-only properties</translation>
     </message>
 </context>
 <context>
