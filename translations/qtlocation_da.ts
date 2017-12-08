@@ -69,6 +69,10 @@ Besøg venligst https://developers.arcgis.com/authentication/accessing-arcgis-on
         <source>Development access token, do not use in production!</source>
         <translation>Udviklingsadgangstoken, brug ikke i produktion!</translation>
     </message>
+    <message>
+        <source>Development access token, do not use in production.</source>
+        <translation>Udviklingsadgangstoken, brug ikke i produktion.</translation>
+    </message>
 </context>
 <context>
     <name>QGeoMappingManagerEngineItemsOverlay</name>
@@ -110,6 +114,22 @@ Besøg venligst https://developers.arcgis.com/authentication/accessing-arcgis-on
     <message>
         <source>Dark</source>
         <translation>Mørkt</translation>
+    </message>
+    <message>
+        <source>Navigation Preview Day</source>
+        <translation>Navigationsforhåndsvisning dag</translation>
+    </message>
+    <message>
+        <source>Navigation Preview Night</source>
+        <translation>Navigationsforhåndsvisning nat</translation>
+    </message>
+    <message>
+        <source>Navigation Guidance Day</source>
+        <translation>Navigationsguidning dag</translation>
+    </message>
+    <message>
+        <source>Navigation Guidance Night</source>
+        <translation>Navigationsguidning nat</translation>
     </message>
     <message>
         <source>Streets Traffic Day</source>

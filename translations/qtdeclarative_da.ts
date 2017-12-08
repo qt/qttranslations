@@ -16,6 +16,10 @@
         <translation>Forbudt metodenavn</translation>
     </message>
     <message>
+        <source>Duplicate scoped enum name</source>
+        <translation>Duplikeret scoped enum-navn</translation>
+    </message>
+    <message>
         <source>Duplicate signal name</source>
         <translation>Duplikeret signalnavn</translation>
     </message>
@@ -29,7 +33,7 @@
     </message>
     <message>
         <source>Duplicate default property</source>
-        <translation>Duplikeret standard egenskab</translation>
+        <translation>Duplikeret standardegenskab</translation>
     </message>
     <message>
         <source>Duplicate alias name</source>
@@ -127,6 +131,22 @@
     <message>
         <source>Illegal property name</source>
         <translation>Forbudt egenskabsnavn</translation>
+    </message>
+    <message>
+        <source>Scoped enum names must begin with an upper case letter</source>
+        <translation>Scoped enum-navne skal begynde med et stort bogstav</translation>
+    </message>
+    <message>
+        <source>Enum names must begin with an upper case letter</source>
+        <translation>Enum-navne skal begynde med et stort bogstav</translation>
+    </message>
+    <message>
+        <source>Enum value must be an integer</source>
+        <translation>Enum-værdi skal være et heltal</translation>
+    </message>
+    <message>
+        <source>Enum value out of range</source>
+        <translation>Enum-værdi udenfor område</translation>
     </message>
     <message>
         <source>Invalid component id specification</source>
@@ -257,7 +277,7 @@
     </message>
     <message>
         <source>Other services offered by qmltooling plugins that implement QQmlDebugServiceFactory and which can be found in the standard plugin paths will also be available and can be specified. If no &quot;services&quot; argument is given, all services found this way, including the default ones, are loaded.</source>
-        <translation>Andre tjenester fra qmltooling-plugins der implementere QQmlDebugServiceFactory and som kan findes i standard pluginets stier vil også være tilgængelige og kan specificeres. Hvis der ikke gives nogen &quot;tjenester&quot;-argumenter, indlæses alle tjenester fundet på denne måde, inklusiv dem som er standard.</translation>
+        <translation>Andre tjenester fra qmltooling-plugins der implementere QQmlDebugServiceFactory and som kan findes i standardpluginets stier vil også være tilgængelige og kan specificeres. Hvis der ikke gives nogen &quot;tjenester&quot;-argumenter, indlæses alle tjenester fundet på denne måde, inklusiv dem som er standard.</translation>
     </message>
 </context>
 <context>
@@ -538,6 +558,14 @@
         <translation>kan ikke aktivere statiske roller eftersom denne model ikke er tom!</translation>
     </message>
     <message>
+        <source>unable to enable dynamic roles as this model is not empty</source>
+        <translation>kan ikke aktivere dynamiske roller eftersom denne model ikke er tom</translation>
+    </message>
+    <message>
+        <source>unable to enable static roles as this model is not empty</source>
+        <translation>kan ikke aktivere statiske roller eftersom denne model ikke er tom</translation>
+    </message>
+    <message>
         <source>dynamic role setting must be made from the main thread, before any worker scripts are created</source>
         <translation>dynamisk rolleindstilling skal laves fra hovedtråden, før eventuelle arbejder-scripts oprettes</translation>
     </message>
@@ -606,7 +634,7 @@
     </message>
     <message>
         <source>Cannot assign object type %1 with no default method</source>
-        <translation>    %1 uden nogen standard metode</translation>
+        <translation>Kan ikke tildele objekttype %1 uden nogen standardmetode</translation>
     </message>
     <message>
         <source>Cannot connect mismatched signal/slot %1 %vs. %2</source>
@@ -709,6 +737,10 @@
     <message>
         <source>Stray newline in string literal</source>
         <translation>Vildfarent linjeskrift i streng-literal</translation>
+    </message>
+    <message>
+        <source>End of file reached at escape sequence</source>
+        <translation>Filens slutning nået ved undvigesekvens</translation>
     </message>
     <message>
         <source>Illegal unicode escape sequence</source>
@@ -853,7 +885,7 @@
     </message>
     <message>
         <source>Cannot assign a value directly to a grouped property</source>
-        <translation>Kan ikke tilknytte en værdi direkte til en grupperet egenskab</translation>
+        <translation>Kan ikke tildele  en værdi direkte til en grupperet egenskab</translation>
     </message>
     <message>
         <source>Invalid use of namespace</source>
@@ -873,15 +905,15 @@
     </message>
     <message>
         <source>Cannot assign multiple values to a script property</source>
-        <translation>Kan ikke tilknytte flere værdier til en script-egenskab</translation>
+        <translation>Kan ikke tildele flere værdier til en script-egenskab</translation>
     </message>
     <message>
         <source>Cannot assign multiple values to a singular property</source>
-        <translation>Kan ikke tilknytte flere værdier til en singulær-egenskab</translation>
+        <translation>Kan ikke tildele flere værdier til en singulær-egenskab</translation>
     </message>
     <message>
         <source>Property has already been assigned a value</source>
-        <translation>Egenskab er allerede blevet tilknyttet en værdi</translation>
+        <translation>Egenskab er allerede blevet tildelt en værdi</translation>
     </message>
     <message>
         <source>Invalid grouped property access</source>
@@ -889,15 +921,15 @@
     </message>
     <message>
         <source>Cannot assign to non-existent default property</source>
-        <translation>Kan ikke tilknytte ikke-eksisterende standard egenskab</translation>
+        <translation>Kan ikke tildele ikke-eksisterende standardegenskab</translation>
     </message>
     <message>
         <source>Cannot assign to non-existent property &quot;%1&quot;</source>
-        <translation>Kan ikke tilknytte ikke-eksisterende egenskab &quot;%1&quot;</translation>
+        <translation>Kan ikke tildele ikke-eksisterende egenskab &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Cannot assign primitives to lists</source>
-        <translation>Kan ikke tilknytte primitiver til lister</translation>
+        <translation>Kan ikke tildele primitiver til lister</translation>
     </message>
     <message>
         <source>Invalid property assignment: unknown enumeration</source>
@@ -1013,7 +1045,7 @@
     </message>
     <message>
         <source>Cannot assign object to list property &quot;%1&quot;</source>
-        <translation>Kan ikke tilknytte objekt til liste-egenskab &quot;%1&quot;</translation>
+        <translation>Kan ikke tildele objekt til liste-egenskab &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Unexpected object assignment</source>
@@ -1025,7 +1057,7 @@
     </message>
     <message>
         <source>Cannot assign object to property</source>
-        <translation>Kan ikke tilknytte objekt til egenskab</translation>
+        <translation>Kan ikke tildele objekt til egenskab</translation>
     </message>
 </context>
 <context>
@@ -1210,6 +1242,13 @@
     </message>
 </context>
 <context>
+    <name>QQuickDragHandler</name>
+    <message>
+        <source>DragAxis is only available as a grouped property of DragHandler</source>
+        <translation>DragAxis er kun tilgængelig som en grupperet egenskab af DragHandler</translation>
+    </message>
+</context>
+<context>
     <name>QQuickEnterKeyAttached</name>
     <message>
         <source>EnterKey attached property only works with Items</source>
@@ -1372,8 +1411,39 @@
         <translation>Kunne ikke få tekstur fra udbyder: %1</translation>
     </message>
     <message>
+        <source>Error decoding: %1</source>
+        <translation>Fejl ved afkodning: %1</translation>
+    </message>
+    <message>
         <source>Cannot open: %1</source>
         <translation>Kan ikke åbne: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickPointerHandler</name>
+    <message>
+        <source>PointerEvent is only available as a parameter of several signals in PointerHandler</source>
+        <translation>PointerEvent er kun tilgængelig som en parameter af adskillige signaler i PointerHandler</translation>
+    </message>
+    <message>
+        <source>EventPoint is only available as a member of PointerEvent</source>
+        <translation>EventPoint er kun tilgængelig som et medlem af PointerEvent</translation>
+    </message>
+    <message>
+        <source>EventTouchPoint is only available as a member of PointerEvent</source>
+        <translation>EventTouchPoint er kun tilgængelig som et medlem af PointerEvent</translation>
+    </message>
+    <message>
+        <source>PointerDevice is only available as a property of PointerEvent</source>
+        <translation>PointerDevice er kun tilgængelig som en egenskab af PointerEvent</translation>
+    </message>
+    <message>
+        <source>PointingDeviceUniqueId is only available as a property of PointerEvent</source>
+        <translation>PointingDeviceUniqueId er kun tilgængelig som en egenskab af PointerEvent</translation>
+    </message>
+    <message>
+        <source>PointerHandler is an abstract base class</source>
+        <translation>PointerHandler er en abstrakt grundklasse</translation>
     </message>
 </context>
 <context>
@@ -1391,11 +1461,11 @@
     </message>
     <message>
         <source>Cannot assign to non-existent property &quot;%1&quot;</source>
-        <translation>Kan ikke tilknytte ikke-eksisterende egenskab &quot;%1&quot;</translation>
+        <translation>Kan ikke tildele ikke-eksisterende egenskab &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Cannot assign to read-only property &quot;%1&quot;</source>
-        <translation>Kan ikke tilknytte skrivebeskyttet egenskab &quot;%1&quot;</translation>
+        <translation>Kan ikke tildele skrivebeskyttet egenskab &quot;%1&quot;</translation>
     </message>
 </context>
 <context>
@@ -1410,6 +1480,13 @@
     <message>
         <source>Cannot create instance of abstract class ShaderEffectMesh.</source>
         <translation>Kan ikke oprette instans af abstrakt klasse ShaderEffectMesh.</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickShapeGradient</name>
+    <message>
+        <source>ShapeGradient is an abstract base class</source>
+        <translation>ShapeGradient er en abstrakt grundklasse</translation>
     </message>
 </context>
 <context>

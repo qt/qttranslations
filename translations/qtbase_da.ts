@@ -809,6 +809,10 @@ Tryk på ESC for at annullere</translation>
         <translation>Fejl under omdøbning.</translation>
     </message>
     <message>
+        <source>Error while renaming: %1</source>
+        <translation>Fejl under omdøbning: %1</translation>
+    </message>
+    <message>
         <source>Unable to restore from %1: %2</source>
         <translation>Kunne ikke genskabe fra %1: %2</translation>
     </message>
@@ -842,6 +846,10 @@ Tryk på ESC for at annullere</translation>
     <message>
         <source>No file engine available or engine does not support UnMapExtension</source>
         <translation>Ingen tilgængelig fil-motor eller motor understøtter ikke UnMapExtension</translation>
+    </message>
+    <message>
+        <source>No file engine available</source>
+        <translation>Ingen tilgængelig fil-motor</translation>
     </message>
 </context>
 <context>
@@ -1785,6 +1793,10 @@ Vil du slette den alligevel?</translation>
         <source>Unsupported image format</source>
         <translation>Billedformatet understøttes ikke</translation>
     </message>
+    <message>
+        <source>Image is empty</source>
+        <translation>Billedet er tomt</translation>
+    </message>
 </context>
 <context>
     <name>QInputDialog</name>
@@ -2279,7 +2291,7 @@ Vil du slette den alligevel?</translation>
     </message>
     <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Qt er et C++-værktøjskit til programudvikling på tværs af platforme.&lt;/p&gt;&lt;p&gt;Qt giver enkelt-kilde portability på tværs af alle større skrivebordsstyresystemer. Det er også tilgængeligt til Embedded Linux og andre indlejrede og mobile styresystemer.&lt;/p&gt;&lt;p&gt;Qt er tilgængelig under tre forskellige licenseringsmuligheder, designet til at rumme behovene af vores forskellige brugere.&lt;/p&gt;&lt;p&gt;Qt licenseret under vores kommercielle licensaftale er passende til udvikling af proprietær/kommerciel software, hvor du ikke vil dele kildekode med tredjeparter eller på anden måde ikke kan efterleve vilkårene i GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licenseret under GNU LGPL version 3 er passende til udvikling af Qt-programmer, på forudsætning af at du kan efterleve vilkårene og betingelserne i GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Se venligst &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for en oversigt af Qt-licensering.&lt;/p&gt;&lt;p&gt;Ophavsret (C) %1 Qt Company Ltd og andre bidragydere.&lt;/p&gt;&lt;p&gt;Qt og Qt-logoet er varemærker af Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt er Qt Company Ltd-produktet, udviklet som et open source projekt. Se &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for mere information.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Qt er et C++-værktøjskit til programudvikling på tværs af platforme.&lt;/p&gt;&lt;p&gt;Qt giver enkelt-kilde portability på tværs af alle større skrivebordsstyresystemer. Det er også tilgængeligt til Embedded Linux og andre indlejrede og mobile styresystemer.&lt;/p&gt;&lt;p&gt;Qt er tilgængelig under tre forskellige licenseringsmuligheder, designet til at rumme behovene af vores forskellige brugere.&lt;/p&gt;&lt;p&gt;Qt licenseret under vores kommercielle licensaftale er passende til udvikling af proprietær/kommerciel software, hvor du ikke vil dele kildekode med tredjeparter eller på anden måde ikke kan efterleve vilkårene i GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licenseret under GNU LGPL version 3 er passende til udvikling af Qt-programmer, på forudsætning af at du kan efterleve vilkårene og betingelserne i GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Se venligst &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for en oversigt af Qt-licensering.&lt;/p&gt;&lt;p&gt;Ophavsret (C) %1 Qt Company Ltd og andre bidragydere.&lt;/p&gt;&lt;p&gt;Qt og Qt-logoet er varemærker tilhørende Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt er Qt Company Ltd-produktet, udviklet som et open source projekt. Se &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for mere information.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About Qt</source>
@@ -4595,6 +4607,10 @@ Slå venligst en at disse valgmuligheder fra.</translation>
         <translation>Filnavnet refererer til en mappe</translation>
     </message>
     <message>
+        <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled: path contains an Alternate Data Stream specifier</source>
+        <translation>QSaveFile kan ikke åbne &apos;%1&apos; uden direkte skrive-fallback er aktiveret: stien indeholder en alternativ datastrøm angivelse</translation>
+    </message>
+    <message>
         <source>Writing canceled by application</source>
         <translation>Skrivning annulleret af program</translation>
     </message>
@@ -6210,6 +6226,10 @@ Role of an accessible object</extracomment>
         <translation>Diffie-Hellman-parametre er ikke gyldige</translation>
     </message>
     <message>
+        <source>OpenSSL version with disabled elliptic curves</source>
+        <translation>OpenSSL-version med deaktiveret elliptiske kurver</translation>
+    </message>
+    <message>
         <source>OpenSSL version too old, need at least v1.0.2</source>
         <translation>OpenSSL-version for gammel, skal mindst være v1.0.2</translation>
     </message>
@@ -6933,6 +6953,38 @@ Direct2D-versionen skal minimum være %1.%2.%3.%4. Direct2D-versionen på dette 
     <message>
         <source>Invalid document.</source>
         <translation>Ugyldigt dokument.</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos;</source>
+        <comment>expected</comment>
+        <extracomment>&apos;&lt;first option&gt;&apos;</extracomment>
+        <translation>&apos;%1&apos;</translation>
+    </message>
+    <message>
+        <source>%1 or &apos;%2&apos;</source>
+        <comment>expected</comment>
+        <extracomment>&lt;first option&gt;, &apos;&lt;second option&gt;&apos;</extracomment>
+        <translation>%1 eller &apos;%2&apos;</translation>
+    </message>
+    <message>
+        <source>%1, &apos;%2&apos;</source>
+        <comment>expected</comment>
+        <extracomment>&lt;options so far&gt;, &apos;&lt;next option&gt;&apos;</extracomment>
+        <translation>%1, &apos;%2&apos;</translation>
+    </message>
+    <message>
+        <source>%1, or &apos;%2&apos;</source>
+        <comment>expected</comment>
+        <extracomment>&lt;options so far&gt;, or &apos;&lt;final option&gt;&apos;</extracomment>
+        <translation>%1 eller &apos;%2&apos;</translation>
+    </message>
+    <message>
+        <source>Expected %1, but got &apos;%2&apos;.</source>
+        <translation>Ventede %1, men fik &apos;%2&apos;.</translation>
+    </message>
+    <message>
+        <source>Unexpected &apos;%1&apos;.</source>
+        <translation>Uventet &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Expected </source>

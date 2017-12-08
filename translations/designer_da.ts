@@ -1780,6 +1780,13 @@ Beholder-sider bør kun tilføjes ved at specificere dem i XML returnerede af do
     </message>
 </context>
 <context>
+    <name>QDesignerTaskMenu</name>
+    <message>
+        <source>no signals available</source>
+        <translation>ingen tilgængelige signaler</translation>
+    </message>
+</context>
+<context>
     <name>QDesignerToolWindow</name>
     <message>
         <source>Property Editor</source>
