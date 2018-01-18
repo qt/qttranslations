@@ -1,314 +1,315 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="fi">
+<TS version="2.1" language="ar">
 <context>
     <name>CloseButton</name>
     <message>
         <source>Close Tab</source>
-        <translation>Sulje välilehti</translation>
+        <translation>أغلق اللسان</translation>
     </message>
 </context>
 <context>
     <name>MAC_APPLICATION_MENU</name>
     <message>
         <source>Services</source>
-        <translation>Palvelut</translation>
+        <translation>الخدمات</translation>
     </message>
     <message>
         <source>Hide %1</source>
-        <translation>Piilota %1</translation>
+        <translation>أخفِ %1</translation>
     </message>
     <message>
         <source>Hide Others</source>
-        <translation>Piilota muut</translation>
+        <translation>أخفِ البقيّة</translation>
     </message>
     <message>
         <source>Show All</source>
-        <translation>Näytä kaikki</translation>
+        <translation>أظهر الكلّ</translation>
     </message>
     <message>
         <source>Preferences...</source>
-        <translation>Asetukset…</translation>
+        <translation>تفضيلات...</translation>
     </message>
     <message>
         <source>Quit %1</source>
-        <translation>Lopeta %1</translation>
+        <translation>أنهِ %1</translation>
     </message>
     <message>
         <source>About %1</source>
-        <translation>Tietoja: %1</translation>
+        <translation>عنْ %1</translation>
     </message>
 </context>
 <context>
     <name>QAbstractSocket</name>
     <message>
         <source>Socket operation timed out</source>
-        <translation>Pistoketoiminnon aikakatkaisu</translation>
+        <translation>انتهت مهلة عمليّة المقبس</translation>
     </message>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>Pistoketoimintoa ei tueta</translation>
+        <translation>العمليّة على المقبس غير مدعومة</translation>
     </message>
     <message>
         <source>Host not found</source>
-        <translation>Palvelinta ei löytynyt</translation>
+        <translation>لم يُعثر على المضيف</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>Yhteys torjuttu</translation>
+        <translation>رُفض الاتّصال</translation>
     </message>
     <message>
         <source>Connection timed out</source>
-        <translation>Yhteyden aikakatkaisu</translation>
+        <translation>انتهت مهلة الاتّصال</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation>Yritettiin yhdistää, vaikka yhteys on jo käytössä</translation>
+        <translation>يحاول الاتّصال بينما الاتّصال جارٍ</translation>
     </message>
     <message>
         <source>Socket is not connected</source>
-        <translation>Pistoketta ei ole yhdistetty</translation>
+        <translation>المقبس غير متّصل</translation>
     </message>
     <message>
         <source>Network unreachable</source>
-        <translation>Verkko tavoittamattomissa</translation>
+        <translation>لا يمكن الوصول إلى الشّبكة</translation>
     </message>
 </context>
 <context>
     <name>QAbstractSpinBox</name>
     <message>
         <source>&amp;Select All</source>
-        <translation>V&amp;alitse kaikki</translation>
+        <translation>&amp;حدّد الكلّ</translation>
     </message>
     <message>
         <source>&amp;Step up</source>
-        <translation>&amp;Siirry ylös</translation>
+        <translation>خطوة لأ&amp;على</translation>
     </message>
     <message>
         <source>Step &amp;down</source>
-        <translation>Sii&amp;rry alas</translation>
+        <translation>خطوة لأ&amp;سفل</translation>
     </message>
 </context>
 <context>
     <name>QAccessibleActionInterface</name>
     <message>
         <source>Press</source>
-        <translation>Paina</translation>
+        <translation>انقر</translation>
     </message>
     <message>
         <source>Increase</source>
-        <translation>Lisää</translation>
+        <translation>زِد</translation>
     </message>
     <message>
         <source>Decrease</source>
-        <translation>Vähennä</translation>
+        <translation>أنقص</translation>
     </message>
     <message>
         <source>ShowMenu</source>
-        <translation>NäytäValikko</translation>
+        <translation>أظهر القائمة</translation>
     </message>
     <message>
         <source>SetFocus</source>
-        <translation>AsetaKohdistus</translation>
+        <translation>اضبط التّركيز</translation>
     </message>
     <message>
         <source>Toggle</source>
-        <translation>Vaihda</translation>
+        <translation>بدّل</translation>
     </message>
     <message>
         <source>Scroll Left</source>
-        <translation>Vieritä vasemmalle</translation>
+        <translation>مرّر لليسار</translation>
     </message>
     <message>
         <source>Scroll Right</source>
-        <translation>Vieritä oikealle</translation>
+        <translation>مرّر لليمين</translation>
     </message>
     <message>
         <source>Scroll Up</source>
-        <translation>Vieritä ylös</translation>
+        <translation>مرّر لأعلى</translation>
     </message>
     <message>
         <source>Scroll Down</source>
-        <translation>Vieritä alas</translation>
+        <translation>مرّر لأسفل</translation>
     </message>
     <message>
         <source>Previous Page</source>
-        <translation>Edellinen sivu</translation>
+        <translation>الصّفحة السّابقة</translation>
     </message>
     <message>
         <source>Next Page</source>
-        <translation>Seuraava sivu</translation>
+        <translation>الصّفحة التّالية</translation>
     </message>
     <message>
         <source>Triggers the action</source>
-        <translation>Käynnistää toiminnon</translation>
+        <translation>يحفّز الإجراء</translation>
     </message>
     <message>
         <source>Increase the value</source>
-        <translation>Lisää arvoa</translation>
+        <translation>يزيد القيمة</translation>
     </message>
     <message>
         <source>Decrease the value</source>
-        <translation>Vähentää arvoa</translation>
+        <translation>يُنقص القيمة</translation>
     </message>
     <message>
         <source>Shows the menu</source>
-        <translation>Näyttää valikon</translation>
+        <translation>يعرض القائمة</translation>
     </message>
     <message>
         <source>Sets the focus</source>
-        <translation>Asettaa kohdistuksen</translation>
+        <translation>يضبط التّركيز</translation>
     </message>
     <message>
         <source>Toggles the state</source>
-        <translation>Vaihtaa tilaa</translation>
+        <translation>يبدّل الحالة</translation>
     </message>
     <message>
         <source>Scrolls to the left</source>
-        <translation>Vierittää vasemmalle</translation>
+        <translation>يمرّر إلى اليسار</translation>
     </message>
     <message>
         <source>Scrolls to the right</source>
-        <translation>Vierittää oikealle</translation>
+        <translation>يمرّر إلى اليمين</translation>
     </message>
     <message>
         <source>Scrolls up</source>
-        <translation>Vierittää ylös</translation>
+        <translation>يمرّر لأعلى</translation>
     </message>
     <message>
         <source>Scrolls down</source>
-        <translation>Vierittää alas</translation>
+        <translation>يمرّر لأسفل</translation>
     </message>
     <message>
         <source>Goes back a page</source>
-        <translation>Siirtyy sivun taaksepäin</translation>
+        <translation>يرجع صفحة إلى الوراء</translation>
     </message>
     <message>
         <source>Goes to the next page</source>
-        <translation>Siirtyy seuraavalle sivulle</translation>
+        <translation>ينتقل إلى الصّفحة التّالية</translation>
     </message>
 </context>
 <context>
     <name>QAndroidPlatformTheme</name>
     <message>
         <source>Yes</source>
-        <translation>Kyllä</translation>
+        <translation>نعم</translation>
     </message>
     <message>
         <source>Yes to All</source>
-        <translation>Kyllä kaikkiin</translation>
+        <translation>نعم للكلّ</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Ei</translation>
+        <translation>لا</translation>
     </message>
     <message>
         <source>No to All</source>
-        <translation>Ei kaikkiin</translation>
+        <translation>لا للكلّ</translation>
     </message>
 </context>
 <context>
     <name>QApplication</name>
     <message>
         <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
-        <translation>Sovellus ”%1” vaatii Qt-version %2, mutta löytyi versio %3.</translation>
+        <translatorcomment>الأعداد هنا ترجع كسلاسل ولا يمكن توطينها</translatorcomment>
+        <translation>يتطلّب التّنفيذيّ ’%1‘ كيوت %2، وجدتُ كيوت %3.</translation>
     </message>
     <message>
         <source>Incompatible Qt Library Error</source>
-        <translation>Virhe: yhteensopimaton Qt-kirjasto</translation>
+        <translation>خطأ مكتبة كيوت غير متوافقة</translation>
     </message>
 </context>
 <context>
     <name>QCocoaMenuItem</name>
     <message>
         <source>About Qt</source>
-        <translation>Tietoja Qt:stä</translation>
+        <translation>عنْ كيوت</translation>
     </message>
     <message>
         <source>About</source>
-        <translation>Tietoja</translation>
+        <translation>عنْ</translation>
     </message>
     <message>
         <source>Config</source>
-        <translation>Asetukset</translation>
+        <translation>ضبط</translation>
     </message>
     <message>
         <source>Preference</source>
-        <translation>Asetukset</translation>
+        <translation>تفضيلات</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Valinnat</translation>
+        <translation>خيارات</translation>
     </message>
     <message>
         <source>Setting</source>
-        <translation>Asetukset</translation>
+        <translation>إعداد</translation>
     </message>
     <message>
         <source>Setup</source>
-        <translation>Asetukset</translation>
+        <translation>إعداد</translation>
     </message>
     <message>
         <source>Quit</source>
-        <translation>Lopeta</translation>
+        <translation>أنهِ</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>Poistu</translation>
+        <translation>اخرج</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation>Leikkaa</translation>
+        <translation>قصّ</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Kopioi</translation>
+        <translation>انسخ</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>Liitä</translation>
+        <translation>ألصق</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Valitse kaikki</translation>
+        <translation>حدّد الكلّ</translation>
     </message>
 </context>
 <context>
     <name>QCocoaTheme</name>
     <message>
         <source>Don&apos;t Save</source>
-        <translation>Älä tallenna</translation>
+        <translation>لا تحفظ</translation>
     </message>
 </context>
 <context>
     <name>QColorDialog</name>
     <message>
         <source>Hu&amp;e:</source>
-        <translation>Säv&amp;y:</translation>
+        <translation>ال&amp;صّبغة:</translation>
     </message>
     <message>
         <source>&amp;Sat:</source>
-        <translation>&amp;Kyll.:</translation>
+        <translation>الإ&amp;شباع:</translation>
     </message>
     <message>
         <source>&amp;Val:</source>
-        <translation>&amp;Arvo:</translation>
+        <translation>ال&amp;قيمة:</translation>
     </message>
     <message>
         <source>&amp;Red:</source>
-        <translation>&amp;Pun.:</translation>
+        <translation>الأ&amp;حمر:</translation>
     </message>
     <message>
         <source>&amp;Green:</source>
-        <translation>&amp;Vihreä:</translation>
+        <translation>الأ&amp;خضر:</translation>
     </message>
     <message>
         <source>Bl&amp;ue:</source>
-        <translation>&amp;Sin.:</translation>
+        <translation>الأ&amp;زرق:</translation>
     </message>
     <message>
         <source>A&amp;lpha channel:</source>
-        <translation>Al&amp;fakanava:</translation>
+        <translation>قناة أل&amp;فا:</translation>
     </message>
     <message>
         <source>&amp;HTML:</source>
@@ -317,86 +318,86 @@
     <message>
         <source>Cursor at %1, %2
 Press ESC to cancel</source>
-        <translation>Osoitin kohdassa %1, %2
-Peru painamalla ESC</translation>
-    </message>
-    <message>
-        <source>&amp;Pick Screen Color</source>
-        <translation>Valitse väri &amp;näytöltä</translation>
+        <translation>المؤشّر عند %L1، %L2
+اضغط ESC للإلغاء</translation>
     </message>
     <message>
         <source>Select Color</source>
-        <translation>Valitse väri</translation>
+        <translation>اختر لونًا</translation>
     </message>
     <message>
         <source>&amp;Basic colors</source>
-        <translation>P&amp;erusvärit</translation>
+        <translation>الألوان الأ&amp;ساسيّة</translation>
     </message>
     <message>
         <source>&amp;Custom colors</source>
-        <translation>&amp;Omat värit</translation>
+        <translation>الألوان الم&amp;خصّصة</translation>
     </message>
     <message>
         <source>&amp;Add to Custom Colors</source>
-        <translation>&amp;Lisää omiin väreihin</translation>
+        <translation>أ&amp;ضف إلى الألوان المخصّصة</translation>
+    </message>
+    <message>
+        <source>&amp;Pick Screen Color</source>
+        <translation>اخ&amp;تر لونًا من الشّاشة</translation>
     </message>
 </context>
 <context>
     <name>QComboBox</name>
     <message>
+        <source>Open the combo box selection popup</source>
+        <translation>افتح منبثقة اختيار المربّع المنسدل</translation>
+    </message>
+    <message>
         <source>False</source>
-        <translation>Epätosi</translation>
+        <translation>خطأ</translation>
     </message>
     <message>
         <source>True</source>
-        <translation>Tosi</translation>
-    </message>
-    <message>
-        <source>Open the combo box selection popup</source>
-        <translation>Avaa yhdistelmäruudun vaihtoehdot</translation>
+        <translation>صحيح</translation>
     </message>
 </context>
 <context>
     <name>QCommandLineParser</name>
     <message>
         <source>Displays version information.</source>
-        <translation>Näyttää versiotiedot.</translation>
+        <translation>يعرض معلومات الإصدار.</translation>
     </message>
     <message>
         <source>Displays this help.</source>
-        <translation>Näyttää tämän ohjeen.</translation>
+        <translation>يعرض هذه المساعدة.</translation>
     </message>
     <message>
         <source>Unknown option &apos;%1&apos;.</source>
-        <translation>Tuntematon valitsin ”%1”.</translation>
+        <translation>الخيار ’%1‘ مجهول.</translation>
     </message>
     <message>
         <source>Unknown options: %1.</source>
-        <translation>Tuntemattomat valitsimet: %1.</translation>
+        <translation>الخيارات مجهولة: %1.</translation>
     </message>
     <message>
         <source>Missing value after &apos;%1&apos;.</source>
-        <translation>Valitsin ”%1” vaatii arvon.</translation>
+        <translation>قيمة ناقصة بعد ’%1‘.</translation>
     </message>
     <message>
         <source>Unexpected value after &apos;%1&apos;.</source>
-        <translation>Odottamaton arvo valitsimen ”%1” jälkeen.</translation>
+        <translation>قيمة غير متوقّعة بعد ’%1‘.</translation>
     </message>
     <message>
         <source>[options]</source>
-        <translation>[valitsimet]</translation>
+        <translation>[خيارات]</translation>
     </message>
     <message>
         <source>Usage: %1</source>
-        <translation>Käyttö: %1</translation>
+        <translation>‎الاستخدام:‎ %1</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>Valitsimet:</translation>
+        <translation>خيارات:</translation>
     </message>
     <message>
         <source>Arguments:</source>
-        <translation>Argumentit:</translation>
+        <translation>المعطيات:</translation>
     </message>
 </context>
 <context>
@@ -404,338 +405,338 @@ Peru painamalla ESC</translation>
     <message>
         <source>%1: key is empty</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: avain on tyhjä</translation>
+        <translation>%1: المفتاح فارغ</translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: avaimen tekeminen epäonnistui</translation>
+        <translation>%1: تعذّر عمل المفتاح</translation>
     </message>
     <message>
         <source>%1: ftok failed</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: ftok epäonnistui</translation>
+        <translation>%1: فشل ftok</translation>
     </message>
 </context>
 <context>
     <name>QCupsJobWidget</name>
     <message>
         <source>Job</source>
-        <translation>Työ</translation>
+        <translation>المهمّة</translation>
     </message>
     <message>
         <source>Job Control</source>
-        <translation>Töiden hallinta</translation>
+        <translation>تحكّم المهمّة</translation>
     </message>
     <message>
         <source>Scheduled printing:</source>
-        <translation>Ajastettu tulostus:</translation>
+        <translation>الطّباعة المجدولة:</translation>
     </message>
     <message>
         <source>Billing information:</source>
-        <translation>Laskutustiedot:</translation>
+        <translation>معلومات الدّفع:</translation>
     </message>
     <message>
         <source>Job priority:</source>
-        <translation>Työn prioriteetti:</translation>
+        <translation>أولويّة المهمّة:</translation>
     </message>
     <message>
         <source>Banner Pages</source>
-        <translation>Etulehdet</translation>
+        <translation>الصّفحات الفاصلة/Banner</translation>
     </message>
     <message>
         <source>End:</source>
         <comment>Banner page at end</comment>
-        <translation>Lopussa:</translation>
+        <translation>النّهاية:</translation>
     </message>
     <message>
         <source>Start:</source>
         <comment>Banner page at start</comment>
-        <translation>Alussa:</translation>
+        <translation>البداية:</translation>
     </message>
     <message>
         <source>Print Immediately</source>
-        <translation>Tulosta välittömästi</translation>
+        <translation>اطبع مباشرة</translation>
     </message>
     <message>
         <source>Hold Indefinitely</source>
-        <translation>Pidä ikuisesti</translation>
+        <translation>علّق مؤقّتًا</translation>
     </message>
     <message>
         <source>Day (06:00 to 17:59)</source>
-        <translation>Päivällä (6.00-17.59)</translation>
+        <translation>النّهار (٠٦:٠٠ص إلى ٠٥:٥٩م)</translation>
     </message>
     <message>
         <source>Night (18:00 to 05:59)</source>
-        <translation>Yöllä (18.00-5.59)</translation>
+        <translation>المساء (٠٦:٠٠م إلى ٠٥:٥٩ص)</translation>
     </message>
     <message>
         <source>Second Shift (16:00 to 23:59)</source>
-        <translation>Ns. toisessa vuorossa (16.00-23.59)</translation>
+        <translation>الفترة الثّانية (٠٤:٠٠م إلى ١١:٥٩م)</translation>
     </message>
     <message>
         <source>Third Shift (00:00 to 07:59)</source>
-        <translation>Ns. kolmannessa vuorossa (0.00-7.59)</translation>
+        <translation>الفترة الثّالثة (١٢:٠٠ص إلى ٠٧:٥٩ص)</translation>
     </message>
     <message>
         <source>Weekend (Saturday to Sunday)</source>
-        <translation>Viikonloppuna (lauantaista sunnuntaihin)</translation>
+        <translation>نهاية الأسبوع (أيّام عطلة نهاية الأسبوع)</translation>
     </message>
     <message>
         <source>Specific Time</source>
-        <translation>Määräaikana</translation>
+        <translation>وقت محدّد</translation>
     </message>
     <message>
         <source>None</source>
         <comment>CUPS Banner page</comment>
-        <translation>Ei mitään</translation>
+        <translation>بلا</translation>
     </message>
     <message>
         <source>Standard</source>
         <comment>CUPS Banner page</comment>
-        <translation>Tavallinen</translation>
+        <translation>قياسيّة</translation>
     </message>
     <message>
         <source>Unclassified</source>
         <comment>CUPS Banner page</comment>
-        <translation>Luokittelematon</translation>
+        <translation>غير مصنّف</translation>
     </message>
     <message>
         <source>Confidential</source>
         <comment>CUPS Banner page</comment>
-        <translation>Luottamuksellinen</translation>
+        <translation>سرّيّ</translation>
     </message>
     <message>
         <source>Classified</source>
         <comment>CUPS Banner page</comment>
-        <translation>Salainen (Classified)</translation>
+        <translation>مصنّف</translation>
     </message>
     <message>
         <source>Secret</source>
         <comment>CUPS Banner page</comment>
-        <translation>Salainen (Secret)</translation>
+        <translation>سرّيّة</translation>
     </message>
     <message>
         <source>Top Secret</source>
         <comment>CUPS Banner page</comment>
-        <translation>Huippusalainen</translation>
+        <translation>سرّيّة للغاية</translation>
     </message>
 </context>
 <context>
     <name>QDB2Driver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>Yhteyttä ei saatu</translation>
+        <translation>تعذّر الاتّصال</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tietokantatapahtuman commit-toiminnon suorittaminen epäonnistui</translation>
+        <translation>تعذّر إيداع التّبادل</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Tietokantatapahtuman rollback-toiminnon suorittaminen epäonnistui</translation>
+        <translation>تعذّر التّراجع عن التّبادل</translation>
     </message>
     <message>
         <source>Unable to set autocommit</source>
-        <translation>Autocommit-toiminnon asettaminen epäonnistui</translation>
+        <translation>تعذّر ضبط الإيداع الآليّ</translation>
     </message>
 </context>
 <context>
     <name>QDB2Result</name>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Lauseen suorittaminen epäonnistui</translation>
+        <translation>تعذّر تنفيذ الإفادة</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Lauseen valmisteleminen epäonnistui</translation>
+        <translation>تعذّر تحضير الإفادة</translation>
     </message>
     <message>
         <source>Unable to bind variable</source>
-        <translation>Muuttujan sitominen epäonnistui</translation>
+        <translation>تعذّر ربط المتغيّر</translation>
     </message>
     <message>
         <source>Unable to fetch record %1</source>
-        <translation>Tietueen %1 noutaminen epäonnistui</translation>
+        <translation>تعذّر جلب السجلّ %1</translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>Seuraavan noutaminen epäonnistui</translation>
+        <translation>تعذّر جلب التّالي</translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>Ensimmäisen noutaminen epäonnistui</translation>
+        <translation>تعذّر جلب الأوّل</translation>
     </message>
 </context>
 <context>
     <name>QDBusTrayIcon</name>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>حسنًا</translation>
     </message>
 </context>
 <context>
     <name>QDateTimeParser</name>
     <message>
         <source>AM</source>
-        <translation>AP</translation>
+        <translation>ص</translation>
     </message>
     <message>
         <source>am</source>
-        <translation>ap.</translation>
+        <translation>ص</translation>
     </message>
     <message>
         <source>PM</source>
-        <translation>IP</translation>
+        <translation>م</translation>
     </message>
     <message>
         <source>pm</source>
-        <translation>ip.</translation>
+        <translation>م</translation>
     </message>
 </context>
 <context>
     <name>QDialog</name>
     <message>
         <source>What&apos;s This?</source>
-        <translation>Mikä tämä on?</translation>
+        <translation>ما هذا؟</translation>
     </message>
 </context>
 <context>
     <name>QDialogButtonBox</name>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>حسنًا</translation>
     </message>
 </context>
 <context>
     <name>QDirModel</name>
     <message>
         <source>Name</source>
-        <translation>Nimi</translation>
+        <translation>الاسم</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Koko</translation>
+        <translation>الحجم</translation>
     </message>
     <message>
         <source>Kind</source>
         <comment>Match OS X Finder</comment>
-        <translation>Laji</translation>
+        <translation>النّوع</translation>
     </message>
     <message>
         <source>Type</source>
         <comment>All other platforms</comment>
-        <translation>Tyyppi</translation>
+        <translation>النّوع</translation>
     </message>
     <message>
         <source>Date Modified</source>
-        <translation>Muutosaika</translation>
+        <translation>تاريخ التّعديل</translation>
     </message>
 </context>
 <context>
     <name>QDnsLookup</name>
     <message>
         <source>Operation cancelled</source>
-        <translation>Toiminto keskeytettiin</translation>
+        <translation>أُلغيت العمليّة</translation>
     </message>
 </context>
 <context>
     <name>QDnsLookupRunnable</name>
     <message>
         <source>IPv6 addresses for nameservers are currently not supported</source>
-        <translation>Nimipalvelimien IPv6-osoitteita ei tällä hetkellä tueta</translation>
+        <translation>عناوين IPv6 لخواديم الأسماء ليست مدعومة حاليًّا</translation>
     </message>
     <message>
         <source>Invalid domain name</source>
-        <translation>Virheellinen verkkotunnus</translation>
+        <translation>اسم المجال غير صالح</translation>
     </message>
     <message>
         <source>Not yet supported on Android</source>
-        <translation>Ei tuettu Androidissa</translation>
+        <translation>ليس مدعومًا في أندرويد بعد</translation>
     </message>
     <message>
         <source>Resolver functions not found</source>
-        <translation>Selvitysfunktioita ei löytynyt</translation>
+        <translation>لم يُعثر على دوال الحلّال</translation>
     </message>
     <message>
         <source>Resolver initialization failed</source>
-        <translation>Alustus epäonnistui</translation>
+        <translation>فشل تمهيد الحلّال</translation>
     </message>
     <message>
         <source>Server could not process query</source>
-        <translation>Palvelin ei onnistunut käsittelemään kyselyä</translation>
+        <translation>تعذّر على الخادوم معالجة الاستعلام</translation>
     </message>
     <message>
         <source>Server failure</source>
-        <translation>Palvelimen virhe</translation>
+        <translation>فشل في الخادوم</translation>
     </message>
     <message>
         <source>Non existent domain</source>
-        <translation>Verkkotunnusta ei löytynyt</translation>
+        <translation>النّطاق غير موجود</translation>
     </message>
     <message>
         <source>Server refused to answer</source>
-        <translation>Palvelin hylkäsi kyselyn</translation>
+        <translation>رفض الخادوم الرّدّ</translation>
     </message>
     <message>
         <source>Invalid reply received</source>
-        <translation>Saatiin virheellinen vastaus</translation>
+        <translation>استقبلتُ ردًّا غير صالح</translation>
     </message>
     <message>
         <source>Could not expand domain name</source>
-        <translation>Verkkotunnusta ei voitu purkaa</translation>
+        <translation>تعذّر توسيع اسم النّطاق</translation>
     </message>
     <message>
         <source>Invalid IPv4 address record</source>
-        <translation>Virheellinen IPv4-osoitetietue</translation>
+        <translation>سجلّ عنوان IPv4 غير صالح</translation>
     </message>
     <message>
         <source>Invalid IPv6 address record</source>
-        <translation>Virheellinen IPv6-osoitetietue</translation>
+        <translation>سجلّ عنوان IPv6 غير صالح</translation>
     </message>
     <message>
         <source>Invalid canonical name record</source>
-        <translation>Virheellinen kanoninen nimitietue</translation>
+        <translation>سجلّ الاسم المتعارف عليه غير صالح</translation>
     </message>
     <message>
         <source>Invalid name server record</source>
-        <translation>Virheellinen nimipalvelintietue</translation>
+        <translation>سجلّ خادوم أسماء غير صالح</translation>
     </message>
     <message>
         <source>Invalid pointer record</source>
-        <translation>Virheellinen osoitintietue</translation>
+        <translation>سجلّ مؤشّر غير صالح</translation>
     </message>
     <message>
         <source>Invalid mail exchange record</source>
-        <translation>Virheellinen postivaihdetietue</translation>
+        <translation>سجلّ تبادل بريد غير صالح</translation>
     </message>
     <message>
         <source>Invalid service record</source>
-        <translation>Virheellinen palvelutietue</translation>
+        <translation>سجلّ خدمة غير صالح</translation>
     </message>
     <message>
         <source>Invalid text record</source>
-        <translation>Virheellinen tekstitietue</translation>
+        <translation>سجلّ نصوص غير صالح</translation>
     </message>
     <message>
         <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
-        <translation>Selvityskirjastoa ei voida ladata. Ajonaikaista kirjaston lataamista ei tueta</translation>
+        <translation>تعذّر تحميل مكتبة الحلّال: لا دعم لتحميل مكتبة بيئة تشغيل</translation>
     </message>
     <message>
         <source>No hostname given</source>
-        <translation>Konenimeä ei annettu</translation>
+        <translation>لم يُعط اسم المضيف</translation>
     </message>
     <message>
         <source>Invalid hostname</source>
-        <translation>Virheellinen konenimi</translation>
+        <translation>اسم المضيف غير صالح</translation>
     </message>
     <message>
         <source>Host %1 could not be found.</source>
-        <translation>Konetta %1 ei löydetty.</translation>
+        <translation>تعذّر العثور على المضيف %1.</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Tuntematon virhe</translation>
+        <translation>خطأ مجهول</translation>
     </message>
 </context>
 <context>
@@ -743,124 +744,124 @@ Peru painamalla ESC</translation>
     <message>
         <source>Float</source>
         <extracomment>Accessible name for button undocking a dock widget (floating state)</extracomment>
-        <translation>Kelluta</translation>
+        <translation>أعم</translation>
     </message>
     <message>
         <source>Undocks and re-attaches the dock widget</source>
-        <translation>Irrottaa ja kiinnittää telakoitavan elementin</translation>
+        <translation>يفكّ رصف ودجة الرّصف ويعيد إرفاقها</translation>
     </message>
     <message>
         <source>Close</source>
         <extracomment>Accessible name for button closing a dock widget</extracomment>
-        <translation>Sulje</translation>
+        <translation>أغلق</translation>
     </message>
     <message>
         <source>Closes the dock widget</source>
-        <translation>Sulkee telakoitavan elementin</translation>
+        <translation>يغلق ودجة الرّصف</translation>
     </message>
 </context>
 <context>
     <name>QErrorMessage</name>
     <message>
         <source>Debug Message:</source>
-        <translation>Vianjäljitysviesti:</translation>
+        <translation>رسالة التّنقيح:</translation>
     </message>
     <message>
         <source>Warning:</source>
-        <translation>Varoitus:</translation>
+        <translation>تحذير:</translation>
     </message>
     <message>
         <source>Critical Error:</source>
-        <translation>Kriittinen virhe:</translation>
+        <translation>خطأ حرج:</translation>
     </message>
     <message>
         <source>Fatal Error:</source>
-        <translation>Vakava virhe:</translation>
+        <translation>خطأ فادح:</translation>
     </message>
     <message>
         <source>Information:</source>
-        <translation>Ilmoitus:</translation>
+        <translation>معلومات:</translation>
     </message>
     <message>
         <source>&amp;Show this message again</source>
-        <translation>Näytä tämä vie&amp;sti uudelleen</translation>
+        <translation>أ&amp;ظهر هذه الرّسالة مجدّدًا</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
+        <translation>&amp;حسنًا</translation>
     </message>
 </context>
 <context>
     <name>QFile</name>
     <message>
         <source>Destination file is the same file.</source>
-        <translation>Kohdetiedosto on sama tiedosto.</translation>
+        <translation>الملفّ المقصد هو الملفّ نفسه.</translation>
     </message>
     <message>
         <source>Source file does not exist.</source>
-        <translation>Lähdetiedostoa ei ole olemassa.</translation>
+        <translation>الملفّ المصدر غير موجود.</translation>
     </message>
     <message>
         <source>Destination file exists</source>
-        <translation>Kohdetiedosto on olemassa</translation>
+        <translation>الملفّ المقصد موجود</translation>
     </message>
     <message>
-        <source>Error while renaming: %1</source>
-        <translation>Virhe nimeä muutettaessa: %1</translation>
+        <source>Error while renaming.</source>
+        <translation>خطأ في إعادة التّسمية.</translation>
     </message>
     <message>
         <source>Unable to restore from %1: %2</source>
-        <translation>Ei voitu palauttaa kohteesta %1: %2</translation>
+        <translation>تعذّر الاسترجاع من %1: ‏%2</translation>
     </message>
     <message>
         <source>Will not rename sequential file using block copy</source>
-        <translation>Peräkkäistiedoston nimeä ei muuteta käyttämällä lohkokopiointia</translation>
+        <translation>لن تُعاد تسمية الملفّ التّسلسليّ بالنّسخ الكتليّ</translation>
     </message>
     <message>
         <source>Cannot remove source file</source>
-        <translation>Lähdetiedoston poistaminen epäonnistui</translation>
+        <translation>تعذّر حذف الملفّ المصدر</translation>
     </message>
     <message>
         <source>Cannot open %1 for input</source>
-        <translation>Tiedoston %1 avaaminen syötteeksi epäonnistui</translation>
+        <translation>تعذّر فتح %1 كدخل</translation>
     </message>
     <message>
         <source>Cannot open for output</source>
-        <translation>Tiedoston avaaminen tulosteeksi epäonnistui</translation>
+        <translation>تعذّر الفتح كخرج</translation>
     </message>
     <message>
         <source>Failure to write block</source>
-        <translation>Lohkon kirjoittaminen epäonnistui</translation>
+        <translation>فشلت كتابة الكتلة</translation>
     </message>
     <message>
         <source>Cannot create %1 for output</source>
-        <translation>Tiedoston %1 luonti tulosteeksi epäonnistui</translation>
+        <translation>تعذّر إنشاء %1 كخرج</translation>
     </message>
 </context>
 <context>
     <name>QFileDevice</name>
     <message>
         <source>No file engine available or engine does not support UnMapExtension</source>
-        <translation>Tiedostokone ei ole käytettävissä tai kone ei tue UnMapExtension-laajennusta</translation>
-    </message>
-    <message>
-        <source>No file engine available</source>
-        <translation>Tiedostokone ei ole käytettävissä</translation>
+        <translation>ليس ثمّة محرّك ملفّات متوفّر أو أنّ المحرّك لا يدعم UnMapExtension</translation>
     </message>
 </context>
 <context>
     <name>QFileDialog</name>
     <message>
+        <source>All Files (*)</source>
+        <translation>كلّ الملفّات (*)</translation>
+    </message>
+    <message>
         <source>Look in:</source>
-        <translation>Lähde:</translation>
+        <translation>اعثر في:</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Takaisin</translation>
+        <translation>ارجع</translation>
     </message>
     <message>
         <source>Go back</source>
-        <translation>Siirry takaisin</translation>
+        <translation>اذهب للخلف</translation>
     </message>
     <message>
         <source>Alt+Left</source>
@@ -868,11 +869,11 @@ Peru painamalla ESC</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>Eteenpäin</translation>
+        <translation>تقدّم</translation>
     </message>
     <message>
         <source>Go forward</source>
-        <translation>Siirry eteenpäin</translation>
+        <translation>اذهب للأمام</translation>
     </message>
     <message>
         <source>Alt+Right</source>
@@ -880,11 +881,11 @@ Peru painamalla ESC</translation>
     </message>
     <message>
         <source>Parent Directory</source>
-        <translation>Yläkansio</translation>
+        <translation>الدّليل الأمّ</translation>
     </message>
     <message>
         <source>Go to the parent directory</source>
-        <translation>Siirry yläkansioon</translation>
+        <translation>اذهب إلى الدّليل الأمّ</translation>
     </message>
     <message>
         <source>Alt+Up</source>
@@ -892,587 +893,614 @@ Peru painamalla ESC</translation>
     </message>
     <message>
         <source>Create New Folder</source>
-        <translation>Uusi kansio</translation>
+        <translation>أنشئ مجلّدًا جديدًا</translation>
     </message>
     <message>
         <source>Create a New Folder</source>
-        <translation>Luo uusi kansio</translation>
+        <translation>أنشئ مجلّدًا جديدًا</translation>
     </message>
     <message>
         <source>List View</source>
-        <translation>Listanäkymä</translation>
+        <translation>منظور قائميّ</translation>
     </message>
     <message>
         <source>Change to list view mode</source>
-        <translation>Vaihda listanäkymään</translation>
+        <translation>غيّر إلى وضع المنظور القائميّ</translation>
     </message>
     <message>
         <source>Detail View</source>
-        <translation>Yksityiskohtainen näkymä</translation>
+        <translation>منظور تفصيليّ</translation>
     </message>
     <message>
         <source>Change to detail view mode</source>
-        <translation>Vaihda yksityiskohtaiseen näkymään</translation>
+        <translation>غيّر إلى وضع المنظور التّفصيليّ</translation>
     </message>
     <message>
         <source>Sidebar</source>
-        <translation>Sivupalkki</translation>
+        <translation>الشّريط الجانبيّ</translation>
     </message>
     <message>
         <source>List of places and bookmarks</source>
-        <translation>Sijaintien ja kirjanmerkkien lista</translation>
+        <translation>قائمة الأماكن والعلامات</translation>
     </message>
     <message>
         <source>Files</source>
-        <translation>Tiedostot</translation>
+        <translation>الملفّات</translation>
     </message>
     <message>
         <source>Files of type:</source>
-        <translation>Tiedostotyyppi:</translation>
+        <translation>الملفّات من النّوع:</translation>
     </message>
     <message>
         <source>Find Directory</source>
-        <translation>Etsi kansio</translation>
+        <translation>اعثر على دليل</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Avaa</translation>
+        <translation>افتح</translation>
     </message>
     <message>
         <source>Save As</source>
-        <translation>Tallenna nimellä</translation>
+        <translation>احفظ كَ‍</translation>
     </message>
     <message>
         <source>Directory:</source>
-        <translation>Kansio:</translation>
+        <translation>الدّليل:</translation>
     </message>
     <message>
         <source>File &amp;name:</source>
-        <translation>Tiedosto&amp;nimi:</translation>
+        <translation>ا&amp;سم الملفّ:</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Avaa</translation>
+        <translation>ا&amp;فتح</translation>
     </message>
     <message>
         <source>&amp;Choose</source>
-        <translation>&amp;Valitse</translation>
+        <translation>ا&amp;ختر</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;Tallenna</translation>
-    </message>
-    <message>
-        <source>All Files (*)</source>
-        <translation>Kaikki tiedostot (*)</translation>
+        <translation>ا&amp;حفظ</translation>
     </message>
     <message>
         <source>Show </source>
-        <translation>Näytä </translation>
+        <translation>أظهر </translation>
     </message>
     <message>
         <source>&amp;Rename</source>
-        <translation>&amp;Muuta nimeä</translation>
+        <translation>أ&amp;عد التّسمية</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Poista</translation>
+        <translation>ا&amp;حذف</translation>
     </message>
     <message>
         <source>Show &amp;hidden files</source>
-        <translation>&amp;Näytä piilotiedostot</translation>
+        <translation>أظهر الملفّات الم&amp;خفيّة</translation>
     </message>
     <message>
         <source>&amp;New Folder</source>
-        <translation>&amp;Uusi kansio</translation>
+        <translation>مجلّد &amp;جديد</translation>
     </message>
     <message>
         <source>All files (*)</source>
-        <translation>Kaikki tiedostot (*)</translation>
+        <translation>كلّ الملفّات (*)</translation>
     </message>
     <message>
         <source>Directories</source>
-        <translation>Kansiot</translation>
+        <translation>الأدّلة</translation>
     </message>
     <message>
         <source>%1
 Directory not found.
 Please verify the correct directory name was given.</source>
         <translation>%1
-Kansiota ei löydy.
-Varmista oikea kansion nimi.</translation>
+لم يُعثر على الدّليل.
+رجاءً تحقّق من إعطائك الاسم الصحيح للدّليل.</translation>
     </message>
     <message>
         <source>%1 already exists.
 Do you want to replace it?</source>
-        <translation>%1 on jo olemassa.
-Korvataanko se?</translation>
+        <translation>‏%1 موجود بالفعل.
+أتريد استبداله؟</translation>
     </message>
     <message>
         <source>%1
 File not found.
 Please verify the correct file name was given.</source>
         <translation>%1
-Tiedostoa ei löydy.
-Varmista oikea tiedoston nimi.</translation>
+لم يُعثر على الملفّ.
+رجاءً تحقّق من إعطائك الاسم الصحيح للملفّ.</translation>
     </message>
     <message>
         <source>New Folder</source>
-        <translation>Uusi kansio</translation>
+        <translation>مجلّد جديد</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Poisto</translation>
+        <translation>احذف</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is write protected.
 Do you want to delete it anyway?</source>
-        <translation>”%1” on kirjoitussuojattu.
-Haluatko silti poistaa sen?</translation>
+        <translation>‏’%1‘ محميّ ضدّ الكتابة.
+أتريد حذفه بأيّ حال؟</translation>
     </message>
     <message>
         <source>Are you sure you want to delete &apos;%1&apos;?</source>
-        <translation>Haluatko varmasti poistaa kohteen ”%1”?</translation>
+        <translation>أتريد حقًّا حذف ’%1‘؟</translation>
     </message>
     <message>
         <source>Could not delete directory.</source>
-        <translation>Kansion poistaminen epäonnistui.</translation>
+        <translation>تعذّر حذف الدّليل.</translation>
     </message>
     <message>
         <source>Recent Places</source>
-        <translation>Viimeaikaiset sijainnit</translation>
+        <translation>الأماكن الحديثة</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Poista</translation>
+        <translation>أزل</translation>
     </message>
     <message>
         <source>My Computer</source>
-        <translation>Oma tietokone</translation>
+        <translation>حاسوبي</translation>
     </message>
     <message>
         <source>Drive</source>
-        <translation>Asema</translation>
+        <translation>القرص</translation>
     </message>
     <message>
         <source>%1 File</source>
         <extracomment>%1 is a file name suffix, for example txt</extracomment>
-        <translation>%1-tiedosto</translation>
+        <translation>ملفّ %1</translation>
     </message>
     <message>
         <source>File</source>
-        <translation>Tiedosto</translation>
+        <translation>ملفّ</translation>
     </message>
     <message>
         <source>File Folder</source>
         <comment>Match Windows Explorer</comment>
-        <translation>Tiedostokansio</translation>
+        <translation>مجلّد</translation>
     </message>
     <message>
         <source>Folder</source>
         <comment>All other platforms</comment>
-        <translation>Kansio</translation>
+        <translation>مجلّد</translation>
     </message>
     <message>
         <source>Alias</source>
         <comment>OS X Finder</comment>
-        <translation>Alias</translation>
+        <translation>اختصار</translation>
     </message>
     <message>
         <source>Shortcut</source>
         <comment>All other platforms</comment>
-        <translation>Pikakuvake</translation>
+        <translation>اختصار</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Tuntematon</translation>
+        <translation>مجهول</translation>
     </message>
 </context>
 <context>
     <name>QFileSystemModel</name>
     <message>
+        <source>%1 TB</source>
+        <translatorcomment>يأتي العدد في الكود موطّنا من المحلية</translatorcomment>
+        <translation>%1 ت.بايت</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translatorcomment>يأتي العدد في الكود موطّنا من المحلية</translatorcomment>
+        <translation>%1 غ.بايت</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translatorcomment>يأتي العدد في الكود موطّنا من المحلية</translatorcomment>
+        <translation>%1 م.بايت</translation>
+    </message>
+    <message>
+        <source>%1 KB</source>
+        <translatorcomment>يأتي العدد في الكود موطّنا من المحلية</translatorcomment>
+        <translation>%1 ك.بايت</translation>
+    </message>
+    <message>
+        <source>%1 bytes</source>
+        <translatorcomment>يأتي العدد في الكود موطّنا من المحلية</translatorcomment>
+        <translation>%1 بايت</translation>
+    </message>
+    <message>
         <source>Invalid filename</source>
-        <translation>Virheellinen tiedostonimi</translation>
+        <translation>اسم الملفّ غير صالح</translation>
     </message>
     <message>
         <source>&lt;b&gt;The name &quot;%1&quot; can not be used.&lt;/b&gt;&lt;p&gt;Try using another name, with fewer characters or no punctuations marks.</source>
-        <translation>&lt;b&gt;Nimeä ”%1” ei voi käyttää.&lt;/b&gt;&lt;p&gt;Kokeile jotain muuta nimeä, esim. vähemmän merkkejä tai ei välimerkkejä.</translation>
+        <translation>&lt;b&gt;لا يمكن استخدام الاسم ”%1“.&lt;/b&gt;&lt;p&gt;جرّب استخدام اسم آخر بمحارف أقلّ أو بلا علامات ترقيم.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Nimi</translation>
+        <translation>الاسم</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Koko</translation>
+        <translation>الحجم</translation>
     </message>
     <message>
         <source>Kind</source>
         <comment>Match OS X Finder</comment>
-        <translation>Laji</translation>
+        <translation>النّوع</translation>
     </message>
     <message>
         <source>Type</source>
         <comment>All other platforms</comment>
-        <translation>Tyyppi</translation>
+        <translation>النّوع</translation>
     </message>
     <message>
         <source>Date Modified</source>
-        <translation>Muutosaika</translation>
+        <translation>تاريخ التّعديل</translation>
     </message>
     <message>
         <source>My Computer</source>
-        <translation>Oma tietokone</translation>
+        <translation>حاسوبي</translation>
     </message>
     <message>
         <source>Computer</source>
-        <translation>Tietokone</translation>
+        <translation>الحاسوب</translation>
+    </message>
+    <message>
+        <source>%1 byte(s)</source>
+        <translatorcomment>يأتي العدد في الكود موطّنا من المحلية</translatorcomment>
+        <translation>%1 بايت</translation>
     </message>
 </context>
 <context>
     <name>QFontDatabase</name>
     <message>
+        <source>Normal</source>
+        <comment>The Normal or Regular font weight</comment>
+        <translation>طبيعيّ</translation>
+    </message>
+    <message>
         <source>Bold</source>
-        <translation>Lihava</translation>
+        <translation>ثخين</translation>
     </message>
     <message>
         <source>Demi Bold</source>
-        <translation>Puolilihava</translation>
-    </message>
-    <message>
-        <source>Black</source>
-        <translation>Musta</translation>
-    </message>
-    <message>
-        <source>Demi</source>
-        <extracomment>The word for &quot;Demi&quot; as in &quot;Demi Bold&quot; used as a pattern for string searches</extracomment>
-        <translation>Puoli</translation>
-    </message>
-    <message>
-        <source>Light</source>
-        <translation>Ohut</translation>
-    </message>
-    <message>
-        <source>Normal</source>
-        <comment>The Normal or Regular font weight</comment>
-        <translation>Normaali</translation>
+        <translation>نصف ثخين</translation>
     </message>
     <message>
         <source>Medium</source>
         <comment>The Medium font weight</comment>
-        <translation>Lievästi lihava</translation>
+        <translation>عاديّ</translation>
+    </message>
+    <message>
+        <source>Black</source>
+        <translation>أسود</translation>
+    </message>
+    <message>
+        <source>Light</source>
+        <translation>خفيف</translation>
     </message>
     <message>
         <source>Thin</source>
-        <translation>Ohuin</translation>
+        <translation>رفيع</translation>
     </message>
     <message>
         <source>Extra Light</source>
-        <translation>Erittäin ohut</translation>
+        <translation>رفيع للغاية</translation>
     </message>
     <message>
         <source>Extra Bold</source>
-        <translation>Erittäin lihava</translation>
+        <translation>ثخين للغاية</translation>
     </message>
     <message>
         <source>Extra</source>
         <extracomment>The word for &quot;Extra&quot; as in &quot;Extra Bold, Extra Thin&quot; used as a pattern for string searches</extracomment>
-        <translation>Erittäin</translation>
+        <translation>للغاية</translation>
+    </message>
+    <message>
+        <source>Demi</source>
+        <extracomment>The word for &quot;Demi&quot; as in &quot;Demi Bold&quot; used as a pattern for string searches</extracomment>
+        <translation>نصف</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation>Kursiivi</translation>
+        <translation>مائل</translation>
     </message>
     <message>
         <source>Oblique</source>
-        <translation>Kallistettu</translation>
+        <translatorcomment>هذه خطوط مائلة لكن محرك الخطوط هو من يُميل الأشكال لأنها ليست مرسومة مائلة أساسا.</translatorcomment>
+        <translation>مائل</translation>
     </message>
     <message>
         <source>Any</source>
-        <translation>Mikä tahansa</translation>
+        <translation>أيّ نظام</translation>
     </message>
     <message>
         <source>Latin</source>
-        <translation>Latinalainen</translation>
+        <translation>لاتينيّ</translation>
     </message>
     <message>
         <source>Greek</source>
-        <translation>Kreikkalainen</translation>
+        <translation>يونانيّ</translation>
     </message>
     <message>
         <source>Cyrillic</source>
-        <translation>Kyrillinen</translation>
+        <translation>سيريليّ</translation>
     </message>
     <message>
         <source>Armenian</source>
-        <translation>Armenialainen</translation>
+        <translation>أرمينيّ</translation>
     </message>
     <message>
         <source>Hebrew</source>
-        <translation>Heprealainen</translation>
+        <translation>عبريّ</translation>
     </message>
     <message>
         <source>Arabic</source>
-        <translation>Arabialainen</translation>
+        <translation>عربيّ</translation>
     </message>
     <message>
         <source>Syriac</source>
-        <translation>Syyrialainen</translation>
+        <translation>سيريانيّ</translation>
     </message>
     <message>
         <source>Thaana</source>
-        <translation>Thaana</translation>
+        <translation>ثعنيّ</translation>
     </message>
     <message>
         <source>Devanagari</source>
-        <translation>Devanagari</translation>
+        <translation>ديفاناجاريّ</translation>
     </message>
     <message>
         <source>Bengali</source>
-        <translation>Bengalilainen</translation>
+        <translation>بنغاليّ</translation>
     </message>
     <message>
         <source>Gurmukhi</source>
-        <translation>Gurmukhi</translation>
+        <translation>جرمخيّ</translation>
     </message>
     <message>
         <source>Gujarati</source>
-        <translation>Gudžaratilainen</translation>
+        <translation>غوجارتيّ</translation>
     </message>
     <message>
         <source>Oriya</source>
-        <translation>Orijalainen</translation>
+        <translation>نظام الأوريا</translation>
     </message>
     <message>
         <source>Tamil</source>
-        <translation>Tamililainen</translation>
+        <translation>تاميليّ</translation>
     </message>
     <message>
         <source>Telugu</source>
-        <translation>Telugulainen</translation>
+        <translation>نظام التّيلوجو</translation>
     </message>
     <message>
         <source>Kannada</source>
-        <translation>Kannadalainen</translation>
+        <translation>نظام الكانادا</translation>
     </message>
     <message>
         <source>Malayalam</source>
-        <translation>Malajalamilainen</translation>
+        <translation>مالايالاميّ</translation>
     </message>
     <message>
         <source>Sinhala</source>
-        <translation>Sinhalilainen</translation>
+        <translation>سنهاليّ</translation>
     </message>
     <message>
         <source>Thai</source>
-        <translation>Thailainen</translation>
+        <translation>تايلانديّ</translation>
     </message>
     <message>
         <source>Lao</source>
-        <translation>Laolainen</translation>
+        <translation>نظام اللاو</translation>
     </message>
     <message>
         <source>Tibetan</source>
-        <translation>Tiibetiläinen</translation>
+        <translation>تبتيّ</translation>
     </message>
     <message>
         <source>Myanmar</source>
-        <translation>Burmalainen</translation>
+        <translation>ميانماريّ</translation>
     </message>
     <message>
         <source>Georgian</source>
-        <translation>Georgialainen</translation>
+        <translation>جورجيّ</translation>
     </message>
     <message>
         <source>Khmer</source>
-        <translation>Khmeriläinen</translation>
+        <translation>خميريّ</translation>
     </message>
     <message>
         <source>Simplified Chinese</source>
-        <translation>Kiinalainen (yksinkertaistettu)</translation>
+        <translation>صينيّ مبسّط</translation>
     </message>
     <message>
         <source>Traditional Chinese</source>
-        <translation>Kiinalainen (perinteinen)</translation>
+        <translation>صينيّ تقليديّ</translation>
     </message>
     <message>
         <source>Japanese</source>
-        <translation>Japanilainen</translation>
+        <translation>يابانيّ</translation>
     </message>
     <message>
         <source>Korean</source>
-        <translation>Korealainen</translation>
+        <translation>كوريّ</translation>
     </message>
     <message>
         <source>Vietnamese</source>
-        <translation>Vietnamilainen</translation>
+        <translation>فيتناميّ</translation>
     </message>
     <message>
         <source>Symbol</source>
-        <translation>Symbolit</translation>
+        <translation>رموز</translation>
     </message>
     <message>
         <source>Ogham</source>
-        <translation>Ogam</translation>
+        <translation>أوجهاميّ</translation>
     </message>
     <message>
         <source>Runic</source>
-        <translation>Riimukirjoitus</translation>
+        <translation>رونيّ</translation>
     </message>
     <message>
         <source>N&apos;Ko</source>
-        <translation>N&apos;ko</translation>
+        <translation>نظام الأنكو</translation>
     </message>
 </context>
 <context>
     <name>QFontDialog</name>
     <message>
         <source>Select Font</source>
-        <translation>Valitse fontti</translation>
+        <translation>اختر خطًّا</translation>
     </message>
     <message>
         <source>&amp;Font</source>
-        <translation>&amp;Fontti</translation>
+        <translation>ال&amp;خطّ</translation>
     </message>
     <message>
         <source>Font st&amp;yle</source>
-        <translation>Fontti&amp;tyyli</translation>
+        <translation>&amp;نمط الخطّ</translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>K&amp;oko</translation>
+        <translation>ال&amp;حجم</translation>
     </message>
     <message>
         <source>Effects</source>
-        <translation>Tehosteet</translation>
+        <translation>التّأثيرات</translation>
     </message>
     <message>
         <source>Stri&amp;keout</source>
-        <translation>&amp;Yliviivaus</translation>
+        <translation>يتو&amp;سّطه خطّ</translation>
     </message>
     <message>
         <source>&amp;Underline</source>
-        <translation>&amp;Alleviivaus</translation>
+        <translation>ت&amp;حته خطّ</translation>
     </message>
     <message>
         <source>Sample</source>
-        <translation>Näyte</translation>
+        <translation>عيّنة</translation>
     </message>
     <message>
         <source>Wr&amp;iting System</source>
-        <translation>K&amp;irjoitusjärjestelmä</translation>
+        <translation>نظام ال&amp;كتابة</translation>
     </message>
 </context>
 <context>
     <name>QFtp</name>
     <message>
         <source>Not connected</source>
-        <translation>Ei yhteyttä</translation>
+        <translation>غير متّصل</translation>
     </message>
     <message>
         <source>Host %1 not found</source>
-        <translation>Konetta %1 ei löydy</translation>
+        <translation>لم يُعثر على المضيف %1</translation>
     </message>
     <message>
         <source>Connection refused to host %1</source>
-        <translation>Yhteys koneeseen %1 torjuttu</translation>
+        <translation>رُفض الاتّصال بالمضيف %1</translation>
     </message>
     <message>
         <source>Connection timed out to host %1</source>
-        <translation>Yhteys koneeseen %1 aikakatkaistiin</translation>
+        <translation>انتهت مهلة الاتّصال بالمضيف %1</translation>
     </message>
     <message>
         <source>Connected to host %1</source>
-        <translation>Yhdistetty koneeseen %1</translation>
+        <translation>اتّصلتُ بالمضيف %1</translation>
     </message>
     <message>
         <source>Data Connection refused</source>
-        <translation>Datayhteys torjuttu</translation>
+        <translation>رُفض اتّصال البيانات</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Tuntematon virhe</translation>
+        <translation>خطأ مجهول</translation>
     </message>
     <message>
         <source>Connecting to host failed:
 %1</source>
-        <translation>Yhteys koneeseen epäonnistui:
+        <translation>فشل الاتّصال بالمضيف:
 %1</translation>
     </message>
     <message>
         <source>Login failed:
 %1</source>
-        <translation>Kirjautuminen epäonnistui:
+        <translation>فشل الولوج:
 %1</translation>
     </message>
     <message>
         <source>Listing directory failed:
 %1</source>
-        <translation>Hakemistolistaus epäonnistui:
+        <translation>فشل سرد الأدّلة:
 %1</translation>
     </message>
     <message>
         <source>Changing directory failed:
 %1</source>
-        <translation>Hakemiston vaihtaminen epäonnistui:
+        <translation>فشل تغيير الدّليل:
 %1</translation>
     </message>
     <message>
         <source>Downloading file failed:
 %1</source>
-        <translation>Tiedoston lataaminen epäonnistui:
+        <translation>فشل تنزيل الملفّ:
 %1</translation>
     </message>
     <message>
         <source>Uploading file failed:
 %1</source>
-        <translation>Tiedoston kopioiminen palvelimelle epäonnistui:
+        <translation>فشل رفع الملفّ:
 %1</translation>
     </message>
     <message>
         <source>Removing file failed:
 %1</source>
-        <translation>Tiedoston poisto epäonnistui:
+        <translation>فشلت إزالة الملفّ:
 %1</translation>
     </message>
     <message>
         <source>Creating directory failed:
 %1</source>
-        <translation>Hakemiston luonti epäonnistui:
+        <translation>فشل إنشاء الدّليل:
 %1</translation>
     </message>
     <message>
         <source>Removing directory failed:
 %1</source>
-        <translation>Hakemiston poisto epäonnistui:
+        <translation>فشلت إزالة الدّليل:
 %1</translation>
     </message>
     <message>
         <source>Connection closed</source>
-        <translation>Yhteys suljettu</translation>
+        <translation>رُفض الاتّصال</translation>
     </message>
 </context>
 <context>
     <name>QGnomeTheme</name>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
+        <translation>&amp;حسنًا</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;Tallenna</translation>
+        <translation>ا&amp;حفظ</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Peru</translation>
+        <translation>أل&amp;غِ</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Sulje</translation>
+        <translation>أ&amp;غلق</translation>
     </message>
     <message>
         <source>Close without Saving</source>
-        <translation>Sulje tallentamatta</translation>
+        <translation>أغلق بلا حفظ</translation>
     </message>
 </context>
 <context>
@@ -1480,1078 +1508,1074 @@ Haluatko silti poistaa sen?</translation>
     <message>
         <source>QT_LAYOUT_DIRECTION</source>
         <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
-        <translation>LTR</translation>
+        <translation>RTL</translation>
     </message>
 </context>
 <context>
     <name>QHostInfo</name>
     <message>
         <source>No host name given</source>
-        <translation>Konenimeä ei annettu</translation>
+        <translation>لم يُعط اسم المضيف</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Tuntematon virhe</translation>
+        <translation>خطأ مجهول</translation>
     </message>
 </context>
 <context>
     <name>QHostInfoAgent</name>
     <message>
         <source>No host name given</source>
-        <translation>Konenimeä ei annettu</translation>
+        <translation>لم يُعط اسم المضيف</translation>
     </message>
     <message>
         <source>Invalid hostname</source>
-        <translation>Virheellinen konenimi</translation>
+        <translation>اسم المضيف غير صالح</translation>
     </message>
     <message>
         <source>Unknown address type</source>
-        <translation>Tuntematon osoitetyyppi</translation>
+        <translation>نوع العنوان مجهول</translation>
     </message>
     <message>
         <source>Host not found</source>
-        <translation>Konetta ei löydy</translation>
+        <translation>لم يُعثر على المضيف</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>خطأ مجهول</translation>
     </message>
     <message>
         <source>Unknown error (%1)</source>
-        <translation>Tuntematon virhe (%1)</translation>
+        <translation>خطأ مجهول (%1)</translation>
     </message>
 </context>
 <context>
     <name>QHttp</name>
     <message>
         <source>Host %1 not found</source>
-        <translation>Konetta %1 ei löydy</translation>
+        <translation>لم يُعثر على المضيف %1</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>Yhteys torjuttu</translation>
+        <translation>رُفض الاتّصال</translation>
     </message>
     <message>
         <source>Connection closed</source>
-        <translation>Yhteys suljettu</translation>
+        <translation>أُغلق الاتّصال</translation>
     </message>
     <message>
         <source>Proxy requires authentication</source>
-        <translation>Välityspalvelin vaatii todentamisen</translation>
+        <translation>الوسيط يطلب الاستيثاق</translation>
     </message>
     <message>
         <source>Host requires authentication</source>
-        <translation>Kone vaatii todentamisen</translation>
+        <translation>المضيف يطلب الاستيثاق</translation>
     </message>
     <message>
         <source>Data corrupted</source>
-        <translation>Korruptoitunut data</translation>
+        <translation>البيانات معطوبة</translation>
     </message>
     <message>
         <source>Unknown protocol specified</source>
-        <translation>Tuntematon protokolla</translation>
+        <translation>حُدّد ميفاق مجهول</translation>
     </message>
     <message>
         <source>SSL handshake failed</source>
-        <translation>SSL-kättely epäonnistui</translation>
+        <translation>فشلت مصافحة SSL</translation>
     </message>
     <message>
         <source>Too many redirects</source>
-        <translation>Liian monta uudelleenohjausta</translation>
+        <translation>الكثير من إعادات التّوجيه</translation>
     </message>
     <message>
         <source>Insecure redirect</source>
-        <translation>Turvaton uudelleenohjaus</translation>
+        <translation>إعادة توجيه غير آمنة</translation>
     </message>
 </context>
 <context>
     <name>QHttpSocketEngine</name>
     <message>
         <source>Did not receive HTTP response from proxy</source>
-        <translation>Ei saatu HTTP-vastausta välityspalvelimelta</translation>
+        <translation>لم أستقبل ردّ HTTP من الوكيل</translation>
     </message>
     <message>
         <source>Error parsing authentication request from proxy</source>
-        <translation>Välityspalvelimen todennuspyynnön jäsennys epäonnistui</translation>
+        <translation>خطأ في تحليل طلب الاستيثاق من الوكيل</translation>
     </message>
     <message>
         <source>Authentication required</source>
-        <translation>Vaaditaan todennus</translation>
+        <translation>الاستيثاق مطلوب</translation>
     </message>
     <message>
         <source>Proxy denied connection</source>
-        <translation>Välityspalvelin esti yhteyden</translation>
+        <translation>رفض الوكيل الاتّصال</translation>
     </message>
     <message>
         <source>Error communicating with HTTP proxy</source>
-        <translation>Viestintä HTTP-välityspalvelimen kanssa epäonnistui</translation>
+        <translation>خطأ في التّواصل مع وكيل HTTP</translation>
     </message>
     <message>
         <source>Proxy server not found</source>
-        <translation>Välityspalvelinta ei löytynyt</translation>
+        <translation>لم يُعثر على الخادوم الوكيل</translation>
     </message>
     <message>
         <source>Proxy connection refused</source>
-        <translation>Välityspalvelinyhteys torjuttu</translation>
+        <translation>رُفض اتّصال الوكيل</translation>
     </message>
     <message>
         <source>Proxy server connection timed out</source>
-        <translation>Välityspalvelinyhteyden aikakatkaisu</translation>
+        <translation>انتهت مهلة اتّصال خادوم الوكيل</translation>
     </message>
     <message>
         <source>Proxy connection closed prematurely</source>
-        <translation>Yhteys välityspalvelimeen katkesi ennenaikaisesti</translation>
+        <translation>أُغلق اتّصال الوكيل فجأة</translation>
     </message>
 </context>
 <context>
     <name>QIBaseDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>Tietokannan avaaminen epäonnistui</translation>
+        <translation>خطأ في فتح قاعدة البيانات</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>Tietokantatapahtuman aloittaminen epäonnistui</translation>
+        <translation>تعذّر بدء التّبادل</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tietokantatapahtuman commit-toiminnon suorittaminen epäonnistui</translation>
+        <translation>تعذّر إيداع التّبادل</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Tietokantatapahtuman rollback-toiminnon suorittaminen epäonnistui</translation>
+        <translation>تعذّر التّراجع عن التّبادل</translation>
     </message>
 </context>
 <context>
     <name>QIBaseResult</name>
     <message>
         <source>Unable to create BLOB</source>
-        <translation>BLOBin luonti epäonnistui</translation>
+        <translation>تعذّر إنشاء BLOB</translation>
     </message>
     <message>
         <source>Unable to write BLOB</source>
-        <translation>BLOBin kirjoittaminen epäonnistui</translation>
+        <translation>تعذّرت كتابة BLOB</translation>
     </message>
     <message>
         <source>Unable to open BLOB</source>
-        <translation>BLOBin avaaminen epäonnistui</translation>
+        <translation>تعذّر فتح BLOB</translation>
     </message>
     <message>
         <source>Unable to read BLOB</source>
-        <translation>BLOBin lukeminen epäonnistui</translation>
+        <translation>تعذّرت قراءة BLOB</translation>
     </message>
     <message>
         <source>Could not find array</source>
-        <translation>Taulukkoa ei löytynyt</translation>
+        <translation>تعذّر العثور على المصفوفة</translation>
     </message>
     <message>
         <source>Could not get array data</source>
-        <translation>Taulukon datan hakeminen epäonnistui</translation>
+        <translation>تعذّر الحصول على بيانات المصفوفة</translation>
     </message>
     <message>
         <source>Could not get query info</source>
-        <translation>Kyselyn tietojen hakeminen epäonnistui</translation>
+        <translation>تعذّر الحصول على بيانات الاستعلام</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>Tietokantatapahtuman aloittaminen epäonnistui</translation>
+        <translation>تعذّر بدء التّبادل</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tietokantatapahtuman commit-toiminnon suorittaminen epäonnistui</translation>
+        <translation>تعذّر إيداع التّبادل</translation>
     </message>
     <message>
         <source>Could not allocate statement</source>
-        <translation>Lauseen varaaminen epäonnistui</translation>
+        <translation>تعذّر تخصيص مكان للإفادة</translation>
     </message>
     <message>
         <source>Could not prepare statement</source>
-        <translation>Lauseen valmisteleminen epäonnistui</translation>
+        <translation>تعذّر تحضير الإفادة</translation>
     </message>
     <message>
         <source>Could not describe input statement</source>
-        <translation>Describe epäonnistui syötelauseelle</translation>
+        <translation>تعذّر وصف الإفادة الدّخل</translation>
     </message>
     <message>
         <source>Could not describe statement</source>
-        <translation>Describe epäonnistui lauseelle</translation>
+        <translation>تعذّر وصف الإفادة</translation>
     </message>
     <message>
         <source>Unable to close statement</source>
-        <translation>Lauseen sulkeminen epäonnistui</translation>
+        <translation>تعذّر إغلاق الإفادة</translation>
     </message>
     <message>
         <source>Unable to execute query</source>
-        <translation>Kyselyn suorittaminen epäonnistui</translation>
+        <translation>تعذّر تنفيذ الاستعلام</translation>
     </message>
     <message>
         <source>Could not fetch next item</source>
-        <translation>Seuraavan kohteen noutaminen epäonnistui</translation>
+        <translation>تعذّر جلب العنصر التّالي</translation>
     </message>
     <message>
         <source>Could not get statement info</source>
-        <translation>Lauseen tietojen hakeminen epäonnistui</translation>
+        <translation>تعذّر الحصول على معلومات الإفادة</translation>
     </message>
 </context>
 <context>
     <name>QIODevice</name>
     <message>
         <source>Permission denied</source>
-        <translation>Ei käyttöoikeutta</translation>
+        <translation>رُفض التّصريح</translation>
     </message>
     <message>
         <source>Too many open files</source>
-        <translation>Liikaa avoimia tiedostoja</translation>
+        <translation>الكثير من الملفّات المفتوحة</translation>
     </message>
     <message>
         <source>No such file or directory</source>
-        <translation>Tiedostoa tai kansiota ei ole olemassa</translation>
+        <translation>لا ملفّ أو دليل كهذا</translation>
     </message>
     <message>
         <source>No space left on device</source>
-        <translation>Laitteessa ei ole tilaa vapaana</translation>
-    </message>
-    <message>
-        <source>Unknown error</source>
-        <translation>Tuntematon virhe</translation>
+        <translation>لا مساحة متبقّية في الجهاز</translation>
     </message>
     <message>
         <source>file to open is a directory</source>
-        <translation>avattava tiedosto on kansio</translation>
+        <translation>الملفّ لفتحه ما هو إلّا دليل</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>خطأ مجهول</translation>
     </message>
 </context>
 <context>
     <name>QImageReader</name>
     <message>
         <source>Invalid device</source>
-        <translation>Virheellinen laite</translation>
+        <translation>الجهاز غير صالح</translation>
     </message>
     <message>
         <source>File not found</source>
-        <translation>Tiedostoa ei löydy</translation>
+        <translation>لم يُعثر على الملفّ</translation>
     </message>
     <message>
         <source>Unsupported image format</source>
-        <translation>Kuvamuotoa ei tueta</translation>
+        <translation>نسق الصّورة غير مدعوم</translation>
     </message>
     <message>
         <source>Unable to read image data</source>
-        <translation>Kuvadatan lukeminen epäonnistui</translation>
+        <translation>تعذّرت قراءة بيانات الصّورة</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Tuntematon virhe</translation>
+        <translation>خطأ مجهول</translation>
     </message>
 </context>
 <context>
     <name>QImageWriter</name>
     <message>
         <source>Unknown error</source>
-        <translation>Tuntematon virhe</translation>
+        <translation>خطأ مجهول</translation>
     </message>
     <message>
         <source>Device is not set</source>
-        <translation>Laitetta ei ole asetettu</translation>
+        <translation>لم يُعيّن الجهاز</translation>
     </message>
     <message>
         <source>Cannot open device for writing: %1</source>
-        <translation>Laitetta ei voitu avata kirjoitusta varten: %1</translation>
+        <translation>تعذّر فتح الجهاز للكتابة: %1</translation>
     </message>
     <message>
         <source>Device not writable</source>
-        <translation>Laitteeseen ei voi kirjoittaa</translation>
+        <translation>الجهاز غير قابل للقراءة</translation>
     </message>
     <message>
         <source>Unsupported image format</source>
-        <translation>Kuvamuotoa ei tueta</translation>
-    </message>
-    <message>
-        <source>Image is empty</source>
-        <translation>Kuva on tyhjä</translation>
+        <translation>نسق الصّورة غير مدعوم</translation>
     </message>
 </context>
 <context>
     <name>QInputDialog</name>
     <message>
         <source>Enter a value:</source>
-        <translation>Anna arvo:</translation>
+        <translation>أدخل قيمة:</translation>
     </message>
 </context>
 <context>
     <name>QJsonParseError</name>
     <message>
         <source>no error occurred</source>
-        <translation>ei virhettä</translation>
+        <translation>لم تحدث أخطاء</translation>
     </message>
     <message>
         <source>unterminated object</source>
-        <translation>päättämätön objekti</translation>
+        <translation>كائن لم يُنهى</translation>
     </message>
     <message>
         <source>missing name separator</source>
-        <translation>puuttuva nimen erotin</translation>
+        <translation>قاسم الأسماء ناقص</translation>
     </message>
     <message>
         <source>unterminated array</source>
-        <translation>päättämätön taulukko</translation>
+        <translation>مصفوفة لم تُنهى</translation>
     </message>
     <message>
         <source>missing value separator</source>
-        <translation>puuttuva arvon erotin</translation>
+        <translation>قاسم القيم ناقص</translation>
     </message>
     <message>
         <source>illegal value</source>
-        <translation>virheellinen arvo</translation>
+        <translation>قيمة غير صالحة</translation>
     </message>
     <message>
         <source>invalid termination by number</source>
-        <translation>vaillinainen numero</translation>
+        <translation>إنهاء غير صالح عبر عدد</translation>
     </message>
     <message>
         <source>illegal number</source>
-        <translation>virheellinen numero</translation>
+        <translation>عدد غير صالح</translation>
     </message>
     <message>
         <source>invalid escape sequence</source>
-        <translation>virheellinen ohjauskoodi</translation>
+        <translation>تسلسل هروب غير صالح</translation>
     </message>
     <message>
         <source>invalid UTF8 string</source>
-        <translation>virheellinen UTF8-merkkijono</translation>
+        <translation>سلسلة UTF8 غير صالحة</translation>
     </message>
     <message>
         <source>unterminated string</source>
-        <translation>päättämätön merkkijono</translation>
+        <translation>سلسلة لم تُنهى</translation>
     </message>
     <message>
         <source>object is missing after a comma</source>
-        <translation>pilkun jälkeen puuttuu objekti</translation>
+        <translation>كائن ناقص بعد الفاصلة</translation>
     </message>
     <message>
         <source>too deeply nested document</source>
-        <translation>liian syvä sisäkkäisyys dokumentissa</translation>
+        <translation>مستند متداخل بشدّة كبيرة</translation>
     </message>
     <message>
         <source>too large document</source>
-        <translation>liian suuri dokumentti</translation>
+        <translation>مستند كبير جدًّا</translation>
     </message>
     <message>
         <source>garbage at the end of the document</source>
-        <translation>roskaa dokumentin lopussa</translation>
+        <translation>مخلّفات في نهاية المستند</translation>
     </message>
 </context>
 <context>
     <name>QKeySequenceEdit</name>
     <message>
         <source>Press shortcut</source>
-        <translation>Syötä pikanäppäin</translation>
+        <translation>اضغط اختصارًا</translation>
     </message>
     <message>
         <source>%1, ...</source>
         <extracomment>This text is an &quot;unfinished&quot; shortcut, expands like &quot;Ctrl+A, ...&quot;</extracomment>
-        <translation>%1, …</translation>
+        <translation>‏‎%1‎، ...</translation>
     </message>
 </context>
 <context>
     <name>QLibrary</name>
     <message>
         <source>&apos;%1&apos; is not an ELF object (%2)</source>
-        <translation>”%1” ei ole ELF-objekti (%2)</translation>
+        <translation>ليس ’%1‘ كائن ELF ‏(%2)</translation>
+    </message>
+    <message>
+        <source>file too small</source>
+        <translation>الملفّ صغير جدًّا</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not an ELF object</source>
-        <translation>”%1” ei ole ELF-objekti</translation>
+        <translation>ليس ’%1‘ كائن ELF</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is an invalid ELF object (%2)</source>
-        <translation>”%1” on virheellinen ELF-objekti (%2)</translation>
+        <translation>ليس ’%1‘ كائن ELF صالح (%2)</translation>
     </message>
     <message>
         <source>odd cpu architecture</source>
-        <translation>outo prosessoriarkkitehtuuri</translation>
+        <translation>معماريّة المعالج غريبة</translation>
     </message>
     <message>
         <source>wrong cpu architecture</source>
-        <translation>väärä prosessoriarkkitehtuuri</translation>
+        <translation>معماريّة المعالج خاطئة</translation>
     </message>
     <message>
         <source>odd endianness</source>
-        <translation>outo tavujärjestys</translation>
+        <translation>طرفيّة البايتات غريبة</translation>
     </message>
     <message>
         <source>unexpected e_shsize</source>
-        <translation>odottamaton e_shsize</translation>
+        <translation>‏e_shsize غير متوقّع</translation>
     </message>
     <message>
         <source>unexpected e_shentsize</source>
-        <translation>odottamaton e_shentsize</translation>
+        <translation>‏e_shentsize غير متوقّع</translation>
     </message>
     <message numerus="yes">
         <source>announced %n section(s), each %1 byte(s), exceed file size</source>
         <translation>
-            <numerusform>ilmoitettu %n osio, kooltaan %1 tavua, ylittää tiedoston koon</numerusform>
-            <numerusform>ilmoitettu %n osiota, kukin %1 tavua, ylittää tiedoston koon</numerusform>
+            <numerusform>لم يُعلن أيّ قسم، بطول %L1 بايت، تخطّى حجم الملفّ</numerusform>
+            <numerusform>أُعلن قسم واحد، بطول %L1 بايت، تخطّى حجم الملفّ</numerusform>
+            <numerusform>أُعلن قسمين، بطول %L1 بايت، تخطّى حجم الملفّ</numerusform>
+            <numerusform>أُعلنت %Ln أقسام، بطول %L1 بايت، تخطّى حجم الملفّ</numerusform>
+            <numerusform>أُعلن %Ln قسمًا، بطول %L1 بايت، تخطّى حجم الملفّ</numerusform>
+            <numerusform>أُعلن %Ln قسم، بطول %L1 بايت، تخطّى حجم الملفّ</numerusform>
         </translation>
     </message>
     <message>
         <source>shstrtab section header seems to be at %1</source>
-        <translation>shstrtab-osion otsake näyttäisi olevan sijainnissa %1</translation>
+        <translatorcomment>عدد ليس عاديا</translatorcomment>
+        <translation>تبدو ترويسة قسم shstrtab عند %1</translation>
     </message>
     <message>
         <source>string table seems to be at %1</source>
-        <translation>merkkijonotaulukko näyttäisi olevan sijainnissa %1</translation>
+        <translatorcomment>عدد ليس عاديا</translatorcomment>
+        <translation>يبدو جدول السّلاسل عند %1</translation>
     </message>
     <message>
         <source>section name %1 of %2 behind end of file</source>
-        <translation>osion nimi %1/%2 on tiedoston lopun jälkeen</translation>
+        <translation>اسم القسم %L1 من أصل %L2 خلف نهاية الملفّ</translation>
     </message>
     <message>
         <source>empty .rodata. not a library.</source>
-        <translation>tyhjä .rodata, ei ole kirjasto.</translation>
+        <translation>‏‎.rodate فارغة. ليست مكتبة.</translation>
     </message>
     <message>
         <source>missing section data. This is not a library.</source>
-        <translation>osiolla ei ole dataa. Tämä ei ole kirjasto.</translation>
+        <translation>بيانات القسم ناقصة. ليست هذه بمكتبة.</translation>
     </message>
     <message>
         <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
-        <translation>Liitännäismetatietojen saaminen kirjastosta ”%1” epäonnistui</translation>
+        <translation>فشل استخراج البيانات الوصفيّة للملحقة من ’%1‘</translation>
     </message>
     <message>
         <source>The shared library was not found.</source>
-        <translation>Jaettua kirjastoa ei löytynyt.</translation>
+        <translation>لم يُعثر على المكتبة المشتركة.</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; is not a valid Qt plugin.</source>
-        <translation>Tiedosto ”%1” ei ole voimassa oleva Qt-liitännäinen.</translation>
+        <translation>الملفّ ’%1‘ ليس ملحقة كيوت صالحة.</translation>
     </message>
     <message>
         <source>The plugin &apos;%1&apos; uses incompatible Qt library. (%2.%3.%4) [%5]</source>
-        <translation>Liitännäinen ”%1” käyttää yhteensopimatonta Qt-kirjastoa. (%2.%3.%4) [%5]</translation>
+        <translation>تستخدم الملحقة ’%1‘ مكتبة كيوت غير متوافقة (%2.%3.%4) [%5]</translation>
     </message>
     <message>
         <source>The plugin &apos;%1&apos; uses incompatible Qt library. (Cannot mix debug and release libraries.)</source>
-        <translation>Liitännäinen ”%1” käyttää yhteensopimatonta Qt-kirjastoa. (Vianjäljitys- ja julkaisukirjastoja ei voi sekoittaa.)</translation>
+        <translation>تستخدم الملحقة ’%1‘ مكتبة كيوت غير متوافقة (لا يمكن دمج مكتبات التّنقيح والإصدار.)</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Tuntematon virhe</translation>
+        <translation>خطأ مجهول</translation>
     </message>
     <message>
         <source>Cannot load library %1: %2</source>
-        <translation>Kirjaston %1 lataaminen epäonnistui: %2</translation>
+        <translation>تعذّر تحميل المكتبة %1: ‏%2</translation>
     </message>
     <message>
         <source>Cannot unload library %1: %2</source>
-        <translation>Kirjaston %1 vapauttaminen epäonnistui: %2</translation>
+        <translation>تعذّر إلغاء تحميل المكتبة %1: ‏%2</translation>
     </message>
     <message>
         <source>Cannot resolve symbol &quot;%1&quot; in %2: %3</source>
-        <translation>Symbolin ”%1” ratkaiseminen kirjastossa %2 epäonnistui: %3</translation>
+        <translation>تعذّر حلّ الرّمز ”%1“ في %2، %3</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a valid Mach-O binary (%2)</source>
-        <translation>”%1” ei ole kelvollinen Mach-O-binääri (%2)</translation>
+        <translation>ليس ’%1‘ ثنائيّ Mach-O صالح (%2)</translation>
     </message>
     <message>
         <source>file is corrupt</source>
-        <translation>tiedosto on vioittunut</translation>
-    </message>
-    <message>
-        <source>file too small</source>
-        <translation>tiedosto on liian pieni</translation>
+        <translation>الملفّ معطوب</translation>
     </message>
     <message>
         <source>no suitable architecture in fat binary</source>
-        <translation>ei sopivaa arkkitehtuuria fat-binäärissä</translation>
+        <translation>لا معماريّة مناسبة في ثنائيّ fat</translation>
     </message>
     <message>
         <source>invalid magic %1</source>
-        <translation>virheellinen tiedostotyypin tunniste (magic) %1</translation>
+        <translation>الرّقم السّحريّ %1 غير صالح</translation>
     </message>
     <message>
         <source>wrong architecture</source>
-        <translation>väärä arkkitehtuuri</translation>
+        <translation>المعماريّة خاطئة</translation>
     </message>
     <message>
         <source>not a dynamic library</source>
-        <translation>ei ole dynaaminen kirjasto</translation>
+        <translation>ليست مكتبة حركيّة</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a Qt plugin</source>
-        <translation>”%1” ei ole Qt-liitännäinen</translation>
+        <translation>ليست ’%1‘ ليست ملحقة كيوت</translation>
     </message>
 </context>
 <context>
     <name>QLineEdit</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;Kumoa</translation>
+        <translation>&amp;تراجع</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>&amp;Tee uudelleen</translation>
+        <translation>أ&amp;عد</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>L&amp;eikkaa</translation>
+        <translation>&amp;قصّ</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>K&amp;opioi</translation>
+        <translation>ا&amp;نسخ</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>&amp;Liitä</translation>
+        <translation>أل&amp;صق</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Poista</translation>
+        <translation>احذف</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Valitse kaikki</translation>
+        <translation>حدّد الكلّ</translation>
     </message>
 </context>
 <context>
     <name>QLocalServer</name>
     <message>
         <source>%1: Name error</source>
-        <translation>%1: Nimivirhe</translation>
+        <translation>‏%1: خطأ في الاسم</translation>
     </message>
     <message>
         <source>%1: Permission denied</source>
-        <translation>%1: Ei käyttöoikeutta</translation>
+        <translation>‏%1: رُفض التّصريح</translation>
     </message>
     <message>
         <source>%1: Address in use</source>
-        <translation>%1: Osoite on jo käytössä</translation>
+        <translation>‏%1: العنوان مستخدم</translation>
     </message>
     <message>
         <source>%1: Unknown error %2</source>
-        <translation>%1: Tuntematon virhe %2</translation>
+        <translation>‏%1: الخطأ %2 مجهول</translation>
     </message>
 </context>
 <context>
     <name>QLocalSocket</name>
     <message>
         <source>%1: Connection refused</source>
-        <translation>%1: Yhteys torjuttu</translation>
+        <translation>‏%1: رُفض الاتّصال</translation>
     </message>
     <message>
         <source>%1: Remote closed</source>
-        <translation>%1: Etäyhteys suljettu</translation>
+        <translation>‏%1: أُغلق البعيد</translation>
     </message>
     <message>
         <source>%1: Invalid name</source>
-        <translation>%1: Virheellinen nimi</translation>
+        <translation>‏%1: الاسم غير صالح</translation>
     </message>
     <message>
         <source>%1: Socket access error</source>
-        <translation>%1: Virhe pistokkeeseen pääsyssä</translation>
+        <translation>‏%1: خطأ في النّفاذ إلى المقبس</translation>
     </message>
     <message>
         <source>%1: Socket resource error</source>
-        <translation>%1: Virhe pistokeresurssissa</translation>
+        <translation>‏%1: خطأ في مورد المقبس</translation>
     </message>
     <message>
         <source>%1: Socket operation timed out</source>
-        <translation>%1: Pistoketoiminnon aikakatkaisu</translation>
+        <translation>‏%1: انتهت عمليّة المقبس</translation>
     </message>
     <message>
         <source>%1: Datagram too large</source>
-        <translation>%1: Datagrammi on liian suuri</translation>
+        <translation>‏%1: مخطّط البيانات كبير جدًّا</translation>
     </message>
     <message>
         <source>%1: Connection error</source>
-        <translation>%1: Yhteysvirhe</translation>
+        <translation>‏%1: خطأ في الاتّصال</translation>
     </message>
     <message>
         <source>%1: The socket operation is not supported</source>
-        <translation>%1: Pistoketoimintoa ei tueta</translation>
+        <translation>‏%1: عمليّة المقبس غير مدعومة</translation>
     </message>
     <message>
         <source>%1: Operation not permitted when socket is in this state</source>
-        <translation>%1: Toimintoa ei tueta pistokkeen tässä tilassa</translation>
+        <translation>‏%1: لا يُسمح بهذه العمليّة والمقبس في هذه الحالة</translation>
     </message>
     <message>
         <source>%1: Unknown error</source>
-        <translation>%1: Tuntematon virhe</translation>
+        <translation>‏%1: خطأ مجهول</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation>Yritettiin yhdistää vaikka yhteys on jo käytössä</translation>
+        <translation>يحاول الاتّصال بينما الاتّصال جارٍ</translation>
     </message>
     <message>
         <source>%1: Unknown error %2</source>
-        <translation>%1: Tuntematon virhe %2</translation>
+        <translation>‏%1: الخطأ %2 مجهول</translation>
     </message>
     <message>
         <source>%1: Access denied</source>
-        <translation>%1: Pääsy estetty</translation>
+        <translation>‏%1: رُفض التّصريح</translation>
     </message>
 </context>
 <context>
     <name>QMYSQLDriver</name>
     <message>
         <source>Unable to allocate a MYSQL object</source>
-        <translation>MYSQL-objektin varaaminen epäonnistui</translation>
+        <translation>تعذّر تخصيص مكان لكائن MYSQL</translation>
     </message>
     <message>
         <source>Unable to open database &apos;%1&apos;</source>
-        <translation>Tietokannan ”%1” avaaminen epäonnistui</translation>
+        <translation>تعذّر فتح قاعدة البيانات ’%1‘</translation>
     </message>
     <message>
         <source>Unable to connect</source>
-        <translation>Yhdistäminen epäonnistui</translation>
+        <translation>تعذّر الاتّصال</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>Tietokantatapahtuman aloittaminen epäonnistui</translation>
+        <translation>تعذّر بدء التّبادل</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tietokantatapahtuman commit-toiminnon suorittaminen epäonnistui</translation>
+        <translation>تعذّر إيداع التّبادل</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Tietokantatapahtuman rollback-toiminnon suorittaminen epäonnistui</translation>
+        <translation>تعذّر التّراجع عن التّبادل</translation>
     </message>
 </context>
 <context>
     <name>QMYSQLResult</name>
     <message>
         <source>Unable to fetch data</source>
-        <translation>Tietojen noutaminen epäonnistui</translation>
+        <translation>تعذّر جلب البيانات</translation>
     </message>
     <message>
         <source>Unable to execute query</source>
-        <translation>Kyselyn suorittaminen epäonnistui</translation>
+        <translation>تعذّر تنفيذ الاستعلام</translation>
     </message>
     <message>
         <source>Unable to store result</source>
-        <translation>Tuloksen tallettaminen epäonnistui</translation>
+        <translation>تعذّر تخزين النّتيجة</translation>
     </message>
     <message>
         <source>Unable to execute next query</source>
-        <translation>Seuraavan kyselyn suorittaminen epäonnistui</translation>
+        <translation>تعذّر تنفيذ الاستعلام التّالي</translation>
     </message>
     <message>
         <source>Unable to store next result</source>
-        <translation>Seuraavan tuloksen tallettaminen epäonnistui</translation>
+        <translation>تعذّر تخزين الاستعلام التّالي</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Lauseen valmisteleminen epäonnistui</translation>
+        <translation>تعذّر تحضير الإفادة</translation>
     </message>
     <message>
         <source>Unable to reset statement</source>
-        <translation>Lauseen alustaminen epäonnistui</translation>
+        <translation>تعذّر تصفير الإفادة</translation>
     </message>
     <message>
         <source>Unable to bind value</source>
-        <translation>Arvon sitominen epäonnistui</translation>
+        <translation>تعذّر ربط القيمة</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Lauseen suorittaminen epäonnistui</translation>
+        <translation>تعذّر تنفيذ الإفادة</translation>
     </message>
     <message>
         <source>Unable to bind outvalues</source>
-        <translation>Tulosarvojen sitominen epäonnistui</translation>
+        <translatorcomment>يبدو أنها قيم تخرج من دالة من الدوال في MySQL</translatorcomment>
+        <translation>تعذّر ربط القيم الخارِجة</translation>
     </message>
     <message>
         <source>Unable to store statement results</source>
-        <translation>Lauseen tulosten tallettaminen epäonnistui</translation>
+        <translation>تعذّر تخزين نتائج الإفادة</translation>
     </message>
 </context>
 <context>
     <name>QMdiArea</name>
     <message>
         <source>(Untitled)</source>
-        <translation>(Nimetön)</translation>
+        <translation>(غير مسمّى)</translation>
     </message>
 </context>
 <context>
     <name>QMdiSubWindow</name>
     <message>
         <source>- [%1]</source>
-        <translation>– [%1]</translation>
+        <translation>- [%1]</translation>
     </message>
     <message>
         <source>%1 - [%2]</source>
-        <translation>%1 – [%2]</translation>
+        <translation>%1 - [%2]</translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>Pienennä</translation>
+        <translation>صغّر</translation>
     </message>
     <message>
         <source>Maximize</source>
-        <translation>Suurenna</translation>
+        <translation>كبّر</translation>
     </message>
     <message>
         <source>Unshade</source>
-        <translation>Rullaa auki</translation>
+        <translation>ألغِ التّظليل</translation>
     </message>
     <message>
         <source>Shade</source>
-        <translation>Rullaa kiinni</translation>
+        <translation>ظلّل</translation>
     </message>
     <message>
         <source>Restore Down</source>
-        <translation>Palauta normaaliksi</translation>
+        <translation>استعد لأسفل</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation>Palauta</translation>
+        <translation>استعد</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Sulje</translation>
+        <translation>أغلق</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Ohje</translation>
+        <translation>مساعدة</translation>
     </message>
     <message>
         <source>Menu</source>
-        <translation>Valikko</translation>
+        <translation>قائمة</translation>
     </message>
     <message>
         <source>&amp;Restore</source>
-        <translation>&amp;Palauta</translation>
+        <translation>ا&amp;ستعد</translation>
     </message>
     <message>
         <source>&amp;Move</source>
-        <translation>Sii&amp;rrä</translation>
+        <translation>ا&amp;نقل</translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>Muuta k&amp;okoa</translation>
+        <translation>ال&amp;حجم</translation>
     </message>
     <message>
         <source>Mi&amp;nimize</source>
-        <translation>P&amp;ienennä</translation>
+        <translation>&amp;صغّر</translation>
     </message>
     <message>
         <source>Ma&amp;ximize</source>
-        <translation>S&amp;uurenna</translation>
+        <translation>&amp;كبّر</translation>
     </message>
     <message>
         <source>Stay on &amp;Top</source>
-        <translation>P&amp;ysy päällimmäisenä</translation>
+        <translation>ابقي في الأ&amp;على</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Sulje</translation>
+        <translation>أ&amp;غلق</translation>
     </message>
 </context>
 <context>
     <name>QMessageBox</name>
     <message>
         <source>Show Details...</source>
-        <translation>Näytä yksityiskohdat…</translation>
+        <translation>أظهر التّفاصيل...</translation>
     </message>
     <message>
         <source>Hide Details...</source>
-        <translation>Piilota yksityiskohdat…</translation>
-    </message>
-    <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Qt on C++-työkalupaketti alustariippumattomaan sovelluskehitykseen.&lt;/p&gt;
-&lt;p&gt;Qt tarjoaa saman lähdekoodin siirrettävyyden kaikkiin merkittäviin työpöytäkäyttöjärjestelmiin.
-Qt on myös saatavilla sulautetulle Linuxille ja muille mobiili- sekä sulautetuille käyttöjärjestelmille.&lt;/p&gt;
-&lt;p&gt;Qt on saatavilla kolmella eri lisenssillä, jotka on tarkoitettu vastaamaan erilaisten käyttäjien tarpeisiin.&lt;/p&gt;
-&lt;p&gt;Kaupallisen lisenssisopimuksen ehtojen mukaisesti lisensoitu Qt sopii omisteisen tai kaupallisen ohjelmiston
-kehittämiseen silloin, kun lähdekoodia ei haluta jakaa kolmansille osapuolille tai ei voida muuten noudattaa
-GNU LGPL 3:n ehtoja.&lt;/p&gt;
-&lt;p&gt;GNU LGPL 3:n ehtojen mukaisesti lisensoitu Qt sopii Qt-sovellusten kehittämiseen silloin,
-kun GNU LGPL 3:n ehtoja voidaan noudattaa.&lt;/p&gt;
-&lt;p&gt;Katso yhteenveto Qt-lisensoinnista osoitteesta &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Copyright © %1 The Qt Company Ltd ja/tai sen tytäryhtiö(t) ja muut avustajat.&lt;/p&gt;
-&lt;p&gt;Qt ja Qt-logo ovat The Qt Company Ltd:n ja/tai sen tytäryhtiö(ide)n tavaramerkkejä.&lt;/p&gt;
-&lt;p&gt;Qt on The Qt Company Ltd -tuote, jota kehitetään avoimen lähdekoodin projektina. Katso lisätietoja osoitteesta &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt;.&lt;/p&gt;</translation>
+        <translation>أخفِ التّفاصيل...</translation>
     </message>
     <message>
         <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
-        <translation>&lt;h3&gt;Tietoja Qt:stä&lt;/h3&gt;&lt;p&gt;Tämä ohjelma käyttää Qt-versiota %1.&lt;/p&gt;</translation>
+        <translatorcomment>العدد يأتي سلسلة غير موطنة</translatorcomment>
+        <translation>&lt;h3&gt;عنْ كيوت&lt;/h3&gt;&lt;p&gt;يستخدم هذا البرنامج الإصدارة %1 من كيوت.&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;«كيوت/Qt» هي عُدّة أدوات C++‎ لتطوير التّطبيقات على مختلف المنصّات.&lt;/p&gt;&lt;p&gt;تقدّم «كيوت» نقل التّطبيقات (بكتابة نصّ مصدري موحّد) إلى أغلب أنظمة التّشغيل للحواسيب المكتبيّة. تتوفّر «كيوت» أيضًا ل‍«لينكس/Linux» المضمّن وغيرها من أنظمة التشغيل المضمّنة والمحمولة.&lt;/p&gt;&lt;p&gt;«كيوت» متوفّرة بثلاثة خيارات ترخيص مختلفة صُمّمت لملائمة احتياجات مستخدمينا المختلفة.&lt;/p&gt;&lt;p&gt;نسخة «كيوت» المرخّصة باتّفاقيّة التّرخيص التّجاريّة منّا مناسِبة لتطوير البرمجيّات المملوكة/التّجاريّة متى ما لم ترد مشاركة النّصوص البرمجيّة مع أطراف ثالثة أو إن لم يمكنك الامتثال لقوانين «رخصة جنو العموميّة الصّغرى/GNU LGPL» الإصدارة الثّالثة.&lt;/p&gt;&lt;p&gt;نسخة «كيوت» المرخّصة ب‍«رخصة جنو العموميّة الصّغرى» الإصدارة الثّالثة مناسِبة لتطوير تطبيقات&amp;nbsp;«كيوت» إن أمكنك الامتثال إلى قوانين «رخصة جنو العموميّة الصّغرى» الإصدارة الثّالثة وشروطها.&lt;/p&gt;&lt;p&gt;رجاءً طالع &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; لأخذ نظرة عامة عن ترخيص «كيوت»&lt;/p&gt;&lt;p&gt;التّرجمة العربيّة: إنّ لفظة ”كيوت“ هي لفظة منقولة حرفيًّا من الاسم الأصليّ Qt. يجب العودة إلى الاسم الأصليّ Qt لأيّة اعتبارات قانونيّة أو ترخيصيّة.&lt;/p&gt;&lt;p&gt;حقوق النّسخ © %L1 ل‍«شركة كيوت المحدودة/Qt Company Ltd» والمساهمين الآخرين.&lt;/p&gt;&lt;p&gt;إنّ Qt وشعار «كيوت» علامات تجاريّة ل‍«شركة كيوت المحدودة».&lt;/p&gt;&lt;p&gt;إنّ «كيوت» هي منتج «شركة كيوت المحدودة» الذي يُطوّر باعتباره مشروعًا مفتوح المصدر. طالع &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; لمزيد من المعلومات.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About Qt</source>
-        <translation>Tietoja Qt:stä</translation>
+        <translation>عنْ كيوت</translation>
     </message>
 </context>
 <context>
     <name>QNativeSocketEngine</name>
     <message>
         <source>Unable to initialize non-blocking socket</source>
-        <translation>Estämättömän pistokkeen alustaminen epäonnistui</translation>
+        <translation>تعذّر تمهيد مقبس غير مانع</translation>
     </message>
     <message>
         <source>Unable to initialize broadcast socket</source>
-        <translation>Yleislähetyspistokkeen alustaminen epäonnistui</translation>
+        <translation>تعذّر تمهيد مقبس بثّ</translation>
     </message>
     <message>
         <source>Attempt to use IPv6 socket on a platform with no IPv6 support</source>
-        <translation>Yritettiin käyttää IPv6-pistoketta IPv6-tuettomalla alustalla</translation>
+        <translation>محاولة استخدام مقبس IPv6 على منصّة لا تدعمه</translation>
     </message>
     <message>
         <source>The remote host closed the connection</source>
-        <translation>Palvelin sulki yhteyden</translation>
+        <translation>أغلق المضيف البعيد الاتّصال</translation>
     </message>
     <message>
         <source>Network operation timed out</source>
-        <translation>Verkkotoiminnon aikakatkaisu</translation>
+        <translation>انتهت مهلة عمليّة الشّبكة</translation>
     </message>
     <message>
         <source>Out of resources</source>
-        <translation>Resurssit loppuivat kesken</translation>
+        <translation>نفذت الموارد</translation>
     </message>
     <message>
         <source>Unsupported socket operation</source>
-        <translation>Tätä pistoketoimintoa ei tueta</translation>
+        <translation>عمليّة المقبس غير مدعومة</translation>
     </message>
     <message>
         <source>Protocol type not supported</source>
-        <translation>Protokollan tyyppiä ei tueta</translation>
+        <translation>نوع الميفاق غير مدعوم</translation>
     </message>
     <message>
         <source>Invalid socket descriptor</source>
-        <translation>Virheellinen pistokkeen tunniste</translation>
+        <translation>واصِف المقبس غير مدعوم</translation>
     </message>
     <message>
         <source>Host unreachable</source>
-        <translation>Palvelin tavoittamattomissa</translation>
+        <translation>لا يمكن الوصول إلى المضيف</translation>
     </message>
     <message>
         <source>Network unreachable</source>
-        <translation>Verkko tavoittamattomissa</translation>
+        <translation>لا يمكن الوصول إلى الشّبكة</translation>
     </message>
     <message>
         <source>Permission denied</source>
-        <translation>Ei käyttöoikeutta</translation>
+        <translation>رُفض التّصريح</translation>
     </message>
     <message>
         <source>Connection timed out</source>
-        <translation>Yhteyden aikakatkaisu</translation>
+        <translation>انتهت مهلة الاتّصال</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>Yhteys torjuttu</translation>
+        <translation>رُفض الاتّصال</translation>
     </message>
     <message>
         <source>The bound address is already in use</source>
-        <translation>Osoite on jo käytössä</translation>
+        <translation>العنوان المربوط مستخدم فعلًا</translation>
     </message>
     <message>
         <source>The address is not available</source>
-        <translation>Osoite ei ole käytettävissä</translation>
+        <translation>العنوان غير متوفّر</translation>
     </message>
     <message>
         <source>The address is protected</source>
-        <translation>Osoite on suojattu</translation>
+        <translation>العنوان محميّ</translation>
     </message>
     <message>
         <source>Datagram was too large to send</source>
-        <translation>Datagrammi oli liian suuri lähettäväksi</translation>
+        <translation>مخطّط البيانات كبير جدًّا ليُرسل</translation>
     </message>
     <message>
         <source>Unable to send a message</source>
-        <translation>Viestin lähettäminen epäonnistui</translation>
+        <translation>تعذّر إرسال الرّسالة</translation>
     </message>
     <message>
         <source>Unable to receive a message</source>
-        <translation>Viestin vastaanottaminen epäonnistui</translation>
+        <translation>تعذّر استقبال الرّسالة</translation>
     </message>
     <message>
         <source>Unable to write</source>
-        <translation>Kirjoittaminen epäonnistui</translation>
+        <translation>تعذّرت الكتابة</translation>
     </message>
     <message>
         <source>Network error</source>
-        <translation>Verkkovirhe</translation>
+        <translation>خطأ شبكيّ</translation>
     </message>
     <message>
         <source>Another socket is already listening on the same port</source>
-        <translation>Toinen pistoke kuuntelee jo samaa porttia</translation>
+        <translation>هناك مقبس آخر يستمع إلى نفس المنفذ بالفعل</translation>
     </message>
     <message>
         <source>Operation on non-socket</source>
-        <translation>Ei ole pistoke</translation>
+        <translation>عمليّة على ما هو ليس مقبس</translation>
     </message>
     <message>
         <source>The proxy type is invalid for this operation</source>
-        <translation>Välityspalvelimen tyyppi ei kelpaa tähän toimintoon</translation>
+        <translation>نوع الوكيل غير صالح لهذه العمليّة</translation>
     </message>
     <message>
         <source>Temporary error</source>
-        <translation>Tilapäinen virhe</translation>
+        <translation>خطأ مؤقّت</translation>
     </message>
     <message>
         <source>Network dropped connection on reset</source>
-        <translation>Verkko pudotti yhteyden nollauksen yhteydessä</translation>
+        <translation>أسقطت الشّبكة الاتّصال عند التّصفير</translation>
     </message>
     <message>
         <source>Connection reset by peer</source>
-        <translation>Verkkovertainen nollasi yhteyden</translation>
+        <translation>صفّر النّدّ الاتّصال</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Tuntematon virhe</translation>
+        <translation>خطأ مجهول</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessCacheBackend</name>
     <message>
         <source>Error opening %1</source>
-        <translation>Virhe avattaessa %1</translation>
+        <translation>خطأ في فتح %1</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessDataBackend</name>
     <message>
         <source>Invalid URI: %1</source>
-        <translation>Virheellinen URI: %1</translation>
+        <translation>معرّف URI غير صالح: %1</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessDebugPipeBackend</name>
     <message>
         <source>Write error writing to %1: %2</source>
-        <translation>Kirjoittaminen kohteeseen %1 epäonnistui: %2</translation>
+        <translation>خطأ كتابة في الكتابة إلى %1: ‏%2</translation>
     </message>
     <message>
         <source>Socket error on %1: %2</source>
-        <translation>Pistokevirhe kohteessa %1: %2</translation>
+        <translation>خطأ مقبس في %1: ‏%2</translation>
     </message>
     <message>
         <source>Remote host closed the connection prematurely on %1</source>
-        <translation>Etäkone katkaisi yhteyden ennenaikaisesti osoitteessa %1</translation>
+        <translation>أغلق المضيف البعيد الاتّصال نهائيًّا في %1</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessFileBackend</name>
     <message>
         <source>Request for opening non-local file %1</source>
-        <translation>Pyyntö avata ei-paikallinen tiedosto %1</translation>
+        <translation>طلب فتح ملفّ %1 غير المحلّيّ</translation>
     </message>
     <message>
         <source>Error opening %1: %2</source>
-        <translation>Virhe avattaessa %1: %2</translation>
+        <translation>خطأ في فتح %1: ‏%2</translation>
     </message>
     <message>
         <source>Write error writing to %1: %2</source>
-        <translation>Kirjoittaminen kohteeseen %1 epäonnistui: %2</translation>
+        <translation>خطأ كتابة في الكتابة في %1: ‏%2</translation>
     </message>
     <message>
         <source>Cannot open %1: Path is a directory</source>
-        <translation>Ei voida avata kohdetta %1, koska se on kansio</translation>
+        <translation>تعذّر فتح %1: المسار هو دليل</translation>
     </message>
     <message>
         <source>Read error reading from %1: %2</source>
-        <translation>Virhe luettaessa kohteesta %1: %2</translation>
+        <translation>خطأ قراءة في القراءة من %1: ‏%2</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessFtpBackend</name>
     <message>
         <source>No suitable proxy found</source>
-        <translation>Sopivaa välityspalvelinta ei löytynyt</translation>
+        <translation>لم يُعثر على وكيل مناسب</translation>
     </message>
     <message>
         <source>Cannot open %1: is a directory</source>
-        <translation>Ei voida avata kohdetta %1, koska se on kansio</translation>
+        <translation>تعذّر فتح %1: يبدو دليلًا</translation>
     </message>
     <message>
         <source>Logging in to %1 failed: authentication required</source>
-        <translation>Kirjautuminen koneeseen %1 epäonnistui: todentamisvirhe</translation>
+        <translation>فشل الولوج إلى %1: الاستيثاق مطلوب</translation>
     </message>
     <message>
         <source>Error while downloading %1: %2</source>
-        <translation>Virhe ladattaessa kohdetta %1: %2</translation>
+        <translation>خطأ أثناء تنزيل %1: ‏%2</translation>
     </message>
     <message>
         <source>Error while uploading %1: %2</source>
-        <translation>Virhe kopioitaessa kohdetta %1 palvelimelle: %2</translation>
+        <translation>خطأ أثناء رفع %1: ‏%2</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessManager</name>
     <message>
         <source>Network access is disabled.</source>
-        <translation>Verkkoyhteys ei ole käytössä.</translation>
+        <translation>النّفاذ إلى الشّبكة معطّل.</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReply</name>
     <message>
+        <source>Error transferring %1 - server replied: %2</source>
+        <translation>خطأ في نقل %1 - ردّ الخادوم بِ‍: %2</translation>
+    </message>
+    <message>
         <source>Background request not allowed.</source>
-        <translation>Taustapyyntö ei ole sallittu.</translation>
+        <translation>الطّلب الخلفيّ غير مسموح.</translation>
     </message>
     <message>
         <source>Network session error.</source>
-        <translation>Verkkoistuntovirhe.</translation>
+        <translation>خطأ في جلسة الشّبكة.</translation>
     </message>
     <message>
         <source>backend start error.</source>
-        <translation>taustajärjestelmän käynnistymisvirhe.</translation>
+        <translation>خطأ في بدء السّند.</translation>
     </message>
     <message>
         <source>Temporary network failure.</source>
-        <translation>Tilapäinen verkkovirhe.</translation>
+        <translation>فشل شبكيّ مؤقّت.</translation>
     </message>
     <message>
         <source>Protocol &quot;%1&quot; is unknown</source>
-        <translation>Protokolla ”%1” on tuntematon</translation>
-    </message>
-    <message>
-        <source>Error transferring %1 - server replied: %2</source>
-        <translation>Virhe siirrettäessä kohdetta %1 – palvelin vastasi: %2</translation>
+        <translation>الميفاق ”%1“ مجهول</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReplyHttpImpl</name>
     <message>
         <source>Operation canceled</source>
-        <translation>Toiminto keskeytettiin</translation>
+        <translation>أُلغيت العمليّة</translation>
     </message>
     <message>
         <source>No suitable proxy found</source>
-        <translation>Sopivaa välityspalvelinta ei löytynyt</translation>
+        <translation>لم يُعثر على وكيل ملائم</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReplyImpl</name>
     <message>
         <source>Operation canceled</source>
-        <translation>Toiminto keskeytettiin</translation>
+        <translation>أُلغيت العمليّة</translation>
     </message>
 </context>
 <context>
     <name>QNetworkSession</name>
     <message>
         <source>Invalid configuration.</source>
-        <translation>Virheelliset asetukset.</translation>
+        <translation>الضّبط غير صالح.</translation>
     </message>
 </context>
 <context>
     <name>QNetworkSessionPrivateImpl</name>
     <message>
         <source>Unknown session error.</source>
-        <translation>Tuntematon istuntovirhe.</translation>
+        <translation>خطأ مقبس مجهول.</translation>
     </message>
     <message>
         <source>The session was aborted by the user or system.</source>
-        <translation>Käyttäjä tai järjestelmä keskeytti istunnon.</translation>
+        <translation>أُجهضت الجلسة من المستخدم أو النّظام.</translation>
     </message>
     <message>
         <source>The requested operation is not supported by the system.</source>
-        <translation>Järjestelmä ei tue pyydettyä toimintoa.</translation>
+        <translation>العمليّة المطلوبة لا يدعمها النّظام.</translation>
     </message>
     <message>
         <source>The specified configuration cannot be used.</source>
-        <translation>Määriteltyjä asetuksia ei voida käyttää.</translation>
+        <translation>تعذّر استخدام الضّبط المحدّد.</translation>
     </message>
     <message>
         <source>Roaming was aborted or is not possible.</source>
-        <translation>Verkkovierailu keskeytettiin tai se ei ole mahdollista.</translation>
+        <translation>أُجهض التّجوال أو أنّه غير ممكن.</translation>
     </message>
 </context>
 <context>
@@ -2559,284 +2583,284 @@ kun GNU LGPL 3:n ehtoja voidaan noudattaa.&lt;/p&gt;
     <message>
         <source>Unable to initialize</source>
         <comment>QOCIDriver</comment>
-        <translation>Alustaminen epäonnistui</translation>
+        <translation>تعذّر التّمهيد</translation>
     </message>
     <message>
         <source>Unable to logon</source>
-        <translation>Kirjautuminen epäonnistui</translation>
+        <translation>تعذّر الولوج</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>Tietokantatapahtuman aloittaminen epäonnistui</translation>
+        <translation>تعذّر بدء التّبادل</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tietokantatapahtuman commit-toiminnon suorittaminen epäonnistui</translation>
+        <translation>تعذّر إيداع التّبادل</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Tietokantatapahtuman rollback-toiminnon suorittaminen epäonnistui</translation>
+        <translation>تعذّر التّراجع عن التّبادل</translation>
     </message>
 </context>
 <context>
     <name>QOCIResult</name>
     <message>
         <source>Unable to bind column for batch execute</source>
-        <translation>Sarakkeen sitominen eräajosuoritukseen epäonnistui</translation>
+        <translation>تعذّر ربط العمود لدفعة التّنفيذ</translation>
     </message>
     <message>
         <source>Unable to execute batch statement</source>
-        <translation>Eräajolauseen suorittaminen epäonnistui</translation>
+        <translation>تعذّر تنفيذ مجموعة الإفادات</translation>
     </message>
     <message>
         <source>Unable to goto next</source>
-        <translation>Seuraavaan siirtyminen epäonnistui</translation>
+        <translation>تعذّر الذّهاب للتّالي goto</translation>
     </message>
     <message>
         <source>Unable to alloc statement</source>
-        <translation>Lauseen varaaminen epäonnistui</translation>
+        <translation>تعذّر تخصيص مكان للإفادة</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Lauseen valmisteleminen epäonnistui</translation>
+        <translation>تعذّر تحضير الإفادة</translation>
     </message>
     <message>
         <source>Unable to get statement type</source>
-        <translation>Lauseen tyypin hakeminen epäonnistui</translation>
+        <translation>تعذّر الحصول على نوع الإفادة</translation>
     </message>
     <message>
         <source>Unable to bind value</source>
-        <translation>Arvon sitominen epäonnistui</translation>
+        <translation>تعذّر ربط القيمة</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Lauseen suorittaminen epäonnistui</translation>
+        <translation>تعذّر تنفيذ الإفادة</translation>
     </message>
 </context>
 <context>
     <name>QODBCDriver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>Yhdistäminen epäonnistui</translation>
+        <translation>تعذّر الاتّصال</translation>
     </message>
     <message>
         <source>Unable to connect - Driver doesn&apos;t support all functionality required</source>
-        <translation>Yhdistäminen epäonnistui – Ajuri ei tue kaikkia tarvittavia toimintoja</translation>
+        <translation>تعذّر الاتّصال - لا يدعم المشغّل كامل الوظيفة المطلوبة</translation>
     </message>
     <message>
         <source>Unable to disable autocommit</source>
-        <translation>Autocommit-toiminnon poistaminen käytöstä epäonnistui</translation>
+        <translation>تعذّر تعطيل الإيداع الآليّ</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tietokantatapahtuman commit-toiminnon suorittaminen epäonnistui</translation>
+        <translation>تعذّر إيداع التّبادل</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Tietokantatapahtuman rollback-toiminnon suorittaminen epäonnistui</translation>
+        <translation>تعذّر التّراجع عن التّبادل</translation>
     </message>
     <message>
         <source>Unable to enable autocommit</source>
-        <translation>Autocommit-toiminnon käyttöön ottaminen epäonnistui</translation>
+        <translation>تعذّر تفعيل الإيداع الآليّ</translation>
     </message>
 </context>
 <context>
     <name>QODBCResult</name>
     <message>
-        <source>Unable to fetch last</source>
-        <translation>Viimeisen noutaminen epäonnistui</translation>
-    </message>
-    <message>
         <source>QODBCResult::reset: Unable to set &apos;SQL_CURSOR_STATIC&apos; as statement attribute. Please check your ODBC driver configuration</source>
-        <translation>QODBCResult::reset: ”SQL_CURSOR_STATIC” asettaminen lauseattribuutiksi epäonnistui. Tarkista ODBC-ajuriasetukset</translation>
+        <translation>‏QODBCResult::reset: تعذّر ضبط ’SQL_CURSOR_STATIC‘ كقيمة للإفادة. رجاءً افحص ضبط مشغّل ODBC لديك</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Lauseen suorittaminen epäonnistui</translation>
+        <translation>تعذّر تنفيذ الإفادة</translation>
     </message>
     <message>
         <source>Unable to fetch</source>
-        <translation>Noutaminen epäonnistui</translation>
+        <translation>تعذّر الجلب</translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>Seuraavan noutaminen epäonnistui</translation>
+        <translation>تعذّر جلب التّالية</translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>Ensimmäisen noutaminen epäonnistui</translation>
+        <translation>تعذّر جلب الأولى</translation>
     </message>
     <message>
         <source>Unable to fetch previous</source>
-        <translation>Edellisen noutaminen epäonnistui</translation>
+        <translation>تعذّر جلب السّابقة</translation>
+    </message>
+    <message>
+        <source>Unable to fetch last</source>
+        <translation>تعذّر جلب الأخيرة</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Lauseen valmisteleminen epäonnistui</translation>
+        <translation>تعذّر تحضير الإفادة</translation>
     </message>
     <message>
         <source>Unable to bind variable</source>
-        <translation>Muuttujan sitominen epäonnistui</translation>
+        <translation>تعذّر ربط المتغيّر</translation>
     </message>
 </context>
 <context>
     <name>QPSQLDriver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>Yhdistäminen epäonnistui</translation>
+        <translation>تعذّر الاتّصال</translation>
     </message>
     <message>
         <source>Could not begin transaction</source>
-        <translation>Tietokantatapahtuman aloittaminen epäonnistui</translation>
+        <translation>تعذّر بدء التّبادل</translation>
     </message>
     <message>
         <source>Could not commit transaction</source>
-        <translation>Tietokantatapahtuman commit-toiminnon suorittaminen epäonnistui</translation>
+        <translation>تعذّر إيداع التّبادل</translation>
     </message>
     <message>
         <source>Could not rollback transaction</source>
-        <translation>Tietokantatapahtuman rollback-toiminnon suorittaminen epäonnistui</translation>
+        <translation>تعذّر التّراجع عن التّبادل</translation>
     </message>
     <message>
         <source>Unable to subscribe</source>
-        <translation>Tilaaminen epäonnistui</translation>
+        <translation>تعذّر الاشتراك</translation>
     </message>
     <message>
         <source>Unable to unsubscribe</source>
-        <translation>Tilauksen peruminen epäonnistui</translation>
+        <translation>تعذّر إلغاء الاشتراك</translation>
     </message>
 </context>
 <context>
     <name>QPSQLResult</name>
     <message>
         <source>Unable to create query</source>
-        <translation>Kyselyn luominen epäonnistui</translation>
+        <translation>تعذّر إنشاء الاستعلام</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Lauseen valmisteleminen epäonnistui</translation>
+        <translation>تعذّر تحضير الإفادة</translation>
     </message>
 </context>
 <context>
     <name>QPageSetupWidget</name>
     <message>
         <source>Form</source>
-        <translation>Lomake</translation>
+        <translation>نموذج</translation>
     </message>
     <message>
         <source>Paper</source>
-        <translation>Paperi</translation>
+        <translation>الورقة</translation>
     </message>
     <message>
         <source>Page size:</source>
-        <translation>Sivukoko:</translation>
+        <translation>مقاس الورقة:</translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation>Leveys:</translation>
+        <translation>العرض:</translation>
     </message>
     <message>
         <source>Height:</source>
-        <translation>Korkeus:</translation>
+        <translation>الارتفاع:</translation>
     </message>
     <message>
         <source>Paper source:</source>
-        <translation>Paperilähde:</translation>
+        <translation>مصدر الورق:</translation>
     </message>
     <message>
         <source>Orientation</source>
-        <translation>Suunta</translation>
+        <translation>الاتّجاه</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>Pystysuunta</translation>
+        <translation>طوليّ</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>Vaakasuunta</translation>
+        <translation>عرضيّ</translation>
     </message>
     <message>
         <source>Reverse landscape</source>
-        <translation>Käänteinen vaakasuunta</translation>
+        <translation>عرضيّ معكوس</translation>
     </message>
     <message>
         <source>Reverse portrait</source>
-        <translation>Käänteinen pystysuunta</translation>
+        <translation>طوليّ معكوس</translation>
     </message>
     <message>
         <source>Margins</source>
-        <translation>Reunukset</translation>
+        <translation>الهوامش</translation>
     </message>
     <message>
         <source>top margin</source>
-        <translation>yläreunus</translation>
+        <translation>الهامش العلويّ</translation>
     </message>
     <message>
         <source>left margin</source>
-        <translation>vasen reunus</translation>
+        <translation>الهامش الأيسر</translation>
     </message>
     <message>
         <source>right margin</source>
-        <translation>oikea reunus</translation>
+        <translation>الهامش الأيمن</translation>
     </message>
     <message>
         <source>bottom margin</source>
-        <translation>alareunus</translation>
+        <translation>الهامش السفليّ</translation>
     </message>
     <message>
         <source>Page Layout</source>
-        <translation>Sivujen asettelu</translation>
+        <translation>تصميم الصّفحة</translation>
     </message>
     <message>
         <source>Page order:</source>
-        <translation>Sivujen järjestys:</translation>
+        <translation>ترتيب الصّفحات:</translation>
     </message>
     <message>
         <source>Pages per sheet:</source>
-        <translation>Sivuja arkilla:</translation>
+        <translation>الصّفحات في كلّ ورقة:</translation>
     </message>
     <message>
         <source>Millimeters (mm)</source>
-        <translation>Millimetrit (mm)</translation>
+        <translation>ملّيمتر (مم)</translation>
     </message>
     <message>
         <source>Inches (in)</source>
-        <translation>Tuumat (in)</translation>
+        <translation>بوصة (بوصة)</translation>
     </message>
     <message>
         <source>Points (pt)</source>
-        <translation>Pisteet (pt)</translation>
+        <translation>نقطة (نقطة)</translation>
     </message>
     <message>
         <source>Pica (P̸)</source>
-        <translation>Pica (P̸)</translation>
+        <translation>پيكا (P̸)</translation>
     </message>
     <message>
         <source>Didot (DD)</source>
-        <translation>Didot (dd)</translation>
+        <translation>ديدوت (DD)</translation>
     </message>
     <message>
         <source>Cicero (CC)</source>
-        <translation>Cicero (cc)</translation>
+        <translation>سيسرو (CC)</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>Muu</translation>
+        <translation>مخصّص</translation>
     </message>
     <message>
         <source>mm</source>
         <extracomment>Unit &apos;Millimeter&apos;</extracomment>
-        <translation>mm</translation>
+        <translation>مم</translation>
     </message>
     <message>
         <source>pt</source>
         <extracomment>Unit &apos;Points&apos;</extracomment>
-        <translation>pt</translation>
+        <translation>نقطة</translation>
     </message>
     <message>
         <source>in</source>
         <extracomment>Unit &apos;Inch&apos;</extracomment>
-        <translation>in</translation>
+        <translation>بوصة</translation>
     </message>
     <message>
         <source>P̸</source>
@@ -2846,12 +2870,12 @@ kun GNU LGPL 3:n ehtoja voidaan noudattaa.&lt;/p&gt;
     <message>
         <source>DD</source>
         <extracomment>Unit &apos;Didot&apos;</extracomment>
-        <translation>dd</translation>
+        <translation>DD</translation>
     </message>
     <message>
         <source>CC</source>
         <extracomment>Unit &apos;Cicero&apos;</extracomment>
-        <translation>cc</translation>
+        <translation>CC</translation>
     </message>
 </context>
 <context>
@@ -2859,37 +2883,37 @@ kun GNU LGPL 3:n ehtoja voidaan noudattaa.&lt;/p&gt;
     <message>
         <source>Custom (%1mm x %2mm)</source>
         <extracomment>Custom size name in millimeters</extracomment>
-        <translation>Muu (%1 mm × %2 mm)</translation>
+        <translation>مخصّص (%L1مم × %L2مم)</translation>
     </message>
     <message>
         <source>Custom (%1pt x %2pt)</source>
         <extracomment>Custom size name in points</extracomment>
-        <translation>Muu (%1 pt × %2 pt)</translation>
+        <translation>مخصّص (%L1نقطة × %L2نقطة)</translation>
     </message>
     <message>
         <source>Custom (%1in x %2in)</source>
         <extracomment>Custom size name in inches</extracomment>
-        <translation>Muu (%1 in × %2 in)</translation>
+        <translation>مخصّص (%L1بوصة × %L2بوصة)</translation>
     </message>
     <message>
         <source>Custom (%1pc x %2pc)</source>
         <extracomment>Custom size name in picas</extracomment>
-        <translation>Muu (%1 P̸ × %2 P̸)</translation>
+        <translation>مخصّص (%L1پيكا × %L2پيكا)</translation>
     </message>
     <message>
         <source>Custom (%1DD x %2DD)</source>
         <extracomment>Custom size name in didots</extracomment>
-        <translation>Muu (%1 dd × %2 dd)</translation>
+        <translation>مخصّص (%L1ديدوت × %L2ديدوت)</translation>
     </message>
     <message>
         <source>Custom (%1CC x %2CC)</source>
         <extracomment>Custom size name in ciceros</extracomment>
-        <translation>Muu (%1 cc × %2 cc)</translation>
+        <translation>مخصّص (%L1سيسرو × %L2سيسرو)</translation>
     </message>
     <message>
         <source>%1 x %2 in</source>
         <extracomment>Page size in &apos;Inch&apos;.</extracomment>
-        <translation>%1 × %2 in</translation>
+        <translation>%L1 × %L2 بوصة</translation>
     </message>
     <message>
         <source>A0</source>
@@ -2981,59 +3005,59 @@ kun GNU LGPL 3:n ehtoja voidaan noudattaa.&lt;/p&gt;
     </message>
     <message>
         <source>Executive (7.5 x 10 in)</source>
-        <translation>Executive (7,5 × 10 in)</translation>
+        <translation>تنفيذيّ (٧٫٥ × ١٠ بوصة)</translation>
     </message>
     <message>
         <source>Executive (7.25 x 10.5 in)</source>
-        <translation>Executive (7,25 × 10,5 in)</translation>
+        <translation>تنفيذيّ (٧٫٢٥ × ١٠٫٥ بوصة)</translation>
     </message>
     <message>
         <source>Folio (8.27 x 13 in)</source>
-        <translation>Folio (8,27 × 13 in)</translation>
+        <translation>ملفّ (٨٫٢٧ × ١٣ بوصة)</translation>
     </message>
     <message>
         <source>Legal</source>
-        <translation>Legal</translation>
+        <translation>قانونيّ</translation>
     </message>
     <message>
         <source>Letter / ANSI A</source>
-        <translation>Letter / ANSI A</translation>
+        <translation>رسالة / ANSI A</translation>
     </message>
     <message>
         <source>Tabloid / ANSI B</source>
-        <translation>Tabloid / ANSI B</translation>
+        <translation>تابلويد / ANSI B</translation>
     </message>
     <message>
         <source>Ledger / ANSI B</source>
-        <translation>Ledger / ANSI B</translation>
+        <translation>دفتر / ANSI B</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>Muu</translation>
+        <translation>مخصّص</translation>
     </message>
     <message>
         <source>A3 Extra</source>
-        <translation>A3 Extra</translation>
+        <translation>‏A3 أكبر</translation>
     </message>
     <message>
         <source>A4 Extra</source>
-        <translation>A4 Extra</translation>
+        <translation>‏A4 أكبر</translation>
     </message>
     <message>
         <source>A4 Plus</source>
-        <translation>A4 Plus</translation>
+        <translation>‏A4 زائد</translation>
     </message>
     <message>
         <source>A4 Small</source>
-        <translation>A4 Small</translation>
+        <translation>‏A4 أصغر</translation>
     </message>
     <message>
         <source>A5 Extra</source>
-        <translation>A5 Extra</translation>
+        <translation>‏A5 أكبر</translation>
     </message>
     <message>
         <source>B5 Extra</source>
-        <translation>B5 Extra</translation>
+        <translation>‏B5 أكبر</translation>
     </message>
     <message>
         <source>JIS B0</source>
@@ -3093,71 +3117,71 @@ kun GNU LGPL 3:n ehtoja voidaan noudattaa.&lt;/p&gt;
     </message>
     <message>
         <source>Legal Extra</source>
-        <translation>Legal Extra</translation>
+        <translation>قانونيّ أكبر</translation>
     </message>
     <message>
         <source>Letter Extra</source>
-        <translation>Letter Extra</translation>
+        <translation>رسالة أكبر</translation>
     </message>
     <message>
         <source>Letter Plus</source>
-        <translation>Letter Plus</translation>
+        <translation>رسالة زائد</translation>
     </message>
     <message>
         <source>Letter Small</source>
-        <translation>Letter Small</translation>
+        <translation>رسالة أصغر</translation>
     </message>
     <message>
         <source>Tabloid Extra</source>
-        <translation>Tabloid Extra</translation>
+        <translation>تابلويد أكبر</translation>
     </message>
     <message>
         <source>Architect A</source>
-        <translation>Architect A</translation>
+        <translation>معماريّ A</translation>
     </message>
     <message>
         <source>Architect B</source>
-        <translation>Architect B</translation>
+        <translation>معماريّ B</translation>
     </message>
     <message>
         <source>Architect C</source>
-        <translation>Architect C</translation>
+        <translation>معماريّ C</translation>
     </message>
     <message>
         <source>Architect D</source>
-        <translation>Architect D</translation>
+        <translation>معماريّ D</translation>
     </message>
     <message>
         <source>Architect E</source>
-        <translation>Architect E</translation>
+        <translation>معماريّ E</translation>
     </message>
     <message>
         <source>Note</source>
-        <translation>Note</translation>
+        <translation>ملاحظة</translation>
     </message>
     <message>
         <source>Quarto</source>
-        <translation>Quarto</translation>
+        <translation>ربعيّ</translation>
     </message>
     <message>
         <source>Statement</source>
-        <translation>Statement</translation>
+        <translation>إفادة</translation>
     </message>
     <message>
         <source>Super A</source>
-        <translation>Super A</translation>
+        <translation>‏A ضخم</translation>
     </message>
     <message>
         <source>Super B</source>
-        <translation>Super B</translation>
+        <translation>‏B ضخم</translation>
     </message>
     <message>
         <source>Postcard</source>
-        <translation>Postikortti</translation>
+        <translation>بطاقة بريديّة</translation>
     </message>
     <message>
         <source>Double Postcard</source>
-        <translation>Tuplapostikortti</translation>
+        <translation>بطاقة بريديّة مزدوجة</translation>
     </message>
     <message>
         <source>PRC 16K</source>
@@ -3169,1573 +3193,1567 @@ kun GNU LGPL 3:n ehtoja voidaan noudattaa.&lt;/p&gt;
     </message>
     <message>
         <source>PRC 32K Big</source>
-        <translation>PRC 32K Big</translation>
+        <translation>‏PRC 32K كبير</translation>
     </message>
     <message>
         <source>Fan-fold US (14.875 x 11 in)</source>
-        <translation>Fan-fold US (14,875 × 11 in)</translation>
+        <translation>مطويّة أمريكيّة (١٤٫٨٧٥ × ١١ بوصة)</translation>
     </message>
     <message>
         <source>Fan-fold German (8.5 x 12 in)</source>
-        <translation>Fan-fold German (8,5 × 12 in)</translation>
+        <translation>مطويّة ألمانيّة (٨٫٥ × ١٢ بوصة)</translation>
     </message>
     <message>
         <source>Fan-fold German Legal (8.5 x 13 in)</source>
-        <translation>Fan-fold German Legal (8,5 × 13 in)</translation>
+        <translation>مطويّة ألمانيّة قانونيّة (٨٫٥ × ١٣ بوصة)</translation>
     </message>
     <message>
         <source>Envelope B4</source>
-        <translation>Kirjekuori B4</translation>
+        <translation>ظرف B4</translation>
     </message>
     <message>
         <source>Envelope B5</source>
-        <translation>Kirjekuori B5</translation>
+        <translation>ظرف B5</translation>
     </message>
     <message>
         <source>Envelope B6</source>
-        <translation>Kirjekuori B6</translation>
+        <translation>ظرف B6</translation>
     </message>
     <message>
         <source>Envelope C0</source>
-        <translation>Kirjekuori C0</translation>
+        <translation>ظرف C0</translation>
     </message>
     <message>
         <source>Envelope C1</source>
-        <translation>Kirjekuori C1</translation>
+        <translation>ظرف C1</translation>
     </message>
     <message>
         <source>Envelope C2</source>
-        <translation>Kirjekuori C2</translation>
+        <translation>ظرف C2</translation>
     </message>
     <message>
         <source>Envelope C3</source>
-        <translation>Kirjekuori C3</translation>
+        <translation>ظرف C3</translation>
     </message>
     <message>
         <source>Envelope C4</source>
-        <translation>Kirjekuori C4</translation>
+        <translation>ظرف C4</translation>
     </message>
     <message>
         <source>Envelope C5</source>
-        <translation>Kirjekuori C5</translation>
+        <translation>ظرف C5</translation>
     </message>
     <message>
         <source>Envelope C6</source>
-        <translation>Kirjekuori C6</translation>
+        <translation>ظرف C6</translation>
     </message>
     <message>
         <source>Envelope C65</source>
-        <translation>Kirjekuori C65</translation>
+        <translation>ظرف C65</translation>
     </message>
     <message>
         <source>Envelope C7</source>
-        <translation>Kirjekuori C7</translation>
+        <translation>ظرف C7</translation>
     </message>
     <message>
         <source>Envelope DL</source>
-        <translation>Kirjekuori DL</translation>
+        <translation>ظرف DL</translation>
     </message>
     <message>
         <source>Envelope US 9</source>
-        <translation>Kirjekuori US 9</translation>
+        <translation>ظرف أمريكيّ 9</translation>
     </message>
     <message>
         <source>Envelope US 10</source>
-        <translation>Kirjekuori US 10</translation>
+        <translation>ظرف أمريكيّ 10</translation>
     </message>
     <message>
         <source>Envelope US 11</source>
-        <translation>Kirjekuori US 11</translation>
+        <translation>ظرف أمريكيّ 11</translation>
     </message>
     <message>
         <source>Envelope US 12</source>
-        <translation>Kirjekuori US 12</translation>
+        <translation>ظرف أمريكيّ 12</translation>
     </message>
     <message>
         <source>Envelope US 14</source>
-        <translation>Kirjekuori US 14</translation>
+        <translation>ظرف أمريكيّ 14</translation>
     </message>
     <message>
         <source>Envelope Monarch</source>
-        <translation>Kirjekuori Monarch</translation>
+        <translation>ظرف ملكيّ</translation>
     </message>
     <message>
         <source>Envelope Personal</source>
-        <translation>Kirjekuori Personal</translation>
+        <translation>ظرف شخصيّ</translation>
     </message>
     <message>
         <source>Envelope Chou 3</source>
-        <translation>Kirjekuori Chou 3</translation>
+        <translation>ظرف تشو ٣</translation>
     </message>
     <message>
         <source>Envelope Chou 4</source>
-        <translation>Kirjekuori Chou 4</translation>
+        <translation>ظرف تشو ٤</translation>
     </message>
     <message>
         <source>Envelope Invite</source>
-        <translation>Kirjekuori Invite</translation>
+        <translation>ظرف دعوة</translation>
     </message>
     <message>
         <source>Envelope Italian</source>
-        <translation>Kirjekuori Italian</translation>
+        <translation>ظرف إيطاليّ</translation>
     </message>
     <message>
         <source>Envelope Kaku 2</source>
-        <translation>Kirjekuori Kaku 2</translation>
+        <translation>ظرف كاكو ٢</translation>
     </message>
     <message>
         <source>Envelope Kaku 3</source>
-        <translation>Kirjekuori Kaku 3</translation>
+        <translation>ظرف كاكو ٣</translation>
     </message>
     <message>
         <source>Envelope PRC 1</source>
-        <translation>Kirjekuori PRC 1</translation>
+        <translation>ظرف PRC ‏١</translation>
     </message>
     <message>
         <source>Envelope PRC 2</source>
-        <translation>Kirjekuori PRC 2</translation>
+        <translation>ظرف PRC ‏٢</translation>
     </message>
     <message>
         <source>Envelope PRC 3</source>
-        <translation>Kirjekuori PRC 3</translation>
+        <translation>ظرف PRC ‏٣</translation>
     </message>
     <message>
         <source>Envelope PRC 4</source>
-        <translation>Kirjekuori PRC 4</translation>
+        <translation>ظرف PRC ‏٤</translation>
     </message>
     <message>
         <source>Envelope PRC 5</source>
-        <translation>Kirjekuori PRC 5</translation>
+        <translation>ظرف PRC ‏٥</translation>
     </message>
     <message>
         <source>Envelope PRC 6</source>
-        <translation>Kirjekuori PRC 6</translation>
+        <translation>ظرف PRC ‏٦</translation>
     </message>
     <message>
         <source>Envelope PRC 7</source>
-        <translation>Kirjekuori PRC 7</translation>
+        <translation>ظرف PRC ‏٧</translation>
     </message>
     <message>
         <source>Envelope PRC 8</source>
-        <translation>Kirjekuori PRC 8</translation>
+        <translation>ظرف PRC ‏٨</translation>
     </message>
     <message>
         <source>Envelope PRC 9</source>
-        <translation>Kirjekuori PRC 9</translation>
+        <translation>ظرف PRC ‏٩</translation>
     </message>
     <message>
         <source>Envelope PRC 10</source>
-        <translation>Kirjekuori PRC 10</translation>
+        <translation>ظرف PRC ‏١٠</translation>
     </message>
     <message>
         <source>Envelope You 4</source>
-        <translation>Kirjekuori You 4</translation>
+        <translation>ظرفك أنت ٤</translation>
     </message>
 </context>
 <context>
     <name>QPlatformTheme</name>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>حسنًا</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Tallenna</translation>
+        <translation>احفظ</translation>
     </message>
     <message>
         <source>Save All</source>
-        <translation>Tallenna kaikki</translation>
+        <translation>احفظ الكلّ</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Avaa</translation>
+        <translation>افتح</translation>
     </message>
     <message>
         <source>&amp;Yes</source>
-        <translation>&amp;Kyllä</translation>
+        <translation>&amp;نعم</translation>
     </message>
     <message>
         <source>Yes to &amp;All</source>
-        <translation>Kyllä k&amp;aikkiin</translation>
+        <translation>ن&amp;عم للكلّ</translation>
     </message>
     <message>
         <source>&amp;No</source>
-        <translation>&amp;Ei</translation>
+        <translation>&amp;لا</translation>
     </message>
     <message>
         <source>N&amp;o to All</source>
-        <translation>E&amp;i kaikkiin</translation>
+        <translation>لا لل&amp;كلّ</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation>Keskeytä</translation>
+        <translation>أجهض</translation>
     </message>
     <message>
         <source>Retry</source>
-        <translation>Yritä uudelleen</translation>
+        <translation>حاول مجدّدًا</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation>Ohita</translation>
+        <translation>تجاهل</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Sulje</translation>
+        <translation>أغلق</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Peru</translation>
+        <translation>ألغِ</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>Hylkää</translation>
+        <translation>ارفض</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Ohje</translation>
+        <translation>مساعدة</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation>Käytä</translation>
+        <translation>طبّق</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Palauta</translation>
+        <translation>صفّر</translation>
     </message>
     <message>
         <source>Restore Defaults</source>
-        <translation>Palauta oletukset</translation>
+        <translation>استعد الافتراضيّات</translation>
     </message>
 </context>
 <context>
     <name>QPluginLoader</name>
     <message>
         <source>The plugin was not loaded.</source>
-        <translation>Liitännäistä ei ladattu.</translation>
+        <translation>لم تُحمّل الملحقة.</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Tuntematon virhe</translation>
+        <translation>خطأ مجهول</translation>
     </message>
 </context>
 <context>
     <name>QPrintDialog</name>
     <message>
         <source>Print</source>
-        <translation>Tulosta</translation>
+        <translation>اطبع</translation>
     </message>
     <message>
         <source>Left to Right, Top to Bottom</source>
-        <translation>Vasemmalta oikealle, ylhäältä alas</translation>
+        <translation>يسار إلى يمين، أعلى إلى أسفل</translation>
     </message>
     <message>
         <source>Left to Right, Bottom to Top</source>
-        <translation>Vasemmalta oikealle, alhaalta ylös</translation>
+        <translation>يسار إلى يمين، أسفل إلى أعلى</translation>
     </message>
     <message>
         <source>Right to Left, Bottom to Top</source>
-        <translation>Oikealta vasemmalle, alhaalta ylös</translation>
+        <translation>يمين إلى يسار، أسفل إلى أعلى</translation>
     </message>
     <message>
         <source>Right to Left, Top to Bottom</source>
-        <translation>Oikealta vasemmalle, ylhäältä alas</translation>
+        <translation>يمين إلى يسار، أعلى إلى أسفل</translation>
     </message>
     <message>
         <source>Bottom to Top, Left to Right</source>
-        <translation>Alhaalta ylös, vasemmalta oikealle</translation>
+        <translation>أسفل إلى أعلى، يسار إلى يمين</translation>
     </message>
     <message>
         <source>Bottom to Top, Right to Left</source>
-        <translation>Alhaalta ylös, oikealta vasemmalle</translation>
+        <translation>أسفل إلى أعلى، يمين إلى يسار</translation>
     </message>
     <message>
         <source>Top to Bottom, Left to Right</source>
-        <translation>Ylhäältä alas, vasemmalta oikealle</translation>
+        <translation>أعلى إلى أسفل، يسار إلى يمين</translation>
     </message>
     <message>
         <source>Top to Bottom, Right to Left</source>
-        <translation>Ylhäältä alas, oikealta vasemmalle</translation>
+        <translation>أعلى إلى أسفل، يمين إلى يسار</translation>
     </message>
     <message>
         <source>1 (1x1)</source>
-        <translation>1 (1 × 1)</translation>
+        <translation>‏١ (١×١)</translation>
     </message>
     <message>
         <source>2 (2x1)</source>
-        <translation>2 (2 × 1)</translation>
+        <translation>‏٢ (٢×١)</translation>
     </message>
     <message>
         <source>4 (2x2)</source>
-        <translation>4 (2 × 2)</translation>
+        <translation>‏٤ (٢×٢)</translation>
     </message>
     <message>
         <source>6 (2x3)</source>
-        <translation>6 (2 × 3)</translation>
+        <translation>‏٦ (٢×٣)</translation>
     </message>
     <message>
         <source>9 (3x3)</source>
-        <translation>9 (3 × 3)</translation>
+        <translation>‏٩ (٣×٣)</translation>
     </message>
     <message>
         <source>16 (4x4)</source>
-        <translation>16 (4 × 4)</translation>
+        <translation>‏١٦ (٤×٤)</translation>
     </message>
     <message>
         <source>All Pages</source>
-        <translation>Kaikki sivut</translation>
+        <translation>كلّ الصّفحات</translation>
     </message>
     <message>
         <source>Odd Pages</source>
-        <translation>Parittomat sivut</translation>
+        <translation>الصّفحات الفرديّة</translation>
     </message>
     <message>
         <source>Even Pages</source>
-        <translation>Parilliset sivut</translation>
+        <translation>الصّفحات الزّوجيّة</translation>
     </message>
     <message>
         <source>&amp;Options &gt;&gt;</source>
-        <translation>&amp;Asetukset &gt;&gt;</translation>
+        <translation>&amp;خيارات &gt;&gt;</translation>
     </message>
     <message>
         <source>&amp;Print</source>
-        <translation>T&amp;ulosta</translation>
+        <translation>ا&amp;طبع</translation>
     </message>
     <message>
         <source>&amp;Options &lt;&lt;</source>
-        <translation>&amp;Asetukset &lt;&lt;</translation>
+        <translation>&amp;خيارات &lt;&lt;</translation>
     </message>
     <message>
         <source>Print to File (PDF)</source>
-        <translation>Tulosta tiedostoon (PDF)</translation>
+        <translation>اطبع إلى ملفّ (PDF)</translation>
     </message>
     <message>
         <source>Local file</source>
-        <translation>Paikallinen tiedosto</translation>
+        <translation>ملفّ محلّيّ</translation>
     </message>
     <message>
         <source>Write PDF file</source>
-        <translation>Tallenna PDF-tiedostoon</translation>
+        <translation>ملفّ PDF للكتابة</translation>
     </message>
     <message>
         <source>Print To File ...</source>
-        <translation>Tulosta tiedostoon…</translation>
+        <translation>اطبع إلى ملفّ...</translation>
     </message>
     <message>
         <source>%1 is a directory.
 Please choose a different file name.</source>
-        <translation>%1 on kansio.
-Anna tiedostolle toinen nimi.</translation>
+        <translation>إنّ %1 دليل.
+رجاءً اختر اسم ملفّ آخر.</translation>
     </message>
     <message>
         <source>File %1 is not writable.
 Please choose a different file name.</source>
-        <translation>Tiedostoon %1 ei voida tallentaa.
-Anna jokin muu tiedostonimi.</translation>
+        <translation>الملفّ %1 غير قابل للكتابة.
+رجاءً اختر اسم ملفّ آخر.</translation>
     </message>
     <message>
         <source>%1 already exists.
 Do you want to overwrite it?</source>
-        <translation>%1 on jo olemassa.
-Haluatko korvata sen?</translation>
+        <translation>إنّ %1 موجود بالفعل.
+أتريد الكتابة فوقه؟</translation>
     </message>
     <message>
         <source>Options &apos;Pages Per Sheet&apos; and &apos;Page Set&apos; cannot be used together.
 Please turn one of those options off.</source>
-        <translation>Asetuksia ”Sivuja arkilla” ja ”Sivujoukko” ei voi käyttää samanaikaisesti.
-Poista toinen niistä käytöstä.</translation>
+        <translation>لا يمكن استخدام خياريّ ’الصّفحات في كلّ ورقة‘ و’طقم صفحات‘ في آن واحد.
+رجاءً عطّل أحدهما.</translation>
     </message>
     <message>
         <source>The &apos;From&apos; value cannot be greater than the &apos;To&apos; value.</source>
-        <translation>Sivulta-arvo ei voi olla suurempi kuin sivulle-arvo.</translation>
+        <translation>لا يمكن أن تكون قيمة ’من‘ أعلى من قيمة ’إلى‘.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>حسنًا</translation>
     </message>
     <message>
         <source>Automatic</source>
-        <translation>Automaattinen</translation>
+        <translation>آليّ</translation>
     </message>
 </context>
 <context>
     <name>QPrintPreviewDialog</name>
     <message>
         <source>Page Setup</source>
-        <translation>Sivuasetukset</translation>
+        <translation>إعداد الصّفحة</translation>
     </message>
     <message>
         <source>%1%</source>
-        <translation>%1 %</translation>
+        <translation>‏%L1٪</translation>
     </message>
     <message>
         <source>Print Preview</source>
-        <translation>Tulostuksen esikatselu</translation>
+        <translation>معاينة الطّباعة</translation>
     </message>
     <message>
         <source>Next page</source>
-        <translation>Seuraava sivu</translation>
+        <translation>الصّفحة التّالية</translation>
     </message>
     <message>
         <source>Previous page</source>
-        <translation>Edellinen sivu</translation>
+        <translation>الصّفحة السّابقة</translation>
     </message>
     <message>
         <source>First page</source>
-        <translation>Ensimmäinen sivu</translation>
+        <translation>الصّفحة الأولى</translation>
     </message>
     <message>
         <source>Last page</source>
-        <translation>Viimeinen sivu</translation>
+        <translation>الصّفحة الأخيرة</translation>
     </message>
     <message>
         <source>Fit width</source>
-        <translation>Sovita leveys</translation>
+        <translation>لائم العرض</translation>
     </message>
     <message>
         <source>Fit page</source>
-        <translation>Sovita sivulle</translation>
+        <translation>لائم الصّفحة</translation>
     </message>
     <message>
         <source>Zoom in</source>
-        <translation>Lähennä</translation>
+        <translation>قرّب</translation>
     </message>
     <message>
         <source>Zoom out</source>
-        <translation>Loitonna</translation>
+        <translation>بعّد</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>Pysty</translation>
+        <translation>طوليّ</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>Vaaka</translation>
+        <translation>عرضيّ</translation>
     </message>
     <message>
         <source>Show single page</source>
-        <translation>Näytä sivu</translation>
+        <translation>أظهر صفحة واحدة</translation>
     </message>
     <message>
         <source>Show facing pages</source>
-        <translation>Näytä aukeama</translation>
+        <translation>أظهر الصّفحات متقابلةً</translation>
     </message>
     <message>
         <source>Show overview of all pages</source>
-        <translation>Näytä yleiskuva kaikista sivuista</translation>
+        <translation>أظهر لمحة لكلّ الصّفحات</translation>
     </message>
     <message>
         <source>Print</source>
-        <translation>Tulosta</translation>
+        <translation>اطبع</translation>
     </message>
     <message>
         <source>Page setup</source>
-        <translation>Sivuasetukset</translation>
+        <translation>إعداد الصّفحة</translation>
     </message>
     <message>
         <source>Export to PDF</source>
-        <translation>Vie PDF:ksi</translation>
+        <translation>صدّر إلى PDF</translation>
     </message>
 </context>
 <context>
     <name>QPrintPropertiesDialog</name>
     <message>
         <source>Printer Properties</source>
-        <translation>Tulostimen ominaisuudet</translation>
+        <translation>خصائص الطّابعة</translation>
     </message>
     <message>
         <source>Job Options</source>
-        <translation>Työn asetukset</translation>
+        <translation>خيارات المهمّة</translation>
     </message>
 </context>
 <context>
     <name>QPrintPropertiesWidget</name>
     <message>
         <source>Form</source>
-        <translation>Lomake</translation>
+        <translation>نموذج</translation>
     </message>
     <message>
         <source>Page</source>
-        <translation>Sivu</translation>
+        <translation>الصّفحة</translation>
     </message>
 </context>
 <context>
     <name>QPrintSettingsOutput</name>
     <message>
         <source>Form</source>
-        <translation>Lomake</translation>
+        <translation>نموذج</translation>
     </message>
     <message>
         <source>Copies</source>
-        <translation>Kopiot</translation>
+        <translation>النُّسخ</translation>
     </message>
     <message>
         <source>Print range</source>
-        <translation>Tulostusalue</translation>
+        <translation>مجال الطّباعة</translation>
     </message>
     <message>
         <source>Print all</source>
-        <translation>Tulosta kaikki</translation>
+        <translation>اطبع الكلّ</translation>
     </message>
     <message>
         <source>Pages from</source>
-        <translation>Sivulta</translation>
+        <translation>الصّفحات من</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>sivulle</translation>
+        <translation>إلى</translation>
     </message>
     <message>
         <source>Current Page</source>
-        <translation>Nykyinen sivu</translation>
+        <translation>الصّفحة الحاليّة</translation>
     </message>
     <message>
         <source>Selection</source>
-        <translation>Valinta</translation>
+        <translation>التّحديد</translation>
     </message>
     <message>
         <source>Page Set:</source>
-        <translation>Sivujoukko:</translation>
+        <translation>طقم الصّفحات:</translation>
     </message>
     <message>
         <source>Output Settings</source>
-        <translation>Tulostusasetukset</translation>
+        <translation>خيارات الخرج</translation>
     </message>
     <message>
         <source>Copies:</source>
-        <translation>Kopioita:</translation>
+        <translation>النُّسخ:</translation>
     </message>
     <message>
         <source>Collate</source>
-        <translation>Lajittele</translation>
+        <translation>جمّع</translation>
     </message>
     <message>
         <source>Reverse</source>
-        <translation>Käänteisesti</translation>
+        <translation>اعكس</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Asetukset</translation>
+        <translation>خيارات</translation>
     </message>
     <message>
         <source>Color Mode</source>
-        <translation>Väritila</translation>
+        <translation>الوضع اللونيّ</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation>Väri</translation>
+        <translation>ملوّن</translation>
     </message>
     <message>
         <source>Grayscale</source>
-        <translation>Harmaasävy</translation>
+        <translation>تدرّج الرّماديّ</translation>
     </message>
     <message>
         <source>Duplex Printing</source>
-        <translation>Kaksipuolinen tulostus</translation>
+        <translation>الطّباعة على الوجهين</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Ei mitään</translation>
+        <translation>بلا</translation>
     </message>
     <message>
         <source>Long side</source>
-        <translation>Pidempi reuna</translation>
+        <translation>الجهة الطّولية</translation>
     </message>
     <message>
         <source>Short side</source>
-        <translation>Lyhyempi reuna</translation>
+        <translation>الجهة القصيرة</translation>
     </message>
 </context>
 <context>
     <name>QPrintWidget</name>
     <message>
         <source>Form</source>
-        <translation>Lomake</translation>
+        <translation>نموذج</translation>
     </message>
     <message>
         <source>Printer</source>
-        <translation>Tulostin</translation>
+        <translation>الطّابعة</translation>
     </message>
     <message>
         <source>&amp;Name:</source>
-        <translation>&amp;Nimi:</translation>
+        <translation>الا&amp;سم:</translation>
     </message>
     <message>
         <source>P&amp;roperties</source>
-        <translation>&amp;Ominaisuudet</translation>
+        <translation>&amp;خصائص</translation>
     </message>
     <message>
         <source>Location:</source>
-        <translation>Sijainti:</translation>
+        <translation>المكان:</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation>Esikatselu</translation>
+        <translation>عاين</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation>Tyyppi:</translation>
+        <translation>النّوع:</translation>
     </message>
     <message>
         <source>Output &amp;file:</source>
-        <translation>Tuloste&amp;tiedosto:</translation>
+        <translation>ال&amp;ملفّ الخرج:</translation>
     </message>
     <message>
         <source>...</source>
-        <translation>…</translation>
+        <translation>...</translation>
     </message>
 </context>
 <context>
     <name>QProcess</name>
     <message>
-        <source>Error reading from process</source>
-        <translation>Prosessilta lukeminen epäonnistui</translation>
-    </message>
-    <message>
-        <source>Error writing to process</source>
-        <translation>Prosessille kirjoittaminen epäonnistui</translation>
+        <source>Process failed to start</source>
+        <translation>فشل بدء العمليّة</translation>
     </message>
     <message>
         <source>Process crashed</source>
-        <translation>Prosessi kaatui</translation>
-    </message>
-    <message>
-        <source>Process failed to start</source>
-        <translation>Prosessin käynnistyminen epäonnistui</translation>
-    </message>
-    <message>
-        <source>No program defined</source>
-        <translation>Ohjelmaa ei ole määritetty</translation>
-    </message>
-    <message>
-        <source>Could not open input redirection for reading</source>
-        <translation>Syötteen uudelleenohjausta ei voitu avata lukemista varten</translation>
-    </message>
-    <message>
-        <source>Could not open output redirection for writing</source>
-        <translation>Tulosteen uudelleenohjausta ei voitu avata kirjoitusta varten</translation>
-    </message>
-    <message>
-        <source>Resource error (fork failure): %1</source>
-        <translation>Resurssivirhe (fork-komento epäonnistui): %1</translation>
+        <translation>انهارت العمليّة</translation>
     </message>
     <message>
         <source>Process operation timed out</source>
-        <translation>Prosessin toiminnon aikakatkaisu</translation>
+        <translation>انتهت مهلة عمليّة العمليّة</translation>
+    </message>
+    <message>
+        <source>Error reading from process</source>
+        <translation>خطأ في القراءة من العمليّة</translation>
+    </message>
+    <message>
+        <source>Error writing to process</source>
+        <translation>خطأ في الكتابة إلى العمليّة</translation>
+    </message>
+    <message>
+        <source>No program defined</source>
+        <translation>لم يُحدَّد برنامج</translation>
+    </message>
+    <message>
+        <source>Could not open input redirection for reading</source>
+        <translation>تعذّر فتح إعادة توجيه الدّخل للقراءة</translation>
+    </message>
+    <message>
+        <source>Resource error (fork failure): %1</source>
+        <translation>خطأ في الموارد (فشل النّسخ/Fork): ‏%1</translation>
+    </message>
+    <message>
+        <source>Could not open output redirection for writing</source>
+        <translation>تعذّر فتح إعادة توجيه الخرج للكتابة</translation>
     </message>
     <message>
         <source>Process failed to start: %1</source>
-        <translation>Prosessin käynnistys epäonnistui: %1</translation>
+        <translation>فشل بدء العمليّة: %1</translation>
     </message>
 </context>
 <context>
     <name>QProgressDialog</name>
     <message>
         <source>Cancel</source>
-        <translation>Peru</translation>
+        <translation>ألغِ</translation>
     </message>
 </context>
 <context>
     <name>QRegExp</name>
     <message>
         <source>no error occurred</source>
-        <translation>ei virhettä</translation>
+        <translation>لم تحدث أخطاء</translation>
     </message>
     <message>
         <source>disabled feature used</source>
-        <translation>käytettiin käytöstä poistettua ominaisuutta</translation>
+        <translation>استُخدمت ميزة معطّلة</translation>
     </message>
     <message>
         <source>bad char class syntax</source>
-        <translation>lausevirhe merkistöluokassa</translation>
+        <translation>صياغة صنف المحرف سيّئة</translation>
     </message>
     <message>
         <source>bad lookahead syntax</source>
-        <translation>lausevirhe</translation>
+        <translation>صياغة نظر للأمام سيّئة</translation>
     </message>
     <message>
         <source>lookbehinds not supported, see QTBUG-2371</source>
-        <translation>lookbehinds ei ole tuettu, katso QTBUG-2371</translation>
+        <translation>النّظر للخلف غير مدعوم، طالع العلّة رقم ٢٣٧١</translation>
     </message>
     <message>
         <source>bad repetition syntax</source>
-        <translation>lausekkeen toistovirhe</translation>
+        <translation>صياغة تكرار سيّئة</translation>
     </message>
     <message>
         <source>invalid octal value</source>
-        <translation>virheellinen oktaaliarvo</translation>
+        <translation>قيمة ثمانيّة غير صالحة</translation>
     </message>
     <message>
         <source>missing left delim</source>
-        <translation>puuttuva vasen rajoitin</translation>
+        <translation>محدّد اليسار ناقص</translation>
     </message>
     <message>
         <source>unexpected end</source>
-        <translation>odottamaton loppu</translation>
+        <translation>نهاية غير متوقّعة</translation>
     </message>
     <message>
         <source>met internal limit</source>
-        <translation>kohdattu sisäinen rajoitus</translation>
+        <translation>قابلتُ الحدّ الدّاخليّ</translation>
     </message>
     <message>
         <source>invalid interval</source>
-        <translation>virheellinen määräväli</translation>
+        <translation>فترة غير صالحة</translation>
     </message>
     <message>
         <source>invalid category</source>
-        <translation>virheellinen luokka</translation>
+        <translation>فئة غير صالحة</translation>
     </message>
 </context>
 <context>
     <name>QRegularExpression</name>
     <message>
         <source>no error</source>
-        <translation>ei virhettä</translation>
+        <translation>لا أخطاء</translation>
     </message>
     <message>
         <source>\ at end of pattern</source>
-        <translation>\ mallin lopussa</translation>
+        <translation>\ عند نهاية النّمط</translation>
     </message>
     <message>
         <source>\c at end of pattern</source>
-        <translation>\c mallin lopussa</translation>
+        <translation>‏‎\c عند نهاية النّمط</translation>
     </message>
     <message>
         <source>unrecognized character follows \</source>
-        <translation>tuntematon merkki \ jälkeen</translation>
+        <translation>محرف لا يمكن فهمه يتبع \</translation>
     </message>
     <message>
         <source>numbers out of order in {} quantifier</source>
-        <translation>numerot epäjärjestyksessä {}-määreessä</translation>
+        <translation>الأعداد ليست مرتّبة في محدّد {}</translation>
     </message>
     <message>
         <source>number too big in {} quantifier</source>
-        <translation>numerot liian suuria {}-määreessä</translation>
+        <translation>العدد كبير جدًّا في محدّد {}</translation>
     </message>
     <message>
         <source>missing terminating ] for character class</source>
-        <translation>merkkiluokasta puuttuu päättävä ]</translation>
+        <translation>محرف [ الإنهائيّ ناقص لصنف المحرف</translation>
     </message>
     <message>
         <source>invalid escape sequence in character class</source>
-        <translation>virheellinen ohjauskoodi merkkiluokassa</translation>
+        <translation>تسلسل هروب غير صالح في صنف المحرف</translation>
     </message>
     <message>
         <source>range out of order in character class</source>
-        <translation>alue epäjärjestyksessä merkkijoukolle</translation>
-    </message>
-    <message>
-        <source>internal error: unexpected repeat</source>
-        <translation>sisäinen virhe: odottamaton toisto</translation>
-    </message>
-    <message>
-        <source>unrecognized character after (? or (?-</source>
-        <translation>tuntematon merkki (? tai (?- jälkeen</translation>
-    </message>
-    <message>
-        <source>POSIX named classes are supported only within a class</source>
-        <translation>POSIXin nimettyjä luokkia tuetaan vain luokan sisällä</translation>
-    </message>
-    <message>
-        <source>reference to non-existent subpattern</source>
-        <translation>viittaus olemattomaan alimalliin</translation>
-    </message>
-    <message>
-        <source>regular expression is too large</source>
-        <translation>liian pitkä säännöllinen lauseke</translation>
-    </message>
-    <message>
-        <source>internal error: code overflow</source>
-        <translation>sisäinen virhe: koodin ylivuoto</translation>
-    </message>
-    <message>
-        <source>lookbehind assertion is not fixed length</source>
-        <translation>lookbehind-tyyppinen ehtolause ei ole kiinteäpituinen</translation>
-    </message>
-    <message>
-        <source>malformed number or name after (?(</source>
-        <translation>virheellinen numero tai nimi (?( jälkeen</translation>
-    </message>
-    <message>
-        <source>conditional group contains more than two branches</source>
-        <translation>ehtoryhmässä on enemmän kuin kaksi haaraa</translation>
-    </message>
-    <message>
-        <source>(?R or (?[+-]digits must be followed by )</source>
-        <translation>) tulee seurata (?R tai (?[+-]numeroita</translation>
-    </message>
-    <message>
-        <source>unknown POSIX class name</source>
-        <translation>tuntematon POSIX-luokan nimi</translation>
-    </message>
-    <message>
-        <source>POSIX collating elements are not supported</source>
-        <translation>POSIX-merkkijärjestyselementtejä ei tueta</translation>
-    </message>
-    <message>
-        <source>invalid condition (?(0)</source>
-        <translation>virheellinen ehto (?(0)</translation>
-    </message>
-    <message>
-        <source>PCRE does not support \L, \l, \N{name}, \U, or \u</source>
-        <translation>PCRE ei tue \L, \I, \N{nimi}, \U tai \u</translation>
-    </message>
-    <message>
-        <source>unrecognized character after (?P</source>
-        <translation>tuntematon merkki (?P jälkeen</translation>
-    </message>
-    <message>
-        <source>syntax error in subpattern name (missing terminator)</source>
-        <translation>syntaksivirhe alimallin nimessä (päätemerkki puuttuu)</translation>
-    </message>
-    <message>
-        <source>malformed \P or \p sequence</source>
-        <translation>väärin muotoiltu \P- tai \p-sekvenssi</translation>
-    </message>
-    <message>
-        <source>unknown property name after \P or \p</source>
-        <translation>tuntematon ominaisuuden nimi \P- tai \p-sekvenssin jälkeen</translation>
-    </message>
-    <message>
-        <source>internal error: overran compiling workspace</source>
-        <translation>sisäinen virhe: kääntötyötila ylitettiin</translation>
-    </message>
-    <message>
-        <source>internal error: previously-checked referenced subpattern not found</source>
-        <translation>sisäinen virhe: aiemmin tarkistettu viitattu alimalli ei löytynyt</translation>
-    </message>
-    <message>
-        <source>DEFINE group contains more than one branch</source>
-        <translation>DEFINE-ryhmä sisältää useampia kuin yhden haaran</translation>
-    </message>
-    <message>
-        <source>\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number</source>
-        <translation>\g:tä ei seuraa nimi tai numero suljettuna {}, [] tai &apos;&apos;-merkkeihin, eikä paljas numero</translation>
-    </message>
-    <message>
-        <source>a numbered reference must not be zero</source>
-        <translation>numeroitu viittaus ei voi olla nolla</translation>
-    </message>
-    <message>
-        <source>an argument is not allowed for (*ACCEPT), (*FAIL), or (*COMMIT)</source>
-        <translation>(*ACCEPT), (*FAIL) tai (*COMMIT) ei hyväksy argumenttia</translation>
-    </message>
-    <message>
-        <source>number is too big</source>
-        <translation>numero on liian suuri</translation>
-    </message>
-    <message>
-        <source>subpattern name expected</source>
-        <translation>odotettiin alimallin nimeä</translation>
-    </message>
-    <message>
-        <source>digit expected after (?+</source>
-        <translation>odotettiin numero (?+ jälkeen</translation>
-    </message>
-    <message>
-        <source>different names for subpatterns of the same number are not allowed</source>
-        <translation>saman numeron alimalleille ei sallita eri nimiä</translation>
-    </message>
-    <message>
-        <source>(*MARK) must have an argument</source>
-        <translation>(*MARK) vaatii argumentin</translation>
-    </message>
-    <message>
-        <source>\k is not followed by a braced, angle-bracketed, or quoted name</source>
-        <translation>\k:ta ei seuraa nimi suljettuna {}, [] tai &apos;&apos;-merkkeihin</translation>
-    </message>
-    <message>
-        <source>internal error: unknown opcode in find_fixedlength()</source>
-        <translation>sisäinen virhe: tuntematon toimintakoodi find_fixedlength()-funktiossa</translation>
-    </message>
-    <message>
-        <source>\N is not supported in a class</source>
-        <translation>\N ei ole tuettu luokassa</translation>
-    </message>
-    <message>
-        <source>disallowed Unicode code point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</source>
-        <translation>ei sallittu Unicode-merkkikoodi (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</translation>
-    </message>
-    <message>
-        <source>name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)</source>
-        <translation>nimi on liian pitkä jollekin (*MARK), (*PRUNE), (*SKIP) tai (*THEN)</translation>
-    </message>
-    <message>
-        <source>non-hex character in \x{} (closing brace missing?)</source>
-        <translation>muu kuin heksamerkki \x{}-merkinnän sisällä (puuttuuko sulkeva kaarisulje?)</translation>
-    </message>
-    <message>
-        <source>non-octal character in \o{} (closing brace missing?)</source>
-        <translation>muu kuin oktaalimerkki \o{}-merkinnän sisällä (puuttuuko sulkeva kaarisulje?)</translation>
-    </message>
-    <message>
-        <source>missing opening brace after \o</source>
-        <translation>aloittava kaarisulje puuttuu \o-merkinnän jälkeen</translation>
-    </message>
-    <message>
-        <source>parentheses are too deeply nested</source>
-        <translation>liian paljon sisäkkäisiä sulkeita</translation>
-    </message>
-    <message>
-        <source>invalid range in character class</source>
-        <translation>virheellinen alue merkkiluokassa</translation>
-    </message>
-    <message>
-        <source>group name must start with a non-digit</source>
-        <translation>ryhmän nimen täytyy alkaa muulla kuin numerolla</translation>
+        <translation>المجال غير مرتّب في صنف المحرف</translation>
     </message>
     <message>
         <source>quantifier does not follow a repeatable item</source>
-        <translation>määre ei tule toistettavan alkion jälkeen</translation>
+        <translation>المحدّد لا يتبع عنصرًا يمكن تكراره</translation>
+    </message>
+    <message>
+        <source>internal error: unexpected repeat</source>
+        <translation>خطأ داخلي: تكرار غير متوقّع</translation>
+    </message>
+    <message>
+        <source>unrecognized character after (? or (?-</source>
+        <translation>محرف لا يمكن فهمه بعد ‎)?‎ أو ‎)?-‎</translation>
+    </message>
+    <message>
+        <source>POSIX named classes are supported only within a class</source>
+        <translation>الأصناف المسمّاة حسب POSIX مدعومة فقط داخل الأصناف</translation>
+    </message>
+    <message>
+        <source>POSIX collating elements are not supported</source>
+        <translation>عناصر POSIX المجموعة ليست مدعومة</translation>
     </message>
     <message>
         <source>missing closing parenthesis</source>
-        <translation>sulkeva kaarisulje puuttuu</translation>
+        <translation>الأقواس الغالقة ناقصة</translation>
+    </message>
+    <message>
+        <source>reference to non-existent subpattern</source>
+        <translation>مرجع إلى نمط فرعيّ غير موجود</translation>
     </message>
     <message>
         <source>pattern passed as NULL</source>
-        <translation>annettu malli on NULL</translation>
+        <translation>مُرّر النّمط ك‍ NULL</translation>
     </message>
     <message>
         <source>unrecognised compile-time option bit(s)</source>
-        <translation>käännöksen aikaista valitsinbittiä tai -bittejä ei voitu tunnistaa</translation>
+        <translation>بتّة/بتّات خيار وقت التّصريف لا يمكن فهمها</translation>
     </message>
     <message>
         <source>missing ) after (?# comment</source>
-        <translation>sulkeva kaarisulje puuttuu (?#-kommentin jälkeen</translation>
+        <translation>( ناقص بعد تعليق ‎(?#‎</translation>
+    </message>
+    <message>
+        <source>parentheses are too deeply nested</source>
+        <translation>الأقواس متداخلة كثيرًا جدًّا</translation>
+    </message>
+    <message>
+        <source>regular expression is too large</source>
+        <translation>التّعبير النّمطيّ كبير جدًّا</translation>
     </message>
     <message>
         <source>failed to allocate heap memory</source>
-        <translation>kekomuistin varaaminen epäonnistui</translation>
+        <translation>فشل تخصيص ذاكرة تكويم</translation>
     </message>
     <message>
         <source>unmatched closing parenthesis</source>
-        <translation>sulkeva kaarisulje ei täsmää</translation>
+        <translation>الأقواس الغالقة لا تتطابق</translation>
+    </message>
+    <message>
+        <source>internal error: code overflow</source>
+        <translation>خطأ داخليّ: فيض في الكود</translation>
     </message>
     <message>
         <source>letter or underscore expected after (?&lt; or (?&apos;</source>
-        <translation>odotettiin kirjainta tai alaviivaa (?&lt;:n tai (?&apos;:n jälkeen</translation>
+        <translation>توقّعتُ حرفًا أو شرطة سفليّة بعد ‎(?&lt;‎ أو ‎(?&apos;‎</translation>
+    </message>
+    <message>
+        <source>lookbehind assertion is not fixed length</source>
+        <translation>إثبات النّظر للخلف ليس بطول ثابت</translation>
+    </message>
+    <message>
+        <source>malformed number or name after (?(</source>
+        <translation>عدد/اسم تالف بعد ‎(?(‎</translation>
+    </message>
+    <message>
+        <source>conditional group contains more than two branches</source>
+        <translation>تحتوي المجموعة الشّرطيّة أكثر من فرعين</translation>
     </message>
     <message>
         <source>assertion expected after (?( or (?(?C)</source>
-        <translation>odotettiin ehtolausetta (?(:n tai (?(?C):n jälkeen</translation>
+        <translation>توقّعتُ إثباتًا بعد ‎(?(‎ أو ‎(?(?C)‎</translation>
+    </message>
+    <message>
+        <source>(?R or (?[+-]digits must be followed by )</source>
+        <translation>يجب أن تُتبع ‎(?R أو ‎(?[+-]digits بِ‍ (</translation>
+    </message>
+    <message>
+        <source>unknown POSIX class name</source>
+        <translation>اسم صنف POSIX مجهول</translation>
     </message>
     <message>
         <source>internal error in pcre2_study(): should not occur</source>
-        <translation>sisäinen virhe pcre2_study():ssa: ei pitäisi tapahtua</translation>
+        <translation>خطأ داخليّ في pcre2_study()‎: لا يجب أن يحصل</translation>
     </message>
     <message>
         <source>this version of PCRE2 does not have Unicode support</source>
-        <translation>tämä PCRE2-versio ei tue Unicodea</translation>
+        <translation>ليس في إصدارة PCRE2 هذه دعم يونيكود</translation>
     </message>
     <message>
         <source>parentheses are too deeply nested (stack check)</source>
-        <translation>liian paljon sisäkkäisiä sulkeita (pinotarkistus)</translation>
+        <translation>الأقواس متداخلة كثيرًا جدًّا (تحقُّق من الرّصّة)</translation>
     </message>
     <message>
         <source>character code point value in \x{} or \o{} is too large</source>
-        <translation>merkkikoodin arvo \x{}- tai \o{}-sekvenssissä on liian suuri</translation>
+        <translation>قيمة نققطة المحرف الرّمزيّة في ‎\x{}‎ أو ‎\o{}‎ كبيرة جدًّا</translation>
+    </message>
+    <message>
+        <source>invalid condition (?(0)</source>
+        <translation>الشّرط ‎(?(0)‎ غير صالح</translation>
     </message>
     <message>
         <source>\C is not allowed in a lookbehind assertion</source>
-        <translation>\C ei ole sallittu lookbehind-ehtolauseessa</translation>
+        <translation>‏‎\C ليس مسموحًا في إثبات نظر للخلف</translation>
+    </message>
+    <message>
+        <source>PCRE does not support \L, \l, \N{name}, \U, or \u</source>
+        <translation>لا يدعم PCRE الآتي: ‎\L، أو ‎\l، أو ‎\N{name}‎، أو ‎\U أو ‎\u</translation>
     </message>
     <message>
         <source>number after (?C is greater than 255</source>
-        <translation>numero (?C:n jälkeen on suurempi kuin 255</translation>
+        <translation>العدد بعد ‎(?C أكبر من ٢٥٥</translation>
     </message>
     <message>
         <source>closing parenthesis for (?C expected</source>
-        <translation>(?C:n jälkeen odotettiin sulkevaa kaarisuljetta</translation>
+        <translation>توقّعتُ أقواس غالقة ل‍ ‎(?C</translation>
     </message>
     <message>
         <source>invalid escape sequence in (*VERB) name</source>
-        <translation>virheellinen ohjauskoodi (*VERB)-nimessä</translation>
+        <translation>تسلسل هروب غير صالح في اسم (‎*VERB)</translation>
+    </message>
+    <message>
+        <source>unrecognized character after (?P</source>
+        <translation>محرف لا يمكن فهمه بعد ‎(?P</translation>
+    </message>
+    <message>
+        <source>syntax error in subpattern name (missing terminator)</source>
+        <translation>خطأ صياغيّ في اسم النّمط الفرعيّ (المُنهي ناقص)</translation>
     </message>
     <message>
         <source>two named subpatterns have the same name (PCRE2_DUPNAMES not set)</source>
-        <translation>kahdella nimetyllä alimallilla on sama nimi (PCRE2_DUPNAMES:ia ei ole asetettu)</translation>
+        <translation>نمطان فرعيّان مسمّيان ولهما نفس الاسم (لم يُضبط PCRE2_DUPNAMES)</translation>
+    </message>
+    <message>
+        <source>group name must start with a non-digit</source>
+        <translation>يجب أن يبدأ اسم المجموعة بأيّ شيء عدا الأرقام</translation>
     </message>
     <message>
         <source>this version of PCRE2 does not have support for \P, \p, or \X</source>
-        <translation>tämä PCRE2-versio ei tue \P-, \p- tai \X-sekvenssiä</translation>
+        <translation>ليس في إصدارة PCRE2 هذه دعم ‎\P، أو ‎\p أو ‎\X</translation>
+    </message>
+    <message>
+        <source>malformed \P or \p sequence</source>
+        <translation>تسلسل ‎\P أو ‎\p تالف</translation>
+    </message>
+    <message>
+        <source>unknown property name after \P or \p</source>
+        <translation>اسم خاصيّة مجهول بعد ‎\P أو ‎\p</translation>
     </message>
     <message>
         <source>subpattern name is too long (maximum 10000 characters)</source>
-        <translation>alimallin nimi on liian pitkä (maksimi on 10000 merkkiä)</translation>
+        <translation>اسم النّمط الفرعيّ طويل جدًّا (الأقصى هو ١٠٠٠ محرف)</translation>
     </message>
     <message>
         <source>too many named subpatterns (maximum 256)</source>
-        <translation>liian monta nimettyä alimallia (maksimi on 256)</translation>
+        <translation>الكثير من الأنماط الفرعيّة المسمّاة (الأقصى هو ٢٥٦)</translation>
+    </message>
+    <message>
+        <source>invalid range in character class</source>
+        <translation>مجال غير صالح في صنف المحرف</translation>
     </message>
     <message>
         <source>octal value is greater than \377 in 8-bit non-UTF-8 mode</source>
-        <translation>oktaaliarvo on suurempi kuin \377 8-bittisessä ei-UTF-8-tilassa</translation>
+        <translation>القيمة الثّمانيّة أكبر من ‎\377 في وضع ”٨ بتّ ليس-UTF8“</translation>
+    </message>
+    <message>
+        <source>internal error: overran compiling workspace</source>
+        <translation>خطأ داخليّ: تجاوزتُ مساحة عمل التّصريف</translation>
+    </message>
+    <message>
+        <source>internal error: previously-checked referenced subpattern not found</source>
+        <translation>خطأ داخليّ: لم يُعثر على النّمط الفرعيّ المرجع المفحوص مسبقًا</translation>
+    </message>
+    <message>
+        <source>DEFINE group contains more than one branch</source>
+        <translation>تحتوي مجموعة DEFINE أكثر من فرع واحد</translation>
+    </message>
+    <message>
+        <source>missing opening brace after \o</source>
+        <translation>قوس الفتح ناقص بعد ‎\o</translation>
     </message>
     <message>
         <source>internal error: unknown newline setting</source>
-        <translation>sisäinen virhe: tuntematon rivinvaihtoasetus</translation>
+        <translation>خطأ داخليّ: إعداد أسطر جديدة مجهول</translation>
+    </message>
+    <message>
+        <source>\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number</source>
+        <translation>‏‎\g ليس متبوعًا باسم/عدد محاطٍ بأقواس مجعّدة، أو زاويّة أو علامات اقتباس أو بعدد صِرف</translation>
+    </message>
+    <message>
+        <source>a numbered reference must not be zero</source>
+        <translation>يجب أن يكون المرجع المرقّم أيّ شيء عدا الصّفر</translation>
+    </message>
+    <message>
+        <source>an argument is not allowed for (*ACCEPT), (*FAIL), or (*COMMIT)</source>
+        <translation>ليس مسموحًا بالمعطيات لِ‍ (‎*ACCEPT)، أو (‎*FAIL) أو (‎*COMMIT)</translation>
     </message>
     <message>
         <source>(*VERB) not recognized or malformed</source>
-        <translation>(*VERB)-nimeä ei tunnistettu tai se on virheellinen</translation>
+        <translation>‏(‎*VERB) لا يمكن فهمه أو تالف</translation>
+    </message>
+    <message>
+        <source>number is too big</source>
+        <translation>العدد كبير جدًّا</translation>
+    </message>
+    <message>
+        <source>subpattern name expected</source>
+        <translation>توقّعتُ اسم نمط فرعيّ</translation>
+    </message>
+    <message>
+        <source>digit expected after (?+</source>
+        <translation>توقّعتُ رقمًا بعد ‎)?+‎</translation>
+    </message>
+    <message>
+        <source>non-octal character in \o{} (closing brace missing?)</source>
+        <translation>محرف ليس ثمانيّ في ‎\o{}‎ (القوس الغالق ناقص؟)</translation>
+    </message>
+    <message>
+        <source>different names for subpatterns of the same number are not allowed</source>
+        <translation>ليس مسموحًا بأسماء مختلفة لأنماط فرعيّة لها نفس العدد</translation>
+    </message>
+    <message>
+        <source>(*MARK) must have an argument</source>
+        <translation>يجب أن يكون ل‍ (‎*MARK) معطًى</translation>
+    </message>
+    <message>
+        <source>non-hex character in \x{} (closing brace missing?)</source>
+        <translation>محرف ليس ستّ عشريّ في ‎\x{}‎ (القوس الغالق ناقص؟)</translation>
     </message>
     <message>
         <source>\c must be followed by a printable ASCII character</source>
-        <translation>\c:n jälkeen pitää tulla tulostettava ASCII-merkki</translation>
+        <translation>يجب أن يُتبع ‎\c بمحرف آسكي مطبوع</translation>
     </message>
     <message>
         <source>\c must be followed by a letter or one of [\]^_?</source>
-        <translation>\c:n jälkeen pitää tulla kirjain tai joku joukosta [\]^_?</translation>
+        <translation>يجب أن يُتبع ‎\c بحرف أو واحد من ‎[\]^_?‎</translation>
+    </message>
+    <message>
+        <source>\k is not followed by a braced, angle-bracketed, or quoted name</source>
+        <translation>‏‎\k ليس متبوعًا باسم محاطٍ بأقواس مجعّدة، أو زاويّة أو علامات اقتباس</translation>
+    </message>
+    <message>
+        <source>internal error: unknown opcode in find_fixedlength()</source>
+        <translation>خطأ داخليّ: رمز عمليّة مجهول في find_fixedlength()‎</translation>
+    </message>
+    <message>
+        <source>\N is not supported in a class</source>
+        <translation>‏‎\N ليس مدعومًا في صنف</translation>
     </message>
     <message>
         <source>SPARE ERROR</source>
-        <translatorcomment>In PCRE2 this message is nowadays &quot;internal error: parsed pattern overflow&quot;</translatorcomment>
-        <translation>sisäinen virhe: jäsennetyn mallin ylivuoto</translation>
+        <translation>خطأ عند الحاجة</translation>
+    </message>
+    <message>
+        <source>disallowed Unicode code point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</source>
+        <translation>نقطة رمزيّة يونيكوديّة غير مسموح بها (أكبر من 0xd800 وأصغر من 0xdfff)</translation>
     </message>
     <message>
         <source>using UTF is disabled by the application</source>
-        <translation>sovellus on poistanut UTF:n käytöstä</translation>
+        <translation>عطّل التّطبيق استخدام UTF</translation>
     </message>
     <message>
         <source>using UCP is disabled by the application</source>
-        <translation>sovellus on poistanut UCP:n käytöstä</translation>
+        <translation>عطّل التّطبيق استخدام UCP</translation>
+    </message>
+    <message>
+        <source>name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)</source>
+        <translation>الاسم طويل جدًّا في (‎*MARK)، أو (‎*PRUNE)، أو (‎*SKIP) أو (‎*THEN)</translation>
     </message>
     <message>
         <source>character code point value in \u.... sequence is too large</source>
-        <translation>merkkikoodin arvo \u...-sekvenssissä on liian suuri</translation>
+        <translation>قيمة نقطة رمزيّة محرفيّة في ‎\u.... التّتابع كبير جدًّا</translation>
     </message>
     <message>
         <source>digits missing in \x{} or \o{}</source>
-        <translation>numerot puuttuvat merkinnästä \x{} tai \o{}</translation>
+        <translation>خانات ناقصة في ‎\x{}‎ أو ‎\o{}‎</translation>
     </message>
     <message>
         <source>syntax error in (?(VERSION condition</source>
-        <translation>syntaksivirhe (?(VERSION-ehdossa</translation>
+        <translation>خطأ صياغيّ في شرط ‎(?(VERSION</translation>
     </message>
     <message>
         <source>internal error: unknown opcode in auto_possessify()</source>
-        <translation>sisäinen virhe: tuntematon toimintakoodi auto_possessify()-funktiossa</translation>
+        <translation>خطأ داخليّ: رمز عمليّة مجهول في auto_possessify()‎</translation>
     </message>
     <message>
         <source>missing terminating delimiter for callout with string argument</source>
-        <translation>palautekutsusta merkkijonoargumentin kanssa puuttuu lopettava erotin</translation>
+        <translation>محدّد الإنهاء ناقص للنّداء بمعطى سلسلة</translation>
     </message>
     <message>
         <source>unrecognized string delimiter follows (?C</source>
-        <translation>tuntematon merkkijonoerotin (?C:n jälkeen</translation>
+        <translation>محدّد سلاسل لا يمكن فهمه يتبع ‎(?C</translation>
     </message>
     <message>
         <source>using \C is disabled by the application</source>
-        <translation>sovellus on poistanut \C:n käytöstä</translation>
+        <translation>عطّل التّطبيق استخدام ‎\C</translation>
     </message>
     <message>
         <source>(?| and/or (?J: or (?x: parentheses are too deeply nested</source>
-        <translation>(?|- ja/tai (?J:- tai (?x:-lausekkeessa on liian monia sisäkkäisiä sulkeita</translation>
+        <translation>أقواس ‎)?|‎ و/أو ‎)?J:‎ أو ‎)?x:‎ متداخلة كثيرًا جدًّا</translation>
     </message>
     <message>
         <source>using \C is disabled in this PCRE2 library</source>
-        <translation>\C ei ole käytössä tässä PCRE2-kirjastossa</translation>
+        <translation>استخدام ‎\C معطّل في مكتبة PCRE2 هذه</translation>
     </message>
     <message>
         <source>regular expression is too complicated</source>
-        <translation>säännöllinen lauseke on liian monimutkainen</translation>
+        <translation>التّعبير النّمطيّ معقّد جدًّا</translation>
     </message>
     <message>
         <source>lookbehind assertion is too long</source>
-        <translation>lookbehind-tyyppinen ehtolause on liian pitkä</translation>
+        <translation>إثبات النّظر للخلف طويل جدًّا</translation>
     </message>
     <message>
         <source>pattern string is longer than the limit set by the application</source>
-        <translation>malli on pidempi kuin sovelluksen asettama raja</translation>
+        <translation>طول سلسلة النّمط أطول من الحدّ الذي ضبطه التّطبيق</translation>
     </message>
     <message>
         <source>no match</source>
-        <translation>ei osumaa</translation>
+        <translation>لا تطابق</translation>
     </message>
     <message>
         <source>partial match</source>
-        <translation>osittainen osuma</translation>
+        <translation>تطابق جزئيّ</translation>
     </message>
     <message>
         <source>UTF-8 error: 1 byte missing at end</source>
-        <translation>UTF-8 virhe: yksi tavu puuttuu lopusta</translation>
+        <translation>خطأ UTF-8: هناك بايت واحد ناقص في النّهاية</translation>
     </message>
     <message>
         <source>UTF-8 error: 2 bytes missing at end</source>
-        <translation>UTF-8 virhe: kaksi tavua puuttuu lopusta</translation>
+        <translation>خطأ UTF-8: هناك بايتين ناقصين في النّهاية</translation>
     </message>
     <message>
         <source>UTF-8 error: 3 bytes missing at end</source>
-        <translation>UTF-8 virhe: kolme tavua puuttuu lopusta</translation>
+        <translation>خطأ UTF-8: هناك ٣ بايتات ناقصة في النّهاية</translation>
     </message>
     <message>
         <source>UTF-8 error: 4 bytes missing at end</source>
-        <translation>UTF-8 virhe: neljä tavua puuttuu lopusta</translation>
+        <translation>خطأ UTF-8: هناك ٤ بايتات ناقصة في النّهاية</translation>
     </message>
     <message>
         <source>UTF-8 error: 5 bytes missing at end</source>
-        <translation>UTF-8 virhe: viisi tavua puuttuu lopusta</translation>
+        <translation>خطأ UTF-8: هناك ٥ بايتات ناقصة في النّهاية</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 2 top bits not 0x80</source>
-        <translation>UTF-8 virhe: tavun kaksi eniten merkitsevää bittiä eivät ole 0x80</translation>
+        <translation>خطأ UTF-8: بتّات البايت الثّاني العلويّة ليست 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 3 top bits not 0x80</source>
-        <translation>UTF-8 virhe: tavun kolme eniten merkitsevää bittiä eivät ole 0x80</translation>
+        <translation>خطأ UTF-8: بتّات البايت الثّالث العلويّة ليست 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 4 top bits not 0x80</source>
-        <translation>UTF-8 virhe: tavun neljä eniten merkitsevää bittiä eivät ole 0x80</translation>
+        <translation>خطأ UTF-8: بتّات البايت الرّابع العلويّة ليست 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 5 top bits not 0x80</source>
-        <translation>UTF-8 virhe: tavun viisi eniten merkitsevää bittiä eivät ole 0x80</translation>
+        <translation>خطأ UTF-8: بتّات البايت الخامس العلويّة ليست 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 6 top bits not 0x80</source>
-        <translation>UTF-8 virhe: tavun kuusi eniten merkitsevää bittiä eivät ole 0x80</translation>
+        <translation>خطأ UTF-8: بتّات البايت السّادس العلويّة ليست 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: 5-byte character is not allowed (RFC 3629)</source>
-        <translation>UTF-8 virhe: viisitavuinen merkki ei ole sallittu (RFC 3629)</translation>
+        <translation>خطأ UTF-8: ليس مسموحًا بمحرف يشغل ٥ بايتات (RFC 3629)</translation>
     </message>
     <message>
         <source>UTF-8 error: 6-byte character is not allowed (RFC 3629)</source>
-        <translation>UTF-8 virhe: kuusitavuinen merkki ei ole sallittu (RFC 3629)</translation>
+        <translation>خطأ UTF-8: ليس مسموحًا بمحرف يشغل ٦ بايتات (RFC 3629)</translation>
     </message>
     <message>
         <source>UTF-8 error: code points greater than 0x10ffff are not defined</source>
-        <translation>UTF-8 virhe: suuremmat merkkikoodit kuin 0x10ffff eivät ole määriteltyjä</translation>
+        <translation>خطأ UTF-8: النّقاط الرّمزيّة الأكبر من 0x10ffff غير معرّفة</translation>
     </message>
     <message>
         <source>UTF-8 error: code points 0xd800-0xdfff are not defined</source>
-        <translation>UTF-8 virhe: merkkikoodit 0xd800-0xdfff eivät ole määriteltyjä</translation>
+        <translation>خطأ UTF-8: النّقاط الرّمزيّة 0xd800‏←0xdfff غير معرّفة</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 2-byte sequence</source>
-        <translation>UTF-8 virhe: ylipitkä kahden tavun sekvenssi</translation>
+        <translation>خطأ UTF-8: تسلسل بايتان أطول من اللازم</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 3-byte sequence</source>
-        <translation>UTF-8 virhe: ylipitkä kolmen tavun sekvenssi</translation>
+        <translation>خطأ UTF-8: تسلسل ٣بايت أطول من اللازم</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 4-byte sequence</source>
-        <translation>UTF-8 virhe: ylipitkä neljän tavun sekvenssi</translation>
+        <translation>خطأ UTF-8: تسلسل ٤بايت أطول من اللازم</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 5-byte sequence</source>
-        <translation>UTF-8 virhe: ylipitkä viiden tavun sekvenssi</translation>
+        <translation>خطأ UTF-8: تسلسل ٥بايت أطول من اللازم</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 6-byte sequence</source>
-        <translation>UTF-8 virhe: ylipitkä kuuden tavun sekvenssi</translation>
+        <translation>خطأ UTF-8: تسلسل ٦بايت أطول من اللازم</translation>
     </message>
     <message>
         <source>UTF-8 error: isolated byte with 0x80 bit set</source>
-        <translation>UTF-8 virhe: yksittäinen tavu, jossa 0x80-bitti on asetettu</translation>
+        <translation>خطأ UTF-8: بايت معزول وبتّ 0x80 مضبوط</translation>
     </message>
     <message>
         <source>UTF-8 error: illegal byte (0xfe or 0xff)</source>
-        <translation>UTF-8 virhe: virheellinen tavu (0xfe tai 0xff)</translation>
+        <translation>خطأ UTF-8: بايت غير قانونيّ (0xfe أو 0xff)</translation>
     </message>
     <message>
         <source>UTF-16 error: missing low surrogate at end</source>
-        <translation>UTF-16 virhe: lopusta puuttuu alempi laajennuskoodi</translation>
+        <translation>خطأ UTF-16: بديل منخفض ناقص في النّهاية</translation>
     </message>
     <message>
         <source>UTF-16 error: invalid low surrogate</source>
-        <translation>UTF-16 virhe: virheellinen alempi laajennuskoodi</translation>
+        <translation>خطأ UTF-16: بديل منخفض غير صالح</translation>
     </message>
     <message>
         <source>UTF-16 error: isolated low surrogate</source>
-        <translation>UTF-16 virhe: yksittäinen alempi laajennuskoodi</translation>
+        <translation>خطأ UTF-16: بديل منخفض معزول</translation>
     </message>
     <message>
         <source>UTF-32 error: code points 0xd800-0xdfff are not defined</source>
-        <translation>UTF-32 virhe: merkkikoodit 0xd800-0xdfff eivät ole määriteltyjä</translation>
+        <translation>خطأ UTF-32: النّقاط الرّمزيّة 0xd800‏←0xdfff غير معرّفة</translation>
     </message>
     <message>
         <source>UTF-32 error: code points greater than 0x10ffff are not defined</source>
-        <translation>UTF-32 virhe: suuremmat merkkikoodit kuin 0x10ffff eivät ole määriteltyjä</translation>
+        <translation>خطأ UTF-32: النّقاط الرّمزيّة الأكبر من 0x10ffff غير معرّفة</translation>
     </message>
     <message>
         <source>bad data value</source>
-        <translation>virheellinen data-arvo</translation>
+        <translation>قيمة بيانات سيّئة</translation>
     </message>
     <message>
         <source>patterns do not all use the same character tables</source>
-        <translation>kaikki mallit eivät käytä samoja merkkitaulukkoja</translation>
+        <translation>لا تستخدم الأنماط كلّها نفس جداول المحارف</translation>
     </message>
     <message>
         <source>magic number missing</source>
-        <translation>tunnisteluku puuttuu</translation>
+        <translation>العدد السّحريّ ناقص</translation>
     </message>
     <message>
         <source>pattern compiled in wrong mode: 8/16/32-bit error</source>
-        <translation>malli on käännetty väärässä muodossa: 8/16/32-bittisyysvirhe</translation>
+        <translation>صُرّف النّمط بوضع خاطئ: خطأ ٨/١٦/٣٢ بتّة</translation>
     </message>
     <message>
         <source>bad offset value</source>
-        <translation>virheellinen siirtymän arvo</translation>
+        <translation>قيمة إزاحة سيّئة</translation>
     </message>
     <message>
         <source>bad option value</source>
-        <translation>virheellinen valitsimen arvo</translation>
+        <translation>قيمة خيار سيّئ</translation>
     </message>
     <message>
         <source>invalid replacement string</source>
-        <translation>virheellinen korvausmerkkijono</translation>
+        <translation>نصّ استبدال غير صالح</translation>
     </message>
     <message>
         <source>bad offset into UTF string</source>
-        <translation>virheellinen UTF-merkkijonosiirtymä</translation>
+        <translation>إزاحة سيّئة نحو سلسلة UTF</translation>
     </message>
     <message>
         <source>callout error code</source>
-        <translation>palautekutsun virhekoodi</translation>
+        <translation>رمز خطأ نداء</translation>
     </message>
     <message>
         <source>invalid data in workspace for DFA restart</source>
-        <translation>työtilassa on virheellistä dataa DFA:n uudelleenkäynnistystä varten</translation>
+        <translation>بيانات غير صالحة في مساحة العمل لإعادة تشغيل DFA</translation>
     </message>
     <message>
         <source>too much recursion for DFA matching</source>
-        <translation>liian paljon rekursiota DFA-haulle</translation>
+        <translation>تكراريّات كثيرة لمطابقة DFA</translation>
     </message>
     <message>
         <source>backreference condition or recursion test is not supported for DFA matching</source>
-        <translation>DFA-haku ei tue takaisinviittausehtoa eikä rekursiotestiä</translation>
+        <translation>شرط المرجع الخلفيّ أو اختبار التّكراريّة غير مدعومات لمطابقة DFA</translation>
     </message>
     <message>
         <source>function is not supported for DFA matching</source>
-        <translation>DFA-haku ei tue funktiota</translation>
+        <translation>الدّالة غير مدعومة لمطابقة DFA</translation>
     </message>
     <message>
         <source>pattern contains an item that is not supported for DFA matching</source>
-        <translation>mallissa on osa, jota DFA-haku ei tue</translation>
+        <translation>يحتوي النّمط عنصرًا ليس مدعومًا لمطابقة DFA</translation>
     </message>
     <message>
         <source>workspace size exceeded in DFA matching</source>
-        <translation>työtilan koko ylittyi DFA-haussa</translation>
+        <translation>تُخطّي حجم مساحة العمل في مطابقة DFA</translation>
     </message>
     <message>
         <source>internal error - pattern overwritten?</source>
-        <translation>sisäinen virhe - ylikirjoitettu malli?</translation>
+        <translation>خطأ داخليّ - كُتب على النّمط؟</translation>
     </message>
     <message>
         <source>bad JIT option</source>
-        <translation>virheellinen JIT-valitsin</translation>
+        <translation>خيار JIT سيّئ</translation>
     </message>
     <message>
         <source>JIT stack limit reached</source>
-        <translation>saavutettiin JIT-pinon raja</translation>
+        <translation>وصلتُ إلى حدّ رصّة JIT</translation>
     </message>
     <message>
         <source>match limit exceeded</source>
-        <translation>ylitettiin osumien raja</translation>
+        <translation>تخطّيتُ حدّ التّطابق</translation>
     </message>
     <message>
         <source>no more memory</source>
-        <translation>muisti loppu</translation>
+        <translation>لا مزيد من الذّاكرة</translation>
     </message>
     <message>
         <source>unknown substring</source>
-        <translation>tuntematon alimerkkijono</translation>
+        <translation>سلسلة فرعيّة مجهولة</translation>
     </message>
     <message>
         <source>non-unique substring name</source>
-        <translation>alimerkkijonon nimi ei ole yksilöllinen</translation>
+        <translation>اسم السّلسلة الفرعيّة ليس فريدًا</translation>
     </message>
     <message>
         <source>NULL argument passed</source>
-        <translation>annettu argumentti on NULL</translation>
+        <translation>مُرّر معطى NULL</translation>
     </message>
     <message>
         <source>nested recursion at the same subject position</source>
-        <translatorcomment>I have no idea what the original text is supposed to mean</translatorcomment>
-        <translation>sisäkkäinen rekursio samassa aiheen paikassa</translation>
+        <translation>تكراريّة متداخلة في نفس مكان الموضوع</translation>
     </message>
     <message>
         <source>recursion limit exceeded</source>
-        <translation>ylitettiin rekursion raja</translation>
+        <translation>تخطّيتُ حدّ التّكراريّة</translation>
     </message>
     <message>
         <source>requested value is not available</source>
-        <translation>pyydetty arvo ei ole saatavilla</translation>
+        <translation>القيمة المطلوبة غير متوفّرة</translation>
     </message>
     <message>
         <source>requested value is not set</source>
-        <translation>pyydetty arvo ei ole asetettu</translation>
+        <translation>القيمة المطلوبة لم تُضبط</translation>
     </message>
     <message>
         <source>offset limit set without PCRE2_USE_OFFSET_LIMIT</source>
-        <translation>siirtymän raja annettu ilman PCRE2_USE_OFFSET_LIMIT:iä</translation>
+        <translation>ضُبط حدّ للإزاحة دون PCRE2_USE_OFFSET_LIMIT</translation>
     </message>
     <message>
         <source>bad escape sequence in replacement string</source>
-        <translation>virheellinen ohjauskoodi korvausmerkkijonossa</translation>
+        <translation>تسلسل هروب سيّئ في نصّ الاستبدال</translation>
     </message>
     <message>
         <source>expected closing curly bracket in replacement string</source>
-        <translation>odotettiin sulkevaa aaltosuljetta korvausmerkkijonossa</translation>
+        <translation>توقّعتُ قوسًا مجعّدًا غالقًا في نصّ الاستبدال</translation>
     </message>
     <message>
         <source>bad substitution in replacement string</source>
-        <translation>virheellinen korvaus korvausmerkkijonossa</translation>
+        <translation>إبدال سيّئ في نصّ الاستبدال</translation>
     </message>
     <message>
         <source>match with end before start is not supported</source>
-        <translation>loppuun hakua ei tueta ennen alkuun hakua</translation>
+        <translation>المطابقة بالنّهاية قبل البداية غير مدعومة</translation>
     </message>
     <message>
         <source>too many replacements (more than INT_MAX)</source>
-        <translation>liian monta korvausta (enemmän kuin INT_MAX)</translation>
+        <translation>الكثير من الاستبدالات (أكثر من INT_MAX)</translation>
     </message>
 </context>
 <context>
     <name>QSQLite2Driver</name>
     <message>
         <source>Error opening database</source>
-        <translation>Tietokannan avaaminen epäonnistui</translation>
+        <translation>خطأ في فتح قاعدة البيانات</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>Tietokantatapahtuman aloittaminen epäonnistui</translation>
+        <translation>تعذّر بدء التّبادل</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tietokantatapahtuman commit-toiminnon suorittaminen epäonnistui</translation>
+        <translation>تعذّر إيداع التّبادل</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Tietokantatapahtuman rollback-toiminnon suorittaminen epäonnistui</translation>
+        <translation>تعذّر التّراجع عن التّبادل</translation>
     </message>
 </context>
 <context>
     <name>QSQLite2Result</name>
     <message>
         <source>Unable to fetch results</source>
-        <translation>Tulosten noutaminen epäonnistui</translation>
+        <translation>تعذّر جلب النّتائج</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Lauseen suorittaminen epäonnistui</translation>
+        <translation>تعذّر تنفيذ الإفادة</translation>
     </message>
 </context>
 <context>
     <name>QSQLiteDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>Tietokannan avaaminen epäonnistui</translation>
+        <translation>خطأ في فتح قاعدة البيانات</translation>
     </message>
     <message>
         <source>Error closing database</source>
-        <translation>Tietokannan sulkeminen epäonnistui</translation>
+        <translation>خطأ في غلق قاعدة البيانات</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>Tietokantatapahtuman aloittaminen epäonnistui</translation>
+        <translation>تعذّر بدء التّبادل</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tietokantatapahtuman commit-toiminnon suorittaminen epäonnistui</translation>
+        <translation>تعذّر إيداع التّبادل</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Tietokantatapahtuman rollback-toiminnon suorittaminen epäonnistui</translation>
+        <translation>تعذّر التّراجع عن التّبادل</translation>
     </message>
 </context>
 <context>
     <name>QSQLiteResult</name>
     <message>
         <source>Unable to fetch row</source>
-        <translation>Rivin noutaminen epäonnistui</translation>
+        <translation>تعذّر جلب الصّفّ</translation>
     </message>
     <message>
         <source>No query</source>
-        <translation>Ei kyselyä</translation>
+        <translation>لا استعلام</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Lauseen suorittaminen epäonnistui</translation>
+        <translation>تعذّر تنفيذ الإفادة</translation>
     </message>
     <message>
         <source>Unable to execute multiple statements at a time</source>
-        <translation>Useita lauseita ei voitu suorittaa samanaikaisesti</translation>
+        <translation>لا يمكن تنفيذ عدّة إفادات في آن معًا</translation>
     </message>
     <message>
         <source>Unable to reset statement</source>
-        <translation>Lauseen alustaminen epäonnistui</translation>
+        <translation>تعذّر تصفير الإفادة</translation>
     </message>
     <message>
         <source>Unable to bind parameters</source>
-        <translation>Parametrien sitominen epäonnistui</translation>
+        <translation>تعذّر ربط المعاملات</translation>
     </message>
     <message>
         <source>Parameter count mismatch</source>
-        <translation>Parametrien määrä ei täsmää</translation>
+        <translation>عدد المعاملات لا يتطابق</translation>
     </message>
 </context>
 <context>
     <name>QSaveFile</name>
     <message>
         <source>Existing file %1 is not writable</source>
-        <translation>Ei voida kirjoittaa olemassa olevaan tiedostoon %1</translation>
+        <translation>الملفّ %1 الموجود غير قابل للكتابة</translation>
     </message>
     <message>
         <source>Filename refers to a directory</source>
-        <translation>Tiedostonimi viittaa kansioon</translation>
-    </message>
-    <message>
-        <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled: path contains an Alternate Data Stream specifier</source>
-        <translation>QSaveFile ei voi avata polkua ”%1” ilman suoraa kirjoitusta: polku sisältää vaihtoehtoinen tietovirta -tunnisteen</translation>
+        <translation>اسم الملفّ يشير إلى دليل</translation>
     </message>
     <message>
         <source>Writing canceled by application</source>
-        <translation>Ohjelma keskeytti kirjoittamisen</translation>
+        <translation>ألغى التّطبيق الكتابة</translation>
     </message>
 </context>
 <context>
     <name>QScrollBar</name>
     <message>
         <source>Scroll here</source>
-        <translation>Vieritä tähän</translation>
+        <translation>مرّر إلى هنا</translation>
     </message>
     <message>
         <source>Left edge</source>
-        <translation>Vasempaan reunaan</translation>
+        <translation>الحافّة اليسرى</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation>Alkuun</translation>
+        <translation>الأعلى</translation>
     </message>
     <message>
         <source>Right edge</source>
-        <translation>Oikeaan reunaan</translation>
+        <translation>الحافّة اليمنى</translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation>Loppuun</translation>
+        <translation>الأسفل</translation>
     </message>
     <message>
         <source>Page left</source>
-        <translation>Sivu vasemmalle</translation>
+        <translation>الصّفحة اليسرى</translation>
     </message>
     <message>
         <source>Page up</source>
-        <translation>Sivu ylös</translation>
+        <translation>الصّفحة العليا</translation>
     </message>
     <message>
         <source>Page right</source>
-        <translation>Sivu oikealle</translation>
+        <translation>الصّفحة اليمنى</translation>
     </message>
     <message>
         <source>Page down</source>
-        <translation>Sivu alas</translation>
+        <translation>الصّفحة السّفلى</translation>
     </message>
     <message>
         <source>Scroll left</source>
-        <translation>Vieritä vasemmalle</translation>
+        <translation>مرّر لليسار</translation>
     </message>
     <message>
         <source>Scroll up</source>
-        <translation>Vieritä ylös</translation>
+        <translation>مرّر للأعلى</translation>
     </message>
     <message>
         <source>Scroll right</source>
-        <translation>Vieritä oikealle</translation>
+        <translation>مرّر لليمين</translation>
     </message>
     <message>
         <source>Scroll down</source>
-        <translation>Vieritä alas</translation>
+        <translation>مرّر للأسفل</translation>
     </message>
 </context>
 <context>
     <name>QSctpSocket</name>
     <message>
         <source>The remote host closed the connection</source>
-        <translation>Palvelin sulki yhteyden</translation>
+        <translation>أغلق المضيف البعيد الاتّصال</translation>
     </message>
 </context>
 <context>
     <name>QSharedMemory</name>
     <message>
         <source>%1: unable to set key on lock</source>
-        <translation>%1: avaimen asettaminen lukkoon epäonnistui</translation>
+        <translation>‏%1: تعذّر ضبط مفتاح للقفل</translation>
     </message>
     <message>
         <source>%1: create size is less then 0</source>
-        <translation>%1: luotava koko on pienempi kuin 0</translation>
+        <translation>‏%1: حجم الإنشاء أقلّ من ٠</translation>
     </message>
     <message>
         <source>%1: unable to lock</source>
-        <translation>%1: lukitseminen epäonnistui</translation>
+        <translation>‏%1: تعذّر القفل</translation>
     </message>
     <message>
         <source>%1: unable to unlock</source>
-        <translation>%1: lukituksen avaaminen epäonnistui</translation>
-    </message>
-    <message>
-        <source>%1: permission denied</source>
-        <translation>%1: ei käyttöoikeutta</translation>
-    </message>
-    <message>
-        <source>%1: already exists</source>
-        <translation>%1: on jo olemassa</translation>
-    </message>
-    <message>
-        <source>%1: doesn&apos;t exist</source>
-        <translation>%1: ei ole olemassa</translation>
-    </message>
-    <message>
-        <source>%1: out of resources</source>
-        <translation>%1: resurssit loppu</translation>
-    </message>
-    <message>
-        <source>%1: unknown error %2</source>
-        <translation>%1: tuntematon virhe %2</translation>
+        <translation>‏%1: تعذّرت إزالة القفل</translation>
     </message>
     <message>
         <source>%1: key is empty</source>
-        <translation>%1: avain on tyhjä</translation>
+        <translation>‏%1: المفتاح فارغ</translation>
     </message>
     <message>
         <source>%1: bad name</source>
-        <translation>%1: virheellinen nimi</translation>
+        <translation>‏%1: الاسم سيّء</translation>
     </message>
     <message>
         <source>%1: UNIX key file doesn&apos;t exist</source>
-        <translation>%1: UNIX-avaintiedostoa ei ole olemassa</translation>
+        <translation>‏%1: مفتاح ملفّ يونكس غير موجود</translation>
     </message>
     <message>
         <source>%1: ftok failed</source>
-        <translation>%1: ftok epäonnistui</translation>
+        <translation>‏%1: فشل ftok</translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
-        <translation>%1: avaimen tekeminen epäonnistui</translation>
+        <translation>‏%1: تعذّر عمل المفتاح</translation>
     </message>
     <message>
         <source>%1: system-imposed size restrictions</source>
-        <translation>%1: järjestelmän asettama kokorajoitus tuli vastaan</translation>
+        <translation>‏%1: قيود حجم فرضها النّظام</translation>
     </message>
     <message>
         <source>%1: not attached</source>
-        <translation>%1: ei ole liitettynä</translation>
+        <translation>‏%1: ليس مرفقًا</translation>
+    </message>
+    <message>
+        <source>%1: permission denied</source>
+        <translation>‏%1: رُفض التّصريح</translation>
+    </message>
+    <message>
+        <source>%1: already exists</source>
+        <translation>‏%1: موجود بالفعل</translation>
+    </message>
+    <message>
+        <source>%1: doesn&apos;t exist</source>
+        <translation>‏%1: غير موجود</translation>
+    </message>
+    <message>
+        <source>%1: out of resources</source>
+        <translation>‏%1: نفذت الموارد</translation>
+    </message>
+    <message>
+        <source>%1: unknown error %2</source>
+        <translation>‏%1: الخطأ %2 مجهول</translation>
     </message>
     <message>
         <source>%1: invalid size</source>
-        <translation>%1: virheellinen koko</translation>
+        <translation>‏%1: الحجم غير صالح</translation>
     </message>
     <message>
         <source>%1: key error</source>
-        <translation>%1: avainvirhe</translation>
+        <translation>‏%1: خطأ في المفتاح</translation>
     </message>
     <message>
         <source>%1: size query failed</source>
-        <translation>%1: koon kysely epäonnistui</translation>
+        <translation>‏%1 فشل استعلام الحجم</translation>
     </message>
 </context>
 <context>
@@ -4743,7 +4761,7 @@ Poista toinen niistä käytöstä.</translation>
     <message>
         <source>Space</source>
         <extracomment>This and all following &quot;incomprehensible&quot; strings in QShortcut context are key names. Please use the localized names appearing on actual keyboards or whatever is commonly used.</extracomment>
-        <translation>Välilyönti</translation>
+        <translation>Space</translation>
     </message>
     <message>
         <source>Esc</source>
@@ -4751,15 +4769,15 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>Tab</source>
-        <translation>Sarkain</translation>
+        <translation>Tab</translation>
     </message>
     <message>
         <source>Backtab</source>
-        <translation>Sarkain taaksepäin</translation>
+        <translation>Backtab</translation>
     </message>
     <message>
         <source>Backspace</source>
-        <translation>Askelpalautin</translation>
+        <translation>Backspace</translation>
     </message>
     <message>
         <source>Return</source>
@@ -4799,19 +4817,19 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation>Vasen nuoli</translation>
+        <translation>اليسار</translation>
     </message>
     <message>
         <source>Up</source>
-        <translation>Ylänuoli</translation>
+        <translation>الأعلى</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation>Oikea nuoli</translation>
+        <translation>اليمين</translation>
     </message>
     <message>
         <source>Down</source>
-        <translation>Alanuoli</translation>
+        <translation>الأسفل</translation>
     </message>
     <message>
         <source>PgUp</source>
@@ -4835,217 +4853,217 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>Menu</source>
-        <translation>Valikko</translation>
+        <translation>القائمة</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Ohje</translation>
+        <translation>المساعدة</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Takaisin</translation>
+        <translation>عودة</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>Eteenpäin</translation>
+        <translation>تقدّم</translation>
     </message>
     <message>
         <source>Stop</source>
-        <translation>Pysäytä</translation>
+        <translation>إيقاف</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation>Virkistä</translation>
+        <translation>إنعاش</translation>
     </message>
     <message>
         <source>Volume Down</source>
-        <translation>Äänenvoimakkuuden vähennys</translation>
+        <translation>خفض الصّوت</translation>
     </message>
     <message>
         <source>Volume Mute</source>
-        <translation>Äänenvoimakkuuden vaimennus</translation>
+        <translation>كتم الصّوت</translation>
     </message>
     <message>
         <source>Volume Up</source>
-        <translation>Äänenvoimakkuuden lisäys</translation>
+        <translation>رفع الصّوت</translation>
     </message>
     <message>
         <source>Bass Boost</source>
-        <translation>Basson korostus</translation>
+        <translation>Bass Boost</translation>
     </message>
     <message>
         <source>Bass Up</source>
-        <translation>Basson lisäys</translation>
+        <translation>رفع Bass</translation>
     </message>
     <message>
         <source>Bass Down</source>
-        <translation>Basson vähennys</translation>
+        <translation>خفض Bass</translation>
     </message>
     <message>
         <source>Treble Up</source>
-        <translation>Diskantin lisäys</translation>
+        <translation>رفع Treble</translation>
     </message>
     <message>
         <source>Treble Down</source>
-        <translation>Diskantin vähennys</translation>
+        <translation>خفض Treble</translation>
     </message>
     <message>
         <source>Media Play</source>
-        <translation>Median toisto</translation>
+        <translation>تشغيل الوسائط</translation>
     </message>
     <message>
         <source>Media Stop</source>
-        <translation>Median pysäytys</translation>
+        <translation>إيقاف الوسائط</translation>
     </message>
     <message>
         <source>Media Previous</source>
-        <translation>Edellinen media</translation>
+        <translation>الوسيط السّابق</translation>
     </message>
     <message>
         <source>Media Next</source>
-        <translation>Seuraava media</translation>
+        <translation>الوسيط التّالي</translation>
     </message>
     <message>
         <source>Media Record</source>
-        <translation>Median tallennus</translation>
+        <translation>تسجيل وسيط</translation>
     </message>
     <message>
         <source>Media Pause</source>
         <extracomment>Media player pause button</extracomment>
-        <translation>Median tauko</translation>
+        <translation>إلباث الوسيط</translation>
     </message>
     <message>
         <source>Toggle Media Play/Pause</source>
         <extracomment>Media player button to toggle between playing and paused</extracomment>
-        <translation>Vuorottele median soittoa/taukoa</translation>
+        <translation>تبديل تشغيل/إلباث الوسائط</translation>
     </message>
     <message>
         <source>Home Page</source>
-        <translation>Kotisivu</translation>
+        <translation>الصّفحة الرّئيسيّة</translation>
     </message>
     <message>
         <source>Favorites</source>
-        <translation>Suosikit</translation>
+        <translation>المفضّلة</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Haku</translation>
+        <translation>البحث</translation>
     </message>
     <message>
         <source>Standby</source>
-        <translation>Valmiustila</translation>
+        <translation>تعليق</translation>
     </message>
     <message>
         <source>Open URL</source>
-        <translation>Avaa verkko-osoite</translation>
+        <translation>فتح عنوان</translation>
     </message>
     <message>
         <source>Launch Mail</source>
-        <translation>Käynnistä sähköposti</translation>
+        <translation>إطلاق البريد</translation>
     </message>
     <message>
         <source>Launch Media</source>
-        <translation>Käynnistä mediasoitin</translation>
+        <translation>إطلاق الوسائط</translation>
     </message>
     <message>
         <source>Launch (0)</source>
-        <translation>Käynnistä (0)</translation>
+        <translation>إطلاق (0)</translation>
     </message>
     <message>
         <source>Launch (1)</source>
-        <translation>Käynnistä (1)</translation>
+        <translation>إطلاق (1)</translation>
     </message>
     <message>
         <source>Launch (2)</source>
-        <translation>Käynnistä (2)</translation>
+        <translation>إطلاق (2)</translation>
     </message>
     <message>
         <source>Launch (3)</source>
-        <translation>Käynnistä (3)</translation>
+        <translation>إطلاق (3)</translation>
     </message>
     <message>
         <source>Launch (4)</source>
-        <translation>Käynnistä (4)</translation>
+        <translation>إطلاق (4)</translation>
     </message>
     <message>
         <source>Launch (5)</source>
-        <translation>Käynnistä (5)</translation>
+        <translation>إطلاق (5)</translation>
     </message>
     <message>
         <source>Launch (6)</source>
-        <translation>Käynnistä (6)</translation>
+        <translation>إطلاق (6)</translation>
     </message>
     <message>
         <source>Launch (7)</source>
-        <translation>Käynnistä (7)</translation>
+        <translation>إطلاق (7)</translation>
     </message>
     <message>
         <source>Launch (8)</source>
-        <translation>Käynnistä (8)</translation>
+        <translation>إطلاق (8)</translation>
     </message>
     <message>
         <source>Launch (9)</source>
-        <translation>Käynnistä (9)</translation>
+        <translation>إطلاق (9)</translation>
     </message>
     <message>
         <source>Launch (A)</source>
-        <translation>Käynnistä (A)</translation>
+        <translation>إطلاق (A)</translation>
     </message>
     <message>
         <source>Launch (B)</source>
-        <translation>Käynnistä (B)</translation>
+        <translation>إطلاق (B)</translation>
     </message>
     <message>
         <source>Launch (C)</source>
-        <translation>Käynnistä (C)</translation>
+        <translation>إطلاق (C)</translation>
     </message>
     <message>
         <source>Launch (D)</source>
-        <translation>Käynnistä (D)</translation>
+        <translation>إطلاق (D)</translation>
     </message>
     <message>
         <source>Launch (E)</source>
-        <translation>Käynnistä (E)</translation>
+        <translation>إطلاق (E)</translation>
     </message>
     <message>
         <source>Launch (F)</source>
-        <translation>Käynnistä (F)</translation>
+        <translation>إطلاق (F)</translation>
     </message>
     <message>
         <source>Monitor Brightness Up</source>
-        <translation>Näytön kirkkauden lisäys</translation>
+        <translation>رفع سطوع الشّاشة</translation>
     </message>
     <message>
         <source>Monitor Brightness Down</source>
-        <translation>Näytön kirkkauden vähennys</translation>
+        <translation>خفض سطوع الشّاشة</translation>
     </message>
     <message>
         <source>Keyboard Light On/Off</source>
-        <translation>Näppäimistön valo päälle/pois</translation>
+        <translation>تفعيل/تعطيل إضاءة لوحة المفاتيح</translation>
     </message>
     <message>
         <source>Keyboard Brightness Up</source>
-        <translation>Näppäimistön kirkkauden lisäys</translation>
+        <translation>رفع سطوع لوحة المفاتيح</translation>
     </message>
     <message>
         <source>Keyboard Brightness Down</source>
-        <translation>Näppäimistön kirkkauden vähennys</translation>
+        <translation>خفض سطوع لوحة المفاتيح</translation>
     </message>
     <message>
         <source>Power Off</source>
-        <translation>Virtanappi</translation>
+        <translation>إطفاء</translation>
     </message>
     <message>
         <source>Wake Up</source>
-        <translation>Herätys</translation>
+        <translation>إيقاظ</translation>
     </message>
     <message>
         <source>Eject</source>
-        <translation>Poisto</translation>
+        <translation>إخراج</translation>
     </message>
     <message>
         <source>Screensaver</source>
-        <translation>Näytönsäästäjä</translation>
+        <translation>حافظ الشّاشة</translation>
     </message>
     <message>
         <source>WWW</source>
@@ -5053,223 +5071,227 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>Sleep</source>
-        <translation>Valmiustila</translation>
+        <translation>نوم</translation>
     </message>
     <message>
         <source>LightBulb</source>
-        <translation>Hehkulamppu</translation>
+        <translation>المصباح</translation>
     </message>
     <message>
         <source>Shop</source>
-        <translation>Kauppa</translation>
+        <translation>التّسوّق</translation>
     </message>
     <message>
         <source>History</source>
-        <translation>Historia</translation>
+        <translation>التّأريخ</translation>
     </message>
     <message>
         <source>Add Favorite</source>
-        <translation>Lisää suosikkeihin</translation>
+        <translation>إضافة مفضّلة</translation>
     </message>
     <message>
         <source>Hot Links</source>
-        <translation>Hot Links</translation>
+        <translation>الرّوابط السّريعة</translation>
     </message>
     <message>
         <source>Adjust Brightness</source>
-        <translation>Säädä kirkkautta</translation>
+        <translation>ضبط السّطوع</translation>
     </message>
     <message>
         <source>Finance</source>
-        <translation>Talous</translation>
+        <translation>الماليّة</translation>
     </message>
     <message>
         <source>Community</source>
-        <translation>Yhteisö</translation>
+        <translation>المجتمع</translation>
+    </message>
+    <message>
+        <source>Media Rewind</source>
+        <translation>تدوير الوسائط</translation>
     </message>
     <message>
         <source>Back Forward</source>
-        <translation>Takaisin eteenpäin</translation>
+        <translation>للخلف للأمام</translation>
     </message>
     <message>
         <source>Application Left</source>
-        <translation>Sovellus vasemmalla</translation>
+        <translation>التّطبيقات لليسار</translation>
     </message>
     <message>
         <source>Application Right</source>
-        <translation>Sovellus oikealla</translation>
+        <translation>التّطبيقات لليمين</translation>
     </message>
     <message>
         <source>Book</source>
-        <translation>Kirja</translation>
+        <translation>كتاب</translation>
     </message>
     <message>
         <source>CD</source>
-        <translation>CD</translation>
+        <translation>أسطوانة</translation>
     </message>
     <message>
         <source>Calculator</source>
-        <translation>Laskin</translation>
+        <translation>الحاسبة</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Tyhjennä</translation>
+        <translation>مسح</translation>
     </message>
     <message>
         <source>Clear Grab</source>
-        <translation>Clear Grab</translation>
+        <translation>مسح الانتزاع</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Sulje</translation>
+        <translation>إغلاق</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Kopioi</translation>
+        <translation>نسخ</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation>Leikkaa</translation>
+        <translation>قصّ</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation>Näyttö</translation>
+        <translation>العرض</translation>
     </message>
     <message>
         <source>DOS</source>
-        <translation>DOS</translation>
+        <translation>دوس</translation>
     </message>
     <message>
         <source>Documents</source>
-        <translation>Tiedostot</translation>
+        <translation>المستندات</translation>
     </message>
     <message>
         <source>Spreadsheet</source>
-        <translation>Taulukkolaskenta</translation>
+        <translation>ورقة ممتدّة</translation>
     </message>
     <message>
         <source>Browser</source>
-        <translation>Selain</translation>
+        <translation>المتصفّح</translation>
     </message>
     <message>
         <source>Game</source>
-        <translation>Peli</translation>
+        <translation>لعبة</translation>
     </message>
     <message>
         <source>Go</source>
-        <translation>Siirry</translation>
+        <translation>انطلاق</translation>
     </message>
     <message>
         <source>iTouch</source>
-        <translation>iTouch</translation>
+        <translation>آي‌تَش</translation>
     </message>
     <message>
         <source>Logoff</source>
-        <translation>Kirjaudu ulos</translation>
+        <translation>الخروج</translation>
     </message>
     <message>
         <source>Market</source>
-        <translation>Kauppapaikka</translation>
+        <translation>السّوق</translation>
     </message>
     <message>
         <source>Meeting</source>
-        <translation>Tapaaminen</translation>
+        <translation>اجتماع</translation>
     </message>
     <message>
         <source>Keyboard Menu</source>
-        <translation>Näppäimistövalikko</translation>
+        <translation>قائمة لوحة المفاتيح</translation>
     </message>
     <message>
         <source>Menu PB</source>
-        <translation>Menu PB</translation>
+        <translation>قائمة PB</translation>
     </message>
     <message>
         <source>My Sites</source>
-        <translation>Omat sivut</translation>
+        <translation>مواقعي</translation>
     </message>
     <message>
         <source>News</source>
-        <translation>Uutiset</translation>
+        <translation>الأخبار</translation>
     </message>
     <message>
         <source>Home Office</source>
-        <translation>Toimisto</translation>
+        <translation>مكتب المنزل</translation>
     </message>
     <message>
         <source>Option</source>
-        <translation>Option</translation>
+        <translation>الخيار</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>Liitä</translation>
+        <translation>لصق</translation>
     </message>
     <message>
         <source>Phone</source>
-        <translation>Puhelin</translation>
+        <translation>الهاتف</translation>
     </message>
     <message>
         <source>Reply</source>
-        <translation>Vastaa</translation>
+        <translation>رَدّ</translation>
     </message>
     <message>
         <source>Reload</source>
-        <translation>Päivitä</translation>
+        <translation>إعادة تحميل</translation>
     </message>
     <message>
         <source>Rotate Windows</source>
-        <translation>Ikkunoiden kierrätys</translation>
+        <translation>تدوير النّوافذ</translation>
     </message>
     <message>
         <source>Rotation PB</source>
-        <translation>Rotation PB</translation>
+        <translation>دوران PB</translation>
     </message>
     <message>
         <source>Rotation KB</source>
-        <translation>Rotation KB</translation>
+        <translation>دوران KB</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Tallenna</translation>
+        <translation>حفظ</translation>
     </message>
     <message>
         <source>Send</source>
-        <translation>Lähetä</translation>
+        <translation>إرسال</translation>
     </message>
     <message>
         <source>Spellchecker</source>
-        <translation>Oikeinkirjoituksen tarkistus</translation>
+        <translation>مدقّق الإملاء</translation>
     </message>
     <message>
         <source>Split Screen</source>
-        <translation>Jaa näyttö</translation>
+        <translation>تقسيم الشّاشة</translation>
     </message>
     <message>
         <source>Support</source>
-        <translation>Tuki</translation>
+        <translation>الدّعم</translation>
     </message>
     <message>
         <source>Task Panel</source>
-        <translation>Tehtävät</translation>
+        <translation>لوحة المهامّ</translation>
     </message>
     <message>
         <source>Terminal</source>
-        <translation>Pääte</translation>
+        <translation>الطّرفيّة</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation>Työkalut</translation>
+        <translation>الأدوات</translation>
     </message>
     <message>
         <source>Travel</source>
-        <translation>Matkailu</translation>
+        <translation>السّفر</translation>
     </message>
     <message>
         <source>Video</source>
-        <translation>Video</translation>
+        <translation>الفيديو</translation>
     </message>
     <message>
         <source>Word Processor</source>
-        <translation>Tekstinkäsittely</translation>
+        <translation>معالج الكلمات</translation>
     </message>
     <message>
         <source>XFer</source>
@@ -5277,434 +5299,430 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>Zoom In</source>
-        <translation>Lähennä</translation>
+        <translation>تقريب</translation>
     </message>
     <message>
         <source>Zoom Out</source>
-        <translation>Loitonna</translation>
+        <translation>إبعاد</translation>
     </message>
     <message>
         <source>Away</source>
-        <translation>Poissa</translation>
+        <translation>بعيد</translation>
     </message>
     <message>
         <source>Messenger</source>
-        <translation>Viestintäsovellus</translation>
+        <translation>المرسال</translation>
     </message>
     <message>
         <source>WebCam</source>
-        <translation>Web-kamera</translation>
+        <translation>كمرة الوبّ</translation>
     </message>
     <message>
         <source>Mail Forward</source>
-        <translation>Edelleenlähetys</translation>
+        <translation>تمرير البريد</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>Kuvat</translation>
+        <translation>الصّور</translation>
     </message>
     <message>
         <source>Music</source>
-        <translation>Musiikki</translation>
+        <translation>الموسيقى</translation>
     </message>
     <message>
         <source>Battery</source>
-        <translation>Akku</translation>
+        <translation>البطّاريّة</translation>
     </message>
     <message>
         <source>Bluetooth</source>
-        <translation>Bluetooth</translation>
+        <translation>بلوثوت</translation>
     </message>
     <message>
         <source>Wireless</source>
-        <translation>Langaton verkko</translation>
+        <translation>الشّبكة اللاسلكيّة</translation>
     </message>
     <message>
         <source>Ultra Wide Band</source>
-        <translation>Ultra-laajakaista</translation>
-    </message>
-    <message>
-        <source>Audio Repeat</source>
-        <translation>Toista uudelleen</translation>
-    </message>
-    <message>
-        <source>Audio Random Play</source>
-        <translation>Satunnainen soitto</translation>
-    </message>
-    <message>
-        <source>Subtitle</source>
-        <translation>Tekstityksen vaihto</translation>
-    </message>
-    <message>
-        <source>Audio Cycle Track</source>
-        <translation>Ääniraidan vaihto</translation>
-    </message>
-    <message>
-        <source>Time</source>
-        <translation>Aika</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation>Valitse</translation>
-    </message>
-    <message>
-        <source>View</source>
-        <translation>Näytä</translation>
-    </message>
-    <message>
-        <source>Top Menu</source>
-        <translation>Päävalikko</translation>
-    </message>
-    <message>
-        <source>Suspend</source>
-        <translation>Valmiustila</translation>
-    </message>
-    <message>
-        <source>Hibernate</source>
-        <translation>Lepotila</translation>
-    </message>
-    <message>
-        <source>Media Rewind</source>
-        <translation>Median takaisinkelaus</translation>
+        <translation>النّطاق العريض جدًّا</translation>
     </message>
     <message>
         <source>Media Fast Forward</source>
-        <translation>Median eteenpäinkelaus</translation>
+        <translation>تقديم الوسائط للأمام</translation>
+    </message>
+    <message>
+        <source>Audio Repeat</source>
+        <translation>تكرار الصّوت</translation>
+    </message>
+    <message>
+        <source>Audio Random Play</source>
+        <translation>تشغيل عشوائيّ للصّوت</translation>
+    </message>
+    <message>
+        <source>Subtitle</source>
+        <translation>التّرجمات</translation>
+    </message>
+    <message>
+        <source>Audio Cycle Track</source>
+        <translation>تبديل المقطوعة الصّوتيّة</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>الوقت</translation>
+    </message>
+    <message>
+        <source>Hibernate</source>
+        <translation>إسبات</translation>
+    </message>
+    <message>
+        <source>View</source>
+        <translation>المنظور</translation>
+    </message>
+    <message>
+        <source>Top Menu</source>
+        <translation>القائمة العلويّة</translation>
     </message>
     <message>
         <source>Power Down</source>
-        <translation>Sammutus</translation>
+        <translation>إطفاء</translation>
+    </message>
+    <message>
+        <source>Suspend</source>
+        <translation>تعليق</translation>
     </message>
     <message>
         <source>Microphone Mute</source>
-        <translation>Mikrofonin vaimennus</translation>
+        <translation>كتم الميكروفون</translation>
     </message>
     <message>
         <source>Red</source>
-        <translation>Punainen</translation>
+        <translation>الأحمر</translation>
     </message>
     <message>
         <source>Green</source>
-        <translation>Vihreä</translation>
+        <translation>الأخضر</translation>
     </message>
     <message>
         <source>Yellow</source>
-        <translation>Keltainen</translation>
+        <translation>الأصفر</translation>
     </message>
     <message>
         <source>Blue</source>
-        <translation>Sininen</translation>
+        <translation>الأزرق</translation>
     </message>
     <message>
         <source>Channel Up</source>
-        <translation>Seuraava kanava</translation>
+        <translation>رفع القناة</translation>
     </message>
     <message>
         <source>Channel Down</source>
-        <translation>Edellinen kanava</translation>
+        <translation>خفض القناة</translation>
     </message>
     <message>
         <source>Guide</source>
-        <translation>Opas</translation>
+        <translation>الدّليل</translation>
     </message>
     <message>
         <source>Info</source>
-        <translation>Info</translation>
+        <translation>معلومات</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation>Asetukset</translation>
+        <translation>الإعدادات</translation>
     </message>
     <message>
         <source>Microphone Volume Up</source>
-        <translation>Mikrofonin äänenvoimakkuuden lisäys</translation>
+        <translation>رفع صوت الميكروفون</translation>
     </message>
     <message>
         <source>Microphone Volume Down</source>
-        <translation>Mikrofonin äänenvoimakkuuden vähennys</translation>
+        <translation>خفض صوت الميكروفون</translation>
     </message>
     <message>
         <source>New</source>
-        <translation>Uusi</translation>
+        <translation>جديد</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Avaa</translation>
+        <translation>فتح</translation>
     </message>
     <message>
         <source>Find</source>
-        <translation>Etsi</translation>
+        <translation>بحث</translation>
     </message>
     <message>
         <source>Undo</source>
-        <translation>Kumoa</translation>
+        <translation>تراجع</translation>
     </message>
     <message>
         <source>Redo</source>
-        <translation>Tee uudelleen</translation>
+        <translation>إعادة</translation>
     </message>
     <message>
         <source>Print Screen</source>
-        <translation>Print Screen</translation>
+        <translation>طباعة الشّاشة</translation>
     </message>
     <message>
         <source>Page Up</source>
-        <translation>Page Up</translation>
+        <translation>صفحة لأعلى</translation>
     </message>
     <message>
         <source>Page Down</source>
-        <translation>Page Down</translation>
+        <translation>صفحة لأسفل</translation>
     </message>
     <message>
         <source>Caps Lock</source>
-        <translation>Caps Lock</translation>
+        <translation>قُفل حالة الأحرف</translation>
     </message>
     <message>
         <source>Num Lock</source>
-        <translation>Num Lock</translation>
+        <translation>قُفل الأرقام</translation>
     </message>
     <message>
         <source>Number Lock</source>
-        <translation>Number Lock</translation>
+        <translation>قُفل لوحة الأرقام</translation>
     </message>
     <message>
         <source>Scroll Lock</source>
-        <translation>Scroll Lock</translation>
+        <translation>قُفل التّمرير</translation>
     </message>
     <message>
         <source>Insert</source>
-        <translation>Insert</translation>
+        <translation>إدراج</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Delete</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <source>Escape</source>
-        <translation>Escape</translation>
+        <translation>هروب</translation>
     </message>
     <message>
         <source>System Request</source>
-        <translation>System Request</translation>
+        <translation>طلب النّظام</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>تحديد</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Kyllä</translation>
+        <translation>نعم</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Ei</translation>
+        <translation>لا</translation>
     </message>
     <message>
         <source>Context1</source>
-        <translation>Konteksti 1</translation>
+        <translation>سياق١</translation>
     </message>
     <message>
         <source>Context2</source>
-        <translation>Konteksti 2</translation>
+        <translation>سياق٢</translation>
     </message>
     <message>
         <source>Context3</source>
-        <translation>Konteksti 3</translation>
+        <translation>سياق٣</translation>
     </message>
     <message>
         <source>Context4</source>
-        <translation>Konteksti 4</translation>
+        <translation>سياق٤</translation>
     </message>
     <message>
         <source>Call</source>
         <extracomment>Button to start a call (note: a separate button is used to end the call)</extracomment>
-        <translation>Puhelu</translation>
+        <translation>مهاتفة</translation>
     </message>
     <message>
         <source>Hangup</source>
         <extracomment>Button to end a call (note: a separate button is used to start the call)</extracomment>
-        <translation>Lopetus</translation>
+        <translation>قطع المكالمة</translation>
     </message>
     <message>
         <source>Toggle Call/Hangup</source>
         <extracomment>Button that will hang up if we&apos;re in call, or make a call if we&apos;re not.</extracomment>
-        <translation>Puhelu/lopetus</translation>
+        <translation>تبديل المهاتفة/قطع المكالمة</translation>
     </message>
     <message>
         <source>Flip</source>
-        <translation>Kääntö</translation>
+        <translation>قلب</translation>
     </message>
     <message>
         <source>Voice Dial</source>
         <extracomment>Button to trigger voice dialing</extracomment>
-        <translation>Äänivalinta</translation>
+        <translation>مهاتفة صوتيّة</translation>
     </message>
     <message>
         <source>Last Number Redial</source>
         <extracomment>Button to redial the last number called</extracomment>
-        <translation>Viimeisen numeron uudelleenvalinta</translation>
+        <translation>إعادة مهاتفة آخر رقم</translation>
     </message>
     <message>
         <source>Camera Shutter</source>
         <extracomment>Button to trigger the camera shutter (take a picture)</extracomment>
-        <translation>Kameran suljin</translation>
+        <translation>غالِق الكمرة</translation>
     </message>
     <message>
         <source>Camera Focus</source>
         <extracomment>Button to focus the camera</extracomment>
-        <translation>Kameran polttopiste</translation>
+        <translation>تركيز الكمرة</translation>
     </message>
     <message>
         <source>Kanji</source>
-        <translation>Kanji</translation>
+        <translation>الكانجي</translation>
     </message>
     <message>
         <source>Muhenkan</source>
-        <translation>Muhenkan</translation>
+        <translation>الموهينكان</translation>
     </message>
     <message>
         <source>Henkan</source>
-        <translation>Henkan</translation>
+        <translation>الهينكان</translation>
     </message>
     <message>
         <source>Romaji</source>
-        <translation>Romaji</translation>
+        <translation>الرّومانجي</translation>
     </message>
     <message>
         <source>Hiragana</source>
-        <translation>Hiragana</translation>
+        <translation>الهيراغانا</translation>
     </message>
     <message>
         <source>Katakana</source>
-        <translation>Katakana</translation>
+        <translation>الكاتاكانا</translation>
     </message>
     <message>
         <source>Hiragana Katakana</source>
-        <translation>Hiragana Katakana</translation>
+        <translation>الهيراغانا الكاتاكانا</translation>
     </message>
     <message>
         <source>Zenkaku</source>
-        <translation>Zenkaku</translation>
+        <translation>الزّينكاكو</translation>
     </message>
     <message>
         <source>Hankaku</source>
-        <translation>Hankaku</translation>
+        <translation>الهانكاكو</translation>
     </message>
     <message>
         <source>Zenkaku Hankaku</source>
-        <translation>Zenkaku Hankaku</translation>
+        <translation>الزّينكاكو الهينكاكو</translation>
     </message>
     <message>
         <source>Touroku</source>
-        <translation>Touroku</translation>
+        <translation>التّوروكو</translation>
     </message>
     <message>
         <source>Massyo</source>
-        <translation>Massyo</translation>
+        <translation>الماسيو</translation>
     </message>
     <message>
         <source>Kana Lock</source>
-        <translation>Kana-lukitus</translation>
+        <translation>قُفل الكانا</translation>
     </message>
     <message>
         <source>Kana Shift</source>
-        <translation>Kana-vaihto</translation>
+        <translation>‏Shift الكانا</translation>
     </message>
     <message>
         <source>Eisu Shift</source>
-        <translation>Eisu-vaihto</translation>
+        <translation>‏Shift الإيسو</translation>
     </message>
     <message>
         <source>Eisu toggle</source>
-        <translation>Eisu-vuorottelu</translation>
+        <translation>تبديل الإيسو</translation>
     </message>
     <message>
         <source>Code input</source>
-        <translation>Koodisyöte</translation>
+        <translation>دخل الكود</translation>
     </message>
     <message>
         <source>Multiple Candidate</source>
-        <translation>Useita ehdokkaita</translation>
+        <translation>عدّة مرشَّحات</translation>
     </message>
     <message>
         <source>Previous Candidate</source>
-        <translation>Edellinen ehdokas</translation>
+        <translation>المرشَّح السّابق</translation>
     </message>
     <message>
         <source>Hangul</source>
-        <translation>Hangul</translation>
+        <translation>الهانغول</translation>
     </message>
     <message>
         <source>Hangul Start</source>
-        <translation>Hangul alku</translation>
+        <translation>بداية الهانغول</translation>
     </message>
     <message>
         <source>Hangul End</source>
-        <translation>Hangul loppu</translation>
+        <translation>نهاية الهانغول</translation>
     </message>
     <message>
         <source>Hangul Hanja</source>
-        <translation>Hangul Hanja</translation>
+        <translation>الهانغول الهانجا</translation>
     </message>
     <message>
         <source>Hangul Jamo</source>
-        <translation>Hangul Jamo</translation>
+        <translation>الهانغول الجامو</translation>
     </message>
     <message>
         <source>Hangul Romaja</source>
-        <translation>Hangul Romaja</translation>
+        <translation>الهانغول الرّوماجا</translation>
     </message>
     <message>
         <source>Hangul Jeonja</source>
-        <translation>Hangul Jeonja</translation>
+        <translation>الهانغول الجيونجا</translation>
     </message>
     <message>
         <source>Hangul Banja</source>
-        <translation>Hangul Banja</translation>
+        <translation>الهانغول البانجا</translation>
     </message>
     <message>
         <source>Hangul PreHanja</source>
-        <translation>Hangul Esi-Hanja</translation>
+        <translation>الهانغول ما قبل الهانجا</translation>
     </message>
     <message>
         <source>Hangul PostHanja</source>
-        <translation>Hangul Jälki-Hanja</translation>
+        <translation>الهانغول ما بعد الهانجا</translation>
     </message>
     <message>
         <source>Hangul Special</source>
-        <translation>Hangul erikoinen</translation>
+        <translation>الهانغول خاصّ</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Peru</translation>
+        <translation>إلغاء</translation>
     </message>
     <message>
         <source>Printer</source>
-        <translation>Tulostin</translation>
+        <translation>الطّابعة</translation>
     </message>
     <message>
         <source>Execute</source>
-        <translation>Suorita</translation>
+        <translation>تنفيذ</translation>
     </message>
     <message>
         <source>Play</source>
-        <translation>Toista</translation>
+        <translation>تشغيل</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation>Lähennä</translation>
+        <translation>التّكبير</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>Poistu</translation>
+        <translation>خروج</translation>
     </message>
     <message>
         <source>Touchpad Toggle</source>
-        <translation>Kosketuslevy päälle/pois</translation>
+        <translation>تبديل لوحة اللمس</translation>
     </message>
     <message>
         <source>Touchpad On</source>
-        <translation>Kosketuslevy päälle</translation>
+        <translation>تفعيل لوحة اللمس</translation>
     </message>
     <message>
         <source>Touchpad Off</source>
-        <translation>Kosketuslevy pois</translation>
+        <translation>تعطيل لوحة اللمس</translation>
     </message>
     <message>
         <source>Ctrl</source>
@@ -5712,7 +5730,7 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>Shift</source>
-        <translation>Vaihto</translation>
+        <translation>Shift</translation>
     </message>
     <message>
         <source>Alt</source>
@@ -5728,7 +5746,7 @@ Poista toinen niistä käytöstä.</translation>
     </message>
     <message>
         <source>+</source>
-        <translation>+</translation>
+        <translation></translation>
     </message>
     <message>
         <source>F%1</source>
@@ -5739,59 +5757,59 @@ Poista toinen niistä käytöstä.</translation>
     <name>QSocks5SocketEngine</name>
     <message>
         <source>Connection to proxy refused</source>
-        <translation>Välityspalvelinyhteys torjuttu</translation>
+        <translation>رُفض الاتّصال بالوكيل</translation>
     </message>
     <message>
         <source>Connection to proxy closed prematurely</source>
-        <translation>Yhteys välityspalvelimeen katkesi ennenaikaisesti</translation>
+        <translation>أُغلق الاتّصال بالمضيف البعيد نهائيًّا</translation>
     </message>
     <message>
         <source>Proxy host not found</source>
-        <translation>Välityspalvelinta ei löytynyt</translation>
+        <translation>لم يُعثر على مضيف الوكيل</translation>
     </message>
     <message>
         <source>Connection to proxy timed out</source>
-        <translation>Välityspalvelinyhteyden aikakatkaisu</translation>
+        <translation>انتهت مهلة الاتّصال بالوكيل</translation>
     </message>
     <message>
         <source>Proxy authentication failed</source>
-        <translation>Välityspalvelimen todentaminen epäonnistui</translation>
+        <translation>فشل الاستيثاق مع الوكيل</translation>
     </message>
     <message>
         <source>Proxy authentication failed: %1</source>
-        <translation>Välityspalvelimen todentaminen epäonnistui: %1</translation>
+        <translation>فشل الاستيثاق مع الوكيل: %1</translation>
     </message>
     <message>
         <source>SOCKS version 5 protocol error</source>
-        <translation>SOCKS versio 5 -protokollavirhe</translation>
+        <translation>خطأ في ميفاق SOCKS الإصدارة 5</translation>
     </message>
     <message>
         <source>General SOCKSv5 server failure</source>
-        <translation>Yleinen SOCKSv5-palvelinvirhe</translation>
+        <translation>فشل خادوم SOCKSv5 عامّ</translation>
     </message>
     <message>
         <source>Connection not allowed by SOCKSv5 server</source>
-        <translation>SOCKSv5-palvelin ei salli yhteyttä</translation>
+        <translation>خادوم SOCKS بالإصدارة الخامسة لا يسمح بالاتّصال</translation>
     </message>
     <message>
         <source>TTL expired</source>
-        <translation>TTL vanheni</translation>
+        <translation>انتهت صلاحيّة TTL</translation>
     </message>
     <message>
         <source>SOCKSv5 command not supported</source>
-        <translation>SOCKSv5-komentoa ei tueta</translation>
+        <translation>أمر SOCKSv5 غير مدعوم</translation>
     </message>
     <message>
         <source>Address type not supported</source>
-        <translation>Osoitteen tyyppiä ei tueta</translation>
+        <translation>نوع العنوان غير مدعوم</translation>
     </message>
     <message>
         <source>Unknown SOCKSv5 proxy error code 0x%1</source>
-        <translation>Tuntematon SOCKSv5-välityspalvelimen virhekoodi 0x%1</translation>
+        <translation>رمز خطأ وكيل SOCKSv5 مجهول 0x%1</translation>
     </message>
     <message>
         <source>Network operation timed out</source>
-        <translation>Verkkotoiminnon aikakatkaisu</translation>
+        <translation>انتهت مهلة العمليّة الشّبكيّة</translation>
     </message>
 </context>
 <context>
@@ -5799,868 +5817,864 @@ Poista toinen niistä käytöstä.</translation>
     <message>
         <source>invalid role</source>
         <extracomment>Role of an accessible object - the object is in an invalid state or could not be constructed</extracomment>
-        <translation>virheellinen rooli</translation>
+        <translation>دور غير صالح</translation>
     </message>
     <message>
         <source>title bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>otsikkopalkki</translation>
+        <translation>شريط عنوان</translation>
     </message>
     <message>
         <source>menu bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>valikkorivi</translation>
+        <translation>شريط قوائم</translation>
     </message>
     <message>
         <source>scroll bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>vierityspalkki</translation>
+        <translation>شريط تمرير</translation>
     </message>
     <message>
         <source>grip</source>
         <extracomment>Role of an accessible object - the grip is usually used for resizing another object</extracomment>
-        <translation>koonmuutoskahva</translation>
+        <translation>مقبض</translation>
     </message>
     <message>
         <source>sound</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ääni</translation>
+        <translation>صوت</translation>
     </message>
     <message>
         <source>cursor</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>osoitin</translation>
+        <translation>مؤشّر</translation>
     </message>
     <message>
         <source>text caret</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>tekstikohdistin</translation>
+        <translation>مؤشّر النّصّ</translation>
     </message>
     <message>
         <source>alert message</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>viesti</translation>
-    </message>
-    <message>
-        <source>filler</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation>täyte</translation>
-    </message>
-    <message>
-        <source>popup menu</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation>kontekstivalikko</translation>
-    </message>
-    <message>
-        <source>menu item</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation>valikkokohta</translation>
-    </message>
-    <message>
-        <source>tool tip</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation>työkaluvihje</translation>
-    </message>
-    <message>
-        <source>application</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation>sovellus</translation>
-    </message>
-    <message>
-        <source>document</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation>tiedosto</translation>
-    </message>
-    <message>
-        <source>panel</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation>paneeli</translation>
-    </message>
-    <message>
-        <source>chart</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation>kaavio</translation>
-    </message>
-    <message>
-        <source>dialog</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation>valintaikkuna</translation>
+        <translation>رسالة تحذير</translation>
     </message>
     <message>
         <source>frame</source>
         <extracomment>Role of an accessible object: a window with frame and title
 ----------
 Role of an accessible object</extracomment>
-        <translation>kehys</translation>
+        <translation>إطار</translation>
+    </message>
+    <message>
+        <source>filler</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>مالئ</translation>
+    </message>
+    <message>
+        <source>popup menu</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>قائمة منبثقة</translation>
+    </message>
+    <message>
+        <source>menu item</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>عنصر قائمة</translation>
+    </message>
+    <message>
+        <source>tool tip</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>تلميحة</translation>
+    </message>
+    <message>
+        <source>application</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>تطبيق</translation>
+    </message>
+    <message>
+        <source>document</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>مستند</translation>
+    </message>
+    <message>
+        <source>panel</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>لوحة</translation>
+    </message>
+    <message>
+        <source>chart</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>رسم بيانيّ</translation>
+    </message>
+    <message>
+        <source>dialog</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>حواريّ</translation>
     </message>
     <message>
         <source>separator</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>erotin</translation>
+        <translation>فاصل</translation>
     </message>
     <message>
         <source>tool bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>työkalurivi</translation>
+        <translation>شريط أدوات</translation>
     </message>
     <message>
         <source>status bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>tilarivi</translation>
+        <translation>شريط حالة</translation>
     </message>
     <message>
         <source>table</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>taulukko</translation>
+        <translation>جدول</translation>
     </message>
     <message>
         <source>column header</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>sarakkeen otsikko</translation>
+        <translation>ترويسة أعمدة</translation>
     </message>
     <message>
         <source>row header</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>rivin otsikko</translation>
+        <translation>ترويسة صفوف</translation>
     </message>
     <message>
         <source>column</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>sarake</translation>
+        <translation>عمود</translation>
     </message>
     <message>
         <source>row</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>rivi</translation>
+        <translation>صفّ</translation>
     </message>
     <message>
         <source>cell</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>solu</translation>
+        <translation>خليّة</translation>
     </message>
     <message>
         <source>link</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>linkki</translation>
+        <translation>وصلة</translation>
     </message>
     <message>
         <source>help balloon</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ohje</translation>
+        <translation>فقّاعة المساعدة</translation>
     </message>
     <message>
         <source>assistant</source>
         <extracomment>Role of an accessible object - a helper dialog</extracomment>
-        <translation>opastettu toiminto</translation>
+        <translation>المُساعد</translation>
     </message>
     <message>
         <source>list</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>luettelo</translation>
+        <translation>قائمة</translation>
     </message>
     <message>
         <source>list item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>luettelokohta</translation>
+        <translation>عنصر قائمة</translation>
     </message>
     <message>
         <source>tree</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>puu</translation>
+        <translation>شجرة</translation>
     </message>
     <message>
         <source>tree item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>puukohta</translation>
+        <translation>عنصر شجرة</translation>
     </message>
     <message>
         <source>page tab</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>sivuvälilehti</translation>
+        <translation>صفحة لسان</translation>
     </message>
     <message>
         <source>property page</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ominaisuussivu</translation>
+        <translation>صفحة خصائص</translation>
     </message>
     <message>
         <source>indicator</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ilmaisin</translation>
+        <translation>مؤشّر</translation>
     </message>
     <message>
         <source>graphic</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>graafinen elementti</translation>
+        <translation>رسم</translation>
     </message>
     <message>
         <source>label</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>nimike</translation>
+        <translation>لصيقة</translation>
     </message>
     <message>
         <source>text</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>teksti</translation>
+        <translation>نصّ</translation>
     </message>
     <message>
         <source>push button</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>painike</translation>
+        <translation>زرّ</translation>
     </message>
     <message>
         <source>check box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>valintaruutu</translation>
+        <translation>مربّع تأشير</translation>
     </message>
     <message>
         <source>radio button</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>valintanappi</translation>
+        <translation>زرّ راديو</translation>
     </message>
     <message>
         <source>combo box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>yhdistelmäruutu</translation>
+        <translation>مربّع منسدل</translation>
     </message>
     <message>
         <source>progress bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>edistymispalkki</translation>
+        <translation>شريط تقدّم</translation>
     </message>
     <message>
         <source>dial</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>säätönuppi</translation>
+        <translation>قرص ساعة</translation>
     </message>
     <message>
         <source>hotkey field</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>pikanäppäinkenttä</translation>
+        <translation>حقل لمفتاح سريع</translation>
     </message>
     <message>
         <source>slider</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>liukusäädin</translation>
+        <translation>منزلقة</translation>
     </message>
     <message>
         <source>spin box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>askellusruutu</translation>
+        <translation>مربّع دوّار</translation>
     </message>
     <message>
         <source>canvas</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>kangas</translation>
+        <translation>رقعة رسم</translation>
     </message>
     <message>
         <source>animation</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>animaatio</translation>
+        <translation>حركة</translation>
     </message>
     <message>
         <source>equation</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>yhtälö</translation>
+        <translation>معادلة</translation>
     </message>
     <message>
         <source>button with drop down</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>avattava painike</translation>
+        <translation>زرّ بقائمة منسدلة</translation>
     </message>
     <message>
         <source>button menu</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>valikkopainike</translation>
+        <translation>زرّ قائمة</translation>
     </message>
     <message>
         <source>button with drop down grid</source>
         <extracomment>Role of an accessible object - a button that expands a grid.</extracomment>
-        <translation>ruudukon avaava painike</translation>
+        <translation>زرّ بشبكة منسدلة</translation>
     </message>
     <message>
         <source>space</source>
         <extracomment>Role of an accessible object - blank space between other objects.</extracomment>
-        <translation>tyhjä tila</translation>
+        <translation>مسافة</translation>
     </message>
     <message>
         <source>page tab list</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>sivuvälilehtien luettelo</translation>
+        <translation>قائمة ألسنة صفحات</translation>
     </message>
     <message>
         <source>clock</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>kello</translation>
+        <translation>ساعة</translation>
     </message>
     <message>
         <source>splitter</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>jakopalkki</translation>
+        <translation>قاسِم</translation>
     </message>
     <message>
         <source>layered pane</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>kerrospaneeli</translation>
+        <translation>لوحة مسطّحة</translation>
     </message>
     <message>
         <source>web document</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>verkkodokumentti</translation>
+        <translation>مستند وبّ</translation>
     </message>
     <message>
         <source>paragraph</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>tekstikappale</translation>
+        <translation>فقرة</translation>
     </message>
     <message>
         <source>section</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>osa</translation>
+        <translation>قسم</translation>
     </message>
     <message>
         <source>color chooser</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>värivalitsin</translation>
+        <translation>مُنتقي الألوان</translation>
     </message>
     <message>
         <source>footer</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>alatunniste</translation>
+        <translation>تذييل</translation>
     </message>
     <message>
         <source>form</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>lomake</translation>
+        <translation>نموذج</translation>
     </message>
     <message>
         <source>heading</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>otsikko</translation>
+        <translation>ترويسة</translation>
     </message>
     <message>
         <source>note</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>huomio</translation>
+        <translation>ملاحظة</translation>
     </message>
     <message>
         <source>complementary content</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>täydentävä sisältö</translation>
+        <translation>محتوًى مكمّل</translation>
     </message>
     <message>
         <source>unknown</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>tuntematon</translation>
+        <translation>مجهول</translation>
     </message>
 </context>
 <context>
     <name>QSslDiffieHellmanParameter</name>
     <message>
         <source>No error</source>
-        <translation>Ei virhettä</translation>
+        <translation>لا أخطاء</translation>
     </message>
     <message>
         <source>Invalid input data</source>
-        <translation>Virheelliset syötetiedot</translation>
+        <translation>بيانات الدّخل غير صالحة</translation>
     </message>
     <message>
         <source>The given Diffie-Hellman parameters are deemed unsafe</source>
-        <translation>Annetut Diffie-Hellman-parametrit katsotaan turvattomiksi</translation>
+        <translation>يُظنّ أنّ معاملات Diffie-Hellman المعطاة غير آمنة</translation>
     </message>
 </context>
 <context>
     <name>QSslSocket</name>
     <message>
         <source>Error when setting the elliptic curves (%1)</source>
-        <translation>Virhe asetettaessa elliptisiä käyriä (%1)</translation>
+        <translation>خطأ في ضبط منحنيات الإهليلجيّ (%1)</translation>
     </message>
     <message>
         <source>Error creating SSL context (%1)</source>
-        <translation>Virhe luotaessa SSL-kontekstia (%1)</translation>
+        <translation>خطأ في إنشاء سياق SSL ‏(%1)</translation>
     </message>
     <message>
         <source>unsupported protocol</source>
-        <translation>protokollaa ei tueta</translation>
+        <translation>ميفاق غير مدعوم</translation>
     </message>
     <message>
         <source>Invalid or empty cipher list (%1)</source>
-        <translation>Virheellinen tai tyhjä salausluettelo (%1)</translation>
+        <translation>قائمة الشّفرات فارغة أو غير صالحة (%1)</translation>
     </message>
     <message>
         <source>Cannot provide a certificate with no key, %1</source>
-        <translation>Avaimetonta varmennetta ei voida tarjota, %1</translation>
+        <translation>لا يمكن توفير شهادة دون مفتاح، %1</translation>
     </message>
     <message>
         <source>Error loading local certificate, %1</source>
-        <translation>Virhe ladattaessa paikallista varmennetta, %1</translation>
+        <translation>خطأ في تحميل الشّهادة المحليّة، %1</translation>
     </message>
     <message>
         <source>Error loading private key, %1</source>
-        <translation>Virhe ladattaessa yksityistä avainta, %1</translation>
+        <translation>خطأ في تحميل المفتاح الخاصّ، %1</translation>
     </message>
     <message>
         <source>Private key does not certify public key, %1</source>
-        <translation>Yksityinen avain ei varmenna julkista avainta, %1</translation>
+        <translation>لا يؤكّد المفتاح الخاصّ المفتاحَ العامّ، %1</translation>
     </message>
     <message>
         <source>Diffie-Hellman parameters are not valid</source>
-        <translation>Diffie-Hellman-parametrit eivät ole kelvolliset</translation>
-    </message>
-    <message>
-        <source>OpenSSL version with disabled elliptic curves</source>
-        <translation>OpenSSL:ssä ei ole elliptisten käyrien tukea</translation>
+        <translation>معاملات Diffie-Hellman غير صالحة</translation>
     </message>
     <message>
         <source>OpenSSL version too old, need at least v1.0.2</source>
-        <translation>OpenSSL-versio on liian vanha; tarvitaan vähintään v1.0.2</translation>
+        <translation>إصدارة OpenSSL قديمة جدًّا، تحتاج ١٫٠٫٢ على الأقلّ</translation>
     </message>
     <message>
         <source>No error</source>
-        <translation>Ei virhettä</translation>
+        <translation>لا أخطاء</translation>
     </message>
     <message>
         <source>The issuer certificate could not be found</source>
-        <translation>Varmenteen myöntäjää ei löydetty</translation>
+        <translation>تعذّر العثور على شهادة المُصدِر</translation>
     </message>
     <message>
         <source>The certificate signature could not be decrypted</source>
-        <translation>Varmenteen allekirjoituksen purkaminen epäonnistui</translation>
+        <translation>تعذّر فكّ تعمية توقيع الشّهادة</translation>
     </message>
     <message>
         <source>The public key in the certificate could not be read</source>
-        <translation>Varmenteen julkisen avaimen lukeminen epäonnistui</translation>
+        <translation>تعذّرت قراءة المفتاح العموميّ في الشّهادة</translation>
     </message>
     <message>
         <source>The signature of the certificate is invalid</source>
-        <translation>Varmenteen allekirjoitus on virheellinen</translation>
+        <translation>توقيع الشّهادة غير صالح</translation>
     </message>
     <message>
         <source>The certificate is not yet valid</source>
-        <translation>Varmenne ei ole vielä voimassa</translation>
+        <translation>الشّهادة غير صالحة بعد</translation>
     </message>
     <message>
         <source>The certificate has expired</source>
-        <translation>Varmenne on vanhentunut</translation>
+        <translation>انتهت صلاحيّة الشّهادة</translation>
     </message>
     <message>
         <source>The certificate&apos;s notBefore field contains an invalid time</source>
-        <translation>Varmenteen notBefore-kentässä on virheellinen aika</translation>
+        <translation>في حقل ”ليس قبل“ للشّهادة وقت غير صالح</translation>
     </message>
     <message>
         <source>The certificate&apos;s notAfter field contains an invalid time</source>
-        <translation>Varmenteen notAfter-kentässä on virheellinen aika</translation>
+        <translation>في حقل ”ليس بعد“ للشّهادة وقت غير صالح</translation>
     </message>
     <message>
         <source>The certificate is self-signed, and untrusted</source>
-        <translation>Varmenne allekirjoittaa itsensä eikä ole luotettava</translation>
+        <translation>الشّهادة موقّعة ذاتيًّا وغير موثوقة</translation>
     </message>
     <message>
         <source>The root certificate of the certificate chain is self-signed, and untrusted</source>
-        <translation>Varmenneketjun juurivarmenne allekirjoittaa itsensä eikä ole luotettava</translation>
+        <translation>الشّهادة الجذر لسلسلة الشّهادات موقّعة ذاتيًّا وغير موثوقة</translation>
     </message>
     <message>
         <source>The issuer certificate of a locally looked up certificate could not be found</source>
-        <translation>Paikallisesti etsityn varmenteen myöntäjän varmennetta ei löytynyt</translation>
+        <translation>تعذّر العثور على شهادة المُصدِر لشهادة بُحث عنها محليًّا</translation>
     </message>
     <message>
         <source>No certificates could be verified</source>
-        <translation>Varmenteita ei voitu varmentaa</translation>
+        <translation>تعذّر التّحقّق من أيّ شهادة</translation>
     </message>
     <message>
         <source>One of the CA certificates is invalid</source>
-        <translation>Yksi CA-varmenteista on virheellinen</translation>
+        <translation>إحدى شهادات سلطة الشّهادات غير صالحة</translation>
     </message>
     <message>
         <source>The basicConstraints path length parameter has been exceeded</source>
-        <translation>basicConstraints-kansiopolun pituusparametri on ylitetty</translation>
+        <translation>تُخطّي معامل طول مسار ”القيود الأساسيّة“</translation>
     </message>
     <message>
         <source>The supplied certificate is unsuitable for this purpose</source>
-        <translation>Tarjottu varmenne ei kelpaa tähän tarkoitukseen</translation>
+        <translation>الشّهادة المقدّمة ليست مناسبة لهذا الغرض</translation>
     </message>
     <message>
         <source>The root CA certificate is not trusted for this purpose</source>
-        <translation>Juuri-CA-varmenne ei ole luotettu tähän tarkoitukseen</translation>
+        <translation>شهادة سلطة الشّهادات الجذر ليس موثوقة لهذا الغرض</translation>
     </message>
     <message>
         <source>The root CA certificate is marked to reject the specified purpose</source>
-        <translation>Juuri-CA-varmenne on merkitty hylkäämään tämä käyttötarkoitus</translation>
+        <translation>شهادة سلطة الشّهادات الجذر موسومة لرفض الغرض المطلوب</translation>
     </message>
     <message>
         <source>The current candidate issuer certificate was rejected because its subject name did not match the issuer name of the current certificate</source>
-        <translation>Varmenteen uusi ehdokas sen myöntäjäksi on evätty, koska annettu nimi ei täsmää varmentajan tämän hetkisen myöntäjän nimeen</translation>
+        <translation>رُفضت شهادة المُصدِر المرشّحة الحاليّة لأنّ اسم الموضوع لم يطابق اسم مُصدِر الشّهادة الحاليّة</translation>
     </message>
     <message>
         <source>The current candidate issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate</source>
-        <translation>Varmenteen uusi ehdokas sen myöntäjäksi on evätty, koska annettu nimi ja sarjanumero olivat mukana ja eivät täsmänneet tämän hetkisen varmenteen haltijan avaimeen</translation>
+        <translation>رُفضت شهادة المُصدِر المرشّحة الحاليّة لأنّ اسم المُصدِر والرّقم التّسلسليّ كانا موجودين ولكن لم يطابقان معرّف سلطة الشّهادة الحاليّة</translation>
     </message>
     <message>
         <source>The peer did not present any certificate</source>
-        <translation>Vertainen ei esittänyt varmenteita</translation>
+        <translation>لم يقدّم النّدّ أيّ شهادة</translation>
     </message>
     <message>
         <source>The host name did not match any of the valid hosts for this certificate</source>
-        <translation>Konenimi ei vastannut varmenteen voimassa olevia konenimiä</translation>
+        <translation>لم يطابق اسم المضيف أيّ مضيف صالح لهذه الشّهادة</translation>
     </message>
     <message>
         <source>The peer certificate is blacklisted</source>
-        <translation>Vertaisvarmenne on mustalla listalla</translation>
+        <translation>شهادة النّدّ في القائمة السّوداء</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Tuntematon virhe</translation>
-    </message>
-    <message>
-        <source>Error creating SSL session, %1</source>
-        <translation>Virhe luotaessa SSL-istuntoa, %1</translation>
-    </message>
-    <message>
-        <source>Error creating SSL session: %1</source>
-        <translation>Virhe luotaessa SSL-istuntoa: %1</translation>
-    </message>
-    <message>
-        <source>Unable to init SSL Context: %1</source>
-        <translation>SSL-kontekstin alustaminen epäonnistui: %1</translation>
-    </message>
-    <message>
-        <source>Unable to write data: %1</source>
-        <translation>Kirjoitusvirhe: %1</translation>
-    </message>
-    <message>
-        <source>Unable to decrypt data: %1</source>
-        <translation>Datan salauksen purkaminen epäonnistui: %1</translation>
+        <translation>خطأ مجهول</translation>
     </message>
     <message>
         <source>The TLS/SSL connection has been closed</source>
-        <translation>TLS/SSL-yhteys on suljettu</translation>
+        <translation>أُغلق اتّصال TLS/SSL</translation>
+    </message>
+    <message>
+        <source>Error creating SSL session, %1</source>
+        <translation>خطأ في إنشاء جلسة SSL،‏ %1</translation>
+    </message>
+    <message>
+        <source>Error creating SSL session: %1</source>
+        <translation>خطأ في إنشاء جلسة SSL: ‏%1</translation>
+    </message>
+    <message>
+        <source>Unable to init SSL Context: %1</source>
+        <translation>تعذّر إنشاء سياق SSL: ‏%1</translation>
+    </message>
+    <message>
+        <source>Unable to write data: %1</source>
+        <translation>تعذّرت كتابة البيانات: %1</translation>
+    </message>
+    <message>
+        <source>Unable to decrypt data: %1</source>
+        <translation>تعذّر فكّ تعمية البيانات: %1</translation>
     </message>
     <message>
         <source>Error while reading: %1</source>
-        <translation>Virhe luettaessa: %1</translation>
+        <translation>خطأ أثناء القراءة: %1</translation>
     </message>
     <message>
         <source>Error during SSL handshake: %1</source>
-        <translation>Virhe SSL-kättelyssä: %1</translation>
+        <translation>خطأ أثناء مصافحة SSL: ‏%1</translation>
     </message>
 </context>
 <context>
     <name>QStandardPaths</name>
     <message>
         <source>Desktop</source>
-        <translation>Työpöytä</translation>
+        <translation>سطح المكتب</translation>
     </message>
     <message>
         <source>Documents</source>
-        <translation>Tiedostot</translation>
+        <translation>المستندات</translation>
     </message>
     <message>
         <source>Fonts</source>
-        <translation>Fontit</translation>
+        <translation>الخطوط</translation>
     </message>
     <message>
         <source>Applications</source>
-        <translation>Sovellukset</translation>
+        <translation>التّطبيقات</translation>
     </message>
     <message>
         <source>Music</source>
-        <translation>Musiikki</translation>
+        <translation>الموسيقى</translation>
     </message>
     <message>
         <source>Movies</source>
-        <translation>Elokuvat</translation>
+        <translation>الأفلام</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>Kuvat</translation>
+        <translation>الصّور</translation>
     </message>
     <message>
         <source>Temporary Directory</source>
-        <translation>Väliaikaiskansio</translation>
+        <translation>الدّليل المؤقّت</translation>
     </message>
     <message>
         <source>Home</source>
-        <translation>Koti</translation>
-    </message>
-    <message>
-        <source>Application Data</source>
-        <translation>Sovellusten data</translation>
-    </message>
-    <message>
-        <source>Application Configuration</source>
-        <translation>Sovellusten asetukset</translation>
+        <translation>المنزل</translation>
     </message>
     <message>
         <source>Cache</source>
-        <translation>Välimuisti</translation>
+        <translation>الخبيئة</translation>
     </message>
     <message>
         <source>Shared Data</source>
-        <translation>Jaettu data</translation>
+        <translation>البيانات المشتركة</translation>
     </message>
     <message>
         <source>Runtime</source>
-        <translation>Ajonaikaiset</translation>
+        <translation>زمن التّشغيل</translation>
     </message>
     <message>
         <source>Configuration</source>
-        <translation>Asetukset</translation>
+        <translation>الضّبط</translation>
     </message>
     <message>
         <source>Shared Configuration</source>
-        <translation>Jaetut asetukset</translation>
+        <translation>الضّبط المشترك</translation>
     </message>
     <message>
         <source>Shared Cache</source>
-        <translation>Jaettu välimuisti</translation>
+        <translation>الخبيئة المشتركة</translation>
     </message>
     <message>
         <source>Download</source>
-        <translation>Lataukset</translation>
+        <translation>التّنزيلات</translation>
+    </message>
+    <message>
+        <source>Application Data</source>
+        <translation>بيانات التّطبيقات</translation>
+    </message>
+    <message>
+        <source>Application Configuration</source>
+        <translation>ضبط التّطبيقات</translation>
     </message>
 </context>
 <context>
     <name>QStateMachine</name>
     <message>
         <source>Missing initial state in compound state &apos;%1&apos;</source>
-        <translation>Lähtötila puuttuu yhdistelmätilasta ”%1”</translation>
+        <translation>الحالة الأوّليّة للحالة المركّبة ’%1‘ ناقصة</translation>
     </message>
     <message>
         <source>Missing default state in history state &apos;%1&apos;</source>
-        <translation>Oletustila puuttuu historiatilasta ”%1”</translation>
+        <translation>الحالة الافتراضيّة ناقصة في تأريخ الحالات ’%1‘</translation>
     </message>
     <message>
         <source>No common ancestor for targets and source of transition from state &apos;%1&apos;</source>
-        <translation>Ei yhteistä edeltäjää kohteille ja lähteille siirtyessä tilasta ”%1”</translation>
+        <translation>لا سلف عام لأهداف الانتقال من الحالة ’%1‘ ومصادره</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Tuntematon virhe</translation>
+        <translation>خطأ مجهول</translation>
     </message>
 </context>
 <context>
     <name>QSystemSemaphore</name>
     <message>
         <source>%1: permission denied</source>
-        <translation>%1: ei käyttöoikeutta</translation>
+        <translation>‏%1: رُفض التّصريح</translation>
     </message>
     <message>
         <source>%1: already exists</source>
-        <translation>%1: on jo olemassa</translation>
+        <translation>‏%1: موجود بالفعل</translation>
     </message>
     <message>
         <source>%1: does not exist</source>
-        <translation>%1: ei ole olemassa</translation>
+        <translation>‏%1: غير موجود</translation>
     </message>
     <message>
         <source>%1: out of resources</source>
-        <translation>%1: resurssit loppu</translation>
+        <translation>‏%1: نفذت الموارد</translation>
     </message>
     <message>
         <source>%1: unknown error %2</source>
-        <translation>%1: tuntematon virhe %2</translation>
+        <translation>‏%1: الخطأ %2 مجهول</translation>
     </message>
 </context>
 <context>
     <name>QTDSDriver</name>
     <message>
         <source>Unable to open connection</source>
-        <translation>Yhteyden avaaminen epäonnistui</translation>
+        <translation>تعذّر فتح اتّصال</translation>
     </message>
     <message>
         <source>Unable to use database</source>
-        <translation>Tietokannan käyttäminen epäonnistui</translation>
+        <translation>تعذّر استخدام قاعدة البيانات</translation>
     </message>
 </context>
 <context>
     <name>QTabBar</name>
     <message>
         <source>Scroll Left</source>
-        <translation>Vieritä vasemmalle</translation>
+        <translation>مرّر لليسار</translation>
     </message>
     <message>
         <source>Scroll Right</source>
-        <translation>Vieritä oikealle</translation>
+        <translation>مرّر لليمين</translation>
     </message>
 </context>
 <context>
     <name>QTcpServer</name>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>Pistoketoimintoa ei tueta</translation>
+        <translation>العمليّة على المقبس غير مدعومة</translation>
     </message>
 </context>
 <context>
     <name>QTgaFile</name>
     <message>
         <source>Could not read image data</source>
-        <translation>Kuvadatan lukeminen epäonnistui</translation>
+        <translation>تعذّرت قراءة بيانات الصّورة</translation>
     </message>
     <message>
         <source>Sequential device (eg socket) for image read not supported</source>
-        <translation>Sarjalaitetta (esim. pistoketta) ei tueta kuvan lukemiseen</translation>
+        <translation>الأجهزة التّسلسليّة (مثل المقابس) لقراءة الصّور غير مدعومة</translation>
     </message>
     <message>
         <source>Seek file/device for image read failed</source>
-        <translation>Tiedostossa/laitteessa siirtyminen eri kohtaan kuvan lukemista varten epäonnistui</translation>
+        <translation>فشل سعي الملفّ/الجهاز لقراءة الصّورة</translation>
     </message>
     <message>
         <source>Image header read failed</source>
-        <translation>Kuvatiedoston alkuosan lukeminen epäonnistui</translation>
+        <translation>فشلت قراءة ترويسة الصّورة</translation>
     </message>
     <message>
         <source>Image type not supported</source>
-        <translation>Kuvatyyppiä ei tueta</translation>
+        <translation>نوع الصّورة غير مدعوم</translation>
     </message>
     <message>
         <source>Image depth not valid</source>
-        <translation>Kuvasyvyys ei ole kelvollinen</translation>
+        <translation>عمق الصّورة غير مدعوم</translation>
     </message>
     <message>
         <source>Could not seek to image read footer</source>
-        <translation>Siirtyminen eri kohtaan kuvan alatunnisteen lukemiseksi epäonnistui</translation>
+        <translation>تعذّر السّعيّ إلى ترويسة قراءة الصّورة</translation>
     </message>
     <message>
         <source>Could not read footer</source>
-        <translation>Alatunnisteen lukeminen epäonnistui</translation>
+        <translation>تعذّرت قراءة التّذييل</translation>
     </message>
     <message>
         <source>Image type (non-TrueVision 2.0) not supported</source>
-        <translation>Kuvatyyppiä (ei-TrueVision 2.0) ei tueta</translation>
+        <translation>نوع الصّورة (ليست تروفيرشن ٢٫٠) غير مدعوم</translation>
     </message>
     <message>
         <source>Could not reset to read data</source>
-        <translation>Nollaaminen luettuun dataan epäonnistui</translation>
+        <translation>تعذّر التّصفير لقراءة البيانات</translation>
     </message>
 </context>
 <context>
     <name>QUdpSocket</name>
     <message>
         <source>Unable to send a datagram</source>
-        <translation>Datagrammin lähetys epäonnistui</translation>
+        <translation>تعذّر إرسال مخطّط بيانات</translation>
     </message>
     <message>
         <source>No datagram available for reading</source>
-        <translation>Ei datagrammia luettavaksi</translation>
+        <translation>لا مخطّط بيانات لقراءته</translation>
     </message>
 </context>
 <context>
     <name>QUndoGroup</name>
     <message>
         <source>Undo %1</source>
-        <translation>Kumoa %1</translation>
+        <translation>تراجع عن %1</translation>
     </message>
     <message>
         <source>Undo</source>
         <comment>Default text for undo action</comment>
-        <translation>Kumoa</translation>
+        <translation>تراجع</translation>
     </message>
     <message>
         <source>Redo %1</source>
-        <translation>Tee %1 uudelleen</translation>
+        <translation>أعد %1</translation>
     </message>
     <message>
         <source>Redo</source>
         <comment>Default text for redo action</comment>
-        <translation>Tee uudelleen</translation>
+        <translation>أعد</translation>
     </message>
 </context>
 <context>
     <name>QUndoModel</name>
     <message>
         <source>&lt;empty&gt;</source>
-        <translation>&lt;tyhjä&gt;</translation>
+        <translation>&lt;فارغ&gt;</translation>
     </message>
 </context>
 <context>
     <name>QUndoStack</name>
     <message>
         <source>Undo %1</source>
-        <translation>Kumoa %1</translation>
+        <translation>تراجع عن %1</translation>
     </message>
     <message>
         <source>Undo</source>
         <comment>Default text for undo action</comment>
-        <translation>Kumoa</translation>
+        <translation>تراجع</translation>
     </message>
     <message>
         <source>Redo %1</source>
-        <translation>Tee %1 uudelleen</translation>
+        <translation>أعد %1</translation>
     </message>
     <message>
         <source>Redo</source>
         <comment>Default text for redo action</comment>
-        <translation>Tee uudelleen</translation>
+        <translation>أعد</translation>
     </message>
 </context>
 <context>
     <name>QUnicodeControlCharacterMenu</name>
     <message>
         <source>LRM Left-to-right mark</source>
-        <translation>Vasemmalta oikealle -merkki (LRM)</translation>
+        <translation>علامة يسار إلى يمين (LRM)</translation>
     </message>
     <message>
         <source>RLM Right-to-left mark</source>
-        <translation>Oikealta vasemmalle -merkki (RLM)</translation>
+        <translation>علامة يمين إلى يسار (RLM)</translation>
     </message>
     <message>
         <source>ZWJ Zero width joiner</source>
-        <translation>Nollaleveyksinen liitos (ZWJ)</translation>
+        <translation>واصل صفريّ العرض (ZWJ)</translation>
     </message>
     <message>
         <source>ZWNJ Zero width non-joiner</source>
-        <translation>Nollaleveyksinen ei-liitos (ZWNJ)</translation>
+        <translation>فاصل صفريّ العرض (ZWNJ)</translation>
     </message>
     <message>
         <source>ZWSP Zero width space</source>
-        <translation>Nollaleveyksinen välilyönti (ZWSP)</translation>
+        <translation>مسافة صفريّة العرض (ZWSP)</translation>
     </message>
     <message>
         <source>LRE Start of left-to-right embedding</source>
-        <translation>Vasemmalta oikealle -upotuksen alku (LRE)</translation>
+        <translation>بداية غرس يسار إلى يمين (LRE)</translation>
     </message>
     <message>
         <source>RLE Start of right-to-left embedding</source>
-        <translation>Oikealta vasemmalle -upotuksen alku (RLE)</translation>
+        <translation>بداية غرس يمين إلى يسار (RLE)</translation>
     </message>
     <message>
         <source>LRO Start of left-to-right override</source>
-        <translation>Vasemmalta oikealle -ohituksen alku (LRO)</translation>
+        <translation>بداية تخطّي يسار إلى يمين (LRO)</translation>
     </message>
     <message>
         <source>RLO Start of right-to-left override</source>
-        <translation>Oikealta vasemmalle -ohituksen alku (RLO)</translation>
+        <translation>بداية تخطّي يمين إلى يسار (RLO)</translation>
     </message>
     <message>
         <source>PDF Pop directional formatting</source>
-        <translation>Suunnan muotoilun lopetus (PDF)</translation>
+        <translation>أزل التّنسيق ثنائيّ الاتّجاه (PDF)</translation>
     </message>
     <message>
         <source>LRI Left-to-right isolate</source>
-        <translation>Vasemmalta oikealle eristys (LRI)</translation>
+        <translation>عزل يسار إلى يمين (LRI)</translation>
     </message>
     <message>
         <source>RLI Right-to-left isolate</source>
-        <translation>Oikealta vasemmalle eristys (RLI)</translation>
+        <translation>عزل يمين إلى يسار (RLI)</translation>
     </message>
     <message>
         <source>FSI First strong isolate</source>
-        <translation>Ensimmäinen vahva eristys (FSI)</translation>
+        <translation>عزل أول محرف قويّ (FSI)</translation>
     </message>
     <message>
         <source>PDI Pop directional isolate</source>
-        <translation>Suunnan eristyksen lopetus (PDI)</translation>
+        <translation>أزل العزل ثنائيّ الاتّجاه (PDF)</translation>
     </message>
     <message>
         <source>Insert Unicode control character</source>
-        <translation>Lisää Unicoden ohjausmerkki</translation>
+        <translation>أدرج محرف يونيكود تحكّميّ</translation>
     </message>
 </context>
 <context>
     <name>QWhatsThisAction</name>
     <message>
         <source>What&apos;s This?</source>
-        <translation>Mikä tämä on?</translation>
+        <translation>ما هذا؟</translation>
     </message>
 </context>
 <context>
@@ -6674,35 +6688,35 @@ Role of an accessible object</extracomment>
     <name>QWidgetTextControl</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;Kumoa</translation>
+        <translation>&amp;تراجع</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>Tee uu&amp;delleen</translation>
+        <translation>أ&amp;عد</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>L&amp;eikkaa</translation>
+        <translation>&amp;قصّ</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>K&amp;opioi</translation>
+        <translation>ا&amp;نسخ</translation>
     </message>
     <message>
         <source>Copy &amp;Link Location</source>
-        <translation>Kopioi li&amp;nkin osoite</translation>
+        <translation>انسخ و&amp;صلة المكان</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>&amp;Liitä</translation>
+        <translation>أل&amp;صق</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Poista</translation>
+        <translation>احذف</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Valitse kaikki</translation>
+        <translation>حدّد الكلّ</translation>
     </message>
 </context>
 <context>
@@ -6711,318 +6725,298 @@ Role of an accessible object</extracomment>
         <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
 
 The minimum Direct2D version required is %1.%2.%3.%4. The Direct2D version on this system is %5.%6.%7.%8.</source>
-        <translation>Qt ei voi ladata direct2d-alustaliitännäistä, koska järjestelmän Direct2D-versio on liian vanha. Tämä alustaliitännäinen vaatii vähintään Windows 7 SP 1:n Platform Updatella.
+        <translation>تعذّر على كيوت تحميل ملحقة المنصّة direct2d لأنّ إصدارة Direct2D في هذا النّظام قديمة جدًّا. النّظام المطلوب لملحقة المنصّة هذه هو على الأقل وندوز ٧ بحزمة الخدمات الأولى وتحديثات المنصّة.
 
-Direct2D-version vähimmäisvaatimus on %1.%2.%3.%4. Järjestelmän Direct2D-versio on %5.%6.%7.%8.</translation>
+إصدارة Direct2D الدّنيا المطلوبة هي %L1٫%L2٫%L3٫%L4. إصدارة Direct2D في هذا النّظام هي %L5٫%L6٫%L7٫%L8.</translation>
     </message>
     <message>
         <source>Cannot load direct2d platform plugin</source>
-        <translation>direct2d-alustaliitännäistä ei voida ladata</translation>
+        <translation>تعذّر تحميل ملحقة المنصّة direct2d</translation>
     </message>
 </context>
 <context>
     <name>QWizard</name>
     <message>
         <source>Go Back</source>
-        <translation>Takaisin</translation>
+        <translation>ارجع</translation>
     </message>
     <message>
         <source>&lt; &amp;Back</source>
-        <translation>&lt; E&amp;dellinen</translation>
+        <translation>&lt; ال&amp;سّابق</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation>Jatka</translation>
+        <translation>تابع</translation>
     </message>
     <message>
         <source>&amp;Next</source>
-        <translation>&amp;Seuraava</translation>
+        <translation>ال&amp;تّالي</translation>
     </message>
     <message>
         <source>&amp;Next &gt;</source>
-        <translation>&amp;Seuraava &gt;</translation>
+        <translation>ال&amp;تّالي &gt;</translation>
     </message>
     <message>
         <source>Commit</source>
-        <translation>Vahvista</translation>
+        <translation>أودع</translation>
     </message>
     <message>
         <source>Done</source>
-        <translation>Valmis</translation>
+        <translation>تمّ</translation>
     </message>
     <message>
         <source>&amp;Finish</source>
-        <translation>Valm&amp;is</translation>
+        <translation>أن&amp;هِ</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Peru</translation>
+        <translation>ألغِ</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Ohje</translation>
+        <translation>مساعدة</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>O&amp;hje</translation>
+        <translation>م&amp;ساعدة</translation>
     </message>
 </context>
 <context>
     <name>QXml</name>
     <message>
         <source>no error occurred</source>
-        <translation>ei virhettä</translation>
+        <translation>لم تحدث أخطاء</translation>
     </message>
     <message>
         <source>error triggered by consumer</source>
-        <translation>käyttäjä aiheutti virheen</translation>
+        <translation>خطأ حفّزه مستهلك</translation>
     </message>
     <message>
         <source>unexpected end of file</source>
-        <translation>odottamaton tiedoston loppu</translation>
+        <translation>توقّعتُ نهاية الملفّ</translation>
     </message>
     <message>
         <source>more than one document type definition</source>
-        <translation>enemmän kuin yksi dokumentin tyyppimääritys</translation>
+        <translation>أكثر من تعريف واحد لنوع المستند</translation>
     </message>
     <message>
         <source>error occurred while parsing element</source>
-        <translation>elementin jäsentäminen epäonnistui</translation>
+        <translation>حدث خطأ في تحليل العنصر</translation>
     </message>
     <message>
         <source>tag mismatch</source>
-        <translation>tunniste ei täsmää</translation>
+        <translation>الوسوم لا تتطابق</translation>
     </message>
     <message>
         <source>error occurred while parsing content</source>
-        <translation>sisällön jäsentäminen epäonnistui</translation>
+        <translation>حدث خطأ في تحليل المحتويات</translation>
     </message>
     <message>
         <source>unexpected character</source>
-        <translation>odottamaton merkki</translation>
+        <translation>محرف غير متوقّع</translation>
     </message>
     <message>
         <source>invalid name for processing instruction</source>
-        <translation>virheellinen prosessointikäskyn nimi</translation>
+        <translation>اسم غير صالح لتعليمة المعالجة</translation>
     </message>
     <message>
         <source>version expected while reading the XML declaration</source>
-        <translation>odotettiin versiota XML-esittelyä luettaessa</translation>
+        <translation>توقّعتُ الإصدارة أثناء قراءة تعريف XML</translation>
     </message>
     <message>
         <source>wrong value for standalone declaration</source>
-        <translation>väärä arvo standalone-esittelylle</translation>
+        <translation>قيمة خاطئة للتّعريف المستقلّ</translation>
     </message>
     <message>
         <source>encoding declaration or standalone declaration expected while reading the XML declaration</source>
-        <translation>odotettiin encoding-esittelyä tai standalone-esittelyä XML-esittelyä luettaessa</translation>
+        <translation>توقّعتُ تعريف التّرميز أو تعريفًا مستقلًا أثناء قراءة تعريف XML</translation>
     </message>
     <message>
         <source>standalone declaration expected while reading the XML declaration</source>
-        <translation>odotettiin standalone-esittelyä XML-esittelyä luettaessa</translation>
+        <translation>توقّعتُ تعريفًا مستقلًا أثناء قراءة تعريف XML</translation>
     </message>
     <message>
         <source>error occurred while parsing document type definition</source>
-        <translation>tapahtui virhe jäsennettäessä dokumentin tyyppimääritystä</translation>
+        <translation>حدث خطأ أثناء تحليل تعريف نوع المستند</translation>
     </message>
     <message>
         <source>letter is expected</source>
-        <translation>kirjainta odotetaan</translation>
+        <translation>توقّعتُ حرفًا</translation>
     </message>
     <message>
         <source>error occurred while parsing comment</source>
-        <translation>kommentin jäsentäminen epäonnistui</translation>
+        <translation>حدث خطأ أثناء تحليل التّعليق</translation>
     </message>
     <message>
         <source>error occurred while parsing reference</source>
-        <translation>viitteen jäsentäminen epäonnistui</translation>
+        <translation>حدث خطأ أثناء تحليل المرجع</translation>
     </message>
     <message>
         <source>internal general entity reference not allowed in DTD</source>
-        <translation>sisäistä yleistä entiteettiviittausta ei sallita DTD:ssä</translation>
+        <translation>لا يسمح DTD بمراجع الكيان العامّة الدّاخليّة</translation>
     </message>
     <message>
         <source>external parsed general entity reference not allowed in attribute value</source>
-        <translation>ulkoista jäsennettyä yleistä entiteettiviittausta ei sallita attribuutin arvossa</translation>
+        <translation>مراجع الكيانات العامّة المحلّلة خارجًا ليست مسموحة في قيم الخواصّ</translation>
     </message>
     <message>
         <source>external parsed general entity reference not allowed in DTD</source>
-        <translation>DTD ei salli ulkoista jäsennettyä yleistä entiteettiviittausta</translation>
+        <translation>لا يسمح DTD بمراجع الكيان العامّة المحلّلة خارجًا</translation>
     </message>
     <message>
         <source>unparsed entity reference in wrong context</source>
-        <translation>jäsentämätön entiteettiviittaus väärässä kontekstissa</translation>
+        <translation>مرجع كيان لم يُحلّل في سياق خاطئ</translation>
     </message>
     <message>
         <source>recursive entities</source>
-        <translation>rekursiivisia entiteettejä</translation>
+        <translation>كيانات تكراريّة</translation>
     </message>
     <message>
         <source>error in the text declaration of an external entity</source>
-        <translation>virhe ulkoisen entiteetin tekstiesittelyssä</translation>
+        <translation>خطأ في التّعريف النّصّيّ لكيان خارجيّ</translation>
     </message>
 </context>
 <context>
     <name>QXmlStream</name>
     <message>
         <source>Extra content at end of document.</source>
-        <translation>Ylimääräistä sisältöä dokumentin lopussa.</translation>
+        <translation>محتوًى إضافيّ نهاية المستند.</translation>
     </message>
     <message>
         <source>Invalid entity value.</source>
-        <translation>Virheellinen entiteetin arvo.</translation>
+        <translation>قيمة الكيان غير صالحة.</translation>
     </message>
     <message>
         <source>Invalid XML character.</source>
-        <translation>Virheellinen XML-merkki.</translation>
+        <translation>محرف XML غير صالح.</translation>
     </message>
     <message>
         <source>Sequence &apos;]]&gt;&apos; not allowed in content.</source>
-        <translation>Sekvenssiä ”]]&gt;” ei sallita sisällössä.</translation>
+        <translation>التّتابع ’‎]]&gt;‎‘ غير مسموح به في المحتوى.</translation>
     </message>
     <message>
         <source>Encountered incorrectly encoded content.</source>
-        <translation>Huomattiin väärin koodattua sisältöä.</translation>
+        <translation>واجهتُ محتوًى مرمّز بشكل خاطئ.</translation>
     </message>
     <message>
         <source>Namespace prefix &apos;%1&apos; not declared</source>
-        <translation>Nimiavaruuden etuliitettä ”%1” ei ole esitelty</translation>
+        <translation>سابقة نطاق الأسماء ’%1‘ لم تُعرّف</translation>
     </message>
     <message>
         <source>Illegal namespace declaration.</source>
-        <translation>Laiton nimiavaruuden esittely.</translation>
+        <translation>تعريف نطاق أسماء غير قانونيّ.</translation>
     </message>
     <message>
         <source>Attribute &apos;%1&apos; redefined.</source>
-        <translation>Attribuutti ”%1” määritelty uudelleen.</translation>
+        <translation>أُعيد تعريف الخاصّيّة ’%1‘.</translation>
     </message>
     <message>
         <source>Unexpected character &apos;%1&apos; in public id literal.</source>
-        <translation>Odottamaton merkki ”%1” julkisessa tunnisteliteraalissa.</translation>
+        <translation>المحرف ’%1‘ غير متوقّع حرفيًّا في معرّف عامّ.</translation>
     </message>
     <message>
         <source>Invalid XML version string.</source>
-        <translation>Virheellinen XML-versiomerkkijono.</translation>
+        <translation>سلسلة إصدارة XML غير صالحة.</translation>
     </message>
     <message>
         <source>Unsupported XML version.</source>
-        <translation>Tätä XML-versiota ei tueta.</translation>
+        <translation>إصدارة XML غير مدعومة.</translation>
     </message>
     <message>
         <source>The standalone pseudo attribute must appear after the encoding.</source>
-        <translation>Standalone-pseudoattribuutin on oltava encoding-attribuutin jälkeen.</translation>
+        <translation>خاصيّة pseudo المستقلّة يجب أن تظهر بعد التّرميز.</translation>
     </message>
     <message>
         <source>%1 is an invalid encoding name.</source>
-        <translation>%1 on virheellinen nimi koodaukselle.</translation>
+        <translation>%1 اسم ترميز غير صالح.</translation>
     </message>
     <message>
         <source>Encoding %1 is unsupported</source>
-        <translation>Koodausta %1 ei tueta</translation>
+        <translation>التّرميز %1 غير مدعوم</translation>
     </message>
     <message>
         <source>Standalone accepts only yes or no.</source>
-        <translation>Standalonen arvoksi kelpaa vain yes tai no.</translation>
+        <translation>يقبل خيار مستقلّ/Standalone قمتيّ نعم/yes ولا/no فقط.</translation>
     </message>
     <message>
         <source>Invalid attribute in XML declaration.</source>
-        <translation>Virheellinen attribuutti XML-esittelyssä.</translation>
+        <translation>خاصيّة غير صالحة في تعريف XML.</translation>
     </message>
     <message>
         <source>Premature end of document.</source>
-        <translation>Dokumentti loppui ennenaikaisesti.</translation>
+        <translation>انتهى المستند قبل أوانه.</translation>
     </message>
     <message>
         <source>Invalid document.</source>
-        <translation>Virheellinen dokumentti.</translation>
+        <translation>مستند غير صالح.</translation>
     </message>
     <message>
-        <source>&apos;%1&apos;</source>
-        <comment>expected</comment>
-        <extracomment>&apos;&lt;first option&gt;&apos;</extracomment>
-        <translation>”%1”</translation>
+        <source>Expected </source>
+        <translation>توقّعتُ </translation>
     </message>
     <message>
-        <source>%1 or &apos;%2&apos;</source>
-        <comment>expected</comment>
-        <extracomment>&lt;first option&gt;, &apos;&lt;second option&gt;&apos;</extracomment>
-        <translation>%1 tai ”%2”</translation>
+        <source>, but got &apos;</source>
+        <translation>، ولكنّي وجدتُ ’</translation>
     </message>
     <message>
-        <source>%1, &apos;%2&apos;</source>
-        <comment>expected</comment>
-        <extracomment>&lt;options so far&gt;, &apos;&lt;next option&gt;&apos;</extracomment>
-        <translation>%1, ”%2”</translation>
-    </message>
-    <message>
-        <source>%1, or &apos;%2&apos;</source>
-        <comment>expected</comment>
-        <extracomment>&lt;options so far&gt;, or &apos;&lt;final option&gt;&apos;</extracomment>
-        <translation>%1 tai ”%2”</translation>
-    </message>
-    <message>
-        <source>Expected %1, but got &apos;%2&apos;.</source>
-        <translation>Odotettiin %1, mutta saatiin ”%2”.</translation>
-    </message>
-    <message>
-        <source>Unexpected &apos;%1&apos;.</source>
-        <translation>Odottamaton ”%1”.</translation>
+        <source>Unexpected &apos;</source>
+        <translation>لم أتوقّع ’</translation>
     </message>
     <message>
         <source>Expected character data.</source>
-        <translation>Odotettiin merkkidataa.</translation>
+        <translation>توقّعتُ بيانات محرفيّة.</translation>
     </message>
     <message>
         <source>Recursive entity detected.</source>
-        <translation>Löydettiin rekursiivinen entiteetti.</translation>
+        <translation>اكتشفتُ كيانًا تكراريًّا.</translation>
     </message>
     <message>
         <source>Start tag expected.</source>
-        <translation>Odotettiin aloitustunnistetta.</translation>
+        <translation>توقّعتُ وسم بداية.</translation>
     </message>
     <message>
         <source>NDATA in parameter entity declaration.</source>
-        <translation>NDATA parametrientiteettiesittelyssä.</translation>
+        <translation>‏NDATA في تعريف كيان المعامل.</translation>
     </message>
     <message>
         <source>XML declaration not at start of document.</source>
-        <translation>XML-esittely ei ole dokumentin alussa.</translation>
+        <translation>تعريف XML ليس في بداية المستند.</translation>
     </message>
     <message>
         <source>%1 is an invalid processing instruction name.</source>
-        <translation>%1 on virheellinen prosessointikomennon nimi.</translation>
+        <translation>ليس %1 اسم تعليمة معالجة صالح.</translation>
     </message>
     <message>
         <source>Invalid processing instruction name.</source>
-        <translation>Virheellinen prosessointikomennon nimi.</translation>
+        <translation>اسم تعليمة معالجة غير صالح.</translation>
     </message>
     <message>
         <source>%1 is an invalid PUBLIC identifier.</source>
-        <translation>%1 on virheellinen PUBLIC-tunniste.</translation>
+        <translation>ليس %1 معرّف PUBLIC صالح.</translation>
     </message>
     <message>
         <source>Invalid XML name.</source>
-        <translation>Virheellinen XML-nimi.</translation>
+        <translation>اسم XML غير صالح.</translation>
     </message>
     <message>
         <source>Opening and ending tag mismatch.</source>
-        <translation>Aloitus- ja lopetustunnisteet eivät täsmää.</translation>
+        <translation>وسما البداية والإغلاق لا يتطابقان.</translation>
     </message>
     <message>
         <source>Entity &apos;%1&apos; not declared.</source>
-        <translation>Entiteettiä ”%1” ei ole esitelty.</translation>
+        <translation>لم يُعرّف الكيان ’%1‘.</translation>
     </message>
     <message>
         <source>Reference to unparsed entity &apos;%1&apos;.</source>
-        <translation>Viittaus jäsentämättömään entiteettiin ”%1”.</translation>
+        <translation>مرجع إلى كيان لم يُحلّل ’%1‘.</translation>
     </message>
     <message>
         <source>Reference to external entity &apos;%1&apos; in attribute value.</source>
-        <translation>Viittaus ulkoiseen entiteettiin ”%1” attribuutin arvossa.</translation>
+        <translation>مرجع إلى كيان خارجيّ ’%1‘ في قيمة خاصيّة.</translation>
     </message>
     <message>
         <source>Invalid character reference.</source>
-        <translation>Virheellinen merkkiviittaus.</translation>
+        <translation>مرجع محرفيّ غير صالح.</translation>
     </message>
 </context>
 </TS>

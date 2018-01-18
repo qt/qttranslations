@@ -1331,6 +1331,10 @@
 <context>
     <name>QQuickMouseEvent</name>
     <message>
+        <source>GestureEvent is only available in the context of handling the gestureStarted signal from MultiPointTouchArea</source>
+        <translation>GestureEvent is only available in the context of handling the gestureStarted signal from MultiPointTouchArea</translation>
+    </message>
+    <message>
         <source>MouseEvent is only available within handlers in MouseArea</source>
         <translation>MouseEvent is only available within handlers in MouseArea</translation>
     </message>
