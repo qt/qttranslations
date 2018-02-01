@@ -1782,6 +1782,13 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     </message>
 </context>
 <context>
+    <name>QDesignerTaskMenu</name>
+    <message>
+        <source>no signals available</source>
+        <translation>Es sind keine Signale vorhanden</translation>
+    </message>
+</context>
+<context>
     <name>QDesignerToolWindow</name>
     <message>
         <source>Property Editor</source>
@@ -5011,10 +5018,6 @@ Klasse: %2</translation>
     <message>
         <source>Go to slot...</source>
         <translation>Slot anzeigen...</translation>
-    </message>
-    <message>
-        <source>no signals available</source>
-        <translation>Es sind keine Signale vorhanden</translation>
     </message>
     <message numerus="yes">
         <source>Set size constraint on %n widget(s)</source>

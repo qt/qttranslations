@@ -32,10 +32,6 @@
         <translation>Beim Registrieren der Dokumentationsdatei &apos;%1&apos; trat ein Fehler auf: %2</translation>
     </message>
     <message>
-        <source>Error: %1</source>
-        <translation>Fehler: %1</translation>
-    </message>
-    <message>
         <source>Could not register documentation file
 %1
 
@@ -331,7 +327,9 @@ Grund:
                            file.
 -setCurrentFilter filter   Set the filter as the active filter.
 -remove-search-index       Removes the full text search index.
--rebuild-search-index      Re-builds the full text search index (potentially slow).
+-rebuild-search-index      Obsolete. Use -remove-search-index instead.
+                           Removes the full text search index.
+                           It will be rebuilt on next Assistant run.
 -quiet                     Does not display any error or
                            status message.
 -help                      Displays this help.
@@ -361,7 +359,9 @@ Grund:
                            file.
 -setCurrentFilter filter   Set the filter as the active filter.
 -remove-search-index       Removes the full text search index.
--rebuild-search-index      Re-builds the full text search index (potentially slow).
+-rebuild-search-index      Obsolete. Use -remove-search-index instead.
+                           Removes the full text search index.
+                           It will be rebuilt on next Assistant run.
 -quiet                     Does not display any error or
                            status message.
 -help                      Displays this help.

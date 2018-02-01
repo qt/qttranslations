@@ -20,8 +20,8 @@
         <translation>Übergebene Adresse gehört zu keinem lokalen Gerät.</translation>
     </message>
     <message>
-        <source>Missing Location permission. Search is not possible</source>
-        <translation>Die Berechtigung zur Positionsbestimmung fehlt. Es ist keine Suche möglich</translation>
+        <source>Missing Location permission. Search is not possible.</source>
+        <translation>Die Berechtigung zur Positionsbestimmung fehlt. Es ist keine Suche möglich.</translation>
     </message>
     <message>
         <source>Classic Discovery cannot be started</source>
@@ -1266,6 +1266,11 @@
         <translation>Öffnen der Eingabe- und Ausgabestreams des Dienstes fehlgeschlagen</translation>
     </message>
     <message>
+        <source>Cannot connect to %1</source>
+        <comment>%1 = uuid</comment>
+        <translation>Verbindung mit %1 kann nicht hergestellt werden</translation>
+    </message>
+    <message>
         <source>Input stream thread cannot be started</source>
         <translation>Thread des Eingabestreams konnte nicht gestartet werden</translation>
     </message>
@@ -1296,6 +1301,26 @@
     <message>
         <source>Network Error: %1</source>
         <translation>Netzwerkfehler: %1</translation>
+    </message>
+    <message>
+        <source>Network error</source>
+        <translation>Netzwerkfehler</translation>
+    </message>
+    <message>
+        <source>Remote host closed connection</source>
+        <translation>Der Zielrechner hat die Verbindung geschlossen</translation>
+    </message>
+    <message>
+        <source>Connection timed out</source>
+        <translation>Bei der Verbindung ist eine Zeitüberschreitung aufgetreten</translation>
+    </message>
+    <message>
+        <source>Host not reachable</source>
+        <translation>Zielrechner ist nicht erreichbar</translation>
+    </message>
+    <message>
+        <source>Host refused connection</source>
+        <translation>Der Zielrechner hat die Verbindung verweigert</translation>
     </message>
 </context>
 <context>
@@ -1385,6 +1410,26 @@
     <message>
         <source>Error occurred trying to start advertising</source>
         <translation>Bei der Ankündigung trat ein Fehler auf</translation>
+    </message>
+    <message>
+        <source>Remote device closed the connection</source>
+        <translation>Das Zielgerät hat die Verbindung geschlossen</translation>
+    </message>
+    <message>
+        <source>Advertisement data is larger than 31 bytes</source>
+        <translation>Advertisement-Daten sind größer als 31 bytes</translation>
+    </message>
+    <message>
+        <source>Advertisement feature not supported on the platform</source>
+        <translation>Das Advertisement-Feature ist auf dieser Plattform nicht unterstützt</translation>
+    </message>
+    <message>
+        <source>Failed due to too many advertisers</source>
+        <translation>Fehlschlag aufgrund zu vieler Advertisers</translation>
+    </message>
+    <message>
+        <source>Unknown advertisement error</source>
+        <translation>Unbekannter Fehler bei Advertisement</translation>
     </message>
 </context>
 </TS>

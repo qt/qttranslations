@@ -16,6 +16,10 @@
         <translation>Недопустимое имя метода</translation>
     </message>
     <message>
+        <source>Duplicate scoped enum name</source>
+        <translation type="unfinished">Дублирование имени перечисления</translation>
+    </message>
+    <message>
         <source>Duplicate signal name</source>
         <translation>Дублирование имени сигнала</translation>
     </message>
@@ -32,6 +36,14 @@
         <translation>Дублирование свойства по умолчанию</translation>
     </message>
     <message>
+        <source>Duplicate alias name</source>
+        <translation>Дублирование имени псевдонима</translation>
+    </message>
+    <message>
+        <source>Alias names cannot begin with an upper case letter</source>
+        <translation>Имена псевдонимов не могут начинаться с заглавной буквы</translation>
+    </message>
+    <message>
         <source>Property value set multiple times</source>
         <translation>Значение свойства задано несколько раз</translation>
     </message>
@@ -40,7 +52,7 @@
     <name>QInputMethod</name>
     <message>
         <source>InputMethod is an abstract class</source>
-        <translation>InputMethod ― абстрактный класс</translation>
+        <translation>InputMethod ― это абстрактный класс</translation>
     </message>
 </context>
 <context>
@@ -74,6 +86,10 @@
         <translation>id не уникален</translation>
     </message>
     <message>
+        <source>Circular alias reference detected</source>
+        <translation>Обнаружен псевдоним с циклической ссылкой</translation>
+    </message>
+    <message>
         <source>Invalid alias reference. Unable to find id &quot;%1&quot;</source>
         <translation>Некорректная ссылка на псевдоним. Не удалось найти id «%1»</translation>
     </message>
@@ -91,6 +107,22 @@
     <message>
         <source>Expected type name</source>
         <translation>Ожидается название типа</translation>
+    </message>
+    <message>
+        <source>Scoped enum names must begin with an upper case letter</source>
+        <translation type="unfinished">Имена перечислений должны начинаться с заглавной буквы</translation>
+    </message>
+    <message>
+        <source>Enum names must begin with an upper case letter</source>
+        <translation>Имена перечислений должны начинаться с заглавной буквы</translation>
+    </message>
+    <message>
+        <source>Enum value must be an integer</source>
+        <translation>Значение перечисления должно быть целым</translation>
+    </message>
+    <message>
+        <source>Enum value out of range</source>
+        <translation>Значение перечисления вне диапазона</translation>
     </message>
     <message>
         <source>Signal names cannot begin with an upper case letter</source>
@@ -397,6 +429,10 @@
         <translation>SQL: нельзя создать базу данных ― автономное хранилище отключено.</translation>
     </message>
     <message>
+        <source>LocalStorage: can&apos;t create path %1</source>
+        <translation>LocalStorage: не удалось создать путь %1</translation>
+    </message>
+    <message>
         <source>SQL: database version mismatch</source>
         <translation>Не совпадает версия базы данных SQL</translation>
     </message>
@@ -471,10 +507,6 @@
         <translation>модуль «%1» плагина «%2» не найден</translation>
     </message>
     <message>
-        <source>library loading is disabled</source>
-        <translation>загрузка библиотек отключена</translation>
-    </message>
-    <message>
         <source>&quot;%1&quot; version %2.%3 is defined more than once in module &quot;%4&quot;</source>
         <translation>«%1» версии %2.%3 определено более одного раза в модуле «%4»</translation>
     </message>
@@ -518,12 +550,12 @@
 <context>
     <name>QQmlListModel</name>
     <message>
-        <source>unable to enable dynamic roles as this model is not empty!</source>
-        <translation>не удалось включить динамические роли, так как эта модель не пуста!</translation>
+        <source>unable to enable dynamic roles as this model is not empty</source>
+        <translation>не удалось включить динамические роли, так как эта модель не пуста</translation>
     </message>
     <message>
-        <source>unable to enable static roles as this model is not empty!</source>
-        <translation>не удалось включить статические роли, так как эта модель не пуста!</translation>
+        <source>unable to enable static roles as this model is not empty</source>
+        <translation>не удалось включить статические роли, так как эта модель не пуста</translation>
     </message>
     <message>
         <source>dynamic role setting must be made from the main thread, before any worker scripts are created</source>
@@ -663,6 +695,10 @@
         <translation>Ненужный перевод строки в строковом литерале</translation>
     </message>
     <message>
+        <source>End of file reached at escape sequence</source>
+        <translation>ESC-последовательность прервана концом файла</translation>
+    </message>
+    <message>
         <source>Illegal hexadecimal escape sequence</source>
         <translation>Недопустимая шестнадцатеричная esc-последовательность</translation>
     </message>
@@ -787,7 +823,7 @@
     </message>
 </context>
 <context>
-    <name>QQmlPropertyCacheCreator</name>
+    <name>QQmlPropertyCacheCreatorBase</name>
     <message>
         <source>Fully dynamic types cannot declare new properties.</source>
         <translation>Полностью динамические типы не могут объявлять новые свойства.</translation>
@@ -952,12 +988,20 @@
         <translation>Некорректное присваивание свойства: требуется значение булевого типа</translation>
     </message>
     <message>
+        <source>Invalid property assignment: 2D vector expected</source>
+        <translation>Некорректное присваивание свойства: требуется значение типа «двухмерный вектор»</translation>
+    </message>
+    <message>
         <source>Invalid property assignment: 3D vector expected</source>
         <translation>Некорректное присваивание свойства: требуется значение типа «трёхмерный вектор»</translation>
     </message>
     <message>
         <source>Invalid property assignment: 4D vector expected</source>
         <translation>Некорректное присваивание свойства: требуется значение типа «четырёхмерный вектор»</translation>
+    </message>
+    <message>
+        <source>Invalid property assignment: quaternion expected</source>
+        <translation>Некорректное присваивание свойства: требуется кватернион</translation>
     </message>
     <message>
         <source>Invalid property assignment: regular expression expected; use /pattern/ syntax</source>
@@ -1020,14 +1064,14 @@
     </message>
 </context>
 <context>
-    <name>QQmlTypeCompiler</name>
+    <name>QQmlTypeData</name>
     <message>
         <source>Composite Singleton Type %1 is not creatable.</source>
-        <translation>Сложный Singleton-тип %1 нельзя создать.</translation>
+        <translation>Нельзя создать сложный Singleton-тип %1.</translation>
     </message>
     <message>
         <source>Element is not creatable.</source>
-        <translation>Элемент не является создаваемым.</translation>
+        <translation>Элемент несоздаваем.</translation>
     </message>
 </context>
 <context>
@@ -1055,6 +1099,10 @@
     <message>
         <source>qmldir defines type as singleton, but no pragma Singleton found in type %1.</source>
         <translation>qmldir определяет тип как одиночный, но pragma Singleton не найдена в типе %1.</translation>
+    </message>
+    <message>
+        <source>No such file or directory</source>
+        <translation>Нет такого файла или каталога</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; is not installed</source>
@@ -1089,7 +1137,7 @@
     </message>
     <message>
         <source>Animator is an abstract class</source>
-        <translation>Animator является абстрактным классом</translation>
+        <translation>Animator ― это абстрактный класс</translation>
     </message>
 </context>
 <context>
@@ -1168,7 +1216,7 @@
     <name>QQuickApplication</name>
     <message>
         <source>Application is an abstract class</source>
-        <translation>Класс Application ― абстрактный</translation>
+        <translation>Application ― это абстрактный класс</translation>
     </message>
 </context>
 <context>
@@ -1183,6 +1231,13 @@
     <message>
         <source>Drag is only available via attached properties</source>
         <translation>Drag доступна только через прикреплённые свойства</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickDragHandler</name>
+    <message>
+        <source>DragAxis is only available as a grouped property of DragHandler</source>
+        <translation type="unfinished">DragAxis доступен только, как сгруппированное свойство DragHandler</translation>
     </message>
 </context>
 <context>
@@ -1208,10 +1263,17 @@
     </message>
 </context>
 <context>
+    <name>QQuickGraphicsInfo</name>
+    <message>
+        <source>GraphicsInfo is only available via attached properties</source>
+        <translation>GraphicsInfo доступен только через подключаемые свойства</translation>
+    </message>
+</context>
+<context>
     <name>QQuickItemView</name>
     <message>
         <source>ItemView is an abstract base class</source>
-        <translation>ItemView ― абстрактный базовый класс</translation>
+        <translation>ItemView ― это абстрактный базовый класс</translation>
     </message>
     <message>
         <source>Delegate must be of Item type</source>
@@ -1235,12 +1297,12 @@
 <context>
     <name>QQuickLayoutMirroringAttached</name>
     <message>
-        <source>LayoutDirection attached property only works with Items</source>
-        <translation>Подключённое свойство LayoutDirection работает только с элементами</translation>
-    </message>
-    <message>
         <source>LayoutMirroring is only available via attached properties</source>
         <translation>LayoutMirroring доступно только через подключаемые свойства</translation>
+    </message>
+    <message>
+        <source>LayoutDirection attached property only works with Items and Windows</source>
+        <translation>Подключённое свойство LayoutDirection работает только с элементами и окнами</translation>
     </message>
 </context>
 <context>
@@ -1341,8 +1403,39 @@
         <translation>Не удалось получить текстуру от поставщика: %1</translation>
     </message>
     <message>
+        <source>Error decoding: %1</source>
+        <translation>Ошибка декодирования: %1</translation>
+    </message>
+    <message>
         <source>Cannot open: %1</source>
         <translation>Не удалось открыть: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickPointerHandler</name>
+    <message>
+        <source>PointerEvent is only available as a parameter of several signals in PointerHandler</source>
+        <translation>PointerEvent доступен только, как параметр ряда сигналов PointerHandler</translation>
+    </message>
+    <message>
+        <source>EventPoint is only available as a member of PointerEvent</source>
+        <translation>EventPoint доступен только, как член PointerEvent</translation>
+    </message>
+    <message>
+        <source>EventTouchPoint is only available as a member of PointerEvent</source>
+        <translation>EventTouchPoint доступен только, как член PointerEvent</translation>
+    </message>
+    <message>
+        <source>PointerDevice is only available as a property of PointerEvent</source>
+        <translation>PointerDevice доступен только, как свойство PointerEvent</translation>
+    </message>
+    <message>
+        <source>PointingDeviceUniqueId is only available as a property of PointerEvent</source>
+        <translation>PointingDeviceUniqueId доступен только, как свойство PointerEvent</translation>
+    </message>
+    <message>
+        <source>PointerHandler is an abstract base class</source>
+        <translation>PointerHandler — абстрактный базовый класс</translation>
     </message>
 </context>
 <context>
@@ -1382,6 +1475,13 @@
     </message>
 </context>
 <context>
+    <name>QQuickShapeGradient</name>
+    <message>
+        <source>ShapeGradient is an abstract base class</source>
+        <translation>ShapeGradient ― это абстрактный базовый класс</translation>
+    </message>
+</context>
+<context>
     <name>QQuickTextUtil</name>
     <message>
         <source>%1 does not support loading non-visual cursor delegates.</source>
@@ -1390,6 +1490,13 @@
     <message>
         <source>Could not load cursor delegate</source>
         <translation>Не удалось загрузить делегат курсора</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickTouchPoint</name>
+    <message>
+        <source>PointingDeviceUniqueId is only available via read-only properties</source>
+        <translation>PointingDeviceUniqueId доступен только через только читаемые свойства</translation>
     </message>
 </context>
 <context>
@@ -1487,6 +1594,10 @@ Install a driver providing OpenGL 2.0 or higher, or, if this is not possible, ma
 </context>
 <context>
     <name>SignalTransition</name>
+    <message>
+        <source>Specified signal does not exist.</source>
+        <translation>Указанный сигнал отсутствует.</translation>
+    </message>
     <message>
         <source>Cannot assign to non-existent property &quot;%1&quot;</source>
         <translation>Невозможно назначить несуществующему свойству «%1»</translation>

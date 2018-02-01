@@ -16,6 +16,10 @@
         <translation>Ungültiger Methodenname</translation>
     </message>
     <message>
+        <source>Duplicate scoped enum name</source>
+        <translation>Mehrfaches Auftreten eines bereichsgebundenen Aufzählungsnamens</translation>
+    </message>
+    <message>
         <source>Duplicate signal name</source>
         <translation>Mehrfaches Auftreten eines Signalnamens</translation>
     </message>
@@ -115,6 +119,22 @@
     <message>
         <source>Invalid alias reference. An alias reference must be specified as &lt;id&gt;, &lt;id&gt;.&lt;property&gt; or &lt;id&gt;.&lt;value property&gt;.&lt;property&gt;</source>
         <translation>Ungültige Alias-Referenz. Eine Alias-Referenz muss in der Form &lt;id&gt;, &lt;id&gt;.&lt;property&gt; oder &lt;id&gt;.&lt;value property&gt;.&lt;property&gt; angegeben werden</translation>
+    </message>
+    <message>
+        <source>Scoped enum names must begin with an upper case letter</source>
+        <translation>Bereichsgebundene Aufzählungsnamen müssen mit einem Großbuchstaben beginnen</translation>
+    </message>
+    <message>
+        <source>Enum names must begin with an upper case letter</source>
+        <translation>Aufzählungsnamen müssen mit einem Großbuchstaben beginnen</translation>
+    </message>
+    <message>
+        <source>Enum value must be an integer</source>
+        <translation>Ein Aufzählungswert muss ganzzahlig sein</translation>
+    </message>
+    <message>
+        <source>Enum value out of range</source>
+        <translation>Der Aufzählungswert ist außerhalb des gültigen Bereichs</translation>
     </message>
     <message>
         <source>Invalid component id specification</source>
@@ -411,6 +431,10 @@
         <translation>SQL: Es kann keine Datenbank erstellt werden, offline storage ist deaktiviert.</translation>
     </message>
     <message>
+        <source>LocalStorage: can&apos;t create path %1</source>
+        <translation>LocalStorage: Der Pfad %1 kann nicht angelegt werden</translation>
+    </message>
+    <message>
         <source>SQL: database version mismatch</source>
         <translation>SQL: Die Version der Datenbank entspricht nicht der erwarteten Version</translation>
     </message>
@@ -517,10 +541,6 @@
         <translation>Der Modul-Namensraum &apos;%1&apos; entspricht nicht dem Import-URI &apos;%2&apos;</translation>
     </message>
     <message>
-        <source>library loading is disabled</source>
-        <translation>das Laden von Bibliotheken ist deaktiviert</translation>
-    </message>
-    <message>
         <source>Namespace &apos;%1&apos; has already been used for type registration</source>
         <translation>Der Namensraum &apos;%1&apos; wurde bereits zur Typregistrierung verwendet</translation>
     </message>
@@ -532,12 +552,12 @@
 <context>
     <name>QQmlListModel</name>
     <message>
-        <source>unable to enable dynamic roles as this model is not empty!</source>
-        <translation>Dynamische Rollen können nicht aktiviert werden, da das Modell nicht leer ist!</translation>
+        <source>unable to enable dynamic roles as this model is not empty</source>
+        <translation>dynamische Rollen können nicht aktiviert werden, da das Modell nicht leer ist</translation>
     </message>
     <message>
-        <source>unable to enable static roles as this model is not empty!</source>
-        <translation>Statische Rollen können nicht aktiviert werden, da das Modell nicht leer ist!</translation>
+        <source>unable to enable static roles as this model is not empty</source>
+        <translation>statische Rollen können nicht aktiviert werden, da das Modell nicht leer ist</translation>
     </message>
     <message>
         <source>dynamic role setting must be made from the main thread, before any worker scripts are created</source>
@@ -675,6 +695,10 @@
     <message>
         <source>Stray newline in string literal</source>
         <translation>Freistehendes Zeilenendezeichen in Zeichenkettenliteral</translation>
+    </message>
+    <message>
+        <source>End of file reached at escape sequence</source>
+        <translation>In der Escape-Sequenz wurde das Dateiende erreicht</translation>
     </message>
     <message>
         <source>Illegal hexadecimal escape sequence</source>
@@ -1079,6 +1103,10 @@
         <translation>qmldir definiert den Typ als Singleton, aber der Typ %1 enthält kein pragma Singleton.</translation>
     </message>
     <message>
+        <source>No such file or directory</source>
+        <translation>Die Datei oder das Verzeichnis konnte nicht gefunden werden</translation>
+    </message>
+    <message>
         <source>module &quot;%1&quot; is not installed</source>
         <translation>Modul &quot;%1&quot; ist nicht installiert</translation>
     </message>
@@ -1205,6 +1233,13 @@
     <message>
         <source>Drag is only available via attached properties</source>
         <translation>Auf Drag kann nur mittels Eigenschaften des Typs &apos;attached&apos; zugegriffen werden</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickDragHandler</name>
+    <message>
+        <source>DragAxis is only available as a grouped property of DragHandler</source>
+        <translation>DragAxis ist nur über gruppierte Eigenschaften von DragHandler verfügbar</translation>
     </message>
 </context>
 <context>
@@ -1370,8 +1405,39 @@
         <translation>Es konnte keine Textur vom Provider %1 erhalten werden</translation>
     </message>
     <message>
+        <source>Error decoding: %1</source>
+        <translation>Fehler beim Dekodieren: %1</translation>
+    </message>
+    <message>
         <source>Cannot open: %1</source>
         <translation>Fehlschlag beim Öffnen: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickPointerHandler</name>
+    <message>
+        <source>PointerEvent is only available as a parameter of several signals in PointerHandler</source>
+        <translation>PointerEvent ist nur als Parameter einiger Signale von PointerHandler verfügbar</translation>
+    </message>
+    <message>
+        <source>EventPoint is only available as a member of PointerEvent</source>
+        <translation>EventPoint ist nur als Member von PointerEvent verfügbar</translation>
+    </message>
+    <message>
+        <source>EventTouchPoint is only available as a member of PointerEvent</source>
+        <translation>EventTouchPoint ist nur als Member von PointerEvent verfügbar</translation>
+    </message>
+    <message>
+        <source>PointerDevice is only available as a property of PointerEvent</source>
+        <translation>PointerDevice ist nur als Eigenschaft von PointerEvent verfügbar</translation>
+    </message>
+    <message>
+        <source>PointingDeviceUniqueId is only available as a property of PointerEvent</source>
+        <translation>PointingDeviceUniqueId ist nur als Eigenschaft von PointerEvent verfügbar</translation>
+    </message>
+    <message>
+        <source>PointerHandler is an abstract base class</source>
+        <translation>PointerHandler ist eine abstrakte Basisklasse</translation>
     </message>
 </context>
 <context>
@@ -1411,6 +1477,13 @@
     </message>
 </context>
 <context>
+    <name>QQuickShapeGradient</name>
+    <message>
+        <source>ShapeGradient is an abstract base class</source>
+        <translation>ShapeGradient ist eine abstrakte Basisklasse</translation>
+    </message>
+</context>
+<context>
     <name>QQuickTextUtil</name>
     <message>
         <source>%1 does not support loading non-visual cursor delegates.</source>
@@ -1419,6 +1492,13 @@
     <message>
         <source>Could not load cursor delegate</source>
         <translation>Cursor-Delegate konnte nicht geladen werden</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickTouchPoint</name>
+    <message>
+        <source>PointingDeviceUniqueId is only available via read-only properties</source>
+        <translation>PointingDeviceUniqueId ist nur über schreibgeschützte Eigenschaften verfügbar</translation>
     </message>
 </context>
 <context>

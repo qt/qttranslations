@@ -147,12 +147,43 @@ Pracuje se s jednoduchým všeobecným tvarem.</translation>
         <translation>Držitelé místa v textu překladu a ve zdrojovém textu se liší.</translation>
     </message>
     <message>
+        <source>Translation does not contain the necessary %n/%Ln place marker.</source>
+        <translation>Překlad neobsahuje nezbytného %n/%Ln držitele místa.</translation>
+    </message>
+    <message>
         <source>Translation does not contain the necessary %n place marker.</source>
         <translation>Potřebný držitel místa (%n) v překladu chybí.</translation>
     </message>
     <message>
         <source>Unknown error</source>
         <translation>Neznámá chyba</translation>
+    </message>
+</context>
+<context>
+    <name>FMT</name>
+    <message>
+        <source>GNU Gettext localization files</source>
+        <translation>Překladové soubory GNU Gettext</translation>
+    </message>
+    <message>
+        <source>GNU Gettext localization template files</source>
+        <translation>Soubory s předlohami pro překlad GNU Gettext</translation>
+    </message>
+    <message>
+        <source>Compiled Qt translations</source>
+        <translation>Sestavené překlady Qt</translation>
+    </message>
+    <message>
+        <source>Qt Linguist &apos;Phrase Book&apos;</source>
+        <translation>Slovník Qt Linguist</translation>
+    </message>
+    <message>
+        <source>Qt translation sources</source>
+        <translation>Zdroje s překlady Qt</translation>
+    </message>
+    <message>
+        <source>XLIFF localization files</source>
+        <translation>Překladové soubory XLIFF</translation>
     </message>
 </context>
 <context>
@@ -2078,8 +2109,8 @@ Všechny soubory (*)</translation>
         <translation>Verze %1</translation>
     </message>
     <message>
-        <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd.</source>
-        <translation>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist je nástrojem pro přidávání překladů do programů Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd anebo její dceřinné společnosti.</translation>
+        <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</source>
+        <translation>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist je nástrojem pro přidávání překladů do programů Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd anebo její dceřinné společnosti.</translation>
     </message>
     <message>
         <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd.</source>
@@ -2324,6 +2355,34 @@ Všechny soubory (*)</translation>
     <message>
         <source>Toggle visualize whitespace in editors</source>
         <translation>Přepnout zviditelnění bílých znaků v editorech</translation>
+    </message>
+    <message>
+        <source>&amp;Zoom</source>
+        <translation>&amp;Zvětšení</translation>
+    </message>
+    <message>
+        <source>Increase</source>
+        <translation>Zvětšit</translation>
+    </message>
+    <message>
+        <source>Ctrl++</source>
+        <translation>Ctrl++</translation>
+    </message>
+    <message>
+        <source>Decrease</source>
+        <translation>Zmenšit</translation>
+    </message>
+    <message>
+        <source>Ctrl+-</source>
+        <translation>Ctrl+-</translation>
+    </message>
+    <message>
+        <source>Reset to default</source>
+        <translation>Obnovit výchozí</translation>
+    </message>
+    <message>
+        <source>Ctrl+0</source>
+        <translation>Ctrl+0</translation>
     </message>
 </context>
 <context>

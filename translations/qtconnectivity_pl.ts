@@ -901,7 +901,7 @@
     </message>
     <message>
         <source>Cycling Power Vector</source>
-        <translation type="unfinished">Wektor mocy kolarza</translation>
+        <translation>Wektor mocy kolarza</translation>
     </message>
     <message>
         <source>Cycling Power Feature</source>
@@ -909,7 +909,7 @@
     </message>
     <message>
         <source>Cycling Power Control Point</source>
-        <translation type="unfinished">Punkt kontroli mocy kolarza</translation>
+        <translation>Punkt kontroli mocy kolarza</translation>
     </message>
     <message>
         <source>Location And Speed</source>
@@ -1297,6 +1297,22 @@
         <source>Network Error: %1</source>
         <translation>Błąd sieci: %1</translation>
     </message>
+    <message>
+        <source>Network error</source>
+        <translation>Błąd sieci</translation>
+    </message>
+    <message>
+        <source>Connection timed out</source>
+        <translation>Przekroczono czas oczekiwania na połączenie</translation>
+    </message>
+    <message>
+        <source>Host not reachable</source>
+        <translation>Host nieosiągalny</translation>
+    </message>
+    <message>
+        <source>Host refused connection</source>
+        <translation>Host odmówił połączenia</translation>
+    </message>
 </context>
 <context>
     <name>QBluetoothTransferReply</name>
@@ -1385,6 +1401,22 @@
     <message>
         <source>Error occurred trying to start advertising</source>
         <translation>Błąd podczas próby uruchomienia reklamy</translation>
+    </message>
+    <message>
+        <source>Advertisement data is larger than 31 bytes</source>
+        <translation>Dane reklamy przekraczają 31 bajtów</translation>
+    </message>
+    <message>
+        <source>Advertisement feature not supported on the platform</source>
+        <translation>Funkcja wyświetlania reklam nie jest obsługiwana na tej platformie</translation>
+    </message>
+    <message>
+        <source>Failed due to too many advertisers</source>
+        <translation>Zbyt wiele reklamodawców</translation>
+    </message>
+    <message>
+        <source>Unknown advertisement error</source>
+        <translation>Nieznany błąd wyświetlania reklam</translation>
     </message>
 </context>
 </TS>

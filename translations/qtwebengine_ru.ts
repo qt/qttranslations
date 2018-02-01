@@ -2,29 +2,6 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="ru">
 <context>
-    <name>AuthenticationDialog</name>
-    <message>
-        <source>Authentication Required</source>
-        <translation>Требуется авторизация</translation>
-    </message>
-    <message>
-        <source>Username:</source>
-        <translation>Имя пользователя:</translation>
-    </message>
-    <message>
-        <source>Password:</source>
-        <translation>Пароль:</translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation>&amp;Отмена</translation>
-    </message>
-    <message>
-        <source>&amp;Log In</source>
-        <translation>&amp;Войти</translation>
-    </message>
-</context>
-<context>
     <name>QQuickWebEngineView</name>
     <message>
         <source>Follow Link</source>
@@ -41,6 +18,10 @@
     <message>
         <source>Reload</source>
         <translation>Перезагрузить</translation>
+    </message>
+    <message>
+        <source>View Page Source</source>
+        <translation>Исходный код страницы</translation>
     </message>
     <message>
         <source>Copy</source>
@@ -234,8 +215,60 @@
         <translation>Сохранить страни&amp;цу</translation>
     </message>
     <message>
-        <source>Are you sure you want to leave this page?</source>
-        <translation>Закрыть страницу?</translation>
+        <source>&amp;View Page Source</source>
+        <translation>&amp;Исходный код страницы</translation>
+    </message>
+    <message>
+        <source>&amp;Bold</source>
+        <translation>&amp;Жирный</translation>
+    </message>
+    <message>
+        <source>&amp;Italic</source>
+        <translation>&amp;Наклонный</translation>
+    </message>
+    <message>
+        <source>&amp;Underline</source>
+        <translation>&amp;Подчёркнутый</translation>
+    </message>
+    <message>
+        <source>&amp;Strikethrough</source>
+        <translation>&amp;Зачёркнутый</translation>
+    </message>
+    <message>
+        <source>Align &amp;Left</source>
+        <translation>По &amp;левому краю</translation>
+    </message>
+    <message>
+        <source>Align &amp;Center</source>
+        <translation>По &amp;середине</translation>
+    </message>
+    <message>
+        <source>Align &amp;Right</source>
+        <translation>По &amp;правому краю</translation>
+    </message>
+    <message>
+        <source>Align &amp;Justified</source>
+        <translation>По &amp;ширине</translation>
+    </message>
+    <message>
+        <source>&amp;Indent</source>
+        <translation>Увеличить &amp;отступить</translation>
+    </message>
+    <message>
+        <source>&amp;Outdent</source>
+        <translation>Уменьшить о&amp;тступ</translation>
+    </message>
+    <message>
+        <source>Insert &amp;Ordered List</source>
+        <translation>&amp;Нумерованный список</translation>
+    </message>
+    <message>
+        <source>Insert &amp;Unordered List</source>
+        <translation>&amp;Маркированный список</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to leave this page? Changes that you made may not be saved.</source>
+        <translation>Покинуть страницу? Сделанные изменения могут быть утеряны.</translation>
     </message>
     <message>
         <source>Follow Link</source>
@@ -276,36 +309,13 @@
         <source>Are you sure you want to leave this page?</source>
         <translation>Закрыть страницу?</translation>
     </message>
-</context>
-<context>
-    <name>QtWebEngineExperimentalPlugin</name>
     <message>
-        <source>Cannot create a separate instance of WebEngineViewExperimental</source>
-        <translation>Невозможно создать отдельный экземпляр WebEngineViewExperimental</translation>
-    </message>
-    <message>
-        <source>Cannot create a separate instance of WebEngineViewport</source>
-        <translation>Невозможно создать отдельный экземпляр WebEngineViewport</translation>
-    </message>
-    <message>
-        <source>Cannot create a separate instance of WebEngineContextMenuData</source>
-        <translation>Невозможно создать отдельный экземпляр WebEngineContextMenuData</translation>
+        <source>Changes that you made may not be saved.</source>
+        <translation>Сделанные изменения могут быть утеряны.</translation>
     </message>
 </context>
 <context>
     <name>QtWebEnginePlugin</name>
-    <message>
-        <source>Cannot create separate instance of WebEngineLoadRequest</source>
-        <translation>Невозможно создать отдельный экземпляр WebEngineLoadRequest</translation>
-    </message>
-    <message>
-        <source>Cannot create separate instance of WebEngineNavigationRequest</source>
-        <translation>Невозможно создать отдельный экземпляр WebEngineNavigationRequest</translation>
-    </message>
-    <message>
-        <source>Cannot create separate instance of WebEngineCertificateError</source>
-        <translation>Невозможно создать отдельный экземпляр WebEngineCertificateError</translation>
-    </message>
     <message>
         <source>Cannot create a separate instance of WebEngineDownloadItem</source>
         <translation>Невозможно создать отдельный экземпляр WebEngineDownloadItem</translation>
@@ -326,12 +336,20 @@
         <source>Cannot create a separate instance of FullScreenRequest</source>
         <translation>Невозможно создать отдельный экземпляр FullScreenRequest</translation>
     </message>
+    <message>
+        <source>Cannot create separate instance of %1</source>
+        <translation>Невозможно создать отдельный экземпляр %1</translation>
+    </message>
 </context>
 <context>
     <name>QtWebEngineTestSupportPlugin</name>
     <message>
         <source>Cannot create a separate instance of WebEngineErrorPage</source>
         <translation>Невозможно создать отдельный экземпляр WebEngineErrorPage</translation>
+    </message>
+    <message>
+        <source>Cannot create a separate instance of WebEngineTestEvent</source>
+        <translation>Невозможно создать отдельный экземпляр WebEngineTestEvent</translation>
     </message>
 </context>
 <context>

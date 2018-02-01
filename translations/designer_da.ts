@@ -849,6 +849,22 @@
         <source>Default Grid</source>
         <translation>Standardgitter</translation>
     </message>
+    <message>
+        <source>Object Naming Convention</source>
+        <translation>Objekt-navngivningskonvention</translation>
+    </message>
+    <message>
+        <source>Naming convention used for generating action object names from their text</source>
+        <translation>Navngivningskonvention brugt til at generere handlingsobjektnavne fra deres tekst</translation>
+    </message>
+    <message>
+        <source>Camel Case</source>
+        <translation>Camel Case</translation>
+    </message>
+    <message>
+        <source>Underscore</source>
+        <translation>Understregning</translation>
+    </message>
 </context>
 <context>
     <name>FormLayoutRowDialog</name>
@@ -1188,7 +1204,7 @@
     <name>QAbstractFormBuilder</name>
     <message>
         <source>An error has occurred while reading the UI file at line %1, column %2: %3</source>
-        <translation>Der opstod en fejl under læsningen af brugerfladefilen på linje %1, kolonne %2: %3</translation>
+        <translation>Der opstod en fejl under læsningen af UI-filen på linje %1, kolonne %2: %3</translation>
     </message>
     <message>
         <source>This file was created using Designer from Qt-%1 and cannot be read.</source>
@@ -1200,11 +1216,11 @@
     </message>
     <message>
         <source>Invalid UI file: The root element &lt;ui&gt; is missing.</source>
-        <translation>Ugyldig brugerfladefil: rodelementet &lt;ui&gt; mangler.</translation>
+        <translation>Ugyldig UI-fil: rodelementet &lt;ui&gt; mangler.</translation>
     </message>
     <message>
         <source>Invalid UI file</source>
-        <translation>Ugyldig brugerfladefil</translation>
+        <translation>Ugyldig UI-fil</translation>
     </message>
     <message>
         <source>The creation of a widget of the class &apos;%1&apos; failed.</source>
@@ -1443,7 +1459,7 @@ Vil du erstatte den?</translation>
     </message>
     <message>
         <source>Designer UI files (*.%1);;All Files (*)</source>
-        <translation>Designer-brugerfladefiler (*.%1);;Alle filer (*)</translation>
+        <translation>Designer UI-filer (*.%1);;Alle filer (*)</translation>
     </message>
     <message>
         <source>Save Form As</source>
@@ -1761,6 +1777,13 @@ Beholder-sider bør kun tilføjes ved at specificere dem i XML returnerede af do
     <message>
         <source>An error has been encountered while parsing device profile XML: %1</source>
         <translation>Stødte på en fejl under fortolkningen af enhedsprofilens XML: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QDesignerTaskMenu</name>
+    <message>
+        <source>no signals available</source>
+        <translation>ingen tilgængelige signaler</translation>
     </message>
 </context>
 <context>

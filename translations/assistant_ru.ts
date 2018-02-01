@@ -32,10 +32,6 @@
         <translation>Ошибка регистрации файла документации «%1»: %2</translation>
     </message>
     <message>
-        <source>Error: %1</source>
-        <translation>Ошибка: %1</translation>
-    </message>
-    <message>
         <source>Could not register documentation file
 %1
 
@@ -333,7 +329,9 @@ Reason:
                            file.
 -setCurrentFilter filter   Set the filter as the active filter.
 -remove-search-index       Removes the full text search index.
--rebuild-search-index      Re-builds the full text search index (potentially slow).
+-rebuild-search-index      Obsolete. Use -remove-search-index instead.
+                           Removes the full text search index.
+                           It will be rebuilt on next Assistant run.
 -quiet                     Does not display any error or
                            status message.
 -help                      Displays this help.
@@ -359,8 +357,9 @@ Reason:
                            справки (.qch) в данном файле коллекции.
 -setCurrentFilter фильтр   Активация указанного фильтра.
 -remove-search-index       Удаление индекса полнотекстового поиска.
--rebuild-search-index      Пересоздание индекса полнотекстового поиска
-                           (потенциально медленно).
+-rebuild-search-index      Устарело. Используйте -remove-search-index.
+                           Удаление индекса полнотекстового поиска.
+                           Он будет пересоздан при следующем запуске.
 -quiet                     Не отображать сообщения об ошибках и состояниях.
 -help                      Показать эту справку.
 </translation>

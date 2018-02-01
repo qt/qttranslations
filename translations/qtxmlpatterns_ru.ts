@@ -1164,27 +1164,27 @@
     </message>
     <message>
         <source>Target namespace %1 of included schema is different from the target namespace %2 as defined by the including schema.</source>
-        <translation type="unfinished"></translation>
+        <translation>Целевое пространство имён %1 включённой схемы отличается от оного (%2) включающей.</translation>
     </message>
     <message>
         <source>Target namespace %1 of imported schema is different from the target namespace %2 as defined by the importing schema.</source>
-        <translation type="unfinished"></translation>
+        <translation>Целевое пространство имён %1 импортируемой схемы отличается от оного (%2) импортирующей.</translation>
     </message>
     <message>
         <source>%1 element is not allowed to have the same %2 attribute value as the target namespace %3.</source>
-        <translation type="unfinished"></translation>
+        <translation>Элемент %1 не может иметь такое же значение атрибута %2, как и целевое пространство имён %3.</translation>
     </message>
     <message>
         <source>%1 element without %2 attribute is not allowed inside schema without target namespace.</source>
-        <translation type="unfinished"></translation>
+        <translation>Элемент %1 без атрибута %2 не допустим в схеме без целевого пространства имён.</translation>
     </message>
     <message>
         <source>%1 element is not allowed inside %2 element if %3 attribute is present.</source>
-        <translation type="unfinished"></translation>
+        <translation>Элемент %1 недрпустим внутри элемента %2, если указан атрибут %3.</translation>
     </message>
     <message>
         <source>%1 element has neither %2 attribute nor %3 child element.</source>
-        <translation type="unfinished"></translation>
+        <translation>Элемент %1 не может иметь ни атрибут %2, ни дочерний элемент %3.</translation>
     </message>
     <message>
         <source>%1 element with %2 child element must not have a %3 attribute.</source>
@@ -1300,11 +1300,11 @@
     </message>
     <message>
         <source>%1 references identity constraint %2 that is no %3 or %4 element.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ссылается на ограничение идентичности %2, которое не имеет элементов %3 или %4.</translation>
     </message>
     <message>
         <source>%1 has a different number of fields from the identity constraint %2 that it references.</source>
-        <translation type="unfinished"></translation>
+        <translation>У %1 число полей отличается от оного у ограничения идентичности %2, на которое ссылается.</translation>
     </message>
     <message>
         <source>Base type %1 of %2 element cannot be resolved.</source>
@@ -1332,11 +1332,11 @@
     </message>
     <message>
         <source>Content model of complex type %1 contains %2 element so it cannot be derived by extension from a non-empty type.</source>
-        <translation type="unfinished"></translation>
+        <translation>Модель содержимого сложного типа %1 содержит элемент %2, поэтому она не может быть унаследована расширением из непустого типа.</translation>
     </message>
     <message>
         <source>Complex type %1 cannot be derived by extension from %2 as the latter contains %3 element in its content model.</source>
-        <translation type="unfinished"></translation>
+        <translation>Сложный тип %1 не может наследоваться расширением из %2, так как последнее содержит элемент %3 в своей модели содержимого.</translation>
     </message>
     <message>
         <source>Type of %1 element must be a simple type, %2 is not.</source>

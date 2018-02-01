@@ -20,122 +20,6 @@
     </message>
 </context>
 <context>
-    <name>BbCameraAudioEncoderSettingsControl</name>
-    <message>
-        <source>No compression</source>
-        <translation>Без сжатия</translation>
-    </message>
-    <message>
-        <source>AAC compression</source>
-        <translation>Сжатие AAC</translation>
-    </message>
-    <message>
-        <source>PCM uncompressed</source>
-        <translation>PCM без сжатия</translation>
-    </message>
-</context>
-<context>
-    <name>BbCameraMediaRecorderControl</name>
-    <message>
-        <source>Unable to retrieve mute status</source>
-        <translation>Не удалось определить включён ли звук</translation>
-    </message>
-    <message>
-        <source>Unable to retrieve audio input volume</source>
-        <translation>Не удалось определить громкость входного звука</translation>
-    </message>
-    <message>
-        <source>Unable to set mute status</source>
-        <translation>Не удалось включить/выключить звук</translation>
-    </message>
-    <message>
-        <source>Unable to set audio input volume</source>
-        <translation>Не удалось установить громкость входного звука</translation>
-    </message>
-</context>
-<context>
-    <name>BbCameraSession</name>
-    <message>
-        <source>Camera provides image in unsupported format</source>
-        <translation>Камера выдаёт изображение в неподдерживаемом формате</translation>
-    </message>
-    <message>
-        <source>Could not load JPEG data from frame</source>
-        <translation>Не удалось загрузить данные JPEG из кадра</translation>
-    </message>
-    <message>
-        <source>Camera not ready</source>
-        <translation>Камера не готова</translation>
-    </message>
-    <message>
-        <source>Unable to apply video settings</source>
-        <translation>Не удалось применить настройки видео</translation>
-    </message>
-    <message>
-        <source>Could not open destination file:
-%1</source>
-        <translation>Не удалось открыть выходной файл:
-%1</translation>
-    </message>
-    <message>
-        <source>Unable to open camera</source>
-        <translation>Не удалось открыть камеру</translation>
-    </message>
-    <message>
-        <source>Unable to retrieve native camera orientation</source>
-        <translation>Не удалось получить исходное положение камеры</translation>
-    </message>
-    <message>
-        <source>Unable to close camera</source>
-        <translation>Не удалось закрыть камеру</translation>
-    </message>
-    <message>
-        <source>Unable to start video recording</source>
-        <translation>Не удалось начать запись видео</translation>
-    </message>
-    <message>
-        <source>Unable to stop video recording</source>
-        <translation>Не удалось остановить запись видео</translation>
-    </message>
-</context>
-<context>
-    <name>BbCameraVideoEncoderSettingsControl</name>
-    <message>
-        <source>No compression</source>
-        <translation>Без сжатия</translation>
-    </message>
-    <message>
-        <source>AVC1 compression</source>
-        <translation>Сжатие AVC1</translation>
-    </message>
-    <message>
-        <source>H264 compression</source>
-        <translation>Сжатие H264</translation>
-    </message>
-</context>
-<context>
-    <name>BbImageEncoderControl</name>
-    <message>
-        <source>JPEG image</source>
-        <translation>Изображение JPEG</translation>
-    </message>
-</context>
-<context>
-    <name>BbVideoDeviceSelectorControl</name>
-    <message>
-        <source>Front Camera</source>
-        <translation>Передняя камера</translation>
-    </message>
-    <message>
-        <source>Rear Camera</source>
-        <translation>Задняя камера</translation>
-    </message>
-    <message>
-        <source>Desktop Camera</source>
-        <translation>Виртуальная камера: рабочий стол</translation>
-    </message>
-</context>
-<context>
     <name>CameraBinImageCapture</name>
     <message>
         <source>Camera not ready</source>
@@ -393,13 +277,6 @@
     </message>
 </context>
 <context>
-    <name>QGstreamerAudioEncode</name>
-    <message>
-        <source>Raw PCM audio</source>
-        <translation>Необработанное PCM-аудио</translation>
-    </message>
-</context>
-<context>
     <name>QGstreamerAudioInputSelector</name>
     <message>
         <source>System default device</source>
@@ -454,10 +331,6 @@
     <message>
         <source>UDP source timeout</source>
         <translation>Истекло время источника UDP</translation>
-    </message>
-    <message>
-        <source>Media is loaded as a playlist</source>
-        <translation>Медиа-данные загружены в виде списка проигрывания</translation>
     </message>
 </context>
 <context>
@@ -552,6 +425,10 @@
     <message>
         <source>invalid line in playlist file</source>
         <translation>неверная строка в файле списка воспроизведения</translation>
+    </message>
+    <message>
+        <source>Invalid stream</source>
+        <translation>Неверный поток</translation>
     </message>
     <message>
         <source>Empty file provided</source>

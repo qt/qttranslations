@@ -2,29 +2,6 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="ru">
 <context>
-    <name>QCLuceneResultWidget</name>
-    <message>
-        <source>Search Results</source>
-        <translation>Результат поиска</translation>
-    </message>
-    <message>
-        <source>Note:</source>
-        <translation>Примечание:</translation>
-    </message>
-    <message>
-        <source>The search results may not be complete since the documentation is still being indexed.</source>
-        <translation>Результат поиска может быть неполным, так как документация ещё индексируется.</translation>
-    </message>
-    <message>
-        <source>Your search did not match any documents.</source>
-        <translation>По вашему запросу не найдено ни одного документа.</translation>
-    </message>
-    <message>
-        <source>(The reason for this might be that the documentation is still being indexed.)</source>
-        <translation>(Причиной этого может быть то, что документация ещё индексируется.)</translation>
-    </message>
-</context>
-<context>
     <name>QHelp</name>
     <message>
         <source>Untitled</source>
@@ -269,30 +246,6 @@
         <source>Search</source>
         <translation>Поиск</translation>
     </message>
-    <message>
-        <source>Advanced search</source>
-        <translation>Расширенный поиск</translation>
-    </message>
-    <message>
-        <source>words &lt;B&gt;similar&lt;/B&gt; to:</source>
-        <translation>&lt;B&gt;похожие&lt;/B&gt; слова:</translation>
-    </message>
-    <message>
-        <source>&lt;B&gt;without&lt;/B&gt; the words:</source>
-        <translation>&lt;B&gt;не содержит&lt;/B&gt; слов:</translation>
-    </message>
-    <message>
-        <source>with &lt;B&gt;exact phrase&lt;/B&gt;:</source>
-        <translation>содержит &lt;B&gt;точную фразу&lt;/B&gt;:</translation>
-    </message>
-    <message>
-        <source>with &lt;B&gt;all&lt;/B&gt; of the words:</source>
-        <translation>содержит &lt;B&gt;все&lt;/B&gt; слова:</translation>
-    </message>
-    <message>
-        <source>with &lt;B&gt;at least one&lt;/B&gt; of the words:</source>
-        <translation>содержит &lt;B&gt;минимум одно&lt;/B&gt; из слов:</translation>
-    </message>
 </context>
 <context>
     <name>QHelpSearchResultWidget</name>
@@ -307,6 +260,36 @@
     <message>
         <source>0 - 0 of 0 Hits</source>
         <translation>0 - 0 из 0 совпадений</translation>
+    </message>
+</context>
+<context>
+    <name>QResultWidget</name>
+    <message>
+        <source>Search Results</source>
+        <translation>Результат поиска</translation>
+    </message>
+    <message>
+        <source>Note:</source>
+        <translation>Примечание:</translation>
+    </message>
+    <message>
+        <source>The search results may not be complete since the documentation is still being indexed.</source>
+        <translation>Результат поиска может быть неполным, так как документация ещё индексируется.</translation>
+    </message>
+    <message>
+        <source>Your search did not match any documents.</source>
+        <translation>По вашему запросу не найдено ни одного документа.</translation>
+    </message>
+    <message>
+        <source>(The reason for this might be that the documentation is still being indexed.)</source>
+        <translation>(Причиной этого может быть то, что документация ещё индексируется.)</translation>
+    </message>
+</context>
+<context>
+    <name>fulltextsearch::qt::QHelpSearchIndexWriter</name>
+    <message>
+        <source>Cannot open database &quot;%1&quot; using connection &quot;%2&quot;: %3</source>
+        <translation>Не удалось открыть базу данных «%1» используя подключение «%2»: %3</translation>
     </message>
 </context>
 </TS>
