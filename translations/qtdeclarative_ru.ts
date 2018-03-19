@@ -17,7 +17,7 @@
     </message>
     <message>
         <source>Duplicate scoped enum name</source>
-        <translation type="unfinished">Дублирование имени перечисления</translation>
+        <translation>Дублирование имени перечисления</translation>
     </message>
     <message>
         <source>Duplicate signal name</source>
@@ -110,7 +110,7 @@
     </message>
     <message>
         <source>Scoped enum names must begin with an upper case letter</source>
-        <translation type="unfinished">Имена перечислений должны начинаться с заглавной буквы</translation>
+        <translation>Имена перечислений должны начинаться с заглавной буквы</translation>
     </message>
     <message>
         <source>Enum names must begin with an upper case letter</source>
@@ -142,7 +142,7 @@
     </message>
     <message>
         <source>Invalid alias location</source>
-        <translation>Нет свойства размещения псевдонима</translation>
+        <translation>Неверное размещение псевдонима</translation>
     </message>
     <message>
         <source>Invalid component id specification</source>
@@ -860,6 +860,10 @@
         <source>Invalid property type</source>
         <translation>Некорректный тип свойства</translation>
     </message>
+    <message>
+        <source>Invalid alias target</source>
+        <translation>Неверная цель псевдонима</translation>
+    </message>
 </context>
 <context>
     <name>QQmlPropertyValidator</name>
@@ -918,6 +922,10 @@
     <message>
         <source>Cannot assign to non-existent property &quot;%1&quot;</source>
         <translation>Невозможно назначить несуществующему свойству «%1»</translation>
+    </message>
+    <message>
+        <source>Invalid use of id property with a value type</source>
+        <translation>Недопустимое использование свойства id с типом значения</translation>
     </message>
     <message>
         <source>Cannot assign primitives to lists</source>
@@ -1237,7 +1245,7 @@
     <name>QQuickDragHandler</name>
     <message>
         <source>DragAxis is only available as a grouped property of DragHandler</source>
-        <translation type="unfinished">DragAxis доступен только, как сгруппированное свойство DragHandler</translation>
+        <translation>DragAxis доступен только как сгруппированное свойство DragHandler</translation>
     </message>
 </context>
 <context>
@@ -1314,6 +1322,10 @@
 </context>
 <context>
     <name>QQuickMouseEvent</name>
+    <message>
+        <source>GestureEvent is only available in the context of handling the gestureStarted signal from MultiPointTouchArea</source>
+        <translation>GestureEvent доступен только в контексте обработки сигнала gestureStarted от MultiPointTouchArea</translation>
+    </message>
     <message>
         <source>MouseEvent is only available within handlers in MouseArea</source>
         <translation>MouseEvent доступен только внутри обработчиков в MouseArea</translation>
@@ -1614,8 +1626,8 @@ Install a driver providing OpenGL 2.0 or higher, or, if this is not possible, ma
         <translation>Некорректное имя «%2» для QML %1</translation>
     </message>
     <message>
-        <source>Cannot install %1 &apos;%2&apos; into unregistered namespace &apos;%3&apos;</source>
-        <translation>Нельзя устанавливать %1 «%2» в незарегистрированное пространство имён «%3»</translation>
+        <source>Invalid QML %1 name &quot;%2&quot;; type names must begin with an uppercase letter</source>
+        <translation>Имя «%2» недопустимо для QML %1, имена типов должны начинаться с заглавной буквы</translation>
     </message>
     <message>
         <source>Cannot install %1 &apos;%2&apos; into protected namespace &apos;%3&apos;</source>

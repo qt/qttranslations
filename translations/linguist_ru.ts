@@ -120,6 +120,10 @@ Will assume a single universal form.</source>
         <translation>Не удалось создать «%2»: %1</translation>
     </message>
     <message>
+        <source>%1 (%2)</source>
+        <translation>%1 (%2)</translation>
+    </message>
+    <message>
         <source>Universal Form</source>
         <translation>Универсальная форма</translation>
     </message>
@@ -1017,32 +1021,16 @@ All files (*)</source>
         <translation>&amp;Акселераторы</translation>
     </message>
     <message>
-        <source>Toggle the validity check of accelerators, i.e. whether the number of ampersands in the source and translation text is the same. If the check fails, a message is shown in the warnings window.</source>
-        <translation>Переключение проверки акселераторов, т.е. совпадает ли количество амперсандов в исходном и переведённом текстах. Если выявлено несовпадение, будет показано сообщение в окне предупреждений.</translation>
-    </message>
-    <message>
         <source>&amp;Ending Punctuation</source>
         <translation>&amp;Знаки препинания</translation>
-    </message>
-    <message>
-        <source>Toggle the validity check of ending punctuation. If the check fails, a message is shown in the warnings window.</source>
-        <translation>Переключение проверки знаков препинания в конце текста. Если выявлено несовпадение, будет показано сообщение в окне предупреждений.</translation>
     </message>
     <message>
         <source>&amp;Phrase matches</source>
         <translation>Совпадение &amp;фраз</translation>
     </message>
     <message>
-        <source>Toggle checking that phrase suggestions are used. If the check fails, a message is shown in the warnings window.</source>
-        <translation>Переключение проверки использования предложений для фраз. Если выявлено несовпадение, будет показано сообщение в окне предупреждений.</translation>
-    </message>
-    <message>
         <source>Place &amp;Marker Matches</source>
         <translation>Совпадение &amp;маркеров</translation>
-    </message>
-    <message>
-        <source>Toggle the validity check of place markers, i.e. whether %1, %2, ... are used consistently in the source text and translation text. If the check fails, a message is shown in the warnings window.</source>
-        <translation>Переключение проверки маркеров форматирования, т.е. все ли маркеры (%1, %2, ...) исходного текста присутствуют в переведённом. Если выявлено несовпадение, будет показано сообщение в окне предупреждений.</translation>
     </message>
     <message>
         <source>&amp;New Phrase Book...</source>
@@ -1205,22 +1193,6 @@ All files (*)</source>
         <translation>Скопировать исходный текст в поле перевода</translation>
     </message>
     <message>
-        <source>Toggle the validity check of accelerators</source>
-        <translation>Переключение проверки акселераторов</translation>
-    </message>
-    <message>
-        <source>Toggle the validity check of ending punctuation</source>
-        <translation>Переключение проверки знаков препинания в конце текста</translation>
-    </message>
-    <message>
-        <source>Toggle checking that phrase suggestions are used</source>
-        <translation>Переключение проверки использования предложений для фраз</translation>
-    </message>
-    <message>
-        <source>Toggle the validity check of place markers</source>
-        <translation>Переключение проверки маркеров форматирования</translation>
-    </message>
-    <message>
         <source>Display information about the Qt toolkit by Digia.</source>
         <translation>Показать информацию об инструментарии Qt от Digia.</translation>
     </message>
@@ -1231,10 +1203,6 @@ All files (*)</source>
     <message>
         <source>Visualize whitespace</source>
         <translation>Отображать пробелы</translation>
-    </message>
-    <message>
-        <source>Toggle visualize whitespace in editors</source>
-        <translation>Переключение режима отображения в редакторах непечатаемых символов</translation>
     </message>
     <message>
         <source>Increase</source>
@@ -1261,16 +1229,52 @@ All files (*)</source>
         <translation>Ctrl+0</translation>
     </message>
     <message>
-        <source>Surrounding &amp;Whitespace.</source>
-        <translation>Обрамл&amp;ять пробелы.</translation>
+        <source>Toggles the validity check of accelerators</source>
+        <translation>Переключает проверку акселераторов</translation>
     </message>
     <message>
-        <source>Toggle the validity check of surrounding whitespace.</source>
-        <translation>Переключение проверки обрамления пробелов.</translation>
+        <source>Toggles the validity check of accelerators, i.e. whether the number of ampersands in the source and translation text is the same. If the check fails, a message is shown in the warnings window.</source>
+        <translation>Переключение проверки акселераторов, т.е. совпадает ли количество амперсандов в исходном и переведённом текстах. Если выявлено несовпадение, будет показано сообщение в окне предупреждений.</translation>
     </message>
     <message>
-        <source>Toggle the validity check of surrounding whitespace. If the check fails, a message is shown in the warnings window.</source>
-        <translation>Переключение проверки обрамления пробелов. Если выявлено несовпадение, будет показано сообщение в окне предупреждений.</translation>
+        <source>Surrounding &amp;Whitespace</source>
+        <translation>Обрамл&amp;ять пробелы</translation>
+    </message>
+    <message>
+        <source>Toggles the validity check of surrounding whitespace.</source>
+        <translation>Переключает проверку пробелов в начале и конце.</translation>
+    </message>
+    <message>
+        <source>Toggles the validity check of surrounding whitespace. If the check fails, a message is shown in the warnings window.</source>
+        <translation>Переключение проверки пробелов в начале и конце текста. Если выявлено несовпадение, будет показано сообщение в окне предупреждений.</translation>
+    </message>
+    <message>
+        <source>Toggles the validity check of ending punctuation</source>
+        <translation>Переключает проверку знаков препинания в конце текста</translation>
+    </message>
+    <message>
+        <source>Toggles the validity check of ending punctuation. If the check fails, a message is shown in the warnings window.</source>
+        <translation>Переключение проверки знаков препинания в конце текста. Если выявлено несовпадение, будет показано сообщение в окне предупреждений.</translation>
+    </message>
+    <message>
+        <source>Toggles checking that phrase suggestions are used</source>
+        <translation>Переключает проверку использования предложений для фраз</translation>
+    </message>
+    <message>
+        <source>Toggles checking that phrase suggestions are used. If the check fails, a message is shown in the warnings window.</source>
+        <translation>Переключение проверки использования предложений для фраз. Если выявлено несовпадение, будет показано сообщение в окне предупреждений.</translation>
+    </message>
+    <message>
+        <source>Toggles the validity check of place markers</source>
+        <translation>Переключает проверку маркеров форматирования</translation>
+    </message>
+    <message>
+        <source>Toggles the validity check of place markers, i.e. whether %1, %2, ... are used consistently in the source text and translation text. If the check fails, a message is shown in the warnings window.</source>
+        <translation>Переключение проверки маркеров форматирования, т.е. все ли маркеры (%1, %2, ...) исходного текста присутствуют в переведённом. Если выявлено несовпадение, будет показано сообщение в окне предупреждений.</translation>
+    </message>
+    <message>
+        <source>Toggles visualize whitespace in editors</source>
+        <translation>Переключает режим отображения непечатных символов в редакторах</translation>
     </message>
 </context>
 <context>
@@ -1280,30 +1284,6 @@ All files (*)</source>
         <comment>This is the right panel of the main window.</comment>
         <translatorcomment>Правая панель основного окна</translatorcomment>
         <translation></translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation>Русский</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation>Немецкий</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation>Японский</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation>Французский</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation>Польский</translation>
-    </message>
-    <message>
-        <source>Chinese</source>
-        <translation>Китайский</translation>
     </message>
     <message>
         <source>This whole panel allows you to view and edit the translation of some source text.</source>
@@ -1338,20 +1318,20 @@ All files (*)</source>
         <translation>Здесь вы можете оставить комментарий для собственного использования. Комментарии не влияют на перевод приложений.</translation>
     </message>
     <message>
-        <source>%1 translation (%2)</source>
-        <translation>%1 перевод (%2)</translation>
+        <source>Translation to %1 (%2)</source>
+        <translation>Перевод на %1 (%2)</translation>
+    </message>
+    <message>
+        <source>Translation to %1</source>
+        <translation>%1 перевод</translation>
+    </message>
+    <message>
+        <source>Translator comments for %1</source>
+        <translation>Комментарий переводчика на %1</translation>
     </message>
     <message>
         <source>This is where you can enter or modify the translation of the above source text.</source>
         <translation>Здесь вы можете ввести или изменить перевод текста, представленного выше.</translation>
-    </message>
-    <message>
-        <source>%1 translation</source>
-        <translation>%1 перевод</translation>
-    </message>
-    <message>
-        <source>%1 translator comments</source>
-        <translation>%1 перевод: комментарий переводчика</translation>
     </message>
     <message>
         <source>&apos;%1&apos;
@@ -1653,6 +1633,11 @@ Line: %2</source>
     <message>
         <source>Target language</source>
         <translation>Язык перевода</translation>
+    </message>
+    <message>
+        <source>%1 (%2)</source>
+        <extracomment>&lt;english&gt; (&lt;endonym&gt;) (language and country names)</extracomment>
+        <translation>%1 (%2)</translation>
     </message>
     <message>
         <source>Any Country</source>

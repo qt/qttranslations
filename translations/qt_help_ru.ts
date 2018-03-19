@@ -15,7 +15,7 @@
         <translation>Не удалось открыть файл коллекции справки: %1</translation>
     </message>
     <message>
-        <source>The collection file &apos;%1&apos; is not set up yet.</source>
+        <source>The collection file &quot;%1&quot; is not set up yet.</source>
         <translation>Файл коллекции справки «%1» ещё не установлен.</translation>
     </message>
     <message>
@@ -27,8 +27,24 @@
         <translation>Не удалось создать таблицы в файле %1.</translation>
     </message>
     <message>
-        <source>The collection file &apos;%1&apos; already exists.</source>
+        <source>The collection file &quot;%1&quot; already exists.</source>
         <translation>Файл коллекции справки «%1» уже существует.</translation>
+    </message>
+    <message>
+        <source>Unknown filter &quot;%1&quot;.</source>
+        <translation>Неизвестный фильтр «%1».</translation>
+    </message>
+    <message>
+        <source>Invalid documentation file &quot;%1&quot;.</source>
+        <translation>Некорректный файл документации «%1».</translation>
+    </message>
+    <message>
+        <source>Cannot register namespace &quot;%1&quot;.</source>
+        <translation>Не удалось зарегистрировать пространство имён «%1».</translation>
+    </message>
+    <message>
+        <source>Cannot open database &quot;%1&quot; to optimize.</source>
+        <translation>Не удалось открыть базу данных «%1» для оптимизации.</translation>
     </message>
     <message>
         <source>Cannot create directory: %1</source>
@@ -39,20 +55,12 @@
         <translation>Не удалось скопировать файл коллекции справки: %1</translation>
     </message>
     <message>
-        <source>Unknown filter &apos;%1&apos;.</source>
-        <translation>Неизвестный фильтр «%1».</translation>
-    </message>
-    <message>
         <source>Cannot register filter %1.</source>
         <translation>Не удалось зарегистрировать фильтр «%1».</translation>
     </message>
     <message>
         <source>Cannot open documentation file %1.</source>
         <translation>Не удалось открыть файл документации «%1».</translation>
-    </message>
-    <message>
-        <source>Invalid documentation file &apos;%1&apos;.</source>
-        <translation>Некорректный файл документации «%1».</translation>
     </message>
     <message>
         <source>The namespace %1 was not registered.</source>
@@ -62,21 +70,13 @@
         <source>Namespace %1 already exists.</source>
         <translation>Пространство имён «%1» уже существует.</translation>
     </message>
-    <message>
-        <source>Cannot register namespace &apos;%1&apos;.</source>
-        <translation>Не удалось зарегистрировать пространство имён «%1».</translation>
-    </message>
-    <message>
-        <source>Cannot open database &apos;%1&apos; to optimize.</source>
-        <translation>Не удалось открыть базу данных «%1» для оптимизации.</translation>
-    </message>
 </context>
 <context>
     <name>QHelpDBReader</name>
     <message>
-        <source>Cannot open database &apos;%1&apos; &apos;%2&apos;: %3</source>
+        <source>Cannot open database &quot;%1&quot; &quot;%2&quot;: %3</source>
         <extracomment>The placeholders are: %1 - The name of the database which cannot be opened %2 - The unique id for the connection %3 - The actual error string</extracomment>
-        <translation>Не удалось открыть базу данных &apos;%1&apos; &apos;%2&apos;: %3</translation>
+        <translation>Не удалось открыть базу данных &quot;%1&quot; &quot;%2&quot;: %3</translation>
     </message>
 </context>
 <context>
@@ -97,6 +97,10 @@
         <translation>Создание структуры файла...</translation>
     </message>
     <message>
+        <source>Cannot register namespace &quot;%1&quot;.</source>
+        <translation>Не удалось зарегистрировать пространство имён «%1».</translation>
+    </message>
+    <message>
         <source>Insert custom filters...</source>
         <translation>Добавление индивидуальных фильтров...</translation>
     </message>
@@ -111,14 +115,6 @@
     <message>
         <source>Insert files...</source>
         <translation>Добавление файлов...</translation>
-    </message>
-    <message>
-        <source>The file %1 does not exist! Skipping it.</source>
-        <translation>Файл «%1» не существует! Пропускаем.</translation>
-    </message>
-    <message>
-        <source>Cannot open file %1! Skipping it.</source>
-        <translation>Не удалось открыть файл «%1»! Пропускаем.</translation>
     </message>
     <message>
         <source>Insert indices...</source>
@@ -145,10 +141,6 @@
         <translation>Не удалось открыть файл базы данных «%1».</translation>
     </message>
     <message>
-        <source>Cannot register namespace %1.</source>
-        <translation>Не удалось зарегистрировать пространство имён «%1».</translation>
-    </message>
-    <message>
         <source>Some tables already exist.</source>
         <translation>Некоторые таблицы уже существуют.</translation>
     </message>
@@ -159,6 +151,14 @@
     <message>
         <source>Cannot register virtual folder.</source>
         <translation>Не удалось зарегистрировать виртуальный каталог.</translation>
+    </message>
+    <message>
+        <source>The file %1 does not exist, skipping it...</source>
+        <translation>Файл «%1» не существует, пропускаем...</translation>
+    </message>
+    <message>
+        <source>Cannot open file %1, skipping it...</source>
+        <translation>Не удалось открыть файл «%1», пропускаем...</translation>
     </message>
     <message>
         <source>The filter %1 is already registered.</source>
@@ -177,16 +177,16 @@
         <translation>Не удалось зарегистрировать оглавление.</translation>
     </message>
     <message>
-        <source>File &apos;%1&apos; does not exist.</source>
+        <source>File &quot;%1&quot; does not exist.</source>
         <translation>Файл «%1» не существует.</translation>
     </message>
     <message>
-        <source>File &apos;%1&apos; cannot be opened.</source>
+        <source>File &quot;%1&quot; cannot be opened.</source>
         <translation>Невозможно открыть файл «%1».</translation>
     </message>
     <message>
-        <source>File &apos;%1&apos; contains an invalid link to file &apos;%2&apos;</source>
-        <translation>Файл «%1» содержит некорректную ссылку на файл «%2»</translation>
+        <source>File &quot;%1&quot; contains an invalid link to file &quot;%2&quot;</source>
+        <translation>Файл «%1» содержит неверную ссылку на файл «%2»</translation>
     </message>
     <message>
         <source>Invalid links in HTML files.</source>
