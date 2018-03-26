@@ -15,8 +15,8 @@
         <translation>Katalogdatei kann nicht geöffnet werden: %1</translation>
     </message>
     <message>
-        <source>The collection file &apos;%1&apos; is not set up yet.</source>
-        <translation>Die Katalogdatei &apos;%1&apos; ist noch nicht eingerichtet.</translation>
+        <source>The collection file &quot;%1&quot; is not set up yet.</source>
+        <translation>Die Katalogdatei &quot;%1&quot; ist noch nicht eingerichtet.</translation>
     </message>
     <message>
         <source>Cannot load sqlite database driver.</source>
@@ -27,8 +27,24 @@
         <translation>In Datei %1 können keine Tabellen angelegt werden.</translation>
     </message>
     <message>
-        <source>The collection file &apos;%1&apos; already exists.</source>
-        <translation>Die Katalogdatei &apos;%1&apos; existiert bereits.</translation>
+        <source>The collection file &quot;%1&quot; already exists.</source>
+        <translation>Die Katalogdatei &quot;%1&quot; existiert bereits.</translation>
+    </message>
+    <message>
+        <source>Unknown filter &quot;%1&quot;.</source>
+        <translation>Unbekannter Filter &quot;%1&quot;.</translation>
+    </message>
+    <message>
+        <source>Invalid documentation file &quot;%1&quot;.</source>
+        <translation>Ungültige Dokumentationsdatei &quot;%1&quot;.</translation>
+    </message>
+    <message>
+        <source>Cannot register namespace &quot;%1&quot;.</source>
+        <translation>Der Namensraum &quot;%1&quot; kann nicht registriert werden.</translation>
+    </message>
+    <message>
+        <source>Cannot open database &quot;%1&quot; to optimize.</source>
+        <translation>Die Datenbank &quot;%1&quot; kann nicht zur Optimierung geöffnet werden.</translation>
     </message>
     <message>
         <source>Cannot create directory: %1</source>
@@ -39,20 +55,12 @@
         <translation>Die Katalogdatei kann nicht kopiert werden: %1</translation>
     </message>
     <message>
-        <source>Unknown filter &apos;%1&apos;.</source>
-        <translation>Unbekannter Filter &apos;%1&apos;.</translation>
-    </message>
-    <message>
         <source>Cannot register filter %1.</source>
         <translation>Der Filter %1 kann nicht registriert werden.</translation>
     </message>
     <message>
         <source>Cannot open documentation file %1.</source>
         <translation>Die Dokumentationsdatei %1 kann nicht geöffnet werden.</translation>
-    </message>
-    <message>
-        <source>Invalid documentation file &apos;%1&apos;.</source>
-        <translation>Ungültige Dokumentationsdatei &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>The namespace %1 was not registered.</source>
@@ -62,21 +70,13 @@
         <source>Namespace %1 already exists.</source>
         <translation>Der Namensraum %1 existiert bereits.</translation>
     </message>
-    <message>
-        <source>Cannot register namespace &apos;%1&apos;.</source>
-        <translation>Der Namensraum &apos;%1&apos; kann nicht registriert werden.</translation>
-    </message>
-    <message>
-        <source>Cannot open database &apos;%1&apos; to optimize.</source>
-        <translation>Die Datenbank &apos;%1&apos; kann nicht zur Optimierung geöffnet werden.</translation>
-    </message>
 </context>
 <context>
     <name>QHelpDBReader</name>
     <message>
-        <source>Cannot open database &apos;%1&apos; &apos;%2&apos;: %3</source>
+        <source>Cannot open database &quot;%1&quot; &quot;%2&quot;: %3</source>
         <extracomment>The placeholders are: %1 - The name of the database which cannot be opened %2 - The unique id for the connection %3 - The actual error string</extracomment>
-        <translation>Kann Datenbank nicht öffnen: &apos;%1&apos; &apos;%2&apos;: %3</translation>
+        <translation>Kann Datenbank nicht öffnen: &quot;%1&quot; &quot;%2&quot;: %3</translation>
     </message>
 </context>
 <context>
@@ -97,6 +97,10 @@
         <translation>Dateistruktur wird erzeugt...</translation>
     </message>
     <message>
+        <source>Cannot register namespace &quot;%1&quot;.</source>
+        <translation>Der Namensraum &quot;%1&quot; kann nicht registriert werden.</translation>
+    </message>
+    <message>
         <source>Insert custom filters...</source>
         <translation>Benutzerdefinierte Filter einfügen...</translation>
     </message>
@@ -111,14 +115,6 @@
     <message>
         <source>Insert files...</source>
         <translation>Dateien einfügen...</translation>
-    </message>
-    <message>
-        <source>The file %1 does not exist! Skipping it.</source>
-        <translation>Die Datei %1 existiert nicht. Wird übersprungen.</translation>
-    </message>
-    <message>
-        <source>Cannot open file %1! Skipping it.</source>
-        <translation>Die Datei %1 kann nicht geöffnet werden. Wird übersprungen.</translation>
     </message>
     <message>
         <source>Insert indices...</source>
@@ -145,10 +141,6 @@
         <translation>Die Datenbank-Datei %1 kann nicht geöffnet werden.</translation>
     </message>
     <message>
-        <source>Cannot register namespace %1.</source>
-        <translation>Der Namensraum %1 kann nicht registriert werden.</translation>
-    </message>
-    <message>
         <source>Some tables already exist.</source>
         <translation>Einige Tabellen existieren bereits.</translation>
     </message>
@@ -159,6 +151,14 @@
     <message>
         <source>Cannot register virtual folder.</source>
         <translation>Virtueller Order kann nicht registriert werden.</translation>
+    </message>
+    <message>
+        <source>The file %1 does not exist, skipping it...</source>
+        <translation>Die Datei %1 existiert nicht und wird übersprungen...</translation>
+    </message>
+    <message>
+        <source>Cannot open file %1, skipping it...</source>
+        <translation>Die Datei %1 kann nicht geöffnet werden und wird übersprungen...</translation>
     </message>
     <message>
         <source>The filter %1 is already registered.</source>
@@ -177,16 +177,16 @@
         <translation>Inhalt kann nicht registriert werden.</translation>
     </message>
     <message>
-        <source>File &apos;%1&apos; does not exist.</source>
-        <translation>Die Datei &apos;%1&apos; existiert nicht.</translation>
+        <source>File &quot;%1&quot; does not exist.</source>
+        <translation>Die Datei &quot;%1&quot; existiert nicht.</translation>
     </message>
     <message>
-        <source>File &apos;%1&apos; cannot be opened.</source>
-        <translation>Die Datei &apos;%1&apos; kann nicht geöffnet werden.</translation>
+        <source>File &quot;%1&quot; cannot be opened.</source>
+        <translation>Die Datei &quot;%1&quot; kann nicht geöffnet werden.</translation>
     </message>
     <message>
-        <source>File &apos;%1&apos; contains an invalid link to file &apos;%2&apos;</source>
-        <translation>Die Datei &apos;%1&apos; enthält einen ungültigen Verweis auf die Datei &apos;%2&apos;</translation>
+        <source>File &quot;%1&quot; contains an invalid link to file &quot;%2&quot;</source>
+        <translation>Die Datei &quot;%1&quot; enthält einen ungültigen Verweis auf die Datei &quot;%2&quot;</translation>
     </message>
     <message>
         <source>Invalid links in HTML files.</source>
