@@ -968,7 +968,7 @@
     </message>
     <message>
         <source>ID-based</source>
-        <translation>На базе ID</translation>
+        <translation>На основе ID</translation>
     </message>
 </context>
 <context>

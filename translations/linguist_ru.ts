@@ -121,7 +121,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>%1 (%2)</source>
-        <translation>%1 (%2)</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Universal Form</source>
@@ -132,11 +132,11 @@ Will assume a single universal form.</source>
     <name>ErrorsView</name>
     <message>
         <source>Accelerator possibly superfluous in translation.</source>
-        <translation>Возможно, лишний акселератор в переводе.</translation>
+        <translation>Возможно, лишний ускоритель в переводе.</translation>
     </message>
     <message>
         <source>Accelerator possibly missing in translation.</source>
-        <translation>Возможно, пропущен акселератор в переводе.</translation>
+        <translation>Возможно, пропущен ускоритель в переводе.</translation>
     </message>
     <message>
         <source>Translation does not have same leading and trailing whitespace as the source text.</source>
@@ -251,7 +251,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Ignore &amp;accelerators</source>
-        <translation>Пропускать &amp;акселераторы</translation>
+        <translation>Пропускать у&amp;скорители</translation>
     </message>
     <message>
         <source>Click here to find the next occurrence of the text you typed in.</source>
@@ -276,6 +276,14 @@ Will assume a single universal form.</source>
     <message>
         <source>Skip &amp;obsolete</source>
         <translation>Пропускать &amp;устаревшие</translation>
+    </message>
+    <message>
+        <source>Lets you use a Perl-compatible regular expression</source>
+        <translation>Позволяет использовать Perl-совместимые регулярные выражения</translation>
+    </message>
+    <message>
+        <source>Regular &amp;expression</source>
+        <translation>&amp;Регулярное выражение</translation>
     </message>
 </context>
 <context>
@@ -728,6 +736,14 @@ All files (*)</source>
         <source>Do you want to save phrase book &apos;%1&apos;?</source>
         <translation>Желаете сохранить глоссарий «%1»?</translation>
     </message>
+    <message numerus="yes">
+        <source>%n unfinished message(s) left.</source>
+        <translation>
+            <numerusform>Осталось %n незавершённое сообщение.</numerusform>
+            <numerusform>Осталось %n незавершённых сообщения.</numerusform>
+            <numerusform>Осталось %n незавершённых сообщений.</numerusform>
+        </translation>
+    </message>
     <message>
         <source>All</source>
         <translation>Все</translation>
@@ -1018,7 +1034,7 @@ All files (*)</source>
     </message>
     <message>
         <source>&amp;Accelerators</source>
-        <translation>&amp;Акселераторы</translation>
+        <translation>&amp;Ускорители</translation>
     </message>
     <message>
         <source>&amp;Ending Punctuation</source>
@@ -1230,11 +1246,11 @@ All files (*)</source>
     </message>
     <message>
         <source>Toggles the validity check of accelerators</source>
-        <translation>Переключает проверку акселераторов</translation>
+        <translation>Переключает проверку ускорителей</translation>
     </message>
     <message>
         <source>Toggles the validity check of accelerators, i.e. whether the number of ampersands in the source and translation text is the same. If the check fails, a message is shown in the warnings window.</source>
-        <translation>Переключение проверки акселераторов, т.е. совпадает ли количество амперсандов в исходном и переведённом текстах. Если выявлено несовпадение, будет показано сообщение в окне предупреждений.</translation>
+        <translation>Переключает проверку ускорителей, т.е. совпадает ли количество амперсандов в исходном и переведённом текстах. Если выявлено несовпадение, будет показано сообщение в окне предупреждений.</translation>
     </message>
     <message>
         <source>Surrounding &amp;Whitespace</source>
@@ -1275,6 +1291,42 @@ All files (*)</source>
     <message>
         <source>Toggles visualize whitespace in editors</source>
         <translation>Переключает режим отображения непечатных символов в редакторах</translation>
+    </message>
+    <message>
+        <source>Guesses</source>
+        <translation>Похожие</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Больше</translation>
+    </message>
+    <message>
+        <source>Alt++</source>
+        <translation>Alt++</translation>
+    </message>
+    <message>
+        <source>Show fewer</source>
+        <translation>Меньше</translation>
+    </message>
+    <message>
+        <source>Alt+-</source>
+        <translation>Alt+-</translation>
+    </message>
+    <message>
+        <source>Alt+0</source>
+        <translation>Alt+0</translation>
+    </message>
+    <message>
+        <source>D&amp;one</source>
+        <translation>&amp;Готово</translation>
+    </message>
+    <message>
+        <source>Mark item as done</source>
+        <translation>Отметить элемент готовым</translation>
+    </message>
+    <message>
+        <source>Mark this item as done.</source>
+        <translation>Отметить этот элемент готовым.</translation>
     </message>
 </context>
 <context>
@@ -1357,6 +1409,14 @@ Line: %2</source>
     <message>
         <source>&lt;unnamed context&gt;</source>
         <translation>&lt;безымянный контекст&gt;</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n unfinished message(s) left.</source>
+        <translation>
+            <numerusform>Осталось %n незавершённое сообщение.</numerusform>
+            <numerusform>Осталось %n незавершённых сообщения.</numerusform>
+            <numerusform>Осталось %n незавершённых сообщений.</numerusform>
+        </translation>
     </message>
 </context>
 <context>
@@ -1484,12 +1544,12 @@ Line: %2</source>
         <translation>Правка</translation>
     </message>
     <message>
-        <source>Guess (%1)</source>
-        <translation>Похожая (%1)</translation>
+        <source>Guess from &apos;%1&apos; (%2)</source>
+        <translation>Похожее из «%1» (%2)</translation>
     </message>
     <message>
-        <source>Guess</source>
-        <translation>Похожая</translation>
+        <source>Guess from &apos;%1&apos;</source>
+        <translation>Похожее из «%1»</translation>
     </message>
 </context>
 <context>

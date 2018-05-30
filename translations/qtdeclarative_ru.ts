@@ -1109,8 +1109,16 @@
         <translation>qmldir определяет тип как одиночный, но pragma Singleton не найдена в типе %1.</translation>
     </message>
     <message>
+        <source>File was compiled ahead of time with an incompatible version of Qt and the original file cannot be found. Please recompile</source>
+        <translation>Файл был предварительно собран с несовместимой версией Qt, а оригинальный файл найти не удалось. Пересоберите</translation>
+    </message>
+    <message>
         <source>No such file or directory</source>
         <translation>Нет такого файла или каталога</translation>
+    </message>
+    <message>
+        <source>File is empty</source>
+        <translation>Файл пуст</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; is not installed</source>

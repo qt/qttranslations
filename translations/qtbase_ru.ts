@@ -831,6 +831,10 @@ Press ESC to cancel</source>
         <translation>Невозможно удалить исходный файл</translation>
     </message>
     <message>
+        <source>Cannot open destination file: %1</source>
+        <translation>Не удалось открыть файл назначения: %1</translation>
+    </message>
+    <message>
         <source>Cannot open %1 for input</source>
         <translation>Невозможно открыть %1 для ввода</translation>
     </message>
@@ -2686,7 +2690,7 @@ Do you want to delete it anyway?</source>
     <name>QPPDOptionsModel</name>
     <message>
         <source>Name</source>
-        <translation>Имя</translation>
+        <translation>Название</translation>
     </message>
     <message>
         <source>Value</source>
@@ -4233,7 +4237,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>internal error: unknown newline setting</source>
-        <translation>внутренняя ошибка: неизвестная настройка новой строки</translation>
+        <translation>внутренняя ошибка: неизвестный разделитель строк</translation>
     </message>
     <message>
         <source>(*VERB) not recognized or malformed</source>
@@ -6339,6 +6343,14 @@ Role of an accessible object</extracomment>
     <message>
         <source>unsupported protocol</source>
         <translation>протокол не поддерживается</translation>
+    </message>
+    <message>
+        <source>Error while setting the minimal protocol version</source>
+        <translation>Ошибка при задании минимальной версии протокола</translation>
+    </message>
+    <message>
+        <source>Error while setting the maximum protocol version</source>
+        <translation>Ошибка при задании максимальной версии протокола</translation>
     </message>
     <message>
         <source>Invalid or empty cipher list (%1)</source>

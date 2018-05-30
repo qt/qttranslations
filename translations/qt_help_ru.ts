@@ -186,7 +186,7 @@
     </message>
     <message>
         <source>File &quot;%1&quot; contains an invalid link to file &quot;%2&quot;</source>
-        <translation>Файл «%1» содержит неверную ссылку на файл «%2»</translation>
+        <translation>Файл «%1» содержит некорректную ссылку на файл «%2»</translation>
     </message>
     <message>
         <source>Invalid links in HTML files.</source>
