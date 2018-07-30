@@ -99,11 +99,11 @@
     </message>
     <message>
         <source>No capture device found</source>
-        <translation>Устройтсво захвата не обнаружено</translation>
+        <translation>Устройство захвата не обнаружено</translation>
     </message>
     <message>
         <source>Failed to create null renderer</source>
-        <translation>Не удалось создать пустой рендер</translation>
+        <translation>Не удалось создать пустой отрисовщик</translation>
     </message>
 </context>
 <context>
