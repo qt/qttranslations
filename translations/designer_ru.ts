@@ -924,11 +924,11 @@
     </message>
     <message>
         <source>&amp;Spacing:</source>
-        <translation>&amp;Отступ:</translation>
+        <translation>&amp;Интервал:</translation>
     </message>
     <message>
         <source>&amp;Margin:</source>
-        <translation>&amp;Границы:</translation>
+        <translation>&amp;Отступ:</translation>
     </message>
     <message>
         <source>&amp;Layout Function</source>
@@ -936,11 +936,11 @@
     </message>
     <message>
         <source>Ma&amp;rgin:</source>
-        <translation>Г&amp;раницы:</translation>
+        <translation>О&amp;тступ:</translation>
     </message>
     <message>
         <source>Spa&amp;cing:</source>
-        <translation>О&amp;тступ:</translation>
+        <translation>И&amp;нтервал:</translation>
     </message>
     <message>
         <source>&amp;Author</source>
@@ -961,6 +961,14 @@
     <message>
         <source>Embedded Design</source>
         <translation>Оформление портативных устройств</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Переводы</translation>
+    </message>
+    <message>
+        <source>ID-based</source>
+        <translation>На основе ID</translation>
     </message>
 </context>
 <context>
@@ -3635,6 +3643,10 @@ Do you want overwrite the template?</source>
 </context>
 <context>
     <name>qdesigner_internal::DesignerPropertyManager</name>
+    <message>
+        <source>id</source>
+        <translation>id</translation>
+    </message>
     <message>
         <source>AlignLeft</source>
         <translation></translation>

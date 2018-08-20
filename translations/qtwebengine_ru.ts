@@ -2,205 +2,22 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="ru">
 <context>
-    <name>QQuickWebEngineView</name>
-    <message>
-        <source>Follow Link</source>
-        <translation>Перейти по ссылке</translation>
-    </message>
-    <message>
-        <source>Back</source>
-        <translation>Назад</translation>
-    </message>
-    <message>
-        <source>Forward</source>
-        <translation>Впeрёд</translation>
-    </message>
-    <message>
-        <source>Reload</source>
-        <translation>Перезагрузить</translation>
-    </message>
-    <message>
-        <source>View Page Source</source>
-        <translation>Исходный код страницы</translation>
-    </message>
-    <message>
-        <source>Copy</source>
-        <translation>Скопировать</translation>
-    </message>
-    <message>
-        <source>Unselect</source>
-        <translation>Снять выделение</translation>
-    </message>
-    <message>
-        <source>Copy Link URL</source>
-        <translation>Скопировать адрес ссылки</translation>
-    </message>
-    <message>
-        <source>Save Link</source>
-        <translation>Сохранить ссылку</translation>
-    </message>
-    <message>
-        <source>Copy Image URL</source>
-        <translation>Скопировать адрес изображения</translation>
-    </message>
-    <message>
-        <source>Copy Image</source>
-        <translation>Скопировать изображение</translation>
-    </message>
-    <message>
-        <source>Save Image</source>
-        <translation>Сохранить изображение</translation>
-    </message>
-    <message>
-        <source>Copy Media URL</source>
-        <translation>Скопировать адрес ресурса</translation>
-    </message>
-    <message>
-        <source>Save Media</source>
-        <translation>Сохранить ресурс</translation>
-    </message>
-    <message>
-        <source>Toggle Play/Pause</source>
-        <translation>Воспроизвести/приостановить</translation>
-    </message>
-    <message>
-        <source>Toggle Looping</source>
-        <translation>Зациклено</translation>
-    </message>
-    <message>
-        <source>Toggle Mute</source>
-        <translation>Выключить звук</translation>
-    </message>
-    <message>
-        <source>Toggle Media Controls</source>
-        <translation>Управление воспроизведением</translation>
-    </message>
-    <message>
-        <source>Inspect Element</source>
-        <translation>Исследовать элемент</translation>
-    </message>
-    <message>
-        <source>Exit Full Screen Mode</source>
-        <translation>Выйти из полноэкранного режима</translation>
-    </message>
-</context>
-<context>
     <name>QWebEnginePage</name>
-    <message>
-        <source>Back</source>
-        <translation>Назад</translation>
-    </message>
-    <message>
-        <source>Forward</source>
-        <translation>Вперёд</translation>
-    </message>
     <message>
         <source>Stop</source>
         <translation>Стоп</translation>
-    </message>
-    <message>
-        <source>Reload</source>
-        <translation>Перезагрузить</translation>
     </message>
     <message>
         <source>Reload and Bypass Cache</source>
         <translation>Перезагрузить без кэша</translation>
     </message>
     <message>
-        <source>Cut</source>
-        <translation>Вырезать</translation>
-    </message>
-    <message>
-        <source>Copy</source>
-        <translation>Скопировать</translation>
-    </message>
-    <message>
-        <source>Paste</source>
-        <translation>Вставить</translation>
-    </message>
-    <message>
-        <source>Undo</source>
-        <translation>Отменить</translation>
-    </message>
-    <message>
-        <source>Redo</source>
-        <translation>Повторить</translation>
-    </message>
-    <message>
-        <source>Select All</source>
-        <translation>Выделить всё</translation>
-    </message>
-    <message>
-        <source>Paste and Match Style</source>
-        <translation>Вставить со стилем</translation>
-    </message>
-    <message>
-        <source>Open Link in This Window</source>
-        <translation>Открыть ссылку в этом окне</translation>
-    </message>
-    <message>
-        <source>Open Link in New Window</source>
-        <translation>Открыть ссылку в новом окне</translation>
-    </message>
-    <message>
-        <source>Open Link in New Tab</source>
-        <translation>Открыть ссылку в новой вкладке</translation>
-    </message>
-    <message>
-        <source>Open Link in New Background Tab</source>
-        <translation>Открыть ссылку в новой фоновой вкладке</translation>
-    </message>
-    <message>
-        <source>Copy Link URL</source>
-        <translation>Скопировать адрес ссылки</translation>
-    </message>
-    <message>
-        <source>Save Link</source>
-        <translation>Сохранить ссылку</translation>
-    </message>
-    <message>
-        <source>Copy Image</source>
-        <translation>Скопировать изображение</translation>
-    </message>
-    <message>
-        <source>Copy Image URL</source>
-        <translation>Скопировать адрес изображения</translation>
-    </message>
-    <message>
-        <source>Save Image</source>
-        <translation>Сохранить изображение</translation>
-    </message>
-    <message>
-        <source>Copy Media URL</source>
-        <translation>Скопировать адрес ресурса</translation>
-    </message>
-    <message>
-        <source>Toggle Media Controls</source>
-        <translation>Управление воспроизведением</translation>
-    </message>
-    <message>
-        <source>Toggle Looping</source>
-        <translation>Зациклено</translation>
-    </message>
-    <message>
         <source>Toggle Play/Pause</source>
         <translation>Воспроизвести/приостановить</translation>
     </message>
     <message>
         <source>Toggle Mute</source>
         <translation>Выключить звук</translation>
-    </message>
-    <message>
-        <source>Save Media</source>
-        <translation>Сохранить ресурс</translation>
-    </message>
-    <message>
-        <source>Inspect Element</source>
-        <translation>Исследовать элемент</translation>
-    </message>
-    <message>
-        <source>Exit Full Screen Mode</source>
-        <translation>Выйти из полноэкранного режима</translation>
     </message>
     <message>
         <source>Close Page</source>
@@ -211,12 +28,12 @@
         <translation>Снять выделение</translation>
     </message>
     <message>
-        <source>Save &amp;Page</source>
-        <translation>Сохранить страни&amp;цу</translation>
+        <source>Open link in this window</source>
+        <translation>Открыть ссылку в этом окне</translation>
     </message>
     <message>
-        <source>&amp;View Page Source</source>
-        <translation>&amp;Исходный код страницы</translation>
+        <source>Open link in new background tab</source>
+        <translation>Открыть ссылку в новой фоновой вкладке</translation>
     </message>
     <message>
         <source>&amp;Bold</source>
@@ -269,10 +86,6 @@
     <message>
         <source>Are you sure you want to leave this page? Changes that you made may not be saved.</source>
         <translation>Покинуть страницу? Сделанные изменения могут быть утеряны.</translation>
-    </message>
-    <message>
-        <source>Follow Link</source>
-        <translation>Перейти по ссылке</translation>
     </message>
     <message>
         <source>&amp;Back</source>

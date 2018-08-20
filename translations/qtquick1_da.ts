@@ -58,7 +58,7 @@
     </message>
     <message>
         <source>Cannot specify left, right, and hcenter anchors.</source>
-        <translation>Kan ikke specificere venstre, højre og vandret centreret ankre.</translation>
+        <translation>Kan ikke angive venstre, højre og vandret centreret ankre.</translation>
     </message>
     <message>
         <source>Cannot anchor to a null item.</source>
@@ -74,7 +74,7 @@
     </message>
     <message>
         <source>Cannot specify top, bottom, and vcenter anchors.</source>
-        <translation>Kan ikke specificere øverste, nederste og lodret centreret ankre.</translation>
+        <translation>Kan ikke angive øverste, nederste og lodret centreret ankre.</translation>
     </message>
     <message>
         <source>Baseline anchor cannot be used in conjunction with top, bottom, or vcenter anchors.</source>
@@ -236,7 +236,7 @@
     </message>
     <message>
         <source>Incorrectly specified signal assignment</source>
-        <translation>Ukorrekt specificerede signal-tildeling</translation>
+        <translation>Ukorrekt angivet signal-tildeling</translation>
     </message>
     <message>
         <source>Cannot assign a value to a signal (expecting a script to be run)</source>
@@ -428,7 +428,7 @@
     </message>
     <message>
         <source>Invalid alias reference. An alias reference must be specified as &lt;id&gt;, &lt;id&gt;.&lt;property&gt; or &lt;id&gt;.&lt;value property&gt;.&lt;property&gt;</source>
-        <translation>Ugyldig alias-reference. En alias-reference skal specificeres som &lt;id&gt;, &lt;id&gt;.&lt;egenskab&gt; eller &lt;id&gt;.&lt;værdi egenskab&gt;.&lt;egenskab&gt;</translation>
+        <translation>Ugyldig alias-reference. En alias-reference skal angives som &lt;id&gt;, &lt;id&gt;.&lt;egenskab&gt; eller &lt;id&gt;.&lt;værdi egenskab&gt;.&lt;egenskab&gt;</translation>
     </message>
     <message>
         <source>Invalid alias reference. Unable to find id &quot;%1&quot;</source>

@@ -961,6 +961,14 @@
         <source>Grid</source>
         <translation>Raster</translation>
     </message>
+    <message>
+        <source>Translations</source>
+        <translation>Übersetzungen</translation>
+    </message>
+    <message>
+        <source>ID-based</source>
+        <translation>ID-basiert</translation>
+    </message>
 </context>
 <context>
     <name>IconSelector</name>
@@ -3628,6 +3636,10 @@ Möchten Sie sie überschreiben?</translation>
 </context>
 <context>
     <name>qdesigner_internal::DesignerPropertyManager</name>
+    <message>
+        <source>id</source>
+        <translation>id</translation>
+    </message>
     <message>
         <source>AlignLeft</source>
         <translation>Linksbündig ausrichten</translation>

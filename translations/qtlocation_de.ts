@@ -64,6 +64,13 @@ Bitte besuchen Sie https://developers.arcgis.com/authentication/accessing-arcgis
     </message>
 </context>
 <context>
+    <name>QGeoCodeReplyMapbox</name>
+    <message>
+        <source>Response parse error</source>
+        <translation>Fehler beim Auswerten der Antwort</translation>
+    </message>
+</context>
+<context>
     <name>QGeoMapMapboxGL</name>
     <message>
         <source>Development access token, do not use in production.</source>
@@ -1338,10 +1345,24 @@ Bitte besuchen Sie https://www.mapbox.com</translation>
     </message>
 </context>
 <context>
+    <name>QPlaceSearchReplyMapbox</name>
+    <message>
+        <source>Response parse error</source>
+        <translation>Fehler beim Auswerten der Antwort</translation>
+    </message>
+</context>
+<context>
     <name>QPlaceSearchReplyOsm</name>
     <message>
         <source>Response parse error</source>
-        <translation>Fehler beim Parsen der Antwort</translation>
+        <translation>Fehler beim Auswerten der Antwort</translation>
+    </message>
+</context>
+<context>
+    <name>QPlaceSearchSuggestionReplyMapbox</name>
+    <message>
+        <source>Response parse error</source>
+        <translation>Fehler beim Auswerten der Antwort</translation>
     </message>
 </context>
 <context>

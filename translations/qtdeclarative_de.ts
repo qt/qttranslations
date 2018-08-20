@@ -862,6 +862,10 @@
         <source>Invalid property type</source>
         <translation>Ungültiger Typ der Eigenschaft</translation>
     </message>
+    <message>
+        <source>Invalid alias target</source>
+        <translation>Ungültiges Alias-Ziel</translation>
+    </message>
 </context>
 <context>
     <name>QQmlPropertyValidator</name>
@@ -920,6 +924,10 @@
     <message>
         <source>Cannot assign to non-existent property &quot;%1&quot;</source>
         <translation>Es kann keine Zuweisung erfolgen, da keine Eigenschaft des Namens &quot;%1&quot; existiert</translation>
+    </message>
+    <message>
+        <source>Invalid use of id property with a value type</source>
+        <translation>Die Id-Eigenschaft kann nicht für einen Wert-Typ verwendet werden</translation>
     </message>
     <message>
         <source>Cannot assign primitives to lists</source>
@@ -1103,8 +1111,16 @@
         <translation>qmldir definiert den Typ als Singleton, aber der Typ %1 enthält kein pragma Singleton.</translation>
     </message>
     <message>
+        <source>File was compiled ahead of time with an incompatible version of Qt and the original file cannot be found. Please recompile</source>
+        <translation>Die Datei wurde mit einer inkompatiblen Qt-Version vorkompiliert und die dazugehörige Originaldatei kann nicht gefunden werden. Bitte kompilieren Sie erneut</translation>
+    </message>
+    <message>
         <source>No such file or directory</source>
         <translation>Die Datei oder das Verzeichnis konnte nicht gefunden werden</translation>
+    </message>
+    <message>
+        <source>File is empty</source>
+        <translation>Die Datei ist leer</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; is not installed</source>
@@ -1316,6 +1332,10 @@
 </context>
 <context>
     <name>QQuickMouseEvent</name>
+    <message>
+        <source>GestureEvent is only available in the context of handling the gestureStarted signal from MultiPointTouchArea</source>
+        <translation>GestureEvent ist nur im Kontext der Behandlung des gestureStarted-Signals von MultiPointTouchArea verfügbar</translation>
+    </message>
     <message>
         <source>MouseEvent is only available within handlers in MouseArea</source>
         <translation>MouseEvent ist nur in Handler-Funktionen von MouseArea verfügbar</translation>
@@ -1616,8 +1636,8 @@ Installieren Sie einen Treiber, der OpenGL 2.0 oder neuer bereitstellt, oder ste
         <translation>Ungültiger QML %1-Name: &quot;%2&quot;</translation>
     </message>
     <message>
-        <source>Cannot install %1 &apos;%2&apos; into unregistered namespace &apos;%3&apos;</source>
-        <translation>%1 &apos;%2&apos; kann nicht in einen nicht registrierten Namensraum &apos;%3&apos; installiert werden</translation>
+        <source>Invalid QML %1 name &quot;%2&quot;; type names must begin with an uppercase letter</source>
+        <translation>Ungültiger QML %1-Name &quot;%2&quot;; Typnamen müssen mit einem Großbuchstaben beginnen</translation>
     </message>
     <message>
         <source>Cannot install %1 &apos;%2&apos; into protected namespace &apos;%3&apos;</source>

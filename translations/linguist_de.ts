@@ -119,6 +119,10 @@ Es wird mit einer einfachen Universalform gearbeitet.</translation>
         <translation>&apos;%2&apos; kann nicht erzeugt werden: %1</translation>
     </message>
     <message>
+        <source>%1 (%2)</source>
+        <translation>%1 (%2)</translation>
+    </message>
+    <message>
         <source>Universal Form</source>
         <translation>Universalform</translation>
     </message>
@@ -441,22 +445,6 @@ Es wird mit einer einfachen Universalform gearbeitet.</translation>
         <translation>Ursprungstext übernehmen</translation>
     </message>
     <message>
-        <source>Toggle the validity check of accelerators, i.e. whether the number of ampersands in the source and translation text is the same. If the check fails, a message is shown in the warnings window.</source>
-        <translation>Die Prüfung der Tastenkürzel, das heißt, die Übereinstimmung der kaufmännischen Und-Zeichen in Quelle und Übersetzung ein- bzw. ausschalten. Bei Fehlschlag wird eine Warnung im Hinweis-Fenster angezeigt.</translation>
-    </message>
-    <message>
-        <source>Toggle the validity check of ending punctuation. If the check fails, a message is shown in the warnings window.</source>
-        <translation>Die Prüfung der Satzendezeichen am Ende des Textes ein- bzw. ausschalten. Bei Fehlschlag wird eine Warnung im Hinweis-Fenster angezeigt.</translation>
-    </message>
-    <message>
-        <source>Toggle checking that phrase suggestions are used. If the check fails, a message is shown in the warnings window.</source>
-        <translation>Die Prüfung der Verwendung der Wörterbuchvorschläge ein- bzw. ausschalten. Bei Fehlschlag wird eine Warnung im Hinweis-Fenster angezeigt.</translation>
-    </message>
-    <message>
-        <source>Toggle the validity check of place markers, i.e. whether %1, %2, ... are used consistently in the source text and translation text. If the check fails, a message is shown in the warnings window.</source>
-        <translation>Die Prüfung der Platzhalter, das heißt, ob %1, %2 usw. in Ursprungstext und Übersetzung übereinstimmend verwendet werden, ein- bzw. ausschalten. Bei Fehlschlag wird eine Warnung im Hinweis-Fenster angezeigt.</translation>
-    </message>
-    <message>
         <source>Open Read-O&amp;nly...</source>
         <translation>Schr&amp;eibgeschützt öffnen ...</translation>
     </message>
@@ -706,7 +694,7 @@ Es wird mit einer einfachen Universalform gearbeitet.</translation>
     </message>
     <message>
         <source>Set whether or not to display translation guesses.</source>
-        <translation>Darstellung von Übersetzungsvorschlägen aktivieren/deaktivieren.</translation>
+        <translation>Darstellung von Übersetzungsvorschlägen ein- oder ausschalten.</translation>
     </message>
     <message>
         <source>&amp;Statistics</source>
@@ -1188,22 +1176,6 @@ Alle Dateien (*)</translation>
         <translation>Kopiert den Ursprungstext in das Übersetzungsfeld</translation>
     </message>
     <message>
-        <source>Toggle the validity check of accelerators</source>
-        <translation>Prüfung der Tastenkürzel ein- bzw. ausschalten</translation>
-    </message>
-    <message>
-        <source>Toggle the validity check of ending punctuation</source>
-        <translation>Prüfung der Satzendezeichen am Ende des Textes ein- bzw. ausschalten</translation>
-    </message>
-    <message>
-        <source>Toggle checking that phrase suggestions are used</source>
-        <translation>Überprüfung, ob Wörterbucheinträge benutzt werden, aktivieren/deaktivieren</translation>
-    </message>
-    <message>
-        <source>Toggle the validity check of place markers</source>
-        <translation>Prüfung der Platzhalter ein- bzw. ausschalten&apos;</translation>
-    </message>
-    <message>
         <source>Create a Qt message file suitable for released applications from the current message file. The filename will automatically be determined from the name of the TS file.</source>
         <translation>Eine Qt-Nachrichtendatei aus der aktuellen Übersetzungsdatei erzeugen. Der Dateiname wird automatisch aus dem Namen der TS-Datei abgeleitet.</translation>
     </message>
@@ -1218,10 +1190,6 @@ Alle Dateien (*)</translation>
     <message>
         <source>Visualize whitespace</source>
         <translation>Leerzeichen darstellen</translation>
-    </message>
-    <message>
-        <source>Toggle visualize whitespace in editors</source>
-        <translation>Schaltet die Darstellung der Leerzeichen in den Editoren um</translation>
     </message>
     <message>
         <source>&amp;Zoom</source>
@@ -1252,16 +1220,52 @@ Alle Dateien (*)</translation>
         <translation>Ctrl+0</translation>
     </message>
     <message>
-        <source>Surrounding &amp;Whitespace.</source>
-        <translation>Umgebende &amp;Leerzeichen.</translation>
+        <source>Toggles the validity check of accelerators</source>
+        <translation>Prüfung der Tastenkürzel ein- oder ausschalten</translation>
     </message>
     <message>
-        <source>Toggle the validity check of surrounding whitespace.</source>
+        <source>Toggles the validity check of accelerators, i.e. whether the number of ampersands in the source and translation text is the same. If the check fails, a message is shown in the warnings window.</source>
+        <translation>Die Prüfung der Tastenkürzel, das heißt die Übereinstimmung der kaufmännischen Und-Zeichen in Quelle und Übersetzung, ein- oder ausschalten. Bei Fehlern wird eine Warnung im Hinweisfenster angezeigt.</translation>
+    </message>
+    <message>
+        <source>Surrounding &amp;Whitespace</source>
+        <translation>Umgebende &amp;Leerzeichen</translation>
+    </message>
+    <message>
+        <source>Toggles the validity check of surrounding whitespace.</source>
         <translation>Schaltet die Prüfung der Übereinstimmung umgebender Leerzeichen um.</translation>
     </message>
     <message>
-        <source>Toggle the validity check of surrounding whitespace. If the check fails, a message is shown in the warnings window.</source>
+        <source>Toggles the validity check of surrounding whitespace. If the check fails, a message is shown in the warnings window.</source>
         <translation>Schaltet die Prüfung der Übereinstimmung umgebender Leerzeichen um. Wenn die Prüfung fehlschlägt, wird eine Meldung im Warnungsfenster angezeigt.</translation>
+    </message>
+    <message>
+        <source>Toggles the validity check of ending punctuation</source>
+        <translation>Prüfung der Satzendezeichen am Ende des Textes ein- oder ausschalten</translation>
+    </message>
+    <message>
+        <source>Toggles the validity check of ending punctuation. If the check fails, a message is shown in the warnings window.</source>
+        <translation>Die Prüfung der Satzendezeichen am Ende des Textes ein- oder ausschalten. Bei Fehlern wird eine Warnung im Hinweisfenster angezeigt.</translation>
+    </message>
+    <message>
+        <source>Toggles checking that phrase suggestions are used</source>
+        <translation>Überprüfung, ob Wörterbucheinträge benutzt werden, ein- oder ausschalten</translation>
+    </message>
+    <message>
+        <source>Toggles checking that phrase suggestions are used. If the check fails, a message is shown in the warnings window.</source>
+        <translation>Die Prüfung der Verwendung der Wörterbuchvorschläge ein- oder ausschalten. Bei Fehlern wird eine Warnung im Hinweisfenster angezeigt.</translation>
+    </message>
+    <message>
+        <source>Toggles the validity check of place markers</source>
+        <translation>Prüfung der Platzhalter ein- oder ausschalten</translation>
+    </message>
+    <message>
+        <source>Toggles the validity check of place markers, i.e. whether %1, %2, ... are used consistently in the source text and translation text. If the check fails, a message is shown in the warnings window.</source>
+        <translation>Die Prüfung der Platzhalter, das heißt, ob %1, %2 usw. in Ursprungstext und Übersetzung übereinstimmend verwendet werden, ein- oder ausschalten. Bei Fehlern wird eine Warnung im Hinweisfenster angezeigt.</translation>
+    </message>
+    <message>
+        <source>Toggles visualize whitespace in editors</source>
+        <translation>Schaltet die Darstellung der Leerzeichen in den Editoren um</translation>
     </message>
 </context>
 <context>
@@ -1270,30 +1274,6 @@ Alle Dateien (*)</translation>
         <source></source>
         <comment>This is the right panel of the main window.</comment>
         <translation></translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation>Russisch</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation>Deutsch</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation>Japanisch</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation>Französisch</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation>Polnisch</translation>
-    </message>
-    <message>
-        <source>Chinese</source>
-        <translation>Chinesisch</translation>
     </message>
     <message>
         <source>This whole panel allows you to view and edit the translation of some source text.</source>
@@ -1328,20 +1308,20 @@ Alle Dateien (*)</translation>
         <translation>Hier können Sie Hinweise für den eigenen Gebrauch eintragen. Diese haben keinen Einflusse auf die Übersetzung.</translation>
     </message>
     <message>
-        <source>%1 translation (%2)</source>
-        <translation>Übersetzung %1 (%2)</translation>
+        <source>Translation to %1 (%2)</source>
+        <translation>Übersetzung in %1 (%2)</translation>
+    </message>
+    <message>
+        <source>Translation to %1</source>
+        <translation>Übersetzung in %1</translation>
+    </message>
+    <message>
+        <source>Translator comments for %1</source>
+        <translation>Hinweise des Übersetzers zu %1</translation>
     </message>
     <message>
         <source>This is where you can enter or modify the translation of the above source text.</source>
         <translation>Hier können Sie die Übersetzung des Ursprungstextes eingeben bzw. ändern.</translation>
-    </message>
-    <message>
-        <source>%1 translation</source>
-        <translation>Übersetzung %1</translation>
-    </message>
-    <message>
-        <source>%1 translator comments</source>
-        <translation>%1 Hinweise des Übersetzers</translation>
     </message>
     <message>
         <source>&apos;%1&apos;
@@ -1636,6 +1616,11 @@ Zeile: %2</translation>
 </context>
 <context>
     <name>TranslationSettingsDialog</name>
+    <message>
+        <source>%1 (%2)</source>
+        <extracomment>&lt;english&gt; (&lt;endonym&gt;) (language and country names)</extracomment>
+        <translation>%1 (%2)</translation>
+    </message>
     <message>
         <source>Any Country</source>
         <translation>Land</translation>
