@@ -27,6 +27,10 @@
         <translation>In Datei %1 können keine Tabellen angelegt werden.</translation>
     </message>
     <message>
+        <source>Cannot create index tables in file %1.</source>
+        <translation>In der Datei %1 konnten keine Index-Tabellen erzeugt werden.</translation>
+    </message>
+    <message>
         <source>The collection file &quot;%1&quot; already exists.</source>
         <translation>Die Katalogdatei &quot;%1&quot; existiert bereits.</translation>
     </message>
@@ -43,8 +47,8 @@
         <translation>Der Namensraum &quot;%1&quot; kann nicht registriert werden.</translation>
     </message>
     <message>
-        <source>Cannot open database &quot;%1&quot; to optimize.</source>
-        <translation>Die Datenbank &quot;%1&quot; kann nicht zur Optimierung geöffnet werden.</translation>
+        <source>Cannot register virtual folder &apos;%1&apos;.</source>
+        <translation>Der virtuelle Ordner &apos;%1&apos; kann nicht registriert werden.</translation>
     </message>
     <message>
         <source>Cannot create directory: %1</source>
@@ -77,155 +81,6 @@
         <source>Cannot open database &quot;%1&quot; &quot;%2&quot;: %3</source>
         <extracomment>The placeholders are: %1 - The name of the database which cannot be opened %2 - The unique id for the connection %3 - The actual error string</extracomment>
         <translation>Kann Datenbank nicht öffnen: &quot;%1&quot; &quot;%2&quot;: %3</translation>
-    </message>
-</context>
-<context>
-    <name>QHelpEngineCore</name>
-    <message>
-        <source>Cannot open documentation file %1: %2.</source>
-        <translation>Die Dokumentationsdatei %1 kann nicht geöffnet werden: %2.</translation>
-    </message>
-    <message>
-        <source>The specified namespace does not exist.</source>
-        <translation>Der angegebene Namensraum existiert nicht.</translation>
-    </message>
-</context>
-<context>
-    <name>QHelpGenerator</name>
-    <message>
-        <source>Building up file structure...</source>
-        <translation>Dateistruktur wird erzeugt...</translation>
-    </message>
-    <message>
-        <source>Cannot register namespace &quot;%1&quot;.</source>
-        <translation>Der Namensraum &quot;%1&quot; kann nicht registriert werden.</translation>
-    </message>
-    <message>
-        <source>Insert custom filters...</source>
-        <translation>Benutzerdefinierte Filter einfügen...</translation>
-    </message>
-    <message>
-        <source>Insert help data for filter section (%1 of %2)...</source>
-        <translation>Hilfe-Daten für Filter-Sektion (%1 von %2) einfügen...</translation>
-    </message>
-    <message>
-        <source>Documentation successfully generated.</source>
-        <translation>Dokumentation erfolgreich generiert.</translation>
-    </message>
-    <message>
-        <source>Insert files...</source>
-        <translation>Dateien einfügen...</translation>
-    </message>
-    <message>
-        <source>Insert indices...</source>
-        <translation>Indizes einfügen...</translation>
-    </message>
-    <message>
-        <source>Insert contents...</source>
-        <translation>Inhalt einfügen...</translation>
-    </message>
-    <message>
-        <source>Invalid help data.</source>
-        <translation>Ungültige Hilfe-Daten.</translation>
-    </message>
-    <message>
-        <source>No output file name specified.</source>
-        <translation>Kein Name für die Ausgabe-Datei angegeben.</translation>
-    </message>
-    <message>
-        <source>The file %1 cannot be overwritten.</source>
-        <translation>Die Datei %1 kann nicht überschrieben werden.</translation>
-    </message>
-    <message>
-        <source>Cannot open data base file %1.</source>
-        <translation>Die Datenbank-Datei %1 kann nicht geöffnet werden.</translation>
-    </message>
-    <message>
-        <source>Some tables already exist.</source>
-        <translation>Einige Tabellen existieren bereits.</translation>
-    </message>
-    <message>
-        <source>Cannot create tables.</source>
-        <translation>Es können keine Tabellen erstellt werden.</translation>
-    </message>
-    <message>
-        <source>Cannot register virtual folder.</source>
-        <translation>Virtueller Order kann nicht registriert werden.</translation>
-    </message>
-    <message>
-        <source>The file %1 does not exist, skipping it...</source>
-        <translation>Die Datei %1 existiert nicht und wird übersprungen...</translation>
-    </message>
-    <message>
-        <source>Cannot open file %1, skipping it...</source>
-        <translation>Die Datei %1 kann nicht geöffnet werden und wird übersprungen...</translation>
-    </message>
-    <message>
-        <source>The filter %1 is already registered.</source>
-        <translation>Der Filter %1 ist bereits registriert.</translation>
-    </message>
-    <message>
-        <source>Cannot register filter %1.</source>
-        <translation>Der Filter %1 kann nicht registriert werden.</translation>
-    </message>
-    <message>
-        <source>Cannot insert contents.</source>
-        <translation>Inhalt kann nicht eingefügt werden.</translation>
-    </message>
-    <message>
-        <source>Cannot register contents.</source>
-        <translation>Inhalt kann nicht registriert werden.</translation>
-    </message>
-    <message>
-        <source>File &quot;%1&quot; does not exist.</source>
-        <translation>Die Datei &quot;%1&quot; existiert nicht.</translation>
-    </message>
-    <message>
-        <source>File &quot;%1&quot; cannot be opened.</source>
-        <translation>Die Datei &quot;%1&quot; kann nicht geöffnet werden.</translation>
-    </message>
-    <message>
-        <source>File &quot;%1&quot; contains an invalid link to file &quot;%2&quot;</source>
-        <translation>Die Datei &quot;%1&quot; enthält einen ungültigen Verweis auf die Datei &quot;%2&quot;</translation>
-    </message>
-    <message>
-        <source>Invalid links in HTML files.</source>
-        <translation>Es wurden ungültige Verweise in HTML-Dateien gefunden.</translation>
-    </message>
-</context>
-<context>
-    <name>QHelpProject</name>
-    <message>
-        <source>Unknown token in file &quot;%1&quot;.</source>
-        <translation>Unbekanntes Token in der Datei &quot;%1&quot;.</translation>
-    </message>
-    <message>
-        <source>Unknown token. Expected &quot;QtHelpProject&quot;.</source>
-        <translation>Unbekanntes Token. &quot;QtHelpProject&quot; erwartet.</translation>
-    </message>
-    <message>
-        <source>Error in line %1: %2</source>
-        <translation>Fehler in Zeile %1: %2</translation>
-    </message>
-    <message>
-        <source>Virtual folder has invalid syntax in file: &quot;%1&quot;</source>
-        <translation>Der virtuelle Ordner hat in der Datei &quot;%1&quot; eine ungültige Syntax</translation>
-    </message>
-    <message>
-        <source>Namespace &quot;%1&quot; has invalid syntax in file: &quot;%2&quot;</source>
-        <translation>Der Namensraum &quot;%1&quot; hat in der Datei &quot;%2&quot; eine ungültige Syntax</translation>
-    </message>
-    <message>
-        <source>Missing namespace in QtHelpProject file: &quot;%1&quot;</source>
-        <translation>Fehlender Namensraum in der QtHelpProject-Datei: &quot;%1&quot;</translation>
-    </message>
-    <message>
-        <source>Missing virtual folder in QtHelpProject file: &quot;%1&quot;</source>
-        <translation>Fehlender virtueller Ordner in der QtHelpProject-Datei: &quot;%1&quot;</translation>
-    </message>
-    <message>
-        <source>The input file %1 could not be opened.</source>
-        <translation>Die Eingabe-Datei %1 konnte nicht geöffnet werden.</translation>
     </message>
 </context>
 <context>

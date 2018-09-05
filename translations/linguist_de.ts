@@ -276,6 +276,14 @@ Es wird mit einer einfachen Universalform gearbeitet.</translation>
         <source>Skip &amp;obsolete</source>
         <translation>&apos;&amp;obsolet&apos; überspringen</translation>
     </message>
+    <message>
+        <source>Lets you use a Perl-compatible regular expression</source>
+        <translation>Ermöglicht die Verwendung eines Perl-kompatiblen regulären Ausdrucks</translation>
+    </message>
+    <message>
+        <source>Regular &amp;expression</source>
+        <translation>&amp;Regulärer Ausdruck</translation>
+    </message>
 </context>
 <context>
     <name>FormMultiWidget</name>
@@ -1115,6 +1123,13 @@ Alle Dateien (*)</translation>
         <source>Do you want to save phrase book &apos;%1&apos;?</source>
         <translation>Möchten Sie das Wörterbuch &apos;%1&apos; speichern?</translation>
     </message>
+    <message numerus="yes">
+        <source>%n unfinished message(s) left.</source>
+        <translation>
+            <numerusform>Es ist noch eine unerledigte Nachricht vorhanden.</numerusform>
+            <numerusform>Es sind noch %n unerledigte Nachrichten vorhanden.</numerusform>
+        </translation>
+    </message>
     <message>
         <source>All</source>
         <translation>Alle</translation>
@@ -1267,6 +1282,42 @@ Alle Dateien (*)</translation>
         <source>Toggles visualize whitespace in editors</source>
         <translation>Schaltet die Darstellung der Leerzeichen in den Editoren um</translation>
     </message>
+    <message>
+        <source>Guesses</source>
+        <translation>Vorschläge</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Mehr anzeigen</translation>
+    </message>
+    <message>
+        <source>Alt++</source>
+        <translation>Alt++</translation>
+    </message>
+    <message>
+        <source>Show fewer</source>
+        <translation>Weniger anzeigen</translation>
+    </message>
+    <message>
+        <source>Alt+-</source>
+        <translation>Alt+-</translation>
+    </message>
+    <message>
+        <source>Alt+0</source>
+        <translation>Alt+0</translation>
+    </message>
+    <message>
+        <source>D&amp;one</source>
+        <translation>&amp;Fertig</translation>
+    </message>
+    <message>
+        <source>Mark item as done</source>
+        <translation>Eintrag als erledigt markieren</translation>
+    </message>
+    <message>
+        <source>Mark this item as done.</source>
+        <translation>Diesen Eintrag als erledigt markieren.</translation>
+    </message>
 </context>
 <context>
     <name>MessageEditor</name>
@@ -1347,6 +1398,13 @@ Zeile: %2</translation>
     <message>
         <source>&lt;unnamed context&gt;</source>
         <translation>&lt;unbenannter Kontext&gt;</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n unfinished message(s) left.</source>
+        <translation>
+            <numerusform>Es ist noch eine unerledigte Nachricht vorhanden.</numerusform>
+            <numerusform>Es sind noch %n unerledigte Nachrichten vorhanden.</numerusform>
+        </translation>
     </message>
 </context>
 <context>
@@ -1482,12 +1540,16 @@ Zeile: %2</translation>
         <translation>Bearbeiten</translation>
     </message>
     <message>
-        <source>Guess (%1)</source>
-        <translation>Vorschlag (%1)</translation>
+        <source>Go to</source>
+        <translation>Gehe zu</translation>
     </message>
     <message>
-        <source>Guess</source>
-        <translation>Vorschlag</translation>
+        <source>Guess from &apos;%1&apos; (%2)</source>
+        <translation>Vorschlag &apos;%1&apos; (%2)</translation>
+    </message>
+    <message>
+        <source>Guess from &apos;%1&apos;</source>
+        <translation>Vorschlag &apos;%1&apos;</translation>
     </message>
 </context>
 <context>
