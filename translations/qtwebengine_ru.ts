@@ -2,6 +2,157 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="ru">
 <context>
+    <name>AlertDialog</name>
+    <message>
+        <source>Alert Dialog</source>
+        <translation>Диалог оповещения</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>ОК</translation>
+    </message>
+</context>
+<context>
+    <name>AuthenticationDialog</name>
+    <message>
+        <source>Authentication Required</source>
+        <translation>Требуется авторизация</translation>
+    </message>
+    <message>
+        <source>Username:</source>
+        <translation>Имя пользователя:</translation>
+    </message>
+    <message>
+        <source>Password:</source>
+        <translation>Пароль:</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>&amp;Отмена</translation>
+    </message>
+    <message>
+        <source>&amp;Log In</source>
+        <translation>&amp;Войти</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Отмена</translation>
+    </message>
+    <message>
+        <source>Log In</source>
+        <translation>Войти</translation>
+    </message>
+</context>
+<context>
+    <name>ConfirmDialog</name>
+    <message>
+        <source>Alert Dialog</source>
+        <translation>Диалог оповещения</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>ОК</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Отмена</translation>
+    </message>
+</context>
+<context>
+    <name>PromptDialog</name>
+    <message>
+        <source>OK</source>
+        <translation>ОК</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Отмена</translation>
+    </message>
+    <message>
+        <source>Prompt Dialog</source>
+        <translation type="unfinished">Диалог напоминания</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickWebEngineView</name>
+    <message>
+        <source>Stop</source>
+        <translation>Стоп</translation>
+    </message>
+    <message>
+        <source>Reload and Bypass Cache</source>
+        <translation>Перезагрузить без кэша</translation>
+    </message>
+    <message>
+        <source>Open link in this window</source>
+        <translation>Открыть ссылку в этом окне</translation>
+    </message>
+    <message>
+        <source>Toggle Play/Pause</source>
+        <translation>Воспроизвести/приостановить</translation>
+    </message>
+    <message>
+        <source>Toggle Mute</source>
+        <translation>Выключить звук</translation>
+    </message>
+    <message>
+        <source>Close Page</source>
+        <translation>Закрыть страницу</translation>
+    </message>
+    <message>
+        <source>Unselect</source>
+        <translation>Снять выделение</translation>
+    </message>
+    <message>
+        <source>&amp;Bold</source>
+        <translation>&amp;Жирный</translation>
+    </message>
+    <message>
+        <source>&amp;Italic</source>
+        <translation>&amp;Наклонный</translation>
+    </message>
+    <message>
+        <source>&amp;Underline</source>
+        <translation>&amp;Подчёркнутый</translation>
+    </message>
+    <message>
+        <source>&amp;Strikethrough</source>
+        <translation>&amp;Зачёркнутый</translation>
+    </message>
+    <message>
+        <source>Align &amp;Left</source>
+        <translation>По &amp;левому краю</translation>
+    </message>
+    <message>
+        <source>Align &amp;Center</source>
+        <translation>По &amp;середине</translation>
+    </message>
+    <message>
+        <source>Align &amp;Right</source>
+        <translation>По &amp;правому краю</translation>
+    </message>
+    <message>
+        <source>Align &amp;Justified</source>
+        <translation>По &amp;ширине</translation>
+    </message>
+    <message>
+        <source>&amp;Indent</source>
+        <translation>Увеличить &amp;отступить</translation>
+    </message>
+    <message>
+        <source>&amp;Outdent</source>
+        <translation>Уменьшить о&amp;тступ</translation>
+    </message>
+    <message>
+        <source>Insert &amp;Ordered List</source>
+        <translation>&amp;Нумерованный список</translation>
+    </message>
+    <message>
+        <source>Insert &amp;Unordered List</source>
+        <translation>&amp;Маркированный список</translation>
+    </message>
+</context>
+<context>
     <name>QWebEnginePage</name>
     <message>
         <source>Stop</source>

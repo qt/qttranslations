@@ -1113,20 +1113,20 @@
         <translation>Ошибка чтения</translation>
     </message>
     <message>
+        <source>A temporary form file could not be created in %1: %2</source>
+        <translation>Не удалось создать временный файл формы в %1: %2</translation>
+    </message>
+    <message>
+        <source>The temporary form file %1 could not be written: %2</source>
+        <translation>Не удалось записать во временный файл формы %1: %2</translation>
+    </message>
+    <message>
         <source>New Form</source>
         <translation>Новая форма</translation>
     </message>
     <message>
         <source>Show this Dialog on Startup</source>
         <translation>Показывать диалог при старте</translation>
-    </message>
-    <message>
-        <source>A temporary form file could not be created in %1.</source>
-        <translation>Временный файл формы не может быть создан в %1.</translation>
-    </message>
-    <message>
-        <source>The temporary form file %1 could not be written.</source>
-        <translation>Временный файл формы %1 не может быть записан.</translation>
     </message>
 </context>
 <context>

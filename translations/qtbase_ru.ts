@@ -9,37 +9,6 @@
     </message>
 </context>
 <context>
-    <name>MAC_APPLICATION_MENU</name>
-    <message>
-        <source>Services</source>
-        <translation>Службы</translation>
-    </message>
-    <message>
-        <source>Hide %1</source>
-        <translation>Скрыть %1</translation>
-    </message>
-    <message>
-        <source>Hide Others</source>
-        <translation>Скрыть другие</translation>
-    </message>
-    <message>
-        <source>Show All</source>
-        <translation>Показать всё</translation>
-    </message>
-    <message>
-        <source>Preferences...</source>
-        <translation>Настройки...</translation>
-    </message>
-    <message>
-        <source>Quit %1</source>
-        <translation>Завершить %1</translation>
-    </message>
-    <message>
-        <source>About %1</source>
-        <translation>О программе %1</translation>
-    </message>
-</context>
-<context>
     <name>QAbstractSocket</name>
     <message>
         <source>Socket operation timed out</source>
@@ -189,25 +158,6 @@
     </message>
 </context>
 <context>
-    <name>QAndroidPlatformTheme</name>
-    <message>
-        <source>Yes</source>
-        <translation>Да</translation>
-    </message>
-    <message>
-        <source>Yes to All</source>
-        <translation>Да для всех</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation>Нет</translation>
-    </message>
-    <message>
-        <source>No to All</source>
-        <translation>Нет для всех</translation>
-    </message>
-</context>
-<context>
     <name>QApplication</name>
     <message>
         <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
@@ -216,74 +166,6 @@
     <message>
         <source>Incompatible Qt Library Error</source>
         <translation>Ошибка совместимости библиотеки Qt</translation>
-    </message>
-</context>
-<context>
-    <name>QCocoaMenuItem</name>
-    <message>
-        <source>About Qt</source>
-        <translation>О Qt</translation>
-    </message>
-    <message>
-        <source>About</source>
-        <translation>О программе</translation>
-    </message>
-    <message>
-        <source>Config</source>
-        <translatorcomment>Это общая часть названия. Окончание пропущено специально.</translatorcomment>
-        <translation>Конфигур</translation>
-    </message>
-    <message>
-        <source>Preference</source>
-        <translatorcomment>Это общая часть названия. Окончание пропущено специально.</translatorcomment>
-        <translation>Свойств</translation>
-    </message>
-    <message>
-        <source>Options</source>
-        <translatorcomment>Это общая часть названия. Окончание пропущено специально.</translatorcomment>
-        <translation>Параметры</translation>
-    </message>
-    <message>
-        <source>Setting</source>
-        <translatorcomment>Это общая часть названия. Окончание пропущено специально.</translatorcomment>
-        <translation>Настройк</translation>
-    </message>
-    <message>
-        <source>Setup</source>
-        <translatorcomment>Это общая часть названия. Окончание пропущено специально.</translatorcomment>
-        <translation>Настр</translation>
-    </message>
-    <message>
-        <source>Quit</source>
-        <translatorcomment>Это общая часть названия. Окончание пропущено специально.</translatorcomment>
-        <translation>Заверш</translation>
-    </message>
-    <message>
-        <source>Exit</source>
-        <translation>Выход</translation>
-    </message>
-    <message>
-        <source>Cut</source>
-        <translation>Вырезать</translation>
-    </message>
-    <message>
-        <source>Copy</source>
-        <translation>Копировать</translation>
-    </message>
-    <message>
-        <source>Paste</source>
-        <translation>Вставить</translation>
-    </message>
-    <message>
-        <source>Select All</source>
-        <translation>Выделить всё</translation>
-    </message>
-</context>
-<context>
-    <name>QCocoaTheme</name>
-    <message>
-        <source>Don&apos;t Save</source>
-        <translation>Н&amp;е сохранять</translation>
     </message>
 </context>
 <context>
@@ -528,6 +410,29 @@ Press ESC to cancel</source>
     </message>
 </context>
 <context>
+    <name>QCupsPrinterSupport</name>
+    <message>
+        <source>Authentication Needed</source>
+        <translation>Требуется аутентификация</translation>
+    </message>
+    <message>
+        <source>Authentication needed to use %1.</source>
+        <translation>Для использования %1 требуется аутентификация.</translation>
+    </message>
+    <message>
+        <source>Authentication needed to use %1 on %2.</source>
+        <translation>Для использования %1 на %2 требуется аутентификация.</translation>
+    </message>
+    <message>
+        <source>Username:</source>
+        <translation>Имя пользователя:</translation>
+    </message>
+    <message>
+        <source>Password:</source>
+        <translation>Пароль:</translation>
+    </message>
+</context>
+<context>
     <name>QDB2Driver</name>
     <message>
         <source>Unable to connect</source>
@@ -767,6 +672,133 @@ Press ESC to cancel</source>
     <message>
         <source>Closes the dock widget</source>
         <translation>Закрывает виджет</translation>
+    </message>
+</context>
+<context>
+    <name>QDtls</name>
+    <message>
+        <source>Invalid (empty) secret</source>
+        <translation>Неверный (пустой) пароль</translation>
+    </message>
+    <message>
+        <source>Multicast and broadcast addresses are not supported</source>
+        <translation>Групповые и широковещательные адреса не поддерживаются</translation>
+    </message>
+    <message>
+        <source>Cannot set peer after handshake started</source>
+        <translation>Невозможно задать адрес после начала квитирования</translation>
+    </message>
+    <message>
+        <source>Invalid address</source>
+        <translation>Неверный адрес</translation>
+    </message>
+    <message>
+        <source>Cannot set verification name after handshake started</source>
+        <translation>Невозможно задать проверочное имя после начала квитирования</translation>
+    </message>
+    <message>
+        <source>Cannot set configuration after handshake started</source>
+        <translation>Невозможно задать конфигурацию после начала квитирования</translation>
+    </message>
+    <message>
+        <source>Cannot start/continue handshake, invalid handshake state</source>
+        <translation>Невозможно запустить/продолжить квитирование, так как его состояние неверно</translation>
+    </message>
+    <message>
+        <source>Invalid (nullptr) socket</source>
+        <translation>Неверный (nullptr) сокет</translation>
+    </message>
+    <message>
+        <source>To start a handshake you must set peer&apos;s address and port first</source>
+        <translation>Для запуска квитирования требуется сначала задать адрес и порт</translation>
+    </message>
+    <message>
+        <source>To start a handshake, DTLS server requires non-empty datagram (client hello)</source>
+        <translation>Сервер DTLS требует непустую датаграмму (client hello) для начала квитирования</translation>
+    </message>
+    <message>
+        <source>Cannot start handshake, already done/in progress</source>
+        <translation>Невозможно начать квитирование, так как уже выполнено или в процессе</translation>
+    </message>
+    <message>
+        <source>A valid QUdpSocket and non-empty datagram are needed to continue the handshake</source>
+        <translation>Для продолжения квитирования необходим корректный QUdpSocket и непустая датаграмма</translation>
+    </message>
+    <message>
+        <source>Cannot continue handshake, not in InProgress state</source>
+        <translation>Невозможно продолжить квитирование, так как состояние не InProgress</translation>
+    </message>
+    <message>
+        <source>Cannot resume, not in VerificationError state</source>
+        <translation>Невозможно возобновить, так как не в режиме VerificationError</translation>
+    </message>
+    <message>
+        <source>No handshake in progress, nothing to abort</source>
+        <translation>Квитирование не выполняется, нечего прерывать</translation>
+    </message>
+    <message>
+        <source>Cannot send shutdown alert, not encrypted</source>
+        <translation>Невозможно отправить оповещение о завершении, не зашифрован</translation>
+    </message>
+    <message>
+        <source>Cannot write a datagram, not in encrypted state</source>
+        <translation>Невозможно записать датаграмму, не зашифрован</translation>
+    </message>
+    <message>
+        <source>Cannot read a datagram, not in encrypted state</source>
+        <translation>Невозможно прочитать датаграмму, не зашифрован</translation>
+    </message>
+    <message>
+        <source>%1 failed</source>
+        <extracomment>%1: Some function</extracomment>
+        <translation>%1 завершилась с ошибкой</translation>
+    </message>
+    <message>
+        <source>Invalid SslMode, SslServerMode or SslClientMode expected</source>
+        <translation>Неверный SslMode, требуется или SslServerMode, или SslClientMode</translation>
+    </message>
+    <message>
+        <source>Invalid protocol version, DTLS protocol expected</source>
+        <translation>Неверная версия протокола, требуется протокол DTLS</translation>
+    </message>
+    <message>
+        <source>BIO_ADD_new failed, cannot start handshake</source>
+        <translation>BIO_ADD_new завершилась с ошибкой, невозможно начать квитирование</translation>
+    </message>
+    <message>
+        <source>Cannot start the handshake, verified client hello expected</source>
+        <translation>Невозможно начать квитирование, требуется проверенное приветствие клиента (client hello)</translation>
+    </message>
+    <message>
+        <source>Peer verification failed</source>
+        <translation>Не удалось выполнить проверку адреса</translation>
+    </message>
+    <message>
+        <source>The DTLS connection has been closed</source>
+        <translation>Соединение DTLS было закрыто</translation>
+    </message>
+    <message>
+        <source>Error while writing: %1</source>
+        <translation>Ошибка записи: %1</translation>
+    </message>
+    <message>
+        <source>The DTLS connection has been shutdown</source>
+        <translation>Соединение DTLS было завершено</translation>
+    </message>
+    <message>
+        <source>Error while reading: %1</source>
+        <translation>Ошибка чтения: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QDtlsClientVerifier</name>
+    <message>
+        <source>A valid UDP socket, non-empty datagram, valid address/port were expected</source>
+        <translation>Требуется допустимый сокет UDP, непустая датаграмма и корректный адрес/порт</translation>
+    </message>
+    <message>
+        <source>BIO_ADDR_new failed, ignoring client hello</source>
+        <translation>BIO_ADD_new завершилась с ошибкой, приветствие клиента (client hello) пропускается</translation>
     </message>
 </context>
 <context>
@@ -1547,11 +1579,11 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Proxy requires authentication</source>
-        <translation>Время на операцию с сокетом истекло</translation>
+        <translation>Прокси-сервер требует аутентификацию</translation>
     </message>
     <message>
         <source>Host requires authentication</source>
-        <translation>Узел требует авторизацию</translation>
+        <translation>Узел требует аутентификацию</translation>
     </message>
     <message>
         <source>Data corrupted</source>
@@ -1582,11 +1614,11 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Error parsing authentication request from proxy</source>
-        <translation>Ошибка разбора запроса авторизации от прокси-сервера</translation>
+        <translation>Ошибка разбора запроса аутентификации от прокси-сервера</translation>
     </message>
     <message>
         <source>Authentication required</source>
-        <translation>Требуется авторизация</translation>
+        <translation>Требуется аутентификация</translation>
     </message>
     <message>
         <source>Proxy denied connection</source>
@@ -1906,11 +1938,11 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>shstrtab section header seems to be at %1</source>
-        <translation type="unfinished">заголовок секции shstrtab кажется должен быть с %1</translation>
+        <translation>заголовок секции shstrtab кажется должен быть с %1</translation>
     </message>
     <message>
         <source>string table seems to be at %1</source>
-        <translation type="unfinished">таблица строк кажется должна быть с %1</translation>
+        <translation>таблица строк кажется должна быть с %1</translation>
     </message>
     <message>
         <source>section name %1 of %2 behind end of file</source>
@@ -1923,10 +1955,6 @@ Do you want to delete it anyway?</source>
     <message>
         <source>missing section data. This is not a library.</source>
         <translation>отсутствуют данные секции. Это не библиотека.</translation>
-    </message>
-    <message>
-        <source>Out of memory while loading plugin &apos;%1&apos;.</source>
-        <translation>Недостаточно памяти для загрузки модуля «%1».</translation>
     </message>
     <message>
         <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
@@ -2468,7 +2496,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Logging in to %1 failed: authentication required</source>
-        <translation>Соединение с %1 не удалось: требуется авторизация</translation>
+        <translation>Соединение с %1 не удалось: требуется аутентификация</translation>
     </message>
     <message>
         <source>Error while downloading %1: %2</source>
@@ -2684,17 +2712,6 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Unable to bind variable</source>
         <translation>Невозможно привязать значение</translation>
-    </message>
-</context>
-<context>
-    <name>QPPDOptionsModel</name>
-    <message>
-        <source>Name</source>
-        <translation>Название</translation>
-    </message>
-    <message>
-        <source>Value</source>
-        <translation>Значение</translation>
     </message>
 </context>
 <context>
@@ -3544,6 +3561,14 @@ Do you want to delete it anyway?</source>
         <translation>%1 имеет некорректный синтаксис. Используйте «,» для разделения страниц и диапазонов, а «-» для определения диапазонов. Пересекающиеся диапазоны недопустимы.</translation>
     </message>
     <message>
+        <source>Duplex Settings Conflicts</source>
+        <translation>Противоречия в настройках двусторонней печати</translation>
+    </message>
+    <message>
+        <source>There are conflicts in duplex settings. Do you want to fix them?</source>
+        <translation>Обнаружены противоречия в настройках двусторонней печати. Устранить?</translation>
+    </message>
+    <message>
         <source>Print to File (PDF)</source>
         <translation>Печать в файл (PDF)</translation>
     </message>
@@ -3687,8 +3712,16 @@ Please turn one of those options off.</source>
         <translation>Параметры задания</translation>
     </message>
     <message>
+        <source>Page Setup Conflicts</source>
+        <translation>Противоречия в настройках страницы</translation>
+    </message>
+    <message>
+        <source>There are conflicts in page setup options. Do you want to fix them?</source>
+        <translation>Обнаружены противоречия в настройках страницы. Устранить?</translation>
+    </message>
+    <message>
         <source>Advanced Option Conflicts</source>
-        <translation>Конфликт расширенных настроек</translation>
+        <translation>Противоречия расширенных настроек</translation>
     </message>
     <message>
         <source>There are conflicts in some advanced options. Do you want to fix them?</source>
@@ -4149,7 +4182,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>quantifier does not follow a repeatable item</source>
-        <translation type="unfinished">квантификатор не соответствует повторяемому элементу</translation>
+        <translation>квантификатор не соответствует повторяемому элементу</translation>
     </message>
     <message>
         <source>missing closing parenthesis</source>
@@ -4213,7 +4246,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>invalid escape sequence in (*VERB) name</source>
-        <translation type="unfinished">Неверная ESC-последовательность в имени (*VERB)</translation>
+        <translation>Неверная ESC-последовательность в имени (*VERB)</translation>
     </message>
     <message>
         <source>two named subpatterns have the same name (PCRE2_DUPNAMES not set)</source>
@@ -4519,7 +4552,7 @@ Please turn one of those options off.</source>
     <message>
         <source>nested recursion at the same subject position</source>
         <translatorcomment>х.з. что значит</translatorcomment>
-        <translation type="unfinished">вложенная рекурсия в той же позиции субъекта</translation>
+        <translation>вложенная рекурсия в той же позиции субъекта</translation>
     </message>
     <message>
         <source>recursion limit exceeded</source>
@@ -4548,7 +4581,7 @@ Please turn one of those options off.</source>
     <message>
         <source>bad substitution in replacement string</source>
         <translatorcomment>бред какой-то</translatorcomment>
-        <translation type="unfinished">плохая замена в замещающей строке</translation>
+        <translation>плохая замена в замещающей строке</translation>
     </message>
     <message>
         <source>match with end before start is not supported</source>
@@ -5820,11 +5853,11 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Proxy authentication failed</source>
-        <translation>Не удалось авторизоваться на прокси-сервере</translation>
+        <translation>Не удалось аутентифицироваться на прокси-сервере</translation>
     </message>
     <message>
         <source>Proxy authentication failed: %1</source>
-        <translation>Не удалось авторизоваться на прокси-сервере: %1</translation>
+        <translation>Не удалось аутентифицироваться на прокси-сервере: %1</translation>
     </message>
     <message>
         <source>SOCKS version 5 protocol error</source>
@@ -6444,6 +6477,14 @@ Role of an accessible object</extracomment>
         <source>Error during SSL handshake: %1</source>
         <translation>Ошибка квитирования SSL: %1</translation>
     </message>
+    <message>
+        <source>DTLS server requires a &apos;VerifyNone&apos; mode with your version of OpenSSL</source>
+        <translation>Серверу DTLS требуется режим «VerifyNone» для текущей версии OpenSSL</translation>
+    </message>
+    <message>
+        <source>TLS initialization failed</source>
+        <translation>Не удалось инициализировать TLS</translation>
+    </message>
 </context>
 <context>
     <name>QStandardPaths</name>
@@ -6616,6 +6657,10 @@ Role of an accessible object</extracomment>
     <message>
         <source>Image depth not valid</source>
         <translation>Недопустимая глубина цвета изображения</translation>
+    </message>
+    <message>
+        <source>Image size exceeds limit</source>
+        <translation>Размер изображения больше допустимого</translation>
     </message>
     <message>
         <source>Could not seek to image read footer</source>
@@ -6804,21 +6849,6 @@ Role of an accessible object</extracomment>
     <message>
         <source>Select All</source>
         <translation>Выделить всё</translation>
-    </message>
-</context>
-<context>
-    <name>QWindowsDirect2DIntegration</name>
-    <message>
-        <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
-
-The minimum Direct2D version required is %1. The Direct2D version on this system is %2.</source>
-        <translation>Qt не может загрузить модуль платформы direct2d, так как установленная версия Direct2D слишком старая. Минимальные требования этого модуля: Windows 7 SP1 с Platform Update.
-
-Требуется Direct2D версии не ниже %1. Версия обнаруженного Direct2D: %2.</translation>
-    </message>
-    <message>
-        <source>Cannot load direct2d platform plugin</source>
-        <translation>Не удалось загрузить модуль платформы direct2d</translation>
     </message>
 </context>
 <context>

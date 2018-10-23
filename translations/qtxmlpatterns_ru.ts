@@ -2,6 +2,31 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="ru_RU">
 <context>
+    <name>QQuickXmlListModel</name>
+    <message>
+        <source>&quot;%1&quot; duplicates a previous role name and will be disabled.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>invalid query: &quot;%1&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QQuickXmlListModelRole</name>
+    <message>
+        <source>An XmlRole query must not start with &apos;/&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QQuickXmlRoleList</name>
+    <message>
+        <source>An XmlListModel query must start with &apos;/&apos; or &quot;//&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>QXmlPatternistCLI</name>
     <message>
         <source>Warning in %1, at line %2, column %3: %4</source>

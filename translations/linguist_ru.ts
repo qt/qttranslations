@@ -1544,6 +1544,10 @@ Line: %2</source>
         <translation>Правка</translation>
     </message>
     <message>
+        <source>Go to</source>
+        <translation>Перейти</translation>
+    </message>
+    <message>
         <source>Guess from &apos;%1&apos; (%2)</source>
         <translation>Похожее из «%1» (%2)</translation>
     </message>
