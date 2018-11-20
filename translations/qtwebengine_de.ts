@@ -2,6 +2,85 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="de_DE">
 <context>
+    <name>QQuickWebEngineView</name>
+    <message>
+        <source>Stop</source>
+        <translation>Stop</translation>
+    </message>
+    <message>
+        <source>Reload and Bypass Cache</source>
+        <translation>Unter Umgehung des Caches neu laden</translation>
+    </message>
+    <message>
+        <source>Open link in this window</source>
+        <translation>Link in diesem Fenster öffnen</translation>
+    </message>
+    <message>
+        <source>Toggle Play/Pause</source>
+        <translation>Abspielen/Pausieren umschalten</translation>
+    </message>
+    <message>
+        <source>Toggle Mute</source>
+        <translation>Stummschaltung umschalten</translation>
+    </message>
+    <message>
+        <source>Close Page</source>
+        <translation>Seite schließen</translation>
+    </message>
+    <message>
+        <source>Unselect</source>
+        <translation>Auswahl aufheben</translation>
+    </message>
+    <message>
+        <source>&amp;Bold</source>
+        <translation>&amp;Fett</translation>
+    </message>
+    <message>
+        <source>&amp;Italic</source>
+        <translation>&amp;Kursiv</translation>
+    </message>
+    <message>
+        <source>&amp;Underline</source>
+        <translation>&amp;Unterstrichen</translation>
+    </message>
+    <message>
+        <source>&amp;Strikethrough</source>
+        <translation>&amp;Durchgestrichen</translation>
+    </message>
+    <message>
+        <source>Align &amp;Left</source>
+        <translation>&amp;Linksbündig ausrichten</translation>
+    </message>
+    <message>
+        <source>Align &amp;Center</source>
+        <translation>&amp;Mittig ausrichten</translation>
+    </message>
+    <message>
+        <source>Align &amp;Right</source>
+        <translation>&amp;Rechtsbündig ausrichten</translation>
+    </message>
+    <message>
+        <source>Align &amp;Justified</source>
+        <translation>&amp;Blocksatz</translation>
+    </message>
+    <message>
+        <source>&amp;Indent</source>
+        <translation>&amp;Einrücken</translation>
+    </message>
+    <message>
+        <source>&amp;Outdent</source>
+        <translation>&amp;Ausrücken</translation>
+    </message>
+    <message>
+        <source>Insert &amp;Ordered List</source>
+        <translation>&amp;Nummerierte Liste einfügen</translation>
+    </message>
+    <message>
+        <source>Insert &amp;Unordered List</source>
+        <translation>&amp;Liste einfügen</translation>
+    </message>
+</context>
+<context>
     <name>QWebEnginePage</name>
     <message>
         <source>Stop</source>

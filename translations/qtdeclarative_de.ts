@@ -195,8 +195,8 @@
         <translation>createObject: Der Wert ist kein Objekt</translation>
     </message>
     <message>
-        <source>Object destroyed during incubation</source>
-        <translation>Ein Objekt wurde während der Inkubation zerstört</translation>
+        <source>Object or context destroyed during incubation</source>
+        <translation>Ein Objekt oder ein Kontext wurde während der Inkubation zerstört</translation>
     </message>
 </context>
 <context>

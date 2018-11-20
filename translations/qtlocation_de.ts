@@ -11,6 +11,13 @@ Bitte besuchen Sie https://developers.arcgis.com/authentication/accessing-arcgis
     </message>
 </context>
 <context>
+    <name>PlaceSearchReplyEsri</name>
+    <message>
+        <source>Response parse error</source>
+        <translation>Fehler beim Auswerten der Antwort</translation>
+    </message>
+</context>
+<context>
     <name>QDeclarativeGeoMap</name>
     <message>
         <source>No Map</source>
@@ -86,6 +93,18 @@ Bitte besuchen Sie https://developers.arcgis.com/authentication/accessing-arcgis
 </context>
 <context>
     <name>QGeoMappingManagerEngineMapboxGL</name>
+    <message>
+        <source>China Streets</source>
+        <translation>Straßen (chinesisch)</translation>
+    </message>
+    <message>
+        <source>China Light</source>
+        <translation>Hell (chinesisch)</translation>
+    </message>
+    <message>
+        <source>China Dark</source>
+        <translation>Dunkel (chinesisch)</translation>
+    </message>
     <message>
         <source>Streets</source>
         <translation>Straßen</translation>
