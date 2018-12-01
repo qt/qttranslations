@@ -174,12 +174,52 @@
 <context>
     <name>DSCameraSession</name>
     <message>
+        <source>Failed to configure preview format</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Failed to connect graph</source>
+        <translation>Ha fallat en connectar el graf</translation>
+    </message>
+    <message>
+        <source>Failed to get stream control</source>
+        <translation>Ha fallat en obtenir el control del flux</translation>
+    </message>
+    <message>
+        <source>Failed to start</source>
+        <translation>Ha fallat en iniciar</translation>
+    </message>
+    <message>
+        <source>Failed to stop</source>
+        <translation>Ha fallat en aturar</translation>
+    </message>
+    <message>
         <source>Camera not ready for capture</source>
         <translation>La càmera no està llesta per a la captura</translation>
     </message>
     <message>
         <source>Could not save image to file.</source>
         <translation>No s&apos;ha pogut desar la imatge al fitxer.</translation>
+    </message>
+    <message>
+        <source>Failed to create filter graph</source>
+        <translation>Ha fallat en crear el graf del filtre</translation>
+    </message>
+    <message>
+        <source>Failed to create graph builder</source>
+        <translation>Ha fallat en crear el constructor del graf</translation>
+    </message>
+    <message>
+        <source>Failed to connect capture graph and filter graph</source>
+        <translation>Ha fallat en connectar el graf de captura i el graf de filtre</translation>
+    </message>
+    <message>
+        <source>No capture device found</source>
+        <translation>No s&apos;ha trobat cop dispositiu de captura</translation>
+    </message>
+    <message>
+        <source>Failed to create null renderer</source>
+        <translation>Ha fallat en crear el renderitzador nul</translation>
     </message>
 </context>
 <context>

@@ -858,6 +858,10 @@ Premeu Esc per cancel·lar</translation>
         <translation>No s&apos;ha pogut eliminar el fitxer origen</translation>
     </message>
     <message>
+        <source>Cannot open destination file: %1</source>
+        <translation>No s&apos;ha pogut obrir el fitxer de destinació: %1</translation>
+    </message>
+    <message>
         <source>Cannot open %1 for input</source>
         <translation>No s&apos;ha pogut obrir %1 per entrada</translation>
     </message>
@@ -1158,6 +1162,10 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>&lt;b&gt;The name &quot;%1&quot; can not be used.&lt;/b&gt;&lt;p&gt;Try using another name, with fewer characters or no punctuations marks.</source>
+        <translation type="vanished">&lt;b&gt;No es pot usar el nom «%1».&lt;/b&gt;&lt;p&gt;Proveu-ho amb un altre nom, amb menys caràcters o sense signes de puntuació.</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;The name &quot;%1&quot; cannot be used.&lt;/b&gt;&lt;p&gt;Try using another name, with fewer characters or no punctuation marks.</source>
         <translation>&lt;b&gt;No es pot usar el nom «%1».&lt;/b&gt;&lt;p&gt;Proveu-ho amb un altre nom, amb menys caràcters o sense signes de puntuació.</translation>
     </message>
     <message>
@@ -1988,6 +1996,10 @@ El voleu suprimir igualment?</translation>
         <translation type="vanished">Error de verificació de dades del connector a «%1»</translation>
     </message>
     <message>
+        <source>Out of memory while loading plugin &apos;%1&apos;.</source>
+        <translation>Sense memòria en carregar el connector «%1».</translation>
+    </message>
+    <message>
         <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
         <translation>Ha fallat en extreure les metadades del connector des de «%1»</translation>
     </message>
@@ -2771,6 +2783,17 @@ applications where you wish to use such applications in combination with softwar
     </message>
 </context>
 <context>
+    <name>QPPDOptionsModel</name>
+    <message>
+        <source>Name</source>
+        <translation>Nom</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Valor</translation>
+    </message>
+</context>
+<context>
     <name>QPSQLDriver</name>
     <message>
         <source>Unable to connect</source>
@@ -2800,8 +2823,20 @@ applications where you wish to use such applications in combination with softwar
 <context>
     <name>QPSQLResult</name>
     <message>
+        <source>Query results lost - probably discarded on executing another SQL query.</source>
+        <translation>S&apos;han perdut els resultats de la consulta - probablement s&apos;han descartat en executar una altra consulta SQL.</translation>
+    </message>
+    <message>
         <source>Unable to create query</source>
         <translation>No s&apos;ha pogut crear la consulta</translation>
+    </message>
+    <message>
+        <source>Unable to get result</source>
+        <translation>No s&apos;ha pogut obtenir el resultat</translation>
+    </message>
+    <message>
+        <source>Unable to send query</source>
+        <translation>No s&apos;ha pogut enviar la consulta</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
@@ -3596,6 +3631,14 @@ applications where you wish to use such applications in combination with softwar
         <translation>&amp;Opcions &lt;&lt;</translation>
     </message>
     <message>
+        <source>Invalid Pages Definition</source>
+        <translation>Definició no vàlida de pàgina</translation>
+    </message>
+    <message>
+        <source>%1 does not follow the correct syntax. Please use &apos;,&apos; to separate ranges and pages, &apos;-&apos; to define ranges and make sure ranges do not intersect with each other.</source>
+        <translation>%1 no segueix la sintaxi correcta. Useu «,» per separarar intervals i pàgines, «-» per definir intervals i assegureu-vos que els intervals no intersequen entre ells.</translation>
+    </message>
+    <message>
         <source>Print to File (PDF)</source>
         <translation>Imprimeix a fitxer (PDF)</translation>
     </message>
@@ -3737,6 +3780,14 @@ Desactiveu una de les dues opcions.</translation>
         <source>Job Options</source>
         <translation>Opcions del treball</translation>
     </message>
+    <message>
+        <source>Advanced Option Conflicts</source>
+        <translation>Conflictes d&apos;opcions avançades</translation>
+    </message>
+    <message>
+        <source>There are conflicts in some advanced options. Do you want to fix them?</source>
+        <translation>Hi ha conflictes a diverses opcions avançades. Voleu arreglar-los?</translation>
+    </message>
 </context>
 <context>
     <name>QPrintPropertiesWidget</name>
@@ -3747,6 +3798,14 @@ Desactiveu una de les dues opcions.</translation>
     <message>
         <source>Page</source>
         <translation>Pàgina</translation>
+    </message>
+    <message>
+        <source>Advanced</source>
+        <translation>Avançat</translation>
+    </message>
+    <message>
+        <source>There are conflicts in some options. Please fix them.</source>
+        <translation>Hi ha conflictes a diverses opcions. Esmeneu-los.</translation>
     </message>
 </context>
 <context>
@@ -3834,6 +3893,14 @@ Desactiveu una de les dues opcions.</translation>
     <message>
         <source>Short side</source>
         <translation>Vora curta</translation>
+    </message>
+    <message>
+        <source>Pages</source>
+        <translation>Pàgines</translation>
+    </message>
+    <message>
+        <source>Specify pages or ranges separated by commas. Ranges are specified by two numbers separated by a hyphen. E.g: 3,5-7,9 prints pages 3, 5, 6, 7 and 9.</source>
+        <translation>Especifique les pàgines o intervals separats per comes. Els intervals s&apos;especifiquen amb dos nombres separats per un guió. P. ex: 3,5-7,9 imprimeix les pàgines 3, 5, 6, 7 i 9.</translation>
     </message>
 </context>
 <context>
@@ -6440,6 +6507,14 @@ Role of an accessible object</extracomment>
         <translation>protocol no admès</translation>
     </message>
     <message>
+        <source>Error while setting the minimal protocol version</source>
+        <translation>Error en determinar la versió mínim del protocol</translation>
+    </message>
+    <message>
+        <source>Error while setting the maximum protocol version</source>
+        <translation>Error en determinar la versió màxima del protocol</translation>
+    </message>
+    <message>
         <source>Invalid or empty cipher list (%1)</source>
         <translation>Llista de xifres no vàlida o buida (%1)</translation>
     </message>
@@ -6466,6 +6541,34 @@ Role of an accessible object</extracomment>
     <message>
         <source>OpenSSL version with disabled elliptic curves</source>
         <translation>Vesió de l&apos;OpenSSL amb les corbes el·líptiques desactivades</translation>
+    </message>
+    <message>
+        <source>Error when setting the OpenSSL configuration (%1)</source>
+        <translation>Error en definir la configuració de l&apos;OpenSSL (%1)</translation>
+    </message>
+    <message>
+        <source>Expecting QByteArray for %1</source>
+        <translation>S&apos;esperava un QByteArray per %1</translation>
+    </message>
+    <message>
+        <source>An error occurred attempting to set %1 to %2</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Wrong value for %1 (%2)</source>
+        <translation>Valor erroni per %1 (%2)</translation>
+    </message>
+    <message>
+        <source>Unrecognized command %1 = %2</source>
+        <translation>Ordre no reconeguda %1 = %2</translation>
+    </message>
+    <message>
+        <source>SSL_CONF_finish() failed</source>
+        <translation>Ha fallat SSL_CONF_finish()</translation>
+    </message>
+    <message>
+        <source>SSL_CONF_CTX_new() failed</source>
+        <translation>Ha fallat SSL_CONF_CTX_new()</translation>
     </message>
     <message>
         <source>OpenSSL version too old, need at least v1.0.2</source>
@@ -6967,9 +7070,17 @@ Role of an accessible object</extracomment>
         <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
 
 The minimum Direct2D version required is %1.%2.%3.%4. The Direct2D version on this system is %5.%6.%7.%8.</source>
-        <translation>Les Qt no han pogut carregar el connector de la plataforma direct2d perquè la versió del Direct2D en aquest sistema és massa antiga. El requeriment mínim de sistema per aquest connector de plataforma és Windows 7 SP1 amb «Platform Update».
+        <translation type="vanished">Les Qt no han pogut carregar el connector de la plataforma direct2d perquè la versió del Direct2D en aquest sistema és massa antiga. El requeriment mínim de sistema per aquest connector de plataforma és Windows 7 SP1 amb «Platform Update».
 
 La versió mínima requerida del Direct2D és %1.%2.%3.%4. La versió del Direct2D en aquest sistema és %5.%6.%7.%8.</translation>
+    </message>
+    <message>
+        <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
+
+The minimum Direct2D version required is %1. The Direct2D version on this system is %2.</source>
+        <translation>Les Qt no han pogut carregar el connector de la plataforma direct2d perquè la versió del Direct2D en aquest sistema és massa antiga. El requeriment mínim de sistema per aquest connector de plataforma és Windows 7 SP1 amb «Platform Update».
+
+La versió mínima requerida del Direct2D és %1. La versió del Direct2D en aquest sistema és %2.</translation>
     </message>
     <message>
         <source>Cannot load direct2d platform plugin</source>
