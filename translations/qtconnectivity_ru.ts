@@ -989,12 +989,12 @@
     <message>
         <source>3-Zone Heart Rate Limits</source>
         <translatorcomment>нужна консультация специалиста</translatorcomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Трёхзонные пределы ЧСС</translation>
     </message>
     <message>
         <source>2-Zone Heart Rate Limits</source>
         <translatorcomment>нужна консультация специалиста</translatorcomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Двухзонные пределы ЧСС</translation>
     </message>
     <message>
         <source>Oxygen Uptake</source>
@@ -1236,10 +1236,6 @@
         <translation>Неизвестная ошибка сокета</translation>
     </message>
     <message>
-        <source>Connecting to port is not supported</source>
-        <translation>Подключение к порту не поддерживается</translation>
-    </message>
-    <message>
         <source>Service cannot be found</source>
         <translation>Невозможно найти сервис</translation>
     </message>
@@ -1329,6 +1325,44 @@
     <message>
         <source>Host refused connection</source>
         <translation>Узел отклонил подключение</translation>
+    </message>
+    <message>
+        <source>Cannot export profile on DBus</source>
+        <translation>Нельзя экспортировать профиль на DBus</translation>
+    </message>
+    <message>
+        <source>Cannot register profile on DBus</source>
+        <translation>Нельзя зарегистрировать профиль на DBus</translation>
+    </message>
+    <message>
+        <source>Cannot find remote device</source>
+        <translation>Нельзя найти внешнее устройство</translation>
+    </message>
+    <message>
+        <source>Cannot connect to remote profile</source>
+        <translation>Нельзя подключиться к внешнему профилю</translation>
+    </message>
+    <message>
+        <source>Missing serviceUuid or Serial Port service class uuid</source>
+        <translation>Отсутствуют serviceUuid или UUID класса сервиса последовательного порта</translation>
+    </message>
+    <message>
+        <source>Invalid Bluetooth address passed to connectToService()</source>
+        <translation>Неверный адрес Bluetooth передан в connectToService()</translation>
+    </message>
+</context>
+<context>
+    <name>QBluetoothSocketPrivateAndroid</name>
+    <message>
+        <source>Connecting to port is not supported</source>
+        <translation>Подключение к порту не поддерживается</translation>
+    </message>
+</context>
+<context>
+    <name>QBluetoothSocketPrivateBluezDBus</name>
+    <message>
+        <source>Connecting to port is not supported via Bluez DBus</source>
+        <translation>Подключение к порту не поддерживается через Bluez DBus</translation>
     </message>
 </context>
 <context>

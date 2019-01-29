@@ -4,6 +4,5 @@
     <dependencies>
         <dependency catalog="qtbase_he"/>
         <dependency catalog="qtscript_he"/>
-        <dependency catalog="qtquick1_he"/>
     </dependencies>
 </TS>

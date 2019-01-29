@@ -11,6 +11,13 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     </message>
 </context>
 <context>
+    <name>PlaceSearchReplyEsri</name>
+    <message>
+        <source>Response parse error</source>
+        <translation>Ошибка разбора ответа</translation>
+    </message>
+</context>
+<context>
     <name>QDeclarativeGeoMap</name>
     <message>
         <source>No Map</source>

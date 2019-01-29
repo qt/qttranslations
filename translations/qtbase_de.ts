@@ -522,6 +522,29 @@ Drücken Sie ESC, um abzubrechen</translation>
     </message>
 </context>
 <context>
+    <name>QCupsPrinterSupport</name>
+    <message>
+        <source>Authentication Needed</source>
+        <translation>Authentifizierung erforderlich</translation>
+    </message>
+    <message>
+        <source>Authentication needed to use %1.</source>
+        <translation>Die Benutzung von %1 erfordert eine Authentifizierung.</translation>
+    </message>
+    <message>
+        <source>Authentication needed to use %1 on %2.</source>
+        <translation>Die Benutzung von %1 auf %2 erfordert eine Authentifizierung.</translation>
+    </message>
+    <message>
+        <source>Username:</source>
+        <translation>Benutzername:</translation>
+    </message>
+    <message>
+        <source>Password:</source>
+        <translation>Passwort:</translation>
+    </message>
+</context>
+<context>
     <name>QDB2Driver</name>
     <message>
         <source>Unable to connect</source>
@@ -757,6 +780,133 @@ Drücken Sie ESC, um abzubrechen</translation>
     <message>
         <source>Closes the dock widget</source>
         <translation>Schließt das Dock-Widget</translation>
+    </message>
+</context>
+<context>
+    <name>QDtls</name>
+    <message>
+        <source>Invalid (empty) secret</source>
+        <translation>Ungültiges (leeres) Secret</translation>
+    </message>
+    <message>
+        <source>Invalid address</source>
+        <translation>Ungültige Adresse</translation>
+    </message>
+    <message>
+        <source>Multicast and broadcast addresses are not supported</source>
+        <translation>Multicast- und Broadcast-Adressen werden nicht unterstützt</translation>
+    </message>
+    <message>
+        <source>Cannot set peer after handshake started</source>
+        <translation>Nach Beginn des Handshake kann keine Gegenseite gesetzt werden</translation>
+    </message>
+    <message>
+        <source>Cannot set verification name after handshake started</source>
+        <translation>Nach Beginn des Handshake kann kein Prüfname gesetzt werden</translation>
+    </message>
+    <message>
+        <source>Cannot set configuration after handshake started</source>
+        <translation>Nach Beginn des Handshake kann keine Konfiguration gesetzt werden</translation>
+    </message>
+    <message>
+        <source>Cannot start/continue handshake, invalid handshake state</source>
+        <translation>Der Handshake kann nicht begonnen oder fortgesetzt werden; er befindet sich in einem ungültigen Zustand</translation>
+    </message>
+    <message>
+        <source>Invalid (nullptr) socket</source>
+        <translation>Ungültiger (nullptr) Socket</translation>
+    </message>
+    <message>
+        <source>To start a handshake, DTLS server requires non-empty datagram (client hello)</source>
+        <translation>Der DTLS-Server verlangt ein nicht-leeres Datagram (client hello), um einen Handshake zu beginnen</translation>
+    </message>
+    <message>
+        <source>Cannot start handshake, already done/in progress</source>
+        <translation>Es kann kein Handshake begonnen werden, da er bereits läuft oder beendet wurde</translation>
+    </message>
+    <message>
+        <source>No handshake in progress, nothing to abort</source>
+        <translation>Es kann nichts abgebrochen werden, da kein Handshake läuft</translation>
+    </message>
+    <message>
+        <source>To start a handshake you must set peer&apos;s address and port first</source>
+        <translation>Adresse und Port der Gegenseite müssen gesetzt werden, um einen Handshake zu beginnen</translation>
+    </message>
+    <message>
+        <source>A valid QUdpSocket and non-empty datagram are needed to continue the handshake</source>
+        <translation>Eine gültige Instanz von QUdpSocket und ein nicht-leeres Datagram sind erforderlich, um den Handshake fortzusetzen</translation>
+    </message>
+    <message>
+        <source>Cannot continue handshake, not in InProgress state</source>
+        <translation>Der Handshake kann nicht fortgesetzt werden, nicht im Status InProgress</translation>
+    </message>
+    <message>
+        <source>Cannot resume, not in VerificationError state</source>
+        <translation>Kann nicht fortsetzen, nicht im Status VerificationError</translation>
+    </message>
+    <message>
+        <source>Cannot send shutdown alert, not encrypted</source>
+        <translation>Es kann keine shutdown Benachrichtigung gesendet werden, fehlende Verschlüsselung</translation>
+    </message>
+    <message>
+        <source>Cannot write a datagram, not in encrypted state</source>
+        <translation>Es kann kein Datagram geschrieben werden, fehlende Verschlüsselung</translation>
+    </message>
+    <message>
+        <source>Cannot read a datagram, not in encrypted state</source>
+        <translation>Es kann kein Datagram gelesen werden, fehlende Verschlüsselung</translation>
+    </message>
+    <message>
+        <source>%1 failed</source>
+        <extracomment>%1: Some function</extracomment>
+        <translation>%1 schlug fehl</translation>
+    </message>
+    <message>
+        <source>Invalid SslMode, SslServerMode or SslClientMode expected</source>
+        <translation>Ungültiger SslMode, es wird SslServerMode oder SslClientMode erwartet</translation>
+    </message>
+    <message>
+        <source>Invalid protocol version, DTLS protocol expected</source>
+        <translation>Ungültige Protokollversion, es wird DTLS-Protokoll erwartet</translation>
+    </message>
+    <message>
+        <source>BIO_ADD_new failed, cannot start handshake</source>
+        <translation>BIO_ADD_new schlug fehl, es kann kein Handshake begonnen werden</translation>
+    </message>
+    <message>
+        <source>Cannot start the handshake, verified client hello expected</source>
+        <translation>Der Handshake kann nicht begonnen werden; es ist ein verifiziertes client hello erforderlich</translation>
+    </message>
+    <message>
+        <source>Error while writing: %1</source>
+        <translation>Beim Schreiben ist ein Fehler aufgetreten: %1</translation>
+    </message>
+    <message>
+        <source>Error while reading: %1</source>
+        <translation>Beim Lesen ist ein Fehler aufgetreten: %1</translation>
+    </message>
+    <message>
+        <source>Peer verification failed</source>
+        <translation>Die Überprüfung der Gegenseite schlug fehl</translation>
+    </message>
+    <message>
+        <source>The DTLS connection has been closed</source>
+        <translation>Die DTLS-Verbindung wurde geschlossen</translation>
+    </message>
+    <message>
+        <source>The DTLS connection has been shutdown</source>
+        <translation>Die DTLS-Verbindung wurde beendet</translation>
+    </message>
+</context>
+<context>
+    <name>QDtlsClientVerifier</name>
+    <message>
+        <source>A valid UDP socket, non-empty datagram, valid address/port were expected</source>
+        <translation>Es werden ein gültiger UDP-Socket, ein nicht leeres Datagram, eine gültige Adresse sowie ein gültiger Port vorausgesetzt</translation>
+    </message>
+    <message>
+        <source>BIO_ADDR_new failed, ignoring client hello</source>
+        <translation>BIO_ADDR_new schlug fehl, die Hello-Nachricht des Client wird ignoriert</translation>
     </message>
 </context>
 <context>
@@ -1915,10 +2065,6 @@ Möchten Sie die Datei trotzdem löschen?</translation>
         <translation>Fehlende Daten der Sektion; dies scheint keine Bibliothek zu sein.</translation>
     </message>
     <message>
-        <source>Out of memory while loading plugin &apos;%1&apos;.</source>
-        <translation>Das Plugin &apos;%1&apos; konnte auf Grund mangelnden Speicherplatzes nicht geladen werden.</translation>
-    </message>
-    <message>
         <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
         <translation>Die Metadaten des Plugins &apos;%1&apos; konnten nicht bestimmt werden</translation>
     </message>
@@ -2263,12 +2409,12 @@ Möchten Sie die Datei trotzdem löschen?</translation>
         <translation>Details ausblenden...</translation>
     </message>
     <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</translation>
-    </message>
-    <message>
         <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
         <translation>&lt;h3&gt;Über Qt&lt;/h3&gt;&lt;p&gt;Dieses Programm verwendet Qt Version %1.&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About Qt</source>
@@ -2674,17 +2820,6 @@ Möchten Sie die Datei trotzdem löschen?</translation>
     <message>
         <source>Unable to bind variable</source>
         <translation>Die Variable konnte nicht gebunden werden</translation>
-    </message>
-</context>
-<context>
-    <name>QPPDOptionsModel</name>
-    <message>
-        <source>Name</source>
-        <translation>Name</translation>
-    </message>
-    <message>
-        <source>Value</source>
-        <translation>Wert</translation>
     </message>
 </context>
 <context>
@@ -3533,6 +3668,14 @@ Möchten Sie die Datei trotzdem löschen?</translation>
         <translation>%1 entspricht nicht der richtigen Schreibweise. Bitte benutzen Sie &apos;,&apos; um Bereiche und Seitennummern voneinander abzugrenzen, &apos;-&apos; um Bereiche festzulegen, und stellen Sie sicher, dass sich die Bereiche nicht überschneiden.</translation>
     </message>
     <message>
+        <source>Duplex Settings Conflicts</source>
+        <translation>Widersprüchliche Duplexeinstellungen</translation>
+    </message>
+    <message>
+        <source>There are conflicts in duplex settings. Do you want to fix them?</source>
+        <translation>Die Duplexeinstellungen sind widersprüchlich. Möchten Sie diese korrigieren?</translation>
+    </message>
+    <message>
         <source>Print to File (PDF)</source>
         <translation>In PDF-Datei drucken</translation>
     </message>
@@ -3675,12 +3818,20 @@ Bitte deaktivieren Sie eine der beiden.</translation>
         <translation>Einstellungen zum Druckauftrag</translation>
     </message>
     <message>
+        <source>Page Setup Conflicts</source>
+        <translation>Widersprüchliche Seiteneinstellungen</translation>
+    </message>
+    <message>
+        <source>There are conflicts in page setup options. Do you want to fix them?</source>
+        <translation>Die Seiteneinstellungen sind widersprüchlich. Möchten Sie diese korrigieren?</translation>
+    </message>
+    <message>
         <source>Advanced Option Conflicts</source>
         <translation>Widersprüchliche erweiterte Einstellungen</translation>
     </message>
     <message>
         <source>There are conflicts in some advanced options. Do you want to fix them?</source>
-        <translation>Es liegen Widersprüche in den erweiterten Einstellung vor. Möchten Sie sie korrigieren?</translation>
+        <translation>Die erweiterten Einstellungen sind widersprüchlich. Möchten Sie diese korrigieren?</translation>
     </message>
 </context>
 <context>
@@ -6327,6 +6478,14 @@ Role of an accessible object</extracomment>
         <translation>Nicht unterstütztes Protokoll</translation>
     </message>
     <message>
+        <source>Error while setting the minimal protocol version</source>
+        <translation>Fehler beim Setzen der minimalen Protokollversion</translation>
+    </message>
+    <message>
+        <source>Error while setting the maximum protocol version</source>
+        <translation>Fehler beim Setzen der maximalen Protokollversion</translation>
+    </message>
+    <message>
         <source>Invalid or empty cipher list (%1)</source>
         <translation>Ungültige oder leere Schlüsselliste (%1)</translation>
     </message>
@@ -6421,6 +6580,14 @@ Role of an accessible object</extracomment>
     <message>
         <source>Error during SSL handshake: %1</source>
         <translation>Im Ablauf des SSL-Protokolls ist ein Fehler aufgetreten: %1</translation>
+    </message>
+    <message>
+        <source>DTLS server requires a &apos;VerifyNone&apos; mode with your version of OpenSSL</source>
+        <translation>Der DTLS-Server verlangt für Ihre Version der OpenSSL-Bibliothek den &apos;VerifyNone&apos;-Modus</translation>
+    </message>
+    <message>
+        <source>TLS initialization failed</source>
+        <translation>Die Initialisierung von TLS schlug fehl</translation>
     </message>
 </context>
 <context>
@@ -6594,6 +6761,10 @@ Role of an accessible object</extracomment>
     <message>
         <source>Image depth not valid</source>
         <translation>Ungültige Tiefenangabe in Bilddaten</translation>
+    </message>
+    <message>
+        <source>Image size exceeds limit</source>
+        <translation>Das Bild ist zu groß</translation>
     </message>
     <message>
         <source>Could not seek to image read footer</source>
