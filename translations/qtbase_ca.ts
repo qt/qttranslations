@@ -1996,10 +1996,6 @@ El voleu suprimir igualment?</translation>
         <translation type="vanished">Error de verificació de dades del connector a «%1»</translation>
     </message>
     <message>
-        <source>Out of memory while loading plugin &apos;%1&apos;.</source>
-        <translation>Sense memòria en carregar el connector «%1».</translation>
-    </message>
-    <message>
         <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
         <translation>Ha fallat en extreure les metadades del connector des de «%1»</translation>
     </message>
@@ -2824,7 +2820,7 @@ applications where you wish to use such applications in combination with softwar
     <name>QPSQLResult</name>
     <message>
         <source>Query results lost - probably discarded on executing another SQL query.</source>
-        <translation>S&apos;han perdut els resultats de la consulta - probablement s&apos;han descartat en executar una altra consulta SQL.</translation>
+        <translation>S&apos;han perdut els resultats de la consulta - probablement descartats en executar una altra consulta SQL.</translation>
     </message>
     <message>
         <source>Unable to create query</source>
@@ -2832,7 +2828,7 @@ applications where you wish to use such applications in combination with softwar
     </message>
     <message>
         <source>Unable to get result</source>
-        <translation>No s&apos;ha pogut obtenir el resultat</translation>
+        <translation>No s&apos;ha pogut obtenir els resultats</translation>
     </message>
     <message>
         <source>Unable to send query</source>
@@ -3632,11 +3628,11 @@ applications where you wish to use such applications in combination with softwar
     </message>
     <message>
         <source>Invalid Pages Definition</source>
-        <translation>Definició no vàlida de pàgina</translation>
+        <translation>Definició no vàlida de les pàgines</translation>
     </message>
     <message>
         <source>%1 does not follow the correct syntax. Please use &apos;,&apos; to separate ranges and pages, &apos;-&apos; to define ranges and make sure ranges do not intersect with each other.</source>
-        <translation>%1 no segueix la sintaxi correcta. Useu «,» per separarar intervals i pàgines, «-» per definir intervals i assegureu-vos que els intervals no intersequen entre ells.</translation>
+        <translation>%1 no segueix la sintaxi correcta. Useu «,» per separar intervals i pàgines, «-» per definir intervals, i assegureu-vos que els intervals no se sobreposen entre ells.</translation>
     </message>
     <message>
         <source>Print to File (PDF)</source>
@@ -3786,7 +3782,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>There are conflicts in some advanced options. Do you want to fix them?</source>
-        <translation>Hi ha conflictes a diverses opcions avançades. Voleu arreglar-los?</translation>
+        <translation>Hi ha conflictes a les opcions avançades. Els voleu solucionar?</translation>
     </message>
 </context>
 <context>
@@ -3805,7 +3801,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>There are conflicts in some options. Please fix them.</source>
-        <translation>Hi ha conflictes a diverses opcions. Esmeneu-los.</translation>
+        <translation>Hi ha conflictes a diverses opcions. Si us plau, solucioneu-los.</translation>
     </message>
 </context>
 <context>
@@ -3900,7 +3896,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>Specify pages or ranges separated by commas. Ranges are specified by two numbers separated by a hyphen. E.g: 3,5-7,9 prints pages 3, 5, 6, 7 and 9.</source>
-        <translation>Especifique les pàgines o intervals separats per comes. Els intervals s&apos;especifiquen amb dos nombres separats per un guió. P. ex: 3,5-7,9 imprimeix les pàgines 3, 5, 6, 7 i 9.</translation>
+        <translation>Especifiqueu les pàgines o intervals separats per comes. Els intervals s&apos;especifiquen amb dos nombres separats per un guió. P. ex: 3,5-7,9 imprimeix les pàgines 3, 5, 6, 7 i 9.</translation>
     </message>
 </context>
 <context>
@@ -6508,11 +6504,11 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>Error while setting the minimal protocol version</source>
-        <translation>Error en determinar la versió mínim del protocol</translation>
+        <translation>Error en definir la versió mínima del protocol</translation>
     </message>
     <message>
         <source>Error while setting the maximum protocol version</source>
-        <translation>Error en determinar la versió màxima del protocol</translation>
+        <translation>Error en definir la versió màxima del protocol</translation>
     </message>
     <message>
         <source>Invalid or empty cipher list (%1)</source>
@@ -6548,11 +6544,11 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>Expecting QByteArray for %1</source>
-        <translation>S&apos;esperava un QByteArray per %1</translation>
+        <translation>S&apos;esperava QByteArray per %1</translation>
     </message>
     <message>
         <source>An error occurred attempting to set %1 to %2</source>
-        <translation></translation>
+        <translation>S&apos;ha produït un error en intentar establir %1 a %2</translation>
     </message>
     <message>
         <source>Wrong value for %1 (%2)</source>
@@ -6874,6 +6870,10 @@ Role of an accessible object</extracomment>
     <message>
         <source>Image depth not valid</source>
         <translation>Profunditat de la imatge no vàlida</translation>
+    </message>
+    <message>
+        <source>Image size exceeds limit</source>
+        <translation>La mida de la imatge excedeix el límit</translation>
     </message>
     <message>
         <source>Could not seek to image read footer</source>

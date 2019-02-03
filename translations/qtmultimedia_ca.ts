@@ -175,7 +175,7 @@
     <name>DSCameraSession</name>
     <message>
         <source>Failed to configure preview format</source>
-        <translation></translation>
+        <translation>Ha fallat en configurar el format de la vista prèvia</translation>
     </message>
     <message>
         <source>Failed to connect graph</source>
@@ -203,19 +203,19 @@
     </message>
     <message>
         <source>Failed to create filter graph</source>
-        <translation>Ha fallat en crear el graf del filtre</translation>
+        <translation>Ha fallat en crear el graf de filtres</translation>
     </message>
     <message>
         <source>Failed to create graph builder</source>
-        <translation>Ha fallat en crear el constructor del graf</translation>
+        <translation>Ha fallat en crear el constructor de grafs</translation>
     </message>
     <message>
         <source>Failed to connect capture graph and filter graph</source>
-        <translation>Ha fallat en connectar el graf de captura i el graf de filtre</translation>
+        <translation>Ha fallat en crear el graf de captures i el graf de filtres</translation>
     </message>
     <message>
         <source>No capture device found</source>
-        <translation>No s&apos;ha trobat cop dispositiu de captura</translation>
+        <translation>No s&apos;ha trobat cap dispositiu de captura</translation>
     </message>
     <message>
         <source>Failed to create null renderer</source>
