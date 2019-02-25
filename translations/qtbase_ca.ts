@@ -1009,7 +1009,7 @@ Premeu Esc per cancel·lar</translation>
     </message>
     <message>
         <source>Show </source>
-        <translation>Mostra</translation>
+        <translation>Mostra </translation>
     </message>
     <message>
         <source>&amp;Rename</source>
@@ -1150,7 +1150,7 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>%1 KB</source>
-        <translation type="vanished">%1 KB</translation>
+        <translation type="vanished">%1 kB</translation>
     </message>
     <message>
         <source>%1 bytes</source>
@@ -1246,11 +1246,11 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>Extra Light</source>
-        <translation>Extra fi</translation>
+        <translation>Extrafi</translation>
     </message>
     <message>
         <source>Extra Bold</source>
-        <translation>Extra negreta</translation>
+        <translation>Extranegreta</translation>
     </message>
     <message>
         <source>Extra</source>
@@ -1989,7 +1989,7 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>missing section data. This is not a library.</source>
-        <translation>manca la secció «data». Això no es cap biblioteca.</translation>
+        <translation>manca la secció «data». Això no és cap biblioteca.</translation>
     </message>
     <message>
         <source>Plugin verification data mismatch in &apos;%1&apos;</source>
@@ -4205,7 +4205,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>PCRE does not support \L, \l, \N{name}, \U, or \u</source>
-        <translation>PCRE not accepta \L, \l, \N{nom}, \U, ni \u</translation>
+        <translation>PCRE no accepta \L, \l, \N{nom}, \U, ni \u</translation>
     </message>
     <message>
         <source>number after (?C is &gt; 255</source>
@@ -4313,7 +4313,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>different names for subpatterns of the same number are not allowed</source>
-        <translation>no es permeten noms diferents per subpatrons dels mateix nombre</translation>
+        <translation>no es permeten noms diferents per subpatrons del mateix nombre</translation>
     </message>
     <message>
         <source>(*MARK) must have an argument</source>
@@ -4405,7 +4405,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>unrecognised compile-time option bit(s)</source>
-        <translation>bit/s no reconegut/s d&apos;opció en temps de compilació </translation>
+        <translation>bit/s no reconegut/s d&apos;opció en temps de compilació</translation>
     </message>
     <message>
         <source>missing ) after (?# comment</source>
@@ -4433,7 +4433,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>this version of PCRE2 does not have Unicode support</source>
-        <translation>aquesta versió del PCRE2 no implementa el Unicode</translation>
+        <translation>aquesta versió del PCRE2 no implementa l&apos;Unicode</translation>
     </message>
     <message>
         <source>parentheses are too deeply nested (stack check)</source>
@@ -4441,7 +4441,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>character code point value in \x{} or \o{} is too large</source>
-        <translation>el valor del codi de caràcter de coma en \x{} o \o{} es massa gran</translation>
+        <translation>el valor del codi de caràcter de coma en \x{} o \o{} és massa gran</translation>
     </message>
     <message>
         <source>\C is not allowed in a lookbehind assertion</source>
@@ -4509,11 +4509,11 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>character code point value in \u.... sequence is too large</source>
-        <translation>el valor del codi de caràcter de coma a una seqüència en \u.... es massa gran</translation>
+        <translation>el valor del codi de caràcter de coma a una seqüència en \u.... és massa gran</translation>
     </message>
     <message>
         <source>digits missing in \x{} or \o{}</source>
-        <translation>manquen els dígits a\x{} o \o{} </translation>
+        <translation>manquen els dígits a\x{} o \o{}</translation>
     </message>
     <message>
         <source>syntax error in (?(VERSION condition</source>
@@ -4709,11 +4709,11 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>too much recursion for DFA matching</source>
-        <translation>hi ha massa recursió per a la coincidència DFA</translation>
+        <translation>hi ha massa recursivitat per a la coincidència DFA</translation>
     </message>
     <message>
         <source>backreference condition or recursion test is not supported for DFA matching</source>
-        <translation>la condició de referència cap enrere o la prova de recursió no estan admeses a la coincidència DFA</translation>
+        <translation>la condició de referència cap enrere o la prova de recursivitat no estan admeses a la coincidència DFA</translation>
     </message>
     <message>
         <source>function is not supported for DFA matching</source>
@@ -4761,7 +4761,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>nested recursion at the same subject position</source>
-        <translation>recursió imbricada en la mateixa posició del subjecte</translation>
+        <translation>recursivitat imbricada a la mateixa posició del subjecte</translation>
     </message>
     <message>
         <source>recursion limit exceeded</source>
@@ -5137,7 +5137,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>ScrollLock</source>
-        <translation>BloqDespl</translation>
+        <translation>Bloq Despl</translation>
     </message>
     <message>
         <source>Menu</source>
@@ -5177,7 +5177,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>Bass Boost</source>
-        <translation>Potencia de greus</translation>
+        <translation>Potència de greus</translation>
     </message>
     <message>
         <source>Bass Up</source>

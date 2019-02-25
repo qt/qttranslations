@@ -128,7 +128,7 @@
     </message>
     <message>
         <source>Rear Camera</source>
-        <translation type="vanished">Darrera de la càmera</translation>
+        <translation type="vanished">Darrere de la càmera</translation>
     </message>
     <message>
         <source>Desktop Camera</source>
