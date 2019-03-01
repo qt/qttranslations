@@ -1,412 +1,402 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ca">
+<TS version="2.1" language="zh_TW">
 <context>
     <name>CloseButton</name>
     <message>
         <source>Close Tab</source>
-        <translation>Tanca pestanya</translation>
+        <translation>關閉分頁</translation>
     </message>
 </context>
 <context>
     <name>MAC_APPLICATION_MENU</name>
     <message>
-        <source>Services</source>
-        <translation>Serveis</translation>
-    </message>
-    <message>
-        <source>Hide %1</source>
-        <translation>Oculta %1</translation>
-    </message>
-    <message>
-        <source>Hide Others</source>
-        <translation>Oculta altres</translation>
-    </message>
-    <message>
-        <source>Show All</source>
-        <translation>Mostra-ho tot</translation>
+        <source>About %1</source>
+        <translation>關於 %1</translation>
     </message>
     <message>
         <source>Preferences...</source>
-        <translation>Preferències...</translation>
+        <translation>偏好設定…</translation>
+    </message>
+    <message>
+        <source>Services</source>
+        <translation>服務</translation>
+    </message>
+    <message>
+        <source>Hide %1</source>
+        <translation>隱藏 %1</translation>
+    </message>
+    <message>
+        <source>Hide Others</source>
+        <translation>隱藏其他</translation>
+    </message>
+    <message>
+        <source>Show All</source>
+        <translation>顯示全部</translation>
     </message>
     <message>
         <source>Quit %1</source>
-        <translation>Surt de %1</translation>
-    </message>
-    <message>
-        <source>About %1</source>
-        <translation>Quant a %1</translation>
+        <translation>結束 %1</translation>
     </message>
 </context>
 <context>
     <name>QAbstractSocket</name>
     <message>
         <source>Socket operation timed out</source>
-        <translation>Operació de sòcol ha excedit el temps</translation>
+        <translation>Socket 操作逾時</translation>
     </message>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>Operació no admesa en el sòcol</translation>
+        <translation>不支援於 Socket 上操作</translation>
     </message>
     <message>
         <source>Host not found</source>
-        <translation>No s&apos;ha trobat l&apos;ordinador</translation>
+        <translation>找不到主機</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>S&apos;ha rebutjat la connexió</translation>
+        <translation>連線被拒</translation>
     </message>
     <message>
         <source>Connection timed out</source>
-        <translation>Temps de connexió excedit</translation>
+        <translation>連線逾時</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation>S&apos;intenta connectar mentre la connexió és en curs</translation>
+        <translation>嘗試在連線時連線</translation>
     </message>
     <message>
         <source>Socket is not connected</source>
-        <translation>El sòcol no s&apos;ha connectat</translation>
+        <translation>未連線 Socket</translation>
     </message>
     <message>
         <source>Network unreachable</source>
-        <translation>Xarxa no accessible</translation>
+        <translation>無法連到網路</translation>
     </message>
 </context>
 <context>
     <name>QAbstractSpinBox</name>
     <message>
         <source>&amp;Select All</source>
-        <translation>&amp;Selecciona-ho tot</translation>
+        <translation>全部選擇(&amp;S)</translation>
     </message>
     <message>
         <source>&amp;Step up</source>
-        <translation>En&amp;davant</translation>
+        <translation>單步向上(&amp;S)</translation>
     </message>
     <message>
         <source>Step &amp;down</source>
-        <translation>En&amp;rere</translation>
+        <translation>單步向下(&amp;D)</translation>
     </message>
 </context>
 <context>
     <name>QAccessibleActionInterface</name>
     <message>
         <source>Press</source>
-        <translation>Prem</translation>
+        <translation>按下</translation>
     </message>
     <message>
         <source>Increase</source>
-        <translation>Augmenta</translation>
+        <translation>增加</translation>
     </message>
     <message>
         <source>Decrease</source>
-        <translation>Disminueix</translation>
+        <translation>減少</translation>
     </message>
     <message>
         <source>ShowMenu</source>
-        <translation>Mostra el menú</translation>
+        <translation>顯示選單</translation>
     </message>
     <message>
         <source>SetFocus</source>
-        <translation>Estableix el focus</translation>
+        <translation>設定焦點</translation>
     </message>
     <message>
         <source>Toggle</source>
-        <translation>Commuta</translation>
+        <translation>切換</translation>
     </message>
     <message>
         <source>Scroll Left</source>
-        <translation>Desplaçament a l&apos;esquerra</translation>
+        <translation>往左捲動</translation>
     </message>
     <message>
         <source>Scroll Right</source>
-        <translation>Desplaçament a la dreta</translation>
+        <translation>往右捲動</translation>
     </message>
     <message>
         <source>Scroll Up</source>
-        <translation>Desplaçament cap amunt</translation>
+        <translation>往上捲動</translation>
     </message>
     <message>
         <source>Scroll Down</source>
-        <translation>Desplaçament cap avall</translation>
+        <translation>往下捲動</translation>
     </message>
     <message>
         <source>Previous Page</source>
-        <translation>Pàgina anterior</translation>
+        <translation>上一頁</translation>
     </message>
     <message>
         <source>Next Page</source>
-        <translation>Pàgina següent</translation>
+        <translation>下一頁</translation>
     </message>
     <message>
         <source>Triggers the action</source>
-        <translation>Activa l&apos;acció</translation>
+        <translation>觸發動作</translation>
     </message>
     <message>
         <source>Increase the value</source>
-        <translation>Augmenta el valor</translation>
+        <translation>增加值</translation>
     </message>
     <message>
         <source>Decrease the value</source>
-        <translation>Disminueix el valor</translation>
+        <translation>減少值</translation>
     </message>
     <message>
         <source>Shows the menu</source>
-        <translation>Mostra el menú</translation>
+        <translation>顯示選單</translation>
     </message>
     <message>
         <source>Sets the focus</source>
-        <translation>Estableix el focus</translation>
+        <translation>設定焦點</translation>
     </message>
     <message>
         <source>Toggles the state</source>
-        <translation>Commuta l&apos;estat</translation>
+        <translation>切換狀態</translation>
     </message>
     <message>
         <source>Scrolls to the left</source>
-        <translation>Desplaça a l&apos;esquerra</translation>
+        <translation>捲動到左邊</translation>
     </message>
     <message>
         <source>Scrolls to the right</source>
-        <translation>Desplaça a la dreta</translation>
+        <translation>捲動到右邊</translation>
     </message>
     <message>
         <source>Scrolls up</source>
-        <translation>Desplaça amunt</translation>
+        <translation>往上捲動</translation>
     </message>
     <message>
         <source>Scrolls down</source>
-        <translation>Desplaça avall</translation>
+        <translation>往下捲動</translation>
     </message>
     <message>
         <source>Goes back a page</source>
-        <translation>Retrocedeix una pàgina</translation>
+        <translation>回到前一頁</translation>
     </message>
     <message>
         <source>Goes to the next page</source>
-        <translation>Avança a la pàgina següent</translation>
+        <translation>前往下一頁</translation>
     </message>
 </context>
 <context>
     <name>QAndroidPlatformTheme</name>
     <message>
         <source>Yes</source>
-        <translation>Sí</translation>
+        <translation>是</translation>
     </message>
     <message>
         <source>Yes to All</source>
-        <translation>Sí a tot</translation>
+        <translation>全部皆是</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>No</translation>
+        <translation>否</translation>
     </message>
     <message>
         <source>No to All</source>
-        <translation>No a tot</translation>
+        <translation>全部皆否</translation>
     </message>
 </context>
 <context>
     <name>QApplication</name>
     <message>
         <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
-        <translation>L&apos;executable «%1» requereix les Qt %2, s&apos;han trobat les Qt %3.</translation>
+        <translation>執行檔「%1」需要 Qt %2，但只找到 Qt %3。</translation>
     </message>
     <message>
         <source>Incompatible Qt Library Error</source>
-        <translation>Error de biblioteca Qt incompatible</translation>
+        <translation>Qt 函式庫不相容錯誤</translation>
     </message>
 </context>
 <context>
     <name>QCocoaMenuItem</name>
     <message>
         <source>About Qt</source>
-        <translation>Quant a les Qt</translation>
+        <translation>關於 Qt</translation>
     </message>
     <message>
         <source>About</source>
-        <translation>Quant a</translation>
+        <translation>關於</translation>
     </message>
     <message>
         <source>Config</source>
-        <translation>Configuració</translation>
+        <translation>設定</translation>
     </message>
     <message>
         <source>Preference</source>
-        <translation>Preferències</translation>
+        <translation>偏好設定</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Opcions</translation>
+        <translation>選項</translation>
     </message>
     <message>
         <source>Setting</source>
-        <translation>Paràmetre</translation>
+        <translation>設定</translation>
     </message>
     <message>
         <source>Setup</source>
-        <translation>Configuració</translation>
+        <translation>設定</translation>
     </message>
     <message>
         <source>Quit</source>
-        <translation>Surt</translation>
+        <translation>離開</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>Surt</translation>
+        <translation>離開</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation>Retalla</translation>
+        <translation>剪下</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Copia</translation>
+        <translation>複製</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>Enganxa</translation>
+        <translation>貼上</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Selecciona-ho tot</translation>
+        <translation>全部選擇</translation>
     </message>
 </context>
 <context>
     <name>QCocoaTheme</name>
     <message>
         <source>Don&apos;t Save</source>
-        <translation>No desis</translation>
+        <translation>不要儲存</translation>
     </message>
 </context>
 <context>
     <name>QColorDialog</name>
     <message>
         <source>Hu&amp;e:</source>
-        <translation>&amp;To:</translation>
+        <translation>色調(&amp;E)：</translation>
     </message>
     <message>
         <source>&amp;Sat:</source>
-        <translation>&amp;Sat.:</translation>
+        <translation>飽和度(&amp;S)：</translation>
     </message>
     <message>
         <source>&amp;Val:</source>
-        <translation>&amp;Al.vert.:</translation>
+        <translation>亮度(&amp;V)：</translation>
     </message>
     <message>
         <source>&amp;Red:</source>
-        <translation>&amp;Vermell:</translation>
+        <translation>紅(&amp;R)：</translation>
     </message>
     <message>
         <source>&amp;Green:</source>
-        <translation>V&amp;erd:</translation>
+        <translation>綠(&amp;G)：</translation>
     </message>
     <message>
         <source>Bl&amp;ue:</source>
-        <translation>Bla&amp;u:</translation>
+        <translation>藍(&amp;U)：</translation>
     </message>
     <message>
         <source>A&amp;lpha channel:</source>
-        <translation>Canal a&amp;lfa:</translation>
+        <translation>Alpha 色頻(&amp;L)：</translation>
     </message>
     <message>
         <source>&amp;HTML:</source>
-        <translation>&amp;HTML:</translation>
+        <translation>&amp;HTML：</translation>
     </message>
     <message>
         <source>Cursor at %1, %2
 Press ESC to cancel</source>
-        <translation>Cursor a %1, %2
-Premeu ESC per cancel·lar</translation>
-    </message>
-    <message>
-        <source>&amp;Pick Screen Color</source>
-        <translation>Selecció de color de la &amp;pantalla</translation>
-    </message>
-    <message>
-        <source>Cursor at %1, %2, color: %3
-Press ESC to cancel</source>
-        <translation type="vanished">Cursor en %1, %2, color: %3
-Premeu Esc per cancel·lar</translation>
+        <translation>游標在 %1, %2 位置
+按下 ESC 取消</translation>
     </message>
     <message>
         <source>Select Color</source>
-        <translation>Selecció de color</translation>
-    </message>
-    <message>
-        <source>Pick Screen Color</source>
-        <translation type="vanished">Selecció de color de la pantalla</translation>
+        <translation>選擇顏色</translation>
     </message>
     <message>
         <source>&amp;Basic colors</source>
-        <translation>Colors &amp;bàsics</translation>
+        <translation>基本顏色(&amp;B)</translation>
     </message>
     <message>
         <source>&amp;Custom colors</source>
-        <translation>&amp;Colors personalitzats</translation>
+        <translation>自訂顏色(&amp;C)</translation>
     </message>
     <message>
         <source>&amp;Add to Custom Colors</source>
-        <translation>&amp;Afegeix als colors personalitzats</translation>
+        <translation>新增到自訂顏色(&amp;A)</translation>
+    </message>
+    <message>
+        <source>&amp;Pick Screen Color</source>
+        <translation>擷取螢幕顏色(&amp;P)</translation>
     </message>
 </context>
 <context>
     <name>QComboBox</name>
     <message>
+        <source>Open the combo box selection popup</source>
+        <translation>打開下拉式方塊的選取區塊彈出視窗</translation>
+    </message>
+    <message>
         <source>False</source>
-        <translation>Fals</translation>
+        <translation>假 (False)</translation>
     </message>
     <message>
         <source>True</source>
-        <translation>Cert</translation>
-    </message>
-    <message>
-        <source>Open the combo box selection popup</source>
-        <translation>Obre el quadre combinat emergent</translation>
+        <translation>真 (True)</translation>
     </message>
 </context>
 <context>
     <name>QCommandLineParser</name>
     <message>
         <source>Displays version information.</source>
-        <translation>Mostra la informació de la versió.</translation>
+        <translation>顯示版本資訊。</translation>
     </message>
     <message>
         <source>Displays this help.</source>
-        <translation>Mostra aquesta ajuda.</translation>
+        <translation>顯示此說明。</translation>
     </message>
     <message>
         <source>Unknown option &apos;%1&apos;.</source>
-        <translation>Opció «%1» desconeguda.</translation>
+        <translation>未知選項「%1」。</translation>
     </message>
     <message>
         <source>Unknown options: %1.</source>
-        <translation>Opcions desconegudes: «%1».</translation>
+        <translation>未知選項：%1。</translation>
     </message>
     <message>
         <source>Missing value after &apos;%1&apos;.</source>
-        <translation>Manca un valor després de «%1».</translation>
+        <translation>缺少「%1」後的值。</translation>
     </message>
     <message>
         <source>Unexpected value after &apos;%1&apos;.</source>
-        <translation>Valor inesperat després de «%1».</translation>
+        <translation>「%1」後發現非預期的值。</translation>
     </message>
     <message>
         <source>[options]</source>
-        <translation>[opcions]</translation>
+        <translation>[選項]</translation>
     </message>
     <message>
         <source>Usage: %1</source>
-        <translation>Ús: %1</translation>
+        <translation>用法：%1</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>Opcions:</translation>
+        <translation>選項：</translation>
     </message>
     <message>
         <source>Arguments:</source>
-        <translation>Arguments:</translation>
+        <translation>參數：</translation>
     </message>
 </context>
 <context>
@@ -414,361 +404,361 @@ Premeu Esc per cancel·lar</translation>
     <message>
         <source>%1: key is empty</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: la clau és buida</translation>
+        <translation>%1：鍵值是空的</translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: no s&apos;ha pogut crear la clau</translation>
+        <translation>%1：無法建立鍵值</translation>
     </message>
     <message>
         <source>%1: ftok failed</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: ha fallat el «ftok»</translation>
+        <translation>%1：ftok 失敗</translation>
     </message>
 </context>
 <context>
     <name>QCupsJobWidget</name>
     <message>
         <source>Job</source>
-        <translation>Treball</translation>
+        <translation>作業</translation>
     </message>
     <message>
         <source>Job Control</source>
-        <translation>Control de treballs</translation>
+        <translation>作業控制</translation>
     </message>
     <message>
         <source>Scheduled printing:</source>
-        <translation>Impressió planificada:</translation>
+        <translation>排定列印：</translation>
     </message>
     <message>
         <source>Billing information:</source>
-        <translation>Informació de facturació:</translation>
+        <translation>付款資訊：</translation>
     </message>
     <message>
         <source>Job priority:</source>
-        <translation>Prioritat del treball:</translation>
+        <translation>作業優先級：</translation>
     </message>
     <message>
         <source>Banner Pages</source>
-        <translation>Pàgines de bàner</translation>
+        <translation>橫幅頁面</translation>
     </message>
     <message>
         <source>End:</source>
         <comment>Banner page at end</comment>
-        <translation>Final:</translation>
+        <translation>結尾：</translation>
     </message>
     <message>
         <source>Start:</source>
         <comment>Banner page at start</comment>
-        <translation>Inici:</translation>
+        <translation>開始：</translation>
     </message>
     <message>
         <source>Print Immediately</source>
-        <translation>Imprimeix immediatament</translation>
+        <translation>立即列印</translation>
     </message>
     <message>
         <source>Hold Indefinitely</source>
-        <translation>Retén indefinidament</translation>
+        <translation>立即暫停列印</translation>
     </message>
     <message>
         <source>Day (06:00 to 17:59)</source>
-        <translation>Diürn (06:00 a 17:59)</translation>
+        <translation>早上 (06:00 到 17:59)</translation>
     </message>
     <message>
         <source>Night (18:00 to 05:59)</source>
-        <translation>Nocturn (18:00 a 05:59)</translation>
+        <translation>晚上 (18:00 到 05:59)</translation>
     </message>
     <message>
         <source>Second Shift (16:00 to 23:59)</source>
-        <translation>Segon torn (16:00 a 23:59)</translation>
+        <translation>第二輪班 (16:00 到 23:59)</translation>
     </message>
     <message>
         <source>Third Shift (00:00 to 07:59)</source>
-        <translation>Tercer torn (00:00 a 07:59)</translation>
+        <translation>第三輪班 (00:00 到 07:59)</translation>
     </message>
     <message>
         <source>Weekend (Saturday to Sunday)</source>
-        <translation>Cap de setmana (Dissabte a diumenge)</translation>
+        <translation>假日（週六到週日）</translation>
     </message>
     <message>
         <source>Specific Time</source>
-        <translation>Hora específica</translation>
+        <translation>指定時間</translation>
     </message>
     <message>
         <source>None</source>
         <comment>CUPS Banner page</comment>
-        <translation>Cap</translation>
+        <translation>無</translation>
     </message>
     <message>
         <source>Standard</source>
         <comment>CUPS Banner page</comment>
-        <translation>Estàndard</translation>
+        <translation>標準</translation>
     </message>
     <message>
         <source>Unclassified</source>
         <comment>CUPS Banner page</comment>
-        <translation>Sense classificar</translation>
+        <translation>未分類</translation>
     </message>
     <message>
         <source>Confidential</source>
         <comment>CUPS Banner page</comment>
-        <translation>Confidencial</translation>
+        <translation>機密</translation>
     </message>
     <message>
         <source>Classified</source>
         <comment>CUPS Banner page</comment>
-        <translation>Classificat</translation>
+        <translation>已分類</translation>
     </message>
     <message>
         <source>Secret</source>
         <comment>CUPS Banner page</comment>
-        <translation>Secret</translation>
+        <translation>機密</translation>
     </message>
     <message>
         <source>Top Secret</source>
         <comment>CUPS Banner page</comment>
-        <translation>Secret</translation>
+        <translation>高度機密</translation>
+    </message>
+</context>
+<context>
+    <name>QCupsPrinterSupport</name>
+    <message>
+        <source>Authentication Needed</source>
+        <translation>需要驗證</translation>
+    </message>
+    <message>
+        <source>Authentication needed to use %1.</source>
+        <translation>使用 %1 需要驗證。</translation>
+    </message>
+    <message>
+        <source>Authentication needed to use %1 on %2.</source>
+        <translation>要使用 %2 上的 %1 需要驗證。</translation>
+    </message>
+    <message>
+        <source>Username:</source>
+        <translation>使用者名稱：</translation>
+    </message>
+    <message>
+        <source>Password:</source>
+        <translation>密碼：</translation>
     </message>
 </context>
 <context>
     <name>QDB2Driver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>No s&apos;ha pogut connectar</translation>
+        <translation>無法連線</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>No s&apos;ha pogut confirmar la transacció</translation>
+        <translation>無法提交處理事項</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>No s&apos;ha pogut desfer la transacció</translation>
+        <translation>無法回退處理事項</translation>
     </message>
     <message>
         <source>Unable to set autocommit</source>
-        <translation>No s&apos;ha pogut establir la pròpia confirmació</translation>
+        <translation>無法設定自動提交</translation>
     </message>
 </context>
 <context>
     <name>QDB2Result</name>
     <message>
         <source>Unable to execute statement</source>
-        <translation>No s&apos;ha pogut executar la sentència</translation>
+        <translation>無法執行陳述</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>No s&apos;ha pogut preparar la sentència</translation>
+        <translation>無法準備陳述</translation>
     </message>
     <message>
         <source>Unable to bind variable</source>
-        <translation>No s&apos;ha pogut vincular la variable</translation>
+        <translation>無法結合變數</translation>
     </message>
     <message>
         <source>Unable to fetch record %1</source>
-        <translation>No s&apos;ha pogut recuperar el registre %1</translation>
+        <translation>無法抓取紀錄 %1</translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>No s&apos;ha pogut recuperar el següent</translation>
+        <translation>無法抓取下一筆</translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>No s&apos;ha pogut recuperar el primer</translation>
+        <translation>無法抓取第一筆</translation>
     </message>
 </context>
 <context>
     <name>QDBusTrayIcon</name>
     <message>
         <source>OK</source>
-        <translation>D&apos;acord</translation>
-    </message>
-</context>
-<context>
-    <name>QDateTimeEdit</name>
-    <message>
-        <source>AM</source>
-        <translation type="vanished">AM</translation>
-    </message>
-    <message>
-        <source>am</source>
-        <translation type="vanished">am</translation>
-    </message>
-    <message>
-        <source>PM</source>
-        <translation type="vanished">PM</translation>
-    </message>
-    <message>
-        <source>pm</source>
-        <translation type="vanished">pm</translation>
+        <translation>確定</translation>
     </message>
 </context>
 <context>
     <name>QDateTimeParser</name>
     <message>
         <source>AM</source>
-        <translation>AM</translation>
+        <translation>上午</translation>
     </message>
     <message>
         <source>am</source>
-        <translation>am</translation>
+        <translation>上午</translation>
     </message>
     <message>
         <source>PM</source>
-        <translation>PM</translation>
+        <translation>下午</translation>
     </message>
     <message>
         <source>pm</source>
-        <translation>pm</translation>
+        <translation>下午</translation>
     </message>
 </context>
 <context>
     <name>QDialog</name>
     <message>
         <source>What&apos;s This?</source>
-        <translation>Què és això?</translation>
+        <translation>這是什麼？</translation>
     </message>
 </context>
 <context>
     <name>QDialogButtonBox</name>
     <message>
         <source>OK</source>
-        <translation>D&apos;acord</translation>
+        <translation>確定</translation>
     </message>
 </context>
 <context>
     <name>QDirModel</name>
     <message>
         <source>Name</source>
-        <translation>Nom</translation>
+        <translation>名稱</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Mida</translation>
+        <translation>大小</translation>
     </message>
     <message>
         <source>Kind</source>
         <comment>Match OS X Finder</comment>
-        <translation>Classe</translation>
+        <translation>種類</translation>
     </message>
     <message>
         <source>Type</source>
         <comment>All other platforms</comment>
-        <translation>Tipus</translation>
+        <translation>型態</translation>
     </message>
     <message>
         <source>Date Modified</source>
-        <translation>Data de modificació</translation>
+        <translation>變更日期</translation>
     </message>
 </context>
 <context>
     <name>QDnsLookup</name>
     <message>
         <source>Operation cancelled</source>
-        <translation>Operació cancel·lada</translation>
+        <translation>已取消動作</translation>
     </message>
 </context>
 <context>
     <name>QDnsLookupRunnable</name>
     <message>
         <source>IPv6 addresses for nameservers are currently not supported</source>
-        <translation>Actualment les adreces IPv6 no estan admeses pels servidors de noms</translation>
+        <translation>目前不支援名稱伺服器的 IPv6 位址</translation>
     </message>
     <message>
         <source>Invalid domain name</source>
-        <translation>Nom de domini no vàlid</translation>
+        <translation>網域名稱無效</translation>
     </message>
     <message>
         <source>Not yet supported on Android</source>
-        <translation>Encara no està admès a l&apos;Android</translation>
+        <translation>尚未支援 Android</translation>
     </message>
     <message>
         <source>Resolver functions not found</source>
-        <translation>No s&apos;ha trobat les funcions del resolutor</translation>
+        <translation>找不到解析器函式</translation>
     </message>
     <message>
         <source>Resolver initialization failed</source>
-        <translation>La inicialització del resolutor ha fallat</translation>
-    </message>
-    <message>
-        <source>IPv6 addresses for nameservers is currently not supported</source>
-        <translation type="vanished">Actualment les adreces IPv6 no són admeses pels servidors de noms</translation>
+        <translation>解析器初始化失敗</translation>
     </message>
     <message>
         <source>Server could not process query</source>
-        <translation>El servidor no ha pogut processar la consulta</translation>
+        <translation>伺服器無法處理查詢</translation>
     </message>
     <message>
         <source>Server failure</source>
-        <translation>Fallada del servidor</translation>
+        <translation>伺服器失敗</translation>
     </message>
     <message>
         <source>Non existent domain</source>
-        <translation>Domini no existent</translation>
+        <translation>不存在的網域</translation>
     </message>
     <message>
         <source>Server refused to answer</source>
-        <translation>El servidor ha refusat respondre</translation>
+        <translation>伺服器拒絕回答</translation>
     </message>
     <message>
         <source>Invalid reply received</source>
-        <translation>S&apos;ha rebut una resposta no vàlida</translation>
+        <translation>接收到無效回應</translation>
     </message>
     <message>
         <source>Could not expand domain name</source>
-        <translation>No s&apos;ha pogut expandir el nom de domini</translation>
+        <translation>無法展開網域名稱</translation>
     </message>
     <message>
         <source>Invalid IPv4 address record</source>
-        <translation>Registre no vàlid d&apos;adreça IPv4</translation>
+        <translation>無效的 IPv4 位址記錄</translation>
     </message>
     <message>
         <source>Invalid IPv6 address record</source>
-        <translation>Registre no vàlid d&apos;adreça IPv6</translation>
+        <translation>無效的 IPv6 位址記錄</translation>
     </message>
     <message>
         <source>Invalid canonical name record</source>
-        <translation>Registre no vàlid de nom canònic</translation>
+        <translation>無效的 CNAME 記錄</translation>
     </message>
     <message>
         <source>Invalid name server record</source>
-        <translation>Registre no vàlid de servidor de noms</translation>
+        <translation>無效的 NS 記錄</translation>
     </message>
     <message>
         <source>Invalid pointer record</source>
-        <translation>Registre no vàlid de punter de noms</translation>
+        <translation>無效的指向 (Pointer) 記錄</translation>
     </message>
     <message>
         <source>Invalid mail exchange record</source>
-        <translation>Registre no vàlid d&apos;intercanvi de correu</translation>
+        <translation>無效的 MX 記錄</translation>
     </message>
     <message>
         <source>Invalid service record</source>
-        <translation>Registre no vàlid de servei</translation>
+        <translation>無效的 SRV 記錄</translation>
     </message>
     <message>
         <source>Invalid text record</source>
-        <translation>Registre no vàlid de text</translation>
+        <translation>無效的 TXT 記錄</translation>
     </message>
     <message>
         <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
-        <translation>No s&apos;ha pogut carregar la biblioteca de resolució: No s&apos;admet la càrrega de biblioteques en execució</translation>
+        <translation>無法載入解析器函式庫：沒有載入執行函式庫的支援</translation>
     </message>
     <message>
         <source>No hostname given</source>
-        <translation>No s&apos;ha indicat cap nom d&apos;ordinador</translation>
+        <translation>未提供主機</translation>
     </message>
     <message>
         <source>Invalid hostname</source>
-        <translation>Nom d&apos;ordinador no vàlid</translation>
+        <translation>主機無效</translation>
     </message>
     <message>
         <source>Host %1 could not be found.</source>
-        <translation>No s&apos;ha pogut trobar l&apos;ordinador %1.</translation>
+        <translation>找不到 %1 網域。</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Error desconegut</translation>
+        <translation>未知錯誤</translation>
     </message>
 </context>
 <context>
@@ -776,781 +766,887 @@ Premeu Esc per cancel·lar</translation>
     <message>
         <source>Float</source>
         <extracomment>Accessible name for button undocking a dock widget (floating state)</extracomment>
-        <translation>Flotant</translation>
+        <translation>浮動</translation>
     </message>
     <message>
         <source>Undocks and re-attaches the dock widget</source>
-        <translation>Desacobla i torna a enganxar l&apos;estri acoblador</translation>
+        <translation>取消 Dock 並重新加上 Dock 小工具</translation>
     </message>
     <message>
         <source>Close</source>
         <extracomment>Accessible name for button closing a dock widget</extracomment>
-        <translation>Tanca</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <source>Closes the dock widget</source>
-        <translation>Tanca l&apos;estri acoblador</translation>
+        <translation>關閉 Dock 小工具</translation>
+    </message>
+</context>
+<context>
+    <name>QDtls</name>
+    <message>
+        <source>Invalid (empty) secret</source>
+        <translation>無效（空白）密碼</translation>
+    </message>
+    <message>
+        <source>Multicast and broadcast addresses are not supported</source>
+        <translation>不支援群播和廣播位址</translation>
+    </message>
+    <message>
+        <source>Cannot set peer after handshake started</source>
+        <translation>無法在交握開始後設定端點</translation>
+    </message>
+    <message>
+        <source>Invalid address</source>
+        <translation>位址無效</translation>
+    </message>
+    <message>
+        <source>Cannot set verification name after handshake started</source>
+        <translation>無法在開始交握之後設定認證名稱</translation>
+    </message>
+    <message>
+        <source>Cannot set configuration after handshake started</source>
+        <translation>無法在開始握手後設定組態</translation>
+    </message>
+    <message>
+        <source>Cannot start/continue handshake, invalid handshake state</source>
+        <translation>無法開始或繼續交握，原因：無效的交握狀態</translation>
+    </message>
+    <message>
+        <source>Invalid (nullptr) socket</source>
+        <translation>無效 (nullptr) socket</translation>
+    </message>
+    <message>
+        <source>To start a handshake you must set peer&apos;s address and port first</source>
+        <translation>開始交握前必須先設定端點位址與連線埠</translation>
+    </message>
+    <message>
+        <source>To start a handshake, DTLS server requires non-empty datagram (client hello)</source>
+        <translation>要開始交握前 DTLS 伺服器需要非空白資料塊 (client hello)</translation>
+    </message>
+    <message>
+        <source>Cannot start handshake, already done/in progress</source>
+        <translation>無法開始交握，原因：已經完成或正在進行交握程序</translation>
+    </message>
+    <message>
+        <source>A valid QUdpSocket and non-empty datagram are needed to continue the handshake</source>
+        <translation>需要有效的 QUdpSocket 和非空白資料塊才能開始交握</translation>
+    </message>
+    <message>
+        <source>Cannot continue handshake, not in InProgress state</source>
+        <translation>無法繼續交握，原因：非 InProgress 狀態</translation>
+    </message>
+    <message>
+        <source>Cannot resume, not in VerificationError state</source>
+        <translation>無法重新開始，原因：非 VerificationError 狀態</translation>
+    </message>
+    <message>
+        <source>No handshake in progress, nothing to abort</source>
+        <translation>沒有正在進行中的交握，因此不用終止</translation>
+    </message>
+    <message>
+        <source>Cannot send shutdown alert, not encrypted</source>
+        <translation>無法傳送關閉警報，原因：未加密</translation>
+    </message>
+    <message>
+        <source>Cannot write a datagram, not in encrypted state</source>
+        <translation>無法寫入資料塊，原因：非已加密狀態</translation>
+    </message>
+    <message>
+        <source>Cannot read a datagram, not in encrypted state</source>
+        <translation>無法讀取資料塊，原因：非已加密狀態</translation>
+    </message>
+    <message>
+        <source>%1 failed</source>
+        <extracomment>%1: Some function</extracomment>
+        <translation>%1 失敗</translation>
+    </message>
+    <message>
+        <source>Invalid SslMode, SslServerMode or SslClientMode expected</source>
+        <translation>無效的 SslMode，應該為 SslServerMode 或 SslClientMode</translation>
+    </message>
+    <message>
+        <source>Invalid protocol version, DTLS protocol expected</source>
+        <translation>無效的協定版本，期望 DTLS 協定</translation>
+    </message>
+    <message>
+        <source>BIO_ADD_new failed, cannot start handshake</source>
+        <translation>BIO_ADD_new 失敗，無法開始交握</translation>
+    </message>
+    <message>
+        <source>Cannot start the handshake, verified client hello expected</source>
+        <translation>無法開始交握，原因：沒有期望的已驗證 client hello</translation>
+    </message>
+    <message>
+        <source>Peer verification failed</source>
+        <translation>端對端驗證失敗</translation>
+    </message>
+    <message>
+        <source>The DTLS connection has been closed</source>
+        <translation>DTLS 連線已被關閉</translation>
+    </message>
+    <message>
+        <source>Error while writing: %1</source>
+        <translation>寫入時發生錯誤：%1</translation>
+    </message>
+    <message>
+        <source>The DTLS connection has been shutdown</source>
+        <translation>DTLS 連線已被關閉</translation>
+    </message>
+    <message>
+        <source>Error while reading: %1</source>
+        <translation>讀取時發生錯誤：%1</translation>
+    </message>
+    <message>
+        <source>Cannot set remote after handshake started</source>
+        <translation>無法在開始交握後設定遠端位置</translation>
+    </message>
+    <message>
+        <source>Unsupported protocol</source>
+        <translation>不支援的通訊協定</translation>
+    </message>
+    <message>
+        <source>To start a handshake you must set remote address and port first</source>
+        <translation>要開始交握前必須先設定遠端位址和通訊埠</translation>
+    </message>
+    <message>
+        <source>Not in VerificationError state, nothing to abort</source>
+        <translation>非 VerificationError 狀態，沒有需要終止的項目</translation>
+    </message>
+</context>
+<context>
+    <name>QDtlsClientVerifier</name>
+    <message>
+        <source>A valid UDP socket, non-empty datagram, valid address/port were expected</source>
+        <translation>期望有效的 UDP socket、非空白的資料塊和有效的位址與連線埠</translation>
+    </message>
+    <message>
+        <source>BIO_ADDR_new failed, ignoring client hello</source>
+        <translation>BIO_ADDR_new 失敗，忽略 client hello</translation>
     </message>
 </context>
 <context>
     <name>QErrorMessage</name>
     <message>
         <source>Debug Message:</source>
-        <translation>Missatge de depuració:</translation>
+        <translation>除錯訊息：</translation>
     </message>
     <message>
         <source>Warning:</source>
-        <translation>Avís:</translation>
+        <translation>警告：</translation>
     </message>
     <message>
         <source>Critical Error:</source>
-        <translation>Error crític:</translation>
+        <translation>嚴重錯誤：</translation>
     </message>
     <message>
         <source>Fatal Error:</source>
-        <translation>Error fatal:</translation>
+        <translation>嚴重錯誤：</translation>
     </message>
     <message>
         <source>Information:</source>
-        <translation>Informació:</translation>
+        <translation>資訊：</translation>
     </message>
     <message>
         <source>&amp;Show this message again</source>
-        <translation>Torna a mo&amp;strar aquest missatge</translation>
+        <translation>再次顯示此訊息(&amp;S)</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>D&apos;ac&amp;ord</translation>
+        <translation>確定(&amp;O)</translation>
     </message>
 </context>
 <context>
     <name>QFile</name>
     <message>
         <source>Destination file is the same file.</source>
-        <translation>El fitxer de destinació és el mateix fitxer.</translation>
+        <translation>目標檔案為相同檔案。</translation>
     </message>
     <message>
         <source>Source file does not exist.</source>
-        <translation>El fitxer origen no existeix.</translation>
+        <translation>來源檔案不存在。</translation>
     </message>
     <message>
         <source>Destination file exists</source>
-        <translation>El fitxer de destinació existeix</translation>
-    </message>
-    <message>
-        <source>Error while renaming.</source>
-        <translation type="vanished">Error en canviar de nom.</translation>
+        <translation>目標檔案存在</translation>
     </message>
     <message>
         <source>Error while renaming: %1</source>
-        <translation>Error en canviar de nom: %1</translation>
+        <translation>重新命名時發生錯誤：%1</translation>
     </message>
     <message>
         <source>Unable to restore from %1: %2</source>
-        <translation>No s&apos;ha pogut restaurar des de %1: %2</translation>
+        <translation>無法從 %1 還原：%2</translation>
     </message>
     <message>
         <source>Will not rename sequential file using block copy</source>
-        <translation>No es pot canviar de nom un fitxer seqüencial utilitzant la còpia de blocs</translation>
+        <translation>將不會使用區塊複製重新命名順序檔案</translation>
     </message>
     <message>
         <source>Cannot remove source file</source>
-        <translation>No s&apos;ha pogut eliminar el fitxer origen</translation>
+        <translation>無法移除來源檔案</translation>
     </message>
     <message>
         <source>Cannot open destination file: %1</source>
-        <translation>No s&apos;ha pogut obrir el fitxer de destinació: %1</translation>
+        <translation>無法開啟目標檔案：%1</translation>
     </message>
     <message>
         <source>Cannot open %1 for input</source>
-        <translation>No s&apos;ha pogut obrir %1 per entrada</translation>
+        <translation>無法開啟 %1 供輸入</translation>
     </message>
     <message>
         <source>Cannot open for output</source>
-        <translation>No s&apos;ha pogut obrir per sortida</translation>
+        <translation>無法開啟以供輸出</translation>
     </message>
     <message>
         <source>Failure to write block</source>
-        <translation>Ha fallat en escriure un bloc</translation>
+        <translation>寫入區塊時失敗</translation>
     </message>
     <message>
         <source>Cannot create %1 for output</source>
-        <translation>No s&apos;ha pogut crear %1 per sortida</translation>
+        <translation>無法建立 %1 供輸出</translation>
+    </message>
+    <message>
+        <source>Cannot open for output: %1</source>
+        <translation>無法開啟供輸出檔案：%1</translation>
     </message>
 </context>
 <context>
     <name>QFileDevice</name>
     <message>
         <source>No file engine available or engine does not support UnMapExtension</source>
-        <translation>No hi ha disponible cap motor de fitxers o el motor no accepta «UnMapExtension»</translation>
+        <translation>沒有能用的檔案引擎或引擎不支援 UnMapExtension</translation>
     </message>
     <message>
         <source>No file engine available</source>
-        <translation>No hi ha disponible cap motor de fitxers</translation>
+        <translation>沒有能用的檔案引擎</translation>
     </message>
 </context>
 <context>
     <name>QFileDialog</name>
     <message>
+        <source>All Files (*)</source>
+        <translation>所有檔案 (*)</translation>
+    </message>
+    <message>
         <source>Look in:</source>
-        <translation>Cerca a:</translation>
+        <translation>尋找於：</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Enrere</translation>
+        <translation>返回</translation>
     </message>
     <message>
         <source>Go back</source>
-        <translation>Retrocedeix</translation>
+        <translation>返回</translation>
     </message>
     <message>
         <source>Alt+Left</source>
-        <translation>Alt+Esquerra</translation>
+        <translation>Alt+Left</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>Endavant</translation>
+        <translation>往前</translation>
     </message>
     <message>
         <source>Go forward</source>
-        <translation>Avança</translation>
+        <translation>往前</translation>
     </message>
     <message>
         <source>Alt+Right</source>
-        <translation>Alt+Dreta</translation>
+        <translation>Alt+Right</translation>
     </message>
     <message>
         <source>Parent Directory</source>
-        <translation>Directori superior</translation>
+        <translation>父目錄</translation>
     </message>
     <message>
         <source>Go to the parent directory</source>
-        <translation>Va al directori superior</translation>
+        <translation>前往父目錄</translation>
     </message>
     <message>
         <source>Alt+Up</source>
-        <translation>Alt+Amunt</translation>
+        <translation>Alt+Up</translation>
     </message>
     <message>
         <source>Create New Folder</source>
-        <translation>Crea una carpeta nova</translation>
+        <translation>建立新資料夾</translation>
     </message>
     <message>
         <source>Create a New Folder</source>
-        <translation>Crea una carpeta nova</translation>
+        <translation>建立新資料夾</translation>
     </message>
     <message>
         <source>List View</source>
-        <translation>Vista de llista</translation>
+        <translation>列表檢視</translation>
     </message>
     <message>
         <source>Change to list view mode</source>
-        <translation>Canvia al mode de vista de llista</translation>
+        <translation>切換到列表檢視模式</translation>
     </message>
     <message>
         <source>Detail View</source>
-        <translation>Vista de detall</translation>
+        <translation>詳細檢視</translation>
     </message>
     <message>
         <source>Change to detail view mode</source>
-        <translation>Canvia al mode de vista de detall</translation>
+        <translation>切換到詳細檢視模式</translation>
     </message>
     <message>
         <source>Sidebar</source>
-        <translation>Barra lateral</translation>
+        <translation>側邊欄</translation>
     </message>
     <message>
         <source>List of places and bookmarks</source>
-        <translation>Llista de llocs i adreces d&apos;interès</translation>
+        <translation>位置與書籤列表</translation>
     </message>
     <message>
         <source>Files</source>
-        <translation>Fitxers</translation>
+        <translation>檔案</translation>
     </message>
     <message>
         <source>Files of type:</source>
-        <translation>Fitxers de tipus:</translation>
+        <translation>檔案型態：</translation>
     </message>
     <message>
         <source>Find Directory</source>
-        <translation>Cerca de directori</translation>
+        <translation>尋找資料夾</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Obre</translation>
+        <translation>開啟</translation>
     </message>
     <message>
         <source>Save As</source>
-        <translation>Desa com a</translation>
+        <translation>另存新檔</translation>
     </message>
     <message>
         <source>Directory:</source>
-        <translation>Directori:</translation>
+        <translation>目錄：</translation>
     </message>
     <message>
         <source>File &amp;name:</source>
-        <translation>&amp;Nom de fitxer:</translation>
+        <translation>檔名(&amp;N)：</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Obre</translation>
+        <translation>開啟(&amp;O)</translation>
     </message>
     <message>
         <source>&amp;Choose</source>
-        <translation>&amp;Tria</translation>
+        <translation>選擇(&amp;C)</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>De&amp;sa</translation>
-    </message>
-    <message>
-        <source>All Files (*)</source>
-        <translation>Tots els fitxers (*)</translation>
+        <translation>儲存(&amp;S)</translation>
     </message>
     <message>
         <source>Show </source>
-        <translation>Mostra </translation>
+        <translation>顯示 </translation>
     </message>
     <message>
         <source>&amp;Rename</source>
-        <translation>Can&amp;via de nom</translation>
+        <translation>重新命名(&amp;R)</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Suprimeix</translation>
+        <translation>刪除(&amp;D)</translation>
     </message>
     <message>
         <source>Show &amp;hidden files</source>
-        <translation>Mostra fitxers &amp;ocults</translation>
+        <translation>顯示隱藏檔案(&amp;H)</translation>
     </message>
     <message>
         <source>&amp;New Folder</source>
-        <translation>Carpeta &amp;nova</translation>
+        <translation>新增資料夾(&amp;N)</translation>
     </message>
     <message>
         <source>All files (*)</source>
-        <translation>Tots els fitxers (*)</translation>
+        <translation>所有檔案(*)</translation>
     </message>
     <message>
         <source>Directories</source>
-        <translation>Directoris</translation>
+        <translation>資料夾</translation>
     </message>
     <message>
         <source>%1
 Directory not found.
 Please verify the correct directory name was given.</source>
         <translation>%1
-no s&apos;ha trobat el directori.
-Comproveu que s&apos;ha indicat el nom correcte del directori.</translation>
+找不到目錄。
+請檢查提供的目錄名稱是否正確。</translation>
     </message>
     <message>
         <source>%1 already exists.
 Do you want to replace it?</source>
-        <translation>%1 ja existeix.
-El voleu substituir?</translation>
+        <translation>%1 已存在。
+是否取代？</translation>
     </message>
     <message>
         <source>%1
 File not found.
 Please verify the correct file name was given.</source>
         <translation>%1
-no s&apos;ha trobat el fitxer.
-Comproveu que s&apos;ha indicat el nom correcte del fitxer.</translation>
+找不到檔案。
+請檢查提供的檔名是否正確。</translation>
     </message>
     <message>
         <source>New Folder</source>
-        <translation>Carpeta nova</translation>
+        <translation>新資料夾</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Suprimeix</translation>
+        <translation>刪除</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is write protected.
 Do you want to delete it anyway?</source>
-        <translation>«%1» està protegit contra escriptura.
-El voleu suprimir igualment?</translation>
+        <translation>「%1」有寫入保護。
+仍然刪除？</translation>
     </message>
     <message>
         <source>Are you sure you want to delete &apos;%1&apos;?</source>
-        <translation>Esteu segur que voleu suprimir «%1»?</translation>
+        <translation>確定刪除「%1」？</translation>
     </message>
     <message>
         <source>Could not delete directory.</source>
-        <translation>No s&apos;ha pogut suprimir el directori.</translation>
+        <translation>無法刪除資料夾。</translation>
     </message>
     <message>
         <source>Recent Places</source>
-        <translation>Llocs recents</translation>
+        <translation>最近開啟位置</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Elimina</translation>
+        <translation>移除</translation>
     </message>
     <message>
         <source>My Computer</source>
-        <translation>El meu ordinador</translation>
+        <translation>我的電腦</translation>
     </message>
     <message>
         <source>Drive</source>
-        <translation>Controlador</translation>
+        <translation>硬碟</translation>
     </message>
     <message>
         <source>%1 File</source>
         <extracomment>%1 is a file name suffix, for example txt</extracomment>
-        <translation>Fitxer %1</translation>
+        <translation>%1 檔案</translation>
     </message>
     <message>
         <source>File</source>
-        <translation>Fitxer</translation>
+        <translation>檔案</translation>
     </message>
     <message>
         <source>File Folder</source>
         <comment>Match Windows Explorer</comment>
-        <translation>Carpeta de fitxers</translation>
+        <translation>檔案資料夾</translation>
     </message>
     <message>
         <source>Folder</source>
         <comment>All other platforms</comment>
-        <translation>Carpeta</translation>
+        <translation>資料夾</translation>
     </message>
     <message>
         <source>Alias</source>
         <comment>OS X Finder</comment>
-        <translation>Àlies</translation>
-    </message>
-    <message>
-        <source>Alias</source>
-        <comment>Mac OS X Finder</comment>
-        <translation type="vanished">Àlies</translation>
+        <translation>別名</translation>
     </message>
     <message>
         <source>Shortcut</source>
         <comment>All other platforms</comment>
-        <translation>Drecera</translation>
+        <translation>捷徑</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Desconegut</translation>
+        <translation>未知</translation>
     </message>
 </context>
 <context>
     <name>QFileSystemModel</name>
     <message>
-        <source>%1 TB</source>
-        <translation type="vanished">%1 TB</translation>
-    </message>
-    <message>
-        <source>%1 GB</source>
-        <translation type="vanished">%1 GB</translation>
-    </message>
-    <message>
-        <source>%1 MB</source>
-        <translation type="vanished">%1 MB</translation>
-    </message>
-    <message>
-        <source>%1 KB</source>
-        <translation type="vanished">%1 kB</translation>
-    </message>
-    <message>
-        <source>%1 bytes</source>
-        <translation type="vanished">%1 bytes</translation>
+        <source>&lt;b&gt;The name &quot;%1&quot; cannot be used.&lt;/b&gt;&lt;p&gt;Try using another name, with fewer characters or no punctuation marks.</source>
+        <translation>&lt;b&gt;不能使用名稱「%1」。&lt;/b&gt;&lt;p&gt;嘗試使用字數較少或沒有標點符號的另一名稱。</translation>
     </message>
     <message>
         <source>Invalid filename</source>
-        <translation>Nom de fitxer no vàlid</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;The name &quot;%1&quot; can not be used.&lt;/b&gt;&lt;p&gt;Try using another name, with fewer characters or no punctuations marks.</source>
-        <translation type="vanished">&lt;b&gt;No es pot usar el nom «%1».&lt;/b&gt;&lt;p&gt;Proveu-ho amb un altre nom, amb menys caràcters o sense signes de puntuació.</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;The name &quot;%1&quot; cannot be used.&lt;/b&gt;&lt;p&gt;Try using another name, with fewer characters or no punctuation marks.</source>
-        <translation>&lt;b&gt;No es pot usar el nom «%1».&lt;/b&gt;&lt;p&gt;Proveu-ho amb un altre nom, amb menys caràcters o sense signes de puntuació.</translation>
+        <translation>檔名無效</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Nom</translation>
+        <translation>名稱</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Mida</translation>
+        <translation>大小</translation>
     </message>
     <message>
         <source>Kind</source>
         <comment>Match OS X Finder</comment>
-        <translation>Classe</translation>
+        <translation>種類</translation>
     </message>
     <message>
         <source>Type</source>
         <comment>All other platforms</comment>
-        <translation>Tipus</translation>
+        <translation>型態</translation>
     </message>
     <message>
         <source>Date Modified</source>
-        <translation>Data de modificació</translation>
+        <translation>修改日期</translation>
     </message>
     <message>
         <source>My Computer</source>
-        <translation>El meu ordinador</translation>
+        <translation>我的電腦</translation>
     </message>
     <message>
         <source>Computer</source>
-        <translation>Ordinador</translation>
-    </message>
-    <message>
-        <source>%1 byte(s)</source>
-        <translation type="vanished">%1 byte(s)</translation>
+        <translation>電腦</translation>
     </message>
 </context>
 <context>
     <name>QFontDatabase</name>
     <message>
         <source>Normal</source>
-        <translation type="vanished">Normal</translation>
+        <comment>The Normal or Regular font weight</comment>
+        <translation>正常</translation>
     </message>
     <message>
         <source>Bold</source>
-        <translation>Negreta</translation>
+        <translation>粗體</translation>
     </message>
     <message>
         <source>Demi Bold</source>
-        <translation>Semi negreta</translation>
-    </message>
-    <message>
-        <source>Black</source>
-        <translation>Gruixut</translation>
-    </message>
-    <message>
-        <source>Demi</source>
-        <extracomment>The word for &quot;Demi&quot; as in &quot;Demi Bold&quot; used as a pattern for string searches</extracomment>
-        <translation>Semi</translation>
-    </message>
-    <message>
-        <source>Light</source>
-        <translation>Fi</translation>
-    </message>
-    <message>
-        <source>Normal</source>
-        <comment>The Normal or Regular font weight</comment>
-        <translation>Normal</translation>
+        <translation>半粗體</translation>
     </message>
     <message>
         <source>Medium</source>
         <comment>The Medium font weight</comment>
-        <translation>Mig</translation>
+        <translation>中等粗體</translation>
+    </message>
+    <message>
+        <source>Black</source>
+        <translation>黑體</translation>
+    </message>
+    <message>
+        <source>Light</source>
+        <translation>細體</translation>
     </message>
     <message>
         <source>Thin</source>
-        <translation>Fi</translation>
+        <translation>極細體</translation>
     </message>
     <message>
         <source>Extra Light</source>
-        <translation>Extrafi</translation>
+        <translation>極細體</translation>
     </message>
     <message>
         <source>Extra Bold</source>
-        <translation>Extranegreta</translation>
+        <translation>極粗體</translation>
     </message>
     <message>
         <source>Extra</source>
         <extracomment>The word for &quot;Extra&quot; as in &quot;Extra Bold, Extra Thin&quot; used as a pattern for string searches</extracomment>
-        <translation>Extra</translation>
+        <translation>極體 (Extra)</translation>
+    </message>
+    <message>
+        <source>Demi</source>
+        <extracomment>The word for &quot;Demi&quot; as in &quot;Demi Bold&quot; used as a pattern for string searches</extracomment>
+        <translation>半體</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation>Cursiva</translation>
+        <translation>斜體</translation>
     </message>
     <message>
         <source>Oblique</source>
-        <translation>Obliqua</translation>
+        <translation>傾斜體</translation>
     </message>
     <message>
         <source>Any</source>
-        <translation>Qualsevol</translation>
+        <translation>不指定</translation>
     </message>
     <message>
         <source>Latin</source>
-        <translation>Llatí</translation>
+        <translation>拉丁</translation>
     </message>
     <message>
         <source>Greek</source>
-        <translation>Grec</translation>
+        <translation>希臘</translation>
     </message>
     <message>
         <source>Cyrillic</source>
-        <translation>Ciríl·lic</translation>
+        <translation>斯拉夫</translation>
     </message>
     <message>
         <source>Armenian</source>
-        <translation>Armeni</translation>
+        <translation>亞美尼亞</translation>
     </message>
     <message>
         <source>Hebrew</source>
-        <translation>Hebreu</translation>
+        <translation>希伯來</translation>
     </message>
     <message>
         <source>Arabic</source>
-        <translation>Àrab</translation>
+        <translation>阿拉伯</translation>
     </message>
     <message>
         <source>Syriac</source>
-        <translation>Siríac</translation>
+        <translation>敘利亞</translation>
     </message>
     <message>
         <source>Thaana</source>
-        <translation>Thaana</translation>
+        <translation>塔納文</translation>
     </message>
     <message>
         <source>Devanagari</source>
-        <translation>Devanagari</translation>
+        <translation>梵文</translation>
     </message>
     <message>
         <source>Bengali</source>
-        <translation>Bengalí</translation>
+        <translation>孟加拉</translation>
     </message>
     <message>
         <source>Gurmukhi</source>
-        <translation>Gurmukhi</translation>
+        <translation>古爾穆基字</translation>
     </message>
     <message>
         <source>Gujarati</source>
-        <translation>Gujarati</translation>
+        <translation>古吉拉特語</translation>
     </message>
     <message>
         <source>Oriya</source>
-        <translation>Oriya</translation>
+        <translation>奧里亞語</translation>
     </message>
     <message>
         <source>Tamil</source>
-        <translation>Tàmil</translation>
+        <translation>坦米爾</translation>
     </message>
     <message>
         <source>Telugu</source>
-        <translation>Telugu</translation>
+        <translation>泰盧固語</translation>
     </message>
     <message>
         <source>Kannada</source>
-        <translation>Kanarès</translation>
+        <translation>坎達那</translation>
     </message>
     <message>
         <source>Malayalam</source>
-        <translation>Malaiàlam</translation>
+        <translation>馬來語</translation>
     </message>
     <message>
         <source>Sinhala</source>
-        <translation>Singalès</translation>
+        <translation>錫蘭</translation>
     </message>
     <message>
         <source>Thai</source>
-        <translation>Tai</translation>
+        <translation>泰語</translation>
     </message>
     <message>
         <source>Lao</source>
-        <translation>Laosià</translation>
+        <translation>寮國</translation>
     </message>
     <message>
         <source>Tibetan</source>
-        <translation>Tibetà</translation>
+        <translation>西藏</translation>
     </message>
     <message>
         <source>Myanmar</source>
-        <translation>Myanmar</translation>
+        <translation>緬甸</translation>
     </message>
     <message>
         <source>Georgian</source>
-        <translation>Georgià</translation>
+        <translation>喬治亞</translation>
     </message>
     <message>
         <source>Khmer</source>
-        <translation>Khmer</translation>
+        <translation>高棉</translation>
     </message>
     <message>
         <source>Simplified Chinese</source>
-        <translation>Xinès simplificat</translation>
+        <translation>簡體中文</translation>
     </message>
     <message>
         <source>Traditional Chinese</source>
-        <translation>Xinès tradicional</translation>
+        <translation>繁體中文</translation>
     </message>
     <message>
         <source>Japanese</source>
-        <translation>Japonès</translation>
+        <translation>日語</translation>
     </message>
     <message>
         <source>Korean</source>
-        <translation>Coreà</translation>
+        <translation>韓語</translation>
     </message>
     <message>
         <source>Vietnamese</source>
-        <translation>Vietnamita</translation>
+        <translation>越南</translation>
     </message>
     <message>
         <source>Symbol</source>
-        <translation>Símbol</translation>
+        <translation>符號</translation>
     </message>
     <message>
         <source>Ogham</source>
-        <translation>Ogham</translation>
+        <translation>歐甘文</translation>
     </message>
     <message>
         <source>Runic</source>
-        <translation>Rúnic</translation>
+        <translation>盧恩文</translation>
     </message>
     <message>
         <source>N&apos;Ko</source>
-        <translation>Nko</translation>
+        <translation>西非書面語</translation>
     </message>
 </context>
 <context>
     <name>QFontDialog</name>
     <message>
         <source>Select Font</source>
-        <translation>Seleccioneu el tipus de lletra</translation>
+        <translation>選擇字型</translation>
     </message>
     <message>
         <source>&amp;Font</source>
-        <translation>&amp;Tipus de lletra</translation>
+        <translation>字型(&amp;F)</translation>
     </message>
     <message>
         <source>Font st&amp;yle</source>
-        <translation>Est&amp;il de tipus de lletra</translation>
+        <translation>字型樣式(&amp;Y)</translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>&amp;Mida</translation>
+        <translation>大小(&amp;S)</translation>
     </message>
     <message>
         <source>Effects</source>
-        <translation>Efectes</translation>
+        <translation>效果</translation>
     </message>
     <message>
         <source>Stri&amp;keout</source>
-        <translation>Ra&amp;tllat</translation>
+        <translation>刪除線(&amp;K)</translation>
     </message>
     <message>
         <source>&amp;Underline</source>
-        <translation>&amp;Subratllat</translation>
+        <translation>底線(&amp;U)</translation>
     </message>
     <message>
         <source>Sample</source>
-        <translation>Mostra</translation>
+        <translation>範例</translation>
     </message>
     <message>
         <source>Wr&amp;iting System</source>
-        <translation>Sistema d&apos;escr&amp;iptura</translation>
+        <translation>文字系統(&amp;I)</translation>
     </message>
 </context>
 <context>
     <name>QFtp</name>
     <message>
         <source>Not connected</source>
-        <translation>No connectat</translation>
+        <translation>未連線</translation>
     </message>
     <message>
         <source>Host %1 not found</source>
-        <translation>No s&apos;ha trobat el servidor %1</translation>
+        <translation>找不到主機 %1</translation>
     </message>
     <message>
         <source>Connection refused to host %1</source>
-        <translation>S&apos;ha rebutjat la connexió al servidor %1</translation>
+        <translation>連線到主機 %1 被拒</translation>
     </message>
     <message>
         <source>Connection timed out to host %1</source>
-        <translation>Temps de connexió excedit al servidor %1</translation>
+        <translation>連線到主機 %1 逾時</translation>
     </message>
     <message>
         <source>Connected to host %1</source>
-        <translation>S&apos;ha connectat al servidor %1</translation>
+        <translation>已連線到主機 %1</translation>
     </message>
     <message>
         <source>Data Connection refused</source>
-        <translation>S&apos;ha rebutjat la connexió de dades</translation>
+        <translation>資料連線被拒</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Error desconegut</translation>
+        <translation>未知錯誤</translation>
     </message>
     <message>
         <source>Connecting to host failed:
 %1</source>
-        <translation>La connexió al servidor ha fallat:
+        <translation>連線到主機失敗：
 %1</translation>
     </message>
     <message>
         <source>Login failed:
 %1</source>
-        <translation>Ha fallat l&apos;inici de sessió:
+        <translation>登入失敗：
 %1</translation>
     </message>
     <message>
         <source>Listing directory failed:
 %1</source>
-        <translation>Ha fallat el llistat del directori:
+        <translation>列出目錄失敗：
 %1</translation>
     </message>
     <message>
         <source>Changing directory failed:
 %1</source>
-        <translation>Ha fallat el canvi de directori:
+        <translation>變更目錄失敗：
 %1</translation>
     </message>
     <message>
         <source>Downloading file failed:
 %1</source>
-        <translation>Ha fallat la baixada del fitxer:
+        <translation>下載檔案失敗：
 %1</translation>
     </message>
     <message>
         <source>Uploading file failed:
 %1</source>
-        <translation>Ha fallat la pujada del fitxer:
+        <translation>上傳檔案失敗：
 %1</translation>
     </message>
     <message>
         <source>Removing file failed:
 %1</source>
-        <translation>Ha fallat l&apos;eliminació del fitxer:
+        <translation>移除檔案失敗：
 %1</translation>
     </message>
     <message>
         <source>Creating directory failed:
 %1</source>
-        <translation>Ha fallat la creació del directori:
+        <translation>建立目錄失敗：
 %1</translation>
     </message>
     <message>
         <source>Removing directory failed:
 %1</source>
-        <translation>Ha fallat l&apos;eliminació del directori:
+        <translation>移除目錄失敗：
 %1</translation>
     </message>
     <message>
         <source>Connection closed</source>
-        <translation>S&apos;ha tancat la connexió</translation>
+        <translation>連線已關閉</translation>
     </message>
 </context>
 <context>
     <name>QGnomeTheme</name>
     <message>
         <source>&amp;OK</source>
-        <translation>D&apos;ac&amp;ord</translation>
+        <translation>確定(&amp;O)</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;Desa</translation>
+        <translation>儲存(&amp;S)</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Cancel·la</translation>
+        <translation>取消(&amp;C)</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Tanca</translation>
+        <translation>關閉(&amp;C)</translation>
     </message>
     <message>
         <source>Close without Saving</source>
-        <translation>Tanca sense desar</translation>
+        <translation>關閉而不儲存</translation>
     </message>
 </context>
 <context>
@@ -1558,700 +1654,695 @@ El voleu suprimir igualment?</translation>
     <message>
         <source>QT_LAYOUT_DIRECTION</source>
         <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
-        <translation>LTR</translation>
+        <translation>QT_LAYOUT_DIRECTION</translation>
     </message>
 </context>
 <context>
     <name>QHostInfo</name>
     <message>
         <source>No host name given</source>
-        <translation>No s&apos;ha proporcionat cap nom d&apos;ordinador</translation>
+        <translation>未指定主機</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Error desconegut</translation>
+        <translation>未知錯誤</translation>
     </message>
 </context>
 <context>
     <name>QHostInfoAgent</name>
     <message>
         <source>No host name given</source>
-        <translation>No s&apos;ha proporcionat cap nom d&apos;ordinador</translation>
+        <translation>未指定主機</translation>
     </message>
     <message>
         <source>Invalid hostname</source>
-        <translation>Nom d&apos;ordinador no vàlid</translation>
+        <translation>主機名稱無效</translation>
     </message>
     <message>
         <source>Unknown address type</source>
-        <translation>Tipus d&apos;adreça desconeguda</translation>
+        <translation>未知的位址型態</translation>
     </message>
     <message>
         <source>Host not found</source>
-        <translation>No s&apos;ha trobat l&apos;ordinador</translation>
-    </message>
-    <message>
-        <source>Unknown error</source>
-        <translation type="vanished">Error desconegut</translation>
+        <translation>找不到主機</translation>
     </message>
     <message>
         <source>Unknown error (%1)</source>
-        <translation>Error desconegut (%1)</translation>
+        <translation>未知錯誤 (%1)</translation>
     </message>
 </context>
 <context>
     <name>QHttp</name>
     <message>
         <source>Host %1 not found</source>
-        <translation>No s&apos;ha trobat el servidor %1</translation>
+        <translation>找不到主機 %1</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>S&apos;ha rebutjat la connexió</translation>
+        <translation>連線被拒</translation>
     </message>
     <message>
         <source>Connection closed</source>
-        <translation>S&apos;ha tancat la connexió</translation>
+        <translation>連線已關閉</translation>
     </message>
     <message>
         <source>Proxy requires authentication</source>
-        <translation>El servidor intermediari requereix autenticació</translation>
+        <translation>代理伺服器需要驗證</translation>
     </message>
     <message>
         <source>Host requires authentication</source>
-        <translation>El servidor requereix autenticació</translation>
+        <translation>主機需要驗證</translation>
     </message>
     <message>
         <source>Data corrupted</source>
-        <translation>Dades malmeses</translation>
+        <translation>資料已損毀</translation>
     </message>
     <message>
         <source>Unknown protocol specified</source>
-        <translation>Protocol especificat desconegut</translation>
+        <translation>指定了未知的協定</translation>
     </message>
     <message>
         <source>SSL handshake failed</source>
-        <translation>Ha fallat la conformitat de la connexió SSL</translation>
+        <translation>SSL 交握失敗</translation>
     </message>
     <message>
         <source>Too many redirects</source>
-        <translation>Massa redireccions</translation>
+        <translation>跳轉太多次</translation>
     </message>
     <message>
         <source>Insecure redirect</source>
-        <translation>Redirecció insegura</translation>
+        <translation>不安全的跳轉</translation>
     </message>
 </context>
 <context>
     <name>QHttpSocketEngine</name>
     <message>
         <source>Did not receive HTTP response from proxy</source>
-        <translation>No s&apos;ha rebut cap resposta HTTP del servidor intermediari</translation>
+        <translation>未從代理伺服器接收到 HTTP 回應</translation>
     </message>
     <message>
         <source>Error parsing authentication request from proxy</source>
-        <translation>Error en analitzar la sol·licitud d&apos;autenticació del servidor intermediari</translation>
+        <translation>解析從代理伺服器傳來的驗證要求時發生錯誤</translation>
     </message>
     <message>
         <source>Authentication required</source>
-        <translation>Es requereix autenticació</translation>
+        <translation>需要驗證</translation>
     </message>
     <message>
         <source>Proxy denied connection</source>
-        <translation>El servidor intermediari ha denegat la connexió</translation>
+        <translation>代理伺服器拒絕連線</translation>
     </message>
     <message>
         <source>Error communicating with HTTP proxy</source>
-        <translation>Error en comunicar amb el servidor intermediari HTTP</translation>
+        <translation>與 HTTP 代理伺服器通訊時發生錯誤</translation>
     </message>
     <message>
         <source>Proxy server not found</source>
-        <translation>No s&apos;ha trobat el servidor intermediari</translation>
+        <translation>找不到代理伺服器</translation>
     </message>
     <message>
         <source>Proxy connection refused</source>
-        <translation>S&apos;ha rebutjat la connexió al servidor intermediari</translation>
+        <translation>代理伺服器連線被拒</translation>
     </message>
     <message>
         <source>Proxy server connection timed out</source>
-        <translation>Temps de connexió excedit al servidor intermediari</translation>
+        <translation>代理伺服器連線逾時</translation>
     </message>
     <message>
         <source>Proxy connection closed prematurely</source>
-        <translation>La connexió al servidor intermediari s&apos;ha tancat abans d&apos;hora</translation>
+        <translation>代理伺服器連線不正常關閉</translation>
     </message>
 </context>
 <context>
     <name>QIBaseDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>Error en obrir la base de dades</translation>
+        <translation>開啟資料庫發生錯誤</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>No s&apos;ha pogut iniciar la transacció</translation>
+        <translation>無法開始處理事項</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>No s&apos;ha pogut confirmar la transacció</translation>
+        <translation>無法提交處理事項</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>No s&apos;ha pogut desfer la transacció</translation>
+        <translation>無法回退處理事項</translation>
     </message>
 </context>
 <context>
     <name>QIBaseResult</name>
     <message>
         <source>Unable to create BLOB</source>
-        <translation>No s&apos;ha pogut crear un BLOB</translation>
+        <translation>無法建立 BLOB</translation>
     </message>
     <message>
         <source>Unable to write BLOB</source>
-        <translation>No s&apos;ha pogut escriure el BLOB</translation>
+        <translation>無法寫入 BLOB</translation>
     </message>
     <message>
         <source>Unable to open BLOB</source>
-        <translation>No s&apos;ha pogut obrir el BLOB</translation>
+        <translation>無法開啟 BLOB</translation>
     </message>
     <message>
         <source>Unable to read BLOB</source>
-        <translation>No s&apos;ha pogut llegir el BLOB</translation>
+        <translation>無法讀取 BLOB</translation>
     </message>
     <message>
         <source>Could not find array</source>
-        <translation>No s&apos;ha pogut trobar la matriu</translation>
+        <translation>找不到陣列</translation>
     </message>
     <message>
         <source>Could not get array data</source>
-        <translation>No s&apos;han pogut obtenir les dades de la matriu</translation>
+        <translation>無法取得陣列資料</translation>
     </message>
     <message>
         <source>Could not get query info</source>
-        <translation>No s&apos;ha pogut obtenir la informació de la consulta</translation>
+        <translation>無法取得查詢資訊</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>No s&apos;ha pogut iniciar la transacció</translation>
+        <translation>無法開始處理事項</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>No s&apos;ha pogut confirmar la transacció</translation>
+        <translation>無法提交處理事項</translation>
     </message>
     <message>
         <source>Could not allocate statement</source>
-        <translation>No s&apos;ha pogut assignar la sentència</translation>
+        <translation>無法分配陳述</translation>
     </message>
     <message>
         <source>Could not prepare statement</source>
-        <translation>No s&apos;ha pogut preparar la sentència</translation>
+        <translation>無法準備陳述</translation>
     </message>
     <message>
         <source>Could not describe input statement</source>
-        <translation>No s&apos;ha pogut descriure la sentència d&apos;entrada</translation>
+        <translation>無法描述輸入陳述</translation>
     </message>
     <message>
         <source>Could not describe statement</source>
-        <translation>No s&apos;ha pogut descriure la sentència</translation>
+        <translation>無法描述陳述</translation>
     </message>
     <message>
         <source>Unable to close statement</source>
-        <translation>No s&apos;ha pogut tancar la sentència</translation>
+        <translation>無法關閉陳述</translation>
     </message>
     <message>
         <source>Unable to execute query</source>
-        <translation>No s&apos;ha pogut executar la consulta</translation>
+        <translation>無法執行查詢</translation>
     </message>
     <message>
         <source>Could not fetch next item</source>
-        <translation>No s&apos;ha pogut recuperar l&apos;element següent</translation>
+        <translation>無法抓取下一個項目</translation>
     </message>
     <message>
         <source>Could not get statement info</source>
-        <translation>No s&apos;ha pogut obtenir la informació de la sentència</translation>
+        <translation>無法取得陳述資訊</translation>
     </message>
 </context>
 <context>
     <name>QIODevice</name>
     <message>
-        <source>Permission denied</source>
-        <translation>S&apos;ha denegat el permís</translation>
-    </message>
-    <message>
-        <source>Too many open files</source>
-        <translation>Massa fitxers oberts</translation>
-    </message>
-    <message>
-        <source>No such file or directory</source>
-        <translation>Aquest fitxer o directori no existeix</translation>
-    </message>
-    <message>
-        <source>No space left on device</source>
-        <translation>No queda espai en el dispositiu</translation>
-    </message>
-    <message>
         <source>file to open is a directory</source>
-        <translation>el fitxer a obrir és un directori</translation>
+        <translation>要打開的檔案是個資料夾</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Error desconegut</translation>
+        <translation>未知錯誤</translation>
+    </message>
+    <message>
+        <source>Permission denied</source>
+        <translation>權限不足</translation>
+    </message>
+    <message>
+        <source>Too many open files</source>
+        <translation>開啟過多檔案</translation>
+    </message>
+    <message>
+        <source>No such file or directory</source>
+        <translation>找不到該檔案或目錄</translation>
+    </message>
+    <message>
+        <source>No space left on device</source>
+        <translation>裝置上已無空間</translation>
     </message>
 </context>
 <context>
     <name>QImageReader</name>
     <message>
         <source>Invalid device</source>
-        <translation>Dispositiu no vàlid</translation>
+        <translation>裝置無效</translation>
     </message>
     <message>
         <source>File not found</source>
-        <translation>No s&apos;ha trobat el fitxer</translation>
+        <translation>找不到檔案</translation>
     </message>
     <message>
         <source>Unsupported image format</source>
-        <translation>Format d&apos;imatge no admès</translation>
+        <translation>不支援的影像格式</translation>
     </message>
     <message>
         <source>Unable to read image data</source>
-        <translation>No s&apos;han pogut llegir les dades de la imatge</translation>
+        <translation>無法讀取影像資料</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Error desconegut</translation>
+        <translation>未知錯誤</translation>
     </message>
 </context>
 <context>
     <name>QImageWriter</name>
     <message>
         <source>Unknown error</source>
-        <translation>Error desconegut</translation>
+        <translation>未知錯誤</translation>
     </message>
     <message>
         <source>Device is not set</source>
-        <translation>No s&apos;ha definit cap dispositiu</translation>
+        <translation>未設定裝置</translation>
     </message>
     <message>
         <source>Cannot open device for writing: %1</source>
-        <translation>No s&apos;ha pogut obrir el dispositiu per escriptura: %1</translation>
+        <translation>無法開啟供寫入裝置：%1</translation>
     </message>
     <message>
         <source>Device not writable</source>
-        <translation>No es pot escriure en el dispositiu</translation>
+        <translation>無法寫入裝置</translation>
     </message>
     <message>
         <source>Unsupported image format</source>
-        <translation>Format d&apos;imatge no admès</translation>
+        <translation>不支援的影像格式</translation>
     </message>
     <message>
         <source>Image is empty</source>
-        <translation>La imatge és buida</translation>
+        <translation>影像是空白的</translation>
     </message>
 </context>
 <context>
     <name>QInputDialog</name>
     <message>
         <source>Enter a value:</source>
-        <translation>Introduïu un valor:</translation>
+        <translation>請輸入一個值：</translation>
     </message>
 </context>
 <context>
     <name>QJsonParseError</name>
     <message>
         <source>no error occurred</source>
-        <translation>sense errors</translation>
+        <translation>沒有發生錯誤</translation>
     </message>
     <message>
         <source>unterminated object</source>
-        <translation>objecte sense finalitzar</translation>
+        <translation>物件沒有結尾</translation>
     </message>
     <message>
         <source>missing name separator</source>
-        <translation>manca separador de nom</translation>
+        <translation>遺失名稱分割字元</translation>
     </message>
     <message>
         <source>unterminated array</source>
-        <translation>matriu sense finalitzar</translation>
+        <translation>陣列沒有結尾</translation>
     </message>
     <message>
         <source>missing value separator</source>
-        <translation>manca separador de valor</translation>
+        <translation>遺失值分隔字元</translation>
     </message>
     <message>
         <source>illegal value</source>
-        <translation>valor il·legal</translation>
+        <translation>值無效</translation>
     </message>
     <message>
         <source>invalid termination by number</source>
-        <translation>finalització no vàlida per nombre</translation>
+        <translation>無效的數字結尾</translation>
     </message>
     <message>
         <source>illegal number</source>
-        <translation>nombre il·legal</translation>
+        <translation>數字無效</translation>
     </message>
     <message>
         <source>invalid escape sequence</source>
-        <translation>seqüència d&apos;escapada no vàlida</translation>
+        <translation>無效的跳脫序列</translation>
     </message>
     <message>
         <source>invalid UTF8 string</source>
-        <translation>cadena UTF8 no vàlida</translation>
+        <translation>無效的 UTF-8 字串</translation>
     </message>
     <message>
         <source>unterminated string</source>
-        <translation>cadena sense finalitzar</translation>
+        <translation>字串沒有結尾</translation>
     </message>
     <message>
         <source>object is missing after a comma</source>
-        <translation>manca un objecte després d&apos;una coma</translation>
+        <translation>逗號後缺少物件</translation>
     </message>
     <message>
         <source>too deeply nested document</source>
-        <translation>document imbricat amb massa profunditat</translation>
+        <translation>過深巢狀文件</translation>
     </message>
     <message>
         <source>too large document</source>
-        <translation>document massa gran</translation>
+        <translation>過大文件</translation>
     </message>
     <message>
         <source>garbage at the end of the document</source>
-        <translation>brutícia al final del document</translation>
+        <translation>文件結尾有無用資料</translation>
     </message>
 </context>
 <context>
     <name>QKeySequenceEdit</name>
     <message>
         <source>Press shortcut</source>
-        <translation>Premeu drecera</translation>
+        <translation>點擊快速鍵</translation>
     </message>
     <message>
         <source>%1, ...</source>
         <extracomment>This text is an &quot;unfinished&quot; shortcut, expands like &quot;Ctrl+A, ...&quot;</extracomment>
-        <translation>%1, ...</translation>
+        <translation>%1、…</translation>
     </message>
 </context>
 <context>
     <name>QLibrary</name>
     <message>
         <source>&apos;%1&apos; is not an ELF object (%2)</source>
-        <translation>«%1» no és cap objecte ELF (%2)</translation>
+        <translation>「%1」不是個 ELF 物件 (%2)</translation>
+    </message>
+    <message>
+        <source>file too small</source>
+        <translation>檔案過小</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not an ELF object</source>
-        <translation>«%1» no és cap objecte ELF</translation>
+        <translation>「%1」不是個 ELF 物件</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is an invalid ELF object (%2)</source>
-        <translation>«%1» és un objecte ELF no vàlid (%2)</translation>
+        <translation>「%1」是個無效 ELF 物件 (%2)</translation>
     </message>
     <message>
         <source>odd cpu architecture</source>
-        <translation>arquitectura estranya de la CPU</translation>
+        <translation>異常 CPU 架構</translation>
     </message>
     <message>
         <source>wrong cpu architecture</source>
-        <translation>arquitectura incorrecta de la CPU</translation>
+        <translation>錯誤 CPU 架構</translation>
     </message>
     <message>
         <source>odd endianness</source>
-        <translation>«endianness» estrany</translation>
+        <translation>異常位元組順序</translation>
     </message>
     <message>
         <source>unexpected e_shsize</source>
-        <translation>«e_shsize» inesperat</translation>
+        <translation>非預期的 e_shsize</translation>
     </message>
     <message>
         <source>unexpected e_shentsize</source>
-        <translation>«e_shentsize» inesperat</translation>
+        <translation>非預期的 e_shentsize</translation>
     </message>
     <message numerus="yes">
         <source>announced %n section(s), each %1 byte(s), exceed file size</source>
-        <translation>
-            <numerusform>s&apos;han anunciat %n secció, cada una de %1 byte, s&apos;ha excedit la mida del fitxer</numerusform>
-            <numerusform>s&apos;han anunciat %n seccions, cada una de %1 bytes, s&apos;ha excedit la mida del fitxer</numerusform>
+        <translation type="unfinished">
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
         <source>shstrtab section header seems to be at %1</source>
-        <translation>la capçalera de la secció «shstrtab» sembla que està a %1</translation>
+        <translation>shstrtab 區段的標頭看起來在 %1</translation>
     </message>
     <message>
         <source>string table seems to be at %1</source>
-        <translation>la taula de cadenes sembla que està a %1</translation>
+        <translation>字串表格看起來在 %1</translation>
     </message>
     <message>
         <source>section name %1 of %2 behind end of file</source>
-        <translation>la secció amb nom %1 de %2 està darrere del final del fitxer</translation>
+        <translation>%2 的區段名稱 %1 在檔案結尾之後</translation>
     </message>
     <message>
         <source>empty .rodata. not a library.</source>
-        <translation>«.rodata» buit. No és cap biblioteca.</translation>
+        <translation>空的 .rodata. 非函式庫。</translation>
     </message>
     <message>
         <source>missing section data. This is not a library.</source>
-        <translation>manca la secció «data». Això no és cap biblioteca.</translation>
-    </message>
-    <message>
-        <source>Plugin verification data mismatch in &apos;%1&apos;</source>
-        <translation type="vanished">Error de verificació de dades del connector a «%1»</translation>
+        <translation>遺失區段資料。非函式庫。</translation>
     </message>
     <message>
         <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
-        <translation>Ha fallat en extreure les metadades del connector des de «%1»</translation>
+        <translation>無法從「%1」擷取外掛程式中繼資料</translation>
     </message>
     <message>
         <source>The shared library was not found.</source>
-        <translation>No s&apos;ha trobat la biblioteca compartida.</translation>
+        <translation>找不到共享函式庫。</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; is not a valid Qt plugin.</source>
-        <translation>El fitxer «%1» no és un connector vàlid de les Qt.</translation>
+        <translation>檔案「%1」不是有效的 Qt 外掛程式。</translation>
     </message>
     <message>
         <source>The plugin &apos;%1&apos; uses incompatible Qt library. (%2.%3.%4) [%5]</source>
-        <translation>El connector «%1» usa una biblioteca Qt incompatible. (%2.%3.%4) [%5]</translation>
+        <translation>外掛程式「%1」使用不相容的 Qt 函式庫。(%2.%3.%4) [%5]</translation>
     </message>
     <message>
         <source>The plugin &apos;%1&apos; uses incompatible Qt library. (Cannot mix debug and release libraries.)</source>
-        <translation>El connector «%1» usa una biblioteca Qt incompatible. (No es poden barrejar biblioteques de depuració i publicades)</translation>
+        <translation>外掛程式「%1」使用不相容的 Qt 函式庫。（不能將除錯與釋出版本的函式庫混在一起。）</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Error desconegut</translation>
+        <translation>未知錯誤</translation>
     </message>
     <message>
         <source>Cannot load library %1: %2</source>
-        <translation>No s&apos;ha pogut carregar la biblioteca %1: %2</translation>
+        <translation>無法載入函式庫 %1：%2</translation>
     </message>
     <message>
         <source>Cannot unload library %1: %2</source>
-        <translation>No s&apos;ha pogut descarregar la biblioteca %1: %2</translation>
+        <translation>無法卸載函式庫 %1：%2</translation>
     </message>
     <message>
         <source>Cannot resolve symbol &quot;%1&quot; in %2: %3</source>
-        <translation>No s&apos;ha pogut resoldre el símbol «%1» en %2: %3</translation>
+        <translation>無法解析 %2 內的符號「%1」：%3</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a valid Mach-O binary (%2)</source>
-        <translation>«%1» no és cap binari Mach-O vàlid (%2)</translation>
+        <translation>「%1」為無效 Mach-O 二進位資料 (%2)</translation>
     </message>
     <message>
         <source>file is corrupt</source>
-        <translation>el fitxer està malmès</translation>
-    </message>
-    <message>
-        <source>file too small</source>
-        <translation>el fitxer és massa petit</translation>
+        <translation>檔案已損壞</translation>
     </message>
     <message>
         <source>no suitable architecture in fat binary</source>
-        <translation>no hi ha cap arquitectura apropiada en el «fat binary»</translation>
+        <translation>找不到 fat 二進位資料中適合的架構</translation>
     </message>
     <message>
         <source>invalid magic %1</source>
-        <translation>màgic %1 no vàlid</translation>
+        <translation>無效的 Magic %1</translation>
     </message>
     <message>
         <source>wrong architecture</source>
-        <translation>arquitectura incorrecta</translation>
+        <translation>架構錯誤</translation>
     </message>
     <message>
         <source>not a dynamic library</source>
-        <translation>no és cap biblioteca dinàmica</translation>
+        <translation>非動態函式庫</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a Qt plugin</source>
-        <translation>«%1» no és cap connector Qt</translation>
+        <translation>「%1」非 Qt 外掛程式</translation>
+    </message>
+    <message>
+        <source>Out of memory while loading plugin &apos;%1&apos;.</source>
+        <translation>載入外掛程式「%1」時發生記憶體不足問題。</translation>
     </message>
 </context>
 <context>
     <name>QLineEdit</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;Desfés</translation>
+        <translation>復原(&amp;U)</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>&amp;Refés</translation>
+        <translation>重做(&amp;R)</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>Re&amp;talla</translation>
+        <translation>剪下(&amp;T)</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Copia</translation>
+        <translation>複製(&amp;C)</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>&amp;Enganxa</translation>
+        <translation>貼上(&amp;P)</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Suprimeix</translation>
+        <translation>刪除</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Selecciona-ho tot</translation>
+        <translation>全部選擇</translation>
     </message>
 </context>
 <context>
     <name>QLocalServer</name>
     <message>
         <source>%1: Name error</source>
-        <translation>%1: Error al nom</translation>
+        <translation>%1：名稱錯誤</translation>
     </message>
     <message>
         <source>%1: Permission denied</source>
-        <translation>%1: S&apos;ha denegat el permís</translation>
+        <translation>%1：存取被拒</translation>
     </message>
     <message>
         <source>%1: Address in use</source>
-        <translation>%1: Adreça en ús</translation>
+        <translation>%1：位址使用中</translation>
     </message>
     <message>
         <source>%1: Unknown error %2</source>
-        <translation>%1: Error desconegut %2</translation>
+        <translation>%1：未知的錯誤 %2</translation>
     </message>
 </context>
 <context>
     <name>QLocalSocket</name>
     <message>
         <source>%1: Connection refused</source>
-        <translation>%1: S&apos;ha rebutjat la connexió</translation>
+        <translation>%1：連線被拒</translation>
     </message>
     <message>
         <source>%1: Remote closed</source>
-        <translation>%1: El remot ha tancat</translation>
+        <translation>%1：遠端已關閉</translation>
     </message>
     <message>
         <source>%1: Invalid name</source>
-        <translation>%1: Nom no vàlid</translation>
+        <translation>%1：名稱無效</translation>
     </message>
     <message>
         <source>%1: Socket access error</source>
-        <translation>%1: Error d&apos;accés al sòcol</translation>
+        <translation>%1：Socket 存取錯誤</translation>
     </message>
     <message>
         <source>%1: Socket resource error</source>
-        <translation>%1: Error de recurs del sòcol</translation>
+        <translation>%1：Socket 資源錯誤</translation>
     </message>
     <message>
         <source>%1: Socket operation timed out</source>
-        <translation>%1: L&apos;operació de sòcol ha excedit el temps</translation>
+        <translation>%1：Socket 操作逾時</translation>
     </message>
     <message>
         <source>%1: Datagram too large</source>
-        <translation>%1: El datagrama és massa gran</translation>
+        <translation>%1：資料塊過大</translation>
     </message>
     <message>
         <source>%1: Connection error</source>
-        <translation>%1: Error de connexió</translation>
+        <translation>%1：連線錯誤</translation>
     </message>
     <message>
         <source>%1: The socket operation is not supported</source>
-        <translation>%1: Operació no admesa en el sòcol</translation>
+        <translation>%1：不支援 socket 操作</translation>
     </message>
     <message>
         <source>%1: Operation not permitted when socket is in this state</source>
-        <translation>%1: Operació no permesa quan el sòcol és en aquest estat</translation>
+        <translation>%1：當 socket 在此狀態時不允許操作</translation>
     </message>
     <message>
         <source>%1: Unknown error</source>
-        <translation>%1: Error desconegut</translation>
+        <translation>%1：未知的錯誤</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation>S&apos;intenta connectar mentre la connexió és en curs</translation>
+        <translation>嘗試在連線時連線</translation>
     </message>
     <message>
         <source>%1: Unknown error %2</source>
-        <translation>%1: Error desconegut %2</translation>
+        <translation>%1：未知的錯誤 %2</translation>
     </message>
     <message>
         <source>%1: Access denied</source>
-        <translation>%1: S&apos;ha denegat l&apos;accés</translation>
+        <translation>%1：存取被拒</translation>
     </message>
 </context>
 <context>
     <name>QMYSQLDriver</name>
     <message>
         <source>Unable to allocate a MYSQL object</source>
-        <translation>No s&apos;ha pogut assignar un objecte MYSQL</translation>
+        <translation>無法分配個 MySQL 物件</translation>
     </message>
     <message>
         <source>Unable to open database &apos;%1&apos;</source>
-        <translation>No s&apos;ha pogut obrir la base de dades «%1»</translation>
+        <translation>無法開啟資料庫「%1」</translation>
     </message>
     <message>
         <source>Unable to connect</source>
-        <translation>No s&apos;ha pogut connectar</translation>
+        <translation>無法連線</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>La transacció no ha pogut començar</translation>
+        <translation>無法開始處理事項</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>No s&apos;ha pogut confirmar la transacció</translation>
+        <translation>無法提交處理事項</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>No s&apos;ha pogut desfer la transacció</translation>
+        <translation>無法回退處理事項</translation>
     </message>
 </context>
 <context>
     <name>QMYSQLResult</name>
     <message>
         <source>Unable to fetch data</source>
-        <translation>No s&apos;han pogut recuperar les dades</translation>
+        <translation>無法抓取資料</translation>
     </message>
     <message>
         <source>Unable to execute query</source>
-        <translation>No s&apos;ha pogut executar la consulta</translation>
+        <translation>無法執行查詢</translation>
     </message>
     <message>
         <source>Unable to store result</source>
-        <translation>No s&apos;ha pogut emmagatzemar el resultat</translation>
+        <translation>無法儲存結果</translation>
     </message>
     <message>
         <source>Unable to execute next query</source>
-        <translation>No s&apos;ha pogut executar la consulta següent</translation>
+        <translation>無法執行下一個查詢</translation>
     </message>
     <message>
         <source>Unable to store next result</source>
-        <translation>No s&apos;ha pogut emmagatzemar el resultat següent</translation>
+        <translation>無法儲存下一個結果</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>No s&apos;ha pogut preparar la sentència</translation>
+        <translation>無法準備陳述</translation>
     </message>
     <message>
         <source>Unable to reset statement</source>
-        <translation>No s&apos;ha pogut reiniciar la sentència</translation>
+        <translation>無法重設陳述</translation>
     </message>
     <message>
         <source>Unable to bind value</source>
-        <translation>No s&apos;ha pogut vincular el valor</translation>
+        <translation>無法結合值</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>No s&apos;ha pogut executar la sentència</translation>
+        <translation>無法執行陳述</translation>
     </message>
     <message>
         <source>Unable to bind outvalues</source>
-        <translation>No s&apos;han pogut vincular els valors excedits</translation>
+        <translation>無法結合輸出值</translation>
     </message>
     <message>
         <source>Unable to store statement results</source>
-        <translation>No s&apos;ha pogut emmagatzemar els resultats de la sentència</translation>
+        <translation>無法儲存陳述結果</translation>
     </message>
 </context>
 <context>
     <name>QMdiArea</name>
     <message>
         <source>(Untitled)</source>
-        <translation>(Sense títol)</translation>
+        <translation>（未命名）</translation>
     </message>
 </context>
 <context>
@@ -2266,391 +2357,379 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>Minimitza</translation>
+        <translation>最小化</translation>
     </message>
     <message>
         <source>Maximize</source>
-        <translation>Maximitza</translation>
+        <translation>最大化</translation>
     </message>
     <message>
         <source>Unshade</source>
-        <translation>Desplega</translation>
+        <translation>取消遮蔽</translation>
     </message>
     <message>
         <source>Shade</source>
-        <translation>Plega</translation>
+        <translation>遮蔽</translation>
     </message>
     <message>
         <source>Restore Down</source>
-        <translation>Restaura avall</translation>
+        <translation>向下恢復</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation>Restaura</translation>
+        <translation>回復</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Tanca</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Ajuda</translation>
+        <translation>說明</translation>
     </message>
     <message>
         <source>Menu</source>
-        <translation>Menú</translation>
+        <translation>選單</translation>
     </message>
     <message>
         <source>&amp;Restore</source>
-        <translation>&amp;Restaura</translation>
+        <translation>還原(&amp;R)</translation>
     </message>
     <message>
         <source>&amp;Move</source>
-        <translation>&amp;Mou</translation>
+        <translation>移動(&amp;M)</translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>&amp;Mida</translation>
+        <translation>大小(&amp;S)</translation>
     </message>
     <message>
         <source>Mi&amp;nimize</source>
-        <translation>Mi&amp;nimitza</translation>
+        <translation>最小化(&amp;N)</translation>
     </message>
     <message>
         <source>Ma&amp;ximize</source>
-        <translation>Ma&amp;ximitza</translation>
+        <translation>最大化(&amp;X)</translation>
     </message>
     <message>
         <source>Stay on &amp;Top</source>
-        <translation>Queda&apos;t al damun&amp;t</translation>
+        <translation>留在頂端(&amp;T)</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Tanca</translation>
+        <translation>關閉(&amp;C)</translation>
     </message>
 </context>
 <context>
     <name>QMessageBox</name>
     <message>
         <source>Show Details...</source>
-        <translation>Mostra els detalls...</translation>
+        <translation>顯示詳情...</translation>
     </message>
     <message>
         <source>Hide Details...</source>
-        <translation>Oculta els detalls...</translation>
-    </message>
-    <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Les Qt són un conjunt d&apos;eines C++ pel desenvolupament d&apos;aplicacions multiplataforma.&lt;/p&gt;&lt;p&gt;Les Qt proporcionen portabilitat amb un codi font únic entre els principals sistemes operatius. Les Qt també són disponibles per a Linux incrustat i sistemes operatius incrustats i mòbils.&lt;/p&gt;&lt;p&gt;Les Qt estan disponibles en tres opcions de llicència diferents dissenyades per adaptar-se a les necessitats dels diversos usuaris.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota el nostre acord de llicència comercial són apropiades per al desenvolupament de programari propietari/comercial a on no voleu compartir cap codi font amb terceres parts o no podeu complir amb els termes de la versió 3 de la LGPL de la GNU.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota la versió 3 de la LGPL de la GNU són apropiades per al desenvolupament d&apos;aplicacions Qt quan podeu complir amb els termes i condicions de la versió 3 de la LGPL de la GNU.&lt;/p&gt;&lt;p&gt;Si us plau, vegeu a &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; un resum de les llicències de les Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd i altres col·laboradors.&lt;/p&gt;&lt;p&gt;Les Qt i el logotip de les Qt són marques comercials de The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Les Qt són un producte de The Qt Company Ltd desenvolupat com un projecte de codi font obert. Vegeu &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; per a més informació.&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation type="vanished">D&apos;acord</translation>
-    </message>
-    <message>
-        <source>Help</source>
-        <translation type="vanished">Ajuda</translation>
+        <translation>隱藏詳情...</translation>
     </message>
     <message>
         <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
-        <translation>&lt;h3&gt;Quant a les Qt&lt;/h3&gt;&lt;p&gt;Aquest programa utilitza la versió %1 de les Qt.&lt;/p&gt;</translation>
+        <translation>&lt;h3&gt;關於 Qt&lt;/h3&gt;&lt;p&gt;此程式使用 Qt %1 版。&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3 or GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;Les Qt són un conjunt d&apos;eines C++ pel desenvolupament d&apos;aplicacions multiplataforma.&lt;/p&gt;&lt;p&gt;Les Qt proporcionen portabilitat amb un codi font únic entre els principals sistemes operatius. Les Qt també són disponibles per a Linux incrustat i sistemes operatius incrustats i mòbils.&lt;/p&gt;&lt;p&gt;Les Qt estan disponibles en tres opcions de llicència diferents dissenyades per adaptar-se a les necessitats dels diversos usuaris.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota el nostre acord de llicència comercial són apropiades per al desenvolupament de programari propietari/comercial a on no voleu compartir cap codi font amb terceres parts o no podeu complir amb els termes de la versió 3 de la LGPL de la GNU o de la versió 2.1 de la LGPL de la GNU.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota la versió 3 de la LGPL de la GNU són apropiades per al desenvolupament d&apos;aplicacions Qt quan podeu complir amb els termes i condicions de la versió 3 de la LGPL de la GNU.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota la versió 2.1 de la LGPL de la GNU són apropiades per al desenvolupament d&apos;aplicacions Qt perquè pugueu complir amb els termes i condicions de la versió 2.1 de la LGPL de la GNU.&lt;/p&gt;&lt;p&gt;Si us plau, vegeu a &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; un resum de les llicències de les Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd i altres col·laboradors.&lt;/p&gt;&lt;p&gt;Les Qt i el logotip de les Qt són marques comercials de The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Les Qt són un producte de The Qt Company Ltd desenvolupat com un projecte de codi font obert. Vegeu &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; per a més informació.&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3 or GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is a Digia product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;Les Qt són un conjunt d&apos;eines C++ pel desenvolupament d&apos;aplicacions multiplataforma.&lt;/p&gt;&lt;p&gt;Les Qt proporcionen portabilitat amb un codi font únic entre els principals sistemes operatius. Les Qt també són disponibles per a Linux incrustat i sistemes operatius incrustats i mòbils.&lt;/p&gt;&lt;p&gt;Les Qt estan disponibles en tres opcions de llicència diferents dissenyades per a adaptar-se a les necessitats dels diversos usuaris.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota el nostre acord de llicència comercial són apropiades per al desenvolupament de programari propietari/comercial a on no voleu compartir cap codi font amb terceres parts o no podeu complir amb els termes de la versió 3 de la LGPL de la GNU o de la versió 2.1 de la LGPL de la GNU.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota la versió 3 de la LGPL de la GNU són apropiades per al desenvolupament d&apos;aplicacions Qt quan podeu complir amb els termes i condicions de la versió 3 de la LGPL de la GNU.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota la versió 2.1 de la LGPL de la GNU són apropiades per al desenvolupament d&apos;aplicacions Qt perquè pugueu complir amb els termes i condicions de la versió 2.1 de la LGPL de la GNU.&lt;/p&gt;&lt;p&gt;Si us plau, vegeu a &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; un resum de les llicències de les Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 Digia Plc i/o les seves filials i altres col·laboradors.&lt;/p&gt;&lt;p&gt;Les Qt i el logotip de les Qt són marques comercials de Digia Plc i/o les seves filials.&lt;/p&gt;&lt;p&gt;Les Qt són un producte de Digia desenvolupat com un projecte de codi font obert. Vegeu &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; per a més informació.&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt 
-applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.io/licensing/&quot;&gt;qt.io/licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is developed as an open source project on &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.io/&quot;&gt;qt.io&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;Les Qt són un conjunt d&apos;eines C++ pel desenvolupament d&apos;aplicacions multiplataforma.&lt;/p&gt;&lt;p&gt;Les Qt proporcionen portabilitat amb un codi font únic entre els principals sistemes operatius. Les Qt també són disponibles per a Linux incrustat i sistemes operatius incrustats i mòbils.&lt;/p&gt;&lt;p&gt;Les Qt estan disponibles en tres opcions de llicència diferents dissenyades per a adaptar-se a les necessitats dels diversos usuaris.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota el nostre acord de llicència comercial són apropiades per al desenvolupament de programari propietari/comercial a on no voleu compartir cap codi font amb terceres parts o no podeu complir amb els termes de la versió 2.1 de la LGPL de la GNU o la versió 3.0 de la GPL de la GNU.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota la versió 2.1 de la LGPL de la GNU són apropiades per al desenvolupament d&apos;aplicacions Qt perquè pugueu complir amb els termes i condicions de la versió 2.1 de la LGPL de la GNU.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota la versió 3.0 de la Llicència Pública General de la GNU són apropiades per al desenvolupament d&apos;aplicacions Qt quan voleu utilitzar aquestes aplicacions en combinació amb programari sotmès als termes de la versió 3.0 de la GPL de la GNU o quan esteu disposat a complir amb els termes de la versió 3.0 de la GPL de la GNU.&lt;/p&gt;&lt;p&gt;Si us plau, vegeu a &lt;a href=&quot;http://qt.io/licensing/&quot;&gt;qt.io/licensing&lt;/a&gt; un resum de les llicències de les Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) 2015 The Qt Company Ltd i altres col·laboradors.&lt;/p&gt;&lt;p&gt;Les Qt i el logotip de les Qt són marques comercials de Digia Plc i/o les seves filials.&lt;/p&gt;&lt;p&gt;Les Qt es desenvolupen com un projecte de codi font obert a &lt;a href=&quot;http://qt-project.org/&quot;&gt;qt-project.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Les Qt són un producte de Digia. Vegeu &lt;a href=&quot;http://qt.io/&quot;&gt;qt.io&lt;/a&gt; per a més informació.&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <extracomment>Leave this text untranslated or include a verbatim copy of it below and note that it is the authoritative version in case of doubt.</extracomment>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>About Qt</source>
-        <translation>Quant a les Qt</translation>
+        <translation>關於 Qt</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Qt 是個用於跨平台應用程式開發的工具箱。&lt;/p&gt;
+&lt;p&gt;Qt 提供了可移植單一來源以能在目前主流的桌面作業系統跨平台。其也支援嵌入式 Linux 和其他嵌入和行動作業系統。&lt;/p&gt;
+&lt;p&gt;Qt 可以用於三個不同的授權選項，以接納各個使用者的需求。&lt;/p&gt;
+&lt;p&gt;使用我們的商業授權條款授權的 Qt 適合拿來開發不希望公開源碼給第三方的專有或商業軟體，或者是無法完全遵守 GNU LGPL 第三版條款的軟體。&lt;/p&gt;
+&lt;p&gt;使用 GNU LGPL 第三版授權的 Qt 適合拿來開發能遵守 LGPL 授權條款與條件的 Qt 應用程式。&lt;/p&gt;
+&lt;p&gt;請參閱 &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; 取得 Qt 授權概覽。&lt;/p&gt;
+&lt;p&gt;版權所有 (C) %1 Qt 公司與其他貢獻者。&lt;/p&gt;
+&lt;p&gt;Qt 與其圖示皆為 Qt 公司的商標。&lt;/p&gt;
+&lt;p&gt;Qt 是 Qt 公司開發的開源專案，參閱 &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; 取得更多資訊。&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
     <name>QNativeSocketEngine</name>
     <message>
         <source>Unable to initialize non-blocking socket</source>
-        <translation>No s&apos;ha pogut inicialitzar el sòcol no bloquejant</translation>
+        <translation>無法初始化非阻塞性 socket</translation>
     </message>
     <message>
         <source>Unable to initialize broadcast socket</source>
-        <translation>No s&apos;ha pogut inicialitzar el sòcol de difusió</translation>
+        <translation>無法初始化廣播 socket</translation>
     </message>
     <message>
         <source>Attempt to use IPv6 socket on a platform with no IPv6 support</source>
-        <translation>S&apos;intenta usar un sòcol IPv6 en una plataforma que no admet IPv6</translation>
+        <translation>試圖在不支援 IPv6 的平台上使用 IPv6 socket</translation>
     </message>
     <message>
         <source>The remote host closed the connection</source>
-        <translation>L&apos;ordinador remot ha tancat la connexió</translation>
+        <translation>遠端主機關閉了連線</translation>
     </message>
     <message>
         <source>Network operation timed out</source>
-        <translation>L&apos;operació de xarxa ha excedit el temps</translation>
+        <translation>網路操作逾時</translation>
     </message>
     <message>
         <source>Out of resources</source>
-        <translation>Sense recursos</translation>
+        <translation>資源不足</translation>
     </message>
     <message>
         <source>Unsupported socket operation</source>
-        <translation>Operació de sòcol no admesa</translation>
+        <translation>不支援的 socket 操作</translation>
     </message>
     <message>
         <source>Protocol type not supported</source>
-        <translation>Tipus de protocol no admès</translation>
+        <translation>不支援的協定型態</translation>
     </message>
     <message>
         <source>Invalid socket descriptor</source>
-        <translation>Descriptor de sòcol no vàlid</translation>
+        <translation>無效的 socket 描述</translation>
     </message>
     <message>
         <source>Host unreachable</source>
-        <translation>Ordinador no accessible</translation>
+        <translation>無法連線到主機</translation>
     </message>
     <message>
         <source>Network unreachable</source>
-        <translation>Xarxa no accessible</translation>
+        <translation>無法連線網路</translation>
     </message>
     <message>
         <source>Permission denied</source>
-        <translation>S&apos;ha denegat el permís</translation>
+        <translation>權限被拒</translation>
     </message>
     <message>
         <source>Connection timed out</source>
-        <translation>Temps de connexió excedit</translation>
+        <translation>連線逾時</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>S&apos;ha rebutjat la connexió</translation>
+        <translation>連線被拒</translation>
     </message>
     <message>
         <source>The bound address is already in use</source>
-        <translation>Ja s&apos;està usant l&apos;adreça límit</translation>
+        <translation>已經使用結合位址</translation>
     </message>
     <message>
         <source>The address is not available</source>
-        <translation>L&apos;adreça no és disponible</translation>
+        <translation>無法取得位址</translation>
     </message>
     <message>
         <source>The address is protected</source>
-        <translation>L&apos;adreça està protegida</translation>
+        <translation>此位址被受保護</translation>
     </message>
     <message>
         <source>Datagram was too large to send</source>
-        <translation>El datagrama era massa gran per enviar-lo</translation>
+        <translation>資料塊過大無法送出</translation>
     </message>
     <message>
         <source>Unable to send a message</source>
-        <translation>No s&apos;ha pogut enviar un missatge</translation>
+        <translation>無法送出訊息</translation>
     </message>
     <message>
         <source>Unable to receive a message</source>
-        <translation>No s&apos;ha pogut rebre un missatge</translation>
+        <translation>無法接收訊息</translation>
     </message>
     <message>
         <source>Unable to write</source>
-        <translation>No s&apos;ha pogut escriure</translation>
+        <translation>無法寫入</translation>
     </message>
     <message>
         <source>Network error</source>
-        <translation>Error de xarxa</translation>
+        <translation>網路錯誤</translation>
     </message>
     <message>
         <source>Another socket is already listening on the same port</source>
-        <translation>Ja hi ha un altre sòcol escoltant en el mateix port</translation>
+        <translation>另一個 socket 已經在監聽同一個連接埠</translation>
     </message>
     <message>
         <source>Operation on non-socket</source>
-        <translation>Operació sense sòcol</translation>
+        <translation>於非 socket 操作</translation>
     </message>
     <message>
         <source>The proxy type is invalid for this operation</source>
-        <translation>El tipus de servidor intermediari no és vàlid per a aquesta operació</translation>
+        <translation>此代理伺服器型態對此操作無效</translation>
     </message>
     <message>
         <source>Temporary error</source>
-        <translation>Error temporal</translation>
+        <translation>暫時性錯誤</translation>
     </message>
     <message>
         <source>Network dropped connection on reset</source>
-        <translation>La xarxa ha tallat la connexió per un reinici</translation>
+        <translation>網路在重設時斷開連線</translation>
     </message>
     <message>
         <source>Connection reset by peer</source>
-        <translation>La màquina remota ha reiniciat la connexió</translation>
+        <translation>連線被端點重設</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Error desconegut</translation>
+        <translation>未知錯誤</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessCacheBackend</name>
     <message>
         <source>Error opening %1</source>
-        <translation>Error en obrir %1</translation>
+        <translation>開啟 %1 發生錯誤</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessDataBackend</name>
     <message>
         <source>Invalid URI: %1</source>
-        <translation>URI no vàlid: %1</translation>
+        <translation>網址無效：%1</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessDebugPipeBackend</name>
     <message>
         <source>Write error writing to %1: %2</source>
-        <translation>Error d&apos;escriptura en escriure a %1: %2</translation>
+        <translation>寫到 %1 時發生錯誤：%2</translation>
     </message>
     <message>
         <source>Socket error on %1: %2</source>
-        <translation>Error de sòcol a %1: %2</translation>
+        <translation>%1 上發生 socket 錯誤：%2</translation>
     </message>
     <message>
         <source>Remote host closed the connection prematurely on %1</source>
-        <translation>L&apos;ordinador remot ha tancat la connexió prematurament a %1</translation>
+        <translation>於 %1 上過早關閉了遠端主機的連線</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessFileBackend</name>
     <message>
         <source>Request for opening non-local file %1</source>
-        <translation>Sol·licitud per obrir el fitxer no local %1</translation>
+        <translation>要求開啟非本地端檔案 %1</translation>
     </message>
     <message>
         <source>Error opening %1: %2</source>
-        <translation>Error en obrir %1: %2</translation>
+        <translation>開啟 %1 發生錯誤：%2</translation>
     </message>
     <message>
         <source>Write error writing to %1: %2</source>
-        <translation>Error d&apos;escriptura en escriure a %1: %2</translation>
+        <translation>寫到 %1 時發生錯誤：%2</translation>
     </message>
     <message>
         <source>Cannot open %1: Path is a directory</source>
-        <translation>No es pot obrir %1: El camí és un directori</translation>
+        <translation>無法開啟 %1：此路徑是一個目錄</translation>
     </message>
     <message>
         <source>Read error reading from %1: %2</source>
-        <translation>Error de lectura en llegir des de %1: %2</translation>
+        <translation>從 %1 讀取錯誤：%2</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessFtpBackend</name>
     <message>
         <source>No suitable proxy found</source>
-        <translation>No s&apos;ha trobat cap servidor intermediari adequat</translation>
+        <translation>找不到合適的代理伺服器</translation>
     </message>
     <message>
         <source>Cannot open %1: is a directory</source>
-        <translation>No es pot obrir %1: És un directori</translation>
+        <translation>無法開啟 %1：是個目錄</translation>
     </message>
     <message>
         <source>Logging in to %1 failed: authentication required</source>
-        <translation>La connexió a %1 ha fallat: Es requereix autenticació</translation>
+        <translation>登入 %1 失敗：需要驗證</translation>
     </message>
     <message>
         <source>Error while downloading %1: %2</source>
-        <translation>Error en baixar %1: %2</translation>
+        <translation>下載 %1 時發生錯誤：%2</translation>
     </message>
     <message>
         <source>Error while uploading %1: %2</source>
-        <translation>Error en pujar %1: %2</translation>
+        <translation>上傳 %1 時發生錯誤：%2</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessManager</name>
     <message>
         <source>Network access is disabled.</source>
-        <translation>L&apos;accés a la xarxa està desactivat.</translation>
+        <translation>已停用網路存取支援。</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReply</name>
     <message>
-        <source>Error downloading %1 - server replied: %2</source>
-        <translation type="vanished">Error en baixar %1 - El servidor ha respost: %2</translation>
-    </message>
-    <message>
-        <source>Background request not allowed.</source>
-        <translation>Sol·licitud en segon pla no permesa.</translation>
+        <source>Error transferring %1 - server replied: %2</source>
+        <translation>傳輸 %1 錯誤 - 伺服器回應：%2</translation>
     </message>
     <message>
         <source>Network session error.</source>
-        <translation>Error de sessió de xarxa.</translation>
+        <translation>網路階段錯誤。</translation>
+    </message>
+    <message>
+        <source>Background request not allowed.</source>
+        <translation>不允許背景請求。</translation>
     </message>
     <message>
         <source>backend start error.</source>
-        <translation>error d&apos;inici del dorsal.</translation>
+        <translation>後端啟動錯誤。</translation>
     </message>
     <message>
         <source>Temporary network failure.</source>
-        <translation>Fallada temporal de xarxa.</translation>
+        <translation>暫時性網路失敗。</translation>
     </message>
     <message>
         <source>Protocol &quot;%1&quot; is unknown</source>
-        <translation>El protocol «%1» és desconegut</translation>
-    </message>
-    <message>
-        <source>Error transferring %1 - server replied: %2</source>
-        <translation>Error en transferir %1 - el servidor ha replicat: %2</translation>
+        <translation>未知的協定「%1」</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReplyHttpImpl</name>
     <message>
         <source>Operation canceled</source>
-        <translation>Operació cancel·lada</translation>
+        <translation>已取消動作</translation>
     </message>
     <message>
         <source>No suitable proxy found</source>
-        <translation>No s&apos;ha trobat cap servidor intermediari adequat</translation>
+        <translation>找不到合適的代理伺服器</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReplyImpl</name>
     <message>
         <source>Operation canceled</source>
-        <translation>Operació cancel·lada</translation>
+        <translation>已取消動作</translation>
     </message>
 </context>
 <context>
     <name>QNetworkSession</name>
     <message>
         <source>Invalid configuration.</source>
-        <translation>Configuració no vàlida.</translation>
+        <translation>無效的設定。</translation>
     </message>
 </context>
 <context>
     <name>QNetworkSessionPrivateImpl</name>
     <message>
         <source>Unknown session error.</source>
-        <translation>Error desconegut de sessió.</translation>
+        <translation>未知階段錯誤。</translation>
     </message>
     <message>
         <source>The session was aborted by the user or system.</source>
-        <translation>Sessió interrompuda per l&apos;usuari o el sistema.</translation>
+        <translation>此階段被使用者或系統終止。</translation>
     </message>
     <message>
         <source>The requested operation is not supported by the system.</source>
-        <translation>L&apos;operació sol·licitada no està admesa pel sistema.</translation>
+        <translation>系統不支援請求的動作。</translation>
     </message>
     <message>
         <source>The specified configuration cannot be used.</source>
-        <translation>No es pot utilitzar la configuració especificada.</translation>
+        <translation>無法使用指定的組態設定。</translation>
     </message>
     <message>
         <source>Roaming was aborted or is not possible.</source>
-        <translation>S&apos;ha interromput la itinerància o no és possible.</translation>
+        <translation>漫遊被終止或不可用。</translation>
     </message>
 </context>
 <context>
@@ -2658,292 +2737,281 @@ applications where you wish to use such applications in combination with softwar
     <message>
         <source>Unable to initialize</source>
         <comment>QOCIDriver</comment>
-        <translation>No s&apos;ha pogut inicialitzar</translation>
+        <translation>無法初始化</translation>
     </message>
     <message>
         <source>Unable to logon</source>
-        <translation>No s&apos;ha pogut connectar</translation>
+        <translation>無法登入</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>La transacció no ha pogut començar</translation>
+        <translation>無法開始處理事項</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>No s&apos;ha pogut confirmar la transacció</translation>
+        <translation>無法提交處理事項</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>No s&apos;ha pogut desfer la transacció</translation>
+        <translation>無法回退處理事項</translation>
     </message>
 </context>
 <context>
     <name>QOCIResult</name>
     <message>
         <source>Unable to bind column for batch execute</source>
-        <translation>No s&apos;ha pogut vincular la columna per a una execució massiva</translation>
+        <translation>無法結合用於批次執行的欄位</translation>
     </message>
     <message>
         <source>Unable to execute batch statement</source>
-        <translation>No s&apos;ha pogut executar la sentència massiva</translation>
+        <translation>無法執行批次陳述</translation>
     </message>
     <message>
         <source>Unable to goto next</source>
-        <translation>No s&apos;ha pogut anar al següent</translation>
+        <translation>無法跳到下一個</translation>
     </message>
     <message>
         <source>Unable to alloc statement</source>
-        <translation>No s&apos;ha pogut assignar la sentència</translation>
+        <translation>無法分配陳述</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>No s&apos;ha pogut preparar la sentència</translation>
+        <translation>無法準備陳述</translation>
     </message>
     <message>
         <source>Unable to get statement type</source>
-        <translation>No s&apos;ha pogut obtenir el tipus de sentència</translation>
+        <translation>無法取得陳述型態</translation>
     </message>
     <message>
         <source>Unable to bind value</source>
-        <translation>No s&apos;ha pogut vincular el valor</translation>
+        <translation>無法結合值</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>No s&apos;ha pogut executar la sentència</translation>
+        <translation>無法執行陳述</translation>
     </message>
 </context>
 <context>
     <name>QODBCDriver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>No s&apos;ha pogut connectar</translation>
+        <translation>無法連線</translation>
     </message>
     <message>
         <source>Unable to connect - Driver doesn&apos;t support all functionality required</source>
-        <translation>No s&apos;ha pogut connectar - El controlador no admet totes les funcionalitats requerides</translation>
+        <translation>無法連線 - 驅動不支援全部所需功能</translation>
     </message>
     <message>
         <source>Unable to disable autocommit</source>
-        <translation>No s&apos;ha pogut inhabilitar la confirmació automàtica</translation>
+        <translation>無法停用自動提交功能</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>No s&apos;ha pogut confirmar la transacció</translation>
+        <translation>無法提交處理事項</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>No s&apos;ha pogut desfer la transacció</translation>
+        <translation>無法回退處理事項</translation>
     </message>
     <message>
         <source>Unable to enable autocommit</source>
-        <translation>No s&apos;ha pogut habilitar la confirmació automàtica</translation>
+        <translation>無法啟用自動提交功能</translation>
     </message>
 </context>
 <context>
     <name>QODBCResult</name>
     <message>
-        <source>Unable to fetch last</source>
-        <translation>No s&apos;ha pogut recuperar l&apos;últim</translation>
-    </message>
-    <message>
         <source>QODBCResult::reset: Unable to set &apos;SQL_CURSOR_STATIC&apos; as statement attribute. Please check your ODBC driver configuration</source>
-        <translation>QODBCResult::reset: no s&apos;ha pogut establir «SQL_CURSOR_STATIC» com a atribut de sentència. Comproveu la configuració del controlador ODBC</translation>
+        <translation>QODBCResult::reset: 無法將「SQL_CURSOR_STATIC」設定為陳述屬性。請檢查您的 ODBC 驅動程式設定</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>No s&apos;ha pogut executar la sentència</translation>
+        <translation>無法執行陳述</translation>
     </message>
     <message>
         <source>Unable to fetch</source>
-        <translation>No s&apos;ha pogut recuperar</translation>
+        <translation>無法抓取</translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>No s&apos;ha pogut recuperar el següent</translation>
+        <translation>無法抓取下一筆</translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>No s&apos;ha pogut recuperar el primer</translation>
+        <translation>無法抓取第一筆</translation>
     </message>
     <message>
         <source>Unable to fetch previous</source>
-        <translation>No s&apos;ha pogut recuperar l&apos;anterior</translation>
+        <translation>無法抓取前一筆</translation>
+    </message>
+    <message>
+        <source>Unable to fetch last</source>
+        <translation>無法抓取最後一筆</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>No s&apos;ha pogut preparar la sentència</translation>
+        <translation>無法準備陳述</translation>
     </message>
     <message>
         <source>Unable to bind variable</source>
-        <translation>No s&apos;ha pogut vincular la variable</translation>
-    </message>
-</context>
-<context>
-    <name>QPPDOptionsModel</name>
-    <message>
-        <source>Name</source>
-        <translation>Nom</translation>
-    </message>
-    <message>
-        <source>Value</source>
-        <translation>Valor</translation>
+        <translation>無法結合變數</translation>
     </message>
 </context>
 <context>
     <name>QPSQLDriver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>No s&apos;ha pogut connectar</translation>
+        <translation>無法連線</translation>
     </message>
     <message>
         <source>Could not begin transaction</source>
-        <translation>La transacció no ha pogut començar</translation>
+        <translation>無法開始處理事項</translation>
     </message>
     <message>
         <source>Could not commit transaction</source>
-        <translation>La transacció no ha pogut confirmar-se</translation>
+        <translation>無法提交處理事項</translation>
     </message>
     <message>
         <source>Could not rollback transaction</source>
-        <translation>La transacció no ha pogut desfer-se</translation>
+        <translation>無法回退處理事項</translation>
     </message>
     <message>
         <source>Unable to subscribe</source>
-        <translation>No s&apos;ha pogut fer la subscripció</translation>
+        <translation>無法訂閱</translation>
     </message>
     <message>
         <source>Unable to unsubscribe</source>
-        <translation>No s&apos;ha pogut cancel·lar la subscripció</translation>
+        <translation>無法取消訂閱</translation>
     </message>
 </context>
 <context>
     <name>QPSQLResult</name>
     <message>
         <source>Query results lost - probably discarded on executing another SQL query.</source>
-        <translation>S&apos;han perdut els resultats de la consulta - probablement descartats en executar una altra consulta SQL.</translation>
+        <translation>查詢結果遺失 - 可能是在執行其他 SQL 查詢時被丟棄。</translation>
     </message>
     <message>
         <source>Unable to create query</source>
-        <translation>No s&apos;ha pogut crear la consulta</translation>
+        <translation>無法建立查詢</translation>
     </message>
     <message>
         <source>Unable to get result</source>
-        <translation>No s&apos;ha pogut obtenir els resultats</translation>
+        <translation>無法取得查詢</translation>
     </message>
     <message>
         <source>Unable to send query</source>
-        <translation>No s&apos;ha pogut enviar la consulta</translation>
+        <translation>無法傳送查詢</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>No s&apos;ha pogut preparar la sentència</translation>
+        <translation>無法準備陳述</translation>
     </message>
 </context>
 <context>
     <name>QPageSetupWidget</name>
     <message>
         <source>Form</source>
-        <translation>Formulari</translation>
+        <translation>表單</translation>
     </message>
     <message>
         <source>Paper</source>
-        <translation>Paper</translation>
+        <translation>紙張</translation>
     </message>
     <message>
         <source>Page size:</source>
-        <translation>Mida de pàgina:</translation>
+        <translation>頁面大小：</translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation>Amplada:</translation>
+        <translation>寬度：</translation>
     </message>
     <message>
         <source>Height:</source>
-        <translation>Alçada:</translation>
+        <translation>高度：</translation>
     </message>
     <message>
         <source>Paper source:</source>
-        <translation>Origen del paper:</translation>
+        <translation>紙張來源：</translation>
     </message>
     <message>
         <source>Orientation</source>
-        <translation>Orientació</translation>
+        <translation>方向</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>Vertical</translation>
+        <translation>直印</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>Apaïsat</translation>
+        <translation>橫印</translation>
     </message>
     <message>
         <source>Reverse landscape</source>
-        <translation>Apaïsat invertit</translation>
+        <translation>反向橫印</translation>
     </message>
     <message>
         <source>Reverse portrait</source>
-        <translation>Vertical invertit</translation>
+        <translation>反向直印</translation>
     </message>
     <message>
         <source>Margins</source>
-        <translation>Marges</translation>
+        <translation>邊緣</translation>
     </message>
     <message>
         <source>top margin</source>
-        <translation>marge superior</translation>
+        <translation>上邊緣</translation>
     </message>
     <message>
         <source>left margin</source>
-        <translation>marge esquerre</translation>
+        <translation>左邊緣</translation>
     </message>
     <message>
         <source>right margin</source>
-        <translation>marge dret</translation>
+        <translation>右邊緣</translation>
     </message>
     <message>
         <source>bottom margin</source>
-        <translation>marge inferior</translation>
+        <translation>下邊緣</translation>
     </message>
     <message>
         <source>Page Layout</source>
-        <translation>Disposició de la pàgina</translation>
+        <translation>頁面配置</translation>
     </message>
     <message>
         <source>Page order:</source>
-        <translation>Ordre de les pàgines:</translation>
+        <translation>頁面順序：</translation>
     </message>
     <message>
         <source>Pages per sheet:</source>
-        <translation>Pàgines per full:</translation>
+        <translation>每張紙包含頁數：</translation>
     </message>
     <message>
         <source>Millimeters (mm)</source>
-        <translation>Mil·límetres (mm)</translation>
+        <translation>毫米 (mm)</translation>
     </message>
     <message>
         <source>Inches (in)</source>
-        <translation>Polzades (in)</translation>
+        <translation>英吋 (in)</translation>
     </message>
     <message>
         <source>Points (pt)</source>
-        <translation>Punts (pt)</translation>
+        <translation>點 (pt)</translation>
     </message>
     <message>
         <source>Pica (P̸)</source>
-        <translation>Pica (P̸)</translation>
+        <translation>派卡 (P̸)</translation>
     </message>
     <message>
         <source>Didot (DD)</source>
-        <translation>Didot (DD)</translation>
+        <translation>迪多 (DD)</translation>
     </message>
     <message>
         <source>Cicero (CC)</source>
-        <translation>Cicero (CC)</translation>
+        <translation>西塞羅 (CC)</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>Personalitzada</translation>
+        <translation>自訂</translation>
     </message>
     <message>
         <source>mm</source>
@@ -2981,32 +3049,32 @@ applications where you wish to use such applications in combination with softwar
     <message>
         <source>Custom (%1mm x %2mm)</source>
         <extracomment>Custom size name in millimeters</extracomment>
-        <translation>Personalitzada (%1mm x %2mm)</translation>
+        <translation>自訂 (%1mm x %2mm)</translation>
     </message>
     <message>
         <source>Custom (%1pt x %2pt)</source>
         <extracomment>Custom size name in points</extracomment>
-        <translation>Personalitzada (%1pt x %2pt)</translation>
+        <translation>自訂 (%1pt x %2pt)</translation>
     </message>
     <message>
         <source>Custom (%1in x %2in)</source>
         <extracomment>Custom size name in inches</extracomment>
-        <translation>Personalitzada (%1in x %2in)</translation>
+        <translation>自訂 (%1in x %2in)</translation>
     </message>
     <message>
         <source>Custom (%1pc x %2pc)</source>
         <extracomment>Custom size name in picas</extracomment>
-        <translation>Personalitzada (%1pc x %2pc)</translation>
+        <translation>自訂 (%1pc x %2pc)</translation>
     </message>
     <message>
         <source>Custom (%1DD x %2DD)</source>
         <extracomment>Custom size name in didots</extracomment>
-        <translation>Personalitzada (%1DD x %2DD)</translation>
+        <translation>自訂 (%1DD x %2DD)</translation>
     </message>
     <message>
         <source>Custom (%1CC x %2CC)</source>
         <extracomment>Custom size name in ciceros</extracomment>
-        <translation>Personalitzada (%1CC x %2CC)</translation>
+        <translation>自訂 (%1CC x %2CC)</translation>
     </message>
     <message>
         <source>%1 x %2 in</source>
@@ -3103,15 +3171,15 @@ applications where you wish to use such applications in combination with softwar
     </message>
     <message>
         <source>Executive (7.5 x 10 in)</source>
-        <translation>Executiu (7,5 x 10 in)</translation>
+        <translation>Executive (7.5 x 10 in)</translation>
     </message>
     <message>
         <source>Executive (7.25 x 10.5 in)</source>
-        <translation>Executiu (7,25 x 10,5 in)</translation>
+        <translation>Executive (7.25 x 10.5 in)</translation>
     </message>
     <message>
         <source>Folio (8.27 x 13 in)</source>
-        <translation>Foli (8,27 x 13 in)</translation>
+        <translation>Folio (8.27 x 13 in)</translation>
     </message>
     <message>
         <source>Legal</source>
@@ -3119,43 +3187,43 @@ applications where you wish to use such applications in combination with softwar
     </message>
     <message>
         <source>Letter / ANSI A</source>
-        <translation>Carta / ANSI A</translation>
+        <translation>信封 / ANSI A</translation>
     </message>
     <message>
         <source>Tabloid / ANSI B</source>
-        <translation>Tabloide / ANSI B</translation>
+        <translation>小報 / ANSI B</translation>
     </message>
     <message>
         <source>Ledger / ANSI B</source>
-        <translation>Llibre major / ANSI B</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>Personalitzada</translation>
+        <translation>自訂</translation>
     </message>
     <message>
         <source>A3 Extra</source>
-        <translation>A3 extra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>A4 Extra</source>
-        <translation>A4 extra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>A4 Plus</source>
-        <translation>A4 plus</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>A4 Small</source>
-        <translation>A4 petit</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>A5 Extra</source>
-        <translation>A5 extra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>B5 Extra</source>
-        <translation>B5 extra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>JIS B0</source>
@@ -3215,368 +3283,368 @@ applications where you wish to use such applications in combination with softwar
     </message>
     <message>
         <source>Legal Extra</source>
-        <translation>Legal extra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Letter Extra</source>
-        <translation>Carta extra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Letter Plus</source>
-        <translation>Carta plus</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Letter Small</source>
-        <translation>Carta petita</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Tabloid Extra</source>
-        <translation>Tabloide extra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Architect A</source>
-        <translation>Arquitecte A</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Architect B</source>
-        <translation>Arquitecte B</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Architect C</source>
-        <translation>Arquitecte C</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Architect D</source>
-        <translation>Arquitecte D</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Architect E</source>
-        <translation>Arquitecte E</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Note</source>
-        <translation>Nota</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Quarto</source>
-        <translation>Quart</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Statement</source>
-        <translation>Sentència</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Super A</source>
-        <translation>Super A</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Super B</source>
-        <translation>Super B</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Postcard</source>
-        <translation>Postal</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Double Postcard</source>
-        <translation>Postal doble</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>PRC 16K</source>
-        <translation>PRC 16K</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>PRC 32K</source>
-        <translation>PRC 32K</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>PRC 32K Big</source>
-        <translation>PRC 32K gran</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Fan-fold US (14.875 x 11 in)</source>
-        <translation>Paper continu US (14,875 x 11 in)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Fan-fold German (8.5 x 12 in)</source>
-        <translation>Paper continu alemany (8,5 x 12 in)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Fan-fold German Legal (8.5 x 13 in)</source>
-        <translation>Paper continu alemany legal (8,5 x 13 in)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Envelope B4</source>
-        <translation>Sobre B4</translation>
+        <translation>信封型 B4</translation>
     </message>
     <message>
         <source>Envelope B5</source>
-        <translation>Sobre B5</translation>
+        <translation>信封型 B5</translation>
     </message>
     <message>
         <source>Envelope B6</source>
-        <translation>Sobre B6</translation>
+        <translation>信封型 B6</translation>
     </message>
     <message>
         <source>Envelope C0</source>
-        <translation>Sobre C0</translation>
+        <translation>信封型 C0</translation>
     </message>
     <message>
         <source>Envelope C1</source>
-        <translation>Sobre C1</translation>
+        <translation>信封型 C1</translation>
     </message>
     <message>
         <source>Envelope C2</source>
-        <translation>Sobre C2</translation>
+        <translation>信封型 C2</translation>
     </message>
     <message>
         <source>Envelope C3</source>
-        <translation>Sobre C3</translation>
+        <translation>信封型 C3</translation>
     </message>
     <message>
         <source>Envelope C4</source>
-        <translation>Sobre C4</translation>
+        <translation>信封型 C4</translation>
     </message>
     <message>
         <source>Envelope C5</source>
-        <translation>Sobre C5</translation>
+        <translation>信封型 C5</translation>
     </message>
     <message>
         <source>Envelope C6</source>
-        <translation>Sobre C6</translation>
+        <translation>信封型 C6</translation>
     </message>
     <message>
         <source>Envelope C65</source>
-        <translation>Sobre C65</translation>
+        <translation>信封型 C65</translation>
     </message>
     <message>
         <source>Envelope C7</source>
-        <translation>Sobre C7</translation>
+        <translation>信封型 C7</translation>
     </message>
     <message>
         <source>Envelope DL</source>
-        <translation>Sobre DL</translation>
+        <translation>信封型 DL</translation>
     </message>
     <message>
         <source>Envelope US 9</source>
-        <translation>Sobre US 9</translation>
+        <translation>信封型 US 9</translation>
     </message>
     <message>
         <source>Envelope US 10</source>
-        <translation>Sobre US 10</translation>
+        <translation>信封型 US 10</translation>
     </message>
     <message>
         <source>Envelope US 11</source>
-        <translation>Sobre US 11</translation>
+        <translation>信封型 US 11</translation>
     </message>
     <message>
         <source>Envelope US 12</source>
-        <translation>Sobre US 12</translation>
+        <translation>信封型 US 12</translation>
     </message>
     <message>
         <source>Envelope US 14</source>
-        <translation>Sobre US 14</translation>
+        <translation>信封型 US 14</translation>
     </message>
     <message>
         <source>Envelope Monarch</source>
-        <translation>Sobre monarca</translation>
+        <translation>信封型 Monarch</translation>
     </message>
     <message>
         <source>Envelope Personal</source>
-        <translation>Sobre personal</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Envelope Chou 3</source>
-        <translation>Sobre Chou 3</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Envelope Chou 4</source>
-        <translation>Sobre Chou 4</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Envelope Invite</source>
-        <translation>Sobre invitació</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Envelope Italian</source>
-        <translation>Sobre italià</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Envelope Kaku 2</source>
-        <translation>Sobre Kaku 2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Envelope Kaku 3</source>
-        <translation>Sobre Kaku 3</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Envelope PRC 1</source>
-        <translation>Sobre PRC 1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Envelope PRC 2</source>
-        <translation>Sobre PRC 2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Envelope PRC 3</source>
-        <translation>Sobre PRC 3</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Envelope PRC 4</source>
-        <translation>Sobre PRC 4</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Envelope PRC 5</source>
-        <translation>Sobre PRC 5</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Envelope PRC 6</source>
-        <translation>Sobre PRC 6</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Envelope PRC 7</source>
-        <translation>Sobre PRC 7</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Envelope PRC 8</source>
-        <translation>Sobre PRC 8</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Envelope PRC 9</source>
-        <translation>Sobre PRC 9</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Envelope PRC 10</source>
-        <translation>Sobre PRC 10</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Envelope You 4</source>
-        <translation>Sobre You 4</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QPlatformTheme</name>
     <message>
         <source>OK</source>
-        <translation>D&apos;acord</translation>
+        <translation>確定</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Desa</translation>
+        <translation>儲存</translation>
     </message>
     <message>
         <source>Save All</source>
-        <translation>Desa-ho tot</translation>
+        <translation>全部儲存</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Obre</translation>
+        <translation>開啟</translation>
     </message>
     <message>
         <source>&amp;Yes</source>
-        <translation>&amp;Sí</translation>
+        <translation>是(&amp;Y)</translation>
     </message>
     <message>
         <source>Yes to &amp;All</source>
-        <translation>Sí &amp;a tot</translation>
+        <translation>全部皆是(&amp;A)</translation>
     </message>
     <message>
         <source>&amp;No</source>
-        <translation>&amp;No</translation>
+        <translation>否(&amp;N)</translation>
     </message>
     <message>
         <source>N&amp;o to All</source>
-        <translation>N&amp;o a tot</translation>
+        <translation>全部皆否(&amp;O)</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation>Interromp</translation>
+        <translation>終止</translation>
     </message>
     <message>
         <source>Retry</source>
-        <translation>Reintenta</translation>
+        <translation>重試</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation>Ignora</translation>
+        <translation>忽略</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Tanca</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Cancel·la</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>Descarta</translation>
+        <translation>丟棄</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Ajuda</translation>
+        <translation>說明</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation>Aplica</translation>
+        <translation>套用</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Reinicia</translation>
+        <translation>重設</translation>
     </message>
     <message>
         <source>Restore Defaults</source>
-        <translation>Restaura les opcions per defecte</translation>
+        <translation>還原到預設值</translation>
     </message>
 </context>
 <context>
     <name>QPluginLoader</name>
     <message>
         <source>The plugin was not loaded.</source>
-        <translation>El connector no s&apos;ha carregat.</translation>
+        <translation>未載入外掛程式。</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Error desconegut</translation>
+        <translation>未知錯誤</translation>
     </message>
 </context>
 <context>
     <name>QPrintDialog</name>
     <message>
         <source>Print</source>
-        <translation>Imprimeix</translation>
+        <translation>列印</translation>
     </message>
     <message>
         <source>Left to Right, Top to Bottom</source>
-        <translation>D&apos;esquerra a dreta, de dalt a baix</translation>
+        <translation>左至右，上到下</translation>
     </message>
     <message>
         <source>Left to Right, Bottom to Top</source>
-        <translation>D&apos;esquerra a dreta, de baix a dalt</translation>
+        <translation>左至右，下到上</translation>
     </message>
     <message>
         <source>Right to Left, Bottom to Top</source>
-        <translation>De dreta a esquerra, de baix a dalt</translation>
+        <translation>右至左，下到上</translation>
     </message>
     <message>
         <source>Right to Left, Top to Bottom</source>
-        <translation>De dreta a esquerra, de dalt a baix</translation>
+        <translation>右至左，上到下</translation>
     </message>
     <message>
         <source>Bottom to Top, Left to Right</source>
-        <translation>De baix a dalt, d&apos;esquerra a dreta</translation>
+        <translation>下到上，左到右</translation>
     </message>
     <message>
         <source>Bottom to Top, Right to Left</source>
-        <translation>De baix a dalt, de dreta a esquerra</translation>
+        <translation>下到上，右到左</translation>
     </message>
     <message>
         <source>Top to Bottom, Left to Right</source>
-        <translation>De dalt a baix, d&apos;esquerra a dreta</translation>
+        <translation>上到下，左到右</translation>
     </message>
     <message>
         <source>Top to Bottom, Right to Left</source>
-        <translation>De dalt a baix, de dreta a esquerra</translation>
+        <translation>上到下，右到左</translation>
     </message>
     <message>
         <source>1 (1x1)</source>
@@ -3604,94 +3672,102 @@ applications where you wish to use such applications in combination with softwar
     </message>
     <message>
         <source>All Pages</source>
-        <translation>Totes les pàgines</translation>
+        <translation>全部頁面</translation>
     </message>
     <message>
         <source>Odd Pages</source>
-        <translation>Pàgines senars</translation>
+        <translation>奇數頁</translation>
     </message>
     <message>
         <source>Even Pages</source>
-        <translation>Pàgines parells</translation>
+        <translation>偶數頁</translation>
     </message>
     <message>
         <source>&amp;Options &gt;&gt;</source>
-        <translation>&amp;Opcions &gt;&gt;</translation>
+        <translation>選項(&amp;O) &gt;&gt;</translation>
     </message>
     <message>
         <source>&amp;Print</source>
-        <translation>Im&amp;primeix</translation>
+        <translation>列印(&amp;P)</translation>
     </message>
     <message>
         <source>&amp;Options &lt;&lt;</source>
-        <translation>&amp;Opcions &lt;&lt;</translation>
+        <translation>選項(&amp;O) &lt;&lt;</translation>
     </message>
     <message>
         <source>Invalid Pages Definition</source>
-        <translation>Definició no vàlida de les pàgines</translation>
+        <translation>無效頁面定義</translation>
     </message>
     <message>
         <source>%1 does not follow the correct syntax. Please use &apos;,&apos; to separate ranges and pages, &apos;-&apos; to define ranges and make sure ranges do not intersect with each other.</source>
-        <translation>%1 no segueix la sintaxi correcta. Useu «,» per separar intervals i pàgines, «-» per definir intervals, i assegureu-vos que els intervals no se sobreposen entre ells.</translation>
+        <translation>%1 沒遵循正確語法。請使用「,」分隔範圍與頁面、「-」定義範圍並確保範圍沒有相交。</translation>
+    </message>
+    <message>
+        <source>Duplex Settings Conflicts</source>
+        <translation>雙面設定衝突</translation>
+    </message>
+    <message>
+        <source>There are conflicts in duplex settings. Do you want to fix them?</source>
+        <translation>在雙面設定中發現衝突選項，是否修復？</translation>
     </message>
     <message>
         <source>Print to File (PDF)</source>
-        <translation>Imprimeix a fitxer (PDF)</translation>
+        <translation>列印到檔案（PDF）</translation>
     </message>
     <message>
         <source>Local file</source>
-        <translation>Fitxer local</translation>
+        <translation>本地端檔案</translation>
     </message>
     <message>
         <source>Write PDF file</source>
-        <translation>Escriu a fitxer PDF</translation>
+        <translation>寫入 PDF 檔案</translation>
     </message>
     <message>
         <source>Print To File ...</source>
-        <translation>Imprimeix a fitxer...</translation>
+        <translation>列印到檔案...</translation>
     </message>
     <message>
         <source>%1 is a directory.
 Please choose a different file name.</source>
-        <translation>%1 és un directori.
-Si us plau, seleccioneu un nom de fitxer diferent.</translation>
+        <translation>%1 是個目錄。
+請選擇其他檔名。</translation>
     </message>
     <message>
         <source>File %1 is not writable.
 Please choose a different file name.</source>
-        <translation>No es pot escriure en el fitxer %1.
-Si us plau, seleccioneu un nom de fitxer diferent.</translation>
+        <translation>檔案 %1 無法寫入。
+請選擇其它檔名。</translation>
     </message>
     <message>
         <source>%1 already exists.
 Do you want to overwrite it?</source>
-        <translation>%1 ja existeix.
-Voleu sobreescriure&apos;l?</translation>
+        <translation>%1 已存在。
+是否覆寫？</translation>
     </message>
     <message>
         <source>Options &apos;Pages Per Sheet&apos; and &apos;Page Set&apos; cannot be used together.
 Please turn one of those options off.</source>
-        <translation>Les opcions «Pàgines per full» i «Disposició de la pàgina» no es poden usar conjuntament.
-Desactiveu una de les dues opcions.</translation>
+        <translation>不能同時使用「每張紙包含頁數」與「頁面設定」選項。
+請關閉其中一個選項。</translation>
     </message>
     <message>
         <source>The &apos;From&apos; value cannot be greater than the &apos;To&apos; value.</source>
-        <translation>El valor «Des de» no pot ser més gran que el valor «A».</translation>
+        <translation>「起始」值不能大於「結束」值。</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>D&apos;acord</translation>
+        <translation>確定</translation>
     </message>
     <message>
         <source>Automatic</source>
-        <translation>Automàtic</translation>
+        <translation>自動</translation>
     </message>
 </context>
 <context>
     <name>QPrintPreviewDialog</name>
     <message>
         <source>Page Setup</source>
-        <translation>Configuració de pàgina</translation>
+        <translation>頁面設定</translation>
     </message>
     <message>
         <source>%1%</source>
@@ -3699,1349 +3775,1203 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>Print Preview</source>
-        <translation>Vista prèvia d&apos;impressió</translation>
+        <translation>列印預覽</translation>
     </message>
     <message>
         <source>Next page</source>
-        <translation>Pàgina següent</translation>
+        <translation>下一頁</translation>
     </message>
     <message>
         <source>Previous page</source>
-        <translation>Pàgina anterior</translation>
+        <translation>上一頁</translation>
     </message>
     <message>
         <source>First page</source>
-        <translation>Primera pàgina</translation>
+        <translation>第一頁</translation>
     </message>
     <message>
         <source>Last page</source>
-        <translation>Última pàgina</translation>
+        <translation>最後一頁</translation>
     </message>
     <message>
         <source>Fit width</source>
-        <translation>Ajusta a l&apos;amplada</translation>
+        <translation>符合寬度</translation>
     </message>
     <message>
         <source>Fit page</source>
-        <translation>Ajusta a la pàgina</translation>
+        <translation>符合頁面</translation>
     </message>
     <message>
         <source>Zoom in</source>
-        <translation>Amplia</translation>
+        <translation>放大</translation>
     </message>
     <message>
         <source>Zoom out</source>
-        <translation>Redueix</translation>
+        <translation>縮小</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>Vertical</translation>
+        <translation>直印</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>Apaïsat</translation>
+        <translation>橫印</translation>
     </message>
     <message>
         <source>Show single page</source>
-        <translation>Mostra només una pàgina</translation>
+        <translation>顯示單一頁面</translation>
     </message>
     <message>
         <source>Show facing pages</source>
-        <translation>Mostra pàgines oposades</translation>
+        <translation>顯示封面</translation>
     </message>
     <message>
         <source>Show overview of all pages</source>
-        <translation>Mostra un resum de totes les pàgines</translation>
+        <translation>顯示所有頁面預覽</translation>
     </message>
     <message>
         <source>Print</source>
-        <translation>Imprimeix</translation>
+        <translation>列印</translation>
     </message>
     <message>
         <source>Page setup</source>
-        <translation>Configuració de pàgina</translation>
+        <translation>列印設定</translation>
     </message>
     <message>
         <source>Export to PDF</source>
-        <translation>Exporta a PDF</translation>
+        <translation>匯出到 PDF 檔</translation>
     </message>
 </context>
 <context>
     <name>QPrintPropertiesDialog</name>
     <message>
         <source>Printer Properties</source>
-        <translation>Propietats de la impressora</translation>
+        <translation>列印機屬性</translation>
     </message>
     <message>
         <source>Job Options</source>
-        <translation>Opcions del treball</translation>
+        <translation>作業選項</translation>
+    </message>
+    <message>
+        <source>Page Setup Conflicts</source>
+        <translation>頁面設定衝突</translation>
+    </message>
+    <message>
+        <source>There are conflicts in page setup options. Do you want to fix them?</source>
+        <translation>頁面設定中發現衝突選項，是否修復？</translation>
     </message>
     <message>
         <source>Advanced Option Conflicts</source>
-        <translation>Conflictes d&apos;opcions avançades</translation>
+        <translation>進階選項衝突</translation>
     </message>
     <message>
         <source>There are conflicts in some advanced options. Do you want to fix them?</source>
-        <translation>Hi ha conflictes a les opcions avançades. Els voleu solucionar?</translation>
+        <translation>部份進階選項發現衝突，是否修復？</translation>
     </message>
 </context>
 <context>
     <name>QPrintPropertiesWidget</name>
     <message>
         <source>Form</source>
-        <translation>Formulari</translation>
+        <translation>表單</translation>
     </message>
     <message>
         <source>Page</source>
-        <translation>Pàgina</translation>
+        <translation>頁面</translation>
     </message>
     <message>
         <source>Advanced</source>
-        <translation>Avançat</translation>
+        <translation>進階</translation>
     </message>
     <message>
         <source>There are conflicts in some options. Please fix them.</source>
-        <translation>Hi ha conflictes a diverses opcions. Si us plau, solucioneu-los.</translation>
+        <translation>部份選項發生衝突，請修復這些問題。</translation>
     </message>
 </context>
 <context>
     <name>QPrintSettingsOutput</name>
     <message>
         <source>Form</source>
-        <translation>Formulari</translation>
+        <translation>表單</translation>
     </message>
     <message>
         <source>Copies</source>
-        <translation>Còpies</translation>
+        <translation>份數</translation>
     </message>
     <message>
         <source>Print range</source>
-        <translation>Imprimeix interval</translation>
+        <translation>列印範圍</translation>
     </message>
     <message>
         <source>Print all</source>
-        <translation>Imprimeix tot</translation>
+        <translation>全部列印</translation>
     </message>
     <message>
         <source>Pages from</source>
-        <translation>Pàgines des de</translation>
+        <translation>指定頁面從</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>a</translation>
-    </message>
-    <message>
-        <source>Current Page</source>
-        <translation>Pàgina actual</translation>
-    </message>
-    <message>
-        <source>Selection</source>
-        <translation>Selecció</translation>
-    </message>
-    <message>
-        <source>Page Set:</source>
-        <translation>Disposició de la pàgina:</translation>
-    </message>
-    <message>
-        <source>Output Settings</source>
-        <translation>Configuració de la sortida</translation>
-    </message>
-    <message>
-        <source>Copies:</source>
-        <translation>Còpies:</translation>
-    </message>
-    <message>
-        <source>Collate</source>
-        <translation>Encadena</translation>
-    </message>
-    <message>
-        <source>Reverse</source>
-        <translation>Inverteix</translation>
-    </message>
-    <message>
-        <source>Options</source>
-        <translation>Opcions</translation>
-    </message>
-    <message>
-        <source>Color Mode</source>
-        <translation>Mode de color</translation>
-    </message>
-    <message>
-        <source>Color</source>
-        <translation>Color</translation>
-    </message>
-    <message>
-        <source>Grayscale</source>
-        <translation>Escala de grisos</translation>
-    </message>
-    <message>
-        <source>Duplex Printing</source>
-        <translation>Impressió doble</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation>Cap</translation>
-    </message>
-    <message>
-        <source>Long side</source>
-        <translation>Vora llarga</translation>
-    </message>
-    <message>
-        <source>Short side</source>
-        <translation>Vora curta</translation>
+        <translation>到</translation>
     </message>
     <message>
         <source>Pages</source>
-        <translation>Pàgines</translation>
+        <translation>頁面</translation>
     </message>
     <message>
         <source>Specify pages or ranges separated by commas. Ranges are specified by two numbers separated by a hyphen. E.g: 3,5-7,9 prints pages 3, 5, 6, 7 and 9.</source>
-        <translation>Especifiqueu les pàgines o intervals separats per comes. Els intervals s&apos;especifiquen amb dos nombres separats per un guió. P. ex: 3,5-7,9 imprimeix les pàgines 3, 5, 6, 7 i 9.</translation>
+        <translation>使用逗號分隔頁面或頁面範圍。頁面範圍使用 (數字)-(數字) 的形式指定，例如 3,5-7,9 列印第三、五、六、七和九頁。</translation>
+    </message>
+    <message>
+        <source>Current Page</source>
+        <translation>目前頁面</translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>選擇區塊</translation>
+    </message>
+    <message>
+        <source>Page Set:</source>
+        <translation>頁面設定：</translation>
+    </message>
+    <message>
+        <source>Output Settings</source>
+        <translation>輸出設定</translation>
+    </message>
+    <message>
+        <source>Copies:</source>
+        <translation>份數：</translation>
+    </message>
+    <message>
+        <source>Collate</source>
+        <translation>校對</translation>
+    </message>
+    <message>
+        <source>Reverse</source>
+        <translation>反向</translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation>選項</translation>
+    </message>
+    <message>
+        <source>Color Mode</source>
+        <translation>顏色模式</translation>
+    </message>
+    <message>
+        <source>Color</source>
+        <translation>顏色</translation>
+    </message>
+    <message>
+        <source>Grayscale</source>
+        <translation>灰階</translation>
+    </message>
+    <message>
+        <source>Duplex Printing</source>
+        <translation>雙面列印</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>無</translation>
+    </message>
+    <message>
+        <source>Long side</source>
+        <translation>長邊</translation>
+    </message>
+    <message>
+        <source>Short side</source>
+        <translation>短邊</translation>
     </message>
 </context>
 <context>
     <name>QPrintWidget</name>
     <message>
         <source>Form</source>
-        <translation>Formulari</translation>
+        <translation>表單</translation>
     </message>
     <message>
         <source>Printer</source>
-        <translation>Impressora</translation>
+        <translation>印表機</translation>
     </message>
     <message>
         <source>&amp;Name:</source>
-        <translation>&amp;Nom:</translation>
+        <translation>名稱(&amp;N)：</translation>
     </message>
     <message>
         <source>P&amp;roperties</source>
-        <translation>P&amp;ropietats</translation>
+        <translation>屬性(&amp;R)</translation>
     </message>
     <message>
         <source>Location:</source>
-        <translation>Ubicació:</translation>
+        <translation>位置：</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation>Vista prèvia</translation>
+        <translation>預覽</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation>Tipus:</translation>
+        <translation>型態：</translation>
     </message>
     <message>
         <source>Output &amp;file:</source>
-        <translation>&amp;Fitxer de sortida:</translation>
+        <translation>輸出檔案(&amp;F)：</translation>
     </message>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation>…</translation>
     </message>
 </context>
 <context>
     <name>QProcess</name>
     <message>
         <source>Process failed to start</source>
-        <translation>El procés ha fallat en iniciar</translation>
-    </message>
-    <message>
-        <source>Error reading from process</source>
-        <translation>Error en llegir des del procés</translation>
-    </message>
-    <message>
-        <source>Error writing to process</source>
-        <translation>Error en escriure al procés</translation>
+        <translation>啟動程序失敗</translation>
     </message>
     <message>
         <source>Process crashed</source>
-        <translation>El procés ha fallat</translation>
-    </message>
-    <message>
-        <source>Process failed to start (spawned process exited with code 127)</source>
-        <translation type="vanished">El procés ha fallat en iniciar (el procés engendrat ha sortit amb el codi 127)</translation>
-    </message>
-    <message>
-        <source>No program defined</source>
-        <translation>No s&apos;ha definit cap programa</translation>
-    </message>
-    <message>
-        <source>Could not open input redirection for reading</source>
-        <translation>No s&apos;ha pogut obrir la redirecció d&apos;entrada per lectura</translation>
-    </message>
-    <message>
-        <source>Could not open output redirection for writing</source>
-        <translation>No s&apos;ha pogut obrir la redirecció d&apos;entrada per escriptura</translation>
-    </message>
-    <message>
-        <source>Resource error (fork failure): %1</source>
-        <translation>Error de recurs (ha fallat la bifurcació): %1</translation>
+        <translation>程序已當機</translation>
     </message>
     <message>
         <source>Process operation timed out</source>
-        <translation>L&apos;operació del procés ha excedit el temps</translation>
+        <translation>程序操作逾時</translation>
+    </message>
+    <message>
+        <source>Error reading from process</source>
+        <translation>從程序讀取時發生錯誤</translation>
+    </message>
+    <message>
+        <source>Error writing to process</source>
+        <translation>寫到程序時發生錯誤</translation>
+    </message>
+    <message>
+        <source>No program defined</source>
+        <translation>未定義程式</translation>
+    </message>
+    <message>
+        <source>Could not open input redirection for reading</source>
+        <translation>無法開啟供讀取的重新導向輸入</translation>
+    </message>
+    <message>
+        <source>Resource error (fork failure): %1</source>
+        <translation>資源錯誤（fork 失敗）：%1</translation>
+    </message>
+    <message>
+        <source>Could not open output redirection for writing</source>
+        <translation>無法開啟供寫入的輸出重新導向</translation>
     </message>
     <message>
         <source>Process failed to start: %1</source>
-        <translation>El procés ha fallat en iniciar: %1</translation>
+        <translation>程序啟動失敗：%1</translation>
     </message>
 </context>
 <context>
     <name>QProgressDialog</name>
     <message>
         <source>Cancel</source>
-        <translation>Cancel·la</translation>
-    </message>
-</context>
-<context>
-    <name>QQnxFileDialogHelper</name>
-    <message>
-        <source>All files (*.*)</source>
-        <translation type="vanished">Tots els fitxers (*.*)</translation>
-    </message>
-    <message>
-        <source>CANCEL</source>
-        <translation type="vanished">Cancel·la</translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation type="vanished">D&apos;acord</translation>
-    </message>
-</context>
-<context>
-    <name>QQnxFilePicker</name>
-    <message>
-        <source>Pick a file</source>
-        <translation type="vanished">Tria un fitxer</translation>
+        <translation>取消</translation>
     </message>
 </context>
 <context>
     <name>QRegExp</name>
     <message>
         <source>no error occurred</source>
-        <translation>sense errors</translation>
+        <translation>未發生錯誤</translation>
     </message>
     <message>
         <source>disabled feature used</source>
-        <translation>s&apos;ha usat una funcionalitat desactivada</translation>
+        <translation>使用的已停用功能</translation>
     </message>
     <message>
         <source>bad char class syntax</source>
-        <translation>caràcter incorrecte de sintaxi de classe</translation>
+        <translation>無效的字元類別於法</translation>
     </message>
     <message>
         <source>bad lookahead syntax</source>
-        <translation>sintaxi incorrecta de preplanificació</translation>
+        <translation>無效的先行斷言 (lookahead) 語法</translation>
     </message>
     <message>
         <source>lookbehinds not supported, see QTBUG-2371</source>
-        <translation>«lookbehinds» no està implementat, veieu QTBUG-2371</translation>
+        <translation>不支援後行斷言 (lookbehind)，請見 QTBUG-2371</translation>
     </message>
     <message>
         <source>bad repetition syntax</source>
-        <translation>sintaxi de repetició incorrecta</translation>
+        <translation>無效的重覆語法</translation>
     </message>
     <message>
         <source>invalid octal value</source>
-        <translation>valor octal no vàlid</translation>
+        <translation>無效的八進位值</translation>
     </message>
     <message>
         <source>missing left delim</source>
-        <translation>manca el delimitador esquerre</translation>
+        <translation>缺少左分隔符號</translation>
     </message>
     <message>
         <source>unexpected end</source>
-        <translation>final inesperat</translation>
+        <translation>非預期結尾</translation>
     </message>
     <message>
         <source>met internal limit</source>
-        <translation>s&apos;ha trobat un límit intern</translation>
+        <translation>遇到內部限制</translation>
     </message>
     <message>
         <source>invalid interval</source>
-        <translation>interval no vàlid</translation>
+        <translation>間隔無效</translation>
     </message>
     <message>
         <source>invalid category</source>
-        <translation>categoria no vàlida</translation>
+        <translation>類別無效</translation>
     </message>
 </context>
 <context>
     <name>QRegularExpression</name>
     <message>
         <source>no error</source>
-        <translation>sense error</translation>
+        <translation>沒有錯誤</translation>
     </message>
     <message>
         <source>\ at end of pattern</source>
-        <translation>\ al final de patró</translation>
+        <translation>\ 在 pattern 尾端出現</translation>
     </message>
     <message>
         <source>\c at end of pattern</source>
-        <translation>\c al final de patró</translation>
+        <translation>\c 在 pattern 尾端出現</translation>
     </message>
     <message>
         <source>unrecognized character follows \</source>
-        <translation>caràcter no reconegut després de \</translation>
+        <translation>有個未知的字元於 \ 之後</translation>
     </message>
     <message>
         <source>numbers out of order in {} quantifier</source>
-        <translation>nombres fora de l&apos;interval en el quantificador {}</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>number too big in {} quantifier</source>
-        <translation>nombre massa gran en el quantificador {}</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>missing terminating ] for character class</source>
-        <translation>manca la terminació ] en la classe caràcter</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>invalid escape sequence in character class</source>
-        <translation>seqüència d&apos;escapada no vàlida en la classe caràcter</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>range out of order in character class</source>
-        <translation>fora d&apos;interval en la classe caràcter</translation>
-    </message>
-    <message>
-        <source>nothing to repeat</source>
-        <translation type="vanished">res a repetir</translation>
-    </message>
-    <message>
-        <source>internal error: unexpected repeat</source>
-        <translation>error intern: repetició inesperada</translation>
-    </message>
-    <message>
-        <source>unrecognized character after (? or (?-</source>
-        <translation>caràcter no reconegut després de (? o (?-</translation>
-    </message>
-    <message>
-        <source>POSIX named classes are supported only within a class</source>
-        <translation>només es permeten les classes amb nom POSIX dins una classe</translation>
-    </message>
-    <message>
-        <source>missing )</source>
-        <translation type="vanished">manca )</translation>
-    </message>
-    <message>
-        <source>reference to non-existent subpattern</source>
-        <translation>referència a un subpatró inexistent</translation>
-    </message>
-    <message>
-        <source>erroffset passed as NULL</source>
-        <translation type="vanished">«erroffset» passat com a NULL</translation>
-    </message>
-    <message>
-        <source>unknown option bit(s) set</source>
-        <translation type="vanished">opció desconeguda «bit(s) set»</translation>
-    </message>
-    <message>
-        <source>missing ) after comment</source>
-        <translation type="vanished">manca ) després d&apos;un comentari</translation>
-    </message>
-    <message>
-        <source>regular expression is too large</source>
-        <translation>l&apos;expressió regular és massa gran</translation>
-    </message>
-    <message>
-        <source>failed to get memory</source>
-        <translation type="vanished">ha fallat en demanar memòria</translation>
-    </message>
-    <message>
-        <source>unmatched parentheses</source>
-        <translation type="vanished">parèntesi sense parella</translation>
-    </message>
-    <message>
-        <source>internal error: code overflow</source>
-        <translation>error intern: desbordament de codi</translation>
-    </message>
-    <message>
-        <source>unrecognized character after (?&lt;</source>
-        <translation type="vanished">caràcter no reconegut després de (?&lt;</translation>
-    </message>
-    <message>
-        <source>lookbehind assertion is not fixed length</source>
-        <translation>l&apos;asserció «lookbehind» no té longitud fixa</translation>
-    </message>
-    <message>
-        <source>malformed number or name after (?(</source>
-        <translation>nombre o nom amb format incorrecte després de (?(</translation>
-    </message>
-    <message>
-        <source>conditional group contains more than two branches</source>
-        <translation>un grup condicional conté més de dues branques</translation>
-    </message>
-    <message>
-        <source>assertion expected after (?(</source>
-        <translation type="vanished">asserció esperada després de (?(</translation>
-    </message>
-    <message>
-        <source>(?R or (?[+-]digits must be followed by )</source>
-        <translation>(?R o (?[+-]digits ha d&apos;anar seguit per )</translation>
-    </message>
-    <message>
-        <source>unknown POSIX class name</source>
-        <translation>nom desconegut de classe POSIX</translation>
-    </message>
-    <message>
-        <source>POSIX collating elements are not supported</source>
-        <translation>no es poden utilitzar els elements d&apos;ordenació POSIX</translation>
-    </message>
-    <message>
-        <source>this version of PCRE is not compiled with PCRE_UTF8 support</source>
-        <translation type="vanished">aquesta versió del PCRE no està compilada amb compatibilitat PCRE_UTF8</translation>
-    </message>
-    <message>
-        <source>character value in \x{...} sequence is too large</source>
-        <translation type="vanished">el valor del caràcter en la seqüència \x{...} és massa gran</translation>
-    </message>
-    <message>
-        <source>invalid condition (?(0)</source>
-        <translation>condició no vàlida (?(0)</translation>
-    </message>
-    <message>
-        <source>\C not allowed in lookbehind assertion</source>
-        <translation type="vanished">\C no permès en l&apos;asserció «lookbehind»</translation>
-    </message>
-    <message>
-        <source>PCRE does not support \L, \l, \N{name}, \U, or \u</source>
-        <translation>PCRE no accepta \L, \l, \N{nom}, \U, ni \u</translation>
-    </message>
-    <message>
-        <source>number after (?C is &gt; 255</source>
-        <translation type="vanished">el nombre després de (?C és &gt; 255</translation>
-    </message>
-    <message>
-        <source>closing ) for (?C expected</source>
-        <translation type="vanished">s&apos;esperava un tancament ) per (?C</translation>
-    </message>
-    <message>
-        <source>recursive call could loop indefinitely</source>
-        <translation type="vanished">la invocació recursiva pot repetir-se indefinidament</translation>
-    </message>
-    <message>
-        <source>unrecognized character after (?P</source>
-        <translation>caràcter no reconegut després de (?P</translation>
-    </message>
-    <message>
-        <source>syntax error in subpattern name (missing terminator)</source>
-        <translation>error de sintaxi en nom de subpatró (manca terminació)</translation>
-    </message>
-    <message>
-        <source>two named subpatterns have the same name</source>
-        <translation type="vanished">dos subpatrons amb nom tenen el mateix nom</translation>
-    </message>
-    <message>
-        <source>invalid UTF-8 string</source>
-        <translation type="vanished">cadena UTF-8 no vàlida</translation>
-    </message>
-    <message>
-        <source>support for \P, \p, and \X has not been compiled</source>
-        <translation type="vanished">no s&apos;ha compilat amb implementació per \P, \p, ni \X</translation>
-    </message>
-    <message>
-        <source>malformed \P or \p sequence</source>
-        <translation>seqüència \P o \p incorrecta</translation>
-    </message>
-    <message>
-        <source>unknown property name after \P or \p</source>
-        <translation>nom de propietat desconeguda després de \P o \p</translation>
-    </message>
-    <message>
-        <source>subpattern name is too long (maximum 32 characters)</source>
-        <translation type="vanished">el nom de subpatró és massa llarg (màxim 32 caràcters)</translation>
-    </message>
-    <message>
-        <source>too many named subpatterns (maximum 10000)</source>
-        <translation type="vanished">hi ha massa subpatrons amb nom (màxim 10000)</translation>
-    </message>
-    <message>
-        <source>octal value is greater than \377 (not in UTF-8 mode)</source>
-        <translation type="vanished">el valor octal és més gran que \377 (no en mode UTF-8)</translation>
-    </message>
-    <message>
-        <source>internal error: overran compiling workspace</source>
-        <translation>error intern: desbordament en compilar l&apos;espai de treball</translation>
-    </message>
-    <message>
-        <source>internal error: previously-checked referenced subpattern not found</source>
-        <translation>error intern: no s&apos;ha trobat el patró referenciat verificat prèviament</translation>
-    </message>
-    <message>
-        <source>DEFINE group contains more than one branch</source>
-        <translation>el grup DEFINE conté més d&apos;una branca</translation>
-    </message>
-    <message>
-        <source>repeating a DEFINE group is not allowed</source>
-        <translation type="vanished">no es permet repetir un grup DEFINE</translation>
-    </message>
-    <message>
-        <source>inconsistent NEWLINE options</source>
-        <translation type="vanished">opcions «NEWLINE» inconsistents</translation>
-    </message>
-    <message>
-        <source>\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number</source>
-        <translation>\g no és seguit per un nom/nombre entre claus, claudàtors o cometes o per un nombre normal</translation>
-    </message>
-    <message>
-        <source>a numbered reference must not be zero</source>
-        <translation>una referència amb número no pot ser zero</translation>
-    </message>
-    <message>
-        <source>an argument is not allowed for (*ACCEPT), (*FAIL), or (*COMMIT)</source>
-        <translation>no es permet cap argument per (*ACCEPT), (*FAIL), o (*COMMIT)</translation>
-    </message>
-    <message>
-        <source>(*VERB) not recognized</source>
-        <translation type="vanished">(*VERB) no es reconeix</translation>
-    </message>
-    <message>
-        <source>number is too big</source>
-        <translation>nombre massa gran</translation>
-    </message>
-    <message>
-        <source>subpattern name expected</source>
-        <translation>s&apos;esperava un nom de subpatró</translation>
-    </message>
-    <message>
-        <source>digit expected after (?+</source>
-        <translation>s&apos;esperava un dígit després de (?+</translation>
-    </message>
-    <message>
-        <source>] is an invalid data character in JavaScript compatibility mode</source>
-        <translation type="vanished">] és un caràcter no vàlid en el mode de compatibilitat amb JavaScript</translation>
-    </message>
-    <message>
-        <source>different names for subpatterns of the same number are not allowed</source>
-        <translation>no es permeten noms diferents per subpatrons del mateix nombre</translation>
-    </message>
-    <message>
-        <source>(*MARK) must have an argument</source>
-        <translation>(*MARK) cal que tingui un argument</translation>
-    </message>
-    <message>
-        <source>this version of PCRE is not compiled with PCRE_UCP support</source>
-        <translation type="vanished">aquesta versió del PCRE no està compilada amb compatibilitat PCRE_UCP</translation>
-    </message>
-    <message>
-        <source>\c must be followed by an ASCII character</source>
-        <translation type="vanished">\c ha d&apos;anar seguit d&apos;un caràcter ASCII</translation>
-    </message>
-    <message>
-        <source>\k is not followed by a braced, angle-bracketed, or quoted name</source>
-        <translation>\k no és seguit per un nom entre claus, claudàtors o cometes</translation>
-    </message>
-    <message>
-        <source>internal error: unknown opcode in find_fixedlength()</source>
-        <translation>error intern: «opcode» desconegut en «find_fixedlength()»</translation>
-    </message>
-    <message>
-        <source>\N is not supported in a class</source>
-        <translation>\N no està implementat en cap classe</translation>
-    </message>
-    <message>
-        <source>too many forward references</source>
-        <translation type="vanished">hi ha massa referències cap endavant</translation>
-    </message>
-    <message>
-        <source>disallowed Unicode code point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</source>
-        <translation>punt de codi Unicode no permès (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</translation>
-    </message>
-    <message>
-        <source>invalid UTF-16 string</source>
-        <translation type="vanished">cadena UTF-16 no vàlida</translation>
-    </message>
-    <message>
-        <source>name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)</source>
-        <translation>el nom és massa llarg en (*MARK), (*PRUNE), (*SKIP), o (*THEN)</translation>
-    </message>
-    <message>
-        <source>character value in \u.... sequence is too large</source>
-        <translation type="vanished">el valor del caràcter en la seqüència \u.... és massa gran</translation>
-    </message>
-    <message>
-        <source>invalid UTF-32 string</source>
-        <translation type="vanished">cadena UTF-32 no vàlida</translation>
-    </message>
-    <message>
-        <source>setting UTF is disabled by the application</source>
-        <translation type="vanished">L&apos;aplicació ha desactivat la definició de l&apos;UTF</translation>
-    </message>
-    <message>
-        <source>non-hex character in \x{} (closing brace missing?)</source>
-        <translation>caràcter no hexadecimal en \x{} (manca la clau de tancament?)</translation>
-    </message>
-    <message>
-        <source>non-octal character in \o{} (closing brace missing?)</source>
-        <translation>caràcter no octal en \o{} (manca la clau de tancament?)</translation>
-    </message>
-    <message>
-        <source>missing opening brace after \o</source>
-        <translation>manca una clau d&apos;obertura després de \o</translation>
-    </message>
-    <message>
-        <source>parentheses are too deeply nested</source>
-        <translation>els parèntesis s&apos;han imbricat amb massa profunditat</translation>
-    </message>
-    <message>
-        <source>invalid range in character class</source>
-        <translation>interval no vàlid en la classe caràcter</translation>
-    </message>
-    <message>
-        <source>group name must start with a non-digit</source>
-        <translation>el nom del grup ha de començar sense un dígit</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>quantifier does not follow a repeatable item</source>
-        <translation>el quantificador no segueix cap element repetible</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>internal error: unexpected repeat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>unrecognized character after (? or (?-</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>POSIX named classes are supported only within a class</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>POSIX collating elements are not supported</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>missing closing parenthesis</source>
-        <translation>manca el parèntesi de tancament</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>reference to non-existent subpattern</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>pattern passed as NULL</source>
-        <translation>patró passat com a NULL</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>unrecognised compile-time option bit(s)</source>
-        <translation>bit/s no reconegut/s d&apos;opció en temps de compilació</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>missing ) after (?# comment</source>
-        <translation>manca ) després d&apos;un comentari (?#</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>parentheses are too deeply nested</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>regular expression is too large</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>failed to allocate heap memory</source>
-        <translation>ha fallat en assignar la memòria en monticles</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>unmatched closing parenthesis</source>
-        <translation>parèntesi de tancament sense parella</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>internal error: code overflow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>letter or underscore expected after (?&lt; or (?&apos;</source>
-        <translation>s&apos;espera una lletra o un subratllat després de (?&lt; o (?&apos;</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>lookbehind assertion is not fixed length</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>malformed number or name after (?(</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>conditional group contains more than two branches</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>assertion expected after (?( or (?(?C)</source>
-        <translation>s&apos;espera una declaració després de (?( o (?(?C)</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(?R or (?[+-]digits must be followed by )</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>unknown POSIX class name</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>internal error in pcre2_study(): should not occur</source>
-        <translation>error intern a pcre2_study(): no hauria d&apos;ocórrer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>this version of PCRE2 does not have Unicode support</source>
-        <translation>aquesta versió del PCRE2 no implementa l&apos;Unicode</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>parentheses are too deeply nested (stack check)</source>
-        <translation>els parèntesis s&apos;han imbricat amb massa profunditat (verificació de pila)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>character code point value in \x{} or \o{} is too large</source>
-        <translation>el valor del codi de caràcter de coma en \x{} o \o{} és massa gran</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>invalid condition (?(0)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>\C is not allowed in a lookbehind assertion</source>
-        <translation>\C no es permet en una asserció «lookbehind»</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>PCRE does not support \L, \l, \N{name}, \U, or \u</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>number after (?C is greater than 255</source>
-        <translation>el nombre després de (?C és més gran que 255</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>closing parenthesis for (?C expected</source>
-        <translation>s&apos;esperava un tancament ) per (?C</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>invalid escape sequence in (*VERB) name</source>
-        <translation>seqüència d&apos;escapada no vàlida en un nom (*VERB)</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>unrecognized character after (?P</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>syntax error in subpattern name (missing terminator)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>two named subpatterns have the same name (PCRE2_DUPNAMES not set)</source>
-        <translation>dos subpatrons amb nom tenen el mateix nom (no s&apos;ha definit PCRE2_DUPNAMES)</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>group name must start with a non-digit</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>this version of PCRE2 does not have support for \P, \p, or \X</source>
-        <translation>aquesta versió del PCRE2 no té la implementació per \P, \p, ni \X</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>malformed \P or \p sequence</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>unknown property name after \P or \p</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>subpattern name is too long (maximum 10000 characters)</source>
-        <translation>el nom de subpatró és massa llarg (màxim 10000 caràcters)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>too many named subpatterns (maximum 256)</source>
-        <translation>hi ha massa subpatrons amb nom (màxim 256)</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>invalid range in character class</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>octal value is greater than \377 in 8-bit non-UTF-8 mode</source>
-        <translation>el valor octal és més gran que \377 en 8 bits en mode no UTF-8</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>internal error: overran compiling workspace</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>internal error: previously-checked referenced subpattern not found</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>DEFINE group contains more than one branch</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>missing opening brace after \o</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>internal error: unknown newline setting</source>
-        <translation>error intern: paràmetre desconegut de línia nova</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>a numbered reference must not be zero</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>an argument is not allowed for (*ACCEPT), (*FAIL), or (*COMMIT)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>(*VERB) not recognized or malformed</source>
-        <translation>(*VERB) no es reconeix o amb format incorrecte</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>number is too big</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>subpattern name expected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>digit expected after (?+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>non-octal character in \o{} (closing brace missing?)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>different names for subpatterns of the same number are not allowed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(*MARK) must have an argument</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>non-hex character in \x{} (closing brace missing?)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>\c must be followed by a printable ASCII character</source>
-        <translation>\c ha d&apos;anar seguit d&apos;un caràcter ASCII imprimible</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>\c must be followed by a letter or one of [\]^_?</source>
-        <translation>\c ha d&apos;anar seguit d&apos;una lletra o un [\]^_?</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>\k is not followed by a braced, angle-bracketed, or quoted name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>internal error: unknown opcode in find_fixedlength()</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>\N is not supported in a class</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>SPARE ERROR</source>
-        <translation>ERROR DE RESERVA</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>disallowed Unicode code point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>using UTF is disabled by the application</source>
-        <translation>l&apos;aplicació ha desactivat l&apos;ús de l&apos;UTF</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>using UCP is disabled by the application</source>
-        <translation>l&apos;aplicació ha desactivat l&apos;ús de l&apos;UCP</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>character code point value in \u.... sequence is too large</source>
-        <translation>el valor del codi de caràcter de coma a una seqüència en \u.... és massa gran</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>digits missing in \x{} or \o{}</source>
-        <translation>manquen els dígits a\x{} o \o{}</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>syntax error in (?(VERSION condition</source>
-        <translation>error de sintaxi a la condició (?(VERSION</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>internal error: unknown opcode in auto_possessify()</source>
-        <translation>error intern: «opcode» desconegut a «auto_possessify()»</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>missing terminating delimiter for callout with string argument</source>
-        <translation>Manca el delimitador de terminació de crida amb un argument de cadena</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>unrecognized string delimiter follows (?C</source>
-        <translation>delimitador de cadena no reconegut segueix (?C</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>using \C is disabled by the application</source>
-        <translation>l&apos;aplicació ha desactivat l&apos;ús de \C</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>(?| and/or (?J: or (?x: parentheses are too deeply nested</source>
-        <translation>(?| i/o (?J: o (?x: els parèntesis s&apos;han imbricat amb massa profunditat</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>using \C is disabled in this PCRE2 library</source>
-        <translation>aquesta biblioteca PCRE2 ha desactivat l&apos;ús de \C</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>regular expression is too complicated</source>
-        <translation>l&apos;expressió regular és massa complicada</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>lookbehind assertion is too long</source>
-        <translation>l&apos;asserció «lookbehind» és massa llarga</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>pattern string is longer than the limit set by the application</source>
-        <translation>la cadena del patró és més gran que el límit definit per l&apos;aplicació</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>no match</source>
-        <translation>no coincideix</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>partial match</source>
-        <translation>coincidència parcial</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-8 error: 1 byte missing at end</source>
-        <translation>error d&apos;UTF-8: manca 1 byte al final</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-8 error: 2 bytes missing at end</source>
-        <translation>error d&apos;UTF-8: manquen 2 bytes al final</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-8 error: 3 bytes missing at end</source>
-        <translation>error d&apos;UTF-8: manquen 3 bytes al final</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-8 error: 4 bytes missing at end</source>
-        <translation>error d&apos;UTF-8: manquen 4 bytes al final</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-8 error: 5 bytes missing at end</source>
-        <translation>error d&apos;UTF-8: manquen 5 bytes al final</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-8 error: byte 2 top bits not 0x80</source>
-        <translation>error d&apos;UTF-8: els 2 bits més alts del byte no són 0x80</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-8 error: byte 3 top bits not 0x80</source>
-        <translation>error d&apos;UTF-8: els 3 bits més alts del byte no són 0x80</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-8 error: byte 4 top bits not 0x80</source>
-        <translation>error d&apos;UTF-8: els 4 bits més alts del byte no són 0x80</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-8 error: byte 5 top bits not 0x80</source>
-        <translation>error d&apos;UTF-8: els 5 bits més alts del byte no són 0x80</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-8 error: byte 6 top bits not 0x80</source>
-        <translation>error d&apos;UTF-8: els 6 bits més alts del byte no són 0x80</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-8 error: 5-byte character is not allowed (RFC 3629)</source>
-        <translation>error d&apos;UTF-8: no es permeten caràcters de 5 bytes (RFC 3629)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-8 error: 6-byte character is not allowed (RFC 3629)</source>
-        <translation>error d&apos;UTF-8: no es permeten caràcters de 6 bytes (RFC 3629)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-8 error: code points greater than 0x10ffff are not defined</source>
-        <translation>error d&apos;UTF-8: no s&apos;han definit punts de codi més grans que 0x10ffff</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-8 error: code points 0xd800-0xdfff are not defined</source>
-        <translation>error d&apos;UTF-8: no s&apos;han definit punts de codi 0xd800-0xdfff</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 2-byte sequence</source>
-        <translation>error d&apos;UTF-8: s&apos;excedeix la seqüència de 2 bytes</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 3-byte sequence</source>
-        <translation>error d&apos;UTF-8: s&apos;excedeix la seqüència de 3 bytes</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 4-byte sequence</source>
-        <translation>error d&apos;UTF-8: s&apos;excedeix la seqüència de 4 bytes</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 5-byte sequence</source>
-        <translation>error d&apos;UTF-8: s&apos;excedeix la seqüència de 5 bytes</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 6-byte sequence</source>
-        <translation>error d&apos;UTF-8: s&apos;excedeix la seqüència de 6 bytes</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-8 error: isolated byte with 0x80 bit set</source>
-        <translation>error d&apos;UTF-8: byte aïllat amb el bit 0x80 activat</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-8 error: illegal byte (0xfe or 0xff)</source>
-        <translation>error d&apos;UTF-8: byte il·legal (0xfe o 0xff)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-16 error: missing low surrogate at end</source>
-        <translation>error d&apos;UTF-16: manca un suplent baix al final</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-16 error: invalid low surrogate</source>
-        <translation>error d&apos;UTF-16: suplent baix no vàlid</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-16 error: isolated low surrogate</source>
-        <translation>error d&apos;UTF-16: suplent baix aïllat</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-32 error: code points 0xd800-0xdfff are not defined</source>
-        <translation>error d&apos;UTF-32: no s&apos;han definit punts de codi 0xd800-0xdfff</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>UTF-32 error: code points greater than 0x10ffff are not defined</source>
-        <translation>error d&apos;UTF-32: no s&apos;han definit punts de codi més grans que 0x10ffff</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>bad data value</source>
-        <translation>valor incorrecte de dada</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>patterns do not all use the same character tables</source>
-        <translation>no tots els patrons usen les mateixes taules de caràcters</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>magic number missing</source>
-        <translation>manca el nombre màgic</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>pattern compiled in wrong mode: 8/16/32-bit error</source>
-        <translation>patró compilat en el mode incorrecte: error de 8/16/32 bits</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>bad offset value</source>
-        <translation>valor incorrecte de desplaçament</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>bad option value</source>
-        <translation>valor incorrecte d&apos;opció</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>invalid replacement string</source>
-        <translation>cadena de substitució no vàlida</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>bad offset into UTF string</source>
-        <translation>desplaçament incorrecte dins la cadena UTF</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>callout error code</source>
-        <translation>codi d&apos;error de crida</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>invalid data in workspace for DFA restart</source>
-        <translation>dades no vàlides a l&apos;espai de treball per al reinici DFA</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>too much recursion for DFA matching</source>
-        <translation>hi ha massa recursivitat per a la coincidència DFA</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>backreference condition or recursion test is not supported for DFA matching</source>
-        <translation>la condició de referència cap enrere o la prova de recursivitat no estan admeses a la coincidència DFA</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>function is not supported for DFA matching</source>
-        <translation>la funció no està admesa a la coincidència DFA</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>pattern contains an item that is not supported for DFA matching</source>
-        <translation>el patró conté un element que no està admès a la coincidència DFA</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>workspace size exceeded in DFA matching</source>
-        <translation>la mida de l&apos;espai de treball s&apos;ha excedit a la coincidència DFA</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>internal error - pattern overwritten?</source>
-        <translation>error intern: sobreescriptura del patró?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>bad JIT option</source>
-        <translation>opció incorrecta del JIT</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>JIT stack limit reached</source>
-        <translation>s&apos;ha arribat al límit de la pila del JIT</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>match limit exceeded</source>
-        <translation>s&apos;ha excedit el límit de coincidències</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>no more memory</source>
-        <translation>no hi ha més memòria</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>unknown substring</source>
-        <translation>subcadena desconeguda</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>non-unique substring name</source>
-        <translation>nom de subcadena no únic</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>NULL argument passed</source>
-        <translation>s&apos;ha passat un argument NULL</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>nested recursion at the same subject position</source>
-        <translation>recursivitat imbricada a la mateixa posició del subjecte</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>recursion limit exceeded</source>
-        <translation>s&apos;ha excedit el límit de recursions</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>requested value is not available</source>
-        <translation>el valor sol·licitat no és disponible</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>requested value is not set</source>
-        <translation>el valor sol·licitat no està definit</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>offset limit set without PCRE2_USE_OFFSET_LIMIT</source>
-        <translation>definit el límit del desplaçament sense PCRE2_USE_OFFSET_LIMIT</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>bad escape sequence in replacement string</source>
-        <translation>seqüència d&apos;escapada incorrecta en la cadena de reemplaçament</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>expected closing curly bracket in replacement string</source>
-        <translation>s&apos;esperava una clau de tancament a la cadena de reemplaçament</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>bad substitution in replacement string</source>
-        <translation>substitució incorrecta en la cadena de reemplaçament</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>match with end before start is not supported</source>
-        <translation>no s&apos;admet la coincidència amb el final abans de l&apos;inici</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>too many replacements (more than INT_MAX)</source>
-        <translation>hi ha massa reemplaçaments (més que INT_MAX)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>QSQLite2Driver</name>
     <message>
         <source>Error opening database</source>
-        <translation>Error en obrir la base de dades</translation>
+        <translation>開啟資料庫發生錯誤</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>La transacció no ha pogut començar</translation>
+        <translation>無法開始處理事項</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>No s&apos;ha pogut confirmar la transacció</translation>
+        <translation>無法提交處理事項</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>No s&apos;ha pogut desfer la transacció</translation>
+        <translation>無法回退處理事項</translation>
     </message>
 </context>
 <context>
     <name>QSQLite2Result</name>
     <message>
         <source>Unable to fetch results</source>
-        <translation>No s&apos;han pogut recuperar resultats</translation>
+        <translation>無法抓取結果</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>No s&apos;ha pogut executar la sentència</translation>
+        <translation>無法執行陳述</translation>
     </message>
 </context>
 <context>
     <name>QSQLiteDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>Error en obrir la base de dades</translation>
+        <translation>開啟資料庫發生錯誤</translation>
     </message>
     <message>
         <source>Error closing database</source>
-        <translation>Error en tancar la base de dades</translation>
+        <translation>關閉資料庫發生錯誤</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>La transacció no ha pogut començar</translation>
+        <translation>無法開始處理事項</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>No s&apos;ha pogut confirmar la transacció</translation>
+        <translation>無法提交處理事項</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>No s&apos;ha pogut desfer la transacció</translation>
+        <translation>無法回退處理事項</translation>
     </message>
 </context>
 <context>
     <name>QSQLiteResult</name>
     <message>
         <source>Unable to fetch row</source>
-        <translation>No s&apos;ha pogut recuperar la fila</translation>
+        <translation>無法抓取列</translation>
     </message>
     <message>
         <source>No query</source>
-        <translation>Sense consulta</translation>
+        <translation>沒有查詢</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>No s&apos;ha pogut executar la sentència</translation>
+        <translation>無法執行陳述</translation>
     </message>
     <message>
         <source>Unable to execute multiple statements at a time</source>
-        <translation>No s&apos;han pogut executar múltiples sentències a la vegada</translation>
+        <translation>不能同時執行多個陳述</translation>
     </message>
     <message>
         <source>Unable to reset statement</source>
-        <translation>No s&apos;ha pogut reiniciar la sentència</translation>
+        <translation>無法重設陳述</translation>
     </message>
     <message>
         <source>Unable to bind parameters</source>
-        <translation>No s&apos;han pogut vincular els paràmetres</translation>
+        <translation>無法結合參數</translation>
     </message>
     <message>
         <source>Parameter count mismatch</source>
-        <translation>El comptador de paràmetres no quadra</translation>
+        <translation>參數數量不符合</translation>
     </message>
 </context>
 <context>
     <name>QSaveFile</name>
     <message>
         <source>Existing file %1 is not writable</source>
-        <translation>No es pot escriure al fitxer existent %1</translation>
+        <translation>存在檔案 %1 無法寫入</translation>
     </message>
     <message>
         <source>Filename refers to a directory</source>
-        <translation>El nom del fitxer es refereix a un directori</translation>
+        <translation>檔案名稱對應到一個目錄</translation>
     </message>
     <message>
         <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled: path contains an Alternate Data Stream specifier</source>
-        <translation>QSaveFile no pot obrir «%1» sense una reserva d&apos;escriptura activada: el camí conté un especificador de flux de dades alternatiu</translation>
+        <translation>QSaveFile 無法在沒啟用直接寫入 fallback 的情況下開啟「%1」：位置包含了一個備用檔案串流說明符</translation>
     </message>
     <message>
         <source>Writing canceled by application</source>
-        <translation>L&apos;aplicació ha cancel·lat l&apos;escriptura</translation>
+        <translation>被應用程式取消寫入程序</translation>
     </message>
 </context>
 <context>
     <name>QScrollBar</name>
     <message>
         <source>Scroll here</source>
-        <translation>Desplaça aquí</translation>
+        <translation>在此捲動</translation>
     </message>
     <message>
         <source>Left edge</source>
-        <translation>Vora esquerra</translation>
+        <translation>左邊緣</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation>Dalt</translation>
+        <translation>頂端</translation>
     </message>
     <message>
         <source>Right edge</source>
-        <translation>Vora dreta</translation>
+        <translation>右邊緣</translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation>Baix</translation>
+        <translation>底端</translation>
     </message>
     <message>
         <source>Page left</source>
-        <translation>Pàgina esquerra</translation>
+        <translation>頁面左方</translation>
     </message>
     <message>
         <source>Page up</source>
-        <translation>Pàgina superior</translation>
+        <translation>頁面上方</translation>
     </message>
     <message>
         <source>Page right</source>
-        <translation>Pàgina dreta</translation>
+        <translation>頁面右方</translation>
     </message>
     <message>
         <source>Page down</source>
-        <translation>Pàgina inferior</translation>
+        <translation>頁面下方</translation>
     </message>
     <message>
         <source>Scroll left</source>
-        <translation>Desplaça a l&apos;esquerra</translation>
+        <translation>往左捲動</translation>
     </message>
     <message>
         <source>Scroll up</source>
-        <translation>Desplaça amunt</translation>
+        <translation>往上捲動</translation>
     </message>
     <message>
         <source>Scroll right</source>
-        <translation>Desplaça a la dreta</translation>
+        <translation>往右捲動</translation>
     </message>
     <message>
         <source>Scroll down</source>
-        <translation>Desplaça avall</translation>
+        <translation>往下捲動</translation>
     </message>
 </context>
 <context>
     <name>QSctpSocket</name>
     <message>
         <source>The remote host closed the connection</source>
-        <translation>L&apos;ordinador remot ha tancat la connexió</translation>
+        <translation>遠端主機關閉了連線</translation>
     </message>
 </context>
 <context>
     <name>QSharedMemory</name>
     <message>
         <source>%1: unable to set key on lock</source>
-        <translation>%1: no s&apos;ha pogut establir la clau del bloqueig</translation>
+        <translation>%1：無法設定鎖定鍵</translation>
     </message>
     <message>
         <source>%1: create size is less then 0</source>
-        <translation>%1: la mida de creació és inferior a 0</translation>
+        <translation>%1：建立大小小於 0</translation>
     </message>
     <message>
         <source>%1: unable to lock</source>
-        <translation>%1: no s&apos;ha pogut bloquejar</translation>
+        <translation>%1：無法鎖定</translation>
     </message>
     <message>
         <source>%1: unable to unlock</source>
-        <translation>%1: no s&apos;ha pogut desbloquejar</translation>
-    </message>
-    <message>
-        <source>%1: permission denied</source>
-        <translation>%1: s&apos;ha denegat el permís</translation>
-    </message>
-    <message>
-        <source>%1: already exists</source>
-        <translation>%1: ja existeix</translation>
-    </message>
-    <message>
-        <source>%1: doesn&apos;t exist</source>
-        <translation>%1: no existeix</translation>
-    </message>
-    <message>
-        <source>%1: out of resources</source>
-        <translation>%1: sense recursos</translation>
-    </message>
-    <message>
-        <source>%1: unknown error %2</source>
-        <translation>%1: error desconegut %2</translation>
+        <translation>%1：無法解鎖</translation>
     </message>
     <message>
         <source>%1: key is empty</source>
-        <translation>%1: la clau és buida</translation>
+        <translation>%1：鍵值是空的</translation>
     </message>
     <message>
         <source>%1: bad name</source>
-        <translation>%1: nom incorrecte</translation>
+        <translation>%1：無效名稱</translation>
     </message>
     <message>
         <source>%1: UNIX key file doesn&apos;t exist</source>
-        <translation>%1: no existeix el fitxer de claus de l&apos;UNIX</translation>
+        <translation>%1：UNIX 金鑰檔案不存在</translation>
     </message>
     <message>
         <source>%1: ftok failed</source>
-        <translation>%1: ha fallat el «ftok»</translation>
+        <translation>%1：ftok 失敗</translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
-        <translation>%1: no s&apos;ha pogut crear la clau</translation>
+        <translation>%1：無法產生鍵值</translation>
     </message>
     <message>
         <source>%1: system-imposed size restrictions</source>
-        <translation>%1: restriccions de mida imposades pel sistema</translation>
+        <translation>%1：系統強制大小限制</translation>
     </message>
     <message>
         <source>%1: not attached</source>
-        <translation>%1: no s&apos;ha adjuntat</translation>
+        <translation>%1：未附加</translation>
+    </message>
+    <message>
+        <source>%1: permission denied</source>
+        <translation>%1：存取被拒</translation>
+    </message>
+    <message>
+        <source>%1: already exists</source>
+        <translation>%1：已存在</translation>
+    </message>
+    <message>
+        <source>%1: doesn&apos;t exist</source>
+        <translation>%1：不存在</translation>
+    </message>
+    <message>
+        <source>%1: out of resources</source>
+        <translation>%1：資源不足</translation>
+    </message>
+    <message>
+        <source>%1: unknown error %2</source>
+        <translation>%1：未知的錯誤 %2</translation>
     </message>
     <message>
         <source>%1: invalid size</source>
-        <translation>%1: mida no vàlida</translation>
+        <translation>%1：大小無效</translation>
     </message>
     <message>
         <source>%1: key error</source>
-        <translation>%1: error de clau</translation>
+        <translation>%1：鍵值錯誤</translation>
     </message>
     <message>
         <source>%1: size query failed</source>
-        <translation>%1: ha fallat la consulta de la mida</translation>
+        <translation>%1：大小查詢失敗</translation>
     </message>
 </context>
 <context>
@@ -5049,7 +4979,7 @@ Desactiveu una de les dues opcions.</translation>
     <message>
         <source>Space</source>
         <extracomment>This and all following &quot;incomprehensible&quot; strings in QShortcut context are key names. Please use the localized names appearing on actual keyboards or whatever is commonly used.</extracomment>
-        <translation>Espai</translation>
+        <translation>空白鍵</translation>
     </message>
     <message>
         <source>Esc</source>
@@ -5061,389 +4991,389 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>Backtab</source>
-        <translation>Tab enrere</translation>
+        <translation>Backtab</translation>
     </message>
     <message>
         <source>Backspace</source>
-        <translation>Retrocés</translation>
+        <translation>Backspace</translation>
     </message>
     <message>
         <source>Return</source>
-        <translation>Retorn</translation>
+        <translation>Return</translation>
     </message>
     <message>
         <source>Enter</source>
-        <translation>Retorn</translation>
+        <translation>Enter</translation>
     </message>
     <message>
         <source>Ins</source>
-        <translation>Inser</translation>
+        <translation>插入鍵 (Ins)</translation>
     </message>
     <message>
         <source>Del</source>
-        <translation>Supr</translation>
+        <translation>刪除鍵 (Del)</translation>
     </message>
     <message>
         <source>Pause</source>
-        <translation>Pausa</translation>
+        <translation>暫停鍵 (Pause)</translation>
     </message>
     <message>
         <source>Print</source>
-        <translation>Imprimeix</translation>
+        <translation>Print</translation>
     </message>
     <message>
         <source>SysReq</source>
-        <translation>PetSis</translation>
+        <translation>SysReq</translation>
     </message>
     <message>
         <source>Home</source>
-        <translation>Inici</translation>
+        <translation>Home</translation>
     </message>
     <message>
         <source>End</source>
-        <translation>Final</translation>
+        <translation>End</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation>Esquerra</translation>
+        <translation>左鍵</translation>
     </message>
     <message>
         <source>Up</source>
-        <translation>Amunt</translation>
+        <translation>上鍵</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation>Dreta</translation>
+        <translation>右鍵</translation>
     </message>
     <message>
         <source>Down</source>
-        <translation>Avall</translation>
+        <translation>下鍵</translation>
     </message>
     <message>
         <source>PgUp</source>
-        <translation>Re Pàg</translation>
+        <translation>PgUp</translation>
     </message>
     <message>
         <source>PgDown</source>
-        <translation>Av Pàg</translation>
+        <translation>PgDown</translation>
     </message>
     <message>
         <source>CapsLock</source>
-        <translation>Bloq Maj</translation>
+        <translation>大寫鎖定</translation>
     </message>
     <message>
         <source>NumLock</source>
-        <translation>Bloq Núm</translation>
+        <translation>數字鎖定</translation>
     </message>
     <message>
         <source>ScrollLock</source>
-        <translation>Bloq Despl</translation>
+        <translation>捲動鎖定</translation>
     </message>
     <message>
         <source>Menu</source>
-        <translation>Menú</translation>
+        <translation>選單</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Ajuda</translation>
+        <translation>說明</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Enrere</translation>
+        <translation>返回</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>Endavant</translation>
+        <translation>往前</translation>
     </message>
     <message>
         <source>Stop</source>
-        <translation>Atura</translation>
+        <translation>停止</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation>Refresca</translation>
+        <translation>重新整理</translation>
     </message>
     <message>
         <source>Volume Down</source>
-        <translation>Abaixa el volum</translation>
+        <translation>音量降低</translation>
     </message>
     <message>
         <source>Volume Mute</source>
-        <translation>Silencia el volum</translation>
+        <translation>靜音</translation>
     </message>
     <message>
         <source>Volume Up</source>
-        <translation>Apuja el volum</translation>
+        <translation>音量加大</translation>
     </message>
     <message>
         <source>Bass Boost</source>
-        <translation>Potència de greus</translation>
+        <translation>重低音</translation>
     </message>
     <message>
         <source>Bass Up</source>
-        <translation>Puja els greus</translation>
+        <translation>Bass Up</translation>
     </message>
     <message>
         <source>Bass Down</source>
-        <translation>Baixa els greus</translation>
+        <translation>Bass Down</translation>
     </message>
     <message>
         <source>Treble Up</source>
-        <translation>Puja els aguts</translation>
+        <translation>Treble Up</translation>
     </message>
     <message>
         <source>Treble Down</source>
-        <translation>Baixa els aguts</translation>
+        <translation>Treble Down</translation>
     </message>
     <message>
         <source>Media Play</source>
-        <translation>Reprodueix</translation>
+        <translation>播放媒體</translation>
     </message>
     <message>
         <source>Media Stop</source>
-        <translation>Atura la reproducció</translation>
+        <translation>停止媒體</translation>
     </message>
     <message>
         <source>Media Previous</source>
-        <translation>Anterior</translation>
+        <translation>上一個媒體</translation>
     </message>
     <message>
         <source>Media Next</source>
-        <translation>Següent</translation>
+        <translation>下一個媒體</translation>
     </message>
     <message>
         <source>Media Record</source>
-        <translation>Enregistra</translation>
+        <translation>錄製媒體</translation>
     </message>
     <message>
         <source>Media Pause</source>
         <extracomment>Media player pause button</extracomment>
-        <translation>Pausa</translation>
+        <translation>暫停媒體</translation>
     </message>
     <message>
         <source>Toggle Media Play/Pause</source>
         <extracomment>Media player button to toggle between playing and paused</extracomment>
-        <translation>Commuta la reproducció/pausa</translation>
+        <translation>切換播放／暫停媒體</translation>
     </message>
     <message>
         <source>Home Page</source>
-        <translation>Pàgina d&apos;inici</translation>
+        <translation>首頁</translation>
     </message>
     <message>
         <source>Favorites</source>
-        <translation>Preferits</translation>
+        <translation>最愛</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Cerca</translation>
+        <translation>搜尋</translation>
     </message>
     <message>
         <source>Standby</source>
-        <translation>En espera</translation>
+        <translation>待命</translation>
     </message>
     <message>
         <source>Open URL</source>
-        <translation>Obre URL</translation>
+        <translation>開啟網址</translation>
     </message>
     <message>
         <source>Launch Mail</source>
-        <translation>Engega el correu</translation>
+        <translation>啟動郵件程式</translation>
     </message>
     <message>
         <source>Launch Media</source>
-        <translation>Engega el reproductor</translation>
+        <translation>啟動媒體程式</translation>
     </message>
     <message>
         <source>Launch (0)</source>
-        <translation>Engega (0)</translation>
+        <translation>啟動 (0)</translation>
     </message>
     <message>
         <source>Launch (1)</source>
-        <translation>Engega (1)</translation>
+        <translation>啟動 (1)</translation>
     </message>
     <message>
         <source>Launch (2)</source>
-        <translation>Engega (2)</translation>
+        <translation>啟動 (2)</translation>
     </message>
     <message>
         <source>Launch (3)</source>
-        <translation>Engega (3)</translation>
+        <translation>啟動 (3)</translation>
     </message>
     <message>
         <source>Launch (4)</source>
-        <translation>Engega (4)</translation>
+        <translation>啟動 (4)</translation>
     </message>
     <message>
         <source>Launch (5)</source>
-        <translation>Engega (5)</translation>
+        <translation>啟動 (5)</translation>
     </message>
     <message>
         <source>Launch (6)</source>
-        <translation>Engega (6)</translation>
+        <translation>啟動 (6)</translation>
     </message>
     <message>
         <source>Launch (7)</source>
-        <translation>Engega (7)</translation>
+        <translation>啟動 (7)</translation>
     </message>
     <message>
         <source>Launch (8)</source>
-        <translation>Engega (8)</translation>
+        <translation>啟動 (8)</translation>
     </message>
     <message>
         <source>Launch (9)</source>
-        <translation>Engega (9)</translation>
+        <translation>啟動 (9)</translation>
     </message>
     <message>
         <source>Launch (A)</source>
-        <translation>Engega (A)</translation>
+        <translation>啟動 (A)</translation>
     </message>
     <message>
         <source>Launch (B)</source>
-        <translation>Engega (B)</translation>
+        <translation>啟動 (B)</translation>
     </message>
     <message>
         <source>Launch (C)</source>
-        <translation>Engega (C)</translation>
+        <translation>啟動 (C)</translation>
     </message>
     <message>
         <source>Launch (D)</source>
-        <translation>Engega (D)</translation>
+        <translation>啟動 (D)</translation>
     </message>
     <message>
         <source>Launch (E)</source>
-        <translation>Engega (E)</translation>
+        <translation>啟動 (E)</translation>
     </message>
     <message>
         <source>Launch (F)</source>
-        <translation>Engega (F)</translation>
+        <translation>啟動 (F)</translation>
     </message>
     <message>
         <source>Monitor Brightness Up</source>
-        <translation>Augmenta la brillantor del monitor</translation>
+        <translation>提高顯示器亮度</translation>
     </message>
     <message>
         <source>Monitor Brightness Down</source>
-        <translation>Redueix la brillantor del monitor</translation>
+        <translation>降低顯示器亮度</translation>
     </message>
     <message>
         <source>Keyboard Light On/Off</source>
-        <translation>Engega/apaga la il·luminació del teclat</translation>
+        <translation>開啟／關閉鍵盤燈光</translation>
     </message>
     <message>
         <source>Keyboard Brightness Up</source>
-        <translation>Augmenta la brillantor del teclat</translation>
+        <translation>提高鍵盤亮度</translation>
     </message>
     <message>
         <source>Keyboard Brightness Down</source>
-        <translation>Redueix la brillantor del teclat</translation>
+        <translation>降低鍵盤亮度</translation>
     </message>
     <message>
         <source>Power Off</source>
-        <translation>Apaga</translation>
+        <translation>電源關閉</translation>
     </message>
     <message>
         <source>Wake Up</source>
-        <translation>Desperta</translation>
+        <translation>喚醒</translation>
     </message>
     <message>
         <source>Eject</source>
-        <translation>Expulsa</translation>
+        <translation>退出</translation>
     </message>
     <message>
         <source>Screensaver</source>
-        <translation>Estalvi de pantalla</translation>
+        <translation>螢幕保護程式</translation>
     </message>
     <message>
         <source>WWW</source>
-        <translation>WWW</translation>
+        <translation>網際網路</translation>
     </message>
     <message>
         <source>Sleep</source>
-        <translation>Suspèn</translation>
+        <translation>睡眠</translation>
     </message>
     <message>
         <source>LightBulb</source>
-        <translation>Bombeta</translation>
+        <translation>燈泡</translation>
     </message>
     <message>
         <source>Shop</source>
-        <translation>Botiga</translation>
+        <translation>商店</translation>
     </message>
     <message>
         <source>History</source>
-        <translation>Història</translation>
+        <translation>歷史紀錄</translation>
     </message>
     <message>
         <source>Add Favorite</source>
-        <translation>Afegeix als favorits</translation>
+        <translation>加到最愛</translation>
     </message>
     <message>
         <source>Hot Links</source>
-        <translation>Enllaços roents</translation>
+        <translation>熱門連結</translation>
     </message>
     <message>
         <source>Adjust Brightness</source>
-        <translation>Ajusta la brillantor</translation>
+        <translation>調整亮度</translation>
     </message>
     <message>
         <source>Finance</source>
-        <translation>Finances</translation>
+        <translation>股市</translation>
     </message>
     <message>
         <source>Community</source>
-        <translation>Comunitat</translation>
+        <translation>社群</translation>
     </message>
     <message>
-        <source>Audio Rewind</source>
-        <translation type="vanished">Rebobina l&apos;àudio</translation>
+        <source>Media Rewind</source>
+        <translation>倒帶媒體</translation>
     </message>
     <message>
         <source>Back Forward</source>
-        <translation>Enrere Endavant</translation>
+        <translation>向後向前</translation>
     </message>
     <message>
         <source>Application Left</source>
-        <translation>Aplicació esquerra</translation>
+        <translation>應用程式向左</translation>
     </message>
     <message>
         <source>Application Right</source>
-        <translation>Aplicació dreta</translation>
+        <translation>應用程式向右</translation>
     </message>
     <message>
         <source>Book</source>
-        <translation>Llibre</translation>
+        <translation>書籍</translation>
     </message>
     <message>
         <source>CD</source>
-        <translation>CD</translation>
+        <translation>CD 光碟</translation>
     </message>
     <message>
         <source>Calculator</source>
-        <translation>Calculadora</translation>
+        <translation>計算機</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Neteja</translation>
+        <translation>清除</translation>
     </message>
     <message>
         <source>Clear Grab</source>
-        <translation>Neteja la gravació</translation>
+        <translation>清除痕跡</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Tanca</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Copia</translation>
+        <translation>複製</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation>Retalla</translation>
+        <translation>剪下</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation>Visualitza</translation>
+        <translation>顯示器</translation>
     </message>
     <message>
         <source>DOS</source>
@@ -5451,23 +5381,23 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>Documents</source>
-        <translation>Documents</translation>
+        <translation>文件</translation>
     </message>
     <message>
         <source>Spreadsheet</source>
-        <translation>Full de càlcul</translation>
+        <translation>試算表</translation>
     </message>
     <message>
         <source>Browser</source>
-        <translation>Navegador</translation>
+        <translation>瀏覽器</translation>
     </message>
     <message>
         <source>Game</source>
-        <translation>Joc</translation>
+        <translation>遊戲</translation>
     </message>
     <message>
         <source>Go</source>
-        <translation>Vés</translation>
+        <translation>前往</translation>
     </message>
     <message>
         <source>iTouch</source>
@@ -5475,550 +5405,542 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>Logoff</source>
-        <translation>Desconnecta</translation>
+        <translation>登出</translation>
     </message>
     <message>
         <source>Market</source>
-        <translation>Mercat</translation>
+        <translation>市集</translation>
     </message>
     <message>
         <source>Meeting</source>
-        <translation>Reunió</translation>
+        <translation>通訊</translation>
     </message>
     <message>
         <source>Keyboard Menu</source>
-        <translation>Menú del teclat</translation>
+        <translation>鍵盤目錄</translation>
     </message>
     <message>
         <source>Menu PB</source>
-        <translation>Menú PB</translation>
+        <translation>選單 PB</translation>
     </message>
     <message>
         <source>My Sites</source>
-        <translation>Els meus llocs</translation>
+        <translation>我的網站</translation>
     </message>
     <message>
         <source>News</source>
-        <translation>Notícies</translation>
+        <translation>新聞</translation>
     </message>
     <message>
         <source>Home Office</source>
-        <translation>Despatx</translation>
+        <translation>家庭辦公</translation>
     </message>
     <message>
         <source>Option</source>
-        <translation>Opció</translation>
+        <translation>選項</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>Enganxa</translation>
+        <translation>貼上</translation>
     </message>
     <message>
         <source>Phone</source>
-        <translation>Telèfon</translation>
+        <translation>手機</translation>
     </message>
     <message>
         <source>Reply</source>
-        <translation>Respondre</translation>
+        <translation>回覆</translation>
     </message>
     <message>
         <source>Reload</source>
-        <translation>Torna a carregar</translation>
+        <translation>重新載入</translation>
     </message>
     <message>
         <source>Rotate Windows</source>
-        <translation>Gira les finestres</translation>
+        <translation>旋轉視窗</translation>
     </message>
     <message>
         <source>Rotation PB</source>
-        <translation>Gir de PB</translation>
+        <translation>旋轉 PB</translation>
     </message>
     <message>
         <source>Rotation KB</source>
-        <translation>Gir de teclat</translation>
+        <translation>旋轉 KB</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Desa</translation>
+        <translation>儲存</translation>
     </message>
     <message>
         <source>Send</source>
-        <translation>Envia</translation>
+        <translation>傳送</translation>
     </message>
     <message>
         <source>Spellchecker</source>
-        <translation>Corrector ortogràfic</translation>
+        <translation>拼寫檢查</translation>
     </message>
     <message>
         <source>Split Screen</source>
-        <translation>Divideix la pantalla</translation>
+        <translation>切割螢幕</translation>
     </message>
     <message>
         <source>Support</source>
-        <translation>Suport</translation>
+        <translation>支援</translation>
     </message>
     <message>
         <source>Task Panel</source>
-        <translation>Plafó de tasques</translation>
+        <translation>工作面板</translation>
     </message>
     <message>
         <source>Terminal</source>
-        <translation>Terminal</translation>
+        <translation>終端器</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation>Eines</translation>
+        <translation>工具</translation>
     </message>
     <message>
         <source>Travel</source>
-        <translation>Viatge</translation>
+        <translation>旅行</translation>
     </message>
     <message>
         <source>Video</source>
-        <translation>Vídeo</translation>
+        <translation>影片</translation>
     </message>
     <message>
         <source>Word Processor</source>
-        <translation>Processador de textos</translation>
+        <translation>文字處理器</translation>
     </message>
     <message>
         <source>XFer</source>
-        <translation>Transf</translation>
+        <translation>XFer</translation>
     </message>
     <message>
         <source>Zoom In</source>
-        <translation>Apropa</translation>
+        <translation>放大</translation>
     </message>
     <message>
         <source>Zoom Out</source>
-        <translation>Allunya</translation>
+        <translation>縮小</translation>
     </message>
     <message>
         <source>Away</source>
-        <translation>Absent</translation>
+        <translation>拉遠</translation>
     </message>
     <message>
         <source>Messenger</source>
-        <translation>Missatger</translation>
+        <translation>通訊軟體</translation>
     </message>
     <message>
         <source>WebCam</source>
-        <translation>Càmera web</translation>
+        <translation>網路攝影機</translation>
     </message>
     <message>
         <source>Mail Forward</source>
-        <translation>Reenvia</translation>
+        <translation>信件轉發</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>Imatges</translation>
+        <translation>圖片</translation>
     </message>
     <message>
         <source>Music</source>
-        <translation>Música</translation>
+        <translation>音樂</translation>
     </message>
     <message>
         <source>Battery</source>
-        <translation>Bateria</translation>
+        <translation>電池</translation>
     </message>
     <message>
         <source>Bluetooth</source>
-        <translation>Bluetooth</translation>
+        <translation>藍牙</translation>
     </message>
     <message>
         <source>Wireless</source>
-        <translation>Sense fils</translation>
+        <translation>無線網路</translation>
     </message>
     <message>
         <source>Ultra Wide Band</source>
-        <translation>Banda ultra ampla</translation>
-    </message>
-    <message>
-        <source>Audio Forward</source>
-        <translation type="vanished">Avança àudio</translation>
-    </message>
-    <message>
-        <source>Audio Repeat</source>
-        <translation>Repeteix àudio</translation>
-    </message>
-    <message>
-        <source>Audio Random Play</source>
-        <translation>Reproducció aleatòria àudio</translation>
-    </message>
-    <message>
-        <source>Subtitle</source>
-        <translation>Subtítol</translation>
-    </message>
-    <message>
-        <source>Audio Cycle Track</source>
-        <translation>Reproducció cíclica de la pista àudio</translation>
-    </message>
-    <message>
-        <source>Time</source>
-        <translation>Hora</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation>Selecció</translation>
-    </message>
-    <message>
-        <source>View</source>
-        <translation>Visualitza</translation>
-    </message>
-    <message>
-        <source>Top Menu</source>
-        <translation>Menú principal</translation>
-    </message>
-    <message>
-        <source>Suspend</source>
-        <translation>Suspèn</translation>
-    </message>
-    <message>
-        <source>Hibernate</source>
-        <translation>Hiberna</translation>
-    </message>
-    <message>
-        <source>Media Rewind</source>
-        <translation>Rebobina el suport</translation>
+        <translation>超寬頻帶</translation>
     </message>
     <message>
         <source>Media Fast Forward</source>
-        <translation>Avança ràpidament el suport</translation>
+        <translation>快轉媒體</translation>
+    </message>
+    <message>
+        <source>Audio Repeat</source>
+        <translation>重復播放音訊</translation>
+    </message>
+    <message>
+        <source>Audio Random Play</source>
+        <translation>隨機播放音訊</translation>
+    </message>
+    <message>
+        <source>Subtitle</source>
+        <translation>字幕</translation>
+    </message>
+    <message>
+        <source>Audio Cycle Track</source>
+        <translation>音訊循環音軌</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>時間</translation>
+    </message>
+    <message>
+        <source>Hibernate</source>
+        <translation>休眠</translation>
+    </message>
+    <message>
+        <source>View</source>
+        <translation>檢視</translation>
+    </message>
+    <message>
+        <source>Top Menu</source>
+        <translation>頂層選單</translation>
     </message>
     <message>
         <source>Power Down</source>
-        <translation>Apaga</translation>
+        <translation>斷電</translation>
+    </message>
+    <message>
+        <source>Suspend</source>
+        <translation>暫停</translation>
     </message>
     <message>
         <source>Microphone Mute</source>
-        <translation>Silencia el micròfon</translation>
+        <translation>靜音麥克風</translation>
     </message>
     <message>
         <source>Red</source>
-        <translation>Vermell</translation>
+        <translation>紅色</translation>
     </message>
     <message>
         <source>Green</source>
-        <translation>Verd</translation>
+        <translation>綠色</translation>
     </message>
     <message>
         <source>Yellow</source>
-        <translation>Groc</translation>
+        <translation>黃色</translation>
     </message>
     <message>
         <source>Blue</source>
-        <translation>Blau</translation>
+        <translation>藍色</translation>
     </message>
     <message>
         <source>Channel Up</source>
-        <translation>Canal següent</translation>
+        <translation>上一頻道</translation>
     </message>
     <message>
         <source>Channel Down</source>
-        <translation>Canal anterior</translation>
+        <translation>下一頻道</translation>
     </message>
     <message>
         <source>Guide</source>
-        <translation>Guia</translation>
+        <translation>指引</translation>
     </message>
     <message>
         <source>Info</source>
-        <translation>Informació</translation>
+        <translation>資訊</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation>Configuració</translation>
+        <translation>設定</translation>
     </message>
     <message>
         <source>Microphone Volume Up</source>
-        <translation>Apuja el volum del micròfon</translation>
+        <translation>增加麥克風音量</translation>
     </message>
     <message>
         <source>Microphone Volume Down</source>
-        <translation>Abaixa el volum del micròfon</translation>
+        <translation>降低麥克風音量</translation>
     </message>
     <message>
         <source>New</source>
-        <translation>Nou</translation>
+        <translation>建立</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Obre</translation>
+        <translation>開啟</translation>
     </message>
     <message>
         <source>Find</source>
-        <translation>Cerca</translation>
+        <translation>尋找</translation>
     </message>
     <message>
         <source>Undo</source>
-        <translation>Desfés</translation>
+        <translation>復原</translation>
     </message>
     <message>
         <source>Redo</source>
-        <translation>Refés</translation>
+        <translation>重做</translation>
     </message>
     <message>
         <source>Print Screen</source>
-        <translation>Impr Pant</translation>
+        <translation>擷取螢幕 PrtSc</translation>
     </message>
     <message>
         <source>Page Up</source>
-        <translation>Retrocedir pàgina</translation>
+        <translation>往上一頁</translation>
     </message>
     <message>
         <source>Page Down</source>
-        <translation>Avançar pàgina</translation>
+        <translation>往下一頁</translation>
     </message>
     <message>
         <source>Caps Lock</source>
-        <translation>Bloq Maj</translation>
+        <translation>大寫鎖定</translation>
     </message>
     <message>
         <source>Num Lock</source>
-        <translation>Bloq Núm</translation>
+        <translation>數字鎖定</translation>
     </message>
     <message>
         <source>Number Lock</source>
-        <translation>Bloq Núm</translation>
+        <translation>數字鎖定</translation>
     </message>
     <message>
         <source>Scroll Lock</source>
-        <translation>Bloq Despl</translation>
+        <translation>捲動鎖定</translation>
     </message>
     <message>
         <source>Insert</source>
-        <translation>Insereix</translation>
+        <translation>插入</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Supressió</translation>
+        <translation>刪除</translation>
     </message>
     <message>
         <source>Escape</source>
-        <translation>Escapada</translation>
+        <translation>Esc 鍵</translation>
     </message>
     <message>
         <source>System Request</source>
-        <translation>Petició al sistema</translation>
+        <translation>系統要求 SysRq</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>選擇</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Sí</translation>
+        <translation>是</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>No</translation>
+        <translation>否</translation>
     </message>
     <message>
         <source>Context1</source>
-        <translation>Context1</translation>
+        <translation>內文 1</translation>
     </message>
     <message>
         <source>Context2</source>
-        <translation>Context2</translation>
+        <translation>內文 2</translation>
     </message>
     <message>
         <source>Context3</source>
-        <translation>Context3</translation>
+        <translation>內文 3</translation>
     </message>
     <message>
         <source>Context4</source>
-        <translation>Context4</translation>
+        <translation>內文 4</translation>
     </message>
     <message>
         <source>Call</source>
         <extracomment>Button to start a call (note: a separate button is used to end the call)</extracomment>
-        <translation>Truca</translation>
+        <translation>撥號</translation>
     </message>
     <message>
         <source>Hangup</source>
         <extracomment>Button to end a call (note: a separate button is used to start the call)</extracomment>
-        <translation>Penja</translation>
+        <translation>掛斷</translation>
     </message>
     <message>
         <source>Toggle Call/Hangup</source>
         <extracomment>Button that will hang up if we&apos;re in call, or make a call if we&apos;re not.</extracomment>
-        <translation>Commuta trucada/penjar</translation>
+        <translation>切換撥號/掛斷狀態</translation>
     </message>
     <message>
         <source>Flip</source>
-        <translation>Inverteix</translation>
+        <translation>反轉</translation>
     </message>
     <message>
         <source>Voice Dial</source>
         <extracomment>Button to trigger voice dialing</extracomment>
-        <translation>Marcació per veu</translation>
+        <translation>語音撥號</translation>
     </message>
     <message>
         <source>Last Number Redial</source>
         <extracomment>Button to redial the last number called</extracomment>
-        <translation>Torna a marcar el darrer número</translation>
+        <translation>重撥上次撥打號碼</translation>
     </message>
     <message>
         <source>Camera Shutter</source>
         <extracomment>Button to trigger the camera shutter (take a picture)</extracomment>
-        <translation>Disparador de la càmera</translation>
+        <translation>相機快門</translation>
     </message>
     <message>
         <source>Camera Focus</source>
         <extracomment>Button to focus the camera</extracomment>
-        <translation>Focus de la càmera</translation>
+        <translation>相機對焦</translation>
     </message>
     <message>
         <source>Kanji</source>
-        <translation>Kanji</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Muhenkan</source>
-        <translation>Muhenkan</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Henkan</source>
-        <translation>Henkan</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Romaji</source>
-        <translation>Romaji</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hiragana</source>
-        <translation>Hiragana</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Katakana</source>
-        <translation>Katakana</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hiragana Katakana</source>
-        <translation>Hiragana Katakana</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Zenkaku</source>
-        <translation>Zenkaku</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hankaku</source>
-        <translation>Hankaku</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Zenkaku Hankaku</source>
-        <translation>Zenkaku Hankaku</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Touroku</source>
-        <translation>Touroku</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Massyo</source>
-        <translation>Massyo</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Kana Lock</source>
-        <translation>Bloqueig Kana</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Kana Shift</source>
-        <translation>Majúscules Kana</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Eisu Shift</source>
-        <translation>Majúscules Eisu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Eisu toggle</source>
-        <translation>Commuta Eisu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Code input</source>
-        <translation>Entrada de codi</translation>
+        <translation>輸入代碼</translation>
     </message>
     <message>
         <source>Multiple Candidate</source>
-        <translation>Candidats múltiples</translation>
+        <translation>多個候選</translation>
     </message>
     <message>
         <source>Previous Candidate</source>
-        <translation>Candidat anterior</translation>
+        <translation>上個候選</translation>
     </message>
     <message>
         <source>Hangul</source>
-        <translation>Hangul</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hangul Start</source>
-        <translation>Inici de Hangul</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hangul End</source>
-        <translation>Final de Hangul</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hangul Hanja</source>
-        <translation>Hangul Hanja</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hangul Jamo</source>
-        <translation>Hangul Jamo</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hangul Romaja</source>
-        <translation>Hangul Romaja</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hangul Jeonja</source>
-        <translation>Hangul Jeonja</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hangul Banja</source>
-        <translation>Hangul Banja</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hangul PreHanja</source>
-        <translation>Hangul PreHanja</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hangul PostHanja</source>
-        <translation>Hangul PostHanja</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hangul Special</source>
-        <translation>Hangul especial</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Cancel·la</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Printer</source>
-        <translation>Impressora</translation>
+        <translation>印表機</translation>
     </message>
     <message>
         <source>Execute</source>
-        <translation>Executa</translation>
+        <translation>執行</translation>
     </message>
     <message>
         <source>Play</source>
-        <translation>Reprodueix</translation>
+        <translation>播放</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation>Zoom</translation>
+        <translation>縮放</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>Surt</translation>
+        <translation>離開</translation>
     </message>
     <message>
         <source>Touchpad Toggle</source>
-        <translation>Commuta el ratolí tàctil</translation>
+        <translation>切換觸控板</translation>
     </message>
     <message>
         <source>Touchpad On</source>
-        <translation>Ratolí tàctil actiu</translation>
+        <translation>打開觸控板</translation>
     </message>
     <message>
         <source>Touchpad Off</source>
-        <translation>Ratolí tàctil inactiu</translation>
+        <translation>關閉觸控板</translation>
     </message>
     <message>
         <source>Ctrl</source>
@@ -6026,7 +5948,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>Shift</source>
-        <translation>Maj</translation>
+        <translation>Shift</translation>
     </message>
     <message>
         <source>Alt</source>
@@ -6038,7 +5960,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>Num</source>
-        <translation>Núm</translation>
+        <translation>數字鍵</translation>
     </message>
     <message>
         <source>+</source>
@@ -6053,59 +5975,59 @@ Desactiveu una de les dues opcions.</translation>
     <name>QSocks5SocketEngine</name>
     <message>
         <source>Connection to proxy refused</source>
-        <translation>S&apos;ha rebutjat la connexió al servidor intermediari</translation>
+        <translation>代理伺服器連線被拒</translation>
     </message>
     <message>
         <source>Connection to proxy closed prematurely</source>
-        <translation>La connexió al servidor intermediari s&apos;ha tancat prematurament</translation>
+        <translation>代理伺服器連線不正常關閉</translation>
     </message>
     <message>
         <source>Proxy host not found</source>
-        <translation>No s&apos;ha trobat el servidor intermediari</translation>
+        <translation>找不到代理伺服器</translation>
     </message>
     <message>
         <source>Connection to proxy timed out</source>
-        <translation>La connexió al servidor intermediari ha excedit el temps</translation>
+        <translation>代理伺服器連線逾時</translation>
     </message>
     <message>
         <source>Proxy authentication failed</source>
-        <translation>Ha fallat l&apos;autenticació al servidor intermediari</translation>
+        <translation>代理伺服器驗證失敗</translation>
     </message>
     <message>
         <source>Proxy authentication failed: %1</source>
-        <translation>Ha fallat l&apos;autenticació al servidor intermediari: %1</translation>
+        <translation>代理伺服器驗證失敗：%1</translation>
     </message>
     <message>
         <source>SOCKS version 5 protocol error</source>
-        <translation>Error de protocol SOCKS versió 5</translation>
+        <translation>SOCKS 第五版協定錯誤</translation>
     </message>
     <message>
         <source>General SOCKSv5 server failure</source>
-        <translation>Fallada general del servidor SOCKSv5</translation>
+        <translation>一般的 SOCKSv5 伺服器錯誤</translation>
     </message>
     <message>
         <source>Connection not allowed by SOCKSv5 server</source>
-        <translation>Connexió no autoritzada pel servidor SOCKSv5</translation>
+        <translation>SOCKSv5 伺服器不允許連線</translation>
     </message>
     <message>
         <source>TTL expired</source>
-        <translation>Ha caducat el TTL</translation>
+        <translation>TTL 逾時</translation>
     </message>
     <message>
         <source>SOCKSv5 command not supported</source>
-        <translation>Ordre SOCKSv5 no admesa</translation>
+        <translation>不支援 SOCKSv5 指令</translation>
     </message>
     <message>
         <source>Address type not supported</source>
-        <translation>Tipus d&apos;accés no admès</translation>
+        <translation>不支援位址型態</translation>
     </message>
     <message>
         <source>Unknown SOCKSv5 proxy error code 0x%1</source>
-        <translation>Codi d&apos;error desconegut del servidor intermediari SOCKSv5: 0x%1</translation>
+        <translation>未知的 SOCKSv5 代理伺服器錯誤代碼 0x%1</translation>
     </message>
     <message>
         <source>Network operation timed out</source>
-        <translation>L&apos;operació de xarxa ha excedit el temps</translation>
+        <translation>網路操作逾時</translation>
     </message>
 </context>
 <context>
@@ -6113,913 +6035,1134 @@ Desactiveu una de les dues opcions.</translation>
     <message>
         <source>invalid role</source>
         <extracomment>Role of an accessible object - the object is in an invalid state or could not be constructed</extracomment>
-        <translation>rol no vàlid</translation>
+        <translation>角色無效</translation>
     </message>
     <message>
         <source>title bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>barra de títol</translation>
+        <translation>標題欄</translation>
     </message>
     <message>
         <source>menu bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>barra de menú</translation>
+        <translation>目錄欄</translation>
     </message>
     <message>
         <source>scroll bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>barra de desplaçament</translation>
+        <translation>捲軸</translation>
     </message>
     <message>
         <source>grip</source>
         <extracomment>Role of an accessible object - the grip is usually used for resizing another object</extracomment>
-        <translation>nansa</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>sound</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>so</translation>
+        <translation>音效</translation>
     </message>
     <message>
         <source>cursor</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>cursor</translation>
+        <translation>游標</translation>
     </message>
     <message>
         <source>text caret</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>cursor de text</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>alert message</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>missatge d&apos;alerta</translation>
-    </message>
-    <message>
-        <source>window</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation type="vanished">finestra</translation>
-    </message>
-    <message>
-        <source>filler</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation>farciment</translation>
-    </message>
-    <message>
-        <source>popup menu</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation>menú emergent</translation>
-    </message>
-    <message>
-        <source>menu item</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation>element de menú</translation>
-    </message>
-    <message>
-        <source>tool tip</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation>indicador de funció</translation>
-    </message>
-    <message>
-        <source>application</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation>aplicació</translation>
-    </message>
-    <message>
-        <source>document</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation>document</translation>
-    </message>
-    <message>
-        <source>panel</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation>plafó</translation>
-    </message>
-    <message>
-        <source>chart</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation>diagrama</translation>
-    </message>
-    <message>
-        <source>dialog</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation>diàleg</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>frame</source>
         <extracomment>Role of an accessible object: a window with frame and title
 ----------
 Role of an accessible object</extracomment>
-        <translation>marc</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>filler</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>popup menu</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>menu item</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>tool tip</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>application</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>document</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>panel</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>chart</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>dialog</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>separator</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>separador</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>tool bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>barra d&apos;eines</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>status bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>barra d&apos;estat</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>table</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>taula</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>column header</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>capçalera de columna</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>row header</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>capçalera de fila</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>column</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>columna</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>row</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>fila</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>cell</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>cel·la</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>link</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>enllaç</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>help balloon</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>globus d&apos;ajuda</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>assistant</source>
         <extracomment>Role of an accessible object - a helper dialog</extracomment>
-        <translation>assistent</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>list</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>llista</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>list item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>element de llista</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>tree</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>arbre</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>tree item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>element d&apos;arbre</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>page tab</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>pestanya de pàgina</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>property page</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>pàgina de propietats</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>indicator</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>indicador</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>graphic</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>gràfic</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>label</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>etiqueta</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>text</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>text</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>push button</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>botó per prémer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>check box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>casella de selecció</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>radio button</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>botó d&apos;opció</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>combo box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>quadre combinat</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>progress bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>barra de progrés</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>dial</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>marcador</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>hotkey field</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>camp de drecera</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>slider</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>control lliscant</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>spin box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>botó de selecció de valors</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>canvas</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>llenç</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>animation</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>animació</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>equation</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>equació</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>button with drop down</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>botó amb llista desplegable</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>button menu</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>botó de menú</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>button with drop down grid</source>
         <extracomment>Role of an accessible object - a button that expands a grid.</extracomment>
-        <translation>botó amb nansa desplegable</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>space</source>
         <extracomment>Role of an accessible object - blank space between other objects.</extracomment>
-        <translation>espai</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>page tab list</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>llista de pestanyes de pàgina</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>clock</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>rellotge</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>splitter</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>separador</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>layered pane</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>subfinestra amb capes</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>web document</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>document web</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>paragraph</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>paràgraf</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>section</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>secció</translation>
+        <translation type="unfinished">區段</translation>
     </message>
     <message>
         <source>color chooser</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>selector de color</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>footer</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>peu de pàgina</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>form</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>formulari</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>heading</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>capçalera</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>note</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>nota</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>complementary content</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>contingut complementari</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>unknown</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>desconegut</translation>
+        <translation>未知</translation>
     </message>
 </context>
 <context>
     <name>QSslDiffieHellmanParameter</name>
     <message>
         <source>No error</source>
-        <translation>Sense error</translation>
+        <translation>沒有錯誤</translation>
     </message>
     <message>
         <source>Invalid input data</source>
-        <translation>Dades d&apos;entrada no vàlides</translation>
+        <translation>無效輸入資料</translation>
     </message>
     <message>
         <source>The given Diffie-Hellman parameters are deemed unsafe</source>
-        <translation>Els paràmetres del Diffie-Hellman indicats es consideren insegurs</translation>
+        <translation>提供的 Diffie-Hellman 參數被認為是不安全的</translation>
     </message>
 </context>
 <context>
     <name>QSslSocket</name>
     <message>
-        <source>Error when setting the elliptic curves (%1)</source>
-        <translation>Error en determinar les corbes el·líptiques (%1)</translation>
-    </message>
-    <message>
-        <source>Error creating SSL context (%1)</source>
-        <translation>Error en crear el context SSL (%1)</translation>
-    </message>
-    <message>
-        <source>unsupported protocol</source>
-        <translation>protocol no admès</translation>
-    </message>
-    <message>
-        <source>Error while setting the minimal protocol version</source>
-        <translation>Error en definir la versió mínima del protocol</translation>
-    </message>
-    <message>
-        <source>Error while setting the maximum protocol version</source>
-        <translation>Error en definir la versió màxima del protocol</translation>
-    </message>
-    <message>
-        <source>Invalid or empty cipher list (%1)</source>
-        <translation>Llista de xifres no vàlida o buida (%1)</translation>
-    </message>
-    <message>
-        <source>Cannot provide a certificate with no key, %1</source>
-        <translation>No es pot subministrar un certificat sense una clau, %1</translation>
-    </message>
-    <message>
-        <source>Error loading local certificate, %1</source>
-        <translation>Error en carregar un certificat local, %1</translation>
-    </message>
-    <message>
-        <source>Error loading private key, %1</source>
-        <translation>Error en carregar la clau privada, %1</translation>
-    </message>
-    <message>
-        <source>Private key does not certify public key, %1</source>
-        <translation>La clau privada no certifica la clau pública, %1</translation>
-    </message>
-    <message>
-        <source>Diffie-Hellman parameters are not valid</source>
-        <translation>Els paràmetres del Diffie-Hellman no són vàlids</translation>
-    </message>
-    <message>
-        <source>OpenSSL version with disabled elliptic curves</source>
-        <translation>Vesió de l&apos;OpenSSL amb les corbes el·líptiques desactivades</translation>
-    </message>
-    <message>
         <source>Error when setting the OpenSSL configuration (%1)</source>
-        <translation>Error en definir la configuració de l&apos;OpenSSL (%1)</translation>
+        <translation>設定 OpenSSL 設定時發生錯誤 (%1)</translation>
     </message>
     <message>
         <source>Expecting QByteArray for %1</source>
-        <translation>S&apos;esperava QByteArray per %1</translation>
+        <translation>期望 %1 的 QByteArray</translation>
     </message>
     <message>
         <source>An error occurred attempting to set %1 to %2</source>
-        <translation>S&apos;ha produït un error en intentar establir %1 a %2</translation>
+        <translation>嘗試將 %1 設定為 %2 時發生錯誤</translation>
     </message>
     <message>
         <source>Wrong value for %1 (%2)</source>
-        <translation>Valor erroni per %1 (%2)</translation>
+        <translation>%1 的值錯誤 (%2)</translation>
     </message>
     <message>
         <source>Unrecognized command %1 = %2</source>
-        <translation>Ordre no reconeguda %1 = %2</translation>
+        <translation>無法識別的指令 %1 = %2</translation>
     </message>
     <message>
         <source>SSL_CONF_finish() failed</source>
-        <translation>Ha fallat SSL_CONF_finish()</translation>
+        <translation>SSL_CONF_finish() 失敗</translation>
     </message>
     <message>
         <source>SSL_CONF_CTX_new() failed</source>
-        <translation>Ha fallat SSL_CONF_CTX_new()</translation>
+        <translation>SSL_CONF_CTX_new() 失敗</translation>
     </message>
     <message>
         <source>OpenSSL version too old, need at least v1.0.2</source>
-        <translation>La versió de l&apos;OpenSSL és massa antiga, cal com a mínim la v1.0.2</translation>
+        <translation>OpenSSL 版本過舊，需要至少 v1.0.2 版本</translation>
+    </message>
+    <message>
+        <source>Error when setting the elliptic curves (%1)</source>
+        <translation>設定橢圓曲線時發生錯誤 (%1)</translation>
+    </message>
+    <message>
+        <source>Error creating SSL context (%1)</source>
+        <translation>建立 SSL 內文時發生錯誤（%1）</translation>
+    </message>
+    <message>
+        <source>unsupported protocol</source>
+        <translation>不支援的通訊協定</translation>
+    </message>
+    <message>
+        <source>Error while setting the minimal protocol version</source>
+        <translation>設定最小協定版本時發生錯誤</translation>
+    </message>
+    <message>
+        <source>Error while setting the maximum protocol version</source>
+        <translation>設定最大協定版本時發生錯誤</translation>
+    </message>
+    <message>
+        <source>Invalid or empty cipher list (%1)</source>
+        <translation>無效或空白的加密清單（%1）</translation>
+    </message>
+    <message>
+        <source>Cannot provide a certificate with no key, %1</source>
+        <translation>無法提供沒有金鑰的憑證，%1</translation>
+    </message>
+    <message>
+        <source>Error loading local certificate, %1</source>
+        <translation>載入本機憑證時發生錯誤，%1</translation>
+    </message>
+    <message>
+        <source>Error loading private key, %1</source>
+        <translation>載入私鑰時發生錯誤，%1</translation>
+    </message>
+    <message>
+        <source>Private key does not certify public key, %1</source>
+        <translation>私鑰不能證明公鑰，%1</translation>
+    </message>
+    <message>
+        <source>Diffie-Hellman parameters are not valid</source>
+        <translation>Diffie-Hellman 參數無效</translation>
+    </message>
+    <message>
+        <source>OpenSSL version with disabled elliptic curves</source>
+        <translation>停用橢圓曲線的 OpenSSL 版本</translation>
+    </message>
+    <message>
+        <source>DTLS server requires a &apos;VerifyNone&apos; mode with your version of OpenSSL</source>
+        <translation>DTLS 伺服器需要您 OpenSSL 版本的「VerifyNone」模式</translation>
     </message>
     <message>
         <source>No error</source>
-        <translation>Sense error</translation>
+        <translation>沒有錯誤</translation>
     </message>
     <message>
         <source>The issuer certificate could not be found</source>
-        <translation>No s&apos;ha trobat l&apos;emissor del certificat</translation>
+        <translation>找不到發行者憑證</translation>
     </message>
     <message>
         <source>The certificate signature could not be decrypted</source>
-        <translation>No s&apos;ha pogut desencriptar la signatura del certificat</translation>
+        <translation>不能解密憑證簽名</translation>
     </message>
     <message>
         <source>The public key in the certificate could not be read</source>
-        <translation>No s&apos;ha pogut llegir la clau pública del certificat</translation>
+        <translation>不能讀取憑證中的公鑰</translation>
     </message>
     <message>
         <source>The signature of the certificate is invalid</source>
-        <translation>La signatura del certificat no és vàlida</translation>
+        <translation>憑證簽名無效</translation>
     </message>
     <message>
         <source>The certificate is not yet valid</source>
-        <translation>El certificat encara no és vàlid</translation>
+        <translation>憑證無效</translation>
     </message>
     <message>
         <source>The certificate has expired</source>
-        <translation>El certificat ha caducat</translation>
+        <translation>憑證過期</translation>
     </message>
     <message>
         <source>The certificate&apos;s notBefore field contains an invalid time</source>
-        <translation>El camp «noAbans» del certificat conté una hora no vàlida</translation>
+        <translation>憑證的 notBefore 欄位包含無效時間</translation>
     </message>
     <message>
         <source>The certificate&apos;s notAfter field contains an invalid time</source>
-        <translation>El camp «noDesprés» del certificat conté una hora no vàlida</translation>
+        <translation>憑證的 notAfter 欄位包含無效時間</translation>
     </message>
     <message>
         <source>The certificate is self-signed, and untrusted</source>
-        <translation>El certificat està autosignat, i no és fiable</translation>
+        <translation>憑證是自己簽發且不受信任的</translation>
     </message>
     <message>
         <source>The root certificate of the certificate chain is self-signed, and untrusted</source>
-        <translation>El certificat arrel de la cadena de certificats està autosignat, i no és fiable</translation>
+        <translation>該憑證鏈的根憑證為自己簽署且不受信任的</translation>
     </message>
     <message>
         <source>The issuer certificate of a locally looked up certificate could not be found</source>
-        <translation>No s&apos;ha trobat l&apos;emissor del certificat d&apos;un certificat local</translation>
+        <translation>找不到本機找到憑證的發行者憑證</translation>
     </message>
     <message>
         <source>No certificates could be verified</source>
-        <translation>No es pot verificar cap certificat</translation>
+        <translation>沒有能驗證的憑證</translation>
     </message>
     <message>
         <source>One of the CA certificates is invalid</source>
-        <translation>Un dels certificats de la CA no és vàlid</translation>
+        <translation>其中一個 CA 憑證無效</translation>
     </message>
     <message>
         <source>The basicConstraints path length parameter has been exceeded</source>
-        <translation>S&apos;ha excedit el paràmetre de longitud del camí de «basicConstraints»</translation>
+        <translation>basicConstraints 位置長度參數超出範圍</translation>
     </message>
     <message>
         <source>The supplied certificate is unsuitable for this purpose</source>
-        <translation>El certificat proporcionat no és adequat per a aquest propòsit</translation>
+        <translation>提供的憑證不適合此目標</translation>
     </message>
     <message>
         <source>The root CA certificate is not trusted for this purpose</source>
-        <translation>El certificat de la CA arrel no és fiable per a aquest propòsit</translation>
+        <translation>此目標不信任此根 CA 憑證</translation>
     </message>
     <message>
         <source>The root CA certificate is marked to reject the specified purpose</source>
-        <translation>El certificat de la CA arrel està marcat per a rebutjar el propòsit especificat</translation>
+        <translation>此根 CA 憑證被標記為拒絕指定目標</translation>
     </message>
     <message>
         <source>The current candidate issuer certificate was rejected because its subject name did not match the issuer name of the current certificate</source>
-        <translation>El certificat de l&apos;emissor del candidat actual s&apos;ha rebutjat perquè el seu nom de subjecte no coincideix amb el nom de l&apos;emissor del certificat actual</translation>
+        <translation>目前的候選發行者憑證已被拒絕，因為其主旨名稱與目前憑證的發行者名稱不相符</translation>
     </message>
     <message>
         <source>The current candidate issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate</source>
-        <translation>El certificat de l&apos;emissor del candidat actual s&apos;ha rebutjat perquè el seu nom d&apos;emissor i número de sèrie eren presents i no coincideixen amb l&apos;identificador de la clau de l&apos;autoritat del certificat actual</translation>
+        <translation>目前的候選發行者憑證已被拒絕，因為該憑證提供的發行者名稱和序號與目前憑證的權限金鑰識別符不相符</translation>
     </message>
     <message>
         <source>The peer did not present any certificate</source>
-        <translation>El parell no presenta cap certificat</translation>
+        <translation>端點沒提供任何憑證</translation>
     </message>
     <message>
         <source>The host name did not match any of the valid hosts for this certificate</source>
-        <translation>El nom d&apos;ordinador no concorda amb cap dels ordinadors vàlids per aquest certificat</translation>
+        <translation>此主機與此憑證的任一有效主機都不相符</translation>
     </message>
     <message>
         <source>The peer certificate is blacklisted</source>
-        <translation>El certificat del parell és a la llista negra</translation>
+        <translation>該端點的憑證已被加入黑名單</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Error desconegut</translation>
+        <translation>未知錯誤</translation>
     </message>
     <message>
-        <source>Error creating SSL session, %1</source>
-        <translation>Error en crear la sessió SSL, %1</translation>
-    </message>
-    <message>
-        <source>Error creating SSL session: %1</source>
-        <translation>Error en crear la sessió SSL: %1</translation>
-    </message>
-    <message>
-        <source>Unable to init SSL Context: %1</source>
-        <translation>No s&apos;ha pogut iniciar el context SSL: %1</translation>
-    </message>
-    <message>
-        <source>Unable to write data: %1</source>
-        <translation>No s&apos;han pogut escriure les dades: %1</translation>
-    </message>
-    <message>
-        <source>Unable to decrypt data: %1</source>
-        <translation>No s&apos;han pogut desencriptar les dades: %1</translation>
+        <source>TLS initialization failed</source>
+        <translation>TLS 初始化失敗</translation>
     </message>
     <message>
         <source>The TLS/SSL connection has been closed</source>
-        <translation>S&apos;ha tancat la connexió TLS/SSL</translation>
+        <translation>TLS/SSL 連線已被關閉</translation>
+    </message>
+    <message>
+        <source>Error creating SSL session, %1</source>
+        <translation>建立 SSL 階段時發生錯誤，%1</translation>
+    </message>
+    <message>
+        <source>Error creating SSL session: %1</source>
+        <translation>建立 SSL 階段時發生錯誤：%1</translation>
+    </message>
+    <message>
+        <source>Unable to init SSL Context: %1</source>
+        <translation>無法初始化 SSL 內文：%1</translation>
+    </message>
+    <message>
+        <source>Unable to write data: %1</source>
+        <translation>無法寫入資料：%1</translation>
+    </message>
+    <message>
+        <source>Unable to decrypt data: %1</source>
+        <translation>無法解密資料：%1</translation>
     </message>
     <message>
         <source>Error while reading: %1</source>
-        <translation>Error mentre es llegia: %1</translation>
+        <translation>讀取時發生錯誤：%1</translation>
     </message>
     <message>
         <source>Error during SSL handshake: %1</source>
-        <translation>Error en la conformitat de connexió SSL: %1</translation>
+        <translation>SSL 交握時發生錯誤：%1</translation>
+    </message>
+    <message>
+        <source>No OCSP status response found</source>
+        <translation>找不到 OCSP 狀態回應</translation>
+    </message>
+    <message>
+        <source>The OCSP status request had invalid syntax</source>
+        <translation>OCSP 狀態請求包含無效語法</translation>
+    </message>
+    <message>
+        <source>OCSP response contains an unexpected number of SingleResponse structures</source>
+        <translation>OCSP 回應包含不應有的 SingleResponse 建構體數字</translation>
+    </message>
+    <message>
+        <source>OCSP responder reached an inconsistent internal state</source>
+        <translation>OCSP 回應器的內部狀態不一致</translation>
+    </message>
+    <message>
+        <source>OCSP responder was unable to return a status for the requested certificate</source>
+        <translation>OCSP 回應器無法回傳請求憑證的狀態</translation>
+    </message>
+    <message>
+        <source>The server requires the client to sign the OCSP request in order to construct a response</source>
+        <translation>伺服器需要客戶端簽名 OCSP 請求才能建構回應</translation>
+    </message>
+    <message>
+        <source>The client is not authorized to request OCSP status from this server</source>
+        <translation>未授權客戶端自此伺服器請求 OCSP 狀態</translation>
+    </message>
+    <message>
+        <source>OCSP responder&apos;s identity cannot be verified</source>
+        <translation>無法驗證 OCSP 回應者的身份</translation>
+    </message>
+    <message>
+        <source>The identity of a certificate in an OCSP response cannot be established</source>
+        <translation>無法認定 OCSP 回應中的憑證身份</translation>
+    </message>
+    <message>
+        <source>The certificate status response has expired</source>
+        <translation>憑證的狀態回應已過期</translation>
+    </message>
+    <message>
+        <source>The certificate&apos;s status is unknown</source>
+        <translation>憑證狀態未知</translation>
+    </message>
+    <message>
+        <source>Attempted to use an unsupported protocol.</source>
+        <translation>嘗試使用不支援的通訊協定。</translation>
+    </message>
+    <message>
+        <source>Server-side QSslSocket does not support OCSP stapling</source>
+        <translation>伺服器端的 QSslSocket 不支援 OCSP 裝訂 (stapling)</translation>
+    </message>
+    <message>
+        <source>Failed to enable OCSP stapling</source>
+        <translation>無法啟用 OCSP 裝訂 (stapling)</translation>
+    </message>
+    <message>
+        <source>Client-side sockets do not send OCSP responses</source>
+        <translation>客戶端的 socket 未傳送 OCSP 回應</translation>
+    </message>
+    <message>
+        <source>Failed to decode OCSP response</source>
+        <translation>無法解碼 OCSP 回應</translation>
+    </message>
+    <message>
+        <source>Failed to extract basic OCSP response</source>
+        <translation>無法解開基本 OCSP 回應</translation>
+    </message>
+    <message>
+        <source>No certificate verification store, cannot verify OCSP response</source>
+        <translation>沒有儲存的憑證驗證，因此無法驗證 OCSP 回應</translation>
+    </message>
+    <message>
+        <source>Failed to decode a SingleResponse from OCSP status response</source>
+        <translation>無法解碼來自 OCSP 回應請求的 SingleResponse</translation>
+    </message>
+    <message>
+        <source>Failed to extract &apos;this update time&apos; from the SingleResponse</source>
+        <translation>無法從 SingleResponse 解開「此更新時間 (this update time)」</translation>
+    </message>
+    <message>
+        <source>Insufficient memory</source>
+        <translation>記憶體不足</translation>
+    </message>
+    <message>
+        <source>Internal error</source>
+        <translation>內部錯誤</translation>
+    </message>
+    <message>
+        <source>An internal handle was invalid</source>
+        <translation>內部處理函式無效</translation>
+    </message>
+    <message>
+        <source>An internal token was invalid</source>
+        <translation>內部憑證無效</translation>
+    </message>
+    <message>
+        <source>Access denied</source>
+        <translation>存取被拒</translation>
+    </message>
+    <message>
+        <source>No authority could be contacted for authorization</source>
+        <translation>沒有可讓授權程序通訊的授權單位</translation>
+    </message>
+    <message>
+        <source>No credentials</source>
+        <translation>找不到憑據</translation>
+    </message>
+    <message>
+        <source>The target is unknown or unreachable</source>
+        <translation>目標位置未知或無法連線</translation>
+    </message>
+    <message>
+        <source>An unsupported function was requested</source>
+        <translation>被請求不支援的函式</translation>
+    </message>
+    <message>
+        <source>The hostname provided does not match the one received from the peer</source>
+        <translation>提供的主機名稱與對端收到的主機名稱不相符</translation>
+    </message>
+    <message>
+        <source>No common protocol exists between the client and the server</source>
+        <translation>客戶端與伺服器沒有共同可用的通訊協定</translation>
+    </message>
+    <message>
+        <source>Unexpected or badly-formatted message received</source>
+        <translation>接收到非期望或格式無效的訊息</translation>
+    </message>
+    <message>
+        <source>The data could not be encrypted</source>
+        <translation>資料不能被加密</translation>
+    </message>
+    <message>
+        <source>No cipher suites in common</source>
+        <translation>沒有共同的加密套件</translation>
+    </message>
+    <message>
+        <source>The credentials were not recognized / Invalid argument</source>
+        <translation>未辨識出憑證或是參數無效</translation>
+    </message>
+    <message>
+        <source>The message was tampered with, damaged or out of sequence.</source>
+        <translation>訊息可能遭竄改、損壞或者超出資料序列。</translation>
+    </message>
+    <message>
+        <source>A message was received out of sequence.</source>
+        <translation>接收到的訊息超出資料序列。</translation>
+    </message>
+    <message>
+        <source>Unknown error occurred: %1</source>
+        <translation>發生未知錯誤：%1</translation>
+    </message>
+    <message>
+        <source>Invalid protocol chosen</source>
+        <translation>選擇了無效的通訊協定</translation>
+    </message>
+    <message>
+        <source>The certificate provided cannot be used for a client.</source>
+        <translation>提供的憑證不能用於客戶端。</translation>
+    </message>
+    <message>
+        <source>The certificate provided cannot be used for a server.</source>
+        <translation>提供的憑證不能用於伺服端。</translation>
+    </message>
+    <message>
+        <source>Server did not accept any certificate we could present.</source>
+        <translation>伺服器不接受我們所能提供的憑證。</translation>
+    </message>
+    <message>
+        <source>Algorithm mismatch</source>
+        <translation>算法不相符</translation>
+    </message>
+    <message>
+        <source>Handshake failed: %1</source>
+        <translation>交握失敗：%1</translation>
+    </message>
+    <message>
+        <source>Failed to query the TLS context: %1</source>
+        <translation>無法查詢 TLS 上下文：%1</translation>
+    </message>
+    <message>
+        <source>Did not get the required attributes for the connection.</source>
+        <translation>未取得此連線所需的屬性。</translation>
+    </message>
+    <message>
+        <source>Unwanted protocol was negotiated</source>
+        <translation>交涉了非期望的通訊協定</translation>
+    </message>
+    <message>
+        <source>Renegotiation was unsuccessful: %1</source>
+        <translation>重新交涉失敗：%1</translation>
+    </message>
+    <message>
+        <source>Schannel failed to encrypt data: %1</source>
+        <translation>Schannel 加密資料失敗：%1</translation>
+    </message>
+    <message>
+        <source>Cannot provide a certificate with no key</source>
+        <translation>無法提供沒有金鑰的憑證</translation>
+    </message>
+    <message>
+        <source>OCSP reponder&apos;s identity cannot be verified</source>
+        <translation>無法驗證 OCSP 回應器的身份</translation>
+    </message>
+    <message>
+        <source>The certificate provided can not be used for a %1.</source>
+        <translation>提供的憑證不能對 %1 使用。</translation>
+    </message>
+    <message>
+        <source>client</source>
+        <translation>客戶端</translation>
+    </message>
+    <message>
+        <source>server</source>
+        <translation>伺服器</translation>
     </message>
 </context>
 <context>
     <name>QStandardPaths</name>
     <message>
         <source>Desktop</source>
-        <translation>Escriptori</translation>
+        <translation>桌面</translation>
     </message>
     <message>
         <source>Documents</source>
-        <translation>Documents</translation>
+        <translation>文件</translation>
     </message>
     <message>
         <source>Fonts</source>
-        <translation>Tipus de lletra</translation>
+        <translation>字型</translation>
     </message>
     <message>
         <source>Applications</source>
-        <translation>Aplicacions</translation>
+        <translation>應用程式</translation>
     </message>
     <message>
         <source>Music</source>
-        <translation>Música</translation>
+        <translation>音樂</translation>
     </message>
     <message>
         <source>Movies</source>
-        <translation>Pel·lícules</translation>
+        <translation>影片</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>Imatges</translation>
+        <translation>圖片</translation>
     </message>
     <message>
         <source>Temporary Directory</source>
-        <translation>Directori temporal</translation>
+        <translation>暫存目錄</translation>
     </message>
     <message>
         <source>Home</source>
-        <translation>Inici</translation>
-    </message>
-    <message>
-        <source>Application Data</source>
-        <translation>Dades d&apos;aplicació</translation>
-    </message>
-    <message>
-        <source>Application Configuration</source>
-        <translation>Configuració d&apos;aplicació</translation>
+        <translation>家目錄</translation>
     </message>
     <message>
         <source>Cache</source>
-        <translation>Memòria cau</translation>
+        <translation>快取</translation>
     </message>
     <message>
         <source>Shared Data</source>
-        <translation>Dades compartides</translation>
+        <translation>共享資料</translation>
     </message>
     <message>
         <source>Runtime</source>
-        <translation>Execució</translation>
+        <translation>執行庫</translation>
     </message>
     <message>
         <source>Configuration</source>
-        <translation>Configuració</translation>
+        <translation>設定</translation>
     </message>
     <message>
         <source>Shared Configuration</source>
-        <translation>Configuració compartida</translation>
+        <translation>共享設定</translation>
     </message>
     <message>
         <source>Shared Cache</source>
-        <translation>Memòria cau compartida</translation>
+        <translation>共享快取</translation>
     </message>
     <message>
         <source>Download</source>
-        <translation>Baixades</translation>
+        <translation>下載</translation>
+    </message>
+    <message>
+        <source>Application Data</source>
+        <translation>應用程式資料</translation>
+    </message>
+    <message>
+        <source>Application Configuration</source>
+        <translation>應用程式設定</translation>
     </message>
 </context>
 <context>
     <name>QStateMachine</name>
     <message>
         <source>Missing initial state in compound state &apos;%1&apos;</source>
-        <translation>Manca l&apos;estat inicial a l&apos;estat compost «%1»</translation>
+        <translation>複合狀態「%1」缺少初始狀態</translation>
     </message>
     <message>
         <source>Missing default state in history state &apos;%1&apos;</source>
-        <translation>Manca l&apos;estat per defecte a l&apos;estat històric «%1»</translation>
+        <translation>歷史狀態「%1」缺少預設狀態</translation>
     </message>
     <message>
         <source>No common ancestor for targets and source of transition from state &apos;%1&apos;</source>
-        <translation>No hi ha cap antecessor comú per les destinacions i origen des de l&apos;estat «%1»</translation>
+        <translation>來自「%1」的過渡狀態的來源和目標沒有共同上階項目</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Error desconegut</translation>
+        <translation>未知錯誤</translation>
     </message>
 </context>
 <context>
     <name>QSystemSemaphore</name>
     <message>
         <source>%1: permission denied</source>
-        <translation>%1: s&apos;ha denegat el permís</translation>
+        <translation>%1：存取被拒</translation>
     </message>
     <message>
         <source>%1: already exists</source>
-        <translation>%1: ja existeix</translation>
+        <translation>%1：已存在</translation>
     </message>
     <message>
         <source>%1: does not exist</source>
-        <translation>%1: no existeix</translation>
+        <translation>%1：不存在</translation>
     </message>
     <message>
         <source>%1: out of resources</source>
-        <translation>%1: sense recursos</translation>
+        <translation>%1：資源不足</translation>
     </message>
     <message>
         <source>%1: unknown error %2</source>
-        <translation>%1: error desconegut %2</translation>
+        <translation>%1：未知的錯誤 %2</translation>
     </message>
 </context>
 <context>
     <name>QTDSDriver</name>
     <message>
         <source>Unable to open connection</source>
-        <translation>No s&apos;ha pogut obrir la connexió</translation>
+        <translation>無法開啟連線</translation>
     </message>
     <message>
         <source>Unable to use database</source>
-        <translation>No s&apos;ha pogut utilitzar la base de dades</translation>
+        <translation>無法使用資料庫</translation>
     </message>
 </context>
 <context>
     <name>QTabBar</name>
     <message>
         <source>Scroll Left</source>
-        <translation>Desplaçament a l&apos;esquerra</translation>
+        <translation>往左捲動</translation>
     </message>
     <message>
         <source>Scroll Right</source>
-        <translation>Desplaçament a la dreta</translation>
+        <translation>往右捲動</translation>
     </message>
 </context>
 <context>
     <name>QTcpServer</name>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>Operació no admesa pel sòcol</translation>
+        <translation>不支援 Socket 的操作</translation>
     </message>
 </context>
 <context>
     <name>QTgaFile</name>
     <message>
         <source>Could not read image data</source>
-        <translation>No s&apos;han pogut llegir les dades de la imatge</translation>
+        <translation>無法讀取影像資料</translation>
     </message>
     <message>
         <source>Sequential device (eg socket) for image read not supported</source>
-        <translation>No s&apos;admet cap dispositiu seqüencial (p. ex. sòcol) per llegir una imatge</translation>
+        <translation>不支援用於影像讀取的順序裝置（例如 socket）</translation>
     </message>
     <message>
         <source>Seek file/device for image read failed</source>
-        <translation>Ha fallat la cerca del fitxer/dispositiu de la lectura de la imatge</translation>
+        <translation>尋找用於讀取影像的檔案或裝置失敗</translation>
     </message>
     <message>
         <source>Image header read failed</source>
-        <translation>Ha fallat la lectura de la capçalera de la imatge</translation>
+        <translation>影像標頭讀取失敗</translation>
     </message>
     <message>
         <source>Image type not supported</source>
-        <translation>Tipus d&apos;imatge no admès</translation>
+        <translation>不支援的影像類型</translation>
     </message>
     <message>
         <source>Image depth not valid</source>
-        <translation>Profunditat de la imatge no vàlida</translation>
+        <translation>無效的影像深度</translation>
     </message>
     <message>
         <source>Image size exceeds limit</source>
-        <translation>La mida de la imatge excedeix el límit</translation>
+        <translation>影像大小超出限制</translation>
     </message>
     <message>
         <source>Could not seek to image read footer</source>
-        <translation>No s&apos;ha pogut cercar el peu de lectura de la imatge</translation>
+        <translation>無法尋至影像讀取註腳</translation>
     </message>
     <message>
         <source>Could not read footer</source>
-        <translation>No s&apos;ha pogut llegir el peu</translation>
+        <translation>無法讀取註腳</translation>
     </message>
     <message>
         <source>Image type (non-TrueVision 2.0) not supported</source>
-        <translation>Tipus d&apos;imatge no admès (no és TrueVision 2.0)</translation>
+        <translation>不支援的影像類型（非 TrueVision 2.0）</translation>
     </message>
     <message>
         <source>Could not reset to read data</source>
-        <translation>No s&apos;ha pogut reiniciar la lectura de les dades</translation>
+        <translation>無法重設到讀取資料</translation>
     </message>
 </context>
 <context>
     <name>QUdpSocket</name>
     <message>
         <source>Unable to send a datagram</source>
-        <translation>No s&apos;ha pogut enviar un datagrama</translation>
+        <translation>無法傳送資料塊</translation>
     </message>
     <message>
         <source>No datagram available for reading</source>
-        <translation>No hi ha cap datagrama disponible per llegir</translation>
+        <translation>沒有能用於讀取的資料塊</translation>
     </message>
 </context>
 <context>
     <name>QUndoGroup</name>
     <message>
         <source>Undo %1</source>
-        <translation>Desfés %1</translation>
+        <translation>復原 %1</translation>
     </message>
     <message>
         <source>Undo</source>
         <comment>Default text for undo action</comment>
-        <translation>Desfés</translation>
+        <translation>復原</translation>
     </message>
     <message>
         <source>Redo %1</source>
-        <translation>Refés %1</translation>
+        <translation>重做 %1</translation>
     </message>
     <message>
         <source>Redo</source>
         <comment>Default text for redo action</comment>
-        <translation>Refés</translation>
+        <translation>重做</translation>
     </message>
 </context>
 <context>
     <name>QUndoModel</name>
     <message>
         <source>&lt;empty&gt;</source>
-        <translation>&lt;buit&gt;</translation>
+        <translation>＜空白＞</translation>
     </message>
 </context>
 <context>
     <name>QUndoStack</name>
     <message>
         <source>Undo %1</source>
-        <translation>Desfés %1</translation>
+        <translation>復原 %1</translation>
     </message>
     <message>
         <source>Undo</source>
         <comment>Default text for undo action</comment>
-        <translation>Desfés</translation>
+        <translation>復原</translation>
     </message>
     <message>
         <source>Redo %1</source>
-        <translation>Refés %1</translation>
+        <translation>重做 %1</translation>
     </message>
     <message>
         <source>Redo</source>
         <comment>Default text for redo action</comment>
-        <translation>Refés</translation>
+        <translation>重做</translation>
     </message>
 </context>
 <context>
     <name>QUnicodeControlCharacterMenu</name>
     <message>
         <source>LRM Left-to-right mark</source>
-        <translation>Marca d&apos;esquerra a dreta (LRM)</translation>
+        <translation>LRM 左到右標記</translation>
     </message>
     <message>
         <source>RLM Right-to-left mark</source>
-        <translation>Marca de dreta a esquerra (RLM)</translation>
+        <translation>RLM 右到左標記</translation>
     </message>
     <message>
         <source>ZWJ Zero width joiner</source>
-        <translation>Connector d&apos;amplada zero (ZWJ)</translation>
+        <translation>ZWJ 零寬度連接器</translation>
     </message>
     <message>
         <source>ZWNJ Zero width non-joiner</source>
-        <translation>Separador d&apos;amplada zero (ZWNJ)</translation>
+        <translation>ZWNJ 零寬度非連接器</translation>
     </message>
     <message>
         <source>ZWSP Zero width space</source>
-        <translation>Espai d&apos;amplada zero (ZWSP)</translation>
+        <translation>ZWSP 零寬度空白</translation>
     </message>
     <message>
         <source>LRE Start of left-to-right embedding</source>
-        <translation>Inici d&apos;incrustació d&apos;esquerra a dreta (LRE)</translation>
+        <translation>LRE 左到右嵌入起點</translation>
     </message>
     <message>
         <source>RLE Start of right-to-left embedding</source>
-        <translation>Inici d&apos;incrustació de dreta a esquerra (RLE)</translation>
+        <translation>RLE 右到左嵌入起點</translation>
     </message>
     <message>
         <source>LRO Start of left-to-right override</source>
-        <translation>Inici de sobreescriptura d&apos;esquerra a dreta (LRO)</translation>
+        <translation>LRO 左到右覆寫起點</translation>
     </message>
     <message>
         <source>RLO Start of right-to-left override</source>
-        <translation>Inici de sobreescriptura de dreta a esquerra (RLO)</translation>
+        <translation>RLO 右到左覆寫起點</translation>
     </message>
     <message>
         <source>PDF Pop directional formatting</source>
-        <translation>Final de formatació direccional (PDF)</translation>
+        <translation>PDF 彈出方向格式</translation>
     </message>
     <message>
         <source>LRI Left-to-right isolate</source>
-        <translation>D&apos;esquerra a dreta aïllat (LRI)</translation>
+        <translation>LRI 左至右分隔</translation>
     </message>
     <message>
         <source>RLI Right-to-left isolate</source>
-        <translation>De dreta a esquerra aïllat (RLI)</translation>
+        <translation>RLI 右至左分隔</translation>
     </message>
     <message>
         <source>FSI First strong isolate</source>
-        <translation>Primer intens aïllat (FSI)</translation>
+        <translatorcomment>為 Unicode 專有名詞，因找不到適合翻譯因此留空，等待有較適合用詞後再填入。</translatorcomment>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>PDI Pop directional isolate</source>
-        <translation>Final d&apos;aïllament direccional (PDI)</translation>
+        <translatorcomment>為 Unicode 專有名詞，因找不到適合翻譯因此留空，等待有較適合用詞後再填入。</translatorcomment>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Insert Unicode control character</source>
-        <translation>Insereix un caràcter de control Unicode</translation>
+        <translation>插入 Unicode 控制字元</translation>
     </message>
 </context>
 <context>
     <name>QWhatsThisAction</name>
     <message>
         <source>What&apos;s This?</source>
-        <translation>Què és això?</translation>
+        <translation>這是什麼？</translation>
     </message>
 </context>
 <context>
@@ -7033,35 +7176,35 @@ Role of an accessible object</extracomment>
     <name>QWidgetTextControl</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;Desfés</translation>
+        <translation>復原(&amp;U)</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>&amp;Refés</translation>
+        <translation>重做(&amp;R)</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>Re&amp;talla</translation>
+        <translation>剪下(&amp;T)</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Copia</translation>
+        <translation>複製(&amp;C)</translation>
     </message>
     <message>
         <source>Copy &amp;Link Location</source>
-        <translation>Copia la ubicació de l&apos;en&amp;llaç</translation>
+        <translation>複製連結位址(&amp;L)</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>&amp;Enganxa</translation>
+        <translation>貼上(&amp;P)</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Suprimeix</translation>
+        <translation>刪除</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Selecciona-ho tot</translation>
+        <translation>全部選擇</translation>
     </message>
 </context>
 <context>
@@ -7069,343 +7212,333 @@ Role of an accessible object</extracomment>
     <message>
         <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
 
-The minimum Direct2D version required is %1.%2.%3.%4. The Direct2D version on this system is %5.%6.%7.%8.</source>
-        <translation type="vanished">Les Qt no han pogut carregar el connector de la plataforma direct2d perquè la versió del Direct2D en aquest sistema és massa antiga. El requeriment mínim de sistema per aquest connector de plataforma és Windows 7 SP1 amb «Platform Update».
-
-La versió mínima requerida del Direct2D és %1.%2.%3.%4. La versió del Direct2D en aquest sistema és %5.%6.%7.%8.</translation>
-    </message>
-    <message>
-        <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
-
 The minimum Direct2D version required is %1. The Direct2D version on this system is %2.</source>
-        <translation>Les Qt no han pogut carregar el connector de la plataforma direct2d perquè la versió del Direct2D en aquest sistema és massa antiga. El requeriment mínim de sistema per aquest connector de plataforma és Windows 7 SP1 amb «Platform Update».
+        <translation>Qt 無法載入 direct2d 平台外掛程式，因為系統 Direct2D 版本過舊。此平台外掛程式的最低系統需求至少要包含平台更新的 Windows 7 SP1。
 
-La versió mínima requerida del Direct2D és %1. La versió del Direct2D en aquest sistema és %2.</translation>
+最低 Direct2D 版本需求為 %1，但系統上的 Direct2D 版本為 %2。</translation>
     </message>
     <message>
         <source>Cannot load direct2d platform plugin</source>
-        <translation>No s&apos;ha pogut carregar el connector de la plataforma direct2d</translation>
+        <translation>無法載入 Direct2D 平台外掛程式</translation>
     </message>
 </context>
 <context>
     <name>QWizard</name>
     <message>
         <source>Go Back</source>
-        <translation>Retrocedeix</translation>
+        <translation>往回</translation>
     </message>
     <message>
         <source>&lt; &amp;Back</source>
-        <translation>&lt; &amp;Enrere</translation>
+        <translation>＜返回(&amp;B)</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation>Continua</translation>
+        <translation>繼續</translation>
     </message>
     <message>
         <source>&amp;Next</source>
-        <translation>&amp;Següent</translation>
+        <translation>下一個(&amp;N)</translation>
     </message>
     <message>
         <source>&amp;Next &gt;</source>
-        <translation>&amp;Següent &gt;</translation>
+        <translation>下一個(&amp;N) ＞</translation>
     </message>
     <message>
         <source>Commit</source>
-        <translation>Confirma</translation>
+        <translation>提交</translation>
     </message>
     <message>
         <source>Done</source>
-        <translation>Fet</translation>
+        <translation>完成</translation>
     </message>
     <message>
         <source>&amp;Finish</source>
-        <translation>&amp;Acaba</translation>
+        <translation>完成(&amp;F)</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Cancel·la</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Ajuda</translation>
+        <translation>說明</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>A&amp;juda</translation>
+        <translation>說明(&amp;H)</translation>
     </message>
 </context>
 <context>
     <name>QXml</name>
     <message>
         <source>no error occurred</source>
-        <translation>sense errors</translation>
+        <translation>沒有發生錯誤</translation>
     </message>
     <message>
         <source>error triggered by consumer</source>
-        <translation>error provocat pel consumidor</translation>
+        <translation>客戶觸發的錯誤</translation>
     </message>
     <message>
         <source>unexpected end of file</source>
-        <translation>fi de fitxer inesperat</translation>
+        <translation>遇到非預期的檔案結尾</translation>
     </message>
     <message>
         <source>more than one document type definition</source>
-        <translation>més d&apos;una definició de tipus de document</translation>
+        <translation>定義了一個以上的文件型態</translation>
     </message>
     <message>
         <source>error occurred while parsing element</source>
-        <translation>hi ha hagut un error en analitzar un element</translation>
+        <translation>解析元素時發生錯誤</translation>
     </message>
     <message>
         <source>tag mismatch</source>
-        <translation>marcador desaparellat</translation>
+        <translation>標籤不相等</translation>
     </message>
     <message>
         <source>error occurred while parsing content</source>
-        <translation>hi ha hagut un error en analitzar el contingut</translation>
+        <translation>解析內容時發生錯誤</translation>
     </message>
     <message>
         <source>unexpected character</source>
-        <translation>caràcter inesperat</translation>
+        <translation>非預期字元</translation>
     </message>
     <message>
         <source>invalid name for processing instruction</source>
-        <translation>nom d&apos;instrucció de procés no vàlid</translation>
+        <translation>處理指令時遇到無效名稱</translation>
     </message>
     <message>
         <source>version expected while reading the XML declaration</source>
-        <translation>s&apos;esperava una versió en llegir la declaració XML</translation>
+        <translation>讀取 XML 宣告時應該要有版本號</translation>
     </message>
     <message>
         <source>wrong value for standalone declaration</source>
-        <translation>valor erroni per a la declaració autònoma</translation>
+        <translation>獨立宣告時的值錯誤</translation>
     </message>
     <message>
         <source>encoding declaration or standalone declaration expected while reading the XML declaration</source>
-        <translation>s&apos;esperava una declaració de codificació o una declaració autònoma en llegir la declaració XML</translation>
+        <translation>讀取 XML 宣告時應有編碼方式宣告或獨立宣告</translation>
     </message>
     <message>
         <source>standalone declaration expected while reading the XML declaration</source>
-        <translation>s&apos;esperava una declaració autònoma en llegir la declaració XML</translation>
+        <translation>讀取 XML 宣告時應有獨立宣告</translation>
     </message>
     <message>
         <source>error occurred while parsing document type definition</source>
-        <translation>hi ha hagut un error en analitzar la definició del tipus de document</translation>
+        <translation>解析文件型態定義時發生錯誤</translation>
     </message>
     <message>
         <source>letter is expected</source>
-        <translation>s&apos;esperava una lletra</translation>
+        <translation>預期字母</translation>
     </message>
     <message>
         <source>error occurred while parsing comment</source>
-        <translation>hi ha hagut un error en analitzar un comentari</translation>
+        <translation>解析註解時發生錯誤</translation>
     </message>
     <message>
         <source>error occurred while parsing reference</source>
-        <translation>hi ha hagut un error en analitzar una referència</translation>
+        <translation>解析參考時發生錯誤</translation>
     </message>
     <message>
         <source>internal general entity reference not allowed in DTD</source>
-        <translation>al DTD no es permet una referència interna a una entitat general</translation>
+        <translation>在 DTD 中不允許內部產生的一般實體參考</translation>
     </message>
     <message>
         <source>external parsed general entity reference not allowed in attribute value</source>
-        <translation>al valor d&apos;atribut no es permet una referència a una entitat general analitzada externament</translation>
+        <translation>在屬性值中不允許使用外部解析的一般實體參考</translation>
     </message>
     <message>
         <source>external parsed general entity reference not allowed in DTD</source>
-        <translation>al DTD no es permet una referència a una entitat general analitzada externament</translation>
+        <translation>在 DTD 中不允許使用外部解析的一般實體參考</translation>
     </message>
     <message>
         <source>unparsed entity reference in wrong context</source>
-        <translation>referència a una entitat no analitzada a un context erroni</translation>
+        <translation>在錯誤的內文中有未解析的實體參考</translation>
     </message>
     <message>
         <source>recursive entities</source>
-        <translation>entitats recursives</translation>
+        <translation>遞迴實體</translation>
     </message>
     <message>
         <source>error in the text declaration of an external entity</source>
-        <translation>error en la declaració de text d&apos;una entitat externa</translation>
+        <translation>在外部實體中的文字宣告有錯誤</translation>
     </message>
 </context>
 <context>
     <name>QXmlStream</name>
     <message>
         <source>Extra content at end of document.</source>
-        <translation>Contingut extra al final del document.</translation>
+        <translation>文件尾端有多餘的內容。</translation>
     </message>
     <message>
         <source>Invalid entity value.</source>
-        <translation>Valor d&apos;entitat no vàlid.</translation>
+        <translation>無效的實體值。</translation>
     </message>
     <message>
         <source>Invalid XML character.</source>
-        <translation>Caràcter XML no vàlid.</translation>
+        <translation>無效的 XML 字元。</translation>
     </message>
     <message>
         <source>Sequence &apos;]]&gt;&apos; not allowed in content.</source>
-        <translation>No es permet la seqüència «]]&gt;» en el contingut.</translation>
+        <translation>在內文中不允許有序列「]]&gt;」。</translation>
     </message>
     <message>
         <source>Encountered incorrectly encoded content.</source>
-        <translation>S&apos;ha trobat contingut codificat incorrectament.</translation>
+        <translation>遇到不正確的編碼內容。</translation>
     </message>
     <message>
         <source>Namespace prefix &apos;%1&apos; not declared</source>
-        <translation>No s&apos;ha declarat el prefix «%1» d&apos;espai de noms</translation>
+        <translation>未宣告命名空間的前置字串「%1」</translation>
     </message>
     <message>
         <source>Illegal namespace declaration.</source>
-        <translation>Declaració d&apos;espai de noms il·legal.</translation>
-    </message>
-    <message>
-        <source>Attribute redefined.</source>
-        <translation type="vanished">S&apos;ha redefinit l&apos;atribut.</translation>
+        <translation>無效的命名空間宣告。</translation>
     </message>
     <message>
         <source>Attribute &apos;%1&apos; redefined.</source>
-        <translation>S&apos;ha redefinit l&apos;atribut «%1».</translation>
+        <translation>屬性「%1」重複定義。</translation>
     </message>
     <message>
         <source>Unexpected character &apos;%1&apos; in public id literal.</source>
-        <translation>Caràcter inesperat «%1» al literal d&apos;ID públic.</translation>
+        <translation>在公開代碼字元中遇到非預期的字元「%1」。</translation>
     </message>
     <message>
         <source>Invalid XML version string.</source>
-        <translation>Cadena de versió de l&apos;XML no vàlida.</translation>
+        <translation>無效的 XML 版本字串。</translation>
     </message>
     <message>
         <source>Unsupported XML version.</source>
-        <translation>Versió no admesa de l&apos;XML.</translation>
+        <translation>不支援的 XML 版本。</translation>
     </message>
     <message>
         <source>The standalone pseudo attribute must appear after the encoding.</source>
-        <translation>Els pseudoatributs autònoms han d&apos;aparèixer després de la codificació.</translation>
+        <translation>獨立的虛擬屬性必須在編碼方式之後出現。</translation>
     </message>
     <message>
         <source>%1 is an invalid encoding name.</source>
-        <translation>%1 no és un nom de codificació vàlid.</translation>
+        <translation>%1 為無效的編碼名稱。</translation>
     </message>
     <message>
         <source>Encoding %1 is unsupported</source>
-        <translation>La codificació %1 no està admesa</translation>
+        <translation>不支援編碼 %1</translation>
     </message>
     <message>
         <source>Standalone accepts only yes or no.</source>
-        <translation>L&apos;autònom només accepta sí o no.</translation>
+        <translation>獨立實體只接受 yes 或 no。</translation>
     </message>
     <message>
         <source>Invalid attribute in XML declaration.</source>
-        <translation>Atribut no vàlid a la declaració de l&apos;XML.</translation>
+        <translation>XML 宣告中有無效的屬性。</translation>
     </message>
     <message>
         <source>Premature end of document.</source>
-        <translation>Final prematur del document.</translation>
+        <translation>文件結尾過早結束。</translation>
     </message>
     <message>
         <source>Invalid document.</source>
-        <translation>Document no vàlid.</translation>
+        <translation>文件無效。</translation>
     </message>
     <message>
         <source>&apos;%1&apos;</source>
         <comment>expected</comment>
         <extracomment>&apos;&lt;first option&gt;&apos;</extracomment>
-        <translation>«%1»</translation>
+        <translation>「%1」</translation>
     </message>
     <message>
         <source>%1 or &apos;%2&apos;</source>
         <comment>expected</comment>
         <extracomment>&lt;first option&gt;, &apos;&lt;second option&gt;&apos;</extracomment>
-        <translation>%1 o «%2»</translation>
+        <translation>%1 或「%2」</translation>
     </message>
     <message>
         <source>%1, &apos;%2&apos;</source>
         <comment>expected</comment>
         <extracomment>&lt;options so far&gt;, &apos;&lt;next option&gt;&apos;</extracomment>
-        <translation>%1, «%2»</translation>
+        <translation>%1、「%2」</translation>
     </message>
     <message>
         <source>%1, or &apos;%2&apos;</source>
         <comment>expected</comment>
         <extracomment>&lt;options so far&gt;, or &apos;&lt;final option&gt;&apos;</extracomment>
-        <translation>%1, o «%2»</translation>
+        <translation>%1、或「%2」</translation>
     </message>
     <message>
         <source>Expected %1, but got &apos;%2&apos;.</source>
-        <translation>S&apos;esperava %1, però s&apos;ha obtingut «%2».</translation>
+        <translation>應為 %1 但得到「%2」。</translation>
     </message>
     <message>
         <source>Unexpected &apos;%1&apos;.</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Expected </source>
-        <translation type="vanished">S&apos;esperava </translation>
-    </message>
-    <message>
-        <source>, but got &apos;</source>
-        <translation type="vanished">, però s&apos;ha trobat &apos;</translation>
-    </message>
-    <message>
-        <source>Unexpected &apos;</source>
-        <translation type="vanished">No s&apos;esperava &apos;</translation>
+        <translation>非預期的「%1」。</translation>
     </message>
     <message>
         <source>Expected character data.</source>
-        <translation>S&apos;esperava un caràcter de dades.</translation>
+        <translation>預期的字元資料。</translation>
     </message>
     <message>
         <source>Recursive entity detected.</source>
-        <translation>S&apos;ha detectat una entitat recursiva.</translation>
+        <translation>偵測到遞迴實體。</translation>
     </message>
     <message>
         <source>Start tag expected.</source>
-        <translation>S&apos;esperava un marcador inicial.</translation>
+        <translation>預期應有開始標籤。</translation>
     </message>
     <message>
         <source>NDATA in parameter entity declaration.</source>
-        <translation>NDATA en paràmetre de declaració d&apos;entitat.</translation>
+        <translation>參數實體宣告有 NDATA。</translation>
     </message>
     <message>
         <source>XML declaration not at start of document.</source>
-        <translation>la declaració XML no és a l&apos;inici del document.</translation>
+        <translation>XML 宣告沒有在文件開始處。</translation>
     </message>
     <message>
         <source>%1 is an invalid processing instruction name.</source>
-        <translation>%1 és un nom d&apos;instrucció de procés no vàlid.</translation>
+        <translation>%1 是無效的處理指令名稱。</translation>
     </message>
     <message>
         <source>Invalid processing instruction name.</source>
-        <translation>Nom d&apos;instrucció de procés no vàlid.</translation>
+        <translation>無效的處理指令名稱。</translation>
     </message>
     <message>
         <source>%1 is an invalid PUBLIC identifier.</source>
-        <translation>%1 és un identificador PUBLIC no vàlid.</translation>
+        <translation>%1 為無效的 PUBLIC 識別子。</translation>
     </message>
     <message>
         <source>Invalid XML name.</source>
-        <translation>Nom XML no vàlid.</translation>
+        <translation>無效的 XML 名稱。</translation>
     </message>
     <message>
         <source>Opening and ending tag mismatch.</source>
-        <translation>Marcadors d&apos;obertura i tancament desaparellats.</translation>
+        <translation>開啟與結束的標籤不對稱。</translation>
     </message>
     <message>
         <source>Entity &apos;%1&apos; not declared.</source>
-        <translation>Entitat «%1» no declarada.</translation>
+        <translation>實體「%1」未宣告。</translation>
     </message>
     <message>
         <source>Reference to unparsed entity &apos;%1&apos;.</source>
-        <translation>Referència a entitat no analitzada «%1».</translation>
+        <translation>參考到未解析的實體「%1」。</translation>
     </message>
     <message>
         <source>Reference to external entity &apos;%1&apos; in attribute value.</source>
-        <translation>Referència a entitat externa «%1» en un valor d&apos;atribut.</translation>
+        <translation>在屬性值中參考到外部實體「%1」。</translation>
     </message>
     <message>
         <source>Invalid character reference.</source>
-        <translation>Referència de caràcter no vàlid.</translation>
+        <translation>無效的字元參考。</translation>
+    </message>
+</context>
+<context>
+    <name>Print Device Input Slot</name>
+    <message>
+        <source>Automatic</source>
+        <translation>自動</translation>
+    </message>
+</context>
+<context>
+    <name>Print Device Output Bin</name>
+    <message>
+        <source>Automatic</source>
+        <translation>自動</translation>
     </message>
 </context>
 </TS>
