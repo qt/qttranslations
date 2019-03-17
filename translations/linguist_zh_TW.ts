@@ -283,6 +283,11 @@ Will assume a single universal form.</source>
         <comment>Choose Edit|Find from the menu bar or press Ctrl+F to pop up the Find dialog</comment>
         <translation></translation>
     </message>
+    <message>
+        <source></source>
+        <comment>Choose Edit|Find from the menu bar or press Ctrl+F to pop up the Find dialog</comment>
+        <translation></translation>
+    </message>
 </context>
 <context>
     <name>FormMultiWidget</name>
@@ -1311,6 +1316,11 @@ All files (*)</source>
         <translation>全部</translation>
     </message>
     <message>
+        <source></source>
+        <comment>This is the application&apos;s main window.</comment>
+        <translation></translation>
+    </message>
+    <message>
         <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</source>
         <translatorcomment>請忽略警告！</translatorcomment>
         <translation>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist 是個對 Qt 應用程式加入翻譯的工具。&lt;/p&gt;&lt;p&gt;版權所有 (C) %2 Qt 公司</translation>
@@ -1376,6 +1386,11 @@ All files (*)</source>
 Line: %2</source>
         <translation>&apos;%1&apos;
 第 %2 行</translation>
+    </message>
+    <message>
+        <source></source>
+        <comment>This is the right panel of the main window.</comment>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -1500,6 +1515,11 @@ Line: %2</source>
     <message>
         <source>Cannot save phrase book &apos;%1&apos;.</source>
         <translation>無法儲存片語書 %1。</translation>
+    </message>
+    <message>
+        <source></source>
+        <comment>Go to Phrase &gt; Edit Phrase Book... The dialog that pops up is a PhraseBookBox.</comment>
+        <translation></translation>
     </message>
 </context>
 <context>

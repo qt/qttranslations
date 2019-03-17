@@ -40,6 +40,20 @@
     </message>
 </context>
 <context>
+    <name>Print Device Input Slot</name>
+    <message>
+        <source>Automatic</source>
+        <translation>自動</translation>
+    </message>
+</context>
+<context>
+    <name>Print Device Output Bin</name>
+    <message>
+        <source>Automatic</source>
+        <translation>自動</translation>
+    </message>
+</context>
+<context>
     <name>QAbstractSocket</name>
     <message>
         <source>Socket operation timed out</source>
@@ -995,8 +1009,8 @@ Press ESC to cancel</source>
         <translation>無法開啟 %1 供輸入</translation>
     </message>
     <message>
-        <source>Cannot open for output</source>
-        <translation>無法開啟以供輸出</translation>
+        <source>Cannot open for output: %1</source>
+        <translation>無法開啟供輸出檔案：%1</translation>
     </message>
     <message>
         <source>Failure to write block</source>
@@ -1007,8 +1021,8 @@ Press ESC to cancel</source>
         <translation>無法建立 %1 供輸出</translation>
     </message>
     <message>
-        <source>Cannot open for output: %1</source>
-        <translation>無法開啟供輸出檔案：%1</translation>
+        <source>Cannot open for output</source>
+        <translation>無法開啟以供輸出</translation>
     </message>
 </context>
 <context>
@@ -6584,46 +6598,6 @@ Role of an accessible object</extracomment>
         <translation>該端點的憑證已被加入黑名單</translation>
     </message>
     <message>
-        <source>Unknown error</source>
-        <translation>未知錯誤</translation>
-    </message>
-    <message>
-        <source>TLS initialization failed</source>
-        <translation>TLS 初始化失敗</translation>
-    </message>
-    <message>
-        <source>The TLS/SSL connection has been closed</source>
-        <translation>TLS/SSL 連線已被關閉</translation>
-    </message>
-    <message>
-        <source>Error creating SSL session, %1</source>
-        <translation>建立 SSL 階段時發生錯誤，%1</translation>
-    </message>
-    <message>
-        <source>Error creating SSL session: %1</source>
-        <translation>建立 SSL 階段時發生錯誤：%1</translation>
-    </message>
-    <message>
-        <source>Unable to init SSL Context: %1</source>
-        <translation>無法初始化 SSL 內文：%1</translation>
-    </message>
-    <message>
-        <source>Unable to write data: %1</source>
-        <translation>無法寫入資料：%1</translation>
-    </message>
-    <message>
-        <source>Unable to decrypt data: %1</source>
-        <translation>無法解密資料：%1</translation>
-    </message>
-    <message>
-        <source>Error while reading: %1</source>
-        <translation>讀取時發生錯誤：%1</translation>
-    </message>
-    <message>
-        <source>Error during SSL handshake: %1</source>
-        <translation>SSL 交握時發生錯誤：%1</translation>
-    </message>
-    <message>
         <source>No OCSP status response found</source>
         <translation>找不到 OCSP 狀態回應</translation>
     </message>
@@ -6668,8 +6642,28 @@ Role of an accessible object</extracomment>
         <translation>憑證狀態未知</translation>
     </message>
     <message>
+        <source>Unknown error</source>
+        <translation>未知錯誤</translation>
+    </message>
+    <message>
+        <source>TLS initialization failed</source>
+        <translation>TLS 初始化失敗</translation>
+    </message>
+    <message>
         <source>Attempted to use an unsupported protocol.</source>
         <translation>嘗試使用不支援的通訊協定。</translation>
+    </message>
+    <message>
+        <source>The TLS/SSL connection has been closed</source>
+        <translation>TLS/SSL 連線已被關閉</translation>
+    </message>
+    <message>
+        <source>Error creating SSL session, %1</source>
+        <translation>建立 SSL 階段時發生錯誤，%1</translation>
+    </message>
+    <message>
+        <source>Error creating SSL session: %1</source>
+        <translation>建立 SSL 階段時發生錯誤：%1</translation>
     </message>
     <message>
         <source>Server-side QSslSocket does not support OCSP stapling</source>
@@ -6682,6 +6676,26 @@ Role of an accessible object</extracomment>
     <message>
         <source>Client-side sockets do not send OCSP responses</source>
         <translation>客戶端的 socket 未傳送 OCSP 回應</translation>
+    </message>
+    <message>
+        <source>Unable to init SSL Context: %1</source>
+        <translation>無法初始化 SSL 內文：%1</translation>
+    </message>
+    <message>
+        <source>Unable to write data: %1</source>
+        <translation>無法寫入資料：%1</translation>
+    </message>
+    <message>
+        <source>Unable to decrypt data: %1</source>
+        <translation>無法解密資料：%1</translation>
+    </message>
+    <message>
+        <source>Error while reading: %1</source>
+        <translation>讀取時發生錯誤：%1</translation>
+    </message>
+    <message>
+        <source>Error during SSL handshake: %1</source>
+        <translation>SSL 交握時發生錯誤：%1</translation>
     </message>
     <message>
         <source>Failed to decode OCSP response</source>
@@ -7525,20 +7539,6 @@ The minimum Direct2D version required is %1. The Direct2D version on this system
     <message>
         <source>Invalid character reference.</source>
         <translation>無效的字元參考。</translation>
-    </message>
-</context>
-<context>
-    <name>Print Device Input Slot</name>
-    <message>
-        <source>Automatic</source>
-        <translation>自動</translation>
-    </message>
-</context>
-<context>
-    <name>Print Device Output Bin</name>
-    <message>
-        <source>Automatic</source>
-        <translation>自動</translation>
     </message>
 </context>
 </TS>
