@@ -758,7 +758,7 @@ Es wird mit einer einfachen Universalform gearbeitet.</translation>
     </message>
     <message>
         <source>Batch translate all entries using the information in the phrase books.</source>
-        <translation>Alle Einträge automatisch mit Hilfe des Wörterbuchs übersetzen.</translation>
+        <translation>Alle Einträge automatisch mithilfe des Wörterbuchs übersetzen.</translation>
     </message>
     <message>
         <source>Release As...</source>

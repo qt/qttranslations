@@ -13,7 +13,7 @@
     </message>
     <message>
         <source>The file cannot be written locally, due to access restrictions</source>
-        <translation>Die Datei kann auf Grund fehlender Zugriffsrechte nicht lokal gespeichert werden</translation>
+        <translation>Die Datei kann aufgrund fehlender Zugriffsrechte nicht lokal gespeichert werden</translation>
     </message>
     <message>
         <source>Insufficient space on the target drive</source>
@@ -37,7 +37,7 @@
     </message>
     <message>
         <source>The file was blocked due to local policy</source>
-        <translation>Die Datei ist auf Grund einer lokalen Richtlinie gesperrt</translation>
+        <translation>Die Datei ist aufgrund einer lokalen Richtlinie gesperrt</translation>
     </message>
     <message>
         <source>Checking the safety of the download failed due to unexpected reasons</source>
@@ -69,7 +69,7 @@
     </message>
     <message>
         <source>The network request was invalid (for example, the URL or scheme is invalid)</source>
-        <translation>Die Netzwerkanforderung war ungültig (zum Beispiel auf Grund eines ungültigen Links oder Schemas)</translation>
+        <translation>Die Netzwerkanforderung war ungültig (zum Beispiel aufgrund eines ungültigen Links oder Schemas)</translation>
     </message>
     <message>
         <source>General server failure</source>
