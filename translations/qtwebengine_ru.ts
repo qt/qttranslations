@@ -70,7 +70,7 @@
     </message>
     <message>
         <source>Prompt Dialog</source>
-        <translation type="unfinished">Диалог напоминания</translation>
+        <translation>Диалог запроса</translation>
     </message>
 </context>
 <context>
@@ -137,7 +137,7 @@
     </message>
     <message>
         <source>&amp;Indent</source>
-        <translation>Увеличить &amp;отступить</translation>
+        <translation>Увеличить &amp;отступ</translation>
     </message>
     <message>
         <source>&amp;Outdent</source>
@@ -220,7 +220,7 @@
     </message>
     <message>
         <source>&amp;Indent</source>
-        <translation>Увеличить &amp;отступить</translation>
+        <translation>Увеличить &amp;отступ</translation>
     </message>
     <message>
         <source>&amp;Outdent</source>
@@ -252,7 +252,7 @@
     </message>
     <message>
         <source>Select folder to upload</source>
-        <translation>Выберите каталог для отправки</translation>
+        <translation>Выберите каталог для передачи</translation>
     </message>
 </context>
 <context>
