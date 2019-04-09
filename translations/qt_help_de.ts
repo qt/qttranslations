@@ -59,6 +59,10 @@
         <translation>Der virtuelle Ordner &apos;%1&apos; kann nicht registriert werden.</translation>
     </message>
     <message>
+        <source>Version %1</source>
+        <translation>Version %1</translation>
+    </message>
+    <message>
         <source>Cannot create directory: %1</source>
         <translation>Das Verzeichnis kann nicht angelegt werden: %1</translation>
     </message>
