@@ -959,6 +959,10 @@
         <translation>Некорректное присваивание свойства: неизвестное перечисление</translation>
     </message>
     <message>
+        <source> - Assigning null to incompatible properties in QML is deprecated. This will become a compile error in future versions of Qt.</source>
+        <translation> - Присваивание null несовместимым свойствам в QML устарело. Оно станет ошибкой компиляции в будущих версиях Qt.</translation>
+    </message>
+    <message>
         <source>Invalid property assignment: string expected</source>
         <translation>Некорректное присваивание свойства: требуется значение типа «string»</translation>
     </message>
@@ -1071,8 +1075,8 @@
         <translation>Невозможно назначить объект свойству «%1» списка</translation>
     </message>
     <message>
-        <source>Unexpected object assignment for property &quot;%1&quot;</source>
-        <translation>Неожиданное присваивание объекта для свойства «%1»</translation>
+        <source>Can not assign value of type &quot;%1&quot; to property &quot;%2&quot;, expecting an object</source>
+        <translation>Невозможно присвоить значение типа «%1» свойству «%2», требуется объект</translation>
     </message>
     <message>
         <source>Cannot assign object of type &quot;%1&quot; to property of type &quot;%2&quot; as the former is neither the same as the latter nor a sub-class of it.</source>
