@@ -1705,7 +1705,7 @@ Möchten Sie es noch einmal versuchen?</translation>
     </message>
     <message>
         <source>Remove Menu &apos;%1&apos;</source>
-        <translation>Menü &apos;%1&apos; öschen</translation>
+        <translation>Menü &apos;%1&apos; löschen</translation>
     </message>
     <message>
         <source>Remove Menu Bar</source>
