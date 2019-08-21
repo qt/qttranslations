@@ -1113,20 +1113,20 @@
         <translation>Ошибка чтения</translation>
     </message>
     <message>
+        <source>A temporary form file could not be created in %1: %2</source>
+        <translation>Не удалось создать временный файл формы в %1: %2</translation>
+    </message>
+    <message>
+        <source>The temporary form file %1 could not be written: %2</source>
+        <translation>Не удалось записать во временный файл формы %1: %2</translation>
+    </message>
+    <message>
         <source>New Form</source>
         <translation>Новая форма</translation>
     </message>
     <message>
         <source>Show this Dialog on Startup</source>
         <translation>Показывать диалог при старте</translation>
-    </message>
-    <message>
-        <source>A temporary form file could not be created in %1.</source>
-        <translation>Временный файл формы не может быть создан в %1.</translation>
-    </message>
-    <message>
-        <source>The temporary form file %1 could not be written.</source>
-        <translation>Временный файл формы %1 не может быть записан.</translation>
     </message>
 </context>
 <context>
@@ -3259,10 +3259,6 @@ Do you want overwrite the template?</source>
 <context>
     <name>WidgetDataBase</name>
     <message>
-        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
-        <translation>Обнаружен пользовательский модуль виджета, имя класса которого (%1) совпадает с уже имеющимся.</translation>
-    </message>
-    <message>
         <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
         <translation>Файл содержит пользовательский виджет «%1», базовый класс (%2) которого отличается от текущей записи в базе виджетов (%3). База виджетов оставлена без изменений.</translation>
     </message>
@@ -4535,12 +4531,12 @@ Please select another name.</source>
 <context>
     <name>qdesigner_internal::ObjectInspector</name>
     <message>
-        <source>&amp;Find in Text...</source>
-        <translation>&amp;Найти в тексте...</translation>
-    </message>
-    <message>
         <source>Change Current Page</source>
         <translation>Смена текущей страницы</translation>
+    </message>
+    <message>
+        <source>&amp;Find in Text...</source>
+        <translation>&amp;Найти в тексте...</translation>
     </message>
 </context>
 <context>
@@ -5701,6 +5697,13 @@ Class: %2</source>
     <message>
         <source>Edit name</source>
         <translation>Изменить имя</translation>
+    </message>
+</context>
+<context>
+    <name>qdesigner_internal::WidgetDataBase</name>
+    <message>
+        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
+        <translation>Обнаружен пользовательский модуль виджета, имя класса которого (%1) совпадает с уже имеющимся.</translation>
     </message>
 </context>
 <context>
