@@ -3764,7 +3764,7 @@ Por favor desactiva una de las opciones.</translation>
     <name>QProcess</name>
     <message>
         <source>Process failed to start</source>
-        <translation>El proceso no se ha podido iniciar</translation>
+        <translation>Falha ao iniciar o processo</translation>
     </message>
     <message>
         <source>Process crashed</source>
@@ -3800,7 +3800,7 @@ Por favor desactiva una de las opciones.</translation>
     </message>
     <message>
         <source>Process failed to start: %1</source>
-        <translation>El proceso no se ha podido iniciar: %1</translation>
+        <translation type="unfinished">Falha ao iniciar o processo: %1</translation>
     </message>
 </context>
 <context>
