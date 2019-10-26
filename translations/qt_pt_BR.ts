@@ -31,7 +31,7 @@
     <message>
         <location line="+1"/>
         <source>Quit %1</source>
-        <translation>Encerrar %1</translation>
+        <translation>Sair %1</translation>
     </message>
     <message>
         <location line="+1"/>
