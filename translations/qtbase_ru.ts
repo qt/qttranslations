@@ -382,6 +382,14 @@ Press ESC to cancel</source>
         <translation>Показать эту справку.</translation>
     </message>
     <message>
+        <source>Displays help on commandline options.</source>
+        <translation>Вывод справки по параметрам командной строки.</translation>
+    </message>
+    <message>
+        <source>Displays help including Qt specific options.</source>
+        <translation>Вывод справки с особыми параметрами Qt.</translation>
+    </message>
+    <message>
         <source>Unknown option &apos;%1&apos;.</source>
         <translation>Неизвестный параметр «%1».</translation>
     </message>
@@ -1654,6 +1662,74 @@ Do you want to delete it anyway?</source>
         <source>QT_LAYOUT_DIRECTION</source>
         <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
         <translation>LTR</translation>
+    </message>
+    <message>
+        <source>QPA plugin. See QGuiApplication documentation for available options for each plugin.</source>
+        <translation>Модуль QPA. Доступные каждому модулю параметры описаны в документации QGuiApplication.</translation>
+    </message>
+    <message>
+        <source>Path to the platform plugins.</source>
+        <translation>Путь к платформным модулям.</translation>
+    </message>
+    <message>
+        <source>Platform theme.</source>
+        <translation>Тема платформы.</translation>
+    </message>
+    <message>
+        <source>Additional plugins to load, can be specified multiple times.</source>
+        <translation>Дополнительные загружаемые модули, может быть указано несколько раз.</translation>
+    </message>
+    <message>
+        <source>Window geometry for the main window, using the X11-syntax, like 100x100+50+50.</source>
+        <translation>Геометрия основного окна, задаётся в стиле X11, например: 100x100+50+50.</translation>
+    </message>
+    <message>
+        <source>Default window icon.</source>
+        <translation>Значок окна по умолчанию.</translation>
+    </message>
+    <message>
+        <source>Title of the first window.</source>
+        <translation>Заголовок первого окна.</translation>
+    </message>
+    <message>
+        <source>Sets the application&apos;s layout direction to Qt::RightToLeft (debugging helper).</source>
+        <translation>Задёт направление выравнивания Qt::RightToLeft (помощь в отладке).</translation>
+    </message>
+    <message>
+        <source>Restores the application from an earlier session.</source>
+        <translation>Восстанавливает приложение из предыдущей сессии.</translation>
+    </message>
+    <message>
+        <source>Display name, overrides $DISPLAY.</source>
+        <translation>Имя экрана, заменяет $DISPLAY.</translation>
+    </message>
+    <message>
+        <source>Instance name according to ICCCM 4.1.2.5.</source>
+        <translation>Имя экземпляра согласно ICCCM 4.1.2.5.</translation>
+    </message>
+    <message>
+        <source>Disable mouse grabbing (useful in debuggers).</source>
+        <translation>Запрет захвата мыши (полезно при отладке).</translation>
+    </message>
+    <message>
+        <source>Force mouse grabbing (even when running in a debugger).</source>
+        <translation>Принудительный захват мыши (даже под отладчиком).</translation>
+    </message>
+    <message>
+        <source>ID of the X11 Visual to use.</source>
+        <translation>ID используемого X11 Visual.</translation>
+    </message>
+    <message>
+        <source>Alias for --windowgeometry.</source>
+        <translation>То же, что и --windowgeometry.</translation>
+    </message>
+    <message>
+        <source>Alias for --windowicon.</source>
+        <translation>То же, что и --windowicon.</translation>
+    </message>
+    <message>
+        <source>Alias for --windowtitle.</source>
+        <translation>То же, что и --windowtitle.</translation>
     </message>
 </context>
 <context>
@@ -4814,6 +4890,10 @@ Please turn one of those options off.</source>
         <translation>QSaveFile не может открыть «%1» без включения прямой записи.</translation>
     </message>
     <message>
+        <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled: path contains an Alternate Data Stream specifier</source>
+        <translation>QSaveFile не может открыть «%1» без включения прямой записи: путь содержит спецификатор альтернативного потока данных</translation>
+    </message>
+    <message>
         <source>Writing canceled by application</source>
         <translation>Запись прервана приложением</translation>
     </message>
@@ -5233,6 +5313,14 @@ Please turn one of those options off.</source>
         <translation>Запустить (F)</translation>
     </message>
     <message>
+        <source>Launch (G)</source>
+        <translation>Запустить (G)</translation>
+    </message>
+    <message>
+        <source>Launch (H)</source>
+        <translation>Запустить (H)</translation>
+    </message>
+    <message>
         <source>Monitor Brightness Up</source>
         <translation>Увеличить яркость монитора</translation>
     </message>
@@ -5333,6 +5421,10 @@ Please turn one of those options off.</source>
         <translation>Калькулятор</translation>
     </message>
     <message>
+        <source>Calendar</source>
+        <translation>Календарь</translation>
+    </message>
+    <message>
         <source>Clear</source>
         <translation>Очистить</translation>
     </message>
@@ -5343,6 +5435,10 @@ Please turn one of those options off.</source>
     <message>
         <source>Close</source>
         <translation>Закрыть</translation>
+    </message>
+    <message>
+        <source>Adjust contrast</source>
+        <translation>Подстройка контраста</translation>
     </message>
     <message>
         <source>Copy</source>
@@ -5395,6 +5491,10 @@ Please turn one of those options off.</source>
     <message>
         <source>Meeting</source>
         <translation>Встреча</translation>
+    </message>
+    <message>
+        <source>Memo</source>
+        <translation>Заметки</translation>
     </message>
     <message>
         <source>Keyboard Menu</source>
@@ -5475,6 +5575,10 @@ Please turn one of those options off.</source>
     <message>
         <source>Terminal</source>
         <translation>Терминал</translation>
+    </message>
+    <message>
+        <source>To-do list</source>
+        <translation>Список дел</translation>
     </message>
     <message>
         <source>Tools</source>
@@ -6913,6 +7017,10 @@ Role of an accessible object</extracomment>
     <message>
         <source>No common ancestor for targets and source of transition from state &apos;%1&apos;</source>
         <translation>Нет общего предка у источника и цели перехода из состояния «%1»</translation>
+    </message>
+    <message>
+        <source>Child mode of state machine &apos;%1&apos; is not &apos;ExclusiveStates&apos;.</source>
+        <translation>Дочернее состояние конечного автомата «%1» не «ExclusiveStates».</translation>
     </message>
     <message>
         <source>Unknown error</source>

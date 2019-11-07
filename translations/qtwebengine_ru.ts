@@ -338,6 +338,18 @@
         <translation>Покинуть страницу? Сделанные изменения могут быть утеряны.</translation>
     </message>
     <message>
+        <source>&amp;Back</source>
+        <translation>&amp;Назад</translation>
+    </message>
+    <message>
+        <source>&amp;Forward</source>
+        <translation>&amp;Вперёд</translation>
+    </message>
+    <message>
+        <source>&amp;Reload</source>
+        <translation>&amp;Перезагрузить</translation>
+    </message>
+    <message>
         <source>Select folder to upload</source>
         <translation>Выберите каталог для передачи</translation>
     </message>

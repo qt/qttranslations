@@ -217,6 +217,14 @@
         <source>Connections: script expected</source>
         <translation>Подключения: ожидается сценарий</translation>
     </message>
+    <message>
+        <source>Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(&lt;arguments&gt;) { ... }</source>
+        <translation>Явное определение свойств onFoo в Connections устарело. Используйте следующую форму: function onFoo(&lt;параметры&gt;) { ... }</translation>
+    </message>
+    <message>
+        <source>Detected function &quot;%1&quot; in Connections element. This is probably intended to be a signal handler but no signal of the target matches the name.</source>
+        <translation>Функция «%1» устарела в элементе Connections. Вероятно, он предназначен для обработки сигналов, но ни один из сигналов цели не соответствует имени.</translation>
+    </message>
 </context>
 <context>
     <name>QQmlDebugServerImpl</name>
@@ -409,6 +417,10 @@
     <name>QQmlEngine</name>
     <message>
         <source>Locale cannot be instantiated.  Use Qt.locale()</source>
+        <translation>Нельзя создать локаль. Используйте Qt.locale()</translation>
+    </message>
+    <message>
+        <source>Locale cannot be instantiated. Use Qt.locale()</source>
         <translation>Нельзя создать локаль. Используйте Qt.locale()</translation>
     </message>
     <message>
@@ -806,6 +818,14 @@
         <translation>Импортируемый файл должен быть сценарием</translation>
     </message>
     <message>
+        <source>Module import requires a minor version (missing dot)</source>
+        <translation>При подключении модулей необходимо указывать минорную версию (отсутствует точка)</translation>
+    </message>
+    <message>
+        <source>Module import requires a minor version (missing number)</source>
+        <translation>При подключении модулей необходимо указывать минорную версию (отсутствует число)</translation>
+    </message>
+    <message>
         <source>File import requires a qualifier</source>
         <translation>Импортирование файла требует квалификатор</translation>
     </message>
@@ -933,6 +953,10 @@
     <message>
         <source>Invalid grouped property access</source>
         <translation>Некорректный доступ к сгруппированному свойству</translation>
+    </message>
+    <message>
+        <source>Invalid grouped property access: Property &quot;%1&quot; with primitive type &quot;%2&quot;.</source>
+        <translation>Неверный доступ к групповому свойству: свойство «%1» примитивного типа «%2».</translation>
     </message>
     <message>
         <source>Invalid grouped property access: Property &quot;%1&quot; with type &quot;%2&quot;, which is not a value type</source>
@@ -1072,11 +1096,23 @@
     </message>
     <message>
         <source>Cannot assign object to list property &quot;%1&quot;</source>
-        <translation>Невозможно назначить объект свойству «%1» списка</translation>
+        <translation>Невозможно присвоить объект свойству «%1» списка</translation>
     </message>
     <message>
-        <source>Can not assign value of type &quot;%1&quot; to property &quot;%2&quot;, expecting an object</source>
+        <source>Cannot assign value of type &quot;%1&quot; to property &quot;%2&quot;, expecting &quot;%3&quot;</source>
+        <translation>Невозможно присвоить значение типа «%1» свойству «%2», требуется «%3»</translation>
+    </message>
+    <message>
+        <source>Cannot assign value of type &quot;%1&quot; to property &quot;%2&quot;, expecting an object</source>
         <translation>Невозможно присвоить значение типа «%1» свойству «%2», требуется объект</translation>
+    </message>
+    <message>
+        <source>Cannot assign to property of unknown type &quot;%1&quot;.</source>
+        <translation>Невозможно присвоить свойству неизвестного типа «%1».</translation>
+    </message>
+    <message>
+        <source>Unexpected object assignment for property &quot;%1&quot;</source>
+        <translation>Неожиданное присваивание объекта для свойства «%1»</translation>
     </message>
     <message>
         <source>Cannot assign object of type &quot;%1&quot; to property of type &quot;%2&quot; as the former is neither the same as the latter nor a sub-class of it.</source>
@@ -1487,6 +1523,10 @@
     <message>
         <source>PointerHandler is an abstract base class</source>
         <translation>PointerHandler — абстрактный базовый класс</translation>
+    </message>
+    <message>
+        <source>ImageBase is an abstract base class</source>
+        <translation>ImageBase ― это абстрактный класс</translation>
     </message>
 </context>
 <context>

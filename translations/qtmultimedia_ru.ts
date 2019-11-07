@@ -215,6 +215,10 @@
 <context>
     <name>QAndroidCameraSession</name>
     <message>
+        <source>Camera cannot be started without a viewfinder.</source>
+        <translation>Невозможно запустить камеру без видоискателя.</translation>
+    </message>
+    <message>
         <source>Camera not ready</source>
         <translation>Камера не готова</translation>
     </message>

@@ -653,6 +653,10 @@
         <translation>Невозможно запустить %1.</translation>
     </message>
     <message>
+        <source>Unable to launch %1: %2</source>
+        <translation>Невозможно запустить %1: %2</translation>
+    </message>
+    <message>
         <source>%1 timed out.</source>
         <translation>%1 время ожидания истекло.</translation>
     </message>
@@ -973,6 +977,14 @@
     <message>
         <source>ID-based</source>
         <translation>На основе ID</translation>
+    </message>
+    <message>
+        <source>Connections</source>
+        <translation>Соединения</translation>
+    </message>
+    <message>
+        <source>Connect slots by name</source>
+        <translation>Соединять слоты по имени</translation>
     </message>
 </context>
 <context>
@@ -1385,6 +1397,14 @@ This indicates an inconsistency in the ui-file.</source>
         <translation>CTRL+SHIFT+S</translation>
     </message>
     <message>
+        <source>View &amp;C++ Code...</source>
+        <translation>Показать код &amp;C++...</translation>
+    </message>
+    <message>
+        <source>View &amp;Python Code...</source>
+        <translation>Показать код &amp;Python...</translation>
+    </message>
+    <message>
         <source>CTRL+R</source>
         <translation>CTRL+R</translation>
     </message>
@@ -1477,8 +1497,18 @@ Do you want to update the file location or generate a new form?</source>
         <translation>Выбрать новый файл</translation>
     </message>
     <message>
+        <source>Save Form</source>
+        <translation>Сохранение формы</translation>
+    </message>
+    <message>
         <source>Could not write file</source>
         <translation>Невозможно записать файл</translation>
+    </message>
+    <message>
+        <source>It was not possible to write the file %1 to disk.
+Reason: %2</source>
+        <translation>Невозможно записать файл %1 на диск.
+Причина: %2</translation>
     </message>
     <message>
         <source>&amp;Close Preview</source>
@@ -3494,6 +3524,10 @@ Do you want overwrite the template?</source>
         <translation>Заголовочные файлы (*.%1)</translation>
     </message>
     <message>
+        <source>%1 - [%2 Code]</source>
+        <translation>%1 - [Код %2]</translation>
+    </message>
+    <message>
         <source>The file %1 could not be opened: %2</source>
         <translation>Не удалось открыть файл «%1»: %2</translation>
     </message>
@@ -5060,6 +5094,10 @@ Class: %2</source>
     <message>
         <source>Add Tool Bar</source>
         <translation>Добавить панель инструментов</translation>
+    </message>
+    <message>
+        <source>Add Tool Bar to Other Area</source>
+        <translation>Добавить панель в другую область</translation>
     </message>
     <message>
         <source>Create Status Bar</source>
