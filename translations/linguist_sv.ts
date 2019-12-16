@@ -119,6 +119,11 @@ Kommer att anta en enskild universell form.</translation>
         <translation>Kan inte skapa &quot;%2&quot;: %1</translation>
     </message>
     <message>
+        <source>%1 (%2)</source>
+        <extracomment>&lt;language&gt; (&lt;country&gt;)</extracomment>
+        <translation>%1 (%2)</translation>
+    </message>
+    <message>
         <source>Universal Form</source>
         <translation>Universell form</translation>
     </message>
@@ -208,20 +213,12 @@ Kommer att anta en enskild universell form.</translation>
         <translation>Alternativ</translation>
     </message>
     <message>
-        <source>Source texts are searched when checked.</source>
-        <translation>Källtexter genomsöks vid markering.</translation>
+        <source>Lets you use a Perl-compatible regular expression</source>
+        <translation>Låter dig använda en Perl-kompatibel regular expression</translation>
     </message>
     <message>
-        <source>&amp;Source texts</source>
-        <translation>&amp;Källtexter</translation>
-    </message>
-    <message>
-        <source>Translations are searched when checked.</source>
-        <translation>Översättningar genomsöks vid markering.</translation>
-    </message>
-    <message>
-        <source>&amp;Translations</source>
-        <translation>&amp;Översättningar</translation>
+        <source>Regular &amp;expression</source>
+        <translation>Regular &amp;expression</translation>
     </message>
     <message>
         <source>Texts such as &apos;TeX&apos; and &apos;tex&apos; are considered as different when checked.</source>
@@ -230,6 +227,22 @@ Kommer att anta en enskild universell form.</translation>
     <message>
         <source>&amp;Match case</source>
         <translation>Skiftl&amp;ägeskänslig</translation>
+    </message>
+    <message>
+        <source>Source texts are searched when checked.</source>
+        <translation>Källtexter genomsöks vid markering.</translation>
+    </message>
+    <message>
+        <source>&amp;Source texts</source>
+        <translation>&amp;Källtexter</translation>
+    </message>
+    <message>
+        <source>Obsoleted messages are skipped when checked.</source>
+        <translation>Föråldrade meddelanden undantas om markerad.</translation>
+    </message>
+    <message>
+        <source>Skip &amp;obsolete</source>
+        <translation>&amp;Undanta föråldrade</translation>
     </message>
     <message>
         <source>Comments and contexts are searched when checked.</source>
@@ -244,12 +257,12 @@ Kommer att anta en enskild universell form.</translation>
         <translation>Ignorera &amp;acceleratorer</translation>
     </message>
     <message>
-        <source>Obsoleted messages are skipped when checked.</source>
-        <translation>Föråldrade meddelanden undantas om markerad.</translation>
+        <source>Translations are searched when checked.</source>
+        <translation>Översättningar genomsöks vid markering.</translation>
     </message>
     <message>
-        <source>Skip &amp;obsolete</source>
-        <translation>&amp;Undanta föråldrade</translation>
+        <source>&amp;Translations</source>
+        <translation>&amp;Översättningar</translation>
     </message>
     <message>
         <source>Click here to find the next occurrence of the text you typed in.</source>
@@ -371,6 +384,10 @@ Kommer att anta en enskild universell form.</translation>
     <message>
         <source>&amp;Zoom</source>
         <translation>&amp;Zoom</translation>
+    </message>
+    <message>
+        <source>Guesses</source>
+        <translation>Gissningar</translation>
     </message>
     <message>
         <source>&amp;Help</source>
@@ -653,19 +670,19 @@ Kommer att anta en enskild universell form.</translation>
         <translation>Validering av acceleratorer</translation>
     </message>
     <message>
-        <source>Toggle the validity check of accelerators, i.e. whether the number of ampersands in the source and translation text is the same. If the check fails, a message is shown in the warnings window.</source>
+        <source>Toggles the validity check of accelerators, i.e. whether the number of ampersands in the source and translation text is the same. If the check fails, a message is shown in the warnings window.</source>
         <translation>Validering av acceleratorer, t.ex. om antalet et-tecken i käll- och översättningstexten är desamma. Om kontrollen misslyckas visas ett meddelande i varningsfönstret.</translation>
     </message>
     <message>
-        <source>Surrounding &amp;Whitespace.</source>
+        <source>Surrounding &amp;Whitespace</source>
         <translation>&amp;Omgivande blanksteg</translation>
     </message>
     <message>
-        <source>Toggle the validity check of surrounding whitespace.</source>
+        <source>Toggles the validity check of surrounding whitespace.</source>
         <translation>Validering av omgivande blanksteg.</translation>
     </message>
     <message>
-        <source>Toggle the validity check of surrounding whitespace. If the check fails, a message is shown in the warnings window.</source>
+        <source>Toggles the validity check of surrounding whitespace. If the check fails, a message is shown in the warnings window.</source>
         <translation>Validering av omgivande blanksteg. Om kontrollen misslyckas visas ett meddelande i varningsfönstret.</translation>
     </message>
     <message>
@@ -673,11 +690,11 @@ Kommer att anta en enskild universell form.</translation>
         <translation>A&amp;vslutande skiljetecken</translation>
     </message>
     <message>
-        <source>Toggle the validity check of ending punctuation</source>
+        <source>Toggles the validity check of ending punctuation</source>
         <translation>Validering av avslutande skiljetecken</translation>
     </message>
     <message>
-        <source>Toggle the validity check of ending punctuation. If the check fails, a message is shown in the warnings window.</source>
+        <source>Toggles the validity check of ending punctuation. If the check fails, a message is shown in the warnings window.</source>
         <translation>Validering av avslutande skiljetecken. Om kontrollen misslyckas visas ett meddelande i varningsfönstret.</translation>
     </message>
     <message>
@@ -685,11 +702,11 @@ Kommer att anta en enskild universell form.</translation>
         <translation>&amp;Frasmatchning</translation>
     </message>
     <message>
-        <source>Toggle checking that phrase suggestions are used</source>
+        <source>Toggles checking that phrase suggestions are used</source>
         <translation>Kontrollera om frasförslag används</translation>
     </message>
     <message>
-        <source>Toggle checking that phrase suggestions are used. If the check fails, a message is shown in the warnings window.</source>
+        <source>Toggles checking that phrase suggestions are used. If the check fails, a message is shown in the warnings window.</source>
         <translation>Kontrollera om frasförslag används. Om kontrollen misslyckas visas ett meddelande i varningsfönstret.</translation>
     </message>
     <message>
@@ -697,11 +714,11 @@ Kommer att anta en enskild universell form.</translation>
         <translation>&amp;Platsmarkörmatchning</translation>
     </message>
     <message>
-        <source>Toggle the validity check of place markers</source>
+        <source>Toggles the validity check of place markers</source>
         <translation>Validering av platsmarkörer</translation>
     </message>
     <message>
-        <source>Toggle the validity check of place markers, i.e. whether %1, %2, ... are used consistently in the source text and translation text. If the check fails, a message is shown in the warnings window.</source>
+        <source>Toggles the validity check of place markers, i.e. whether %1, %2, ... are used consistently in the source text and translation text. If the check fails, a message is shown in the warnings window.</source>
         <translation>Validering av platsmarkörer, t.ex. om %1, %2, o.s.v, används genomgående i källtext och översättningstext. Om kontrollen misslyckas, visas ett meddelande i varningsfönstret.</translation>
     </message>
     <message>
@@ -921,6 +938,38 @@ Kommer att anta en enskild universell form.</translation>
         <translation>Ctrl+0</translation>
     </message>
     <message>
+        <source>Show more</source>
+        <translation>Visa mer</translation>
+    </message>
+    <message>
+        <source>Alt++</source>
+        <translation>Alt++</translation>
+    </message>
+    <message>
+        <source>Show fewer</source>
+        <translation>Visa mindre</translation>
+    </message>
+    <message>
+        <source>Alt+-</source>
+        <translation>Alt+-</translation>
+    </message>
+    <message>
+        <source>Alt+0</source>
+        <translation>Alt+0</translation>
+    </message>
+    <message>
+        <source>D&amp;one</source>
+        <translation>Sl&amp;utför</translation>
+    </message>
+    <message>
+        <source>Mark item as done</source>
+        <translation>Markera objekt som slutfört</translation>
+    </message>
+    <message>
+        <source>Mark this item as done.</source>
+        <translation>Markera detta objekt som slutfört.</translation>
+    </message>
+    <message>
         <source></source>
         <comment>This is the application&apos;s main window.</comment>
         <translation></translation>
@@ -1136,8 +1185,8 @@ Alla filer (*)</translation>
         <translation>Version %1</translation>
     </message>
     <message>
-        <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</source>
-        <translation>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist är ett verktyg för att lägga till översättningar i Qt-program.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</translation>
+        <source>&lt;center&gt;&lt;img src=&quot;:/images/icons/linguist-128-32.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</source>
+        <translation>&lt;center&gt;&lt;img src=&quot;:/images/icons/linguist-128-32.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist är ett verktyg för att lägga till översättningar i Qt-program.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 Qt Company Ltd.</translation>
     </message>
     <message>
         <source>Do you want to save the modified files?</source>
@@ -1259,6 +1308,13 @@ Alla filer (*)</translation>
         <source>Do you want to save phrase book &apos;%1&apos;?</source>
         <translation>Vill du spara ordboken &quot;%1&quot;?</translation>
     </message>
+    <message numerus="yes">
+        <source>%n unfinished message(s) left.</source>
+        <translation>
+            <numerusform>%n oavslutat meddelande kvar.</numerusform>
+            <numerusform>%n oavslutade meddelanden kvar.</numerusform>
+        </translation>
+    </message>
     <message>
         <source>All</source>
         <translation>Alla</translation>
@@ -1270,30 +1326,6 @@ Alla filer (*)</translation>
         <source></source>
         <comment>This is the right panel of the main window.</comment>
         <translation></translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation>Ryska</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation>Tyska</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation>Japanska</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation>Franska</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation>Polska</translation>
-    </message>
-    <message>
-        <source>Chinese</source>
-        <translation>Kinesiska</translation>
     </message>
     <message>
         <source>This whole panel allows you to view and edit the translation of some source text.</source>
@@ -1328,20 +1360,20 @@ Alla filer (*)</translation>
         <translation>Här kan du kommentera för eget bruk. Dessa kommentarer påverkar inte det översatta programmet.</translation>
     </message>
     <message>
-        <source>%1 translation (%2)</source>
-        <translation>%1 översättning (%2)</translation>
+        <source>Translation to %1 (%2)</source>
+        <translation>Översättning till %1 (%2)</translation>
     </message>
     <message>
         <source>This is where you can enter or modify the translation of the above source text.</source>
         <translation>Här kan du mata in och ändra översättningen för ovanstående källtext.</translation>
     </message>
     <message>
-        <source>%1 translation</source>
-        <translation>%1 översättning</translation>
+        <source>Translation to %1</source>
+        <translation>Översättning till %1</translation>
     </message>
     <message>
-        <source>%1 translator comments</source>
-        <translation>%1 översättarkommentar</translation>
+        <source>Translator comments for %1</source>
+        <translation>Översättarkommentar för %1</translation>
     </message>
     <message>
         <source>&apos;%1&apos;
@@ -1367,6 +1399,13 @@ Rad: %2</translation>
     <message>
         <source>&lt;unnamed context&gt;</source>
         <translation>&lt;unnamed context&gt;</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n unfinished message(s) left.</source>
+        <translation>
+            <numerusform>%n oavslutat meddelande kvar.</numerusform>
+            <numerusform>%n oavslutade meddelanden kvar.</numerusform>
+        </translation>
     </message>
 </context>
 <context>
@@ -1494,12 +1533,16 @@ Rad: %2</translation>
         <translation>Redigera</translation>
     </message>
     <message>
-        <source>Guess (%1)</source>
-        <translation>Gissning (%1)</translation>
+        <source>Go to</source>
+        <translation>Gå till</translation>
     </message>
     <message>
-        <source>Guess</source>
-        <translation>Gissning</translation>
+        <source>Guess from &apos;%1&apos; (%2)</source>
+        <translation>Gissning från &quot;%1&quot; (%2)</translation>
+    </message>
+    <message>
+        <source>Guess from &apos;%1&apos;</source>
+        <translation>Gissning från &quot;%1&quot;</translation>
     </message>
 </context>
 <context>
@@ -1643,6 +1686,11 @@ Rad: %2</translation>
     <message>
         <source>Target language</source>
         <translation>Målspråk</translation>
+    </message>
+    <message>
+        <source>%1 (%2)</source>
+        <extracomment>&lt;english&gt; (&lt;endonym&gt;) (language and country names)</extracomment>
+        <translation>%1 (%2)</translation>
     </message>
     <message>
         <source>Settings for &apos;%1&apos; - Qt Linguist</source>
