@@ -1,0 +1,149 @@
+# special case skip regeneration
+
+add_custom_target(ts-all)
+
+set(repo_root_directory "${CMAKE_SOURCE_DIR}/..")
+set(en_ts_file_dir "${CMAKE_CURRENT_BINARY_DIR}/en_ts")
+
+function(add_ts_target target input_file output_file)
+    add_custom_target(${target}
+        BYPRODUCTS ${output_file}
+        COMMAND Qt::lupdate -no-ui-lines -no-sort "@${input_file}" -ts ${output_file}
+    )
+endfunction()
+
+function(add_ts_targets catalog)
+    cmake_parse_arguments(arg "" "" "DIRECTORIES" ${ARGN})
+
+    # Generate empty _en.ts file for the current catalog
+    if (NOT EXISTS "${en_ts_file_dir}/${catalog}_en.ts")
+        file(WRITE "${en_ts_file_dir}/${catalog}_en.ts" "<TS></TS>")
+    endif()
+
+    file(GLOB ts_files "${catalog}_*.ts")
+
+    set(languages)
+    foreach(file IN LISTS ts_files)
+        if(file MATCHES "([a-z][a-z](_[A-Z][A-Z])?).ts$")
+            list(APPEND languages ${CMAKE_MATCH_1})
+        endif()
+    endforeach()
+
+    set(file_list)
+    foreach(dir IN LISTS arg_DIRECTORIES)
+        set(dir_path "${repo_root_directory}/${dir}")
+        if (NOT IS_DIRECTORY ${dir_path})
+            message(WARNING "Directory '${dir_path}' for ${catalog} does not exist. Skipping...")
+            continue()
+        endif()
+        file(GLOB_RECURSE catalog_files "${dir_path}/**")
+        list(APPEND file_list ${catalog_files})
+    endforeach()
+    if (NOT file_list)
+        message(WARNING "No source files located for ${catalog}, skipping target creation")
+        return()
+    endif()
+
+    set(source_files_list_file "${CMAKE_CURRENT_BINARY_DIR}/${catalog}_file_list.txt")
+    set(inclusion_regex "\\.h$|\\.cpp$|\\.hpp$|\\.cxx$|\\.cc$")
+    file(GENERATE
+        OUTPUT "${source_files_list_file}"
+        CONTENT "$<JOIN:$<FILTER:${file_list},INCLUDE,${inclusion_regex}>,\n>"
+    )
+
+    add_custom_target(ts-${catalog}-all)
+    add_dependencies(ts-all ts-${catalog}-all)
+    foreach(lang IN LISTS languages)
+        set(lang_target_name ts-${catalog}-${lang})
+        add_ts_target(${lang_target_name}
+            ${source_files_list_file}
+            "${CMAKE_CURRENT_SOURCE_DIR}/${catalog}_${lang}.ts"
+        )
+        add_dependencies(ts-${catalog}-all ${lang_target_name})
+    endforeach()
+    add_ts_target(ts-${catalog}-untranslated
+        ${source_files_list_file}
+        "${CMAKE_CURRENT_SOURCE_DIR}/${catalog}_untranslated.ts"
+    )
+    add_dependencies(ts-${catalog}-all ts-${catalog}-untranslated)
+endfunction()
+
+# Create TS targets
+add_ts_targets(qtbase
+    DIRECTORIES
+        qtbase/src
+        qtactiveqt/src # just 4 strings from QAxSelect
+        qtimageformats/src # just 10 error messages from tga reader. uses bad context.
+)
+add_ts_targets(qtdeclarative DIRECTORIES qtdeclarative/src)
+add_ts_targets(qtquickcontrols DIRECTORIES qtquickcontrols/src)
+add_ts_targets(qtquickcontrols2 DIRECTORIES qtquickcontrols2/src)
+add_ts_targets(qtmultimedia DIRECTORIES qtmultimedia/src)
+add_ts_targets(qtquick1 DIRECTORIES qtquick1/src)
+add_ts_targets(qtscript DIRECTORIES qtscript/src)
+#add_ts_targets(qtsvg DIRECTORIES qtsvg/src) # empty
+add_ts_targets(qtxmlpatterns DIRECTORIES qtxmlpatterns/src)
+#add_ts_targets(qtwebkit DIRECTORIES qtwebkit) # messages from test browser only
+
+#add_ts_targets(qt3d DIRECTIORIES qt3d/src)  # empty except one dubious error message
+add_ts_targets(qtconnectivity DIRECTORIES qtconnectivity/src)
+#add_ts_targets(qtdocgallery DIRECTORIES qtdocgallery/src)  # dead module
+#add_ts_targets(qtfeedback DIRECTORIES qtfeedback/src)  # empty
+#add_ts_targets(qtjsondb DIRECTORIES qtjsondb/src)  # dead module, just 3 error messages
+add_ts_targets(qtlocation DIRECTORIES qtlocation/src)
+#add_ts_targets(qtpim DIRECTORIES qtpim/src)  # not released with qt
+#add_ts_targets(qtsensors DIRECTORIES qtsensors/src) # empty
+#add_ts_targets(qtsystems DIRECTORIES qtsystems/src)  # not released with qt
+add_ts_targets(qtwebsockets DIRECTORIES qtwebsockets/src)
+add_ts_targets(qtserialport DIRECTORIES qtserialport/src)
+add_ts_targets(qtwebengine DIRECTORIES qtwebengine/src)
+add_ts_targets(designer DIRECTORIES qttools/src/designer)
+add_ts_targets(linguist DIRECTORIES qttools/src/linguist/linguist)
+add_ts_targets(assistant DIRECTORIES qttools/src/assistant/assistant)  # add qcollectiongenerator here as well?
+add_ts_targets(qt_help DIRECTORIES qttools/src/assistant/help)
+add_ts_targets(qmlviewer DIRECTORIES qtquick1/tools/qml)
+#add_ts_targets(qmlscene DIRECTORIES qtdeclarative/tools/qmlscene)  # almost empty due to missing tr()
+
+# Create check target
+add_custom_target(check-ts
+    COMMAND perl check-ts.pl
+    WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+)
+add_dependencies(check-ts ts-all)
+
+# Update and install qm command
+add_custom_target(updateqm ALL)
+
+file(GLOB ts_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "*.ts")
+foreach(file IN LISTS ts_files)
+    string(REGEX REPLACE "\\.ts$" ".qm" qm_file ${file})
+    set(output_file "${CMAKE_CURRENT_BINARY_DIR}/qm/${qm_file}")
+    add_custom_target(updateqm-${file}
+        BYPRODUCTS ${output_file}
+        COMMAND Qt::lrelease "${CMAKE_CURRENT_SOURCE_DIR}/${file}" -qm "${output_file}"
+    )
+    qt_install(FILES ${output_file} DESTINATION translations)
+    add_dependencies(updateqm updateqm-${file})
+endforeach()
+
+file(GLOB ts_files RELATIVE ${en_ts_file_dir} "${en_ts_file_dir}/*.ts")
+foreach(file IN LISTS ts_files)
+    string(REGEX REPLACE "\\.ts$" ".qm" qm_file ${file})
+    set(output_file "${CMAKE_CURRENT_BINARY_DIR}/qm/${qm_file}")
+    add_custom_target(updateqm-${file}
+        BYPRODUCTS ${output_file}
+        COMMAND Qt::lrelease "${en_ts_file_dir}/${file}" -qm "${output_file}"
+    )
+    qt_install(FILES ${output_file} DESTINATION translations)
+    add_dependencies(updateqm updateqm-${file})
+endforeach()
+
+
+# Custom target to add modified ts files to git
+add_custom_target(stage-ts
+    COMMAND ${CMAKE_COMMAND} -DLCONVERT_BIN="$<TARGET_FILE:Qt::lconvert>" -P ${CMAKE_CURRENT_SOURCE_DIR}/git-stage-script.cmake
+    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+    COMMAND_EXPAND_LISTS
+)
+
+
