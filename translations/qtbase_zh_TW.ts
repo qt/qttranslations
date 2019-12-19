@@ -6055,7 +6055,7 @@ Please turn one of those options off.</source>
     <message>
         <source>grip</source>
         <extracomment>Role of an accessible object - the grip is usually used for resizing another object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>底框</translation>
     </message>
     <message>
         <source>sound</source>
@@ -6070,29 +6070,29 @@ Please turn one of those options off.</source>
     <message>
         <source>text caret</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>文字插入點</translation>
     </message>
     <message>
         <source>alert message</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>提醒訊息</translation>
+        <translation>警告訊息</translation>
     </message>
     <message>
         <source>frame</source>
         <extracomment>Role of an accessible object: a window with frame and title
 ----------
 Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>外框</translation>
     </message>
     <message>
         <source>filler</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>填充器</translation>
+        <translation>過濾器</translation>
     </message>
     <message>
         <source>popup menu</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>彈出視窗</translation>
+        <translation>彈出式選單</translation>
     </message>
     <message>
         <source>menu item</source>
@@ -6152,22 +6152,22 @@ Role of an accessible object</extracomment>
     <message>
         <source>column header</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>欄開頭</translation>
+        <translation>直欄標頭</translation>
     </message>
     <message>
         <source>row header</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>行開頭</translation>
+        <translation>橫列標頭</translation>
     </message>
     <message>
         <source>column</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>欄</translation>
+        <translation>直欄</translation>
     </message>
     <message>
         <source>row</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>行</translation>
+        <translation>橫列</translation>
     </message>
     <message>
         <source>cell</source>
@@ -6182,22 +6182,22 @@ Role of an accessible object</extracomment>
     <message>
         <source>help balloon</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>說明提示框</translation>
     </message>
     <message>
         <source>assistant</source>
         <extracomment>Role of an accessible object - a helper dialog</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>助手</translation>
     </message>
     <message>
         <source>list</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>清單</translation>
+        <translation>列表</translation>
     </message>
     <message>
         <source>list item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>清單項目</translation>
+        <translation>列表項目</translation>
     </message>
     <message>
         <source>tree</source>
@@ -6212,7 +6212,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>page tab</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>頁面分頁</translation>
     </message>
     <message>
         <source>property page</source>
@@ -6227,7 +6227,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>graphic</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>圖示</translation>
+        <translation>圖形</translation>
     </message>
     <message>
         <source>label</source>
@@ -6262,7 +6262,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>progress bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>狀態列</translation>
+        <translation>進度列</translation>
     </message>
     <message>
         <source>dial</source>
@@ -6277,12 +6277,12 @@ Role of an accessible object</extracomment>
     <message>
         <source>slider</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>滑桿</translation>
     </message>
     <message>
         <source>spin box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>微調方塊</translation>
     </message>
     <message>
         <source>canvas</source>
@@ -6302,7 +6302,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>button with drop down</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>可下拉按鈕</translation>
     </message>
     <message>
         <source>button menu</source>
@@ -6312,7 +6312,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>button with drop down grid</source>
         <extracomment>Role of an accessible object - a button that expands a grid.</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>包含下拉網格的按鈕</translation>
     </message>
     <message>
         <source>space</source>
@@ -6322,7 +6322,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>page tab list</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>頁面分頁列表</translation>
     </message>
     <message>
         <source>clock</source>
@@ -6337,12 +6337,12 @@ Role of an accessible object</extracomment>
     <message>
         <source>layered pane</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>分層窗格</translation>
     </message>
     <message>
         <source>web document</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>網路文件</translation>
+        <translation>網頁文件</translation>
     </message>
     <message>
         <source>paragraph</source>
@@ -6357,7 +6357,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>color chooser</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>顏色選取器</translation>
+        <translation>顏色選擇器</translation>
     </message>
     <message>
         <source>footer</source>
@@ -6387,7 +6387,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>terminal</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>終端器</translation>
+        <translation>終端機</translation>
     </message>
     <message>
         <source>desktop</source>

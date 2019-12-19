@@ -826,6 +826,22 @@ Reason:
     </message>
     <message>
         <source>Invalid Component</source>
+        <translation>無效元件</translation>
+    </message>
+    <message>
+        <source>No Version</source>
+        <translation>沒有版本</translation>
+    </message>
+    <message>
+        <source>Invalid Version</source>
+        <translation>無效版本</translation>
+    </message>
+    <message>
+        <source>No Component</source>
+        <translation>沒有元件</translation>
+    </message>
+    <message>
+        <source>Invalid Component</source>
         <translation>元件無效</translation>
     </message>
     <message>
@@ -1010,6 +1026,10 @@ Reason:
     <message>
         <source>Attributes:</source>
         <translation>屬性：</translation>
+    </message>
+    <message>
+        <source>Versions:</source>
+        <translation>版本：</translation>
     </message>
     <message>
         <source>1</source>

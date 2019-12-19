@@ -860,8 +860,8 @@
         <translation>Виды типов элементов %1 должны быть или атомарными, или объединениями.</translation>
     </message>
     <message>
-        <source>Variety of member types of %1 must be atomic.</source>
-        <translation>Виды внутренних типов %1 должны быть атомарными.</translation>
+        <source>Variety of member types of %1 must be atomic or union.</source>
+        <translation>Виды внутренних типов %1 должны быть атомарными или объединениями.</translation>
     </message>
     <message>
         <source>%1 is not allowed to derive from %2 by list as the latter defines it as final.</source>

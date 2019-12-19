@@ -23,6 +23,10 @@
         <source>&lt;img src=&quot;:/qt-project.org/shared/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
         <translation>&lt;img src=&quot;:/qt-project.org/shared/images/wrap.png&quot;&gt;&amp;nbsp;Поиск с начала</translation>
     </message>
+    <message>
+        <source>&amp;Find in Text...</source>
+        <translation>&amp;Найти в тексте...</translation>
+    </message>
 </context>
 <context>
     <name>AbstractItemEditor</name>
@@ -3259,6 +3263,10 @@ Do you want overwrite the template?</source>
 <context>
     <name>WidgetDataBase</name>
     <message>
+        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
+        <translation>Обнаружен пользовательский модуль виджета, имя класса которого (%1) совпадает с уже имеющимся.</translation>
+    </message>
+    <message>
         <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
         <translation>Файл содержит пользовательский виджет «%1», базовый класс (%2) которого отличается от текущей записи в базе виджетов (%3). База виджетов оставлена без изменений.</translation>
     </message>
@@ -3464,10 +3472,6 @@ Do you want overwrite the template?</source>
     <message>
         <source>Copy All</source>
         <translation>Копировать всё</translation>
-    </message>
-    <message>
-        <source>&amp;Find in Text...</source>
-        <translation>&amp;Найти в тексте...</translation>
     </message>
     <message>
         <source>A temporary form file could not be created in %1.</source>
@@ -4531,12 +4535,12 @@ Please select another name.</source>
 <context>
     <name>qdesigner_internal::ObjectInspector</name>
     <message>
-        <source>Change Current Page</source>
-        <translation>Смена текущей страницы</translation>
+        <source>Filter</source>
+        <translation>Фильтр</translation>
     </message>
     <message>
-        <source>&amp;Find in Text...</source>
-        <translation>&amp;Найти в тексте...</translation>
+        <source>Change Current Page</source>
+        <translation>Смена текущей страницы</translation>
     </message>
 </context>
 <context>
@@ -5697,13 +5701,6 @@ Class: %2</source>
     <message>
         <source>Edit name</source>
         <translation>Изменить имя</translation>
-    </message>
-</context>
-<context>
-    <name>qdesigner_internal::WidgetDataBase</name>
-    <message>
-        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
-        <translation>Обнаружен пользовательский модуль виджета, имя класса которого (%1) совпадает с уже имеющимся.</translation>
     </message>
 </context>
 <context>
