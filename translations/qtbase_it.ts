@@ -689,7 +689,7 @@ Premi ESC per annullare</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation type="vanished">Tralascia</translation>
+        <translation type="vanished">Non salvare</translation>
     </message>
     <message>
         <source>&amp;Yes</source>
@@ -3518,7 +3518,7 @@ Vuoi eliminarlo comunque?</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>Tralascia</translation>
+        <translation>Non salvare</translation>
     </message>
     <message>
         <source>Help</source>
