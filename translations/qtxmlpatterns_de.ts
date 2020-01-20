@@ -2,6 +2,31 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="de_DE">
 <context>
+    <name>QQuickXmlListModel</name>
+    <message>
+        <source>&quot;%1&quot; duplicates a previous role name and will be disabled.</source>
+        <translation>&quot;%1&quot; ist bereits als Name einer Rolle vergeben und wird daher deaktiviert.</translation>
+    </message>
+    <message>
+        <source>invalid query: &quot;%1&quot;</source>
+        <translation>Ungültige Abfrage: &quot;%1&quot;</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickXmlListModelRole</name>
+    <message>
+        <source>An XmlRole query must not start with &apos;/&apos;</source>
+        <translation>Eine XmlRole-Abfrage darf nicht mit &apos;/&apos; beginnen</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickXmlRoleList</name>
+    <message>
+        <source>An XmlListModel query must start with &apos;/&apos; or &quot;//&quot;</source>
+        <translation>Eine XmlListModel-Abfrage muss mit &apos;/&apos; oder &quot;//&quot; beginnen</translation>
+    </message>
+</context>
+<context>
     <name>QXmlPatternistCLI</name>
     <message>
         <source>Warning in %1, at line %2, column %3: %4</source>
@@ -833,8 +858,8 @@
         <translation>Die Varietät der Typen von %1 muss entweder atomar oder eine Vereinigung sein.</translation>
     </message>
     <message>
-        <source>Variety of member types of %1 must be atomic.</source>
-        <translation>Die Varietät der Typen von %1 muss atomar sein.</translation>
+        <source>Variety of member types of %1 must be atomic or union.</source>
+        <translation>Die Varietät der Typen von %1 muss atomar oder union sein.</translation>
     </message>
     <message>
         <source>%1 is not allowed to derive from %2 by list as the latter defines it as final.</source>

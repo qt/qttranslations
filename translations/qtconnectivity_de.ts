@@ -1228,10 +1228,6 @@
         <translation>Unbekannter Socket-Fehler</translation>
     </message>
     <message>
-        <source>Connecting to port is not supported</source>
-        <translation>Verbindungsaufbau mittels eines Ports wird nicht unterstützt</translation>
-    </message>
-    <message>
         <source>Service cannot be found</source>
         <translation>Dienst konnte nicht gefunden werden</translation>
     </message>
@@ -1322,6 +1318,60 @@
         <source>Host refused connection</source>
         <translation>Der Zielrechner hat die Verbindung verweigert</translation>
     </message>
+    <message>
+        <source>Cannot export profile on DBus</source>
+        <translation>Auf DBus kann kein Profil exportiert werden</translation>
+    </message>
+    <message>
+        <source>Cannot register profile on DBus</source>
+        <translation>Auf DBus kann kein Profil registriert werden</translation>
+    </message>
+    <message>
+        <source>Cannot find remote device</source>
+        <translation>Gegenseite konnte nicht gefunden werden</translation>
+    </message>
+    <message>
+        <source>Cannot connect to remote profile</source>
+        <translation>Es kann nicht zum Profil der Gegenseite verbunden werden</translation>
+    </message>
+    <message>
+        <source>Missing serviceUuid or Serial Port service class uuid</source>
+        <translation>Es fehlt die serviceUuid oder die UUID der Serial-Port-Dienstklasse</translation>
+    </message>
+    <message>
+        <source>Invalid Bluetooth address passed to connectToService()</source>
+        <translation>Es wurde eine ungültige Bluetooth-Adresse an connectToService() übergeben</translation>
+    </message>
+    <message>
+        <source>Unsupported protocol. Win32 only supports RFCOMM sockets</source>
+        <translation>Das Protokoll wird nicht unterstützt. Win32 unterstützt lediglich RFCOMM-Sockets</translation>
+    </message>
+    <message>
+        <source>Failed to create socket</source>
+        <translation>Es konnte kein Socket erzeugt werden</translation>
+    </message>
+    <message>
+        <source>Socket type not handled: %1</source>
+        <translation>Sockettyp nicht unterstützt: %1</translation>
+    </message>
+    <message>
+        <source>Logic error: more bytes sent than passed to ::send</source>
+        <translation>Logischer Fehler: Es wurden mehr Bytes versandt als an ::send übergeben</translation>
+    </message>
+</context>
+<context>
+    <name>QBluetoothSocketPrivateAndroid</name>
+    <message>
+        <source>Connecting to port is not supported</source>
+        <translation>Verbindungsaufbau zu einem Port wird nicht unterstützt</translation>
+    </message>
+</context>
+<context>
+    <name>QBluetoothSocketPrivateBluezDBus</name>
+    <message>
+        <source>Connecting to port is not supported via Bluez DBus</source>
+        <translation>Verbindungsaufbau zu einem Port über Bluez DBus wird nicht unterstützt</translation>
+    </message>
 </context>
 <context>
     <name>QBluetoothTransferReply</name>
@@ -1406,6 +1456,10 @@
     <message>
         <source>Error occurred trying to connect to remote device.</source>
         <translation>Beim Aufbau der Verbindung zum Gerät trat ein Fehler auf.</translation>
+    </message>
+    <message>
+        <source>Failed to authorize on the remote device</source>
+        <translation>Fehler bei Autorisierung auf dem Gerät</translation>
     </message>
     <message>
         <source>Error occurred trying to start advertising</source>

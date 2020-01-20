@@ -4,18 +4,6 @@
 <context>
     <name>Object</name>
     <message>
-        <source>Duplicate method name</source>
-        <translation>Дублирование имени метода</translation>
-    </message>
-    <message>
-        <source>Method names cannot begin with an upper case letter</source>
-        <translation>Имена методов не могут начинаться с заглавной буквы</translation>
-    </message>
-    <message>
-        <source>Illegal method name</source>
-        <translation>Недопустимое имя метода</translation>
-    </message>
-    <message>
         <source>Duplicate scoped enum name</source>
         <translation>Дублирование имени перечисления</translation>
     </message>
@@ -53,6 +41,13 @@
     <message>
         <source>InputMethod is an abstract class</source>
         <translation>InputMethod ― это абстрактный класс</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlAbstractDelegateComponent</name>
+    <message>
+        <source>Cannot create instance of abstract class AbstractDelegateComponent.</source>
+        <translation>Нельзя создавать экземпляры абстрактного класса AbstractDelegateComponent.</translation>
     </message>
 </context>
 <context>
@@ -149,6 +144,18 @@
         <translation>Некорректная спецификация идентификатора компонента</translation>
     </message>
     <message>
+        <source>Duplicate method name</source>
+        <translation>Дублирование имени метода</translation>
+    </message>
+    <message>
+        <source>Method names cannot begin with an upper case letter</source>
+        <translation>Имена методов не могут начинаться с заглавной буквы</translation>
+    </message>
+    <message>
+        <source>Illegal method name</source>
+        <translation>Недопустимое имя метода</translation>
+    </message>
+    <message>
         <source>Invalid empty ID</source>
         <translation>Пустой идентификатор недопустим</translation>
     </message>
@@ -188,8 +195,8 @@
         <translation>createObject: значение не является объектом</translation>
     </message>
     <message>
-        <source>Object destroyed during incubation</source>
-        <translation>Объект уничтожен во время инкубации</translation>
+        <source>Object or context destroyed during incubation</source>
+        <translation>Объект или контекст уничтожен во время инкубации</translation>
     </message>
 </context>
 <context>
@@ -209,6 +216,14 @@
     <message>
         <source>Connections: script expected</source>
         <translation>Подключения: ожидается сценарий</translation>
+    </message>
+    <message>
+        <source>Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(&lt;arguments&gt;) { ... }</source>
+        <translation>Явное определение свойств onFoo в Connections устарело. Используйте следующую форму: function onFoo(&lt;параметры&gt;) { ... }</translation>
+    </message>
+    <message>
+        <source>Detected function &quot;%1&quot; in Connections element. This is probably intended to be a signal handler but no signal of the target matches the name.</source>
+        <translation>Функция «%1» устарела в элементе Connections. Вероятно, он предназначен для обработки сигналов, но ни один из сигналов цели не соответствует имени.</translation>
     </message>
 </context>
 <context>
@@ -293,6 +308,10 @@
     <message>
         <source>The group of a DelegateModel cannot be changed within onChanged</source>
         <translation>Нельзя менять группу DelegateModel внутри onChanged</translation>
+    </message>
+    <message>
+        <source>The delegates of a DelegateModel cannot be changed within onUpdated.</source>
+        <translation>Делегаты DelegateModel нельзя менять внутри onUpdated.</translation>
     </message>
 </context>
 <context>
@@ -398,6 +417,10 @@
     <name>QQmlEngine</name>
     <message>
         <source>Locale cannot be instantiated.  Use Qt.locale()</source>
+        <translation>Нельзя создать локаль. Используйте Qt.locale()</translation>
+    </message>
+    <message>
+        <source>Locale cannot be instantiated. Use Qt.locale()</source>
         <translation>Нельзя создать локаль. Используйте Qt.locale()</translation>
     </message>
     <message>
@@ -691,6 +714,10 @@
         <translation>Некорректный флаг «%0» в регулярном выражении</translation>
     </message>
     <message>
+        <source>Unexpected token &apos;.&apos;</source>
+        <translation>Неожиданный символ «.»</translation>
+    </message>
+    <message>
         <source>Stray newline in string literal</source>
         <translation>Ненужный перевод строки в строковом литерале</translation>
     </message>
@@ -705,6 +732,14 @@
     <message>
         <source>Octal escape sequences are not allowed</source>
         <translation>Восьмеричные esc-последовательности недопустимы</translation>
+    </message>
+    <message>
+        <source>At least one octal digit is required after &apos;0%1&apos;</source>
+        <translation>Необходима минимум одна восьмеричная цифра после «0%1»</translation>
+    </message>
+    <message>
+        <source>At least one binary digit is required after &apos;0%1&apos;</source>
+        <translation>Необходима минимум одна двоичная цифра после «0%1»</translation>
     </message>
     <message>
         <source>Decimal numbers can&apos;t start with &apos;0&apos;</source>
@@ -725,14 +760,6 @@
     <message>
         <source>Syntax error</source>
         <translation>Синтаксическая ошибка</translation>
-    </message>
-    <message>
-        <source>Unexpected token `%1&apos;</source>
-        <translation>Неожиданный символ «%1»</translation>
-    </message>
-    <message>
-        <source>Expected token `%1&apos;</source>
-        <translation>Ожидается символ «%1»</translation>
     </message>
     <message>
         <source>Unexpected object definition</source>
@@ -789,6 +816,14 @@
     <message>
         <source>Imported file must be a script</source>
         <translation>Импортируемый файл должен быть сценарием</translation>
+    </message>
+    <message>
+        <source>Module import requires a minor version (missing dot)</source>
+        <translation>При подключении модулей необходимо указывать минорную версию (отсутствует точка)</translation>
+    </message>
+    <message>
+        <source>Module import requires a minor version (missing number)</source>
+        <translation>При подключении модулей необходимо указывать минорную версию (отсутствует число)</translation>
     </message>
     <message>
         <source>File import requires a qualifier</source>
@@ -861,6 +896,10 @@
         <translation>Некорректный тип свойства</translation>
     </message>
     <message>
+        <source>Cyclic alias</source>
+        <translation>Зацикленный псевдоним</translation>
+    </message>
+    <message>
         <source>Invalid alias target</source>
         <translation>Неверная цель псевдонима</translation>
     </message>
@@ -916,6 +955,14 @@
         <translation>Некорректный доступ к сгруппированному свойству</translation>
     </message>
     <message>
+        <source>Invalid grouped property access: Property &quot;%1&quot; with primitive type &quot;%2&quot;.</source>
+        <translation>Неверный доступ к групповому свойству: свойство «%1» примитивного типа «%2».</translation>
+    </message>
+    <message>
+        <source>Invalid grouped property access: Property &quot;%1&quot; with type &quot;%2&quot;, which is not a value type</source>
+        <translation>Неверный доступ к групповому свойству: свойство «%1» типа «%2», не являющегося значением</translation>
+    </message>
+    <message>
         <source>Cannot assign to non-existent default property</source>
         <translation>Невозможно назначить несуществующему свойству по умолчанию</translation>
     </message>
@@ -934,6 +981,10 @@
     <message>
         <source>Invalid property assignment: unknown enumeration</source>
         <translation>Некорректное присваивание свойства: неизвестное перечисление</translation>
+    </message>
+    <message>
+        <source> - Assigning null to incompatible properties in QML is deprecated. This will become a compile error in future versions of Qt.</source>
+        <translation> - Присваивание null несовместимым свойствам в QML устарело. Оно станет ошибкой компиляции в будущих версиях Qt.</translation>
     </message>
     <message>
         <source>Invalid property assignment: string expected</source>
@@ -1045,19 +1096,31 @@
     </message>
     <message>
         <source>Cannot assign object to list property &quot;%1&quot;</source>
-        <translation>Невозможно назначить объект свойству «%1» списка</translation>
+        <translation>Невозможно присвоить объект свойству «%1» списка</translation>
     </message>
     <message>
-        <source>Unexpected object assignment</source>
-        <translation>Неожиданное назначение объекта</translation>
+        <source>Cannot assign value of type &quot;%1&quot; to property &quot;%2&quot;, expecting &quot;%3&quot;</source>
+        <translation>Невозможно присвоить значение типа «%1» свойству «%2», требуется «%3»</translation>
+    </message>
+    <message>
+        <source>Cannot assign value of type &quot;%1&quot; to property &quot;%2&quot;, expecting an object</source>
+        <translation>Невозможно присвоить значение типа «%1» свойству «%2», требуется объект</translation>
+    </message>
+    <message>
+        <source>Cannot assign to property of unknown type &quot;%1&quot;.</source>
+        <translation>Невозможно присвоить свойству неизвестного типа «%1».</translation>
+    </message>
+    <message>
+        <source>Unexpected object assignment for property &quot;%1&quot;</source>
+        <translation>Неожиданное присваивание объекта для свойства «%1»</translation>
+    </message>
+    <message>
+        <source>Cannot assign object of type &quot;%1&quot; to property of type &quot;%2&quot; as the former is neither the same as the latter nor a sub-class of it.</source>
+        <translation>Нельзя назначить объект типа «%1» свойству типа «%2», так как тип первого не совпадает со вторым и не является его производным.</translation>
     </message>
     <message>
         <source>Invalid property assignment: script expected</source>
         <translation>Некорректное присваивание свойства: ожидается сценарий</translation>
-    </message>
-    <message>
-        <source>Cannot assign object to property</source>
-        <translation>Невозможно назначить объект свойству</translation>
     </message>
 </context>
 <context>
@@ -1438,6 +1501,14 @@
         <translation>PointerEvent доступен только, как параметр ряда сигналов PointerHandler</translation>
     </message>
     <message>
+        <source>PointerMouseEvent is only available as a parameter of several signals in PointerHandler</source>
+        <translation>PointerMouseEvent доступен только как параметр нескольких сигналов в PointerHandler</translation>
+    </message>
+    <message>
+        <source>PointerTouchEvent is only available as a parameter of several signals in PointerHandler</source>
+        <translation>PointerTouchEvent доступен только как параметр нескольких сигналов в PointerHandler</translation>
+    </message>
+    <message>
         <source>EventPoint is only available as a member of PointerEvent</source>
         <translation>EventPoint доступен только, как член PointerEvent</translation>
     </message>
@@ -1450,12 +1521,12 @@
         <translation>PointerDevice доступен только, как свойство PointerEvent</translation>
     </message>
     <message>
-        <source>PointingDeviceUniqueId is only available as a property of PointerEvent</source>
-        <translation>PointingDeviceUniqueId доступен только, как свойство PointerEvent</translation>
-    </message>
-    <message>
         <source>PointerHandler is an abstract base class</source>
         <translation>PointerHandler — абстрактный базовый класс</translation>
+    </message>
+    <message>
+        <source>ImageBase is an abstract base class</source>
+        <translation>ImageBase ― это абстрактный класс</translation>
     </message>
 </context>
 <context>
@@ -1554,31 +1625,6 @@ Install a driver providing OpenGL 2.0 or higher, or, if this is not possible, ma
     <message>
         <source>Conflicting properties &apos;visible&apos; and &apos;visibility&apos;</source>
         <translation>Свойства «visible» и «visibility» конфликтуют</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickXmlListModel</name>
-    <message>
-        <source>&quot;%1&quot; duplicates a previous role name and will be disabled.</source>
-        <translation>«%1» повторяет имя предыдущей роли и будет отключено.</translation>
-    </message>
-    <message>
-        <source>invalid query: &quot;%1&quot;</source>
-        <translation>Некорректный запрос: «%1»</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickXmlListModelRole</name>
-    <message>
-        <source>An XmlRole query must not start with &apos;/&apos;</source>
-        <translation>Запрос XmlRole не должен начинаться с «/»</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickXmlRoleList</name>
-    <message>
-        <source>An XmlListModel query must start with &apos;/&apos; or &quot;//&quot;</source>
-        <translation>Запрос XmlListModel должен начинаться с «/» или «//»</translation>
     </message>
 </context>
 <context>
