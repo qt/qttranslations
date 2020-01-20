@@ -11,6 +11,13 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     </message>
 </context>
 <context>
+    <name>PlaceSearchReplyEsri</name>
+    <message>
+        <source>Response parse error</source>
+        <translation>Ошибка разбора ответа</translation>
+    </message>
+</context>
+<context>
     <name>QDeclarativeGeoMap</name>
     <message>
         <source>No Map</source>
@@ -64,6 +71,17 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     </message>
 </context>
 <context>
+    <name>QDeclarativeNavigator</name>
+    <message>
+        <source>Plugin does not support navigation.</source>
+        <translation>Модуль не поддерживает навигацию.</translation>
+    </message>
+    <message>
+        <source>Failed to create a navigator object.</source>
+        <translation>Не удалось создать объект navigator.</translation>
+    </message>
+</context>
+<context>
     <name>QGeoCodeReplyMapbox</name>
     <message>
         <source>Response parse error</source>
@@ -86,6 +104,18 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
 </context>
 <context>
     <name>QGeoMappingManagerEngineMapboxGL</name>
+    <message>
+        <source>China Streets</source>
+        <translation>Китайские улицы</translation>
+    </message>
+    <message>
+        <source>China Light</source>
+        <translation>Китайский светлый</translation>
+    </message>
+    <message>
+        <source>China Dark</source>
+        <translation>Китайский тёмный</translation>
+    </message>
     <message>
         <source>Streets</source>
         <translation>Схема</translation>

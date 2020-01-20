@@ -120,6 +120,7 @@ Es wird mit einer einfachen Universalform gearbeitet.</translation>
     </message>
     <message>
         <source>%1 (%2)</source>
+        <extracomment>&lt;language&gt; (&lt;country&gt;)</extracomment>
         <translation>%1 (%2)</translation>
     </message>
     <message>
@@ -275,6 +276,14 @@ Es wird mit einer einfachen Universalform gearbeitet.</translation>
     <message>
         <source>Skip &amp;obsolete</source>
         <translation>&apos;&amp;obsolet&apos; überspringen</translation>
+    </message>
+    <message>
+        <source>Lets you use a Perl-compatible regular expression</source>
+        <translation>Ermöglicht die Verwendung eines Perl-kompatiblen regulären Ausdrucks</translation>
+    </message>
+    <message>
+        <source>Regular &amp;expression</source>
+        <translation>&amp;Regulärer Ausdruck</translation>
     </message>
 </context>
 <context>
@@ -750,7 +759,7 @@ Es wird mit einer einfachen Universalform gearbeitet.</translation>
     </message>
     <message>
         <source>Batch translate all entries using the information in the phrase books.</source>
-        <translation>Alle Einträge automatisch mit Hilfe des Wörterbuchs übersetzen.</translation>
+        <translation>Alle Einträge automatisch mithilfe des Wörterbuchs übersetzen.</translation>
     </message>
     <message>
         <source>Release As...</source>
@@ -976,8 +985,12 @@ Alle Dateien (*)</translation>
         <translation>Version %1</translation>
     </message>
     <message>
-        <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</source>
-        <translation>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</translation>
+        <source>Qt Linguist is a tool for adding translations to Qt applications.</source>
+        <translation>Qt Linguist ist ein Werkzeug zum Hinzufügen von Übersetzungen zu Qt-Anwendungen</translation>
+    </message>
+    <message>
+        <source>Copyright (C) %1 The Qt Company Ltd.</source>
+        <translation>Copyright (C) %1 The Qt Company Ltd.</translation>
     </message>
     <message>
         <source>Do you want to save the modified files?</source>
@@ -1114,6 +1127,13 @@ Alle Dateien (*)</translation>
     <message>
         <source>Do you want to save phrase book &apos;%1&apos;?</source>
         <translation>Möchten Sie das Wörterbuch &apos;%1&apos; speichern?</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n unfinished message(s) left.</source>
+        <translation>
+            <numerusform>Es ist noch eine unerledigte Nachricht vorhanden.</numerusform>
+            <numerusform>Es sind noch %n unerledigte Nachrichten vorhanden.</numerusform>
+        </translation>
     </message>
     <message>
         <source>All</source>
@@ -1267,6 +1287,42 @@ Alle Dateien (*)</translation>
         <source>Toggles visualize whitespace in editors</source>
         <translation>Schaltet die Darstellung der Leerzeichen in den Editoren um</translation>
     </message>
+    <message>
+        <source>Guesses</source>
+        <translation>Vorschläge</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Mehr anzeigen</translation>
+    </message>
+    <message>
+        <source>Alt++</source>
+        <translation>Alt++</translation>
+    </message>
+    <message>
+        <source>Show fewer</source>
+        <translation>Weniger anzeigen</translation>
+    </message>
+    <message>
+        <source>Alt+-</source>
+        <translation>Alt+-</translation>
+    </message>
+    <message>
+        <source>Alt+0</source>
+        <translation>Alt+0</translation>
+    </message>
+    <message>
+        <source>D&amp;one</source>
+        <translation>&amp;Fertig</translation>
+    </message>
+    <message>
+        <source>Mark item as done</source>
+        <translation>Eintrag als erledigt markieren</translation>
+    </message>
+    <message>
+        <source>Mark this item as done.</source>
+        <translation>Diesen Eintrag als erledigt markieren.</translation>
+    </message>
 </context>
 <context>
     <name>MessageEditor</name>
@@ -1347,6 +1403,13 @@ Zeile: %2</translation>
     <message>
         <source>&lt;unnamed context&gt;</source>
         <translation>&lt;unbenannter Kontext&gt;</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n unfinished message(s) left.</source>
+        <translation>
+            <numerusform>Es ist noch eine unerledigte Nachricht vorhanden.</numerusform>
+            <numerusform>Es sind noch %n unerledigte Nachrichten vorhanden.</numerusform>
+        </translation>
     </message>
 </context>
 <context>
@@ -1482,12 +1545,16 @@ Zeile: %2</translation>
         <translation>Bearbeiten</translation>
     </message>
     <message>
-        <source>Guess (%1)</source>
-        <translation>Vorschlag (%1)</translation>
+        <source>Go to</source>
+        <translation>Gehe zu</translation>
     </message>
     <message>
-        <source>Guess</source>
-        <translation>Vorschlag</translation>
+        <source>Guess from &apos;%1&apos; (%2)</source>
+        <translation>Vorschlag &apos;%1&apos; (%2)</translation>
+    </message>
+    <message>
+        <source>Guess from &apos;%1&apos;</source>
+        <translation>Vorschlag &apos;%1&apos;</translation>
     </message>
 </context>
 <context>
