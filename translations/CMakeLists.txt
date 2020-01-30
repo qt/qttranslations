@@ -122,7 +122,7 @@ foreach(file IN LISTS ts_files)
         BYPRODUCTS ${output_file}
         COMMAND Qt::lrelease "${CMAKE_CURRENT_SOURCE_DIR}/${file}" -qm "${output_file}"
     )
-    qt_install(FILES ${output_file} DESTINATION translations)
+    qt_install(FILES ${output_file} DESTINATION "${INSTALL_TRANSLATIONSDIR}")
     add_dependencies(updateqm updateqm-${file})
 endforeach()
 
@@ -134,7 +134,7 @@ foreach(file IN LISTS ts_files)
         BYPRODUCTS ${output_file}
         COMMAND Qt::lrelease "${en_ts_file_dir}/${file}" -qm "${output_file}"
     )
-    qt_install(FILES ${output_file} DESTINATION translations)
+    qt_install(FILES ${output_file} DESTINATION "${INSTALL_TRANSLATIONSDIR}")
     add_dependencies(updateqm updateqm-${file})
 endforeach()
 
