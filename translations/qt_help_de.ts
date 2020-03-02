@@ -137,25 +137,6 @@
         <translation>Löschen</translation>
     </message>
     <message>
-        <source>No Component</source>
-        <translation>Keine Komponente</translation>
-    </message>
-    <message>
-        <source>Invalid Component</source>
-        <translation>Ungültige Komponente</translation>
-    </message>
-    <message>
-        <source>No Version</source>
-        <translation>Keine Version</translation>
-    </message>
-    <message>
-        <source>Invalid Version</source>
-        <translation>Ungültige Version</translation>
-    </message>
-</context>
-<context>
-    <name>QHelpFilterSettingsWidgetPrivate</name>
-    <message>
         <source>Add Filter</source>
         <translation>Filter hinzufügen</translation>
     </message>
@@ -182,6 +163,22 @@
     <message>
         <source>The filter &quot;%1&quot; already exists.</source>
         <translation>Der Filter &quot;%1&quot; existiert bereits.</translation>
+    </message>
+    <message>
+        <source>No Component</source>
+        <translation>Keine Komponente</translation>
+    </message>
+    <message>
+        <source>Invalid Component</source>
+        <translation>Ungültige Komponente</translation>
+    </message>
+    <message>
+        <source>No Version</source>
+        <translation>Keine Version</translation>
+    </message>
+    <message>
+        <source>Invalid Version</source>
+        <translation>Ungültige Version</translation>
     </message>
 </context>
 <context>

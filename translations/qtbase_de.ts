@@ -2242,10 +2242,6 @@ Möchten Sie die Datei trotzdem löschen?</translation>
         <translation>Die Bibliothek %1 kann nicht entladen werden: %2</translation>
     </message>
     <message>
-        <source>Cannot resolve symbol &quot;%1&quot; in %2: %3</source>
-        <translation>Das Symbol &quot;%1&quot; kann in %2 nicht aufgelöst werden: %3</translation>
-    </message>
-    <message>
         <source>&apos;%1&apos; is not a valid Mach-O binary (%2)</source>
         <translation>&apos;%1&apos; ist keine gültige ausführbare Datei des Typs Mach-O (%2)</translation>
     </message>
@@ -7661,8 +7657,12 @@ Die minimal erforderliche Version von Direct2D ist %1 Die auf diesem System inst
         <translation>Es wurden Zeichendaten erwartet.</translation>
     </message>
     <message>
-        <source>Recursive entity detected.</source>
-        <translation>Es wurde eine rekursive Entity festgestellt.</translation>
+        <source>Self-referencing entity detected.</source>
+        <translation>Es wurde eine selbstreferenzierende Entity festgestellt.</translation>
+    </message>
+    <message>
+        <source>Entity expands to more characters than the entity expansion limit.</source>
+        <translation>Die Expansion einer Entity überschreitet das Entity-Expansions-Limit.</translation>
     </message>
     <message>
         <source>Start tag expected.</source>
