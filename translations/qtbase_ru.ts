@@ -5449,7 +5449,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Power Off</source>
-        <translation>Отключение питания</translation>
+        <translation>Выключение</translation>
     </message>
     <message>
         <source>Wake Up</source>
@@ -5469,7 +5469,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Sleep</source>
-        <translation>Спящий режим</translation>
+        <translation>Ждущий режим</translation>
     </message>
     <message>
         <source>LightBulb</source>
@@ -5793,7 +5793,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Hibernate</source>
-        <translation>Перейти в сон</translation>
+        <translation>Спящий режим</translation>
     </message>
     <message>
         <source>Media Rewind</source>
@@ -5805,7 +5805,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Power Down</source>
-        <translation>Выключить</translation>
+        <translation>Отключение питания</translation>
     </message>
     <message>
         <source>Microphone Mute</source>
