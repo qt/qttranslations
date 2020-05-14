@@ -1,9 +1,9 @@
-version: 1
+version: 2
 accept_configuration:
   condition: property
-  property: host.os
-  equals_property: target.os
+  property: features
+  not_contains_value: Disable
 
-build_instructions:
-  - !include "{{qt/qtbase}}/prepare_building_env.yaml"
-  - !include "{{qt/qtbase}}/cmake_module_build_instructions.yaml"
+instructions:
+  Build:
+    - !include "{{qt/qtbase}}/coin_module_build_template_v2.yaml"
