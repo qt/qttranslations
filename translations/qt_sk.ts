@@ -3,7 +3,6 @@
 <TS version="2.0" language="sk">
 <dependencies>
 <dependency catalog="qtbase_sk"/>
-<dependency catalog="qtscript_sk"/>
 <dependency catalog="qtmultimedia_sk"/>
 </dependencies>
 </TS>

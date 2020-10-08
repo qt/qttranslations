@@ -3,7 +3,6 @@
 <TS version="2.1" language="hu">
     <dependencies>
         <dependency catalog="qtbase_hu"/>
-        <dependency catalog="qtscript_hu"/>
         <dependency catalog="qtmultimedia_hu"/>
     </dependencies>
 </TS>

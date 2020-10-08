@@ -78,7 +78,6 @@ add_ts_targets(qtbase
 add_ts_targets(qtdeclarative DIRECTORIES qtdeclarative/src)
 add_ts_targets(qtquickcontrols2 DIRECTORIES qtquickcontrols2/src)
 add_ts_targets(qtmultimedia DIRECTORIES qtmultimedia/src)
-add_ts_targets(qtscript DIRECTORIES qtscript/src)
 #add_ts_targets(qtsvg DIRECTORIES qtsvg/src) # empty
 #add_ts_targets(qtwebkit DIRECTORIES qtwebkit) # messages from test browser only
 

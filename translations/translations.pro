@@ -48,7 +48,6 @@ addTsTargets(qtbase, qtbase/src/src.pro \
 addTsTargets(qtdeclarative, qtdeclarative/src/src.pro)
 addTsTargets(qtquickcontrols2, qtquickcontrols2/src/src.pro)
 addTsTargets(qtmultimedia, qtmultimedia/src/src.pro)
-addTsTargets(qtscript, qtscript/src/src.pro)
 #addTsTargets(qtsvg, qtsvg/src/src.pro) # empty
 #addTsTargets(qtwebkit, qtwebkit/WebKit.pro) # messages from test browser only
 

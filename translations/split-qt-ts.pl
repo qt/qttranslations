@@ -30,7 +30,7 @@
 
 use strict;
 
-my @catalogs = ( "qtbase", "qtscript", "qtmultimedia" );
+my @catalogs = ( "qtbase", "qtmultimedia" );
 
 die "Usage: $0 <locale> [<builddir>]\n" if (@ARGV != 1 && @ARGV != 2);
 my $lang = $ARGV[0];
