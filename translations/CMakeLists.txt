@@ -76,7 +76,6 @@ add_ts_targets(qtbase
         qtimageformats/src # just 10 error messages from tga reader. uses bad context.
 )
 add_ts_targets(qtdeclarative DIRECTORIES qtdeclarative/src)
-add_ts_targets(qtquickcontrols DIRECTORIES qtquickcontrols/src)
 add_ts_targets(qtquickcontrols2 DIRECTORIES qtquickcontrols2/src)
 add_ts_targets(qtmultimedia DIRECTORIES qtmultimedia/src)
 add_ts_targets(qtscript DIRECTORIES qtscript/src)

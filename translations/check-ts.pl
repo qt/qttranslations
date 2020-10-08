@@ -32,7 +32,7 @@ use strict;
 
 my @groups = (
     "qtbase", "qtdeclarative", "qtmultimedia", "qtscript",
-    "qtquickcontrols", "qtquickcontrols2",
+    "qtquickcontrols2",
     "qtlocation", "qtconnectivity", "qtwebsockets", "qtserialport", "qtwebengine",
 #    "qtdocgallery", "qtpim", "qtsystems",
     "assistant", "designer", "linguist", "qt_help"
