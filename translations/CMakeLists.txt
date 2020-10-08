@@ -79,7 +79,6 @@ add_ts_targets(qtdeclarative DIRECTORIES qtdeclarative/src)
 add_ts_targets(qtquickcontrols DIRECTORIES qtquickcontrols/src)
 add_ts_targets(qtquickcontrols2 DIRECTORIES qtquickcontrols2/src)
 add_ts_targets(qtmultimedia DIRECTORIES qtmultimedia/src)
-add_ts_targets(qtquick1 DIRECTORIES qtquick1/src)
 add_ts_targets(qtscript DIRECTORIES qtscript/src)
 #add_ts_targets(qtsvg DIRECTORIES qtsvg/src) # empty
 add_ts_targets(qtxmlpatterns DIRECTORIES qtxmlpatterns/src)
@@ -101,7 +100,6 @@ add_ts_targets(designer DIRECTORIES qttools/src/designer)
 add_ts_targets(linguist DIRECTORIES qttools/src/linguist/linguist)
 add_ts_targets(assistant DIRECTORIES qttools/src/assistant/assistant)  # add qcollectiongenerator here as well?
 add_ts_targets(qt_help DIRECTORIES qttools/src/assistant/help)
-add_ts_targets(qmlviewer DIRECTORIES qtquick1/tools/qml)
 #add_ts_targets(qmlscene DIRECTORIES qtdeclarative/tools/qmlscene)  # almost empty due to missing tr()
 
 # Create check target
