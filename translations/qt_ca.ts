@@ -5,6 +5,5 @@
 <dependency catalog="qtbase_ca"/>
 <dependency catalog="qtscript_ca"/>
 <dependency catalog="qtmultimedia_ca"/>
-<dependency catalog="qtxmlpatterns_ca"/>
 </dependencies>
 </TS>
