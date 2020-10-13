@@ -2,7 +2,7 @@
 
 add_custom_target(ts-all)
 
-set(repo_root_directory "${CMAKE_SOURCE_DIR}/..")
+set(repo_root_directory "${CMAKE_CURRENT_SOURCE_DIR}/../..")
 set(en_ts_file_dir "${CMAKE_CURRENT_BINARY_DIR}/en_ts")
 
 function(add_ts_target target input_file output_file)
