@@ -8,7 +8,7 @@ set(en_ts_file_dir "${CMAKE_CURRENT_BINARY_DIR}/en_ts")
 function(add_ts_target target input_file output_file)
     add_custom_target(${target}
         BYPRODUCTS ${output_file}
-        COMMAND Qt::lupdate -no-ui-lines -no-sort "@${input_file}" -ts ${output_file}
+        COMMAND ${QT_CMAKE_EXPORT_NAMESPACE}::lupdate -no-ui-lines -no-sort "@${input_file}" -ts ${output_file}
     )
 endfunction()
 
@@ -116,7 +116,7 @@ foreach(file IN LISTS ts_files)
     add_custom_target(updateqm-${file}
         BYPRODUCTS ${output_file}
         COMMAND "${CMAKE_COMMAND}" -E make_directory "${CMAKE_CURRENT_BINARY_DIR}/qm"
-        COMMAND Qt::lrelease "${CMAKE_CURRENT_SOURCE_DIR}/${file}" -qm "${output_file}"
+        COMMAND ${QT_CMAKE_EXPORT_NAMESPACE}::lrelease "${CMAKE_CURRENT_SOURCE_DIR}/${file}" -qm "${output_file}"
     )
     qt_install(FILES ${output_file} DESTINATION "${INSTALL_TRANSLATIONSDIR}")
     add_dependencies(updateqm updateqm-${file})
@@ -128,7 +128,7 @@ foreach(file IN LISTS ts_files)
     set(output_file "${CMAKE_CURRENT_BINARY_DIR}/qm/${qm_file}")
     add_custom_target(updateqm-${file}
         BYPRODUCTS ${output_file}
-        COMMAND Qt::lrelease "${en_ts_file_dir}/${file}" -qm "${output_file}"
+        COMMAND ${QT_CMAKE_EXPORT_NAMESPACE}::lrelease "${en_ts_file_dir}/${file}" -qm "${output_file}"
     )
     qt_install(FILES ${output_file} DESTINATION "${INSTALL_TRANSLATIONSDIR}")
     add_dependencies(updateqm updateqm-${file})
@@ -137,7 +137,7 @@ endforeach()
 
 # Custom target to add modified ts files to git
 add_custom_target(stage-ts
-    COMMAND ${CMAKE_COMMAND} -DLCONVERT_BIN="$<TARGET_FILE:Qt::lconvert>" -P ${CMAKE_CURRENT_SOURCE_DIR}/git-stage-script.cmake
+    COMMAND ${CMAKE_COMMAND} -DLCONVERT_BIN="$<TARGET_FILE:${QT_CMAKE_EXPORT_NAMESPACE}::lconvert>" -P ${CMAKE_CURRENT_SOURCE_DIR}/git-stage-script.cmake
     WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
     COMMAND_EXPAND_LISTS
 )
