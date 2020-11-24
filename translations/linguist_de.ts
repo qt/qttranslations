@@ -977,10 +977,6 @@ Alle Dateien (*)</translation>
         <translation>Zu welchem Wörterbuch soll der Eintrag hinzugefügt werden?</translation>
     </message>
     <message>
-        <source>Unable to launch Qt Assistant (%1)</source>
-        <translation>Qt Assistant kann nicht gestartet werden (%1)</translation>
-    </message>
-    <message>
         <source>Version %1</source>
         <translation>Version %1</translation>
     </message>
@@ -1620,6 +1616,34 @@ Zeile: %2</translation>
     <message>
         <source>Close</source>
         <translation>Schließen</translation>
+    </message>
+    <message>
+        <source>Unfinished</source>
+        <translation>Statistik</translation>
+    </message>
+    <message>
+        <source>Total translatable messages:</source>
+        <translation>Anzahl der übersetzbaren Texte:</translation>
+    </message>
+    <message>
+        <source>Total finished:</source>
+        <translation>Anzahl der fertig übersetzten Texte:</translation>
+    </message>
+    <message>
+        <source>Without warnings:</source>
+        <translation>Ohne Warnungen:</translation>
+    </message>
+    <message>
+        <source>With warnings:</source>
+        <translation>Mit Warnungen:</translation>
+    </message>
+    <message>
+        <source>Unfinished:</source>
+        <translation>Ausstehend:</translation>
+    </message>
+    <message>
+        <source>Total messages including obsolete:</source>
+        <translation>Gesamtzahl der Texte einschließlich obsoleter Texte:</translation>
     </message>
 </context>
 <context>

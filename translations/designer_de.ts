@@ -179,21 +179,6 @@
     </message>
 </context>
 <context>
-    <name>AssistantClient</name>
-    <message>
-        <source>Unable to send request: Assistant is not responding.</source>
-        <translation>Fehler beim Senden einer Anforderung: Das Programm Assistant antwortet nicht.</translation>
-    </message>
-    <message>
-        <source>The binary &apos;%1&apos; does not exist.</source>
-        <translation>Die ausführbare Datei &apos;%1&apos; existiert nicht.</translation>
-    </message>
-    <message>
-        <source>Unable to launch assistant (%1).</source>
-        <translation>Das Programm Assistant kann nicht gestartet werden (%1).</translation>
-    </message>
-</context>
-<context>
     <name>BrushPropertyManager</name>
     <message>
         <source>Style</source>
@@ -757,6 +742,13 @@
     </message>
 </context>
 <context>
+    <name>Dialog</name>
+    <message>
+        <source>Dialog</source>
+        <translation>Dialog</translation>
+    </message>
+</context>
+<context>
     <name>EmbeddedOptionsControl</name>
     <message>
         <source>&lt;html&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Font&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1, %2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Style&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Resolution&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%4 x %5&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;</source>
@@ -817,6 +809,13 @@
     <message>
         <source>Antialiasing</source>
         <translation>Kantenglättung</translation>
+    </message>
+</context>
+<context>
+    <name>Form</name>
+    <message>
+        <source>Form</source>
+        <translation>Form</translation>
     </message>
 </context>
 <context>
@@ -1067,6 +1066,13 @@
         <source>XX Icon Selected off</source>
         <extracomment>Sample string to determinate the width for the first column of the list item property browser</extracomment>
         <translation>Ausgewähltes Icon, aus</translation>
+    </message>
+</context>
+<context>
+    <name>MainWindow</name>
+    <message>
+        <source>MainWindow</source>
+        <translation>MainWindow</translation>
     </message>
 </context>
 <context>
@@ -1584,10 +1590,6 @@ Grund: %2</translation>
     <message>
         <source>Code generation failed</source>
         <translation>Es konnte kein Code generiert werden</translation>
-    </message>
-    <message>
-        <source>Assistant</source>
-        <translation>Assistant</translation>
     </message>
     <message>
         <source>Saved image %1.</source>

@@ -412,10 +412,6 @@
 <context>
     <name>QQmlEngine</name>
     <message>
-        <source>Locale cannot be instantiated. Use Qt.locale()</source>
-        <translation>Locale kann nicht instanziiert werden. Verwenden Sie Qt.locale()</translation>
-    </message>
-    <message>
         <source>There are still &quot;%1&quot; items in the process of being created at engine destruction.</source>
         <translation>Bei der Zerstörung des Engines sind noch &quot;%1&quot; Elemente in der Erstellung.</translation>
     </message>
@@ -454,10 +450,6 @@
 </context>
 <context>
     <name>QQmlEnumTypeResolver</name>
-    <message>
-        <source>Invalid property assignment: Enum value &quot;%1&quot; cannot start with a lowercase letter</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Der Aufzählungswert &quot;%1&quot; darf nicht mit einem Kleinbuchstaben beginnen</translation>
-    </message>
     <message>
         <source>Invalid property assignment: &quot;%1&quot; is a read-only property</source>
         <translation>Ungültige Zuweisung bei Eigenschaft: &quot;%1&quot; ist eine schreibgeschützte Eigenschaft</translation>
@@ -514,10 +506,6 @@
         <translation>Das Modul unterstützt den Designer &quot;%1&quot; nicht</translation>
     </message>
     <message>
-        <source>plugin cannot be loaded for module &quot;%1&quot;: %2</source>
-        <translation>Das Plugin des Moduls &quot;%1&quot; kann nicht geladen werden: %2</translation>
-    </message>
-    <message>
         <source>static plugin for module &quot;%1&quot; with name &quot;%2&quot; cannot be loaded: %3</source>
         <translation>Das statische Plugin des Moduls &quot;%1&quot; mit dem Namen &quot;%2&quot; kann nicht geladen werden: %3</translation>
     </message>
@@ -552,6 +540,159 @@
     <message>
         <source>File name case mismatch for &quot;%1&quot;</source>
         <translation>Die Groß/Kleinschreibung des Dateinamens &quot;%1&quot; stimmt nicht überein</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlJSTypeDescriptionReader</name>
+    <message>
+        <source>Could not parse document.</source>
+        <translation>Das Dokument konnte nicht ausgewertet werden.</translation>
+    </message>
+    <message>
+        <source>Expected a single import.</source>
+        <translation>Es wird ein einzelner Import erwartet.</translation>
+    </message>
+    <message>
+        <source>Expected import of QtQuick.tooling.</source>
+        <translation>Es wird ein Import von QtQuick.tooling erwartet.</translation>
+    </message>
+    <message>
+        <source>Import statement without version.</source>
+        <translation>Bei der Import-Anweisung fehlt die Version.</translation>
+    </message>
+    <message>
+        <source>Major version different from 1 not supported.</source>
+        <translation>Es wird nur Hauptversion 1 unterstützt.</translation>
+    </message>
+    <message>
+        <source>Expected document to contain a single object definition.</source>
+        <translation>Das Dokument sollte nur eine einzige Objektdefinition haben.</translation>
+    </message>
+    <message>
+        <source>Expected document to contain a Module {} member.</source>
+        <translation>Das Dokument sollte eine Module {}-Anweisung enthalten.</translation>
+    </message>
+    <message>
+        <source>Expected dependency definitions</source>
+        <translation>Angabe der Abhängigkeiten muss vorhanden sein</translation>
+    </message>
+    <message>
+        <source>Expected only Property, Method, Signal and Enum object definitions, not &quot;%1&quot;.</source>
+        <translation>Es werden lediglich Eigenschaften-, Methoden-, Signal- und Aufzählungstypenangaben erwartet, nicht jedoch &quot;%1&quot;.</translation>
+    </message>
+    <message>
+        <source>Unknown access semantics &quot;%1&quot;.</source>
+        <translation>Unbekannte Zugriffssemantik &quot;%1&quot;.</translation>
+    </message>
+    <message>
+        <source>Expected only name, prototype, defaultProperty, attachedType, valueType, exports, isSingleton, isCreatable, isComposite and exportMetaObjectRevisions script bindings, not &quot;%1&quot;.</source>
+        <translation>Es werden lediglich name, prototype, defaultProperty, attachedType, valueType, exports, isSingleton, isCreatable, isComposite und exportMetaObjectRevisions script bindings erwartet, nicht jedoch &quot;%1&quot;.</translation>
+    </message>
+    <message>
+        <source>Expected only script bindings and object definitions.</source>
+        <translation>Es werden lediglich script bindings und Objektdefinitionen erwartet.</translation>
+    </message>
+    <message>
+        <source>Component definition is missing a name binding.</source>
+        <translation>Bei der Komponentendefinition fehlt das name binding.</translation>
+    </message>
+    <message>
+        <source>Expected only Parameter object definitions.</source>
+        <translation>Es werden lediglich Parameter-Objektdefinitionen erwartet.</translation>
+    </message>
+    <message>
+        <source>Expected only name and type script bindings.</source>
+        <translation>Es werden lediglich name und type script bindings erwartet.</translation>
+    </message>
+    <message>
+        <source>Method or signal is missing a name script binding.</source>
+        <translation>Bei der Methode oder dem Signal fehlt das name script binding.</translation>
+    </message>
+    <message>
+        <source>Expected script binding.</source>
+        <translation>script binding erwartet.</translation>
+    </message>
+    <message>
+        <source>Expected only type, name, revision, isPointer, isReadonly, bindable, and isList script bindings.</source>
+        <translation>Es werden lediglich type, name, revision, isPointer, isReadonly, bindable und isList script bindings erwartet.</translation>
+    </message>
+    <message>
+        <source>Property object is missing a name or type script binding.</source>
+        <translation>Beim Eigenschaftsobjekt fehlt der Name oder das type script binding.</translation>
+    </message>
+    <message>
+        <source>Expected only name and values script bindings.</source>
+        <translation>Es werden lediglich name und values script bindings erwartet.</translation>
+    </message>
+    <message>
+        <source>Expected string after colon.</source>
+        <translation>Auf den Doppelpunkt muss eine Zeichenkette folgen.</translation>
+    </message>
+    <message>
+        <source>Expected boolean after colon.</source>
+        <translation>Auf den Doppelpunkt muss ein boolescher Wert folgen.</translation>
+    </message>
+    <message>
+        <source>Expected true or false after colon.</source>
+        <translation>Auf den Doppelpunkt muss true oder false folgen.</translation>
+    </message>
+    <message>
+        <source>Expected numeric literal after colon.</source>
+        <translation>Auf den Doppelpunkt muss ein numerischer Wert folgen.</translation>
+    </message>
+    <message>
+        <source>Expected integer after colon.</source>
+        <translation>Auf den Doppelpunkt muss ein ganzzahliger numerischer Wert folgen.</translation>
+    </message>
+    <message>
+        <source>Expected array of strings after colon.</source>
+        <translation>Auf den Doppelpunkt muss ein Feld von Zeichenketten folgen.</translation>
+    </message>
+    <message>
+        <source>Expected array literal with only string literal members.</source>
+        <translation>Auf den Doppelpunkt muss ein Feldliteral, das nur Zeichenkettenliterale enthält, folgen.</translation>
+    </message>
+    <message>
+        <source>Expected string literal to contain &apos;Package/Name major.minor&apos; or &apos;Name major.minor&apos;.</source>
+        <translation>Das Zeichenkettenliteral sollte &apos;Package/Name major.minor&apos; oder &apos;Name major.minor&apos; enthalten.</translation>
+    </message>
+    <message>
+        <source>Expected array of numbers after colon.</source>
+        <translation>Auf den Doppelpunkt muss ein Feld numerischer Werte folgen.</translation>
+    </message>
+    <message>
+        <source>Expected array literal with only number literal members.</source>
+        <translation>Auf den Doppelpunkt muss ein Feldliteral, das nur numerische Literale enthält, folgen.</translation>
+    </message>
+    <message>
+        <source>Meta object revision without matching export.</source>
+        <translation>Bei der Meta-Objektversion fehlt der entsprechende Export.</translation>
+    </message>
+    <message>
+        <source>Expected integer.</source>
+        <translation>Ganzzahliger numerischer Wert erwartet.</translation>
+    </message>
+    <message>
+        <source>Meta object revision and export version differ, ignoring the revision.
+Revision %1 corresponds to version %2.%3; it should be %4.%5.</source>
+        <translation>Die Version des Meta-Objekts unterscheidet sich von der des Exports; Version des Meta-Objekts wird ignoriert.
+Die Version des Meta-Objekts %1 entspricht Version %2.%3; es sollte aber %4.%5 sein.</translation>
+    </message>
+    <message>
+        <source>Expected object literal after colon.</source>
+        <translation>Auf den Doppelpunkt muss ein Objektliteral folgen.</translation>
+    </message>
+    <message>
+        <source>Expected expression after colon.</source>
+        <translation>Auf den Doppelpunkt muss ein Ausdruck folgen.</translation>
+    </message>
+    <message>
+        <source>Expected strings as enum keys.</source>
+        <translation>Die Schlüssel der Aufzählungswerte sollten Zeichenketten sein.</translation>
+    </message>
+    <message>
+        <source>Expected either array or object literal as enum definition.</source>
+        <translation>Es wird entweder ein Feld oder ein Objektliteral als Aufzählungswertdefinition erwartet.</translation>
     </message>
 </context>
 <context>
@@ -636,7 +777,7 @@
         <translation>Der Objekttyp %1 kann nicht zugewiesen werden, da keine Vorgabe-Methode existiert</translation>
     </message>
     <message>
-        <source>Cannot connect mismatched signal/slot %1 %vs. %2</source>
+        <source>Cannot connect mismatched signal/slot %1 vs %2</source>
         <translation>Es kann keine Verbindung zwischen dem Signal %1 und dem Slot %2 hergestellt werden, da sie nicht zusammenpassen</translation>
     </message>
     <message>
@@ -730,6 +871,10 @@
         <translation>Dezimalzahlen können nicht mit &apos;0&apos; beginnen</translation>
     </message>
     <message>
+        <source>Incomplete version number (dot but no minor)</source>
+        <translation>Unvollständige Versionsnummer (Punkt ist da, aber keine Unterversion)</translation>
+    </message>
+    <message>
         <source>At least one hexadecimal digit is required after &apos;0%1&apos;</source>
         <translation>Auf &apos;0%1&apos; muss mindestens eine hexadezimale Ziffer folgen</translation>
     </message>
@@ -766,10 +911,6 @@
         <translation>Der Skript-Import erfordert die Angabe eines Qualifizierers.</translation>
     </message>
     <message>
-        <source>Library import requires a version</source>
-        <translation>Der Import einer Bibliothek erfordert eine Versionsangabe</translation>
-    </message>
-    <message>
         <source>Expected parameter type</source>
         <translation>Es wird eine Typangabe für den Parameter erwartet</translation>
     </message>
@@ -802,14 +943,6 @@
         <translation>Eine importierte Datei muss ein Skript sein</translation>
     </message>
     <message>
-        <source>Module import requires a minor version (missing dot)</source>
-        <translation>Der Import eines Moduls erfordert die Angabe der Minor-Version (fehlender Punkt)</translation>
-    </message>
-    <message>
-        <source>Module import requires a minor version (missing number)</source>
-        <translation>Der Import eines Moduls erfordert die Angabe der Minor-Version (fehlende Zahl)</translation>
-    </message>
-    <message>
         <source>File import requires a qualifier</source>
         <translation>Dateiimport erfordert die Angabe eines Qualifizierers</translation>
     </message>
@@ -820,10 +953,6 @@
     <message>
         <source>Invalid module URI</source>
         <translation>Ungültiger Modul-URI</translation>
-    </message>
-    <message>
-        <source>Module import requires a version</source>
-        <translation>Der Import eines Moduls erfordert eine Versionsangabe</translation>
     </message>
     <message>
         <source>Module import requires a qualifier</source>
@@ -1031,20 +1160,8 @@
         <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein boolescher Wert erwartet</translation>
     </message>
     <message>
-        <source>Invalid property assignment: 2D vector expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein zweidimensionaler Vektor erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: 3D vector expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein dreidimensionaler Vektor erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: 4D vector expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein vierdimensionaler Vektor erwartet</translation>
-    </message>
-    <message>
-        <source>Invalid property assignment: quaternion expected</source>
-        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird eine Quaternion erwartet</translation>
+        <source>Invalid property assignment: %1 expected</source>
+        <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein %1 erwartet</translation>
     </message>
     <message>
         <source>Invalid property assignment: regular expression expected; use /pattern/ syntax</source>
@@ -1420,22 +1537,6 @@
 <context>
     <name>QQuickWindow</name>
     <message>
-        <source>Failed to create %1 context for format %2.
-This is most likely caused by not having the necessary graphics drivers installed.
-
-Install a driver providing OpenGL 2.0 or higher, or, if this is not possible, make sure the ANGLE Open GL ES 2.0 emulation libraries (%3, %4 and d3dcompiler_*.dll) are available in the application executable&apos;s directory or in a location listed in PATH.</source>
-        <extracomment>%1 Context type (Open GL, EGL), %2 format, ANGLE %3, %4 library names</extracomment>
-        <translation>Es konnte kein %1-Kontext für das Format %2 erzeugt werden.
-Die wahrscheinliche Ursache ist, dass die erforderlichen Grafiktreiber nicht installiert sind.
-
-Installieren Sie einen Treiber, der OpenGL 2.0 oder neuer bereitstellt, oder stellen Sie sicher, dass die ANGLE-Open GL ES 2.0-Emulationsbibliotheken (%3, %4 und d3dcompiler_*.dll) im Verzeichnis der ausführbaren Datei der Anwendung oder im Pfad verfügbar sind.</translation>
-    </message>
-    <message>
-        <source>Failed to create %1 context for format %2</source>
-        <extracomment>%1 Context type (Open GL, EGL), %2 format specification</extracomment>
-        <translation>Es konnte kein %1-Kontext für das Format %2 erzeugt werden</translation>
-    </message>
-    <message>
         <source>Failed to initialize graphics backend for %1.</source>
         <translation>Das Graphics-Backend für %1 konnte nicht initialisiert werden.</translation>
     </message>
@@ -1483,21 +1584,6 @@ Installieren Sie einen Treiber, der OpenGL 2.0 oder neuer bereitstellt, oder ste
     </message>
 </context>
 <context>
-    <name>SignalTransition</name>
-    <message>
-        <source>Specified signal does not exist.</source>
-        <translation>Das angegebene Signal existiert nicht.</translation>
-    </message>
-    <message>
-        <source>Cannot assign to non-existent property &quot;%1&quot;</source>
-        <translation>Es kann keine Zuweisung erfolgen, da keine Eigenschaft des Namens &quot;%1&quot; existiert</translation>
-    </message>
-    <message>
-        <source>SignalTransition: script expected</source>
-        <translation>SignalTransition: Skript erwartet</translation>
-    </message>
-</context>
-<context>
     <name>qmlRegisterType</name>
     <message>
         <source>Invalid QML %1 name &quot;%2&quot;</source>
@@ -1506,6 +1592,10 @@ Installieren Sie einen Treiber, der OpenGL 2.0 oder neuer bereitstellt, oder ste
     <message>
         <source>Invalid QML %1 name &quot;%2&quot;; type names must begin with an uppercase letter</source>
         <translation>Ungültiger QML %1-Name &quot;%2&quot;; Typnamen müssen mit einem Großbuchstaben beginnen</translation>
+    </message>
+    <message>
+        <source>Invalid QML %1 name &quot;%2&quot;; value type names should begin with a lowercase letter</source>
+        <translation>Ungültiger QML %1-Name &quot;%2&quot;; Value-Typnamen müssen mit einem Kleinbuchstaben beginnen</translation>
     </message>
     <message>
         <source>Cannot install %1 &apos;%2&apos; into protected module &apos;%3&apos; version &apos;%4&apos;</source>
