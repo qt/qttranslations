@@ -47,22 +47,22 @@ addTsTargets(qtbase, qtbase/src/src.pro \
 )
 addTsTargets(qtdeclarative, qtdeclarative/src/src.pro)
 addTsTargets(qtquickcontrols2, qtquickcontrols2/src/src.pro)
-addTsTargets(qtmultimedia, qtmultimedia/src/src.pro)
+#addTsTargets(qtmultimedia, qtmultimedia/src/src.pro) # not released with qt
 #addTsTargets(qtsvg, qtsvg/src/src.pro) # empty
 #addTsTargets(qtwebkit, qtwebkit/WebKit.pro) # messages from test browser only
 
 #addTsTargets(qt3d, qt3d/src/src.pro)  # empty except one dubious error message
-addTsTargets(qtconnectivity, qtconnectivity/src/src.pro)
+#addTsTargets(qtconnectivity, qtconnectivity/src/src.pro) # not released with qt
 #addTsTargets(qtdocgallery, qtdocgallery/src/src.pro)  # dead module
 #addTsTargets(qtfeedback, qtfeedback/src/src.pro)  # empty
 #addTsTargets(qtjsondb, qtjsondb/src/src.pro)  # dead module, just 3 error messages
-addTsTargets(qtlocation, qtlocation/src/src.pro)
+#addTsTargets(qtlocation, qtlocation/src/src.pro) # not released with qt
 #addTsTargets(qtpim, qtpim/src/src.pro)  # not part of 5.0
 #addTsTargets(qtsensors, qtsensors/src/src.pro) # empty
 #addTsTargets(qtsystems, qtsystems/src/src.pro)  # not part of 5.0
-addTsTargets(qtwebsockets, qtwebsockets/src/src.pro)
-addTsTargets(qtserialport, qtserialport/src/src.pro)
-addTsTargets(qtwebengine, qtwebengine/src/src.pro)
+#addTsTargets(qtwebsockets, qtwebsockets/src/src.pro) # not released with qt
+#addTsTargets(qtserialport, qtserialport/src/src.pro) # not released with qt
+#addTsTargets(qtwebengine, qtwebengine/src/src.pro) # not released with qt
 
 addTsTargets(designer, qttools/src/designer/designer.pro)
 addTsTargets(linguist, qttools/src/linguist/linguist/linguist.pro)

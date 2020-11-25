@@ -77,22 +77,22 @@ add_ts_targets(qtbase
 )
 add_ts_targets(qtdeclarative DIRECTORIES qtdeclarative/src)
 add_ts_targets(qtquickcontrols2 DIRECTORIES qtquickcontrols2/src)
-add_ts_targets(qtmultimedia DIRECTORIES qtmultimedia/src)
+#add_ts_targets(qtmultimedia DIRECTORIES qtmultimedia/src) # not released with qt
 #add_ts_targets(qtsvg DIRECTORIES qtsvg/src) # empty
 #add_ts_targets(qtwebkit DIRECTORIES qtwebkit) # messages from test browser only
 
 #add_ts_targets(qt3d DIRECTIORIES qt3d/src)  # empty except one dubious error message
-add_ts_targets(qtconnectivity DIRECTORIES qtconnectivity/src)
+#add_ts_targets(qtconnectivity DIRECTORIES qtconnectivity/src) # not released with qt
 #add_ts_targets(qtdocgallery DIRECTORIES qtdocgallery/src)  # dead module
 #add_ts_targets(qtfeedback DIRECTORIES qtfeedback/src)  # empty
 #add_ts_targets(qtjsondb DIRECTORIES qtjsondb/src)  # dead module, just 3 error messages
-add_ts_targets(qtlocation DIRECTORIES qtlocation/src)
+#add_ts_targets(qtlocation DIRECTORIES qtlocation/src) # not released with qt
 #add_ts_targets(qtpim DIRECTORIES qtpim/src)  # not released with qt
 #add_ts_targets(qtsensors DIRECTORIES qtsensors/src) # empty
 #add_ts_targets(qtsystems DIRECTORIES qtsystems/src)  # not released with qt
-add_ts_targets(qtwebsockets DIRECTORIES qtwebsockets/src)
-add_ts_targets(qtserialport DIRECTORIES qtserialport/src)
-add_ts_targets(qtwebengine DIRECTORIES qtwebengine/src)
+#add_ts_targets(qtwebsockets DIRECTORIES qtwebsockets/src) # not released with qt
+#add_ts_targets(qtserialport DIRECTORIES qtserialport/src) # not released with qt
+#add_ts_targets(qtwebengine DIRECTORIES qtwebengine/src) # not released with qt
 add_ts_targets(designer DIRECTORIES qttools/src/designer)
 add_ts_targets(linguist DIRECTORIES qttools/src/linguist/linguist)
 add_ts_targets(assistant DIRECTORIES qttools/src/assistant/assistant)  # add qcollectiongenerator here as well?
