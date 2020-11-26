@@ -5212,6 +5212,14 @@ Please turn one of those options off.</source>
         <translation>启动 (F)</translation>
     </message>
     <message>
+        <source>Launch (G)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Launch (H)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Monitor Brightness Up</source>
         <translation>监视器亮度增高</translation>
     </message>
@@ -5316,6 +5324,10 @@ Please turn one of those options off.</source>
         <translation>计算器</translation>
     </message>
     <message>
+        <source>Calendar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Clear</source>
         <translation>清除</translation>
     </message>
@@ -5326,6 +5338,10 @@ Please turn one of those options off.</source>
     <message>
         <source>Close</source>
         <translation>关闭</translation>
+    </message>
+    <message>
+        <source>Adjust contrast</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Copy</source>
@@ -5378,6 +5394,10 @@ Please turn one of those options off.</source>
     <message>
         <source>Meeting</source>
         <translation>会议</translation>
+    </message>
+    <message>
+        <source>Memo</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Keyboard Menu</source>
@@ -5458,6 +5478,10 @@ Please turn one of those options off.</source>
     <message>
         <source>Terminal</source>
         <translation>终端</translation>
+    </message>
+    <message>
+        <source>To-do list</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Tools</source>
@@ -7236,8 +7260,12 @@ The minimum Direct2D version required is %1. The Direct2D version on this system
         <translation>需要字符数据。</translation>
     </message>
     <message>
-        <source>Recursive entity detected.</source>
-        <translation>检测到嵌套实体。</translation>
+        <source>Self-referencing entity detected.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Entity expands to more characters than the entity expansion limit.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Start tag expected.</source>
