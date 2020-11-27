@@ -71,6 +71,17 @@ Visite https://developers.arcgis.com/authentication/accessing-arcgis-online-serv
     </message>
 </context>
 <context>
+    <name>QDeclarativeNavigator</name>
+    <message>
+        <source>Plugin does not support navigation.</source>
+        <translation>O plugin não suporta navegação.</translation>
+    </message>
+    <message>
+        <source>Failed to create a navigator object.</source>
+        <translation>Falha ao criar um objeto navegador.</translation>
+    </message>
+</context>
+<context>
     <name>QGeoCodeReplyMapbox</name>
     <message>
         <source>Response parse error</source>
@@ -1242,20 +1253,12 @@ Visite https://www.mapbox.com</translation>
         <translation>Mapa de ruas</translation>
     </message>
     <message>
-        <source>OpenStreetMap street map</source>
-        <translation>Mapa de ruas do OpenStreetMap</translation>
-    </message>
-    <message>
         <source>Street map view in daylight mode</source>
         <translation>Vista do mapa de ruas em modo diurno</translation>
     </message>
     <message>
         <source>Satellite Map</source>
         <translation>Mapa de satélite</translation>
-    </message>
-    <message>
-        <source>OpenStreetMap satellite map</source>
-        <translation>Mapa de satélite do OpenStreetMap</translation>
     </message>
     <message>
         <source>Satellite map view in daylight mode</source>
@@ -1308,6 +1311,14 @@ Visite https://www.mapbox.com</translation>
     <message>
         <source>Custom url map view set via urlprefix parameter</source>
         <translation>Vista do mapa de URL personalizado definido pelo parâmetro urlprefix</translation>
+    </message>
+    <message>
+        <source>OpenStreetMap street map</source>
+        <translation>Mapa de ruas do OpenStreetMap</translation>
+    </message>
+    <message>
+        <source>OpenStreetMap satellite map</source>
+        <translation>Mapa de satélite do OpenStreetMap</translation>
     </message>
 </context>
 <context>
@@ -1461,17 +1472,6 @@ Registre-se em https://developer.here.com/ para obter sua credencial de aplicati
     <message>
         <source>The response from the service was not in a recognizable format.</source>
         <translation>A resposta do servidor não veio em um formato reconhecido.</translation>
-    </message>
-</context>
-<context>
-    <name>QDeclarativeNavigator</name>
-    <message>
-        <source>Plugin does not support navigation.</source>
-        <translation>O plugin não suporta navegação.</translation>
-    </message>
-    <message>
-        <source>Failed to create a navigator object.</source>
-        <translation>Falha ao criar um objeto navegador.</translation>
     </message>
 </context>
 <context>

@@ -942,10 +942,6 @@
         <translation>Variedade do item tipo %1 precisa ser atômico ou união.</translation>
     </message>
     <message>
-        <source>Variety of member types of %1 must be atomic.</source>
-        <translation>Variedade do item tipo %1 precisa ser atômico.</translation>
-    </message>
-    <message>
         <source>Variety of member types of %1 must be atomic or union.</source>
         <translation>Variedade do item tipo %1 precisa ser atômico ou união.</translation>
     </message>
@@ -1964,6 +1960,10 @@
     <message>
         <source>Only the Unicode Codepoint Collation is supported(%1). %2 is unsupported.</source>
         <translation>Somente o Unicode Codepoint Collation é suportado(%1). %2 não é suportado.</translation>
+    </message>
+    <message>
+        <source>Variety of member types of %1 must be atomic.</source>
+        <translation>Variedade do item tipo %1 precisa ser atômico.</translation>
     </message>
 </context>
 </TS>
