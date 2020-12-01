@@ -24,14 +24,6 @@
         <translation>Erro desconhecido</translation>
     </message>
     <message>
-        <source>Cannot open remote device socket</source>
-        <translation>Não foi possível abrir o socket remoto do dispositivo</translation>
-    </message>
-    <message>
-        <source>Cannot connect to Bluetooth socket notifier</source>
-        <translation>Não foi possível conectar à um notificador de socket Bluetooth</translation>
-    </message>
-    <message>
         <source>Cannot start device inquiry</source>
         <translation>Não é possível iniciar a consulta de dispositivo</translation>
     </message>
@@ -60,10 +52,6 @@
         <translation>O endereço fornecido não é um dispositivo local.</translation>
     </message>
     <message>
-        <source>Discovery cannot be started</source>
-        <translation>Discovery não pode ser iniciado</translation>
-    </message>
-    <message>
         <source>Missing Location permission. Search is not possible.</source>
         <translation>Falta permissão de Localização. A pesquisa não é possível.</translation>
     </message>
@@ -84,16 +72,28 @@
         <translation>Erro no adaptador Bluetooth</translation>
     </message>
     <message>
-        <source>No Bluetooth device available</source>
-        <translation>Nenhum dispositivo Bluetooth disponível</translation>
-    </message>
-    <message>
         <source>Device discovery not supported on this platform</source>
         <translation>Descoberta de dispositivo não suportado nesta plataforma</translation>
     </message>
     <message>
         <source>Cannot access adapter during service discovery</source>
         <translation>Não foi possível acessar o adaptador durante a descoberta do serviço</translation>
+    </message>
+    <message>
+        <source>Discovery cannot be started</source>
+        <translation>Discovery não pode ser iniciado</translation>
+    </message>
+    <message>
+        <source>No Bluetooth device available</source>
+        <translation>Nenhum dispositivo Bluetooth disponível</translation>
+    </message>
+    <message>
+        <source>Cannot open remote device socket</source>
+        <translation>Não foi possível abrir o socket remoto do dispositivo</translation>
+    </message>
+    <message>
+        <source>Cannot connect to Bluetooth socket notifier</source>
+        <translation>Não foi possível conectar à um notificador de socket Bluetooth</translation>
     </message>
 </context>
 <context>
@@ -208,35 +208,35 @@
     </message>
     <message>
         <source>Audio/Video Remote Control Target</source>
-        <translation type="unfinished"></translation>
+        <translation>Destino de controle remoto de áudio/vídeo</translation>
     </message>
     <message>
         <source>Advanced Audio Distribution</source>
-        <translation type="unfinished"></translation>
+        <translation>Distribuição de áudio avançada</translation>
     </message>
     <message>
         <source>Audio/Video Remote Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Controle remoto de áudio/vídeo</translation>
     </message>
     <message>
         <source>Audio/Video Remote Control Controller</source>
-        <translation type="unfinished"></translation>
+        <translation>Controlador de controle remoto de áudio/vídeo</translation>
     </message>
     <message>
         <source>Headset AG</source>
-        <translation type="unfinished"></translation>
+        <translation>Headset AG</translation>
     </message>
     <message>
         <source>Personal Area Networking (PANU)</source>
-        <translation type="unfinished"></translation>
+        <translation>Rede de área pessoal (PANU)</translation>
     </message>
     <message>
         <source>Personal Area Networking (NAP)</source>
-        <translation type="unfinished"></translation>
+        <translation>Rede de área pessoal (NAP)</translation>
     </message>
     <message>
         <source>Personal Area Networking (GN)</source>
-        <translation type="unfinished"></translation>
+        <translation>Rede de área pessoal (GN)</translation>
     </message>
     <message>
         <source>Basic Direct Printing (BPP)</source>
@@ -440,7 +440,7 @@
     </message>
     <message>
         <source>Glucose</source>
-        <translation type="unfinished"></translation>
+        <translation>Glicose</translation>
     </message>
     <message>
         <source>Health Thermometer</source>
@@ -464,7 +464,7 @@
     </message>
     <message>
         <source>Blood Pressure</source>
-        <translation type="unfinished"></translation>
+        <translation>Pressão arterial</translation>
     </message>
     <message>
         <source>Alert Notification Service</source>
@@ -472,14 +472,6 @@
     </message>
     <message>
         <source>Scan Parameters</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Running Speed and Cadance</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Cycling Speed and Cadance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -609,11 +601,7 @@
     </message>
     <message>
         <source>UdiCPlain</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Multi-Channel Adaptation Protocol -Conrol</source>
-        <translation type="unfinished"></translation>
+        <translation>UdiCPlain</translation>
     </message>
     <message>
         <source>Multi-Channel Adaptation Protocol - Control</source>
@@ -653,7 +641,7 @@
     </message>
     <message>
         <source>Alert Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Nível de alerta</translation>
     </message>
     <message>
         <source>TX Power</source>
@@ -665,7 +653,7 @@
     </message>
     <message>
         <source>Day Of Week</source>
-        <translation type="unfinished"></translation>
+        <translation>Dia da semana</translation>
     </message>
     <message>
         <source>Day Date Time</source>
@@ -681,23 +669,23 @@
     </message>
     <message>
         <source>Time Zone</source>
-        <translation type="unfinished"></translation>
+        <translation>Fuso horário</translation>
     </message>
     <message>
         <source>Local Time Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Informação de hora local</translation>
     </message>
     <message>
         <source>Time With DST</source>
-        <translation type="unfinished"></translation>
+        <translation>Hora com horário de verão</translation>
     </message>
     <message>
         <source>Time Accuracy</source>
-        <translation type="unfinished"></translation>
+        <translation>Precisão da hora</translation>
     </message>
     <message>
         <source>Time Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Fonte da hora</translation>
     </message>
     <message>
         <source>Reference Time Information</source>
@@ -717,7 +705,7 @@
     </message>
     <message>
         <source>Battery Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Nível de bateria</translation>
     </message>
     <message>
         <source>Temperature Measurement</source>
@@ -741,31 +729,31 @@
     </message>
     <message>
         <source>System ID</source>
-        <translation type="unfinished"></translation>
+        <translation>ID do sistema</translation>
     </message>
     <message>
         <source>Model Number String</source>
-        <translation type="unfinished"></translation>
+        <translation>Texto do número do modelo</translation>
     </message>
     <message>
         <source>Serial Number String</source>
-        <translation type="unfinished"></translation>
+        <translation>Texto do número de série</translation>
     </message>
     <message>
         <source>Firmware Revision String</source>
-        <translation type="unfinished"></translation>
+        <translation>Texto da revisão do firmware</translation>
     </message>
     <message>
         <source>Hardware Revision String</source>
-        <translation type="unfinished"></translation>
+        <translation>Texto da revisão do hardware</translation>
     </message>
     <message>
         <source>Software Revision String</source>
-        <translation type="unfinished"></translation>
+        <translation>Texto da revisão do software</translation>
     </message>
     <message>
         <source>Manufacturer Name String</source>
-        <translation type="unfinished"></translation>
+        <translation>Texto do nome do fabricante</translation>
     </message>
     <message>
         <source>IEEE 11073 20601 Regulatory Certification Data List</source>
@@ -773,7 +761,7 @@
     </message>
     <message>
         <source>Current Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Hora atual</translation>
     </message>
     <message>
         <source>Scan Refresh</source>
@@ -813,7 +801,7 @@
     </message>
     <message>
         <source>Alert Status</source>
-        <translation type="unfinished"></translation>
+        <translation>Status de alerta</translation>
     </message>
     <message>
         <source>Ringer Control Point</source>
@@ -837,11 +825,11 @@
     </message>
     <message>
         <source>Unread Alert Status</source>
-        <translation type="unfinished"></translation>
+        <translation>Status de alerta não lido</translation>
     </message>
     <message>
         <source>New Alert</source>
-        <translation type="unfinished"></translation>
+        <translation>Novo alerta</translation>
     </message>
     <message>
         <source>Supported New Alert Category</source>
@@ -869,7 +857,7 @@
     </message>
     <message>
         <source>Report</source>
-        <translation type="unfinished"></translation>
+        <translation>Relatório</translation>
     </message>
     <message>
         <source>Protocol Mode</source>
@@ -913,7 +901,7 @@
     </message>
     <message>
         <source>Sensor Location</source>
-        <translation type="unfinished"></translation>
+        <translation>Localização do sensor</translation>
     </message>
     <message>
         <source>Cycling Power Measurement</source>
@@ -928,28 +916,20 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Cycling Power COntrol Point</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Server Characteristic Configuratio</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Cycling Power Control Point</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Location And Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Localizaçaõ e velocidade</translation>
     </message>
     <message>
         <source>Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>Navegação</translation>
     </message>
     <message>
         <source>Position Quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Qualidade da posição</translation>
     </message>
     <message>
         <source>LN Feature</source>
@@ -962,42 +942,42 @@
     <message>
         <source>Magnetic Declination</source>
         <extracomment>Angle between geographic and magnetic north</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Declinação magnética</translation>
     </message>
     <message>
         <source>Elevation</source>
         <extracomment>Above/below sea level</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Elevação</translation>
     </message>
     <message>
         <source>Pressure</source>
-        <translation type="unfinished"></translation>
+        <translation>Pressão</translation>
     </message>
     <message>
         <source>Temperature</source>
-        <translation type="unfinished"></translation>
+        <translation>Temperatura</translation>
     </message>
     <message>
         <source>Humidity</source>
-        <translation type="unfinished"></translation>
+        <translation>Umidade</translation>
     </message>
     <message>
         <source>True Wind Speed</source>
         <extracomment>Wind speed while standing</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Velocidade real do vento</translation>
     </message>
     <message>
         <source>True Wind Direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Direção real do vento</translation>
     </message>
     <message>
         <source>Apparent Wind Speed</source>
         <extracomment>Wind speed while observer is moving</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Velocidade aparente do vento</translation>
     </message>
     <message>
         <source>Apparent Wind Direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Direção aparente do vento</translation>
     </message>
     <message>
         <source>Gust Factor</source>
@@ -1006,15 +986,15 @@
     </message>
     <message>
         <source>Pollen Concentration</source>
-        <translation type="unfinished"></translation>
+        <translation>Concentraçaõ de pólen</translation>
     </message>
     <message>
         <source>UV Index</source>
-        <translation type="unfinished"></translation>
+        <translation>Índice UV</translation>
     </message>
     <message>
         <source>Irradiance</source>
-        <translation type="unfinished"></translation>
+        <translation>Irradiação</translation>
     </message>
     <message>
         <source>Rainfall</source>
@@ -1052,7 +1032,7 @@
     <message>
         <source>Age</source>
         <extracomment>Age of person</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Idade</translation>
     </message>
     <message>
         <source>Anaerobic Heart Rate Lower Limit</source>
@@ -1068,7 +1048,7 @@
     </message>
     <message>
         <source>Date Of Birth</source>
-        <translation type="unfinished"></translation>
+        <translation>Data de nascimento</translation>
     </message>
     <message>
         <source>Date Of Threshold Assessment</source>
@@ -1076,7 +1056,7 @@
     </message>
     <message>
         <source>Email Address</source>
-        <translation type="unfinished"></translation>
+        <translation>Endereço de e-mail</translation>
     </message>
     <message>
         <source>Fat Burn Heart Rate Lower Limit</source>
@@ -1088,7 +1068,7 @@
     </message>
     <message>
         <source>First Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Primeiro nome</translation>
     </message>
     <message>
         <source>5-Zone Heart Rate Limits</source>
@@ -1096,7 +1076,7 @@
     </message>
     <message>
         <source>Gender</source>
-        <translation type="unfinished"></translation>
+        <translation>Gênero</translation>
     </message>
     <message>
         <source>Heart Rate Maximum</source>
@@ -1105,7 +1085,7 @@
     <message>
         <source>Height</source>
         <extracomment>Height of a person</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Altura</translation>
     </message>
     <message>
         <source>Hip Circumference</source>
@@ -1113,7 +1093,7 @@
     </message>
     <message>
         <source>Last Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Sobrenome</translation>
     </message>
     <message>
         <source>Maximum Recommended Heart Rate</source>
@@ -1145,7 +1125,7 @@
     </message>
     <message>
         <source>Weight</source>
-        <translation type="unfinished"></translation>
+        <translation>Peso</translation>
     </message>
     <message>
         <source>Database Change Increment</source>
@@ -1182,7 +1162,7 @@
     </message>
     <message>
         <source>Language</source>
-        <translation type="unfinished"></translation>
+        <translation>Idioma</translation>
     </message>
     <message>
         <source>Barometric Pressure Trend</source>
@@ -1238,6 +1218,26 @@
     </message>
     <message>
         <source>Unknown Service</source>
+        <translation>Serviço desconhecido</translation>
+    </message>
+    <message>
+        <source>Running Speed and Cadance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cycling Speed and Cadance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Multi-Channel Adaptation Protocol -Conrol</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cycling Power COntrol Point</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Server Characteristic Configuratio</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1273,32 +1273,28 @@
     </message>
     <message>
         <source>Cannot write while not connected</source>
-        <translation type="unfinished"></translation>
+        <translation>Não é possível escrever enquanto não estiver conectado</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Connecting to port is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Tentando conectar enquanto a conexão está em progresso</translation>
     </message>
     <message>
         <source>Service cannot be found</source>
-        <translation type="unfinished"></translation>
+        <translation>O serviço não pode ser encontrado</translation>
     </message>
     <message>
         <source>Invalid data/data size</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamanho de data/data inválido</translation>
     </message>
     <message>
         <source>Cannot read while not connected</source>
-        <translation type="unfinished"></translation>
+        <translation>Não é possível ler enquanto não estiver conectado</translation>
     </message>
     <message>
         <source>Cannot connect to %1</source>
         <comment>%1 = uuid</comment>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível conectar a %1</translation>
     </message>
     <message>
         <source>Device does not support Bluetooth</source>
@@ -1306,113 +1302,117 @@
     </message>
     <message>
         <source>Device is powered off</source>
-        <translation type="unfinished"></translation>
+        <translation>O dispositivo está desligado</translation>
     </message>
     <message>
         <source>Cannot access address %1</source>
         <comment>%1 = Bt address e.g. 11:22:33:44:55:66</comment>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível acessar o endereço %1</translation>
     </message>
     <message>
         <source>Cannot connect to %1 on %2</source>
         <comment>%1 = uuid, %2 = Bt address</comment>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível conectar a %1 em %2</translation>
     </message>
     <message>
         <source>Socket type not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Tipo de socket não suportado</translation>
     </message>
     <message>
         <source>Obtaining streams for service failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Falha ao obter fluxos para o serviço</translation>
     </message>
     <message>
         <source>Input stream thread cannot be started</source>
-        <translation type="unfinished"></translation>
+        <translation>O fluxo de entrada não pode ser iniciado</translation>
     </message>
     <message>
         <source>Connection to service failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Falha ao conectar ao serviço</translation>
     </message>
     <message>
         <source>Error during write on socket.</source>
-        <translation type="unfinished"></translation>
+        <translation>Erro ao escrever no socket.</translation>
     </message>
     <message>
         <source>Network error during read</source>
-        <translation type="unfinished"></translation>
+        <translation>Erro de rede durante a leitura</translation>
     </message>
     <message>
         <source>Unknown socket error</source>
-        <translation type="unfinished"></translation>
+        <translation>Erro de socket desconhecido</translation>
     </message>
     <message>
         <source>Cannot set connection security level</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível definir o nível de segurança da conexão</translation>
     </message>
     <message>
         <source>Network Error: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Erro de rede: %1</translation>
     </message>
     <message>
         <source>Cannot export profile on DBus</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível exportar o perfil do DBus</translation>
     </message>
     <message>
         <source>Cannot register profile on DBus</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível registrar o perfil do DBus</translation>
     </message>
     <message>
         <source>Cannot find remote device</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possíve encontrar o dispositivo remoto</translation>
     </message>
     <message>
         <source>Cannot connect to remote profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível conectar ao perfil remoto</translation>
     </message>
     <message>
         <source>Missing serviceUuid or Serial Port service class uuid</source>
-        <translation type="unfinished"></translation>
+        <translation>O serviceUuid ou classe de serviço uuid de porta serial faltando</translation>
     </message>
     <message>
         <source>Invalid Bluetooth address passed to connectToService()</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Network error</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Remote host closed connection</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Connection timed out</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Host not reachable</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Host refused connection</source>
-        <translation type="unfinished"></translation>
+        <translation>Endereço Bluetooth inválido passado para o connectToService()</translation>
     </message>
     <message>
         <source>Unsupported protocol. Win32 only supports RFCOMM sockets</source>
-        <translation type="unfinished"></translation>
+        <translation>Protocolo não suportado. O Win32 suporta somente sockets RFCOMM</translation>
     </message>
     <message>
         <source>Failed to create socket</source>
-        <translation type="unfinished"></translation>
+        <translation>Falha ao criar o socket</translation>
     </message>
     <message>
         <source>Socket type not handled: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Tipo de socket não manejado: %1</translation>
     </message>
     <message>
         <source>Logic error: more bytes sent than passed to ::send</source>
-        <translation type="unfinished"></translation>
+        <translation>Erro de lógica: mais bytes enviados que os passados para o ::send</translation>
+    </message>
+    <message>
+        <source>Network error</source>
+        <translation>Erro de rede</translation>
+    </message>
+    <message>
+        <source>Remote host closed connection</source>
+        <translation>A máquina remota fechou a conexão</translation>
+    </message>
+    <message>
+        <source>Connection timed out</source>
+        <translation>A conexão espirou</translation>
+    </message>
+    <message>
+        <source>Host not reachable</source>
+        <translation>Máquina não alcançável</translation>
+    </message>
+    <message>
+        <source>Host refused connection</source>
+        <translation>A máquina recusou a conexão</translation>
+    </message>
+    <message>
+        <source>Connecting to port is not supported</source>
+        <translation>Conectar a uma porta não é suportado</translation>
     </message>
 </context>
 <context>
@@ -1432,52 +1432,52 @@
 <context>
     <name>QBluetoothTransferReply</name>
     <message>
-        <source>QIODevice cannot be read.Make sure it is open for reading.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Invalid target address</source>
         <translation>Endereço de destino inválido</translation>
     </message>
     <message>
         <source>Push session cannot be started</source>
-        <translation type="unfinished"></translation>
+        <translation>A sessão push não pode ser iniciada</translation>
     </message>
     <message>
         <source>Push session cannot connect</source>
-        <translation type="unfinished"></translation>
+        <translation>A sessão push não pode se conectar</translation>
     </message>
     <message>
         <source>Source file does not exist</source>
-        <translation type="unfinished"></translation>
+        <translation>O arquivo de origem não existe</translation>
     </message>
     <message>
         <source>QIODevice cannot be read. Make sure it is open for reading.</source>
-        <translation type="unfinished"></translation>
+        <translation>QIODevice não pode ser lido. Certifique-se de abri-lo para leitura.</translation>
     </message>
     <message>
         <source>Push session failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Falha na sessão push</translation>
     </message>
     <message>
         <source>Invalid input device (null)</source>
-        <translation type="unfinished"></translation>
+        <translation>Dispositivo de entrada inválido (nulo)</translation>
     </message>
     <message>
         <source>Operation canceled</source>
-        <translation type="unfinished"></translation>
+        <translation>Operação cancelada</translation>
     </message>
     <message>
         <source>Transfer already started</source>
-        <translation type="unfinished"></translation>
+        <translation>A transferência já foi iniciada</translation>
     </message>
     <message>
         <source>Push service not found</source>
-        <translation type="unfinished"></translation>
+        <translation>O serviço push não foi encontrado</translation>
+    </message>
+    <message>
+        <source>QIODevice cannot be read.Make sure it is open for reading.</source>
+        <translation>QIODevice não pode ser lido. Certifique-se de abri-lo para leitura.</translation>
     </message>
     <message>
         <source>Resurce busy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Recurso ocupado.</translation>
     </message>
 </context>
 <context>
@@ -1503,51 +1503,51 @@
     <name>QLowEnergyController</name>
     <message>
         <source>Remote device cannot be found</source>
-        <translation type="unfinished"></translation>
+        <translation>O dispositivo remoto não pode ser encontrado</translation>
     </message>
     <message>
         <source>Cannot find local adapter</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível encontrar o adaptador local</translation>
     </message>
     <message>
         <source>Error occurred during connection I/O</source>
-        <translation type="unfinished"></translation>
+        <translation>Ocorreu um erro durante a conexão de E/S</translation>
     </message>
     <message>
         <source>Unknown Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Erro desconhecido</translation>
     </message>
     <message>
         <source>Advertisement data is larger than 31 bytes</source>
-        <translation type="unfinished"></translation>
+        <translation>Os dados de publicidade são maiores que 31 bytes</translation>
     </message>
     <message>
         <source>Advertisement feature not supported on the platform</source>
-        <translation type="unfinished"></translation>
+        <translation>O recurso de publicidade não é suportado na plataforma</translation>
     </message>
     <message>
         <source>Error occurred trying to start advertising</source>
-        <translation type="unfinished"></translation>
+        <translation>Ocorreu um erro ao tentar iniciar a publicidade</translation>
     </message>
     <message>
         <source>Failed due to too many advertisers</source>
-        <translation type="unfinished"></translation>
+        <translation>Falha devido a muitas publicidades</translation>
     </message>
     <message>
         <source>Unknown advertisement error</source>
-        <translation type="unfinished"></translation>
+        <translation>Erro de publicidade desconhecido</translation>
     </message>
     <message>
         <source>Error occurred trying to connect to remote device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ocorreu um erro ao tentar conectar ao dispositivo remoto.</translation>
     </message>
     <message>
         <source>Remote device closed the connection</source>
-        <translation type="unfinished"></translation>
+        <translation>O dispositivo remoto fechou a conexão</translation>
     </message>
     <message>
         <source>Failed to authorize on the remote device</source>
-        <translation type="unfinished"></translation>
+        <translation>Falha de autorização no dispositivo remoto</translation>
     </message>
 </context>
 </TS>

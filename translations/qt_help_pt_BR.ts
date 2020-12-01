@@ -2,6 +2,17 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="pt_BR">
 <context>
+    <name>FilterNameDialogClass</name>
+    <message>
+        <source>Add Filter</source>
+        <translation>Adicionar filtro</translation>
+    </message>
+    <message>
+        <source>Filter Name:</source>
+        <translation>Nome do filtro:</translation>
+    </message>
+</context>
+<context>
     <name>QHelp</name>
     <message>
         <source>Untitled</source>
@@ -10,10 +21,6 @@
 </context>
 <context>
     <name>QHelpCollectionHandler</name>
-    <message>
-        <source>The collection file &apos;%1&apos; is not set up yet.</source>
-        <translation>O arquivo de coleção &apos;%1&apos; não foi configurado ainda.</translation>
-    </message>
     <message>
         <source>The collection file &quot;%1&quot; is not set up yet.</source>
         <translation>O arquivo de coleção &quot;%1&quot; não foi configurado ainda.</translation>
@@ -29,10 +36,6 @@
     <message>
         <source>Cannot create tables in file %1.</source>
         <translation>Não foi possível criar as tabelas no arquivo %1.</translation>
-    </message>
-    <message>
-        <source>The collection file &apos;%1&apos; already exists.</source>
-        <translation>O arquivo de coleção &apos;%1&apos; já existe.</translation>
     </message>
     <message>
         <source>Cannot create index tables in file %1.</source>
@@ -51,28 +54,12 @@
         <translation>O arquivo de coleção &quot;%1&quot; já existe.</translation>
     </message>
     <message>
-        <source>Version %1</source>
-        <translation>Versão %1</translation>
-    </message>
-    <message>
         <source>Cannot create directory: %1</source>
         <translation>Não foi possível criar a pasta: %1</translation>
     </message>
     <message>
         <source>Cannot copy collection file: %1</source>
         <translation>Não foi possível copiar o arquivo de coleção: %1</translation>
-    </message>
-    <message>
-        <source>Unknown filter &apos;%1&apos;.</source>
-        <translation>Filtro desconhecido: &apos;%1&apos;.</translation>
-    </message>
-    <message>
-        <source>Cannot register namespace &apos;%1&apos;.</source>
-        <translation>Não foi possível registrar o espaço de nome &apos;%1&apos;.</translation>
-    </message>
-    <message>
-        <source>Cannot open database &apos;%1&apos; to optimize.</source>
-        <translation>Não foi possível abrir o banco de dados &apos;%1&apos; para otimização.</translation>
     </message>
     <message>
         <source>Unknown filter &quot;%1&quot;.</source>
@@ -85,10 +72,6 @@
     <message>
         <source>Cannot open documentation file %1.</source>
         <translation>Não foi possível abrir o arquivo de documentação %1.</translation>
-    </message>
-    <message>
-        <source>Invalid documentation file &apos;%1&apos;.</source>
-        <translation>Arquivo de documentação inválido &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Invalid documentation file &quot;%1&quot;.</source>
@@ -110,18 +93,121 @@
         <source>Cannot register virtual folder &apos;%1&apos;.</source>
         <translation>Não foi possível registrar a pasta virtual &apos;%1&apos;.</translation>
     </message>
+    <message>
+        <source>Version %1</source>
+        <translation>Versão %1</translation>
+    </message>
+    <message>
+        <source>The collection file &apos;%1&apos; is not set up yet.</source>
+        <translation>O arquivo de coleção &apos;%1&apos; não foi configurado ainda.</translation>
+    </message>
+    <message>
+        <source>The collection file &apos;%1&apos; already exists.</source>
+        <translation>O arquivo de coleção &apos;%1&apos; já existe.</translation>
+    </message>
+    <message>
+        <source>Unknown filter &apos;%1&apos;.</source>
+        <translation>Filtro desconhecido: &apos;%1&apos;.</translation>
+    </message>
+    <message>
+        <source>Invalid documentation file &apos;%1&apos;.</source>
+        <translation>Arquivo de documentação inválido &apos;%1&apos;.</translation>
+    </message>
+    <message>
+        <source>Cannot register namespace &apos;%1&apos;.</source>
+        <translation>Não foi possível registrar o espaço de nome &apos;%1&apos;.</translation>
+    </message>
+    <message>
+        <source>Cannot open database &apos;%1&apos; to optimize.</source>
+        <translation>Não foi possível abrir o banco de dados &apos;%1&apos; para otimização.</translation>
+    </message>
 </context>
 <context>
     <name>QHelpDBReader</name>
+    <message>
+        <source>Cannot open database &quot;%1&quot; &quot;%2&quot;: %3</source>
+        <extracomment>The placeholders are: %1 - The name of the database which cannot be opened %2 - The unique id for the connection %3 - The actual error string</extracomment>
+        <translation>Não foi possível abrir o banco de dados &quot;%1&quot; &quot;%2&quot;: %3</translation>
+    </message>
     <message>
         <source>Cannot open database &apos;%1&apos; &apos;%2&apos;: %3</source>
         <extracomment>The placeholders are: %1 - The name of the database which cannot be opened %2 - The unique id for the connection %3 - The actual error string</extracomment>
         <translation>Não foi possível abrir o banco de dados &apos;%1&apos; &apos;%2&apos;: %3</translation>
     </message>
+</context>
+<context>
+    <name>QHelpFilterSettingsWidget</name>
     <message>
-        <source>Cannot open database &quot;%1&quot; &quot;%2&quot;: %3</source>
-        <extracomment>The placeholders are: %1 - The name of the database which cannot be opened %2 - The unique id for the connection %3 - The actual error string</extracomment>
-        <translation>Não foi possível abrir o banco de dados &quot;%1&quot; &quot;%2&quot;: %3</translation>
+        <source>Form</source>
+        <translation>Formulário</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filtro</translation>
+    </message>
+    <message>
+        <source>Components</source>
+        <translation>Componentes</translation>
+    </message>
+    <message>
+        <source>Versions</source>
+        <translation>Versões</translation>
+    </message>
+    <message>
+        <source>Add...</source>
+        <translation>Adicionar...</translation>
+    </message>
+    <message>
+        <source>Rename...</source>
+        <translation>Renomear...</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Excluir</translation>
+    </message>
+    <message>
+        <source>Add Filter</source>
+        <translation>Adicionar filtro</translation>
+    </message>
+    <message>
+        <source>New Filter</source>
+        <translation>Novo filtro</translation>
+    </message>
+    <message>
+        <source>Rename Filter</source>
+        <translation>Renomear filtro</translation>
+    </message>
+    <message>
+        <source>Remove Filter</source>
+        <translation>Excluir filtro</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to remove the &quot;%1&quot; filter?</source>
+        <translation>Tem certeza de que deseja excluir o filtro &quot;%1&quot;?</translation>
+    </message>
+    <message>
+        <source>Filter Exists</source>
+        <translation>Filtro existe</translation>
+    </message>
+    <message>
+        <source>The filter &quot;%1&quot; already exists.</source>
+        <translation>O filtro %1&quot; já existe.</translation>
+    </message>
+    <message>
+        <source>No Component</source>
+        <translation>Sem componente</translation>
+    </message>
+    <message>
+        <source>Invalid Component</source>
+        <translation>Componente inválido</translation>
+    </message>
+    <message>
+        <source>No Version</source>
+        <translation>Sem versão</translation>
+    </message>
+    <message>
+        <source>Invalid Version</source>
+        <translation>Versão inválida</translation>
     </message>
 </context>
 <context>
@@ -131,16 +217,16 @@
         <translation>Pesquisar por:</translation>
     </message>
     <message>
+        <source>Search</source>
+        <translation>Pesquisar</translation>
+    </message>
+    <message>
         <source>Previous search</source>
         <translation>Pesquisa anterior</translation>
     </message>
     <message>
         <source>Next search</source>
         <translation>Próxima pesquisa</translation>
-    </message>
-    <message>
-        <source>Search</source>
-        <translation>Pesquisar</translation>
     </message>
     <message>
         <source>Advanced search</source>
@@ -179,6 +265,17 @@
     <message>
         <source>0 - 0 of 0 Hits</source>
         <translation>0 - 0 de 0 ocorrências</translation>
+    </message>
+</context>
+<context>
+    <name>QOptionsWidget</name>
+    <message>
+        <source>No Option</source>
+        <translation>Sem opção</translation>
+    </message>
+    <message>
+        <source>Invalid Option</source>
+        <translation>Opção inválida</translation>
     </message>
 </context>
 <context>

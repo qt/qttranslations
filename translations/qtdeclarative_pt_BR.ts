@@ -4,18 +4,6 @@
 <context>
     <name>Object</name>
     <message>
-        <source>Duplicate method name</source>
-        <translation>Nome de método duplicado</translation>
-    </message>
-    <message>
-        <source>Method names cannot begin with an upper case letter</source>
-        <translation>Nomes de métodos não pode começar com uma letra maiúscula</translation>
-    </message>
-    <message>
-        <source>Illegal method name</source>
-        <translation>nome de método ilegal</translation>
-    </message>
-    <message>
         <source>Duplicate scoped enum name</source>
         <translation>Nome de enumeração com escopo duplicado</translation>
     </message>
@@ -47,19 +35,17 @@
         <source>Property value set multiple times</source>
         <translation>O valor da propriedade foi definido várias vezes</translation>
     </message>
-</context>
-<context>
-    <name>QInputMethod</name>
     <message>
-        <source>InputMethod is an abstract class</source>
-        <translation>O InputMethod é uma classe abstrata</translation>
+        <source>Duplicate method name</source>
+        <translation>Nome de método duplicado</translation>
     </message>
-</context>
-<context>
-    <name>QQmlAbstractDelegateComponent</name>
     <message>
-        <source>Cannot create instance of abstract class AbstractDelegateComponent.</source>
-        <translation>Não é possível criar instância da classe abstrata AbstractDelegateComponent.</translation>
+        <source>Method names cannot begin with an upper case letter</source>
+        <translation>Nomes de métodos não pode começar com uma letra maiúscula</translation>
+    </message>
+    <message>
+        <source>Illegal method name</source>
+        <translation>nome de método ilegal</translation>
     </message>
 </context>
 <context>
@@ -93,10 +79,6 @@
         <translation>O ID não é exclusivo</translation>
     </message>
     <message>
-        <source>Invalid alias location</source>
-        <translation>Localização de alias inválida</translation>
-    </message>
-    <message>
         <source>Circular alias reference detected</source>
         <translation>Referência de alias circular detectada</translation>
     </message>
@@ -107,6 +89,10 @@
     <message>
         <source>Invalid alias target location: %1</source>
         <translation>Localização de alias de destino inválida: %1</translation>
+    </message>
+    <message>
+        <source>Invalid alias location</source>
+        <translation>Localização de alias inválida</translation>
     </message>
 </context>
 <context>
@@ -311,6 +297,14 @@
 		  depuração no console do depurador.</translation>
     </message>
     <message>
+        <source>helps to see if a translated text
+		  will result in an elided text
+		  in QML elements.</source>
+        <translation>ajuda a ver se um texto traduzido
+		  resultará em um texto elidido
+		  nos elementos QML.</translation>
+    </message>
+    <message>
         <source>Other services offered by qmltooling plugins that implement QQmlDebugServiceFactory and which can be found in the standard plugin paths will also be available and can be specified. If no &quot;services&quot; argument is given, all services found this way, including the default ones, are loaded.</source>
         <translation>Outros serviços oferecidos pelos plugins do qmltooling que implementam o QQmlDebugServiceFactory e que podem ser encontrados nos caminhos padrões de plugins também estarão disponíveis e podem ser especificados. Se nenhum argumento &quot;services&quot; for fornecido, todos os serviços encontrados desta forma, incluindo os padrões, serão carregados.</translation>
     </message>
@@ -436,10 +430,6 @@
 <context>
     <name>QQmlEngine</name>
     <message>
-        <source>Locale cannot be instantiated.  Use Qt.locale()</source>
-        <translation>A localidade não pode ser instanciada. Use Qt.locale()</translation>
-    </message>
-    <message>
         <source>Locale cannot be instantiated. Use Qt.locale()</source>
         <translation>A localidade não pode ser instanciada. Use Qt.locale()</translation>
     </message>
@@ -479,6 +469,10 @@
         <source>SQL: database version mismatch</source>
         <translation>SQL: incompatibilidade de versão de banco de dados</translation>
     </message>
+    <message>
+        <source>Locale cannot be instantiated.  Use Qt.locale()</source>
+        <translation>A localidade não pode ser instanciada. Use Qt.locale()</translation>
+    </message>
 </context>
 <context>
     <name>QQmlEnumTypeResolver</name>
@@ -498,8 +492,16 @@
         <translation>&quot;%1&quot; é ambíguo. Encontrado em %2 e em %3</translation>
     </message>
     <message>
+        <source>- %1 is neither a type nor a namespace</source>
+        <translation>- %1 não é nem um tipo nem um espaço de nomes</translation>
+    </message>
+    <message>
         <source>- %1 is not a namespace</source>
         <translation>-%1 não é um espaço de nome</translation>
+    </message>
+    <message>
+        <source>- %1 is not a type</source>
+        <translation>- %1 não é um tipo</translation>
     </message>
     <message>
         <source>- nested namespaces not allowed</source>
@@ -530,12 +532,12 @@
         <translation>plugin estático para o módulo &quot;%1&quot; com o nome &quot;%2&quot; não tem metadados URI</translation>
     </message>
     <message>
-        <source>plugin cannot be loaded for module &quot;%1&quot;: %2</source>
-        <translation>plugin não pode ser carregado para o módulo &quot;%1&quot;:%2</translation>
-    </message>
-    <message>
         <source>module does not support the designer &quot;%1&quot;</source>
         <translation>módulo não suporta o designer &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source>plugin cannot be loaded for module &quot;%1&quot;: %2</source>
+        <translation>plugin não pode ser carregado para o módulo &quot;%1&quot;:%2</translation>
     </message>
     <message>
         <source>static plugin for module &quot;%1&quot; with name &quot;%2&quot; cannot be loaded: %3</source>
@@ -570,6 +572,10 @@
         <translation>import &quot;%1&quot; não tem qmldir e nenhum espaço de nome</translation>
     </message>
     <message>
+        <source>File name case mismatch for &quot;%1&quot;</source>
+        <translation>Incompatibilidade de maiúsculas e minúsculas no nome do arquivo para &quot;%1&quot;</translation>
+    </message>
+    <message>
         <source>Module loaded for URI &apos;%1&apos; does not implement QQmlTypesExtensionInterface</source>
         <translation>Módulo carregado para URI &apos;%1&apos; não implementa QQmlTypesExtensionInterface</translation>
     </message>
@@ -585,10 +591,6 @@
         <source>Module &apos;%1&apos; does not contain a module identifier directive - it cannot be protected from external registrations.</source>
         <translation>Módulo &apos;%1&apos; não contém uma diretiva identificadora do módulo - não pode ser protegido de registos externos.</translation>
     </message>
-    <message>
-        <source>File name case mismatch for &quot;%1&quot;</source>
-        <translation>Incompatibilidade de maiúsculas e minúsculas no nome do arquivo para &quot;%1&quot;</translation>
-    </message>
 </context>
 <context>
     <name>QQmlListModel</name>
@@ -599,14 +601,6 @@
     <message>
         <source>unable to enable static roles as this model is not empty</source>
         <translation>não foi possível habilitar as funções estáticas pois estes modelo não está vazio</translation>
-    </message>
-    <message>
-        <source>unable to enable dynamic roles as this model is not empty!</source>
-        <translation>não foi possível habilitar as funções dinâmicas pois este modelo não está vazio!</translation>
-    </message>
-    <message>
-        <source>unable to enable static roles as this model is not empty!</source>
-        <translation>não foi possível habilitar as funções estáticas pois este modelo não está vazio!</translation>
     </message>
     <message>
         <source>dynamic role setting must be made from the main thread, before any worker scripts are created</source>
@@ -660,6 +654,14 @@
         <source>ListModel: undefined property &apos;%1&apos;</source>
         <translation>ListModel: propriedade indefinida &apos;%1&apos;</translation>
     </message>
+    <message>
+        <source>unable to enable dynamic roles as this model is not empty!</source>
+        <translation>não foi possível habilitar as funções dinâmicas pois este modelo não está vazio!</translation>
+    </message>
+    <message>
+        <source>unable to enable static roles as this model is not empty!</source>
+        <translation>não foi possível habilitar as funções estáticas pois este modelo não está vazio!</translation>
+    </message>
 </context>
 <context>
     <name>QQmlObjectCreator</name>
@@ -680,8 +682,8 @@
         <translation>Não é possível atribuir tipo de objeto %1 com nenhum método padrão</translation>
     </message>
     <message>
-        <source>Cannot connect mismatched signal/slot %1 %vs. %2</source>
-        <translation>Não é possível conectar sinais/slots incompatíveis %1 % versus %2</translation>
+        <source>Cannot connect mismatched signal/slot %1 vs %2</source>
+        <translation>Não é possível conectar sinais/slots incompatíveis %1 versus %2</translation>
     </message>
     <message>
         <source>Cannot assign object to interface property</source>
@@ -702,6 +704,10 @@
     <message>
         <source>Composite Singleton Type %1 is not creatable</source>
         <translation>Tipo de singleton composto %1 não é criável</translation>
+    </message>
+    <message>
+        <source>Cannot connect mismatched signal/slot %1 %vs. %2</source>
+        <translation>Não é possível conectar sinais/slots incompatíveis %1 % versus %2</translation>
     </message>
 </context>
 <context>
@@ -814,14 +820,6 @@
         <translation>Pelo menos um dígito binário é necessário após &apos;0%1&apos;</translation>
     </message>
     <message>
-        <source>Module import requires a minor version (missing dot)</source>
-        <translation>O módulo de importação requer uma versão (ponto faltante)</translation>
-    </message>
-    <message>
-        <source>Module import requires a minor version (missing number)</source>
-        <translation>O módulo de importação requer uma versão (número faltante)</translation>
-    </message>
-    <message>
         <source>Decimal numbers can&apos;t start with &apos;0&apos;</source>
         <translation>Números decimais não podem começar com &apos;0&apos;</translation>
     </message>
@@ -850,14 +848,6 @@
         <translation>Erro de sintaxe</translation>
     </message>
     <message>
-        <source>Unexpected token `%1&apos;</source>
-        <translation>Token inesperado &apos;%1&apos;</translation>
-    </message>
-    <message>
-        <source>Expected token `%1&apos;</source>
-        <translation>Token esperado &apos;%1&apos;</translation>
-    </message>
-    <message>
         <source>Imported file must be a script</source>
         <translation>O arquivo importado deve ser um script</translation>
     </message>
@@ -870,6 +860,14 @@
         <translation>O módulo de importação requer uma versão</translation>
     </message>
     <message>
+        <source>Module import requires a minor version (missing dot)</source>
+        <translation>O módulo de importação requer uma versão (ponto faltante)</translation>
+    </message>
+    <message>
+        <source>Module import requires a minor version (missing number)</source>
+        <translation>O módulo de importação requer uma versão (número faltante)</translation>
+    </message>
+    <message>
         <source>File import requires a qualifier</source>
         <translation>A importação de arquivos requer um qualificador</translation>
     </message>
@@ -880,6 +878,14 @@
     <message>
         <source>Invalid import qualifier</source>
         <translation>Qualificador de importação inválido</translation>
+    </message>
+    <message>
+        <source>Unexpected token `%1&apos;</source>
+        <translation>Token inesperado &apos;%1&apos;</translation>
+    </message>
+    <message>
+        <source>Expected token `%1&apos;</source>
+        <translation>Token esperado &apos;%1&apos;</translation>
     </message>
 </context>
 <context>
@@ -999,22 +1005,6 @@
         <translation>Acesso a propriedade agrupada inválido: Propriedade &quot;%1&quot; com o tipo &quot;%2&quot;, que não é um tipo de valor</translation>
     </message>
     <message>
-        <source> - Assigning null to incompatible properties in QML is deprecated. This will become a compile error in future versions of Qt.</source>
-        <translation> - Atribuindo nulo para propriedades incompatíveis no QML está descontinuado. Isto se tornará um erro de compilação em futuras versões do Qt.</translation>
-    </message>
-    <message>
-        <source>Cannot assign value of type &quot;%1&quot; to property &quot;%2&quot;, expecting &quot;%3&quot;</source>
-        <translation>Não é possível atribuir um valor do tipo &quot;%1&quot; para a propriedade &quot;%2&quot;, esperando &quot;%3&quot;</translation>
-    </message>
-    <message>
-        <source>Cannot assign value of type &quot;%1&quot; to property &quot;%2&quot;, expecting an object</source>
-        <translation>Não é possível atribuir um valor do tipo &quot;%1&quot; para a propriedade &quot;%2&quot;, esperando um objeto</translation>
-    </message>
-    <message>
-        <source>Cannot assign to property of unknown type &quot;%1&quot;.</source>
-        <translation>Não é possível atribuir para uma propriedade do tipo desconhecido &quot;%1&quot;.</translation>
-    </message>
-    <message>
         <source>Cannot assign to non-existent default property</source>
         <translation>Não é possível atribuir a uma propriedade padrão inexistente</translation>
     </message>
@@ -1033,6 +1023,10 @@
     <message>
         <source>Invalid property assignment: unknown enumeration</source>
         <translation>Atribuição de propriedade inválida: enumeração desconhecida</translation>
+    </message>
+    <message>
+        <source> - Assigning null to incompatible properties in QML is deprecated. This will become a compile error in future versions of Qt.</source>
+        <translation> - Atribuindo nulo para propriedades incompatíveis no QML está descontinuado. Isto se tornará um erro de compilação em futuras versões do Qt.</translation>
     </message>
     <message>
         <source>Invalid property assignment: string expected</source>
@@ -1095,18 +1089,6 @@
         <translation>Atribuição de propriedade inválida: booleano esperados</translation>
     </message>
     <message>
-        <source>Cannot assign object to list</source>
-        <translation>Não foi possível atribuir o objeto à lista</translation>
-    </message>
-    <message>
-        <source>Unexpected object assignment</source>
-        <translation>Atribuição de objeto inesperada</translation>
-    </message>
-    <message>
-        <source>Cannot assign object to property</source>
-        <translation>Não é possível atribuir objeto à propriedade</translation>
-    </message>
-    <message>
         <source>Invalid property assignment: 2D vector expected</source>
         <translation>Atribuição de propriedade inválida: vetor 2D esperado</translation>
     </message>
@@ -1159,11 +1141,11 @@
         <translation>Não é possível atribuir um objeto para uma lista de propriedades &quot;%1&quot;</translation>
     </message>
     <message>
-        <source>Can not assign value of type &quot;%1&quot; to property &quot;%2&quot;, expecting &quot;%3&quot;</source>
+        <source>Cannot assign value of type &quot;%1&quot; to property &quot;%2&quot;, expecting &quot;%3&quot;</source>
         <translation>Não é possível atribuir um valor do tipo &quot;%1&quot; para a propriedade &quot;%2&quot;, esperando &quot;%3&quot;</translation>
     </message>
     <message>
-        <source>Can not assign value of type &quot;%1&quot; to property &quot;%2&quot;, expecting an object</source>
+        <source>Cannot assign value of type &quot;%1&quot; to property &quot;%2&quot;, expecting an object</source>
         <translation>Não é possível atribuir um valor do tipo &quot;%1&quot; para a propriedade &quot;%2&quot;, esperando um objeto</translation>
     </message>
     <message>
@@ -1173,6 +1155,22 @@
     <message>
         <source>Cannot assign object of type &quot;%1&quot; to property of type &quot;%2&quot; as the former is neither the same as the latter nor a sub-class of it.</source>
         <translation>Não é possível atribuir um valor do tipo &quot;%1&quot; para a propriedade &quot;%2&quot; pois o primeiro não é o mesmo que o último, nem uma subclasse dele.</translation>
+    </message>
+    <message>
+        <source>Cannot assign to property of unknown type &quot;%1&quot;.</source>
+        <translation>Não é possível atribuir para uma propriedade do tipo desconhecido &quot;%1&quot;.</translation>
+    </message>
+    <message>
+        <source>Cannot assign object to list</source>
+        <translation>Não foi possível atribuir o objeto à lista</translation>
+    </message>
+    <message>
+        <source>Unexpected object assignment</source>
+        <translation>Atribuição de objeto inesperada</translation>
+    </message>
+    <message>
+        <source>Cannot assign object to property</source>
+        <translation>Não é possível atribuir objeto à propriedade</translation>
     </message>
 </context>
 <context>
@@ -1204,8 +1202,20 @@
         <translation>Não é possível atualizar o conteúdo do qmldir para &apos;%1&apos;</translation>
     </message>
     <message>
+        <source>File was compiled ahead of time with an incompatible version of Qt and the original file cannot be found. Please recompile</source>
+        <translation>O arquivo foi compilado antes do tempo com uma versão incompatível do Qt e o arquivo original não pode ser encontrado. Recompile</translation>
+    </message>
+    <message>
+        <source>No such file or directory</source>
+        <translation>Não existe este arquivo ou pasta</translation>
+    </message>
+    <message>
         <source>Script %1 unavailable</source>
         <translation>Script %1 não disponível</translation>
+    </message>
+    <message>
+        <source>Type %1 has no inline component type called %2</source>
+        <translation>Tipo %1 não tem nenhum componente embutido chamado %2</translation>
     </message>
     <message>
         <source>Type %1 unavailable</source>
@@ -1222,14 +1232,6 @@
     <message>
         <source>qmldir defines type as singleton, but no pragma Singleton found in type %1.</source>
         <translation>O qmldir define o tipo como singleton, mas nenhum pragma Singleton encontrado no tipo %1.</translation>
-    </message>
-    <message>
-        <source>File was compiled ahead of time with an incompatible version of Qt and the original file cannot be found. Please recompile</source>
-        <translation>O arquivo foi compilado antes do tempo com uma versão incompatível do Qt e o arquivo original não pode ser encontrado. Recompile</translation>
-    </message>
-    <message>
-        <source>No such file or directory</source>
-        <translation>Não existe este arquivo ou pasta</translation>
     </message>
     <message>
         <source>File is empty</source>
@@ -1269,13 +1271,6 @@
     <message>
         <source>Animator is an abstract class</source>
         <translation>Animator é uma classe abstrata</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickAccessibleAttached</name>
-    <message>
-        <source>Accessible is only available via attached properties</source>
-        <translation>Acessível só está disponível através de propriedades anexadas</translation>
     </message>
 </context>
 <context>
@@ -1337,38 +1332,10 @@
     </message>
 </context>
 <context>
-    <name>QQuickAnimatedImage</name>
-    <message>
-        <source>Qt was built without support for QMovie</source>
-        <translation>O Qt foi compilado sem suporte para QMovie</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickApplication</name>
-    <message>
-        <source>Application is an abstract class</source>
-        <translation>Application é uma classe abstrata</translation>
-    </message>
-</context>
-<context>
     <name>QQuickBehavior</name>
     <message>
         <source>Cannot change the animation assigned to a Behavior.</source>
         <translation>Não é possível alterar a animação atribuída a um Behavior.</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickDragAttached</name>
-    <message>
-        <source>Drag is only available via attached properties</source>
-        <translation>Arrastar só está disponível através de propriedades anexadas</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickDragHandler</name>
-    <message>
-        <source>DragAxis is only available as a grouped property of DragHandler</source>
-        <translation>O DragAxis só está disponível via propriedade agrupada do DragHandler</translation>
     </message>
 </context>
 <context>
@@ -1394,46 +1361,25 @@
     </message>
 </context>
 <context>
-    <name>QQuickGraphicsInfo</name>
-    <message>
-        <source>GraphicsInfo is only available via attached properties</source>
-        <translation>O GraphicsInfo só está disponível via propriedades anexadas</translation>
-    </message>
-</context>
-<context>
     <name>QQuickItemView</name>
-    <message>
-        <source>ItemView is an abstract base class</source>
-        <translation>ItemView é uma classe base abstrata</translation>
-    </message>
     <message>
         <source>Delegate must be of Item type</source>
         <translation>Delegate deve ser do tipo Item</translation>
     </message>
-</context>
-<context>
-    <name>QQuickKeyNavigationAttached</name>
     <message>
-        <source>KeyNavigation is only available via attached properties</source>
-        <translation>KeyNavigation só está disponível através de propriedades anexadas</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickKeysAttached</name>
-    <message>
-        <source>Keys is only available via attached properties</source>
-        <translation>Keys só está disponível através de propriedades anexadas</translation>
+        <source>ItemView is an abstract base class</source>
+        <translation>ItemView é uma classe base abstrata</translation>
     </message>
 </context>
 <context>
     <name>QQuickLayoutMirroringAttached</name>
     <message>
-        <source>LayoutDirection attached property only works with Items</source>
-        <translation>A propriedade anexada LayoutDirection só funciona com Items</translation>
-    </message>
-    <message>
         <source>LayoutDirection attached property only works with Items and Windows</source>
         <translation>A propriedade anexada LayoutDirection só funciona com Items e Windows</translation>
+    </message>
+    <message>
+        <source>LayoutDirection attached property only works with Items</source>
+        <translation>A propriedade anexada LayoutDirection só funciona com Items</translation>
     </message>
     <message>
         <source>LayoutMirroring is only available via attached properties</source>
@@ -1445,31 +1391,6 @@
     <message>
         <source>setSource: value is not an object</source>
         <translation>setSource: o valor não é um objeto</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickMouseEvent</name>
-    <message>
-        <source>GestureEvent is only available in the context of handling the gestureStarted signal from MultiPointTouchArea</source>
-        <translation>O GestureEvent só está disponível no contexto da manipulação do sinal gestureStarted a partir do MultiPointTouchArea</translation>
-    </message>
-    <message>
-        <source>MouseEvent is only available within handlers in MouseArea</source>
-        <translation>O MouseEvent só está disponível dentro dos manipuladores no MouseArea</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickOpenGLInfo</name>
-    <message>
-        <source>OpenGLInfo is only available via attached properties</source>
-        <translation>OpenGLInfo só está disponível através de propriedades anexadas</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickPaintedItem</name>
-    <message>
-        <source>Cannot create instance of abstract class PaintedItem</source>
-        <translation>Não é possível criar instância da classe abstrata PaintedItem</translation>
     </message>
 </context>
 <context>
@@ -1546,51 +1467,12 @@
         <translation>Erro de decodificação: %1</translation>
     </message>
     <message>
-        <source>Invalid image data: %1</source>
-        <translation>Dados da imagem inválidos: %1</translation>
-    </message>
-    <message>
         <source>Cannot open: %1</source>
         <translation>Não é possível abrir %1</translation>
     </message>
-</context>
-<context>
-    <name>QQuickPointerHandler</name>
     <message>
-        <source>PointerEvent is only available as a parameter of several signals in PointerHandler</source>
-        <translation>O PointerEvent só está disponível como parâmetro de diversos sinais no PointerHandler</translation>
-    </message>
-    <message>
-        <source>PointerMouseEvent is only available as a parameter of several signals in PointerHandler</source>
-        <translation>O PointerMouseEvent só está disponível como parâmetro de diversos sinais no PointerHandler</translation>
-    </message>
-    <message>
-        <source>PointerTouchEvent is only available as a parameter of several signals in PointerHandler</source>
-        <translation>O PointerTouchEvent só está disponível como parâmetro de diversos sinais no PointerHandler</translation>
-    </message>
-    <message>
-        <source>EventPoint is only available as a member of PointerEvent</source>
-        <translation>O EventPoint só está disponível como membro do PointerEvent</translation>
-    </message>
-    <message>
-        <source>EventTouchPoint is only available as a member of PointerEvent</source>
-        <translation>O EventTouchPoint só está disponível como membro do PointerEvent</translation>
-    </message>
-    <message>
-        <source>PointerDevice is only available as a property of PointerEvent</source>
-        <translation>O PointerDevice só está disponível como propriedade do PointerEvent</translation>
-    </message>
-    <message>
-        <source>PointerHandler is an abstract base class</source>
-        <translation>PointerHandler é uma classe base abstrata</translation>
-    </message>
-    <message>
-        <source>PointerScrollEvent is only available via the WheelHandler::wheel signal</source>
-        <translation>O PointerScrollEvent só está disponível através do sinal WheelHandler::wheel</translation>
-    </message>
-    <message>
-        <source>ImageBase is an abstract base class</source>
-        <translation>ImageBase é uma classe base abstrata</translation>
+        <source>Invalid image data: %1</source>
+        <translation>Dados da imagem inválidos: %1</translation>
     </message>
 </context>
 <context>
@@ -1623,20 +1505,6 @@
     </message>
 </context>
 <context>
-    <name>QQuickShaderEffectMesh</name>
-    <message>
-        <source>Cannot create instance of abstract class ShaderEffectMesh.</source>
-        <translation>Não é possível criar instância da classe abstrata ShaderEffectMesh.</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickShapeGradient</name>
-    <message>
-        <source>ShapeGradient is an abstract base class</source>
-        <translation>ShapeGradient é uma classe base abstrata</translation>
-    </message>
-</context>
-<context>
     <name>QQuickTextUtil</name>
     <message>
         <source>%1 does not support loading non-visual cursor delegates.</source>
@@ -1645,20 +1513,6 @@
     <message>
         <source>Could not load cursor delegate</source>
         <translation>Não foi possível carregar o cursor delegado</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickTouchPoint</name>
-    <message>
-        <source>PointingDeviceUniqueId is only available via read-only properties</source>
-        <translation>O PointingDeviceUniqueId só está disponível através de propriedades somente leitura</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickViewTransitionAttached</name>
-    <message>
-        <source>ViewTransition is only available via attached properties</source>
-        <translation>ViewTransition só está disponível através de propriedades anexadas</translation>
     </message>
 </context>
 <context>
@@ -1678,6 +1532,10 @@ Instale um driver que forneça OpenGL 2.0 ou superior, ou, se isso não for poss
         <source>Failed to create %1 context for format %2</source>
         <extracomment>%1 Context type (Open GL, EGL), %2 format specification</extracomment>
         <translation>Falha ao criar o contexto %1 para o formato %2</translation>
+    </message>
+    <message>
+        <source>Failed to initialize graphics backend for %1.</source>
+        <translation>Falha ao inicializar a infraestrutura de gráficos para %1.</translation>
     </message>
 </context>
 <context>
@@ -1748,6 +1606,10 @@ Instale um driver que forneça OpenGL 2.0 ou superior, ou, se isso não for poss
         <translation>QML %1 inválido chamado &quot;%2&quot;</translation>
     </message>
     <message>
+        <source>Cannot install %1 &apos;%2&apos; into protected module &apos;%3&apos; version &apos;%4&apos;</source>
+        <translation>Não é possível instalar %1 &apos;%2&apos; no módulo protegido &apos;%3&apos; versão &apos;%4&apos;</translation>
+    </message>
+    <message>
         <source>Cannot install %1 &apos;%2&apos; into unregistered namespace &apos;%3&apos;</source>
         <translation>Não é possível instalar %1 &apos;%2&apos; no espaço de nome não registrado &apos;%3&apos;</translation>
     </message>
@@ -1755,9 +1617,167 @@ Instale um driver que forneça OpenGL 2.0 ou superior, ou, se isso não for poss
         <source>Cannot install %1 &apos;%2&apos; into protected namespace &apos;%3&apos;</source>
         <translation>Não é possível instalar %1 &apos;%2&apos; no espaço de nome protegido &apos;%3&apos;</translation>
     </message>
+</context>
+<context>
+    <name>QInputMethod</name>
     <message>
-        <source>Cannot install %1 &apos;%2&apos; into protected module &apos;%3&apos; version &apos;%4&apos;</source>
-        <translation>Não é possível instalar %1 &apos;%2&apos; no módulo protegido &apos;%3&apos; versão &apos;%4&apos;</translation>
+        <source>InputMethod is an abstract class</source>
+        <translation>O InputMethod é uma classe abstrata</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlAbstractDelegateComponent</name>
+    <message>
+        <source>Cannot create instance of abstract class AbstractDelegateComponent.</source>
+        <translation>Não é possível criar instância da classe abstrata AbstractDelegateComponent.</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickAccessibleAttached</name>
+    <message>
+        <source>Accessible is only available via attached properties</source>
+        <translation>Acessível só está disponível através de propriedades anexadas</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickAnimatedImage</name>
+    <message>
+        <source>Qt was built without support for QMovie</source>
+        <translation>O Qt foi compilado sem suporte para QMovie</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickApplication</name>
+    <message>
+        <source>Application is an abstract class</source>
+        <translation>Application é uma classe abstrata</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickDragAttached</name>
+    <message>
+        <source>Drag is only available via attached properties</source>
+        <translation>Arrastar só está disponível através de propriedades anexadas</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickDragHandler</name>
+    <message>
+        <source>DragAxis is only available as a grouped property of DragHandler</source>
+        <translation>O DragAxis só está disponível via propriedade agrupada do DragHandler</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickGraphicsInfo</name>
+    <message>
+        <source>GraphicsInfo is only available via attached properties</source>
+        <translation>O GraphicsInfo só está disponível via propriedades anexadas</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickKeyNavigationAttached</name>
+    <message>
+        <source>KeyNavigation is only available via attached properties</source>
+        <translation>KeyNavigation só está disponível através de propriedades anexadas</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickKeysAttached</name>
+    <message>
+        <source>Keys is only available via attached properties</source>
+        <translation>Keys só está disponível através de propriedades anexadas</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickMouseEvent</name>
+    <message>
+        <source>GestureEvent is only available in the context of handling the gestureStarted signal from MultiPointTouchArea</source>
+        <translation>O GestureEvent só está disponível no contexto da manipulação do sinal gestureStarted a partir do MultiPointTouchArea</translation>
+    </message>
+    <message>
+        <source>MouseEvent is only available within handlers in MouseArea</source>
+        <translation>O MouseEvent só está disponível dentro dos manipuladores no MouseArea</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickOpenGLInfo</name>
+    <message>
+        <source>OpenGLInfo is only available via attached properties</source>
+        <translation>OpenGLInfo só está disponível através de propriedades anexadas</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickPaintedItem</name>
+    <message>
+        <source>Cannot create instance of abstract class PaintedItem</source>
+        <translation>Não é possível criar instância da classe abstrata PaintedItem</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickPointerHandler</name>
+    <message>
+        <source>PointerEvent is only available as a parameter of several signals in PointerHandler</source>
+        <translation>O PointerEvent só está disponível como parâmetro de diversos sinais no PointerHandler</translation>
+    </message>
+    <message>
+        <source>PointerMouseEvent is only available as a parameter of several signals in PointerHandler</source>
+        <translation>O PointerMouseEvent só está disponível como parâmetro de diversos sinais no PointerHandler</translation>
+    </message>
+    <message>
+        <source>PointerTouchEvent is only available as a parameter of several signals in PointerHandler</source>
+        <translation>O PointerTouchEvent só está disponível como parâmetro de diversos sinais no PointerHandler</translation>
+    </message>
+    <message>
+        <source>EventPoint is only available as a member of PointerEvent</source>
+        <translation>O EventPoint só está disponível como membro do PointerEvent</translation>
+    </message>
+    <message>
+        <source>EventTouchPoint is only available as a member of PointerEvent</source>
+        <translation>O EventTouchPoint só está disponível como membro do PointerEvent</translation>
+    </message>
+    <message>
+        <source>PointerDevice is only available as a property of PointerEvent</source>
+        <translation>O PointerDevice só está disponível como propriedade do PointerEvent</translation>
+    </message>
+    <message>
+        <source>PointerHandler is an abstract base class</source>
+        <translation>PointerHandler é uma classe base abstrata</translation>
+    </message>
+    <message>
+        <source>PointerScrollEvent is only available via the WheelHandler::wheel signal</source>
+        <translation>O PointerScrollEvent só está disponível através do sinal WheelHandler::wheel</translation>
+    </message>
+    <message>
+        <source>ImageBase is an abstract base class</source>
+        <translation>ImageBase é uma classe base abstrata</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickShaderEffectMesh</name>
+    <message>
+        <source>Cannot create instance of abstract class ShaderEffectMesh.</source>
+        <translation>Não é possível criar instância da classe abstrata ShaderEffectMesh.</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickShapeGradient</name>
+    <message>
+        <source>ShapeGradient is an abstract base class</source>
+        <translation>ShapeGradient é uma classe base abstrata</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickTouchPoint</name>
+    <message>
+        <source>PointingDeviceUniqueId is only available via read-only properties</source>
+        <translation>O PointingDeviceUniqueId só está disponível através de propriedades somente leitura</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickViewTransitionAttached</name>
+    <message>
+        <source>ViewTransition is only available via attached properties</source>
+        <translation>ViewTransition só está disponível através de propriedades anexadas</translation>
     </message>
 </context>
 <context>

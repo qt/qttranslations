@@ -52,10 +52,6 @@ Motivo:
         <translation>Documentação registrada com sucesso.</translation>
     </message>
     <message>
-        <source>Error: %1</source>
-        <translation>Erro: %1</translation>
-    </message>
-    <message>
         <source>Could not unregister documentation file
 %1
 
@@ -82,6 +78,10 @@ Motivo:
     <message>
         <source>Cannot load sqlite database driver!</source>
         <translation>Não foi possível carregar o driver do banco de dados sqlite!</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation>Erro: %1</translation>
     </message>
 </context>
 <context>
@@ -366,6 +366,54 @@ Motivo:
 </translation>
     </message>
     <message>
+        <source>Unknown option: %1</source>
+        <translation>Opção desconhecida: %1</translation>
+    </message>
+    <message>
+        <source>The collection file &apos;%1&apos; does not exist.</source>
+        <translation>O arquivo de coleção &apos;%1&apos; não existe.</translation>
+    </message>
+    <message>
+        <source>Missing collection file.</source>
+        <translation>Arquivo de coleção faltando.</translation>
+    </message>
+    <message>
+        <source>Invalid URL &apos;%1&apos;.</source>
+        <translation>URI invalida: &apos;%1&apos;.</translation>
+    </message>
+    <message>
+        <source>Missing URL.</source>
+        <translation>URL faltando.</translation>
+    </message>
+    <message>
+        <source>Unknown widget: %1</source>
+        <translation>Widget desconhecido: %1</translation>
+    </message>
+    <message>
+        <source>Missing widget.</source>
+        <translation>Widget faltando.</translation>
+    </message>
+    <message>
+        <source>The Qt help file &apos;%1&apos; does not exist.</source>
+        <translation>O arquivo de ajuda do Qt &apos;%1&apos; não existe.</translation>
+    </message>
+    <message>
+        <source>Missing help file.</source>
+        <translation>Arquivo de ajuda faltando.</translation>
+    </message>
+    <message>
+        <source>Missing filter argument.</source>
+        <translation>Argumento do filtro faltando.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Erro</translation>
+    </message>
+    <message>
+        <source>Notice</source>
+        <translation>Nota</translation>
+    </message>
+    <message>
         <source>Usage: assistant [Options]
 
 -collectionFile file       Uses the specified collection
@@ -429,54 +477,6 @@ Motivo:
 -help                      Mostra esta ajuda.
 </translation>
     </message>
-    <message>
-        <source>Unknown option: %1</source>
-        <translation>Opção desconhecida: %1</translation>
-    </message>
-    <message>
-        <source>The collection file &apos;%1&apos; does not exist.</source>
-        <translation>O arquivo de coleção &apos;%1&apos; não existe.</translation>
-    </message>
-    <message>
-        <source>Missing collection file.</source>
-        <translation>Arquivo de coleção faltando.</translation>
-    </message>
-    <message>
-        <source>Invalid URL &apos;%1&apos;.</source>
-        <translation>URI invalida: &apos;%1&apos;.</translation>
-    </message>
-    <message>
-        <source>Missing URL.</source>
-        <translation>URL faltando.</translation>
-    </message>
-    <message>
-        <source>Unknown widget: %1</source>
-        <translation>Widget desconhecido: %1</translation>
-    </message>
-    <message>
-        <source>Missing widget.</source>
-        <translation>Widget faltando.</translation>
-    </message>
-    <message>
-        <source>The Qt help file &apos;%1&apos; does not exist.</source>
-        <translation>O arquivo de ajuda do Qt &apos;%1&apos; não existe.</translation>
-    </message>
-    <message>
-        <source>Missing help file.</source>
-        <translation>Arquivo de ajuda faltando.</translation>
-    </message>
-    <message>
-        <source>Missing filter argument.</source>
-        <translation>Argumento do filtro faltando.</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Erro</translation>
-    </message>
-    <message>
-        <source>Notice</source>
-        <translation>Nota</translation>
-    </message>
 </context>
 <context>
     <name>ContentWindow</name>
@@ -487,21 +487,6 @@ Motivo:
     <message>
         <source>Open Link in New Tab</source>
         <translation>Abrir link em nova aba</translation>
-    </message>
-</context>
-<context>
-    <name>FilterNameDialogClass</name>
-    <message>
-        <source>Add Filter Name</source>
-        <translation>Adicionar nome do filtro</translation>
-    </message>
-    <message>
-        <source>Filter Name:</source>
-        <translation>Nome do filtro:</translation>
-    </message>
-    <message>
-        <source>Add Filter</source>
-        <translation>Adicionar filtro</translation>
     </message>
 </context>
 <context>
@@ -590,10 +575,37 @@ Motivo:
     </message>
 </context>
 <context>
-    <name>HelpEngineWrapper</name>
+    <name>HelpDocSettingsWidget</name>
     <message>
-        <source>Unfiltered</source>
-        <translation>Sem filtro</translation>
+        <source>Form</source>
+        <translation>Formulário</translation>
+    </message>
+    <message>
+        <source>Registered Documentation</source>
+        <translation>Documentação registrada</translation>
+    </message>
+    <message>
+        <source>&lt;Filter&gt;</source>
+        <translation>&lt;Filtro&gt;</translation>
+    </message>
+    <message>
+        <source>Add...</source>
+        <translation>Adicionar...</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Excluir</translation>
+    </message>
+</context>
+<context>
+    <name>HelpDocSettingsWidgetPrivate</name>
+    <message>
+        <source>Add Documentation</source>
+        <translation>Adicionar documentação</translation>
+    </message>
+    <message>
+        <source>Qt Compressed Help Files (*.qch)</source>
+        <translation>Arquivos de ajuda Qt comprimidos (*.qch)</translation>
     </message>
 </context>
 <context>
@@ -601,10 +613,6 @@ Motivo:
     <message>
         <source>Error 404...</source>
         <translation>Erro 404...</translation>
-    </message>
-    <message>
-        <source>The page could not be found!</source>
-        <translation>A página não pode ser encontrada!</translation>
     </message>
     <message>
         <source>The page could not be found</source>
@@ -649,6 +657,10 @@ Motivo:
     <message>
         <source>Open Link in New Page</source>
         <translation>Abrir link em nova aba</translation>
+    </message>
+    <message>
+        <source>The page could not be found!</source>
+        <translation>A página não pode ser encontrada!</translation>
     </message>
 </context>
 <context>
@@ -865,10 +877,6 @@ Motivo:
         <translation>Não foi possível encontrar o item de conteúdo associado.</translation>
     </message>
     <message>
-        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %3 Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;</source>
-        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Versão %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %3 Digia Plc e/ou suas subsidiárias.&lt;/p&gt;</translation>
-    </message>
-    <message>
         <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;p&gt;Browser: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</source>
         <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Versão %2&lt;/p&gt;&lt;p&gt;Navegador: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</translation>
     </message>
@@ -888,6 +896,10 @@ Motivo:
         <source>Could not register file &apos;%1&apos;: %2</source>
         <translation>Não foi possível registrar o arquivo &apos;%1&apos;: %2</translation>
     </message>
+    <message>
+        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %3 Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;</source>
+        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Versão %2&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %3 Digia Plc e/ou suas subsidiárias.&lt;/p&gt;</translation>
+    </message>
 </context>
 <context>
     <name>OpenPagesWidget</name>
@@ -903,6 +915,10 @@ Motivo:
 <context>
     <name>PreferencesDialog</name>
     <message>
+        <source>Use custom settings</source>
+        <translation>Usar configurações personalizadas</translation>
+    </message>
+    <message>
         <source>No Component</source>
         <translation>Sem componente</translation>
     </message>
@@ -917,14 +933,6 @@ Motivo:
     <message>
         <source>Invalid Version</source>
         <translation>Versão inválida</translation>
-    </message>
-    <message>
-        <source>Add Documentation</source>
-        <translation>Adicionar documentação</translation>
-    </message>
-    <message>
-        <source>Qt Compressed Help Files (*.qch)</source>
-        <translation>Arquivos de ajuda Qt comprimidos (*.qch)</translation>
     </message>
     <message>
         <source>The namespace %1 is already registered!</source>
@@ -979,8 +987,12 @@ Motivo:
         <translation>Tem certeza que deseja remover o filtro &quot;%1&quot;?</translation>
     </message>
     <message>
-        <source>Use custom settings</source>
-        <translation>Usar configurações personalizadas</translation>
+        <source>Add Documentation</source>
+        <translation>Adicionar documentação</translation>
+    </message>
+    <message>
+        <source>Qt Compressed Help Files (*.qch)</source>
+        <translation>Arquivos de ajuda Qt comprimidos (*.qch)</translation>
     </message>
 </context>
 <context>
@@ -1010,40 +1022,8 @@ Motivo:
         <translation>Filtros</translation>
     </message>
     <message>
-        <source>Filter:</source>
-        <translation>Filtro:</translation>
-    </message>
-    <message>
-        <source>Attributes:</source>
-        <translation>Atributos:</translation>
-    </message>
-    <message>
-        <source>1</source>
-        <translation>1</translation>
-    </message>
-    <message>
-        <source>Add</source>
-        <translation>Adicionar</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Excluir</translation>
-    </message>
-    <message>
         <source>Documentation</source>
         <translation>Documentação</translation>
-    </message>
-    <message>
-        <source>Registered Documentation:</source>
-        <translation>Documentação registrada:</translation>
-    </message>
-    <message>
-        <source>&lt;Filter&gt;</source>
-        <translation>&lt;Filtro&gt;</translation>
-    </message>
-    <message>
-        <source>Add...</source>
-        <translation>Adicionar...</translation>
     </message>
     <message>
         <source>Options</source>
@@ -1098,8 +1078,40 @@ Motivo:
         <translation>Versões:</translation>
     </message>
     <message>
+        <source>Add...</source>
+        <translation>Adicionar...</translation>
+    </message>
+    <message>
         <source>Rename...</source>
         <translation>Renomear...</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Excluir</translation>
+    </message>
+    <message>
+        <source>Filter:</source>
+        <translation>Filtro:</translation>
+    </message>
+    <message>
+        <source>Registered Documentation:</source>
+        <translation>Documentação registrada:</translation>
+    </message>
+    <message>
+        <source>&lt;Filter&gt;</source>
+        <translation>&lt;Filtro&gt;</translation>
+    </message>
+    <message>
+        <source>Attributes:</source>
+        <translation>Atributos:</translation>
+    </message>
+    <message>
+        <source>1</source>
+        <translation>1</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Adicionar</translation>
     </message>
 </context>
 <context>
@@ -1183,6 +1195,21 @@ Motivo:
     </message>
 </context>
 <context>
+    <name>FilterNameDialogClass</name>
+    <message>
+        <source>Add Filter</source>
+        <translation>Adicionar filtro</translation>
+    </message>
+    <message>
+        <source>Filter Name:</source>
+        <translation>Nome do filtro:</translation>
+    </message>
+    <message>
+        <source>Add Filter Name</source>
+        <translation>Adicionar nome do filtro</translation>
+    </message>
+</context>
+<context>
     <name>OptionsWidget</name>
     <message>
         <source>No Option</source>
@@ -1191,6 +1218,13 @@ Motivo:
     <message>
         <source>Invalid Option</source>
         <translation>Opção inválida</translation>
+    </message>
+</context>
+<context>
+    <name>HelpEngineWrapper</name>
+    <message>
+        <source>Unfiltered</source>
+        <translation>Sem filtro</translation>
     </message>
 </context>
 </TS>
