@@ -5,10 +5,10 @@
     <extra-po-header-language_team>Dutch &lt;kde-i18n-nl@kde.org&gt;</extra-po-header-language_team>
     <extra-po-header-last_translator>Freek de Kruijf &lt;freekdekruijf@kde.nl&gt;</extra-po-header-last_translator>
     <extra-po-header-plural_forms>nplurals=2; plural=(n != 1);</extra-po-header-plural_forms>
-    <extra-po-header-po_revision_date>2018-05-08 14:16+0100</extra-po-header-po_revision_date>
+    <extra-po-header-po_revision_date>2020-11-25 14:02+0100</extra-po-header-po_revision_date>
     <extra-po-header-project_id_version></extra-po-header-project_id_version>
-    <extra-po-header-x_generator>Lokalize 2.0</extra-po-header-x_generator>
-    <extra-po-header_comment># Freek de Kruijf &lt;freek@opensuse.org&gt;, 2014, 2018.</extra-po-header_comment>
+    <extra-po-header-x_generator>Lokalize 20.08.3</extra-po-header-x_generator>
+    <extra-po-header_comment># Freek de Kruijf &lt;freek@opensuse.org&gt;, 2014, 2018, 2019, 2020.</extra-po-header_comment>
     <extra-po-headers>Project-Id-Version,PO-Revision-Date,Last-Translator,Language-Team,Language,MIME-Version,Content-Type,Content-Transfer-Encoding,X-Qt-Contexts,Plural-Forms,X-Generator</extra-po-headers>
 <context>
     <name>AbstractFindWidget</name>
@@ -31,6 +31,10 @@
     <message>
         <source>&lt;img src=&quot;:/qt-project.org/shared/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
         <translation>&lt;img src=&quot;:/qt-project.org/shared/images/wrap.png&quot;&gt;&amp;nbsp;Zoeken keert terug</translation>
+    </message>
+    <message>
+        <source>&amp;Find in Text...</source>
+        <translation>In tekst &amp;zoeken...</translation>
     </message>
 </context>
 <context>
@@ -297,14 +301,12 @@
     </message>
     <message>
         <source>Add &apos;%1&apos; to &apos;%2&apos;</source>
-        <extracomment>Command description for adding buttons to a QButtonGroup
-</extracomment>
+        <extracomment>Command description for adding buttons to a QButtonGroup</extracomment>
         <translation>&apos;%1&apos; toevoegen aan &apos;%2&apos;</translation>
     </message>
     <message>
         <source>Morph %1/&apos;%2&apos; into %3</source>
-        <extracomment>MorphWidgetCommand description
-</extracomment>
+        <extracomment>MorphWidgetCommand description</extracomment>
         <translation>%1/&apos;%2&apos; veranderen in %3</translation>
     </message>
     <message>
@@ -413,27 +415,27 @@
     </message>
     <message>
         <source>Change Layout Item Geometry</source>
-        <translation type="unfinished"></translation>
+        <translation>Geometrie indelingsitem wijzigen</translation>
     </message>
     <message>
         <source>Delete Subwindow</source>
-        <translation type="unfinished"></translation>
+        <translation>Subvenster verwijderen</translation>
     </message>
     <message>
         <source>Insert Subwindow</source>
-        <translation type="unfinished"></translation>
+        <translation>Subvenster invoegen</translation>
     </message>
     <message>
         <source>Subwindow</source>
-        <translation type="unfinished"></translation>
+        <translation>Subvenster</translation>
     </message>
     <message>
         <source>Change Table Contents</source>
-        <translation type="unfinished"></translation>
+        <translation>Inhoudsopgave wijzigen</translation>
     </message>
     <message>
         <source>Change Tree Contents</source>
-        <translation type="unfinished"></translation>
+        <translation>Inhoud boomstructuur wijzigen</translation>
     </message>
     <message>
         <source>Add action</source>
@@ -449,31 +451,31 @@
     </message>
     <message>
         <source>Remove menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu verwijderen</translation>
     </message>
     <message>
         <source>Create submenu</source>
-        <translation type="unfinished"></translation>
+        <translation>Submenu aanmaken</translation>
     </message>
     <message>
         <source>Delete Tool Bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Werkbalk verwijderen</translation>
     </message>
     <message>
         <source>Change layout of &apos;%1&apos; from %2 to %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Opmaak van &apos;%1&apos; uit %2 naar %3 wijzigen</translation>
     </message>
     <message>
         <source>Change layout alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Uitlijning van opmaak wijzigen</translation>
     </message>
     <message>
         <source>Set action text</source>
-        <translation type="unfinished"></translation>
+        <translation>Actietekst instellen</translation>
     </message>
     <message>
         <source>Insert action</source>
-        <translation type="unfinished"></translation>
+        <translation>Actie invoegen</translation>
     </message>
     <message>
         <source>Move action</source>
@@ -481,104 +483,103 @@
     </message>
     <message>
         <source>Change Title</source>
-        <translation type="unfinished"></translation>
+        <translation>Titel wijzigen</translation>
     </message>
     <message>
         <source>Insert Menu</source>
-        <translation>Menu Invoegen</translation>
+        <translation>Menu invoegen</translation>
     </message>
     <message>
         <source>Changed &apos;%1&apos; of &apos;%2&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;%1&apos; van &apos;%2&apos; gewijzigd</translation>
     </message>
     <message numerus="yes">
         <source>Changed &apos;%1&apos; of %n objects</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>&apos;%1&apos; van %n object gewijzigd</numerusform>
+            <numerusform>&apos;%1&apos; van %n objecten gewijzigd</numerusform>
         </translation>
     </message>
     <message>
         <source>Reset &apos;%1&apos; of &apos;%2&apos;</source>
-        <translation>&apos;%1&apos; van &apos;%2&apos; herstellen</translation>
+        <translation>&apos;%1&apos; van &apos;%2&apos; resetten</translation>
     </message>
     <message numerus="yes">
         <source>Reset &apos;%1&apos; of %n objects</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>&apos;%1&apos; van %n object gereset</numerusform>
+            <numerusform>&apos;%1&apos; van %n objecten gereset</numerusform>
         </translation>
     </message>
     <message>
         <source>Add dynamic property &apos;%1&apos; to &apos;%2&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Dynamische eigenschap &apos;%1&apos; aan &apos;%2&apos; toevoegen</translation>
     </message>
     <message numerus="yes">
         <source>Add dynamic property &apos;%1&apos; to %n objects</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Dynamische eigenschap &apos;%1&apos; aan &apos;%n&apos; object toevoegen</numerusform>
+            <numerusform>Dynamische eigenschap &apos;%1&apos; aan &apos;%n&apos; objecten toevoegen</numerusform>
         </translation>
     </message>
     <message>
         <source>Remove dynamic property &apos;%1&apos; from &apos;%2&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Dynamische eigenschap &apos;%1&apos; van &apos;%2&apos; verwijderen</translation>
     </message>
     <message numerus="yes">
         <source>Remove dynamic property &apos;%1&apos; from %n objects</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Dynamische eigenschap &apos;%1&apos; uit %n object verwijderen</numerusform>
+            <numerusform>Dynamische eigenschap &apos;%1&apos; uit %n objecten verwijderen</numerusform>
         </translation>
     </message>
     <message>
         <source>Change signals/slots</source>
-        <translation type="unfinished"></translation>
+        <translation>Signalen/sloten wijzigen</translation>
     </message>
     <message>
         <source>Change signal</source>
-        <translation type="unfinished"></translation>
+        <translation>Signaal wijzigen</translation>
     </message>
     <message>
         <source>Change slot</source>
-        <translation type="unfinished"></translation>
+        <translation>Slot wijzigen</translation>
     </message>
     <message>
         <source>Change signal-slot connection</source>
-        <translation type="unfinished"></translation>
+        <translation>Verbinding signaal-slot wijzigen</translation>
     </message>
     <message>
         <source>Change sender</source>
-        <translation type="unfinished"></translation>
+        <translation>Zender wijzigen</translation>
     </message>
     <message>
         <source>Change receiver</source>
-        <translation type="unfinished"></translation>
+        <translation>Ontvanger wijzigen</translation>
     </message>
     <message>
         <source>Create button group</source>
-        <translation type="unfinished"></translation>
+        <translation>Knoppengroep aanmaken</translation>
     </message>
     <message>
         <source>Break button group</source>
-        <translation type="unfinished"></translation>
+        <translation>Knoppengroep opbreken</translation>
     </message>
     <message>
         <source>Break button group &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Knoppengroep &apos;%1&apos; opbreken</translation>
     </message>
     <message>
         <source>Add buttons to group</source>
-        <translation type="unfinished"></translation>
+        <translation>Knoppen aan groep toevoegen</translation>
     </message>
     <message>
         <source>Remove buttons from group</source>
-        <translation type="unfinished"></translation>
+        <translation>Knoppen uit groep verwijderen</translation>
     </message>
     <message>
         <source>Remove &apos;%1&apos; from &apos;%2&apos;</source>
-        <extracomment>Command description for removing buttons from a QButtonGroup
-</extracomment>
+        <extracomment>Command description for removing buttons from a QButtonGroup</extracomment>
         <translation>&apos;%1&apos; uit &apos;%2&apos; verwijderen</translation>
     </message>
 </context>
@@ -586,7 +587,7 @@
     <name>ConnectDialog</name>
     <message>
         <source>Configure Connection</source>
-        <translation type="unfinished"></translation>
+        <translation>Verbinding configureren</translation>
     </message>
     <message>
         <source>GroupBox</source>
@@ -598,50 +599,47 @@
     </message>
     <message>
         <source>Show signals and slots inherited from QWidget</source>
-        <translation type="unfinished"></translation>
+        <translation>Signalen en sloten verkregen uit QWidget tonen</translation>
     </message>
 </context>
 <context>
     <name>ConnectionDelegate</name>
     <message>
         <source>&lt;object&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;object&gt;</translation>
     </message>
     <message>
         <source>&lt;signal&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;signal&gt;</translation>
     </message>
     <message>
         <source>&lt;slot&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;slot&gt;</translation>
     </message>
 </context>
 <context>
     <name>DPI_Chooser</name>
     <message>
         <source>Standard (96 x 96)</source>
-        <extracomment>Embedded device standard screen resolution
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Embedded device standard screen resolution</extracomment>
+        <translation>Standaard (96 x 96)</translation>
     </message>
     <message>
         <source>Greenphone (179 x 185)</source>
-        <extracomment>Embedded device screen resolution
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Embedded device screen resolution</extracomment>
+        <translation>Greenphone (179 x 185)</translation>
     </message>
     <message>
         <source>High (192 x 192)</source>
-        <extracomment>Embedded device high definition screen resolution
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Embedded device high definition screen resolution</extracomment>
+        <translation>Hoog (192 x 192)</translation>
     </message>
 </context>
 <context>
     <name>Designer</name>
     <message>
-        <source>Unable to launch %1.</source>
-        <translation>Kan %1 niet starten.</translation>
+        <source>Unable to launch %1: %2</source>
+        <translation>Kan %1 niet starten: %2</translation>
     </message>
     <message>
         <source>%1 timed out.</source>
@@ -649,11 +647,11 @@
     </message>
     <message>
         <source>Custom Widgets</source>
-        <translation type="unfinished"></translation>
+        <translation>Aangepaste widgets</translation>
     </message>
     <message>
         <source>Promoted Widgets</source>
-        <translation type="unfinished"></translation>
+        <translation>Aanbevolen widgets</translation>
     </message>
     <message>
         <source>Qt Designer</source>
@@ -661,38 +659,37 @@
     </message>
     <message>
         <source>This file cannot be read because the extra info extension failed to load.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit bestand kan niet gelezen worden omdat het laden van de extra informatie-extensie mislukte.</translation>
     </message>
 </context>
 <context>
     <name>DesignerMetaEnum</name>
     <message>
         <source>%1 is not a valid enumeration value of &apos;%2&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 is geen geldig waarde uit de lijst van &apos;%2&apos;.</translation>
     </message>
     <message>
         <source>&apos;%1&apos; could not be converted to an enumeration value of type &apos;%2&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;%1&apos; kon niet geconverteerd worden naar een waarde uit de lijst van type &apos;%2&apos;.</translation>
     </message>
 </context>
 <context>
     <name>DesignerMetaFlags</name>
     <message>
         <source>&apos;%1&apos; could not be converted to a flag value of type &apos;%2&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;%1&apos; kon niet geconverteerd worden naar een vlagwaarde van type &apos;%2&apos;.</translation>
     </message>
 </context>
 <context>
     <name>DeviceProfile</name>
     <message>
         <source>&apos;%1&apos; is not a number.</source>
-        <extracomment>Reading a number for an embedded device profile
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Reading a number for an embedded device profile</extracomment>
+        <translation>&apos;%1&apos; is geen getal.</translation>
     </message>
     <message>
         <source>An invalid tag &lt;%1&gt; was encountered.</source>
-        <translation type="unfinished"></translation>
+        <translation>Een ongeldige tag &lt;%1&gt; is gevonden.</translation>
     </message>
 </context>
 <context>
@@ -711,7 +708,7 @@
     </message>
     <message>
         <source>Device DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>DPI van apparaat</translation>
     </message>
     <message>
         <source>Name</source>
@@ -722,19 +719,19 @@
     <name>DeviceSkin</name>
     <message>
         <source>The image file &apos;%1&apos; could not be loaded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het afbeeldingsbestand &apos;%1&apos; kon niet worden geladen.</translation>
     </message>
     <message>
         <source>The skin directory &apos;%1&apos; does not contain a configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>De skin-map &apos;%1&apos; bevat geen configuratiebestand.</translation>
     </message>
     <message>
         <source>The skin configuration file &apos;%1&apos; could not be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het skin-configuratiebestand &apos;%1&apos; kon niet geopend worden.</translation>
     </message>
     <message>
         <source>The skin configuration file &apos;%1&apos; could not be read: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Het skin-configuratiebestand &apos;%1&apos; kon niet gelezen worden: %2</translation>
     </message>
     <message>
         <source>Syntax error: %1</source>
@@ -742,50 +739,47 @@
     </message>
     <message>
         <source>The skin &quot;up&quot; image file &apos;%1&apos; does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het skin &quot;omhoog&quot; afbeeldingsbestand &apos;%1&apos; bestaat niet.</translation>
     </message>
     <message>
         <source>The skin &quot;down&quot; image file &apos;%1&apos; does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het skin &quot;omlaag&quot; afbeeldingsbestand &apos;%1&apos; bestaat niet.</translation>
     </message>
     <message>
         <source>The skin &quot;closed&quot; image file &apos;%1&apos; does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het skin &quot;gesloten&quot; afbeeldingsbestand &apos;%1&apos; bestaat niet.</translation>
     </message>
     <message>
         <source>The skin cursor image file &apos;%1&apos; does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het skin-cursorafbeeldingsbestand &apos;%1&apos; bestaat niet.</translation>
     </message>
     <message>
         <source>Syntax error in area definition: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Syntaxisfout in definitie van gebied: %1</translation>
     </message>
     <message>
         <source>Mismatch in number of areas, expected %1, got %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Verschil in aantal gebieden, verwacht %1, gekregen %2.</translation>
     </message>
 </context>
 <context>
     <name>EmbeddedOptionsControl</name>
     <message>
         <source>&lt;html&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Font&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1, %2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Style&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Resolution&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%4 x %5&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;</source>
-        <extracomment>Format embedded device profile description
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Format embedded device profile description</extracomment>
+        <translation>&lt;html&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Font&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1, %2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Style&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Resolutie&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%4 x %5&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
     <name>EmbeddedOptionsPage</name>
     <message>
         <source>Embedded Design</source>
-        <extracomment>Tab in preferences dialog
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Tab in preferences dialog</extracomment>
+        <translation>Ingebed ontwerp</translation>
     </message>
     <message>
         <source>Device Profiles</source>
-        <extracomment>EmbeddedOptionsControl group box&quot;
-</extracomment>
+        <extracomment>EmbeddedOptionsControl group box&quot;</extracomment>
         <translation>Apparaatprofielen</translation>
     </message>
 </context>
@@ -816,15 +810,15 @@
     <name>FontPropertyManager</name>
     <message>
         <source>PreferDefault</source>
-        <translation type="unfinished"></translation>
+        <translation>VoorkeurStandaard</translation>
     </message>
     <message>
         <source>NoAntialias</source>
-        <translation type="unfinished"></translation>
+        <translation>GeenAntialias</translation>
     </message>
     <message>
         <source>PreferAntialias</source>
-        <translation type="unfinished"></translation>
+        <translation>VoorkeurAntialias</translation>
     </message>
     <message>
         <source>Antialiasing</source>
@@ -835,28 +829,25 @@
     <name>FormBuilder</name>
     <message>
         <source>Invalid stretch value for &apos;%1&apos;: &apos;%2&apos;</source>
-        <extracomment>Parsing layout stretch values
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Parsing layout stretch values</extracomment>
+        <translation>Ongeldige uitrekwaarde voor &apos;%1&apos;: &apos;%2&apos;</translation>
     </message>
     <message>
         <source>Invalid minimum size for &apos;%1&apos;: &apos;%2&apos;</source>
-        <extracomment>Parsing grid layout minimum size values
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Parsing grid layout minimum size values</extracomment>
+        <translation>Ongeldige minimum grootte voor &apos;%1&apos;: &apos;%2&apos;</translation>
     </message>
 </context>
 <context>
     <name>FormEditorOptionsPage</name>
     <message>
         <source>%1 %</source>
-        <extracomment>Zoom percentage
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Zoom percentage</extracomment>
+        <translation>%1 %</translation>
     </message>
     <message>
         <source>Preview Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom van voorbeeld</translation>
     </message>
     <message>
         <source>Default Zoom</source>
@@ -864,8 +855,7 @@
     </message>
     <message>
         <source>Forms</source>
-        <extracomment>Tab in preferences dialog
-</extracomment>
+        <extracomment>Tab in preferences dialog</extracomment>
         <translation>Formulieren</translation>
     </message>
     <message>
@@ -878,11 +868,11 @@
     </message>
     <message>
         <source>Naming convention used for generating action object names from their text</source>
-        <translation type="unfinished"></translation>
+        <translation>Naamgevingsconventie gebruikt voor genereren van actieobjectnamen uit hun tekst</translation>
     </message>
     <message>
         <source>Camel Case</source>
-        <translation type="unfinished"></translation>
+        <translation>Camel Case (elk woord begint met hoofdletter)</translation>
     </message>
     <message>
         <source>Underscore</source>
@@ -924,11 +914,11 @@
     <name>FormWindow</name>
     <message>
         <source>Unexpected element &lt;%1&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Onverwacht element &lt;%1&gt;</translation>
     </message>
     <message>
         <source>Error while pasting clipboard contents at line %1, column %2: %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Fout bij plakken van klembordinhoud bij regel %1, kolom %2: %3</translation>
     </message>
 </context>
 <context>
@@ -938,8 +928,36 @@
         <translation>Formulierinstellingen</translation>
     </message>
     <message>
+        <source>Grid</source>
+        <translation>Raster</translation>
+    </message>
+    <message>
+        <source>&amp;Include Hints</source>
+        <translation>H&amp;ints opnemen</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Vertalingen</translation>
+    </message>
+    <message>
+        <source>ID-based</source>
+        <translation>ID-gebaseerd</translation>
+    </message>
+    <message>
+        <source>&amp;Pixmap Function</source>
+        <translation>&amp;Pixmapfunctie</translation>
+    </message>
+    <message>
+        <source>&amp;Author</source>
+        <translation>&amp;Auteur</translation>
+    </message>
+    <message>
+        <source>Embedded Design</source>
+        <translation>Ingebed ontwerp</translation>
+    </message>
+    <message>
         <source>Layout &amp;Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Stan&amp;daard indeling</translation>
     </message>
     <message>
         <source>&amp;Spacing:</source>
@@ -962,32 +980,12 @@
         <translation>Spa&amp;tiëring:</translation>
     </message>
     <message>
-        <source>&amp;Pixmap Function</source>
-        <translation type="unfinished"></translation>
+        <source>Connections</source>
+        <translation>Verbindingen</translation>
     </message>
     <message>
-        <source>&amp;Include Hints</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Grid</source>
-        <translation>Raster</translation>
-    </message>
-    <message>
-        <source>Embedded Design</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Author</source>
-        <translation>&amp;Auteur</translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation>Vertalingen</translation>
-    </message>
-    <message>
-        <source>ID-based</source>
-        <translation type="unfinished"></translation>
+        <source>Connect slots by name</source>
+        <translation>Slots op naam verbinden</translation>
     </message>
 </context>
 <context>
@@ -998,7 +996,7 @@
     </message>
     <message>
         <source>The file &apos;%1&apos; does not appear to be a valid pixmap file: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Het bestand &apos;%1&apos; lijkt geen geldig pixmapbestand te zijn: %2</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; could not be read: %2</source>
@@ -1022,11 +1020,11 @@
     </message>
     <message>
         <source>Normal Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Normaal uit</translation>
     </message>
     <message>
         <source>Normal On</source>
-        <translation type="unfinished"></translation>
+        <translation>Normaal aan</translation>
     </message>
     <message>
         <source>Disabled Off</source>
@@ -1073,17 +1071,15 @@
     <name>ItemPropertyBrowser</name>
     <message>
         <source>XX Icon Selected off</source>
-        <extracomment>Sample string to determinate the width for the first column of the list item property browser
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Sample string to determinate the width for the first column of the list item property browser</extracomment>
+        <translation>XX-pictogram geselecteerd uit</translation>
     </message>
 </context>
 <context>
     <name>MainWindowBase</name>
     <message>
         <source>Main</source>
-        <extracomment>Not currently used (main tool bar)
-</extracomment>
+        <extracomment>Not currently used (main tool bar)</extracomment>
         <translation>Hoofdgedeelte</translation>
     </message>
     <message>
@@ -1111,7 +1107,7 @@
     <name>NewForm</name>
     <message>
         <source>Show this Dialog on Startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Deze dialoog bij opstarten tonen</translation>
     </message>
     <message>
         <source>C&amp;reate</source>
@@ -1123,7 +1119,7 @@
     </message>
     <message>
         <source>New Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieuw formulier</translation>
     </message>
     <message>
         <source>&amp;Close</source>
@@ -1135,19 +1131,19 @@
     </message>
     <message>
         <source>&amp;Recent Forms</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Recente formulieren</translation>
     </message>
     <message>
         <source>Read error</source>
         <translation>Leesfout</translation>
     </message>
     <message>
-        <source>A temporary form file could not be created in %1.</source>
-        <translation type="unfinished"></translation>
+        <source>A temporary form file could not be created in %1: %2</source>
+        <translation>Een tijdelijk formulierbestand kon niet worden aangemaakt in %1: %2</translation>
     </message>
     <message>
-        <source>The temporary form file %1 could not be written.</source>
-        <translation type="unfinished"></translation>
+        <source>The temporary form file %1 could not be written: %2</source>
+        <translation>In het tijdelijke formulierbestand %1 kon niet worden geschreven: %2</translation>
     </message>
 </context>
 <context>
@@ -1166,14 +1162,14 @@
     </message>
     <message>
         <source>&lt;noname&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;geennaam&gt;</translation>
     </message>
 </context>
 <context>
     <name>ObjectNameDialog</name>
     <message>
         <source>Change Object Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Objectnaam wijzigen</translation>
     </message>
     <message>
         <source>Object Name</source>
@@ -1188,7 +1184,7 @@
     </message>
     <message>
         <source>1</source>
-        <translation type="unfinished"></translation>
+        <translation>1</translation>
     </message>
 </context>
 <context>
@@ -1206,7 +1202,7 @@
     </message>
     <message>
         <source>Print/Preview Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>Configuratie afdrukken/bekijken</translation>
     </message>
     <message>
         <source>Style</source>
@@ -1218,19 +1214,18 @@
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Device skin</source>
-        <translation type="unfinished"></translation>
+        <translation>Apparaatskin</translation>
     </message>
 </context>
 <context>
     <name>PromotionModel</name>
     <message>
         <source>Not used</source>
-        <extracomment>Usage of promoted widgets
-</extracomment>
+        <extracomment>Usage of promoted widgets</extracomment>
         <translation>Niet gebruikt</translation>
     </message>
 </context>
@@ -1238,125 +1233,126 @@
     <name>QAbstractFormBuilder</name>
     <message>
         <source>The creation of a widget of the class &apos;%1&apos; failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het aanmaken van een widget van de klasse &apos;%1&apos; is mislukt.</translation>
     </message>
     <message>
         <source>Attempt to add child that is not of class QWizardPage to QWizard.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poging om dochter toe te voegen die geen klasse is van QWizardPage aan QWizard.</translation>
     </message>
     <message>
         <source>Attempt to add a layout to a widget &apos;%1&apos; (%2) which already has a layout of non-box type %3.
 This indicates an inconsistency in the ui-file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poging om een indelind aan een widget &apos;%1&apos; (%2) toe te voegen die al een indeling van het non-boxtype %3 heeft.
+Dit geeft iets inconsistents aan in het ui-bestand.</translation>
     </message>
     <message>
         <source>Empty widget item in %1 &apos;%2&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Leeg widget-item in %1 &apos;%2&apos;.</translation>
     </message>
     <message>
         <source>Flags property are not supported yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Eigenschap van vlag wordt nog niet ondersteund.</translation>
     </message>
     <message>
         <source>While applying tab stops: The widget &apos;%1&apos; could not be found.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bij toepassen van tabstops: het widget &apos;%1&apos; is niet te vinden.</translation>
     </message>
     <message>
         <source>Invalid QButtonGroup reference &apos;%1&apos; referenced by &apos;%2&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ongeldige referentie naar QButtonGroup &apos;%1&apos; gerefereerd door &apos;%2&apos;.</translation>
     </message>
     <message>
         <source>An error has occurred while reading the UI file at line %1, column %2: %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Er is een fout opgetreden bij het lezen van het UI-bestand op regel %1, kolom %2: %3</translation>
     </message>
     <message>
         <source>This file was created using Designer from Qt-%1 and cannot be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit bestand is gemaakt met Designer van Qt-%1 en kan niet worden gelezen.</translation>
     </message>
     <message>
         <source>This file cannot be read because it was created using %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit bestand kan niet gelezen worden omdat het is gemaakt met %1.</translation>
     </message>
     <message>
         <source>Invalid UI file: The root element &lt;ui&gt; is missing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ongeldig UI-bestand: Het root-element &lt;ui&gt; ontbreekt.</translation>
     </message>
     <message>
         <source>Invalid UI file</source>
-        <translation type="unfinished"></translation>
+        <translation>Ongeldig UI-bestand</translation>
     </message>
 </context>
 <context>
     <name>QAxWidgetPlugin</name>
     <message>
         <source>ActiveX control</source>
-        <translation type="unfinished"></translation>
+        <translation>ActiveX besturing</translation>
     </message>
     <message>
         <source>ActiveX control widget</source>
-        <translation type="unfinished"></translation>
+        <translation>ActiveX besturingswidget</translation>
     </message>
 </context>
 <context>
     <name>QAxWidgetTaskMenu</name>
     <message>
         <source>Set Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Besturing instellen</translation>
     </message>
     <message>
         <source>Reset Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Besturing resetten</translation>
     </message>
     <message>
         <source>Licensed Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Besturing met licentie</translation>
     </message>
     <message>
         <source>The control requires a design-time license</source>
-        <translation type="unfinished"></translation>
+        <translation>De besturing vereist een licentie voor moment van ontwerpen</translation>
     </message>
 </context>
 <context>
     <name>QCoreApplication</name>
     <message>
         <source>%1 is not a promoted class.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 is geen gepromote klasse.</translation>
     </message>
     <message>
         <source>The base class %1 is invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>De basisklasse %1 is ongeldig.</translation>
     </message>
     <message>
         <source>The class %1 already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>De klasse %1 bestaat al.</translation>
     </message>
     <message>
         <source>Promoted Widgets</source>
-        <translation type="unfinished"></translation>
+        <translation>Aanbevolen widgets</translation>
     </message>
     <message>
         <source>The class %1 cannot be removed</source>
-        <translation type="unfinished"></translation>
+        <translation>De klasse %1 kan niet verwijderd worden</translation>
     </message>
     <message>
         <source>The class %1 cannot be removed because it is still referenced.</source>
-        <translation type="unfinished"></translation>
+        <translation>De klasse %1 kan niet verwijderd worden omdat er nog naar verwezen wordt.</translation>
     </message>
     <message>
         <source>The class %1 cannot be renamed</source>
-        <translation type="unfinished"></translation>
+        <translation>De klasse %1 kan niet hernoemd worden</translation>
     </message>
     <message>
         <source>The class %1 cannot be renamed to an empty name.</source>
-        <translation type="unfinished"></translation>
+        <translation>De klasse %1 kan niet hernoemd worden naar een lege naam.</translation>
     </message>
     <message>
         <source>There is already a class named %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Er is al een klasse met de naam %1.</translation>
     </message>
     <message>
         <source>Cannot set an empty include file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan geen leeg include-bestand instellen.</translation>
     </message>
 </context>
 <context>
@@ -1373,9 +1369,12 @@ This indicates an inconsistency in the ui-file.</source>
         <translation>%1 opgeslagen.</translation>
     </message>
     <message>
-        <source>%1 already exists.
-Do you want to replace it?</source>
-        <translation type="unfinished"></translation>
+        <source>Designer UI files (*.%1);;All Files (*)</source>
+        <translation>UI-bestanden van Designer (*.%1);;Alle bestanden (*)</translation>
+    </message>
+    <message>
+        <source>Save Form As</source>
+        <translation>Formulier opslaan als</translation>
     </message>
     <message>
         <source>Edit Widgets</source>
@@ -1422,8 +1421,12 @@ Do you want to replace it?</source>
         <translation>A&amp;fsluiten</translation>
     </message>
     <message>
-        <source>View &amp;Code...</source>
-        <translation>&amp;Code bekijken...</translation>
+        <source>View &amp;C++ Code...</source>
+        <translation>&amp;C++-code bekijken...</translation>
+    </message>
+    <message>
+        <source>View &amp;Python Code...</source>
+        <translation>&amp;Python-code bekijken...</translation>
     </message>
     <message>
         <source>&amp;Minimize</source>
@@ -1431,7 +1434,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Bring All to Front</source>
-        <translation type="unfinished"></translation>
+        <translation>Alles naar de voorgrond brengen</translation>
     </message>
     <message>
         <source>Preferences...</source>
@@ -1443,11 +1446,11 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>ALT+CTRL+S</source>
-        <translation type="unfinished"></translation>
+        <translation>ALT+CTRL+S</translation>
     </message>
     <message>
         <source>CTRL+SHIFT+S</source>
-        <translation type="unfinished"></translation>
+        <translation>CTRL+SHIFT+S</translation>
     </message>
     <message>
         <source>CTRL+R</source>
@@ -1459,19 +1462,19 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Qt Designer &amp;Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Qt Designer &amp;Help</translation>
     </message>
     <message>
         <source>Current Widget Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Huidige Widget Help</translation>
     </message>
     <message>
         <source>About Plugins</source>
-        <translation type="unfinished"></translation>
+        <translation>Over plug-ins</translation>
     </message>
     <message>
         <source>About Qt Designer</source>
-        <translation type="unfinished"></translation>
+        <translation>Over Qt Designer</translation>
     </message>
     <message>
         <source>About Qt</source>
@@ -1479,23 +1482,15 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Clear &amp;Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Menu wissen</translation>
     </message>
     <message>
         <source>&amp;Recent Forms</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Recente formulieren</translation>
     </message>
     <message>
         <source>Open Form</source>
         <translation>Formulier openen</translation>
-    </message>
-    <message>
-        <source>Designer UI files (*.%1);;All Files (*)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Save Form As</source>
-        <translation>Formulier opslaan als</translation>
     </message>
     <message>
         <source>Designer</source>
@@ -1503,11 +1498,11 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Feature not implemented yet!</source>
-        <translation type="unfinished"></translation>
+        <translation>Mogelijkheid nog niet geïmplementeerd!</translation>
     </message>
     <message>
         <source>Code generation failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Genereren van code is mislukt</translation>
     </message>
     <message>
         <source>Read error</source>
@@ -1516,7 +1511,8 @@ Do you want to replace it?</source>
     <message>
         <source>%1
 Do you want to update the file location or generate a new form?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1
+Wilt u de locatie van het bestand bijwerken of een nieuw formulier genereren?</translation>
     </message>
     <message>
         <source>&amp;Update</source>
@@ -1524,7 +1520,7 @@ Do you want to update the file location or generate a new form?</source>
     </message>
     <message>
         <source>&amp;New Form</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nieuw formulier</translation>
     </message>
     <message>
         <source>Qt Designer</source>
@@ -1532,7 +1528,7 @@ Do you want to update the file location or generate a new form?</source>
     </message>
     <message>
         <source>Save Form?</source>
-        <translation type="unfinished"></translation>
+        <translation>Formulier opslaan?</translation>
     </message>
     <message>
         <source>Could not open file</source>
@@ -1542,21 +1538,27 @@ Do you want to update the file location or generate a new form?</source>
         <source>The file %1 could not be opened.
 Reason: %2
 Would you like to retry or select a different file?</source>
-        <translation type="unfinished"></translation>
+        <translation>Het bestand %1 kon niet geopend worden.
+Reden: %2
+Wilt u het opnieuw proberen of een ander bestand selecteren?</translation>
     </message>
     <message>
         <source>Select New File</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecteer een nieuw bestand</translation>
+    </message>
+    <message>
+        <source>Save Form</source>
+        <translation>Formulier opslaan</translation>
     </message>
     <message>
         <source>Could not write file</source>
         <translation>Kon bestand niet schrijven</translation>
     </message>
     <message>
-        <source>It was not possible to write the entire file %1 to disk.
-Reason:%2
-Would you like to retry?</source>
-        <translation type="unfinished"></translation>
+        <source>It was not possible to write the file %1 to disk.
+Reason: %2</source>
+        <translation>Het was niet mogelijk het bestand %1 naar schijf te schrijven.
+Reden: %2</translation>
     </message>
     <message>
         <source>Assistant</source>
@@ -1568,15 +1570,15 @@ Would you like to retry?</source>
     </message>
     <message>
         <source>The backup file %1 could not be written.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het backupbestand %1 kon niet geschreven worden.</translation>
     </message>
     <message>
         <source>The backup directory %1 could not be created.</source>
-        <translation type="unfinished"></translation>
+        <translation>De backupmap %1 kon niet aangemaakt worden.</translation>
     </message>
     <message>
         <source>The temporary backup directory %1 could not be created.</source>
-        <translation type="unfinished"></translation>
+        <translation>De tijdelijke backupmap %1 kon niet aangemaakt worden.</translation>
     </message>
     <message>
         <source>Preview failed</source>
@@ -1592,27 +1594,32 @@ Would you like to retry?</source>
     </message>
     <message>
         <source>Saved image %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Image %1 opgeslagen.</translation>
     </message>
     <message>
         <source>The file %1 could not be written.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het bestand %1 kon niet geschreven worden.</translation>
     </message>
     <message>
         <source>Please close all forms to enable the loading of additional fonts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sluit alle formulieren om het laden van extra lettertypen in te schakelen.</translation>
     </message>
     <message>
         <source>Printed %1.</source>
         <translation>%1 afgedrukt.</translation>
+    </message>
+    <message>
+        <source>%1 already exists.
+Do you want to replace it?</source>
+        <translation type="vanished">%1 bestaat al.
+Wilt u het vervangen?</translation>
     </message>
 </context>
 <context>
     <name>QDesignerAppearanceOptionsPage</name>
     <message>
         <source>Appearance</source>
-        <extracomment>Tab in preferences dialog
-</extracomment>
+        <extracomment>Tab in preferences dialog</extracomment>
         <translation>Uiterlijk</translation>
     </message>
 </context>
@@ -1620,41 +1627,41 @@ Would you like to retry?</source>
     <name>QDesignerAppearanceOptionsWidget</name>
     <message>
         <source>Docked Window</source>
-        <translation type="unfinished"></translation>
+        <translation>Verankerd venster</translation>
     </message>
     <message>
         <source>Multiple Top-Level Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Meerdere topniveau vensters</translation>
     </message>
     <message>
         <source>Toolwindow Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Lettertype van hulpmiddelvenster</translation>
     </message>
 </context>
 <context>
     <name>QDesignerAxWidget</name>
     <message>
         <source>Reset control</source>
-        <translation type="unfinished"></translation>
+        <translation>Besturing resetten</translation>
     </message>
     <message>
         <source>Set control</source>
-        <translation type="unfinished"></translation>
+        <translation>Besturing instellen</translation>
     </message>
     <message>
         <source>Control loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>Besturing geladen</translation>
     </message>
     <message>
         <source>A COM exception occurred when executing a meta call of type %1, index %2 of &quot;%3&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Een COM-exceptie vond plaats bij uitvoeren van een meta-aanroep van type %1, index %2 van &quot;%3&quot;.</translation>
     </message>
 </context>
 <context>
     <name>QDesignerFormBuilder</name>
     <message>
         <source>The preview failed to build.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bouwen van het voorbeeld is mislukt.</translation>
     </message>
     <message>
         <source>Designer</source>
@@ -1665,30 +1672,30 @@ Would you like to retry?</source>
     <name>QDesignerFormWindow</name>
     <message>
         <source>%1 - %2[*]</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - %2[*]</translation>
     </message>
     <message>
         <source>Save Form?</source>
-        <translation type="unfinished"></translation>
+        <translation>Formulier opslaan?</translation>
     </message>
     <message>
         <source>Do you want to save the changes to this document before closing?</source>
-        <translation type="unfinished"></translation>
+        <translation>Wilt u de wijzigingen naar dit document opslaan alvorens te sluiten?</translation>
     </message>
     <message>
         <source>If you don&apos;t save, your changes will be lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als u niet opslaat zullen uw wijzigingen verloren gaan.</translation>
     </message>
 </context>
 <context>
     <name>QDesignerMenu</name>
     <message>
         <source>Type Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier typen</translation>
     </message>
     <message>
         <source>Add Separator</source>
-        <translation type="unfinished"></translation>
+        <translation>Scheiding toevoegen</translation>
     </message>
     <message>
         <source>Insert separator</source>
@@ -1696,7 +1703,7 @@ Would you like to retry?</source>
     </message>
     <message>
         <source>Remove separator</source>
-        <translation type="unfinished"></translation>
+        <translation>Scheiding verwijderen</translation>
     </message>
     <message>
         <source>Remove action &apos;%1&apos;</source>
@@ -1704,26 +1711,26 @@ Would you like to retry?</source>
     </message>
     <message>
         <source>Add separator</source>
-        <translation type="unfinished"></translation>
+        <translation>Scheiding toevoegen</translation>
     </message>
     <message>
         <source>Insert action</source>
-        <translation type="unfinished"></translation>
+        <translation>Actie invoegen</translation>
     </message>
 </context>
 <context>
     <name>QDesignerMenuBar</name>
     <message>
         <source>Type Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier typen</translation>
     </message>
     <message>
         <source>Remove Menu &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu verwijderen &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Remove Menu Bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Menubalk verwijderen</translation>
     </message>
     <message>
         <source>Menu</source>
@@ -1734,31 +1741,31 @@ Would you like to retry?</source>
     <name>QDesignerPluginManager</name>
     <message>
         <source>An XML error was encountered when parsing the XML of the custom widget %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Er is een XML-fout gezien bij ontleden van de XML van de aangepaste widget %1: %2</translation>
     </message>
     <message>
         <source>A required attribute (&apos;%1&apos;) is missing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Een vereist attribuut (&apos;%1s&apos;) ontbreekt.</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a valid string property specification.</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;%1&apos; is geen geldige specificatie van een tekenreekseigenschap.</translation>
     </message>
     <message>
         <source>An invalid property specification (&apos;%1&apos;) was encountered. Supported types: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Een ongeldige specificatie van een eigenschap (&apos;%1&apos;) is gevonden. Ondersteunde typen: %2</translation>
     </message>
     <message>
         <source>The XML of the custom widget %1 does not contain any of the elements &lt;widget&gt; or &lt;ui&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>De XML van de aangepaste widget %1 bevat geen van de elementen &lt;widget&gt; of &lt;ui&gt;.</translation>
     </message>
     <message>
         <source>The class attribute for the class %1 is missing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het klasse-attribuut voor de klasse %1 ontbreekt.</translation>
     </message>
     <message>
         <source>The class attribute for the class %1 does not match the class name %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het klasse-attribuut voor de klasse %1 komt niet overeen met de klassenaam %2.</translation>
     </message>
 </context>
 <context>
@@ -1772,48 +1779,46 @@ Would you like to retry?</source>
     <name>QDesignerResource</name>
     <message>
         <source>The layout type &apos;%1&apos; is not supported, defaulting to grid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het type indeling &apos;%1&apos; wordt niet ondersteund, wordt de standaard grid.</translation>
     </message>
     <message>
         <source>The container extension of the widget &apos;%1&apos; (%2) returned a widget not managed by Designer &apos;%3&apos; (%4) when queried for page #%5.
 Container pages should only be added by specifying them in XML returned by the domXml() method of the custom widget.</source>
-        <translation type="unfinished"></translation>
+        <translation>De containerextensie van het widget &apos;%1&apos; (%2) gaf een widget terug dat niet beheerd wordt door Designer &apos;%3&apos; (%4) bij afvragen naar pagina #%5.
+Containerpagina&apos;s zouden alleen toegevoegd moeten worden door ze te specificeren in XML terugegeven door de methode domXml() van het aangepaste widget.</translation>
     </message>
     <message>
         <source>Unexpected element &lt;%1&gt;</source>
-        <extracomment>Parsing clipboard contents
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Parsing clipboard contents</extracomment>
+        <translation>Onverwacht element &lt;%1&gt;</translation>
     </message>
     <message>
         <source>Error while pasting clipboard contents at line %1, column %2: %3</source>
-        <extracomment>Parsing clipboard contents
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Parsing clipboard contents</extracomment>
+        <translation>Fout bij plakken van klembordinhoud bij regel %1, kolom %2: %3</translation>
     </message>
     <message>
         <source>Error while pasting clipboard contents: The root element &lt;ui&gt; is missing.</source>
-        <extracomment>Parsing clipboard contents
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Parsing clipboard contents</extracomment>
+        <translation>Fout bij plakken van klembordinhoud: het root-element &lt;ui&gt; ontbreekt.</translation>
     </message>
 </context>
 <context>
     <name>QDesignerSharedSettings</name>
     <message>
         <source>The template path %1 could not be created.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het sjabloonpad %1 kan niet worden aangemaakt.</translation>
     </message>
     <message>
         <source>An error has been encountered while parsing device profile XML: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Er is een fout gevonden bij het ontleden van XML van het apparaatprofiel: %1</translation>
     </message>
 </context>
 <context>
     <name>QDesignerTaskMenu</name>
     <message>
         <source>no signals available</source>
-        <translation type="unfinished"></translation>
+        <translation>geen signalen beschikbaar</translation>
     </message>
 </context>
 <context>
@@ -1836,7 +1841,7 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Signal/Slot Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Bewerker van signaal/slot</translation>
     </message>
     <message>
         <source>Widget Box</source>
@@ -1887,18 +1892,18 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Save Forms?</source>
-        <translation type="unfinished"></translation>
+        <translation>Formulieren opslaan?</translation>
     </message>
     <message numerus="yes">
         <source>There are %n forms with unsaved changes. Do you want to review these changes before quitting?</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Er is %n formulier met niet opgeslagen wijzigingen. Wilt u deze wijzigingen nakijken alvorens te stoppen?</numerusform>
+            <numerusform>Er zijn %n formulieren met niet opgeslagen wijzigingen. Wilt u deze wijzigingen nakijken alvorens te stoppen?</numerusform>
         </translation>
     </message>
     <message>
         <source>If you do not review your documents, all your changes will be lost.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als u uw documenten niet nakijkt zullen al uw wijzigingen verloren gaan.</translation>
     </message>
     <message>
         <source>Discard Changes</source>
@@ -1906,15 +1911,15 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Review Changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Wijzigingen nakijken</translation>
     </message>
     <message>
         <source>Backup Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Informatie over backup</translation>
     </message>
     <message>
         <source>The last session of Designer was not terminated correctly. Backup files were left behind. Do you want to load them?</source>
-        <translation type="unfinished"></translation>
+        <translation>De laatste sessie van Designer was niet juist beëindigd. Er zijn backup-bestanden achtergelaten. Wilt u ze laden?</translation>
     </message>
     <message>
         <source>The file &lt;b&gt;%1&lt;/b&gt; could not be opened: %2</source>
@@ -1925,45 +1930,44 @@ Container pages should only be added by specifying them in XML returned by the d
     <name>QFormBuilder</name>
     <message>
         <source>An empty class name was passed on to %1 (object name: &apos;%2&apos;).</source>
-        <extracomment>Empty class name passed to widget factory method
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Empty class name passed to widget factory method</extracomment>
+        <translation>Een lege klassenaam was doorgegeven aan %1 (objectnaam: &apos;%2&apos;).</translation>
     </message>
     <message>
         <source>QFormBuilder was unable to create a custom widget of the class &apos;%1&apos;; defaulting to base class &apos;%2&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>QFormBuilder was niet in staat om een aangepast widget van de klasse &apos;%1&apos; aan te maken; valt terug op de standaard basisklasse &apos;%2&apos;.</translation>
     </message>
     <message>
         <source>QFormBuilder was unable to create a widget of the class &apos;%1&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>QFormBuilder was niet in staat om een widget van de klasse &apos;%1&apos; aan te maken.</translation>
     </message>
     <message>
         <source>The layout type `%1&apos; is not supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het type indeling `%1&apos; wordt niet ondersteund.</translation>
     </message>
     <message>
         <source>The set-type property %1 could not be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>De eigenschap van het instel-type %1 kon niet gelezen worden.</translation>
     </message>
     <message>
         <source>The enumeration-type property %1 could not be read.</source>
-        <translation type="unfinished"></translation>
+        <translation>De eigenschap van het enumeratie-type %1 kon niet gelezen worden.</translation>
     </message>
     <message>
         <source>Reading properties of the type %1 is not supported yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lezen van eigenschappen van het type %1 wordt nog niet ondersteund.</translation>
     </message>
     <message>
         <source>The property %1 could not be written. The type %2 is not supported yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>De eigenschap %1 kon niet geschreven worden. Het type %2 wordt nog niet ondersteund.</translation>
     </message>
     <message>
         <source>The enumeration-value &apos;%1&apos; is invalid. The default value &apos;%2&apos; will be used instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>De enumeratie-waarde &apos;%1&apos; is ongeldig. De standaard waarde &apos;%2&apos; zal in plaats daarvan gebruikt worden.</translation>
     </message>
     <message>
         <source>The flag-value &apos;%1&apos; is invalid. Zero will be used instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>De vlag-waarde &apos;%1&apos; is ongeldig. Nul zal in plaats daarvan gebruikt worden.</translation>
     </message>
 </context>
 <context>
@@ -1990,11 +1994,11 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Change Page Order...</source>
-        <translation type="unfinished"></translation>
+        <translation>Paginavolgorde wijzigen...</translation>
     </message>
     <message>
         <source>Change Page Order</source>
-        <translation type="unfinished"></translation>
+        <translation>Paginavolgorde wijzigen</translation>
     </message>
     <message>
         <source>Page %1 of %2</source>
@@ -2009,11 +2013,11 @@ Container pages should only be added by specifying them in XML returned by the d
     <name>QStackedWidgetPreviewEventFilter</name>
     <message>
         <source>Go to previous page of %1 &apos;%2&apos; (%3/%4).</source>
-        <translation type="unfinished"></translation>
+        <translation>Ga naar vorige pagina van %1 &apos;%2&apos; (%3/%4).</translation>
     </message>
     <message>
         <source>Go to next page of %1 &apos;%2&apos; (%3/%4).</source>
-        <translation type="unfinished"></translation>
+        <translation>Ga naar volgende pagina van %1 &apos;%2&apos; (%3/%4).</translation>
     </message>
 </context>
 <context>
@@ -2055,11 +2059,11 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Change Page Order...</source>
-        <translation type="unfinished"></translation>
+        <translation>Paginavolgorde wijzigen...</translation>
     </message>
     <message>
         <source>Change Page Order</source>
-        <translation type="unfinished"></translation>
+        <translation>Paginavolgorde wijzigen</translation>
     </message>
     <message>
         <source>Page %1 of %2</source>
@@ -2096,14 +2100,14 @@ Container pages should only be added by specifying them in XML returned by the d
     <name>QtCharEdit</name>
     <message>
         <source>Clear Char</source>
-        <translation type="unfinished"></translation>
+        <translation>Teken wissen</translation>
     </message>
 </context>
 <context>
     <name>QtColorEditWidget</name>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -2181,7 +2185,7 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Pointing Hand</source>
-        <translation>Aanwijshand</translation>
+        <translation>Aanwijzer</translation>
     </message>
     <message>
         <source>Forbidden</source>
@@ -2208,7 +2212,7 @@ Container pages should only be added by specifying them in XML returned by the d
     <name>QtFontEditWidget</name>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Select Font</source>
@@ -2243,14 +2247,14 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Kerning</source>
-        <translation type="unfinished"></translation>
+        <translation>Kerning</translation>
     </message>
 </context>
 <context>
     <name>QtGradientDialog</name>
     <message>
         <source>Edit Gradient</source>
-        <translation>Bewerk kleurverloop</translation>
+        <translation>Bewerk verloop</translation>
     </message>
 </context>
 <context>
@@ -2261,39 +2265,39 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Gradient Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Bewerker van verloop</translation>
     </message>
     <message>
         <source>This area shows a preview of the gradient being edited. It also allows you to edit parameters specific to the gradient&apos;s type such as start and final point, radius, etc. by drag &amp; drop.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit gebied toont een voorbeeld van het te bewerken verloop. Het stelt u ook in staat om parameters specifiek voor het typeverloop te bewerken zoals begin en eindpunt, straal, etc. door slepen &amp; laten vallen.</translation>
     </message>
     <message>
         <source>1</source>
-        <translation type="unfinished"></translation>
+        <translation>1</translation>
     </message>
     <message>
         <source>2</source>
-        <translation type="unfinished"></translation>
+        <translation>2</translation>
     </message>
     <message>
         <source>3</source>
-        <translation type="unfinished"></translation>
+        <translation>3</translation>
     </message>
     <message>
         <source>4</source>
-        <translation type="unfinished"></translation>
+        <translation>4</translation>
     </message>
     <message>
         <source>5</source>
-        <translation type="unfinished"></translation>
+        <translation>5</translation>
     </message>
     <message>
         <source>Gradient Stops Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Bewerker van stops van verloop</translation>
     </message>
     <message>
         <source>This area allows you to edit gradient stops. Double click on the existing stop handle to duplicate it. Double click outside of the existing stop handles to create a new stop. Drag &amp; drop the handle to reposition it. Use right mouse button to popup context menu with extra actions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit gebied stelt u ook in staat om stops van verloop te bewerken. Klik dubbel op de bestaand stophandel om te dupliceren. Klik dubbel buiten bestaande stophandels om een nieuwe stop aan te maken. Sleep &amp; laat de handel vallen  om ze een nieuwe positie te geven. Gebruik de rechter muisknop voor een contextmenu met extra acties.</translation>
     </message>
     <message>
         <source>Zoom</source>
@@ -2301,7 +2305,7 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Reset Zoom</source>
-        <translation>Zoom herstellen</translation>
+        <translation>Zoom resetten</translation>
     </message>
     <message>
         <source>Position</source>
@@ -2361,11 +2365,11 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Current stop&apos;s color</source>
-        <translation type="unfinished"></translation>
+        <translation>Huidige kleur van stops</translation>
     </message>
     <message>
         <source>Show HSV specification</source>
-        <translation type="unfinished"></translation>
+        <translation>HSV-specificatie tonen</translation>
     </message>
     <message>
         <source>HSV</source>
@@ -2373,7 +2377,7 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Show RGB specification</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB-specificatie tonen</translation>
     </message>
     <message>
         <source>RGB</source>
@@ -2381,11 +2385,11 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Current stop&apos;s position</source>
-        <translation type="unfinished"></translation>
+        <translation>Huidige positie van stops</translation>
     </message>
     <message>
         <source>%</source>
-        <translation type="unfinished"></translation>
+        <translation>%</translation>
     </message>
     <message>
         <source>Zoom In</source>
@@ -2397,71 +2401,71 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Toggle details extension</source>
-        <translation type="unfinished"></translation>
+        <translation>Detailuitbreidingen omschakelen</translation>
     </message>
     <message>
         <source>&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&gt;</translation>
     </message>
     <message>
         <source>Linear Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Lineair type</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Radial Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Radiale type</translation>
     </message>
     <message>
         <source>Conical Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Conisch type</translation>
     </message>
     <message>
         <source>Pad Spread</source>
-        <translation type="unfinished"></translation>
+        <translation>Pad verbreding</translation>
     </message>
     <message>
         <source>Repeat Spread</source>
-        <translation type="unfinished"></translation>
+        <translation>Verbreding herhalen</translation>
     </message>
     <message>
         <source>Reflect Spread</source>
-        <translation type="unfinished"></translation>
+        <translation>Verbreding reflecteren</translation>
     </message>
     <message>
         <source>Start X</source>
-        <translation type="unfinished"></translation>
+        <translation>Start X</translation>
     </message>
     <message>
         <source>Start Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Start Y</translation>
     </message>
     <message>
         <source>Final X</source>
-        <translation type="unfinished"></translation>
+        <translation>Laatste X</translation>
     </message>
     <message>
         <source>Final Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Laatste Y</translation>
     </message>
     <message>
         <source>Central X</source>
-        <translation type="unfinished"></translation>
+        <translation>Centrale X</translation>
     </message>
     <message>
         <source>Central Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Centrale Y</translation>
     </message>
     <message>
         <source>Focal X</source>
-        <translation type="unfinished"></translation>
+        <translation>Brandpunt X</translation>
     </message>
     <message>
         <source>Focal Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Brandpunt Y</translation>
     </message>
     <message>
         <source>Radius</source>
@@ -2500,7 +2504,7 @@ Container pages should only be added by specifying them in XML returned by the d
     <name>QtGradientStopsWidget</name>
     <message>
         <source>New Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieuwe stop</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -2508,7 +2512,7 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Flip All</source>
-        <translation type="unfinished"></translation>
+        <translation>Alles omdraaien</translation>
     </message>
     <message>
         <source>Select All</source>
@@ -2524,14 +2528,14 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Reset Zoom</source>
-        <translation>Zoom herstellen</translation>
+        <translation>Zoom resetten</translation>
     </message>
 </context>
 <context>
     <name>QtGradientView</name>
     <message>
         <source>Gradient View</source>
-        <translation type="unfinished"></translation>
+        <translation>Weergave verloop</translation>
     </message>
     <message>
         <source>New...</source>
@@ -2555,29 +2559,29 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Remove Gradient</source>
-        <translation type="unfinished"></translation>
+        <translation>Verloop verwijderen</translation>
     </message>
     <message>
         <source>Are you sure you want to remove the selected gradient?</source>
-        <translation type="unfinished"></translation>
+        <translation>Het geselecteerde verloop verwijderen?</translation>
     </message>
 </context>
 <context>
     <name>QtGradientViewDialog</name>
     <message>
         <source>Select Gradient</source>
-        <translation type="unfinished"></translation>
+        <translation>Verloop selecteren</translation>
     </message>
 </context>
 <context>
     <name>QtLocalePropertyManager</name>
     <message>
         <source>&lt;Invalid&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;Ongeldig&gt;</translation>
     </message>
     <message>
         <source>%1, %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, %2</translation>
     </message>
     <message>
         <source>Language</source>
@@ -2592,7 +2596,7 @@ Container pages should only be added by specifying them in XML returned by the d
     <name>QtPointFPropertyManager</name>
     <message>
         <source>(%1, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>(%1, %2)</translation>
     </message>
     <message>
         <source>X</source>
@@ -2607,7 +2611,7 @@ Container pages should only be added by specifying them in XML returned by the d
     <name>QtPointPropertyManager</name>
     <message>
         <source>(%1, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>(%1, %2)</translation>
     </message>
     <message>
         <source>X</source>
@@ -2622,11 +2626,11 @@ Container pages should only be added by specifying them in XML returned by the d
     <name>QtPropertyBrowserUtils</name>
     <message>
         <source>[%1, %2, %3] (%4)</source>
-        <translation type="unfinished"></translation>
+        <translation>[%1, %2, %3] (%4)</translation>
     </message>
     <message>
         <source>[%1, %2]</source>
-        <translation type="unfinished"></translation>
+        <translation>[%1, %2]</translation>
     </message>
 </context>
 <context>
@@ -2711,16 +2715,17 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Remove Resource or File</source>
-        <translation type="unfinished"></translation>
+        <translation>Hulpbron of bestand verwijderen</translation>
     </message>
     <message>
         <source>%1 already exists.
 Do you want to replace it?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 bestaat al.
+Wilt u het vervangen?</translation>
     </message>
     <message>
         <source>The file does not appear to be a resource file; element &apos;%1&apos; was found where &apos;%2&apos; was expected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het bestand lijkt geen hulpbronbestand te zijn; element &apos;%1&apos; is gevonden waar &apos;%2&apos; werd verwacht.</translation>
     </message>
     <message>
         <source>%1 [read-only]</source>
@@ -2732,31 +2737,31 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>&lt;no prefix&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;geen voorloop&gt;</translation>
     </message>
     <message>
         <source>New Resource File</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieuw hulpbronbestand</translation>
     </message>
     <message>
         <source>Resource files (*.qrc)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hulpbronbestanden (*.grc)</translation>
     </message>
     <message>
         <source>Import Resource File</source>
-        <translation type="unfinished"></translation>
+        <translation>Hulpbronbestand importeren</translation>
     </message>
     <message>
         <source>newPrefix</source>
-        <translation type="unfinished"></translation>
+        <translation>nieuweVoorloop</translation>
     </message>
     <message>
         <source>&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; The file&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;is outside of the current resource file&apos;s parent directory.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;&lt;b&gt;Waarschuwing:&lt;/b&gt; Het bestand&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;valt buiten de huidige hoofdmap voor hulpbronbestanden.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;To resolve the issue, press:&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Copy&lt;/th&gt;&lt;td&gt;to copy the file to the resource file&apos;s parent directory.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Copy As...&lt;/th&gt;&lt;td&gt;to copy the file into a subdirectory of the resource file&apos;s parent directory.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Keep&lt;/th&gt;&lt;td&gt;to use its current location.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Om het probleem op te lossen, druk op:&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Kopiëren&lt;/th&gt;&lt;td&gt;om het bestand te kopiëren naar de hoofdmap van hulpbronbestanden.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Kopiëren als...&lt;/th&gt;&lt;td&gt;om het bestand te kopiëren naar een submap van de hoofdmap van hulpbronbestanden.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Behouden&lt;/th&gt;&lt;td&gt;om zijn huidige locatie te gebruiken.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</translation>
     </message>
     <message>
         <source>Add Files</source>
@@ -2764,7 +2769,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Incorrect Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Onjuist pad</translation>
     </message>
     <message>
         <source>Copy</source>
@@ -2784,12 +2789,13 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Clone Prefix</source>
-        <translation type="unfinished"></translation>
+        <translation>Voorloop klonen</translation>
     </message>
     <message>
         <source>Enter the suffix which you want to add to the names of the cloned files.
 This could for example be a language extension like &quot;_de&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Voer het achtervoegsel in dat u wilt toevoegen aan de namen van de gekloonde bestanden.
+Dit zou bijvoorbeeld een taalextensie zoals &quot;_nl&quot; kunnen zijn.</translation>
     </message>
     <message>
         <source>Copy As</source>
@@ -2797,27 +2803,31 @@ This could for example be a language extension like &quot;_de&quot;.</source>
     </message>
     <message>
         <source>&lt;p&gt;The selected file:&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;is outside of the current resource file&apos;s directory:&lt;/p&gt;&lt;p&gt;%2&lt;/p&gt;&lt;p&gt;Please select another path within this directory.&lt;p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Het geselecteerde bestand:&lt;p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;valt buiten de huidige map van het hulpbronbestand:&lt;/p&gt;&lt;p&gt;%2&lt;/p&gt;&lt;p&gt;Selecteer een ander pad binnen deze map.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Could not overwrite %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kon %1 niet overschrijven.</translation>
     </message>
     <message>
         <source>Could not copy
 %1
 to
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Kon
+%1
+niet kopiëren naar
+%2</translation>
     </message>
     <message>
         <source>A parse error occurred at line %1, column %2 of %3:
 %4</source>
-        <translation type="unfinished"></translation>
+        <translation>Er deed zich een ontleedfout voor in regel %1, kolom %2 van %3:
+%4</translation>
     </message>
     <message>
         <source>Save Resource File</source>
-        <translation type="unfinished"></translation>
+        <translation>Hulpbronbestand opslaan</translation>
     </message>
     <message>
         <source>Could not write %1: %2</source>
@@ -2825,7 +2835,7 @@ to
     </message>
     <message>
         <source>Edit Resources</source>
-        <translation type="unfinished"></translation>
+        <translation>Hulpbronnen bewerken</translation>
     </message>
     <message>
         <source>New...</source>
@@ -2837,7 +2847,7 @@ to
     </message>
     <message>
         <source>Open Resource File</source>
-        <translation type="unfinished"></translation>
+        <translation>Hulpbronbestand openen</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -2861,7 +2871,7 @@ to
     </message>
     <message>
         <source>Change Prefix</source>
-        <translation type="unfinished"></translation>
+        <translation>Voorvoegsel wijzigen</translation>
     </message>
     <message>
         <source>Change Language</source>
@@ -2873,23 +2883,23 @@ to
     </message>
     <message>
         <source>Clone Prefix...</source>
-        <translation type="unfinished"></translation>
+        <translation>Voorvoegsel klonen...</translation>
     </message>
     <message>
         <source>Prefix / Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Voorvoegsel / pad</translation>
     </message>
     <message>
         <source>Language / Alias</source>
-        <translation type="unfinished"></translation>
+        <translation>Taal / alias</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; There have been problems while reloading the resources:&lt;/p&gt;&lt;pre&gt;%1&lt;/pre&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;p&gt;&lt;b&gt;Waarschuwing:&lt;/b&gt; Er zijn problemen geweest bij opnieuw laden van de hulpbronnen:&lt;/p&gt;&lt;pre&gt;%1&lt;/pre&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Resource Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>Hulpbronwaarschuwing</translation>
     </message>
 </context>
 <context>
@@ -2897,11 +2907,12 @@ to
     <message>
         <source>Size: %1 x %2
 %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Grootte: %1 x %2
+%3</translation>
     </message>
     <message>
         <source>Edit Resources...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hulpbronnen bewerken...</translation>
     </message>
     <message>
         <source>Reload</source>
@@ -2942,11 +2953,11 @@ to
     <name>QtSizePolicyPropertyManager</name>
     <message>
         <source>&lt;Invalid&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;Ongeldig&gt;</translation>
     </message>
     <message>
         <source>[%1, %2, %3, %4]</source>
-        <translation type="unfinished"></translation>
+        <translation>[%1, %2, %3, %4]</translation>
     </message>
     <message>
         <source>Horizontal Policy</source>
@@ -2984,11 +2995,11 @@ to
     <name>QtToolBarDialog</name>
     <message>
         <source>Customize Toolbars</source>
-        <translation type="unfinished"></translation>
+        <translation>Werkbalken aanpassen</translation>
     </message>
     <message>
         <source>1</source>
-        <translation type="unfinished"></translation>
+        <translation>1</translation>
     </message>
     <message>
         <source>Actions</source>
@@ -3000,7 +3011,7 @@ to
     </message>
     <message>
         <source>Add new toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieuwe werkbalk toevoegen</translation>
     </message>
     <message>
         <source>New</source>
@@ -3008,7 +3019,7 @@ to
     </message>
     <message>
         <source>Remove selected toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Geselecteerde werkbalk verwijderen</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -3016,7 +3027,7 @@ to
     </message>
     <message>
         <source>Rename toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Werkbalk hernoemen</translation>
     </message>
     <message>
         <source>Rename</source>
@@ -3032,11 +3043,11 @@ to
     </message>
     <message>
         <source>Remove action from toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Actie van werkbalk verwijderen</translation>
     </message>
     <message>
         <source>&lt;-</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;-</translation>
     </message>
     <message>
         <source>Add action to toolbar</source>
@@ -3044,7 +3055,7 @@ to
     </message>
     <message>
         <source>-&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>-&gt;</translation>
     </message>
     <message>
         <source>Move action down</source>
@@ -3056,15 +3067,15 @@ to
     </message>
     <message>
         <source>Current Toolbar Actions</source>
-        <translation type="unfinished"></translation>
+        <translation>Huidige acties van werkbalk</translation>
     </message>
     <message>
         <source>Custom Toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Aangepaste werkbalk</translation>
     </message>
     <message>
         <source>&lt; S E P A R A T O R &gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt; S C H E I D I N G &gt;</translation>
     </message>
 </context>
 <context>
@@ -3082,7 +3093,7 @@ to
     <name>SaveFormAsTemplate</name>
     <message>
         <source>Save Form As Template</source>
-        <translation type="unfinished"></translation>
+        <translation>Formulier opslaan als sjabloon</translation>
     </message>
     <message>
         <source>&amp;Name:</source>
@@ -3098,24 +3109,25 @@ to
     </message>
     <message>
         <source>Template Exists</source>
-        <translation type="unfinished"></translation>
+        <translation>Sjabloon bestaat</translation>
     </message>
     <message>
         <source>A template with the name %1 already exists.
 Do you want overwrite the template?</source>
-        <translation type="unfinished"></translation>
+        <translation>Een sjabloon met de naam %1 bestaat al.
+Wilt u het sjabloon overschrijven?</translation>
     </message>
     <message>
         <source>Overwrite Template</source>
-        <translation type="unfinished"></translation>
+        <translation>Sjabloon overschrijven</translation>
     </message>
     <message>
         <source>Open Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Fout bij openen</translation>
     </message>
     <message>
         <source>There was an error opening template %1 for writing. Reason: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Er was een fout bij openen van sjabloon %1 voor schrijven. Reden: %2</translation>
     </message>
     <message>
         <source>Write Error</source>
@@ -3123,22 +3135,22 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>There was an error writing the template %1 to disk. Reason: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Er was een fout bij schrijven van sjabloon %1 naar schijf. Reden: %2</translation>
     </message>
     <message>
         <source>Pick a directory to save templates in</source>
-        <translation type="unfinished"></translation>
+        <translation>Kies een map om sjablonen in op te slaan</translation>
     </message>
 </context>
 <context>
     <name>SelectSignalDialog</name>
     <message>
         <source>Go to slot</source>
-        <translation type="unfinished"></translation>
+        <translation>Ga naar slot</translation>
     </message>
     <message>
         <source>Select signal</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecteer signaal</translation>
     </message>
     <message>
         <source>signal</source>
@@ -3153,14 +3165,14 @@ Do you want overwrite the template?</source>
     <name>SignalSlotConnection</name>
     <message>
         <source>SENDER(%1), SIGNAL(%2), RECEIVER(%3), SLOT(%4)</source>
-        <translation type="unfinished"></translation>
+        <translation>ZENDER(%1), SIGNAAL(%2), ONTVANGER(%3), SLOT(%4)</translation>
     </message>
 </context>
 <context>
     <name>SignalSlotDialogClass</name>
     <message>
         <source>Signals and slots</source>
-        <translation type="unfinished"></translation>
+        <translation>Signalen en sloten</translation>
     </message>
     <message>
         <source>Slots</source>
@@ -3172,7 +3184,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -3187,20 +3199,19 @@ Do you want overwrite the template?</source>
     <name>Spacer</name>
     <message>
         <source>Horizontal Spacer &apos;%1&apos;, %2 x %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Horizontale afstandhouder &apos;%1&apos;, %2 x %3</translation>
     </message>
     <message>
         <source>Vertical Spacer &apos;%1&apos;, %2 x %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Verticale afstandhouder &apos;%1&apos;, %2 x %3</translation>
     </message>
 </context>
 <context>
     <name>TemplateOptionsPage</name>
     <message>
         <source>Template Paths</source>
-        <extracomment>Tab in preferences dialog
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Tab in preferences dialog</extracomment>
+        <translation>Sjabloonpaden</translation>
     </message>
 </context>
 <context>
@@ -3223,7 +3234,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Dock views</source>
-        <translation type="unfinished"></translation>
+        <translation>Verankeringweergaven</translation>
     </message>
     <message>
         <source>File</source>
@@ -3258,22 +3269,18 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>&lt;br/&gt;Qt Designer is a graphical user interface designer for Qt applications.&lt;br/&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;br/&gt;Qt Designer is een grafisch gebruikersinterface ontworpen voor Qt-toepassingen.&lt;br/&gt;</translation>
     </message>
     <message>
         <source>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</translation>
     </message>
 </context>
 <context>
     <name>WidgetDataBase</name>
     <message>
-        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het bestand bevat een aangepast widget &apos;%1&apos; waarvan de basisklasse (%2) verschilt van het huidige item in de widget-database (%3). De widget-database is ongewijzigd gebleven.</translation>
     </message>
 </context>
 <context>
@@ -3295,7 +3302,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Go to slot...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ga naar slot...</translation>
     </message>
     <message>
         <source>Copy</source>
@@ -3323,7 +3330,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Configure Action Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Bewerker van acties configureren</translation>
     </message>
     <message>
         <source>Icon View</source>
@@ -3351,7 +3358,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Remove actions</source>
-        <translation type="unfinished"></translation>
+        <translation>Acties verwijderen</translation>
     </message>
     <message>
         <source>Used In</source>
@@ -3389,50 +3396,50 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::BuddyEditor</name>
     <message>
         <source>Add buddy</source>
-        <translation type="unfinished"></translation>
+        <translation>Buddy toevoegen</translation>
     </message>
     <message>
         <source>Remove buddies</source>
-        <translation type="unfinished"></translation>
+        <translation>Buddies verwijderen</translation>
     </message>
     <message numerus="yes">
         <source>Remove %n buddies</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n buddie verwijderen</numerusform>
+            <numerusform>%n buddies verwijderen</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>Add %n buddies</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n buddie toevoegen</numerusform>
+            <numerusform>%n buddies toevoegen</numerusform>
         </translation>
     </message>
     <message>
         <source>Set automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatisch instellen</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::BuddyEditorPlugin</name>
     <message>
         <source>Edit Buddies</source>
-        <translation type="unfinished"></translation>
+        <translation>Buddies bewerken</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::BuddyEditorTool</name>
     <message>
         <source>Edit Buddies</source>
-        <translation type="unfinished"></translation>
+        <translation>Buddies bewerken</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::ButtonGroupMenu</name>
     <message>
         <source>Select members</source>
-        <translation type="unfinished"></translation>
+        <translation>Leden selecteren</translation>
     </message>
     <message>
         <source>Break</source>
@@ -3443,7 +3450,7 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::ButtonTaskMenu</name>
     <message>
         <source>Assign to button group</source>
-        <translation type="unfinished"></translation>
+        <translation>Aan knoppengroep toekennen</translation>
     </message>
     <message>
         <source>Button group</source>
@@ -3451,7 +3458,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>New button group</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieuwe knoppengroep</translation>
     </message>
     <message>
         <source>Change text...</source>
@@ -3477,28 +3484,20 @@ Do you want overwrite the template?</source>
         <translation>Alles kopiëren</translation>
     </message>
     <message>
-        <source>&amp;Find in Text...</source>
-        <translation>In tekst &amp;zoeken...</translation>
-    </message>
-    <message>
         <source>A temporary form file could not be created in %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Een tijdelijk formulierbestand kon niet worden aangemaakt in %1.</translation>
     </message>
     <message>
         <source>The temporary form file %1 could not be written.</source>
-        <translation type="unfinished"></translation>
+        <translation>In het tijdelijke formulierbestand %1 kon niet worden geschreven.</translation>
     </message>
     <message>
-        <source>%1 - [Code]</source>
-        <translation>%1 - [code]</translation>
+        <source>%1 - [%2 Code]</source>
+        <translation>%1 - [%2 code]</translation>
     </message>
     <message>
         <source>Save Code</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Header Files (*.%1)</source>
-        <translation>Header-bestanden (*.%1)</translation>
+        <translation>Code opslaan</translation>
     </message>
     <message>
         <source>The file %1 could not be opened: %2</source>
@@ -3506,11 +3505,15 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>The file %1 could not be written: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Het bestand %1 kon niet geschreven worden: %2</translation>
     </message>
     <message>
         <source>%1 - Error</source>
         <translation>%1 - fout</translation>
+    </message>
+    <message>
+        <source>Header Files (*.%1)</source>
+        <translation type="vanished">Header-bestanden (*.%1)</translation>
     </message>
 </context>
 <context>
@@ -3524,18 +3527,18 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::ComboBoxTaskMenu</name>
     <message>
         <source>Edit Items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Items bewerken...</translation>
     </message>
     <message>
         <source>Change Combobox Contents</source>
-        <translation type="unfinished"></translation>
+        <translation>Inhoud keuzelijst wijzigen</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::CommandLinkButtonTaskMenu</name>
     <message>
         <source>Change description...</source>
-        <translation type="unfinished"></translation>
+        <translation>Beschrijving wijzigen...</translation>
     </message>
 </context>
 <context>
@@ -3573,27 +3576,27 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>&lt;sender&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;verzender&gt;</translation>
     </message>
     <message>
         <source>&lt;signal&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;signaal&gt;</translation>
     </message>
     <message>
         <source>&lt;receiver&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;ontvanger&gt;</translation>
     </message>
     <message>
         <source>&lt;slot&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;slot&gt;</translation>
     </message>
     <message>
         <source>The connection already exists!&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>De verbinding bestaat al!&lt;br&gt;%1</translation>
     </message>
     <message>
         <source>Signal and Slot Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Bewerker van signaal en slot</translation>
     </message>
 </context>
 <context>
@@ -3608,19 +3611,19 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Insert Page Before Current Page</source>
-        <translation type="unfinished"></translation>
+        <translation>Pagina invoegen voor huidige pagina</translation>
     </message>
     <message>
         <source>Insert Page After Current Page</source>
-        <translation type="unfinished"></translation>
+        <translation>Pagina invoegen na huidige pagina</translation>
     </message>
     <message>
         <source>Add Subwindow</source>
-        <translation type="unfinished"></translation>
+        <translation>Subvenster toevoegen</translation>
     </message>
     <message>
         <source>Subwindow</source>
-        <translation type="unfinished"></translation>
+        <translation>Subvenster</translation>
     </message>
     <message>
         <source>Page</source>
@@ -3635,9 +3638,8 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::DPI_Chooser</name>
     <message>
         <source>System (%1 x %2)</source>
-        <extracomment>System resolution
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>System resolution</extracomment>
+        <translation>Systeem (%1 x %2)</translation>
     </message>
     <message>
         <source>User defined</source>
@@ -3645,8 +3647,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source> x </source>
-        <extracomment>DPI X/Y separator
-</extracomment>
+        <extracomment>DPI X/Y separator</extracomment>
         <translation> x </translation>
     </message>
 </context>
@@ -3654,11 +3655,11 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::DesignerPropertyManager</name>
     <message>
         <source>translatable</source>
-        <translation type="unfinished"></translation>
+        <translation>vertaalbaar</translation>
     </message>
     <message>
         <source>disambiguation</source>
-        <translation type="unfinished"></translation>
+        <translation>van dubbele betekenis ontdoen</translation>
     </message>
     <message>
         <source>comment</source>
@@ -3670,41 +3671,41 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>AlignLeft</source>
-        <translation type="unfinished"></translation>
+        <translation>AlignLeft</translation>
     </message>
     <message>
         <source>AlignHCenter</source>
-        <translation type="unfinished"></translation>
+        <translation>AlignHCenter</translation>
     </message>
     <message>
         <source>AlignRight</source>
-        <translation type="unfinished"></translation>
+        <translation>AlignRight</translation>
     </message>
     <message>
         <source>AlignJustify</source>
-        <translation type="unfinished"></translation>
+        <translation>AlignJustify</translation>
     </message>
     <message>
         <source>AlignTop</source>
-        <translation type="unfinished"></translation>
+        <translation>AlignTop</translation>
     </message>
     <message>
         <source>AlignVCenter</source>
-        <translation type="unfinished"></translation>
+        <translation>AlignVCenter</translation>
     </message>
     <message>
         <source>AlignBottom</source>
-        <translation type="unfinished"></translation>
+        <translation>AlignBottom</translation>
     </message>
     <message>
         <source>%1, %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, %2</translation>
     </message>
     <message numerus="yes">
         <source>Customized (%n roles)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Aangepast (%n rol)</numerusform>
+            <numerusform>Aangepast (%n rollen)</numerusform>
         </translation>
     </message>
     <message>
@@ -3729,11 +3730,11 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Normal Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Normaal uit</translation>
     </message>
     <message>
         <source>Normal On</source>
-        <translation type="unfinished"></translation>
+        <translation>Normaal aan</translation>
     </message>
     <message>
         <source>Disabled Off</source>
@@ -3776,11 +3777,11 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Save Profile - Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Profiel opslaan - fout</translation>
     </message>
     <message>
         <source>Unable to open the file &apos;%1&apos; for writing: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Kon het bestand &apos;%1&apos; niet openen voor schrijven: %2</translation>
     </message>
     <message>
         <source>Open profile</source>
@@ -3788,15 +3789,15 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Open Profile - Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Profiel openen - fout</translation>
     </message>
     <message>
         <source>Unable to open the file &apos;%1&apos; for reading: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Het bestand &apos;%1 kon niet worden geopend voor lezen: %2</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a valid profile: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;%1&apos; is geen geldig profiel: %2</translation>
     </message>
 </context>
 <context>
@@ -3807,7 +3808,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>StringList</source>
-        <translation type="unfinished"></translation>
+        <translation>StringList</translation>
     </message>
     <message>
         <source>New String</source>
@@ -3831,7 +3832,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Move String Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekenreeks omhoog verplaatsen</translation>
     </message>
     <message>
         <source>Up</source>
@@ -3839,7 +3840,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Move String Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekenreeks omlaag verplaatsen</translation>
     </message>
     <message>
         <source>Down</source>
@@ -3858,11 +3859,11 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Edit the selected profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Het geselecteerde profiel bewerken</translation>
     </message>
     <message>
         <source>Delete the selected profile</source>
-        <translation type="unfinished"></translation>
+        <translation>De geselecteerde profiel verwijderen</translation>
     </message>
     <message>
         <source>Add Profile</source>
@@ -3882,7 +3883,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Would you like to delete the profile &apos;%1&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>Wilt u het profiel &apos;%1&apos; verwijderen?</translation>
     </message>
     <message>
         <source>Default</source>
@@ -3893,11 +3894,11 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::FormEditor</name>
     <message>
         <source>Resource File Changed</source>
-        <translation type="unfinished"></translation>
+        <translation>Bronbestand gewijzigd</translation>
     </message>
     <message>
         <source>The file &quot;%1&quot; has changed outside Designer. Do you want to reload it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Het bestand &quot;%1&quot; is buiten Designer gewijzigd. Wilt u het opnieuw laden?</translation>
     </message>
 </context>
 <context>
@@ -3927,37 +3928,37 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Key Resize</source>
-        <translation type="unfinished"></translation>
+        <translation>Grootte van sleutel wijzigen</translation>
     </message>
     <message>
         <source>Key Move</source>
-        <translation type="unfinished"></translation>
+        <translation>Sleutel verplaatsen</translation>
     </message>
     <message numerus="yes">
         <source>Paste %n action(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n actie plakken</numerusform>
+            <numerusform>%n acties plakken</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>Paste %n widget(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n widget plakken</numerusform>
+            <numerusform>%n widgets plakken</numerusform>
         </translation>
     </message>
     <message>
         <source>Paste (%1 widgets, %2 actions)</source>
-        <translation type="unfinished"></translation>
+        <translation>Plakken (%1 widgets, %2 acties)</translation>
     </message>
     <message>
         <source>Cannot paste widgets. Designer could not find a container without a layout to paste into.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan widgets niet plakken. Designer kon geen container vinden zonder een indeling om in te plakken.</translation>
     </message>
     <message>
         <source>Break the layout of the container you want to paste into, select this container and then paste again.</source>
-        <translation type="unfinished"></translation>
+        <translation>De indeling van de container waarin u wilt plakken breken, selecteer deze container en plak daarna opnieuw.</translation>
     </message>
     <message>
         <source>Paste error</source>
@@ -3965,27 +3966,27 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Raise widgets</source>
-        <translation type="unfinished"></translation>
+        <translation>Widgets omhoog brengen</translation>
     </message>
     <message>
         <source>Lower widgets</source>
-        <translation type="unfinished"></translation>
+        <translation>Widgets omlaag brengen</translation>
     </message>
     <message>
         <source>Select Ancestor</source>
-        <translation type="unfinished"></translation>
+        <translation>Voorouder selecteren</translation>
     </message>
     <message>
         <source>Lay out</source>
-        <translation type="unfinished"></translation>
+        <translation>Indeling</translation>
     </message>
     <message>
         <source>Drop widget</source>
-        <translation type="unfinished"></translation>
+        <translation>Widget laten vallen</translation>
     </message>
     <message>
         <source>A QMainWindow-based form does not contain a central widget.</source>
-        <translation type="unfinished"></translation>
+        <translation>Een op QMainWindow gebaseerd formulier bevat geen centraal widget.</translation>
     </message>
 </context>
 <context>
@@ -4000,11 +4001,11 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Invalid form</source>
-        <translation type="unfinished"></translation>
+        <translation>Ongeldig formulier</translation>
     </message>
     <message>
         <source>&lt;p&gt;This file contains top level spacers.&lt;br/&gt;They will &lt;b&gt;not&lt;/b&gt; be saved.&lt;/p&gt;&lt;p&gt;Perhaps you forgot to create a layout?&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Dit bestand bevat spacers op topniveau.&lt;br/&gt;Ze zullen &lt;b&gt;niet&lt;/b&gt; opgeslagen worden.&lt;/p&gt;&lt;p&gt;Misschien vergat u een indeling aan te maken?&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -4091,11 +4092,11 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Lay Out in a &amp;Form Layout</source>
-        <translation type="unfinished"></translation>
+        <translation>Indelen in een &amp;Formulierindeling</translation>
     </message>
     <message>
         <source>Lays out the selected widgets in a form layout</source>
-        <translation type="unfinished"></translation>
+        <translation>Deelt de geselecteerde widgets in in een formulierindeling</translation>
     </message>
     <message>
         <source>Lay Out in a &amp;Grid</source>
@@ -4135,7 +4136,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Removes empty columns and rows</source>
-        <translation type="unfinished"></translation>
+        <translation>Verwijdert lege kolommen en rijen</translation>
     </message>
     <message>
         <source>&amp;Preview...</source>
@@ -4143,7 +4144,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Preview current form</source>
-        <translation type="unfinished"></translation>
+        <translation>Huidig formulier bekijken</translation>
     </message>
     <message>
         <source>Form &amp;Settings...</source>
@@ -4160,7 +4161,7 @@ Do you want overwrite the template?</source>
     <message>
         <source>Could not create form preview</source>
         <comment>Title of warning message box</comment>
-        <translation type="unfinished"></translation>
+        <translation>Kon het formuliervoorbeeld niet aanmaken</translation>
     </message>
     <message>
         <source>Form Settings - %1</source>
@@ -4175,7 +4176,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Device Profile: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Apparaatprofiel: %1</translation>
     </message>
 </context>
 <context>
@@ -4213,32 +4214,32 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::GroupBoxTaskMenu</name>
     <message>
         <source>Change title...</source>
-        <translation type="unfinished"></translation>
+        <translation>Titel wijzigen...</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::HtmlTextEdit</name>
     <message>
         <source>Insert HTML entity</source>
-        <translation type="unfinished"></translation>
+        <translation>HTML-entiteit invoegen</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::IconThemeDialog</name>
     <message>
         <source>Set Icon From Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Pictogram uit thema instellen</translation>
     </message>
     <message>
         <source>Input icon name from the current theme:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pictogramnaam invoeren uit het huidige thema:</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::ItemListEditor</name>
     <message>
         <source>Items List</source>
-        <translation type="unfinished"></translation>
+        <translation>Itemlijst</translation>
     </message>
     <message>
         <source>New Item</source>
@@ -4285,11 +4286,11 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::LabelTaskMenu</name>
     <message>
         <source>Change rich text...</source>
-        <translation type="unfinished"></translation>
+        <translation>Opgemaakte tekst wijzigen...</translation>
     </message>
     <message>
         <source>Change plain text...</source>
-        <translation type="unfinished"></translation>
+        <translation>Platte tekst wijzigen...</translation>
     </message>
 </context>
 <context>
@@ -4314,33 +4315,33 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Edit List Widget</source>
-        <translation type="unfinished"></translation>
+        <translation>Lijstwidget bewerken</translation>
     </message>
     <message>
         <source>Edit Combobox</source>
-        <translation type="unfinished"></translation>
+        <translation>Keuzelijst bewerken</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::ListWidgetTaskMenu</name>
     <message>
         <source>Edit Items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Items bewerken...</translation>
     </message>
     <message>
         <source>Change List Contents</source>
-        <translation type="unfinished"></translation>
+        <translation>Inhoud van lijst wijzigen</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::MdiContainerWidgetTaskMenu</name>
     <message>
         <source>Next Subwindow</source>
-        <translation type="unfinished"></translation>
+        <translation>Volgende subvenster</translation>
     </message>
     <message>
         <source>Previous Subwindow</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorige subvenster</translation>
     </message>
     <message>
         <source>Tile</source>
@@ -4408,7 +4409,7 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::NewDynamicPropertyDialog</name>
     <message>
         <source>Create Dynamic Property</source>
-        <translation type="unfinished"></translation>
+        <translation>Dynamische eigenschap aanmaken</translation>
     </message>
     <message>
         <source>Property Name</source>
@@ -4416,40 +4417,42 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>horizontalSpacer</source>
-        <translation type="unfinished"></translation>
+        <translation>horizontalSpacer</translation>
     </message>
     <message>
         <source>Property Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Type van eigenschap</translation>
     </message>
     <message>
         <source>Set Property Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Naam van eigenschap instellen</translation>
     </message>
     <message>
         <source>The current object already has a property named &apos;%1&apos;.
 Please select another, unique one.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het huidige object heeft al een eigenschap genaamd &apos;%1&apos;.
+Selecteer een andere, unieke naam.</translation>
     </message>
     <message>
         <source>The &apos;_q_&apos; prefix is reserved for the Qt library.
 Please select another name.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het voorvoegsel &apos;_q_&apos; is gereserveerd voor de Qt bibliotheek.
+Selecteer een andere naam.</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::NewFormWidget</name>
     <message>
         <source>0</source>
-        <translation type="unfinished"></translation>
+        <translation>0</translation>
     </message>
     <message>
         <source>Choose a template for a preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Kies een sjabloon voor een voorbeeld</translation>
     </message>
     <message>
         <source>Embedded Design</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingebed ontwerp</translation>
     </message>
     <message>
         <source>Device:</source>
@@ -4465,29 +4468,28 @@ Please select another name.</source>
     </message>
     <message>
         <source>QVGA portrait (240x320)</source>
-        <translation type="unfinished"></translation>
+        <translation>QVGA-portret (240x320)</translation>
     </message>
     <message>
         <source>QVGA landscape (320x240)</source>
-        <translation type="unfinished"></translation>
+        <translation>QVGA-landschap (320x240)</translation>
     </message>
     <message>
         <source>VGA portrait (480x640)</source>
-        <translation type="unfinished"></translation>
+        <translation>VGA-portret (480x640)</translation>
     </message>
     <message>
         <source>VGA landscape (640x480)</source>
-        <translation type="unfinished"></translation>
+        <translation>VGA-landschap (640x480)</translation>
     </message>
     <message>
         <source>Widgets</source>
-        <extracomment>New Form Dialog Categories
-</extracomment>
+        <extracomment>New Form Dialog Categories</extracomment>
         <translation>Widgets</translation>
     </message>
     <message>
         <source>Custom Widgets</source>
-        <translation type="unfinished"></translation>
+        <translation>Aangepaste widgets</translation>
     </message>
     <message>
         <source>None</source>
@@ -4495,15 +4497,15 @@ Please select another name.</source>
     </message>
     <message>
         <source>Error loading form</source>
-        <translation type="unfinished"></translation>
+        <translation>Fout bij laden van formulier</translation>
     </message>
     <message>
         <source>Unable to open the form template file &apos;%1&apos;: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Openen van het bestand met formuliersjabloon &apos;%1&apos; lukt niet: %2</translation>
     </message>
     <message>
         <source>Internal error: No template selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Interne fout: geen sjabloon geselecteerd.</translation>
     </message>
 </context>
 <context>
@@ -4514,15 +4516,15 @@ Please select another name.</source>
     </message>
     <message>
         <source>New Promoted Class</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieuw gepromote klasse</translation>
     </message>
     <message>
         <source>Base class name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Naam van basisklasse:</translation>
     </message>
     <message>
         <source>Promoted class name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Naam van gepromote klasse:</translation>
     </message>
     <message>
         <source>Header file:</source>
@@ -4530,7 +4532,7 @@ Please select another name.</source>
     </message>
     <message>
         <source>Global include</source>
-        <translation type="unfinished"></translation>
+        <translation>Globaal ingevoegd</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -4540,19 +4542,23 @@ Please select another name.</source>
 <context>
     <name>qdesigner_internal::ObjectInspector</name>
     <message>
+        <source>Filter</source>
+        <translation>Filter</translation>
+    </message>
+    <message>
         <source>Change Current Page</source>
-        <translation type="unfinished"></translation>
+        <translation>Huidige pagina wijzigen</translation>
     </message>
     <message>
         <source>&amp;Find in Text...</source>
-        <translation>In tekst &amp;zoeken...</translation>
+        <translation type="vanished">In tekst &amp;zoeken...</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::OrderDialog</name>
     <message>
         <source>Change Page Order</source>
-        <translation type="unfinished"></translation>
+        <translation>Paginavolgorde wijzigen</translation>
     </message>
     <message>
         <source>Page Order</source>
@@ -4560,11 +4566,11 @@ Please select another name.</source>
     </message>
     <message>
         <source>Move page up</source>
-        <translation type="unfinished"></translation>
+        <translation>Pagina omhoog verplaatsen</translation>
     </message>
     <message>
         <source>Move page down</source>
-        <translation type="unfinished"></translation>
+        <translation>Pagina omlaag verplaatsen</translation>
     </message>
     <message>
         <source>Index %1 (%2)</source>
@@ -4572,7 +4578,7 @@ Please select another name.</source>
     </message>
     <message>
         <source>%1 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 %2</translation>
     </message>
 </context>
 <context>
@@ -4591,7 +4597,7 @@ Please select another name.</source>
     </message>
     <message>
         <source>Compute Details</source>
-        <translation type="unfinished"></translation>
+        <translation>Details berekenen</translation>
     </message>
     <message>
         <source>Quick</source>
@@ -4618,14 +4624,14 @@ Please select another name.</source>
     <name>qdesigner_internal::PaletteEditorButton</name>
     <message>
         <source>Change Palette</source>
-        <translation type="unfinished"></translation>
+        <translation>Palet wijzigen</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::PaletteModel</name>
     <message>
         <source>Color Role</source>
-        <translation type="unfinished"></translation>
+        <translation>Kleurrol</translation>
     </message>
     <message>
         <source>Active</source>
@@ -4652,7 +4658,7 @@ Please select another name.</source>
     </message>
     <message>
         <source>Set Icon From Theme...</source>
-        <translation type="unfinished"></translation>
+        <translation>Pictogram instellen uit thema...</translation>
     </message>
     <message>
         <source>Copy Path</source>
@@ -4664,7 +4670,7 @@ Please select another name.</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>[Theme] %1</source>
@@ -4694,7 +4700,7 @@ Please select another name.</source>
     </message>
     <message>
         <source>Scan for newly installed custom widget plugins.</source>
-        <translation type="unfinished"></translation>
+        <translation>Op nieuw geïnstalleerde aangepaste widgetplug-ins scannen.</translation>
     </message>
     <message>
         <source>Loaded Plugins</source>
@@ -4702,19 +4708,19 @@ Please select another name.</source>
     </message>
     <message>
         <source>Failed Plugins</source>
-        <translation type="unfinished"></translation>
+        <translation>Mislukte plug-ins</translation>
     </message>
     <message>
         <source>Qt Designer couldn&apos;t find any plugins</source>
-        <translation type="unfinished"></translation>
+        <translation>Qt Designer kon geen plug-ins vinden</translation>
     </message>
     <message>
         <source>Qt Designer found the following plugins</source>
-        <translation type="unfinished"></translation>
+        <translation>Qt Designer heeft de volgende plug-ins gevonden</translation>
     </message>
     <message>
         <source>New custom widget plugins have been found.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieuwe aangepaste widgetplug-ins gevonden.</translation>
     </message>
 </context>
 <context>
@@ -4740,19 +4746,19 @@ Please select another name.</source>
     </message>
     <message>
         <source>Load Custom Device Skin</source>
-        <translation type="unfinished"></translation>
+        <translation>Aangepaste apparaatskin laden</translation>
     </message>
     <message>
         <source>All QVFB Skins (*.%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle QVFB-skins (*.%1)</translation>
     </message>
     <message>
         <source>%1 - Duplicate Skin</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Duplicaat skin</translation>
     </message>
     <message>
         <source>The skin &apos;%1&apos; already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>De skin &apos;%1&apos; bestaat al.</translation>
     </message>
     <message>
         <source>%1 - Error</source>
@@ -4761,7 +4767,8 @@ Please select another name.</source>
     <message>
         <source>%1 is not a valid skin directory:
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 is geen geldige skinmap:
+%2</translation>
     </message>
 </context>
 <context>
@@ -4772,15 +4779,13 @@ Please select another name.</source>
     </message>
     <message>
         <source>Landscape (&amp;CCW)</source>
-        <extracomment>Rotate form preview counter-clockwise
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Rotate form preview counter-clockwise</extracomment>
+        <translation>Landschap (&amp;CCW)</translation>
     </message>
     <message>
         <source>&amp;Landscape (CW)</source>
-        <extracomment>Rotate form preview clockwise
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Rotate form preview clockwise</extracomment>
+        <translation>&amp;Landschap (CW)</translation>
     </message>
     <message>
         <source>&amp;Close</source>
@@ -4799,77 +4804,66 @@ Please select another name.</source>
     <message>
         <source>The moose in the noose
 ate the goose who was loose.</source>
-        <extracomment>Palette editor background
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Palette editor background</extracomment>
+        <translation>The moose in the noose
+ate the goose who was loose.</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::PreviewWidget</name>
     <message>
         <source>Preview Window</source>
-        <extracomment>Palette Editor Preview Widget
-</extracomment>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Voorbeeldvenster</translation>
     </message>
     <message>
         <source>LineEdit</source>
-        <extracomment>Palette Editor Preview Widget
-</extracomment>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>LineEdit</translation>
     </message>
     <message>
         <source>ComboBox</source>
-        <extracomment>Palette Editor Preview Widget
-</extracomment>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>ComboBox</translation>
     </message>
     <message>
         <source>PushButton</source>
-        <extracomment>Palette Editor Preview Widget
-</extracomment>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Drukknop</translation>
     </message>
     <message>
         <source>ButtonGroup2</source>
-        <extracomment>Palette Editor Preview Widget
-</extracomment>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>ButtonGroup2</translation>
     </message>
     <message>
         <source>CheckBox1</source>
-        <extracomment>Palette Editor Preview Widget
-</extracomment>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>CheckBox1</translation>
     </message>
     <message>
         <source>CheckBox2</source>
-        <extracomment>Palette Editor Preview Widget
-</extracomment>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>CheckBox2</translation>
     </message>
     <message>
         <source>ButtonGroup</source>
-        <extracomment>Palette Editor Preview Widget
-</extracomment>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>ButtonGroup</translation>
     </message>
     <message>
         <source>RadioButton1</source>
-        <extracomment>Palette Editor Preview Widget
-</extracomment>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>RadioButton1</translation>
     </message>
     <message>
         <source>RadioButton2</source>
-        <extracomment>Palette Editor Preview Widget
-</extracomment>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>RadioButton2</translation>
     </message>
     <message>
         <source>RadioButton3</source>
-        <extracomment>Palette Editor Preview Widget
-</extracomment>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>RadioButton3</translation>
     </message>
 </context>
@@ -4885,7 +4879,7 @@ ate the goose who was loose.</source>
     </message>
     <message>
         <source>Global include</source>
-        <translation type="unfinished"></translation>
+        <translation>Globaal invoegen</translation>
     </message>
     <message>
         <source>Usage</source>
@@ -4896,34 +4890,34 @@ ate the goose who was loose.</source>
     <name>qdesigner_internal::PromotionTaskMenu</name>
     <message>
         <source>Promoted widgets...</source>
-        <translation type="unfinished"></translation>
+        <translation>Aanbevolen widgets...</translation>
     </message>
     <message>
         <source>Promote to ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Promoveren tot ...</translation>
     </message>
     <message>
         <source>Change signals/slots...</source>
-        <translation type="unfinished"></translation>
+        <translation>Signalen/sloten wijzigen...</translation>
     </message>
     <message>
         <source>Promote to</source>
-        <translation type="unfinished"></translation>
+        <translation>Promoveren tot</translation>
     </message>
     <message>
         <source>Demote to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Degraderen tot %1</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::PropertyEditor</name>
     <message>
         <source>Add Dynamic Property...</source>
-        <translation type="unfinished"></translation>
+        <translation>Dynamische eigenschap toevoegen...</translation>
     </message>
     <message>
         <source>Remove Dynamic Property</source>
-        <translation type="unfinished"></translation>
+        <translation>Dynamische eigenschap verwijderen</translation>
     </message>
     <message>
         <source>Sorting</source>
@@ -4931,7 +4925,7 @@ ate the goose who was loose.</source>
     </message>
     <message>
         <source>Color Groups</source>
-        <translation type="unfinished"></translation>
+        <translation>Kleurgroepen</translation>
     </message>
     <message>
         <source>Tree View</source>
@@ -4939,7 +4933,7 @@ ate the goose who was loose.</source>
     </message>
     <message>
         <source>Drop Down Button View</source>
-        <translation type="unfinished"></translation>
+        <translation>Weergave van afrolknop</translation>
     </message>
     <message>
         <source>String...</source>
@@ -4955,7 +4949,7 @@ ate the goose who was loose.</source>
     </message>
     <message>
         <source>Configure Property Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Eigenschapbewerker configureren</translation>
     </message>
     <message>
         <source>Filter</source>
@@ -4964,25 +4958,26 @@ ate the goose who was loose.</source>
     <message>
         <source>Object: %1
 Class: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Object: %1
+Klasse: %2</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::PropertyLineEdit</name>
     <message>
         <source>Insert line break</source>
-        <translation type="unfinished"></translation>
+        <translation>Regeleinde invoegen</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::QDesignerPromotionDialog</name>
     <message>
         <source>Promoted Widgets</source>
-        <translation type="unfinished"></translation>
+        <translation>Aanbevolen widgets</translation>
     </message>
     <message>
         <source>Promoted Classes</source>
-        <translation type="unfinished"></translation>
+        <translation>Gepromoveerde klassen</translation>
     </message>
     <message>
         <source>Promote</source>
@@ -4990,7 +4985,7 @@ Class: %2</source>
     </message>
     <message>
         <source>Change signals/slots...</source>
-        <translation type="unfinished"></translation>
+        <translation>Signalen/sloten wijzigen...</translation>
     </message>
     <message>
         <source>%1 - Error</source>
@@ -5001,30 +4996,30 @@ Class: %2</source>
     <name>qdesigner_internal::QDesignerResource</name>
     <message>
         <source>Loading qrc file</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc-bestand wordt geladen</translation>
     </message>
     <message>
         <source>The specified qrc file &lt;p&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;&lt;p&gt;could not be found. Do you want to update the file location?&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Het gespecificeerde qrc-bestand &lt;p&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;&lt;p&gt;is niet gevonden. Wilt u de bestandslocatie bijwerken?&lt;/p&gt;</translation>
     </message>
     <message>
         <source>New location for %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieuwe locatie voor %1</translation>
     </message>
     <message>
         <source>Resource files (*.qrc)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hulpbronbestanden (*.grc)</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::QDesignerTaskMenu</name>
     <message>
         <source>Layout Alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Uitlijning van opmaak</translation>
     </message>
     <message>
         <source>No Horizontal Alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Geen horizontale uitlijning</translation>
     </message>
     <message>
         <source>Left</source>
@@ -5040,7 +5035,7 @@ Class: %2</source>
     </message>
     <message>
         <source>No Vertical Alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Geen verticale uitlijning</translation>
     </message>
     <message>
         <source>Top</source>
@@ -5056,19 +5051,19 @@ Class: %2</source>
     </message>
     <message>
         <source>Change objectName...</source>
-        <translation type="unfinished"></translation>
+        <translation>objectName wijzigen...</translation>
     </message>
     <message>
         <source>Change toolTip...</source>
-        <translation type="unfinished"></translation>
+        <translation>toolTip wijzigen...</translation>
     </message>
     <message>
         <source>Change whatsThis...</source>
-        <translation type="unfinished"></translation>
+        <translation>whatsThis wijzigen...</translation>
     </message>
     <message>
         <source>Change styleSheet...</source>
-        <translation type="unfinished"></translation>
+        <translation>styleSheet wijzigen...</translation>
     </message>
     <message>
         <source>Create Menu Bar</source>
@@ -5079,62 +5074,66 @@ Class: %2</source>
         <translation>Werkbalk toevoegen</translation>
     </message>
     <message>
+        <source>Add Tool Bar to Other Area</source>
+        <translation>Werkbalk toevoegen aan ander gebied</translation>
+    </message>
+    <message>
         <source>Create Status Bar</source>
         <translation>Statusbalk aanmaken</translation>
     </message>
     <message>
         <source>Remove Status Bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Statusbalk verwijderen</translation>
     </message>
     <message>
         <source>Change signals/slots...</source>
-        <translation type="unfinished"></translation>
+        <translation>Signalen/sloten wijzigen...</translation>
     </message>
     <message>
         <source>Go to slot...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ga naar slot...</translation>
     </message>
     <message>
         <source>Size Constraints</source>
-        <translation type="unfinished"></translation>
+        <translation>Beperkingen in grootte</translation>
     </message>
     <message>
         <source>Set Minimum Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Minimum breedte instellen</translation>
     </message>
     <message>
         <source>Set Minimum Height</source>
-        <translation type="unfinished"></translation>
+        <translation>Minimale hoogte instellen</translation>
     </message>
     <message>
         <source>Set Minimum Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Minimale grootte instellen</translation>
     </message>
     <message>
         <source>Set Maximum Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximale breedte instellen</translation>
     </message>
     <message>
         <source>Set Maximum Height</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximale hoogte instellen</translation>
     </message>
     <message>
         <source>Set Maximum Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximale grootte instellen</translation>
     </message>
     <message>
         <source>Edit ToolTip</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekstballon bewerken</translation>
     </message>
     <message>
         <source>Edit WhatsThis</source>
-        <translation type="unfinished"></translation>
+        <translation>WhatsThis bewerken</translation>
     </message>
     <message numerus="yes">
         <source>Set size constraint on %n widget(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Beperking van grootte op %n widget instellen</numerusform>
+            <numerusform>Beperking van grootte op %n widgets instellen</numerusform>
         </translation>
     </message>
 </context>
@@ -5142,33 +5141,35 @@ Class: %2</source>
     <name>qdesigner_internal::QDesignerWidgetBox</name>
     <message>
         <source>Unexpected element &lt;%1&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Onverwacht element &lt;%1&gt;</translation>
     </message>
     <message>
         <source>A parse error occurred at line %1, column %2 of the XML code specified for the widget %3: %4
 %5</source>
-        <translation type="unfinished"></translation>
+        <translation>Er deed zich een ontleedfout voor in regel %1, kolom %2 van de XML-code gespecificeerd voor het widget %3: %4
+%5</translation>
     </message>
     <message>
         <source>The XML code specified for the widget %1 does not contain any widget elements.
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>De XML-code gespecificeerd voor het widget %1 bevat geen widgetelementen.
+%2</translation>
     </message>
     <message>
         <source>An error has been encountered at line %1 of %2: %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Er is een fout gezien in regel %1 van %2: %3</translation>
     </message>
     <message>
         <source>Unexpected element &lt;%1&gt; encountered when parsing for &lt;widget&gt; or &lt;ui&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Onverwacht element &lt;%1&gt; tegengekomen bij ontleden voor &lt;wigdet&gt; of &lt;ui&gt;</translation>
     </message>
     <message>
         <source>Unexpected end of file encountered when parsing widgets.</source>
-        <translation type="unfinished"></translation>
+        <translation>Onverwacht einde van bestand gezien bij ontleden van widgets.</translation>
     </message>
     <message>
         <source>A widget element could not be found.</source>
-        <translation type="unfinished"></translation>
+        <translation>Een widgetelement is niet gevonden.</translation>
     </message>
 </context>
 <context>
@@ -5317,33 +5318,33 @@ Class: %2</source>
     </message>
     <message>
         <source>Simplify Rich Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Opgemaakte tekst vereenvoudigen</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::SignalSlotDialog</name>
     <message>
         <source>There is already a slot with the signature &apos;%1&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Er is al een slot met de ondertekening &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>There is already a signal with the signature &apos;%1&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Er is al een signaal met de ondertekening &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>%1 - Duplicate Signature</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Gedupliceerde ondertekening</translation>
     </message>
     <message>
         <source>Signals/Slots of %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Signalen/sloten van %1</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::SignalSlotEditorPlugin</name>
     <message>
         <source>Edit Signals/Slots</source>
-        <translation type="unfinished"></translation>
+        <translation>Signalen/sloten bewerken</translation>
     </message>
     <message>
         <source>F4</source>
@@ -5354,7 +5355,7 @@ Class: %2</source>
     <name>qdesigner_internal::SignalSlotEditorTool</name>
     <message>
         <source>Edit Signals/Slots</source>
-        <translation type="unfinished"></translation>
+        <translation>Signalen/sloten bewerken</translation>
     </message>
 </context>
 <context>
@@ -5368,14 +5369,14 @@ Class: %2</source>
     <name>qdesigner_internal::StringListEditorButton</name>
     <message>
         <source>Change String List</source>
-        <translation type="unfinished"></translation>
+        <translation>Lijst met tekstreeksen wijzigen</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::StyleSheetEditorDialog</name>
     <message>
         <source>Valid Style Sheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Geldig stijlblad</translation>
     </message>
     <message>
         <source>Add Resource...</source>
@@ -5383,7 +5384,7 @@ Class: %2</source>
     </message>
     <message>
         <source>Add Gradient...</source>
-        <translation type="unfinished"></translation>
+        <translation>Verloop toevoegen...</translation>
     </message>
     <message>
         <source>Add Color...</source>
@@ -5391,22 +5392,22 @@ Class: %2</source>
     </message>
     <message>
         <source>Add Font...</source>
-        <translation type="unfinished"></translation>
+        <translation>Lettertype toevoegen...</translation>
     </message>
     <message>
         <source>Edit Style Sheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Stijlblad bewerken</translation>
     </message>
     <message>
         <source>Invalid Style Sheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Ongeldig stijlblad</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::TabOrderEditor</name>
     <message>
         <source>Start from Here</source>
-        <translation type="unfinished"></translation>
+        <translation>Vanaf hier beginnen</translation>
     </message>
     <message>
         <source>Restart</source>
@@ -5414,11 +5415,11 @@ Class: %2</source>
     </message>
     <message>
         <source>Tab Order List...</source>
-        <translation type="unfinished"></translation>
+        <translation>Lijst met tabulatorvolgorde...</translation>
     </message>
     <message>
         <source>Tab Order List</source>
-        <translation type="unfinished"></translation>
+        <translation>Lijst met tabulatorvolgorde</translation>
     </message>
     <message>
         <source>Tab Order</source>
@@ -5443,7 +5444,7 @@ Class: %2</source>
     <name>qdesigner_internal::TableWidgetEditor</name>
     <message>
         <source>Edit Table Widget</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabelwidget bewerken</translation>
     </message>
     <message>
         <source>&amp;Items</source>
@@ -5451,7 +5452,7 @@ Class: %2</source>
     </message>
     <message>
         <source>Table Items</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabelitems</translation>
     </message>
     <message>
         <source>Properties &amp;&gt;&gt;</source>
@@ -5482,7 +5483,7 @@ Class: %2</source>
     <name>qdesigner_internal::TableWidgetTaskMenu</name>
     <message>
         <source>Edit Items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Items bewerken...</translation>
     </message>
 </context>
 <context>
@@ -5493,26 +5494,26 @@ Class: %2</source>
     </message>
     <message>
         <source>Additional Template Paths</source>
-        <translation type="unfinished"></translation>
+        <translation>Extra sjabloonpaden</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Pick a directory to save templates in</source>
-        <translation type="unfinished"></translation>
+        <translation>Kies een map om sjablonen in op te slaan</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::TextEditTaskMenu</name>
     <message>
         <source>Edit HTML</source>
-        <translation type="unfinished"></translation>
+        <translation>HTML bewerken</translation>
     </message>
     <message>
         <source>Change HTML...</source>
-        <translation type="unfinished"></translation>
+        <translation>HTML wijzigen...</translation>
     </message>
     <message>
         <source>Edit Text</source>
@@ -5520,7 +5521,7 @@ Class: %2</source>
     </message>
     <message>
         <source>Change Plain Text...</source>
-        <translation type="unfinished"></translation>
+        <translation>Platte tekst wijzigen...</translation>
     </message>
 </context>
 <context>
@@ -5535,7 +5536,7 @@ Class: %2</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Choose a File</source>
@@ -5546,11 +5547,11 @@ Class: %2</source>
     <name>qdesigner_internal::ToolBarEventFilter</name>
     <message>
         <source>Insert Separator before &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Scheiding invoegen voor &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Append Separator</source>
-        <translation type="unfinished"></translation>
+        <translation>Scheiding achtervoegen</translation>
     </message>
     <message>
         <source>Remove action &apos;%1&apos;</source>
@@ -5558,7 +5559,7 @@ Class: %2</source>
     </message>
     <message>
         <source>Remove Toolbar &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Werkbalk &apos;%1&apos; verwijderen</translation>
     </message>
     <message>
         <source>Insert Separator</source>
@@ -5569,7 +5570,7 @@ Class: %2</source>
     <name>qdesigner_internal::TreeWidgetEditor</name>
     <message>
         <source>Edit Tree Widget</source>
-        <translation type="unfinished"></translation>
+        <translation>Boomstructuurwidget bewerken</translation>
     </message>
     <message>
         <source>&amp;Items</source>
@@ -5577,11 +5578,11 @@ Class: %2</source>
     </message>
     <message>
         <source>Tree Items</source>
-        <translation type="unfinished"></translation>
+        <translation>Boomstructuuritems</translation>
     </message>
     <message>
         <source>1</source>
-        <translation type="unfinished"></translation>
+        <translation>1</translation>
     </message>
     <message>
         <source>New Item</source>
@@ -5609,7 +5610,7 @@ Class: %2</source>
     </message>
     <message>
         <source>Move Item Left (before Parent Item)</source>
-        <translation type="unfinished"></translation>
+        <translation>Item naar links verplaatsen (voor ouderitem)</translation>
     </message>
     <message>
         <source>L</source>
@@ -5617,7 +5618,7 @@ Class: %2</source>
     </message>
     <message>
         <source>Move Item Right (as a First Subitem of the Next Sibling Item)</source>
-        <translation type="unfinished"></translation>
+        <translation>Item naar rechts verplaatsen (als een eerste subitem van het volgende nakomelingitem)</translation>
     </message>
     <message>
         <source>R</source>
@@ -5653,11 +5654,11 @@ Class: %2</source>
     </message>
     <message>
         <source>Per column properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Eigenschappen per kolom</translation>
     </message>
     <message>
         <source>Common properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Algemene eigenschappen</translation>
     </message>
     <message>
         <source>Properties &amp;&lt;&lt;</source>
@@ -5679,7 +5680,7 @@ Class: %2</source>
     </message>
     <message>
         <source>Warning: Widget creation failed in the widget box. This could be caused by invalid custom widget XML.</source>
-        <translation type="unfinished"></translation>
+        <translation>Waarschuwing: aanmaken van Widget is mislukt in het widgetvak. Dit zou veroorzaakt kunnen zijn door ongeldige aangepaste widget-XML.</translation>
     </message>
 </context>
 <context>
@@ -5718,6 +5719,13 @@ Class: %2</source>
     </message>
 </context>
 <context>
+    <name>qdesigner_internal::WidgetDataBase</name>
+    <message>
+        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
+        <translation>Een aangepaste widgetplug-in waarvan de klassenaam (%1) overeenkomst met die van een bestaande klasse is gevonden.</translation>
+    </message>
+</context>
+<context>
     <name>qdesigner_internal::WidgetEditorTool</name>
     <message>
         <source>Edit Widgets</source>
@@ -5728,20 +5736,21 @@ Class: %2</source>
     <name>qdesigner_internal::WidgetFactory</name>
     <message>
         <source>The custom widget factory registered for widgets of class %1 returned 0.</source>
-        <translation type="unfinished"></translation>
+        <translation>De fabriek voor aangepaste widgets geregistreerd voor widgets van klasse %1 gaf 0 terug.</translation>
     </message>
     <message>
         <source>A class name mismatch occurred when creating a widget using the custom widget factory registered for widgets of class %1. It returned a widget of class %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Een niet overeenkomen van klassenaam trad op bij aanmaken van een widget met de fabriek voor aangepaste widgets geregistreerd voor widgets van klasse %1. Het gaf een widget terug van klasse %2.</translation>
     </message>
     <message>
         <source>The current page of the container &apos;%1&apos; (%2) could not be determined while creating a layout.This indicates an inconsistency in the ui-file, probably a layout being constructed on a container widget.</source>
-        <translation type="unfinished"></translation>
+        <translation>De huidige pagina van de container &apos;%1&apos; (%2) kon niet bepaald worden tijdens aanmaken van een indeling. Dit geeft een niet consist zijn van iets in het ui-bestand, mogelijk een indeling die geconstrueerd wordt op een containerwidget.</translation>
     </message>
     <message>
         <source>Attempt to add a layout to a widget &apos;%1&apos; (%2) which already has an unmanaged layout of type %3.
 This indicates an inconsistency in the ui-file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poging om een indeling aan een widget &apos;%1&apos; (%2) toe te voegen die al een niet beheerde indeling van het type %3 heeft.
+Dit geeft aan dat er iets niet consistent is in het ui-bestand.</translation>
     </message>
     <message>
         <source>Cannot create style &apos;%1&apos;.</source>
@@ -5763,8 +5772,7 @@ This indicates an inconsistency in the ui-file.</source>
     <name>qdesigner_internal::ZoomMenu</name>
     <message>
         <source>%1 %</source>
-        <extracomment>Zoom factor
-</extracomment>
+        <extracomment>Zoom factor</extracomment>
         <translation>%1 %</translation>
     </message>
 </context>
