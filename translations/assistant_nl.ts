@@ -1,33 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="zh_TW">
+<TS version="2.1" language="nl_NL" sourcelanguage="nl_NL">
+    <extra-po-header-language>nl</extra-po-header-language>
+    <extra-po-header-language_team>Dutch &lt;kde-i18n-nl@kde.org&gt;</extra-po-header-language_team>
+    <extra-po-header-last_translator>Freek de Kruijf &lt;freekdekruijf@kde.nl&gt;</extra-po-header-last_translator>
+    <extra-po-header-plural_forms>nplurals=2; plural=(n != 1);</extra-po-header-plural_forms>
+    <extra-po-header-po_revision_date>2018-04-24 10:52+0100</extra-po-header-po_revision_date>
+    <extra-po-header-project_id_version></extra-po-header-project_id_version>
+    <extra-po-header-x_generator>Lokalize 2.0</extra-po-header-x_generator>
+    <extra-po-header_comment># Freek de Kruijf &lt;freek@opensuse.org&gt;, 2014, 2018.</extra-po-header_comment>
+    <extra-po-headers>Project-Id-Version,PO-Revision-Date,Last-Translator,Language-Team,Language,MIME-Version,Content-Type,Content-Transfer-Encoding,X-Qt-Contexts,Plural-Forms,X-Generator</extra-po-headers>
 <context>
     <name>AboutDialog</name>
     <message>
         <source>&amp;Close</source>
-        <translation>關閉(&amp;C)</translation>
+        <translation>Sl&amp;uiten</translation>
     </message>
 </context>
 <context>
     <name>AboutLabel</name>
     <message>
         <source>Warning</source>
-        <translation>警告</translation>
+        <translation>Waarschuwing</translation>
     </message>
     <message>
         <source>Unable to launch external application.</source>
-        <translation>無法執行外部應用程式。</translation>
+        <translation>Externe toepassing starten lukt niet.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>確定</translation>
+        <translation>OK</translation>
     </message>
 </context>
 <context>
     <name>Assistant</name>
     <message>
         <source>Error registering documentation file &apos;%1&apos;: %2</source>
-        <translation>註冊文件檔案「%1」發生問題：%2</translation>
+        <translation>Fout bij registreren van documentatiebestand &apos;%1&apos;: %2</translation>
     </message>
     <message>
         <source>Could not register documentation file
@@ -35,15 +44,15 @@
 
 Reason:
 %2</source>
-        <translation>無法註冊文件檔案
+        <translation>Kon documentatiebestand niet registreren
 %1
 
-理由：
+Reden:
 %2</translation>
     </message>
     <message>
         <source>Documentation successfully registered.</source>
-        <translation>文件註冊成功。</translation>
+        <translation>Documentatie met succes geregistreerd.</translation>
     </message>
     <message>
         <source>Could not unregister documentation file
@@ -51,42 +60,46 @@ Reason:
 
 Reason:
 %2</source>
-        <translation>無法解除註冊文件檔案
+        <translation>Kon registratie van documentatiebestand niet ongedaan maken
 %1
 
-理由：
+Reden:
 %2</translation>
     </message>
     <message>
         <source>Documentation successfully unregistered.</source>
-        <translation>文件成功解除註冊。</translation>
+        <translation>Registratie van documentatie met succes ongedaan gemaakt.</translation>
     </message>
     <message>
         <source>Error reading collection file &apos;%1&apos;: %2.</source>
-        <translation>讀取集合檔案「%1」發生錯誤：%2。</translation>
+        <translation>Fout bij lezen van verzamelingsbestand &apos;%1&apos;: %2.</translation>
     </message>
     <message>
         <source>Error creating collection file &apos;%1&apos;: %2.</source>
-        <translation>建立集合檔案「%1」發生錯誤：%2。</translation>
+        <translation>Fout bij het aanmaken van verzamelingsbestand &apos;%1&apos;: %2.</translation>
     </message>
     <message>
         <source>Cannot load sqlite database driver!</source>
-        <translation>無法載入 sqlite 資料庫驅動程式！</translation>
+        <translation>Kan SQLite-databasestuurprogramma niet laden!</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation type="vanished">Fout: %1</translation>
     </message>
 </context>
 <context>
     <name>BookmarkDialog</name>
     <message>
         <source>Add Bookmark</source>
-        <translation>新增書籤</translation>
+        <translation>Bladwijzer toevoegen</translation>
     </message>
     <message>
         <source>Bookmark:</source>
-        <translation>書籤：</translation>
+        <translation>Bladwijzer:</translation>
     </message>
     <message>
         <source>Add in Folder:</source>
-        <translation>新增到資料夾：</translation>
+        <translation>In map toevoegen:</translation>
     </message>
     <message>
         <source>+</source>
@@ -94,197 +107,197 @@ Reason:
     </message>
     <message>
         <source>New Folder</source>
-        <translation>新增資料夾</translation>
+        <translation>Nieuwe map</translation>
     </message>
     <message>
         <source>Rename Folder</source>
-        <translation>重命名資料夾</translation>
+        <translation>Map hernoemen</translation>
     </message>
 </context>
 <context>
     <name>BookmarkItem</name>
     <message>
         <source>New Folder</source>
-        <translation>新資料夾</translation>
+        <translation>Nieuwe map</translation>
     </message>
     <message>
         <source>Untitled</source>
-        <translation>未命名</translation>
+        <translation>Naamloos</translation>
     </message>
 </context>
 <context>
     <name>BookmarkManager</name>
     <message>
         <source>Untitled</source>
-        <translation>未命名</translation>
+        <translation>Naamloos</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>移除</translation>
+        <translation>Verwijderen</translation>
     </message>
     <message>
         <source>You are going to delete a Folder, this will also&lt;br&gt;remove it&apos;s content. Are you sure to continue?</source>
-        <translation>您打算刪除資料夾，這會將裡面的內容&lt;br&gt;一併移除。您確定要繼續嗎？</translation>
+        <translation>U gaat een map verwijderen, dat zal ook&lt;br&gt;zijn inhoud verwijderen. Wilt u doorgaan?</translation>
     </message>
     <message>
         <source>Manage Bookmarks...</source>
-        <translation>管理書籤…</translation>
+        <translation>Bladwijzers beheren...</translation>
     </message>
     <message>
         <source>Add Bookmark...</source>
-        <translation>新增書籤...</translation>
+        <translation>Bladwijzer toevoegen...</translation>
     </message>
     <message>
         <source>Ctrl+D</source>
-        <translation></translation>
+        <translation>Ctrl+D</translation>
     </message>
     <message>
         <source>Delete Folder</source>
-        <translation>刪除資料夾</translation>
+        <translation>Map verwijderen</translation>
     </message>
     <message>
         <source>Rename Folder</source>
-        <translation>重新命名資料夾</translation>
+        <translation>Map hernoemen</translation>
     </message>
     <message>
         <source>Show Bookmark</source>
-        <translation>顯示書籤</translation>
+        <translation>Bladwijzer tonen</translation>
     </message>
     <message>
         <source>Show Bookmark in New Tab</source>
-        <translation>於新分頁顯示書籤</translation>
+        <translation>Bladwijzer tonen in nieuw tabblad</translation>
     </message>
     <message>
         <source>Delete Bookmark</source>
-        <translation>刪除書籤</translation>
+        <translation>Bladwijzer verwijderen</translation>
     </message>
     <message>
         <source>Rename Bookmark</source>
-        <translation>重新命名書籤</translation>
+        <translation>Bladwijzer hernoemen</translation>
     </message>
 </context>
 <context>
     <name>BookmarkManagerWidget</name>
     <message>
         <source>Manage Bookmarks</source>
-        <translation>管理書籤</translation>
+        <translation>Bladwijzers beheren</translation>
     </message>
     <message>
         <source>Search:</source>
-        <translation>搜尋：</translation>
+        <translation>Zoeken:</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>移除</translation>
+        <translation>Verwijderen</translation>
     </message>
     <message>
         <source>Import and Backup</source>
-        <translation>匯入與備份</translation>
+        <translation>Import en reservekopie</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>確定</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Import...</source>
-        <translation>匯入…</translation>
+        <translation>Importeren...</translation>
     </message>
     <message>
         <source>Export...</source>
-        <translation>匯出…</translation>
+        <translation>Exporteren...</translation>
     </message>
     <message>
         <source>Open File</source>
-        <translation>開啟檔案</translation>
+        <translation>Bestand openen</translation>
     </message>
     <message>
         <source>Files (*.xbel)</source>
-        <translation>檔案 (*.xbel)</translation>
+        <translation>Bestanden (*.xbel)</translation>
     </message>
     <message>
         <source>Save File</source>
-        <translation>儲存檔案</translation>
+        <translation>Bestand opslaan</translation>
     </message>
     <message>
         <source>Qt Assistant</source>
-        <translation>Qt 小幫手</translation>
+        <translation>Qt Assistent</translation>
     </message>
     <message>
         <source>Unable to save bookmarks.</source>
-        <translation>無法儲存書籤。</translation>
+        <translation>Kan bladwijzers niet opslaan.</translation>
     </message>
     <message>
         <source>You are goingto delete a Folder, this will also&lt;br&gt; remove it&apos;s content. Are you sure to continue?</source>
-        <translation>您打算刪除一個資料夾，這將也會&lt;br&gt; 移除資料夾中內容，確定刪除？</translation>
+        <translation>U gaat een map verwijderen, dat zal ook&lt;br&gt; zijn inhoud verwijderen. Wilt u doorgaan?</translation>
     </message>
     <message>
         <source>Delete Folder</source>
-        <translation>刪除資料夾</translation>
+        <translation>Map verwijderen</translation>
     </message>
     <message>
         <source>Rename Folder</source>
-        <translation>重新命名資料夾</translation>
+        <translation>Map hernoemen</translation>
     </message>
     <message>
         <source>Show Bookmark</source>
-        <translation>顯示書籤</translation>
+        <translation>Bladwijzer tonen</translation>
     </message>
     <message>
         <source>Show Bookmark in New Tab</source>
-        <translation>於新分頁顯示書籤</translation>
+        <translation>Bladwijzer tonen in nieuw tabblad</translation>
     </message>
     <message>
         <source>Delete Bookmark</source>
-        <translation>刪除書籤</translation>
+        <translation>Bladwijzer verwijderen</translation>
     </message>
     <message>
         <source>Rename Bookmark</source>
-        <translation>重新命名書籤</translation>
+        <translation>Bladwijzer hernoemen</translation>
     </message>
 </context>
 <context>
     <name>BookmarkModel</name>
     <message>
         <source>Name</source>
-        <translation>名稱</translation>
+        <translation>Naam</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>位址</translation>
+        <translation>Adres</translation>
     </message>
     <message>
         <source>Bookmarks Toolbar</source>
-        <translation>書籤工具列</translation>
+        <translation>Werkbalk voor bladwijzers</translation>
     </message>
     <message>
         <source>Bookmarks Menu</source>
-        <translation>書籤選單</translation>
+        <translation>Het menu Bladwijzers</translation>
     </message>
 </context>
 <context>
     <name>BookmarkWidget</name>
     <message>
         <source>Bookmarks</source>
-        <translation>書籤</translation>
+        <translation>Bladwijzers</translation>
     </message>
     <message>
         <source>Filter:</source>
-        <translation>過濾：</translation>
+        <translation>Filter:</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation>新增</translation>
+        <translation>Toevoegen</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>移除</translation>
+        <translation>Verwijderen</translation>
     </message>
 </context>
 <context>
     <name>CentralWidget</name>
     <message>
         <source>Print Document</source>
-        <translation>列印文件</translation>
+        <translation>Document afdrukken</translation>
     </message>
 </context>
 <context>
@@ -322,165 +335,166 @@ Reason:
                            status message.
 -help                      Displays this help.
 </source>
-        <translation>用法：assistant [選項]
+        <translation>Gebruik: assistant [opties]
 
--collectionFile 檔案  使用指定的集合檔案
-                                       取代預設集合檔案
--showUrl url               顯示 URL 的文件
--enableRemoteControl       啟用以讓 Assistant 能被
-                           遠端控制
--show 元件    顯示指定的 Dock 元件，其可為
-                           &quot;contents&quot;, &quot;index&quot;
-                           &quot;bookmarks&quot; 或 &quot;search&quot;。
--activate 元件    啟用指定的 Dock 元件，其可為
-                           &quot;contents&quot;, &quot;index&quot;
-                           &quot;bookmarks&quot; 或 &quot;search&quot;。
--hide 元件      隱藏指定的 Dock 元件，其可為
-                           &quot;contents&quot;, &quot;index&quot;
-                           &quot;bookmarks&quot; 或 &quot;search&quot;。
--register 說明檔案     從指定的集合檔案中註冊指定的
-                                            說明檔案 (.qch)
--unregister 說明檔案  從指定的集合檔案中解除註冊
-                                             指定的說明檔案 (.qch)
--setCurrentFilter 過濾器   將 &lt;過濾器&gt; 設定為使用中過濾器。
--remove-search-index       移除全文搜尋索引。
--rebuild-search-index      已廢棄選項。改用 -remove-search-index。
-                           移除全文搜尋索引。其將
-                           於下次開啟 Assistant 時重新建立。
--quiet                     不顯示任何狀態與錯誤訊息。
--help                      顯示此說明。
+-collectionFile file       Gebruikt het gespecificeerde verzamelings-
+                           bestand in plaats van het standaard bestand
+-showUrl url               Toont het document met de
+                           url.
+-enableRemoteControl       Schakelt in dat Assistant van
+                           afstand wordt bestuurd.
+-show widget               Toont het gespecificeerde dockwidget
+                           dat kan zijn &quot;contents&quot;, &quot;index&quot;,
+                           &quot;bookmarks&quot; of &quot;search&quot;.
+-activate widget           Activeert het gespecificeerde dockwidget
+                           dat kan zijn &quot;contents&quot;, &quot;index&quot;,
+                           &quot;bookmarks&quot; of &quot;search&quot;.
+-hide widget               Verbergt het gespecificeerde dockwidget
+                           dat kan zijn &quot;contents&quot;, &quot;index&quot;
+                           &quot;bookmarks&quot; of &quot;search&quot;.
+-register helpFile         Registreert het gespecificeerde helpbestand
+                           (.qch) in het gegeven verzamelings-
+                           bestand.
+-unregister helpFile       Maakt registratie van het gespecificeerde
+                           helpbestand (.qch) ongedaan uit het gift-
+                           verzamelingsbestand.
+-setCurrentFilter filter   Stel het filter in als het actieve filter.
+-remove-search-index       Verwijdert de volledige zoekindex voor tekst.
+-rebuild-search-index      Verouderd. Gebruik -remove-search-index in plaats.
+                           Verwijdert de volledige zoekindex voor tekst.
+                           Deze zal opnieuw gebouwd worden bij de volgende
+                           activatie van Assistant.
+-quiet                     Toont geen fout- of statusmelding.
+-help                      Toont deze help.
 </translation>
     </message>
     <message>
         <source>Unknown option: %1</source>
-        <translation>未知的選項：%1</translation>
+        <translation>Onbekende optie: &apos;%1&apos;</translation>
     </message>
     <message>
         <source>The collection file &apos;%1&apos; does not exist.</source>
-        <translation>集合檔案「%1」不存在。</translation>
+        <translation>Het verzamelingsbestand &apos;%1&apos; bestaat niet.</translation>
     </message>
     <message>
         <source>Missing collection file.</source>
-        <translation>遺失集合檔案。</translation>
+        <translation>Ontbrekend verzamelingsbestand.</translation>
     </message>
     <message>
         <source>Invalid URL &apos;%1&apos;.</source>
-        <translation>無效網址「%1」。</translation>
+        <translation>Ongeldig URL-adres &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Missing URL.</source>
-        <translation>遺失網址。</translation>
+        <translation>Ontbrekende URL.</translation>
     </message>
     <message>
         <source>Unknown widget: %1</source>
-        <translation>未知的元件：%1</translation>
+        <translation>Onbekend widget: %1.</translation>
     </message>
     <message>
         <source>Missing widget.</source>
-        <translation>遺失元件。</translation>
+        <translation>Ontbrekend widget.</translation>
     </message>
     <message>
         <source>The Qt help file &apos;%1&apos; does not exist.</source>
-        <translation>Qt 說明檔案「%1」不存在。</translation>
+        <translation>Het Qt-helpbestand &apos;%1&apos; bestaat niet.</translation>
     </message>
     <message>
         <source>Missing help file.</source>
-        <translation>遺失說明檔案。</translation>
+        <translation>Ontbrekend helpbestand.
+.</translation>
     </message>
     <message>
         <source>Missing filter argument.</source>
-        <translation>遺失過濾器參數。</translation>
+        <translation>Ontbrekend filterargument.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>錯誤</translation>
+        <translation>Fout</translation>
     </message>
     <message>
         <source>Notice</source>
-        <translation>注意</translation>
+        <translation>Aankondiging</translation>
     </message>
 </context>
 <context>
     <name>ContentWindow</name>
     <message>
         <source>Open Link</source>
-        <translation>開啟連結</translation>
+        <translation>Koppeling openen</translation>
     </message>
     <message>
         <source>Open Link in New Tab</source>
-        <translation>在新分頁開啟連結</translation>
+        <translation>Koppeling in nieuw tabblad openen</translation>
     </message>
 </context>
 <context>
     <name>FilterNameDialogClass</name>
     <message>
-        <source>Add Filter</source>
-        <translation type="vanished">新增過濾器</translation>
+        <source>Add Filter Name</source>
+        <translation>Filternaam toevoegen</translation>
     </message>
     <message>
         <source>Filter Name:</source>
-        <translation type="vanished">過濾器名稱：</translation>
-    </message>
-    <message>
-        <source>Add Filter Name</source>
-        <translation type="vanished">新增過濾器名稱</translation>
+        <translation>Filternaam:</translation>
     </message>
 </context>
 <context>
     <name>FindWidget</name>
     <message>
         <source>Previous</source>
-        <translation>前一個</translation>
+        <translation>Vorige</translation>
     </message>
     <message>
         <source>Next</source>
-        <translation>下一個</translation>
+        <translation>Volgende</translation>
     </message>
     <message>
         <source>Case Sensitive</source>
-        <translation>區分大小寫</translation>
+        <translation>Hoofdlettergevoelig</translation>
     </message>
     <message>
         <source>&lt;img src=&quot;:/qt-project.org/assistant/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
-        <translation>&lt;img src=&quot;:/qt-project.org/assistant/images/wrap.png&quot;&gt;&amp;nbsp;環繞搜尋</translation>
+        <translation>&lt;img src=&quot;:/qt-project.org/assistant/images/wrap.png&quot;&gt;&amp;nbsp;Zoeken werd opgebroken</translation>
     </message>
 </context>
 <context>
     <name>FontPanel</name>
     <message>
         <source>Font</source>
-        <translation>字型</translation>
+        <translation>Lettertype</translation>
     </message>
     <message>
         <source>&amp;Writing system</source>
-        <translation>手寫系統(&amp;W)</translation>
+        <translation>&amp;Schrijfsysteem</translation>
     </message>
     <message>
         <source>&amp;Family</source>
-        <translation>家族(&amp;W)</translation>
+        <translation>&amp;Familie</translation>
     </message>
     <message>
         <source>&amp;Style</source>
-        <translation>樣式(&amp;S)</translation>
+        <translation>&amp;Stijl</translation>
     </message>
     <message>
         <source>&amp;Point size</source>
-        <translation>點大小(&amp;P)</translation>
+        <translation>&amp;Puntgrootte</translation>
     </message>
 </context>
 <context>
     <name>GlobalActions</name>
     <message>
         <source>&amp;Back</source>
-        <translation>返回(&amp;B)</translation>
+        <translation>&amp;Terug</translation>
     </message>
     <message>
         <source>&amp;Forward</source>
-        <translation>往前(&amp;F)</translation>
+        <translation>&amp;Vooruit</translation>
     </message>
     <message>
         <source>&amp;Home</source>
-        <translation>首頁(&amp;H)</translation>
+        <translation>&amp;Home</translation>
     </message>
     <message>
         <source>ALT+Home</source>
@@ -488,87 +502,53 @@ Reason:
     </message>
     <message>
         <source>Zoom &amp;in</source>
-        <translation>放大(&amp;I)</translation>
+        <translation>&amp;Inzoomen</translation>
     </message>
     <message>
         <source>Zoom &amp;out</source>
-        <translation>縮小(&amp;O)</translation>
+        <translation>&amp;Uitzoomen</translation>
     </message>
     <message>
         <source>&amp;Copy selected Text</source>
-        <translation>複製選取文字(&amp;C)</translation>
+        <translation>Geselecteerde tekst &amp;kopiëren</translation>
     </message>
     <message>
         <source>&amp;Print...</source>
-        <translation>列印(&amp;P)...</translation>
+        <translation>Af&amp;drukken...</translation>
     </message>
     <message>
         <source>&amp;Find in Text...</source>
-        <translation>在文字中尋找(&amp;F)...</translation>
+        <translation>In tekst &amp;zoeken...</translation>
     </message>
     <message>
         <source>&amp;Find</source>
-        <translation>尋找(&amp;F)</translation>
-    </message>
-</context>
-<context>
-    <name>HelpDocSettingsWidget</name>
-    <message>
-        <source>Form</source>
-        <translation>表單</translation>
-    </message>
-    <message>
-        <source>Registered Documentation</source>
-        <translation>註冊的文件</translation>
-    </message>
-    <message>
-        <source>&lt;Filter&gt;</source>
-        <translation>&lt;過濾器&gt;</translation>
-    </message>
-    <message>
-        <source>Add...</source>
-        <translation>新增...</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>移除</translation>
-    </message>
-</context>
-<context>
-    <name>HelpDocSettingsWidgetPrivate</name>
-    <message>
-        <source>Add Documentation</source>
-        <translation>新增文件</translation>
-    </message>
-    <message>
-        <source>Qt Compressed Help Files (*.qch)</source>
-        <translation>Qt 壓縮說明檔 (*.qch)</translation>
+        <translation>&amp;Zoeken</translation>
     </message>
 </context>
 <context>
     <name>HelpEngineWrapper</name>
     <message>
         <source>Unfiltered</source>
-        <translation type="vanished">未過濾</translation>
+        <translation>Ongefilterd</translation>
     </message>
 </context>
 <context>
     <name>HelpViewer</name>
     <message>
         <source>Error 404...</source>
-        <translation>錯誤 404…</translation>
+        <translation>Fout 404...</translation>
     </message>
     <message>
         <source>The page could not be found</source>
-        <translation>找不到此頁面</translation>
+        <translation>De pagina is niet gevonden</translation>
     </message>
     <message>
         <source>Please make sure that you have all documentation sets installed.</source>
-        <translation>確保您已經安裝所有的文件組合。</translation>
+        <translation>Ga na dat u alle documentatiesets hebt geïnstalleerd.</translation>
     </message>
     <message>
         <source>Error loading: %1</source>
-        <translation>載入時發生問題：%1</translation>
+        <translation>Fout bij het laden: %1</translation>
     </message>
     <message>
         <source>&lt;title&gt;about:blank&lt;/title&gt;</source>
@@ -576,105 +556,105 @@ Reason:
     </message>
     <message>
         <source>&lt;title&gt;Error 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;The page could not be found.&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</source>
-        <translation>&lt;title&gt;錯誤 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;找不到頁面。&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;「%1」&lt;/h3&gt;&lt;/div&gt;</translation>
+        <translation>&lt;title&gt;Fout 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;De pagina is niet gevonden.&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</translation>
     </message>
     <message>
         <source>Open Link</source>
-        <translation>開啟連結</translation>
+        <translation>Koppeling openen</translation>
     </message>
     <message>
         <source>Open Link in New Tab	Ctrl+LMB</source>
-        <translation>在新分頁開啟連結	Ctrl+滑鼠左鍵</translation>
+        <translation>Koppeling in nieuw tabblad openen	Ctrl+LMB</translation>
     </message>
     <message>
         <source>Copy &amp;Link Location</source>
-        <translation>複製連結位置(&amp;L)</translation>
+        <translation>Koppe&amp;ling kopiëren</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>複製</translation>
+        <translation>Kopiëren</translation>
     </message>
     <message>
         <source>Reload</source>
-        <translation>重新載入</translation>
+        <translation>Herladen</translation>
     </message>
     <message>
         <source>Open Link in New Page</source>
-        <translation>在新頁面打開連結</translation>
+        <translation>Koppeling in nieuw pagina openen</translation>
     </message>
 </context>
 <context>
     <name>IndexWindow</name>
     <message>
         <source>&amp;Look for:</source>
-        <translation>搜尋(&amp;L)：</translation>
+        <translation>&amp;Zoek naar:</translation>
     </message>
     <message>
         <source>Open Link</source>
-        <translation>開啟連結</translation>
+        <translation>Koppeling openen</translation>
     </message>
     <message>
         <source>Open Link in New Tab</source>
-        <translation>在新分頁開啟連結</translation>
+        <translation>Koppeling in nieuw tabblad openen</translation>
     </message>
 </context>
 <context>
     <name>MainWindow</name>
     <message>
         <source>Index</source>
-        <translation>索引</translation>
+        <translation>Index</translation>
     </message>
     <message>
         <source>Contents</source>
-        <translation>內容</translation>
+        <translation>Inhoud</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>搜尋</translation>
+        <translation>Zoeken</translation>
     </message>
     <message>
         <source>Bookmarks</source>
-        <translation>書籤</translation>
+        <translation>Bladwijzers</translation>
     </message>
     <message>
         <source>Open Pages</source>
-        <translation>開啟頁面</translation>
+        <translation>Pagina&apos;s openen</translation>
     </message>
     <message>
         <source>Qt Assistant</source>
-        <translation>Qt 小幫手</translation>
+        <translation>Qt Assistent</translation>
     </message>
     <message>
         <source>Bookmark Toolbar</source>
-        <translation>書籤工具列</translation>
+        <translation>Werkbalk met bladwijzers</translation>
     </message>
     <message>
         <source>Looking for Qt Documentation...</source>
-        <translation>搜尋 Qt 文件中...</translation>
+        <translation>Naar Qt-documentatie zoeken...</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>檔案(&amp;F)</translation>
+        <translation>&amp;Bestand</translation>
     </message>
     <message>
         <source>New &amp;Tab</source>
-        <translation>新增分頁(&amp;T)</translation>
+        <translation>Nieuwe &amp;Tab</translation>
     </message>
     <message>
         <source>&amp;Close Tab</source>
-        <translation>關閉分頁(&amp;C)</translation>
+        <translation>Tabblad &amp;sluiten</translation>
     </message>
     <message>
         <source>Page Set&amp;up...</source>
-        <translation>頁面設定(&amp;U)...</translation>
+        <translation>Pagina&amp;instelling...</translation>
     </message>
     <message>
         <source>Print Preview...</source>
-        <translation>列印預覽...</translation>
+        <translation>Afdrukvoorbeeld...</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>離開(&amp;X)</translation>
+        <translation>&amp;Afsluiten</translation>
     </message>
     <message>
         <source>CTRL+Q</source>
@@ -682,31 +662,31 @@ Reason:
     </message>
     <message>
         <source>&amp;Quit</source>
-        <translation>離開(&amp;Q)</translation>
+        <translation>A&amp;fsluiten</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>編輯(&amp;E)</translation>
+        <translation>Be&amp;werken</translation>
     </message>
     <message>
         <source>Find &amp;Next</source>
-        <translation>尋找下一筆(&amp;N)</translation>
+        <translation>Vol&amp;gende zoeken</translation>
     </message>
     <message>
         <source>Find &amp;Previous</source>
-        <translation>尋找前一筆(&amp;P)</translation>
+        <translation>&amp;Vorige zoeken</translation>
     </message>
     <message>
         <source>Preferences...</source>
-        <translation>偏好設定...</translation>
+        <translation>Voorkeuren...</translation>
     </message>
     <message>
         <source>&amp;View</source>
-        <translation>檢視(&amp;V)</translation>
+        <translation>&amp;Beeld</translation>
     </message>
     <message>
         <source>Normal &amp;Size</source>
-        <translation>一般大小(&amp;S)</translation>
+        <translation>Normale &amp;grootte</translation>
     </message>
     <message>
         <source>Ctrl+0</source>
@@ -734,19 +714,19 @@ Reason:
     </message>
     <message>
         <source>&amp;Go</source>
-        <translation>前往(&amp;G)</translation>
+        <translation>&amp;Ga</translation>
     </message>
     <message>
         <source>Sync with Table of Contents</source>
-        <translation>與目錄同步</translation>
+        <translation>Met inhoudsopgave synchroniseren</translation>
     </message>
     <message>
         <source>Sync</source>
-        <translation>同步</translation>
+        <translation>Sync</translation>
     </message>
     <message>
         <source>Next Page</source>
-        <translation>下一頁</translation>
+        <translation>Volgende pagina</translation>
     </message>
     <message>
         <source>Ctrl+Alt+Right</source>
@@ -754,7 +734,7 @@ Reason:
     </message>
     <message>
         <source>Previous Page</source>
-        <translation>前一頁</translation>
+        <translation>Vorige pagina</translation>
     </message>
     <message>
         <source>Ctrl+Alt+Left</source>
@@ -762,31 +742,31 @@ Reason:
     </message>
     <message>
         <source>&amp;Bookmarks</source>
-        <translation>書籤(&amp;B)</translation>
+        <translation>&amp;Bladwijzers</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>說明(&amp;H)</translation>
+        <translation>&amp;Help</translation>
     </message>
     <message>
         <source>About...</source>
-        <translation>關於...</translation>
+        <translation>Info over...</translation>
     </message>
     <message>
         <source>Navigation Toolbar</source>
-        <translation>導覽工具列</translation>
+        <translation>Navigatie-werkbalk</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>視窗(&amp;W)</translation>
+        <translation>&amp;Venster</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation>縮放</translation>
+        <translation>Zoomen</translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>最小化</translation>
+        <translation>Minimaliseren</translation>
     </message>
     <message>
         <source>Ctrl+M</source>
@@ -794,351 +774,280 @@ Reason:
     </message>
     <message>
         <source>Toolbars</source>
-        <translation>工具列</translation>
+        <translation>Werkbalken</translation>
     </message>
     <message>
         <source>Filter Toolbar</source>
-        <translation>過濾器工具列</translation>
+        <translation>Filterwerkbalk</translation>
     </message>
     <message>
         <source>Filtered by:</source>
-        <translation>已過濾：</translation>
+        <translation>Gefilterd door:</translation>
     </message>
     <message>
         <source>Address Toolbar</source>
-        <translation>位址工具列</translation>
+        <translation>Adreswerkbalk</translation>
     </message>
     <message>
         <source>Address:</source>
-        <translation>位址：</translation>
+        <translation>Adres:</translation>
     </message>
     <message>
         <source>Could not find the associated content item.</source>
-        <translation>找不到相關的內容項目。</translation>
+        <translation>Kon het geassocieerde inhoudsitem niet vinden</translation>
     </message>
     <message>
         <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;p&gt;Browser: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</source>
-        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;版本 %2&lt;/p&gt;&lt;p&gt;瀏覽器：%3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;版權所有 %4 Qt 公司&lt;/p&gt;</translation>
+        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Versie %2&lt;/p&gt;&lt;p&gt;Browser: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About %1</source>
-        <translation>關於 %1</translation>
-    </message>
-    <message>
-        <source>Unfiltered</source>
-        <translation>未經篩選</translation>
+        <translation>Info over %1</translation>
     </message>
     <message>
         <source>Updating search index</source>
-        <translation>更新搜尋索引</translation>
+        <translation>Zoekindex bijwerken</translation>
     </message>
     <message>
         <source>Could not register file &apos;%1&apos;: %2</source>
-        <translation>無法註冊檔案「%1」：%2</translation>
+        <translation>Kon bestand &apos;%1&apos; niet registreren: %2</translation>
     </message>
 </context>
 <context>
     <name>OpenPagesWidget</name>
     <message>
         <source>Close %1</source>
-        <translation>關閉 %1</translation>
+        <translation>%1 sluiten</translation>
     </message>
     <message>
         <source>Close All Except %1</source>
-        <translation>關閉除了 %1 的所有分頁</translation>
-    </message>
-</context>
-<context>
-    <name>OptionsWidget</name>
-    <message>
-        <source>No Option</source>
-        <translation type="vanished">無選項</translation>
-    </message>
-    <message>
-        <source>Invalid Option</source>
-        <translation type="vanished">選項無效</translation>
+        <translation>Alles sluiten behalve %1</translation>
     </message>
 </context>
 <context>
     <name>PreferencesDialog</name>
     <message>
-        <source>No Component</source>
-        <translation type="vanished">沒有元件</translation>
-    </message>
-    <message>
-        <source>Invalid Component</source>
-        <translation type="vanished">無效元件</translation>
-    </message>
-    <message>
-        <source>No Version</source>
-        <translation type="vanished">沒有版本</translation>
-    </message>
-    <message>
-        <source>Invalid Version</source>
-        <translation type="vanished">無效版本</translation>
-    </message>
-    <message>
-        <source>Filter Exists</source>
-        <translation type="vanished">篩選器存在</translation>
-    </message>
-    <message>
-        <source>The filter &quot;%1&quot; already exists.</source>
-        <translation type="vanished">篩選器「%1」已存在。</translation>
-    </message>
-    <message>
-        <source>Add Filter</source>
-        <translation type="vanished">新增篩選器</translation>
-    </message>
-    <message>
-        <source>New Filter</source>
-        <translation type="vanished">新篩選器</translation>
-    </message>
-    <message>
-        <source>Rename Filter</source>
-        <translation type="vanished">重命名篩選器</translation>
-    </message>
-    <message>
-        <source>Remove Filter</source>
-        <translation type="vanished">移除篩選器</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to remove the &quot;%1&quot; filter?</source>
-        <translation type="vanished">確定移除「%1」篩選器？</translation>
-    </message>
-    <message>
         <source>Add Documentation</source>
-        <translation type="vanished">新增文件</translation>
+        <translation>Documentatie toevoegen</translation>
     </message>
     <message>
         <source>Qt Compressed Help Files (*.qch)</source>
-        <translation type="vanished">Qt 壓縮說明檔(*.qch)</translation>
-    </message>
-    <message>
-        <source>Use custom settings</source>
-        <translation>使用自訂設定</translation>
+        <translation>Qt gecomprimeerde helpbestanden (*.qch)</translation>
     </message>
     <message>
         <source>The namespace %1 is already registered!</source>
-        <translation type="vanished">命名空間 %1 已註冊！</translation>
+        <translation>De naamruimte %1 is al geregistreerd!</translation>
     </message>
     <message>
         <source>The specified file is not a valid Qt Help File!</source>
-        <translation type="vanished">指定的檔案不是合法的 Qt 說明檔！</translation>
+        <translation>Het gespecificeerde bestand is geen geldig Qt-helpbestand!</translation>
     </message>
     <message>
         <source>Remove Documentation</source>
-        <translation type="vanished">移除文件</translation>
+        <translation>Documentatie verwijderen</translation>
     </message>
     <message>
         <source>Some documents currently opened in Assistant reference the documentation you are attempting to remove. Removing the documentation will close those documents.</source>
-        <translation type="vanished">部份有參考您嘗試移除文件的文件目前已在 Assistant 中開啟。移除此文件也將關閉那些文件。</translation>
+        <translation>Sommige documenten op dit moment geopend in Assistant verwijzen naar de documentatie die u probeert te verwijderen. De documentatie verwijderen zal deze documenten sluiten.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="vanished">取消</translation>
+        <translation>Annuleren</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="vanished">確定</translation>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Use custom settings</source>
+        <translation>Gebruikergedefinieerde instellingen gebruiken</translation>
     </message>
 </context>
 <context>
     <name>PreferencesDialogClass</name>
     <message>
         <source>Preferences</source>
-        <translation>偏好設定</translation>
+        <translation>Voorkeuren</translation>
     </message>
     <message>
         <source>Fonts</source>
-        <translation>字型</translation>
+        <translation>Lettertypen</translation>
     </message>
     <message>
         <source>Font settings:</source>
-        <translation>字型設定：</translation>
+        <translation>Lettertypeninstellingen:</translation>
     </message>
     <message>
         <source>Browser</source>
-        <translation>瀏覽器</translation>
+        <translation>Browser</translation>
     </message>
     <message>
         <source>Application</source>
-        <translation>應用程式</translation>
+        <translation>Toepassing</translation>
     </message>
     <message>
         <source>Filters</source>
-        <translation>過濾器</translation>
-    </message>
-    <message>
-        <source>Components:</source>
-        <translation type="vanished">元件：</translation>
-    </message>
-    <message>
-        <source>Versions:</source>
-        <translation type="vanished">版本：</translation>
-    </message>
-    <message>
-        <source>Add...</source>
-        <translation type="vanished">新增...</translation>
-    </message>
-    <message>
-        <source>Rename...</source>
-        <translation type="vanished">重命名…</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation type="vanished">移除</translation>
+        <translation>Filters</translation>
     </message>
     <message>
         <source>Filter:</source>
-        <translation type="vanished">過濾：</translation>
-    </message>
-    <message>
-        <source>Documentation</source>
-        <translation>文件</translation>
-    </message>
-    <message>
-        <source>Registered Documentation:</source>
-        <translation type="vanished">已註冊文件：</translation>
-    </message>
-    <message>
-        <source>&lt;Filter&gt;</source>
-        <translation type="vanished">&lt;過濾器&gt;</translation>
-    </message>
-    <message>
-        <source>Options</source>
-        <translation>選項</translation>
-    </message>
-    <message>
-        <source>On help start:</source>
-        <translation>於說明開始：</translation>
-    </message>
-    <message>
-        <source>Show my home page</source>
-        <translation>顯示我的首頁</translation>
-    </message>
-    <message>
-        <source>Show a blank page</source>
-        <translation>顯示空白頁面</translation>
-    </message>
-    <message>
-        <source>Show my tabs from last session</source>
-        <translation>顯示我上次工作階段的分頁</translation>
-    </message>
-    <message>
-        <source>Homepage</source>
-        <translation>首頁</translation>
-    </message>
-    <message>
-        <source>Current Page</source>
-        <translation>目前頁面</translation>
-    </message>
-    <message>
-        <source>Blank Page</source>
-        <translation>空白頁面</translation>
-    </message>
-    <message>
-        <source>Restore to default</source>
-        <translation>回復為預設值</translation>
-    </message>
-    <message>
-        <source>Appearance</source>
-        <translation>外觀</translation>
-    </message>
-    <message>
-        <source>Show tabs for each individual page</source>
-        <translation>顯示每個個別頁面的分頁</translation>
+        <translation>Filter:</translation>
     </message>
     <message>
         <source>Attributes:</source>
-        <translation type="vanished">屬性：</translation>
+        <translation>Attributen:</translation>
     </message>
     <message>
         <source>1</source>
-        <translation type="vanished">1</translation>
+        <translation>1</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation type="vanished">新增</translation>
+        <translation>Toevoegen</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Verwijderen</translation>
+    </message>
+    <message>
+        <source>Documentation</source>
+        <translation>Documentatie</translation>
+    </message>
+    <message>
+        <source>Registered Documentation:</source>
+        <translation>Geregistreerde documentatie:</translation>
+    </message>
+    <message>
+        <source>&lt;Filter&gt;</source>
+        <translation>&lt;Filter&gt;</translation>
+    </message>
+    <message>
+        <source>Add...</source>
+        <translation>Toevoegen...</translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation>Opties</translation>
+    </message>
+    <message>
+        <source>On help start:</source>
+        <translation>Bij help start:</translation>
+    </message>
+    <message>
+        <source>Show my home page</source>
+        <translation>Mijn homepagina tonen</translation>
+    </message>
+    <message>
+        <source>Show a blank page</source>
+        <translation>Een lege pagina tonen</translation>
+    </message>
+    <message>
+        <source>Show my tabs from last session</source>
+        <translation>Mijn tabbladen uit de laatste sessie tonen</translation>
+    </message>
+    <message>
+        <source>Homepage</source>
+        <translation>Homepagina</translation>
+    </message>
+    <message>
+        <source>Current Page</source>
+        <translation>Huidige pagina</translation>
+    </message>
+    <message>
+        <source>Blank Page</source>
+        <translation>Leeg pagina</translation>
+    </message>
+    <message>
+        <source>Restore to default</source>
+        <translation>Naar standaard herstellen</translation>
+    </message>
+    <message>
+        <source>Appearance</source>
+        <translation>Uiterlijk</translation>
+    </message>
+    <message>
+        <source>Show tabs for each individual page</source>
+        <translation>Tabbladen voor elke individuele pagina tonen</translation>
     </message>
 </context>
 <context>
     <name>RemoteControl</name>
     <message>
         <source>Debugging Remote Control</source>
-        <translation>遠端除錯控制</translation>
+        <translation>Afstandsbediening debuggen</translation>
     </message>
     <message>
         <source>Received Command: %1 %2</source>
-        <translation>已接收指令：%1 %2</translation>
+        <translation>Ontvangen opdracht: %1 %2</translation>
     </message>
 </context>
 <context>
     <name>SearchWidget</name>
     <message>
         <source>&amp;Copy</source>
-        <translation>複製(&amp;C)</translation>
+        <translation>&amp;Kopiëren</translation>
     </message>
     <message>
         <source>Copy &amp;Link Location</source>
-        <translation>複製連結位置(&amp;L)</translation>
+        <translation>Koppe&amp;ling kopiëren</translation>
     </message>
     <message>
         <source>Open Link in New Tab</source>
-        <translation>在新分頁開啟連結</translation>
+        <translation>Koppeling in nieuw tabblad openen</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>全部選取</translation>
+        <translation>Alles selecteren</translation>
     </message>
 </context>
 <context>
     <name>TabBar</name>
     <message>
         <source>(Untitled)</source>
-        <translation>（未命名）</translation>
+        <translation>(Geen titel)</translation>
     </message>
     <message>
         <source>New &amp;Tab</source>
-        <translation>新增分頁(&amp;T)</translation>
+        <translation>Nieuwe &amp;Tab</translation>
     </message>
     <message>
         <source>&amp;Close Tab</source>
-        <translation>關閉分頁(&amp;C)</translation>
+        <translation>Tabblad &amp;sluiten</translation>
     </message>
     <message>
         <source>Close Other Tabs</source>
-        <translation>關閉其他分頁</translation>
+        <translation>Andere tabbladen sluiten</translation>
     </message>
     <message>
         <source>Add Bookmark for this Page...</source>
-        <translation>將此頁面新增到書籤…</translation>
+        <translation>Bladwijzer toevoegen voor deze pagina...</translation>
     </message>
 </context>
 <context>
     <name>TopicChooser</name>
     <message>
         <source>Choose Topic</source>
-        <translation>選擇標題</translation>
+        <translation>Onderwerp kiezen</translation>
     </message>
     <message>
         <source>&amp;Topics</source>
-        <translation>標題(&amp;T)</translation>
+        <translation>&amp;Onderwerpen</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>顯示(&amp;D)</translation>
+        <translation>&amp;Tonen</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>關閉(&amp;C)</translation>
+        <translation>&amp;Sluiten</translation>
     </message>
     <message>
         <source>Filter</source>
-        <translation>篩選器</translation>
+        <translation>Filter</translation>
     </message>
     <message>
         <source>Choose a topic for &lt;b&gt;%1&lt;/b&gt;:</source>
-        <translation>選擇 %1 的標題：</translation>
+        <translation>Een onderwerp kiezen voor &lt;b&gt;%1&lt;/b&gt;:</translation>
     </message>
 </context>
 </TS>

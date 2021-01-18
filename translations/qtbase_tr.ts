@@ -1,424 +1,420 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="zh_TW">
+<TS version="2.1" language="tr_TR">
 <context>
     <name>CloseButton</name>
     <message>
         <source>Close Tab</source>
-        <translation>關閉分頁</translation>
+        <translation>Sekmeyi Kapat</translation>
     </message>
 </context>
 <context>
     <name>MAC_APPLICATION_MENU</name>
     <message>
         <source>About %1</source>
-        <translation>關於 %1</translation>
+        <translation>%1 Hakkında</translation>
     </message>
     <message>
         <source>Preferences...</source>
-        <translation>偏好設定…</translation>
+        <translation>Tercihler...</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>服務</translation>
+        <translation>Hizmetler</translation>
     </message>
     <message>
         <source>Hide %1</source>
-        <translation>隱藏 %1</translation>
+        <translation>%1&apos;i Gizle</translation>
     </message>
     <message>
         <source>Hide Others</source>
-        <translation>隱藏其他</translation>
+        <translation>Diğerlerini Gizle</translation>
     </message>
     <message>
         <source>Show All</source>
-        <translation>顯示全部</translation>
+        <translation>Tümünü Göster</translation>
     </message>
     <message>
         <source>Quit %1</source>
-        <translation>結束 %1</translation>
+        <translation>%1&apos;den Çık</translation>
     </message>
 </context>
 <context>
     <name>Print Device Input Slot</name>
     <message>
         <source>Automatic</source>
-        <translation>自動</translation>
+        <translation>Otomatik</translation>
     </message>
 </context>
 <context>
     <name>Print Device Output Bin</name>
     <message>
         <source>Automatic</source>
-        <translation>自動</translation>
+        <translation>Otomatik</translation>
     </message>
 </context>
 <context>
     <name>QAbstractSocket</name>
     <message>
         <source>Socket operation timed out</source>
-        <translation>Socket 操作逾時</translation>
+        <translation>Soket işlemi zaman aşımına uğradı</translation>
     </message>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>不支援於 Socket 上操作</translation>
+        <translation>Soket üzerinde işlem desteklenmiyor</translation>
     </message>
     <message>
         <source>Host not found</source>
-        <translation>找不到主機</translation>
+        <translation>Ana bilgisayar bulunamadı</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>連線被拒</translation>
+        <translation>Bağlantı reddedildi</translation>
     </message>
     <message>
         <source>Connection timed out</source>
-        <translation>連線逾時</translation>
+        <translation>Bağlantı zaman aşımına uğradı</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation>嘗試在連線時連線</translation>
+        <translation>Bağlantı devam ederken bağlanmaya çalışıyor</translation>
     </message>
     <message>
         <source>Socket is not connected</source>
-        <translation>未連線 Socket</translation>
+        <translation>Soket bağlı değil</translation>
     </message>
     <message>
         <source>Network unreachable</source>
-        <translation>無法連到網路</translation>
+        <translation>Ağa erişilemiyor</translation>
     </message>
 </context>
 <context>
     <name>QAbstractSpinBox</name>
     <message>
         <source>&amp;Select All</source>
-        <translation>全部選擇(&amp;S)</translation>
+        <translation>Tümünü &amp;Seç</translation>
     </message>
     <message>
         <source>&amp;Step up</source>
-        <translation>單步向上(&amp;S)</translation>
+        <translation>&amp;Yukarı çık</translation>
     </message>
     <message>
         <source>Step &amp;down</source>
-        <translation>單步向下(&amp;D)</translation>
+        <translation>&amp;Aşağı in</translation>
     </message>
 </context>
 <context>
     <name>QAccessibleActionInterface</name>
     <message>
         <source>Press</source>
-        <translation>按下</translation>
+        <translation>Bas</translation>
     </message>
     <message>
         <source>Increase</source>
-        <translation>增加</translation>
+        <translation>Artır</translation>
     </message>
     <message>
         <source>Decrease</source>
-        <translation>減少</translation>
+        <translation>Azalt</translation>
     </message>
     <message>
         <source>ShowMenu</source>
-        <translation>顯示選單</translation>
+        <translation>MenüGöster</translation>
     </message>
     <message>
         <source>SetFocus</source>
-        <translation>設定焦點</translation>
+        <translation>OdakAyarla</translation>
     </message>
     <message>
         <source>Toggle</source>
-        <translation>切換</translation>
+        <translation>Değiştir</translation>
     </message>
     <message>
         <source>Scroll Left</source>
-        <translation>往左捲動</translation>
+        <translation>Sola Kaydır</translation>
     </message>
     <message>
         <source>Scroll Right</source>
-        <translation>往右捲動</translation>
+        <translation>Sağa Kaydır</translation>
     </message>
     <message>
         <source>Scroll Up</source>
-        <translation>往上捲動</translation>
+        <translation>Yukarı Kaydır</translation>
     </message>
     <message>
         <source>Scroll Down</source>
-        <translation>往下捲動</translation>
+        <translation>Aşağı Kaydır</translation>
     </message>
     <message>
         <source>Previous Page</source>
-        <translation>上一頁</translation>
+        <translation>Önceki Sayfa</translation>
     </message>
     <message>
         <source>Next Page</source>
-        <translation>下一頁</translation>
+        <translation>Sonraki Sayfa</translation>
     </message>
     <message>
         <source>Triggers the action</source>
-        <translation>觸發動作</translation>
+        <translation>Eylemi tetikler</translation>
     </message>
     <message>
         <source>Increase the value</source>
-        <translation>增加值</translation>
+        <translation>Değeri artırır</translation>
     </message>
     <message>
         <source>Decrease the value</source>
-        <translation>減少值</translation>
+        <translation>Değeri azaltır</translation>
     </message>
     <message>
         <source>Shows the menu</source>
-        <translation>顯示選單</translation>
+        <translation>Menüyü gösterir</translation>
     </message>
     <message>
         <source>Sets the focus</source>
-        <translation>設定焦點</translation>
+        <translation>Odağı ayarlar</translation>
     </message>
     <message>
         <source>Toggles the state</source>
-        <translation>切換狀態</translation>
+        <translation>Durumu değiştirir</translation>
     </message>
     <message>
         <source>Scrolls to the left</source>
-        <translation>捲動到左邊</translation>
+        <translation>Sola kaydırır</translation>
     </message>
     <message>
         <source>Scrolls to the right</source>
-        <translation>捲動到右邊</translation>
+        <translation>Sağa kaydırır</translation>
     </message>
     <message>
         <source>Scrolls up</source>
-        <translation>往上捲動</translation>
+        <translation>Yukarı kaydırır</translation>
     </message>
     <message>
         <source>Scrolls down</source>
-        <translation>往下捲動</translation>
+        <translation>Aşağı kaydırır</translation>
     </message>
     <message>
         <source>Goes back a page</source>
-        <translation>回到前一頁</translation>
+        <translation>Sayfayı geri döndürür</translation>
     </message>
     <message>
         <source>Goes to the next page</source>
-        <translation>前往下一頁</translation>
+        <translation>Bir sonraki sayfaya gider</translation>
     </message>
 </context>
 <context>
     <name>QAndroidPlatformTheme</name>
     <message>
         <source>Yes</source>
-        <translation>是</translation>
+        <translation>Evet</translation>
     </message>
     <message>
         <source>Yes to All</source>
-        <translation>全部皆是</translation>
+        <translation>Tümüne Evet</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>否</translation>
+        <translation>Hayır</translation>
     </message>
     <message>
         <source>No to All</source>
-        <translation>全部皆否</translation>
+        <translation>Tümüne Hayır</translation>
     </message>
 </context>
 <context>
     <name>QApplication</name>
     <message>
         <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
-        <translation>執行檔「%1」需要 Qt %2，但只找到 Qt %3。</translation>
+        <translation>Yürütülebilir &apos;%1&apos; Qt %2 gerektirir, Qt %3 bulundu.</translation>
     </message>
     <message>
         <source>Incompatible Qt Library Error</source>
-        <translation>Qt 函式庫不相容錯誤</translation>
+        <translation>Uyumsuz Qt Kitaplığı Hatası</translation>
     </message>
 </context>
 <context>
     <name>QCocoaMenuItem</name>
     <message>
-        <source>About Qt</source>
-        <translation>關於 Qt</translation>
-    </message>
-    <message>
         <source>About</source>
-        <translation>關於</translation>
+        <translation>Hakkında</translation>
     </message>
     <message>
         <source>Config</source>
-        <translation>設定</translation>
+        <translation>Yapılandırma</translation>
     </message>
     <message>
         <source>Preference</source>
-        <translation>偏好設定</translation>
+        <translation>Tercih</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>選項</translation>
+        <translation>Seçenekler</translation>
     </message>
     <message>
         <source>Setting</source>
-        <translation>設定</translation>
+        <translation>Ayar</translation>
     </message>
     <message>
         <source>Setup</source>
-        <translation>設定</translation>
+        <translation>Ayarla</translation>
     </message>
     <message>
         <source>Quit</source>
-        <translation>離開</translation>
+        <translation>Çık</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>離開</translation>
+        <translation>Çıkış</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation>剪下</translation>
+        <translation>Kes</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>複製</translation>
+        <translation>Kopyala</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>貼上</translation>
+        <translation>Yapıştır</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>全部選擇</translation>
+        <translation>Tümünü Seç</translation>
+    </message>
+    <message>
+        <source>About Qt</source>
+        <translation>Qt Hakkında</translation>
     </message>
 </context>
 <context>
     <name>QCocoaTheme</name>
     <message>
         <source>Don&apos;t Save</source>
-        <translation>不要儲存</translation>
+        <translation>Kaydetme</translation>
     </message>
 </context>
 <context>
     <name>QColorDialog</name>
     <message>
         <source>Hu&amp;e:</source>
-        <translation>色調(&amp;E)：</translation>
+        <translation>T&amp;on:</translation>
     </message>
     <message>
         <source>&amp;Sat:</source>
-        <translation>飽和度(&amp;S)：</translation>
+        <translation>&amp;Doyg:</translation>
     </message>
     <message>
         <source>&amp;Val:</source>
-        <translation>亮度(&amp;V)：</translation>
+        <translation>&amp;Val:</translation>
     </message>
     <message>
         <source>&amp;Red:</source>
-        <translation>紅(&amp;R)：</translation>
+        <translation>&amp;Kırmızı:</translation>
     </message>
     <message>
         <source>&amp;Green:</source>
-        <translation>綠(&amp;G)：</translation>
+        <translation>&amp;Yeşil:</translation>
     </message>
     <message>
         <source>Bl&amp;ue:</source>
-        <translation>藍(&amp;U)：</translation>
+        <translation>&amp;Mavi:</translation>
     </message>
     <message>
         <source>A&amp;lpha channel:</source>
-        <translation>Alpha 色頻(&amp;L)：</translation>
+        <translation>A&amp;lfa kanalı:</translation>
     </message>
     <message>
         <source>&amp;HTML:</source>
-        <translation>&amp;HTML：</translation>
+        <translation>&amp;HTML:</translation>
     </message>
     <message>
         <source>Cursor at %1, %2
 Press ESC to cancel</source>
-        <translation>游標在 %1, %2 位置
-按下 ESC 取消</translation>
+        <translation>%1 konumundaki imleç, %2
+İptal etmek için ESC tuşuna basın</translation>
     </message>
     <message>
         <source>Select Color</source>
-        <translation>選擇顏色</translation>
+        <translation>Renk Seç</translation>
     </message>
     <message>
         <source>&amp;Basic colors</source>
-        <translation>基本顏色(&amp;B)</translation>
+        <translation>&amp;Temel renkler</translation>
     </message>
     <message>
         <source>&amp;Custom colors</source>
-        <translation>自訂顏色(&amp;C)</translation>
+        <translation>&amp;Özel renkler</translation>
     </message>
     <message>
         <source>&amp;Add to Custom Colors</source>
-        <translation>新增到自訂顏色(&amp;A)</translation>
+        <translation>Özel Renklere &amp;Ekle</translation>
     </message>
     <message>
         <source>&amp;Pick Screen Color</source>
-        <translation>擷取螢幕顏色(&amp;P)</translation>
+        <translation>Ekran Rengini &amp;Seç</translation>
     </message>
 </context>
 <context>
     <name>QComboBox</name>
     <message>
         <source>Open the combo box selection popup</source>
-        <translation>打開下拉式方塊的選取區塊彈出視窗</translation>
+        <translation>Açılır kutu seçim penceresini aç</translation>
     </message>
     <message>
         <source>False</source>
-        <translation>假 (False)</translation>
+        <translation>Yanlış</translation>
     </message>
     <message>
         <source>True</source>
-        <translation>真 (True)</translation>
+        <translation>Doğru</translation>
     </message>
 </context>
 <context>
     <name>QCommandLineParser</name>
     <message>
         <source>Displays version information.</source>
-        <translation>顯示版本資訊。</translation>
-    </message>
-    <message>
-        <source>Displays this help.</source>
-        <translation type="vanished">顯示此說明。</translation>
+        <translation>Sürüm bilgilerini görüntüler.</translation>
     </message>
     <message>
         <source>Displays help on commandline options.</source>
-        <translation>顯示指令列選項的說明。</translation>
+        <translation>Komut satırı seçenekleriyle ilgili yardımı görüntüler.</translation>
     </message>
     <message>
         <source>Displays help including Qt specific options.</source>
-        <translation>顯示包含 Qt 特有選項的說明。</translation>
+        <translation>Qt&apos;ye özgü seçenekleri içeren yardımı görüntüler.</translation>
     </message>
     <message>
         <source>Unknown option &apos;%1&apos;.</source>
-        <translation>未知選項「%1」。</translation>
+        <translation>Bilinmeyen seçenek &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Unknown options: %1.</source>
-        <translation>未知選項：%1。</translation>
+        <translation>Bilinmeyen seçenekler: %1.</translation>
     </message>
     <message>
         <source>Missing value after &apos;%1&apos;.</source>
-        <translation>缺少「%1」後的值。</translation>
+        <translation>&apos;%1&apos; sonrası değer eksik.</translation>
     </message>
     <message>
         <source>Unexpected value after &apos;%1&apos;.</source>
-        <translation>「%1」後發現非預期的值。</translation>
+        <translation>&apos;%1&apos; sonrası beklenmeyen değer.</translation>
     </message>
     <message>
         <source>[options]</source>
-        <translation>[選項]</translation>
+        <translation>[seçenekler]</translation>
     </message>
     <message>
         <source>Usage: %1</source>
-        <translation>用法：%1</translation>
+        <translation>Kullanım: %1</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>選項：</translation>
+        <translation>Seçenekler:</translation>
     </message>
     <message>
         <source>Arguments:</source>
-        <translation>參數：</translation>
+        <translation>Değişkenler:</translation>
     </message>
 </context>
 <context>
@@ -426,361 +422,361 @@ Press ESC to cancel</source>
     <message>
         <source>%1: key is empty</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1：鍵值是空的</translation>
+        <translation>%1: anahtar boş</translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1：無法建立鍵值</translation>
+        <translation>%1: anahtar yapılamıyor</translation>
     </message>
     <message>
         <source>%1: ftok failed</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1：ftok 失敗</translation>
+        <translation>%1: ftok başarısız oldu</translation>
     </message>
 </context>
 <context>
     <name>QCupsJobWidget</name>
     <message>
         <source>Job</source>
-        <translation>作業</translation>
+        <translation>İş</translation>
     </message>
     <message>
         <source>Job Control</source>
-        <translation>作業控制</translation>
+        <translation>İş Denetimi</translation>
     </message>
     <message>
         <source>Scheduled printing:</source>
-        <translation>排定列印：</translation>
+        <translation>Zamanlanmış baskı:</translation>
     </message>
     <message>
         <source>Billing information:</source>
-        <translation>付款資訊：</translation>
+        <translation>Fatura bilgileri:</translation>
     </message>
     <message>
         <source>Job priority:</source>
-        <translation>作業優先級：</translation>
+        <translation>İş önceliği:</translation>
     </message>
     <message>
         <source>Banner Pages</source>
-        <translation>橫幅頁面</translation>
+        <translation>Afiş Sayfaları</translation>
     </message>
     <message>
         <source>End:</source>
         <comment>Banner page at end</comment>
-        <translation>結尾：</translation>
+        <translation>Son:</translation>
     </message>
     <message>
         <source>Start:</source>
         <comment>Banner page at start</comment>
-        <translation>開始：</translation>
+        <translation>Başlat:</translation>
     </message>
     <message>
         <source>Print Immediately</source>
-        <translation>立即列印</translation>
+        <translation>Hemen Yazdır</translation>
     </message>
     <message>
         <source>Hold Indefinitely</source>
-        <translation>立即暫停列印</translation>
+        <translation>Süresiz Tut</translation>
     </message>
     <message>
         <source>Day (06:00 to 17:59)</source>
-        <translation>早上 (06:00 到 17:59)</translation>
+        <translation>Gün (06:00 - 17:59)</translation>
     </message>
     <message>
         <source>Night (18:00 to 05:59)</source>
-        <translation>晚上 (18:00 到 05:59)</translation>
+        <translation>Gece (18:00 - 05:59)</translation>
     </message>
     <message>
         <source>Second Shift (16:00 to 23:59)</source>
-        <translation>第二輪班 (16:00 到 23:59)</translation>
+        <translation>İkinci Vardiya (16:00 - 23:59)</translation>
     </message>
     <message>
         <source>Third Shift (00:00 to 07:59)</source>
-        <translation>第三輪班 (00:00 到 07:59)</translation>
+        <translation>Üçüncü Vardiya (00:00 - 07:59)</translation>
     </message>
     <message>
         <source>Weekend (Saturday to Sunday)</source>
-        <translation>假日（週六到週日）</translation>
+        <translation>Haftasonu (Cumartesi - Pazar)</translation>
     </message>
     <message>
         <source>Specific Time</source>
-        <translation>指定時間</translation>
+        <translation>Belirli Bir Zaman</translation>
     </message>
     <message>
         <source>None</source>
         <comment>CUPS Banner page</comment>
-        <translation>無</translation>
+        <translation>Hiçbiri</translation>
     </message>
     <message>
         <source>Standard</source>
         <comment>CUPS Banner page</comment>
-        <translation>標準</translation>
+        <translation>Standart</translation>
     </message>
     <message>
         <source>Unclassified</source>
         <comment>CUPS Banner page</comment>
-        <translation>未分類</translation>
+        <translation>Sınıflandırılmamış</translation>
     </message>
     <message>
         <source>Confidential</source>
         <comment>CUPS Banner page</comment>
-        <translation>機密</translation>
+        <translation>Gizli</translation>
     </message>
     <message>
         <source>Classified</source>
         <comment>CUPS Banner page</comment>
-        <translation>已分類</translation>
+        <translation>Sınıflandırılmış</translation>
     </message>
     <message>
         <source>Secret</source>
         <comment>CUPS Banner page</comment>
-        <translation>機密</translation>
+        <translation>Gizli</translation>
     </message>
     <message>
         <source>Top Secret</source>
         <comment>CUPS Banner page</comment>
-        <translation>高度機密</translation>
+        <translation>Çok Gizli</translation>
     </message>
 </context>
 <context>
     <name>QCupsPrinterSupport</name>
     <message>
         <source>Authentication Needed</source>
-        <translation>需要驗證</translation>
+        <translation>Kimlik Doğrulaması Gerekiyor</translation>
     </message>
     <message>
         <source>Authentication needed to use %1.</source>
-        <translation>使用 %1 需要驗證。</translation>
+        <translation>%1 kullanmak için kimlik doğrulaması gerekiyor.</translation>
     </message>
     <message>
         <source>Authentication needed to use %1 on %2.</source>
-        <translation>要使用 %2 上的 %1 需要驗證。</translation>
+        <translation>%2 üzerinde %1 kullanmak için kimlik doğrulaması gerekiyor.</translation>
     </message>
     <message>
         <source>Username:</source>
-        <translation>使用者名稱：</translation>
+        <translation>Kullanıcı adı:</translation>
     </message>
     <message>
         <source>Password:</source>
-        <translation>密碼：</translation>
+        <translation>Parola:</translation>
     </message>
 </context>
 <context>
     <name>QDB2Driver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>無法連線</translation>
+        <translation>Bağlanılamıyor</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>無法提交處理事項</translation>
+        <translation>İşleme yapılamıyor</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>無法回退處理事項</translation>
+        <translation>İşlem geri alınamıyor</translation>
     </message>
     <message>
         <source>Unable to set autocommit</source>
-        <translation>無法設定自動提交</translation>
+        <translation>Otomatik işleme ayarlanamıyor</translation>
     </message>
 </context>
 <context>
     <name>QDB2Result</name>
     <message>
         <source>Unable to execute statement</source>
-        <translation>無法執行陳述</translation>
+        <translation>İfade yürütülemiyor</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>無法準備陳述</translation>
+        <translation>İfade hazırlanamıyor</translation>
     </message>
     <message>
         <source>Unable to bind variable</source>
-        <translation>無法結合變數</translation>
+        <translation>Değişken bağlanamıyor</translation>
     </message>
     <message>
         <source>Unable to fetch record %1</source>
-        <translation>無法抓取紀錄 %1</translation>
+        <translation>%1 kaydı getirilemiyor</translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>無法抓取下一筆</translation>
+        <translation>Sonraki getirilemiyor</translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>無法抓取第一筆</translation>
+        <translation>İlk önceki getirilemiyor</translation>
     </message>
 </context>
 <context>
     <name>QDBusTrayIcon</name>
     <message>
         <source>OK</source>
-        <translation>確定</translation>
+        <translation>Tamam</translation>
     </message>
 </context>
 <context>
     <name>QDateTimeParser</name>
     <message>
         <source>AM</source>
-        <translation>上午</translation>
+        <translation>ÖÖ</translation>
     </message>
     <message>
         <source>am</source>
-        <translation>上午</translation>
+        <translation>öö</translation>
     </message>
     <message>
         <source>PM</source>
-        <translation>下午</translation>
+        <translation>ÖS</translation>
     </message>
     <message>
         <source>pm</source>
-        <translation>下午</translation>
+        <translation>ös</translation>
     </message>
 </context>
 <context>
     <name>QDialog</name>
     <message>
         <source>What&apos;s This?</source>
-        <translation>這是什麼？</translation>
+        <translation>Bu Nedir?</translation>
     </message>
 </context>
 <context>
     <name>QDialogButtonBox</name>
     <message>
         <source>OK</source>
-        <translation>確定</translation>
+        <translation>Tamam</translation>
     </message>
 </context>
 <context>
     <name>QDirModel</name>
     <message>
         <source>Name</source>
-        <translation>名稱</translation>
+        <translation>Ad</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>大小</translation>
+        <translation>Boyut</translation>
     </message>
     <message>
         <source>Kind</source>
         <comment>Match OS X Finder</comment>
-        <translation>種類</translation>
+        <translation>Çeşit</translation>
     </message>
     <message>
         <source>Type</source>
         <comment>All other platforms</comment>
-        <translation>型態</translation>
+        <translation>Tür</translation>
     </message>
     <message>
         <source>Date Modified</source>
-        <translation>變更日期</translation>
+        <translation>Değiştirilme Tarihi</translation>
     </message>
 </context>
 <context>
     <name>QDnsLookup</name>
     <message>
         <source>Operation cancelled</source>
-        <translation>已取消動作</translation>
+        <translation>İşlem iptal edildi</translation>
     </message>
 </context>
 <context>
     <name>QDnsLookupRunnable</name>
     <message>
         <source>IPv6 addresses for nameservers are currently not supported</source>
-        <translation>目前不支援名稱伺服器的 IPv6 位址</translation>
+        <translation>Ad sunucuları için IPv6 adresleri şu anda desteklenmemektedir</translation>
     </message>
     <message>
         <source>Invalid domain name</source>
-        <translation>網域名稱無效</translation>
+        <translation>Geçersiz alan adı</translation>
     </message>
     <message>
         <source>Not yet supported on Android</source>
-        <translation>尚未支援 Android</translation>
+        <translation>Android&apos;de henüz desteklenmiyor</translation>
     </message>
     <message>
         <source>Resolver functions not found</source>
-        <translation>找不到解析器函式</translation>
+        <translation>Çözümleyici işlevleri bulunamadı</translation>
     </message>
     <message>
         <source>Resolver initialization failed</source>
-        <translation>解析器初始化失敗</translation>
+        <translation>Çözümleyici başlatılamadı</translation>
     </message>
     <message>
         <source>Server could not process query</source>
-        <translation>伺服器無法處理查詢</translation>
+        <translation>Sunucu sorguyu işleyemedi</translation>
     </message>
     <message>
         <source>Server failure</source>
-        <translation>伺服器失敗</translation>
+        <translation>Sunucu hatası</translation>
     </message>
     <message>
         <source>Non existent domain</source>
-        <translation>不存在的網域</translation>
+        <translation>Var olmayan alan adı</translation>
     </message>
     <message>
         <source>Server refused to answer</source>
-        <translation>伺服器拒絕回答</translation>
+        <translation>Sunucu yanıt vermeyi reddetti</translation>
     </message>
     <message>
         <source>Invalid reply received</source>
-        <translation>接收到無效回應</translation>
+        <translation>Geçersiz yanıt alındı</translation>
     </message>
     <message>
         <source>Could not expand domain name</source>
-        <translation>無法展開網域名稱</translation>
+        <translation>Alan adı genişletilemedi</translation>
     </message>
     <message>
         <source>Invalid IPv4 address record</source>
-        <translation>無效的 IPv4 位址記錄</translation>
+        <translation>Geçersiz IPv4 adres kaydı</translation>
     </message>
     <message>
         <source>Invalid IPv6 address record</source>
-        <translation>無效的 IPv6 位址記錄</translation>
+        <translation>Geçersiz IPv6 adres kaydı</translation>
     </message>
     <message>
         <source>Invalid canonical name record</source>
-        <translation>無效的 CNAME 記錄</translation>
+        <translation>Geçersiz standart ad kaydı</translation>
     </message>
     <message>
         <source>Invalid name server record</source>
-        <translation>無效的 NS 記錄</translation>
+        <translation>Geçersiz ad sunucusu kaydı</translation>
     </message>
     <message>
         <source>Invalid pointer record</source>
-        <translation>無效的指向 (Pointer) 記錄</translation>
+        <translation>Geçersiz işaretçi kaydı</translation>
     </message>
     <message>
         <source>Invalid mail exchange record</source>
-        <translation>無效的 MX 記錄</translation>
+        <translation>Geçersiz posta değişim kaydı</translation>
     </message>
     <message>
         <source>Invalid service record</source>
-        <translation>無效的 SRV 記錄</translation>
+        <translation>Geçersiz hizmet kaydı</translation>
     </message>
     <message>
         <source>Invalid text record</source>
-        <translation>無效的 TXT 記錄</translation>
+        <translation>Geçersiz metin kaydı</translation>
     </message>
     <message>
         <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
-        <translation>無法載入解析器函式庫：沒有載入執行函式庫的支援</translation>
+        <translation>Çözümleyici kitaplık yüklenemiyor: Çalışma zamanı kitaplığı yükleme desteği yok</translation>
     </message>
     <message>
         <source>No hostname given</source>
-        <translation>未提供主機</translation>
+        <translation>Ana bilgisayar adı belirtilmedi</translation>
     </message>
     <message>
         <source>Invalid hostname</source>
-        <translation>主機無效</translation>
+        <translation>Geçersiz ana bilgisayar adı</translation>
     </message>
     <message>
         <source>Host %1 could not be found.</source>
-        <translation>找不到 %1 網域。</translation>
+        <translation>%1 ana bilgisayarı bulunamadı.</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>未知錯誤</translation>
+        <translation>Bilinmeyen hata</translation>
     </message>
 </context>
 <context>
@@ -788,541 +784,584 @@ Press ESC to cancel</source>
     <message>
         <source>Float</source>
         <extracomment>Accessible name for button undocking a dock widget (floating state)</extracomment>
-        <translation>浮動</translation>
+        <translation>Yüzen düğme</translation>
     </message>
     <message>
         <source>Undocks and re-attaches the dock widget</source>
-        <translation>取消 Dock 並重新加上 Dock 小工具</translation>
+        <translation>Rıhtım widget&apos;ını açar ve yeniden ekler</translation>
     </message>
     <message>
         <source>Close</source>
         <extracomment>Accessible name for button closing a dock widget</extracomment>
-        <translation>關閉</translation>
+        <translation>Kapat</translation>
     </message>
     <message>
         <source>Closes the dock widget</source>
-        <translation>關閉 Dock 小工具</translation>
+        <translation>Rıhtım widget&apos;ını kapatır</translation>
+    </message>
+</context>
+<context>
+    <name>QDomParser</name>
+    <message>
+        <source>Error occurred while processing XML declaration</source>
+        <translation>XML bildirimi işlenirken hata oluştu</translation>
+    </message>
+    <message>
+        <source>Multiple DTD sections are not allowed</source>
+        <translation>Çoklu DTD bölümüne izin verilmiyor</translation>
+    </message>
+    <message>
+        <source>Error occurred while processing document type declaration</source>
+        <translation>Belge türü bildirimi işlenirken hata oluştu</translation>
+    </message>
+    <message>
+        <source>Error occurred while processing comment</source>
+        <translation>Yorum işlenirken hata oluştu</translation>
+    </message>
+    <message>
+        <source>Error occurred while processing a processing instruction</source>
+        <translation>İşleme talimatı işlenirken hata oluştu</translation>
+    </message>
+    <message>
+        <source>Error occurred while processing a start element</source>
+        <translation>Bir başlangıç öğesi işlenirken hata oluştu</translation>
+    </message>
+    <message>
+        <source>Unexpected end element &apos;%1&apos;</source>
+        <translation>Beklenmeyen &apos;%1&apos; son öğesi</translation>
+    </message>
+    <message>
+        <source>Error occurred while processing an end element</source>
+        <translation>Bir son öğe işlenirken hata oluştu</translation>
+    </message>
+    <message>
+        <source>Error occurred while processing the element content</source>
+        <translation>Öğe içeriği işlenirken hata oluştu</translation>
+    </message>
+    <message>
+        <source>Error occurred while processing comments</source>
+        <translation>Yorumlar işlenirken hata oluştu</translation>
+    </message>
+    <message>
+        <source>Error occurred while processing an entity reference</source>
+        <translation>Bir varlık referansı işlenirken hata oluştu</translation>
+    </message>
+    <message>
+        <source>Unexpected token</source>
+        <translation>Beklenmeyen belirteç</translation>
+    </message>
+    <message>
+        <source>Tag mismatch</source>
+        <translation>Etiket uyuşmazlığı</translation>
+    </message>
+    <message>
+        <source>Error occurred while processing entity declaration</source>
+        <translation>Varlık beyanı işlenirken hata oluştu</translation>
+    </message>
+    <message>
+        <source>Error occurred while processing notation declaration</source>
+        <translation>Gösterim beyanı işlenirken hata oluştu</translation>
     </message>
 </context>
 <context>
     <name>QDtls</name>
     <message>
         <source>Invalid (empty) secret</source>
-        <translation>無效（空白）密碼</translation>
+        <translation>Geçersiz (boş) gizli</translation>
     </message>
     <message>
         <source>Multicast and broadcast addresses are not supported</source>
-        <translation>不支援群播和廣播位址</translation>
+        <translation>Çok noktaya yayın ve yayın adresleri desteklenmez</translation>
     </message>
     <message>
         <source>Cannot set peer after handshake started</source>
-        <translation>無法在交握開始後設定端點</translation>
+        <translation>El sıkışma başladıktan sonra eş ayarlanamaz</translation>
     </message>
     <message>
         <source>Invalid address</source>
-        <translation>位址無效</translation>
+        <translation>Geçersiz adres</translation>
     </message>
     <message>
         <source>Cannot set verification name after handshake started</source>
-        <translation>無法在開始交握之後設定認證名稱</translation>
+        <translation>El sıkışma başladıktan sonra doğrulama adı ayarlanamaz</translation>
     </message>
     <message>
         <source>Cannot set configuration after handshake started</source>
-        <translation>無法在開始握手後設定組態</translation>
+        <translation>El sıkışma başladıktan sonra yapılandırma ayarlanamaz</translation>
     </message>
     <message>
         <source>Cannot start/continue handshake, invalid handshake state</source>
-        <translation>無法開始或繼續交握，原因：無效的交握狀態</translation>
+        <translation>El sıkışma başlatılamıyor/devam ettirilemiyor, geçersiz el sıkışma durumu</translation>
     </message>
     <message>
         <source>Invalid (nullptr) socket</source>
-        <translation>無效 (nullptr) socket</translation>
+        <translation>Geçersiz (nullptr) soket</translation>
     </message>
     <message>
         <source>To start a handshake you must set peer&apos;s address and port first</source>
-        <translation>開始交握前必須先設定端點位址與連線埠</translation>
+        <translation>Bir el sıkışma başlatmak için önce eşin adresini ve bağlantı noktasını ayarlamanız gerekir</translation>
     </message>
     <message>
         <source>To start a handshake, DTLS server requires non-empty datagram (client hello)</source>
-        <translation>要開始交握前 DTLS 伺服器需要非空白資料塊 (client hello)</translation>
+        <translation>Bir el sıkışma başlatmak için DTLS sunucusu boş olmayan datagram gerektirir (istemci merhaba)</translation>
     </message>
     <message>
         <source>Cannot start handshake, already done/in progress</source>
-        <translation>無法開始交握，原因：已經完成或正在進行交握程序</translation>
+        <translation>El sıkışma başlatılamıyor, zaten yapıldı/devam ediyor</translation>
     </message>
     <message>
         <source>A valid QUdpSocket and non-empty datagram are needed to continue the handshake</source>
-        <translation>需要有效的 QUdpSocket 和非空白資料塊才能開始交握</translation>
+        <translation>El sıkışmaya devam etmek için geçerli bir QUdpSocket ve boş olmayan datagram gereklidir</translation>
     </message>
     <message>
         <source>Cannot continue handshake, not in InProgress state</source>
-        <translation>無法繼續交握，原因：非 InProgress 狀態</translation>
+        <translation>El sıkışmalara devam edilemiyor, Devam Ediyor durumunda değil</translation>
     </message>
     <message>
         <source>Cannot resume, not in VerificationError state</source>
-        <translation>無法重新開始，原因：非 VerificationError 狀態</translation>
+        <translation>Devam edilemiyor, Doğrulama Hatası durumunda değil</translation>
     </message>
     <message>
         <source>No handshake in progress, nothing to abort</source>
-        <translation>沒有正在進行中的交握，因此不用終止</translation>
+        <translation>Devam eden el sıkışma yok, iptal edilecek bir şey yok</translation>
     </message>
     <message>
         <source>Cannot send shutdown alert, not encrypted</source>
-        <translation>無法傳送關閉警報，原因：未加密</translation>
+        <translation>Kapatma uyarısı gönderilemiyor, şifreli değil</translation>
     </message>
     <message>
         <source>Cannot write a datagram, not in encrypted state</source>
-        <translation>無法寫入資料塊，原因：非已加密狀態</translation>
+        <translation>Datagram yazılamıyor, şifreli durumda değil</translation>
     </message>
     <message>
         <source>Cannot read a datagram, not in encrypted state</source>
-        <translation>無法讀取資料塊，原因：非已加密狀態</translation>
+        <translation>Datagram okunamıyor, şifrelenmiş durumda değil</translation>
     </message>
     <message>
         <source>%1 failed</source>
         <extracomment>%1: Some function</extracomment>
-        <translation>%1 失敗</translation>
+        <translation>%1 başarısız oldu</translation>
     </message>
     <message>
         <source>Invalid SslMode, SslServerMode or SslClientMode expected</source>
-        <translation>無效的 SslMode，應該為 SslServerMode 或 SslClientMode</translation>
+        <translation>Geçersiz SslMode, SslServerMode veya SslClientMode bekleniyor</translation>
     </message>
     <message>
         <source>Invalid protocol version, DTLS protocol expected</source>
-        <translation>無效的協定版本，期望 DTLS 協定</translation>
+        <translation>Geçersiz protokol sürümü, DTLS protokolü bekleniyor</translation>
     </message>
     <message>
         <source>BIO_ADD_new failed, cannot start handshake</source>
-        <translation>BIO_ADD_new 失敗，無法開始交握</translation>
+        <translation>BIO_ADD_new başarısız oldu, el sıkışma başlatılamıyor</translation>
     </message>
     <message>
         <source>Cannot start the handshake, verified client hello expected</source>
-        <translation>無法開始交握，原因：沒有期望的已驗證 client hello</translation>
+        <translation>El sıkışma başlatılamıyor, doğrulanmış istemci merhaba bekleniyor</translation>
     </message>
     <message>
         <source>Peer verification failed</source>
-        <translation>端對端驗證失敗</translation>
+        <translation>Eş doğrulaması başarısız oldu</translation>
     </message>
     <message>
         <source>The DTLS connection has been closed</source>
-        <translation>DTLS 連線已被關閉</translation>
+        <translation>DTLS bağlantısı kapatıldı</translation>
     </message>
     <message>
         <source>Error while writing: %1</source>
-        <translation>寫入時發生錯誤：%1</translation>
+        <translation>Yazarken hata: %1</translation>
     </message>
     <message>
         <source>The DTLS connection has been shutdown</source>
-        <translation>DTLS 連線已被關閉</translation>
+        <translation>DTLS bağlantısı kapatıldı</translation>
     </message>
     <message>
         <source>Error while reading: %1</source>
-        <translation>讀取時發生錯誤：%1</translation>
-    </message>
-    <message>
-        <source>Cannot set remote after handshake started</source>
-        <translation type="vanished">無法在開始交握後設定遠端位置</translation>
-    </message>
-    <message>
-        <source>Unsupported protocol</source>
-        <translation type="vanished">不支援的通訊協定</translation>
-    </message>
-    <message>
-        <source>To start a handshake you must set remote address and port first</source>
-        <translation type="vanished">要開始交握前必須先設定遠端位址和通訊埠</translation>
-    </message>
-    <message>
-        <source>Not in VerificationError state, nothing to abort</source>
-        <translation type="vanished">非 VerificationError 狀態，沒有需要終止的項目</translation>
+        <translation>Okurken hata: %1</translation>
     </message>
 </context>
 <context>
     <name>QDtlsClientVerifier</name>
     <message>
         <source>A valid UDP socket, non-empty datagram, valid address/port were expected</source>
-        <translation>期望有效的 UDP socket、非空白的資料塊和有效的位址與連線埠</translation>
+        <translation>Geçerli bir UDP soketi, boş olmayan datagram, geçerli adres/bağlantı noktası bekleniyordu</translation>
     </message>
     <message>
         <source>BIO_ADDR_new failed, ignoring client hello</source>
-        <translation>BIO_ADDR_new 失敗，忽略 client hello</translation>
+        <translation>BIO_ADDR_new başarısız oldu, istemci merhaba yok sayılıyor</translation>
     </message>
 </context>
 <context>
     <name>QErrorMessage</name>
     <message>
         <source>Debug Message:</source>
-        <translation>除錯訊息：</translation>
+        <translation>Hata Ayıklama İletisi:</translation>
     </message>
     <message>
         <source>Warning:</source>
-        <translation>警告：</translation>
+        <translation>Uyarı:</translation>
     </message>
     <message>
         <source>Critical Error:</source>
-        <translation>嚴重錯誤：</translation>
+        <translation>Ciddi Hata:</translation>
     </message>
     <message>
         <source>Fatal Error:</source>
-        <translation>嚴重錯誤：</translation>
+        <translation>Ölümcül Hata:</translation>
     </message>
     <message>
         <source>Information:</source>
-        <translation>資訊：</translation>
+        <translation>Bilgi:</translation>
     </message>
     <message>
         <source>&amp;Show this message again</source>
-        <translation>再次顯示此訊息(&amp;S)</translation>
+        <translation>Bu iletiyi yeniden gö&amp;ster</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>確定(&amp;O)</translation>
+        <translation>&amp;Tamam</translation>
     </message>
 </context>
 <context>
     <name>QFile</name>
     <message>
         <source>Destination file is the same file.</source>
-        <translation>目標檔案為相同檔案。</translation>
+        <translation>Hedef dosya aynı dosya.</translation>
     </message>
     <message>
         <source>Source file does not exist.</source>
-        <translation>來源檔案不存在。</translation>
+        <translation>Kaynak dosya yok.</translation>
     </message>
     <message>
         <source>Destination file exists</source>
-        <translation>目標檔案存在</translation>
+        <translation>Hedef dosya var</translation>
     </message>
     <message>
         <source>Error while renaming: %1</source>
-        <translation>重新命名時發生錯誤：%1</translation>
+        <translation>Yeniden adlandırma sırasında hata: %1</translation>
     </message>
     <message>
         <source>Unable to restore from %1: %2</source>
-        <translation>無法從 %1 還原：%2</translation>
+        <translation>%1 konumundan geri yüklenemedi: %2</translation>
     </message>
     <message>
         <source>Will not rename sequential file using block copy</source>
-        <translation>將不會使用區塊複製重新命名順序檔案</translation>
+        <translation>Kopya engelleme kullanarak sıralı dosyayı yeniden adlandırmaz</translation>
     </message>
     <message>
         <source>Cannot remove source file</source>
-        <translation>無法移除來源檔案</translation>
+        <translation>Kaynak dosya kaldırılamıyor</translation>
     </message>
     <message>
         <source>Cannot open destination file: %1</source>
-        <translation>無法開啟目標檔案：%1</translation>
+        <translation>Hedef dosya açılamıyor: %1</translation>
     </message>
     <message>
         <source>Cannot open %1 for input</source>
-        <translation>無法開啟 %1 供輸入</translation>
-    </message>
-    <message>
-        <source>Cannot open for output</source>
-        <translation type="vanished">無法開啟以供輸出</translation>
-    </message>
-    <message>
-        <source>Failure to write block</source>
-        <translation>寫入區塊時失敗</translation>
-    </message>
-    <message>
-        <source>Cannot create %1 for output</source>
-        <translation>無法建立 %1 供輸出</translation>
+        <translation>Giriş için %1 açılamıyor</translation>
     </message>
     <message>
         <source>Cannot open for output: %1</source>
-        <translation>無法開啟供輸出檔案：%1</translation>
+        <translation>Çıktı için açılamıyor: %1</translation>
+    </message>
+    <message>
+        <source>Failure to write block</source>
+        <translation>Yazma engelleme başarısız</translation>
+    </message>
+    <message>
+        <source>Cannot create %1 for output</source>
+        <translation>Çıktı için %1 oluşturulamıyor</translation>
     </message>
 </context>
 <context>
     <name>QFileDevice</name>
     <message>
         <source>No file engine available or engine does not support UnMapExtension</source>
-        <translation>沒有能用的檔案引擎或引擎不支援 UnMapExtension</translation>
+        <translation>Hiçbir dosya motoru yok veya motor UnMapExtension&apos;ı desteklemiyor</translation>
     </message>
     <message>
         <source>No file engine available</source>
-        <translation>沒有能用的檔案引擎</translation>
+        <translation>Kullanılabilir dosya motoru yok</translation>
     </message>
 </context>
 <context>
     <name>QFileDialog</name>
     <message>
         <source>All Files (*)</source>
-        <translation>所有檔案 (*)</translation>
+        <translation>Tüm Dosyalar (*)</translation>
     </message>
     <message>
         <source>Look in:</source>
-        <translation>尋找於：</translation>
+        <translation>Arama konumu:</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>返回</translation>
+        <translation>Geri</translation>
     </message>
     <message>
         <source>Go back</source>
-        <translation>返回</translation>
+        <translation>Geri git</translation>
     </message>
     <message>
         <source>Alt+Left</source>
-        <translation>Alt+Left</translation>
+        <translation>Alt+Sol</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>往前</translation>
+        <translation>İleri</translation>
     </message>
     <message>
         <source>Go forward</source>
-        <translation>往前</translation>
+        <translation>İleri git</translation>
     </message>
     <message>
         <source>Alt+Right</source>
-        <translation>Alt+Right</translation>
+        <translation>Alt+Sağ</translation>
     </message>
     <message>
         <source>Parent Directory</source>
-        <translation>父目錄</translation>
+        <translation>Üst Dizin</translation>
     </message>
     <message>
         <source>Go to the parent directory</source>
-        <translation>前往父目錄</translation>
+        <translation>Üst dizine git</translation>
     </message>
     <message>
         <source>Alt+Up</source>
-        <translation>Alt+Up</translation>
+        <translation>Alt+Yukarı</translation>
     </message>
     <message>
         <source>Create New Folder</source>
-        <translation>建立新資料夾</translation>
+        <translation>Yeni Klasör Oluştur</translation>
     </message>
     <message>
         <source>Create a New Folder</source>
-        <translation>建立新資料夾</translation>
+        <translation>Yeni bir Klasör Oluştur</translation>
     </message>
     <message>
         <source>List View</source>
-        <translation>列表檢視</translation>
+        <translation>Liste Görünümü</translation>
     </message>
     <message>
         <source>Change to list view mode</source>
-        <translation>切換到列表檢視模式</translation>
+        <translation>Liste görünümü moduna geç</translation>
     </message>
     <message>
         <source>Detail View</source>
-        <translation>詳細檢視</translation>
+        <translation>Ayrıntılı Görünüm</translation>
     </message>
     <message>
         <source>Change to detail view mode</source>
-        <translation>切換到詳細檢視模式</translation>
+        <translation>Ayrıntılı görüntüleme moduna geç</translation>
     </message>
     <message>
         <source>Sidebar</source>
-        <translation>側邊欄</translation>
+        <translation>Kenar çubuğu</translation>
     </message>
     <message>
         <source>List of places and bookmarks</source>
-        <translation>位置與書籤列表</translation>
+        <translation>Yerlerin ve yer imlerinin listesi</translation>
     </message>
     <message>
         <source>Files</source>
-        <translation>檔案</translation>
+        <translation>Dosyalar</translation>
     </message>
     <message>
         <source>Files of type:</source>
-        <translation>檔案型態：</translation>
+        <translation>Dosyaların türü:</translation>
     </message>
     <message>
         <source>Find Directory</source>
-        <translation>尋找資料夾</translation>
+        <translation>Dizin Bul</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>開啟</translation>
+        <translation>Aç</translation>
     </message>
     <message>
         <source>Save As</source>
-        <translation>另存新檔</translation>
+        <translation>Farklı Kaydet</translation>
     </message>
     <message>
         <source>Directory:</source>
-        <translation>目錄：</translation>
+        <translation>Dizin:</translation>
     </message>
     <message>
         <source>File &amp;name:</source>
-        <translation>檔名(&amp;N)：</translation>
+        <translation>Dosya a&amp;dı:</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>開啟(&amp;O)</translation>
+        <translation>&amp;Aç</translation>
     </message>
     <message>
         <source>&amp;Choose</source>
-        <translation>選擇(&amp;C)</translation>
+        <translation>&amp;Seç</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>儲存(&amp;S)</translation>
+        <translation>&amp;Kaydet</translation>
     </message>
     <message>
         <source>Show </source>
-        <translation>顯示 </translation>
+        <translation>Göster </translation>
     </message>
     <message>
         <source>&amp;Rename</source>
-        <translation>重新命名(&amp;R)</translation>
+        <translation>Yeniden Adlandı&amp;r</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>刪除(&amp;D)</translation>
+        <translation>&amp;Sil</translation>
     </message>
     <message>
         <source>Show &amp;hidden files</source>
-        <translation>顯示隱藏檔案(&amp;H)</translation>
+        <translation>&amp;Gizli dosyaları göster</translation>
     </message>
     <message>
         <source>&amp;New Folder</source>
-        <translation>新增資料夾(&amp;N)</translation>
+        <translation>Ye&amp;ni Klasör</translation>
     </message>
     <message>
         <source>All files (*)</source>
-        <translation>所有檔案(*)</translation>
+        <translation>Tüm Dosyalar (*)</translation>
     </message>
     <message>
         <source>Directories</source>
-        <translation>資料夾</translation>
+        <translation>Dizinler</translation>
     </message>
     <message>
         <source>%1
 Directory not found.
 Please verify the correct directory name was given.</source>
         <translation>%1
-找不到目錄。
-請檢查提供的目錄名稱是否正確。</translation>
+Dizin bulunamadı.
+Lütfen doğru dizin adının verildiğini doğrulayın.</translation>
     </message>
     <message>
         <source>%1 already exists.
 Do you want to replace it?</source>
-        <translation>%1 已存在。
-是否取代？</translation>
+        <translation>%1 zaten var.
+Değiştirmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>%1
 File not found.
 Please verify the correct file name was given.</source>
         <translation>%1
-找不到檔案。
-請檢查提供的檔名是否正確。</translation>
+Dosya bulunamadı.
+Lütfen doğru dosya adının verildiğini doğrulayın.</translation>
     </message>
     <message>
         <source>New Folder</source>
-        <translation>新資料夾</translation>
+        <translation>Yeni Klasör</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>刪除</translation>
+        <translation>Sil</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is write protected.
 Do you want to delete it anyway?</source>
-        <translation>「%1」有寫入保護。
-仍然刪除？</translation>
+        <translation>&apos;%1&apos; yazma korumalı.
+Yine de silmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>Are you sure you want to delete &apos;%1&apos;?</source>
-        <translation>確定刪除「%1」？</translation>
+        <translation>&apos;%1&apos; silinecek, emin misiniz?</translation>
     </message>
     <message>
         <source>Could not delete directory.</source>
-        <translation>無法刪除資料夾。</translation>
+        <translation>Dizin silinemedi.</translation>
     </message>
     <message>
         <source>Recent Places</source>
-        <translation>最近開啟位置</translation>
+        <translation>Son Yerler</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>移除</translation>
+        <translation>Kaldır</translation>
     </message>
     <message>
         <source>My Computer</source>
-        <translation>我的電腦</translation>
+        <translation>Bilgisayarım</translation>
     </message>
     <message>
         <source>Drive</source>
-        <translation>硬碟</translation>
+        <translation>Sürücü</translation>
     </message>
     <message>
         <source>%1 File</source>
         <extracomment>%1 is a file name suffix, for example txt</extracomment>
-        <translation>%1 檔案</translation>
+        <translation>%1 Dosyası</translation>
     </message>
     <message>
         <source>File</source>
-        <translation>檔案</translation>
+        <translation>Dosya</translation>
     </message>
     <message>
         <source>File Folder</source>
         <comment>Match Windows Explorer</comment>
-        <translation>檔案資料夾</translation>
+        <translation>Dosya Klasörü</translation>
     </message>
     <message>
         <source>Folder</source>
         <comment>All other platforms</comment>
-        <translation>資料夾</translation>
+        <translation>Klasör</translation>
     </message>
     <message>
         <source>Alias</source>
         <comment>OS X Finder</comment>
-        <translation>別名</translation>
+        <translation>Takma Ad</translation>
     </message>
     <message>
         <source>Shortcut</source>
         <comment>All other platforms</comment>
-        <translation>捷徑</translation>
+        <translation>Kısayol</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>未知</translation>
+        <translation>Bilinmeyen</translation>
     </message>
 </context>
 <context>
     <name>QFileSystemModel</name>
     <message>
         <source>&lt;b&gt;The name &quot;%1&quot; cannot be used.&lt;/b&gt;&lt;p&gt;Try using another name, with fewer characters or no punctuation marks.</source>
-        <translation>&lt;b&gt;不能使用名稱「%1」。&lt;/b&gt;&lt;p&gt;嘗試使用字數較少或沒有標點符號的另一名稱。</translation>
+        <translation>&lt;b&gt;&quot;%1&quot; adı kullanılamıyor.&lt;/b&gt;&lt;p&gt;Daha az karakter içeren veya noktalama işareti içermeyen başka bir ad kullanmayı deneyin.</translation>
     </message>
     <message>
         <source>Invalid filename</source>
-        <translation>檔名無效</translation>
+        <translation>Geçersiz dosya adı</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>名稱</translation>
+        <translation>Ad</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>大小</translation>
+        <translation>Boyut</translation>
     </message>
     <message>
         <source>Kind</source>
         <comment>Match OS X Finder</comment>
-        <translation>種類</translation>
+        <translation>Çeşit</translation>
     </message>
     <message>
         <source>Type</source>
         <comment>All other platforms</comment>
-        <translation>型態</translation>
+        <translation>Tür</translation>
     </message>
     <message>
         <source>Date Modified</source>
-        <translation>修改日期</translation>
+        <translation>Değiştirilme Tarihi</translation>
     </message>
     <message>
         <source>My Computer</source>
-        <translation>我的電腦</translation>
+        <translation>Bilgisayarım</translation>
     </message>
     <message>
         <source>Computer</source>
-        <translation>電腦</translation>
+        <translation>Bilgisayar</translation>
     </message>
 </context>
 <context>
@@ -1330,345 +1369,345 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Normal</source>
         <comment>The Normal or Regular font weight</comment>
-        <translation>正常</translation>
+        <translation>Normal</translation>
     </message>
     <message>
         <source>Bold</source>
-        <translation>粗體</translation>
+        <translation>Kalın</translation>
     </message>
     <message>
         <source>Demi Bold</source>
-        <translation>半粗體</translation>
+        <translation>Yarı Kalın</translation>
     </message>
     <message>
         <source>Medium</source>
         <comment>The Medium font weight</comment>
-        <translation>中等粗體</translation>
+        <translation>Orta</translation>
     </message>
     <message>
         <source>Black</source>
-        <translation>黑體</translation>
+        <translation>Siyah</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>細體</translation>
+        <translation>Açık</translation>
     </message>
     <message>
         <source>Thin</source>
-        <translation>極細體</translation>
+        <translation>İnce</translation>
     </message>
     <message>
         <source>Extra Light</source>
-        <translation>極細體</translation>
+        <translation>Fazla Açık</translation>
     </message>
     <message>
         <source>Extra Bold</source>
-        <translation>極粗體</translation>
+        <translation>Fazla Kalın</translation>
     </message>
     <message>
         <source>Extra</source>
         <extracomment>The word for &quot;Extra&quot; as in &quot;Extra Bold, Extra Thin&quot; used as a pattern for string searches</extracomment>
-        <translation>極體 (Extra)</translation>
+        <translation>Fazla</translation>
     </message>
     <message>
         <source>Demi</source>
         <extracomment>The word for &quot;Demi&quot; as in &quot;Demi Bold&quot; used as a pattern for string searches</extracomment>
-        <translation>半體</translation>
+        <translation>Yarı</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation>斜體</translation>
+        <translation>Eğik</translation>
     </message>
     <message>
         <source>Oblique</source>
-        <translation>傾斜體</translation>
+        <translation>Eğik</translation>
     </message>
     <message>
         <source>Any</source>
-        <translation>不指定</translation>
+        <translation>Herhangi</translation>
     </message>
     <message>
         <source>Latin</source>
-        <translation>拉丁</translation>
+        <translation>Latince</translation>
     </message>
     <message>
         <source>Greek</source>
-        <translation>希臘</translation>
+        <translation>Yunanca</translation>
     </message>
     <message>
         <source>Cyrillic</source>
-        <translation>斯拉夫</translation>
+        <translation>Kiril</translation>
     </message>
     <message>
         <source>Armenian</source>
-        <translation>亞美尼亞</translation>
+        <translation>Ermenice</translation>
     </message>
     <message>
         <source>Hebrew</source>
-        <translation>希伯來</translation>
+        <translation>İbranice</translation>
     </message>
     <message>
         <source>Arabic</source>
-        <translation>阿拉伯</translation>
+        <translation>Arapça</translation>
     </message>
     <message>
         <source>Syriac</source>
-        <translation>敘利亞</translation>
+        <translation>Süryanice</translation>
     </message>
     <message>
         <source>Thaana</source>
-        <translation>塔納文</translation>
+        <translation>Thaana</translation>
     </message>
     <message>
         <source>Devanagari</source>
-        <translation>梵文</translation>
+        <translation>Devanagari</translation>
     </message>
     <message>
         <source>Bengali</source>
-        <translation>孟加拉</translation>
+        <translation>Bengali</translation>
     </message>
     <message>
         <source>Gurmukhi</source>
-        <translation>古爾穆基字</translation>
+        <translation>Gurmuki</translation>
     </message>
     <message>
         <source>Gujarati</source>
-        <translation>古吉拉特語</translation>
+        <translation>Gujarati</translation>
     </message>
     <message>
         <source>Oriya</source>
-        <translation>奧里亞語</translation>
+        <translation>Oriya</translation>
     </message>
     <message>
         <source>Tamil</source>
-        <translation>坦米爾</translation>
+        <translation>Tamilce</translation>
     </message>
     <message>
         <source>Telugu</source>
-        <translation>泰盧固語</translation>
+        <translation>Telugu</translation>
     </message>
     <message>
         <source>Kannada</source>
-        <translation>坎達那</translation>
+        <translation>Kannada</translation>
     </message>
     <message>
         <source>Malayalam</source>
-        <translation>馬來語</translation>
+        <translation>Malayalam</translation>
     </message>
     <message>
         <source>Sinhala</source>
-        <translation>錫蘭</translation>
+        <translation>Sinhala</translation>
     </message>
     <message>
         <source>Thai</source>
-        <translation>泰語</translation>
+        <translation>Taylandca</translation>
     </message>
     <message>
         <source>Lao</source>
-        <translation>寮國</translation>
+        <translation>Lao</translation>
     </message>
     <message>
         <source>Tibetan</source>
-        <translation>西藏</translation>
+        <translation>Tibetçe</translation>
     </message>
     <message>
         <source>Myanmar</source>
-        <translation>緬甸</translation>
+        <translation>Myanmar</translation>
     </message>
     <message>
         <source>Georgian</source>
-        <translation>喬治亞</translation>
+        <translation>Gürcü</translation>
     </message>
     <message>
         <source>Khmer</source>
-        <translation>高棉</translation>
+        <translation>Khmer</translation>
     </message>
     <message>
         <source>Simplified Chinese</source>
-        <translation>簡體中文</translation>
+        <translation>Basitleştirilmiş Çince</translation>
     </message>
     <message>
         <source>Traditional Chinese</source>
-        <translation>繁體中文</translation>
+        <translation>Geleneksel Çince</translation>
     </message>
     <message>
         <source>Japanese</source>
-        <translation>日語</translation>
+        <translation>Japonca</translation>
     </message>
     <message>
         <source>Korean</source>
-        <translation>韓語</translation>
+        <translation>Korece</translation>
     </message>
     <message>
         <source>Vietnamese</source>
-        <translation>越南</translation>
+        <translation>Vietnamca</translation>
     </message>
     <message>
         <source>Symbol</source>
-        <translation>符號</translation>
+        <translation>Sembol</translation>
     </message>
     <message>
         <source>Ogham</source>
-        <translation>歐甘文</translation>
+        <translation>Ogham</translation>
     </message>
     <message>
         <source>Runic</source>
-        <translation>盧恩文</translation>
+        <translation>Rünik</translation>
     </message>
     <message>
         <source>N&apos;Ko</source>
-        <translation>西非書面語</translation>
+        <translation>N&apos;Ko</translation>
     </message>
 </context>
 <context>
     <name>QFontDialog</name>
     <message>
         <source>Select Font</source>
-        <translation>選擇字型</translation>
+        <translation>Yazı Tipi Seç</translation>
     </message>
     <message>
         <source>&amp;Font</source>
-        <translation>字型(&amp;F)</translation>
+        <translation>&amp;Yazı Tipi</translation>
     </message>
     <message>
         <source>Font st&amp;yle</source>
-        <translation>字型樣式(&amp;Y)</translation>
+        <translation>Yazı tipi tar&amp;zı</translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>大小(&amp;S)</translation>
+        <translation>&amp;Boyut</translation>
     </message>
     <message>
         <source>Effects</source>
-        <translation>效果</translation>
+        <translation>Efektler</translation>
     </message>
     <message>
         <source>Stri&amp;keout</source>
-        <translation>刪除線(&amp;K)</translation>
+        <translation>Stri&amp;keout</translation>
     </message>
     <message>
         <source>&amp;Underline</source>
-        <translation>底線(&amp;U)</translation>
+        <translation>&amp;Alt çizgi</translation>
     </message>
     <message>
         <source>Sample</source>
-        <translation>範例</translation>
+        <translation>Örnek</translation>
     </message>
     <message>
         <source>Wr&amp;iting System</source>
-        <translation>文字系統(&amp;I)</translation>
+        <translation>Yazı S&amp;istemi</translation>
     </message>
 </context>
 <context>
     <name>QFtp</name>
     <message>
         <source>Not connected</source>
-        <translation>未連線</translation>
+        <translation>Bağlı değil</translation>
     </message>
     <message>
         <source>Host %1 not found</source>
-        <translation>找不到主機 %1</translation>
+        <translation>%1 ana bilgisayarı bulunamadı</translation>
     </message>
     <message>
         <source>Connection refused to host %1</source>
-        <translation>連線到主機 %1 被拒</translation>
+        <translation>%1 ana bilgisayarına bağlantı reddedildi</translation>
     </message>
     <message>
         <source>Connection timed out to host %1</source>
-        <translation>連線到主機 %1 逾時</translation>
+        <translation>%1 ana bilgisayarına bağlantı zaman aşımına uğradı</translation>
     </message>
     <message>
         <source>Connected to host %1</source>
-        <translation>已連線到主機 %1</translation>
+        <translation>%1 ana bilgisayarına bağlandı</translation>
     </message>
     <message>
         <source>Data Connection refused</source>
-        <translation>資料連線被拒</translation>
+        <translation>Veri Bağlantısı reddedildi</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>未知錯誤</translation>
+        <translation>Bilinmeyen hata</translation>
     </message>
     <message>
         <source>Connecting to host failed:
 %1</source>
-        <translation>連線到主機失敗：
+        <translation>Ana bilgisayara bağlanamadı:
 %1</translation>
     </message>
     <message>
         <source>Login failed:
 %1</source>
-        <translation>登入失敗：
+        <translation>Giriş başarısız oldu:
 %1</translation>
     </message>
     <message>
         <source>Listing directory failed:
 %1</source>
-        <translation>列出目錄失敗：
+        <translation>Dizin listeleme başarısız oldu:
 %1</translation>
     </message>
     <message>
         <source>Changing directory failed:
 %1</source>
-        <translation>變更目錄失敗：
+        <translation>Dizin değiştirilemedi:
 %1</translation>
     </message>
     <message>
         <source>Downloading file failed:
 %1</source>
-        <translation>下載檔案失敗：
+        <translation>Dosya indirilemedi:
 %1</translation>
     </message>
     <message>
         <source>Uploading file failed:
 %1</source>
-        <translation>上傳檔案失敗：
+        <translation>Dosya yüklenemedi:
 %1</translation>
     </message>
     <message>
         <source>Removing file failed:
 %1</source>
-        <translation>移除檔案失敗：
+        <translation>Dosya kaldırılamadı:
 %1</translation>
     </message>
     <message>
         <source>Creating directory failed:
 %1</source>
-        <translation>建立目錄失敗：
+        <translation>Dizin oluşturulamadı:
 %1</translation>
     </message>
     <message>
         <source>Removing directory failed:
 %1</source>
-        <translation>移除目錄失敗：
+        <translation>Dizin kaldırılamadı:
 %1</translation>
     </message>
     <message>
         <source>Connection closed</source>
-        <translation>連線已關閉</translation>
+        <translation>Bağlantı kapandı</translation>
     </message>
 </context>
 <context>
     <name>QGnomeTheme</name>
     <message>
         <source>&amp;OK</source>
-        <translation>確定(&amp;O)</translation>
+        <translation>&amp;Tamam</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>儲存(&amp;S)</translation>
+        <translation>&amp;Kaydet</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>取消(&amp;C)</translation>
+        <translation>&amp;İptal</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>關閉(&amp;C)</translation>
+        <translation>&amp;Kapat</translation>
     </message>
     <message>
         <source>Close without Saving</source>
-        <translation>關閉而不儲存</translation>
+        <translation>Kaydetmeden Kapat</translation>
     </message>
 </context>
 <context>
@@ -1676,763 +1715,751 @@ Do you want to delete it anyway?</source>
     <message>
         <source>QT_LAYOUT_DIRECTION</source>
         <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
-        <translation>QT_LAYOUT_DIRECTION</translation>
+        <translation>QT_YERLEŞİM_YÖNÜ</translation>
     </message>
     <message>
         <source>QPA plugin. See QGuiApplication documentation for available options for each plugin.</source>
-        <translation>QPA 外掛程式。請檢視 QGuiApplication 文件以得知每個外掛程式的可用選項。</translation>
+        <translation>QPA eklentisi. Her eklenti için kullanılabilir seçenekler için QGuiApplication belgelerine bakın.</translation>
     </message>
     <message>
         <source>Path to the platform plugins.</source>
-        <translation>平台外掛程式的路徑。</translation>
+        <translation>Platform eklentilerinin yolu.</translation>
     </message>
     <message>
         <source>Platform theme.</source>
-        <translation>平台主題。</translation>
+        <translation>Platform teması.</translation>
     </message>
     <message>
         <source>Additional plugins to load, can be specified multiple times.</source>
-        <translation>要載入的其他外掛程式，可指定多次。</translation>
+        <translation>Yüklenecek ilave eklentiler, birden çok kez belirtilebilir.</translation>
     </message>
     <message>
         <source>Window geometry for the main window, using the X11-syntax, like 100x100+50+50.</source>
-        <translation>主視窗的大小及位置，使用 X11 語法，例如 100x100+50+50。</translation>
+        <translation>100x100+50+50 gibi X11 sözdizimini kullanarak ana pencere için pencere geometrisi.</translation>
     </message>
     <message>
         <source>Default window icon.</source>
-        <translation>預設視窗圖示。</translation>
+        <translation>Varsayılan pencere simgesi.</translation>
     </message>
     <message>
         <source>Title of the first window.</source>
-        <translation>第一個視窗的標題。</translation>
+        <translation>İlk pencerenin başlığı.</translation>
     </message>
     <message>
         <source>Sets the application&apos;s layout direction to Qt::RightToLeft (debugging helper).</source>
-        <translation>設定 Qt::RightToLeft 的應用程式佈局方向（除錯協助程式）。</translation>
+        <translation>Uygulamanın düzen yönünü Qt::RightToLeft (hata ayıklama yardımcısı) olarak ayarlar.</translation>
     </message>
     <message>
         <source>Restores the application from an earlier session.</source>
-        <translation>還原應用程式至稍早的工作階段。</translation>
+        <translation>Uygulamayı önceki bir oturumdan geri yükler.</translation>
     </message>
     <message>
         <source>Display name, overrides $DISPLAY.</source>
-        <translation>顯示器名稱，覆蓋 $DISPLAY。</translation>
+        <translation>Görünen ad, $DISPLAY değerini geçersiz kılıyor.</translation>
     </message>
     <message>
         <source>Instance name according to ICCCM 4.1.2.5.</source>
-        <translation>根據 ICCCM 4.1.2.5 的實體名稱。</translation>
+        <translation>ICCCM 4.1.2.5&apos;e göre örnek adı.</translation>
     </message>
     <message>
         <source>Disable mouse grabbing (useful in debuggers).</source>
-        <translation>停用滑鼠抓取（可能對除錯器有助益）。</translation>
+        <translation>Fare yakalamayı devre dışı bırak (hata ayıklayıcılarda yararlıdır).</translation>
     </message>
     <message>
         <source>Force mouse grabbing (even when running in a debugger).</source>
-        <translation>強制滑鼠抓取（即使在除錯器執行）。</translation>
+        <translation>Fare yakalamayı zorla (hata ayıklayıcıda çalışırken bile).</translation>
     </message>
     <message>
         <source>ID of the X11 Visual to use.</source>
-        <translation>X11 Visual 要使用的 ID。</translation>
+        <translation>Kullanılacak X11 Visual&apos;ın kimliği.</translation>
     </message>
     <message>
         <source>Alias for --windowgeometry.</source>
-        <translation>--windowgeometry 的別名。</translation>
+        <translation>--windowgeometry için takma ad.</translation>
     </message>
     <message>
         <source>Alias for --windowicon.</source>
-        <translation>--windowicon 的別名。</translation>
+        <translation>--windowicon için takma ad.</translation>
     </message>
     <message>
         <source>Alias for --windowtitle.</source>
-        <translation>--windowtitle 的別名。</translation>
+        <translation>--windowtitle için takma ad.</translation>
     </message>
 </context>
 <context>
     <name>QHostInfo</name>
     <message>
         <source>No host name given</source>
-        <translation>未指定主機</translation>
+        <translation>Ana bilgisayar adı belirtilmedi</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>未知錯誤</translation>
+        <translation>Bilinmeyen hata</translation>
     </message>
 </context>
 <context>
     <name>QHostInfoAgent</name>
     <message>
         <source>No host name given</source>
-        <translation>未指定主機</translation>
+        <translation>Ana bilgisayar adı belirtilmedi</translation>
     </message>
     <message>
         <source>Invalid hostname</source>
-        <translation>主機名稱無效</translation>
+        <translation>Geçersiz ana bilgisayar adı</translation>
     </message>
     <message>
         <source>Unknown address type</source>
-        <translation>未知的位址型態</translation>
+        <translation>Bilinmeyen adres türü</translation>
     </message>
     <message>
         <source>Host not found</source>
-        <translation>找不到主機</translation>
-    </message>
-    <message>
-        <source>Unknown error (%1)</source>
-        <translation type="vanished">未知錯誤 (%1)</translation>
+        <translation>Ana bilgisayar bulunamadı</translation>
     </message>
 </context>
 <context>
     <name>QHttp</name>
     <message>
         <source>Connection closed</source>
-        <translation>連線已關閉</translation>
+        <translation>Bağlantı kapandı</translation>
     </message>
     <message>
         <source>Host %1 not found</source>
-        <translation>找不到主機 %1</translation>
+        <translation>%1 ana bilgisayarı bulunamadı</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>連線被拒</translation>
+        <translation>Bağlantı reddedildi</translation>
     </message>
     <message>
         <source>Proxy requires authentication</source>
-        <translation>代理伺服器需要驗證</translation>
+        <translation>Proxy kimlik doğrulaması gerektirir</translation>
     </message>
     <message>
         <source>Host requires authentication</source>
-        <translation>主機需要驗證</translation>
+        <translation>Ana bilgisayar kimlik doğrulaması gerektiriyor</translation>
     </message>
     <message>
         <source>Data corrupted</source>
-        <translation>資料已損毀</translation>
+        <translation>Veri bozuk</translation>
     </message>
     <message>
         <source>Unknown protocol specified</source>
-        <translation>指定了未知的協定</translation>
+        <translation>Bilinmeyen protokol belirtildi</translation>
     </message>
     <message>
         <source>SSL handshake failed</source>
-        <translation>SSL 交握失敗</translation>
+        <translation>SSL el sıkışması başarısız oldu</translation>
     </message>
     <message>
         <source>Too many redirects</source>
-        <translation>跳轉太多次</translation>
+        <translation>Çok fazla yönlendirme</translation>
     </message>
     <message>
         <source>Insecure redirect</source>
-        <translation>不安全的跳轉</translation>
+        <translation>Güvensiz yönlendirme</translation>
     </message>
 </context>
 <context>
     <name>QHttpSocketEngine</name>
     <message>
         <source>Did not receive HTTP response from proxy</source>
-        <translation>未從代理伺服器接收到 HTTP 回應</translation>
+        <translation>Proxy&apos;den HTTP yanıtı alınamadı</translation>
     </message>
     <message>
         <source>Error parsing authentication request from proxy</source>
-        <translation>解析從代理伺服器傳來的驗證要求時發生錯誤</translation>
+        <translation>Proxy&apos;den kimlik doğrulama isteği ayrıştırılırken hata oluştu</translation>
     </message>
     <message>
         <source>Authentication required</source>
-        <translation>需要驗證</translation>
+        <translation>Kimlik doğrulaması gerekiyor</translation>
     </message>
     <message>
         <source>Proxy denied connection</source>
-        <translation>代理伺服器拒絕連線</translation>
+        <translation>Proxy bağlantısı reddedildi</translation>
     </message>
     <message>
         <source>Error communicating with HTTP proxy</source>
-        <translation>與 HTTP 代理伺服器通訊時發生錯誤</translation>
+        <translation>HTTP proxy ile iletişim hatası</translation>
     </message>
     <message>
         <source>Proxy server not found</source>
-        <translation>找不到代理伺服器</translation>
+        <translation>Proxy sunucusu bulunamadı</translation>
     </message>
     <message>
         <source>Proxy connection refused</source>
-        <translation>代理伺服器連線被拒</translation>
+        <translation>Proxy bağlantısı reddedildi</translation>
     </message>
     <message>
         <source>Proxy server connection timed out</source>
-        <translation>代理伺服器連線逾時</translation>
+        <translation>Proxy sunucu bağlantısı zaman aşımına uğradı</translation>
     </message>
     <message>
         <source>Proxy connection closed prematurely</source>
-        <translation>代理伺服器連線不正常關閉</translation>
+        <translation>Proxy bağlantısı erken kapatıldı</translation>
     </message>
 </context>
 <context>
     <name>QIBaseDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>開啟資料庫發生錯誤</translation>
+        <translation>Veritabanı açılırken hata oluştu</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>無法開始處理事項</translation>
+        <translation>İşlem başlatılamadı</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>無法提交處理事項</translation>
+        <translation>İşleme yapılamıyor</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>無法回退處理事項</translation>
+        <translation>İşlem geri alınamıyor</translation>
     </message>
 </context>
 <context>
     <name>QIBaseResult</name>
     <message>
         <source>Unable to create BLOB</source>
-        <translation>無法建立 BLOB</translation>
+        <translation>BLOB oluşturulamıyor</translation>
     </message>
     <message>
         <source>Unable to write BLOB</source>
-        <translation>無法寫入 BLOB</translation>
+        <translation>BLOB yazılamıyor</translation>
     </message>
     <message>
         <source>Unable to open BLOB</source>
-        <translation>無法開啟 BLOB</translation>
+        <translation>BLOB açılamıyor</translation>
     </message>
     <message>
         <source>Unable to read BLOB</source>
-        <translation>無法讀取 BLOB</translation>
+        <translation>BLOB okunamıyor</translation>
     </message>
     <message>
         <source>Could not find array</source>
-        <translation>找不到陣列</translation>
+        <translation>Dizi bulunamadı</translation>
     </message>
     <message>
         <source>Could not get array data</source>
-        <translation>無法取得陣列資料</translation>
+        <translation>Dizi verileri alınamadı</translation>
     </message>
     <message>
         <source>Could not get query info</source>
-        <translation>無法取得查詢資訊</translation>
+        <translation>Sorgu bilgisi alınamadı</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>無法開始處理事項</translation>
+        <translation>İşlem başlatılamadı</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>無法提交處理事項</translation>
+        <translation>İşleme yapılamıyor</translation>
     </message>
     <message>
         <source>Could not allocate statement</source>
-        <translation>無法分配陳述</translation>
+        <translation>İfade ayrılamadı</translation>
     </message>
     <message>
         <source>Could not prepare statement</source>
-        <translation>無法準備陳述</translation>
+        <translation>İfade hazırlanamadı</translation>
     </message>
     <message>
         <source>Could not describe input statement</source>
-        <translation>無法描述輸入陳述</translation>
+        <translation>Girdi ifadesi tanımlanamadı</translation>
     </message>
     <message>
         <source>Could not describe statement</source>
-        <translation>無法描述陳述</translation>
+        <translation>İfade açıklanamadı</translation>
     </message>
     <message>
         <source>Unable to close statement</source>
-        <translation>無法關閉陳述</translation>
+        <translation>İfade kapatılamıyor</translation>
     </message>
     <message>
         <source>Unable to execute query</source>
-        <translation>無法執行查詢</translation>
+        <translation>Sorgu yürütülemiyor</translation>
     </message>
     <message>
         <source>Could not fetch next item</source>
-        <translation>無法抓取下一個項目</translation>
+        <translation>Sonraki öğe getirilemedi</translation>
     </message>
     <message>
         <source>Could not get statement info</source>
-        <translation>無法取得陳述資訊</translation>
+        <translation>İfade bilgisi alınamadı</translation>
     </message>
 </context>
 <context>
     <name>QIODevice</name>
     <message>
         <source>file to open is a directory</source>
-        <translation>要打開的檔案是個資料夾</translation>
+        <translation>açılacak dosya bir dizin</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>未知錯誤</translation>
+        <translation>Bilinmeyen hata</translation>
     </message>
     <message>
         <source>Permission denied</source>
-        <translation>權限不足</translation>
+        <translation>İzin reddedildi</translation>
     </message>
     <message>
         <source>Too many open files</source>
-        <translation>開啟過多檔案</translation>
+        <translation>Çok fazla açık dosya var</translation>
     </message>
     <message>
         <source>No such file or directory</source>
-        <translation>找不到該檔案或目錄</translation>
+        <translation>Böyle bir dosya ya da dizin yok</translation>
     </message>
     <message>
         <source>No space left on device</source>
-        <translation>裝置上已無空間</translation>
+        <translation>Aygıtta boş yer kalmadı</translation>
     </message>
 </context>
 <context>
     <name>QImageReader</name>
     <message>
         <source>Invalid device</source>
-        <translation>裝置無效</translation>
+        <translation>Geçersiz aygıt</translation>
     </message>
     <message>
         <source>File not found</source>
-        <translation>找不到檔案</translation>
+        <translation>Dosya bulunamadı</translation>
     </message>
     <message>
         <source>Unsupported image format</source>
-        <translation>不支援的影像格式</translation>
+        <translation>Desteklenmeyen görüntü biçimi</translation>
     </message>
     <message>
         <source>Unable to read image data</source>
-        <translation>無法讀取影像資料</translation>
+        <translation>Görüntü verisi okunamıyor</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>未知錯誤</translation>
+        <translation>Bilinmeyen hata</translation>
     </message>
 </context>
 <context>
     <name>QImageWriter</name>
     <message>
         <source>Unknown error</source>
-        <translation>未知錯誤</translation>
+        <translation>Bilinmeyen hata</translation>
     </message>
     <message>
         <source>Device is not set</source>
-        <translation>未設定裝置</translation>
+        <translation>Aygıt ayarlanmadı</translation>
     </message>
     <message>
         <source>Cannot open device for writing: %1</source>
-        <translation>無法開啟供寫入裝置：%1</translation>
+        <translation>Aygıt yazmak için açılamıyor: %1</translation>
     </message>
     <message>
         <source>Device not writable</source>
-        <translation>無法寫入裝置</translation>
+        <translation>Aygıt yazılabilir değil</translation>
     </message>
     <message>
         <source>Unsupported image format</source>
-        <translation>不支援的影像格式</translation>
+        <translation>Desteklenmeyen görüntü biçimi</translation>
     </message>
     <message>
         <source>Image is empty</source>
-        <translation>影像是空白的</translation>
+        <translation>Görüntü boş</translation>
     </message>
 </context>
 <context>
     <name>QInputDialog</name>
     <message>
         <source>Enter a value:</source>
-        <translation>請輸入一個值：</translation>
+        <translation>Bir değer girin:</translation>
     </message>
 </context>
 <context>
     <name>QJsonParseError</name>
     <message>
         <source>no error occurred</source>
-        <translation>沒有發生錯誤</translation>
+        <translation>hata oluşmadı</translation>
     </message>
     <message>
         <source>unterminated object</source>
-        <translation>物件沒有結尾</translation>
+        <translation>sonlandırılmamış nesne</translation>
     </message>
     <message>
         <source>missing name separator</source>
-        <translation>遺失名稱分割字元</translation>
+        <translation>eksik ad ayırıcı</translation>
     </message>
     <message>
         <source>unterminated array</source>
-        <translation>陣列沒有結尾</translation>
+        <translation>sonlandırılmamış dizi</translation>
     </message>
     <message>
         <source>missing value separator</source>
-        <translation>遺失值分隔字元</translation>
+        <translation>eksik değer ayırıcı</translation>
     </message>
     <message>
         <source>illegal value</source>
-        <translation>值無效</translation>
+        <translation>yasadışı değer</translation>
     </message>
     <message>
         <source>invalid termination by number</source>
-        <translation>無效的數字結尾</translation>
+        <translation>numaraya göre geçersiz sonlandırma</translation>
     </message>
     <message>
         <source>illegal number</source>
-        <translation>數字無效</translation>
+        <translation>yasadışı numara</translation>
     </message>
     <message>
         <source>invalid escape sequence</source>
-        <translation>無效的跳脫序列</translation>
+        <translation>geçersiz kaçış dizisi</translation>
     </message>
     <message>
         <source>invalid UTF8 string</source>
-        <translation>無效的 UTF-8 字串</translation>
+        <translation>geçersiz UTF8 dizesi</translation>
     </message>
     <message>
         <source>unterminated string</source>
-        <translation>字串沒有結尾</translation>
+        <translation>sonlandırılmamış dize</translation>
     </message>
     <message>
         <source>object is missing after a comma</source>
-        <translation>逗號後缺少物件</translation>
+        <translation>virgül sonrası nesne eksik</translation>
     </message>
     <message>
         <source>too deeply nested document</source>
-        <translation>過深巢狀文件</translation>
+        <translation>çok derin iç içe belge</translation>
     </message>
     <message>
         <source>too large document</source>
-        <translation>過大文件</translation>
+        <translation>çok büyük belge</translation>
     </message>
     <message>
         <source>garbage at the end of the document</source>
-        <translation>文件結尾有無用資料</translation>
+        <translation>belgenin sonunda çöp</translation>
     </message>
 </context>
 <context>
     <name>QKeySequenceEdit</name>
     <message>
         <source>Press shortcut</source>
-        <translation>點擊快速鍵</translation>
+        <translation>Kısayola basın</translation>
     </message>
     <message>
         <source>%1, ...</source>
         <extracomment>This text is an &quot;unfinished&quot; shortcut, expands like &quot;Ctrl+A, ...&quot;</extracomment>
-        <translation>%1、…</translation>
+        <translation>%1, ...</translation>
     </message>
 </context>
 <context>
     <name>QLibrary</name>
     <message>
         <source>&apos;%1&apos; is not an ELF object (%2)</source>
-        <translation>「%1」不是個 ELF 物件 (%2)</translation>
+        <translation>&apos;%1&apos; bir ELF nesnesi değil (%2)</translation>
     </message>
     <message>
         <source>file too small</source>
-        <translation>檔案過小</translation>
+        <translation>dosya çok küçük</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not an ELF object</source>
-        <translation>「%1」不是個 ELF 物件</translation>
+        <translation>&apos;%1&apos; bir ELF nesnesi değil</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is an invalid ELF object (%2)</source>
-        <translation>「%1」是個無效 ELF 物件 (%2)</translation>
+        <translation>&apos;%1&apos; geçersiz bir ELF nesnesidir (%2)</translation>
     </message>
     <message>
         <source>odd cpu architecture</source>
-        <translation>異常 CPU 架構</translation>
+        <translation>tek işlemci mimarisi</translation>
     </message>
     <message>
         <source>wrong cpu architecture</source>
-        <translation>錯誤 CPU 架構</translation>
+        <translation>yanlış işlemci mimarisi</translation>
     </message>
     <message>
         <source>odd endianness</source>
-        <translation>異常位元組順序</translation>
+        <translation>tek endianness</translation>
     </message>
     <message>
         <source>unexpected e_shsize</source>
-        <translation>非預期的 e_shsize</translation>
+        <translation>beklenmeyen e_shsize</translation>
     </message>
     <message>
         <source>unexpected e_shentsize</source>
-        <translation>非預期的 e_shentsize</translation>
+        <translation>beklenmeyen e_shentsize</translation>
     </message>
     <message numerus="yes">
         <source>announced %n section(s), each %1 byte(s), exceed file size</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n bölüm ilan edildi, her %1 bayt dosya boyutunu aştı</numerusform>
         </translation>
     </message>
     <message>
         <source>shstrtab section header seems to be at %1</source>
-        <translation>shstrtab 區段的標頭看起來在 %1</translation>
+        <translation>shstrtab bölüm üstbilgisi %1 konumunda görünüyor</translation>
     </message>
     <message>
         <source>string table seems to be at %1</source>
-        <translation>字串表格看起來在 %1</translation>
+        <translation>dize tablosu %1 konumunda görünüyor</translation>
     </message>
     <message>
         <source>section name %1 of %2 behind end of file</source>
-        <translation>%2 的區段名稱 %1 在檔案結尾之後</translation>
+        <translation>bölüm adı%1 / %2 dosya sonunda</translation>
     </message>
     <message>
         <source>empty .rodata. not a library.</source>
-        <translation>空的 .rodata. 非函式庫。</translation>
+        <translation>boş .rodata. kütüphane değil.</translation>
     </message>
     <message>
         <source>missing section data. This is not a library.</source>
-        <translation>遺失區段資料。非函式庫。</translation>
+        <translation>bölüm verileri eksik. Bu bir kütüphane değil.</translation>
     </message>
     <message>
         <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
-        <translation>無法從「%1」擷取外掛程式中繼資料</translation>
+        <translation>&apos;%1&apos; öğesinden eklenti meta verileri alınamadı</translation>
     </message>
     <message>
         <source>The shared library was not found.</source>
-        <translation>找不到共享函式庫。</translation>
+        <translation>Paylaşılan kitaplık bulunamadı.</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; is not a valid Qt plugin.</source>
-        <translation>檔案「%1」不是有效的 Qt 外掛程式。</translation>
+        <translation>&apos;%1&apos; dosyası geçerli bir Qt eklentisi değil.</translation>
     </message>
     <message>
         <source>The plugin &apos;%1&apos; uses incompatible Qt library. (%2.%3.%4) [%5]</source>
-        <translation>外掛程式「%1」使用不相容的 Qt 函式庫。(%2.%3.%4) [%5]</translation>
+        <translation>&apos;%1&apos; eklentisi uyumsuz Qt kütüphanesi kullanıyor. (%2.%3.%4) [%5]</translation>
     </message>
     <message>
         <source>The plugin &apos;%1&apos; uses incompatible Qt library. (Cannot mix debug and release libraries.)</source>
-        <translation>外掛程式「%1」使用不相容的 Qt 函式庫。（不能將除錯與釋出版本的函式庫混在一起。）</translation>
+        <translation>&apos;%1&apos; eklentisi uyumsuz Qt kütüphanesi kullanıyor. (Hata ayıklama ve sürüm kütüphaneleri karıştırılamıyor.)</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>未知錯誤</translation>
+        <translation>Bilinmeyen hata</translation>
     </message>
     <message>
         <source>Cannot load library %1: %2</source>
-        <translation>無法載入函式庫 %1：%2</translation>
+        <translation>%1 kütüphanesi yüklenemiyor: %2</translation>
     </message>
     <message>
         <source>Cannot unload library %1: %2</source>
-        <translation>無法卸載函式庫 %1：%2</translation>
-    </message>
-    <message>
-        <source>Cannot resolve symbol &quot;%1&quot; in %2: %3</source>
-        <translation>無法解析 %2 內的符號「%1」：%3</translation>
+        <translation>%1 kütüphanesi kaldırılamıyor: %2</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a valid Mach-O binary (%2)</source>
-        <translation>「%1」為無效 Mach-O 二進位資料 (%2)</translation>
+        <translation>&apos;%1&apos; geçerli bir Mach-O ikili dosyası değil (%2)</translation>
     </message>
     <message>
         <source>file is corrupt</source>
-        <translation>檔案已損壞</translation>
+        <translation>dosya bozuk</translation>
     </message>
     <message>
         <source>no suitable architecture in fat binary</source>
-        <translation>找不到 fat 二進位資料中適合的架構</translation>
+        <translation>şişman ikili içinde uygun mimari yok</translation>
     </message>
     <message>
         <source>invalid magic %1</source>
-        <translation>無效的 Magic %1</translation>
+        <translation>geçersiz %1 sihri</translation>
     </message>
     <message>
         <source>wrong architecture</source>
-        <translation>架構錯誤</translation>
+        <translation>yanlış mimari</translation>
     </message>
     <message>
         <source>not a dynamic library</source>
-        <translation>非動態函式庫</translation>
+        <translation>dinamik bir kütüphane değil</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a Qt plugin</source>
-        <translation>「%1」非 Qt 外掛程式</translation>
-    </message>
-    <message>
-        <source>Out of memory while loading plugin &apos;%1&apos;.</source>
-        <translation type="vanished">載入外掛程式「%1」時發生記憶體不足問題。</translation>
+        <translation>&apos;%1&apos; bir Qt eklentisi değil</translation>
     </message>
 </context>
 <context>
     <name>QLineEdit</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>復原(&amp;U)</translation>
+        <translation>&amp;Geri al</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>重做(&amp;R)</translation>
+        <translation>&amp;Yinele</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>剪下(&amp;T)</translation>
+        <translation>Ke&amp;s</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>複製(&amp;C)</translation>
+        <translation>&amp;Kopyala</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>貼上(&amp;P)</translation>
+        <translation>Ya&amp;pıştır</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>刪除</translation>
+        <translation>Sil</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>全部選擇</translation>
+        <translation>Tümünü Seç</translation>
     </message>
 </context>
 <context>
     <name>QLocalServer</name>
     <message>
         <source>%1: Name error</source>
-        <translation>%1：名稱錯誤</translation>
+        <translation>%1: Ad hatası</translation>
     </message>
     <message>
         <source>%1: Permission denied</source>
-        <translation>%1：存取被拒</translation>
+        <translation>%1: İzin reddedildi</translation>
     </message>
     <message>
         <source>%1: Address in use</source>
-        <translation>%1：位址使用中</translation>
+        <translation>%1: Kullanılan adres</translation>
     </message>
     <message>
         <source>%1: Unknown error %2</source>
-        <translation>%1：未知的錯誤 %2</translation>
+        <translation>%1: Bilinmeyen hata %2</translation>
     </message>
 </context>
 <context>
     <name>QLocalSocket</name>
     <message>
         <source>%1: Connection refused</source>
-        <translation>%1：連線被拒</translation>
+        <translation>%1: Bağlantı reddedildi</translation>
     </message>
     <message>
         <source>%1: Remote closed</source>
-        <translation>%1：遠端已關閉</translation>
+        <translation>%1: Uzaktan kumanda kapalı</translation>
     </message>
     <message>
         <source>%1: Invalid name</source>
-        <translation>%1：名稱無效</translation>
+        <translation>%1: Geçersiz ad</translation>
     </message>
     <message>
         <source>%1: Socket access error</source>
-        <translation>%1：Socket 存取錯誤</translation>
+        <translation>%1: Soket erişim hatası</translation>
     </message>
     <message>
         <source>%1: Socket resource error</source>
-        <translation>%1：Socket 資源錯誤</translation>
+        <translation>%1: Soket kaynak hatası</translation>
     </message>
     <message>
         <source>%1: Socket operation timed out</source>
-        <translation>%1：Socket 操作逾時</translation>
+        <translation>%1: Soket işlemi zaman aşımına uğradı</translation>
     </message>
     <message>
         <source>%1: Datagram too large</source>
-        <translation>%1：資料塊過大</translation>
+        <translation>%1: Datagram çok büyük</translation>
     </message>
     <message>
         <source>%1: Connection error</source>
-        <translation>%1：連線錯誤</translation>
+        <translation>%1: Bağlantı hatası</translation>
     </message>
     <message>
         <source>%1: The socket operation is not supported</source>
-        <translation>%1：不支援 socket 操作</translation>
+        <translation>%1: Soket işlemi desteklenmiyor</translation>
     </message>
     <message>
         <source>%1: Operation not permitted when socket is in this state</source>
-        <translation>%1：當 socket 在此狀態時不允許操作</translation>
+        <translation>%1: Soket bu durumdayken işleme izin verilmiyor</translation>
     </message>
     <message>
         <source>%1: Unknown error</source>
-        <translation>%1：未知的錯誤</translation>
+        <translation>%1: Bilinmeyen hata</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation>嘗試在連線時連線</translation>
+        <translation>Bağlantı devam ederken bağlanmaya çalışıyor</translation>
     </message>
     <message>
         <source>%1: Unknown error %2</source>
-        <translation>%1：未知的錯誤 %2</translation>
+        <translation>%1: Bilinmeyen hata %2</translation>
     </message>
     <message>
         <source>%1: Access denied</source>
-        <translation>%1：存取被拒</translation>
+        <translation>%1: Erişim reddedildi</translation>
     </message>
 </context>
 <context>
     <name>QMYSQLDriver</name>
     <message>
         <source>Unable to allocate a MYSQL object</source>
-        <translation>無法分配個 MySQL 物件</translation>
+        <translation>Bir MYSQL nesnesi ayrılamıyor</translation>
     </message>
     <message>
         <source>Unable to open database &apos;%1&apos;</source>
-        <translation>無法開啟資料庫「%1」</translation>
+        <translation>&apos;%1&apos; veritabanı açılamıyor</translation>
     </message>
     <message>
         <source>Unable to connect</source>
-        <translation>無法連線</translation>
+        <translation>Bağlanılamıyor</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>無法開始處理事項</translation>
+        <translation>İşlem başlatılamıyor</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>無法提交處理事項</translation>
+        <translation>İşleme yapılamıyor</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>無法回退處理事項</translation>
+        <translation>İşlem geri alınamıyor</translation>
     </message>
 </context>
 <context>
     <name>QMYSQLResult</name>
     <message>
         <source>Unable to fetch data</source>
-        <translation>無法抓取資料</translation>
+        <translation>Veri alınamıyor</translation>
     </message>
     <message>
         <source>Unable to execute query</source>
-        <translation>無法執行查詢</translation>
+        <translation>Sorgu yürütülemiyor</translation>
     </message>
     <message>
         <source>Unable to store result</source>
-        <translation>無法儲存結果</translation>
+        <translation>Sonuç saklanamıyor</translation>
     </message>
     <message>
         <source>Unable to execute next query</source>
-        <translation>無法執行下一個查詢</translation>
+        <translation>Bir sonraki sorgu yürütülemiyor</translation>
     </message>
     <message>
         <source>Unable to store next result</source>
-        <translation>無法儲存下一個結果</translation>
+        <translation>Sonraki sonuç saklanamıyor</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>無法準備陳述</translation>
+        <translation>İfade hazırlanamıyor</translation>
     </message>
     <message>
         <source>Unable to reset statement</source>
-        <translation>無法重設陳述</translation>
+        <translation>İfade sıfırlanamıyor</translation>
     </message>
     <message>
         <source>Unable to bind value</source>
-        <translation>無法結合值</translation>
+        <translation>Değer bağlanamıyor</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>無法執行陳述</translation>
+        <translation>İfade yürütülemiyor</translation>
     </message>
     <message>
         <source>Unable to bind outvalues</source>
-        <translation>無法結合輸出值</translation>
+        <translation>Çıktı değerleri bağlanamıyor</translation>
     </message>
     <message>
         <source>Unable to store statement results</source>
-        <translation>無法儲存陳述結果</translation>
+        <translation>İfade sonuçları saklanamıyor</translation>
     </message>
 </context>
 <context>
     <name>QMdiArea</name>
     <message>
         <source>(Untitled)</source>
-        <translation>（未命名）</translation>
+        <translation>(Başlıksız)</translation>
     </message>
 </context>
 <context>
@@ -2447,379 +2474,367 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>最小化</translation>
+        <translation>Küçült</translation>
     </message>
     <message>
         <source>Maximize</source>
-        <translation>最大化</translation>
+        <translation>Büyüt</translation>
     </message>
     <message>
         <source>Unshade</source>
-        <translation>取消遮蔽</translation>
+        <translation>Gölgeleme</translation>
     </message>
     <message>
         <source>Shade</source>
-        <translation>遮蔽</translation>
+        <translation>Gölgele</translation>
     </message>
     <message>
         <source>Restore Down</source>
-        <translation>向下恢復</translation>
+        <translation>Aşağı Geri Yükle</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation>回復</translation>
+        <translation>Geri Yükle</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>關閉</translation>
+        <translation>Kapat</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>說明</translation>
+        <translation>Yardım</translation>
     </message>
     <message>
         <source>Menu</source>
-        <translation>選單</translation>
+        <translation>Menü</translation>
     </message>
     <message>
         <source>&amp;Restore</source>
-        <translation>還原(&amp;R)</translation>
+        <translation>Ge&amp;ri Yükle</translation>
     </message>
     <message>
         <source>&amp;Move</source>
-        <translation>移動(&amp;M)</translation>
+        <translation>&amp;Taşı</translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>大小(&amp;S)</translation>
+        <translation>&amp;Boyut</translation>
     </message>
     <message>
         <source>Mi&amp;nimize</source>
-        <translation>最小化(&amp;N)</translation>
+        <translation>Küçü&amp;lt</translation>
     </message>
     <message>
         <source>Ma&amp;ximize</source>
-        <translation>最大化(&amp;X)</translation>
+        <translation>&amp;Büyüt</translation>
     </message>
     <message>
         <source>Stay on &amp;Top</source>
-        <translation>留在頂端(&amp;T)</translation>
+        <translation>&amp;Üstte Kal</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>關閉(&amp;C)</translation>
+        <translation>&amp;Kapat</translation>
     </message>
 </context>
 <context>
     <name>QMessageBox</name>
     <message>
         <source>Show Details...</source>
-        <translation>顯示詳情...</translation>
+        <translation>Ayrıntıları Göster...</translation>
     </message>
     <message>
         <source>Hide Details...</source>
-        <translation>隱藏詳情...</translation>
+        <translation>Ayrıntıları Gizle...</translation>
     </message>
     <message>
         <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
-        <translation>&lt;h3&gt;關於 Qt&lt;/h3&gt;&lt;p&gt;此程式使用 Qt %1 版。&lt;/p&gt;</translation>
+        <translation>&lt;h3&gt;Qt Hakkında&lt;/h3&gt;&lt;p&gt;Bu program Qt %1 sürümünü kullanıyor.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
         <extracomment>Leave this text untranslated or include a verbatim copy of it below and note that it is the authoritative version in case of doubt.</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About Qt</source>
-        <translation>關於 Qt</translation>
-    </message>
-    <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;Qt 是個用於跨平台應用程式開發的工具箱。&lt;/p&gt;
-&lt;p&gt;Qt 提供了可移植單一來源以能在目前主流的桌面作業系統跨平台。其也支援嵌入式 Linux 和其他嵌入和行動作業系統。&lt;/p&gt;
-&lt;p&gt;Qt 可以用於三個不同的授權選項，以接納各個使用者的需求。&lt;/p&gt;
-&lt;p&gt;使用我們的商業授權條款授權的 Qt 適合拿來開發不希望公開源碼給第三方的專有或商業軟體，或者是無法完全遵守 GNU LGPL 第三版條款的軟體。&lt;/p&gt;
-&lt;p&gt;使用 GNU LGPL 第三版授權的 Qt 適合拿來開發能遵守 LGPL 授權條款與條件的 Qt 應用程式。&lt;/p&gt;
-&lt;p&gt;請參閱 &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; 取得 Qt 授權概覽。&lt;/p&gt;
-&lt;p&gt;版權所有 (C) %1 Qt 公司與其他貢獻者。&lt;/p&gt;
-&lt;p&gt;Qt 與其圖示皆為 Qt 公司的商標。&lt;/p&gt;
-&lt;p&gt;Qt 是 Qt 公司開發的開源專案，參閱 &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; 取得更多資訊。&lt;/p&gt;</translation>
+        <translation>Qt Hakkında</translation>
     </message>
 </context>
 <context>
     <name>QNativeSocketEngine</name>
     <message>
         <source>Unable to initialize non-blocking socket</source>
-        <translation>無法初始化非阻塞性 socket</translation>
+        <translation>Engellenmeyen soket başlatılamıyor</translation>
     </message>
     <message>
         <source>Unable to initialize broadcast socket</source>
-        <translation>無法初始化廣播 socket</translation>
+        <translation>Yayın soketi başlatılamıyor</translation>
     </message>
     <message>
         <source>Attempt to use IPv6 socket on a platform with no IPv6 support</source>
-        <translation>試圖在不支援 IPv6 的平台上使用 IPv6 socket</translation>
+        <translation>IPv6 desteği olmayan bir platformda IPv6 soketini kullanmaya çalış</translation>
     </message>
     <message>
         <source>The remote host closed the connection</source>
-        <translation>遠端主機關閉了連線</translation>
+        <translation>Uzak ana bilgisayar bağlantıyı kapattı</translation>
     </message>
     <message>
         <source>Network operation timed out</source>
-        <translation>網路操作逾時</translation>
+        <translation>Ağ işlemi zaman aşımına uğradı</translation>
     </message>
     <message>
         <source>Out of resources</source>
-        <translation>資源不足</translation>
+        <translation>Kaynaklar yetersiz</translation>
     </message>
     <message>
         <source>Unsupported socket operation</source>
-        <translation>不支援的 socket 操作</translation>
+        <translation>Desteklenmeyen soket işlemi</translation>
     </message>
     <message>
         <source>Protocol type not supported</source>
-        <translation>不支援的協定型態</translation>
+        <translation>Protokol türü desteklenmiyor</translation>
     </message>
     <message>
         <source>Invalid socket descriptor</source>
-        <translation>無效的 socket 描述</translation>
+        <translation>Geçersiz soket tanımlayıcı</translation>
     </message>
     <message>
         <source>Host unreachable</source>
-        <translation>無法連線到主機</translation>
+        <translation>Ana bilgisayar ulaşılamaz</translation>
     </message>
     <message>
         <source>Network unreachable</source>
-        <translation>無法連線網路</translation>
+        <translation>Ağa erişilemiyor</translation>
     </message>
     <message>
         <source>Permission denied</source>
-        <translation>權限被拒</translation>
+        <translation>İzin reddedildi</translation>
     </message>
     <message>
         <source>Connection timed out</source>
-        <translation>連線逾時</translation>
+        <translation>Bağlantı zaman aşımına uğradı</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>連線被拒</translation>
+        <translation>Bağlantı reddedildi</translation>
     </message>
     <message>
         <source>The bound address is already in use</source>
-        <translation>已經使用結合位址</translation>
+        <translation>Bağlı adres zaten kullanılıyor</translation>
     </message>
     <message>
         <source>The address is not available</source>
-        <translation>無法取得位址</translation>
+        <translation>Adres mevcut değil</translation>
     </message>
     <message>
         <source>The address is protected</source>
-        <translation>此位址被受保護</translation>
+        <translation>Adres korunuyor</translation>
     </message>
     <message>
         <source>Datagram was too large to send</source>
-        <translation>資料塊過大無法送出</translation>
+        <translation>Datagram gönderilemeyecek kadar büyüktü</translation>
     </message>
     <message>
         <source>Unable to send a message</source>
-        <translation>無法送出訊息</translation>
+        <translation>İleti gönderilemiyor</translation>
     </message>
     <message>
         <source>Unable to receive a message</source>
-        <translation>無法接收訊息</translation>
+        <translation>İleti alınamıyor</translation>
     </message>
     <message>
         <source>Unable to write</source>
-        <translation>無法寫入</translation>
+        <translation>Yazılamıyor</translation>
     </message>
     <message>
         <source>Network error</source>
-        <translation>網路錯誤</translation>
+        <translation>Ağ hatası</translation>
     </message>
     <message>
         <source>Another socket is already listening on the same port</source>
-        <translation>另一個 socket 已經在監聽同一個連接埠</translation>
+        <translation>Aynı bağlantı noktasında başka bir soket zaten dinliyor</translation>
     </message>
     <message>
         <source>Operation on non-socket</source>
-        <translation>於非 socket 操作</translation>
+        <translation>Soketsiz işlem</translation>
     </message>
     <message>
         <source>The proxy type is invalid for this operation</source>
-        <translation>此代理伺服器型態對此操作無效</translation>
+        <translation>Proxy türü bu işlem için geçersiz</translation>
     </message>
     <message>
         <source>Temporary error</source>
-        <translation>暫時性錯誤</translation>
+        <translation>Geçici hata</translation>
     </message>
     <message>
         <source>Network dropped connection on reset</source>
-        <translation>網路在重設時斷開連線</translation>
+        <translation>Sıfırlama sırasında ağ bağlantısı kesildi</translation>
     </message>
     <message>
         <source>Connection reset by peer</source>
-        <translation>連線被端點重設</translation>
+        <translation>Eş tarafından bağlantı sıfırlandı</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>未知錯誤</translation>
+        <translation>Bilinmeyen hata</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessCacheBackend</name>
     <message>
         <source>Error opening %1</source>
-        <translation>開啟 %1 發生錯誤</translation>
+        <translation>%1 açılırken hata oluştu</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessDataBackend</name>
     <message>
         <source>Invalid URI: %1</source>
-        <translation>網址無效：%1</translation>
+        <translation>Geçersiz URI: %1</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessDebugPipeBackend</name>
     <message>
         <source>Write error writing to %1: %2</source>
-        <translation>寫到 %1 時發生錯誤：%2</translation>
+        <translation>%1 öğesine yazma hatası: %2</translation>
     </message>
     <message>
         <source>Socket error on %1: %2</source>
-        <translation>%1 上發生 socket 錯誤：%2</translation>
+        <translation>%1 üzerinde soket hatası: %2</translation>
     </message>
     <message>
         <source>Remote host closed the connection prematurely on %1</source>
-        <translation>於 %1 上過早關閉了遠端主機的連線</translation>
+        <translation>Uzak ana bilgisayar %1 üzerinde bağlantıyı erken kapattı</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessFileBackend</name>
     <message>
         <source>Request for opening non-local file %1</source>
-        <translation>要求開啟非本地端檔案 %1</translation>
+        <translation>Yerel olmayan %1 dosyası açma isteği</translation>
     </message>
     <message>
         <source>Error opening %1: %2</source>
-        <translation>開啟 %1 發生錯誤：%2</translation>
+        <translation>%1 açılırken hata oluştu: %2</translation>
     </message>
     <message>
         <source>Write error writing to %1: %2</source>
-        <translation>寫到 %1 時發生錯誤：%2</translation>
+        <translation>%1 öğesine yazma hatası: %2</translation>
     </message>
     <message>
         <source>Cannot open %1: Path is a directory</source>
-        <translation>無法開啟 %1：此路徑是一個目錄</translation>
+        <translation>%1 açılamıyor: Yol bir dizin</translation>
     </message>
     <message>
         <source>Read error reading from %1: %2</source>
-        <translation>從 %1 讀取錯誤：%2</translation>
+        <translation>%1 kaynağından okunurken okuma hatası: %2</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessFtpBackend</name>
     <message>
         <source>No suitable proxy found</source>
-        <translation>找不到合適的代理伺服器</translation>
+        <translation>Uygun proxy bulunamadı</translation>
     </message>
     <message>
         <source>Cannot open %1: is a directory</source>
-        <translation>無法開啟 %1：是個目錄</translation>
+        <translation>%1 açılamıyor: bir dizin</translation>
     </message>
     <message>
         <source>Logging in to %1 failed: authentication required</source>
-        <translation>登入 %1 失敗：需要驗證</translation>
+        <translation>%1 oturumu açılamadı: kimlik doğrulama gerekiyor</translation>
     </message>
     <message>
         <source>Error while downloading %1: %2</source>
-        <translation>下載 %1 時發生錯誤：%2</translation>
+        <translation>%1 indirilirken hata oluştu: %2</translation>
     </message>
     <message>
         <source>Error while uploading %1: %2</source>
-        <translation>上傳 %1 時發生錯誤：%2</translation>
+        <translation>%1 yüklenirken hata oluştu: %2</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessManager</name>
     <message>
         <source>Network access is disabled.</source>
-        <translation>已停用網路存取支援。</translation>
+        <translation>Ağ erişimi devre dışı.</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReply</name>
     <message>
         <source>Error transferring %1 - server replied: %2</source>
-        <translation>傳輸 %1 錯誤 - 伺服器回應：%2</translation>
+        <translation>%1 aktarılırken hata oluştu - sunucu yanıtladı: %2</translation>
     </message>
     <message>
         <source>Network session error.</source>
-        <translation>網路階段錯誤。</translation>
+        <translation>Ağ oturumu hatası.</translation>
     </message>
     <message>
         <source>Background request not allowed.</source>
-        <translation>不允許背景請求。</translation>
+        <translation>Arka plan isteğine izin verilmiyor.</translation>
     </message>
     <message>
         <source>backend start error.</source>
-        <translation>後端啟動錯誤。</translation>
+        <translation>arka uç başlatma hatası.</translation>
     </message>
     <message>
         <source>Temporary network failure.</source>
-        <translation>暫時性網路失敗。</translation>
+        <translation>Geçici ağ hatası.</translation>
     </message>
     <message>
         <source>Protocol &quot;%1&quot; is unknown</source>
-        <translation>未知的協定「%1」</translation>
+        <translation>&quot;%1&quot; protokolü bilinmiyor</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReplyHttpImpl</name>
     <message>
         <source>Operation canceled</source>
-        <translation>已取消動作</translation>
+        <translation>İşlem iptal edildi</translation>
     </message>
     <message>
         <source>No suitable proxy found</source>
-        <translation>找不到合適的代理伺服器</translation>
+        <translation>Uygun proxy bulunamadı</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReplyImpl</name>
     <message>
         <source>Operation canceled</source>
-        <translation>已取消動作</translation>
+        <translation>İşlem iptal edildi</translation>
     </message>
 </context>
 <context>
     <name>QNetworkSession</name>
     <message>
         <source>Invalid configuration.</source>
-        <translation>無效的設定。</translation>
+        <translation>Geçersiz yapılandıma.</translation>
     </message>
 </context>
 <context>
     <name>QNetworkSessionPrivateImpl</name>
     <message>
         <source>Unknown session error.</source>
-        <translation>未知階段錯誤。</translation>
+        <translation>Bilinmeyen oturum hatası.</translation>
     </message>
     <message>
         <source>The session was aborted by the user or system.</source>
-        <translation>此階段被使用者或系統終止。</translation>
+        <translation>Oturum kullanıcı veya sistem tarafından iptal edildi.</translation>
     </message>
     <message>
         <source>The requested operation is not supported by the system.</source>
-        <translation>系統不支援請求的動作。</translation>
+        <translation>İstenen işlem sistem tarafından desteklenmiyor.</translation>
     </message>
     <message>
         <source>The specified configuration cannot be used.</source>
-        <translation>無法使用指定的組態設定。</translation>
+        <translation>Belirtilen yapılandırma kullanılamaz.</translation>
     </message>
     <message>
         <source>Roaming was aborted or is not possible.</source>
-        <translation>漫遊被終止或不可用。</translation>
+        <translation>Dolaşım iptal edildi veya mümkün değil.</translation>
     </message>
 </context>
 <context>
@@ -2827,281 +2842,281 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Unable to initialize</source>
         <comment>QOCIDriver</comment>
-        <translation>無法初始化</translation>
+        <translation>Başlatılamıyor</translation>
     </message>
     <message>
         <source>Unable to logon</source>
-        <translation>無法登入</translation>
+        <translation>Oturum açılamıyor</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>無法開始處理事項</translation>
+        <translation>İşlem başlatılamıyor</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>無法提交處理事項</translation>
+        <translation>İşleme yapılamıyor</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>無法回退處理事項</translation>
+        <translation>İşlem geri alınamıyor</translation>
     </message>
 </context>
 <context>
     <name>QOCIResult</name>
     <message>
         <source>Unable to bind column for batch execute</source>
-        <translation>無法結合用於批次執行的欄位</translation>
+        <translation>Toplu yürütme sütunu bağlanamıyor</translation>
     </message>
     <message>
         <source>Unable to execute batch statement</source>
-        <translation>無法執行批次陳述</translation>
+        <translation>Toplu ifade çalıştırılamıyor</translation>
     </message>
     <message>
         <source>Unable to goto next</source>
-        <translation>無法跳到下一個</translation>
+        <translation>Sonrakine gidilemiyor</translation>
     </message>
     <message>
         <source>Unable to alloc statement</source>
-        <translation>無法分配陳述</translation>
+        <translation>İfade ayrılamıyor</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>無法準備陳述</translation>
+        <translation>İfade hazırlanamıyor</translation>
     </message>
     <message>
         <source>Unable to get statement type</source>
-        <translation>無法取得陳述型態</translation>
+        <translation>İfade türü alınamıyor</translation>
     </message>
     <message>
         <source>Unable to bind value</source>
-        <translation>無法結合值</translation>
+        <translation>Değer bağlanamıyor</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>無法執行陳述</translation>
+        <translation>İfade yürütülemiyor</translation>
     </message>
 </context>
 <context>
     <name>QODBCDriver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>無法連線</translation>
+        <translation>Bağlanılamıyor</translation>
     </message>
     <message>
         <source>Unable to connect - Driver doesn&apos;t support all functionality required</source>
-        <translation>無法連線 - 驅動不支援全部所需功能</translation>
+        <translation>Bağlanılamıyor - Sürücü gereken tüm işlevleri desteklemiyor</translation>
     </message>
     <message>
         <source>Unable to disable autocommit</source>
-        <translation>無法停用自動提交功能</translation>
+        <translation>Otomatik işleme devre dışı bırakılamıyor</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>無法提交處理事項</translation>
+        <translation>İşleme yapılamıyor</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>無法回退處理事項</translation>
+        <translation>İşlem geri alınamıyor</translation>
     </message>
     <message>
         <source>Unable to enable autocommit</source>
-        <translation>無法啟用自動提交功能</translation>
+        <translation>Otomatik işleme etkinleştirilemiyor</translation>
     </message>
 </context>
 <context>
     <name>QODBCResult</name>
     <message>
         <source>QODBCResult::reset: Unable to set &apos;SQL_CURSOR_STATIC&apos; as statement attribute. Please check your ODBC driver configuration</source>
-        <translation>QODBCResult::reset: 無法將「SQL_CURSOR_STATIC」設定為陳述屬性。請檢查您的 ODBC 驅動程式設定</translation>
+        <translation>QODBCResult::reset: &apos;SQL_CURSOR_STATIC&apos; ifade özniteliği olarak ayarlanamıyor. Lütfen ODBC sürücü yapılandırmanızı kontrol edin</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>無法執行陳述</translation>
+        <translation>İfade yürütülemiyor</translation>
     </message>
     <message>
         <source>Unable to fetch</source>
-        <translation>無法抓取</translation>
+        <translation>Getirilemiyor</translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>無法抓取下一筆</translation>
+        <translation>Sonraki getirilemiyor</translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>無法抓取第一筆</translation>
+        <translation>İlk önceki getirilemiyor</translation>
     </message>
     <message>
         <source>Unable to fetch previous</source>
-        <translation>無法抓取前一筆</translation>
+        <translation>Önceki getirilemiyor</translation>
     </message>
     <message>
         <source>Unable to fetch last</source>
-        <translation>無法抓取最後一筆</translation>
+        <translation>Sonuncu getirilemiyor</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>無法準備陳述</translation>
+        <translation>İfade hazırlanamıyor</translation>
     </message>
     <message>
         <source>Unable to bind variable</source>
-        <translation>無法結合變數</translation>
+        <translation>Değişken bağlanamıyor</translation>
     </message>
 </context>
 <context>
     <name>QPSQLDriver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>無法連線</translation>
+        <translation>Bağlanılamıyor</translation>
     </message>
     <message>
         <source>Could not begin transaction</source>
-        <translation>無法開始處理事項</translation>
+        <translation>İşlem başlatılamadı</translation>
     </message>
     <message>
         <source>Could not commit transaction</source>
-        <translation>無法提交處理事項</translation>
+        <translation>İşlem gerçekleştirilemedi</translation>
     </message>
     <message>
         <source>Could not rollback transaction</source>
-        <translation>無法回退處理事項</translation>
+        <translation>İşlem geri alınamadı</translation>
     </message>
     <message>
         <source>Unable to subscribe</source>
-        <translation>無法訂閱</translation>
+        <translation>Abone olunamıyor</translation>
     </message>
     <message>
         <source>Unable to unsubscribe</source>
-        <translation>無法取消訂閱</translation>
+        <translation>Abonelikten çıkılamıyor</translation>
     </message>
 </context>
 <context>
     <name>QPSQLResult</name>
     <message>
         <source>Query results lost - probably discarded on executing another SQL query.</source>
-        <translation>查詢結果遺失 - 可能是在執行其他 SQL 查詢時被丟棄。</translation>
+        <translation>Sorgu sonuçları kaybedildi - muhtemelen başka bir SQL sorgusu yürütülürken atıldı.</translation>
     </message>
     <message>
         <source>Unable to create query</source>
-        <translation>無法建立查詢</translation>
+        <translation>Sorgu oluşturulamıyor</translation>
     </message>
     <message>
         <source>Unable to get result</source>
-        <translation>無法取得查詢</translation>
+        <translation>Sonuç alınamıyor</translation>
     </message>
     <message>
         <source>Unable to send query</source>
-        <translation>無法傳送查詢</translation>
+        <translation>Sorgu gönderilemiyor</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>無法準備陳述</translation>
+        <translation>İfade hazırlanamıyor</translation>
     </message>
 </context>
 <context>
     <name>QPageSetupWidget</name>
     <message>
         <source>Form</source>
-        <translation>表單</translation>
+        <translation>Form</translation>
     </message>
     <message>
         <source>Paper</source>
-        <translation>紙張</translation>
+        <translation>Kağıt</translation>
     </message>
     <message>
         <source>Page size:</source>
-        <translation>頁面大小：</translation>
+        <translation>Sayfa boyutu:</translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation>寬度：</translation>
+        <translation>Genişlik:</translation>
     </message>
     <message>
         <source>Height:</source>
-        <translation>高度：</translation>
+        <translation>Yükseklik:</translation>
     </message>
     <message>
         <source>Paper source:</source>
-        <translation>紙張來源：</translation>
+        <translation>Kağıt kaynağı:</translation>
     </message>
     <message>
         <source>Orientation</source>
-        <translation>方向</translation>
+        <translation>Yönlendirme</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>直印</translation>
+        <translation>Portre</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>橫印</translation>
+        <translation>Manzara</translation>
     </message>
     <message>
         <source>Reverse landscape</source>
-        <translation>反向橫印</translation>
+        <translation>Ters manzara</translation>
     </message>
     <message>
         <source>Reverse portrait</source>
-        <translation>反向直印</translation>
+        <translation>Ters portre</translation>
     </message>
     <message>
         <source>Margins</source>
-        <translation>邊緣</translation>
+        <translation>Kenar boşlukları</translation>
     </message>
     <message>
         <source>top margin</source>
-        <translation>上邊緣</translation>
+        <translation>üst kenar boşluğu</translation>
     </message>
     <message>
         <source>left margin</source>
-        <translation>左邊緣</translation>
+        <translation>sol kenar boşluğu</translation>
     </message>
     <message>
         <source>right margin</source>
-        <translation>右邊緣</translation>
+        <translation>sağ kenar boşluğu</translation>
     </message>
     <message>
         <source>bottom margin</source>
-        <translation>下邊緣</translation>
+        <translation>alt kenar boşluğu</translation>
     </message>
     <message>
         <source>Page Layout</source>
-        <translation>頁面配置</translation>
+        <translation>Sayfa Düzeni</translation>
     </message>
     <message>
         <source>Page order:</source>
-        <translation>頁面順序：</translation>
+        <translation>Sayfa sırası:</translation>
     </message>
     <message>
         <source>Pages per sheet:</source>
-        <translation>每張紙包含頁數：</translation>
+        <translation>Yaprak başına sayfa:</translation>
     </message>
     <message>
         <source>Millimeters (mm)</source>
-        <translation>毫米 (mm)</translation>
+        <translation>Milimetre (mm)</translation>
     </message>
     <message>
         <source>Inches (in)</source>
-        <translation>英吋 (in)</translation>
+        <translation>İnç (in)</translation>
     </message>
     <message>
         <source>Points (pt)</source>
-        <translation>點 (pt)</translation>
+        <translation>Nokta (pt)</translation>
     </message>
     <message>
         <source>Pica (P̸)</source>
-        <translation>派卡 (P̸)</translation>
+        <translation>Pika (P̸)</translation>
     </message>
     <message>
         <source>Didot (DD)</source>
-        <translation>迪多 (DD)</translation>
+        <translation>Didot (DD)</translation>
     </message>
     <message>
         <source>Cicero (CC)</source>
-        <translation>西塞羅 (CC)</translation>
+        <translation>Cicero (CC)</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>自訂</translation>
+        <translation>Özel</translation>
     </message>
     <message>
         <source>mm</source>
@@ -3139,32 +3154,32 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Custom (%1mm x %2mm)</source>
         <extracomment>Custom size name in millimeters</extracomment>
-        <translation>自訂 (%1mm x %2mm)</translation>
+        <translation>Özel (%1mm x %2mm)</translation>
     </message>
     <message>
         <source>Custom (%1pt x %2pt)</source>
         <extracomment>Custom size name in points</extracomment>
-        <translation>自訂 (%1pt x %2pt)</translation>
+        <translation>Özel (%1pt x %2pt)</translation>
     </message>
     <message>
         <source>Custom (%1in x %2in)</source>
         <extracomment>Custom size name in inches</extracomment>
-        <translation>自訂 (%1in x %2in)</translation>
+        <translation>Özel (%1in x %2in)</translation>
     </message>
     <message>
         <source>Custom (%1pc x %2pc)</source>
         <extracomment>Custom size name in picas</extracomment>
-        <translation>自訂 (%1pc x %2pc)</translation>
+        <translation>Özel (%1pc x %2pc)</translation>
     </message>
     <message>
         <source>Custom (%1DD x %2DD)</source>
         <extracomment>Custom size name in didots</extracomment>
-        <translation>自訂 (%1DD x %2DD)</translation>
+        <translation>Özel (%1DD x %2DD)</translation>
     </message>
     <message>
         <source>Custom (%1CC x %2CC)</source>
         <extracomment>Custom size name in ciceros</extracomment>
-        <translation>自訂 (%1CC x %2CC)</translation>
+        <translation>Özel (%1CC x %2CC)</translation>
     </message>
     <message>
         <source>%1 x %2 in</source>
@@ -3261,59 +3276,59 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Executive (7.5 x 10 in)</source>
-        <translation>Executive (7.5 x 10 in)</translation>
+        <translation>Yönetici (7.5 x 10 in)</translation>
     </message>
     <message>
         <source>Executive (7.25 x 10.5 in)</source>
-        <translation>Executive (7.25 x 10.5 in)</translation>
+        <translation>Yönetici (7.25 x 10.5 in)</translation>
     </message>
     <message>
         <source>Folio (8.27 x 13 in)</source>
-        <translation>Folio (8.27 x 13 in)</translation>
+        <translation>Yaprak (8.27 x 13 in)</translation>
     </message>
     <message>
         <source>Legal</source>
-        <translation>Legal</translation>
+        <translation>Yasal</translation>
     </message>
     <message>
         <source>Letter / ANSI A</source>
-        <translation>信封 / ANSI A</translation>
+        <translation>Mektup / ANSI A</translation>
     </message>
     <message>
         <source>Tabloid / ANSI B</source>
-        <translation>小報 / ANSI B</translation>
+        <translation>Küçük gazete / ANSI B</translation>
     </message>
     <message>
         <source>Ledger / ANSI B</source>
-        <translation>Ledger / ANSI B</translation>
+        <translation>Büyük defter / ANSI B</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>自訂</translation>
+        <translation>Özel</translation>
     </message>
     <message>
         <source>A3 Extra</source>
-        <translation>A3 Extra</translation>
+        <translation>A3 Ekstra</translation>
     </message>
     <message>
         <source>A4 Extra</source>
-        <translation>A4 Extra</translation>
+        <translation>A4 Ekstra</translation>
     </message>
     <message>
         <source>A4 Plus</source>
-        <translation>A4 Plus</translation>
+        <translation>At Artı</translation>
     </message>
     <message>
         <source>A4 Small</source>
-        <translation>A4 Small</translation>
+        <translation>A4 Küçük</translation>
     </message>
     <message>
         <source>A5 Extra</source>
-        <translation>A5 Extra</translation>
+        <translation>A5 Ekstra</translation>
     </message>
     <message>
         <source>B5 Extra</source>
-        <translation>B5 Extra</translation>
+        <translation>B5 Ekstra</translation>
     </message>
     <message>
         <source>JIS B0</source>
@@ -3373,71 +3388,71 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Legal Extra</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekstra Yasal</translation>
     </message>
     <message>
         <source>Letter Extra</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekstra Mektup</translation>
     </message>
     <message>
         <source>Letter Plus</source>
-        <translation type="unfinished"></translation>
+        <translation>Artı Mektup</translation>
     </message>
     <message>
         <source>Letter Small</source>
-        <translation type="unfinished"></translation>
+        <translation>Küçük Zarf</translation>
     </message>
     <message>
         <source>Tabloid Extra</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekstra Küçük Gazete</translation>
     </message>
     <message>
         <source>Architect A</source>
-        <translation type="unfinished"></translation>
+        <translation>Mimar A</translation>
     </message>
     <message>
         <source>Architect B</source>
-        <translation type="unfinished"></translation>
+        <translation>Mimar B</translation>
     </message>
     <message>
         <source>Architect C</source>
-        <translation type="unfinished"></translation>
+        <translation>Mimar C</translation>
     </message>
     <message>
         <source>Architect D</source>
-        <translation type="unfinished"></translation>
+        <translation>Mimar D</translation>
     </message>
     <message>
         <source>Architect E</source>
-        <translation type="unfinished"></translation>
+        <translation>Mimar E</translation>
     </message>
     <message>
         <source>Note</source>
-        <translation>筆記</translation>
+        <translation>Not</translation>
     </message>
     <message>
         <source>Quarto</source>
-        <translation type="unfinished"></translation>
+        <translation>Dört yapraklı</translation>
     </message>
     <message>
         <source>Statement</source>
-        <translation type="unfinished"></translation>
+        <translation>İfade</translation>
     </message>
     <message>
         <source>Super A</source>
-        <translation type="unfinished"></translation>
+        <translation>Süper A</translation>
     </message>
     <message>
         <source>Super B</source>
-        <translation type="unfinished"></translation>
+        <translation>Süper B</translation>
     </message>
     <message>
         <source>Postcard</source>
-        <translation>明信片</translation>
+        <translation>Kartpostal</translation>
     </message>
     <message>
         <source>Double Postcard</source>
-        <translation>雙明信片大小</translation>
+        <translation>Çift Kartpostal</translation>
     </message>
     <message>
         <source>PRC 16K</source>
@@ -3449,292 +3464,292 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>PRC 32K Big</source>
-        <translation type="unfinished"></translation>
+        <translation>PRC 32K Büyük</translation>
     </message>
     <message>
         <source>Fan-fold US (14.875 x 11 in)</source>
-        <translation type="unfinished"></translation>
+        <translation>Fan-fold ABD (14.875 x 11 in)</translation>
     </message>
     <message>
         <source>Fan-fold German (8.5 x 12 in)</source>
-        <translation type="unfinished"></translation>
+        <translation>Fan-fold Alman (8.5 x 12 in)</translation>
     </message>
     <message>
         <source>Fan-fold German Legal (8.5 x 13 in)</source>
-        <translation type="unfinished"></translation>
+        <translation>Fan-fold Yasal Alman (8.5 x 13 in)</translation>
     </message>
     <message>
         <source>Envelope B4</source>
-        <translation>信封型 B4</translation>
+        <translation>Zarf B4</translation>
     </message>
     <message>
         <source>Envelope B5</source>
-        <translation>信封型 B5</translation>
+        <translation>Zarf B5</translation>
     </message>
     <message>
         <source>Envelope B6</source>
-        <translation>信封型 B6</translation>
+        <translation>Zarf B6</translation>
     </message>
     <message>
         <source>Envelope C0</source>
-        <translation>信封型 C0</translation>
+        <translation>Zarf C0</translation>
     </message>
     <message>
         <source>Envelope C1</source>
-        <translation>信封型 C1</translation>
+        <translation>Zarf C1</translation>
     </message>
     <message>
         <source>Envelope C2</source>
-        <translation>信封型 C2</translation>
+        <translation>Zarf C2</translation>
     </message>
     <message>
         <source>Envelope C3</source>
-        <translation>信封型 C3</translation>
+        <translation>Zarf C3</translation>
     </message>
     <message>
         <source>Envelope C4</source>
-        <translation>信封型 C4</translation>
+        <translation>Zarf C4</translation>
     </message>
     <message>
         <source>Envelope C5</source>
-        <translation>信封型 C5</translation>
+        <translation>Zarf C5</translation>
     </message>
     <message>
         <source>Envelope C6</source>
-        <translation>信封型 C6</translation>
+        <translation>Zarf C6</translation>
     </message>
     <message>
         <source>Envelope C65</source>
-        <translation>信封型 C65</translation>
+        <translation>Zarf C65</translation>
     </message>
     <message>
         <source>Envelope C7</source>
-        <translation>信封型 C7</translation>
+        <translation>Zarf C7</translation>
     </message>
     <message>
         <source>Envelope DL</source>
-        <translation>信封型 DL</translation>
+        <translation>Zarf DL</translation>
     </message>
     <message>
         <source>Envelope US 9</source>
-        <translation>信封型 US 9</translation>
+        <translation>Zarf ABD 9</translation>
     </message>
     <message>
         <source>Envelope US 10</source>
-        <translation>信封型 US 10</translation>
+        <translation>Zarf ABD 10</translation>
     </message>
     <message>
         <source>Envelope US 11</source>
-        <translation>信封型 US 11</translation>
+        <translation>Zarf ABD 11</translation>
     </message>
     <message>
         <source>Envelope US 12</source>
-        <translation>信封型 US 12</translation>
+        <translation>Zarf ABD 12</translation>
     </message>
     <message>
         <source>Envelope US 14</source>
-        <translation>信封型 US 14</translation>
+        <translation>Zarf ABD 14</translation>
     </message>
     <message>
         <source>Envelope Monarch</source>
-        <translation>信封型 Monarch</translation>
+        <translation>Zarf Monarş</translation>
     </message>
     <message>
         <source>Envelope Personal</source>
-        <translation>信封型 Personal</translation>
+        <translation>Zarf Kişisel</translation>
     </message>
     <message>
         <source>Envelope Chou 3</source>
-        <translation type="unfinished"></translation>
+        <translation>Zarf Chou 3</translation>
     </message>
     <message>
         <source>Envelope Chou 4</source>
-        <translation type="unfinished"></translation>
+        <translation>Zarf Chou 4</translation>
     </message>
     <message>
         <source>Envelope Invite</source>
-        <translation type="unfinished"></translation>
+        <translation>Zarf Davetiyesi</translation>
     </message>
     <message>
         <source>Envelope Italian</source>
-        <translation type="unfinished"></translation>
+        <translation>Zarf İtalyanca</translation>
     </message>
     <message>
         <source>Envelope Kaku 2</source>
-        <translation type="unfinished"></translation>
+        <translation>Zarf Kaku 2</translation>
     </message>
     <message>
         <source>Envelope Kaku 3</source>
-        <translation type="unfinished"></translation>
+        <translation>Zarf Kaku 3</translation>
     </message>
     <message>
         <source>Envelope PRC 1</source>
-        <translation>信封型 PRC 1</translation>
+        <translation>Zarf PRC 1</translation>
     </message>
     <message>
         <source>Envelope PRC 2</source>
-        <translation>信封型 PRC 2</translation>
+        <translation>Zarf PRC 2</translation>
     </message>
     <message>
         <source>Envelope PRC 3</source>
-        <translation>信封型 PRC 3</translation>
+        <translation>Zarf PRC 3</translation>
     </message>
     <message>
         <source>Envelope PRC 4</source>
-        <translation>信封型 PRC 4</translation>
+        <translation>Zarf PRC 4</translation>
     </message>
     <message>
         <source>Envelope PRC 5</source>
-        <translation>信封型 PRC 5</translation>
+        <translation>Zarf PRC 5</translation>
     </message>
     <message>
         <source>Envelope PRC 6</source>
-        <translation>信封型 PRC 6</translation>
+        <translation>Zarf PRC 6</translation>
     </message>
     <message>
         <source>Envelope PRC 7</source>
-        <translation>信封型 PRC 7</translation>
+        <translation>Zarf PRC 7</translation>
     </message>
     <message>
         <source>Envelope PRC 8</source>
-        <translation>信封型 PRC 8</translation>
+        <translation>Zarf PRC 8</translation>
     </message>
     <message>
         <source>Envelope PRC 9</source>
-        <translation>信封型 PRC 9</translation>
+        <translation>Zarf PRC 9</translation>
     </message>
     <message>
         <source>Envelope PRC 10</source>
-        <translation>信封型 PRC 10</translation>
+        <translation>Zarf PRC 10</translation>
     </message>
     <message>
         <source>Envelope You 4</source>
-        <translation type="unfinished"></translation>
+        <translation>Senin Zarf 4</translation>
     </message>
 </context>
 <context>
     <name>QPlatformTheme</name>
     <message>
         <source>OK</source>
-        <translation>確定</translation>
+        <translation>Tamam</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>儲存</translation>
+        <translation>Kaydet</translation>
     </message>
     <message>
         <source>Save All</source>
-        <translation>全部儲存</translation>
+        <translation>Tümünü Kaydet</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>開啟</translation>
+        <translation>Aç</translation>
     </message>
     <message>
         <source>&amp;Yes</source>
-        <translation>是(&amp;Y)</translation>
+        <translation>&amp;Evet</translation>
     </message>
     <message>
         <source>Yes to &amp;All</source>
-        <translation>全部皆是(&amp;A)</translation>
+        <translation>&amp;Tümüne Evet</translation>
     </message>
     <message>
         <source>&amp;No</source>
-        <translation>否(&amp;N)</translation>
+        <translation>&amp;Hayır</translation>
     </message>
     <message>
         <source>N&amp;o to All</source>
-        <translation>全部皆否(&amp;O)</translation>
+        <translation>&amp;Tümüne Hayır</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation>終止</translation>
+        <translation>İptal Et</translation>
     </message>
     <message>
         <source>Retry</source>
-        <translation>重試</translation>
+        <translation>Yeniden Dene</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation>忽略</translation>
+        <translation>Yoksay</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>關閉</translation>
+        <translation>Kapat</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>取消</translation>
+        <translation>İptal</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>丟棄</translation>
+        <translation>Gözardı Et</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>說明</translation>
+        <translation>Yardım</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation>套用</translation>
+        <translation>Uygula</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>重設</translation>
+        <translation>Sıfırla</translation>
     </message>
     <message>
         <source>Restore Defaults</source>
-        <translation>還原到預設值</translation>
+        <translation>Varsayılanlara Sıfırla</translation>
     </message>
 </context>
 <context>
     <name>QPluginLoader</name>
     <message>
         <source>The plugin was not loaded.</source>
-        <translation>未載入外掛程式。</translation>
+        <translation>Eklenti yüklenmedi.</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>未知錯誤</translation>
+        <translation>Bilinmeyen hata</translation>
     </message>
 </context>
 <context>
     <name>QPrintDialog</name>
     <message>
         <source>Print</source>
-        <translation>列印</translation>
+        <translation>Yazdır</translation>
     </message>
     <message>
         <source>Left to Right, Top to Bottom</source>
-        <translation>左至右，上到下</translation>
+        <translation>Soldan Sağa, Yukarıdan Aşağıya</translation>
     </message>
     <message>
         <source>Left to Right, Bottom to Top</source>
-        <translation>左至右，下到上</translation>
+        <translation>Soldan Sağa, Aşağıdan Yukarı</translation>
     </message>
     <message>
         <source>Right to Left, Bottom to Top</source>
-        <translation>右至左，下到上</translation>
+        <translation>Sağdan Sola, Aşağıdan Yukarı</translation>
     </message>
     <message>
         <source>Right to Left, Top to Bottom</source>
-        <translation>右至左，上到下</translation>
+        <translation>Sağdan Sola, Yukarıdan Aşağıya</translation>
     </message>
     <message>
         <source>Bottom to Top, Left to Right</source>
-        <translation>下到上，左到右</translation>
+        <translation>Aşağıdan Yukarıya, Soldan Sağa</translation>
     </message>
     <message>
         <source>Bottom to Top, Right to Left</source>
-        <translation>下到上，右到左</translation>
+        <translation>Aşağıdan Yukarıya, Sağdan Sola</translation>
     </message>
     <message>
         <source>Top to Bottom, Left to Right</source>
-        <translation>上到下，左到右</translation>
+        <translation>Yukarıdan Aşağıya, Soldan Sağa</translation>
     </message>
     <message>
         <source>Top to Bottom, Right to Left</source>
-        <translation>上到下，右到左</translation>
+        <translation>Yukarıdan Aşağıya, Sağdan Sola</translation>
     </message>
     <message>
         <source>1 (1x1)</source>
@@ -3762,102 +3777,98 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>All Pages</source>
-        <translation>全部頁面</translation>
+        <translation>Tüm Sayfalar</translation>
     </message>
     <message>
         <source>Odd Pages</source>
-        <translation>奇數頁</translation>
+        <translation>Tek Sayfalar</translation>
     </message>
     <message>
         <source>Even Pages</source>
-        <translation>偶數頁</translation>
+        <translation>Çift Sayfalar</translation>
     </message>
     <message>
         <source>&amp;Options &gt;&gt;</source>
-        <translation>選項(&amp;O) &gt;&gt;</translation>
+        <translation>&amp;Seçenekler &gt;&gt;</translation>
     </message>
     <message>
         <source>&amp;Print</source>
-        <translation>列印(&amp;P)</translation>
+        <translation>&amp;Yazdır</translation>
     </message>
     <message>
         <source>&amp;Options &lt;&lt;</source>
-        <translation>選項(&amp;O) &lt;&lt;</translation>
+        <translation>&amp;Seçenekler &lt;&lt;</translation>
     </message>
     <message>
         <source>Invalid Pages Definition</source>
-        <translation>無效頁面定義</translation>
+        <translation>Geçersiz Sayfa Tanımı</translation>
     </message>
     <message>
         <source>%1 does not follow the correct syntax. Please use &apos;,&apos; to separate ranges and pages, &apos;-&apos; to define ranges and make sure ranges do not intersect with each other.</source>
-        <translation>%1 沒遵循正確語法。請使用「,」分隔範圍與頁面、「-」定義範圍並確保範圍沒有相交。</translation>
+        <translation>%1 doğru sözdizimini izlemiyor. Aralıkları ve sayfaları ayırmak için lütfen &apos;,&apos; aralıkları tanımlamak ve aralıkların birbiriyle kesişmediğinden emin olmak için &apos;-&apos; kullanın.</translation>
     </message>
     <message>
         <source>Duplex Settings Conflicts</source>
-        <translation>雙面設定衝突</translation>
+        <translation>Çift Taraflı Ayar Çakışmaları</translation>
     </message>
     <message>
         <source>There are conflicts in duplex settings. Do you want to fix them?</source>
-        <translation>在雙面設定中發現衝突選項，是否修復？</translation>
+        <translation>Çift taraf ayarlarında çakışma var. Onları düzeltmek ister misiniz?</translation>
     </message>
     <message>
         <source>Print to File (PDF)</source>
-        <translation>列印到檔案（PDF）</translation>
+        <translation>Dosyaya Yazdır (PDF)</translation>
     </message>
     <message>
         <source>Local file</source>
-        <translation>本地端檔案</translation>
+        <translation>Yerel dosya</translation>
     </message>
     <message>
         <source>Write PDF file</source>
-        <translation>寫入 PDF 檔案</translation>
+        <translation>PDF dosyası yaz</translation>
     </message>
     <message>
         <source>Print To File ...</source>
-        <translation>列印到檔案...</translation>
+        <translation>Dosyaya Yazdır ...</translation>
     </message>
     <message>
         <source>%1 is a directory.
 Please choose a different file name.</source>
-        <translation>%1 是個目錄。
-請選擇其他檔名。</translation>
+        <translation>%1 bir dizin.
+Lütfen farklı bir dosya adı seçin.</translation>
     </message>
     <message>
         <source>File %1 is not writable.
 Please choose a different file name.</source>
-        <translation>檔案 %1 無法寫入。
-請選擇其它檔名。</translation>
+        <translation>%1 dosyası yazılabilir değil.
+Lütfen farklı bir dosya adı seçin.</translation>
     </message>
     <message>
         <source>%1 already exists.
 Do you want to overwrite it?</source>
-        <translation>%1 已存在。
-是否覆寫？</translation>
+        <translation>%1 zaten var.
+Üzerine yazmak istiyor musunuz?</translation>
     </message>
     <message>
         <source>Options &apos;Pages Per Sheet&apos; and &apos;Page Set&apos; cannot be used together.
 Please turn one of those options off.</source>
-        <translation>不能同時使用「每張紙包含頁數」與「頁面設定」選項。
-請關閉其中一個選項。</translation>
+        <translation>&apos;Yaprak Başına Sayfa&apos; ve &apos;Sayfa Kümesi&apos; seçenekleri birlikte kullanılamaz.
+Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>The &apos;From&apos; value cannot be greater than the &apos;To&apos; value.</source>
-        <translation>「起始」值不能大於「結束」值。</translation>
+        <translation>&apos;Kimden&apos; değeri &apos;Kime&apos; değerinden büyük olamaz.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>確定</translation>
-    </message>
-    <message>
-        <source>Automatic</source>
-        <translation type="vanished">自動</translation>
+        <translation>Tamam</translation>
     </message>
 </context>
 <context>
     <name>QPrintPreviewDialog</name>
     <message>
         <source>Page Setup</source>
-        <translation>頁面設定</translation>
+        <translation>Sayfa Ayarı</translation>
     </message>
     <message>
         <source>%1%</source>
@@ -3865,1331 +3876,1263 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Print Preview</source>
-        <translation>列印預覽</translation>
+        <translation>Yazdırma Önizlemesi</translation>
     </message>
     <message>
         <source>Next page</source>
-        <translation>下一頁</translation>
+        <translation>Sonraki sayfa</translation>
     </message>
     <message>
         <source>Previous page</source>
-        <translation>上一頁</translation>
+        <translation>Önceki sayfa</translation>
     </message>
     <message>
         <source>First page</source>
-        <translation>第一頁</translation>
+        <translation>İlk sayfa</translation>
     </message>
     <message>
         <source>Last page</source>
-        <translation>最後一頁</translation>
+        <translation>Son sayfa</translation>
     </message>
     <message>
         <source>Fit width</source>
-        <translation>符合寬度</translation>
+        <translation>Genişliğe sığdır</translation>
     </message>
     <message>
         <source>Fit page</source>
-        <translation>符合頁面</translation>
+        <translation>Sayfayı sığdır</translation>
     </message>
     <message>
         <source>Zoom in</source>
-        <translation>放大</translation>
+        <translation>Yakınlaştır</translation>
     </message>
     <message>
         <source>Zoom out</source>
-        <translation>縮小</translation>
+        <translation>Uzaklaştır</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>直印</translation>
+        <translation>Portre</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>橫印</translation>
+        <translation>Manzara</translation>
     </message>
     <message>
         <source>Show single page</source>
-        <translation>顯示單一頁面</translation>
+        <translation>Tek sayfayı göster</translation>
     </message>
     <message>
         <source>Show facing pages</source>
-        <translation>顯示封面</translation>
+        <translation>Karşılıklı sayfaları göster</translation>
     </message>
     <message>
         <source>Show overview of all pages</source>
-        <translation>顯示所有頁面預覽</translation>
+        <translation>Tüm sayfalara genel bakışı göster</translation>
     </message>
     <message>
         <source>Print</source>
-        <translation>列印</translation>
+        <translation>Yazdır</translation>
     </message>
     <message>
         <source>Page setup</source>
-        <translation>列印設定</translation>
+        <translation>Sayfa ayarı</translation>
     </message>
     <message>
         <source>Export to PDF</source>
-        <translation>匯出到 PDF 檔</translation>
+        <translation>PDF&apos;ye aktar</translation>
     </message>
 </context>
 <context>
     <name>QPrintPropertiesDialog</name>
     <message>
         <source>Printer Properties</source>
-        <translation>列印機屬性</translation>
+        <translation>Yazıcı Özellikleri</translation>
     </message>
     <message>
         <source>Job Options</source>
-        <translation>作業選項</translation>
+        <translation>İş Seçenekleri</translation>
     </message>
     <message>
         <source>Page Setup Conflicts</source>
-        <translation>頁面設定衝突</translation>
+        <translation>Sayfa Ayarı Çakışmaları</translation>
     </message>
     <message>
         <source>There are conflicts in page setup options. Do you want to fix them?</source>
-        <translation>頁面設定中發現衝突選項，是否修復？</translation>
+        <translation>Sayfa ayarı seçeneklerinde çakışma var. Onları düzeltmek ister misiniz?</translation>
     </message>
     <message>
         <source>Advanced Option Conflicts</source>
-        <translation>進階選項衝突</translation>
+        <translation>Gelişmiş Seçenek Çakışmaları</translation>
     </message>
     <message>
         <source>There are conflicts in some advanced options. Do you want to fix them?</source>
-        <translation>部份進階選項發現衝突，是否修復？</translation>
+        <translation>Bazı gelişmiş seçeneklerde çakışmalar vardır. Onları düzeltmek ister misiniz?</translation>
     </message>
 </context>
 <context>
     <name>QPrintPropertiesWidget</name>
     <message>
         <source>Form</source>
-        <translation>表單</translation>
+        <translation>Form</translation>
     </message>
     <message>
         <source>Page</source>
-        <translation>頁面</translation>
+        <translation>Sayfa</translation>
     </message>
     <message>
         <source>Advanced</source>
-        <translation>進階</translation>
+        <translation>Gelişmiş</translation>
     </message>
     <message>
         <source>There are conflicts in some options. Please fix them.</source>
-        <translation>部份選項發生衝突，請修復這些問題。</translation>
+        <translation>Bazı seçeneklerde çakışmalar var. Lütfen düzeltin.</translation>
     </message>
 </context>
 <context>
     <name>QPrintSettingsOutput</name>
     <message>
         <source>Form</source>
-        <translation>表單</translation>
+        <translation>Form</translation>
     </message>
     <message>
         <source>Copies</source>
-        <translation>份數</translation>
+        <translation>Kopyalar</translation>
     </message>
     <message>
         <source>Print range</source>
-        <translation>列印範圍</translation>
+        <translation>Aralığı yazdır</translation>
     </message>
     <message>
         <source>Print all</source>
-        <translation>全部列印</translation>
+        <translation>Tümünü yazdır</translation>
     </message>
     <message>
         <source>Pages from</source>
-        <translation>指定頁面從</translation>
+        <translation>Şuradan sayfalar</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>到</translation>
+        <translation>şuraya</translation>
     </message>
     <message>
         <source>Pages</source>
-        <translation>頁面</translation>
+        <translation>Sayfalar</translation>
     </message>
     <message>
         <source>Specify pages or ranges separated by commas. Ranges are specified by two numbers separated by a hyphen. E.g: 3,5-7,9 prints pages 3, 5, 6, 7 and 9.</source>
-        <translation>使用逗號分隔頁面或頁面範圍。頁面範圍使用 (數字)-(數字) 的形式指定，例如 3,5-7,9 列印第三、五、六、七和九頁。</translation>
+        <translation>Virgüllerle ayrılmış sayfaları veya aralıkları belirtin. Aralıklar, tire işareti ile ayrılmış iki sayı ile belirtilir. Ör: 3,5-7,9, sayfa 3, 5, 6, 7 ve 9&apos;u yazdırır.</translation>
     </message>
     <message>
         <source>Current Page</source>
-        <translation>目前頁面</translation>
+        <translation>Geçerli Sayfa</translation>
     </message>
     <message>
         <source>Selection</source>
-        <translation>選擇區塊</translation>
+        <translation>Seçim</translation>
     </message>
     <message>
         <source>Page Set:</source>
-        <translation>頁面設定：</translation>
+        <translation>Sayfa Kümesi:</translation>
     </message>
     <message>
         <source>Output Settings</source>
-        <translation>輸出設定</translation>
+        <translation>Çıktı Ayarları</translation>
     </message>
     <message>
         <source>Copies:</source>
-        <translation>份數：</translation>
+        <translation>Kopyalar:</translation>
     </message>
     <message>
         <source>Collate</source>
-        <translation>校對</translation>
+        <translation>Harmanlama</translation>
     </message>
     <message>
         <source>Reverse</source>
-        <translation>反向</translation>
+        <translation>Tersine çevir</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>選項</translation>
+        <translation>Seçenekler</translation>
     </message>
     <message>
         <source>Color Mode</source>
-        <translation>顏色模式</translation>
+        <translation>Renk Modu</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation>顏色</translation>
+        <translation>Renkli</translation>
     </message>
     <message>
         <source>Grayscale</source>
-        <translation>灰階</translation>
+        <translation>Gri tonlamalı</translation>
     </message>
     <message>
-        <source>Duplex Printing</source>
-        <translation>雙面列印</translation>
+        <source>Double Sided Printing</source>
+        <translation>Çift Taraflı Yazdırma</translation>
     </message>
     <message>
-        <source>None</source>
-        <translation>無</translation>
+        <source>Off</source>
+        <translation>Kapalı</translation>
     </message>
     <message>
-        <source>Long side</source>
-        <translation>長邊</translation>
+        <source>Long side binding</source>
+        <translation>Uzun kenardan ciltleme</translation>
     </message>
     <message>
-        <source>Short side</source>
-        <translation>短邊</translation>
+        <source>Short side binding</source>
+        <translation>Kısa kenardan ciltleme</translation>
     </message>
 </context>
 <context>
     <name>QPrintWidget</name>
     <message>
         <source>Form</source>
-        <translation>表單</translation>
+        <translation>Form</translation>
     </message>
     <message>
         <source>Printer</source>
-        <translation>印表機</translation>
+        <translation>Yazıcı</translation>
     </message>
     <message>
         <source>&amp;Name:</source>
-        <translation>名稱(&amp;N)：</translation>
+        <translation>&amp;Ad:</translation>
     </message>
     <message>
         <source>P&amp;roperties</source>
-        <translation>屬性(&amp;R)</translation>
+        <translation>Özellikle&amp;r</translation>
     </message>
     <message>
         <source>Location:</source>
-        <translation>位置：</translation>
+        <translation>Konum:</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation>預覽</translation>
+        <translation>Önizleme</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation>型態：</translation>
+        <translation>Tür:</translation>
     </message>
     <message>
         <source>Output &amp;file:</source>
-        <translation>輸出檔案(&amp;F)：</translation>
+        <translation>Çıktı &amp;dosyası:</translation>
     </message>
     <message>
         <source>...</source>
-        <translation>…</translation>
+        <translation>...</translation>
     </message>
 </context>
 <context>
     <name>QProcess</name>
     <message>
         <source>Process failed to start</source>
-        <translation>啟動程序失敗</translation>
+        <translation>İşlem başlatılamadı</translation>
     </message>
     <message>
         <source>Process crashed</source>
-        <translation>程序已當機</translation>
+        <translation>İşlem çöktü</translation>
     </message>
     <message>
         <source>Process operation timed out</source>
-        <translation>程序操作逾時</translation>
+        <translation>İşlemi yapılırken zaman aşımına uğradı</translation>
     </message>
     <message>
         <source>Error reading from process</source>
-        <translation>從程序讀取時發生錯誤</translation>
+        <translation>İşlemden okuma hatası</translation>
     </message>
     <message>
         <source>Error writing to process</source>
-        <translation>寫到程序時發生錯誤</translation>
+        <translation>İşlem için yazma hatası</translation>
     </message>
     <message>
         <source>No program defined</source>
-        <translation>未定義程式</translation>
+        <translation>Program tanımlanmadı</translation>
     </message>
     <message>
         <source>Could not open input redirection for reading</source>
-        <translation>無法開啟供讀取的重新導向輸入</translation>
+        <translation>Okuma için giriş yönlendirmesi açılamadı</translation>
     </message>
     <message>
         <source>Resource error (fork failure): %1</source>
-        <translation>資源錯誤（fork 失敗）：%1</translation>
+        <translation>Kaynak hatası (çatal başarısız): %1</translation>
     </message>
     <message>
         <source>Could not open output redirection for writing</source>
-        <translation>無法開啟供寫入的輸出重新導向</translation>
+        <translation>Yazma için çıkış yeniden yönlendirmesi açılamadı</translation>
     </message>
     <message>
         <source>Process failed to start: %1</source>
-        <translation>程序啟動失敗：%1</translation>
+        <translation>İşlem başlatılamadı: %1</translation>
     </message>
 </context>
 <context>
     <name>QProgressDialog</name>
     <message>
         <source>Cancel</source>
-        <translation>取消</translation>
+        <translation>İptal</translation>
     </message>
 </context>
 <context>
     <name>QRegExp</name>
     <message>
         <source>no error occurred</source>
-        <translation>未發生錯誤</translation>
+        <translation>hata oluşmadı</translation>
     </message>
     <message>
         <source>disabled feature used</source>
-        <translation>使用的已停用功能</translation>
+        <translation>devre dışı bırakılan özellik kullanıldı</translation>
     </message>
     <message>
         <source>bad char class syntax</source>
-        <translation>無效的字元類別於法</translation>
+        <translation>bozuk karakter sınıfı sözdizimi</translation>
     </message>
     <message>
         <source>bad lookahead syntax</source>
-        <translation>無效的先行斷言 (lookahead) 語法</translation>
+        <translation>kötü ileri bakma sözdizimi</translation>
     </message>
     <message>
         <source>lookbehinds not supported, see QTBUG-2371</source>
-        <translation>不支援後行斷言 (lookbehind)，請見 QTBUG-2371</translation>
+        <translation>geriye bakmalar desteklenmiyor, bkz. QTBUG-2371</translation>
     </message>
     <message>
         <source>bad repetition syntax</source>
-        <translation>無效的重覆語法</translation>
+        <translation>hatalı tekrarlama sözdizimi</translation>
     </message>
     <message>
         <source>invalid octal value</source>
-        <translation>無效的八進位值</translation>
+        <translation>geçersiz sekizlik değer</translation>
     </message>
     <message>
         <source>missing left delim</source>
-        <translation>缺少左分隔符號</translation>
+        <translation>eksik sol sınır</translation>
     </message>
     <message>
         <source>unexpected end</source>
-        <translation>非預期結尾</translation>
+        <translation>beklenmeyen son</translation>
     </message>
     <message>
         <source>met internal limit</source>
-        <translation>遇到內部限制</translation>
+        <translation>dahili sınıra ulaşıldı</translation>
     </message>
     <message>
         <source>invalid interval</source>
-        <translation>間隔無效</translation>
+        <translation>geçersiz aralık</translation>
     </message>
     <message>
         <source>invalid category</source>
-        <translation>類別無效</translation>
+        <translation>geçersiz kategori</translation>
     </message>
 </context>
 <context>
     <name>QRegularExpression</name>
     <message>
         <source>no error</source>
-        <translation>沒有錯誤</translation>
+        <translation>hata yok</translation>
     </message>
     <message>
         <source>\ at end of pattern</source>
-        <translation>\ 在 pattern 尾端出現</translation>
+        <translation>\ desenin sonunda</translation>
     </message>
     <message>
         <source>\c at end of pattern</source>
-        <translation>\c 在 pattern 尾端出現</translation>
+        <translation>\c desen sonunda</translation>
     </message>
     <message>
         <source>unrecognized character follows \</source>
-        <translation>有個未知的字元於 \ 之後</translation>
+        <translation>tanınmayan karakter şu \</translation>
     </message>
     <message>
         <source>numbers out of order in {} quantifier</source>
-        <translation>{} 數量詞中的數字超出順序</translation>
+        <translation>{} nicelik belirtecindeki sayılar sıra dışı</translation>
     </message>
     <message>
         <source>number too big in {} quantifier</source>
-        <translation>{} 數量詞中的數字過大</translation>
+        <translation>{} nicelik belirtecinde sayı çok büyük</translation>
     </message>
     <message>
         <source>missing terminating ] for character class</source>
-        <translation>字元類別缺少結束 ]</translation>
-    </message>
-    <message>
-        <source>invalid escape sequence in character class</source>
-        <translation type="vanished">字元類別中的跳脫序列無效</translation>
-    </message>
-    <message>
-        <source>range out of order in character class</source>
-        <translation>字元類別中的範圍超出順序</translation>
-    </message>
-    <message>
-        <source>quantifier does not follow a repeatable item</source>
-        <translation>數量詞後未接可重複項目</translation>
-    </message>
-    <message>
-        <source>internal error: unexpected repeat</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>unrecognized character after (? or (?-</source>
-        <translation>無法識別 (? 或 (?- 後的字元</translation>
-    </message>
-    <message>
-        <source>POSIX named classes are supported only within a class</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>POSIX collating elements are not supported</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>missing closing parenthesis</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>reference to non-existent subpattern</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>pattern passed as NULL</source>
-        <translation>樣式傳入了 NULL</translation>
-    </message>
-    <message>
-        <source>unrecognised compile-time option bit(s)</source>
-        <translation>無法識別的編譯時選項位元</translation>
-    </message>
-    <message>
-        <source>missing ) after (?# comment</source>
-        <translation>(?# 備註後缺少 )</translation>
-    </message>
-    <message>
-        <source>parentheses are too deeply nested</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>regular expression is too large</source>
-        <translation>正規表示式過長</translation>
-    </message>
-    <message>
-        <source>failed to allocate heap memory</source>
-        <translation>無法配置堆積記憶體</translation>
-    </message>
-    <message>
-        <source>unmatched closing parenthesis</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>internal error: code overflow</source>
-        <translation>內部錯誤：代碼超出範圍</translation>
-    </message>
-    <message>
-        <source>lookbehind assertion is not fixed length</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>malformed number or name after (?(</source>
-        <translation type="vanished">(?( 後的數字或名稱格式錯誤</translation>
-    </message>
-    <message>
-        <source>assertion expected after (?( or (?(?C)</source>
-        <translation>(?( 或 (?(?C) 後應有斷言</translation>
-    </message>
-    <message>
-        <source>(?R or (?[+-]digits must be followed by )</source>
-        <translation type="vanished">(?R 或 (?[+-]數字 後必須接 )</translation>
-    </message>
-    <message>
-        <source>unknown POSIX class name</source>
-        <translation>未知 POSIX 類別名稱</translation>
-    </message>
-    <message>
-        <source>internal error in pcre2_study(): should not occur</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>this version of PCRE2 does not have Unicode support</source>
-        <translation>此版本的 PCRE2 沒有 Unicode 支援</translation>
-    </message>
-    <message>
-        <source>parentheses are too deeply nested (stack check)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>character code point value in \x{} or \o{} is too large</source>
-        <translation>\x{} 或 \o{} 中的字碼指標值太大</translation>
-    </message>
-    <message>
-        <source>invalid condition (?(0)</source>
-        <translation type="vanished">條件式 (?(0) 無效</translation>
-    </message>
-    <message>
-        <source>PCRE does not support \L, \l, \N{name}, \U, or \u</source>
-        <translation type="vanished">PCRE 不支援 \L、\l、\N{名稱}、\U 或 \u</translation>
-    </message>
-    <message>
-        <source>number after (?C is greater than 255</source>
-        <translation>(?C 後的數字大於 255</translation>
-    </message>
-    <message>
-        <source>closing parenthesis for (?C expected</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>invalid escape sequence in (*VERB) name</source>
-        <translation>(*VERB) 名稱中的跳脫序列無效</translation>
-    </message>
-    <message>
-        <source>unrecognized character after (?P</source>
-        <translation>(?P 後的字元無法識別</translation>
-    </message>
-    <message>
-        <source>syntax error in subpattern name (missing terminator)</source>
-        <translation type="vanished">子樣式名稱語法錯誤 (缺少結束點)</translation>
-    </message>
-    <message>
-        <source>two named subpatterns have the same name (PCRE2_DUPNAMES not set)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>group name must start with a non-digit</source>
-        <translation type="vanished">群組名稱不能以數字開頭</translation>
-    </message>
-    <message>
-        <source>this version of PCRE2 does not have support for \P, \p, or \X</source>
-        <translation>此版本的 PCRE2 不支援 \P、\p 或 \X</translation>
-    </message>
-    <message>
-        <source>malformed \P or \p sequence</source>
-        <translation>\P 或 \p 序列格式錯誤</translation>
-    </message>
-    <message>
-        <source>unknown property name after \P or \p</source>
-        <translation>\P 或 \p 後的屬性名稱無效</translation>
-    </message>
-    <message>
-        <source>subpattern name is too long (maximum 10000 characters)</source>
-        <translation type="vanished">子樣式名稱過長 (最長 10000 字元)</translation>
-    </message>
-    <message>
-        <source>too many named subpatterns (maximum 256)</source>
-        <translation type="vanished">過多命名子樣式 (最多 256 個)</translation>
-    </message>
-    <message>
-        <source>invalid range in character class</source>
-        <translation>字元類別的範圍無效</translation>
-    </message>
-    <message>
-        <source>octal value is greater than \377 in 8-bit non-UTF-8 mode</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>internal error: overran compiling workspace</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>internal error: previously-checked referenced subpattern not found</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>DEFINE group contains more than one branch</source>
-        <translation type="vanished">DEFINE 群組有超過一個分支</translation>
-    </message>
-    <message>
-        <source>missing opening brace after \o</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>internal error: unknown newline setting</source>
-        <translation>內部錯誤：未知換行設定</translation>
-    </message>
-    <message>
-        <source>\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>an argument is not allowed for (*ACCEPT), (*FAIL), or (*COMMIT)</source>
-        <translation type="vanished">(*ACCEPT)、(*FAIL) 或 (*COMMIT) 不接受參數</translation>
-    </message>
-    <message>
-        <source>(*VERB) not recognized or malformed</source>
-        <translation>(*VERB) 無法識別或格式錯誤</translation>
-    </message>
-    <message>
-        <source>number is too big</source>
-        <translation type="vanished">數字太大</translation>
-    </message>
-    <message>
-        <source>subpattern name expected</source>
-        <translation>應有子樣式名稱</translation>
-    </message>
-    <message>
-        <source>digit expected after (?+</source>
-        <translation type="vanished">(?+ 後應有數字</translation>
-    </message>
-    <message>
-        <source>non-octal character in \o{} (closing brace missing?)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>different names for subpatterns of the same number are not allowed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>(*MARK) must have an argument</source>
-        <translation>(*MARK) 必須要有參數</translation>
-    </message>
-    <message>
-        <source>non-hex character in \x{} (closing brace missing?)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>\c must be followed by a printable ASCII character</source>
-        <translation>\c 後必須接可顯示的 ASCII 字元</translation>
-    </message>
-    <message>
-        <source>\c must be followed by a letter or one of [\]^_?</source>
-        <translation>\c 後必須接一個字元或 [\]^_? 任一</translation>
-    </message>
-    <message>
-        <source>\k is not followed by a braced, angle-bracketed, or quoted name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>internal error: unknown opcode in find_fixedlength()</source>
-        <translation type="vanished">內部錯誤：find_fixedlength() 中有未知 opcode</translation>
-    </message>
-    <message>
-        <source>\N is not supported in a class</source>
-        <translation>類別不支援 \N</translation>
-    </message>
-    <message>
-        <source>disallowed Unicode code point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</source>
-        <translation>不允許的 Unicode 字碼指標 (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</translation>
-    </message>
-    <message>
-        <source>using UTF is disabled by the application</source>
-        <translation>應用程式停用 UTF 使用權</translation>
-    </message>
-    <message>
-        <source>using UCP is disabled by the application</source>
-        <translation>應用程式停用 UCP 使用權</translation>
-    </message>
-    <message>
-        <source>name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)</source>
-        <translation>(*MARK)、(*PRUNE)、(*SKIP) 或 (*THEN) 的名稱過長</translation>
-    </message>
-    <message>
-        <source>character code point value in \u.... sequence is too large</source>
-        <translation>\u.... 序列中的字元字碼指標值過大</translation>
-    </message>
-    <message>
-        <source>digits missing in \x{} or \o{}</source>
-        <translation type="vanished">\x{} 或 \o{} 中沒有數字</translation>
-    </message>
-    <message>
-        <source>syntax error in (?(VERSION condition</source>
-        <translation type="vanished">(?(VERSION 條件式語法錯誤</translation>
+        <translation>karakter sınıfı için eksik sonlandırma ]</translation>
     </message>
     <message>
         <source>escape sequence is invalid in character class</source>
-        <translation type="unfinished"></translation>
+        <translation>karakter dizisinde çıkış sırası geçersiz</translation>
+    </message>
+    <message>
+        <source>range out of order in character class</source>
+        <translation>karakter sınıfında sıra dışı</translation>
+    </message>
+    <message>
+        <source>quantifier does not follow a repeatable item</source>
+        <translation>nicelik belirteci tekrarlanabilir bir öğeyi takip etmiyor</translation>
+    </message>
+    <message>
+        <source>internal error: unexpected repeat</source>
+        <translation>iç hata: beklenmedik tekrar</translation>
+    </message>
+    <message>
+        <source>unrecognized character after (? or (?-</source>
+        <translation>(? veya (? - sonrası tanınmayan karakter</translation>
+    </message>
+    <message>
+        <source>POSIX named classes are supported only within a class</source>
+        <translation>POSIX adlı sınıflar yalnızca bir sınıf içinde desteklenir</translation>
+    </message>
+    <message>
+        <source>POSIX collating elements are not supported</source>
+        <translation>POSIX harmanlama öğeleri desteklenmez</translation>
+    </message>
+    <message>
+        <source>missing closing parenthesis</source>
+        <translation>kapanış parantezi eksik</translation>
+    </message>
+    <message>
+        <source>reference to non-existent subpattern</source>
+        <translation>var olmayan alt desen referansı</translation>
+    </message>
+    <message>
+        <source>pattern passed as NULL</source>
+        <translation>desen NULL olarak geçti</translation>
+    </message>
+    <message>
+        <source>unrecognised compile-time option bit(s)</source>
+        <translation>tanınmayan derleme zamanı seçenek bit(ler)i</translation>
+    </message>
+    <message>
+        <source>missing ) after (?# comment</source>
+        <translation>(?# yorum sonrası ) eksik</translation>
+    </message>
+    <message>
+        <source>parentheses are too deeply nested</source>
+        <translation>parantezler çok derin yuvalanmış</translation>
+    </message>
+    <message>
+        <source>regular expression is too large</source>
+        <translation>düzenli ifade çok büyük</translation>
+    </message>
+    <message>
+        <source>failed to allocate heap memory</source>
+        <translation>yığın bellek ayrılamadı</translation>
+    </message>
+    <message>
+        <source>unmatched closing parenthesis</source>
+        <translation>eşlenmemiş kapanış parantezi</translation>
+    </message>
+    <message>
+        <source>internal error: code overflow</source>
+        <translation>iç hata: kod taşması</translation>
     </message>
     <message>
         <source>missing closing parenthesis for condition</source>
-        <translation type="unfinished"></translation>
+        <translation>koşul için kapanış parantezi eksik</translation>
+    </message>
+    <message>
+        <source>lookbehind assertion is not fixed length</source>
+        <translation>geriya bakma iddiası sabit uzunluk değil</translation>
     </message>
     <message>
         <source>a relative value of zero is not allowed</source>
-        <translation type="unfinished"></translation>
+        <translation>göreceli sıfır değerine izin verilmez</translation>
     </message>
     <message>
         <source>conditional subpattern contains more than two branches</source>
-        <translation type="unfinished"></translation>
+        <translation>koşullu alt desen ikiden fazla dal içeriyor</translation>
+    </message>
+    <message>
+        <source>assertion expected after (?( or (?(?C)</source>
+        <translation>(?( veya (?(?C)) sonrasında iddia bekleniyor</translation>
     </message>
     <message>
         <source>digit expected after (?+ or (?-</source>
-        <translation type="unfinished"></translation>
+        <translation>(?+ veya (?- sonrası basamak bekleniyor</translation>
+    </message>
+    <message>
+        <source>unknown POSIX class name</source>
+        <translation>bilinmeyen POSIX sınıf adı</translation>
+    </message>
+    <message>
+        <source>internal error in pcre2_study(): should not occur</source>
+        <translation>pcre2_study () içinde iç hata: olmamalı</translation>
+    </message>
+    <message>
+        <source>this version of PCRE2 does not have Unicode support</source>
+        <translation>PCRE2&apos;nin bu sürümü Unicode desteğine sahip değil</translation>
+    </message>
+    <message>
+        <source>parentheses are too deeply nested (stack check)</source>
+        <translation>parantezler çok derin yuvalanmış (yığın denetimi)</translation>
+    </message>
+    <message>
+        <source>character code point value in \x{} or \o{} is too large</source>
+        <translation>\x{} veya \o{} içindeki karakter kodu nokta değeri çok büyük</translation>
     </message>
     <message>
         <source>lookbehind is too complicated</source>
-        <translation type="unfinished"></translation>
+        <translation>geriye bakma çok karmaşık</translation>
     </message>
     <message>
         <source>\C is not allowed in a lookbehind assertion in UTF-16 mode</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-16 modunda bir ileriye bakma iddiasında \C için izin verilmiyor</translation>
     </message>
     <message>
         <source>PCRE2 does not support \F, \L, \l, \N{name}, \U, or \u</source>
-        <translation type="unfinished"></translation>
+        <translation>PCRE2, \F, \L, \l, \N{name}, \U veya \u desteklemez</translation>
+    </message>
+    <message>
+        <source>number after (?C is greater than 255</source>
+        <translation>(?C sonrası sayı 255&apos;ten büyük</translation>
+    </message>
+    <message>
+        <source>closing parenthesis for (?C expected</source>
+        <translation>(?C için kapanış parantezi bekleniyor</translation>
+    </message>
+    <message>
+        <source>invalid escape sequence in (*VERB) name</source>
+        <translation>(* VERB) adında geçersiz çıkış sırası</translation>
+    </message>
+    <message>
+        <source>unrecognized character after (?P</source>
+        <translation>(?P sonrasında tanınmayan karakter</translation>
     </message>
     <message>
         <source>syntax error in subpattern name (missing terminator?)</source>
-        <translation type="unfinished"></translation>
+        <translation>alt desen adında sözdizimi hatası (eksik sonlandırıcı?)</translation>
+    </message>
+    <message>
+        <source>two named subpatterns have the same name (PCRE2_DUPNAMES not set)</source>
+        <translation>adlandırılmış iki alt desen aynı ada sahiptir (PCRE2_DUPNAMES ayarlanmamış)</translation>
     </message>
     <message>
         <source>subpattern name must start with a non-digit</source>
-        <translation type="unfinished"></translation>
+        <translation>alt desen adı rakam olmayan bir harfle başlamalıdır</translation>
+    </message>
+    <message>
+        <source>this version of PCRE2 does not have support for \P, \p, or \X</source>
+        <translation>PCRE2&apos;nin bu sürümü \P, \p veya \X için destek içermiyor</translation>
+    </message>
+    <message>
+        <source>malformed \P or \p sequence</source>
+        <translation>hatalı biçimlendirilmiş \P veya \p dizisi</translation>
+    </message>
+    <message>
+        <source>unknown property name after \P or \p</source>
+        <translation>\P veya \p&apos;den sonra bilinmeyen özellik adı</translation>
     </message>
     <message>
         <source>subpattern name is too long (maximum 32 code units)</source>
-        <translation type="unfinished"></translation>
+        <translation>alt desen adı çok uzun (en fazla 32 kod birimi)</translation>
     </message>
     <message>
         <source>too many named subpatterns (maximum 10000)</source>
-        <translation type="unfinished">過多命名子樣式 (最多 256 個) {10000)?}</translation>
+        <translation>çok fazla adlandırılmış alt desen en fazla 10000)</translation>
+    </message>
+    <message>
+        <source>invalid range in character class</source>
+        <translation>karakter sınıfında geçersiz aralık</translation>
+    </message>
+    <message>
+        <source>octal value is greater than \377 in 8-bit non-UTF-8 mode</source>
+        <translation>8 bit UTF-8 olmayan modda sekizlik değer \377&apos;den büyük</translation>
+    </message>
+    <message>
+        <source>internal error: overran compiling workspace</source>
+        <translation>iç hata: overran derleme çalışma alanı</translation>
+    </message>
+    <message>
+        <source>internal error: previously-checked referenced subpattern not found</source>
+        <translation>iç hata: önceden kontrol edilen referanslanmış alt desen bulunamadı</translation>
     </message>
     <message>
         <source>DEFINE subpattern contains more than one branch</source>
-        <translation type="unfinished"></translation>
+        <translation>DEFINE alt deseni birden fazla dal içeriyor</translation>
+    </message>
+    <message>
+        <source>missing opening brace after \o</source>
+        <translation>\o sonrası açılış süslü parantezi eksik</translation>
+    </message>
+    <message>
+        <source>internal error: unknown newline setting</source>
+        <translation>iç hata: bilinmeyen yeni satır ayarı</translation>
+    </message>
+    <message>
+        <source>\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number</source>
+        <translation>\g ifadesini süslü parantez, açılı parantez içinde veya tırnak içine alınmış bir ad/numara ya da düz bir sayı izlemez</translation>
     </message>
     <message>
         <source>(?R (recursive pattern call) must be followed by a closing parenthesis</source>
-        <translation type="unfinished"></translation>
+        <translation>(?R (özyinelemeli desen çağrısı) ardından kapanış parantezinin gelmesi gerekir</translation>
     </message>
     <message>
         <source>obsolete error (should not occur)</source>
-        <translation type="unfinished"></translation>
+        <translation>eski hata (oluşmamalı)</translation>
+    </message>
+    <message>
+        <source>(*VERB) not recognized or malformed</source>
+        <translation>(*VERB) tanınmadı veya hatalı biçimlendirildi</translation>
     </message>
     <message>
         <source>subpattern number is too big</source>
-        <translation type="unfinished"></translation>
+        <translation>alt desen numarası çok büyük</translation>
+    </message>
+    <message>
+        <source>subpattern name expected</source>
+        <translation>alt desen adı bekleniyor</translation>
     </message>
     <message>
         <source>internal error: parsed pattern overflow</source>
-        <translation type="unfinished"></translation>
+        <translation>iç hata: ayrıştırılmış desen taşması</translation>
+    </message>
+    <message>
+        <source>non-octal character in \o{} (closing brace missing?)</source>
+        <translation>\o{} içindeki sekizli olmayan karakter (kapanış süslü parantezi eksik mi?)</translation>
+    </message>
+    <message>
+        <source>different names for subpatterns of the same number are not allowed</source>
+        <translation>aynı numaranın alt desenleri için farklı adlara izin verilmez</translation>
+    </message>
+    <message>
+        <source>(*MARK) must have an argument</source>
+        <translation>(*MARK) bir değişkeni olmalı</translation>
+    </message>
+    <message>
+        <source>non-hex character in \x{} (closing brace missing?)</source>
+        <translation>\x{} içinde onaltılık olmayan karakter (kapanış süslü parantezi eksik mi?)</translation>
+    </message>
+    <message>
+        <source>\c must be followed by a printable ASCII character</source>
+        <translation>\c ifadesini yazdırılabilir bir ASCII karakteri izlemelidir</translation>
+    </message>
+    <message>
+        <source>\c must be followed by a letter or one of [\]^_?</source>
+        <translation>\c ifadesini [\]^_? değerlerinden biri veya bir mektup izlemelidir?</translation>
+    </message>
+    <message>
+        <source>\k is not followed by a braced, angle-bracketed, or quoted name</source>
+        <translation>\k ifadesini süslü parantez, açılı parantez veya tırnak içinde bir ad izlemez</translation>
     </message>
     <message>
         <source>internal error: unknown meta code in check_lookbehinds()</source>
-        <translation type="unfinished"></translation>
+        <translation>iç hata: check_lookbehinds() içinde bilinmeyen meta kod</translation>
+    </message>
+    <message>
+        <source>\N is not supported in a class</source>
+        <translation>\N bir sınıfta desteklenmiyor</translation>
     </message>
     <message>
         <source>callout string is too long</source>
-        <translation type="unfinished"></translation>
+        <translation>ek bilgi dizesi çok uzun</translation>
+    </message>
+    <message>
+        <source>disallowed Unicode code point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</source>
+        <translation>izin verilmeyen Unicode kod noktası (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</translation>
+    </message>
+    <message>
+        <source>using UTF is disabled by the application</source>
+        <translation>UTF kullanımı uygulama tarafından devre dışı bırakıldı</translation>
+    </message>
+    <message>
+        <source>using UCP is disabled by the application</source>
+        <translation>UCP kullanımı uygulama tarafından devre dışı bırakıldı</translation>
+    </message>
+    <message>
+        <source>name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)</source>
+        <translation>(*MARK), (*PRUNE), (*SKIP), veya (*THEN) içinde ad çok uzun</translation>
+    </message>
+    <message>
+        <source>character code point value in \u.... sequence is too large</source>
+        <translation>\u.... dizisindeki karakter kod noktası değeri çok büyük</translation>
     </message>
     <message>
         <source>digits missing in \x{} or \o{} or \N{U+}</source>
-        <translation type="unfinished"></translation>
+        <translation>\x{} veya \o{} veya \N{U+} içinde rakamlar eksik</translation>
     </message>
     <message>
         <source>syntax error or number too big in (?(VERSION condition</source>
-        <translation type="unfinished"></translation>
+        <translation>(?(VERSION koşulu içinde sözdizimi hatası veya sayı çok büyük</translation>
     </message>
     <message>
         <source>internal error: unknown opcode in auto_possessify()</source>
-        <translation>內部錯誤：auto_possessify() 中有未知 opcode</translation>
+        <translation>iç hata: auto_possessify () içinde bilinmeyen opcode</translation>
     </message>
     <message>
         <source>missing terminating delimiter for callout with string argument</source>
-        <translation type="unfinished"></translation>
+        <translation>dize değişkenli ek bilgi için sonlandırma sınırlayıcı eksik</translation>
     </message>
     <message>
         <source>unrecognized string delimiter follows (?C</source>
-        <translation type="unfinished"></translation>
+        <translation>tanınmayan dize sınırlayıcı (?C</translation>
     </message>
     <message>
         <source>using \C is disabled by the application</source>
-        <translation>應用程式停用 \C 使用權</translation>
+        <translation>\C kullanımı uygulama tarafından devre dışı bırakıldı</translation>
     </message>
     <message>
         <source>(?| and/or (?J: or (?x: parentheses are too deeply nested</source>
-        <translation type="unfinished"></translation>
+        <translation>(?| ve/veya (?J: veya (?x: parantezler çok derin iç içe</translation>
     </message>
     <message>
         <source>using \C is disabled in this PCRE2 library</source>
-        <translation type="unfinished"></translation>
+        <translation>\C kullanımı bu PCRE2 kütüphanesinde devre dışı bırakıldı</translation>
     </message>
     <message>
         <source>regular expression is too complicated</source>
-        <translation type="unfinished"></translation>
+        <translation>düzenli ifade çok karmaşık</translation>
     </message>
     <message>
         <source>lookbehind assertion is too long</source>
-        <translation type="unfinished"></translation>
+        <translation>geriye bakma iddiası çok uzun</translation>
     </message>
     <message>
         <source>pattern string is longer than the limit set by the application</source>
-        <translation type="unfinished"></translation>
+        <translation>desen dizesi uygulama tarafından ayarlanan sınırdan daha uzun</translation>
     </message>
     <message>
         <source>internal error: unknown code in parsed pattern</source>
-        <translation type="unfinished"></translation>
+        <translation>iç hata: ayrıştırılmış desende bilinmeyen kod</translation>
     </message>
     <message>
         <source>internal error: bad code value in parsed_skip()</source>
-        <translation type="unfinished"></translation>
+        <translation>iç hata: parsed_skip () içinde hatalı kod değeri</translation>
     </message>
     <message>
         <source>PCRE2_EXTRA_ALLOW_SURROGATE_ESCAPES is not allowed in UTF-16 mode</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-16 modunda PCRE2_EXTRA_ALLOW_SURROGATE_ESCAPES için izin verilmiyor</translation>
     </message>
     <message>
         <source>invalid option bits with PCRE2_LITERAL</source>
-        <translation type="unfinished"></translation>
+        <translation>PCRE2_LITERAL ile geçersiz seçenek bitleri</translation>
     </message>
     <message>
         <source>\N{U+dddd} is supported only in Unicode (UTF) mode</source>
-        <translation type="unfinished"></translation>
+        <translation>\N{U+dddd} yalnızca Unicode (UTF) modunda desteklenir</translation>
     </message>
     <message>
         <source>invalid hyphen in option setting</source>
-        <translation type="unfinished"></translation>
+        <translation>seçenek ayarında geçersiz kısa çizgi</translation>
     </message>
     <message>
         <source>(*alpha_assertion) not recognized</source>
-        <translation type="unfinished"></translation>
+        <translation>(*alpha_assertion) tanınmadı</translation>
     </message>
     <message>
         <source>script runs require Unicode support, which this version of PCRE2 does not have</source>
-        <translation type="unfinished"></translation>
+        <translation>betik çalıştırmaları, bu PCRE2 sürümünün sahip olmadığı Unicode desteği gerektirir</translation>
     </message>
     <message>
         <source>too many capturing groups (maximum 65535)</source>
-        <translation type="unfinished"></translation>
+        <translation>çok fazla yakalama grubu (en fazla 65535)</translation>
     </message>
     <message>
         <source>atomic assertion expected after (?( or (?(?C)</source>
-        <translation type="unfinished"></translation>
+        <translation>(?( or (?(?C) sonrası atomik iddia beklenir</translation>
     </message>
     <message>
         <source>no match</source>
-        <translation>沒有符合項目</translation>
+        <translation>eşleşme yok</translation>
     </message>
     <message>
         <source>partial match</source>
-        <translation>只有部份符合</translation>
+        <translation>kısmi eşleşme</translation>
     </message>
     <message>
         <source>UTF-8 error: 1 byte missing at end</source>
-        <translation>UTF-8 錯誤：結尾缺少 1 個位元組</translation>
+        <translation>UTF-8 hatası: sonda 1 bayt eksik</translation>
     </message>
     <message>
         <source>UTF-8 error: 2 bytes missing at end</source>
-        <translation>UTF-8 錯誤：結尾缺少 2 個位元組</translation>
+        <translation>UTF-8 hatası: sonda 2 bayt eksik</translation>
     </message>
     <message>
         <source>UTF-8 error: 3 bytes missing at end</source>
-        <translation>UTF-8 錯誤：結尾缺少 3 個位元組</translation>
+        <translation>UTF-8 hatası: sonda 3 bayt eksik</translation>
     </message>
     <message>
         <source>UTF-8 error: 4 bytes missing at end</source>
-        <translation>UTF-8 錯誤：結尾缺少 4 個位元組</translation>
+        <translation>UTF-8 hatası: sonda 4 bayt eksik</translation>
     </message>
     <message>
         <source>UTF-8 error: 5 bytes missing at end</source>
-        <translation>UTF-8 錯誤：結尾缺少 5 個位元組</translation>
+        <translation>UTF-8 hatası: sonda 5 bayt eksik</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 2 top bits not 0x80</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8 hatası: bayt 2 üst bit 0x80 değil</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 3 top bits not 0x80</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8 hatası: bayt 3 üst bit 0x80 değil</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 4 top bits not 0x80</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8 hatası: bayt 4 üst bit 0x80 değil</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 5 top bits not 0x80</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8 hatası: bayt 4 üst bit 0x80 değil</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 6 top bits not 0x80</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8 hatası: bayt 6 üst bit 0x80 değil</translation>
     </message>
     <message>
         <source>UTF-8 error: 5-byte character is not allowed (RFC 3629)</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8 hatası: 5 bayt karaktere izin verilmiyor (RFC 3629)</translation>
     </message>
     <message>
         <source>UTF-8 error: 6-byte character is not allowed (RFC 3629)</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8 hatası: 6 bayt karaktere izin verilmiyor (RFC 3629)</translation>
     </message>
     <message>
         <source>UTF-8 error: code points greater than 0x10ffff are not defined</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8 hatası: 0x10ffff değerinden büyük kod noktaları tanımlanmadı</translation>
     </message>
     <message>
         <source>UTF-8 error: code points 0xd800-0xdfff are not defined</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8 hatası: 0xd800-0xdfff kod noktaları tanımlanmadı</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 2-byte sequence</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8 hatası: aşırı 2 baytlık sıra</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 3-byte sequence</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8 hatası: aşırı 3 baytlık sıra</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 4-byte sequence</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8 hatası: aşırı 4 baytlık sıra</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 5-byte sequence</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8 hatası: aşırı 5 baytlık sıra</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 6-byte sequence</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8 hatası: aşırı 6 baytlık sıra</translation>
     </message>
     <message>
         <source>UTF-8 error: isolated byte with 0x80 bit set</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8 hatası: 0x80 bit kümesi ile yalıtılmış bayt</translation>
     </message>
     <message>
         <source>UTF-8 error: illegal byte (0xfe or 0xff)</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8 hatası: geçersiz bayt (0xfe veya 0xff)</translation>
     </message>
     <message>
         <source>UTF-16 error: missing low surrogate at end</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-16 hatası: sonda düşük vekil eksik</translation>
     </message>
     <message>
         <source>UTF-16 error: invalid low surrogate</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-16 hatası: geçersiz düşük vekil</translation>
     </message>
     <message>
         <source>UTF-16 error: isolated low surrogate</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-16 hatası: yalıtılmış düşük vekil</translation>
     </message>
     <message>
         <source>UTF-32 error: code points 0xd800-0xdfff are not defined</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-32 hatası: 0xd800-0xdfff kod noktaları tanımlanmadı</translation>
     </message>
     <message>
         <source>UTF-32 error: code points greater than 0x10ffff are not defined</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-32 hatası: 0x10ffff değerinden büyük kod noktaları tanımlanmadı</translation>
     </message>
     <message>
         <source>bad data value</source>
-        <translation>資料數值錯誤</translation>
+        <translation>hatalı veri değeri</translation>
     </message>
     <message>
         <source>patterns do not all use the same character tables</source>
-        <translation type="unfinished"></translation>
+        <translation>desenlerin hepsi aynı karakter tablolarını kullanmaz</translation>
     </message>
     <message>
         <source>magic number missing</source>
-        <translation type="unfinished"></translation>
+        <translation>sihirli numara eksik</translation>
     </message>
     <message>
         <source>pattern compiled in wrong mode: 8/16/32-bit error</source>
-        <translation type="unfinished"></translation>
+        <translation>desen yanlış modda derlendi: 8/16/32-bit hatası</translation>
     </message>
     <message>
         <source>bad offset value</source>
-        <translation>位移數值錯誤</translation>
+        <translation>bozuk ofset değeri</translation>
     </message>
     <message>
         <source>bad option value</source>
-        <translation>選項數值錯誤</translation>
+        <translation>bozuk seçenek değeri</translation>
     </message>
     <message>
         <source>invalid replacement string</source>
-        <translation type="unfinished"></translation>
+        <translation>geçersiz değiştirme dizesi</translation>
     </message>
     <message>
         <source>bad offset into UTF string</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF dizesine bozuk ofset</translation>
     </message>
     <message>
         <source>callout error code</source>
-        <translation type="unfinished"></translation>
+        <translation>ek bilgi hata kodu</translation>
     </message>
     <message>
         <source>invalid data in workspace for DFA restart</source>
-        <translation type="unfinished"></translation>
+        <translation>DFA yeniden başlatması için çalışma alanındaki geçersiz veriler</translation>
     </message>
     <message>
         <source>too much recursion for DFA matching</source>
-        <translation type="unfinished"></translation>
+        <translation>DFA eşleşmesi için çok fazla özyineleme</translation>
     </message>
     <message>
         <source>backreference condition or recursion test is not supported for DFA matching</source>
-        <translation type="unfinished"></translation>
+        <translation>DFA eşleşmesi için geri referans koşulu veya yineleme testi desteklenmez</translation>
     </message>
     <message>
         <source>function is not supported for DFA matching</source>
-        <translation type="unfinished"></translation>
+        <translation>işlev DFA eşleşmesi için desteklenmiyor</translation>
     </message>
     <message>
         <source>pattern contains an item that is not supported for DFA matching</source>
-        <translation type="unfinished"></translation>
+        <translation>desen DFA eşleşmesi için desteklenmeyen bir öğe içeriyor</translation>
     </message>
     <message>
         <source>workspace size exceeded in DFA matching</source>
-        <translation type="unfinished"></translation>
+        <translation>DFA eşleşmesinde çalışma alanı boyutu aşıldı</translation>
     </message>
     <message>
         <source>internal error - pattern overwritten?</source>
-        <translation>內部錯誤 - 樣式被覆蓋？</translation>
+        <translation>iç hata - desenin üzerine yazılıyor mu?</translation>
     </message>
     <message>
         <source>bad JIT option</source>
-        <translation>JIT 選項錯誤</translation>
+        <translation>bozuk JIT seçeneği</translation>
     </message>
     <message>
         <source>JIT stack limit reached</source>
-        <translation>達到 JIT 堆疊限制</translation>
+        <translation>JIT yığın sınırına ulaşıldı</translation>
     </message>
     <message>
         <source>match limit exceeded</source>
-        <translation>達到配對限制</translation>
+        <translation>eşleşme sınırı aşıldı</translation>
     </message>
     <message>
         <source>no more memory</source>
-        <translation>記憶體不足</translation>
+        <translation>daha fazla bellek yok</translation>
     </message>
     <message>
         <source>unknown substring</source>
-        <translation>子字串不明</translation>
+        <translation>bilinmeyen alt dize</translation>
     </message>
     <message>
         <source>non-unique substring name</source>
-        <translation>子字串名稱重複</translation>
+        <translation>benzersiz olmayan alt dize adı</translation>
     </message>
     <message>
         <source>NULL argument passed</source>
-        <translation>傳入 NULL 參數</translation>
+        <translation>NULL değişkeni geçti</translation>
     </message>
     <message>
         <source>nested recursion at the same subject position</source>
-        <translation type="unfinished"></translation>
+        <translation>aynı konu konumunda iç içe özyineleme</translation>
     </message>
     <message>
         <source>matching depth limit exceeded</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>match with end before start or start moved backwards is not supported</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>bad serialized data</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>heap limit exceeded</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>invalid syntax</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>internal error - duplicate substitution match</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>PCRE2_MATCH_INVALID_UTF is not supported for DFA matching</source>
-        <translation type="unfinished"></translation>
+        <translation>eşleşen derinlik sınırı aşıldı</translation>
     </message>
     <message>
         <source>requested value is not available</source>
-        <translation type="unfinished"></translation>
+        <translation>istenen değer mevcut değil</translation>
     </message>
     <message>
         <source>requested value is not set</source>
-        <translation type="unfinished"></translation>
+        <translation>istenen değer ayarlanmadı</translation>
     </message>
     <message>
         <source>offset limit set without PCRE2_USE_OFFSET_LIMIT</source>
-        <translation>需要 PCRE2_USE_OFFSET_LIMIT 才能設定位移限制</translation>
+        <translation>PCRE2_USE_OFFSET_LIMIT olmadan ofset sınırı ayarlandı</translation>
     </message>
     <message>
         <source>bad escape sequence in replacement string</source>
-        <translation>取代字串中有無效的跳脫序列</translation>
+        <translation>değiştirme dizesinde bozuk kaçış dizisi</translation>
     </message>
     <message>
         <source>expected closing curly bracket in replacement string</source>
-        <translation type="unfinished"></translation>
+        <translation>değiştirme dizesinde beklenen kapanış parantezi</translation>
     </message>
     <message>
         <source>bad substitution in replacement string</source>
-        <translation type="unfinished"></translation>
+        <translation>değiştirme dizesinde bozuk ikame</translation>
+    </message>
+    <message>
+        <source>match with end before start or start moved backwards is not supported</source>
+        <translation>başlamadan önce bitiş ile eşleşme veya geriye doğru hareket etme desteklenmez</translation>
     </message>
     <message>
         <source>too many replacements (more than INT_MAX)</source>
-        <translation>過多取代項目 (多於 INT_MAX)</translation>
+        <translation>çok fazla değişiklik (INT_MAX değerinden fazla)</translation>
+    </message>
+    <message>
+        <source>bad serialized data</source>
+        <translation>bozuk serileştirilmiş veriler</translation>
+    </message>
+    <message>
+        <source>heap limit exceeded</source>
+        <translation>yığın sınırı aşıldı</translation>
+    </message>
+    <message>
+        <source>invalid syntax</source>
+        <translation>invalid syntax</translation>
+    </message>
+    <message>
+        <source>internal error - duplicate substitution match</source>
+        <translation>iç hata - yinelenen ikame eşleşmesi</translation>
+    </message>
+    <message>
+        <source>PCRE2_MATCH_INVALID_UTF is not supported for DFA matching</source>
+        <translation>PCRE2_MATCH_INVALID_UTF, DFA eşleşmesi için desteklenmiyor</translation>
     </message>
 </context>
 <context>
     <name>QSQLite2Driver</name>
     <message>
         <source>Error opening database</source>
-        <translation>開啟資料庫發生錯誤</translation>
+        <translation>Veritabanı açılırken hata oluştu</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>無法開始處理事項</translation>
+        <translation>İşlem başlatılamıyor</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>無法提交處理事項</translation>
+        <translation>İşleme yapılamıyor</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>無法回退處理事項</translation>
+        <translation>İşlem geri alınamıyor</translation>
     </message>
 </context>
 <context>
     <name>QSQLite2Result</name>
     <message>
         <source>Unable to fetch results</source>
-        <translation>無法抓取結果</translation>
+        <translation>Sonuçlar getirilemiyor</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>無法執行陳述</translation>
+        <translation>İfade yürütülemiyor</translation>
     </message>
 </context>
 <context>
     <name>QSQLiteDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>開啟資料庫發生錯誤</translation>
+        <translation>Veritabanı açılırken hata oluştu</translation>
     </message>
     <message>
         <source>Error closing database</source>
-        <translation>關閉資料庫發生錯誤</translation>
+        <translation>Veritabanı kapatılırken hata oluştu</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>無法開始處理事項</translation>
+        <translation>İşlem başlatılamıyor</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>無法提交處理事項</translation>
+        <translation>İşleme yapılamıyor</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>無法回退處理事項</translation>
+        <translation>İşlem geri alınamıyor</translation>
     </message>
 </context>
 <context>
     <name>QSQLiteResult</name>
     <message>
         <source>Unable to fetch row</source>
-        <translation>無法抓取列</translation>
+        <translation>Satır getirilemedi</translation>
     </message>
     <message>
         <source>No query</source>
-        <translation>沒有查詢</translation>
+        <translation>Sorgu yok</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>無法執行陳述</translation>
+        <translation>İfade yürütülemiyor</translation>
     </message>
     <message>
         <source>Unable to execute multiple statements at a time</source>
-        <translation>不能同時執行多個陳述</translation>
+        <translation>Bir kerede birden fazla ifade çalıştırılamıyor</translation>
     </message>
     <message>
         <source>Unable to reset statement</source>
-        <translation>無法重設陳述</translation>
+        <translation>İfade sıfırlanamıyor</translation>
     </message>
     <message>
         <source>Unable to bind parameters</source>
-        <translation>無法結合參數</translation>
+        <translation>Parametreler bağlanamıyor</translation>
     </message>
     <message>
         <source>Parameter count mismatch</source>
-        <translation>參數數量不符合</translation>
+        <translation>Parametre sayısı uyuşmazlığı</translation>
     </message>
 </context>
 <context>
     <name>QSaveFile</name>
     <message>
         <source>Existing file %1 is not writable</source>
-        <translation>存在檔案 %1 無法寫入</translation>
+        <translation>Mevcut %1 dosyası yazılabilir değil</translation>
     </message>
     <message>
         <source>Filename refers to a directory</source>
-        <translation>檔案名稱對應到一個目錄</translation>
+        <translation>Dosya adı bir dizini ifade eder</translation>
     </message>
     <message>
         <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled.</source>
-        <translation>QSaveFile 只能在啟用直接寫入後援時開啟「%1」。</translation>
-    </message>
-    <message>
-        <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled: path contains an Alternate Data Stream specifier</source>
-        <translation type="vanished">QSaveFile 無法在沒啟用直接寫入 fallback 的情況下開啟「%1」：位置包含了一個備用檔案串流說明符</translation>
+        <translation>QSaveFile doğrudan yazma geri dönüşü etkinleştirilmeden &apos;%1&apos; dosyasını açamıyor.</translation>
     </message>
     <message>
         <source>Writing canceled by application</source>
-        <translation>被應用程式取消寫入程序</translation>
+        <translation>Yazma, uygulama tarafından iptal edildi</translation>
     </message>
 </context>
 <context>
     <name>QScrollBar</name>
     <message>
         <source>Scroll here</source>
-        <translation>在此捲動</translation>
+        <translation>Buraya kaydır</translation>
     </message>
     <message>
         <source>Left edge</source>
-        <translation>左邊緣</translation>
+        <translation>Sol kenar</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation>頂端</translation>
+        <translation>Üst</translation>
     </message>
     <message>
         <source>Right edge</source>
-        <translation>右邊緣</translation>
+        <translation>Sağ kenar</translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation>底端</translation>
+        <translation>Alt</translation>
     </message>
     <message>
         <source>Page left</source>
-        <translation>頁面左方</translation>
+        <translation>Sayfa sola</translation>
     </message>
     <message>
         <source>Page up</source>
-        <translation>頁面上方</translation>
+        <translation>Sayfa yukarı</translation>
     </message>
     <message>
         <source>Page right</source>
-        <translation>頁面右方</translation>
+        <translation>Sayfa sağa</translation>
     </message>
     <message>
         <source>Page down</source>
-        <translation>頁面下方</translation>
+        <translation>Sayfa aşağı</translation>
     </message>
     <message>
         <source>Scroll left</source>
-        <translation>往左捲動</translation>
+        <translation>Sola kaydır</translation>
     </message>
     <message>
         <source>Scroll up</source>
-        <translation>往上捲動</translation>
+        <translation>Yukarı kaydır</translation>
     </message>
     <message>
         <source>Scroll right</source>
-        <translation>往右捲動</translation>
+        <translation>Sağa kaydır</translation>
     </message>
     <message>
         <source>Scroll down</source>
-        <translation>往下捲動</translation>
+        <translation>Aşağı kaydır</translation>
     </message>
 </context>
 <context>
     <name>QSctpSocket</name>
     <message>
         <source>The remote host closed the connection</source>
-        <translation>遠端主機關閉了連線</translation>
+        <translation>Uzak ana bilgisayar bağlantıyı kapattı</translation>
     </message>
 </context>
 <context>
     <name>QSharedMemory</name>
     <message>
         <source>%1: unable to set key on lock</source>
-        <translation>%1：無法設定鎖定鍵</translation>
+        <translation>%1: anahtar kilide ayarlanamıyor</translation>
     </message>
     <message>
         <source>%1: create size is less then 0</source>
-        <translation>%1：建立大小小於 0</translation>
+        <translation>%1: oluşturma boyutu 0&apos;dan küçük</translation>
     </message>
     <message>
         <source>%1: unable to lock</source>
-        <translation>%1：無法鎖定</translation>
+        <translation>%1: kilitlenemiyor</translation>
     </message>
     <message>
         <source>%1: unable to unlock</source>
-        <translation>%1：無法解鎖</translation>
+        <translation>%1: kilit açılamıyor</translation>
     </message>
     <message>
         <source>%1: key is empty</source>
-        <translation>%1：鍵值是空的</translation>
+        <translation>%1: anahtar boş</translation>
     </message>
     <message>
         <source>%1: bad name</source>
-        <translation>%1：無效名稱</translation>
+        <translation>%1: bozuk ad</translation>
     </message>
     <message>
         <source>%1: UNIX key file doesn&apos;t exist</source>
-        <translation>%1：UNIX 金鑰檔案不存在</translation>
+        <translation>%1: UNIX anahtar dosyası mevcut değil</translation>
     </message>
     <message>
         <source>%1: ftok failed</source>
-        <translation>%1：ftok 失敗</translation>
+        <translation>%1: ftok başarısız oldu</translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
-        <translation>%1：無法產生鍵值</translation>
+        <translation>%1: anahtar yapılamıyor</translation>
     </message>
     <message>
         <source>%1: system-imposed size restrictions</source>
-        <translation>%1：系統強制大小限制</translation>
+        <translation>%1: sistem tarafından uygulanan boyut kısıtlamaları</translation>
     </message>
     <message>
         <source>%1: not attached</source>
-        <translation>%1：未附加</translation>
+        <translation>%1: ekli değil</translation>
     </message>
     <message>
         <source>%1: permission denied</source>
-        <translation>%1：存取被拒</translation>
+        <translation>%1: izin reddedildi</translation>
     </message>
     <message>
         <source>%1: already exists</source>
-        <translation>%1：已存在</translation>
+        <translation>%1: zaten var</translation>
     </message>
     <message>
         <source>%1: doesn&apos;t exist</source>
-        <translation>%1：不存在</translation>
+        <translation>%1: mevcut değil</translation>
     </message>
     <message>
         <source>%1: out of resources</source>
-        <translation>%1：資源不足</translation>
+        <translation>%1: kaynak dışı</translation>
     </message>
     <message>
         <source>%1: unknown error %2</source>
-        <translation>%1：未知的錯誤 %2</translation>
+        <translation>%1: bilinmeyen %2 hatası</translation>
     </message>
     <message>
         <source>%1: invalid size</source>
-        <translation>%1：大小無效</translation>
+        <translation>%1: geçersiz boyut</translation>
     </message>
     <message>
         <source>%1: key error</source>
-        <translation>%1：鍵值錯誤</translation>
+        <translation>%1: anahtar hatası</translation>
     </message>
     <message>
         <source>%1: size query failed</source>
-        <translation>%1：大小查詢失敗</translation>
+        <translation>%1: boyut sorgusu başarısız oldu</translation>
     </message>
 </context>
 <context>
@@ -5197,47 +5140,47 @@ Please turn one of those options off.</source>
     <message>
         <source>Space</source>
         <extracomment>This and all following &quot;incomprehensible&quot; strings in QShortcut context are key names. Please use the localized names appearing on actual keyboards or whatever is commonly used.</extracomment>
-        <translation>空白鍵</translation>
+        <translation>Boşluk</translation>
     </message>
     <message>
         <source>Esc</source>
-        <translation>Esc</translation>
+        <translation>Çıkış</translation>
     </message>
     <message>
         <source>Tab</source>
-        <translation>Tab</translation>
+        <translation>Sekme</translation>
     </message>
     <message>
         <source>Backtab</source>
-        <translation>Backtab</translation>
+        <translation>Geri sekmesi</translation>
     </message>
     <message>
         <source>Backspace</source>
-        <translation>Backspace</translation>
+        <translation>Geri sil</translation>
     </message>
     <message>
         <source>Return</source>
-        <translation>Return</translation>
+        <translation>Dönüş</translation>
     </message>
     <message>
         <source>Enter</source>
-        <translation>Enter</translation>
+        <translation>Giriş</translation>
     </message>
     <message>
         <source>Ins</source>
-        <translation>插入鍵 (Ins)</translation>
+        <translation>Ekle</translation>
     </message>
     <message>
         <source>Del</source>
-        <translation>刪除鍵 (Del)</translation>
+        <translation>Sil</translation>
     </message>
     <message>
         <source>Pause</source>
-        <translation>暫停鍵 (Pause)</translation>
+        <translation>Duraklat</translation>
     </message>
     <message>
         <source>Print</source>
-        <translation>Print</translation>
+        <translation>Yazdır</translation>
     </message>
     <message>
         <source>SysReq</source>
@@ -5245,369 +5188,369 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Home</source>
-        <translation>Home</translation>
+        <translation>Ana Sayfa</translation>
     </message>
     <message>
         <source>End</source>
-        <translation>End</translation>
+        <translation>Son</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation>左鍵</translation>
+        <translation>Sola</translation>
     </message>
     <message>
         <source>Up</source>
-        <translation>上鍵</translation>
+        <translation>Yukarı</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation>右鍵</translation>
+        <translation>Sağa</translation>
     </message>
     <message>
         <source>Down</source>
-        <translation>下鍵</translation>
+        <translation>Aşağı</translation>
     </message>
     <message>
         <source>PgUp</source>
-        <translation>PgUp</translation>
+        <translation>Sayfa yukarı</translation>
     </message>
     <message>
         <source>PgDown</source>
-        <translation>PgDown</translation>
+        <translation>Sayfa aşağı</translation>
     </message>
     <message>
         <source>CapsLock</source>
-        <translation>大寫鎖定</translation>
+        <translation>Büyük harf</translation>
     </message>
     <message>
         <source>NumLock</source>
-        <translation>數字鎖定</translation>
+        <translation>Sayı Kilidi</translation>
     </message>
     <message>
         <source>ScrollLock</source>
-        <translation>捲動鎖定</translation>
+        <translation>Kaydırma kilidi</translation>
     </message>
     <message>
         <source>Menu</source>
-        <translation>選單</translation>
+        <translation>Menü</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>說明</translation>
+        <translation>Yardım</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>返回</translation>
+        <translation>Geri</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>往前</translation>
+        <translation>İleri</translation>
     </message>
     <message>
         <source>Stop</source>
-        <translation>停止</translation>
+        <translation>Dur</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation>重新整理</translation>
+        <translation>Yenile</translation>
     </message>
     <message>
         <source>Volume Down</source>
-        <translation>音量降低</translation>
+        <translation>Sesi Düşür</translation>
     </message>
     <message>
         <source>Volume Mute</source>
-        <translation>靜音</translation>
+        <translation>Sesi Kes</translation>
     </message>
     <message>
         <source>Volume Up</source>
-        <translation>音量加大</translation>
+        <translation>Sesi Yükselt</translation>
     </message>
     <message>
         <source>Bass Boost</source>
-        <translation>重低音</translation>
+        <translation>Bası Kuvvetlendir</translation>
     </message>
     <message>
         <source>Bass Up</source>
-        <translation>Bass Up</translation>
+        <translation>Bası Yükselt</translation>
     </message>
     <message>
         <source>Bass Down</source>
-        <translation>Bass Down</translation>
+        <translation>Bası Düşür</translation>
     </message>
     <message>
         <source>Treble Up</source>
-        <translation>Treble Up</translation>
+        <translation>Tizi Yükselt</translation>
     </message>
     <message>
         <source>Treble Down</source>
-        <translation>Treble Down</translation>
+        <translation>Tizi Düşür</translation>
     </message>
     <message>
         <source>Media Play</source>
-        <translation>播放媒體</translation>
+        <translation>Medyayı Oynat</translation>
     </message>
     <message>
         <source>Media Stop</source>
-        <translation>停止媒體</translation>
+        <translation>Medyayı Durdur</translation>
     </message>
     <message>
         <source>Media Previous</source>
-        <translation>上一個媒體</translation>
+        <translation>Önceki Medya</translation>
     </message>
     <message>
         <source>Media Next</source>
-        <translation>下一個媒體</translation>
+        <translation>Sonraki Medya</translation>
     </message>
     <message>
         <source>Media Record</source>
-        <translation>錄製媒體</translation>
+        <translation>Medyayı Kaydet</translation>
     </message>
     <message>
         <source>Media Pause</source>
         <extracomment>Media player pause button</extracomment>
-        <translation>暫停媒體</translation>
+        <translation>Medyayı Duraklat</translation>
     </message>
     <message>
         <source>Toggle Media Play/Pause</source>
         <extracomment>Media player button to toggle between playing and paused</extracomment>
-        <translation>切換播放／暫停媒體</translation>
+        <translation>Medyayı Oynat/Duraklat</translation>
     </message>
     <message>
         <source>Home Page</source>
-        <translation>首頁</translation>
+        <translation>Ana Sayfa</translation>
     </message>
     <message>
         <source>Favorites</source>
-        <translation>最愛</translation>
+        <translation>Sık Kullanılanlar</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>搜尋</translation>
+        <translation>Ara</translation>
     </message>
     <message>
         <source>Standby</source>
-        <translation>待命</translation>
+        <translation>Hazırda bekle</translation>
     </message>
     <message>
         <source>Open URL</source>
-        <translation>開啟網址</translation>
+        <translation>URL Aç</translation>
     </message>
     <message>
         <source>Launch Mail</source>
-        <translation>啟動郵件程式</translation>
+        <translation>Postayı Başlat</translation>
     </message>
     <message>
         <source>Launch Media</source>
-        <translation>啟動媒體程式</translation>
+        <translation>Medyayı Başlat</translation>
     </message>
     <message>
         <source>Launch (0)</source>
-        <translation>啟動 (0)</translation>
+        <translation>Başlat (0)</translation>
     </message>
     <message>
         <source>Launch (1)</source>
-        <translation>啟動 (1)</translation>
+        <translation>Başlat (1)</translation>
     </message>
     <message>
         <source>Launch (2)</source>
-        <translation>啟動 (2)</translation>
+        <translation>Başlat (2)</translation>
     </message>
     <message>
         <source>Launch (3)</source>
-        <translation>啟動 (3)</translation>
+        <translation>Başlat (3)</translation>
     </message>
     <message>
         <source>Launch (4)</source>
-        <translation>啟動 (4)</translation>
+        <translation>Başlat (4)</translation>
     </message>
     <message>
         <source>Launch (5)</source>
-        <translation>啟動 (5)</translation>
+        <translation>Başlat (5)</translation>
     </message>
     <message>
         <source>Launch (6)</source>
-        <translation>啟動 (6)</translation>
+        <translation>Başlat (6)</translation>
     </message>
     <message>
         <source>Launch (7)</source>
-        <translation>啟動 (7)</translation>
+        <translation>Başlat (7)</translation>
     </message>
     <message>
         <source>Launch (8)</source>
-        <translation>啟動 (8)</translation>
+        <translation>Başlat (8)</translation>
     </message>
     <message>
         <source>Launch (9)</source>
-        <translation>啟動 (9)</translation>
+        <translation>Başlat (9)</translation>
     </message>
     <message>
         <source>Launch (A)</source>
-        <translation>啟動 (A)</translation>
+        <translation>Başlat (A)</translation>
     </message>
     <message>
         <source>Launch (B)</source>
-        <translation>啟動 (B)</translation>
+        <translation>Başlat (B)</translation>
     </message>
     <message>
         <source>Launch (C)</source>
-        <translation>啟動 (C)</translation>
+        <translation>Başlat (C)</translation>
     </message>
     <message>
         <source>Launch (D)</source>
-        <translation>啟動 (D)</translation>
+        <translation>Başlat (D)</translation>
     </message>
     <message>
         <source>Launch (E)</source>
-        <translation>啟動 (E)</translation>
+        <translation>Başlat (E)</translation>
     </message>
     <message>
         <source>Launch (F)</source>
-        <translation>啟動 (F)</translation>
+        <translation>Başlat (F)</translation>
     </message>
     <message>
         <source>Launch (G)</source>
-        <translation>啟動 (G)</translation>
+        <translation>Başlat (G)</translation>
     </message>
     <message>
         <source>Launch (H)</source>
-        <translation>啟動 (H)</translation>
+        <translation>Başlat (H)</translation>
     </message>
     <message>
         <source>Monitor Brightness Up</source>
-        <translation>提高顯示器亮度</translation>
+        <translation>Ekran Parlaklığını Yükselt</translation>
     </message>
     <message>
         <source>Monitor Brightness Down</source>
-        <translation>降低顯示器亮度</translation>
+        <translation>Ekran Parlaklığını Düşür</translation>
     </message>
     <message>
         <source>Keyboard Light On/Off</source>
-        <translation>開啟／關閉鍵盤燈光</translation>
+        <translation>Klavye Işığını Aç/Kapat</translation>
     </message>
     <message>
         <source>Keyboard Brightness Up</source>
-        <translation>提高鍵盤亮度</translation>
+        <translation>Klavye Işığını Yükselt</translation>
     </message>
     <message>
         <source>Keyboard Brightness Down</source>
-        <translation>降低鍵盤亮度</translation>
+        <translation>Klavye Işığını Düşür</translation>
     </message>
     <message>
         <source>Power Off</source>
-        <translation>電源關閉</translation>
+        <translation>Gücü Kapat</translation>
     </message>
     <message>
         <source>Wake Up</source>
-        <translation>喚醒</translation>
+        <translation>Uyandır</translation>
     </message>
     <message>
         <source>Eject</source>
-        <translation>退出</translation>
+        <translation>Çıkar</translation>
     </message>
     <message>
         <source>Screensaver</source>
-        <translation>螢幕保護程式</translation>
+        <translation>Ekran Koruyucu</translation>
     </message>
     <message>
         <source>WWW</source>
-        <translation>網際網路</translation>
+        <translation>WWW</translation>
     </message>
     <message>
         <source>Sleep</source>
-        <translation>睡眠</translation>
+        <translation>Uyku</translation>
     </message>
     <message>
         <source>LightBulb</source>
-        <translation>燈泡</translation>
+        <translation>Ampül</translation>
     </message>
     <message>
         <source>Shop</source>
-        <translation>商店</translation>
+        <translation>Dükkan</translation>
     </message>
     <message>
         <source>History</source>
-        <translation>歷史紀錄</translation>
+        <translation>Geçmiş</translation>
     </message>
     <message>
         <source>Add Favorite</source>
-        <translation>加到最愛</translation>
+        <translation>Sık Kullanılana Ekle</translation>
     </message>
     <message>
         <source>Hot Links</source>
-        <translation>熱門連結</translation>
+        <translation>Popüler Bağlantılar</translation>
     </message>
     <message>
         <source>Adjust Brightness</source>
-        <translation>調整亮度</translation>
+        <translation>Parlaklığı Ayarla</translation>
     </message>
     <message>
         <source>Finance</source>
-        <translation>股市</translation>
+        <translation>Finans</translation>
     </message>
     <message>
         <source>Community</source>
-        <translation>社群</translation>
+        <translation>Topluluk</translation>
     </message>
     <message>
         <source>Media Rewind</source>
-        <translation>倒帶媒體</translation>
+        <translation>Medya Geri Sar</translation>
     </message>
     <message>
         <source>Back Forward</source>
-        <translation>向後向前</translation>
+        <translation>İleri geri</translation>
     </message>
     <message>
         <source>Application Left</source>
-        <translation>應用程式向左</translation>
+        <translation>Sol Uygulama</translation>
     </message>
     <message>
         <source>Application Right</source>
-        <translation>應用程式向右</translation>
+        <translation>Sağ Uygulama</translation>
     </message>
     <message>
         <source>Book</source>
-        <translation>書籍</translation>
+        <translation>Kitap</translation>
     </message>
     <message>
         <source>CD</source>
-        <translation>CD 光碟</translation>
+        <translation>CD</translation>
     </message>
     <message>
         <source>Calculator</source>
-        <translation>計算機</translation>
+        <translation>Hesap Makinesi</translation>
     </message>
     <message>
         <source>Calendar</source>
-        <translation>行事曆</translation>
+        <translation>Takvim</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>清除</translation>
+        <translation>Temizle</translation>
     </message>
     <message>
         <source>Clear Grab</source>
-        <translation>清除痕跡</translation>
+        <translation>Açık Tut</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>關閉</translation>
+        <translation>Kapat</translation>
     </message>
     <message>
         <source>Adjust contrast</source>
-        <translation>調整對比度</translation>
+        <translation>Karşıtlığı ayarla</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>複製</translation>
+        <translation>Kopyala</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation>剪下</translation>
+        <translation>Kes</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation>顯示器</translation>
+        <translation>Ekran</translation>
     </message>
     <message>
         <source>DOS</source>
@@ -5615,23 +5558,23 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Documents</source>
-        <translation>文件</translation>
+        <translation>Belgeler</translation>
     </message>
     <message>
         <source>Spreadsheet</source>
-        <translation>試算表</translation>
+        <translation>Çizelge</translation>
     </message>
     <message>
         <source>Browser</source>
-        <translation>瀏覽器</translation>
+        <translation>Tarayıcı</translation>
     </message>
     <message>
         <source>Game</source>
-        <translation>遊戲</translation>
+        <translation>Oyun</translation>
     </message>
     <message>
         <source>Go</source>
-        <translation>前往</translation>
+        <translation>Git</translation>
     </message>
     <message>
         <source>iTouch</source>
@@ -5639,119 +5582,119 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Logoff</source>
-        <translation>登出</translation>
+        <translation>Oturumu Kapat</translation>
     </message>
     <message>
         <source>Market</source>
-        <translation>市集</translation>
+        <translation>Market</translation>
     </message>
     <message>
         <source>Meeting</source>
-        <translation>通訊</translation>
+        <translation>Toplantı</translation>
     </message>
     <message>
         <source>Memo</source>
-        <translation>備忘錄</translation>
+        <translation>Hatırlatıcı</translation>
     </message>
     <message>
         <source>Keyboard Menu</source>
-        <translation>鍵盤目錄</translation>
+        <translation>Klavye Menüsü</translation>
     </message>
     <message>
         <source>Menu PB</source>
-        <translation>選單 PB</translation>
+        <translation>PB Menüsü</translation>
     </message>
     <message>
         <source>My Sites</source>
-        <translation>我的網站</translation>
+        <translation>Sitelerim</translation>
     </message>
     <message>
         <source>News</source>
-        <translation>新聞</translation>
+        <translation>Haberler</translation>
     </message>
     <message>
         <source>Home Office</source>
-        <translation>家庭辦公</translation>
+        <translation>Ev Ofisi</translation>
     </message>
     <message>
         <source>Option</source>
-        <translation>選項</translation>
+        <translation>Seçenek</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>貼上</translation>
+        <translation>Yapıştır</translation>
     </message>
     <message>
         <source>Phone</source>
-        <translation>手機</translation>
+        <translation>Telefon</translation>
     </message>
     <message>
         <source>Reply</source>
-        <translation>回覆</translation>
+        <translation>Yanıtla</translation>
     </message>
     <message>
         <source>Reload</source>
-        <translation>重新載入</translation>
+        <translation>Yeniden Yükle</translation>
     </message>
     <message>
         <source>Rotate Windows</source>
-        <translation>旋轉視窗</translation>
+        <translation>Pencereyi Döndür</translation>
     </message>
     <message>
         <source>Rotation PB</source>
-        <translation>旋轉 PB</translation>
+        <translation>PB Döndürme</translation>
     </message>
     <message>
         <source>Rotation KB</source>
-        <translation>旋轉 KB</translation>
+        <translation>KB Döndürme</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>儲存</translation>
+        <translation>Kaydet</translation>
     </message>
     <message>
         <source>Send</source>
-        <translation>傳送</translation>
+        <translation>Gönder</translation>
     </message>
     <message>
         <source>Spellchecker</source>
-        <translation>拼寫檢查</translation>
+        <translation>Yazım denetleyicisi</translation>
     </message>
     <message>
         <source>Split Screen</source>
-        <translation>切割螢幕</translation>
+        <translation>Bölünmüş Ekran</translation>
     </message>
     <message>
         <source>Support</source>
-        <translation>支援</translation>
+        <translation>Destek</translation>
     </message>
     <message>
         <source>Task Panel</source>
-        <translation>工作面板</translation>
+        <translation>Görev Paneli</translation>
     </message>
     <message>
         <source>Terminal</source>
-        <translation>終端器</translation>
+        <translation>Terminal</translation>
     </message>
     <message>
         <source>To-do list</source>
-        <translation>待辦事項清單</translation>
+        <translation>Yapılacaklar listesi</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation>工具</translation>
+        <translation>Araçlar</translation>
     </message>
     <message>
         <source>Travel</source>
-        <translation>旅行</translation>
+        <translation>Seyahat</translation>
     </message>
     <message>
         <source>Video</source>
-        <translation>影片</translation>
+        <translation>Vidyo</translation>
     </message>
     <message>
         <source>Word Processor</source>
-        <translation>文字處理器</translation>
+        <translation>Kelime İşlemci</translation>
     </message>
     <message>
         <source>XFer</source>
@@ -5759,430 +5702,430 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Zoom In</source>
-        <translation>放大</translation>
+        <translation>Yakınlaştır</translation>
     </message>
     <message>
         <source>Zoom Out</source>
-        <translation>縮小</translation>
+        <translation>Uzaklaştır</translation>
     </message>
     <message>
         <source>Away</source>
-        <translation>拉遠</translation>
+        <translation>Uzakta</translation>
     </message>
     <message>
         <source>Messenger</source>
-        <translation>通訊軟體</translation>
+        <translation>Mesajlaşma</translation>
     </message>
     <message>
         <source>WebCam</source>
-        <translation>網路攝影機</translation>
+        <translation>Web Kamerası</translation>
     </message>
     <message>
         <source>Mail Forward</source>
-        <translation>信件轉發</translation>
+        <translation>Postayı Yönlendir</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>圖片</translation>
+        <translation>Resimler</translation>
     </message>
     <message>
         <source>Music</source>
-        <translation>音樂</translation>
+        <translation>Müzik</translation>
     </message>
     <message>
         <source>Battery</source>
-        <translation>電池</translation>
+        <translation>Pil</translation>
     </message>
     <message>
         <source>Bluetooth</source>
-        <translation>藍牙</translation>
+        <translation>Bluetooth</translation>
     </message>
     <message>
         <source>Wireless</source>
-        <translation>無線網路</translation>
+        <translation>Kablosuz</translation>
     </message>
     <message>
         <source>Ultra Wide Band</source>
-        <translation>超寬頻帶</translation>
+        <translation>Ultra Geniş Bant</translation>
     </message>
     <message>
         <source>Media Fast Forward</source>
-        <translation>快轉媒體</translation>
+        <translation>Medyayı Hızlı İleri Sar</translation>
     </message>
     <message>
         <source>Audio Repeat</source>
-        <translation>重復播放音訊</translation>
+        <translation>Otomatik Tekrar</translation>
     </message>
     <message>
         <source>Audio Random Play</source>
-        <translation>隨機播放音訊</translation>
+        <translation>Rastgele Ses Çal</translation>
     </message>
     <message>
         <source>Subtitle</source>
-        <translation>字幕</translation>
+        <translation>Alt yazı</translation>
     </message>
     <message>
         <source>Audio Cycle Track</source>
-        <translation>音訊循環音軌</translation>
+        <translation>Ses Parçası Döngüsü</translation>
     </message>
     <message>
         <source>Time</source>
-        <translation>時間</translation>
+        <translation>Zaman</translation>
     </message>
     <message>
         <source>Hibernate</source>
-        <translation>休眠</translation>
+        <translation>Hazırda Bekle</translation>
     </message>
     <message>
         <source>View</source>
-        <translation>檢視</translation>
+        <translation>Görünüm</translation>
     </message>
     <message>
         <source>Top Menu</source>
-        <translation>頂層選單</translation>
+        <translation>Üst Menü</translation>
     </message>
     <message>
         <source>Power Down</source>
-        <translation>斷電</translation>
+        <translation>Gücü Kes</translation>
     </message>
     <message>
         <source>Suspend</source>
-        <translation>暫停</translation>
+        <translation>Askıya Al</translation>
     </message>
     <message>
         <source>Microphone Mute</source>
-        <translation>靜音麥克風</translation>
+        <translation>Mikrofonu Sustur</translation>
     </message>
     <message>
         <source>Red</source>
-        <translation>紅色</translation>
+        <translation>Kırmızı</translation>
     </message>
     <message>
         <source>Green</source>
-        <translation>綠色</translation>
+        <translation>Yeşil</translation>
     </message>
     <message>
         <source>Yellow</source>
-        <translation>黃色</translation>
+        <translation>Sarı</translation>
     </message>
     <message>
         <source>Blue</source>
-        <translation>藍色</translation>
+        <translation>Mavi</translation>
     </message>
     <message>
         <source>Channel Up</source>
-        <translation>上一頻道</translation>
+        <translation>Kanal Yukarı</translation>
     </message>
     <message>
         <source>Channel Down</source>
-        <translation>下一頻道</translation>
+        <translation>Kanal Aşağı</translation>
     </message>
     <message>
         <source>Guide</source>
-        <translation>指引</translation>
+        <translation>Rehber</translation>
     </message>
     <message>
         <source>Info</source>
-        <translation>資訊</translation>
+        <translation>Bilgi</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation>設定</translation>
+        <translation>Ayarlar</translation>
     </message>
     <message>
         <source>Microphone Volume Up</source>
-        <translation>增加麥克風音量</translation>
+        <translation>Mikrofon Sesini Yükselt</translation>
     </message>
     <message>
         <source>Microphone Volume Down</source>
-        <translation>降低麥克風音量</translation>
+        <translation>Mikrofon Sesini Düşür</translation>
     </message>
     <message>
         <source>New</source>
-        <translation>建立</translation>
+        <translation>Yeni</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>開啟</translation>
+        <translation>Aç</translation>
     </message>
     <message>
         <source>Find</source>
-        <translation>尋找</translation>
+        <translation>Bul</translation>
     </message>
     <message>
         <source>Undo</source>
-        <translation>復原</translation>
+        <translation>Geri al</translation>
     </message>
     <message>
         <source>Redo</source>
-        <translation>重做</translation>
+        <translation>Yinele</translation>
     </message>
     <message>
         <source>Print Screen</source>
-        <translation>擷取螢幕 PrtSc</translation>
+        <translation>Ekran Görüntüsü</translation>
     </message>
     <message>
         <source>Page Up</source>
-        <translation>往上一頁</translation>
+        <translation>Sayfa Yukarı</translation>
     </message>
     <message>
         <source>Page Down</source>
-        <translation>往下一頁</translation>
+        <translation>Sayfa Aşağı</translation>
     </message>
     <message>
         <source>Caps Lock</source>
-        <translation>大寫鎖定</translation>
+        <translation>Büyük Harf</translation>
     </message>
     <message>
         <source>Num Lock</source>
-        <translation>數字鎖定</translation>
+        <translation>Sayı Kilidi</translation>
     </message>
     <message>
         <source>Number Lock</source>
-        <translation>數字鎖定</translation>
+        <translation>Sayı Kilidi</translation>
     </message>
     <message>
         <source>Scroll Lock</source>
-        <translation>捲動鎖定</translation>
+        <translation>Kaydırma Kilidi</translation>
     </message>
     <message>
         <source>Insert</source>
-        <translation>插入</translation>
+        <translation>Ekle</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>刪除</translation>
+        <translation>Sil</translation>
     </message>
     <message>
         <source>Escape</source>
-        <translation>Esc 鍵</translation>
+        <translation>Çıkış</translation>
     </message>
     <message>
         <source>System Request</source>
-        <translation>系統要求 SysRq</translation>
+        <translation>Sistem İsteği</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation>選擇</translation>
+        <translation>Seç</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>是</translation>
+        <translation>Evet</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>否</translation>
+        <translation>Hayır</translation>
     </message>
     <message>
         <source>Context1</source>
-        <translation>內文 1</translation>
+        <translation>Bağlam1</translation>
     </message>
     <message>
         <source>Context2</source>
-        <translation>內文 2</translation>
+        <translation>Bağlam2</translation>
     </message>
     <message>
         <source>Context3</source>
-        <translation>內文 3</translation>
+        <translation>Bağlam3</translation>
     </message>
     <message>
         <source>Context4</source>
-        <translation>內文 4</translation>
+        <translation>Bağlam4</translation>
     </message>
     <message>
         <source>Call</source>
         <extracomment>Button to start a call (note: a separate button is used to end the call)</extracomment>
-        <translation>撥號</translation>
+        <translation>Çağrı Yap</translation>
     </message>
     <message>
         <source>Hangup</source>
         <extracomment>Button to end a call (note: a separate button is used to start the call)</extracomment>
-        <translation>掛斷</translation>
+        <translation>Çağrıyı Bitir</translation>
     </message>
     <message>
         <source>Toggle Call/Hangup</source>
         <extracomment>Button that will hang up if we&apos;re in call, or make a call if we&apos;re not.</extracomment>
-        <translation>切換撥號/掛斷狀態</translation>
+        <translation>Çağrı Yap/Bitir</translation>
     </message>
     <message>
         <source>Flip</source>
-        <translation>反轉</translation>
+        <translation>Çevir</translation>
     </message>
     <message>
         <source>Voice Dial</source>
         <extracomment>Button to trigger voice dialing</extracomment>
-        <translation>語音撥號</translation>
+        <translation>Sesli Arama</translation>
     </message>
     <message>
         <source>Last Number Redial</source>
         <extracomment>Button to redial the last number called</extracomment>
-        <translation>重撥上次撥打號碼</translation>
+        <translation>Son Numarayı Yeniden Ara</translation>
     </message>
     <message>
         <source>Camera Shutter</source>
         <extracomment>Button to trigger the camera shutter (take a picture)</extracomment>
-        <translation>相機快門</translation>
+        <translation>Fotoğraf Çek</translation>
     </message>
     <message>
         <source>Camera Focus</source>
         <extracomment>Button to focus the camera</extracomment>
-        <translation>相機對焦</translation>
+        <translation>Kamera Odaklama</translation>
     </message>
     <message>
         <source>Kanji</source>
-        <translation>漢字</translation>
+        <translation>Kanji</translation>
     </message>
     <message>
         <source>Muhenkan</source>
-        <translation>無變換</translation>
+        <translation>Muhenkan</translation>
     </message>
     <message>
         <source>Henkan</source>
-        <translation>變換</translation>
+        <translation>Henkan</translation>
     </message>
     <message>
         <source>Romaji</source>
-        <translation>羅馬字</translation>
+        <translation>Romaji</translation>
     </message>
     <message>
         <source>Hiragana</source>
-        <translation>平假名</translation>
+        <translation>Hiragana</translation>
     </message>
     <message>
         <source>Katakana</source>
-        <translation>片假名</translation>
+        <translation>Katakana</translation>
     </message>
     <message>
         <source>Hiragana Katakana</source>
-        <translation>平假名 片假名</translation>
+        <translation>Hiragana Katakana</translation>
     </message>
     <message>
         <source>Zenkaku</source>
-        <translation>全形</translation>
+        <translation>Zenkaku</translation>
     </message>
     <message>
         <source>Hankaku</source>
-        <translation>半形</translation>
+        <translation>Hankaku</translation>
     </message>
     <message>
         <source>Zenkaku Hankaku</source>
-        <translation>全形 半形</translation>
+        <translation>Zenkaku Hankaku</translation>
     </message>
     <message>
         <source>Touroku</source>
-        <translation type="unfinished"></translation>
+        <translation>Touroku</translation>
     </message>
     <message>
         <source>Massyo</source>
-        <translation type="unfinished"></translation>
+        <translation>Massyo</translation>
     </message>
     <message>
         <source>Kana Lock</source>
-        <translation type="unfinished"></translation>
+        <translation>Kana Lock</translation>
     </message>
     <message>
         <source>Kana Shift</source>
-        <translation type="unfinished"></translation>
+        <translation>Kana Shift</translation>
     </message>
     <message>
         <source>Eisu Shift</source>
-        <translation type="unfinished"></translation>
+        <translation>Eisu Shift</translation>
     </message>
     <message>
         <source>Eisu toggle</source>
-        <translation type="unfinished"></translation>
+        <translation>Eisu toggle</translation>
     </message>
     <message>
         <source>Code input</source>
-        <translation>輸入代碼</translation>
+        <translation>Kod girişi</translation>
     </message>
     <message>
         <source>Multiple Candidate</source>
-        <translation>多個候選</translation>
+        <translation>Çoklu Aday</translation>
     </message>
     <message>
         <source>Previous Candidate</source>
-        <translation>上個候選</translation>
+        <translation>Önceki Aday</translation>
     </message>
     <message>
         <source>Hangul</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul</translation>
     </message>
     <message>
         <source>Hangul Start</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul Başlat</translation>
     </message>
     <message>
         <source>Hangul End</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul Bitir</translation>
     </message>
     <message>
         <source>Hangul Hanja</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul Hanja</translation>
     </message>
     <message>
         <source>Hangul Jamo</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul Jamo</translation>
     </message>
     <message>
         <source>Hangul Romaja</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul Romaja</translation>
     </message>
     <message>
         <source>Hangul Jeonja</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul Jeonja</translation>
     </message>
     <message>
         <source>Hangul Banja</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul Banja</translation>
     </message>
     <message>
         <source>Hangul PreHanja</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul PreHanja</translation>
     </message>
     <message>
         <source>Hangul PostHanja</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul PostHanja</translation>
     </message>
     <message>
         <source>Hangul Special</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangul Special</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>取消</translation>
+        <translation>İptal</translation>
     </message>
     <message>
         <source>Printer</source>
-        <translation>印表機</translation>
+        <translation>Yazdır</translation>
     </message>
     <message>
         <source>Execute</source>
-        <translation>執行</translation>
+        <translation>Çalıştır</translation>
     </message>
     <message>
         <source>Play</source>
-        <translation>播放</translation>
+        <translation>Oynat</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation>縮放</translation>
+        <translation>Yakınlaştırma</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>離開</translation>
+        <translation>Çıkış</translation>
     </message>
     <message>
         <source>Touchpad Toggle</source>
-        <translation>切換觸控板</translation>
+        <translation>Dokunmatik Yüzey Aç/Kapat</translation>
     </message>
     <message>
         <source>Touchpad On</source>
-        <translation>打開觸控板</translation>
+        <translation>Dokunmatik Yüzeyi Aç</translation>
     </message>
     <message>
         <source>Touchpad Off</source>
-        <translation>關閉觸控板</translation>
+        <translation>Dokunmatik Yüzeyi Kapat</translation>
     </message>
     <message>
         <source>Ctrl</source>
@@ -6202,7 +6145,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Num</source>
-        <translation>數字鍵</translation>
+        <translation>Sayı</translation>
     </message>
     <message>
         <source>+</source>
@@ -6218,59 +6161,59 @@ Please turn one of those options off.</source>
     <name>QSocks5SocketEngine</name>
     <message>
         <source>Connection to proxy refused</source>
-        <translation>代理伺服器連線被拒</translation>
+        <translation>Proxy bağlantısı reddedildi</translation>
     </message>
     <message>
         <source>Connection to proxy closed prematurely</source>
-        <translation>代理伺服器連線不正常關閉</translation>
+        <translation>Proxy bağlantısı erken kapatıldı</translation>
     </message>
     <message>
         <source>Proxy host not found</source>
-        <translation>找不到代理伺服器</translation>
+        <translation>Proxy ana bilgisayarı bulunamadı</translation>
     </message>
     <message>
         <source>Connection to proxy timed out</source>
-        <translation>代理伺服器連線逾時</translation>
+        <translation>Proxy bağlantısı zaman aşımına uğradı</translation>
     </message>
     <message>
         <source>Proxy authentication failed</source>
-        <translation>代理伺服器驗證失敗</translation>
+        <translation>Proxy kimlik doğrulaması başarısız oldu</translation>
     </message>
     <message>
         <source>Proxy authentication failed: %1</source>
-        <translation>代理伺服器驗證失敗：%1</translation>
+        <translation>Proxy kimlik doğrulaması başarısız oldu: %1</translation>
     </message>
     <message>
         <source>SOCKS version 5 protocol error</source>
-        <translation>SOCKS 第五版協定錯誤</translation>
+        <translation>SOCKS sürüm 5 protokol hatası</translation>
     </message>
     <message>
         <source>General SOCKSv5 server failure</source>
-        <translation>一般的 SOCKSv5 伺服器錯誤</translation>
+        <translation>Genel SOCKSv5 sunucusu hatası</translation>
     </message>
     <message>
         <source>Connection not allowed by SOCKSv5 server</source>
-        <translation>SOCKSv5 伺服器不允許連線</translation>
+        <translation>SOCKSv5 sunucusu tarafından bağlantıya izin verilmiyor</translation>
     </message>
     <message>
         <source>TTL expired</source>
-        <translation>TTL 逾時</translation>
+        <translation>TTL süresi doldu</translation>
     </message>
     <message>
         <source>SOCKSv5 command not supported</source>
-        <translation>不支援 SOCKSv5 指令</translation>
+        <translation>SOCKSv5 komutu desteklenmiyor</translation>
     </message>
     <message>
         <source>Address type not supported</source>
-        <translation>不支援位址型態</translation>
+        <translation>Adres türü desteklenmiyor</translation>
     </message>
     <message>
         <source>Unknown SOCKSv5 proxy error code 0x%1</source>
-        <translation>未知的 SOCKSv5 代理伺服器錯誤代碼 0x%1</translation>
+        <translation>Bilinmeyen SOCKSv5 proxy hata kodu 0x%1</translation>
     </message>
     <message>
         <source>Network operation timed out</source>
-        <translation>網路操作逾時</translation>
+        <translation>Ağ işlemi zaman aşımına uğradı</translation>
     </message>
 </context>
 <context>
@@ -6278,1153 +6221,1127 @@ Please turn one of those options off.</source>
     <message>
         <source>invalid role</source>
         <extracomment>Role of an accessible object - the object is in an invalid state or could not be constructed</extracomment>
-        <translation>角色無效</translation>
+        <translation>geçersiz rol</translation>
     </message>
     <message>
         <source>title bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>標題欄</translation>
+        <translation>başlık çubuğu</translation>
     </message>
     <message>
         <source>menu bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>目錄欄</translation>
+        <translation>menü çubuğu</translation>
     </message>
     <message>
         <source>scroll bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>捲軸</translation>
+        <translation>kaydırma çubuğu</translation>
     </message>
     <message>
         <source>grip</source>
         <extracomment>Role of an accessible object - the grip is usually used for resizing another object</extracomment>
-        <translation>底框</translation>
+        <translation>kavrama</translation>
     </message>
     <message>
         <source>sound</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>音效</translation>
+        <translation>ses</translation>
     </message>
     <message>
         <source>cursor</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>游標</translation>
+        <translation>imleç</translation>
     </message>
     <message>
         <source>text caret</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>文字插入點</translation>
+        <translation>metin işareti</translation>
     </message>
     <message>
         <source>alert message</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>警告訊息</translation>
+        <translation>uyarı iletisi</translation>
     </message>
     <message>
         <source>frame</source>
         <extracomment>Role of an accessible object: a window with frame and title
 ----------
 Role of an accessible object</extracomment>
-        <translation>外框</translation>
+        <translation>çerçeve</translation>
     </message>
     <message>
         <source>filler</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>過濾器</translation>
+        <translation>doldurucu</translation>
     </message>
     <message>
         <source>popup menu</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>彈出式選單</translation>
+        <translation>açılır pencere menüsü</translation>
     </message>
     <message>
         <source>menu item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>選單項目</translation>
+        <translation>menü öğesi</translation>
     </message>
     <message>
         <source>tool tip</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>工具提示</translation>
+        <translation>araç ipucu</translation>
     </message>
     <message>
         <source>application</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>應用程式</translation>
+        <translation>uygulama</translation>
     </message>
     <message>
         <source>document</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>文件</translation>
+        <translation>belge</translation>
     </message>
     <message>
         <source>panel</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>面板</translation>
+        <translation>panel</translation>
     </message>
     <message>
         <source>chart</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>圖表</translation>
+        <translation>grafik</translation>
     </message>
     <message>
         <source>dialog</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>對話框</translation>
+        <translation>iletişim kutusu</translation>
     </message>
     <message>
         <source>separator</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>分隔符號</translation>
+        <translation>ayırıcı</translation>
     </message>
     <message>
         <source>tool bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>工具列</translation>
+        <translation>araç çubuğu</translation>
     </message>
     <message>
         <source>status bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>狀態列</translation>
+        <translation>durum çubuğu</translation>
     </message>
     <message>
         <source>table</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>表格</translation>
+        <translation>tablo</translation>
     </message>
     <message>
         <source>column header</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>直欄標頭</translation>
+        <translation>sütun başlığı</translation>
     </message>
     <message>
         <source>row header</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>橫列標頭</translation>
+        <translation>satır başlığı</translation>
     </message>
     <message>
         <source>column</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>直欄</translation>
+        <translation>sütun</translation>
     </message>
     <message>
         <source>row</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>橫列</translation>
+        <translation>satır</translation>
     </message>
     <message>
         <source>cell</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>儲存格</translation>
+        <translation>hücre</translation>
     </message>
     <message>
         <source>link</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>連結</translation>
+        <translation>bağlantı</translation>
     </message>
     <message>
         <source>help balloon</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>說明提示框</translation>
+        <translation>uyarı balonu</translation>
     </message>
     <message>
         <source>assistant</source>
         <extracomment>Role of an accessible object - a helper dialog</extracomment>
-        <translation>助手</translation>
+        <translation>yardımcı</translation>
     </message>
     <message>
         <source>list</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>列表</translation>
+        <translation>liste</translation>
     </message>
     <message>
         <source>list item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>列表項目</translation>
+        <translation>liste öğesi</translation>
     </message>
     <message>
         <source>tree</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>樹狀圖</translation>
+        <translation>ağaç</translation>
     </message>
     <message>
         <source>tree item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>樹狀圖項目</translation>
+        <translation>ağaç öğesi</translation>
     </message>
     <message>
         <source>page tab</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>頁面分頁</translation>
+        <translation>sayfa sekmesi</translation>
     </message>
     <message>
         <source>property page</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>屬性頁面</translation>
+        <translation>özellik sayfası</translation>
     </message>
     <message>
         <source>indicator</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>指示器</translation>
+        <translation>gösterge</translation>
     </message>
     <message>
         <source>graphic</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>圖形</translation>
+        <translation>grafik</translation>
     </message>
     <message>
         <source>label</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>標籤</translation>
+        <translation>etiket</translation>
     </message>
     <message>
         <source>text</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>文字</translation>
+        <translation>metin</translation>
     </message>
     <message>
         <source>push button</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>按鈕</translation>
+        <translation>basma düğmesi</translation>
     </message>
     <message>
         <source>check box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>核取框</translation>
+        <translation>onay kutusu</translation>
     </message>
     <message>
         <source>radio button</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>選項按鈕</translation>
+        <translation>radyo düğmesi</translation>
     </message>
     <message>
         <source>combo box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>下拉式方塊</translation>
+        <translation>açılan kutu</translation>
     </message>
     <message>
         <source>progress bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>進度列</translation>
+        <translation>ilerleme çubuğu</translation>
     </message>
     <message>
         <source>dial</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>撥號</translation>
+        <translation>çevir</translation>
     </message>
     <message>
         <source>hotkey field</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>快捷鍵欄位</translation>
+        <translation>kısayol tuşu alanı</translation>
     </message>
     <message>
         <source>slider</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>滑桿</translation>
+        <translation>kaydırıcı</translation>
     </message>
     <message>
         <source>spin box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>微調方塊</translation>
+        <translation>döndürme kutusu</translation>
     </message>
     <message>
         <source>canvas</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>畫布</translation>
+        <translation>tuval</translation>
     </message>
     <message>
         <source>animation</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation type="unfinished">動畫</translation>
+        <translation>animasyon</translation>
     </message>
     <message>
         <source>equation</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>方程式</translation>
+        <translation>denklem</translation>
     </message>
     <message>
         <source>button with drop down</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>可下拉按鈕</translation>
+        <translation>aşağı açılır düğme</translation>
     </message>
     <message>
         <source>button menu</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>按鈕選單</translation>
+        <translation>düğme menüsü</translation>
     </message>
     <message>
         <source>button with drop down grid</source>
         <extracomment>Role of an accessible object - a button that expands a grid.</extracomment>
-        <translation>包含下拉網格的按鈕</translation>
+        <translation>açılır ızgaralı düğme</translation>
     </message>
     <message>
         <source>space</source>
         <extracomment>Role of an accessible object - blank space between other objects.</extracomment>
-        <translation>空白</translation>
+        <translation>boşluk</translation>
     </message>
     <message>
         <source>page tab list</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>頁面分頁列表</translation>
+        <translation>sayfa sekmesi listesi</translation>
     </message>
     <message>
         <source>clock</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>時鐘</translation>
+        <translation>saat</translation>
     </message>
     <message>
         <source>splitter</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>分割符號</translation>
+        <translation>ayırıcı</translation>
     </message>
     <message>
         <source>layered pane</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>分層窗格</translation>
+        <translation>katmanlı bölme</translation>
     </message>
     <message>
         <source>web document</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>網頁文件</translation>
+        <translation>web belgesi</translation>
     </message>
     <message>
         <source>paragraph</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>段落</translation>
+        <translation>paragraf</translation>
     </message>
     <message>
         <source>section</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>區段</translation>
+        <translation>bölüm</translation>
     </message>
     <message>
         <source>color chooser</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>顏色選擇器</translation>
+        <translation>renk seçici</translation>
     </message>
     <message>
         <source>footer</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>頁尾</translation>
+        <translation>altbilgi</translation>
     </message>
     <message>
         <source>form</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>表單</translation>
+        <translation>form</translation>
     </message>
     <message>
         <source>heading</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>頁首</translation>
+        <translation>başlık</translation>
     </message>
     <message>
         <source>note</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>備註</translation>
+        <translation>not</translation>
     </message>
     <message>
         <source>complementary content</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>附加內容</translation>
+        <translation>tamamlayıcı içerik</translation>
     </message>
     <message>
         <source>terminal</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>終端機</translation>
+        <translation>terminal</translation>
     </message>
     <message>
         <source>desktop</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>桌面</translation>
+        <translation>masaüstü</translation>
     </message>
     <message>
         <source>notification</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>通知</translation>
+        <translation>bildirim</translation>
     </message>
     <message>
         <source>unknown</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>未知</translation>
+        <translation>bilinmeyen</translation>
     </message>
 </context>
 <context>
     <name>QSslDiffieHellmanParameter</name>
     <message>
         <source>No error</source>
-        <translation>沒有錯誤</translation>
+        <translation>Hata yok</translation>
     </message>
     <message>
         <source>Invalid input data</source>
-        <translation>無效輸入資料</translation>
+        <translation>Geçersiz giriş verisi</translation>
     </message>
     <message>
         <source>The given Diffie-Hellman parameters are deemed unsafe</source>
-        <translation>提供的 Diffie-Hellman 參數被認為是不安全的</translation>
+        <translation>Verilen Diffie-Hellman parametreleri güvensiz kabul edilir</translation>
     </message>
 </context>
 <context>
     <name>QSslSocket</name>
     <message>
         <source>Error when setting the OpenSSL configuration (%1)</source>
-        <translation>設定 OpenSSL 設定時發生錯誤 (%1)</translation>
-    </message>
-    <message>
-        <source>Expecting QByteArray for %1</source>
-        <translation>期望 %1 的 QByteArray</translation>
-    </message>
-    <message>
-        <source>An error occurred attempting to set %1 to %2</source>
-        <translation>嘗試將 %1 設定為 %2 時發生錯誤</translation>
-    </message>
-    <message>
-        <source>Wrong value for %1 (%2)</source>
-        <translation>%1 的值錯誤 (%2)</translation>
-    </message>
-    <message>
-        <source>Unrecognized command %1 = %2</source>
-        <translation>無法識別的指令 %1 = %2</translation>
-    </message>
-    <message>
-        <source>SSL_CONF_finish() failed</source>
-        <translation>SSL_CONF_finish() 失敗</translation>
-    </message>
-    <message>
-        <source>SSL_CONF_CTX_new() failed</source>
-        <translation>SSL_CONF_CTX_new() 失敗</translation>
-    </message>
-    <message>
-        <source>OpenSSL version too old, need at least v1.0.2</source>
-        <translation>OpenSSL 版本過舊，需要至少 v1.0.2 版本</translation>
+        <translation>OpenSSL yapılandırması ayarlanırken hata oluştu (%1)</translation>
     </message>
     <message>
         <source>Error when setting the elliptic curves (%1)</source>
-        <translation>設定橢圓曲線時發生錯誤 (%1)</translation>
+        <translation>Eliptik eğriler ayarlanırken hata oluştu (%1)</translation>
     </message>
     <message>
         <source>Error creating SSL context (%1)</source>
-        <translation>建立 SSL 內文時發生錯誤（%1）</translation>
+        <translation>SSL bağlamı oluşturulurken hata oluştu (%1)</translation>
     </message>
     <message>
         <source>unsupported protocol</source>
-        <translation>不支援的通訊協定</translation>
+        <translation>desteklenmeyen protokol</translation>
     </message>
     <message>
         <source>Error while setting the minimal protocol version</source>
-        <translation>設定最小協定版本時發生錯誤</translation>
+        <translation>En düşük protokol sürümü ayarlanırken hata oluştu</translation>
     </message>
     <message>
         <source>Error while setting the maximum protocol version</source>
-        <translation>設定最大協定版本時發生錯誤</translation>
+        <translation>En yüksek protokol sürümü ayarlanırken hata oluştu</translation>
     </message>
     <message>
         <source>Invalid or empty cipher list (%1)</source>
-        <translation>無效或空白的加密清單（%1）</translation>
+        <translation>Geçersiz veya boş şifre listesi (%1)</translation>
     </message>
     <message>
         <source>Cannot provide a certificate with no key, %1</source>
-        <translation>無法提供沒有金鑰的憑證，%1</translation>
+        <translation>Anahtarsız sertifika verilemiyor, %1</translation>
     </message>
     <message>
         <source>Error loading local certificate, %1</source>
-        <translation>載入本機憑證時發生錯誤，%1</translation>
+        <translation>Yerel sertifika yüklenirken hata oluştu, %1</translation>
     </message>
     <message>
         <source>Error loading private key, %1</source>
-        <translation>載入私鑰時發生錯誤，%1</translation>
+        <translation>Özel anahtar yüklenirken hata oluştu, %1</translation>
     </message>
     <message>
         <source>Private key does not certify public key, %1</source>
-        <translation>私鑰不能證明公鑰，%1</translation>
+        <translation>Özel anahtar ortak anahtarı onaylamıyor, %1</translation>
     </message>
     <message>
         <source>Diffie-Hellman parameters are not valid</source>
-        <translation>Diffie-Hellman 參數無效</translation>
+        <translation>Diffie-Hellman parametreleri geçerli değil</translation>
     </message>
     <message>
         <source>OpenSSL version with disabled elliptic curves</source>
-        <translation>停用橢圓曲線的 OpenSSL 版本</translation>
+        <translation>Eliptik eğrileri devre dışı bırakılmış OpenSSL sürümü</translation>
     </message>
     <message>
-        <source>DTLS server requires a &apos;VerifyNone&apos; mode with your version of OpenSSL</source>
-        <translation>DTLS 伺服器需要您 OpenSSL 版本的「VerifyNone」模式</translation>
+        <source>Expecting QByteArray for %1</source>
+        <translation>%1 için QByteArray bekleniyor</translation>
+    </message>
+    <message>
+        <source>An error occurred attempting to set %1 to %2</source>
+        <translation>%1 ile %2 arasında ayarlanmaya çalışılırken bir hata oluştu</translation>
+    </message>
+    <message>
+        <source>Wrong value for %1 (%2)</source>
+        <translation>%1 (%2) için yanlış değer</translation>
+    </message>
+    <message>
+        <source>Unrecognized command %1 = %2</source>
+        <translation>Tanınmayan komut %1 = %2</translation>
+    </message>
+    <message>
+        <source>SSL_CONF_finish() failed</source>
+        <translation>SSL_CONF_finish() başarısız oldu</translation>
+    </message>
+    <message>
+        <source>SSL_CONF_CTX_new() failed</source>
+        <translation>SSL_CONF_CTX_new() başarısız oldu</translation>
     </message>
     <message>
         <source>No error</source>
-        <translation>沒有錯誤</translation>
+        <translation>Hata yok</translation>
     </message>
     <message>
         <source>The issuer certificate could not be found</source>
-        <translation>找不到發行者憑證</translation>
+        <translation>Yayıncı sertifika bulunamadı</translation>
     </message>
     <message>
         <source>The certificate signature could not be decrypted</source>
-        <translation>不能解密憑證簽名</translation>
+        <translation>Sertifika imzasının şifresi çözülemedi</translation>
     </message>
     <message>
         <source>The public key in the certificate could not be read</source>
-        <translation>不能讀取憑證中的公鑰</translation>
+        <translation>Sertifikadaki ortak anahtar okunamadı</translation>
     </message>
     <message>
         <source>The signature of the certificate is invalid</source>
-        <translation>憑證簽名無效</translation>
+        <translation>Sertifikanın imzası geçersiz</translation>
     </message>
     <message>
         <source>The certificate is not yet valid</source>
-        <translation>憑證無效</translation>
+        <translation>Sertifika henüz geçerli değil</translation>
     </message>
     <message>
         <source>The certificate has expired</source>
-        <translation>憑證過期</translation>
+        <translation>Sertifikanın süresi doldu</translation>
     </message>
     <message>
         <source>The certificate&apos;s notBefore field contains an invalid time</source>
-        <translation>憑證的 notBefore 欄位包含無效時間</translation>
+        <translation>Sertifikanın notBefore alanı geçersiz bir zaman içeriyor</translation>
     </message>
     <message>
         <source>The certificate&apos;s notAfter field contains an invalid time</source>
-        <translation>憑證的 notAfter 欄位包含無效時間</translation>
+        <translation>Sertifikanın notAfter alanı geçersiz bir zaman içeriyor</translation>
     </message>
     <message>
         <source>The certificate is self-signed, and untrusted</source>
-        <translation>憑證是自己簽發且不受信任的</translation>
+        <translation>Sertifika kendinden imzalı ve güvenilmez</translation>
     </message>
     <message>
         <source>The root certificate of the certificate chain is self-signed, and untrusted</source>
-        <translation>該憑證鏈的根憑證為自己簽署且不受信任的</translation>
+        <translation>Sertifika zincirinin kök sertifikası kendinden imzalı ve güvenilmez</translation>
     </message>
     <message>
         <source>The issuer certificate of a locally looked up certificate could not be found</source>
-        <translation>找不到本機找到憑證的發行者憑證</translation>
+        <translation>Yerel olarak aranan bir sertifikanın yayıncı sertifikası bulunamadı</translation>
     </message>
     <message>
         <source>No certificates could be verified</source>
-        <translation>沒有能驗證的憑證</translation>
+        <translation>Hiçbir sertifika doğrulanamadı</translation>
     </message>
     <message>
         <source>One of the CA certificates is invalid</source>
-        <translation>其中一個 CA 憑證無效</translation>
+        <translation>CA sertifikalarından biri geçersiz</translation>
     </message>
     <message>
         <source>The basicConstraints path length parameter has been exceeded</source>
-        <translation>basicConstraints 位置長度參數超出範圍</translation>
+        <translation>BasicConstraints yol uzunluğu parametresi aşıldı</translation>
     </message>
     <message>
         <source>The supplied certificate is unsuitable for this purpose</source>
-        <translation>提供的憑證不適合此目標</translation>
+        <translation>Verilen sertifika bu amaç için uygun değil</translation>
     </message>
     <message>
         <source>The root CA certificate is not trusted for this purpose</source>
-        <translation>此目標不信任此根 CA 憑證</translation>
+        <translation>Kök CA sertifikasına bu amaçla güvenilmez</translation>
     </message>
     <message>
         <source>The root CA certificate is marked to reject the specified purpose</source>
-        <translation>此根 CA 憑證被標記為拒絕指定目標</translation>
+        <translation>Kök CA sertifikası belirtilen amacı reddetmek için işaretlendi</translation>
     </message>
     <message>
         <source>The current candidate issuer certificate was rejected because its subject name did not match the issuer name of the current certificate</source>
-        <translation>目前的候選發行者憑證已被拒絕，因為其主旨名稱與目前憑證的發行者名稱不相符</translation>
+        <translation>Konu adı mevcut sertifikanın yayıncı adıyla eşleşmediğinden, geçerli aday yayıncı sertifikası reddedildi</translation>
     </message>
     <message>
         <source>The current candidate issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate</source>
-        <translation>目前的候選發行者憑證已被拒絕，因為該憑證提供的發行者名稱和序號與目前憑證的權限金鑰識別符不相符</translation>
+        <translation>Geçerli aday yayıncı sertifikası, yayıncı adı ve seri numarası bulunduğundan ve geçerli sertifikanın yetki anahtarı tanımlayıcısıyla eşleşmediğinden reddedildi</translation>
     </message>
     <message>
         <source>The peer did not present any certificate</source>
-        <translation>端點沒提供任何憑證</translation>
+        <translation>Eş herhangi bir sertifika sunmadı</translation>
     </message>
     <message>
         <source>The host name did not match any of the valid hosts for this certificate</source>
-        <translation>此主機與此憑證的任一有效主機都不相符</translation>
+        <translation>Ana bilgisayar adı, bu sertifika için geçerli ana bilgisayarlarla eşleşmedi</translation>
     </message>
     <message>
         <source>The peer certificate is blacklisted</source>
-        <translation>該端點的憑證已被加入黑名單</translation>
-    </message>
-    <message>
-        <source>Unknown error</source>
-        <translation>未知錯誤</translation>
-    </message>
-    <message>
-        <source>TLS initialization failed</source>
-        <translation>TLS 初始化失敗</translation>
-    </message>
-    <message>
-        <source>The TLS/SSL connection has been closed</source>
-        <translation>TLS/SSL 連線已被關閉</translation>
-    </message>
-    <message>
-        <source>Error creating SSL session, %1</source>
-        <translation>建立 SSL 階段時發生錯誤，%1</translation>
-    </message>
-    <message>
-        <source>Error creating SSL session: %1</source>
-        <translation>建立 SSL 階段時發生錯誤：%1</translation>
-    </message>
-    <message>
-        <source>Unable to init SSL Context: %1</source>
-        <translation>無法初始化 SSL 內文：%1</translation>
-    </message>
-    <message>
-        <source>Unable to write data: %1</source>
-        <translation>無法寫入資料：%1</translation>
-    </message>
-    <message>
-        <source>Unable to decrypt data: %1</source>
-        <translation>無法解密資料：%1</translation>
-    </message>
-    <message>
-        <source>Error while reading: %1</source>
-        <translation>讀取時發生錯誤：%1</translation>
-    </message>
-    <message>
-        <source>Error during SSL handshake: %1</source>
-        <translation>SSL 交握時發生錯誤：%1</translation>
+        <translation>Eş sertifikası kara listede</translation>
     </message>
     <message>
         <source>No OCSP status response found</source>
-        <translation>找不到 OCSP 狀態回應</translation>
+        <translation>OCSP durum yanıtı bulunamadı</translation>
     </message>
     <message>
         <source>The OCSP status request had invalid syntax</source>
-        <translation>OCSP 狀態請求包含無效語法</translation>
+        <translation>OCSP durum isteğinde geçersiz sözdizimi vardı</translation>
     </message>
     <message>
         <source>OCSP response contains an unexpected number of SingleResponse structures</source>
-        <translation>OCSP 回應包含不應有的 SingleResponse 建構體數字</translation>
+        <translation>OCSP yanıtı beklenmeyen sayıda SingleResponse yapısı içeriyor</translation>
     </message>
     <message>
         <source>OCSP responder reached an inconsistent internal state</source>
-        <translation>OCSP 回應器的內部狀態不一致</translation>
+        <translation>OCSP yanıtlayıcısı tutarsız bir iç duruma ulaştı</translation>
     </message>
     <message>
         <source>OCSP responder was unable to return a status for the requested certificate</source>
-        <translation>OCSP 回應器無法回傳請求憑證的狀態</translation>
+        <translation>OCSP yanıtlayıcısı istenen sertifika için durum döndüremedi</translation>
     </message>
     <message>
         <source>The server requires the client to sign the OCSP request in order to construct a response</source>
-        <translation>伺服器需要客戶端簽名 OCSP 請求才能建構回應</translation>
+        <translation>Sunucu, istemcinin yanıt oluşturmak için OCSP isteğini imzalamasını gerektirir</translation>
     </message>
     <message>
         <source>The client is not authorized to request OCSP status from this server</source>
-        <translation>未授權客戶端自此伺服器請求 OCSP 狀態</translation>
+        <translation>İstemcinin bu sunucudan OCSP durumu isteme yetkisi yok</translation>
     </message>
     <message>
         <source>OCSP responder&apos;s identity cannot be verified</source>
-        <translation>無法驗證 OCSP 回應者的身份</translation>
+        <translation>OCSP yanıtlayıcısının kimliği doğrulanamıyor</translation>
     </message>
     <message>
         <source>The identity of a certificate in an OCSP response cannot be established</source>
-        <translation>無法認定 OCSP 回應中的憑證身份</translation>
+        <translation>OCSP yanıtındaki bir sertifikanın kimliği oluşturulamıyor</translation>
     </message>
     <message>
         <source>The certificate status response has expired</source>
-        <translation>憑證的狀態回應已過期</translation>
+        <translation>Sertifika durumu yanıtının süresi doldu</translation>
     </message>
     <message>
         <source>The certificate&apos;s status is unknown</source>
-        <translation>憑證狀態未知</translation>
+        <translation>Sertifikanın durumu bilinmiyor</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>Bilinmeyen hata</translation>
+    </message>
+    <message>
+        <source>TLS initialization failed</source>
+        <translation>TLS başlatılamadı</translation>
     </message>
     <message>
         <source>Attempted to use an unsupported protocol.</source>
-        <translation>嘗試使用不支援的通訊協定。</translation>
+        <translation>Desteklenmeyen bir protokol kullanılmaya çalışıldı.</translation>
+    </message>
+    <message>
+        <source>The TLS/SSL connection has been closed</source>
+        <translation>TLS / SSL bağlantısı kapatıldı</translation>
+    </message>
+    <message>
+        <source>Error creating SSL session, %1</source>
+        <translation>SSL oturumu oluşturulurken hata oluştu, %1</translation>
+    </message>
+    <message>
+        <source>Error creating SSL session: %1</source>
+        <translation>SSL oturumu oluşturulurken hata oluştu: %1</translation>
     </message>
     <message>
         <source>Server-side QSslSocket does not support OCSP stapling</source>
-        <translation>伺服器端的 QSslSocket 不支援 OCSP 裝訂 (stapling)</translation>
+        <translation>Sunucu tarafı QSslSocket OCSP zımbalamayı desteklemiyor</translation>
     </message>
     <message>
         <source>Failed to enable OCSP stapling</source>
-        <translation>無法啟用 OCSP 裝訂 (stapling)</translation>
+        <translation>OCSP zımbalama etkinleştirilemedi</translation>
     </message>
     <message>
         <source>Client-side sockets do not send OCSP responses</source>
-        <translation>客戶端的 socket 未傳送 OCSP 回應</translation>
+        <translation>İstemci tarafı soketleri OCSP yanıtları göndermez</translation>
+    </message>
+    <message>
+        <source>Unable to init SSL Context: %1</source>
+        <translation>SSL başlatılamadı: %1</translation>
+    </message>
+    <message>
+        <source>Unable to write data: %1</source>
+        <translation>Veri yazılamıyor: %1</translation>
+    </message>
+    <message>
+        <source>Unable to decrypt data: %1</source>
+        <translation>Verilerin şifresi çözülemiyor: %1</translation>
+    </message>
+    <message>
+        <source>Error while reading: %1</source>
+        <translation>Okurken hata oluştu: %1</translation>
+    </message>
+    <message>
+        <source>Error during SSL handshake: %1</source>
+        <translation>SSL el sıkışması sırasında hata: %1</translation>
     </message>
     <message>
         <source>Failed to decode OCSP response</source>
-        <translation>無法解碼 OCSP 回應</translation>
+        <translation>OCSP yanıtının kodu çözülemedi</translation>
     </message>
     <message>
         <source>Failed to extract basic OCSP response</source>
-        <translation>無法解開基本 OCSP 回應</translation>
+        <translation>Temel OCSP yanıtı alınamadı</translation>
     </message>
     <message>
         <source>No certificate verification store, cannot verify OCSP response</source>
-        <translation>沒有儲存的憑證驗證，因此無法驗證 OCSP 回應</translation>
+        <translation>Sertifika doğrulama deposu yok, OCSP yanıtı doğrulanamıyor</translation>
     </message>
     <message>
         <source>Failed to decode a SingleResponse from OCSP status response</source>
-        <translation>無法解碼來自 OCSP 回應請求的 SingleResponse</translation>
+        <translation>OCSP durum yanıtından bir SingleResponse kodu çözülemedi</translation>
     </message>
     <message>
         <source>Failed to extract &apos;this update time&apos; from the SingleResponse</source>
-        <translation>無法從 SingleResponse 解開「此更新時間 (this update time)」</translation>
+        <translation>&apos;Bu güncelleme zamanı&apos; SingleResponse&apos;den alınamadı</translation>
     </message>
     <message>
         <source>Insufficient memory</source>
-        <translation>記憶體不足</translation>
+        <translation>Yetersiz bellek</translation>
     </message>
     <message>
         <source>Internal error</source>
-        <translation>內部錯誤</translation>
+        <translation>İç hata</translation>
     </message>
     <message>
         <source>An internal handle was invalid</source>
-        <translation>內部處理函式無效</translation>
+        <translation>Dahili tanıtıcı geçersizdi</translation>
     </message>
     <message>
         <source>An internal token was invalid</source>
-        <translation>內部憑證無效</translation>
+        <translation>Dahili bir belirteç geçersizdi</translation>
     </message>
     <message>
         <source>Access denied</source>
-        <translation>存取被拒</translation>
+        <translation>Erişim reddedildi</translation>
     </message>
     <message>
         <source>No authority could be contacted for authorization</source>
-        <translation>沒有可讓授權程序通訊的授權單位</translation>
+        <translation>Yetkilendirme için hiçbir yetkiliyle temas kurulamadı</translation>
     </message>
     <message>
         <source>No credentials</source>
-        <translation>找不到憑據</translation>
+        <translation>Kimlik bilgisi yok</translation>
     </message>
     <message>
         <source>The target is unknown or unreachable</source>
-        <translation>目標位置未知或無法連線</translation>
+        <translation>Hedef bilinmiyor veya ulaşılamıyor</translation>
     </message>
     <message>
         <source>An unsupported function was requested</source>
-        <translation>被請求不支援的函式</translation>
+        <translation>Desteklenmeyen bir işlev istendi</translation>
     </message>
     <message>
         <source>The hostname provided does not match the one received from the peer</source>
-        <translation>提供的主機名稱與對端收到的主機名稱不相符</translation>
+        <translation>Sağlanan ana bilgisayar adı, eşden alınan adla eşleşmiyor</translation>
     </message>
     <message>
         <source>No common protocol exists between the client and the server</source>
-        <translation>客戶端與伺服器沒有共同可用的通訊協定</translation>
+        <translation>İstemci ve sunucu arasında ortak bir protokol yok</translation>
     </message>
     <message>
         <source>Unexpected or badly-formatted message received</source>
-        <translation>接收到非期望或格式無效的訊息</translation>
+        <translation>Beklenmeyen veya kötü biçimlendirilmiş ileti alındı</translation>
     </message>
     <message>
         <source>The data could not be encrypted</source>
-        <translation>資料不能被加密</translation>
+        <translation>Veriler şifrelenemedi</translation>
     </message>
     <message>
         <source>No cipher suites in common</source>
-        <translation>沒有共同的加密套件</translation>
+        <translation>Ortak şifre takımı yok</translation>
     </message>
     <message>
         <source>The credentials were not recognized / Invalid argument</source>
-        <translation>未辨識出憑證或是參數無效</translation>
+        <translation>Kimlik bilgileri tanınmadı / Geçersiz değişken</translation>
     </message>
     <message>
         <source>The message was tampered with, damaged or out of sequence.</source>
-        <translation>訊息可能遭竄改、損壞或者超出資料序列。</translation>
+        <translation>İleti kurcalandı, hasar gördü veya dizinin dışında.</translation>
     </message>
     <message>
         <source>A message was received out of sequence.</source>
-        <translation>接收到的訊息超出資料序列。</translation>
+        <translation>Sıra dışı bir ileti alındı.</translation>
     </message>
     <message>
         <source>Unknown error occurred: %1</source>
-        <translation>發生未知錯誤：%1</translation>
+        <translation>Bilinmeyen hata oluştu: %1</translation>
     </message>
     <message>
         <source>Invalid protocol chosen</source>
-        <translation>選擇了無效的通訊協定</translation>
+        <translation>Geçersiz protokol seçildi</translation>
     </message>
     <message>
         <source>The certificate provided cannot be used for a client.</source>
-        <translation>提供的憑證不能用於客戶端。</translation>
+        <translation>Sağlanan sertifika bir istemci için kullanılamaz.</translation>
     </message>
     <message>
         <source>The certificate provided cannot be used for a server.</source>
-        <translation>提供的憑證不能用於伺服端。</translation>
+        <translation>Sağlanan sertifika bir sunucu için kullanılamaz.</translation>
     </message>
     <message>
         <source>Server did not accept any certificate we could present.</source>
-        <translation>伺服器不接受我們所能提供的憑證。</translation>
+        <translation>Sunucu sunabileceğimiz hiçbir sertifikayı kabul etmedi.</translation>
     </message>
     <message>
         <source>Algorithm mismatch</source>
-        <translation>算法不相符</translation>
+        <translation>Algoritma uyumsuzluğu</translation>
     </message>
     <message>
         <source>Handshake failed: %1</source>
-        <translation>交握失敗：%1</translation>
+        <translation>El sıkışması başarısız oldu: %1</translation>
     </message>
     <message>
         <source>Failed to query the TLS context: %1</source>
-        <translation>無法查詢 TLS 上下文：%1</translation>
+        <translation>TLS içeriği sorgulanamadı: %1</translation>
     </message>
     <message>
         <source>Did not get the required attributes for the connection.</source>
-        <translation>未取得此連線所需的屬性。</translation>
+        <translation>Bağlantı için gerekli öznitelikler alınamadı.</translation>
     </message>
     <message>
         <source>Unwanted protocol was negotiated</source>
-        <translation>交涉了非期望的通訊協定</translation>
+        <translation>İstenmeyen protokol müzakere edildi</translation>
     </message>
     <message>
         <source>Renegotiation was unsuccessful: %1</source>
-        <translation>重新交涉失敗：%1</translation>
+        <translation>Yeniden görüşme başarısız oldu: %1</translation>
     </message>
     <message>
         <source>Schannel failed to encrypt data: %1</source>
-        <translation>Schannel 加密資料失敗：%1</translation>
+        <translation>Schannel verileri şifreleyemedi: %1</translation>
     </message>
     <message>
         <source>Cannot provide a certificate with no key</source>
-        <translation>無法提供沒有金鑰的憑證</translation>
-    </message>
-    <message>
-        <source>OCSP reponder&apos;s identity cannot be verified</source>
-        <translation type="vanished">無法驗證 OCSP 回應器的身份</translation>
-    </message>
-    <message>
-        <source>The certificate provided can not be used for a %1.</source>
-        <translation type="vanished">提供的憑證不能對 %1 使用。</translation>
-    </message>
-    <message>
-        <source>client</source>
-        <translation type="vanished">客戶端</translation>
-    </message>
-    <message>
-        <source>server</source>
-        <translation type="vanished">伺服器</translation>
+        <translation>Anahtarsız sertifika verilemiyor</translation>
     </message>
 </context>
 <context>
     <name>QStandardPaths</name>
     <message>
         <source>Desktop</source>
-        <translation>桌面</translation>
+        <translation>Masaüstü</translation>
     </message>
     <message>
         <source>Documents</source>
-        <translation>文件</translation>
+        <translation>Belgeler</translation>
     </message>
     <message>
         <source>Fonts</source>
-        <translation>字型</translation>
+        <translation>Yazı tipleri</translation>
     </message>
     <message>
         <source>Applications</source>
-        <translation>應用程式</translation>
+        <translation>Uygulamalar</translation>
     </message>
     <message>
         <source>Music</source>
-        <translation>音樂</translation>
+        <translation>Müzik</translation>
     </message>
     <message>
         <source>Movies</source>
-        <translation>影片</translation>
+        <translation>Filmler</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>圖片</translation>
+        <translation>Resimler</translation>
     </message>
     <message>
         <source>Temporary Directory</source>
-        <translation>暫存目錄</translation>
+        <translation>Geçici Dizin</translation>
     </message>
     <message>
         <source>Home</source>
-        <translation>家目錄</translation>
+        <translation>Ev</translation>
     </message>
     <message>
         <source>Cache</source>
-        <translation>快取</translation>
+        <translation>Önbellek</translation>
     </message>
     <message>
         <source>Shared Data</source>
-        <translation>共享資料</translation>
+        <translation>Paylaşılan Veri</translation>
     </message>
     <message>
         <source>Runtime</source>
-        <translation>執行庫</translation>
+        <translation>Çalışma Zamanı</translation>
     </message>
     <message>
         <source>Configuration</source>
-        <translation>設定</translation>
+        <translation>Yapılandırma</translation>
     </message>
     <message>
         <source>Shared Configuration</source>
-        <translation>共享設定</translation>
+        <translation>Paylaşılan Yapılandırma</translation>
     </message>
     <message>
         <source>Shared Cache</source>
-        <translation>共享快取</translation>
+        <translation>Paylaşılan Önbellek</translation>
     </message>
     <message>
         <source>Download</source>
-        <translation>下載</translation>
+        <translation>İndir</translation>
     </message>
     <message>
         <source>Application Data</source>
-        <translation>應用程式資料</translation>
+        <translation>Uygulama Verisi</translation>
     </message>
     <message>
         <source>Application Configuration</source>
-        <translation>應用程式設定</translation>
+        <translation>Uygulama Yapılandırması</translation>
     </message>
 </context>
 <context>
     <name>QStateMachine</name>
     <message>
         <source>Missing initial state in compound state &apos;%1&apos;</source>
-        <translation>複合狀態「%1」缺少初始狀態</translation>
+        <translation>&apos;%1&apos; bileşik durumunda başlangıç durumu eksik</translation>
     </message>
     <message>
         <source>Missing default state in history state &apos;%1&apos;</source>
-        <translation>歷史狀態「%1」缺少預設狀態</translation>
+        <translation>&apos;%1&apos; geçmiş durumunda eksik varsayılan durum</translation>
     </message>
     <message>
         <source>No common ancestor for targets and source of transition from state &apos;%1&apos;</source>
-        <translation>來自「%1」的過渡狀態的來源和目標沒有共同上階項目</translation>
+        <translation>&apos;%1&apos; durumundan hedefler ve geçiş kaynağı için ortak bir ata yok</translation>
     </message>
     <message>
         <source>Child mode of state machine &apos;%1&apos; is not &apos;ExclusiveStates&apos;.</source>
-        <translation>「%1」狀態機的子模式不是「ExclusiveStates」。</translation>
+        <translation>&apos;%1&apos; durum makinesinin alt modu &apos;ExclusiveStates&apos; değil.</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>未知錯誤</translation>
+        <translation>Bilinmeyen hata</translation>
     </message>
 </context>
 <context>
     <name>QSystemSemaphore</name>
     <message>
         <source>%1: permission denied</source>
-        <translation>%1：存取被拒</translation>
+        <translation>%1: izin reddedildi</translation>
     </message>
     <message>
         <source>%1: already exists</source>
-        <translation>%1：已存在</translation>
+        <translation>%1: zaten var</translation>
     </message>
     <message>
         <source>%1: does not exist</source>
-        <translation>%1：不存在</translation>
+        <translation>%1: mevcut değil</translation>
     </message>
     <message>
         <source>%1: out of resources</source>
-        <translation>%1：資源不足</translation>
+        <translation>%1: kaynak dışı</translation>
     </message>
     <message>
         <source>%1: unknown error %2</source>
-        <translation>%1：未知的錯誤 %2</translation>
+        <translation>%1: bilinmeyen hata %2</translation>
     </message>
 </context>
 <context>
     <name>QTDSDriver</name>
     <message>
         <source>Unable to open connection</source>
-        <translation>無法開啟連線</translation>
+        <translation>Bağlantı açılamıyor</translation>
     </message>
     <message>
         <source>Unable to use database</source>
-        <translation>無法使用資料庫</translation>
+        <translation>Veritabanı kullanılamıyor</translation>
     </message>
 </context>
 <context>
     <name>QTabBar</name>
     <message>
         <source>Scroll Left</source>
-        <translation>往左捲動</translation>
+        <translation>Sola Kaydır</translation>
     </message>
     <message>
         <source>Scroll Right</source>
-        <translation>往右捲動</translation>
+        <translation>Sağa Kaydır</translation>
     </message>
 </context>
 <context>
     <name>QTcpServer</name>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>不支援 Socket 的操作</translation>
+        <translation>Soket üzerinde işlem desteklenmiyor</translation>
     </message>
 </context>
 <context>
     <name>QTgaFile</name>
     <message>
         <source>Could not read image data</source>
-        <translation>無法讀取影像資料</translation>
+        <translation>Görüntü verileri okunamadı</translation>
     </message>
     <message>
         <source>Sequential device (eg socket) for image read not supported</source>
-        <translation>不支援用於影像讀取的順序裝置（例如 socket）</translation>
+        <translation>Görüntü okuma için sıralı aygıt (örn. soket) desteklenmez</translation>
     </message>
     <message>
         <source>Seek file/device for image read failed</source>
-        <translation>尋找用於讀取影像的檔案或裝置失敗</translation>
+        <translation>Görüntü okumak için dosya/aygıt aranamadı</translation>
     </message>
     <message>
         <source>Image header read failed</source>
-        <translation>影像標頭讀取失敗</translation>
+        <translation>Görüntü başlığı okunamadı</translation>
     </message>
     <message>
         <source>Image type not supported</source>
-        <translation>不支援的影像類型</translation>
+        <translation>Görüntü türü desteklenmiyor</translation>
     </message>
     <message>
         <source>Image depth not valid</source>
-        <translation>無效的影像深度</translation>
+        <translation>Görüntü derinliği geçerli değil</translation>
     </message>
     <message>
         <source>Image size exceeds limit</source>
-        <translation>影像大小超出限制</translation>
+        <translation>Görüntü boyutu sınırı aşıyor</translation>
     </message>
     <message>
         <source>Could not seek to image read footer</source>
-        <translation>無法尋至影像讀取註腳</translation>
+        <translation>Görüntü okuma altbilgisi aranamadı</translation>
     </message>
     <message>
         <source>Could not read footer</source>
-        <translation>無法讀取註腳</translation>
+        <translation>Altbilgi okunamadı</translation>
     </message>
     <message>
         <source>Image type (non-TrueVision 2.0) not supported</source>
-        <translation>不支援的影像類型（非 TrueVision 2.0）</translation>
+        <translation>Görüntü türü (TrueVision 2.0 olmayan) desteklenmez</translation>
     </message>
     <message>
         <source>Could not reset to read data</source>
-        <translation>無法重設到讀取資料</translation>
+        <translation>Veri okumak için sıfırlanamadı</translation>
     </message>
 </context>
 <context>
     <name>QUdpSocket</name>
     <message>
         <source>Unable to send a datagram</source>
-        <translation>無法傳送資料塊</translation>
+        <translation>Bir datagram gönderilemiyor</translation>
     </message>
     <message>
         <source>No datagram available for reading</source>
-        <translation>沒有能用於讀取的資料塊</translation>
+        <translation>Okunacak datagram yok</translation>
     </message>
 </context>
 <context>
     <name>QUndoGroup</name>
     <message>
         <source>Undo %1</source>
-        <translation>復原 %1</translation>
+        <translation>Geri al %1</translation>
     </message>
     <message>
         <source>Undo</source>
         <comment>Default text for undo action</comment>
-        <translation>復原</translation>
+        <translation>Geri al</translation>
     </message>
     <message>
         <source>Redo %1</source>
-        <translation>重做 %1</translation>
+        <translation>Yinele %1</translation>
     </message>
     <message>
         <source>Redo</source>
         <comment>Default text for redo action</comment>
-        <translation>重做</translation>
+        <translation>Yinele</translation>
     </message>
 </context>
 <context>
     <name>QUndoModel</name>
     <message>
         <source>&lt;empty&gt;</source>
-        <translation>＜空白＞</translation>
+        <translation>&lt;empty&gt;</translation>
     </message>
 </context>
 <context>
     <name>QUndoStack</name>
     <message>
         <source>Undo %1</source>
-        <translation>復原 %1</translation>
+        <translation>Geri al %1</translation>
     </message>
     <message>
         <source>Undo</source>
         <comment>Default text for undo action</comment>
-        <translation>復原</translation>
+        <translation>Geri al</translation>
     </message>
     <message>
         <source>Redo %1</source>
-        <translation>重做 %1</translation>
+        <translation>Yinele %1</translation>
     </message>
     <message>
         <source>Redo</source>
         <comment>Default text for redo action</comment>
-        <translation>重做</translation>
+        <translation>Yinele</translation>
     </message>
 </context>
 <context>
     <name>QUnicodeControlCharacterMenu</name>
     <message>
         <source>LRM Left-to-right mark</source>
-        <translation>LRM 左到右標記</translation>
+        <translation>LRM Soldan sağa işareti</translation>
     </message>
     <message>
         <source>RLM Right-to-left mark</source>
-        <translation>RLM 右到左標記</translation>
+        <translation>RLM Sağdan sola işareti</translation>
     </message>
     <message>
         <source>ZWJ Zero width joiner</source>
-        <translation>ZWJ 零寬度連接器</translation>
+        <translation>ZWJ Sıfır genişlikli marangoz</translation>
     </message>
     <message>
         <source>ZWNJ Zero width non-joiner</source>
-        <translation>ZWNJ 零寬度非連接器</translation>
+        <translation>ZWNJ Sıfır genişlikli mafsalsız</translation>
     </message>
     <message>
         <source>ZWSP Zero width space</source>
-        <translation>ZWSP 零寬度空白</translation>
+        <translation>ZWSP Sıfır genişlik alanı</translation>
     </message>
     <message>
         <source>LRE Start of left-to-right embedding</source>
-        <translation>LRE 左到右嵌入起點</translation>
+        <translation>LRE Soldan sağa yerleştirmenin başlatılması</translation>
     </message>
     <message>
         <source>RLE Start of right-to-left embedding</source>
-        <translation>RLE 右到左嵌入起點</translation>
+        <translation>RLE Sağdan sola yerleştirmenin başlatılması</translation>
     </message>
     <message>
         <source>LRO Start of left-to-right override</source>
-        <translation>LRO 左到右覆寫起點</translation>
+        <translation>LRO Soldan sağa geçersiz kılmanın başlangıcı</translation>
     </message>
     <message>
         <source>RLO Start of right-to-left override</source>
-        <translation>RLO 右到左覆寫起點</translation>
+        <translation>RLO Sağdan sola geçersiz kılmanın başlangıcı</translation>
     </message>
     <message>
         <source>PDF Pop directional formatting</source>
-        <translation>PDF 彈出方向格式</translation>
+        <translation>PDF Pop yönlü biçimlendirme</translation>
     </message>
     <message>
         <source>LRI Left-to-right isolate</source>
-        <translation>LRI 左至右分隔</translation>
+        <translation>LRI Soldan sağa yalıtma</translation>
     </message>
     <message>
         <source>RLI Right-to-left isolate</source>
-        <translation>RLI 右至左分隔</translation>
+        <translation>RLI Sağdan sola yalıtma</translation>
     </message>
     <message>
         <source>FSI First strong isolate</source>
-        <translatorcomment>為 Unicode 專有名詞，因找不到適合翻譯因此留空，等待有較適合用詞後再填入。</translatorcomment>
-        <translation type="unfinished"></translation>
+        <translation>FSI İlk güçlü yalıtma</translation>
     </message>
     <message>
         <source>PDI Pop directional isolate</source>
-        <translatorcomment>為 Unicode 專有名詞，因找不到適合翻譯因此留空，等待有較適合用詞後再填入。</translatorcomment>
-        <translation type="unfinished"></translation>
+        <translation>PDI Pop yönlü yalıtma</translation>
     </message>
     <message>
         <source>Insert Unicode control character</source>
-        <translation>插入 Unicode 控制字元</translation>
+        <translation>Unicode kontrol karakteri ekle</translation>
     </message>
 </context>
 <context>
     <name>QWhatsThisAction</name>
     <message>
         <source>What&apos;s This?</source>
-        <translation>這是什麼？</translation>
+        <translation>Bu Nedir?</translation>
     </message>
 </context>
 <context>
@@ -7438,35 +7355,35 @@ Role of an accessible object</extracomment>
     <name>QWidgetTextControl</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>復原(&amp;U)</translation>
+        <translation>&amp;Geri al</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>重做(&amp;R)</translation>
+        <translation>&amp;Yinele</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>剪下(&amp;T)</translation>
+        <translation>Ke&amp;s</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>複製(&amp;C)</translation>
+        <translation>&amp;Kopyala</translation>
     </message>
     <message>
         <source>Copy &amp;Link Location</source>
-        <translation>複製連結位址(&amp;L)</translation>
+        <translation>Bağ&amp;lantı Konumunu Kopyala</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>貼上(&amp;P)</translation>
+        <translation>Ya&amp;pıştır</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>刪除</translation>
+        <translation>Sil</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>全部選擇</translation>
+        <translation>Tümünü Seç</translation>
     </message>
 </context>
 <context>
@@ -7475,318 +7392,322 @@ Role of an accessible object</extracomment>
         <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
 
 The minimum Direct2D version required is %1. The Direct2D version on this system is %2.</source>
-        <translation>Qt 無法載入 direct2d 平台外掛程式，因為系統 Direct2D 版本過舊。此平台外掛程式的最低系統需求至少要包含平台更新的 Windows 7 SP1。
+        <translation>Qt, bu sistemdeki Direct2D sürümü çok eski olduğundan direct2d platform eklentisini yükleyemiyor. Bu platform eklentisi için en düşük sistem gereksinimi Platform Güncellemeli Windows 7 SP1&apos;dir.
 
-最低 Direct2D 版本需求為 %1，但系統上的 Direct2D 版本為 %2。</translation>
+Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.</translation>
     </message>
     <message>
         <source>Cannot load direct2d platform plugin</source>
-        <translation>無法載入 Direct2D 平台外掛程式</translation>
+        <translation>Direct2D platform eklentisi yüklenemiyor</translation>
     </message>
 </context>
 <context>
     <name>QWizard</name>
     <message>
         <source>Go Back</source>
-        <translation>往回</translation>
+        <translation>Geri Git</translation>
     </message>
     <message>
         <source>&lt; &amp;Back</source>
-        <translation>＜返回(&amp;B)</translation>
+        <translation>&lt; &amp;Geri</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation>繼續</translation>
+        <translation>Devam et</translation>
     </message>
     <message>
         <source>&amp;Next</source>
-        <translation>下一個(&amp;N)</translation>
+        <translation>So&amp;nraki</translation>
     </message>
     <message>
         <source>&amp;Next &gt;</source>
-        <translation>下一個(&amp;N) ＞</translation>
+        <translation>So&amp;nraki &gt;</translation>
     </message>
     <message>
         <source>Commit</source>
-        <translation>提交</translation>
+        <translation>İşleme</translation>
     </message>
     <message>
         <source>Done</source>
-        <translation>完成</translation>
+        <translation>Bitti</translation>
     </message>
     <message>
         <source>&amp;Finish</source>
-        <translation>完成(&amp;F)</translation>
+        <translation>&amp;Bitiş</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>取消</translation>
+        <translation>İptal</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>說明</translation>
+        <translation>Yardım</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>說明(&amp;H)</translation>
+        <translation>&amp;Yardım</translation>
     </message>
 </context>
 <context>
     <name>QXml</name>
     <message>
         <source>no error occurred</source>
-        <translation>沒有發生錯誤</translation>
+        <translation>hata oluşmadı</translation>
     </message>
     <message>
         <source>error triggered by consumer</source>
-        <translation>客戶觸發的錯誤</translation>
+        <translation>tüketici tarafından tetiklenen hata</translation>
     </message>
     <message>
         <source>unexpected end of file</source>
-        <translation>遇到非預期的檔案結尾</translation>
+        <translation>beklenmedik dosya sonu</translation>
     </message>
     <message>
         <source>more than one document type definition</source>
-        <translation>定義了一個以上的文件型態</translation>
+        <translation>birden fazla belge türü tanımı</translation>
     </message>
     <message>
         <source>error occurred while parsing element</source>
-        <translation>解析元素時發生錯誤</translation>
+        <translation>öğe ayrıştırılırken hata oluştu</translation>
     </message>
     <message>
         <source>tag mismatch</source>
-        <translation>標籤不相等</translation>
+        <translation>etiket uyuşmazlığı</translation>
     </message>
     <message>
         <source>error occurred while parsing content</source>
-        <translation>解析內容時發生錯誤</translation>
+        <translation>içerik ayrıştırılırken hata oluştu</translation>
     </message>
     <message>
         <source>unexpected character</source>
-        <translation>非預期字元</translation>
+        <translation>beklenmeyen karakter</translation>
     </message>
     <message>
         <source>invalid name for processing instruction</source>
-        <translation>處理指令時遇到無效名稱</translation>
+        <translation>işlem talimatı için geçersiz ad</translation>
     </message>
     <message>
         <source>version expected while reading the XML declaration</source>
-        <translation>讀取 XML 宣告時應該要有版本號</translation>
+        <translation>XML bildirimi okunurken sürüm bekleniyor</translation>
     </message>
     <message>
         <source>wrong value for standalone declaration</source>
-        <translation>獨立宣告時的值錯誤</translation>
+        <translation>bağımsız bildirim için yanlış değer</translation>
     </message>
     <message>
         <source>encoding declaration or standalone declaration expected while reading the XML declaration</source>
-        <translation>讀取 XML 宣告時應有編碼方式宣告或獨立宣告</translation>
+        <translation>XML bildirimi okunurken beklenen kodlama bildirimi veya bağımsız bildirim</translation>
     </message>
     <message>
         <source>standalone declaration expected while reading the XML declaration</source>
-        <translation>讀取 XML 宣告時應有獨立宣告</translation>
+        <translation>XML bildirimini okurken bağımsız bildirim bekleniyor</translation>
     </message>
     <message>
         <source>error occurred while parsing document type definition</source>
-        <translation>解析文件型態定義時發生錯誤</translation>
+        <translation>belge türü tanımı ayrıştırılırken hata oluştu</translation>
     </message>
     <message>
         <source>letter is expected</source>
-        <translation>預期字母</translation>
+        <translation>mektup bekleniyor</translation>
     </message>
     <message>
         <source>error occurred while parsing comment</source>
-        <translation>解析註解時發生錯誤</translation>
+        <translation>yorum ayrıştırılırken hata oluştu</translation>
     </message>
     <message>
         <source>error occurred while parsing reference</source>
-        <translation>解析參考時發生錯誤</translation>
+        <translation>referans ayrıştırılırken hata oluştu</translation>
     </message>
     <message>
         <source>internal general entity reference not allowed in DTD</source>
-        <translation>在 DTD 中不允許內部產生的一般實體參考</translation>
+        <translation>DTD&apos;de dahili genel varlık referansına izin verilmiyor</translation>
     </message>
     <message>
         <source>external parsed general entity reference not allowed in attribute value</source>
-        <translation>在屬性值中不允許使用外部解析的一般實體參考</translation>
+        <translation>öznitelik değerinde harici ayrıştırılmış genel varlık referansına izin verilmiyor</translation>
     </message>
     <message>
         <source>external parsed general entity reference not allowed in DTD</source>
-        <translation>在 DTD 中不允許使用外部解析的一般實體參考</translation>
+        <translation>DTD&apos;de harici ayrıştırılmış genel varlık referansına izin verilmiyor</translation>
     </message>
     <message>
         <source>unparsed entity reference in wrong context</source>
-        <translation>在錯誤的內文中有未解析的實體參考</translation>
+        <translation>yanlış bağlamda ayrıştırılmamış varlık referansı</translation>
     </message>
     <message>
         <source>recursive entities</source>
-        <translation>遞迴實體</translation>
+        <translation>özyinelemeli varlıklar</translation>
     </message>
     <message>
         <source>error in the text declaration of an external entity</source>
-        <translation>在外部實體中的文字宣告有錯誤</translation>
+        <translation>harici bir varlığın metin bildiriminde hata</translation>
     </message>
 </context>
 <context>
     <name>QXmlStream</name>
     <message>
         <source>Extra content at end of document.</source>
-        <translation>文件尾端有多餘的內容。</translation>
+        <translation>Belgenin sonunda fazladan içerik.</translation>
     </message>
     <message>
         <source>Invalid entity value.</source>
-        <translation>無效的實體值。</translation>
+        <translation>Geçersiz varlık değeri.</translation>
     </message>
     <message>
         <source>Invalid XML character.</source>
-        <translation>無效的 XML 字元。</translation>
+        <translation>Geçersiz XML karakteri.</translation>
     </message>
     <message>
         <source>Sequence &apos;]]&gt;&apos; not allowed in content.</source>
-        <translation>在內文中不允許有序列「]]&gt;」。</translation>
+        <translation>&apos;]]&gt;&apos; dizisine içerikte izin verilmiyor.</translation>
     </message>
     <message>
         <source>Encountered incorrectly encoded content.</source>
-        <translation>遇到不正確的編碼內容。</translation>
+        <translation>Yanlış kodlanmış içerikle karşılaşıldı.</translation>
     </message>
     <message>
         <source>Namespace prefix &apos;%1&apos; not declared</source>
-        <translation>未宣告命名空間的前置字串「%1」</translation>
+        <translation>&apos;%1&apos; ad alanı öneki bildirilmedi</translation>
     </message>
     <message>
         <source>Illegal namespace declaration.</source>
-        <translation>無效的命名空間宣告。</translation>
+        <translation>Geçersiz ad alanı bildirimi.</translation>
     </message>
     <message>
         <source>Attribute &apos;%1&apos; redefined.</source>
-        <translation>屬性「%1」重複定義。</translation>
+        <translation>&apos;%1&apos; özelliği yeniden tanımlandı.</translation>
     </message>
     <message>
         <source>Unexpected character &apos;%1&apos; in public id literal.</source>
-        <translation>在公開代碼字元中遇到非預期的字元「%1」。</translation>
+        <translation>Genel kimlik değişmezinde beklenmeyen &apos;%1&apos; karakteri.</translation>
     </message>
     <message>
         <source>Invalid XML version string.</source>
-        <translation>無效的 XML 版本字串。</translation>
+        <translation>Geçersiz XML sürüm dizesi.</translation>
     </message>
     <message>
         <source>Unsupported XML version.</source>
-        <translation>不支援的 XML 版本。</translation>
+        <translation>Desteklenmeyen XML sürümü.</translation>
     </message>
     <message>
         <source>The standalone pseudo attribute must appear after the encoding.</source>
-        <translation>獨立的虛擬屬性必須在編碼方式之後出現。</translation>
+        <translation>Bağımsız sözde öznitelik kodlamadan sonra görünmelidir.</translation>
     </message>
     <message>
         <source>%1 is an invalid encoding name.</source>
-        <translation>%1 為無效的編碼名稱。</translation>
+        <translation>%1 geçersiz bir kodlama adı.</translation>
     </message>
     <message>
         <source>Encoding %1 is unsupported</source>
-        <translation>不支援編碼 %1</translation>
+        <translation>%1 kodlaması desteklenmiyor</translation>
     </message>
     <message>
         <source>Standalone accepts only yes or no.</source>
-        <translation>獨立實體只接受 yes 或 no。</translation>
+        <translation>Bağımsız yalnızca evet veya hayır kabul eder.</translation>
     </message>
     <message>
         <source>Invalid attribute in XML declaration.</source>
-        <translation>XML 宣告中有無效的屬性。</translation>
+        <translation>XML bildiriminde geçersiz özellik.</translation>
     </message>
     <message>
         <source>Premature end of document.</source>
-        <translation>文件結尾過早結束。</translation>
+        <translation>Belgenin erken sonu.</translation>
     </message>
     <message>
         <source>Invalid document.</source>
-        <translation>文件無效。</translation>
+        <translation>Geçersiz belge.</translation>
     </message>
     <message>
         <source>&apos;%1&apos;</source>
         <comment>expected</comment>
         <extracomment>&apos;&lt;first option&gt;&apos;</extracomment>
-        <translation>「%1」</translation>
+        <translation>&apos;%1&apos;</translation>
     </message>
     <message>
         <source>%1 or &apos;%2&apos;</source>
         <comment>expected</comment>
         <extracomment>&lt;first option&gt;, &apos;&lt;second option&gt;&apos;</extracomment>
-        <translation>%1 或「%2」</translation>
+        <translation>%1 veya &apos;%2&apos;</translation>
     </message>
     <message>
         <source>%1, &apos;%2&apos;</source>
         <comment>expected</comment>
         <extracomment>&lt;options so far&gt;, &apos;&lt;next option&gt;&apos;</extracomment>
-        <translation>%1、「%2」</translation>
+        <translation>%1, &apos;%2&apos;</translation>
     </message>
     <message>
         <source>%1, or &apos;%2&apos;</source>
         <comment>expected</comment>
         <extracomment>&lt;options so far&gt;, or &apos;&lt;final option&gt;&apos;</extracomment>
-        <translation>%1、或「%2」</translation>
+        <translation>%1, veya &apos;%2&apos;</translation>
     </message>
     <message>
         <source>Expected %1, but got &apos;%2&apos;.</source>
-        <translation>應為 %1 但得到「%2」。</translation>
+        <translation>%1 bekleniyordu, ancak &apos;%2&apos; aldı.</translation>
     </message>
     <message>
         <source>Unexpected &apos;%1&apos;.</source>
-        <translation>非預期的「%1」。</translation>
+        <translation>Beklenmeyen &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Expected character data.</source>
-        <translation>預期的字元資料。</translation>
+        <translation>Beklenen karakter verileri.</translation>
     </message>
     <message>
-        <source>Recursive entity detected.</source>
-        <translation>偵測到遞迴實體。</translation>
+        <source>Self-referencing entity detected.</source>
+        <translation>Kendine referans veren varlık algılandı.</translation>
+    </message>
+    <message>
+        <source>Entity expands to more characters than the entity expansion limit.</source>
+        <translation>Varlık, varlık genişletme sınırından daha fazla karaktere genişler.</translation>
     </message>
     <message>
         <source>Start tag expected.</source>
-        <translation>預期應有開始標籤。</translation>
+        <translation>Başlangıç etiketi bekleniyor.</translation>
     </message>
     <message>
         <source>NDATA in parameter entity declaration.</source>
-        <translation>參數實體宣告有 NDATA。</translation>
+        <translation>Parametre varlık bildirimindeki NDATA.</translation>
     </message>
     <message>
         <source>XML declaration not at start of document.</source>
-        <translation>XML 宣告沒有在文件開始處。</translation>
+        <translation>XML bildirimi belgenin başında değil.</translation>
     </message>
     <message>
         <source>%1 is an invalid processing instruction name.</source>
-        <translation>%1 是無效的處理指令名稱。</translation>
+        <translation>%1 geçersiz bir işlem talimatı adı.</translation>
     </message>
     <message>
         <source>Invalid processing instruction name.</source>
-        <translation>無效的處理指令名稱。</translation>
+        <translation>Geçersiz işlem talimatı adı.</translation>
     </message>
     <message>
         <source>%1 is an invalid PUBLIC identifier.</source>
-        <translation>%1 為無效的 PUBLIC 識別子。</translation>
+        <translation>%1 geçersiz bir PUBLIC tanımlayıcısı.</translation>
     </message>
     <message>
         <source>Invalid XML name.</source>
-        <translation>無效的 XML 名稱。</translation>
+        <translation>Geçersiz XML adı.</translation>
     </message>
     <message>
         <source>Opening and ending tag mismatch.</source>
-        <translation>開啟與結束的標籤不對稱。</translation>
+        <translation>Etiket uyuşmazlığını açma ve sonlandırma.</translation>
     </message>
     <message>
         <source>Entity &apos;%1&apos; not declared.</source>
-        <translation>實體「%1」未宣告。</translation>
+        <translation>&apos;%1&apos; varlık bildirilmedi.</translation>
     </message>
     <message>
         <source>Reference to unparsed entity &apos;%1&apos;.</source>
-        <translation>參考到未解析的實體「%1」。</translation>
+        <translation>Ayrıştırılmamış &apos;%1&apos; varlığına başvuru.</translation>
     </message>
     <message>
         <source>Reference to external entity &apos;%1&apos; in attribute value.</source>
-        <translation>在屬性值中參考到外部實體「%1」。</translation>
+        <translation>Özellik değerinde &apos;%1&apos; harici varlığına referans.</translation>
     </message>
     <message>
         <source>Invalid character reference.</source>
-        <translation>無效的字元參考。</translation>
+        <translation>Geçersiz karakter referansı.</translation>
     </message>
 </context>
 </TS>

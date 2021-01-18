@@ -626,7 +626,11 @@
     <name>Designer</name>
     <message>
         <source>Unable to launch %1.</source>
-        <translation>無法啟動 %1。</translation>
+        <translation type="vanished">無法啟動 %1。</translation>
+    </message>
+    <message>
+        <source>Unable to launch %1: %2</source>
+        <translation>無法啟動 %1：%2</translation>
     </message>
     <message>
         <source>%1 timed out.</source>
@@ -965,6 +969,14 @@
     <message>
         <source>ID-based</source>
         <translation>基於 ID</translation>
+    </message>
+    <message>
+        <source>Connections</source>
+        <translation>連結</translation>
+    </message>
+    <message>
+        <source>Connect slots by name</source>
+        <translation>依名稱連結信號槽</translation>
     </message>
 </context>
 <context>
@@ -1349,7 +1361,7 @@ This indicates an inconsistency in the ui-file.</source>
     <message>
         <source>%1 already exists.
 Do you want to replace it?</source>
-        <translation>%1 已存在。
+        <translation type="vanished">%1 已存在。
 您要取代它嗎?</translation>
     </message>
     <message>
@@ -1398,7 +1410,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>View &amp;Code...</source>
-        <translation>檢視程式碼(&amp;C)...</translation>
+        <translation type="vanished">檢視程式碼(&amp;C)...</translation>
     </message>
     <message>
         <source>&amp;Minimize</source>
@@ -1473,6 +1485,14 @@ Do you want to replace it?</source>
         <translation>另存表單</translation>
     </message>
     <message>
+        <source>View &amp;C++ Code...</source>
+        <translation>檢視 &amp;C++ 程式碼…</translation>
+    </message>
+    <message>
+        <source>View &amp;Python Code...</source>
+        <translation>檢視 &amp;Python 程式碼…</translation>
+    </message>
+    <message>
         <source>Designer</source>
         <translation>設計師</translation>
     </message>
@@ -1527,14 +1547,24 @@ Would you like to retry or select a different file?</source>
         <translation>選擇新檔案</translation>
     </message>
     <message>
+        <source>Save Form</source>
+        <translation>儲存表單</translation>
+    </message>
+    <message>
         <source>Could not write file</source>
         <translation>無法寫入檔案</translation>
+    </message>
+    <message>
+        <source>It was not possible to write the file %1 to disk.
+Reason: %2</source>
+        <translation>無法將 %1 檔案寫入磁碟。
+原因：%2</translation>
     </message>
     <message>
         <source>It was not possible to write the entire file %1 to disk.
 Reason:%2
 Would you like to retry?</source>
-        <translation>無法將整個檔案 %1 寫入磁碟。
+        <translation type="vanished">無法將整個檔案 %1 寫入磁碟。
 理由：%2
 您要重試嗎?</translation>
     </message>
@@ -3252,7 +3282,7 @@ Do you want overwrite the template?</source>
     <name>WidgetDataBase</name>
     <message>
         <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
-        <translation>找到了自訂元件外掛程式的一個類別名稱 (%1) 與現有類別名稱相符。</translation>
+        <translation type="vanished">找到了自訂元件外掛程式的一個類別名稱 (%1) 與現有類別名稱相符。</translation>
     </message>
     <message>
         <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
@@ -3466,8 +3496,12 @@ Do you want overwrite the template?</source>
         <translation>無法寫入暫存表單檔 %1。</translation>
     </message>
     <message>
+        <source>%1 - [%2 Code]</source>
+        <translation>%1 - [%2 程式碼]</translation>
+    </message>
+    <message>
         <source>%1 - [Code]</source>
-        <translation>%1─[源碼]</translation>
+        <translation type="vanished">%1─[源碼]</translation>
     </message>
     <message>
         <source>Save Code</source>
@@ -3475,7 +3509,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Header Files (*.%1)</source>
-        <translation>標頭檔 (*.%1)</translation>
+        <translation type="vanished">標頭檔 (*.%1)</translation>
     </message>
     <message>
         <source>The file %1 could not be opened: %2</source>
@@ -3491,7 +3525,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>&amp;Find in Text...</source>
-        <translation>在文字中尋找(&amp;F)...</translation>
+        <translation type="vanished">在文字中尋找(&amp;F)...</translation>
     </message>
 </context>
 <context>
@@ -4526,7 +4560,7 @@ Please select another name.</source>
     </message>
     <message>
         <source>&amp;Find in Text...</source>
-        <translation>在文字中尋找(&amp;F)...</translation>
+        <translation type="vanished">在文字中尋找(&amp;F)...</translation>
     </message>
 </context>
 <context>
@@ -4593,6 +4627,66 @@ Please select another name.</source>
     <message>
         <source>Active</source>
         <translation>啟動</translation>
+    </message>
+    <message>
+        <source>Save...</source>
+        <translation>儲存...</translation>
+    </message>
+    <message>
+        <source>Load...</source>
+        <translation>載入…</translation>
+    </message>
+    <message>
+        <source>Lighter</source>
+        <translation>亮色</translation>
+    </message>
+    <message>
+        <source>Darker</source>
+        <translation>暗色</translation>
+    </message>
+    <message>
+        <source>Copy color %1</source>
+        <translation>複製 %1 色彩</translation>
+    </message>
+    <message>
+        <source>QPalette UI file (*.xml)</source>
+        <translation>QPalette UI 檔案 (*.xml)</translation>
+    </message>
+    <message>
+        <source>Cannot open %1 for writing: %2</source>
+        <translation>無法開啟 %1 寫入：%2</translation>
+    </message>
+    <message>
+        <source>Cannot write %1: %2</source>
+        <translation>無法寫入 %1：%2</translation>
+    </message>
+    <message>
+        <source>Cannot read palette from %1:%2:%3</source>
+        <translation>無法從 %1:%2:%3 讀取調色盤</translation>
+    </message>
+    <message>
+        <source>Cannot open %1 for reading: %2</source>
+        <translation>無法開啟 %1 讀取：%2</translation>
+    </message>
+    <message>
+        <source>Invalid element &quot;%1&quot;, expected &quot;palette&quot;.</source>
+        <translation>「%1」元件無效，應是「palette」。</translation>
+    </message>
+    <message>
+        <source>Save Palette</source>
+        <translation>儲存調色盤</translation>
+    </message>
+    <message>
+        <source>Error Writing Palette</source>
+        <translation>寫入調色盤時發生錯誤</translation>
+    </message>
+    <message>
+        <source>Load Palette</source>
+        <translation>載入調色盤</translation>
+    </message>
+    <message>
+        <source>Error Reading Palette</source>
+        <translation>讀取調色盤時發生錯誤</translation>
     </message>
 </context>
 <context>
@@ -4809,37 +4903,115 @@ ate the goose who was loose.</translation>
     <message>
         <source>ButtonGroup2</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>按鍵群組2</translation>
+        <translation type="vanished">按鍵群組2</translation>
     </message>
     <message>
         <source>CheckBox1</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>勾選盒1</translation>
+        <translation>勾選盒 1</translation>
     </message>
     <message>
         <source>CheckBox2</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>勾選盒2</translation>
+        <translation type="vanished">勾選盒2</translation>
     </message>
     <message>
         <source>ButtonGroup</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>按鍵群組</translation>
+        <translation type="vanished">按鍵群組</translation>
     </message>
     <message>
         <source>RadioButton1</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>單選圓鈕1</translation>
+        <translation>單選圓鈕 1</translation>
     </message>
     <message>
         <source>RadioButton2</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>單選圓鈕2</translation>
+        <translation>單選圓鈕 2</translation>
     </message>
     <message>
         <source>RadioButton3</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>單選圓鈕3</translation>
+        <translation>單選圓鈕 3</translation>
+    </message>
+    <message>
+        <source>Buttons</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>按鍵</translation>
+    </message>
+    <message>
+        <source>Tristate CheckBox</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>三態勾選盒</translation>
+    </message>
+    <message>
+        <source>ToggleButton</source>
+        <translation>切換按鍵</translation>
+    </message>
+    <message>
+        <source>ToolButton</source>
+        <translation>工具按鍵</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>選單</translation>
+    </message>
+    <message>
+        <source>Item Views</source>
+        <translation>項目檢視</translation>
+    </message>
+    <message>
+        <source>Column 1</source>
+        <translation>第 1 欄</translation>
+    </message>
+    <message>
+        <source>Top Level 1</source>
+        <translation>頂層 1</translation>
+    </message>
+    <message>
+        <source>Nested Item 1</source>
+        <translation>巢狀項目 1</translation>
+    </message>
+    <message>
+        <source>Nested Item 2</source>
+        <translation>巢狀項目 2</translation>
+    </message>
+    <message>
+        <source>Nested Item 3</source>
+        <translation>巢狀項目 3</translation>
+    </message>
+    <message>
+        <source>Simple Input Widgets</source>
+        <translation>簡易輸入元件</translation>
+    </message>
+    <message>
+        <source>Item1</source>
+        <translation>項目 1</translation>
+    </message>
+    <message>
+        <source>Item2</source>
+        <translation>項目 2</translation>
+    </message>
+    <message>
+        <source>Display Widgets</source>
+        <translation>顯示元件</translation>
+    </message>
+    <message>
+        <source>QLabel</source>
+        <translation>QLabel</translation>
+    </message>
+    <message>
+        <source>QLabel with frame</source>
+        <translation>有框架的 QLabel</translation>
+    </message>
+    <message>
+        <source>Option 1</source>
+        <translation>選項 1</translation>
+    </message>
+    <message>
+        <source>Checkable</source>
+        <translation>可勾選</translation>
     </message>
 </context>
 <context>
@@ -5047,6 +5219,10 @@ Class: %2</source>
     <message>
         <source>Add Tool Bar</source>
         <translation>新增工具列</translation>
+    </message>
+    <message>
+        <source>Add Tool Bar to Other Area</source>
+        <translation>加入工具列至其他區域</translation>
     </message>
     <message>
         <source>Create Status Bar</source>
@@ -5686,6 +5862,13 @@ Class: %2</source>
     <message>
         <source>Edit name</source>
         <translation>編輯名稱</translation>
+    </message>
+</context>
+<context>
+    <name>qdesigner_internal::WidgetDataBase</name>
+    <message>
+        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
+        <translation>找到了某個自訂元件外掛程式，其類別名稱 (%1) 與現有類別名稱相符。</translation>
     </message>
 </context>
 <context>
