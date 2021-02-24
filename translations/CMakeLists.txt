@@ -45,7 +45,7 @@ function(add_ts_targets catalog)
     endif()
 
     set(source_files_list_file "${CMAKE_CURRENT_BINARY_DIR}/${catalog}_file_list.txt")
-    set(inclusion_regex "\\.h$|\\.cpp$|\\.hpp$|\\.cxx$|\\.cc$")
+    set(inclusion_regex "\\.h$|\\.cpp$|\\.hpp$|\\.cxx$|\\.cc$|\\.mm$|\\.qml$|\\.ui$")
     file(GENERATE
         OUTPUT "${source_files_list_file}"
         CONTENT "$<JOIN:$<FILTER:${file_list},INCLUDE,${inclusion_regex}>,\n>"
