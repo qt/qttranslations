@@ -46,9 +46,13 @@ function(add_ts_targets catalog)
 
     set(source_files_list_file "${CMAKE_CURRENT_BINARY_DIR}/${catalog}_file_list.txt")
     set(inclusion_regex "\\.h$|\\.cpp$|\\.hpp$|\\.cxx$|\\.cc$|\\.mm$|\\.qml$|\\.ui$")
+    list(FILTER file_list INCLUDE REGEX "${inclusion_regex}")
+    list(FILTER file_list EXCLUDE REGEX /doc/snippets/)
+    list(JOIN file_list "\n" file_list_string)
+
     file(GENERATE
         OUTPUT "${source_files_list_file}"
-        CONTENT "$<JOIN:$<FILTER:${file_list},INCLUDE,${inclusion_regex}>,\n>"
+        CONTENT "${file_list_string}"
     )
 
     add_custom_target(ts-${catalog}-all)
