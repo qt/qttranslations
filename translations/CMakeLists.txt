@@ -97,9 +97,16 @@ add_ts_targets(qtlocation DIRECTORIES qtlocation/src)
 add_ts_targets(qtwebsockets DIRECTORIES qtwebsockets/src)
 add_ts_targets(qtserialport DIRECTORIES qtserialport/src)
 add_ts_targets(qtwebengine DIRECTORIES qtwebengine/src)
-add_ts_targets(designer DIRECTORIES qttools/src/designer)
+add_ts_targets(designer DIRECTORIES qttools/src/designer
+                                    qttools/src/shared/deviceskin
+                                    qttools/src/shared/findwidget
+                                    qttools/src/shared/fontpanel
+                                    qttools/src/shared/qtgradienteditor
+                                    qttools/src/shared/qtpropertybrowser
+                                    qttools/src/shared/qttoolbardialog)
 add_ts_targets(linguist DIRECTORIES qttools/src/linguist/linguist)
-add_ts_targets(assistant DIRECTORIES qttools/src/assistant/assistant)  # add qcollectiongenerator here as well?
+add_ts_targets(assistant DIRECTORIES qttools/src/assistant/assistant
+                                     qttools/src/shared/fontpanel) # add qcollectiongenerator here as well?
 add_ts_targets(qt_help DIRECTORIES qttools/src/assistant/help)
 #add_ts_targets(qmlscene DIRECTORIES qtdeclarative/tools/qmlscene)  # almost empty due to missing tr()
 
