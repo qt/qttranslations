@@ -64,6 +64,11 @@ function(add_ts_targets catalog)
             "${CMAKE_CURRENT_SOURCE_DIR}/${catalog}_${lang}.ts"
         )
         add_dependencies(ts-${catalog}-all ${lang_target_name})
+
+        if(NOT TARGET ts-${lang})
+            add_custom_target(ts-${lang})
+        endif()
+        add_dependencies(ts-${lang} ${lang_target_name})
     endforeach()
     add_ts_target(ts-${catalog}-untranslated
         ${source_files_list_file}
