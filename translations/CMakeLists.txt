@@ -5,6 +5,13 @@ add_custom_target(ts-all)
 set(repo_root_directory "${CMAKE_CURRENT_SOURCE_DIR}/../..")
 set(en_ts_file_dir "${CMAKE_CURRENT_BINARY_DIR}/en_ts")
 
+# Create a rudimentary .ts file in ${en_ts_file_dir}.
+function(generate_empty_ts_file file_name)
+    if(NOT EXISTS "${en_ts_file_dir}/${file_name}")
+        file(WRITE "${en_ts_file_dir}/${file_name}" "<TS></TS>")
+    endif()
+endfunction()
+
 function(add_ts_target target input_file output_file)
     add_custom_target(${target}
         BYPRODUCTS ${output_file}
@@ -14,12 +21,7 @@ endfunction()
 
 function(add_ts_targets catalog)
     cmake_parse_arguments(arg "" "" "DIRECTORIES" ${ARGN})
-
-    # Generate empty _en.ts file for the current catalog
-    if (NOT EXISTS "${en_ts_file_dir}/${catalog}_en.ts")
-        file(WRITE "${en_ts_file_dir}/${catalog}_en.ts" "<TS></TS>")
-    endif()
-
+    generate_empty_ts_file("${catalog}_en.ts")
     file(GLOB ts_files "${catalog}_*.ts")
 
     set(languages)
@@ -67,6 +69,9 @@ function(add_ts_targets catalog)
     )
     add_dependencies(ts-${catalog}-all ts-${catalog}-untranslated)
 endfunction()
+
+# Create the English "translation" for "qt".
+generate_empty_ts_file("qt_en.ts")
 
 # Create TS targets
 add_ts_targets(qtbase
