@@ -106,7 +106,7 @@
     <name>QWebSocketDataProcessor</name>
     <message>
         <source>Received Continuation frame, while there is nothing to continue.</source>
-        <translation>S&apos;ha rebut un marc de continuació, mentre no hi havia res per continuar.</translation>
+        <translation>S&apos;ha rebut un marc de continuació, encara que no hi havia res a continuar.</translation>
     </message>
     <message>
         <source>All data frames after the initial data frame must have opcode 0 (continuation).</source>
