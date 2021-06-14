@@ -3271,13 +3271,6 @@ Möchten Sie sie überschreiben?</translation>
     </message>
 </context>
 <context>
-    <name>qdesigner_internal</name>
-    <message>
-        <source>%1 Widget</source>
-        <translation>%1 Widget</translation>
-    </message>
-</context>
-<context>
     <name>qdesigner_internal::ActionEditor</name>
     <message>
         <source>Actions</source>
@@ -4760,6 +4753,11 @@ Please select another name.</source>
         <source>New custom widget plugins have been found.</source>
         <translation>Es wurden neu installierte Plugins mit benutzerdefinierten Widgets gefunden.</translation>
     </message>
+    <message>
+        <source>Copy</source>
+        <extracomment>Copy error text</extracomment>
+        <translation>Kopieren</translation>
+    </message>
 </context>
 <context>
     <name>qdesigner_internal::PreviewActionGroup</name>
@@ -5269,22 +5267,6 @@ Klasse: %2</translation>
         <source>The XML code specified for the widget %1 does not contain any widget elements.
 %2</source>
         <translation>Der XML-Code für das Widget %1 enthält keine Widgets.%2</translation>
-    </message>
-    <message>
-        <source>An error has been encountered at line %1 of %2: %3</source>
-        <translation>Fehler bei Zeile %1 von %2: %3</translation>
-    </message>
-    <message>
-        <source>Unexpected element &lt;%1&gt; encountered when parsing for &lt;widget&gt; or &lt;ui&gt;</source>
-        <translation>An Stelle des erwarteten &lt;widget&gt;- oder &lt;ui&gt;-Elementes wurde &lt;%1&gt; gefunden</translation>
-    </message>
-    <message>
-        <source>Unexpected end of file encountered when parsing widgets.</source>
-        <translation>Vorzeitiges Dateiende beim Lesen der Widget-Box-Konfiguration.</translation>
-    </message>
-    <message>
-        <source>A widget element could not be found.</source>
-        <translation>Es fehlt das Widget-Element.</translation>
     </message>
 </context>
 <context>
@@ -5870,6 +5852,10 @@ This indicates an inconsistency in the ui-file.</source>
         <source>Cannot create style &apos;%1&apos;.</source>
         <translation>Der Stil &apos;%1&apos; konnte nicht erzeugt werden.</translation>
     </message>
+    <message>
+        <source>%1 Widget</source>
+        <translation>%1 Widget</translation>
+    </message>
 </context>
 <context>
     <name>qdesigner_internal::WizardContainerWidgetTaskMenu</name>
@@ -5895,6 +5881,60 @@ This indicates an inconsistency in the ui-file.</source>
     <message>
         <source>&amp;Zoom</source>
         <translation>&amp;Vergrößern</translation>
+    </message>
+</context>
+<context>
+    <name>Dialog</name>
+    <message>
+        <source>Dialog</source>
+        <translation>Dialog</translation>
+    </message>
+</context>
+<context>
+    <name>MainWindow</name>
+    <message>
+        <source>MainWindow</source>
+        <translation>MainWindow</translation>
+    </message>
+</context>
+<context>
+    <name>Form</name>
+    <message>
+        <source>Form</source>
+        <translation>Form</translation>
+    </message>
+</context>
+<context>
+    <name>QDesignerWidgetBox</name>
+    <message>
+        <source>An error has been encountered at line %1 of %2: %3</source>
+        <translation>Fehler bei Zeile %1 von %2: %3</translation>
+    </message>
+    <message>
+        <source>Unexpected element &lt;%1&gt; encountered when parsing for &lt;widget&gt; or &lt;ui&gt;</source>
+        <translation>An Stelle des erwarteten &lt;widget&gt;- oder &lt;ui&gt;-Elementes wurde &lt;%1&gt; gefunden</translation>
+    </message>
+    <message>
+        <source>Unexpected end of file encountered when parsing widgets.</source>
+        <translation>Vorzeitiges Dateiende beim Lesen der Widget-Box-Konfiguration.</translation>
+    </message>
+    <message>
+        <source>A widget element could not be found.</source>
+        <translation>Es fehlt das Widget-Element.</translation>
+    </message>
+</context>
+<context>
+    <name>QView3DPlugin</name>
+    <message>
+        <source>3D View</source>
+        <translation>3D View</translation>
+    </message>
+</context>
+<context>
+    <name>QView3DTool</name>
+    <message>
+        <source>3DView</source>
+        <translation>3DView</translation>
     </message>
 </context>
 </TS>

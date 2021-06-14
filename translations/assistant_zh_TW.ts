@@ -415,15 +415,15 @@ Reason:
     <name>FilterNameDialogClass</name>
     <message>
         <source>Add Filter</source>
-        <translation>新增過濾器</translation>
+        <translation type="vanished">新增過濾器</translation>
     </message>
     <message>
         <source>Filter Name:</source>
-        <translation>過濾器名稱：</translation>
+        <translation type="vanished">過濾器名稱：</translation>
     </message>
     <message>
         <source>Add Filter Name</source>
-        <translation>新增過濾器名稱</translation>
+        <translation type="vanished">新增過濾器名稱</translation>
     </message>
 </context>
 <context>
@@ -509,6 +509,47 @@ Reason:
     <message>
         <source>&amp;Find</source>
         <translation>尋找(&amp;F)</translation>
+    </message>
+</context>
+<context>
+    <name>HelpDocSettingsWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>表單</translation>
+    </message>
+    <message>
+        <source>Registered Documentation</source>
+        <translation>註冊的文件</translation>
+    </message>
+    <message>
+        <source>&lt;Filter&gt;</source>
+        <translation>&lt;過濾器&gt;</translation>
+    </message>
+    <message>
+        <source>Add...</source>
+        <translation>新增...</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>移除</translation>
+    </message>
+</context>
+<context>
+    <name>HelpDocSettingsWidgetPrivate</name>
+    <message>
+        <source>Add Documentation</source>
+        <translation>新增文件</translation>
+    </message>
+    <message>
+        <source>Qt Compressed Help Files (*.qch)</source>
+        <translation>Qt 壓縮說明檔 (*.qch)</translation>
+    </message>
+</context>
+<context>
+    <name>HelpEngineWrapper</name>
+    <message>
+        <source>Unfiltered</source>
+        <translation type="vanished">未過濾</translation>
     </message>
 </context>
 <context>
@@ -811,82 +852,66 @@ Reason:
     <name>OptionsWidget</name>
     <message>
         <source>No Option</source>
-        <translation>無選項</translation>
+        <translation type="vanished">無選項</translation>
     </message>
     <message>
         <source>Invalid Option</source>
-        <translation>選項無效</translation>
+        <translation type="vanished">選項無效</translation>
     </message>
 </context>
 <context>
     <name>PreferencesDialog</name>
     <message>
         <source>No Component</source>
-        <translation>沒有元件</translation>
+        <translation type="vanished">沒有元件</translation>
     </message>
     <message>
         <source>Invalid Component</source>
-        <translation>無效元件</translation>
+        <translation type="vanished">無效元件</translation>
     </message>
     <message>
         <source>No Version</source>
-        <translation>沒有版本</translation>
+        <translation type="vanished">沒有版本</translation>
     </message>
     <message>
         <source>Invalid Version</source>
-        <translation>無效版本</translation>
-    </message>
-    <message>
-        <source>No Component</source>
-        <translation>沒有元件</translation>
-    </message>
-    <message>
-        <source>Invalid Component</source>
-        <translation>元件無效</translation>
-    </message>
-    <message>
-        <source>No Version</source>
-        <translation>沒有版本</translation>
-    </message>
-    <message>
-        <source>Invalid Version</source>
-        <translation>版本無效</translation>
+        <translation type="vanished">無效版本</translation>
     </message>
     <message>
         <source>Filter Exists</source>
-        <translation>篩選器存在</translation>
+        <translation type="vanished">篩選器存在</translation>
     </message>
     <message>
         <source>The filter &quot;%1&quot; already exists.</source>
-        <translation>篩選器「%1」已存在。</translation>
+        <translation type="vanished">篩選器「%1」已存在。</translation>
     </message>
     <message>
         <source>Add Filter</source>
-        <translation>新增篩選器</translation>
+        <translation type="vanished">新增篩選器</translation>
     </message>
     <message>
         <source>New Filter</source>
-        <translation>新篩選器</translation>
+        <translation type="vanished">新篩選器</translation>
     </message>
     <message>
         <source>Rename Filter</source>
-        <translation>重命名篩選器</translation>
+        <translation type="vanished">重命名篩選器</translation>
     </message>
     <message>
         <source>Remove Filter</source>
-        <translation>移除篩選器</translation>
+        <translation type="vanished">移除篩選器</translation>
     </message>
     <message>
         <source>Are you sure you want to remove the &quot;%1&quot; filter?</source>
-        <translation>確定移除「%1」篩選器？</translation>
+        <translation type="vanished">確定移除「%1」篩選器？</translation>
     </message>
     <message>
         <source>Add Documentation</source>
-        <translation>新增文件</translation>
+        <translation type="vanished">新增文件</translation>
     </message>
     <message>
         <source>Qt Compressed Help Files (*.qch)</source>
-        <translation>Qt 壓縮說明檔(*.qch)</translation>
+        <translation type="vanished">Qt 壓縮說明檔(*.qch)</translation>
     </message>
     <message>
         <source>Use custom settings</source>
@@ -894,27 +919,27 @@ Reason:
     </message>
     <message>
         <source>The namespace %1 is already registered!</source>
-        <translation>命名空間 %1 已註冊！</translation>
+        <translation type="vanished">命名空間 %1 已註冊！</translation>
     </message>
     <message>
         <source>The specified file is not a valid Qt Help File!</source>
-        <translation>指定的檔案不是合法的 Qt 說明檔！</translation>
+        <translation type="vanished">指定的檔案不是合法的 Qt 說明檔！</translation>
     </message>
     <message>
         <source>Remove Documentation</source>
-        <translation>移除文件</translation>
+        <translation type="vanished">移除文件</translation>
     </message>
     <message>
         <source>Some documents currently opened in Assistant reference the documentation you are attempting to remove. Removing the documentation will close those documents.</source>
-        <translation>部份有參考您嘗試移除文件的文件目前已在 Assistant 中開啟。移除此文件也將關閉那些文件。</translation>
+        <translation type="vanished">部份有參考您嘗試移除文件的文件目前已在 Assistant 中開啟。移除此文件也將關閉那些文件。</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>取消</translation>
+        <translation type="vanished">取消</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>確定</translation>
+        <translation type="vanished">確定</translation>
     </message>
 </context>
 <context>
@@ -945,27 +970,27 @@ Reason:
     </message>
     <message>
         <source>Components:</source>
-        <translation>元件：</translation>
+        <translation type="vanished">元件：</translation>
     </message>
     <message>
         <source>Versions:</source>
-        <translation>版本：</translation>
+        <translation type="vanished">版本：</translation>
     </message>
     <message>
         <source>Add...</source>
-        <translation>新增...</translation>
+        <translation type="vanished">新增...</translation>
     </message>
     <message>
         <source>Rename...</source>
-        <translation>重命名…</translation>
+        <translation type="vanished">重命名…</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>移除</translation>
+        <translation type="vanished">移除</translation>
     </message>
     <message>
         <source>Filter:</source>
-        <translation>過濾：</translation>
+        <translation type="vanished">過濾：</translation>
     </message>
     <message>
         <source>Documentation</source>
@@ -973,11 +998,11 @@ Reason:
     </message>
     <message>
         <source>Registered Documentation:</source>
-        <translation>已註冊文件：</translation>
+        <translation type="vanished">已註冊文件：</translation>
     </message>
     <message>
         <source>&lt;Filter&gt;</source>
-        <translation>&lt;過濾器&gt;</translation>
+        <translation type="vanished">&lt;過濾器&gt;</translation>
     </message>
     <message>
         <source>Options</source>
@@ -1025,19 +1050,15 @@ Reason:
     </message>
     <message>
         <source>Attributes:</source>
-        <translation>屬性：</translation>
-    </message>
-    <message>
-        <source>Versions:</source>
-        <translation>版本：</translation>
+        <translation type="vanished">屬性：</translation>
     </message>
     <message>
         <source>1</source>
-        <translation>1</translation>
+        <translation type="vanished">1</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation>新增</translation>
+        <translation type="vanished">新增</translation>
     </message>
 </context>
 <context>
@@ -1118,13 +1139,6 @@ Reason:
     <message>
         <source>Choose a topic for &lt;b&gt;%1&lt;/b&gt;:</source>
         <translation>選擇 %1 的標題：</translation>
-    </message>
-</context>
-<context>
-    <name>HelpEngineWrapper</name>
-    <message>
-        <source>Unfiltered</source>
-        <translation>未過濾</translation>
     </message>
 </context>
 </TS>
