@@ -5,10 +5,10 @@
     <extra-po-header-language_team>Dutch &lt;kde-i18n-nl@kde.org&gt;</extra-po-header-language_team>
     <extra-po-header-last_translator>Freek de Kruijf &lt;freekdekruijf@kde.nl&gt;</extra-po-header-last_translator>
     <extra-po-header-plural_forms>nplurals=2; plural=(n != 1);</extra-po-header-plural_forms>
-    <extra-po-header-po_revision_date>2018-06-15 13:01+0100</extra-po-header-po_revision_date>
+    <extra-po-header-po_revision_date>2020-11-30 13:34+0100</extra-po-header-po_revision_date>
     <extra-po-header-project_id_version></extra-po-header-project_id_version>
-    <extra-po-header-x_generator>Lokalize 2.0</extra-po-header-x_generator>
-    <extra-po-header_comment># Freek de Kruijf &lt;freek@opensuse.org&gt;, 2014, 2018.</extra-po-header_comment>
+    <extra-po-header-x_generator>Lokalize 20.08.3</extra-po-header-x_generator>
+    <extra-po-header_comment># Freek de Kruijf &lt;freek@opensuse.org&gt;, 2014, 2018, 2019, 2020.</extra-po-header_comment>
     <extra-po-headers>Project-Id-Version,PO-Revision-Date,Last-Translator,Language-Team,Language,MIME-Version,Content-Type,Content-Transfer-Encoding,X-Qt-Contexts,Plural-Forms,X-Generator</extra-po-headers>
 <context>
     <name>AboutDialog</name>
@@ -69,11 +69,11 @@
     </message>
     <message>
         <source>Batch Translation of &apos;%1&apos; - Qt Linguist</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertaling in bulk van &apos;%1&apos; - Qt Linguist</translation>
     </message>
     <message>
         <source>Searching, please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>Bezig met zoeken, even geduld...</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
@@ -81,13 +81,13 @@
     </message>
     <message>
         <source>Linguist batch translator</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertaler in bulk van Linguist</translation>
     </message>
     <message numerus="yes">
         <source>Batch translated %n entries</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>In bulk vertaald %n item</numerusform>
+            <numerusform>In bulk vertaald %n items</numerusform>
         </translation>
     </message>
 </context>
@@ -95,15 +95,15 @@
     <name>DataModel</name>
     <message>
         <source>The translation file &apos;%1&apos; will not be loaded because it is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het vertalingsbestand &apos;%1&apos; zal niet geladen worden omdat het leeg is.</translation>
     </message>
     <message>
         <source>&lt;qt&gt;Duplicate messages found in &apos;%1&apos;:</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;qt&gt;Dubbel bericht gevonden in &apos;%1&apos;:</translation>
     </message>
     <message>
         <source>&lt;p&gt;[more duplicates omitted]</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;[meer dubbelen weggelaten]</translation>
     </message>
     <message>
         <source>&lt;p&gt;* ID: %1</source>
@@ -111,7 +111,7 @@
     </message>
     <message>
         <source>&lt;p&gt;* Context: %1&lt;br&gt;* Source: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;* Context: %1&lt;br&gt;* bron: %2</translation>
     </message>
     <message>
         <source>&lt;br&gt;* Comment: %3</source>
@@ -120,7 +120,8 @@
     <message>
         <source>Linguist does not know the plural rules for &apos;%1&apos;.
 Will assume a single universal form.</source>
-        <translation type="unfinished"></translation>
+        <translation>Linguist kent niet de regels voor meervouden voor &apos;%1&apos;.
+Een enkele universele vorm zal worden aangenomen.</translation>
     </message>
     <message>
         <source>Cannot create &apos;%2&apos;: %1</source>
@@ -128,30 +129,31 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>%1 (%2)</source>
-        <translation type="unfinished"></translation>
+        <extracomment>&lt;language&gt; (&lt;country&gt;)</extracomment>
+        <translation>%1 (%2)</translation>
     </message>
     <message>
         <source>Universal Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Universele vorm</translation>
     </message>
 </context>
 <context>
     <name>ErrorsView</name>
     <message>
         <source>Accelerator possibly superfluous in translation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Versneller mogelijk overbodig in vertaling.</translation>
     </message>
     <message>
         <source>Accelerator possibly missing in translation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Versneller ontbreekt mogelijk in vertaling.</translation>
     </message>
     <message>
         <source>Translation does not have same leading and trailing whitespace as the source text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertaling heeft niet dezelfde witruimte aan begin en einde als de brontekst.</translation>
     </message>
     <message>
         <source>Translation does not end with the same punctuation as the source text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertaling eindigt niet met dezelfde leestekens als de brontekst.</translation>
     </message>
     <message>
         <source>A phrase book suggestion for &apos;%1&apos; was ignored.</source>
@@ -159,11 +161,11 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Translation does not refer to the same place markers as in the source text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertaling verwijst niet naar dezelfde plaatsmarkeringen als in de brontekst.</translation>
     </message>
     <message>
         <source>Translation does not contain the necessary %n/%Ln place marker.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertaling bevat niet de .</translation>
     </message>
     <message>
         <source>Unknown error</source>
@@ -174,11 +176,11 @@ Will assume a single universal form.</source>
     <name>FMT</name>
     <message>
         <source>GNU Gettext localization files</source>
-        <translation type="unfinished"></translation>
+        <translation>GNU Gettext taalregiobestanden</translation>
     </message>
     <message>
         <source>GNU Gettext localization template files</source>
-        <translation type="unfinished"></translation>
+        <translation>GNU Gettext taalregio-sjabloonbestanden</translation>
     </message>
     <message>
         <source>Compiled Qt translations</source>
@@ -194,7 +196,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>XLIFF localization files</source>
-        <translation type="unfinished"></translation>
+        <translation>XLIFF taalregiobestanden</translation>
     </message>
 </context>
 <context>
@@ -205,15 +207,15 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>This window allows you to search for some text in the translation source file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit venster biedt u naar enige tekst te zoeken in het bronbestand voor vertalingen.</translation>
     </message>
     <message>
         <source>&amp;Find what:</source>
-        <translation type="unfinished"></translation>
+        <translation>Wat &amp;zoeken:</translation>
     </message>
     <message>
         <source>Type in the text to search for.</source>
-        <translation type="unfinished"></translation>
+        <translation>Te zoeken tekst intypen.</translation>
     </message>
     <message>
         <source>Options</source>
@@ -221,15 +223,15 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Lets you use a Perl-compatible regular expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Laat u een Perl-compatibele reguliere expressie gebruiken</translation>
     </message>
     <message>
         <source>Regular &amp;expression</source>
-        <translation type="unfinished"></translation>
+        <translation>Reguliere &amp;expressie</translation>
     </message>
     <message>
         <source>Texts such as &apos;TeX&apos; and &apos;tex&apos; are considered as different when checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Teksten zoals &apos;TeX&apos; en &apos;tex&apos; worden als verschillend beschouwd bij controleren.</translation>
     </message>
     <message>
         <source>&amp;Match case</source>
@@ -237,23 +239,23 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Source texts are searched when checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bronteksten worden doorzocht indien geactiveerd.</translation>
     </message>
     <message>
         <source>&amp;Source texts</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bronteksten</translation>
     </message>
     <message>
         <source>Obsoleted messages are skipped when checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Afgekeurde berichten worden overgeslagen indien geactiveerd.</translation>
     </message>
     <message>
         <source>Skip &amp;obsolete</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Afgekeurden overslaan</translation>
     </message>
     <message>
         <source>Comments and contexts are searched when checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Commentaar en contexten worden doorzocht indien geactiveerd.</translation>
     </message>
     <message>
         <source>&amp;Comments</source>
@@ -261,11 +263,11 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Ignore &amp;accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Aanduiders van sneltoetsen negeren</translation>
     </message>
     <message>
         <source>Translations are searched when checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertalingen worden doorzocht indien geactiveerd.</translation>
     </message>
     <message>
         <source>&amp;Translations</source>
@@ -273,7 +275,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Click here to find the next occurrence of the text you typed in.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier klikken om de volgende voorkomen van de ingetypte tekst te zoeken.</translation>
     </message>
     <message>
         <source>Find Next</source>
@@ -281,7 +283,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Click here to close this window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier klikken om dit venster te sluiten.</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -292,59 +294,56 @@ Will assume a single universal form.</source>
     <name>FormMultiWidget</name>
     <message>
         <source>Alt+Delete</source>
-        <extracomment>translate, but don&apos;t change
-</extracomment>
+        <extracomment>translate, but don&apos;t change</extracomment>
         <translation>Alt+Delete</translation>
     </message>
     <message>
         <source>Shift+Alt+Insert</source>
-        <extracomment>translate, but don&apos;t change
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>translate, but don&apos;t change</extracomment>
+        <translation>Shift+Alt+Insert</translation>
     </message>
     <message>
         <source>Alt+Insert</source>
-        <extracomment>translate, but don&apos;t change
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>translate, but don&apos;t change</extracomment>
+        <translation>Alt+Insert</translation>
     </message>
     <message>
         <source>Confirmation - Qt Linguist</source>
-        <translation type="unfinished"></translation>
+        <translation>Bevestiging - Qt Linguist</translation>
     </message>
     <message>
         <source>Delete non-empty length variant?</source>
-        <translation type="unfinished"></translation>
+        <translation>Niet-lege lengtevariant verwijderen?</translation>
     </message>
 </context>
 <context>
     <name>LRelease</name>
     <message numerus="yes">
         <source>Dropped %n message(s) which had no ID.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n bericht dat geen ID heeft laten vallen.</numerusform>
+            <numerusform>%n berichten die geen ID hebben laten vallen.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>Excess context/disambiguation dropped from %n message(s).</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Overtollige context/dubbelzinnigheid vermijden laten vallen uit %n melding.</numerusform>
+            <numerusform>Overtollige context/dubbelzinnigheid vermijden laten vallen uit %n meldingen.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>    Generated %n translation(s) (%1 finished and %2 unfinished)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>    %n vertaling gegenereerd (%1 beëindigd en %2 niet beëindigd)</numerusform>
+            <numerusform>    %n vertalingen gegenereerd (%1 beëindigd en %2 niet beëindigd)</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>    Ignored %n untranslated source text(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>    %n niet vertaalde brontekst genegeerd</numerusform>
+            <numerusform>    %n niet vertaalde bronteksten genegeerd</numerusform>
         </translation>
     </message>
 </context>
@@ -388,7 +387,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>&amp;Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zoomen</translation>
     </message>
     <message>
         <source>Guesses</source>
@@ -408,7 +407,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Recently Opened &amp;Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Recent geopende &amp;bestanden</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
@@ -420,7 +419,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Open a Qt translation source file (TS file) for editing</source>
-        <translation type="unfinished"></translation>
+        <translation>Een Qt bronbestand met vertaling (TS bestand) voor bewerking openen</translation>
     </message>
     <message>
         <source>Ctrl+O</source>
@@ -432,7 +431,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Close this window and exit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit venster sluiten en eindigen.</translation>
     </message>
     <message>
         <source>Ctrl+Q</source>
@@ -444,7 +443,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Save changes made to this Qt translation source file</source>
-        <translation type="unfinished"></translation>
+        <translation>Gemaakte wijzigen in dit Qt bronbestand met vertalingen opslaan</translation>
     </message>
     <message>
         <source>Save &amp;As...</source>
@@ -456,7 +455,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Save changes made to this Qt translation source file into a new file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gemaakte wijzigen in dit Qt bronbestand met vertalingen opslaan in een nieuw bestand.</translation>
     </message>
     <message>
         <source>Release</source>
@@ -464,7 +463,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Create a Qt message file suitable for released applications from the current message file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Een Qt berichtbestand aanmaken geschikt voor uitgegeven toepassingen uit het huidige berichtbestand.</translation>
     </message>
     <message>
         <source>&amp;Print...</source>
@@ -472,7 +471,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Print a list of all the translation units in the current translation source file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Een lijst van alle vertalingseenheden in het huidige bronbestand met vertalingen afdrukken.</translation>
     </message>
     <message>
         <source>Ctrl+P</source>
@@ -484,7 +483,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Undo the last editing operation performed on the current translation.</source>
-        <translation type="unfinished"></translation>
+        <translation>De laatste bewerking gedaan in de huidige vertaling ongedaan maken.</translation>
     </message>
     <message>
         <source>Ctrl+Z</source>
@@ -496,7 +495,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Redo an undone editing operation performed on the translation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Een ongedaan gemaakte bewerking gedaan in de vertaling opnieuw doen.</translation>
     </message>
     <message>
         <source>Ctrl+Y</source>
@@ -508,7 +507,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Copy the selected translation text to the clipboard and deletes it.</source>
-        <translation type="unfinished"></translation>
+        <translation>De geselecteerde tekst van de vertaling naar het klembord kopiëren en het verwijderen.</translation>
     </message>
     <message>
         <source>Ctrl+X</source>
@@ -556,7 +555,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Search for some text in the translation source file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Naar enige tekst in het bronbestand met vertalingen zoeken.</translation>
     </message>
     <message>
         <source>Ctrl+F</source>
@@ -568,7 +567,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Continue the search where it was left.</source>
-        <translation type="unfinished"></translation>
+        <translation>Met zoeken doorgaan waar het was gebleven.</translation>
     </message>
     <message>
         <source>F3</source>
@@ -576,15 +575,15 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>&amp;Prev Unfinished</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Vorige niet afgemaakt</translation>
     </message>
     <message>
         <source>Previous unfinished item</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorig niet afgemaakt item</translation>
     </message>
     <message>
         <source>Move to the previous unfinished item.</source>
-        <translation type="unfinished"></translation>
+        <translation>Naar het vorige niet afgemaakt item verplaatsen.</translation>
     </message>
     <message>
         <source>Ctrl+K</source>
@@ -592,15 +591,15 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>&amp;Next Unfinished</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Volgende niet afgemaakte</translation>
     </message>
     <message>
         <source>Next unfinished item</source>
-        <translation type="unfinished"></translation>
+        <translation>Volgende niet afgemaakte item</translation>
     </message>
     <message>
         <source>Move to the next unfinished item.</source>
-        <translation type="unfinished"></translation>
+        <translation>Naar het volgende niet afgemaakt item verplaatsen.</translation>
     </message>
     <message>
         <source>Ctrl+J</source>
@@ -612,15 +611,15 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Move to previous item</source>
-        <translation type="unfinished"></translation>
+        <translation>Naar het vorige item verplaatsen</translation>
     </message>
     <message>
         <source>Move to the previous item.</source>
-        <translation type="unfinished"></translation>
+        <translation>Naar het vorige item verplaatsen.</translation>
     </message>
     <message>
         <source>Ctrl+Shift+K</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Shift+K</translation>
     </message>
     <message>
         <source>Ne&amp;xt</source>
@@ -632,7 +631,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Move to the next item.</source>
-        <translation type="unfinished"></translation>
+        <translation>Naar het volgende item verplaatsen.</translation>
     </message>
     <message>
         <source>Ctrl+Shift+J</source>
@@ -640,27 +639,27 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>&amp;Done and Next</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gereed en volgende</translation>
     </message>
     <message>
         <source>Mark item as done and move to the next unfinished item</source>
-        <translation type="unfinished"></translation>
+        <translation>Item als gereed markeren en verplaatsen naar het volgende niet afgemaakte item</translation>
     </message>
     <message>
         <source>Mark this item as done and move to the next unfinished item.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit item als gereed markeren en verplaatsen naar het volgende niet afgemaakte item.</translation>
     </message>
     <message>
         <source>Copy from source text</source>
-        <translation type="unfinished"></translation>
+        <translation>Uit brontekst kopiëren</translation>
     </message>
     <message>
         <source>Copies the source text into the translation field</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopieert de brontekst in het vertaalveld</translation>
     </message>
     <message>
         <source>Copies the source text into the translation field.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopieert de brontekst in het vertaalveld.</translation>
     </message>
     <message>
         <source>Ctrl+B</source>
@@ -668,39 +667,39 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>&amp;Accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Versnellers</translation>
     </message>
     <message>
         <source>Toggles the validity check of accelerators</source>
-        <translation type="unfinished"></translation>
+        <translation>Geldigheidscontrole op versnellers wordt omgeschakeld</translation>
     </message>
     <message>
         <source>Toggles the validity check of accelerators, i.e. whether the number of ampersands in the source and translation text is the same. If the check fails, a message is shown in the warnings window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Geldigheidscontrole op versnellers wordt omgeschakeld, d.w.z. of het aantal ampersands in de bron- en vertalingstekst hetzelfde is. Als de controle negatief is wordt een melding in het waarschuwingsvenster getoond.</translation>
     </message>
     <message>
         <source>Surrounding &amp;Whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>Omgevende &amp;witruimte</translation>
     </message>
     <message>
         <source>Toggles the validity check of surrounding whitespace.</source>
-        <translation type="unfinished"></translation>
+        <translation>De geldigheidscontrole van omgevende witruimte wordt omgeschakeld.</translation>
     </message>
     <message>
         <source>Toggles the validity check of surrounding whitespace. If the check fails, a message is shown in the warnings window.</source>
-        <translation type="unfinished"></translation>
+        <translation>De geldigheidscontrole van omgevende witruimte wordt omgeschakeld. Als de controle negatief is wordt een melding getoond in het waarschuwingsvenster.</translation>
     </message>
     <message>
         <source>&amp;Ending Punctuation</source>
-        <translation type="unfinished"></translation>
+        <translation>Punctuatie aan het &amp;eind</translation>
     </message>
     <message>
         <source>Toggles the validity check of ending punctuation</source>
-        <translation type="unfinished"></translation>
+        <translation>Geldigheidscontrole op punctuatie aan het eind wordt omgeschakeld</translation>
     </message>
     <message>
         <source>Toggles the validity check of ending punctuation. If the check fails, a message is shown in the warnings window.</source>
-        <translation type="unfinished"></translation>
+        <translation>De geldigheidscontrole van punctuatie aan het eind wordt omgeschakeld. Als de controle negatief is wordt een melding getoond in het waarschuwingsvenster.</translation>
     </message>
     <message>
         <source>&amp;Phrase matches</source>
@@ -712,19 +711,19 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Toggles checking that phrase suggestions are used. If the check fails, a message is shown in the warnings window.</source>
-        <translation>Schakelt controle om dat suggesties voor uitdrukkingen worden gebruikt. Als de controle mislukt, dan wordt een bericht getoond in het waarschuwingsvenster.</translation>
+        <translation>Schakelt controle om dat suggesties voor uitdrukkingen worden gebruikt. Als de controle negatief is wordt een melding getoond in het waarschuwingsvenster.</translation>
     </message>
     <message>
         <source>Place &amp;Marker Matches</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Markering van plaats komt overeen</translation>
     </message>
     <message>
         <source>Toggles the validity check of place markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Geldigheidscontrole op markering van plaats wordt omgeschakeld</translation>
     </message>
     <message>
         <source>Toggles the validity check of place markers, i.e. whether %1, %2, ... are used consistently in the source text and translation text. If the check fails, a message is shown in the warnings window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Geldigheidscontrole op markering van plaats wordt omgeschakeld, d.w.z. of %1, %2, ... in de bron- en vertalingstekst consistent wordt gebruikt. Als de controle negatief is wordt een melding in het waarschuwingsvenster getoond.</translation>
     </message>
     <message>
         <source>&amp;New Phrase Book...</source>
@@ -752,19 +751,19 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>&amp;Reset Sorting</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortering &amp;resetten</translation>
     </message>
     <message>
         <source>Sort the items back in the same order as in the message file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortering van de items terugzetten naar dezelfde orde als in het berichtbestand.</translation>
     </message>
     <message>
         <source>&amp;Display guesses</source>
-        <translation type="unfinished"></translation>
+        <translation>Suggesties &amp;tonen</translation>
     </message>
     <message>
         <source>Set whether or not to display translation guesses.</source>
-        <translation type="unfinished"></translation>
+        <translation>Al of niet suggesties voor vertalingen tonen instellen.</translation>
     </message>
     <message>
         <source>&amp;Statistics</source>
@@ -772,7 +771,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Display translation statistics.</source>
-        <translation type="unfinished"></translation>
+        <translation>Statistieken van vertaling tonen.</translation>
     </message>
     <message>
         <source>&amp;Manual</source>
@@ -784,7 +783,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>About Qt Linguist</source>
-        <translation type="unfinished"></translation>
+        <translation>Over Qt Linguist</translation>
     </message>
     <message>
         <source>About Qt</source>
@@ -792,7 +791,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Display information about the Qt toolkit by Digia.</source>
-        <translation type="unfinished"></translation>
+        <translation>Informatie over de Qt hulpmiddelenkit door Digia.</translation>
     </message>
     <message>
         <source>&amp;What&apos;s This?</source>
@@ -804,7 +803,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Enter What&apos;s This? mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Modus Wat is dit? ingaan.</translation>
     </message>
     <message>
         <source>Shift+F1</source>
@@ -812,11 +811,11 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>&amp;Search And Translate...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zoeken en vertalen...</translation>
     </message>
     <message>
         <source>Replace the translation on all entries that matches the search source text.</source>
-        <translation type="unfinished"></translation>
+        <translation>De vertaling in alle items die overeenkomen met de brontekst voor zoeken vervangen.</translation>
     </message>
     <message>
         <source>&amp;Batch Translation...</source>
@@ -828,11 +827,11 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Release As...</source>
-        <translation type="unfinished"></translation>
+        <translation>Uitgeven als...</translation>
     </message>
     <message>
         <source>Create a Qt message file suitable for released applications from the current message file. The filename will automatically be determined from the name of the TS file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Een Qt berichtbestand aanmaken geschikt voor uitgegeven toepassingen uit het huidige berichtbestand. De bestandsnaam zal automatisch bepaald worden uit de naam van het TS-bestand.</translation>
     </message>
     <message>
         <source>File</source>
@@ -856,11 +855,11 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Open/Refresh Form &amp;Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Formulier&amp;voorbeeld openen/vernieuwen</translation>
     </message>
     <message>
         <source>Form Preview Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Hulpmiddel voor formuliervoorbeeld</translation>
     </message>
     <message>
         <source>F5</source>
@@ -868,7 +867,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Translation File &amp;Settings...</source>
-        <translation type="unfinished"></translation>
+        <translation>In&amp;stellingen voor vertaalbestand...</translation>
     </message>
     <message>
         <source>&amp;Add to Phrase Book</source>
@@ -880,7 +879,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Open Read-O&amp;nly...</source>
-        <translation type="unfinished"></translation>
+        <translation>Als allee&amp;n-lezen openen...</translation>
     </message>
     <message>
         <source>&amp;Save All</source>
@@ -892,7 +891,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>&amp;Release All</source>
-        <translation type="unfinished"></translation>
+        <translation>Alles &amp;uitgeven</translation>
     </message>
     <message>
         <source>Close</source>
@@ -908,19 +907,19 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Length Variants</source>
-        <translation type="unfinished"></translation>
+        <translation>Lengtevarianten</translation>
     </message>
     <message>
         <source>Visualize whitespace</source>
-        <translation type="unfinished"></translation>
+        <translation>Witruimte visualiseren</translation>
     </message>
     <message>
         <source>Toggles visualize whitespace in editors</source>
-        <translation type="unfinished"></translation>
+        <translation>Witruimte visualiseren in bewerkers wordt omgeschakeld</translation>
     </message>
     <message>
         <source>Increase</source>
-        <translation type="unfinished"></translation>
+        <translation>Verhoog</translation>
     </message>
     <message>
         <source>Ctrl++</source>
@@ -936,7 +935,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Reset to default</source>
-        <translation type="unfinished"></translation>
+        <translation>Terugzetten naar standaard</translation>
     </message>
     <message>
         <source>Ctrl+0</source>
@@ -944,39 +943,39 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Show more</source>
-        <translation type="unfinished"></translation>
+        <translation>Meer tonen</translation>
     </message>
     <message>
         <source>Alt++</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt++</translation>
     </message>
     <message>
         <source>Show fewer</source>
-        <translation type="unfinished"></translation>
+        <translation>Minder tonen</translation>
     </message>
     <message>
         <source>Alt+-</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+-</translation>
     </message>
     <message>
         <source>Alt+0</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+0</translation>
     </message>
     <message>
         <source>D&amp;one</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gereed</translation>
     </message>
     <message>
         <source>Mark item as done</source>
-        <translation type="unfinished"></translation>
+        <translation>Item als gereed markeren</translation>
     </message>
     <message>
         <source>Mark this item as done.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit item als gereed markeren.</translation>
     </message>
     <message>
         <source>Source text</source>
-        <translation type="unfinished"></translation>
+        <translation>Brontekst</translation>
     </message>
     <message>
         <source>Index</source>
@@ -992,7 +991,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>This panel lists the source contexts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit paneel bevat de lijst met de broncontexten.</translation>
     </message>
     <message>
         <source>Strings</source>
@@ -1004,7 +1003,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Sources and Forms</source>
-        <translation type="unfinished"></translation>
+        <translation>Bronnen en formulieren</translation>
     </message>
     <message>
         <source>Warnings</source>
@@ -1021,34 +1020,38 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Loading File - Qt Linguist</source>
-        <translation type="unfinished"></translation>
+        <translation>Bestand wordt geladen - Qt Linguist</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; does not seem to be related to the currently open file(s) &apos;%2&apos;.
 
 Close the open file(s) first?</source>
-        <translation type="unfinished"></translation>
+        <translation>Het bestand &apos;%1&apos; lijkt niet gerelateerd te zijn met het/de nu geopende bestand(en) &apos;%2&apos;.
+
+Eerst de geopende bestand(en) sluiten?</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; does not seem to be related to the file &apos;%2&apos; which is being loaded as well.
 
 Skip loading the first named file?</source>
-        <translation type="unfinished"></translation>
+        <translation>Het bestand &apos;%1&apos; lijkt niet gerelateerd te zijn met het bestand &apos;%2&apos; die ook wordt geladen.
+
+Het laden van het eerst genoemde bestand overslaan?</translation>
     </message>
     <message numerus="yes">
         <source>%n translation unit(s) loaded.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n vertaaleenheid geladen.</numerusform>
+            <numerusform>%n vertaaleenheden geladen.</numerusform>
         </translation>
     </message>
     <message>
         <source>Related files (%1);;</source>
-        <translation type="unfinished"></translation>
+        <translation>Gerelateerde bestanden (%1);;</translation>
     </message>
     <message>
         <source>Open Translation Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertaalbestanden openen</translation>
     </message>
     <message>
         <source>File saved.</source>
@@ -1057,11 +1060,12 @@ Skip loading the first named file?</source>
     <message>
         <source>Qt message files for released applications (*.qm)
 All files (*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Qt berichtbestanden voor uitgegeven toepassingen (*.qm)
+Alle bestanden (*)</translation>
     </message>
     <message>
         <source>File created.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bestand aangemaakt.</translation>
     </message>
     <message>
         <source>Printing...</source>
@@ -1077,7 +1081,7 @@ All files (*)</source>
     </message>
     <message>
         <source>unresolved</source>
-        <translation type="unfinished"></translation>
+        <translation>niet opgelost</translation>
     </message>
     <message>
         <source>obsolete</source>
@@ -1097,7 +1101,7 @@ All files (*)</source>
     </message>
     <message>
         <source>Search wrapped.</source>
-        <translation type="unfinished"></translation>
+        <translation>Regelafbreking in zoektekst.</translation>
     </message>
     <message>
         <source>Qt Linguist</source>
@@ -1105,26 +1109,26 @@ All files (*)</source>
     </message>
     <message>
         <source>Cannot find the string &apos;%1&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan de tekenreeks &apos;%1&apos; niet vinden.</translation>
     </message>
     <message>
         <source>Search And Translate in &apos;%1&apos; - Qt Linguist</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoeken en vertalen in &apos;%1&apos; - Qt Linguist</translation>
     </message>
     <message>
         <source>Translate - Qt Linguist</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertalen - Qt Linguist</translation>
     </message>
     <message numerus="yes">
         <source>Translated %n entry(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Vertaald %n item</numerusform>
+            <numerusform>Vertaald %n items</numerusform>
         </translation>
     </message>
     <message>
         <source>No more occurrences of &apos;%1&apos;. Start over?</source>
-        <translation type="unfinished"></translation>
+        <translation>Niet meer voorkomens van &apos;%1&apos;. Opnieuw beginnen?</translation>
     </message>
     <message>
         <source>Create New Phrase Book</source>
@@ -1173,23 +1177,27 @@ Alle bestanden (*)</translation>
     </message>
     <message>
         <source>Unable to launch Qt Assistant (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Qt Assistant (%1) starten lukt niet</translation>
     </message>
     <message>
         <source>Version %1</source>
         <translation>Versie %1</translation>
     </message>
     <message>
-        <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</source>
-        <translation type="unfinished"></translation>
+        <source>Qt Linguist is a tool for adding translations to Qt applications.</source>
+        <translation>Qt Linguist is een hulpmiddel voor toevoegen van vertalingen aan Qt toepassingen.</translation>
+    </message>
+    <message>
+        <source>Copyright (C) %1 The Qt Company Ltd.</source>
+        <translation>Copyright (C) %1 The Qt Company Ltd.</translation>
     </message>
     <message>
         <source>Do you want to save the modified files?</source>
-        <translation type="unfinished"></translation>
+        <translation>Wilt u de gewijzigde bestanden opslaan?</translation>
     </message>
     <message>
         <source>Do you want to save &apos;%1&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>Wilt u &apos;%1&apos; opslaan?</translation>
     </message>
     <message>
         <source>Qt Linguist[*]</source>
@@ -1201,7 +1209,7 @@ Alle bestanden (*)</translation>
     </message>
     <message>
         <source>No untranslated translation units left.</source>
-        <translation type="unfinished"></translation>
+        <translation>Geen niet-vertaalde vertaaleenheden over.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1217,11 +1225,11 @@ Alle bestanden (*)</translation>
     </message>
     <message>
         <source>Display the manual for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het handboek voor %1 tonen.</translation>
     </message>
     <message>
         <source>Display information about %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Informatie over %1 tonen.</translation>
     </message>
     <message>
         <source>&amp;Save &apos;%1&apos;</source>
@@ -1237,7 +1245,7 @@ Alle bestanden (*)</translation>
     </message>
     <message>
         <source>Release &apos;%1&apos; As...</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;%1&apos; uitgeven als...</translation>
     </message>
     <message>
         <source>&amp;Close &apos;%1&apos;</source>
@@ -1265,19 +1273,19 @@ Alle bestanden (*)</translation>
     </message>
     <message>
         <source>Translation File &amp;Settings for &apos;%1&apos;...</source>
-        <translation type="unfinished"></translation>
+        <translation>In&amp;stellingen voor vertaalbestand voor &apos;%1&apos;...</translation>
     </message>
     <message>
         <source>&amp;Batch Translation of &apos;%1&apos;...</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertaling in &amp;bulk van &apos;%1&apos;...</translation>
     </message>
     <message>
         <source>Search And &amp;Translate in &apos;%1&apos;...</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoeken en ver&amp;talen in &apos;%1&apos;...</translation>
     </message>
     <message>
         <source>Search And &amp;Translate...</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoeken en ver&amp;talen...</translation>
     </message>
     <message>
         <source>Cannot read from phrase book &apos;%1&apos;.</source>
@@ -1305,9 +1313,9 @@ Alle bestanden (*)</translation>
     </message>
     <message numerus="yes">
         <source>%n unfinished message(s) left.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n niet afgemaakt bericht over.</numerusform>
+            <numerusform>%n niet afgemaakte berichten over.</numerusform>
         </translation>
     </message>
     <message>
@@ -1319,35 +1327,35 @@ Alle bestanden (*)</translation>
     <name>MessageEditor</name>
     <message>
         <source>This whole panel allows you to view and edit the translation of some source text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit gehele paneel biedt u het bekijken en bewerken van de vertaling van enige brontekst.</translation>
     </message>
     <message>
         <source>Source text</source>
-        <translation type="unfinished"></translation>
+        <translation>Brontekst</translation>
     </message>
     <message>
         <source>This area shows the source text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit gebied toont de brontekst.</translation>
     </message>
     <message>
         <source>Source text (Plural)</source>
-        <translation type="unfinished"></translation>
+        <translation>Brontekst (meervoud)</translation>
     </message>
     <message>
         <source>This area shows the plural form of the source text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit gebied toont de meervoudsvorm van de brontekst.</translation>
     </message>
     <message>
         <source>Developer comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Commentaar van ontwikkelaar</translation>
     </message>
     <message>
         <source>This area shows a comment that may guide you, and the context in which the text occurs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit gebied toont een commentaar die u zou kunnen helpen en de context waarin de tekst voor komt.</translation>
     </message>
     <message>
         <source>Here you can enter comments for your own use. They have no effect on the translated applications.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier kunt u commentaar invoeren voor eigen gebruik. Dit heeft geen effect op de vertaalde toepassingen.</translation>
     </message>
     <message>
         <source>Translation to %1 (%2)</source>
@@ -1355,7 +1363,7 @@ Alle bestanden (*)</translation>
     </message>
     <message>
         <source>This is where you can enter or modify the translation of the above source text.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit is waar u de vertaling van de bovenstaande brontekst kunt invoeren of wijzigen.</translation>
     </message>
     <message>
         <source>Translation to %1</source>
@@ -1363,7 +1371,7 @@ Alle bestanden (*)</translation>
     </message>
     <message>
         <source>Translator comments for %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Commentaar van vertaler voor %1</translation>
     </message>
     <message>
         <source>&apos;%1&apos;
@@ -1400,25 +1408,25 @@ Regel: %2</translation>
     <name>MessageModel</name>
     <message>
         <source>Completion status for %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Status van voltooiing voor %1</translation>
     </message>
     <message>
         <source>&lt;file header&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;bestandskop&gt;</translation>
     </message>
     <message>
         <source>&lt;context comment&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;contextcommentaar&gt;</translation>
     </message>
     <message>
         <source>&lt;unnamed context&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;context zonder naam&gt;</translation>
     </message>
     <message numerus="yes">
         <source>%n unfinished message(s) left.</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n niet afgemaakt bericht over.</numerusform>
+            <numerusform>%n niet afgemaakte berichten over.</numerusform>
         </translation>
     </message>
 </context>
@@ -1426,18 +1434,18 @@ Regel: %2</translation>
     <name>PhraseBook</name>
     <message>
         <source>Parse error at line %1, column %2 (%3).</source>
-        <translation type="unfinished"></translation>
+        <translation>Ontleedfout in regel %1, kolom %2 (%3).</translation>
     </message>
 </context>
 <context>
     <name>PhraseBookBox</name>
     <message>
         <source>Edit Phrase Book</source>
-        <translation type="unfinished"></translation>
+        <translation>Uitdrukkingenboek bewerken</translation>
     </message>
     <message>
         <source>This window allows you to add, modify, or delete entries in a phrase book.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit venster biedt items in het uitdrukkingenboek toe te voegen, te wijzigen of te verwijderen.</translation>
     </message>
     <message>
         <source>&amp;Translation:</source>
@@ -1445,19 +1453,19 @@ Regel: %2</translation>
     </message>
     <message>
         <source>This is the phrase in the target language corresponding to the source phrase.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit is de uitdrukking in de doeltaal overeenkomend met de uitdrukking in de bron.</translation>
     </message>
     <message>
         <source>S&amp;ource phrase:</source>
-        <translation type="unfinished"></translation>
+        <translation>Uitdrukking in br&amp;on:</translation>
     </message>
     <message>
         <source>This is a definition for the source phrase.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit is een definitie voor de uitdrukking in de bron.</translation>
     </message>
     <message>
         <source>This is the phrase in the source language.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit is de uitdrukking in de brontaal.</translation>
     </message>
     <message>
         <source>&amp;Definition:</source>
@@ -1465,7 +1473,7 @@ Regel: %2</translation>
     </message>
     <message>
         <source>Click here to add the phrase to the phrase book.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier klikken om de uitdrukking aan het uitdrukkingenboek toe te voegen.</translation>
     </message>
     <message>
         <source>&amp;New Entry</source>
@@ -1473,7 +1481,7 @@ Regel: %2</translation>
     </message>
     <message>
         <source>Click here to remove the entry from the phrase book.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier klikken om het item uit het uitdrukkingenboek te verwijderen.</translation>
     </message>
     <message>
         <source>&amp;Remove Entry</source>
@@ -1485,7 +1493,7 @@ Regel: %2</translation>
     </message>
     <message>
         <source>Click here to save the changes made.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier klikken om de gemaakte wijzigingen op te slaan.</translation>
     </message>
     <message>
         <source>&amp;Save</source>
@@ -1493,7 +1501,7 @@ Regel: %2</translation>
     </message>
     <message>
         <source>Click here to close this window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier klikken om dit venster te sluiten.</translation>
     </message>
     <message>
         <source>Close</source>
@@ -1513,14 +1521,14 @@ Regel: %2</translation>
     </message>
     <message>
         <source>Cannot save phrase book &apos;%1&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan uitdrukkingenboek &apos;%1&apos; niet opslaan.</translation>
     </message>
 </context>
 <context>
     <name>PhraseModel</name>
     <message>
         <source>Source phrase</source>
-        <translation type="unfinished"></translation>
+        <translation>Uitdrukking in bron</translation>
     </message>
     <message>
         <source>Translation</source>
@@ -1542,6 +1550,10 @@ Regel: %2</translation>
         <translation>Bewerken</translation>
     </message>
     <message>
+        <source>Go to</source>
+        <translation>Ga naar</translation>
+    </message>
+    <message>
         <source>Guess from &apos;%1&apos; (%2)</source>
         <translation>Geraden uit &apos;%1&apos; (%2)</translation>
     </message>
@@ -1551,14 +1563,14 @@ Regel: %2</translation>
     </message>
     <message>
         <source>Guess</source>
-        <translation type="obsolete">Geschat</translation>
+        <translation type="vanished">Geschat</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>Translation files (%1);;</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertaalbestanden (%1);;</translation>
     </message>
     <message>
         <source>All files (*)</source>
@@ -1573,7 +1585,7 @@ Regel: %2</translation>
     <name>SourceCodeView</name>
     <message>
         <source>&lt;i&gt;Source code not available&lt;/i&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;i&gt;Broncode niet beschikbaar&lt;/i&gt;</translation>
     </message>
     <message>
         <source>&lt;i&gt;File %1 not available&lt;/i&gt;</source>
@@ -1604,7 +1616,7 @@ Regel: %2</translation>
     </message>
     <message>
         <source>0</source>
-        <translation type="unfinished"></translation>
+        <translation>0</translation>
     </message>
     <message>
         <source>Words:</source>
@@ -1623,15 +1635,15 @@ Regel: %2</translation>
     <name>TranslateDialog</name>
     <message>
         <source>This window allows you to search for some text in the translation source file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit venster biedt u het naar enige tekst zoeken in het bronbestand voor vertalingen.</translation>
     </message>
     <message>
         <source>Type in the text to search for.</source>
-        <translation type="unfinished"></translation>
+        <translation>Te zoeken tekst intypen.</translation>
     </message>
     <message>
         <source>Find &amp;source text:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Brontekst zoeken:</translation>
     </message>
     <message>
         <source>&amp;Translate to:</source>
@@ -1643,7 +1655,7 @@ Regel: %2</translation>
     </message>
     <message>
         <source>Texts such as &apos;TeX&apos; and &apos;tex&apos; are considered as different when checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Teksten zoals &apos;TeX&apos; en &apos;tex&apos; worden als verschillend beschouwd bij controleren.</translation>
     </message>
     <message>
         <source>Match &amp;case</source>
@@ -1651,11 +1663,11 @@ Regel: %2</translation>
     </message>
     <message>
         <source>Mark new translation as &amp;finished</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieuwe vertalingen als &amp;gereed markeren</translation>
     </message>
     <message>
         <source>Click here to find the next occurrence of the text you typed in.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier klikken om het volgende voorkomen van de ingetypte tekst te zoeken.</translation>
     </message>
     <message>
         <source>Find Next</source>
@@ -1667,11 +1679,11 @@ Regel: %2</translation>
     </message>
     <message>
         <source>Translate All</source>
-        <translation type="unfinished"></translation>
+        <translation>Alles vertalen</translation>
     </message>
     <message>
         <source>Click here to close this window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier klikken om dit venster te sluiten.</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -1698,13 +1710,12 @@ Regel: %2</translation>
     </message>
     <message>
         <source>%1 (%2)</source>
-        <extracomment>&lt;english&gt; (&lt;endonym&gt;) (language and country names)
-</extracomment>
+        <extracomment>&lt;english&gt; (&lt;endonym&gt;) (language and country names)</extracomment>
         <translation>%1 (%2)</translation>
     </message>
     <message>
         <source>Settings for &apos;%1&apos; - Qt Linguist</source>
-        <translation type="unfinished"></translation>
+        <translation>Instellingen voor &apos;%1&apos; - Qt Linguist</translation>
     </message>
     <message>
         <source>Any Country</source>

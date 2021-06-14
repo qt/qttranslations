@@ -104,7 +104,7 @@
     </message>
     <message>
         <source>Android API below v15 does not support SDP discovery</source>
-        <translation>La API d&apos;Android per sota de la v15 no admet el descobriment SDP</translation>
+        <translation>L&apos;API d&apos;Android per sota de la v15 no admet el descobriment SDP</translation>
     </message>
     <message>
         <source>Cannot create Android BluetoothDevice</source>
@@ -160,11 +160,11 @@
     </message>
     <message>
         <source>LAN Access Profile</source>
-        <translation>Perfil d&apos;accès a la LAN</translation>
+        <translation>Perfil d&apos;accés a la LAN</translation>
     </message>
     <message>
         <source>Dial-Up Networking</source>
-        <translation>Accès telefònic a la xarxa</translation>
+        <translation>Accés telefònic a la xarxa</translation>
     </message>
     <message>
         <source>Synchronization</source>
@@ -192,7 +192,7 @@
     </message>
     <message>
         <source>Audio Sink</source>
-        <translation>Disipador de l&apos;àudio</translation>
+        <translation>Conducte de l&apos;àudio</translation>
     </message>
     <message>
         <source>Audio/Video Remote Control Target</source>
@@ -280,31 +280,31 @@
     </message>
     <message>
         <source>Hardcopy Cable Replacement</source>
-        <translation>Substitucó del cable per una còpia</translation>
+        <translation>Substitució del cable per una còpia</translation>
     </message>
     <message>
         <source>Hardcopy Cable Replacement Print</source>
-        <translation>Impressió amb la substitucó del cable per una còpia</translation>
+        <translation>Impressió amb la substitució del cable per una còpia</translation>
     </message>
     <message>
         <source>Hardcopy Cable Replacement Scan</source>
-        <translation>Escaneig amb la substitucó del cable per una còpia</translation>
+        <translation>Escaneig amb la substitució del cable per una còpia</translation>
     </message>
     <message>
         <source>SIM Access Server</source>
-        <translation>Servidor d&apos;accès SIM</translation>
+        <translation>Servidor d&apos;accés SIM</translation>
     </message>
     <message>
         <source>Phonebook Access PCE</source>
-        <translation>Accès a la llibreta d&apos;adreces PCE</translation>
+        <translation>Accés a la llibreta d&apos;adreces PCE</translation>
     </message>
     <message>
         <source>Phonebook Access PSE</source>
-        <translation>Accès a la llibreta d&apos;adreces PSE</translation>
+        <translation>Accés a la llibreta d&apos;adreces PSE</translation>
     </message>
     <message>
         <source>Phonebook Access</source>
-        <translation>Accès a la llibreta d&apos;adreces</translation>
+        <translation>Accés a la llibreta d&apos;adreces</translation>
     </message>
     <message>
         <source>Headset HS</source>
@@ -312,15 +312,15 @@
     </message>
     <message>
         <source>Message Access Server</source>
-        <translation>Servidor per a l&apos;accès als missatges</translation>
+        <translation>Servidor per a l&apos;accés als missatges</translation>
     </message>
     <message>
         <source>Message Notification Server</source>
-        <translation>Servidor per a la notoficació dels missatges</translation>
+        <translation>Servidor per a la notificació dels missatges</translation>
     </message>
     <message>
         <source>Message Access</source>
-        <translation>Accès als missatges</translation>
+        <translation>Accés als missatges</translation>
     </message>
     <message>
         <source>Global Navigation Satellite System</source>
@@ -376,7 +376,7 @@
     </message>
     <message>
         <source>Video Sink</source>
-        <translation>Disipador del vídeo</translation>
+        <translation>Conducte del vídeo</translation>
     </message>
     <message>
         <source>Video Distribution</source>
@@ -392,7 +392,7 @@
     </message>
     <message>
         <source>Health Device Sink</source>
-        <translation>Disipador del dispositiu per a la salut</translation>
+        <translation>Conducte del dispositiu per a la salut</translation>
     </message>
     <message>
         <source>Generic Access</source>
@@ -501,15 +501,15 @@
     </message>
     <message>
         <source>Continuous Glucose Monitoring</source>
-        <translation>Monitorització contínua de la glucosa</translation>
+        <translation>Monitoratge continu de la glucosa</translation>
     </message>
     <message>
         <source>Service Discovery Protocol</source>
-        <translation>Protocol per al descobriment de serveis</translation>
+        <translation>Protocol de descobriment de serveis</translation>
     </message>
     <message>
         <source>User Datagram Protocol</source>
-        <translation>Protocol per als datagrames d&apos;usuari</translation>
+        <translation>Protocol de datagrames d&apos;usuari</translation>
     </message>
     <message>
         <source>Radio Frequency Communication</source>
@@ -517,59 +517,59 @@
     </message>
     <message>
         <source>Transmission Control Protocol</source>
-        <translation>Protocol per al control de la transmissió</translation>
+        <translation>Protocol de control de la transmissió</translation>
     </message>
     <message>
         <source>Telephony Control Specification - Binary</source>
-        <translation>Especificació per al control de la telefonia - binari</translation>
+        <translation>Especificació de control de la telefonia - binari</translation>
     </message>
     <message>
         <source>Telephony Control Specification - AT</source>
-        <translation>Especificació per al control de la telefonia - AT</translation>
+        <translation>Especificació de control de la telefonia - AT</translation>
     </message>
     <message>
         <source>Attribute Protocol</source>
-        <translation>Protocol per als atributs</translation>
+        <translation>Protocol dels atributs</translation>
     </message>
     <message>
         <source>Object Exchange Protocol</source>
-        <translation>Protocol per a l&apos;intercanvi d&apos;objectes</translation>
+        <translation>Protocol d&apos;intercanvi d&apos;objectes</translation>
     </message>
     <message>
         <source>Internet Protocol</source>
-        <translation>Protocolo per a Internet</translation>
+        <translation>Protocol d&apos;Internet</translation>
     </message>
     <message>
         <source>File Transfer Protocol</source>
-        <translation>Protocol per a la transferència de fitxers</translation>
+        <translation>Protocol de transferència de fitxers</translation>
     </message>
     <message>
         <source>Hypertext Transfer Protocol</source>
-        <translation>Protocol per a la transferència d&apos;hipertext</translation>
+        <translation>Protocol de transferència d&apos;hipertext</translation>
     </message>
     <message>
         <source>Wireless Short Packet Protocol</source>
-        <translation>Protocol sense fils per a paquets de curt abast</translation>
+        <translation>Protocol sense fils de paquets de curt abast</translation>
     </message>
     <message>
         <source>Bluetooth Network Encapsulation Protocol</source>
-        <translation>Protocol per a l&apos;encapsulament a la xarxa Bluetooth</translation>
+        <translation>Protocol d&apos;encapsulament de la xarxa Bluetooth</translation>
     </message>
     <message>
         <source>Extended Service Discovery Protocol</source>
-        <translation>Protocol estès per al descobriment de serveis</translation>
+        <translation>Protocol ampliat de descobriment de serveis</translation>
     </message>
     <message>
         <source>Human Interface Device Protocol</source>
-        <translation>Protocol per als dispositius amb interfície humana</translation>
+        <translation>Protocol de dispositius amb interfície humana</translation>
     </message>
     <message>
         <source>Hardcopy Control Channel</source>
-        <translation>Canal per al control de la còpia</translation>
+        <translation>Canal de control de la còpia</translation>
     </message>
     <message>
         <source>Hardcopy Data Channel</source>
-        <translation>Canal per a les dades de la còpia</translation>
+        <translation>Canal de dades de la còpia</translation>
     </message>
     <message>
         <source>Hardcopy Notification</source>
@@ -577,15 +577,15 @@
     </message>
     <message>
         <source>Audio/Video Control Transport Protocol</source>
-        <translation>Protocol per al transport del control de l&apos;àudio/vídeo</translation>
+        <translation>Protocol de transport del control de l&apos;àudio/vídeo</translation>
     </message>
     <message>
         <source>Audio/Video Distribution Transport Protocol</source>
-        <translation>Protocol per al transport de la distribució de l&apos;àudio/vídeo</translation>
+        <translation>Protocol de transport de la distribució de l&apos;àudio/vídeo</translation>
     </message>
     <message>
         <source>Common ISDN Access Protocol</source>
-        <translation>Protocol per a l&apos;accés XDSI comú</translation>
+        <translation>Protocol d&apos;accés XDSI comú</translation>
     </message>
     <message>
         <source>UdiCPlain</source>
@@ -593,15 +593,15 @@
     </message>
     <message>
         <source>Multi-Channel Adaptation Protocol - Control</source>
-        <translation>Protocol per a l&apos;adaptació multicanal - control</translation>
+        <translation>Protocol d&apos;adaptació multicanal - control</translation>
     </message>
     <message>
         <source>Multi-Channel Adaptation Protocol - Data</source>
-        <translation>Protocol per a l&apos;adaptació multicanal - dades</translation>
+        <translation>Protocol d&apos;adaptació multicanal - dades</translation>
     </message>
     <message>
         <source>Layer 2 Control Protocol</source>
-        <translation>Protocol per al control de capa 2</translation>
+        <translation>Protocol de control de capa 2</translation>
     </message>
     <message>
         <source>GAP Device Name</source>
@@ -1261,7 +1261,7 @@
     </message>
     <message>
         <source>Connecting to port is not supported</source>
-        <translation type="vanished">El connectar amb un port no está admès</translation>
+        <translation type="vanished">No s&apos;admet connectar amb el port</translation>
     </message>
     <message>
         <source>Cannot connect to %1</source>
@@ -1436,7 +1436,7 @@
     </message>
     <message>
         <source>Could not open file for sending</source>
-        <translation>No s&apos;ha pogut obrir el fitxer per enviar-lo</translation>
+        <translation>No s&apos;ha pogut obrir el fitxer per a enviar-lo</translation>
     </message>
     <message>
         <source>The transfer was canceled</source>
