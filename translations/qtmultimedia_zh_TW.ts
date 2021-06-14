@@ -237,7 +237,7 @@
     </message>
     <message>
         <source>Camera cannot be started without a viewfinder.</source>
-        <translation>相機必須要有取景器才能開啟。</translation>
+        <translation type="vanished">相機必須要有取景器才能開啟。</translation>
     </message>
 </context>
 <context>

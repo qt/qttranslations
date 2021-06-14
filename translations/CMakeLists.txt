@@ -47,10 +47,14 @@ function(add_ts_targets catalog)
     endif()
 
     set(source_files_list_file "${CMAKE_CURRENT_BINARY_DIR}/${catalog}_file_list.txt")
-    set(inclusion_regex "\\.h$|\\.cpp$|\\.hpp$|\\.cxx$|\\.cc$")
+    set(inclusion_regex "\\.h$|\\.cpp$|\\.hpp$|\\.cxx$|\\.cc$|\\.mm$|\\.qml$|\\.ui$")
+    list(FILTER file_list INCLUDE REGEX "${inclusion_regex}")
+    list(FILTER file_list EXCLUDE REGEX /doc/snippets/)
+    list(JOIN file_list "\n" file_list_string)
+
     file(GENERATE
         OUTPUT "${source_files_list_file}"
-        CONTENT "$<JOIN:$<FILTER:${file_list},INCLUDE,${inclusion_regex}>,\n>"
+        CONTENT "${file_list_string}"
     )
 
     add_custom_target(ts-${catalog}-all)
@@ -62,6 +66,11 @@ function(add_ts_targets catalog)
             "${CMAKE_CURRENT_SOURCE_DIR}/${catalog}_${lang}.ts"
         )
         add_dependencies(ts-${catalog}-all ${lang_target_name})
+
+        if(NOT TARGET ts-${lang})
+            add_custom_target(ts-${lang})
+        endif()
+        add_dependencies(ts-${lang} ${lang_target_name})
     endforeach()
     add_ts_target(ts-${catalog}-untranslated
         ${source_files_list_file}
@@ -98,9 +107,16 @@ add_ts_targets(qtlocation DIRECTORIES qtlocation/src)
 add_ts_targets(qtwebsockets DIRECTORIES qtwebsockets/src)
 add_ts_targets(qtserialport DIRECTORIES qtserialport/src)
 add_ts_targets(qtwebengine DIRECTORIES qtwebengine/src)
-add_ts_targets(designer DIRECTORIES qttools/src/designer)
+add_ts_targets(designer DIRECTORIES qttools/src/designer
+                                    qttools/src/shared/deviceskin
+                                    qttools/src/shared/findwidget
+                                    qttools/src/shared/fontpanel
+                                    qttools/src/shared/qtgradienteditor
+                                    qttools/src/shared/qtpropertybrowser
+                                    qttools/src/shared/qttoolbardialog)
 add_ts_targets(linguist DIRECTORIES qttools/src/linguist/linguist)
-add_ts_targets(assistant DIRECTORIES qttools/src/assistant/assistant)  # add qcollectiongenerator here as well?
+add_ts_targets(assistant DIRECTORIES qttools/src/assistant/assistant
+                                     qttools/src/shared/fontpanel) # add qcollectiongenerator here as well?
 add_ts_targets(qt_help DIRECTORIES qttools/src/assistant/help)
 #add_ts_targets(qmlscene DIRECTORIES qtdeclarative/tools/qmlscene)  # almost empty due to missing tr()
 

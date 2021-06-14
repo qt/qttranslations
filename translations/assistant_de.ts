@@ -520,9 +520,6 @@ Grund:
         <source>Remove</source>
         <translation>Entfernen</translation>
     </message>
-</context>
-<context>
-    <name>HelpDocSettingsWidgetPrivate</name>
     <message>
         <source>Add Documentation</source>
         <translation>Dokumentation hinzufügen</translation>
