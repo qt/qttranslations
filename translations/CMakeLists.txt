@@ -131,16 +131,9 @@ add_dependencies(check-ts ts-all)
 add_custom_target(updateqm ALL)
 
 file(GLOB ts_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "*.ts")
-
-if (QT_WILL_INSTALL)
-    set(qm_output_dir "${CMAKE_BINARY_DIR}/${INSTALL_TRANSLATIONSDIR}")
-else()
-    set(qm_output_dir "${QT_BUILD_INTERNALS_RELOCATABLE_INSTALL_PREFIX}/${INSTALL_TRANSLATIONSDIR}")
-endif()
-
 foreach(file IN LISTS ts_files)
     string(REGEX REPLACE "\\.ts$" ".qm" qm_file ${file})
-    set(output_file "${qm_output_dir}/${qm_file}")
+    set(output_file "${CMAKE_CURRENT_BINARY_DIR}/qm/${qm_file}")
     add_custom_target(updateqm-${file}
         BYPRODUCTS ${output_file}
         COMMAND "${CMAKE_COMMAND}" -E make_directory "${CMAKE_CURRENT_BINARY_DIR}/qm"
@@ -153,7 +146,7 @@ endforeach()
 file(GLOB ts_files RELATIVE ${en_ts_file_dir} "${en_ts_file_dir}/*.ts")
 foreach(file IN LISTS ts_files)
     string(REGEX REPLACE "\\.ts$" ".qm" qm_file ${file})
-    set(output_file "${qm_output_dir}/${qm_file}")
+    set(output_file "${CMAKE_CURRENT_BINARY_DIR}/qm/${qm_file}")
     add_custom_target(updateqm-${file}
         BYPRODUCTS ${output_file}
         COMMAND ${QT_CMAKE_EXPORT_NAMESPACE}::lrelease "${en_ts_file_dir}/${file}" -qm "${output_file}"
