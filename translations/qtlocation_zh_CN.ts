@@ -7,7 +7,7 @@
         <source>Esri plugin requires a &apos;esri.token&apos; parameter.
 Please visit https://developers.arcgis.com/authentication/accessing-arcgis-online-services/</source>
         <translation>Esri 插件需要“esri.token”参数。
-请访问https://developers.arcgis.com/authentication/accessing-arcgis-online-services/</translation>
+请访问 https://developers.arcgis.com/authentication/accessing-arcgis-online-services/</translation>
     </message>
 </context>
 <context>
@@ -39,42 +39,53 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     <name>QDeclarativeGeoRouteModel</name>
     <message>
         <source>Plugin does not support routing.</source>
-        <translation>插件不支持路线。</translation>
+        <translation>插件不支持路线查找。</translation>
     </message>
     <message>
         <source>Cannot route, plugin not set.</source>
-        <translation>无法线路，插件未设置。</translation>
+        <translation>无法查找路线，插件未设置。</translation>
     </message>
     <message>
         <source>Cannot route, route manager not set.</source>
-        <translation>无法线路，未设置线路管理器。</translation>
+        <translation>无法查找路线，未设置路线管理器。</translation>
     </message>
     <message>
         <source>Cannot route, valid query not set.</source>
-        <translation>无法线路，未设置有效查询。</translation>
+        <translation>无法查找路线，未设置有效查询。</translation>
     </message>
     <message>
         <source>Not enough waypoints for routing.</source>
-        <translation>没有足够的航路点用于线路。</translation>
+        <translation>未设置足够多的路径点来查找路线。</translation>
     </message>
 </context>
 <context>
     <name>QDeclarativeGeocodeModel</name>
     <message>
         <source>Cannot geocode, plugin not set.</source>
-        <translation>无法地理编码，插件未设置。</translation>
+        <translation>无法进行地理编码，插件未设置。</translation>
     </message>
     <message>
         <source>Cannot geocode, geocode manager not set.</source>
-        <translation>无法地理编码，未设置地理编码管理器。</translation>
+        <translation>无法进行地理编码，未设置地理编码管理器。</translation>
     </message>
     <message>
         <source>Cannot geocode, valid query not set.</source>
-        <translation>无法地理编码，未设置有效查询。</translation>
+        <translation>无法进行地理编码，未设置有效查询。</translation>
     </message>
     <message>
         <source>Plugin does not support (reverse) geocoding.</source>
-        <translation>插件不支持（反向）地理编码。</translation>
+        <translation>插件不支持 (反向) 地理编码。</translation>
+    </message>
+</context>
+<context>
+    <name>QDeclarativeNavigator</name>
+    <message>
+        <source>Plugin does not support navigation.</source>
+        <translation>插件不支持导航。</translation>
+    </message>
+    <message>
+        <source>Failed to create a navigator object.</source>
+        <translation>无法创建导航对象。</translation>
     </message>
 </context>
 <context>
@@ -88,7 +99,7 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     <name>QGeoMapMapboxGL</name>
     <message>
         <source>Development access token, do not use in production.</source>
-        <translation>开发访问令牌，不要在生产中使用。</translation>
+        <translation>开发访问令牌，不要在生产环境使用。</translation>
     </message>
 </context>
 <context>
@@ -106,11 +117,11 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     </message>
     <message>
         <source>China Light</source>
-        <translation>中国亮</translation>
+        <translation>中国亮色</translation>
     </message>
     <message>
         <source>China Dark</source>
-        <translation>中国暗</translation>
+        <translation>中国暗色</translation>
     </message>
     <message>
         <source>Streets</source>
@@ -130,19 +141,19 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     </message>
     <message>
         <source>Satellite</source>
-        <translation>卫星</translation>
+        <translation>卫星图</translation>
     </message>
     <message>
         <source>Satellite Streets</source>
-        <translation>卫星街道</translation>
+        <translation>街道卫星图</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>亮</translation>
+        <translation>亮色</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>暗</translation>
+        <translation>暗色</translation>
     </message>
     <message>
         <source>Navigation Preview Day</source>
@@ -154,11 +165,11 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     </message>
     <message>
         <source>Navigation Guidance Day</source>
-        <translation>导航指导白天</translation>
+        <translation>导航向导白天</translation>
     </message>
     <message>
         <source>Navigation Guidance Night</source>
-        <translation>导航指导夜晚</translation>
+        <translation>导航向导夜晚</translation>
     </message>
     <message>
         <source>User provided style</source>
@@ -169,11 +180,11 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     <name>QGeoRouteParserOsrmV4</name>
     <message>
         <source>Go straight.</source>
-        <translation>直走。</translation>
+        <translation>直行。</translation>
     </message>
     <message>
         <source>Go straight onto %1.</source>
-        <translation>直接进入 %1。</translation>
+        <translation>直行进入 %1。</translation>
     </message>
     <message>
         <source>Turn slightly right.</source>
@@ -201,7 +212,7 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     </message>
     <message>
         <source>When it is safe to do so, perform a U-turn.</source>
-        <translation>在安全情况下，进行 U 形转弯。</translation>
+        <translation>确认安全后，掉头。</translation>
     </message>
     <message>
         <source>Make a sharp left.</source>
@@ -229,103 +240,103 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     </message>
     <message>
         <source>Reached waypoint.</source>
-        <translation>到达航路点。</translation>
+        <translation>到达路径点。</translation>
     </message>
     <message>
         <source>Head on.</source>
-        <translation>迎面。</translation>
+        <translation>前方。</translation>
     </message>
     <message>
         <source>Head onto %1.</source>
-        <translation>迎面进入 %1。</translation>
+        <translation>前方进入 %1。</translation>
     </message>
     <message>
         <source>Enter the roundabout.</source>
-        <translation>进入环形交叉路口。</translation>
+        <translation>进入环岛。</translation>
     </message>
     <message>
         <source>At the roundabout take the first exit.</source>
-        <translation>在环形交叉路口，从第一个出口走。</translation>
+        <translation>从环岛的第一个出口驶出。</translation>
     </message>
     <message>
         <source>At the roundabout take the first exit onto %1.</source>
-        <translation>在环形交叉路口，从第一个出口进入 %1。</translation>
+        <translation>从环岛的第一个出口驶出，进入 %1。</translation>
     </message>
     <message>
         <source>At the roundabout take the second exit.</source>
-        <translation>在环形交叉路口，从第二个出口走。</translation>
+        <translation>从环岛的第二个出口驶出。</translation>
     </message>
     <message>
         <source>At the roundabout take the second exit onto %1.</source>
-        <translation>在环形交叉路口，从第二个出口进入 %1。</translation>
+        <translation>从环岛的第二个出口驶出，进入 %1。</translation>
     </message>
     <message>
         <source>At the roundabout take the third exit.</source>
-        <translation>在环形交叉路口，从第三个出口走。</translation>
+        <translation>从环岛的第三个出口驶出。</translation>
     </message>
     <message>
         <source>At the roundabout take the third exit onto %1.</source>
-        <translation>在环形交叉路口，从第三个出口进入 %1。</translation>
+        <translation>从环岛的第三个出口驶出，进入 %1。</translation>
     </message>
     <message>
         <source>At the roundabout take the fourth exit.</source>
-        <translation>在环形交叉路口，从第四个出口走。</translation>
+        <translation>从环岛的第四个出口驶出。</translation>
     </message>
     <message>
         <source>At the roundabout take the fourth exit onto %1.</source>
-        <translation>在环形交叉路口，从第四个出口进入 %1。</translation>
+        <translation>从环岛的第四个出口驶出，进入 %1。</translation>
     </message>
     <message>
         <source>At the roundabout take the fifth exit.</source>
-        <translation>在环形交叉路口，从第五个出口走。</translation>
+        <translation>从环岛的第五个出口驶出。</translation>
     </message>
     <message>
         <source>At the roundabout take the fifth exit onto %1.</source>
-        <translation>在环形交叉路口，从第五个出口进入 %1。</translation>
+        <translation>从环岛的第五个出口驶出，进入 %1。</translation>
     </message>
     <message>
         <source>At the roundabout take the sixth exit.</source>
-        <translation>在环形交叉路口，从第六个出口走。</translation>
+        <translation>从环岛的第六个出口驶出。</translation>
     </message>
     <message>
         <source>At the roundabout take the sixth exit onto %1.</source>
-        <translation>在环形交叉路口，从第六个出口进入 %1。</translation>
+        <translation>从环岛的第六个出口驶出，进入 %1。</translation>
     </message>
     <message>
         <source>At the roundabout take the seventh exit.</source>
-        <translation>在环形交叉路口，从第七个出口走。</translation>
+        <translation>从环岛的第七个出口驶出。</translation>
     </message>
     <message>
         <source>At the roundabout take the seventh exit onto %1.</source>
-        <translation>在环形交叉路口，从第七个出口进入 %1。</translation>
+        <translation>从环岛的第七个出口驶出，进入 %1。</translation>
     </message>
     <message>
         <source>At the roundabout take the eighth exit.</source>
-        <translation>在环形交叉路口，从第八个出口走。</translation>
+        <translation>从环岛的第八个出口驶出。</translation>
     </message>
     <message>
         <source>At the roundabout take the eighth exit onto %1.</source>
-        <translation>在环形交叉路口，从第八个出口进入 %1。</translation>
+        <translation>从环岛的第八个出口驶出，进入 %1。</translation>
     </message>
     <message>
         <source>At the roundabout take the ninth exit.</source>
-        <translation>在环形交叉路口从，第九个出口走。</translation>
+        <translation>从环岛的第九个出口驶出。</translation>
     </message>
     <message>
         <source>At the roundabout take the ninth exit onto %1.</source>
-        <translation>在环形交叉路口，从第九个出口进入 %1。</translation>
+        <translation>从环岛的第九个出口驶出，进入 %1。</translation>
     </message>
     <message>
         <source>Leave the roundabout.</source>
-        <translation>离开环形交叉路口。</translation>
+        <translation>离开环岛。</translation>
     </message>
     <message>
         <source>Leave the roundabout onto %1.</source>
-        <translation>离开环形交叉路口，进入 %1。</translation>
+        <translation>离开环岛，进入 %1。</translation>
     </message>
     <message>
         <source>Stay on the roundabout.</source>
-        <translation>待在环形交叉路口。</translation>
+        <translation>继续在环岛行驶。</translation>
     </message>
     <message>
         <source>Start at the end of the street.</source>
@@ -333,7 +344,7 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     </message>
     <message>
         <source>Start at the end of %1.</source>
-        <translation>从 %1 尽头开始。</translation>
+        <translation>从 %1 的尽头开始。</translation>
     </message>
     <message>
         <source>You have reached your destination.</source>
@@ -467,27 +478,27 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     <message>
         <source> and take the %1 exit</source>
         <extracomment>Always appended to one of the following strings: - &quot;Enter the roundabout&quot; - &quot;Enter the rotary&quot; - &quot;Enter the rotary &lt;rotaryname&gt;&quot;</extracomment>
-        <translation> 并走 %1 出口</translation>
+        <translation> 并从 %1 出口驶出</translation>
     </message>
     <message>
         <source> and take the %1 exit onto %2</source>
-        <translation> 并走 %1 出口进入 %2</translation>
+        <translation> 并从 %1 出口驶出，进入 %2</translation>
     </message>
     <message>
         <source>You have arrived at your destination, straight ahead</source>
-        <translation>你已经到达目的地，在前面</translation>
+        <translation>您已到达目的地，目的地在前方</translation>
     </message>
     <message>
         <source>You have arrived at your destination, on the left</source>
-        <translation>你已经到达目的地，在左边</translation>
+        <translation>您已到达目的地，目的地在左方</translation>
     </message>
     <message>
         <source>You have arrived at your destination, on the right</source>
-        <translation>您已经到达目的地，在右边</translation>
+        <translation>您已到达目的地，目的地在右方</translation>
     </message>
     <message>
         <source>You have arrived at your destination</source>
-        <translation>你已经到达目的地</translation>
+        <translation>您已到达目的地</translation>
     </message>
     <message>
         <source>Continue straight</source>
@@ -495,7 +506,7 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     </message>
     <message>
         <source>Continue straight on %1</source>
-        <translation>在 %1 上继续直行</translation>
+        <translation>沿 %1 继续直行</translation>
     </message>
     <message>
         <source>Continue left</source>
@@ -503,7 +514,7 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     </message>
     <message>
         <source>Continue left onto %1</source>
-        <translation>继续向左转到 %1</translation>
+        <translation>继续向左，进入 %1</translation>
     </message>
     <message>
         <source>Continue slightly left</source>
@@ -519,7 +530,7 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     </message>
     <message>
         <source>Continue right onto %1</source>
-        <translation>继续向右转到 %1</translation>
+        <translation>继续向右，进入 %1</translation>
     </message>
     <message>
         <source>Continue slightly right</source>
@@ -535,24 +546,24 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     </message>
     <message>
         <source>Make a U-turn onto %1</source>
-        <translation>掉头进入 %1</translation>
+        <translation>掉头，进入 %1</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation>继续</translation>
+        <translation>继续行驶</translation>
     </message>
     <message>
         <source>Continue on %1</source>
-        <translation>继续在 %1 上</translation>
+        <translation>继续沿 %1 行驶</translation>
     </message>
     <message>
         <source>Head %1</source>
         <extracomment>%1 is &quot;North&quot;, &quot;South&quot;, &quot;East&quot; or &quot;West&quot;</extracomment>
-        <translation>迎面 %1</translation>
+        <translation>前方 %1</translation>
     </message>
     <message>
         <source>Head %1 onto %2</source>
-        <translation>迎面 %1 进入 %2</translation>
+        <translation>前方 %1 进入 %2</translation>
     </message>
     <message>
         <source>Depart</source>
@@ -560,123 +571,123 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     </message>
     <message>
         <source>Depart onto %1</source>
-        <translation>离开进入 %1</translation>
+        <translation>离开并进入 %1</translation>
     </message>
     <message>
         <source>At the end of the road, turn left</source>
-        <translation>在路的尽头，左转</translation>
+        <translation>在道路尽头，左转</translation>
     </message>
     <message>
         <source>At the end of the road, turn left onto %1</source>
-        <translation>在路的尽头，左转进入 %1</translation>
+        <translation>在道路尽头，左转进入 %1</translation>
     </message>
     <message>
         <source>At the end of the road, turn right</source>
-        <translation>在路的尽头，右转</translation>
+        <translation>在道路尽头，右转</translation>
     </message>
     <message>
         <source>At the end of the road, turn right onto %1</source>
-        <translation>在路的尽头，右转进入 %1</translation>
+        <translation>在道路尽头，右转进入 %1</translation>
     </message>
     <message>
         <source>At the end of the road, make a U-turn</source>
-        <translation>在路的尽头，掉头</translation>
+        <translation>在道路尽头，掉头</translation>
     </message>
     <message>
         <source>At the end of the road, make a U-turn onto %1</source>
-        <translation>在路的尽头，掉头进入 %1</translation>
+        <translation>在道路尽头，掉头进入 %1</translation>
     </message>
     <message>
         <source>At the end of the road, continue straight</source>
-        <translation>在路的尽头，继续直行</translation>
+        <translation>在道路尽头，继续直行</translation>
     </message>
     <message>
         <source>At the end of the road, continue straight onto %1</source>
-        <translation>在路的尽头，继续直接进入 %1</translation>
+        <translation>在道路尽头，继续直行并进入 %1</translation>
     </message>
     <message>
         <source>At the end of the road, continue</source>
-        <translation>在路的尽头，继续</translation>
+        <translation>在道路尽头，继续行驶</translation>
     </message>
     <message>
         <source>At the end of the road, continue onto %1</source>
-        <translation>在路的尽头，继续进入 %1</translation>
+        <translation>在道路尽头，继续行驶并进入 %1</translation>
     </message>
     <message>
         <source>Take the ferry</source>
-        <translation>乘渡轮</translation>
+        <translation>搭乘渡轮</translation>
     </message>
     <message>
         <source>At the fork, take a sharp left</source>
-        <translation>在岔路口，向左急转弯</translation>
+        <translation>在分岔路口，向左急转弯</translation>
     </message>
     <message>
         <source>At the fork, take a sharp left onto %1</source>
-        <translation>在岔路口，向左急转弯到 %1</translation>
+        <translation>在分岔路口，向左急转弯到 %1</translation>
     </message>
     <message>
         <source>At the fork, turn left</source>
-        <translation>在岔路口，左转</translation>
+        <translation>在分岔路口，左转</translation>
     </message>
     <message>
         <source>At the fork, turn left onto %1</source>
-        <translation>在岔路口，左转进入 %1</translation>
+        <translation>在分岔路口，左转进入 %1</translation>
     </message>
     <message>
         <source>At the fork, keep left</source>
-        <translation>在岔路口，靠左</translation>
+        <translation>在分岔路口，靠左行驶</translation>
     </message>
     <message>
         <source>At the fork, keep left onto %1</source>
-        <translation>在岔路口，靠左进入 %1</translation>
+        <translation>在分岔路口，靠左进入 %1</translation>
     </message>
     <message>
         <source>At the fork, take a sharp right</source>
-        <translation>在岔路口，向右急转弯</translation>
+        <translation>在分岔路口，向右急转弯</translation>
     </message>
     <message>
         <source>At the fork, take a sharp right onto %1</source>
-        <translation>在岔路口，向右急转弯进入 %1</translation>
+        <translation>在分岔路口，向右急转弯进入 %1</translation>
     </message>
     <message>
         <source>At the fork, turn right</source>
-        <translation>在岔路口，右转</translation>
+        <translation>在分岔路口，右转</translation>
     </message>
     <message>
         <source>At the fork, turn right onto %1</source>
-        <translation>在岔路口，右转进入 %1</translation>
+        <translation>在分岔路口，右转进入 %1</translation>
     </message>
     <message>
         <source>At the fork, keep right</source>
-        <translation>在岔路口，靠右</translation>
+        <translation>在分岔路口，靠右行驶</translation>
     </message>
     <message>
         <source>At the fork, keep right onto %1</source>
-        <translation>在岔路口，靠右进入 %1</translation>
+        <translation>在分岔路口，靠右进入 %1</translation>
     </message>
     <message>
         <source>At the fork, continue straight ahead</source>
-        <translation>在岔路口，继续向前</translation>
+        <translation>在分岔路口，继续直行</translation>
     </message>
     <message>
         <source>At the fork, continue straight ahead onto %1</source>
-        <translation>在岔路口，继续向前进入 %1</translation>
+        <translation>在分岔路口，继续直行进入 %1</translation>
     </message>
     <message>
         <source>At the fork, continue</source>
-        <translation>在岔路口，继续</translation>
+        <translation>在分岔路口，继续行驶</translation>
     </message>
     <message>
         <source>At the fork, continue onto %1</source>
-        <translation>在岔路口，继续进入 %1</translation>
+        <translation>在分岔路口，继续行驶进入 %1</translation>
     </message>
     <message>
         <source>Merge sharply left</source>
-        <translation>急剧向左并入</translation>
+        <translation>向左急转并入</translation>
     </message>
     <message>
         <source>Merge sharply left onto %1</source>
-        <translation>急剧向左并入到 %1</translation>
+        <translation>向左急转并入到 %1</translation>
     </message>
     <message>
         <source>Merge left</source>
@@ -696,11 +707,11 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     </message>
     <message>
         <source>Merge sharply right</source>
-        <translation>急剧向右并入</translation>
+        <translation>向右急转并入</translation>
     </message>
     <message>
         <source>Merge sharply right onto %1</source>
-        <translation>急剧向右并入到 %1</translation>
+        <translation>向右急转并入到 %1</translation>
     </message>
     <message>
         <source>Merge right</source>
@@ -724,7 +735,7 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     </message>
     <message>
         <source>Merge straight on %1</source>
-        <translation>直接并入 %1</translation>
+        <translation>直行并入 %1</translation>
     </message>
     <message>
         <source>Merge</source>
@@ -784,109 +795,109 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     </message>
     <message>
         <source>Continue on the left</source>
-        <translation>继续在左边</translation>
+        <translation>在左侧继续行驶</translation>
     </message>
     <message>
         <source>Continue on the left on %1</source>
-        <translation>继续在 %1 左边</translation>
+        <translation>在 %1 的左侧继续行驶</translation>
     </message>
     <message>
         <source>Continue on the right</source>
-        <translation>继续在右边</translation>
+        <translation>在右侧继续行驶</translation>
     </message>
     <message>
         <source>Continue on the right on %1</source>
-        <translation>继续在  %1 右边</translation>
+        <translation>在 %1 的右侧继续行驶</translation>
     </message>
     <message>
         <source>Take the ramp on the left</source>
-        <translation>走左边的坡道</translation>
+        <translation>走左边匝道</translation>
     </message>
     <message>
         <source>Take the ramp on the left onto %1</source>
-        <translation>走左边的坡道进入 %1</translation>
+        <translation>走左边匝道，进入 %1</translation>
     </message>
     <message>
         <source>Take the ramp on the right</source>
-        <translation>走右边的坡道</translation>
+        <translation>走右边匝道</translation>
     </message>
     <message>
         <source>Take the ramp on the right onto %1</source>
-        <translation>走右边的坡道进入 %1</translation>
+        <translation>走右边匝道，进入 %1</translation>
     </message>
     <message>
         <source>Take the ramp</source>
-        <translation>走坡道</translation>
+        <translation>驶入匝道</translation>
     </message>
     <message>
         <source>Take the ramp onto %1</source>
-        <translation>走坡道进入 %1</translation>
+        <translation>驶入匝道，进入 %1</translation>
     </message>
     <message>
         <source>Get off the bike and push</source>
-        <translation>下车然后推行</translation>
+        <translation>下车推行</translation>
     </message>
     <message>
         <source>Get off the bike and push onto %1</source>
-        <translation>下车然后推行进入 %1</translation>
+        <translation>下车推行，进入 %1</translation>
     </message>
     <message>
         <source>Enter the rotary</source>
         <extracomment>This string will be prepended to &quot; and take the &lt;nth&gt; exit [onto &lt;streetname&gt;]</extracomment>
-        <translation>进入转盘</translation>
+        <translation>进入环岛</translation>
     </message>
     <message>
         <source>Enter the roundabout</source>
         <extracomment>This string will be prepended to &quot; and take the &lt;nth&gt; exit [onto &lt;streetname&gt;]</extracomment>
-        <translation>进入环形交叉路口</translation>
+        <translation>进入环岛</translation>
     </message>
     <message>
         <source>At the roundabout, continue straight</source>
-        <translation>在环形交叉路口，继续直行</translation>
+        <translation>在环岛上，继续直行</translation>
     </message>
     <message>
         <source>At the roundabout, continue straight on %1</source>
-        <translation>在环形交叉路口，继续在 %1 直行</translation>
+        <translation>在环岛上，继续直行进入 %1</translation>
     </message>
     <message>
         <source>At the roundabout, turn left</source>
-        <translation>在环形交叉路口，左转</translation>
+        <translation>在环岛上，左转</translation>
     </message>
     <message>
         <source>At the roundabout, turn left onto %1</source>
-        <translation>在环形交叉路口，左转进入 %1</translation>
+        <translation>在环岛上，左转进入 %1</translation>
     </message>
     <message>
         <source>At the roundabout, turn right</source>
-        <translation>在环形交叉路口，右转</translation>
+        <translation>在环岛上，右转</translation>
     </message>
     <message>
         <source>At the roundabout, turn right onto %1</source>
-        <translation>在环形交叉路口，右转进入 %1</translation>
+        <translation>在环岛上，右转进入 %1</translation>
     </message>
     <message>
         <source>At the roundabout, turn around</source>
-        <translation>在环形交叉路口，掉头</translation>
+        <translation>在环岛上，掉头</translation>
     </message>
     <message>
         <source>At the roundabout, turn around onto %1</source>
-        <translation>在环形交叉路口，掉头进入 %1</translation>
+        <translation>在环岛上，掉头进入 %1</translation>
     </message>
     <message>
         <source>At the roundabout, continue</source>
-        <translation>在环形交叉路口，继续</translation>
+        <translation>在环岛上，继续行驶</translation>
     </message>
     <message>
         <source>At the roundabout, continue onto %1</source>
-        <translation>在环形交叉路口，继续进入 %1</translation>
+        <translation>在环岛上，继续行驶进入 %1</translation>
     </message>
     <message>
         <source>Take the train</source>
-        <translation>乘火车</translation>
+        <translation>搭乘火车</translation>
     </message>
     <message>
         <source>Take the train [%1]</source>
-        <translation>乘火车 [%1]</translation>
+        <translation>搭乘火车 [%1]</translation>
     </message>
     <message>
         <source>Go straight</source>
@@ -1012,27 +1023,27 @@ Please visit https://www.mapbox.com</source>
     <message>
         <source>Light</source>
         <extracomment>Noun describing type of a map using light colors (weak contrast)</extracomment>
-        <translation>亮</translation>
+        <translation>亮色</translation>
     </message>
     <message>
         <source>Dark</source>
         <extracomment>Noun describing type of a map using dark colors</extracomment>
-        <translation>暗</translation>
+        <translation>暗色</translation>
     </message>
     <message>
         <source>Satellite</source>
         <extracomment>Noun describing type of a map created by satellite</extracomment>
-        <translation>卫星</translation>
+        <translation>卫星图</translation>
     </message>
     <message>
         <source>Streets Satellite</source>
         <extracomment>Noun describing type of a street map created by satellite</extracomment>
-        <translation>街道卫星</translation>
+        <translation>街道卫星图</translation>
     </message>
     <message>
         <source>Wheatpaste</source>
         <extracomment>Noun describing type of a map using wheat paste colors</extracomment>
-        <translation>小麦酱</translation>
+        <translation>浆糊</translation>
     </message>
     <message>
         <source>Streets Basic</source>
@@ -1047,12 +1058,12 @@ Please visit https://www.mapbox.com</source>
     <message>
         <source>Outdoors</source>
         <extracomment>Noun describing type of a map for outdoor activities</extracomment>
-        <translation>室外</translation>
+        <translation>户外</translation>
     </message>
     <message>
         <source>Run Bike Hike</source>
         <extracomment>Noun describing type of a map for sports</extracomment>
-        <translation>跑自行车远足</translation>
+        <translation>跑步骑行远足</translation>
     </message>
     <message>
         <source>Pencil</source>
@@ -1191,7 +1202,7 @@ Please visit https://www.mapbox.com</source>
     </message>
     <message>
         <source>Color-reduced map view in night mode (especially used for background maps)</source>
-        <translation>夜间模式下的减色地图视图（特别用于背景地图）</translation>
+        <translation>夜间模式下的减色地图视图 (特别用于背景地图)</translation>
     </message>
     <message>
         <source>Mobile Gray Night Street Map</source>
@@ -1199,7 +1210,7 @@ Please visit https://www.mapbox.com</source>
     </message>
     <message>
         <source>Mobile color-reduced map view in night mode (especially used for background maps)</source>
-        <translation>夜间模式下的移动减色地图视图（特别用于背景地图）</translation>
+        <translation>夜间模式下的移动减色地图视图 (特别用于背景地图)</translation>
     </message>
     <message>
         <source>Pedestrian Street Map</source>
@@ -1313,15 +1324,15 @@ Please visit https://www.mapbox.com</source>
     <name>QPlaceManagerEngineOsm</name>
     <message>
         <source>Aeroway</source>
-        <translation>航空</translation>
+        <translation>飞机航路</translation>
     </message>
     <message>
         <source>Amenity</source>
-        <translation>设施</translation>
+        <translation>便利设施</translation>
     </message>
     <message>
         <source>Building</source>
-        <translation>建筑</translation>
+        <translation>建筑物</translation>
     </message>
     <message>
         <source>Highway</source>
@@ -1329,7 +1340,7 @@ Please visit https://www.mapbox.com</source>
     </message>
     <message>
         <source>Historic</source>
-        <translation>历史性</translation>
+        <translation>历史建筑</translation>
     </message>
     <message>
         <source>Land use</source>
@@ -1341,11 +1352,11 @@ Please visit https://www.mapbox.com</source>
     </message>
     <message>
         <source>Man made</source>
-        <translation>人工的</translation>
+        <translation>人工</translation>
     </message>
     <message>
         <source>Natural</source>
-        <translation>自然的</translation>
+        <translation>自然</translation>
     </message>
     <message>
         <source>Place</source>
@@ -1401,11 +1412,11 @@ Please visit https://www.mapbox.com</source>
     </message>
     <message>
         <source>Plugin Error (%1): %2</source>
-        <translation>插件错误（%1）：%2</translation>
+        <translation>插件错误 (%1)：%2</translation>
     </message>
     <message>
         <source>Plugin Error (%1): Could not instantiate provider</source>
-        <translation>插件错误（%1）：无法实例化提供者</translation>
+        <translation>插件错误 (%1)：无法实例化提供者</translation>
     </message>
     <message>
         <source>Plugin is not valid</source>
