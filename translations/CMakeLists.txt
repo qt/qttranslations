@@ -15,7 +15,7 @@ endfunction()
 function(add_ts_target target input_file output_file)
     add_custom_target(${target}
         BYPRODUCTS ${output_file}
-        COMMAND ${QT_CMAKE_EXPORT_NAMESPACE}::lupdate -no-ui-lines -no-sort "@${input_file}" -ts ${output_file}
+        COMMAND ${QT_CMAKE_EXPORT_NAMESPACE}::lupdate -locations relative -no-ui-lines -no-sort "@${input_file}" -ts ${output_file}
     )
 endfunction()
 
