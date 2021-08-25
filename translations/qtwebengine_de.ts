@@ -296,32 +296,6 @@
         <source>Insert &amp;Unordered List</source>
         <translation>&amp;Liste einfügen</translation>
     </message>
-    <message>
-        <source>Select folder to upload</source>
-        <translation>Verzeichnis zum Hochladen</translation>
-    </message>
-</context>
-<context>
-    <name>QtWebEnginePlugin</name>
-    <message>
-        <source>Cannot create separate instance of WebEngineNewViewRequest</source>
-        <translation>Es kann keine separate Instanz der Klasse WebEngineNewViewRequest erstellt werden</translation>
-    </message>
-    <message>
-        <source>Cannot create separate instance of %1</source>
-        <translation>Es kann keine separate Instanz der Klasse %1 erstellt werden</translation>
-    </message>
-</context>
-<context>
-    <name>QtWebEngineTestSupportPlugin</name>
-    <message>
-        <source>Cannot create a separate instance of WebEngineErrorPage</source>
-        <translation>Es kann keine separate Instanz der Klasse WebEngineErrorPage erstellt werden</translation>
-    </message>
-    <message>
-        <source>Cannot create a separate instance of WebEngineTestEvent</source>
-        <translation>Es kann keine separate Instanz der Klasse WebEngineTestEvent erstellt werden</translation>
-    </message>
 </context>
 <context>
     <name>RenderViewContextMenuQt</name>
@@ -462,6 +436,20 @@
     <message>
         <source>HTTP-POST data can only be sent over HTTP(S) protocol</source>
         <translation>HTTP-POST-Daten können nur über das HTTP(S)-Protokoll versendet werden</translation>
+    </message>
+</context>
+<context>
+    <name>FilePickerController</name>
+    <message>
+        <source>Accepted types (%1)</source>
+        <translation>Zulässige Typen (%1)</translation>
+    </message>
+</context>
+<context>
+    <name>QWebEngineView</name>
+    <message>
+        <source>Select folder to upload</source>
+        <translation>Verzeichnis zum Hochladen</translation>
     </message>
 </context>
 </TS>
