@@ -143,7 +143,8 @@ set_source_files_properties(${ts_files} PROPERTIES OUTPUT_LOCATION "${qm_output_
 qt_add_lrelease(updateqm
     TS_FILES ${ts_files}
     NO_GLOBAL_TARGET
-    QM_FILES_OUTPUT_VARIABLE qm_files)
+    QM_FILES_OUTPUT_VARIABLE qm_files
+    OPTIONS "-silent")
 qt_install(FILES ${qm_files} DESTINATION "${INSTALL_TRANSLATIONSDIR}")
 
 # Custom target to add modified ts files to git
