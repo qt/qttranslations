@@ -153,7 +153,7 @@
     <name>CameraBinRecorder</name>
     <message>
         <source>QMediaRecorder::pause() is not supported by camerabin2.</source>
-        <translation>QMediaRecorder::pause() no és admés pel «camerabin2».</translation>
+        <translation>QMediaRecorder::pause() no és admès pel «camerabin2».</translation>
     </message>
     <message>
         <source>Service has not been started</source>

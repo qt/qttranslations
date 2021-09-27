@@ -5,10 +5,10 @@
     <extra-po-header-language_team>Dutch &lt;kde-i18n-nl@kde.org&gt;</extra-po-header-language_team>
     <extra-po-header-last_translator>Freek de Kruijf &lt;freekdekruijf@kde.nl&gt;</extra-po-header-last_translator>
     <extra-po-header-plural_forms>nplurals=2; plural=(n != 1);</extra-po-header-plural_forms>
-    <extra-po-header-po_revision_date>2018-10-17 10:47+0100</extra-po-header-po_revision_date>
+    <extra-po-header-po_revision_date>2020-11-27 11:46+0100</extra-po-header-po_revision_date>
     <extra-po-header-project_id_version></extra-po-header-project_id_version>
-    <extra-po-header-x_generator>Lokalize 2.0</extra-po-header-x_generator>
-    <extra-po-header_comment># Freek de Kruijf &lt;freek@opensuse.org&gt;, 2014, 2018.</extra-po-header_comment>
+    <extra-po-header-x_generator>Lokalize 20.08.3</extra-po-header-x_generator>
+    <extra-po-header_comment># Freek de Kruijf &lt;freek@opensuse.org&gt;, 2014, 2018, 2020.</extra-po-header_comment>
     <extra-po-headers>Project-Id-Version,PO-Revision-Date,Last-Translator,Language-Team,Language,MIME-Version,Content-Type,Content-Transfer-Encoding,X-Qt-Contexts,Plural-Forms,X-Generator</extra-po-headers>
 <context>
     <name>CloseButton</name>
@@ -19,6 +19,14 @@
 </context>
 <context>
     <name>MAC_APPLICATION_MENU</name>
+    <message>
+        <source>About %1</source>
+        <translation>Info over %1</translation>
+    </message>
+    <message>
+        <source>Preferences...</source>
+        <translation>Voorkeuren...</translation>
+    </message>
     <message>
         <source>Services</source>
         <translation>Services</translation>
@@ -36,16 +44,22 @@
         <translation>Alles tonen</translation>
     </message>
     <message>
-        <source>Preferences...</source>
-        <translation>Voorkeuren...</translation>
-    </message>
-    <message>
         <source>Quit %1</source>
         <translation>%1 afsluiten</translation>
     </message>
+</context>
+<context>
+    <name>Print Device Input Slot</name>
     <message>
-        <source>About %1</source>
-        <translation>Info over %1</translation>
+        <source>Automatic</source>
+        <translation>Automatisch</translation>
+    </message>
+</context>
+<context>
+    <name>Print Device Output Bin</name>
+    <message>
+        <source>Automatic</source>
+        <translation>Automatisch</translation>
     </message>
 </context>
 <context>
@@ -372,8 +386,12 @@ Druk op ESC om te annuleren</translation>
         <translation>Toont versie-informatie.</translation>
     </message>
     <message>
-        <source>Displays this help.</source>
-        <translation>Toont deze help.</translation>
+        <source>Displays help on commandline options.</source>
+        <translation>Help tonen over de opties voor de opdrachtregel.</translation>
+    </message>
+    <message>
+        <source>Displays help including Qt specific options.</source>
+        <translation>Help tonen inclusief Qt specifieke opties.</translation>
     </message>
     <message>
         <source>Unknown option &apos;%1&apos;.</source>
@@ -406,6 +424,10 @@ Druk op ESC om te annuleren</translation>
     <message>
         <source>Arguments:</source>
         <translation>Argumenten:</translation>
+    </message>
+    <message>
+        <source>Displays this help.</source>
+        <translation type="vanished">Toont deze help.</translation>
     </message>
 </context>
 <context>
@@ -528,6 +550,29 @@ Druk op ESC om te annuleren</translation>
         <source>Top Secret</source>
         <comment>CUPS Banner page</comment>
         <translation>Zeer geheim</translation>
+    </message>
+</context>
+<context>
+    <name>QCupsPrinterSupport</name>
+    <message>
+        <source>Authentication Needed</source>
+        <translation>Authenticatie nodig</translation>
+    </message>
+    <message>
+        <source>Authentication needed to use %1.</source>
+        <translation>Authenticatie nodig om %1 te gebruiken</translation>
+    </message>
+    <message>
+        <source>Authentication needed to use %1 on %2.</source>
+        <translation>Authenticatie nodig om %1 op %2 te gebruiken.</translation>
+    </message>
+    <message>
+        <source>Username:</source>
+        <translation>Gebruikersnaam:</translation>
+    </message>
+    <message>
+        <source>Password:</source>
+        <translation>Wachtwoord:</translation>
     </message>
 </context>
 <context>
@@ -751,8 +796,7 @@ Druk op ESC om te annuleren</translation>
     <name>QDockWidget</name>
     <message>
         <source>Float</source>
-        <extracomment>Accessible name for button undocking a dock widget (floating state)
-</extracomment>
+        <extracomment>Accessible name for button undocking a dock widget (floating state)</extracomment>
         <translation>Zwevend</translation>
     </message>
     <message>
@@ -761,13 +805,139 @@ Druk op ESC om te annuleren</translation>
     </message>
     <message>
         <source>Close</source>
-        <extracomment>Accessible name for button closing a dock widget
-</extracomment>
+        <extracomment>Accessible name for button closing a dock widget</extracomment>
         <translation>Sluiten</translation>
     </message>
     <message>
         <source>Closes the dock widget</source>
         <translation>Sluit het ankerwidget</translation>
+    </message>
+</context>
+<context>
+    <name>QDtls</name>
+    <message>
+        <source>Invalid (empty) secret</source>
+        <translation>Ongeldig (leeg) geheim</translation>
+    </message>
+    <message>
+        <source>Multicast and broadcast addresses are not supported</source>
+        <translation>Multicast en broadcast adressen worden niet ondersteund</translation>
+    </message>
+    <message>
+        <source>Cannot set peer after handshake started</source>
+        <translation>Kan andere zijde niet instellen nadat handdruk is gestart</translation>
+    </message>
+    <message>
+        <source>Invalid address</source>
+        <translation>Ongeldig adres</translation>
+    </message>
+    <message>
+        <source>Cannot set verification name after handshake started</source>
+        <translation>Kan verificatienaam niet instellen nadat handdruk is gestart</translation>
+    </message>
+    <message>
+        <source>Cannot set configuration after handshake started</source>
+        <translation>Kan configuratie niet instellen nadat handdruk is gestart</translation>
+    </message>
+    <message>
+        <source>Cannot start/continue handshake, invalid handshake state</source>
+        <translation>Kan handdruk niet starten/er mee doorgaan, ongeldige status van handdruk</translation>
+    </message>
+    <message>
+        <source>Invalid (nullptr) socket</source>
+        <translation>Ongeldig (nullptr) socket</translation>
+    </message>
+    <message>
+        <source>To start a handshake you must set peer&apos;s address and port first</source>
+        <translation>Om een handdruk te starten moet u het adres en de poort van de andere zijde eerst instellen</translation>
+    </message>
+    <message>
+        <source>To start a handshake, DTLS server requires non-empty datagram (client hello)</source>
+        <translation>Om een handdruk te starten vereist de DTLS-server een niet-leeg datagram (client hello)</translation>
+    </message>
+    <message>
+        <source>Cannot start handshake, already done/in progress</source>
+        <translation>Kan handdruk niet starten, al gedaan/bezig</translation>
+    </message>
+    <message>
+        <source>A valid QUdpSocket and non-empty datagram are needed to continue the handshake</source>
+        <translation>Een geldig QUdpSocket en een niet-leeg datagram zijn nodig om met de handdruk door te gaan</translation>
+    </message>
+    <message>
+        <source>Cannot continue handshake, not in InProgress state</source>
+        <translation>Kan met handdruk niet doorgaan, niet in status InProgress</translation>
+    </message>
+    <message>
+        <source>Cannot resume, not in VerificationError state</source>
+        <translation>Kan niet hervatten, niet in status VerificationError</translation>
+    </message>
+    <message>
+        <source>No handshake in progress, nothing to abort</source>
+        <translation>Geen handshake bezig, er is niets om af te breken</translation>
+    </message>
+    <message>
+        <source>Cannot send shutdown alert, not encrypted</source>
+        <translation>Kan geen afsluitsignaal verzenden, niet versleuteld</translation>
+    </message>
+    <message>
+        <source>Cannot write a datagram, not in encrypted state</source>
+        <translation>Kan geen datagram schrijven, niet in status versleutelen</translation>
+    </message>
+    <message>
+        <source>Cannot read a datagram, not in encrypted state</source>
+        <translation>Kan geen datagram lezen, niet in status versleutelen</translation>
+    </message>
+    <message>
+        <source>%1 failed</source>
+        <extracomment>%1: Some function</extracomment>
+        <translation>%1 is mislukt</translation>
+    </message>
+    <message>
+        <source>Invalid SslMode, SslServerMode or SslClientMode expected</source>
+        <translation>Ongeldige SslMode, SslServerMode of SslClientMode verwacht</translation>
+    </message>
+    <message>
+        <source>Invalid protocol version, DTLS protocol expected</source>
+        <translation>Ongeldige protocolversie, DTLS protocol verwacht</translation>
+    </message>
+    <message>
+        <source>BIO_ADD_new failed, cannot start handshake</source>
+        <translation>BIO_ADD_new is mislukt, kan handdruk niet starten</translation>
+    </message>
+    <message>
+        <source>Cannot start the handshake, verified client hello expected</source>
+        <translation>Kan handdruk niet starten, geverifieerde client hello verwacht</translation>
+    </message>
+    <message>
+        <source>Peer verification failed</source>
+        <translation>Verificatie van de andere zijde is mislukt</translation>
+    </message>
+    <message>
+        <source>The DTLS connection has been closed</source>
+        <translation>De DTLS verbinding is gesloten</translation>
+    </message>
+    <message>
+        <source>Error while writing: %1</source>
+        <translation>Fout bij het schrijven: %1</translation>
+    </message>
+    <message>
+        <source>The DTLS connection has been shutdown</source>
+        <translation>De DTLS verbinding is afgesloten</translation>
+    </message>
+    <message>
+        <source>Error while reading: %1</source>
+        <translation>Fout bij lezen: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QDtlsClientVerifier</name>
+    <message>
+        <source>A valid UDP socket, non-empty datagram, valid address/port were expected</source>
+        <translation>Een geldig UDP-socket, niet-leeg datagram, geldig adres/poort werden verwacht</translation>
+    </message>
+    <message>
+        <source>BIO_ADDR_new failed, ignoring client hello</source>
+        <translation>BIO_ADDR_new is mislukt, client hello wordt genegeerd</translation>
     </message>
 </context>
 <context>
@@ -840,8 +1010,8 @@ Druk op ESC om te annuleren</translation>
         <translation>Kan %1 niet openen voor invoer</translation>
     </message>
     <message>
-        <source>Cannot open for output</source>
-        <translation>Kan niet worden geopend voor uitvoer</translation>
+        <source>Cannot open for output: %1</source>
+        <translation>Kan niet worden geopend voor uitvoer: %1</translation>
     </message>
     <message>
         <source>Failure to write block</source>
@@ -1071,8 +1241,7 @@ Wilt u het toch verwijderen?</translation>
     </message>
     <message>
         <source>%1 File</source>
-        <extracomment>%1 is a file name suffix, for example txt
-</extracomment>
+        <extracomment>%1 is a file name suffix, for example txt</extracomment>
         <translation>%1 bestand</translation>
     </message>
     <message>
@@ -1211,14 +1380,12 @@ Wilt u het toch verwijderen?</translation>
     </message>
     <message>
         <source>Extra</source>
-        <extracomment>The word for &quot;Extra&quot; as in &quot;Extra Bold, Extra Thin&quot; used as a pattern for string searches
-</extracomment>
+        <extracomment>The word for &quot;Extra&quot; as in &quot;Extra Bold, Extra Thin&quot; used as a pattern for string searches</extracomment>
         <translation>Extra</translation>
     </message>
     <message>
         <source>Demi</source>
-        <extracomment>The word for &quot;Demi&quot; as in &quot;Demi Bold&quot; used as a pattern for string searches
-</extracomment>
+        <extracomment>The word for &quot;Demi&quot; as in &quot;Demi Bold&quot; used as a pattern for string searches</extracomment>
         <translation>Demi</translation>
     </message>
     <message>
@@ -1524,6 +1691,74 @@ Wilt u het toch verwijderen?</translation>
         <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
         <translation>LTR</translation>
     </message>
+    <message>
+        <source>QPA plugin. See QGuiApplication documentation for available options for each plugin.</source>
+        <translation>QPA plug-in. Zie QGuiApplication documentatie voor beschikbare opties voor elke plug-in.</translation>
+    </message>
+    <message>
+        <source>Path to the platform plugins.</source>
+        <translation>Pad naar de platform-plug-ins.</translation>
+    </message>
+    <message>
+        <source>Platform theme.</source>
+        <translation>Platformthema.</translation>
+    </message>
+    <message>
+        <source>Additional plugins to load, can be specified multiple times.</source>
+        <translation>Extra te laden plug-ins, kan meerdere keren worden gespecificeerd.</translation>
+    </message>
+    <message>
+        <source>Window geometry for the main window, using the X11-syntax, like 100x100+50+50.</source>
+        <translation>Venstergeometrie voor het hoofdvenster, met gebrui van de X11-syntaxis, zoals 100x100+50+50.</translation>
+    </message>
+    <message>
+        <source>Default window icon.</source>
+        <translation>Standaard vensterpictogram.</translation>
+    </message>
+    <message>
+        <source>Title of the first window.</source>
+        <translation>Titel in van het eerste venster.</translation>
+    </message>
+    <message>
+        <source>Sets the application&apos;s layout direction to Qt::RightToLeft (debugging helper).</source>
+        <translation>Stelt de indelingsrichting in van de toepassing op Qt::RightToLeft (helper bij debuggen).</translation>
+    </message>
+    <message>
+        <source>Restores the application from an earlier session.</source>
+        <translation>Herstelt de toepassing vanaf een eerdere sessie.</translation>
+    </message>
+    <message>
+        <source>Display name, overrides $DISPLAY.</source>
+        <translation>Naam van scherm, overschrijft $DISPLAY.</translation>
+    </message>
+    <message>
+        <source>Instance name according to ICCCM 4.1.2.5.</source>
+        <translation>Naam van exemplaar volgens ICCCM 4.1.2.5.</translation>
+    </message>
+    <message>
+        <source>Disable mouse grabbing (useful in debuggers).</source>
+        <translation>Muis pakken uitschakelen (nuttig in debuggers).</translation>
+    </message>
+    <message>
+        <source>Force mouse grabbing (even when running in a debugger).</source>
+        <translation>Muis pakken (zelfs bij gebruik in een debugger).</translation>
+    </message>
+    <message>
+        <source>ID of the X11 Visual to use.</source>
+        <translation>ID van de te gebruiken X11 Visual.</translation>
+    </message>
+    <message>
+        <source>Alias for --windowgeometry.</source>
+        <translation>Alias voor --windowgeometry.</translation>
+    </message>
+    <message>
+        <source>Alias for --windowicon.</source>
+        <translation>Alias voor --windowicon.</translation>
+    </message>
+    <message>
+        <source>Alias for --windowtitle.</source>
+        <translation>Alias voor --windowtitle.</translation>
+    </message>
 </context>
 <context>
     <name>QHostInfo</name>
@@ -1556,7 +1791,7 @@ Wilt u het toch verwijderen?</translation>
     </message>
     <message>
         <source>Unknown error (%1)</source>
-        <translation>Onbekende fout (%1)</translation>
+        <translation type="vanished">Onbekende fout (%1)</translation>
     </message>
     <message>
         <source>Unknown error</source>
@@ -1566,16 +1801,16 @@ Wilt u het toch verwijderen?</translation>
 <context>
     <name>QHttp</name>
     <message>
+        <source>Connection closed</source>
+        <translation>Verbinding gesloten</translation>
+    </message>
+    <message>
         <source>Host %1 not found</source>
         <translation>Host %1 niet gevonden</translation>
     </message>
     <message>
         <source>Connection refused</source>
         <translation>Verbinding is geweigerd</translation>
-    </message>
-    <message>
-        <source>Connection closed</source>
-        <translation>Verbinding gesloten</translation>
     </message>
     <message>
         <source>Proxy requires authentication</source>
@@ -1890,8 +2125,7 @@ Wilt u het toch verwijderen?</translation>
     </message>
     <message>
         <source>%1, ...</source>
-        <extracomment>This text is an &quot;unfinished&quot; shortcut, expands like &quot;Ctrl+A, ...&quot;
-</extracomment>
+        <extracomment>This text is an &quot;unfinished&quot; shortcut, expands like &quot;Ctrl+A, ...&quot;</extracomment>
         <translation>%1, ...</translation>
     </message>
 </context>
@@ -1961,10 +2195,6 @@ Wilt u het toch verwijderen?</translation>
         <translation>sectiegegevens ontbreken. Dit is geen bibliotheek.</translation>
     </message>
     <message>
-        <source>Out of memory while loading plugin &apos;%1&apos;.</source>
-        <translation>Geen geheugen genoeg bij laden van plug-in &apos;%1&apos;.</translation>
-    </message>
-    <message>
         <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
         <translation>Metagegevens van plug-in uitpakken uit &apos;%1&apos; is mislukt</translation>
     </message>
@@ -1997,10 +2227,6 @@ Wilt u het toch verwijderen?</translation>
         <translation>Kan bibliotheek %1 niet uitschakelen: %2</translation>
     </message>
     <message>
-        <source>Cannot resolve symbol &quot;%1&quot; in %2: %3</source>
-        <translation>Kan symbool &quot;%1&quot; niet vinden in %2: %3</translation>
-    </message>
-    <message>
         <source>&apos;%1&apos; is not a valid Mach-O binary (%2)</source>
         <translation>&apos;%1&apos; is geen geldige Mach-O binair bestand (%2)</translation>
     </message>
@@ -2027,6 +2253,14 @@ Wilt u het toch verwijderen?</translation>
     <message>
         <source>&apos;%1&apos; is not a Qt plugin</source>
         <translation>&apos;%1&apos; is geen Qt-plug-in</translation>
+    </message>
+    <message>
+        <source>Cannot resolve symbol &quot;%1&quot; in %2: %3</source>
+        <translation type="vanished">Kan symbool &quot;%1&quot; niet vinden in %2: %3</translation>
+    </message>
+    <message>
+        <source>Out of memory while loading plugin &apos;%1&apos;.</source>
+        <translation type="vanished">Geen geheugen genoeg bij laden van plug-in &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Plugin verification data mismatch in &apos;%1&apos;</source>
@@ -2313,8 +2547,9 @@ Wilt u het toch verwijderen?</translation>
         <translation>&lt;h3&gt;Info over Qt&lt;/h3&gt;&lt;p&gt;Dit programma gebruikt Qt-versie %1.&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Qt is een C++ toolkit voor cross-platform ontwikkeling van toepassingen.&lt;/p&gt;&lt;p&gt;Qt biedt overdraagbaarheid één enkele broncode tussen alle belangrijke besturingssystemen van het bureaublad. Het is ook beschikbaar voor ingebedde Linux en andere ingebedde en mobiele besturingssystemen.&lt;/p&gt;&lt;p&gt;Qt is beschikbaar onder drie verschillende licenties ontworpen om de behoefte van onze gevarieerde gebruikers te dekken.&lt;/p&gt;&lt;p&gt;Qt met een licentie onder onze commerciële licentieovereenkomst is van toepassing op ontwikkeling van gesloten/commerciële software waar u geen enkele broncode wilt delen met derden of anderzijds niet kunt voldoen aan de bepalingen van de GNU LGPL versie 3.&lt;/p&gt;&lt;p&gt;Qt met een licentie onder de GNU LGPL versie 3 is van toepassing op de ontwikkeling Van Qt-toepassingen onder de voorwaarde dat u kunt voldoen aan de bepalingen en voorwaarden van de GNU LGPL versie 3.&lt;/p&gt;&lt;p&gt;Zie &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; voor een overzicht van Qt-licenties.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd en anderen die bijdroegen.&lt;/p&gt;&lt;p&gt;Qt en het Qt-logo zijn handelsmerken van &quot;The Qt Company Ltd.&quot;.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <extracomment>Leave this text untranslated or include a verbatim copy of it below and note that it is the authoritative version in case of doubt.</extracomment>
+        <translation>&lt;p&gt;Qt is een C++ toolkit voor cross-platform ontwikkeling van toepassingen.&lt;/p&gt;&lt;p&gt;Qt biedt overdraagbaarheid één enkele broncode tussen alle belangrijke besturingssystemen van het bureaublad. Het is ook beschikbaar voor ingebedde Linux en andere ingebedde en mobiele besturingssystemen.&lt;/p&gt;&lt;p&gt;Qt is beschikbaar onder meerdere licenties ontworpen om de behoefte van onze gevarieerde gebruikers te dekken.&lt;/p&gt;&lt;p&gt;Qt met een licentie onder onze commerciële licentieovereenkomst is van toepassing op ontwikkeling van gesloten/commerciële software waar u geen enkele broncode wilt delen met derden of anderzijds niet kunt voldoen aan de bepalingen van de GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt met een licentie onder GNU (L)GPL is van toepassing op de ontwikkeling Van Qt-toepassingen onder de voorwaarde dat u kunt voldoen aan de bepalingen en voorwaarden van de GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Zie &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; voor een overzicht van Qt-licenties.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd en anderen die bijdroegen.&lt;/p&gt;&lt;p&gt;Qt en het Qt-logo zijn handelsmerken van &quot;The Qt Company Ltd.&quot;.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product ontwikkelt als een open-source project. Zie &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; voor meer informatie.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About Qt</source>
@@ -2731,17 +2966,6 @@ Wilt u het toch verwijderen?</translation>
     </message>
 </context>
 <context>
-    <name>QPPDOptionsModel</name>
-    <message>
-        <source>Name</source>
-        <translation>Naam</translation>
-    </message>
-    <message>
-        <source>Value</source>
-        <translation>Waarde</translation>
-    </message>
-</context>
-<context>
     <name>QPSQLDriver</name>
     <message>
         <source>Unable to connect</source>
@@ -2899,38 +3123,32 @@ Wilt u het toch verwijderen?</translation>
     </message>
     <message>
         <source>mm</source>
-        <extracomment>Unit &apos;Millimeter&apos;
-</extracomment>
+        <extracomment>Unit &apos;Millimeter&apos;</extracomment>
         <translation>mm</translation>
     </message>
     <message>
         <source>pt</source>
-        <extracomment>Unit &apos;Points&apos;
-</extracomment>
+        <extracomment>Unit &apos;Points&apos;</extracomment>
         <translation>pt</translation>
     </message>
     <message>
         <source>in</source>
-        <extracomment>Unit &apos;Inch&apos;
-</extracomment>
+        <extracomment>Unit &apos;Inch&apos;</extracomment>
         <translation>in</translation>
     </message>
     <message>
         <source>P̸</source>
-        <extracomment>Unit &apos;Pica&apos;
-</extracomment>
+        <extracomment>Unit &apos;Pica&apos;</extracomment>
         <translation>P̸</translation>
     </message>
     <message>
         <source>DD</source>
-        <extracomment>Unit &apos;Didot&apos;
-</extracomment>
+        <extracomment>Unit &apos;Didot&apos;</extracomment>
         <translation>DD</translation>
     </message>
     <message>
         <source>CC</source>
-        <extracomment>Unit &apos;Cicero&apos;
-</extracomment>
+        <extracomment>Unit &apos;Cicero&apos;</extracomment>
         <translation>CC</translation>
     </message>
 </context>
@@ -2938,44 +3156,37 @@ Wilt u het toch verwijderen?</translation>
     <name>QPageSize</name>
     <message>
         <source>Custom (%1mm x %2mm)</source>
-        <extracomment>Custom size name in millimeters
-</extracomment>
+        <extracomment>Custom size name in millimeters</extracomment>
         <translation>Aangepast (%1mm x %2mm)</translation>
     </message>
     <message>
         <source>Custom (%1pt x %2pt)</source>
-        <extracomment>Custom size name in points
-</extracomment>
+        <extracomment>Custom size name in points</extracomment>
         <translation>Aangepast (%1pt x %2pt)</translation>
     </message>
     <message>
         <source>Custom (%1in x %2in)</source>
-        <extracomment>Custom size name in inches
-</extracomment>
+        <extracomment>Custom size name in inches</extracomment>
         <translation>Aangepast (%1in x %2in)</translation>
     </message>
     <message>
         <source>Custom (%1pc x %2pc)</source>
-        <extracomment>Custom size name in picas
-</extracomment>
+        <extracomment>Custom size name in picas</extracomment>
         <translation>Aangepast (%1pc x %2pc)</translation>
     </message>
     <message>
         <source>Custom (%1DD x %2DD)</source>
-        <extracomment>Custom size name in didots
-</extracomment>
+        <extracomment>Custom size name in didots</extracomment>
         <translation>Aangepast (%1DD x %2DD)</translation>
     </message>
     <message>
         <source>Custom (%1CC x %2CC)</source>
-        <extracomment>Custom size name in ciceros
-</extracomment>
+        <extracomment>Custom size name in ciceros</extracomment>
         <translation>Aangepast (%1CC x %2CC)</translation>
     </message>
     <message>
         <source>%1 x %2 in</source>
-        <extracomment>Page size in &apos;Inch&apos;.
-</extracomment>
+        <extracomment>Page size in &apos;Inch&apos;.</extracomment>
         <translation>%1 x %2 in</translation>
     </message>
     <message>
@@ -3600,6 +3811,14 @@ Wilt u het toch verwijderen?</translation>
         <translation>%1 volgt niet de juiste syntaxis. Gebruik &apos;,&apos; om reeksen en pagina&apos;s te scheiden, &apos;-&apos; om reeksen te definiëren en ga na dat reeksen elkaar niet overlappen.</translation>
     </message>
     <message>
+        <source>Duplex Settings Conflicts</source>
+        <translation>Conflicten in duplex-instellingen</translation>
+    </message>
+    <message>
+        <source>There are conflicts in duplex settings. Do you want to fix them?</source>
+        <translation>Er zijn conflicten in duplex instellingen. Wilt u ze repareren?</translation>
+    </message>
+    <message>
         <source>Print to File (PDF)</source>
         <translation>Naar bestand afdrukken (PDF)</translation>
     </message>
@@ -3646,10 +3865,6 @@ Schakel een van deze opties uit.</translation>
     <message>
         <source>OK</source>
         <translation>OK</translation>
-    </message>
-    <message>
-        <source>Automatic</source>
-        <translation>Automatisch</translation>
     </message>
 </context>
 <context>
@@ -3740,6 +3955,14 @@ Schakel een van deze opties uit.</translation>
     <message>
         <source>Job Options</source>
         <translation>Taakopties</translation>
+    </message>
+    <message>
+        <source>Page Setup Conflicts</source>
+        <translation>Conflicten in pagina-instelling</translation>
+    </message>
+    <message>
+        <source>There are conflicts in page setup options. Do you want to fix them?</source>
+        <translation>Er zijn conflicten in opties voor instellingen van pagina&apos;s. Wilt u ze repareren?</translation>
     </message>
     <message>
         <source>Advanced Option Conflicts</source>
@@ -4035,8 +4258,8 @@ Schakel een van deze opties uit.</translation>
         <translation>ontbrekende afsluitende ] voor tekenklasse</translation>
     </message>
     <message>
-        <source>invalid escape sequence in character class</source>
-        <translation>ongeldige escape-sequence in tekenklasse</translation>
+        <source>escape sequence is invalid in character class</source>
+        <translation>escape-sequence is ongeldig in tekenklasse</translation>
     </message>
     <message>
         <source>range out of order in character class</source>
@@ -4103,28 +4326,28 @@ Schakel een van deze opties uit.</translation>
         <translation>interne fout: code overflow</translation>
     </message>
     <message>
-        <source>letter or underscore expected after (?&lt; or (?&apos;</source>
-        <translation>letter of underscore verwacht na (?&lt; of (?&apos;</translation>
+        <source>missing closing parenthesis for condition</source>
+        <translation>ontbrekend afsluitend haakje voor voorwaarde</translation>
     </message>
     <message>
         <source>lookbehind assertion is not fixed length</source>
         <translation>achterwaartse toekenning heeft geen vaste lengte</translation>
     </message>
     <message>
-        <source>malformed number or name after (?(</source>
-        <translation>onjuist getal of naam na (?(</translation>
+        <source>a relative value of zero is not allowed</source>
+        <translation>een relatieve waarde van nul is niet toegestaan</translation>
     </message>
     <message>
-        <source>conditional group contains more than two branches</source>
-        <translation>groep met voorwaarde bevat meer dan twee aftakkingen</translation>
+        <source>conditional subpattern contains more than two branches</source>
+        <translation>subpatroon met voorwaarde bevat meer dan twee aftakkingen</translation>
     </message>
     <message>
         <source>assertion expected after (?( or (?(?C)</source>
         <translation>toekenning verwacht na (?( of (?(?C)</translation>
     </message>
     <message>
-        <source>(?R or (?[+-]digits must be followed by )</source>
-        <translation>(?R of (?[+-]cijfers moet gevolgd worden door )</translation>
+        <source>digit expected after (?+ or (?-</source>
+        <translation>cijfer verwacht na (?+ of (?-</translation>
     </message>
     <message>
         <source>unknown POSIX class name</source>
@@ -4147,16 +4370,16 @@ Schakel een van deze opties uit.</translation>
         <translation>puntwaarde van tekencode in \x{} of \o{} is te groot</translation>
     </message>
     <message>
-        <source>invalid condition (?(0)</source>
-        <translation>ongeldige voorwaarde (?(0)</translation>
+        <source>lookbehind is too complicated</source>
+        <translation>achterwaarts is te complex</translation>
     </message>
     <message>
-        <source>\C is not allowed in a lookbehind assertion</source>
-        <translation>\C is niet toegestaan in een achterwaartse toekenning</translation>
+        <source>\C is not allowed in a lookbehind assertion in UTF-16 mode</source>
+        <translation>\C is niet toegestaan in een achterwaartse toekenning in UTF-16 modus</translation>
     </message>
     <message>
-        <source>PCRE does not support \L, \l, \N{name}, \U, or \u</source>
-        <translation>PCRE wordt ondersteunt niet \L, \l, \N{name}, \U of \u</translation>
+        <source>PCRE2 does not support \F, \L, \l, \N{name}, \U, or \u</source>
+        <translation>PCRE2 wordt ondersteunt niet \F, \L, \l, \N{name}, \U of \u</translation>
     </message>
     <message>
         <source>number after (?C is greater than 255</source>
@@ -4175,16 +4398,16 @@ Schakel een van deze opties uit.</translation>
         <translation>niet herkend teken na (?P</translation>
     </message>
     <message>
-        <source>syntax error in subpattern name (missing terminator)</source>
-        <translation>Syntaxisfout in naam van subpatroon (ontbrekende afsluiter)</translation>
+        <source>syntax error in subpattern name (missing terminator?)</source>
+        <translation>Syntaxisfout in naam van subpatroon (ontbrekende afsluiter?)</translation>
     </message>
     <message>
         <source>two named subpatterns have the same name (PCRE2_DUPNAMES not set)</source>
         <translation>twee genaamde subpatronen hebben dezelfde naam (PCRE2_DUPNAMES is niet ingesteld)</translation>
     </message>
     <message>
-        <source>group name must start with a non-digit</source>
-        <translation>groepsnaam moet beginnen met een niet-cijfer</translation>
+        <source>subpattern name must start with a non-digit</source>
+        <translation>subpatroonnaam moet beginnen met een niet-cijfer</translation>
     </message>
     <message>
         <source>this version of PCRE2 does not have support for \P, \p, or \X</source>
@@ -4199,12 +4422,12 @@ Schakel een van deze opties uit.</translation>
         <translation>Onbekende eigenschapsnaam na \P of \p</translation>
     </message>
     <message>
-        <source>subpattern name is too long (maximum 10000 characters)</source>
-        <translation>subpatroonnaam is te lang (maximum 10000 tekens)</translation>
+        <source>subpattern name is too long (maximum 32 code units)</source>
+        <translation>subpatroonnaam is te lang (maximum 32 code-eenheden)</translation>
     </message>
     <message>
-        <source>too many named subpatterns (maximum 256)</source>
-        <translation>te veel subpatronen met naam (maximum 256)</translation>
+        <source>too many named subpatterns (maximum 10000)</source>
+        <translation>te veel subpatronen met naam (maximum 10000)</translation>
     </message>
     <message>
         <source>invalid range in character class</source>
@@ -4223,8 +4446,8 @@ Schakel een van deze opties uit.</translation>
         <translation>Interne fout: eerder gecontroleerd verwezen subpatroon  niet gevonden</translation>
     </message>
     <message>
-        <source>DEFINE group contains more than one branch</source>
-        <translation>DEFINE-groep bevat meer dan één vertakking</translation>
+        <source>DEFINE subpattern contains more than one branch</source>
+        <translation>DEFINE-subpatroon bevat meer dan één vertakking</translation>
     </message>
     <message>
         <source>missing opening brace after \o</source>
@@ -4239,28 +4462,28 @@ Schakel een van deze opties uit.</translation>
         <translation>\g wordt niet gevolgd door een van accolades, van groter-dan/kleiner-dan tekens of van accenten voorziene naam/getal of gewoon door een getal</translation>
     </message>
     <message>
-        <source>a numbered reference must not be zero</source>
-        <translation>een genummerde verwijzing mag niet nul zijn</translation>
+        <source>(?R (recursive pattern call) must be followed by a closing parenthesis</source>
+        <translation>(?R (recursieve patroon aanroep) moet gevolgd worden door een sluithaak</translation>
     </message>
     <message>
-        <source>an argument is not allowed for (*ACCEPT), (*FAIL), or (*COMMIT)</source>
-        <translation>een argument is niet toegestaan voor (*ACCEPT), (*FAIL) of (*COMMIT)</translation>
+        <source>obsolete error (should not occur)</source>
+        <translation>afkeurfout (zou niet moeten gebeuren)</translation>
     </message>
     <message>
         <source>(*VERB) not recognized or malformed</source>
         <translation>(*VERB) niet herkend of misvormd</translation>
     </message>
     <message>
-        <source>number is too big</source>
-        <translation>getal is te groot</translation>
+        <source>subpattern number is too big</source>
+        <translation>subpatroongetal is te groot</translation>
     </message>
     <message>
         <source>subpattern name expected</source>
         <translation>subpatroonnaam verwacht</translation>
     </message>
     <message>
-        <source>digit expected after (?+</source>
-        <translation>cijfer verwacht na (?+</translation>
+        <source>internal error: parsed pattern overflow</source>
+        <translation>interne fout: overflow in ontleed patroon</translation>
     </message>
     <message>
         <source>non-octal character in \o{} (closing brace missing?)</source>
@@ -4291,16 +4514,16 @@ Schakel een van deze opties uit.</translation>
         <translation>\k wordt niet gevolgd door een naam  voorzien van accolades, groter-dan/kleiner-dan tekens of accenten</translation>
     </message>
     <message>
-        <source>internal error: unknown opcode in find_fixedlength()</source>
-        <translation>interne fout: onbekende operatiecode in find_fixedlength()</translation>
+        <source>internal error: unknown meta code in check_lookbehinds()</source>
+        <translation>interne fout: onbekende metacode in check_lookbehinds()</translation>
     </message>
     <message>
         <source>\N is not supported in a class</source>
         <translation>\N wordt niet ondersteund in een klasse</translation>
     </message>
     <message>
-        <source>SPARE ERROR</source>
-        <translation>SPARE ERROR</translation>
+        <source>callout string is too long</source>
+        <translation>callout tekenreeks is te lang</translation>
     </message>
     <message>
         <source>disallowed Unicode code point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</source>
@@ -4323,12 +4546,12 @@ Schakel een van deze opties uit.</translation>
         <translation>puntwaarde van tekencode in \u tekenreeks is te groot</translation>
     </message>
     <message>
-        <source>digits missing in \x{} or \o{}</source>
-        <translation>cijfers ontbreken in \x{} of \o{}</translation>
+        <source>digits missing in \x{} or \o{} or \N{U+}</source>
+        <translation>cijfers ontbreken in \x{} of \o{} of \N{U+}</translation>
     </message>
     <message>
-        <source>syntax error in (?(VERSION condition</source>
-        <translation>syntaxisfout in (?(VERSION voorwaarde</translation>
+        <source>syntax error or number too big in (?(VERSION condition</source>
+        <translation>syntaxisfout of getal te groot in (?(VERSION voorwaarde</translation>
     </message>
     <message>
         <source>internal error: unknown opcode in auto_possessify()</source>
@@ -4365,6 +4588,46 @@ Schakel een van deze opties uit.</translation>
     <message>
         <source>pattern string is longer than the limit set by the application</source>
         <translation>patroontekenreeks is langer dan de limiet ingesteld door de toepassing</translation>
+    </message>
+    <message>
+        <source>internal error: unknown code in parsed pattern</source>
+        <translation>interne fout: onbekende code in ontleed patroon</translation>
+    </message>
+    <message>
+        <source>internal error: bad code value in parsed_skip()</source>
+        <translation>interne fout: verkeerde waarde van code in parsed_skip()</translation>
+    </message>
+    <message>
+        <source>PCRE2_EXTRA_ALLOW_SURROGATE_ESCAPES is not allowed in UTF-16 mode</source>
+        <translation>PCRE2_EXTRA_ALLOW_SURROGATE_ESCAPES is niet toegestaan in modus UTF-16</translation>
+    </message>
+    <message>
+        <source>invalid option bits with PCRE2_LITERAL</source>
+        <translation>ongeldige optie-bits met PCRE2_LITERAL</translation>
+    </message>
+    <message>
+        <source>\N{U+dddd} is supported only in Unicode (UTF) mode</source>
+        <translation>\N{U+dddd} wordt alleen ondersteund in modus Unicode (UTF)</translation>
+    </message>
+    <message>
+        <source>invalid hyphen in option setting</source>
+        <translation>ongeldige minteken in optie voor instelling</translation>
+    </message>
+    <message>
+        <source>(*alpha_assertion) not recognized</source>
+        <translation>(*alpha_assertion) niet herkend</translation>
+    </message>
+    <message>
+        <source>script runs require Unicode support, which this version of PCRE2 does not have</source>
+        <translation>uitvoeren van script vereist ondersteuning van Unicode, wat deze versie van PCRE2 niet heeft</translation>
+    </message>
+    <message>
+        <source>too many capturing groups (maximum 65535)</source>
+        <translation>teveel vanggroepen (maximum 65535)</translation>
+    </message>
+    <message>
+        <source>atomic assertion expected after (?( or (?(?C)</source>
+        <translation>atomische toekenning verwacht na (?( of (?(?C)</translation>
     </message>
     <message>
         <source>no match</source>
@@ -4575,8 +4838,8 @@ Schakel een van deze opties uit.</translation>
         <translation>geneste recursie op dezelfde onderwerppositie</translation>
     </message>
     <message>
-        <source>recursion limit exceeded</source>
-        <translation>limiet van recursie overschreden</translation>
+        <source>matching depth limit exceeded</source>
+        <translation>limiet van overeenkomstdiepte overschreden</translation>
     </message>
     <message>
         <source>requested value is not available</source>
@@ -4603,12 +4866,68 @@ Schakel een van deze opties uit.</translation>
         <translation>foute substitutie in tekenreeks voor vervanging</translation>
     </message>
     <message>
-        <source>match with end before start is not supported</source>
-        <translation>overeenkomst met einde voor het begin wordt niet ondersteund</translation>
+        <source>match with end before start or start moved backwards is not supported</source>
+        <translation>overeenkomst met einde voor het begin of begin achterwaarts verplaatst wordt niet ondersteund</translation>
     </message>
     <message>
         <source>too many replacements (more than INT_MAX)</source>
         <translation>te veel vervangingen (meer dan INT_MAX)</translation>
+    </message>
+    <message>
+        <source>bad serialized data</source>
+        <translation>onjuiste geserialiseerde gegevens</translation>
+    </message>
+    <message>
+        <source>heap limit exceeded</source>
+        <translation>limiet van heap overschreden</translation>
+    </message>
+    <message>
+        <source>invalid syntax</source>
+        <translation>ongeldige syntaxis</translation>
+    </message>
+    <message>
+        <source>internal error - duplicate substitution match</source>
+        <translation>interne fout - dubbele substitutieovereenkomst</translation>
+    </message>
+    <message>
+        <source>PCRE2_MATCH_INVALID_UTF is not supported for DFA matching</source>
+        <translation>PCRE2_MATCH_INVALID_UTF wordt niet ondersteund voor DFA overeenkomst</translation>
+    </message>
+    <message>
+        <source>letter or underscore expected after (?&lt; or (?&apos;</source>
+        <translation type="vanished">letter of underscore verwacht na (?&lt; of (?&apos;</translation>
+    </message>
+    <message>
+        <source>malformed number or name after (?(</source>
+        <translation type="vanished">onjuist getal of naam na (?(</translation>
+    </message>
+    <message>
+        <source>(?R or (?[+-]digits must be followed by )</source>
+        <translation type="vanished">(?R of (?[+-]cijfers moet gevolgd worden door )</translation>
+    </message>
+    <message>
+        <source>invalid condition (?(0)</source>
+        <translation type="vanished">ongeldige voorwaarde (?(0)</translation>
+    </message>
+    <message>
+        <source>a numbered reference must not be zero</source>
+        <translation type="vanished">een genummerde verwijzing mag niet nul zijn</translation>
+    </message>
+    <message>
+        <source>an argument is not allowed for (*ACCEPT), (*FAIL), or (*COMMIT)</source>
+        <translation type="vanished">een argument is niet toegestaan voor (*ACCEPT), (*FAIL) of (*COMMIT)</translation>
+    </message>
+    <message>
+        <source>internal error: unknown opcode in find_fixedlength()</source>
+        <translation type="vanished">interne fout: onbekende operatiecode in find_fixedlength()</translation>
+    </message>
+    <message>
+        <source>SPARE ERROR</source>
+        <translation type="vanished">SPARE ERROR</translation>
+    </message>
+    <message>
+        <source>recursion limit exceeded</source>
+        <translation type="vanished">limiet van recursie overschreden</translation>
     </message>
     <message>
         <source>missing )</source>
@@ -4710,8 +5029,8 @@ Schakel een van deze opties uit.</translation>
         <translation>Bestandsnaam wijst naar een map</translation>
     </message>
     <message>
-        <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled: path contains an Alternate Data Stream specifier</source>
-        <translation>QSaveFile kan &apos;%1&apos; niet openen zonder directe terugval bij schrijven ingeschakeld: pad bevat een alternerende specifier voor een gegevensstroom</translation>
+        <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled.</source>
+        <translation>QSaveFile kan &apos;%1&apos; niet openen zonder directe terugval bij schrijven ingeschakeld.</translation>
     </message>
     <message>
         <source>Writing canceled by application</source>
@@ -4863,8 +5182,7 @@ Schakel een van deze opties uit.</translation>
     <name>QShortcut</name>
     <message>
         <source>Space</source>
-        <extracomment>This and all following &quot;incomprehensible&quot; strings in QShortcut context are key names. Please use the localized names appearing on actual keyboards or whatever is commonly used.
-</extracomment>
+        <extracomment>This and all following &quot;incomprehensible&quot; strings in QShortcut context are key names. Please use the localized names appearing on actual keyboards or whatever is commonly used.</extracomment>
         <translation>Spatiebalk</translation>
     </message>
     <message>
@@ -5033,14 +5351,12 @@ Schakel een van deze opties uit.</translation>
     </message>
     <message>
         <source>Media Pause</source>
-        <extracomment>Media player pause button
-</extracomment>
+        <extracomment>Media player pause button</extracomment>
         <translation>Media pauzeren</translation>
     </message>
     <message>
         <source>Toggle Media Play/Pause</source>
-        <extracomment>Media player button to toggle between playing and paused
-</extracomment>
+        <extracomment>Media player button to toggle between playing and paused</extracomment>
         <translation>Media afspelen/pauzeren omschakelen</translation>
     </message>
     <message>
@@ -5134,6 +5450,14 @@ Schakel een van deze opties uit.</translation>
     <message>
         <source>Launch (F)</source>
         <translation>(F) opstarten</translation>
+    </message>
+    <message>
+        <source>Launch (G)</source>
+        <translation>Opstarten (G)</translation>
+    </message>
+    <message>
+        <source>Launch (H)</source>
+        <translation>Opstarten (H)</translation>
     </message>
     <message>
         <source>Monitor Brightness Up</source>
@@ -5240,6 +5564,10 @@ Schakel een van deze opties uit.</translation>
         <translation>Rekenmachine</translation>
     </message>
     <message>
+        <source>Calendar</source>
+        <translation>Agenda</translation>
+    </message>
+    <message>
         <source>Clear</source>
         <translation>Wissen</translation>
     </message>
@@ -5250,6 +5578,10 @@ Schakel een van deze opties uit.</translation>
     <message>
         <source>Close</source>
         <translation>Sluiten</translation>
+    </message>
+    <message>
+        <source>Adjust contrast</source>
+        <translation>Contrast aanpassen</translation>
     </message>
     <message>
         <source>Copy</source>
@@ -5302,6 +5634,10 @@ Schakel een van deze opties uit.</translation>
     <message>
         <source>Meeting</source>
         <translation>Vergadering</translation>
+    </message>
+    <message>
+        <source>Memo</source>
+        <translation>Memo</translation>
     </message>
     <message>
         <source>Keyboard Menu</source>
@@ -5382,6 +5718,10 @@ Schakel een van deze opties uit.</translation>
     <message>
         <source>Terminal</source>
         <translation>Terminal</translation>
+    </message>
+    <message>
+        <source>To-do list</source>
+        <translation>Takenlijst</translation>
     </message>
     <message>
         <source>Tools</source>
@@ -5637,20 +5977,17 @@ Schakel een van deze opties uit.</translation>
     </message>
     <message>
         <source>Call</source>
-        <extracomment>Button to start a call (note: a separate button is used to end the call)
-</extracomment>
+        <extracomment>Button to start a call (note: a separate button is used to end the call)</extracomment>
         <translation>Oproep</translation>
     </message>
     <message>
         <source>Hangup</source>
-        <extracomment>Button to end a call (note: a separate button is used to start the call)
-</extracomment>
+        <extracomment>Button to end a call (note: a separate button is used to start the call)</extracomment>
         <translation>Ophangen</translation>
     </message>
     <message>
         <source>Toggle Call/Hangup</source>
-        <extracomment>Button that will hang up if we&apos;re in call, or make a call if we&apos;re not.
-</extracomment>
+        <extracomment>Button that will hang up if we&apos;re in call, or make a call if we&apos;re not.</extracomment>
         <translation>Omschakelen opbellen/ophangen</translation>
     </message>
     <message>
@@ -5659,26 +5996,22 @@ Schakel een van deze opties uit.</translation>
     </message>
     <message>
         <source>Voice Dial</source>
-        <extracomment>Button to trigger voice dialing
-</extracomment>
+        <extracomment>Button to trigger voice dialing</extracomment>
         <translation>Stemkiezen</translation>
     </message>
     <message>
         <source>Last Number Redial</source>
-        <extracomment>Button to redial the last number called
-</extracomment>
+        <extracomment>Button to redial the last number called</extracomment>
         <translation>Laatste nummer opnieuw kiezen</translation>
     </message>
     <message>
         <source>Camera Shutter</source>
-        <extracomment>Button to trigger the camera shutter (take a picture)
-</extracomment>
+        <extracomment>Button to trigger the camera shutter (take a picture)</extracomment>
         <translation>Camerasluiter</translation>
     </message>
     <message>
         <source>Camera Focus</source>
-        <extracomment>Button to focus the camera
-</extracomment>
+        <extracomment>Button to focus the camera</extracomment>
         <translation>Scherpstellen camera</translation>
     </message>
     <message>
@@ -5859,6 +6192,7 @@ Schakel een van deze opties uit.</translation>
     </message>
     <message>
         <source>+</source>
+        <extracomment>Key separator in shortcut string</extracomment>
         <translation>+</translation>
     </message>
     <message>
@@ -5937,430 +6271,372 @@ Schakel een van deze opties uit.</translation>
     <name>QSpiAccessibleBridge</name>
     <message>
         <source>invalid role</source>
-        <extracomment>Role of an accessible object - the object is in an invalid state or could not be constructed
-</extracomment>
+        <extracomment>Role of an accessible object - the object is in an invalid state or could not be constructed</extracomment>
         <translation>ongeldig rol</translation>
     </message>
     <message>
         <source>title bar</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>titelbalk</translation>
     </message>
     <message>
         <source>menu bar</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>menubalk</translation>
     </message>
     <message>
         <source>scroll bar</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>schuifbalk</translation>
     </message>
     <message>
         <source>grip</source>
-        <extracomment>Role of an accessible object - the grip is usually used for resizing another object
-</extracomment>
+        <extracomment>Role of an accessible object - the grip is usually used for resizing another object</extracomment>
         <translation>greep</translation>
     </message>
     <message>
         <source>sound</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>geluid</translation>
     </message>
     <message>
         <source>cursor</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>cursor</translation>
     </message>
     <message>
         <source>text caret</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>tekstdakje</translation>
     </message>
     <message>
         <source>alert message</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>waarschuwingsbericht</translation>
     </message>
     <message>
         <source>frame</source>
-        <extracomment>Role of an accessible object: a window with frame and title
-----------
-Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object: a window with frame and title----------Role of an accessible object</extracomment>
         <translation>frame</translation>
     </message>
     <message>
         <source>filler</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>vulling</translation>
     </message>
     <message>
         <source>popup menu</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>pop-upmenu</translation>
     </message>
     <message>
         <source>menu item</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>menu-item</translation>
     </message>
     <message>
         <source>tool tip</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>tekstballon</translation>
     </message>
     <message>
         <source>application</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>toepassing</translation>
     </message>
     <message>
         <source>document</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>document</translation>
     </message>
     <message>
         <source>panel</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>paneel</translation>
     </message>
     <message>
         <source>chart</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>grafiek</translation>
     </message>
     <message>
         <source>dialog</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>dialoog</translation>
     </message>
     <message>
         <source>separator</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>scheiding</translation>
     </message>
     <message>
         <source>tool bar</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>werkbalk</translation>
     </message>
     <message>
         <source>status bar</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>statusbalk</translation>
     </message>
     <message>
         <source>table</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>tabel</translation>
     </message>
     <message>
         <source>column header</source>
-        <extracomment>Role of an accessible object - part of a table
-</extracomment>
+        <extracomment>Role of an accessible object - part of a table</extracomment>
         <translation>kolomkop</translation>
     </message>
     <message>
         <source>row header</source>
-        <extracomment>Role of an accessible object - part of a table
-</extracomment>
+        <extracomment>Role of an accessible object - part of a table</extracomment>
         <translation>rijkop</translation>
     </message>
     <message>
         <source>column</source>
-        <extracomment>Role of an accessible object - part of a table
-</extracomment>
+        <extracomment>Role of an accessible object - part of a table</extracomment>
         <translation>kolom</translation>
     </message>
     <message>
         <source>row</source>
-        <extracomment>Role of an accessible object - part of a table
-</extracomment>
+        <extracomment>Role of an accessible object - part of a table</extracomment>
         <translation>rij</translation>
     </message>
     <message>
         <source>cell</source>
-        <extracomment>Role of an accessible object - part of a table
-</extracomment>
+        <extracomment>Role of an accessible object - part of a table</extracomment>
         <translation>cel</translation>
     </message>
     <message>
         <source>link</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>koppeling</translation>
     </message>
     <message>
         <source>help balloon</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>hulpballon</translation>
     </message>
     <message>
         <source>assistant</source>
-        <extracomment>Role of an accessible object - a helper dialog
-</extracomment>
+        <extracomment>Role of an accessible object - a helper dialog</extracomment>
         <translation>assistent</translation>
     </message>
     <message>
         <source>list</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>lijst</translation>
     </message>
     <message>
         <source>list item</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>item in lijst</translation>
     </message>
     <message>
         <source>tree</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>boomstructuur</translation>
     </message>
     <message>
         <source>tree item</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>item in boomstructuur</translation>
     </message>
     <message>
         <source>page tab</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>paginatabblad</translation>
     </message>
     <message>
         <source>property page</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>pagina met eigenschap</translation>
     </message>
     <message>
         <source>indicator</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>indicator</translation>
     </message>
     <message>
         <source>graphic</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>grafisch element</translation>
     </message>
     <message>
         <source>label</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>label</translation>
     </message>
     <message>
         <source>text</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>tekst</translation>
     </message>
     <message>
         <source>push button</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>drukknop</translation>
     </message>
     <message>
         <source>check box</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>keuzevakje</translation>
     </message>
     <message>
         <source>radio button</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>keuzerondje</translation>
     </message>
     <message>
         <source>combo box</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>keuzelijst</translation>
     </message>
     <message>
         <source>progress bar</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>voortgangsbalk</translation>
     </message>
     <message>
         <source>dial</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>kiezen</translation>
     </message>
     <message>
         <source>hotkey field</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>veld met sneltoets</translation>
     </message>
     <message>
         <source>slider</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>schuifregelaar</translation>
     </message>
     <message>
         <source>spin box</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>draaiveld</translation>
     </message>
     <message>
         <source>canvas</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>werkveld</translation>
     </message>
     <message>
         <source>animation</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>animatie</translation>
     </message>
     <message>
         <source>equation</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>vergelijking</translation>
     </message>
     <message>
         <source>button with drop down</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>knop met keuzelijst</translation>
     </message>
     <message>
         <source>button menu</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>menu met knoppen</translation>
     </message>
     <message>
         <source>button with drop down grid</source>
-        <extracomment>Role of an accessible object - a button that expands a grid.
-</extracomment>
+        <extracomment>Role of an accessible object - a button that expands a grid.</extracomment>
         <translation>knop met keuzelijstraster</translation>
     </message>
     <message>
         <source>space</source>
-        <extracomment>Role of an accessible object - blank space between other objects.
-</extracomment>
+        <extracomment>Role of an accessible object - blank space between other objects.</extracomment>
         <translation>spatie</translation>
     </message>
     <message>
         <source>page tab list</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>lijst met paginatabbladen</translation>
     </message>
     <message>
         <source>clock</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>klok</translation>
     </message>
     <message>
         <source>splitter</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>splitter</translation>
     </message>
     <message>
         <source>layered pane</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>gelaagd paneel</translation>
     </message>
     <message>
         <source>web document</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>webdocument</translation>
     </message>
     <message>
         <source>paragraph</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>alinea</translation>
     </message>
     <message>
         <source>section</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>sectie</translation>
     </message>
     <message>
         <source>color chooser</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>kleurenkiezer</translation>
     </message>
     <message>
         <source>footer</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>voettekst</translation>
     </message>
     <message>
         <source>form</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>formulier</translation>
     </message>
     <message>
         <source>heading</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>kop</translation>
     </message>
     <message>
         <source>note</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>notitie</translation>
     </message>
     <message>
         <source>complementary content</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>complementaire inhoud</translation>
     </message>
     <message>
+        <source>terminal</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>terminal</translation>
+    </message>
+    <message>
+        <source>desktop</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>bureaublad</translation>
+    </message>
+    <message>
+        <source>notification</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>melding</translation>
+    </message>
+    <message>
         <source>unknown</source>
-        <extracomment>Role of an accessible object
-</extracomment>
+        <extracomment>Role of an accessible object</extracomment>
         <translation>onbekend</translation>
     </message>
     <message>
@@ -6466,6 +6742,10 @@ Role of an accessible object
         <translation>OpenSSL versie met uitgeschakelde elliptische krommen</translation>
     </message>
     <message>
+        <source>DTLS server requires a &apos;VerifyNone&apos; mode with your version of OpenSSL</source>
+        <translation>DTLS-server vereist een modus &apos;VerifyNone&apos; met uw versie van OpenSSL</translation>
+    </message>
+    <message>
         <source>No error</source>
         <translation>Geen fout</translation>
     </message>
@@ -6558,8 +6838,60 @@ Role of an accessible object
         <translation>Het certificaat aan de andere kant staat op de zwarte lijst</translation>
     </message>
     <message>
+        <source>No OCSP status response found</source>
+        <translation>Geen OCSP statusantwoord gevonden</translation>
+    </message>
+    <message>
+        <source>The OCSP status request had invalid syntax</source>
+        <translation>Het OCSP statusverzoek had een ongeldige syntaxis</translation>
+    </message>
+    <message>
+        <source>OCSP response contains an unexpected number of SingleResponse structures</source>
+        <translation>OCSP antwoord bevat een onverwacht aantal SingleResponse structuren</translation>
+    </message>
+    <message>
+        <source>OCSP responder reached an inconsistent internal state</source>
+        <translation>OCSP responder bereikte een inconsistente interne status</translation>
+    </message>
+    <message>
+        <source>OCSP responder was unable to return a status for the requested certificate</source>
+        <translation>OCSP responder was niet in staat om een status voor het gevraagde certificaat terug te geven</translation>
+    </message>
+    <message>
+        <source>The server requires the client to sign the OCSP request in order to construct a response</source>
+        <translation>De server vereist van de client om het OCSP verzoek te ondertekenen om een antwoord te maken</translation>
+    </message>
+    <message>
+        <source>The client is not authorized to request OCSP status from this server</source>
+        <translation>De client heeft geen permissie om de OCSP status van de server te vragen</translation>
+    </message>
+    <message>
+        <source>OCSP responder&apos;s identity cannot be verified</source>
+        <translation>Identiteit van OCSP responder kan niet geverifieerd worden</translation>
+    </message>
+    <message>
+        <source>The identity of a certificate in an OCSP response cannot be established</source>
+        <translation>De identiteit van een certificaat in een OCSP antwoord kan niet bepaald worden</translation>
+    </message>
+    <message>
+        <source>The certificate status response has expired</source>
+        <translation>Het statusantwoord van het certificaat is verlopen</translation>
+    </message>
+    <message>
+        <source>The certificate&apos;s status is unknown</source>
+        <translation>De certificaatstatus is onbekend</translation>
+    </message>
+    <message>
         <source>Unknown error</source>
         <translation>Onbekende fout</translation>
+    </message>
+    <message>
+        <source>TLS initialization failed</source>
+        <translation>Initialisatie van TLS is mislukt</translation>
+    </message>
+    <message>
+        <source>Attempted to use an unsupported protocol.</source>
+        <translation>Poging een niet ondersteund protocol te gebruiken.</translation>
     </message>
     <message>
         <source>The TLS/SSL connection has been closed</source>
@@ -6572,6 +6904,18 @@ Role of an accessible object
     <message>
         <source>Error creating SSL session: %1</source>
         <translation>Fout bij aanmaken van SSL-sessie: %1</translation>
+    </message>
+    <message>
+        <source>Server-side QSslSocket does not support OCSP stapling</source>
+        <translation>QSslSocket aan de kant van de server ondersteunt geen OCSP vastklikken</translation>
+    </message>
+    <message>
+        <source>Failed to enable OCSP stapling</source>
+        <translation>Inschakelen van OCSP vastklikken is mislukt</translation>
+    </message>
+    <message>
+        <source>Client-side sockets do not send OCSP responses</source>
+        <translation>Sockets aan de kant van de client verzenden geen OCSP antwoorden</translation>
     </message>
     <message>
         <source>Unable to init SSL Context: %1</source>
@@ -6592,6 +6936,146 @@ Role of an accessible object
     <message>
         <source>Error during SSL handshake: %1</source>
         <translation>Fout bij SSL-handdruk: %1</translation>
+    </message>
+    <message>
+        <source>Failed to decode OCSP response</source>
+        <translation>Decoderen van OCSP antwoord is mislukt</translation>
+    </message>
+    <message>
+        <source>Failed to extract basic OCSP response</source>
+        <translation>Basis OCSP antwoord uitpakken is mislukt</translation>
+    </message>
+    <message>
+        <source>No certificate verification store, cannot verify OCSP response</source>
+        <translation>Geen opslag voor verificatie van certificaten, kan OCSP antwoord niet verifiëren</translation>
+    </message>
+    <message>
+        <source>Failed to decode a SingleResponse from OCSP status response</source>
+        <translation>Decoderen van een SingleResponse uit OCSP statusantwoord is mislukt</translation>
+    </message>
+    <message>
+        <source>Failed to extract &apos;this update time&apos; from the SingleResponse</source>
+        <translation>Uitpakken van &apos;this update time&apos; uit de SingleResponse is mislukt</translation>
+    </message>
+    <message>
+        <source>Insufficient memory</source>
+        <translation>Onvoldoende geheugen</translation>
+    </message>
+    <message>
+        <source>Internal error</source>
+        <translation>Interne fout</translation>
+    </message>
+    <message>
+        <source>An internal handle was invalid</source>
+        <translation>Een interne hendel was ongeldig</translation>
+    </message>
+    <message>
+        <source>An internal token was invalid</source>
+        <translation>Een intern token was ongeldig</translation>
+    </message>
+    <message>
+        <source>Access denied</source>
+        <translation>Toegang geweigerd</translation>
+    </message>
+    <message>
+        <source>No authority could be contacted for authorization</source>
+        <translation>Contact met een autoriteit is mislukt voor autorisatie</translation>
+    </message>
+    <message>
+        <source>No credentials</source>
+        <translation>Geen credentials</translation>
+    </message>
+    <message>
+        <source>The target is unknown or unreachable</source>
+        <translation>Het doel is onbekend of onbereikbaar</translation>
+    </message>
+    <message>
+        <source>An unsupported function was requested</source>
+        <translation>Een niet-ondersteunde functie werd gevraagd</translation>
+    </message>
+    <message>
+        <source>The hostname provided does not match the one received from the peer</source>
+        <translation>De geleverde hostname komt niet overeen met die ontvangen van de andere kant</translation>
+    </message>
+    <message>
+        <source>No common protocol exists between the client and the server</source>
+        <translation>Er bestaat geen gemeenschappelijk protocol tussen de client en de server</translation>
+    </message>
+    <message>
+        <source>Unexpected or badly-formatted message received</source>
+        <translation>Onverwacht of slecht geformatteerd bericht ontvangen</translation>
+    </message>
+    <message>
+        <source>The data could not be encrypted</source>
+        <translation>De gegevens konden niet worden versleuteld</translation>
+    </message>
+    <message>
+        <source>No cipher suites in common</source>
+        <translation>Geen gemeenschappelijke cipher-suites</translation>
+    </message>
+    <message>
+        <source>The credentials were not recognized / Invalid argument</source>
+        <translation>De credentials zijn niet herkend / ongeldig argument</translation>
+    </message>
+    <message>
+        <source>The message was tampered with, damaged or out of sequence.</source>
+        <translation>Met het bericht was geknoeid, beschadigd of niet in volgorde.</translation>
+    </message>
+    <message>
+        <source>A message was received out of sequence.</source>
+        <translation>Er is een bericht niet in volgorde ontvangen.</translation>
+    </message>
+    <message>
+        <source>Unknown error occurred: %1</source>
+        <translation>Er deed zich een onbekende fout voor: %1</translation>
+    </message>
+    <message>
+        <source>Invalid protocol chosen</source>
+        <translation>Ongeldig protocol gekozen</translation>
+    </message>
+    <message>
+        <source>The certificate provided cannot be used for a client.</source>
+        <translation>Het geleverde certificaat kan niet gebruikt worden voor een client.</translation>
+    </message>
+    <message>
+        <source>The certificate provided cannot be used for a server.</source>
+        <translation>Het geleverde certificaat kan niet gebruikt worden voor een server.</translation>
+    </message>
+    <message>
+        <source>Server did not accept any certificate we could present.</source>
+        <translation>De server accepteerde geen enkel certificaat dat we konden presenteren.</translation>
+    </message>
+    <message>
+        <source>Algorithm mismatch</source>
+        <translation>Verkeerde algoritmische overeenkomst</translation>
+    </message>
+    <message>
+        <source>Handshake failed: %1</source>
+        <translation>Handdruk is mislukt: %1</translation>
+    </message>
+    <message>
+        <source>Failed to query the TLS context: %1</source>
+        <translation>De TLS context bevragen is mislukt: %1</translation>
+    </message>
+    <message>
+        <source>Did not get the required attributes for the connection.</source>
+        <translation>Kreeg niet de vereiste attributen voor de verbinding.</translation>
+    </message>
+    <message>
+        <source>Unwanted protocol was negotiated</source>
+        <translation>Ongewenst protocol was onderhandeld</translation>
+    </message>
+    <message>
+        <source>Renegotiation was unsuccessful: %1</source>
+        <translation>Opnieuw onderhandelen was zonder succes: %1</translation>
+    </message>
+    <message>
+        <source>Schannel failed to encrypt data: %1</source>
+        <translation>Kanaal kon gegevens niet versleutelen: %1</translation>
+    </message>
+    <message>
+        <source>Cannot provide a certificate with no key</source>
+        <translation>Kan zonder sleutel geen certificaat aanmaken</translation>
     </message>
 </context>
 <context>
@@ -6684,6 +7168,10 @@ Role of an accessible object
         <translation>Geen gemeenschappelijke voorouder voor doel en bron voor overgang van status &apos;%1&apos;</translation>
     </message>
     <message>
+        <source>Child mode of state machine &apos;%1&apos; is not &apos;ExclusiveStates&apos;.</source>
+        <translation>Kindmodus van statusmachine &apos;%1&apos; is niet &apos;ExclusiveStates&apos;.</translation>
+    </message>
+    <message>
         <source>Unknown error</source>
         <translation>Onbekende fout</translation>
     </message>
@@ -6765,6 +7253,10 @@ Role of an accessible object
     <message>
         <source>Image depth not valid</source>
         <translation>Diepte van afbeelding niet geldig</translation>
+    </message>
+    <message>
+        <source>Image size exceeds limit</source>
+        <translation>Afbeeldingsgrootte is boven de limiet</translation>
     </message>
     <message>
         <source>Could not seek to image read footer</source>
@@ -7189,29 +7681,25 @@ De minimale Direct2D vereiste versie is %1. De versie van Direct2D op dit systee
     <message>
         <source>&apos;%1&apos;</source>
         <comment>expected</comment>
-        <extracomment>&apos;&lt;first option&gt;&apos;
-</extracomment>
+        <extracomment>&apos;&lt;first option&gt;&apos;</extracomment>
         <translation>&apos;%1&apos;</translation>
     </message>
     <message>
         <source>%1 or &apos;%2&apos;</source>
         <comment>expected</comment>
-        <extracomment>&lt;first option&gt;, &apos;&lt;second option&gt;&apos;
-</extracomment>
+        <extracomment>&lt;first option&gt;, &apos;&lt;second option&gt;&apos;</extracomment>
         <translation>%1 of &apos;%2&apos;</translation>
     </message>
     <message>
         <source>%1, &apos;%2&apos;</source>
         <comment>expected</comment>
-        <extracomment>&lt;options so far&gt;, &apos;&lt;next option&gt;&apos;
-</extracomment>
+        <extracomment>&lt;options so far&gt;, &apos;&lt;next option&gt;&apos;</extracomment>
         <translation>%1, &apos;%2&apos;</translation>
     </message>
     <message>
         <source>%1, or &apos;%2&apos;</source>
         <comment>expected</comment>
-        <extracomment>&lt;options so far&gt;, or &apos;&lt;final option&gt;&apos;
-</extracomment>
+        <extracomment>&lt;options so far&gt;, or &apos;&lt;final option&gt;&apos;</extracomment>
         <translation>%1, of &apos;%2&apos;</translation>
     </message>
     <message>
@@ -7285,6 +7773,17 @@ De minimale Direct2D vereiste versie is %1. De versie van Direct2D op dit systee
     <message>
         <source>, but got &apos;</source>
         <translation type="vanished">, maar ontving &apos;</translation>
+    </message>
+</context>
+<context>
+    <name>QPPDOptionsModel</name>
+    <message>
+        <source>Name</source>
+        <translation type="vanished">Naam</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation type="vanished">Waarde</translation>
     </message>
 </context>
 <context>

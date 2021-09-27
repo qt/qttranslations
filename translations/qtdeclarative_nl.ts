@@ -5,25 +5,13 @@
     <extra-po-header-language_team>Dutch &lt;kde-i18n-nl@kde.org&gt;</extra-po-header-language_team>
     <extra-po-header-last_translator>Freek de Kruijf &lt;freekdekruijf@kde.nl&gt;</extra-po-header-last_translator>
     <extra-po-header-plural_forms>nplurals=2; plural=(n != 1);</extra-po-header-plural_forms>
-    <extra-po-header-po_revision_date>2018-11-02 17:47+0100</extra-po-header-po_revision_date>
+    <extra-po-header-po_revision_date>2020-11-25 15:57+0100</extra-po-header-po_revision_date>
     <extra-po-header-project_id_version></extra-po-header-project_id_version>
-    <extra-po-header-x_generator>Lokalize 2.0</extra-po-header-x_generator>
-    <extra-po-header_comment># Freek de Kruijf &lt;freek@opensuse.org&gt;, 2014, 2018.</extra-po-header_comment>
+    <extra-po-header-x_generator>Lokalize 20.08.3</extra-po-header-x_generator>
+    <extra-po-header_comment># Freek de Kruijf &lt;freek@opensuse.org&gt;, 2014, 2018, 2020.</extra-po-header_comment>
     <extra-po-headers>Project-Id-Version,PO-Revision-Date,Last-Translator,Language-Team,Language,MIME-Version,Content-Type,Content-Transfer-Encoding,X-Qt-Contexts,Plural-Forms,X-Generator</extra-po-headers>
 <context>
     <name>Object</name>
-    <message>
-        <source>Duplicate method name</source>
-        <translation>Naam van dupliceermethode</translation>
-    </message>
-    <message>
-        <source>Method names cannot begin with an upper case letter</source>
-        <translation>Namen van methoden kunnen niet beginnen een met een hoofdletter</translation>
-    </message>
-    <message>
-        <source>Illegal method name</source>
-        <translation>Ongeldige methodenaam</translation>
-    </message>
     <message>
         <source>Duplicate scoped enum name</source>
         <translation>Duplicaat van enum-naam met scope</translation>
@@ -62,6 +50,13 @@
     <message>
         <source>InputMethod is an abstract class</source>
         <translation>InputMethod is een abstracte klasse</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlAbstractDelegateComponent</name>
+    <message>
+        <source>Cannot create instance of abstract class AbstractDelegateComponent.</source>
+        <translation>Kan geen exemplaar van klasse AbstractDelegateComponent aanmaken.</translation>
     </message>
 </context>
 <context>
@@ -109,6 +104,18 @@
 </context>
 <context>
     <name>QQmlCodeGenerator</name>
+    <message>
+        <source>Duplicate method name</source>
+        <translation>Naam van dupliceermethode</translation>
+    </message>
+    <message>
+        <source>Method names cannot begin with an upper case letter</source>
+        <translation>Namen van methoden kunnen niet beginnen een met een hoofdletter</translation>
+    </message>
+    <message>
+        <source>Illegal method name</source>
+        <translation>Ongeldige methodenaam</translation>
+    </message>
     <message>
         <source>Property value set multiple times</source>
         <translation>Eigenschapwaarde is meerdere keren ingesteld</translation>
@@ -197,8 +204,8 @@
         <translation>createObject: waarde is geen object</translation>
     </message>
     <message>
-        <source>Object destroyed during incubation</source>
-        <translation>Object vernietigt tijdens geboorte</translation>
+        <source>Object or context destroyed during incubation</source>
+        <translation>Object of context vernietigt tijdens geboorte</translation>
     </message>
 </context>
 <context>
@@ -218,6 +225,14 @@
     <message>
         <source>Connections: script expected</source>
         <translation>Verbindingen: script verwacht</translation>
+    </message>
+    <message>
+        <source>Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(&lt;arguments&gt;) { ... }</source>
+        <translation>Impliciet gedefinieerde onFoo eigenschappen in verbindingen zijn afgekeurd. Gebruik in plaats daarvan deze syntaxis: function onFoo(&lt;arguments&gt;) { ... }</translation>
+    </message>
+    <message>
+        <source>Detected function &quot;%1&quot; in Connections element. This is probably intended to be a signal handler but no signal of the target matches the name.</source>
+        <translation>Functie &quot;%1&quot; in verbindingselement gedetecteerd. Dit is waarschijnlijk bedoeld om een signaalbehandelaar te zijn maar geen signaal van het doel komt overeen met de naam.</translation>
     </message>
 </context>
 <context>
@@ -301,6 +316,10 @@
     <message>
         <source>The group of a DelegateModel cannot be changed within onChanged</source>
         <translation>De groep van een DelegateModel kan niet gewijzigd worden binnen onChanged</translation>
+    </message>
+    <message>
+        <source>The delegates of a DelegateModel cannot be changed within onUpdated.</source>
+        <translation>De gedelegeerden van een DelegateModel kunnen niet gewijzigd worden binnen onUpdated.</translation>
     </message>
 </context>
 <context>
@@ -405,8 +424,8 @@
 <context>
     <name>QQmlEngine</name>
     <message>
-        <source>Locale cannot be instantiated.  Use Qt.locale()</source>
-        <translation>Locale kan niet ingesteld worden.  Qt.locale() gebruiken</translation>
+        <source>Locale cannot be instantiated. Use Qt.locale()</source>
+        <translation>Taalregio kan niet ingesteld worden. Qt.locale() gebruiken</translation>
     </message>
     <message>
         <source>There are still &quot;%1&quot; items in the process of being created at engine destruction.</source>
@@ -495,12 +514,12 @@
         <translation>statische plug-in voor module &quot;%1&quot; met naam &quot;%2&quot; heeft geen metagegevens-URI</translation>
     </message>
     <message>
-        <source>plugin cannot be loaded for module &quot;%1&quot;: %2</source>
-        <translation>plug-in kan niet geladen worden voor module &quot;%1&quot;: %2</translation>
-    </message>
-    <message>
         <source>module does not support the designer &quot;%1&quot;</source>
         <translation>module ondersteunt de ontwikkelaar &quot;%1&quot; niet</translation>
+    </message>
+    <message>
+        <source>plugin cannot be loaded for module &quot;%1&quot;: %2</source>
+        <translation>plug-in kan niet geladen worden voor module &quot;%1&quot;: %2</translation>
     </message>
     <message>
         <source>static plugin for module &quot;%1&quot; with name &quot;%2&quot; cannot be loaded: %3</source>
@@ -535,24 +554,24 @@
         <translation>import &quot;%1&quot; heeft geen qmldir en geen naamruimte</translation>
     </message>
     <message>
+        <source>File name case mismatch for &quot;%1&quot;</source>
+        <translation>Bestandsnaam klopt niet met hoofd-/kliene letters voor &quot;%1&quot;</translation>
+    </message>
+    <message>
         <source>Module loaded for URI &apos;%1&apos; does not implement QQmlTypesExtensionInterface</source>
-        <translation>Module geladen voor URI &apos;%1&apos; implementeert geen QQmlTypesExtensionInterface</translation>
+        <translation type="vanished">Module geladen voor URI &apos;%1&apos; implementeert geen QQmlTypesExtensionInterface</translation>
     </message>
     <message>
         <source>Module namespace &apos;%1&apos; does not match import URI &apos;%2&apos;</source>
-        <translation>Module naamruimte &apos;%1&apos; komt niet overeen met import URI &apos;%2&apos;</translation>
+        <translation type="vanished">Module naamruimte &apos;%1&apos; komt niet overeen met import URI &apos;%2&apos;</translation>
     </message>
     <message>
         <source>Namespace &apos;%1&apos; has already been used for type registration</source>
-        <translation>Naamruimte &apos;%1&apos; is al gebruikt voor type registratie</translation>
+        <translation type="vanished">Naamruimte &apos;%1&apos; is al gebruikt voor type registratie</translation>
     </message>
     <message>
         <source>Module &apos;%1&apos; does not contain a module identifier directive - it cannot be protected from external registrations.</source>
-        <translation>Module &apos;%1&apos; bevat geen module-identifier-directive - het kan niet beschermd worden van externe registraties.</translation>
-    </message>
-    <message>
-        <source>File name case mismatch for &quot;%1&quot;</source>
-        <translation>Bestandsnaam klopt niet met hoofd-/kliene letters voor &quot;%1&quot;</translation>
+        <translation type="vanished">Module &apos;%1&apos; bevat geen module-identifier-directive - het kan niet beschermd worden van externe registraties.</translation>
     </message>
 </context>
 <context>
@@ -731,8 +750,12 @@
         <translation>JavaScript declaratie buiten scriptelement</translation>
     </message>
     <message>
-        <source>Illegal syntax for exponential number</source>
-        <translation>Ongeldige syntaxis voor exponentieel getal</translation>
+        <source>Illegal unicode escape sequence</source>
+        <translation>Ongeldige unicode-escape-sequence</translation>
+    </message>
+    <message>
+        <source>Unexpected token &apos;.&apos;</source>
+        <translation>Onverwacht token &apos;.&apos;</translation>
     </message>
     <message>
         <source>Stray newline in string literal</source>
@@ -741,10 +764,6 @@
     <message>
         <source>End of file reached at escape sequence</source>
         <translation>Einde van bestand bereikt in escape-sequence</translation>
-    </message>
-    <message>
-        <source>Illegal unicode escape sequence</source>
-        <translation>Ongeldige unicode-escape-sequence</translation>
     </message>
     <message>
         <source>Illegal hexadecimal escape sequence</source>
@@ -759,12 +778,24 @@
         <translation>Niet afgesloten tekenreeks bij regeleinde</translation>
     </message>
     <message>
+        <source>At least one hexadecimal digit is required after &apos;0%1&apos;</source>
+        <translation>Minstens één hexadecimaal cijfer is vereist na &apos;0%1&apos;</translation>
+    </message>
+    <message>
+        <source>At least one octal digit is required after &apos;0%1&apos;</source>
+        <translation>Minstens één octaal cijfer is vereist na &apos;0%1&apos;</translation>
+    </message>
+    <message>
+        <source>At least one binary digit is required after &apos;0%1&apos;</source>
+        <translation>Minstens één binair cijfer is vereist na &apos;0%1&apos;</translation>
+    </message>
+    <message>
         <source>Decimal numbers can&apos;t start with &apos;0&apos;</source>
         <translation>Decimale getallen mogen niet beginnen met &apos;0&apos;</translation>
     </message>
     <message>
-        <source>At least one hexadecimal digit is required after &apos;0%1&apos;</source>
-        <translation>Minstens één hexadecimaal cijfer is vereist na &apos;0%1&apos;</translation>
+        <source>Illegal syntax for exponential number</source>
+        <translation>Ongeldige syntaxis voor exponentieel getal</translation>
     </message>
     <message>
         <source>Invalid regular expression flag &apos;%0&apos;</source>
@@ -799,6 +830,14 @@
         <translation>Importeren van module vereist een versie</translation>
     </message>
     <message>
+        <source>Module import requires a minor version (missing dot)</source>
+        <translation>Importeren van module vereist een minor-versie (ontbrekende punt)</translation>
+    </message>
+    <message>
+        <source>Module import requires a minor version (missing number)</source>
+        <translation>Importeren van module vereist een minor-versie (ontbrekend getal)</translation>
+    </message>
+    <message>
         <source>File import requires a qualifier</source>
         <translation>Importeren van bestand vereist een qualifier</translation>
     </message>
@@ -811,12 +850,8 @@
         <translation>Ongeldige importqualifier</translation>
     </message>
     <message>
-        <source>Unexpected token `%1&apos;</source>
-        <translation>onverwacht teken &apos;%1&apos;</translation>
-    </message>
-    <message>
         <source>Expected token `%1&apos;</source>
-        <translation>Verwacht token `%1&apos;</translation>
+        <translation type="vanished">Verwacht token `%1&apos;</translation>
     </message>
 </context>
 <context>
@@ -867,6 +902,10 @@
     <message>
         <source>Invalid property type</source>
         <translation>Ongeldig type van eigenschap</translation>
+    </message>
+    <message>
+        <source>Cyclic alias</source>
+        <translation>Cyclische alias</translation>
     </message>
     <message>
         <source>Invalid alias target</source>
@@ -924,6 +963,14 @@
         <translation>Ongeldige toegang tot gegroepeerde eigenschap</translation>
     </message>
     <message>
+        <source>Invalid grouped property access: Property &quot;%1&quot; with primitive type &quot;%2&quot;.</source>
+        <translation>Ongeldige toegang tot gegroepeerde eigenschap: eigenschap &quot;%1&quot; met primitieve type &quot;%2&quot;.</translation>
+    </message>
+    <message>
+        <source>Invalid grouped property access: Property &quot;%1&quot; with type &quot;%2&quot;, which is not a value type</source>
+        <translation>Ongeldige toegang tot gegroepeerde eigenschap: eigenschap &quot;%1&quot; met type &quot;%2&quot;, wat geen waardetype is</translation>
+    </message>
+    <message>
         <source>Cannot assign to non-existent default property</source>
         <translation>Kan niet toekennen aan een niet bestaande standaard eigenschap</translation>
     </message>
@@ -942,6 +989,10 @@
     <message>
         <source>Invalid property assignment: unknown enumeration</source>
         <translation>Ongeldig toekennen van eigenschap: onbekende enumeratie</translation>
+    </message>
+    <message>
+        <source> - Assigning null to incompatible properties in QML is deprecated. This will become a compile error in future versions of Qt.</source>
+        <translation> - Null toekennen aan incompatibele eigenschappen in QML is afgekeurd. Dit zal een compilatiefout geven in toekomstige versies van Qt.</translation>
     </message>
     <message>
         <source>Invalid property assignment: string expected</source>
@@ -1056,16 +1107,32 @@
         <translation>Kan geen object toekennen aan lijsteigenschap &quot;%1&quot;</translation>
     </message>
     <message>
-        <source>Unexpected object assignment</source>
-        <translation>Onverwachte toekennen van object</translation>
+        <source>Cannot assign value of type &quot;%1&quot; to property &quot;%2&quot;, expecting &quot;%3&quot;</source>
+        <translation>Kan waarde van type &quot;%1&quot; niet toekennen aan eigenschap %2, verwacht &quot;%3&quot;</translation>
+    </message>
+    <message>
+        <source>Cannot assign value of type &quot;%1&quot; to property &quot;%2&quot;, expecting an object</source>
+        <translation>Kan waarde van type &quot;%1&quot; niet toekennen aan eigenschap &quot;%2&quot;, verwacht een object</translation>
     </message>
     <message>
         <source>Invalid property assignment: script expected</source>
         <translation>Ongeldig toekennen van eigenschap: script verwacht</translation>
     </message>
     <message>
+        <source>Cannot assign object of type &quot;%1&quot; to property of type &quot;%2&quot; as the former is neither the same as the latter nor a sub-class of it.</source>
+        <translation>Kan object van type &quot;%1&quot; niet toekennen aan eigenschap van type &quot;%2&quot; omdat de vorige niet hetzelfde is als de laatste of er een sub-klasse van is.</translation>
+    </message>
+    <message>
+        <source>Cannot assign to property of unknown type &quot;%1&quot;.</source>
+        <translation>Kan aan eigenschap van onbekend type &quot;%1&quot; niets toekennen.</translation>
+    </message>
+    <message>
+        <source>Unexpected object assignment</source>
+        <translation type="vanished">Onverwachte toekennen van object</translation>
+    </message>
+    <message>
         <source>Cannot assign object to property</source>
-        <translation>Kan geen object toekennen aan eigenschap</translation>
+        <translation type="vanished">Kan geen object toekennen aan eigenschap</translation>
     </message>
 </context>
 <context>
@@ -1097,6 +1164,14 @@
         <translation>Kan qmldir inhoud voor &apos;%1&apos; niet bijwerken</translation>
     </message>
     <message>
+        <source>File was compiled ahead of time with an incompatible version of Qt and the original file cannot be found. Please recompile</source>
+        <translation>Bestand was te vroeg gecompileerd met een incompatibele versie van Qt en het originele bestand kan niet gevonden worden. Gaarne opnieuw compileren</translation>
+    </message>
+    <message>
+        <source>No such file or directory</source>
+        <translation>Geen bestand of map met deze naam</translation>
+    </message>
+    <message>
         <source>Script %1 unavailable</source>
         <translation>Script %1 niet beschikbaar</translation>
     </message>
@@ -1115,14 +1190,6 @@
     <message>
         <source>qmldir defines type as singleton, but no pragma Singleton found in type %1.</source>
         <translation>qmldir definieert type als singleton, maar geen pragma Singleton gevonden in type %1.</translation>
-    </message>
-    <message>
-        <source>File was compiled ahead of time with an incompatible version of Qt and the original file cannot be found. Please recompile</source>
-        <translation>Bestand was te vroeg gecompileerd met een incompatibele versie van Qt en het originele bestand kan niet gevonden worden. Gaarne opnieuw compileren</translation>
-    </message>
-    <message>
-        <source>No such file or directory</source>
-        <translation>Geen bestand of map met deze naam</translation>
     </message>
     <message>
         <source>File is empty</source>
@@ -1446,6 +1513,14 @@
         <translation>PointerEvent is alleen beschikbaar als een parameter van verschillende signalen in PointerHandler</translation>
     </message>
     <message>
+        <source>PointerMouseEvent is only available as a parameter of several signals in PointerHandler</source>
+        <translation>PointerMouseEvent is alleen beschikbaar als een parameter van verschillende signalen in PointerHandler</translation>
+    </message>
+    <message>
+        <source>PointerTouchEvent is only available as a parameter of several signals in PointerHandler</source>
+        <translation>PointerTouchEvent is alleen beschikbaar als een parameter van verschillende signalen in PointerHandler</translation>
+    </message>
+    <message>
         <source>EventPoint is only available as a member of PointerEvent</source>
         <translation>EventPoint is alleen beschikbaar als een lid van PointerEvent</translation>
     </message>
@@ -1458,12 +1533,20 @@
         <translation>PointerDevice is alleen beschikbaar als een eigenschap van PointerEvent</translation>
     </message>
     <message>
-        <source>PointingDeviceUniqueId is only available as a property of PointerEvent</source>
-        <translation>PointingDeviceUniqueId is alleen beschikbaar als een eigenschap van PointerEvent</translation>
-    </message>
-    <message>
         <source>PointerHandler is an abstract base class</source>
         <translation>PointerHandler is een abstracte basisklasse</translation>
+    </message>
+    <message>
+        <source>PointerScrollEvent is only available via the WheelHandler::wheel signal</source>
+        <translation>PointerScrollEvent is alleen beschikbaar via het signaal WheelHandler::wheel</translation>
+    </message>
+    <message>
+        <source>ImageBase is an abstract base class</source>
+        <translation>ImageBase is een abstracte basisklasse</translation>
+    </message>
+    <message>
+        <source>PointingDeviceUniqueId is only available as a property of PointerEvent</source>
+        <translation type="vanished">PointingDeviceUniqueId is alleen beschikbaar als een eigenschap van PointerEvent</translation>
     </message>
 </context>
 <context>
@@ -1541,8 +1624,7 @@
 This is most likely caused by not having the necessary graphics drivers installed.
 
 Install a driver providing OpenGL 2.0 or higher, or, if this is not possible, make sure the ANGLE Open GL ES 2.0 emulation libraries (%3, %4 and d3dcompiler_*.dll) are available in the application executable&apos;s directory or in a location listed in PATH.</source>
-        <extracomment>%1 Context type (Open GL, EGL), %2 format, ANGLE %3, %4 library names
-</extracomment>
+        <extracomment>%1 Context type (Open GL, EGL), %2 format, ANGLE %3, %4 library names</extracomment>
         <translation>Aanmaken van %1 context voor formaat %2 is mislukt.
 Dit wordt het meest waarschijnlijk veroorzaakt door het niet hebben van geïnstalleerde grafische stuurprogramma&apos;s.
 
@@ -1550,8 +1632,7 @@ Installeer een stuurprogramma die OpenGL 2.0 of hoger levert of, als dat niet mo
     </message>
     <message>
         <source>Failed to create %1 context for format %2</source>
-        <extracomment>%1 Context type (Open GL, EGL), %2 format specification
-</extracomment>
+        <extracomment>%1 Context type (Open GL, EGL), %2 format specification</extracomment>
         <translation>Aanmaken van %1 context voor formaat %2 is mislukt</translation>
     </message>
 </context>
@@ -1564,31 +1645,6 @@ Installeer een stuurprogramma die OpenGL 2.0 of hoger levert of, als dat niet mo
     <message>
         <source>Conflicting properties &apos;visible&apos; and &apos;visibility&apos;</source>
         <translation>Conflicterende eigenschappen &apos;zichtbaar&apos; en &apos;zichtbaarheid&apos;</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickXmlListModel</name>
-    <message>
-        <source>&quot;%1&quot; duplicates a previous role name and will be disabled.</source>
-        <translation>&quot;%1&quot; dupliceert een vorige rolnaam en zal uitgeschakeld worden.</translation>
-    </message>
-    <message>
-        <source>invalid query: &quot;%1&quot;</source>
-        <translation>ongeldige query: &quot;%1&quot;</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickXmlListModelRole</name>
-    <message>
-        <source>An XmlRole query must not start with &apos;/&apos;</source>
-        <translation>Een XmlRole-query mag niet met &apos;/&apos; beginnen</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickXmlRoleList</name>
-    <message>
-        <source>An XmlListModel query must start with &apos;/&apos; or &quot;//&quot;</source>
-        <translation>Een XmlListModel-query moet met &apos;/&apos; of &quot;//&quot; beginnen</translation>
     </message>
 </context>
 <context>
@@ -1654,6 +1710,31 @@ Installeer een stuurprogramma die OpenGL 2.0 of hoger levert of, als dat niet mo
     <message>
         <source>Cannot install %1 &apos;%2&apos; into protected module &apos;%3&apos; version &apos;%4&apos;</source>
         <translation>Kan %1 &apos;%2&apos; niet installeren in beschermde module &apos;%3&apos; versie &apos;%4&apos;</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickXmlListModel</name>
+    <message>
+        <source>&quot;%1&quot; duplicates a previous role name and will be disabled.</source>
+        <translation type="vanished">&quot;%1&quot; dupliceert een vorige rolnaam en zal uitgeschakeld worden.</translation>
+    </message>
+    <message>
+        <source>invalid query: &quot;%1&quot;</source>
+        <translation type="vanished">ongeldige query: &quot;%1&quot;</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickXmlListModelRole</name>
+    <message>
+        <source>An XmlRole query must not start with &apos;/&apos;</source>
+        <translation type="vanished">Een XmlRole-query mag niet met &apos;/&apos; beginnen</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickXmlRoleList</name>
+    <message>
+        <source>An XmlListModel query must start with &apos;/&apos; or &quot;//&quot;</source>
+        <translation type="vanished">Een XmlListModel-query moet met &apos;/&apos; of &quot;//&quot; beginnen</translation>
     </message>
 </context>
 </TS>

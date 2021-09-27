@@ -2,9 +2,9 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="pt_BR">
 <dependencies>
-<dependency catalog="qtbase_"/>
-<dependency catalog="qtscript_"/>
-<dependency catalog="qtmultimedia_"/>
-<dependency catalog="qtxmlpatterns_"/>
+<dependency catalog="qtbase_pt_BR"/>
+<dependency catalog="qtscript_pt_BR"/>
+<dependency catalog="qtmultimedia_pt_BR"/>
+<dependency catalog="qtxmlpatterns_pt_BR"/>
 </dependencies>
 </TS>
