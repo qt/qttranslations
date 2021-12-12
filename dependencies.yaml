@@ -1,4 +1,4 @@
 dependencies:
   ../qttools:
-    ref: 2bab1c2a912b7ef1d70e86d81bc210a67c65f19e
+    ref: 7ef57149d46fa783aab793c7d72a3960790574f6
     required: true
