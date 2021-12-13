@@ -904,12 +904,12 @@ Drücken Sie ESC, um abzubrechen</translation>
 <context>
     <name>QDtlsClientVerifier</name>
     <message>
-        <source>A valid UDP socket, non-empty datagram, valid address/port were expected</source>
-        <translation>Es werden ein gültiger UDP-Socket, ein nicht leeres Datagram, eine gültige Adresse sowie ein gültiger Port vorausgesetzt</translation>
-    </message>
-    <message>
         <source>BIO_ADDR_new failed, ignoring client hello</source>
         <translation>BIO_ADDR_new schlug fehl, die Hello-Nachricht des Client wird ignoriert</translation>
+    </message>
+    <message>
+        <source>A valid UDP socket, non-empty datagram, and valid address/port were expected</source>
+        <translation>Es werden ein gültiger UDP-Socket, ein nichtleeres Datagram, eine gültige Adresse sowie ein gültiger Port vorausgesetzt</translation>
     </message>
 </context>
 <context>
@@ -6765,6 +6765,14 @@ Role of an accessible object</extracomment>
         <source>%1: ftok failed</source>
         <translation>%1: ftok-Aufruf ist fehlgeschlagen</translation>
     </message>
+    <message>
+        <source>%1: System V semaphores are not available for sandboxed applications. Please build Qt with -feature-ipc_posix</source>
+        <translation>%1: System V-Semaphoren sind für Anwendungen in der Sandbox nicht verfügbar. Bitte erstellen Sie Qt mit -feature-ipc_posix</translation>
+    </message>
+    <message>
+        <source>%1: key too long</source>
+        <translation>%1: der Schlüssel ist zu lang</translation>
+    </message>
 </context>
 <context>
     <name>QTabBar</name>
@@ -7261,6 +7269,80 @@ Die minimal erforderliche Version von Direct2D ist %1 Die auf diesem System inst
     <message>
         <source>Unknown</source>
         <translation>Unbekannt</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Datei</translation>
+    </message>
+</context>
+<context>
+    <name>QAxSelect</name>
+    <message>
+        <source>Select ActiveX Control</source>
+        <translation>ActiveX-Steuerelement auswählen</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filter</translation>
+    </message>
+    <message>
+        <source>COM &amp;Object:</source>
+        <translation>COM &amp;Objekt:</translation>
+    </message>
+    <message>
+        <source>Sandboxing:</source>
+        <translation>Sandboxing:</translation>
+    </message>
+    <message>
+        <source>Name:</source>
+        <translation>Name:</translation>
+    </message>
+    <message>
+        <source>Type:</source>
+        <translation>Typ:</translation>
+    </message>
+    <message>
+        <source>In process</source>
+        <translation>Innerhalb des Prozesses</translation>
+    </message>
+    <message>
+        <source>Out of process</source>
+        <translation>Außerhalb des Prozesses</translation>
+    </message>
+    <message>
+        <source>CLSID:</source>
+        <translation>CLSID:</translation>
+    </message>
+    <message>
+        <source>Key:</source>
+        <translation>Schlüssel:</translation>
+    </message>
+    <message>
+        <source>Word&amp;nbsp;size:</source>
+        <translation>Wortbreite:</translation>
+    </message>
+    <message>
+        <source>DLL:</source>
+        <translation>DLL:</translation>
+    </message>
+    <message>
+        <source>Binary:</source>
+        <translation>Ausführbare Datei:</translation>
+    </message>
+    <message>
+        <source>Version:</source>
+        <translation>Version:</translation>
+    </message>
+</context>
+<context>
+    <name>quiaccessibilityelement</name>
+    <message>
+        <source>checked</source>
+        <translation>markiert</translation>
+    </message>
+    <message>
+        <source>unchecked</source>
+        <translation>nicht markiert</translation>
     </message>
 </context>
 </TS>
