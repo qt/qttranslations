@@ -19,7 +19,7 @@ function(add_ts_target target input_file output_file)
 endfunction()
 
 function(add_ts_targets catalog)
-    cmake_parse_arguments(arg "" "" "DIRECTORIES" ${ARGN})
+    cmake_parse_arguments(arg "" "" "DIRECTORIES;EXCLUDE" ${ARGN})
     generate_empty_ts_file("${catalog}_en.ts")
     file(GLOB ts_files "${catalog}_*.ts")
 
@@ -49,6 +49,9 @@ function(add_ts_targets catalog)
     set(inclusion_regex "\\.h$|\\.cpp$|\\.hpp$|\\.cxx$|\\.cc$|\\.mm$|\\.qml$|\\.ui$")
     list(FILTER file_list INCLUDE REGEX "${inclusion_regex}")
     list(FILTER file_list EXCLUDE REGEX /doc/snippets/)
+    if (arg_EXCLUDE)
+        list(FILTER file_list EXCLUDE REGEX ${arg_EXCLUDE})
+    endif()
     list(JOIN file_list "\n" file_list_string)
 
     file(GENERATE
@@ -88,7 +91,8 @@ add_ts_targets(qtbase
         qtactiveqt/src # just 4 strings from QAxSelect
         qtimageformats/src # just 10 error messages from tga reader. uses bad context.
 )
-add_ts_targets(qtdeclarative DIRECTORIES qtdeclarative/src)
+add_ts_targets(qtdeclarative DIRECTORIES qtdeclarative/src
+               EXCLUDE declarative/src/quickcontrols2/designer)
 add_ts_targets(qtmultimedia DIRECTORIES qtmultimedia/src)
 #add_ts_targets(qtsvg DIRECTORIES qtsvg/src) # empty
 #add_ts_targets(qtwebkit DIRECTORIES qtwebkit) # messages from test browser only
