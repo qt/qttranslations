@@ -286,6 +286,14 @@
         <source>Select All</source>
         <translation>Alles auswählen</translation>
     </message>
+    <message>
+        <source>Start Dictation...</source>
+        <translation>Diktat beginnen...</translation>
+    </message>
+    <message>
+        <source>Emoji &amp;&amp; Symbols</source>
+        <translation>Emojis &amp;&amp; Symbole</translation>
+    </message>
 </context>
 <context>
     <name>QCocoaTheme</name>
@@ -986,12 +994,12 @@ Drücken Sie ESC, um abzubrechen</translation>
         <translation>Kann nicht zum Schreiben geöffnet werden: %1</translation>
     </message>
     <message>
-        <source>Failure to write block</source>
-        <translation>Der Datenblock konnte nicht geschrieben werden</translation>
+        <source>Failure to write block: %1</source>
+        <translation>Der Datenblock konnte nicht geschrieben werden: %1</translation>
     </message>
     <message>
-        <source>Cannot create %1 for output</source>
-        <translation>%1 kann nicht erstellt werden</translation>
+        <source>Cannot create %1 for output: %2</source>
+        <translation>%1 kann nicht erstellt werden: %2</translation>
     </message>
 </context>
 <context>
@@ -1558,16 +1566,16 @@ Möchten Sie die Datei trotzdem löschen?</translation>
         <translation>ID des X11-Visuals.</translation>
     </message>
     <message>
-        <source>Alias for --windowgeometry.</source>
-        <translation>Alias für --windowgeometry.</translation>
+        <source>Alias for --qwindowgeometry.</source>
+        <translation>Alias für --qwindowgeometry.</translation>
     </message>
     <message>
-        <source>Alias for --windowicon.</source>
-        <translation>Alias für --windowicon.</translation>
+        <source>Alias for --qwindowicon.</source>
+        <translation>Alias für --qwindowicon.</translation>
     </message>
     <message>
-        <source>Alias for --windowtitle.</source>
-        <translation>Alias für --windowtitle.</translation>
+        <source>Alias for --qwindowtitle.</source>
+        <translation>Alias für --qwindowtitle.</translation>
     </message>
 </context>
 <context>
@@ -1935,71 +1943,20 @@ Möchten Sie die Datei trotzdem löschen?</translation>
 <context>
     <name>QLibrary</name>
     <message>
-        <source>&apos;%1&apos; is not an ELF object (%2)</source>
-        <translation>&apos;%1&apos; ist keine ELF-Objektdatei (%2)</translation>
-    </message>
-    <message>
-        <source>&apos;%1&apos; is not an ELF object</source>
-        <translation>&apos;%1&apos; ist keine ELF-Objektdatei</translation>
-    </message>
-    <message>
-        <source>&apos;%1&apos; is an invalid ELF object (%2)</source>
-        <translation>&apos;%1&apos; ist keine gültige ELF-Objektdatei (%2)</translation>
-    </message>
-    <message>
-        <source>odd cpu architecture</source>
-        <translation>Unbekannte CPU-Architektur</translation>
-    </message>
-    <message>
-        <source>wrong cpu architecture</source>
-        <translation>Falsche CPU-Architektur</translation>
-    </message>
-    <message>
-        <source>odd endianness</source>
-        <translation>Unbekannte Byte-Reihenfolge</translation>
-    </message>
-    <message>
-        <source>unexpected e_shsize</source>
-        <translation>e_shsize unerwartet</translation>
-    </message>
-    <message>
-        <source>unexpected e_shentsize</source>
-        <translation>e_shentsize unerwartet</translation>
-    </message>
-    <message numerus="yes">
-        <source>announced %n section(s), each %1 byte(s), exceed file size</source>
-        <translation>
-            <numerusform>Die angekündigte Sektion (%1 Byte) überschreitet die Dateigröße</numerusform>
-            <numerusform>Die angekündigten %n Sektionen (jede %1 Byte) überschreiten die Dateigröße</numerusform>
-        </translation>
-    </message>
-    <message>
-        <source>shstrtab section header seems to be at %1</source>
-        <translation>Der Beginn der shstrtab-Sektion ist wahrscheinlich bei %1</translation>
-    </message>
-    <message>
-        <source>string table seems to be at %1</source>
-        <translation>Die Zeichenkettentabelle ist wahrscheinlich bei %1</translation>
-    </message>
-    <message>
-        <source>section name %1 of %2 behind end of file</source>
-        <translation>Der Sektionsname %1 von %2 ist hinter dem Dateiende</translation>
-    </message>
-    <message>
-        <source>empty .rodata. not a library.</source>
-        <translation>Leerer .rodata.-Abschnitt; dies scheint keine Bibliothek zu sein.</translation>
-    </message>
-    <message>
-        <source>missing section data. This is not a library.</source>
-        <translation>Fehlende Daten der Sektion; dies scheint keine Bibliothek zu sein.</translation>
-    </message>
-    <message>
-        <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
-        <translation>Die Metadaten des Plugins &apos;%1&apos; konnten nicht bestimmt werden</translation>
+        <source>Failed to extract plugin meta data from &apos;%1&apos;: %2</source>
+        <translation>Die Metadaten des Plugins &apos;%1&apos; konnten nicht bestimmt werden: %2</translation>
     </message>
     <message>
         <source>The shared library was not found.</source>
         <translation>Die dynamische Bibliothek konnte nicht gefunden werden.</translation>
+    </message>
+    <message>
+        <source>metadata too small</source>
+        <translation>Metadaten sind zu klein</translation>
+    </message>
+    <message>
+        <source>entrypoint to query the plugin meta data not found</source>
+        <translation>Der Eingangspunkt zur Abfrage der Metadaten konnte nicht gefunden werden</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; is not a valid Qt plugin.</source>
@@ -2034,8 +1991,64 @@ Möchten Sie die Datei trotzdem löschen?</translation>
         <translation>Datei beschädigt</translation>
     </message>
     <message>
+        <source>file is for the wrong endianness</source>
+        <translation>Die Datei hat die falsche Byte-Reihenfolge</translation>
+    </message>
+    <message>
+        <source>file has an unknown ELF version</source>
+        <translation>Datei hat eine unbekannte ELF-Version</translation>
+    </message>
+    <message>
+        <source>file has an unexpected ABI</source>
+        <translation>Datei hat unerwartetes ABI</translation>
+    </message>
+    <message>
+        <source>file is not a shared object</source>
+        <translation>Datei ist kein dynamisches Objekt</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a valid ELF object (%2)</source>
+        <translation>&apos;%1&apos; ist keine gültige ELF-Objektdatei (%2)</translation>
+    </message>
+    <message>
+        <source>program header table extends past the end of the file</source>
+        <translation>Die Programm-Header-Tabelle geht über das Dateiende hinaus</translation>
+    </message>
+    <message>
+        <source>a program header entry extends past the end of the file</source>
+        <translation>Ein Eintrag der Programm-Header-Tabelle geht über das Dateiende hinaus</translation>
+    </message>
+    <message>
+        <source>a note segment start is not properly aligned (offset 0x%1, alignment %2)</source>
+        <translation>note-Segment ist nicht richtig ausgerichtet (offset 0x%1, alignment %2)</translation>
+    </message>
+    <message>
+        <source>section table extends past the end of the file</source>
+        <translation>Sektionstabelle geht über das Dateiende hinaus</translation>
+    </message>
+    <message>
+        <source>section header string table extends past the end of the file</source>
+        <translation>Zeichenketten-Tabelle der Sektion geht über das Dateiende hinaus</translation>
+    </message>
+    <message>
+        <source>a section name extends past the end of the file</source>
+        <translation>Sektionsname geht über das Dateiende hinaus</translation>
+    </message>
+    <message>
         <source>file too small</source>
         <translation>Datei zu klein</translation>
+    </message>
+    <message>
+        <source>unexpected program header entry size (%1)</source>
+        <translation>Unerwartete Größe eines Programm-Header-Eintrags (%1)</translation>
+    </message>
+    <message>
+        <source>unexpected section entry size (%1)</source>
+        <translation>Unerwartete Größe eines Sektionseintrags (%1)</translation>
+    </message>
+    <message>
+        <source>e_shstrndx greater than the number of sections e_shnum (%1 &gt;= %2)</source>
+        <translation>e_shstrndx ist größer als die Anzahl der Sektionen e_shnum (%1 &gt;= %2)</translation>
     </message>
     <message>
         <source>no suitable architecture in fat binary</source>
@@ -2056,6 +2069,70 @@ Möchten Sie die Datei trotzdem löschen?</translation>
     <message>
         <source>&apos;%1&apos; is not a Qt plugin</source>
         <translation>&apos;%1&apos; ist kein Qt-Plugin</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a valid Windows DLL (%2)</source>
+        <translation>&apos;%1&apos; ist keine gültige Windows-DLL (%2)</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is too small</source>
+        <translation>&apos;%1&apos; ist zu klein</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a Qt plugin (%2)</source>
+        <translation>&apos;%1&apos; ist kein Qt-Plugin (%2)</translation>
+    </message>
+    <message>
+        <source>metadata not found</source>
+        <translation>Metadaten wurden nicht gefunden</translation>
+    </message>
+    <message>
+        <source>invalid signature</source>
+        <translation>Ungültige Signatur</translation>
+    </message>
+    <message>
+        <source>file is for a different processor</source>
+        <translation>Datei ist für einen anderen Prozessor</translation>
+    </message>
+    <message>
+        <source>file has no sections</source>
+        <translation>Datei hat keine Sektionen</translation>
+    </message>
+    <message>
+        <source>wrong characteristics</source>
+        <translation>Falsche Eigenschaften</translation>
+    </message>
+    <message>
+        <source>file is for a different word size</source>
+        <translation>Datei ist für eine andere Wortgröße</translation>
+    </message>
+    <message>
+        <source>file has no code</source>
+        <translation>Datei hat keinen Code</translation>
+    </message>
+    <message>
+        <source>a section name is empty or extends past the end of the file</source>
+        <translation>Sektionsname ist leer oder geht über das Dateiende hinaus</translation>
+    </message>
+    <message>
+        <source>section contents extend past the end of the file</source>
+        <translation>Sektionsdaten gehen über das Dateiende hinaus</translation>
+    </message>
+    <message>
+        <source>.qtmetadata section is too small</source>
+        <translation>Sektion .qtmetadata ist zu klein</translation>
+    </message>
+    <message>
+        <source>.qtmetadata section has incorrect magic</source>
+        <translation>Sektion .qtmetadata hat die falsche magische Zahl</translation>
+    </message>
+    <message>
+        <source>.qtmetadata section is writable</source>
+        <translation>Sektion .qtmetadata ist schreibbar</translation>
+    </message>
+    <message>
+        <source>.qtmetadata section is executable</source>
+        <translation>Sektion .qtmetadata ist ausführbar</translation>
     </message>
 </context>
 <context>
@@ -2161,6 +2238,10 @@ Möchten Sie die Datei trotzdem löschen?</translation>
     <message>
         <source>%1: Access denied</source>
         <translation>%1: Zugriff verweigert</translation>
+    </message>
+    <message>
+        <source>Remote closed</source>
+        <translation>Gegenseite geschlossen</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
@@ -6491,6 +6572,10 @@ Role of an accessible object</extracomment>
         <translation>Die Daten konnten nicht entschlüsselt werden: %1</translation>
     </message>
     <message>
+        <source>TLS certificate unexpectedly changed during renegotiation!</source>
+        <translation>Das TLS-Zertificat wurde während der Neuaushandlung unerwartet geändert!</translation>
+    </message>
+    <message>
         <source>Failed to decode OCSP response</source>
         <translation>Die OCSP-Antworten konnten nicht dekodiert werden</translation>
     </message>
@@ -7343,6 +7428,28 @@ Die minimal erforderliche Version von Direct2D ist %1 Die auf diesem System inst
     <message>
         <source>unchecked</source>
         <translation>nicht markiert</translation>
+    </message>
+</context>
+<context>
+    <name>QFactoryLoader</name>
+    <message>
+        <source>Invalid metadata version</source>
+        <translation>Version der Metadaten ist ungültig</translation>
+    </message>
+    <message>
+        <source>Metadata parsing error: %1</source>
+        <translation>Fehler beim Auswerten der Metadaten: %1</translation>
+    </message>
+    <message>
+        <source>Unexpected metadata contents</source>
+        <translation>Unerwarteter Inhalt der Metadaten</translation>
+    </message>
+</context>
+<context>
+    <name>QCocoaMenu</name>
+    <message>
+        <source>Edit</source>
+        <translation>Bearbeiten</translation>
     </message>
 </context>
 </TS>

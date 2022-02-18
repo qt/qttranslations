@@ -762,6 +762,22 @@
         <translation>Der Skript-Import erfordert die Angabe eines Qualifizierers.</translation>
     </message>
     <message>
+        <source>Multiple list property assign behavior pragmas found</source>
+        <translation>Mehrere Verhaltens-Pragmas bei Zuweisung einer Listeneigenschaft gefunden</translation>
+    </message>
+    <message>
+        <source>Unknown list property assign behavior &apos;%1&apos; in pragma</source>
+        <translation>Unbekanntes Verhalten &apos;%1&apos; in Pragma bei Zuweisung einer Listeneigenschaft</translation>
+    </message>
+    <message>
+        <source>Unknown pragma &apos;%1&apos;</source>
+        <translation>Unbekanntes Pragma &apos;%1&apos;</translation>
+    </message>
+    <message>
+        <source>Empty pragma found</source>
+        <translation>Leeres Pragma gefunden</translation>
+    </message>
+    <message>
         <source>Expected parameter type</source>
         <translation>Es wird eine Typangabe für den Parameter erwartet</translation>
     </message>
@@ -784,10 +800,6 @@
     <message>
         <source>JavaScript declaration outside Script element</source>
         <translation>Eine JavaScript-Deklaration ist außerhalb eines Skriptelementes nicht zulässig</translation>
-    </message>
-    <message>
-        <source>Pragma requires a valid qualifier</source>
-        <translation>Das Pragma erfordert einen gültigen Qualifizierer</translation>
     </message>
     <message>
         <source>Imported file must be a script</source>
@@ -897,10 +909,6 @@
     <message>
         <source>Cannot assign a value directly to a grouped property</source>
         <translation>Bei einer Eigenschaft, die Teil einer Gruppierung ist, ist eine direkte Wertzuweisung unzulässig</translation>
-    </message>
-    <message>
-        <source>Attached properties cannot be used here</source>
-        <translation>An dieser Stelle können keine Eigenschaften des Typs &apos;attached&apos; verwendet werden</translation>
     </message>
     <message>
         <source>Invalid property assignment: &quot;%1&quot; is a read-only property</source>
@@ -1069,6 +1077,10 @@
     <message>
         <source>Invalid property assignment: script expected</source>
         <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein Skript erwartet</translation>
+    </message>
+    <message>
+        <source>%1 properties cannot be used here</source>
+        <translation>%1-Eigenschaften können hier nicht verwendet werden</translation>
     </message>
     <message>
         <source>Invalid property assignment: %1 expected</source>
@@ -1477,16 +1489,24 @@
         <translation>Bei der Komponentendefinition fehlt ein name binding.</translation>
     </message>
     <message>
-        <source>Expected only Parameter object definitions.</source>
-        <translation>Es werden lediglich Parameter-Objektdefinitionen erwartet.</translation>
-    </message>
-    <message>
         <source>Expected only name and type script bindings.</source>
         <translation>Es werden name oder script bindings erwartet.</translation>
     </message>
     <message>
         <source>Method or signal is missing a name script binding.</source>
         <translation>Bei der Methode oder dem Signal fehlt name script binding.</translation>
+    </message>
+    <message>
+        <source>Expected only name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isComposite, hasCustomParser, exportMetaObjectRevisions, deferredNames, and immediateNames in script bindings, not &quot;%1&quot;.</source>
+        <translation>Es werden nur name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isComposite, hasCustomParser, exportMetaObjectRevisions, deferredNames und immediateNames in script bindings erwartet, nicht jedoch &quot;%1&quot;.</translation>
+    </message>
+    <message>
+        <source>Expected only Parameter in object definitions.</source>
+        <translation>Es werden nur Parameter in Objektdefinitionen erwartet.</translation>
+    </message>
+    <message>
+        <source>Expected only name, type, revision, isPointer, isList, isConstructor, and isJavaScriptFunction in script bindings.</source>
+        <translation>Es werden nur name, type, revision, isPointer, isList, isConstructor und isJavaScriptFunction in script bindings erwartet.</translation>
     </message>
     <message>
         <source>Expected script binding.</source>
@@ -1545,9 +1565,9 @@
         <translation>Ganzzahlwert erwartet.</translation>
     </message>
     <message>
-        <source>Meta object revision and export version differ, ignoring the revision.
+        <source>Meta object revision and export version differ.
 Revision %1 corresponds to version %2.%3; it should be %4.%5.</source>
-        <translation>Die Meta-Object-Revision und die Export-Version unterscheiden sich; die Revision wird ignoriert.
+        <translation>Die Meta-Object-Revision und die Export-Version unterscheiden sich.
 Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
     </message>
     <message>
@@ -1565,14 +1585,6 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
     <message>
         <source>Expected either array or object literal as enum definition.</source>
         <translation>Die Aufzählungswertdefinition sollte aus einem Feld oder Objektwert bestehen.</translation>
-    </message>
-    <message>
-        <source>Expected only name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isComposite, hasCustomParser and exportMetaObjectRevisions script bindings, not &quot;%1&quot;.</source>
-        <translation>Es werden name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isComposite, hasCustomParser oder exportMetaObjectRevisions script bindings erwartet, nicht jedoch &quot;%1&quot;.</translation>
-    </message>
-    <message>
-        <source>Expected only name type, revision and isConstructor script bindings.</source>
-        <translation>Es werden name type, revision oder isConstructor script bindings erwartet.</translation>
     </message>
     <message>
         <source>Expected only type, name, revision, isPointer, isReadonly, isRequired, isFinal, bindable, read, write, notify, index and isList script bindings.</source>
@@ -1747,8 +1759,8 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
 <context>
     <name>DomUniverse</name>
     <message>
-        <source>Ignoring request to load file of unknown type %1, calling callback immediately</source>
-        <translation>Die Anforderung, eine Datei des unbekannten Typs %1 zu laden, wird ignoriert, der Callback wird unmittelbar ausgeführt</translation>
+        <source>Ignoring request to load file %1 of unexpected type %2, calling callback immediately</source>
+        <translation>Die Anforderung zum Laden der Datei %1 des unerwarteten Typs %2 wird ignoriert; callback wird direkt aufgerufen</translation>
     </message>
     <message>
         <source>Ignoring callback for loading of %1: universe is not valid anymore</source>
@@ -1801,6 +1813,14 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
         <translation>id ist ein spezielles Attribut, das nicht als Eigenschaftsname verwendet werden sollte</translation>
     </message>
     <message>
+        <source>id attributes should only be a lower case letter followed by letters, numbers or underscore, assuming they refer to an id property</source>
+        <translation>id-Attribute sollten lediglich aus einem Kleinbuchstaben gefolgt von Buchstaben, Ziffern oder Unterstrichzeichen bestehen, sofern sie sich auf eine id-Eigenschaft beziehen</translation>
+    </message>
+    <message>
+        <source>id attributes should only be a lower case letter followed by letters, numbers or underscore, not %1 %2, assuming they refer to a property</source>
+        <translation>id-Attribute sollten lediglich aus einem Kleinbuchstaben gefolgt von Buchstaben, Ziffern oder Unterstrichzeichen bestehen, nicht jedoch %1 %2, sofern sie sich auf eine Eigenschaft beziehen</translation>
+    </message>
+    <message>
         <source>id attributes should have only simple strings as values</source>
         <translation>id-Attribute sollten nur einfache Zeichenketten als Werte haben</translation>
     </message>
@@ -1809,16 +1829,8 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
         <translation>Maximale Anweisungs- oder Ausdruckstiefe in QmlDomAstCreator überschritten</translation>
     </message>
     <message>
-        <source>id attributes should only be a lower case letter followed by letters, numbers or underscore</source>
-        <translation>id-Attribute sollten aus einem Kleinbuchstaben und einer Folge von Buchstaben, Ziffern oder Unterstrich-Zeichen bestehen</translation>
-    </message>
-    <message>
         <source>id attributes should only be a lower case letter followed by letters, numbers or underscore, not %1</source>
         <translation>id-Attribute sollten aus einem Kleinbuchstaben und einer Folge von Buchstaben, Ziffern oder Unterstrich-Zeichen bestehen, nicht jedoch %1</translation>
-    </message>
-    <message>
-        <source>id attributes should only be a lower case letter followed by letters, numbers or underscore, not %1 %2</source>
-        <translation>id-Attribute sollten aus einem Kleinbuchstaben und einer Folge von Buchstaben, Ziffern oder Unterstrich-Zeichen bestehen, nicht jedoch %1 %2</translation>
     </message>
 </context>
 <context>
@@ -2055,7 +2067,7 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
     </message>
 </context>
 <context>
-    <name>QQuickPlatformDialog</name>
+    <name>QQuickLabsPlatformDialog</name>
     <message>
         <source>Dialog is an abstract base class</source>
         <translation>Dialog ist eine abstrakte Basisklasse</translation>
@@ -2063,6 +2075,96 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
     <message>
         <source>Cannot create an instance of StandardButton</source>
         <translation>Es kann keine Instanz von StandardButton erstellt werden</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlDeferredAndCustomParserBindingScanner</name>
+    <message>
+        <source>You cannot define both DeferredPropertyNames and ImmediatePropertyNames on the same type.</source>
+        <translation>DeferredPropertyNames und ImmediatePropertyNames können nicht zusammen für denselben Typ angegeben werden.</translation>
+    </message>
+    <message>
+        <source>You cannot assign an id to an object assigned to a deferred property.</source>
+        <translation>Einem Objekt, was einer Eigenschaft des Typs Deferred zugeordnet ist, kann keine Id zugewiesen werden.</translation>
+    </message>
+    <message>
+        <source>Cannot assign to non-existent property &quot;%1&quot;</source>
+        <translation>Es kann keine Zuweisung erfolgen, da keine Eigenschaft des Namens &quot;%1&quot; existiert</translation>
+    </message>
+</context>
+<context>
+    <name>Dom::filteTypeForPath</name>
+    <message>
+        <source>Could not detect type of file %1</source>
+        <translation>Der Typ der Datei %1 konnte nicht bestimmt werden</translation>
+    </message>
+</context>
+<context>
+    <name>TypeDescriptionReader</name>
+    <message>
+        <source>Property object is missing a name or type script binding.</source>
+        <translation>Bei dem Eigenschaftsobjekt fehlt der Name oder das type script binding.</translation>
+    </message>
+    <message>
+        <source>Method or signal is missing a name.</source>
+        <translation>Bei der Methode oder dem Signal fehlt der Name.</translation>
+    </message>
+    <message>
+        <source>negative meta revision %1 not supported</source>
+        <translation>Negative Meta-Revision %1 ist nicht unterstützt</translation>
+    </message>
+    <message>
+        <source>Component definition is missing a name binding.</source>
+        <translation>Bei der Komponentendefinition fehlt ein name binding.</translation>
+    </message>
+</context>
+<context>
+    <name>FontDialog</name>
+    <message>
+        <source>Writing System</source>
+        <translation>Schriftsystem</translation>
+    </message>
+</context>
+<context>
+    <name>MessageDialog</name>
+    <message>
+        <source>Hide Details...</source>
+        <translation>Details ausblenden...</translation>
+    </message>
+    <message>
+        <source>Show Details...</source>
+        <translation>Details anzeigen...</translation>
+    </message>
+</context>
+<context>
+    <name>FontDialogContent</name>
+    <message>
+        <source>Family</source>
+        <translation>Schriftart</translation>
+    </message>
+    <message>
+        <source>Style</source>
+        <translation>Schriftstil</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <source>Effects</source>
+        <translation>Effekte</translation>
+    </message>
+    <message>
+        <source>Underline</source>
+        <translation>Unterstrichen</translation>
+    </message>
+    <message>
+        <source>Strikeout</source>
+        <translation>Durchgestrichen</translation>
+    </message>
+    <message>
+        <source>Sample</source>
+        <translation>Beispiel</translation>
     </message>
 </context>
 </TS>

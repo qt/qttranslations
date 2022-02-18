@@ -103,8 +103,12 @@
         <translation>Die Kamera-Vorschau konnte nicht gestartet werden.</translation>
     </message>
     <message>
-        <source>Could not open destination file: %1</source>
-        <translation>Die Zieldatei %1 konnte nicht geöffnet werden</translation>
+        <source>File is not available: %1</source>
+        <translation>Die Datei ist nicht verfügbar: %1</translation>
+    </message>
+    <message>
+        <source>Could not save to file: %1</source>
+        <translation>Konnte nicht in Datei speichern: %1</translation>
     </message>
 </context>
 <context>
@@ -189,6 +193,10 @@
 </context>
 <context>
     <name>AVFMediaEncoder</name>
+    <message>
+        <source>No inputs specified</source>
+        <translation>Es wurden keine Eingänge angegeben</translation>
+    </message>
     <message>
         <source>Invalid output file URL</source>
         <translation>Ungültiger URL zur Ausgabedatei</translation>
@@ -369,6 +377,10 @@
         <source>Resume not supported</source>
         <translation>Fortsetzen wird nicht unterstützt</translation>
     </message>
+    <message>
+        <source>No camera or audio input</source>
+        <translation>Keine Kamera oder kein Audio-Eingang</translation>
+    </message>
 </context>
 <context>
     <name>QMediaMetaData</name>
@@ -504,12 +516,51 @@
         <translation>Dekodieren nicht möglich, keine Quelle gesetzt.</translation>
     </message>
     <message>
+        <source>Audio Decoder could not be created.</source>
+        <translation>Audio-Decoder konnte nicht erstellt werden.</translation>
+    </message>
+    <message>
         <source>Audio Decoder failed configuration.</source>
         <translation>Konfiguration des Audio-Decoders schlug fehl.</translation>
     </message>
     <message>
         <source>Audio Decoder failed to start.</source>
         <translation>Audio-Decoder konnte nicht gestartet werden.</translation>
+    </message>
+</context>
+<context>
+    <name>MFAudioDecoderControl</name>
+    <message>
+        <source>Unsupported media type</source>
+        <translation>Nicht unterstützter Medientyp</translation>
+    </message>
+    <message>
+        <source>Media not found</source>
+        <translation>Medium nicht gefunden</translation>
+    </message>
+    <message>
+        <source>Unable to load specified URL</source>
+        <translation>Die angegebene URL konnte nicht geladen werden</translation>
+    </message>
+    <message>
+        <source>Could not instantiate MFDecoderSourceReader</source>
+        <translation>MFDecoderSourceReader konnte nicht instanziiert werden</translation>
+    </message>
+    <message>
+        <source>Invalid media format</source>
+        <translation>Ungültiges Medienformat</translation>
+    </message>
+    <message>
+        <source>Unable to read from specified device</source>
+        <translation>Vom angegebenen Gerät kann nicht gelesen werden</translation>
+    </message>
+    <message>
+        <source>No media source specified</source>
+        <translation>Es wurden keine Medienquelle angegeben</translation>
+    </message>
+    <message>
+        <source>Failed processing a sample</source>
+        <translation>Aufnahme konnte nicht verarbeitet werden</translation>
     </message>
 </context>
 </TS>
