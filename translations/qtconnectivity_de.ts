@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de">
+<TS version="2.1" language="de_DE">
 <context>
     <name>QBluetoothDeviceDiscoveryAgent</name>
     <message>
@@ -78,6 +78,10 @@
     <message>
         <source>Device discovery not supported on this platform</source>
         <translation>Gerätesuchlauf wird auf dieser Plattform nicht unterstützt</translation>
+    </message>
+    <message>
+        <source>Bluetooth adapter powered off.</source>
+        <translation>Bluetooth-Adapter ausgeschaltet.</translation>
     </message>
 </context>
 <context>
@@ -1185,10 +1189,6 @@
         <translation>Gerät ist ausgeschaltet</translation>
     </message>
     <message>
-        <source>Unable to find appointed local adapter</source>
-        <translation>Angegebene Geräteadresse konnte nicht als lokales Gerät identifiziert werden</translation>
-    </message>
-    <message>
         <source>Cannot find local Bluetooth adapter</source>
         <translation>Es konnte kein lokaler Bluetooth-Adapter gefunden werden</translation>
     </message>
@@ -1203,10 +1203,6 @@
     <message>
         <source>Unable to perform SDP scan</source>
         <translation>Es kann kein SDP-Scan durchgeführt werden</translation>
-    </message>
-    <message>
-        <source>Unable to access device</source>
-        <translation>Zugriff auf Gerät nicht möglich</translation>
     </message>
     <message>
         <source>Custom Service</source>
@@ -1346,22 +1342,6 @@
         <source>Invalid Bluetooth address passed to connectToService()</source>
         <translation>Es wurde eine ungültige Bluetooth-Adresse an connectToService() übergeben</translation>
     </message>
-    <message>
-        <source>Unsupported protocol. Win32 only supports RFCOMM sockets</source>
-        <translation>Das Protokoll wird nicht unterstützt. Win32 unterstützt lediglich RFCOMM-Sockets</translation>
-    </message>
-    <message>
-        <source>Failed to create socket</source>
-        <translation>Es konnte kein Socket erzeugt werden</translation>
-    </message>
-    <message>
-        <source>Socket type not handled: %1</source>
-        <translation>Sockettyp nicht unterstützt: %1</translation>
-    </message>
-    <message>
-        <source>Logic error: more bytes sent than passed to ::send</source>
-        <translation>Logischer Fehler: Es wurden mehr Bytes versandt als an ::send übergeben</translation>
-    </message>
 </context>
 <context>
     <name>QBluetoothSocketPrivateAndroid</name>
@@ -1418,25 +1398,6 @@
     <message>
         <source>Push session cannot be started</source>
         <translation>Push-Session konnte nicht gestartet werden</translation>
-    </message>
-</context>
-<context>
-    <name>QBluetoothTransferReplyBluez</name>
-    <message>
-        <source>Unknown Error</source>
-        <translation>Unbekannter Fehler</translation>
-    </message>
-    <message>
-        <source>Could not open file for sending</source>
-        <translation>Datei konnte nicht zum Senden geöffnet werden</translation>
-    </message>
-    <message>
-        <source>The transfer was canceled</source>
-        <translation>Die Übertragung wurde abgebrochen</translation>
-    </message>
-    <message>
-        <source>Operation canceled</source>
-        <translation>Operation abgebrochen</translation>
     </message>
 </context>
 <context>
