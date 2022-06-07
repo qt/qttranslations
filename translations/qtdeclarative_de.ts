@@ -538,6 +538,10 @@
         <translation>Modul &quot;%1&quot; ist nicht installiert</translation>
     </message>
     <message>
+        <source>&quot;%1&quot; is not a valid import URL. You can pass relative paths or URLs with schema, but not absolute paths or resource paths. Try &quot;%2&quot;.</source>
+        <translation>&quot;%1&quot; ist keine gültige URL. Es können relative Pfade oder URLs mit Schema angegeben werden, aber keine absoluten Pfade oder Ressourcen-Pfade. Versuchen Sie &quot;%2&quot;.</translation>
+    </message>
+    <message>
         <source>&quot;%1&quot;: no such directory</source>
         <translation>Das Verzeichnis &quot;%1&quot; existiert nicht</translation>
     </message>
@@ -615,6 +619,14 @@
 </context>
 <context>
     <name>QQmlObjectCreator</name>
+    <message>
+        <source>Cannot instantiate bound inline component in different file</source>
+        <translation>Es kann keine gebundene Inline-Komponente in einer anderen Datei instanziiert werden</translation>
+    </message>
+    <message>
+        <source>Cannot instantiate bound component outside its creation context</source>
+        <translation>Es kann keine gebundene Komponente außerhalb ihres Erstellungskontexts instanziiert werden</translation>
+    </message>
     <message>
         <source>Cannot assign value %1 to property %2</source>
         <translation>Der Wert %1 kann der Eigenschaft %2 nicht zugewiesen werden</translation>
@@ -762,6 +774,14 @@
         <translation>Der Skript-Import erfordert die Angabe eines Qualifizierers.</translation>
     </message>
     <message>
+        <source>Multiple component behavior pragmas found</source>
+        <translation>Es wurden mehrere Komponentenverhalten-Pragmas gefunden</translation>
+    </message>
+    <message>
+        <source>Unknown component behavior &apos;%1&apos; in pragma</source>
+        <translation>Unbekanntes Komponentenverhalten &apos;%1&apos; in Pragma gefunden</translation>
+    </message>
+    <message>
         <source>Multiple list property assign behavior pragmas found</source>
         <translation>Mehrere Verhaltens-Pragmas bei Zuweisung einer Listeneigenschaft gefunden</translation>
     </message>
@@ -788,14 +808,6 @@
     <message>
         <source>Invalid property type modifier</source>
         <translation>Ungültiger Modifikator für den Typ der Eigenschaft</translation>
-    </message>
-    <message>
-        <source>Unexpected property type modifier</source>
-        <translation>Modifikator für den Typ der Eigenschaft an dieser Stelle nicht zulässig</translation>
-    </message>
-    <message>
-        <source>Expected property type</source>
-        <translation>Typangabe für Eigenschaft erwartet</translation>
     </message>
     <message>
         <source>JavaScript declaration outside Script element</source>
@@ -1744,10 +1756,6 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
         <translation>Der Index sollte mit eckigen Klammern anstatt Punkten angegeben werden (bei Zeichen %1).</translation>
     </message>
     <message>
-        <source>The module directory import %1 cannot have a version</source>
-        <translation>Das Modul-Importverzeichnis %1 darf keine Version haben</translation>
-    </message>
-    <message>
         <source>Invalid module name in import %1</source>
         <translation>Ungültiger Modulname bei Import %1</translation>
     </message>
@@ -1857,10 +1865,6 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
     <message>
         <source>Unexpected URI format in import &apos;%1&apos;</source>
         <translation>Unerwartetes URI-Format im Import &apos;%1&apos;</translation>
-    </message>
-    <message>
-        <source>Non existing directory or file referred in URI of import &apos;%1&apos;</source>
-        <translation>Der URI des Imports &apos;%1&apos; referenziert eine nicht existierende Datei oder ein nicht existierendes Verzeichnis</translation>
     </message>
 </context>
 <context>
@@ -1974,8 +1978,12 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
         <translation>LoadInfo %1 wurde bereinigt</translation>
     </message>
     <message>
-        <source>Ignoring dependencies for empty (invalid) type</source>
-        <translation>Die Abhängigkeiten von leeren (ungültigen) Typen werden nicht berücksichtigt</translation>
+        <source>Ignoring dependencies for non resolved path import %1</source>
+        <translation>Ignoriere Abhängigkeiten für nicht aufgelösten Pfadimport %1</translation>
+    </message>
+    <message>
+        <source>Ignoring dependencies for empty (invalid) type %1</source>
+        <translation>Ignoriere Abhängigkeiten für leeren (ungültigen) Typ %1</translation>
     </message>
     <message>
         <source>dependencies of %1 (%2) not yet implemented</source>
@@ -1995,10 +2003,6 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
     <message>
         <source>missing load info in </source>
         <translation>fehlende Information zum Laden in </translation>
-    </message>
-    <message>
-        <source>directory import not yet handled (%1)</source>
-        <translation>Der Import eines Verzeichnisses wird noch nicht verarbeitet (%1)</translation>
     </message>
     <message>
         <source>Failed to find main qmldir file for %1 %2</source>
@@ -2067,17 +2071,6 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
     </message>
 </context>
 <context>
-    <name>QQuickLabsPlatformDialog</name>
-    <message>
-        <source>Dialog is an abstract base class</source>
-        <translation>Dialog ist eine abstrakte Basisklasse</translation>
-    </message>
-    <message>
-        <source>Cannot create an instance of StandardButton</source>
-        <translation>Es kann keine Instanz von StandardButton erstellt werden</translation>
-    </message>
-</context>
-<context>
     <name>QQmlDeferredAndCustomParserBindingScanner</name>
     <message>
         <source>You cannot define both DeferredPropertyNames and ImmediatePropertyNames on the same type.</source>
@@ -2116,55 +2109,6 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
     <message>
         <source>Component definition is missing a name binding.</source>
         <translation>Bei der Komponentendefinition fehlt ein name binding.</translation>
-    </message>
-</context>
-<context>
-    <name>FontDialog</name>
-    <message>
-        <source>Writing System</source>
-        <translation>Schriftsystem</translation>
-    </message>
-</context>
-<context>
-    <name>MessageDialog</name>
-    <message>
-        <source>Hide Details...</source>
-        <translation>Details ausblenden...</translation>
-    </message>
-    <message>
-        <source>Show Details...</source>
-        <translation>Details anzeigen...</translation>
-    </message>
-</context>
-<context>
-    <name>FontDialogContent</name>
-    <message>
-        <source>Family</source>
-        <translation>Schriftart</translation>
-    </message>
-    <message>
-        <source>Style</source>
-        <translation>Schriftstil</translation>
-    </message>
-    <message>
-        <source>Size</source>
-        <translation>Größe</translation>
-    </message>
-    <message>
-        <source>Effects</source>
-        <translation>Effekte</translation>
-    </message>
-    <message>
-        <source>Underline</source>
-        <translation>Unterstrichen</translation>
-    </message>
-    <message>
-        <source>Strikeout</source>
-        <translation>Durchgestrichen</translation>
-    </message>
-    <message>
-        <source>Sample</source>
-        <translation>Beispiel</translation>
     </message>
 </context>
 </TS>

@@ -70,6 +70,10 @@
         <translation>Das Auswerten des Headers der Handshake-Anforderung schlug fehl</translation>
     </message>
     <message>
+        <source>WebSocket server has chosen protocol %1 which has not been requested</source>
+        <translation>Der WebSocket-Server hat das Protokoll %1 gewählt, das nicht angefordert war</translation>
+    </message>
+    <message>
         <source>QWebSocketPrivate::processHandshake: Invalid status line in response: %1.</source>
         <translation>QWebSocketPrivate::processHandshake: Ungültige Statuszeile in Antwort: %1.</translation>
     </message>
@@ -106,8 +110,8 @@
         <translation>Das Attribut für Erweiterungen enthält Zeilenvorschübe. Potentieller Angriff festgestellt.</translation>
     </message>
     <message>
-        <source>The protocols attribute contains newlines. Possible attack detected.</source>
-        <translation>Das Attribut für Protokolle enthält Zeilenvorschübe. Potentieller Angriff festgestellt.</translation>
+        <source>Connection refused</source>
+        <translation>Verbindung abgelehnt</translation>
     </message>
 </context>
 <context>

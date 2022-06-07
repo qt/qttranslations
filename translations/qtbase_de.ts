@@ -1650,6 +1650,30 @@ Möchten Sie die Datei trotzdem löschen?</translation>
         <source>Insecure redirect</source>
         <translation>Unsichere Weiterleitung</translation>
     </message>
+    <message>
+        <source>Unsupported content encoding: %1</source>
+        <translation>Nicht unterstützte Kodierung: %1</translation>
+    </message>
+    <message>
+        <source>Failed to initialize the compression decoder.</source>
+        <translation>Der Kompressions-Dekoder konnte nicht initialisiert werden.</translation>
+    </message>
+    <message>
+        <source>The decompressed output exceeds the limits specified by QNetworkRequest::decompressedSafetyCheckThreshold()</source>
+        <translation>Die Größe der dekomprimierten Ausgabedaten überschreitet die durch QNetworkRequest::decompressedSafetyCheckThreshold() gesetzten Grenzen</translation>
+    </message>
+    <message>
+        <source>Decompression failed: %1</source>
+        <translation>Die Dekomprimierung schlug fehl: %1</translation>
+    </message>
+    <message>
+        <source>Data downloaded is too large to store</source>
+        <translation>Die heruntergeladenen Daten sind zu groß, um gespeichert werden zu können</translation>
+    </message>
+    <message>
+        <source>Failed to initialize decompression: %1</source>
+        <translation>Die Dekomprimierung konnte nicht initialisiert werden: %1</translation>
+    </message>
 </context>
 <context>
     <name>QHttpSocketEngine</name>
@@ -3657,10 +3681,6 @@ Bitte deaktivieren Sie eine der beiden.</translation>
     <message>
         <source>The &apos;From&apos; value cannot be greater than the &apos;To&apos; value.</source>
         <translation>Die Angabe für die erste Seite darf nicht größer sein als die für die letzte Seite.</translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation>OK</translation>
     </message>
 </context>
 <context>
@@ -5847,6 +5867,10 @@ Bitte deaktivieren Sie eine der beiden.</translation>
         <translation>Touchpad aus</translation>
     </message>
     <message>
+        <source>Control</source>
+        <translation>Steuerung</translation>
+    </message>
+    <message>
         <source>Ctrl</source>
         <translation>Strg</translation>
     </message>
@@ -6781,6 +6805,14 @@ Role of an accessible object</extracomment>
     <message>
         <source>Application Configuration</source>
         <translation>Anwendungskonfiguration</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Öffentlich</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Vorlagen</translation>
     </message>
     <message>
         <source>Cache</source>

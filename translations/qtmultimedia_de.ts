@@ -24,6 +24,10 @@
         <translation>Nicht unterstützter Medientyp.</translation>
     </message>
     <message>
+        <source>Connection to server could not be established.</source>
+        <translation>Verbindung zum Server konnte nicht hergestellt werden.</translation>
+    </message>
+    <message>
         <source>Failed to load source.</source>
         <translation>Die Quelle konnte nicht geladen werden.</translation>
     </message>
@@ -80,6 +84,22 @@
         <translation>Unkritischer Fehler der Medien-Session.</translation>
     </message>
     <message>
+        <source>Error reading from the network.</source>
+        <translation>Fehler beim Lesen vom Netzwerk.</translation>
+    </message>
+    <message>
+        <source>Error writing to the network.</source>
+        <translation>Fehler beim Schreiben zum Netzwerk.</translation>
+    </message>
+    <message>
+        <source>Network packets might be blocked by a firewall.</source>
+        <translation>Netzwerkpakete könnten durch eine Firewall blockiert werden.</translation>
+    </message>
+    <message>
+        <source>Media session state error.</source>
+        <translation>Fehlerhafter Status der Medien-Session.</translation>
+    </message>
+    <message>
         <source>Media session serious error.</source>
         <translation>Kritischer Fehler der Medien-Session.</translation>
     </message>
@@ -127,6 +147,14 @@
     <message>
         <source>Platform does not support media playback.</source>
         <translation>Die Plattform unterstützt das Abspielen von Medien nicht.</translation>
+    </message>
+    <message>
+        <source>Could not open file</source>
+        <translation>Die Datei konnte nicht geöffnet werden</translation>
+    </message>
+    <message>
+        <source>Could not find stream information for media file</source>
+        <translation>Es konnten keine Stream-Informationen zur Mediendatei gefunden werden</translation>
     </message>
 </context>
 <context>
@@ -236,92 +264,6 @@
     <message>
         <source>No camera available.</source>
         <translation>Es ist keine Kamera verfügbar.</translation>
-    </message>
-</context>
-<context>
-    <name>BbCameraAudioEncoderSettingsControl</name>
-    <message>
-        <source>No compression</source>
-        <translation>Keine Kompression</translation>
-    </message>
-    <message>
-        <source>AAC compression</source>
-        <translation>AAC-Kompression</translation>
-    </message>
-    <message>
-        <source>PCM uncompressed</source>
-        <translation>PCM unkomprimiert</translation>
-    </message>
-</context>
-<context>
-    <name>BbCameraMediaRecorderControl</name>
-    <message>
-        <source>Unable to retrieve mute status</source>
-        <translation>Status der Stummschaltung konnte nicht bestimmt werden</translation>
-    </message>
-    <message>
-        <source>Unable to retrieve audio input volume</source>
-        <translation>Die Lautstärke des Audioeingangs konnte nicht bestimmt werden</translation>
-    </message>
-    <message>
-        <source>Unable to set mute status</source>
-        <translation>Status der Stummschaltung konnte nicht gesetzt werden</translation>
-    </message>
-    <message>
-        <source>Unable to set audio input volume</source>
-        <translation>Die Lautstärke des Audioeingangs konnte nicht gesetzt werden</translation>
-    </message>
-</context>
-<context>
-    <name>BbCameraSession</name>
-    <message>
-        <source>Camera provides image in unsupported format</source>
-        <translation>Die Kamera erzeugt Bilder in einem nicht unterstützten Format</translation>
-    </message>
-    <message>
-        <source>Could not load JPEG data from frame</source>
-        <translation>Die JPEG-Daten konnten nicht aus dem Bilddaten geladen werden</translation>
-    </message>
-    <message>
-        <source>Unable to apply video settings</source>
-        <translation>Die Videoeinstellungen konnten nicht angewandt werden</translation>
-    </message>
-    <message>
-        <source>Could not open destination file:
-%1</source>
-        <translation>Die Zieldatei konnte nicht geöffnet werden:
-%1</translation>
-    </message>
-    <message>
-        <source>Unable to open camera</source>
-        <translation>Die Kamera konnte nicht geöffnet werden</translation>
-    </message>
-    <message>
-        <source>Unable to retrieve native camera orientation</source>
-        <translation>Die native Kameraausrichtung konnte nicht bestimmt werden</translation>
-    </message>
-    <message>
-        <source>Unable to close camera</source>
-        <translation>Die Kamera konnte nicht geschlossen werden</translation>
-    </message>
-    <message>
-        <source>Unable to stop video recording</source>
-        <translation>Die Videoaufnahme konnte nicht gestoppt werden</translation>
-    </message>
-</context>
-<context>
-    <name>BbCameraVideoEncoderSettingsControl</name>
-    <message>
-        <source>No compression</source>
-        <translation>Keine Kompression</translation>
-    </message>
-    <message>
-        <source>AVC1 compression</source>
-        <translation>AVC1-Kompression</translation>
-    </message>
-    <message>
-        <source>H264 compression</source>
-        <translation>H264-Kompression</translation>
     </message>
 </context>
 <context>
@@ -500,6 +442,10 @@
 <context>
     <name>Decoder</name>
     <message>
+        <source>Cannot set source, invalid mime type for the source provided.</source>
+        <translation>Es kann keine Quelle eingestellt werden; die angegebene Quelle hat einen ungültigen MIME-Typ.</translation>
+    </message>
+    <message>
         <source>Invalid fileDescriptor for source.</source>
         <translation>Ungültiger Dateideskriptor der Quelle.</translation>
     </message>
@@ -561,6 +507,50 @@
     <message>
         <source>Failed processing a sample</source>
         <translation>Aufnahme konnte nicht verarbeitet werden</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidAudioDecoder</name>
+    <message>
+        <source>Error opening temporary file: %1</source>
+        <translation>Fehler beim Öffnen der temporären Datei: %1</translation>
+    </message>
+    <message>
+        <source>Error while writing data to temporary file</source>
+        <translation>Fehler beim Schreiben der temporären Datei</translation>
+    </message>
+</context>
+<context>
+    <name>QFFmpegImageCapture</name>
+    <message>
+        <source>No camera available.</source>
+        <translation>Es ist keine Kamera verfügbar.</translation>
+    </message>
+</context>
+<context>
+    <name>QV4L2Camera</name>
+    <message>
+        <source>Camera is in use.</source>
+        <translation>Kamera bereits in Verwendung.</translation>
+    </message>
+</context>
+<context>
+    <name>QCamera</name>
+    <message>
+        <source>Camera provides image in unsupported format</source>
+        <translation>Die Kamera erzeugt Bilder in einem nicht unterstützten Format</translation>
+    </message>
+    <message>
+        <source>Could not load JPEG data from frame</source>
+        <translation>Die JPEG-Daten konnten nicht aus den Bilddaten geladen werden</translation>
+    </message>
+    <message>
+        <source>Could not overwrite existing file</source>
+        <translation>Existierende Datei konnte nicht überschrieben werden</translation>
+    </message>
+    <message>
+        <source>Could not write image to file</source>
+        <translation>Das Bild konnte nicht in die Datei geschrieben werden</translation>
     </message>
 </context>
 </TS>

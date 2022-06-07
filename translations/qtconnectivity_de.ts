@@ -28,12 +28,12 @@
         <translation>Standortbestimmung abgeschaltet. Suche ist nicht möglich.</translation>
     </message>
     <message>
-        <source>Classic Discovery cannot be started</source>
-        <translation>Standardsuche kann nicht gestartet werden</translation>
+        <source>Failed to start device discovery due to missing permissions.</source>
+        <translation>Gerätesuche konnte wegen fehlender Berechtigungen nicht gestartet werden.</translation>
     </message>
     <message>
-        <source>Low Energy Discovery not supported</source>
-        <translation>Low Energy-Suche wird nicht unterstützt</translation>
+        <source>Classic Discovery cannot be started</source>
+        <translation>Standardsuche kann nicht gestartet werden</translation>
     </message>
     <message>
         <source>Device is powered off</source>
@@ -50,6 +50,10 @@
     <message>
         <source>Unknown error</source>
         <translation>Unbekannter Fehler</translation>
+    </message>
+    <message>
+        <source>Missing permission</source>
+        <translation>Fehlende Berechtigung</translation>
     </message>
     <message>
         <source>Cannot start low energy device inquiry</source>
@@ -99,8 +103,8 @@
         <translation>Die Plattform unterstützt kein Bluetooth</translation>
     </message>
     <message>
-        <source>Android API below v15 does not support SDP discovery</source>
-        <translation>SDP-Suche erfordert Android API Version 15 oder höher</translation>
+        <source>Failed to start service discovery due to missing permissions.</source>
+        <translation>Dienstsuche konnte wegen fehlender Berechtigungen nicht gestartet werden.</translation>
     </message>
     <message>
         <source>Cannot create Android BluetoothDevice</source>
@@ -1267,6 +1271,10 @@
         <translation>Verbindung mit %1 kann nicht hergestellt werden</translation>
     </message>
     <message>
+        <source>Bluetooth socket connect failed due to missing permissions.</source>
+        <translation>Verbinden zum Bluetooth-Socket schlug wegen fehlender Berechtigungen fehl.</translation>
+    </message>
+    <message>
         <source>Input stream thread cannot be started</source>
         <translation>Thread des Eingabestreams konnte nicht gestartet werden</translation>
     </message>
@@ -1419,12 +1427,24 @@
         <translation>Unbekannter Fehler</translation>
     </message>
     <message>
+        <source>Missing permission</source>
+        <translation>Fehlende Berechtigung</translation>
+    </message>
+    <message>
         <source>Error occurred trying to connect to remote device.</source>
         <translation>Beim Aufbau der Verbindung zum Gerät trat ein Fehler auf.</translation>
     </message>
     <message>
+        <source>Error missing permission</source>
+        <translation>Fehler: Fehlende Berechtigung</translation>
+    </message>
+    <message>
         <source>Failed to authorize on the remote device</source>
         <translation>Fehler bei Autorisierung auf dem Gerät</translation>
+    </message>
+    <message>
+        <source>Missing permissions error</source>
+        <translation>Fehler: Fehlende Berechtigungen</translation>
     </message>
     <message>
         <source>Error occurred trying to start advertising</source>

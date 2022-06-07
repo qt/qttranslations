@@ -3266,6 +3266,10 @@ Möchten Sie sie überschreiben?</translation>
 <context>
     <name>WidgetDataBase</name>
     <message>
+        <source>Abstract base class that cannot be instantiated. For promotion/custom widget usage only.</source>
+        <translation>Abstrakte Basisklasse, die nicht instanziiert werden kann. Ausschließlich zur Verwendung mit Promoted Widgets oder benutzerdefinierten Widgets.</translation>
+    </message>
+    <message>
         <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
         <translation>Die Datei enthält ein benutzerdefiniertes Widget &apos;%1&apos; dessen Basisklasse (%2) nicht mit dem Eintrag in der Widget-Datenbank übereinstimmt. Die Widget-Datenbank wird nicht geändert.</translation>
     </message>
