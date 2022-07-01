@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de">
+<TS version="2.1" language="de_DE">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -257,6 +257,26 @@ Es wird mit einer einfachen Universalform gearbeitet.</translation>
     <message>
         <source>Regular &amp;expression</source>
         <translation>&amp;Regulärer Ausdruck</translation>
+    </message>
+    <message>
+        <source>T&amp;ranslation status:</source>
+        <translation>Ü&amp;bersetzungsstatus:</translation>
+    </message>
+    <message>
+        <source>Lets you filter the search target by translation status</source>
+        <translation>Ermöglicht das Eingrenzen der Suche nach Übersetzungsstatus</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Alle</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Erledigt</translation>
+    </message>
+    <message>
+        <source>Unfinished</source>
+        <translation>Unerledigt</translation>
     </message>
 </context>
 <context>
@@ -1265,6 +1285,14 @@ Alle Dateien (*)</translation>
         <source>Mark this item as done.</source>
         <translation>Diesen Eintrag als erledigt markieren.</translation>
     </message>
+    <message>
+        <source>Find P&amp;revious</source>
+        <translation>&amp;Rückwärts suchen</translation>
+    </message>
+    <message>
+        <source>Shift+F3</source>
+        <translation>Shift+F3</translation>
+    </message>
 </context>
 <context>
     <name>MessageEditor</name>
@@ -1655,7 +1683,7 @@ Zeile: %2</translation>
     <name>TranslationSettingsDialog</name>
     <message>
         <source>%1 (%2)</source>
-        <extracomment>&lt;english&gt; (&lt;endonym&gt;) (language and country names)</extracomment>
+        <extracomment>&lt;english&gt; (&lt;endonym&gt;) (language names)</extracomment>
         <translation>%1 (%2)</translation>
     </message>
     <message>

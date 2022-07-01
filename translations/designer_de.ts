@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de">
+<TS version="2.1" language="de_DE">
 <context>
     <name>AbstractFindWidget</name>
     <message>
@@ -3266,6 +3266,10 @@ Möchten Sie sie überschreiben?</translation>
 <context>
     <name>WidgetDataBase</name>
     <message>
+        <source>Abstract base class that cannot be instantiated. For promotion/custom widget usage only.</source>
+        <translation>Abstrakte Basisklasse, die nicht instanziiert werden kann. Ausschließlich zur Verwendung mit Promoted Widgets oder benutzerdefinierten Widgets.</translation>
+    </message>
+    <message>
         <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
         <translation>Die Datei enthält ein benutzerdefiniertes Widget &apos;%1&apos; dessen Basisklasse (%2) nicht mit dem Eintrag in der Widget-Datenbank übereinstimmt. Die Widget-Datenbank wird nicht geändert.</translation>
     </message>
@@ -4502,8 +4506,16 @@ Please select another name.</source>
         <translation>Klassenname:</translation>
     </message>
     <message>
+        <source>Header file for C++ classes or module name for Qt for Python.</source>
+        <translation>Include-Datei für C++-Klassen oder Modulname für Qt for Python.</translation>
+    </message>
+    <message>
         <source>Header file:</source>
         <translation>Include-Datei:</translation>
+    </message>
+    <message>
+        <source>Indicates that the header file is a global header file. Does not have any effect on Qt for Python.</source>
+        <translation>Zeigt an, dass die Include-Datei global ist. Hat keine Bedeutung für Qt for Python.</translation>
     </message>
     <message>
         <source>Global include</source>

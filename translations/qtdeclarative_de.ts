@@ -16,6 +16,10 @@
         <translation>Mehrfaches Auftreten eines Eigenschaftsnamens</translation>
     </message>
     <message>
+        <source>Property duplicates alias name</source>
+        <translation>Eigenschaftsname dupliziert Aliasnamen</translation>
+    </message>
+    <message>
         <source>Property names cannot begin with an upper case letter</source>
         <translation>Eigenschaftsnamen dürfen nicht mit einem Großbuchstaben beginnen</translation>
     </message>
@@ -26,6 +30,10 @@
     <message>
         <source>Duplicate alias name</source>
         <translation>Mehrfaches Auftreten eines Aliasnamens</translation>
+    </message>
+    <message>
+        <source>Alias has same name as existing property</source>
+        <translation>Der Alias hat den Namen einer bereits existierenden Eigenschaft</translation>
     </message>
     <message>
         <source>Alias names cannot begin with an upper case letter</source>
@@ -530,6 +538,10 @@
         <translation>Modul &quot;%1&quot; ist nicht installiert</translation>
     </message>
     <message>
+        <source>&quot;%1&quot; is not a valid import URL. You can pass relative paths or URLs with schema, but not absolute paths or resource paths. Try &quot;%2&quot;.</source>
+        <translation>&quot;%1&quot; ist keine gültige URL. Es können relative Pfade oder URLs mit Schema angegeben werden, aber keine absoluten Pfade oder Ressourcen-Pfade. Versuchen Sie &quot;%2&quot;.</translation>
+    </message>
+    <message>
         <source>&quot;%1&quot;: no such directory</source>
         <translation>Das Verzeichnis &quot;%1&quot; existiert nicht</translation>
     </message>
@@ -607,6 +619,14 @@
 </context>
 <context>
     <name>QQmlObjectCreator</name>
+    <message>
+        <source>Cannot instantiate bound inline component in different file</source>
+        <translation>Es kann keine gebundene Inline-Komponente in einer anderen Datei instanziiert werden</translation>
+    </message>
+    <message>
+        <source>Cannot instantiate bound component outside its creation context</source>
+        <translation>Es kann keine gebundene Komponente außerhalb ihres Erstellungskontexts instanziiert werden</translation>
+    </message>
     <message>
         <source>Cannot assign value %1 to property %2</source>
         <translation>Der Wert %1 kann der Eigenschaft %2 nicht zugewiesen werden</translation>
@@ -754,6 +774,30 @@
         <translation>Der Skript-Import erfordert die Angabe eines Qualifizierers.</translation>
     </message>
     <message>
+        <source>Multiple component behavior pragmas found</source>
+        <translation>Es wurden mehrere Komponentenverhalten-Pragmas gefunden</translation>
+    </message>
+    <message>
+        <source>Unknown component behavior &apos;%1&apos; in pragma</source>
+        <translation>Unbekanntes Komponentenverhalten &apos;%1&apos; in Pragma gefunden</translation>
+    </message>
+    <message>
+        <source>Multiple list property assign behavior pragmas found</source>
+        <translation>Mehrere Verhaltens-Pragmas bei Zuweisung einer Listeneigenschaft gefunden</translation>
+    </message>
+    <message>
+        <source>Unknown list property assign behavior &apos;%1&apos; in pragma</source>
+        <translation>Unbekanntes Verhalten &apos;%1&apos; in Pragma bei Zuweisung einer Listeneigenschaft</translation>
+    </message>
+    <message>
+        <source>Unknown pragma &apos;%1&apos;</source>
+        <translation>Unbekanntes Pragma &apos;%1&apos;</translation>
+    </message>
+    <message>
+        <source>Empty pragma found</source>
+        <translation>Leeres Pragma gefunden</translation>
+    </message>
+    <message>
         <source>Expected parameter type</source>
         <translation>Es wird eine Typangabe für den Parameter erwartet</translation>
     </message>
@@ -766,20 +810,8 @@
         <translation>Ungültiger Modifikator für den Typ der Eigenschaft</translation>
     </message>
     <message>
-        <source>Unexpected property type modifier</source>
-        <translation>Modifikator für den Typ der Eigenschaft an dieser Stelle nicht zulässig</translation>
-    </message>
-    <message>
-        <source>Expected property type</source>
-        <translation>Typangabe für Eigenschaft erwartet</translation>
-    </message>
-    <message>
         <source>JavaScript declaration outside Script element</source>
         <translation>Eine JavaScript-Deklaration ist außerhalb eines Skriptelementes nicht zulässig</translation>
-    </message>
-    <message>
-        <source>Pragma requires a valid qualifier</source>
-        <translation>Das Pragma erfordert einen gültigen Qualifizierer</translation>
     </message>
     <message>
         <source>Imported file must be a script</source>
@@ -889,10 +921,6 @@
     <message>
         <source>Cannot assign a value directly to a grouped property</source>
         <translation>Bei einer Eigenschaft, die Teil einer Gruppierung ist, ist eine direkte Wertzuweisung unzulässig</translation>
-    </message>
-    <message>
-        <source>Attached properties cannot be used here</source>
-        <translation>An dieser Stelle können keine Eigenschaften des Typs &apos;attached&apos; verwendet werden</translation>
     </message>
     <message>
         <source>Invalid property assignment: &quot;%1&quot; is a read-only property</source>
@@ -1061,6 +1089,10 @@
     <message>
         <source>Invalid property assignment: script expected</source>
         <translation>Ungültige Zuweisung bei Eigenschaft: Es wird ein Skript erwartet</translation>
+    </message>
+    <message>
+        <source>%1 properties cannot be used here</source>
+        <translation>%1-Eigenschaften können hier nicht verwendet werden</translation>
     </message>
     <message>
         <source>Invalid property assignment: %1 expected</source>
@@ -1400,37 +1432,6 @@
     </message>
 </context>
 <context>
-    <name>SignalHandlerConverter</name>
-    <message>
-        <source>Non-existent attached object</source>
-        <translation>Das als &quot;attached&quot; angegebene Objekt existiert nicht</translation>
-    </message>
-    <message>
-        <source>Signal uses unnamed parameter followed by named parameter.</source>
-        <translation>Das Signal verwendet einen unbenannten Parameter, auf den ein benannter Parameter folgt.</translation>
-    </message>
-    <message>
-        <source>Signal parameter &quot;%1&quot; hides global variable.</source>
-        <translation>Der Signalparameter &quot;%1&quot; überdeckt eine globale Variable.</translation>
-    </message>
-    <message>
-        <source>&quot;%1.%2&quot; is not available in %3 %4.%5.</source>
-        <translation>&quot;%1.%2&quot; ist in %3 %4.%5 nicht verfügbar.</translation>
-    </message>
-    <message>
-        <source>&quot;%1.%2&quot; is not available due to component versioning.</source>
-        <translation>&quot;%1.%2&quot; ist wegen der Versionierung der Komponente nicht verfügbar.</translation>
-    </message>
-    <message>
-        <source>Cannot assign a value to a signal (expecting a script to be run)</source>
-        <translation>Einem Signal können keine Werte zugewiesen werden (es wird ein ausführbares Skript erwartet)</translation>
-    </message>
-    <message>
-        <source>Incorrectly specified signal assignment</source>
-        <translation>Angegebene Signalzuweisung ist nicht korrekt</translation>
-    </message>
-</context>
-<context>
     <name>qmlRegisterType</name>
     <message>
         <source>Invalid QML %1 name &quot;%2&quot;</source>
@@ -1492,20 +1493,12 @@
         <translation>Unbekannte Zugriffssemantik &quot;%1&quot;.</translation>
     </message>
     <message>
-        <source>Expected only name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isComposite and exportMetaObjectRevisions script bindings, not &quot;%1&quot;.</source>
-        <translation>Es wird name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isComposite oder exportMetaObjectRevisions script bindings erwartet, nicht jedoch &quot;%1&quot;.</translation>
-    </message>
-    <message>
         <source>Expected only script bindings and object definitions.</source>
         <translation>Es werden script bindings oder Objektdefinitionen erwartet.</translation>
     </message>
     <message>
         <source>Component definition is missing a name binding.</source>
         <translation>Bei der Komponentendefinition fehlt ein name binding.</translation>
-    </message>
-    <message>
-        <source>Expected only Parameter object definitions.</source>
-        <translation>Es werden lediglich Parameter-Objektdefinitionen erwartet.</translation>
     </message>
     <message>
         <source>Expected only name and type script bindings.</source>
@@ -1516,16 +1509,20 @@
         <translation>Bei der Methode oder dem Signal fehlt name script binding.</translation>
     </message>
     <message>
+        <source>Expected only name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isComposite, hasCustomParser, exportMetaObjectRevisions, deferredNames, and immediateNames in script bindings, not &quot;%1&quot;.</source>
+        <translation>Es werden nur name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isComposite, hasCustomParser, exportMetaObjectRevisions, deferredNames und immediateNames in script bindings erwartet, nicht jedoch &quot;%1&quot;.</translation>
+    </message>
+    <message>
+        <source>Expected only Parameter in object definitions.</source>
+        <translation>Es werden nur Parameter in Objektdefinitionen erwartet.</translation>
+    </message>
+    <message>
+        <source>Expected only name, type, revision, isPointer, isList, isConstructor, and isJavaScriptFunction in script bindings.</source>
+        <translation>Es werden nur name, type, revision, isPointer, isList, isConstructor und isJavaScriptFunction in script bindings erwartet.</translation>
+    </message>
+    <message>
         <source>Expected script binding.</source>
         <translation>Es wird script binding erwartet.</translation>
-    </message>
-    <message>
-        <source>Expected only type, name, revision, isPointer, isReadonly, bindable, and isList script bindings.</source>
-        <translation>Es wird type, name, revision, isPointer, isReadonly, bindable, oder isList script bindings erwartet.</translation>
-    </message>
-    <message>
-        <source>Property object is missing a name or type script binding.</source>
-        <translation>Beim Eigenschaftsobjekt fehlen name oder type script binding.</translation>
     </message>
     <message>
         <source>Expected only name and values script bindings.</source>
@@ -1580,9 +1577,9 @@
         <translation>Ganzzahlwert erwartet.</translation>
     </message>
     <message>
-        <source>Meta object revision and export version differ, ignoring the revision.
+        <source>Meta object revision and export version differ.
 Revision %1 corresponds to version %2.%3; it should be %4.%5.</source>
-        <translation>Die Meta-Object-Revision und die Export-Version unterscheiden sich; die Revision wird ignoriert.
+        <translation>Die Meta-Object-Revision und die Export-Version unterscheiden sich.
 Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
     </message>
     <message>
@@ -1600,6 +1597,14 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
     <message>
         <source>Expected either array or object literal as enum definition.</source>
         <translation>Die Aufzählungswertdefinition sollte aus einem Feld oder Objektwert bestehen.</translation>
+    </message>
+    <message>
+        <source>Expected only type, name, revision, isPointer, isReadonly, isRequired, isFinal, bindable, read, write, notify, index and isList script bindings.</source>
+        <translation>Es werden type, name, revision, isPointer, isReadonly, isRequired, isFinal, bindable, read, write, notify, index oder isList script bindings erwartet.</translation>
+    </message>
+    <message>
+        <source>Property object is missing a name script binding.</source>
+        <translation>Beim Eigenschaftsobjekt fehlt ein name script binding.</translation>
     </message>
 </context>
 <context>
@@ -1624,28 +1629,80 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
         <translation>Der Root-Pfad darf nur einmal am Anfang stehen; es wurde %1 bei %2 in %3 gefunden.</translation>
     </message>
     <message>
-        <source>Could not find prototype %1</source>
-        <translation>Der Prototyp %1 konnte nicht gefunden werden</translation>
-    </message>
-    <message>
-        <source>@lookupDynamic unimplemented</source>
-        <translation>@lookupDynamic ist nicht implementiert</translation>
-    </message>
-    <message>
-        <source>Unexpected Current path component %1</source>
-        <translation>Unerwartete aktuelle Pfadkomponente %1</translation>
-    </message>
-    <message>
         <source>Root context %1 is not known</source>
         <translation>Unbekannter Root-Kontext %1</translation>
     </message>
     <message>
-        <source>Circular reference:</source>
-        <translation>Zirkuläre Referenz:</translation>
+        <source>Javascript lookups not yet implemented</source>
+        <translation>Javascript-Lookups sind noch nicht impementiert</translation>
     </message>
     <message>
-        <source>@lookupStrict unimplemented</source>
-        <translation>@lookupStrict ist nicht implementiert</translation>
+        <source>Premature end of path, expected a field specifying the type, and a key specifying the name to search after a lookup directive in %2</source>
+        <translation>Vorzeitiges Ende des Pfades; nach der Lookup-Direktive in %2 werden ein Feld, das den Typ angibt, sowie ein Schlüssel, der den zu suchenden Namen angibt, erwartet</translation>
+    </message>
+    <message>
+        <source>Expected a key path specifying the type to search after a lookup directive, not %1 at component %2 of %3</source>
+        <translation>Nach einer Lookup-Direktive wird ein Schlüsselpfad erwartet, der den zu suchenden Typ angibt, nicht jedoch %1 bei Komponente %2 von %3</translation>
+    </message>
+    <message>
+        <source>Type for lookup was expected to be one of &apos;%1&apos;, not %2</source>
+        <translation>Der zu suchende Typ sollte einer von &apos;%1&apos; sein, nicht jedoch %2</translation>
+    </message>
+    <message>
+        <source>Expected a key specifying the path to search after the @lookup directive and type, not %1 at component %2 of %3</source>
+        <translation>Nach Lookup-Direktive und Typangabe wird ein Schlüssel erwartet, der den zu suchenden Pfad angibt, nicht jedoch %1 bei Komponente %2 von %3</translation>
+    </message>
+    <message>
+        <source>Path with empty lookup at component %1 of %2 will match nothing in %3.</source>
+        <translation>Einem Pfad mit einem leeren Lookup bei Komponente %1 von %2 wird nichts in %3 entsprechen.</translation>
+    </message>
+    <message>
+        <source>Prototype chain called outside object</source>
+        <translation>Protoyp-Kette wurde außerhalb eines Objektes aufgerufen</translation>
+    </message>
+    <message>
+        <source>Detected multiple visit of %1 visiting prototypes of %2</source>
+        <translation>Es wurde ein mehrfacher Besuch von %1 beim Abarbeiten der Prototypen von %2 festgestellt</translation>
+    </message>
+    <message>
+        <source>could not resolve prototype %1 (%2)</source>
+        <translation>der Prototyp %1 (%2) konnte nicht aufgelöst werden</translation>
+    </message>
+    <message>
+        <source>Multiple definitions found, using first only, resolving prototype %1 (%2): %3</source>
+        <translation>Es wurden mehrere Definitionen gefunden; lediglich die erste wird benutzt; beim Auflösen des Prototyps %1 (%2): %3</translation>
+    </message>
+    <message>
+        <source>Unexpected prototype type %1 (%2)</source>
+        <translation>Unerwarteter Prototyp-Typ %1 (%2)</translation>
+    </message>
+    <message>
+        <source>Called visitScopeChain outside scopes</source>
+        <translation>visitScopeChain wurde außerhalb eines Gültigkeitsbereichs aufgerufen</translation>
+    </message>
+    <message>
+        <source>Unexpected non scope object %1 (%2) reached in visitScopeChain</source>
+        <translation>In visitScopeChain wurde ein unerwartetes Objekt %1 (%2) außerhalb des Gültigkeitsbereiches erreicht</translation>
+    </message>
+    <message>
+        <source>loadFile called without DomEnvironment or DomUniverse.</source>
+        <translation>loadFile wurde ohne DomEnvironment oder DomUniverse aufgerufen.</translation>
+    </message>
+    <message>
+        <source>loadModuleDependency called without DomEnvironment.</source>
+        <translation>loadModuleDependency wurde ohne DomEnvironment aufgerufen.</translation>
+    </message>
+    <message>
+        <source>Cannot load builtins without DomEnvironment</source>
+        <translation>Builtins können nicht ohne DomEnvironment geladen werden</translation>
+    </message>
+    <message>
+        <source>Called loadPendingDependencies without environment</source>
+        <translation>loadPendingDependencies wurde ohne Umgebung aufgerufen</translation>
+    </message>
+    <message>
+        <source>Circular reference:</source>
+        <translation>Zirkuläre Referenz:</translation>
     </message>
 </context>
 <context>
@@ -1698,16 +1755,360 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
         <source>Index should use square brackets and not a dot (at char %1).</source>
         <translation>Der Index sollte mit eckigen Klammern anstatt Punkten angegeben werden (bei Zeichen %1).</translation>
     </message>
+    <message>
+        <source>Invalid module name in import %1</source>
+        <translation>Ungültiger Modulname bei Import %1</translation>
+    </message>
+    <message>
+        <source>Invalid Version %1</source>
+        <translation>Ungültige Version %1</translation>
+    </message>
 </context>
 <context>
     <name>DomUniverse</name>
     <message>
-        <source>Ignoring request to load file of unknown type %1, calling callback immediately</source>
-        <translation>Die Anforderung, eine Datei des unbekannten Typs %1 zu laden, wird ignoriert, der Callback wird unmittelbar ausgeführt</translation>
+        <source>Ignoring request to load file %1 of unexpected type %2, calling callback immediately</source>
+        <translation>Die Anforderung zum Laden der Datei %1 des unerwarteten Typs %2 wird ignoriert; callback wird direkt aufgerufen</translation>
     </message>
     <message>
         <source>Ignoring callback for loading of %1: universe is not valid anymore</source>
         <translation>Der Callback für das Laden von %1 wird ignoriert: Universum ist nicht mehr gültig</translation>
+    </message>
+    <message>
+        <source>Non existing path %1</source>
+        <translation>Der Pfad %1 existiert nicht</translation>
+    </message>
+    <message>
+        <source>Error opening path %1: %2 %3</source>
+        <translation>Fehler beim Öffnen des Pfades %1: %2 %3</translation>
+    </message>
+</context>
+<context>
+    <name>SignalHandlerResolver</name>
+    <message>
+        <source>Non-existent attached object</source>
+        <translation>Das Objekt des Typs &apos;attached&apos; existiert nicht</translation>
+    </message>
+    <message>
+        <source>Signal uses unnamed parameter followed by named parameter.</source>
+        <translation>Das Signal verwendet einen namenlosen Parameter gefolgt von einem Parameter mit Namen.</translation>
+    </message>
+    <message>
+        <source>Signal parameter &quot;%1&quot; hides global variable.</source>
+        <translation>Der Signalparameter &quot;%1&quot; überdeckt eine globale Variable.</translation>
+    </message>
+    <message>
+        <source>&quot;%1.%2&quot; is not available in %3 %4.%5.</source>
+        <translation>&quot;%1.%2&quot; ist in %3 %4.%5 nicht verfügbar.</translation>
+    </message>
+    <message>
+        <source>&quot;%1.%2&quot; is not available due to component versioning.</source>
+        <translation>&quot;%1.%2&quot; ist in dieser Version der Komponente nicht verfügbar.</translation>
+    </message>
+    <message>
+        <source>Cannot assign a value to a signal (expecting a script to be run)</source>
+        <translation>Einem Signal können keine Werte zugewiesen werden (es wird ein ausführbares Skript erwartet)</translation>
+    </message>
+    <message>
+        <source>Incorrectly specified signal assignment</source>
+        <translation>Angegebene Signalzuweisung ist nicht korrekt</translation>
+    </message>
+</context>
+<context>
+    <name>QmlDomAstCreator</name>
+    <message>
+        <source>id is a special attribute, that should not be used as property name</source>
+        <translation>id ist ein spezielles Attribut, das nicht als Eigenschaftsname verwendet werden sollte</translation>
+    </message>
+    <message>
+        <source>id attributes should only be a lower case letter followed by letters, numbers or underscore, assuming they refer to an id property</source>
+        <translation>id-Attribute sollten lediglich aus einem Kleinbuchstaben gefolgt von Buchstaben, Ziffern oder Unterstrichzeichen bestehen, sofern sie sich auf eine id-Eigenschaft beziehen</translation>
+    </message>
+    <message>
+        <source>id attributes should only be a lower case letter followed by letters, numbers or underscore, not %1 %2, assuming they refer to a property</source>
+        <translation>id-Attribute sollten lediglich aus einem Kleinbuchstaben gefolgt von Buchstaben, Ziffern oder Unterstrichzeichen bestehen, nicht jedoch %1 %2, sofern sie sich auf eine Eigenschaft beziehen</translation>
+    </message>
+    <message>
+        <source>id attributes should have only simple strings as values</source>
+        <translation>id-Attribute sollten nur einfache Zeichenketten als Werte haben</translation>
+    </message>
+    <message>
+        <source>Maximum statement or expression depth exceeded in QmlDomAstCreator</source>
+        <translation>Maximale Anweisungs- oder Ausdruckstiefe in QmlDomAstCreator überschritten</translation>
+    </message>
+    <message>
+        <source>id attributes should only be a lower case letter followed by letters, numbers or underscore, not %1</source>
+        <translation>id-Attribute sollten aus einem Kleinbuchstaben und einer Folge von Buchstaben, Ziffern oder Unterstrich-Zeichen bestehen, nicht jedoch %1</translation>
+    </message>
+</context>
+<context>
+    <name>CommentInfo</name>
+    <message>
+        <source>Unexpected comment start %1</source>
+        <translation>Unerwarteter Kommentarbeginn %1</translation>
+    </message>
+    <message>
+        <source>Non whitespace char %1 after comment end at %2</source>
+        <translation>Zeichen %1 nach dem Ende des Kommentars bei %2 ist kein Leerzeichen</translation>
+    </message>
+</context>
+<context>
+    <name>Import</name>
+    <message>
+        <source>Version %1 in import string &apos;%2&apos; overridden by explicit version %3</source>
+        <translation>Version %1 im Import &apos;%2&apos; wird durch die explizite Versionsangabe %3 überschrieben</translation>
+    </message>
+    <message>
+        <source>namespace %1 in import string &apos;%2&apos; overridden by explicit importId %3</source>
+        <translation>Namensraum %1 im Import &apos;%2&apos; wird durch die explizite importId %3 überschrieben</translation>
+    </message>
+    <message>
+        <source>Unexpected URI format in import &apos;%1&apos;</source>
+        <translation>Unerwartetes URI-Format im Import &apos;%1&apos;</translation>
+    </message>
+</context>
+<context>
+    <name>QmlObject</name>
+    <message>
+        <source>Repeated PropertyDefinition with name %1</source>
+        <translation>Wiederholt auftretende Eigenschaftsdefinition mit dem Namen %1</translation>
+    </message>
+    <message>
+        <source>Repeated binding with name %1</source>
+        <translation>Wiederholt auftretendes Binding mit dem Namen %1</translation>
+    </message>
+    <message>
+        <source>Repeated Method with name %1</source>
+        <translation>Wiederholt auftretende Methode mit dem Namen %1</translation>
+    </message>
+</context>
+<context>
+    <name>Export</name>
+    <message>
+        <source>Expected string literal to contain &apos;Package/Name major.minor&apos; or &apos;Name major.minor&apos; not &apos;%1&apos;.</source>
+        <translation>Der Zeichenkettenwert sollte &apos;Package/Name major.minor&apos; oder &apos;Name major.minor&apos; enthalten, nicht jedoch &apos;%1&apos;.</translation>
+    </message>
+</context>
+<context>
+    <name>ScriptExpression</name>
+    <message>
+        <source>Parsing of code failed</source>
+        <translation>Auswertung des Codes schlug fehl</translation>
+    </message>
+</context>
+<context>
+    <name>ImportScope</name>
+    <message>
+        <source>Looking up &apos;%1&apos; expected a list of exports, not %2</source>
+        <translation>Beim Lookup von &apos;%1&apos; wurde eine Liste von Exporten erwartet, nicht jedoch %2</translation>
+    </message>
+    <message>
+        <source>Expected Export looking up &apos;%1&apos;, not %2</source>
+        <translation>Beim Lookup von &apos;%1&apos; wurde ein Export erwartet, nicht jedoch %2</translation>
+    </message>
+</context>
+<context>
+    <name>QmldirFile</name>
+    <message>
+        <source>QmldirFile started from invalid path &apos;%1&apos;</source>
+        <translation>QmldirFile von ungültigem Pfad &apos;%1&apos; gestartet</translation>
+    </message>
+    <message>
+        <source>canonicalFilePath is empty</source>
+        <translation>canonicalFilePath ist leer</translation>
+    </message>
+</context>
+<context>
+    <name>FileWriter</name>
+    <message>
+        <source>Could not create temp file for %1</source>
+        <translation>Es konnte keine temporäre Datei für %1 erzeugt werden</translation>
+    </message>
+    <message>
+        <source>Rename of file %1 to %2 failed</source>
+        <translation>Das Umbenennen der Datei %1 in %2 schlug fehl</translation>
+    </message>
+    <message>
+        <source>Error while writing</source>
+        <translation>Fehler beim Schreiben</translation>
+    </message>
+    <message>
+        <source>Exception trying to write file %1</source>
+        <translation>Ausnahmefehler beim Schreiben der Datei %1</translation>
+    </message>
+</context>
+<context>
+    <name>CppTypeInfo</name>
+    <message>
+        <source>Unexpected complex CppType %1</source>
+        <translation>Unerwarteter komplexer C++-Typ %1</translation>
+    </message>
+    <message>
+        <source>Unexpected complex CppType %1 (map with non QString key)</source>
+        <translation>Unerwarteter komplexer C++-Typ %1 (map mit Schlüssel, der kein QString ist)</translation>
+    </message>
+</context>
+<context>
+    <name>ModuleIndex</name>
+    <message>
+        <source>Module %1 (unversioned) has versioned entries for &apos;%2&apos; from %3</source>
+        <translation>Modul %1 (nicht versioniert) hat versionierte Einträge für &apos;%2&apos; von %3</translation>
+    </message>
+    <message>
+        <source>Module %1 (major version %2) has versioned and unversioned entries for &apos;%3&apos;</source>
+        <translation>Modul %1 (Major Version %2) hat sowohl versionierte als auch nicht-versionierte Einträge für &apos;%3&apos;</translation>
+    </message>
+    <message>
+        <source>Failed to find main qmldir file for %1 %2</source>
+        <translation>Die Haupt-qmldir-Datei für %1 %2 konnte nicht gefunden werden</translation>
+    </message>
+</context>
+<context>
+    <name>LoadInfo</name>
+    <message>
+        <source>advanceLoad called but found no work, which should never happen</source>
+        <translation>Es wurde advanceLoad aufgerufen, aber keine zu erledigende Arbeit gefunden, was nicht vorkommen sollte</translation>
+    </message>
+    <message>
+        <source>advanceLoad called after work should have been done, which should never happen</source>
+        <translation>Es wurde advanceLoad aufgerufen nachdem die Arbeit beendet sein sollte, was nicht vorkommen sollte</translation>
+    </message>
+    <message>
+        <source>Uninitialized LoadInfo %1</source>
+        <translation>LoadInfo %1 wurde bereinigt</translation>
+    </message>
+    <message>
+        <source>Ignoring dependencies for non resolved path import %1</source>
+        <translation>Ignoriere Abhängigkeiten für nicht aufgelösten Pfadimport %1</translation>
+    </message>
+    <message>
+        <source>Ignoring dependencies for empty (invalid) type %1</source>
+        <translation>Ignoriere Abhängigkeiten für leeren (ungültigen) Typ %1</translation>
+    </message>
+    <message>
+        <source>dependencies of %1 (%2) not yet implemented</source>
+        <translation>Abhängigkeiten von %1 (%2) sind nicht implementiert</translation>
+    </message>
+</context>
+<context>
+    <name>DomEnvironment</name>
+    <message>
+        <source>Non existing path to load: &apos;%1&apos;</source>
+        <translation>Der zu ladende Pfad &apos;%1&apos; existiert nicht</translation>
+    </message>
+    <message>
+        <source>Unexpected file to load: &apos;%1&apos;</source>
+        <translation>Zu ladende Datei &apos;%1&apos; ist unerwartet</translation>
+    </message>
+    <message>
+        <source>missing load info in </source>
+        <translation>fehlende Information zum Laden in </translation>
+    </message>
+    <message>
+        <source>Failed to find main qmldir file for %1 %2</source>
+        <translation>Die Haupt-qmldir-Datei für %1 %2 konnte nicht gefunden werden</translation>
+    </message>
+    <message>
+        <source>Missing loadInfo for %1</source>
+        <translation>fehlende Information zum Laden für %1</translation>
+    </message>
+    <message>
+        <source>Could not find builtins.qmltypes file</source>
+        <translation>Die Datei builtins.qmltypes konnte nicht gefunden werden</translation>
+    </message>
+    <message>
+        <source>Could not get path for newly created ModuleIndex %1 %2</source>
+        <translation>Es konnte kein Pfad für den neu erstellten Modul-Index %1 %2 erhalten werden</translation>
+    </message>
+    <message>
+        <source>Unexpected path not ending with qmldir in qmldirFilePaths: %1</source>
+        <translation>Ein Pfad, der nicht auf qmldir endet, ist in qmldirFilePaths unerwartet: %1</translation>
+    </message>
+    <message>
+        <source>A mutable module was requested in a multithreaded environment</source>
+        <translation>Ein Modul des Typs mutable wurde in einer Multithread-Umgebung angefordert</translation>
+    </message>
+    <message>
+        <source>addLoadinfo replaces unfinished load info for %1</source>
+        <translation>addLoadinfo ersetzt unvollständige Ladeinformation für %1</translation>
+    </message>
+</context>
+<context>
+    <name>XmlListModelRoleList</name>
+    <message>
+        <source>An XmlListModel query must start with &apos;/&apos;</source>
+        <translation>Eine XmlListModel-Abfrage muss mit &apos;/&apos; beginnen</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlXmlListModel</name>
+    <message>
+        <source>&quot;%1&quot; duplicates a previous role name and will be disabled.</source>
+        <translation>&quot;%1&quot; dupliziert einen existierenden Rollennamen und wird deaktiviert.</translation>
+    </message>
+    <message>
+        <source>Failed to create an instance of QRunnable query object</source>
+        <translation>Es konnte keine Instanz des QRunnable-Abfrageobjektes erstellt werden</translation>
+    </message>
+    <message>
+        <source>Query error: &quot;%1&quot;</source>
+        <translation>Abfragefehler: &quot;%1&quot;</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlXmlListModelRole</name>
+    <message>
+        <source>An XML element must not start with &apos;/&apos;</source>
+        <translation>Ein XML-Element darf nicht mit &apos;/&apos; beginnen</translation>
+    </message>
+    <message>
+        <source>An XML element must not end with &apos;/&apos;</source>
+        <translation>Ein XML-Element darf nicht auf &apos;/&apos; enden</translation>
+    </message>
+    <message>
+        <source>An XML element must not contain &quot;//&quot;</source>
+        <translation>Ein XML-Element darf nicht &quot;//&apos; enthalten</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlDeferredAndCustomParserBindingScanner</name>
+    <message>
+        <source>You cannot define both DeferredPropertyNames and ImmediatePropertyNames on the same type.</source>
+        <translation>DeferredPropertyNames und ImmediatePropertyNames können nicht zusammen für denselben Typ angegeben werden.</translation>
+    </message>
+    <message>
+        <source>You cannot assign an id to an object assigned to a deferred property.</source>
+        <translation>Einem Objekt, was einer Eigenschaft des Typs Deferred zugeordnet ist, kann keine Id zugewiesen werden.</translation>
+    </message>
+    <message>
+        <source>Cannot assign to non-existent property &quot;%1&quot;</source>
+        <translation>Es kann keine Zuweisung erfolgen, da keine Eigenschaft des Namens &quot;%1&quot; existiert</translation>
+    </message>
+</context>
+<context>
+    <name>Dom::filteTypeForPath</name>
+    <message>
+        <source>Could not detect type of file %1</source>
+        <translation>Der Typ der Datei %1 konnte nicht bestimmt werden</translation>
+    </message>
+</context>
+<context>
+    <name>TypeDescriptionReader</name>
+    <message>
+        <source>Property object is missing a name or type script binding.</source>
+        <translation>Bei dem Eigenschaftsobjekt fehlt der Name oder das type script binding.</translation>
+    </message>
+    <message>
+        <source>Method or signal is missing a name.</source>
+        <translation>Bei der Methode oder dem Signal fehlt der Name.</translation>
+    </message>
+    <message>
+        <source>negative meta revision %1 not supported</source>
+        <translation>Negative Meta-Revision %1 ist nicht unterstützt</translation>
+    </message>
+    <message>
+        <source>Component definition is missing a name binding.</source>
+        <translation>Bei der Komponentendefinition fehlt ein name binding.</translation>
     </message>
 </context>
 </TS>

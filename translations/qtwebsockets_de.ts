@@ -54,24 +54,32 @@
         <translation>Es konnten nicht alle Daten geschrieben werden: %1 != %2.</translation>
     </message>
     <message>
-        <source>Invalid statusline in response: %1.</source>
-        <translation>Ungültige Statuszeile in Antwort: %1.</translation>
+        <source>Header is too large</source>
+        <translation>Der Header ist zu groß</translation>
     </message>
     <message>
-        <source>Malformed header in response: %1.</source>
-        <translation>Die Antwort enthält einen ungültigen Header: %1.</translation>
+        <source>Read handshake request header failed</source>
+        <translation>Das Lesen des Headers der Handshake-Anforderung schlug fehl</translation>
     </message>
     <message>
-        <source>QWebSocketPrivate::processHandshake: Connection closed while reading header.</source>
-        <translation>QWebSocketPrivate::processHandshake: Verbindung während des Auslesens des Headers geschlossen.</translation>
+        <source>Read handshake request status failed</source>
+        <translation>Das Lesen des Status der Handshake-Anforderung schlug fehl</translation>
+    </message>
+    <message>
+        <source>Parsing handshake request header failed</source>
+        <translation>Das Auswerten des Headers der Handshake-Anforderung schlug fehl</translation>
+    </message>
+    <message>
+        <source>WebSocket server has chosen protocol %1 which has not been requested</source>
+        <translation>Der WebSocket-Server hat das Protokoll %1 gewählt, das nicht angefordert war</translation>
+    </message>
+    <message>
+        <source>QWebSocketPrivate::processHandshake: Invalid status line in response: %1.</source>
+        <translation>QWebSocketPrivate::processHandshake: Ungültige Statuszeile in Antwort: %1.</translation>
     </message>
     <message>
         <source>Accept-Key received from server %1 does not match the client key %2.</source>
         <translation>Der Accept-Schlüssel vom Server %1 entspricht nicht dem Schlüssel des Clients %2.</translation>
-    </message>
-    <message>
-        <source>QWebSocketPrivate::processHandshake: Invalid statusline in response: %1.</source>
-        <translation>QWebSocketPrivate::processHandshake: Ungültige Statuszeile in Antwort: %1.</translation>
     </message>
     <message>
         <source>Handshake: Server requests a version that we don&apos;t support: %1.</source>
@@ -102,8 +110,8 @@
         <translation>Das Attribut für Erweiterungen enthält Zeilenvorschübe. Potentieller Angriff festgestellt.</translation>
     </message>
     <message>
-        <source>The protocols attribute contains newlines. Possible attack detected.</source>
-        <translation>Das Attribut für Protokolle enthält Zeilenvorschübe. Potentieller Angriff festgestellt.</translation>
+        <source>Connection refused</source>
+        <translation>Verbindung abgelehnt</translation>
     </message>
 </context>
 <context>

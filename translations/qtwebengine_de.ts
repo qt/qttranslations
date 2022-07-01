@@ -296,32 +296,6 @@
         <source>Insert &amp;Unordered List</source>
         <translation>&amp;Liste einfügen</translation>
     </message>
-    <message>
-        <source>Select folder to upload</source>
-        <translation>Verzeichnis zum Hochladen</translation>
-    </message>
-</context>
-<context>
-    <name>QtWebEnginePlugin</name>
-    <message>
-        <source>Cannot create separate instance of WebEngineNewViewRequest</source>
-        <translation>Es kann keine separate Instanz der Klasse WebEngineNewViewRequest erstellt werden</translation>
-    </message>
-    <message>
-        <source>Cannot create separate instance of %1</source>
-        <translation>Es kann keine separate Instanz der Klasse %1 erstellt werden</translation>
-    </message>
-</context>
-<context>
-    <name>QtWebEngineTestSupportPlugin</name>
-    <message>
-        <source>Cannot create a separate instance of WebEngineErrorPage</source>
-        <translation>Es kann keine separate Instanz der Klasse WebEngineErrorPage erstellt werden</translation>
-    </message>
-    <message>
-        <source>Cannot create a separate instance of WebEngineTestEvent</source>
-        <translation>Es kann keine separate Instanz der Klasse WebEngineTestEvent erstellt werden</translation>
-    </message>
 </context>
 <context>
     <name>RenderViewContextMenuQt</name>
@@ -462,6 +436,107 @@
     <message>
         <source>HTTP-POST data can only be sent over HTTP(S) protocol</source>
         <translation>HTTP-POST-Daten können nur über das HTTP(S)-Protokoll versendet werden</translation>
+    </message>
+</context>
+<context>
+    <name>FilePickerController</name>
+    <message>
+        <source>Accepted types (%1)</source>
+        <translation>Zulässige Typen (%1)</translation>
+    </message>
+</context>
+<context>
+    <name>QWebEngineView</name>
+    <message>
+        <source>Select folder to upload</source>
+        <translation>Verzeichnis zum Hochladen</translation>
+    </message>
+</context>
+<context>
+    <name>AlertDialog</name>
+    <message>
+        <source>Alert Dialog</source>
+        <translation>Benachrichtigungsdialog</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+</context>
+<context>
+    <name>AuthenticationDialog</name>
+    <message>
+        <source>Authentication Required</source>
+        <translation>Authentifizierung erforderlich</translation>
+    </message>
+    <message>
+        <source>Username:</source>
+        <translation>Benutzername:</translation>
+    </message>
+    <message>
+        <source>Password:</source>
+        <translation>Passwort:</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Abbrechen</translation>
+    </message>
+    <message>
+        <source>Log In</source>
+        <translation>Einloggen</translation>
+    </message>
+</context>
+<context>
+    <name>ColorDialog</name>
+    <message>
+        <source>Color Picker Dialog</source>
+        <translation>Farbauswahldialog</translation>
+    </message>
+    <message>
+        <source>Copy color</source>
+        <translation>Farbe kopieren</translation>
+    </message>
+    <message>
+        <source>Paste</source>
+        <translation>Einfügen</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Anwenden</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Abbrechen</translation>
+    </message>
+</context>
+<context>
+    <name>ConfirmDialog</name>
+    <message>
+        <source>Confirm Dialog</source>
+        <translation>Bestätigungsdialog</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Abbrechen</translation>
+    </message>
+</context>
+<context>
+    <name>PromptDialog</name>
+    <message>
+        <source>Prompt Dialog</source>
+        <translation>Abfragedialog</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Abbrechen</translation>
     </message>
 </context>
 </TS>
