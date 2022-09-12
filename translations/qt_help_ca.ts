@@ -24,7 +24,7 @@
     </message>
     <message>
         <source>The search results may not be complete since the documentation is still being indexed.</source>
-        <translation type="vanished">És possible que els resultats de la cerca no estiguin complets ja que la documentació encara s&apos;està indexant.</translation>
+        <translation type="vanished">És possible que els resultats de la cerca no estiguin complets, ja que la documentació encara s&apos;està indexant.</translation>
     </message>
     <message>
         <source>Your search did not match any documents.</source>
@@ -54,7 +54,7 @@
     </message>
     <message>
         <source>Cannot load sqlite database driver.</source>
-        <translation>No s&apos;ha pogut carregar el controlador per a la base de dades SQLite.</translation>
+        <translation>No s&apos;ha pogut carregar el controlador de base de dades SQLite.</translation>
     </message>
     <message>
         <source>Cannot open collection file: %1</source>
@@ -253,7 +253,7 @@
     </message>
     <message>
         <source>No output file name specified.</source>
-        <translation type="vanished">No s&apos;ha especificat cap nom de fitxer per a la sortida.</translation>
+        <translation type="vanished">No s&apos;ha especificat cap nom de fitxer de sortida.</translation>
     </message>
     <message>
         <source>The file %1 cannot be overwritten.</source>
@@ -285,7 +285,7 @@
     </message>
     <message>
         <source>Some tables already exist.</source>
-        <translation type="vanished">Algunas taules ja existeixen.</translation>
+        <translation type="vanished">Algunes taules ja existeixen.</translation>
     </message>
     <message>
         <source>Cannot create tables.</source>
@@ -325,7 +325,7 @@
     </message>
     <message>
         <source>Cannot insert contents.</source>
-        <translation type="vanished">No s&apos;ha pogut introduïr el contingut.</translation>
+        <translation type="vanished">No s&apos;ha pogut introduir el contingut.</translation>
     </message>
     <message>
         <source>Cannot register contents.</source>
@@ -356,7 +356,7 @@
     </message>
     <message>
         <source>Unknown token. Expected &quot;QtHelpProject&quot;.</source>
-        <translation type="vanished">Testimoni desconegut. S&apos;esperaba «QtHelpProject».</translation>
+        <translation type="vanished">Testimoni desconegut. S&apos;esperava «QtHelpProject».</translation>
     </message>
     <message>
         <source>Error in line %1: %2</source>
@@ -368,7 +368,7 @@
     </message>
     <message>
         <source>Namespace &quot;%1&quot; has invalid syntax in file: &quot;%2&quot;</source>
-        <translation type="vanished">L&apos;espai de noms «%1» té una sintaxis no vàlida al fitxer: «%2»</translation>
+        <translation type="vanished">L&apos;espai de noms «%1» té una sintaxi no vàlida al fitxer: «%2»</translation>
     </message>
     <message>
         <source>Missing namespace in QtHelpProject file: &quot;%1&quot;</source>
@@ -463,7 +463,7 @@
     </message>
     <message>
         <source>The search results may not be complete since the documentation is still being indexed.</source>
-        <translation>És possible que els resultats de la cerca no estiguin complets ja que la documentació encara s&apos;està indexant.</translation>
+        <translation>És possible que els resultats de la cerca no estiguin complets, ja que la documentació encara s&apos;està indexant.</translation>
     </message>
     <message>
         <source>Your search did not match any documents.</source>

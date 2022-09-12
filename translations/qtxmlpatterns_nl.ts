@@ -5,11 +5,36 @@
     <extra-po-header-language_team>Dutch &lt;kde-i18n-nl@kde.org&gt;</extra-po-header-language_team>
     <extra-po-header-last_translator>Freek de Kruijf &lt;freekdekruijf@kde.nl&gt;</extra-po-header-last_translator>
     <extra-po-header-plural_forms>nplurals=2; plural=(n != 1);</extra-po-header-plural_forms>
-    <extra-po-header-po_revision_date>2018-04-19 13:52+0100</extra-po-header-po_revision_date>
+    <extra-po-header-po_revision_date>2020-11-25 15:32+0100</extra-po-header-po_revision_date>
     <extra-po-header-project_id_version></extra-po-header-project_id_version>
-    <extra-po-header-x_generator>Lokalize 2.0</extra-po-header-x_generator>
-    <extra-po-header_comment># Freek de Kruijf &lt;freek@opensuse.org&gt;, 2014, 2018.</extra-po-header_comment>
+    <extra-po-header-x_generator>Lokalize 20.08.3</extra-po-header-x_generator>
+    <extra-po-header_comment># Freek de Kruijf &lt;freek@opensuse.org&gt;, 2014, 2018, 2020.</extra-po-header_comment>
     <extra-po-headers>Project-Id-Version,PO-Revision-Date,Last-Translator,Language-Team,Language,MIME-Version,Content-Type,Content-Transfer-Encoding,X-Qt-Contexts,Plural-Forms,X-Generator</extra-po-headers>
+<context>
+    <name>QQuickXmlListModel</name>
+    <message>
+        <source>&quot;%1&quot; duplicates a previous role name and will be disabled.</source>
+        <translation>&quot;%1&quot; dupliceert een eerdere naam van een rol en zal uitgeschakeld worden.</translation>
+    </message>
+    <message>
+        <source>invalid query: &quot;%1&quot;</source>
+        <translation>ongeldig verzoek: &quot;%1&quot;</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickXmlListModelRole</name>
+    <message>
+        <source>An XmlRole query must not start with &apos;/&apos;</source>
+        <translation>Een XmlRole verzoek mag niet beginnen met &apos;/&apos;</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickXmlRoleList</name>
+    <message>
+        <source>An XmlListModel query must start with &apos;/&apos; or &quot;//&quot;</source>
+        <translation>Een XmlListModel verzoek mag niet beginnen met &apos;/&apos; &quot;//&quot;</translation>
+    </message>
+</context>
 <context>
     <name>QXmlPatternistCLI</name>
     <message>
@@ -926,8 +951,8 @@
         <translation>Het itemtypesoort van %1 moet of atomic of union zijn.</translation>
     </message>
     <message>
-        <source>Variety of member types of %1 must be atomic.</source>
-        <translation>Het membertypesoort van %1 moet atomic zijn.</translation>
+        <source>Variety of member types of %1 must be atomic or union.</source>
+        <translation>Membertypesoort van %1 moet atomic of union zijn.</translation>
     </message>
     <message>
         <source>%1 is not allowed to derive from %2 by list as the latter defines it as final.</source>
@@ -1888,6 +1913,10 @@
     <message>
         <source>Field %1 has no simple type.</source>
         <translation>Veld %1 is geen eenvoudig type.</translation>
+    </message>
+    <message>
+        <source>Field %1 is missing its simple type.</source>
+        <translation>Veld %1 heeft geen eenvoudig type.</translation>
     </message>
     <message>
         <source>ID value &apos;%1&apos; is not unique.</source>

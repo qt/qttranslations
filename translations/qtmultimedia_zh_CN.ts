@@ -5,7 +5,7 @@
     <name>AudioContainerControl</name>
     <message>
         <source>RAW (headerless) file format</source>
-        <translation>RAW（无头）文件格式</translation>
+        <translation>RAW (无文件头) 文件格式</translation>
     </message>
     <message>
         <source>WAV file format</source>
@@ -63,7 +63,8 @@
     </message>
     <message>
         <source>Failed to connect graph</source>
-        <translation>连接图形失败</translation>
+        <translatorcomment>graph 是一个特定单词，应该指向的是相机图像信息的“直方图”图表。结合后面的 filter graph，更加明显是直方图。滤镜是非图形的，它们一般都是通过调整直方图曲线来实现对图像的处理。</translatorcomment>
+        <translation>连接图表失败</translation>
     </message>
     <message>
         <source>Failed to get stream control</source>
@@ -79,7 +80,7 @@
     </message>
     <message>
         <source>Camera not ready for capture</source>
-        <translation>相机未准备好捕获</translation>
+        <translation>相机尚未准备好进行捕获</translation>
     </message>
     <message>
         <source>Could not save image to file.</source>
@@ -87,15 +88,18 @@
     </message>
     <message>
         <source>Failed to create filter graph</source>
-        <translation>无法创建过滤器图形</translation>
+        <translatorcomment>此为相机语境。在此语境中 filter 几乎肯定意味着“滤镜”。滤镜是非图形的，它们一般都是通过调整直方图曲线来实现对图像的处理。因为直方图就是图表，因此此处就应该翻译为“滤镜图表”。</translatorcomment>
+        <translation>创建滤镜图表失败</translation>
     </message>
     <message>
         <source>Failed to create graph builder</source>
-        <translation>无法创建图形构建器</translation>
+        <translatorcomment>这是相机语境。且上下文有 filter，在此语境中 filter 几乎肯定意味着“滤镜”。滤镜是非图形的，它们一般都是通过调整直方图曲线来实现对图像的处理。因为直方图就是图表，因此此处就应该翻译为“图表”。</translatorcomment>
+        <translation>创建图表生成器失败</translation>
     </message>
     <message>
         <source>Failed to connect capture graph and filter graph</source>
-        <translation>无法连接捕获图形和过滤器图形</translation>
+        <translatorcomment>结合前面几项理解，capture graph 就是捕获图像的直方图，而filter graph 就是滤镜的直方图。它们均属于图表。</translatorcomment>
+        <translation>连接捕获图表和滤镜图表失败</translation>
     </message>
     <message>
         <source>No capture device found</source>
@@ -103,7 +107,7 @@
     </message>
     <message>
         <source>Failed to create null renderer</source>
-        <translation>未能创建空呈现器</translation>
+        <translation>创建空渲染器失败</translation>
     </message>
 </context>
 <context>
@@ -138,7 +142,7 @@
     </message>
     <message>
         <source>Failed to get stream count.</source>
-        <translation>无法获得流计数。</translation>
+        <translation>无法获取流计数。</translation>
     </message>
     <message>
         <source>Failed to create topology.</source>
@@ -182,7 +186,7 @@
     </message>
     <message>
         <source>Failed to seek.</source>
-        <translation>无法定位</translation>
+        <translation>定位失败。</translation>
     </message>
     <message>
         <source>Media session non-fatal error.</source>
@@ -201,15 +205,15 @@
     <name>QAndroidAudioEncoderSettingsControl</name>
     <message>
         <source>Adaptive Multi-Rate Narrowband (AMR-NB) audio codec</source>
-        <translation>自适应多速率窄带（AMR-NB）音频编解码器</translation>
+        <translation>自适应多速率窄带 (AMR-NB) 音频编码</translation>
     </message>
     <message>
         <source>Adaptive Multi-Rate Wideband (AMR-WB) audio codec</source>
-        <translation>自适应多速率宽带（AMR-WB）音频编解码器</translation>
+        <translation>自适应多速率宽带 (AMR-WB) 音频编码</translation>
     </message>
     <message>
         <source>AAC Low Complexity (AAC-LC) audio codec</source>
-        <translation>AAC 低复杂度（AAC-LC）音频编解码器</translation>
+        <translation>AAC 低复杂度 (AAC-LC) 音频编码</translation>
     </message>
 </context>
 <context>
@@ -221,7 +225,7 @@
     <message>
         <source>Drive mode not supported</source>
         <extracomment>Drive mode is the camera&apos;s shutter mode, for example single shot, continuos exposure, etc.</extracomment>
-        <translation>不支持驱动器模式</translation>
+        <translation>驱动模式不支持</translation>
     </message>
     <message>
         <source>Failed to capture image</source>
@@ -288,7 +292,7 @@
     <name>QCamera</name>
     <message>
         <source>The camera service is missing</source>
-        <translation>相机服务丢失</translation>
+        <translation>相机服务缺失</translation>
     </message>
 </context>
 <context>
@@ -302,7 +306,7 @@
     <name>QDeclarativeAudio</name>
     <message>
         <source>volume should be between 0.0 and 1.0</source>
-        <translation>音量应介于 0.0 和 1.0 之间</translation>
+        <translation>音量应在 0.0 和 1.0 之间</translation>
     </message>
 </context>
 <context>
@@ -425,31 +429,31 @@
     <name>QMultimediaDeclarativeModule</name>
     <message>
         <source>CameraCapture is provided by Camera</source>
-        <translation>相机拍照由相机提供</translation>
+        <translation>CameraCapture 由 Camera 提供</translation>
     </message>
     <message>
         <source>CameraRecorder is provided by Camera</source>
-        <translation>相机录像由相机提供</translation>
+        <translation>CameraRecorder 由 Camera 提供</translation>
     </message>
     <message>
         <source>CameraExposure is provided by Camera</source>
-        <translation>相机曝光由相机提供</translation>
+        <translation>CameraExposure 由 Camera 提供</translation>
     </message>
     <message>
         <source>CameraFocus is provided by Camera</source>
-        <translation>相机对焦由相机提供</translation>
+        <translation>CameraFocus 由 Camera 提供</translation>
     </message>
     <message>
         <source>CameraFlash is provided by Camera</source>
-        <translation>相机闪光灯由相机提供</translation>
+        <translation>CameraFlash 由 Camera 提供</translation>
     </message>
     <message>
         <source>CameraImageProcessing is provided by Camera</source>
-        <translation>相机图像处理由相机提供</translation>
+        <translation>CameraImageProcessing 由 Camera 提供</translation>
     </message>
     <message>
         <source>CameraViewfinder is provided by Camera</source>
-        <translation>相机取景器由相机提供</translation>
+        <translation>CameraViewfinder 由 Camera 提供</translation>
     </message>
 </context>
 <context>

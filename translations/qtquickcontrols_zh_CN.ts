@@ -5,7 +5,8 @@
     <name>DefaultColorDialog</name>
     <message>
         <source>Hue</source>
-        <translation>色调</translation>
+        <translatorcomment>Hue 在这里是一个专用术语，HSV 模型中的 Hue 一般按照 PS 习惯翻译为“色相”。虽然 Hue 也有翻译成色调的，但那更倾向于传统绘画或外行讨论，不应该用在 HSV 这种显然是数字色彩的专业语境中。“色相”是数码美术界对 Hue 的通用翻译，此翻译已经过色彩管理的多本大学教材核对。</translatorcomment>
+        <translation>色相</translation>
     </message>
     <message>
         <source>Saturation</source>
@@ -32,22 +33,22 @@
     <name>DefaultDialogWrapper</name>
     <message>
         <source>Show Details...</source>
-        <translation>显示细节…</translation>
+        <translation>显示详情...</translation>
     </message>
 </context>
 <context>
     <name>DefaultFileDialog</name>
     <message>
         <source>Go up to the folder containing this one</source>
-        <translation>转到包含它的文件夹</translation>
+        <translation>转到上一级文件夹</translation>
     </message>
     <message>
         <source>Remove favorite</source>
-        <translation>删除收藏夹</translation>
+        <translation>移除收藏项</translation>
     </message>
     <message>
         <source>Add the current directory as a favorite</source>
-        <translation>将当前目录添加为收藏夹</translation>
+        <translation>添加当前目录为收藏项</translation>
     </message>
     <message>
         <source>Filename</source>
@@ -61,17 +62,17 @@
     <message>
         <source>Size</source>
         <comment>file size</comment>
-        <translation>大小</translation>
+        <translation>体积</translation>
     </message>
     <message>
         <source>Modified</source>
         <comment>last-modified time</comment>
-        <translation>已修改</translation>
+        <translation>最后修改时间</translation>
     </message>
     <message>
         <source>Accessed</source>
         <comment>last-accessed time</comment>
-        <translation>已访问</translation>
+        <translation>最后访问时间</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -98,7 +99,7 @@
     </message>
     <message>
         <source>Weight</source>
-        <translation>粗度</translation>
+        <translation>字重</translation>
     </message>
     <message>
         <source>Size</source>
@@ -106,43 +107,52 @@
     </message>
     <message>
         <source>Font Family</source>
-        <translation>字体系列</translation>
+        <translation>字体族</translation>
     </message>
     <message>
         <source>Thin</source>
-        <translation>细体</translation>
+        <translatorcomment>按照字体教材的标准名词进行重译，附上英文，因为西欧字体只有英文风格，如果只显示中文风格将非常难以确定选中的是什么风格。</translatorcomment>
+        <translation>淡体 (Thin)</translation>
     </message>
     <message>
         <source>ExtraLight</source>
-        <translation>超轻体</translation>
+        <translatorcomment>按照字体教材的标准名词进行重译，附上英文，因为西欧字体只有英文风格，如果只显示中文风格将非常难以确定选中的是什么风格。</translatorcomment>
+        <translation>特细 (Extra Light)</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>轻体</translation>
+        <translatorcomment>按照字体教材的标准名词进行重译，附上英文，因为西欧字体只有英文风格，如果只显示中文风格将非常难以确定选中的是什么风格。</translatorcomment>
+        <translation>细体 (Light)</translation>
     </message>
     <message>
         <source>Normal</source>
-        <translation>常规体</translation>
+        <translatorcomment>按照字体教材的标准名词进行重译，附上英文，因为西欧字体只有英文风格，如果只显示中文风格将非常难以确定选中的是什么风格。</translatorcomment>
+        <translation>标准 (Normal)</translation>
     </message>
     <message>
         <source>Medium</source>
-        <translation>中等体</translation>
+        <translatorcomment>按照字体教材的标准名词进行重译，附上英文，因为西欧字体只有英文风格，如果只显示中文风格将非常难以确定选中的是什么风格。</translatorcomment>
+        <translation>适中 (Medium)</translation>
     </message>
     <message>
         <source>DemiBold</source>
-        <translation>半粗体</translation>
+        <translatorcomment>按照字体教材的标准名词进行重译，附上英文，因为西欧字体只有英文风格，如果只显示中文风格将非常难以确定选中的是什么风格。</translatorcomment>
+        <translation>次粗 (Demi Bold)</translation>
     </message>
     <message>
         <source>Bold</source>
-        <translation>粗体</translation>
+        <translatorcomment>按照字体教材的标准名词进行重译，附上英文，因为西欧字体只有英文风格，如果只显示中文风格将非常难以确定选中的是什么风格。</translatorcomment>
+        <translation>粗体 (Bold)</translation>
     </message>
     <message>
         <source>ExtraBold</source>
-        <translation>超粗体</translation>
+        <translatorcomment>按照字体教材的标准名词进行重译，附上英文，因为西欧字体只有英文风格，如果只显示中文风格将非常难以确定选中的是什么风格。</translatorcomment>
+        <translation>特粗 (Extra Bold)</translation>
     </message>
     <message>
         <source>Black</source>
-        <translation>黑体</translation>
+        <translatorcomment>按照字体教材的标准名词进行重译，附上英文，因为西欧字体只有英文风格，如果只显示中文风格将非常难以确定选中的是什么风格。</translatorcomment>
+        <translation>浓体 (Black)</translation>
     </message>
     <message>
         <source>Style</source>
@@ -150,7 +160,8 @@
     </message>
     <message>
         <source>Italic</source>
-        <translation>斜体</translation>
+        <translatorcomment>按照字体教材的标准名词进行重译，附上英文，因为西欧字体只有英文风格，如果只显示中文风格将非常难以确定选中的是什么风格。</translatorcomment>
+        <translation>斜体 (Italic)</translation>
     </message>
     <message>
         <source>Underline</source>
@@ -166,7 +177,7 @@
     </message>
     <message>
         <source>Writing System</source>
-        <translation>书写系统</translation>
+        <translation>文字系统</translation>
     </message>
     <message>
         <source>Sample</source>
@@ -229,7 +240,7 @@
     </message>
     <message>
         <source>Discard</source>
-        <translation>放弃</translation>
+        <translation>丢弃</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -237,7 +248,7 @@
     </message>
     <message>
         <source>Restore Defaults</source>
-        <translation>恢复默认</translation>
+        <translation>恢复默认值</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -253,7 +264,7 @@
     </message>
     <message>
         <source>Show Details...</source>
-        <translation>显示细节…</translation>
+        <translation>显示详情...</translation>
     </message>
     <message>
         <source>Help</source>
@@ -272,7 +283,7 @@
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>恢复(&amp;R)</translation>
+        <translation>重做(&amp;R)</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>

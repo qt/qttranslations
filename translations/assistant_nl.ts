@@ -5,10 +5,10 @@
     <extra-po-header-language_team>Dutch &lt;kde-i18n-nl@kde.org&gt;</extra-po-header-language_team>
     <extra-po-header-last_translator>Freek de Kruijf &lt;freekdekruijf@kde.nl&gt;</extra-po-header-last_translator>
     <extra-po-header-plural_forms>nplurals=2; plural=(n != 1);</extra-po-header-plural_forms>
-    <extra-po-header-po_revision_date>2018-04-24 10:52+0100</extra-po-header-po_revision_date>
+    <extra-po-header-po_revision_date>2020-11-25 14:00+0100</extra-po-header-po_revision_date>
     <extra-po-header-project_id_version></extra-po-header-project_id_version>
-    <extra-po-header-x_generator>Lokalize 2.0</extra-po-header-x_generator>
-    <extra-po-header_comment># Freek de Kruijf &lt;freek@opensuse.org&gt;, 2014, 2018.</extra-po-header_comment>
+    <extra-po-header-x_generator>Lokalize 20.08.3</extra-po-header-x_generator>
+    <extra-po-header_comment># Freek de Kruijf &lt;freek@opensuse.org&gt;, 2014, 2018, 2020.</extra-po-header_comment>
     <extra-po-headers>Project-Id-Version,PO-Revision-Date,Last-Translator,Language-Team,Language,MIME-Version,Content-Type,Content-Transfer-Encoding,X-Qt-Contexts,Plural-Forms,X-Generator</extra-po-headers>
 <context>
     <name>AboutDialog</name>
@@ -432,8 +432,8 @@ Reden:
 <context>
     <name>FilterNameDialogClass</name>
     <message>
-        <source>Add Filter Name</source>
-        <translation>Filternaam toevoegen</translation>
+        <source>Add Filter</source>
+        <translation>Filter toevoegen</translation>
     </message>
     <message>
         <source>Filter Name:</source>
@@ -523,13 +523,6 @@ Reden:
     <message>
         <source>&amp;Find</source>
         <translation>&amp;Zoeken</translation>
-    </message>
-</context>
-<context>
-    <name>HelpEngineWrapper</name>
-    <message>
-        <source>Unfiltered</source>
-        <translation>Ongefilterd</translation>
     </message>
 </context>
 <context>
@@ -805,6 +798,10 @@ Reden:
         <translation>Info over %1</translation>
     </message>
     <message>
+        <source>Unfiltered</source>
+        <translation>Ongefilterd</translation>
+    </message>
+    <message>
         <source>Updating search index</source>
         <translation>Zoekindex bijwerken</translation>
     </message>
@@ -825,7 +822,62 @@ Reden:
     </message>
 </context>
 <context>
+    <name>OptionsWidget</name>
+    <message>
+        <source>No Option</source>
+        <translation>Geen optie</translation>
+    </message>
+    <message>
+        <source>Invalid Option</source>
+        <translation>Ongeldig optie</translation>
+    </message>
+</context>
+<context>
     <name>PreferencesDialog</name>
+    <message>
+        <source>No Component</source>
+        <translation>Geen component</translation>
+    </message>
+    <message>
+        <source>Invalid Component</source>
+        <translation>Ongeldige component</translation>
+    </message>
+    <message>
+        <source>No Version</source>
+        <translation>Geen versie</translation>
+    </message>
+    <message>
+        <source>Invalid Version</source>
+        <translation>Ongeldige versie</translation>
+    </message>
+    <message>
+        <source>Filter Exists</source>
+        <translation>Filter bestaat</translation>
+    </message>
+    <message>
+        <source>The filter &quot;%1&quot; already exists.</source>
+        <translation>Het filter &quot;%1&quot; bestaat al.</translation>
+    </message>
+    <message>
+        <source>Add Filter</source>
+        <translation>Filter toevoegen</translation>
+    </message>
+    <message>
+        <source>New Filter</source>
+        <translation>Nieuw filter</translation>
+    </message>
+    <message>
+        <source>Rename Filter</source>
+        <translation>Filter hernoemen</translation>
+    </message>
+    <message>
+        <source>Remove Filter</source>
+        <translation>Filter verwijderen</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to remove the &quot;%1&quot; filter?</source>
+        <translation>Wilt u het &quot;%1&quot; filter verwijderen?</translation>
+    </message>
     <message>
         <source>Add Documentation</source>
         <translation>Documentatie toevoegen</translation>
@@ -835,32 +887,28 @@ Reden:
         <translation>Qt gecomprimeerde helpbestanden (*.qch)</translation>
     </message>
     <message>
-        <source>The namespace %1 is already registered!</source>
-        <translation>De naamruimte %1 is al geregistreerd!</translation>
+        <source>Use custom settings</source>
+        <translation>Gebruikergedefinieerde instellingen gebruiken</translation>
     </message>
     <message>
         <source>The specified file is not a valid Qt Help File!</source>
-        <translation>Het gespecificeerde bestand is geen geldig Qt-helpbestand!</translation>
+        <translation type="vanished">Het gespecificeerde bestand is geen geldig Qt-helpbestand!</translation>
     </message>
     <message>
         <source>Remove Documentation</source>
-        <translation>Documentatie verwijderen</translation>
+        <translation type="vanished">Documentatie verwijderen</translation>
     </message>
     <message>
         <source>Some documents currently opened in Assistant reference the documentation you are attempting to remove. Removing the documentation will close those documents.</source>
-        <translation>Sommige documenten op dit moment geopend in Assistant verwijzen naar de documentatie die u probeert te verwijderen. De documentatie verwijderen zal deze documenten sluiten.</translation>
+        <translation type="vanished">Sommige documenten op dit moment geopend in Assistant verwijzen naar de documentatie die u probeert te verwijderen. De documentatie verwijderen zal deze documenten sluiten.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Annuleren</translation>
+        <translation type="vanished">Annuleren</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
-    </message>
-    <message>
-        <source>Use custom settings</source>
-        <translation>Gebruikergedefinieerde instellingen gebruiken</translation>
+        <translation type="vanished">OK</translation>
     </message>
 </context>
 <context>
@@ -890,24 +938,28 @@ Reden:
         <translation>Filters</translation>
     </message>
     <message>
-        <source>Filter:</source>
-        <translation>Filter:</translation>
+        <source>Components:</source>
+        <translation>Componenten:</translation>
     </message>
     <message>
-        <source>Attributes:</source>
-        <translation>Attributen:</translation>
+        <source>Versions:</source>
+        <translation>Versies:</translation>
     </message>
     <message>
-        <source>1</source>
-        <translation>1</translation>
+        <source>Add...</source>
+        <translation>Toevoegen...</translation>
     </message>
     <message>
-        <source>Add</source>
-        <translation>Toevoegen</translation>
+        <source>Rename...</source>
+        <translation>Hernoemen...</translation>
     </message>
     <message>
         <source>Remove</source>
         <translation>Verwijderen</translation>
+    </message>
+    <message>
+        <source>Filter:</source>
+        <translation>Filter:</translation>
     </message>
     <message>
         <source>Documentation</source>
@@ -920,10 +972,6 @@ Reden:
     <message>
         <source>&lt;Filter&gt;</source>
         <translation>&lt;Filter&gt;</translation>
-    </message>
-    <message>
-        <source>Add...</source>
-        <translation>Toevoegen...</translation>
     </message>
     <message>
         <source>Options</source>
@@ -968,6 +1016,18 @@ Reden:
     <message>
         <source>Show tabs for each individual page</source>
         <translation>Tabbladen voor elke individuele pagina tonen</translation>
+    </message>
+    <message>
+        <source>Attributes:</source>
+        <translation type="vanished">Attributen:</translation>
+    </message>
+    <message>
+        <source>1</source>
+        <translation type="vanished">1</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation type="vanished">Toevoegen</translation>
     </message>
 </context>
 <context>

@@ -5,10 +5,10 @@
     <extra-po-header-language_team>Dutch &lt;kde-i18n-nl@kde.org&gt;</extra-po-header-language_team>
     <extra-po-header-last_translator>Freek de Kruijf &lt;freekdekruijf@kde.nl&gt;</extra-po-header-last_translator>
     <extra-po-header-plural_forms>nplurals=2; plural=(n != 1);</extra-po-header-plural_forms>
-    <extra-po-header-po_revision_date>2018-07-09 13:12+0100</extra-po-header-po_revision_date>
+    <extra-po-header-po_revision_date>2020-12-10 15:16+0100</extra-po-header-po_revision_date>
     <extra-po-header-project_id_version></extra-po-header-project_id_version>
-    <extra-po-header-x_generator>Lokalize 2.0</extra-po-header-x_generator>
-    <extra-po-header_comment># Freek de Kruijf &lt;freek@opensuse.org&gt;, 2014, 2018.</extra-po-header_comment>
+    <extra-po-header-x_generator>Lokalize 20.08.3</extra-po-header-x_generator>
+    <extra-po-header_comment># Freek de Kruijf &lt;freek@opensuse.org&gt;, 2014, 2018, 2020.</extra-po-header_comment>
     <extra-po-headers>Project-Id-Version,PO-Revision-Date,Last-Translator,Language-Team,Language,MIME-Version,Content-Type,Content-Transfer-Encoding,X-Qt-Contexts,Plural-Forms,X-Generator</extra-po-headers>
 <context>
     <name>QBluetoothDeviceDiscoveryAgent</name>
@@ -26,7 +26,7 @@
     </message>
     <message>
         <source>Bluetooth LE is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Bluetooth LE wordt niet ondersteund</translation>
     </message>
     <message>
         <source>Unknown error</source>
@@ -34,15 +34,15 @@
     </message>
     <message>
         <source>Cannot start device inquiry</source>
-        <translation type="unfinished"></translation>
+        <translation>Onderzoek van apparaat kan niet starten</translation>
     </message>
     <message>
         <source>Cannot start low energy device inquiry</source>
-        <translation type="unfinished"></translation>
+        <translation>Onderzoek naar weinig energie van apparaat kan niet starten</translation>
     </message>
     <message>
         <source>Discovery cannot be stopped</source>
-        <translation type="unfinished"></translation>
+        <translation>Ontdekken kan niet gestopt worden</translation>
     </message>
     <message>
         <source>Invalid Bluetooth adapter address</source>
@@ -50,7 +50,7 @@
     </message>
     <message>
         <source>One or more device discovery methods are not supported on this platform</source>
-        <translation type="unfinished"></translation>
+        <translation>Een of meer ontdekkingsmethoden van apparaten worden niet ondersteund op dit platform</translation>
     </message>
     <message>
         <source>Device does not support Bluetooth</source>
@@ -58,19 +58,23 @@
     </message>
     <message>
         <source>Passed address is not a local device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Doorgegeven adres is geen lokaal apparaat.</translation>
     </message>
     <message>
         <source>Missing Location permission. Search is not possible.</source>
-        <translation type="unfinished"></translation>
+        <translation>Rechten op locatie ontbreken. Zoeken is niet mogelijk.</translation>
+    </message>
+    <message>
+        <source>Location service turned off. Search is not possible.</source>
+        <translation>Locatieservice is uitgeschakeld. Zoeken is niet mogelijk.</translation>
     </message>
     <message>
         <source>Classic Discovery cannot be started</source>
-        <translation type="unfinished"></translation>
+        <translation>Klassiek ontdekken kan niet gestart worden</translation>
     </message>
     <message>
         <source>Low Energy Discovery not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Ontdekken van weinig energie wordt niet ondersteund</translation>
     </message>
     <message>
         <source>Bluetooth adapter error</source>
@@ -82,18 +86,18 @@
     </message>
     <message>
         <source>Cannot access adapter during service discovery</source>
-        <translation type="unfinished"></translation>
+        <translation>Geen toegang tot adapter tijdens zoeken naar services</translation>
     </message>
 </context>
 <context>
     <name>QBluetoothServiceDiscoveryAgent</name>
     <message>
         <source>Local device is powered off</source>
-        <translation type="unfinished"></translation>
+        <translation>Lokaal apparaat is afgeschakeld</translation>
     </message>
     <message>
         <source>Minimal service discovery failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Minimaal zoeken naar service is mislukt</translation>
     </message>
     <message>
         <source>Invalid Bluetooth adapter address</source>
@@ -101,23 +105,23 @@
     </message>
     <message>
         <source>Platform does not support Bluetooth</source>
-        <translation type="unfinished"></translation>
+        <translation>Platform ondersteunt geen Bluetooth</translation>
     </message>
     <message>
         <source>Android API below v15 does not support SDP discovery</source>
-        <translation type="unfinished"></translation>
+        <translation>Android API onder v15 ondersteunt geen SDP zoeken</translation>
     </message>
     <message>
         <source>Cannot create Android BluetoothDevice</source>
-        <translation type="unfinished"></translation>
+        <translation>Aanmaken van Android BluetoothDevice lukt niet</translation>
     </message>
     <message>
         <source>Cannot obtain service uuids</source>
-        <translation type="unfinished"></translation>
+        <translation>Service-uuid&apos;s verkrijgen lukt niet</translation>
     </message>
     <message>
         <source>Serial Port Profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Profiel van seriële poort</translation>
     </message>
     <message>
         <source>Device is powered off</source>
@@ -125,7 +129,7 @@
     </message>
     <message>
         <source>Unable to find appointed local adapter</source>
-        <translation type="unfinished"></translation>
+        <translation>Vinden van toegekende locale adapter lukt niet</translation>
     </message>
     <message>
         <source>Cannot find local Bluetooth adapter</source>
@@ -133,39 +137,39 @@
     </message>
     <message>
         <source>Unable to find sdpscanner</source>
-        <translation type="unfinished"></translation>
+        <translation>SDP-scanner zoeken lukt niet</translation>
     </message>
     <message>
         <source>Unable to perform SDP scan</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Unable to access device</source>
-        <translation type="unfinished"></translation>
+        <translation>SDP-scan uitvoeren lukt niet</translation>
     </message>
     <message>
         <source>Custom Service</source>
-        <translation type="unfinished"></translation>
+        <translation>Aangepaste service</translation>
+    </message>
+    <message>
+        <source>Unable to access device</source>
+        <translation>Toegang tot apparaat lukt niet</translation>
     </message>
     <message>
         <source>Service Discovery</source>
-        <translation>Dienstwaarneming</translation>
+        <translation>Zoeken naar service</translation>
     </message>
     <message>
         <source>Browse Group Descriptor</source>
-        <translation type="unfinished"></translation>
+        <translation>In groepsbeschrijver bladeren</translation>
     </message>
     <message>
         <source>Public Browse Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Publieke bladergroep</translation>
     </message>
     <message>
         <source>LAN Access Profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Toegangsprofiel van LAN</translation>
     </message>
     <message>
         <source>Dial-Up Networking</source>
-        <translation type="unfinished"></translation>
+        <translation>Netwerken via opbellen</translation>
     </message>
     <message>
         <source>Synchronization</source>
@@ -173,7 +177,7 @@
     </message>
     <message>
         <source>Object Push</source>
-        <translation type="unfinished"></translation>
+        <translation>Object-push</translation>
     </message>
     <message>
         <source>File Transfer</source>
@@ -181,7 +185,7 @@
     </message>
     <message>
         <source>Synchronization Command</source>
-        <translation type="unfinished"></translation>
+        <translation>Synchronisatieopdracht</translation>
     </message>
     <message>
         <source>Headset</source>
@@ -189,251 +193,251 @@
     </message>
     <message>
         <source>Audio Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Audiobron</translation>
     </message>
     <message>
         <source>Audio Sink</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio-afvoer</translation>
     </message>
     <message>
         <source>Audio/Video Remote Control Target</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio/video-doel van afstandsbediening</translation>
     </message>
     <message>
         <source>Advanced Audio Distribution</source>
-        <translation type="unfinished"></translation>
+        <translation>Geavanceerde audiodistributie</translation>
     </message>
     <message>
         <source>Audio/Video Remote Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio/video-afstandsbediening</translation>
     </message>
     <message>
         <source>Audio/Video Remote Control Controller</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio/video-afstandsbedieningscontrole</translation>
     </message>
     <message>
         <source>Headset AG</source>
-        <translation type="unfinished"></translation>
+        <translation>Headset AG</translation>
     </message>
     <message>
         <source>Personal Area Networking (PANU)</source>
-        <translation type="unfinished"></translation>
+        <translation>Personal Area netwerken (PANU)</translation>
     </message>
     <message>
         <source>Personal Area Networking (NAP)</source>
-        <translation type="unfinished"></translation>
+        <translation>Personal Area netwerken (NAP)</translation>
     </message>
     <message>
         <source>Personal Area Networking (GN)</source>
-        <translation type="unfinished"></translation>
+        <translation>Personal Area netwerken (GN)</translation>
     </message>
     <message>
         <source>Basic Direct Printing (BPP)</source>
-        <translation type="unfinished"></translation>
+        <translation>Basis direct afdrukken (BPP)</translation>
     </message>
     <message>
         <source>Basic Reference Printing (BPP)</source>
-        <translation type="unfinished"></translation>
+        <translation>Basis referentie afdrukken (BPP)</translation>
     </message>
     <message>
         <source>Basic Imaging Profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Basis profiel afbeelding maken</translation>
     </message>
     <message>
         <source>Basic Imaging Responder</source>
-        <translation type="unfinished"></translation>
+        <translation>Basis responder afbeelding maken</translation>
     </message>
     <message>
         <source>Basic Imaging Archive</source>
-        <translation type="unfinished"></translation>
+        <translation>Basis archief afbeelding maken</translation>
     </message>
     <message>
         <source>Basic Imaging Ref Objects</source>
-        <translation type="unfinished"></translation>
+        <translation>Basis ref. objecten afbeelding maken</translation>
     </message>
     <message>
         <source>Hands-Free</source>
-        <translation type="unfinished"></translation>
+        <translation>Hands-Free</translation>
     </message>
     <message>
         <source>Hands-Free AG</source>
-        <translation type="unfinished"></translation>
+        <translation>Hands-Free AG</translation>
     </message>
     <message>
         <source>Basic Printing RefObject Service</source>
-        <translation type="unfinished"></translation>
+        <translation>Basis service afdrukken RefObject</translation>
     </message>
     <message>
         <source>Basic Printing Reflected UI</source>
-        <translation type="unfinished"></translation>
+        <translation>Basis afdrukken gereflecteerde UI</translation>
     </message>
     <message>
         <source>Basic Printing</source>
-        <translation type="unfinished"></translation>
+        <translation>Basis afdrukken</translation>
     </message>
     <message>
         <source>Basic Printing Status</source>
-        <translation type="unfinished"></translation>
+        <translation>Status van basis afdrukken</translation>
     </message>
     <message>
         <source>Human Interface Device</source>
-        <translation type="unfinished"></translation>
+        <translation>Human-interface apparaat</translation>
     </message>
     <message>
         <source>Hardcopy Cable Replacement</source>
-        <translation type="unfinished"></translation>
+        <translation>Hardcopy kabelvervanging</translation>
     </message>
     <message>
         <source>Hardcopy Cable Replacement Print</source>
-        <translation type="unfinished"></translation>
+        <translation>Hardcopy kabelvervangingsafdruk</translation>
     </message>
     <message>
         <source>Hardcopy Cable Replacement Scan</source>
-        <translation type="unfinished"></translation>
+        <translation>Hardcopy kabelvervangingsscan</translation>
     </message>
     <message>
         <source>SIM Access Server</source>
-        <translation type="unfinished"></translation>
+        <translation>SIM toegangsserver</translation>
     </message>
     <message>
         <source>Phonebook Access PCE</source>
-        <translation type="unfinished"></translation>
+        <translation>Telefoonboektoegang PCE</translation>
     </message>
     <message>
         <source>Phonebook Access PSE</source>
-        <translation type="unfinished"></translation>
+        <translation>Telefoonboektoegang PSE</translation>
     </message>
     <message>
         <source>Phonebook Access</source>
-        <translation type="unfinished"></translation>
+        <translation>Telefoonboektoegang</translation>
     </message>
     <message>
         <source>Headset HS</source>
-        <translation type="unfinished"></translation>
+        <translation>Headset HS</translation>
     </message>
     <message>
         <source>Message Access Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Berichtentoegangsserver</translation>
     </message>
     <message>
         <source>Message Notification Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Berichtenmeldingenserver</translation>
     </message>
     <message>
         <source>Message Access</source>
-        <translation type="unfinished"></translation>
+        <translation>Berichtentoegang</translation>
     </message>
     <message>
         <source>Global Navigation Satellite System</source>
-        <translation type="unfinished"></translation>
+        <translation>Global Navigation Satellite System</translation>
     </message>
     <message>
         <source>Global Navigation Satellite System Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Global Navigation Satellite systeem</translation>
     </message>
     <message>
         <source>3D Synchronization Display</source>
-        <translation type="unfinished"></translation>
+        <translation>3D synchronisatiescherm</translation>
     </message>
     <message>
         <source>3D Synchronization Glasses</source>
-        <translation type="unfinished"></translation>
+        <translation>3D synchronisatieglazen</translation>
     </message>
     <message>
         <source>3D Synchronization</source>
-        <translation type="unfinished"></translation>
+        <translation>3D synchronisatie</translation>
     </message>
     <message>
         <source>Multi-Profile Specification (Profile)</source>
-        <translation type="unfinished"></translation>
+        <translation>Multi-profielspecificatie (profiel)</translation>
     </message>
     <message>
         <source>Multi-Profile Specification</source>
-        <translation type="unfinished"></translation>
+        <translation>Multi-profielspecificatie</translation>
     </message>
     <message>
         <source>Device Identification</source>
-        <translation type="unfinished"></translation>
+        <translation>Apparaat-identificatie</translation>
     </message>
     <message>
         <source>Generic Networking</source>
-        <translation type="unfinished"></translation>
+        <translation>Generiek netwerken</translation>
     </message>
     <message>
         <source>Generic File Transfer</source>
-        <translation type="unfinished"></translation>
+        <translation>Generieke bestandsoverdracht</translation>
     </message>
     <message>
         <source>Generic Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Generieke audio</translation>
     </message>
     <message>
         <source>Generic Telephony</source>
-        <translation type="unfinished"></translation>
+        <translation>Generieke telefonie</translation>
     </message>
     <message>
         <source>Video Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Videobron</translation>
     </message>
     <message>
         <source>Video Sink</source>
-        <translation type="unfinished"></translation>
+        <translation>Video-afvoer</translation>
     </message>
     <message>
         <source>Video Distribution</source>
-        <translation type="unfinished"></translation>
+        <translation>Video-distributie</translation>
     </message>
     <message>
         <source>Health Device</source>
-        <translation type="unfinished"></translation>
+        <translation>Medisch apparaat</translation>
     </message>
     <message>
         <source>Health Device Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Bron van medisch apparaat</translation>
     </message>
     <message>
         <source>Health Device Sink</source>
-        <translation type="unfinished"></translation>
+        <translation>Afvoer van medisch apparaat</translation>
     </message>
     <message>
         <source>Generic Access</source>
-        <translation type="unfinished"></translation>
+        <translation>Generieke toegang</translation>
     </message>
     <message>
         <source>Generic Attribute</source>
-        <translation type="unfinished"></translation>
+        <translation>Generiek attribuut</translation>
     </message>
     <message>
         <source>Immediate Alert</source>
-        <translation type="unfinished"></translation>
+        <translation>Onmiddellijke aandacht</translation>
     </message>
     <message>
         <source>Link Loss</source>
-        <translation type="unfinished"></translation>
+        <translation>Verlies van koppeling</translation>
     </message>
     <message>
         <source>Tx Power</source>
-        <translation type="unfinished"></translation>
+        <translation>Tx energie</translation>
     </message>
     <message>
         <source>Current Time Service</source>
-        <translation type="unfinished"></translation>
+        <translation>Huidige tijdservice</translation>
     </message>
     <message>
         <source>Reference Time Update Service</source>
-        <translation type="unfinished"></translation>
+        <translation>Referentie van service voor bijwerken van tijd</translation>
     </message>
     <message>
         <source>Next DST Change Service</source>
-        <translation type="unfinished"></translation>
+        <translation>Service voor volgende wijziging in DST</translation>
     </message>
     <message>
         <source>Glucose</source>
-        <translation type="unfinished"></translation>
+        <translation>Glucose</translation>
     </message>
     <message>
         <source>Health Thermometer</source>
-        <translation type="unfinished"></translation>
+        <translation>Koortsthermometer</translation>
     </message>
     <message>
         <source>Device Information</source>
@@ -445,11 +449,11 @@
     </message>
     <message>
         <source>Phone Alert Status Service</source>
-        <translation type="unfinished"></translation>
+        <translation>Status van telefoonservice voor wekken</translation>
     </message>
     <message>
         <source>Battery Service</source>
-        <translation type="unfinished"></translation>
+        <translation>Batterijservice</translation>
     </message>
     <message>
         <source>Blood Pressure</source>
@@ -457,7 +461,7 @@
     </message>
     <message>
         <source>Alert Notification Service</source>
-        <translation type="unfinished"></translation>
+        <translation>Meldingenservice voor wekken</translation>
     </message>
     <message>
         <source>Scan Parameters</source>
@@ -465,27 +469,27 @@
     </message>
     <message>
         <source>Running Speed and Cadence</source>
-        <translation type="unfinished"></translation>
+        <translation>Loopsnelheid en cadans</translation>
     </message>
     <message>
         <source>Cycling Speed and Cadence</source>
-        <translation type="unfinished"></translation>
+        <translation>Wisselsnelheid en cadans</translation>
     </message>
     <message>
         <source>Cycling Power</source>
-        <translation type="unfinished"></translation>
+        <translation>Wisselenergie</translation>
     </message>
     <message>
         <source>Location and Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>Locatie en navigatie</translation>
     </message>
     <message>
         <source>Environmental Sensing</source>
-        <translation type="unfinished"></translation>
+        <translation>Aftasten van omgeving</translation>
     </message>
     <message>
         <source>Body Composition</source>
-        <translation type="unfinished"></translation>
+        <translation>Lichaamssamenstelling</translation>
     </message>
     <message>
         <source>User Data</source>
@@ -493,159 +497,153 @@
     </message>
     <message>
         <source>Weight Scale</source>
-        <translation type="unfinished"></translation>
+        <translation>Gewichtsschaal</translation>
     </message>
     <message>
         <source>Bond Management</source>
-        <extracomment>Connection management (Bluetooth)
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Connection management (Bluetooth)</extracomment>
+        <translation>Bindingsbeheer</translation>
     </message>
     <message>
         <source>Continuous Glucose Monitoring</source>
-        <translation type="unfinished"></translation>
+        <translation>Continue glucose monitoring</translation>
     </message>
     <message>
         <source>Service Discovery Protocol</source>
-        <translation type="unfinished"></translation>
+        <translation>Protocol voor zoeken naar service</translation>
     </message>
     <message>
         <source>User Datagram Protocol</source>
-        <translation type="unfinished"></translation>
+        <translation>User Datagram Protocol</translation>
     </message>
     <message>
         <source>Radio Frequency Communication</source>
-        <translation type="unfinished"></translation>
+        <translation>Communicatie met radiofrequentie</translation>
     </message>
     <message>
         <source>Transmission Control Protocol</source>
-        <translation type="unfinished"></translation>
+        <translation>Transmission Control Protocol</translation>
     </message>
     <message>
         <source>Telephony Control Specification - Binary</source>
-        <translation type="unfinished"></translation>
+        <translation>Specificatie van telefoniebesturing - binair</translation>
     </message>
     <message>
         <source>Telephony Control Specification - AT</source>
-        <translation type="unfinished"></translation>
+        <translation>Specificatie van telefoniebesturing - AT</translation>
     </message>
     <message>
         <source>Attribute Protocol</source>
-        <translation type="unfinished"></translation>
+        <translation>Attribuut-protocol</translation>
     </message>
     <message>
         <source>Object Exchange Protocol</source>
-        <translation type="unfinished"></translation>
+        <translation>Protocol voor object uitwisselen</translation>
     </message>
     <message>
         <source>Internet Protocol</source>
-        <translation type="unfinished"></translation>
+        <translation>Internet Protocol</translation>
     </message>
     <message>
         <source>File Transfer Protocol</source>
-        <translation type="unfinished"></translation>
+        <translation>File Transfer Protocol</translation>
     </message>
     <message>
         <source>Hypertext Transfer Protocol</source>
-        <translation type="unfinished"></translation>
+        <translation>Hypertext Transfer Protocol</translation>
     </message>
     <message>
         <source>Wireless Short Packet Protocol</source>
-        <translation type="unfinished"></translation>
+        <translation>Protocol voor draadloze korte pakketten</translation>
     </message>
     <message>
         <source>Bluetooth Network Encapsulation Protocol</source>
-        <translation type="unfinished"></translation>
+        <translation>Bluetooth Network Encapsulation Protocol</translation>
     </message>
     <message>
         <source>Extended Service Discovery Protocol</source>
-        <translation type="unfinished"></translation>
+        <translation>Uitgebreid protocol voor zoeken naar service</translation>
     </message>
     <message>
         <source>Human Interface Device Protocol</source>
-        <translation type="unfinished"></translation>
+        <translation>Protocol voor human-interface-apparaat</translation>
     </message>
     <message>
         <source>Hardcopy Control Channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Besturingskanaal voor hardcopy</translation>
     </message>
     <message>
         <source>Hardcopy Data Channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Gegevenskanaal voor hardcopy</translation>
     </message>
     <message>
         <source>Hardcopy Notification</source>
-        <translation type="unfinished"></translation>
+        <translation>Hardcopy-melding</translation>
     </message>
     <message>
         <source>Audio/Video Control Transport Protocol</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio/video-transportprotocol</translation>
     </message>
     <message>
         <source>Audio/Video Distribution Transport Protocol</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio/Video distributietransportprotocol</translation>
     </message>
     <message>
         <source>Common ISDN Access Protocol</source>
-        <translation type="unfinished"></translation>
+        <translation>Gemeenschappelijk ISDN-toegangsprotocol</translation>
     </message>
     <message>
         <source>UdiCPlain</source>
-        <translation type="unfinished"></translation>
+        <translation>UdiCPlain</translation>
     </message>
     <message>
         <source>Multi-Channel Adaptation Protocol - Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Multi-Channel Adaptation Protocol - besturing</translation>
     </message>
     <message>
         <source>Multi-Channel Adaptation Protocol - Data</source>
-        <translation type="unfinished"></translation>
+        <translation>Multi-Channel Adaptation Protocol - gegevens</translation>
     </message>
     <message>
         <source>Layer 2 Control Protocol</source>
-        <translation type="unfinished"></translation>
+        <translation>Laag 2 besturingsprotocol</translation>
     </message>
     <message>
         <source>GAP Device Name</source>
-        <extracomment>GAP: Generic Access Profile (Bluetooth)
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>GAP: Generic Access Profile (Bluetooth)</extracomment>
+        <translation>GAP apparaatnaam</translation>
     </message>
     <message>
         <source>GAP Appearance</source>
-        <extracomment>GAP: Generic Access Profile (Bluetooth)
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>GAP: Generic Access Profile (Bluetooth)</extracomment>
+        <translation>GAP uiterlijk</translation>
     </message>
     <message>
         <source>GAP Peripheral Privacy Flag</source>
-        <extracomment>GAP: Generic Access Profile (Bluetooth)
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>GAP: Generic Access Profile (Bluetooth)</extracomment>
+        <translation>GAP perifeer privacyvlag</translation>
     </message>
     <message>
         <source>GAP Reconnection Address</source>
-        <extracomment>GAP: Generic Access Profile (Bluetooth)
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>GAP: Generic Access Profile (Bluetooth)</extracomment>
+        <translation>GAP herkenningsadres</translation>
     </message>
     <message>
         <source>GAP Peripheral Preferred Connection Parameters</source>
-        <translation type="unfinished"></translation>
+        <translation>GAP perifere verbindingsparameters met voorkeur</translation>
     </message>
     <message>
         <source>GATT Service Changed</source>
-        <extracomment>GATT: _G_eneric _Att_ribute Profile (Bluetooth)
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>GATT: _G_eneric _Att_ribute Profile (Bluetooth)</extracomment>
+        <translation>GATT service gewijzigd</translation>
     </message>
     <message>
         <source>Alert Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Alarmniveau</translation>
     </message>
     <message>
         <source>TX Power</source>
-        <translation type="unfinished"></translation>
+        <translation>TX energie</translation>
     </message>
     <message>
         <source>Date Time</source>
@@ -657,15 +655,15 @@
     </message>
     <message>
         <source>Day Date Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Dag Datum Tijd</translation>
     </message>
     <message>
         <source>Exact Time 256</source>
-        <translation type="unfinished"></translation>
+        <translation>Exacte tijd 256</translation>
     </message>
     <message>
         <source>DST Offset</source>
-        <translation type="unfinished"></translation>
+        <translation>DST offset</translation>
     </message>
     <message>
         <source>Time Zone</source>
@@ -673,59 +671,59 @@
     </message>
     <message>
         <source>Local Time Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Informatie over lokale tijd </translation>
     </message>
     <message>
         <source>Time With DST</source>
-        <translation type="unfinished"></translation>
+        <translation>Tijd met DST</translation>
     </message>
     <message>
         <source>Time Accuracy</source>
-        <translation type="unfinished"></translation>
+        <translation>Tijdnauwkeurigheid</translation>
     </message>
     <message>
         <source>Time Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Tijdbron</translation>
     </message>
     <message>
         <source>Reference Time Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Informatie over referentietijd </translation>
     </message>
     <message>
         <source>Time Update Control Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Besturingspunt voor bijwerken van tijd</translation>
     </message>
     <message>
         <source>Time Update State</source>
-        <translation type="unfinished"></translation>
+        <translation>Bijwerkstatus van tijd</translation>
     </message>
     <message>
         <source>Glucose Measurement</source>
-        <translation type="unfinished"></translation>
+        <translation>Glucosemeting</translation>
     </message>
     <message>
         <source>Battery Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Batterijniveau</translation>
     </message>
     <message>
         <source>Temperature Measurement</source>
-        <translation type="unfinished"></translation>
+        <translation>Temperatuurmeting</translation>
     </message>
     <message>
         <source>Temperature Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Type temperatuur </translation>
     </message>
     <message>
         <source>Intermediate Temperature</source>
-        <translation type="unfinished"></translation>
+        <translation>Tussenliggende temperatuur</translation>
     </message>
     <message>
         <source>Measurement Interval</source>
-        <translation type="unfinished"></translation>
+        <translation>Metingeninterval</translation>
     </message>
     <message>
         <source>Boot Keyboard Input Report</source>
-        <translation type="unfinished"></translation>
+        <translation>Toetsenbordinvoerrapport bij opstarten</translation>
     </message>
     <message>
         <source>System ID</source>
@@ -733,31 +731,31 @@
     </message>
     <message>
         <source>Model Number String</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekenreeks met modelnummer</translation>
     </message>
     <message>
         <source>Serial Number String</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekenreeks met serienummer</translation>
     </message>
     <message>
         <source>Firmware Revision String</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekenreeks met firmware-revisie</translation>
     </message>
     <message>
         <source>Hardware Revision String</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekenreeks met hardware-revisie</translation>
     </message>
     <message>
         <source>Software Revision String</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekenreeks met software-revisie</translation>
     </message>
     <message>
         <source>Manufacturer Name String</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekenreeks met fabrikant</translation>
     </message>
     <message>
         <source>IEEE 11073 20601 Regulatory Certification Data List</source>
-        <translation type="unfinished"></translation>
+        <translation>IEEE 11073 20601 Regelgever certificeringsgegevenslijst</translation>
     </message>
     <message>
         <source>Current Time</source>
@@ -765,99 +763,97 @@
     </message>
     <message>
         <source>Scan Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>Hernieuwde scan</translation>
     </message>
     <message>
         <source>Boot Keyboard Output Report</source>
-        <translation type="unfinished"></translation>
+        <translation>Toetsenborduitvoerrapport bij opstarten</translation>
     </message>
     <message>
         <source>Boot Mouse Input Report</source>
-        <translation type="unfinished"></translation>
+        <translation>Muisinvoerrapport bij opstarten</translation>
     </message>
     <message>
         <source>Glucose Measurement Context</source>
-        <translation type="unfinished"></translation>
+        <translation>Context van glucosemeting</translation>
     </message>
     <message>
         <source>Blood Pressure Measurement</source>
-        <translation type="unfinished"></translation>
+        <translation>Bloeddrukmeting</translation>
     </message>
     <message>
         <source>Intermediate Cuff Pressure</source>
-        <translation type="unfinished"></translation>
+        <translation>Tussenliggende manchetdruk</translation>
     </message>
     <message>
         <source>Heart Rate Measurement</source>
-        <translation type="unfinished"></translation>
+        <translation>Hartritmemeting</translation>
     </message>
     <message>
         <source>Body Sensor Location</source>
-        <translation type="unfinished"></translation>
+        <translation>Locatie van lichaamssensor</translation>
     </message>
     <message>
         <source>Heart Rate Control Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Besturingspunt voor hartritme</translation>
     </message>
     <message>
         <source>Alert Status</source>
-        <translation type="unfinished"></translation>
+        <translation>Wekstatus</translation>
     </message>
     <message>
         <source>Ringer Control Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Besturingspunt voor beltoon</translation>
     </message>
     <message>
         <source>Ringer Setting</source>
-        <translation type="unfinished"></translation>
+        <translation>Instelling voor beltoon</translation>
     </message>
     <message>
         <source>Alert Category ID Bit Mask</source>
-        <translation type="unfinished"></translation>
+        <translation>Wekcategie-ID bitmasker</translation>
     </message>
     <message>
         <source>Alert Category ID</source>
-        <translation type="unfinished"></translation>
+        <translation>Wekcategorie-ID</translation>
     </message>
     <message>
         <source>Alert Notification Control Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Besturingspunt voor wekmelding</translation>
     </message>
     <message>
         <source>Unread Alert Status</source>
-        <translation type="unfinished"></translation>
+        <translation>Ongelezen wekstatus</translation>
     </message>
     <message>
         <source>New Alert</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieuw weksignaal</translation>
     </message>
     <message>
         <source>Supported New Alert Category</source>
-        <translation type="unfinished"></translation>
+        <translation>Ondersteunde nieuwe wekcategorie</translation>
     </message>
     <message>
         <source>Supported Unread Alert Category</source>
-        <translation type="unfinished"></translation>
+        <translation>Ondersteunde ongelezen wekcategorie</translation>
     </message>
     <message>
         <source>Blood Pressure Feature</source>
-        <translation type="unfinished"></translation>
+        <translation>Bloeddrukkenmerk</translation>
     </message>
     <message>
         <source>HID Information</source>
-        <extracomment>HID: Human Interface Device Profile (Bluetooth)
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>HID: Human Interface Device Profile (Bluetooth)</extracomment>
+        <translation>HID-informatie</translation>
     </message>
     <message>
         <source>Report Map</source>
-        <translation type="unfinished"></translation>
+        <translation>Rapportkaart</translation>
     </message>
     <message>
         <source>HID Control Point</source>
-        <extracomment>HID: Human Interface Device Profile (Bluetooth)
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>HID: Human Interface Device Profile (Bluetooth)</extracomment>
+        <translation>HID-besturingspunt</translation>
     </message>
     <message>
         <source>Report</source>
@@ -865,77 +861,72 @@
     </message>
     <message>
         <source>Protocol Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Protocolmodus</translation>
     </message>
     <message>
         <source>Scan Interval Window</source>
-        <translation type="unfinished"></translation>
+        <translation>Venster met scaninterval</translation>
     </message>
     <message>
         <source>PnP ID</source>
-        <translation type="unfinished"></translation>
+        <translation>PnP-ID</translation>
     </message>
     <message>
         <source>Glucose Feature</source>
-        <translation type="unfinished"></translation>
+        <translation>Glucose-kenmerk</translation>
     </message>
     <message>
         <source>Record Access Control Point</source>
-        <extracomment>Glucose Sensor patient record database.
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Glucose Sensor patient record database.</extracomment>
+        <translation>Toegangscontrolepunt opnemen</translation>
     </message>
     <message>
         <source>RSC Measurement</source>
-        <extracomment>RSC: Running Speed and Cadence
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>RSC: Running Speed and Cadence</extracomment>
+        <translation>RSC-meting</translation>
     </message>
     <message>
         <source>RSC Feature</source>
-        <extracomment>RSC: Running Speed and Cadence
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>RSC: Running Speed and Cadence</extracomment>
+        <translation>RSC-kenmerk</translation>
     </message>
     <message>
         <source>SC Control Point</source>
-        <translation type="unfinished"></translation>
+        <translation>SC-besturingspunt</translation>
     </message>
     <message>
         <source>CSC Measurement</source>
-        <extracomment>CSC: Cycling Speed and Cadence
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>CSC: Cycling Speed and Cadence</extracomment>
+        <translation>CSC-meting</translation>
     </message>
     <message>
         <source>CSC Feature</source>
-        <extracomment>CSC: Cycling Speed and Cadence
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>CSC: Cycling Speed and Cadence</extracomment>
+        <translation>CSC-kenmerk</translation>
     </message>
     <message>
         <source>Sensor Location</source>
-        <translation type="unfinished"></translation>
+        <translation>Locatie van sensor</translation>
     </message>
     <message>
         <source>Cycling Power Measurement</source>
-        <translation type="unfinished"></translation>
+        <translation>Fietsvermogenmeting</translation>
     </message>
     <message>
         <source>Cycling Power Vector</source>
-        <translation type="unfinished"></translation>
+        <translation>Fietsvermogenvector</translation>
     </message>
     <message>
         <source>Cycling Power Feature</source>
-        <translation type="unfinished"></translation>
+        <translation>Fietsvermogenkenmerk</translation>
     </message>
     <message>
         <source>Cycling Power Control Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Fietsvermogenbesturingspunt</translation>
     </message>
     <message>
         <source>Location And Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Locatie en snelheid</translation>
     </message>
     <message>
         <source>Navigation</source>
@@ -943,26 +934,24 @@
     </message>
     <message>
         <source>Position Quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Positiekwaliteit</translation>
     </message>
     <message>
         <source>LN Feature</source>
-        <translation type="unfinished"></translation>
+        <translation>LN-functie</translation>
     </message>
     <message>
         <source>LN Control Point</source>
-        <translation type="unfinished"></translation>
+        <translation>LN-besturingspunt</translation>
     </message>
     <message>
         <source>Magnetic Declination</source>
-        <extracomment>Angle between geographic and magnetic north
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Angle between geographic and magnetic north</extracomment>
+        <translation>Magnetische declinatie</translation>
     </message>
     <message>
         <source>Elevation</source>
-        <extracomment>Above/below sea level
-</extracomment>
+        <extracomment>Above/below sea level</extracomment>
         <translation>Hoogte</translation>
     </message>
     <message>
@@ -979,93 +968,88 @@
     </message>
     <message>
         <source>True Wind Speed</source>
-        <extracomment>Wind speed while standing
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Wind speed while standing</extracomment>
+        <translation>Echte windsnelheid</translation>
     </message>
     <message>
         <source>True Wind Direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Echte windrichting</translation>
     </message>
     <message>
         <source>Apparent Wind Speed</source>
-        <extracomment>Wind speed while observer is moving
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Wind speed while observer is moving</extracomment>
+        <translation>Schijnbare windsnelheid</translation>
     </message>
     <message>
         <source>Apparent Wind Direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Schijnbare windrichting</translation>
     </message>
     <message>
         <source>Gust Factor</source>
-        <extracomment>Factor by which wind gust is stronger than average wind
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Factor by which wind gust is stronger than average wind</extracomment>
+        <translation>Windvlaag</translation>
     </message>
     <message>
         <source>Pollen Concentration</source>
-        <translation type="unfinished"></translation>
+        <translation>Concentratie pollen</translation>
     </message>
     <message>
         <source>UV Index</source>
-        <translation type="unfinished"></translation>
+        <translation>UV-index</translation>
     </message>
     <message>
         <source>Irradiance</source>
-        <translation type="unfinished"></translation>
+        <translation>Straling</translation>
     </message>
     <message>
         <source>Rainfall</source>
-        <translation type="unfinished"></translation>
+        <translation>Neerslag</translation>
     </message>
     <message>
         <source>Wind Chill</source>
-        <translation type="unfinished"></translation>
+        <translation>Gevoelstemperatuur</translation>
     </message>
     <message>
         <source>Heat Index</source>
-        <translation type="unfinished"></translation>
+        <translation>Warmte-index</translation>
     </message>
     <message>
         <source>Dew Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Dauwpunt</translation>
     </message>
     <message>
         <source>Descriptor Value Changed</source>
-        <extracomment>Environmental sensing related
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Environmental sensing related</extracomment>
+        <translation>Descriptorwaarde gewijzigd</translation>
     </message>
     <message>
         <source>Aerobic Heart Rate Lower Limit</source>
-        <translation type="unfinished"></translation>
+        <translation>Laagste limiet van aërobe hartslag</translation>
     </message>
     <message>
         <source>Aerobic Heart Rate Upper Limit</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoogste limiet van aërobe hartslag</translation>
     </message>
     <message>
         <source>Aerobic Threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>Aërobe drempelwaarde</translation>
     </message>
     <message>
         <source>Age</source>
-        <extracomment>Age of person
-</extracomment>
+        <extracomment>Age of person</extracomment>
         <translation>Leeftijd</translation>
     </message>
     <message>
         <source>Anaerobic Heart Rate Lower Limit</source>
-        <translation type="unfinished"></translation>
+        <translation>Laagste limiet van anaërobe hartslag</translation>
     </message>
     <message>
         <source>Anaerobic Heart Rate Upper Limit</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoogste limiet van anaërobe hartslag</translation>
     </message>
     <message>
         <source>Anaerobic Threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaërobe drempelwaarde</translation>
     </message>
     <message>
         <source>Date Of Birth</source>
@@ -1073,7 +1057,7 @@
     </message>
     <message>
         <source>Date Of Threshold Assessment</source>
-        <translation type="unfinished"></translation>
+        <translation>Datum van meting van drempelwaarde</translation>
     </message>
     <message>
         <source>Email Address</source>
@@ -1081,11 +1065,11 @@
     </message>
     <message>
         <source>Fat Burn Heart Rate Lower Limit</source>
-        <translation type="unfinished"></translation>
+        <translation>Laagste limiet vetverbrandingshartritme</translation>
     </message>
     <message>
         <source>Fat Burn Heart Rate Upper Limit</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoogste limiet vetverbrandingshartritme</translation>
     </message>
     <message>
         <source>First Name</source>
@@ -1093,7 +1077,7 @@
     </message>
     <message>
         <source>5-Zone Heart Rate Limits</source>
-        <translation type="unfinished"></translation>
+        <translation>Limieten van vijfde hartritmezone</translation>
     </message>
     <message>
         <source>Gender</source>
@@ -1101,17 +1085,16 @@
     </message>
     <message>
         <source>Heart Rate Maximum</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximaal hartritme</translation>
     </message>
     <message>
         <source>Height</source>
-        <extracomment>Height of a person
-</extracomment>
+        <extracomment>Height of a person</extracomment>
         <translation>Hoogte</translation>
     </message>
     <message>
         <source>Hip Circumference</source>
-        <translation type="unfinished"></translation>
+        <translation>Heupomtrek</translation>
     </message>
     <message>
         <source>Last Name</source>
@@ -1119,31 +1102,31 @@
     </message>
     <message>
         <source>Maximum Recommended Heart Rate</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximaal aanbevolen hartritme</translation>
     </message>
     <message>
         <source>Resting Heart Rate</source>
-        <translation type="unfinished"></translation>
+        <translation>Hartritme in rust</translation>
     </message>
     <message>
         <source>Sport Type For Aerobic/Anaerobic Thresholds</source>
-        <translation type="unfinished"></translation>
+        <translation>Sporttype voor aërobe/anaërobe drempelwaarde</translation>
     </message>
     <message>
         <source>3-Zone Heart Rate Limits</source>
-        <translation type="unfinished"></translation>
+        <translation>Limieten van derde hartritmezone</translation>
     </message>
     <message>
         <source>2-Zone Heart Rate Limits</source>
-        <translation type="unfinished"></translation>
+        <translation>Limieten van tweede hartritmezone</translation>
     </message>
     <message>
         <source>Oxygen Uptake</source>
-        <translation type="unfinished"></translation>
+        <translation>Zuurstofopname</translation>
     </message>
     <message>
         <source>Waist Circumference</source>
-        <translation type="unfinished"></translation>
+        <translation>Tailleomtrek</translation>
     </message>
     <message>
         <source>Weight</source>
@@ -1151,37 +1134,36 @@
     </message>
     <message>
         <source>Database Change Increment</source>
-        <extracomment>Environmental sensing related
-</extracomment>
-        <translation type="unfinished"></translation>
+        <extracomment>Environmental sensing related</extracomment>
+        <translation>Ophoging bij wijziging in database</translation>
     </message>
     <message>
         <source>User Index</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruikersindex</translation>
     </message>
     <message>
         <source>Body Composition Feature</source>
-        <translation type="unfinished"></translation>
+        <translation>Kenmerk van lichaamssamenstelling</translation>
     </message>
     <message>
         <source>Body Composition Measurement</source>
-        <translation type="unfinished"></translation>
+        <translation>Meting van lichaamssamenstelling</translation>
     </message>
     <message>
         <source>Weight Measurement</source>
-        <translation type="unfinished"></translation>
+        <translation>Gewichtsmeting</translation>
     </message>
     <message>
         <source>User Control Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruikersbesturingspunt</translation>
     </message>
     <message>
         <source>Magnetic Flux Density 2D</source>
-        <translation type="unfinished"></translation>
+        <translation>Dichtheid van magnetische flux 2D</translation>
     </message>
     <message>
         <source>Magnetic Flux Density 3D</source>
-        <translation type="unfinished"></translation>
+        <translation>Dichtheid van magnetische flux 3D</translation>
     </message>
     <message>
         <source>Language</source>
@@ -1189,59 +1171,59 @@
     </message>
     <message>
         <source>Barometric Pressure Trend</source>
-        <translation type="unfinished"></translation>
+        <translation>Trend van luchtdruk</translation>
     </message>
     <message>
         <source>Characteristic Extended Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Karakteristieke uitgebreide eigenschappen</translation>
     </message>
     <message>
         <source>Characteristic User Description</source>
-        <translation type="unfinished"></translation>
+        <translation>Karakteristieke gebruikersbeschrijving</translation>
     </message>
     <message>
         <source>Client Characteristic Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>Karakteristieke configuratie van client</translation>
     </message>
     <message>
         <source>Server Characteristic Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>Karakteristieke configuratie van server</translation>
     </message>
     <message>
         <source>Characteristic Presentation Format</source>
-        <translation type="unfinished"></translation>
+        <translation>Karakteristiek presentatieformaat</translation>
     </message>
     <message>
         <source>Characteristic Aggregate Format</source>
-        <translation type="unfinished"></translation>
+        <translation>Karakteristiek agregatieformaat</translation>
     </message>
     <message>
         <source>Valid Range</source>
-        <translation type="unfinished"></translation>
+        <translation>Geldige reeks</translation>
     </message>
     <message>
         <source>External Report Reference</source>
-        <translation type="unfinished"></translation>
+        <translation>Referentie naar extern rapport</translation>
     </message>
     <message>
         <source>Report Reference</source>
-        <translation type="unfinished"></translation>
+        <translation>Referentie naar rapport</translation>
     </message>
     <message>
         <source>Environmental Sensing Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>Configuratie van aftasten van omgeving</translation>
     </message>
     <message>
         <source>Environmental Sensing Measurement</source>
-        <translation type="unfinished"></translation>
+        <translation>Meting van omgeving aftasten</translation>
     </message>
     <message>
         <source>Environmental Sensing Trigger Setting</source>
-        <translation type="unfinished"></translation>
+        <translation>Instelling van startsignaal bij aftasten van omgeving</translation>
     </message>
     <message>
         <source>Unknown Service</source>
-        <translation type="unfinished"></translation>
+        <translation>Onbekende service</translation>
     </message>
 </context>
 <context>
@@ -1252,7 +1234,7 @@
     </message>
     <message>
         <source>Cannot write while not connected</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan niet schrijven zonder verbinding</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
@@ -1260,32 +1242,20 @@
     </message>
     <message>
         <source>Service cannot be found</source>
-        <translation type="unfinished"></translation>
+        <translation>Service kan niet gevonden worden</translation>
     </message>
     <message>
         <source>Invalid data/data size</source>
-        <translation type="unfinished"></translation>
+        <translation>Ongeldige gegevens/gegevensgrootte: </translation>
     </message>
     <message>
         <source>Cannot read while not connected</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Socket type not supported</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Unknown socket error</source>
-        <translation>Onbekende socket-fout</translation>
-    </message>
-    <message>
-        <source>Connecting to port is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan niet lezen zonder verbinding</translation>
     </message>
     <message>
         <source>Cannot connect to %1</source>
         <comment>%1 = uuid</comment>
-        <translation type="unfinished"></translation>
+        <translation>Kan niet verbinden met %1</translation>
     </message>
     <message>
         <source>Device does not support Bluetooth</source>
@@ -1298,32 +1268,40 @@
     <message>
         <source>Cannot access address %1</source>
         <comment>%1 = Bt address e.g. 11:22:33:44:55:66</comment>
-        <translation type="unfinished"></translation>
+        <translation>Kan geen toegang krijgen tot adres %1</translation>
     </message>
     <message>
         <source>Cannot connect to %1 on %2</source>
         <comment>%1 = uuid, %2 = Bt address</comment>
-        <translation type="unfinished"></translation>
+        <translation>Kan niet verbinden naar %1 op %2</translation>
+    </message>
+    <message>
+        <source>Socket type not supported</source>
+        <translation>Sockettype wordt niet ondersteund</translation>
     </message>
     <message>
         <source>Obtaining streams for service failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Streams voor service verkrijgen is mislukt</translation>
     </message>
     <message>
         <source>Input stream thread cannot be started</source>
-        <translation type="unfinished"></translation>
+        <translation>Thread voor invoerstream kan niet gestart worden</translation>
     </message>
     <message>
         <source>Connection to service failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Verbinding naar service is mislukt</translation>
     </message>
     <message>
         <source>Error during write on socket.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fout bij schrijven naar socket.</translation>
     </message>
     <message>
         <source>Network error during read</source>
-        <translation type="unfinished"></translation>
+        <translation>Netwerkfout tijdens lezen</translation>
+    </message>
+    <message>
+        <source>Unknown socket error</source>
+        <translation>Onbekende socket-fout</translation>
     </message>
     <message>
         <source>Cannot set connection security level</source>
@@ -1332,6 +1310,46 @@
     <message>
         <source>Network Error: %1</source>
         <translation>Netwerkfout: %1</translation>
+    </message>
+    <message>
+        <source>Cannot export profile on DBus</source>
+        <translation>Kan profiel niet exporteren op DBus</translation>
+    </message>
+    <message>
+        <source>Cannot register profile on DBus</source>
+        <translation>Kan profiel niet registreren op DBus</translation>
+    </message>
+    <message>
+        <source>Cannot find remote device</source>
+        <translation>Kan apparaat op afstand niet vinden</translation>
+    </message>
+    <message>
+        <source>Cannot connect to remote profile</source>
+        <translation>Kan geen verbinding maken met profiel op afstand</translation>
+    </message>
+    <message>
+        <source>Missing serviceUuid or Serial Port service class uuid</source>
+        <translation>Ontbrekende serviceUuid of serviceklasse-uuid van seriële poort</translation>
+    </message>
+    <message>
+        <source>Invalid Bluetooth address passed to connectToService()</source>
+        <translation>Ongeldig Bluetooth adres doorgegeven aan connectToService()</translation>
+    </message>
+    <message>
+        <source>Unsupported protocol. Win32 only supports RFCOMM sockets</source>
+        <translation>Niet ondersteund protocol. Win32 ondersteunt alleen RFCOMM-sockets</translation>
+    </message>
+    <message>
+        <source>Failed to create socket</source>
+        <translation>Socket aanmaken is mislukt</translation>
+    </message>
+    <message>
+        <source>Socket type not handled: %1</source>
+        <translation>Sockettype wordt niet verwerkt: %1</translation>
+    </message>
+    <message>
+        <source>Logic error: more bytes sent than passed to ::send</source>
+        <translation>Logische fout: meer bytes verzonden dan doorgegeven aan ::send</translation>
     </message>
     <message>
         <source>Network error</source>
@@ -1355,18 +1373,32 @@
     </message>
 </context>
 <context>
+    <name>QBluetoothSocketPrivateAndroid</name>
+    <message>
+        <source>Connecting to port is not supported</source>
+        <translation>Verbinden naar poort wordt niet ondersteund</translation>
+    </message>
+</context>
+<context>
+    <name>QBluetoothSocketPrivateBluezDBus</name>
+    <message>
+        <source>Connecting to port is not supported via Bluez DBus</source>
+        <translation>Verbinden naar poort wordt niet ondersteund via Bluez DBus</translation>
+    </message>
+</context>
+<context>
     <name>QBluetoothTransferReply</name>
     <message>
         <source>Invalid target address</source>
-        <translation type="unfinished"></translation>
+        <translation>Ongeldig doeladres</translation>
     </message>
     <message>
         <source>Push session cannot be started</source>
-        <translation type="unfinished"></translation>
+        <translation>Push-sessie kan niet gestart worden</translation>
     </message>
     <message>
         <source>Push session cannot connect</source>
-        <translation type="unfinished"></translation>
+        <translation>Push-sessie kan niet verbinden</translation>
     </message>
     <message>
         <source>Source file does not exist</source>
@@ -1374,15 +1406,15 @@
     </message>
     <message>
         <source>QIODevice cannot be read. Make sure it is open for reading.</source>
-        <translation type="unfinished"></translation>
+        <translation>QIODevice kan niet worden gelezen. Ga na dat het geopend is voor lezen.</translation>
     </message>
     <message>
         <source>Push session failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Push-sessie is mislukt</translation>
     </message>
     <message>
         <source>Invalid input device (null)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ongeldig invoerapparaat (null)</translation>
     </message>
     <message>
         <source>Operation canceled</source>
@@ -1390,11 +1422,11 @@
     </message>
     <message>
         <source>Transfer already started</source>
-        <translation type="unfinished"></translation>
+        <translation>Overdracht is al gestart</translation>
     </message>
     <message>
         <source>Push service not found</source>
-        <translation type="unfinished"></translation>
+        <translation>Push-service niet gevonden</translation>
     </message>
 </context>
 <context>
@@ -1405,11 +1437,11 @@
     </message>
     <message>
         <source>Could not open file for sending</source>
-        <translation type="unfinished"></translation>
+        <translation>Kon bestand niet openen voor verzenden</translation>
     </message>
     <message>
         <source>The transfer was canceled</source>
-        <translation type="unfinished"></translation>
+        <translation>De overdracht was geannuleerd</translation>
     </message>
     <message>
         <source>Operation canceled</source>
@@ -1420,15 +1452,15 @@
     <name>QLowEnergyController</name>
     <message>
         <source>Remote device cannot be found</source>
-        <translation type="unfinished"></translation>
+        <translation>Apparaat op afstand is niet te vinden</translation>
     </message>
     <message>
         <source>Cannot find local adapter</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan geen lokale adapter vinden</translation>
     </message>
     <message>
         <source>Error occurred during connection I/O</source>
-        <translation type="unfinished"></translation>
+        <translation>Er is een fout opgetreden tijdens verbinding-I/O</translation>
     </message>
     <message>
         <source>Unknown Error</source>
@@ -1436,31 +1468,35 @@
     </message>
     <message>
         <source>Advertisement data is larger than 31 bytes</source>
-        <translation type="unfinished"></translation>
+        <translation>Gegevens voor adverteren is groter dan 31 bytes</translation>
     </message>
     <message>
         <source>Advertisement feature not supported on the platform</source>
-        <translation type="unfinished"></translation>
+        <translation>Mogelijkheid voor adverteren wordt niet ondersteund op het platform</translation>
     </message>
     <message>
         <source>Error occurred trying to start advertising</source>
-        <translation type="unfinished"></translation>
+        <translation>Er deed zich een fout voor bij proberen het adverteren te starten</translation>
     </message>
     <message>
         <source>Failed due to too many advertisers</source>
-        <translation type="unfinished"></translation>
+        <translation>Mislukt vanwege teveel adverteerders</translation>
     </message>
     <message>
         <source>Unknown advertisement error</source>
-        <translation type="unfinished"></translation>
+        <translation>Onbekende fout bij adverteren</translation>
     </message>
     <message>
         <source>Error occurred trying to connect to remote device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Er deed zich een fout voor bij het verbinden naar een apparaat op afstand.</translation>
     </message>
     <message>
         <source>Remote device closed the connection</source>
-        <translation type="unfinished"></translation>
+        <translation>Apparaat op afstand sloot de verbinding</translation>
+    </message>
+    <message>
+        <source>Failed to authorize on the remote device</source>
+        <translation>Autoriseren op het apparaat op afstand is mislukt</translation>
     </message>
 </context>
 </TS>
