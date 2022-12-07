@@ -7,6 +7,20 @@ add_custom_target(ts-all)
 
 set(repo_root_directory "${CMAKE_CURRENT_SOURCE_DIR}/../..")
 set(en_ts_file_dir "${CMAKE_CURRENT_BINARY_DIR}/en_ts")
+set(catalogs_file "${CMAKE_CURRENT_BINARY_DIR}/catalogs.json")
+set(catalogs_file_content "")
+
+# Converts a CMake list to a JSON array of strings.
+function(qttranslations_list_to_json_array out_var list_var)
+    set(result "")
+    foreach(item IN LISTS ${list_var})
+        if(NOT "${result}" STREQUAL "")
+            string(APPEND result ", ")
+        endif()
+        string(APPEND result "\"${item}\"")
+    endforeach()
+    set("${out_var}" "[${result}]" PARENT_SCOPE)
+endfunction()
 
 # Create a rudimentary .ts file in ${en_ts_file_dir}.
 function(generate_empty_ts_file file_name)
@@ -22,7 +36,7 @@ function(add_ts_target target input_file output_file)
 endfunction()
 
 function(add_ts_targets catalog)
-    cmake_parse_arguments(arg "" "" "DIRECTORIES;EXCLUDE" ${ARGN})
+    cmake_parse_arguments(arg "" "" "DIRECTORIES;EXCLUDE;MODULES" ${ARGN})
     generate_empty_ts_file("${catalog}_en.ts")
     file(GLOB ts_files "${catalog}_*.ts")
 
@@ -33,8 +47,13 @@ function(add_ts_targets catalog)
         endif()
     endforeach()
 
+    set(repositories "")
     set(file_list)
     foreach(dir IN LISTS arg_DIRECTORIES)
+        if(dir MATCHES "/src$")
+            string(REGEX REPLACE "/src$" "" repository "${dir}")
+            list(APPEND repositories ${repository})
+        endif()
         set(dir_path "${repo_root_directory}/${dir}")
         if (NOT IS_DIRECTORY ${dir_path})
             message(WARNING "Directory '${dir_path}' for ${catalog} does not exist. Skipping...")
@@ -48,6 +67,26 @@ function(add_ts_targets catalog)
         return()
     endif()
 
+    # Extend the content of catalogs.json
+    if(NOT "${catalogs_file_content}" STREQUAL "")
+        string(APPEND catalogs_file_content ",\n")
+    endif()
+    string(APPEND catalogs_file_content "  {
+    \"name\": \"${catalog}\"")
+    qttranslations_list_to_json_array(repositories_json repositories)
+    if(NOT "${repositories_json}" STREQUAL "[]")
+        string(APPEND catalogs_file_content ",
+    \"repositories\": ${repositories_json}")
+    endif()
+    qttranslations_list_to_json_array(modules_json arg_MODULES)
+    if(NOT "${modules_json}" STREQUAL "[]")
+        string(APPEND catalogs_file_content ",
+    \"modules\": ${modules_json}")
+    endif()
+    string(APPEND catalogs_file_content "\n  }")
+    set(catalogs_file_content "${catalogs_file_content}" PARENT_SCOPE)
+
+    # Generate the list of source files
     set(source_files_list_file "${CMAKE_CURRENT_BINARY_DIR}/${catalog}_file_list.txt")
     set(inclusion_regex "\\.h$|\\.cpp$|\\.hpp$|\\.cxx$|\\.cc$|\\.mm$|\\.qml$|\\.ui$")
     list(FILTER file_list INCLUDE REGEX "${inclusion_regex}")
@@ -118,12 +157,19 @@ add_ts_targets(designer DIRECTORIES qttools/src/designer
                                     qttools/src/shared/fontpanel
                                     qttools/src/shared/qtgradienteditor
                                     qttools/src/shared/qtpropertybrowser
-                                    qttools/src/shared/qttoolbardialog)
+                                    qttools/src/shared/qttoolbardialog
+               MODULES Designer)
 add_ts_targets(linguist DIRECTORIES qttools/src/linguist/linguist)
 add_ts_targets(assistant DIRECTORIES qttools/src/assistant/assistant
                                      qttools/src/shared/fontpanel) # add qcollectiongenerator here as well?
-add_ts_targets(qt_help DIRECTORIES qttools/src/assistant/help)
+add_ts_targets(qt_help DIRECTORIES qttools/src/assistant/help
+               MODULES Help)
 #add_ts_targets(qmlscene DIRECTORIES qtdeclarative/tools/qmlscene)  # almost empty due to missing tr()
+
+# Write the catalogs.json file. No add_ts_targets calls beyond this point!
+string(PREPEND catalogs_file_content "[\n")
+string(APPEND catalogs_file_content "\n]\n")
+file(WRITE "${catalogs_file}" "${catalogs_file_content}")
 
 # Create check target
 add_custom_target(check-ts
@@ -152,6 +198,9 @@ qt_add_lrelease(updateqm
     QM_FILES_OUTPUT_VARIABLE qm_files
     OPTIONS "-silent")
 qt_install(FILES ${qm_files} DESTINATION "${INSTALL_TRANSLATIONSDIR}")
+
+qt_path_join(catalogs_file_install_dir ${QT_INSTALL_DIR} ${INSTALL_TRANSLATIONSDIR})
+qt_copy_or_install(FILES ${catalogs_file} DESTINATION "${catalogs_file_install_dir}")
 
 # Custom target to add modified ts files to git
 add_custom_target(stage-ts
