@@ -47,7 +47,7 @@
     </message>
     <message>
         <source>Line:</source>
-        <translation>Ligne :</translation>
+        <translation>Ligne&#xa0;:</translation>
     </message>
     <message>
         <source>Interrupt</source>
@@ -123,7 +123,7 @@
     </message>
     <message>
         <source>&amp;Find in Script...</source>
-        <translation>&amp;Chercher dans le script...</translation>
+        <translation>&amp;Chercher dans le script…</translation>
     </message>
     <message>
         <source>Ctrl+F</source>
@@ -223,7 +223,7 @@
     </message>
     <message>
         <source>Breakpoint Condition:</source>
-        <translation>Condition du point d&apos;arrêt :</translation>
+        <translation>Condition du point d&apos;arrêt&#xa0;:</translation>
     </message>
 </context>
 <context>

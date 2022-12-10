@@ -253,7 +253,7 @@
     </message>
     <message>
         <source>Show Details...</source>
-        <translation>Afficher les détails...</translation>
+        <translation>Afficher les détails…</translation>
     </message>
     <message>
         <source>Help</source>

@@ -5,11 +5,11 @@
     <name>QXmlPatternistCLI</name>
     <message>
         <source>Warning in %1, at line %2, column %3: %4</source>
-        <translation>Avertissement dans %1, à la ligne %2, colonne %3 : %4</translation>
+        <translation>Avertissement dans %1, à la ligne %2, colonne %3&#xa0;: %4</translation>
     </message>
     <message>
         <source>Warning in %1: %2</source>
-        <translation>Avertissement dans %1 : %2</translation>
+        <translation>Avertissement dans %1&#xa0;: %2</translation>
     </message>
     <message>
         <source>Unknown location</source>
@@ -17,11 +17,11 @@
     </message>
     <message>
         <source>Error %1 in %2, at line %3, column %4: %5</source>
-        <translation>Erreur %1 dans %2, à la ligne %3, colonne %4 : %5</translation>
+        <translation>Erreur %1 dans %2, à la ligne %3, colonne %4&#xa0;: %5</translation>
     </message>
     <message>
         <source>Error %1 in %2: %3</source>
-        <translation>Erreur %1 dans %2 : %3</translation>
+        <translation>Erreur %1 dans %2&#xa0;: %3</translation>
     </message>
 </context>
 <context>
@@ -72,7 +72,7 @@
     </message>
     <message>
         <source>Overflow: Can&apos;t represent date %1.</source>
-        <translation>Overflow : impossible de représenter la date %1.</translation>
+        <translation>Overflow&#xa0;: impossible de représenter la date %1.</translation>
     </message>
     <message>
         <source>Day %1 is invalid for month %2.</source>
@@ -80,15 +80,15 @@
     </message>
     <message>
         <source>Time 24:%1:%2.%3 is invalid. Hour is 24, but minutes, seconds, and milliseconds are not all 0; </source>
-        <translation>L&apos;heure 24 : %1 : %2.%3 est invalide. L&apos;heure est 24 mais les minutes, secondes et millisecondes ne sont pas à 0 ; </translation>
+        <translation>L&apos;heure 24:%1:%2.%3 est invalide. L&apos;heure est 24 mais les minutes, secondes et millisecondes ne sont pas à 0&#xa0;; </translation>
     </message>
     <message>
         <source>Time %1:%2:%3.%4 is invalid.</source>
-        <translation>L&apos;heure %1 : %2 : %3.%4 est invalide.</translation>
+        <translation>L&apos;heure %1&#xa0;: %2&#xa0;: %3.%4 est invalide.</translation>
     </message>
     <message>
         <source>Overflow: Date can&apos;t be represented.</source>
-        <translation>Overflow : la date ne peut pas être représentée.</translation>
+        <translation>Overflow&#xa0;: la date ne peut pas être représentée.</translation>
     </message>
     <message>
         <source>At least one component must be present.</source>
@@ -212,7 +212,7 @@
     </message>
     <message>
         <source>Failure when casting from %1 to %2: %3</source>
-        <translation>Échec lors de la conversion de %1 ver %2 : %3</translation>
+        <translation>Échec lors de la conversion de %1 vers %2&#xa0;: %3</translation>
     </message>
     <message>
         <source>A comment cannot contain %1</source>
@@ -382,11 +382,11 @@
     </message>
     <message>
         <source>%1 is an invalid regular expression pattern: %2</source>
-        <translation>%1 est un modèle d&apos;expression régulière invalide : %2</translation>
+        <translation>%1 est un modèle d&apos;expression régulière invalide&#xa0;: %2</translation>
     </message>
     <message>
         <source>%1 is an invalid flag for regular expressions. Valid flags are:</source>
-        <translation>%1 est un flag invalide pour des expressions régulières. Les flags valides sont : </translation>
+        <translation>%1 est un flag invalide pour des expressions régulières. Les flags valides sont&#xa0;: </translation>
     </message>
     <message>
         <source>If the first argument is the empty sequence or a zero-length string (no namespace), a prefix cannot be specified. Prefix %1 was specified.</source>
@@ -666,7 +666,7 @@
     </message>
     <message>
         <source>Two namespace declaration attributes have the same name: %1.</source>
-        <translation>Deux attributs de déclarations de l&apos;espace de noms ont le même nom : %1.</translation>
+        <translation>Deux attributs de déclarations de l&apos;espace de noms ont le même nom&#xa0;: %1.</translation>
     </message>
     <message>
         <source>The namespace URI must be a constant and cannot use enclosed expressions.</source>
@@ -714,7 +714,7 @@
     </message>
     <message>
         <source>Parse error: %1</source>
-        <translation>Erreur : %1</translation>
+        <translation>Erreur&#xa0;: %1</translation>
     </message>
     <message>
         <source>The value of the XSL-T version attribute must be a value of type %1, which %2 isn&apos;t.</source>
@@ -726,7 +726,7 @@
     </message>
     <message>
         <source>Unknown XSL-T attribute %1.</source>
-        <translation>Attribut XSL-T inconnu : %1.</translation>
+        <translation>Attribut XSL-T inconnu&#xa0;: %1.</translation>
     </message>
     <message>
         <source>Attribute %1 and %2 are mutually exclusive.</source>
@@ -978,7 +978,7 @@
     </message>
     <message>
         <source>Attributes of complex type %1 are not a valid extension of the attributes of base type %2: %3.</source>
-        <translation>Les attributs du type complexe %1 ne sont pas une extension valide des attributs du type de base %2 : %3.</translation>
+        <translation>Les attributs du type complexe %1 ne sont pas une extension valide des attributs du type de base %2&#xa0;: %3.</translation>
     </message>
     <message>
         <source>Content model of complex type %1 is not a valid extension of content model of %2.</source>
@@ -998,7 +998,7 @@
     </message>
     <message>
         <source>Attributes of complex type %1 are not a valid restriction from the attributes of base type %2: %3.</source>
-        <translation>Les attributs du type complexe %1 ne sont pas une restriction valide des attributs du type de base %2 : %3.</translation>
+        <translation>Les attributs du type complexe %1 ne sont pas une restriction valide des attributs du type de base %2&#xa0;: %3.</translation>
     </message>
     <message>
         <source>Complex type %1 with simple content cannot be derived from complex base type %2.</source>
@@ -1042,7 +1042,7 @@
     </message>
     <message>
         <source>%1 facet contains invalid value %2: %3.</source>
-        <translation>La facette %1 contient une valeur invalide %2 : %3.</translation>
+        <translation>La facette %1 contient une valeur invalide %2&#xa0;: %3.</translation>
     </message>
     <message>
         <source>%1 facet cannot be %2 or %3 if %4 facet of base type is %5.</source>
@@ -1090,7 +1090,7 @@
     </message>
     <message>
         <source>%1 contains %2 facet with invalid data: %3.</source>
-        <translation>%1 contient une facette %2 avec des données invalides : %3.</translation>
+        <translation>%1 contient une facette %2 avec des données invalides&#xa0;: %3.</translation>
     </message>
     <message>
         <source>Attribute group %1 contains attribute %2 twice.</source>
@@ -1126,7 +1126,7 @@
     </message>
     <message>
         <source>Value constraint of element %1 is not of elements type: %2.</source>
-        <translation>La contrainte sur la valeur de l&apos;élément %1 n&apos;est pas un type d&apos;élément : %2.</translation>
+        <translation>La contrainte sur la valeur de l&apos;élément %1 n&apos;est pas un type d&apos;élément&#xa0;: %2.</translation>
     </message>
     <message>
         <source>Element %1 is not allowed to have substitution group affiliation as it is no global element.</source>
@@ -1138,7 +1138,7 @@
     </message>
     <message>
         <source>Value constraint of attribute %1 is not of attributes type: %2.</source>
-        <translation>La contrainte sur la valeur de l&apos;attribut %1 n&apos;est pas un type d&apos;attribut : %2.</translation>
+        <translation>La contrainte sur la valeur de l&apos;attribut %1 n&apos;est pas un type d&apos;attribut&#xa0;: %2.</translation>
     </message>
     <message>
         <source>Attribute %1 has value constraint but has type derived from %2.</source>
@@ -1222,15 +1222,15 @@
     </message>
     <message>
         <source>Can not process unknown element %1, expected elements are: %2.</source>
-        <translation>Impossible de travailler avec un élément inconnu %1, les éléments attendus sont : %2.</translation>
+        <translation>Impossible de travailler avec un élément inconnu %1, les éléments attendus sont&#xa0;: %2.</translation>
     </message>
     <message>
         <source>Element %1 is not allowed in this scope, possible elements are: %2.</source>
-        <translation>L&apos;élément %1 n&apos;est pas autorisé dans cette portée, les éléments possibles sont : %2.</translation>
+        <translation>L&apos;élément %1 n&apos;est pas autorisé dans cette portée, les éléments possibles sont&#xa0;: %2.</translation>
     </message>
     <message>
         <source>Child element is missing in that scope, possible child elements are: %1.</source>
-        <translation>L&apos;élément enfant est manquant dans cette portée, les éléments enfants possibles sont : %1.</translation>
+        <translation>L&apos;élément enfant est manquant dans cette portée, les éléments enfants possibles sont&#xa0;: %1.</translation>
     </message>
     <message>
         <source>Document is not a XML schema.</source>
@@ -1238,11 +1238,11 @@
     </message>
     <message>
         <source>%1 attribute of %2 element contains invalid content: {%3} is not a value of type %4.</source>
-        <translation>L&apos;attribut %1 de l&apos;élément %2 contient un contenu invalide : {%3} n&apos;est pas une valeur de type %4.</translation>
+        <translation>L&apos;attribut %1 de l&apos;élément %2 contient un contenu invalide&#xa0;: {%3} n&apos;est pas une valeur de type %4.</translation>
     </message>
     <message>
         <source>%1 attribute of %2 element contains invalid content: {%3}.</source>
-        <translation>L&apos;attribut %1 de l&apos;élément %2 contient un contenu invalide : {%3}.</translation>
+        <translation>L&apos;attribut %1 de l&apos;élément %2 contient un contenu invalide&#xa0;: {%3}.</translation>
     </message>
     <message>
         <source>Target namespace %1 of included schema is different from the target namespace %2 as defined by the including schema.</source>
@@ -1482,7 +1482,7 @@
     </message>
     <message>
         <source>Enumeration facet contains invalid content: {%1} is not a value of type %2.</source>
-        <translation>La facette de l&apos;énumération contient un contenu invalide : {%1} n&apos;est pas une valeur du type %2.</translation>
+        <translation>La facette de l&apos;énumération contient un contenu invalide&#xa0;: {%1} n&apos;est pas une valeur du type %2.</translation>
     </message>
     <message>
         <source>Namespace prefix of qualified name %1 is not defined.</source>
@@ -1490,7 +1490,7 @@
     </message>
     <message>
         <source>%1 element %2 is not a valid restriction of the %3 element it redefines: %4.</source>
-        <translation>%1 de l&apos;élément %2 n&apos;est pas une restriction valide de l&apos;élément %3 qu&apos;il redéfinit : %4.</translation>
+        <translation>%1 de l&apos;élément %2 n&apos;est pas une restriction valide de l&apos;élément %3 qu&apos;il redéfinit&#xa0;: %4.</translation>
     </message>
     <message>
         <source>%1 is not valid according to %2.</source>
@@ -1674,7 +1674,7 @@
     </message>
     <message>
         <source>Invalid QName content: %1.</source>
-        <translation>Le contenu de QName est invalide : %1.</translation>
+        <translation>Le contenu de QName est invalide&#xa0;: %1.</translation>
     </message>
     <message>
         <source>QName content is not listed in the enumeration facet.</source>
@@ -1726,7 +1726,7 @@
     </message>
     <message>
         <source>There is one IDREF value with no corresponding ID: %1.</source>
-        <translation>Il y a une valeur IDREF sans ID correspondant : %1.</translation>
+        <translation>Il y a une valeur IDREF sans ID correspondant&#xa0;: %1.</translation>
     </message>
     <message>
         <source>Loaded schema file is invalid.</source>
@@ -1778,7 +1778,7 @@
     </message>
     <message>
         <source>Attribute %1 contains invalid data: %2</source>
-        <translation>L&apos;attribut %1 contient des données invalides : %2</translation>
+        <translation>L&apos;attribut %1 contient des données invalides&#xa0;: %2</translation>
     </message>
     <message>
         <source>Element contains content although it is nillable.</source>
@@ -1806,7 +1806,7 @@
     </message>
     <message>
         <source>Content of element %1 does not match its type definition: %2.</source>
-        <translation>Le contenu de l&apos;élément %1 ne correspond pas à sa définition de type : %2.</translation>
+        <translation>Le contenu de l&apos;élément %1 ne correspond pas à sa définition de type&#xa0;: %2.</translation>
     </message>
     <message>
         <source>Content of element %1 does not match defined value constraint.</source>
@@ -1850,7 +1850,7 @@
     </message>
     <message>
         <source>Content of attribute %1 does not match its type definition: %2.</source>
-        <translation>Le contenu de l&apos;attribut %1 ne correspond pas à la définition de son type : %2.</translation>
+        <translation>Le contenu de l&apos;attribut %1 ne correspond pas à la définition de son type&#xa0;: %2.</translation>
     </message>
     <message>
         <source>Content of attribute %1 does not match defined value constraint.</source>
@@ -1886,7 +1886,7 @@
     </message>
     <message>
         <source>&apos;%1&apos; attribute contains invalid QName content: %2.</source>
-        <translation>L&apos;attribut &quot;%1&quot; contient une valeur pour QName invalide : %2.</translation>
+        <translation>L&apos;attribut &quot;%1&quot; contient une valeur pour QName invalide&#xa0;: %2.</translation>
     </message>
     <message>
         <source>empty</source>
