@@ -95,7 +95,7 @@ add_ts_targets(qtbase
         qtimageformats/src # just 10 error messages from tga reader. uses bad context.
 )
 add_ts_targets(qtdeclarative DIRECTORIES qtdeclarative/src
-               EXCLUDE declarative/src/quickcontrols2/designer)
+               EXCLUDE declarative/src/quickcontrols/designer)
 add_ts_targets(qtmultimedia DIRECTORIES qtmultimedia/src)
 #add_ts_targets(qtsvg DIRECTORIES qtsvg/src) # empty
 #add_ts_targets(qtwebkit DIRECTORIES qtwebkit) # messages from test browser only
