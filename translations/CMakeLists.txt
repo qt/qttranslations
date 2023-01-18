@@ -155,6 +155,7 @@ foreach(file IN LISTS ts_files)
     set(output_file "${qm_output_dir}/${qm_file}")
     add_custom_target(updateqm-${file}
         BYPRODUCTS ${output_file}
+        COMMAND "${CMAKE_COMMAND}" -E make_directory "${qm_output_dir}"
         COMMAND ${QT_CMAKE_EXPORT_NAMESPACE}::lrelease "${en_ts_file_dir}/${file}" -qm "${output_file}"
     )
     qt_install(FILES ${output_file} DESTINATION "${INSTALL_TRANSLATIONSDIR}")
