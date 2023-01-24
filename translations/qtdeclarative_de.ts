@@ -2111,4 +2111,79 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
         <translation>Bei der Komponentendefinition fehlt ein name binding.</translation>
     </message>
 </context>
+<context>
+    <name>ColorDialog</name>
+    <message>
+        <source>Color</source>
+        <translation>Farbe</translation>
+    </message>
+</context>
+<context>
+    <name>FontDialog</name>
+    <message>
+        <source>Writing System</source>
+        <translation>Schriftsystem</translation>
+    </message>
+</context>
+<context>
+    <name>MessageDialog</name>
+    <message>
+        <source>Hide Details...</source>
+        <translation>Details ausblenden...</translation>
+    </message>
+    <message>
+        <source>Show Details...</source>
+        <translation>Details einblenden...</translation>
+    </message>
+</context>
+<context>
+    <name>ColorInputs</name>
+    <message>
+        <source>Hex</source>
+        <translation>Hexadezimal</translation>
+    </message>
+    <message>
+        <source>RGB</source>
+        <translation>RGB</translation>
+    </message>
+    <message>
+        <source>HSV</source>
+        <translation>HSV</translation>
+    </message>
+    <message>
+        <source>HSL</source>
+        <translation>HSL</translation>
+    </message>
+</context>
+<context>
+    <name>FontDialogContent</name>
+    <message>
+        <source>Family</source>
+        <translation>Familie</translation>
+    </message>
+    <message>
+        <source>Style</source>
+        <translation>Stil</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <source>Effects</source>
+        <translation>Effekte</translation>
+    </message>
+    <message>
+        <source>Underline</source>
+        <translation>Unterstrichen</translation>
+    </message>
+    <message>
+        <source>Strikeout</source>
+        <translation>Durchgestrichen</translation>
+    </message>
+    <message>
+        <source>Sample</source>
+        <translation>Beispiel</translation>
+    </message>
+</context>
 </TS>
