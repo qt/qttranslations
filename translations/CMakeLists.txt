@@ -1,8 +1,6 @@
 # Copyright (C) 2022 The Qt Company Ltd.
 # SPDX-License-Identifier: BSD-3-Clause
 
-# special case skip regeneration
-
 add_custom_target(ts-all)
 
 set(repo_root_directory "${CMAKE_CURRENT_SOURCE_DIR}/../..")
