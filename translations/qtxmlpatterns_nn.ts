@@ -5,10 +5,10 @@
     <extra-po-header-language_team>Norwegian Nynorsk &lt;l10n-no@lister.huftis.org&gt;</extra-po-header-language_team>
     <extra-po-header-last_translator>Karl Ove Hufthammer &lt;karl@huftis.org&gt;</extra-po-header-last_translator>
     <extra-po-header-plural_forms>nplurals=2; plural=(n != 1);</extra-po-header-plural_forms>
-    <extra-po-header-po_revision_date>2020-05-24 12:16+0200</extra-po-header-po_revision_date>
+    <extra-po-header-po_revision_date>2023-02-11 13:41+0100</extra-po-header-po_revision_date>
     <extra-po-header-project_id_version></extra-po-header-project_id_version>
-    <extra-po-header-x_generator>Lokalize 20.04.0</extra-po-header-x_generator>
-    <extra-po-header_comment># Karl Ove Hufthammer &lt;karl@huftis.org&gt;, 2016, 2020.</extra-po-header_comment>
+    <extra-po-header-x_generator>Lokalize 22.12.2</extra-po-header-x_generator>
+    <extra-po-header_comment># Karl Ove Hufthammer &lt;karl@huftis.org&gt;, 2016, 2020, 2023.</extra-po-header_comment>
     <extra-po-headers>Project-Id-Version,PO-Revision-Date,Last-Translator,Language-Team,Language,MIME-Version,Content-Type,Content-Transfer-Encoding,Plural-Forms,X-Generator,X-Qt-Contexts</extra-po-headers>
 <context>
     <name>QQuickXmlListModel</name>
@@ -322,11 +322,11 @@
     </message>
     <message>
         <source>No namespace binding exists for the prefix %1</source>
-        <translation>Det finst ikkje nokon namnerombinding for prefikset %1.</translation>
+        <translation>Det finst ikkje noka namneromsbinding for prefikset %1.</translation>
     </message>
     <message>
         <source>No namespace binding exists for the prefix %1 in %2</source>
-        <translation>Det finst ikkje nokon namnerombinding for prefikset %1 i %2.</translation>
+        <translation>Det finst ikkje noka namneromsbinding for prefikset %1 i %2.</translation>
     </message>
     <message>
         <source>%1 is an invalid %2</source>
@@ -380,7 +380,7 @@
     </message>
     <message>
         <source>If both values have zone offsets, they must have the same zone offset. %1 and %2 are not the same.</source>
-        <translation>Viss begge verdiane har tidssonar, må dei ha same tidssone, men %1 og %2 er ikkje like.</translation>
+        <translation>Viss begge verdiane har tidssoner, må dei ha same tidssone, men %1 og %2 er ikkje like.</translation>
     </message>
     <message>
         <source>%1 was called.</source>
@@ -876,7 +876,7 @@
     </message>
     <message>
         <source>Block constraints of derived element %1 must not be more weaker than in the base element.</source>
-        <translation>Blokkkrankar for avleitt element %1 må ikkje vera svakare enn i basiselementet.</translation>
+        <translation>Blokkskrankar for avleitt element %1 må ikkje vera svakare enn i basiselementet.</translation>
     </message>
     <message>
         <source>Simple type of derived element %1 cannot be validly derived from base element.</source>
@@ -1136,7 +1136,7 @@
     </message>
     <message>
         <source>Attribute group %1 contains attribute %2 that has value constraint but type that inherits from %3.</source>
-        <translation>Attributtgruppa %1 inneheld attributt %2 som har verdiskranke men type som arvar frå %3.</translation>
+        <translation>Attributtgruppa %1 inneheld attributt %2 som har verdiskranke, men type som arvar frå %3.</translation>
     </message>
     <message>
         <source>Complex type %1 contains attribute %2 twice.</source>
@@ -1148,7 +1148,7 @@
     </message>
     <message>
         <source>Complex type %1 contains attribute %2 that has value constraint but type that inherits from %3.</source>
-        <translation>Kompleks type %1 inneheld attributt %2 som har verdiskranke men type som arvar frå %3.</translation>
+        <translation>Kompleks type %1 inneheld attributt %2 som har verdiskranke, men type som arvar frå %3.</translation>
     </message>
     <message>
         <source>Element %1 is not allowed to have a value constraint if its base type is complex.</source>
@@ -1176,7 +1176,7 @@
     </message>
     <message>
         <source>Attribute %1 has value constraint but has type derived from %2.</source>
-        <translation>Attributtet %1 har verdiskranke men har type avleidd frå %2.</translation>
+        <translation>Attributtet %1 har verdiskranke, men har type avleidd frå %2.</translation>
     </message>
     <message>
         <source>%1 attribute in derived complex type must be %2 like in base type.</source>
@@ -1520,7 +1520,7 @@
     </message>
     <message>
         <source>Namespace prefix of qualified name %1 is not defined.</source>
-        <translation>Namneromprefiks for kvalifisert namn %1 er ikkje definert.</translation>
+        <translation>Namneromsprefiks for kvalifisert namn %1 er ikkje definert.</translation>
     </message>
     <message>
         <source>%1 element %2 is not a valid restriction of the %3 element it redefines: %4.</source>
