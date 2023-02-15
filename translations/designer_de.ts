@@ -2575,8 +2575,8 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
         <translation>Sprache</translation>
     </message>
     <message>
-        <source>Country</source>
-        <translation>Land</translation>
+        <source>Territory</source>
+        <translation>Territorium</translation>
     </message>
 </context>
 <context>
@@ -3374,6 +3374,10 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <source>ToolTip</source>
         <translation>ToolTip</translation>
+    </message>
+    <message>
+        <source>MenuRole</source>
+        <translation>MenuRole</translation>
     </message>
 </context>
 <context>
@@ -4211,8 +4215,8 @@ Möchten Sie sie überschreiben?</translation>
         <translation>Icon aus Thema setzen</translation>
     </message>
     <message>
-        <source>Input icon name from the current theme:</source>
-        <translation>Icon-Name vom aktuellen Thema eingeben:</translation>
+        <source>Select icon name from theme:</source>
+        <translation>Icon-Namen aus aktuellem Thema wählen:</translation>
     </message>
 </context>
 <context>
@@ -4383,6 +4387,10 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <source>&amp;Shortcut:</source>
         <translation>Tastenk&amp;ürzel</translation>
+    </message>
+    <message>
+        <source>&amp;Menu role:</source>
+        <translation>&amp;Menu role:</translation>
     </message>
 </context>
 <context>

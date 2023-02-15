@@ -539,4 +539,37 @@
         <translation>Abbrechen</translation>
     </message>
 </context>
+<context>
+    <name>PdfLinkDelegate</name>
+    <message>
+        <source>Page %1 location %2, %3 zoom %4</source>
+        <translation>Seite %1 Stelle %2, %3 Vergrößerung %4</translation>
+    </message>
+</context>
+<context>
+    <name>QPdfLinkModel</name>
+    <message>
+        <source>Page %1 location %2, %3 zoom %4</source>
+        <translation>Seite %1 Stelle %2, %3 Vergrößerung %4</translation>
+    </message>
+</context>
+<context>
+    <name>QtWebEngineWidgetUI::TouchSelectionMenuWidget</name>
+    <message>
+        <source>Cut</source>
+        <translation>Ausschneiden</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>Kopieren</translation>
+    </message>
+    <message>
+        <source>Paste</source>
+        <translation>Einfügen</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
+    </message>
+</context>
 </TS>

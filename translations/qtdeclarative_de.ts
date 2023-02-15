@@ -189,6 +189,10 @@
         <translation>createObject: Der Wert ist kein Objekt</translation>
     </message>
     <message>
+        <source>Maximum call stack size exceeded.</source>
+        <translation>Maximale Aufrufstapelgröße überschritten.</translation>
+    </message>
+    <message>
         <source>Object or context destroyed during incubation</source>
         <translation>Ein Objekt oder ein Kontext wurde während der Inkubation zerstört</translation>
     </message>
@@ -553,6 +557,18 @@
         <source>File name case mismatch for &quot;%1&quot;</source>
         <translation>Die Groß/Kleinschreibung des Dateinamens &quot;%1&quot; stimmt nicht überein</translation>
     </message>
+    <message>
+        <source>module &quot;%1&quot; version %2.%3 cannot be imported because:
+%4</source>
+        <translation>Das Modul &quot;%1&quot;, Version %2.%3 kann nicht importiert werden:
+%4</translation>
+    </message>
+    <message>
+        <source>module &quot;%1&quot; cannot be imported because:
+%2</source>
+        <translation>Das Modul &quot;%1&quot; kann nicht importiert werden:
+%2</translation>
+    </message>
 </context>
 <context>
     <name>QQmlListModel</name>
@@ -774,20 +790,12 @@
         <translation>Der Skript-Import erfordert die Angabe eines Qualifizierers.</translation>
     </message>
     <message>
-        <source>Multiple component behavior pragmas found</source>
-        <translation>Es wurden mehrere Komponentenverhalten-Pragmas gefunden</translation>
+        <source>Multiple %1 pragmas found</source>
+        <translation>Es wurden mehrere %1-Pragmas gefunden</translation>
     </message>
     <message>
-        <source>Unknown component behavior &apos;%1&apos; in pragma</source>
-        <translation>Unbekanntes Komponentenverhalten &apos;%1&apos; in Pragma gefunden</translation>
-    </message>
-    <message>
-        <source>Multiple list property assign behavior pragmas found</source>
-        <translation>Mehrere Verhaltens-Pragmas bei Zuweisung einer Listeneigenschaft gefunden</translation>
-    </message>
-    <message>
-        <source>Unknown list property assign behavior &apos;%1&apos; in pragma</source>
-        <translation>Unbekanntes Verhalten &apos;%1&apos; in Pragma bei Zuweisung einer Listeneigenschaft</translation>
+        <source>Unknown %1 &apos;%2&apos; in pragma</source>
+        <translation>Unbekannter %1 &apos;%2&apos; in Pragma</translation>
     </message>
     <message>
         <source>Unknown pragma &apos;%1&apos;</source>
@@ -808,6 +816,10 @@
     <message>
         <source>Invalid property type modifier</source>
         <translation>Ungültiger Modifikator für den Typ der Eigenschaft</translation>
+    </message>
+    <message>
+        <source>Function declaration inside grouped property</source>
+        <translation>Funktionsdeklaration innerhalb einer gruppierten Eigenschaft</translation>
     </message>
     <message>
         <source>JavaScript declaration outside Script element</source>
@@ -1101,6 +1113,10 @@
 </context>
 <context>
     <name>QQmlRewrite</name>
+    <message>
+        <source>Signal has an excessive number of parameters: %1</source>
+        <translation>Signal hat zu viele Parameter: %1</translation>
+    </message>
     <message>
         <source>Signal uses unnamed parameter followed by named parameter.</source>
         <translation>Das Signal verwendet einen namenlosen Parameter gefolgt von einem Parameter mit Namen</translation>
@@ -1501,6 +1517,10 @@
         <translation>Bei der Komponentendefinition fehlt ein name binding.</translation>
     </message>
     <message>
+        <source>Expected only name, type, revision, isPointer, isList, isCloned, isConstructor, and isJavaScriptFunction in script bindings.</source>
+        <translation>Es werden nur name, type, revision, isPointer, isList, isCloned, isConstructor und isJavaScriptFunction in script bindings erwartet.</translation>
+    </message>
+    <message>
         <source>Expected only name and type script bindings.</source>
         <translation>Es werden name oder script bindings erwartet.</translation>
     </message>
@@ -1517,12 +1537,12 @@
         <translation>Es werden nur Parameter in Objektdefinitionen erwartet.</translation>
     </message>
     <message>
-        <source>Expected only name, type, revision, isPointer, isList, isConstructor, and isJavaScriptFunction in script bindings.</source>
-        <translation>Es werden nur name, type, revision, isPointer, isList, isConstructor und isJavaScriptFunction in script bindings erwartet.</translation>
-    </message>
-    <message>
         <source>Expected script binding.</source>
         <translation>Es wird script binding erwartet.</translation>
+    </message>
+    <message>
+        <source>Expected only type, name, revision, isPointer, isReadonly, isRequired, isFinal, isList, bindable, read, write, reset, notify, index, and privateClass and script bindings.</source>
+        <translation>Es werden nur type, name, revision, isPointer, isReadonly, isRequired, isFinal, isList, bindable, read, write, reset, notify, index, und  privateClass und script bindings erwartet.</translation>
     </message>
     <message>
         <source>Expected only name and values script bindings.</source>
@@ -1597,10 +1617,6 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
     <message>
         <source>Expected either array or object literal as enum definition.</source>
         <translation>Die Aufzählungswertdefinition sollte aus einem Feld oder Objektwert bestehen.</translation>
-    </message>
-    <message>
-        <source>Expected only type, name, revision, isPointer, isReadonly, isRequired, isFinal, bindable, read, write, notify, index and isList script bindings.</source>
-        <translation>Es werden type, name, revision, isPointer, isReadonly, isRequired, isFinal, bindable, read, write, notify, index oder isList script bindings erwartet.</translation>
     </message>
     <message>
         <source>Property object is missing a name script binding.</source>
@@ -2184,6 +2200,17 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
     <message>
         <source>Sample</source>
         <translation>Beispiel</translation>
+    </message>
+</context>
+<context>
+    <name>FileDialog</name>
+    <message>
+        <source>File name</source>
+        <translation>Dateiname</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filter</translation>
     </message>
 </context>
 </TS>

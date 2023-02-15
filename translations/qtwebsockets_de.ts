@@ -74,12 +74,12 @@
         <translation>Der WebSocket-Server hat das Protokoll %1 gewählt, das nicht angefordert war</translation>
     </message>
     <message>
-        <source>QWebSocketPrivate::processHandshake: Invalid status line in response: %1.</source>
-        <translation>QWebSocketPrivate::processHandshake: Ungültige Statuszeile in Antwort: %1.</translation>
-    </message>
-    <message>
         <source>Accept-Key received from server %1 does not match the client key %2.</source>
         <translation>Der Accept-Schlüssel vom Server %1 entspricht nicht dem Schlüssel des Clients %2.</translation>
+    </message>
+    <message>
+        <source>Invalid parameter encountered during protocol upgrade: %1</source>
+        <translation>Während des Protokoll-Upgrades trat ein ungültiger Parameter auf: %1</translation>
     </message>
     <message>
         <source>Handshake: Server requests a version that we don&apos;t support: %1.</source>
