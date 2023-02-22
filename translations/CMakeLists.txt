@@ -171,12 +171,6 @@ string(PREPEND catalogs_file_content "[\n")
 string(APPEND catalogs_file_content "\n]\n")
 file(WRITE "${catalogs_file}" "${catalogs_file_content}")
 
-# Create check target
-add_custom_target(check-ts
-    COMMAND perl check-ts.pl
-    WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
-)
-add_dependencies(check-ts ts-all)
 
 # Update and install qm command
 add_custom_target(updateqm ALL)
