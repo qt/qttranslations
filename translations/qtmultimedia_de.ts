@@ -24,6 +24,10 @@
         <translation>Nicht unterstützter Medientyp.</translation>
     </message>
     <message>
+        <source>Unsupported URL scheme.</source>
+        <translation>Nicht unterstütztes URL-Schema.</translation>
+    </message>
+    <message>
         <source>Connection to server could not be established.</source>
         <translation>Verbindung zum Server konnte nicht hergestellt werden.</translation>
     </message>
@@ -145,10 +149,6 @@
         <translation>Es wurde versucht, eine ungültige Qt-Ressource abzuspielen</translation>
     </message>
     <message>
-        <source>Platform does not support media playback.</source>
-        <translation>Die Plattform unterstützt das Abspielen von Medien nicht.</translation>
-    </message>
-    <message>
         <source>Could not open file</source>
         <translation>Die Datei konnte nicht geöffnet werden</translation>
     </message>
@@ -166,10 +166,6 @@
     <message>
         <source>Could not capture in stopped state</source>
         <translation>Im Stopp-Zustand kann nicht aufgenommen werden</translation>
-    </message>
-    <message>
-        <source>Device does not support images capture.</source>
-        <translation>Das Gerät unterstützt das Aufnehmen von Bildern nicht.</translation>
     </message>
     <message>
         <source>No instance of QImageCapture set on QMediaCaptureSession.</source>
@@ -296,16 +292,8 @@
 <context>
     <name>QMediaRecorder</name>
     <message>
-        <source>Not available</source>
-        <translation>Nicht verfügbar</translation>
-    </message>
-    <message>
         <source>Output location not writable</source>
         <translation>Ausgabe kann nicht geschrieben werden</translation>
-    </message>
-    <message>
-        <source>QMediaRecorder not supported on this platform</source>
-        <translation>QMediaRecorder wird auf der Plattform nicht unterstützt</translation>
     </message>
     <message>
         <source>Failed to start recording</source>
@@ -321,7 +309,11 @@
     </message>
     <message>
         <source>No camera or audio input</source>
-        <translation>Keine Kamera oder kein Audio-Eingang</translation>
+        <translation>Kein Kamera- oder kein Audiosignal</translation>
+    </message>
+    <message>
+        <source>No video or audio input</source>
+        <translation>Kein Video- oder Audiosignal</translation>
     </message>
 </context>
 <context>
@@ -532,25 +524,6 @@
     <message>
         <source>Camera is in use.</source>
         <translation>Kamera bereits in Verwendung.</translation>
-    </message>
-</context>
-<context>
-    <name>QCamera</name>
-    <message>
-        <source>Camera provides image in unsupported format</source>
-        <translation>Die Kamera erzeugt Bilder in einem nicht unterstützten Format</translation>
-    </message>
-    <message>
-        <source>Could not load JPEG data from frame</source>
-        <translation>Die JPEG-Daten konnten nicht aus den Bilddaten geladen werden</translation>
-    </message>
-    <message>
-        <source>Could not overwrite existing file</source>
-        <translation>Existierende Datei konnte nicht überschrieben werden</translation>
-    </message>
-    <message>
-        <source>Could not write image to file</source>
-        <translation>Das Bild konnte nicht in die Datei geschrieben werden</translation>
     </message>
 </context>
 </TS>

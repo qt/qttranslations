@@ -1,8 +1,6 @@
 # Copyright (C) 2022 The Qt Company Ltd.
 # SPDX-License-Identifier: BSD-3-Clause
 
-# special case skip regeneration
-
 add_custom_target(ts-all)
 
 set(repo_root_directory "${CMAKE_CURRENT_SOURCE_DIR}/../..")
@@ -62,10 +60,6 @@ function(add_ts_targets catalog)
         file(GLOB_RECURSE catalog_files "${dir_path}/**")
         list(APPEND file_list ${catalog_files})
     endforeach()
-    if (NOT file_list)
-        message(WARNING "No source files located for ${catalog}, skipping target creation")
-        return()
-    endif()
 
     # Extend the content of catalogs.json
     if(NOT "${catalogs_file_content}" STREQUAL "")
@@ -85,6 +79,11 @@ function(add_ts_targets catalog)
     endif()
     string(APPEND catalogs_file_content "\n  }")
     set(catalogs_file_content "${catalogs_file_content}" PARENT_SCOPE)
+
+    if (NOT file_list)
+        message(WARNING "No source files located for ${catalog}, skipping target creation")
+        return()
+    endif()
 
     # Generate the list of source files
     set(source_files_list_file "${CMAKE_CURRENT_BINARY_DIR}/${catalog}_file_list.txt")

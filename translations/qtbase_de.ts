@@ -923,6 +923,10 @@ Drücken Sie ESC, um abzubrechen</translation>
 <context>
     <name>QErrorMessage</name>
     <message>
+        <source>An error occurred</source>
+        <translation>Ein Fehler ist aufgetreten</translation>
+    </message>
+    <message>
         <source>Debug Message:</source>
         <translation>Debug-Ausgabe:</translation>
     </message>
@@ -6954,6 +6958,10 @@ Role of an accessible object</extracomment>
     <message>
         <source>Could not reset to read data</source>
         <translation>Die Positionierung zum Lesen der Daten schlug fehl</translation>
+    </message>
+    <message>
+        <source>Invalid color map depth (%1)</source>
+        <translation>Ungültige Größe der Farbtabelle (%1)</translation>
     </message>
 </context>
 <context>

@@ -1435,16 +1435,16 @@
         <translation>Beim Aufbau der Verbindung zum Gerät trat ein Fehler auf.</translation>
     </message>
     <message>
-        <source>Error missing permission</source>
-        <translation>Fehler: Fehlende Berechtigung</translation>
-    </message>
-    <message>
         <source>Failed to authorize on the remote device</source>
         <translation>Fehler bei Autorisierung auf dem Gerät</translation>
     </message>
     <message>
         <source>Missing permissions error</source>
         <translation>Fehler: Fehlende Berechtigungen</translation>
+    </message>
+    <message>
+        <source>Error reading RSSI value</source>
+        <translation>Fehler beim Lesen des RSSI-Werts</translation>
     </message>
     <message>
         <source>Error occurred trying to start advertising</source>
