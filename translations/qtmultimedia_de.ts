@@ -438,6 +438,10 @@
         <translation>Es kann keine Quelle eingestellt werden; die angegebene Quelle hat einen ungültigen MIME-Typ.</translation>
     </message>
     <message>
+        <source>Cannot open the file</source>
+        <translation>Datei kann nicht geöffnet werden</translation>
+    </message>
+    <message>
         <source>Invalid fileDescriptor for source.</source>
         <translation>Ungültiger Dateideskriptor der Quelle.</translation>
     </message>

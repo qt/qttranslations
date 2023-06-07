@@ -45,49 +45,6 @@
     </message>
 </context>
 <context>
-    <name>QQmlAnonymousComponentResolver</name>
-    <message>
-        <source>Component objects cannot declare new functions.</source>
-        <translation>Komponentenobjekte können keine neuen Funktionen deklarieren.</translation>
-    </message>
-    <message>
-        <source>Component objects cannot declare new properties.</source>
-        <translation>Komponentenobjekte können keine neuen Eigenschaften deklarieren.</translation>
-    </message>
-    <message>
-        <source>Component objects cannot declare new signals.</source>
-        <translation>Komponentenobjekte können keine neuen Signale deklarieren.</translation>
-    </message>
-    <message>
-        <source>Cannot create empty component specification</source>
-        <translation>Es kann keine leere Komponentenangabe erzeugt werden</translation>
-    </message>
-    <message>
-        <source>Component elements may not contain properties other than id</source>
-        <translation>Komponenten dürfen außer id keine weiteren Eigenschaften enthalten</translation>
-    </message>
-    <message>
-        <source>Invalid component body specification</source>
-        <translation>Ungültige Spezifikation des Komponentenkörpers</translation>
-    </message>
-    <message>
-        <source>id is not unique</source>
-        <translation>Id-Wert nicht eindeutig</translation>
-    </message>
-    <message>
-        <source>Circular alias reference detected</source>
-        <translation>Zirkuläre Referenzierung eines Alias festgestellt</translation>
-    </message>
-    <message>
-        <source>Invalid alias reference. Unable to find id &quot;%1&quot;</source>
-        <translation>Ungültige Referenzierung einer Alias-Eigenschaft. Der Id-Wert &quot;%1&quot; konnte nicht gefunden werden</translation>
-    </message>
-    <message>
-        <source>Invalid alias target location: %1</source>
-        <translation>Ungültige Zielangabe bei Alias-Eigenschaft: %1</translation>
-    </message>
-</context>
-<context>
     <name>QQmlCodeGenerator</name>
     <message>
         <source>Signal names cannot begin with an upper case letter</source>
@@ -510,6 +467,10 @@
         <translation>ist kein Typ</translation>
     </message>
     <message>
+        <source>Cannot resolve URL for import &quot;%1&quot;</source>
+        <translation>Die URL für den Import &quot;%1&quot; kann nicht aufgelöst werden</translation>
+    </message>
+    <message>
         <source>static plugin for module &quot;%1&quot; with name &quot;%2&quot; has no metadata URI</source>
         <translation>Das statische Plugin des Moduls &quot;%1&quot; mit dem Namen &quot;%2&quot; hat keinen Metadaten-URI</translation>
     </message>
@@ -864,6 +825,10 @@
 <context>
     <name>QQmlPropertyCacheCreatorBase</name>
     <message>
+        <source>Type cannot be used for &apos;on&apos; assignment</source>
+        <translation>Der Typ kann nicht für eine &apos;on&apos;-Zuweisung verwendet werden</translation>
+    </message>
+    <message>
         <source>Fully dynamic types cannot declare new properties.</source>
         <translation>Vollständig dynamische Typen können keine neuen Eigenschaften deklarieren.</translation>
     </message>
@@ -874,6 +839,10 @@
     <message>
         <source>Fully Dynamic types cannot declare new functions.</source>
         <translation>Vollständig dynamische Typen können keine neuen Funktionen deklarieren.</translation>
+    </message>
+    <message>
+        <source>Type &apos;%1&apos; cannot declare new members.</source>
+        <translation>Der Typ &apos;%1&apos; kann keine neuen Mitglieder deklarieren.</translation>
     </message>
     <message>
         <source>Non-existent attached object</source>
@@ -1521,10 +1490,6 @@
         <translation>Es werden nur name, type, revision, isPointer, isList, isCloned, isConstructor und isJavaScriptFunction in script bindings erwartet.</translation>
     </message>
     <message>
-        <source>Expected only name and type script bindings.</source>
-        <translation>Es werden name oder script bindings erwartet.</translation>
-    </message>
-    <message>
         <source>Method or signal is missing a name script binding.</source>
         <translation>Bei der Methode oder dem Signal fehlt name script binding.</translation>
     </message>
@@ -1545,8 +1510,12 @@
         <translation>Es werden nur type, name, revision, isPointer, isReadonly, isRequired, isFinal, isList, bindable, read, write, reset, notify, index, und  privateClass und script bindings erwartet.</translation>
     </message>
     <message>
-        <source>Expected only name and values script bindings.</source>
-        <translation>Es werden name oder values script bindings erwartet.</translation>
+        <source>Expected only name, alias, isFlag, values, scoped, or type.</source>
+        <translation>Es werden nur name, alias, isFlag, values, scoped oder type erwartet.</translation>
+    </message>
+    <message>
+        <source>Expected only name, type, isPointer, isConstant, isReadonly, or IsList script bindings.</source>
+        <translation>Es werden nur name, type, isPointer, isConstant, isReadonly oder IsList Script-Bindings erwartet.</translation>
     </message>
     <message>
         <source>Expected string after colon.</source>
@@ -1679,18 +1648,6 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
     <message>
         <source>Detected multiple visit of %1 visiting prototypes of %2</source>
         <translation>Es wurde ein mehrfacher Besuch von %1 beim Abarbeiten der Prototypen von %2 festgestellt</translation>
-    </message>
-    <message>
-        <source>could not resolve prototype %1 (%2)</source>
-        <translation>der Prototyp %1 (%2) konnte nicht aufgelöst werden</translation>
-    </message>
-    <message>
-        <source>Multiple definitions found, using first only, resolving prototype %1 (%2): %3</source>
-        <translation>Es wurden mehrere Definitionen gefunden; lediglich die erste wird benutzt; beim Auflösen des Prototyps %1 (%2): %3</translation>
-    </message>
-    <message>
-        <source>Unexpected prototype type %1 (%2)</source>
-        <translation>Unerwarteter Prototyp-Typ %1 (%2)</translation>
     </message>
     <message>
         <source>Called visitScopeChain outside scopes</source>
@@ -1828,33 +1785,6 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
     <message>
         <source>Incorrectly specified signal assignment</source>
         <translation>Angegebene Signalzuweisung ist nicht korrekt</translation>
-    </message>
-</context>
-<context>
-    <name>QmlDomAstCreator</name>
-    <message>
-        <source>id is a special attribute, that should not be used as property name</source>
-        <translation>id ist ein spezielles Attribut, das nicht als Eigenschaftsname verwendet werden sollte</translation>
-    </message>
-    <message>
-        <source>id attributes should only be a lower case letter followed by letters, numbers or underscore, assuming they refer to an id property</source>
-        <translation>id-Attribute sollten lediglich aus einem Kleinbuchstaben gefolgt von Buchstaben, Ziffern oder Unterstrichzeichen bestehen, sofern sie sich auf eine id-Eigenschaft beziehen</translation>
-    </message>
-    <message>
-        <source>id attributes should only be a lower case letter followed by letters, numbers or underscore, not %1 %2, assuming they refer to a property</source>
-        <translation>id-Attribute sollten lediglich aus einem Kleinbuchstaben gefolgt von Buchstaben, Ziffern oder Unterstrichzeichen bestehen, nicht jedoch %1 %2, sofern sie sich auf eine Eigenschaft beziehen</translation>
-    </message>
-    <message>
-        <source>id attributes should have only simple strings as values</source>
-        <translation>id-Attribute sollten nur einfache Zeichenketten als Werte haben</translation>
-    </message>
-    <message>
-        <source>Maximum statement or expression depth exceeded in QmlDomAstCreator</source>
-        <translation>Maximale Anweisungs- oder Ausdruckstiefe in QmlDomAstCreator überschritten</translation>
-    </message>
-    <message>
-        <source>id attributes should only be a lower case letter followed by letters, numbers or underscore, not %1</source>
-        <translation>id-Attribute sollten aus einem Kleinbuchstaben und einer Folge von Buchstaben, Ziffern oder Unterstrich-Zeichen bestehen, nicht jedoch %1</translation>
     </message>
 </context>
 <context>
@@ -2102,13 +2032,6 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
     </message>
 </context>
 <context>
-    <name>Dom::filteTypeForPath</name>
-    <message>
-        <source>Could not detect type of file %1</source>
-        <translation>Der Typ der Datei %1 konnte nicht bestimmt werden</translation>
-    </message>
-</context>
-<context>
     <name>TypeDescriptionReader</name>
     <message>
         <source>Property object is missing a name or type script binding.</source>
@@ -2211,6 +2134,55 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
     <message>
         <source>Filter</source>
         <translation>Filter</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlDomAstCreator</name>
+    <message>
+        <source>id is a special attribute, that should not be used as property name</source>
+        <translation>id ist ein besonderes Attribut, das nicht als Eigenschaftsname verwendet werden sollte</translation>
+    </message>
+    <message>
+        <source>id attributes should only be a lower case letter followed by letters, numbers or underscore, assuming they refer to an id property</source>
+        <translation>id-Attribute sollten lediglich aus einem Kleinbuchstaben gefolgt von Buchstaben, Ziffern oder Unterstrichzeichen bestehen, sofern sie sich auf eine id-Eigenschaft beziehen</translation>
+    </message>
+    <message>
+        <source>id attributes should only be a lower case letter followed by letters, numbers or underscore, not %1</source>
+        <translation>id-Attribute sollten aus einem Kleinbuchstaben gefolgt von Buchstaben, Ziffern oder Unterstrichzeichen bestehen, nicht jedoch %1</translation>
+    </message>
+    <message>
+        <source>id attributes should only be a lower case letter followed by letters, numbers or underscore, not %1 %2, assuming they refer to a property</source>
+        <translation>id-Attribute sollten lediglich aus einem Kleinbuchstaben gefolgt von Buchstaben, Ziffern oder Unterstrichzeichen bestehen, nicht jedoch %1 %2, sofern sie sich auf eine Eigenschaft beziehen</translation>
+    </message>
+    <message>
+        <source>id attributes should have only simple strings as values</source>
+        <translation>id-Attribute sollten nur einfache Zeichenketten als Werte haben</translation>
+    </message>
+    <message>
+        <source>Maximum statement or expression depth exceeded in QmlDomAstCreator</source>
+        <translation>Maximale Anweisungs- oder Ausdruckstiefe in QmlDomAstCreator überschritten</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlJS::Dom</name>
+    <message>
+        <source>could not resolve prototype %1 (%2)</source>
+        <translation>Prototyp %1 (%2) konnte nicht aufgelöst werden</translation>
+    </message>
+    <message>
+        <source>Multiple definitions found, using first only, resolving prototype %1 (%2): %3</source>
+        <translation>Es wurden mehrere Definitionen gefunden, lediglich die erste wird benutzt; beim Auflösen des Prototyps %1 (%2): %3</translation>
+    </message>
+    <message>
+        <source>Unexpected prototype type %1 (%2)</source>
+        <translation>Unerwarteter Prototyp-Typ %1 (%2)</translation>
+    </message>
+</context>
+<context>
+    <name>Dom::fileTypeForPath</name>
+    <message>
+        <source>Could not detect type of file %1</source>
+        <translation>Typ der Datei %1 konnte nicht bestimmt werden</translation>
     </message>
 </context>
 </TS>

@@ -815,8 +815,77 @@
         <translation>Kantenglättung bevorzugen</translation>
     </message>
     <message>
+        <source>PreferDefaultHinting</source>
+        <comment>QFont::StyleStrategy combo</comment>
+        <translation>PreferDefaultHinting</translation>
+    </message>
+    <message>
+        <source>PreferNoHinting</source>
+        <comment>QFont::StyleStrategy combo</comment>
+        <translation>PreferNoHinting</translation>
+    </message>
+    <message>
+        <source>PreferVerticalHinting</source>
+        <comment>QFont::StyleStrategy combo</comment>
+        <translation>PreferVerticalHinting</translation>
+    </message>
+    <message>
+        <source>PreferFullHinting</source>
+        <comment>QFont::StyleStrategy combo</comment>
+        <translation>PreferFullHinting</translation>
+    </message>
+    <message>
         <source>Antialiasing</source>
         <translation>Kantenglättung</translation>
+    </message>
+    <message>
+        <source>HintingPreference</source>
+        <translation>HintingPreference</translation>
+    </message>
+    <message>
+        <source>Thin</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>Thin</translation>
+    </message>
+    <message>
+        <source>ExtraLight</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>ExtraLight</translation>
+    </message>
+    <message>
+        <source>Light</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>Light</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Medium</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>Medium</translation>
+    </message>
+    <message>
+        <source>DemiBold</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>DemiBold</translation>
+    </message>
+    <message>
+        <source>Bold</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>Bold</translation>
+    </message>
+    <message>
+        <source>ExtraBold</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>ExtraBold</translation>
+    </message>
+    <message>
+        <source>Black</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>Black</translation>
     </message>
 </context>
 <context>
@@ -2218,6 +2287,7 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     </message>
     <message>
         <source>Bold</source>
+        <comment>Bold toggle</comment>
         <translation>Fett</translation>
     </message>
     <message>
@@ -2235,6 +2305,10 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     <message>
         <source>Kerning</source>
         <translation>Kerning</translation>
+    </message>
+    <message>
+        <source>Weight</source>
+        <translation>Stärke</translation>
     </message>
 </context>
 <context>
@@ -5955,6 +6029,17 @@ This indicates an inconsistency in the ui-file.</source>
     <message>
         <source>3DView</source>
         <translation>3DView</translation>
+    </message>
+</context>
+<context>
+    <name>qdesigner_internal::PropertySheetValue</name>
+    <message>
+        <source>translatable</source>
+        <translation>Übersetzbar</translation>
+    </message>
+    <message>
+        <source>comment</source>
+        <translation>Kommentar</translation>
     </message>
 </context>
 </TS>

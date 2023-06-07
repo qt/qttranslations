@@ -20,10 +20,6 @@
         <translation>Übergebene Adresse gehört zu keinem lokalen Gerät.</translation>
     </message>
     <message>
-        <source>Missing Location permission. Search is not possible.</source>
-        <translation>Die Berechtigung zur Positionsbestimmung fehlt. Es ist keine Suche möglich.</translation>
-    </message>
-    <message>
         <source>Location service turned off. Search is not possible.</source>
         <translation>Standortbestimmung abgeschaltet. Suche ist nicht möglich.</translation>
     </message>
@@ -879,6 +875,10 @@
         <source>Database Change Increment</source>
         <extracomment>Environmental sensing related</extracomment>
         <translation>Database Change Increment</translation>
+    </message>
+    <message>
+        <source>Weight Scale Feature</source>
+        <translation>Waagendaten</translation>
     </message>
     <message>
         <source>Server Characteristic Configuration</source>
