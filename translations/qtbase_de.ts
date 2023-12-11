@@ -224,8 +224,8 @@
 <context>
     <name>QApplication</name>
     <message>
-        <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
-        <translation>Die Anwendung &apos;%1&apos; benötigt Qt %2; es wurde aber Qt %3 gefunden.</translation>
+        <source>Application &quot;%1&quot; requires Qt %2, found Qt %3.</source>
+        <translation>Die Anwendung &quot;%1&quot; erfordert Qt %2; es wurde aber Qt %3 gefunden.</translation>
     </message>
     <message>
         <source>Incompatible Qt Library Error</source>
@@ -285,14 +285,6 @@
     <message>
         <source>Select All</source>
         <translation>Alles auswählen</translation>
-    </message>
-    <message>
-        <source>Start Dictation...</source>
-        <translation>Diktat beginnen...</translation>
-    </message>
-    <message>
-        <source>Emoji &amp;&amp; Symbols</source>
-        <translation>Emojis &amp;&amp; Symbole</translation>
     </message>
 </context>
 <context>
@@ -389,8 +381,8 @@ Drücken Sie ESC, um abzubrechen</translation>
         <translation>Zeigt Hilfe zu den Kommandozeilenoptionen an.</translation>
     </message>
     <message>
-        <source>Displays help including Qt specific options.</source>
-        <translation>Zeigt Hilfe einschließlich Qt-spezifischer Optionen an.</translation>
+        <source>Displays help, including generic Qt options.</source>
+        <translation>Zeigt Hilfe einschließlich der generischen Qt-Optionen an.</translation>
     </message>
     <message>
         <source>Unknown option &apos;%1&apos;.</source>
@@ -625,24 +617,13 @@ Drücken Sie ESC, um abzubrechen</translation>
         <source>Operation cancelled</source>
         <translation>Operation abgebrochen</translation>
     </message>
-</context>
-<context>
-    <name>QDnsLookupRunnable</name>
     <message>
         <source>Invalid domain name</source>
         <translation>Ungültiger Domain-Name</translation>
     </message>
     <message>
-        <source>Not yet supported on Android</source>
-        <translation>Nicht unterstützt auf Android</translation>
-    </message>
-    <message>
-        <source>Resolver functions not found</source>
-        <translation>Die Resolver-Funktionen konnten nicht gefunden werden</translation>
-    </message>
-    <message>
-        <source>Resolver initialization failed</source>
-        <translation>Die Initialisierung des Resolvers schlug fehl</translation>
+        <source>Request timed out</source>
+        <translation>Das Zeitlimit der Anforderung wurde überschritten</translation>
     </message>
     <message>
         <source>Server could not process query</source>
@@ -661,8 +642,24 @@ Drücken Sie ESC, um abzubrechen</translation>
         <translation>Der Server verweigerte die Antwort</translation>
     </message>
     <message>
+        <source>Invalid reply received (rcode %1)</source>
+        <translation>Ungültige Antwort erhalten (rcode %1)</translation>
+    </message>
+    <message>
         <source>Invalid reply received</source>
         <translation>Ungültige Antwort erhalten</translation>
+    </message>
+    <message>
+        <source>Invalid reply received (%1)</source>
+        <translation>Ungültige Antwort erhalten (%1)</translation>
+    </message>
+    <message>
+        <source>IPv6 nameservers are currently not supported on this OS</source>
+        <translation>IPv6-Name-Server werden auf diesem Betriebssystem gegenwärtig nicht unterstützt</translation>
+    </message>
+    <message>
+        <source>Reply was too large</source>
+        <translation>Die Antwort war zu groß</translation>
     </message>
     <message>
         <source>Could not expand domain name</source>
@@ -700,13 +697,12 @@ Drücken Sie ESC, um abzubrechen</translation>
         <source>Invalid text record</source>
         <translation>Ungültigen Datensatz für Text erhalten</translation>
     </message>
+</context>
+<context>
+    <name>QDnsLookupRunnable</name>
     <message>
-        <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
-        <translation>Die Resolver-Bibliothek konnte nicht geladen werden. Das Laden zur Laufzeit wird nicht unterstützt</translation>
-    </message>
-    <message>
-        <source>IPv6 addresses for nameservers are currently not supported</source>
-        <translation>IPv6-Adressen für DNS-Server werden gegenwärtig nicht unterstützt</translation>
+        <source>Not yet supported on this OS</source>
+        <translation>Auf diesem Betriebssystem noch nicht unterstützt</translation>
     </message>
 </context>
 <context>
@@ -922,6 +918,10 @@ Drücken Sie ESC, um abzubrechen</translation>
 </context>
 <context>
     <name>QErrorMessage</name>
+    <message>
+        <source>An error occurred</source>
+        <translation>Ein Fehler ist aufgetreten</translation>
+    </message>
     <message>
         <source>Debug Message:</source>
         <translation>Debug-Ausgabe:</translation>
@@ -1716,6 +1716,10 @@ Möchten Sie die Datei trotzdem löschen?</translation>
 </context>
 <context>
     <name>QIBaseDriver</name>
+    <message>
+        <source>failed to query time zone mapping from system table</source>
+        <translation>Zuordnung der Zeitzonen konnte nicht von der Systemtabelle abgefragt werden</translation>
+    </message>
     <message>
         <source>Error opening database</source>
         <translation>Die Datenbankverbindung konnte nicht geöffnet werden</translation>
@@ -2792,8 +2796,12 @@ Möchten Sie die Datei trotzdem löschen?</translation>
         <translation>Es kann keine Verbindung aufgebaut werden</translation>
     </message>
     <message>
+        <source>Unable to set client encoding to &apos;UNICODE&apos;</source>
+        <translation>Die Kodierung konnte client-seitig nicht auf &apos;UNICODE&apos; gesetzt werden.</translation>
+    </message>
+    <message>
         <source>Could not begin transaction</source>
-        <translation>Es konnte keine Transaktion gestartet werden</translation>
+        <translation>Transaktion konnte nicht gestartet werden</translation>
     </message>
     <message>
         <source>Could not commit transaction</source>
@@ -3969,6 +3977,10 @@ Bitte deaktivieren Sie eine der beiden.</translation>
         <translation>Die Eingabeumleitung konnte nicht zum Lesen geöffnet werden</translation>
     </message>
     <message>
+        <source>childProcessModifier() function threw an exception</source>
+        <translation>die childProcessModifier()-Funktion hat eine Ausnahme ausgelöst</translation>
+    </message>
+    <message>
         <source>Could not open output redirection for writing</source>
         <translation>Die Ausgabeumleitung konnte nicht zum Lesen geöffnet werden</translation>
     </message>
@@ -4798,8 +4810,12 @@ Bitte deaktivieren Sie eine der beiden.</translation>
 <context>
     <name>QSharedMemory</name>
     <message>
-        <source>%1: unable to set key on lock</source>
-        <translation>%1: Es kann kein Schlüssel für die Sperrung gesetzt werden</translation>
+        <source>%1: unsupported key type</source>
+        <translation>%1: Nicht unterstützter Schlüsseltyp</translation>
+    </message>
+    <message>
+        <source>%1: unable to set key on lock (%2)</source>
+        <translation>%1: Es kann kein Schlüssel für die Sperrung gesetzt werden (%2)</translation>
     </message>
     <message>
         <source>%1: create size is less then 0</source>
@@ -4830,8 +4846,8 @@ Bitte deaktivieren Sie eine der beiden.</translation>
         <translation>%1: Keine Ressourcen mehr verfügbar</translation>
     </message>
     <message>
-        <source>%1: unknown error %2</source>
-        <translation>%1: Unbekannter Fehler %2</translation>
+        <source>%1: unknown error: %2</source>
+        <translation>%1: Unbekannter Fehler: %2</translation>
     </message>
     <message>
         <source>%1: key is empty</source>
@@ -4840,14 +4856,6 @@ Bitte deaktivieren Sie eine der beiden.</translation>
     <message>
         <source>%1: bad name</source>
         <translation>%1: Ungültiger Name</translation>
-    </message>
-    <message>
-        <source>%1: UNIX key file doesn&apos;t exist</source>
-        <translation>%1: Die Unix-Schlüsseldatei existiert nicht</translation>
-    </message>
-    <message>
-        <source>%1: ftok failed</source>
-        <translation>%1: ftok-Aufruf ist fehlgeschlagen</translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
@@ -6851,6 +6859,10 @@ Role of an accessible object</extracomment>
 <context>
     <name>QSystemSemaphore</name>
     <message>
+        <source>%1: unsupported key type</source>
+        <translation>%1: Nicht unterstützter Schlüsseltyp</translation>
+    </message>
+    <message>
         <source>%1: permission denied</source>
         <translation>%1: Zugriff verweigert</translation>
     </message>
@@ -6867,8 +6879,8 @@ Role of an accessible object</extracomment>
         <translation>%1: Keine Ressourcen mehr verfügbar</translation>
     </message>
     <message>
-        <source>%1: unknown error %2</source>
-        <translation>%1: Unbekannter Fehler %2</translation>
+        <source>%1: unknown error: %2</source>
+        <translation>%1: Unbekannter Fehler: %2</translation>
     </message>
     <message>
         <source>%1: key is empty</source>
@@ -6954,6 +6966,10 @@ Role of an accessible object</extracomment>
     <message>
         <source>Could not reset to read data</source>
         <translation>Die Positionierung zum Lesen der Daten schlug fehl</translation>
+    </message>
+    <message>
+        <source>Invalid color map depth (%1)</source>
+        <translation>Ungültige Größe der Farbtabelle (%1)</translation>
     </message>
 </context>
 <context>
@@ -7253,8 +7269,8 @@ Die minimal erforderliche Version von Direct2D ist %1 Die auf diesem System inst
         <translation>Der Wert für das &apos;Standalone&apos;-Attribut kann nur &apos;yes&apos; oder &apos;no&apos; sein.</translation>
     </message>
     <message>
-        <source>Invalid attribute in XML declaration.</source>
-        <translation>Die XML-Deklaration enthält ein ungültiges Attribut.</translation>
+        <source>Invalid attribute in XML declaration: %1 = %2</source>
+        <translation>Ungültiges Attribut in XML-Deklaration: %1 = %2</translation>
     </message>
     <message>
         <source>Premature end of document.</source>
@@ -7263,6 +7279,10 @@ Die minimal erforderliche Version von Direct2D ist %1 Die auf diesem System inst
     <message>
         <source>Invalid document.</source>
         <translation>Ungültiges Dokument.</translation>
+    </message>
+    <message>
+        <source>Length of XML attribute name exceeds implementation limits (4KiB characters).</source>
+        <translation>Der XML-Attributname ist länger als die Implementierung erlaubt (4KiB Zeichen).</translation>
     </message>
     <message>
         <source>&apos;%1&apos;</source>
@@ -7299,6 +7319,14 @@ Die minimal erforderliche Version von Direct2D ist %1 Die auf diesem System inst
     <message>
         <source>Expected character data.</source>
         <translation>Es wurden Zeichendaten erwartet.</translation>
+    </message>
+    <message>
+        <source>Unexpected token type %1 in %2.</source>
+        <translation>Unerwarteter Token-Typ %1 in %2.</translation>
+    </message>
+    <message>
+        <source>Found second DTD token in %1.</source>
+        <translation>In %1 wurde ein zweites DTD-Token gefunden.</translation>
     </message>
     <message>
         <source>Self-referencing entity detected.</source>
@@ -7478,10 +7506,121 @@ Die minimal erforderliche Version von Direct2D ist %1 Die auf diesem System inst
     </message>
 </context>
 <context>
-    <name>QCocoaMenu</name>
+    <name>QCocoaMenuBar</name>
     <message>
         <source>Edit</source>
         <translation>Bearbeiten</translation>
+    </message>
+</context>
+<context>
+    <name>QMimerSQL</name>
+    <message>
+        <source>No Mimer SQL error for code %1</source>
+        <translation>Kein &quot;Mimer SQL&quot;-Fehler für den Code %1</translation>
+    </message>
+    <message>
+        <source>Generic Mimer SQL error</source>
+        <translation>Generischer &quot;Mimer SQL&quot;-Fehler</translation>
+    </message>
+</context>
+<context>
+    <name>QMimerSQLResult</name>
+    <message>
+        <source>Could not close cursor</source>
+        <translation>Der Cursor konnte nicht geschlossen werden</translation>
+    </message>
+    <message>
+        <source>Could not close statement</source>
+        <translation>Die Anweisung konnte nicht geschlossen werden</translation>
+    </message>
+    <message>
+        <source>Fetch did not succeed</source>
+        <translation>Das Abholen der Daten war nicht erfolgreich</translation>
+    </message>
+    <message>
+        <source>Fetch first did not succeed</source>
+        <translation>Das Abholen der ersten Daten war nicht erfolgreich</translation>
+    </message>
+    <message>
+        <source>Could not fetch next row</source>
+        <translation>Die nächste Zeile konnte nicht abgeholt werden</translation>
+    </message>
+    <message>
+        <source>Could not get %1, column %2</source>
+        <extracomment>Data type, column</extracomment>
+        <translation>Es konnte kein Wert des Typs %1 von Spalte %2 erhalten werden</translation>
+    </message>
+    <message>
+        <source>Could not set %1, parameter %2</source>
+        <extracomment>Data type, parameter</extracomment>
+        <translation>Es konnte kein Wert des Typs %1 für Parameter %2 gesetzt werden</translation>
+    </message>
+    <message>
+        <source>Unknown data type %1</source>
+        <translation>Unbekannter Datentyp %1</translation>
+    </message>
+    <message>
+        <source>Could not check null, column %1</source>
+        <translation>Konnte nicht auf Null prüfen, Spalte %1</translation>
+    </message>
+    <message>
+        <source>Could not prepare/execute statement</source>
+        <translation>Die Anweisung konnte nicht vorbereitet oder nicht ausgeführt werden</translation>
+    </message>
+    <message>
+        <source>Wrong number of parameters</source>
+        <translation>Falsche Anzahl von Parametern</translation>
+    </message>
+    <message>
+        <source>Unknown datatype, parameter %1</source>
+        <translation>Der Parameter %1 hat einen unbekannten Datentyp</translation>
+    </message>
+    <message>
+        <source>Could not execute statement/open cursor</source>
+        <translation>Anweisung konnte nicht durchgeführt werden/Cursor konnte nicht geöffnet werden</translation>
+    </message>
+    <message>
+        <source>Only input parameters can be used in batch operations</source>
+        <translation>Bei Stapeloperationen können nur Eingabeparameter verwendet werden</translation>
+    </message>
+    <message>
+        <source>Could not add batch %1</source>
+        <extracomment>%1 is the batch number</extracomment>
+        <translation>Stapel %1 konnte nicht hinzugefügt werden</translation>
+    </message>
+    <message>
+        <source>Could not execute batch</source>
+        <translation>Die Stapeloperation konnte nicht ausgeführt werden</translation>
+    </message>
+</context>
+<context>
+    <name>QMimerSQLResult:</name>
+    <message>
+        <source>Fetch last did not succeed</source>
+        <translation>Das Abholen der letzten Daten war nicht erfolgreich</translation>
+    </message>
+    <message>
+        <source>Column %1 out of range</source>
+        <translation>Spalte %1 ist außerhalb des Bereichs</translation>
+    </message>
+</context>
+<context>
+    <name>QMimerSQLDriver</name>
+    <message>
+        <source>Could not connect to database</source>
+        <translation>Verbindung zur Datenbank konnte nicht hergestellt werden</translation>
+    </message>
+    <message>
+        <source>Could not start transaction</source>
+        <translation>Transaktion konnte nicht gestartet werden</translation>
+    </message>
+    <message>
+        <source>Could not commit transaction</source>
+        <translation>Transaktion konnte nicht abgeschlossen werden</translation>
+    </message>
+    <message>
+        <source>Could not roll back transaction</source>
+        <translation>Transaktion konnte nicht rückgängig gemacht werden</translation>
     </message>
 </context>
 </TS>

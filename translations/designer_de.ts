@@ -815,8 +815,77 @@
         <translation>Kantenglättung bevorzugen</translation>
     </message>
     <message>
+        <source>PreferDefaultHinting</source>
+        <comment>QFont::StyleStrategy combo</comment>
+        <translation>PreferDefaultHinting</translation>
+    </message>
+    <message>
+        <source>PreferNoHinting</source>
+        <comment>QFont::StyleStrategy combo</comment>
+        <translation>PreferNoHinting</translation>
+    </message>
+    <message>
+        <source>PreferVerticalHinting</source>
+        <comment>QFont::StyleStrategy combo</comment>
+        <translation>PreferVerticalHinting</translation>
+    </message>
+    <message>
+        <source>PreferFullHinting</source>
+        <comment>QFont::StyleStrategy combo</comment>
+        <translation>PreferFullHinting</translation>
+    </message>
+    <message>
         <source>Antialiasing</source>
         <translation>Kantenglättung</translation>
+    </message>
+    <message>
+        <source>HintingPreference</source>
+        <translation>HintingPreference</translation>
+    </message>
+    <message>
+        <source>Thin</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>Thin</translation>
+    </message>
+    <message>
+        <source>ExtraLight</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>ExtraLight</translation>
+    </message>
+    <message>
+        <source>Light</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>Light</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Medium</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>Medium</translation>
+    </message>
+    <message>
+        <source>DemiBold</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>DemiBold</translation>
+    </message>
+    <message>
+        <source>Bold</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>Bold</translation>
+    </message>
+    <message>
+        <source>ExtraBold</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>ExtraBold</translation>
+    </message>
+    <message>
+        <source>Black</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>Black</translation>
     </message>
 </context>
 <context>
@@ -2218,6 +2287,7 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     </message>
     <message>
         <source>Bold</source>
+        <comment>Bold toggle</comment>
         <translation>Fett</translation>
     </message>
     <message>
@@ -2235,6 +2305,10 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     <message>
         <source>Kerning</source>
         <translation>Kerning</translation>
+    </message>
+    <message>
+        <source>Weight</source>
+        <translation>Stärke</translation>
     </message>
 </context>
 <context>
@@ -2575,8 +2649,8 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
         <translation>Sprache</translation>
     </message>
     <message>
-        <source>Country</source>
-        <translation>Land</translation>
+        <source>Territory</source>
+        <translation>Territorium</translation>
     </message>
 </context>
 <context>
@@ -3374,6 +3448,10 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <source>ToolTip</source>
         <translation>ToolTip</translation>
+    </message>
+    <message>
+        <source>MenuRole</source>
+        <translation>MenuRole</translation>
     </message>
 </context>
 <context>
@@ -4211,8 +4289,8 @@ Möchten Sie sie überschreiben?</translation>
         <translation>Icon aus Thema setzen</translation>
     </message>
     <message>
-        <source>Input icon name from the current theme:</source>
-        <translation>Icon-Name vom aktuellen Thema eingeben:</translation>
+        <source>Select icon name from theme:</source>
+        <translation>Icon-Namen aus aktuellem Thema wählen:</translation>
     </message>
 </context>
 <context>
@@ -4383,6 +4461,10 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <source>&amp;Shortcut:</source>
         <translation>Tastenk&amp;ürzel</translation>
+    </message>
+    <message>
+        <source>&amp;Menu role:</source>
+        <translation>&amp;Menu role:</translation>
     </message>
 </context>
 <context>
@@ -5947,6 +6029,17 @@ This indicates an inconsistency in the ui-file.</source>
     <message>
         <source>3DView</source>
         <translation>3DView</translation>
+    </message>
+</context>
+<context>
+    <name>qdesigner_internal::PropertySheetValue</name>
+    <message>
+        <source>translatable</source>
+        <translation>Übersetzbar</translation>
+    </message>
+    <message>
+        <source>comment</source>
+        <translation>Kommentar</translation>
     </message>
 </context>
 </TS>
