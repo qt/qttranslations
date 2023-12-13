@@ -54,6 +54,15 @@
         <translation>Es konnten nicht alle Daten geschrieben werden: %1 != %2.</translation>
     </message>
     <message>
+        <source>QWebSocketPrivate::processHandshake: Unsupported WWW-Authenticate challenge encountered.</source>
+        <extracomment>&apos;WWW-Authenticate&apos; is the HTTP header.</extracomment>
+        <translation>QWebSocketPrivate::processHandshake: Es trat eine nicht unterstützte WWW-Authenticate-Aufforderung auf.</translation>
+    </message>
+    <message>
+        <source>QWebSocketPrivate::processHandshake: Unsupported WWW-Authenticate challenges encountered.</source>
+        <translation>QWebSocketPrivate::processHandshake: Es traten nicht unterstützte WWW-Authenticate-Aufforderungen auf.</translation>
+    </message>
+    <message>
         <source>Header is too large</source>
         <translation>Der Header ist zu groß</translation>
     </message>
@@ -74,12 +83,12 @@
         <translation>Der WebSocket-Server hat das Protokoll %1 gewählt, das nicht angefordert war</translation>
     </message>
     <message>
-        <source>QWebSocketPrivate::processHandshake: Invalid status line in response: %1.</source>
-        <translation>QWebSocketPrivate::processHandshake: Ungültige Statuszeile in Antwort: %1.</translation>
-    </message>
-    <message>
         <source>Accept-Key received from server %1 does not match the client key %2.</source>
         <translation>Der Accept-Schlüssel vom Server %1 entspricht nicht dem Schlüssel des Clients %2.</translation>
+    </message>
+    <message>
+        <source>Invalid parameter encountered during protocol upgrade: %1</source>
+        <translation>Während des Protokoll-Upgrades trat ein ungültiger Parameter auf: %1</translation>
     </message>
     <message>
         <source>Handshake: Server requests a version that we don&apos;t support: %1.</source>
@@ -88,6 +97,10 @@
     <message>
         <source>QWebSocketPrivate::processHandshake: Unknown error condition encountered. Aborting connection.</source>
         <translation>QWebSocketPrivate::processHandshake: Es ist ein unbekannter Fehler aufgetreten. Verbindung beendet.</translation>
+    </message>
+    <message>
+        <source>QWebSocket::processHandshake: Host requires authentication</source>
+        <translation>QWebSocket::processHandshake: Der Server erfordert Authentifizierung</translation>
     </message>
     <message>
         <source>QWebSocketPrivate::processHandshake: Unhandled http status code: %1 (%2).</source>
