@@ -667,7 +667,7 @@ Press ESC to cancel</source>
     </message>
     <message>
         <source>Size</source>
-        <translation>体积</translation>
+        <translation>大小</translation>
     </message>
     <message>
         <source>Kind</source>
@@ -1354,7 +1354,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Size</source>
-        <translation>体积</translation>
+        <translation>大小</translation>
     </message>
     <message>
         <source>Kind</source>
