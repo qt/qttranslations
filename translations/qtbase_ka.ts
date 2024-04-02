@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ka_GE">
+<TS version="2.1" language="de_DE">
 <context>
     <name>CloseButton</name>
     <message>
@@ -10,14 +10,6 @@
 </context>
 <context>
     <name>MAC_APPLICATION_MENU</name>
-    <message>
-        <source>About %1</source>
-        <translation>%1-ის შესახებ</translation>
-    </message>
-    <message>
-        <source>Preferences...</source>
-        <translation>მორგება...</translation>
-    </message>
     <message>
         <source>Services</source>
         <translation>სერვისები</translation>
@@ -35,8 +27,16 @@
         <translation>ყველას ჩვენება</translation>
     </message>
     <message>
+        <source>Preferences...</source>
+        <translation>მორგება...</translation>
+    </message>
+    <message>
         <source>Quit %1</source>
         <translation>%1-დან გასვლა</translation>
+    </message>
+    <message>
+        <source>About %1</source>
+        <translation>%1-ის შესახებ</translation>
     </message>
 </context>
 <context>
@@ -224,8 +224,8 @@
 <context>
     <name>QApplication</name>
     <message>
-        <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
-        <translation>გამშვებს %1 სჭირდება qt %2. ნაპოვნია Qt %3.</translation>
+        <source>Application &quot;%1&quot; requires Qt %2, found Qt %3.</source>
+        <translation>აპლიკაციას &quot;%1&quot; სჭირდება Qt %2. Qt-ის ვერსიაა %3.</translation>
     </message>
     <message>
         <source>Incompatible Qt Library Error</source>
@@ -381,7 +381,7 @@ Press ESC to cancel</source>
         <translation>აჩვენებს დახმარებას ბრძანების სტრიქონის პარამეტრებზე.</translation>
     </message>
     <message>
-        <source>Displays help including Qt specific options.</source>
+        <source>Displays help, including generic Qt options.</source>
         <translation>აჩვენებს დახმარებას Qt-ის პარამეტრების ჩათვლით.</translation>
     </message>
     <message>
@@ -415,24 +415,6 @@ Press ESC to cancel</source>
     <message>
         <source>Arguments:</source>
         <translation>არგუმენტები:</translation>
-    </message>
-</context>
-<context>
-    <name>QCoreApplication</name>
-    <message>
-        <source>%1: key is empty</source>
-        <comment>QSystemSemaphore</comment>
-        <translation>%1: გასაღები ცარიელია</translation>
-    </message>
-    <message>
-        <source>%1: unable to make key</source>
-        <comment>QSystemSemaphore</comment>
-        <translation>%1: გასაღების შექმნა შეუძლებელია</translation>
-    </message>
-    <message>
-        <source>%1: ftok failed</source>
-        <comment>QSystemSemaphore</comment>
-        <translation>%1: ftok-ის შეცდომა</translation>
     </message>
 </context>
 <context>
@@ -616,25 +598,6 @@ Press ESC to cancel</source>
     </message>
 </context>
 <context>
-    <name>QDateTimeParser</name>
-    <message>
-        <source>AM</source>
-        <translation>AM</translation>
-    </message>
-    <message>
-        <source>am</source>
-        <translation>am</translation>
-    </message>
-    <message>
-        <source>PM</source>
-        <translation>PM</translation>
-    </message>
-    <message>
-        <source>pm</source>
-        <translation>pm</translation>
-    </message>
-</context>
-<context>
     <name>QDialog</name>
     <message>
         <source>What&apos;s This?</source>
@@ -649,58 +612,18 @@ Press ESC to cancel</source>
     </message>
 </context>
 <context>
-    <name>QDirModel</name>
-    <message>
-        <source>Name</source>
-        <translation>სახელი</translation>
-    </message>
-    <message>
-        <source>Size</source>
-        <translation>ზომა</translation>
-    </message>
-    <message>
-        <source>Kind</source>
-        <comment>Match OS X Finder</comment>
-        <translation>ტიპი</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <comment>All other platforms</comment>
-        <translation>ტიპი</translation>
-    </message>
-    <message>
-        <source>Date Modified</source>
-        <translation>შეცვლის თარიღი</translation>
-    </message>
-</context>
-<context>
     <name>QDnsLookup</name>
     <message>
         <source>Operation cancelled</source>
         <translation>ოპერაცია გაუქმებულია</translation>
-    </message>
-</context>
-<context>
-    <name>QDnsLookupRunnable</name>
-    <message>
-        <source>IPv6 addresses for nameservers are currently not supported</source>
-        <translation>IPv6 მისამართები DNS სერვერებისთვის ჯერ მხარდაჭერილი არაა</translation>
     </message>
     <message>
         <source>Invalid domain name</source>
         <translation>დომენის არასწორი სახელი</translation>
     </message>
     <message>
-        <source>Not yet supported on Android</source>
-        <translation>Androd-ის მხარდაჭერა ჯერ არ არსებობს</translation>
-    </message>
-    <message>
-        <source>Resolver functions not found</source>
-        <translation>გადამჭრელი ფუნქცია ვერ ვიპოვე</translation>
-    </message>
-    <message>
-        <source>Resolver initialization failed</source>
-        <translation>გადამჭრელის ინიციალიზაციის პრობლემა</translation>
+        <source>Request timed out</source>
+        <translation>მოთხოვნის ვადა ამოიწურა</translation>
     </message>
     <message>
         <source>Server could not process query</source>
@@ -719,8 +642,24 @@ Press ESC to cancel</source>
         <translation>სერვერთან დაკავშირება უარყოფილია</translation>
     </message>
     <message>
+        <source>Invalid reply received (rcode %1)</source>
+        <translation>მიღებულია პასუხი არასწორია (rcode %1)</translation>
+    </message>
+    <message>
         <source>Invalid reply received</source>
         <translation>მიღებულია პასუხი არასწორია</translation>
+    </message>
+    <message>
+        <source>Invalid reply received (%1)</source>
+        <translation>მიღებულია პასუხი არასწორია (%1)</translation>
+    </message>
+    <message>
+        <source>IPv6 nameservers are currently not supported on this OS</source>
+        <translation>IPv6 მისამართები DNS სერვერებისთვის ამ ოს-ზე ჯერ მხარდაჭერილი არაა</translation>
+    </message>
+    <message>
+        <source>Reply was too large</source>
+        <translation>პასუხი ძალიან დიდია</translation>
     </message>
     <message>
         <source>Could not expand domain name</source>
@@ -758,25 +697,12 @@ Press ESC to cancel</source>
         <source>Invalid text record</source>
         <translation>არასწორი ტექსტური ჩანაწერი</translation>
     </message>
+</context>
+<context>
+    <name>QDnsLookupRunnable</name>
     <message>
-        <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
-        <translation>გადამჭრელი ბიბლიოთეკის ჩატვირთვის შეცდომა:ბიბლიოთეკის ჩატვირთვის მხარდაჭერა არ არსებობს</translation>
-    </message>
-    <message>
-        <source>No hostname given</source>
-        <translation>ჰოსტის სახელი მითითებული არაა</translation>
-    </message>
-    <message>
-        <source>Invalid hostname</source>
-        <translation>ჰოსტის არასწორი სახელი</translation>
-    </message>
-    <message>
-        <source>Host %1 could not be found.</source>
-        <translation>ჰოსტის %1 პოვნა შეუძლებელია.</translation>
-    </message>
-    <message>
-        <source>Unknown error</source>
-        <translation>უცნობი შეცდომა</translation>
+        <source>Not yet supported on this OS</source>
+        <translation>ამ ოს-ზე ჯერ მხარდაჭერილი არაა</translation>
     </message>
 </context>
 <context>
@@ -870,16 +796,16 @@ Press ESC to cancel</source>
         <translation>არასწორი (ცარიელი) საიდუმლო</translation>
     </message>
     <message>
+        <source>Invalid address</source>
+        <translation>არასწორი მისამართი</translation>
+    </message>
+    <message>
         <source>Multicast and broadcast addresses are not supported</source>
         <translation>Multicast და broadcast მისამართები მხარდაჭერილი არაა</translation>
     </message>
     <message>
         <source>Cannot set peer after handshake started</source>
         <translation>პარტნიორის დაყენება ხელის ჩამორთმევის დაწყების შემდეგ შეუძლებელია</translation>
-    </message>
-    <message>
-        <source>Invalid address</source>
-        <translation>არასწორი მისამართი</translation>
     </message>
     <message>
         <source>Cannot set verification name after handshake started</source>
@@ -898,16 +824,20 @@ Press ESC to cancel</source>
         <translation>არასწორი (ნულოვანი მაჩვენებლით) სოკეტი</translation>
     </message>
     <message>
-        <source>To start a handshake you must set peer&apos;s address and port first</source>
-        <translation>ხელის ჩამორთმევის დასაწყებად, ჯერ პარტნიორის მისამართი და პორტი უნდა დააყენოთ</translation>
-    </message>
-    <message>
         <source>To start a handshake, DTLS server requires non-empty datagram (client hello)</source>
         <translation>ხელის ჩამორთმევის დასაწყებად DTS სერვერს არაცარიელი დატაგრამა (კლიენტის მისალმება) ესაჭიროება</translation>
     </message>
     <message>
         <source>Cannot start handshake, already done/in progress</source>
         <translation>ხელის ჩამორთმევის დაწყება შეუძლებელია, რადგან ის უკვე დასრულდა/მიმდინარეობს</translation>
+    </message>
+    <message>
+        <source>No handshake in progress, nothing to abort</source>
+        <translation>ხელის ჩამორთმევა არ მიმდინარეობს. შესაწყვეტი არაფერია</translation>
+    </message>
+    <message>
+        <source>To start a handshake you must set peer&apos;s address and port first</source>
+        <translation>ხელის ჩამორთმევის დასაწყებად, ჯერ პარტნიორის მისამართი და პორტი უნდა დააყენოთ</translation>
     </message>
     <message>
         <source>A valid QUdpSocket and non-empty datagram are needed to continue the handshake</source>
@@ -920,10 +850,6 @@ Press ESC to cancel</source>
     <message>
         <source>Cannot resume, not in VerificationError state</source>
         <translation>გაგრძელება შეუძლებელია, რადგან გადამოწმების შეცდომის მდგომარეობაში არაა</translation>
-    </message>
-    <message>
-        <source>No handshake in progress, nothing to abort</source>
-        <translation>ხელის ჩამორთმევა არ მიმდინარეობს. შესაწყვეტი არაფერია</translation>
     </message>
     <message>
         <source>Cannot send shutdown alert, not encrypted</source>
@@ -959,6 +885,14 @@ Press ESC to cancel</source>
         <translation>ხელის ჩამორთმევის გაშვება შეუძლებელია. ველოდებოდი გადამოწმებულ კლიენტის მისალმებას</translation>
     </message>
     <message>
+        <source>Error while writing: %1</source>
+        <translation>შეცდომა ჩაწერისას: %1</translation>
+    </message>
+    <message>
+        <source>Error while reading: %1</source>
+        <translation>კითხვის შეცდომა: %1</translation>
+    </message>
+    <message>
         <source>Peer verification failed</source>
         <translation>პარტნიორის გადამოწმებს შეცდომა</translation>
     </message>
@@ -967,38 +901,34 @@ Press ESC to cancel</source>
         <translation>DTLS კავშირი დაიხურა</translation>
     </message>
     <message>
-        <source>Error while writing: %1</source>
-        <translation>შეცდომა ჩაწერისას: %1</translation>
-    </message>
-    <message>
         <source>The DTLS connection has been shutdown</source>
         <translation>DTLS კავშირი გაითიშა</translation>
-    </message>
-    <message>
-        <source>Error while reading: %1</source>
-        <translation>კითხვის შეცდომა: %1</translation>
     </message>
 </context>
 <context>
     <name>QDtlsClientVerifier</name>
     <message>
-        <source>A valid UDP socket, non-empty datagram, valid address/port were expected</source>
-        <translation>მოველოდი სწორ UDP სოკეტს, არაცარიელ დატაგრამას და სწორ მისამართი/პორტის წყვილს</translation>
-    </message>
-    <message>
         <source>BIO_ADDR_new failed, ignoring client hello</source>
         <translation>BIO_ADDR_new ჩავარდა. კლიენტი მისალმება გამოტოვებულია</translation>
+    </message>
+    <message>
+        <source>A valid UDP socket, non-empty datagram, and valid address/port were expected</source>
+        <translation>მოველოდი სწორ UDP სოკეტს, არაცარიელ დატაგრამას და სწორ მისამართი/პორტის წყვილს</translation>
     </message>
 </context>
 <context>
     <name>QErrorMessage</name>
+    <message>
+        <source>An error occurred</source>
+        <translation>შეცდომა</translation>
+    </message>
     <message>
         <source>Debug Message:</source>
         <translation>გამართვის შეტყობინება:</translation>
     </message>
     <message>
         <source>Warning:</source>
-        <translation>გაფრთხილება:</translation>
+        <translation>გაფთხილება:</translation>
     </message>
     <message>
         <source>Critical Error:</source>
@@ -1064,12 +994,12 @@ Press ESC to cancel</source>
         <translation>ვერ გავხსენი გამოსატანად: %1</translation>
     </message>
     <message>
-        <source>Failure to write block</source>
-        <translation>ბლოკის ჩაწერის შეცდომა</translation>
+        <source>Failure to write block: %1</source>
+        <translation>ჩავარდა ჩაწერა ბლოკისთვის: %1</translation>
     </message>
     <message>
-        <source>Cannot create %1 for output</source>
-        <translation>%1-ის ჩასაწერად გახსნის შეცდომა</translation>
+        <source>Cannot create %1 for output: %2</source>
+        <translation>ვერ შევქმენი %1 გამოტანისთვის: %2</translation>
     </message>
 </context>
 <context>
@@ -1136,6 +1066,18 @@ Press ESC to cancel</source>
     <message>
         <source>Change to detail view mode</source>
         <translation>დეტალური ხედზე გადართვა</translation>
+    </message>
+    <message>
+        <source>Sidebar</source>
+        <translation>გვერდითი ზოლი</translation>
+    </message>
+    <message>
+        <source>List of places and bookmarks</source>
+        <translation>ადგილებისა და სანიშნების სია</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>ფაილები</translation>
     </message>
     <message>
         <source>Files of type:</source>
@@ -1228,18 +1170,18 @@ Please verify the correct file name was given.</source>
 შეამოწმეთ ფაილის სახელი.</translation>
     </message>
     <message>
+        <source>&apos;%1&apos; is write protected.
+Do you want to delete it anyway?</source>
+        <translation>&apos;%1&apos; დაცულია ჩაწერისგან.
+გნებავთ მაინც წაშალოთ?</translation>
+    </message>
+    <message>
         <source>New Folder</source>
         <translation>ახალი საქაღალდე</translation>
     </message>
     <message>
         <source>Delete</source>
         <translation>წაშლა</translation>
-    </message>
-    <message>
-        <source>&apos;%1&apos; is write protected.
-Do you want to delete it anyway?</source>
-        <translation>&apos;%1&apos; დაცულია ჩაწერისგან.
-გნებავთ მაინც წაშალოთ?</translation>
     </message>
     <message>
         <source>Are you sure you want to delete &apos;%1&apos;?</source>
@@ -1258,59 +1200,6 @@ Do you want to delete it anyway?</source>
         <translation>წაშლა</translation>
     </message>
     <message>
-        <source>My Computer</source>
-        <translation>ჩემი კომპიუტერი</translation>
-    </message>
-    <message>
-        <source>Drive</source>
-        <translation>დრაივი</translation>
-    </message>
-    <message>
-        <source>%1 File</source>
-        <extracomment>%1 is a file name suffix, for example txt</extracomment>
-        <translation>%1 ფაილი</translation>
-    </message>
-    <message>
-        <source>File</source>
-        <translation>ფაილი</translation>
-    </message>
-    <message>
-        <source>File Folder</source>
-        <comment>Match Windows Explorer</comment>
-        <translation>ფაილის საქაღალდე</translation>
-    </message>
-    <message>
-        <source>Folder</source>
-        <comment>All other platforms</comment>
-        <translation>საქაღალდე</translation>
-    </message>
-    <message>
-        <source>Alias</source>
-        <comment>OS X Finder</comment>
-        <translation>სინონიმი</translation>
-    </message>
-    <message>
-        <source>Shortcut</source>
-        <comment>All other platforms</comment>
-        <translation>მალმხმობი</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation>უცნობი</translation>
-    </message>
-    <message>
-        <source>Sidebar</source>
-        <translation>გვერდითი ზოლი</translation>
-    </message>
-    <message>
-        <source>List of places and bookmarks</source>
-        <translation>ადგილებისა და სანიშნების სია</translation>
-    </message>
-    <message>
-        <source>Files</source>
-        <translation>ფაილები</translation>
-    </message>
-    <message>
         <source>Alt+Left</source>
         <translation>Alt+მარცხნივ</translation>
     </message>
@@ -1325,14 +1214,6 @@ Do you want to delete it anyway?</source>
 </context>
 <context>
     <name>QFileSystemModel</name>
-    <message>
-        <source>Invalid filename</source>
-        <translation>ფაილის არასწორი სახელი</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;The name &quot;%1&quot; cannot be used.&lt;/b&gt;&lt;p&gt;Try using another name, with fewer characters or no punctuation marks.</source>
-        <translation>&lt;b&gt; სახელის &quot;%1&quot; გამოყენება არ შეიძლება&lt;/b&gt;&lt;p&gt;სცადეთ სხვა სახელი, უფრო მოკლე, და სასვენი ნიშნების გარეშე.</translation>
-    </message>
     <message>
         <source>Name</source>
         <translation>სახელი</translation>
@@ -1599,87 +1480,6 @@ Do you want to delete it anyway?</source>
     </message>
 </context>
 <context>
-    <name>QFtp</name>
-    <message>
-        <source>Not connected</source>
-        <translation>დაკავშირებული არაა</translation>
-    </message>
-    <message>
-        <source>Host %1 not found</source>
-        <translation>ჰოსტი %1 ნაპოვნი არაა</translation>
-    </message>
-    <message>
-        <source>Connection refused to host %1</source>
-        <translation>ჰოსტთან %1 დაკავშირება უარყოფილია</translation>
-    </message>
-    <message>
-        <source>Connection timed out to host %1</source>
-        <translation>ჰოსტამდე %1 კავშირის ვადა გავიდა</translation>
-    </message>
-    <message>
-        <source>Connected to host %1</source>
-        <translation>დავუკავშირდი %1-ს</translation>
-    </message>
-    <message>
-        <source>Data Connection refused</source>
-        <translation>მონაცემების კავშირი უარყოფილია</translation>
-    </message>
-    <message>
-        <source>Unknown error</source>
-        <translation>უცნობი შეცდომა</translation>
-    </message>
-    <message>
-        <source>Connecting to host failed:
-%1</source>
-        <translation>ჰოსტთან დაკავშირება უარყოფილია:
-%1</translation>
-    </message>
-    <message>
-        <source>Login failed:
-%1</source>
-        <translation>შესვლის შეცდომა: %1</translation>
-    </message>
-    <message>
-        <source>Listing directory failed:
-%1</source>
-        <translation>საქაღალდის სიის მიღების შეცდომა: %1</translation>
-    </message>
-    <message>
-        <source>Changing directory failed:
-%1</source>
-        <translation>საქაღალდის შეცვლის შეცდომა: %1</translation>
-    </message>
-    <message>
-        <source>Downloading file failed:
-%1</source>
-        <translation>ფაილის გადმოწერის შეცდომა: %1</translation>
-    </message>
-    <message>
-        <source>Uploading file failed:
-%1</source>
-        <translation>ფაილის ატვირთვის შეცდომა: %1</translation>
-    </message>
-    <message>
-        <source>Removing file failed:
-%1</source>
-        <translation>ფაილის წაშლის შეცდომა: %1</translation>
-    </message>
-    <message>
-        <source>Creating directory failed:
-%1</source>
-        <translation>საქაღალდის შექმნის შეცდომა: %1</translation>
-    </message>
-    <message>
-        <source>Removing directory failed:
-%1</source>
-        <translation>საქაღალდის წაშლის შეცდომა: %1</translation>
-    </message>
-    <message>
-        <source>Connection closed</source>
-        <translation>კავშირი დახურულია</translation>
-    </message>
-</context>
-<context>
     <name>QGnomeTheme</name>
     <message>
         <source>&amp;OK</source>
@@ -1691,11 +1491,11 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;გაუქმება</translation>
+        <translation>&amp;შეწყვეტა</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>დაკე&amp;ტვა</translation>
+        <translation>&amp;დახურვა</translation>
     </message>
     <message>
         <source>Close without Saving</source>
@@ -1766,16 +1566,16 @@ Do you want to delete it anyway?</source>
         <translation>გამოსაყენებელი X11 ვიზუალის ID.</translation>
     </message>
     <message>
-        <source>Alias for --windowgeometry.</source>
-        <translation>სინონიმი პარამეტრისთვის --windowgeometry.</translation>
+        <source>Alias for --qwindowgeometry.</source>
+        <translation>ფსევდონიმი პარამეტრისთვის --qwindowgeometry.</translation>
     </message>
     <message>
-        <source>Alias for --windowicon.</source>
-        <translation>სინონიმი პარამეტრისთვის --windowicon.</translation>
+        <source>Alias for --qwindowicon.</source>
+        <translation>ფსევდონიმი პარამეტრისთვის --qwindowicon.</translation>
     </message>
     <message>
-        <source>Alias for --windowtitle.</source>
-        <translation>სინონიმი პარამეტრისთვის --windowtitle.</translation>
+        <source>Alias for --qwindowtitle.</source>
+        <translation>ფსევდონიმი პარამეტრისთვის --qwindowtitle.</translation>
     </message>
 </context>
 <context>
@@ -1850,6 +1650,30 @@ Do you want to delete it anyway?</source>
         <source>Insecure redirect</source>
         <translation>დაუცველი გადამისამართება</translation>
     </message>
+    <message>
+        <source>Unsupported content encoding: %1</source>
+        <translation>მხარდაუჭერელი შემცველობის კოდირება: %1</translation>
+    </message>
+    <message>
+        <source>Failed to initialize the compression decoder.</source>
+        <translation>შეკუმშვის დეკოდერის ინიციალიზაცია ჩავარდა.</translation>
+    </message>
+    <message>
+        <source>The decompressed output exceeds the limits specified by QNetworkRequest::decompressedSafetyCheckThreshold()</source>
+        <translation>გაშლილი გამოტანა სცილდება QNetworkRequest::decompressedSafetyCheckThreshold()-ის მიერ დაყენებულ ზღვარს</translation>
+    </message>
+    <message>
+        <source>Decompression failed: %1</source>
+        <translation>გაშლა ჩავარდა: %1</translation>
+    </message>
+    <message>
+        <source>Data downloaded is too large to store</source>
+        <translation>გადმოწერილი მონაცემები შესანახად მეტისმეტად დიდია</translation>
+    </message>
+    <message>
+        <source>Failed to initialize decompression: %1</source>
+        <translation>გაშლის ინიციალიზაცია ჩავარდა: %1</translation>
+    </message>
 </context>
 <context>
     <name>QHttpSocketEngine</name>
@@ -1892,6 +1716,10 @@ Do you want to delete it anyway?</source>
 </context>
 <context>
     <name>QIBaseDriver</name>
+    <message>
+        <source>failed to query time zone mapping from system table</source>
+        <translation>სისტემური ცხრილიდან დროის სარტყლის ასახვის გამოთხოვა ჩავარდა</translation>
+    </message>
     <message>
         <source>Error opening database</source>
         <translation>მონაცემთა ბაზის გახსნა შეუძლებელია</translation>
@@ -2092,6 +1920,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>invalid termination by number</source>
+        <translatorcomment>?</translatorcomment>
         <translation>არასწორი გაყოფა რიცხვით</translation>
     </message>
     <message>
@@ -2142,71 +1971,20 @@ Do you want to delete it anyway?</source>
 <context>
     <name>QLibrary</name>
     <message>
-        <source>&apos;%1&apos; is not an ELF object (%2)</source>
-        <translation>%1 ELF ობიექტს არ წარმოადგენს (%2)</translation>
-    </message>
-    <message>
-        <source>&apos;%1&apos; is not an ELF object</source>
-        <translation>%1 ELF ობიექტს არ წარმოადგენს</translation>
-    </message>
-    <message>
-        <source>&apos;%1&apos; is an invalid ELF object (%2)</source>
-        <translation>%1 არასწორი ELF ობიექტია (%2)</translation>
-    </message>
-    <message>
-        <source>odd cpu architecture</source>
-        <translation>უცნაური CPU-ის არქიტექტურა</translation>
-    </message>
-    <message>
-        <source>wrong cpu architecture</source>
-        <translation>არასწორი CPU-ის არქიტექტურა</translation>
-    </message>
-    <message>
-        <source>odd endianness</source>
-        <translation>უცნაური ბიტური რიგი</translation>
-    </message>
-    <message>
-        <source>unexpected e_shsize</source>
-        <translation>მოულოდნელი e_shsize</translation>
-    </message>
-    <message>
-        <source>unexpected e_shentsize</source>
-        <translation>მოულოდნელი e_shentsize</translation>
-    </message>
-    <message numerus="yes">
-        <source>announced %n section(s), each %1 byte(s), exceed file size</source>
-        <translation>
-            <numerusform>გამოცხადებულია %n სექცია, თითოეული %1 ბაიტი, ფაილის ზომას აჭარბებს</numerusform>
-            <numerusform>გამოცხადებულია %n სექცია, თითოეული %1 ბაიტი, ფაილის ზომას აჭარბებს</numerusform>
-        </translation>
-    </message>
-    <message>
-        <source>shstrtab section header seems to be at %1</source>
-        <translation>როგორც ჩანს, სექციის თავსართი shstrtab არის მისამართზე %1</translation>
-    </message>
-    <message>
-        <source>string table seems to be at %1</source>
-        <translation>როგორც ჩანს, სტრიქონების ცხრილი არის მისამართზე %1</translation>
-    </message>
-    <message>
-        <source>section name %1 of %2 behind end of file</source>
-        <translation>სექციის სახელი %1 %2-დან ფაილის დასასრულის მიღმაა</translation>
-    </message>
-    <message>
-        <source>empty .rodata. not a library.</source>
-        <translation>ცარიელი .rodata. ბიბლიოთეკა არაა.</translation>
-    </message>
-    <message>
-        <source>missing section data. This is not a library.</source>
-        <translation>სექციის მონაცემები ვერ ვიპოვე. ეს ბიბლიოთეკა არაა.</translation>
-    </message>
-    <message>
-        <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
-        <translation>დამატების მეტაინფორმაციის %1-დან მიღება შეუძლებელია</translation>
+        <source>Failed to extract plugin meta data from &apos;%1&apos;: %2</source>
+        <translation>დამატების მეტაინფორმაციის &apos;%1&apos;-დან მიღება შეუძლებელია: %2</translation>
     </message>
     <message>
         <source>The shared library was not found.</source>
         <translation>ზიარი ბიბლიოთეკა ვერ ვიპოვე.</translation>
+    </message>
+    <message>
+        <source>metadata too small</source>
+        <translation>მეტამონაცემები მეტისმეტად ცოტაა</translation>
+    </message>
+    <message>
+        <source>entrypoint to query the plugin meta data not found</source>
+        <translation>წერტილი დამატების მეტამონაცემების გამოსათხოვად აღმოჩენილი არაა</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; is not a valid Qt plugin.</source>
@@ -2241,8 +2019,68 @@ Do you want to delete it anyway?</source>
         <translation>ფაილი დაზიანებულია</translation>
     </message>
     <message>
+        <source>file is for the wrong endianness</source>
+        <translation>ფაილის ბაიტების მიმდევრობა არასწორია</translation>
+    </message>
+    <message>
+        <source>file has an unknown ELF version</source>
+        <translation>ფაილის ELF ვერსია უცნობია</translation>
+    </message>
+    <message>
+        <source>file has an unexpected ABI</source>
+        <translation>ფაილის ABI მოულოდნელია</translation>
+    </message>
+    <message>
+        <source>file is not a shared object</source>
+        <translation>ფაილი გაზიარებული ობიექტი არაა</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a valid ELF object (%2)</source>
+        <translation>&apos;%1&apos; სწორი ELF ობიექტი არაა (%2)</translation>
+    </message>
+    <message>
+        <source>unimplemented: PN_XNUM program headers</source>
+        <translation>განუხორციელებელა: PN_XNUM პროგრამის თავსართები</translation>
+    </message>
+    <message>
+        <source>program header table extends past the end of the file</source>
+        <translation>პროგრამის თავსართის ცხრილი ფაილის ბოლოს მიღმა ფართოვდება</translation>
+    </message>
+    <message>
+        <source>a program header entry extends past the end of the file</source>
+        <translation>პროგრამის თავსართის ჩანაწერი ფაილის ბოლოს მიღმა ფართოვდება</translation>
+    </message>
+    <message>
+        <source>a note segment start is not properly aligned (offset 0x%1, alignment %2)</source>
+        <translation>შენიშვნის სეგმენტის დასაწყისი არასწორადაა გასწორებული (წანაცვლება 0x%1, გასწორება %2)</translation>
+    </message>
+    <message>
+        <source>section table extends past the end of the file</source>
+        <translation>სექციის ცხრილი ფაილის ბოლოს მიღმა ფართოვდება</translation>
+    </message>
+    <message>
+        <source>section header string table extends past the end of the file</source>
+        <translation>სექციის თავსართის სტრიქონის ცხრილი ფაილის ბოლოს მიღმა ფართოვდება</translation>
+    </message>
+    <message>
+        <source>a section name extends past the end of the file</source>
+        <translation>სექციის სახელი ფაილის ბოლოს მიღმა ფართოვდება</translation>
+    </message>
+    <message>
         <source>file too small</source>
         <translation>ფაილი ძალიან პატარაა</translation>
+    </message>
+    <message>
+        <source>unexpected program header entry size (%1)</source>
+        <translation>მოულოდნელი პროგრამის თავსართის ჩანაწერის ზომა (%1)</translation>
+    </message>
+    <message>
+        <source>unexpected section entry size (%1)</source>
+        <translation>მოულოდნელი სექციის ჩანაწერის ზომა (%1)</translation>
+    </message>
+    <message>
+        <source>e_shstrndx greater than the number of sections e_shnum (%1 &gt;= %2)</source>
+        <translation>e_shstrndx მეტია, ვიდრე e_shnum-ის სექციების რაოდენობა (%1 &gt;= %2)</translation>
     </message>
     <message>
         <source>no suitable architecture in fat binary</source>
@@ -2264,16 +2102,80 @@ Do you want to delete it anyway?</source>
         <source>&apos;%1&apos; is not a Qt plugin</source>
         <translation>%1 არ წარმოადგენს Qt-ის დამატებას</translation>
     </message>
+    <message>
+        <source>&apos;%1&apos; is not a valid Windows DLL (%2)</source>
+        <translation>&apos;%1&apos; სწორი Windows DLL არაა (%2)</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is too small</source>
+        <translation>&apos;%1&apos; მეტისმეტად პატარაა</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a Qt plugin (%2)</source>
+        <translation>&apos;%1&apos; Qt-ის დამატება არაა (%2)</translation>
+    </message>
+    <message>
+        <source>metadata not found</source>
+        <translation>მეტამონაცემები ვერ ვიპოვე</translation>
+    </message>
+    <message>
+        <source>invalid signature</source>
+        <translation>არასწორი ხელმოწერა</translation>
+    </message>
+    <message>
+        <source>file is for a different processor</source>
+        <translation>ფაილი სხვა პროცესორისთვისაა</translation>
+    </message>
+    <message>
+        <source>file has no sections</source>
+        <translation>ფაილს სექციები არ გააჩნია</translation>
+    </message>
+    <message>
+        <source>wrong characteristics</source>
+        <translation>არასწორი მახასიათებლები</translation>
+    </message>
+    <message>
+        <source>file is for a different word size</source>
+        <translation>ფაილი სხვა სიტყვის ზომისთვისაა</translation>
+    </message>
+    <message>
+        <source>file has no code</source>
+        <translation>ფაილს კოდი არ აქვს</translation>
+    </message>
+    <message>
+        <source>a section name is empty or extends past the end of the file</source>
+        <translation>სექციის სახელი ცარიელია, ან ფაილის ბოლოს სცდება</translation>
+    </message>
+    <message>
+        <source>section contents extend past the end of the file</source>
+        <translation>სექციის შემცველობა ფაილის ბოლოს მიღმა ფართოვდება</translation>
+    </message>
+    <message>
+        <source>.qtmetadata section is too small</source>
+        <translation>.qtmetadata სექცია მეტისმეტად პატარაა</translation>
+    </message>
+    <message>
+        <source>.qtmetadata section has incorrect magic</source>
+        <translation>.qtmetadata სექციის ჯადოსნური რიცხვი არასწორია</translation>
+    </message>
+    <message>
+        <source>.qtmetadata section is writable</source>
+        <translation>.qtmetadata სექცია ჩაწერადი არაა</translation>
+    </message>
+    <message>
+        <source>.qtmetadata section is executable</source>
+        <translation>.qtmetadata სექცია გაშვებადია</translation>
+    </message>
 </context>
 <context>
     <name>QLineEdit</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;დაბრუნება</translation>
+        <translation>დაბრ&amp;უნება</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>&amp;გამეორება</translation>
+        <translation>&amp;თავიდან გაკეთება</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
@@ -2370,8 +2272,16 @@ Do you want to delete it anyway?</source>
         <translation>%1: წვდომა აკრძალულია</translation>
     </message>
     <message>
+        <source>Remote closed</source>
+        <translation>დაშორებული დაიხურა</translation>
+    </message>
+    <message>
         <source>Trying to connect while connection is in progress</source>
         <translation>დაკავშირების მცდელობა მაშინ, როცა კავშირი უკვე მიმდინარეობს</translation>
+    </message>
+    <message>
+        <source>Socket is not connected</source>
+        <translation>სოკეტი დაკავშირებული არაა</translation>
     </message>
 </context>
 <context>
@@ -2527,7 +2437,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>დაკე&amp;ტვა</translation>
+        <translation>&amp;დახურვა</translation>
     </message>
 </context>
 <context>
@@ -2547,7 +2457,7 @@ Do you want to delete it anyway?</source>
     <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
         <extracomment>Leave this text untranslated or include a verbatim copy of it below and note that it is the authoritative version in case of doubt.</extracomment>
-        <translation>&lt;p&gt; QT C++-ზე დაწერილი პლატფორმათაშორისი ბიბლიოთეკაა აპლიკაციებისთვის.&lt;/p&gt;&lt;p&gt;Qt-ს აქვს ერთი კოდის მქონე გადატანადობის მხარდაჭერა ყველა გავრცელებულ სამუშაო მაგიდაზე. ის ასევე ხელმისაწვდომია ჩაშენებულ Linux-ზე და სხვა ჩაშენებულ და მობილურ ოპერაციულ სისტემებისთვისაც.&lt;/p&gt;&lt;p&gt;Qt ხელმისაწვდომია ერთზე მეტი ლიცენზირების პირობებით, რომელიც შექმნილია, რომ მომხმარებლების სხვადასხვა მოთხოვნებს მოერგოს.&lt;/p&gt;&lt;p&gt;Qt, რომელიც ჩვენი კომერციული ლიცენზიით ვრცელდება, შესაფერისია კომერციული/ფასიანი პროგრამებისთვის, სადაც თქვენ არ გნებავთ, პროგრამული კოდი ვინმეს გაუზიაროთ, ან რაიმე ფორმით არ ეთანხმებით ლიცენზიას GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt, რომელიც ვრცელდება GNU (L)GPL ლიცენზიით, შესაფერისია Qt&amp;nbsp;-ის აპლიკაციებისთვის, სადაც აპლიკაციის კოდი ამ ლიცენზიების შესაბამისია.&lt;/p&gt;&lt;p&gt;იხილეთ &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; Qt-ის ლიცენზიების შესახებ კითხვების ქონის შემთხვევაში.&lt;/p&gt;&lt;p&gt;ყველა უფლება დაცულია (c) %1 The Qt Company Ltd და სხვა მოხალისეები.&lt;/p&gt;&lt;p&gt;Qt და Qt-ის ლოგო The Qt Company Ltd-ის სავაჭრო ნიშნებია.&lt;/p&gt;&lt;p&gt;Qt წარმოადგენს The Qt Company Ltd-ის პროდუქტს, რომელიც ღია კოდითაა ხელმისაწვდომი. მეტი ინფორმაციისთვის იხილეთ &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt;.&lt;/p&gt;</translation>
+        <translation></translation>
     </message>
     <message>
         <source>About Qt</source>
@@ -2726,52 +2636,10 @@ Do you want to delete it anyway?</source>
     </message>
 </context>
 <context>
-    <name>QNetworkAccessFtpBackend</name>
-    <message>
-        <source>No suitable proxy found</source>
-        <translation>შესაბამისი პროქსი ნაპოვნი არაა</translation>
-    </message>
-    <message>
-        <source>Cannot open %1: is a directory</source>
-        <translation>%1-ის წასაკითხად გახსნის შეცდომა: ბილიკი საქაღალდეა</translation>
-    </message>
-    <message>
-        <source>Logging in to %1 failed: authentication required</source>
-        <translation>%1-ში შესვლა შეუძლებელია. საჭიროა ავთენტიკაცია</translation>
-    </message>
-    <message>
-        <source>Error while downloading %1: %2</source>
-        <translation>%1-ის გადმოწერის შეცდომა: %2</translation>
-    </message>
-    <message>
-        <source>Error while uploading %1: %2</source>
-        <translation>%1-ის ატვირთვის შეცდომა: %2</translation>
-    </message>
-</context>
-<context>
-    <name>QNetworkAccessManager</name>
-    <message>
-        <source>Network access is disabled.</source>
-        <translation>ქსელთან წვდომა აკრძალულია.</translation>
-    </message>
-</context>
-<context>
     <name>QNetworkReply</name>
-    <message>
-        <source>Background request not allowed.</source>
-        <translation>ფონური მოთხოვნა აკრძალულია.</translation>
-    </message>
-    <message>
-        <source>Network session error.</source>
-        <translation>ქსელის სესიის შეცდომა.</translation>
-    </message>
     <message>
         <source>backend start error.</source>
         <translation>ფონური პროგრამის გაშვების შეცდომა.</translation>
-    </message>
-    <message>
-        <source>Temporary network failure.</source>
-        <translation>ქსელის დროებითი შეცდომა.</translation>
     </message>
     <message>
         <source>Protocol &quot;%1&quot; is unknown</source>
@@ -2798,36 +2666,6 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Operation canceled</source>
         <translation>ოპერაცია გაუქმებულია</translation>
-    </message>
-</context>
-<context>
-    <name>QNetworkSession</name>
-    <message>
-        <source>Invalid configuration.</source>
-        <translation>არასწორია კონფიგურაცია.</translation>
-    </message>
-</context>
-<context>
-    <name>QNetworkSessionPrivateImpl</name>
-    <message>
-        <source>Unknown session error.</source>
-        <translation>სესიის უცნობი შეცდომა.</translation>
-    </message>
-    <message>
-        <source>The session was aborted by the user or system.</source>
-        <translation>სესია გაუქმებულია მომხმარებლის ან სისტემის მიერ.</translation>
-    </message>
-    <message>
-        <source>The requested operation is not supported by the system.</source>
-        <translation>მოთხოვნილი ოპერაცია მხარდაუჭერელია სისტემის მიერ.</translation>
-    </message>
-    <message>
-        <source>The specified configuration cannot be used.</source>
-        <translation>მითითებული კონფიგურაციის გამოყენება შეუძლებელია.</translation>
-    </message>
-    <message>
-        <source>Roaming was aborted or is not possible.</source>
-        <translation>გატანა გაუქმდა ან შეუძლებელია.</translation>
     </message>
 </context>
 <context>
@@ -2962,6 +2800,10 @@ Do you want to delete it anyway?</source>
         <translation>დაკავშირება შეუძლებელია</translation>
     </message>
     <message>
+        <source>Unable to set client encoding to &apos;UNICODE&apos;</source>
+        <translation>კლიენტის კოდირება &apos;UNICODE&apos;-ზე ვერ დავაყენე</translation>
+    </message>
+    <message>
         <source>Could not begin transaction</source>
         <translation>ტრანზაქციის გადაცემა შეუძლებელია</translation>
     </message>
@@ -3072,18 +2914,6 @@ Do you want to delete it anyway?</source>
         <translation>ქვედა ზღვარი</translation>
     </message>
     <message>
-        <source>Page Layout</source>
-        <translation>გვერდის განლაგება</translation>
-    </message>
-    <message>
-        <source>Page order:</source>
-        <translation>გვერდების მიმდევრობა:</translation>
-    </message>
-    <message>
-        <source>Pages per sheet:</source>
-        <translation>გვერდები ფურცელზე:</translation>
-    </message>
-    <message>
         <source>Millimeters (mm)</source>
         <translation>მილიმეტრი (მმ)</translation>
     </message>
@@ -3109,7 +2939,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Custom</source>
-        <translation>სხვა</translation>
+        <translation>ხელით</translation>
     </message>
     <message>
         <source>mm</source>
@@ -3129,7 +2959,7 @@ Do you want to delete it anyway?</source>
     <message>
         <source>P̸</source>
         <extracomment>Unit &apos;Pica&apos;</extracomment>
-        <translation>P̸</translation>
+        <translation>პ</translation>
     </message>
     <message>
         <source>DD</source>
@@ -3139,7 +2969,19 @@ Do you want to delete it anyway?</source>
     <message>
         <source>CC</source>
         <extracomment>Unit &apos;Cicero&apos;</extracomment>
-        <translation>CC</translation>
+        <translation>ცც</translation>
+    </message>
+    <message>
+        <source>Page Layout</source>
+        <translation>გვერდის განლაგება</translation>
+    </message>
+    <message>
+        <source>Page order:</source>
+        <translation>გვერდების მიმდევრობა:</translation>
+    </message>
+    <message>
+        <source>Pages per sheet:</source>
+        <translation>გვერდები ფურცელზე:</translation>
     </message>
 </context>
 <context>
@@ -3297,7 +3139,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Custom</source>
-        <translation>სხვა</translation>
+        <translation>ხელით</translation>
     </message>
     <message>
         <source>A3 Extra</source>
@@ -3688,11 +3530,11 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Reset</source>
-        <translation>საწყისი პარამეტრები</translation>
+        <translation>საწყის მნიშვნელობაზე დაბრუნება</translation>
     </message>
     <message>
         <source>Restore Defaults</source>
-        <translation>ნაგულისხმევებზე დაბრუნება</translation>
+        <translation>ნაგულისხმევი პარამეტრების აღდგენა</translation>
     </message>
 </context>
 <context>
@@ -3710,7 +3552,7 @@ Do you want to delete it anyway?</source>
     <name>QPrintDialog</name>
     <message>
         <source>Print</source>
-        <translation>ბეჭდვა</translation>
+        <translation>დაბეჭდვა</translation>
     </message>
     <message>
         <source>Left to Right, Top to Bottom</source>
@@ -3852,10 +3694,6 @@ Please turn one of those options off.</source>
         <source>The &apos;From&apos; value cannot be greater than the &apos;To&apos; value.</source>
         <translation>&quot;საიდან&quot;-ის მნიშვნელობა &quot;სადამდე&quot;-ის მნიშვნელობაზე მეტი ვერ იქნება.</translation>
     </message>
-    <message>
-        <source>OK</source>
-        <translation>დიახ</translation>
-    </message>
 </context>
 <context>
     <name>QPrintPreviewDialog</name>
@@ -3897,7 +3735,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Zoom in</source>
-        <translation>გა_დიდება</translation>
+        <translation>გადიდება</translation>
     </message>
     <message>
         <source>Zoom out</source>
@@ -3925,7 +3763,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Print</source>
-        <translation>ბეჭდვა</translation>
+        <translation>დაბეჭდვა</translation>
     </message>
     <message>
         <source>Page setup</source>
@@ -4066,7 +3904,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Off</source>
-        <translation>გამორთული</translation>
+        <translation>გამორთულია</translation>
     </message>
     <message>
         <source>Long side binding</source>
@@ -4143,6 +3981,22 @@ Please turn one of those options off.</source>
         <translation>შეყვანის გადამისამართება წასაკითხად შეუძლებელია</translation>
     </message>
     <message>
+        <source>Child process modifier threw an exception: %1</source>
+        <translation>შვილი პროცესის მოდიფიკატორმა ამოაგდო გამონაკლისი: %1</translation>
+    </message>
+    <message>
+        <source>Child process modifier reported error: %1</source>
+        <translation>შვილი პროცესის მოდიფიკატორმა გადმოგვცა შეცდომა: %1</translation>
+    </message>
+    <message>
+        <source>Child process modifier reported error: %1: %2</source>
+        <translation>შვილი პროცესის მოდიფიკატორმა გადმოგვცა შეცდომა: %1: %2</translation>
+    </message>
+    <message>
+        <source>Child process set up failed: %1: %2</source>
+        <translation>შვილი პროცესის მორგება ჩავარდა: %1: %2</translation>
+    </message>
+    <message>
         <source>Could not open output redirection for writing</source>
         <translation>გამოტანის გადამისამართება ჩასაწერად შეუძლებელია</translation>
     </message>
@@ -4163,58 +4017,7 @@ Please turn one of those options off.</source>
     <name>QProgressDialog</name>
     <message>
         <source>Cancel</source>
-        <translation>შეწყვეტა</translation>
-    </message>
-</context>
-<context>
-    <name>QRegExp</name>
-    <message>
-        <source>no error occurred</source>
-        <translation>შეცდომა არ მომხდარა</translation>
-    </message>
-    <message>
-        <source>disabled feature used</source>
-        <translation>გამოყენება გამორთული თვისება</translation>
-    </message>
-    <message>
-        <source>bad char class syntax</source>
-        <translation>სიმბოლოს კლასის არასწორი სინტაქსი</translation>
-    </message>
-    <message>
-        <source>bad lookahead syntax</source>
-        <translation>წინმჭვრეტელის არასწორი სინთაქსი</translation>
-    </message>
-    <message>
-        <source>lookbehinds not supported, see QTBUG-2371</source>
-        <translation>უკანჭვრეტა მხარდაუჭერელია. იხ. QTBUG-2371</translation>
-    </message>
-    <message>
-        <source>bad repetition syntax</source>
-        <translation>გამეორების არასწორი სინტაქსი</translation>
-    </message>
-    <message>
-        <source>invalid octal value</source>
-        <translation>არასწორი რვაობითი მნიშვნელობა</translation>
-    </message>
-    <message>
-        <source>missing left delim</source>
-        <translation>აკლია მარცხენა გამყოფი</translation>
-    </message>
-    <message>
-        <source>unexpected end</source>
-        <translation>მოულოდნელი დასასრული</translation>
-    </message>
-    <message>
-        <source>met internal limit</source>
-        <translation>მიღწეულია შიდა ლიმიტი</translation>
-    </message>
-    <message>
-        <source>invalid interval</source>
-        <translation>არასწორი ინტერვალი</translation>
-    </message>
-    <message>
-        <source>invalid category</source>
-        <translation>არასწორი კატეგორია</translation>
+        <translation>გაუქმება</translation>
     </message>
 </context>
 <context>
@@ -4437,6 +4240,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>assertion expected after (?( or (?(?C)</source>
+        <translatorcomment>if /else</translatorcomment>
         <translation>(?(-ის ან (?(?C)-ის შემდეგ მოველოდი დადასტურებას</translation>
     </message>
     <message>
@@ -4621,7 +4425,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>no match</source>
-        <translation>დამთხვევის გარეშე</translation>
+        <translation>დამთხვევა არ არის</translation>
     </message>
     <message>
         <source>partial match</source>
@@ -4885,36 +4689,6 @@ Please turn one of those options off.</source>
     </message>
 </context>
 <context>
-    <name>QSQLite2Driver</name>
-    <message>
-        <source>Error opening database</source>
-        <translation>მონაცემთა ბაზის გახსნა შეუძლებელია</translation>
-    </message>
-    <message>
-        <source>Unable to begin transaction</source>
-        <translation>ტრანზაქციის გადაცემა შეუძლებელია</translation>
-    </message>
-    <message>
-        <source>Unable to commit transaction</source>
-        <translation>ტრანზაქციის გადაცემა შეუძლებელია</translation>
-    </message>
-    <message>
-        <source>Unable to rollback transaction</source>
-        <translation>ტრანზაქციის დაბრუნება შეუძლებელია</translation>
-    </message>
-</context>
-<context>
-    <name>QSQLite2Result</name>
-    <message>
-        <source>Unable to fetch results</source>
-        <translation>შედეგების გამოთხოვა შეუძლებელია</translation>
-    </message>
-    <message>
-        <source>Unable to execute statement</source>
-        <translation>ავტომატური გაშვების დაყენება შეუძლებელია</translation>
-    </message>
-</context>
-<context>
     <name>QSQLiteDriver</name>
     <message>
         <source>Error opening database</source>
@@ -5052,8 +4826,12 @@ Please turn one of those options off.</source>
 <context>
     <name>QSharedMemory</name>
     <message>
-        <source>%1: unable to set key on lock</source>
-        <translation>%1: ბლოკზე გასაღების დადების შეცდომა</translation>
+        <source>%1: unsupported key type</source>
+        <translation>%1: მხარდაუჭერელი გასაღების ტიპი</translation>
+    </message>
+    <message>
+        <source>%1: unable to set key on lock (%2)</source>
+        <translation>%1: ბლოკზე გასაღების დადების შეცდომა (%2)</translation>
     </message>
     <message>
         <source>%1: create size is less then 0</source>
@@ -5084,8 +4862,8 @@ Please turn one of those options off.</source>
         <translation>%1: არასაკმარისი რესურსები</translation>
     </message>
     <message>
-        <source>%1: unknown error %2</source>
-        <translation>%1: უცნობი შეცდომა %2</translation>
+        <source>%1: unknown error: %2</source>
+        <translation>%1: უცნობი შეცდომა: %2</translation>
     </message>
     <message>
         <source>%1: key is empty</source>
@@ -5094,14 +4872,6 @@ Please turn one of those options off.</source>
     <message>
         <source>%1: bad name</source>
         <translation>%1: ცუდი სახელი</translation>
-    </message>
-    <message>
-        <source>%1: UNIX key file doesn&apos;t exist</source>
-        <translation>%1: UNIX გასაღების ფაილი არ არსებობს</translation>
-    </message>
-    <message>
-        <source>%1: ftok failed</source>
-        <translation>%1: ftok-ის შეცდომა</translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
@@ -5173,7 +4943,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Print</source>
-        <translation>ბეჭდვა</translation>
+        <translation>დაბეჭდვა</translation>
     </message>
     <message>
         <source>SysReq</source>
@@ -5607,7 +5377,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Option</source>
-        <translation>მორგება</translation>
+        <translation>პარამეტრი</translation>
     </message>
     <message>
         <source>Paste</source>
@@ -5851,11 +5621,11 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Undo</source>
-        <translation>დაბრუნება</translation>
+        <translation>ბრძანების გაუქმება</translation>
     </message>
     <message>
         <source>Redo</source>
-        <translation>გამეოერბა</translation>
+        <translation>გამეორება</translation>
     </message>
     <message>
         <source>Print Screen</source>
@@ -6094,11 +5864,11 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Execute</source>
-        <translation>შესრულება</translation>
+        <translation>გაშვება</translation>
     </message>
     <message>
         <source>Play</source>
-        <translation>თამაში</translation>
+        <translation>დაკვრა</translation>
     </message>
     <message>
         <source>Zoom</source>
@@ -6119,6 +5889,10 @@ Please turn one of those options off.</source>
     <message>
         <source>Touchpad Off</source>
         <translation>თაჩპედის გამორთვა</translation>
+    </message>
+    <message>
+        <source>Control</source>
+        <translation>კონტროლი</translation>
     </message>
     <message>
         <source>Ctrl</source>
@@ -6162,7 +5936,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Proxy host not found</source>
-        <translation>პროქსის უცნობი ჰოსტი</translation>
+        <translation>პროქსის ჰოსტი ვერ ვიპოვე</translation>
     </message>
     <message>
         <source>Connection to proxy timed out</source>
@@ -6279,7 +6053,7 @@ Please turn one of those options off.</source>
     <message>
         <source>application</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>პროგრამა</translation>
+        <translation>აპლიკაცია</translation>
     </message>
     <message>
         <source>document</source>
@@ -6409,7 +6183,7 @@ Please turn one of those options off.</source>
     <message>
         <source>label</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>წარწერა</translation>
+        <translation>ჭდე</translation>
     </message>
     <message>
         <source>text</source>
@@ -6482,11 +6256,6 @@ Please turn one of those options off.</source>
         <translation>ჩამოსაშლელი ღილაკი</translation>
     </message>
     <message>
-        <source>button menu</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation>ღილაკის მენიუ</translation>
-    </message>
-    <message>
         <source>button with drop down grid</source>
         <extracomment>Role of an accessible object - a button that expands a grid.</extracomment>
         <translation>ღილაკი ჩამოსაშლელი ბადით</translation>
@@ -6495,6 +6264,11 @@ Please turn one of those options off.</source>
         <source>space</source>
         <extracomment>Role of an accessible object - blank space between other objects.</extracomment>
         <translation>ადგილი</translation>
+    </message>
+    <message>
+        <source>button menu</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>ღილაკის მენიუ</translation>
     </message>
     <message>
         <source>page tab list</source>
@@ -6740,10 +6514,6 @@ Please turn one of those options off.</source>
         <translation>უცნობი შეცდომა</translation>
     </message>
     <message>
-        <source>Error when setting the elliptic curves (%1)</source>
-        <translation>ელიფსური მრუდების დაყენების შეცდომა (%1)</translation>
-    </message>
-    <message>
         <source>Error creating SSL context (%1)</source>
         <translation>SSL კონტექსტის შექმნის შეცდომა: %1</translation>
     </message>
@@ -6762,10 +6532,6 @@ Please turn one of those options off.</source>
     <message>
         <source>Invalid or empty cipher list (%1)</source>
         <translation>არასწორი ან ცარიელი შიფრების სია (%1)</translation>
-    </message>
-    <message>
-        <source>Cannot provide a certificate with no key, %1</source>
-        <translation>გასაღების გარეშე სერტიფიკატის გაცემა შეუძლებელია, %1</translation>
     </message>
     <message>
         <source>Error loading local certificate, %1</source>
@@ -6816,6 +6582,10 @@ Please turn one of those options off.</source>
         <translation>SSL_CONF_CTX_new() ჩავარდა</translation>
     </message>
     <message>
+        <source>Error when setting the elliptic curves (%1)</source>
+        <translation>ელიფსური მრუდების დაყენების შეცდომა (%1)</translation>
+    </message>
+    <message>
         <source>Error creating SSL session, %1</source>
         <translation>SSL სესსის შექმნის შეცდომა: %1</translation>
     </message>
@@ -6846,6 +6616,10 @@ Please turn one of those options off.</source>
     <message>
         <source>Unable to decrypt data: %1</source>
         <translation>მონაცემების გაშიფვრის შეცდომა: %1</translation>
+    </message>
+    <message>
+        <source>TLS certificate unexpectedly changed during renegotiation!</source>
+        <translation>TLS სერტიფიკატი მოულოდნელად შეიცვალა თავიდან დაკავშირებისას!</translation>
     </message>
     <message>
         <source>Failed to decode OCSP response</source>
@@ -7051,8 +6825,24 @@ Please turn one of those options off.</source>
         <translation>აპლიკაციის მონაცემები</translation>
     </message>
     <message>
+        <source>State</source>
+        <translation>მდგომარეობა</translation>
+    </message>
+    <message>
+        <source>Shared State</source>
+        <translation>გაზიარების მდგომარეობა</translation>
+    </message>
+    <message>
         <source>Application Configuration</source>
         <translation>აპლიკაციის გამართვა</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>საჯარო</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>შაბლონები</translation>
     </message>
     <message>
         <source>Cache</source>
@@ -7068,7 +6858,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Configuration</source>
-        <translation>კონფიგურაცია</translation>
+        <translation>გამართვა</translation>
     </message>
     <message>
         <source>Shared Configuration</source>
@@ -7082,62 +6872,57 @@ Please turn one of those options off.</source>
         <source>Download</source>
         <translation>გადმოწერა</translation>
     </message>
-</context>
-<context>
-    <name>QStateMachine</name>
     <message>
-        <source>Missing initial state in compound state &apos;%1&apos;</source>
-        <translation>აკლია საწყისი მდგომარეობა აწყობილ მდგომარეობაში &apos;%1&apos;</translation>
-    </message>
-    <message>
-        <source>Missing default state in history state &apos;%1&apos;</source>
-        <translation>აკლია ნაგულისხმევი მდგომარეობა ისტორიის მდგომარეობაში &apos;%1&apos;</translation>
-    </message>
-    <message>
-        <source>No common ancestor for targets and source of transition from state &apos;%1&apos;</source>
-        <translation>არ არსებობს საერთო წინაპარი სამიზნეებისთვის და გადასვლის წყაროსთვის მდგომარეობიდან &apos;%1&apos;</translation>
-    </message>
-    <message>
-        <source>Child mode of state machine &apos;%1&apos; is not &apos;ExclusiveStates&apos;.</source>
-        <translation>მდგომარეობის მანქანის &apos;%1&apos; შვილის რეჟიმი &apos;ExclusiveStates&apos; არაა.</translation>
-    </message>
-    <message>
-        <source>Unknown error</source>
-        <translation>უცნობი შეცდომა</translation>
+        <source>Temporary Items</source>
+        <extracomment>macOS: Temporary directory</extracomment>
+        <translation>დროებითი ელემენტები</translation>
     </message>
 </context>
 <context>
     <name>QSystemSemaphore</name>
+    <message>
+        <source>%1: unsupported key type</source>
+        <translation>%1: მხარდაუჭერელი გასაღების ტიპი</translation>
+    </message>
     <message>
         <source>%1: permission denied</source>
         <translation>%1: წვდომა აკრძალულია</translation>
     </message>
     <message>
         <source>%1: already exists</source>
-        <translation>%1: უკვე არსებობს</translation>
+        <translation>%1 უკვე არსებობს</translation>
     </message>
     <message>
         <source>%1: does not exist</source>
-        <translation>%1: არ არსებობს</translation>
+        <translation>%1 არ არსებობს</translation>
     </message>
     <message>
         <source>%1: out of resources</source>
         <translation>%1: არასაკმარისი რესურსები</translation>
     </message>
     <message>
-        <source>%1: unknown error %2</source>
-        <translation>%1: უცნობი შეცდომა %2</translation>
-    </message>
-</context>
-<context>
-    <name>QTDSDriver</name>
-    <message>
-        <source>Unable to open connection</source>
-        <translation>კავშირის გახსნის შეცდომა</translation>
+        <source>%1: unknown error: %2</source>
+        <translation>%1: უცნობი შეცდომა: %2</translation>
     </message>
     <message>
-        <source>Unable to use database</source>
-        <translation>მონაცემთა ბაზის გამოყენების შეცდომა</translation>
+        <source>%1: key is empty</source>
+        <translation>%1: გასაღები ცარიელია</translation>
+    </message>
+    <message>
+        <source>%1: unable to make key</source>
+        <translation>%1: გასაღების შექმნა შეუძლებელია</translation>
+    </message>
+    <message>
+        <source>%1: ftok failed</source>
+        <translation>%1: ftok-ის შეცდომა</translation>
+    </message>
+    <message>
+        <source>%1: System V semaphores are not available for sandboxed applications. Please build Qt with -feature-ipc_posix</source>
+        <translation>%1: System V-ის სემაფორები მიუწვდომელია სენდბოქსში გაშვებული აპლიკაციებისთვის. ააგეთ Qt პარამეტრით -feature-ipc_posix</translation>
+    </message>
+    <message>
+        <source>%1: key too long</source>
+        <translation>%1: გასაღები ძალიან გრძელია</translation>
     </message>
 </context>
 <context>
@@ -7204,6 +6989,10 @@ Please turn one of those options off.</source>
         <source>Could not reset to read data</source>
         <translation>მონაცემების წასაკითხად ჩამოყრა შეუძლებელია</translation>
     </message>
+    <message>
+        <source>Invalid color map depth (%1)</source>
+        <translation>არასწორი ფერის რუკის სიღრმე (%1)</translation>
+    </message>
 </context>
 <context>
     <name>QUdpSocket</name>
@@ -7225,7 +7014,7 @@ Please turn one of those options off.</source>
     <message>
         <source>Undo</source>
         <comment>Default text for undo action</comment>
-        <translation>დაბრუნება</translation>
+        <translation>ბრძანების გაუქმება</translation>
     </message>
     <message>
         <source>Redo %1</source>
@@ -7234,14 +7023,14 @@ Please turn one of those options off.</source>
     <message>
         <source>Redo</source>
         <comment>Default text for redo action</comment>
-        <translation>გამეოერბა</translation>
+        <translation>გამეორება</translation>
     </message>
 </context>
 <context>
     <name>QUndoModel</name>
     <message>
         <source>&lt;empty&gt;</source>
-        <translation>&lt;empty&gt;</translation>
+        <translation>&lt;ცარიელი&gt;</translation>
     </message>
 </context>
 <context>
@@ -7253,7 +7042,7 @@ Please turn one of those options off.</source>
     <message>
         <source>Undo</source>
         <comment>Default text for undo action</comment>
-        <translation>დაბრუნება</translation>
+        <translation>ბრძანების გაუქმება</translation>
     </message>
     <message>
         <source>Redo %1</source>
@@ -7262,7 +7051,7 @@ Please turn one of those options off.</source>
     <message>
         <source>Redo</source>
         <comment>Default text for redo action</comment>
-        <translation>გამეოერბა</translation>
+        <translation>გამეორება</translation>
     </message>
 </context>
 <context>
@@ -7346,11 +7135,11 @@ Please turn one of those options off.</source>
     <name>QWidgetTextControl</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;დაბრუნება</translation>
+        <translation>დაბრ&amp;უნება</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>&amp;გამეორება</translation>
+        <translation>&amp;თავიდან გაკეთება</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
@@ -7420,7 +7209,7 @@ The minimum Direct2D version required is %1. The Direct2D version on this system
     </message>
     <message>
         <source>Done</source>
-        <translation>დასრულება</translation>
+        <translation>დასრულდა</translation>
     </message>
     <message>
         <source>&amp;Finish</source>
@@ -7437,101 +7226,6 @@ The minimum Direct2D version required is %1. The Direct2D version on this system
     <message>
         <source>&amp;Help</source>
         <translation>&amp;დახმარება</translation>
-    </message>
-</context>
-<context>
-    <name>QXml</name>
-    <message>
-        <source>no error occurred</source>
-        <translation>შეცდომა არ მომხდარა</translation>
-    </message>
-    <message>
-        <source>error triggered by consumer</source>
-        <translation>შეცდომა, დატრიგერებული მომხმარებლის მიერ</translation>
-    </message>
-    <message>
-        <source>unexpected end of file</source>
-        <translation>ფაილის მოულოდნელი დასასრული</translation>
-    </message>
-    <message>
-        <source>more than one document type definition</source>
-        <translation>დოკუმენტს ტიპის ერთზე მეტი აღწერა</translation>
-    </message>
-    <message>
-        <source>error occurred while parsing element</source>
-        <translation>ელემენტის დამუშავების შეცდომა</translation>
-    </message>
-    <message>
-        <source>tag mismatch</source>
-        <translation>ჭდე არ ემთხვევა</translation>
-    </message>
-    <message>
-        <source>error occurred while parsing content</source>
-        <translation>შემცველობის დამუშავების შეცდომა</translation>
-    </message>
-    <message>
-        <source>unexpected character</source>
-        <translation>მოულოდნელი სიმბოლო</translation>
-    </message>
-    <message>
-        <source>invalid name for processing instruction</source>
-        <translation>ინსტრუქციების დამუშავების არასწორი სახელი</translation>
-    </message>
-    <message>
-        <source>version expected while reading the XML declaration</source>
-        <translation>მოველოდი ვერსიას XML დეკლარაციის კითხვისას</translation>
-    </message>
-    <message>
-        <source>wrong value for standalone declaration</source>
-        <translation>არასწორი მნიშვნელობა ერთად-ერთი დეკლარაციისთვის</translation>
-    </message>
-    <message>
-        <source>encoding declaration or standalone declaration expected while reading the XML declaration</source>
-        <translation>მოველოდი &apos;encoding&apos; ან &apos;standalone&apos;-ის გამოცხადებას XML-ის გამოცხადების კითხვისას</translation>
-    </message>
-    <message>
-        <source>standalone declaration expected while reading the XML declaration</source>
-        <translation>მოველოდი &apos;standalone&apos;-ის გამოცხადებას XML-ის გამოცხადების კითხვისას</translation>
-    </message>
-    <message>
-        <source>error occurred while parsing document type definition</source>
-        <translation>შეცდომა დოკუმენტის ტიპის აღწერის დამუშავებისას</translation>
-    </message>
-    <message>
-        <source>letter is expected</source>
-        <translation>მოველოდი სიმბოლოს</translation>
-    </message>
-    <message>
-        <source>error occurred while parsing comment</source>
-        <translation>შეცდომა კომენტარის დამუშავებისას</translation>
-    </message>
-    <message>
-        <source>error occurred while parsing reference</source>
-        <translation>შეცდომა მიმართვის დამუშავებისას</translation>
-    </message>
-    <message>
-        <source>internal general entity reference not allowed in DTD</source>
-        <translation>შიდა მიმართვა საერთო ობიექტზე DTD-ში დაუშვებელია</translation>
-    </message>
-    <message>
-        <source>external parsed general entity reference not allowed in attribute value</source>
-        <translation>ატრიბუტის მნიშვნელობაში გარე დამუშავებული საერთო ობიექტზე მიმართვა დაუშვებელია</translation>
-    </message>
-    <message>
-        <source>external parsed general entity reference not allowed in DTD</source>
-        <translation>გარე დამუშავებულ სართო ობიექტზე მიმართვა DTD-ში დაუშვებელია</translation>
-    </message>
-    <message>
-        <source>unparsed entity reference in wrong context</source>
-        <translation>დაუმუშავებელი მიმართვა ობიექტზე არასწორ კონტექსტში</translation>
-    </message>
-    <message>
-        <source>recursive entities</source>
-        <translation>რეკურსიული წევრები</translation>
-    </message>
-    <message>
-        <source>error in the text declaration of an external entity</source>
-        <translation>შეცდომა გარე ობიექტის ტექსტურ გამოცხადებაში</translation>
     </message>
 </context>
 <context>
@@ -7597,8 +7291,8 @@ The minimum Direct2D version required is %1. The Direct2D version on this system
         <translation>Standalone-ის მნიშვნელობა შეიძლება იყოს &quot;yes&quot;(დიახ) ან &quot;no&quot;(არა).</translation>
     </message>
     <message>
-        <source>Invalid attribute in XML declaration.</source>
-        <translation>არასწორი ატრიბუტი XML აღწერაში.</translation>
+        <source>Invalid attribute in XML declaration: %1 = %2</source>
+        <translation>არასწორი ატრიბუტი XML აღწერაში: %1 = %2</translation>
     </message>
     <message>
         <source>Premature end of document.</source>
@@ -7607,6 +7301,10 @@ The minimum Direct2D version required is %1. The Direct2D version on this system
     <message>
         <source>Invalid document.</source>
         <translation>არასწორი დოკუმენტი.</translation>
+    </message>
+    <message>
+        <source>Length of XML attribute name exceeds implementation limits (4KiB characters).</source>
+        <translation>XML ატრიბუტის სიგრძე განხორციელების შეზღუდვებს სცდება (4კიბ სიმბოლო).</translation>
     </message>
     <message>
         <source>&apos;%1&apos;</source>
@@ -7643,6 +7341,14 @@ The minimum Direct2D version required is %1. The Direct2D version on this system
     <message>
         <source>Expected character data.</source>
         <translation>მოველოდი სიმბოლურ მონაცემებს.</translation>
+    </message>
+    <message>
+        <source>Unexpected token type %1 in %2.</source>
+        <translation>მოულოდნელი კოდის ტიპი %1 %2-ში.</translation>
+    </message>
+    <message>
+        <source>Found second DTD token in %1.</source>
+        <translation>აღმოჩენილია მეორე DTD კოდი %1-ში.</translation>
     </message>
     <message>
         <source>Self-referencing entity detected.</source>
@@ -7699,6 +7405,244 @@ The minimum Direct2D version required is %1. The Direct2D version on this system
     <message>
         <source>Invalid character reference.</source>
         <translation>არასწორი სმბოლოს მიმართვა.</translation>
+    </message>
+</context>
+<context>
+    <name>QAbstractFileIconProvider</name>
+    <message>
+        <source>Drive</source>
+        <translation>დრაივი</translation>
+    </message>
+    <message>
+        <source>File Folder</source>
+        <comment>Match Windows Explorer</comment>
+        <translation>ფაილის საქაღალდე</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <comment>All other platforms</comment>
+        <translation>საქაღალდე</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <comment>macOS Finder</comment>
+        <translation>ფსევდონიმი</translation>
+    </message>
+    <message>
+        <source>Shortcut</source>
+        <comment>All other platforms</comment>
+        <translation>მალსახმობი</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>უცნობი</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ფაილი</translation>
+    </message>
+</context>
+<context>
+    <name>QAxSelect</name>
+    <message>
+        <source>Select ActiveX Control</source>
+        <translation>ActiveX კონტროლის არჩევა</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>ფილტრი</translation>
+    </message>
+    <message>
+        <source>COM &amp;Object:</source>
+        <translation>COM &amp;ობიექტი:</translation>
+    </message>
+    <message>
+        <source>Sandboxing:</source>
+        <translation>სენდბოქსში:</translation>
+    </message>
+    <message>
+        <source>Name:</source>
+        <translation>სახელი:</translation>
+    </message>
+    <message>
+        <source>Type:</source>
+        <translation>ტიპი:</translation>
+    </message>
+    <message>
+        <source>In process</source>
+        <translation>პროცესში</translation>
+    </message>
+    <message>
+        <source>Out of process</source>
+        <translation>პროცესის გარეთ</translation>
+    </message>
+    <message>
+        <source>CLSID:</source>
+        <translation>CLSID:</translation>
+    </message>
+    <message>
+        <source>Key:</source>
+        <translation>გასაღები:</translation>
+    </message>
+    <message>
+        <source>Word&amp;nbsp;size:</source>
+        <translation>სიტყვის&amp;nbsp;ზომა:</translation>
+    </message>
+    <message>
+        <source>DLL:</source>
+        <translation>DLL:</translation>
+    </message>
+    <message>
+        <source>Binary:</source>
+        <translation>ორობითი:</translation>
+    </message>
+    <message>
+        <source>Version:</source>
+        <translation>ვერსია:</translation>
+    </message>
+</context>
+<context>
+    <name>quiaccessibilityelement</name>
+    <message>
+        <source>checked</source>
+        <translation>ჩართულია</translation>
+    </message>
+    <message>
+        <source>unchecked</source>
+        <translation>გამორთულია</translation>
+    </message>
+</context>
+<context>
+    <name>QFactoryLoader</name>
+    <message>
+        <source>Invalid metadata version</source>
+        <translation>არასწორი მეტამონაცემების ვერსია</translation>
+    </message>
+    <message>
+        <source>Metadata parsing error: %1</source>
+        <translation>მეტამონაცემების დამუშავები შეცდომა: %1</translation>
+    </message>
+    <message>
+        <source>Unexpected metadata contents</source>
+        <translation>მოულოდნელი მეტამონაცემების შემცველობა</translation>
+    </message>
+</context>
+<context>
+    <name>QCocoaMenuBar</name>
+    <message>
+        <source>Edit</source>
+        <translation>ჩასწორება</translation>
+    </message>
+</context>
+<context>
+    <name>QMimerSQL</name>
+    <message>
+        <source>No Mimer SQL error for code %1</source>
+        <translation>Mimer SQL-ის შეცდომის გარეშე კოდისთვის %1</translation>
+    </message>
+    <message>
+        <source>Generic Mimer SQL error</source>
+        <translation>ზოგადი Mimer SQL-ის შეცდომა</translation>
+    </message>
+</context>
+<context>
+    <name>QMimerSQLResult</name>
+    <message>
+        <source>Could not close cursor</source>
+        <translation>კურსორის დახურვა შეუძლებელია</translation>
+    </message>
+    <message>
+        <source>Could not close statement</source>
+        <translation>ინსტრუქციის დახურვის შეცდომა</translation>
+    </message>
+    <message>
+        <source>Fetch did not succeed</source>
+        <translation>გამოთხოვა წარმატებული არ იყო</translation>
+    </message>
+    <message>
+        <source>Fetch first did not succeed</source>
+        <translation>გამოთხოვნა პირველად წარმატებული არ იყო</translation>
+    </message>
+    <message>
+        <source>Could not fetch next row</source>
+        <translation>შემდეგი მწკრივის გამოთხოვა შეუძლებელია</translation>
+    </message>
+    <message>
+        <source>Could not get %1, column %2</source>
+        <extracomment>Data type, column</extracomment>
+        <translation>ვერ მივიღე %1, სვეტი %2</translation>
+    </message>
+    <message>
+        <source>Could not set %1, parameter %2</source>
+        <extracomment>Data type, parameter</extracomment>
+        <translation>ვერ დავაყენე %1. პარამეტრი %2</translation>
+    </message>
+    <message>
+        <source>Unknown data type %1</source>
+        <translation>უცნობი მონაცემის ტიპი %1</translation>
+    </message>
+    <message>
+        <source>Could not check null, column %1</source>
+        <translation>ვერ შევამოწმე null. სვეტი %1</translation>
+    </message>
+    <message>
+        <source>Could not prepare/execute statement</source>
+        <translation>ვერ მოვამზადე/შევასრულე ინსტრუქცია</translation>
+    </message>
+    <message>
+        <source>Wrong number of parameters</source>
+        <translation>პარამეტრების არასწორი რაოდენობა</translation>
+    </message>
+    <message>
+        <source>Unknown datatype, parameter %1</source>
+        <translation>უცნობი მონაცემის ტიპი. პარამეტრი %1</translation>
+    </message>
+    <message>
+        <source>Could not execute statement/open cursor</source>
+        <translation>ვერ შევასრულე ინსტრუქცია/გავხსენი კურსორი</translation>
+    </message>
+    <message>
+        <source>Only input parameters can be used in batch operations</source>
+        <translation>კრებით ოპერაციებში, მხოლოდ, შეყვანის პარამეტრების გამოყენება შეგიძლიათ</translation>
+    </message>
+    <message>
+        <source>Could not add batch %1</source>
+        <extracomment>%1 is the batch number</extracomment>
+        <translation>ვერ დავამატე კრება %1</translation>
+    </message>
+    <message>
+        <source>Could not execute batch</source>
+        <translation>კრების შესრულება შეუძლებელია</translation>
+    </message>
+</context>
+<context>
+    <name>QMimerSQLResult:</name>
+    <message>
+        <source>Fetch last did not succeed</source>
+        <translation>გამოთხოვა ბოლოს წარმატებული არ იყო</translation>
+    </message>
+    <message>
+        <source>Column %1 out of range</source>
+        <translation>სვეტი %1 დიაპაზონს გარეთაა</translation>
+    </message>
+</context>
+<context>
+    <name>QMimerSQLDriver</name>
+    <message>
+        <source>Could not connect to database</source>
+        <translation>ბაზასთან დაკავშირება შეუძლებელია</translation>
+    </message>
+    <message>
+        <source>Could not start transaction</source>
+        <translation>ტრანზაქციის დაწყების შეცდომა</translation>
+    </message>
+    <message>
+        <source>Could not commit transaction</source>
+        <translation>ტრანზაქციის გადაცემა შეუძლებელია</translation>
+    </message>
+    <message>
+        <source>Could not roll back transaction</source>
+        <translation>ტრანზაქციის გადახვევა შეუძლებელია</translation>
     </message>
 </context>
 </TS>

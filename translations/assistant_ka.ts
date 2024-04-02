@@ -12,15 +12,11 @@
     <name>AboutLabel</name>
     <message>
         <source>Warning</source>
-        <translation>გაფრთხილება</translation>
+        <translation>შეტყობინება</translation>
     </message>
     <message>
         <source>Unable to launch external application.</source>
         <translation>გარე აპლიკაციის გაშვება შეუძლებელია.</translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation>დიახ</translation>
     </message>
 </context>
 <context>
@@ -89,12 +85,12 @@ Reason:
         <translation>დამატება საქაღალდეში:</translation>
     </message>
     <message>
-        <source>+</source>
-        <translation>+</translation>
-    </message>
-    <message>
         <source>New Folder</source>
         <translation>ახალი საქაღალდე</translation>
+    </message>
+    <message>
+        <source>+</source>
+        <translation>+</translation>
     </message>
     <message>
         <source>Rename Folder</source>
@@ -115,6 +111,10 @@ Reason:
 <context>
     <name>BookmarkManager</name>
     <message>
+        <source>Untitled</source>
+        <translation>უსახელო</translation>
+    </message>
+    <message>
         <source>Remove</source>
         <translation>წაშლა</translation>
     </message>
@@ -123,20 +123,16 @@ Reason:
         <translation>აპირებთ, წაშალოთ საქაღალდე. ეს მის&lt;br&gt;შემცველობასაც წაშლით. მართლა გნებავთ, ეს გააკეთოთ?</translation>
     </message>
     <message>
+        <source>Manage Bookmarks...</source>
+        <translation>სანიშნების მართვა...</translation>
+    </message>
+    <message>
         <source>Add Bookmark...</source>
-        <translation>სანიშნის დამატება...</translation>
+        <translation>სანიშნეს დამატება...</translation>
     </message>
     <message>
         <source>Ctrl+D</source>
         <translation>Ctrl+D</translation>
-    </message>
-    <message>
-        <source>Untitled</source>
-        <translation>უსახელო</translation>
-    </message>
-    <message>
-        <source>Manage Bookmarks...</source>
-        <translation>სანიშნების მართვა...</translation>
     </message>
     <message>
         <source>Delete Folder</source>
@@ -438,7 +434,7 @@ Reason:
     <name>FontPanel</name>
     <message>
         <source>Font</source>
-        <translation>შრიფტი</translation>
+        <translation>ფონტი</translation>
     </message>
     <message>
         <source>&amp;Writing system</source>
@@ -469,7 +465,7 @@ Reason:
     </message>
     <message>
         <source>&amp;Home</source>
-        <translation>&amp;სახლი</translation>
+        <translation>&amp;საწყისი</translation>
     </message>
     <message>
         <source>ALT+Home</source>
@@ -489,7 +485,7 @@ Reason:
     </message>
     <message>
         <source>&amp;Print...</source>
-        <translation>&amp;ბეჭდვა...</translation>
+        <translation>&amp;ამობეჭდვა...</translation>
     </message>
     <message>
         <source>&amp;Find in Text...</source>
@@ -522,9 +518,6 @@ Reason:
         <source>Remove</source>
         <translation>წაშლა</translation>
     </message>
-</context>
-<context>
-    <name>HelpDocSettingsWidgetPrivate</name>
     <message>
         <source>Add Documentation</source>
         <translation>დოკუმენტაციის დამატება</translation>
@@ -538,31 +531,11 @@ Reason:
     <name>HelpViewer</name>
     <message>
         <source>&lt;title&gt;about:blank&lt;/title&gt;</source>
-        <translation>&lt;title&gt;about:blank&lt;/title&gt;</translation>
+        <translation>&lt;title&gt;შესახებ:სუფთა&lt;/title&gt;</translation>
     </message>
     <message>
         <source>&lt;title&gt;Error 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;The page could not be found.&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</source>
         <translation>&lt;title&gt;შეცდომა 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;გვერდი აღმოჩენილი არაა.&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</translation>
-    </message>
-    <message>
-        <source>Open Link</source>
-        <translation>ბმულის გახსნა</translation>
-    </message>
-    <message>
-        <source>Copy &amp;Link Location</source>
-        <translation>ბმულის &amp;მდებარეობის კოპირება</translation>
-    </message>
-    <message>
-        <source>Copy</source>
-        <translation>კოპირება</translation>
-    </message>
-    <message>
-        <source>Reload</source>
-        <translation>თავიდან ჩატვირთვა</translation>
-    </message>
-    <message>
-        <source>Open Link in New Tab	Ctrl+LMB</source>
-        <translation>ბმულის ახალ ფანჯარაში გახსნა	Ctrl+LMB</translation>
     </message>
     <message>
         <source>Error 404...</source>
@@ -579,10 +552,6 @@ Reason:
     <message>
         <source>Error loading: %1</source>
         <translation>ჩატვირთვის შეცდომა: %1</translation>
-    </message>
-    <message>
-        <source>Open Link in New Page</source>
-        <translation>ბმულის გახსნა ახალ გვერდზე</translation>
     </message>
 </context>
 <context>
@@ -615,16 +584,12 @@ Reason:
         <translation>სანიშნეები</translation>
     </message>
     <message>
+        <source>Search</source>
+        <translation>ძებნა</translation>
+    </message>
+    <message>
         <source>Qt Assistant</source>
         <translation>Qt Assistant</translation>
-    </message>
-    <message>
-        <source>Looking for Qt Documentation...</source>
-        <translation>Qt-ის დოკუმენტაციის ძებნა...</translation>
-    </message>
-    <message>
-        <source>&amp;File</source>
-        <translation>&amp;ფაილი</translation>
     </message>
     <message>
         <source>Page Set&amp;up...</source>
@@ -636,7 +601,7 @@ Reason:
     </message>
     <message>
         <source>New &amp;Tab</source>
-        <translation>&amp;ახალი ჩანართი</translation>
+        <translation>ახალი ჩა&amp;ნართი</translation>
     </message>
     <message>
         <source>&amp;Close Tab</source>
@@ -651,10 +616,6 @@ Reason:
         <translation>CTRL+Q</translation>
     </message>
     <message>
-        <source>&amp;Edit</source>
-        <translation>&amp;ჩასწორება</translation>
-    </message>
-    <message>
         <source>Find &amp;Next</source>
         <translation>&amp;მომდევნოს მოძებნა</translation>
     </message>
@@ -665,10 +626,6 @@ Reason:
     <message>
         <source>Preferences...</source>
         <translation>მორგება...</translation>
-    </message>
-    <message>
-        <source>&amp;View</source>
-        <translation>&amp;ხედი</translation>
     </message>
     <message>
         <source>Normal &amp;Size</source>
@@ -687,20 +644,8 @@ Reason:
         <translation>ALT+I</translation>
     </message>
     <message>
-        <source>ALT+O</source>
-        <translation>ALT+O</translation>
-    </message>
-    <message>
-        <source>Search</source>
-        <translation>ძებნა</translation>
-    </message>
-    <message>
         <source>ALT+S</source>
         <translation>ALT+S</translation>
-    </message>
-    <message>
-        <source>&amp;Go</source>
-        <translation>&amp;გადასვლა</translation>
     </message>
     <message>
         <source>Sync with Table of Contents</source>
@@ -716,7 +661,7 @@ Reason:
     </message>
     <message>
         <source>Ctrl+Alt+Right</source>
-        <translation>Ctrl+Alt+Right</translation>
+        <translation>Ctrl+Alt+მარჯვნივ</translation>
     </message>
     <message>
         <source>Previous Page</source>
@@ -724,19 +669,23 @@ Reason:
     </message>
     <message>
         <source>Ctrl+Alt+Left</source>
-        <translation>Ctrl+Alt+Left</translation>
+        <translation>Ctrl+Alt+მარცხნივ</translation>
     </message>
     <message>
-        <source>&amp;Bookmarks</source>
-        <translation>&amp;სანიშნეები</translation>
+        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;p&gt;Browser: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</source>
+        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;ვერსია %2&lt;/p&gt;&lt;p&gt;ბრაუზერი: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;საავტორო უფლებები დაცულია (C) %4 The Qt Company Ltd.&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <source>Unfiltered</source>
+        <translation>გაუფილტრავი</translation>
     </message>
     <message>
         <source>Could not register file &apos;%1&apos;: %2</source>
         <translation>რეგისტრაციის შეცდომა ფაილისთვის &apos;%1&apos;: %2</translation>
     </message>
     <message>
-        <source>&amp;Help</source>
-        <translation>&amp;დახმარება</translation>
+        <source>About...</source>
+        <translation>შესახებ...</translation>
     </message>
     <message>
         <source>Open Pages</source>
@@ -755,28 +704,8 @@ Reason:
         <translation>ALT+P</translation>
     </message>
     <message>
-        <source>About...</source>
-        <translation>შესახებ...</translation>
-    </message>
-    <message>
         <source>Navigation Toolbar</source>
         <translation>ნავიგაციის პანელი</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>&amp;ფანჯარა</translation>
-    </message>
-    <message>
-        <source>Zoom</source>
-        <translation>მასშტაბი</translation>
-    </message>
-    <message>
-        <source>Minimize</source>
-        <translation>ჩაკეცვა</translation>
-    </message>
-    <message>
-        <source>Ctrl+M</source>
-        <translation>Ctrl+M</translation>
     </message>
     <message>
         <source>Toolbars</source>
@@ -803,20 +732,60 @@ Reason:
         <translation>ასოცირებული შემცველობის ელემენტი ვერ ვპოვე.</translation>
     </message>
     <message>
-        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;p&gt;Browser: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</source>
-        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;ვერსია %2&lt;/p&gt;&lt;p&gt;ბრაუზერი: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;საავტორო უფლებები დაცულია (C) %4 The Qt Company Ltd.&lt;/p&gt;</translation>
-    </message>
-    <message>
         <source>About %1</source>
         <translation>%1-ის შესახებ</translation>
     </message>
     <message>
-        <source>Unfiltered</source>
-        <translation>გაუფილტრავი</translation>
-    </message>
-    <message>
         <source>Updating search index</source>
         <translation>ძებნის ინდექსის განახლება</translation>
+    </message>
+    <message>
+        <source>Looking for Qt Documentation...</source>
+        <translation>Qt-ის დოკუმენტაციის ძებნა...</translation>
+    </message>
+    <message>
+        <source>&amp;Window</source>
+        <translation>&amp;ფანჯარა</translation>
+    </message>
+    <message>
+        <source>Minimize</source>
+        <translation>ჩაკეცვა</translation>
+    </message>
+    <message>
+        <source>Ctrl+M</source>
+        <translation>Ctrl+M</translation>
+    </message>
+    <message>
+        <source>Zoom</source>
+        <translation>მასშტაბი</translation>
+    </message>
+    <message>
+        <source>&amp;File</source>
+        <translation>&amp;ფაილი</translation>
+    </message>
+    <message>
+        <source>&amp;Edit</source>
+        <translation>&amp;ჩასწორება</translation>
+    </message>
+    <message>
+        <source>&amp;View</source>
+        <translation>&amp;ხედი</translation>
+    </message>
+    <message>
+        <source>&amp;Go</source>
+        <translation>&amp;გადასვლა</translation>
+    </message>
+    <message>
+        <source>&amp;Bookmarks</source>
+        <translation>&amp;სანიშნეები</translation>
+    </message>
+    <message>
+        <source>&amp;Help</source>
+        <translation>&amp;დახმარება</translation>
+    </message>
+    <message>
+        <source>ALT+O</source>
+        <translation>ALT+O</translation>
     </message>
 </context>
 <context>
@@ -872,16 +841,16 @@ Reason:
         <translation>მორგება</translation>
     </message>
     <message>
-        <source>Homepage</source>
-        <translation>Homepage</translation>
-    </message>
-    <message>
         <source>Current Page</source>
         <translation>მიმდინარე გვერდი</translation>
     </message>
     <message>
         <source>Restore to default</source>
         <translation>ნაგულისხმევზე აღდგენა</translation>
+    </message>
+    <message>
+        <source>Homepage</source>
+        <translation>Homepage</translation>
     </message>
     <message>
         <source>On help start:</source>
@@ -950,7 +919,7 @@ Reason:
     </message>
     <message>
         <source>New &amp;Tab</source>
-        <translation>&amp;ახალი ჩანართი</translation>
+        <translation>ახალი ჩა&amp;ნართი</translation>
     </message>
     <message>
         <source>&amp;Close Tab</source>
@@ -990,6 +959,33 @@ Reason:
     <message>
         <source>&amp;Close</source>
         <translation>&amp;დახურვა</translation>
+    </message>
+</context>
+<context>
+    <name>HelpViewerImpl</name>
+    <message>
+        <source>Open Link</source>
+        <translation>ბმულის გახსნა</translation>
+    </message>
+    <message>
+        <source>Open Link in New Tab	Ctrl+LMB</source>
+        <translation>ბმულის ახალ ფანჯარაში გახსნა	Ctrl+LMB</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Link Location</source>
+        <translation>ბმულის &amp;მდებარეობის კოპირება</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>კოპირება</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>თავიდან ჩატვირთვა</translation>
+    </message>
+    <message>
+        <source>Open Link in New Page</source>
+        <translation>ბმულის გახსნა ახალ გვერდზე</translation>
     </message>
 </context>
 </TS>

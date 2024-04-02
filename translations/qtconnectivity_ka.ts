@@ -20,20 +20,16 @@
         <translation>გადაცემული მისამართი ლოკალური მოწყობლობა არაა.</translation>
     </message>
     <message>
-        <source>Missing Location permission. Search is not possible.</source>
-        <translation>მდებარეობის წვდომის გარეშე ძებნა შეუძლებელია.</translation>
-    </message>
-    <message>
         <source>Location service turned off. Search is not possible.</source>
         <translation>მდებარეობის სერვისი გათიშულია. ძებნა შეუძლებელია.</translation>
     </message>
     <message>
-        <source>Classic Discovery cannot be started</source>
-        <translation>კლასიკური აღმოჩენის დაწყება შეუძლებელია</translation>
+        <source>Failed to start device discovery due to missing permissions.</source>
+        <translation>მოწყობილობების აღმოჩენის დაწყება ჩავარდა არასაკმარისი უფლებების გამო.</translation>
     </message>
     <message>
-        <source>Low Energy Discovery not supported</source>
-        <translation>დაბალი ენერგიით აღმოჩენა მხარდაჭერილი არაა</translation>
+        <source>Classic Discovery cannot be started</source>
+        <translation>კლასიკური აღმოჩენის დაწყება შეუძლებელია</translation>
     </message>
     <message>
         <source>Device is powered off</source>
@@ -50,6 +46,10 @@
     <message>
         <source>Unknown error</source>
         <translation>უცნობი შეცდომა</translation>
+    </message>
+    <message>
+        <source>Missing permission</source>
+        <translation>ნაკლული წვდომა</translation>
     </message>
     <message>
         <source>Cannot start low energy device inquiry</source>
@@ -79,6 +79,10 @@
         <source>Device discovery not supported on this platform</source>
         <translation>მოწყობილობის აღმოჩენა ამ პლატფორმაზე მხარდაჭერილი არაა</translation>
     </message>
+    <message>
+        <source>Bluetooth adapter powered off.</source>
+        <translation>ბლუთუზის ადაპტერი გამორთულია.</translation>
+    </message>
 </context>
 <context>
     <name>QBluetoothServiceDiscoveryAgent</name>
@@ -95,8 +99,8 @@
         <translation>პლატფორმას ბლუთუზის მხარდაჭერა არ გააჩნია</translation>
     </message>
     <message>
-        <source>Android API below v15 does not support SDP discovery</source>
-        <translation>Android API v15-ზე ძველს SDP აღმოჩენის მხარდაჭერა არ გააჩნია</translation>
+        <source>Failed to start service discovery due to missing permissions.</source>
+        <translation>სერვისების აღმოჩენის დაწყება ჩავარდა არასაკმარისი უფლებების გამო.</translation>
     </message>
     <message>
         <source>Cannot create Android BluetoothDevice</source>
@@ -139,26 +143,6 @@
         <translation>ყურსაცვამები &amp; მიკროფონი</translation>
     </message>
     <message>
-        <source>Browse Group Descriptor</source>
-        <translation>დათვალიერების ჯგუფის დესკრიპტორი</translation>
-    </message>
-    <message>
-        <source>Public Browse Group</source>
-        <translation>საჯარო დათვალიერების ჯგუფი</translation>
-    </message>
-    <message>
-        <source>Dial-Up Networking</source>
-        <translation>სატელეფონო ქსელი</translation>
-    </message>
-    <message>
-        <source>Audio Source</source>
-        <translation>აუდიოს წყარო</translation>
-    </message>
-    <message>
-        <source>Audio Sink</source>
-        <translation>ხმის მიმღები</translation>
-    </message>
-    <message>
         <source>Audio/Video Remote Control Target</source>
         <translation>ხმის/ვიდეოს დაშორებული მართვის სამიზნე</translation>
     </message>
@@ -191,12 +175,31 @@
         <translation>პირადი ქსელი (GN)</translation>
     </message>
     <message>
+        <source>Browse Group Descriptor</source>
+        <translation>დათვალიერების ჯგუფის დესკრიპტორი</translation>
+    </message>
+    <message>
+        <source>Public Browse Group</source>
+        <translation>საჯარო დათვალიერების ჯგუფი</translation>
+    </message>
+    <message>
+        <source>Dial-Up Networking</source>
+        <translation>სატელეფონო ქსელი</translation>
+    </message>
+    <message>
+        <source>Audio Source</source>
+        <translation>აუდიოს წყარო</translation>
+    </message>
+    <message>
+        <source>Audio Sink</source>
+        <translation>ხმის მიმღები</translation>
+    </message>
+    <message>
         <source>Basic Direct Printing (BPP)</source>
         <translation>ძირითადი პირდაპირი ბეჭდვა (BPP)</translation>
     </message>
     <message>
         <source>Basic Reference Printing (BPP)</source>
-        <translatorcomment>The content to be printed by the Printer is stored on the network with a reference to that content stored on the Sender.</translatorcomment>
         <translation>ძირითადი მიმართული ბეჭდვა (BPP)</translation>
     </message>
     <message>
@@ -229,7 +232,6 @@
     </message>
     <message>
         <source>Basic Printing Reflected UI</source>
-        <translatorcomment>Printing using the Reflected User Interface option requires the Printer to retrieve all print content from the Sender, not just referenced image content.</translatorcomment>
         <translation>ძირითადი ბეჭდვა - მომხმარებლის ინტერფეისის ანარეკლი</translation>
     </message>
     <message>
@@ -259,6 +261,54 @@
     <message>
         <source>SIM Access Server</source>
         <translation>SIM წვდომის სერვერი</translation>
+    </message>
+    <message>
+        <source>Global Navigation Satellite System</source>
+        <translation>გლობალური ნავიგაციის თანამგზავრული სისტემა</translation>
+    </message>
+    <message>
+        <source>Global Navigation Satellite System Server</source>
+        <translation>გლობალური ნავიგაციის თანამგზავრული სისტემის სერვერი</translation>
+    </message>
+    <message>
+        <source>3D Synchronization Display</source>
+        <translation>3D სინქრონიზაციის ეკრანი</translation>
+    </message>
+    <message>
+        <source>3D Synchronization Glasses</source>
+        <translation>3D სინქრონიზაციის სათავალე</translation>
+    </message>
+    <message>
+        <source>3D Synchronization</source>
+        <translation>3D სინქრონიზაცია</translation>
+    </message>
+    <message>
+        <source>Multi-Profile Specification (Profile)</source>
+        <translation>მრავალპროფილიანი სპეციფიკაცია (პროფილი)</translation>
+    </message>
+    <message>
+        <source>Multi-Profile Specification</source>
+        <translation>მრავალპროფილიანი სპეციფიკაცია</translation>
+    </message>
+    <message>
+        <source>Device Identification</source>
+        <translation>მოწყობილობის იდენტიფიკაცია</translation>
+    </message>
+    <message>
+        <source>Generic Networking</source>
+        <translation>ზოგადი ქსელი</translation>
+    </message>
+    <message>
+        <source>Generic File Transfer</source>
+        <translation>ზოგადი ფაილის გადაცემა</translation>
+    </message>
+    <message>
+        <source>Generic Audio</source>
+        <translation>ზოგადი ხმა</translation>
+    </message>
+    <message>
+        <source>Generic Telephony</source>
+        <translation>ზოგადი ტელეფონია</translation>
     </message>
     <message>
         <source>Generic Access</source>
@@ -335,6 +385,31 @@
     <message>
         <source>Location and Navigation</source>
         <translation>მდებარეობა და ნავიგაცია</translation>
+    </message>
+    <message>
+        <source>Environmental Sensing</source>
+        <translation>გარემოს აღქმა</translation>
+    </message>
+    <message>
+        <source>Body Composition</source>
+        <translation>სხეულის შემადგენლობა</translation>
+    </message>
+    <message>
+        <source>User Data</source>
+        <translation>მომხმარებლის მონაცემები</translation>
+    </message>
+    <message>
+        <source>Weight Scale</source>
+        <translation>წონის შკალა</translation>
+    </message>
+    <message>
+        <source>Bond Management</source>
+        <extracomment>Connection management (Bluetooth)</extracomment>
+        <translation>გატარების სიჩქარის მართვა</translation>
+    </message>
+    <message>
+        <source>Continuous Glucose Monitoring</source>
+        <translation>გლუკოზის დონის თვალყურის უწყვეტი დევნება</translation>
     </message>
     <message>
         <source>Service Discovery Protocol</source>
@@ -431,35 +506,6 @@
     <message>
         <source>Cycling Speed and Cadence</source>
         <translation>ველოსიპედის სიჩქარე და ტემპი</translation>
-    </message>
-    <message>
-        <source>Environmental Sensing</source>
-        <translation>გარემოს აღქმა</translation>
-    </message>
-    <message>
-        <source>Body Composition</source>
-        <translation>სხეულის შემადგენლობა</translation>
-    </message>
-    <message>
-        <source>User Data</source>
-        <translation>მომხმარებლის მონაცემები</translation>
-    </message>
-    <message>
-        <source>Weight Scale</source>
-        <translation>წონის შკალა</translation>
-    </message>
-    <message>
-        <source>Bond Management</source>
-        <extracomment>Connection management (Bluetooth)</extracomment>
-        <translation>გატარების სიჩქარის მართვა</translation>
-    </message>
-    <message>
-        <source>Continuous Glucose Monitoring</source>
-        <translation>გლუკოზის დონის თვალყურის უწყვეტი დევნება</translation>
-    </message>
-    <message>
-        <source>Multi-Channel Adaptation Protocol - Control</source>
-        <translation>მრავალარხიანი ადაპტაციის პროტოკოლი - კონტროლი</translation>
     </message>
     <message>
         <source>Multi-Channel Adaptation Protocol - Data</source>
@@ -786,24 +832,65 @@
         <translation>ველოსიპედზე დახარჯული საკონტროლო წერტილი</translation>
     </message>
     <message>
+        <source>Magnetic Declination</source>
+        <extracomment>Angle between geographic and magnetic north</extracomment>
+        <translation>მაგნიტური გადახრა</translation>
+    </message>
+    <message>
+        <source>Elevation</source>
+        <extracomment>Above/below sea level</extracomment>
+        <translation>სიმაღლე ზღვის დონიდან</translation>
+    </message>
+    <message>
+        <source>True Wind Speed</source>
+        <extracomment>Wind speed while standing</extracomment>
+        <translation>ქარის სიჩქარე</translation>
+    </message>
+    <message>
+        <source>Apparent Wind Speed</source>
+        <extracomment>Wind speed while observer is moving</extracomment>
+        <translation>ქარის ფარდობითი სიჩქარე</translation>
+    </message>
+    <message>
+        <source>Gust Factor</source>
+        <extracomment>Factor by which wind gust is stronger than average wind</extracomment>
+        <translation>წამობერვის სიმძლავრე</translation>
+    </message>
+    <message>
+        <source>Descriptor Value Changed</source>
+        <extracomment>Environmental sensing related</extracomment>
+        <translation>დესკრიპტორის მნიშვნელობა შეიცვალა</translation>
+    </message>
+    <message>
+        <source>Age</source>
+        <extracomment>Age of person</extracomment>
+        <translation>ასაკი</translation>
+    </message>
+    <message>
+        <source>Height</source>
+        <extracomment>Height of a person</extracomment>
+        <translation>სიმაღლე</translation>
+    </message>
+    <message>
+        <source>Database Change Increment</source>
+        <extracomment>Environmental sensing related</extracomment>
+        <translation>მონაცემთა ბაზის ცვლილება</translation>
+    </message>
+    <message>
+        <source>Weight Scale Feature</source>
+        <translation>წონის შკალის ფუნქცია</translation>
+    </message>
+    <message>
         <source>Server Characteristic Configuration</source>
         <translation>სერვერის მახასიათებლების მორგება</translation>
     </message>
     <message>
-        <source>Environmental Sensing Configuration</source>
-        <translation>გარემოს აღქმის მორგება</translation>
-    </message>
-    <message>
-        <source>Environmental Sensing Measurement</source>
-        <translation>გარემოს აღქმის გაზომვა</translation>
-    </message>
-    <message>
-        <source>Environmental Sensing Trigger Setting</source>
-        <translation>გარემოს აღქმის ტრიგერის მორგება</translation>
-    </message>
-    <message>
         <source>Location And Speed</source>
         <translation>მდებარეობა და სიჩქარე</translation>
+    </message>
+    <message>
+        <source>Multi-Channel Adaptation Protocol - Control</source>
+        <translation>მრავალარხიანი ადაპტაციის პროტოკოლი - კონტროლი</translation>
     </message>
     <message>
         <source>Navigation</source>
@@ -819,18 +906,7 @@
     </message>
     <message>
         <source>LN Control Point</source>
-        <translatorcomment>LN Control Point characteristic is used to request a specific function to be executed on the receiving device</translatorcomment>
         <translation>გეოლოკაციის საკონტროლო წერტილი</translation>
-    </message>
-    <message>
-        <source>Magnetic Declination</source>
-        <extracomment>Angle between geographic and magnetic north</extracomment>
-        <translation>მაგნიტური გადახრა</translation>
-    </message>
-    <message>
-        <source>Elevation</source>
-        <extracomment>Above/below sea level</extracomment>
-        <translation>სიმაღლე ზღვის დონიდან</translation>
     </message>
     <message>
         <source>Pressure</source>
@@ -845,27 +921,12 @@
         <translation>ტენიანბა</translation>
     </message>
     <message>
-        <source>True Wind Speed</source>
-        <extracomment>Wind speed while standing</extracomment>
-        <translation>ქარის სიჩქარე</translation>
-    </message>
-    <message>
         <source>True Wind Direction</source>
         <translation>ქარის მიმართულება</translation>
     </message>
     <message>
-        <source>Apparent Wind Speed</source>
-        <extracomment>Wind speed while observer is moving</extracomment>
-        <translation>ქარის ფარდობითი სიჩქარე</translation>
-    </message>
-    <message>
         <source>Apparent Wind Direction</source>
         <translation>ქარის ფარდობითი მიმართულება</translation>
-    </message>
-    <message>
-        <source>Gust Factor</source>
-        <extracomment>Factor by which wind gust is stronger than average wind</extracomment>
-        <translation>წამობერვის სიმძლავრე</translation>
     </message>
     <message>
         <source>Pollen Concentration</source>
@@ -896,11 +957,6 @@
         <translation>ნამის წერტილი</translation>
     </message>
     <message>
-        <source>Descriptor Value Changed</source>
-        <extracomment>Environmental sensing related</extracomment>
-        <translation>დესკრიპტორის მნიშვნელობა შეიცვალა</translation>
-    </message>
-    <message>
         <source>Aerobic Heart Rate Lower Limit</source>
         <translation>აერობული გულისცემის ქვედა ზღვარი</translation>
     </message>
@@ -911,11 +967,6 @@
     <message>
         <source>Aerobic Threshold</source>
         <translation>აერობული ზღვარი</translation>
-    </message>
-    <message>
-        <source>Age</source>
-        <extracomment>Age of person</extracomment>
-        <translation>ასაკი</translation>
     </message>
     <message>
         <source>Anaerobic Heart Rate Lower Limit</source>
@@ -966,11 +1017,6 @@
         <translation>მაქსიმალური გულისცემა</translation>
     </message>
     <message>
-        <source>Height</source>
-        <extracomment>Height of a person</extracomment>
-        <translation>სიმაღლე</translation>
-    </message>
-    <message>
         <source>Hip Circumference</source>
         <translation>თეძოს გარშემოწერილობა</translation>
     </message>
@@ -992,12 +1038,10 @@
     </message>
     <message>
         <source>3-Zone Heart Rate Limits</source>
-        <translatorcomment>the limits between the heart rate zones for the 3-zone heart rate definition (Hard, Moderate and Light)</translatorcomment>
         <translation>გულისცემის სიხშირის ლიმიტები (3-ზონა)</translation>
     </message>
     <message>
         <source>2-Zone Heart Rate Limits</source>
-        <translatorcomment>Heart rate limit between the heart rate zones for the 2-zone heart rate definition (Fitness and Fat Burn)</translatorcomment>
         <translation>გულისცემის სიხშირის ლიმიტები (2-ზონა)</translation>
     </message>
     <message>
@@ -1011,11 +1055,6 @@
     <message>
         <source>Weight</source>
         <translation>სიმძიმე</translation>
-    </message>
-    <message>
-        <source>Database Change Increment</source>
-        <extracomment>Environmental sensing related</extracomment>
-        <translation>მონაცემთა ბაზის ცვლილება</translation>
     </message>
     <message>
         <source>User Index</source>
@@ -1086,13 +1125,23 @@
         <translation>მიმართვა ანგარიშზე</translation>
     </message>
     <message>
+        <source>Environmental Sensing Configuration</source>
+        <translation>გარემოს აღქმის მორგება</translation>
+    </message>
+    <message>
+        <source>Environmental Sensing Measurement</source>
+        <translation>გარემოს აღქმის გაზომვა</translation>
+    </message>
+    <message>
+        <source>Environmental Sensing Trigger Setting</source>
+        <translation>გარემოს აღქმის ტრიგერის მორგება</translation>
+    </message>
+    <message>
         <source>Phonebook Access PCE</source>
-        <translatorcomment>PCE — Phonebook Сlient Equipment</translatorcomment>
         <translation>წვდომა სატელეფონო წიგნაკთან (კლიენტი)</translation>
     </message>
     <message>
         <source>Phonebook Access PSE</source>
-        <translatorcomment>PSE — Phonebook Server Equipment</translatorcomment>
         <translation>წვდომა სატელეფონო წიგნაკთან (სერვერი)</translation>
     </message>
     <message>
@@ -1114,54 +1163,6 @@
     <message>
         <source>Message Access</source>
         <translation>წვდომა შეტყობინებებთან</translation>
-    </message>
-    <message>
-        <source>Global Navigation Satellite System</source>
-        <translation>გლობალური ნავიგაციის თანამგზავრული სისტემა</translation>
-    </message>
-    <message>
-        <source>Global Navigation Satellite System Server</source>
-        <translation>გლობალური ნავიგაციის თანამგზავრული სისტემის სერვერი</translation>
-    </message>
-    <message>
-        <source>3D Synchronization Display</source>
-        <translation>3D სინქრონიზაციის ეკრანი</translation>
-    </message>
-    <message>
-        <source>3D Synchronization Glasses</source>
-        <translation>3D სინქრონიზაციის სათავალე</translation>
-    </message>
-    <message>
-        <source>3D Synchronization</source>
-        <translation>3D სინქრონიზაცია</translation>
-    </message>
-    <message>
-        <source>Multi-Profile Specification (Profile)</source>
-        <translation>მრავალპროფილიანი სპეციფიკაცია (პროფილი)</translation>
-    </message>
-    <message>
-        <source>Multi-Profile Specification</source>
-        <translation>მრავალპროფილიანი სპეციფიკაცია</translation>
-    </message>
-    <message>
-        <source>Device Identification</source>
-        <translation>მოწყობილობის იდენტიფიკაცია</translation>
-    </message>
-    <message>
-        <source>Generic Networking</source>
-        <translation>ზოგადი ქსელი</translation>
-    </message>
-    <message>
-        <source>Generic File Transfer</source>
-        <translation>ზოგადი ფაილის გადაცემა</translation>
-    </message>
-    <message>
-        <source>Generic Audio</source>
-        <translation>ზოგადი ხმა</translation>
-    </message>
-    <message>
-        <source>Generic Telephony</source>
-        <translation>ზოგადი ტელეფონია</translation>
     </message>
     <message>
         <source>Video Source</source>
@@ -1192,10 +1193,6 @@
         <translation>მოწყობილობა გამორთულია</translation>
     </message>
     <message>
-        <source>Unable to find appointed local adapter</source>
-        <translation>მინიჭებული ლოკალური გადამყვანი ვერ ვიპოვე</translation>
-    </message>
-    <message>
         <source>Cannot find local Bluetooth adapter</source>
         <translation>ლოკალური ბლუთუზის ბარათი ვერ ვიპოვე</translation>
     </message>
@@ -1210,10 +1207,6 @@
     <message>
         <source>Unable to perform SDP scan</source>
         <translation>SPD სკანირების შესრულება შეუძლებელია</translation>
-    </message>
-    <message>
-        <source>Unable to access device</source>
-        <translation>მოწყობილობასთან წვდომის გარეშე</translation>
     </message>
     <message>
         <source>Custom Service</source>
@@ -1278,6 +1271,10 @@
         <translation>%1-სთან მიერთება შეუძლებელია</translation>
     </message>
     <message>
+        <source>Bluetooth socket connect failed due to missing permissions.</source>
+        <translation>ბლუთუზის სოკეტთან მიერთება ჩავარდა წვდომების არქონის გამო.</translation>
+    </message>
+    <message>
         <source>Input stream thread cannot be started</source>
         <translation>შემომავალი ნაკადის პროცესის გაშვება შეუძლებელია</translation>
     </message>
@@ -1290,16 +1287,16 @@
         <translation>შეცდომა სოკეტზე ჩაწერისას.</translation>
     </message>
     <message>
-        <source>Cannot read while not connected</source>
-        <translation>წაკითხვა შეუძლებელია, თუ მიერთებული არ ბრძანდებით</translation>
-    </message>
-    <message>
         <source>Network error during read</source>
         <translation>ქსელის შეცდომა წაკითხვისას</translation>
     </message>
     <message>
         <source>Network Error</source>
         <translation>ქსელის შეცდომა</translation>
+    </message>
+    <message>
+        <source>Cannot read while not connected</source>
+        <translation>წაკითხვა შეუძლებელია, თუ მიერთებული არ ბრძანდებით</translation>
     </message>
     <message>
         <source>Cannot set connection security level</source>
@@ -1315,7 +1312,7 @@
     </message>
     <message>
         <source>Remote host closed connection</source>
-        <translation>დაშორებილმა ჰოსტმა კავშირი დახურა</translation>
+        <translation>დაშორებულმა ჰოსტმა კავშირი დახურა</translation>
     </message>
     <message>
         <source>Connection timed out</source>
@@ -1353,22 +1350,6 @@
         <source>Invalid Bluetooth address passed to connectToService()</source>
         <translation>გადაცემულია არასწორი ბლუთუზის მისამართი ფუნქციისთვის connectToService()</translation>
     </message>
-    <message>
-        <source>Unsupported protocol. Win32 only supports RFCOMM sockets</source>
-        <translation>მხარდაუჭერელი პროტოკოლი. Win32-ს, მხოლოდ, RFCOMM სოკეტების მხარდაჭერა გააჩნია</translation>
-    </message>
-    <message>
-        <source>Failed to create socket</source>
-        <translation>სოკეტის შექმნა ჩავარდა</translation>
-    </message>
-    <message>
-        <source>Socket type not handled: %1</source>
-        <translation>სოკეტს ტიპი მხარდაჭერილი არაა: %1</translation>
-    </message>
-    <message>
-        <source>Logic error: more bytes sent than passed to ::send</source>
-        <translation>ლოგიკის შეცდომა: გაგზავნილია მეტი მონაცემი, ვიდრე გადაცემულია ბრძანებისთვის ::send</translation>
-    </message>
 </context>
 <context>
     <name>QBluetoothSocketPrivateAndroid</name>
@@ -1391,24 +1372,16 @@
         <translation>არასწორი შეყვანის მოწყობილობა (ნულოვანი)</translation>
     </message>
     <message>
-        <source>Source file does not exist</source>
-        <translation>წყარო ფაილი არ არსებობს</translation>
-    </message>
-    <message>
-        <source>Invalid target address</source>
-        <translation>არასწორი სამიზნე მისამართი</translation>
-    </message>
-    <message>
-        <source>Push session cannot be started</source>
-        <translation>გაგზავნის სესიის გაშვება შეუძლებელია</translation>
+        <source>QIODevice cannot be read. Make sure it is open for reading.</source>
+        <translation>QIODevice-ის წაკითხვა შეუძლებელია. დარწმუნდით, რომ ის წასაკითხად ღიაა.</translation>
     </message>
     <message>
         <source>Push session cannot connect</source>
         <translation>გაგზავნის სესიას მიერთება არ შეუძლია</translation>
     </message>
     <message>
-        <source>QIODevice cannot be read. Make sure it is open for reading.</source>
-        <translation>QIODevice-ის წაკითხვა შეუძლებელია. დარწმუნდით, რომ ის წასაკითხად ღიაა.</translation>
+        <source>Source file does not exist</source>
+        <translation>წყარო ფაილი არ არსებობს</translation>
     </message>
     <message>
         <source>Push session failed</source>
@@ -1426,24 +1399,13 @@
         <source>Push service not found</source>
         <translation>გაგზავნის სერვისი აღმოჩენილი არაა</translation>
     </message>
-</context>
-<context>
-    <name>QBluetoothTransferReplyBluez</name>
     <message>
-        <source>Unknown Error</source>
-        <translation>უცნობი შეცდომა</translation>
+        <source>Invalid target address</source>
+        <translation>არასწორი სამიზნე მისამართი</translation>
     </message>
     <message>
-        <source>Could not open file for sending</source>
-        <translation>გასაგზავნი ფაილის გახსნა შეუძლებელია</translation>
-    </message>
-    <message>
-        <source>The transfer was canceled</source>
-        <translation>გადაცემა გაუქმდა</translation>
-    </message>
-    <message>
-        <source>Operation canceled</source>
-        <translation>ოპერაცია გაუქმებულია</translation>
+        <source>Push session cannot be started</source>
+        <translation>გაგზავნის სესიის გაშვება შეუძლებელია</translation>
     </message>
 </context>
 <context>
@@ -1465,12 +1427,24 @@
         <translation>უცნობი შეცდომა</translation>
     </message>
     <message>
+        <source>Missing permission</source>
+        <translation>ნაკლული წვდომა</translation>
+    </message>
+    <message>
         <source>Error occurred trying to connect to remote device.</source>
         <translation>შეცდომა დაშორებულ მოწყობილობასთან მიერთების მცდელობისას.</translation>
     </message>
     <message>
         <source>Failed to authorize on the remote device</source>
         <translation>დაშორებულ მოწყობილობაზე ავტორიზაცია ჩავარდა</translation>
+    </message>
+    <message>
+        <source>Missing permissions error</source>
+        <translation>ნაკლული წვდომის შეცდომა</translation>
+    </message>
+    <message>
+        <source>Error reading RSSI value</source>
+        <translation>RSSI მნიშვნელობის წაკითხვის შეცდომა</translation>
     </message>
     <message>
         <source>Error occurred trying to start advertising</source>
@@ -1494,7 +1468,7 @@
     </message>
     <message>
         <source>Unknown advertisement error</source>
-        <translation>უცნობი ანონსის შეცდომა</translation>
+        <translation>უცნობი გამოცხადების შეცდომა</translation>
     </message>
 </context>
 </TS>

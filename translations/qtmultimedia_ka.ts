@@ -2,111 +2,6 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="ka_GE">
 <context>
-    <name>AudioContainerControl</name>
-    <message>
-        <source>RAW (headerless) file format</source>
-        <translation>დაუმუშავებელი (უთავსართო) ფაილის ფორმატი</translation>
-    </message>
-    <message>
-        <source>WAV file format</source>
-        <translation>WAV ფაილის ფორმატი</translation>
-    </message>
-</context>
-<context>
-    <name>AudioEncoderControl</name>
-    <message>
-        <source>Linear PCM audio data</source>
-        <translation>წრფივი PCM ხმის მონაცემები</translation>
-    </message>
-</context>
-<context>
-    <name>CameraBinImageCapture</name>
-    <message>
-        <source>Camera not ready</source>
-        <translation>კამერა მზად არაა</translation>
-    </message>
-</context>
-<context>
-    <name>CameraBinImageEncoder</name>
-    <message>
-        <source>JPEG image</source>
-        <translation>JPEG გამოსახულება</translation>
-    </message>
-</context>
-<context>
-    <name>CameraBinRecorder</name>
-    <message>
-        <source>QMediaRecorder::pause() is not supported by camerabin2.</source>
-        <translation>QMediaRecorder::pause() camerabin2-ის მიერ მხარდაჭერილი არაა.</translation>
-    </message>
-    <message>
-        <source>Service has not been started</source>
-        <translation>სერვისი გაშვებული არაა</translation>
-    </message>
-    <message>
-        <source>Recording permissions are not available</source>
-        <translation>ჩაწერის უფლებები ხელმისაწვდომი არაა</translation>
-    </message>
-</context>
-<context>
-    <name>CameraBinSession</name>
-    <message>
-        <source>Camera error</source>
-        <translation>კამერის შეცდომა</translation>
-    </message>
-</context>
-<context>
-    <name>DSCameraSession</name>
-    <message>
-        <source>Failed to configure preview format</source>
-        <translation>მინიატურის ფორმატის მორგება ჩავარდა</translation>
-    </message>
-    <message>
-        <source>Failed to connect graph</source>
-        <translation>გრაფიკის მიერთება ჩავარდა</translation>
-    </message>
-    <message>
-        <source>Failed to get stream control</source>
-        <translation>ნაკადის კონტროლის მიღება ჩავარდა</translation>
-    </message>
-    <message>
-        <source>Failed to start</source>
-        <translation>გაშვების შეცდომა</translation>
-    </message>
-    <message>
-        <source>Failed to stop</source>
-        <translation>გაჩერება ჩავარდა</translation>
-    </message>
-    <message>
-        <source>Camera not ready for capture</source>
-        <translation>კამერა გადასაღებად მზად არაა</translation>
-    </message>
-    <message>
-        <source>Could not save image to file.</source>
-        <translation>გამოსახულების ფაილში შენახვა შეუძლებელია.</translation>
-    </message>
-    <message>
-        <source>Failed to create filter graph</source>
-        <translation>ფილტრ გრაფიკის შექმნა ჩავარდა</translation>
-    </message>
-    <message>
-        <source>Failed to create graph builder</source>
-        <translation>გრაფიკის ამგების შექმნა ჩავარდა</translation>
-    </message>
-    <message>
-        <source>Failed to connect capture graph and filter graph</source>
-        <translation>გადაღებისა და ფილტრის გრაფიკის მიერთება ჩავარდა</translation>
-    </message>
-    <message>
-        <source>No capture device found</source>
-        <translation>გადამღები მოწყობილობა ვერ ვპოვე</translation>
-    </message>
-    <message>
-        <source>Failed to create null renderer</source>
-        <translation>ნულოვანი რენდერერის ინიციალიზაცია ჩავარდა</translation>
-    </message>
-</context>
-<context>
     <name>MFPlayerSession</name>
     <message>
         <source>Invalid stream source.</source>
@@ -127,6 +22,14 @@
     <message>
         <source>Unsupported media type.</source>
         <translation>მედიის მხარდაუჭერელი ტიპი.</translation>
+    </message>
+    <message>
+        <source>Unsupported URL scheme.</source>
+        <translation>URL-ის მხარდაუჭერელი სქემა.</translation>
+    </message>
+    <message>
+        <source>Connection to server could not be established.</source>
+        <translation>სერვერთან დაკავშირება შეუძლებელია.</translation>
     </message>
     <message>
         <source>Failed to load source.</source>
@@ -185,6 +88,26 @@
         <translation>მედიის სესიის არაფატალური შეცდომა.</translation>
     </message>
     <message>
+        <source>Error reading from the network.</source>
+        <translation>ქსელიდან წაკითხვის შეცდომა.</translation>
+    </message>
+    <message>
+        <source>Error writing to the network.</source>
+        <translation>ქსელში ჩაწერის შეცდომა.</translation>
+    </message>
+    <message>
+        <source>Network packets might be blocked by a firewall.</source>
+        <translation>ქსელის პაკეტები, შეიძლება, ბრანდმაუერის მიერ იბლოკება.</translation>
+    </message>
+    <message>
+        <source>Media session state error.</source>
+        <translation>მედიის სესიის მდგომარეობის შეცდომა.</translation>
+    </message>
+    <message>
+        <source>Invalid stream data.</source>
+        <translation>არასწორი ნაკადის მონაცემები.</translation>
+    </message>
+    <message>
         <source>Media session serious error.</source>
         <translation>მედიის სესიის სერიოზული შეცდომა.</translation>
     </message>
@@ -198,31 +121,7 @@
     </message>
 </context>
 <context>
-    <name>QAndroidAudioEncoderSettingsControl</name>
-    <message>
-        <source>Adaptive Multi-Rate Narrowband (AMR-NB) audio codec</source>
-        <translation>ადაპტიური მრავალსიჩქარიანი ვიწროზოლოვანი აუდიო კოდეკი (AMR-NB)</translation>
-    </message>
-    <message>
-        <source>Adaptive Multi-Rate Wideband (AMR-WB) audio codec</source>
-        <translation>ადაპტიური მრავალსიჩქარიანი ფართოზოლოვანი აუდიო კოდეკი (AMR-WB)</translation>
-    </message>
-    <message>
-        <source>AAC Low Complexity (AAC-LC) audio codec</source>
-        <translation>AAC დაბალი სირთულის აუდიო კოდეკი (AAC-LC)</translation>
-    </message>
-</context>
-<context>
     <name>QAndroidCameraSession</name>
-    <message>
-        <source>Camera not ready</source>
-        <translation>კამერა მზად არაა</translation>
-    </message>
-    <message>
-        <source>Drive mode not supported</source>
-        <extracomment>Drive mode is the camera&apos;s shutter mode, for example single shot, continuos exposure, etc.</extracomment>
-        <translation>დისკის რეჟიმი მხარდაჭერილი არაა</translation>
-    </message>
     <message>
         <source>Failed to capture image</source>
         <translation>სურათის გადაღება ჩავარდა</translation>
@@ -232,163 +131,19 @@
         <translation>კამერის მინიატურის დაწყება ჩავარდა.</translation>
     </message>
     <message>
-        <source>Could not open destination file: %1</source>
-        <translation>სამიზნე ფაილის გახსნა შეუძლებელია: %1</translation>
-    </message>
-</context>
-<context>
-    <name>QAndroidImageEncoderControl</name>
-    <message>
-        <source>JPEG image</source>
-        <translation>JPEG გამოსახულება</translation>
-    </message>
-</context>
-<context>
-    <name>QAndroidMediaContainerControl</name>
-    <message>
-        <source>MPEG4 media file format</source>
-        <translation>მედიაფაილის ფორმატი MPEG4</translation>
+        <source>File is not available: %1</source>
+        <translation>ფაილი ხელმისაწვდომი არაა: %1</translation>
     </message>
     <message>
-        <source>3GPP media file format</source>
-        <translation>მედიაფაილის ფორმატი 3GPP</translation>
-    </message>
-    <message>
-        <source>AMR NB file format</source>
-        <translation>ფაილის ფორმატი AMR NB</translation>
-    </message>
-    <message>
-        <source>AMR WB file format</source>
-        <translation>ფაილის ფორმატი AMR WB</translation>
-    </message>
-</context>
-<context>
-    <name>QAndroidVideoEncoderSettingsControl</name>
-    <message>
-        <source>H.263 compression</source>
-        <translation>შეკუმშვა H.263</translation>
-    </message>
-    <message>
-        <source>H.264 compression</source>
-        <translation>შეკუმშვა H.264</translation>
-    </message>
-    <message>
-        <source>MPEG-4 SP compression</source>
-        <translation>შეკუმშვა MPEG-4 SP</translation>
+        <source>Could not save to file: %1</source>
+        <translation>შეუძლებელია შენახვა ფაილში: %1</translation>
     </message>
 </context>
 <context>
     <name>QAudioDecoder</name>
     <message>
-        <source>The QAudioDecoder object does not have a valid service</source>
-        <translation>ობიექტს QAudioDecoder სწორი სერვისი არ აქვს</translation>
-    </message>
-</context>
-<context>
-    <name>QCamera</name>
-    <message>
-        <source>The camera service is missing</source>
-        <translation>კამერის სერვისი აღმოჩენილი არაა</translation>
-    </message>
-</context>
-<context>
-    <name>QCameraImageCapture</name>
-    <message>
-        <source>Device does not support images capture.</source>
-        <translation>მოწყობილობას სურათის გადაღების მხარდაჭერა არ გააჩნია.</translation>
-    </message>
-</context>
-<context>
-    <name>QDeclarativeAudio</name>
-    <message>
-        <source>volume should be between 0.0 and 1.0</source>
-        <translation>ხმის სიძლიერე 0.1-1.0 შუალედში უნდა იყოს</translation>
-    </message>
-</context>
-<context>
-    <name>QGstreamerAudioDecoderSession</name>
-    <message>
-        <source>Cannot play stream of type: &lt;unknown&gt;</source>
-        <translation>ვერ დავუკრავ ნაკადს ტიპით: &lt;უცნობი&gt;</translation>
-    </message>
-</context>
-<context>
-    <name>QGstreamerAudioInputSelector</name>
-    <message>
-        <source>System default device</source>
-        <translation>სისტემის ნაგულიხმევი მოწყობილობა</translation>
-    </message>
-</context>
-<context>
-    <name>QGstreamerCameraControl</name>
-    <message>
-        <source>State not supported.</source>
-        <translation>მდგომარეობა მხარდაჭერილი არაა.</translation>
-    </message>
-</context>
-<context>
-    <name>QGstreamerCaptureSession</name>
-    <message>
-        <source>Could not create an audio source element</source>
-        <translation>აუდიოს წყაროს ელემენტის შექმნა შეუძლებელია</translation>
-    </message>
-    <message>
-        <source>Failed to build media capture pipeline.</source>
-        <translation>მედიის გადაღების ფაიფლაინის აგება ჩავარდა.</translation>
-    </message>
-</context>
-<context>
-    <name>QGstreamerImageCaptureControl</name>
-    <message>
-        <source>Not ready to capture</source>
-        <translation>გადასაღებად მზად არ ვარ</translation>
-    </message>
-</context>
-<context>
-    <name>QGstreamerImageEncode</name>
-    <message>
-        <source>JPEG image encoder</source>
-        <translation>JPEG გამოსახულების ენკოდერი</translation>
-    </message>
-</context>
-<context>
-    <name>QGstreamerPlayerControl</name>
-    <message>
-        <source>Attempting to play invalid user stream</source>
-        <translation>ვცდილობ, დავუკრა არასწორი მომხმარებლის ნაკადი</translation>
-    </message>
-</context>
-<context>
-    <name>QGstreamerPlayerSession</name>
-    <message>
-        <source>Cannot play stream of type: &lt;unknown&gt;</source>
-        <translation>ვერ დავუკრავ ნაკადს ტიპით: &lt;უცნობი&gt;</translation>
-    </message>
-    <message>
-        <source>UDP source timeout</source>
-        <translation>UDP წყაროს მოლოდინის ვადა ამოიწურა</translation>
-    </message>
-</context>
-<context>
-    <name>QGstreamerRecorderControl</name>
-    <message>
-        <source>Service has not been started</source>
-        <translation>სერვისი გაშვებული არაა</translation>
-    </message>
-    <message>
-        <source>Not compatible codecs and container format.</source>
-        <translation>თავსებადი კოდეკებისა და კონტეინერის ფორმატის გარეშე.</translation>
-    </message>
-</context>
-<context>
-    <name>QGstreamerVideoInputDeviceControl</name>
-    <message>
-        <source>Main camera</source>
-        <translation>მთავარი კამერა</translation>
-    </message>
-    <message>
-        <source>Front camera</source>
-        <translation>წინა კამერა</translation>
+        <source>QAudioDecoder not supported.</source>
+        <translation>QAudioDecoder მხარდაჭერილი არაა.</translation>
     </message>
 </context>
 <context>
@@ -398,103 +153,378 @@
         <translation>ვცდილობ, დავუკრა არასწორი Qt რესურსი</translation>
     </message>
     <message>
-        <source>The QMediaPlayer object does not have a valid service</source>
-        <translation>ობიექტს QMediaPlayer სწორი სერვისი არ აქვს</translation>
+        <source>Could not open file</source>
+        <translation>ფაილის გახსნის შეცდომა</translation>
+    </message>
+    <message>
+        <source>Could not find stream information for media file</source>
+        <translation>შეუძლებელია ნაკადის ინფორმაციის მოძებნა მედიის ფაილისთვის</translation>
     </message>
 </context>
 <context>
-    <name>QMediaPlaylist</name>
+    <name>QImageCapture</name>
     <message>
-        <source>Could not add items to read only playlist.</source>
-        <translation>მხოლოდ-კითხვად დასაკრავ სიაში ელემენტებს ვერ ჩაამატებთ.</translation>
+        <source>Camera is not ready.</source>
+        <translation>კამერა მზად არაა.</translation>
     </message>
     <message>
-        <source>Playlist format is not supported</source>
-        <translation>დასაკრავი სიის ფაილის ფორმატი მხარდაჭერილი არაა</translation>
+        <source>Could not capture in stopped state</source>
+        <translation>გაჩერებულ მდგომარეობაში ჩაწერა შეუძლებელია</translation>
     </message>
     <message>
-        <source>The file could not be accessed.</source>
-        <translation>ფაილთან წვდომა აკრძალულია.</translation>
-    </message>
-    <message>
-        <source>Playlist format is not supported.</source>
-        <translation>დასაკრავი სიის ფორმატი მხარდაჭერილი არაა.</translation>
+        <source>No instance of QImageCapture set on QMediaCaptureSession.</source>
+        <translation>QMediaCaptureSession-ზე QImageCapture-ის გაშვებული ასლი დაყენებული არაა.</translation>
     </message>
 </context>
 <context>
-    <name>QMultimediaDeclarativeModule</name>
+    <name>AVFAudioDecoder</name>
     <message>
-        <source>CameraCapture is provided by Camera</source>
-        <translation>CameraCapture მოწოდებულია კამერის მიერ</translation>
+        <source>Unable to read from specified device</source>
+        <translation>მითითებული მოწყობილობიდან წაკითხვა შეუძლებელია</translation>
     </message>
     <message>
-        <source>CameraRecorder is provided by Camera</source>
-        <translation>CameraRecorder მოწოდებულია კამერის მიერ</translation>
+        <source>Could not load media source&apos;s tracks</source>
+        <translation>მედიის წყაროს ტრეკების ჩატვირთვა შეუძლებელია</translation>
     </message>
     <message>
-        <source>CameraExposure is provided by Camera</source>
-        <translation>CameraExposure მოწოდებულია კამერის მიერ</translation>
+        <source>No audio tracks found</source>
+        <translation>აუდიოტრეკები აღმოჩენილი არაა</translation>
     </message>
     <message>
-        <source>CameraFocus is provided by Camera</source>
-        <translation>CameraFocus მოწოდებულია კამერის მიერ</translation>
+        <source>Unsupported source format</source>
+        <translation>მხარდაუჭერელი წყაროს ფორმატი</translation>
     </message>
     <message>
-        <source>CameraFlash is provided by Camera</source>
-        <translation>CameraFlash მოწოდებულია კამერის მიერ</translation>
+        <source>Failed to add asset reader output</source>
+        <translation>ობიექტის წამკითხავის გამოტანის დამატება ჩავარდა</translation>
     </message>
     <message>
-        <source>CameraImageProcessing is provided by Camera</source>
-        <translation>CameraImageProcessing მოწოდებულია კამერის მიერ</translation>
-    </message>
-    <message>
-        <source>CameraViewfinder is provided by Camera</source>
-        <translation>CameraViewfinder მოწოდებულია კამერის მიერ</translation>
+        <source>Could not start reading</source>
+        <translation>წაკითხვის დაწყება შეუძლებელია</translation>
     </message>
 </context>
 <context>
-    <name>QPlaylistFileParser</name>
+    <name>AVFCameraSession</name>
     <message>
-        <source>%1 playlist type is unknown</source>
-        <translation>დასაკრავი სიის ფორმატი %1 უცნობია</translation>
-    </message>
-    <message>
-        <source>invalid line in playlist file</source>
-        <translation>არასწორი ხაზი დასაკრავი სიის ფაილში</translation>
-    </message>
-    <message>
-        <source>Invalid stream</source>
-        <translation>არასწორი ნაკადი</translation>
-    </message>
-    <message>
-        <source>Empty file provided</source>
-        <translation>მითითებული ფაილი ცარიელია</translation>
-    </message>
-    <message>
-        <source>%1 does not exist</source>
-        <translation>%1 არ არსებობს</translation>
+        <source>Runtime camera error</source>
+        <translation>კამერის შეცდომა გამოყენებისას</translation>
     </message>
 </context>
 <context>
-    <name>QWinRTCameraImageCaptureControl</name>
+    <name>AVFImageCapture</name>
     <message>
-        <source>Camera not ready</source>
-        <translation>კამერა მზად არაა</translation>
-    </message>
-    <message>
-        <source>Invalid photo data length.</source>
-        <translation>სურათის მონაცემების არასწორი სიგრძე.</translation>
-    </message>
-    <message>
-        <source>Image saving failed</source>
-        <translation>გამოსახულების შენახვა ჩავარდა</translation>
+        <source>Could not open destination file:
+%1</source>
+        <translation>ვერ გავხსენი სამიზნე ფაილი;
+%1</translation>
     </message>
 </context>
 <context>
-    <name>QWinRTImageEncoderControl</name>
+    <name>AVFMediaEncoder</name>
     <message>
-        <source>JPEG image</source>
-        <translation>JPEG გამოსახულება</translation>
+        <source>No inputs specified</source>
+        <translation>შეყვანები მითითებული არაა</translation>
+    </message>
+    <message>
+        <source>Invalid output file URL</source>
+        <translation>არასწორი გამოტანის ფაილის URL</translation>
+    </message>
+    <message>
+        <source>Non-writeable file location</source>
+        <translation>არაჩაწერადი ფაილის მდებარეობა</translation>
+    </message>
+    <message>
+        <source>File already exists</source>
+        <translation>ფაილი უკვე არსებობს</translation>
+    </message>
+</context>
+<context>
+    <name>AVFMediaPlayer</name>
+    <message>
+        <source>Failed to load media</source>
+        <translation>მედიის ჩატვირთვის შეცდომა</translation>
+    </message>
+</context>
+<context>
+    <name>QGstreamerAudioDecoder</name>
+    <message>
+        <source>Cannot play stream of type: &lt;unknown&gt;</source>
+        <translation>ვერ დავუკრავ ნაკადს ტიპით: &lt;უცნობი&gt;</translation>
+    </message>
+</context>
+<context>
+    <name>QGstreamerMediaPlayer</name>
+    <message>
+        <source>Cannot play stream of type: &lt;unknown&gt;</source>
+        <translation>ვერ დავუკრავ ნაკადს ტიპით: &lt;უცნობი&gt;</translation>
+    </message>
+</context>
+<context>
+    <name>QGstreamerImageCapture</name>
+    <message>
+        <source>No camera available.</source>
+        <translation>კამერა მიუწვდომელია.</translation>
+    </message>
+</context>
+<context>
+    <name>QWindowsMediaEncoder</name>
+    <message>
+        <source>Failed to resume recording</source>
+        <translation>ჩაწერის გაგრძელება ჩავარდა</translation>
+    </message>
+    <message>
+        <source>Failed to pause recording</source>
+        <translation>ჩაწერის შეჩერება ჩავარდა</translation>
+    </message>
+    <message>
+        <source>Camera is no longer present</source>
+        <translation>კამერა მიერთებული აღარაა</translation>
+    </message>
+    <message>
+        <source>Streaming error</source>
+        <translation>სტრიმინგის შეცდომა</translation>
+    </message>
+    <message>
+        <source>Audio input is no longer present</source>
+        <translation>ხმის შეყვანა აღარ არსებობს</translation>
+    </message>
+    <message>
+        <source>Recording error</source>
+        <translation>ჩაწერის შეცდომა</translation>
+    </message>
+</context>
+<context>
+    <name>QMediaRecorder</name>
+    <message>
+        <source>Output location not writable</source>
+        <translation>გამოტანის მდებარეობა ჩაწერადი არაა</translation>
+    </message>
+    <message>
+        <source>Failed to start recording</source>
+        <translation>ჩაწერის დაწყების შეცდომა</translation>
+    </message>
+    <message>
+        <source>Pause not supported</source>
+        <translation>შეჩერება მხარდაჭერილი არაა</translation>
+    </message>
+    <message>
+        <source>Resume not supported</source>
+        <translation>გაგრძელება მხარდაჭერილი არაა</translation>
+    </message>
+    <message>
+        <source>No camera or audio input</source>
+        <translation>კამერის ან ხმის შეყვანის გარეშე</translation>
+    </message>
+    <message>
+        <source>No video or audio input</source>
+        <translation>ვიდეო ან აუდიო შეყვანის გარეშე</translation>
+    </message>
+</context>
+<context>
+    <name>QMediaMetaData</name>
+    <message>
+        <source>Title</source>
+        <translation>სათაური</translation>
+    </message>
+    <message>
+        <source>Author</source>
+        <translation>ავტორი</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>კომენტარი</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>აღწერა</translation>
+    </message>
+    <message>
+        <source>Genre</source>
+        <translation>ჟანრი</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>თარიღი</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ენა</translation>
+    </message>
+    <message>
+        <source>Publisher</source>
+        <translation>გამომცემელი</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>საავტორო უფლებები</translation>
+    </message>
+    <message>
+        <source>Url</source>
+        <translation>Url</translation>
+    </message>
+    <message>
+        <source>Duration</source>
+        <translation>ხანგრძლოვობა</translation>
+    </message>
+    <message>
+        <source>Media type</source>
+        <translation>მედიის ტიპი</translation>
+    </message>
+    <message>
+        <source>Container Format</source>
+        <translation>კონტეინერის ფორმატი</translation>
+    </message>
+    <message>
+        <source>Audio bit rate</source>
+        <translation>აუდიოს ბიტური სიჩქარე</translation>
+    </message>
+    <message>
+        <source>Audio codec</source>
+        <translation>აუდიო კოდეკი</translation>
+    </message>
+    <message>
+        <source>Video bit rate</source>
+        <translation>ვიდეოს ბიტური სიჩქარე</translation>
+    </message>
+    <message>
+        <source>Video codec</source>
+        <translation>ვიდეო კოდეკი</translation>
+    </message>
+    <message>
+        <source>Video frame rate</source>
+        <translation>ვიდეოს კადრების სიხშირე</translation>
+    </message>
+    <message>
+        <source>Album title</source>
+        <translation>ალბომის სახელი</translation>
+    </message>
+    <message>
+        <source>Album artist</source>
+        <translation>ალბომის შემსრულებელი</translation>
+    </message>
+    <message>
+        <source>Contributing artist</source>
+        <translation>მოხალისე შემსრულებელი</translation>
+    </message>
+    <message>
+        <source>Track number</source>
+        <translation>აუდიობილიკის ნომერი</translation>
+    </message>
+    <message>
+        <source>Composer</source>
+        <translation>კომპოზიტორი</translation>
+    </message>
+    <message>
+        <source>Thumbnail image</source>
+        <translation>მინიატურის გამოსახულება</translation>
+    </message>
+    <message>
+        <source>Cover art image</source>
+        <translation>ყდის სურათი</translation>
+    </message>
+    <message>
+        <source>Orientation</source>
+        <translation>ორიენტაცია</translation>
+    </message>
+    <message>
+        <source>Resolution</source>
+        <translation>გაფართოება</translation>
+    </message>
+    <message>
+        <source>Lead performer</source>
+        <translation>სოლისტი</translation>
+    </message>
+</context>
+<context>
+    <name>Decoder</name>
+    <message>
+        <source>Cannot set source, invalid mime type for the source provided.</source>
+        <translation>წყაროს დაყენება შეუძლებელია, რადგან მითითებული mime ტიპი არასწორია.</translation>
+    </message>
+    <message>
+        <source>Cannot open the file</source>
+        <translation>ფაილის გახსნა შეუძლებელია</translation>
+    </message>
+    <message>
+        <source>Invalid fileDescriptor for source.</source>
+        <translation>არასწორი fileDescriptor წყაროსთვის.</translation>
+    </message>
+    <message>
+        <source>Setting source for Audio Decoder failed.</source>
+        <translation>აუდიოდეკოდერისთვის წყაროს დაყენება ჩავარდა.</translation>
+    </message>
+    <message>
+        <source>Format not supported by Audio Decoder.</source>
+        <translation>ფორმატი მხარდაუჭერელია აუდიოდეკოდერის მიერ.</translation>
+    </message>
+    <message>
+        <source>Cannot decode, source not set.</source>
+        <translation>დეკოდირება შეუძლებელია, რადგან წყარო დაყენებული არაა.</translation>
+    </message>
+    <message>
+        <source>Audio Decoder could not be created.</source>
+        <translation>აუდიოდეკოდერის შექმნა შეუძლებელია.</translation>
+    </message>
+    <message>
+        <source>Audio Decoder failed configuration.</source>
+        <translation>აუდიოდეკოდერის კონფიგურაცია ჩავარდა.</translation>
+    </message>
+    <message>
+        <source>Audio Decoder failed to start.</source>
+        <translation>აუდიოდეკოდერის გაშვება ჩავარდა.</translation>
+    </message>
+</context>
+<context>
+    <name>MFAudioDecoderControl</name>
+    <message>
+        <source>Unsupported media type</source>
+        <translation>მხარდაუჭერელი მედიის ტიპი</translation>
+    </message>
+    <message>
+        <source>Media not found</source>
+        <translation>მედია ვერ მოიძებნა</translation>
+    </message>
+    <message>
+        <source>Unable to load specified URL</source>
+        <translation>მითითებული URL-ის ჩატვირთვა შეუძლებელია</translation>
+    </message>
+    <message>
+        <source>Could not instantiate MFDecoderSourceReader</source>
+        <translation>MFDecoderSourceReader-ის წარმოდგენა შეუძლებელია</translation>
+    </message>
+    <message>
+        <source>Invalid media format</source>
+        <translation>არასწორი მედიის ფორმატი</translation>
+    </message>
+    <message>
+        <source>Unable to read from specified device</source>
+        <translation>მითითებული მოწყობილობიდან წაკითხვა შეუძლებელია</translation>
+    </message>
+    <message>
+        <source>No media source specified</source>
+        <translation>მედიის წყარო მითითებული არაა</translation>
+    </message>
+    <message>
+        <source>Failed processing a sample</source>
+        <translation>სემპლის დამუშავება ჩავარდა</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidAudioDecoder</name>
+    <message>
+        <source>Error opening temporary file: %1</source>
+        <translation>გახსნის შეცდომა დროებითი ფაილისთვის: %1</translation>
+    </message>
+    <message>
+        <source>Error while writing data to temporary file</source>
+        <translation>შეცდომა დროებით ფაილში მონაცემების ჩაწერისას</translation>
+    </message>
+</context>
+<context>
+    <name>QFFmpegImageCapture</name>
+    <message>
+        <source>No camera available.</source>
+        <translation>კამერა მიუწვდომელია.</translation>
     </message>
 </context>
 </TS>

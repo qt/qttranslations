@@ -71,17 +71,6 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     </message>
 </context>
 <context>
-    <name>QDeclarativeNavigator</name>
-    <message>
-        <source>Plugin does not support navigation.</source>
-        <translation>დამატებას ნავიგაციის მხარდაჭერა არ გააჩნია.</translation>
-    </message>
-    <message>
-        <source>Failed to create a navigator object.</source>
-        <translation>ობიექტის navigator შექმნა ჩავარდა.</translation>
-    </message>
-</context>
-<context>
     <name>QGeoCodeReplyMapbox</name>
     <message>
         <source>Response parse error</source>
@@ -1400,9 +1389,9 @@ Please visit https://www.mapbox.com</source>
 <context>
     <name>QtLocationQML</name>
     <message>
-        <source>Qt Location requires app_id and token parameters.
+        <source>Qt Location requires apiKey parameter.
 Please register at https://developer.here.com/ to get your personal application credentials.</source>
-        <translation>Qt Location-ს app_id და token პარამეტრები სჭირდება.
+        <translation>Qt Location-ს apiKey პარამეტრი სჭირდება.
 თქვენი პირადი ავტორიზაციის დეტალების მისაღებად, https://developer.here.com/ -ზე დარეგისტრირდით.</translation>
     </message>
     <message>

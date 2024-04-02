@@ -11,6 +11,29 @@
 <context>
     <name>BatchTranslationDialog</name>
     <message>
+        <source>Batch Translation of &apos;%1&apos; - Qt Linguist</source>
+        <translation>&apos;%1&apos;-ის სერიული თარგმანი - Qt Linguist</translation>
+    </message>
+    <message>
+        <source>Searching, please wait...</source>
+        <translation>მიმდინარეობს ძებნა. მოითმინეთ...</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>გაუ&amp;ქმება</translation>
+    </message>
+    <message>
+        <source>Linguist batch translator</source>
+        <translation>Linguist-ის სერიული მთარგმნელი</translation>
+    </message>
+    <message numerus="yes">
+        <source>Batch translated %n entries</source>
+        <translation>
+            <numerusform>სერიულად ნათარგმნია %n ჩანაწერი</numerusform>
+            <numerusform>სერიულად ნათარგმნია %n ჩანაწერი</numerusform>
+        </translation>
+    </message>
+    <message>
         <source>Qt Linguist - Batch Translation</source>
         <translation>Qt Linguist - სერიული თარგმანი</translation>
     </message>
@@ -49,29 +72,6 @@
     <message>
         <source>Cancel</source>
         <translation>გაუქმება</translation>
-    </message>
-    <message>
-        <source>Batch Translation of &apos;%1&apos; - Qt Linguist</source>
-        <translation>&apos;%1&apos;-ის სერიული თარგმანი - Qt Linguist</translation>
-    </message>
-    <message>
-        <source>Searching, please wait...</source>
-        <translation>მიმდინარეობს ძებნა. მოითმინეთ...</translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation>&amp;შეწყვეტა</translation>
-    </message>
-    <message>
-        <source>Linguist batch translator</source>
-        <translation>Linguist-ის სერიული მთარგმნელი</translation>
-    </message>
-    <message numerus="yes">
-        <source>Batch translated %n entries</source>
-        <translation>
-            <numerusform>სერიულად ნათარგმნია %n ჩანაწერი</numerusform>
-            <numerusform>სერიულად ნათარგმნია %n ჩანაწერი</numerusform>
-        </translation>
     </message>
     <message>
         <source>Note that the modified entries will be reset to unfinished if &apos;Set translated entries to finished&apos; above is unchecked</source>
@@ -120,7 +120,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>%1 (%2)</source>
-        <extracomment>&lt;language&gt; (&lt;country&gt;)</extracomment>
+        <extracomment>&lt;language&gt; (&lt;territory&gt;)</extracomment>
         <translation>%1 (%2)</translation>
     </message>
     <message>
@@ -164,45 +164,10 @@ Will assume a single universal form.</source>
     </message>
 </context>
 <context>
-    <name>FMT</name>
-    <message>
-        <source>GNU Gettext localization files</source>
-        <translation>GNU Gettext-ის ლოკალიზაციის ფაილები</translation>
-    </message>
-    <message>
-        <source>GNU Gettext localization template files</source>
-        <translation>GNU Gettext-ის ლოკალიზაციის ნიმუშის ფაილები</translation>
-    </message>
-    <message>
-        <source>Compiled Qt translations</source>
-        <translation>დაკომპილირებული Qt თარგმანები</translation>
-    </message>
-    <message>
-        <source>Qt Linguist &apos;Phrase Book&apos;</source>
-        <translation>Qt Linguist-ის &apos;ფრაზების წიგნი&apos;</translation>
-    </message>
-    <message>
-        <source>Qt translation sources</source>
-        <translation>Qt თარგმანის წყაროები</translation>
-    </message>
-    <message>
-        <source>XLIFF localization files</source>
-        <translation>XLIFF ლოკალიზაციის ფაილები</translation>
-    </message>
-</context>
-<context>
     <name>FindDialog</name>
-    <message>
-        <source>Find</source>
-        <translation>მოძებნა</translation>
-    </message>
     <message>
         <source>This window allows you to search for some text in the translation source file.</source>
         <translation>ეს ფანჯარა საშუალებას გაძლევთ, თარგმანის წყაროს ფაილში ტექსტი მოძებნოთ.</translation>
-    </message>
-    <message>
-        <source>&amp;Find what:</source>
-        <translation>&amp;რა მოვძებნო:</translation>
     </message>
     <message>
         <source>Type in the text to search for.</source>
@@ -217,28 +182,36 @@ Will assume a single universal form.</source>
         <translation>როცა ჩართულია, იძებნება საწყისი ტექსტებშიც.</translation>
     </message>
     <message>
-        <source>&amp;Source texts</source>
-        <translation>წყაროს &amp;ტექსტები</translation>
-    </message>
-    <message>
         <source>Translations are searched when checked.</source>
         <translation>როცა ჩართულია, იძებნება თარგმანებშიც.</translation>
-    </message>
-    <message>
-        <source>&amp;Translations</source>
-        <translation>&amp;თარგმანები</translation>
     </message>
     <message>
         <source>Texts such as &apos;TeX&apos; and &apos;tex&apos; are considered as different when checked.</source>
         <translation>ტექსტი, როგორიცაა &apos;TeX&apos; და &apos;tex&apos; განიხილება, როგორც სხვადასხვა, თუ ეს ჩართულია.</translation>
     </message>
     <message>
-        <source>&amp;Match case</source>
-        <translation>&amp;დიდი და პატარა ასოების სხვაობა</translation>
-    </message>
-    <message>
         <source>Comments and contexts are searched when checked.</source>
         <translation>თუ ჩართულია, ძებნა კომენტარებში და კონტექსტშიც მოხდება.</translation>
+    </message>
+    <message>
+        <source>Find</source>
+        <translation>მოძებნა</translation>
+    </message>
+    <message>
+        <source>&amp;Find what:</source>
+        <translation>&amp;რა მოვძებნო:</translation>
+    </message>
+    <message>
+        <source>&amp;Source texts</source>
+        <translation>წყაროს &amp;ტექსტები</translation>
+    </message>
+    <message>
+        <source>&amp;Translations</source>
+        <translation>&amp;თარგმანები</translation>
+    </message>
+    <message>
+        <source>&amp;Match case</source>
+        <translation>&amp;დიდი და პატარა ასოების სხვაობა</translation>
     </message>
     <message>
         <source>&amp;Comments</source>
@@ -280,6 +253,26 @@ Will assume a single universal form.</source>
         <source>Regular &amp;expression</source>
         <translation>&amp;რეგულარული გამოსახულება</translation>
     </message>
+    <message>
+        <source>T&amp;ranslation status:</source>
+        <translation>&amp;თარგმანის სტატუსი:</translation>
+    </message>
+    <message>
+        <source>Lets you filter the search target by translation status</source>
+        <translation>საშუალებას გაძლევთ, გაფილტროთ ძებნის სამიზნე თარგმნის სტატუსის მიხედვით</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ყველა</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>დასრულებულია</translation>
+    </message>
+    <message>
+        <source>Unfinished</source>
+        <translation>დაუსრულებელი</translation>
+    </message>
 </context>
 <context>
     <name>FormMultiWidget</name>
@@ -308,431 +301,7 @@ Will assume a single universal form.</source>
     </message>
 </context>
 <context>
-    <name>LRelease</name>
-    <message numerus="yes">
-        <source>Dropped %n message(s) which had no ID.</source>
-        <translation>
-            <numerusform>მოცილებულია %n შეტყობინება, რომელსაც ID არ ჰქონდა.</numerusform>
-            <numerusform>მოცილებულია %n შეტყობინება, რომელსაც ID არ ჰქონდა.</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <source>Excess context/disambiguation dropped from %n message(s).</source>
-        <translation>
-            <numerusform>ზედმეტი კონტექსტი/გაურკვევლობა მოცილებულია %n შეტყობინებიდან.</numerusform>
-            <numerusform>ზედმეტი კონტექსტი/გაურკვევლობა მოცილებულია %n შეტყობინებიდან.</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <source>    Generated %n translation(s) (%1 finished and %2 unfinished)</source>
-        <translation>
-            <numerusform>    შექმნილია %n თარგმანი (%1 დასრულებული და %2 დაუსრულებელი)</numerusform>
-            <numerusform>    შექმნილია %n თარგმანი (%1 დასრულებული და %2 დაუსრულებელი)</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <source>    Ignored %n untranslated source text(s)</source>
-        <translation>
-            <numerusform>    გამოტოვებულია %n უთარგმნელი წყარო ტექსტი</numerusform>
-            <numerusform>    გამოტოვებულია %n უთარგმნელი წყარო ტექსტი</numerusform>
-        </translation>
-    </message>
-</context>
-<context>
     <name>MainWindow</name>
-    <message>
-        <source>Source text</source>
-        <translation>წყაროს ტექსტი</translation>
-    </message>
-    <message>
-        <source>Index</source>
-        <translation>ინდექსი</translation>
-    </message>
-    <message>
-        <source>Context</source>
-        <translation>კონტექსტი</translation>
-    </message>
-    <message>
-        <source>Items</source>
-        <translation>ელემენტები</translation>
-    </message>
-    <message>
-        <source>This panel lists the source contexts.</source>
-        <translation>ეს პანელი წყაროს კონტექსტების სიას შეიცავს.</translation>
-    </message>
-    <message>
-        <source>Strings</source>
-        <translation>სტრიქონები</translation>
-    </message>
-    <message>
-        <source>Phrases and guesses</source>
-        <translation>ფრაზები და მსგავსებები</translation>
-    </message>
-    <message>
-        <source>Sources and Forms</source>
-        <translation>წყაროები და ფორმები</translation>
-    </message>
-    <message>
-        <source>Warnings</source>
-        <translation>გაფრთხილებები</translation>
-    </message>
-    <message>
-        <source> MOD </source>
-        <comment>status bar: file(s) modified</comment>
-        <translation> შეცვლ </translation>
-    </message>
-    <message>
-        <source>Loading...</source>
-        <translation>იტვირთება...</translation>
-    </message>
-    <message>
-        <source>Loading File - Qt Linguist</source>
-        <translation>ფაილის ჩატვირთვა - Qt Linguist</translation>
-    </message>
-    <message>
-        <source>The file &apos;%1&apos; does not seem to be related to the currently open file(s) &apos;%2&apos;.
-
-Close the open file(s) first?</source>
-        <translation>ფაილი &apos;%1&apos; არც ერთ ამჟამად ღია ფაილთან &apos;%2&apos; კავშირში არაა.
-
-დავხურო ჯერ ღია ფაილები?</translation>
-    </message>
-    <message>
-        <source>The file &apos;%1&apos; does not seem to be related to the file &apos;%2&apos; which is being loaded as well.
-
-Skip loading the first named file?</source>
-        <translation>ფაილი &apos;%1&apos; ფაილთან &apos;%2&apos; კავშირში არაა, მაგრამ ისიც იტვირთება.
-
-გამოვტოვო პირველი ფაილის ჩატვირთვა?</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n translation unit(s) loaded.</source>
-        <translation>
-            <numerusform>ჩატვირთულია %n თარგმანის ერთეული.</numerusform>
-            <numerusform>ჩატვირთულია %n თარგმანის ერთეული.</numerusform>
-        </translation>
-    </message>
-    <message>
-        <source>Related files (%1);;</source>
-        <translation>მსგავსი ფაილი (%1);;</translation>
-    </message>
-    <message>
-        <source>Open Translation Files</source>
-        <translation>თარგმანის ფაილების გახსნა</translation>
-    </message>
-    <message>
-        <source>File saved.</source>
-        <translation>ფაილი შენახულია.</translation>
-    </message>
-    <message>
-        <source>Release</source>
-        <translation>გამოცემა</translation>
-    </message>
-    <message>
-        <source>Qt message files for released applications (*.qm)
-All files (*)</source>
-        <translation>Qt შეტყობინების ფაილები გამოცემული აპლიკაციებისთვის (*.qm)
-ყველა ფაილი (*)</translation>
-    </message>
-    <message>
-        <source>File created.</source>
-        <translation>ფაილი შეიქმნა.</translation>
-    </message>
-    <message>
-        <source>Printing...</source>
-        <translation>დაბეჭდვა...</translation>
-    </message>
-    <message>
-        <source>Context: %1</source>
-        <translation>კონტექსტი: %1</translation>
-    </message>
-    <message>
-        <source>finished</source>
-        <translation>დასრულებული</translation>
-    </message>
-    <message>
-        <source>unresolved</source>
-        <translation>მოუგვარებელი</translation>
-    </message>
-    <message>
-        <source>obsolete</source>
-        <translation>მოძველებული</translation>
-    </message>
-    <message>
-        <source>Printing... (page %1)</source>
-        <translation>იბეჭდება... (გვერდი %1)</translation>
-    </message>
-    <message>
-        <source>Printing completed</source>
-        <translation>დაბეჭდვა დასრულდა</translation>
-    </message>
-    <message>
-        <source>Printing aborted</source>
-        <translation>დაბეჭდვა გაუქმდა</translation>
-    </message>
-    <message>
-        <source>Search wrapped.</source>
-        <translation>ძებნა დასაწყისიდან.</translation>
-    </message>
-    <message>
-        <source>Qt Linguist</source>
-        <translation>Qt Linguist</translation>
-    </message>
-    <message>
-        <source>Cannot find the string &apos;%1&apos;.</source>
-        <translation>ვერ ვიპოვე სტრიქონი &apos;%1&apos;.</translation>
-    </message>
-    <message>
-        <source>Search And Translate in &apos;%1&apos; - Qt Linguist</source>
-        <translation>ძებნა და თარგმანი &apos;%1&apos;-ში - Qt Linguist</translation>
-    </message>
-    <message>
-        <source>Translate - Qt Linguist</source>
-        <translation>თარგმანი - Qt Linguist</translation>
-    </message>
-    <message numerus="yes">
-        <source>Translated %n entry(s)</source>
-        <translation>
-            <numerusform>ნათარგმნია %n ჩანაწერი</numerusform>
-            <numerusform>ნათარგმნია %n ჩანაწერი</numerusform>
-        </translation>
-    </message>
-    <message>
-        <source>No more occurrences of &apos;%1&apos;. Start over?</source>
-        <translation>&apos;%1&apos; მეტჯერ აღარ ჩანს. დავიწყო თავიდან?</translation>
-    </message>
-    <message>
-        <source>Create New Phrase Book</source>
-        <translation>ახალი ფრაზების წიგნის შექმნა</translation>
-    </message>
-    <message>
-        <source>Qt phrase books (*.qph)
-All files (*)</source>
-        <translation>Qt ფრაზის წიგნები (*.qph)
-ყველა ფაილი (*)</translation>
-    </message>
-    <message>
-        <source>Phrase book created.</source>
-        <translation>ფრაზების წიგნი შეიქმნა.</translation>
-    </message>
-    <message>
-        <source>Open Phrase Book</source>
-        <translation>ფრაზების წიგნის გახსნა</translation>
-    </message>
-    <message>
-        <source>Qt phrase books (*.qph);;All files (*)</source>
-        <translation>Qt ფრაზის წიგნები (*.qph);;ყველა ფაილი (*)</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n phrase(s) loaded.</source>
-        <translation>
-            <numerusform>ჩაიტვირთა %n ფრაზა.</numerusform>
-            <numerusform>ჩაიტვირთა %n ფრაზა.</numerusform>
-        </translation>
-    </message>
-    <message>
-        <source>Add to phrase book</source>
-        <translation>ფრაზების წიგნში ჩამატება</translation>
-    </message>
-    <message>
-        <source>No appropriate phrasebook found.</source>
-        <translation>შესაბამისი ფრაზის წიგნები აღმოჩენილი არაა.</translation>
-    </message>
-    <message>
-        <source>Adding entry to phrasebook %1</source>
-        <translation>ჩანაწერის დამატება ფრაზების წიგნში %1</translation>
-    </message>
-    <message>
-        <source>Select phrase book to add to</source>
-        <translation>აირჩიეთ ფრაზების წიგნი, ჩასამატებლად</translation>
-    </message>
-    <message>
-        <source>Unable to launch Qt Assistant (%1)</source>
-        <translation>Qt Assistant-ის (%1) გაშვება შეუძლებელია</translation>
-    </message>
-    <message>
-        <source>Version %1</source>
-        <translation>ვერსია %1</translation>
-    </message>
-    <message>
-        <source>Qt Linguist is a tool for adding translations to Qt applications.</source>
-        <translation>Qt Linguist პროგრამაა Qt-ის აპლიკაციებისთვის თარგმანების დასამატებლად.</translation>
-    </message>
-    <message>
-        <source>Copyright (C) %1 The Qt Company Ltd.</source>
-        <translation>ყველა უფლება დაცულია (C) %1 The Qt Company Ltd.</translation>
-    </message>
-    <message>
-        <source>Do you want to save the modified files?</source>
-        <translation>გნებავთ, შეინახოთ შეცვლლი ფაილები?</translation>
-    </message>
-    <message>
-        <source>Do you want to save &apos;%1&apos;?</source>
-        <translation>გნებავთ, შეინახოთ &apos;%1&apos;?</translation>
-    </message>
-    <message>
-        <source>Qt Linguist[*]</source>
-        <translation>Qt Linguist[*]</translation>
-    </message>
-    <message>
-        <source>%1[*] - Qt Linguist</source>
-        <translation>%1[*] - Qt Linguist</translation>
-    </message>
-    <message>
-        <source>No untranslated translation units left.</source>
-        <translation>უთარგმნელი სათარგმნი ერთეულები აღარ დარჩა.</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>&amp;ფანჯარა</translation>
-    </message>
-    <message>
-        <source>Minimize</source>
-        <translation>ჩაკეცვა</translation>
-    </message>
-    <message>
-        <source>Ctrl+M</source>
-        <translation>Ctrl+M</translation>
-    </message>
-    <message>
-        <source>Display the manual for %1.</source>
-        <translation>%1-ის სახელმძღვანელოს ჩვენება.</translation>
-    </message>
-    <message>
-        <source>Display information about %1.</source>
-        <translation>ინფორმაციის ჩვენება %1-ის შესახებ.</translation>
-    </message>
-    <message>
-        <source>&amp;Save &apos;%1&apos;</source>
-        <translation>&apos;%1&apos;-ი&amp;ს შენახვა</translation>
-    </message>
-    <message>
-        <source>Save &apos;%1&apos; &amp;As...</source>
-        <translation>&apos;%1&apos;-ის &amp;შენახვა, როგორც...</translation>
-    </message>
-    <message>
-        <source>Release &apos;%1&apos;</source>
-        <translation>&apos;%1&apos;-ის გამოცემა</translation>
-    </message>
-    <message>
-        <source>Release &apos;%1&apos; As...</source>
-        <translation>&apos;%1&apos;-ის გამოცემა, როგორც...</translation>
-    </message>
-    <message>
-        <source>&amp;Close &apos;%1&apos;</source>
-        <translation>%1-ის &amp;დახურვა</translation>
-    </message>
-    <message>
-        <source>&amp;Save</source>
-        <translation>&amp;შენახვა</translation>
-    </message>
-    <message>
-        <source>Save &amp;As...</source>
-        <translation>შეინახვა &amp;როგორც...</translation>
-    </message>
-    <message>
-        <source>Release As...</source>
-        <translation>გამოცემა, როგორც...</translation>
-    </message>
-    <message>
-        <source>&amp;Close</source>
-        <translation>დაკე&amp;ტვა</translation>
-    </message>
-    <message>
-        <source>Save All</source>
-        <translation>ყველას შენახვა</translation>
-    </message>
-    <message>
-        <source>&amp;Release All</source>
-        <translation>&amp;ყველას გამოცემა</translation>
-    </message>
-    <message>
-        <source>Close All</source>
-        <translation>ყველას დახურვა</translation>
-    </message>
-    <message>
-        <source>&amp;Release</source>
-        <translation>&amp;გათავისუფლება</translation>
-    </message>
-    <message>
-        <source>Translation File &amp;Settings for &apos;%1&apos;...</source>
-        <translation>თარგმანის ფაილი&amp;ს პარამეტრები &apos;%1&apos;-სთვის...</translation>
-    </message>
-    <message>
-        <source>&amp;Batch Translation of &apos;%1&apos;...</source>
-        <translation>&apos;%1&apos;-ის &amp;სერიული თარგმანი...</translation>
-    </message>
-    <message>
-        <source>Search And &amp;Translate in &apos;%1&apos;...</source>
-        <translation>ძებნა და &amp;თარგმანი &apos;%1&apos;-ში...</translation>
-    </message>
-    <message>
-        <source>Translation File &amp;Settings...</source>
-        <translation>თარგმანის ფაილი&amp;ს პარამეტრები...</translation>
-    </message>
-    <message>
-        <source>&amp;Batch Translation...</source>
-        <translation>&amp;სერიული თარგმნა...</translation>
-    </message>
-    <message>
-        <source>Search And &amp;Translate...</source>
-        <translation>ძებნა &amp;და თარგმნა...</translation>
-    </message>
-    <message>
-        <source>File</source>
-        <translation>ფაილი</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>ჩასწორება</translation>
-    </message>
-    <message>
-        <source>Translation</source>
-        <translation>თარგმანი</translation>
-    </message>
-    <message>
-        <source>Validation</source>
-        <translation>გადამოწმება</translation>
-    </message>
-    <message>
-        <source>Help</source>
-        <translation>დახმარება</translation>
-    </message>
-    <message>
-        <source>Cannot read from phrase book &apos;%1&apos;.</source>
-        <translation>ვერ წავიკითხე ფრაზების წიგნიდან &apos;%1&apos;.</translation>
-    </message>
-    <message>
-        <source>Close this phrase book.</source>
-        <translation>ამ ფრაზების წიგნის დახურვა.</translation>
-    </message>
-    <message>
-        <source>Enables you to add, modify, or delete entries in this phrase book.</source>
-        <translation>ეს ფანჯარა საშუალებას გაძლევთ დაამატოთ, შეცვალოთ ან წაშალოთ ჩანაწერები ამ ფრაზების წიგნში.</translation>
-    </message>
-    <message>
-        <source>Print the entries in this phrase book.</source>
-        <translation>ამ ფრაზის წიგნის ჩანაწერების დაბეჭდვა.</translation>
-    </message>
-    <message>
-        <source>Cannot create phrase book &apos;%1&apos;.</source>
-        <translation>ვერ შევქმენი ფრაზების წიგნი &apos;%1&apos;.</translation>
-    </message>
-    <message>
-        <source>Do you want to save phrase book &apos;%1&apos;?</source>
-        <translation>გნებავთ შეინახოთ ფრაზების წიგნი &apos;%1&apos;?</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n unfinished message(s) left.</source>
-        <translation>
-            <numerusform>დარჩენილია %n დაუსრულებელი შეტყობინება.</numerusform>
-            <numerusform>დარჩენილია %n დაუსრულებელი შეტყობინება.</numerusform>
-        </translation>
-    </message>
-    <message>
-        <source>All</source>
-        <translation>ყველა</translation>
-    </message>
     <message>
         <source>MainWindow</source>
         <translation>მთავარი ფანჯარა</translation>
@@ -782,10 +351,6 @@ All files (*)</source>
         <translation>&amp;ფაილი</translation>
     </message>
     <message>
-        <source>Recently Opened &amp;Files</source>
-        <translation>&amp;ახლახან გახსნილი ფაილები</translation>
-    </message>
-    <message>
         <source>&amp;Edit</source>
         <translation>&amp;ჩასწორება</translation>
     </message>
@@ -814,12 +379,52 @@ All files (*)</source>
         <translation>Ctrl+Q</translation>
     </message>
     <message>
-        <source>Save</source>
-        <translation>შენახვა</translation>
+        <source>&amp;Save</source>
+        <translation>&amp;შენახვა</translation>
     </message>
     <message>
         <source>Save changes made to this Qt translation source file</source>
         <translation>ამ Qt-ის თარგმანის წყაროს ფაილში შეტანილი ცვლილებების შენახვა</translation>
+    </message>
+    <message>
+        <source>Move to the previous unfinished item.</source>
+        <translation>გადასვლა წინა დაუსრულებელ ელემენტზე.</translation>
+    </message>
+    <message>
+        <source>Move to the next unfinished item.</source>
+        <translation>გადასვლა შემდეგ დაუსრულებელ ელემენტზე.</translation>
+    </message>
+    <message>
+        <source>Move to the previous item.</source>
+        <translation>გადასვლა წინა ელემენტზე.</translation>
+    </message>
+    <message>
+        <source>Move to the next item.</source>
+        <translation>გადასვლა შემდეგ ელემენტზე.</translation>
+    </message>
+    <message>
+        <source>Mark this item as done and move to the next unfinished item.</source>
+        <translation>ამ ელემენტი დასრულებულად მონიშვნა და შემდეგ დაუსრულებელ ელემენტზე გადასვლა.</translation>
+    </message>
+    <message>
+        <source>Copy from source text</source>
+        <translation>საწყისი ტექსტიდან კოპირება</translation>
+    </message>
+    <message>
+        <source>Open Read-O&amp;nly...</source>
+        <translation>გახს&amp;ნა მხოლოდ-წასაკითხად...</translation>
+    </message>
+    <message>
+        <source>&amp;Save All</source>
+        <translation>&amp;ყველას შენახვა</translation>
+    </message>
+    <message>
+        <source>Ctrl+S</source>
+        <translation>Ctrl+S</translation>
+    </message>
+    <message>
+        <source>Save &amp;As...</source>
+        <translation>შეინახვა &amp;როგორც...</translation>
     </message>
     <message>
         <source>Save As...</source>
@@ -830,6 +435,10 @@ All files (*)</source>
         <translation>ამ Qt-ის თარგმანის წყაროს ფაილში შეტანილი ცვლილებების შენახვა ახალ ფაილში.</translation>
     </message>
     <message>
+        <source>&amp;Release</source>
+        <translation>&amp;გათავისუფლება</translation>
+    </message>
+    <message>
         <source>Create a Qt message file suitable for released applications from the current message file.</source>
         <translation>მიმდინარე შეტყობინებების ფაილიდან გამოცემული აპლიკაციისთვის შესაფერისი Qt შეტყობინებების ფაილის შექმნა.</translation>
     </message>
@@ -838,16 +447,24 @@ All files (*)</source>
         <translation>&amp;ამობეჭდვა...</translation>
     </message>
     <message>
-        <source>Print a list of all the translation units in the current translation source file.</source>
-        <translation>მიმდინარე თარგმანის წყაროს ფაილში არსებული ყველა სათარგმნი ერთეულის ჩამონათვალის სიის დაბეჭდვა.</translation>
-    </message>
-    <message>
         <source>Ctrl+P</source>
         <translation>Ctrl+P</translation>
     </message>
     <message>
         <source>&amp;Undo</source>
-        <translation>დაბრ&amp;უნება</translation>
+        <translation>&amp;დაბრუნება</translation>
+    </message>
+    <message>
+        <source>Recently Opened &amp;Files</source>
+        <translation>&amp;ახლახან გახსნილი ფაილები</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>შენახვა</translation>
+    </message>
+    <message>
+        <source>Print a list of all the translation units in the current translation source file.</source>
+        <translation>მიმდინარე თარგმანის წყაროს ფაილში არსებული ყველა სათარგმნი ერთეულის ჩამონათვალის სიის დაბეჭდვა.</translation>
     </message>
     <message>
         <source>Undo the last editing operation performed on the current translation.</source>
@@ -859,7 +476,7 @@ All files (*)</source>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>&amp;თავიდან</translation>
+        <translation>&amp;გამეორება</translation>
     </message>
     <message>
         <source>Redo an undone editing operation performed on the translation.</source>
@@ -946,16 +563,16 @@ All files (*)</source>
         <translation>&amp;წინა დაუსრულებელი</translation>
     </message>
     <message>
-        <source>Create a Qt message file suitable for released applications from the current message file. The filename will automatically be determined from the name of the TS file.</source>
-        <translation>მიმდინარე შეტყობინებების ფაილიდან გამოცემული აპლიკაციისთვის შესაფერისი Qt-ის შეტყობინებების ფაილის შექმნა. ფაილის სახელი ავტომატურად დადგინდება TS ფაილის სახელიდან.</translation>
+        <source>Close</source>
+        <translation>დახურვა</translation>
     </message>
     <message>
-        <source>Length Variants</source>
-        <translation>სიგრძის ვარიანტები</translation>
+        <source>&amp;Close All</source>
+        <translation>ყველას &amp;დახურვა</translation>
     </message>
     <message>
-        <source>Move to the previous unfinished item.</source>
-        <translation>გადასვლა წინა დაუსრულებელ ელემენტზე.</translation>
+        <source>Ctrl+W</source>
+        <translation>Ctrl+W</translation>
     </message>
     <message>
         <source>Ctrl+K</source>
@@ -966,20 +583,8 @@ All files (*)</source>
         <translation>შ&amp;ემდეგი დაუსრულებელი</translation>
     </message>
     <message>
-        <source>Move to the next unfinished item.</source>
-        <translation>გადასვლა შემდეგ დაუსრულებელ ელემენტზე.</translation>
-    </message>
-    <message>
-        <source>Ctrl+J</source>
-        <translation>Ctrl+J</translation>
-    </message>
-    <message>
         <source>P&amp;rev</source>
         <translation>&amp;წინა</translation>
-    </message>
-    <message>
-        <source>Move to the previous item.</source>
-        <translation>გადასვლა წინა ელემენტზე.</translation>
     </message>
     <message>
         <source>Ctrl+Shift+K</source>
@@ -990,24 +595,8 @@ All files (*)</source>
         <translation>&amp;შემდეგი</translation>
     </message>
     <message>
-        <source>Move to the next item.</source>
-        <translation>გადასვლა შემდეგ ელემენტზე.</translation>
-    </message>
-    <message>
-        <source>Ctrl+Shift+J</source>
-        <translation>Ctrl+Shift+J</translation>
-    </message>
-    <message>
         <source>&amp;Done and Next</source>
         <translation>&amp;დასრულება და შემდეგი</translation>
-    </message>
-    <message>
-        <source>Mark this item as done and move to the next unfinished item.</source>
-        <translation>ამ ელემენტი დასრულებულად მონიშვნა და შემდეგ დაუსრულებელ ელემენტზე გადასვლა.</translation>
-    </message>
-    <message>
-        <source>Copy from source text</source>
-        <translation>საწყისი ტექსტიდან კოპირება</translation>
     </message>
     <message>
         <source>Copies the source text into the translation field.</source>
@@ -1122,8 +711,385 @@ All files (*)</source>
         <translation>ჩაანაცვლებს ყველა ჩანაწერის თარგმანს, რომელიც საძებნი წყაროს ტექსტს ემთხვევა.</translation>
     </message>
     <message>
+        <source>&amp;Batch Translation...</source>
+        <translation>&amp;სერიული თარგმნა...</translation>
+    </message>
+    <message>
         <source>Batch translate all entries using the information in the phrase books.</source>
         <translation>სერიული თარგმანი ყველა ჩანაწერისთვის ფრაზების წიგნში არსებული ინფორმაციის გამოყენებით.</translation>
+    </message>
+    <message>
+        <source>Release As...</source>
+        <translation>გამოცემა, როგორც...</translation>
+    </message>
+    <message>
+        <source>Source text</source>
+        <translation>წყაროს ტექსტი</translation>
+    </message>
+    <message>
+        <source>Index</source>
+        <translation>ინდექსი</translation>
+    </message>
+    <message>
+        <source>Context</source>
+        <translation>კონტექსტი</translation>
+    </message>
+    <message>
+        <source>Items</source>
+        <translation>ელემენტები</translation>
+    </message>
+    <message>
+        <source>This panel lists the source contexts.</source>
+        <translation>ეს პანელი წყაროს კონტექსტების სიას შეიცავს.</translation>
+    </message>
+    <message>
+        <source>Strings</source>
+        <translation>სტრიქონები</translation>
+    </message>
+    <message>
+        <source>Phrases and guesses</source>
+        <translation>ფრაზები და მსგავსებები</translation>
+    </message>
+    <message>
+        <source>Sources and Forms</source>
+        <translation>წყაროები და ფორმები</translation>
+    </message>
+    <message>
+        <source>Warnings</source>
+        <translation>გაფრთხილებები</translation>
+    </message>
+    <message>
+        <source> MOD </source>
+        <comment>status bar: file(s) modified</comment>
+        <translation> შეცვლ </translation>
+    </message>
+    <message>
+        <source>Loading...</source>
+        <translation>იტვირთება...</translation>
+    </message>
+    <message>
+        <source>Loading File - Qt Linguist</source>
+        <translation>ფაილის ჩატვირთვა - Qt Linguist</translation>
+    </message>
+    <message>
+        <source>The file &apos;%1&apos; does not seem to be related to the currently open file(s) &apos;%2&apos;.
+
+Close the open file(s) first?</source>
+        <translation>ფაილი &apos;%1&apos; არც ერთ ამჟამად ღია ფაილთან &apos;%2&apos; კავშირში არაა.
+
+დავხურო ჯერ ღია ფაილები?</translation>
+    </message>
+    <message>
+        <source>The file &apos;%1&apos; does not seem to be related to the file &apos;%2&apos; which is being loaded as well.
+
+Skip loading the first named file?</source>
+        <translation>ფაილი &apos;%1&apos; ფაილთან &apos;%2&apos; კავშირში არაა, მაგრამ ისიც იტვირთება.
+
+გამოვტოვო პირველი ფაილის ჩატვირთვა?</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n translation unit(s) loaded.</source>
+        <translation>
+            <numerusform>ჩატვირთულია %n თარგმანის ერთეული.</numerusform>
+            <numerusform>ჩატვირთულია %n თარგმანის ერთეული.</numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>Related files (%1);;</source>
+        <translation>მსგავსი ფაილი (%1);;</translation>
+    </message>
+    <message>
+        <source>Open Translation Files</source>
+        <translation>თარგმანის ფაილების გახსნა</translation>
+    </message>
+    <message>
+        <source>File saved.</source>
+        <translation>ფაილი შენახულია.</translation>
+    </message>
+    <message>
+        <source>Qt message files for released applications (*.qm)
+All files (*)</source>
+        <translation>Qt შეტყობინების ფაილები გამოცემული აპლიკაციებისთვის (*.qm)
+ყველა ფაილი (*)</translation>
+    </message>
+    <message>
+        <source>Qt phrase books (*.qph)
+All files (*)</source>
+        <translation>Qt ფრაზის წიგნები (*.qph)
+ყველა ფაილი (*)</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>გამოცემა</translation>
+    </message>
+    <message>
+        <source>File created.</source>
+        <translation>ფაილი შეიქმნა.</translation>
+    </message>
+    <message>
+        <source>Printing...</source>
+        <translation>დაბეჭდვა...</translation>
+    </message>
+    <message>
+        <source>Context: %1</source>
+        <translation>კონტექსტი: %1</translation>
+    </message>
+    <message>
+        <source>finished</source>
+        <translation>დასრულებული</translation>
+    </message>
+    <message>
+        <source>unresolved</source>
+        <translation>მოუგვარებელი</translation>
+    </message>
+    <message>
+        <source>obsolete</source>
+        <translation>მოძველებული</translation>
+    </message>
+    <message>
+        <source>Printing... (page %1)</source>
+        <translation>იბეჭდება... (გვერდი %1)</translation>
+    </message>
+    <message>
+        <source>Printing completed</source>
+        <translation>დაბეჭდვა დასრულდა</translation>
+    </message>
+    <message>
+        <source>Printing aborted</source>
+        <translation>დაბეჭდვა გაუქმდა</translation>
+    </message>
+    <message>
+        <source>Search wrapped.</source>
+        <translation>ძებნა დასაწყისიდან.</translation>
+    </message>
+    <message>
+        <source>Qt Linguist</source>
+        <translation>Qt Linguist</translation>
+    </message>
+    <message>
+        <source>Cannot find the string &apos;%1&apos;.</source>
+        <translation>ვერ ვიპოვე სტრიქონი &apos;%1&apos;.</translation>
+    </message>
+    <message>
+        <source>Search And Translate in &apos;%1&apos; - Qt Linguist</source>
+        <translation>ძებნა და თარგმანი &apos;%1&apos;-ში - Qt Linguist</translation>
+    </message>
+    <message>
+        <source>Translate - Qt Linguist</source>
+        <translation>თარგმანი - Qt Linguist</translation>
+    </message>
+    <message numerus="yes">
+        <source>Translated %n entry(s)</source>
+        <translation>
+            <numerusform>ნათარგმნია %n ჩანაწერი</numerusform>
+            <numerusform>ნათარგმნია %n ჩანაწერი</numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>No more occurrences of &apos;%1&apos;. Start over?</source>
+        <translation>&apos;%1&apos; მეტჯერ აღარ ჩანს. დავიწყო თავიდან?</translation>
+    </message>
+    <message>
+        <source>Create New Phrase Book</source>
+        <translation>ახალი ფრაზების წიგნის შექმნა</translation>
+    </message>
+    <message>
+        <source>Phrase book created.</source>
+        <translation>ფრაზების წიგნი შეიქმნა.</translation>
+    </message>
+    <message>
+        <source>Open Phrase Book</source>
+        <translation>ფრაზების წიგნის გახსნა</translation>
+    </message>
+    <message>
+        <source>Qt phrase books (*.qph);;All files (*)</source>
+        <translation>Qt ფრაზის წიგნები (*.qph);;ყველა ფაილი (*)</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n phrase(s) loaded.</source>
+        <translation>
+            <numerusform>ჩაიტვირთა %n ფრაზა.</numerusform>
+            <numerusform>ჩაიტვირთა %n ფრაზა.</numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>Add to phrase book</source>
+        <translation>ფრაზების წიგნში ჩამატება</translation>
+    </message>
+    <message>
+        <source>No appropriate phrasebook found.</source>
+        <translation>შესაბამისი ფრაზის წიგნები აღმოჩენილი არაა.</translation>
+    </message>
+    <message>
+        <source>Adding entry to phrasebook %1</source>
+        <translation>ჩანაწერის დამატება ფრაზების წიგნში %1</translation>
+    </message>
+    <message>
+        <source>Select phrase book to add to</source>
+        <translation>აირჩიეთ ფრაზების წიგნი, ჩასამატებლად</translation>
+    </message>
+    <message>
+        <source>Unable to launch Qt Assistant (%1)</source>
+        <translation>Qt Assistant-ის (%1) გაშვება შეუძლებელია</translation>
+    </message>
+    <message>
+        <source>Version %1</source>
+        <translation>ვერსია %1</translation>
+    </message>
+    <message>
+        <source>Qt Linguist is a tool for adding translations to Qt applications.</source>
+        <translation>Qt Linguist პროგრამაა Qt-ის აპლიკაციებისთვის თარგმანების დასამატებლად.</translation>
+    </message>
+    <message>
+        <source>Copyright (C) %1 The Qt Company Ltd.</source>
+        <translation>ყველა უფლება დაცულია (C) %1 The Qt Company Ltd.</translation>
+    </message>
+    <message>
+        <source>Do you want to save the modified files?</source>
+        <translation>გნებავთ, შეინახოთ შეცვლლი ფაილები?</translation>
+    </message>
+    <message>
+        <source>Do you want to save &apos;%1&apos;?</source>
+        <translation>გნებავთ, შეინახოთ &apos;%1&apos;?</translation>
+    </message>
+    <message>
+        <source>Qt Linguist[*]</source>
+        <translation>Qt Linguist[*]</translation>
+    </message>
+    <message>
+        <source>%1[*] - Qt Linguist</source>
+        <translation>%1[*] - Qt Linguist</translation>
+    </message>
+    <message>
+        <source>No untranslated translation units left.</source>
+        <translation>უთარგმნელი სათარგმნი ერთეულები აღარ დარჩა.</translation>
+    </message>
+    <message>
+        <source>&amp;Window</source>
+        <translation>&amp;ფანჯარა</translation>
+    </message>
+    <message>
+        <source>Minimize</source>
+        <translation>ჩაკეცვა</translation>
+    </message>
+    <message>
+        <source>Ctrl+M</source>
+        <translation>Ctrl+M</translation>
+    </message>
+    <message>
+        <source>Display the manual for %1.</source>
+        <translation>%1-ის სახელმძღვანელოს ჩვენება.</translation>
+    </message>
+    <message>
+        <source>Display information about %1.</source>
+        <translation>ინფორმაციის ჩვენება %1-ის შესახებ.</translation>
+    </message>
+    <message>
+        <source>&amp;Save &apos;%1&apos;</source>
+        <translation>&apos;%1&apos;-ი&amp;ს შენახვა</translation>
+    </message>
+    <message>
+        <source>Save &apos;%1&apos; &amp;As...</source>
+        <translation>&apos;%1&apos;-ის &amp;შენახვა, როგორც...</translation>
+    </message>
+    <message>
+        <source>Release &apos;%1&apos;</source>
+        <translation>&apos;%1&apos;-ის გამოცემა</translation>
+    </message>
+    <message>
+        <source>Release &apos;%1&apos; As...</source>
+        <translation>&apos;%1&apos;-ის გამოცემა, როგორც...</translation>
+    </message>
+    <message>
+        <source>&amp;Close &apos;%1&apos;</source>
+        <translation>%1-ის &amp;დახურვა</translation>
+    </message>
+    <message>
+        <source>&amp;Close</source>
+        <translation>&amp;დახურვა</translation>
+    </message>
+    <message>
+        <source>Save All</source>
+        <translation>ყველას შენახვა</translation>
+    </message>
+    <message>
+        <source>&amp;Release All</source>
+        <translation>&amp;ყველას გამოცემა</translation>
+    </message>
+    <message>
+        <source>Close All</source>
+        <translation>ყველას დახურვა</translation>
+    </message>
+    <message>
+        <source>Translation File &amp;Settings for &apos;%1&apos;...</source>
+        <translation>თარგმანის ფაილი&amp;ს პარამეტრები &apos;%1&apos;-სთვის...</translation>
+    </message>
+    <message>
+        <source>&amp;Batch Translation of &apos;%1&apos;...</source>
+        <translation>&apos;%1&apos;-ის &amp;სერიული თარგმანი...</translation>
+    </message>
+    <message>
+        <source>Search And &amp;Translate in &apos;%1&apos;...</source>
+        <translation>ძებნა &amp;და თარგმანი &apos;%1&apos;-ში...</translation>
+    </message>
+    <message>
+        <source>Search And &amp;Translate...</source>
+        <translation>ძებნა &amp;და თარგმნა...</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ფაილი</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>ჩასწორება</translation>
+    </message>
+    <message>
+        <source>Translation</source>
+        <translation>თარგმანი</translation>
+    </message>
+    <message>
+        <source>Validation</source>
+        <translation>გადამოწმება</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>დახმარება</translation>
+    </message>
+    <message>
+        <source>Cannot read from phrase book &apos;%1&apos;.</source>
+        <translation>ვერ წავიკითხე ფრაზების წიგნიდან &apos;%1&apos;.</translation>
+    </message>
+    <message>
+        <source>Close this phrase book.</source>
+        <translation>ამ ფრაზების წიგნის დახურვა.</translation>
+    </message>
+    <message>
+        <source>Enables you to add, modify, or delete entries in this phrase book.</source>
+        <translation>ეს ფანჯარა საშუალებას გაძლევთ დაამატოთ, შეცვალოთ ან წაშალოთ ჩანაწერები ამ ფრაზების წიგნში.</translation>
+    </message>
+    <message>
+        <source>Print the entries in this phrase book.</source>
+        <translation>ამ ფრაზის წიგნის ჩანაწერების დაბეჭდვა.</translation>
+    </message>
+    <message>
+        <source>Cannot create phrase book &apos;%1&apos;.</source>
+        <translation>ვერ შევქმენი ფრაზების წიგნი &apos;%1&apos;.</translation>
+    </message>
+    <message>
+        <source>Do you want to save phrase book &apos;%1&apos;?</source>
+        <translation>გნებავთ შეინახოთ ფრაზების წიგნი &apos;%1&apos;?</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n unfinished message(s) left.</source>
+        <translation>
+            <numerusform>დარჩენილია %n დაუსრულებელი შეტყობინება.</numerusform>
+            <numerusform>დარჩენილია %n დაუსრულებელი შეტყობინება.</numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>ყველა</translation>
     </message>
     <message>
         <source>Open/Refresh Form &amp;Preview</source>
@@ -1138,6 +1104,10 @@ All files (*)</source>
         <translation>F5</translation>
     </message>
     <message>
+        <source>Translation File &amp;Settings...</source>
+        <translation>თარგმანის ფაილი&amp;ს პარამეტრები...</translation>
+    </message>
+    <message>
         <source>&amp;Add to Phrase Book</source>
         <translation>ჩ&amp;ამატება ფრაზების წიგნში</translation>
     </message>
@@ -1146,28 +1116,12 @@ All files (*)</source>
         <translation>Ctrl+T</translation>
     </message>
     <message>
-        <source>Open Read-O&amp;nly...</source>
-        <translation>გახს&amp;ნა მხოლოდ-წასაკითხად...</translation>
+        <source>Ctrl+J</source>
+        <translation>Ctrl+J</translation>
     </message>
     <message>
-        <source>&amp;Save All</source>
-        <translation>&amp;ყველას _შენახვა</translation>
-    </message>
-    <message>
-        <source>Ctrl+S</source>
-        <translation>Ctrl+S</translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation>დახურვა</translation>
-    </message>
-    <message>
-        <source>&amp;Close All</source>
-        <translation>ყველას &amp;დახურვა</translation>
-    </message>
-    <message>
-        <source>Ctrl+W</source>
-        <translation>Ctrl+W</translation>
+        <source>Ctrl+Shift+J</source>
+        <translation>Ctrl+Shift+J</translation>
     </message>
     <message>
         <source>Previous unfinished item</source>
@@ -1194,16 +1148,24 @@ All files (*)</source>
         <translation>დააკოპირებს წყარო ტექსტს თარგმანის ველში</translation>
     </message>
     <message>
+        <source>Create a Qt message file suitable for released applications from the current message file. The filename will automatically be determined from the name of the TS file.</source>
+        <translation>მიმდინარე შეტყობინებების ფაილიდან გამოცემული აპლიკაციისთვის შესაფერისი Qt-ის შეტყობინებების ფაილის შექმნა. ფაილის სახელი ავტომატურად დადგინდება TS ფაილის სახელიდან.</translation>
+    </message>
+    <message>
+        <source>Length Variants</source>
+        <translation>სიგრძის ვარიანტები</translation>
+    </message>
+    <message>
         <source>Display information about the Qt toolkit by Digia.</source>
         <translation>აჩვენებს ინფორმაციას Digia-ის ნაწარმი Qt ბიბლიოთეკის შესახებ.</translation>
     </message>
     <message>
-        <source>&amp;Zoom</source>
-        <translation>&amp;გადიდება</translation>
-    </message>
-    <message>
         <source>Visualize whitespace</source>
         <translation>ჰარის დახატვა</translation>
+    </message>
+    <message>
+        <source>&amp;Zoom</source>
+        <translation>&amp;გადიდება</translation>
     </message>
     <message>
         <source>Increase</source>
@@ -1312,6 +1274,14 @@ All files (*)</source>
     <message>
         <source>Mark this item as done.</source>
         <translation>ამ ელემენტის დასრულებულად მონიშვნა.</translation>
+    </message>
+    <message>
+        <source>Find P&amp;revious</source>
+        <translation>&amp;წინას პოვნა</translation>
+    </message>
+    <message>
+        <source>Shift+F3</source>
+        <translation>Shift+F3</translation>
     </message>
 </context>
 <context>
@@ -1566,10 +1536,6 @@ Line: %2</source>
         <translation>სტატისტიკა</translation>
     </message>
     <message>
-        <source>Close</source>
-        <translation>დახურვა</translation>
-    </message>
-    <message>
         <source>Translation</source>
         <translation>თარგმანი</translation>
     </message>
@@ -1592,6 +1558,38 @@ Line: %2</source>
     <message>
         <source>Characters (with spaces):</source>
         <translation>სიმბოლოები (ჰარების ჩათვლით):</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>დახურვა</translation>
+    </message>
+    <message>
+        <source>Unfinished</source>
+        <translation>დაუსრულებელი</translation>
+    </message>
+    <message>
+        <source>Total translatable messages:</source>
+        <translation>სულ თარგმნადი შეტყობინებები:</translation>
+    </message>
+    <message>
+        <source>Total finished:</source>
+        <translation>სულ დასრულებული:</translation>
+    </message>
+    <message>
+        <source>Without warnings:</source>
+        <translation>გაფრთხილების გარეშე:</translation>
+    </message>
+    <message>
+        <source>With warnings:</source>
+        <translation>გაფრთხილებით:</translation>
+    </message>
+    <message>
+        <source>Unfinished:</source>
+        <translation>დაუსრულებელი:</translation>
+    </message>
+    <message>
+        <source>Total messages including obsolete:</source>
+        <translation>შეტყობინებები ჯამურად, მოძველებულების ჩათვლით:</translation>
     </message>
 </context>
 <context>
@@ -1656,6 +1654,19 @@ Line: %2</source>
 <context>
     <name>TranslationSettingsDialog</name>
     <message>
+        <source>%1 (%2)</source>
+        <extracomment>&lt;english&gt; (&lt;endonym&gt;) (language names)</extracomment>
+        <translation>%1 (%2)</translation>
+    </message>
+    <message>
+        <source>Any Territory</source>
+        <translation>ნებისმიერი ტერიტორია</translation>
+    </message>
+    <message>
+        <source>Settings for &apos;%1&apos; - Qt Linguist</source>
+        <translation>პარამეტრები ელემენტისთვის &apos;%1&apos; - Qt Linguist</translation>
+    </message>
+    <message>
         <source>Source language</source>
         <translation>საწყისი ენა</translation>
     </message>
@@ -1670,19 +1681,6 @@ Line: %2</source>
     <message>
         <source>Target language</source>
         <translation>სამიზნე ენა</translation>
-    </message>
-    <message>
-        <source>%1 (%2)</source>
-        <extracomment>&lt;english&gt; (&lt;endonym&gt;) (language and country names)</extracomment>
-        <translation>%1 (%2)</translation>
-    </message>
-    <message>
-        <source>Any Country</source>
-        <translation>ნებისმიერი ქვეყანა</translation>
-    </message>
-    <message>
-        <source>Settings for &apos;%1&apos; - Qt Linguist</source>
-        <translation>პარამეტრები ელემენტისთვის &apos;%1&apos; - Qt Linguist</translation>
     </message>
 </context>
 </TS>

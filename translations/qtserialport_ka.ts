@@ -63,9 +63,5 @@
         <source>Device disappeared from the system</source>
         <translation>მოწყობილობა გაქრა სისტემიდან</translation>
     </message>
-    <message>
-        <source>The device supports only the ignoring policy</source>
-        <translation>მოწყობილობას, მხოლოდ, დაიგნორების პოლიტიკის მხარდაჭერა გააჩნია</translation>
-    </message>
 </context>
 </TS>

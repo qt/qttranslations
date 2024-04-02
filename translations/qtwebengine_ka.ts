@@ -2,63 +2,6 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="ka_GE">
 <context>
-    <name>AlertDialog</name>
-    <message>
-        <source>Alert Dialog</source>
-        <translation>გაფრთხილების ფანჯარა</translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation>დიახ</translation>
-    </message>
-</context>
-<context>
-    <name>AuthenticationDialog</name>
-    <message>
-        <source>Authentication Required</source>
-        <translation>საჭიროა ავთენტიკაცია</translation>
-    </message>
-    <message>
-        <source>Username:</source>
-        <translation>სახელი:</translation>
-    </message>
-    <message>
-        <source>Password:</source>
-        <translation>პაროლი:</translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation>გაუ&amp;ქმება</translation>
-    </message>
-    <message>
-        <source>&amp;Log In</source>
-        <translation>&amp;შესვლა</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>გაუქმება</translation>
-    </message>
-    <message>
-        <source>Log In</source>
-        <translation>შესვლა</translation>
-    </message>
-</context>
-<context>
-    <name>ConfirmDialog</name>
-    <message>
-        <source>Alert Dialog</source>
-        <translation>გაფრთხილების ფანჯარა</translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation>დიახ</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>გაუქმება</translation>
-    </message>
-</context>
-<context>
     <name>DownloadInterruptReason</name>
     <message>
         <source>Unknown reason or not interrupted</source>
@@ -158,21 +101,6 @@
     </message>
 </context>
 <context>
-    <name>PromptDialog</name>
-    <message>
-        <source>OK</source>
-        <translation>დიახ</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>გაუქმება</translation>
-    </message>
-    <message>
-        <source>Prompt Dialog</source>
-        <translation>კითხვის ფანჯარა</translation>
-    </message>
-</context>
-<context>
     <name>QQuickPdfDocument</name>
     <message>
         <source>no error</source>
@@ -184,7 +112,7 @@
     </message>
     <message>
         <source>file not found</source>
-        <translation>ფაილი ვერ მოიძებნა</translation>
+        <translation>ფაილი ვერ ვიპოვე</translation>
     </message>
     <message>
         <source>invalid file format</source>
@@ -201,85 +129,6 @@
     <message>
         <source>unknown error</source>
         <translation>უცნობი შეცდომა</translation>
-    </message>
-</context>
-<context>
-    <name>QQuickWebEngineView</name>
-    <message>
-        <source>Stop</source>
-        <translation>გაჩერება</translation>
-    </message>
-    <message>
-        <source>Reload and Bypass Cache</source>
-        <translation>თავიდან ჩატვირთვა ქეშის გვერდის ავლით</translation>
-    </message>
-    <message>
-        <source>Open link in this window</source>
-        <translation>ბმულის ამ ფანჯარაში გახსნა</translation>
-    </message>
-    <message>
-        <source>Toggle Play/Pause</source>
-        <translation>დაკვრა/გაჩერების გადართვა</translation>
-    </message>
-    <message>
-        <source>Toggle Mute</source>
-        <translation>დადუმების გადართვა</translation>
-    </message>
-    <message>
-        <source>Close Page</source>
-        <translation>გვერდის დახურვა</translation>
-    </message>
-    <message>
-        <source>Unselect</source>
-        <translation>მონიშვნის მოხსნა</translation>
-    </message>
-    <message>
-        <source>&amp;Bold</source>
-        <translation>&amp;სქელი</translation>
-    </message>
-    <message>
-        <source>&amp;Italic</source>
-        <translation>&amp;დახრილი</translation>
-    </message>
-    <message>
-        <source>&amp;Underline</source>
-        <translation>&amp;ხაზგასმა</translation>
-    </message>
-    <message>
-        <source>&amp;Strikethrough</source>
-        <translation>&amp;ხაზგადასმული</translation>
-    </message>
-    <message>
-        <source>Align &amp;Left</source>
-        <translation>&amp;მარცხნვ სწორება</translation>
-    </message>
-    <message>
-        <source>Align &amp;Center</source>
-        <translation>&amp;ცენტრზე სწორება</translation>
-    </message>
-    <message>
-        <source>Align &amp;Right</source>
-        <translation>მარ&amp;ჯვნივ სწორება</translation>
-    </message>
-    <message>
-        <source>Align &amp;Justified</source>
-        <translation>&amp;სიგანით</translation>
-    </message>
-    <message>
-        <source>&amp;Indent</source>
-        <translation>&amp;შეწევა</translation>
-    </message>
-    <message>
-        <source>&amp;Outdent</source>
-        <translation>&amp;გამოწევა</translation>
-    </message>
-    <message>
-        <source>Insert &amp;Ordered List</source>
-        <translation>&amp;დალაგებული სიის ჩასმა</translation>
-    </message>
-    <message>
-        <source>Insert &amp;Unordered List</source>
-        <translation>დაულაგებელი &amp;სიის ჩასმა</translation>
     </message>
 </context>
 <context>
@@ -307,6 +156,18 @@
     <message>
         <source>Unselect</source>
         <translation>მონიშვნის მოხსნა</translation>
+    </message>
+    <message>
+        <source>Change text direction left to right</source>
+        <translation>ტექსტის მიმართულების შეცვლა მარცხნიდან მარჯვნივ</translation>
+    </message>
+    <message>
+        <source>Change text direction right to left</source>
+        <translation>ტექსტის მიმართულების შეცვლა მარჯვნიდან მარცხნივ</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to leave this page? Changes that you made may not be saved.</source>
+        <translation>მართლა გნებავთ ამ გვერდის დატოვება? ცვლილებები, რომლებიც შეიტანეთ, დაიკარგება.</translation>
     </message>
     <message>
         <source>Open link in this window</source>
@@ -364,36 +225,6 @@
         <source>Insert &amp;Unordered List</source>
         <translation>დაულაგებელი &amp;სიის ჩასმა</translation>
     </message>
-    <message>
-        <source>Are you sure you want to leave this page? Changes that you made may not be saved.</source>
-        <translation>მართლა გნებავთ ამ გვერდის დატოვება? ცვლილებები, რომლებიც შეიტანეთ, დაიკარგება.</translation>
-    </message>
-    <message>
-        <source>Select folder to upload</source>
-        <translation>აირჩიეთ ასატვირთი საქაღლდე</translation>
-    </message>
-</context>
-<context>
-    <name>QtWebEnginePlugin</name>
-    <message>
-        <source>Cannot create separate instance of WebEngineNewViewRequest</source>
-        <translation>WebEngineNewViewRequest-ის ცალკე გაშვებული ასლის შექმნა შეუძლებელია</translation>
-    </message>
-    <message>
-        <source>Cannot create separate instance of %1</source>
-        <translation>%1-ის ცალკე გაშვებული ასლის შექმნა შეუძლებელია</translation>
-    </message>
-</context>
-<context>
-    <name>QtWebEngineTestSupportPlugin</name>
-    <message>
-        <source>Cannot create a separate instance of WebEngineErrorPage</source>
-        <translation>WebEngineErrorPage-ის ცალკე გაშვებული ასლის შექმნა შეუძლებელია</translation>
-    </message>
-    <message>
-        <source>Cannot create a separate instance of WebEngineTestEvent</source>
-        <translation>WebEngineTestEvent-ის ცალკე გაშვებული ასლის შექმნა შეუძლებელია</translation>
-    </message>
 </context>
 <context>
     <name>RenderViewContextMenuQt</name>
@@ -427,11 +258,11 @@
     </message>
     <message>
         <source>Redo</source>
-        <translation>გამეორება</translation>
+        <translation>გამეოერბა</translation>
     </message>
     <message>
         <source>Select all</source>
-        <translation>ყველაფრის მონიშვნა</translation>
+        <translation>ყველას მონიშვნა</translation>
     </message>
     <message>
         <source>Paste and match style</source>
@@ -533,7 +364,141 @@
     <name>WebContentsAdapter</name>
     <message>
         <source>HTTP-POST data can only be sent over HTTP(S) protocol</source>
-        <translation>HTTP-POST მონაცემები, მხოლოდ, HTTP(S) პროტოკოლით შეიძლება, გაიგზავნოს</translation>
+        <translation>HTTP-POST მონაცემების გადაცემა, მხოლოდ, HTTP(S) პროტოკოლით შეიძლება</translation>
+    </message>
+</context>
+<context>
+    <name>FilePickerController</name>
+    <message>
+        <source>Accepted types (%1)</source>
+        <translation>მიღებული ტიპები (%1)</translation>
+    </message>
+</context>
+<context>
+    <name>QWebEngineView</name>
+    <message>
+        <source>Select folder to upload</source>
+        <translation>აირჩიეთ ასატვირთი საქაღლდე</translation>
+    </message>
+</context>
+<context>
+    <name>AlertDialog</name>
+    <message>
+        <source>Alert Dialog</source>
+        <translation>გაფრთხილების ფანჯარა</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>დიახ</translation>
+    </message>
+</context>
+<context>
+    <name>AuthenticationDialog</name>
+    <message>
+        <source>Authentication Required</source>
+        <translation>საჭროა ავთენტიკაცია</translation>
+    </message>
+    <message>
+        <source>Username:</source>
+        <translation>მომხმარებელი:</translation>
+    </message>
+    <message>
+        <source>Password:</source>
+        <translation>პაროლი:</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>გაუქმება</translation>
+    </message>
+    <message>
+        <source>Log In</source>
+        <translation>შესვლა</translation>
+    </message>
+</context>
+<context>
+    <name>ColorDialog</name>
+    <message>
+        <source>Color Picker Dialog</source>
+        <translation>ფერის ამრჩევის ფანჯარა</translation>
+    </message>
+    <message>
+        <source>Copy color</source>
+        <translation>ფერის კოპირება</translation>
+    </message>
+    <message>
+        <source>Paste</source>
+        <translation>ჩასმა</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>გადატარება</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>გაუქმება</translation>
+    </message>
+</context>
+<context>
+    <name>ConfirmDialog</name>
+    <message>
+        <source>Confirm Dialog</source>
+        <translation>დადასტურების დიალოგი</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>დიახ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>გაუქმება</translation>
+    </message>
+</context>
+<context>
+    <name>PromptDialog</name>
+    <message>
+        <source>Prompt Dialog</source>
+        <translation>კითხვის ფანჯარა</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>დიახ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>გაუქმება</translation>
+    </message>
+</context>
+<context>
+    <name>PdfLinkDelegate</name>
+    <message>
+        <source>Page %1 location %2, %3 zoom %4</source>
+        <translation>გვერდი %1 მდებარეობა %2, %3 გადიდება %4</translation>
+    </message>
+</context>
+<context>
+    <name>QPdfLinkModel</name>
+    <message>
+        <source>Page %1 location %2, %3 zoom %4</source>
+        <translation>გვერდი %1 მდებარეობა %2, %3 გადიდება %4</translation>
+    </message>
+</context>
+<context>
+    <name>QtWebEngineWidgetUI::TouchSelectionMenuWidget</name>
+    <message>
+        <source>Cut</source>
+        <translation>ამოჭრა</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>კოპირება</translation>
+    </message>
+    <message>
+        <source>Paste</source>
+        <translation>ჩასმა</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 </TS>
