@@ -132,85 +132,6 @@
     </message>
 </context>
 <context>
-    <name>QQuickWebEngineView</name>
-    <message>
-        <source>Stop</source>
-        <translation>Stop</translation>
-    </message>
-    <message>
-        <source>Reload and Bypass Cache</source>
-        <translation>Unter Umgehung des Caches neu laden</translation>
-    </message>
-    <message>
-        <source>Open link in this window</source>
-        <translation>Link in diesem Fenster öffnen</translation>
-    </message>
-    <message>
-        <source>Toggle Play/Pause</source>
-        <translation>Abspielen/Pausieren umschalten</translation>
-    </message>
-    <message>
-        <source>Toggle Mute</source>
-        <translation>Stummschaltung umschalten</translation>
-    </message>
-    <message>
-        <source>Close Page</source>
-        <translation>Seite schließen</translation>
-    </message>
-    <message>
-        <source>Unselect</source>
-        <translation>Auswahl aufheben</translation>
-    </message>
-    <message>
-        <source>&amp;Bold</source>
-        <translation>&amp;Fett</translation>
-    </message>
-    <message>
-        <source>&amp;Italic</source>
-        <translation>&amp;Kursiv</translation>
-    </message>
-    <message>
-        <source>&amp;Underline</source>
-        <translation>&amp;Unterstrichen</translation>
-    </message>
-    <message>
-        <source>&amp;Strikethrough</source>
-        <translation>&amp;Durchgestrichen</translation>
-    </message>
-    <message>
-        <source>Align &amp;Left</source>
-        <translation>&amp;Linksbündig ausrichten</translation>
-    </message>
-    <message>
-        <source>Align &amp;Center</source>
-        <translation>&amp;Mittig ausrichten</translation>
-    </message>
-    <message>
-        <source>Align &amp;Right</source>
-        <translation>&amp;Rechtsbündig ausrichten</translation>
-    </message>
-    <message>
-        <source>Align &amp;Justified</source>
-        <translation>&amp;Blocksatz</translation>
-    </message>
-    <message>
-        <source>&amp;Indent</source>
-        <translation>&amp;Einrücken</translation>
-    </message>
-    <message>
-        <source>&amp;Outdent</source>
-        <translation>&amp;Ausrücken</translation>
-    </message>
-    <message>
-        <source>Insert &amp;Ordered List</source>
-        <translation>&amp;Nummerierte Liste einfügen</translation>
-    </message>
-    <message>
-        <source>Insert &amp;Unordered List</source>
-        <translation>&amp;Liste einfügen</translation>
-    </message>
-</context>
-<context>
     <name>QWebEnginePage</name>
     <message>
         <source>Stop</source>
@@ -235,6 +156,14 @@
     <message>
         <source>Unselect</source>
         <translation>Auswahl aufheben</translation>
+    </message>
+    <message>
+        <source>Change text direction left to right</source>
+        <translation>Schriftrichtung auf links nach rechts ändern</translation>
+    </message>
+    <message>
+        <source>Change text direction right to left</source>
+        <translation>Schriftrichtung auf rechts nach links ändern</translation>
     </message>
     <message>
         <source>Are you sure you want to leave this page? Changes that you made may not be saved.</source>
@@ -537,6 +466,39 @@
     <message>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
+    </message>
+</context>
+<context>
+    <name>PdfLinkDelegate</name>
+    <message>
+        <source>Page %1 location %2, %3 zoom %4</source>
+        <translation>Seite %1 Stelle %2, %3 Vergrößerung %4</translation>
+    </message>
+</context>
+<context>
+    <name>QPdfLinkModel</name>
+    <message>
+        <source>Page %1 location %2, %3 zoom %4</source>
+        <translation>Seite %1 Stelle %2, %3 Vergrößerung %4</translation>
+    </message>
+</context>
+<context>
+    <name>QtWebEngineWidgetUI::TouchSelectionMenuWidget</name>
+    <message>
+        <source>Cut</source>
+        <translation>Ausschneiden</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>Kopieren</translation>
+    </message>
+    <message>
+        <source>Paste</source>
+        <translation>Einfügen</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>...</translation>
     </message>
 </context>
 </TS>

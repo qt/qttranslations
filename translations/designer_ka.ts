@@ -1,85 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE">
+<TS version="2.1" language="ka_GE">
 <context>
     <name>AbstractFindWidget</name>
     <message>
         <source>&amp;Previous</source>
-        <translation>&amp;Vorige</translation>
+        <translation>&amp;წინა</translation>
     </message>
     <message>
         <source>&amp;Next</source>
-        <translation>&amp;Nächste</translation>
+        <translation>&amp;შემდეგი</translation>
     </message>
     <message>
         <source>&amp;Case sensitive</source>
-        <translation>&amp;Groß/Kleinschreibung</translation>
+        <translation>&amp;დიდი თუ პატარა სიმბოლოები</translation>
     </message>
     <message>
         <source>Whole &amp;words</source>
-        <translation>Nur ganze &amp;Worte</translation>
+        <translation>&amp;მთლიანი სიტყვები</translation>
     </message>
     <message>
         <source>&lt;img src=&quot;:/qt-project.org/shared/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
-        <translation>&lt;img src=&quot;:/qt-project.org/shared/images/wrap.png&quot;&gt;&amp;nbsp;Die Suche hat das Ende erreicht</translation>
+        <translation>&lt;img src=&quot;:/qt-project.org/shared/images/wrap.png&quot;&gt;&amp;nbsp;ძებნა გადატანილია</translation>
     </message>
     <message>
         <source>&amp;Find in Text...</source>
-        <translation>&amp;Suchen...</translation>
+        <translation>&amp;ტექსტში ძებნა...</translation>
     </message>
 </context>
 <context>
     <name>AbstractItemEditor</name>
     <message>
         <source>Selectable</source>
-        <translation>Selectable</translation>
+        <translation>მონიშვნადი</translation>
     </message>
     <message>
         <source>Editable</source>
-        <translation>Editable</translation>
+        <translation>ჩასწორებადი</translation>
     </message>
     <message>
         <source>DragEnabled</source>
-        <translation>DragEnabled</translation>
+        <translation>გადათრჩართულია</translation>
     </message>
     <message>
         <source>DropEnabled</source>
-        <translation>DropEnabled</translation>
+        <translation>დაგდებაჩართულია</translation>
     </message>
     <message>
         <source>UserCheckable</source>
-        <translation>UserCheckable</translation>
+        <translation>მომხმარჩართვადი</translation>
     </message>
     <message>
         <source>Enabled</source>
-        <translation>Enabled</translation>
+        <translation>ჩართულია</translation>
     </message>
     <message>
         <source>Tristate</source>
-        <translation>Tristate</translation>
+        <translation>სამმდგომარეობიანი</translation>
     </message>
     <message>
         <source>Unchecked</source>
-        <translation>Unchecked</translation>
+        <translation>გადაუმოწმებელი</translation>
     </message>
     <message>
         <source>PartiallyChecked</source>
-        <translation>PartiallyChecked</translation>
+        <translation>ნაწილობრივჩართული</translation>
     </message>
     <message>
         <source>Checked</source>
-        <translation>Checked</translation>
+        <translation>შემოწმებულია</translation>
     </message>
 </context>
 <context>
     <name>AddLinkDialog</name>
     <message>
         <source>Insert Link</source>
-        <translation>Link einfügen</translation>
+        <translation>ბმულის დამატება</translation>
     </message>
     <message>
         <source>Title:</source>
-        <translation>Titel:</translation>
+        <translation>სათაური:</translation>
     </message>
     <message>
         <source>URL:</source>
@@ -90,178 +90,178 @@
     <name>AppFontDialog</name>
     <message>
         <source>Additional Fonts</source>
-        <translation>Zusätzliche Schriftarten</translation>
+        <translation>დამატებითი ფონტები</translation>
     </message>
 </context>
 <context>
     <name>AppFontManager</name>
     <message>
         <source>&apos;%1&apos; is not a file.</source>
-        <translation>&apos;%1&apos; ist keine Datei.</translation>
+        <translation>&apos;%1&apos; ფაილი არაა.</translation>
     </message>
     <message>
         <source>The font file &apos;%1&apos; does not have read permissions.</source>
-        <translation>Die Fontdatei &apos;%1&apos; hat keinen Lesezugriff.</translation>
+        <translation>ფონტის ფაილს &apos;%1&apos; კითხვის უფლებები არ აქვს.</translation>
     </message>
     <message>
         <source>The font file &apos;%1&apos; is already loaded.</source>
-        <translation>Die Fontdatei ist bereits geladen.</translation>
+        <translation>ფონტის ფაილი &apos;%1&apos; უკვე ჩატვირთულია.</translation>
     </message>
     <message>
         <source>The font file &apos;%1&apos; could not be loaded.</source>
-        <translation>Die Fontdatei &apos;%1&apos; konnte nicht geladen werden.</translation>
+        <translation>ფონტის ფაილის &apos;%1&apos; ჩატვირთვა შეუძლებელია.</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a valid font id.</source>
-        <translation>&apos;%1&apos; ist keine gültige Id einer Schriftart.</translation>
+        <translation>&apos;%1&apos; სწორი ფონტის ID არაა.</translation>
     </message>
     <message>
         <source>There is no loaded font matching the id &apos;%1&apos;.</source>
-        <translation>Es ist keine Schriftart mit der Id &apos;%1&apos; geladen.</translation>
+        <translation>ჩატვირთული ფონტი, ID-ით &apos;%1&apos;, არ არსებობ.</translation>
     </message>
     <message>
         <source>The font &apos;%1&apos; (%2) could not be unloaded.</source>
-        <translation>Die Schriftart &apos;%1&apos; (%2) konnte nicht entladen werden.</translation>
+        <translation>ფონტის &apos;%1&apos; (%2) გამოტვირთვა შეუძლებელია.</translation>
     </message>
 </context>
 <context>
     <name>AppFontWidget</name>
     <message>
         <source>Fonts</source>
-        <translation>Schriftarten</translation>
+        <translation>ფონტები</translation>
     </message>
     <message>
         <source>Add font files</source>
-        <translation>Schriftarten hinzufügen</translation>
+        <translation>ფონტის ფაილების დამატება</translation>
     </message>
     <message>
         <source>Remove current font file</source>
-        <translation>Schriftart entfernen</translation>
+        <translation>მიმდინარე ფონტის ფაილის წაშლა</translation>
     </message>
     <message>
         <source>Remove all font files</source>
-        <translation>Alle Schriftarten entfernen</translation>
+        <translation>ყველა ფონტის ფაილის წაშლა</translation>
     </message>
     <message>
         <source>Add Font Files</source>
-        <translation>Schriftarten hinzufügen</translation>
+        <translation>ფონტის ფაილების დამატება</translation>
     </message>
     <message>
         <source>Font files (*.ttf)</source>
-        <translation>Schriftarten (*.ttf)</translation>
+        <translation>ფონტის ფაილები (*.ttf)</translation>
     </message>
     <message>
         <source>Error Adding Fonts</source>
-        <translation>Fehler beim Hinzufügen einer Schriftart</translation>
+        <translation>ფონტების დამატების შეცდომა</translation>
     </message>
     <message>
         <source>Error Removing Fonts</source>
-        <translation>Fehler beim Entfernen von Schriftarten</translation>
+        <translation>ფონტების წაშლის შეცდომა</translation>
     </message>
     <message>
         <source>Remove Fonts</source>
-        <translation>Schriftarten entfernen</translation>
+        <translation>ფონტების წაშლა</translation>
     </message>
     <message>
         <source>Would you like to remove all fonts?</source>
-        <translation>Möchten Sie alle Schriftarten entfernen?</translation>
+        <translation>მართლა გნებავთ ყველა ფონტის წაშლა?</translation>
     </message>
 </context>
 <context>
     <name>AppearanceOptionsWidget</name>
     <message>
         <source>Form</source>
-        <translation>Formular</translation>
+        <translation>ფორმა</translation>
     </message>
     <message>
         <source>User Interface Mode</source>
-        <translation>Fenstermodus</translation>
+        <translation>მომხმარებლის ინტერფეისის რეჟიმი</translation>
     </message>
 </context>
 <context>
     <name>AssistantClient</name>
     <message>
         <source>Unable to send request: Assistant is not responding.</source>
-        <translation>Fehler beim Senden einer Anforderung: Das Programm Assistant antwortet nicht.</translation>
+        <translation>მოთხოვნის გაგზავნა შეუძლებელია: Assistant არ პასუხობს.</translation>
     </message>
     <message>
         <source>The binary &apos;%1&apos; does not exist.</source>
-        <translation>Die ausführbare Datei &apos;%1&apos; existiert nicht.</translation>
+        <translation>გამშვები ფაილი &apos;%1&apos; არ არსებობს.</translation>
     </message>
     <message>
         <source>Unable to launch assistant (%1).</source>
-        <translation>Das Programm Assistant kann nicht gestartet werden (%1).</translation>
+        <translation>Assistant-ის (%1) გაშვება შეუძლებელია.</translation>
     </message>
 </context>
 <context>
     <name>BrushPropertyManager</name>
     <message>
         <source>Style</source>
-        <translation>Stil</translation>
+        <translation>სტილი</translation>
     </message>
     <message>
         <source>No brush</source>
-        <translation>Kein Muster</translation>
+        <translation>ფუნჯის გარეშე</translation>
     </message>
     <message>
         <source>Solid</source>
-        <translation>Voll</translation>
+        <translation>მყარი</translation>
     </message>
     <message>
         <source>Dense 1</source>
-        <translation>Dichte 1</translation>
+        <translation>მკვრივი 1</translation>
     </message>
     <message>
         <source>Dense 2</source>
-        <translation>Dichte 2</translation>
+        <translation>მკვრივი 2</translation>
     </message>
     <message>
         <source>Dense 3</source>
-        <translation>Dichte 3</translation>
+        <translation>მკვრივი 3</translation>
     </message>
     <message>
         <source>Dense 4</source>
-        <translation>Dichte 4</translation>
+        <translation>მკვრივი 4</translation>
     </message>
     <message>
         <source>Dense 5</source>
-        <translation>Dichte 5</translation>
+        <translation>მკვრივი 5</translation>
     </message>
     <message>
         <source>Dense 6</source>
-        <translation>Dichte 6</translation>
+        <translation>მკვრივი 6</translation>
     </message>
     <message>
         <source>Dense 7</source>
-        <translation>Dichte 7</translation>
+        <translation>მკვრივი 7</translation>
     </message>
     <message>
         <source>Horizontal</source>
-        <translation>Horizontal</translation>
+        <translation>ჰორიზონტალური</translation>
     </message>
     <message>
         <source>Vertical</source>
-        <translation>Vertikal</translation>
+        <translation>ვერტიკალური</translation>
     </message>
     <message>
         <source>Cross</source>
-        <translation>Kreuzende Linien</translation>
+        <translation>ჯვარი</translation>
     </message>
     <message>
         <source>Backward diagonal</source>
-        <translation>Rückwärtslehnende Diagonalen</translation>
+        <translation>უკან დიაგონალური</translation>
     </message>
     <message>
         <source>Forward diagonal</source>
-        <translation>Vorwärtslehnende Diagonalen</translation>
+        <translation>წინ დიაგონალური</translation>
     </message>
     <message>
         <source>Crossing diagonal</source>
-        <translation>Kreuzende Diagonalen</translation>
+        <translation>ჯვარედინ დიაგონალური</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation>Farbe</translation>
+        <translation>ფერი</translation>
     </message>
     <message>
         <source>[%1, %2]</source>
@@ -272,308 +272,308 @@
     <name>Command</name>
     <message>
         <source>Change signal</source>
-        <translation>Signal ändern</translation>
+        <translation>სიგნალის შეცვლა</translation>
     </message>
     <message>
         <source>Change slot</source>
-        <translation>Slot ändern</translation>
+        <translation>სლოტის შეცვლა</translation>
     </message>
     <message>
         <source>Change signal-slot connection</source>
-        <translation>Signale-Slotverbindung ändern</translation>
+        <translation>სიგნალ-სლოტის მიერთების შეცვლა</translation>
     </message>
     <message>
         <source>Change sender</source>
-        <translation>Sender ändern</translation>
+        <translation>გამგზავნის შეცვლა</translation>
     </message>
     <message>
         <source>Change receiver</source>
-        <translation>Empfänger ändern</translation>
+        <translation>მიმღების შეცვლა</translation>
     </message>
     <message>
         <source>Add connection</source>
-        <translation>Verbindung hinzufügen</translation>
+        <translation>შეერთების დამატება</translation>
     </message>
     <message>
         <source>Adjust connection</source>
-        <translation>Verbindung anpassen</translation>
+        <translation>მიერთების მორგება</translation>
     </message>
     <message>
         <source>Delete connections</source>
-        <translation>Verbindungen löschen</translation>
+        <translation>მიერთებების წაშლა</translation>
     </message>
     <message>
         <source>Change source</source>
-        <translation>Startpunkt ändern</translation>
+        <translation>წყაროს შეცვლა</translation>
     </message>
     <message>
         <source>Change target</source>
-        <translation>Endpunkt ändern</translation>
+        <translation>სამიზნის შეცვლა</translation>
     </message>
     <message>
         <source>Insert &apos;%1&apos;</source>
-        <translation>&apos;%1&apos; einfügen</translation>
+        <translation>%1-ის ჩასმა</translation>
     </message>
     <message>
         <source>Raise &apos;%1&apos;</source>
-        <translation>&apos;%1&apos; nach vorn</translation>
+        <translation>&apos;%1&apos;-ის აწევა</translation>
     </message>
     <message>
         <source>Lower &apos;%1&apos;</source>
-        <translation>&apos;%1&apos; nach hinten</translation>
+        <translation>&apos;%1&apos;-ის დაწევა</translation>
     </message>
     <message>
         <source>Delete &apos;%1&apos;</source>
-        <translation> &apos;%1&apos; löschen</translation>
+        <translation>&apos;%1&apos;-ის წაშლა</translation>
     </message>
     <message>
         <source>Reparent &apos;%1&apos;</source>
-        <translation> &apos;%1&apos; einem anderen Widget zuordnen</translation>
+        <translation>&apos;%1&apos;-ის თავიდან მშობლობა</translation>
     </message>
     <message>
         <source>Promote to custom widget</source>
-        <translation>Platzhalter für benutzerdefinierte Klasse erzeugen</translation>
+        <translation>მომხმარებლის ვიჯეტამდე აწევა</translation>
     </message>
     <message>
         <source>Demote from custom widget</source>
-        <translation>Platzhalter für benutzerdefinierte Klasse entfernen</translation>
+        <translation>მომხმარებლის ვიჯეტიდან ჩამოწევა</translation>
     </message>
     <message>
         <source>Lay out using grid</source>
-        <translation>Objekte tabellarisch anordnen</translation>
+        <translation>ბადეზე განლაგება</translation>
     </message>
     <message>
         <source>Lay out vertically</source>
-        <translation>Objekte senkrecht anordnen</translation>
+        <translation>ვერტიკალური განლაგება</translation>
     </message>
     <message>
         <source>Lay out horizontally</source>
-        <translation>Objekte waagrecht anordnen</translation>
+        <translation>ჰორიზონტალური განლაგება</translation>
     </message>
     <message>
         <source>Break layout</source>
-        <translation>Layout auflösen</translation>
+        <translation>განლაგების დაშლა</translation>
     </message>
     <message>
         <source>Move Page</source>
-        <translation>Seite verschieben</translation>
+        <translation>გვერდის გადატანა</translation>
     </message>
     <message>
         <source>Delete Page</source>
-        <translation>Seite löschen</translation>
+        <translation>გვერდის წაშლა</translation>
     </message>
     <message>
         <source>Page</source>
-        <translation>Seite</translation>
+        <translation>გვერდი</translation>
     </message>
     <message>
         <source>Insert Page</source>
-        <translation>Seite einfügen</translation>
+        <translation>გვერდის ჩასმა</translation>
     </message>
     <message>
         <source>Change Tab order</source>
-        <translation>Seite ändern</translation>
+        <translation>ჩანართების მიმდევრობის შეცვლა</translation>
     </message>
     <message>
         <source>Create Menu Bar</source>
-        <translation>Menü erzeugen</translation>
+        <translation>მენიუს ზოლის შექმნა</translation>
     </message>
     <message>
         <source>Delete Menu Bar</source>
-        <translation>Menüleiste löschen</translation>
+        <translation>მენიუს ზოლის წაშლა</translation>
     </message>
     <message>
         <source>Create Status Bar</source>
-        <translation>Statuszeile erzeugen</translation>
+        <translation>სტატუსის ზოლის შექმნა</translation>
     </message>
     <message>
         <source>Delete Status Bar</source>
-        <translation>Statuszeile löschen</translation>
+        <translation>სტატუსის ზოლის წაშლა</translation>
     </message>
     <message>
         <source>Add Tool Bar</source>
-        <translation>Werkzeugleiste hinzufügen</translation>
+        <translation>ხელსაწყოს ზოლის დამატება</translation>
     </message>
     <message>
         <source>Add Dock Window</source>
-        <translation>Dockfenster hinzufügen</translation>
+        <translation>მიმაგრების ფანჯრის დამატება</translation>
     </message>
     <message>
         <source>Adjust Size of &apos;%1&apos;</source>
-        <translation>Größe von &apos;%1&apos; anpassen</translation>
+        <translation>&apos;%1&apos;-ის ზომის მორგება</translation>
     </message>
     <message>
         <source>Change Form Layout Item Geometry</source>
-        <translation>Ändern des Formularlayout-Elements</translation>
+        <translation>ფორმის განლაგების ელემენტის გეომეტრიის შეცვლა</translation>
     </message>
     <message>
         <source>Change Layout Item Geometry</source>
-        <translation>Geometrie des Layoutelements ändern</translation>
+        <translation>განლაგების ელემენტის გეომეტრიის შეცვლა</translation>
     </message>
     <message>
         <source>Change Table Contents</source>
-        <translation>Tabelleninhalt ändern</translation>
+        <translation>ცხრილის შემცველობის შეცვლა</translation>
     </message>
     <message>
         <source>Change Tree Contents</source>
-        <translation>Bauminhalt ändern</translation>
+        <translation>ხის შემცველობის შეცვლა</translation>
     </message>
     <message>
         <source>Add action</source>
-        <translation>Aktion hinzufügen</translation>
+        <translation>ქმედების დამატება</translation>
     </message>
     <message>
         <source>Remove action</source>
-        <translation> Aktion löschen</translation>
+        <translation>ქმედების წაშლა</translation>
     </message>
     <message>
         <source>Add menu</source>
-        <translation>Menü hinzufügen</translation>
+        <translation>მენიუს დამატება</translation>
     </message>
     <message>
         <source>Remove menu</source>
-        <translation>Menü löschen</translation>
+        <translation>მენიუს წაშლა</translation>
     </message>
     <message>
         <source>Create submenu</source>
-        <translation>Untermenü erzeugen</translation>
+        <translation>ქვემენიუს შექმნა</translation>
     </message>
     <message>
         <source>Delete Tool Bar</source>
-        <translation>Werkzeugleiste löschen</translation>
+        <translation>ხელსაწყოს ზოლის წაშლა</translation>
     </message>
     <message>
         <source>Set action text</source>
-        <translation>Text der Aktion setzen</translation>
+        <translation>ქმედების ტექსტის დაყენება</translation>
     </message>
     <message>
         <source>Insert action</source>
-        <translation>Aktion einfügen</translation>
+        <translation>ქმედების ჩასმა</translation>
     </message>
     <message>
         <source>Move action</source>
-        <translation>Aktion verschieben</translation>
+        <translation>ქმედების გადატანა</translation>
     </message>
     <message>
         <source>Change Title</source>
-        <translation>Titel ändern</translation>
+        <translation>სათაურის შეცვლა</translation>
     </message>
     <message>
         <source>Insert Menu</source>
-        <translation>Menü einfügen</translation>
+        <translation>მენიუს ჩასმა</translation>
     </message>
     <message>
         <source>Change signals/slots</source>
-        <translation>Signale/Slots ändern</translation>
+        <translation>სიგნალების/სლოტების შეცვლა</translation>
     </message>
     <message>
         <source>Delete Subwindow</source>
-        <translation>Subfenster löschen</translation>
+        <translation>ქვეფანჯრის წაშლა</translation>
     </message>
     <message>
         <source>Insert Subwindow</source>
-        <translation>Subfenster einfügen</translation>
+        <translation>ქვეფანჯრის ჩასმა</translation>
     </message>
     <message>
         <source>Subwindow</source>
-        <translation>Subwindow</translation>
+        <translation>ქვეფანჯარა</translation>
     </message>
     <message>
         <source>Change Z-order of &apos;%1&apos;</source>
-        <translation>Z-Reihenfolge von &apos;%1&apos; ändern</translation>
+        <translation>&apos;%1&apos;-ის Z-მიმდევრობის შეცვლა</translation>
     </message>
     <message>
         <source>Simplify Grid Layout</source>
-        <translation>Tabellarisches Layout vereinfachen</translation>
+        <translation>ბადის განლაგების გამარტივება</translation>
     </message>
     <message>
         <source>Create button group</source>
-        <translation>Buttons gruppieren</translation>
+        <translation>ღილაკების ჯგუფის შექმნა</translation>
     </message>
     <message>
         <source>Break button group</source>
-        <translation>Button-Gruppierung aufheben</translation>
+        <translation>ღილაკების ჯგუფის დაშლა</translation>
     </message>
     <message>
         <source>Break button group &apos;%1&apos;</source>
-        <translation>Gruppierung &apos;%1&apos; aufheben</translation>
+        <translation>ღილაკების ჯგუფის &apos;%1&apos; დაშლა</translation>
     </message>
     <message>
         <source>Add buttons to group</source>
-        <translation>Buttons zur Gruppierung hinzufügen</translation>
+        <translation>ღილაკების ჩამატება ჯგუფში</translation>
     </message>
     <message>
         <source>Remove buttons from group</source>
-        <translation>Buttons aus Gruppierung entfernen</translation>
+        <translation>ღილაკების წაშლა ჯგუფიდან</translation>
     </message>
     <message>
         <source>Morph %1/&apos;%2&apos; into %3</source>
         <extracomment>MorphWidgetCommand description</extracomment>
-        <translation>%1/&apos;%2&apos; in %3 umwandeln</translation>
+        <translation>%1/&apos;%2&apos;-ის გარდაქმნა %3-ად</translation>
     </message>
     <message>
         <source>Change layout of &apos;%1&apos; from %2 to %3</source>
-        <translation>Layout von &apos;%1&apos; von %2 in %3 umwandeln</translation>
+        <translation>&apos;%1&apos;-ის განლაგების შექმნა %2-დან %3-მდე</translation>
     </message>
     <message>
         <source>Change layout alignment</source>
-        <translation>Ausrichtung des Layouts ändern</translation>
+        <translation>განლაგების სწორების შეცვლა</translation>
     </message>
     <message>
         <source>Add &apos;%1&apos; to &apos;%2&apos;</source>
         <extracomment>Command description for adding buttons to a QButtonGroup</extracomment>
-        <translation>&apos;%1&apos; zu &apos;%2&apos; hinzufügen</translation>
+        <translation>&apos;%1&apos;-ის ჩამატება &apos;%2&apos;-ში</translation>
     </message>
     <message>
         <source>Remove &apos;%1&apos; from &apos;%2&apos;</source>
         <extracomment>Command description for removing buttons from a QButtonGroup</extracomment>
-        <translation> &apos;%1&apos; aus &apos;%2&apos; entfernen</translation>
+        <translation>&apos;%1&apos;-ის წაშლა &apos;%2&apos;-დან</translation>
     </message>
     <message>
         <source>Changed &apos;%1&apos; of &apos;%2&apos;</source>
-        <translation>&apos;%1&apos; von &apos;%2&apos; geändert</translation>
+        <translation>შეიცვალა &apos;%1&apos;/&apos;%2&apos;</translation>
     </message>
     <message numerus="yes">
         <source>Changed &apos;%1&apos; of %n objects</source>
         <translatorcomment>Singular will never be shown</translatorcomment>
         <translation>
-            <numerusform>Eigenschaft &apos;%1&apos; eines Objekts geändert</numerusform>
-            <numerusform>Eigenschaft &apos;%1&apos; von %n Objekten geändert</numerusform>
+            <numerusform>შეიცვალა &apos;%1&apos;/%n ობიექტი</numerusform>
+            <numerusform>შეიცვალა &apos;%1&apos;/%n ობიექტი</numerusform>
         </translation>
     </message>
     <message>
         <source>Reset &apos;%1&apos; of &apos;%2&apos;</source>
-        <translation>&apos;%1&apos; von &apos;%2&apos; zurücksetzen</translation>
+        <translation>&apos;%2&apos;-ის &apos;%1&apos;-ის ჩამოყრა</translation>
     </message>
     <message numerus="yes">
         <source>Reset &apos;%1&apos; of %n objects</source>
         <translatorcomment>Singular will never be shown</translatorcomment>
         <translation>
-            <numerusform>&apos;%1&apos; eines Objekts zurücksetzen</numerusform>
-            <numerusform>&apos;%1&apos; von %n Objekten zurücksetzen</numerusform>
+            <numerusform>%n-დან &apos;%1&apos; ობიექტის ჩამოყრა</numerusform>
+            <numerusform>%n-დან &apos;%1&apos; ობიექტის ჩამოყრა</numerusform>
         </translation>
     </message>
     <message>
         <source>Add dynamic property &apos;%1&apos; to &apos;%2&apos;</source>
-        <translation>Dynamische Eigenschaft &apos;%1&apos; zu &apos;%2&apos; hinzufügen</translation>
+        <translation>&apos;%2&apos;-ს დაემატა დინამიკური თვისება &apos;%1&apos;</translation>
     </message>
     <message numerus="yes">
         <source>Add dynamic property &apos;%1&apos; to %n objects</source>
         <translatorcomment>Singular will never be shown</translatorcomment>
         <translation>
-            <numerusform>Dynamische Eigenschaft &apos;%1&apos; zu einem Objekt hinzufügen</numerusform>
-            <numerusform>Dynamische Eigenschaft &apos;%1&apos; zu %n Objekten hinzufügen</numerusform>
+            <numerusform>დაემატა დინამიკური თვისება &apos;%1&apos; %n ობიექტს</numerusform>
+            <numerusform>დაემატა დინამიკური თვისება &apos;%1&apos; %n ობიექტს</numerusform>
         </translation>
     </message>
     <message>
         <source>Remove dynamic property &apos;%1&apos; from &apos;%2&apos;</source>
-        <translation>Dynamische Eigenschaft &apos;%1&apos; von &apos;%2&apos; entfernen</translation>
+        <translation>დინამიკური თვისების &apos;%1&apos; წაშლა &apos;%2&apos;</translation>
     </message>
     <message numerus="yes">
         <source>Remove dynamic property &apos;%1&apos; from %n objects</source>
         <translation>
-            <numerusform>Dynamische Eigenschaft &apos;%1&apos; des Objektes entfernen</numerusform>
-            <numerusform>Dynamische Eigenschaft &apos;%1&apos; von %n Objekten entfernen</numerusform>
+            <numerusform>დინამიკური თვისების &apos;%1&apos; წაშლა %n ობიექტიდან</numerusform>
+            <numerusform>დინამიკური თვისების &apos;%1&apos; წაშლა %n ობიექტიდან</numerusform>
         </translation>
     </message>
 </context>
@@ -581,7 +581,7 @@
     <name>ConnectDialog</name>
     <message>
         <source>Configure Connection</source>
-        <translation>Verbindung bearbeiten</translation>
+        <translation>მიერთების მორგება</translation>
     </message>
     <message>
         <source>GroupBox</source>
@@ -589,26 +589,26 @@
     </message>
     <message>
         <source>Edit...</source>
-        <translation>Ändern...</translation>
+        <translation>ჩასწორება...</translation>
     </message>
     <message>
         <source>Show signals and slots inherited from QWidget</source>
-        <translation>Signale und Slots von QWidget anzeigen</translation>
+        <translation>QWidget-დან მემკვიდრეობით მიღებული სიგნალებისა და სლოტების ჩვენება</translation>
     </message>
 </context>
 <context>
     <name>ConnectionDelegate</name>
     <message>
         <source>&lt;object&gt;</source>
-        <translation>&lt;Objekt&gt;</translation>
+        <translation>&lt;ობიექტი&gt;</translation>
     </message>
     <message>
         <source>&lt;signal&gt;</source>
-        <translation>&lt;Signal&gt;</translation>
+        <translation>&lt;სიგნალი&gt;</translation>
     </message>
     <message>
         <source>&lt;slot&gt;</source>
-        <translation>&lt;Slot&gt;</translation>
+        <translation>&lt;სლოტი&gt;</translation>
     </message>
 </context>
 <context>
@@ -616,17 +616,17 @@
     <message>
         <source>Standard (96 x 96)</source>
         <extracomment>Embedded device standard screen resolution</extracomment>
-        <translation>Standardauflösung (96 x 96)</translation>
+        <translation>სტანდარტული (96 x 96)</translation>
     </message>
     <message>
         <source>Greenphone (179 x 185)</source>
         <extracomment>Embedded device screen resolution</extracomment>
-        <translation>Greenphone (179 x 185)</translation>
+        <translation>მწვანე ტელეფონი (179 x 185)</translation>
     </message>
     <message>
         <source>High (192 x 192)</source>
         <extracomment>Embedded device high definition screen resolution</extracomment>
-        <translation>Hohe Auflösung (192 x 192)</translation>
+        <translation>მაღალი (192 x 192)</translation>
     </message>
 </context>
 <context>
@@ -637,41 +637,41 @@
     </message>
     <message>
         <source>Unable to launch %1: %2</source>
-        <translation>%1 konnte nicht gestartet werden: %2</translation>
+        <translation>%1-ის გაშვება შეუძლებელია: %2</translation>
     </message>
     <message>
         <source>%1 timed out.</source>
-        <translation>Zeitüberschreitung bei der Ausführung von %1.</translation>
+        <translation>%1 -ის მოლოდინის დრო ამოიწურა.</translation>
     </message>
     <message>
         <source>This file cannot be read because the extra info extension failed to load.</source>
-        <translation>Die Datei kann nicht gelesen werden (Fehler beim Laden der Daten der ExtraInfoExtension).</translation>
+        <translation>ფაილი ვერ წავიკითხე, რადგან გაფართოებისთვის საჭირო დამატებითი ინფორმაციის ჩატვირთვა ჩავარდა.</translation>
     </message>
     <message>
         <source>Custom Widgets</source>
-        <translation>Benutzerdefinierte Widgets</translation>
+        <translation>მომხმარებლის ვიჯეტები</translation>
     </message>
     <message>
         <source>Promoted Widgets</source>
-        <translation>Platzhalter für benutzerdefinierte Klassen</translation>
+        <translation>დაწინაურებული ვიჯეტები</translation>
     </message>
 </context>
 <context>
     <name>DesignerMetaEnum</name>
     <message>
         <source>%1 is not a valid enumeration value of &apos;%2&apos;.</source>
-        <translation>%1 ist kein gültiger Wert der Aufzählung &apos;%2&apos;.</translation>
+        <translation>%1 &apos;%2&apos;-ის სწორი ჩამონათვლის მნიშვნელობა არაა.</translation>
     </message>
     <message>
         <source>&apos;%1&apos; could not be converted to an enumeration value of type &apos;%2&apos;.</source>
-        <translation>&apos;%1&apos; konnte nicht  in einen Wert der Aufzählung &apos;%2&apos; konvertiert werden.</translation>
+        <translation>&apos;%1&apos; ჩამონათვლის მნიშვნელობაში ტიპისთვის &apos;%2&apos; გადაყვანა შეუძლებელია.</translation>
     </message>
 </context>
 <context>
     <name>DesignerMetaFlags</name>
     <message>
         <source>&apos;%1&apos; could not be converted to a flag value of type &apos;%2&apos;.</source>
-        <translation>&apos;%1&apos; konnte nicht  in einen Wert des Maskentyps &apos;%2&apos; konvertiert werden.</translation>
+        <translation>&apos;%1&apos; &apos;%2&apos; ტიპის ალმის მნიშვნელობაში ვერ გადავიყვანე.</translation>
     </message>
 </context>
 <context>
@@ -679,81 +679,81 @@
     <message>
         <source>&apos;%1&apos; is not a number.</source>
         <extracomment>Reading a number for an embedded device profile</extracomment>
-        <translation>&apos;%1&apos; ist keine gültige Zahl.</translation>
+        <translation>&apos;%1&apos; რიცხვი არაა.</translation>
     </message>
     <message>
         <source>An invalid tag &lt;%1&gt; was encountered.</source>
-        <translation>Ein ungültiges Element &apos;%1&apos; wurde festgestellt.</translation>
+        <translation>აღმოჩენილია არასწორი ჭდე &lt;%1&gt;.</translation>
     </message>
 </context>
 <context>
     <name>DeviceProfileDialog</name>
     <message>
         <source>&amp;Family</source>
-        <translation>Schrift&amp;familie</translation>
+        <translation>&amp;ოჯახი</translation>
     </message>
     <message>
         <source>&amp;Point Size</source>
-        <translation>Punktgröße</translation>
+        <translation>&amp;წერტილის ზომა</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation>Stil</translation>
+        <translation>სტილი</translation>
     </message>
     <message>
         <source>Device DPI</source>
-        <translation>Bildschirmauflösung</translation>
+        <translation>მოწყობილობის DPI</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Name</translation>
+        <translation>სახელი</translation>
     </message>
 </context>
 <context>
     <name>DeviceSkin</name>
     <message>
         <source>The image file &apos;%1&apos; could not be loaded.</source>
-        <translation>Die Pixmap-Datei &apos;%1&apos; konnte nicht geladen werden.</translation>
+        <translation>გამოსახულების ფაილის &apos;%1&apos; ჩატვირთვა შეუძლებელია.</translation>
     </message>
     <message>
         <source>The skin directory &apos;%1&apos; does not contain a configuration file.</source>
-        <translation>Das Skin-Verzeichnis &apos;%1&apos; enthält keine Konfigurationsdatei.</translation>
+        <translation>გარეგნობის საქაღალდე &apos;%1&apos; კონფიგურაციის ფაილს არ შეიცავს.</translation>
     </message>
     <message>
         <source>The skin configuration file &apos;%1&apos; could not be opened.</source>
-        <translation>Die Skin-Konfigurationsdatei &apos;%1&apos; konnte nicht geöffnet werden.</translation>
+        <translation>გარეგნობის კონფიგურაციის ფაილის &apos;%1&apos; გახსნა შეუძლებელია.</translation>
     </message>
     <message>
         <source>Syntax error: %1</source>
-        <translation>Syntaxfehler: %1</translation>
+        <translation>სინტაქსის შეცდომა: %1</translation>
     </message>
     <message>
         <source>The skin cursor image file &apos;%1&apos; does not exist.</source>
-        <translation>Die Skin-Bilddatei  &apos;%1&apos; für den Cursor existiert nicht.</translation>
+        <translation>გარეგნობის კურსორის გამოსახულების ფაილი &apos;%1&apos; არ არსებობს.</translation>
     </message>
     <message>
         <source>Syntax error in area definition: %1</source>
-        <translation>Die Bereichsdefinition enthält einen Syntaxfehler: %1</translation>
+        <translation>სინტაქსის შეცდომა ფართობის აღწერაში: %1</translation>
     </message>
     <message>
         <source>Mismatch in number of areas, expected %1, got %2.</source>
-        <translation>Die angegebene Anzahl der Bereiche (%1) stimmt nicht; es wurden %2 Bereiche gefunden.</translation>
+        <translation>ადგილების რაოდენობა არ ემთხვევა. მოველოდი: %1, მივიღე: %2.</translation>
     </message>
     <message>
         <source>The skin configuration file &apos;%1&apos; could not be read: %2</source>
-        <translation>Die Skin-Konfigurationsdatei &apos;%1&apos; konnte nicht gelesen werden: %2</translation>
+        <translation>გარეგნობის კონფიგურაციის ფაილის &apos;%1&apos; წაკითხვა შეუძლებელია: %2</translation>
     </message>
     <message>
         <source>The skin &quot;up&quot; image file &apos;%1&apos; does not exist.</source>
-        <translation>Die Skin-Konfigurationsdatei &apos;%1&apos; (oben) existiert nicht.</translation>
+        <translation>გარეგნობის &apos;მაღლა&apos; გამოსახულების ფაილი &apos;%1&apos; არ არსებობს.</translation>
     </message>
     <message>
         <source>The skin &quot;down&quot; image file &apos;%1&apos; does not exist.</source>
-        <translation>Die Skin-Konfigurationsdatei &apos;%1&apos; (unten) existiert nicht.</translation>
+        <translation>გარეგნობის &apos;დაბლა&apos; გამოსახულების ფაილი &apos;%1&apos; არ არსებობს.</translation>
     </message>
     <message>
         <source>The skin &quot;closed&quot; image file &apos;%1&apos; does not exist.</source>
-        <translation>Die Skin-Konfigurationsdatei &apos;%1&apos; (geschlossen) existiert nicht.</translation>
+        <translation>გარეგნობის &apos;დახურულია&apos; გამოსახულების ფაილი &apos;%1&apos; არ არსებობს.</translation>
     </message>
 </context>
 <context>
@@ -761,7 +761,7 @@
     <message>
         <source>&lt;html&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Font&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1, %2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Style&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Resolution&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%4 x %5&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;</source>
         <extracomment>Format embedded device profile description</extracomment>
-        <translation>&lt;html&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Font&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1, %2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Stil&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Auflösung&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%4 x %5&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;ფონტი&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1, %2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;სტილი&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;გაფართოება&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%4 x %5&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -769,50 +769,50 @@
     <message>
         <source>Embedded Design</source>
         <extracomment>Tab in preferences dialog</extracomment>
-        <translation>Embedded-Entwurf</translation>
+        <translation>ჩაშენებული დიზაინი</translation>
     </message>
     <message>
         <source>Device Profiles</source>
         <extracomment>EmbeddedOptionsControl group box&quot;</extracomment>
-        <translation>Profile</translation>
+        <translation>მოწყობილობის პროფილები</translation>
     </message>
 </context>
 <context>
     <name>FontPanel</name>
     <message>
         <source>Font</source>
-        <translation>Schriftart</translation>
+        <translation>შრიფტი</translation>
     </message>
     <message>
         <source>&amp;Writing system</source>
-        <translation>Schrifts&amp;ystem</translation>
+        <translation>&amp;წერის სისტემა</translation>
     </message>
     <message>
         <source>&amp;Family</source>
-        <translation>Schrift&amp;familie</translation>
+        <translation>&amp;ოჯახი</translation>
     </message>
     <message>
         <source>&amp;Style</source>
-        <translation>&amp;Stil</translation>
+        <translation>&amp;სტილი</translation>
     </message>
     <message>
         <source>&amp;Point size</source>
-        <translation>&amp;Punktgröße</translation>
+        <translation>&amp;წერტილის ზომა</translation>
     </message>
 </context>
 <context>
     <name>FontPropertyManager</name>
     <message>
         <source>PreferDefault</source>
-        <translation>Voreinstellung bevorzugt</translation>
+        <translation>მირჩევნნაგულისხმევი</translation>
     </message>
     <message>
         <source>NoAntialias</source>
-        <translation>Keine Kantenglättung</translation>
+        <translation>მოგლუვებისგარეშე</translation>
     </message>
     <message>
         <source>PreferAntialias</source>
-        <translation>Kantenglättung bevorzugen</translation>
+        <translation>მოგლუვებით</translation>
     </message>
     <message>
         <source>PreferDefaultHinting</source>
@@ -836,7 +836,7 @@
     </message>
     <message>
         <source>Antialiasing</source>
-        <translation>Kantenglättung</translation>
+        <translation>მომრგვალება</translation>
     </message>
     <message>
         <source>HintingPreference</source>
@@ -845,47 +845,47 @@
     <message>
         <source>Thin</source>
         <comment>QFont::Weight combo</comment>
-        <translation>Thin</translation>
+        <translation>თხელი</translation>
     </message>
     <message>
         <source>ExtraLight</source>
         <comment>QFont::Weight combo</comment>
-        <translation>ExtraLight</translation>
+        <translation>ძალიან თხელი</translation>
     </message>
     <message>
         <source>Light</source>
         <comment>QFont::Weight combo</comment>
-        <translation>Light</translation>
+        <translation>მსუბუქი</translation>
     </message>
     <message>
         <source>Normal</source>
         <comment>QFont::Weight combo</comment>
-        <translation>Normal</translation>
+        <translation>ჩვეულებრივი</translation>
     </message>
     <message>
         <source>Medium</source>
         <comment>QFont::Weight combo</comment>
-        <translation>Medium</translation>
+        <translation>საშუალო</translation>
     </message>
     <message>
         <source>DemiBold</source>
         <comment>QFont::Weight combo</comment>
-        <translation>DemiBold</translation>
+        <translation>საშუალოდ სქელი</translation>
     </message>
     <message>
         <source>Bold</source>
         <comment>QFont::Weight combo</comment>
-        <translation>Bold</translation>
+        <translation>სქელი</translation>
     </message>
     <message>
         <source>ExtraBold</source>
         <comment>QFont::Weight combo</comment>
-        <translation>ExtraBold</translation>
+        <translation>ძალიან სქელი</translation>
     </message>
     <message>
         <source>Black</source>
         <comment>QFont::Weight combo</comment>
-        <translation>Black</translation>
+        <translation>შავი</translation>
     </message>
 </context>
 <context>
@@ -893,12 +893,12 @@
     <message>
         <source>Invalid stretch value for &apos;%1&apos;: &apos;%2&apos;</source>
         <extracomment>Parsing layout stretch values</extracomment>
-        <translation>Ungültiger Stretch-Wert für &apos;%1&apos;: &apos;%2&apos;</translation>
+        <translation>&apos;%1&apos;-ის გაწელვის არასწორი მნიშვნელობა: &apos;%2&apos;</translation>
     </message>
     <message>
         <source>Invalid minimum size for &apos;%1&apos;: &apos;%2&apos;</source>
         <extracomment>Parsing grid layout minimum size values</extracomment>
-        <translation>Ungültige Minimalgröße für &apos;%1&apos;: &apos;%2&apos;</translation>
+        <translation>არასწორი მინიმალური ზომა &apos;%1&apos;-სთვის: &apos;%2&apos;</translation>
     </message>
 </context>
 <context>
@@ -910,172 +910,172 @@
     </message>
     <message>
         <source>Preview Zoom</source>
-        <translation>Vergrößerungsfaktor für Vorschau</translation>
+        <translation>გადიდების მინიატურა</translation>
     </message>
     <message>
         <source>Default Zoom</source>
-        <translation>Vorgabe für Vergrößerungsfaktor</translation>
+        <translation>ნაგულისხმები მასშტაბირება</translation>
     </message>
     <message>
         <source>Forms</source>
         <extracomment>Tab in preferences dialog</extracomment>
-        <translation>Formulare</translation>
+        <translation>ფორმები</translation>
     </message>
     <message>
         <source>Default Grid</source>
-        <translation>Raster für neue Formulare</translation>
+        <translation>ნაგულისხმევი ბადე</translation>
     </message>
     <message>
         <source>Object Naming Convention</source>
-        <translation>Namenskonvention für Objekte</translation>
+        <translation>ობიექტის სახელის მიღებული სტილი</translation>
     </message>
     <message>
         <source>Naming convention used for generating action object names from their text</source>
-        <translation>Konvention für die Benennung von Instanzen von QAction nach ihrem Text</translation>
+        <translation>სახელების სტილი მათი ტექსტიდან ქმედების ობიექტის სახელების შესაქმნელად</translation>
     </message>
     <message>
         <source>Camel Case</source>
-        <translation>Camel Case</translation>
+        <translation>აქლემრეგისტრი</translation>
     </message>
     <message>
         <source>Underscore</source>
-        <translation>Trennung durch Unterstrich</translation>
+        <translation>ქვედატირე</translation>
     </message>
 </context>
 <context>
     <name>FormLayoutRowDialog</name>
     <message>
         <source>Add Form Layout Row</source>
-        <translation>Formularlayoutzeile hinzufügen</translation>
+        <translation>ფორმის განლაგების მწკრივის დამატება</translation>
     </message>
     <message>
         <source>&amp;Label text:</source>
-        <translation>Be&amp;schriftung:</translation>
+        <translation>ჭ&amp;დის ტექსტი:</translation>
     </message>
     <message>
         <source>Field &amp;type:</source>
-        <translation>&amp;Datentyp:</translation>
+        <translation>ველის &amp;ტიპი:</translation>
     </message>
     <message>
         <source>&amp;Field name:</source>
-        <translation>&amp;Feldname:</translation>
+        <translation>&amp;ველის სახელი:</translation>
     </message>
     <message>
         <source>&amp;Buddy:</source>
-        <translation>&amp;Buddy:</translation>
+        <translation>&amp;მეგობარი:</translation>
     </message>
     <message>
         <source>&amp;Row:</source>
-        <translation>&amp;Zeile:</translation>
+        <translation>&amp;მწკრივი:</translation>
     </message>
     <message>
         <source>Label &amp;name:</source>
-        <translation>&amp;Label-Name:</translation>
+        <translation>ჭდის &amp;სახელი:</translation>
     </message>
 </context>
 <context>
     <name>FormWindow</name>
     <message>
         <source>Unexpected element &lt;%1&gt;</source>
-        <translation>Ungültiges Element &lt;%1&gt;</translation>
+        <translation>მოულოდნელი ელემენტი &lt;%1&gt;</translation>
     </message>
     <message>
         <source>Error while pasting clipboard contents at line %1, column %2: %3</source>
-        <translation>Fehler beim Einfügen der Zwischenablage, Zeile %1, Spalte %2: %3</translation>
+        <translation>შეცდომა ბუფერის შემცველობის ჩასმისას ხაზზე %1, სვეტი %2: %3</translation>
     </message>
 </context>
 <context>
     <name>FormWindowSettings</name>
     <message>
         <source>Form Settings</source>
-        <translation>Formulareinstellungen</translation>
+        <translation>ფორმის მორგება</translation>
     </message>
     <message>
         <source>Layout &amp;Default</source>
-        <translation>&amp;Layout-Standardwerte</translation>
+        <translation>განლაგების &amp;ნაგულისხმევი</translation>
     </message>
     <message>
         <source>&amp;Spacing:</source>
-        <translation>A&amp;bstand:</translation>
+        <translation>&amp;დაშორება:</translation>
     </message>
     <message>
         <source>&amp;Margin:</source>
-        <translation>&amp;Rand:</translation>
+        <translation>&amp;ზღვარი:</translation>
     </message>
     <message>
         <source>&amp;Layout Function</source>
-        <translation>Layout&amp;funktion</translation>
+        <translation>&amp;განლაგების ფუნქცია</translation>
     </message>
     <message>
         <source>Ma&amp;rgin:</source>
-        <translation>Ra&amp;nd:</translation>
+        <translation>&amp;ზღვარი:</translation>
     </message>
     <message>
         <source>Spa&amp;cing:</source>
-        <translation>Abstan&amp;d:</translation>
+        <translation>&amp;დაშორება:</translation>
     </message>
     <message>
         <source>Embedded Design</source>
-        <translation>Embedded-Entwurf</translation>
+        <translation>ჩაშენებული დიზაინი</translation>
     </message>
     <message>
         <source>&amp;Author</source>
-        <translation>&amp;Autor</translation>
+        <translation>&amp;ავტორი</translation>
     </message>
     <message>
         <source>&amp;Include Hints</source>
-        <translation>&amp;Include-Dateien</translation>
+        <translation>&amp;მინიშნებების ჩასმა</translation>
     </message>
     <message>
         <source>&amp;Pixmap Function</source>
-        <translation>&amp;Pixmapfunktion</translation>
+        <translation>პიქსელების რუკის &amp;ფუნქცია</translation>
     </message>
     <message>
         <source>Grid</source>
-        <translation>Raster</translation>
+        <translation>ბადე</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation>Übersetzungen</translation>
+        <translation>თარგმანები</translation>
     </message>
     <message>
         <source>ID-based</source>
-        <translation>ID-basiert</translation>
+        <translation>ID-ით</translation>
     </message>
     <message>
         <source>Connections</source>
-        <translation>Verbindungen</translation>
+        <translation>კავშირები</translation>
     </message>
     <message>
         <source>Connect slots by name</source>
-        <translation>Slots automatisch nach Name verbinden</translation>
+        <translation>სლოტებთან სახელით მიერთება</translation>
     </message>
 </context>
 <context>
     <name>IconSelector</name>
     <message>
         <source>The pixmap file &apos;%1&apos; cannot be read.</source>
-        <translation>Die Pixmap-Datei &apos;%1&apos; kann nicht gelesen werden.</translation>
+        <translation>პიქსელების რუკის ფაილის &apos;%1&apos; წაკითხვა შეუძლებელია.</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; does not appear to be a valid pixmap file: %2</source>
-        <translation>Die Datei &apos;%1&apos; ist keine gültige Pixmap-Datei: %2</translation>
+        <translation>ფაილი &apos;%1&apos; სწორი პიქსელების რუკის ფაილს არ წააგავს: %2</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; could not be read: %2</source>
-        <translation>Die Datei &apos;%1&apos; konnte nicht gelesen werden: %2</translation>
+        <translation>ფაილის &apos;%1&apos; წაკითხვა შეუძლებელია: %2</translation>
     </message>
     <message>
         <source>All Pixmaps (</source>
-        <translation>Alle Pixmap-Dateien (</translation>
+        <translation>ყველა პიქსელის რუკა (</translation>
     </message>
     <message>
         <source>Choose a Pixmap</source>
-        <translation>Pixmap-Datei auswählen</translation>
+        <translation>აირჩიეთ პიქსელების რუკა</translation>
     </message>
     <message>
         <source>Pixmap Read Error</source>
-        <translation>Fehler beim Lesen der Pixmap</translation>
+        <translation>პიქსელების რუკის წაკითხვის შეცდომა</translation>
     </message>
     <message>
         <source>...</source>
@@ -1083,51 +1083,51 @@
     </message>
     <message>
         <source>Normal Off</source>
-        <translation>Normal, aus</translation>
+        <translation>ნორმალური გამორთ</translation>
     </message>
     <message>
         <source>Normal On</source>
-        <translation>Normal, ein</translation>
+        <translation>ნორმალური ჩართ</translation>
     </message>
     <message>
         <source>Disabled Off</source>
-        <translation>Nicht verfügbar, aus</translation>
+        <translation>გამორთულობი გამორთ</translation>
     </message>
     <message>
         <source>Disabled On</source>
-        <translation>Verfügbar, ein</translation>
+        <translation>გამორთულობის ჩართ</translation>
     </message>
     <message>
         <source>Active Off</source>
-        <translation>Aktiv, aus</translation>
+        <translation>აქტიურობის გამორთ</translation>
     </message>
     <message>
         <source>Active On</source>
-        <translation>Aktiv, ein</translation>
+        <translation>აქტიურობის ჩართ</translation>
     </message>
     <message>
         <source>Selected Off</source>
-        <translation>Ausgewählt, aus</translation>
+        <translation>მონიშნულობის გამორთ</translation>
     </message>
     <message>
         <source>Selected On</source>
-        <translation>Ausgewählt, ein</translation>
+        <translation>მონიშნულობის ჩართ</translation>
     </message>
     <message>
         <source>Choose Resource...</source>
-        <translation>Ressource auswählen...</translation>
+        <translation>აირჩიეთ რესურსი...</translation>
     </message>
     <message>
         <source>Choose File...</source>
-        <translation>Datei auswählen...</translation>
+        <translation>ფაილის არჩევა...</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Zurücksetzen</translation>
+        <translation>თავიდან</translation>
     </message>
     <message>
         <source>Reset All</source>
-        <translation>Alle zurücksetzen</translation>
+        <translation>ყველა საწყისი მნიშვნელობის დაბრუნება</translation>
     </message>
 </context>
 <context>
@@ -1135,7 +1135,7 @@
     <message>
         <source>XX Icon Selected off</source>
         <extracomment>Sample string to determinate the width for the first column of the list item property browser</extracomment>
-        <translation>Ausgewähltes Icon, aus</translation>
+        <translation>XX ხატულის მონიშვნა გათიშ</translation>
     </message>
 </context>
 <context>
@@ -1143,23 +1143,23 @@
     <message>
         <source>Main</source>
         <extracomment>Not currently used (main tool bar)</extracomment>
-        <translation>Haupt-Werkzeugleiste</translation>
+        <translation>მთავარი</translation>
     </message>
     <message>
         <source>File</source>
-        <translation>Datei</translation>
+        <translation>ფაილი</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Bearbeiten</translation>
+        <translation>ჩასწორება</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation>Werkzeuge</translation>
+        <translation>ხელსაწყოები</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Formular</translation>
+        <translation>ფორმა</translation>
     </message>
     <message>
         <source>Qt Designer</source>
@@ -1170,80 +1170,80 @@
     <name>NewForm</name>
     <message>
         <source>C&amp;reate</source>
-        <translation>&amp;Neu von Vorlage</translation>
+        <translation>&amp;შექმნა</translation>
     </message>
     <message>
         <source>Recent</source>
-        <translation>Zuletzt bearbeitet</translation>
+        <translation>Ბოლო</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Schließen</translation>
+        <translation>&amp;დახურვა</translation>
     </message>
     <message>
         <source>&amp;Open...</source>
-        <translation>&amp;Öffnen...</translation>
+        <translation>&amp;გახსნა...</translation>
     </message>
     <message>
         <source>&amp;Recent Forms</source>
-        <translation>&amp;Zuletzt bearbeitete Formulare</translation>
+        <translation>&amp;ახლახან გამოყენებული ფორმები</translation>
     </message>
     <message>
         <source>Read error</source>
-        <translation>Lesefehler</translation>
+        <translation>წაკითხვის შეცდომა</translation>
     </message>
     <message>
         <source>A temporary form file could not be created in %1: %2</source>
-        <translation>Es konnte keine temporäre Formular-Datei in %1 erzeugt werden: %2</translation>
+        <translation>დროებითი ფორმის ფაილის შექმნა %1-ში შეუძლებელია: %2</translation>
     </message>
     <message>
         <source>The temporary form file %1 could not be written: %2</source>
-        <translation>Die temporäre Formulardatei %1 konnte nicht geschrieben werden: %2</translation>
+        <translation>დროებითი ფორმის ფაილის %1 ჩაწერა შეუძლებელია: %2</translation>
     </message>
     <message>
         <source>New Form</source>
-        <translation>Neues Formular</translation>
+        <translation>ახალი ფორმა</translation>
     </message>
     <message>
         <source>Show this Dialog on Startup</source>
-        <translation>Diesen Dialog zu Beginn anzeigen</translation>
+        <translation>ამ ფორმის ჩვენება გაშვებისას</translation>
     </message>
 </context>
 <context>
     <name>ObjectInspectorModel</name>
     <message>
         <source>Object</source>
-        <translation>Objekt</translation>
+        <translation>ობიექტი</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation>Klasse</translation>
+        <translation>კლასი</translation>
     </message>
     <message>
         <source>separator</source>
-        <translation>Trenner</translation>
+        <translation>გამყოფი</translation>
     </message>
     <message>
         <source>&lt;noname&gt;</source>
-        <translation>&lt;unbenannt&gt;</translation>
+        <translation>&lt;უსახელო&gt;</translation>
     </message>
 </context>
 <context>
     <name>ObjectNameDialog</name>
     <message>
         <source>Change Object Name</source>
-        <translation>Objektnamen bearbeiten</translation>
+        <translation>ობიექტის სახელის შეცვლა</translation>
     </message>
     <message>
         <source>Object Name</source>
-        <translation>Objektname</translation>
+        <translation>ობიექტის სახელი</translation>
     </message>
 </context>
 <context>
     <name>PluginDialog</name>
     <message>
         <source>Plugin Information</source>
-        <translation>Plugins</translation>
+        <translation>დამატების ინფორმაცია</translation>
     </message>
     <message>
         <source>1</source>
@@ -1254,26 +1254,26 @@
     <name>PreferencesDialog</name>
     <message>
         <source>Preferences</source>
-        <translation>Einstellungen</translation>
+        <translation>მორგება</translation>
     </message>
 </context>
 <context>
     <name>PreviewConfigurationWidget</name>
     <message>
         <source>Form</source>
-        <translation>Formular</translation>
+        <translation>ფორმა</translation>
     </message>
     <message>
         <source>Print/Preview Configuration</source>
-        <translation>Druck/Vorschau</translation>
+        <translation>დაბეჭდვის/მინიატურის მორგება</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation>Stil</translation>
+        <translation>სტილი</translation>
     </message>
     <message>
         <source>Style sheet</source>
-        <translation>Style sheet</translation>
+        <translation>სტილების ცხრილი</translation>
     </message>
     <message>
         <source>...</source>
@@ -1281,7 +1281,7 @@
     </message>
     <message>
         <source>Device skin</source>
-        <translation>Geräte-Skin</translation>
+        <translation>მოწყობილობის გარეგნობა</translation>
     </message>
 </context>
 <context>
@@ -1289,166 +1289,167 @@
     <message>
         <source>Not used</source>
         <extracomment>Usage of promoted widgets</extracomment>
-        <translation>Nicht verwendet</translation>
+        <translation>არ გამოიყენება</translation>
     </message>
 </context>
 <context>
     <name>QAbstractFormBuilder</name>
     <message>
         <source>An error has occurred while reading the UI file at line %1, column %2: %3</source>
-        <translation>Fehler beim Lesen der ui-Datei bei Zeile %1, Spalte %2: %3</translation>
+        <translation>შეცდომა UI ფაილის კითხვისას ხაზზე %1, სვეტი %2: %3</translation>
     </message>
     <message>
         <source>This file was created using Designer from Qt-%1 and cannot be read.</source>
-        <translation>Diese Datei wurde mit Designer Version %1 erstellt und kann nicht gelesen werden.</translation>
+        <translation>ეს ფაილი შეიქმნა Designer-ით Qt-%1-დან და მას ვერ წავიკითხავ.</translation>
     </message>
     <message>
         <source>This file cannot be read because it was created using %1.</source>
-        <translation>Die Datei kann nicht gelesen werden, da sie mit %1 erzeugt wurde.</translation>
+        <translation>ფაილის წაკითხვა შეუძლებელია, რადგან ის %1-ის გამოყენებითაა შექმნილი.</translation>
     </message>
     <message>
         <source>Invalid UI file: The root element &lt;ui&gt; is missing.</source>
-        <translation>Fehler beim Lesen der ui-Datei: Das Wurzelelement &lt;ui&gt; fehlt.</translation>
+        <translation>არასწორი ინტერფეისის ფალი. აკლია ძირითადი ელემენტი &lt;ui&gt;.</translation>
     </message>
     <message>
         <source>Invalid UI file</source>
-        <translation>Ungültige UI-Datei</translation>
+        <translation>არასწორი ინტერფეისის ფაილი</translation>
     </message>
     <message>
         <source>The creation of a widget of the class &apos;%1&apos; failed.</source>
-        <translation>Es konnte kein Widget der Klasse &apos;%1&apos; erzeugt werden.</translation>
+        <translation>ვიჯეტის, კლასით &apos;%1&apos; შექმნა ჩავარდა.</translation>
     </message>
     <message>
         <source>Attempt to add child that is not of class QWizardPage to QWizard.</source>
-        <translation>Es wurde versucht, einem Objekt der Klasse  QWizard eine Seite hinzuzufügen, die nicht vom Typ QWizardPage ist.</translation>
+        <translation>მცდელობა, QWizard-ში დაემატოს შვილი ვიჯეტი, რომელიც QWizardPage კლასის არაა.</translation>
     </message>
     <message>
         <source>Attempt to add a layout to a widget &apos;%1&apos; (%2) which already has a layout of non-box type %3.
 This indicates an inconsistency in the ui-file.</source>
-        <translation>Es wurde versucht, ein Layout auf das Widget &apos;%1&apos; (%2) zu setzen, welches bereits ein Layout vom Typ %3 hat. Das deutet auf eine Inkonsistenz in der ui-Datei hin.</translation>
+        <translation>მცდელობა, დაამატოთ განლაგება ვიჯეტს &apos;%1&apos; (%2), რომელსაც უკვე გააჩნია განლაგება ტიპით %3.
+ეს ui ფაილების არამდგრადობაზე მიუთითებს.</translation>
     </message>
     <message>
         <source>Empty widget item in %1 &apos;%2&apos;.</source>
-        <translation>Leeres Widget-Item in %1 &apos;%2&apos;.</translation>
+        <translation>ცარიელი ვიჯეტის ელემენტი %1-ში &apos;%2&apos;.</translation>
     </message>
     <message>
         <source>Flags property are not supported yet.</source>
-        <translation>Eigenschaften des Typs &quot;Flag&quot; werden nicht unterstützt.</translation>
+        <translation>ალმის თვისებები ჯერ მხარდაჭერილი არაა.</translation>
     </message>
     <message>
         <source>While applying tab stops: The widget &apos;%1&apos; could not be found.</source>
-        <translation>Fehler beim Setzen der Tabulatorreihenfolge: Es konnte kein Widget mit dem Namen &apos;%1&apos; gefunden werden.</translation>
+        <translation>ტაბულაციის გამოყენებისას: ვიჯეტი &apos;%1&apos; აღმოჩენილი არაა.</translation>
     </message>
     <message>
         <source>Invalid QButtonGroup reference &apos;%1&apos; referenced by &apos;%2&apos;.</source>
-        <translation>Ungültige Referenz der Buttongruppe &apos;%1&apos;, referenziert von &apos;%2&apos;.</translation>
+        <translation>არასწორი QButtonGroup-ის მიმართვა &apos;%1&apos;, რომელსაც მიმართავს &apos;%2&apos;.</translation>
     </message>
 </context>
 <context>
     <name>QAxWidgetPlugin</name>
     <message>
         <source>ActiveX control</source>
-        <translation>ActiveX-Steuerelement</translation>
+        <translation>ActiveX კონტროლი</translation>
     </message>
     <message>
         <source>ActiveX control widget</source>
-        <translation>ActiveX-Widget</translation>
+        <translation>ActiveX კონტროლის ვიჯეტი</translation>
     </message>
 </context>
 <context>
     <name>QAxWidgetTaskMenu</name>
     <message>
         <source>Set Control</source>
-        <translation>Steuerelement setzen</translation>
+        <translation>კონტროლის დაყენება</translation>
     </message>
     <message>
         <source>Reset Control</source>
-        <translation>Steuerelement zurücksetzen</translation>
+        <translation>კონტროლის ჩამოყრა</translation>
     </message>
     <message>
         <source>Licensed Control</source>
-        <translation>Steuerelement erfordert Lizenz</translation>
+        <translation>ლიცენზირებული კონტროლი</translation>
     </message>
     <message>
         <source>The control requires a design-time license</source>
-        <translation>Dieses Steuerelement erfordert eine Lizenz zur Entwurfszeit</translation>
+        <translation>ელემენტისთვის აუცილებელია პროგრამისტის ლიცენზია</translation>
     </message>
 </context>
 <context>
     <name>QCoreApplication</name>
     <message>
         <source>%1 is not a promoted class.</source>
-        <translation>%1 ist kein Platzhalter für eine benutzerdefinierte Klasse.</translation>
+        <translation>%1 დაწინაურებული კლასი არაა.</translation>
     </message>
     <message>
         <source>The base class %1 is invalid.</source>
-        <translation>%1 ist keine gültige Basisklasse.</translation>
+        <translation>საბაზისო კლასი %1 არასწორია.</translation>
     </message>
     <message>
         <source>The class %1 already exists.</source>
-        <translation>Es existiert bereits eine Klasse namens %1.</translation>
+        <translation>კლასი %1 უკვე არსებობს.</translation>
     </message>
     <message>
         <source>Promoted Widgets</source>
-        <translation>Platzhalter für benutzerdefinierte Klassen</translation>
+        <translation>დაწინაურებული ვიჯეტები</translation>
     </message>
     <message>
         <source>The class %1 cannot be removed</source>
-        <translation>Die Klasse %1 kann nicht gelöscht werden</translation>
+        <translation>კლასის %1 წაშლა შეუძლებელია</translation>
     </message>
     <message>
         <source>The class %1 cannot be removed because it is still referenced.</source>
-        <translation>Die Klasse %1 kann nicht gelöscht werden, da sie gegenwärtig verwendet wird.</translation>
+        <translation>კლასის %1 წაშლა შეუძლებელია, რადგან მასზე მიმართვები ჯერ კიდევ არსებობს.</translation>
     </message>
     <message>
         <source>The class %1 cannot be renamed</source>
-        <translation>Die Klasse %1 kann nicht umbenannt werden</translation>
+        <translation>კლასისთვის %1 სახელის გადარქმევა შეუძლებელია</translation>
     </message>
     <message>
         <source>The class %1 cannot be renamed to an empty name.</source>
-        <translation>Der Klassennamen darf nicht leer sein (%1).</translation>
+        <translation>კლასს %1 სახელს ცარიელს სახელზე ვერ გადაარქმევთ.</translation>
     </message>
     <message>
         <source>There is already a class named %1.</source>
-        <translation>Es existiert bereits eine Klasse namens %1.</translation>
+        <translation>კლასი სახელით %1 უკვე არსებობს.</translation>
     </message>
     <message>
         <source>Cannot set an empty include file.</source>
-        <translation>Der Name der Include-Datei darf nicht leer sein.</translation>
+        <translation>ცარიელ ჩასასმელ ფაილს ვერ დააყენებთ.</translation>
     </message>
 </context>
 <context>
     <name>QDesigner</name>
     <message>
         <source>%1 - warning</source>
-        <translation>%1 - Warnung</translation>
+        <translation>%1 - გაფრთხილება</translation>
     </message>
 </context>
 <context>
     <name>QDesignerActions</name>
     <message>
         <source>Edit Widgets</source>
-        <translation>Widgets bearbeiten</translation>
+        <translation>ვიჯეტების ჩასწორება</translation>
     </message>
     <message>
         <source>&amp;Quit</source>
-        <translation>&amp;Beenden</translation>
+        <translation>&amp;გასვლა</translation>
     </message>
     <message>
         <source>&amp;Minimize</source>
-        <translation>&amp;Minimieren</translation>
+        <translation>&amp;ჩაკეცვა</translation>
     </message>
     <message>
         <source>Bring All to Front</source>
-        <translation>Alle Formulare anzeigen</translation>
+        <translation>ყველას წინ გამოტანა</translation>
     </message>
     <message>
         <source>Preferences...</source>
-        <translation>Einstellungen...</translation>
+        <translation>მორგება...</translation>
     </message>
     <message>
         <source>Clear &amp;Menu</source>
-        <translation>Menü &amp;löschen</translation>
+        <translation>მენიუს &amp;გასუფთავება</translation>
     </message>
     <message>
         <source>CTRL+SHIFT+S</source>
@@ -1464,73 +1465,73 @@ This indicates an inconsistency in the ui-file.</source>
     </message>
     <message>
         <source>Qt Designer &amp;Help</source>
-        <translation>&amp;Hilfe zum Qt Designer</translation>
+        <translation>Qt Designer-ის &amp;დახმარება</translation>
     </message>
     <message>
         <source>Current Widget Help</source>
-        <translation>Hilfe zum ausgewählten Widget</translation>
+        <translation>მიმდინარე ვიჯეტის დახმარება</translation>
     </message>
     <message>
         <source>About Plugins</source>
-        <translation>Plugins</translation>
+        <translation>დამატებების შესახებ</translation>
     </message>
     <message>
         <source>About Qt Designer</source>
-        <translation>Über Qt Designer</translation>
+        <translation>Qt Designer-ს შესახებ</translation>
     </message>
     <message>
         <source>About Qt</source>
-        <translation>Über Qt</translation>
+        <translation>Qt-ის შესახებ</translation>
     </message>
     <message>
         <source>Open Form</source>
-        <translation>Formular öffnen</translation>
+        <translation>ფორმის გახსნა</translation>
     </message>
     <message>
         <source>Designer UI files (*.%1);;All Files (*)</source>
-        <translation>Designer-UI-Dateien (*.%1);;Alle Dateien (*)</translation>
+        <translation>Designer-ის ინტერფეისის ფაილები (*.%1);;ყველა ფაილი (*)</translation>
     </message>
     <message>
         <source>Saved %1.</source>
-        <translation>Das Formular %1 wurde gespeichert...</translation>
+        <translation>%1 შენახულია.</translation>
     </message>
     <message>
         <source>View &amp;C++ Code...</source>
-        <translation>&amp;C++-Code anzeigen...</translation>
+        <translation>&amp;C++ კოდის ნახვა...</translation>
     </message>
     <message>
         <source>View &amp;Python Code...</source>
-        <translation>&amp;Python-Code anzeigen...</translation>
+        <translation>&amp;Python-ის კოდის ნახვა...</translation>
     </message>
     <message>
         <source>&amp;Recent Forms</source>
-        <translation>&amp;Zuletzt bearbeitete Formulare</translation>
+        <translation>&amp;ახლახან გამოყენებული ფორმები</translation>
     </message>
     <message>
         <source>Designer</source>
-        <translation>Designer</translation>
+        <translation>დიზაინერი</translation>
     </message>
     <message>
         <source>Feature not implemented yet!</source>
-        <translation>Diese Funktionalität ist noch nicht implementiert.</translation>
+        <translation>ფუნქცია ჯერ განხორციელებული არაა!</translation>
     </message>
     <message>
         <source>Read error</source>
-        <translation>Lesefehler</translation>
+        <translation>წაკითხვის შეცდომა</translation>
     </message>
     <message>
         <source>%1
 Do you want to update the file location or generate a new form?</source>
         <translation>%1
-Möchten Sie einen anderen Namen eingeben oder ein neues Formular erzeugen?</translation>
+გნებავთ განაახლოთ ფაილის მდებარეობა თუ ახალი ფორმის გენერაცია?</translation>
     </message>
     <message>
         <source>&amp;Update</source>
-        <translation>&amp;Anderer Name</translation>
+        <translation>&amp;განახლება</translation>
     </message>
     <message>
         <source>&amp;New Form</source>
-        <translation>&amp;Neues Formular</translation>
+        <translation>&amp;ახალი ფორმა</translation>
     </message>
     <message>
         <source>Qt Designer</source>
@@ -1538,133 +1539,133 @@ Möchten Sie einen anderen Namen eingeben oder ein neues Formular erzeugen?</tra
     </message>
     <message>
         <source>Save Form?</source>
-        <translation>Formular speichern?</translation>
+        <translation>შევინახო ფორმა?</translation>
     </message>
     <message>
         <source>Could not open file</source>
-        <translation>Die Datei konnte nicht geöffnet werden</translation>
+        <translation>ფაილის გახსნის შეცდომა</translation>
     </message>
     <message>
         <source>Save Form</source>
-        <translation>Formular speichern</translation>
+        <translation>ფორმის შენახვა</translation>
     </message>
     <message>
         <source>The backup file %1 could not be written.</source>
-        <translation>Hintergrundsicherung: Die Datei %1 konnte nicht geschrieben werden.</translation>
+        <translation>მარქაფის ფაილში %1 ჩაწერა შეუძლებელია.</translation>
     </message>
     <message>
         <source>The backup directory %1 could not be created.</source>
-        <translation>Hintergrundsicherung: Das Verzeichnis %1 konnte nicht angelegt werden.</translation>
+        <translation>მარქაფის საქაღალდის %1 შექმნა შეუძლებელია.</translation>
     </message>
     <message>
         <source>The temporary backup directory %1 could not be created.</source>
-        <translation>Hintergrundsicherung: Das temporäre Verzeichnis %1 konnte nicht angelegt werden.</translation>
+        <translation>დროებითი მარქაფის საქაღალდის %1 შექმნა შეუძლებელია.</translation>
     </message>
     <message>
         <source>Please close all forms to enable the loading of additional fonts.</source>
-        <translation>Bitte schließen Sie alle Formulare, um zusätzliche Schriftarten zu laden.</translation>
+        <translation>დამატებითი ფონტების ჩასატვირთად დახურეთ ყველა ფორმა.</translation>
     </message>
     <message>
         <source>Select New File</source>
-        <translation>Andere Datei</translation>
+        <translation>აირჩიეთ ახალი ფაილი</translation>
     </message>
     <message>
         <source>Could not write file</source>
-        <translation>Die Datei konnte nicht geschrieben werden</translation>
+        <translation>ფაილში ჩაწერის შეცდომა</translation>
     </message>
     <message>
         <source>&amp;Close Preview</source>
-        <translation>Vorschau &amp;schließen</translation>
+        <translation>მინიატურის &amp;დახურვა</translation>
     </message>
     <message>
         <source>Save &amp;Image...</source>
-        <translation>&amp;Vorschaubild speichern...</translation>
+        <translation>&amp;გამოსახულების შენახვა…</translation>
     </message>
     <message>
         <source>&amp;Print...</source>
-        <translation>&amp;Drucken...</translation>
+        <translation>&amp;ამობეჭდვა...</translation>
     </message>
     <message>
         <source>Additional Fonts...</source>
-        <translation>&amp;Zusätzliche Schriftarten...</translation>
+        <translation>დამატებითი ფონტები...</translation>
     </message>
     <message>
         <source>The file %1 could not be opened.
 Reason: %2
 Would you like to retry or select a different file?</source>
-        <translation>Die Datei %1 konnte nicht geöffnet werden:
-%2
-Möchten Sie es noch einmal versuchen oder eine andere Datei auswählen?</translation>
+        <translation>ფაილის %1 გახსნა შეუძლებელია.
+მიზეზი: %2
+გნებავთ, თავიდან ვცადო, თუ სხვა ფაილს აირჩევთ?</translation>
     </message>
     <message>
         <source>It was not possible to write the file %1 to disk.
 Reason: %2</source>
-        <translation>Die Datei %1 konnte nicht geschrieben werden.
-Grund: %2</translation>
+        <translation>%1-ის დისკზე ჩაწერა შეუძლებელია.
+მიზეზი: %2</translation>
     </message>
     <message>
         <source>Image files (*.%1)</source>
-        <translation>Bilddateien (*.%1)</translation>
+        <translation>გამოსახულების ფაილები (*.%1)</translation>
     </message>
     <message>
         <source>Save Image</source>
-        <translation>Bild speichern</translation>
+        <translation>გამოსახულების შენახვა</translation>
     </message>
     <message>
         <source>The file %1 could not be written.</source>
-        <translation>Die Datei %1 konnte nicht geschrieben werden.</translation>
+        <translation>ფაილის %1 ჩაწერა შეუძლებელია.</translation>
     </message>
     <message>
         <source>&amp;New...</source>
-        <translation>&amp;Neu...</translation>
+        <translation>&amp;ახალი...</translation>
     </message>
     <message>
         <source>&amp;Open...</source>
-        <translation>&amp;Öffnen...</translation>
+        <translation>&amp;გახსნა...</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;Speichern</translation>
+        <translation>&amp;შენახვა</translation>
     </message>
     <message>
         <source>Save &amp;As...</source>
-        <translation>Speichern &amp;unter...</translation>
+        <translation>შეინახვა &amp;როგორც...</translation>
     </message>
     <message>
         <source>Save A&amp;ll</source>
-        <translation>&amp;Alles speichern</translation>
+        <translation>&amp;ყველას შენახვა</translation>
     </message>
     <message>
         <source>Save As &amp;Template...</source>
-        <translation>Als Vor&amp;lage abspeichern...</translation>
+        <translation>&amp;ნიმუშად შენახვა...</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Schließen</translation>
+        <translation>&amp;დახურვა</translation>
     </message>
     <message>
         <source>Save Form As</source>
-        <translation>Formular unter einem anderen Namen speichern</translation>
+        <translation>ფორმის შენახვა, როგორც</translation>
     </message>
     <message>
         <source>Preview failed</source>
-        <translation>Es konnte keine Vorschau erzeugt werden</translation>
+        <translation>მინიატურის შეცდომა</translation>
     </message>
     <message>
         <source>Code generation failed</source>
-        <translation>Es konnte kein Code generiert werden</translation>
+        <translation>კოდის გენერაცია ჩავარდა</translation>
     </message>
     <message>
         <source>Assistant</source>
-        <translation>Assistant</translation>
+        <translation>დამხმარე</translation>
     </message>
     <message>
         <source>Saved image %1.</source>
-        <translation>Das Vorschaubild wurde unter %1 gespeichert.</translation>
+        <translation>გამოსახულება %1 შენახულია.</translation>
     </message>
     <message>
         <source>Printed %1.</source>
-        <translation>%1 wurde gedruckt.</translation>
+        <translation>დაბეჭდილია: %1.</translation>
     </message>
     <message>
         <source>ALT+CTRL+S</source>
@@ -1676,52 +1677,52 @@ Grund: %2</translation>
     <message>
         <source>Appearance</source>
         <extracomment>Tab in preferences dialog</extracomment>
-        <translation>Ansicht</translation>
+        <translation>გარეგნობა</translation>
     </message>
 </context>
 <context>
     <name>QDesignerAppearanceOptionsWidget</name>
     <message>
         <source>Docked Window</source>
-        <translation>Dockfenster-Modus</translation>
+        <translation>მიმაგრებული ფანჯარა</translation>
     </message>
     <message>
         <source>Multiple Top-Level Windows</source>
-        <translation>Multifenster-Modus</translation>
+        <translation>ერთზე მეტი უმაღლესი დონის ფანჯარა</translation>
     </message>
     <message>
         <source>Toolwindow Font</source>
-        <translation>Font für Dockfenster</translation>
+        <translation>ხელსაწყოების ფანჯრის ფონტი</translation>
     </message>
 </context>
 <context>
     <name>QDesignerAxWidget</name>
     <message>
         <source>Reset control</source>
-        <translation>Steuerelement zurücksetzen</translation>
+        <translation>კონტროლის ჩამოყრა</translation>
     </message>
     <message>
         <source>Set control</source>
-        <translation>Steuerelement setzen</translation>
+        <translation>კონტროლის დაყენება</translation>
     </message>
     <message>
         <source>Control loaded</source>
-        <translation>Steuerelement geladen</translation>
+        <translation>კონტროლი ჩაიტვირთა</translation>
     </message>
     <message>
         <source>A COM exception occurred when executing a meta call of type %1, index %2 of &quot;%3&quot;.</source>
-        <translation>Beim Ausführen eines Meta-Aufrufs des Typs %1, Index %2 von &quot;%3&quot; trat eine eine COM-Ausnahme auf.</translation>
+        <translation>COM გამონაკლისი მეტაგამოძახების შესრულებისას ტიპით %1, ინდექსი %2 &quot;%3&quot;-დან.</translation>
     </message>
 </context>
 <context>
     <name>QDesignerFormBuilder</name>
     <message>
         <source>The preview failed to build.</source>
-        <translation>Es konnte keine Vorschau erzeugt werden.</translation>
+        <translation>მინიატურის აგება ჩავარდა.</translation>
     </message>
     <message>
         <source>Designer</source>
-        <translation>Designer</translation>
+        <translation>დიზაინერი</translation>
     </message>
 </context>
 <context>
@@ -1732,253 +1733,253 @@ Grund: %2</translation>
     </message>
     <message>
         <source>Save Form?</source>
-        <translation>Formular speichern?</translation>
+        <translation>შევინახო ფორმა?</translation>
     </message>
     <message>
         <source>Do you want to save the changes to this document before closing?</source>
-        <translation>Möchten Sie die Änderungen an diesem Formular speichern?</translation>
+        <translation>გნებავთ შეინახოთ ცვლილებები ამ დოკუმენტში მის დახურვამდე?</translation>
     </message>
     <message>
         <source>If you don&apos;t save, your changes will be lost.</source>
-        <translation>Die Änderungen gehen verloren, wenn Sie nicht speichern. </translation>
+        <translation>თუ არ შეინახავთ, თქვენი ცვლილებები დაიკარგება.</translation>
     </message>
 </context>
 <context>
     <name>QDesignerMenu</name>
     <message>
         <source>Type Here</source>
-        <translation>Geben Sie Text ein</translation>
+        <translation>აკრიფეთ აქ</translation>
     </message>
     <message>
         <source>Add Separator</source>
-        <translation>Trenner hinzufügen</translation>
+        <translation>გამყოფის დამატება</translation>
     </message>
     <message>
         <source>Insert separator</source>
-        <translation>Trenner einfügen</translation>
+        <translation>გამყოფის ჩასმა</translation>
     </message>
     <message>
         <source>Remove action &apos;%1&apos;</source>
-        <translation>Aktion &apos;%1&apos; löschen</translation>
+        <translation>წაიშლება ქმედება &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Remove separator</source>
-        <translation>Trenner löschen</translation>
+        <translation>გამყოფის წაშლა</translation>
     </message>
     <message>
         <source>Add separator</source>
-        <translation>Trenner hinzufügen</translation>
+        <translation>გამყოფის დამატება</translation>
     </message>
     <message>
         <source>Insert action</source>
-        <translation>Aktion einfügen</translation>
+        <translation>ქმედების ჩასმა</translation>
     </message>
 </context>
 <context>
     <name>QDesignerMenuBar</name>
     <message>
         <source>Type Here</source>
-        <translation>Geben Sie Text ein</translation>
+        <translation>აკრიფეთ აქ</translation>
     </message>
     <message>
         <source>Remove Menu &apos;%1&apos;</source>
-        <translation>Menü &apos;%1&apos; löschen</translation>
+        <translation>მენიუს &apos;%1&apos; მოცილება</translation>
     </message>
     <message>
         <source>Remove Menu Bar</source>
-        <translation>Menüleiste löschen</translation>
+        <translation>მენიუს პანელის მოცილება</translation>
     </message>
     <message>
         <source>Menu</source>
-        <translation>Menü</translation>
+        <translation>მენიუ</translation>
     </message>
 </context>
 <context>
     <name>QDesignerPluginManager</name>
     <message>
         <source>An XML error was encountered when parsing the XML of the custom widget %1: %2</source>
-        <translation>Fehler beim Auswerten des XML des benutzerdefinierten Widgets %1: %2</translation>
+        <translation>XML-ის შეცდომა XML-ის დამუშვებისას მომხმარებლის ვიჯეტისთვის %1: %2</translation>
     </message>
     <message>
         <source>A required attribute (&apos;%1&apos;) is missing.</source>
-        <translation>Bei dem Element fehlt ein erforderliches Attribut (&apos;%1&apos;).</translation>
+        <translation>აკლია აუცილებელი ატრიბუტი &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>An invalid property specification (&apos;%1&apos;) was encountered. Supported types: %2</source>
-        <translation>&apos;%1&apos; ist keine gültige Spezifikation einer Eigenschaft. Die folgenden Typen werden unterstützt: %2</translation>
+        <translation>აღმოჩენილია არასწორი თვისების სპეციფიკაცია &apos;%1&apos;. მხარდაჭერილი ტიპებია: %2</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a valid string property specification.</source>
-        <translation>&apos;%1&apos; ist keine gültige Spezifikation einer Zeichenketten-Eigenschaft.</translation>
+        <translation>&apos;%1&apos; არასწორი სტრიქონის თვისების სპეციფიკაციაა.</translation>
     </message>
     <message>
         <source>The XML of the custom widget %1 does not contain any of the elements &lt;widget&gt; or &lt;ui&gt;.</source>
-        <translation>Der XML-Code für das Widget %1 enthält kein gültiges Wurzelelement (&lt;widget&gt;, &lt;ui&gt;).</translation>
+        <translation>მომხმარებლს ვიჯეტის %1 XML არ შეიცავს ელემენტების &lt;witdget&gt; ან &lt;ui&gt;.</translation>
     </message>
     <message>
         <source>The class attribute for the class %1 is missing.</source>
-        <translation>Das Klassenattribut der Klasse %1 fehlt.</translation>
+        <translation>აკლია კლასის ატრიბუტი კლასისთვის %1.</translation>
     </message>
     <message>
         <source>The class attribute for the class %1 does not match the class name %2.</source>
-        <translation>Das Klassenattribut der Klasse %1 entspricht nicht dem Klassennamen (%2).</translation>
+        <translation>ატრიბუტი კლასისთვის %1 არ ემთხვევა კლასის სახელს %2.</translation>
     </message>
 </context>
 <context>
     <name>QDesignerPropertySheet</name>
     <message>
         <source>Dynamic Properties</source>
-        <translation>Dynamische Eigenschaften</translation>
+        <translation>დინამიკური თვისებები</translation>
     </message>
 </context>
 <context>
     <name>QDesignerResource</name>
     <message>
         <source>The layout type &apos;%1&apos; is not supported, defaulting to grid.</source>
-        <translation>Der Layout-Typ &apos;%1&apos; wird nicht unterstützt; es wurde ein Grid-Layout erzeugt.</translation>
+        <translation>განლაგების ტიპი &apos;%1&apos; მხარდაჭერილი არაა. გადართვა ბადეზე.</translation>
     </message>
     <message>
         <source>The container extension of the widget &apos;%1&apos; (%2) returned a widget not managed by Designer &apos;%3&apos; (%4) when queried for page #%5.
 Container pages should only be added by specifying them in XML returned by the domXml() method of the custom widget.</source>
-        <translation>Die Container-Extension des Widgets &apos;%1&apos; (%2) gab für Seite %5 ein Widget &apos;%3&apos; (%4) zurück, was nicht von Designer verwaltet wird.
-Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifiziert werden.</translation>
+        <translation>კონტეინერულმა გაფართოებამ ვიჯეტისთვის &apos;%1&apos; (%2) დააბრუნა ვიჯეტი, რომელიც Designer &apos;%3&apos;-ის (%4) მიერ არ იმართება, %5-ე გვერდის დამუშავებისას.
+კონტეინერის გვერდები, მხოლოდ, უნდა დაემატოს მათი XML-ში მითითებით, რომლებიც მომხმარებლის ვიჯეტის domXml() მეთოდის მიერ დაბრუნდება.</translation>
     </message>
     <message>
         <source>Unexpected element &lt;%1&gt;</source>
         <extracomment>Parsing clipboard contents</extracomment>
-        <translation>Ungültiges Element &lt;%1&gt;</translation>
+        <translation>მოულოდნელი ელემენტი &lt;%1&gt;</translation>
     </message>
     <message>
         <source>Error while pasting clipboard contents at line %1, column %2: %3</source>
         <extracomment>Parsing clipboard contents</extracomment>
-        <translation>Fehler beim Einfügen der Zwischenablage, Zeile %1, Spalte %2: %3</translation>
+        <translation>შეცდომა ბუფერის შემცველობის ჩასმისას ხაზზე %1, სვეტი %2: %3</translation>
     </message>
     <message>
         <source>Error while pasting clipboard contents: The root element &lt;ui&gt; is missing.</source>
         <extracomment>Parsing clipboard contents</extracomment>
-        <translation>Fehler beim Einfügen der Zwischenablage: Das Wurzelelement &lt;ui&gt; fehlt.</translation>
+        <translation>ბუფერის შემცველობის ჩასმის შეცდომა. აკლია ძირითადი ელემენტი &lt;ui&gt;.</translation>
     </message>
 </context>
 <context>
     <name>QDesignerSharedSettings</name>
     <message>
         <source>The template path %1 could not be created.</source>
-        <translation>Das Vorlagenverzeichnis %1 konnte nicht angelegt werden.</translation>
+        <translation>ნიმუშის ბილიკის %1 შექმნა შეუძლებელია.</translation>
     </message>
     <message>
         <source>An error has been encountered while parsing device profile XML: %1</source>
-        <translation>Beim Lesen des Profils trat ein Fehler auf: %1</translation>
+        <translation>აღმოჩენილია დამუშავების შეცდომა მოწყობილობის პროფილის XML-ისთვის: %1</translation>
     </message>
 </context>
 <context>
     <name>QDesignerTaskMenu</name>
     <message>
         <source>no signals available</source>
-        <translation>Es sind keine Signale vorhanden</translation>
+        <translation>სიგნალები ხელმისაწვდომი არაა</translation>
     </message>
 </context>
 <context>
     <name>QDesignerToolWindow</name>
     <message>
         <source>Property Editor</source>
-        <translation>Eigenschaften</translation>
+        <translation>თვისების რედაქტორი</translation>
     </message>
     <message>
         <source>Action Editor</source>
-        <translation>Aktionseditor</translation>
+        <translation>ქმედების რედაქტორი</translation>
     </message>
     <message>
         <source>Object Inspector</source>
-        <translation>Objektanzeige</translation>
+        <translation>ობიექტის ინსპექტორი</translation>
     </message>
     <message>
         <source>Resource Browser</source>
-        <translation>Ressourcen</translation>
+        <translation>რესურსების ბრაუზერი</translation>
     </message>
     <message>
         <source>Signal/Slot Editor</source>
-        <translation>Signale und Slots</translation>
+        <translation>სიგნალის/სლოტის რედაქტორი</translation>
     </message>
     <message>
         <source>Widget Box</source>
-        <translation>Widget-Box</translation>
+        <translation>ვიჯეტის ყუთი</translation>
     </message>
 </context>
 <context>
     <name>QDesignerWorkbench</name>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Datei</translation>
+        <translation>&amp;ფაილი</translation>
     </message>
     <message>
         <source>F&amp;orm</source>
-        <translation>F&amp;ormular</translation>
+        <translation>&amp;ფორმა</translation>
     </message>
     <message>
         <source>Preview in</source>
-        <translation>Vorschau im</translation>
+        <translation>მინიატურა სად</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;Fenster</translation>
+        <translation>&amp;ფანჯარა</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Hilfe</translation>
+        <translation>&amp;დახმარება</translation>
     </message>
     <message>
         <source>Toolbars</source>
-        <translation>Werkzeugleisten</translation>
+        <translation>ხელსაწყოთა ზოლები</translation>
     </message>
     <message>
         <source>Save Forms?</source>
-        <translation>Formulare speichern?</translation>
+        <translation>შევინახო ფორმები?</translation>
     </message>
     <message>
         <source>&amp;View</source>
-        <translation>&amp;Ansicht</translation>
+        <translation>&amp;ხედი</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Bearbeiten</translation>
+        <translation>&amp;ჩასწორება</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Einstellungen</translation>
+        <translation>&amp;გამართვა</translation>
     </message>
     <message>
         <source>Widget Box</source>
-        <translation>Widgetbox</translation>
+        <translation>ვიჯეტის ყუთი</translation>
     </message>
     <message>
         <source>If you do not review your documents, all your changes will be lost.</source>
-        <translation>Die Änderungen gehen verloren, wenn Sie sich die Formulare nicht noch einmal ansehen.</translation>
+        <translation>თუ დოკუმენტებს არ გადახედავთ, თქვენი ყველა ცვლილება დაიკარგება.</translation>
     </message>
     <message>
         <source>Discard Changes</source>
-        <translation>Änderungen verwerfen</translation>
+        <translation>ცვლილებების გაუქმება</translation>
     </message>
     <message>
         <source>Review Changes</source>
-        <translation>Änderungen ansehen</translation>
+        <translation>ცვლილებების გადახედვა</translation>
     </message>
     <message>
         <source>Backup Information</source>
-        <translation>Information zur Hintergrundsicherung</translation>
+        <translation>მარქაფის ინფორმაცია</translation>
     </message>
     <message>
         <source>The last session of Designer was not terminated correctly. Backup files were left behind. Do you want to load them?</source>
-        <translation>Designer wurde offenbar nicht ordnungsgemäß beendet; es existieren noch Dateien von der Hintergrundsicherung. Möchten Sie sie laden?</translation>
+        <translation>Designer-ის უკანასკნელი სესია სწორად არ დასრულებულა. შემორჩენილია მარქაფის ფაილები. გნებავთ მათი ჩატვირთვა?</translation>
     </message>
     <message>
         <source>The file &lt;b&gt;%1&lt;/b&gt; could not be opened: %2</source>
-        <translation>Die Datei &lt;b&gt;%1&lt;/b&gt; konnte nicht geöffnet werden: %2</translation>
+        <translation>ფაილი &lt;b&gt;%1&lt;/b&gt; ვერ გავხსენი: %2</translation>
     </message>
     <message numerus="yes">
         <source>There are %n forms with unsaved changes. Do you want to review these changes before quitting?</source>
         <translation>
-            <numerusform>Das Formular wurde geändert. Möchten Sie sich die Änderungen ansehen, bevor Sie das Programm beenden?</numerusform>
-            <numerusform>%n Formulare  wurden geändert. Möchten Sie sich die Änderungen ansehen, bevor Sie das Programm beenden?</numerusform>
+            <numerusform>არსებობს %n ფორმა შეუნახავი ცვლილებებით. გნებავთ, გადახედოთ ამ ცვლილებებს გასვლამდე?</numerusform>
+            <numerusform>არსებობს %n ფორმა შეუნახავი ცვლილებებით. გნებავთ, გადახედოთ ამ ცვლილებებს გასვლამდე?</numerusform>
         </translation>
     </message>
 </context>
@@ -1987,184 +1988,184 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     <message>
         <source>An empty class name was passed on to %1 (object name: &apos;%2&apos;).</source>
         <extracomment>Empty class name passed to widget factory method</extracomment>
-        <translation>Der Methode %1 wurde ein leerer Klassennamen übergeben (Name &apos;%2&apos;).</translation>
+        <translation>გადაცემულია ცარიელი კლასის სახელი %1-სთვის (ობიექტის სახელი: &apos;%2&apos;).</translation>
     </message>
     <message>
         <source>QFormBuilder was unable to create a custom widget of the class &apos;%1&apos;; defaulting to base class &apos;%2&apos;.</source>
-        <translation>QFormBuilder konnte kein benutzerdefiniertes Widget der Klasse &apos;%1&apos; erzeugen; es wurde ein Widget der Basisklasse &apos;%2&apos; erzeugt.</translation>
+        <translation>QFormBuilder-მა კლასის &apos;%1&apos; მომხმარებლის ვიჯეტი ვერ შექმნა. გამოყენებული იქნება საბაზისო კლასი &apos;%2&apos;.</translation>
     </message>
     <message>
         <source>QFormBuilder was unable to create a widget of the class &apos;%1&apos;.</source>
-        <translation>QFormBuilder konnte kein Objekt der Klasse &apos;%1&apos; erzeugen.</translation>
+        <translation>QFormBuilder-მა ვერ შექმნა ვიჯეტი კლასით &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>The layout type `%1&apos; is not supported.</source>
-        <translation>Layouts des Typs `%1&apos; werden nicht unterstützt.</translation>
+        <translation>განლაგების ტიპი &apos;%1&apos; მხარდაჭერილი არაა.</translation>
     </message>
     <message>
         <source>The set-type property %1 could not be read.</source>
-        <translation>Die Eigenschaft %1 konnte nicht gelesen werden (Typ: Menge).</translation>
+        <translation>%1-ის თვისების &apos;set-type&apos; წაკითხვა შეუძლებელია.</translation>
     </message>
     <message>
         <source>The value &quot;%1&quot; of the set-type property %2 could not be read.</source>
-        <translation>Der Wert &quot;%1&quot; der Eigenschaft %2 konnte nicht gelesen werden (Typ: Menge).</translation>
+        <translation>&quot;%1&quot;-ის თვისების &apos;set-type&apos; %2 წაკითხვა შეუძლებელია.</translation>
     </message>
     <message>
         <source>The enumeration-type property %1 could not be read.</source>
-        <translation>Die Eigenschaft %1 konnte nicht gelesen werden (Typ: Aufzählung).</translation>
+        <translation>%1-ის თვისების &apos;enumeration-type&apos; წაკითხვა შეუძლებელია.</translation>
     </message>
     <message>
         <source>The value &quot;%1&quot; of the enum-type property %2 could not be read.</source>
-        <translation>Der Wert &quot;%1&quot; der Eigenschaft %2 konnte nicht gelesen werden (Typ: Aufzählung).</translation>
+        <translation>&quot;%1&quot;-ის თვისების &apos;enum-type&apos; %2 წაკითხვა შეუძლებელია.</translation>
     </message>
     <message>
         <source>Reading properties of the type %1 is not supported yet.</source>
-        <translation>Das Lesen von Eigenschaften des Typs %1 wird nicht unterstützt.</translation>
+        <translation>ტიპის %1 თვისებების წაკითხვა ჯერ მხარდაჭერილი არაა.</translation>
     </message>
     <message>
         <source>The property %1 could not be written. The type %2 is not supported yet.</source>
-        <translation>Die Eigenschaft %1 konnte nicht geschrieben werden, da der Typ %2 nicht unterstützt wird.</translation>
+        <translation>თვისების %1 ჩაწერა შეუძლებელია. ტიპი %2 ჯერ მხარდაჭერილი არაა.</translation>
     </message>
     <message>
         <source>The enumeration-value &apos;%1&apos; is invalid. The default value &apos;%2&apos; will be used instead.</source>
-        <translation>Der Aufzählungswert &apos;%1&apos; ist ungültig. Es wird der Vorgabewert &apos;%2&apos; verwendet.</translation>
+        <translation>ჩამონათვლის მნიშვნელობა &apos;%1&apos; არასწორია. სამაგიეროდ გამოყენებული იქნება ნაგულისხმევი მნიშვნელობა &apos;%2&apos;.</translation>
     </message>
     <message>
         <source>The flag-value &apos;%1&apos; is invalid. Zero will be used instead.</source>
-        <translation>Der Flag-Wert &apos;%1&apos; ist ungültig. Es wird der Wert 0 verwendet.</translation>
+        <translation>ალმის &apos;%1&apos; მნიშვნელობა არასწორია. სამაგიეროდ გამოყენებული იქნება 0.</translation>
     </message>
 </context>
 <context>
     <name>QStackedWidgetEventFilter</name>
     <message>
         <source>Previous Page</source>
-        <translation>Vorige Seite</translation>
+        <translation>წინა გვერდი</translation>
     </message>
     <message>
         <source>Next Page</source>
-        <translation>Nächste Seite</translation>
+        <translation>შემდეგი გვერდი</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Löschen</translation>
+        <translation>წაშლა</translation>
     </message>
     <message>
         <source>Before Current Page</source>
-        <translation>Davor</translation>
+        <translation>მიმდინარე გვერდამდე</translation>
     </message>
     <message>
         <source>After Current Page</source>
-        <translation>Danach</translation>
+        <translation>მიმდინარე გვერდის შემდეგ</translation>
     </message>
     <message>
         <source>Change Page Order...</source>
-        <translation>Seiten umordnen....</translation>
+        <translation>გვერების მიმდევრობის შეცვლა...</translation>
     </message>
     <message>
         <source>Change Page Order</source>
-        <translation>Seiten umordnen</translation>
+        <translation>გვერების მიმდევრობის შეცვლა</translation>
     </message>
     <message>
         <source>Page %1 of %2</source>
-        <translation>Seite %1 von %2</translation>
+        <translation>გვერდი %1 %2-დან</translation>
     </message>
     <message>
         <source>Insert Page</source>
-        <translation>Seite einfügen</translation>
+        <translation>გვერდის ჩასმა</translation>
     </message>
 </context>
 <context>
     <name>QStackedWidgetPreviewEventFilter</name>
     <message>
         <source>Go to previous page of %1 &apos;%2&apos; (%3/%4).</source>
-        <translation>Gehe zur vorigen Seite von %1 &apos;%2&apos; (%3/%4).</translation>
+        <translation>%1-ის &apos;%2&apos; წინა გვერდზე გადასვლა (%3/%4).</translation>
     </message>
     <message>
         <source>Go to next page of %1 &apos;%2&apos; (%3/%4).</source>
-        <translation>Gehe zur nächste Seite von %1 &apos;%2&apos; (%3/%4).</translation>
+        <translation>%1-ის &apos;%2&apos; შემდეგ გვერდზე გადასვლა (%3/%4).</translation>
     </message>
 </context>
 <context>
     <name>QTabWidgetEventFilter</name>
     <message>
         <source>Delete</source>
-        <translation>Löschen</translation>
+        <translation>წაშლა</translation>
     </message>
     <message>
         <source>Before Current Page</source>
-        <translation>Davor</translation>
+        <translation>მიმდინარე გვერდამდე</translation>
     </message>
     <message>
         <source>After Current Page</source>
-        <translation>Danach</translation>
+        <translation>მიმდინარე გვერდის შემდეგ</translation>
     </message>
     <message>
         <source>Page %1 of %2</source>
-        <translation>Seite %1 von %2</translation>
+        <translation>გვერდი %1 %2-დან</translation>
     </message>
     <message>
         <source>Insert Page</source>
-        <translation>Seite einfügen</translation>
+        <translation>გვერდის ჩასმა</translation>
     </message>
 </context>
 <context>
     <name>QToolBoxHelper</name>
     <message>
         <source>Delete Page</source>
-        <translation>Seite löschen</translation>
+        <translation>გვერდის წაშლა</translation>
     </message>
     <message>
         <source>Before Current Page</source>
-        <translation>Davor</translation>
+        <translation>მიმდინარე გვერდამდე</translation>
     </message>
     <message>
         <source>After Current Page</source>
-        <translation>Danach</translation>
+        <translation>მიმდინარე გვერდის შემდეგ</translation>
     </message>
     <message>
         <source>Change Page Order...</source>
-        <translation>Seiten umordnen....</translation>
+        <translation>გვერების მიმდევრობის შეცვლა...</translation>
     </message>
     <message>
         <source>Change Page Order</source>
-        <translation>Seiten umordnen</translation>
+        <translation>გვერების მიმდევრობის შეცვლა</translation>
     </message>
     <message>
         <source>Page %1 of %2</source>
-        <translation>Seite %1 von %2</translation>
+        <translation>გვერდი %1 %2-დან</translation>
     </message>
     <message>
         <source>Insert Page</source>
-        <translation>Seite einfügen</translation>
+        <translation>გვერდის ჩასმა</translation>
     </message>
 </context>
 <context>
     <name>QtBoolEdit</name>
     <message>
         <source>True</source>
-        <translation>Wahr</translation>
+        <translation>ჭეშმარიტი</translation>
     </message>
     <message>
         <source>False</source>
-        <translation>Falsch</translation>
+        <translation>მცდარი</translation>
     </message>
 </context>
 <context>
     <name>QtBoolPropertyManager</name>
     <message>
         <source>True</source>
-        <translation>Wahr</translation>
+        <translation>ჭეშმარიტი</translation>
     </message>
     <message>
         <source>False</source>
-        <translation>Falsch</translation>
+        <translation>მცდარი</translation>
     </message>
 </context>
 <context>
     <name>QtCharEdit</name>
     <message>
         <source>Clear Char</source>
-        <translation>Zeichen löschen</translation>
+        <translation>სიმბოლოს გასუფთავება</translation>
     </message>
 </context>
 <context>
@@ -2178,38 +2179,38 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     <name>QtColorPropertyManager</name>
     <message>
         <source>Red</source>
-        <translation>Rot</translation>
+        <translation>წითელი</translation>
     </message>
     <message>
         <source>Green</source>
-        <translation>Grün</translation>
+        <translation>მწვანე</translation>
     </message>
     <message>
         <source>Blue</source>
-        <translation>Blau</translation>
+        <translation>ლურჯი</translation>
     </message>
     <message>
         <source>Alpha</source>
-        <translation>Alpha</translation>
+        <translation>ალფა</translation>
     </message>
 </context>
 <context>
     <name>QtCursorDatabase</name>
     <message>
         <source>Arrow</source>
-        <translation>Pfeil</translation>
+        <translation>ისარი</translation>
     </message>
     <message>
         <source>Up Arrow</source>
-        <translation>Pfeil hoch</translation>
+        <translation>ისარი ზემოთ</translation>
     </message>
     <message>
         <source>Cross</source>
-        <translation>Kreuzende Linien</translation>
+        <translation>ჯვარი</translation>
     </message>
     <message>
         <source>Wait</source>
-        <translation>Sanduhr</translation>
+        <translation>მოცდა</translation>
     </message>
     <message>
         <source>IBeam</source>
@@ -2217,59 +2218,59 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     </message>
     <message>
         <source>Size Vertical</source>
-        <translation>Vertikal vergrößern</translation>
+        <translation>ვერტიკალური ზომა</translation>
     </message>
     <message>
         <source>Size Horizontal</source>
-        <translation>Horizontal vergrößern</translation>
+        <translation>ჰორიზონტალური ზომა</translation>
     </message>
     <message>
         <source>Size Backslash</source>
-        <translation>Vergrößern/Backslash</translation>
+        <translation>უკანა დახრილი ხაზის ზომა</translation>
     </message>
     <message>
         <source>Size Slash</source>
-        <translation>Vergrößern/Slash</translation>
+        <translation>დახრილი ხაზის ზომა</translation>
     </message>
     <message>
         <source>Size All</source>
-        <translation>Alles vergrößern</translation>
+        <translation>ყველას ზომა</translation>
     </message>
     <message>
         <source>Blank</source>
-        <translation>Leer</translation>
+        <translation>სუფთა</translation>
     </message>
     <message>
         <source>Split Vertical</source>
-        <translation>Vertikal aufteilen</translation>
+        <translation>ვერტიკალურად გაყოფა</translation>
     </message>
     <message>
         <source>Split Horizontal</source>
-        <translation>Horizontal aufteilen</translation>
+        <translation>ჰორიზონტალურად გაყოფა</translation>
     </message>
     <message>
         <source>Pointing Hand</source>
-        <translation>Hand</translation>
+        <translation>მაჩვენებელი ხელი</translation>
     </message>
     <message>
         <source>Forbidden</source>
-        <translation>Verboten</translation>
+        <translation>აკრძალული</translation>
     </message>
     <message>
         <source>Open Hand</source>
-        <translation>Geöffnete Hand</translation>
+        <translation>ღია ხელი</translation>
     </message>
     <message>
         <source>Closed Hand</source>
-        <translation>Geschlossene Hand</translation>
+        <translation>დახურული ხელი</translation>
     </message>
     <message>
         <source>What&apos;s This</source>
-        <translation>What&apos;s This</translation>
+        <translation>რა არის ეს</translation>
     </message>
     <message>
         <source>Busy</source>
-        <translation>Beschäftigt</translation>
+        <translation>დაკავებულია</translation>
     </message>
 </context>
 <context>
@@ -2280,125 +2281,125 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     </message>
     <message>
         <source>Select Font</source>
-        <translation>Schriftart auswählen</translation>
+        <translation>აირჩიეთ ფონტი</translation>
     </message>
 </context>
 <context>
     <name>QtFontPropertyManager</name>
     <message>
         <source>Family</source>
-        <translation>Familie</translation>
+        <translation>ოჯახი</translation>
     </message>
     <message>
         <source>Point Size</source>
-        <translation>Punktgröße</translation>
+        <translation>წერტილის ზომა</translation>
     </message>
     <message>
         <source>Bold</source>
         <comment>Bold toggle</comment>
-        <translation>Fett</translation>
+        <translation>სქელი</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation>Kursiv</translation>
+        <translation>დახრა</translation>
     </message>
     <message>
         <source>Underline</source>
-        <translation>Unterstreichen</translation>
+        <translation>ხაზგასმული</translation>
     </message>
     <message>
         <source>Strikeout</source>
-        <translation>Durchgestrichen</translation>
+        <translation>ხაზგასმა</translation>
     </message>
     <message>
         <source>Kerning</source>
-        <translation>Kerning</translation>
+        <translation>კერნინგი</translation>
     </message>
     <message>
         <source>Weight</source>
-        <translation>Stärke</translation>
+        <translation>სიმძიმე</translation>
     </message>
 </context>
 <context>
     <name>QtGradientDialog</name>
     <message>
         <source>Edit Gradient</source>
-        <translation>Gradienten bearbeiten</translation>
+        <translation>გრადიენტის ჩასწრება</translation>
     </message>
 </context>
 <context>
     <name>QtGradientEditor</name>
     <message>
         <source>Start X</source>
-        <translation>Anfangswert X</translation>
+        <translation>საწყისი X</translation>
     </message>
     <message>
         <source>Start Y</source>
-        <translation>Anfangswert Y</translation>
+        <translation>საწყისი X</translation>
     </message>
     <message>
         <source>Final X</source>
-        <translation>Endwert X</translation>
+        <translation>საბოლოო X</translation>
     </message>
     <message>
         <source>Final Y</source>
-        <translation>Endwert Y</translation>
+        <translation>საბოლოო Y</translation>
     </message>
     <message>
         <source>Central X</source>
-        <translation>Mittelpunkt X</translation>
+        <translation>ცენტრალური X</translation>
     </message>
     <message>
         <source>Central Y</source>
-        <translation>Mittelpunkt Y</translation>
+        <translation>ცენტრალური Y</translation>
     </message>
     <message>
         <source>Focal X</source>
-        <translation>Fokus X</translation>
+        <translation>ფოკალური X</translation>
     </message>
     <message>
         <source>Focal Y</source>
-        <translation>Fokus Y</translation>
+        <translation>ფოკალური Y</translation>
     </message>
     <message>
         <source>Radius</source>
-        <translation>Radius</translation>
+        <translation>რადიუსი</translation>
     </message>
     <message>
         <source>Angle</source>
-        <translation>Winkel</translation>
+        <translation>კუთხე</translation>
     </message>
     <message>
         <source>Linear</source>
-        <translation>Linear</translation>
+        <translation>ხაზოვანი</translation>
     </message>
     <message>
         <source>Radial</source>
-        <translation>Radial</translation>
+        <translation>რადიალური</translation>
     </message>
     <message>
         <source>Conical</source>
-        <translation>Konisch</translation>
+        <translation>კონუსური</translation>
     </message>
     <message>
         <source>Pad</source>
-        <translation>Auffüllen</translation>
+        <translation>პედი</translation>
     </message>
     <message>
         <source>Repeat</source>
-        <translation>Wiederholen</translation>
+        <translation>გამეორება</translation>
     </message>
     <message>
         <source>Reflect</source>
-        <translation>Spiegeln</translation>
+        <translation>არეკვლა</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation>ფორმა</translation>
     </message>
     <message>
         <source>Gradient Editor</source>
-        <translation>Gradienten bearbeiten</translation>
+        <translation>გრადაციების რედაქტორი</translation>
     </message>
     <message>
         <source>1</source>
@@ -2422,23 +2423,23 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     </message>
     <message>
         <source>Gradient Stops Editor</source>
-        <translation>Bezugspunkte</translation>
+        <translation>გრადიენტის გაჩერებების რედაქტორი</translation>
     </message>
     <message>
         <source>This area allows you to edit gradient stops. Double click on the existing stop handle to duplicate it. Double click outside of the existing stop handles to create a new stop. Drag &amp; drop the handle to reposition it. Use right mouse button to popup context menu with extra actions.</source>
-        <translation>Diese Fläche dient zum Bearbeiten der Bezugspunkte. Doppelklicken Sie auf einen Bezugspunkt, um ihn zu duplizieren. Doppelklicken Sie auf die Fläche, um einen neuen Bezugspunkt zu erzeugen. Benutzen Sie Drag &amp; Drop um einen Punkt zu verschieben. Die rechte Maustaste aktiviert ein Menü mit weiteren Optionen.</translation>
+        <translation>ეს ალაგი გრადიენტის წერტილების ჩასწორების საშუალებას გაძლევთ. დააწკაპუნეთ ორჯერ არსებულ გაჩერების წერტილზე მისი ასლის მისაღებად. დააწკაპუნეთ ორჯერ არსებული გაჩერების წერტილის გარეთ, ახალი გაჩერების შესაქმნელად. გადაათრიეთ &amp; დაადგეთ ხელი მისი ადგილის შესაცვლელად. გამოიყენეთ თაგუნას მარჯვენა ღილაკი, რომ გამოიძახოთ კონტექსტური მენიუ, რომელიც დამატებით ქმედებებს შეიცავს.</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation>Vergrößern</translation>
+        <translation>მასშტაბი</translation>
     </message>
     <message>
         <source>Position</source>
-        <translation>Position</translation>
+        <translation>მდებარეობა</translation>
     </message>
     <message>
         <source>Hue</source>
-        <translation>Farbton</translation>
+        <translation>ტონი</translation>
     </message>
     <message>
         <source>H</source>
@@ -2446,7 +2447,7 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     </message>
     <message>
         <source>Saturation</source>
-        <translation>Sättigung</translation>
+        <translation>გაჯერებულობა</translation>
     </message>
     <message>
         <source>S</source>
@@ -2454,11 +2455,11 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     </message>
     <message>
         <source>Sat</source>
-        <translation>Sättigung</translation>
+        <translation>შაბ</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation>Wert</translation>
+        <translation>მნიშვნელობა</translation>
     </message>
     <message>
         <source>V</source>
@@ -2466,11 +2467,11 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     </message>
     <message>
         <source>Val</source>
-        <translation>Wert</translation>
+        <translation>მნიშვნ</translation>
     </message>
     <message>
         <source>Alpha</source>
-        <translation>Alpha</translation>
+        <translation>ალფა</translation>
     </message>
     <message>
         <source>A</source>
@@ -2478,19 +2479,19 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     </message>
     <message>
         <source>Type</source>
-        <translation>Typ</translation>
+        <translation>ტიპი</translation>
     </message>
     <message>
         <source>Spread</source>
-        <translation>Ausbreitung</translation>
+        <translation>გავრცელება</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation>Farbe</translation>
+        <translation>ფერი</translation>
     </message>
     <message>
         <source>Current stop&apos;s color</source>
-        <translation>Farbe des Bezugspunkts</translation>
+        <translation>მიმდინარე წერტილის ფერი</translation>
     </message>
     <message>
         <source>HSV</source>
@@ -2502,7 +2503,7 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     </message>
     <message>
         <source>Current stop&apos;s position</source>
-        <translation>Position des Bezugspunkts</translation>
+        <translation>მიმდინარე წერტილის მდებარეობა</translation>
     </message>
     <message>
         <source>%</source>
@@ -2510,15 +2511,15 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     </message>
     <message>
         <source>Zoom In</source>
-        <translation>Vergrößern</translation>
+        <translation>გადიდება</translation>
     </message>
     <message>
         <source>Zoom Out</source>
-        <translation>Verkleinern</translation>
+        <translation>დაპატარავება</translation>
     </message>
     <message>
         <source>Toggle details extension</source>
-        <translation>Weiter Optionen einblenden</translation>
+        <translation>დეტალების გაფართოების გადართვა</translation>
     </message>
     <message>
         <source>&gt;</source>
@@ -2526,7 +2527,7 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     </message>
     <message>
         <source>Linear Type</source>
-        <translation>Typ linear</translation>
+        <translation>წრფივი ტიპი</translation>
     </message>
     <message>
         <source>...</source>
@@ -2534,119 +2535,119 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     </message>
     <message>
         <source>Radial Type</source>
-        <translation>Typ radial</translation>
+        <translation>რადიალური ტიპი</translation>
     </message>
     <message>
         <source>Conical Type</source>
-        <translation>Typ konisch</translation>
+        <translation>კონუსური ტიპი</translation>
     </message>
     <message>
         <source>Pad Spread</source>
-        <translation>Auffüllen</translation>
+        <translation>შევსების გავრცელება</translation>
     </message>
     <message>
         <source>Repeat Spread</source>
-        <translation>Wiederholen</translation>
+        <translation>ციკლური შევსება</translation>
     </message>
     <message>
         <source>Reflect Spread</source>
-        <translation>Spiegeln</translation>
+        <translation>სარკისებური შევსება</translation>
     </message>
     <message>
         <source>This area shows a preview of the gradient being edited. It also allows you to edit parameters specific to the gradient&apos;s type such as start and final point, radius, etc. by drag &amp; drop.</source>
-        <translation>Dieser Bereich zeigt eine Vorschau des in Bearbeitung befindlichen Gradienten. Hier können Gradienttyp-spezifische Parameter, wie Start- und Endpunkt, Radius etc. per Drag &amp; Drop bearbeitet werden.</translation>
+        <translation>ეს ალაგი აჩვენებს ჩასწორებადი გრადიენტის მინიატურას. ის ასევე საშუალებას გაძლევთ ჩაასწოროთ პარამეტრები, რომელიც სპეფიციკურია გრადიენტის ტიპისთვის, როგორიცაა საწყისი და საბოლოო წერტილები, რადუსი და ა.შ., გადათრევით და დაგდებით.</translation>
     </message>
     <message>
         <source>Show HSV specification</source>
-        <translation>HSV-Spezifikation anzeigen</translation>
+        <translation>HSV სპეციფიკაციის ჩვენება</translation>
     </message>
     <message>
         <source>Show RGB specification</source>
-        <translation>RGB-Spezifikation anzeigen</translation>
+        <translation>RGB სპეციფიკაციის ჩვენება</translation>
     </message>
     <message>
         <source>Reset Zoom</source>
-        <translation>Vergrößerung zurücksetzen</translation>
+        <translation>გადიდების ჩამოყრა</translation>
     </message>
 </context>
 <context>
     <name>QtGradientStopsWidget</name>
     <message>
         <source>New Stop</source>
-        <translation>Neuer Bezugspunkt</translation>
+        <translation>ახალი გაჩერება</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Löschen</translation>
+        <translation>წაშლა</translation>
     </message>
     <message>
         <source>Flip All</source>
-        <translation>Alles umkehren</translation>
+        <translation>ყველას გადაბრუნება</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Alles auswählen</translation>
+        <translation>ყველას მონიშვნა</translation>
     </message>
     <message>
         <source>Zoom In</source>
-        <translation>Vergrößern</translation>
+        <translation>გადიდება</translation>
     </message>
     <message>
         <source>Zoom Out</source>
-        <translation>Verkleinern</translation>
+        <translation>დაპატარავება</translation>
     </message>
     <message>
         <source>Reset Zoom</source>
-        <translation>Vergrößerung zurücksetzen</translation>
+        <translation>გადიდების ჩამოყრა</translation>
     </message>
 </context>
 <context>
     <name>QtGradientView</name>
     <message>
         <source>Grad</source>
-        <translation>Grad</translation>
+        <translation>გრად</translation>
     </message>
     <message>
         <source>Remove Gradient</source>
-        <translation>Gradient löschen</translation>
+        <translation>გრადიენტის წაშლა</translation>
     </message>
     <message>
         <source>Are you sure you want to remove the selected gradient?</source>
-        <translation>Möchten Sie den ausgewählten Gradienten löschen?</translation>
+        <translation>დარწმუნებული ბრძანდებით, რომ გნებავთ ამ გრადიენტის წაშლა?</translation>
     </message>
     <message>
         <source>New...</source>
-        <translation>Neu...</translation>
+        <translation>ახალი...</translation>
     </message>
     <message>
         <source>Edit...</source>
-        <translation>Ändern...</translation>
+        <translation>ჩასწორება...</translation>
     </message>
     <message>
         <source>Rename</source>
-        <translation>Umbenennen</translation>
+        <translation>გადარქმევა</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Löschen</translation>
+        <translation>წაშლა</translation>
     </message>
     <message>
         <source>Gradient View</source>
-        <translation>Gradientenanzeige</translation>
+        <translation>გრადიენტის ხედი</translation>
     </message>
 </context>
 <context>
     <name>QtGradientViewDialog</name>
     <message>
         <source>Select Gradient</source>
-        <translation>Gradienten auswählen</translation>
+        <translation>აირჩიეთ გრადაცია</translation>
     </message>
 </context>
 <context>
     <name>QtLocalePropertyManager</name>
     <message>
         <source>&lt;Invalid&gt;</source>
-        <translation>&lt;Ungültig&gt;</translation>
+        <translation>&lt;არასწორი&gt;</translation>
     </message>
     <message>
         <source>%1, %2</source>
@@ -2654,11 +2655,11 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     </message>
     <message>
         <source>Language</source>
-        <translation>Sprache</translation>
+        <translation>ენა</translation>
     </message>
     <message>
         <source>Territory</source>
-        <translation>Territorium</translation>
+        <translation>ტერიტორია</translation>
     </message>
 </context>
 <context>
@@ -2718,11 +2719,11 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     </message>
     <message>
         <source>Width</source>
-        <translation>Breite</translation>
+        <translation>სიგანე</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation>Höhe</translation>
+        <translation>სიმაღლე</translation>
     </message>
 </context>
 <context>
@@ -2741,114 +2742,114 @@ Container-Seiten sollten ausschließlich im XML der domXML()-Methode spezifizier
     </message>
     <message>
         <source>Width</source>
-        <translation>Breite</translation>
+        <translation>სიგანე</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation>Höhe</translation>
+        <translation>სიმაღლე</translation>
     </message>
 </context>
 <context>
     <name>QtResourceEditorDialog</name>
     <message>
         <source>Edit Resources</source>
-        <translation>Ressourcen bearbeiten</translation>
+        <translation>რესურსების ჩასწორება</translation>
     </message>
     <message>
         <source>New...</source>
-        <translation>Neu...</translation>
+        <translation>ახალი...</translation>
     </message>
     <message>
         <source>New Resource File</source>
-        <translation>Neue Ressourcendatei</translation>
+        <translation>ახალი რესურსის ფაილი</translation>
     </message>
     <message>
         <source>&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; The file&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;is outside of the current resource file&apos;s parent directory.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;b&gt;Hinweis:&lt;/b&gt;&lt;p&gt;Die gewählte Datei: &lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;befindet sich außerhalb des Verzeichnisses der Ressourcendatei:&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;&lt;b&gt;გაფრთხილება:&lt;/b&gt; ფაილი&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;მიმდინარე რესურსის ფაილის მშობელი საქაღალდის გარეთაა.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;To resolve the issue, press:&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Copy&lt;/th&gt;&lt;td&gt;to copy the file to the resource file&apos;s parent directory.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Copy As...&lt;/th&gt;&lt;td&gt;to copy the file into a subdirectory of the resource file&apos;s parent directory.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Keep&lt;/th&gt;&lt;td&gt;to use its current location.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</source>
-        <translation>&lt;p&gt;Bitte wählen Sie:&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Kopieren&lt;/th&gt;&lt;td&gt;um die Datei in das Verzeichnis der Ressourcendatei zu kopieren.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Kopieren nach...&lt;/th&gt;&lt;td&gt;um die Datei in ein Unterverzeichnis der Ressourcendatei zu kopieren.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Beibehalten&lt;/th&gt;&lt;td&gt;um die Datei in ihrem gegenwärtigen Verzeichnis zu verwenden.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</translation>
+        <translation>&lt;p&gt;პრობლემების გადასაჭრელად დააწექით:&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;კოპირებას&lt;/th&gt;&lt;td&gt;ფაილის რესურსის ფაილის მშობელ საქაღალდეში დასაკოპირებლად.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;კოპირება, როგორც...&lt;/th&gt;&lt;td&gt; ფაილის რესურსის ფაილის მშობელი საქაღალდის ქვესაქაღალდეში დასაკოპირებლად.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;დატოვება&lt;/th&gt;&lt;td&gt; მისი მიმდინარე მდებარეობის გამოსაყენებლად.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</translation>
     </message>
     <message>
         <source>Could not copy
 %1
 to
 %2</source>
-        <translation>Der Kopiervorgang schlug fehl:
-%1
-zu:
-%2</translation>
+        <translation>კოპირების შეცდომა
+%1-დან
+
+%2-მდე</translation>
     </message>
     <message>
         <source>A parse error occurred at line %1, column %2 of %3:
 %4</source>
-        <translation>In der Datei %3 wurde bei Zeile %1, Spalte %2 ein Fehler gefunden:
- %4</translation>
+        <translation>აღმოჩენილია დამუშავების შეცდომა %3-ის ხაზზე %1 სვეტი %2:
+%4</translation>
     </message>
     <message>
         <source>Open...</source>
-        <translation>Öffnen...</translation>
+        <translation>გახსნა...</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Löschen</translation>
+        <translation>წაშლა</translation>
     </message>
     <message>
         <source>Move Up</source>
-        <translation>Nach oben</translation>
+        <translation>აწევა</translation>
     </message>
     <message>
         <source>Move Down</source>
-        <translation>Nach unten</translation>
+        <translation>ჩამოწევა</translation>
     </message>
     <message>
         <source>Add Prefix</source>
-        <translation>Präfix hinzufügen</translation>
+        <translation>პრეფიქსის დამატება</translation>
     </message>
     <message>
         <source>Add Files...</source>
-        <translation>Dateien hinzufügen...</translation>
+        <translation>ფაილების დამატება...</translation>
     </message>
     <message>
         <source>Change Prefix</source>
-        <translation>Präfix ändern</translation>
+        <translation>პრეფიქსის შეცვლა</translation>
     </message>
     <message>
         <source>Change Language</source>
-        <translation>Sprache ändern</translation>
+        <translation>ენის შეცვლა</translation>
     </message>
     <message>
         <source>Change Alias</source>
-        <translation>Alias ändern</translation>
+        <translation>ფსევდონიმის შეცვლა</translation>
     </message>
     <message>
         <source>Clone Prefix...</source>
-        <translation>Präfix doppeln...</translation>
+        <translation>პრეფიქსის დაკლონვა...</translation>
     </message>
     <message>
         <source>Prefix / Path</source>
-        <translation>Präfix / Pfad</translation>
+        <translation>პრეფიქსი / ბილიკი</translation>
     </message>
     <message>
         <source>Language / Alias</source>
-        <translation>Sprache / Alias</translation>
+        <translation>ენა / ფსევდონიმი</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; There have been problems while reloading the resources:&lt;/p&gt;&lt;pre&gt;%1&lt;/pre&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;p&gt;&lt;b&gt;Warnung:&lt;/b&gt; Beim Neuladen der Ressourcen traten Fehler auf:&lt;/p&gt;&lt;pre&gt;%1&lt;/pre&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;p&gt;&lt;b&gt;გაფრთხილება:&lt;/b&gt; პრობლემები რესურსების თავიდან ჩატვირთვისას:&lt;/p&gt;&lt;pre&gt;%1&lt;/pre&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Resource Warning</source>
-        <translation>Ressourcen - Warnung</translation>
+        <translation>რესურსის გაფრთხილება</translation>
     </message>
     <message>
         <source>Dialog</source>
-        <translation>Dialog</translation>
+        <translation>ფანჯარა</translation>
     </message>
     <message>
         <source>New File</source>
-        <translation>Neue Datei</translation>
+        <translation>ახალი ფაილი</translation>
     </message>
     <message>
         <source>N</source>
@@ -2856,11 +2857,11 @@ zu:
     </message>
     <message>
         <source>Remove File</source>
-        <translation>Datei löschen</translation>
+        <translation>ფაილის წაშლა</translation>
     </message>
     <message>
         <source>R</source>
-        <translation>L</translation>
+        <translation>მჯ</translation>
     </message>
     <message>
         <source>I</source>
@@ -2868,7 +2869,7 @@ zu:
     </message>
     <message>
         <source>New Resource</source>
-        <translation>Neue Ressource</translation>
+        <translation>ახალი რესურსი</translation>
     </message>
     <message>
         <source>A</source>
@@ -2876,99 +2877,99 @@ zu:
     </message>
     <message>
         <source>Remove Resource or File</source>
-        <translation>Datei oder Ressource löschen</translation>
+        <translation>რესურსის ან ფაილის წაშლა</translation>
     </message>
     <message>
         <source>%1 already exists.
 Do you want to replace it?</source>
-        <translation>Die Datei %1 existiert bereits.
-Wollen Sie sie überschreiben?</translation>
+        <translation>%1 უკვე არსებობს
+გნებავთ გადააწეროთ?</translation>
     </message>
     <message>
         <source>The file does not appear to be a resource file; element &apos;%1&apos; was found where &apos;%2&apos; was expected.</source>
-        <translation>Die Datei ist offenbar keine Ressourcendatei; an Stelle des erwarteten Elements &apos;%2&apos; wurde das Element &apos;%1&apos; gefunden.</translation>
+        <translation>ფაილი რესურსის ფაილს არ წააგავს. აღმოჩენილია ელემენტი &apos;%1&apos;, როცა ველოდებოდი ელემენტს &apos;%2&apos;.</translation>
     </message>
     <message>
         <source>%1 [read-only]</source>
-        <translation>%1 [schreibgeschützt]</translation>
+        <translation>%1 [მხოლოდ-წაკითხვადი]</translation>
     </message>
     <message>
         <source>%1 [missing]</source>
-        <translation>%1 [fehlt]</translation>
+        <translation>%1 [აკლია]</translation>
     </message>
     <message>
         <source>&lt;no prefix&gt;</source>
-        <translation>&lt;kein Präfix&gt;</translation>
+        <translation>&lt;პრეფიქსის გარეშე&gt;</translation>
     </message>
     <message>
         <source>Resource files (*.qrc)</source>
-        <translation>Ressourcendateien (*.qrc)</translation>
+        <translation>რესურსის ფაილები (*.qrc)</translation>
     </message>
     <message>
         <source>Import Resource File</source>
-        <translation>Ressourcendatei importieren</translation>
+        <translation>რესურსის ფაილის შემოტანა</translation>
     </message>
     <message>
         <source>newPrefix</source>
-        <translation>newPrefix</translation>
+        <translation>ახალიპრეფიქსი</translation>
     </message>
     <message>
         <source>Add Files</source>
-        <translation>Dateien hinzufügen</translation>
+        <translation>ფაილების დამატება</translation>
     </message>
     <message>
         <source>Incorrect Path</source>
-        <translation>Fehlerhafte Pfadangabe</translation>
+        <translation>არასწორი ბილიკი</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Kopieren</translation>
+        <translation>კოპირება</translation>
     </message>
     <message>
         <source>Copy As...</source>
-        <translation>Kopieren nach...</translation>
+        <translation>კოპირება, როგორც...</translation>
     </message>
     <message>
         <source>Keep</source>
-        <translation>Beibehalten</translation>
+        <translation>დატოვება</translation>
     </message>
     <message>
         <source>Skip</source>
-        <translation>Überspringen</translation>
+        <translation>გამოტოვება</translation>
     </message>
     <message>
         <source>Clone Prefix</source>
-        <translation>Präfix doppeln</translation>
+        <translation>პრეფიქსის დაკლონვა</translation>
     </message>
     <message>
         <source>Enter the suffix which you want to add to the names of the cloned files.
 This could for example be a language extension like &quot;_de&quot;.</source>
-        <translation>Bitte geben Sie den Suffix ein, der an den Namen der gedoppelten Dateien angehängt werden soll.
-Dies kann zum Beispiel eine Sprachkennung wie &quot;_de&quot; sein.</translation>
+        <translation>შეიყვანეთ სუფიქსი, რომელიც დაკლონილი ფაილის სახელებში გნებავთ, დაემატოს.
+ეს შეიძლება, მაგალითად, ენის გაფართოება იყოს, მაგ: &quot;_de&quot;.</translation>
     </message>
     <message>
         <source>Copy As</source>
-        <translation>Kopieren nach</translation>
+        <translation>კოპირება, როგორც</translation>
     </message>
     <message>
         <source>&lt;p&gt;The selected file:&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;is outside of the current resource file&apos;s directory:&lt;/p&gt;&lt;p&gt;%2&lt;/p&gt;&lt;p&gt;Please select another path within this directory.&lt;p&gt;</source>
-        <translation>&lt;p&gt;Die gewählte Datei: &lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;befindet sich außerhalb des Verzeichnisses der Ressourcendatei:&lt;/p&gt;&lt;p&gt;%2&lt;/p&gt;&lt;p&gt;Bitte wählen Sie einen anderen Pfad, der im Verzeichnis der Ressourcendatei enthalten ist.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;არჩეული ფაილი:&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;მიმდინარე რესურსის ფაილის საქაღალდის გარეთაა:&lt;/p&gt;&lt;p&gt;%2&lt;/p&gt;&lt;p&gt;აირჩიეთ სხვა ბილიკი ამ საქაღალდეში.&lt;p&gt;</translation>
     </message>
     <message>
         <source>Could not overwrite %1.</source>
-        <translation>%1 konnte nicht überschrieben werden.</translation>
+        <translation>%1-ის თავზე გადაწერა შეუძლებელია.</translation>
     </message>
     <message>
         <source>Save Resource File</source>
-        <translation>Ressourcendatei speichern</translation>
+        <translation>რესურსის ფაილის შენახვა</translation>
     </message>
     <message>
         <source>Could not write %1: %2</source>
-        <translation>Die Datei %1konnte nicht geschrieben werden: %2</translation>
+        <translation>%1-ის ჩაწერა შეუძლებელია: %2</translation>
     </message>
     <message>
         <source>Open Resource File</source>
-        <translation>Ressourcendatei öffnen</translation>
+        <translation>ფაილის რესურსის გახსნა</translation>
     </message>
 </context>
 <context>
@@ -2976,31 +2977,31 @@ Dies kann zum Beispiel eine Sprachkennung wie &quot;_de&quot; sein.</translation
     <message>
         <source>Size: %1 x %2
 %3</source>
-        <translation>Größe: %1 x %2
+        <translation>ზომა: %1 x %2
 %3</translation>
     </message>
     <message>
         <source>Edit Resources...</source>
-        <translation>Ressourcen bearbeiten...</translation>
+        <translation>რესურსების ჩასწორება...</translation>
     </message>
     <message>
         <source>Reload</source>
-        <translation>Neu laden</translation>
+        <translation>თავიდან ჩატვირთვა</translation>
     </message>
     <message>
         <source>Copy Path</source>
-        <translation>Pfad kopieren</translation>
+        <translation>ბილიკის კოპირება</translation>
     </message>
     <message>
         <source>Filter</source>
-        <translation>Filter</translation>
+        <translation>ფილტრი</translation>
     </message>
 </context>
 <context>
     <name>QtResourceViewDialog</name>
     <message>
         <source>Select Resource</source>
-        <translation>Ressource auswählen</translation>
+        <translation>აირჩიეთ რესურსი</translation>
     </message>
 </context>
 <context>
@@ -3011,18 +3012,18 @@ Dies kann zum Beispiel eine Sprachkennung wie &quot;_de&quot; sein.</translation
     </message>
     <message>
         <source>Width</source>
-        <translation>Breite</translation>
+        <translation>სიგანე</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation>Höhe</translation>
+        <translation>სიმაღლე</translation>
     </message>
 </context>
 <context>
     <name>QtSizePolicyPropertyManager</name>
     <message>
         <source>&lt;Invalid&gt;</source>
-        <translation>&lt;Ungültig&gt;</translation>
+        <translation>&lt;არასწორი&gt;</translation>
     </message>
     <message>
         <source>[%1, %2, %3, %4]</source>
@@ -3030,19 +3031,19 @@ Dies kann zum Beispiel eine Sprachkennung wie &quot;_de&quot; sein.</translation
     </message>
     <message>
         <source>Horizontal Policy</source>
-        <translation>Horizontale Einstellung</translation>
+        <translation>ჰორიზონტალური წესები</translation>
     </message>
     <message>
         <source>Vertical Policy</source>
-        <translation>Vertikale Einstellung</translation>
+        <translation>ვერტიკალური წესები</translation>
     </message>
     <message>
         <source>Horizontal Stretch</source>
-        <translation>Horizontaler Dehnungsfaktor</translation>
+        <translation>ჰორიზონტალური გაწელვა</translation>
     </message>
     <message>
         <source>Vertical Stretch</source>
-        <translation>Vertikaler Dehnungsfaktor</translation>
+        <translation>ვერტიკალური გაწელვა</translation>
     </message>
 </context>
 <context>
@@ -3053,22 +3054,22 @@ Dies kann zum Beispiel eine Sprachkennung wie &quot;_de&quot; sein.</translation
     </message>
     <message>
         <source>Width</source>
-        <translation>Breite</translation>
+        <translation>სიგანე</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation>Höhe</translation>
+        <translation>სიმაღლე</translation>
     </message>
 </context>
 <context>
     <name>QtToolBarDialog</name>
     <message>
         <source>&lt; S E P A R A T O R &gt;</source>
-        <translation>&lt; T R E N N E R &gt;</translation>
+        <translation>&lt; გ ა მ ყ ო ფ ი &gt;</translation>
     </message>
     <message>
         <source>Customize Toolbars</source>
-        <translation>Werkzeugleisten anpassen</translation>
+        <translation>ხელსაწყოთა ზოლის მორგება</translation>
     </message>
     <message>
         <source>1</source>
@@ -3076,27 +3077,27 @@ Dies kann zum Beispiel eine Sprachkennung wie &quot;_de&quot; sein.</translation
     </message>
     <message>
         <source>Actions</source>
-        <translation>Aktionen</translation>
+        <translation>ქმედებები</translation>
     </message>
     <message>
         <source>Toolbars</source>
-        <translation>Werkzeugleisten</translation>
+        <translation>ხელსაწყოთა ზოლები</translation>
     </message>
     <message>
         <source>New</source>
-        <translation>Neu</translation>
+        <translation>ახალი</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Löschen</translation>
+        <translation>წაშლა</translation>
     </message>
     <message>
         <source>Rename</source>
-        <translation>Umbenennen</translation>
+        <translation>გადარქმევა</translation>
     </message>
     <message>
         <source>Up</source>
-        <translation>Nach oben</translation>
+        <translation>მაღლა</translation>
     </message>
     <message>
         <source>&lt;-</source>
@@ -3108,144 +3109,144 @@ Dies kann zum Beispiel eine Sprachkennung wie &quot;_de&quot; sein.</translation
     </message>
     <message>
         <source>Down</source>
-        <translation>Nach unten</translation>
+        <translation>ქვემოთ</translation>
     </message>
     <message>
         <source>Current Toolbar Actions</source>
-        <translation>Aktionen</translation>
+        <translation>მიმდინარე ხელსაწყოთა პანელის ქმედებები</translation>
     </message>
     <message>
         <source>Custom Toolbar</source>
-        <translation>Benutzerdefinierte Werkzeugleiste</translation>
+        <translation>მომხმარებლის ხელსაწყოთა ზოლი</translation>
     </message>
     <message>
         <source>Add new toolbar</source>
-        <translation>Neue Werkzeugleiste hinzufügen</translation>
+        <translation>ხელსაწყოთა ზოლის დამატება</translation>
     </message>
     <message>
         <source>Remove selected toolbar</source>
-        <translation>Ausgewählte Werkzeugleiste &apos;%1&apos; löschen</translation>
+        <translation>მონიშნული ხელსაწყოთა ზოლის წაშლა</translation>
     </message>
     <message>
         <source>Rename toolbar</source>
-        <translation>Werkzeugleiste umbenennen</translation>
+        <translation>ხელსაწყოთა ზოლის სახელის გადარქმევა</translation>
     </message>
     <message>
         <source>Move action up</source>
-        <translation>Aktion eins nach oben</translation>
+        <translation>ქმედების აწევა</translation>
     </message>
     <message>
         <source>Remove action from toolbar</source>
-        <translation>Aktion aus Werkzeugleiste entfernen</translation>
+        <translation>ქმედების წაშლა ხელსაწყოთა ზოლიდან</translation>
     </message>
     <message>
         <source>Add action to toolbar</source>
-        <translation>Aktion zu Werkzeugleiste hinzufügen</translation>
+        <translation>ქმედების დამატება ხელსაწყოთა ზოლზე</translation>
     </message>
     <message>
         <source>Move action down</source>
-        <translation>Aktion eins nach unten</translation>
+        <translation>ქმედების ჩამოწევა</translation>
     </message>
 </context>
 <context>
     <name>QtTreePropertyBrowser</name>
     <message>
         <source>Property</source>
-        <translation>Eigenschaft</translation>
+        <translation>პარამეტრი</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation>Wert</translation>
+        <translation>მნიშვნელობა</translation>
     </message>
 </context>
 <context>
     <name>SaveFormAsTemplate</name>
     <message>
         <source>Add path...</source>
-        <translation>Verzeichnis anlegen...</translation>
+        <translation>ბილიკის დამატება...</translation>
     </message>
     <message>
         <source>Template Exists</source>
-        <translation>Die Vorlage existiert  bereits</translation>
+        <translation>ნიმუში არსებობს</translation>
     </message>
     <message>
         <source>A template with the name %1 already exists.
 Do you want overwrite the template?</source>
-        <translation>Es existiert bereits eine Vorlage mit dem Namen %1.
-Möchten Sie sie überschreiben?</translation>
+        <translation>ნიმუში სახელით %1 უკვე არსებობს.
+გნებავთ, ნიმუშს თავზე გადააწეროთ?</translation>
     </message>
     <message>
         <source>Overwrite Template</source>
-        <translation>Vorlage überschreiben</translation>
+        <translation>ნიმუშის თავზე გადაწერა</translation>
     </message>
     <message>
         <source>Open Error</source>
-        <translation>Fehler beim Öffnen</translation>
+        <translation>გახსნის შეცდომა</translation>
     </message>
     <message>
         <source>There was an error opening template %1 for writing. Reason: %2</source>
-        <translation>Die Vorlage %1 konnte nicht in eine Datei geschrieben werden: %2</translation>
+        <translation>ნიმუშის %1 ჩასაწერად გახსნის შეცდომა. მიზეზი: %2</translation>
     </message>
     <message>
         <source>Write Error</source>
-        <translation>Schreibfehler</translation>
+        <translation>ჩაწერის შეცდომა</translation>
     </message>
     <message>
         <source>There was an error writing the template %1 to disk. Reason: %2</source>
-        <translation>Die Vorlage %1 konnte nicht in eine Datei geschrieben werden: %2</translation>
+        <translation>ნიმუშის %1 დისკზე ჩაწერის შეცდომა. მიზეზი: %2</translation>
     </message>
     <message>
         <source>Pick a directory to save templates in</source>
-        <translation>Wählen Sie ein Verzeichnis zum Abspeichern der Vorlagen aus</translation>
+        <translation>აირჩიეთ საქაღალდე ნიმუშების შესანახად</translation>
     </message>
     <message>
         <source>Save Form As Template</source>
-        <translation>Formular als Vorlage abspeichern</translation>
+        <translation>ფორმის შენახვა ნიმუშად</translation>
     </message>
     <message>
         <source>&amp;Category:</source>
-        <translation>&amp;Kategorie:</translation>
+        <translation>&amp;კატეგორია:</translation>
     </message>
     <message>
         <source>&amp;Name:</source>
-        <translation>&amp;Name:</translation>
+        <translation>&amp;სახელი:</translation>
     </message>
 </context>
 <context>
     <name>SelectSignalDialog</name>
     <message>
         <source>Go to slot</source>
-        <translation>Slot anzeigen</translation>
+        <translation>სლოტზე გადასვლა</translation>
     </message>
     <message>
         <source>Select signal</source>
-        <translation>Signal auswählen</translation>
+        <translation>აირჩიეთ სიგნალი</translation>
     </message>
     <message>
         <source>signal</source>
-        <translation>Signal</translation>
+        <translation>სიგნალი</translation>
     </message>
     <message>
         <source>class</source>
-        <translation>Klasse</translation>
+        <translation>კლასი</translation>
     </message>
 </context>
 <context>
     <name>SignalSlotConnection</name>
     <message>
         <source>SENDER(%1), SIGNAL(%2), RECEIVER(%3), SLOT(%4)</source>
-        <translation>SENDER(%1), SIGNAL(%2), EMPFÄNGER(%3), SLOT(%4)</translation>
+        <translation>SENDER(%1), SIGNAL(%2), RECEIVER(%3), SLOT(%4)</translation>
     </message>
 </context>
 <context>
     <name>SignalSlotDialogClass</name>
     <message>
         <source>Signals and slots</source>
-        <translation>Signale und Slots</translation>
+        <translation>სიგნალები და სლოტები</translation>
     </message>
     <message>
         <source>Slots</source>
-        <translation>Slots</translation>
+        <translation>სლოტები</translation>
     </message>
     <message>
         <source>...</source>
@@ -3253,26 +3254,26 @@ Möchten Sie sie überschreiben?</translation>
     </message>
     <message>
         <source>Signals</source>
-        <translation>Signale</translation>
+        <translation>სიგნალები</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation>Hinzufügen</translation>
+        <translation>დამატება</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Löschen</translation>
+        <translation>წაშლა</translation>
     </message>
 </context>
 <context>
     <name>Spacer</name>
     <message>
         <source>Horizontal Spacer &apos;%1&apos;, %2 x %3</source>
-        <translation>Horizontales Füllelement &apos;%1&apos;, %2 x %3</translation>
+        <translation>ჰორიზონტალური გამყოფი &apos;%1&apos;, %2 x %3</translation>
     </message>
     <message>
         <source>Vertical Spacer &apos;%1&apos;, %2 x %3</source>
-        <translation>Vertikales Füllelement &apos;%1&apos;, %2 x %3</translation>
+        <translation>ვერტიკალური გამყოფი &apos;%1&apos;, %2 x %3</translation>
     </message>
 </context>
 <context>
@@ -3280,57 +3281,57 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <source>Template Paths</source>
         <extracomment>Tab in preferences dialog</extracomment>
-        <translation>Verzeichnisse für Vorlagen</translation>
+        <translation>ნიმუშის ბილიკები</translation>
     </message>
 </context>
 <context>
     <name>ToolBarManager</name>
     <message>
         <source>Configure Toolbars...</source>
-        <translation>Werkzeugleiste konfigurieren...</translation>
+        <translation>ხელსაწყოთა ზოლების მორგება...</translation>
     </message>
     <message>
         <source>Window</source>
-        <translation>Fenster</translation>
+        <translation>ფანჯარა</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Hilfe</translation>
+        <translation>დახმარება</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation>Stil</translation>
+        <translation>სტილი</translation>
     </message>
     <message>
         <source>Dock views</source>
-        <translation>Dockfenster</translation>
+        <translation>პანელები</translation>
     </message>
     <message>
         <source>File</source>
-        <translation>Datei</translation>
+        <translation>ფაილი</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Bearbeiten</translation>
+        <translation>ჩასწორება</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation>Werkzeuge</translation>
+        <translation>ხელსაწყოები</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Formular</translation>
+        <translation>ფორმა</translation>
     </message>
     <message>
         <source>Toolbars</source>
-        <translation>Werkzeugleisten</translation>
+        <translation>ხელსაწყოთა ზოლები</translation>
     </message>
 </context>
 <context>
     <name>VersionDialog</name>
     <message>
         <source>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;&lt;br/&gt;Version %2</source>
-        <translation>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;&lt;br/&gt;Version %2</translation>
+        <translation>&lt;h3&gt;%1&lt;/h3&gt;&lt;br/&gt;&lt;br/&gt;ვერსია %2</translation>
     </message>
     <message>
         <source>Qt Designer</source>
@@ -3338,124 +3339,124 @@ Möchten Sie sie überschreiben?</translation>
     </message>
     <message>
         <source>&lt;br/&gt;Qt Designer is a graphical user interface designer for Qt applications.&lt;br/&gt;</source>
-        <translation>&lt;br/&gt;Qt Designer is a graphical user interface designer for Qt applications.&lt;br/&gt;</translation>
+        <translation>&lt;br/&gt;&apos;Qt Designer&apos; Qt-ის აპლიკაციების გრაფიკული მომხმარებლის ინტერფეისის დიზაინერია&gt;&lt;br/&gt;</translation>
     </message>
     <message>
         <source>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</source>
-        <translation>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</translation>
+        <translation>%1&lt;br/&gt;ყველა უფლება დაცულია (C) %2 The Qt Company Ltd.</translation>
     </message>
 </context>
 <context>
     <name>WidgetDataBase</name>
     <message>
         <source>Abstract base class that cannot be instantiated. For promotion/custom widget usage only.</source>
-        <translation>Abstrakte Basisklasse, die nicht instanziiert werden kann. Ausschließlich zur Verwendung mit Promoted Widgets oder benutzerdefinierten Widgets.</translation>
+        <translation>აბსტრაქტული საბაზისო კლასი, რომლის დაკონკრეტებაც შეუძლებელია. მხოლოდ, წახალისების/მომხმარებლის ვიჯეტებისთვის.</translation>
     </message>
     <message>
         <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
-        <translation>Die Datei enthält ein benutzerdefiniertes Widget &apos;%1&apos; dessen Basisklasse (%2) nicht mit dem Eintrag in der Widget-Datenbank übereinstimmt. Die Widget-Datenbank wird nicht geändert.</translation>
+        <translation>ეს ფაილი შეიცავს მომხმარებლის ვიჯეტს &apos;%1&apos;, რომლის საბაზისო კლასიც (%2) განსხვავდება მიმდინარე ჩანაწერისგან ვიჯეტების ბაზაში (%3). ვიჯეტების ბაზა არ შეცვლილა.</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::ActionEditor</name>
     <message>
         <source>Actions</source>
-        <translation>Aktionen</translation>
+        <translation>ქმედებები</translation>
     </message>
     <message>
         <source>New...</source>
-        <translation>Neu...</translation>
+        <translation>ახალი...</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Löschen</translation>
+        <translation>წაშლა</translation>
     </message>
     <message>
         <source>New action</source>
-        <translation>Neue Aktion</translation>
+        <translation>ახალი ქმედება</translation>
     </message>
     <message>
         <source>Edit action</source>
-        <translation>Aktion ändern</translation>
+        <translation>ქმედების ჩასწორება</translation>
     </message>
     <message>
         <source>Edit...</source>
-        <translation>Ändern...</translation>
+        <translation>ჩასწორება...</translation>
     </message>
     <message>
         <source>Go to slot...</source>
-        <translation>Slot anzeigen...</translation>
+        <translation>გადასვლა სლოტზე...</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Kopieren</translation>
+        <translation>კოპირება</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation>Ausschneiden</translation>
+        <translation>ამოჭრა</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>Einfügen</translation>
+        <translation>ჩასმა</translation>
     </message>
     <message>
         <source>Select all</source>
-        <translation>Alles auswählen</translation>
+        <translation>ყველას მონიშვნა</translation>
     </message>
     <message>
         <source>Icon View</source>
-        <translation>Icon-Ansicht</translation>
+        <translation>ხატულებით ჩვენება</translation>
     </message>
     <message>
         <source>Detailed View</source>
-        <translation>Detaillierte Ansicht</translation>
+        <translation>დეტალური ხედი</translation>
     </message>
     <message>
         <source>Filter</source>
-        <translation>Filter</translation>
+        <translation>ფილტრი</translation>
     </message>
     <message>
         <source>Remove actions</source>
-        <translation> Aktionen löschen</translation>
+        <translation>ქმედებების წაშლა</translation>
     </message>
     <message>
         <source>Remove action &apos;%1&apos;</source>
-        <translation>Aktion &apos;%1&apos; löschen</translation>
+        <translation>წაიშლება ქმედება &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Used In</source>
-        <translation>Verwendet in</translation>
+        <translation>გამოიყენება სად</translation>
     </message>
     <message>
         <source>Configure Action Editor</source>
-        <translation>Aktionseditor konfigurieren</translation>
+        <translation>ქმედებების რედაქტორის მორგება</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::ActionModel</name>
     <message>
         <source>Name</source>
-        <translation>Name</translation>
+        <translation>სახელი</translation>
     </message>
     <message>
         <source>Used</source>
-        <translation>Verwendet</translation>
+        <translation>გამოყენებული</translation>
     </message>
     <message>
         <source>Text</source>
-        <translation>Text</translation>
+        <translation>ტექსტი</translation>
     </message>
     <message>
         <source>Shortcut</source>
-        <translation>Tastenkürzel</translation>
+        <translation>მალმხმობი</translation>
     </message>
     <message>
         <source>Checkable</source>
-        <translation>Ankreuzbar</translation>
+        <translation>ტრიგერული</translation>
     </message>
     <message>
         <source>ToolTip</source>
-        <translation>ToolTip</translation>
+        <translation>მინიშნება</translation>
     </message>
     <message>
         <source>MenuRole</source>
@@ -3466,238 +3467,238 @@ Möchten Sie sie überschreiben?</translation>
     <name>qdesigner_internal::BuddyEditor</name>
     <message>
         <source>Add buddy</source>
-        <translation>Buddy hinzufügen</translation>
+        <translation>მეგობრის დამატება</translation>
     </message>
     <message>
         <source>Remove buddies</source>
-        <translation>Buddies löschen</translation>
+        <translation>მეგობრების წაშლა</translation>
     </message>
     <message numerus="yes">
         <source>Remove %n buddies</source>
         <translation>
-            <numerusform>Buddy  löschen</numerusform>
-            <numerusform>%n Buddies löschen</numerusform>
+            <numerusform>%n მეგობრის წაშლა</numerusform>
+            <numerusform>%n მეგობრის წაშლა</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>Add %n buddies</source>
         <translation>
-            <numerusform>Buddy hinzufügen</numerusform>
-            <numerusform>%n Buddies hinzufügen</numerusform>
+            <numerusform>%n მეგობრის დამატება</numerusform>
+            <numerusform>%n მეგობრის დამატება</numerusform>
         </translation>
     </message>
     <message>
         <source>Set automatically</source>
-        <translation>Automatisch setzen</translation>
+        <translation>ავტომატურად დაყენება</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::BuddyEditorPlugin</name>
     <message>
         <source>Edit Buddies</source>
-        <translation>Buddies bearbeiten</translation>
+        <translation>მეგობრების ჩასწორება</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::BuddyEditorTool</name>
     <message>
         <source>Edit Buddies</source>
-        <translation>Buddies bearbeiten</translation>
+        <translation>მეგობრების ჩასწორება</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::ButtonGroupMenu</name>
     <message>
         <source>Select members</source>
-        <translation>Mitglieder auswählen</translation>
+        <translation>აირჩიეთ წევრები</translation>
     </message>
     <message>
         <source>Break</source>
-        <translation>Aufheben</translation>
+        <translation>გაჩერება</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::ButtonTaskMenu</name>
     <message>
         <source>Assign to button group</source>
-        <translation>Gruppierung</translation>
+        <translation>ღილაკების ჯგუფზე მინიჭება</translation>
     </message>
     <message>
         <source>Button group</source>
-        <translation>Gruppierung</translation>
+        <translation>ღილაკების ჯგუფი</translation>
     </message>
     <message>
         <source>New button group</source>
-        <translation>Neue Gruppierung</translation>
+        <translation>ახალი ღილაკების ჯგუფი</translation>
     </message>
     <message>
         <source>Change text...</source>
-        <translation>Text ändern...</translation>
+        <translation>ტექსტის შეცვლა...</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Keine</translation>
+        <translation>არაფერი</translation>
     </message>
     <message>
         <source>Button group &apos;%1&apos;</source>
-        <translation>Gruppierung &apos;%1&apos;</translation>
+        <translation>ღილაკების ჯგუფი &apos;%1&apos;</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::CodeDialog</name>
     <message>
         <source>Save...</source>
-        <translation>Speichern...</translation>
+        <translation>შენახვა...</translation>
     </message>
     <message>
         <source>Copy All</source>
-        <translation>Alles kopieren</translation>
+        <translation>ყველას კოპირება</translation>
     </message>
     <message>
         <source>A temporary form file could not be created in %1.</source>
-        <translation>In dem Verzeichnis %1 konnte keine temporäre Formulardatei angelegt werden.</translation>
+        <translation>დროებითი ფორმის ფაილის შექმნა %1-ში შეუძლებელია.</translation>
     </message>
     <message>
         <source>The temporary form file %1 could not be written.</source>
-        <translation>Die temporäre Formulardatei %1 konnte nicht geschrieben werden.</translation>
+        <translation>დროებითი ფორმის ფაილის %1 ჩაწერა შეუძლებელია.</translation>
     </message>
     <message>
         <source>%1 - [%2 Code]</source>
-        <translation>%1 - [%2 Code]</translation>
+        <translation>%1 - [%2 კოდი]</translation>
     </message>
     <message>
         <source>Save Code</source>
-        <translation>Code speichern</translation>
+        <translation>კოდის შენახვა</translation>
     </message>
     <message>
         <source>The file %1 could not be opened: %2</source>
-        <translation>Die Datei %1 konnte nicht geöffnet werden: %2</translation>
+        <translation>ფაილი %1 ვერ გავხსენი: %2</translation>
     </message>
     <message>
         <source>The file %1 could not be written: %2</source>
-        <translation>Die Datei %1 konnte nicht geschrieben werden: %2</translation>
+        <translation>ფაილში %1 ჩაწერა შეუძლებელია: %2</translation>
     </message>
     <message>
         <source>%1 - Error</source>
-        <translation>%1 - Fehler</translation>
+        <translation>%1 - შეცდომა</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::ColorAction</name>
     <message>
         <source>Text Color</source>
-        <translation>Schriftfarbe</translation>
+        <translation>ტექსტის ფერი</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::ComboBoxTaskMenu</name>
     <message>
         <source>Edit Items...</source>
-        <translation>Einträge ändern...</translation>
+        <translation>ელემენტების ჩასწორება...</translation>
     </message>
     <message>
         <source>Change Combobox Contents</source>
-        <translation>Inhalt der  Combobox  ändern</translation>
+        <translation>Combobox-ის შემცველობის შეცვლა</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::CommandLinkButtonTaskMenu</name>
     <message>
         <source>Change description...</source>
-        <translation>Beschreibung ändern...</translation>
+        <translation>აღწერის შეცვლა...</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::ConnectionEdit</name>
     <message>
         <source>Select All</source>
-        <translation>Alles auswählen</translation>
+        <translation>ყველას მონიშვნა</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Löschen</translation>
+        <translation>წაშლა</translation>
     </message>
     <message>
         <source>Deselect All</source>
-        <translation>Auswahl rücksetzen</translation>
+        <translation>მონიშვნის მოხსნა</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::ConnectionModel</name>
     <message>
         <source>Sender</source>
-        <translation>Sender</translation>
+        <translation>გამომგზავნი</translation>
     </message>
     <message>
         <source>Signal</source>
-        <translation>Signal</translation>
+        <translation>სიგნალი</translation>
     </message>
     <message>
         <source>Receiver</source>
-        <translation>Empfänger</translation>
+        <translation>მიმღები</translation>
     </message>
     <message>
         <source>Slot</source>
-        <translation>Slot</translation>
+        <translation>სლოტი</translation>
     </message>
     <message>
         <source>&lt;sender&gt;</source>
-        <translation>&lt;Sender&gt;</translation>
+        <translation>&lt;გამგზავნი&gt;</translation>
     </message>
     <message>
         <source>&lt;signal&gt;</source>
-        <translation>&lt;Signal&gt;</translation>
+        <translation>&lt;სიგნალი&gt;</translation>
     </message>
     <message>
         <source>&lt;receiver&gt;</source>
-        <translation>&lt;Receiver&gt;</translation>
+        <translation>&lt;მიმღები&gt;</translation>
     </message>
     <message>
         <source>&lt;slot&gt;</source>
-        <translation>&lt;Slot&gt;</translation>
+        <translation>&lt;სლოტი&gt;</translation>
     </message>
     <message>
         <source>Signal and Slot Editor</source>
-        <translation>Signal/Slot editor</translation>
+        <translation>სიგნალებისა და სლოტების რედაქტორი</translation>
     </message>
     <message>
         <source>The connection already exists!&lt;br&gt;%1</source>
-        <translation>Diese Verbindung existiert bereits!&lt;br&gt;%1&lt;/br&gt;</translation>
+        <translation>კავშირი უკვე არსებობს!&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::ContainerWidgetTaskMenu</name>
     <message>
         <source>Insert Page Before Current Page</source>
-        <translation>Seite davor einfügen</translation>
+        <translation>გვერდის ჩასმა მიმდინარე გვერდამდე</translation>
     </message>
     <message>
         <source>Insert Page After Current Page</source>
-        <translation>Seite danach einfügen</translation>
+        <translation>გვერდის ჩასმა მიმდინარე გვერდის შემდეგ</translation>
     </message>
     <message>
         <source>Add Subwindow</source>
-        <translation>Subfenster hinzufügen</translation>
+        <translation>ქვეფანჯრის დამატება</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Löschen</translation>
+        <translation>წაშლა</translation>
     </message>
     <message>
         <source>Insert</source>
-        <translation>Einfügen</translation>
+        <translation>ჩასმა</translation>
     </message>
     <message>
         <source>Subwindow</source>
-        <translation>Subwindow</translation>
+        <translation>ქვეფანჯარა</translation>
     </message>
     <message>
         <source>Page</source>
-        <translation>Seite</translation>
+        <translation>გვერდი</translation>
     </message>
     <message>
         <source>Page %1 of %2</source>
-        <translation>Seite %1 von %2</translation>
+        <translation>გვერდი %1 %2-დან</translation>
     </message>
 </context>
 <context>
@@ -3710,11 +3711,11 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <source>System (%1 x %2)</source>
         <extracomment>System resolution</extracomment>
-        <translation>System (%1 x %2)</translation>
+        <translation>სისტემური (%1 x %2)</translation>
     </message>
     <message>
         <source>User defined</source>
-        <translation>Benutzerdefiniert</translation>
+        <translation>მომხმარებლის მიერ განსაზღვრული</translation>
     </message>
 </context>
 <context>
@@ -3725,31 +3726,31 @@ Möchten Sie sie überschreiben?</translation>
     </message>
     <message>
         <source>AlignLeft</source>
-        <translation>Linksbündig ausrichten</translation>
+        <translation>მარცხნივსწორება</translation>
     </message>
     <message>
         <source>AlignHCenter</source>
-        <translation>Horizontal zentrieren</translation>
+        <translation>ჰცენტრზესწორება</translation>
     </message>
     <message>
         <source>AlignRight</source>
-        <translation>Rechtsbündig ausrichten</translation>
+        <translation>მარჯვნივსწორება</translation>
     </message>
     <message>
         <source>AlignJustify</source>
-        <translation>Blocksatz</translation>
+        <translation>AlignJustify</translation>
     </message>
     <message>
         <source>AlignTop</source>
-        <translation>Am oberen Rand ausrichten</translation>
+        <translation>ზემოთსწორება</translation>
     </message>
     <message>
         <source>AlignVCenter</source>
-        <translation>Vertikal zentrieren</translation>
+        <translation>ვცენტრზესწორება</translation>
     </message>
     <message>
         <source>AlignBottom</source>
-        <translation>Am unteren Rand zentrieren</translation>
+        <translation>ქვემოთსწორება</translation>
     </message>
     <message>
         <source>%1, %2</source>
@@ -3758,219 +3759,219 @@ Möchten Sie sie überschreiben?</translation>
     <message numerus="yes">
         <source>Customized (%n roles)</source>
         <translation>
-            <numerusform>Angepasst (eine Rolle)</numerusform>
-            <numerusform>Angepasst (%n Rollen)</numerusform>
+            <numerusform>მორგებული (%n როლი)</numerusform>
+            <numerusform>მორგებული (%n როლი)</numerusform>
         </translation>
     </message>
     <message>
         <source>Inherited</source>
-        <translation>Geerbt</translation>
+        <translation>მემკვიდრეობით</translation>
     </message>
     <message>
         <source>[Theme] %1</source>
-        <translation>[Thema] %1</translation>
+        <translation>[თემა] %1</translation>
     </message>
     <message>
         <source>Horizontal</source>
-        <translation>Horizontal</translation>
+        <translation>ჰორიზონტალური</translation>
     </message>
     <message>
         <source>Vertical</source>
-        <translation>Vertikal</translation>
+        <translation>ვერტიკალური</translation>
     </message>
     <message>
         <source>Theme</source>
-        <translation>Thema</translation>
+        <translation>თემა</translation>
     </message>
     <message>
         <source>Normal Off</source>
-        <translation>Normal, aus</translation>
+        <translation>ნორმალური გამორთ</translation>
     </message>
     <message>
         <source>Normal On</source>
-        <translation>Normal, ein</translation>
+        <translation>ნორმალური ჩართ</translation>
     </message>
     <message>
         <source>Disabled Off</source>
-        <translation>Nicht verfügbar, aus</translation>
+        <translation>გამორთულობი გამორთ</translation>
     </message>
     <message>
         <source>Disabled On</source>
-        <translation>Verfügbar, ein</translation>
+        <translation>გამორთულობის ჩართ</translation>
     </message>
     <message>
         <source>Active Off</source>
-        <translation>Aktiv, aus</translation>
+        <translation>აქტიურობის გამორთ</translation>
     </message>
     <message>
         <source>Active On</source>
-        <translation>Aktiv, ein</translation>
+        <translation>აქტიურობის ჩართ</translation>
     </message>
     <message>
         <source>Selected Off</source>
-        <translation>Ausgewählt, aus</translation>
+        <translation>მონიშნულობის გამორთ</translation>
     </message>
     <message>
         <source>Selected On</source>
-        <translation>Ausgewählt, ein</translation>
+        <translation>მონიშნულობის ჩართ</translation>
     </message>
     <message>
         <source>disambiguation</source>
-        <translation>Kennung</translation>
+        <translation>დაზუსტება</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::DeviceProfileDialog</name>
     <message>
         <source>Device Profiles (*.%1)</source>
-        <translation>Profile</translation>
+        <translation>მოწყობილობის პროფილები (*.%1)</translation>
     </message>
     <message>
         <source>Default</source>
-        <translation>Vorgabe</translation>
+        <translation>ნაგულისხმევი</translation>
     </message>
     <message>
         <source>Save Profile</source>
-        <translation>Profil speichern</translation>
+        <translation>ფაილის შენახვა</translation>
     </message>
     <message>
         <source>Save Profile - Error</source>
-        <translation>Fehler beim Speichern des Profils</translation>
+        <translation>პროფილის შენახვის შეცდომა</translation>
     </message>
     <message>
         <source>Unable to open the file &apos;%1&apos; for writing: %2</source>
-        <translation>Die Datei &apos;%1&apos; konnte nicht zum Schreiben geöffnet werden: %2</translation>
+        <translation>ვერ გავხსენი ფაილი &apos;%1&apos; ჩასაწერად: %2</translation>
     </message>
     <message>
         <source>Unable to open the file &apos;%1&apos; for reading: %2</source>
-        <translation>Die Datei &apos;%1&apos; konnte nicht zum Lesen geöffnet werden: %2</translation>
+        <translation>ვერ გავხსენი ფაილი &apos;%1&apos; წასაკითხად: %2</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a valid profile: %2</source>
-        <translation>&apos;%1&apos; ist kein gültiges Profil: %2</translation>
+        <translation>&apos;%1&apos; სწორი პროფილი არაა: %2</translation>
     </message>
     <message>
         <source>Open profile</source>
-        <translation>Profil öffnen</translation>
+        <translation>პროფილის გახსნა</translation>
     </message>
     <message>
         <source>Open Profile - Error</source>
-        <translation>Fehler beim Öffnen des Profils</translation>
+        <translation>პროფილის გახსნის შეცდომა</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::Dialog</name>
     <message>
         <source>Dialog</source>
-        <translation>Dialog</translation>
+        <translation>ფანჯარა</translation>
     </message>
     <message>
         <source>StringList</source>
-        <translation>Liste von Zeichenketten</translation>
+        <translation>სტრიქონებსი სია</translation>
     </message>
     <message>
         <source>New String</source>
-        <translation>Neue Zeichenkette</translation>
+        <translation>ახალი სტრიქონი</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Neu</translation>
+        <translation>&amp;ახალი</translation>
     </message>
     <message>
         <source>Delete String</source>
-        <translation>Zeichenkette löschen</translation>
+        <translation>სტრიქონის წაშლა</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Löschen</translation>
+        <translation>&amp;წაშლა</translation>
     </message>
     <message>
         <source>&amp;Value:</source>
-        <translation>&amp;Wert:</translation>
+        <translation>მნიშ&amp;ვნელობა:</translation>
     </message>
     <message>
         <source>Move String Up</source>
-        <translation>Zeichenkette eins nach oben</translation>
+        <translation>სტრიქონის აწევა</translation>
     </message>
     <message>
         <source>Up</source>
-        <translation>Hoch</translation>
+        <translation>მაღლა</translation>
     </message>
     <message>
         <source>Move String Down</source>
-        <translation>Zeichenkette eins nach unten</translation>
+        <translation>სტრიქონის დაწევა</translation>
     </message>
     <message>
         <source>Down</source>
-        <translation>Runter</translation>
+        <translation>ქვემოთ</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::EmbeddedOptionsControl</name>
     <message>
         <source>None</source>
-        <translation>Vorgabe</translation>
+        <translation>არაფერი</translation>
     </message>
     <message>
         <source>Add a profile</source>
-        <translation>Profil hinzufügen</translation>
+        <translation>პროფილის დამატება</translation>
     </message>
     <message>
         <source>Edit the selected profile</source>
-        <translation>Ausgewähltes Profil modifizieren</translation>
+        <translation>მონიშნული პროფილის ჩასწორება</translation>
     </message>
     <message>
         <source>Delete the selected profile</source>
-        <translation>Ausgewähltes Profil löschen</translation>
+        <translation>მონიშნული პროფილის წაშლა</translation>
     </message>
     <message>
         <source>Add Profile</source>
-        <translation>Profil hinzufügen</translation>
+        <translation>პროფილის დამატება</translation>
     </message>
     <message>
         <source>New profile</source>
-        <translation>Neues Profil</translation>
+        <translation>ახალი პროფილი</translation>
     </message>
     <message>
         <source>Edit Profile</source>
-        <translation>Profil ändern</translation>
+        <translation>პროფილის ჩასწორება</translation>
     </message>
     <message>
         <source>Delete Profile</source>
-        <translation>Profil löschen</translation>
+        <translation>პროფილის წაშლა</translation>
     </message>
     <message>
         <source>Would you like to delete the profile &apos;%1&apos;?</source>
-        <translation>Möchten Sie das Profil &apos;%1&apos; löschen?</translation>
+        <translation>გნებავთ წაშალოთ პროფილი &apos;%1&apos;?</translation>
     </message>
     <message>
         <source>Default</source>
-        <translation>Vorgabe</translation>
+        <translation>ნაგულისხმევი</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::FormEditor</name>
     <message>
         <source>Resource File Changed</source>
-        <translation>Änderung einer Ressourcendatei</translation>
+        <translation>რესურსის ფაილი შეიცვალა</translation>
     </message>
     <message>
         <source>The file &quot;%1&quot; has changed outside Designer. Do you want to reload it?</source>
-        <translation>Die Ressourcendatei &quot;%1&quot; wurde außerhalb Designer geändert. Möchten Sie sie neu laden?</translation>
+        <translation>ფაილი &quot;%1&quot; Designer-ის გარეთ შეიცვალა. გნებავთ, თავიდან ჩატვირთოთ ის?</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::FormLayoutMenu</name>
     <message>
         <source>Add form layout row...</source>
-        <translation>Zeile hinzufügen...</translation>
+        <translation>ფორმის განლაგების მწკრივის დამატება...</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::FormWindow</name>
     <message>
         <source>Edit contents</source>
-        <translation>Ändern</translation>
+        <translation>შემცველობის ჩასწორება</translation>
     </message>
     <message>
         <source>F2</source>
@@ -3978,354 +3979,354 @@ Möchten Sie sie überschreiben?</translation>
     </message>
     <message>
         <source>Resize</source>
-        <translation>Größe ändern</translation>
+        <translation>ზომის შეცვლა</translation>
     </message>
     <message>
         <source>Key Move</source>
-        <translation>Verschieben mittels Tastatur</translation>
+        <translation>გადაადგილების ღილაკი</translation>
     </message>
     <message>
         <source>Paste error</source>
-        <translation>Fehler beim Einfügen</translation>
+        <translation>ჩასმის შეცდომა</translation>
     </message>
     <message>
         <source>Lay out</source>
-        <translation>Layout</translation>
+        <translation>განლაგება</translation>
     </message>
     <message>
         <source>Drop widget</source>
-        <translation>Widget einfügen</translation>
+        <translation>ვიჯეტის მოცილება</translation>
     </message>
     <message numerus="yes">
         <source>Paste %n action(s)</source>
         <translation>
-            <numerusform>Eine Aktion einfügen</numerusform>
-            <numerusform>%n Aktionen einfügen</numerusform>
+            <numerusform>%n ქმედების ჩასმა</numerusform>
+            <numerusform>%n ქმედების ჩასმა</numerusform>
         </translation>
     </message>
     <message>
         <source>Insert widget &apos;%1&apos;</source>
-        <translation>Widget &apos;%1&apos; einfügen</translation>
+        <translation>ვიჯეტის ჩასმა: &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Key Resize</source>
-        <translation>Größe ändern mittels Tastatur</translation>
+        <translation>ზომის შეცვლის ღილაკი</translation>
     </message>
     <message numerus="yes">
         <source>Paste %n widget(s)</source>
         <translation>
-            <numerusform>Widget einfügen</numerusform>
-            <numerusform>%n Widgets einfügen</numerusform>
+            <numerusform>%n ვიჯეტის ჩასმა</numerusform>
+            <numerusform>%n ვიჯეტის ჩასმა</numerusform>
         </translation>
     </message>
     <message>
         <source>Paste (%1 widgets, %2 actions)</source>
-        <translation>Einfügen (%1 Widgets, %2 Aktionen)</translation>
+        <translation>ჩასმა (%1 ვიჯეტი, %2 ქმედება)</translation>
     </message>
     <message>
         <source>Cannot paste widgets. Designer could not find a container without a layout to paste into.</source>
-        <translation>Die Widgets konnten nicht eingefügt werden, da kein Container gefunden werden konnte, der nicht bereits ein Layout hat.</translation>
+        <translation>ვიჯეტების ჩასმა შეუძლებელია. Designer-მა ვერ იპოვა კონტეინერი განლაგების გარეშე, რომ ჩაესვა.</translation>
     </message>
     <message>
         <source>Break the layout of the container you want to paste into, select this container and then paste again.</source>
-        <translation>Bitte lösen Sie das Layout des gewünschten Containers auf und wählen Sie ihn erneut aus, um die Widgets einzufügen.</translation>
+        <translation>დაშალეთ კონტეინერის განლაგება, რომელშიც ჩასმა გნებავთ, აირჩიეთ ეს კონტეინერი და კიდევ ერთხელ ჩასვით.</translation>
     </message>
     <message>
         <source>Select Ancestor</source>
-        <translation>Übergeordnetes Widget auswählen</translation>
+        <translation>მშობლის არჩევა</translation>
     </message>
     <message>
         <source>A QMainWindow-based form does not contain a central widget.</source>
-        <translation>Ein auf QMainWindow basierendes Formular enthält kein zentrales Widget.</translation>
+        <translation>QMainWindow-ზე დაყრდნობილი ფორმა ცენტრალურ ვიჯეტს არ შეიცავს.</translation>
     </message>
     <message>
         <source>Raise widgets</source>
-        <translation>Widgets nach vorn bringen</translation>
+        <translation>ვიჯეტების ამოწევა</translation>
     </message>
     <message>
         <source>Lower widgets</source>
-        <translation>Widgets nach hinten setzen</translation>
+        <translation>ვიჯეტების ჩაწევა</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::FormWindowBase</name>
     <message>
         <source>Delete</source>
-        <translation>Löschen</translation>
+        <translation>წაშლა</translation>
     </message>
     <message>
         <source>Delete &apos;%1&apos;</source>
-        <translation> &apos;%1&apos; löschen</translation>
+        <translation>&apos;%1&apos;-ის წაშლა</translation>
     </message>
     <message>
         <source>Invalid form</source>
-        <translation>Ungültiges Formular</translation>
+        <translation>არასწორი ფორმა</translation>
     </message>
     <message>
         <source>&lt;p&gt;This file contains top level spacers.&lt;br/&gt;They will &lt;b&gt;not&lt;/b&gt; be saved.&lt;/p&gt;&lt;p&gt;Perhaps you forgot to create a layout?&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Das Formular enthält freistehende Layoutelemente.&lt;br/&gt;Sie werden &lt;b&gt;nicht&lt;/b&gt; gespeichert.&lt;/p&gt;&lt;p&gt;Haben Sie möglicherweise vergessen, ein Layout zu erstellen?&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;ეს ფაილი უმაღლესი დონის გამყოფებს შეიცავს.&lt;br/&gt;ისინი შენახული &lt;b&gt;არ&lt;/b&gt; იქნება.&lt;/p&gt;&lt;p&gt;ალბათ, განლაგების შექმნა დაგავიწყდათ?&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::FormWindowManager</name>
     <message>
         <source>Cu&amp;t</source>
-        <translation>&amp;Ausschneiden</translation>
+        <translation>ამ&amp;ოჭრა</translation>
     </message>
     <message>
         <source>Cuts the selected widgets and puts them on the clipboard</source>
-        <translation>Schneidet die ausgewählten Widgets aus und legt sie in der Zwischenablage ab</translation>
+        <translation>ამოჭრის მონიშნულ ვიჯეტს და მას ბუფერში მოათავსებს</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Kopieren</translation>
+        <translation>&amp;კოპირება</translation>
     </message>
     <message>
         <source>Copies the selected widgets to the clipboard</source>
-        <translation>Kopiert die ausgewählten Widgets in die Zwischenablage</translation>
+        <translation>დააკოპირებს მონიშნულ ვიჯეტებს ბუფერში</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>&amp;Einfügen</translation>
+        <translation>&amp;ჩასმა</translation>
     </message>
     <message>
         <source>Pastes the clipboard&apos;s contents</source>
-        <translation>Fügt den Inhalt der Zwischenablage ein</translation>
+        <translation>ჩასვამს ბუფერის შემცველობას</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Löschen</translation>
+        <translation>&amp;წაშლა</translation>
     </message>
     <message>
         <source>Deletes the selected widgets</source>
-        <translation>Löscht die ausgewählten Widgets</translation>
+        <translation>წაშლის მონიშნულ ვიჯეტებს</translation>
     </message>
     <message>
         <source>Select &amp;All</source>
-        <translation>&amp;Alles auswählen</translation>
+        <translation>ყველაფრის &amp;მონიშვნა</translation>
     </message>
     <message>
         <source>Selects all widgets</source>
-        <translation>Wählt alle Widget aus</translation>
+        <translation>მონიშნავს ყველა ვიჯეტს</translation>
     </message>
     <message>
         <source>Bring to &amp;Front</source>
-        <translation>Nach &amp;vorn</translation>
+        <translation>&amp;წინ გამოტანა</translation>
     </message>
     <message>
         <source>Raises the selected widgets</source>
-        <translation>Bringt das ausgewählte Widget nach vorn</translation>
+        <translation>ამოწევს მონიშნულ ვიჯეტებს</translation>
     </message>
     <message>
         <source>Send to &amp;Back</source>
-        <translation>Nach &amp;hinten</translation>
+        <translation>&amp;უკან გაგზაცვნა</translation>
     </message>
     <message>
         <source>Lowers the selected widgets</source>
-        <translation>Stellt das ausgewählte Widget nach hinten</translation>
+        <translation>ჩაწევს მონიშნულ ვიჯეტებს</translation>
     </message>
     <message>
         <source>Adjust &amp;Size</source>
-        <translation>&amp;Größe anpassen</translation>
+        <translation>ზომი&amp;ს გასწორება</translation>
     </message>
     <message>
         <source>Adjusts the size of the selected widget</source>
-        <translation>Berechnet die Größe des ausgewählten Widgets aus dem Layout und passt das Widget an</translation>
+        <translation>გაასწორებს მონიშნული ვიჯეტის ზომას</translation>
     </message>
     <message>
         <source>Lay Out &amp;Horizontally</source>
-        <translation>Objekte &amp;waagrecht anordnen</translation>
+        <translation>&amp;ჰორიზონტალური განლაგება</translation>
     </message>
     <message>
         <source>Lays out the selected widgets horizontally</source>
-        <translation>Ordnet die ausgewähltenObjekte waagrecht an</translation>
+        <translation>განალაგებს მონიშნულ ვიჯეტებს ჰორიზონტალურად</translation>
     </message>
     <message>
         <source>Lay Out &amp;Vertically</source>
-        <translation>Objekte &amp;senkrecht anordnen</translation>
+        <translation>&amp;ვერტიკალური განლაგება</translation>
     </message>
     <message>
         <source>Lays out the selected widgets vertically</source>
-        <translation>Ordnet die ausgewählten Objekte senkrecht an</translation>
+        <translation>განალაგებს მონიშნულ ვიჯეტებს ვერტიკალურად</translation>
     </message>
     <message>
         <source>Lay Out in a &amp;Grid</source>
-        <translation>Objekte &amp;tabellarisch anordnen</translation>
+        <translation>ბადეზე &amp;განლაგება</translation>
     </message>
     <message>
         <source>Lays out the selected widgets in a grid</source>
-        <translation>Ordnet die ausgewählten Objekte tabellarisch an</translation>
+        <translation>განალაგებს მონიშნულ ვიჯეტებს ბადეში</translation>
     </message>
     <message>
         <source>Lay Out Horizontally in S&amp;plitter</source>
-        <translation>Objekte waagrecht um Spl&amp;itter anordnen</translation>
+        <translation>განლაგება ჰორიზონტალურად &amp;გამყოფში</translation>
     </message>
     <message>
         <source>Lays out the selected widgets horizontally in a splitter</source>
-        <translation>Ordnet die ausgewählten Objekte um einen Splitter waagrecht an</translation>
+        <translation>განალაგებს მონიშნულ ვიჯეტებს ჰორიზონტალურად, გამყოფში</translation>
     </message>
     <message>
         <source>Lay Out Vertically in Sp&amp;litter</source>
-        <translation>Objekte senkrecht um Spl&amp;itter anordnen</translation>
+        <translation>ვერტიკალურ განლაგება გა&amp;მყოფში</translation>
     </message>
     <message>
         <source>Lays out the selected widgets vertically in a splitter</source>
-        <translation>Ordnet die ausgewählten Objekte um einen Splitter senkecht an</translation>
+        <translation>განალაგებს მონიშნულ ვიჯეტებს ვერტიკალურად, გამყოფში</translation>
     </message>
     <message>
         <source>&amp;Break Layout</source>
-        <translation>La&amp;yout auflösen</translation>
+        <translation>განლაგე&amp;ბის დაშლა</translation>
     </message>
     <message>
         <source>Breaks the selected layout</source>
-        <translation>Löst das ausgewählte Layout auf</translation>
+        <translation>დაშლის მონიშნულ განლაგებას</translation>
     </message>
     <message>
         <source>&amp;Preview...</source>
-        <translation>&amp;Vorschau...</translation>
+        <translation>&amp;მიმოხილვა...</translation>
     </message>
     <message>
         <source>Preview current form</source>
-        <translation>Vorschau des Formulars</translation>
+        <translation>მიმდინარე ფორმის გადახედვა</translation>
     </message>
     <message>
         <source>Form &amp;Settings...</source>
-        <translation>Formular&amp;einstellungen...</translation>
+        <translation>ფორმი&amp;ს მორგება...</translation>
     </message>
     <message>
         <source>Break Layout</source>
-        <translation>Layout auflösen</translation>
+        <translation>განლაგების დაშლა</translation>
     </message>
     <message>
         <source>Adjust Size</source>
-        <translation>Größe anpassen</translation>
+        <translation>ზომის გასწორება</translation>
     </message>
     <message>
         <source>Could not create form preview</source>
         <comment>Title of warning message box</comment>
-        <translation>Es konnte keine Vorschau erzeugt werden</translation>
+        <translation>ფორმის მინიატურის შექმნა შეუძლებელია</translation>
     </message>
     <message>
         <source>Form Settings - %1</source>
-        <translation>Formulareinstellungen - %1</translation>
+        <translation>ფორმის პარამეტრები - %1</translation>
     </message>
     <message>
         <source>Removes empty columns and rows</source>
-        <translation>Entfernt unbesetzte Zeilen und Spalten</translation>
+        <translation>წაშლის ცარიელ სვეტებს და მწკრივებს</translation>
     </message>
     <message>
         <source>Lay Out in a &amp;Form Layout</source>
-        <translation>Objekte in &amp;Formularlayout anordnen</translation>
+        <translation>განლაგება &amp;ფორმის განლაგებაში</translation>
     </message>
     <message>
         <source>Lays out the selected widgets in a form layout</source>
-        <translation>Ordnet die ausgewählten Objekte  in einem zweispaltigen Formularlayout an</translation>
+        <translation>განალაგებს მონიშნულ ვიჯეტებს ფორმის განლაგებაში</translation>
     </message>
     <message>
         <source>Si&amp;mplify Grid Layout</source>
-        <translation>Tabellarisches Layout &amp;vereinfachen</translation>
+        <translation>ბადის განლაგების გამარტ&amp;ივება</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::FormWindowSettings</name>
     <message>
         <source>None</source>
-        <translation>Kein</translation>
+        <translation>არაფერი</translation>
     </message>
     <message>
         <source>Device Profile: %1</source>
-        <translation>Profil: %1</translation>
+        <translation>მოწყობილობის პროფილი: %1</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::GridPanel</name>
     <message>
         <source>Visible</source>
-        <translation>Sichtbar</translation>
+        <translation>ხილული</translation>
     </message>
     <message>
         <source>Snap</source>
-        <translation>Einschnappen</translation>
+        <translation>Snap</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Rücksetzen</translation>
+        <translation>თავიდან</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Formular</translation>
+        <translation>ფორმა</translation>
     </message>
     <message>
         <source>Grid</source>
-        <translation>Raster</translation>
+        <translation>ბადე</translation>
     </message>
     <message>
         <source>Grid &amp;X</source>
-        <translation>Raster &amp;X</translation>
+        <translation>ბადის &amp;X</translation>
     </message>
     <message>
         <source>Grid &amp;Y</source>
-        <translation>Raster &amp;Y</translation>
+        <translation>ბადის &amp;Y</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::GroupBoxTaskMenu</name>
     <message>
         <source>Change title...</source>
-        <translation>Titel ändern...</translation>
+        <translation>სათაურის შეცვლა...</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::HtmlTextEdit</name>
     <message>
         <source>Insert HTML entity</source>
-        <translation>HTML-Sonderzeichen einfügen</translation>
+        <translation>HTML ელემენტის ჩასმა</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::IconThemeDialog</name>
     <message>
         <source>Set Icon From Theme</source>
-        <translation>Icon aus Thema setzen</translation>
+        <translation>ხატულის დაყენება თემიდან</translation>
     </message>
     <message>
         <source>Select icon name from theme:</source>
-        <translation>Icon-Namen aus aktuellem Thema wählen:</translation>
+        <translation>აირჩიეთ ხატულის სახელი თემიდან:</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::ItemListEditor</name>
     <message>
         <source>Properties &amp;&lt;&lt;</source>
-        <translation>Eigenschaften &amp;&lt;&lt;</translation>
+        <translation>თვისებები &amp;&lt;&lt;</translation>
     </message>
     <message>
         <source>Properties &amp;&gt;&gt;</source>
-        <translation>Eigenschaften &amp;&gt;&gt;</translation>
+        <translation>თვისებები &amp;&gt;&gt;</translation>
     </message>
     <message>
         <source>Items List</source>
-        <translation>Liste der Elemente</translation>
+        <translation>ჩანაწერების სია</translation>
     </message>
     <message>
         <source>New Item</source>
-        <translation>Neues Element</translation>
+        <translation>ახალი ელემენტი</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Neu</translation>
+        <translation>&amp;ახალი</translation>
     </message>
     <message>
         <source>Delete Item</source>
-        <translation>Element löschen</translation>
+        <translation>ელემენტის წაშლა</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Löschen</translation>
+        <translation>&amp;წაშლა</translation>
     </message>
     <message>
         <source>Move Item Up</source>
-        <translation>Element eins nach oben</translation>
+        <translation>ელემენტის აწევა</translation>
     </message>
     <message>
         <source>U</source>
@@ -4333,7 +4334,7 @@ Möchten Sie sie überschreiben?</translation>
     </message>
     <message>
         <source>Move Item Down</source>
-        <translation>Element eins nach unten</translation>
+        <translation>ელემენტის ჩამოწევა</translation>
     </message>
     <message>
         <source>D</source>
@@ -4344,95 +4345,95 @@ Möchten Sie sie überschreiben?</translation>
     <name>qdesigner_internal::LabelTaskMenu</name>
     <message>
         <source>Change rich text...</source>
-        <translation>Formatierbaren Text ändern...</translation>
+        <translation>მდიდარი ტექსტის შეცვლა...</translation>
     </message>
     <message>
         <source>Change plain text...</source>
-        <translation>Text ändern...</translation>
+        <translation>უბრალო ტექსტის შეცვლა...</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::LanguageResourceDialog</name>
     <message>
         <source>Choose Resource</source>
-        <translation>Ressource auswählen</translation>
+        <translation>აირჩიეთ რესურსი</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::LineEditTaskMenu</name>
     <message>
         <source>Change text...</source>
-        <translation>Text ändern...</translation>
+        <translation>ტექსტის შეცვლა...</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::ListWidgetEditor</name>
     <message>
         <source>Edit List Widget</source>
-        <translation>List-Widget ändern</translation>
+        <translation>List ვიჯეტის ჩასწორება</translation>
     </message>
     <message>
         <source>Edit Combobox</source>
-        <translation>Combobox ändern</translation>
+        <translation>Combobox ვიჯეტის ჩასწორება</translation>
     </message>
     <message>
         <source>New Item</source>
-        <translation>Neues Element</translation>
+        <translation>ახალი ელემენტი</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::ListWidgetTaskMenu</name>
     <message>
         <source>Edit Items...</source>
-        <translation> Elemente ändern...</translation>
+        <translation>ელემენტების ჩასწორება...</translation>
     </message>
     <message>
         <source>Change List Contents</source>
-        <translation>Inhalt der Liste ändern</translation>
+        <translation>სიის შემცველობის შეცვლა</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::MdiContainerWidgetTaskMenu</name>
     <message>
         <source>Next Subwindow</source>
-        <translation>Nächste Unterfenster</translation>
+        <translation>შემდეგი ქვეფანჯარა</translation>
     </message>
     <message>
         <source>Previous Subwindow</source>
-        <translation>Voriges Unterfenster</translation>
+        <translation>წინა ქვეფანჯარა</translation>
     </message>
     <message>
         <source>Tile</source>
-        <translation>Nebeneinander anordnen</translation>
+        <translation>ფილა</translation>
     </message>
     <message>
         <source>Cascade</source>
-        <translation>Stapeln</translation>
+        <translation>კასკადი</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::MenuTaskMenu</name>
     <message>
         <source>Remove</source>
-        <translation>Löschen</translation>
+        <translation>წაშლა</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::MorphMenu</name>
     <message>
         <source>Morph into</source>
-        <translation>Widget umwandeln in</translation>
+        <translation>გარდაქმნა</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::NewActionDialog</name>
     <message>
         <source>New Action...</source>
-        <translation>Neue Aktion...</translation>
+        <translation>ახალი ქმედება...</translation>
     </message>
     <message>
         <source>&amp;Text:</source>
-        <translation>&amp;Text:</translation>
+        <translation>&amp;ტექსტი:</translation>
     </message>
     <message>
         <source>...</source>
@@ -4440,61 +4441,62 @@ Möchten Sie sie überschreiben?</translation>
     </message>
     <message>
         <source>&amp;Icon:</source>
-        <translation>&amp;Icon:</translation>
+        <translation>&amp;ხატულა:</translation>
     </message>
     <message>
         <source>Object &amp;name:</source>
-        <translation>Objekt&amp;name:</translation>
+        <translation>ობიექტის &amp;სახელი:</translation>
     </message>
     <message>
         <source>T&amp;oolTip:</source>
-        <translation>T&amp;oolTip:</translation>
+        <translation>&amp;მინიშნება:</translation>
     </message>
     <message>
         <source>Icon th&amp;eme:</source>
-        <translation>Icon-Th&amp;ema:</translation>
+        <translation>ხატულის თ&amp;ემა:</translation>
     </message>
     <message>
         <source>&amp;Checkable:</source>
-        <translation>&amp;Ankreuzbar:</translation>
+        <translation>&amp;ტრიგერული:</translation>
     </message>
     <message>
         <source>&amp;Shortcut:</source>
-        <translation>Tastenk&amp;ürzel</translation>
+        <translation>&amp;მალსახმობი:</translation>
     </message>
     <message>
         <source>&amp;Menu role:</source>
-        <translation>&amp;Menu role:</translation>
+        <translation>&amp;მენიუს როლი:</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::NewDynamicPropertyDialog</name>
     <message>
         <source>Set Property Name</source>
-        <translation>Namen der Eigenschaft setzen</translation>
+        <translation>თვისების სახელის დაყენება</translation>
     </message>
     <message>
         <source>The current object already has a property named &apos;%1&apos;.
 Please select another, unique one.</source>
-        <translation>Das Objekt besitzt eine bereits eine Eigenschaft namens &apos;%1&apos;.
-Bitte wählen Sie einen anderen, eindeutigen Namen.</translation>
+        <translation>მიმდინარე ობიექტს თვისება სახელით &apos;%1&apos; უკვე აქვს.
+აირჩიეთ სხვა, უნიკალური სახელი.</translation>
     </message>
     <message>
         <source>Create Dynamic Property</source>
-        <translation>Dynamische Eigenschaft erzeugen</translation>
+        <translation>დინამიკური თვისების შექმნა</translation>
     </message>
     <message>
         <source>Property Name</source>
-        <translation>Name der Eigenschaft</translation>
+        <translation>თვისების სახელი</translation>
     </message>
     <message>
         <source>Property Type</source>
-        <translation>Typ der Eigenschaft</translation>
+        <translation>თვისების ტიპი</translation>
     </message>
     <message>
         <source>The &apos;_q_&apos; prefix is reserved for the Qt library.
 Please select another name.</source>
-        <translation>Der Präfix  &apos;_q_&apos; wird von der Qt-Bibliothek für interne Zwecke verwendet.Bitte wählen Sie einen anderen Namen.</translation>
+        <translation>პრეფიქსი &apos;_q_&apos; დაცულია Qt ბიბლიოთეკისთვის.
+აირჩიეთ სხვა სახელი.</translation>
     </message>
     <message>
         <source>horizontalSpacer</source>
@@ -4505,48 +4507,48 @@ Please select another name.</source>
     <name>qdesigner_internal::NewFormWidget</name>
     <message>
         <source>Default size</source>
-        <translation>Vorgabe</translation>
+        <translation>ნაგულისხმევი ზომა</translation>
     </message>
     <message>
         <source>QVGA portrait (240x320)</source>
-        <translation>QVGA Hochformat (240x320)</translation>
+        <translation>QVGA პორტრეტი (240x320)</translation>
     </message>
     <message>
         <source>QVGA landscape (320x240)</source>
-        <translation>QVGA Querformat (320x240)</translation>
+        <translation>QVGA ლანდშაფტი (320x240)</translation>
     </message>
     <message>
         <source>VGA portrait (480x640)</source>
-        <translation>VGA Hochformat (480x640)</translation>
+        <translation>VGA პორტრეტი (480x640)</translation>
     </message>
     <message>
         <source>VGA landscape (640x480)</source>
-        <translation>VGA Querformat (640x480)</translation>
+        <translation>VGA ლანდშაფტი (640x480)</translation>
     </message>
     <message>
         <source>Widgets</source>
         <extracomment>New Form Dialog Categories</extracomment>
-        <translation>Widgets</translation>
+        <translation>ვიჯეტები</translation>
     </message>
     <message>
         <source>Custom Widgets</source>
-        <translation>Benutzerdefinierte Widgets</translation>
+        <translation>მომხმარებლის ვიჯეტები</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Kein</translation>
+        <translation>არაფერი</translation>
     </message>
     <message>
         <source>Error loading form</source>
-        <translation>Das Formular konnte nicht geladen werden</translation>
+        <translation>ფორმის ჩატვირთვის შეცდომა</translation>
     </message>
     <message>
         <source>Unable to open the form template file &apos;%1&apos;: %2</source>
-        <translation>Die Formularvorlage &apos;%1&apos; konnte nicht geöffnet werden: %2</translation>
+        <translation>ვერ გავხსენი ფორმის ნიმუშის ფაილი &apos;%1&apos;: %2</translation>
     </message>
     <message>
         <source>Internal error: No template selected.</source>
-        <translation>Interner Fehler: Es ist keine Vorlage selektiert.</translation>
+        <translation>შიდა შეცდომა: ნიმუში არჩეული არაა.</translation>
     </message>
     <message>
         <source>0</source>
@@ -4554,92 +4556,92 @@ Please select another name.</source>
     </message>
     <message>
         <source>Choose a template for a preview</source>
-        <translation>Wählen Sie eine Vorlage für die Vorschau</translation>
+        <translation>აირჩიეთ ნიმუში მინიატურისთვის</translation>
     </message>
     <message>
         <source>Embedded Design</source>
-        <translation>Embedded-Entwurf</translation>
+        <translation>ჩაშენებული დიზაინი</translation>
     </message>
     <message>
         <source>Device:</source>
-        <translation>Geräteprofil:</translation>
+        <translation>მოწყობილობა:</translation>
     </message>
     <message>
         <source>Screen Size:</source>
-        <translation>Bildschirmgröße:</translation>
+        <translation>ეკრანის ზომა:</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::NewPromotedClassPanel</name>
     <message>
         <source>Add</source>
-        <translation>Hinzufügen</translation>
+        <translation>დამატება</translation>
     </message>
     <message>
         <source>New Promoted Class</source>
-        <translation>Neue Klasse</translation>
+        <translation>ახალი დაწინაურებული კლასი</translation>
     </message>
     <message>
         <source>Base class name:</source>
-        <translation>Basisklasse:</translation>
+        <translation>საბაზისო კლასის სახელი:</translation>
     </message>
     <message>
         <source>Promoted class name:</source>
-        <translation>Klassenname:</translation>
+        <translation>დაწინაურებული კლასის სახელი:</translation>
     </message>
     <message>
         <source>Header file for C++ classes or module name for Qt for Python.</source>
-        <translation>Include-Datei für C++-Klassen oder Modulname für Qt for Python.</translation>
+        <translation>თავსართის ფაილი C++ კლასებისთვის ან მოდულის სახელი Qt for Python-სთვის.</translation>
     </message>
     <message>
         <source>Header file:</source>
-        <translation>Include-Datei:</translation>
+        <translation>თავსართის ფაილი:</translation>
     </message>
     <message>
         <source>Indicates that the header file is a global header file. Does not have any effect on Qt for Python.</source>
-        <translation>Zeigt an, dass die Include-Datei global ist. Hat keine Bedeutung für Qt for Python.</translation>
+        <translation>მიუთითებს, რომ ეს თავსართის ფაილი გლობალური თავსართის ფაილია. არ გააჩნია არანაირი გავლენა Qt for Python-ზე.</translation>
     </message>
     <message>
         <source>Global include</source>
-        <translation>Globale Include-Datei</translation>
+        <translation>გლობალური ჩასმა</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Rücksetzen</translation>
+        <translation>თავიდან</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::ObjectInspector</name>
     <message>
         <source>Filter</source>
-        <translation>Filter</translation>
+        <translation>ფილტრი</translation>
     </message>
     <message>
         <source>Change Current Page</source>
-        <translation>Seite wechseln</translation>
+        <translation>მიმდინარე გვერდის შეცვლა</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::OrderDialog</name>
     <message>
         <source>Index %1 (%2)</source>
-        <translation>Position %1 (%2)</translation>
+        <translation>ინდექსი %1 (%2)</translation>
     </message>
     <message>
         <source>Change Page Order</source>
-        <translation>Seiten umordnen</translation>
+        <translation>გვერების მიმდევრობის შეცვლა</translation>
     </message>
     <message>
         <source>Page Order</source>
-        <translation>Reihenfolge</translation>
+        <translation>გვერდების მიმდევრობა</translation>
     </message>
     <message>
         <source>Move page up</source>
-        <translation>Seite eins nach oben</translation>
+        <translation>გვერდის ზემოთ აწევა</translation>
     </message>
     <message>
         <source>Move page down</source>
-        <translation>Seite eins nach unten</translation>
+        <translation>გვერდის ქვემოთ ჩამოწევა</translation>
     </message>
     <message>
         <source>%1 %2</source>
@@ -4650,152 +4652,152 @@ Please select another name.</source>
     <name>qdesigner_internal::PaletteEditor</name>
     <message>
         <source>Edit Palette</source>
-        <translation>Palette ändern</translation>
+        <translation>პალიტრის ჩასწორება</translation>
     </message>
     <message>
         <source>Tune Palette</source>
-        <translation>Palette</translation>
+        <translation>პალიტრის მორგება</translation>
     </message>
     <message>
         <source>Show Details</source>
-        <translation>Details einblenden</translation>
+        <translation>დეტალების ჩვენება</translation>
     </message>
     <message>
         <source>Compute Details</source>
-        <translation>Details berechnen</translation>
+        <translation>დეტალების გამოთვლა</translation>
     </message>
     <message>
         <source>Quick</source>
-        <translation>Einfach</translation>
+        <translation>სწრაფი</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation>Vorschau</translation>
+        <translation>მინიატურა</translation>
     </message>
     <message>
         <source>Disabled</source>
-        <translation>Ausgegraut</translation>
+        <translation>გამორთულია</translation>
     </message>
     <message>
         <source>Inactive</source>
-        <translation>Inaktiv</translation>
+        <translation>არააქტიური</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation>Aktiv</translation>
+        <translation>აქტიური</translation>
     </message>
     <message>
         <source>Save...</source>
-        <translation>Speichern...</translation>
+        <translation>შენახვა...</translation>
     </message>
     <message>
         <source>Load...</source>
-        <translation>Laden...</translation>
+        <translation>ჩატვირთვა...</translation>
     </message>
     <message>
         <source>Preview (%1)</source>
-        <translation>Vorschau (%1)</translation>
+        <translation>მინიატურა (%1)</translation>
     </message>
     <message>
         <source>Lighter</source>
-        <translation>Heller</translation>
+        <translation>ღია</translation>
     </message>
     <message>
         <source>Darker</source>
-        <translation>Dunkler</translation>
+        <translation>მუქი</translation>
     </message>
     <message>
         <source>Copy color %1</source>
-        <translation>Farbe %1 kopieren</translation>
+        <translation>%1 ფერის კოპირება</translation>
     </message>
     <message>
         <source>QPalette UI file (*.xml)</source>
-        <translation>QPalette-UI-Datei (*.xml)</translation>
+        <translation>QPalette-ის UI ფაილი (*.xml)</translation>
     </message>
     <message>
         <source>Cannot open %1 for writing: %2</source>
-        <translation>Die Datei &apos;%1&apos; konnte nicht zum Schreiben geöffnet werden: %2</translation>
+        <translation>%1-ის ჩასაწერად გახსნა შეუძლებელია: %2</translation>
     </message>
     <message>
         <source>Cannot write %1: %2</source>
-        <translation>%1 konnte nicht geschrieben werden: %2</translation>
+        <translation>ვერ ჩავწერე %1: %2</translation>
     </message>
     <message>
         <source>Cannot read palette from %1:%2:%3</source>
-        <translation>Es konnte keine Palette gelesen werden %1:%2:%3</translation>
+        <translation>%1:%2:%3-დან პალიტრა ვერ წავიკითხე</translation>
     </message>
     <message>
         <source>Cannot open %1 for reading: %2</source>
-        <translation>Die Datei &apos;%1&apos; konnte nicht zum Lesen geöffnet werden: %2</translation>
+        <translation>%1-ის წასაკითხად გახსნა შეუძლებელია: %2</translation>
     </message>
     <message>
         <source>Invalid element &quot;%1&quot;, expected &quot;palette&quot;.</source>
-        <translation>Ungültiges Element &quot;%1&quot;, es wird &quot;palette&quot; erwartet.</translation>
+        <translation>არასწორ ელემენტი &quot;%1&quot;. მოველოდი &quot;palette&quot;.</translation>
     </message>
     <message>
         <source>Save Palette</source>
-        <translation>Palette speichern</translation>
+        <translation>პალიტრის შენახვა</translation>
     </message>
     <message>
         <source>Error Writing Palette</source>
-        <translation>Fehler beim Schreiben der Palette</translation>
+        <translation>პალიტრის ჩაწერის შეცდომა</translation>
     </message>
     <message>
         <source>Load Palette</source>
-        <translation>Palette laden</translation>
+        <translation>პალიტრის ჩატვირთვა</translation>
     </message>
     <message>
         <source>Error Reading Palette</source>
-        <translation>Fehler beim Lesen der Palette</translation>
+        <translation>პალიტრის წაკითხვის შეცდომა</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::PaletteEditorButton</name>
     <message>
         <source>Change Palette</source>
-        <translation>Palette ändern</translation>
+        <translation>პალიტრის შეცვლა</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::PaletteModel</name>
     <message>
         <source>Color Role</source>
-        <translation>Farbrolle</translation>
+        <translation>ფერის როლი</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation>Aktiv</translation>
+        <translation>აქტიური</translation>
     </message>
     <message>
         <source>Inactive</source>
-        <translation>Inaktiv</translation>
+        <translation>არააქტიური</translation>
     </message>
     <message>
         <source>Disabled</source>
-        <translation>Ausgegraut</translation>
+        <translation>გამორთულია</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::PixmapEditor</name>
     <message>
         <source>Copy Path</source>
-        <translation>Pfad kopieren</translation>
+        <translation>ბილიკის კოპირება</translation>
     </message>
     <message>
         <source>Paste Path</source>
-        <translation>Pfad einfügen</translation>
+        <translation>ბილიკის ჩასმა</translation>
     </message>
     <message>
         <source>Choose Resource...</source>
-        <translation>Ressource auswählen...</translation>
+        <translation>აირჩიეთ რესურსი...</translation>
     </message>
     <message>
         <source>Choose File...</source>
-        <translation>Datei auswählen...</translation>
+        <translation>ფაილის არჩევა...</translation>
     </message>
     <message>
         <source>Set Icon From Theme...</source>
-        <translation>Icon aus Thema setzen...</translation>
+        <translation>ხატულის დაყენება თემიდან...</translation>
     </message>
     <message>
         <source>...</source>
@@ -4803,105 +4805,105 @@ Please select another name.</source>
     </message>
     <message>
         <source>[Theme] %1</source>
-        <translation>[Thema] %1</translation>
+        <translation>[თემა] %1</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::PlainTextEditorDialog</name>
     <message>
         <source>Edit text</source>
-        <translation>Text bearbeiten</translation>
+        <translation>ტექსტის ჩასწორება</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::PluginDialog</name>
     <message>
         <source>Components</source>
-        <translation>Komponenten</translation>
+        <translation>კომპონენტები</translation>
     </message>
     <message>
         <source>Plugin Information</source>
-        <translation>Plugins</translation>
+        <translation>დამატების ინფორმაცია</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation>Neu laden</translation>
+        <translation>განახლება</translation>
     </message>
     <message>
         <source>Scan for newly installed custom widget plugins.</source>
-        <translation>Nach neu installierten Plugins mit benutzerdefinierten Widgets suchen.</translation>
+        <translation>ახლად დაყენებული მომხმარებლის ვიჯეტის დამატებების სკანირება.</translation>
     </message>
     <message>
         <source>Loaded Plugins</source>
-        <translation>Geladene Plugins</translation>
+        <translation>ჩატვირთული დამატებები</translation>
     </message>
     <message>
         <source>Failed Plugins</source>
-        <translation>Fehlgeschlagene Plugins</translation>
+        <translation>ჩავარდნილი დამატებები</translation>
     </message>
     <message>
         <source>Qt Designer couldn&apos;t find any plugins</source>
-        <translation>Qt Designer kann keine Plugins finden</translation>
+        <translation>Qt Designer-მა დამატებები ვერ იპოვა</translation>
     </message>
     <message>
         <source>Qt Designer found the following plugins</source>
-        <translation>Qt Designer hat die folgenden Plugins gefunden</translation>
+        <translation>Qt Designer-მა იპოვა შემდეგი დამატებები</translation>
     </message>
     <message>
         <source>New custom widget plugins have been found.</source>
-        <translation>Es wurden neu installierte Plugins mit benutzerdefinierten Widgets gefunden.</translation>
+        <translation>ახალი მომხმარებლის ვიჯეტის პლაგინები აღმოჩენილი არაა.</translation>
     </message>
     <message>
         <source>Copy</source>
         <extracomment>Copy error text</extracomment>
-        <translation>Kopieren</translation>
+        <translation>კოპირება</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::PreviewActionGroup</name>
     <message>
         <source>%1 Style</source>
-        <translation>%1-Stil</translation>
+        <translation>%1 სტილი</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::PreviewConfigurationWidget</name>
     <message>
         <source>Default</source>
-        <translation>Vorgabe</translation>
+        <translation>ნაგულისხმევი</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Kein</translation>
+        <translation>არაფერი</translation>
     </message>
     <message>
         <source>Browse...</source>
-        <translation>Durchsuchen...</translation>
+        <translation>მოძებნა...</translation>
     </message>
     <message>
         <source>Load Custom Device Skin</source>
-        <translation>Benutzerdefinierten Geräte-Skin laden </translation>
+        <translation>მომხმარებლის მოწყობილობის გარეგნობის ჩატვირთვა</translation>
     </message>
     <message>
         <source>All QVFB Skins (*.%1)</source>
-        <translation>Alle QVFB-Skins (*.%1)</translation>
+        <translation>ყველა QVFB გარეგნობა (*.%1)</translation>
     </message>
     <message>
         <source>%1 - Duplicate Skin</source>
-        <translation>%1 - Skin bereits vorhanden</translation>
+        <translation>%1 - განმეორებადი გარეგნობა</translation>
     </message>
     <message>
         <source>The skin &apos;%1&apos; already exists.</source>
-        <translation>Der Skin &apos;%1&apos; ist bereits vorhanden.</translation>
+        <translation>გარეგნობა &apos;%1&apos; უკვე არსებობს.</translation>
     </message>
     <message>
         <source>%1 - Error</source>
-        <translation>%1 - Fehler</translation>
+        <translation>%1 - შეცდომა</translation>
     </message>
     <message>
         <source>%1 is not a valid skin directory:
 %2</source>
-        <translation>%1 ist kein gültiges Verzeichnis eines Skins:
+        <translation>%1 სწორი გარეგნობის საქარალდე არაა:
 %2</translation>
     </message>
 </context>
@@ -4909,28 +4911,28 @@ Please select another name.</source>
     <name>qdesigner_internal::PreviewDeviceSkin</name>
     <message>
         <source>&amp;Portrait</source>
-        <translation>&amp;Hochformat</translation>
+        <translation>&amp;პორტრეტი</translation>
     </message>
     <message>
         <source>Landscape (&amp;CCW)</source>
         <extracomment>Rotate form preview counter-clockwise</extracomment>
-        <translation>Querformat (&amp;entgegen Uhrzeigersinn)</translation>
+        <translation>ლანდშაფტი (&amp;CCW)</translation>
     </message>
     <message>
         <source>&amp;Landscape (CW)</source>
         <extracomment>Rotate form preview clockwise</extracomment>
-        <translation>Querformat (im &amp;Uhrzeigersinn)</translation>
+        <translation>&amp;ლანდშაფტი (CW)</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Schließen</translation>
+        <translation>&amp;დახურვა</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::PreviewManager</name>
     <message>
         <source>%1 - [Preview]</source>
-        <translation>%1 - [Vorschau]</translation>
+        <translation>%1 - [მინიატურა]</translation>
     </message>
 </context>
 <context>
@@ -4939,8 +4941,8 @@ Please select another name.</source>
         <source>The moose in the noose
 ate the goose who was loose.</source>
         <extracomment>Palette editor background</extracomment>
-        <translation>The moose in the noose
-ate the goose who was loose.</translation>
+        <translation>თეთრი თრითინა
+თეთრ თოვლზე თრთოდა.</translation>
     </message>
 </context>
 <context>
@@ -4948,7 +4950,7 @@ ate the goose who was loose.</translation>
     <message>
         <source>Preview Window</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>Vorschaufenster</translation>
+        <translation>დოკუენტის გადახედვა</translation>
     </message>
     <message>
         <source>LineEdit</source>
@@ -4963,7 +4965,7 @@ ate the goose who was loose.</translation>
     <message>
         <source>PushButton</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>PushButton</translation>
+        <translation>დააჭირეთ ღილაკს</translation>
     </message>
     <message>
         <source>CheckBox1</source>
@@ -4988,12 +4990,12 @@ ate the goose who was loose.</translation>
     <message>
         <source>Buttons</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>Buttons</translation>
+        <translation>ღილაკები</translation>
     </message>
     <message>
         <source>Tristate CheckBox</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>Tristate CheckBox</translation>
+        <translation>CheckBox სამი მდგომარეობით</translation>
     </message>
     <message>
         <source>ToggleButton</source>
@@ -5003,62 +5005,62 @@ ate the goose who was loose.</translation>
     <message>
         <source>ToolButton</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>ToolButton</translation>
+        <translation>ხელსაწყოსღილაკი</translation>
     </message>
     <message>
         <source>Menu</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>Menü</translation>
+        <translation>მენიუ</translation>
     </message>
     <message>
         <source>Item Views</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>Item Views</translation>
+        <translation>ელემენტის სიები</translation>
     </message>
     <message>
         <source>Column 1</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>Column 1</translation>
+        <translation>სვეტი 1</translation>
     </message>
     <message>
         <source>Top Level 1</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>Top Level 1</translation>
+        <translation>ზედა დონე 1</translation>
     </message>
     <message>
         <source>Nested Item 1</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>Nested Item 1</translation>
+        <translation>ჩადგმული ელემენტი 1</translation>
     </message>
     <message>
         <source>Nested Item 2</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>Nested Item 2</translation>
+        <translation>ჩადგმული ელემენტი 2</translation>
     </message>
     <message>
         <source>Nested Item 3</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>Nested Item 3</translation>
+        <translation>ჩადგმული ელემენტი 3</translation>
     </message>
     <message>
         <source>Simple Input Widgets</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>Simple Input Widgets</translation>
+        <translation>მარტივი შეყვანის ვიჯეტები</translation>
     </message>
     <message>
         <source>Item1</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>Item1</translation>
+        <translation>ელემენტი 1</translation>
     </message>
     <message>
         <source>Item2</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>Item2</translation>
+        <translation>ელემენტი 2</translation>
     </message>
     <message>
         <source>Display Widgets</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>Display Widgets</translation>
+        <translation>ვიჯეტების ჩვენება</translation>
     </message>
     <message>
         <source>QLabel</source>
@@ -5068,303 +5070,304 @@ ate the goose who was loose.</translation>
     <message>
         <source>QLabel with frame</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>QLabel with frame</translation>
+        <translation>QLabel ჩარჩოთი</translation>
     </message>
     <message>
         <source>Option 1</source>
-        <translation>Option 1</translation>
+        <translation>პარამეტრი 1</translation>
     </message>
     <message>
         <source>Checkable</source>
-        <translation>Checkable</translation>
+        <translation>ტრიგერული</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::PromotionModel</name>
     <message>
         <source>Name</source>
-        <translation>Name</translation>
+        <translation>სახელი</translation>
     </message>
     <message>
         <source>Header file</source>
-        <translation>Include-Datei</translation>
+        <translation>თავსართის ფაილი</translation>
     </message>
     <message>
         <source>Global include</source>
-        <translation>Globale Include-Datei</translation>
+        <translation>გლობალური ჩასმა</translation>
     </message>
     <message>
         <source>Usage</source>
-        <translation>Verwendet</translation>
+        <translation>გამოყენება</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::PromotionTaskMenu</name>
     <message>
         <source>Promoted widgets...</source>
-        <translation>Benutzerdefinierte Klassen...</translation>
+        <translation>დაწინაურებული ვიჯეტები...</translation>
     </message>
     <message>
         <source>Promote to ...</source>
-        <translation>Als Platzhalter für benutzerdefinierte Klasse festlegen...</translation>
+        <translation>დაწინაურება...</translation>
     </message>
     <message>
         <source>Promote to</source>
-        <translation>Als Platzhalter für benutzerdefinierte Klasse festlegen</translation>
+        <translation>დაწინაურება</translation>
     </message>
     <message>
         <source>Demote to %1</source>
-        <translation>Platzhalter für benutzerdefinierte Klasse entfernen und in %1 wandeln</translation>
+        <translation>დაწინაურების გაუქმება %1-მდე</translation>
     </message>
     <message>
         <source>Change signals/slots...</source>
-        <translation>Signale/Slots ändern...</translation>
+        <translation>სიგნალების/სლოტების შეცვლა...</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::PropertyEditor</name>
     <message>
         <source>Add Dynamic Property...</source>
-        <translation>Dynamische Eigenschaft hinzufügen...</translation>
+        <translation>დინამიკური თვისების დამატება...</translation>
     </message>
     <message>
         <source>Remove Dynamic Property</source>
-        <translation>Dynamische Eigenschaft löschen</translation>
+        <translation>დინამიკური თვისების წაშლა</translation>
     </message>
     <message>
         <source>Tree View</source>
-        <translation>Baumansicht</translation>
+        <translation>ხისმაგვარი ხედი</translation>
     </message>
     <message>
         <source>Drop Down Button View</source>
-        <translation>Detailansicht</translation>
+        <translation>ჩამოსაშლელი სიის ხედი</translation>
     </message>
     <message>
         <source>Filter</source>
-        <translation>Filter</translation>
+        <translation>ფილტრი</translation>
     </message>
     <message>
         <source>Object: %1
 Class: %2</source>
-        <translation>Objekt: %1
-Klasse: %2</translation>
+        <translation>ობიექტი: %1
+კლასი: %2</translation>
     </message>
     <message>
         <source>Sorting</source>
-        <translation>Sortiert</translation>
+        <translation>დალაგება</translation>
     </message>
     <message>
         <source>Color Groups</source>
-        <translation>Farbige Hervorhebung</translation>
+        <translation>ფერის ჯგუფები</translation>
     </message>
     <message>
         <source>Configure Property Editor</source>
-        <translation>Anzeige der Eigenschaften konfigurieren</translation>
+        <translation>თვისების რედაქტორის მორგება</translation>
     </message>
     <message>
         <source>String...</source>
-        <translation>Zeichenkette...</translation>
+        <translation>სტრიქონი...</translation>
     </message>
     <message>
         <source>Bool...</source>
-        <translation>Boolescher Wert...</translation>
+        <translation>ლოგიკური...</translation>
     </message>
     <message>
         <source>Other...</source>
-        <translation>Anderer Typ...</translation>
+        <translation>სხვა...</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::PropertyLineEdit</name>
     <message>
         <source>Insert line break</source>
-        <translation>Zeilenumbruch einfügen</translation>
+        <translation>ხაზის დასრულების ჩასმა</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::QDesignerPromotionDialog</name>
     <message>
         <source>Promoted Widgets</source>
-        <translation>Platzhalter für benutzerdefinierte Widgets</translation>
+        <translation>დაწინაურებული ვიჯეტები</translation>
     </message>
     <message>
         <source>Promoted Classes</source>
-        <translation>Platzhalter für benutzerdefinierte Klassen</translation>
+        <translation>დაწინაურებული კლასები</translation>
     </message>
     <message>
         <source>Promote</source>
-        <translation>Anwenden</translation>
+        <translation>დაწინაურება</translation>
     </message>
     <message>
         <source>%1 - Error</source>
-        <translation>%1 - Fehler</translation>
+        <translation>%1 - შეცდომა</translation>
     </message>
     <message>
         <source>Change signals/slots...</source>
-        <translation>Signale/Slots ändern...</translation>
+        <translation>სიგნალების/სლოტების შეცვლა...</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::QDesignerResource</name>
     <message>
         <source>Loading qrc file</source>
-        <translation>Laden der Ressourcendatei</translation>
+        <translation>&apos;qrc&apos; ფაილის ჩატვირთვა</translation>
     </message>
     <message>
         <source>The specified qrc file &lt;p&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;&lt;p&gt;could not be found. Do you want to update the file location?&lt;/p&gt;</source>
-        <translation>Die Ressourcendatei  &lt;p&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;&lt;p&gt; konnte nicht gefunden werden. Möchten Sie einen neuen Pfad eingeben?&lt;/p&gt;</translation>
+        <translation>მითითებული qrc ფაილის &lt;p&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;&lt;p&gt;აღმოჩენა შეუძლებელია. გნებავთ განაახლოთ ფაილის მდებარეობა?&lt;/p&gt;</translation>
     </message>
     <message>
         <source>New location for %1</source>
-        <translation>Neuer Pfad für %1</translation>
+        <translation>ახალი მდებარეობა %1-სთვის</translation>
     </message>
     <message>
         <source>Resource files (*.qrc)</source>
-        <translation>Ressourcendateien (*.qrc)</translation>
+        <translation>რესურსის ფაილები (*.qrc)</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::QDesignerTaskMenu</name>
     <message>
         <source>Change objectName...</source>
-        <translation>Objektnamen ändern...</translation>
+        <translation>შეცვალეთ objectName...</translation>
     </message>
     <message>
         <source>Change toolTip...</source>
-        <translation>ToolTip ändern...</translation>
+        <translation>შეცვალეთ toolTip...</translation>
     </message>
     <message>
         <source>Change whatsThis...</source>
-        <translation>WhatsThis ändern...</translation>
+        <translation>შეცვალეთ whatsThis...</translation>
     </message>
     <message>
         <source>Change styleSheet...</source>
-        <translation>Stylesheet ändern...</translation>
+        <translation>შეცვალეთ styleSheet...</translation>
     </message>
     <message>
         <source>Create Menu Bar</source>
-        <translation>Menüleiste erzeugen</translation>
+        <translation>მენიუს ზოლის შექმნა</translation>
     </message>
     <message>
         <source>Add Tool Bar</source>
-        <translation>Werkzeugleiste hinzufügen</translation>
+        <translation>ხელსაწყოს ზოლის დამატება</translation>
     </message>
     <message>
         <source>Create Status Bar</source>
-        <translation>Statuszeile hinzufügen</translation>
+        <translation>სტატუსის ზოლის შექმნა</translation>
     </message>
     <message>
         <source>Remove Status Bar</source>
-        <translation>Statuszeile löschen</translation>
+        <translation>სტატუსის ზოლის წაშლა</translation>
     </message>
     <message>
         <source>Change signals/slots...</source>
-        <translation>Signale/Slots ändern...</translation>
+        <translation>სიგნალების/სლოტების შეცვლა...</translation>
     </message>
     <message>
         <source>Go to slot...</source>
-        <translation>Slot anzeigen...</translation>
+        <translation>გადასვლა სლოტზე...</translation>
     </message>
     <message numerus="yes">
         <source>Set size constraint on %n widget(s)</source>
         <translation>
-            <numerusform>Größenbeschränkung eines Widgets festlegen</numerusform>
-            <numerusform>Größenbeschränkung von %n Widgets festlegen</numerusform>
+            <numerusform>ზომის შეზღუდვის დაყენება %n ვიჯეტზე</numerusform>
+            <numerusform>ზომის შეზღუდვის დაყენება %n ვიჯეტზე</numerusform>
         </translation>
     </message>
     <message>
         <source>Size Constraints</source>
-        <translation>Größe</translation>
+        <translation>ზომის შეზღუდვები</translation>
     </message>
     <message>
         <source>Layout Alignment</source>
-        <translation>Ausrichtung des Layouts</translation>
+        <translation>განლაგების სწორება</translation>
     </message>
     <message>
         <source>No Horizontal Alignment</source>
-        <translation>Keine horizontale Ausrichtung</translation>
+        <translation>ჰორიზონტალური სწორების გარეშე</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation>Links</translation>
+        <translation>მარცხენა</translation>
     </message>
     <message>
         <source>Center Horizontally</source>
-        <translation>Horizontal zentrieren</translation>
+        <translation>ჰორიზონტალურად დაცენტრება</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation>Rechts</translation>
+        <translation>მარჯვენა</translation>
     </message>
     <message>
         <source>No Vertical Alignment</source>
-        <translation>Keine vertikale Ausrichtung</translation>
+        <translation>ვერტიკალური სწორების გარეშე</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation>Oben</translation>
+        <translation>თავში</translation>
     </message>
     <message>
         <source>Center Vertically</source>
-        <translation>Vertikal zentrieren</translation>
+        <translation>ვერტიკალურად დაცენტრება</translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation>Unten</translation>
+        <translation>ბოლოში</translation>
     </message>
     <message>
         <source>Add Tool Bar to Other Area</source>
-        <translation>ToolBar zu anderem Bereich hinzufügen</translation>
+        <translation>პანელის დამატება სხვა ალაგზე</translation>
     </message>
     <message>
         <source>Set Minimum Width</source>
-        <translation>Minimalbreite festlegen</translation>
+        <translation>მინიმალური სიგანის დაყენება</translation>
     </message>
     <message>
         <source>Set Minimum Height</source>
-        <translation>Minimalhöhe  festlegen</translation>
+        <translation>მინიმალური სიმაღლის დაყენება</translation>
     </message>
     <message>
         <source>Set Minimum Size</source>
-        <translation>Minimalgröße festlegen</translation>
+        <translation>მინიმალური ზომის დაყენება</translation>
     </message>
     <message>
         <source>Set Maximum Width</source>
-        <translation>Maximalbreite festlegen</translation>
+        <translation>მაქსიმალური სიგანის დაყენება</translation>
     </message>
     <message>
         <source>Set Maximum Height</source>
-        <translation>Maximalhöhe festlegen</translation>
+        <translation>მაქსიმალური სიმაღლის დაყენება</translation>
     </message>
     <message>
         <source>Set Maximum Size</source>
-        <translation>Maximalgröße festlegen</translation>
+        <translation>მაქსიმალური ზომის დაყენება</translation>
     </message>
     <message>
         <source>Edit ToolTip</source>
-        <translation>ToolTip bearbeiten</translation>
+        <translation>მინიშნების ჩასწორება</translation>
     </message>
     <message>
         <source>Edit WhatsThis</source>
-        <translation>What&apos;sThis bearbeiten</translation>
+        <translation>რაარისესის ჩასწორება</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::QDesignerWidgetBox</name>
     <message>
         <source>Unexpected element &lt;%1&gt;</source>
-        <translation>Ungültiges Element &lt;%1&gt;</translation>
+        <translation>მოულოდნელი ელემენტი &lt;%1&gt;</translation>
     </message>
     <message>
         <source>A parse error occurred at line %1, column %2 of the XML code specified for the widget %3: %4
 %5</source>
-        <translation>Der XML-Code für das Widget %3 enthält einen Fehler bei Zeile %1, Spalte %2:%4:
+        <translation>დამუშავების შეცდომა ხაზზე %1, სვეტი %2 XML კოდში, რომელიც მითითებულია ვიჯეტისთვის %3: %4
 %5</translation>
     </message>
     <message>
         <source>The XML code specified for the widget %1 does not contain any widget elements.
 %2</source>
-        <translation>Der XML-Code für das Widget %1 enthält keine Widgets.%2</translation>
+        <translation>ვიჯეტისთვის %1 მითითებული XML კოდი ვიჯეტის ელემენტებს არ შეიცავს.
+%2</translation>
     </message>
 </context>
 <context>
@@ -5383,27 +5386,27 @@ Klasse: %2</translation>
     </message>
     <message>
         <source>Hue</source>
-        <translation>Farbton</translation>
+        <translation>ტონი</translation>
     </message>
     <message>
         <source>Sat</source>
-        <translation>Sättigung</translation>
+        <translation>შაბ</translation>
     </message>
     <message>
         <source>Val</source>
-        <translation>Wert</translation>
+        <translation>მნიშვნ</translation>
     </message>
     <message>
         <source>Saturation</source>
-        <translation>Sättigung</translation>
+        <translation>გაჯერებულობა</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation>Wert</translation>
+        <translation>მნიშვნელობა</translation>
     </message>
     <message>
         <source>R</source>
-        <translation>R</translation>
+        <translation>მჯ</translation>
     </message>
     <message>
         <source>G</source>
@@ -5415,61 +5418,61 @@ Klasse: %2</translation>
     </message>
     <message>
         <source>Red</source>
-        <translation>Rot</translation>
+        <translation>წითელი</translation>
     </message>
     <message>
         <source>Green</source>
-        <translation>Grün</translation>
+        <translation>მწვანე</translation>
     </message>
     <message>
         <source>Blue</source>
-        <translation>Blau</translation>
+        <translation>ლურჯი</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::RichTextEditorDialog</name>
     <message>
         <source>Edit text</source>
-        <translation>Text bearbeiten</translation>
+        <translation>ტექსტის ჩასწორება</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
+        <translation>&amp;დიახ</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Abbrechen</translation>
+        <translation>&amp;გაუქმება</translation>
     </message>
     <message>
         <source>Rich Text</source>
-        <translation>Text</translation>
+        <translation>მდიდარი ტექსტი</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation>Quelltext</translation>
+        <translation>წყარო</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::RichTextEditorToolBar</name>
     <message>
         <source>Bold</source>
-        <translation>Fett</translation>
+        <translation>სქელი</translation>
     </message>
     <message>
         <source>CTRL+B</source>
-        <translation>CTRL+F</translation>
+        <translation>CTRL+B</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation>Kursiv</translation>
+        <translation>დახრა</translation>
     </message>
     <message>
         <source>CTRL+I</source>
-        <translation>CTRL+K</translation>
+        <translation>CTRL+I</translation>
     </message>
     <message>
         <source>Underline</source>
-        <translation>Unterstreichen</translation>
+        <translation>ხაზგასმული</translation>
     </message>
     <message>
         <source>CTRL+U</source>
@@ -5477,69 +5480,69 @@ Klasse: %2</translation>
     </message>
     <message>
         <source>Left Align</source>
-        <translation>Linksbündig ausrichten</translation>
+        <translation>მარცხნივ სწორება</translation>
     </message>
     <message>
         <source>Center</source>
-        <translation>Zentrieren</translation>
+        <translation>ცენტრი</translation>
     </message>
     <message>
         <source>Right Align</source>
-        <translation>Rechtsbündig ausrichten</translation>
+        <translation>მარჯვნივ სწორება</translation>
     </message>
     <message>
         <source>Justify</source>
-        <translation>Blocksatz</translation>
+        <translation>გასწორება</translation>
     </message>
     <message>
         <source>Right to Left</source>
-        <translation>Schreibrichtung rechts nach links</translation>
+        <translation>მარჯვნიდან მარცხნივ</translation>
     </message>
     <message>
         <source>Superscript</source>
-        <translation>Hochstellung</translation>
+        <translation>ზედა ხაზზე</translation>
     </message>
     <message>
         <source>Subscript</source>
-        <translation>Tiefstellung</translation>
+        <translation>ქვედა ხაზზე</translation>
     </message>
     <message>
         <source>Insert &amp;Link</source>
-        <translation>&amp;Link einfügen</translation>
+        <translation>ბმუ&amp;ლის ჩასმა</translation>
     </message>
     <message>
         <source>Insert &amp;Image</source>
-        <translation>&amp;Bild einfügen</translation>
+        <translation>&amp;სურათის ჩასმა</translation>
     </message>
     <message>
         <source>Simplify Rich Text</source>
-        <translation>Formatierbaren Text vereinfachen</translation>
+        <translation>მდიდარი ტექსტის გამარტივება</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::SignalSlotDialog</name>
     <message>
         <source>There is already a slot with the signature &apos;%1&apos;.</source>
-        <translation>Es existiert bereits ein Slot mit der Signatur &apos;%1&apos;.</translation>
+        <translation>სლოტი ხელმოწერით &apos;%1&apos; უკვე არსებობს.</translation>
     </message>
     <message>
         <source>There is already a signal with the signature &apos;%1&apos;.</source>
-        <translation>Es existiert bereits ein Signal mit der Signatur &apos;%1&apos;.</translation>
+        <translation>სიგნალი ხელმოწერით &apos;%1&apos; უკვე არსებობს.</translation>
     </message>
     <message>
         <source>%1 - Duplicate Signature</source>
-        <translation>%1 - Doppelte Signatur</translation>
+        <translation>%1 - განმეორებადი ხელმოწერა</translation>
     </message>
     <message>
         <source>Signals/Slots of %1</source>
-        <translation>Signale/Slots von %1</translation>
+        <translation>%1-ის სიგნალები/სლოტები</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::SignalSlotEditorPlugin</name>
     <message>
         <source>Edit Signals/Slots</source>
-        <translation>Signale und Slots bearbeiten</translation>
+        <translation>სიგნალების/სლოტების ჩასწორება</translation>
     </message>
     <message>
         <source>F4</source>
@@ -5550,150 +5553,150 @@ Klasse: %2</translation>
     <name>qdesigner_internal::SignalSlotEditorTool</name>
     <message>
         <source>Edit Signals/Slots</source>
-        <translation>Signale und Slots bearbeiten</translation>
+        <translation>სიგნალების/სლოტების ჩასწორება</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::StatusBarTaskMenu</name>
     <message>
         <source>Remove</source>
-        <translation>Löschen</translation>
+        <translation>წაშლა</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::StringListEditorButton</name>
     <message>
         <source>Change String List</source>
-        <translation>Zeichenkettenliste ändern</translation>
+        <translation>სტრიქონების სიის შეცვლა</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::StyleSheetEditorDialog</name>
     <message>
         <source>Edit Style Sheet</source>
-        <translation>Stylesheet bearbeiten</translation>
+        <translation>სტილების ცხრილის ჩასწორება</translation>
     </message>
     <message>
         <source>Valid Style Sheet</source>
-        <translation>Stylesheet gültig</translation>
+        <translation>სწორი სტილების ცხრილი</translation>
     </message>
     <message>
         <source>Invalid Style Sheet</source>
-        <translation>Stylesheet ungültig</translation>
+        <translation>არასწორი სტილების ცხრილი</translation>
     </message>
     <message>
         <source>Add Resource...</source>
-        <translation>Ressource hinzufügen...</translation>
+        <translation>რესურსის დამატება...</translation>
     </message>
     <message>
         <source>Add Gradient...</source>
-        <translation>Gradient hinzufügen...</translation>
+        <translation>გრანდიენტის დამატება...</translation>
     </message>
     <message>
         <source>Add Color...</source>
-        <translation>Farbe hinzufügen...</translation>
+        <translation>ფერის დამატება...</translation>
     </message>
     <message>
         <source>Add Font...</source>
-        <translation>Font hinzufügen...</translation>
+        <translation>ფონტის დამატება...</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::TabOrderEditor</name>
     <message>
         <source>Start from Here</source>
-        <translation>Hier neu beginnen</translation>
+        <translation>აქედან დაწყება</translation>
     </message>
     <message>
         <source>Restart</source>
-        <translation>Neu beginnen</translation>
+        <translation>გადატვირთვა</translation>
     </message>
     <message>
         <source>Tab Order List...</source>
-        <translation>Tabulatorreihenfolge...</translation>
+        <translation>ტაბულაციის მიმდევრობის სია...</translation>
     </message>
     <message>
         <source>Tab Order List</source>
-        <translation>Tabulatorreihenfolge</translation>
+        <translation>ტაბულაციის მიმდევრობის სია</translation>
     </message>
     <message>
         <source>Tab Order</source>
-        <translation>Tabulatorreihenfolge</translation>
+        <translation>ტაბულაციის მიმდევრობა</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::TabOrderEditorPlugin</name>
     <message>
         <source>Edit Tab Order</source>
-        <translation>Tabulatorreihenfolge bearbeiten</translation>
+        <translation>ჩანართების მიმდევრობის მორგება</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::TabOrderEditorTool</name>
     <message>
         <source>Edit Tab Order</source>
-        <translation>Tabulatorreihenfolge bearbeiten</translation>
+        <translation>ჩანართების მიმდევრობის მორგება</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::TableWidgetEditor</name>
     <message>
         <source>New Column</source>
-        <translation>Neue Spalte</translation>
+        <translation>ახალი სვეტი</translation>
     </message>
     <message>
         <source>New Row</source>
-        <translation>Neue Zeile</translation>
+        <translation>ახალი მწკრივი</translation>
     </message>
     <message>
         <source>&amp;Columns</source>
-        <translation>&amp;Spalten</translation>
+        <translation>&amp;სვეტები</translation>
     </message>
     <message>
         <source>&amp;Rows</source>
-        <translation>&amp;Zeilen</translation>
+        <translation>&amp;მწკრივები</translation>
     </message>
     <message>
         <source>Properties &amp;&lt;&lt;</source>
-        <translation>Eigenschaften &amp;&lt;&lt;</translation>
+        <translation>თვისებები &amp;&lt;&lt;</translation>
     </message>
     <message>
         <source>Properties &amp;&gt;&gt;</source>
-        <translation>Eigenschaften &amp;&gt;&gt;</translation>
+        <translation>თვისებები &amp;&gt;&gt;</translation>
     </message>
     <message>
         <source>Edit Table Widget</source>
-        <translation>Table Widget ändern</translation>
+        <translation>ცხრილის ვიჯეტის ჩასწორება</translation>
     </message>
     <message>
         <source>&amp;Items</source>
-        <translation>&amp;Inhalt</translation>
+        <translation>&amp;ელემენტები</translation>
     </message>
     <message>
         <source>Table Items</source>
-        <translation>Tabellenelemente</translation>
+        <translation>ცხრილის ელემენტები</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::TableWidgetTaskMenu</name>
     <message>
         <source>Edit Items...</source>
-        <translation>Elemente ändern...</translation>
+        <translation>ელემენტების ჩასწორება...</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::TemplateOptionsWidget</name>
     <message>
         <source>Pick a directory to save templates in</source>
-        <translation>Wählen Sie ein Verzeichnis zum Abspeichern der Vorlagen aus</translation>
+        <translation>აირჩიეთ საქაღალდე ნიმუშების შესანახად</translation>
     </message>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation>ფორმა</translation>
     </message>
     <message>
         <source>Additional Template Paths</source>
-        <translation>Zusätzliche Verzeichnisse für Vorlagen</translation>
+        <translation>დამატებითი ნიმუშის ბილიკები</translation>
     </message>
     <message>
         <source>...</source>
@@ -5704,34 +5707,34 @@ Klasse: %2</translation>
     <name>qdesigner_internal::TextEditTaskMenu</name>
     <message>
         <source>Change HTML...</source>
-        <translation>HTML ändern...</translation>
+        <translation>HTML-ის შეცვლა...</translation>
     </message>
     <message>
         <source>Edit HTML</source>
-        <translation>HTML bearbeiten</translation>
+        <translation>HTML-ის ჩასწორება</translation>
     </message>
     <message>
         <source>Edit Text</source>
-        <translation>Text bearbeiten</translation>
+        <translation>ტექსტის ჩასწორება</translation>
     </message>
     <message>
         <source>Change Plain Text...</source>
-        <translation>Text ändern...</translation>
+        <translation>უბრალო ტექსტის შეცვლა...</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::TextEditor</name>
     <message>
         <source>Choose Resource...</source>
-        <translation>Ressource auswählen...</translation>
+        <translation>აირჩიეთ რესურსი...</translation>
     </message>
     <message>
         <source>Choose File...</source>
-        <translation>Datei auswählen...</translation>
+        <translation>ფაილის არჩევა...</translation>
     </message>
     <message>
         <source>Choose a File</source>
-        <translation>Wählen Sie eine Datei</translation>
+        <translation>ფაილის არჩევა</translation>
     </message>
     <message>
         <source>...</source>
@@ -5742,82 +5745,82 @@ Klasse: %2</translation>
     <name>qdesigner_internal::ToolBarEventFilter</name>
     <message>
         <source>Insert Separator</source>
-        <translation>Trenner einfügen</translation>
+        <translation>გამყოფის ჩასმა</translation>
     </message>
     <message>
         <source>Remove action &apos;%1&apos;</source>
-        <translation>Aktion &apos;%1&apos; löschen</translation>
+        <translation>წაიშლება ქმედება &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Remove Toolbar &apos;%1&apos;</source>
-        <translation>Werkzeugleiste &apos;%1&apos; löschen</translation>
+        <translation>ხელსაწყოთა ზოლის &apos;%1&apos; წაშლა</translation>
     </message>
     <message>
         <source>Insert Separator before &apos;%1&apos;</source>
-        <translation>Trenner vor &apos;%1&apos; einfügen</translation>
+        <translation>გამყოფის ჩასმა &apos;%1&apos;-მდე</translation>
     </message>
     <message>
         <source>Append Separator</source>
-        <translation>Trenner hinzufügen</translation>
+        <translation>გამყოფის მიწერა ბოლოში</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::TreeWidgetEditor</name>
     <message>
         <source>&amp;Columns</source>
-        <translation>&amp;Spalten</translation>
+        <translation>&amp;სვეტები</translation>
     </message>
     <message>
         <source>Per column properties</source>
-        <translation>Spalteneigenschaften</translation>
+        <translation>თითოეული სვეტის თვისებები</translation>
     </message>
     <message>
         <source>Common properties</source>
-        <translation>Gemeinsame Eigenschaften</translation>
+        <translation>საერთო თვისებები</translation>
     </message>
     <message>
         <source>New Item</source>
-        <translation>Neues Element</translation>
+        <translation>ახალი ელემენტი</translation>
     </message>
     <message>
         <source>Properties &amp;&lt;&lt;</source>
-        <translation>Eigenschaften &amp;&lt;&lt;</translation>
+        <translation>თვისებები &amp;&lt;&lt;</translation>
     </message>
     <message>
         <source>Properties &amp;&gt;&gt;</source>
-        <translation>Eigenschaften &amp;&gt;&gt;</translation>
+        <translation>თვისებები &amp;&gt;&gt;</translation>
     </message>
     <message>
         <source>New Column</source>
-        <translation>Neue Spalte</translation>
+        <translation>ახალი სვეტი</translation>
     </message>
     <message>
         <source>Edit Tree Widget</source>
-        <translation>Tree Widget ändern</translation>
+        <translation>ხის ვიჯეტის ჩასწორება</translation>
     </message>
     <message>
         <source>&amp;Items</source>
-        <translation>&amp;Elemente</translation>
+        <translation>&amp;ელემენტები</translation>
     </message>
     <message>
         <source>Tree Items</source>
-        <translation>Elemente</translation>
+        <translation>ხის ელემენტები</translation>
     </message>
     <message>
         <source>New Subitem</source>
-        <translation>Neues untergeordnetes Element</translation>
+        <translation>ახალი ქვეჩანაწერი</translation>
     </message>
     <message>
         <source>New &amp;Subitem</source>
-        <translation>Neues &amp;untergeordnetes Element</translation>
+        <translation>ახალი &amp;ქვეჩანაწერი</translation>
     </message>
     <message>
         <source>Delete Item</source>
-        <translation>Element löschen</translation>
+        <translation>ელემენტის წაშლა</translation>
     </message>
     <message>
         <source>Move Item Left (before Parent Item)</source>
-        <translation>Element nach links (vor übergeordnetes Element)</translation>
+        <translation>ელემენტის გადაადგილება მარცხნივ (მშობელ ელემენტამდე)</translation>
     </message>
     <message>
         <source>L</source>
@@ -5825,15 +5828,15 @@ Klasse: %2</translation>
     </message>
     <message>
         <source>Move Item Right (as a First Subitem of the Next Sibling Item)</source>
-        <translation>Element nach rechts (als untergeordnetes Element des nächsten gleichrangigen Elements)</translation>
+        <translation>ელემენტის გადაადგილება მარჯვნივ (როგორც შემდეგი და ელემენტის პირველი ქვეელემენტი)</translation>
     </message>
     <message>
         <source>R</source>
-        <translation>R</translation>
+        <translation>მჯ</translation>
     </message>
     <message>
         <source>Move Item Up</source>
-        <translation>Element eins nach oben</translation>
+        <translation>ელემენტის აწევა</translation>
     </message>
     <message>
         <source>U</source>
@@ -5841,7 +5844,7 @@ Klasse: %2</translation>
     </message>
     <message>
         <source>Move Item Down</source>
-        <translation>Element eins nach unten</translation>
+        <translation>ელემენტის ჩამოწევა</translation>
     </message>
     <message>
         <source>D</source>
@@ -5853,117 +5856,118 @@ Klasse: %2</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Neu</translation>
+        <translation>&amp;ახალი</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Löschen</translation>
+        <translation>&amp;წაშლა</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::TreeWidgetTaskMenu</name>
     <message>
         <source>Edit Items...</source>
-        <translation>Elemente ändern...</translation>
+        <translation>ელემენტების ჩასწორება...</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::WidgetBox</name>
     <message>
         <source>Warning: Widget creation failed in the widget box. This could be caused by invalid custom widget XML.</source>
-        <translation>Warnung: Die Erzeugung des Widgets in der Widget-Box schlug fehl. Das könnte durch fehlerhaften XML-Code benutzerdefinierter Widgets verursacht worden sein.</translation>
+        <translation>გაფრთხილება: ვიჯეტის შექმნა ჩავარდა. ეს, შეიძლება, არასწორი მომხმარებლის ვიჯეტის XML-ის არსებობის გამოა.</translation>
     </message>
     <message>
         <source>Filter</source>
-        <translation>Filter</translation>
+        <translation>ფილტრი</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::WidgetBoxTreeWidget</name>
     <message>
         <source>Scratchpad</source>
-        <translation>Ablage</translation>
+        <translation>მონახაზი</translation>
     </message>
     <message>
         <source>Custom Widgets</source>
-        <translation>Benutzerdefinierte Widgets</translation>
+        <translation>მომხმარებლის ვიჯეტები</translation>
     </message>
     <message>
         <source>Expand all</source>
-        <translation>Alles aufklappen</translation>
+        <translation>ყველას ამოკეცვა</translation>
     </message>
     <message>
         <source>Collapse all</source>
-        <translation>Alles zuklappen</translation>
+        <translation>ყველას ჩაკეცვა</translation>
     </message>
     <message>
         <source>List View</source>
-        <translation>Listenansicht</translation>
+        <translation>სიისებრი ხედი</translation>
     </message>
     <message>
         <source>Icon View</source>
-        <translation>Icon-Ansicht</translation>
+        <translation>ხატულებით ჩვენება</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Löschen</translation>
+        <translation>წაშლა</translation>
     </message>
     <message>
         <source>Edit name</source>
-        <translation>Namen ändern</translation>
+        <translation>ფენის ჩასწორება</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::WidgetDataBase</name>
     <message>
         <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
-        <translation>Es wurde ein Plugin gefunden, das ein benutzerdefiniertes Widget enthält, dessen Klassenname (%1) einer existierenden Klasse entspricht.</translation>
+        <translation>აღმოჩენილია მომხმარებლის ვიჯეტის დამატება, რომლის მთლიანი კლასის სახელიც (%1) არსებულ კლასს ემთხვევა.</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::WidgetEditorTool</name>
     <message>
         <source>Edit Widgets</source>
-        <translation>Widgets bearbeiten</translation>
+        <translation>ვიჯეტების ჩასწორება</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::WidgetFactory</name>
     <message>
         <source>The custom widget factory registered for widgets of class %1 returned 0.</source>
-        <translation>Die Factory für benutzerdefinierte Widgets der Klasse %1 gab einen 0-Zeiger zurück.</translation>
+        <translation>მომხმარებლის ვიჯეტებს ქარხანამ, რომელიც დარეგისტრირებულია კლასის %1 ვიჯეტებისთვის, 0 დააბრუნა.</translation>
     </message>
     <message>
         <source>A class name mismatch occurred when creating a widget using the custom widget factory registered for widgets of class %1. It returned a widget of class %2.</source>
-        <translation>Bei der Erzeugung von Widgets wurden widersprüchliche Klassennamen festgestellt: Die Factory für benutzerdefinierte Widgets der Klasse %1 gab ein Widget der Klasse %2 zurück.</translation>
+        <translation>აღმოჩენილია სახელის შეუთავსებლობა ვიჯეტის შექმნისას მომხმარებლის ვიჯეტის ქარხნის გამოყენებით კლასისთვის %1. მან დააბრუნა ვიჯეტი კლასისთვის %2.</translation>
     </message>
     <message>
         <source>The current page of the container &apos;%1&apos; (%2) could not be determined while creating a layout.This indicates an inconsistency in the ui-file, probably a layout being constructed on a container widget.</source>
-        <translation>Der Container  &apos;%1&apos; (%2) hat keine Seite, auf der ein Layout angelegt werden könnte. Das deutet auf eine inkonsistente ui-Datei hin; wahrscheinlich wurde ein Layout direkt auf dem Container spezifiziert.</translation>
+        <translation>განლაგების შექმნისას კონტეინერის &apos;%1&apos; (%2) მიმდინარე გვერდის დადგენა შეუძლებელია. ეს ui ფაილის არამდგრადობაზე მიუთითებს და ალბათ განლაგება კონტეინერის ვიჯეტზე ხდება.</translation>
     </message>
     <message>
         <source>Attempt to add a layout to a widget &apos;%1&apos; (%2) which already has an unmanaged layout of type %3.
 This indicates an inconsistency in the ui-file.</source>
-        <translation>Es wurde versucht, ein Layout auf das Widget &apos;%1&apos; (%2) zu setzen, welches bereits ein Layout vom Typ %3 hat. Das deutet auf eine Inkonsistenz in der ui-Datei hin.</translation>
+        <translation>მცდელობა, დაამატოთ განლაგება ვიჯეტს &apos;%1&apos; (%2), რომელსაც უკვე გააჩნია უმართავი განლაგება ტიპით %3.
+ეს ui ფაილების არამდგრადობაზე მიუთითებს.</translation>
     </message>
     <message>
         <source>Cannot create style &apos;%1&apos;.</source>
-        <translation>Der Stil &apos;%1&apos; konnte nicht erzeugt werden.</translation>
+        <translation>ვერ შევქმენი სტილი &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>%1 Widget</source>
-        <translation>%1 Widget</translation>
+        <translation>%1 ვიჯეტი</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::WizardContainerWidgetTaskMenu</name>
     <message>
         <source>Next</source>
-        <translation>Nächste</translation>
+        <translation>შემდეგი</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Vorige</translation>
+        <translation>უკან</translation>
     </message>
 </context>
 <context>
@@ -5978,54 +5982,54 @@ This indicates an inconsistency in the ui-file.</source>
     <name>qdesigner_internal::ZoomablePreviewDeviceSkin</name>
     <message>
         <source>&amp;Zoom</source>
-        <translation>&amp;Vergrößern</translation>
+        <translation>&amp;გადიდება</translation>
     </message>
 </context>
 <context>
     <name>Dialog</name>
     <message>
         <source>Dialog</source>
-        <translation>Dialog</translation>
+        <translation>ფანჯარა</translation>
     </message>
 </context>
 <context>
     <name>MainWindow</name>
     <message>
         <source>MainWindow</source>
-        <translation>MainWindow</translation>
+        <translation>მთავარი ფანჯარა</translation>
     </message>
 </context>
 <context>
     <name>Form</name>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation>ფორმა</translation>
     </message>
 </context>
 <context>
     <name>QDesignerWidgetBox</name>
     <message>
         <source>An error has been encountered at line %1 of %2: %3</source>
-        <translation>Fehler bei Zeile %1 von %2: %3</translation>
+        <translation>აღმოჩენილია შეცდომა %2-ის ხაზზე %1: %3</translation>
     </message>
     <message>
         <source>Unexpected element &lt;%1&gt; encountered when parsing for &lt;widget&gt; or &lt;ui&gt;</source>
-        <translation>An Stelle des erwarteten &lt;widget&gt;- oder &lt;ui&gt;-Elementes wurde &lt;%1&gt; gefunden</translation>
+        <translation>აღმოჩენილია მოულოდნელი ელემენტი &lt;%1&gt; &lt;widget&gt;-ის ან &lt;ui&gt;-ის ძებნისას</translation>
     </message>
     <message>
         <source>Unexpected end of file encountered when parsing widgets.</source>
-        <translation>Vorzeitiges Dateiende beim Lesen der Widget-Box-Konfiguration.</translation>
+        <translation>აღმოჩენილია მოულოდნელი ფაილის ბოლო ვიჯეტების დამუშავებისას.</translation>
     </message>
     <message>
         <source>A widget element could not be found.</source>
-        <translation>Es fehlt das Widget-Element.</translation>
+        <translation>ვიჯეტის ელემენტი აღმოჩენილი არაა.</translation>
     </message>
 </context>
 <context>
     <name>QView3DPlugin</name>
     <message>
         <source>3D View</source>
-        <translation>3D View</translation>
+        <translation>3D ხედი</translation>
     </message>
 </context>
 <context>
@@ -6039,11 +6043,11 @@ This indicates an inconsistency in the ui-file.</source>
     <name>qdesigner_internal::PropertySheetValue</name>
     <message>
         <source>translatable</source>
-        <translation>Übersetzbar</translation>
+        <translation>თარგმნადი</translation>
     </message>
     <message>
         <source>comment</source>
-        <translation>Kommentar</translation>
+        <translation>კომენტარი</translation>
     </message>
 </context>
 </TS>

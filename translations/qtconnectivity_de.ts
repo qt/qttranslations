@@ -20,10 +20,6 @@
         <translation>Übergebene Adresse gehört zu keinem lokalen Gerät.</translation>
     </message>
     <message>
-        <source>Missing Location permission. Search is not possible.</source>
-        <translation>Die Berechtigung zur Positionsbestimmung fehlt. Es ist keine Suche möglich.</translation>
-    </message>
-    <message>
         <source>Location service turned off. Search is not possible.</source>
         <translation>Standortbestimmung abgeschaltet. Suche ist nicht möglich.</translation>
     </message>
@@ -881,6 +877,10 @@
         <translation>Database Change Increment</translation>
     </message>
     <message>
+        <source>Weight Scale Feature</source>
+        <translation>Waagendaten</translation>
+    </message>
+    <message>
         <source>Server Characteristic Configuration</source>
         <translation>Charakteristische Konfiguration des Servers</translation>
     </message>
@@ -1435,16 +1435,16 @@
         <translation>Beim Aufbau der Verbindung zum Gerät trat ein Fehler auf.</translation>
     </message>
     <message>
-        <source>Error missing permission</source>
-        <translation>Fehler: Fehlende Berechtigung</translation>
-    </message>
-    <message>
         <source>Failed to authorize on the remote device</source>
         <translation>Fehler bei Autorisierung auf dem Gerät</translation>
     </message>
     <message>
         <source>Missing permissions error</source>
         <translation>Fehler: Fehlende Berechtigungen</translation>
+    </message>
+    <message>
+        <source>Error reading RSSI value</source>
+        <translation>Fehler beim Lesen des RSSI-Werts</translation>
     </message>
     <message>
         <source>Error occurred trying to start advertising</source>

@@ -1,8 +1,6 @@
 # Copyright (C) 2022 The Qt Company Ltd.
 # SPDX-License-Identifier: BSD-3-Clause
 
-# special case skip regeneration
-
 add_custom_target(ts-all)
 
 set(repo_root_directory "${CMAKE_CURRENT_SOURCE_DIR}/../..")
@@ -40,6 +38,8 @@ function(add_ts_targets catalog)
     generate_empty_ts_file("${catalog}_en.ts")
     file(GLOB ts_files "${catalog}_*.ts")
 
+    list(PREPEND arg_EXCLUDE "/3rdparty/" "/doc/snippets/")
+
     set(languages)
     foreach(file IN LISTS ts_files)
         if(file MATCHES "([a-z][a-z](_[A-Z][A-Z])?).ts$")
@@ -60,13 +60,11 @@ function(add_ts_targets catalog)
             continue()
         endif()
         file(GLOB_RECURSE catalog_files "${dir_path}/**")
-        list(FILTER catalog_files EXCLUDE REGEX /3rdparty/)
+        foreach(exclude_regex IN LISTS arg_EXCLUDE)
+            list(FILTER catalog_files EXCLUDE REGEX ${exclude_regex})
+        endforeach()
         list(APPEND file_list ${catalog_files})
     endforeach()
-    if (NOT file_list)
-        message(WARNING "No source files located for ${catalog}, skipping target creation")
-        return()
-    endif()
 
     # Extend the content of catalogs.json
     if(NOT "${catalogs_file_content}" STREQUAL "")
@@ -87,16 +85,15 @@ function(add_ts_targets catalog)
     string(APPEND catalogs_file_content "\n  }")
     set(catalogs_file_content "${catalogs_file_content}" PARENT_SCOPE)
 
+    if (NOT file_list)
+        message(WARNING "No source files located for ${catalog}, skipping target creation")
+        return()
+    endif()
+
     # Generate the list of source files
     set(source_files_list_file "${CMAKE_CURRENT_BINARY_DIR}/${catalog}_file_list.txt")
     set(inclusion_regex "\\.h$|\\.cpp$|\\.hpp$|\\.cxx$|\\.cc$|\\.mm$|\\.qml$|\\.ui$")
     list(FILTER file_list INCLUDE REGEX "${inclusion_regex}")
-    list(FILTER file_list EXCLUDE REGEX /doc/snippets/)
-    if (arg_EXCLUDE)
-        foreach(exclude_regex IN LISTS arg_EXCLUDE)
-            list(FILTER file_list EXCLUDE REGEX ${exclude_regex})
-        endforeach()
-    endif()
     list(JOIN file_list "\n" file_list_string)
 
     file(GENERATE
