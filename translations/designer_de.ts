@@ -636,6 +636,10 @@
         <translation>Qt Widgets Designer</translation>
     </message>
     <message>
+        <source>%1 does not exist.</source>
+        <translation>%1 existiert nicht.</translation>
+    </message>
+    <message>
         <source>Unable to launch %1: %2</source>
         <translation>%1 konnte nicht gestartet werden: %2</translation>
     </message>
@@ -1549,16 +1553,8 @@ Möchten Sie einen anderen Namen eingeben oder ein neues Formular erzeugen?</tra
         <translation>Formular speichern</translation>
     </message>
     <message>
-        <source>The backup file %1 could not be written.</source>
-        <translation>Hintergrundsicherung: Die Datei %1 konnte nicht geschrieben werden.</translation>
-    </message>
-    <message>
         <source>The backup directory %1 could not be created.</source>
         <translation>Hintergrundsicherung: Das Verzeichnis %1 konnte nicht angelegt werden.</translation>
-    </message>
-    <message>
-        <source>The temporary backup directory %1 could not be created.</source>
-        <translation>Hintergrundsicherung: Das temporäre Verzeichnis %1 konnte nicht angelegt werden.</translation>
     </message>
     <message>
         <source>Please close all forms to enable the loading of additional fonts.</source>
@@ -1601,6 +1597,10 @@ Möchten Sie es noch einmal versuchen oder eine andere Datei auswählen?</transl
 Reason: %2</source>
         <translation>Die Datei %1 konnte nicht geschrieben werden.
 Grund: %2</translation>
+    </message>
+    <message>
+        <source>The backup file %1 could not be written: %2</source>
+        <translation>Die Backup-Datei %1 konnte nicht geschrieben werden: %2</translation>
     </message>
     <message>
         <source>Image files (*.%1)</source>
@@ -3341,8 +3341,8 @@ Möchten Sie sie überschreiben?</translation>
         <translation>&lt;br/&gt;Qt Widgets Designer is a graphical user interface designer for Qt applications.&lt;br/&gt;</translation>
     </message>
     <message>
-        <source>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</source>
-        <translation>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</translation>
+        <source>%1&lt;br/&gt;Copyright (C) The Qt Company Ltd. and other contributors.</source>
+        <translation>%1&lt;br/&gt;Copyright (C) The Qt Company Ltd. and other contributors.</translation>
     </message>
 </context>
 <context>
