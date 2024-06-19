@@ -23,7 +23,7 @@ endfunction()
 # Create a rudimentary .ts file in ${en_ts_file_dir}.
 function(generate_empty_ts_file file_name)
     if(NOT EXISTS "${en_ts_file_dir}/${file_name}")
-        file(WRITE "${en_ts_file_dir}/${file_name}" "<TS></TS>")
+        file(WRITE "${en_ts_file_dir}/${file_name}" "<TS language=\"en_US\"></TS>")
     endif()
 endfunction()
 
