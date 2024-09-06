@@ -1,4 +1,4 @@
 dependencies:
   ../tqtc-qttools:
-    ref: 796b29d532f5f502e90cac2bfb04216f932b7b54
+    ref: 2a2fe724d47550d7ecd2535db5a909671c597431
     required: true
