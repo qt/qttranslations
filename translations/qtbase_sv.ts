@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="lg_UG">
+<TS version="2.1" language="sv_SE">
 <context>
     <name>%1: key is empty</name>
     <message>
@@ -12,324 +12,324 @@
     <name>CloseButton</name>
     <message>
         <source>Close Tab</source>
-        <translation>Gyawo katimbe</translation>
+        <translation>Stäng flik</translation>
     </message>
 </context>
 <context>
     <name>MAC_APPLICATION_MENU</name>
     <message>
         <source>About %1</source>
-        <translation>Kwanjula %1</translation>
+        <translation>Om %1</translation>
     </message>
     <message>
         <source>Preferences...</source>
-        <translation>Nteekateeka…</translation>
+        <translation>Inställningar…</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>Ebiyanguyisamirimu</translation>
+        <translation>Tjänster</translation>
     </message>
     <message>
         <source>Hide %1</source>
-        <translation>Kisa %1</translation>
+        <translation>Dölj %1</translation>
     </message>
     <message>
         <source>Hide Others</source>
-        <translation>Kisa ebirala</translation>
+        <translation>Dölj övriga</translation>
     </message>
     <message>
         <source>Show All</source>
-        <translation>Laga byonna</translation>
+        <translation>Visa alla</translation>
     </message>
     <message>
         <source>Quit %1</source>
-        <translation>Mala %1</translation>
+        <translation>Avsluta %1</translation>
     </message>
 </context>
 <context>
     <name>Print Device Input Slot</name>
     <message>
         <source>Automatic</source>
-        <translation>Kyerondere</translation>
+        <translation>Automatisk</translation>
     </message>
 </context>
 <context>
     <name>Print Device Output Bin</name>
     <message>
         <source>Automatic</source>
-        <translation>Kyerondere</translation>
+        <translation>Automatisk</translation>
     </message>
 </context>
 <context>
     <name>QAbstractSocket</name>
     <message>
         <source>Socket operation timed out</source>
-        <translation>Omukolo ogw&apos;oku soketi obudde buguyiseko</translation>
+        <translation>Tidsgräns för uttagsåtgärd överstegs</translation>
     </message>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>Sisitemu eno omukolo ogw&apos;oku soketi ogwo tegusobola</translation>
+        <translation>Åtgärden på uttag stöds inte</translation>
     </message>
     <message>
         <source>Host not found</source>
-        <translation>Olukalala lwa kompyuta enyunge lwereere</translation>
+        <translation>Värden hittades inte</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>Okukwatagana ne kompyuta enyunge kulemye</translation>
+        <translation>Anslutningen nekades</translation>
     </message>
     <message>
         <source>Connection timed out</source>
-        <translation>Okukwatagana ne kompyuta enyunge obudde bukuyiseko</translation>
+        <translation>Tidsgränsen för anslutning överstegs</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation>Omulimu ogw&apos;okussawo enkwatagana omulala gusangidwa gubumbujja</translation>
+        <translation>Försöker ansluta när en anslutning pågår</translation>
     </message>
     <message>
         <source>Socket is not connected</source>
-        <translation>Soketi tekwataganizidwa</translation>
+        <translation>Uttaget är inte anslutet</translation>
     </message>
     <message>
         <source>Network unreachable</source>
-        <translation>Kayungirizi tetuukikako</translation>
+        <translation>Nätverket är inte nåbart</translation>
     </message>
 </context>
 <context>
     <name>QAbstractSpinBox</name>
     <message>
         <source>&amp;Select All</source>
-        <translation>&amp;Londa Byonna</translation>
+        <translation>Markera &amp;allt</translation>
     </message>
     <message>
         <source>&amp;Step up</source>
-        <translation>&amp;Yongeza</translation>
+        <translation>&amp;Stega uppåt</translation>
     </message>
     <message>
         <source>Step &amp;down</source>
-        <translation>&amp;Toolako</translation>
+        <translation>Stega &amp;nedåt</translation>
     </message>
 </context>
 <context>
     <name>QAccessibleActionInterface</name>
     <message>
         <source>Press</source>
-        <translation>Nyiga</translation>
+        <translation>Tryck</translation>
     </message>
     <message>
         <source>Increase</source>
-        <translation>Yongeza</translation>
+        <translation>Öka</translation>
     </message>
     <message>
         <source>Decrease</source>
-        <translation>Kendeeza</translation>
+        <translation>Minska</translation>
     </message>
     <message>
         <source>ShowMenu</source>
-        <translation>LagaMenyu</translation>
+        <translation>Visa meny</translation>
     </message>
     <message>
         <source>SetFocus</source>
-        <translation>TegekaOkuloba</translation>
+        <translation>Ställ in fokus</translation>
     </message>
     <message>
         <source>Toggle</source>
-        <translation>Wanyisa</translation>
+        <translation>Växla</translation>
     </message>
     <message>
         <source>Scroll Left</source>
-        <translation>Seesa ku kkono</translation>
+        <translation>Rulla vänster</translation>
     </message>
     <message>
         <source>Scroll Right</source>
-        <translation>Seesa ku ddyo</translation>
+        <translation>Rulla höger</translation>
     </message>
     <message>
         <source>Scroll Up</source>
-        <translation>Seesa waggulu</translation>
+        <translation>Rulla uppåt</translation>
     </message>
     <message>
         <source>Scroll Down</source>
-        <translation>Seesa wansi</translation>
+        <translation>Rulla nedåt</translation>
     </message>
     <message>
         <source>Previous Page</source>
-        <translation>Lupapula Olukulembera Luno</translation>
+        <translation>Föregående sida</translation>
     </message>
     <message>
         <source>Next Page</source>
-        <translation>Lupapula oluddako</translation>
+        <translation>Nästa sida</translation>
     </message>
     <message>
         <source>Triggers the action</source>
-        <translation>Kitandika ekikolebwa</translation>
+        <translation>Växlar åtgärden</translation>
     </message>
     <message>
         <source>Increase the value</source>
-        <translation>Yongeza ekikongojje</translation>
+        <translation>Öka värdet</translation>
     </message>
     <message>
         <source>Decrease the value</source>
-        <translation>Kendeeza ekikongojje</translation>
+        <translation>Minska värdet</translation>
     </message>
     <message>
         <source>Shows the menu</source>
-        <translation>Kireeta menyu</translation>
+        <translation>Visar menyn</translation>
     </message>
     <message>
         <source>Sets the focus</source>
-        <translation>Kitegeka ekirobedwa</translation>
+        <translation>Ställ in fokus</translation>
     </message>
     <message>
         <source>Toggles the state</source>
-        <translation>Kiwanyisa obutegeke</translation>
+        <translation>Växlar tillståndet</translation>
     </message>
     <message>
         <source>Scrolls to the left</source>
-        <translation>Kiseesa ebirabwa ne byeyongerayo ku kkono</translation>
+        <translation>Rullar åt vänster</translation>
     </message>
     <message>
         <source>Scrolls to the right</source>
-        <translation>Kiseesa ebirabwa ne byeyongerayo ku ddyo</translation>
+        <translation>Rullar åt höger</translation>
     </message>
     <message>
         <source>Scrolls up</source>
-        <translation>Kiseesa olutimbe ebiri waggulu ne byeyongera okulabika</translation>
+        <translation>Rullar upp</translation>
     </message>
     <message>
         <source>Scrolls down</source>
-        <translation>Kiseesa olutimbe ebiri wansi ne byeyongera okulabika</translation>
+        <translation>Rullar ner</translation>
     </message>
     <message>
         <source>Goes back a page</source>
-        <translation>Kikuzza ku lupapula olukulembera luno</translation>
+        <translation>Går tillbaka en sida</translation>
     </message>
     <message>
         <source>Goes to the next page</source>
-        <translation>Kikutwala ku lupapula oluddako</translation>
+        <translation>Går framåt en sida</translation>
     </message>
 </context>
 <context>
     <name>QAndroidPlatformTheme</name>
     <message>
         <source>Yes</source>
-        <translation>Ye</translation>
+        <translation>Ja</translation>
     </message>
     <message>
         <source>Yes to All</source>
-        <translation>Byonna Bikkirize</translation>
+        <translation>Ja till allt</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Nedda</translation>
+        <translation>Nej</translation>
     </message>
     <message>
         <source>No to All</source>
-        <translation>Byonna Bigaane</translation>
+        <translation>Nej till allt</translation>
     </message>
 </context>
 <context>
     <name>QApplication</name>
     <message>
         <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
-        <translation>Puloguramu &quot;%1&quot; yetaaga Qt %2, naye esanze Qt %3.</translation>
+        <translation>Körbara filen &quot;%1&quot; kräver Qt %2, hittade Qt %3.</translation>
     </message>
     <message>
         <source>Incompatible Qt Library Error</source>
-        <translation>Kiremya avudde ku Qt ow&apos;omutindo ogutakolagana</translation>
+        <translation>Inkompatibelt Qt-biblioteksfel</translation>
     </message>
 </context>
 <context>
     <name>QCocoaMenuItem</name>
     <message>
         <source>About</source>
-        <translation>Kwanjula</translation>
+        <translation>Om</translation>
     </message>
     <message>
         <source>Config</source>
-        <translation>Obutegeke</translation>
+        <translation>Konfiguration</translation>
     </message>
     <message>
         <source>Preference</source>
-        <translation>Nteekateeka</translation>
+        <translation>Inställning</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Ebisoboka</translation>
+        <translation>Alternativ</translation>
     </message>
     <message>
         <source>Setting</source>
-        <translation>Ekitegekedwa</translation>
+        <translation>Inställning</translation>
     </message>
     <message>
         <source>Setup</source>
-        <translation>Tegeka</translation>
+        <translation>Konfigurera</translation>
     </message>
     <message>
         <source>Quit</source>
-        <translation>Mala</translation>
+        <translation>Avsluta</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>Mala</translation>
+        <translation>Avsluta</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation>Situlawo</translation>
+        <translation>Klipp ut</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Koppa</translation>
+        <translation>Kopiera</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>Paatiika</translation>
+        <translation>Klistra in</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Londa Byonna</translation>
+        <translation>Markera alla</translation>
     </message>
     <message>
         <source>About Qt</source>
-        <translation>Kwanjula Qt</translation>
+        <translation>Om Qt</translation>
     </message>
 </context>
 <context>
     <name>QCocoaTheme</name>
     <message>
         <source>Don&apos;t Save</source>
-        <translation>Tokazza</translation>
+        <translation>Spara inte</translation>
     </message>
 </context>
 <context>
     <name>QColorDialog</name>
     <message>
         <source>Hu&amp;e:</source>
-        <translation>Ki&amp;ti kya langi:</translation>
+        <translation>Nya&amp;ns:</translation>
     </message>
     <message>
         <source>&amp;Sat:</source>
-        <translation>Ku&amp;noga:</translation>
+        <translation>&amp;Mättnad:</translation>
     </message>
     <message>
         <source>&amp;Val:</source>
-        <translation>&amp;Bukwafu:</translation>
+        <translation>&amp;Ljushet:</translation>
     </message>
     <message>
         <source>&amp;Red:</source>
-        <translation>&amp;Obumyukirivu:</translation>
+        <translation>&amp;Röd:</translation>
     </message>
     <message>
         <source>&amp;Green:</source>
-        <translation>Obwa&amp;kiragala:</translation>
+        <translation>&amp;Grön:</translation>
     </message>
     <message>
         <source>Bl&amp;ue:</source>
-        <translation>Obwab&amp;ululu:</translation>
+        <translation>Bl&amp;å:</translation>
     </message>
     <message>
         <source>A&amp;lpha channel:</source>
-        <translation>Enjo&amp;lesa ey&apos;okutangalijja:</translation>
+        <translation>Alfa&amp;kanal:</translation>
     </message>
     <message>
         <source>&amp;HTML:</source>
@@ -338,90 +338,90 @@
     <message>
         <source>Cursor at %1, %2
 Press ESC to cancel</source>
-        <translation>Akalagakifo kasangibwa ku %1, %2
-Nyiga ESC okusazamu</translation>
+        <translation>Markör på %1, %2
+Tryck ESC för att avbryta</translation>
     </message>
     <message>
         <source>Select Color</source>
-        <translation>Londa Langi</translation>
+        <translation>Välj färg</translation>
     </message>
     <message>
         <source>&amp;Basic colors</source>
-        <translation>Langi ez&apos;a&amp;mangu</translation>
+        <translation>&amp;Basfärger</translation>
     </message>
     <message>
         <source>&amp;Custom colors</source>
-        <translation>&amp;Langi ezizo</translation>
+        <translation>&amp;Anpassade färger</translation>
     </message>
     <message>
         <source>&amp;Add to Custom Colors</source>
-        <translation>&amp;Gyongere ku langi ezizo</translation>
+        <translation>&amp;Lägg till i anpassade färger</translation>
     </message>
     <message>
         <source>&amp;Pick Screen Color</source>
-        <translation>&amp;Langi gifune okuva ku lutimbe</translation>
+        <translation>&amp;Välj skärmfärg</translation>
     </message>
 </context>
 <context>
     <name>QComboBox</name>
     <message>
         <source>Open the combo box selection popup</source>
-        <translation>Leeta bokisi ey&apos;ebirondebwako</translation>
+        <translation>Öppnar kombinationsruta för väljare</translation>
     </message>
     <message>
         <source>False</source>
-        <translation>Ssi kyo</translation>
+        <translation>Falskt</translation>
     </message>
     <message>
         <source>True</source>
-        <translation>Kye kyo</translation>
+        <translation>Sant</translation>
     </message>
 </context>
 <context>
     <name>QCommandLineParser</name>
     <message>
         <source>Displays version information.</source>
-        <translation>Kiraga ebikwata ku luwandika lwa puloguramu.</translation>
+        <translation>Visar versionsinformation.</translation>
     </message>
     <message>
         <source>Displays help on commandline options.</source>
-        <translation>Kiraga ebinnyonyola obuwayiro obusobola okwongerwa ku kiragiro ekitandika puloguramu okuva mu kiwandikiro.</translation>
+        <translation>Visar hjälp för kommandoradsalternativ.</translation>
     </message>
     <message>
         <source>Displays help including Qt specific options.</source>
-        <translation>Kiraga ebinnyonyola obuwayiro obwa mu Qt obusobola okwongerwa ku kiragiro ekitandika puloguramu okuva mu kiwandikiro.</translation>
+        <translation>Visar hjälp inklusive Qt-specifika alternativ.</translation>
     </message>
     <message>
         <source>Unknown option &apos;%1&apos;.</source>
-        <translation>Akawayiro &apos;%1&apos; tekategeerese.</translation>
+        <translation>Okänt alternativ &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Unknown options: %1.</source>
-        <translation>Obuwayiro &apos;%1&apos; tebutegeerese.</translation>
+        <translation>Okända alternativ: %1.</translation>
     </message>
     <message>
         <source>Missing value after &apos;%1&apos;.</source>
-        <translation>Akawayiro &apos;%1&apos; ketaagako agumenti ekagoberera.</translation>
+        <translation>Saknar värde efter &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Unexpected value after &apos;%1&apos;.</source>
-        <translation>Gyawo ekigoberera &apos;%1&apos;.</translation>
+        <translation>Oväntat värde efter &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>[options]</source>
-        <translation>[ebisoboka]</translation>
+        <translation>[alternativ]</translation>
     </message>
     <message>
         <source>Usage: %1</source>
-        <translation>Enkozesa eri: %1</translation>
+        <translation>Användning: %1</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>Ebisoboka:</translation>
+        <translation>Alternativ:</translation>
     </message>
     <message>
         <source>Arguments:</source>
-        <translation>Agumenti:</translation>
+        <translation>Argument:</translation>
     </message>
 </context>
 <context>
@@ -429,197 +429,197 @@ Nyiga ESC okusazamu</translation>
     <message>
         <source>%1: key is empty</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: obwawuliro tebutegekedwa</translation>
+        <translation>%1: nyckeln är tom</translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: nemedwa okutegeka obwawuliro</translation>
+        <translation>%1: kunde inte skapa nyckel</translation>
     </message>
     <message>
         <source>%1: ftok failed</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: ftok eremeredwa</translation>
+        <translation>%1: ftok misslyckades</translation>
     </message>
 </context>
 <context>
     <name>QCupsJobWidget</name>
     <message>
         <source>Job</source>
-        <translation>Omulimu</translation>
+        <translation>Jobb</translation>
     </message>
     <message>
         <source>Job Control</source>
-        <translation>Enteekateeka y&apos;omulimu</translation>
+        <translation>Jobbkontroll</translation>
     </message>
     <message>
         <source>Scheduled printing:</source>
-        <translation>Ddi omulimu lwe gutandika:</translation>
+        <translation>Schemalagd utskrift:</translation>
     </message>
     <message>
         <source>Billing information:</source>
-        <translation>Eby&apos;okubanjira omlimu:</translation>
+        <translation>Betalningsinformation:</translation>
     </message>
     <message>
         <source>Job priority:</source>
-        <translation>Ensoosawaza y&apos;omulimu:</translation>
+        <translation>Jobbprioritet:</translation>
     </message>
     <message>
         <source>Banner Pages</source>
-        <translation>Empapula eziramba omulimu</translation>
+        <translation>Försättssidor</translation>
     </message>
     <message>
         <source>End:</source>
         <comment>Banner page at end</comment>
-        <translation>Olufundikira:</translation>
+        <translation>Slut:</translation>
     </message>
     <message>
         <source>Start:</source>
         <comment>Banner page at start</comment>
-        <translation>Olugukulembera:</translation>
+        <translation>Början:</translation>
     </message>
     <message>
         <source>Print Immediately</source>
-        <translation>Kubisizawo</translation>
+        <translation>Skriv ut direkt</translation>
     </message>
     <message>
         <source>Hold Indefinitely</source>
-        <translation>Gukwate</translation>
+        <translation>Håll kvar tills vidare</translation>
     </message>
     <message>
         <source>Day (06:00 to 17:59)</source>
-        <translation>Misana (wakati wa 06:00 ne 17:59)</translation>
+        <translation>Dag (06:00 till 17:59)</translation>
     </message>
     <message>
         <source>Night (18:00 to 05:59)</source>
-        <translation>Kiro (wakati wa 18:00 ne 05:59)</translation>
+        <translation>Natt (18:00 till 05:59)</translation>
     </message>
     <message>
         <source>Second Shift (16:00 to 23:59)</source>
-        <translation>Ku luwalo olw&apos;okubiri (wakati wa 16:00 ne 23:59)</translation>
+        <translation>Andra skiftet (16:00 till 23:59)</translation>
     </message>
     <message>
         <source>Third Shift (00:00 to 07:59)</source>
-        <translation>Ku luwalo olw&apos;okusatu (wakati wa 00:00 ne 07:59)</translation>
+        <translation>Tredje skiftet (00:00 till 07:59)</translation>
     </message>
     <message>
         <source>Weekend (Saturday to Sunday)</source>
-        <translation>Ku wiikendi (Lwa mukaaga oba Sabbiiti)</translation>
+        <translation>Helg (Lördag till söndag)</translation>
     </message>
     <message>
         <source>Specific Time</source>
-        <translation>Ku saawa entegeke</translation>
+        <translation>Specifik tid</translation>
     </message>
     <message>
         <source>None</source>
         <comment>CUPS Banner page</comment>
-        <translation>Nedda</translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <source>Standard</source>
         <comment>CUPS Banner page</comment>
-        <translation>Olwa bulijjo</translation>
+        <translation>Standard</translation>
     </message>
     <message>
         <source>Unclassified</source>
         <comment>CUPS Banner page</comment>
-        <translation>Olulaga nti ssi bya kyama</translation>
+        <translation>Öppet</translation>
     </message>
     <message>
         <source>Confidential</source>
         <comment>CUPS Banner page</comment>
-        <translation>Olulaga nti bya mmizi</translation>
+        <translation>Konfidentiellt</translation>
     </message>
     <message>
         <source>Classified</source>
         <comment>CUPS Banner page</comment>
-        <translation>Olulaga nti bya balondemu</translation>
+        <translation>Begränsat hemligt</translation>
     </message>
     <message>
         <source>Secret</source>
         <comment>CUPS Banner page</comment>
-        <translation>Olulaga nti bya kyama</translation>
+        <translation>Hemligt</translation>
     </message>
     <message>
         <source>Top Secret</source>
         <comment>CUPS Banner page</comment>
-        <translation>Olulaga nti bya kyama ddala</translation>
+        <translation>Kvalificerat hemligt</translation>
     </message>
 </context>
 <context>
     <name>QCupsPrinterSupport</name>
     <message>
         <source>Authentication Needed</source>
-        <translation>Kyetaagisa kukakasa</translation>
+        <translation>Autentisering krävs</translation>
     </message>
     <message>
         <source>Authentication needed to use %1.</source>
-        <translation>Okukozesa %1 kyetaagisa okusooka okukakasa.</translation>
+        <translation>Autentisering krävs för att använda %1.</translation>
     </message>
     <message>
         <source>Authentication needed to use %1 on %2.</source>
-        <translation>Okukozesa %1 ku %2 kyetaagisa okusooka okukakasa.</translation>
+        <translation>Autentisering krävs för att använda %1 på %2.</translation>
     </message>
     <message>
         <source>Username:</source>
-        <translation>Linnya lya akawunti:</translation>
+        <translation>Användarnamn:</translation>
     </message>
     <message>
         <source>Password:</source>
-        <translation>Kyama:</translation>
+        <translation>Lösenord:</translation>
     </message>
 </context>
 <context>
     <name>QDB2Driver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>Okukwatagana kulemye</translation>
+        <translation>Kunde inte ansluta</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Kunde inte verkställa transaktion</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Tekisobose okujjulula ebikyusidwa</translation>
+        <translation>Kunde inte rulla tillbaka transaktion</translation>
     </message>
     <message>
         <source>Unable to set autocommit</source>
-        <translation>Tekisobose okutegeka autocommit</translation>
+        <translation>Kunde inte ställa in automatisk verkställning</translation>
     </message>
 </context>
 <context>
     <name>QDB2Result</name>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Tekisobose okukolera ku kiragiro kya SQL</translation>
+        <translation>Kunde inte köra villkor</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Tekisobose okutegeka kiragiro kya SQL kiddibwengamu mangu</translation>
+        <translation>Kunde inte förbereda frågesats</translation>
     </message>
     <message>
         <source>Unable to bind variable</source>
-        <translation>Tekisobose okuzza ekikongojje ekya ddala mu kifo ky&apos;ekikwatakifo</translation>
+        <translation>Kunde inte binda variabel</translation>
     </message>
     <message>
         <source>Unable to fetch record %1</source>
-        <translation>Tekisobose okunona ekiwandise %1</translation>
+        <translation>Kunde inte hämta posten %1</translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>Tekisobose okunona ekiddako</translation>
+        <translation>Kunde inte hämta nästa</translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>Tekisobose okunona ekisooka</translation>
+        <translation>Kunde inte hämta första</translation>
     </message>
 </context>
 <context>
     <name>QDBusTrayIcon</name>
     <message>
         <source>OK</source>
-        <translation>Kale</translation>
+        <translation>Ok</translation>
     </message>
 </context>
 <context>
@@ -645,145 +645,145 @@ Nyiga ESC okusazamu</translation>
     <name>QDialog</name>
     <message>
         <source>What&apos;s This?</source>
-        <translation>Kino Kiki?</translation>
+        <translation>Vad är det här?</translation>
     </message>
 </context>
 <context>
     <name>QDialogButtonBox</name>
     <message>
         <source>OK</source>
-        <translation>Kale</translation>
+        <translation>Ok</translation>
     </message>
 </context>
 <context>
     <name>QDirModel</name>
     <message>
         <source>Name</source>
-        <translation>Linnya</translation>
+        <translation>Namn</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Bunene</translation>
+        <translation>Storlek</translation>
     </message>
     <message>
         <source>Kind</source>
         <comment>Match OS X Finder</comment>
-        <translation>Ngeri</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Type</source>
         <comment>All other platforms</comment>
-        <translation>Kika</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Date Modified</source>
-        <translation>Makyusa</translation>
+        <translation>Datum ändrad</translation>
     </message>
 </context>
 <context>
     <name>QDnsLookup</name>
     <message>
         <source>Operation cancelled</source>
-        <translation>Omukolo gusazidwamu</translation>
+        <translation>Åtgärden avbröts</translation>
     </message>
 </context>
 <context>
     <name>QDnsLookupRunnable</name>
     <message>
         <source>IPv6 addresses for nameservers are currently not supported</source>
-        <translation>Sisitemu eno kakano tesobola kukwataganya ndagiriro eza bulijjo ne ez&apos;ennono ez&apos;ekika kya IPv6</translation>
+        <translation>IPv6-adresser för namnservrar stöds för närvarande inte</translation>
     </message>
     <message>
         <source>Invalid domain name</source>
-        <translation>Erinnya ery&apos;oku mutimbagano terikkirizidwa</translation>
+        <translation>Ogiltigt domännamn</translation>
     </message>
     <message>
         <source>Not yet supported on Android</source>
-        <translation>Omukolo tegunnasoboka ku Android</translation>
+        <translation>Stöds ännu inte på Android</translation>
     </message>
     <message>
         <source>Resolver functions not found</source>
-        <translation>Tewali puloguramu enona endagiriro ez&apos;ennono</translation>
+        <translation>Uppslagsfunktioner hittades inte</translation>
     </message>
     <message>
         <source>Resolver initialization failed</source>
-        <translation>Tekisobose okutandika puloguramu enona endagiriro ez&apos;ennono</translation>
+        <translation>Initiering av uppslag misslyckades</translation>
     </message>
     <message>
         <source>Server could not process query</source>
-        <translation>Puloguramu ekwataganya amannya n&apos;endagiriro tesobodde okunoonya</translation>
+        <translation>Servern kunde inte behandla frågesats</translation>
     </message>
     <message>
         <source>Server failure</source>
-        <translation>Puloguramu ekwataganya amannya n&apos;endagiriro efunye kiremya</translation>
+        <translation>Serverfel</translation>
     </message>
     <message>
         <source>Non existent domain</source>
-        <translation>Puloguramu ekwataganya amannya n&apos;endagiriro egezeza okukola ku domeyini etaliwo</translation>
+        <translation>Icke-existerande domän</translation>
     </message>
     <message>
         <source>Server refused to answer</source>
-        <translation>Puloguramu ekwataganya amannya n&apos;endagiriro egaanye okuddamu</translation>
+        <translation>Servern vägrade svara</translation>
     </message>
     <message>
         <source>Invalid reply received</source>
-        <translation>Kompyuta etereka enkwatagana y&apos;amannya n&apos;endagiriro ez&apos;ennono etuddiziza ebitakozeseka</translation>
+        <translation>Ogiltigt svar togs emot</translation>
     </message>
     <message>
         <source>Could not expand domain name</source>
-        <translation>Tekisobose okuzingulula erinnya lya domeyini effunze</translation>
+        <translation>Kunde inte expandera domännamn</translation>
     </message>
     <message>
         <source>Invalid IPv4 address record</source>
-        <translation>Endagiriro ey&apos;ennono ey&apos;ekika kya IPv4 efunidwa tekozeseka</translation>
+        <translation>Ogiltig IPv4-adresspost</translation>
     </message>
     <message>
         <source>Invalid IPv6 address record</source>
-        <translation>Endagiriro ey&apos;ennono ey&apos;ekika kya IPv6 efunidwa tekozeseka</translation>
+        <translation>Ogiltig IPv6-adresspost</translation>
     </message>
     <message>
         <source>Invalid canonical name record</source>
-        <translation>Ekiwandise ekifunidwa ekikwataganya erinnya eribbule n&apos;ery&apos;enno tekikozeseka</translation>
+        <translation>Ogiltig kanonisk namnpost</translation>
     </message>
     <message>
         <source>Invalid name server record</source>
-        <translation>Ekiwandise ekifunidwa okuva ku kompyuta etereka nkalala ezikwataganya amannya n&apos;endagiriro tekikozeseka</translation>
+        <translation>Ogiltig namnserverpost</translation>
     </message>
     <message>
         <source>Invalid pointer record</source>
-        <translation>Ebifunidwa birimu akakimakigendawo akatakozeseka</translation>
+        <translation>Ogiltig pekarpost</translation>
     </message>
     <message>
         <source>Invalid mail exchange record</source>
-        <translation>Ekiwandise ekitegeka obusangiro bwa puloguramu ewereza eya yimeero tekikozeseka</translation>
+        <translation>Ogiltig e-postserverpost</translation>
     </message>
     <message>
         <source>Invalid service record</source>
-        <translation>Ekiwandise ekitegeka pooti puloguramu empeereze kw&apos;esangibwa tekikozeseka</translation>
+        <translation>Ogiltig tjänstepost</translation>
     </message>
     <message>
         <source>Invalid text record</source>
-        <translation>Ekiwandise ekikwataganya ebiwandiko n&apos;erinnya ly&apos;ekisangibwa ku mutimbagano tekikozeseka</translation>
+        <translation>Ogiltig textpost</translation>
     </message>
     <message>
         <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
-        <translation>Tekisobose okutandika puloguramu enona endagiriro ez&apos;ennono: Sisitemu eno teriko puloguramu ezisobozesa eyo okutuukiriza mulimu gwa yo</translation>
+        <translation>Uppslagsbibliotek kan inte läsas in: Inget inläsningsstöd för körtidsbibliotek</translation>
     </message>
     <message>
         <source>No hostname given</source>
-        <translation>Ku bulako erinnya lya kompyuta eneekeberwa</translation>
+        <translation>Inget värdnamn angavs</translation>
     </message>
     <message>
         <source>Invalid hostname</source>
-        <translation>Ekiweeredwa ng&apos;erinnya lya kompyuta enyunge tekikozeseka</translation>
+        <translation>Ogiltigt värdnamn</translation>
     </message>
     <message>
         <source>Host %1 could not be found.</source>
-        <translation>Kompyuta %1 ebuze.</translation>
+        <translation>Värden %1 kunde inte hittas.</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Wazzewo kiremya atategeereka</translation>
+        <translation>Okänt fel</translation>
     </message>
 </context>
 <context>
@@ -791,584 +791,584 @@ Nyiga ESC okusazamu</translation>
     <message>
         <source>Float</source>
         <extracomment>Accessible name for button undocking a dock widget (floating state)</extracomment>
-        <translation>Bungeeta</translation>
+        <translation>Flytande</translation>
     </message>
     <message>
         <source>Undocks and re-attaches the dock widget</source>
-        <translation>Kino paaka ya puloguramu kigikyusa wakati wa kunywerera mu kifo kimu n&apos;okubungeta</translation>
+        <translation>Avdockar och återkopplar dockwidgeten</translation>
     </message>
     <message>
         <source>Close</source>
         <extracomment>Accessible name for button closing a dock widget</extracomment>
-        <translation>Gyawo katundu</translation>
+        <translation>Stäng</translation>
     </message>
     <message>
         <source>Closes the dock widget</source>
-        <translation>Kino kigyawo paaka ya puloguramu</translation>
+        <translation>Stänger dockwidgeten</translation>
     </message>
 </context>
 <context>
     <name>QDomParser</name>
     <message>
         <source>Error occurred while processing XML declaration</source>
-        <translation>Wazzewo kiremya mu kukola ku kitundu ekiteekateeka enkozesa ya XML</translation>
+        <translation>Fel inträffade under behandling av XML-deklaration</translation>
     </message>
     <message>
         <source>Multiple DTD sections are not allowed</source>
-        <translation>Tekikkirizibwa okubeera n&apos;awategeka ebika by&apos;ebitundu ebikozesebwa mu kiwandiko wa mirundi egisukka mu gumu</translation>
+        <translation>Flera DTD-sektioner tillåts inte</translation>
     </message>
     <message>
         <source>Error occurred while processing document type declaration</source>
-        <translation>Wazzewo kiremya mu kukola ku awategeka ebika by&apos;ebitundu ebikozesebwa mu kiwandiko</translation>
+        <translation>Fel inträffade vid behandling av dokumenttypens deklaration</translation>
     </message>
     <message>
         <source>Error occurred while processing comment</source>
-        <translation>Wazzewo kiremya mu kukola ku bigambo ebinnonyola</translation>
+        <translation>Fel inträffade vid behandling av kommentar</translation>
     </message>
     <message>
         <source>Error occurred while processing a processing instruction</source>
-        <translation>Wazzewo kiremya mu kukola ku kiragiro ekya mu XML eky&apos;enjawulo</translation>
+        <translation>Fel inträffade vid behandling av en behandlande instruktion</translation>
     </message>
     <message>
         <source>Error occurred while processing a start element</source>
-        <translation>Wazzewo kiremya mu kukola ku tokeni etandika ekitundu ky&apos;ekiwandiko</translation>
+        <translation>Fel inträffade vid behandling av ett startelement</translation>
     </message>
     <message>
         <source>Unexpected end element &apos;%1&apos;</source>
-        <translation>Tokeni &apos;%1&apos; efundikira ekitundu ky&apos;ekiwandiko esangidwa w&apos;etasuubirwa</translation>
+        <translation>Oväntat slutelement &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Error occurred while processing an end element</source>
-        <translation>Wazzewo kiremya mu kukola ku tokeni efundikira ekitundu ky&apos;ekiwandiko</translation>
+        <translation>Fel inträffade vid behandling av ett slutelement</translation>
     </message>
     <message>
         <source>Error occurred while processing the element content</source>
-        <translation>Wazzewo kiremya mu kukola ku bikongojjedwa mu kitundu ky&apos;ekiwandiko</translation>
+        <translation>Fel inträffade vid behandling av elementinnehållet</translation>
     </message>
     <message>
         <source>Error occurred while processing comments</source>
-        <translation>Wazzewo kiremya mu kukola ku bigambo ebinnonyola ebya mu kifo ekisukka mu kimu</translation>
+        <translation>Fel inträffade vid behandling av kommentarer</translation>
     </message>
     <message>
         <source>Error occurred while processing an entity reference</source>
-        <translation>Wazzewo kiremya mu kukola ku kigambo ekiwandisi</translation>
+        <translation>Fel inträffade vid behandling av en entitetsreferens</translation>
     </message>
     <message>
         <source>Unexpected token</source>
-        <translation>Tokeni esangidwa w&apos;ebadde tesuubidwa</translation>
+        <translation>Oväntad token</translation>
     </message>
     <message>
         <source>Tag mismatch</source>
-        <translation>Ekigambo ekiramba entandikwa y&apos;ekitundu eky&apos;ekiwandiko tekigendera ku kiramba gye kikoma</translation>
+        <translation>Tagg stämmer inte överens</translation>
     </message>
     <message>
         <source>Error occurred while processing entity declaration</source>
-        <translation>Wazzewo kiremya mu kukola ku kiteekateekakikongozzi</translation>
+        <translation>Fel inträffade vid behandling av entitetsdeklaration</translation>
     </message>
     <message>
         <source>Error occurred while processing notation declaration</source>
-        <translation>Wazzewo kiremya mu kukola ku kiteekateeka notasiyo</translation>
+        <translation>Fel inträffade vid behandling av notationsdeklaration</translation>
     </message>
 </context>
 <context>
     <name>QDtls</name>
     <message>
-        <source>Invalid (empty) secret</source>
-        <translation>Ekyama tekikozeseka (tekiriwo)</translation>
-    </message>
-    <message>
         <source>Multicast and broadcast addresses are not supported</source>
-        <translation>Sisitemu eno tesobola nkola za sindikira-bangi ne sindikira-bonna</translation>
+        <translation>Multicast och broadcast-adresser stöds inte</translation>
     </message>
     <message>
         <source>Cannot set peer after handshake started</source>
-        <translation>Tekisoboka okutegekawo kompyuta ewulizagana nga okutegeeragana kutandise</translation>
+        <translation>Kan inte ställa in motpart efter handskakning startats</translation>
     </message>
     <message>
         <source>Invalid address</source>
-        <translation>Endagiriro tekozeseka</translation>
+        <translation>Ogiltig adress</translation>
     </message>
     <message>
         <source>Cannot set verification name after handshake started</source>
-        <translation>Tekisoboka kutegeka linnya lya kompyuta erinaakakasibwa nga okutegeeragana kutandise</translation>
+        <translation>Kan inte ställa in verifieringsnamn efter att handskakning startats</translation>
     </message>
     <message>
         <source>Cannot set configuration after handshake started</source>
-        <translation>Tekisoboka kutegeka eby&apos;okwerinda nga okutegeeragana kutandise</translation>
+        <translation>Kan inte ställa in konfiguration efter att handskakning startats</translation>
     </message>
     <message>
         <source>Cannot start/continue handshake, invalid handshake state</source>
-        <translation>Tekisobose okutandika/kweyongera okutegeeragana, embeera gye kulimu tetegeereka</translation>
+        <translation>Kan inte starta/fortsätta handskakning, ogiltigt handshake-tillstånd</translation>
     </message>
     <message>
         <source>Invalid (nullptr) socket</source>
-        <translation>Soketi tekozeseka (ekongojja nullptr)</translation>
+        <translation>Ogiltigt uttag (nullptr)</translation>
     </message>
     <message>
         <source>To start a handshake you must set peer&apos;s address and port first</source>
-        <translation>Okutandika okutegeeragana oteekwa kusooka okutegeka endagiriro za kompyuta eziwulizagana ne pooti mwe kunaayisibwa</translation>
+        <translation>Du måste ange motpartens adress och port först för att starta en handskakning</translation>
     </message>
     <message>
         <source>To start a handshake, DTLS server requires non-empty datagram (client hello)</source>
-        <translation>Okutandika okutegeeragana, puloguramu eya DTLS yetaaga okufuna dataguramu ey&apos;okweyanjula (ClientHello) etali njereere</translation>
+        <translation>DTLS-servern kräver icke-tomt datagram (client hello) för att starta en handskakning</translation>
     </message>
     <message>
         <source>Cannot start handshake, already done/in progress</source>
-        <translation>Tekisobose okutandika okutegeeragana, kwawedde oba kubumbujja kakano</translation>
+        <translation>Kan inte starta handskakning, redan gjort/pågår</translation>
     </message>
     <message>
         <source>A valid QUdpSocket and non-empty datagram are needed to continue the handshake</source>
-        <translation>Okutegeeragana kuno okweyongerayo kyetaagisa okufuna QUdpSocket ne dataguramu etali njereere ebikozeseka</translation>
+        <translation>En giltig QUdpSocket och icke-tomt datagram krävs för att fortsätta handskakningen</translation>
     </message>
     <message>
         <source>Cannot continue handshake, not in InProgress state</source>
-        <translation>Okutegeeragana tekusobodde okweyongera mu maaso kubanga embeera ya kwo ssi InProgress</translation>
+        <translation>Kan inte fortsätta handskakning, inte i InProgress-tillstånd</translation>
     </message>
     <message>
         <source>Cannot resume, not in VerificationError state</source>
-        <translation>Tekisobose okuzuukusa ogw&apos;okutegeeragana kubanga embeera ya gwo ssi VerificationError</translation>
+        <translation>Kan inte återuppta, inte i VerificationError-tillstånd</translation>
     </message>
     <message>
         <source>No handshake in progress, nothing to abort</source>
-        <translation>Tewali kutegeeragana kubumbujja, tewali bya kuvaako</translation>
+        <translation>Ingen handskakning pågår, ingenting att avbryta</translation>
     </message>
     <message>
         <source>Cannot send shutdown alert, not encrypted</source>
-        <translation>Tekisobose kusindika bubaka bulabula nti empulizagana eggalibwawo kubanga ebisindikibwa tebikisibwa</translation>
+        <translation>Kan inte skicka nerstängningsvarning, inte krypterad</translation>
     </message>
     <message>
         <source>Cannot write a datagram, not in encrypted state</source>
-        <translation>Tekisobose kuwandika dataguramu kubanga ebisindikibwa tebikisibwa</translation>
+        <translation>Kan inte skriva ett datagram, inte i encrypted-tillstånd</translation>
     </message>
     <message>
         <source>Cannot read a datagram, not in encrypted state</source>
-        <translation>Tekisobose kusoma dataguramu kubanga ebisindikibwa tebikisibwa</translation>
+        <translation>Kan inte läsa ett datagram, inte i encrypted-tillstånd</translation>
     </message>
     <message>
         <source>%1 failed</source>
         <extracomment>%1: Some function</extracomment>
-        <translation>%1 egaanye</translation>
+        <translation>%1 misslyckades</translation>
     </message>
     <message>
         <source>Invalid SslMode, SslServerMode or SslClientMode expected</source>
-        <translation>Ekikongojjedwa SslMode tekikozeseka, SslServerMode oba SslClientMode bye bibadde bisuubirwa</translation>
+        <translation>Ogiltigt SslMode, SslServerMode eller SslClientMode förväntades</translation>
     </message>
     <message>
         <source>Invalid protocol version, DTLS protocol expected</source>
-        <translation>Ekika ky&apos;empulizagana ekitegekedwa tekikozeseka, eya DTLS y&apos;ebadde esuubirwa</translation>
+        <translation>Ogiltig protokollversion, DTLS-protokollet förväntades</translation>
     </message>
     <message>
         <source>BIO_ADD_new failed, cannot start handshake</source>
-        <translation>Tekisobose okutandika okutegeeragana kubanga omulimu gwa BIO_ADD_new gugaanye</translation>
+        <translation>BIO_ADD_new misslyckades, kan inte starta handskakning</translation>
     </message>
     <message>
         <source>Cannot start the handshake, verified client hello expected</source>
-        <translation>Tewali dataguramu ey&apos;okweyanjula eva ku kompyuta ewerezebwa eyaakakasidwa, n&apos;olwekyo tekisobose okutandika okutegeeragana</translation>
+        <translation>Kan inte starta handskakningen, verifierad client hello förväntades</translation>
     </message>
     <message>
         <source>Peer verification failed</source>
-        <translation>Ogw&apos;okukakasa kompyuta ewulizagana gugaanye</translation>
+        <translation>Verifiering av motpart misslyckades</translation>
     </message>
     <message>
         <source>The DTLS connection has been closed</source>
-        <translation>Empulizagana eya DTLS eggadwawo</translation>
+        <translation>DTLS-anslutningen har stängts</translation>
     </message>
     <message>
         <source>Error while writing: %1</source>
-        <translation>Wazzewo kiremya mu kuwandika: %1</translation>
+        <translation>Fel vid skrivning: %1</translation>
     </message>
     <message>
         <source>The DTLS connection has been shutdown</source>
-        <translation>Omulimu ogw&apos;empulizagana eya DTLS gukomezedwa</translation>
+        <translation>DTLS-anslutningen har stängts ner</translation>
     </message>
     <message>
         <source>Error while reading: %1</source>
-        <translation>Wazzewo kiremya mu kusoma: %1</translation>
+        <translation>Fel vid läsning: %1</translation>
+    </message>
+    <message>
+        <source>Invalid (empty) secret</source>
+        <translation>Ogiltig hemlighet (empty)</translation>
     </message>
 </context>
 <context>
     <name>QDtlsClientVerifier</name>
     <message>
-        <source>A valid UDP socket, non-empty datagram, valid address/port were expected</source>
-        <translation>Wabadde wasuubirwawo soketi eya UDP, dataguramu etali njereere n&apos;endagiriro/pooti ebikozeseka</translation>
+        <source>BIO_ADDR_new failed, ignoring client hello</source>
+        <translation>BIO_ADDR_new misslyckades, ignorerar client hello</translation>
     </message>
     <message>
-        <source>BIO_ADDR_new failed, ignoring client hello</source>
-        <translation>Dataguramu ey&apos;okweyanjula (ClientHello) ebooledwa kubanga omulimu gwa BIO_ADD_new gugaanye</translation>
+        <source>A valid UDP socket, non-empty datagram, valid address/port were expected</source>
+        <translation>Ett giltigt UDP-uttag, icke-tomt datagram, giltig adress/port förväntades</translation>
     </message>
 </context>
 <context>
     <name>QErrorMessage</name>
     <message>
         <source>Debug Message:</source>
-        <translation>Bubaka Obuyamba Kuzuula Nsibuko ya Kiremya:</translation>
+        <translation>Felsökningsmeddelande:</translation>
     </message>
     <message>
         <source>Warning:</source>
-        <translation>Kulabula:</translation>
+        <translation>Varning:</translation>
     </message>
     <message>
         <source>Critical Error:</source>
-        <translation>Kiremya atabuusibwa maaso:</translation>
+        <translation>Kritiskt fel:</translation>
     </message>
     <message>
         <source>Fatal Error:</source>
-        <translation>Kiremya Akomya Mulimu:</translation>
+        <translation>Ödesdigert fel:</translation>
     </message>
     <message>
         <source>Information:</source>
-        <translation>Kutangaaza:</translation>
+        <translation>Information:</translation>
     </message>
     <message>
         <source>&amp;Show this message again</source>
-        <translation>&amp;N&apos;olulala Obubaka Buno Buboneke</translation>
+        <translation>&amp;Visa detta meddelande igen</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;Kale</translation>
+        <translation>&amp;Ok</translation>
     </message>
 </context>
 <context>
     <name>QFile</name>
     <message>
         <source>Destination file is the same file.</source>
-        <translation>Fayiro egenderwa era y&apos;eno.</translation>
+        <translation>Målfilen är samma fil.</translation>
     </message>
     <message>
         <source>Source file does not exist.</source>
-        <translation>Fayiro ey&apos;ennono teriwo.</translation>
+        <translation>Källfilen finns inte.</translation>
     </message>
     <message>
         <source>Destination file exists</source>
-        <translation>Fayiro egenderwa esangidwa gyeri</translation>
+        <translation>Målfilen finns redan</translation>
     </message>
     <message>
         <source>Error while renaming: %1</source>
-        <translation>Okukyusa erinnya kuzzemu kiremya: %1</translation>
+        <translation>Fel vid namnbyte: %1</translation>
     </message>
     <message>
         <source>Unable to restore from %1: %2</source>
-        <translation>Tekisobose okukozesa %1 okuzzawo: %2</translation>
+        <translation>Kunde inte återskapa från %1: %2</translation>
     </message>
     <message>
         <source>Will not rename sequential file using block copy</source>
-        <translation>Fayiro ya mugobereragano. Okukoppera mu buloka tekujja okweyambisibwa okugikyusa linnya</translation>
+        <translation>Kommer inte byta namn på sekvensfil med blockkopiering</translation>
     </message>
     <message>
         <source>Cannot remove source file</source>
-        <translation>Tekisobose okugyawo fayiro ey&apos;ennono</translation>
+        <translation>Kan inte ta bort källfil</translation>
     </message>
     <message>
         <source>Cannot open destination file: %1</source>
-        <translation>Tekisobose okubikkula fayiro egenderwa: %1</translation>
+        <translation>Kan inte öppna målfilen: %1</translation>
     </message>
     <message>
         <source>Cannot open %1 for input</source>
-        <translation>Tekisobose okubikkula %1 okuginonamu ebikolebwako</translation>
+        <translation>Kan inte öppna %1 för inmatning</translation>
     </message>
     <message>
         <source>Cannot open for output: %1</source>
-        <translation>Tekisobose okubikkula awanaagenda ebivaamu: %1</translation>
+        <translation>Kan inte öppna för utmatning: %1</translation>
     </message>
     <message>
         <source>Failure to write block</source>
-        <translation>Okuwandika buloka kugaanye</translation>
+        <translation>Misslyckades med att skriva block</translation>
     </message>
     <message>
         <source>Cannot create %1 for output</source>
-        <translation>Tekisobose okukolawo %1 awanaagenda ebivaamu</translation>
+        <translation>Kan inte skapa %1 för utdata</translation>
     </message>
 </context>
 <context>
     <name>QFileDevice</name>
     <message>
         <source>No file engine available or engine does not support UnMapExtension</source>
-        <translation>Tewali yingini ekola ku fayiro oba eriwo tekolagana ne UnMapExtension</translation>
+        <translation>Ingen filmotor tillgänglig eller motorn saknar stöd för UnMapExtension</translation>
     </message>
     <message>
         <source>No file engine available</source>
-        <translation>Tewali yingini ekola ku fayiro</translation>
+        <translation>Ingen filmotor tillgänglig</translation>
     </message>
 </context>
 <context>
     <name>QFileDialog</name>
     <message>
-        <source>All Files (*)</source>
-        <translation>Bika bya Fayiro Byonna (*)</translation>
-    </message>
-    <message>
         <source>Look in:</source>
-        <translation>Kebera mu:</translation>
+        <translation>Leta i:</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Ddayo</translation>
+        <translation>Bakåt</translation>
     </message>
     <message>
         <source>Go back</source>
-        <translation>Ddayo</translation>
+        <translation>Gå bakåt</translation>
     </message>
     <message>
         <source>Alt+Left</source>
-        <translation>Alt+Kasaale ka kkono</translation>
+        <translation>Alt+vänster</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>Weyongereyo</translation>
+        <translation>Framåt</translation>
     </message>
     <message>
         <source>Go forward</source>
-        <translation>Weyongereyo</translation>
+        <translation>Gå framåt</translation>
     </message>
     <message>
         <source>Alt+Right</source>
-        <translation>Alt+Kasaale ka ddyo</translation>
+        <translation>Alt+höger</translation>
     </message>
     <message>
         <source>Parent Directory</source>
-        <translation>Tterekero Lino Mwe Liri</translation>
+        <translation>Föräldrakatalog</translation>
     </message>
     <message>
         <source>Go to the parent directory</source>
-        <translation>Genda mu tterekero lino mwe liri</translation>
+        <translation>Gå till överliggande katalog</translation>
     </message>
     <message>
         <source>Alt+Up</source>
-        <translation>Alt+Kasaale akadda waggulu</translation>
+        <translation>Alt+upp</translation>
     </message>
     <message>
         <source>Create New Folder</source>
-        <translation>Kolawo Tterekero Ppya</translation>
+        <translation>Skapa ny mapp</translation>
     </message>
     <message>
         <source>Create a New Folder</source>
-        <translation>Kolawo Tterekero Ppya</translation>
+        <translation>Skapa en ny mapp</translation>
     </message>
     <message>
         <source>List View</source>
-        <translation>Fayiro Ziragire mu Lukalala</translation>
+        <translation>Listvy</translation>
     </message>
     <message>
         <source>Change to list view mode</source>
-        <translation>Fayiro ziragire mu lukalala</translation>
+        <translation>Byt till listvyläget</translation>
     </message>
     <message>
         <source>Detail View</source>
-        <translation>Laga Ebifa ku Fayiro mu Bujjuvu</translation>
+        <translation>Detaljerad vy</translation>
     </message>
     <message>
         <source>Change to detail view mode</source>
-        <translation>Laga ebifa ku fayiro mu bujjuvu</translation>
+        <translation>Byt till detaljerat vyläge</translation>
     </message>
     <message>
         <source>Sidebar</source>
-        <translation>Kadirisa ak&apos;oku mabbali</translation>
+        <translation>Sidorad</translation>
     </message>
     <message>
         <source>List of places and bookmarks</source>
-        <translation>Lukalala lw&apos;ebituukikako n&apos;obukwatakifo</translation>
+        <translation>Lista över platser och bokmärken</translation>
     </message>
     <message>
         <source>Files</source>
-        <translation>Fayiro</translation>
+        <translation>Filer</translation>
     </message>
     <message>
         <source>Files of type:</source>
-        <translation>Fayiro ez&apos;ekika kya:</translation>
+        <translation>Filer av typen:</translation>
+    </message>
+    <message>
+        <source>All Files (*)</source>
+        <translation>Alla filer (*)</translation>
     </message>
     <message>
         <source>Find Directory</source>
-        <translation>Noonya Tterekero</translation>
+        <translation>Hitta katalog</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Bikkula</translation>
+        <translation>Öppna</translation>
     </message>
     <message>
         <source>Save As</source>
-        <translation>Kolamu Koppi</translation>
+        <translation>Spara som</translation>
     </message>
     <message>
         <source>Directory:</source>
-        <translation>Tterekero:</translation>
+        <translation>Katalog:</translation>
     </message>
     <message>
         <source>File &amp;name:</source>
-        <translation>&amp;Linnya lya Fayiro:</translation>
+        <translation>Fil&amp;namn:</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Bikkula</translation>
+        <translation>&amp;Öppna</translation>
     </message>
     <message>
         <source>&amp;Choose</source>
-        <translation>&amp;Londa</translation>
+        <translation>&amp;Välj</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;Kazza</translation>
+        <translation>&amp;Spara</translation>
     </message>
     <message>
         <source>Show </source>
-        <translation>Laga </translation>
+        <translation>Visa </translation>
     </message>
     <message>
         <source>&amp;Rename</source>
-        <translation>&amp;Kyusa Linnya</translation>
+        <translation>&amp;Byt namn</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Gyawo</translation>
+        <translation>&amp;Ta bort</translation>
     </message>
     <message>
         <source>Show &amp;hidden files</source>
-        <translation>Laga fayiro &amp;nkise</translation>
+        <translation>Visa &amp;dolda filer</translation>
     </message>
     <message>
         <source>&amp;New Folder</source>
-        <translation>&amp;Tterekero Ppya</translation>
+        <translation>&amp;Ny mapp</translation>
     </message>
     <message>
         <source>All files (*)</source>
-        <translation>Bika bya Fayiro Byonna (*)</translation>
+        <translation>Alla filer (*)</translation>
     </message>
     <message>
         <source>Directories</source>
-        <translation>Materekero</translation>
+        <translation>Kataloger</translation>
+    </message>
+    <message>
+        <source>%1 already exists.
+Do you want to replace it?</source>
+        <translation>%1 finns redan.
+Vill du ersätta den?</translation>
     </message>
     <message>
         <source>%1
 Directory not found.
 Please verify the correct directory name was given.</source>
         <translation>%1
-Tterekero libuze.
-Wekkaanye erinnya ly&apos;okozesezza.</translation>
-    </message>
-    <message>
-        <source>%1 already exists.
-Do you want to replace it?</source>
-        <translation>%1 gyeri.
-Okakasa oyagala okugigyawo waddewo kirala?</translation>
+Katalogen hittades inte.
+Kontrollera att det korrekta katalognamnet angavs.</translation>
     </message>
     <message>
         <source>%1
 File not found.
 Please verify the correct file name was given.</source>
         <translation>%1
-Fayiro ebuze.
-Wekkaanye erinnya ly&apos;okozesezza.</translation>
+Filen hittades inte.
+Kontrollera att det korrekta filnamnet angavs.</translation>
     </message>
     <message>
         <source>New Folder</source>
-        <translation>Tterekero Ppya</translation>
+        <translation>Ny mapp</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Gyawo</translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is write protected.
 Do you want to delete it anyway?</source>
-        <translation>&apos;%1&apos; okugiwandikamu kukugidwa.
-Era oyagala egyibwewo?</translation>
+        <translation>\&quot;%1\&quot; är skrivskyddad.
+Vill du ta bort den ändå?</translation>
     </message>
     <message>
         <source>Are you sure you want to delete &apos;%1&apos;?</source>
-        <translation>&apos;%1&apos; okukakasa oyagala okugigyawo?</translation>
+        <translation>Är du säker på att du vill ta bort \&quot;%1\&quot;?</translation>
     </message>
     <message>
         <source>Could not delete directory.</source>
-        <translation>Tterekero nnemedwa kuligyawo.</translation>
+        <translation>Kunde inte ta bort katalogen.</translation>
     </message>
     <message>
         <source>Recent Places</source>
-        <translation>Awakabikkulwa</translation>
+        <translation>Tidigare platser</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Gyawo</translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <source>My Computer</source>
-        <translation>Kompyuta Yange</translation>
+        <translation>Min dator</translation>
     </message>
     <message>
         <source>Drive</source>
-        <translation>Kibondo</translation>
+        <translation>Enhet</translation>
     </message>
     <message>
         <source>%1 File</source>
         <extracomment>%1 is a file name suffix, for example txt</extracomment>
-        <translation>Fayiro ey&apos;ekika kya %1</translation>
+        <translation>%1-fil</translation>
     </message>
     <message>
         <source>File</source>
-        <translation>Fayiro</translation>
+        <translation>Fil</translation>
     </message>
     <message>
         <source>File Folder</source>
         <comment>Match Windows Explorer</comment>
-        <translation>Tterekero lya Fayiro</translation>
+        <translation>Filmapp</translation>
     </message>
     <message>
         <source>Folder</source>
         <comment>All other platforms</comment>
-        <translation>Tterekero</translation>
+        <translation>Mapp</translation>
     </message>
     <message>
         <source>Alias</source>
         <comment>OS X Finder</comment>
-        <translation>Nyunzi</translation>
+        <translation>Alias</translation>
     </message>
     <message>
         <source>Shortcut</source>
         <comment>All other platforms</comment>
-        <translation>Nyunzi</translation>
+        <translation>Genväg</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Kitategeerese</translation>
+        <translation>Okänt</translation>
     </message>
 </context>
 <context>
     <name>QFileSystemModel</name>
     <message>
         <source>&lt;b&gt;The name &quot;%1&quot; cannot be used.&lt;/b&gt;&lt;p&gt;Try using another name, with fewer characters or no punctuation marks.</source>
-        <translation>&lt;b&gt;Tekisobose kukozesa linnya &quot;%1&quot;.&lt;/b&gt; Ennukuta ziyitiridde obungi oba lirimu obubonero obwawula mboozi.</translation>
+        <translation>&lt;b&gt;Namnet &quot;%1&quot; kan inte användas.&lt;/b&gt;&lt;p&gt;Försök använda ett annat namn med mindre antal tecken eller inga skiljetecken.</translation>
     </message>
     <message>
         <source>Invalid filename</source>
-        <translation>Erinnya lya fayiro teritegeeredwa</translation>
+        <translation>Ogiltigt filnamn</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Linnya</translation>
+        <translation>Namn</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Bunene</translation>
+        <translation>Storlek</translation>
     </message>
     <message>
         <source>Kind</source>
         <comment>Match OS X Finder</comment>
-        <translation>Ngeri</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Type</source>
         <comment>All other platforms</comment>
-        <translation>Kika</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Date Modified</source>
-        <translation>Makyusa</translation>
+        <translation>Datum ändrad</translation>
     </message>
     <message>
         <source>My Computer</source>
-        <translation>Kompyuta Yange</translation>
+        <translation>Min dator</translation>
     </message>
     <message>
         <source>Computer</source>
-        <translation>Kompyuta</translation>
+        <translation>Dator</translation>
     </message>
 </context>
 <context>
@@ -1376,106 +1376,106 @@ Era oyagala egyibwewo?</translation>
     <message>
         <source>Normal</source>
         <comment>The Normal or Regular font weight</comment>
-        <translation>Za bulijjo</translation>
+        <translation>Normal</translation>
     </message>
     <message>
         <source>Bold</source>
-        <translation>Nziggumivu</translation>
+        <translation>Fet stil</translation>
     </message>
     <message>
         <source>Demi Bold</source>
-        <translation>Za katakke</translation>
+        <translation>Demi-fet</translation>
     </message>
     <message>
         <source>Medium</source>
         <comment>The Medium font weight</comment>
-        <translation>Za kibogwe</translation>
+        <translation>Medium</translation>
     </message>
     <message>
         <source>Black</source>
-        <translation>Nzirugavu</translation>
+        <translation>Svart</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>Ntangaalirivu</translation>
+        <translation>Ljus</translation>
     </message>
     <message>
         <source>Thin</source>
-        <translation>Nneemiimivu</translation>
+        <translation>Tunn</translation>
     </message>
     <message>
         <source>Extra Light</source>
-        <translation>Ntangaalirivu nyo</translation>
+        <translation>Extraljus</translation>
     </message>
     <message>
         <source>Extra Bold</source>
-        <translation>Nziggumivu nyo</translation>
+        <translation>Extrafet stil</translation>
     </message>
     <message>
         <source>Extra</source>
         <extracomment>The word for &quot;Extra&quot; as in &quot;Extra Bold, Extra Thin&quot; used as a pattern for string searches</extracomment>
-        <translation>Nyo</translation>
+        <translation>Extra</translation>
     </message>
     <message>
         <source>Demi</source>
         <extracomment>The word for &quot;Demi&quot; as in &quot;Demi Bold&quot; used as a pattern for string searches</extracomment>
-        <translation>Katakke</translation>
+        <translation>Demi</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation>Italiki</translation>
+        <translation>Kursiv</translation>
     </message>
     <message>
         <source>Oblique</source>
-        <translation>Nsurifu</translation>
+        <translation>Sned</translation>
     </message>
     <message>
         <source>Any</source>
-        <translation>Yonna</translation>
+        <translation>Valfri</translation>
     </message>
     <message>
         <source>Latin</source>
-        <translation>Kilattini</translation>
+        <translation>Latin</translation>
     </message>
     <message>
         <source>Greek</source>
-        <translation>Kigereeki</translation>
+        <translation>Grekiska</translation>
     </message>
     <message>
         <source>Cyrillic</source>
-        <translation>Kisiriiri</translation>
+        <translation>Kyrilliska</translation>
     </message>
     <message>
         <source>Armenian</source>
-        <translation>Kiwarumeniya</translation>
+        <translation>Armeniska</translation>
     </message>
     <message>
         <source>Hebrew</source>
-        <translation>Hiburu</translation>
+        <translation>Hebreiska</translation>
     </message>
     <message>
         <source>Arabic</source>
-        <translation>Kiwarabu</translation>
+        <translation>Arabiska</translation>
     </message>
     <message>
         <source>Syriac</source>
-        <translation>Kisiriya</translation>
+        <translation>Syriska</translation>
     </message>
     <message>
         <source>Thaana</source>
-        <translation>Taana</translation>
+        <translation>Tāna</translation>
     </message>
     <message>
         <source>Devanagari</source>
-        <translation>Devanagari</translation>
+        <translation>Devanāgarī</translation>
     </message>
     <message>
         <source>Bengali</source>
-        <translation>Bengali</translation>
+        <translation>Bengaliska</translation>
     </message>
     <message>
         <source>Gurmukhi</source>
-        <translation>Gurumukki</translation>
+        <translation>Gurmukhi</translation>
     </message>
     <message>
         <source>Gujarati</source>
@@ -1487,7 +1487,7 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Tamil</source>
-        <translation>Tamiiru</translation>
+        <translation>Tamil</translation>
     </message>
     <message>
         <source>Telugu</source>
@@ -1499,222 +1499,222 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Malayalam</source>
-        <translation>Mayalamu</translation>
+        <translation>Malayalam</translation>
     </message>
     <message>
         <source>Sinhala</source>
-        <translation>Sinnala</translation>
+        <translation>Sinhala</translation>
     </message>
     <message>
         <source>Thai</source>
-        <translation>Kittaayi</translation>
+        <translation>Thai</translation>
     </message>
     <message>
         <source>Lao</source>
-        <translation>Kiraawo</translation>
+        <translation>Laotiska</translation>
     </message>
     <message>
         <source>Tibetan</source>
-        <translation>Kitibeti</translation>
+        <translation>Tibetanska</translation>
     </message>
     <message>
         <source>Myanmar</source>
-        <translation>Kimyanima</translation>
+        <translation>Burmesiska</translation>
     </message>
     <message>
         <source>Georgian</source>
-        <translation>Kigyoogiya</translation>
+        <translation>Georgiska</translation>
     </message>
     <message>
         <source>Khmer</source>
-        <translation>Kemeeya</translation>
+        <translation>Khmer</translation>
     </message>
     <message>
         <source>Simplified Chinese</source>
-        <translation>Lucayina olugonze</translation>
+        <translation>Förenklad kinesiska</translation>
     </message>
     <message>
         <source>Traditional Chinese</source>
-        <translation>Lucayina olw&apos;ennono</translation>
+        <translation>Traditionell kinesiska</translation>
     </message>
     <message>
         <source>Japanese</source>
-        <translation>Kijapani</translation>
+        <translation>Japanska</translation>
     </message>
     <message>
         <source>Korean</source>
-        <translation>Kikoreya</translation>
+        <translation>Koreanska</translation>
     </message>
     <message>
         <source>Vietnamese</source>
-        <translation>Kiviyetinaamu</translation>
+        <translation>Vietnamesiska</translation>
     </message>
     <message>
         <source>Symbol</source>
-        <translation>Bubonero</translation>
+        <translation>Symbolspråk</translation>
     </message>
     <message>
         <source>Ogham</source>
-        <translation>Wogamu</translation>
+        <translation>Ogham</translation>
     </message>
     <message>
         <source>Runic</source>
-        <translation>Ruuni</translation>
+        <translation>Runsvenska</translation>
     </message>
     <message>
         <source>N&apos;Ko</source>
-        <translation>Nkko</translation>
+        <translation>N&apos;Ko</translation>
     </message>
 </context>
 <context>
     <name>QFontDialog</name>
     <message>
         <source>Select Font</source>
-        <translation>Londa Nkula ya Nnukuta</translation>
+        <translation>Välj typsnitt</translation>
     </message>
     <message>
         <source>&amp;Font</source>
-        <translation>&amp;Nkula ya Nnukuta</translation>
+        <translation>&amp;Typsnitt</translation>
     </message>
     <message>
         <source>Font st&amp;yle</source>
-        <translation>&amp;Musono gwa nkula ya nnukuta</translation>
+        <translation>T&amp;ypsnittsstil</translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>&amp;Bunene</translation>
+        <translation>&amp;Storlek</translation>
     </message>
     <message>
         <source>Effects</source>
-        <translation>Masaali</translation>
+        <translation>Effekter</translation>
     </message>
     <message>
         <source>Stri&amp;keout</source>
-        <translation>&amp;Nsazzemu</translation>
+        <translation>Genomstru&amp;ken</translation>
     </message>
     <message>
         <source>&amp;Underline</source>
-        <translation>&amp;Za Lukoloboze Wansi</translation>
+        <translation>&amp;Understruken</translation>
     </message>
     <message>
         <source>Sample</source>
-        <translation>Kukulagako</translation>
+        <translation>Test</translation>
     </message>
     <message>
         <source>Wr&amp;iting System</source>
-        <translation>&amp;Mpandika</translation>
+        <translation>Skr&amp;ivsystem</translation>
     </message>
 </context>
 <context>
     <name>QFtp</name>
     <message>
         <source>Not connected</source>
-        <translation>Tewali mpulizagana</translation>
+        <translation>Inte ansluten</translation>
     </message>
     <message>
         <source>Host %1 not found</source>
-        <translation>Kompyuta enyunge %1 terabidwa</translation>
+        <translation>Värden %1 hittades inte</translation>
     </message>
     <message>
         <source>Connection refused to host %1</source>
-        <translation>Empulizagana ne kompyuta %1 egaanidwa</translation>
+        <translation>Anslutning vägrades till värden %1</translation>
     </message>
     <message>
         <source>Connection timed out to host %1</source>
-        <translation>Okukwatagana ne kompyuta enyunge %1 obudde bukuyiseko</translation>
+        <translation>Anslutningens tidsgräns överstegs till värden %1</translation>
     </message>
     <message>
         <source>Connected to host %1</source>
-        <translation>Waliwo empulizagana ne kompyuta %1</translation>
+        <translation>Ansluten till värden %1</translation>
     </message>
     <message>
         <source>Data Connection refused</source>
-        <translation>Enkwatagana ey&apos;okuwanisagana data egaanidwa</translation>
+        <translation>Dataanslutning nekades</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Wazzewo kiremya atategeereka</translation>
+        <translation>Okänt fel</translation>
     </message>
     <message>
         <source>Connecting to host failed:
 %1</source>
-        <translation>Okukwatagana ne kompyuta enyunge kugaanye:
+        <translation>Anslutning till värden misslyckades:
 %1</translation>
     </message>
     <message>
         <source>Login failed:
 %1</source>
-        <translation>Okutandika olutuula kugaanye:
+        <translation>Inloggning misslyckades:
 %1</translation>
     </message>
     <message>
         <source>Listing directory failed:
 %1</source>
-        <translation>Okulaga ebiri mu tterekero kugaanye:
+        <translation>Kataloglistning misslyckades:
 %1</translation>
     </message>
     <message>
         <source>Changing directory failed:
 %1</source>
-        <translation>Okudda mu tterekero ddala kugaanye:
+        <translation>Byte av katalog misslyckades:
 %1</translation>
     </message>
     <message>
         <source>Downloading file failed:
 %1</source>
-        <translation>Okuwanula fayiro kugaanye:
+        <translation>Hämtning av fil misslyckades:
 %1</translation>
     </message>
     <message>
         <source>Uploading file failed:
 %1</source>
-        <translation>Okuteekayo fayiro kugaanye:
+        <translation>Sändning av fil misslyckades:
 %1</translation>
     </message>
     <message>
         <source>Removing file failed:
 %1</source>
-        <translation>Okugyawo fayiro kugaanye:
+        <translation>Borttagning av fil misslyckades:
 %1</translation>
     </message>
     <message>
         <source>Creating directory failed:
 %1</source>
-        <translation>Okukolawo tterekero kugaanye:
+        <translation>Skapandet av katalog misslyckades:
 %1</translation>
     </message>
     <message>
         <source>Removing directory failed:
 %1</source>
-        <translation>Okugywao tterekero kugaanye:
+        <translation>Borttagning av katalog misslyckades:
 %1</translation>
     </message>
     <message>
         <source>Connection closed</source>
-        <translation>Okuwulizagana kuggadwawo</translation>
+        <translation>Anslutningen stängd</translation>
     </message>
 </context>
 <context>
     <name>QGnomeTheme</name>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;Kale</translation>
+        <translation>&amp;Ok</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;Kazza</translation>
+        <translation>&amp;Spara</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Sazamu</translation>
+        <translation>&amp;Avbryt</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Gala</translation>
+        <translation>S&amp;täng</translation>
     </message>
     <message>
         <source>Close without Saving</source>
-        <translation>Gala nga Tebikazidwa</translation>
+        <translation>Stäng utan att spara</translation>
     </message>
 </context>
 <context>
@@ -1726,427 +1726,427 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>QPA plugin. See QGuiApplication documentation for available options for each plugin.</source>
-        <translation>Ekyongerwako ekya QPA. Okumanya ebisoboka ku buli kyongerwako, kebera mu biwandiko ebya QGuiApplication.</translation>
+        <translation>QPA-insticksmodul. Se dokumentation för QGuiApplication för tillgängliga alternativ för varje insticksmodul.</translation>
     </message>
     <message>
         <source>Path to the platform plugins.</source>
-        <translation>Kkubo erigguka ku byongerwako.</translation>
+        <translation>Sökväg till plattformens insticksmoduler.</translation>
     </message>
     <message>
         <source>Platform theme.</source>
-        <translation>Lulyo lw&apos;endabika.</translation>
+        <translation>Plattformstema.</translation>
     </message>
     <message>
         <source>Additional plugins to load, can be specified multiple times.</source>
-        <translation>Ebyongerwako ebirala ebinaawangibwa, bino bisobola okutegekebwa n&apos;awalala.</translation>
+        <translation>Ytterligare insticksmoduler att läsa in, kan anges flera gånger.</translation>
     </message>
     <message>
         <source>Window geometry for the main window, using the X11-syntax, like 100x100+50+50.</source>
-        <translation>Bipimo bya ddirisa ery&apos;ennono, mu mpandika eyetaagibwa X11, okugeza nga 100x100+50+50.</translation>
+        <translation>Fönstergeometri för huvudfönstret, använder X11-syntax, som 100x100+50+50.</translation>
     </message>
     <message>
         <source>Default window icon.</source>
-        <translation>Akafaananyi akakwatira ddirisa ekifo ku lubaawo aka bulijjo.</translation>
+        <translation>Fönsterikon som standard.</translation>
     </message>
     <message>
         <source>Title of the first window.</source>
-        <translation>Mutwe gw&apos;eddirisa erisooka.</translation>
+        <translation>Titel för första fönstret.</translation>
     </message>
     <message>
         <source>Sets the application&apos;s layout direction to Qt::RightToLeft (debugging helper).</source>
-        <translation>Kitegeka enjalirira y&apos;ebitundu ebya puloguramu ebirabikira ku lutimbe efugibwe Qt::RightToLeft (kyeyambisibwa mu kunoonya bitali bituufu).</translation>
+        <translation>Ställer in programmets layoutriktning till  Qt::RightToLeft (felsökningshjälpare).</translation>
     </message>
     <message>
         <source>Restores the application from an earlier session.</source>
-        <translation>Puloguramu etandikire mu mbeera gye yali mu lwe yasemba okuggalibwawo.</translation>
+        <translation>Återställer programmet från en tidigare session.</translation>
     </message>
     <message>
         <source>Display name, overrides $DISPLAY.</source>
-        <translation>Tegeka olutimbe puloguramu kw&apos;egenda okulabikira, kidda mu kifo kya $DISPLAY.</translation>
+        <translation>Skärmnamn, åsidosätter $DISPLAY.</translation>
     </message>
     <message>
         <source>Instance name according to ICCCM 4.1.2.5.</source>
-        <translation>Erinnya ly&apos;olubumbujjo lwa puloguramu erigoberera omuko gwa ekiwandiko ICCCM 4.1.2.5.</translation>
+        <translation>Instansnamn enligt ICCCM 4.1.2.5.</translation>
     </message>
     <message>
         <source>Disable mouse grabbing (useful in debuggers).</source>
-        <translation>Gaana puloguramu okwefuga akasongesebwa (kiyamba mu kunoonya bitali bituufu).</translation>
+        <translation>Inaktivera musfångst (användbart i debugger).</translation>
     </message>
     <message>
         <source>Force mouse grabbing (even when running in a debugger).</source>
-        <translation>Waliriza puloguramu okwefuga akasongesebwa (ne bw&apos;ebeera nga eri mu nkola ya kunoonya bitali bituufu).</translation>
+        <translation>Tvinga musfångst (även vid körning i en debugger).</translation>
     </message>
     <message>
         <source>ID of the X11 Visual to use.</source>
-        <translation>Ennamba (ID) ya Ntabulalangi eya X11 enaakozesebwa.</translation>
+        <translation>ID för X11 Visual att använda.</translation>
     </message>
     <message>
         <source>Alias for --qwindowgeometry.</source>
-        <translation>Ekikola kye kimu nga --qwindowgeometry.</translation>
+        <translation>Alias för --qwindowgeometry.</translation>
     </message>
     <message>
         <source>Alias for --qwindowicon.</source>
-        <translation>Ekikola kye kimu nga --qwindowicon.</translation>
+        <translation>Alias för --qwindowicon.</translation>
     </message>
     <message>
         <source>Alias for --qwindowtitle.</source>
-        <translation>Ekikola kye kimu nga --qwindowtitle.</translation>
+        <translation>Alias för --qwindowtitle.</translation>
     </message>
 </context>
 <context>
     <name>QHostInfo</name>
     <message>
         <source>No host name given</source>
-        <translation>Wabula wo erinnya lya kompyuta enyunge</translation>
+        <translation>Inget värdnamn angivet</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Wazzewo kiremya atategeereka</translation>
+        <translation>Okänt fel</translation>
     </message>
 </context>
 <context>
     <name>QHostInfoAgent</name>
     <message>
         <source>No host name given</source>
-        <translation>Wabula wo erinnya lya kompyuta enyunge</translation>
+        <translation>Inget värdnamn angivet</translation>
     </message>
     <message>
         <source>Invalid hostname</source>
-        <translation>Ekiweeredwa ng&apos;erinnya lya kompyuta enyunge tekikozeseka</translation>
+        <translation>Ogiltigt värdnamn</translation>
     </message>
     <message>
         <source>Unknown address type</source>
-        <translation>Endagiriro tetegeerese</translation>
+        <translation>Okänd adresstyp</translation>
     </message>
     <message>
         <source>Host not found</source>
-        <translation>Kompyuta enyunge terabidwa</translation>
+        <translation>Värden hittades inte</translation>
     </message>
 </context>
 <context>
     <name>QHttp</name>
     <message>
         <source>Connection closed</source>
-        <translation>Okuwulizagana kuggadwawo</translation>
+        <translation>Anslutningen stängd</translation>
     </message>
     <message>
         <source>Host %1 not found</source>
-        <translation>Kompyuta enyunge %1 terabidwa</translation>
+        <translation>Värden %1 hittades inte</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>Okukwatagana ne kompyuta enyunge kugaanidwa</translation>
+        <translation>Anslutningen nekades</translation>
     </message>
     <message>
         <source>Proxy requires authentication</source>
-        <translation>Kalaani yetaaga kusooka kukakasa</translation>
+        <translation>Proxy kräver autentisering</translation>
     </message>
     <message>
         <source>Host requires authentication</source>
-        <translation>Kompyuta enyunge yetaaga kusooka kukakasa</translation>
+        <translation>Värden kräver autentisering</translation>
     </message>
     <message>
         <source>Data corrupted</source>
-        <translation>Data erimu ensobi</translation>
+        <translation>Data är skadat</translation>
     </message>
     <message>
         <source>Unknown protocol specified</source>
-        <translation>Amateeka agafuga okuwulizagana agategekedwa tegategeerese</translation>
+        <translation>Okänt protokoll angivet</translation>
     </message>
     <message>
         <source>SSL handshake failed</source>
-        <translation>Okutegeeragana okwa SSL kugaanye</translation>
+        <translation>SSL-handskakningsfel</translation>
     </message>
     <message>
         <source>Too many redirects</source>
-        <translation>Wasangidwa ebiragiro ebyongezayo ku ndagiriro ndala ebiyitiridde obungi</translation>
+        <translation>För många omdirigeringar</translation>
     </message>
     <message>
         <source>Insecure redirect</source>
-        <translation>Wasangidwa ekiragiro ekyongezayo ku ndagiriro ndala ekiteesigika</translation>
+        <translation>Osäker omdirigering</translation>
     </message>
 </context>
 <context>
     <name>QHttpSocketEngine</name>
     <message>
         <source>Did not receive HTTP response from proxy</source>
-        <translation>Kalaani teyanukudde</translation>
+        <translation>Tog inte emot något HTTP-svar från proxyn</translation>
     </message>
     <message>
         <source>Error parsing authentication request from proxy</source>
-        <translation>Wazzewo kiremya mu kukebera obubaka obusaba okukakasa obuvudde ku kompyuta masanganzira etuuka ku mutimbagano</translation>
+        <translation>Fel vid tolkning av autentiseringsbegäran från proxy</translation>
     </message>
     <message>
         <source>Authentication required</source>
-        <translation>Kyetaagisa kukakasa</translation>
+        <translation>Autentisering krävs</translation>
     </message>
     <message>
         <source>Proxy denied connection</source>
-        <translation>Kalaani egaanye okuteekawo okuwulizagana</translation>
+        <translation>Proxyn nekade anslutningen</translation>
     </message>
     <message>
         <source>Error communicating with HTTP proxy</source>
-        <translation>Wazzewo kiremya mu kuwulizagana ne kompyuta masanganzira etuuka ku mutimbagano</translation>
+        <translation>Fel vid kommunicering med HTTP-proxy</translation>
     </message>
     <message>
         <source>Proxy server not found</source>
-        <translation>Kalaani terabidwa</translation>
+        <translation>Proxyservern hittades inte</translation>
     </message>
     <message>
         <source>Proxy connection refused</source>
-        <translation>Kalaani egaanye okuteekawo okuwulizagana</translation>
+        <translation>Proxyanslutningen vägrades</translation>
     </message>
     <message>
         <source>Proxy server connection timed out</source>
-        <translation>Okukwatagana ne kalaani obudde bukuyiseko</translation>
+        <translation>Anslutningen till proxyservern gick över tidsgränsen</translation>
     </message>
     <message>
         <source>Proxy connection closed prematurely</source>
-        <translation>Okukuwatagana ne kalaani kuggadwawo nga bukyali</translation>
+        <translation>Proxyanslutningen stängdes i förtid</translation>
     </message>
 </context>
 <context>
     <name>QIBaseDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>Wazzewo kiremya mu kubikkula ggwanika lya data</translation>
+        <translation>Fel vid öppnade av databas</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>tekisobose okutandika omukolo ogwa mu ggwanika lya data</translation>
+        <translation>Kunde inte starta transaktion</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Kunde inte verkställa transaktion</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Tekisobose okujjulula ebikyusidwa</translation>
+        <translation>Kunde inte rulla tillbaka transaktion</translation>
     </message>
 </context>
 <context>
     <name>QIBaseResult</name>
     <message>
         <source>Unable to create BLOB</source>
-        <translation>Tekisobose kukolawo BLOB</translation>
+        <translation>Kunde inte skapa BLOB</translation>
     </message>
     <message>
         <source>Unable to write BLOB</source>
-        <translation>Tekisobose okuwandika mu BLOB</translation>
+        <translation>Kunde inte skriva BLOB</translation>
     </message>
     <message>
         <source>Unable to open BLOB</source>
-        <translation>Tekisobose okubikkula BLOB</translation>
+        <translation>Kunde inte öppna BLOB</translation>
     </message>
     <message>
         <source>Unable to read BLOB</source>
-        <translation>Tekisobose okukebera BLOB</translation>
+        <translation>Kunde inte läsa BLOB</translation>
     </message>
     <message>
         <source>Could not find array</source>
-        <translation>Areyi terabise</translation>
+        <translation>Kunde inte hitta kedja</translation>
     </message>
     <message>
         <source>Could not get array data</source>
-        <translation>Tekisobose okufuna data okuva mu areyi</translation>
+        <translation>Kunde inte få kedjedata</translation>
     </message>
     <message>
         <source>Could not get query info</source>
-        <translation>Tekisobose okufuna ebikwata ku kiragiro ekinoonyeza mu gwanika lya data</translation>
+        <translation>Kunde inte gå frågesatsinformation</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>tekisobose okutandika omukolo ogwa mu ggwanika lya data</translation>
+        <translation>Kunde inte starta transaktion</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Kunde inte verkställa transaktion</translation>
     </message>
     <message>
         <source>Could not allocate statement</source>
-        <translation>Tekisobose ekiragiro ekya mu ggwanika lya data okukikolera hando</translation>
+        <translation>Kunde inte allokera frågesats</translation>
     </message>
     <message>
         <source>Could not prepare statement</source>
-        <translation>Tekisobose okutegeka kiragiro kya SQL kiddibwengamu mangu</translation>
+        <translation>Kunde inte förbereda frågesats</translation>
     </message>
     <message>
         <source>Could not describe input statement</source>
-        <translation>Tekisobose okufuna ebikwata ku paramita ez&apos;etaagbwa ekiragiro ekinoonyeza mu ggwanika lya data</translation>
+        <translation>Kunde inte beskriva inmatningsfrågesats</translation>
     </message>
     <message>
         <source>Could not describe statement</source>
-        <translation>Tekisobose okufuna ebikwata ku bizuulidwa ekiragiro ekinoonyeza mu ggwanika lya data</translation>
+        <translation>Kunde inte beskriva frågesats</translation>
     </message>
     <message>
         <source>Unable to close statement</source>
-        <translation>Tekisobose okukomya ekiragiro ekya mu ggwanika lya data</translation>
+        <translation>Kunde inte stänga frågesats</translation>
     </message>
     <message>
         <source>Unable to execute query</source>
-        <translation>Tekisobose okutandika ekiragiro ekinoonyeza mu ggwanika lya data</translation>
+        <translation>Kunde inte köra frågesats</translation>
     </message>
     <message>
         <source>Could not fetch next item</source>
-        <translation>Tekisobose okunonayo data eddako</translation>
+        <translation>Kunde inte hämta nästa post</translation>
     </message>
     <message>
         <source>Could not get statement info</source>
-        <translation>Tekisobose okufuna ebikwata ku kiragiro ekya mu gwanika lya data</translation>
+        <translation>Kunde inte få frågesatsinformation</translation>
     </message>
 </context>
 <context>
     <name>QIODevice</name>
     <message>
         <source>file to open is a directory</source>
-        <translation>eky&apos;okubikkulibwa tterekero</translation>
+        <translation>filen som ska öppnas är en katalog</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Wazzewo kiremya atategeereka</translation>
+        <translation>Okänt fel</translation>
     </message>
     <message>
         <source>Permission denied</source>
-        <translation>Olukusa teruweeredwa</translation>
+        <translation>Åtkomst nekad</translation>
     </message>
     <message>
         <source>Too many open files</source>
-        <translation>Fayiro embikkule kakano ziyitiridde obungi</translation>
+        <translation>För många öppna filer</translation>
     </message>
     <message>
         <source>No such file or directory</source>
-        <translation>Fayiro oba tterekero eyo teeriwo</translation>
+        <translation>Ingen sådan fil eller katalog</translation>
     </message>
     <message>
         <source>No space left on device</source>
-        <translation>Ekitereka data kijjudde</translation>
+        <translation>Inget ledigt utrymme på enheten</translation>
     </message>
 </context>
 <context>
     <name>QImageReader</name>
     <message>
         <source>Invalid device</source>
-        <translation>Ekyuma tekikozeseka</translation>
+        <translation>Ogiltig enhet</translation>
     </message>
     <message>
         <source>File not found</source>
-        <translation>Fayiro terabidwa</translation>
+        <translation>Filen hittades inte</translation>
     </message>
     <message>
         <source>Unsupported image format</source>
-        <translation>Sisitemu tetegeera kika kya kifaananyi</translation>
+        <translation>Bildformatet stöds inte</translation>
     </message>
     <message>
         <source>Unable to read image data</source>
-        <translation>Tekisobose okusoma data ey&apos;ekifaananyi</translation>
+        <translation>Kunde inte läsa bilddata</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Wazzewo kiremya atategeereka</translation>
+        <translation>Okänt fel</translation>
     </message>
 </context>
 <context>
     <name>QImageWriter</name>
     <message>
         <source>Unknown error</source>
-        <translation>Wazzewo kiremya atategeereka</translation>
+        <translation>Okänt fel</translation>
     </message>
     <message>
         <source>Device is not set</source>
-        <translation>Tewategekedwawo ekyuma ekinaawandikibwako</translation>
+        <translation>Enheten är inte inställd</translation>
     </message>
     <message>
         <source>Cannot open device for writing: %1</source>
-        <translation>Tekisobose okubikkula kyuma ekinaawandikibwako: %1</translation>
+        <translation>Kan inte öppna enhet för skrivning: %1</translation>
     </message>
     <message>
         <source>Device not writable</source>
-        <translation>Ekyuma tekiwandikibwako</translation>
+        <translation>Enheten är inte skrivbar</translation>
     </message>
     <message>
         <source>Unsupported image format</source>
-        <translation>Sisitemu tetegeera kika kya kifaananyi</translation>
+        <translation>Bildformatet stöds inte</translation>
     </message>
     <message>
         <source>Image is empty</source>
-        <translation>Ekifaananyi kyereere, temuli data</translation>
+        <translation>Bilden är tom</translation>
     </message>
 </context>
 <context>
     <name>QInputDialog</name>
     <message>
         <source>Enter a value:</source>
-        <translation>Wandika ekikongojjebwa:</translation>
+        <translation>Ange ett värde:</translation>
     </message>
 </context>
 <context>
     <name>QJsonParseError</name>
     <message>
         <source>no error occurred</source>
-        <translation>temubadde nsobi</translation>
+        <translation>inga fel inträffade</translation>
     </message>
     <message>
         <source>unterminated object</source>
-        <translation>waliwo ekyetongole kya mu JSON ekibulako akabonero akakifundikira</translation>
+        <translation>oavslutat objekt</translation>
     </message>
     <message>
         <source>missing name separator</source>
-        <translation>waliwo awabula akabonero ak&apos;awula erinnya erimu ku linnaalyo</translation>
+        <translation>saknar namnavgränsare</translation>
     </message>
     <message>
         <source>unterminated array</source>
-        <translation>waliwo areyi eya mu JSON ebulako akabonero akagifundikira</translation>
+        <translation>oavslutad kedja</translation>
     </message>
     <message>
         <source>missing value separator</source>
-        <translation>waliwo ekyasanguzo ekibulako akabonero ak&apos;awula ekikongozzi ku kikongojje</translation>
+        <translation>saknar värdesavgränsare</translation>
     </message>
     <message>
         <source>illegal value</source>
-        <translation>waliwo ekikongojje ekitakozeseka</translation>
+        <translation>ogiltigt värde</translation>
     </message>
     <message>
         <source>invalid termination by number</source>
-        <translation>ebisomebwa bikomye mu makkati g&apos;ennamba etaweddeyo</translation>
+        <translation>ogiltig avslutning med siffra</translation>
     </message>
     <message>
         <source>illegal number</source>
-        <translation>Waliwo ennamba eriko nsobi</translation>
+        <translation>ogiltig siffra</translation>
     </message>
     <message>
         <source>invalid escape sequence</source>
-        <translation>waliwo ekigambo ekifuula enneyisa we kitakkirizibwa</translation>
+        <translation>ogiltig escape sequence</translation>
     </message>
     <message>
         <source>invalid UTF8 string</source>
-        <translation>ebisomebwa birimu ekigambo kya mu UTF8 ekitakkirizibwa</translation>
+        <translation>ogiltig UTF8-sträng</translation>
     </message>
     <message>
         <source>unterminated string</source>
-        <translation>waliwo ekigambo ekibulako akabonero akakifundikira</translation>
+        <translation>oavslutad sträng</translation>
     </message>
     <message>
         <source>object is missing after a comma</source>
-        <translation>waliwo awabula ekyetongole ekyandigobereredde akabonero aka &apos;,&apos;</translation>
+        <translation>objekt saknas efter ett komma</translation>
     </message>
     <message>
         <source>too deeply nested document</source>
-        <translation>ekiwandiko ekya JSON tekikolekako kubanga kisonsekedwa munda nyo mu bitundu bya kinnaakyo</translation>
+        <translation>för djupt nästlat dokument</translation>
     </message>
     <message>
         <source>too large document</source>
-        <translation>ekiwandiko ekya JSON tekikolekako kubanga kiyitiridde obuwanvu</translation>
+        <translation>för stort dokument</translation>
     </message>
     <message>
         <source>garbage at the end of the document</source>
-        <translation>ekiwandiko kifundikidwa obubonero obutategeereka</translation>
+        <translation>skräp på slutet av dokumentet</translation>
     </message>
 </context>
 <context>
     <name>QKeySequenceEdit</name>
     <message>
         <source>Press shortcut</source>
-        <translation>Nyiga amapeesa aganaagonzanga mulimu</translation>
+        <translation>Tryck genväg</translation>
     </message>
     <message>
         <source>%1, ...</source>
@@ -2157,322 +2157,321 @@ Era oyagala egyibwewo?</translation>
 <context>
     <name>QLibrary</name>
     <message>
-        <source>&apos;%1&apos; is not an ELF object (%2)</source>
-        <translation>&apos;%1&apos; ssi kyetongole kya ELF (%2)</translation>
+        <source>file too small</source>
+        <translation>filen är för liten</translation>
     </message>
     <message>
-        <source>file too small</source>
-        <translation>fayiro ssi nnene ekimala</translation>
+        <source>&apos;%1&apos; is not an ELF object (%2)</source>
+        <translation>&apos;%1&apos; är inte ett ELF-objekt (%2)</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not an ELF object</source>
-        <translation>&apos;%1&apos; ssi kyetongole kya ELF</translation>
+        <translation>&apos;%1&apos; är inte ett ELF-objekt</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is an invalid ELF object (%2)</source>
-        <translation>&apos;%1&apos; ssi kyetongole kya ELF ekikkirizibwa (%2)</translation>
+        <translation>&apos;%1&apos; är ett ogiltigt ELF-objekt (%2)</translation>
     </message>
     <message>
         <source>odd cpu architecture</source>
-        <translation>ekika ky&apos;ekitundu ekibazi kye kitegekedwa tekitegeereka</translation>
+        <translation>udda cpu-arkitektur</translation>
     </message>
     <message>
         <source>wrong cpu architecture</source>
-        <translation>ekika ky&apos;ekitundu ekibazi kye kitegekedwa ssi kituufu</translation>
+        <translation>felaktig cpu-arkitektur</translation>
     </message>
     <message>
         <source>odd endianness</source>
-        <translation>Entereka ya bayiti ezikongojja ennamba tetegeereka</translation>
+        <translation>udda byteordning</translation>
     </message>
     <message>
         <source>unexpected e_shsize</source>
-        <translation>e_shsize ssi y&apos;esuubidwa</translation>
+        <translation>oväntad e_shsize</translation>
     </message>
     <message>
         <source>unexpected e_shentsize</source>
-        <translation>e_shentsize ssi y&apos;esuubidwa</translation>
+        <translation>oväntad e_shentsize</translation>
     </message>
     <message numerus="yes">
         <source>announced %n section(s), each %1 byte(s), exceed file size</source>
         <translation>
-            <numerusform>ekitundu %n kirangiridwa, kya bayiti %1, kiyise ku kkomo ly&apos;obunene</numerusform>
-            <numerusform>ebitundu %n birangiridwa, buli kimu kya bayiti %1, biyise ku kkomo ly&apos;obunene</numerusform>
+            <numerusform>annonserade %n sektion, varje på %1 byte, översteg filstorlek</numerusform>
+            <numerusform>annonserade %n sektioner, varje på %1 byte, översteg filstorlek</numerusform>
         </translation>
     </message>
     <message>
         <source>shstrtab section header seems to be at %1</source>
-        <translation>olukalala shtrtab lulabika nga olusangibwa ku %1</translation>
+        <translation>shstrtab-sektionrubrik verkar vara vid %1</translation>
     </message>
     <message>
         <source>string table seems to be at %1</source>
-        <translation>Tabulo y&apos;ebigambo erabika nga esangibwa ku %1</translation>
+        <translation>strängtabell verkar vara vid %1</translation>
     </message>
     <message>
         <source>section name %1 of %2 behind end of file</source>
-        <translation>obusangiro bw&apos;ekitundu %1 ekya %2 buteeredwa wala okusinga fayiro gy&apos;ekoma</translation>
+        <translation>sektionsnamnet %1 för %2 är bakom filslutet</translation>
     </message>
     <message>
         <source>empty .rodata. not a library.</source>
-        <translation>ekitundu .rodata. kyereere, eno ssi puloguramu eyeyayzikibwa.</translation>
+        <translation>tom .rodata. inte ett bibliotek.</translation>
     </message>
     <message>
         <source>missing section data. This is not a library.</source>
-        <translation>data ey&apos;ebifa ku bitundu teeriwo. Eno ssi puloguramu eyeyazikibwa.</translation>
-    </message>
-    <message>
-        <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
-        <translation>Tekisobose okusoma ebikwata ku byongerwako okuva mu &apos;%1&apos;</translation>
-    </message>
-    <message>
-        <source>The shared library was not found.</source>
-        <translation>Puloguramu eyeyazikibwa ey&apos;awamu ebuze.</translation>
-    </message>
-    <message>
-        <source>The file &apos;%1&apos; is not a valid Qt plugin.</source>
-        <translation>Fayiro &apos;%1&apos; tebalibwa ng&apos;ekyongerwako ekya mu Qt.</translation>
-    </message>
-    <message>
-        <source>The plugin &apos;%1&apos; uses incompatible Qt library. (%2.%3.%4) [%5]</source>
-        <translation>Ekyongerwako &apos;%1&apos; kikozesa puloguramu eyeyazikibwa eya Qt etakolagana ne sisitemu eno. (%2.%3.%4) [%5]</translation>
-    </message>
-    <message>
-        <source>The plugin &apos;%1&apos; uses incompatible Qt library. (Cannot mix debug and release libraries.)</source>
-        <translation>Ekyongerwako &apos;%1&apos; kikozesa puloguramu eyeyazikibwa eya Qt etakolagana ne sisitemu eno.
-(puloguramu ez&apos;eyazikibwa eza bulijjo tezitabikibwa n&apos;ezikozesebwa mu kunoonya nsobi.)</translation>
-    </message>
-    <message>
-        <source>Unknown error</source>
-        <translation>Wazzewo kiremya atategeereka</translation>
-    </message>
-    <message>
-        <source>Cannot load library %1: %2</source>
-        <translation>Tekisobose okuwanga puloguramu eyeyazikibwa %1: %2</translation>
-    </message>
-    <message>
-        <source>Cannot unload library %1: %2</source>
-        <translation>Tekisobose okuwangula puloguramu eyeyazikibwa %1. %2</translation>
-    </message>
-    <message>
-        <source>&apos;%1&apos; is not a valid Mach-O binary (%2)</source>
-        <translation>&apos;%1&apos; tekibalibwa ng&apos;ekiwandiko ekya mu binariyo ekya Mach-O (%2)</translation>
-    </message>
-    <message>
-        <source>file is corrupt</source>
-        <translation>fayiro erimu ensobi</translation>
-    </message>
-    <message>
-        <source>no suitable architecture in fat binary</source>
-        <translation>puloguramu ekolera wangi ebulamu ebigisobozesa okukolera wano</translation>
-    </message>
-    <message>
-        <source>invalid magic %1</source>
-        <translation>%1 tebalidwa nga magic</translation>
-    </message>
-    <message>
-        <source>wrong architecture</source>
-        <translation>ssi bya kika ky&apos;ekitundu ekibazi sisitemu eno kyerina</translation>
-    </message>
-    <message>
-        <source>not a dynamic library</source>
-        <translation>ssi puloguramu eyeyazikibwa omulimu gutambula</translation>
+        <translation>saknar sektionsdata. Detta är inte ett bibliotek.</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a Qt plugin</source>
-        <translation>&apos;%1&apos; ssi kyongerwako kya mu Qt</translation>
+        <translation>&apos;%1&apos; är inte en Qt-insticksmodul</translation>
+    </message>
+    <message>
+        <source>The shared library was not found.</source>
+        <translation>Delade biblioteket hittades inte.</translation>
+    </message>
+    <message>
+        <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
+        <translation>Misslyckades med att extrahera insticksmodulens metadata från &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source>The file &apos;%1&apos; is not a valid Qt plugin.</source>
+        <translation>Filen &apos;%1&apos; är inte en giltig Qt-insticksmodul.</translation>
+    </message>
+    <message>
+        <source>The plugin &apos;%1&apos; uses incompatible Qt library. (%2.%3.%4) [%5]</source>
+        <translation>Insticksmodulen &apos;%1&apos; använder inkompatibelt Qt-bibliotek. (%2.%3.%4) [%5]</translation>
+    </message>
+    <message>
+        <source>The plugin &apos;%1&apos; uses incompatible Qt library. (Cannot mix debug and release libraries.)</source>
+        <translation>Insticksmodulen &apos;%1&apos; använder inkompatibelt Qt-bibliotek. (Kan inte blanda bibliotek för debug och release.)</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>Okänt fel</translation>
+    </message>
+    <message>
+        <source>Cannot load library %1: %2</source>
+        <translation>Kan inte läsa in biblioteket %1: %2</translation>
+    </message>
+    <message>
+        <source>Cannot unload library %1: %2</source>
+        <translation>Kan inte läsa ur biblioteket %1: %2</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a valid Mach-O binary (%2)</source>
+        <translation>&apos;%1&apos; är inte en giltig Mach-O-binär (%2)</translation>
+    </message>
+    <message>
+        <source>file is corrupt</source>
+        <translation>filen är skadad</translation>
+    </message>
+    <message>
+        <source>no suitable architecture in fat binary</source>
+        <translation>ingen passande arkitektur i fet binär</translation>
+    </message>
+    <message>
+        <source>invalid magic %1</source>
+        <translation>ogiltig magic %1</translation>
+    </message>
+    <message>
+        <source>wrong architecture</source>
+        <translation>fel arkitektur</translation>
+    </message>
+    <message>
+        <source>not a dynamic library</source>
+        <translation>inte ett dynamiskt bibliotek</translation>
     </message>
 </context>
 <context>
     <name>QLineEdit</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;Bijjulule</translation>
+        <translation>&amp;Ångra</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>&amp;Zzawo</translation>
+        <translation>&amp;Gör om</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>Si&amp;tulawo</translation>
+        <translation>Klipp &amp;ut</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Koppa</translation>
+        <translation>&amp;Kopiera</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>&amp;Paatiika</translation>
+        <translation>Klistra &amp;in</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Gyawo</translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Londa Byonna</translation>
+        <translation>Markera alla</translation>
     </message>
 </context>
 <context>
     <name>QLocalServer</name>
     <message>
         <source>%1: Name error</source>
-        <translation>%1: Tewali linnya lya kompyuta ey&apos;okuwulizagana nayo</translation>
+        <translation>%1: Namnfel</translation>
     </message>
     <message>
         <source>%1: Permission denied</source>
-        <translation>%1: Olukusa teruweeredwa</translation>
+        <translation>%1: Behörighet nekad</translation>
     </message>
     <message>
         <source>%1: Address in use</source>
-        <translation>%1: Endagiriro eno yekwatidwa awalala</translation>
+        <translation>%1: Adressen används</translation>
     </message>
     <message>
         <source>%1: Unknown error %2</source>
-        <translation>%1: Wazzewo kiremya atategeereka %2</translation>
+        <translation>%1: Okänt fel %2</translation>
     </message>
 </context>
 <context>
     <name>QLocalSocket</name>
     <message>
         <source>%1: Connection refused</source>
-        <translation>%1: Okukwatagana ne kompyuta enyunge kugaanidwa</translation>
+        <translation>%1: Anslutningen nekades</translation>
     </message>
     <message>
         <source>%1: Remote closed</source>
-        <translation>%1: Kompyuta ey&apos;ebunaayira eggadewo okuwulizagana</translation>
+        <translation>%1: Fjärr stängde</translation>
     </message>
     <message>
         <source>%1: Invalid name</source>
-        <translation>%1: Erinnya eriweeredwa terikola</translation>
+        <translation>%1: Ogiltig namn</translation>
     </message>
     <message>
         <source>%1: Socket access error</source>
-        <translation>%1: Omulimu ogw&apos;oku soketi puloguramu terina ndukusa ze gwetaagisa</translation>
+        <translation>%1: Fel vid uttagsåtkomst</translation>
     </message>
     <message>
         <source>%1: Socket resource error</source>
-        <translation>%1: Sistemu bye yeyambisa okukola omulimu tebimala, byonna bikozesebwa</translation>
+        <translation>%1: Fel i uttagsresurs</translation>
     </message>
     <message>
         <source>%1: Socket operation timed out</source>
-        <translation>%1: Omukolo ogw&apos;oku soketi obudde buguyiseko</translation>
+        <translation>%1: Uttagsåtgärden översteg tidsgräns</translation>
     </message>
     <message>
         <source>%1: Datagram too large</source>
-        <translation>%1: Dataguramu eyitiridde obunene</translation>
+        <translation>%1: Datagram för stort</translation>
     </message>
     <message>
         <source>%1: Connection error</source>
-        <translation>%1: Wazzewo kiremya mu mpulizagana</translation>
+        <translation>%1: Anslutningsfel</translation>
     </message>
     <message>
         <source>%1: The socket operation is not supported</source>
-        <translation>%1: Sisitemu eno omukolo ogw&apos;oku soketi ogwo tegusobola</translation>
+        <translation>%1: Uttagsåtgärden stöds inte</translation>
     </message>
     <message>
         <source>%1: Operation not permitted when socket is in this state</source>
-        <translation>%1: Soketi nga eri mu mbeera eno sisitemu eno omukolo ogwo tegukkiriza</translation>
+        <translation>%1: Åtgärden tilläts inte när uttaget är i detta tillstånd</translation>
     </message>
     <message>
         <source>%1: Unknown error</source>
-        <translation>%1: Wazzewo kiremya atategeereka</translation>
+        <translation>%1: Okänt fel</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation>Omulimu ogw&apos;okussawo enkwatagana omulala gusangidwa gubumbujja</translation>
+        <translation>Försöker ansluta när en anslutning pågår</translation>
     </message>
     <message>
         <source>%1: Unknown error %2</source>
-        <translation>%1: Wazzewo kiremya atategeereka %2</translation>
+        <translation>%1: Okänt fel %2</translation>
     </message>
     <message>
         <source>%1: Access denied</source>
-        <translation>%1: Omulimu ogw&apos;oku soketi puloguramu terina ndukusa ze gwetaagisa</translation>
+        <translation>%1: Åtkomst nekad</translation>
     </message>
     <message>
         <source>Socket is not connected</source>
-        <translation>Soketi tekwataganizidwa</translation>
+        <translation>Uttaget är inte anslutet</translation>
     </message>
 </context>
 <context>
     <name>QMYSQLDriver</name>
     <message>
         <source>Unable to allocate a MYSQL object</source>
-        <translation>Tekisobose okutegeka ekyetongole ekya mu MYSQL</translation>
-    </message>
-    <message>
-        <source>Unable to open database &apos;%1&apos;</source>
-        <translation>Tekisobose okubikkula ggwanika lya data &apos;%1&apos;</translation>
+        <translation>Kunde inte allokera ett MYSQL-objekt</translation>
     </message>
     <message>
         <source>Unable to connect</source>
-        <translation>Okukwatagana kulemye</translation>
+        <translation>Kunde inte ansluta</translation>
+    </message>
+    <message>
+        <source>Unable to open database &apos;%1&apos;</source>
+        <translation>Kunde inte öppna databasen &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>Tekisobose okutandika omukolo</translation>
+        <translation>Kunde inte påbörja transaktion</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Kunde inte verkställa transaktion</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Tekisobose okujjulula ebikyusidwa</translation>
+        <translation>Kunde inte rulla tillbaka transaktion</translation>
     </message>
 </context>
 <context>
     <name>QMYSQLResult</name>
     <message>
         <source>Unable to fetch data</source>
-        <translation>Tekisobose okunona data</translation>
+        <translation>Kunde inte hämta data</translation>
     </message>
     <message>
         <source>Unable to execute query</source>
-        <translation>Tekisobose okutandika ekiragiro ekinoonyeza mu ggwanika lya data</translation>
+        <translation>Kunde inte köra frågesats</translation>
     </message>
     <message>
         <source>Unable to store result</source>
-        <translation>Tekisobose okutereka ekivuddemu</translation>
+        <translation>Kunde inte lagra resultat</translation>
     </message>
     <message>
         <source>Unable to execute next query</source>
-        <translation>Tekisobose okutandika ekiragiro ekinoonyeza mu ggwanika lya data ekiddako</translation>
+        <translation>Kunde inte köra nästa frågesats</translation>
     </message>
     <message>
         <source>Unable to store next result</source>
-        <translation>Tekisobose okutereka ekivuddemu ekiddako</translation>
+        <translation>Kunde inte lagra nästa resultat</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Tekisobose okutegeka kiragiro kya SQL kiddibwengamu mangu</translation>
+        <translation>Kunde inte förbereda frågesats</translation>
     </message>
     <message>
         <source>Unable to reset statement</source>
-        <translation>Tekisobose okuzza ekiragiro ekya mu ggwanika lya data mu mbeera ya kyo eyasoose</translation>
+        <translation>Kunde inte återställa frågesats</translation>
     </message>
     <message>
         <source>Unable to bind value</source>
-        <translation>Tekisobose okuzza ekikongojje ekya ddala mu kifo ky&apos;ekikwatakifo</translation>
+        <translation>Kunde inte binda värde</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Tekisobose okutandika ekiragiro ekya mu ggwanika lya data</translation>
+        <translation>Kunde inte köra frågesats</translation>
     </message>
     <message>
         <source>Unable to bind outvalues</source>
-        <translation>Tekisobose okuzza ekikongojje ekya ddala mu kifo ky&apos;ekikwatakifo</translation>
+        <translation>Kunde inte binda utvärden</translation>
     </message>
     <message>
         <source>Unable to store statement results</source>
-        <translation>Tekisobose okutereka ekivuddemu mukolo ogwa ku ggwanika lya data</translation>
+        <translation>Kunde inte lagra resultat från frågesats</translation>
     </message>
 </context>
 <context>
     <name>QMdiArea</name>
     <message>
         <source>(Untitled)</source>
-        <translation>(Tekuli mutwe)</translation>
+        <translation>(Namnlös)</translation>
     </message>
 </context>
 <context>
@@ -2487,360 +2486,360 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>Funza</translation>
+        <translation>Minimera</translation>
     </message>
     <message>
         <source>Maximize</source>
-        <translation>Buna Lutimbe</translation>
+        <translation>Maximera</translation>
     </message>
     <message>
         <source>Unshade</source>
-        <translation>Zingulula</translation>
+        <translation>Avskugga</translation>
     </message>
     <message>
         <source>Shade</source>
-        <translation>Zingako</translation>
+        <translation>Skugga</translation>
     </message>
     <message>
         <source>Restore Down</source>
-        <translation>Lekerawo okubuna olutimbe</translation>
+        <translation>Återställ nedåt</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation>Zzawo</translation>
+        <translation>Återställ</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Gala</translation>
+        <translation>Stäng</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Nyamba</translation>
+        <translation>Hjälp</translation>
     </message>
     <message>
         <source>Menu</source>
-        <translation>Menyu</translation>
+        <translation>Meny</translation>
     </message>
     <message>
         <source>&amp;Restore</source>
-        <translation>&amp;Zzawo</translation>
+        <translation>Åte&amp;rställ</translation>
     </message>
     <message>
         <source>&amp;Move</source>
-        <translation>&amp;Simbuliza</translation>
+        <translation>&amp;Flytta</translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>&amp;Bunene</translation>
+        <translation>&amp;Storlek</translation>
     </message>
     <message>
         <source>Mi&amp;nimize</source>
-        <translation>Fu&amp;nza</translation>
+        <translation>Mi&amp;nimera</translation>
     </message>
     <message>
         <source>Ma&amp;ximize</source>
-        <translation>Buna Lu&amp;timbe</translation>
+        <translation>Ma&amp;ximera</translation>
     </message>
     <message>
         <source>Stay on &amp;Top</source>
-        <translation>Sigala &amp;ku ngulu</translation>
+        <translation>Stanna kvar övers&amp;t</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Gala</translation>
+        <translation>S&amp;täng</translation>
     </message>
 </context>
 <context>
     <name>QMessageBox</name>
     <message>
         <source>Show Details...</source>
-        <translation>Ndaga Ebisingawo...</translation>
+        <translation>Visa detaljer...</translation>
     </message>
     <message>
         <source>Hide Details...</source>
-        <translation>Ebisinga Obungi Bikise...</translation>
+        <translation>Dölj detaljer...</translation>
     </message>
     <message>
         <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
-        <translation>&lt;h3&gt;Ku Qt&lt;/h3&gt;&lt;p&gt;Puloguramu eno ekozesa Qt wa luwandika %1.&lt;/p&gt;</translation>
+        <translation>&lt;h3&gt;Om Qt&lt;/h3&gt;&lt;p&gt;Detta program använder Qt version %1.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
         <extracomment>Leave this text untranslated or include a verbatim copy of it below and note that it is the authoritative version in case of doubt.</extracomment>
-        <translation></translation>
+        <translation>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About Qt</source>
-        <translation>Kwanjula Qt</translation>
+        <translation>Om Qt</translation>
     </message>
 </context>
 <context>
     <name>QNativeSocketEngine</name>
     <message>
         <source>Unable to initialize non-blocking socket</source>
-        <translation>Tekisobose okutegeka soketi etayimiriza omulimu gweweereza</translation>
+        <translation>Kunde inte initiera icke-blockerande uttag</translation>
     </message>
     <message>
         <source>Unable to initialize broadcast socket</source>
-        <translation>Tekisobose okutegeka soketi ekola ku bya sindikira bonna</translation>
+        <translation>Kunde inte initiera uttag för broadcast</translation>
     </message>
     <message>
         <source>Attempt to use IPv6 socket on a platform with no IPv6 support</source>
-        <translation>Sisitemu tesobola okuwulizaganisa nkola ya IPv6</translation>
+        <translation>Försök att använda IPv6-uttag på en plattform som saknar IPv6-stöd</translation>
     </message>
     <message>
         <source>The remote host closed the connection</source>
-        <translation>Kompyuta ey&apos;ebunaayira eggadewo empulizagana</translation>
+        <translation>Fjärrvärden stängde anslutningen</translation>
     </message>
     <message>
         <source>Network operation timed out</source>
-        <translation>Omukolo ogw&apos;oku kayungirizi obudde buguyiseko</translation>
+        <translation>Tidsgräns för nätverksåtgärd överstegs</translation>
     </message>
     <message>
         <source>Out of resources</source>
-        <translation>Sisitemu bye yeyambsa okukola omulimu tebimala, byonna bikozesebwa</translation>
+        <translation>Slut på resurser</translation>
     </message>
     <message>
         <source>Unsupported socket operation</source>
-        <translation>Sisitemu eno omukolo ogw&apos;oku soketi ogwo tegusobola</translation>
+        <translation>Uttagsåtgärden stöds inte</translation>
     </message>
     <message>
         <source>Protocol type not supported</source>
-        <translation>Sisitemu tekolagana n&apos;empulizagana ey&apos;ekika kino</translation>
+        <translation>Protokolltypen stöds inte</translation>
     </message>
     <message>
         <source>Invalid socket descriptor</source>
-        <translation>Endagiriro ey&apos;oku soketi nkyamu</translation>
+        <translation>Ogiltig uttagsbeskrivare</translation>
     </message>
     <message>
         <source>Host unreachable</source>
-        <translation>Kompyuta enyunge tetuukikako</translation>
+        <translation>Värden är inte nåbar</translation>
     </message>
     <message>
         <source>Network unreachable</source>
-        <translation>Kayungirizi tetuukikako</translation>
+        <translation>Nätverket är inte nåbart</translation>
     </message>
     <message>
         <source>Permission denied</source>
-        <translation>Olukusa teruweeredwa</translation>
+        <translation>Åtkomst nekad</translation>
     </message>
     <message>
         <source>Connection timed out</source>
-        <translation>Okukwatagana ne kompyuta enyunge obudde bukuyiseko</translation>
+        <translation>Tidsgränsen för anslutning överstegs</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>Okukwatagana ne kompyuta enyunge kugaanidwa</translation>
+        <translation>Anslutningen vägrades</translation>
     </message>
     <message>
         <source>The bound address is already in use</source>
-        <translation>Endagiriro eyekwatibwa ekozesebwa soketi ndala</translation>
+        <translation>Bindningsadress används redan</translation>
     </message>
     <message>
         <source>The address is not available</source>
-        <translation>Endagiriro tegabibwa</translation>
+        <translation>Adressen är inte tillgänglig</translation>
     </message>
     <message>
         <source>The address is protected</source>
-        <translation>Endagiriro etayizidwa</translation>
+        <translation>Adressen är skyddad</translation>
     </message>
     <message>
         <source>Datagram was too large to send</source>
-        <translation>Dataguramu tesindikika olw&apos;okuyitirira obunene</translation>
+        <translation>Datagram för för stor för att skicka</translation>
     </message>
     <message>
         <source>Unable to send a message</source>
-        <translation>Tekisobose okusindika obubaka</translation>
+        <translation>Kunde inte skicka ett meddelande</translation>
     </message>
     <message>
         <source>Unable to receive a message</source>
-        <translation>Tekisobose okufuna obubaka</translation>
+        <translation>Kunde inte ta emot ett meddelande</translation>
     </message>
     <message>
         <source>Unable to write</source>
-        <translation>Tekisobose okuwandika</translation>
+        <translation>Kunde inte skriva</translation>
     </message>
     <message>
         <source>Network error</source>
-        <translation>Kayungirizi ezzeeko kiremya</translation>
+        <translation>Nätverksfel</translation>
     </message>
     <message>
         <source>Another socket is already listening on the same port</source>
-        <translation>Soketi endala esangidwa ewuliriza ku pooti y&apos;emu</translation>
+        <translation>Ett annat uttag lyssnar redan på samma port</translation>
     </message>
     <message>
         <source>Operation on non-socket</source>
-        <translation>Omukolo gukolebwa ku kitali soketi</translation>
+        <translation>Åtgärd på icke-uttag</translation>
     </message>
     <message>
         <source>The proxy type is invalid for this operation</source>
-        <translation>Ekika kya kalaani tekikwatagana n&apos;omukolo guno</translation>
+        <translation>Proxytypen är ogiltig för denna åtgärd</translation>
     </message>
     <message>
         <source>Temporary error</source>
-        <translation>Wazzewo kiremya wa kiseerabuseera</translation>
+        <translation>Temporärt fel</translation>
     </message>
     <message>
         <source>Network dropped connection on reset</source>
-        <translation>Empulizagana bw&apos;ezzidwayo mu mbeera ya yo eyasooka kayungirizi n&apos;eggalawo empulizagana</translation>
+        <translation>Nätverket stängde anslutningen vid nollställning</translation>
     </message>
     <message>
         <source>Connection reset by peer</source>
-        <translation>Kompyuta ey&apos;ebunaayira okuwulizagana ekuzizzayo mu mbeera yakwo eyasooka</translation>
+        <translation>Anslutningen nollställdes av motpart</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Wazzewo kiremya atategeereka</translation>
+        <translation>Okänt fel</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessCacheBackend</name>
     <message>
         <source>Error opening %1</source>
-        <translation>Wazzewo kiremya mu kubikkula %1</translation>
+        <translation>Fel vid öppning %1</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessDataBackend</name>
     <message>
         <source>Invalid URI: %1</source>
-        <translation>URI eriko obukyamu: %1</translation>
+        <translation>Ogiltig URI: %1</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessDebugPipeBackend</name>
     <message>
         <source>Write error writing to %1: %2</source>
-        <translation>Okuwandika mu %1 kuzzemu kiremya: %2</translation>
+        <translation>Skrivfel vid skrivning till %1: %2</translation>
     </message>
     <message>
         <source>Socket error on %1: %2</source>
-        <translation>Wazzewo kiremya ku soketi %1: %2</translation>
+        <translation>Uttagsfel på %1: %2</translation>
     </message>
     <message>
         <source>Remote host closed the connection prematurely on %1</source>
-        <translation>Kompyuta ey&apos;ebunaayira empulizagana ku %1 ekuggadewo nga bukyali</translation>
+        <translation>Fjärrvärden stängde anslutningen i förtid på %1</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessFileBackend</name>
     <message>
         <source>Request for opening non-local file %1</source>
-        <translation>Fayiro %1 eri ku kompyuta ndala</translation>
+        <translation>Begäran för öppning av icke-lokala filen %1</translation>
     </message>
     <message>
         <source>Error opening %1: %2</source>
-        <translation>Okubikkula %1 kuzzemu kiremya: %2</translation>
+        <translation>Fel vid öppning av %1: %2</translation>
     </message>
     <message>
         <source>Write error writing to %1: %2</source>
-        <translation>Okuwandika mu %1 kuzzemu kiremya: %2</translation>
+        <translation>Skrivfel vid skrivning till %1: %2</translation>
     </message>
     <message>
         <source>Cannot open %1: Path is a directory</source>
-        <translation>Tekisobose okubikkula %1: Ekkubo ligguka ku tterekero</translation>
+        <translation>Kan inte öppna %1: Sökvägen är en katalog</translation>
     </message>
     <message>
         <source>Read error reading from %1: %2</source>
-        <translation>Okusoma %1 kuzzemu kiremya: %2</translation>
+        <translation>Läsfel vid läsning från %1: %2</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessFtpBackend</name>
     <message>
         <source>No suitable proxy found</source>
-        <translation>Tewali kalaani ekozeseka</translation>
+        <translation>Ingen lämplig proxy hittades</translation>
     </message>
     <message>
         <source>Cannot open %1: is a directory</source>
-        <translation>Tekisobose okubikkula %1: tterekero</translation>
+        <translation>Kan inte öppna %1: är en katalog</translation>
     </message>
     <message>
         <source>Logging in to %1 failed: authentication required</source>
-        <translation>Okuyingira %1 kugaanye: kyetaagisa kukakasibwa</translation>
+        <translation>Inloggning till %1 misslyckades: autentisering krävs</translation>
     </message>
     <message>
         <source>Error while downloading %1: %2</source>
-        <translation>Okuwanula %1 kuzzemu kiremya: %2</translation>
+        <translation>Fel vid hämtning av %1: %2</translation>
     </message>
     <message>
         <source>Error while uploading %1: %2</source>
-        <translation>Okuteekayo %1 kuzzemu kiremya: %2</translation>
+        <translation>Fel vid sändning av %1: %2</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReply</name>
     <message>
         <source>Error transferring %1 - server replied: %2</source>
-        <translation>Okusimbuliza %1 kuzzemu kiremya - obubaka obuva ku kompyuta esindikirwa: %2</translation>
-    </message>
-    <message>
-        <source>Network session error.</source>
-        <translation>Olukolagana lwa ku kayungirizi luzzemu kiremya.</translation>
-    </message>
-    <message>
-        <source>Background request not allowed.</source>
-        <translation>Ebiragiro eby&apos;emmanju kakano tebikkirizibwa.</translation>
-    </message>
-    <message>
-        <source>backend start error.</source>
-        <translation>Wazzewo kiremya mu kutandika puloguramu ey&apos;oku musingi.</translation>
-    </message>
-    <message>
-        <source>Temporary network failure.</source>
-        <translation>Okuwulizagana kukomezedwa mu ngeri ya kiseerabuseera.</translation>
+        <translation>Fel vid överföring %1 - servern svarade: %2</translation>
     </message>
     <message>
         <source>Protocol &quot;%1&quot; is unknown</source>
-        <translation>Sisitemu tetegeera mpulizagana ey&apos;ekika kya &quot;%1&quot;</translation>
+        <translation>Protokollet &quot;%1&quot; är okänt</translation>
+    </message>
+    <message>
+        <source>Network session error.</source>
+        <translation>Fel i nätverkssession.</translation>
+    </message>
+    <message>
+        <source>Background request not allowed.</source>
+        <translation>Bakgrundsbegäran tillåts inte.</translation>
+    </message>
+    <message>
+        <source>backend start error.</source>
+        <translation>fel vid start av bakände.</translation>
+    </message>
+    <message>
+        <source>Temporary network failure.</source>
+        <translation>Temporärt nätverksfel.</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReplyHttpImpl</name>
     <message>
         <source>Operation canceled</source>
-        <translation>Omukolo gusazidwamu</translation>
+        <translation>Åtgärden avbröts</translation>
     </message>
     <message>
         <source>No suitable proxy found</source>
-        <translation>Tewali kalaani ekozeseka</translation>
+        <translation>Ingen lämplig proxy hittades</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReplyImpl</name>
     <message>
         <source>Operation canceled</source>
-        <translation>Omukolo gusazidwamu</translation>
+        <translation>Åtgärden avbröts</translation>
     </message>
 </context>
 <context>
     <name>QNetworkSession</name>
     <message>
         <source>Invalid configuration.</source>
-        <translation>Enteekateeka y&apos;ebyakayungirizi eriwo eremesa omukolo.</translation>
+        <translation>Ogiltig konfiguration.</translation>
     </message>
 </context>
 <context>
     <name>QNetworkSessionPrivateImpl</name>
     <message>
         <source>Unknown session error.</source>
-        <translation>Olukolagana lwa ku kayungirizi luzzemu kiremya atategeereka.</translation>
+        <translation>Okänt sessionsfel.</translation>
     </message>
     <message>
         <source>The session was aborted by the user or system.</source>
-        <translation>Olukolagana lukomezedwa omukozesa oba sisitemu.</translation>
+        <translation>Sessionen avbröts av användaren eller systemet.</translation>
     </message>
     <message>
         <source>The requested operation is not supported by the system.</source>
-        <translation>Sisitemu eno omukolo ogw&apos;oku kayungirizi ogwo tegusobola.</translation>
+        <translation>Begärd operation stöds inte av systemet.</translation>
     </message>
     <message>
         <source>The specified configuration cannot be used.</source>
-        <translation>Enteekateeka y&apos;ebyakayungirizi erondedwa tekozeseka.</translation>
+        <translation>Angiven konfiguration kan inte användas.</translation>
     </message>
     <message>
         <source>Roaming was aborted or is not possible.</source>
-        <translation>Okukyusanga mukutu guyitibwamu okutuuka ku kayungirizi eya waya tekusoboka oba kukomezedwa.</translation>
+        <translation>Roaming avbröts eller är inte möjlig.</translation>
     </message>
 </context>
 <context>
@@ -2848,266 +2847,265 @@ Era oyagala egyibwewo?</translation>
     <message>
         <source>Unable to initialize</source>
         <comment>QOCIDriver</comment>
-        <translation>Tekisobose okutegekera okutandika</translation>
+        <translation>Kunde inte initiera</translation>
     </message>
     <message>
         <source>Unable to logon</source>
-        <translation>Tekisobose okuyingira</translation>
+        <translation>Kunde inte logga in</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>Tekisobose okutandika omukolo</translation>
+        <translation>Kunde inte påbörja transaktion</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Kunde inte verkställa transaktion</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Tekisobose okujjulula ebikyusidwa</translation>
+        <translation>Kunde inte rulla tillbaka transaktion</translation>
     </message>
 </context>
 <context>
     <name>QOCIResult</name>
     <message>
         <source>Unable to bind column for batch execute</source>
-        <translation>Tekisobose okunona ebikongojje ebinaakolebwako okuva mu lukumbo lwa data olwa mu ggwanika lya data</translation>
+        <translation>Kunde inte binda kolumn för satskörning</translation>
     </message>
     <message>
         <source>Unable to execute batch statement</source>
-        <translation>Tekisobose okukolera ku kiragiro kya mu ggwanika lya data</translation>
+        <translation>Kunde inte köra satsfråga</translation>
     </message>
     <message>
         <source>Unable to goto next</source>
-        <translation>Tekisobose okugenda ku kiddako</translation>
+        <translation>Kunde inte gå till nästa</translation>
     </message>
     <message>
         <source>Unable to alloc statement</source>
-        <translation>Alloc tesobodde okulenga data ekolebweko ekiragiro ekya mu ggwanika lya data</translation>
+        <translation>Kunde inte allokera frågesats</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Tekisobose okutegeka kiragiro kya SQL kiddibwengamu mangu</translation>
+        <translation>Kunde inte förbereda frågesats</translation>
     </message>
     <message>
         <source>Unable to get statement type</source>
-        <translation>Tekisobose okutegeera ekika ky&apos;ekiragiro kya mu ggwanika lya data</translation>
+        <translation>Kunde inte få villkorstypen</translation>
     </message>
     <message>
         <source>Unable to bind value</source>
-        <translation>Tekisobose okuzza ekikongojje ekya ddala mu kifo ky&apos;ekikwatakifo</translation>
+        <translation>Kunde inte binda värde</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Tekisobose okutandika ekiragiro ekya mu ggwanika lya data</translation>
+        <translation>Kunde inte köra frågesats</translation>
     </message>
 </context>
 <context>
     <name>QODBCDriver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>Okukwatagana kulemye</translation>
+        <translation>Kunde inte ansluta</translation>
     </message>
     <message>
         <source>Unable to connect - Driver doesn&apos;t support all functionality required</source>
-        <translation>Okukwatagana kulemye - Puloguramu etabaganya ebulako obumu ku obusobozi obwetaagibwa</translation>
+        <translation>Kunde inte ansluta - Drivrutinen har inte stöd för all funktionalitet som krävs</translation>
     </message>
     <message>
         <source>Unable to disable autocommit</source>
-        <translation>Teksobose okusirisa autocommit</translation>
+        <translation>Kunde inte inaktivera automatisk verkställning</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Kunde inte verkställa transaktion</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Tekisobose okujjulula ebikyusidwa</translation>
+        <translation>Kunde inte rulla tillbaka transaktion</translation>
     </message>
     <message>
         <source>Unable to enable autocommit</source>
-        <translation>Teksobose okuzuukusa autocommit</translation>
+        <translation>Kunde inte aktivera automatisk verkställning</translation>
     </message>
 </context>
 <context>
     <name>QODBCResult</name>
     <message>
-        <source>QODBCResult::reset: Unable to set &apos;SQL_CURSOR_STATIC&apos; as statement attribute. Please check your ODBC driver configuration</source>
-        <translation>QODBCResult::reset: Tekisobose okutegeka &apos;SQL_CURSOR_STATIC&apos; okubeera atiributo y&apos;ekiragiro kya mu ggwanika lya data.
-Kebera enteekateeka za puloguramu ekutabaganira ODBC ne kompyuta yo</translation>
+        <source>Unable to fetch last</source>
+        <translation>Kunde inte hämta sista</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Tekisobose okutandika ekiragiro ekya mu ggwanika lya data</translation>
+        <translation>Kunde inte köra villkor</translation>
     </message>
     <message>
         <source>Unable to fetch</source>
-        <translation>Tekisobose okunona</translation>
+        <translation>Kunde inte hämta</translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>Tekisobose okunona ekiddako</translation>
+        <translation>Kunde inte hämta nästa</translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>Tekisobose okunona ekisooka</translation>
+        <translation>Kunde inte hämta första</translation>
     </message>
     <message>
         <source>Unable to fetch previous</source>
-        <translation>Tekisobose okunona ekikulembera</translation>
+        <translation>Kunde inte hämta föregående</translation>
     </message>
     <message>
-        <source>Unable to fetch last</source>
-        <translation>Tekisobose okunona ekisembayo</translation>
+        <source>QODBCResult::reset: Unable to set &apos;SQL_CURSOR_STATIC&apos; as statement attribute. Please check your ODBC driver configuration</source>
+        <translation>QODBCResult::reset: Kunde inte ställa in \&quot;SQL_CURSOR_STATIC\&quot; som frågesatsattribut. Kontrollera konfigurationen för din ODBC-drivrutin</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Tekisobose okutegeka kiragiro kya SQL kiddibwengamu mangu</translation>
+        <translation>Kunde inte förbereda frågesats</translation>
     </message>
     <message>
         <source>Unable to bind variable</source>
-        <translation>Tekisobose okuzza ekikongojje ekya ddala mu kifo ky&apos;ekikwatakifo</translation>
+        <translation>Kunde inte binda variabel</translation>
     </message>
 </context>
 <context>
     <name>QPSQLDriver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>Okukwatagana kulemye</translation>
+        <translation>Kunde inte ansluta</translation>
     </message>
     <message>
         <source>Could not begin transaction</source>
-        <translation>Tekisobose okutandika omukolo</translation>
+        <translation>Kunde inte påbörja transaktion</translation>
     </message>
     <message>
         <source>Could not commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Kunde inte verkställa transaktion</translation>
     </message>
     <message>
         <source>Could not rollback transaction</source>
-        <translation>Tekisobose okujjulula ebikyusidwa</translation>
+        <translation>Kunde inte rulla tillbaka transaktion</translation>
     </message>
     <message>
         <source>Unable to subscribe</source>
-        <translation>Tekisobose okusaba okufunanga koppi z&apos;ebiri mu ggwanika lya data ndala</translation>
+        <translation>Kunde inte prenumerera</translation>
     </message>
     <message>
         <source>Unable to unsubscribe</source>
-        <translation>Tekisobose okukomya okufunanga koppi z&apos;ebiri mu ggwanika lya data ndala</translation>
+        <translation>Kunde inte avprenumerera</translation>
     </message>
 </context>
 <context>
     <name>QPSQLResult</name>
     <message>
         <source>Query results lost - probably discarded on executing another SQL query.</source>
-        <translation>Ebividde mu kunoonya bibuzewo - kyandiba nga kivudde ku kutandika okunoonya okwa SQL okupya.</translation>
+        <translation>Frågesatsens resultat förlorades - antagligen förkastade vid körning av en annan SQL-fråga.</translation>
     </message>
     <message>
         <source>Unable to create query</source>
-        <translation>Tekisobose okutegeka okunoonya</translation>
+        <translation>Kunde inte skapa fråga</translation>
     </message>
     <message>
         <source>Unable to get result</source>
-        <translation>Tekisobose okunona ebivudde mu kunoonya</translation>
+        <translation>Kunde inte få resultat</translation>
     </message>
     <message>
         <source>Unable to send query</source>
-        <translation>Tkisobose okutandika okunonya</translation>
+        <translation>Kunde inte skicka frågesats</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Tekisobose okutegeka kiragiro kya SQL kiddibwengamu mangu</translation>
+        <translation>Kunde inte förbereda villkor</translation>
     </message>
 </context>
 <context>
     <name>QPageSetupWidget</name>
     <message>
         <source>Form</source>
-        <translation>Foomu</translation>
+        <translation>Formulär</translation>
     </message>
     <message>
         <source>Paper</source>
-        <translation>Lupapula</translation>
+        <translation>Papper</translation>
     </message>
     <message>
         <source>Page size:</source>
-        <translation>Bunene bwa lupapula:</translation>
+        <translation>Sidstorlek:</translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation>Bugazi:</translation>
+        <translation>Bredd:</translation>
     </message>
     <message>
         <source>Height:</source>
-        <translation>Buwanvu:</translation>
+        <translation>Höjd:</translation>
     </message>
     <message>
         <source>Paper source:</source>
-        <translation>Gye lutoolebwa:</translation>
+        <translation>Papperskälla:</translation>
     </message>
     <message>
         <source>Orientation</source>
-        <translation>Entereera</translation>
+        <translation>Orientering</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>Busimbalaala</translation>
+        <translation>Stående</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>Bugazi</translation>
+        <translation>Liggande</translation>
     </message>
     <message>
         <source>Reverse landscape</source>
-        <translation>Bugazi nga luvuunike</translation>
+        <translation>Omvänt liggande</translation>
     </message>
     <message>
         <source>Reverse portrait</source>
-        <translation>Busimbalaala nga luvuunike</translation>
+        <translation>Omvänt stående</translation>
     </message>
     <message>
         <source>Margins</source>
-        <translation>Myagaanya</translation>
+        <translation>Marginaler</translation>
     </message>
     <message>
         <source>top margin</source>
-        <translation>Mwagaanya ogwa waggulu</translation>
+        <translation>övre marginal</translation>
     </message>
     <message>
         <source>left margin</source>
-        <translation>Mwagaanya ogwa kkono</translation>
+        <translation>vänstermarginal</translation>
     </message>
     <message>
         <source>right margin</source>
-        <translation>Mwagaanya ogwa ddyo</translation>
+        <translation>högermarginal</translation>
     </message>
     <message>
         <source>bottom margin</source>
-        <translation>Mwagaanya ogwa wansi</translation>
+        <translation>nedre marginal</translation>
     </message>
     <message>
         <source>Page Layout</source>
-        <translation>Entegeka y&apos;empapula</translation>
+        <translation>Sidlayout</translation>
     </message>
     <message>
         <source>Page order:</source>
-        <translation>Engoberereragana y&apos;empapula:</translation>
+        <translation>Sidordning:</translation>
     </message>
     <message>
         <source>Pages per sheet:</source>
-        <translation>Eby&apos;empapula meka ku buli lukubisibwa:</translation>
+        <translation>Sidor per ark:</translation>
     </message>
     <message>
         <source>Millimeters (mm)</source>
-        <translation>Milimiita (mm)</translation>
+        <translation>Millimeter (mm)</translation>
     </message>
     <message>
         <source>Inches (in)</source>
-        <translation>Yinci (in)</translation>
+        <translation>Tum (in)</translation>
     </message>
     <message>
         <source>Points (pt)</source>
-        <translation>Poyinti (pt)</translation>
+        <translation>Punkter (pt)</translation>
     </message>
     <message>
         <source>Pica (P̸)</source>
@@ -3115,7 +3113,7 @@ Kebera enteekateeka za puloguramu ekutabaganira ODBC ne kompyuta yo</translation
     </message>
     <message>
         <source>Didot (DD)</source>
-        <translation>Didoti (DD)</translation>
+        <translation>Didot (DD)</translation>
     </message>
     <message>
         <source>Cicero (CC)</source>
@@ -3123,7 +3121,7 @@ Kebera enteekateeka za puloguramu ekutabaganira ODBC ne kompyuta yo</translation
     </message>
     <message>
         <source>Custom</source>
-        <translation>Kigero kikyo</translation>
+        <translation>Anpassad</translation>
     </message>
     <message>
         <source>mm</source>
@@ -3138,7 +3136,7 @@ Kebera enteekateeka za puloguramu ekutabaganira ODBC ne kompyuta yo</translation
     <message>
         <source>in</source>
         <extracomment>Unit &apos;Inch&apos;</extracomment>
-        <translation>in</translation>
+        <translation>tum</translation>
     </message>
     <message>
         <source>P̸</source>
@@ -3161,37 +3159,37 @@ Kebera enteekateeka za puloguramu ekutabaganira ODBC ne kompyuta yo</translation
     <message>
         <source>Custom (%1mm x %2mm)</source>
         <extracomment>Custom size name in millimeters</extracomment>
-        <translation>Kigero kikyo mu milimiita (%1mm x %2mm)</translation>
+        <translation>Anpassad (%1mm x %2mm)</translation>
     </message>
     <message>
         <source>Custom (%1pt x %2pt)</source>
         <extracomment>Custom size name in points</extracomment>
-        <translation>Kigero kikyo mu poyinti (%1pt x %2pt)</translation>
+        <translation>Anpassad (%1pt x %2pt)</translation>
     </message>
     <message>
         <source>Custom (%1in x %2in)</source>
         <extracomment>Custom size name in inches</extracomment>
-        <translation>Kigero kikyo mu yinci (%1in x %2in)</translation>
+        <translation>Anpassad (%1 tum x %2 tum)</translation>
     </message>
     <message>
         <source>Custom (%1pc x %2pc)</source>
         <extracomment>Custom size name in picas</extracomment>
-        <translation>Kigero kikyo mu pica (%1pc x %2pc)</translation>
+        <translation>Anpassad (%1pc x %2pc)</translation>
     </message>
     <message>
         <source>Custom (%1DD x %2DD)</source>
         <extracomment>Custom size name in didots</extracomment>
-        <translation>Kigero kikyo mu didoti (%1DD x %2DD)</translation>
+        <translation>Anpassad (%1DD x %2DD)</translation>
     </message>
     <message>
         <source>Custom (%1CC x %2CC)</source>
         <extracomment>Custom size name in ciceros</extracomment>
-        <translation>Kigero kikyo mu cicero (%1CC x %2CC)</translation>
+        <translation>Anpassad (%1CC x %2CC)</translation>
     </message>
     <message>
         <source>%1 x %2 in</source>
         <extracomment>Page size in &apos;Inch&apos;.</extracomment>
-        <translation>yinci %1 ku %2</translation>
+        <translation>%1 x %2 tum</translation>
     </message>
     <message>
         <source>A0</source>
@@ -3283,59 +3281,59 @@ Kebera enteekateeka za puloguramu ekutabaganira ODBC ne kompyuta yo</translation
     </message>
     <message>
         <source>Executive (7.5 x 10 in)</source>
-        <translation>Kizecutivu (yinci 7.5 ku 10)</translation>
+        <translation>Executive (7.5 x 10 tum)</translation>
     </message>
     <message>
         <source>Executive (7.25 x 10.5 in)</source>
-        <translation>Kizecutivu (yinci 7.25 ku 10.5)</translation>
+        <translation>Executive (7.25 x 10.5 tum)</translation>
     </message>
     <message>
         <source>Folio (8.27 x 13 in)</source>
-        <translation>Foliyo (yinci 8.27 ku 13)</translation>
+        <translation>Folio (8.27 x 13 tum)</translation>
     </message>
     <message>
         <source>Legal</source>
-        <translation>Kinnamateeka</translation>
+        <translation>Legal</translation>
     </message>
     <message>
         <source>Letter / ANSI A</source>
-        <translation>Bbaluwa ya mu Amerika /ANSI A</translation>
+        <translation>Brev / ANSI A</translation>
     </message>
     <message>
         <source>Tabloid / ANSI B</source>
-        <translation>Tabuloyidi / ANSI B</translation>
+        <translation>Nyhetstidning / ANSI B</translation>
     </message>
     <message>
         <source>Ledger / ANSI B</source>
-        <translation>Leegya / ANSI B</translation>
+        <translation>Ledger / ANSI B</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>Kigero kikyo</translation>
+        <translation>Anpassad</translation>
     </message>
     <message>
         <source>A3 Extra</source>
-        <translation>A3 Ennene</translation>
+        <translation>A3 Extra</translation>
     </message>
     <message>
         <source>A4 Extra</source>
-        <translation>A4 Ennene</translation>
+        <translation>A4 Extra</translation>
     </message>
     <message>
         <source>A4 Plus</source>
-        <translation>A4 Oluwanvu</translation>
+        <translation>A4 Plus</translation>
     </message>
     <message>
         <source>A4 Small</source>
-        <translation>A4 Entono</translation>
+        <translation>A4 liten</translation>
     </message>
     <message>
         <source>A5 Extra</source>
-        <translation>A5 Ennene</translation>
+        <translation>A5 Extra</translation>
     </message>
     <message>
         <source>B5 Extra</source>
-        <translation>B5 Ennene</translation>
+        <translation>B5 Extra</translation>
     </message>
     <message>
         <source>JIS B0</source>
@@ -3395,368 +3393,368 @@ Kebera enteekateeka za puloguramu ekutabaganira ODBC ne kompyuta yo</translation
     </message>
     <message>
         <source>Legal Extra</source>
-        <translation>Kinnamateeka Olunene</translation>
+        <translation>Brev extra</translation>
     </message>
     <message>
         <source>Letter Extra</source>
-        <translation>Bbaluwa ya mu Amerika Ennene</translation>
+        <translation>Brev extra</translation>
     </message>
     <message>
         <source>Letter Plus</source>
-        <translation>Bbaluwa ya mu Amerika Empanvu</translation>
+        <translation>Brev plus</translation>
     </message>
     <message>
         <source>Letter Small</source>
-        <translation>Bbaluwa ya mu Amerika Entono</translation>
+        <translation>Brev litet</translation>
     </message>
     <message>
         <source>Tabloid Extra</source>
-        <translation>Tabuloyidi Ennene</translation>
+        <translation>Nyhetstidning extra</translation>
     </message>
     <message>
         <source>Architect A</source>
-        <translation>Acitekiti A</translation>
+        <translation>Arkitekt A</translation>
     </message>
     <message>
         <source>Architect B</source>
-        <translation>Acitekiti B</translation>
+        <translation>Arkitekt B</translation>
     </message>
     <message>
         <source>Architect C</source>
-        <translation>Acitekiti C</translation>
+        <translation>Arkitekt C</translation>
     </message>
     <message>
         <source>Architect D</source>
-        <translation>Acitekiti D</translation>
+        <translation>Arkitekt D</translation>
     </message>
     <message>
         <source>Architect E</source>
-        <translation>Acitekiti E</translation>
+        <translation>Arkitekt E</translation>
     </message>
     <message>
         <source>Note</source>
-        <translation>Nooti</translation>
+        <translation>Anteckning</translation>
     </message>
     <message>
         <source>Quarto</source>
-        <translation>Kwoto</translation>
+        <translation>Quarto</translation>
     </message>
     <message>
         <source>Statement</source>
-        <translation>Siteetimenti</translation>
+        <translation>Kungörelse</translation>
     </message>
     <message>
         <source>Super A</source>
-        <translation>Supa A</translation>
+        <translation>Super A</translation>
     </message>
     <message>
         <source>Super B</source>
-        <translation>Supa B</translation>
+        <translation>Super B</translation>
     </message>
     <message>
         <source>Postcard</source>
-        <translation>Kaadi</translation>
+        <translation>Vykort</translation>
     </message>
     <message>
         <source>Double Postcard</source>
-        <translation>Kaadi Balongo</translation>
+        <translation>Dubbelt vykort</translation>
     </message>
     <message>
         <source>PRC 16K</source>
-        <translation>PRC 16K (Cayina)</translation>
+        <translation>PRC 16K</translation>
     </message>
     <message>
         <source>PRC 32K</source>
-        <translation>PRC 32K (Cayina)</translation>
+        <translation>PRC 32K</translation>
     </message>
     <message>
         <source>PRC 32K Big</source>
-        <translation>PRC 32K (Cayina) Olunene</translation>
+        <translation>PRC 32K stor</translation>
     </message>
     <message>
         <source>Fan-fold US (14.875 x 11 in)</source>
-        <translation>Tungattunga ya mu Amerika (14.875 x 11 in)</translation>
+        <translation>Fan-fold US (14.875 x 11 tum)</translation>
     </message>
     <message>
         <source>Fan-fold German (8.5 x 12 in)</source>
-        <translation>Tungattunga ya mu Budaaki (8.5 x 12 in)</translation>
+        <translation>Fan-fold tysk (8.5 x 12 tum)</translation>
     </message>
     <message>
         <source>Fan-fold German Legal (8.5 x 13 in)</source>
-        <translation>Tungattunga ya kinnamateeka ya mu Budaaki (8.5 x 13 in)</translation>
+        <translation>Fan-fold tysk Legal (8.5 x 13 tum)</translation>
     </message>
     <message>
         <source>Envelope B4</source>
-        <translation>Baasa ya B4</translation>
+        <translation>Kuvert B4</translation>
     </message>
     <message>
         <source>Envelope B5</source>
-        <translation>Baasa ya B5</translation>
+        <translation>Kuvert B5</translation>
     </message>
     <message>
         <source>Envelope B6</source>
-        <translation>Baasa ya B6</translation>
+        <translation>Kuvert B6</translation>
     </message>
     <message>
         <source>Envelope C0</source>
-        <translation>Baasa ya C0</translation>
+        <translation>Kuvert C0</translation>
     </message>
     <message>
         <source>Envelope C1</source>
-        <translation>Baasa ya C1</translation>
+        <translation>Kuvert C1</translation>
     </message>
     <message>
         <source>Envelope C2</source>
-        <translation>Baasa ya C2</translation>
+        <translation>Kuvert C2</translation>
     </message>
     <message>
         <source>Envelope C3</source>
-        <translation>Baasa ya C3</translation>
+        <translation>Kuvert C3</translation>
     </message>
     <message>
         <source>Envelope C4</source>
-        <translation>Baasa ya C4</translation>
+        <translation>Kuvert C4</translation>
     </message>
     <message>
         <source>Envelope C5</source>
-        <translation>Baasa ya C5</translation>
+        <translation>Kuvert C5</translation>
     </message>
     <message>
         <source>Envelope C6</source>
-        <translation>Baasa ya C6</translation>
+        <translation>Kuvert C6</translation>
     </message>
     <message>
         <source>Envelope C65</source>
-        <translation>Baasa ya C65</translation>
+        <translation>Kuvert C65</translation>
     </message>
     <message>
         <source>Envelope C7</source>
-        <translation>Baasa ya C7</translation>
+        <translation>Kuvert C7</translation>
     </message>
     <message>
         <source>Envelope DL</source>
-        <translation>Baasa ya DL</translation>
+        <translation>Kuvert DL</translation>
     </message>
     <message>
         <source>Envelope US 9</source>
-        <translation>Baasa ya Amerika 9</translation>
+        <translation>Kuvert US 9</translation>
     </message>
     <message>
         <source>Envelope US 10</source>
-        <translation>Baasa ya Amerika 10</translation>
+        <translation>Kuvert US 10</translation>
     </message>
     <message>
         <source>Envelope US 11</source>
-        <translation>Baasa ya Amerika 11</translation>
+        <translation>Kuvert US 11</translation>
     </message>
     <message>
         <source>Envelope US 12</source>
-        <translation>Baasa ya Amerika 12</translation>
+        <translation>Kuvert US 12</translation>
     </message>
     <message>
         <source>Envelope US 14</source>
-        <translation>Baasa ya Amerika 14</translation>
+        <translation>Kuvert US 14</translation>
     </message>
     <message>
         <source>Envelope Monarch</source>
-        <translation>Baasa ya kimonaaki</translation>
+        <translation>Envelope Monarch</translation>
     </message>
     <message>
         <source>Envelope Personal</source>
-        <translation>Baasa ya Bulijjo</translation>
+        <translation>Kuvert Personal</translation>
     </message>
     <message>
         <source>Envelope Chou 3</source>
-        <translation>Baasa ya Chou 3</translation>
+        <translation>Kuvert Chou 3</translation>
     </message>
     <message>
         <source>Envelope Chou 4</source>
-        <translation>Baasa ya Chou 4</translation>
+        <translation>Kuvert Chou 4</translation>
     </message>
     <message>
         <source>Envelope Invite</source>
-        <translation>Baasa ey&apos;okuyita</translation>
+        <translation>Envelope Invite</translation>
     </message>
     <message>
         <source>Envelope Italian</source>
-        <translation>Baasa ya kiYitale</translation>
+        <translation>Kuvert italienskt</translation>
     </message>
     <message>
         <source>Envelope Kaku 2</source>
-        <translation>Baasa ya Kaku 2 (Japani)</translation>
+        <translation>Kuvert Kaku 2</translation>
     </message>
     <message>
         <source>Envelope Kaku 3</source>
-        <translation>Baasa ya Kaku 3 (Japani)</translation>
+        <translation>Kuvert Kaku 3</translation>
     </message>
     <message>
         <source>Envelope PRC 1</source>
-        <translation>Baasa ya PRC 1 (Cayina)</translation>
+        <translation>Kuvert PRC 1</translation>
     </message>
     <message>
         <source>Envelope PRC 2</source>
-        <translation>Baasa ya PRC 2 (Cayina)</translation>
+        <translation>Kuvert PRC 2</translation>
     </message>
     <message>
         <source>Envelope PRC 3</source>
-        <translation>Baasa ya PRC 3 (Cayina)</translation>
+        <translation>Kuvert PRC 3</translation>
     </message>
     <message>
         <source>Envelope PRC 4</source>
-        <translation>Baasa ya PRC 4 (Cayina)</translation>
+        <translation>Kuvert PRC 4</translation>
     </message>
     <message>
         <source>Envelope PRC 5</source>
-        <translation>Baasa ya PRC 5 (Cayina)</translation>
+        <translation>Kuvert PRC 5</translation>
     </message>
     <message>
         <source>Envelope PRC 6</source>
-        <translation>Baasa ya PRC 6 (Cayina)</translation>
+        <translation>Kuvert PRC 6</translation>
     </message>
     <message>
         <source>Envelope PRC 7</source>
-        <translation>Baasa ya PRC 7 (Cayina)</translation>
+        <translation>Kuvert PRC 7</translation>
     </message>
     <message>
         <source>Envelope PRC 8</source>
-        <translation>Baasa ya PRC 8 (Cayina)</translation>
+        <translation>Kuvert PRC 8</translation>
     </message>
     <message>
         <source>Envelope PRC 9</source>
-        <translation>Baasa ya PRC 9 (Cayina)</translation>
+        <translation>Kuvert PRC 9</translation>
     </message>
     <message>
         <source>Envelope PRC 10</source>
-        <translation>Baasa ya PRC 10 (Cayina)</translation>
+        <translation>Kuvert PRC 10</translation>
     </message>
     <message>
         <source>Envelope You 4</source>
-        <translation>Baasa ya You 4</translation>
+        <translation>Kuvert You 4</translation>
     </message>
 </context>
 <context>
     <name>QPlatformTheme</name>
     <message>
         <source>OK</source>
-        <translation>Kale</translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Kazza</translation>
+        <translation>Spara</translation>
     </message>
     <message>
         <source>Save All</source>
-        <translation>Byonna Bikazze</translation>
+        <translation>Spara allt</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Bikkula</translation>
+        <translation>Öppna</translation>
     </message>
     <message>
         <source>&amp;Yes</source>
-        <translation>&amp;Ye</translation>
+        <translation>&amp;Ja</translation>
     </message>
     <message>
         <source>Yes to &amp;All</source>
-        <translation>Byonna &amp;Bikkirize</translation>
+        <translation>Ja till &amp;allt</translation>
     </message>
     <message>
         <source>&amp;No</source>
-        <translation>&amp;Nedda</translation>
+        <translation>&amp;Nej</translation>
     </message>
     <message>
         <source>N&amp;o to All</source>
-        <translation>B&amp;yonna Bigaane</translation>
+        <translation>N&amp;ej till allt</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation>Biveko</translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Retry</source>
-        <translation>Era</translation>
+        <translation>Försök igen</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation>Tobifaako</translation>
+        <translation>Ignorera</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Gala</translation>
+        <translation>Stäng</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Sazamu</translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>Suula</translation>
+        <translation>Förkasta</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Nyamba</translation>
+        <translation>Hjälp</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation>Kazza</translation>
+        <translation>Verkställ</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Zza Bugya</translation>
+        <translation>Nollställ</translation>
     </message>
     <message>
         <source>Restore Defaults</source>
-        <translation>Zzawo bya Bulijjo</translation>
+        <translation>Nollställ till standard</translation>
     </message>
 </context>
 <context>
     <name>QPluginLoader</name>
     <message>
         <source>The plugin was not loaded.</source>
-        <translation>Ekyongerwako tekiwangidwa.</translation>
+        <translation>Insticksprogrammet lästes inte in.</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Wazzewo kiremya atategeereka</translation>
+        <translation>Okänt fel</translation>
     </message>
 </context>
 <context>
     <name>QPrintDialog</name>
     <message>
         <source>Print</source>
-        <translation>Kubisa</translation>
+        <translation>Skriv ut</translation>
     </message>
     <message>
         <source>Left to Right, Top to Bottom</source>
-        <translation>Tandikiranga ku kkono, era tandikiranga waggulu</translation>
+        <translation>Vänster till höger, topp till botten</translation>
     </message>
     <message>
         <source>Left to Right, Bottom to Top</source>
-        <translation>Tandikiranga ku kkono, era tandikiranga wansi</translation>
+        <translation>Vänster till höger, botten till toppen</translation>
     </message>
     <message>
         <source>Right to Left, Bottom to Top</source>
-        <translation>Tandikiranga ku ddyo, era tandikiranga wansi</translation>
+        <translation>Höger till vänster, botten till toppen</translation>
     </message>
     <message>
         <source>Right to Left, Top to Bottom</source>
-        <translation>Tandikiranga ku ddyo, era tandikiranga waggulu</translation>
+        <translation>Höger till vänster, toppen till botten</translation>
     </message>
     <message>
         <source>Bottom to Top, Left to Right</source>
-        <translation>Tandikiranga wansi, era tandikiranga ku kkono</translation>
+        <translation>Botten till toppen, vänster till höger</translation>
     </message>
     <message>
         <source>Bottom to Top, Right to Left</source>
-        <translation>Tandikiranga wansi, era tandikiranga ku ddyo</translation>
+        <translation>Botten till toppen, höger till vänster</translation>
     </message>
     <message>
         <source>Top to Bottom, Left to Right</source>
-        <translation>Tandikiranga waggulu, era tandikiranga ku kkono</translation>
+        <translation>Topp till botten, vänster till höger</translation>
     </message>
     <message>
         <source>Top to Bottom, Right to Left</source>
-        <translation>Tandikiranga waggulu, era tandikiranga ku ddyo</translation>
+        <translation>Topp till botten, höger till vänster</translation>
     </message>
     <message>
         <source>1 (1x1)</source>
@@ -3784,97 +3782,98 @@ Kebera enteekateeka za puloguramu ekutabaganira ODBC ne kompyuta yo</translation
     </message>
     <message>
         <source>All Pages</source>
-        <translation>Mpapula zonna</translation>
+        <translation>Alla sidor</translation>
     </message>
     <message>
         <source>Odd Pages</source>
-        <translation>Mpapula ez&apos;ennamba ezitagabanizikamu bbiri</translation>
+        <translation>Udda sidor</translation>
     </message>
     <message>
         <source>Even Pages</source>
-        <translation>Mpapula ez&apos;ennamba ezigabanizikamu bbiri</translation>
+        <translation>Jämna sidor</translation>
     </message>
     <message>
         <source>&amp;Options &gt;&gt;</source>
-        <translation>&amp;Ebisoboka&gt;&gt;</translation>
+        <translation>A&amp;lternativ &gt;&gt;</translation>
     </message>
     <message>
         <source>&amp;Print</source>
-        <translation>&amp;Kubisa</translation>
+        <translation>Skriv &amp;ut</translation>
     </message>
     <message>
         <source>&amp;Options &lt;&lt;</source>
-        <translation>&amp;Ebisoboka &lt;&lt;</translation>
+        <translation>A&amp;lternativ &lt;&lt;</translation>
     </message>
     <message>
         <source>Invalid Pages Definition</source>
-        <translation>Ekiwandikidwa okulonda mpapula kirimu ensobi</translation>
+        <translation>Ogiltig siddefinition</translation>
     </message>
     <message>
         <source>%1 does not follow the correct syntax. Please use &apos;,&apos; to separate ranges and pages, &apos;-&apos; to define ranges and make sure ranges do not intersect with each other.</source>
-        <translation>Empandika ya %1 erimu ensobi. Kozesa akabonero &apos;-&apos; okulaga olubu lw&apos;empapula era genderera nti embu bwe zisukka mu lumu teziyingiragana. Kozesa akabonero &apos;,&apos; okwawula ennamba z&apos;empapula z&apos;olaga kinnalumu.</translation>
+        <translation>%1 följer inte korrekt syntax. Använd &quot;,&quot; för att separera intervall och sidor, &quot;&apos;-&quot; för att definiera intervall och försäka dig om att intervallen inte överlappar varandra.</translation>
     </message>
     <message>
         <source>Duplex Settings Conflicts</source>
-        <translation>Waliwo ebitegekedwa ku by&apos;okuwandika kungulu n&apos;emabega w&apos;empapula ebikontanagana</translation>
+        <translation>Konflikter i dubbelsidiga inställningar</translation>
     </message>
     <message>
         <source>There are conflicts in duplex settings. Do you want to fix them?</source>
-        <translation>Ebimu ku bitegekedwa ku by&apos;okuwandika kungulu n&apos;emabega w&apos;empapula bikontanagana. Oyagala okubitereeza?</translation>
+        <translation>Det finns konflikter i dubbelsidiga inställningar. Vill du rätta till dem?</translation>
     </message>
     <message>
         <source>Print to File (PDF)</source>
-        <translation>Biteeke mu fayiro (ey&apos;ekika kya PDF)</translation>
+        <translation>Skriv ut till fil (PDF)</translation>
     </message>
     <message>
         <source>Local file</source>
-        <translation>Fayiro eri ku kompyuta eno</translation>
+        <translation>Lokal fil</translation>
     </message>
     <message>
         <source>Write PDF file</source>
-        <translation>Biteeke mu fayiro ey&apos;ekika kya PDF</translation>
+        <translation>Skriv PDF-fil</translation>
     </message>
     <message>
         <source>Print To File ...</source>
-        <translation>Biteeke mu fayiro ...</translation>
+        <translation>Skriv ut till fil ...</translation>
     </message>
     <message>
         <source>%1 is a directory.
 Please choose a different file name.</source>
-        <translation>%1 tterekero.
-Fayiro girondere erinnya ddala.</translation>
+        <translation>%1 är en katalog.
+Välj ett annat filnamn.</translation>
     </message>
     <message>
         <source>File %1 is not writable.
 Please choose a different file name.</source>
-        <translation>Fayiro %1 tewandikikamu.
-Londa erinnya lya fayiro eddala.</translation>
+        <translation>Filen %1 är inte skrivbar.
+Välj ett annat filnamn.</translation>
     </message>
     <message>
         <source>%1 already exists.
 Do you want to overwrite it?</source>
-        <translation>%1 esangidwa gyeri. Oyagala okugigyawo waddewo kirala?</translation>
+        <translation>%1 finns redan.
+Vill du skriva över den?</translation>
     </message>
     <message>
         <source>Options &apos;Pages Per Sheet&apos; and &apos;Page Set&apos; cannot be used together.
 Please turn one of those options off.</source>
-        <translation>Tekisoboka kukozesa byombi &apos;Eby&apos;empapula meka ku buli lukubisibwa&apos; ne &apos;Teekateeka ndabika ya bikubisibwa&apos;.
-Jjululako ekimu.</translation>
+        <translation>Alternativen &quot;Sidor per ark&quot; och &quot;Siduppsättning&quot; kan inte användas samtidigt.
+Stäng av ett av alternativen.</translation>
     </message>
     <message>
         <source>The &apos;From&apos; value cannot be greater than the &apos;To&apos; value.</source>
-        <translation>Ennamba y&apos;olupapula esooka tekkirizibwa kusinga envanyuma obunene.</translation>
+        <translation>Värdet &quot;Från&quot; får inte vara större än värdet för &quot;Till&quot;.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>Kale</translation>
+        <translation>Ok</translation>
     </message>
 </context>
 <context>
     <name>QPrintPreviewDialog</name>
     <message>
         <source>Page Setup</source>
-        <translation>Teekateeka Bitundu Bya Lupapula</translation>
+        <translation>Sidkonfiguration</translation>
     </message>
     <message>
         <source>%1%</source>
@@ -3882,250 +3881,247 @@ Jjululako ekimu.</translation>
     </message>
     <message>
         <source>Print Preview</source>
-        <translation>Laba Bwe Binaafaanana</translation>
+        <translation>Förhandsvisa utskrift</translation>
     </message>
     <message>
         <source>Next page</source>
-        <translation>Lupapula oluddako</translation>
+        <translation>Nästa sida</translation>
     </message>
     <message>
         <source>Previous page</source>
-        <translation>Lupapula olukulembera luno</translation>
+        <translation>Föregående sida</translation>
     </message>
     <message>
         <source>First page</source>
-        <translation>Lupapula olusooka</translation>
+        <translation>Första sidan</translation>
     </message>
     <message>
         <source>Last page</source>
-        <translation>Lupapula olusembayo</translation>
+        <translation>Sista sidan</translation>
     </message>
     <message>
         <source>Fit width</source>
-        <translation>Bijje mu bugazi bw&apos;olupapula</translation>
+        <translation>Anpassa till bredd</translation>
     </message>
     <message>
         <source>Fit page</source>
-        <translation>Biggweere ku lupapula lumu</translation>
+        <translation>Anpassa till sida</translation>
     </message>
     <message>
         <source>Zoom in</source>
-        <translation>Zimbulukusa</translation>
+        <translation>Zooma in</translation>
     </message>
     <message>
         <source>Zoom out</source>
-        <translation>Kendeeza</translation>
+        <translation>Zooma ut</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>Busimbalaala</translation>
+        <translation>Stående</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>Bugazi</translation>
+        <translation>Liggande</translation>
     </message>
     <message>
         <source>Show single page</source>
-        <translation>Lagako lupapula lumu lumu</translation>
+        <translation>Visa en sida</translation>
     </message>
     <message>
         <source>Show facing pages</source>
-        <translation>Lagako mpapula ez&apos;etunuulirigana</translation>
+        <translation>Visa uppslagssidor</translation>
     </message>
     <message>
         <source>Show overview of all pages</source>
-        <translation>Laga mpapula zonna awamu</translation>
+        <translation>Visa översikt över alla sidor</translation>
     </message>
     <message>
         <source>Print</source>
-        <translation>Kubisa</translation>
+        <translation>Skriv ut</translation>
     </message>
     <message>
         <source>Page setup</source>
-        <translation>Teekateeka bitundu bya lupapula</translation>
+        <translation>Sidkonfiguration</translation>
     </message>
     <message>
         <source>Export to PDF</source>
-        <translation>Biteeke mu fayiro ey&apos;ekika kya PDF</translation>
+        <translation>Exportera till PDF</translation>
     </message>
 </context>
 <context>
     <name>QPrintPropertiesDialog</name>
     <message>
         <source>Printer Properties</source>
-        <translation>Ebikwata ku Pulinta</translation>
+        <translation>Skrivaregenskaper</translation>
     </message>
     <message>
         <source>Job Options</source>
-        <translation>Ebisoboka ku mirimu</translation>
+        <translation>Jobbalternativ</translation>
     </message>
     <message>
         <source>Page Setup Conflicts</source>
-        <translation>Ebitakolagana mu Bitegekedwa ku Binaakubisibwa</translation>
+        <translation>Konflikter i sidkonfiguration</translation>
     </message>
     <message>
         <source>There are conflicts in page setup options. Do you want to fix them?</source>
-        <translation>Ebitegekedwa ku binaakubisibwa ebimu tebikolagana. Oyagala okubitereeza?</translation>
+        <translation>Det finns konflikter i alternativen för sidkonfiguration. Vill du rätta till dem?</translation>
     </message>
     <message>
         <source>Advanced Option Conflicts</source>
-        <translation>Ebitakolagana mu Bitegekedwa Ebyetaaga Bumanyirivu</translation>
+        <translation>Konflikter i avancerade alternativ</translation>
     </message>
     <message>
         <source>There are conflicts in some advanced options. Do you want to fix them?</source>
-        <translation>Ebitegekedwa ebyetaaga bumanyirivu ebimu tebikolagana. Oyagala okubitereeza?</translation>
+        <translation>Det finns konflikter i några avancerade alternativ. Vill du rätta till dem?</translation>
     </message>
 </context>
 <context>
     <name>QPrintPropertiesWidget</name>
     <message>
         <source>Form</source>
-        <translation>Foomu</translation>
+        <translation>Formulär</translation>
     </message>
     <message>
         <source>Page</source>
-        <translation>Lupapula</translation>
+        <translation>Sida</translation>
     </message>
     <message>
         <source>Advanced</source>
-        <translation>Eby&apos;etaagisa bumanyirivu</translation>
+        <translation>Avancerat</translation>
     </message>
     <message>
         <source>There are conflicts in some options. Please fix them.</source>
-        <translation>Longoosa mu bitegekedwa. Ebimu bikontana ne binnaabyo.</translation>
+        <translation>Det finns konflikter i vissa alternativ. Rätta till dem.</translation>
     </message>
 </context>
 <context>
     <name>QPrintSettingsOutput</name>
     <message>
         <source>Form</source>
-        <translation>Foomu</translation>
+        <translation>Formulär</translation>
     </message>
     <message>
         <source>Copies</source>
-        <translation>Ebinaakubisibwa</translation>
+        <translation>Kopior</translation>
     </message>
     <message>
         <source>Print range</source>
-        <translation>Ekkomo</translation>
+        <translation>Skriv ut intervall</translation>
     </message>
     <message>
         <source>Print all</source>
-        <translation>Byonna</translation>
+        <translation>Skriv ut alla</translation>
     </message>
     <message>
         <source>Pages from</source>
-        <translation>Okuva ku lupapula</translation>
+        <translation>Sidor från</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>okutuuka ku</translation>
+        <translation>till</translation>
     </message>
     <message>
         <source>Pages</source>
-        <translation>Mpapula</translation>
+        <translation>Sidor</translation>
     </message>
     <message>
         <source>Specify pages or ranges separated by commas. Ranges are specified by two numbers separated by a hyphen. E.g: 3,5-7,9 prints pages 3, 5, 6, 7 and 9.</source>
-        <translation>Wandika wano ennamba oba embu za mpapula nga obyawuzza akabonero kano &apos;,&apos;.
-Okulaga olubu lwa mpapula wandika ennamba kwe lutandikira ne kwe lukoma nga
-oz&apos;awuzza akabonero kano &apos;-&apos;.
-Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze zikubisibwa.</translation>
+        <translation>Ange sidor eller intervall separerade med kommatecken. Intervall anges med två siffror separerade med ett skiljetecken. T.ex 3,5-7,9 skriver ut sidorna 3, 5, 6, 7 och 9.</translation>
     </message>
     <message>
         <source>Current Page</source>
-        <translation>Olupapula olulabika kakano</translation>
+        <translation>Aktuell sida</translation>
     </message>
     <message>
         <source>Selection</source>
-        <translation>Ebitangaazidwa</translation>
+        <translation>Val</translation>
     </message>
     <message>
         <source>Page Set:</source>
-        <translation>Teekateeka ndabika ya bikubisibwa:</translation>
+        <translation>Siduppsättning:</translation>
     </message>
     <message>
         <source>Output Settings</source>
-        <translation>Entegeka y&apos;ebinaakubisibwa</translation>
+        <translation>Utskriftsinställningar</translation>
     </message>
     <message>
         <source>Copies:</source>
-        <translation>Koppi meka:</translation>
+        <translation>Kopior:</translation>
     </message>
     <message>
         <source>Collate</source>
-        <translation>Bisengeke</translation>
+        <translation>Sortera</translation>
     </message>
     <message>
         <source>Reverse</source>
-        <translation>Tandikira ku lusemba</translation>
+        <translation>Omvänd</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Ebisoboka</translation>
+        <translation>Alternativ</translation>
     </message>
     <message>
         <source>Color Mode</source>
-        <translation>Bwiino</translation>
+        <translation>Färgläge</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation>Kozesa langi zonna</translation>
+        <translation>Färg</translation>
     </message>
     <message>
         <source>Grayscale</source>
-        <translation>Kozesa nzirugavu yokka</translation>
+        <translation>Gråskala</translation>
     </message>
     <message>
         <source>Double Sided Printing</source>
-        <translation>Okuwandika kungulu n&apos;emabega</translation>
+        <translation>Dubbelsidig utskrift</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation>Nedda</translation>
+        <translation>Av</translation>
     </message>
     <message>
         <source>Long side binding</source>
-        <translation>Empapula zikozese busimbalaala</translation>
+        <translation>Långsidesbindning</translation>
     </message>
     <message>
         <source>Short side binding</source>
-        <translation>Empapula zikozese bugazi</translation>
+        <translation>Kortsidesbindning</translation>
     </message>
 </context>
 <context>
     <name>QPrintWidget</name>
     <message>
         <source>Form</source>
-        <translation>Foomu</translation>
+        <translation>Formulär</translation>
     </message>
     <message>
         <source>Printer</source>
-        <translation>Pulinta</translation>
+        <translation>Skrivare</translation>
     </message>
     <message>
         <source>&amp;Name:</source>
-        <translation>&amp;Linnya:</translation>
+        <translation>&amp;Namn:</translation>
     </message>
     <message>
         <source>P&amp;roperties</source>
-        <translation>Ebi&amp;gikwatako</translation>
+        <translation>E&amp;genskaper</translation>
     </message>
     <message>
         <source>Location:</source>
-        <translation>Gy&apos;esangibwa:</translation>
+        <translation>Plats:</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation>Ndagaako</translation>
+        <translation>Förhandsvisa</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation>Kika kya yo:</translation>
+        <translation>Typ:</translation>
     </message>
     <message>
         <source>Output &amp;file:</source>
-        <translation>&amp;Fayiro egenda okukubisibwa:</translation>
+        <translation>Utdata&amp;fil:</translation>
     </message>
     <message>
         <source>...</source>
@@ -4136,1012 +4132,1012 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     <name>QProcess</name>
     <message>
         <source>Process failed to start</source>
-        <translation>Omulimu tegusobodde okutandika</translation>
+        <translation>Proceesen misslyckades att starta</translation>
     </message>
     <message>
         <source>Process crashed</source>
-        <translation>Omulimu guzzemu entabuka</translation>
+        <translation>Processen kraschade</translation>
     </message>
     <message>
         <source>Process operation timed out</source>
-        <translation>Omukolo ogw&apos;omu mulimu obudde buguyiseko</translation>
+        <translation>Processåtgärden gick över tidsgränsen</translation>
     </message>
     <message>
         <source>Error reading from process</source>
-        <translation>Okusoma ebiva mu mulimu kuzzemu kiremya</translation>
+        <translation>Fel vid läsning från process</translation>
     </message>
     <message>
         <source>Error writing to process</source>
-        <translation>Okusindikira omulimu obubaka kuzzemu kiremya</translation>
+        <translation>Fel vid skrivning till process</translation>
     </message>
     <message>
         <source>No program defined</source>
-        <translation>Tewali puloguramu eragidwa okutandika</translation>
+        <translation>Inget program definierat</translation>
     </message>
     <message>
         <source>Could not open input redirection for reading</source>
-        <translation>Tekisobose okubikkula ekifo ekipya awanaasomebwanga ebikolebwako</translation>
+        <translation>Kunde inte öppna inmatningsomdirigering för läsning</translation>
     </message>
     <message>
         <source>Resource error (fork failure): %1</source>
-        <translation>Obusobozi bwa kompyuta bufunye kiremya (Omulimu gulemedwa okwekolamu koppi): %1</translation>
+        <translation>Resursfel (förgreningsfel): %1</translation>
     </message>
     <message>
         <source>Could not open output redirection for writing</source>
-        <translation>Tekisobose okubikkula ekifo ekipya awanaateekebwanga ebiva mu mulimu</translation>
+        <translation>Kunde inte öppna utmatningsomdirigering för skrivning</translation>
     </message>
     <message>
         <source>Process failed to start: %1</source>
-        <translation>Omulimu tegusobodde okutandika: %1</translation>
+        <translation>Process misslyckades med att starta: %1</translation>
     </message>
 </context>
 <context>
     <name>QProgressDialog</name>
     <message>
         <source>Cancel</source>
-        <translation>Sazamu</translation>
+        <translation>Avbryt</translation>
     </message>
 </context>
 <context>
     <name>QRegExp</name>
     <message>
         <source>no error occurred</source>
-        <translation>temubadde nsobi</translation>
+        <translation>inga fel inträffade</translation>
     </message>
     <message>
         <source>disabled feature used</source>
-        <translation>ekiragiro kigeza okukozesa obusobozi obwaadibizibwa</translation>
+        <translation>inaktiverad funktion användes</translation>
     </message>
     <message>
         <source>bad char class syntax</source>
-        <translation>emboozi enoonyako kamu ku lubu lw&apos;obubonero erimu ensobi</translation>
+        <translation>fel syntax för teckenklass</translation>
     </message>
     <message>
         <source>bad lookahead syntax</source>
-        <translation>emboozi enoonya kifo mu ginnaayo erimu ensobi</translation>
+        <translation>felaktig lookahead-syntax</translation>
     </message>
     <message>
         <source>lookbehinds not supported, see QTBUG-2371</source>
-        <translation>emboozi ezinoonya ebikulembera ekifo mu zinnaazo sisitemu eno tezitegeera, soma QTBUG-2371</translation>
+        <translation>lookbehinds stöds inte, se QTBUG-2371</translation>
     </message>
     <message>
         <source>bad repetition syntax</source>
-        <translation>awalaga obungi bw&apos;ekinoonyezebwa emboozi enoonya waliwo nsobi</translation>
+        <translation>felaktig upprepningssyntax</translation>
     </message>
     <message>
         <source>invalid octal value</source>
-        <translation>waliwo omuwendo ogw&apos;ennengamunaana omusobu</translation>
+        <translation>ogiltigt oktalt värde</translation>
     </message>
     <message>
         <source>missing left delim</source>
-        <translation>waliwo awabulako akabonero ak&apos;awuzi ak&apos;oku kkuono</translation>
+        <translation>saknar vänster avgränsare</translation>
     </message>
     <message>
         <source>unexpected end</source>
-        <translation>emboozi enoonya ekomye mu ngeri etasuubidwa</translation>
+        <translation>oväntat slut</translation>
     </message>
     <message>
         <source>met internal limit</source>
-        <translation>ebiragiro ebinoonyesa ebigoberera oba ebikulembera ekifo bisusse obungi mu mboozi</translation>
+        <translation>nådde intern gräns</translation>
     </message>
     <message>
         <source>invalid interval</source>
-        <translation>entegeka y&apos;obungi bw&apos;ekinoonyezebwa eriko nsobi</translation>
+        <translation>ogiltigt intervall</translation>
     </message>
     <message>
         <source>invalid category</source>
-        <translation>enteekateeka y&apos;ekika kya bubonero obwa mu Unicode eriko kiremya</translation>
+        <translation>ogiltig kategori</translation>
     </message>
 </context>
 <context>
     <name>QRegularExpression</name>
     <message>
         <source>no error</source>
-        <translation>temubadde nsobi</translation>
+        <translation>inget fel</translation>
     </message>
     <message>
         <source>\ at end of pattern</source>
-        <translation>ekinoonyezebwa kifundikidwa akabonero &apos;\&apos;</translation>
+        <translation>\ vid slutet av mönstret</translation>
     </message>
     <message>
         <source>\c at end of pattern</source>
-        <translation>ekinoonyezebwa kifundikidwa obubonero &apos;\c&apos;</translation>
+        <translation>\c vid slutet av mönstret</translation>
     </message>
     <message>
         <source>unrecognized character follows \</source>
-        <translation>akabonero &apos;\&apos; kaddidwako akabonero akatategeeredwa</translation>
+        <translation>okänt tecken följer efter \</translation>
     </message>
     <message>
         <source>numbers out of order in {} quantifier</source>
-        <translation>ennamba eziri wakati w&apos;obubonero &apos;{}&apos; obulaga obungi bw&apos;ebinoonyezebwa ssi nsengeke bulungi</translation>
+        <translation>antalet är i fel ordning i {}-kvantifierare</translation>
     </message>
     <message>
         <source>number too big in {} quantifier</source>
-        <translation>ennamba eri wakati w&apos;obubonero &apos;{}&apos; obulaga obungi bw&apos;ebinoonyezebwa eyitiridde obunene</translation>
+        <translation>antal för stort i {}-kvantifierare</translation>
     </message>
     <message>
         <source>missing terminating ] for character class</source>
-        <translation>emboozi enoonyako kamu ku lubu lw&apos;obubonero ebulako ka &apos;]&apos; akagifundikira</translation>
+        <translation>saknar avslutande ] för teckenklass</translation>
     </message>
     <message>
         <source>escape sequence is invalid in character class</source>
-        <translation>ekigambo ekifuula enneyisa tekikolera munda mw&apos;emboozi enoonyako kamu ku lubu lw&apos;obubonero</translation>
+        <translation>escape-sekvens är ogiltig i teckenklass</translation>
     </message>
     <message>
         <source>range out of order in character class</source>
-        <translation>emboozi enoonyako kamu ku lubu lw&apos;obubonero obubonero bwa mu ssi busengeke bulungi</translation>
+        <translation>intervallet är i fel ordning i teckenklass</translation>
     </message>
     <message>
         <source>quantifier does not follow a repeatable item</source>
-        <translation>akabonero akalaga obungi bw&apos;ekinoonyezebwa tekakulembedwa ekinoonyezebwa</translation>
+        <translation>kvantifierare följer inte en upprepande post</translation>
     </message>
     <message>
         <source>internal error: unexpected repeat</source>
-        <translation>kiremya: waliwo ekiddidwamu wekitasuubidwa</translation>
+        <translation>internt fel: oväntad repetition</translation>
     </message>
     <message>
         <source>unrecognized character after (? or (?-</source>
-        <translation>obubonero &apos;(?&apos; oba &apos;(?-&apos; buddiridwa akalala akatategeeredwa</translation>
+        <translation>okänt tecken efter (? eller (?-</translation>
     </message>
     <message>
         <source>POSIX named classes are supported only within a class</source>
-        <translation>buli mboozi enoonyako kamu ku lubu lw&apos;obubonero olutume erinnya eteekwa okubeera munda mw&apos;emboozi enoonya endala</translation>
+        <translation>POSIX-namngivna klasser stöds endast inom en klass</translation>
     </message>
     <message>
         <source>POSIX collating elements are not supported</source>
-        <translation>ebisengekika ebya POSIX tebikozeseka wano</translation>
+        <translation>POSIX sammanställande element stöds inte</translation>
     </message>
     <message>
         <source>missing closing parenthesis</source>
-        <translation>waliwo awabula akabonero &apos;)&apos;</translation>
+        <translation>saknar avslutande  parantes</translation>
     </message>
     <message>
         <source>reference to non-existent subpattern</source>
-        <translation>waliwo emboozi enoonya erimu ekirabika ng&apos;enyingo etalimu kantu</translation>
+        <translation>referens till icke-existerande undermönster</translation>
     </message>
     <message>
         <source>pattern passed as NULL</source>
-        <translation>waliwo ekinoonyezebwa ekibalidwa nga NULL</translation>
+        <translation>mönster skickad som NULL</translation>
     </message>
     <message>
         <source>unrecognised compile-time option bit(s)</source>
-        <translation>waliwo obuwayiro obufuga enkuŋaanya obutategeerekese</translation>
+        <translation>okänd compile-time option bit(ar)</translation>
     </message>
     <message>
         <source>missing ) after (?# comment</source>
-        <translation>waliwo wabula akabonero ) akafundikira ebigambo ebitangaaza ebitandika ne (?#</translation>
+        <translation>saknar ) efter (?#-kommentar</translation>
     </message>
     <message>
         <source>parentheses are too deeply nested</source>
-        <translation>waliwo obubonero obwa ( ne ) we buyitiridde obungi munda mwa bunnaabwo</translation>
+        <translation>paranteser är för djupt nästlade</translation>
     </message>
     <message>
         <source>regular expression is too large</source>
-        <translation>emboozi enoonya eyitiridde obuwanvu</translation>
+        <translation>reguljärt uttryck är för stort</translation>
     </message>
     <message>
         <source>failed to allocate heap memory</source>
-        <translation>tekisobose omulimu okugwawulirako ekifo mu ggwanika ery&apos;entuumo</translation>
+        <translation>misslyckades med att allokera heap-minne</translation>
     </message>
     <message>
         <source>unmatched closing parenthesis</source>
-        <translation>waliwo akabonero aka ) akatafundikira emboozi etandika n&apos;aka (</translation>
+        <translation>omatchad avslutande parantes</translation>
     </message>
     <message>
         <source>internal error: code overflow</source>
-        <translation>wazzewo kiremya: ekifo ekyayawulibwabwako mu ggwanika eripangibwa tekimala</translation>
+        <translation>internt fel: kodöverflöde</translation>
     </message>
     <message>
         <source>missing closing parenthesis for condition</source>
-        <translation>waliwo akakwakkulizo akabulako ka ) akakafundikira</translation>
+        <translation>saknar avslutande parantes för villkor</translation>
     </message>
     <message>
         <source>lookbehind assertion is not fixed length</source>
-        <translation>ekinoonyezebwa ekiragiro ekinoonyesa emboozi enoonya ebikulembera ekifo mu ginnaayo obuwanvu bwakyo ssi bukugire</translation>
+        <translation>lookbehind-assertion har ingen fast längd</translation>
     </message>
     <message>
         <source>a relative value of zero is not allowed</source>
-        <translation>ngeraagerana tekkirizibwa okubeera zero</translation>
+        <translation>ett relativt värde av noll tillåts inte</translation>
     </message>
     <message>
         <source>conditional subpattern contains more than two branches</source>
-        <translation>waliwo enyingo y&apos;ekinoonyezebwa ey&apos;akakwakkulizo erimu amakubo agasukka mu abiri</translation>
+        <translation>villkorligt undermönster innehåller fler än två grenar</translation>
     </message>
     <message>
         <source>assertion expected after (?( or (?(?C)</source>
-        <translation>(?( oba (?(?C) bisuubirwa okuddibwako ekiragiro ekinoonyesa emboozi enooya ekifobufo mu ginnaayo</translation>
+        <translation>assertion förväntades efter (?( eller (?(?C)</translation>
     </message>
     <message>
         <source>digit expected after (?+ or (?-</source>
-        <translation>(?+ or (?- bisuubirwa okuddibwako digiti</translation>
+        <translation>siffra förväntades efter (?+ eller (?-</translation>
     </message>
     <message>
         <source>unknown POSIX class name</source>
-        <translation>waliwo ekiteeredwawo ng&apos;erinnya ly&apos;ekiti ky&apos;ebinoonyezebwa ekitategeerese</translation>
+        <translation>okänt POSIX-klassnamn</translation>
     </message>
     <message>
         <source>internal error in pcre2_study(): should not occur</source>
-        <translation>pcre2_study() ezzeeko kiremya: yekozemu by&apos;etateekwa okukola</translation>
+        <translation>internt fel i pcre2_study(): ska inte inträffa</translation>
     </message>
     <message>
         <source>this version of PCRE2 does not have Unicode support</source>
-        <translation>PCRE2 ey&apos;oluwandika luno tesobola Unicode</translation>
+        <translation>denna version av PCRE2 har inte stöd för Unicode</translation>
     </message>
     <message>
         <source>parentheses are too deeply nested (stack check)</source>
-        <translation>waliwo obubonero obwa ( ne ) we buyitiridde obungi munda mwa bunnaabwo (ggwanika eripangibwa)</translation>
+        <translation>parenteser är för djupt nästlade (stackkontroll)</translation>
     </message>
     <message>
         <source>character code point value in \x{} or \o{} is too large</source>
-        <translation>ennamba ya kabonero ezingidwa mu \x{} oba mu \o{} eyitiridde obunene</translation>
+        <translation>värdet för teckenkodpunkt i \x{} eller \o{} är för stort</translation>
     </message>
     <message>
         <source>lookbehind is too complicated</source>
-        <translation>ekiragiro ekinoonyesa emboozi enoonya ebikulembera ekifo mu ginnaayo kiyitiriddemu ebitundu</translation>
+        <translation>lookbehind är för komplicerad</translation>
     </message>
     <message>
         <source>\C is not allowed in a lookbehind assertion in UTF-16 mode</source>
-        <translation>mu nkola ya UTF-16 akabonero \C tekakkirizibwa mu kiragiro ekinoonyesa emboozi enoonya ebigoberera ekifo mu ginnaayo</translation>
+        <translation>\C är inte tillåtet i en lookbehind-assertion i UTF-16-läget</translation>
     </message>
     <message>
         <source>PCRE2 does not support \F, \L, \l, \N{name}, \U, or \u</source>
-        <translation>PCRE2 tekozesa \F, \L, \l, \N{linnya}, \U, ne \u</translation>
+        <translation>PCRE2 har inte stöd för \F, \L, \l, \N{name}, \U, eller \u</translation>
     </message>
     <message>
         <source>number after (?C is greater than 255</source>
-        <translation>ennamba eddirira (?C esukka mu 255</translation>
+        <translation>tal efter (?C är större än 255</translation>
     </message>
     <message>
         <source>closing parenthesis for (?C expected</source>
-        <translation>kubulako ) efundikira ebikolebwako (?C</translation>
+        <translation>avslutande parentes för (?C förväntades</translation>
     </message>
     <message>
         <source>invalid escape sequence in (*VERB) name</source>
-        <translation>erinnya lya (*VERB) lirimu ekigambo ekifuula enneyisa ekitakolerawo</translation>
+        <translation>ogiltig escape-sekvens i (*VERB)-namn</translation>
     </message>
     <message>
         <source>unrecognized character after (?P</source>
-        <translation>akabonero akaddirira (?P tekatategeeredwa</translation>
+        <translation>okänt tecken efter (?P</translation>
     </message>
     <message>
         <source>syntax error in subpattern name (missing terminator?)</source>
-        <translation>erinnya ly&apos;enyingo y&apos;ekinoonyezebwa lirimu ensobi y&apos;empandika (kubulako ekifundikira?)</translation>
+        <translation>syntaxfel i undermönsternamnet (saknar avslut?)</translation>
     </message>
     <message>
         <source>two named subpatterns have the same name (PCRE2_DUPNAMES not set)</source>
-        <translation>waliwo enyingo z&apos;ekinoonyezebwa bbiri ezituumidwa erinnya lye limu (PCRE2_DUPNAMES tekitegekedwa)</translation>
+        <translation>två namngivna undermönster har samma namn (PCRE2_DUPNAMES inte inställt)</translation>
     </message>
     <message>
         <source>subpattern name must start with a non-digit</source>
-        <translation>erinnya ly&apos;enyingo y&apos;ekinoonyezebwa liteekwa okutandika n&apos;ekitali digiti</translation>
+        <translation>undermönstrets namn måste börja med en icke-siffra</translation>
     </message>
     <message>
         <source>this version of PCRE2 does not have support for \P, \p, or \X</source>
-        <translation>oluwandika lwa PCRE2 luno terukozesa \P, \p, ne \X</translation>
+        <translation>denna version av PCRE2 har inte stöd för \P, \p, eller \X</translation>
     </message>
     <message>
         <source>malformed \P or \p sequence</source>
-        <translation>waliwo ekiragiro ekikozesa \P oba \p ekirimu ensobi</translation>
+        <translation>felformaterad \P eller \p-sekvens</translation>
     </message>
     <message>
         <source>unknown property name after \P or \p</source>
-        <translation>waliwo erinnya ly&apos;eky&apos;obutonde eritategeeredwa eriddirira \P oba \p</translation>
+        <translation>okänt egenskapsnamn efter \P eller \p</translation>
     </message>
     <message>
         <source>subpattern name is too long (maximum 32 code units)</source>
-        <translation>erinnya ery&apos;enyingo y&apos;ekinoonyezebwa liyitiridde obuwanvu (gateekwa butasukka birengo bya bukongozzi 32)</translation>
+        <translation>undermönsternamn är för långt (maximalt 32 kodenheter)</translation>
     </message>
     <message>
         <source>too many named subpatterns (maximum 10000)</source>
-        <translation>mu kinoonyezebwa enyingo ez&apos;amannya ziyitiridde obungi (teziteekwa okusukka 10000)</translation>
+        <translation>för många namngivna undermönster (maximalt 10000)</translation>
     </message>
     <message>
         <source>invalid range in character class</source>
-        <translation>olubu lw&apos;obubonero oluli mu mboozi enoonya terukozeseka</translation>
+        <translation>ogiltigt intervall i teckenklass</translation>
     </message>
     <message>
         <source>octal value is greater than \377 in 8-bit non-UTF-8 mode</source>
-        <translation>mu nkola eya bbiti-8 etali ya UTF-8 ennamba eya mu nnengamunaana esukka mu \377</translation>
+        <translation>oktalt värde är större än \377 i 8-bitars icke-UTF-8-läge</translation>
     </message>
     <message>
         <source>internal error: overran compiling workspace</source>
-        <translation>puloguramu ezzeemu kiremya: emazeewo ekifo ekigiweeredwa okukoleramu mu ggwanika</translation>
+        <translation>internt fel: överskridit kompileringsarbetsytan</translation>
     </message>
     <message>
         <source>internal error: previously-checked referenced subpattern not found</source>
-        <translation>puloguramu ezzeemu kiremya: enyingo y&apos;ekinoonyezebwa tezuulidwa</translation>
+        <translation>internt fel: tidigare kontrollerat refererande undermönster hittades inte</translation>
     </message>
     <message>
         <source>DEFINE subpattern contains more than one branch</source>
-        <translation>enyingo y&apos;ekinoonyezebwa eya DEFINE erimu amakubo agasukka mu limu</translation>
+        <translation>DEFINE-undermönster innehåller fler än en gren</translation>
     </message>
     <message>
         <source>missing opening brace after \o</source>
-        <translation>{ eyandize oluvanyuma lwa \o teeriwo</translation>
+        <translation>saknar öppnande klammer efter \o</translation>
     </message>
     <message>
         <source>internal error: unknown newline setting</source>
-        <translation>puloguramu ezzeemu kiremya: waliwo enteekateeka ey&apos;okutandika olunyiriri olupya etategeerese</translation>
+        <translation>internt fel: okänd nyradsinställning</translation>
     </message>
     <message>
         <source>\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number</source>
-        <translation>ekidda ku \g ssi namba njereere, ennamba eri mu bw&apos;ogeza, oba mu {} oba mu &lt;&gt;</translation>
+        <translation>\g följs inte av en klammer, vinkelparentes eller citerat namn/nummer eller av ett vanligt nummer</translation>
     </message>
     <message>
         <source>(?R (recursive pattern call) must be followed by a closing parenthesis</source>
-        <translation>ebiddirira (?R nga bye by&apos;ekolako biteekwa okufundikirwa )</translation>
+        <translation>(?R (rekursivt mönsteranrop) måste efterföljas av en stängande parentes</translation>
     </message>
     <message>
         <source>obsolete error (should not occur)</source>
-        <translation>kiremya azzeewo yadibizibwa (teyandizzewo)</translation>
+        <translation>föråldrat fel (ska inte inträffa)</translation>
     </message>
     <message>
         <source>(*VERB) not recognized or malformed</source>
-        <translation>(*VERB) tetegeerese oba erimu ensobi</translation>
+        <translation>(*VERB) känns inte igen eller är felformaterat</translation>
     </message>
     <message>
         <source>subpattern number is too big</source>
-        <translation>enyingo y&apos;ekinoonyezebwa erimu ennamba eyitiridde obunene</translation>
+        <translation>undermönsternummer är för stort</translation>
     </message>
     <message>
         <source>subpattern name expected</source>
-        <translation>enyingo y&apos;ekinoonyezebwa esuubirwa okubeera n&apos;erinnya</translation>
+        <translation>undermönstrets namn förväntades</translation>
     </message>
     <message>
         <source>internal error: parsed pattern overflow</source>
-        <translation>puloguramu ezeemu kiremya: ekebedde ekinoonyezebwa ne kigereetera okumalawo ekifo ekigiweeredwa okukoleramu mu ggwanika</translation>
+        <translation>internt fel: överflöde i tolkat mönster</translation>
     </message>
     <message>
         <source>non-octal character in \o{} (closing brace missing?)</source>
-        <translation>\o{} kirimu akabonero akatali ka nnengamunaana (oba ka } (akafundikira ke kataliiko?)</translation>
+        <translation>icke-oktalt tecken i \o{} (avslutande klammerparentes saknas?)</translation>
     </message>
     <message>
         <source>different names for subpatterns of the same number are not allowed</source>
-        <translation>enyingo z&apos;ekinoonyebwa ebbiri ezitafaananganya mannya tezikkirizibwa okuba nga zisobola okuzuula ennamba y&apos;emu</translation>
+        <translation>olika namn för undermönster för samma antal tillåts inte</translation>
     </message>
     <message>
         <source>(*MARK) must have an argument</source>
-        <translation>(*MARK) yetaaga okubeera ne agumenti</translation>
+        <translation>(*MARK) måste ha ett argument</translation>
     </message>
     <message>
         <source>non-hex character in \x{} (closing brace missing?)</source>
-        <translation>\x{} kirimu akabonero akatali ka nnengakkuminamukaaga (oba ka } akafundikira ke kataliiko?)</translation>
+        <translation>icke-hexadecimalt tecken i \x{} (saknas stängande klammer?)</translation>
     </message>
     <message>
         <source>\c must be followed by a printable ASCII character</source>
-        <translation>ekiddirira \c kiteekwa okubeera akabonero ka mu ASCII akakubisika</translation>
+        <translation>\c måste efterföljas av ett utskrivbart ASCII-tecken</translation>
     </message>
     <message>
         <source>\c must be followed by a letter or one of [\]^_?</source>
-        <translation>ekiddirira \c kiteekwa okubeera nukuta oba kamu ku bubonero [\]^_?</translation>
+        <translation>\c måste efterföljas av en bokstav eller en av [\]^_?</translation>
     </message>
     <message>
         <source>\k is not followed by a braced, angle-bracketed, or quoted name</source>
-        <translation>ekidda ku \k ssi linnya eriri mu bw&apos;ogeza, oba mu {} oba mu &lt;&gt;</translation>
+        <translation>\k efterföljs inte av en klammer-, vinkelparentes eller citerat namn</translation>
     </message>
     <message>
         <source>internal error: unknown meta code in check_lookbehinds()</source>
-        <translation>puloguramu ezzeemu kiremya: esanze ebiragiro ebyanjuzi by&apos;etategeera mu check_lookbehinds()</translation>
+        <translation>internt fel: okänd metakod i check_lookbehinds()</translation>
     </message>
     <message>
         <source>\N is not supported in a class</source>
-        <translation>\N tekikkirizibwa mu lubu lw&apos;ebinoonyezebwa</translation>
+        <translation>\N stöds inte i en klass</translation>
     </message>
     <message>
         <source>callout string is too long</source>
-        <translation>ekigambo ekya mu kiragiro ekyeyazisi kiyitiridde obuwanvu</translation>
+        <translation>callout-sträng är för lång</translation>
     </message>
     <message>
         <source>disallowed Unicode code point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</source>
-        <translation>mulimu ennamba y&apos;akabonero eya mu Unicode eyadibizibwa (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</translation>
+        <translation>otillåten Unicode-kodpunkt (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</translation>
     </message>
     <message>
         <source>using UTF is disabled by the application</source>
-        <translation>puloguramu esibye okukozesa UTF</translation>
+        <translation>användning av UTF är inaktiverat av programmet</translation>
     </message>
     <message>
         <source>using UCP is disabled by the application</source>
-        <translation>puloguramu esibye okukozesa UCP</translation>
+        <translation>användning av UDP är inaktiverat av programmet</translation>
     </message>
     <message>
         <source>name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)</source>
-        <translation>erinnya mu (*MARK), (*PRUNE), (*SKIP), oba (*THEN) liyitiridde obuwanvu</translation>
+        <translation>namnet är för långt i (*MARK), (*PRUNE), (*SKIP), eller (*THEN)</translation>
     </message>
     <message>
         <source>character code point value in \u.... sequence is too large</source>
-        <translation>ennamba ya kabonero ezingidwa mu ebigobereragana ebigendera ku \u ... eyitiridde obunene</translation>
+        <translation>värdet för teckenkodpunkt i \u....-sekvensen är för stort</translation>
     </message>
     <message>
         <source>digits missing in \x{} or \o{} or \N{U+}</source>
-        <translation>kubulako digiti mu \x{} oba \o{} oba \N{U+}</translation>
+        <translation>siffror saknas i \x{} eller \o{} eller \N{U+}</translation>
     </message>
     <message>
         <source>syntax error or number too big in (?(VERSION condition</source>
-        <translation>akakwakkulizo akategekebwa (?(VERSION kalimu ensobi y&apos;empandika oba kalimu ennamba eyitiridde obunene</translation>
+        <translation>syntaxfel eller för antal för stort i villkoret (?(VERSION</translation>
     </message>
     <message>
         <source>internal error: unknown opcode in auto_possessify()</source>
-        <translation>puloguramu ezzeemu kiremya: esanze ekikongojjamulimu ky&apos;etategeera mu auto_possessify()</translation>
+        <translation>internt fel: okänd opcode i auto_possessify()</translation>
     </message>
     <message>
         <source>missing terminating delimiter for callout with string argument</source>
-        <translation>waliwo ekiragiro ekyeyazisi nga agumenti ya kyo kigambo ekibulako akabonero ak&apos;awuzi akakifundikira</translation>
+        <translation>saknar avslutande avgränsare för callout med strängargument</translation>
     </message>
     <message>
         <source>unrecognized string delimiter follows (?C</source>
-        <translation>akabonero ak&apos;awuzi akaddirira obubonero (?C tekategeeredwa</translation>
+        <translation>okänd strängavgränsare följer (?C</translation>
     </message>
     <message>
         <source>using \C is disabled by the application</source>
-        <translation>puloguramu esibye okukozesa \C</translation>
+        <translation>användning av \C är inaktiverat av programmet</translation>
     </message>
     <message>
         <source>(?| and/or (?J: or (?x: parentheses are too deeply nested</source>
-        <translation>(?| ne/oba (?J: oba (?x: waliwo obubonero obwa ( ne ) we buyitiridde obungi munda mwa bunnaabwo</translation>
+        <translation>(?| och/eller (?J: eller (?x: parentes är för djupt nästlad</translation>
     </message>
     <message>
         <source>using \C is disabled in this PCRE2 library</source>
-        <translation>mu puloguramu eyeyazikibwa eya PCRE2 eno okukozesa \C kusibidwa</translation>
+        <translation>användning av \C är inaktiverat i detta PCRE2-bibliotek</translation>
     </message>
     <message>
         <source>regular expression is too complicated</source>
-        <translation>emboozi enoonya eyitiridde mu ebitundu ebingi</translation>
+        <translation>reguljärt uttryck är för komplicerat</translation>
     </message>
     <message>
         <source>lookbehind assertion is too long</source>
-        <translation>Ekiragiro ekinoonyesa emboozi enoonya ebikulembera ekifo mu ginnaayo kiyitiridde obuwanvu</translation>
+        <translation>lookbehind-assertion är för lång</translation>
     </message>
     <message>
         <source>pattern string is longer than the limit set by the application</source>
-        <translation>obuwanvu bw&apos;emboozi eya mu kinoonyezebwa buyise ku kkomo puloguramu gy&apos;etaddewo</translation>
+        <translation>mönstersträng är längre än gränsen inställd av programmet</translation>
     </message>
     <message>
         <source>internal error: unknown code in parsed pattern</source>
-        <translation>puloguramu ezzeemu kiremya: esanze ebiragiro by&apos;etategeera mu kinonyezebwa ky&apos;ekebedde</translation>
+        <translation>internt fel: okänd kod i tolkat mönster</translation>
     </message>
     <message>
         <source>internal error: bad code value in parsed_skip()</source>
-        <translation>puloguramu ezzeemu kiremya: esanze ekikongojje ekisobi mu parsed_skip()</translation>
+        <translation>internt fel: felaktigt kodvärde i parsed_skip()</translation>
     </message>
     <message>
         <source>PCRE2_EXTRA_ALLOW_SURROGATE_ESCAPES is not allowed in UTF-16 mode</source>
-        <translation>PCRE2_EXTRA_ALLOW_SURROGATE_ESCAPES tekikkirizibwa mu nkola ya UTF-16</translation>
+        <translation>PCRE2_EXTRA_ALLOW_SURROGATE_ESCAPES tillåts inte i UTF-16-läge</translation>
     </message>
     <message>
         <source>invalid option bits with PCRE2_LITERAL</source>
-        <translation>PCRE2_LITERAL eriko obuwayiro obutakozeseka</translation>
+        <translation>ogiltiga option-bitar med PCRE2_LITERAL</translation>
     </message>
     <message>
         <source>\N{U+dddd} is supported only in Unicode (UTF) mode</source>
-        <translation>\N{U+dddd} kitegeerebwa mu nkola ya Unicode (UTF) mwokka</translation>
+        <translation>\N{U+dddd} stöds endast i Unicode-läge (UTF)</translation>
     </message>
     <message>
         <source>invalid hyphen in option setting</source>
-        <translation>waliwo - w&apos;etakkirizibwa mu nteekateeka ya buwayiro</translation>
+        <translation>ogiltigt bindestreck i option-inställning</translation>
     </message>
     <message>
         <source>(*alpha_assertion) not recognized</source>
-        <translation>(*alpha_assertion) tekitegeeredwa</translation>
+        <translation>(*alpha_assertion) kändes inte igen</translation>
     </message>
     <message>
         <source>script runs require Unicode support, which this version of PCRE2 does not have</source>
-        <translation>ebiragiro ebiyunge byeyambisa enkola ya Unicode, oluwandika lwa PCRE2 luno kye lutalina</translation>
+        <translation>skriptkörningar kräver Unicode-stöd, vilket denna version av PCRE2 inte har</translation>
     </message>
     <message>
         <source>too many capturing groups (maximum 65535)</source>
-        <translation>enyingo z&apos;ekinoonyezebwa ezikozesebwa ng&apos;ebigambo by&apos;awamu ziyitiridde obungi (tezikkirizibwa kusukka mu 65535)</translation>
+        <translation>för många fångade grupper (maximalt 65535)</translation>
     </message>
     <message>
         <source>atomic assertion expected after (?( or (?(?C)</source>
-        <translation>ekiragiro ekinoonyesa emboozi enoonya ekifobufo mu ginnaayo ekiddirira (?( or (?(?C) kyetaaga okubeera nga emboozi ya mu ekozesebwa wamu ng&apos;ekigambo</translation>
+        <translation>atomic assertion förväntades efter (?( eller (?(?C)</translation>
     </message>
     <message>
         <source>no match</source>
-        <translation>tewali bizuulidwa</translation>
+        <translation>ingen matchning</translation>
     </message>
     <message>
         <source>partial match</source>
-        <translation>wazuulidwa bitundu by&apos;ekinoonyezebwa</translation>
+        <translation>delvis matchning</translation>
     </message>
     <message>
         <source>UTF-8 error: 1 byte missing at end</source>
-        <translation>kiremya wa mu UTF-8: wasangidwa ekibulako bayiti 1 esembayo</translation>
+        <translation>UTF-8-fel: 1 byte saknas på slutet</translation>
     </message>
     <message>
         <source>UTF-8 error: 2 bytes missing at end</source>
-        <translation>kiremya wa mu UTF-8: wasangidwa ekibulako bayiti 2 ezisembayo</translation>
+        <translation>UTF-8-fel: 2 bytes saknas på slutet</translation>
     </message>
     <message>
         <source>UTF-8 error: 3 bytes missing at end</source>
-        <translation>kiremya wa mu UTF-8: wasangidwa ekibulako bayiti 3 ezisembayo</translation>
+        <translation>UTF-8-fel: 3 bytes saknas på slutet</translation>
     </message>
     <message>
         <source>UTF-8 error: 4 bytes missing at end</source>
-        <translation>kiremya wa mu UTF-8: wasangidwa ekibulako bayiti 4 ezisembayo</translation>
+        <translation>UTF-8-fel: 4 bytes saknas på slutet</translation>
     </message>
     <message>
         <source>UTF-8 error: 5 bytes missing at end</source>
-        <translation>kiremya wa mu UTF-8: wasangidwa ekibulako bayiti 5 ezisembayo</translation>
+        <translation>UTF-8-fel: 5 bytes saknas på slutet</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 2 top bits not 0x80</source>
-        <translation>kiremya wa mu UTF-8: wasangidwa ekirina bbiti ezisinga obuzito mu bayiti yakyo ey&apos;okubiri nga teziri 0x80</translation>
+        <translation>UTF-8-fel: byte 2 top bits inte 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 3 top bits not 0x80</source>
-        <translation>kiremya wa mu UTF-8: wasangidwa ekirina bbiti ezisinga obuzito mu bayiti yakyo ey&apos;okusatu nga teziri 0x80</translation>
+        <translation>UTF-8-fel: byte 3 top bits inte 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 4 top bits not 0x80</source>
-        <translation>kiremya wa mu UTF-8: wasangidwa ekirina bbiti ezisinga obuzito mu bayiti yakyo ey&apos;okuna nga teziri 0x80</translation>
+        <translation>UTF-8-fel: byte 4 top bits inte 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 5 top bits not 0x80</source>
-        <translation>kiremya wa mu UTF-8: wasangidwa ekirina bbiti ezisinga obuzito mu bayiti yakyo ey&apos;okutaano nga teziri 0x80</translation>
+        <translation>UTF-8-fel: byte 5 top bits inte 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 6 top bits not 0x80</source>
-        <translation>kiremya wa mu UTF-8: wasangidwa ekirina bbiti ezisinga obuzito mu bayiti yakyo eya mukaaga nga teziri 0x80</translation>
+        <translation>UTF-8-fel: byte 6 top bits inte 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: 5-byte character is not allowed (RFC 3629)</source>
-        <translation>kiremya wa mu UTF-8: okukozesa bayiti ttaano okukongojja akabonero tekikkirizibwa (RFC 3629)</translation>
+        <translation>UTF-8-fel: 5-byte-tecken tillåts inte (RFC 3629)</translation>
     </message>
     <message>
         <source>UTF-8 error: 6-byte character is not allowed (RFC 3629)</source>
-        <translation>kiremya wa mu UTF-8: okukozesa bayiti mukaaga okukongojja akabonero tekikkirizibwa (RFC 3629)</translation>
+        <translation>UTF-8-fel: 6-byte-tecken tillåts inte (RFC 3629)</translation>
     </message>
     <message>
         <source>UTF-8 error: code points greater than 0x10ffff are not defined</source>
-        <translation>kiremya wa mu UTF-8: namba za bubonero ennene okusukka 0x10ffff ssi ntegeke</translation>
+        <translation>UTF-8-fel: kodpunkter större än 0x10ffff är inte definierade</translation>
     </message>
     <message>
         <source>UTF-8 error: code points 0xd800-0xdfff are not defined</source>
-        <translation>kiremya wa mu UTF-8: namba za bubonero okutandikira ku 0xd800 okukoma ku 0xdfff ssi ntegeke</translation>
+        <translation>UTF-8-fel: kodpunkterna 0xd800-0xdfff är inte definierade</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 2-byte sequence</source>
-        <translation>kiremya wa mu UTF-8: wasangidwa olukolongo lwa bayiti bbiri olukozesa namba za bubonero enpanvuwaze</translation>
+        <translation>UTF-8-fel: overlong 2-byte-sekvens</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 3-byte sequence</source>
-        <translation>kiremya wa mu UTF-8: wasangidwa olukolongo lwa bayiti ssatu olukozesa namba za bubonero enpanvuwaze</translation>
+        <translation>UTF-8-fel: overlong 3-byte-sekvens</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 4-byte sequence</source>
-        <translation>kiremya wa mu UTF-8: wasangidwa olukolongo lwa bayiti nya olukozesa namba za bubonero enpanvuwaze</translation>
+        <translation>UTF-8-fel: overlong 4-byte-sekvens</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 5-byte sequence</source>
-        <translation>kiremya wa mu UTF-8: wasangidwa olukolongo lwa bayiti ttaano olukozesa namba za bubonero enpanvuwaze</translation>
+        <translation>UTF-8-fel: overlong 5-byte-sekvens</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 6-byte sequence</source>
-        <translation>kiremya wa mu UTF-8: wasangidwa olukolongo lwa bayiti mukaaga olukozesa namba za bubonero enpanvuwaze</translation>
+        <translation>UTF-8-fel: overlong 6-byte-sekvens</translation>
     </message>
     <message>
         <source>UTF-8 error: isolated byte with 0x80 bit set</source>
-        <translation>kiremya wa mu UTF-8: wasangidwa bayiti sekinnoomu nga bbiti za yo ebbiri ezisinga obuzito z&apos;enkana 0x80</translation>
+        <translation>UTF-8-fel: isolerad byte med 0x80 bit inställd</translation>
     </message>
     <message>
         <source>UTF-8 error: illegal byte (0xfe or 0xff)</source>
-        <translation>kiremya wa mu UTF-8: wasangidwa bayiti etakkirizibwa (yenkana 0xfe oba 0xff)</translation>
+        <translation>UTF-8-fel: otillåten byte (0xfe eller 0xff)</translation>
     </message>
     <message>
         <source>UTF-16 error: missing low surrogate at end</source>
-        <translation>kiremya wa mu UTF-16: enkomerero ebulako ekirengo kya bukongozzi ekizimbakabonero ekigoberera</translation>
+        <translation>UTF-16-fel: saknar låg surrogat på slutet</translation>
     </message>
     <message>
         <source>UTF-16 error: invalid low surrogate</source>
-        <translation>kiremya wa mu UTF-16: wasangidwa ekirengo kya bukongozzi ekizimbakabonero ekigoberera eky&apos;ensobi</translation>
+        <translation>UTF-16-fel: ogiltig låg surrogat</translation>
     </message>
     <message>
         <source>UTF-16 error: isolated low surrogate</source>
-        <translation>kiremya wa mu UTF-16: wasangidwa ekirengo kya bukongozzi ekizimbakabonero ekigoberera kisekinnoomu</translation>
+        <translation>UTF-16-fel: isolerad låg surrogat</translation>
     </message>
     <message>
         <source>UTF-32 error: code points 0xd800-0xdfff are not defined</source>
-        <translation>kiremya wa mu UTF-32: namba za bubonero okutandikira ku 0xd800 okukoma ku 0xdfff ssi ntegeke</translation>
+        <translation>UTF-32-fel: kodpunkterna 0xd800-0xdfff är inte definierade</translation>
     </message>
     <message>
         <source>UTF-32 error: code points greater than 0x10ffff are not defined</source>
-        <translation>kiremya wa mu UTF-32: namba za bubonero ennene okusukka 0x10ffff ssi ntegeke</translation>
+        <translation>UTF-32-fel: kodpunkter större än 0x10ffff är inte definierade</translation>
     </message>
     <message>
         <source>bad data value</source>
-        <translation>data erimu ekikongojje ekitakozeseka</translation>
+        <translation>felaktigt datavärde</translation>
     </message>
     <message>
         <source>patterns do not all use the same character tables</source>
-        <translation>ebinoonyezebwa tebikozesa byonna olubu lw&apos;obubonero luwe lumu</translation>
+        <translation>mönstren använder inte alla samma teckentabeller</translation>
     </message>
     <message>
         <source>magic number missing</source>
-        <translation>kubulako omuwendo omupaatiike</translation>
+        <translation>magic number saknas</translation>
     </message>
     <message>
         <source>pattern compiled in wrong mode: 8/16/32-bit error</source>
-        <translation>ekinoonyezedwa kitegekedwa mu nkola ensobu: kiremya wa bbiti 8/16/32</translation>
+        <translation>mönstret kompilerat i felaktigt läge: 8/16/32-bitarsfel</translation>
     </message>
     <message>
         <source>bad offset value</source>
-        <translation>ennamba y&apos;obusangiro etegekedwa mbi</translation>
+        <translation>felaktigt offset-värde</translation>
     </message>
     <message>
         <source>bad option value</source>
-        <translation>akawayiro kategekedwa bubi</translation>
+        <translation>felaktigt option-värde</translation>
     </message>
     <message>
         <source>invalid replacement string</source>
-        <translation>ekigambo ekipya tekikozeseka</translation>
+        <translation>ogiltig ersättningssträng</translation>
     </message>
     <message>
         <source>bad offset into UTF string</source>
-        <translation>obusangiro mu kigambo kya UTF butegekedwa bubi</translation>
+        <translation>felaktig offset till UTF-sträng</translation>
     </message>
     <message>
         <source>callout error code</source>
-        <translation>namba ya kiremya wa ku kiragiro ekyeyazisi</translation>
+        <translation>callout-felkod</translation>
     </message>
     <message>
         <source>invalid data in workspace for DFA restart</source>
-        <translation>ekifo mu ggwanika ekiweeredwa puloguramu eyekozesa emikolo emibale okwetandikisa kirimu data etakozeseka</translation>
+        <translation>ogiltigt data i arbetsyta för DFA-omstart</translation>
     </message>
     <message>
         <source>too much recursion for DFA matching</source>
-        <translation>puloguramu eyekozesa emikolo emibale omulimu ogw&apos;okunoonya egusanzemu eby&apos;okukozesa ebivudde mu miku egiwedde ebitiyitiridde obungi</translation>
+        <translation>för mycket rekursion för DFA-matchning</translation>
     </message>
     <message>
         <source>backreference condition or recursion test is not supported for DFA matching</source>
-        <translation>waliwo okukeberera okukozesa ebivudde mu miku egiwedde okutakolagana n&apos;ogw&apos;okunoonya ogwa puloguramu eyekozesa emikolo emibale, oba waliwo akakwakkulizo mu kitundu ky&apos;ekiragiro ekikola ku bireetedwa ekitundu ky&apos;ekiragiro ekyo ekikikulembedde akatakolagana n&apos;ogw&apos;okunoonya ogwa puloguramu eyo</translation>
+        <translation>backreference-villkor eller rekursionstest stöds inte för DFA-matchning</translation>
     </message>
     <message>
         <source>function is not supported for DFA matching</source>
-        <translation>omukolo tegukolagana n&apos;ogw&apos;okunoonya ogwa puloguramu eyekozesa emikolo emibale</translation>
+        <translation>funktionen stöds inte för DFA-matchning</translation>
     </message>
     <message>
         <source>pattern contains an item that is not supported for DFA matching</source>
-        <translation>ekinoonyezebwa kirimu ekitakolagana n&apos;ogw&apos;okunoonya ogwa puloguramu eyekozesa emikolo emibale</translation>
+        <translation>mönster innehåller en post som inte stöds för DFA-matchning</translation>
     </message>
     <message>
         <source>workspace size exceeded in DFA matching</source>
-        <translation>ogw&apos;okunoonya ogwa puloguramu eyekozesa emikolo emibale gumazeyo ekifo mu ggwanika ekiguweeredwa</translation>
+        <translation>arbetsytans storlek överstigs i DFA-matchning</translation>
     </message>
     <message>
         <source>internal error - pattern overwritten?</source>
-        <translation>puloguramu ezzeemu kiremya - oba oli awo waliwo ebizzidwa mu kifo ky&apos;ekinoonyezebwa?</translation>
+        <translation>internt fel - mönstret överskrivet?</translation>
     </message>
     <message>
         <source>bad JIT option</source>
-        <translation>waliwo akawayiro aka JIT akasobi</translation>
+        <translation>felaktigt JIT-alternativ</translation>
     </message>
     <message>
         <source>JIT stack limit reached</source>
-        <translation>ekkomo ly&apos;eggwanika eripangibwa erya JIT lituukidwako</translation>
+        <translation>gräns för JIT-stack nåddes</translation>
     </message>
     <message>
         <source>match limit exceeded</source>
-        <translation>ekkomo ly&apos;ebizuulidwa liyisidwako</translation>
+        <translation>matchningsgräns överstigen</translation>
     </message>
     <message>
         <source>no more memory</source>
-        <translation>ggwanika temukyali kifo</translation>
+        <translation>slut på minne</translation>
     </message>
     <message>
         <source>unknown substring</source>
-        <translation>waliwo ekitundu ekitayatuukirizidwa eky&apos;ekigambo</translation>
+        <translation>okänd understräng</translation>
     </message>
     <message>
         <source>non-unique substring name</source>
-        <translation>ebitundu by&apos;ekigambo ebirala nabyo birina erinnya eryo</translation>
+        <translation>icke-unikt understrängsnamn</translation>
     </message>
     <message>
         <source>NULL argument passed</source>
-        <translation>NULL kiweeredwa yo nga agumenti</translation>
+        <translation>NULL-argument skickades</translation>
     </message>
     <message>
         <source>nested recursion at the same subject position</source>
-        <translation>waliwo omulimu wegukola ku bivudde mu miku gya gwo egikulembedde emirundi egisoba mu gumu</translation>
+        <translation>nästlad rekursion på samma ämnesposition</translation>
     </message>
     <message>
         <source>matching depth limit exceeded</source>
-        <translation>ebizuulidwa bisinga ekkomo</translation>
+        <translation>gräns för matchningsdjup överstigen</translation>
     </message>
     <message>
         <source>requested value is not available</source>
-        <translation>ekinoonyezebwa tekifunika</translation>
+        <translation>begärt värde är inte tillgängligt</translation>
     </message>
     <message>
         <source>requested value is not set</source>
-        <translation>ekinoonyezebwa tekitegekedwa</translation>
+        <translation>begärt värde är inte inställt</translation>
     </message>
     <message>
         <source>offset limit set without PCRE2_USE_OFFSET_LIMIT</source>
-        <translation>awatandikirwa wategekedwa nga PCRE2_USE_OFFSET_LIMIT kyo ssi kitegeke</translation>
+        <translation>offset-gräns inställd utan PCRE2_USE_OFFSET_LIMIT</translation>
     </message>
     <message>
         <source>bad escape sequence in replacement string</source>
-        <translation>ekigambo ekigenda okuzzibwa mu kifo kya kinnaakyo kirimu ekigambo ekifuula enneyisa ekisobi</translation>
+        <translation>felaktig escape-sekvens i ersättningssträng</translation>
     </message>
     <message>
         <source>expected closing curly bracket in replacement string</source>
-        <translation>ekigambo ekigenda okuzzibwa mu kifo kya kinnaakyo kyetaagisamu ka }</translation>
+        <translation>förväntade stängande klammerparentes i ersättningssträng</translation>
     </message>
     <message>
         <source>bad substitution in replacement string</source>
-        <translation>ekigambo ekigenda okuzzibwa mu kifo kya kinnaakyo kirimu ekiragiro ekisobi</translation>
+        <translation>felaktig ersättning i ersättningssträng</translation>
     </message>
     <message>
         <source>match with end before start or start moved backwards is not supported</source>
-        <translation>sisitemu temanyi okunoonya ebifaanana ekinoonyezebwa ku nkomerero z&apos;ebinoonyezebwamu</translation>
+        <translation>matchning med slut före start eller start flyttad bakåt stöds inte</translation>
     </message>
     <message>
         <source>too many replacements (more than INT_MAX)</source>
-        <translation>ebigenda okuzzibwa mu bifo bya binnaabyo biyitiridde obungi (bisukka mu INT_MAX)</translation>
+        <translation>för många ersättningar (fler än INT_MAX)</translation>
     </message>
     <message>
         <source>bad serialized data</source>
-        <translation>waliwo data evungise embi</translation>
+        <translation>felaktigt serialiserat data</translation>
     </message>
     <message>
         <source>heap limit exceeded</source>
-        <translation>ekkomo ly&apos;eggwanka ery&apos;entuumo liyitidwako</translation>
+        <translation>heap-gräns överstegs</translation>
     </message>
     <message>
         <source>invalid syntax</source>
-        <translation>waliwo ebiri mu mpandika etategeereka</translation>
+        <translation>ogiltig syntax</translation>
     </message>
     <message>
         <source>internal error - duplicate substitution match</source>
-        <translation>puloguramu ezzeemu kiremya - waliwo ekizuulidwa ekiragidwa okuwanyisibwamu bya mirundi ebiri</translation>
+        <translation>internt fel - dubblett av ersättningsmatchning</translation>
     </message>
     <message>
         <source>PCRE2_MATCH_INVALID_UTF is not supported for DFA matching</source>
-        <translation>PCRE2_MATCH_INVALID_UTF tekikolagana n&apos;ogw&apos;okunoonya ogwa puloguramu eyekozesa emikolo emibale</translation>
+        <translation>PCRE2_MATCH_INVALID_UTF stöds inte för DFA-matchning</translation>
     </message>
 </context>
 <context>
     <name>QSQLite2Driver</name>
     <message>
         <source>Error opening database</source>
-        <translation>Wazzewo kiremya mu kubikkula ggwanika lya data</translation>
+        <translation>Fel vid öppnade av databas</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>Tekisobose okutandika omukolo</translation>
+        <translation>Kunde inte påbörja transaktion</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Kunde inte verkställa transaktion</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Tekisobose okujjulula ebikyusidwa</translation>
+        <translation>Kunde inte rulla tillbaka transaktion</translation>
     </message>
 </context>
 <context>
     <name>QSQLite2Result</name>
     <message>
         <source>Unable to fetch results</source>
-        <translation>Tekisobose okunona ebivudde mu kunoonya</translation>
+        <translation>Kunde inte hämta resultat</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Tekisobose okutandika ekiragiro ekya mu ggwanika lya data</translation>
+        <translation>Kunde inte köra villkor</translation>
     </message>
 </context>
 <context>
     <name>QSQLiteDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>Wazzewo kiremya mu kubikkula ggwanika lya data</translation>
+        <translation>Fel vid öppnade av databas</translation>
     </message>
     <message>
         <source>Error closing database</source>
-        <translation>Wazzewo kiremya mu kuggalawo ggwanika lya data</translation>
+        <translation>Fel vid stängning av databas</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>Tekisobose okutandika omukolo</translation>
+        <translation>Kunde inte påbörja transaktion</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Kunde inte verkställa transaktion</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>Tekisobose okujjulula ebikyusidwa</translation>
+        <translation>Kunde inte rulla tillbaka transaktion</translation>
     </message>
 </context>
 <context>
     <name>QSQLiteResult</name>
     <message>
         <source>Unable to fetch row</source>
-        <translation>Tekisobose okunona olunyiriri lwa data</translation>
+        <translation>Kunde inte hämta rad</translation>
     </message>
     <message>
         <source>No query</source>
-        <translation>Wabuzewo kiragiro</translation>
+        <translation>Ingen fråga</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Tekisobose okutandika ekiragiro ekya mu ggwanika lya data</translation>
+        <translation>Kunde inte köra villkor</translation>
     </message>
     <message>
         <source>Unable to execute multiple statements at a time</source>
-        <translation>Tekisobose okutandikira okumu ebiragiro ebya mu ggwanika lya data ebisukka mu kimu</translation>
+        <translation>Kunde inte köra satsfråga på en gång</translation>
     </message>
     <message>
         <source>Unable to reset statement</source>
-        <translation>Tekisobose okuzza ekiragiro ekya mu ggwanika lya data mu mbeera yakyo eyasoose</translation>
+        <translation>Kunde inte återställa villkor</translation>
     </message>
     <message>
         <source>Unable to bind parameters</source>
-        <translation>Tekisobose okuzza ebikongojje ebya ddala mu bifo by&apos;ebikwatakifo</translation>
+        <translation>Kunde inte binda parametrar</translation>
     </message>
     <message>
         <source>Parameter count mismatch</source>
-        <translation>Agumenti ne paramita tezenkanankana obungi</translation>
+        <translation>Parameterantal stämmer inte</translation>
     </message>
 </context>
 <context>
     <name>QSaveFile</name>
     <message>
         <source>Existing file %1 is not writable</source>
-        <translation>Fayiro eriwo, %1, tewandikikamu</translation>
+        <translation>Befintliga filen %1 är inte skrivbar</translation>
     </message>
     <message>
         <source>Filename refers to a directory</source>
-        <translation>Erinnya lya tterekero</translation>
+        <translation>Filnamnet refererar till en katalog</translation>
     </message>
     <message>
         <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled.</source>
-        <translation>QSaveFile tesobola okubikkula &apos;%1&apos; nga tesobozesedwa okugiwandikamu butereevu bwe kiba nga kyetaagisidwa.</translation>
+        <translation>QSaveFile kan inte öppna &quot;%1&quot; utan direktskrivning att falla tillbaka på är aktiverad.</translation>
     </message>
     <message>
         <source>Writing canceled by application</source>
-        <translation>Puloguramu okuwandika ekusazizzamu</translation>
+        <translation>Skrivningen avbröts av programmet</translation>
     </message>
 </context>
 <context>
     <name>QScrollBar</name>
     <message>
         <source>Scroll here</source>
-        <translation>Seesa okutuuka wano</translation>
+        <translation>Rulla här</translation>
     </message>
     <message>
         <source>Left edge</source>
-        <translation>Seesa okumalayo ku kkono</translation>
+        <translation>Vänsterkant</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation>Dda waggulu awatandika</translation>
+        <translation>Överkant</translation>
     </message>
     <message>
         <source>Right edge</source>
-        <translation>Seesa okumalayo ku ddyo</translation>
+        <translation>Högerkant</translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation>Dda wansi awasemba</translation>
+        <translation>Nederkant</translation>
     </message>
     <message>
         <source>Page left</source>
-        <translation>Seesa ku kkono ekyenkana ebirabika kakati</translation>
+        <translation>Sida vänster</translation>
     </message>
     <message>
         <source>Page up</source>
-        <translation>Seesa waggulu ekyenkana ebirabika kakati</translation>
+        <translation>Sida uppåt</translation>
     </message>
     <message>
         <source>Page right</source>
-        <translation>Seesa ku ddyo ekyenkana ebirabika kakati</translation>
+        <translation>Sida höger</translation>
     </message>
     <message>
         <source>Page down</source>
-        <translation>Seesa wansi ekyenkana ebirabika kakati</translation>
+        <translation>Sida nedåt</translation>
     </message>
     <message>
         <source>Scroll left</source>
-        <translation>Seesa ku kkono</translation>
+        <translation>Rulla vänster</translation>
     </message>
     <message>
         <source>Scroll up</source>
-        <translation>Seesa waggulu</translation>
+        <translation>Rulla uppåt</translation>
     </message>
     <message>
         <source>Scroll right</source>
-        <translation>Seesa ku ddyo</translation>
+        <translation>Rulla höger</translation>
     </message>
     <message>
         <source>Scroll down</source>
-        <translation>Seesa wansi</translation>
+        <translation>Rulla nedåt</translation>
     </message>
 </context>
 <context>
     <name>QSctpSocket</name>
     <message>
         <source>The remote host closed the connection</source>
-        <translation>Kompyuta ey&apos;ebunaayira eggadewo empulizagana</translation>
+        <translation>Fjärrvärden stängde anslutningen</translation>
     </message>
 </context>
 <context>
     <name>QSharedMemory</name>
     <message>
         <source>%1: unable to set key on lock</source>
-        <translation>%1: waliwo ekikugizo ekigaana ekitundu ky&apos;eggwanika okugabanibwa</translation>
+        <translation>%1: kunde inte ställa in nyckel på lås</translation>
     </message>
     <message>
         <source>%1: create size is less then 0</source>
-        <translation>%1: obunene obutegekedwa ku kitundu ky&apos;eggwanika ekikolebwawo bwa negatifu</translation>
+        <translation>%1: skapad storlek är mindre än 0</translation>
     </message>
     <message>
         <source>%1: unable to lock</source>
-        <translation>%1: tekisobose okuteekawo ekikugizo ku kitundu ky&apos;eggwanika</translation>
+        <translation>%1: kunde inte låsa</translation>
     </message>
     <message>
         <source>%1: unable to unlock</source>
-        <translation>%1: tekisobose okugyako ekikugizo ku kitundu ky&apos;eggwanika</translation>
-    </message>
-    <message>
-        <source>%1: key is empty</source>
-        <translation>%1: ennambakifo bbanga jjereere</translation>
-    </message>
-    <message>
-        <source>%1: bad name</source>
-        <translation>%1: waliwo ekituumidwa erinnya eritakozeseka</translation>
-    </message>
-    <message>
-        <source>%1: UNIX key file doesn&apos;t exist</source>
-        <translation>%1: ftok teraba fayiro gy&apos;ekolera ennambakifo</translation>
-    </message>
-    <message>
-        <source>%1: ftok failed</source>
-        <translation>%1: ftok eremeredwa</translation>
-    </message>
-    <message>
-        <source>%1: unable to make key</source>
-        <translation>%1: tekisobose okukola ennambakifo</translation>
-    </message>
-    <message>
-        <source>%1: system-imposed size restrictions</source>
-        <translation>%1: sistemu yateekawo ekkomo ku bunene bw&apos;ebitundu by&apos;eggwanika</translation>
-    </message>
-    <message>
-        <source>%1: not attached</source>
-        <translation>%1: ekitundu ky&apos;eggwanika tekikwataganizidwa</translation>
+        <translation>%1: kunde inte låsa upp</translation>
     </message>
     <message>
         <source>%1: permission denied</source>
-        <translation>%1: Olukusa teruweeredwa</translation>
+        <translation>%1: behörighet nekad</translation>
     </message>
     <message>
         <source>%1: already exists</source>
-        <translation>%1: esangidwa weeri</translation>
+        <translation>%1: finns redan</translation>
     </message>
     <message>
         <source>%1: doesn&apos;t exist</source>
-        <translation>%1: teeriwo</translation>
+        <translation>%1: finns inte</translation>
     </message>
     <message>
         <source>%1: out of resources</source>
-        <translation>%1: sisitemu bye yeyambsa okukola omulimu tebimala, byonna bikozesebwa</translation>
+        <translation>%1: slut på resurser</translation>
     </message>
     <message>
         <source>%1: unknown error %2</source>
-        <translation>%1: wazzewo kiremya atategeereka %2</translation>
+        <translation>%1: okänt fel %2</translation>
+    </message>
+    <message>
+        <source>%1: key is empty</source>
+        <translation>%1: nyckeln är tom</translation>
+    </message>
+    <message>
+        <source>%1: bad name</source>
+        <translation>%1: felaktigt namn</translation>
+    </message>
+    <message>
+        <source>%1: UNIX key file doesn&apos;t exist</source>
+        <translation>%1: UNIX-nyckelfil finns inte</translation>
+    </message>
+    <message>
+        <source>%1: ftok failed</source>
+        <translation>%1: ftok misslyckades</translation>
+    </message>
+    <message>
+        <source>%1: unable to make key</source>
+        <translation>%1: kunde inte skapa nyckel</translation>
+    </message>
+    <message>
+        <source>%1: system-imposed size restrictions</source>
+        <translation>%1: storleksbegränsningar för systemet</translation>
+    </message>
+    <message>
+        <source>%1: not attached</source>
+        <translation>%1: inte ansluten</translation>
     </message>
     <message>
         <source>%1: invalid size</source>
-        <translation>%1: obunene obutegekedwa tebukozeseka</translation>
+        <translation>%1: ogiltig storlek</translation>
     </message>
     <message>
         <source>%1: key error</source>
-        <translation>%1: ennambakifo eriko kiremya</translation>
+        <translation>%1: nyckelfel</translation>
     </message>
     <message>
         <source>%1: size query failed</source>
-        <translation>%1: ekiragiro ekizuula obunene bw&apos;ekitundu ky&apos;eggwanika kiremeredwa</translation>
+        <translation>%1: storleksfråga misslyckades</translation>
     </message>
 </context>
 <context>
@@ -5149,7 +5145,7 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     <message>
         <source>Space</source>
         <extracomment>This and all following &quot;incomprehensible&quot; strings in QShortcut context are key names. Please use the localized names appearing on actual keyboards or whatever is commonly used.</extracomment>
-        <translation>Space</translation>
+        <translation>Mellanslag</translation>
     </message>
     <message>
         <source>Esc</source>
@@ -5165,7 +5161,7 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Backspace</source>
-        <translation>Backspace</translation>
+        <translation>Backsteg</translation>
     </message>
     <message>
         <source>Return</source>
@@ -5197,7 +5193,7 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Home</source>
-        <translation>Home</translation>
+        <translation>Hem</translation>
     </message>
     <message>
         <source>End</source>
@@ -5205,19 +5201,19 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Left</source>
-        <translation>Left</translation>
+        <translation>Vänster</translation>
     </message>
     <message>
         <source>Up</source>
-        <translation>Up</translation>
+        <translation>Upp</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation>Right</translation>
+        <translation>Höger</translation>
     </message>
     <message>
         <source>Down</source>
-        <translation>Down</translation>
+        <translation>Ned</translation>
     </message>
     <message>
         <source>PgUp</source>
@@ -5233,7 +5229,7 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>NumLock</source>
-        <translation>Numlock</translation>
+        <translation>NumLock</translation>
     </message>
     <message>
         <source>ScrollLock</source>
@@ -5241,225 +5237,225 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Menu</source>
-        <translation>Menyu</translation>
+        <translation>Meny</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Nyamba</translation>
+        <translation>Hjälp</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Ddayo</translation>
+        <translation>Bakåt</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>Weyongereyo</translation>
+        <translation>Framåt</translation>
     </message>
     <message>
         <source>Stop</source>
-        <translation>Yimiriza</translation>
+        <translation>Stoppa</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation>Nyumunguza</translation>
+        <translation>Uppdatera</translation>
     </message>
     <message>
         <source>Volume Down</source>
-        <translation>Kendeeza Ddoboozi</translation>
+        <translation>Sänk volym</translation>
     </message>
     <message>
         <source>Volume Mute</source>
-        <translation>Sirisa Ddoboozi</translation>
+        <translation>Volym tyst</translation>
     </message>
     <message>
         <source>Volume Up</source>
-        <translation>Tumbula Ddoboozi</translation>
+        <translation>Höj volym</translation>
     </message>
     <message>
         <source>Bass Boost</source>
-        <translation>Beesi</translation>
+        <translation>Förstärk bas</translation>
     </message>
     <message>
         <source>Bass Up</source>
-        <translation>Yongeza Beesi</translation>
+        <translation>Höj bas</translation>
     </message>
     <message>
         <source>Bass Down</source>
-        <translation>Kendeeza Beesi</translation>
+        <translation>Sänk bas</translation>
     </message>
     <message>
         <source>Treble Up</source>
-        <translation>Yongeza Kaloboozi</translation>
+        <translation>Höj diskant</translation>
     </message>
     <message>
         <source>Treble Down</source>
-        <translation>Kendeeza Kaloboozi</translation>
+        <translation>Sänk diskant</translation>
     </message>
     <message>
         <source>Media Play</source>
-        <translation>Yolesa Mediya</translation>
+        <translation>Media spela upp</translation>
     </message>
     <message>
         <source>Media Stop</source>
-        <translation>Yimiriza Mediya</translation>
+        <translation>Media stopp</translation>
     </message>
     <message>
         <source>Media Previous</source>
-        <translation>Mediya Ekulembera Eno</translation>
+        <translation>Media föregående</translation>
     </message>
     <message>
         <source>Media Next</source>
-        <translation>Mediya Eddako</translation>
+        <translation>Media nästa</translation>
     </message>
     <message>
         <source>Media Record</source>
-        <translation>Kwata Mediya</translation>
+        <translation>Media spela in</translation>
     </message>
     <message>
         <source>Media Pause</source>
         <extracomment>Media player pause button</extracomment>
-        <translation>Yimirizamu Mediya</translation>
+        <translation>Pausa media</translation>
     </message>
     <message>
         <source>Toggle Media Play/Pause</source>
         <extracomment>Media player button to toggle between playing and paused</extracomment>
-        <translation>Yolesa/Yimirizamu Mediya</translation>
+        <translation>Växla media spela upp/paus</translation>
     </message>
     <message>
         <source>Home Page</source>
-        <translation>Olutandikirwako</translation>
+        <translation>Hemsida</translation>
     </message>
     <message>
         <source>Favorites</source>
-        <translation>By&apos;ojjumbira</translation>
+        <translation>Favoriter</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Noonya</translation>
+        <translation>Sök</translation>
     </message>
     <message>
         <source>Standby</source>
-        <translation>Liindirira</translation>
+        <translation>Avvakta</translation>
     </message>
     <message>
         <source>Open URL</source>
-        <translation>Genda ku ndagiriro ya URL</translation>
+        <translation>Öppna url</translation>
     </message>
     <message>
         <source>Launch Mail</source>
-        <translation>Tandika puloguramu ya yimeero</translation>
+        <translation>Starta e-post</translation>
     </message>
     <message>
         <source>Launch Media</source>
-        <translation>Tandika okwolesa Mediya</translation>
+        <translation>Starta media</translation>
     </message>
     <message>
         <source>Launch (0)</source>
-        <translation>Tandika (0)</translation>
+        <translation>Starta (0)</translation>
     </message>
     <message>
         <source>Launch (1)</source>
-        <translation>Tandika (1)</translation>
+        <translation>Starta (1)</translation>
     </message>
     <message>
         <source>Launch (2)</source>
-        <translation>Tandika (2)</translation>
+        <translation>Starta (2)</translation>
     </message>
     <message>
         <source>Launch (3)</source>
-        <translation>Tandika (3)</translation>
+        <translation>Starta (3)</translation>
     </message>
     <message>
         <source>Launch (4)</source>
-        <translation>Tandika (4)</translation>
+        <translation>Starta (4)</translation>
     </message>
     <message>
         <source>Launch (5)</source>
-        <translation>Tandika (5)</translation>
+        <translation>Starta (5)</translation>
     </message>
     <message>
         <source>Launch (6)</source>
-        <translation>Tandika (6)</translation>
+        <translation>Starta (6)</translation>
     </message>
     <message>
         <source>Launch (7)</source>
-        <translation>Tandika (7)</translation>
+        <translation>Starta (7)</translation>
     </message>
     <message>
         <source>Launch (8)</source>
-        <translation>Tandika (8)</translation>
+        <translation>Starta (8)</translation>
     </message>
     <message>
         <source>Launch (9)</source>
-        <translation>Tandika (9)</translation>
+        <translation>Starta (9)</translation>
     </message>
     <message>
         <source>Launch (A)</source>
-        <translation>Tandika (A)</translation>
+        <translation>Starta (A)</translation>
     </message>
     <message>
         <source>Launch (B)</source>
-        <translation>Tandika (B)</translation>
+        <translation>Starta (B)</translation>
     </message>
     <message>
         <source>Launch (C)</source>
-        <translation>Tandika (C)</translation>
+        <translation>Starta (C)</translation>
     </message>
     <message>
         <source>Launch (D)</source>
-        <translation>Tandika (D)</translation>
+        <translation>Starta (D)</translation>
     </message>
     <message>
         <source>Launch (E)</source>
-        <translation>Tandika (E)</translation>
+        <translation>Starta (E)</translation>
     </message>
     <message>
         <source>Launch (F)</source>
-        <translation>Tandika (F)</translation>
+        <translation>Starta (F)</translation>
     </message>
     <message>
         <source>Launch (G)</source>
-        <translation>Tandika (G)</translation>
+        <translation>Starta (G)</translation>
     </message>
     <message>
         <source>Launch (H)</source>
-        <translation>Tandika (H)</translation>
+        <translation>Starta (H)</translation>
     </message>
     <message>
         <source>Monitor Brightness Up</source>
-        <translation>Yongeza okwakayakana kw&apos;olutimbe</translation>
+        <translation>Monitor ljusstyrka upp</translation>
     </message>
     <message>
         <source>Monitor Brightness Down</source>
-        <translation>Kendeeza okwakayakana kw&apos;olutimbe</translation>
+        <translation>Monitor ljusstyrka ner</translation>
     </message>
     <message>
         <source>Keyboard Light On/Off</source>
-        <translation>Gyako/Ssaako Taala ya mu Mapeesa</translation>
+        <translation>Tangentbord ljus på/av</translation>
     </message>
     <message>
         <source>Keyboard Brightness Up</source>
-        <translation>Yongeza okwaka kw&apos;amapeesa</translation>
+        <translation>Tangentbord ljusstyrka upp</translation>
     </message>
     <message>
         <source>Keyboard Brightness Down</source>
-        <translation>Kendeeza okwaka kw&apos;amapeesa</translation>
+        <translation>Tangentbord ljusstyrka ner</translation>
     </message>
     <message>
         <source>Power Off</source>
-        <translation>Gyako kompyuta</translation>
+        <translation>Stäng av</translation>
     </message>
     <message>
         <source>Wake Up</source>
-        <translation>Zuukusa Kompyuta</translation>
+        <translation>Vakna</translation>
     </message>
     <message>
         <source>Eject</source>
-        <translation>Wandula</translation>
+        <translation>Mata ut</translation>
     </message>
     <message>
         <source>Screensaver</source>
-        <translation>Ekisaanikira olutimbe</translation>
+        <translation>Skärmsläckare</translation>
     </message>
     <message>
         <source>WWW</source>
@@ -5467,59 +5463,59 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Sleep</source>
-        <translation>Kompyuta gyebase</translation>
+        <translation>Sov</translation>
     </message>
     <message>
         <source>LightBulb</source>
-        <translation>Ttaala</translation>
+        <translation>Glödlampa</translation>
     </message>
     <message>
         <source>Shop</source>
-        <translation>Noonya ebigulibwa</translation>
+        <translation>Affär</translation>
     </message>
     <message>
         <source>History</source>
-        <translation>Ebirabidwa</translation>
+        <translation>Historik</translation>
     </message>
     <message>
         <source>Add Favorite</source>
-        <translation>Yongera ku by&apos;ojjumbira</translation>
+        <translation>Lägg till favorit</translation>
     </message>
     <message>
         <source>Hot Links</source>
-        <translation>Enyunzi ezijjumbirwa</translation>
+        <translation>Bra länkar</translation>
     </message>
     <message>
         <source>Adjust Brightness</source>
-        <translation>Kyusa okwakayakana</translation>
+        <translation>Justera ljusstyrka</translation>
     </message>
     <message>
         <source>Finance</source>
-        <translation>Eby&apos;ensimbi</translation>
+        <translation>Finans</translation>
     </message>
     <message>
         <source>Community</source>
-        <translation>Bantu</translation>
+        <translation>Gemenskap</translation>
     </message>
     <message>
         <source>Media Rewind</source>
-        <translation>Mediya gizze mabega</translation>
+        <translation>Media spola tillbaka</translation>
     </message>
     <message>
         <source>Back Forward</source>
-        <translation>Ddayo oba Weyongereyo</translation>
+        <translation>Bakåt framåt</translation>
     </message>
     <message>
         <source>Application Left</source>
-        <translation>Puloguramu Kkono</translation>
+        <translation>Program vänster</translation>
     </message>
     <message>
         <source>Application Right</source>
-        <translation>Puloguramu Ddyo</translation>
+        <translation>Program höger</translation>
     </message>
     <message>
         <source>Book</source>
-        <translation>Kitabo</translation>
+        <translation>Bok</translation>
     </message>
     <message>
         <source>CD</source>
@@ -5527,39 +5523,39 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Calculator</source>
-        <translation>Kaliculeta</translation>
+        <translation>Miniräknare</translation>
     </message>
     <message>
         <source>Calendar</source>
-        <translation>Kalenda</translation>
+        <translation>Kalender</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Yerula</translation>
+        <translation>Töm</translation>
     </message>
     <message>
         <source>Clear Grab</source>
-        <translation>Ta Ebirobedwa</translation>
+        <translation>Töm fångst</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Gala</translation>
+        <translation>Stäng</translation>
     </message>
     <message>
         <source>Adjust contrast</source>
-        <translation>Kyusa mu kwawula</translation>
+        <translation>Justera kontrast</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Koppa</translation>
+        <translation>Kopiera</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation>Situlawo</translation>
+        <translation>Klipp ut</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation>Lutimbe</translation>
+        <translation>Skärm</translation>
     </message>
     <message>
         <source>DOS</source>
@@ -5567,23 +5563,23 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Documents</source>
-        <translation>Ebiwandike</translation>
+        <translation>Dokument</translation>
     </message>
     <message>
         <source>Spreadsheet</source>
-        <translation>Empapula ez&apos;okubalirira</translation>
+        <translation>Kalkylark</translation>
     </message>
     <message>
         <source>Browser</source>
-        <translation>Bulawuza</translation>
+        <translation>Webbläsare</translation>
     </message>
     <message>
         <source>Game</source>
-        <translation>Kizannyisibwa</translation>
+        <translation>Spel</translation>
     </message>
     <message>
         <source>Go</source>
-        <translation>Genda Yo</translation>
+        <translation>Gå</translation>
     </message>
     <message>
         <source>iTouch</source>
@@ -5591,15 +5587,15 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Logoff</source>
-        <translation>Komya olutuula</translation>
+        <translation>Logga ut</translation>
     </message>
     <message>
         <source>Market</source>
-        <translation>Katale</translation>
+        <translation>Marknad</translation>
     </message>
     <message>
         <source>Meeting</source>
-        <translation>Lukuŋaana</translation>
+        <translation>Möte</translation>
     </message>
     <message>
         <source>Memo</source>
@@ -5607,143 +5603,143 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Keyboard Menu</source>
-        <translation>Menyu y&apos;amapeesa</translation>
+        <translation>Tangentbordsmeny</translation>
     </message>
     <message>
         <source>Menu PB</source>
-        <translation>Menyu PB</translation>
+        <translation>Meny PB</translation>
     </message>
     <message>
         <source>My Sites</source>
-        <translation>Ebifo bye nzijumbira</translation>
+        <translation>Mina platser</translation>
     </message>
     <message>
         <source>News</source>
-        <translation>Mawulire</translation>
+        <translation>Nyheter</translation>
     </message>
     <message>
         <source>Home Office</source>
-        <translation>Wofiisi y&apos;awaka</translation>
+        <translation>Hemmakontor</translation>
     </message>
     <message>
         <source>Option</source>
-        <translation>Kitegekebwa</translation>
+        <translation>Alternativ</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>Paatiika</translation>
+        <translation>Klistra in</translation>
     </message>
     <message>
         <source>Phone</source>
-        <translation>Ssimu</translation>
+        <translation>Telefon</translation>
     </message>
     <message>
         <source>Reply</source>
-        <translation>Ddamu</translation>
+        <translation>Svara</translation>
     </message>
     <message>
         <source>Reload</source>
-        <translation>Ddamu Kubikkula</translation>
+        <translation>Uppdatera</translation>
     </message>
     <message>
         <source>Rotate Windows</source>
-        <translation>Wunzika Madirisa</translation>
+        <translation>Rotera fönster</translation>
     </message>
     <message>
         <source>Rotation PB</source>
-        <translation>Okuwunzika PB</translation>
+        <translation>Rotation PB</translation>
     </message>
     <message>
         <source>Rotation KB</source>
-        <translation>Okuwunzika KB</translation>
+        <translation>Rotation KB</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Kazza</translation>
+        <translation>Spara</translation>
     </message>
     <message>
         <source>Send</source>
-        <translation>Sindika</translation>
+        <translation>Skicka</translation>
     </message>
     <message>
         <source>Spellchecker</source>
-        <translation>Ekikeberampandika</translation>
+        <translation>Stavningskontroll</translation>
     </message>
     <message>
         <source>Split Screen</source>
-        <translation>Akatimbe k&apos;awulemu</translation>
+        <translation>Delad skärm</translation>
     </message>
     <message>
         <source>Support</source>
-        <translation>Buyambi</translation>
+        <translation>Support</translation>
     </message>
     <message>
         <source>Task Panel</source>
-        <translation>Kabaawo k&apos;emirimu</translation>
+        <translation>Åtgärdspanel</translation>
     </message>
     <message>
         <source>Terminal</source>
-        <translation>Kiwandikiro</translation>
+        <translation>Terminal</translation>
     </message>
     <message>
         <source>To-do list</source>
-        <translation>Lukalala lw&apos;eby&apos;okukola</translation>
+        <translation>Att-göra-lista</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation>Ebiyamba</translation>
+        <translation>Verktyg</translation>
     </message>
     <message>
         <source>Travel</source>
-        <translation>Eby&apos;okutambula</translation>
+        <translation>Resa</translation>
     </message>
     <message>
         <source>Video</source>
-        <translation>Vidiyo</translation>
+        <translation>Video</translation>
     </message>
     <message>
         <source>Word Processor</source>
-        <translation>Ekiteekateekabiwandike</translation>
+        <translation>Ordbehandlare</translation>
     </message>
     <message>
         <source>XFer</source>
-        <translation>Simbuliza</translation>
+        <translation>XFer</translation>
     </message>
     <message>
         <source>Zoom In</source>
-        <translation>Zimbulukusa</translation>
+        <translation>Zooma in</translation>
     </message>
     <message>
         <source>Zoom Out</source>
-        <translation>Kendeeza</translation>
+        <translation>Zooma ut</translation>
     </message>
     <message>
         <source>Away</source>
-        <translation>Siriwo</translation>
+        <translation>Borta</translation>
     </message>
     <message>
         <source>Messenger</source>
-        <translation>Mesenja</translation>
+        <translation>Messenger</translation>
     </message>
     <message>
         <source>WebCam</source>
-        <translation>WebCam</translation>
+        <translation>Webbkamera</translation>
     </message>
     <message>
         <source>Mail Forward</source>
-        <translation>Yongezayo yimeero</translation>
+        <translation>Vidarebefordra e-post</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>Bifaananyi</translation>
+        <translation>Bilder</translation>
     </message>
     <message>
         <source>Music</source>
-        <translation>Nyimba</translation>
+        <translation>Musik</translation>
     </message>
     <message>
         <source>Battery</source>
-        <translation>Lyanda</translation>
+        <translation>Batteri</translation>
     </message>
     <message>
         <source>Bluetooth</source>
@@ -5751,7 +5747,7 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Wireless</source>
-        <translation>Wayaleesi</translation>
+        <translation>Trådlös</translation>
     </message>
     <message>
         <source>Ultra Wide Band</source>
@@ -5759,127 +5755,127 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Media Fast Forward</source>
-        <translation>Mediya gyanguye mu maaso</translation>
+        <translation>Media snabbspola</translation>
     </message>
     <message>
         <source>Audio Repeat</source>
-        <translation>Ebiwulirizibwa biddengamu nga bituuse gye bikoma</translation>
+        <translation>Ljud upprepa</translation>
     </message>
     <message>
         <source>Audio Random Play</source>
-        <translation>Ebiwulirizibwa birondebwe muwawa</translation>
+        <translation>Ljud slumpmässig uppspelning</translation>
     </message>
     <message>
         <source>Subtitle</source>
-        <translation>Wandikawo ebyogerebwa</translation>
+        <translation>Undertext</translation>
     </message>
     <message>
         <source>Audio Cycle Track</source>
-        <translation>Yita Mu Fayiro Ez&apos;ebiwulirizibwa Nga Bwe Zigobereragana</translation>
+        <translation>Ljud växla spår</translation>
     </message>
     <message>
         <source>Time</source>
-        <translation>Budde</translation>
+        <translation>Tid</translation>
     </message>
     <message>
         <source>Hibernate</source>
-        <translation>Kompyuta gyebase</translation>
+        <translation>Viloläge</translation>
     </message>
     <message>
         <source>View</source>
-        <translation>Ndabika</translation>
+        <translation>Visa</translation>
     </message>
     <message>
         <source>Top Menu</source>
-        <translation>Menyu esooka</translation>
+        <translation>Toppmeny</translation>
     </message>
     <message>
         <source>Power Down</source>
-        <translation>Gyako Kompyuta</translation>
+        <translation>Stäng ner</translation>
     </message>
     <message>
         <source>Suspend</source>
-        <translation>Lindisa kompyuta</translation>
+        <translation>Vänteläge</translation>
     </message>
     <message>
         <source>Microphone Mute</source>
-        <translation>Sirisa ebiva ku muzindaalo ogukwata</translation>
+        <translation>Mikrofon tyst</translation>
     </message>
     <message>
         <source>Red</source>
-        <translation>Myufu</translation>
+        <translation>Röd</translation>
     </message>
     <message>
         <source>Green</source>
-        <translation>Kiragala</translation>
+        <translation>Grön</translation>
     </message>
     <message>
         <source>Yellow</source>
-        <translation>Kyenvu</translation>
+        <translation>Gul</translation>
     </message>
     <message>
         <source>Blue</source>
-        <translation>Bulu</translation>
+        <translation>Blå</translation>
     </message>
     <message>
         <source>Channel Up</source>
-        <translation>Dda ku mukutu oguddirira</translation>
+        <translation>Kanal upp</translation>
     </message>
     <message>
         <source>Channel Down</source>
-        <translation>Dda ku mukutu ogukulembera</translation>
+        <translation>Kanal ner</translation>
     </message>
     <message>
         <source>Guide</source>
-        <translation>Okulagirira</translation>
+        <translation>Guide</translation>
     </message>
     <message>
         <source>Info</source>
-        <translation>Okumanyisa</translation>
+        <translation>Info</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation>Nteekateeka</translation>
+        <translation>Inställningar</translation>
     </message>
     <message>
         <source>Microphone Volume Up</source>
-        <translation>Tumbula ddoboozi ly&apos;ebiva ku muzindaalo ogukwata</translation>
+        <translation>Mikrofon volym upp</translation>
     </message>
     <message>
         <source>Microphone Volume Down</source>
-        <translation>Kendeeza ddoboozi ly&apos;ebiva ku muzindaalo ogukwata</translation>
+        <translation>Mikrofon volym ner</translation>
     </message>
     <message>
         <source>New</source>
-        <translation>Kolawo ekipya</translation>
+        <translation>Ny</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Bikkula</translation>
+        <translation>Öppna</translation>
     </message>
     <message>
         <source>Find</source>
-        <translation>Noonya</translation>
+        <translation>Sök</translation>
     </message>
     <message>
         <source>Undo</source>
-        <translation>Bijjulule</translation>
+        <translation>Ångra</translation>
     </message>
     <message>
         <source>Redo</source>
-        <translation>Zzawo</translation>
+        <translation>Gör om</translation>
     </message>
     <message>
         <source>Print Screen</source>
-        <translation>Kubisa ebiri ku lutimbe</translation>
+        <translation>Print Screen</translation>
     </message>
     <message>
         <source>Page Up</source>
-        <translation>Seesa waggulu ekyenkana ebirabika kakati</translation>
+        <translation>Page Up</translation>
     </message>
     <message>
         <source>Page Down</source>
-        <translation>Seesa wansi ekyenkana ebirabika kakati</translation>
+        <translation>Page Down</translation>
     </message>
     <message>
         <source>Caps Lock</source>
@@ -5895,15 +5891,15 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Scroll Lock</source>
-        <translation>Siba okuseesa</translation>
+        <translation>Scroll Lock</translation>
     </message>
     <message>
         <source>Insert</source>
-        <translation>Sonsekawo</translation>
+        <translation>Insert</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Gyawo</translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <source>Escape</source>
@@ -5915,70 +5911,70 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Select</source>
-        <translation>Londa</translation>
+        <translation>Välj</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Ye</translation>
+        <translation>Ja</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Nedda</translation>
+        <translation>Nej</translation>
     </message>
     <message>
         <source>Context1</source>
-        <translation>Context1</translation>
+        <translation>Sammanhang1</translation>
     </message>
     <message>
         <source>Context2</source>
-        <translation>Context2</translation>
+        <translation>Sammanhang2</translation>
     </message>
     <message>
         <source>Context3</source>
-        <translation>Context3</translation>
+        <translation>Sammanhang3</translation>
     </message>
     <message>
         <source>Context4</source>
-        <translation>Context4</translation>
+        <translation>Sammanhang4</translation>
     </message>
     <message>
         <source>Call</source>
         <extracomment>Button to start a call (note: a separate button is used to end the call)</extracomment>
-        <translation>Kubira</translation>
+        <translation>Ring upp</translation>
     </message>
     <message>
         <source>Hangup</source>
         <extracomment>Button to end a call (note: a separate button is used to start the call)</extracomment>
-        <translation>Vva ko</translation>
+        <translation>Lägg på</translation>
     </message>
     <message>
         <source>Toggle Call/Hangup</source>
         <extracomment>Button that will hang up if we&apos;re in call, or make a call if we&apos;re not.</extracomment>
-        <translation>Kukubira/Vva ko</translation>
+        <translation>Växla ring upp/lägg på</translation>
     </message>
     <message>
         <source>Flip</source>
-        <translation>Vuunika</translation>
+        <translation>Vänd</translation>
     </message>
     <message>
         <source>Voice Dial</source>
         <extracomment>Button to trigger voice dialing</extracomment>
-        <translation>Kubira namba gy&apos;oyogedde bwogezi</translation>
+        <translation>Ring röstsamtal</translation>
     </message>
     <message>
         <source>Last Number Redial</source>
         <extracomment>Button to redial the last number called</extracomment>
-        <translation>Kubira namba gye wasembye okukubira</translation>
+        <translation>Ring upp senaste nummer</translation>
     </message>
     <message>
         <source>Camera Shutter</source>
         <extracomment>Button to trigger the camera shutter (take a picture)</extracomment>
-        <translation>Nasula kamera</translation>
+        <translation>Kameraslutare</translation>
     </message>
     <message>
         <source>Camera Focus</source>
         <extracomment>Button to focus the camera</extracomment>
-        <translation>Fokasi</translation>
+        <translation>Kamerafokus</translation>
     </message>
     <message>
         <source>Kanji</source>
@@ -6030,31 +6026,31 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Kana Lock</source>
-        <translation>Nywerera mu Kana</translation>
+        <translation>Kana lås</translation>
     </message>
     <message>
         <source>Kana Shift</source>
-        <translation>Shift ya Kana</translation>
+        <translation>Kana skift</translation>
     </message>
     <message>
         <source>Eisu Shift</source>
-        <translation>Shift ya Eisu</translation>
+        <translation>Eisu skift</translation>
     </message>
     <message>
         <source>Eisu toggle</source>
-        <translation>Wanyisa ya Eisu</translation>
+        <translation>Eisu växla</translation>
     </message>
     <message>
         <source>Code input</source>
-        <translation>Wandika biragiro</translation>
+        <translation>Kodinmatning</translation>
     </message>
     <message>
         <source>Multiple Candidate</source>
-        <translation>Ebirondeka ebisukka mu kimu</translation>
+        <translation>Flera kandidat</translation>
     </message>
     <message>
         <source>Previous Candidate</source>
-        <translation>Ekirondeka ekikulembera kino</translation>
+        <translation>Föregående kandidat</translation>
     </message>
     <message>
         <source>Hangul</source>
@@ -6062,11 +6058,11 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Hangul Start</source>
-        <translation>Tandika Hangul</translation>
+        <translation>Hangul Start</translation>
     </message>
     <message>
         <source>Hangul End</source>
-        <translation>Komya Hangul</translation>
+        <translation>Hangul slut</translation>
     </message>
     <message>
         <source>Hangul Hanja</source>
@@ -6098,51 +6094,47 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Hangul Special</source>
-        <translation>Hangul ey&apos;enjawulo</translation>
+        <translation>Hangul Special</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Sazamu</translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Printer</source>
-        <translation>Pulinta</translation>
+        <translation>Skrivare</translation>
     </message>
     <message>
         <source>Execute</source>
-        <translation>Tandika</translation>
+        <translation>Kör</translation>
     </message>
     <message>
         <source>Play</source>
-        <translation>Yolesa</translation>
+        <translation>Spela upp</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation>Obuzimbulukufu</translation>
+        <translation>Zooma</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>Mala</translation>
+        <translation>Avsluta</translation>
     </message>
     <message>
         <source>Touchpad Toggle</source>
-        <translation>Zuukusa/siba akasongesebwa k&apos;osiisiriza</translation>
+        <translation>Pekplatta växla</translation>
     </message>
     <message>
         <source>Touchpad On</source>
-        <translation>Zuukusa akasongesebwa k&apos;osiisiriza</translation>
+        <translation>Pekplatta på</translation>
     </message>
     <message>
         <source>Touchpad Off</source>
-        <translation>Siba akasongesebwa k&apos;osiisiriza</translation>
-    </message>
-    <message>
-        <source>Ctrl</source>
-        <translation>Ctrl</translation>
+        <translation>Pekplatta av</translation>
     </message>
     <message>
         <source>Shift</source>
-        <translation>Shift</translation>
+        <translation>Skift</translation>
     </message>
     <message>
         <source>Alt</source>
@@ -6151,6 +6143,10 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     <message>
         <source>Meta</source>
         <translation>Meta</translation>
+    </message>
+    <message>
+        <source>Ctrl</source>
+        <translation>Ctrl</translation>
     </message>
     <message>
         <source>Num</source>
@@ -6170,59 +6166,59 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     <name>QSocks5SocketEngine</name>
     <message>
         <source>Connection to proxy refused</source>
-        <translation>Kalaani egaanye okuteekawo okuwulizagana</translation>
+        <translation>Anslutning till proxyn nekades</translation>
     </message>
     <message>
         <source>Connection to proxy closed prematurely</source>
-        <translation>Okukuwatagana ne kalaani kuggadwawo nga bukyali</translation>
+        <translation>Anslutning till proxyn stängdes i förtid</translation>
     </message>
     <message>
         <source>Proxy host not found</source>
-        <translation>Kompyuta okuli kalaani terabidwa</translation>
+        <translation>Proxyvärden hittades inte</translation>
     </message>
     <message>
         <source>Connection to proxy timed out</source>
-        <translation>Okukwatagana ne kalaani obudde bukuyiseko</translation>
+        <translation>Anslutning till proxyn översteg tidsgränsen</translation>
     </message>
     <message>
         <source>Proxy authentication failed</source>
-        <translation>Ogw&apos;okukakasa ewa kalaani gugaanye</translation>
+        <translation>Proxyautentisering misslyckades</translation>
     </message>
     <message>
         <source>Proxy authentication failed: %1</source>
-        <translation>Ogw&apos;okukakasa ewa kalaani gugaanye: %1</translation>
+        <translation>Proxyautentisering misslyckades: %1</translation>
     </message>
     <message>
         <source>SOCKS version 5 protocol error</source>
-        <translation>Waliwo kiremya ku mpulizagana ey&apos;ekika kya SOCKS luwandika 5</translation>
+        <translation>Protokollfel i SOCKS version 5</translation>
     </message>
     <message>
         <source>General SOCKSv5 server failure</source>
-        <translation>Puloguramu ekwataganya amannya n&apos;endagiriro mu nkola ya SOCKSv5 efunye kiremya</translation>
+        <translation>Allmänt serverfel för SOCKSv5</translation>
     </message>
     <message>
         <source>Connection not allowed by SOCKSv5 server</source>
-        <translation>Puloguramu ekwataganya amannya n&apos;endagiriro mu nkola ya SOCKSv5 tekkirizza okussawo empulizagana</translation>
+        <translation>Anslutning tillåts inte av SOCKSv5-server</translation>
     </message>
     <message>
         <source>TTL expired</source>
-        <translation>Ekiseera ekigerekedwa kiweddeko</translation>
+        <translation>TTL överstegs</translation>
     </message>
     <message>
         <source>SOCKSv5 command not supported</source>
-        <translation>Omukolo ogw&apos;ekika kya SOCKSv5 sisitemu eno tegumanyi</translation>
+        <translation>SOCKSv5-kommando stöds inte</translation>
     </message>
     <message>
         <source>Address type not supported</source>
-        <translation>Sisitemu eno tesobola ndagiriro ez&apos;ekika kino</translation>
+        <translation>Adresstypen stöds inte</translation>
     </message>
     <message>
         <source>Unknown SOCKSv5 proxy error code 0x%1</source>
-        <translation>Ennamba 0x%1 eya kiremya wa mu kalaani ekola ku mpulizagana ey&apos;ekika ky SOCKSv5 sisitemu eno tegimanyi</translation>
+        <translation>Okänd SOCKSv5-proxyfelkod 0x%1</translation>
     </message>
     <message>
         <source>Network operation timed out</source>
-        <translation>Omukolo ogw&apos;oku kayungirizi obudde buguyiseko</translation>
+        <translation>Tidsgräns för nätverksåtgärd överstegs</translation>
     </message>
 </context>
 <context>
@@ -6230,1135 +6226,1135 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     <message>
         <source>invalid role</source>
         <extracomment>Role of an accessible object - the object is in an invalid state or could not be constructed</extracomment>
-        <translation>ekyanguyisa tekikozeseka</translation>
+        <translation>ogiltig roll</translation>
     </message>
     <message>
         <source>title bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>kabaawo ka mutwe</translation>
+        <translation>titelrad</translation>
     </message>
     <message>
         <source>menu bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>lubaawo lwa menyu</translation>
+        <translation>menyrad</translation>
     </message>
     <message>
         <source>scroll bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>Akaseesa</translation>
+        <translation>rullningslist</translation>
     </message>
     <message>
         <source>grip</source>
         <extracomment>Role of an accessible object - the grip is usually used for resizing another object</extracomment>
-        <translation>akanyweeza</translation>
+        <translation>grepp</translation>
     </message>
     <message>
         <source>sound</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ddoboozi</translation>
+        <translation>ljud</translation>
     </message>
     <message>
         <source>cursor</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>kasonga</translation>
+        <translation>markör</translation>
     </message>
     <message>
         <source>text caret</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>kalagakifo</translation>
+        <translation>insättningstecken</translation>
     </message>
     <message>
         <source>alert message</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>bubaka obulabula</translation>
+        <translation>larmmeddelande</translation>
     </message>
     <message>
         <source>frame</source>
         <extracomment>Role of an accessible object: a window with frame and title
 ----------
 Role of an accessible object</extracomment>
-        <translation>mwango</translation>
+        <translation>ram</translation>
     </message>
     <message>
         <source>filler</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>Akajjuzabbanga</translation>
+        <translation>utfyllnad</translation>
     </message>
     <message>
         <source>popup menu</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>menyu eboneka</translation>
+        <translation>popupmeny</translation>
     </message>
     <message>
         <source>menu item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ekisangibwa ku menyu</translation>
+        <translation>menyrad</translation>
     </message>
     <message>
         <source>tool tip</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>bigambo eby&apos;okuwa amagezi</translation>
+        <translation>verktygstips</translation>
     </message>
     <message>
         <source>application</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>puloguramu</translation>
+        <translation>program</translation>
     </message>
     <message>
         <source>document</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>kiwandiko</translation>
+        <translation>dokument</translation>
     </message>
     <message>
         <source>panel</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>lubaawo</translation>
+        <translation>panel</translation>
     </message>
     <message>
         <source>chart</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>caati</translation>
+        <translation>diagram</translation>
     </message>
     <message>
         <source>dialog</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>kaboozi</translation>
+        <translation>dialogruta</translation>
     </message>
     <message>
         <source>separator</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ak&apos;awuluza</translation>
+        <translation>avgränsare</translation>
     </message>
     <message>
         <source>tool bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>kabaawo k&apos;ebiyamba</translation>
+        <translation>verktygsrad</translation>
     </message>
     <message>
         <source>status bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>lubaawo olulaga mbeera y&apos;egibumbujja</translation>
+        <translation>statusrad</translation>
     </message>
     <message>
         <source>table</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>tabulo</translation>
+        <translation>tabell</translation>
     </message>
     <message>
         <source>column header</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>mutwe gw&apos;ekikumbo kya mu tabulo</translation>
+        <translation>kolumnhuvud</translation>
     </message>
     <message>
         <source>row header</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>mutwe gw&apos;olunyiriri lwa mu tabulo</translation>
+        <translation>radhuvud</translation>
     </message>
     <message>
         <source>column</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>kikumbo kya mu tabulo</translation>
+        <translation>kolumn</translation>
     </message>
     <message>
         <source>row</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>lunyiriri lwa mu tabulo</translation>
+        <translation>rad</translation>
     </message>
     <message>
         <source>cell</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>katafaali ka mu tabulo</translation>
+        <translation>cell</translation>
     </message>
     <message>
         <source>link</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>enyunzi</translation>
+        <translation>länk</translation>
     </message>
     <message>
         <source>help balloon</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>akaboneka n&apos;ebigambo eby&apos;okuwa amagezi</translation>
+        <translation>hjälpballong</translation>
     </message>
     <message>
         <source>assistant</source>
         <extracomment>Role of an accessible object - a helper dialog</extracomment>
-        <translation>akaboozi akawa magezi</translation>
+        <translation>assistent</translation>
     </message>
     <message>
         <source>list</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>lukalala</translation>
+        <translation>lista</translation>
     </message>
     <message>
         <source>list item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ekisangibwa ku lukalala</translation>
+        <translation>listpost</translation>
     </message>
     <message>
         <source>tree</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>maapu y&apos;enkwatagana</translation>
+        <translation>träd</translation>
     </message>
     <message>
         <source>tree item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ekisangibwa ku maapu y&apos;enkwatagana</translation>
+        <translation>trädpost</translation>
     </message>
     <message>
         <source>page tab</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>kakonda ka lupapula</translation>
+        <translation>sidflik</translation>
     </message>
     <message>
         <source>property page</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>lupapula lwa nteekateeka</translation>
+        <translation>egenskapssida</translation>
     </message>
     <message>
         <source>indicator</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ekiraga</translation>
+        <translation>indikator</translation>
     </message>
     <message>
         <source>graphic</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ekirabwa</translation>
+        <translation>grafik</translation>
     </message>
     <message>
         <source>label</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>kirambe</translation>
+        <translation>etikett</translation>
     </message>
     <message>
         <source>text</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>bigambo</translation>
+        <translation>text</translation>
     </message>
     <message>
         <source>push button</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ppeesa erinyigibwa</translation>
+        <translation>tryckknapp</translation>
     </message>
     <message>
         <source>check box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>bokisi ey&apos;okulonda</translation>
+        <translation>kryssruta</translation>
     </message>
     <message>
         <source>radio button</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ppeesa lya kiradiyo</translation>
+        <translation>radioknapp</translation>
     </message>
     <message>
         <source>combo box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>bokisi ey&apos;ebirondebwako</translation>
+        <translation>kombinationsruta</translation>
     </message>
     <message>
         <source>progress bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>kabaawo akalaga omulimu we gutuuse</translation>
+        <translation>förloppsmätare</translation>
     </message>
     <message>
         <source>dial</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>munyoro</translation>
+        <translation>snurrbox</translation>
     </message>
     <message>
         <source>hotkey field</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>awalagibwa mapeesa ki agayisa biragiro</translation>
+        <translation>snabbtangentsfält</translation>
     </message>
     <message>
         <source>slider</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>akaseeseetulwa</translation>
+        <translation>draglist</translation>
     </message>
     <message>
         <source>spin box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>bokisi ebala</translation>
+        <translation>snurrbox</translation>
     </message>
     <message>
         <source>canvas</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>awakolerwako bifaananyi</translation>
+        <translation>kanvas</translation>
     </message>
     <message>
         <source>animation</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>kifaananyi ekividiyowaze</translation>
+        <translation>animering</translation>
     </message>
     <message>
         <source>equation</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>kyenkanankano</translation>
+        <translation></translation>
     </message>
     <message>
         <source>button with drop down</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ppeesa ery&apos;ekyeyanjuluza</translation>
+        <translation>knapp med rullgardin</translation>
     </message>
     <message>
         <source>button menu</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>menyu ey&apos;amapeesa</translation>
+        <translation>knappmeny</translation>
     </message>
     <message>
         <source>button with drop down grid</source>
         <extracomment>Role of an accessible object - a button that expands a grid.</extracomment>
-        <translation>ppeesa erya tabulo eyeyanjuluza</translation>
+        <translation>knapp med rullgardinsrutnät</translation>
     </message>
     <message>
         <source>space</source>
         <extracomment>Role of an accessible object - blank space between other objects.</extracomment>
-        <translation>kabanga</translation>
+        <translation>tomrum</translation>
     </message>
     <message>
         <source>page tab list</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>lukalala lwa bukonda bw&apos;empapula</translation>
+        <translation>sidflikslista</translation>
     </message>
     <message>
         <source>clock</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>saawa</translation>
+        <translation>klocka</translation>
     </message>
     <message>
         <source>splitter</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ekisalamu</translation>
+        <translation>delare</translation>
     </message>
     <message>
         <source>layered pane</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ekitimbibwako ekipangibwa</translation>
+        <translation>skiktad panel</translation>
     </message>
     <message>
         <source>web document</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>kiwandiko kya ku mutimbagano</translation>
+        <translation>webbdokument</translation>
     </message>
     <message>
         <source>paragraph</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>muko gw&apos;ekiwandiko</translation>
+        <translation>paragraf</translation>
     </message>
     <message>
         <source>section</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>kitundu mu kiwandiko</translation>
+        <translation>sektion</translation>
     </message>
     <message>
         <source>color chooser</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>awalonderwa langi</translation>
+        <translation>färgväljare</translation>
     </message>
     <message>
         <source>footer</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>milannamiro gy&apos;olupapula</translation>
+        <translation>sidfot</translation>
     </message>
     <message>
         <source>form</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>foomu</translation>
+        <translation>formulär</translation>
     </message>
     <message>
         <source>heading</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>mutwe gw&apos;akatundu k&apos;ekiwandiko</translation>
+        <translation>rubrik</translation>
     </message>
     <message>
         <source>note</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>nooti</translation>
+        <translation>anteckning</translation>
     </message>
     <message>
         <source>complementary content</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>enyongeza</translation>
+        <translation>kompletterande innehåll</translation>
     </message>
     <message>
         <source>terminal</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>kiwandikiro</translation>
+        <translation>terminal</translation>
     </message>
     <message>
         <source>desktop</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>awakolerwa</translation>
+        <translation>skrivbord</translation>
     </message>
     <message>
         <source>notification</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>okutangaaza</translation>
+        <translation>avisering</translation>
     </message>
     <message>
         <source>unknown</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>kitategeerese</translation>
+        <translation>okänt</translation>
     </message>
 </context>
 <context>
     <name>QSslDiffieHellmanParameter</name>
     <message>
         <source>No error</source>
-        <translation>Temubadde nsobi</translation>
+        <translation>Inget fel</translation>
     </message>
     <message>
         <source>Invalid input data</source>
-        <translation>Data eyingizibwa tekozeseka</translation>
+        <translation>Ogiltig inmatningsdata</translation>
     </message>
     <message>
         <source>The given Diffie-Hellman parameters are deemed unsafe</source>
-        <translation>Paramita eza Diffie-Hellman eziweeredwa zibalibwa nga eziteesigika</translation>
+        <translation>Angivna Diffie-Hellman-parametrar anses vara osäkra</translation>
     </message>
 </context>
 <context>
     <name>QSslSocket</name>
     <message>
-        <source>Error when setting the OpenSSL configuration (%1)</source>
-        <translation>Wazzewo kiremya mu kuteekateeka OpenSSL (%1)</translation>
-    </message>
-    <message>
-        <source>Error when setting the elliptic curves (%1)</source>
-        <translation>Wazzewo kiremya mu kutegeka amakubo ag&apos;okubala aga kilipisi (%1)</translation>
-    </message>
-    <message>
-        <source>Error creating SSL context (%1)</source>
-        <translation>Wazzewo kiremya mu kuteekateeka SSL by&apos;eneekozesa (%1)</translation>
-    </message>
-    <message>
-        <source>unsupported protocol</source>
-        <translation>sisitemu tekolagana n&apos;empulizagana ey&apos;ekika kino</translation>
-    </message>
-    <message>
-        <source>Error while setting the minimal protocol version</source>
-        <translation>Wazzewo kiremya mu kutegeka omutindo ogw&apos;empulizagana ogusinga okuba ogw&apos;edda sisitemu gw&apos;ekolagana nagwo</translation>
-    </message>
-    <message>
-        <source>Error while setting the maximum protocol version</source>
-        <translation>Wazzewo kiremya mu kutegeka omutindo ogw&apos;empulizagana ogusinga obupya sisitemu gw&apos;ekolagana nagwo</translation>
-    </message>
-    <message>
-        <source>Invalid or empty cipher list (%1)</source>
-        <translation>Enkisawaza eziri ku lukalala tezikozeseka oba lukalala lwereere (%1)</translation>
-    </message>
-    <message>
-        <source>Cannot provide a certificate with no key, %1</source>
-        <translation>Tekisobose okugaba mmatizo nga tewali kasumuluzo, %1</translation>
-    </message>
-    <message>
-        <source>Error loading local certificate, %1</source>
-        <translation>Wazzewo kiremya mu kuwanga emmatizo ennekolere %1</translation>
-    </message>
-    <message>
-        <source>Error loading private key, %1</source>
-        <translation>Wazzewo kiremya mu kuwanga akasumuluzo akabikkuluzi, %1</translation>
-    </message>
-    <message>
-        <source>Private key does not certify public key, %1</source>
-        <translation>Akasumuluzo akabikkuluzi tekagendera ku kasumuluzo akakisawaza akali mu mmatizo, %1</translation>
-    </message>
-    <message>
-        <source>Diffie-Hellman parameters are not valid</source>
-        <translation>Paramita eza Diffie-Hellman tezikozeseka</translation>
-    </message>
-    <message>
-        <source>OpenSSL version with disabled elliptic curves</source>
-        <translation>Oluwandika lwa OpenSSL olukozesebwa terutegekedwa okweyambisa makubo ag&apos;okubala aga kilipisi</translation>
-    </message>
-    <message>
-        <source>Expecting QByteArray for %1</source>
-        <translation>Wasuubirwa QByteArray eya %1</translation>
-    </message>
-    <message>
-        <source>An error occurred attempting to set %1 to %2</source>
-        <translation>Wazzewo kiremya mu kugeza okutegeka %1 kibeere %2</translation>
-    </message>
-    <message>
-        <source>Wrong value for %1 (%2)</source>
-        <translation>Ekikongojjebwa %1 ssi kituufu (%2)</translation>
-    </message>
-    <message>
-        <source>Unrecognized command %1 = %2</source>
-        <translation>Ekiragiro %1 = %2 tekitegeerese</translation>
-    </message>
-    <message>
-        <source>SSL_CONF_finish() failed</source>
-        <translation>SSL_CONF_finish() kigaanye</translation>
-    </message>
-    <message>
-        <source>SSL_CONF_CTX_new() failed</source>
-        <translation>SSL_CONF_CTX_new() kigaanye</translation>
-    </message>
-    <message>
         <source>No error</source>
-        <translation>Temubadde nsobi</translation>
+        <translation>Inget fel</translation>
     </message>
     <message>
         <source>The issuer certificate could not be found</source>
-        <translation>Ekikakasa mugabi wa mmatizo tekizuuse</translation>
+        <translation>Utfärdarcertifikatet kunde inte hittas</translation>
     </message>
     <message>
         <source>The certificate signature could not be decrypted</source>
-        <translation>Tekisobose okuvumbula omukono mu mmatizo</translation>
+        <translation>Certifikatsignaturen kunde inte dekrypteras</translation>
     </message>
     <message>
         <source>The public key in the certificate could not be read</source>
-        <translation>Tekisobose okusoma akasumuluzo akakisawaza akali mu mmatizo</translation>
+        <translation>Publika nyckeln i certifikatet kunde inte läsas</translation>
     </message>
     <message>
         <source>The signature of the certificate is invalid</source>
-        <translation>Omukono oguli mu mmatizo tegugukola</translation>
+        <translation>Signaturen för certifikatet är ogiltig</translation>
     </message>
     <message>
         <source>The certificate is not yet valid</source>
-        <translation>Emmatizo tennaba kutandika okukola</translation>
+        <translation>Certifikatet är ännu inte giltigt</translation>
     </message>
     <message>
         <source>The certificate has expired</source>
-        <translation>Emmatizo tekyakola</translation>
+        <translation>Certifikatet har gått ut</translation>
     </message>
     <message>
         <source>The certificate&apos;s notBefore field contains an invalid time</source>
-        <translation>Emmatizo etegekedwako obudde bwa notBefore obutakola</translation>
+        <translation>Certifikatets notBefore-fält innehåller en ogiltig tid</translation>
     </message>
     <message>
         <source>The certificate&apos;s notAfter field contains an invalid time</source>
-        <translation>Emmatizo etegekedwako obudde bwa notAfter obutakola</translation>
+        <translation>Certifikatets notAfter-fält innehåller en ogiltig tid</translation>
     </message>
     <message>
         <source>The certificate is self-signed, and untrusted</source>
-        <translation>Emmatizo teyesigika kubanga teyava wa mugabi wazo</translation>
+        <translation>Certifikatet är självsignerat och inte pålitligt</translation>
     </message>
     <message>
         <source>The root certificate of the certificate chain is self-signed, and untrusted</source>
-        <translation>Emmatizo ey&apos;ennono mu ngobereragana y&apos;emmatiozo teyesigika kubanga teyava wa mugabi wazo</translation>
+        <translation>Rotcertifikatet för certifikatskedjan är självsignerat och inte pålitligt</translation>
     </message>
     <message>
         <source>The issuer certificate of a locally looked up certificate could not be found</source>
-        <translation>Waliwo emmatizo kuno nga ebulako ekikakasa mugabi eyagigaba</translation>
+        <translation>Utfärdarcertifikatet för ett lokalt uppslaget certifikat kunde inte hittas</translation>
     </message>
     <message>
         <source>No certificates could be verified</source>
-        <translation>Tekisobose okukakasayo mmatiso</translation>
+        <translation>Inga certifikat kunde verifieras</translation>
     </message>
     <message>
         <source>One of the CA certificates is invalid</source>
-        <translation>Emu ku mmatizo z&apos;abagabi ba mmatizo ssi nnamu</translation>
+        <translation>Ett av CA-certifikaten var ogiltigt</translation>
     </message>
     <message>
         <source>The basicConstraints path length parameter has been exceeded</source>
-        <translation>Obungi bw&apos;abagabi ba mmatizo abaafuna obuyinza okugaba eno busukka mu kkomo eritegekedwa mu kitundu kya yo ekya basicConstraints</translation>
+        <translation>Sökvägslängden för parametern basicConstraints har överstigits</translation>
     </message>
     <message>
         <source>The supplied certificate is unsuitable for this purpose</source>
-        <translation>Emmatizo efunidwa ssi y&apos;ekola wano</translation>
+        <translation>Angivet certifikat är inte lämpligt för detta syfte</translation>
     </message>
     <message>
         <source>The root CA certificate is not trusted for this purpose</source>
-        <translation>Emmatizo ey&apos;ennono ku mulimu guno teyesigika</translation>
+        <translation>Rot-CA-certifikatet är inte pålitligt för detta syfte</translation>
     </message>
     <message>
         <source>The root CA certificate is marked to reject the specified purpose</source>
-        <translation>Emmatizo ey&apos;ennono etegekedwa okugaana okukola ku mulimu ogulagidwa</translation>
+        <translation>Rot-CA-certifikatet är markerat för att neka angivet syfte</translation>
     </message>
     <message>
         <source>The current candidate issuer certificate was rejected because its subject name did not match the issuer name of the current certificate</source>
-        <translation>Ekikakasa mugabi wa mmatizo ekikolebwawo kigaanidwa olw&apos;okuba nti erinnya erimenyedwa mu bikwata ku kikuumibwa lyawufu ku limenyedwa awa mugabi wa mmatizo</translation>
+        <translation>Aktuellt kandidatutfärdarcertifikat nekades därför att dess ämnesrad inte matchade utfärdarnamnet för det aktuella certifikatet</translation>
     </message>
     <message>
         <source>The current candidate issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate</source>
-        <translation>Ekikakasa mugabi wa mmatizo ekikolebwawo kigaanidwa kubanga mulimu erinnya lya mugabi n&apos;ennamba endagammatizo nga tebikwatagana n&apos;ennamba endagamugabi wa mmatizo eya mu mmatizo eriwo kakano</translation>
+        <translation>Aktuella kandidatutfärdarens certifikat nekades därför att dess utfärdarnamn och serienummer fanns där och matchade inte utfärdarens nyckelidentifierare för det aktuella certifikatet</translation>
     </message>
     <message>
         <source>The peer did not present any certificate</source>
-        <translation>Kompyuta ewulizagana teweerezza mmatizo</translation>
+        <translation>Motparten presenterade inte något certifikat</translation>
     </message>
     <message>
         <source>The host name did not match any of the valid hosts for this certificate</source>
-        <translation>Erinnya lya ku kayungirizi terikwataganye n&apos;aga kompyuta enyunge emmatizo eno kw&apos;ekolera</translation>
+        <translation>Värdnamnet matchade inte någon av de giltiga värdar för detta certifikat</translation>
     </message>
     <message>
         <source>The peer certificate is blacklisted</source>
-        <translation>Emmatizo eya kompyuta ewulizagana eri ku lukalala lw&apos;ezibooledwa</translation>
+        <translation>Motpartens certifikat är svartlistat</translation>
     </message>
     <message>
         <source>No OCSP status response found</source>
-        <translation>Tewafunidwa okwanukula ku bulamu bwa mmatizo</translation>
+        <translation>Inget OCSP-statussvar hittades</translation>
     </message>
     <message>
         <source>The OCSP status request had invalid syntax</source>
-        <translation>Okwebuuza ku bulamu bwa mmatizo kubaddemu ensobi za mpandika</translation>
+        <translation>Begäran om OCSP-status har en ogiltig syntax</translation>
     </message>
     <message>
         <source>OCSP response contains an unexpected number of SingleResponse structures</source>
-        <translation>Obungi bwa zi SingleResponse eziri mu kwanukula ku bulamu bwa mmatizo ssi bwe busuubidwa</translation>
+        <translation>OCSP-svaret innehåller ett oväntat antal SingleResponse-strukturer</translation>
     </message>
     <message>
         <source>OCSP responder reached an inconsistent internal state</source>
-        <translation>Kompyuta eyanukula okwebuuza ku bulamu bwa mmatizo yatuuse mu mbeera ey&apos;okwetabula</translation>
+        <translation>OCSP-besvararen nådde ett inkonsistent internt tillstånd</translation>
     </message>
     <message>
         <source>OCSP responder was unable to return a status for the requested certificate</source>
-        <translation>Kompyuta eyanukula okwebuuza ku bulamu bwa mmatizo tesobodde okutegeera obulamu bwa mmatizo eyeebuuzidwako</translation>
+        <translation>OCSP-besvararen kunde inte returnera en status för det begärda certifikatet</translation>
     </message>
     <message>
         <source>The server requires the client to sign the OCSP request in order to construct a response</source>
-        <translation>Kompyuta eyanukula yetaaga kompyuta ebuuza eteekeko omukono ku kwebuuza ku bulamu bwa mmatizo</translation>
+        <translation>Servern kräver att klienten signerar OCSP-begäran för att kunna konstruera ett svar</translation>
     </message>
     <message>
         <source>The client is not authorized to request OCSP status from this server</source>
-        <translation>Kompyuta ebuuza tekkirziibwa okwebuuliza ku bulamu bwa mmatizo ku kompyuta eyanukula eno</translation>
+        <translation>Klienten är inte auktoriserad att begära OCSP-status från denna server</translation>
     </message>
     <message>
         <source>OCSP responder&apos;s identity cannot be verified</source>
-        <translation>Tekisobose okukakasa obumanye bwa kompyuta eyanukula okwebuuza ku bulamu bwa mmatizo</translation>
+        <translation>OCSP-besvararens identitet kan inte verifieras</translation>
     </message>
     <message>
         <source>The identity of a certificate in an OCSP response cannot be established</source>
-        <translation>Endagammatizo ey&apos;emu ku mmatizo ezoogerwako mu kwanukula ku bulamu bwa zo tetegeereka</translation>
+        <translation>Identiteten för ett certifikat i ett OCSP-svar kan inte etableras</translation>
     </message>
     <message>
         <source>The certificate status response has expired</source>
-        <translation>Okwanukula ku bulamu bwa mmatizo kwetaaga kuzzibwa bugya</translation>
+        <translation>Certifikatets statussvar har gått över tidsgränsen</translation>
     </message>
     <message>
         <source>The certificate&apos;s status is unknown</source>
-        <translation>Embeera y&apos;emmatizo temanyidwa</translation>
+        <translation>Certifikatets status är okänt</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Wazzewo kiremya atategeereka</translation>
+        <translation>Okänt fel</translation>
     </message>
     <message>
         <source>TLS initialization failed</source>
-        <translation>Okutandikawaza TLS kugaanye</translation>
+        <translation>TLS-initiering misslyckades</translation>
     </message>
     <message>
         <source>Attempted to use an unsupported protocol.</source>
-        <translation>Wabaddewo okugeza okukozesa ekika kya mpulizagana sisitemu ky&apos;etamanyi.</translation>
+        <translation>Försökte använda ett protokoll som inte stöds.</translation>
     </message>
     <message>
-        <source>The TLS/SSL connection has been closed</source>
-        <translation>Empulizagana eya TLS/SSL eggadwawo</translation>
+        <source>Error when setting the OpenSSL configuration (%1)</source>
+        <translation>Fel vid inställning av OpenSSL-konfigurationen (%1)</translation>
     </message>
     <message>
-        <source>Error creating SSL session, %1</source>
-        <translation>Wazzewo kiremya mu kutegekawo olukolagana lwa SSL, %1</translation>
+        <source>Error when setting the elliptic curves (%1)</source>
+        <translation>Fel vid inställning av elliptiska kurvor (%1)</translation>
     </message>
     <message>
-        <source>Error creating SSL session: %1</source>
-        <translation>Wazzewo kiremya mu kutegekawo olukolagana lwa SSL: %1</translation>
+        <source>Error creating SSL context (%1)</source>
+        <translation>Fel vid skapandet av SSL-kontext (%1)</translation>
     </message>
     <message>
-        <source>Server-side QSslSocket does not support OCSP stapling</source>
-        <translation>QSslSocket ey&apos;oku kompyuta ewereza tesobozesa kutereka bukakafu bw&apos;obulamu bwa mmatizo</translation>
+        <source>unsupported protocol</source>
+        <translation>protokollet stöds inte</translation>
     </message>
     <message>
-        <source>Failed to enable OCSP stapling</source>
-        <translation>Tekisobose okutandika okuterekanga bukakafu bw&apos;obulamu bwa mmatizo</translation>
+        <source>Error while setting the minimal protocol version</source>
+        <translation>Fel vid inställning av minimum protokollversion</translation>
     </message>
     <message>
-        <source>Client-side sockets do not send OCSP responses</source>
-        <translation>Soketi ez&apos;oku kompyuta kasitoma tezisindika okwanukula ku bulamu bwa mmatizo</translation>
+        <source>Error while setting the maximum protocol version</source>
+        <translation>Fel vid inställning av minimal protokollversion</translation>
     </message>
     <message>
-        <source>Unable to init SSL Context: %1</source>
-        <translation>Tekisobose okukola oluteekateeka lwa SSL: %1</translation>
-    </message>
-    <message>
-        <source>Unable to write data: %1</source>
-        <translation>Tekisobose okuwandika data: %1</translation>
-    </message>
-    <message>
-        <source>Unable to decrypt data: %1</source>
-        <translation>Tekisobose okuvumbula data: %1</translation>
-    </message>
-    <message>
-        <source>TLS certificate unexpectedly changed during renegotiation!</source>
-        <translation>Emmatizo eya TLS ekyuse nga kompyuta ziri mu kuddamu okutegeeragana!</translation>
-    </message>
-    <message>
-        <source>Error while reading: %1</source>
-        <translation>Wazzewo kiremya mu kusoma: %1</translation>
-    </message>
-    <message>
-        <source>Error during SSL handshake: %1</source>
-        <translation>Wazzewo kiremya nga kompyuta ziri mu kutegeeragana kwa SSL: %1</translation>
-    </message>
-    <message>
-        <source>Failed to decode OCSP response</source>
-        <translation>tekisobose okuyungulula ebiri mu kwanukula ku bulamu bwa mmatizo</translation>
-    </message>
-    <message>
-        <source>Failed to extract basic OCSP response</source>
-        <translation>tekisobose okuyungululamu omutwalo gw&apos;okwanukula ku bulamu bwa mmatizo</translation>
-    </message>
-    <message>
-        <source>No certificate verification store, cannot verify OCSP response</source>
-        <translation>Tewali sitowa ya mmatizo, tekisobose okukakasa okwanukula ku bulamu bwa mmatizo</translation>
-    </message>
-    <message>
-        <source>Failed to decode a SingleResponse from OCSP status response</source>
-        <translation>Okwanukula ku bulamu bwa mmatizo temuli SingleResponse</translation>
-    </message>
-    <message>
-        <source>Failed to extract &apos;this update time&apos; from the SingleResponse</source>
-        <translation>SingleResponse ebulamu obudde ebiri mu kwanukula kakano lwe byateekebwamu</translation>
-    </message>
-    <message>
-        <source>Insufficient memory</source>
-        <translation>Ekifo ekisigadde mu ggwanika lya kompyuta tekimala</translation>
-    </message>
-    <message>
-        <source>Internal error</source>
-        <translation>Wazzewo kiremya atali mu lukalala lw&apos;ekikwataganya sisitemu ez&apos;oku kompyuta ezikola ku bya kwerinda</translation>
-    </message>
-    <message>
-        <source>An internal handle was invalid</source>
-        <translation>Waliwo omukolo ogugaanye olw&apos;okufuna data enyanjuzi etakozeseka</translation>
-    </message>
-    <message>
-        <source>An internal token was invalid</source>
-        <translation>Waliwo omukolo ogugaanye olw&apos;okufuna tokeni etakozeseka</translation>
-    </message>
-    <message>
-        <source>Access denied</source>
-        <translation>Okuyingira kugaanye olw&apos;okubeera nti ebisaanyizo ebiweredwayo tebikozeka</translation>
-    </message>
-    <message>
-        <source>No authority could be contacted for authorization</source>
-        <translation>Omukolo gugaanye lwa butasobola kutuukirirayo omugabi wa mmatizo</translation>
-    </message>
-    <message>
-        <source>No credentials</source>
-        <translation>Omukolo gugaanye olwokuba nti data enyanjuzi ey&apos;ebisaanyizo mu paramita phCredential tekozeseka</translation>
-    </message>
-    <message>
-        <source>The target is unknown or unreachable</source>
-        <translation>Ekigenderwa tekimanyidwa oba tekituukikako</translation>
-    </message>
-    <message>
-        <source>An unsupported function was requested</source>
-        <translation>Wabaddewo okugeza okukozesa omukolo sisitemu gw&apos;etalina</translation>
-    </message>
-    <message>
-        <source>The hostname provided does not match the one received from the peer</source>
-        <translation>Erinnya lya ku kayungirizi eriteeredwawo lyawufu ku kompyuta ewulizigana lyeweerezza</translation>
-    </message>
-    <message>
-        <source>No common protocol exists between the client and the server</source>
-        <translation>Kompyuta kasitoma n&apos;eweereza tewali kika kya mpulizagana zombi kye zitegeera</translation>
-    </message>
-    <message>
-        <source>Unexpected or badly-formatted message received</source>
-        <translation>Wafunidwa obubaka obutasuubidwa oba obulimu ensobi za mu mpandika</translation>
-    </message>
-    <message>
-        <source>The data could not be encrypted</source>
-        <translation>Tekisobose okukisawaza data</translation>
-    </message>
-    <message>
-        <source>No cipher suites in common</source>
-        <translation>Kompyuta kasitoma n&apos;eweereza tewali kika kya bikisawaza zombi kye zikozesa</translation>
-    </message>
-    <message>
-        <source>The credentials were not recognized / Invalid argument</source>
-        <translation>Data eyingirisibwa tekkirizidwa / Waliwo agumenti etakozeseka</translation>
-    </message>
-    <message>
-        <source>The message was tampered with, damaged or out of sequence.</source>
-        <translation>Obubaka butankudwa, bwonoonedwa oba tebuli mu ngoberereragana yabwo entuufu.</translation>
-    </message>
-    <message>
-        <source>A message was received out of sequence.</source>
-        <translation>Waliwo obubaka obutali mu ngoberereragana yabwo entuufu.</translation>
-    </message>
-    <message>
-        <source>Unknown error occurred: %1</source>
-        <translation>Wazzewo kiremya atategeereka: %1</translation>
-    </message>
-    <message>
-        <source>Invalid protocol chosen</source>
-        <translation>Empulizagana etegekedwa tekozeseka</translation>
-    </message>
-    <message>
-        <source>The certificate provided cannot be used for a client.</source>
-        <translation>Emmatizo efunidwa tesobola okukozesbwa ku kasitoma.</translation>
-    </message>
-    <message>
-        <source>The certificate provided cannot be used for a server.</source>
-        <translation>Emmatizo efunidwa tesobola okukozesbwa ku kompyuta eweereza.</translation>
-    </message>
-    <message>
-        <source>Server did not accept any certificate we could present.</source>
-        <translation>Kompyuta eweereza mmatizo zonna ze tugiwadde ezigaanye.</translation>
-    </message>
-    <message>
-        <source>Algorithm mismatch</source>
-        <translation>Ekika ky&apos;ekikisawaza kompyuta kasitoma ky&apos;ekozesa kyawufu ku ky&apos;oku eweereza</translation>
-    </message>
-    <message>
-        <source>Handshake failed: %1</source>
-        <translation>Okutegeeragana kugaanye: %1</translation>
-    </message>
-    <message>
-        <source>Failed to query the TLS context: %1</source>
-        <translation>Tekisobose okukebera oluteekateeka lwa TLS: %1</translation>
-    </message>
-    <message>
-        <source>Did not get the required attributes for the connection.</source>
-        <translation>Atiributo ezeetaagibwa okuteekawo empulizagana tezifunidwa.</translation>
-    </message>
-    <message>
-        <source>Unwanted protocol was negotiated</source>
-        <translation>Okutegeeragana kutegekawo empulizagana ey&apos;ekika ekiteetaagibwa</translation>
-    </message>
-    <message>
-        <source>Renegotiation was unsuccessful: %1</source>
-        <translation>Ouddamu okutegeeragana tekuyisemu: %1</translation>
-    </message>
-    <message>
-        <source>Schannel failed to encrypt data: %1</source>
-        <translation>Schannel eremedwa okukisawaza data: %1</translation>
+        <source>Invalid or empty cipher list (%1)</source>
+        <translation>Ogiltig eller tom chifferlista (%1)</translation>
     </message>
     <message>
         <source>Cannot provide a certificate with no key</source>
-        <translation>Tekisobose okugaba mmatizo nga tewali kasumuluzo</translation>
+        <translation>Kan inte tillhandahålla ett certifikat utan en nyckel</translation>
+    </message>
+    <message>
+        <source>Cannot provide a certificate with no key, %1</source>
+        <translation>Kan inte tillhandahålla ett certifikat utan nyckel, %1</translation>
+    </message>
+    <message>
+        <source>Error loading local certificate, %1</source>
+        <translation>Fel vid inläsning av lokalt certifikat, %1</translation>
+    </message>
+    <message>
+        <source>Error loading private key, %1</source>
+        <translation>Fel vid inläsning av privat nyckel, %1</translation>
+    </message>
+    <message>
+        <source>Private key does not certify public key, %1</source>
+        <translation>Privat nyckel certifierar inte publika nyckeln, %1</translation>
+    </message>
+    <message>
+        <source>Diffie-Hellman parameters are not valid</source>
+        <translation>Diffie-Hellman-parametrar är inte giltiga</translation>
+    </message>
+    <message>
+        <source>OpenSSL version with disabled elliptic curves</source>
+        <translation>OpenSSL-version med inaktiverade elliptiska kurvor</translation>
+    </message>
+    <message>
+        <source>Expecting QByteArray for %1</source>
+        <translation>Förväntade QByteArray för %1</translation>
+    </message>
+    <message>
+        <source>An error occurred attempting to set %1 to %2</source>
+        <translation>Ett fel inträffade vid försök att ställa in %1 till %2</translation>
+    </message>
+    <message>
+        <source>Wrong value for %1 (%2)</source>
+        <translation>Fel värde för %1 (%2)</translation>
+    </message>
+    <message>
+        <source>Unrecognized command %1 = %2</source>
+        <translation>Kommandot känns inte igen %1 = %2</translation>
+    </message>
+    <message>
+        <source>SSL_CONF_finish() failed</source>
+        <translation>SSL_CONF_finish() misslyckades</translation>
+    </message>
+    <message>
+        <source>SSL_CONF_CTX_new() failed</source>
+        <translation>SSL_CONF_CTX_new() misslyckades</translation>
+    </message>
+    <message>
+        <source>Unable to init SSL Context: %1</source>
+        <translation>Kunde inte initiera SSL-kontext: %1</translation>
+    </message>
+    <message>
+        <source>Unable to write data: %1</source>
+        <translation>Kunde inte skriva data: %1</translation>
+    </message>
+    <message>
+        <source>Unable to decrypt data: %1</source>
+        <translation>Kunde inte dekryptera data: %1</translation>
+    </message>
+    <message>
+        <source>TLS certificate unexpectedly changed during renegotiation!</source>
+        <translation>TLS-certifikatet ändrades oväntat under omförhandlingen!</translation>
+    </message>
+    <message>
+        <source>The TLS/SSL connection has been closed</source>
+        <translation>TLS/SSL-anslutningen har stängts</translation>
+    </message>
+    <message>
+        <source>Error while reading: %1</source>
+        <translation>Fel vid läsning: %1</translation>
+    </message>
+    <message>
+        <source>Error creating SSL session, %1</source>
+        <translation>Fel vid skapandet av SSL-session, %1</translation>
+    </message>
+    <message>
+        <source>Error creating SSL session: %1</source>
+        <translation>Fel vid skapande av SSL-session: %1</translation>
+    </message>
+    <message>
+        <source>Server-side QSslSocket does not support OCSP stapling</source>
+        <translation>Serversidans QSslSocket har inte stöd för OCSP-häftning</translation>
+    </message>
+    <message>
+        <source>Failed to enable OCSP stapling</source>
+        <translation>Misslyckades med att aktivera OCSP-häftning</translation>
+    </message>
+    <message>
+        <source>Client-side sockets do not send OCSP responses</source>
+        <translation>Klientsidans uttag skickar inte OCSP-svar</translation>
+    </message>
+    <message>
+        <source>Failed to decode OCSP response</source>
+        <translation>Misslyckades med att avkoda OCSP-svar</translation>
+    </message>
+    <message>
+        <source>Failed to extract basic OCSP response</source>
+        <translation>Misslyckades med att extrahera grundläggande OCSP-svar</translation>
+    </message>
+    <message>
+        <source>No certificate verification store, cannot verify OCSP response</source>
+        <translation>Inget arkiv för certifikatverifiering, kan inte verifiera OCSP-svar</translation>
+    </message>
+    <message>
+        <source>Failed to decode a SingleResponse from OCSP status response</source>
+        <translation>Misslyckades med att avkoda en SingleResponse från OCSP-statussvar</translation>
+    </message>
+    <message>
+        <source>Failed to extract &apos;this update time&apos; from the SingleResponse</source>
+        <translation>Misslyckades med att extrahera &apos;this update time&apos; från SingleResponse</translation>
+    </message>
+    <message>
+        <source>Error during SSL handshake: %1</source>
+        <translation>Fel under SSL-handskakning: %1</translation>
+    </message>
+    <message>
+        <source>Insufficient memory</source>
+        <translation>Otillräckligt med minne</translation>
+    </message>
+    <message>
+        <source>Internal error</source>
+        <translation>Internt fel</translation>
+    </message>
+    <message>
+        <source>An internal handle was invalid</source>
+        <translation>Ett internt handtag var ogiltigt</translation>
+    </message>
+    <message>
+        <source>An internal token was invalid</source>
+        <translation>Ett internt token var ogiltigt</translation>
+    </message>
+    <message>
+        <source>Access denied</source>
+        <translation>Åtkomst nekad</translation>
+    </message>
+    <message>
+        <source>No authority could be contacted for authorization</source>
+        <translation>Ingen utfärdare kunde kontaktas för auktorisering</translation>
+    </message>
+    <message>
+        <source>No credentials</source>
+        <translation>Inga inloggningsuppgifter</translation>
+    </message>
+    <message>
+        <source>The target is unknown or unreachable</source>
+        <translation>Målet är okänt eller inte möjligt att nå</translation>
+    </message>
+    <message>
+        <source>An unsupported function was requested</source>
+        <translation>En funktion som inte stöds begärdes</translation>
+    </message>
+    <message>
+        <source>The hostname provided does not match the one received from the peer</source>
+        <translation>Värdnamnet som tillhandahölls matchar inte det som togs emot från motparten</translation>
+    </message>
+    <message>
+        <source>No common protocol exists between the client and the server</source>
+        <translation>Inget gemensamt protokoll finns mellan klient och servern</translation>
+    </message>
+    <message>
+        <source>Unexpected or badly-formatted message received</source>
+        <translation>Oväntat eller felaktigt formaterat meddelande togs emot</translation>
+    </message>
+    <message>
+        <source>The data could not be encrypted</source>
+        <translation>Detta data kunde inte krypteras</translation>
+    </message>
+    <message>
+        <source>No cipher suites in common</source>
+        <translation>Inga chiffersviter gemensamt</translation>
+    </message>
+    <message>
+        <source>The credentials were not recognized / Invalid argument</source>
+        <translation>Inloggningsuppgifterna kändes inte igen / Ogiltigt argument</translation>
+    </message>
+    <message>
+        <source>The message was tampered with, damaged or out of sequence.</source>
+        <translation>Meddelandet har mixtrats med, skadats eller utanför sekvensen.</translation>
+    </message>
+    <message>
+        <source>A message was received out of sequence.</source>
+        <translation>Ett meddelande togs emot utanför sekvensen.</translation>
+    </message>
+    <message>
+        <source>Unknown error occurred: %1</source>
+        <translation>Okänt fel inträffade: %1</translation>
+    </message>
+    <message>
+        <source>Invalid protocol chosen</source>
+        <translation>Ogiltigt protkoll valt</translation>
+    </message>
+    <message>
+        <source>The certificate provided cannot be used for a client.</source>
+        <translation>Certifikatet som tillhandahölls kan inte användas för en klient.</translation>
+    </message>
+    <message>
+        <source>The certificate provided cannot be used for a server.</source>
+        <translation>Certifikatet som tillhandahölls kan inte användas för en server.</translation>
+    </message>
+    <message>
+        <source>Server did not accept any certificate we could present.</source>
+        <translation>Servern accepterade inte något certifikat vi kunde presentera.</translation>
+    </message>
+    <message>
+        <source>Algorithm mismatch</source>
+        <translation>Algoritmen stämmer inte överens</translation>
+    </message>
+    <message>
+        <source>Handshake failed: %1</source>
+        <translation>Handskakningsfel: %1</translation>
+    </message>
+    <message>
+        <source>Failed to query the TLS context: %1</source>
+        <translation>Misslyckades med att fråga TLS-kontexten: %1</translation>
+    </message>
+    <message>
+        <source>Did not get the required attributes for the connection.</source>
+        <translation>Fick inte de nödvändiga attributen för anslutningen.</translation>
+    </message>
+    <message>
+        <source>Unwanted protocol was negotiated</source>
+        <translation>Oönskat protokoll förhandlades</translation>
+    </message>
+    <message>
+        <source>Renegotiation was unsuccessful: %1</source>
+        <translation>Omförhandling lyckades inte: %1</translation>
+    </message>
+    <message>
+        <source>Schannel failed to encrypt data: %1</source>
+        <translation>Schannel misslyckades att kryptera data: %1</translation>
     </message>
 </context>
 <context>
     <name>QStandardPaths</name>
     <message>
         <source>Desktop</source>
-        <translation>Awakolerwa</translation>
+        <translation>Skrivbord</translation>
     </message>
     <message>
         <source>Documents</source>
-        <translation>Ebiwandike</translation>
+        <translation>Dokument</translation>
     </message>
     <message>
         <source>Fonts</source>
-        <translation>Nkula Ya Nnukuta</translation>
+        <translation>Typsnitt</translation>
     </message>
     <message>
         <source>Applications</source>
-        <translation>Puloguramu</translation>
+        <translation>Program</translation>
     </message>
     <message>
         <source>Music</source>
-        <translation>Nyimba</translation>
+        <translation>Musik</translation>
     </message>
     <message>
         <source>Movies</source>
-        <translation>Vidiyo</translation>
+        <translation>Filmer</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>Bifaananyi</translation>
+        <translation>Bilder</translation>
     </message>
     <message>
         <source>Temporary Directory</source>
-        <translation>Tterekero lya bya kiseerabuseera</translation>
+        <translation>Temporärkatalog</translation>
     </message>
     <message>
         <source>Home</source>
-        <translation>Tterekero lya Akawunti</translation>
-    </message>
-    <message>
-        <source>Cache</source>
-        <translation>Ggwanika ly&apos;ebyanguyisa</translation>
-    </message>
-    <message>
-        <source>Shared Data</source>
-        <translation>Ebigabanibwa</translation>
-    </message>
-    <message>
-        <source>Runtime</source>
-        <translation>Ebibumbujjisamirimu</translation>
-    </message>
-    <message>
-        <source>Configuration</source>
-        <translation>Eby&apos;enteekateeka</translation>
-    </message>
-    <message>
-        <source>Shared Configuration</source>
-        <translation>Enteekateeka ez&apos;awamu</translation>
-    </message>
-    <message>
-        <source>Shared Cache</source>
-        <translation>Ggwanika ly&apos;ebyanguyisa erigabanibwa</translation>
-    </message>
-    <message>
-        <source>Download</source>
-        <translation>Ebiwanudwa</translation>
+        <translation>Hem</translation>
     </message>
     <message>
         <source>Application Data</source>
-        <translation>Ebikozesebwa Puloguramu</translation>
+        <translation>Programdata</translation>
+    </message>
+    <message>
+        <source>Cache</source>
+        <translation>Cache</translation>
+    </message>
+    <message>
+        <source>Shared Data</source>
+        <translation>Delat data</translation>
+    </message>
+    <message>
+        <source>Runtime</source>
+        <translation>Körtid</translation>
+    </message>
+    <message>
+        <source>Configuration</source>
+        <translation>Konfiguration</translation>
+    </message>
+    <message>
+        <source>Shared Configuration</source>
+        <translation>Delad konfiguration</translation>
+    </message>
+    <message>
+        <source>Shared Cache</source>
+        <translation>Delad cache</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Hämtat</translation>
     </message>
     <message>
         <source>Application Configuration</source>
-        <translation>Enteekateeka za Puloguramu</translation>
+        <translation>Programkonfiguration</translation>
     </message>
 </context>
 <context>
     <name>QStateMachine</name>
     <message>
         <source>Missing initial state in compound state &apos;%1&apos;</source>
-        <translation>Sisitemu eyingira mbeera efuulikamu &apos;%1&apos; etalina mbeera ey&apos;entandikwa</translation>
+        <translation>Saknar initialt tillstånd i compound-tillstånd &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Missing default state in history state &apos;%1&apos;</source>
-        <translation>Embeera sisitemu gyeyabeeramu ko &apos;%1&apos; terina mbeera eyekubirwa</translation>
+        <translation>Saknar standardtillstånd i historiskt tillstånd &quot;%1&quot;</translation>
     </message>
     <message>
         <source>No common ancestor for targets and source of transition from state &apos;%1&apos;</source>
-        <translation>Entandikwa n&apos;ekigenderwa eby&apos;enkyuka okuva mu mbeera &apos;%1&apos; tebiri mu sisitemu ya mbeera y&apos;emu</translation>
+        <translation>Ingen gemensam ättling för mål och källa för övergång från tillståndet &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Child mode of state machine &apos;%1&apos; is not &apos;ExclusiveStates&apos;.</source>
-        <translation>Sisitemu y&apos;embeera &apos;%1&apos; enyingira y&apos;embeera ya yo tetegekedwa okubeera &apos;ExclusiveStates&apos;.</translation>
+        <translation>Barnläget för tillståndsmaskin &quot;%1&quot; är inte &apos;ExclusiveStates&apos;.</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Wazzewo kiremya atategeereka</translation>
+        <translation>Okänt fel</translation>
     </message>
 </context>
 <context>
     <name>QSystemSemaphore</name>
     <message>
         <source>%1: permission denied</source>
-        <translation>%1: Olukusa teruweeredwa</translation>
+        <translation>%1: Behörighet nekad</translation>
     </message>
     <message>
         <source>%1: already exists</source>
-        <translation>%1: esangidwa weeri</translation>
+        <translation>%1: finns redan</translation>
     </message>
     <message>
         <source>%1: does not exist</source>
-        <translation>%1: teeriwo</translation>
+        <translation>%1: finns inte</translation>
     </message>
     <message>
         <source>%1: out of resources</source>
-        <translation>%1: sisitemu bye yeyambsa okukola omulimu tebimala, byonna bikozesebwa</translation>
+        <translation>%1: slut på resurser</translation>
     </message>
     <message>
         <source>%1: unknown error %2</source>
-        <translation>%1: wazzewo kiremya atategeereka %2</translation>
+        <translation>%1: okänt fel %2</translation>
     </message>
 </context>
 <context>
     <name>QTDSDriver</name>
     <message>
         <source>Unable to open connection</source>
-        <translation>Tekisobose okuteekawo okukwatagana</translation>
+        <translation>Kunde inte öppna anslutning</translation>
     </message>
     <message>
         <source>Unable to use database</source>
-        <translation>Tekisobose okukozesa ggwanika lya data</translation>
+        <translation>Kunde inte använda databas</translation>
     </message>
 </context>
 <context>
     <name>QTabBar</name>
     <message>
         <source>Scroll Left</source>
-        <translation>Seesa ku kkono</translation>
+        <translation>Rulla vänster</translation>
     </message>
     <message>
         <source>Scroll Right</source>
-        <translation>Seesa ku ddyo</translation>
+        <translation>Rulla höger</translation>
     </message>
 </context>
 <context>
     <name>QTcpServer</name>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>Sisitemu eno omukolo ogw&apos;oku soketi ogwo tegusobola</translation>
+        <translation>Åtgärd på uttag stöds inte</translation>
     </message>
 </context>
 <context>
     <name>QTgaFile</name>
     <message>
         <source>Could not read image data</source>
-        <translation>Tekisobose okusoma data ey&apos;ekifaananyi</translation>
+        <translation>Kunde inte läsa bilddata</translation>
     </message>
     <message>
         <source>Sequential device (eg socket) for image read not supported</source>
-        <translation>Okusoma fayiro z&apos;ebifaananyi okuva ku byuma bya mugobereragano (e.g. soketi) tekukkirizibwa</translation>
+        <translation>Sekventiell enhet (t.ex uttag) för bildläsning stöds inte</translation>
     </message>
     <message>
         <source>Seek file/device for image read failed</source>
-        <translation>Tekisobose okutegeka aw&apos;okutandikira okukebera fayiro/kyuma okuyungululamu kifaananyi</translation>
+        <translation>Spola i fil/enhet för bildläsning misslyckades</translation>
     </message>
     <message>
         <source>Image header read failed</source>
-        <translation>Tekisbose okusoma ekitundu eky&apos;okweyanjula ekya fayiro y&apos;ekifaananyi</translation>
+        <translation>Läsning av bildrubrik misslyckades</translation>
     </message>
     <message>
         <source>Image type not supported</source>
-        <translation>Sisitemu tetegeera kika kya kifaananyi</translation>
+        <translation>Bildtypen stöds inte</translation>
     </message>
     <message>
         <source>Image depth not valid</source>
-        <translation>Enkongojja ya langi tekkirizidwa</translation>
+        <translation>Bilddjup inte giltigt</translation>
     </message>
     <message>
         <source>Image size exceeds limit</source>
-        <translation>Obunene bw&apos;ekifaananyi bususse mu kkomo</translation>
+        <translation>Bildstorleken överstiger gränsen</translation>
     </message>
     <message>
         <source>Could not seek to image read footer</source>
-        <translation>Tekisobose okutegeka okusoma fayiro kutandikire ku bubaka obufundikira fayiro</translation>
+        <translation>Kunde inte spola till bildläsningsfot</translation>
     </message>
     <message>
         <source>Could not read footer</source>
-        <translation>Tekisobose okusoma obubaka obufundikira fayiro</translation>
+        <translation>Kunde inte läsa sidfot</translation>
     </message>
     <message>
         <source>Image type (non-TrueVision 2.0) not supported</source>
-        <translation>Sisitemu tekolagana n&apos;ebifaananyi eby&apos;ekika kya &apos;non-TrueVision 2.0&apos;</translation>
+        <translation>Bildtyp (icke-TrueVision 2.0) stöds inte</translation>
     </message>
     <message>
         <source>Could not reset to read data</source>
-        <translation>Tekisobose okutegekera okusoma data</translation>
+        <translation>Kunde inte nollställa för att läsa data</translation>
     </message>
     <message>
         <source>Invalid color map depth (%1)</source>
-        <translation>Enkongojja ya langi (%1) eya mapu ya langi tekozeseka</translation>
+        <translation>Ogiltigt färgkartsdjup (%1)</translation>
     </message>
 </context>
 <context>
     <name>QUdpSocket</name>
     <message>
         <source>Unable to send a datagram</source>
-        <translation>Tekisobose okusindika dataguramu</translation>
+        <translation>Kunde inte skicka ett datagram</translation>
     </message>
     <message>
         <source>No datagram available for reading</source>
-        <translation>Tewali dataguramu ey&apos;okusoma</translation>
+        <translation>Ingen datagram tillgängligt för läsning</translation>
     </message>
 </context>
 <context>
     <name>QUndoGroup</name>
     <message>
         <source>Undo %1</source>
-        <translation>Julula %1</translation>
+        <translation>Ångra %1</translation>
     </message>
     <message>
         <source>Undo</source>
         <comment>Default text for undo action</comment>
-        <translation>Bijjulule</translation>
+        <translation>Ångra</translation>
     </message>
     <message>
         <source>Redo %1</source>
-        <translation>Zzawo %1</translation>
+        <translation>Gör om %1</translation>
     </message>
     <message>
         <source>Redo</source>
         <comment>Default text for redo action</comment>
-        <translation>Zzawo</translation>
+        <translation>Gör om</translation>
     </message>
 </context>
 <context>
     <name>QUndoModel</name>
     <message>
         <source>&lt;empty&gt;</source>
-        <translation>&lt;wereere&gt;</translation>
+        <translation>&lt;tom&gt;</translation>
     </message>
 </context>
 <context>
     <name>QUndoStack</name>
     <message>
         <source>Undo %1</source>
-        <translation>Julula %1</translation>
+        <translation>Ångra %1</translation>
     </message>
     <message>
         <source>Undo</source>
         <comment>Default text for undo action</comment>
-        <translation>Bijjulule</translation>
+        <translation>Ångra</translation>
     </message>
     <message>
         <source>Redo %1</source>
-        <translation>Zzawo %1</translation>
+        <translation>Gör om %1</translation>
     </message>
     <message>
         <source>Redo</source>
         <comment>Default text for redo action</comment>
-        <translation>Zzawo</translation>
+        <translation>Gör om</translation>
     </message>
 </context>
 <context>
     <name>QUnicodeControlCharacterMenu</name>
     <message>
         <source>LRM Left-to-right mark</source>
-        <translation>LRM Akabonero akalagira ebiwandikibwa bitandikire ku kkono nga bidda ku ddyo</translation>
+        <translation>U+200E</translation>
     </message>
     <message>
         <source>RLM Right-to-left mark</source>
-        <translation>RLM Akabonero akalagira ebiwandikibwa bitandikire ku ddyo nga bidda ku kkono</translation>
+        <translation>U+200F</translation>
     </message>
     <message>
         <source>ZWJ Zero width joiner</source>
-        <translation>ZWJ Akabonero akatalabika akaleetera nnukuta bbiri okwegatta</translation>
+        <translation>U+200D</translation>
     </message>
     <message>
         <source>ZWNJ Zero width non-joiner</source>
-        <translation>ZWNJ Akabonero akatalabika akagaana ennukuta okwegatta</translation>
+        <translation>U+200C</translation>
     </message>
     <message>
         <source>ZWSP Zero width space</source>
-        <translation>ZWSP Akabonero akatalabika akalaga ekigambo we kiyinz&apos;okukutulibwamu</translation>
+        <translation>U+200B</translation>
     </message>
     <message>
         <source>LRE Start of left-to-right embedding</source>
-        <translation>LRE Akabonero akalagira ebigambo n&apos;ennukuta eby&apos;omu muko okutandikira ku kkono nga bidda ku ddyo</translation>
+        <translation>U+202A</translation>
     </message>
     <message>
         <source>RLE Start of right-to-left embedding</source>
-        <translation>RLE Akabonero akalagira ebigambo n&apos;ennukuta eby&apos;omu muko okutandikira ku ddyo nga bidda ku kkono</translation>
+        <translation>U+202B</translation>
     </message>
     <message>
         <source>LRO Start of left-to-right override</source>
-        <translation>LRO Akabonero akalagira ennukuta ezimu okutandikira ku kkono nga zidda ku ddyo</translation>
+        <translation>U+202D</translation>
     </message>
     <message>
         <source>RLO Start of right-to-left override</source>
-        <translation>RLO Akabonero akalagira ennukuta eza mu kigambo ezimu okutandikira ku ddyo nga zidda ku kkono</translation>
+        <translation>U+202E</translation>
     </message>
     <message>
         <source>PDF Pop directional formatting</source>
-        <translation>PDF Akabonero akatalabika akakomya enkola eyaleetedwa akabonero akalala</translation>
+        <translation>U+202C</translation>
     </message>
     <message>
         <source>LRI Left-to-right isolate</source>
-        <translation>LRI Akabonero akalagira ebigambo n&apos;ennukuta eby&apos;omu muko okutandikira ku kkono nga bidda ku ddyo. Era kabyawula ku binnaabyo</translation>
+        <translation>U+2066</translation>
     </message>
     <message>
         <source>RLI Right-to-left isolate</source>
-        <translation>RLI Akabonero akalagira ebigambo n&apos;ennukuta eby&apos;omu muko okutandikira ku ddyo nga bidda ku kkono. Era kabyawula ku binnaabyo</translation>
+        <translation>U+2067</translation>
     </message>
     <message>
         <source>FSI First strong isolate</source>
-        <translation>FSI Akabonero akatalabika akakaka buli bigambo mu muko okutandikira ku ludda lwe lumu n&apos;ebisinga mu obungi</translation>
+        <translation>U+2068</translation>
     </message>
     <message>
         <source>PDI Pop directional isolate</source>
-        <translation>PDI Akabonero akatalabika akakomya enkola eyaleetedwa akabonero akali mu lubu lwa LRI, RLI, ne FSI</translation>
+        <translation>U+2069</translation>
     </message>
     <message>
         <source>Insert Unicode control character</source>
-        <translation>Sonsekawo akabonero ak&apos;omu Unicode akafuga empandika</translation>
+        <translation>Infoga unicode-kontrolltecken</translation>
     </message>
 </context>
 <context>
     <name>QWhatsThisAction</name>
     <message>
         <source>What&apos;s This?</source>
-        <translation>Kino Kiki?</translation>
+        <translation>Vad är det här?</translation>
     </message>
 </context>
 <context>
@@ -7372,35 +7368,35 @@ Role of an accessible object</extracomment>
     <name>QWidgetTextControl</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;Bijjulule</translation>
+        <translation>&amp;Ångra</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>&amp;Zzawo</translation>
+        <translation>&amp;Gör om</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>Si&amp;tulawo</translation>
+        <translation>Klipp &amp;ut</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Koppa</translation>
+        <translation>&amp;Kopiera</translation>
     </message>
     <message>
         <source>Copy &amp;Link Location</source>
-        <translation>Koppa &amp;Ndagiriro Nyunzi Kw&apos;egguka</translation>
+        <translation>Kopiera &amp;länkplats</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>&amp;Paatiika</translation>
+        <translation>Klistra &amp;in</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Gyawo</translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Londa Byonna</translation>
+        <translation>Markera alla</translation>
     </message>
 </context>
 <context>
@@ -7409,232 +7405,234 @@ Role of an accessible object</extracomment>
         <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
 
 The minimum Direct2D version required is %1. The Direct2D version on this system is %2.</source>
-        <translation>Qt tesobodde okuwanga ekyongerwako ekya &apos;direct2d&apos; kubanga oluwandika lwa eya ku sisitemu eno lwa dda ekiyitiridde. Kyetaagisa Windows 7 ey&apos;entumbuzi ezisinga obujja oba Windows empya okusinga awo.
+        <translation>Qt kan inte läsa in plattformsinsticksmodulen för direct2d därför att Direct2D-versionen på detta system är för gammal. Minsta systemkravet för denna plattformsinsticksmodul är Windows 7 SP1 med Platform Update.
 
-Oluwandika lwa &apos;Direct2D&apos; olusinga obukadde olukola lwe olwa %1. Oluwandika olwa &apos;Direct2D&apos; olwa ku sisitemu eno lwo lwa %2.</translation>
+Minsta Direct2D-versionen som krävs är %1. Direct2D-versionen på detta system är %2.</translation>
     </message>
     <message>
         <source>Cannot load direct2d platform plugin</source>
-        <translation>Tekisobose okuwanga ekyongerwako ekya &apos;direct2d&apos;</translation>
+        <translation>Kan inte läsa in plattformsinsticksmodul för direct2d</translation>
     </message>
 </context>
 <context>
     <name>QWizard</name>
     <message>
         <source>Go Back</source>
-        <translation>Ddayo</translation>
+        <translation>Gå bakåt</translation>
     </message>
     <message>
         <source>&lt; &amp;Back</source>
-        <translation>&lt; &amp;Ddayo</translation>
+        <translation>&lt; Till&amp;baka</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation>Weyongereyo</translation>
+        <translation>Fortsätt</translation>
     </message>
     <message>
         <source>&amp;Next</source>
-        <translation>&amp;Ekiddako</translation>
+        <translation>&amp;Nästa</translation>
     </message>
     <message>
         <source>&amp;Next &gt;</source>
-        <translation>&amp;Ekiddako &gt;</translation>
+        <translation>&amp;Nästa &gt;</translation>
     </message>
     <message>
         <source>Commit</source>
-        <translation>Kazza</translation>
+        <translation>Verkställ</translation>
     </message>
     <message>
         <source>Done</source>
-        <translation>Kiwedde</translation>
+        <translation>Färdig</translation>
     </message>
     <message>
         <source>&amp;Finish</source>
-        <translation>&amp;Maliriza</translation>
+        <translation>&amp;Färdig</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Sazamu</translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Nyamba</translation>
+        <translation>Hjälp</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Nyamba</translation>
+        <translation>&amp;Hjälp</translation>
     </message>
 </context>
 <context>
     <name>QXml</name>
     <message>
         <source>no error occurred</source>
-        <translation>temubadde nsobi</translation>
+        <translation>inga fel inträffade</translation>
     </message>
     <message>
         <source>error triggered by consumer</source>
-        <translation>kiremya avudde ku puloguramu ekola ku by&apos;esanzewo</translation>
+        <translation>fel utlöst av konsument</translation>
     </message>
     <message>
         <source>unexpected end of file</source>
-        <translation>fayiro ekomye mu ngeri etasuubidwa</translation>
+        <translation>oväntat filslut</translation>
     </message>
     <message>
         <source>more than one document type definition</source>
-        <translation>enteekateeka z&apos;ebika by&apos;ebitundu ebikozesebwa mu kiwandiko zisukka mu kimu</translation>
+        <translation>fler än en dokumenttypsdefinition</translation>
     </message>
     <message>
         <source>error occurred while parsing element</source>
-        <translation>Wazzewo kiremya mu kukeberera mateeka g&apos;empandika mu kitundu ky&apos;ekiwandiko</translation>
+        <translation>fel inträffade vid tolkning av element</translation>
     </message>
     <message>
         <source>tag mismatch</source>
-        <translation>waliwo ekigambo ekiramba entandikwa y&apos;ekitundu eky&apos;ekiwandiko we kitagendera ku kiramba gye kikoma</translation>
+        <translation>tagg stämmer inte</translation>
     </message>
     <message>
         <source>error occurred while parsing content</source>
-        <translation>wazzewo kiremya mu kukeberera mateeka g&apos;empandika mu kitundu ky&apos;ekiwandiko</translation>
+        <translation>fel inträffade vid tolkning av innehåll</translation>
     </message>
     <message>
         <source>unexpected character</source>
-        <translation>akabonero kasangidwa we kabadde tekasuubidwa</translation>
+        <translation>oväntat tecken</translation>
     </message>
     <message>
         <source>invalid name for processing instruction</source>
-        <translation>ekiragiro ekya mu XML eky&apos;enjawulo kituumidwa erinnya eritakozeseka</translation>
+        <translation>ogiltigt namn för behandlande instruktion</translation>
     </message>
     <message>
         <source>version expected while reading the XML declaration</source>
-        <translation>ekitundu ekiteekateeka enkozesa ya XML kibulamu ekiraga oluwandika olugobererwa</translation>
+        <translation>version förväntades vid läsning av XML-deklarationen</translation>
     </message>
     <message>
         <source>wrong value for standalone declaration</source>
-        <translation>ekyasanguzo ekiraga puloguramu oba waliwo enteekateeka z&apos;enkozesa ya XML mu kiwandiko ekirala kirimu ekikongojje ekisobi</translation>
+        <translation>fel värde för fristående deklaration</translation>
     </message>
     <message>
         <source>encoding declaration or standalone declaration expected while reading the XML declaration</source>
-        <translation>ekitundu ekiteekateeka enkozesa ya XML kibula mu ekyasanguzo ekiraga olulyo lw&apos;ennamba ezikongojja
-obubonero oba ekiraga oba waliwo enteekateeka z&apos;enkozesa ya XML mu kiwandiko ekirala</translation>
+        <translation>kodningdeklaration eller friståend deklaration förväntades vid läsning av XML-deklaration</translation>
     </message>
     <message>
         <source>standalone declaration expected while reading the XML declaration</source>
-        <translation>ekitundu ekiteekateeka enkozesa ya XML kibulamu ekiraga oba waliwo enteekateeka z&apos;enkozesa ya XML mu kiwandiko ekirala</translation>
+        <translation>fristående deklaration förväntades vid läsning av XML-deklarationen</translation>
     </message>
     <message>
         <source>error occurred while parsing document type definition</source>
-        <translation>wazzewo kiremya mu kukeberera enteekateeka z&apos;ebika by&apos;ebitundu ebikozesebwa mu kiwandiko</translation>
+        <translation>fel inträffade vid tolkning av dokumentets typdefinition</translation>
     </message>
     <message>
         <source>letter is expected</source>
-        <translation>wabadde wasuubidwawo nnukuta</translation>
+        <translation>bokstav förväntades</translation>
     </message>
     <message>
         <source>error occurred while parsing comment</source>
-        <translation>Wazzewo kiremya mu kukebera ebigambo ebinnonyola ebya mu kifo ekisukka mu kimu</translation>
+        <translation>fel inträffade vid tolkning av kommentar</translation>
     </message>
     <message>
         <source>error occurred while parsing reference</source>
-        <translation>wazzewo kiremya mu kukebera obubonero obukongojja kannaabwo</translation>
+        <translation>fel inträffade vid tolkning av referens</translation>
     </message>
     <message>
         <source>internal general entity reference not allowed in DTD</source>
-        <translation>tekikkirizibwa okukozesa obubonero obukongojja okukwatira ekikongojjabingi ekifo awategeka ebika by&apos;ebitundu ebikozesebwa mu kiwandiko</translation>
+        <translation>intern allmän entitetsreferens tillåts inte i DTD</translation>
     </message>
     <message>
         <source>external parsed general entity reference not allowed in attribute value</source>
-        <translation>ebikongojje ebya mu atiributo tebikkirizibwa okubeeramu ebigambo ebiwandisawo ebikongozzi ebikongojjabingi ebikeberwa</translation>
+        <translation>externt tolkad allmän entitetsreferens tillåts inte i attributvärden</translation>
     </message>
     <message>
         <source>external parsed general entity reference not allowed in DTD</source>
-        <translation>tebikkirizibwa okuteeka ebigambo ebiwandisawo ebikongozzi ebikongojjabingi ebikeberwa awategeka ebika by&apos;ebitundu ebikozesebwa mu kiwandiko</translation>
+        <translation>externt tolkad allmän entitetsreferens tillåts inte i DTD</translation>
     </message>
     <message>
         <source>unparsed entity reference in wrong context</source>
-        <translation>ekigambo ekiwandisawo ekikongozzi ekitaakeberwe kisangidwa we kitandibadde</translation>
+        <translation>otolkad entitetsreferens i fel kontext</translation>
     </message>
     <message>
         <source>recursive entities</source>
-        <translation>mulimu ebikongozzi ebyekongojja</translation>
+        <translation>rekursiva entiteter</translation>
     </message>
     <message>
         <source>error in the text declaration of an external entity</source>
-        <translation>wazzewo kiremya mu kyasanguzo ekiraga oluwandika lwa XML olugobererwa n&apos;olulyo lw&apos;ennamba ezikongojja obubonero eky&apos;omu kikongozzi ekinone</translation>
+        <translation>fel i textdeklarationen för en extern entitet</translation>
     </message>
 </context>
 <context>
     <name>QXmlStream</name>
     <message>
         <source>Extra content at end of document.</source>
-        <translation>Ekiwandiko kirimu ebyeyongerayo okusukka we kyandikomye.</translation>
+        <translation>Extra innehåll i slutet av dokumentet.</translation>
     </message>
     <message>
         <source>Invalid entity value.</source>
-        <translation>Waliwo ekitakozeseka ekiyingizibwa mu kikongozzi.</translation>
+        <translation>Ogiltigt entitetsvärde.</translation>
     </message>
     <message>
         <source>Invalid XML character.</source>
-        <translation>Waliwo akabonero akatakozeseka mu XML.</translation>
+        <translation>Ogiltigt XML-tecken.</translation>
     </message>
     <message>
         <source>Sequence &apos;]]&gt;&apos; not allowed in content.</source>
-        <translation>Ebigobereragana &apos;]]&gt;&apos; tebikkirizibwa mu byolesebwa.</translation>
+        <translation>Sekvensen &apos;]]&gt;&apos; tillåts inte i innehåll.</translation>
     </message>
     <message>
         <source>Encountered incorrectly encoded content.</source>
-        <translation>Waliwo ebyolesebwa ebyeyambisa olulyo lw&apos;ennamba enkongozzi etali ntuufu.</translation>
+        <translation>Påträffade felaktigt enkodat innehåll.</translation>
     </message>
     <message>
         <source>Namespace prefix &apos;%1&apos; not declared</source>
-        <translation>Akatandikwa &apos;%1&apos; ak&apos;olubu lwa mannya tekasoose kutegekebwa</translation>
+        <translation>Namnrymdsprefixet &apos;%1&apos; är inte deklarerat</translation>
     </message>
     <message>
         <source>Illegal namespace declaration.</source>
-        <translation>Waliwo enteekateeka y&apos;olubu lw&apos;amannya etagoberera mateeka.</translation>
+        <translation>Ogiltig namnrymdsdeklaration.</translation>
     </message>
     <message>
         <source>Attribute &apos;%1&apos; redefined.</source>
-        <translation>Atiributo &apos;%1&apos; etegekebwa emirundi egisukka mu gumu.</translation>
+        <translation>Attributet &apos;%1&apos; omdefinierat.</translation>
     </message>
     <message>
         <source>Unexpected character &apos;%1&apos; in public id literal.</source>
-        <translation>Ekirambalamba ekya mu ndagakintu ekolera n&apos;abalala kisangidwamu akabonero &apos;%1&apos; akatasuubidwa.</translation>
+        <translation>Oväntat tecken &apos;%1&apos; i public id literal.</translation>
     </message>
     <message>
         <source>Invalid XML version string.</source>
-        <translation>Ekigambo ekiraga oluwandika lwa XML tekikozeseka.</translation>
+        <translation>Ogiltig XML-versionssträng.</translation>
     </message>
     <message>
         <source>Unsupported XML version.</source>
-        <translation>Sisitemu tekolagana n&apos;olwandika lwa XML luno.</translation>
+        <translation>XML-versionen stöds inte.</translation>
     </message>
     <message>
         <source>The standalone pseudo attribute must appear after the encoding.</source>
-        <translation>Ekyasanguzo ekiraga olulyo lw&apos;ennamba ezikongojja obubonero kiteekwa okusooka
-atiributo ennefaananyirize eraga oba waliwo enteekateeka z&apos;enkozesa ya XML mu kiwandiko ekirala.</translation>
+        <translation>Pseudoattributet standalone måste synas efter enkodningen.</translation>
     </message>
     <message>
         <source>%1 is an invalid encoding name.</source>
-        <translation>%1 tekibalibwa ng&apos;erinnya ly&apos;olulyo lw&apos;ennamba enkongozzi.</translation>
+        <translation>%1 är ett ogiltigt enkodningsnamn.</translation>
     </message>
     <message>
         <source>Encoding %1 is unsupported</source>
-        <translation>Sisitemu eno tetegeera olulyo %1 olw&apos;ennamba enkongozzi</translation>
+        <translation>Enkodningen %1 stöds inte</translation>
     </message>
     <message>
         <source>Standalone accepts only yes or no.</source>
-        <translation>Ekyasanguzo ekiraga puloguramu oba waliwo enteekateeka z&apos;enkozesa ya XML mu kiwandiko ekirala kijjuzibwamu yes oba no byokka.</translation>
+        <translation>Standalone accepterar endast yes eller no.</translation>
     </message>
     <message>
         <source>Invalid attribute in XML declaration.</source>
-        <translation>Ekitundu ekiteekateeka enkozesa ya XML mu kiwandiko kirimu atiributo etakkirizibwa.</translation>
+        <translation>Ogiltigt attribut i XML-deklaration.</translation>
     </message>
     <message>
         <source>Premature end of document.</source>
-        <translation>Ekiwandiko kikomye mu kkubo.</translation>
+        <translation>För tidigt slut på dokumentet.</translation>
     </message>
     <message>
         <source>Invalid document.</source>
-        <translation>Ekiwandiko tekikozeseka.</translation>
+        <translation>Ogiltigt dokument.</translation>
+    </message>
+    <message>
+        <source>Length of XML attribute name exceeds implementation limits (4KiB characters).</source>
+        <translation>Längd för XML-attributnamn överstiger implementationsgränser (4KiB tecken).</translation>
     </message>
     <message>
         <source>&apos;%1&apos;</source>
@@ -7646,7 +7644,7 @@ atiributo ennefaananyirize eraga oba waliwo enteekateeka z&apos;enkozesa ya XML 
         <source>%1 or &apos;%2&apos;</source>
         <comment>expected</comment>
         <extracomment>&lt;first option&gt;, &apos;&lt;second option&gt;&apos;</extracomment>
-        <translation>%1 oba &apos;%2&apos;</translation>
+        <translation>%1 eller &apos;%2&apos;</translation>
     </message>
     <message>
         <source>%1, &apos;%2&apos;</source>
@@ -7658,75 +7656,75 @@ atiributo ennefaananyirize eraga oba waliwo enteekateeka z&apos;enkozesa ya XML 
         <source>%1, or &apos;%2&apos;</source>
         <comment>expected</comment>
         <extracomment>&lt;options so far&gt;, or &apos;&lt;final option&gt;&apos;</extracomment>
-        <translation>%1, oba &apos;%2&apos;</translation>
+        <translation>%1, eller &apos;%2&apos;</translation>
     </message>
     <message>
         <source>Expected %1, but got &apos;%2&apos;.</source>
-        <translation>Awasuubidwa %1 wafunidwa &apos;%2&apos;.</translation>
+        <translation>Förväntade %1, men fick &apos;%2&apos;.</translation>
     </message>
     <message>
         <source>Unexpected &apos;%1&apos;.</source>
-        <translation>Waliwo &apos;%1&apos; we kitasuubidwa.</translation>
+        <translation>Förväntade &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Expected character data.</source>
-        <translation>Data ebadde esubidwa okubeera ya bubonero.</translation>
+        <translation>Förväntade teckendata.</translation>
     </message>
     <message>
         <source>Self-referencing entity detected.</source>
-        <translation>Waliwo awali ekikongozzi ekyekongojja.</translation>
+        <translation>Självrefererande entitet upptäcktes.</translation>
     </message>
     <message>
         <source>Entity expands to more characters than the entity expansion limit.</source>
-        <translation>Waliwo ekikongozzi ekiva mu obubonero bungi okusinga ekkomo ery&apos;obukkirizibwa okukongojjebwa ekikongozzi.</translation>
+        <translation>Entiteten expanderar till fler tecken än entitetens expansionsgräns.</translation>
     </message>
     <message>
         <source>Start tag expected.</source>
-        <translation>Waliwo awabula ekirambakitundu eky&apos;entadikwa.</translation>
+        <translation>Starttagg förväntades.</translation>
     </message>
     <message>
         <source>NDATA in parameter entity declaration.</source>
-        <translation>Ekigambo NDATA kisangidwa mu nteekateeka y&apos;ekikongozzi ekya paramita.</translation>
+        <translation>NDATA i parametern entitetsdeklaration.</translation>
     </message>
     <message>
         <source>XML declaration not at start of document.</source>
-        <translation>Waliwo ekiteekateeke ekya XML ekitali ku ntandikwa y&apos;ekiwandiko.</translation>
+        <translation>XML-deklaration inte i början av dokumentet.</translation>
     </message>
     <message>
         <source>%1 is an invalid processing instruction name.</source>
-        <translation>Ekiragiro ekya mu XML eky&apos;enjawulo kituumidwa erinnya %1 eritakozeseka.</translation>
+        <translation>%1 är ett ogiltigt namn på behandlande instruktion.</translation>
     </message>
     <message>
         <source>Invalid processing instruction name.</source>
-        <translation>Ekiragiro ekya mu XML eky&apos;enjawulo kituumidwa erinnya eritakozeseka.</translation>
+        <translation>Ogiltigt namn för behandlande instruktion.</translation>
     </message>
     <message>
         <source>%1 is an invalid PUBLIC identifier.</source>
-        <translation>%1 tekikola nga endagakintu ekolera n&apos;abalala.</translation>
+        <translation>%1 är en ogiltig PUBLIC-identifierare.</translation>
     </message>
     <message>
         <source>Invalid XML name.</source>
-        <translation>Waliwo ekitakozeseka ng&apos;erinnya mu XML.</translation>
+        <translation>Ogiltigt XML-namn.</translation>
     </message>
     <message>
         <source>Opening and ending tag mismatch.</source>
-        <translation>Waliwo awali ekirambakitundu eky&apos;entandikwa n&apos;ekifundikira ebitakwatagana.</translation>
+        <translation>Öppnande och avslutande tagg stämmer inte överens.</translation>
     </message>
     <message>
         <source>Entity &apos;%1&apos; not declared.</source>
-        <translation>Ekikongozzi &apos;%1&apos; tekisoose kutegekebwa.</translation>
+        <translation>Entiteten &apos;%1&apos; är inte deklarerad.</translation>
     </message>
     <message>
         <source>Reference to unparsed entity &apos;%1&apos;.</source>
-        <translation>Musangidwamu ekigambo ekiwandisawo ekikongozzi ekitaakeberwe &apos;%1&apos;.</translation>
+        <translation>Referens till otolkad entitet &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Reference to external entity &apos;%1&apos; in attribute value.</source>
-        <translation>Waliwo ekikongojjebwa kya atiributo ekirimu ekigambo ekiwandisawo ekikongozzi ekinone &apos;%1&apos;.</translation>
+        <translation>Referens till extern entitet &apos;%1&apos; i attributvärdet.</translation>
     </message>
     <message>
         <source>Invalid character reference.</source>
-        <translation>Waliwo awali obubonero obukongojja kannabwo obutakozeseka.</translation>
+        <translation>Ogiltig teckenreferens.</translation>
     </message>
 </context>
 </TS>
