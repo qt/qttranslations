@@ -1,431 +1,427 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="zh_CN">
+<TS version="2.1" language="lg_UG">
+<context>
+    <name>%1: key is empty</name>
+    <message>
+        <source>QSystemSemaphore</source>
+        <translation>QSystemSemaphore</translation>
+    </message>
+</context>
 <context>
     <name>CloseButton</name>
     <message>
         <source>Close Tab</source>
-        <translation>关闭标签页</translation>
+        <translation>Gyawo katimbe</translation>
     </message>
 </context>
 <context>
     <name>MAC_APPLICATION_MENU</name>
     <message>
         <source>About %1</source>
-        <translation>关于 %1</translation>
+        <translation>Kwanjula %1</translation>
     </message>
     <message>
         <source>Preferences...</source>
-        <translation>首选项...</translation>
+        <translation>Nteekateeka…</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>服务</translation>
+        <translation>Ebiyanguyisamirimu</translation>
     </message>
     <message>
         <source>Hide %1</source>
-        <translation>隐藏 %1</translation>
+        <translation>Kisa %1</translation>
     </message>
     <message>
         <source>Hide Others</source>
-        <translation>隐藏其他</translation>
+        <translation>Kisa ebirala</translation>
     </message>
     <message>
         <source>Show All</source>
-        <translation>全部显示</translation>
+        <translation>Laga byonna</translation>
     </message>
     <message>
         <source>Quit %1</source>
-        <translation>退出 %1</translation>
+        <translation>Mala %1</translation>
     </message>
 </context>
 <context>
     <name>Print Device Input Slot</name>
     <message>
         <source>Automatic</source>
-        <translation>自动</translation>
+        <translation>Kyerondere</translation>
     </message>
 </context>
 <context>
     <name>Print Device Output Bin</name>
     <message>
         <source>Automatic</source>
-        <translation>自动</translation>
+        <translation>Kyerondere</translation>
     </message>
 </context>
 <context>
     <name>QAbstractSocket</name>
     <message>
         <source>Socket operation timed out</source>
-        <translation>套接字操作超时</translation>
+        <translation>Omukolo ogw&apos;oku soketi obudde buguyiseko</translation>
     </message>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>套接字操作不被支持</translation>
+        <translation>Sisitemu eno omukolo ogw&apos;oku soketi ogwo tegusobola</translation>
     </message>
     <message>
         <source>Host not found</source>
-        <translation>主机未找到</translation>
+        <translation>Olukalala lwa kompyuta enyunge lwereere</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>连接被拒绝</translation>
+        <translation>Okukwatagana ne kompyuta enyunge kulemye</translation>
     </message>
     <message>
         <source>Connection timed out</source>
-        <translation>连接超时</translation>
+        <translation>Okukwatagana ne kompyuta enyunge obudde bukuyiseko</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation>在连接正在进行时尝试连接</translation>
+        <translation>Omulimu ogw&apos;okussawo enkwatagana omulala gusangidwa gubumbujja</translation>
     </message>
     <message>
         <source>Socket is not connected</source>
-        <translation>套接字未连接</translation>
+        <translation>Soketi tekwataganizidwa</translation>
     </message>
     <message>
         <source>Network unreachable</source>
-        <translation>网络无法访问</translation>
+        <translation>Kayungirizi tetuukikako</translation>
     </message>
 </context>
 <context>
     <name>QAbstractSpinBox</name>
     <message>
         <source>&amp;Select All</source>
-        <translation>全选(&amp;S)</translation>
+        <translation>&amp;Londa Byonna</translation>
     </message>
     <message>
         <source>&amp;Step up</source>
-        <translatorcomment>这是数值框的加减按钮</translatorcomment>
-        <translation>升高(&amp;S)</translation>
+        <translation>&amp;Yongeza</translation>
     </message>
     <message>
         <source>Step &amp;down</source>
-        <translatorcomment>这是数值框的加减按钮</translatorcomment>
-        <translation>降低(&amp;D)</translation>
+        <translation>&amp;Toolako</translation>
     </message>
 </context>
 <context>
     <name>QAccessibleActionInterface</name>
     <message>
         <source>Press</source>
-        <translation>按下</translation>
+        <translation>Nyiga</translation>
     </message>
     <message>
         <source>Increase</source>
-        <translation>变大</translation>
+        <translation>Yongeza</translation>
     </message>
     <message>
         <source>Decrease</source>
-        <translation>变小</translation>
+        <translation>Kendeeza</translation>
     </message>
     <message>
         <source>ShowMenu</source>
-        <translation>显示菜单</translation>
+        <translation>LagaMenyu</translation>
     </message>
     <message>
         <source>SetFocus</source>
-        <translation>设置焦点</translation>
+        <translation>TegekaOkuloba</translation>
     </message>
     <message>
         <source>Toggle</source>
-        <translation>切换</translation>
+        <translation>Wanyisa</translation>
     </message>
     <message>
         <source>Scroll Left</source>
-        <translation>向左滚动</translation>
+        <translation>Seesa ku kkono</translation>
     </message>
     <message>
         <source>Scroll Right</source>
-        <translation>向右滚动</translation>
+        <translation>Seesa ku ddyo</translation>
     </message>
     <message>
         <source>Scroll Up</source>
-        <translation>向上滚动</translation>
+        <translation>Seesa waggulu</translation>
     </message>
     <message>
         <source>Scroll Down</source>
-        <translation>向下滚动</translation>
+        <translation>Seesa wansi</translation>
     </message>
     <message>
         <source>Previous Page</source>
-        <translation>上一页</translation>
+        <translation>Lupapula Olukulembera Luno</translation>
     </message>
     <message>
         <source>Next Page</source>
-        <translation>下一页</translation>
+        <translation>Lupapula oluddako</translation>
     </message>
     <message>
         <source>Triggers the action</source>
-        <translation>触发操作</translation>
+        <translation>Kitandika ekikolebwa</translation>
     </message>
     <message>
         <source>Increase the value</source>
-        <translation>提高数值</translation>
+        <translation>Yongeza ekikongojje</translation>
     </message>
     <message>
         <source>Decrease the value</source>
-        <translation>降低数值</translation>
+        <translation>Kendeeza ekikongojje</translation>
     </message>
     <message>
         <source>Shows the menu</source>
-        <translation>显示菜单</translation>
+        <translation>Kireeta menyu</translation>
     </message>
     <message>
         <source>Sets the focus</source>
-        <translation>设置焦点</translation>
+        <translation>Kitegeka ekirobedwa</translation>
     </message>
     <message>
         <source>Toggles the state</source>
-        <translation>切换状态</translation>
+        <translation>Kiwanyisa obutegeke</translation>
     </message>
     <message>
         <source>Scrolls to the left</source>
-        <translation>向左滚动</translation>
+        <translation>Kiseesa ebirabwa ne byeyongerayo ku kkono</translation>
     </message>
     <message>
         <source>Scrolls to the right</source>
-        <translation>向右滚动</translation>
+        <translation>Kiseesa ebirabwa ne byeyongerayo ku ddyo</translation>
     </message>
     <message>
         <source>Scrolls up</source>
-        <translation>向上滚动</translation>
+        <translation>Kiseesa olutimbe ebiri waggulu ne byeyongera okulabika</translation>
     </message>
     <message>
         <source>Scrolls down</source>
-        <translation>向下滚动</translation>
+        <translation>Kiseesa olutimbe ebiri wansi ne byeyongera okulabika</translation>
     </message>
     <message>
         <source>Goes back a page</source>
-        <translation>转到上一页</translation>
+        <translation>Kikuzza ku lupapula olukulembera luno</translation>
     </message>
     <message>
         <source>Goes to the next page</source>
-        <translation>转到下一页</translation>
+        <translation>Kikutwala ku lupapula oluddako</translation>
     </message>
 </context>
 <context>
     <name>QAndroidPlatformTheme</name>
     <message>
         <source>Yes</source>
-        <translation>是</translation>
+        <translation>Ye</translation>
     </message>
     <message>
         <source>Yes to All</source>
-        <translation>全是</translation>
+        <translation>Byonna Bikkirize</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>否</translation>
+        <translation>Nedda</translation>
     </message>
     <message>
         <source>No to All</source>
-        <translation>全否</translation>
+        <translation>Byonna Bigaane</translation>
     </message>
 </context>
 <context>
     <name>QApplication</name>
     <message>
         <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
-        <translation>可执行程序“%1”要求 Qt %2，但找到的是 Qt %3。</translation>
+        <translation>Puloguramu &quot;%1&quot; yetaaga Qt %2, naye esanze Qt %3.</translation>
     </message>
     <message>
         <source>Incompatible Qt Library Error</source>
-        <translation>Qt 程序库不兼容错误</translation>
+        <translation>Kiremya avudde ku Qt ow&apos;omutindo ogutakolagana</translation>
     </message>
 </context>
 <context>
     <name>QCocoaMenuItem</name>
     <message>
-        <source>About Qt</source>
-        <translation>关于 Qt</translation>
-    </message>
-    <message>
         <source>About</source>
-        <translation>关于</translation>
+        <translation>Kwanjula</translation>
     </message>
     <message>
         <source>Config</source>
-        <translation>配置</translation>
+        <translation>Obutegeke</translation>
     </message>
     <message>
         <source>Preference</source>
-        <translation>首选项</translation>
+        <translation>Nteekateeka</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>选项</translation>
+        <translation>Ebisoboka</translation>
     </message>
     <message>
         <source>Setting</source>
-        <translation>设置</translation>
+        <translation>Ekitegekedwa</translation>
     </message>
     <message>
         <source>Setup</source>
-        <translation>设置</translation>
+        <translation>Tegeka</translation>
     </message>
     <message>
         <source>Quit</source>
-        <translation>退出</translation>
+        <translation>Mala</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>退出</translation>
+        <translation>Mala</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation>剪切</translation>
+        <translation>Situlawo</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>复制</translation>
+        <translation>Koppa</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>粘贴</translation>
+        <translation>Paatiika</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>全选</translation>
+        <translation>Londa Byonna</translation>
+    </message>
+    <message>
+        <source>About Qt</source>
+        <translation>Kwanjula Qt</translation>
     </message>
 </context>
 <context>
     <name>QCocoaTheme</name>
     <message>
         <source>Don&apos;t Save</source>
-        <translation>不保存</translation>
+        <translation>Tokazza</translation>
     </message>
 </context>
 <context>
     <name>QColorDialog</name>
     <message>
         <source>Hu&amp;e:</source>
-        <translatorcomment>HSV 模型中的 Hue 一般按照 PS 习惯翻译为“色相”。虽然 Hue 也有翻译成色调的，但那更倾向于传统绘画，不应该用在 HSV 这种显然是数字色彩的语境中。“色相”是数码美术界对 Hue 的通用翻译，此翻译已经过色彩管理的多本大学教材核对。</translatorcomment>
-        <translation>色相(&amp;E)：</translation>
+        <translation>Ki&amp;ti kya langi:</translation>
     </message>
     <message>
         <source>&amp;Sat:</source>
-        <translation>饱和度(&amp;S)：</translation>
+        <translation>Ku&amp;noga:</translation>
     </message>
     <message>
         <source>&amp;Val:</source>
-        <translatorcomment>HSV 模型中的 Value 一般按照 PS 习惯翻译为明度</translatorcomment>
-        <translation>明度(&amp;V)：</translation>
+        <translation>&amp;Bukwafu:</translation>
     </message>
     <message>
         <source>&amp;Red:</source>
-        <translatorcomment>通道名称</translatorcomment>
-        <translation>红(&amp;R)：</translation>
+        <translation>&amp;Obumyukirivu:</translation>
     </message>
     <message>
         <source>&amp;Green:</source>
-        <translatorcomment>通道名称</translatorcomment>
-        <translation>绿(&amp;G)：</translation>
+        <translation>Obwa&amp;kiragala:</translation>
     </message>
     <message>
         <source>Bl&amp;ue:</source>
-        <translatorcomment>通道名称</translatorcomment>
-        <translation>蓝(&amp;U)：</translation>
+        <translation>Obwab&amp;ululu:</translation>
     </message>
     <message>
         <source>A&amp;lpha channel:</source>
-        <translation>透明度通道(&amp;A)：</translation>
+        <translation>Enjo&amp;lesa ey&apos;okutangalijja:</translation>
     </message>
     <message>
         <source>&amp;HTML:</source>
-        <translation>HTML(&amp;H)：</translation>
+        <translation>&amp;HTML:</translation>
     </message>
     <message>
         <source>Cursor at %1, %2
 Press ESC to cancel</source>
-        <translation>光标位于 %1, %2
-按 ESC 键取消</translation>
+        <translation>Akalagakifo kasangibwa ku %1, %2
+Nyiga ESC okusazamu</translation>
     </message>
     <message>
         <source>Select Color</source>
-        <translation>选择颜色</translation>
+        <translation>Londa Langi</translation>
     </message>
     <message>
         <source>&amp;Basic colors</source>
-        <translation>基本颜色(&amp;B)</translation>
+        <translation>Langi ez&apos;a&amp;mangu</translation>
     </message>
     <message>
         <source>&amp;Custom colors</source>
-        <translation>自定义颜色(&amp;C)</translation>
+        <translation>&amp;Langi ezizo</translation>
     </message>
     <message>
         <source>&amp;Add to Custom Colors</source>
-        <translation>添加到自定义颜色(&amp;A)</translation>
+        <translation>&amp;Gyongere ku langi ezizo</translation>
     </message>
     <message>
         <source>&amp;Pick Screen Color</source>
-        <translation>拾取屏幕颜色(&amp;P)</translation>
+        <translation>&amp;Langi gifune okuva ku lutimbe</translation>
     </message>
 </context>
 <context>
     <name>QComboBox</name>
     <message>
         <source>Open the combo box selection popup</source>
-        <translation>打开组合框弹出选单</translation>
+        <translation>Leeta bokisi ey&apos;ebirondebwako</translation>
     </message>
     <message>
         <source>False</source>
-        <translation>否</translation>
+        <translation>Ssi kyo</translation>
     </message>
     <message>
         <source>True</source>
-        <translation>是</translation>
+        <translation>Kye kyo</translation>
     </message>
 </context>
 <context>
     <name>QCommandLineParser</name>
     <message>
         <source>Displays version information.</source>
-        <translation>显示版本信息。</translation>
-    </message>
-    <message>
-        <source>Displays this help.</source>
-        <translation type="vanished">显示此帮助。</translation>
+        <translation>Kiraga ebikwata ku luwandika lwa puloguramu.</translation>
     </message>
     <message>
         <source>Displays help on commandline options.</source>
-        <translation>在命令行选项上显示帮助。</translation>
+        <translation>Kiraga ebinnyonyola obuwayiro obusobola okwongerwa ku kiragiro ekitandika puloguramu okuva mu kiwandikiro.</translation>
     </message>
     <message>
         <source>Displays help including Qt specific options.</source>
-        <translation>显示包括 Qt 特有选项的帮助。</translation>
+        <translation>Kiraga ebinnyonyola obuwayiro obwa mu Qt obusobola okwongerwa ku kiragiro ekitandika puloguramu okuva mu kiwandikiro.</translation>
     </message>
     <message>
         <source>Unknown option &apos;%1&apos;.</source>
-        <translation>未知选项“%1”。</translation>
+        <translation>Akawayiro &apos;%1&apos; tekategeerese.</translation>
     </message>
     <message>
         <source>Unknown options: %1.</source>
-        <translation>未知选项：%1。</translation>
+        <translation>Obuwayiro &apos;%1&apos; tebutegeerese.</translation>
     </message>
     <message>
         <source>Missing value after &apos;%1&apos;.</source>
-        <translation>“%1”之后缺少值。</translation>
+        <translation>Akawayiro &apos;%1&apos; ketaagako agumenti ekagoberera.</translation>
     </message>
     <message>
         <source>Unexpected value after &apos;%1&apos;.</source>
-        <translation>“%1”之后的异常值。</translation>
+        <translation>Gyawo ekigoberera &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>[options]</source>
-        <translation>[选项]</translation>
+        <translation>[ebisoboka]</translation>
     </message>
     <message>
         <source>Usage: %1</source>
-        <translation>用法：%1</translation>
+        <translation>Enkozesa eri: %1</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>选项：</translation>
+        <translation>Ebisoboka:</translation>
     </message>
     <message>
         <source>Arguments:</source>
-        <translation>参数：</translation>
+        <translation>Agumenti:</translation>
     </message>
 </context>
 <context>
@@ -433,197 +429,197 @@ Press ESC to cancel</source>
     <message>
         <source>%1: key is empty</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1：键为空</translation>
+        <translation>%1: obwawuliro tebutegekedwa</translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1：无法创建键</translation>
+        <translation>%1: nemedwa okutegeka obwawuliro</translation>
     </message>
     <message>
         <source>%1: ftok failed</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1：ftok 失败</translation>
+        <translation>%1: ftok eremeredwa</translation>
     </message>
 </context>
 <context>
     <name>QCupsJobWidget</name>
     <message>
         <source>Job</source>
-        <translation>任务</translation>
+        <translation>Omulimu</translation>
     </message>
     <message>
         <source>Job Control</source>
-        <translation>任务控制</translation>
+        <translation>Enteekateeka y&apos;omulimu</translation>
     </message>
     <message>
         <source>Scheduled printing:</source>
-        <translation>计划打印：</translation>
+        <translation>Ddi omulimu lwe gutandika:</translation>
     </message>
     <message>
         <source>Billing information:</source>
-        <translation>账单信息：</translation>
+        <translation>Eby&apos;okubanjira omlimu:</translation>
     </message>
     <message>
         <source>Job priority:</source>
-        <translation>任务优先级：</translation>
+        <translation>Ensoosawaza y&apos;omulimu:</translation>
     </message>
     <message>
         <source>Banner Pages</source>
-        <translation>横幅页面</translation>
+        <translation>Empapula eziramba omulimu</translation>
     </message>
     <message>
         <source>End:</source>
         <comment>Banner page at end</comment>
-        <translation>结束：</translation>
+        <translation>Olufundikira:</translation>
     </message>
     <message>
         <source>Start:</source>
         <comment>Banner page at start</comment>
-        <translation>开始：</translation>
+        <translation>Olugukulembera:</translation>
     </message>
     <message>
         <source>Print Immediately</source>
-        <translation>立即打印</translation>
+        <translation>Kubisizawo</translation>
     </message>
     <message>
         <source>Hold Indefinitely</source>
-        <translation>无限期待机</translation>
+        <translation>Gukwate</translation>
     </message>
     <message>
         <source>Day (06:00 to 17:59)</source>
-        <translation>白天 (06:00 到 17:59)</translation>
+        <translation>Misana (wakati wa 06:00 ne 17:59)</translation>
     </message>
     <message>
         <source>Night (18:00 to 05:59)</source>
-        <translation>夜间 (18:00 到 05:59)</translation>
+        <translation>Kiro (wakati wa 18:00 ne 05:59)</translation>
     </message>
     <message>
         <source>Second Shift (16:00 to 23:59)</source>
-        <translation>第二班 (16:00 到 23:59)</translation>
+        <translation>Ku luwalo olw&apos;okubiri (wakati wa 16:00 ne 23:59)</translation>
     </message>
     <message>
         <source>Third Shift (00:00 to 07:59)</source>
-        <translation>第三班 (00:00 到 07:59)</translation>
+        <translation>Ku luwalo olw&apos;okusatu (wakati wa 00:00 ne 07:59)</translation>
     </message>
     <message>
         <source>Weekend (Saturday to Sunday)</source>
-        <translation>周末 (周六到周日)</translation>
+        <translation>Ku wiikendi (Lwa mukaaga oba Sabbiiti)</translation>
     </message>
     <message>
         <source>Specific Time</source>
-        <translation>指定时间</translation>
+        <translation>Ku saawa entegeke</translation>
     </message>
     <message>
         <source>None</source>
         <comment>CUPS Banner page</comment>
-        <translation>无</translation>
+        <translation>Nedda</translation>
     </message>
     <message>
         <source>Standard</source>
         <comment>CUPS Banner page</comment>
-        <translation>标准</translation>
+        <translation>Olwa bulijjo</translation>
     </message>
     <message>
         <source>Unclassified</source>
         <comment>CUPS Banner page</comment>
-        <translation>无密级</translation>
+        <translation>Olulaga nti ssi bya kyama</translation>
     </message>
     <message>
         <source>Confidential</source>
         <comment>CUPS Banner page</comment>
-        <translation>机密</translation>
+        <translation>Olulaga nti bya mmizi</translation>
     </message>
     <message>
         <source>Classified</source>
         <comment>CUPS Banner page</comment>
-        <translation>有密级</translation>
+        <translation>Olulaga nti bya balondemu</translation>
     </message>
     <message>
         <source>Secret</source>
         <comment>CUPS Banner page</comment>
-        <translation>秘密</translation>
+        <translation>Olulaga nti bya kyama</translation>
     </message>
     <message>
         <source>Top Secret</source>
         <comment>CUPS Banner page</comment>
-        <translation>绝密</translation>
+        <translation>Olulaga nti bya kyama ddala</translation>
     </message>
 </context>
 <context>
     <name>QCupsPrinterSupport</name>
     <message>
         <source>Authentication Needed</source>
-        <translation>需要身份验证</translation>
+        <translation>Kyetaagisa kukakasa</translation>
     </message>
     <message>
         <source>Authentication needed to use %1.</source>
-        <translation>需要身份验证才能使用 %1。</translation>
+        <translation>Okukozesa %1 kyetaagisa okusooka okukakasa.</translation>
     </message>
     <message>
         <source>Authentication needed to use %1 on %2.</source>
-        <translation>需要身份验证才能在 %2 上使用 %1。</translation>
+        <translation>Okukozesa %1 ku %2 kyetaagisa okusooka okukakasa.</translation>
     </message>
     <message>
         <source>Username:</source>
-        <translation>用户名：</translation>
+        <translation>Linnya lya akawunti:</translation>
     </message>
     <message>
         <source>Password:</source>
-        <translation>密码：</translation>
+        <translation>Kyama:</translation>
     </message>
 </context>
 <context>
     <name>QDB2Driver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>无法连接</translation>
+        <translation>Okukwatagana kulemye</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>无法提交事务</translation>
+        <translation>Tekisobose okukaza ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>无法回滚事务</translation>
+        <translation>Tekisobose okujjulula ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to set autocommit</source>
-        <translation>无法设置自动提交</translation>
+        <translation>Tekisobose okutegeka autocommit</translation>
     </message>
 </context>
 <context>
     <name>QDB2Result</name>
     <message>
         <source>Unable to execute statement</source>
-        <translation>无法执行语句</translation>
+        <translation>Tekisobose okukolera ku kiragiro kya SQL</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>无法准备语句</translation>
+        <translation>Tekisobose okutegeka kiragiro kya SQL kiddibwengamu mangu</translation>
     </message>
     <message>
         <source>Unable to bind variable</source>
-        <translation>无法绑定变量</translation>
+        <translation>Tekisobose okuzza ekikongojje ekya ddala mu kifo ky&apos;ekikwatakifo</translation>
     </message>
     <message>
         <source>Unable to fetch record %1</source>
-        <translation>无法获取记录 %1</translation>
+        <translation>Tekisobose okunona ekiwandise %1</translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>无法获取下一个</translation>
+        <translation>Tekisobose okunona ekiddako</translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>无法获取第一个</translation>
+        <translation>Tekisobose okunona ekisooka</translation>
     </message>
 </context>
 <context>
     <name>QDBusTrayIcon</name>
     <message>
         <source>OK</source>
-        <translation>确定</translation>
+        <translation>Kale</translation>
     </message>
 </context>
 <context>
@@ -649,145 +645,145 @@ Press ESC to cancel</source>
     <name>QDialog</name>
     <message>
         <source>What&apos;s This?</source>
-        <translation>这是什么？</translation>
+        <translation>Kino Kiki?</translation>
     </message>
 </context>
 <context>
     <name>QDialogButtonBox</name>
     <message>
         <source>OK</source>
-        <translation>确定</translation>
+        <translation>Kale</translation>
     </message>
 </context>
 <context>
     <name>QDirModel</name>
     <message>
         <source>Name</source>
-        <translation>名称</translation>
+        <translation>Linnya</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>体积</translation>
+        <translation>Bunene</translation>
     </message>
     <message>
         <source>Kind</source>
         <comment>Match OS X Finder</comment>
-        <translation>类型</translation>
+        <translation>Ngeri</translation>
     </message>
     <message>
         <source>Type</source>
         <comment>All other platforms</comment>
-        <translation>类型</translation>
+        <translation>Kika</translation>
     </message>
     <message>
         <source>Date Modified</source>
-        <translation>修改日期</translation>
+        <translation>Makyusa</translation>
     </message>
 </context>
 <context>
     <name>QDnsLookup</name>
     <message>
         <source>Operation cancelled</source>
-        <translation>操作已取消</translation>
+        <translation>Omukolo gusazidwamu</translation>
     </message>
 </context>
 <context>
     <name>QDnsLookupRunnable</name>
     <message>
         <source>IPv6 addresses for nameservers are currently not supported</source>
-        <translation>目前不支持名称服务器的 IPv6 地址</translation>
+        <translation>Sisitemu eno kakano tesobola kukwataganya ndagiriro eza bulijjo ne ez&apos;ennono ez&apos;ekika kya IPv6</translation>
     </message>
     <message>
         <source>Invalid domain name</source>
-        <translation>无效的域名</translation>
+        <translation>Erinnya ery&apos;oku mutimbagano terikkirizidwa</translation>
     </message>
     <message>
         <source>Not yet supported on Android</source>
-        <translation>Android 尚不支持</translation>
+        <translation>Omukolo tegunnasoboka ku Android</translation>
     </message>
     <message>
         <source>Resolver functions not found</source>
-        <translation>找不到解析器函数</translation>
+        <translation>Tewali puloguramu enona endagiriro ez&apos;ennono</translation>
     </message>
     <message>
         <source>Resolver initialization failed</source>
-        <translation>解析器初始化失败</translation>
+        <translation>Tekisobose okutandika puloguramu enona endagiriro ez&apos;ennono</translation>
     </message>
     <message>
         <source>Server could not process query</source>
-        <translation>服务器无法处理查询</translation>
+        <translation>Puloguramu ekwataganya amannya n&apos;endagiriro tesobodde okunoonya</translation>
     </message>
     <message>
         <source>Server failure</source>
-        <translation>服务器故障</translation>
+        <translation>Puloguramu ekwataganya amannya n&apos;endagiriro efunye kiremya</translation>
     </message>
     <message>
         <source>Non existent domain</source>
-        <translation>不存在的域</translation>
+        <translation>Puloguramu ekwataganya amannya n&apos;endagiriro egezeza okukola ku domeyini etaliwo</translation>
     </message>
     <message>
         <source>Server refused to answer</source>
-        <translation>服务器拒绝回答</translation>
+        <translation>Puloguramu ekwataganya amannya n&apos;endagiriro egaanye okuddamu</translation>
     </message>
     <message>
         <source>Invalid reply received</source>
-        <translation>收到的回复无效</translation>
+        <translation>Kompyuta etereka enkwatagana y&apos;amannya n&apos;endagiriro ez&apos;ennono etuddiziza ebitakozeseka</translation>
     </message>
     <message>
         <source>Could not expand domain name</source>
-        <translation>无法扩展域名</translation>
+        <translation>Tekisobose okuzingulula erinnya lya domeyini effunze</translation>
     </message>
     <message>
         <source>Invalid IPv4 address record</source>
-        <translation>无效的 IPv4 地址记录</translation>
+        <translation>Endagiriro ey&apos;ennono ey&apos;ekika kya IPv4 efunidwa tekozeseka</translation>
     </message>
     <message>
         <source>Invalid IPv6 address record</source>
-        <translation>无效的 IPv6 地址记录</translation>
+        <translation>Endagiriro ey&apos;ennono ey&apos;ekika kya IPv6 efunidwa tekozeseka</translation>
     </message>
     <message>
         <source>Invalid canonical name record</source>
-        <translation>无效的规范名称记录</translation>
+        <translation>Ekiwandise ekifunidwa ekikwataganya erinnya eribbule n&apos;ery&apos;enno tekikozeseka</translation>
     </message>
     <message>
         <source>Invalid name server record</source>
-        <translation>无效的名称服务器记录</translation>
+        <translation>Ekiwandise ekifunidwa okuva ku kompyuta etereka nkalala ezikwataganya amannya n&apos;endagiriro tekikozeseka</translation>
     </message>
     <message>
         <source>Invalid pointer record</source>
-        <translation>无效的指针记录</translation>
+        <translation>Ebifunidwa birimu akakimakigendawo akatakozeseka</translation>
     </message>
     <message>
         <source>Invalid mail exchange record</source>
-        <translation>无效的邮件交换记录</translation>
+        <translation>Ekiwandise ekitegeka obusangiro bwa puloguramu ewereza eya yimeero tekikozeseka</translation>
     </message>
     <message>
         <source>Invalid service record</source>
-        <translation>无效的服务记录</translation>
+        <translation>Ekiwandise ekitegeka pooti puloguramu empeereze kw&apos;esangibwa tekikozeseka</translation>
     </message>
     <message>
         <source>Invalid text record</source>
-        <translation>无效的文本记录</translation>
+        <translation>Ekiwandise ekikwataganya ebiwandiko n&apos;erinnya ly&apos;ekisangibwa ku mutimbagano tekikozeseka</translation>
     </message>
     <message>
         <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
-        <translation>无法加载解析器库：不支持运行时库加载</translation>
+        <translation>Tekisobose okutandika puloguramu enona endagiriro ez&apos;ennono: Sisitemu eno teriko puloguramu ezisobozesa eyo okutuukiriza mulimu gwa yo</translation>
     </message>
     <message>
         <source>No hostname given</source>
-        <translation>未指定主机名</translation>
+        <translation>Ku bulako erinnya lya kompyuta eneekeberwa</translation>
     </message>
     <message>
         <source>Invalid hostname</source>
-        <translation>无效的主机名</translation>
+        <translation>Ekiweeredwa ng&apos;erinnya lya kompyuta enyunge tekikozeseka</translation>
     </message>
     <message>
         <source>Host %1 could not be found.</source>
-        <translation>找不到主机 %1。</translation>
+        <translation>Kompyuta %1 ebuze.</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>未知错误</translation>
+        <translation>Wazzewo kiremya atategeereka</translation>
     </message>
 </context>
 <context>
@@ -795,588 +791,584 @@ Press ESC to cancel</source>
     <message>
         <source>Float</source>
         <extracomment>Accessible name for button undocking a dock widget (floating state)</extracomment>
-        <translation>悬浮</translation>
+        <translation>Bungeeta</translation>
     </message>
     <message>
         <source>Undocks and re-attaches the dock widget</source>
-        <translation>悬浮和停靠可停靠部件</translation>
+        <translation>Kino paaka ya puloguramu kigikyusa wakati wa kunywerera mu kifo kimu n&apos;okubungeta</translation>
     </message>
     <message>
         <source>Close</source>
         <extracomment>Accessible name for button closing a dock widget</extracomment>
-        <translation>关闭</translation>
+        <translation>Gyawo katundu</translation>
     </message>
     <message>
         <source>Closes the dock widget</source>
-        <translation>关闭可停靠部件</translation>
+        <translation>Kino kigyawo paaka ya puloguramu</translation>
     </message>
 </context>
 <context>
     <name>QDomParser</name>
     <message>
         <source>Error occurred while processing XML declaration</source>
-        <translation>处理 XML 声明时出错</translation>
+        <translation>Wazzewo kiremya mu kukola ku kitundu ekiteekateeka enkozesa ya XML</translation>
     </message>
     <message>
         <source>Multiple DTD sections are not allowed</source>
-        <translation>不允许多个 DTD 节</translation>
+        <translation>Tekikkirizibwa okubeera n&apos;awategeka ebika by&apos;ebitundu ebikozesebwa mu kiwandiko wa mirundi egisukka mu gumu</translation>
     </message>
     <message>
         <source>Error occurred while processing document type declaration</source>
-        <translation>处理文档类型声明时出错</translation>
+        <translation>Wazzewo kiremya mu kukola ku awategeka ebika by&apos;ebitundu ebikozesebwa mu kiwandiko</translation>
     </message>
     <message>
         <source>Error occurred while processing comment</source>
-        <translation>处理注释时出错</translation>
+        <translation>Wazzewo kiremya mu kukola ku bigambo ebinnonyola</translation>
     </message>
     <message>
         <source>Error occurred while processing a processing instruction</source>
-        <translation>处理一个处理指令时出错</translation>
+        <translation>Wazzewo kiremya mu kukola ku kiragiro ekya mu XML eky&apos;enjawulo</translation>
     </message>
     <message>
         <source>Error occurred while processing a start element</source>
-        <translation>处理一个开始元素时出错</translation>
+        <translation>Wazzewo kiremya mu kukola ku tokeni etandika ekitundu ky&apos;ekiwandiko</translation>
     </message>
     <message>
         <source>Unexpected end element &apos;%1&apos;</source>
-        <translation>异常结束元素“%1”</translation>
+        <translation>Tokeni &apos;%1&apos; efundikira ekitundu ky&apos;ekiwandiko esangidwa w&apos;etasuubirwa</translation>
     </message>
     <message>
         <source>Error occurred while processing an end element</source>
-        <translation>处理一个结束元素时出错</translation>
+        <translation>Wazzewo kiremya mu kukola ku tokeni efundikira ekitundu ky&apos;ekiwandiko</translation>
     </message>
     <message>
         <source>Error occurred while processing the element content</source>
-        <translation>处理元素内容时出错</translation>
+        <translation>Wazzewo kiremya mu kukola ku bikongojjedwa mu kitundu ky&apos;ekiwandiko</translation>
     </message>
     <message>
         <source>Error occurred while processing comments</source>
-        <translation>处理注释时出错</translation>
+        <translation>Wazzewo kiremya mu kukola ku bigambo ebinnonyola ebya mu kifo ekisukka mu kimu</translation>
     </message>
     <message>
         <source>Error occurred while processing an entity reference</source>
-        <translation>处理一个实体引用时出错</translation>
+        <translation>Wazzewo kiremya mu kukola ku kigambo ekiwandisi</translation>
     </message>
     <message>
         <source>Unexpected token</source>
-        <translation>异常令牌</translation>
+        <translation>Tokeni esangidwa w&apos;ebadde tesuubidwa</translation>
     </message>
     <message>
         <source>Tag mismatch</source>
-        <translation>标签不匹配</translation>
+        <translation>Ekigambo ekiramba entandikwa y&apos;ekitundu eky&apos;ekiwandiko tekigendera ku kiramba gye kikoma</translation>
     </message>
     <message>
         <source>Error occurred while processing entity declaration</source>
-        <translation>处理实体声明时出错</translation>
+        <translation>Wazzewo kiremya mu kukola ku kiteekateekakikongozzi</translation>
     </message>
     <message>
         <source>Error occurred while processing notation declaration</source>
-        <translation>处理记号声明时出错</translation>
+        <translation>Wazzewo kiremya mu kukola ku kiteekateeka notasiyo</translation>
     </message>
 </context>
 <context>
     <name>QDtls</name>
     <message>
         <source>Invalid (empty) secret</source>
-        <translation>无效 (空) 的加密</translation>
+        <translation>Ekyama tekikozeseka (tekiriwo)</translation>
     </message>
     <message>
         <source>Multicast and broadcast addresses are not supported</source>
-        <translation>不支持多播和广播地址</translation>
+        <translation>Sisitemu eno tesobola nkola za sindikira-bangi ne sindikira-bonna</translation>
     </message>
     <message>
         <source>Cannot set peer after handshake started</source>
-        <translation>握手开始后无法设置对等机</translation>
+        <translation>Tekisoboka okutegekawo kompyuta ewulizagana nga okutegeeragana kutandise</translation>
     </message>
     <message>
         <source>Invalid address</source>
-        <translation>无效地址</translation>
+        <translation>Endagiriro tekozeseka</translation>
     </message>
     <message>
         <source>Cannot set verification name after handshake started</source>
-        <translation>握手开始后无法设置验证名称</translation>
+        <translation>Tekisoboka kutegeka linnya lya kompyuta erinaakakasibwa nga okutegeeragana kutandise</translation>
     </message>
     <message>
         <source>Cannot set configuration after handshake started</source>
-        <translation>握手开始后无法设置配置</translation>
+        <translation>Tekisoboka kutegeka eby&apos;okwerinda nga okutegeeragana kutandise</translation>
     </message>
     <message>
         <source>Cannot start/continue handshake, invalid handshake state</source>
-        <translation>无法 启动/继续 握手，握手状态无效</translation>
+        <translation>Tekisobose okutandika/kweyongera okutegeeragana, embeera gye kulimu tetegeereka</translation>
     </message>
     <message>
         <source>Invalid (nullptr) socket</source>
-        <translation>无效 (nullptr) 套接字</translation>
+        <translation>Soketi tekozeseka (ekongojja nullptr)</translation>
     </message>
     <message>
         <source>To start a handshake you must set peer&apos;s address and port first</source>
-        <translation>要开始握手，必须先设置对等机的地址和端口</translation>
+        <translation>Okutandika okutegeeragana oteekwa kusooka okutegeka endagiriro za kompyuta eziwulizagana ne pooti mwe kunaayisibwa</translation>
     </message>
     <message>
         <source>To start a handshake, DTLS server requires non-empty datagram (client hello)</source>
-        <translation>要开始握手，DTLS 服务器需要非空数据报 (客户端 hello)</translation>
+        <translation>Okutandika okutegeeragana, puloguramu eya DTLS yetaaga okufuna dataguramu ey&apos;okweyanjula (ClientHello) etali njereere</translation>
     </message>
     <message>
         <source>Cannot start handshake, already done/in progress</source>
-        <translation>无法启动握手，已经完成/正在进行中</translation>
+        <translation>Tekisobose okutandika okutegeeragana, kwawedde oba kubumbujja kakano</translation>
     </message>
     <message>
         <source>A valid QUdpSocket and non-empty datagram are needed to continue the handshake</source>
-        <translation>需要有效的 QUdpSocket 和非空数据报来继续握手</translation>
+        <translation>Okutegeeragana kuno okweyongerayo kyetaagisa okufuna QUdpSocket ne dataguramu etali njereere ebikozeseka</translation>
     </message>
     <message>
         <source>Cannot continue handshake, not in InProgress state</source>
-        <translation>无法继续握手，未处于 InProgress 状态</translation>
+        <translation>Okutegeeragana tekusobodde okweyongera mu maaso kubanga embeera ya kwo ssi InProgress</translation>
     </message>
     <message>
         <source>Cannot resume, not in VerificationError state</source>
-        <translation>无法恢复，不在 VerificationError 状态</translation>
+        <translation>Tekisobose okuzuukusa ogw&apos;okutegeeragana kubanga embeera ya gwo ssi VerificationError</translation>
     </message>
     <message>
         <source>No handshake in progress, nothing to abort</source>
-        <translation>没有握手正在进行中，没有什么可以中止的</translation>
+        <translation>Tewali kutegeeragana kubumbujja, tewali bya kuvaako</translation>
     </message>
     <message>
         <source>Cannot send shutdown alert, not encrypted</source>
-        <translation>无法发送关机警报，未加密</translation>
+        <translation>Tekisobose kusindika bubaka bulabula nti empulizagana eggalibwawo kubanga ebisindikibwa tebikisibwa</translation>
     </message>
     <message>
         <source>Cannot write a datagram, not in encrypted state</source>
-        <translation>无法写入数据报，未处于加密状态</translation>
+        <translation>Tekisobose kuwandika dataguramu kubanga ebisindikibwa tebikisibwa</translation>
     </message>
     <message>
         <source>Cannot read a datagram, not in encrypted state</source>
-        <translation>无法读取数据报，未处于加密状态</translation>
+        <translation>Tekisobose kusoma dataguramu kubanga ebisindikibwa tebikisibwa</translation>
     </message>
     <message>
         <source>%1 failed</source>
         <extracomment>%1: Some function</extracomment>
-        <translation>%1 失败</translation>
+        <translation>%1 egaanye</translation>
     </message>
     <message>
         <source>Invalid SslMode, SslServerMode or SslClientMode expected</source>
-        <translation>无效的 SslMode，应为 SslServerMode 或 SslClientMode</translation>
+        <translation>Ekikongojjedwa SslMode tekikozeseka, SslServerMode oba SslClientMode bye bibadde bisuubirwa</translation>
     </message>
     <message>
         <source>Invalid protocol version, DTLS protocol expected</source>
-        <translation>协议版本无效，应为 DTLS 协议</translation>
+        <translation>Ekika ky&apos;empulizagana ekitegekedwa tekikozeseka, eya DTLS y&apos;ebadde esuubirwa</translation>
     </message>
     <message>
         <source>BIO_ADD_new failed, cannot start handshake</source>
-        <translation>BIO_ADD_new 失败，无法启动握手</translation>
+        <translation>Tekisobose okutandika okutegeeragana kubanga omulimu gwa BIO_ADD_new gugaanye</translation>
     </message>
     <message>
         <source>Cannot start the handshake, verified client hello expected</source>
-        <translation>无法启动握手，需要验证客户端 hello</translation>
+        <translation>Tewali dataguramu ey&apos;okweyanjula eva ku kompyuta ewerezebwa eyaakakasidwa, n&apos;olwekyo tekisobose okutandika okutegeeragana</translation>
     </message>
     <message>
         <source>Peer verification failed</source>
-        <translation>对等验证失败</translation>
+        <translation>Ogw&apos;okukakasa kompyuta ewulizagana gugaanye</translation>
     </message>
     <message>
         <source>The DTLS connection has been closed</source>
-        <translation>DTLS 连接已关闭</translation>
+        <translation>Empulizagana eya DTLS eggadwawo</translation>
     </message>
     <message>
         <source>Error while writing: %1</source>
-        <translation>写入时出错：%1</translation>
+        <translation>Wazzewo kiremya mu kuwandika: %1</translation>
     </message>
     <message>
         <source>The DTLS connection has been shutdown</source>
-        <translation>DTLS 连接已断开</translation>
+        <translation>Omulimu ogw&apos;empulizagana eya DTLS gukomezedwa</translation>
     </message>
     <message>
         <source>Error while reading: %1</source>
-        <translation>读取时出错：%1</translation>
+        <translation>Wazzewo kiremya mu kusoma: %1</translation>
     </message>
 </context>
 <context>
     <name>QDtlsClientVerifier</name>
     <message>
         <source>A valid UDP socket, non-empty datagram, valid address/port were expected</source>
-        <translation>需要有效的 UDP 套接字、非空数据报和有效的地址/端口</translation>
+        <translation>Wabadde wasuubirwawo soketi eya UDP, dataguramu etali njereere n&apos;endagiriro/pooti ebikozeseka</translation>
     </message>
     <message>
         <source>BIO_ADDR_new failed, ignoring client hello</source>
-        <translation>BIO_ADDR_new 失败，忽略客户端 hello</translation>
+        <translation>Dataguramu ey&apos;okweyanjula (ClientHello) ebooledwa kubanga omulimu gwa BIO_ADD_new gugaanye</translation>
     </message>
 </context>
 <context>
     <name>QErrorMessage</name>
     <message>
         <source>Debug Message:</source>
-        <translation>调试消息：</translation>
+        <translation>Bubaka Obuyamba Kuzuula Nsibuko ya Kiremya:</translation>
     </message>
     <message>
         <source>Warning:</source>
-        <translation>警告：</translation>
+        <translation>Kulabula:</translation>
     </message>
     <message>
         <source>Critical Error:</source>
-        <translation>严重错误：</translation>
+        <translation>Kiremya atabuusibwa maaso:</translation>
     </message>
     <message>
         <source>Fatal Error:</source>
-        <translation>致命错误：</translation>
+        <translation>Kiremya Akomya Mulimu:</translation>
     </message>
     <message>
         <source>Information:</source>
-        <translation>信息：</translation>
+        <translation>Kutangaaza:</translation>
     </message>
     <message>
         <source>&amp;Show this message again</source>
-        <translation>再次显示此消息(&amp;S)</translation>
+        <translation>&amp;N&apos;olulala Obubaka Buno Buboneke</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>确定(&amp;O)</translation>
+        <translation>&amp;Kale</translation>
     </message>
 </context>
 <context>
     <name>QFile</name>
     <message>
         <source>Destination file is the same file.</source>
-        <translation>目标文件是同一个文件。</translation>
+        <translation>Fayiro egenderwa era y&apos;eno.</translation>
     </message>
     <message>
         <source>Source file does not exist.</source>
-        <translation>源文件不存在。</translation>
+        <translation>Fayiro ey&apos;ennono teriwo.</translation>
     </message>
     <message>
         <source>Destination file exists</source>
-        <translation>目标文件已存在</translation>
+        <translation>Fayiro egenderwa esangidwa gyeri</translation>
     </message>
     <message>
         <source>Error while renaming: %1</source>
-        <translation>重命名时出错：%1</translation>
+        <translation>Okukyusa erinnya kuzzemu kiremya: %1</translation>
     </message>
     <message>
         <source>Unable to restore from %1: %2</source>
-        <translation>无法从 %1 恢复：%2</translation>
+        <translation>Tekisobose okukozesa %1 okuzzawo: %2</translation>
     </message>
     <message>
         <source>Will not rename sequential file using block copy</source>
-        <translation>将不使用块复制重命名序列文件</translation>
+        <translation>Fayiro ya mugobereragano. Okukoppera mu buloka tekujja okweyambisibwa okugikyusa linnya</translation>
     </message>
     <message>
         <source>Cannot remove source file</source>
-        <translation>无法删除源文件</translation>
+        <translation>Tekisobose okugyawo fayiro ey&apos;ennono</translation>
     </message>
     <message>
         <source>Cannot open destination file: %1</source>
-        <translation>无法打开目标文件：%1</translation>
+        <translation>Tekisobose okubikkula fayiro egenderwa: %1</translation>
     </message>
     <message>
         <source>Cannot open %1 for input</source>
-        <translation>无法打开 %1 进行输入</translation>
+        <translation>Tekisobose okubikkula %1 okuginonamu ebikolebwako</translation>
     </message>
     <message>
         <source>Cannot open for output: %1</source>
-        <translation>无法打开进行输出：%1</translation>
-    </message>
-    <message>
-        <source>Cannot open for output</source>
-        <translation type="vanished">无法打开以进行输出</translation>
+        <translation>Tekisobose okubikkula awanaagenda ebivaamu: %1</translation>
     </message>
     <message>
         <source>Failure to write block</source>
-        <translation>写入块失败</translation>
+        <translation>Okuwandika buloka kugaanye</translation>
     </message>
     <message>
         <source>Cannot create %1 for output</source>
-        <translation>无法创建 %1 进行输出</translation>
+        <translation>Tekisobose okukolawo %1 awanaagenda ebivaamu</translation>
     </message>
 </context>
 <context>
     <name>QFileDevice</name>
     <message>
         <source>No file engine available or engine does not support UnMapExtension</source>
-        <translation>无可用文件引擎或引擎不支持 UnMapExtension</translation>
+        <translation>Tewali yingini ekola ku fayiro oba eriwo tekolagana ne UnMapExtension</translation>
     </message>
     <message>
         <source>No file engine available</source>
-        <translation>无可用文件引擎</translation>
+        <translation>Tewali yingini ekola ku fayiro</translation>
     </message>
 </context>
 <context>
     <name>QFileDialog</name>
     <message>
         <source>All Files (*)</source>
-        <translation>所有文件 (*)</translation>
+        <translation>Bika bya Fayiro Byonna (*)</translation>
     </message>
     <message>
         <source>Look in:</source>
-        <translation>查找范围：</translation>
+        <translation>Kebera mu:</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>后退</translation>
+        <translation>Ddayo</translation>
     </message>
     <message>
         <source>Go back</source>
-        <translation>后退</translation>
+        <translation>Ddayo</translation>
     </message>
     <message>
         <source>Alt+Left</source>
-        <translation>Alt+左方向键</translation>
+        <translation>Alt+Kasaale ka kkono</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>前进</translation>
+        <translation>Weyongereyo</translation>
     </message>
     <message>
         <source>Go forward</source>
-        <translation>前进</translation>
+        <translation>Weyongereyo</translation>
     </message>
     <message>
         <source>Alt+Right</source>
-        <translation>Alt+右方向键</translation>
+        <translation>Alt+Kasaale ka ddyo</translation>
     </message>
     <message>
         <source>Parent Directory</source>
-        <translation>父目录</translation>
+        <translation>Tterekero Lino Mwe Liri</translation>
     </message>
     <message>
         <source>Go to the parent directory</source>
-        <translation>转到父目录</translation>
+        <translation>Genda mu tterekero lino mwe liri</translation>
     </message>
     <message>
         <source>Alt+Up</source>
-        <translation>Alt+上方向键</translation>
+        <translation>Alt+Kasaale akadda waggulu</translation>
     </message>
     <message>
         <source>Create New Folder</source>
-        <translation>新建文件夹</translation>
+        <translation>Kolawo Tterekero Ppya</translation>
     </message>
     <message>
         <source>Create a New Folder</source>
-        <translation>新建一个文件夹</translation>
+        <translation>Kolawo Tterekero Ppya</translation>
     </message>
     <message>
         <source>List View</source>
-        <translation>列表视图</translation>
+        <translation>Fayiro Ziragire mu Lukalala</translation>
     </message>
     <message>
         <source>Change to list view mode</source>
-        <translation>更改为列表视图模式</translation>
+        <translation>Fayiro ziragire mu lukalala</translation>
     </message>
     <message>
         <source>Detail View</source>
-        <translation>详情视图</translation>
+        <translation>Laga Ebifa ku Fayiro mu Bujjuvu</translation>
     </message>
     <message>
         <source>Change to detail view mode</source>
-        <translation>更改为详情视图模式</translation>
+        <translation>Laga ebifa ku fayiro mu bujjuvu</translation>
     </message>
     <message>
         <source>Sidebar</source>
-        <translation>侧边栏</translation>
+        <translation>Kadirisa ak&apos;oku mabbali</translation>
     </message>
     <message>
         <source>List of places and bookmarks</source>
-        <translation>位置和书签列表</translation>
+        <translation>Lukalala lw&apos;ebituukikako n&apos;obukwatakifo</translation>
     </message>
     <message>
         <source>Files</source>
-        <translation>文件</translation>
+        <translation>Fayiro</translation>
     </message>
     <message>
         <source>Files of type:</source>
-        <translation>文件类型：</translation>
+        <translation>Fayiro ez&apos;ekika kya:</translation>
     </message>
     <message>
         <source>Find Directory</source>
-        <translation>查找目录</translation>
+        <translation>Noonya Tterekero</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation>Bikkula</translation>
     </message>
     <message>
         <source>Save As</source>
-        <translation>另存为</translation>
+        <translation>Kolamu Koppi</translation>
     </message>
     <message>
         <source>Directory:</source>
-        <translation>目录：</translation>
+        <translation>Tterekero:</translation>
     </message>
     <message>
         <source>File &amp;name:</source>
-        <translation>文件名称(&amp;N)：</translation>
+        <translation>&amp;Linnya lya Fayiro:</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>打开(&amp;O)</translation>
+        <translation>&amp;Bikkula</translation>
     </message>
     <message>
         <source>&amp;Choose</source>
-        <translation>选择(&amp;C)</translation>
+        <translation>&amp;Londa</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>保存(&amp;S)</translation>
+        <translation>&amp;Kazza</translation>
     </message>
     <message>
         <source>Show </source>
-        <translation>显示 </translation>
+        <translation>Laga </translation>
     </message>
     <message>
         <source>&amp;Rename</source>
-        <translation>重命名(&amp;R)</translation>
+        <translation>&amp;Kyusa Linnya</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>删除(&amp;D)</translation>
+        <translation>&amp;Gyawo</translation>
     </message>
     <message>
         <source>Show &amp;hidden files</source>
-        <translation>显示隐藏文件(&amp;H)</translation>
+        <translation>Laga fayiro &amp;nkise</translation>
     </message>
     <message>
         <source>&amp;New Folder</source>
-        <translation>新建文件夹(&amp;N)</translation>
+        <translation>&amp;Tterekero Ppya</translation>
     </message>
     <message>
         <source>All files (*)</source>
-        <translation>所有文件 (*)</translation>
+        <translation>Bika bya Fayiro Byonna (*)</translation>
     </message>
     <message>
         <source>Directories</source>
-        <translation>目录</translation>
+        <translation>Materekero</translation>
     </message>
     <message>
         <source>%1
 Directory not found.
 Please verify the correct directory name was given.</source>
         <translation>%1
-目录未找到。
-请检查指定的目录名是否正确。</translation>
+Tterekero libuze.
+Wekkaanye erinnya ly&apos;okozesezza.</translation>
     </message>
     <message>
         <source>%1 already exists.
 Do you want to replace it?</source>
-        <translation>%1 已存在。
-您想要替换它吗？</translation>
+        <translation>%1 gyeri.
+Okakasa oyagala okugigyawo waddewo kirala?</translation>
     </message>
     <message>
         <source>%1
 File not found.
 Please verify the correct file name was given.</source>
         <translation>%1
-文件未找到。
-请检查指定的文件名是否正确。</translation>
+Fayiro ebuze.
+Wekkaanye erinnya ly&apos;okozesezza.</translation>
     </message>
     <message>
         <source>New Folder</source>
-        <translation>新建文件夹</translation>
+        <translation>Tterekero Ppya</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>删除</translation>
+        <translation>Gyawo</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is write protected.
 Do you want to delete it anyway?</source>
-        <translation>“%1”已被写入保护。
-您仍然想要删除它吗？</translation>
+        <translation>&apos;%1&apos; okugiwandikamu kukugidwa.
+Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Are you sure you want to delete &apos;%1&apos;?</source>
-        <translation>您确定要删除“%1”吗？</translation>
+        <translation>&apos;%1&apos; okukakasa oyagala okugigyawo?</translation>
     </message>
     <message>
         <source>Could not delete directory.</source>
-        <translation>无法删除目录。</translation>
+        <translation>Tterekero nnemedwa kuligyawo.</translation>
     </message>
     <message>
         <source>Recent Places</source>
-        <translation>最近位置</translation>
+        <translation>Awakabikkulwa</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>移除</translation>
+        <translation>Gyawo</translation>
     </message>
     <message>
         <source>My Computer</source>
-        <translation>我的电脑</translation>
+        <translation>Kompyuta Yange</translation>
     </message>
     <message>
         <source>Drive</source>
-        <translation>驱动器</translation>
+        <translation>Kibondo</translation>
     </message>
     <message>
         <source>%1 File</source>
         <extracomment>%1 is a file name suffix, for example txt</extracomment>
-        <translation>%1 文件</translation>
+        <translation>Fayiro ey&apos;ekika kya %1</translation>
     </message>
     <message>
         <source>File</source>
-        <translation>文件</translation>
+        <translation>Fayiro</translation>
     </message>
     <message>
         <source>File Folder</source>
         <comment>Match Windows Explorer</comment>
-        <translation>文件夹</translation>
+        <translation>Tterekero lya Fayiro</translation>
     </message>
     <message>
         <source>Folder</source>
         <comment>All other platforms</comment>
-        <translation>文件夹</translation>
+        <translation>Tterekero</translation>
     </message>
     <message>
         <source>Alias</source>
         <comment>OS X Finder</comment>
-        <translation>别名</translation>
+        <translation>Nyunzi</translation>
     </message>
     <message>
         <source>Shortcut</source>
         <comment>All other platforms</comment>
-        <translation>快捷方式</translation>
+        <translation>Nyunzi</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>未知</translation>
+        <translation>Kitategeerese</translation>
     </message>
 </context>
 <context>
     <name>QFileSystemModel</name>
     <message>
         <source>&lt;b&gt;The name &quot;%1&quot; cannot be used.&lt;/b&gt;&lt;p&gt;Try using another name, with fewer characters or no punctuation marks.</source>
-        <translation>&lt;b&gt;文件名“%1”不可使用。&lt;/b&gt;&lt;p&gt;请尝试其他文件名，减少字数或避免使用标点符号。</translation>
+        <translation>&lt;b&gt;Tekisobose kukozesa linnya &quot;%1&quot;.&lt;/b&gt; Ennukuta ziyitiridde obungi oba lirimu obubonero obwawula mboozi.</translation>
     </message>
     <message>
         <source>Invalid filename</source>
-        <translation>无效的文件名</translation>
+        <translation>Erinnya lya fayiro teritegeeredwa</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>名称</translation>
+        <translation>Linnya</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>体积</translation>
+        <translation>Bunene</translation>
     </message>
     <message>
         <source>Kind</source>
         <comment>Match OS X Finder</comment>
-        <translation>类型</translation>
+        <translation>Ngeri</translation>
     </message>
     <message>
         <source>Type</source>
         <comment>All other platforms</comment>
-        <translation>类型</translation>
+        <translation>Kika</translation>
     </message>
     <message>
         <source>Date Modified</source>
-        <translation>修改日期</translation>
+        <translation>Makyusa</translation>
     </message>
     <message>
         <source>My Computer</source>
-        <translation>我的电脑</translation>
+        <translation>Kompyuta Yange</translation>
     </message>
     <message>
         <source>Computer</source>
-        <translation>计算机</translation>
+        <translation>Kompyuta</translation>
     </message>
 </context>
 <context>
@@ -1384,375 +1376,345 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Normal</source>
         <comment>The Normal or Regular font weight</comment>
-        <translatorcomment>按照字体教材翻译修订，保留英文是因为西文字体自带的风格只有英文命名，如果只有中文，核对时将异常困难。</translatorcomment>
-        <translation>标准 (Normal)</translation>
+        <translation>Za bulijjo</translation>
     </message>
     <message>
         <source>Bold</source>
-        <translatorcomment>按照字体教材翻译修订，保留英文是因为西文字体自带的风格只有英文命名，如果只有中文，核对时将异常困难。</translatorcomment>
-        <translation>粗体 (Bold)</translation>
+        <translation>Nziggumivu</translation>
     </message>
     <message>
         <source>Demi Bold</source>
-        <translatorcomment>按照字体教材翻译修订，保留英文是因为西文字体自带的风格只有英文命名，如果只有中文，核对时将异常困难。</translatorcomment>
-        <translation>次粗 (Demi Bold)</translation>
+        <translation>Za katakke</translation>
     </message>
     <message>
         <source>Medium</source>
         <comment>The Medium font weight</comment>
-        <translatorcomment>按照字体教材翻译修订，保留英文是因为西文字体自带的风格只有英文命名，如果只有中文，核对时将异常困难。</translatorcomment>
-        <translation>适中 (Medium)</translation>
+        <translation>Za kibogwe</translation>
     </message>
     <message>
         <source>Black</source>
-        <translatorcomment>按照字体教材翻译修订，保留英文是因为西文字体自带的风格只有英文命名，如果只有中文，核对时将异常困难。</translatorcomment>
-        <translation>浓体 (Black)</translation>
+        <translation>Nzirugavu</translation>
     </message>
     <message>
         <source>Light</source>
-        <translatorcomment>按照字体教材翻译修订，保留英文是因为西文字体自带的风格只有英文命名，如果只有中文，核对时将异常困难。</translatorcomment>
-        <translation>细体 (Light)</translation>
+        <translation>Ntangaalirivu</translation>
     </message>
     <message>
         <source>Thin</source>
-        <translatorcomment>按照字体教材翻译修订，保留英文是因为西文字体自带的风格只有英文命名，如果只有中文，核对时将异常困难。</translatorcomment>
-        <translation>淡体 (Thin)</translation>
+        <translation>Nneemiimivu</translation>
     </message>
     <message>
         <source>Extra Light</source>
-        <translatorcomment>按照字体教材翻译修订，保留英文是因为西文字体自带的风格只有英文命名，如果只有中文，核对时将异常困难。</translatorcomment>
-        <translation>特细 (Extra Light)</translation>
+        <translation>Ntangaalirivu nyo</translation>
     </message>
     <message>
         <source>Extra Bold</source>
-        <translatorcomment>按照字体教材翻译修订，保留英文是因为西文字体自带的风格只有英文命名，如果只有中文，核对时将异常困难。</translatorcomment>
-        <translation>特粗 (Extra Bold)</translation>
+        <translation>Nziggumivu nyo</translation>
     </message>
     <message>
         <source>Extra</source>
         <extracomment>The word for &quot;Extra&quot; as in &quot;Extra Bold, Extra Thin&quot; used as a pattern for string searches</extracomment>
-        <translatorcomment>按照字体教材翻译修订，保留英文是因为西文字体自带的风格只有英文命名，如果只有中文，核对时将异常困难。</translatorcomment>
-        <translation>特 (Extra)</translation>
+        <translation>Nyo</translation>
     </message>
     <message>
         <source>Demi</source>
         <extracomment>The word for &quot;Demi&quot; as in &quot;Demi Bold&quot; used as a pattern for string searches</extracomment>
-        <translatorcomment>按照字体教材翻译修订，保留英文是因为西文字体自带的风格只有英文命名，如果只有中文，核对时将异常困难。</translatorcomment>
-        <translation>次 (Demi)</translation>
+        <translation>Katakke</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translatorcomment>按照字体教材翻译修订，保留英文是因为西文字体自带的风格只有英文命名，如果只有中文，核对时将异常困难。</translatorcomment>
-        <translation>斜体 (Italic)</translation>
+        <translation>Italiki</translation>
     </message>
     <message>
         <source>Oblique</source>
-        <translatorcomment>按照字体教材翻译修订，保留英文是因为西文字体自带的风格只有英文命名，如果只有中文，核对时将异常困难。</translatorcomment>
-        <translation>伪斜体 (Oblique)</translation>
+        <translation>Nsurifu</translation>
     </message>
     <message>
         <source>Any</source>
-        <translation>任意</translation>
+        <translation>Yonna</translation>
     </message>
     <message>
         <source>Latin</source>
-        <translatorcomment>按照 unicode 码表标准名称统一译名</translatorcomment>
-        <translation>拉丁文</translation>
+        <translation>Kilattini</translation>
     </message>
     <message>
         <source>Greek</source>
-        <translatorcomment>按照 unicode 码表标准名称统一译名</translatorcomment>
-        <translation>希腊文</translation>
+        <translation>Kigereeki</translation>
     </message>
     <message>
         <source>Cyrillic</source>
-        <translatorcomment>按照 unicode 码表标准名称统一译名</translatorcomment>
-        <translation>西里尔字母</translation>
+        <translation>Kisiriiri</translation>
     </message>
     <message>
         <source>Armenian</source>
-        <translatorcomment>按照 unicode 码表标准名称统一译名</translatorcomment>
-        <translation>亚美尼亚字母</translation>
+        <translation>Kiwarumeniya</translation>
     </message>
     <message>
         <source>Hebrew</source>
-        <translatorcomment>按照 unicode 码表标准名称统一译名</translatorcomment>
-        <translation>希伯来文字母</translation>
+        <translation>Hiburu</translation>
     </message>
     <message>
         <source>Arabic</source>
-        <translatorcomment>按照 unicode 码表标准名称统一译名</translatorcomment>
-        <translation>阿拉伯文字母</translation>
+        <translation>Kiwarabu</translation>
     </message>
     <message>
         <source>Syriac</source>
-        <translatorcomment>按照 unicode 码表标准名称统一译名</translatorcomment>
-        <translation>叙利亚字母</translation>
+        <translation>Kisiriya</translation>
     </message>
     <message>
         <source>Thaana</source>
-        <translatorcomment>按照 unicode 码表标准名称统一译名</translatorcomment>
-        <translation>它拿字母</translation>
+        <translation>Taana</translation>
     </message>
     <message>
         <source>Devanagari</source>
-        <translatorcomment>按照 unicode 码表标准名称统一译名</translatorcomment>
-        <translation>天城文</translation>
+        <translation>Devanagari</translation>
     </message>
     <message>
         <source>Bengali</source>
-        <translatorcomment>按照 unicode 码表标准名称统一译名</translatorcomment>
-        <translation>孟加拉文</translation>
+        <translation>Bengali</translation>
     </message>
     <message>
         <source>Gurmukhi</source>
-        <translatorcomment>按照 unicode 码表标准名称统一译名</translatorcomment>
-        <translation>古木基文</translation>
+        <translation>Gurumukki</translation>
     </message>
     <message>
         <source>Gujarati</source>
-        <translatorcomment>按照 unicode 码表标准名称统一译名</translatorcomment>
-        <translation>古吉拉特文</translation>
+        <translation>Gujarati</translation>
     </message>
     <message>
         <source>Oriya</source>
-        <translatorcomment>按照 unicode 码表标准名称统一译名</translatorcomment>
-        <translation>奥里亚文</translation>
+        <translation>Oriya</translation>
     </message>
     <message>
         <source>Tamil</source>
-        <translatorcomment>按照 unicode 码表标准名称统一译名</translatorcomment>
-        <translation>泰米尔文</translation>
+        <translation>Tamiiru</translation>
     </message>
     <message>
         <source>Telugu</source>
-        <translatorcomment>按照 unicode 码表标准名称统一译名</translatorcomment>
-        <translation>泰卢固文</translation>
+        <translation>Telugu</translation>
     </message>
     <message>
         <source>Kannada</source>
-        <translatorcomment>按照 unicode 码表标准名称统一译名</translatorcomment>
-        <translation>卡纳达文</translation>
+        <translation>Kannada</translation>
     </message>
     <message>
         <source>Malayalam</source>
-        <translation>马拉亚拉姆文</translation>
+        <translation>Mayalamu</translation>
     </message>
     <message>
         <source>Sinhala</source>
-        <translation>僧伽罗文</translation>
+        <translation>Sinnala</translation>
     </message>
     <message>
         <source>Thai</source>
-        <translation>泰文</translation>
+        <translation>Kittaayi</translation>
     </message>
     <message>
         <source>Lao</source>
-        <translation>寮文</translation>
+        <translation>Kiraawo</translation>
     </message>
     <message>
         <source>Tibetan</source>
-        <translation>藏文</translation>
+        <translation>Kitibeti</translation>
     </message>
     <message>
         <source>Myanmar</source>
-        <translation>缅甸文</translation>
+        <translation>Kimyanima</translation>
     </message>
     <message>
         <source>Georgian</source>
-        <translation>格鲁吉亚文</translation>
+        <translation>Kigyoogiya</translation>
     </message>
     <message>
         <source>Khmer</source>
-        <translation>高棉文</translation>
+        <translation>Kemeeya</translation>
     </message>
     <message>
         <source>Simplified Chinese</source>
-        <translation>简体中文</translation>
+        <translation>Lucayina olugonze</translation>
     </message>
     <message>
         <source>Traditional Chinese</source>
-        <translation>繁体中文</translation>
+        <translation>Lucayina olw&apos;ennono</translation>
     </message>
     <message>
         <source>Japanese</source>
-        <translation>日文</translation>
+        <translation>Kijapani</translation>
     </message>
     <message>
         <source>Korean</source>
-        <translation>韩文</translation>
+        <translation>Kikoreya</translation>
     </message>
     <message>
         <source>Vietnamese</source>
-        <translation>越南文</translation>
+        <translation>Kiviyetinaamu</translation>
     </message>
     <message>
         <source>Symbol</source>
-        <translation>符号</translation>
+        <translation>Bubonero</translation>
     </message>
     <message>
         <source>Ogham</source>
-        <translation>欧甘字母</translation>
+        <translation>Wogamu</translation>
     </message>
     <message>
         <source>Runic</source>
-        <translation>卢恩字母</translation>
+        <translation>Ruuni</translation>
     </message>
     <message>
         <source>N&apos;Ko</source>
-        <translation>西非书面语</translation>
+        <translation>Nkko</translation>
     </message>
 </context>
 <context>
     <name>QFontDialog</name>
     <message>
         <source>Select Font</source>
-        <translation>选择字体</translation>
+        <translation>Londa Nkula ya Nnukuta</translation>
     </message>
     <message>
         <source>&amp;Font</source>
-        <translation>字体(&amp;F)</translation>
+        <translation>&amp;Nkula ya Nnukuta</translation>
     </message>
     <message>
         <source>Font st&amp;yle</source>
-        <translation>字体风格(&amp;Y)</translation>
+        <translation>&amp;Musono gwa nkula ya nnukuta</translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>大小(&amp;S)</translation>
+        <translation>&amp;Bunene</translation>
     </message>
     <message>
         <source>Effects</source>
-        <translation>效果</translation>
+        <translation>Masaali</translation>
     </message>
     <message>
         <source>Stri&amp;keout</source>
-        <translation>删除线(&amp;K)</translation>
+        <translation>&amp;Nsazzemu</translation>
     </message>
     <message>
         <source>&amp;Underline</source>
-        <translation>下划线(&amp;U)</translation>
+        <translation>&amp;Za Lukoloboze Wansi</translation>
     </message>
     <message>
         <source>Sample</source>
-        <translation>示例</translation>
+        <translation>Kukulagako</translation>
     </message>
     <message>
         <source>Wr&amp;iting System</source>
-        <translatorcomment>按照 unicode 码表标准名称统一译名</translatorcomment>
-        <translation>文字系统(&amp;I)</translation>
+        <translation>&amp;Mpandika</translation>
     </message>
 </context>
 <context>
     <name>QFtp</name>
     <message>
         <source>Not connected</source>
-        <translation>未连接</translation>
+        <translation>Tewali mpulizagana</translation>
     </message>
     <message>
         <source>Host %1 not found</source>
-        <translation>主机 %1 没有找到</translation>
+        <translation>Kompyuta enyunge %1 terabidwa</translation>
     </message>
     <message>
         <source>Connection refused to host %1</source>
-        <translation>连接被主机 %1 拒绝</translation>
+        <translation>Empulizagana ne kompyuta %1 egaanidwa</translation>
     </message>
     <message>
         <source>Connection timed out to host %1</source>
-        <translation>主机 %1 连接超时</translation>
+        <translation>Okukwatagana ne kompyuta enyunge %1 obudde bukuyiseko</translation>
     </message>
     <message>
         <source>Connected to host %1</source>
-        <translation>连接到主机 %1</translation>
+        <translation>Waliwo empulizagana ne kompyuta %1</translation>
     </message>
     <message>
         <source>Data Connection refused</source>
-        <translation>数据连接被拒绝</translation>
+        <translation>Enkwatagana ey&apos;okuwanisagana data egaanidwa</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>未知错误</translation>
+        <translation>Wazzewo kiremya atategeereka</translation>
     </message>
     <message>
         <source>Connecting to host failed:
 %1</source>
-        <translation>连接主机失败：
+        <translation>Okukwatagana ne kompyuta enyunge kugaanye:
 %1</translation>
     </message>
     <message>
         <source>Login failed:
 %1</source>
-        <translation>登录失败：
+        <translation>Okutandika olutuula kugaanye:
 %1</translation>
     </message>
     <message>
         <source>Listing directory failed:
 %1</source>
-        <translation>列出目录失败：
+        <translation>Okulaga ebiri mu tterekero kugaanye:
 %1</translation>
     </message>
     <message>
         <source>Changing directory failed:
 %1</source>
-        <translation>改变目录失败：
+        <translation>Okudda mu tterekero ddala kugaanye:
 %1</translation>
     </message>
     <message>
         <source>Downloading file failed:
 %1</source>
-        <translation>下载文件失败：
+        <translation>Okuwanula fayiro kugaanye:
 %1</translation>
     </message>
     <message>
         <source>Uploading file failed:
 %1</source>
-        <translation>上传文件失败：
+        <translation>Okuteekayo fayiro kugaanye:
 %1</translation>
     </message>
     <message>
         <source>Removing file failed:
 %1</source>
-        <translation>移除文件失败：
+        <translation>Okugyawo fayiro kugaanye:
 %1</translation>
     </message>
     <message>
         <source>Creating directory failed:
 %1</source>
-        <translation>创建目录失败：
+        <translation>Okukolawo tterekero kugaanye:
 %1</translation>
     </message>
     <message>
         <source>Removing directory failed:
 %1</source>
-        <translation>移除目录失败：
+        <translation>Okugywao tterekero kugaanye:
 %1</translation>
     </message>
     <message>
         <source>Connection closed</source>
-        <translation>连接已关闭</translation>
+        <translation>Okuwulizagana kuggadwawo</translation>
     </message>
 </context>
 <context>
     <name>QGnomeTheme</name>
     <message>
         <source>&amp;OK</source>
-        <translation>确定(&amp;O)</translation>
+        <translation>&amp;Kale</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>保存(&amp;S)</translation>
+        <translation>&amp;Kazza</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>取消(&amp;C)</translation>
+        <translation>&amp;Sazamu</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>关闭(&amp;C)</translation>
+        <translation>&amp;Gala</translation>
     </message>
     <message>
         <source>Close without Saving</source>
-        <translation>关闭且不保存</translation>
+        <translation>Gala nga Tebikazidwa</translation>
     </message>
 </context>
 <context>
@@ -1764,431 +1726,427 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>QPA plugin. See QGuiApplication documentation for available options for each plugin.</source>
-        <translation>QPA 插件。查看 QGuiApplication 文档获取每个插件的可用选项。</translation>
+        <translation>Ekyongerwako ekya QPA. Okumanya ebisoboka ku buli kyongerwako, kebera mu biwandiko ebya QGuiApplication.</translation>
     </message>
     <message>
         <source>Path to the platform plugins.</source>
-        <translation>平台插件的路径。</translation>
+        <translation>Kkubo erigguka ku byongerwako.</translation>
     </message>
     <message>
         <source>Platform theme.</source>
-        <translation>平台主题。</translation>
+        <translation>Lulyo lw&apos;endabika.</translation>
     </message>
     <message>
         <source>Additional plugins to load, can be specified multiple times.</source>
-        <translation>要加载的额外插件，可被多次指定。</translation>
+        <translation>Ebyongerwako ebirala ebinaawangibwa, bino bisobola okutegekebwa n&apos;awalala.</translation>
     </message>
     <message>
         <source>Window geometry for the main window, using the X11-syntax, like 100x100+50+50.</source>
-        <translation>主窗口的窗口尺寸，使用 X11 语法，例如 100x100+50+50。</translation>
+        <translation>Bipimo bya ddirisa ery&apos;ennono, mu mpandika eyetaagibwa X11, okugeza nga 100x100+50+50.</translation>
     </message>
     <message>
         <source>Default window icon.</source>
-        <translation>默认窗口图标。</translation>
+        <translation>Akafaananyi akakwatira ddirisa ekifo ku lubaawo aka bulijjo.</translation>
     </message>
     <message>
         <source>Title of the first window.</source>
-        <translation>第一个窗口的标题。</translation>
+        <translation>Mutwe gw&apos;eddirisa erisooka.</translation>
     </message>
     <message>
         <source>Sets the application&apos;s layout direction to Qt::RightToLeft (debugging helper).</source>
-        <translation>设置应用程序的布局方向到 Qt::RightToLeft (调试器辅助工具)。</translation>
+        <translation>Kitegeka enjalirira y&apos;ebitundu ebya puloguramu ebirabikira ku lutimbe efugibwe Qt::RightToLeft (kyeyambisibwa mu kunoonya bitali bituufu).</translation>
     </message>
     <message>
         <source>Restores the application from an earlier session.</source>
-        <translation>从先前会话恢复应用程序。</translation>
+        <translation>Puloguramu etandikire mu mbeera gye yali mu lwe yasemba okuggalibwawo.</translation>
     </message>
     <message>
         <source>Display name, overrides $DISPLAY.</source>
-        <translation>显示名称，覆盖$DISPLAY。</translation>
+        <translation>Tegeka olutimbe puloguramu kw&apos;egenda okulabikira, kidda mu kifo kya $DISPLAY.</translation>
     </message>
     <message>
         <source>Instance name according to ICCCM 4.1.2.5.</source>
-        <translation>依照 ICCCM 4.1.2.5 规范的示例名称。</translation>
+        <translation>Erinnya ly&apos;olubumbujjo lwa puloguramu erigoberera omuko gwa ekiwandiko ICCCM 4.1.2.5.</translation>
     </message>
     <message>
         <source>Disable mouse grabbing (useful in debuggers).</source>
-        <translation>禁用鼠标抓取 (在调试器中有用)。</translation>
+        <translation>Gaana puloguramu okwefuga akasongesebwa (kiyamba mu kunoonya bitali bituufu).</translation>
     </message>
     <message>
         <source>Force mouse grabbing (even when running in a debugger).</source>
-        <translation>强制鼠标抓取 (即使运行在调试器中)。</translation>
+        <translation>Waliriza puloguramu okwefuga akasongesebwa (ne bw&apos;ebeera nga eri mu nkola ya kunoonya bitali bituufu).</translation>
     </message>
     <message>
         <source>ID of the X11 Visual to use.</source>
-        <translation>要使用的 X11 视觉 ID。</translation>
+        <translation>Ennamba (ID) ya Ntabulalangi eya X11 enaakozesebwa.</translation>
     </message>
     <message>
-        <source>Alias for --windowgeometry.</source>
-        <translation>--windowgeometry 的别名。</translation>
+        <source>Alias for --qwindowgeometry.</source>
+        <translation>Ekikola kye kimu nga --qwindowgeometry.</translation>
     </message>
     <message>
-        <source>Alias for --windowicon.</source>
-        <translation>--windowicon 的别名。</translation>
+        <source>Alias for --qwindowicon.</source>
+        <translation>Ekikola kye kimu nga --qwindowicon.</translation>
     </message>
     <message>
-        <source>Alias for --windowtitle.</source>
-        <translation>--windowtitle 的别名。</translation>
+        <source>Alias for --qwindowtitle.</source>
+        <translation>Ekikola kye kimu nga --qwindowtitle.</translation>
     </message>
 </context>
 <context>
     <name>QHostInfo</name>
     <message>
         <source>No host name given</source>
-        <translation>未指定主机名</translation>
+        <translation>Wabula wo erinnya lya kompyuta enyunge</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>未知错误</translation>
+        <translation>Wazzewo kiremya atategeereka</translation>
     </message>
 </context>
 <context>
     <name>QHostInfoAgent</name>
     <message>
         <source>No host name given</source>
-        <translation>未指定主机名</translation>
+        <translation>Wabula wo erinnya lya kompyuta enyunge</translation>
     </message>
     <message>
         <source>Invalid hostname</source>
-        <translation>无效的主机名</translation>
+        <translation>Ekiweeredwa ng&apos;erinnya lya kompyuta enyunge tekikozeseka</translation>
     </message>
     <message>
         <source>Unknown address type</source>
-        <translation>未知的地址类型</translation>
+        <translation>Endagiriro tetegeerese</translation>
     </message>
     <message>
         <source>Host not found</source>
-        <translation>主机未找到</translation>
-    </message>
-    <message>
-        <source>Unknown error (%1)</source>
-        <translation type="vanished">未知错误（%1）</translation>
+        <translation>Kompyuta enyunge terabidwa</translation>
     </message>
 </context>
 <context>
     <name>QHttp</name>
     <message>
         <source>Connection closed</source>
-        <translation>连接已关闭</translation>
+        <translation>Okuwulizagana kuggadwawo</translation>
     </message>
     <message>
         <source>Host %1 not found</source>
-        <translation>主机 %1 没有找到</translation>
+        <translation>Kompyuta enyunge %1 terabidwa</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>连接被拒绝</translation>
+        <translation>Okukwatagana ne kompyuta enyunge kugaanidwa</translation>
     </message>
     <message>
         <source>Proxy requires authentication</source>
-        <translation>代理需要验证</translation>
+        <translation>Kalaani yetaaga kusooka kukakasa</translation>
     </message>
     <message>
         <source>Host requires authentication</source>
-        <translation>主机需要验证</translation>
+        <translation>Kompyuta enyunge yetaaga kusooka kukakasa</translation>
     </message>
     <message>
         <source>Data corrupted</source>
-        <translation>数据错误</translation>
+        <translation>Data erimu ensobi</translation>
     </message>
     <message>
         <source>Unknown protocol specified</source>
-        <translation>所指定的协议是未知的</translation>
+        <translation>Amateeka agafuga okuwulizagana agategekedwa tegategeerese</translation>
     </message>
     <message>
         <source>SSL handshake failed</source>
-        <translation>SSL 握手失败</translation>
+        <translation>Okutegeeragana okwa SSL kugaanye</translation>
     </message>
     <message>
         <source>Too many redirects</source>
-        <translation>重定向太多</translation>
+        <translation>Wasangidwa ebiragiro ebyongezayo ku ndagiriro ndala ebiyitiridde obungi</translation>
     </message>
     <message>
         <source>Insecure redirect</source>
-        <translation>不安全的重定向</translation>
+        <translation>Wasangidwa ekiragiro ekyongezayo ku ndagiriro ndala ekiteesigika</translation>
     </message>
 </context>
 <context>
     <name>QHttpSocketEngine</name>
     <message>
         <source>Did not receive HTTP response from proxy</source>
-        <translation>未收到代理的 HTTP 响应</translation>
+        <translation>Kalaani teyanukudde</translation>
     </message>
     <message>
         <source>Error parsing authentication request from proxy</source>
-        <translation>解析来自代理的身份验证请求时出错</translation>
+        <translation>Wazzewo kiremya mu kukebera obubaka obusaba okukakasa obuvudde ku kompyuta masanganzira etuuka ku mutimbagano</translation>
     </message>
     <message>
         <source>Authentication required</source>
-        <translation>需要身份验证</translation>
+        <translation>Kyetaagisa kukakasa</translation>
     </message>
     <message>
         <source>Proxy denied connection</source>
-        <translation>代理拒绝连接</translation>
+        <translation>Kalaani egaanye okuteekawo okuwulizagana</translation>
     </message>
     <message>
         <source>Error communicating with HTTP proxy</source>
-        <translation>和 HTTP 代理通讯时发生错误</translation>
+        <translation>Wazzewo kiremya mu kuwulizagana ne kompyuta masanganzira etuuka ku mutimbagano</translation>
     </message>
     <message>
         <source>Proxy server not found</source>
-        <translation>未找到代理服务器</translation>
+        <translation>Kalaani terabidwa</translation>
     </message>
     <message>
         <source>Proxy connection refused</source>
-        <translation>代理连接被拒绝</translation>
+        <translation>Kalaani egaanye okuteekawo okuwulizagana</translation>
     </message>
     <message>
         <source>Proxy server connection timed out</source>
-        <translation>代理服务器连接超时</translation>
+        <translation>Okukwatagana ne kalaani obudde bukuyiseko</translation>
     </message>
     <message>
         <source>Proxy connection closed prematurely</source>
-        <translation>代理连接过早关闭</translation>
+        <translation>Okukuwatagana ne kalaani kuggadwawo nga bukyali</translation>
     </message>
 </context>
 <context>
     <name>QIBaseDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>打开数据库出错</translation>
+        <translation>Wazzewo kiremya mu kubikkula ggwanika lya data</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>无法开始事务</translation>
+        <translation>tekisobose okutandika omukolo ogwa mu ggwanika lya data</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>无法提交事务</translation>
+        <translation>Tekisobose okukaza ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>无法回滚事务</translation>
+        <translation>Tekisobose okujjulula ebikyusidwa</translation>
     </message>
 </context>
 <context>
     <name>QIBaseResult</name>
     <message>
         <source>Unable to create BLOB</source>
-        <translation>无法创建 BLOB</translation>
+        <translation>Tekisobose kukolawo BLOB</translation>
     </message>
     <message>
         <source>Unable to write BLOB</source>
-        <translation>无法写入 BLOB</translation>
+        <translation>Tekisobose okuwandika mu BLOB</translation>
     </message>
     <message>
         <source>Unable to open BLOB</source>
-        <translation>无法打开 BLOB</translation>
+        <translation>Tekisobose okubikkula BLOB</translation>
     </message>
     <message>
         <source>Unable to read BLOB</source>
-        <translation>无法读取 BLOB</translation>
+        <translation>Tekisobose okukebera BLOB</translation>
     </message>
     <message>
         <source>Could not find array</source>
-        <translation>无法找到数组</translation>
+        <translation>Areyi terabise</translation>
     </message>
     <message>
         <source>Could not get array data</source>
-        <translation>无法获取数组数据</translation>
+        <translation>Tekisobose okufuna data okuva mu areyi</translation>
     </message>
     <message>
         <source>Could not get query info</source>
-        <translation>无法获取查询信息</translation>
+        <translation>Tekisobose okufuna ebikwata ku kiragiro ekinoonyeza mu gwanika lya data</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>无法开始事务</translation>
+        <translation>tekisobose okutandika omukolo ogwa mu ggwanika lya data</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>无法提交事务</translation>
+        <translation>Tekisobose okukaza ebikyusidwa</translation>
     </message>
     <message>
         <source>Could not allocate statement</source>
-        <translation>无法分配语句</translation>
+        <translation>Tekisobose ekiragiro ekya mu ggwanika lya data okukikolera hando</translation>
     </message>
     <message>
         <source>Could not prepare statement</source>
-        <translation>无法准备语句</translation>
+        <translation>Tekisobose okutegeka kiragiro kya SQL kiddibwengamu mangu</translation>
     </message>
     <message>
         <source>Could not describe input statement</source>
-        <translation>无法描述输入语句</translation>
+        <translation>Tekisobose okufuna ebikwata ku paramita ez&apos;etaagbwa ekiragiro ekinoonyeza mu ggwanika lya data</translation>
     </message>
     <message>
         <source>Could not describe statement</source>
-        <translation>无法描述语句</translation>
+        <translation>Tekisobose okufuna ebikwata ku bizuulidwa ekiragiro ekinoonyeza mu ggwanika lya data</translation>
     </message>
     <message>
         <source>Unable to close statement</source>
-        <translation>无法关闭语句</translation>
+        <translation>Tekisobose okukomya ekiragiro ekya mu ggwanika lya data</translation>
     </message>
     <message>
         <source>Unable to execute query</source>
-        <translation>无法执行查询</translation>
+        <translation>Tekisobose okutandika ekiragiro ekinoonyeza mu ggwanika lya data</translation>
     </message>
     <message>
         <source>Could not fetch next item</source>
-        <translation>无法获取下一项</translation>
+        <translation>Tekisobose okunonayo data eddako</translation>
     </message>
     <message>
         <source>Could not get statement info</source>
-        <translation>无法得到语句信息</translation>
+        <translation>Tekisobose okufuna ebikwata ku kiragiro ekya mu gwanika lya data</translation>
     </message>
 </context>
 <context>
     <name>QIODevice</name>
     <message>
         <source>file to open is a directory</source>
-        <translation>要打开的文件是一个目录</translation>
+        <translation>eky&apos;okubikkulibwa tterekero</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>未知错误</translation>
+        <translation>Wazzewo kiremya atategeereka</translation>
     </message>
     <message>
         <source>Permission denied</source>
-        <translation>权限被拒绝</translation>
+        <translation>Olukusa teruweeredwa</translation>
     </message>
     <message>
         <source>Too many open files</source>
-        <translation>打开的文件太多</translation>
+        <translation>Fayiro embikkule kakano ziyitiridde obungi</translation>
     </message>
     <message>
         <source>No such file or directory</source>
-        <translation>此文件或目录不存在</translation>
+        <translation>Fayiro oba tterekero eyo teeriwo</translation>
     </message>
     <message>
         <source>No space left on device</source>
-        <translation>设备中已没有剩余空间</translation>
+        <translation>Ekitereka data kijjudde</translation>
     </message>
 </context>
 <context>
     <name>QImageReader</name>
     <message>
         <source>Invalid device</source>
-        <translation>无效的设备</translation>
+        <translation>Ekyuma tekikozeseka</translation>
     </message>
     <message>
         <source>File not found</source>
-        <translation>文件未找到</translation>
+        <translation>Fayiro terabidwa</translation>
     </message>
     <message>
         <source>Unsupported image format</source>
-        <translation>不支持的图像格式</translation>
+        <translation>Sisitemu tetegeera kika kya kifaananyi</translation>
     </message>
     <message>
         <source>Unable to read image data</source>
-        <translation>无法读取图像数据</translation>
+        <translation>Tekisobose okusoma data ey&apos;ekifaananyi</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>未知错误</translation>
+        <translation>Wazzewo kiremya atategeereka</translation>
     </message>
 </context>
 <context>
     <name>QImageWriter</name>
     <message>
         <source>Unknown error</source>
-        <translation>未知错误</translation>
+        <translation>Wazzewo kiremya atategeereka</translation>
     </message>
     <message>
         <source>Device is not set</source>
-        <translation>设备未设置</translation>
+        <translation>Tewategekedwawo ekyuma ekinaawandikibwako</translation>
     </message>
     <message>
         <source>Cannot open device for writing: %1</source>
-        <translation>无法打开设备进行写入：%1</translation>
+        <translation>Tekisobose okubikkula kyuma ekinaawandikibwako: %1</translation>
     </message>
     <message>
         <source>Device not writable</source>
-        <translation>设备不可写入</translation>
+        <translation>Ekyuma tekiwandikibwako</translation>
     </message>
     <message>
         <source>Unsupported image format</source>
-        <translation>不支持的图像格式</translation>
+        <translation>Sisitemu tetegeera kika kya kifaananyi</translation>
     </message>
     <message>
         <source>Image is empty</source>
-        <translation>图像为空</translation>
+        <translation>Ekifaananyi kyereere, temuli data</translation>
     </message>
 </context>
 <context>
     <name>QInputDialog</name>
     <message>
         <source>Enter a value:</source>
-        <translation>输入一个值：</translation>
+        <translation>Wandika ekikongojjebwa:</translation>
     </message>
 </context>
 <context>
     <name>QJsonParseError</name>
     <message>
         <source>no error occurred</source>
-        <translation>没有错误发生</translation>
+        <translation>temubadde nsobi</translation>
     </message>
     <message>
         <source>unterminated object</source>
-        <translation>未终止的对象</translation>
+        <translation>waliwo ekyetongole kya mu JSON ekibulako akabonero akakifundikira</translation>
     </message>
     <message>
         <source>missing name separator</source>
-        <translation>缺少名称分隔符</translation>
+        <translation>waliwo awabula akabonero ak&apos;awula erinnya erimu ku linnaalyo</translation>
     </message>
     <message>
         <source>unterminated array</source>
-        <translation>未终止的数组</translation>
+        <translation>waliwo areyi eya mu JSON ebulako akabonero akagifundikira</translation>
     </message>
     <message>
         <source>missing value separator</source>
-        <translation>缺失值分隔符</translation>
+        <translation>waliwo ekyasanguzo ekibulako akabonero ak&apos;awula ekikongozzi ku kikongojje</translation>
     </message>
     <message>
         <source>illegal value</source>
-        <translation>非法值</translation>
+        <translation>waliwo ekikongojje ekitakozeseka</translation>
     </message>
     <message>
         <source>invalid termination by number</source>
-        <translation>无效的编号终止</translation>
+        <translation>ebisomebwa bikomye mu makkati g&apos;ennamba etaweddeyo</translation>
     </message>
     <message>
         <source>illegal number</source>
-        <translation>非法数字</translation>
+        <translation>Waliwo ennamba eriko nsobi</translation>
     </message>
     <message>
         <source>invalid escape sequence</source>
-        <translation>无效的转义序列</translation>
+        <translation>waliwo ekigambo ekifuula enneyisa we kitakkirizibwa</translation>
     </message>
     <message>
         <source>invalid UTF8 string</source>
-        <translation>无效的 UTF8 字符串</translation>
+        <translation>ebisomebwa birimu ekigambo kya mu UTF8 ekitakkirizibwa</translation>
     </message>
     <message>
         <source>unterminated string</source>
-        <translation>未终止的字符串</translation>
+        <translation>waliwo ekigambo ekibulako akabonero akakifundikira</translation>
     </message>
     <message>
         <source>object is missing after a comma</source>
-        <translation>逗号后缺少对象</translation>
+        <translation>waliwo awabula ekyetongole ekyandigobereredde akabonero aka &apos;,&apos;</translation>
     </message>
     <message>
         <source>too deeply nested document</source>
-        <translation>文件嵌套太深</translation>
+        <translation>ekiwandiko ekya JSON tekikolekako kubanga kisonsekedwa munda nyo mu bitundu bya kinnaakyo</translation>
     </message>
     <message>
         <source>too large document</source>
-        <translation>文件太大</translation>
+        <translation>ekiwandiko ekya JSON tekikolekako kubanga kiyitiridde obuwanvu</translation>
     </message>
     <message>
         <source>garbage at the end of the document</source>
-        <translation>文件末尾的垃圾</translation>
+        <translation>ekiwandiko kifundikidwa obubonero obutategeereka</translation>
     </message>
 </context>
 <context>
     <name>QKeySequenceEdit</name>
     <message>
         <source>Press shortcut</source>
-        <translation>按快捷方式</translation>
+        <translation>Nyiga amapeesa aganaagonzanga mulimu</translation>
     </message>
     <message>
         <source>%1, ...</source>
@@ -2200,323 +2158,321 @@ Do you want to delete it anyway?</source>
     <name>QLibrary</name>
     <message>
         <source>&apos;%1&apos; is not an ELF object (%2)</source>
-        <translation>“%1”不是 ELF 对象 (%2)</translation>
+        <translation>&apos;%1&apos; ssi kyetongole kya ELF (%2)</translation>
     </message>
     <message>
         <source>file too small</source>
-        <translation>文件太小</translation>
+        <translation>fayiro ssi nnene ekimala</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not an ELF object</source>
-        <translation>“%1”不是 ELF 对象</translation>
+        <translation>&apos;%1&apos; ssi kyetongole kya ELF</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is an invalid ELF object (%2)</source>
-        <translation>“%1”是一个无效的 ELF 对象 (%2)</translation>
+        <translation>&apos;%1&apos; ssi kyetongole kya ELF ekikkirizibwa (%2)</translation>
     </message>
     <message>
         <source>odd cpu architecture</source>
-        <translation>奇数 CPU 架构</translation>
+        <translation>ekika ky&apos;ekitundu ekibazi kye kitegekedwa tekitegeereka</translation>
     </message>
     <message>
         <source>wrong cpu architecture</source>
-        <translation>错误的 CPU 架构</translation>
+        <translation>ekika ky&apos;ekitundu ekibazi kye kitegekedwa ssi kituufu</translation>
     </message>
     <message>
         <source>odd endianness</source>
-        <translation>奇字节序</translation>
+        <translation>Entereka ya bayiti ezikongojja ennamba tetegeereka</translation>
     </message>
     <message>
         <source>unexpected e_shsize</source>
-        <translation>异常的 e_shsize</translation>
+        <translation>e_shsize ssi y&apos;esuubidwa</translation>
     </message>
     <message>
         <source>unexpected e_shentsize</source>
-        <translation>异常的 e_shentsize</translation>
+        <translation>e_shentsize ssi y&apos;esuubidwa</translation>
     </message>
     <message numerus="yes">
         <source>announced %n section(s), each %1 byte(s), exceed file size</source>
         <translation>
-            <numerusform>声明了 %n 个区段，每个 %1 个字节，超出了文件大小</numerusform>
+            <numerusform>ekitundu %n kirangiridwa, kya bayiti %1, kiyise ku kkomo ly&apos;obunene</numerusform>
+            <numerusform>ebitundu %n birangiridwa, buli kimu kya bayiti %1, biyise ku kkomo ly&apos;obunene</numerusform>
         </translation>
     </message>
     <message>
         <source>shstrtab section header seems to be at %1</source>
-        <translation>shstrtab 区段头似乎位于 %1</translation>
+        <translation>olukalala shtrtab lulabika nga olusangibwa ku %1</translation>
     </message>
     <message>
         <source>string table seems to be at %1</source>
-        <translation>字符串表似乎位于 %1</translation>
+        <translation>Tabulo y&apos;ebigambo erabika nga esangibwa ku %1</translation>
     </message>
     <message>
         <source>section name %1 of %2 behind end of file</source>
-        <translation>文件尾后面的第 %1 区段 (共 %2 区段)</translation>
+        <translation>obusangiro bw&apos;ekitundu %1 ekya %2 buteeredwa wala okusinga fayiro gy&apos;ekoma</translation>
     </message>
     <message>
         <source>empty .rodata. not a library.</source>
-        <translation>空.rodata.不是库。</translation>
+        <translation>ekitundu .rodata. kyereere, eno ssi puloguramu eyeyayzikibwa.</translation>
     </message>
     <message>
         <source>missing section data. This is not a library.</source>
-        <translation>缺少区段数据。这不是一个库。</translation>
+        <translation>data ey&apos;ebifa ku bitundu teeriwo. Eno ssi puloguramu eyeyazikibwa.</translation>
     </message>
     <message>
         <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
-        <translation>无法从“%1”中提取插件元数据</translation>
+        <translation>Tekisobose okusoma ebikwata ku byongerwako okuva mu &apos;%1&apos;</translation>
     </message>
     <message>
         <source>The shared library was not found.</source>
-        <translation>共享库没有被找到。</translation>
+        <translation>Puloguramu eyeyazikibwa ey&apos;awamu ebuze.</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; is not a valid Qt plugin.</source>
-        <translation>文件“%1”不是有效的 Qt 插件。</translation>
+        <translation>Fayiro &apos;%1&apos; tebalibwa ng&apos;ekyongerwako ekya mu Qt.</translation>
     </message>
     <message>
         <source>The plugin &apos;%1&apos; uses incompatible Qt library. (%2.%3.%4) [%5]</source>
-        <translation>插件“%1”使用了不兼容的 Qt 库。(%2.%3.%4) [%5]</translation>
+        <translation>Ekyongerwako &apos;%1&apos; kikozesa puloguramu eyeyazikibwa eya Qt etakolagana ne sisitemu eno. (%2.%3.%4) [%5]</translation>
     </message>
     <message>
         <source>The plugin &apos;%1&apos; uses incompatible Qt library. (Cannot mix debug and release libraries.)</source>
-        <translation>插件“%1”使用了不兼容的 Qt 库。(不能混合使用库的调试版本和发布版本。)</translation>
+        <translation>Ekyongerwako &apos;%1&apos; kikozesa puloguramu eyeyazikibwa eya Qt etakolagana ne sisitemu eno.
+(puloguramu ez&apos;eyazikibwa eza bulijjo tezitabikibwa n&apos;ezikozesebwa mu kunoonya nsobi.)</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>未知错误</translation>
+        <translation>Wazzewo kiremya atategeereka</translation>
     </message>
     <message>
         <source>Cannot load library %1: %2</source>
-        <translation>无法加载库 %1：%2</translation>
+        <translation>Tekisobose okuwanga puloguramu eyeyazikibwa %1: %2</translation>
     </message>
     <message>
         <source>Cannot unload library %1: %2</source>
-        <translation>无法卸载库 %1：%2</translation>
-    </message>
-    <message>
-        <source>Cannot resolve symbol &quot;%1&quot; in %2: %3</source>
-        <translation type="vanished">无法解析 %2 中的符号“%1”：%3</translation>
+        <translation>Tekisobose okuwangula puloguramu eyeyazikibwa %1. %2</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a valid Mach-O binary (%2)</source>
-        <translation>“%1”不是有效的 Mach-O 二进制文件 (%2)</translation>
+        <translation>&apos;%1&apos; tekibalibwa ng&apos;ekiwandiko ekya mu binariyo ekya Mach-O (%2)</translation>
     </message>
     <message>
         <source>file is corrupt</source>
-        <translation>文件已损坏</translation>
+        <translation>fayiro erimu ensobi</translation>
     </message>
     <message>
         <source>no suitable architecture in fat binary</source>
-        <translation>FAT 二进制没有合适的架构</translation>
+        <translation>puloguramu ekolera wangi ebulamu ebigisobozesa okukolera wano</translation>
     </message>
     <message>
         <source>invalid magic %1</source>
-        <translation>无效魔数 %1</translation>
+        <translation>%1 tebalidwa nga magic</translation>
     </message>
     <message>
         <source>wrong architecture</source>
-        <translation>错误的架构</translation>
+        <translation>ssi bya kika ky&apos;ekitundu ekibazi sisitemu eno kyerina</translation>
     </message>
     <message>
         <source>not a dynamic library</source>
-        <translation>不是动态库</translation>
+        <translation>ssi puloguramu eyeyazikibwa omulimu gutambula</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a Qt plugin</source>
-        <translation>“%1” 不是 Qt 插件</translation>
+        <translation>&apos;%1&apos; ssi kyongerwako kya mu Qt</translation>
     </message>
 </context>
 <context>
     <name>QLineEdit</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>撤消(&amp;U)</translation>
+        <translation>&amp;Bijjulule</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>重做(&amp;R)</translation>
+        <translation>&amp;Zzawo</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>剪切(&amp;T)</translation>
+        <translation>Si&amp;tulawo</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>复制(&amp;C)</translation>
+        <translation>&amp;Koppa</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>粘贴(&amp;P)</translation>
+        <translation>&amp;Paatiika</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>删除</translation>
+        <translation>Gyawo</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>全选</translation>
+        <translation>Londa Byonna</translation>
     </message>
 </context>
 <context>
     <name>QLocalServer</name>
     <message>
         <source>%1: Name error</source>
-        <translation>%1：名称错误</translation>
+        <translation>%1: Tewali linnya lya kompyuta ey&apos;okuwulizagana nayo</translation>
     </message>
     <message>
         <source>%1: Permission denied</source>
-        <translation>%1：权限被拒绝</translation>
+        <translation>%1: Olukusa teruweeredwa</translation>
     </message>
     <message>
         <source>%1: Address in use</source>
-        <translation>%1：地址正在被使用</translation>
+        <translation>%1: Endagiriro eno yekwatidwa awalala</translation>
     </message>
     <message>
         <source>%1: Unknown error %2</source>
-        <translation>%1：未知错误 %2</translation>
+        <translation>%1: Wazzewo kiremya atategeereka %2</translation>
     </message>
 </context>
 <context>
     <name>QLocalSocket</name>
     <message>
         <source>%1: Connection refused</source>
-        <translation>%1：连接被拒绝</translation>
+        <translation>%1: Okukwatagana ne kompyuta enyunge kugaanidwa</translation>
     </message>
     <message>
         <source>%1: Remote closed</source>
-        <translation>%1：远程已关闭</translation>
+        <translation>%1: Kompyuta ey&apos;ebunaayira eggadewo okuwulizagana</translation>
     </message>
     <message>
         <source>%1: Invalid name</source>
-        <translation>%1：无效名称</translation>
+        <translation>%1: Erinnya eriweeredwa terikola</translation>
     </message>
     <message>
         <source>%1: Socket access error</source>
-        <translation>%1：套接字访问错误</translation>
+        <translation>%1: Omulimu ogw&apos;oku soketi puloguramu terina ndukusa ze gwetaagisa</translation>
     </message>
     <message>
         <source>%1: Socket resource error</source>
-        <translation>%1：套接字资源错误</translation>
+        <translation>%1: Sistemu bye yeyambisa okukola omulimu tebimala, byonna bikozesebwa</translation>
     </message>
     <message>
         <source>%1: Socket operation timed out</source>
-        <translation>%1：套接字操作超时</translation>
+        <translation>%1: Omukolo ogw&apos;oku soketi obudde buguyiseko</translation>
     </message>
     <message>
         <source>%1: Datagram too large</source>
-        <translation>%1：数据报太大</translation>
+        <translation>%1: Dataguramu eyitiridde obunene</translation>
     </message>
     <message>
         <source>%1: Connection error</source>
-        <translation>%1：连接错误</translation>
+        <translation>%1: Wazzewo kiremya mu mpulizagana</translation>
     </message>
     <message>
         <source>%1: The socket operation is not supported</source>
-        <translation>%1：套接字操作不被支持</translation>
+        <translation>%1: Sisitemu eno omukolo ogw&apos;oku soketi ogwo tegusobola</translation>
     </message>
     <message>
         <source>%1: Operation not permitted when socket is in this state</source>
-        <translation>%1：当套接字处于这种状态时不允许操作</translation>
+        <translation>%1: Soketi nga eri mu mbeera eno sisitemu eno omukolo ogwo tegukkiriza</translation>
     </message>
     <message>
         <source>%1: Unknown error</source>
-        <translation>%1：未知错误</translation>
+        <translation>%1: Wazzewo kiremya atategeereka</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation>在连接正在进行时尝试连接</translation>
+        <translation>Omulimu ogw&apos;okussawo enkwatagana omulala gusangidwa gubumbujja</translation>
     </message>
     <message>
         <source>%1: Unknown error %2</source>
-        <translation>%1：未知错误 %2</translation>
+        <translation>%1: Wazzewo kiremya atategeereka %2</translation>
     </message>
     <message>
         <source>%1: Access denied</source>
-        <translation>%1：访问被拒绝</translation>
+        <translation>%1: Omulimu ogw&apos;oku soketi puloguramu terina ndukusa ze gwetaagisa</translation>
     </message>
     <message>
         <source>Socket is not connected</source>
-        <translation>套接字未连接</translation>
+        <translation>Soketi tekwataganizidwa</translation>
     </message>
 </context>
 <context>
     <name>QMYSQLDriver</name>
     <message>
         <source>Unable to allocate a MYSQL object</source>
-        <translation>无法分配 MySQL 对象</translation>
+        <translation>Tekisobose okutegeka ekyetongole ekya mu MYSQL</translation>
     </message>
     <message>
         <source>Unable to open database &apos;%1&apos;</source>
-        <translation>无法打开数据库“%1”</translation>
+        <translation>Tekisobose okubikkula ggwanika lya data &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Unable to connect</source>
-        <translation>无法连接</translation>
+        <translation>Okukwatagana kulemye</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>无法开始事务</translation>
+        <translation>Tekisobose okutandika omukolo</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>无法提交事务</translation>
+        <translation>Tekisobose okukaza ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>无法回滚事务</translation>
+        <translation>Tekisobose okujjulula ebikyusidwa</translation>
     </message>
 </context>
 <context>
     <name>QMYSQLResult</name>
     <message>
         <source>Unable to fetch data</source>
-        <translation>无法获取数据</translation>
+        <translation>Tekisobose okunona data</translation>
     </message>
     <message>
         <source>Unable to execute query</source>
-        <translation>无法执行查询</translation>
+        <translation>Tekisobose okutandika ekiragiro ekinoonyeza mu ggwanika lya data</translation>
     </message>
     <message>
         <source>Unable to store result</source>
-        <translation>无法存储结果</translation>
+        <translation>Tekisobose okutereka ekivuddemu</translation>
     </message>
     <message>
         <source>Unable to execute next query</source>
-        <translation>无法执行下一个查询</translation>
+        <translation>Tekisobose okutandika ekiragiro ekinoonyeza mu ggwanika lya data ekiddako</translation>
     </message>
     <message>
         <source>Unable to store next result</source>
-        <translation>无法存储下一个结果</translation>
+        <translation>Tekisobose okutereka ekivuddemu ekiddako</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>无法准备语句</translation>
+        <translation>Tekisobose okutegeka kiragiro kya SQL kiddibwengamu mangu</translation>
     </message>
     <message>
         <source>Unable to reset statement</source>
-        <translation>无法重置语句</translation>
+        <translation>Tekisobose okuzza ekiragiro ekya mu ggwanika lya data mu mbeera ya kyo eyasoose</translation>
     </message>
     <message>
         <source>Unable to bind value</source>
-        <translation>无法绑定值</translation>
+        <translation>Tekisobose okuzza ekikongojje ekya ddala mu kifo ky&apos;ekikwatakifo</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>无法执行语句</translation>
+        <translation>Tekisobose okutandika ekiragiro ekya mu ggwanika lya data</translation>
     </message>
     <message>
         <source>Unable to bind outvalues</source>
-        <translation>无法绑定外值</translation>
+        <translation>Tekisobose okuzza ekikongojje ekya ddala mu kifo ky&apos;ekikwatakifo</translation>
     </message>
     <message>
         <source>Unable to store statement results</source>
-        <translation>无法存储语句结果</translation>
+        <translation>Tekisobose okutereka ekivuddemu mukolo ogwa ku ggwanika lya data</translation>
     </message>
 </context>
 <context>
     <name>QMdiArea</name>
     <message>
         <source>(Untitled)</source>
-        <translation>(无标题)</translation>
+        <translation>(Tekuli mutwe)</translation>
     </message>
 </context>
 <context>
@@ -2531,370 +2487,360 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>最小化</translation>
+        <translation>Funza</translation>
     </message>
     <message>
         <source>Maximize</source>
-        <translation>最大化</translation>
+        <translation>Buna Lutimbe</translation>
     </message>
     <message>
         <source>Unshade</source>
-        <translatorcomment>根据我翻译窗口管理器时的经验来看，可能是点击后将窗体缩成只有一个标题栏的操作。Shade 指的是百叶窗，模仿百叶窗收起。</translatorcomment>
-        <translation>解除卷起</translation>
+        <translation>Zingulula</translation>
     </message>
     <message>
         <source>Shade</source>
-        <translatorcomment>根据我翻译窗口管理器时的经验来看，可能是点击后将窗体缩成只有一个标题栏的操作。Shade 指的是百叶窗，模仿百叶窗收起。</translatorcomment>
-        <translation>卷起</translation>
+        <translation>Zingako</translation>
     </message>
     <message>
         <source>Restore Down</source>
-        <translation>向下恢复</translation>
+        <translation>Lekerawo okubuna olutimbe</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation>恢复</translation>
+        <translation>Zzawo</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation>Gala</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>帮助</translation>
+        <translation>Nyamba</translation>
     </message>
     <message>
         <source>Menu</source>
-        <translation>菜单</translation>
+        <translation>Menyu</translation>
     </message>
     <message>
         <source>&amp;Restore</source>
-        <translation>恢复(&amp;R)</translation>
+        <translation>&amp;Zzawo</translation>
     </message>
     <message>
         <source>&amp;Move</source>
-        <translation>移动(&amp;M)</translation>
+        <translation>&amp;Simbuliza</translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>大小(&amp;S)</translation>
+        <translation>&amp;Bunene</translation>
     </message>
     <message>
         <source>Mi&amp;nimize</source>
-        <translation>最小化(&amp;N)</translation>
+        <translation>Fu&amp;nza</translation>
     </message>
     <message>
         <source>Ma&amp;ximize</source>
-        <translation>最大化(&amp;X)</translation>
+        <translation>Buna Lu&amp;timbe</translation>
     </message>
     <message>
         <source>Stay on &amp;Top</source>
-        <translation>置顶(&amp;T)</translation>
+        <translation>Sigala &amp;ku ngulu</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>关闭(&amp;C)</translation>
+        <translation>&amp;Gala</translation>
     </message>
 </context>
 <context>
     <name>QMessageBox</name>
     <message>
         <source>Show Details...</source>
-        <translation>显示详情...</translation>
+        <translation>Ndaga Ebisingawo...</translation>
     </message>
     <message>
         <source>Hide Details...</source>
-        <translation>隐藏详情...</translation>
+        <translation>Ebisinga Obungi Bikise...</translation>
     </message>
     <message>
         <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
-        <translation>&lt;h3&gt;关于 Qt&lt;/h3&gt;&lt;p&gt;此程序使用 Qt 版本 %1。&lt;/p&gt;</translation>
+        <translation>&lt;h3&gt;Ku Qt&lt;/h3&gt;&lt;p&gt;Puloguramu eno ekozesa Qt wa luwandika %1.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
         <extracomment>Leave this text untranslated or include a verbatim copy of it below and note that it is the authoritative version in case of doubt.</extracomment>
-        <translatorcomment>此段文本原本已被翻译为中文，并在此次提交前进行过改进，但在此次提交的讨论中认为这是法律文本，且原有的翻译从未经过 Qt Company 审核，是不安全的，因此决定不作翻译。</translatorcomment>
-        <translation>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</translation>
+        <translation></translation>
     </message>
     <message>
         <source>About Qt</source>
-        <translation>关于 Qt</translation>
+        <translation>Kwanjula Qt</translation>
     </message>
 </context>
 <context>
     <name>QNativeSocketEngine</name>
     <message>
         <source>Unable to initialize non-blocking socket</source>
-        <translation>无法初始化非阻塞套接字</translation>
+        <translation>Tekisobose okutegeka soketi etayimiriza omulimu gweweereza</translation>
     </message>
     <message>
         <source>Unable to initialize broadcast socket</source>
-        <translation>无法初始化广播套接字</translation>
+        <translation>Tekisobose okutegeka soketi ekola ku bya sindikira bonna</translation>
     </message>
     <message>
         <source>Attempt to use IPv6 socket on a platform with no IPv6 support</source>
-        <translation>试图在不支持 IPv6 支持的平台上使用 IPv6 套接字</translation>
+        <translation>Sisitemu tesobola okuwulizaganisa nkola ya IPv6</translation>
     </message>
     <message>
         <source>The remote host closed the connection</source>
-        <translation>远端主机关闭了这个连接</translation>
+        <translation>Kompyuta ey&apos;ebunaayira eggadewo empulizagana</translation>
     </message>
     <message>
         <source>Network operation timed out</source>
-        <translation>网络操作超时</translation>
+        <translation>Omukolo ogw&apos;oku kayungirizi obudde buguyiseko</translation>
     </message>
     <message>
         <source>Out of resources</source>
-        <translation>资源不足</translation>
+        <translation>Sisitemu bye yeyambsa okukola omulimu tebimala, byonna bikozesebwa</translation>
     </message>
     <message>
         <source>Unsupported socket operation</source>
-        <translation>不被支持的套接字操作</translation>
+        <translation>Sisitemu eno omukolo ogw&apos;oku soketi ogwo tegusobola</translation>
     </message>
     <message>
         <source>Protocol type not supported</source>
-        <translation>协议类型不被支持</translation>
+        <translation>Sisitemu tekolagana n&apos;empulizagana ey&apos;ekika kino</translation>
     </message>
     <message>
         <source>Invalid socket descriptor</source>
-        <translation>无效的套接字描述符</translation>
+        <translation>Endagiriro ey&apos;oku soketi nkyamu</translation>
     </message>
     <message>
         <source>Host unreachable</source>
-        <translation>主机无法访问</translation>
+        <translation>Kompyuta enyunge tetuukikako</translation>
     </message>
     <message>
         <source>Network unreachable</source>
-        <translation>网络无法访问</translation>
+        <translation>Kayungirizi tetuukikako</translation>
     </message>
     <message>
         <source>Permission denied</source>
-        <translation>权限被拒绝</translation>
+        <translation>Olukusa teruweeredwa</translation>
     </message>
     <message>
         <source>Connection timed out</source>
-        <translation>连接超时</translation>
+        <translation>Okukwatagana ne kompyuta enyunge obudde bukuyiseko</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>连接被拒绝</translation>
+        <translation>Okukwatagana ne kompyuta enyunge kugaanidwa</translation>
     </message>
     <message>
         <source>The bound address is already in use</source>
-        <translation>要启用的地址已经被使用</translation>
+        <translation>Endagiriro eyekwatibwa ekozesebwa soketi ndala</translation>
     </message>
     <message>
         <source>The address is not available</source>
-        <translation>这个地址不可用</translation>
+        <translation>Endagiriro tegabibwa</translation>
     </message>
     <message>
         <source>The address is protected</source>
-        <translation>这个地址被保护了</translation>
+        <translation>Endagiriro etayizidwa</translation>
     </message>
     <message>
         <source>Datagram was too large to send</source>
-        <translation>数据报太大无法发送</translation>
+        <translation>Dataguramu tesindikika olw&apos;okuyitirira obunene</translation>
     </message>
     <message>
         <source>Unable to send a message</source>
-        <translation>无法发送一个消息</translation>
+        <translation>Tekisobose okusindika obubaka</translation>
     </message>
     <message>
         <source>Unable to receive a message</source>
-        <translation>无法接收一个消息</translation>
+        <translation>Tekisobose okufuna obubaka</translation>
     </message>
     <message>
         <source>Unable to write</source>
-        <translation>无法写入</translation>
+        <translation>Tekisobose okuwandika</translation>
     </message>
     <message>
         <source>Network error</source>
-        <translation>网络错误</translation>
+        <translation>Kayungirizi ezzeeko kiremya</translation>
     </message>
     <message>
         <source>Another socket is already listening on the same port</source>
-        <translation>另一个套接字正在监听同一端口</translation>
+        <translation>Soketi endala esangidwa ewuliriza ku pooti y&apos;emu</translation>
     </message>
     <message>
         <source>Operation on non-socket</source>
-        <translation>对非套接字操作</translation>
+        <translation>Omukolo gukolebwa ku kitali soketi</translation>
     </message>
     <message>
         <source>The proxy type is invalid for this operation</source>
-        <translation>对于这个操作代理类型是无效的</translation>
+        <translation>Ekika kya kalaani tekikwatagana n&apos;omukolo guno</translation>
     </message>
     <message>
         <source>Temporary error</source>
-        <translation>暂时的错误</translation>
+        <translation>Wazzewo kiremya wa kiseerabuseera</translation>
     </message>
     <message>
         <source>Network dropped connection on reset</source>
-        <translation>重置时网络断开连接</translation>
+        <translation>Empulizagana bw&apos;ezzidwayo mu mbeera ya yo eyasooka kayungirizi n&apos;eggalawo empulizagana</translation>
     </message>
     <message>
         <source>Connection reset by peer</source>
-        <translation>对方将连接复位</translation>
+        <translation>Kompyuta ey&apos;ebunaayira okuwulizagana ekuzizzayo mu mbeera yakwo eyasooka</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>未知错误</translation>
+        <translation>Wazzewo kiremya atategeereka</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessCacheBackend</name>
     <message>
         <source>Error opening %1</source>
-        <translation>打开 %1 发生错误</translation>
+        <translation>Wazzewo kiremya mu kubikkula %1</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessDataBackend</name>
     <message>
         <source>Invalid URI: %1</source>
-        <translation>无效的 URI：%1</translation>
+        <translation>URI eriko obukyamu: %1</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessDebugPipeBackend</name>
     <message>
         <source>Write error writing to %1: %2</source>
-        <translation>写入 %1 错误：%2</translation>
+        <translation>Okuwandika mu %1 kuzzemu kiremya: %2</translation>
     </message>
     <message>
         <source>Socket error on %1: %2</source>
-        <translation>%1 上的套接字错误：%2</translation>
+        <translation>Wazzewo kiremya ku soketi %1: %2</translation>
     </message>
     <message>
         <source>Remote host closed the connection prematurely on %1</source>
-        <translation>远程主机过早地关闭了在 %1 上的这个连接</translation>
+        <translation>Kompyuta ey&apos;ebunaayira empulizagana ku %1 ekuggadewo nga bukyali</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessFileBackend</name>
     <message>
         <source>Request for opening non-local file %1</source>
-        <translation>正在打开非本地文件 %1 的请求</translation>
+        <translation>Fayiro %1 eri ku kompyuta ndala</translation>
     </message>
     <message>
         <source>Error opening %1: %2</source>
-        <translation>打开 %1 错误：%2</translation>
+        <translation>Okubikkula %1 kuzzemu kiremya: %2</translation>
     </message>
     <message>
         <source>Write error writing to %1: %2</source>
-        <translation>写入 %1 错误：%2</translation>
+        <translation>Okuwandika mu %1 kuzzemu kiremya: %2</translation>
     </message>
     <message>
         <source>Cannot open %1: Path is a directory</source>
-        <translation>无法打开 %1：路径是一个目录</translation>
+        <translation>Tekisobose okubikkula %1: Ekkubo ligguka ku tterekero</translation>
     </message>
     <message>
         <source>Read error reading from %1: %2</source>
-        <translation>读取 %1 错误：%2</translation>
+        <translation>Okusoma %1 kuzzemu kiremya: %2</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessFtpBackend</name>
     <message>
         <source>No suitable proxy found</source>
-        <translation>未找到合适的代理</translation>
+        <translation>Tewali kalaani ekozeseka</translation>
     </message>
     <message>
         <source>Cannot open %1: is a directory</source>
-        <translation>无法读取 %1：是一个目录</translation>
+        <translation>Tekisobose okubikkula %1: tterekero</translation>
     </message>
     <message>
         <source>Logging in to %1 failed: authentication required</source>
-        <translation>登录 %1 失败：需要身份验证</translation>
+        <translation>Okuyingira %1 kugaanye: kyetaagisa kukakasibwa</translation>
     </message>
     <message>
         <source>Error while downloading %1: %2</source>
-        <translation>下载 %1 时错误：%2</translation>
+        <translation>Okuwanula %1 kuzzemu kiremya: %2</translation>
     </message>
     <message>
         <source>Error while uploading %1: %2</source>
-        <translation>上传 %1 时错误：%2</translation>
-    </message>
-</context>
-<context>
-    <name>QNetworkAccessManager</name>
-    <message>
-        <source>Network access is disabled.</source>
-        <translation type="vanished">网络访问已禁用。</translation>
+        <translation>Okuteekayo %1 kuzzemu kiremya: %2</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReply</name>
     <message>
         <source>Error transferring %1 - server replied: %2</source>
-        <translation>传输 %1 时出错 - 服务器已回复：%2</translation>
+        <translation>Okusimbuliza %1 kuzzemu kiremya - obubaka obuva ku kompyuta esindikirwa: %2</translation>
     </message>
     <message>
         <source>Network session error.</source>
-        <translation>网络会话错误。</translation>
+        <translation>Olukolagana lwa ku kayungirizi luzzemu kiremya.</translation>
     </message>
     <message>
         <source>Background request not allowed.</source>
-        <translation>不允许后台请求。</translation>
+        <translation>Ebiragiro eby&apos;emmanju kakano tebikkirizibwa.</translation>
     </message>
     <message>
         <source>backend start error.</source>
-        <translation>后端启动错误。</translation>
+        <translation>Wazzewo kiremya mu kutandika puloguramu ey&apos;oku musingi.</translation>
     </message>
     <message>
         <source>Temporary network failure.</source>
-        <translation>临时网络故障。</translation>
+        <translation>Okuwulizagana kukomezedwa mu ngeri ya kiseerabuseera.</translation>
     </message>
     <message>
         <source>Protocol &quot;%1&quot; is unknown</source>
-        <translation>协议“%1”是未知的</translation>
+        <translation>Sisitemu tetegeera mpulizagana ey&apos;ekika kya &quot;%1&quot;</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReplyHttpImpl</name>
     <message>
         <source>Operation canceled</source>
-        <translation>操作被取消</translation>
+        <translation>Omukolo gusazidwamu</translation>
     </message>
     <message>
         <source>No suitable proxy found</source>
-        <translation>未找到合适的代理</translation>
+        <translation>Tewali kalaani ekozeseka</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReplyImpl</name>
     <message>
         <source>Operation canceled</source>
-        <translation>操作被取消</translation>
+        <translation>Omukolo gusazidwamu</translation>
     </message>
 </context>
 <context>
     <name>QNetworkSession</name>
     <message>
         <source>Invalid configuration.</source>
-        <translation>无效的配置。</translation>
+        <translation>Enteekateeka y&apos;ebyakayungirizi eriwo eremesa omukolo.</translation>
     </message>
 </context>
 <context>
     <name>QNetworkSessionPrivateImpl</name>
     <message>
         <source>Unknown session error.</source>
-        <translation>未知的会话错误。</translation>
+        <translation>Olukolagana lwa ku kayungirizi luzzemu kiremya atategeereka.</translation>
     </message>
     <message>
         <source>The session was aborted by the user or system.</source>
-        <translation>会话被用户或系统中止。</translation>
+        <translation>Olukolagana lukomezedwa omukozesa oba sisitemu.</translation>
     </message>
     <message>
         <source>The requested operation is not supported by the system.</source>
-        <translation>系统不支持请求的操作。</translation>
+        <translation>Sisitemu eno omukolo ogw&apos;oku kayungirizi ogwo tegusobola.</translation>
     </message>
     <message>
         <source>The specified configuration cannot be used.</source>
-        <translation>无法使用指定的配置。</translation>
+        <translation>Enteekateeka y&apos;ebyakayungirizi erondedwa tekozeseka.</translation>
     </message>
     <message>
         <source>Roaming was aborted or is not possible.</source>
-        <translation>漫游已中止或无法进行。</translation>
+        <translation>Okukyusanga mukutu guyitibwamu okutuuka ku kayungirizi eya waya tekusoboka oba kukomezedwa.</translation>
     </message>
 </context>
 <context>
@@ -2902,281 +2848,282 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Unable to initialize</source>
         <comment>QOCIDriver</comment>
-        <translation>无法初始化</translation>
+        <translation>Tekisobose okutegekera okutandika</translation>
     </message>
     <message>
         <source>Unable to logon</source>
-        <translation>无法登录</translation>
+        <translation>Tekisobose okuyingira</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>无法开始事务</translation>
+        <translation>Tekisobose okutandika omukolo</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>无法提交事务</translation>
+        <translation>Tekisobose okukaza ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>无法回滚事务</translation>
+        <translation>Tekisobose okujjulula ebikyusidwa</translation>
     </message>
 </context>
 <context>
     <name>QOCIResult</name>
     <message>
         <source>Unable to bind column for batch execute</source>
-        <translation>无法绑定批处理执行的列</translation>
+        <translation>Tekisobose okunona ebikongojje ebinaakolebwako okuva mu lukumbo lwa data olwa mu ggwanika lya data</translation>
     </message>
     <message>
         <source>Unable to execute batch statement</source>
-        <translation>无法执行批处理语句</translation>
+        <translation>Tekisobose okukolera ku kiragiro kya mu ggwanika lya data</translation>
     </message>
     <message>
         <source>Unable to goto next</source>
-        <translation>无法进入下一个</translation>
+        <translation>Tekisobose okugenda ku kiddako</translation>
     </message>
     <message>
         <source>Unable to alloc statement</source>
-        <translation>无法分配语句</translation>
+        <translation>Alloc tesobodde okulenga data ekolebweko ekiragiro ekya mu ggwanika lya data</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>无法准备语句</translation>
+        <translation>Tekisobose okutegeka kiragiro kya SQL kiddibwengamu mangu</translation>
     </message>
     <message>
         <source>Unable to get statement type</source>
-        <translation>无法获取语句类型</translation>
+        <translation>Tekisobose okutegeera ekika ky&apos;ekiragiro kya mu ggwanika lya data</translation>
     </message>
     <message>
         <source>Unable to bind value</source>
-        <translation>无法绑定值</translation>
+        <translation>Tekisobose okuzza ekikongojje ekya ddala mu kifo ky&apos;ekikwatakifo</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>无法执行语句</translation>
+        <translation>Tekisobose okutandika ekiragiro ekya mu ggwanika lya data</translation>
     </message>
 </context>
 <context>
     <name>QODBCDriver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>无法连接</translation>
+        <translation>Okukwatagana kulemye</translation>
     </message>
     <message>
         <source>Unable to connect - Driver doesn&apos;t support all functionality required</source>
-        <translation>无法连接 - 驱动程序不支持所有必需的功能</translation>
+        <translation>Okukwatagana kulemye - Puloguramu etabaganya ebulako obumu ku obusobozi obwetaagibwa</translation>
     </message>
     <message>
         <source>Unable to disable autocommit</source>
-        <translation>无法禁用自动提交</translation>
+        <translation>Teksobose okusirisa autocommit</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>无法提交事务</translation>
+        <translation>Tekisobose okukaza ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>无法回滚事务</translation>
+        <translation>Tekisobose okujjulula ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to enable autocommit</source>
-        <translation>无法启用自动提交</translation>
+        <translation>Teksobose okuzuukusa autocommit</translation>
     </message>
 </context>
 <context>
     <name>QODBCResult</name>
     <message>
         <source>QODBCResult::reset: Unable to set &apos;SQL_CURSOR_STATIC&apos; as statement attribute. Please check your ODBC driver configuration</source>
-        <translation>QODBCResult::reset: 无法将“SQL_CURSOR_STATIC”设置为语句属性。请检查您的ODBC驱动程序设置</translation>
+        <translation>QODBCResult::reset: Tekisobose okutegeka &apos;SQL_CURSOR_STATIC&apos; okubeera atiributo y&apos;ekiragiro kya mu ggwanika lya data.
+Kebera enteekateeka za puloguramu ekutabaganira ODBC ne kompyuta yo</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>无法执行语句</translation>
+        <translation>Tekisobose okutandika ekiragiro ekya mu ggwanika lya data</translation>
     </message>
     <message>
         <source>Unable to fetch</source>
-        <translation>无法获取</translation>
+        <translation>Tekisobose okunona</translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>无法获取下一个</translation>
+        <translation>Tekisobose okunona ekiddako</translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>无法获取第一个</translation>
+        <translation>Tekisobose okunona ekisooka</translation>
     </message>
     <message>
         <source>Unable to fetch previous</source>
-        <translation>无法获取上一个</translation>
+        <translation>Tekisobose okunona ekikulembera</translation>
     </message>
     <message>
         <source>Unable to fetch last</source>
-        <translation>无法获取最后一个</translation>
+        <translation>Tekisobose okunona ekisembayo</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>无法准备语句</translation>
+        <translation>Tekisobose okutegeka kiragiro kya SQL kiddibwengamu mangu</translation>
     </message>
     <message>
         <source>Unable to bind variable</source>
-        <translation>无法绑定变量</translation>
+        <translation>Tekisobose okuzza ekikongojje ekya ddala mu kifo ky&apos;ekikwatakifo</translation>
     </message>
 </context>
 <context>
     <name>QPSQLDriver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>无法连接</translation>
+        <translation>Okukwatagana kulemye</translation>
     </message>
     <message>
         <source>Could not begin transaction</source>
-        <translation>无法开始事务</translation>
+        <translation>Tekisobose okutandika omukolo</translation>
     </message>
     <message>
         <source>Could not commit transaction</source>
-        <translation>无法提交事务</translation>
+        <translation>Tekisobose okukaza ebikyusidwa</translation>
     </message>
     <message>
         <source>Could not rollback transaction</source>
-        <translation>无法回滚事务</translation>
+        <translation>Tekisobose okujjulula ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to subscribe</source>
-        <translation>无法订阅</translation>
+        <translation>Tekisobose okusaba okufunanga koppi z&apos;ebiri mu ggwanika lya data ndala</translation>
     </message>
     <message>
         <source>Unable to unsubscribe</source>
-        <translation>无法取消订阅</translation>
+        <translation>Tekisobose okukomya okufunanga koppi z&apos;ebiri mu ggwanika lya data ndala</translation>
     </message>
 </context>
 <context>
     <name>QPSQLResult</name>
     <message>
         <source>Query results lost - probably discarded on executing another SQL query.</source>
-        <translation>查询结果丢失 - 可能在执行另一个 SQL 查询时被丢弃。</translation>
+        <translation>Ebividde mu kunoonya bibuzewo - kyandiba nga kivudde ku kutandika okunoonya okwa SQL okupya.</translation>
     </message>
     <message>
         <source>Unable to create query</source>
-        <translation>无法创建查询</translation>
+        <translation>Tekisobose okutegeka okunoonya</translation>
     </message>
     <message>
         <source>Unable to get result</source>
-        <translation>无法获取结果</translation>
+        <translation>Tekisobose okunona ebivudde mu kunoonya</translation>
     </message>
     <message>
         <source>Unable to send query</source>
-        <translation>无法发送查询</translation>
+        <translation>Tkisobose okutandika okunonya</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>无法准备语句</translation>
+        <translation>Tekisobose okutegeka kiragiro kya SQL kiddibwengamu mangu</translation>
     </message>
 </context>
 <context>
     <name>QPageSetupWidget</name>
     <message>
         <source>Form</source>
-        <translation>窗体</translation>
+        <translation>Foomu</translation>
     </message>
     <message>
         <source>Paper</source>
-        <translation>纸张</translation>
+        <translation>Lupapula</translation>
     </message>
     <message>
         <source>Page size:</source>
-        <translation>纸张大小：</translation>
+        <translation>Bunene bwa lupapula:</translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation>宽度：</translation>
+        <translation>Bugazi:</translation>
     </message>
     <message>
         <source>Height:</source>
-        <translation>高度：</translation>
+        <translation>Buwanvu:</translation>
     </message>
     <message>
         <source>Paper source:</source>
-        <translation>纸张来源：</translation>
+        <translation>Gye lutoolebwa:</translation>
     </message>
     <message>
         <source>Orientation</source>
-        <translation>方向</translation>
+        <translation>Entereera</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>纵向</translation>
+        <translation>Busimbalaala</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>横向</translation>
+        <translation>Bugazi</translation>
     </message>
     <message>
         <source>Reverse landscape</source>
-        <translation>横向倒转</translation>
+        <translation>Bugazi nga luvuunike</translation>
     </message>
     <message>
         <source>Reverse portrait</source>
-        <translation>纵向倒转</translation>
+        <translation>Busimbalaala nga luvuunike</translation>
     </message>
     <message>
         <source>Margins</source>
-        <translation>边距</translation>
+        <translation>Myagaanya</translation>
     </message>
     <message>
         <source>top margin</source>
-        <translation>上边距</translation>
+        <translation>Mwagaanya ogwa waggulu</translation>
     </message>
     <message>
         <source>left margin</source>
-        <translation>左边距</translation>
+        <translation>Mwagaanya ogwa kkono</translation>
     </message>
     <message>
         <source>right margin</source>
-        <translation>右边距</translation>
+        <translation>Mwagaanya ogwa ddyo</translation>
     </message>
     <message>
         <source>bottom margin</source>
-        <translation>下边距</translation>
+        <translation>Mwagaanya ogwa wansi</translation>
     </message>
     <message>
         <source>Page Layout</source>
-        <translation>页面布局</translation>
+        <translation>Entegeka y&apos;empapula</translation>
     </message>
     <message>
         <source>Page order:</source>
-        <translation>页面顺序：</translation>
+        <translation>Engoberereragana y&apos;empapula:</translation>
     </message>
     <message>
         <source>Pages per sheet:</source>
-        <translation>每张页数：</translation>
+        <translation>Eby&apos;empapula meka ku buli lukubisibwa:</translation>
     </message>
     <message>
         <source>Millimeters (mm)</source>
-        <translation>毫米 (mm)</translation>
+        <translation>Milimiita (mm)</translation>
     </message>
     <message>
         <source>Inches (in)</source>
-        <translation>英寸 (in)</translation>
+        <translation>Yinci (in)</translation>
     </message>
     <message>
         <source>Points (pt)</source>
-        <translation>点 (pt)</translation>
+        <translation>Poyinti (pt)</translation>
     </message>
     <message>
         <source>Pica (P̸)</source>
-        <translation>派卡 (P̸)</translation>
+        <translation>Pica (P̸)</translation>
     </message>
     <message>
         <source>Didot (DD)</source>
-        <translation>迪多 (DD)</translation>
+        <translation>Didoti (DD)</translation>
     </message>
     <message>
         <source>Cicero (CC)</source>
-        <translation>西塞罗 (CC)</translation>
+        <translation>Cicero (CC)</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>自定义</translation>
+        <translation>Kigero kikyo</translation>
     </message>
     <message>
         <source>mm</source>
@@ -3214,37 +3161,37 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Custom (%1mm x %2mm)</source>
         <extracomment>Custom size name in millimeters</extracomment>
-        <translation>自定义 (%1mm x %2mm)</translation>
+        <translation>Kigero kikyo mu milimiita (%1mm x %2mm)</translation>
     </message>
     <message>
         <source>Custom (%1pt x %2pt)</source>
         <extracomment>Custom size name in points</extracomment>
-        <translation>自定义 (%1pt x %2pt)</translation>
+        <translation>Kigero kikyo mu poyinti (%1pt x %2pt)</translation>
     </message>
     <message>
         <source>Custom (%1in x %2in)</source>
         <extracomment>Custom size name in inches</extracomment>
-        <translation>自定义 (%1in x %2in)</translation>
+        <translation>Kigero kikyo mu yinci (%1in x %2in)</translation>
     </message>
     <message>
         <source>Custom (%1pc x %2pc)</source>
         <extracomment>Custom size name in picas</extracomment>
-        <translation>自定义 (%1pc x %2pc)</translation>
+        <translation>Kigero kikyo mu pica (%1pc x %2pc)</translation>
     </message>
     <message>
         <source>Custom (%1DD x %2DD)</source>
         <extracomment>Custom size name in didots</extracomment>
-        <translation>自定义 (%1DD x %2DD)</translation>
+        <translation>Kigero kikyo mu didoti (%1DD x %2DD)</translation>
     </message>
     <message>
         <source>Custom (%1CC x %2CC)</source>
         <extracomment>Custom size name in ciceros</extracomment>
-        <translation>自定义 (%1CC x %2CC)</translation>
+        <translation>Kigero kikyo mu cicero (%1CC x %2CC)</translation>
     </message>
     <message>
         <source>%1 x %2 in</source>
         <extracomment>Page size in &apos;Inch&apos;.</extracomment>
-        <translation>%1 x %2 in</translation>
+        <translation>yinci %1 ku %2</translation>
     </message>
     <message>
         <source>A0</source>
@@ -3336,59 +3283,59 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Executive (7.5 x 10 in)</source>
-        <translation>美国行政 (Executive) (7.5 x 10 in)</translation>
+        <translation>Kizecutivu (yinci 7.5 ku 10)</translation>
     </message>
     <message>
         <source>Executive (7.25 x 10.5 in)</source>
-        <translation>美国行政 (Executive) (7.25 x 10.5 in)</translation>
+        <translation>Kizecutivu (yinci 7.25 ku 10.5)</translation>
     </message>
     <message>
         <source>Folio (8.27 x 13 in)</source>
-        <translation>欧洲对开 (Folio) (8.27 x 13 in)</translation>
+        <translation>Foliyo (yinci 8.27 ku 13)</translation>
     </message>
     <message>
         <source>Legal</source>
-        <translation>美国法律 (Legal)</translation>
+        <translation>Kinnamateeka</translation>
     </message>
     <message>
         <source>Letter / ANSI A</source>
-        <translation>美国信纸 (Letter) / ANSI A</translation>
+        <translation>Bbaluwa ya mu Amerika /ANSI A</translation>
     </message>
     <message>
         <source>Tabloid / ANSI B</source>
-        <translation>美国小报 (Tabloid) / ANSI B</translation>
+        <translation>Tabuloyidi / ANSI B</translation>
     </message>
     <message>
         <source>Ledger / ANSI B</source>
-        <translation>美国账簿 (Ledger) / ANSI B</translation>
+        <translation>Leegya / ANSI B</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>自定义</translation>
+        <translation>Kigero kikyo</translation>
     </message>
     <message>
         <source>A3 Extra</source>
-        <translation>A3 加大</translation>
+        <translation>A3 Ennene</translation>
     </message>
     <message>
         <source>A4 Extra</source>
-        <translation>A4 加大</translation>
+        <translation>A4 Ennene</translation>
     </message>
     <message>
         <source>A4 Plus</source>
-        <translation>A4 超大</translation>
+        <translation>A4 Oluwanvu</translation>
     </message>
     <message>
         <source>A4 Small</source>
-        <translation>A4 小号</translation>
+        <translation>A4 Entono</translation>
     </message>
     <message>
         <source>A5 Extra</source>
-        <translation>A5 加大</translation>
+        <translation>A5 Ennene</translation>
     </message>
     <message>
         <source>B5 Extra</source>
-        <translation>B5 加大</translation>
+        <translation>B5 Ennene</translation>
     </message>
     <message>
         <source>JIS B0</source>
@@ -3448,368 +3395,368 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Legal Extra</source>
-        <translation>美国法律 (Legal) 加大</translation>
+        <translation>Kinnamateeka Olunene</translation>
     </message>
     <message>
         <source>Letter Extra</source>
-        <translation>美国信纸 (Letter) 加大</translation>
+        <translation>Bbaluwa ya mu Amerika Ennene</translation>
     </message>
     <message>
         <source>Letter Plus</source>
-        <translation>美国信纸 (Letter) 超大</translation>
+        <translation>Bbaluwa ya mu Amerika Empanvu</translation>
     </message>
     <message>
         <source>Letter Small</source>
-        <translation>美国信纸 (Letter) 小号</translation>
+        <translation>Bbaluwa ya mu Amerika Entono</translation>
     </message>
     <message>
         <source>Tabloid Extra</source>
-        <translation>美国小报 (Tabloid) 加大</translation>
+        <translation>Tabuloyidi Ennene</translation>
     </message>
     <message>
         <source>Architect A</source>
-        <translation>美国图纸 (Architect) A</translation>
+        <translation>Acitekiti A</translation>
     </message>
     <message>
         <source>Architect B</source>
-        <translation>美国图纸 (Architect) B</translation>
+        <translation>Acitekiti B</translation>
     </message>
     <message>
         <source>Architect C</source>
-        <translation>美国图纸 (Architect) C</translation>
+        <translation>Acitekiti C</translation>
     </message>
     <message>
         <source>Architect D</source>
-        <translation>美国图纸 (Architect) D</translation>
+        <translation>Acitekiti D</translation>
     </message>
     <message>
         <source>Architect E</source>
-        <translation>美国图纸 (Architect) E</translation>
+        <translation>Acitekiti E</translation>
     </message>
     <message>
         <source>Note</source>
-        <translation>美国笔记 (Note)</translation>
+        <translation>Nooti</translation>
     </message>
     <message>
         <source>Quarto</source>
-        <translation>美国四分 (Quarto)</translation>
+        <translation>Kwoto</translation>
     </message>
     <message>
         <source>Statement</source>
-        <translation>美国声明 (Statement)</translation>
+        <translation>Siteetimenti</translation>
     </message>
     <message>
         <source>Super A</source>
-        <translation>美国相纸 (Super) A</translation>
+        <translation>Supa A</translation>
     </message>
     <message>
         <source>Super B</source>
-        <translation>美国相纸 (Super) B</translation>
+        <translation>Supa B</translation>
     </message>
     <message>
         <source>Postcard</source>
-        <translation>美国明信片 (Postcard)</translation>
+        <translation>Kaadi</translation>
     </message>
     <message>
         <source>Double Postcard</source>
-        <translation>美国明信片双倍 (Double Postcard)</translation>
+        <translation>Kaadi Balongo</translation>
     </message>
     <message>
         <source>PRC 16K</source>
-        <translation>中国大陆 16 开</translation>
+        <translation>PRC 16K (Cayina)</translation>
     </message>
     <message>
         <source>PRC 32K</source>
-        <translation>中国大陆 32 开</translation>
+        <translation>PRC 32K (Cayina)</translation>
     </message>
     <message>
         <source>PRC 32K Big</source>
-        <translation>中国大陆大 32 开</translation>
+        <translation>PRC 32K (Cayina) Olunene</translation>
     </message>
     <message>
         <source>Fan-fold US (14.875 x 11 in)</source>
-        <translation>美国连张 (Fan-fold) (14.875 x 11 in)</translation>
+        <translation>Tungattunga ya mu Amerika (14.875 x 11 in)</translation>
     </message>
     <message>
         <source>Fan-fold German (8.5 x 12 in)</source>
-        <translation>德国连张 (Fan-fold) (8.5 x 12 in)</translation>
+        <translation>Tungattunga ya mu Budaaki (8.5 x 12 in)</translation>
     </message>
     <message>
         <source>Fan-fold German Legal (8.5 x 13 in)</source>
-        <translation>德国连张法律 (Fan-fold Legal) (8.5 x 13 in)</translation>
+        <translation>Tungattunga ya kinnamateeka ya mu Budaaki (8.5 x 13 in)</translation>
     </message>
     <message>
         <source>Envelope B4</source>
-        <translation>国际信封 (Envelope) B4</translation>
+        <translation>Baasa ya B4</translation>
     </message>
     <message>
         <source>Envelope B5</source>
-        <translation>国际信封 (Envelope) B5</translation>
+        <translation>Baasa ya B5</translation>
     </message>
     <message>
         <source>Envelope B6</source>
-        <translation>国际信封 (Envelope) B6</translation>
+        <translation>Baasa ya B6</translation>
     </message>
     <message>
         <source>Envelope C0</source>
-        <translation>国际信封 (Envelope) C0</translation>
+        <translation>Baasa ya C0</translation>
     </message>
     <message>
         <source>Envelope C1</source>
-        <translation>国际信封 (Envelope) C1</translation>
+        <translation>Baasa ya C1</translation>
     </message>
     <message>
         <source>Envelope C2</source>
-        <translation>国际信封 (Envelope) C2</translation>
+        <translation>Baasa ya C2</translation>
     </message>
     <message>
         <source>Envelope C3</source>
-        <translation>国际信封 (Envelope) C3</translation>
+        <translation>Baasa ya C3</translation>
     </message>
     <message>
         <source>Envelope C4</source>
-        <translation>国际信封 (Envelope) C4</translation>
+        <translation>Baasa ya C4</translation>
     </message>
     <message>
         <source>Envelope C5</source>
-        <translation>国际信封 (Envelope) C5</translation>
+        <translation>Baasa ya C5</translation>
     </message>
     <message>
         <source>Envelope C6</source>
-        <translation>国际信封 (Envelope) C6</translation>
+        <translation>Baasa ya C6</translation>
     </message>
     <message>
         <source>Envelope C65</source>
-        <translation>国际信封 (Envelope) C65</translation>
+        <translation>Baasa ya C65</translation>
     </message>
     <message>
         <source>Envelope C7</source>
-        <translation>国际信封 (Envelope) C7</translation>
+        <translation>Baasa ya C7</translation>
     </message>
     <message>
         <source>Envelope DL</source>
-        <translation>国际信封 (Envelope) DL</translation>
+        <translation>Baasa ya DL</translation>
     </message>
     <message>
         <source>Envelope US 9</source>
-        <translation>美国信封 (Envelope) 9</translation>
+        <translation>Baasa ya Amerika 9</translation>
     </message>
     <message>
         <source>Envelope US 10</source>
-        <translation>美国信封 (Envelope) 10</translation>
+        <translation>Baasa ya Amerika 10</translation>
     </message>
     <message>
         <source>Envelope US 11</source>
-        <translation>美国信封 (Envelope) 11</translation>
+        <translation>Baasa ya Amerika 11</translation>
     </message>
     <message>
         <source>Envelope US 12</source>
-        <translation>美国信封 (Envelope) 12</translation>
+        <translation>Baasa ya Amerika 12</translation>
     </message>
     <message>
         <source>Envelope US 14</source>
-        <translation>美国信封 (Envelope) 14</translation>
+        <translation>Baasa ya Amerika 14</translation>
     </message>
     <message>
         <source>Envelope Monarch</source>
-        <translation>美国信封君王 (Envelope Monarch)</translation>
+        <translation>Baasa ya kimonaaki</translation>
     </message>
     <message>
         <source>Envelope Personal</source>
-        <translation>美国信封个人 (Envelope Personal)</translation>
+        <translation>Baasa ya Bulijjo</translation>
     </message>
     <message>
         <source>Envelope Chou 3</source>
-        <translation>日本信封长形 3 号</translation>
+        <translation>Baasa ya Chou 3</translation>
     </message>
     <message>
         <source>Envelope Chou 4</source>
-        <translation>日本信封长形 4 号</translation>
+        <translation>Baasa ya Chou 4</translation>
     </message>
     <message>
         <source>Envelope Invite</source>
-        <translation>国际信封请柬 (Envelope Invite)</translation>
+        <translation>Baasa ey&apos;okuyita</translation>
     </message>
     <message>
         <source>Envelope Italian</source>
-        <translation>国际信封意式 (Envelope Italian)</translation>
+        <translation>Baasa ya kiYitale</translation>
     </message>
     <message>
         <source>Envelope Kaku 2</source>
-        <translation>日本信封角形 2 号</translation>
+        <translation>Baasa ya Kaku 2 (Japani)</translation>
     </message>
     <message>
         <source>Envelope Kaku 3</source>
-        <translation>日本信封角形 3 号</translation>
+        <translation>Baasa ya Kaku 3 (Japani)</translation>
     </message>
     <message>
         <source>Envelope PRC 1</source>
-        <translation>中国大陆信封 1 号</translation>
+        <translation>Baasa ya PRC 1 (Cayina)</translation>
     </message>
     <message>
         <source>Envelope PRC 2</source>
-        <translation>中国大陆信封 2 号</translation>
+        <translation>Baasa ya PRC 2 (Cayina)</translation>
     </message>
     <message>
         <source>Envelope PRC 3</source>
-        <translation>中国大陆信封 3 号</translation>
+        <translation>Baasa ya PRC 3 (Cayina)</translation>
     </message>
     <message>
         <source>Envelope PRC 4</source>
-        <translation>中国大陆信封 4 号</translation>
+        <translation>Baasa ya PRC 4 (Cayina)</translation>
     </message>
     <message>
         <source>Envelope PRC 5</source>
-        <translation>中国大陆信封 5 号</translation>
+        <translation>Baasa ya PRC 5 (Cayina)</translation>
     </message>
     <message>
         <source>Envelope PRC 6</source>
-        <translation>中国大陆信封 6 号</translation>
+        <translation>Baasa ya PRC 6 (Cayina)</translation>
     </message>
     <message>
         <source>Envelope PRC 7</source>
-        <translation>中国大陆信封 7 号</translation>
+        <translation>Baasa ya PRC 7 (Cayina)</translation>
     </message>
     <message>
         <source>Envelope PRC 8</source>
-        <translation>中国大陆信封 8 号</translation>
+        <translation>Baasa ya PRC 8 (Cayina)</translation>
     </message>
     <message>
         <source>Envelope PRC 9</source>
-        <translation>中国大陆信封 9 号</translation>
+        <translation>Baasa ya PRC 9 (Cayina)</translation>
     </message>
     <message>
         <source>Envelope PRC 10</source>
-        <translation>中国大陆信封 10 号</translation>
+        <translation>Baasa ya PRC 10 (Cayina)</translation>
     </message>
     <message>
         <source>Envelope You 4</source>
-        <translation>日本信封洋形 4 号</translation>
+        <translation>Baasa ya You 4</translation>
     </message>
 </context>
 <context>
     <name>QPlatformTheme</name>
     <message>
         <source>OK</source>
-        <translation>确定</translation>
+        <translation>Kale</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>保存</translation>
+        <translation>Kazza</translation>
     </message>
     <message>
         <source>Save All</source>
-        <translation>全部保存</translation>
+        <translation>Byonna Bikazze</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation>Bikkula</translation>
     </message>
     <message>
         <source>&amp;Yes</source>
-        <translation>是(&amp;Y)</translation>
+        <translation>&amp;Ye</translation>
     </message>
     <message>
         <source>Yes to &amp;All</source>
-        <translation>全是(&amp;A)</translation>
+        <translation>Byonna &amp;Bikkirize</translation>
     </message>
     <message>
         <source>&amp;No</source>
-        <translation>否(&amp;N)</translation>
+        <translation>&amp;Nedda</translation>
     </message>
     <message>
         <source>N&amp;o to All</source>
-        <translation>全否(&amp;O)</translation>
+        <translation>B&amp;yonna Bigaane</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation>中止</translation>
+        <translation>Biveko</translation>
     </message>
     <message>
         <source>Retry</source>
-        <translation>重试</translation>
+        <translation>Era</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation>忽略</translation>
+        <translation>Tobifaako</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation>Gala</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>取消</translation>
+        <translation>Sazamu</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>丢弃</translation>
+        <translation>Suula</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>帮助</translation>
+        <translation>Nyamba</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation>应用</translation>
+        <translation>Kazza</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>重置</translation>
+        <translation>Zza Bugya</translation>
     </message>
     <message>
         <source>Restore Defaults</source>
-        <translation>恢复默认值</translation>
+        <translation>Zzawo bya Bulijjo</translation>
     </message>
 </context>
 <context>
     <name>QPluginLoader</name>
     <message>
         <source>The plugin was not loaded.</source>
-        <translation>插件未被加载。</translation>
+        <translation>Ekyongerwako tekiwangidwa.</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>未知错误</translation>
+        <translation>Wazzewo kiremya atategeereka</translation>
     </message>
 </context>
 <context>
     <name>QPrintDialog</name>
     <message>
         <source>Print</source>
-        <translation>打印</translation>
+        <translation>Kubisa</translation>
     </message>
     <message>
         <source>Left to Right, Top to Bottom</source>
-        <translation>从左到右，从上到下</translation>
+        <translation>Tandikiranga ku kkono, era tandikiranga waggulu</translation>
     </message>
     <message>
         <source>Left to Right, Bottom to Top</source>
-        <translation>从左到右，从下到上</translation>
+        <translation>Tandikiranga ku kkono, era tandikiranga wansi</translation>
     </message>
     <message>
         <source>Right to Left, Bottom to Top</source>
-        <translation>从右到左，从下到上</translation>
+        <translation>Tandikiranga ku ddyo, era tandikiranga wansi</translation>
     </message>
     <message>
         <source>Right to Left, Top to Bottom</source>
-        <translation>从右到左，从上到下</translation>
+        <translation>Tandikiranga ku ddyo, era tandikiranga waggulu</translation>
     </message>
     <message>
         <source>Bottom to Top, Left to Right</source>
-        <translation>从下到上，从左到右</translation>
+        <translation>Tandikiranga wansi, era tandikiranga ku kkono</translation>
     </message>
     <message>
         <source>Bottom to Top, Right to Left</source>
-        <translation>从下到上，从右到左</translation>
+        <translation>Tandikiranga wansi, era tandikiranga ku ddyo</translation>
     </message>
     <message>
         <source>Top to Bottom, Left to Right</source>
-        <translation>从上到下，从左到右</translation>
+        <translation>Tandikiranga waggulu, era tandikiranga ku kkono</translation>
     </message>
     <message>
         <source>Top to Bottom, Right to Left</source>
-        <translation>从上到下，从右到左</translation>
+        <translation>Tandikiranga waggulu, era tandikiranga ku ddyo</translation>
     </message>
     <message>
         <source>1 (1x1)</source>
@@ -3837,103 +3784,97 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>All Pages</source>
-        <translation>全部页面</translation>
+        <translation>Mpapula zonna</translation>
     </message>
     <message>
         <source>Odd Pages</source>
-        <translation>奇数页面</translation>
+        <translation>Mpapula ez&apos;ennamba ezitagabanizikamu bbiri</translation>
     </message>
     <message>
         <source>Even Pages</source>
-        <translation>偶数页面</translation>
+        <translation>Mpapula ez&apos;ennamba ezigabanizikamu bbiri</translation>
     </message>
     <message>
         <source>&amp;Options &gt;&gt;</source>
-        <translation>选项(&amp;O) &gt;&gt;</translation>
+        <translation>&amp;Ebisoboka&gt;&gt;</translation>
     </message>
     <message>
         <source>&amp;Print</source>
-        <translation>打印(&amp;P)</translation>
+        <translation>&amp;Kubisa</translation>
     </message>
     <message>
         <source>&amp;Options &lt;&lt;</source>
-        <translation>选项(&amp;O) &lt;&lt;</translation>
+        <translation>&amp;Ebisoboka &lt;&lt;</translation>
     </message>
     <message>
         <source>Invalid Pages Definition</source>
-        <translation>页面定义无效</translation>
+        <translation>Ekiwandikidwa okulonda mpapula kirimu ensobi</translation>
     </message>
     <message>
         <source>%1 does not follow the correct syntax. Please use &apos;,&apos; to separate ranges and pages, &apos;-&apos; to define ranges and make sure ranges do not intersect with each other.</source>
-        <translatorcomment>区隔逗号是半角的，不能改成全角</translatorcomment>
-        <translation>%1 不符合正确语法。请使用“,”来分隔范围和页面，“-”来定义范围，并确保不同范围不相互重叠。</translation>
+        <translation>Empandika ya %1 erimu ensobi. Kozesa akabonero &apos;-&apos; okulaga olubu lw&apos;empapula era genderera nti embu bwe zisukka mu lumu teziyingiragana. Kozesa akabonero &apos;,&apos; okwawula ennamba z&apos;empapula z&apos;olaga kinnalumu.</translation>
     </message>
     <message>
         <source>Duplex Settings Conflicts</source>
-        <translation>双面打印设置冲突</translation>
+        <translation>Waliwo ebitegekedwa ku by&apos;okuwandika kungulu n&apos;emabega w&apos;empapula ebikontanagana</translation>
     </message>
     <message>
         <source>There are conflicts in duplex settings. Do you want to fix them?</source>
-        <translation>双面打印设置存在冲突。您想要修复它们吗？</translation>
+        <translation>Ebimu ku bitegekedwa ku by&apos;okuwandika kungulu n&apos;emabega w&apos;empapula bikontanagana. Oyagala okubitereeza?</translation>
     </message>
     <message>
         <source>Print to File (PDF)</source>
-        <translation>打印到文件(PDF)</translation>
+        <translation>Biteeke mu fayiro (ey&apos;ekika kya PDF)</translation>
     </message>
     <message>
         <source>Local file</source>
-        <translation>本机文件</translation>
+        <translation>Fayiro eri ku kompyuta eno</translation>
     </message>
     <message>
         <source>Write PDF file</source>
-        <translation>写入 PDF 文件</translation>
+        <translation>Biteeke mu fayiro ey&apos;ekika kya PDF</translation>
     </message>
     <message>
         <source>Print To File ...</source>
-        <translation>打印为文件...</translation>
+        <translation>Biteeke mu fayiro ...</translation>
     </message>
     <message>
         <source>%1 is a directory.
 Please choose a different file name.</source>
-        <translation>%1 是一个目录。
-请选择一个不同的文件名。</translation>
+        <translation>%1 tterekero.
+Fayiro girondere erinnya ddala.</translation>
     </message>
     <message>
         <source>File %1 is not writable.
 Please choose a different file name.</source>
-        <translation>文件 %1 不可写入。
-请选择一个不同的文件名。</translation>
+        <translation>Fayiro %1 tewandikikamu.
+Londa erinnya lya fayiro eddala.</translation>
     </message>
     <message>
         <source>%1 already exists.
 Do you want to overwrite it?</source>
-        <translation>%1 已存在。
-您想要覆盖它吗？</translation>
+        <translation>%1 esangidwa gyeri. Oyagala okugigyawo waddewo kirala?</translation>
     </message>
     <message>
         <source>Options &apos;Pages Per Sheet&apos; and &apos;Page Set&apos; cannot be used together.
 Please turn one of those options off.</source>
-        <translation>“每张页数”和“页面组”选项不可同时使用。
-请关闭它们之中的其中一个。</translation>
+        <translation>Tekisoboka kukozesa byombi &apos;Eby&apos;empapula meka ku buli lukubisibwa&apos; ne &apos;Teekateeka ndabika ya bikubisibwa&apos;.
+Jjululako ekimu.</translation>
     </message>
     <message>
         <source>The &apos;From&apos; value cannot be greater than the &apos;To&apos; value.</source>
-        <translation>“开始”数值不得大于“结束”数值。</translation>
+        <translation>Ennamba y&apos;olupapula esooka tekkirizibwa kusinga envanyuma obunene.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>确定</translation>
-    </message>
-    <message>
-        <source>Automatic</source>
-        <translation type="vanished">自动</translation>
+        <translation>Kale</translation>
     </message>
 </context>
 <context>
     <name>QPrintPreviewDialog</name>
     <message>
         <source>Page Setup</source>
-        <translation>页面设置</translation>
+        <translation>Teekateeka Bitundu Bya Lupapula</translation>
     </message>
     <message>
         <source>%1%</source>
@@ -3941,1375 +3882,1266 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Print Preview</source>
-        <translation>打印预览</translation>
+        <translation>Laba Bwe Binaafaanana</translation>
     </message>
     <message>
         <source>Next page</source>
-        <translation>下一页</translation>
+        <translation>Lupapula oluddako</translation>
     </message>
     <message>
         <source>Previous page</source>
-        <translation>上一页</translation>
+        <translation>Lupapula olukulembera luno</translation>
     </message>
     <message>
         <source>First page</source>
-        <translation>第一页</translation>
+        <translation>Lupapula olusooka</translation>
     </message>
     <message>
         <source>Last page</source>
-        <translation>最后一页</translation>
+        <translation>Lupapula olusembayo</translation>
     </message>
     <message>
         <source>Fit width</source>
-        <translation>适应宽度</translation>
+        <translation>Bijje mu bugazi bw&apos;olupapula</translation>
     </message>
     <message>
         <source>Fit page</source>
-        <translation>适应页面</translation>
+        <translation>Biggweere ku lupapula lumu</translation>
     </message>
     <message>
         <source>Zoom in</source>
-        <translation>放大</translation>
+        <translation>Zimbulukusa</translation>
     </message>
     <message>
         <source>Zoom out</source>
-        <translation>缩小</translation>
+        <translation>Kendeeza</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>纵向</translation>
+        <translation>Busimbalaala</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>横向</translation>
+        <translation>Bugazi</translation>
     </message>
     <message>
         <source>Show single page</source>
-        <translation>单页显示</translation>
+        <translation>Lagako lupapula lumu lumu</translation>
     </message>
     <message>
         <source>Show facing pages</source>
-        <translation>对页显示</translation>
+        <translation>Lagako mpapula ez&apos;etunuulirigana</translation>
     </message>
     <message>
         <source>Show overview of all pages</source>
-        <translation>显示全部页面概览</translation>
+        <translation>Laga mpapula zonna awamu</translation>
     </message>
     <message>
         <source>Print</source>
-        <translation>打印</translation>
+        <translation>Kubisa</translation>
     </message>
     <message>
         <source>Page setup</source>
-        <translation>打印设置</translation>
+        <translation>Teekateeka bitundu bya lupapula</translation>
     </message>
     <message>
         <source>Export to PDF</source>
-        <translation>导出到 PDF</translation>
+        <translation>Biteeke mu fayiro ey&apos;ekika kya PDF</translation>
     </message>
 </context>
 <context>
     <name>QPrintPropertiesDialog</name>
     <message>
         <source>Printer Properties</source>
-        <translation>打印机属性</translation>
+        <translation>Ebikwata ku Pulinta</translation>
     </message>
     <message>
         <source>Job Options</source>
-        <translation>任务选项</translation>
+        <translation>Ebisoboka ku mirimu</translation>
     </message>
     <message>
         <source>Page Setup Conflicts</source>
-        <translation>页面设置冲突</translation>
+        <translation>Ebitakolagana mu Bitegekedwa ku Binaakubisibwa</translation>
     </message>
     <message>
         <source>There are conflicts in page setup options. Do you want to fix them?</source>
-        <translation>页面设置选项存在冲突。您想要修复它们吗？</translation>
+        <translation>Ebitegekedwa ku binaakubisibwa ebimu tebikolagana. Oyagala okubitereeza?</translation>
     </message>
     <message>
         <source>Advanced Option Conflicts</source>
-        <translation>高级选项冲突</translation>
+        <translation>Ebitakolagana mu Bitegekedwa Ebyetaaga Bumanyirivu</translation>
     </message>
     <message>
         <source>There are conflicts in some advanced options. Do you want to fix them?</source>
-        <translation>高级选项存在冲突。您想要修复它们吗？</translation>
+        <translation>Ebitegekedwa ebyetaaga bumanyirivu ebimu tebikolagana. Oyagala okubitereeza?</translation>
     </message>
 </context>
 <context>
     <name>QPrintPropertiesWidget</name>
     <message>
         <source>Form</source>
-        <translation>窗体</translation>
+        <translation>Foomu</translation>
     </message>
     <message>
         <source>Page</source>
-        <translation>页</translation>
+        <translation>Lupapula</translation>
     </message>
     <message>
         <source>Advanced</source>
-        <translation>高级</translation>
+        <translation>Eby&apos;etaagisa bumanyirivu</translation>
     </message>
     <message>
         <source>There are conflicts in some options. Please fix them.</source>
-        <translation>某些选项存在冲突。请修复它们。</translation>
+        <translation>Longoosa mu bitegekedwa. Ebimu bikontana ne binnaabyo.</translation>
     </message>
 </context>
 <context>
     <name>QPrintSettingsOutput</name>
     <message>
         <source>Form</source>
-        <translation>窗体</translation>
+        <translation>Foomu</translation>
     </message>
     <message>
         <source>Copies</source>
-        <translation>份数</translation>
+        <translation>Ebinaakubisibwa</translation>
     </message>
     <message>
         <source>Print range</source>
-        <translation>打印范围</translation>
+        <translation>Ekkomo</translation>
     </message>
     <message>
         <source>Print all</source>
-        <translation>打印全部</translation>
+        <translation>Byonna</translation>
     </message>
     <message>
         <source>Pages from</source>
-        <translation>页数从</translation>
+        <translation>Okuva ku lupapula</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>到</translation>
+        <translation>okutuuka ku</translation>
     </message>
     <message>
         <source>Pages</source>
-        <translation>页数</translation>
+        <translation>Mpapula</translation>
     </message>
     <message>
         <source>Specify pages or ranges separated by commas. Ranges are specified by two numbers separated by a hyphen. E.g: 3,5-7,9 prints pages 3, 5, 6, 7 and 9.</source>
-        <translation>指定页面或范围，以半角逗号分隔。范围通过在两个数字之间插入半角连字号指定。例如：3,5-7,9 将打印 3、5、6、7、9 页。</translation>
+        <translation>Wandika wano ennamba oba embu za mpapula nga obyawuzza akabonero kano &apos;,&apos;.
+Okulaga olubu lwa mpapula wandika ennamba kwe lutandikira ne kwe lukoma nga
+oz&apos;awuzza akabonero kano &apos;-&apos;.
+Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze zikubisibwa.</translation>
     </message>
     <message>
         <source>Current Page</source>
-        <translation>当前页面</translation>
+        <translation>Olupapula olulabika kakano</translation>
     </message>
     <message>
         <source>Selection</source>
-        <translation>选择</translation>
+        <translation>Ebitangaazidwa</translation>
     </message>
     <message>
         <source>Page Set:</source>
-        <translation>页面组：</translation>
+        <translation>Teekateeka ndabika ya bikubisibwa:</translation>
     </message>
     <message>
         <source>Output Settings</source>
-        <translation>输出设置</translation>
+        <translation>Entegeka y&apos;ebinaakubisibwa</translation>
     </message>
     <message>
         <source>Copies:</source>
-        <translation>份数：</translation>
+        <translation>Koppi meka:</translation>
     </message>
     <message>
         <source>Collate</source>
-        <translation>逐份打印</translation>
+        <translation>Bisengeke</translation>
     </message>
     <message>
         <source>Reverse</source>
-        <translation>反向打印</translation>
+        <translation>Tandikira ku lusemba</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>选项</translation>
+        <translation>Ebisoboka</translation>
     </message>
     <message>
         <source>Color Mode</source>
-        <translation>彩色模式</translation>
+        <translation>Bwiino</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation>彩色</translation>
+        <translation>Kozesa langi zonna</translation>
     </message>
     <message>
         <source>Grayscale</source>
-        <translation>灰阶</translation>
-    </message>
-    <message>
-        <source>Duplex Printing</source>
-        <translation type="vanished">双面打印</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation type="vanished">无</translation>
-    </message>
-    <message>
-        <source>Long side</source>
-        <translation type="vanished">长侧</translation>
-    </message>
-    <message>
-        <source>Short side</source>
-        <translation type="vanished">短侧</translation>
+        <translation>Kozesa nzirugavu yokka</translation>
     </message>
     <message>
         <source>Double Sided Printing</source>
-        <translation>双面打印</translation>
+        <translation>Okuwandika kungulu n&apos;emabega</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation>关闭</translation>
+        <translation>Nedda</translation>
     </message>
     <message>
         <source>Long side binding</source>
-        <translation>长边装订</translation>
+        <translation>Empapula zikozese busimbalaala</translation>
     </message>
     <message>
         <source>Short side binding</source>
-        <translation>短边装订</translation>
+        <translation>Empapula zikozese bugazi</translation>
     </message>
 </context>
 <context>
     <name>QPrintWidget</name>
     <message>
         <source>Form</source>
-        <translation>窗体</translation>
+        <translation>Foomu</translation>
     </message>
     <message>
         <source>Printer</source>
-        <translation>打印机</translation>
+        <translation>Pulinta</translation>
     </message>
     <message>
         <source>&amp;Name:</source>
-        <translation>名称(&amp;N)：</translation>
+        <translation>&amp;Linnya:</translation>
     </message>
     <message>
         <source>P&amp;roperties</source>
-        <translation>属性(&amp;R)</translation>
+        <translation>Ebi&amp;gikwatako</translation>
     </message>
     <message>
         <source>Location:</source>
-        <translation>位置：</translation>
+        <translation>Gy&apos;esangibwa:</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation>预览</translation>
+        <translation>Ndagaako</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation>类型：</translation>
+        <translation>Kika kya yo:</translation>
     </message>
     <message>
         <source>Output &amp;file:</source>
-        <translation>输出文件(&amp;F)：</translation>
+        <translation>&amp;Fayiro egenda okukubisibwa:</translation>
     </message>
     <message>
         <source>...</source>
-        <translation></translation>
+        <translation>...</translation>
     </message>
 </context>
 <context>
     <name>QProcess</name>
     <message>
         <source>Process failed to start</source>
-        <translation>启动进程失败</translation>
+        <translation>Omulimu tegusobodde okutandika</translation>
     </message>
     <message>
         <source>Process crashed</source>
-        <translation>进程已崩溃</translation>
+        <translation>Omulimu guzzemu entabuka</translation>
     </message>
     <message>
         <source>Process operation timed out</source>
-        <translation>进程处理超时</translation>
+        <translation>Omukolo ogw&apos;omu mulimu obudde buguyiseko</translation>
     </message>
     <message>
         <source>Error reading from process</source>
-        <translation>从进程中读取时发生错误</translation>
+        <translation>Okusoma ebiva mu mulimu kuzzemu kiremya</translation>
     </message>
     <message>
         <source>Error writing to process</source>
-        <translation>向进程写入时发生错误</translation>
+        <translation>Okusindikira omulimu obubaka kuzzemu kiremya</translation>
     </message>
     <message>
         <source>No program defined</source>
-        <translation>没有定义程序</translation>
+        <translation>Tewali puloguramu eragidwa okutandika</translation>
     </message>
     <message>
         <source>Could not open input redirection for reading</source>
-        <translation>无法打开用于读取的输入重定向</translation>
+        <translation>Tekisobose okubikkula ekifo ekipya awanaasomebwanga ebikolebwako</translation>
     </message>
     <message>
         <source>Resource error (fork failure): %1</source>
-        <translation>资源错误 (fork 失败)：%1</translation>
+        <translation>Obusobozi bwa kompyuta bufunye kiremya (Omulimu gulemedwa okwekolamu koppi): %1</translation>
     </message>
     <message>
         <source>Could not open output redirection for writing</source>
-        <translation>无法打开用于写入的输出重定向</translation>
+        <translation>Tekisobose okubikkula ekifo ekipya awanaateekebwanga ebiva mu mulimu</translation>
     </message>
     <message>
         <source>Process failed to start: %1</source>
-        <translation>进程启动失败：%1</translation>
+        <translation>Omulimu tegusobodde okutandika: %1</translation>
     </message>
 </context>
 <context>
     <name>QProgressDialog</name>
     <message>
         <source>Cancel</source>
-        <translation>取消</translation>
+        <translation>Sazamu</translation>
     </message>
 </context>
 <context>
     <name>QRegExp</name>
     <message>
         <source>no error occurred</source>
-        <translation>没有错误发生</translation>
+        <translation>temubadde nsobi</translation>
     </message>
     <message>
         <source>disabled feature used</source>
-        <translation>使用了禁用功能</translation>
+        <translation>ekiragiro kigeza okukozesa obusobozi obwaadibizibwa</translation>
     </message>
     <message>
         <source>bad char class syntax</source>
-        <translation>错误的字符类语法</translation>
+        <translation>emboozi enoonyako kamu ku lubu lw&apos;obubonero erimu ensobi</translation>
     </message>
     <message>
         <source>bad lookahead syntax</source>
-        <translation>错误的预测语法</translation>
+        <translation>emboozi enoonya kifo mu ginnaayo erimu ensobi</translation>
     </message>
     <message>
         <source>lookbehinds not supported, see QTBUG-2371</source>
-        <translation>不支持向后查看，请参阅 QTBUG-2371</translation>
+        <translation>emboozi ezinoonya ebikulembera ekifo mu zinnaazo sisitemu eno tezitegeera, soma QTBUG-2371</translation>
     </message>
     <message>
         <source>bad repetition syntax</source>
-        <translation>错误的重复语法</translation>
+        <translation>awalaga obungi bw&apos;ekinoonyezebwa emboozi enoonya waliwo nsobi</translation>
     </message>
     <message>
         <source>invalid octal value</source>
-        <translation>无效的八进制数值</translation>
+        <translation>waliwo omuwendo ogw&apos;ennengamunaana omusobu</translation>
     </message>
     <message>
         <source>missing left delim</source>
-        <translation>找不到左分隔符</translation>
+        <translation>waliwo awabulako akabonero ak&apos;awuzi ak&apos;oku kkuono</translation>
     </message>
     <message>
         <source>unexpected end</source>
-        <translation>异常的终止</translation>
+        <translation>emboozi enoonya ekomye mu ngeri etasuubidwa</translation>
     </message>
     <message>
         <source>met internal limit</source>
-        <translation>遇到内部限制</translation>
+        <translation>ebiragiro ebinoonyesa ebigoberera oba ebikulembera ekifo bisusse obungi mu mboozi</translation>
     </message>
     <message>
         <source>invalid interval</source>
-        <translation>无效的间隔</translation>
+        <translation>entegeka y&apos;obungi bw&apos;ekinoonyezebwa eriko nsobi</translation>
     </message>
     <message>
         <source>invalid category</source>
-        <translation>无效的类别</translation>
+        <translation>enteekateeka y&apos;ekika kya bubonero obwa mu Unicode eriko kiremya</translation>
     </message>
 </context>
 <context>
     <name>QRegularExpression</name>
     <message>
         <source>no error</source>
-        <translation>无错误</translation>
+        <translation>temubadde nsobi</translation>
     </message>
     <message>
         <source>\ at end of pattern</source>
-        <translation>\ 在模式的末尾</translation>
+        <translation>ekinoonyezebwa kifundikidwa akabonero &apos;\&apos;</translation>
     </message>
     <message>
         <source>\c at end of pattern</source>
-        <translation>\c 在模式的末尾</translation>
+        <translation>ekinoonyezebwa kifundikidwa obubonero &apos;\c&apos;</translation>
     </message>
     <message>
         <source>unrecognized character follows \</source>
-        <translation>\ 后跟随未识别的字符</translation>
+        <translation>akabonero &apos;\&apos; kaddidwako akabonero akatategeeredwa</translation>
     </message>
     <message>
         <source>numbers out of order in {} quantifier</source>
-        <translation>{} 量词中的数字不正常</translation>
+        <translation>ennamba eziri wakati w&apos;obubonero &apos;{}&apos; obulaga obungi bw&apos;ebinoonyezebwa ssi nsengeke bulungi</translation>
     </message>
     <message>
         <source>number too big in {} quantifier</source>
-        <translation>{} 量词中的数字太大了</translation>
+        <translation>ennamba eri wakati w&apos;obubonero &apos;{}&apos; obulaga obungi bw&apos;ebinoonyezebwa eyitiridde obunene</translation>
     </message>
     <message>
         <source>missing terminating ] for character class</source>
-        <translation>字符类缺少终止 ]</translation>
-    </message>
-    <message>
-        <source>invalid escape sequence in character class</source>
-        <translation type="vanished">字符类中的转义序列无效</translation>
-    </message>
-    <message>
-        <source>range out of order in character class</source>
-        <translation>字符类中的不正常范围</translation>
-    </message>
-    <message>
-        <source>quantifier does not follow a repeatable item</source>
-        <translation>量词不在可重复项之后</translation>
-    </message>
-    <message>
-        <source>internal error: unexpected repeat</source>
-        <translation>内部错误：异常的重复</translation>
-    </message>
-    <message>
-        <source>unrecognized character after (? or (?-</source>
-        <translation>(? 或 (?- 之后未识别的字符</translation>
-    </message>
-    <message>
-        <source>POSIX named classes are supported only within a class</source>
-        <translation>POSIX 命名类仅在类中受支持</translation>
-    </message>
-    <message>
-        <source>POSIX collating elements are not supported</source>
-        <translation>不支持 POSIX 排序元素</translation>
-    </message>
-    <message>
-        <source>missing closing parenthesis</source>
-        <translation>缺少右括号</translation>
-    </message>
-    <message>
-        <source>reference to non-existent subpattern</source>
-        <translation>引用不存在的子模式</translation>
-    </message>
-    <message>
-        <source>pattern passed as NULL</source>
-        <translation>模式作为 NULL 传递</translation>
-    </message>
-    <message>
-        <source>unrecognised compile-time option bit(s)</source>
-        <translation>无法识别的编译时选项位</translation>
-    </message>
-    <message>
-        <source>missing ) after (?# comment</source>
-        <translation>(?# 注释 之后缺少 )</translation>
-    </message>
-    <message>
-        <source>parentheses are too deeply nested</source>
-        <translation>括号嵌套太深</translation>
-    </message>
-    <message>
-        <source>regular expression is too large</source>
-        <translation>正则表达式太大</translation>
-    </message>
-    <message>
-        <source>failed to allocate heap memory</source>
-        <translation>分配堆内存失败</translation>
-    </message>
-    <message>
-        <source>unmatched closing parenthesis</source>
-        <translation>右括号不匹配</translation>
-    </message>
-    <message>
-        <source>internal error: code overflow</source>
-        <translation>内部错误：代码溢出</translation>
-    </message>
-    <message>
-        <source>letter or underscore expected after (?&lt; or (?&apos;</source>
-        <translation type="vanished">(?&lt; 或 (?&apos; 之后应为字母或下划线</translation>
-    </message>
-    <message>
-        <source>lookbehind assertion is not fixed length</source>
-        <translation>后发断言不是固定的长度</translation>
-    </message>
-    <message>
-        <source>malformed number or name after (?(</source>
-        <translation type="vanished">(?( 之后格式错误的数字或名称</translation>
-    </message>
-    <message>
-        <source>conditional group contains more than two branches</source>
-        <translation type="vanished">条件组包含两个以上的分支</translation>
-    </message>
-    <message>
-        <source>assertion expected after (?( or (?(?C)</source>
-        <translation>(?( 或 (?(?C) 之后应为断言</translation>
-    </message>
-    <message>
-        <source>(?R or (?[+-]digits must be followed by )</source>
-        <translation type="vanished">(?R 或 (?[+-]数字 必须后跟 )</translation>
-    </message>
-    <message>
-        <source>unknown POSIX class name</source>
-        <translation>未知的 POSIX 类名</translation>
-    </message>
-    <message>
-        <source>internal error in pcre2_study(): should not occur</source>
-        <translation>pcre2_study() 中的内部错误：不应发生</translation>
-    </message>
-    <message>
-        <source>this version of PCRE2 does not have Unicode support</source>
-        <translation>此版本的 PCRE2 不支持 Unicode</translation>
-    </message>
-    <message>
-        <source>parentheses are too deeply nested (stack check)</source>
-        <translation>括号嵌套太深( 堆栈检查)</translation>
-    </message>
-    <message>
-        <source>character code point value in \x{} or \o{} is too large</source>
-        <translation>\x{} 或 \o{} 中的字符代码点值太大</translation>
-    </message>
-    <message>
-        <source>invalid condition (?(0)</source>
-        <translation type="vanished">无效条件 (?(0)</translation>
-    </message>
-    <message>
-        <source>\C is not allowed in a lookbehind assertion</source>
-        <translation type="vanished">\C 不允许在“后发断言”中使用</translation>
-    </message>
-    <message>
-        <source>PCRE does not support \L, \l, \N{name}, \U, or \u</source>
-        <translation type="vanished">PCRE 不支持 \L，\l，\N{name}，\U或 \u</translation>
-    </message>
-    <message>
-        <source>number after (?C is greater than 255</source>
-        <translation>(?C 之后的数字大于 255</translation>
-    </message>
-    <message>
-        <source>closing parenthesis for (?C expected</source>
-        <translation>(?C 需要右括号</translation>
-    </message>
-    <message>
-        <source>invalid escape sequence in (*VERB) name</source>
-        <translation>(*VERB) 名称中的无效转义序列</translation>
-    </message>
-    <message>
-        <source>unrecognized character after (?P</source>
-        <translation>(?P 之后无法识别的字符</translation>
-    </message>
-    <message>
-        <source>syntax error in subpattern name (missing terminator)</source>
-        <translation type="vanished">子模式名称中的语法错误（缺少终止符）</translation>
-    </message>
-    <message>
-        <source>two named subpatterns have the same name (PCRE2_DUPNAMES not set)</source>
-        <translation>两个命名的子模式具有相同的名称 (未设置 PCRE2_DUPNAMES)</translation>
-    </message>
-    <message>
-        <source>group name must start with a non-digit</source>
-        <translation type="vanished">组名必须以非数字开头</translation>
-    </message>
-    <message>
-        <source>this version of PCRE2 does not have support for \P, \p, or \X</source>
-        <translation>此版本的 PCRE2 不支持 \P，\p 或 \X</translation>
-    </message>
-    <message>
-        <source>malformed \P or \p sequence</source>
-        <translation>格式错误的 \P 或 \p 序列</translation>
-    </message>
-    <message>
-        <source>unknown property name after \P or \p</source>
-        <translation>\P 或 \p 之后的未知属性名称</translation>
-    </message>
-    <message>
-        <source>subpattern name is too long (maximum 10000 characters)</source>
-        <translation type="vanished">子模式名称太长（最多10000个字符）</translation>
-    </message>
-    <message>
-        <source>too many named subpatterns (maximum 256)</source>
-        <translation type="vanished">命名的子表达式过多（最多256个）</translation>
-    </message>
-    <message>
-        <source>invalid range in character class</source>
-        <translation>字符类中的范围无效</translation>
-    </message>
-    <message>
-        <source>octal value is greater than \377 in 8-bit non-UTF-8 mode</source>
-        <translation>在 8 位非 UTF-8 模式下，八进制值大于 \377</translation>
-    </message>
-    <message>
-        <source>internal error: overran compiling workspace</source>
-        <translation>内部错误：超过编译工作区</translation>
-    </message>
-    <message>
-        <source>internal error: previously-checked referenced subpattern not found</source>
-        <translation>内部错误：找不到先前检查过的引用子模式</translation>
-    </message>
-    <message>
-        <source>DEFINE group contains more than one branch</source>
-        <translation type="vanished">&quot;定义&quot; 组包含多个分支</translation>
-    </message>
-    <message>
-        <source>missing opening brace after \o</source>
-        <translation>\o 后面缺少左大括号</translation>
-    </message>
-    <message>
-        <source>internal error: unknown newline setting</source>
-        <translation>内部错误：未知换行设置</translation>
-    </message>
-    <message>
-        <source>\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number</source>
-        <translation>\g 后面没有括号，角括号或引用的 名称/数字 或普通数字</translation>
-    </message>
-    <message>
-        <source>a numbered reference must not be zero</source>
-        <translation type="vanished">编号的引用不能为零</translation>
-    </message>
-    <message>
-        <source>an argument is not allowed for (*ACCEPT), (*FAIL), or (*COMMIT)</source>
-        <translation type="vanished">(*ACCEPT)，(*FAIL) 或 (*COMMIT) 不允许参数</translation>
-    </message>
-    <message>
-        <source>(*VERB) not recognized or malformed</source>
-        <translation>(*VERB) 未识别或格式不当</translation>
-    </message>
-    <message>
-        <source>number is too big</source>
-        <translation type="vanished">数字太大</translation>
-    </message>
-    <message>
-        <source>subpattern name expected</source>
-        <translation>子模式名称是预期的</translation>
-    </message>
-    <message>
-        <source>digit expected after (?+</source>
-        <translation type="vanished">预期的数字 在 (?+ 之后</translation>
-    </message>
-    <message>
-        <source>non-octal character in \o{} (closing brace missing?)</source>
-        <translation>\o{} 中非八进制字符 (右大括号丢失？)</translation>
-    </message>
-    <message>
-        <source>different names for subpatterns of the same number are not allowed</source>
-        <translation>不允许同一编号的子模式有不同的名称</translation>
-    </message>
-    <message>
-        <source>(*MARK) must have an argument</source>
-        <translation>(*MARK) 必须有一个参数</translation>
-    </message>
-    <message>
-        <source>non-hex character in \x{} (closing brace missing?)</source>
-        <translation>\x{} 中非十六进制字符 (右大括号丢失？)</translation>
-    </message>
-    <message>
-        <source>\c must be followed by a printable ASCII character</source>
-        <translation>\c 必须后跟可打印的 ASCII 字符</translation>
-    </message>
-    <message>
-        <source>\c must be followed by a letter or one of [\]^_?</source>
-        <translation>\c 后面必须跟一个字母或 [\]^_? 之一</translation>
-    </message>
-    <message>
-        <source>\k is not followed by a braced, angle-bracketed, or quoted name</source>
-        <translation>\k 后面没有括号，角括号或引用的名称</translation>
-    </message>
-    <message>
-        <source>internal error: unknown opcode in find_fixedlength()</source>
-        <translation type="vanished">内部错误：find_fixedlength() 中的未知操作码</translation>
-    </message>
-    <message>
-        <source>\N is not supported in a class</source>
-        <translation>类中不支持 \N</translation>
-    </message>
-    <message>
-        <source>SPARE ERROR</source>
-        <translation type="vanished">备用错误</translation>
-    </message>
-    <message>
-        <source>disallowed Unicode code point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</source>
-        <translation>不允许使用 Unicode 代码点 (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff）</translation>
-    </message>
-    <message>
-        <source>using UTF is disabled by the application</source>
-        <translation>应用程序禁止使用 UTF</translation>
-    </message>
-    <message>
-        <source>using UCP is disabled by the application</source>
-        <translation>应用程序禁止使用 UCP</translation>
-    </message>
-    <message>
-        <source>name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)</source>
-        <translation>名称在 (*MARK)，(*PRUNE)，(*SKIP) 或 (*THEN) 中太长</translation>
-    </message>
-    <message>
-        <source>character code point value in \u.... sequence is too large</source>
-        <translation>\u.... 序列中的字符代码点值太大</translation>
-    </message>
-    <message>
-        <source>digits missing in \x{} or \o{}</source>
-        <translation type="vanished">\x{} 或 \o{} 中缺少数值</translation>
-    </message>
-    <message>
-        <source>syntax error in (?(VERSION condition</source>
-        <translation type="vanished">(?(VERSION 条件 中的语法错误</translation>
+        <translation>emboozi enoonyako kamu ku lubu lw&apos;obubonero ebulako ka &apos;]&apos; akagifundikira</translation>
     </message>
     <message>
         <source>escape sequence is invalid in character class</source>
-        <translation>字符类中的转义序列无效</translation>
+        <translation>ekigambo ekifuula enneyisa tekikolera munda mw&apos;emboozi enoonyako kamu ku lubu lw&apos;obubonero</translation>
+    </message>
+    <message>
+        <source>range out of order in character class</source>
+        <translation>emboozi enoonyako kamu ku lubu lw&apos;obubonero obubonero bwa mu ssi busengeke bulungi</translation>
+    </message>
+    <message>
+        <source>quantifier does not follow a repeatable item</source>
+        <translation>akabonero akalaga obungi bw&apos;ekinoonyezebwa tekakulembedwa ekinoonyezebwa</translation>
+    </message>
+    <message>
+        <source>internal error: unexpected repeat</source>
+        <translation>kiremya: waliwo ekiddidwamu wekitasuubidwa</translation>
+    </message>
+    <message>
+        <source>unrecognized character after (? or (?-</source>
+        <translation>obubonero &apos;(?&apos; oba &apos;(?-&apos; buddiridwa akalala akatategeeredwa</translation>
+    </message>
+    <message>
+        <source>POSIX named classes are supported only within a class</source>
+        <translation>buli mboozi enoonyako kamu ku lubu lw&apos;obubonero olutume erinnya eteekwa okubeera munda mw&apos;emboozi enoonya endala</translation>
+    </message>
+    <message>
+        <source>POSIX collating elements are not supported</source>
+        <translation>ebisengekika ebya POSIX tebikozeseka wano</translation>
+    </message>
+    <message>
+        <source>missing closing parenthesis</source>
+        <translation>waliwo awabula akabonero &apos;)&apos;</translation>
+    </message>
+    <message>
+        <source>reference to non-existent subpattern</source>
+        <translation>waliwo emboozi enoonya erimu ekirabika ng&apos;enyingo etalimu kantu</translation>
+    </message>
+    <message>
+        <source>pattern passed as NULL</source>
+        <translation>waliwo ekinoonyezebwa ekibalidwa nga NULL</translation>
+    </message>
+    <message>
+        <source>unrecognised compile-time option bit(s)</source>
+        <translation>waliwo obuwayiro obufuga enkuŋaanya obutategeerekese</translation>
+    </message>
+    <message>
+        <source>missing ) after (?# comment</source>
+        <translation>waliwo wabula akabonero ) akafundikira ebigambo ebitangaaza ebitandika ne (?#</translation>
+    </message>
+    <message>
+        <source>parentheses are too deeply nested</source>
+        <translation>waliwo obubonero obwa ( ne ) we buyitiridde obungi munda mwa bunnaabwo</translation>
+    </message>
+    <message>
+        <source>regular expression is too large</source>
+        <translation>emboozi enoonya eyitiridde obuwanvu</translation>
+    </message>
+    <message>
+        <source>failed to allocate heap memory</source>
+        <translation>tekisobose omulimu okugwawulirako ekifo mu ggwanika ery&apos;entuumo</translation>
+    </message>
+    <message>
+        <source>unmatched closing parenthesis</source>
+        <translation>waliwo akabonero aka ) akatafundikira emboozi etandika n&apos;aka (</translation>
+    </message>
+    <message>
+        <source>internal error: code overflow</source>
+        <translation>wazzewo kiremya: ekifo ekyayawulibwabwako mu ggwanika eripangibwa tekimala</translation>
     </message>
     <message>
         <source>missing closing parenthesis for condition</source>
-        <translation>条件缺少右括号</translation>
+        <translation>waliwo akakwakkulizo akabulako ka ) akakafundikira</translation>
+    </message>
+    <message>
+        <source>lookbehind assertion is not fixed length</source>
+        <translation>ekinoonyezebwa ekiragiro ekinoonyesa emboozi enoonya ebikulembera ekifo mu ginnaayo obuwanvu bwakyo ssi bukugire</translation>
     </message>
     <message>
         <source>a relative value of zero is not allowed</source>
-        <translation>不允许相对值为零</translation>
+        <translation>ngeraagerana tekkirizibwa okubeera zero</translation>
     </message>
     <message>
         <source>conditional subpattern contains more than two branches</source>
-        <translation>条件子模式包含多于两个分支</translation>
+        <translation>waliwo enyingo y&apos;ekinoonyezebwa ey&apos;akakwakkulizo erimu amakubo agasukka mu abiri</translation>
+    </message>
+    <message>
+        <source>assertion expected after (?( or (?(?C)</source>
+        <translation>(?( oba (?(?C) bisuubirwa okuddibwako ekiragiro ekinoonyesa emboozi enooya ekifobufo mu ginnaayo</translation>
     </message>
     <message>
         <source>digit expected after (?+ or (?-</source>
-        <translation>(?+ 或 (?- 之后应为数字</translation>
+        <translation>(?+ or (?- bisuubirwa okuddibwako digiti</translation>
+    </message>
+    <message>
+        <source>unknown POSIX class name</source>
+        <translation>waliwo ekiteeredwawo ng&apos;erinnya ly&apos;ekiti ky&apos;ebinoonyezebwa ekitategeerese</translation>
+    </message>
+    <message>
+        <source>internal error in pcre2_study(): should not occur</source>
+        <translation>pcre2_study() ezzeeko kiremya: yekozemu by&apos;etateekwa okukola</translation>
+    </message>
+    <message>
+        <source>this version of PCRE2 does not have Unicode support</source>
+        <translation>PCRE2 ey&apos;oluwandika luno tesobola Unicode</translation>
+    </message>
+    <message>
+        <source>parentheses are too deeply nested (stack check)</source>
+        <translation>waliwo obubonero obwa ( ne ) we buyitiridde obungi munda mwa bunnaabwo (ggwanika eripangibwa)</translation>
+    </message>
+    <message>
+        <source>character code point value in \x{} or \o{} is too large</source>
+        <translation>ennamba ya kabonero ezingidwa mu \x{} oba mu \o{} eyitiridde obunene</translation>
     </message>
     <message>
         <source>lookbehind is too complicated</source>
-        <translation>后发断言过于复杂</translation>
+        <translation>ekiragiro ekinoonyesa emboozi enoonya ebikulembera ekifo mu ginnaayo kiyitiriddemu ebitundu</translation>
     </message>
     <message>
         <source>\C is not allowed in a lookbehind assertion in UTF-16 mode</source>
-        <translation>在 UTF-16 模式下，后发断言中不允许使用 \C</translation>
+        <translation>mu nkola ya UTF-16 akabonero \C tekakkirizibwa mu kiragiro ekinoonyesa emboozi enoonya ebigoberera ekifo mu ginnaayo</translation>
     </message>
     <message>
         <source>PCRE2 does not support \F, \L, \l, \N{name}, \U, or \u</source>
-        <translation>PCRE2 不支持 \F, \L, \l, \N{name}, \U 或 \u</translation>
+        <translation>PCRE2 tekozesa \F, \L, \l, \N{linnya}, \U, ne \u</translation>
+    </message>
+    <message>
+        <source>number after (?C is greater than 255</source>
+        <translation>ennamba eddirira (?C esukka mu 255</translation>
+    </message>
+    <message>
+        <source>closing parenthesis for (?C expected</source>
+        <translation>kubulako ) efundikira ebikolebwako (?C</translation>
+    </message>
+    <message>
+        <source>invalid escape sequence in (*VERB) name</source>
+        <translation>erinnya lya (*VERB) lirimu ekigambo ekifuula enneyisa ekitakolerawo</translation>
+    </message>
+    <message>
+        <source>unrecognized character after (?P</source>
+        <translation>akabonero akaddirira (?P tekatategeeredwa</translation>
     </message>
     <message>
         <source>syntax error in subpattern name (missing terminator?)</source>
-        <translation>子模式名称中的语法错误（缺少终止符？）</translation>
+        <translation>erinnya ly&apos;enyingo y&apos;ekinoonyezebwa lirimu ensobi y&apos;empandika (kubulako ekifundikira?)</translation>
+    </message>
+    <message>
+        <source>two named subpatterns have the same name (PCRE2_DUPNAMES not set)</source>
+        <translation>waliwo enyingo z&apos;ekinoonyezebwa bbiri ezituumidwa erinnya lye limu (PCRE2_DUPNAMES tekitegekedwa)</translation>
     </message>
     <message>
         <source>subpattern name must start with a non-digit</source>
-        <translation>子模式名称必须以非数字开头</translation>
+        <translation>erinnya ly&apos;enyingo y&apos;ekinoonyezebwa liteekwa okutandika n&apos;ekitali digiti</translation>
+    </message>
+    <message>
+        <source>this version of PCRE2 does not have support for \P, \p, or \X</source>
+        <translation>oluwandika lwa PCRE2 luno terukozesa \P, \p, ne \X</translation>
+    </message>
+    <message>
+        <source>malformed \P or \p sequence</source>
+        <translation>waliwo ekiragiro ekikozesa \P oba \p ekirimu ensobi</translation>
+    </message>
+    <message>
+        <source>unknown property name after \P or \p</source>
+        <translation>waliwo erinnya ly&apos;eky&apos;obutonde eritategeeredwa eriddirira \P oba \p</translation>
     </message>
     <message>
         <source>subpattern name is too long (maximum 32 code units)</source>
-        <translation>子模式名称太长（最多32个代码单元）</translation>
+        <translation>erinnya ery&apos;enyingo y&apos;ekinoonyezebwa liyitiridde obuwanvu (gateekwa butasukka birengo bya bukongozzi 32)</translation>
     </message>
     <message>
         <source>too many named subpatterns (maximum 10000)</source>
-        <translation>命名子模式过多（最多10000个）</translation>
+        <translation>mu kinoonyezebwa enyingo ez&apos;amannya ziyitiridde obungi (teziteekwa okusukka 10000)</translation>
+    </message>
+    <message>
+        <source>invalid range in character class</source>
+        <translation>olubu lw&apos;obubonero oluli mu mboozi enoonya terukozeseka</translation>
+    </message>
+    <message>
+        <source>octal value is greater than \377 in 8-bit non-UTF-8 mode</source>
+        <translation>mu nkola eya bbiti-8 etali ya UTF-8 ennamba eya mu nnengamunaana esukka mu \377</translation>
+    </message>
+    <message>
+        <source>internal error: overran compiling workspace</source>
+        <translation>puloguramu ezzeemu kiremya: emazeewo ekifo ekigiweeredwa okukoleramu mu ggwanika</translation>
+    </message>
+    <message>
+        <source>internal error: previously-checked referenced subpattern not found</source>
+        <translation>puloguramu ezzeemu kiremya: enyingo y&apos;ekinoonyezebwa tezuulidwa</translation>
     </message>
     <message>
         <source>DEFINE subpattern contains more than one branch</source>
-        <translation>DEFINE 子模式包含多个分支</translation>
+        <translation>enyingo y&apos;ekinoonyezebwa eya DEFINE erimu amakubo agasukka mu limu</translation>
+    </message>
+    <message>
+        <source>missing opening brace after \o</source>
+        <translation>{ eyandize oluvanyuma lwa \o teeriwo</translation>
+    </message>
+    <message>
+        <source>internal error: unknown newline setting</source>
+        <translation>puloguramu ezzeemu kiremya: waliwo enteekateeka ey&apos;okutandika olunyiriri olupya etategeerese</translation>
+    </message>
+    <message>
+        <source>\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number</source>
+        <translation>ekidda ku \g ssi namba njereere, ennamba eri mu bw&apos;ogeza, oba mu {} oba mu &lt;&gt;</translation>
     </message>
     <message>
         <source>(?R (recursive pattern call) must be followed by a closing parenthesis</source>
-        <translation>(?R（递归模式调用）后必须跟一个右括号</translation>
+        <translation>ebiddirira (?R nga bye by&apos;ekolako biteekwa okufundikirwa )</translation>
     </message>
     <message>
         <source>obsolete error (should not occur)</source>
-        <translation>过时错误（不应发生）</translation>
+        <translation>kiremya azzeewo yadibizibwa (teyandizzewo)</translation>
+    </message>
+    <message>
+        <source>(*VERB) not recognized or malformed</source>
+        <translation>(*VERB) tetegeerese oba erimu ensobi</translation>
     </message>
     <message>
         <source>subpattern number is too big</source>
-        <translation>子模式编号过大</translation>
+        <translation>enyingo y&apos;ekinoonyezebwa erimu ennamba eyitiridde obunene</translation>
+    </message>
+    <message>
+        <source>subpattern name expected</source>
+        <translation>enyingo y&apos;ekinoonyezebwa esuubirwa okubeera n&apos;erinnya</translation>
     </message>
     <message>
         <source>internal error: parsed pattern overflow</source>
-        <translation>内部错误：解析的模式溢出</translation>
+        <translation>puloguramu ezeemu kiremya: ekebedde ekinoonyezebwa ne kigereetera okumalawo ekifo ekigiweeredwa okukoleramu mu ggwanika</translation>
+    </message>
+    <message>
+        <source>non-octal character in \o{} (closing brace missing?)</source>
+        <translation>\o{} kirimu akabonero akatali ka nnengamunaana (oba ka } (akafundikira ke kataliiko?)</translation>
+    </message>
+    <message>
+        <source>different names for subpatterns of the same number are not allowed</source>
+        <translation>enyingo z&apos;ekinoonyebwa ebbiri ezitafaananganya mannya tezikkirizibwa okuba nga zisobola okuzuula ennamba y&apos;emu</translation>
+    </message>
+    <message>
+        <source>(*MARK) must have an argument</source>
+        <translation>(*MARK) yetaaga okubeera ne agumenti</translation>
+    </message>
+    <message>
+        <source>non-hex character in \x{} (closing brace missing?)</source>
+        <translation>\x{} kirimu akabonero akatali ka nnengakkuminamukaaga (oba ka } akafundikira ke kataliiko?)</translation>
+    </message>
+    <message>
+        <source>\c must be followed by a printable ASCII character</source>
+        <translation>ekiddirira \c kiteekwa okubeera akabonero ka mu ASCII akakubisika</translation>
+    </message>
+    <message>
+        <source>\c must be followed by a letter or one of [\]^_?</source>
+        <translation>ekiddirira \c kiteekwa okubeera nukuta oba kamu ku bubonero [\]^_?</translation>
+    </message>
+    <message>
+        <source>\k is not followed by a braced, angle-bracketed, or quoted name</source>
+        <translation>ekidda ku \k ssi linnya eriri mu bw&apos;ogeza, oba mu {} oba mu &lt;&gt;</translation>
     </message>
     <message>
         <source>internal error: unknown meta code in check_lookbehinds()</source>
-        <translation>内部错误：check_lookbehinds() 中的未知元代码</translation>
+        <translation>puloguramu ezzeemu kiremya: esanze ebiragiro ebyanjuzi by&apos;etategeera mu check_lookbehinds()</translation>
+    </message>
+    <message>
+        <source>\N is not supported in a class</source>
+        <translation>\N tekikkirizibwa mu lubu lw&apos;ebinoonyezebwa</translation>
     </message>
     <message>
         <source>callout string is too long</source>
-        <translation>调用字符串过长</translation>
+        <translation>ekigambo ekya mu kiragiro ekyeyazisi kiyitiridde obuwanvu</translation>
+    </message>
+    <message>
+        <source>disallowed Unicode code point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</source>
+        <translation>mulimu ennamba y&apos;akabonero eya mu Unicode eyadibizibwa (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</translation>
+    </message>
+    <message>
+        <source>using UTF is disabled by the application</source>
+        <translation>puloguramu esibye okukozesa UTF</translation>
+    </message>
+    <message>
+        <source>using UCP is disabled by the application</source>
+        <translation>puloguramu esibye okukozesa UCP</translation>
+    </message>
+    <message>
+        <source>name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)</source>
+        <translation>erinnya mu (*MARK), (*PRUNE), (*SKIP), oba (*THEN) liyitiridde obuwanvu</translation>
+    </message>
+    <message>
+        <source>character code point value in \u.... sequence is too large</source>
+        <translation>ennamba ya kabonero ezingidwa mu ebigobereragana ebigendera ku \u ... eyitiridde obunene</translation>
     </message>
     <message>
         <source>digits missing in \x{} or \o{} or \N{U+}</source>
-        <translation>\x{} 或 \o{} 或 \N{U+} 中缺少数字</translation>
+        <translation>kubulako digiti mu \x{} oba \o{} oba \N{U+}</translation>
     </message>
     <message>
         <source>syntax error or number too big in (?(VERSION condition</source>
-        <translation>(?(VERSION 条件中的语法错误或数字过大</translation>
+        <translation>akakwakkulizo akategekebwa (?(VERSION kalimu ensobi y&apos;empandika oba kalimu ennamba eyitiridde obunene</translation>
     </message>
     <message>
         <source>internal error: unknown opcode in auto_possessify()</source>
-        <translation>内部错误：auto_possessify() 中的未知操作码</translation>
+        <translation>puloguramu ezzeemu kiremya: esanze ekikongojjamulimu ky&apos;etategeera mu auto_possessify()</translation>
     </message>
     <message>
         <source>missing terminating delimiter for callout with string argument</source>
-        <translation>带字符串参数的调用缺少终止分隔符</translation>
+        <translation>waliwo ekiragiro ekyeyazisi nga agumenti ya kyo kigambo ekibulako akabonero ak&apos;awuzi akakifundikira</translation>
     </message>
     <message>
         <source>unrecognized string delimiter follows (?C</source>
-        <translation>(?C 之后是无法识别的字符串分隔符</translation>
+        <translation>akabonero ak&apos;awuzi akaddirira obubonero (?C tekategeeredwa</translation>
     </message>
     <message>
         <source>using \C is disabled by the application</source>
-        <translation>应用程序禁止使用 \C</translation>
+        <translation>puloguramu esibye okukozesa \C</translation>
     </message>
     <message>
         <source>(?| and/or (?J: or (?x: parentheses are too deeply nested</source>
-        <translation>(?| 和/或 (?J: 或 (?x: 括号嵌套太深</translation>
+        <translation>(?| ne/oba (?J: oba (?x: waliwo obubonero obwa ( ne ) we buyitiridde obungi munda mwa bunnaabwo</translation>
     </message>
     <message>
         <source>using \C is disabled in this PCRE2 library</source>
-        <translation>在此 PCRE2 库中禁止使用 \C</translation>
+        <translation>mu puloguramu eyeyazikibwa eya PCRE2 eno okukozesa \C kusibidwa</translation>
     </message>
     <message>
         <source>regular expression is too complicated</source>
-        <translation>正则表达式太复杂</translation>
+        <translation>emboozi enoonya eyitiridde mu ebitundu ebingi</translation>
     </message>
     <message>
         <source>lookbehind assertion is too long</source>
-        <translation>后发断言太长</translation>
+        <translation>Ekiragiro ekinoonyesa emboozi enoonya ebikulembera ekifo mu ginnaayo kiyitiridde obuwanvu</translation>
     </message>
     <message>
         <source>pattern string is longer than the limit set by the application</source>
-        <translation>模式字符串长于应用程序设置的限制</translation>
+        <translation>obuwanvu bw&apos;emboozi eya mu kinoonyezebwa buyise ku kkomo puloguramu gy&apos;etaddewo</translation>
     </message>
     <message>
         <source>internal error: unknown code in parsed pattern</source>
-        <translation>内部错误：解析模式中的未知代码</translation>
+        <translation>puloguramu ezzeemu kiremya: esanze ebiragiro by&apos;etategeera mu kinonyezebwa ky&apos;ekebedde</translation>
     </message>
     <message>
         <source>internal error: bad code value in parsed_skip()</source>
-        <translation>内部错误：parsed_skip() 中的错误代码值</translation>
+        <translation>puloguramu ezzeemu kiremya: esanze ekikongojje ekisobi mu parsed_skip()</translation>
     </message>
     <message>
         <source>PCRE2_EXTRA_ALLOW_SURROGATE_ESCAPES is not allowed in UTF-16 mode</source>
-        <translation>在 UTF-16 模式下不允许使用 PCRE2_EXTRA_ALLOW_SURROGATE_ESCAPES</translation>
+        <translation>PCRE2_EXTRA_ALLOW_SURROGATE_ESCAPES tekikkirizibwa mu nkola ya UTF-16</translation>
     </message>
     <message>
         <source>invalid option bits with PCRE2_LITERAL</source>
-        <translation>与 PCRE2_LITERAL 相关的选项位无效</translation>
+        <translation>PCRE2_LITERAL eriko obuwayiro obutakozeseka</translation>
     </message>
     <message>
         <source>\N{U+dddd} is supported only in Unicode (UTF) mode</source>
-        <translation>\N{U+dddd} 仅在 Unicode (UTF) 模式下受支持</translation>
+        <translation>\N{U+dddd} kitegeerebwa mu nkola ya Unicode (UTF) mwokka</translation>
     </message>
     <message>
         <source>invalid hyphen in option setting</source>
-        <translation>选项设置中的连字符无效</translation>
+        <translation>waliwo - w&apos;etakkirizibwa mu nteekateeka ya buwayiro</translation>
     </message>
     <message>
         <source>(*alpha_assertion) not recognized</source>
-        <translation>未识别 (*alpha_assertion)</translation>
+        <translation>(*alpha_assertion) tekitegeeredwa</translation>
     </message>
     <message>
         <source>script runs require Unicode support, which this version of PCRE2 does not have</source>
-        <translation>脚本运行需要 Unicode 支持，而此版本的 PCRE2 不支持</translation>
+        <translation>ebiragiro ebiyunge byeyambisa enkola ya Unicode, oluwandika lwa PCRE2 luno kye lutalina</translation>
     </message>
     <message>
         <source>too many capturing groups (maximum 65535)</source>
-        <translation>捕获组过多（最大 65535 个）</translation>
+        <translation>enyingo z&apos;ekinoonyezebwa ezikozesebwa ng&apos;ebigambo by&apos;awamu ziyitiridde obungi (tezikkirizibwa kusukka mu 65535)</translation>
     </message>
     <message>
         <source>atomic assertion expected after (?( or (?(?C)</source>
-        <translation>在 (?( 或 (?(?C) 后预期有原子断言</translation>
+        <translation>ekiragiro ekinoonyesa emboozi enoonya ekifobufo mu ginnaayo ekiddirira (?( or (?(?C) kyetaaga okubeera nga emboozi ya mu ekozesebwa wamu ng&apos;ekigambo</translation>
     </message>
     <message>
         <source>no match</source>
-        <translation>不匹配</translation>
+        <translation>tewali bizuulidwa</translation>
     </message>
     <message>
         <source>partial match</source>
-        <translation>部分匹配</translation>
+        <translation>wazuulidwa bitundu by&apos;ekinoonyezebwa</translation>
     </message>
     <message>
         <source>UTF-8 error: 1 byte missing at end</source>
-        <translation>UTF-8 错误：末尾缺少 1 个字节</translation>
+        <translation>kiremya wa mu UTF-8: wasangidwa ekibulako bayiti 1 esembayo</translation>
     </message>
     <message>
         <source>UTF-8 error: 2 bytes missing at end</source>
-        <translation>UTF-8 错误：末尾缺少 2 个字节</translation>
+        <translation>kiremya wa mu UTF-8: wasangidwa ekibulako bayiti 2 ezisembayo</translation>
     </message>
     <message>
         <source>UTF-8 error: 3 bytes missing at end</source>
-        <translation>UTF-8 错误：末尾缺少 3 个字节</translation>
+        <translation>kiremya wa mu UTF-8: wasangidwa ekibulako bayiti 3 ezisembayo</translation>
     </message>
     <message>
         <source>UTF-8 error: 4 bytes missing at end</source>
-        <translation>UTF-8 错误：末尾缺少 4 个字节</translation>
+        <translation>kiremya wa mu UTF-8: wasangidwa ekibulako bayiti 4 ezisembayo</translation>
     </message>
     <message>
         <source>UTF-8 error: 5 bytes missing at end</source>
-        <translation>UTF-8 错误：末尾缺少 5 个字节</translation>
+        <translation>kiremya wa mu UTF-8: wasangidwa ekibulako bayiti 5 ezisembayo</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 2 top bits not 0x80</source>
-        <translation>UTF-8 错误：字节 2 的高位不是 0x80</translation>
+        <translation>kiremya wa mu UTF-8: wasangidwa ekirina bbiti ezisinga obuzito mu bayiti yakyo ey&apos;okubiri nga teziri 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 3 top bits not 0x80</source>
-        <translation>UTF-8 错误：字节 3 的高位不是 0x80</translation>
+        <translation>kiremya wa mu UTF-8: wasangidwa ekirina bbiti ezisinga obuzito mu bayiti yakyo ey&apos;okusatu nga teziri 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 4 top bits not 0x80</source>
-        <translation>UTF-8 错误：字节 4 的高位不是 0x80</translation>
+        <translation>kiremya wa mu UTF-8: wasangidwa ekirina bbiti ezisinga obuzito mu bayiti yakyo ey&apos;okuna nga teziri 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 5 top bits not 0x80</source>
-        <translation>UTF-8 错误：字节 5 的高位不是 0x80</translation>
+        <translation>kiremya wa mu UTF-8: wasangidwa ekirina bbiti ezisinga obuzito mu bayiti yakyo ey&apos;okutaano nga teziri 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 6 top bits not 0x80</source>
-        <translation>UTF-8 错误：字节 6 的高位不是 0x80</translation>
+        <translation>kiremya wa mu UTF-8: wasangidwa ekirina bbiti ezisinga obuzito mu bayiti yakyo eya mukaaga nga teziri 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: 5-byte character is not allowed (RFC 3629)</source>
-        <translation>UTF-8 错误：不允许使用 5 字节字符 (RFC 3629)</translation>
+        <translation>kiremya wa mu UTF-8: okukozesa bayiti ttaano okukongojja akabonero tekikkirizibwa (RFC 3629)</translation>
     </message>
     <message>
         <source>UTF-8 error: 6-byte character is not allowed (RFC 3629)</source>
-        <translation>UTF-8 错误：不允许使用 6 字节字符 (RFC 3629)</translation>
+        <translation>kiremya wa mu UTF-8: okukozesa bayiti mukaaga okukongojja akabonero tekikkirizibwa (RFC 3629)</translation>
     </message>
     <message>
         <source>UTF-8 error: code points greater than 0x10ffff are not defined</source>
-        <translation>UTF-8 错误：未定义大于 0x10FFFF 的代码点</translation>
+        <translation>kiremya wa mu UTF-8: namba za bubonero ennene okusukka 0x10ffff ssi ntegeke</translation>
     </message>
     <message>
         <source>UTF-8 error: code points 0xd800-0xdfff are not defined</source>
-        <translation>UTF-8 错误：未定义代码点 0xD800-0xDFFF</translation>
+        <translation>kiremya wa mu UTF-8: namba za bubonero okutandikira ku 0xd800 okukoma ku 0xdfff ssi ntegeke</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 2-byte sequence</source>
-        <translation>UTF-8 错误：超长 2 字节序列</translation>
+        <translation>kiremya wa mu UTF-8: wasangidwa olukolongo lwa bayiti bbiri olukozesa namba za bubonero enpanvuwaze</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 3-byte sequence</source>
-        <translation>UTF-8 错误：超长 3 字节序列</translation>
+        <translation>kiremya wa mu UTF-8: wasangidwa olukolongo lwa bayiti ssatu olukozesa namba za bubonero enpanvuwaze</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 4-byte sequence</source>
-        <translation>UTF-8 错误：超长 4 字节序列</translation>
+        <translation>kiremya wa mu UTF-8: wasangidwa olukolongo lwa bayiti nya olukozesa namba za bubonero enpanvuwaze</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 5-byte sequence</source>
-        <translation>UTF-8 错误：超长 5 字节序列</translation>
+        <translation>kiremya wa mu UTF-8: wasangidwa olukolongo lwa bayiti ttaano olukozesa namba za bubonero enpanvuwaze</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 6-byte sequence</source>
-        <translation>UTF-8 错误：超长 6 字节序列</translation>
+        <translation>kiremya wa mu UTF-8: wasangidwa olukolongo lwa bayiti mukaaga olukozesa namba za bubonero enpanvuwaze</translation>
     </message>
     <message>
         <source>UTF-8 error: isolated byte with 0x80 bit set</source>
-        <translation>UTF-8 错误：设置为 0x80 位的隔离字节</translation>
+        <translation>kiremya wa mu UTF-8: wasangidwa bayiti sekinnoomu nga bbiti za yo ebbiri ezisinga obuzito z&apos;enkana 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: illegal byte (0xfe or 0xff)</source>
-        <translation>UTF-8 错误：非法字节 (0xfe 或 0xff)</translation>
+        <translation>kiremya wa mu UTF-8: wasangidwa bayiti etakkirizibwa (yenkana 0xfe oba 0xff)</translation>
     </message>
     <message>
         <source>UTF-16 error: missing low surrogate at end</source>
-        <translation>UTF-16 错误：末尾缺少低代理</translation>
+        <translation>kiremya wa mu UTF-16: enkomerero ebulako ekirengo kya bukongozzi ekizimbakabonero ekigoberera</translation>
     </message>
     <message>
         <source>UTF-16 error: invalid low surrogate</source>
-        <translation>UTF-16 错误：低代理无效</translation>
+        <translation>kiremya wa mu UTF-16: wasangidwa ekirengo kya bukongozzi ekizimbakabonero ekigoberera eky&apos;ensobi</translation>
     </message>
     <message>
         <source>UTF-16 error: isolated low surrogate</source>
-        <translation>UTF-16 错误：孤立的低代理</translation>
+        <translation>kiremya wa mu UTF-16: wasangidwa ekirengo kya bukongozzi ekizimbakabonero ekigoberera kisekinnoomu</translation>
     </message>
     <message>
         <source>UTF-32 error: code points 0xd800-0xdfff are not defined</source>
-        <translation>UTF-32 错误：未定义代码点 0xd800-0xdfff</translation>
+        <translation>kiremya wa mu UTF-32: namba za bubonero okutandikira ku 0xd800 okukoma ku 0xdfff ssi ntegeke</translation>
     </message>
     <message>
         <source>UTF-32 error: code points greater than 0x10ffff are not defined</source>
-        <translation>UTF-32 错误：未定义大于 0x10ffff 的代码点</translation>
+        <translation>kiremya wa mu UTF-32: namba za bubonero ennene okusukka 0x10ffff ssi ntegeke</translation>
     </message>
     <message>
         <source>bad data value</source>
-        <translation>错误的数据值</translation>
+        <translation>data erimu ekikongojje ekitakozeseka</translation>
     </message>
     <message>
         <source>patterns do not all use the same character tables</source>
-        <translation>模式并不都使用相同的字符表</translation>
+        <translation>ebinoonyezebwa tebikozesa byonna olubu lw&apos;obubonero luwe lumu</translation>
     </message>
     <message>
         <source>magic number missing</source>
-        <translation>魔数缺失</translation>
+        <translation>kubulako omuwendo omupaatiike</translation>
     </message>
     <message>
         <source>pattern compiled in wrong mode: 8/16/32-bit error</source>
-        <translation>模式编译错误：8/16/32 位错误</translation>
+        <translation>ekinoonyezedwa kitegekedwa mu nkola ensobu: kiremya wa bbiti 8/16/32</translation>
     </message>
     <message>
         <source>bad offset value</source>
-        <translation>错误的偏移值</translation>
+        <translation>ennamba y&apos;obusangiro etegekedwa mbi</translation>
     </message>
     <message>
         <source>bad option value</source>
-        <translation>错误的选项值</translation>
+        <translation>akawayiro kategekedwa bubi</translation>
     </message>
     <message>
         <source>invalid replacement string</source>
-        <translation>无效的替换字符串</translation>
+        <translation>ekigambo ekipya tekikozeseka</translation>
     </message>
     <message>
         <source>bad offset into UTF string</source>
-        <translation>到 UTF 字符串的错误偏移量</translation>
+        <translation>obusangiro mu kigambo kya UTF butegekedwa bubi</translation>
     </message>
     <message>
         <source>callout error code</source>
-        <translation>调用错误代码</translation>
+        <translation>namba ya kiremya wa ku kiragiro ekyeyazisi</translation>
     </message>
     <message>
         <source>invalid data in workspace for DFA restart</source>
-        <translation>工作区中用于重新启动 DFA 的数据无效</translation>
+        <translation>ekifo mu ggwanika ekiweeredwa puloguramu eyekozesa emikolo emibale okwetandikisa kirimu data etakozeseka</translation>
     </message>
     <message>
         <source>too much recursion for DFA matching</source>
-        <translation>DFA 匹配的递归太多</translation>
+        <translation>puloguramu eyekozesa emikolo emibale omulimu ogw&apos;okunoonya egusanzemu eby&apos;okukozesa ebivudde mu miku egiwedde ebitiyitiridde obungi</translation>
     </message>
     <message>
         <source>backreference condition or recursion test is not supported for DFA matching</source>
-        <translation>DFA 匹配不支持反向引用条件或递归测试</translation>
+        <translation>waliwo okukeberera okukozesa ebivudde mu miku egiwedde okutakolagana n&apos;ogw&apos;okunoonya ogwa puloguramu eyekozesa emikolo emibale, oba waliwo akakwakkulizo mu kitundu ky&apos;ekiragiro ekikola ku bireetedwa ekitundu ky&apos;ekiragiro ekyo ekikikulembedde akatakolagana n&apos;ogw&apos;okunoonya ogwa puloguramu eyo</translation>
     </message>
     <message>
         <source>function is not supported for DFA matching</source>
-        <translation>DFA 匹配不支持该功能</translation>
+        <translation>omukolo tegukolagana n&apos;ogw&apos;okunoonya ogwa puloguramu eyekozesa emikolo emibale</translation>
     </message>
     <message>
         <source>pattern contains an item that is not supported for DFA matching</source>
-        <translation>模式包含 DFA 匹配不支持的项</translation>
+        <translation>ekinoonyezebwa kirimu ekitakolagana n&apos;ogw&apos;okunoonya ogwa puloguramu eyekozesa emikolo emibale</translation>
     </message>
     <message>
         <source>workspace size exceeded in DFA matching</source>
-        <translation>DFA 匹配中超出工作区大小</translation>
+        <translation>ogw&apos;okunoonya ogwa puloguramu eyekozesa emikolo emibale gumazeyo ekifo mu ggwanika ekiguweeredwa</translation>
     </message>
     <message>
         <source>internal error - pattern overwritten?</source>
-        <translation>内部错误 - 模式被覆盖？</translation>
+        <translation>puloguramu ezzeemu kiremya - oba oli awo waliwo ebizzidwa mu kifo ky&apos;ekinoonyezebwa?</translation>
     </message>
     <message>
         <source>bad JIT option</source>
-        <translation>错误的 JIT 选项</translation>
+        <translation>waliwo akawayiro aka JIT akasobi</translation>
     </message>
     <message>
         <source>JIT stack limit reached</source>
-        <translation>已达到 JIT 堆栈限制</translation>
+        <translation>ekkomo ly&apos;eggwanika eripangibwa erya JIT lituukidwako</translation>
     </message>
     <message>
         <source>match limit exceeded</source>
-        <translation>超过匹配限制</translation>
+        <translation>ekkomo ly&apos;ebizuulidwa liyisidwako</translation>
     </message>
     <message>
         <source>no more memory</source>
-        <translation>没有更多的内存</translation>
+        <translation>ggwanika temukyali kifo</translation>
     </message>
     <message>
         <source>unknown substring</source>
-        <translation>未知子字符串</translation>
+        <translation>waliwo ekitundu ekitayatuukirizidwa eky&apos;ekigambo</translation>
     </message>
     <message>
         <source>non-unique substring name</source>
-        <translation>非唯一的子字符串名称</translation>
+        <translation>ebitundu by&apos;ekigambo ebirala nabyo birina erinnya eryo</translation>
     </message>
     <message>
         <source>NULL argument passed</source>
-        <translation>传递了 NULL 参数</translation>
+        <translation>NULL kiweeredwa yo nga agumenti</translation>
     </message>
     <message>
         <source>nested recursion at the same subject position</source>
-        <translation>在同一主题位置嵌套递归</translation>
+        <translation>waliwo omulimu wegukola ku bivudde mu miku gya gwo egikulembedde emirundi egisoba mu gumu</translation>
     </message>
     <message>
         <source>matching depth limit exceeded</source>
-        <translation>超出匹配深度限制</translation>
-    </message>
-    <message>
-        <source>match with end before start or start moved backwards is not supported</source>
-        <translation>不支持结束位置在开始位置之前或开始位置向后移动的匹配</translation>
-    </message>
-    <message>
-        <source>bad serialized data</source>
-        <translation>错误的序列化数据</translation>
-    </message>
-    <message>
-        <source>heap limit exceeded</source>
-        <translation>超出堆内存限制</translation>
-    </message>
-    <message>
-        <source>invalid syntax</source>
-        <translation>无效的语法</translation>
-    </message>
-    <message>
-        <source>internal error - duplicate substitution match</source>
-        <translation>内部错误 - 重复的替换匹配</translation>
-    </message>
-    <message>
-        <source>PCRE2_MATCH_INVALID_UTF is not supported for DFA matching</source>
-        <translation>DFA 匹配不支持 PCRE2_MATCH_INVALID_UTF</translation>
-    </message>
-    <message>
-        <source>recursion limit exceeded</source>
-        <translation type="vanished">超过递归限制</translation>
+        <translation>ebizuulidwa bisinga ekkomo</translation>
     </message>
     <message>
         <source>requested value is not available</source>
-        <translation>请求的值不可用</translation>
+        <translation>ekinoonyezebwa tekifunika</translation>
     </message>
     <message>
         <source>requested value is not set</source>
-        <translation>请求的值未设置</translation>
+        <translation>ekinoonyezebwa tekitegekedwa</translation>
     </message>
     <message>
         <source>offset limit set without PCRE2_USE_OFFSET_LIMIT</source>
-        <translation>设置偏移量限制，但无 PCRE2_USE_OFFSET_LIMIT</translation>
+        <translation>awatandikirwa wategekedwa nga PCRE2_USE_OFFSET_LIMIT kyo ssi kitegeke</translation>
     </message>
     <message>
         <source>bad escape sequence in replacement string</source>
-        <translation>替换字符串中的转义序列错误</translation>
+        <translation>ekigambo ekigenda okuzzibwa mu kifo kya kinnaakyo kirimu ekigambo ekifuula enneyisa ekisobi</translation>
     </message>
     <message>
         <source>expected closing curly bracket in replacement string</source>
-        <translation>替换字符串中应有右大括号</translation>
+        <translation>ekigambo ekigenda okuzzibwa mu kifo kya kinnaakyo kyetaagisamu ka }</translation>
     </message>
     <message>
         <source>bad substitution in replacement string</source>
-        <translation>替换字符串中的替换错误</translation>
+        <translation>ekigambo ekigenda okuzzibwa mu kifo kya kinnaakyo kirimu ekiragiro ekisobi</translation>
     </message>
     <message>
-        <source>match with end before start is not supported</source>
-        <translation type="vanished">不支持在开始前与结束匹配</translation>
+        <source>match with end before start or start moved backwards is not supported</source>
+        <translation>sisitemu temanyi okunoonya ebifaanana ekinoonyezebwa ku nkomerero z&apos;ebinoonyezebwamu</translation>
     </message>
     <message>
         <source>too many replacements (more than INT_MAX)</source>
-        <translation>替换太多 (超过 INT_MAX)</translation>
+        <translation>ebigenda okuzzibwa mu bifo bya binnaabyo biyitiridde obungi (bisukka mu INT_MAX)</translation>
+    </message>
+    <message>
+        <source>bad serialized data</source>
+        <translation>waliwo data evungise embi</translation>
+    </message>
+    <message>
+        <source>heap limit exceeded</source>
+        <translation>ekkomo ly&apos;eggwanka ery&apos;entuumo liyitidwako</translation>
+    </message>
+    <message>
+        <source>invalid syntax</source>
+        <translation>waliwo ebiri mu mpandika etategeereka</translation>
+    </message>
+    <message>
+        <source>internal error - duplicate substitution match</source>
+        <translation>puloguramu ezzeemu kiremya - waliwo ekizuulidwa ekiragidwa okuwanyisibwamu bya mirundi ebiri</translation>
+    </message>
+    <message>
+        <source>PCRE2_MATCH_INVALID_UTF is not supported for DFA matching</source>
+        <translation>PCRE2_MATCH_INVALID_UTF tekikolagana n&apos;ogw&apos;okunoonya ogwa puloguramu eyekozesa emikolo emibale</translation>
     </message>
 </context>
 <context>
     <name>QSQLite2Driver</name>
     <message>
         <source>Error opening database</source>
-        <translation>打开数据库出错</translation>
+        <translation>Wazzewo kiremya mu kubikkula ggwanika lya data</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>无法开始事务</translation>
+        <translation>Tekisobose okutandika omukolo</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>无法提交事务</translation>
+        <translation>Tekisobose okukaza ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>无法回滚事务</translation>
+        <translation>Tekisobose okujjulula ebikyusidwa</translation>
     </message>
 </context>
 <context>
     <name>QSQLite2Result</name>
     <message>
         <source>Unable to fetch results</source>
-        <translation>无法获取结果</translation>
+        <translation>Tekisobose okunona ebivudde mu kunoonya</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>无法执行语句</translation>
+        <translation>Tekisobose okutandika ekiragiro ekya mu ggwanika lya data</translation>
     </message>
 </context>
 <context>
     <name>QSQLiteDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>打开数据库时出错</translation>
+        <translation>Wazzewo kiremya mu kubikkula ggwanika lya data</translation>
     </message>
     <message>
         <source>Error closing database</source>
-        <translation>关闭数据库时出错</translation>
+        <translation>Wazzewo kiremya mu kuggalawo ggwanika lya data</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>无法开始事务</translation>
+        <translation>Tekisobose okutandika omukolo</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>无法提交事务</translation>
+        <translation>Tekisobose okukaza ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>无法回滚事务</translation>
+        <translation>Tekisobose okujjulula ebikyusidwa</translation>
     </message>
 </context>
 <context>
     <name>QSQLiteResult</name>
     <message>
         <source>Unable to fetch row</source>
-        <translation>无法获取行</translation>
+        <translation>Tekisobose okunona olunyiriri lwa data</translation>
     </message>
     <message>
         <source>No query</source>
-        <translation>没有查询</translation>
+        <translation>Wabuzewo kiragiro</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>无法执行语句</translation>
+        <translation>Tekisobose okutandika ekiragiro ekya mu ggwanika lya data</translation>
     </message>
     <message>
         <source>Unable to execute multiple statements at a time</source>
-        <translation>无法一次执行多个语句</translation>
+        <translation>Tekisobose okutandikira okumu ebiragiro ebya mu ggwanika lya data ebisukka mu kimu</translation>
     </message>
     <message>
         <source>Unable to reset statement</source>
-        <translation>无法重置语句</translation>
+        <translation>Tekisobose okuzza ekiragiro ekya mu ggwanika lya data mu mbeera yakyo eyasoose</translation>
     </message>
     <message>
         <source>Unable to bind parameters</source>
-        <translation>无法绑定参数</translation>
+        <translation>Tekisobose okuzza ebikongojje ebya ddala mu bifo by&apos;ebikwatakifo</translation>
     </message>
     <message>
         <source>Parameter count mismatch</source>
-        <translation>参数数量不匹配</translation>
+        <translation>Agumenti ne paramita tezenkanankana obungi</translation>
     </message>
 </context>
 <context>
     <name>QSaveFile</name>
     <message>
         <source>Existing file %1 is not writable</source>
-        <translation>已有文件 %1 不可写入</translation>
+        <translation>Fayiro eriwo, %1, tewandikikamu</translation>
     </message>
     <message>
         <source>Filename refers to a directory</source>
-        <translation>文件名指向一个目录</translation>
+        <translation>Erinnya lya tterekero</translation>
     </message>
     <message>
         <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled.</source>
-        <translation>QSaveFile 无法在未启用 direct write fallback 时打开“%1”。</translation>
-    </message>
-    <message>
-        <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled: path contains an Alternate Data Stream specifier</source>
-        <translation type="vanished">没有启用直接写回退，QSaveFile 无法打开“%1”：路径包含备用数据流说明符</translation>
+        <translation>QSaveFile tesobola okubikkula &apos;%1&apos; nga tesobozesedwa okugiwandikamu butereevu bwe kiba nga kyetaagisidwa.</translation>
     </message>
     <message>
         <source>Writing canceled by application</source>
-        <translation>写入已被应用程序取消</translation>
+        <translation>Puloguramu okuwandika ekusazizzamu</translation>
     </message>
 </context>
 <context>
     <name>QScrollBar</name>
     <message>
         <source>Scroll here</source>
-        <translation>滚动至此</translation>
+        <translation>Seesa okutuuka wano</translation>
     </message>
     <message>
         <source>Left edge</source>
-        <translation>左边缘</translation>
+        <translation>Seesa okumalayo ku kkono</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation>顶端</translation>
+        <translation>Dda waggulu awatandika</translation>
     </message>
     <message>
         <source>Right edge</source>
-        <translation>右边缘</translation>
+        <translation>Seesa okumalayo ku ddyo</translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation>底部</translation>
+        <translation>Dda wansi awasemba</translation>
     </message>
     <message>
         <source>Page left</source>
-        <translation>向左翻页</translation>
+        <translation>Seesa ku kkono ekyenkana ebirabika kakati</translation>
     </message>
     <message>
         <source>Page up</source>
-        <translation>向上翻页</translation>
+        <translation>Seesa waggulu ekyenkana ebirabika kakati</translation>
     </message>
     <message>
         <source>Page right</source>
-        <translation>向右翻页</translation>
+        <translation>Seesa ku ddyo ekyenkana ebirabika kakati</translation>
     </message>
     <message>
         <source>Page down</source>
-        <translation>向下翻页</translation>
+        <translation>Seesa wansi ekyenkana ebirabika kakati</translation>
     </message>
     <message>
         <source>Scroll left</source>
-        <translation>向左滚动</translation>
+        <translation>Seesa ku kkono</translation>
     </message>
     <message>
         <source>Scroll up</source>
-        <translation>向上滚动</translation>
+        <translation>Seesa waggulu</translation>
     </message>
     <message>
         <source>Scroll right</source>
-        <translation>向右滚动</translation>
+        <translation>Seesa ku ddyo</translation>
     </message>
     <message>
         <source>Scroll down</source>
-        <translation>向下滚动</translation>
+        <translation>Seesa wansi</translation>
     </message>
 </context>
 <context>
     <name>QSctpSocket</name>
     <message>
         <source>The remote host closed the connection</source>
-        <translation>远端主机关闭了这个连接</translation>
+        <translation>Kompyuta ey&apos;ebunaayira eggadewo empulizagana</translation>
     </message>
 </context>
 <context>
     <name>QSharedMemory</name>
     <message>
         <source>%1: unable to set key on lock</source>
-        <translation>%1：无法设置锁定的键</translation>
+        <translation>%1: waliwo ekikugizo ekigaana ekitundu ky&apos;eggwanika okugabanibwa</translation>
     </message>
     <message>
         <source>%1: create size is less then 0</source>
-        <translation>%1：创建的大小小于 0</translation>
+        <translation>%1: obunene obutegekedwa ku kitundu ky&apos;eggwanika ekikolebwawo bwa negatifu</translation>
     </message>
     <message>
         <source>%1: unable to lock</source>
-        <translation>%1：无法锁定</translation>
+        <translation>%1: tekisobose okuteekawo ekikugizo ku kitundu ky&apos;eggwanika</translation>
     </message>
     <message>
         <source>%1: unable to unlock</source>
-        <translation>%1：无法取消锁定</translation>
+        <translation>%1: tekisobose okugyako ekikugizo ku kitundu ky&apos;eggwanika</translation>
     </message>
     <message>
         <source>%1: key is empty</source>
-        <translation>%1：键是空的</translation>
+        <translation>%1: ennambakifo bbanga jjereere</translation>
     </message>
     <message>
         <source>%1: bad name</source>
-        <translation>%1：错误的名称</translation>
+        <translation>%1: waliwo ekituumidwa erinnya eritakozeseka</translation>
     </message>
     <message>
         <source>%1: UNIX key file doesn&apos;t exist</source>
-        <translation>%1：UNIX 密钥文件不存在</translation>
+        <translation>%1: ftok teraba fayiro gy&apos;ekolera ennambakifo</translation>
     </message>
     <message>
         <source>%1: ftok failed</source>
-        <translation>%1：ftok 失败</translation>
+        <translation>%1: ftok eremeredwa</translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
-        <translation>%1：无法生成键</translation>
+        <translation>%1: tekisobose okukola ennambakifo</translation>
     </message>
     <message>
         <source>%1: system-imposed size restrictions</source>
-        <translation>%1：系统预设大小限制</translation>
+        <translation>%1: sistemu yateekawo ekkomo ku bunene bw&apos;ebitundu by&apos;eggwanika</translation>
     </message>
     <message>
         <source>%1: not attached</source>
-        <translation>%1：没有附加</translation>
+        <translation>%1: ekitundu ky&apos;eggwanika tekikwataganizidwa</translation>
     </message>
     <message>
         <source>%1: permission denied</source>
-        <translation>%1：权限被拒绝</translation>
+        <translation>%1: Olukusa teruweeredwa</translation>
     </message>
     <message>
         <source>%1: already exists</source>
-        <translation>%1：已经存在</translation>
+        <translation>%1: esangidwa weeri</translation>
     </message>
     <message>
         <source>%1: doesn&apos;t exist</source>
-        <translation>%1：不存在</translation>
+        <translation>%1: teeriwo</translation>
     </message>
     <message>
         <source>%1: out of resources</source>
-        <translation>%1：资源耗尽</translation>
+        <translation>%1: sisitemu bye yeyambsa okukola omulimu tebimala, byonna bikozesebwa</translation>
     </message>
     <message>
         <source>%1: unknown error %2</source>
-        <translation>%1：未知错误 %2</translation>
+        <translation>%1: wazzewo kiremya atategeereka %2</translation>
     </message>
     <message>
         <source>%1: invalid size</source>
-        <translation>%1：无效大小</translation>
+        <translation>%1: obunene obutegekedwa tebukozeseka</translation>
     </message>
     <message>
         <source>%1: key error</source>
-        <translation>%1：键错误</translation>
+        <translation>%1: ennambakifo eriko kiremya</translation>
     </message>
     <message>
         <source>%1: size query failed</source>
-        <translation>%1：大小查询失败</translation>
+        <translation>%1: ekiragiro ekizuula obunene bw&apos;ekitundu ky&apos;eggwanika kiremeredwa</translation>
     </message>
 </context>
 <context>
@@ -5317,7 +5149,7 @@ Please turn one of those options off.</source>
     <message>
         <source>Space</source>
         <extracomment>This and all following &quot;incomprehensible&quot; strings in QShortcut context are key names. Please use the localized names appearing on actual keyboards or whatever is commonly used.</extracomment>
-        <translation>空格</translation>
+        <translation>Space</translation>
     </message>
     <message>
         <source>Esc</source>
@@ -5333,15 +5165,15 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Backspace</source>
-        <translation>退格</translation>
+        <translation>Backspace</translation>
     </message>
     <message>
         <source>Return</source>
-        <translation>回车</translation>
+        <translation>Return</translation>
     </message>
     <message>
         <source>Enter</source>
-        <translation>回车</translation>
+        <translation>Enter</translation>
     </message>
     <message>
         <source>Ins</source>
@@ -5373,19 +5205,19 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Left</source>
-        <translation>左方向</translation>
+        <translation>Left</translation>
     </message>
     <message>
         <source>Up</source>
-        <translation>上方向</translation>
+        <translation>Up</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation>右方向</translation>
+        <translation>Right</translation>
     </message>
     <message>
         <source>Down</source>
-        <translation>下方向</translation>
+        <translation>Down</translation>
     </message>
     <message>
         <source>PgUp</source>
@@ -5401,7 +5233,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>NumLock</source>
-        <translation>NumLock</translation>
+        <translation>Numlock</translation>
     </message>
     <message>
         <source>ScrollLock</source>
@@ -5409,285 +5241,285 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Menu</source>
-        <translation>菜单</translation>
+        <translation>Menyu</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>帮助</translation>
+        <translation>Nyamba</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>后退</translation>
+        <translation>Ddayo</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>前进</translation>
+        <translation>Weyongereyo</translation>
     </message>
     <message>
         <source>Stop</source>
-        <translation>停止</translation>
+        <translation>Yimiriza</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation>刷新</translation>
+        <translation>Nyumunguza</translation>
     </message>
     <message>
         <source>Volume Down</source>
-        <translation>音量降低</translation>
+        <translation>Kendeeza Ddoboozi</translation>
     </message>
     <message>
         <source>Volume Mute</source>
-        <translation>音量静音</translation>
+        <translation>Sirisa Ddoboozi</translation>
     </message>
     <message>
         <source>Volume Up</source>
-        <translation>音量提高</translation>
+        <translation>Tumbula Ddoboozi</translation>
     </message>
     <message>
         <source>Bass Boost</source>
-        <translation>低音增强</translation>
+        <translation>Beesi</translation>
     </message>
     <message>
         <source>Bass Up</source>
-        <translation>低音提高</translation>
+        <translation>Yongeza Beesi</translation>
     </message>
     <message>
         <source>Bass Down</source>
-        <translation>低音降低</translation>
+        <translation>Kendeeza Beesi</translation>
     </message>
     <message>
         <source>Treble Up</source>
-        <translation>高音提高</translation>
+        <translation>Yongeza Kaloboozi</translation>
     </message>
     <message>
         <source>Treble Down</source>
-        <translation>高音降低</translation>
+        <translation>Kendeeza Kaloboozi</translation>
     </message>
     <message>
         <source>Media Play</source>
-        <translation>媒体播放</translation>
+        <translation>Yolesa Mediya</translation>
     </message>
     <message>
         <source>Media Stop</source>
-        <translation>媒体停止</translation>
+        <translation>Yimiriza Mediya</translation>
     </message>
     <message>
         <source>Media Previous</source>
-        <translation>媒体上一项</translation>
+        <translation>Mediya Ekulembera Eno</translation>
     </message>
     <message>
         <source>Media Next</source>
-        <translation>媒体下一项</translation>
+        <translation>Mediya Eddako</translation>
     </message>
     <message>
         <source>Media Record</source>
-        <translation>媒体录制</translation>
+        <translation>Kwata Mediya</translation>
     </message>
     <message>
         <source>Media Pause</source>
         <extracomment>Media player pause button</extracomment>
-        <translation>媒体暂停</translation>
+        <translation>Yimirizamu Mediya</translation>
     </message>
     <message>
         <source>Toggle Media Play/Pause</source>
         <extracomment>Media player button to toggle between playing and paused</extracomment>
-        <translation>切换媒体播放/暂停</translation>
+        <translation>Yolesa/Yimirizamu Mediya</translation>
     </message>
     <message>
         <source>Home Page</source>
-        <translation>主页</translation>
+        <translation>Olutandikirwako</translation>
     </message>
     <message>
         <source>Favorites</source>
-        <translation>收藏</translation>
+        <translation>By&apos;ojjumbira</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>搜索</translation>
+        <translation>Noonya</translation>
     </message>
     <message>
         <source>Standby</source>
-        <translation>待机</translation>
+        <translation>Liindirira</translation>
     </message>
     <message>
         <source>Open URL</source>
-        <translation>打开 URL</translation>
+        <translation>Genda ku ndagiriro ya URL</translation>
     </message>
     <message>
         <source>Launch Mail</source>
-        <translation>启动邮件</translation>
+        <translation>Tandika puloguramu ya yimeero</translation>
     </message>
     <message>
         <source>Launch Media</source>
-        <translation>启动媒体</translation>
+        <translation>Tandika okwolesa Mediya</translation>
     </message>
     <message>
         <source>Launch (0)</source>
-        <translation>启动 (0)</translation>
+        <translation>Tandika (0)</translation>
     </message>
     <message>
         <source>Launch (1)</source>
-        <translation>启动 (1)</translation>
+        <translation>Tandika (1)</translation>
     </message>
     <message>
         <source>Launch (2)</source>
-        <translation>启动 (2)</translation>
+        <translation>Tandika (2)</translation>
     </message>
     <message>
         <source>Launch (3)</source>
-        <translation>启动 (3)</translation>
+        <translation>Tandika (3)</translation>
     </message>
     <message>
         <source>Launch (4)</source>
-        <translation>启动 (4)</translation>
+        <translation>Tandika (4)</translation>
     </message>
     <message>
         <source>Launch (5)</source>
-        <translation>启动 (5)</translation>
+        <translation>Tandika (5)</translation>
     </message>
     <message>
         <source>Launch (6)</source>
-        <translation>启动 (6)</translation>
+        <translation>Tandika (6)</translation>
     </message>
     <message>
         <source>Launch (7)</source>
-        <translation>启动 (7)</translation>
+        <translation>Tandika (7)</translation>
     </message>
     <message>
         <source>Launch (8)</source>
-        <translation>启动 (8)</translation>
+        <translation>Tandika (8)</translation>
     </message>
     <message>
         <source>Launch (9)</source>
-        <translation>启动 (9)</translation>
+        <translation>Tandika (9)</translation>
     </message>
     <message>
         <source>Launch (A)</source>
-        <translation>启动 (A)</translation>
+        <translation>Tandika (A)</translation>
     </message>
     <message>
         <source>Launch (B)</source>
-        <translation>启动 (B)</translation>
+        <translation>Tandika (B)</translation>
     </message>
     <message>
         <source>Launch (C)</source>
-        <translation>启动 (C)</translation>
+        <translation>Tandika (C)</translation>
     </message>
     <message>
         <source>Launch (D)</source>
-        <translation>启动 (D)</translation>
+        <translation>Tandika (D)</translation>
     </message>
     <message>
         <source>Launch (E)</source>
-        <translation>启动 (E)</translation>
+        <translation>Tandika (E)</translation>
     </message>
     <message>
         <source>Launch (F)</source>
-        <translation>启动 (F)</translation>
+        <translation>Tandika (F)</translation>
     </message>
     <message>
         <source>Launch (G)</source>
-        <translation>启动 (G)</translation>
+        <translation>Tandika (G)</translation>
     </message>
     <message>
         <source>Launch (H)</source>
-        <translation>启动 (H)</translation>
+        <translation>Tandika (H)</translation>
     </message>
     <message>
         <source>Monitor Brightness Up</source>
-        <translation>显示器亮度提高</translation>
+        <translation>Yongeza okwakayakana kw&apos;olutimbe</translation>
     </message>
     <message>
         <source>Monitor Brightness Down</source>
-        <translation>显示器亮度降低</translation>
+        <translation>Kendeeza okwakayakana kw&apos;olutimbe</translation>
     </message>
     <message>
         <source>Keyboard Light On/Off</source>
-        <translation>键盘背光开</translation>
+        <translation>Gyako/Ssaako Taala ya mu Mapeesa</translation>
     </message>
     <message>
         <source>Keyboard Brightness Up</source>
-        <translation>键盘背光提高</translation>
+        <translation>Yongeza okwaka kw&apos;amapeesa</translation>
     </message>
     <message>
         <source>Keyboard Brightness Down</source>
-        <translation>键盘背光降低</translation>
+        <translation>Kendeeza okwaka kw&apos;amapeesa</translation>
     </message>
     <message>
         <source>Power Off</source>
-        <translation>关机</translation>
+        <translation>Gyako kompyuta</translation>
     </message>
     <message>
         <source>Wake Up</source>
-        <translation>唤醒</translation>
+        <translation>Zuukusa Kompyuta</translation>
     </message>
     <message>
         <source>Eject</source>
-        <translation>弹出</translation>
+        <translation>Wandula</translation>
     </message>
     <message>
         <source>Screensaver</source>
-        <translation>屏幕保护</translation>
+        <translation>Ekisaanikira olutimbe</translation>
     </message>
     <message>
         <source>WWW</source>
-        <translation>互联网</translation>
+        <translation>WWW</translation>
     </message>
     <message>
         <source>Sleep</source>
-        <translation>睡眠</translation>
+        <translation>Kompyuta gyebase</translation>
     </message>
     <message>
         <source>LightBulb</source>
-        <translation>灯泡</translation>
+        <translation>Ttaala</translation>
     </message>
     <message>
         <source>Shop</source>
-        <translation>商店</translation>
+        <translation>Noonya ebigulibwa</translation>
     </message>
     <message>
         <source>History</source>
-        <translation>历史</translation>
+        <translation>Ebirabidwa</translation>
     </message>
     <message>
         <source>Add Favorite</source>
-        <translation>添加收藏</translation>
+        <translation>Yongera ku by&apos;ojjumbira</translation>
     </message>
     <message>
         <source>Hot Links</source>
-        <translation>热门链接</translation>
+        <translation>Enyunzi ezijjumbirwa</translation>
     </message>
     <message>
         <source>Adjust Brightness</source>
-        <translation>调整亮度</translation>
+        <translation>Kyusa okwakayakana</translation>
     </message>
     <message>
         <source>Finance</source>
-        <translation>金融</translation>
+        <translation>Eby&apos;ensimbi</translation>
     </message>
     <message>
         <source>Community</source>
-        <translation>社区</translation>
+        <translation>Bantu</translation>
     </message>
     <message>
         <source>Media Rewind</source>
-        <translation>媒体快退</translation>
+        <translation>Mediya gizze mabega</translation>
     </message>
     <message>
         <source>Back Forward</source>
-        <translation>后退/前进</translation>
+        <translation>Ddayo oba Weyongereyo</translation>
     </message>
     <message>
         <source>Application Left</source>
-        <translation>应用程序 左</translation>
+        <translation>Puloguramu Kkono</translation>
     </message>
     <message>
         <source>Application Right</source>
-        <translation>应用程序 右</translation>
+        <translation>Puloguramu Ddyo</translation>
     </message>
     <message>
         <source>Book</source>
-        <translation>预定</translation>
+        <translation>Kitabo</translation>
     </message>
     <message>
         <source>CD</source>
@@ -5695,39 +5527,39 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Calculator</source>
-        <translation>计算器</translation>
+        <translation>Kaliculeta</translation>
     </message>
     <message>
         <source>Calendar</source>
-        <translation>日历</translation>
+        <translation>Kalenda</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>清除</translation>
+        <translation>Yerula</translation>
     </message>
     <message>
         <source>Clear Grab</source>
-        <translation>清除抓取</translation>
+        <translation>Ta Ebirobedwa</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>关闭</translation>
+        <translation>Gala</translation>
     </message>
     <message>
         <source>Adjust contrast</source>
-        <translation>调整对比度</translation>
+        <translation>Kyusa mu kwawula</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>复制</translation>
+        <translation>Koppa</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation>剪切</translation>
+        <translation>Situlawo</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation>显示</translation>
+        <translation>Lutimbe</translation>
     </message>
     <message>
         <source>DOS</source>
@@ -5735,23 +5567,23 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Documents</source>
-        <translation>文档</translation>
+        <translation>Ebiwandike</translation>
     </message>
     <message>
         <source>Spreadsheet</source>
-        <translation>电子表格</translation>
+        <translation>Empapula ez&apos;okubalirira</translation>
     </message>
     <message>
         <source>Browser</source>
-        <translation>浏览器</translation>
+        <translation>Bulawuza</translation>
     </message>
     <message>
         <source>Game</source>
-        <translation>游戏</translation>
+        <translation>Kizannyisibwa</translation>
     </message>
     <message>
         <source>Go</source>
-        <translation>转到</translation>
+        <translation>Genda Yo</translation>
     </message>
     <message>
         <source>iTouch</source>
@@ -5759,295 +5591,295 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Logoff</source>
-        <translation>注销</translation>
+        <translation>Komya olutuula</translation>
     </message>
     <message>
         <source>Market</source>
-        <translation>市场</translation>
+        <translation>Katale</translation>
     </message>
     <message>
         <source>Meeting</source>
-        <translation>会议</translation>
+        <translation>Lukuŋaana</translation>
     </message>
     <message>
         <source>Memo</source>
-        <translation>备忘</translation>
+        <translation>Memo</translation>
     </message>
     <message>
         <source>Keyboard Menu</source>
-        <translation>键盘菜单</translation>
+        <translation>Menyu y&apos;amapeesa</translation>
     </message>
     <message>
         <source>Menu PB</source>
-        <translation>菜单 PB</translation>
+        <translation>Menyu PB</translation>
     </message>
     <message>
         <source>My Sites</source>
-        <translation>我的网站</translation>
+        <translation>Ebifo bye nzijumbira</translation>
     </message>
     <message>
         <source>News</source>
-        <translation>新闻</translation>
+        <translation>Mawulire</translation>
     </message>
     <message>
         <source>Home Office</source>
-        <translation>家庭办公室</translation>
+        <translation>Wofiisi y&apos;awaka</translation>
     </message>
     <message>
         <source>Option</source>
-        <translation>选项</translation>
+        <translation>Kitegekebwa</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>粘贴</translation>
+        <translation>Paatiika</translation>
     </message>
     <message>
         <source>Phone</source>
-        <translation>电话</translation>
+        <translation>Ssimu</translation>
     </message>
     <message>
         <source>Reply</source>
-        <translation>答复</translation>
+        <translation>Ddamu</translation>
     </message>
     <message>
         <source>Reload</source>
-        <translation>重新加载</translation>
+        <translation>Ddamu Kubikkula</translation>
     </message>
     <message>
         <source>Rotate Windows</source>
-        <translation>旋转窗口</translation>
+        <translation>Wunzika Madirisa</translation>
     </message>
     <message>
         <source>Rotation PB</source>
-        <translation>旋转 PB</translation>
+        <translation>Okuwunzika PB</translation>
     </message>
     <message>
         <source>Rotation KB</source>
-        <translation>旋转 KB</translation>
+        <translation>Okuwunzika KB</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>保存</translation>
+        <translation>Kazza</translation>
     </message>
     <message>
         <source>Send</source>
-        <translation>发送</translation>
+        <translation>Sindika</translation>
     </message>
     <message>
         <source>Spellchecker</source>
-        <translation>拼写检查</translation>
+        <translation>Ekikeberampandika</translation>
     </message>
     <message>
         <source>Split Screen</source>
-        <translation>分屏</translation>
+        <translation>Akatimbe k&apos;awulemu</translation>
     </message>
     <message>
         <source>Support</source>
-        <translation>支持</translation>
+        <translation>Buyambi</translation>
     </message>
     <message>
         <source>Task Panel</source>
-        <translation>任务面板</translation>
+        <translation>Kabaawo k&apos;emirimu</translation>
     </message>
     <message>
         <source>Terminal</source>
-        <translation>终端</translation>
+        <translation>Kiwandikiro</translation>
     </message>
     <message>
         <source>To-do list</source>
-        <translation>待办事项</translation>
+        <translation>Lukalala lw&apos;eby&apos;okukola</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation>工具</translation>
+        <translation>Ebiyamba</translation>
     </message>
     <message>
         <source>Travel</source>
-        <translation>旅行</translation>
+        <translation>Eby&apos;okutambula</translation>
     </message>
     <message>
         <source>Video</source>
-        <translation>视频</translation>
+        <translation>Vidiyo</translation>
     </message>
     <message>
         <source>Word Processor</source>
-        <translation>文字处理</translation>
+        <translation>Ekiteekateekabiwandike</translation>
     </message>
     <message>
         <source>XFer</source>
-        <translation>XFer</translation>
+        <translation>Simbuliza</translation>
     </message>
     <message>
         <source>Zoom In</source>
-        <translation>放大</translation>
+        <translation>Zimbulukusa</translation>
     </message>
     <message>
         <source>Zoom Out</source>
-        <translation>缩小</translation>
+        <translation>Kendeeza</translation>
     </message>
     <message>
         <source>Away</source>
-        <translation>离开</translation>
+        <translation>Siriwo</translation>
     </message>
     <message>
         <source>Messenger</source>
-        <translation>消息软件</translation>
+        <translation>Mesenja</translation>
     </message>
     <message>
         <source>WebCam</source>
-        <translation>摄像头</translation>
+        <translation>WebCam</translation>
     </message>
     <message>
         <source>Mail Forward</source>
-        <translation>邮件转发</translation>
+        <translation>Yongezayo yimeero</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>图片</translation>
+        <translation>Bifaananyi</translation>
     </message>
     <message>
         <source>Music</source>
-        <translation>音乐</translation>
+        <translation>Nyimba</translation>
     </message>
     <message>
         <source>Battery</source>
-        <translation>电池</translation>
+        <translation>Lyanda</translation>
     </message>
     <message>
         <source>Bluetooth</source>
-        <translation>蓝牙</translation>
+        <translation>Bluetooth</translation>
     </message>
     <message>
         <source>Wireless</source>
-        <translation>无线</translation>
+        <translation>Wayaleesi</translation>
     </message>
     <message>
         <source>Ultra Wide Band</source>
-        <translation>超宽带</translation>
+        <translation>Ultra Wide Band</translation>
     </message>
     <message>
         <source>Media Fast Forward</source>
-        <translation>媒体快进</translation>
+        <translation>Mediya gyanguye mu maaso</translation>
     </message>
     <message>
         <source>Audio Repeat</source>
-        <translation>音频循环</translation>
+        <translation>Ebiwulirizibwa biddengamu nga bituuse gye bikoma</translation>
     </message>
     <message>
         <source>Audio Random Play</source>
-        <translation>音频随机播放</translation>
+        <translation>Ebiwulirizibwa birondebwe muwawa</translation>
     </message>
     <message>
         <source>Subtitle</source>
-        <translation>字幕</translation>
+        <translation>Wandikawo ebyogerebwa</translation>
     </message>
     <message>
         <source>Audio Cycle Track</source>
-        <translation>音频循环音轨</translation>
+        <translation>Yita Mu Fayiro Ez&apos;ebiwulirizibwa Nga Bwe Zigobereragana</translation>
     </message>
     <message>
         <source>Time</source>
-        <translation>时间</translation>
+        <translation>Budde</translation>
     </message>
     <message>
         <source>Hibernate</source>
-        <translation>休眠</translation>
+        <translation>Kompyuta gyebase</translation>
     </message>
     <message>
         <source>View</source>
-        <translation>查看</translation>
+        <translation>Ndabika</translation>
     </message>
     <message>
         <source>Top Menu</source>
-        <translation>顶部菜单</translation>
+        <translation>Menyu esooka</translation>
     </message>
     <message>
         <source>Power Down</source>
-        <translation>关机</translation>
+        <translation>Gyako Kompyuta</translation>
     </message>
     <message>
         <source>Suspend</source>
-        <translation>挂起</translation>
+        <translation>Lindisa kompyuta</translation>
     </message>
     <message>
         <source>Microphone Mute</source>
-        <translation>麦克风静音</translation>
+        <translation>Sirisa ebiva ku muzindaalo ogukwata</translation>
     </message>
     <message>
         <source>Red</source>
-        <translation>红</translation>
+        <translation>Myufu</translation>
     </message>
     <message>
         <source>Green</source>
-        <translation>绿</translation>
+        <translation>Kiragala</translation>
     </message>
     <message>
         <source>Yellow</source>
-        <translation>黄</translation>
+        <translation>Kyenvu</translation>
     </message>
     <message>
         <source>Blue</source>
-        <translation>蓝</translation>
+        <translation>Bulu</translation>
     </message>
     <message>
         <source>Channel Up</source>
-        <translation>频道上</translation>
+        <translation>Dda ku mukutu oguddirira</translation>
     </message>
     <message>
         <source>Channel Down</source>
-        <translation>频道下</translation>
+        <translation>Dda ku mukutu ogukulembera</translation>
     </message>
     <message>
         <source>Guide</source>
-        <translation>指南</translation>
+        <translation>Okulagirira</translation>
     </message>
     <message>
         <source>Info</source>
-        <translation>信息</translation>
+        <translation>Okumanyisa</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation>设置</translation>
+        <translation>Nteekateeka</translation>
     </message>
     <message>
         <source>Microphone Volume Up</source>
-        <translation>麦克风音量提高</translation>
+        <translation>Tumbula ddoboozi ly&apos;ebiva ku muzindaalo ogukwata</translation>
     </message>
     <message>
         <source>Microphone Volume Down</source>
-        <translation>麦克风音量降低</translation>
+        <translation>Kendeeza ddoboozi ly&apos;ebiva ku muzindaalo ogukwata</translation>
     </message>
     <message>
         <source>New</source>
-        <translation>新建</translation>
+        <translation>Kolawo ekipya</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>打开</translation>
+        <translation>Bikkula</translation>
     </message>
     <message>
         <source>Find</source>
-        <translation>查找</translation>
+        <translation>Noonya</translation>
     </message>
     <message>
         <source>Undo</source>
-        <translation>撤销</translation>
+        <translation>Bijjulule</translation>
     </message>
     <message>
         <source>Redo</source>
-        <translation>重做</translation>
+        <translation>Zzawo</translation>
     </message>
     <message>
         <source>Print Screen</source>
-        <translation>打印屏幕</translation>
+        <translation>Kubisa ebiri ku lutimbe</translation>
     </message>
     <message>
         <source>Page Up</source>
-        <translation>Page Up</translation>
+        <translation>Seesa waggulu ekyenkana ebirabika kakati</translation>
     </message>
     <message>
         <source>Page Down</source>
-        <translation>Page Down</translation>
+        <translation>Seesa wansi ekyenkana ebirabika kakati</translation>
     </message>
     <message>
         <source>Caps Lock</source>
@@ -6063,15 +5895,15 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Scroll Lock</source>
-        <translation>Scroll Lock</translation>
+        <translation>Siba okuseesa</translation>
     </message>
     <message>
         <source>Insert</source>
-        <translation>Insert</translation>
+        <translation>Sonsekawo</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Delete</translation>
+        <translation>Gyawo</translation>
     </message>
     <message>
         <source>Escape</source>
@@ -6083,226 +5915,226 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Select</source>
-        <translation>选择</translation>
+        <translation>Londa</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>是</translation>
+        <translation>Ye</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>否</translation>
+        <translation>Nedda</translation>
     </message>
     <message>
         <source>Context1</source>
-        <translation>语境1</translation>
+        <translation>Context1</translation>
     </message>
     <message>
         <source>Context2</source>
-        <translation>语境2</translation>
+        <translation>Context2</translation>
     </message>
     <message>
         <source>Context3</source>
-        <translation>语境3</translation>
+        <translation>Context3</translation>
     </message>
     <message>
         <source>Context4</source>
-        <translation>语境4</translation>
+        <translation>Context4</translation>
     </message>
     <message>
         <source>Call</source>
         <extracomment>Button to start a call (note: a separate button is used to end the call)</extracomment>
-        <translation>呼叫</translation>
+        <translation>Kubira</translation>
     </message>
     <message>
         <source>Hangup</source>
         <extracomment>Button to end a call (note: a separate button is used to start the call)</extracomment>
-        <translation>挂断</translation>
+        <translation>Vva ko</translation>
     </message>
     <message>
         <source>Toggle Call/Hangup</source>
         <extracomment>Button that will hang up if we&apos;re in call, or make a call if we&apos;re not.</extracomment>
-        <translation>切换呼叫/挂断</translation>
+        <translation>Kukubira/Vva ko</translation>
     </message>
     <message>
         <source>Flip</source>
-        <translation>翻转</translation>
+        <translation>Vuunika</translation>
     </message>
     <message>
         <source>Voice Dial</source>
         <extracomment>Button to trigger voice dialing</extracomment>
-        <translation>语音拨号</translation>
+        <translation>Kubira namba gy&apos;oyogedde bwogezi</translation>
     </message>
     <message>
         <source>Last Number Redial</source>
         <extracomment>Button to redial the last number called</extracomment>
-        <translation>拨打上次号码</translation>
+        <translation>Kubira namba gye wasembye okukubira</translation>
     </message>
     <message>
         <source>Camera Shutter</source>
         <extracomment>Button to trigger the camera shutter (take a picture)</extracomment>
-        <translation>相机快门</translation>
+        <translation>Nasula kamera</translation>
     </message>
     <message>
         <source>Camera Focus</source>
         <extracomment>Button to focus the camera</extracomment>
-        <translation>相机对焦</translation>
+        <translation>Fokasi</translation>
     </message>
     <message>
         <source>Kanji</source>
-        <translation>汉字</translation>
+        <translation>Kanji</translation>
     </message>
     <message>
         <source>Muhenkan</source>
-        <translation>无变换</translation>
+        <translation>Muhenkan</translation>
     </message>
     <message>
         <source>Henkan</source>
-        <translation>变换</translation>
+        <translation>Henkan</translation>
     </message>
     <message>
         <source>Romaji</source>
-        <translation>罗马字</translation>
+        <translation>Romaji</translation>
     </message>
     <message>
         <source>Hiragana</source>
-        <translation>平假名</translation>
+        <translation>Hiragana</translation>
     </message>
     <message>
         <source>Katakana</source>
-        <translation>片假名</translation>
+        <translation>Katakana</translation>
     </message>
     <message>
         <source>Hiragana Katakana</source>
-        <translation>平假名/片假名</translation>
+        <translation>Hiragana Katakana</translation>
     </message>
     <message>
         <source>Zenkaku</source>
-        <translation>全角</translation>
+        <translation>Zenkaku</translation>
     </message>
     <message>
         <source>Hankaku</source>
-        <translation>半角</translation>
+        <translation>Hankaku</translation>
     </message>
     <message>
         <source>Zenkaku Hankaku</source>
-        <translation>全角/半角</translation>
+        <translation>Zenkaku Hankaku</translation>
     </message>
     <message>
         <source>Touroku</source>
-        <translation>登录</translation>
+        <translation>Touroku</translation>
     </message>
     <message>
         <source>Massyo</source>
-        <translation>抹消</translation>
+        <translation>Massyo</translation>
     </message>
     <message>
         <source>Kana Lock</source>
-        <translation>假名锁定</translation>
+        <translation>Nywerera mu Kana</translation>
     </message>
     <message>
         <source>Kana Shift</source>
-        <translation>假名上档</translation>
+        <translation>Shift ya Kana</translation>
     </message>
     <message>
         <source>Eisu Shift</source>
-        <translation>英数上档</translation>
+        <translation>Shift ya Eisu</translation>
     </message>
     <message>
         <source>Eisu toggle</source>
-        <translation>英数切换</translation>
+        <translation>Wanyisa ya Eisu</translation>
     </message>
     <message>
         <source>Code input</source>
-        <translation>代码输入</translation>
+        <translation>Wandika biragiro</translation>
     </message>
     <message>
         <source>Multiple Candidate</source>
-        <translation>多个候选</translation>
+        <translation>Ebirondeka ebisukka mu kimu</translation>
     </message>
     <message>
         <source>Previous Candidate</source>
-        <translation>上一个候选</translation>
+        <translation>Ekirondeka ekikulembera kino</translation>
     </message>
     <message>
         <source>Hangul</source>
-        <translation>谚文</translation>
+        <translation>Hangul</translation>
     </message>
     <message>
         <source>Hangul Start</source>
-        <translation>谚文开始</translation>
+        <translation>Tandika Hangul</translation>
     </message>
     <message>
         <source>Hangul End</source>
-        <translation>谚文结束</translation>
+        <translation>Komya Hangul</translation>
     </message>
     <message>
         <source>Hangul Hanja</source>
-        <translation>谚文汉字</translation>
+        <translation>Hangul Hanja</translation>
     </message>
     <message>
         <source>Hangul Jamo</source>
-        <translation>谚文字母</translation>
+        <translation>Hangul Jamo</translation>
     </message>
     <message>
         <source>Hangul Romaja</source>
-        <translation>谚文罗马字</translation>
+        <translation>Hangul Romaja</translation>
     </message>
     <message>
         <source>Hangul Jeonja</source>
-        <translation>谚文转写</translation>
+        <translation>Hangul Jeonja</translation>
     </message>
     <message>
         <source>Hangul Banja</source>
-        <translation>谚文反切</translation>
+        <translation>Hangul Banja</translation>
     </message>
     <message>
         <source>Hangul PreHanja</source>
-        <translation>谚文反切前</translation>
+        <translation>Hangul PreHanja</translation>
     </message>
     <message>
         <source>Hangul PostHanja</source>
-        <translation>谚文反切后</translation>
+        <translation>Hangul PostHanja</translation>
     </message>
     <message>
         <source>Hangul Special</source>
-        <translation>谚文特殊</translation>
+        <translation>Hangul ey&apos;enjawulo</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>取消</translation>
+        <translation>Sazamu</translation>
     </message>
     <message>
         <source>Printer</source>
-        <translation>打印机</translation>
+        <translation>Pulinta</translation>
     </message>
     <message>
         <source>Execute</source>
-        <translation>执行</translation>
+        <translation>Tandika</translation>
     </message>
     <message>
         <source>Play</source>
-        <translation>播放</translation>
+        <translation>Yolesa</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation>缩放</translation>
+        <translation>Obuzimbulukufu</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>退出</translation>
+        <translation>Mala</translation>
     </message>
     <message>
         <source>Touchpad Toggle</source>
-        <translation>触摸板切换</translation>
+        <translation>Zuukusa/siba akasongesebwa k&apos;osiisiriza</translation>
     </message>
     <message>
         <source>Touchpad On</source>
-        <translation>触摸板开</translation>
+        <translation>Zuukusa akasongesebwa k&apos;osiisiriza</translation>
     </message>
     <message>
         <source>Touchpad Off</source>
-        <translation>触控板关</translation>
+        <translation>Siba akasongesebwa k&apos;osiisiriza</translation>
     </message>
     <message>
         <source>Ctrl</source>
@@ -6338,59 +6170,59 @@ Please turn one of those options off.</source>
     <name>QSocks5SocketEngine</name>
     <message>
         <source>Connection to proxy refused</source>
-        <translation>代理拒绝连接</translation>
+        <translation>Kalaani egaanye okuteekawo okuwulizagana</translation>
     </message>
     <message>
         <source>Connection to proxy closed prematurely</source>
-        <translation>代理连接过早关闭</translation>
+        <translation>Okukuwatagana ne kalaani kuggadwawo nga bukyali</translation>
     </message>
     <message>
         <source>Proxy host not found</source>
-        <translation>代理主机未找到</translation>
+        <translation>Kompyuta okuli kalaani terabidwa</translation>
     </message>
     <message>
         <source>Connection to proxy timed out</source>
-        <translation>代理连接超时</translation>
+        <translation>Okukwatagana ne kalaani obudde bukuyiseko</translation>
     </message>
     <message>
         <source>Proxy authentication failed</source>
-        <translation>代理认证失败</translation>
+        <translation>Ogw&apos;okukakasa ewa kalaani gugaanye</translation>
     </message>
     <message>
         <source>Proxy authentication failed: %1</source>
-        <translation>代理认证失败：%1</translation>
+        <translation>Ogw&apos;okukakasa ewa kalaani gugaanye: %1</translation>
     </message>
     <message>
         <source>SOCKS version 5 protocol error</source>
-        <translation>SOCKS 版本 5 协议错误</translation>
+        <translation>Waliwo kiremya ku mpulizagana ey&apos;ekika kya SOCKS luwandika 5</translation>
     </message>
     <message>
         <source>General SOCKSv5 server failure</source>
-        <translation>常规 SOCKSv5 服务器故障</translation>
+        <translation>Puloguramu ekwataganya amannya n&apos;endagiriro mu nkola ya SOCKSv5 efunye kiremya</translation>
     </message>
     <message>
         <source>Connection not allowed by SOCKSv5 server</source>
-        <translation>连接不被 SOCKSv5 服务器允许</translation>
+        <translation>Puloguramu ekwataganya amannya n&apos;endagiriro mu nkola ya SOCKSv5 tekkirizza okussawo empulizagana</translation>
     </message>
     <message>
         <source>TTL expired</source>
-        <translation>TTL 已过期</translation>
+        <translation>Ekiseera ekigerekedwa kiweddeko</translation>
     </message>
     <message>
         <source>SOCKSv5 command not supported</source>
-        <translation>不支持的 SOCKSv5 命令</translation>
+        <translation>Omukolo ogw&apos;ekika kya SOCKSv5 sisitemu eno tegumanyi</translation>
     </message>
     <message>
         <source>Address type not supported</source>
-        <translation>不支持的地址类型</translation>
+        <translation>Sisitemu eno tesobola ndagiriro ez&apos;ekika kino</translation>
     </message>
     <message>
         <source>Unknown SOCKSv5 proxy error code 0x%1</source>
-        <translation>未知 SOCKSv5 代理，错误代码 0x%1</translation>
+        <translation>Ennamba 0x%1 eya kiremya wa mu kalaani ekola ku mpulizagana ey&apos;ekika ky SOCKSv5 sisitemu eno tegimanyi</translation>
     </message>
     <message>
         <source>Network operation timed out</source>
-        <translation>网络操作超时</translation>
+        <translation>Omukolo ogw&apos;oku kayungirizi obudde buguyiseko</translation>
     </message>
 </context>
 <context>
@@ -6398,1135 +6230,1135 @@ Please turn one of those options off.</source>
     <message>
         <source>invalid role</source>
         <extracomment>Role of an accessible object - the object is in an invalid state or could not be constructed</extracomment>
-        <translation>无效角色</translation>
+        <translation>ekyanguyisa tekikozeseka</translation>
     </message>
     <message>
         <source>title bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>标题栏</translation>
+        <translation>kabaawo ka mutwe</translation>
     </message>
     <message>
         <source>menu bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>菜单栏</translation>
+        <translation>lubaawo lwa menyu</translation>
     </message>
     <message>
         <source>scroll bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>滚动条</translation>
+        <translation>Akaseesa</translation>
     </message>
     <message>
         <source>grip</source>
         <extracomment>Role of an accessible object - the grip is usually used for resizing another object</extracomment>
-        <translation>底框</translation>
+        <translation>akanyweeza</translation>
     </message>
     <message>
         <source>sound</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>声音</translation>
+        <translation>ddoboozi</translation>
     </message>
     <message>
         <source>cursor</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>光标</translation>
+        <translation>kasonga</translation>
     </message>
     <message>
         <source>text caret</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>文字插入符号</translation>
+        <translation>kalagakifo</translation>
     </message>
     <message>
         <source>alert message</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>通知邮件</translation>
+        <translation>bubaka obulabula</translation>
     </message>
     <message>
         <source>frame</source>
         <extracomment>Role of an accessible object: a window with frame and title
 ----------
 Role of an accessible object</extracomment>
-        <translation>框架</translation>
+        <translation>mwango</translation>
     </message>
     <message>
         <source>filler</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>填充</translation>
+        <translation>Akajjuzabbanga</translation>
     </message>
     <message>
         <source>popup menu</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>弹出式菜单</translation>
+        <translation>menyu eboneka</translation>
     </message>
     <message>
         <source>menu item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>菜单项目</translation>
+        <translation>ekisangibwa ku menyu</translation>
     </message>
     <message>
         <source>tool tip</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>工具提示</translation>
+        <translation>bigambo eby&apos;okuwa amagezi</translation>
     </message>
     <message>
         <source>application</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>应用</translation>
+        <translation>puloguramu</translation>
     </message>
     <message>
         <source>document</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>文档</translation>
+        <translation>kiwandiko</translation>
     </message>
     <message>
         <source>panel</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>面板</translation>
+        <translation>lubaawo</translation>
     </message>
     <message>
         <source>chart</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>图表</translation>
+        <translation>caati</translation>
     </message>
     <message>
         <source>dialog</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>对话框</translation>
+        <translation>kaboozi</translation>
     </message>
     <message>
         <source>separator</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>分隔符</translation>
+        <translation>ak&apos;awuluza</translation>
     </message>
     <message>
         <source>tool bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>工具栏</translation>
+        <translation>kabaawo k&apos;ebiyamba</translation>
     </message>
     <message>
         <source>status bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>状态栏</translation>
+        <translation>lubaawo olulaga mbeera y&apos;egibumbujja</translation>
     </message>
     <message>
         <source>table</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>表格</translation>
+        <translation>tabulo</translation>
     </message>
     <message>
         <source>column header</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>列标题</translation>
+        <translation>mutwe gw&apos;ekikumbo kya mu tabulo</translation>
     </message>
     <message>
         <source>row header</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>行标题</translation>
+        <translation>mutwe gw&apos;olunyiriri lwa mu tabulo</translation>
     </message>
     <message>
         <source>column</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>列</translation>
+        <translation>kikumbo kya mu tabulo</translation>
     </message>
     <message>
         <source>row</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>行</translation>
+        <translation>lunyiriri lwa mu tabulo</translation>
     </message>
     <message>
         <source>cell</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>单元格</translation>
+        <translation>katafaali ka mu tabulo</translation>
     </message>
     <message>
         <source>link</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>链接</translation>
+        <translation>enyunzi</translation>
     </message>
     <message>
         <source>help balloon</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>气球式帮助</translation>
+        <translation>akaboneka n&apos;ebigambo eby&apos;okuwa amagezi</translation>
     </message>
     <message>
         <source>assistant</source>
         <extracomment>Role of an accessible object - a helper dialog</extracomment>
-        <translation>助理</translation>
+        <translation>akaboozi akawa magezi</translation>
     </message>
     <message>
         <source>list</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>列表</translation>
+        <translation>lukalala</translation>
     </message>
     <message>
         <source>list item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>列表项目</translation>
+        <translation>ekisangibwa ku lukalala</translation>
     </message>
     <message>
         <source>tree</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>树</translation>
+        <translation>maapu y&apos;enkwatagana</translation>
     </message>
     <message>
         <source>tree item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>树项目</translation>
+        <translation>ekisangibwa ku maapu y&apos;enkwatagana</translation>
     </message>
     <message>
         <source>page tab</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>选项卡</translation>
+        <translation>kakonda ka lupapula</translation>
     </message>
     <message>
         <source>property page</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>属性页</translation>
+        <translation>lupapula lwa nteekateeka</translation>
     </message>
     <message>
         <source>indicator</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>指示器</translation>
+        <translation>ekiraga</translation>
     </message>
     <message>
         <source>graphic</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>图形</translation>
+        <translation>ekirabwa</translation>
     </message>
     <message>
         <source>label</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>标签</translation>
+        <translation>kirambe</translation>
     </message>
     <message>
         <source>text</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>文本</translation>
+        <translation>bigambo</translation>
     </message>
     <message>
         <source>push button</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>按下按钮</translation>
+        <translation>ppeesa erinyigibwa</translation>
     </message>
     <message>
         <source>check box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>复选框</translation>
+        <translation>bokisi ey&apos;okulonda</translation>
     </message>
     <message>
         <source>radio button</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>单选按钮</translation>
+        <translation>ppeesa lya kiradiyo</translation>
     </message>
     <message>
         <source>combo box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>组合框</translation>
+        <translation>bokisi ey&apos;ebirondebwako</translation>
     </message>
     <message>
         <source>progress bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>进度栏</translation>
+        <translation>kabaawo akalaga omulimu we gutuuse</translation>
     </message>
     <message>
         <source>dial</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>表盘</translation>
+        <translation>munyoro</translation>
     </message>
     <message>
         <source>hotkey field</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>热键字段</translation>
+        <translation>awalagibwa mapeesa ki agayisa biragiro</translation>
     </message>
     <message>
         <source>slider</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>滑块</translation>
+        <translation>akaseeseetulwa</translation>
     </message>
     <message>
         <source>spin box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>数字显示框</translation>
+        <translation>bokisi ebala</translation>
     </message>
     <message>
         <source>canvas</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>画布</translation>
+        <translation>awakolerwako bifaananyi</translation>
     </message>
     <message>
         <source>animation</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>动画</translation>
+        <translation>kifaananyi ekividiyowaze</translation>
     </message>
     <message>
         <source>equation</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>方程式</translation>
+        <translation>kyenkanankano</translation>
     </message>
     <message>
         <source>button with drop down</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>下拉按钮</translation>
+        <translation>ppeesa ery&apos;ekyeyanjuluza</translation>
     </message>
     <message>
         <source>button menu</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>按钮菜单</translation>
+        <translation>menyu ey&apos;amapeesa</translation>
     </message>
     <message>
         <source>button with drop down grid</source>
         <extracomment>Role of an accessible object - a button that expands a grid.</extracomment>
-        <translation>下拉式网格按钮</translation>
+        <translation>ppeesa erya tabulo eyeyanjuluza</translation>
     </message>
     <message>
         <source>space</source>
         <extracomment>Role of an accessible object - blank space between other objects.</extracomment>
-        <translation>空间</translation>
+        <translation>kabanga</translation>
     </message>
     <message>
         <source>page tab list</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>选项卡列表</translation>
+        <translation>lukalala lwa bukonda bw&apos;empapula</translation>
     </message>
     <message>
         <source>clock</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>时钟</translation>
+        <translation>saawa</translation>
     </message>
     <message>
         <source>splitter</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>拆分器</translation>
+        <translation>ekisalamu</translation>
     </message>
     <message>
         <source>layered pane</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>分层窗格</translation>
+        <translation>ekitimbibwako ekipangibwa</translation>
     </message>
     <message>
         <source>web document</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>网络文件</translation>
+        <translation>kiwandiko kya ku mutimbagano</translation>
     </message>
     <message>
         <source>paragraph</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>段落</translation>
+        <translation>muko gw&apos;ekiwandiko</translation>
     </message>
     <message>
         <source>section</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>分段</translation>
+        <translation>kitundu mu kiwandiko</translation>
     </message>
     <message>
         <source>color chooser</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>颜色选择器</translation>
+        <translation>awalonderwa langi</translation>
     </message>
     <message>
         <source>footer</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>页脚</translation>
+        <translation>milannamiro gy&apos;olupapula</translation>
     </message>
     <message>
         <source>form</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>窗体</translation>
+        <translation>foomu</translation>
     </message>
     <message>
         <source>heading</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>标题</translation>
+        <translation>mutwe gw&apos;akatundu k&apos;ekiwandiko</translation>
     </message>
     <message>
         <source>note</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>便笺</translation>
+        <translation>nooti</translation>
     </message>
     <message>
         <source>complementary content</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>补充内容</translation>
+        <translation>enyongeza</translation>
     </message>
     <message>
         <source>terminal</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>终端</translation>
+        <translation>kiwandikiro</translation>
     </message>
     <message>
         <source>desktop</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>桌面</translation>
+        <translation>awakolerwa</translation>
     </message>
     <message>
         <source>notification</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>通知</translation>
+        <translation>okutangaaza</translation>
     </message>
     <message>
         <source>unknown</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>未知</translation>
+        <translation>kitategeerese</translation>
     </message>
 </context>
 <context>
     <name>QSslDiffieHellmanParameter</name>
     <message>
         <source>No error</source>
-        <translation>无错误</translation>
+        <translation>Temubadde nsobi</translation>
     </message>
     <message>
         <source>Invalid input data</source>
-        <translation>输入数据无效</translation>
+        <translation>Data eyingizibwa tekozeseka</translation>
     </message>
     <message>
         <source>The given Diffie-Hellman parameters are deemed unsafe</source>
-        <translation>给定的 Diffie-Hellman 参数被认为是不安全的</translation>
+        <translation>Paramita eza Diffie-Hellman eziweeredwa zibalibwa nga eziteesigika</translation>
     </message>
 </context>
 <context>
     <name>QSslSocket</name>
     <message>
         <source>Error when setting the OpenSSL configuration (%1)</source>
-        <translation>设置 OpenSSL 配置时出错 (%1)</translation>
-    </message>
-    <message>
-        <source>Expecting QByteArray for %1</source>
-        <translation>%1 应为 Qbytearray</translation>
-    </message>
-    <message>
-        <source>An error occurred attempting to set %1 to %2</source>
-        <translation>试图将 %1 设置为 %2 时出错</translation>
-    </message>
-    <message>
-        <source>Wrong value for %1 (%2)</source>
-        <translation>错误的值 %1 (%2)</translation>
-    </message>
-    <message>
-        <source>Unrecognized command %1 = %2</source>
-        <translation>无法识别的命令 %1 = %2</translation>
-    </message>
-    <message>
-        <source>SSL_CONF_finish() failed</source>
-        <translation>SSL_CONF_finish() 失败</translation>
-    </message>
-    <message>
-        <source>SSL_CONF_CTX_new() failed</source>
-        <translation>SSL_CONF_CTX_new() 失败</translation>
-    </message>
-    <message>
-        <source>OpenSSL version too old, need at least v1.0.2</source>
-        <translation type="vanished">OpenSSL 版本太旧了，至少需要 v1.0.2</translation>
+        <translation>Wazzewo kiremya mu kuteekateeka OpenSSL (%1)</translation>
     </message>
     <message>
         <source>Error when setting the elliptic curves (%1)</source>
-        <translation>设置椭圆曲线时出错 (%1)</translation>
+        <translation>Wazzewo kiremya mu kutegeka amakubo ag&apos;okubala aga kilipisi (%1)</translation>
     </message>
     <message>
         <source>Error creating SSL context (%1)</source>
-        <translation>创建 SSL 上下文错误 (%1)</translation>
+        <translation>Wazzewo kiremya mu kuteekateeka SSL by&apos;eneekozesa (%1)</translation>
     </message>
     <message>
         <source>unsupported protocol</source>
-        <translation>不支持的协议</translation>
+        <translation>sisitemu tekolagana n&apos;empulizagana ey&apos;ekika kino</translation>
     </message>
     <message>
         <source>Error while setting the minimal protocol version</source>
-        <translation>设置最小协议版本时出错</translation>
+        <translation>Wazzewo kiremya mu kutegeka omutindo ogw&apos;empulizagana ogusinga okuba ogw&apos;edda sisitemu gw&apos;ekolagana nagwo</translation>
     </message>
     <message>
         <source>Error while setting the maximum protocol version</source>
-        <translation>设置最大协议版本时出错</translation>
+        <translation>Wazzewo kiremya mu kutegeka omutindo ogw&apos;empulizagana ogusinga obupya sisitemu gw&apos;ekolagana nagwo</translation>
     </message>
     <message>
         <source>Invalid or empty cipher list (%1)</source>
-        <translation>无效或者空白的密码列表 (%1)</translation>
+        <translation>Enkisawaza eziri ku lukalala tezikozeseka oba lukalala lwereere (%1)</translation>
     </message>
     <message>
         <source>Cannot provide a certificate with no key, %1</source>
-        <translation>不能提供没有密钥的证书，%1</translation>
+        <translation>Tekisobose okugaba mmatizo nga tewali kasumuluzo, %1</translation>
     </message>
     <message>
         <source>Error loading local certificate, %1</source>
-        <translation>加载本地证书时出错，%1</translation>
+        <translation>Wazzewo kiremya mu kuwanga emmatizo ennekolere %1</translation>
     </message>
     <message>
         <source>Error loading private key, %1</source>
-        <translation>加载私钥时出错，%1</translation>
+        <translation>Wazzewo kiremya mu kuwanga akasumuluzo akabikkuluzi, %1</translation>
     </message>
     <message>
         <source>Private key does not certify public key, %1</source>
-        <translation>私钥不验证公钥，%1</translation>
+        <translation>Akasumuluzo akabikkuluzi tekagendera ku kasumuluzo akakisawaza akali mu mmatizo, %1</translation>
     </message>
     <message>
         <source>Diffie-Hellman parameters are not valid</source>
-        <translation>Diffie-Hellman 参数无效</translation>
+        <translation>Paramita eza Diffie-Hellman tezikozeseka</translation>
     </message>
     <message>
         <source>OpenSSL version with disabled elliptic curves</source>
-        <translation>带禁用椭圆曲线的 OpenSSL 版本</translation>
+        <translation>Oluwandika lwa OpenSSL olukozesebwa terutegekedwa okweyambisa makubo ag&apos;okubala aga kilipisi</translation>
     </message>
     <message>
-        <source>DTLS server requires a &apos;VerifyNone&apos; mode with your version of OpenSSL</source>
-        <translation type="vanished">DTLS 服务器需要与您的 OpenSSL 版本一起使用“VerifyNone”模式</translation>
+        <source>Expecting QByteArray for %1</source>
+        <translation>Wasuubirwa QByteArray eya %1</translation>
+    </message>
+    <message>
+        <source>An error occurred attempting to set %1 to %2</source>
+        <translation>Wazzewo kiremya mu kugeza okutegeka %1 kibeere %2</translation>
+    </message>
+    <message>
+        <source>Wrong value for %1 (%2)</source>
+        <translation>Ekikongojjebwa %1 ssi kituufu (%2)</translation>
+    </message>
+    <message>
+        <source>Unrecognized command %1 = %2</source>
+        <translation>Ekiragiro %1 = %2 tekitegeerese</translation>
+    </message>
+    <message>
+        <source>SSL_CONF_finish() failed</source>
+        <translation>SSL_CONF_finish() kigaanye</translation>
+    </message>
+    <message>
+        <source>SSL_CONF_CTX_new() failed</source>
+        <translation>SSL_CONF_CTX_new() kigaanye</translation>
     </message>
     <message>
         <source>No error</source>
-        <translation>无错误</translation>
+        <translation>Temubadde nsobi</translation>
     </message>
     <message>
         <source>The issuer certificate could not be found</source>
-        <translation>无法找到颁发者证书</translation>
+        <translation>Ekikakasa mugabi wa mmatizo tekizuuse</translation>
     </message>
     <message>
         <source>The certificate signature could not be decrypted</source>
-        <translation>证书签名无法解密</translation>
+        <translation>Tekisobose okuvumbula omukono mu mmatizo</translation>
     </message>
     <message>
         <source>The public key in the certificate could not be read</source>
-        <translation>无法读取证书中的公钥</translation>
+        <translation>Tekisobose okusoma akasumuluzo akakisawaza akali mu mmatizo</translation>
     </message>
     <message>
         <source>The signature of the certificate is invalid</source>
-        <translation>证书的签名无效</translation>
+        <translation>Omukono oguli mu mmatizo tegugukola</translation>
     </message>
     <message>
         <source>The certificate is not yet valid</source>
-        <translation>证书尚未生效</translation>
+        <translation>Emmatizo tennaba kutandika okukola</translation>
     </message>
     <message>
         <source>The certificate has expired</source>
-        <translation>证书已过期</translation>
+        <translation>Emmatizo tekyakola</translation>
     </message>
     <message>
         <source>The certificate&apos;s notBefore field contains an invalid time</source>
-        <translation>证书的 notBefore 字段包含无效时间</translation>
+        <translation>Emmatizo etegekedwako obudde bwa notBefore obutakola</translation>
     </message>
     <message>
         <source>The certificate&apos;s notAfter field contains an invalid time</source>
-        <translation>证书的 notAfter 字段包含无效时间</translation>
+        <translation>Emmatizo etegekedwako obudde bwa notAfter obutakola</translation>
     </message>
     <message>
         <source>The certificate is self-signed, and untrusted</source>
-        <translation>证书是自签名的，不受信任</translation>
+        <translation>Emmatizo teyesigika kubanga teyava wa mugabi wazo</translation>
     </message>
     <message>
         <source>The root certificate of the certificate chain is self-signed, and untrusted</source>
-        <translation>证书链的根证书是自签名的，不可信</translation>
+        <translation>Emmatizo ey&apos;ennono mu ngobereragana y&apos;emmatiozo teyesigika kubanga teyava wa mugabi wazo</translation>
     </message>
     <message>
         <source>The issuer certificate of a locally looked up certificate could not be found</source>
-        <translation>无法找到本地查找证书的颁发者证书</translation>
+        <translation>Waliwo emmatizo kuno nga ebulako ekikakasa mugabi eyagigaba</translation>
     </message>
     <message>
         <source>No certificates could be verified</source>
-        <translation>无法验证任何证书</translation>
+        <translation>Tekisobose okukakasayo mmatiso</translation>
     </message>
     <message>
         <source>One of the CA certificates is invalid</source>
-        <translation>其中一个 CA 证书无效</translation>
+        <translation>Emu ku mmatizo z&apos;abagabi ba mmatizo ssi nnamu</translation>
     </message>
     <message>
         <source>The basicConstraints path length parameter has been exceeded</source>
-        <translation>已超过基本约束路径长度参数</translation>
+        <translation>Obungi bw&apos;abagabi ba mmatizo abaafuna obuyinza okugaba eno busukka mu kkomo eritegekedwa mu kitundu kya yo ekya basicConstraints</translation>
     </message>
     <message>
         <source>The supplied certificate is unsuitable for this purpose</source>
-        <translation>提供的证书不适用于此目的</translation>
+        <translation>Emmatizo efunidwa ssi y&apos;ekola wano</translation>
     </message>
     <message>
         <source>The root CA certificate is not trusted for this purpose</source>
-        <translation>为此目的，根 CA 证书不可信</translation>
+        <translation>Emmatizo ey&apos;ennono ku mulimu guno teyesigika</translation>
     </message>
     <message>
         <source>The root CA certificate is marked to reject the specified purpose</source>
-        <translation>根 CA 证书被标记为拒绝指定用途</translation>
+        <translation>Emmatizo ey&apos;ennono etegekedwa okugaana okukola ku mulimu ogulagidwa</translation>
     </message>
     <message>
         <source>The current candidate issuer certificate was rejected because its subject name did not match the issuer name of the current certificate</source>
-        <translation>当前候选颁发者证书被拒绝，因为其主题名称与当前证书的颁发者名称不匹配</translation>
+        <translation>Ekikakasa mugabi wa mmatizo ekikolebwawo kigaanidwa olw&apos;okuba nti erinnya erimenyedwa mu bikwata ku kikuumibwa lyawufu ku limenyedwa awa mugabi wa mmatizo</translation>
     </message>
     <message>
         <source>The current candidate issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate</source>
-        <translation>当前候选发行人证书被拒绝，因为其发行人姓名和序列号存在且与当前证书的授权密钥标识符不匹配</translation>
+        <translation>Ekikakasa mugabi wa mmatizo ekikolebwawo kigaanidwa kubanga mulimu erinnya lya mugabi n&apos;ennamba endagammatizo nga tebikwatagana n&apos;ennamba endagamugabi wa mmatizo eya mu mmatizo eriwo kakano</translation>
     </message>
     <message>
         <source>The peer did not present any certificate</source>
-        <translation>对等方没有提供任何证书</translation>
+        <translation>Kompyuta ewulizagana teweerezza mmatizo</translation>
     </message>
     <message>
         <source>The host name did not match any of the valid hosts for this certificate</source>
-        <translation>主机名与此证书的任何有效主机不匹配</translation>
+        <translation>Erinnya lya ku kayungirizi terikwataganye n&apos;aga kompyuta enyunge emmatizo eno kw&apos;ekolera</translation>
     </message>
     <message>
         <source>The peer certificate is blacklisted</source>
-        <translation>对等方证书被列入黑名单</translation>
+        <translation>Emmatizo eya kompyuta ewulizagana eri ku lukalala lw&apos;ezibooledwa</translation>
     </message>
     <message>
         <source>No OCSP status response found</source>
-        <translation>未找到 OCSP 状态响应</translation>
+        <translation>Tewafunidwa okwanukula ku bulamu bwa mmatizo</translation>
     </message>
     <message>
         <source>The OCSP status request had invalid syntax</source>
-        <translation>OCSP 状态请求的语法无效</translation>
+        <translation>Okwebuuza ku bulamu bwa mmatizo kubaddemu ensobi za mpandika</translation>
     </message>
     <message>
         <source>OCSP response contains an unexpected number of SingleResponse structures</source>
-        <translation>OCSP 响应包含意外数量的 SingleResponse 结构</translation>
+        <translation>Obungi bwa zi SingleResponse eziri mu kwanukula ku bulamu bwa mmatizo ssi bwe busuubidwa</translation>
     </message>
     <message>
         <source>OCSP responder reached an inconsistent internal state</source>
-        <translation>OCSP 响应程序达到了不一致的内部状态</translation>
+        <translation>Kompyuta eyanukula okwebuuza ku bulamu bwa mmatizo yatuuse mu mbeera ey&apos;okwetabula</translation>
     </message>
     <message>
         <source>OCSP responder was unable to return a status for the requested certificate</source>
-        <translation>OCSP 响应程序无法返回所请求证书的状态</translation>
+        <translation>Kompyuta eyanukula okwebuuza ku bulamu bwa mmatizo tesobodde okutegeera obulamu bwa mmatizo eyeebuuzidwako</translation>
     </message>
     <message>
         <source>The server requires the client to sign the OCSP request in order to construct a response</source>
-        <translation>服务器要求客户端对 OCSP 请求进行签名以构建响应</translation>
+        <translation>Kompyuta eyanukula yetaaga kompyuta ebuuza eteekeko omukono ku kwebuuza ku bulamu bwa mmatizo</translation>
     </message>
     <message>
         <source>The client is not authorized to request OCSP status from this server</source>
-        <translation>客户端未被授权从此服务器请求 OCSP 状态</translation>
+        <translation>Kompyuta ebuuza tekkirziibwa okwebuuliza ku bulamu bwa mmatizo ku kompyuta eyanukula eno</translation>
     </message>
     <message>
         <source>OCSP responder&apos;s identity cannot be verified</source>
-        <translation>无法验证 OCSP 响应程序的身份</translation>
+        <translation>Tekisobose okukakasa obumanye bwa kompyuta eyanukula okwebuuza ku bulamu bwa mmatizo</translation>
     </message>
     <message>
         <source>The identity of a certificate in an OCSP response cannot be established</source>
-        <translation>无法确认 OCSP 响应中证书的身份</translation>
+        <translation>Endagammatizo ey&apos;emu ku mmatizo ezoogerwako mu kwanukula ku bulamu bwa zo tetegeereka</translation>
     </message>
     <message>
         <source>The certificate status response has expired</source>
-        <translation>证书状态响应已过期</translation>
+        <translation>Okwanukula ku bulamu bwa mmatizo kwetaaga kuzzibwa bugya</translation>
     </message>
     <message>
         <source>The certificate&apos;s status is unknown</source>
-        <translation>证书状态未知</translation>
+        <translation>Embeera y&apos;emmatizo temanyidwa</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>未知错误</translation>
+        <translation>Wazzewo kiremya atategeereka</translation>
     </message>
     <message>
         <source>TLS initialization failed</source>
-        <translation>TLS 初始化失败</translation>
+        <translation>Okutandikawaza TLS kugaanye</translation>
     </message>
     <message>
         <source>Attempted to use an unsupported protocol.</source>
-        <translation>尝试使用不支持的协议。</translation>
+        <translation>Wabaddewo okugeza okukozesa ekika kya mpulizagana sisitemu ky&apos;etamanyi.</translation>
     </message>
     <message>
         <source>The TLS/SSL connection has been closed</source>
-        <translation>TLS/SSL 连接已关闭</translation>
+        <translation>Empulizagana eya TLS/SSL eggadwawo</translation>
     </message>
     <message>
         <source>Error creating SSL session, %1</source>
-        <translation>创建 SSL 会话时出错，%1</translation>
+        <translation>Wazzewo kiremya mu kutegekawo olukolagana lwa SSL, %1</translation>
     </message>
     <message>
         <source>Error creating SSL session: %1</source>
-        <translation>创建 SSL 会话时出错：%1</translation>
+        <translation>Wazzewo kiremya mu kutegekawo olukolagana lwa SSL: %1</translation>
     </message>
     <message>
         <source>Server-side QSslSocket does not support OCSP stapling</source>
-        <translation>服务器端 QSslSocket 不支持 OCSP 装订</translation>
+        <translation>QSslSocket ey&apos;oku kompyuta ewereza tesobozesa kutereka bukakafu bw&apos;obulamu bwa mmatizo</translation>
     </message>
     <message>
         <source>Failed to enable OCSP stapling</source>
-        <translation>启用 OCSP 装订失败</translation>
+        <translation>Tekisobose okutandika okuterekanga bukakafu bw&apos;obulamu bwa mmatizo</translation>
     </message>
     <message>
         <source>Client-side sockets do not send OCSP responses</source>
-        <translation>客户端套接字不发送 OCSP 响应</translation>
+        <translation>Soketi ez&apos;oku kompyuta kasitoma tezisindika okwanukula ku bulamu bwa mmatizo</translation>
     </message>
     <message>
         <source>Unable to init SSL Context: %1</source>
-        <translation>无法初始化 SSL 上下文：%1</translation>
+        <translation>Tekisobose okukola oluteekateeka lwa SSL: %1</translation>
     </message>
     <message>
         <source>Unable to write data: %1</source>
-        <translation>无法写入数据：%1</translation>
+        <translation>Tekisobose okuwandika data: %1</translation>
     </message>
     <message>
         <source>Unable to decrypt data: %1</source>
-        <translation>无法解密数据：%1</translation>
+        <translation>Tekisobose okuvumbula data: %1</translation>
+    </message>
+    <message>
+        <source>TLS certificate unexpectedly changed during renegotiation!</source>
+        <translation>Emmatizo eya TLS ekyuse nga kompyuta ziri mu kuddamu okutegeeragana!</translation>
     </message>
     <message>
         <source>Error while reading: %1</source>
-        <translation>读取时出错：%1</translation>
+        <translation>Wazzewo kiremya mu kusoma: %1</translation>
     </message>
     <message>
         <source>Error during SSL handshake: %1</source>
-        <translation>SSL 握手过程中出错：%1</translation>
+        <translation>Wazzewo kiremya nga kompyuta ziri mu kutegeeragana kwa SSL: %1</translation>
     </message>
     <message>
         <source>Failed to decode OCSP response</source>
-        <translation>解码 OCSP 响应失败</translation>
+        <translation>tekisobose okuyungulula ebiri mu kwanukula ku bulamu bwa mmatizo</translation>
     </message>
     <message>
         <source>Failed to extract basic OCSP response</source>
-        <translation>提取基本 OCSP 响应失败</translation>
+        <translation>tekisobose okuyungululamu omutwalo gw&apos;okwanukula ku bulamu bwa mmatizo</translation>
     </message>
     <message>
         <source>No certificate verification store, cannot verify OCSP response</source>
-        <translation>无证书验证存储，无法验证 OCSP 响应</translation>
+        <translation>Tewali sitowa ya mmatizo, tekisobose okukakasa okwanukula ku bulamu bwa mmatizo</translation>
     </message>
     <message>
         <source>Failed to decode a SingleResponse from OCSP status response</source>
-        <translation>从 OCSP 状态响应中解码 SingleResponse 失败</translation>
+        <translation>Okwanukula ku bulamu bwa mmatizo temuli SingleResponse</translation>
     </message>
     <message>
         <source>Failed to extract &apos;this update time&apos; from the SingleResponse</source>
-        <translation>从 SingleResponse 中提取"更新时间"失败</translation>
+        <translation>SingleResponse ebulamu obudde ebiri mu kwanukula kakano lwe byateekebwamu</translation>
     </message>
     <message>
         <source>Insufficient memory</source>
-        <translation>内存不足</translation>
+        <translation>Ekifo ekisigadde mu ggwanika lya kompyuta tekimala</translation>
     </message>
     <message>
         <source>Internal error</source>
-        <translation>内部错误</translation>
+        <translation>Wazzewo kiremya atali mu lukalala lw&apos;ekikwataganya sisitemu ez&apos;oku kompyuta ezikola ku bya kwerinda</translation>
     </message>
     <message>
         <source>An internal handle was invalid</source>
-        <translation>内部句柄无效</translation>
+        <translation>Waliwo omukolo ogugaanye olw&apos;okufuna data enyanjuzi etakozeseka</translation>
     </message>
     <message>
         <source>An internal token was invalid</source>
-        <translation>内部令牌无效</translation>
+        <translation>Waliwo omukolo ogugaanye olw&apos;okufuna tokeni etakozeseka</translation>
     </message>
     <message>
         <source>Access denied</source>
-        <translation>访问被拒绝</translation>
+        <translation>Okuyingira kugaanye olw&apos;okubeera nti ebisaanyizo ebiweredwayo tebikozeka</translation>
     </message>
     <message>
         <source>No authority could be contacted for authorization</source>
-        <translation>无法联系授权机构进行授权</translation>
+        <translation>Omukolo gugaanye lwa butasobola kutuukirirayo omugabi wa mmatizo</translation>
     </message>
     <message>
         <source>No credentials</source>
-        <translation>无凭据</translation>
+        <translation>Omukolo gugaanye olwokuba nti data enyanjuzi ey&apos;ebisaanyizo mu paramita phCredential tekozeseka</translation>
     </message>
     <message>
         <source>The target is unknown or unreachable</source>
-        <translation>目标未知或不可达</translation>
+        <translation>Ekigenderwa tekimanyidwa oba tekituukikako</translation>
     </message>
     <message>
         <source>An unsupported function was requested</source>
-        <translation>请求了不支持的功能</translation>
+        <translation>Wabaddewo okugeza okukozesa omukolo sisitemu gw&apos;etalina</translation>
     </message>
     <message>
         <source>The hostname provided does not match the one received from the peer</source>
-        <translation>提供的主机名与从对等方接收的主机名不匹配</translation>
+        <translation>Erinnya lya ku kayungirizi eriteeredwawo lyawufu ku kompyuta ewulizigana lyeweerezza</translation>
     </message>
     <message>
         <source>No common protocol exists between the client and the server</source>
-        <translation>客户端和服务器之间没有共同的协议</translation>
+        <translation>Kompyuta kasitoma n&apos;eweereza tewali kika kya mpulizagana zombi kye zitegeera</translation>
     </message>
     <message>
         <source>Unexpected or badly-formatted message received</source>
-        <translation>收到意外或格式错误的消息</translation>
+        <translation>Wafunidwa obubaka obutasuubidwa oba obulimu ensobi za mu mpandika</translation>
     </message>
     <message>
         <source>The data could not be encrypted</source>
-        <translation>数据无法加密</translation>
+        <translation>Tekisobose okukisawaza data</translation>
     </message>
     <message>
         <source>No cipher suites in common</source>
-        <translation>没有共同的密码套件</translation>
+        <translation>Kompyuta kasitoma n&apos;eweereza tewali kika kya bikisawaza zombi kye zikozesa</translation>
     </message>
     <message>
         <source>The credentials were not recognized / Invalid argument</source>
-        <translation>凭据未被识别/无效的参数</translation>
+        <translation>Data eyingirisibwa tekkirizidwa / Waliwo agumenti etakozeseka</translation>
     </message>
     <message>
         <source>The message was tampered with, damaged or out of sequence.</source>
-        <translation>消息被篡改、损坏或顺序错误。</translation>
+        <translation>Obubaka butankudwa, bwonoonedwa oba tebuli mu ngoberereragana yabwo entuufu.</translation>
     </message>
     <message>
         <source>A message was received out of sequence.</source>
-        <translation>收到了顺序错误的消息。</translation>
+        <translation>Waliwo obubaka obutali mu ngoberereragana yabwo entuufu.</translation>
     </message>
     <message>
         <source>Unknown error occurred: %1</source>
-        <translation>发生未知错误：%1</translation>
+        <translation>Wazzewo kiremya atategeereka: %1</translation>
     </message>
     <message>
         <source>Invalid protocol chosen</source>
-        <translation>选择的协议无效</translation>
+        <translation>Empulizagana etegekedwa tekozeseka</translation>
     </message>
     <message>
         <source>The certificate provided cannot be used for a client.</source>
-        <translation>提供的证书不能用于客户端。</translation>
+        <translation>Emmatizo efunidwa tesobola okukozesbwa ku kasitoma.</translation>
     </message>
     <message>
         <source>The certificate provided cannot be used for a server.</source>
-        <translation>提供的证书不能用于服务器。</translation>
+        <translation>Emmatizo efunidwa tesobola okukozesbwa ku kompyuta eweereza.</translation>
     </message>
     <message>
         <source>Server did not accept any certificate we could present.</source>
-        <translation>服务器不接受我们可以提供的任何证书。</translation>
+        <translation>Kompyuta eweereza mmatizo zonna ze tugiwadde ezigaanye.</translation>
     </message>
     <message>
         <source>Algorithm mismatch</source>
-        <translation>算法不匹配</translation>
+        <translation>Ekika ky&apos;ekikisawaza kompyuta kasitoma ky&apos;ekozesa kyawufu ku ky&apos;oku eweereza</translation>
     </message>
     <message>
         <source>Handshake failed: %1</source>
-        <translation>握手失败：%1</translation>
+        <translation>Okutegeeragana kugaanye: %1</translation>
     </message>
     <message>
         <source>Failed to query the TLS context: %1</source>
-        <translation>查询 TLS 上下文失败：%1</translation>
+        <translation>Tekisobose okukebera oluteekateeka lwa TLS: %1</translation>
     </message>
     <message>
         <source>Did not get the required attributes for the connection.</source>
-        <translation>未获得连接所需的属性。</translation>
+        <translation>Atiributo ezeetaagibwa okuteekawo empulizagana tezifunidwa.</translation>
     </message>
     <message>
         <source>Unwanted protocol was negotiated</source>
-        <translation>协商了不需要的协议</translation>
+        <translation>Okutegeeragana kutegekawo empulizagana ey&apos;ekika ekiteetaagibwa</translation>
     </message>
     <message>
         <source>Renegotiation was unsuccessful: %1</source>
-        <translation>重新协商失败：%1</translation>
+        <translation>Ouddamu okutegeeragana tekuyisemu: %1</translation>
     </message>
     <message>
         <source>Schannel failed to encrypt data: %1</source>
-        <translation>Schannel 加密数据失败：%1</translation>
+        <translation>Schannel eremedwa okukisawaza data: %1</translation>
     </message>
     <message>
         <source>Cannot provide a certificate with no key</source>
-        <translation>无法提供没有密钥的证书</translation>
+        <translation>Tekisobose okugaba mmatizo nga tewali kasumuluzo</translation>
     </message>
 </context>
 <context>
     <name>QStandardPaths</name>
     <message>
         <source>Desktop</source>
-        <translation>桌面</translation>
+        <translation>Awakolerwa</translation>
     </message>
     <message>
         <source>Documents</source>
-        <translation>文档</translation>
+        <translation>Ebiwandike</translation>
     </message>
     <message>
         <source>Fonts</source>
-        <translation>字体</translation>
+        <translation>Nkula Ya Nnukuta</translation>
     </message>
     <message>
         <source>Applications</source>
-        <translation>应用程序</translation>
+        <translation>Puloguramu</translation>
     </message>
     <message>
         <source>Music</source>
-        <translation>音乐</translation>
+        <translation>Nyimba</translation>
     </message>
     <message>
         <source>Movies</source>
-        <translation>电影</translation>
+        <translation>Vidiyo</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>图片</translation>
+        <translation>Bifaananyi</translation>
     </message>
     <message>
         <source>Temporary Directory</source>
-        <translation>临时目录</translation>
+        <translation>Tterekero lya bya kiseerabuseera</translation>
     </message>
     <message>
         <source>Home</source>
-        <translation>主文件夹</translation>
+        <translation>Tterekero lya Akawunti</translation>
     </message>
     <message>
         <source>Cache</source>
-        <translation>缓存</translation>
+        <translation>Ggwanika ly&apos;ebyanguyisa</translation>
     </message>
     <message>
         <source>Shared Data</source>
-        <translation>共享数据</translation>
+        <translation>Ebigabanibwa</translation>
     </message>
     <message>
         <source>Runtime</source>
-        <translation>运行时</translation>
+        <translation>Ebibumbujjisamirimu</translation>
     </message>
     <message>
         <source>Configuration</source>
-        <translation>配置</translation>
+        <translation>Eby&apos;enteekateeka</translation>
     </message>
     <message>
         <source>Shared Configuration</source>
-        <translation>共享配置</translation>
+        <translation>Enteekateeka ez&apos;awamu</translation>
     </message>
     <message>
         <source>Shared Cache</source>
-        <translation>共享缓存</translation>
+        <translation>Ggwanika ly&apos;ebyanguyisa erigabanibwa</translation>
     </message>
     <message>
         <source>Download</source>
-        <translation>下载</translation>
+        <translation>Ebiwanudwa</translation>
     </message>
     <message>
         <source>Application Data</source>
-        <translation>应用程序数据</translation>
+        <translation>Ebikozesebwa Puloguramu</translation>
     </message>
     <message>
         <source>Application Configuration</source>
-        <translation>应用程序配置</translation>
+        <translation>Enteekateeka za Puloguramu</translation>
     </message>
 </context>
 <context>
     <name>QStateMachine</name>
     <message>
         <source>Missing initial state in compound state &apos;%1&apos;</source>
-        <translation>复合状态“%1”中缺少初始状态</translation>
+        <translation>Sisitemu eyingira mbeera efuulikamu &apos;%1&apos; etalina mbeera ey&apos;entandikwa</translation>
     </message>
     <message>
         <source>Missing default state in history state &apos;%1&apos;</source>
-        <translation>历史记录状态“%1”中缺少默认状态</translation>
+        <translation>Embeera sisitemu gyeyabeeramu ko &apos;%1&apos; terina mbeera eyekubirwa</translation>
     </message>
     <message>
         <source>No common ancestor for targets and source of transition from state &apos;%1&apos;</source>
-        <translation>没有用于目标和源从状态“%1”转换的共同祖先</translation>
+        <translation>Entandikwa n&apos;ekigenderwa eby&apos;enkyuka okuva mu mbeera &apos;%1&apos; tebiri mu sisitemu ya mbeera y&apos;emu</translation>
     </message>
     <message>
         <source>Child mode of state machine &apos;%1&apos; is not &apos;ExclusiveStates&apos;.</source>
-        <translation>状态机"%1"的子模式不是"ExclusiveStates"。</translation>
+        <translation>Sisitemu y&apos;embeera &apos;%1&apos; enyingira y&apos;embeera ya yo tetegekedwa okubeera &apos;ExclusiveStates&apos;.</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>未知错误</translation>
+        <translation>Wazzewo kiremya atategeereka</translation>
     </message>
 </context>
 <context>
     <name>QSystemSemaphore</name>
     <message>
         <source>%1: permission denied</source>
-        <translation>%1：权限被拒绝</translation>
+        <translation>%1: Olukusa teruweeredwa</translation>
     </message>
     <message>
         <source>%1: already exists</source>
-        <translation>%1：已经存在</translation>
+        <translation>%1: esangidwa weeri</translation>
     </message>
     <message>
         <source>%1: does not exist</source>
-        <translation>%1：不存在</translation>
+        <translation>%1: teeriwo</translation>
     </message>
     <message>
         <source>%1: out of resources</source>
-        <translation>%1：资源耗尽</translation>
+        <translation>%1: sisitemu bye yeyambsa okukola omulimu tebimala, byonna bikozesebwa</translation>
     </message>
     <message>
         <source>%1: unknown error %2</source>
-        <translation>%1：未知错误 %2</translation>
+        <translation>%1: wazzewo kiremya atategeereka %2</translation>
     </message>
 </context>
 <context>
     <name>QTDSDriver</name>
     <message>
         <source>Unable to open connection</source>
-        <translation>无法打开连接</translation>
+        <translation>Tekisobose okuteekawo okukwatagana</translation>
     </message>
     <message>
         <source>Unable to use database</source>
-        <translation>无法使用数据库</translation>
+        <translation>Tekisobose okukozesa ggwanika lya data</translation>
     </message>
 </context>
 <context>
     <name>QTabBar</name>
     <message>
         <source>Scroll Left</source>
-        <translation>向左滚动</translation>
+        <translation>Seesa ku kkono</translation>
     </message>
     <message>
         <source>Scroll Right</source>
-        <translation>向右滚动</translation>
+        <translation>Seesa ku ddyo</translation>
     </message>
 </context>
 <context>
     <name>QTcpServer</name>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>套接字操作不被支持</translation>
+        <translation>Sisitemu eno omukolo ogw&apos;oku soketi ogwo tegusobola</translation>
     </message>
 </context>
 <context>
     <name>QTgaFile</name>
     <message>
         <source>Could not read image data</source>
-        <translation>无法读取图像数据</translation>
+        <translation>Tekisobose okusoma data ey&apos;ekifaananyi</translation>
     </message>
     <message>
         <source>Sequential device (eg socket) for image read not supported</source>
-        <translation>不支持图像读取的顺序设备 (例如套接字)</translation>
+        <translation>Okusoma fayiro z&apos;ebifaananyi okuva ku byuma bya mugobereragano (e.g. soketi) tekukkirizibwa</translation>
     </message>
     <message>
         <source>Seek file/device for image read failed</source>
-        <translation>查找用于读取图像的文件/设备失败</translation>
+        <translation>Tekisobose okutegeka aw&apos;okutandikira okukebera fayiro/kyuma okuyungululamu kifaananyi</translation>
     </message>
     <message>
         <source>Image header read failed</source>
-        <translation>图像文件头读取失败</translation>
+        <translation>Tekisbose okusoma ekitundu eky&apos;okweyanjula ekya fayiro y&apos;ekifaananyi</translation>
     </message>
     <message>
         <source>Image type not supported</source>
-        <translation>图像类型不支持</translation>
+        <translation>Sisitemu tetegeera kika kya kifaananyi</translation>
     </message>
     <message>
         <source>Image depth not valid</source>
-        <translation>图像色彩深度无效</translation>
+        <translation>Enkongojja ya langi tekkirizidwa</translation>
     </message>
     <message>
         <source>Image size exceeds limit</source>
-        <translation>图像尺寸超出限制</translation>
+        <translation>Obunene bw&apos;ekifaananyi bususse mu kkomo</translation>
     </message>
     <message>
         <source>Could not seek to image read footer</source>
-        <translation>无法找到图像读取脚标</translation>
+        <translation>Tekisobose okutegeka okusoma fayiro kutandikire ku bubaka obufundikira fayiro</translation>
     </message>
     <message>
         <source>Could not read footer</source>
-        <translation>无法读取脚标</translation>
+        <translation>Tekisobose okusoma obubaka obufundikira fayiro</translation>
     </message>
     <message>
         <source>Image type (non-TrueVision 2.0) not supported</source>
-        <translation>图像类型 (非 TrueVision 2.0) 不支持</translation>
+        <translation>Sisitemu tekolagana n&apos;ebifaananyi eby&apos;ekika kya &apos;non-TrueVision 2.0&apos;</translation>
     </message>
     <message>
         <source>Could not reset to read data</source>
-        <translation>无法重置以读取数据</translation>
+        <translation>Tekisobose okutegekera okusoma data</translation>
+    </message>
+    <message>
+        <source>Invalid color map depth (%1)</source>
+        <translation>Enkongojja ya langi (%1) eya mapu ya langi tekozeseka</translation>
     </message>
 </context>
 <context>
     <name>QUdpSocket</name>
     <message>
         <source>Unable to send a datagram</source>
-        <translation>无法发送数据报</translation>
+        <translation>Tekisobose okusindika dataguramu</translation>
     </message>
     <message>
         <source>No datagram available for reading</source>
-        <translation>没有可供读取的数据报</translation>
+        <translation>Tewali dataguramu ey&apos;okusoma</translation>
     </message>
 </context>
 <context>
     <name>QUndoGroup</name>
     <message>
         <source>Undo %1</source>
-        <translation>撤消 %1</translation>
+        <translation>Julula %1</translation>
     </message>
     <message>
         <source>Undo</source>
         <comment>Default text for undo action</comment>
-        <translation>撤销</translation>
+        <translation>Bijjulule</translation>
     </message>
     <message>
         <source>Redo %1</source>
-        <translation>重做 %1</translation>
+        <translation>Zzawo %1</translation>
     </message>
     <message>
         <source>Redo</source>
         <comment>Default text for redo action</comment>
-        <translation>重做</translation>
+        <translation>Zzawo</translation>
     </message>
 </context>
 <context>
     <name>QUndoModel</name>
     <message>
         <source>&lt;empty&gt;</source>
-        <translation>&lt;空白&gt;</translation>
+        <translation>&lt;wereere&gt;</translation>
     </message>
 </context>
 <context>
     <name>QUndoStack</name>
     <message>
         <source>Undo %1</source>
-        <translation>撤消 %1</translation>
+        <translation>Julula %1</translation>
     </message>
     <message>
         <source>Undo</source>
         <comment>Default text for undo action</comment>
-        <translation>撤销</translation>
+        <translation>Bijjulule</translation>
     </message>
     <message>
         <source>Redo %1</source>
-        <translation>重做 %1</translation>
+        <translation>Zzawo %1</translation>
     </message>
     <message>
         <source>Redo</source>
         <comment>Default text for redo action</comment>
-        <translation>重做</translation>
+        <translation>Zzawo</translation>
     </message>
 </context>
 <context>
     <name>QUnicodeControlCharacterMenu</name>
     <message>
         <source>LRM Left-to-right mark</source>
-        <translation>LRM 从左到右标记</translation>
+        <translation>LRM Akabonero akalagira ebiwandikibwa bitandikire ku kkono nga bidda ku ddyo</translation>
     </message>
     <message>
         <source>RLM Right-to-left mark</source>
-        <translation>RLM 从右向左标记</translation>
+        <translation>RLM Akabonero akalagira ebiwandikibwa bitandikire ku ddyo nga bidda ku kkono</translation>
     </message>
     <message>
         <source>ZWJ Zero width joiner</source>
-        <translation>ZWJ 零宽连字</translation>
+        <translation>ZWJ Akabonero akatalabika akaleetera nnukuta bbiri okwegatta</translation>
     </message>
     <message>
         <source>ZWNJ Zero width non-joiner</source>
-        <translation>ZWNJ 零宽不连字</translation>
+        <translation>ZWNJ Akabonero akatalabika akagaana ennukuta okwegatta</translation>
     </message>
     <message>
         <source>ZWSP Zero width space</source>
-        <translation>ZWSP 零宽度空格</translation>
+        <translation>ZWSP Akabonero akatalabika akalaga ekigambo we kiyinz&apos;okukutulibwamu</translation>
     </message>
     <message>
         <source>LRE Start of left-to-right embedding</source>
-        <translation>LRE 开始从左到右嵌入</translation>
+        <translation>LRE Akabonero akalagira ebigambo n&apos;ennukuta eby&apos;omu muko okutandikira ku kkono nga bidda ku ddyo</translation>
     </message>
     <message>
         <source>RLE Start of right-to-left embedding</source>
-        <translation>RLE 开始从右向左嵌入</translation>
+        <translation>RLE Akabonero akalagira ebigambo n&apos;ennukuta eby&apos;omu muko okutandikira ku ddyo nga bidda ku kkono</translation>
     </message>
     <message>
         <source>LRO Start of left-to-right override</source>
-        <translation>LRO 开始从左向右重写</translation>
+        <translation>LRO Akabonero akalagira ennukuta ezimu okutandikira ku kkono nga zidda ku ddyo</translation>
     </message>
     <message>
         <source>RLO Start of right-to-left override</source>
-        <translation>RLO 开始从右向左重写</translation>
+        <translation>RLO Akabonero akalagira ennukuta eza mu kigambo ezimu okutandikira ku ddyo nga zidda ku kkono</translation>
     </message>
     <message>
         <source>PDF Pop directional formatting</source>
-        <translation>PDF 弹出方向格式</translation>
+        <translation>PDF Akabonero akatalabika akakomya enkola eyaleetedwa akabonero akalala</translation>
     </message>
     <message>
         <source>LRI Left-to-right isolate</source>
-        <translation>LRI 从左到右隔离</translation>
+        <translation>LRI Akabonero akalagira ebigambo n&apos;ennukuta eby&apos;omu muko okutandikira ku kkono nga bidda ku ddyo. Era kabyawula ku binnaabyo</translation>
     </message>
     <message>
         <source>RLI Right-to-left isolate</source>
-        <translation>RLI 从右到左隔离</translation>
+        <translation>RLI Akabonero akalagira ebigambo n&apos;ennukuta eby&apos;omu muko okutandikira ku ddyo nga bidda ku kkono. Era kabyawula ku binnaabyo</translation>
     </message>
     <message>
         <source>FSI First strong isolate</source>
-        <translation>FSI 第一强隔离</translation>
+        <translation>FSI Akabonero akatalabika akakaka buli bigambo mu muko okutandikira ku ludda lwe lumu n&apos;ebisinga mu obungi</translation>
     </message>
     <message>
         <source>PDI Pop directional isolate</source>
-        <translation>PDI 弹出定向隔离</translation>
+        <translation>PDI Akabonero akatalabika akakomya enkola eyaleetedwa akabonero akali mu lubu lwa LRI, RLI, ne FSI</translation>
     </message>
     <message>
         <source>Insert Unicode control character</source>
-        <translation>插入 Unicode 控制字符</translation>
+        <translation>Sonsekawo akabonero ak&apos;omu Unicode akafuga empandika</translation>
     </message>
 </context>
 <context>
     <name>QWhatsThisAction</name>
     <message>
         <source>What&apos;s This?</source>
-        <translation>这是什么？</translation>
+        <translation>Kino Kiki?</translation>
     </message>
 </context>
 <context>
@@ -7540,35 +7372,35 @@ Role of an accessible object</extracomment>
     <name>QWidgetTextControl</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>撤消(&amp;U)</translation>
+        <translation>&amp;Bijjulule</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>重做(&amp;R)</translation>
+        <translation>&amp;Zzawo</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>剪切(&amp;T)</translation>
+        <translation>Si&amp;tulawo</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>复制(&amp;C)</translation>
+        <translation>&amp;Koppa</translation>
     </message>
     <message>
         <source>Copy &amp;Link Location</source>
-        <translation>复制链接地址(&amp;L)</translation>
+        <translation>Koppa &amp;Ndagiriro Nyunzi Kw&apos;egguka</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>粘贴(&amp;P)</translation>
+        <translation>&amp;Paatiika</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>删除</translation>
+        <translation>Gyawo</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>全选</translation>
+        <translation>Londa Byonna</translation>
     </message>
 </context>
 <context>
@@ -7577,322 +7409,324 @@ Role of an accessible object</extracomment>
         <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
 
 The minimum Direct2D version required is %1. The Direct2D version on this system is %2.</source>
-        <translation>Qt 无法加载 direct2d 平台插件，因为此系统上的 Direct2D 版本太旧了。此平台插件的最低系统要求是带有平台更新的 Windows 7 SP1。
+        <translation>Qt tesobodde okuwanga ekyongerwako ekya &apos;direct2d&apos; kubanga oluwandika lwa eya ku sisitemu eno lwa dda ekiyitiridde. Kyetaagisa Windows 7 ey&apos;entumbuzi ezisinga obujja oba Windows empya okusinga awo.
 
-所需的最低 Direct2D 版本为 %1。此系统上的Direct2D版本为 %2。</translation>
+Oluwandika lwa &apos;Direct2D&apos; olusinga obukadde olukola lwe olwa %1. Oluwandika olwa &apos;Direct2D&apos; olwa ku sisitemu eno lwo lwa %2.</translation>
     </message>
     <message>
         <source>Cannot load direct2d platform plugin</source>
-        <translation>无法加载 direct2d 平台插件</translation>
+        <translation>Tekisobose okuwanga ekyongerwako ekya &apos;direct2d&apos;</translation>
     </message>
 </context>
 <context>
     <name>QWizard</name>
     <message>
         <source>Go Back</source>
-        <translation>上一步</translation>
+        <translation>Ddayo</translation>
     </message>
     <message>
         <source>&lt; &amp;Back</source>
-        <translation>&lt; 上一步(&amp;B)</translation>
+        <translation>&lt; &amp;Ddayo</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation>继续</translation>
+        <translation>Weyongereyo</translation>
     </message>
     <message>
         <source>&amp;Next</source>
-        <translation>下一步(&amp;N)</translation>
+        <translation>&amp;Ekiddako</translation>
     </message>
     <message>
         <source>&amp;Next &gt;</source>
-        <translation>下一步(&amp;N) &gt;</translation>
+        <translation>&amp;Ekiddako &gt;</translation>
     </message>
     <message>
         <source>Commit</source>
-        <translation>提交</translation>
+        <translation>Kazza</translation>
     </message>
     <message>
         <source>Done</source>
-        <translation>完成</translation>
+        <translation>Kiwedde</translation>
     </message>
     <message>
         <source>&amp;Finish</source>
-        <translation>完成(&amp;F)</translation>
+        <translation>&amp;Maliriza</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>取消</translation>
+        <translation>Sazamu</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>帮助</translation>
+        <translation>Nyamba</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>帮助(&amp;H)</translation>
+        <translation>&amp;Nyamba</translation>
     </message>
 </context>
 <context>
     <name>QXml</name>
     <message>
         <source>no error occurred</source>
-        <translation>没有错误发生</translation>
+        <translation>temubadde nsobi</translation>
     </message>
     <message>
         <source>error triggered by consumer</source>
-        <translation>消费者触发的错误</translation>
+        <translation>kiremya avudde ku puloguramu ekola ku by&apos;esanzewo</translation>
     </message>
     <message>
         <source>unexpected end of file</source>
-        <translation>异常的文件终止</translation>
+        <translation>fayiro ekomye mu ngeri etasuubidwa</translation>
     </message>
     <message>
         <source>more than one document type definition</source>
-        <translation>多个文档类型定义</translation>
+        <translation>enteekateeka z&apos;ebika by&apos;ebitundu ebikozesebwa mu kiwandiko zisukka mu kimu</translation>
     </message>
     <message>
         <source>error occurred while parsing element</source>
-        <translation>解析元素时发生错误</translation>
+        <translation>Wazzewo kiremya mu kukeberera mateeka g&apos;empandika mu kitundu ky&apos;ekiwandiko</translation>
     </message>
     <message>
         <source>tag mismatch</source>
-        <translation>标记不匹配</translation>
+        <translation>waliwo ekigambo ekiramba entandikwa y&apos;ekitundu eky&apos;ekiwandiko we kitagendera ku kiramba gye kikoma</translation>
     </message>
     <message>
         <source>error occurred while parsing content</source>
-        <translation>解析内容时发生错误</translation>
+        <translation>wazzewo kiremya mu kukeberera mateeka g&apos;empandika mu kitundu ky&apos;ekiwandiko</translation>
     </message>
     <message>
         <source>unexpected character</source>
-        <translation>异常的字符</translation>
+        <translation>akabonero kasangidwa we kabadde tekasuubidwa</translation>
     </message>
     <message>
         <source>invalid name for processing instruction</source>
-        <translation>无效的处理指令名称</translation>
+        <translation>ekiragiro ekya mu XML eky&apos;enjawulo kituumidwa erinnya eritakozeseka</translation>
     </message>
     <message>
         <source>version expected while reading the XML declaration</source>
-        <translation>在读取 XML 声明的时候，版本被期待</translation>
+        <translation>ekitundu ekiteekateeka enkozesa ya XML kibulamu ekiraga oluwandika olugobererwa</translation>
     </message>
     <message>
         <source>wrong value for standalone declaration</source>
-        <translation>独立声明的值错误</translation>
+        <translation>ekyasanguzo ekiraga puloguramu oba waliwo enteekateeka z&apos;enkozesa ya XML mu kiwandiko ekirala kirimu ekikongojje ekisobi</translation>
     </message>
     <message>
         <source>encoding declaration or standalone declaration expected while reading the XML declaration</source>
-        <translation>读取 XML 声明时需要编码声明或独立声明</translation>
+        <translation>ekitundu ekiteekateeka enkozesa ya XML kibula mu ekyasanguzo ekiraga olulyo lw&apos;ennamba ezikongojja
+obubonero oba ekiraga oba waliwo enteekateeka z&apos;enkozesa ya XML mu kiwandiko ekirala</translation>
     </message>
     <message>
         <source>standalone declaration expected while reading the XML declaration</source>
-        <translation>读取 XML 声明时需要独立声明</translation>
+        <translation>ekitundu ekiteekateeka enkozesa ya XML kibulamu ekiraga oba waliwo enteekateeka z&apos;enkozesa ya XML mu kiwandiko ekirala</translation>
     </message>
     <message>
         <source>error occurred while parsing document type definition</source>
-        <translation>解析文档类型定义时发生错误</translation>
+        <translation>wazzewo kiremya mu kukeberera enteekateeka z&apos;ebika by&apos;ebitundu ebikozesebwa mu kiwandiko</translation>
     </message>
     <message>
         <source>letter is expected</source>
-        <translation>需要字母</translation>
+        <translation>wabadde wasuubidwawo nnukuta</translation>
     </message>
     <message>
         <source>error occurred while parsing comment</source>
-        <translation>解析注释时发生错误</translation>
+        <translation>Wazzewo kiremya mu kukebera ebigambo ebinnonyola ebya mu kifo ekisukka mu kimu</translation>
     </message>
     <message>
         <source>error occurred while parsing reference</source>
-        <translation>解析参考时发生错误</translation>
+        <translation>wazzewo kiremya mu kukebera obubonero obukongojja kannaabwo</translation>
     </message>
     <message>
         <source>internal general entity reference not allowed in DTD</source>
-        <translation>在 DTD 中不允许使用内部解析的通用实体参考</translation>
+        <translation>tekikkirizibwa okukozesa obubonero obukongojja okukwatira ekikongojjabingi ekifo awategeka ebika by&apos;ebitundu ebikozesebwa mu kiwandiko</translation>
     </message>
     <message>
         <source>external parsed general entity reference not allowed in attribute value</source>
-        <translation>在属性值中不允许使用外部解析的通用实体参考</translation>
+        <translation>ebikongojje ebya mu atiributo tebikkirizibwa okubeeramu ebigambo ebiwandisawo ebikongozzi ebikongojjabingi ebikeberwa</translation>
     </message>
     <message>
         <source>external parsed general entity reference not allowed in DTD</source>
-        <translation>在 DTD 中不允许使用外部解析的通用实体参考</translation>
+        <translation>tebikkirizibwa okuteeka ebigambo ebiwandisawo ebikongozzi ebikongojjabingi ebikeberwa awategeka ebika by&apos;ebitundu ebikozesebwa mu kiwandiko</translation>
     </message>
     <message>
         <source>unparsed entity reference in wrong context</source>
-        <translation>没有解析的错误上下文中的实体参考</translation>
+        <translation>ekigambo ekiwandisawo ekikongozzi ekitaakeberwe kisangidwa we kitandibadde</translation>
     </message>
     <message>
         <source>recursive entities</source>
-        <translation>嵌套实体</translation>
+        <translation>mulimu ebikongozzi ebyekongojja</translation>
     </message>
     <message>
         <source>error in the text declaration of an external entity</source>
-        <translation>在一个外部实体的文本声明里有错误</translation>
+        <translation>wazzewo kiremya mu kyasanguzo ekiraga oluwandika lwa XML olugobererwa n&apos;olulyo lw&apos;ennamba ezikongojja obubonero eky&apos;omu kikongozzi ekinone</translation>
     </message>
 </context>
 <context>
     <name>QXmlStream</name>
     <message>
         <source>Extra content at end of document.</source>
-        <translation>文档末尾有额外内容。</translation>
+        <translation>Ekiwandiko kirimu ebyeyongerayo okusukka we kyandikomye.</translation>
     </message>
     <message>
         <source>Invalid entity value.</source>
-        <translation>无效的实体值。</translation>
+        <translation>Waliwo ekitakozeseka ekiyingizibwa mu kikongozzi.</translation>
     </message>
     <message>
         <source>Invalid XML character.</source>
-        <translation>无效的 XML 字符。</translation>
+        <translation>Waliwo akabonero akatakozeseka mu XML.</translation>
     </message>
     <message>
         <source>Sequence &apos;]]&gt;&apos; not allowed in content.</source>
-        <translation>内容中不允许有“]]&gt;”序列。</translation>
+        <translation>Ebigobereragana &apos;]]&gt;&apos; tebikkirizibwa mu byolesebwa.</translation>
     </message>
     <message>
         <source>Encountered incorrectly encoded content.</source>
-        <translation>遇到不正确的编码内容。</translation>
+        <translation>Waliwo ebyolesebwa ebyeyambisa olulyo lw&apos;ennamba enkongozzi etali ntuufu.</translation>
     </message>
     <message>
         <source>Namespace prefix &apos;%1&apos; not declared</source>
-        <translation>命名空间的“%1”前缀没有被声明</translation>
+        <translation>Akatandikwa &apos;%1&apos; ak&apos;olubu lwa mannya tekasoose kutegekebwa</translation>
     </message>
     <message>
         <source>Illegal namespace declaration.</source>
-        <translation>非法的命名空间声明。</translation>
+        <translation>Waliwo enteekateeka y&apos;olubu lw&apos;amannya etagoberera mateeka.</translation>
     </message>
     <message>
         <source>Attribute &apos;%1&apos; redefined.</source>
-        <translation>属性“%1”已重新定义。</translation>
+        <translation>Atiributo &apos;%1&apos; etegekebwa emirundi egisukka mu gumu.</translation>
     </message>
     <message>
         <source>Unexpected character &apos;%1&apos; in public id literal.</source>
-        <translation>在公有标识文本中有异常的字符“%1”。</translation>
+        <translation>Ekirambalamba ekya mu ndagakintu ekolera n&apos;abalala kisangidwamu akabonero &apos;%1&apos; akatasuubidwa.</translation>
     </message>
     <message>
         <source>Invalid XML version string.</source>
-        <translation>无效的 XML 版本字符串。</translation>
+        <translation>Ekigambo ekiraga oluwandika lwa XML tekikozeseka.</translation>
     </message>
     <message>
         <source>Unsupported XML version.</source>
-        <translation>不被支持的 XML 版本。</translation>
+        <translation>Sisitemu tekolagana n&apos;olwandika lwa XML luno.</translation>
     </message>
     <message>
         <source>The standalone pseudo attribute must appear after the encoding.</source>
-        <translation>独立运行伪属性必须出现在编码之后。</translation>
+        <translation>Ekyasanguzo ekiraga olulyo lw&apos;ennamba ezikongojja obubonero kiteekwa okusooka
+atiributo ennefaananyirize eraga oba waliwo enteekateeka z&apos;enkozesa ya XML mu kiwandiko ekirala.</translation>
     </message>
     <message>
         <source>%1 is an invalid encoding name.</source>
-        <translation>%1 是无效的编码名称。</translation>
+        <translation>%1 tekibalibwa ng&apos;erinnya ly&apos;olulyo lw&apos;ennamba enkongozzi.</translation>
     </message>
     <message>
         <source>Encoding %1 is unsupported</source>
-        <translation>编码 %1 不被支持</translation>
+        <translation>Sisitemu eno tetegeera olulyo %1 olw&apos;ennamba enkongozzi</translation>
     </message>
     <message>
         <source>Standalone accepts only yes or no.</source>
-        <translation>独立运行只允许是或者否。</translation>
+        <translation>Ekyasanguzo ekiraga puloguramu oba waliwo enteekateeka z&apos;enkozesa ya XML mu kiwandiko ekirala kijjuzibwamu yes oba no byokka.</translation>
     </message>
     <message>
         <source>Invalid attribute in XML declaration.</source>
-        <translation>在 XML 声明中无效的属性。</translation>
+        <translation>Ekitundu ekiteekateeka enkozesa ya XML mu kiwandiko kirimu atiributo etakkirizibwa.</translation>
     </message>
     <message>
         <source>Premature end of document.</source>
-        <translation>文档过早的结束。</translation>
+        <translation>Ekiwandiko kikomye mu kkubo.</translation>
     </message>
     <message>
         <source>Invalid document.</source>
-        <translation>无效的文档。</translation>
+        <translation>Ekiwandiko tekikozeseka.</translation>
     </message>
     <message>
         <source>&apos;%1&apos;</source>
         <comment>expected</comment>
         <extracomment>&apos;&lt;first option&gt;&apos;</extracomment>
-        <translation>“%1”</translation>
+        <translation>&apos;%1&apos;</translation>
     </message>
     <message>
         <source>%1 or &apos;%2&apos;</source>
         <comment>expected</comment>
         <extracomment>&lt;first option&gt;, &apos;&lt;second option&gt;&apos;</extracomment>
-        <translation>%1 或“%2”</translation>
+        <translation>%1 oba &apos;%2&apos;</translation>
     </message>
     <message>
         <source>%1, &apos;%2&apos;</source>
         <comment>expected</comment>
         <extracomment>&lt;options so far&gt;, &apos;&lt;next option&gt;&apos;</extracomment>
-        <translation>%1，“%2”</translation>
+        <translation>%1, &apos;%2&apos;</translation>
     </message>
     <message>
         <source>%1, or &apos;%2&apos;</source>
         <comment>expected</comment>
         <extracomment>&lt;options so far&gt;, or &apos;&lt;final option&gt;&apos;</extracomment>
-        <translation>%1，或“%2”</translation>
+        <translation>%1, oba &apos;%2&apos;</translation>
     </message>
     <message>
         <source>Expected %1, but got &apos;%2&apos;.</source>
-        <translation>应为 %1，但得到了“%2”。</translation>
+        <translation>Awasuubidwa %1 wafunidwa &apos;%2&apos;.</translation>
     </message>
     <message>
         <source>Unexpected &apos;%1&apos;.</source>
-        <translation>异常的“%1”。</translation>
+        <translation>Waliwo &apos;%1&apos; we kitasuubidwa.</translation>
     </message>
     <message>
         <source>Expected character data.</source>
-        <translation>需要字符数据。</translation>
+        <translation>Data ebadde esubidwa okubeera ya bubonero.</translation>
     </message>
     <message>
         <source>Self-referencing entity detected.</source>
-        <translation>检测到自引用实体。</translation>
+        <translation>Waliwo awali ekikongozzi ekyekongojja.</translation>
     </message>
     <message>
         <source>Entity expands to more characters than the entity expansion limit.</source>
-        <translation>实体展开后的字符数超过了实体展开限制。</translation>
+        <translation>Waliwo ekikongozzi ekiva mu obubonero bungi okusinga ekkomo ery&apos;obukkirizibwa okukongojjebwa ekikongozzi.</translation>
     </message>
     <message>
         <source>Start tag expected.</source>
-        <translation>需要开始标记。</translation>
+        <translation>Waliwo awabula ekirambakitundu eky&apos;entadikwa.</translation>
     </message>
     <message>
         <source>NDATA in parameter entity declaration.</source>
-        <translation>在参数实体声明中有 NDATA。</translation>
+        <translation>Ekigambo NDATA kisangidwa mu nteekateeka y&apos;ekikongozzi ekya paramita.</translation>
     </message>
     <message>
         <source>XML declaration not at start of document.</source>
-        <translation>XML 声明没有在文档的开始位置。</translation>
+        <translation>Waliwo ekiteekateeke ekya XML ekitali ku ntandikwa y&apos;ekiwandiko.</translation>
     </message>
     <message>
         <source>%1 is an invalid processing instruction name.</source>
-        <translation>%1 是无效的处理指令名称。</translation>
+        <translation>Ekiragiro ekya mu XML eky&apos;enjawulo kituumidwa erinnya %1 eritakozeseka.</translation>
     </message>
     <message>
         <source>Invalid processing instruction name.</source>
-        <translation>无效的处理指令名称。</translation>
+        <translation>Ekiragiro ekya mu XML eky&apos;enjawulo kituumidwa erinnya eritakozeseka.</translation>
     </message>
     <message>
         <source>%1 is an invalid PUBLIC identifier.</source>
-        <translation>%1 是一个无效的公有(PUBLIC)标识符。</translation>
+        <translation>%1 tekikola nga endagakintu ekolera n&apos;abalala.</translation>
     </message>
     <message>
         <source>Invalid XML name.</source>
-        <translation>无效的 XML 名称。</translation>
+        <translation>Waliwo ekitakozeseka ng&apos;erinnya mu XML.</translation>
     </message>
     <message>
         <source>Opening and ending tag mismatch.</source>
-        <translation>开始标记和结束标记不匹配。</translation>
+        <translation>Waliwo awali ekirambakitundu eky&apos;entandikwa n&apos;ekifundikira ebitakwatagana.</translation>
     </message>
     <message>
         <source>Entity &apos;%1&apos; not declared.</source>
-        <translation>实体“%1”没有被声明。</translation>
+        <translation>Ekikongozzi &apos;%1&apos; tekisoose kutegekebwa.</translation>
     </message>
     <message>
         <source>Reference to unparsed entity &apos;%1&apos;.</source>
-        <translation>未解析实体“%1”的引用。</translation>
+        <translation>Musangidwamu ekigambo ekiwandisawo ekikongozzi ekitaakeberwe &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Reference to external entity &apos;%1&apos; in attribute value.</source>
-        <translation>在属性值中的外部实体“%1”的引用。</translation>
+        <translation>Waliwo ekikongojjebwa kya atiributo ekirimu ekigambo ekiwandisawo ekikongozzi ekinone &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Invalid character reference.</source>
-        <translation>无效的字符引用。</translation>
+        <translation>Waliwo awali obubonero obukongojja kannabwo obutakozeseka.</translation>
     </message>
 </context>
 </TS>
