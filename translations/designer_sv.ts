@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="sv">
+<TS version="2.1" language="sv_SE">
 <context>
     <name>DeviceProfileDialog</name>
     <message>
@@ -136,7 +136,7 @@
         <source>The current object already has a property named &apos;%1&apos;.
 Please select another, unique one.</source>
         <translation>Det aktuella objektet har redan ett egenskap med namnet &quot;%1&quot;.
-Välj ett annat namn, unikt namn.</translation>
+Välj ett annat och unikt namn.</translation>
     </message>
     <message>
         <source>The &apos;_q_&apos; prefix is reserved for the Qt library.
@@ -283,7 +283,7 @@ Välj ett annat namn.</translation>
     <message>
         <source>Tristate CheckBox</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>Tristate CheckBox</translation>
+        <translation>Trelägeskryssruta</translation>
     </message>
     <message>
         <source>PushButton</source>
@@ -729,7 +729,7 @@ Vill du skriva över mallen?</translation>
     </message>
     <message>
         <source>&amp;Label text:</source>
-        <translation>E&amp;tikettext:</translation>
+        <translation>E&amp;tiketttext:</translation>
     </message>
     <message>
         <source>Field &amp;type:</source>
@@ -858,7 +858,7 @@ Vill du skriva över mallen?</translation>
     </message>
     <message>
         <source>QVGA portrait (240x320)</source>
-        <translation>Stående QVGA  (240x320)</translation>
+        <translation>Stående QVGA (240x320)</translation>
     </message>
     <message>
         <source>QVGA landscape (320x240)</source>
@@ -2262,7 +2262,7 @@ Containersidor bör endast läggas till genom att specifiera dem i XML returnera
     <name>BrushPropertyManager</name>
     <message>
         <source>No brush</source>
-        <translation>Ingen borste</translation>
+        <translation>Ingen pensel</translation>
     </message>
     <message>
         <source>Solid</source>
@@ -2828,7 +2828,7 @@ Klass: %2</translation>
     </message>
     <message>
         <source>Demote from custom widget</source>
-        <translation>Demotera från anpassad widget</translation>
+        <translation>Degradera från anpassad widget</translation>
     </message>
     <message>
         <source>Lay out using grid</source>
@@ -3304,7 +3304,7 @@ Klass: %2</translation>
     </message>
     <message>
         <source>Tristate</source>
-        <translation>Tristate</translation>
+        <translation>Treläge</translation>
     </message>
     <message>
         <source>Unchecked</source>
@@ -3483,7 +3483,7 @@ Klass: %2</translation>
     </message>
     <message>
         <source>The font file &apos;%1&apos; does not have read permissions.</source>
-        <translation>Typsnittsfilen &quot;%1&quot; har inte läsbehärigheter.</translation>
+        <translation>Typsnittsfilen &quot;%1&quot; har inte läsbehörigheter.</translation>
     </message>
     <message>
         <source>The font file &apos;%1&apos; is already loaded.</source>
@@ -3553,14 +3553,14 @@ Klass: %2</translation>
     <name>AppFontDialog</name>
     <message>
         <source>Additional Fonts</source>
-        <translation>Ytterligare typsnitt</translation>
+        <translation>Fler typsnitt</translation>
     </message>
 </context>
 <context>
     <name>AssistantClient</name>
     <message>
         <source>Unable to send request: Assistant is not responding.</source>
-        <translation>Kunde inte skicka begäran. Assistent svarar inte.</translation>
+        <translation>Kunde inte skicka begäran: Assistent svarar inte.</translation>
     </message>
     <message>
         <source>The binary &apos;%1&apos; does not exist.</source>
@@ -4447,7 +4447,7 @@ Anledning: %2</translation>
     <name>QDesignerPluginManager</name>
     <message>
         <source>An XML error was encountered when parsing the XML of the custom widget %1: %2</source>
-        <translation>Ett XML-fel påträäfades vid tolkning av XML för anpassade widgeten %1: %2</translation>
+        <translation>Ett XML-fel påträffades vid tolkning av XML för anpassade widgeten %1: %2</translation>
     </message>
     <message>
         <source>A required attribute (&apos;%1&apos;) is missing.</source>
@@ -4597,7 +4597,7 @@ Anledning: %2</translation>
     </message>
     <message>
         <source>Demote to %1</source>
-        <translation>Demotera till %1</translation>
+        <translation>Degradera till %1</translation>
     </message>
 </context>
 <context>
@@ -5258,7 +5258,7 @@ Anledning: %2</translation>
     <name>Spacer</name>
     <message>
         <source>Horizontal Spacer &apos;%1&apos;, %2 x %3</source>
-        <translation>Horisontell utfyllnadr &apos;%1&apos;, %2 x %3</translation>
+        <translation>Horisontell utfyllnad &apos;%1&apos;, %2 x %3</translation>
     </message>
     <message>
         <source>Vertical Spacer &apos;%1&apos;, %2 x %3</source>
@@ -5373,7 +5373,7 @@ Detta indikerar en inkonsistens i ui-filen.</translation>
     </message>
     <message>
         <source>Flags property are not supported yet.</source>
-        <translation>Flags-egenskaper stöd inte än.</translation>
+        <translation>Flags-egenskaper stöds inte än.</translation>
     </message>
     <message>
         <source>While applying tab stops: The widget &apos;%1&apos; could not be found.</source>
@@ -5409,7 +5409,7 @@ Detta indikerar en inkonsistens i ui-filen.</translation>
     <message>
         <source>An empty class name was passed on to %1 (object name: &apos;%2&apos;).</source>
         <extracomment>Empty class name passed to widget factory method</extracomment>
-        <translation>En  tomt klassnamn skickades vidare till %1 (objektnamn: &apos;%2&apos;).</translation>
+        <translation>Ett tomt klassnamn skickades vidare till %1 (objektnamn: &apos;%2&apos;).</translation>
     </message>
     <message>
         <source>QFormBuilder was unable to create a custom widget of the class &apos;%1&apos;; defaulting to base class &apos;%2&apos;.</source>
@@ -5548,7 +5548,7 @@ Detta indikerar en inkonsistens i ui-filen.</translation>
     </message>
     <message>
         <source>The skin configuration file &apos;%1&apos; could not be read: %2</source>
-        <translation>Skalkonfigurationsfilen &quot;%1&quot; kunde inte öppnas: %2</translation>
+        <translation>Skalkonfigurationsfilen &quot;%1&quot; kunde inte läsas: %2</translation>
     </message>
     <message>
         <source>Syntax error: %1</source>
@@ -5768,7 +5768,7 @@ Detta indikerar en inkonsistens i ui-filen.</translation>
     </message>
     <message>
         <source>Size Vertical</source>
-        <translation>Storlek vertikalt</translation>
+        <translation>Storlek vertikal</translation>
     </message>
     <message>
         <source>Size Horizontal</source>
@@ -5776,7 +5776,7 @@ Detta indikerar en inkonsistens i ui-filen.</translation>
     </message>
     <message>
         <source>Size Backslash</source>
-        <translation>Storlek omvänt backsteg</translation>
+        <translation>Storlek omvänt snedstreck</translation>
     </message>
     <message>
         <source>Size Slash</source>
@@ -6025,7 +6025,7 @@ Detta indikerar en inkonsistens i ui-filen.</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation>Kursiv stil</translation>
+        <translation>Kursiv</translation>
     </message>
     <message>
         <source>Underline</source>

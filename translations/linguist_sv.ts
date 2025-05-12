@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="sv">
+<TS version="2.1" language="sv_SE">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -917,7 +917,7 @@ Kommer att anta en enskild universell form.</translation>
     </message>
     <message>
         <source>Mark item as done</source>
-        <translation>Markera post som slutförd</translation>
+        <translation>Markera posten som slutförd</translation>
     </message>
     <message>
         <source>Mark this item as done.</source>
@@ -1056,7 +1056,7 @@ Alla filer (*)</translation>
     </message>
     <message>
         <source>Search wrapped.</source>
-        <translation>Sök inslagna.</translation>
+        <translation>Sökningen nådde slutet.</translation>
     </message>
     <message>
         <source>Qt Linguist</source>
@@ -1324,14 +1324,6 @@ Alla filer (*)</translation>
     <message>
         <source>This area shows a comment that may guide you, and the context in which the text occurs.</source>
         <translation>Detta område visar kommentarer för din vägledning, och i vilket sammanhang texten finns.</translation>
-    </message>
-    <message>
-        <source>NCR mode</source>
-        <translation>NCR-läge</translation>
-    </message>
-    <message>
-        <source>Toggles Numeric Character Reference Mode for displaying the source text and the translations.</source>
-        <translation>Växlar Numeric Character Reference Mode för visning av källtexten och översättningarna.</translation>
     </message>
     <message>
         <source>Here you can enter comments for your own use. They have no effect on the translated applications.</source>

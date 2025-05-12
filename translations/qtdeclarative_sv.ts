@@ -414,6 +414,10 @@
         <source>SQL: database version mismatch</source>
         <translation>SQL: databasversionen stämmer inte</translation>
     </message>
+    <message>
+        <source>SQL: Cannot open database</source>
+        <translation>SQL: Kan inte öppna databasen</translation>
+    </message>
 </context>
 <context>
     <name>QQmlEnumTypeResolver</name>
@@ -631,6 +635,10 @@
         <translation>Kan inte tilldela objekt till skrivskyddad lista</translation>
     </message>
     <message>
+        <source>Cannot construct value type from given object</source>
+        <translation>Kan inte konstruera värdestyp från angivet objekt</translation>
+    </message>
+    <message>
         <source>Cannot assign primitives to lists</source>
         <translation>Kan inte tilldela primitiver till listor</translation>
     </message>
@@ -745,6 +753,14 @@
         <translation>Ostängd sträng på radslut</translation>
     </message>
     <message>
+        <source>There can be at most one numeric separator between digits</source>
+        <translation>Det kan finnas som mest en numerisk avgränsare mellan siffror</translation>
+    </message>
+    <message>
+        <source>A trailing numeric separator is not allowed in numeric literals</source>
+        <translation>En efterliggande numerisk avgränsare tillåts inte i numeriska literaler</translation>
+    </message>
+    <message>
         <source>At least one hexadecimal digit is required after &apos;0%1&apos;</source>
         <translation>Minst en hexadecimal siffra krävs efter &apos;0%1&apos;</translation>
     </message>
@@ -808,6 +824,14 @@
         <source>Invalid import qualifier</source>
         <translation>Ogiltig importkvalificerare</translation>
     </message>
+    <message>
+        <source>Unexpected token `%1&apos;</source>
+        <translation>Oväntat token `%1&apos;</translation>
+    </message>
+    <message>
+        <source>Expected token `%1&apos;</source>
+        <translation>Förväntade token `%1&apos;</translation>
+    </message>
 </context>
 <context>
     <name>QQmlPartsModel</name>
@@ -823,6 +847,10 @@
 <context>
     <name>QQmlPropertyCacheCreatorBase</name>
     <message>
+        <source>Type cannot be used for &apos;on&apos; assignment</source>
+        <translation>Typen kan inte användas för &apos;on&apos;-tilldelning</translation>
+    </message>
+    <message>
         <source>Fully dynamic types cannot declare new properties.</source>
         <translation>Fullt dynamiska typer kan inte deklarera nya egenskaper.</translation>
     </message>
@@ -833,6 +861,10 @@
     <message>
         <source>Fully Dynamic types cannot declare new functions.</source>
         <translation>Fullt dynamiska typer kan inte deklarera nya funktioner.</translation>
+    </message>
+    <message>
+        <source>Type &apos;%1&apos; cannot declare new members.</source>
+        <translation>Typen &quot;%1&quot; kan inte deklarera nya medlemmar.</translation>
     </message>
     <message>
         <source>Non-existent attached object</source>
@@ -922,6 +954,14 @@
         <translation>Ogiltig grupperad egenskapsåtkomst: Property &quot;%1&quot; med primitiva typen &quot;%2&quot;.</translation>
     </message>
     <message>
+        <source>Invalid grouped property access: Property &quot;%1&quot; with type &quot;%2&quot;, which is neither a value nor an object type</source>
+        <translation>Ogiltig grupperad egenskapsåtkomst: Egenskapen &quot;%1&quot; med typen &quot;%2&quot; som varken är ett värde eller en objekttyp</translation>
+    </message>
+    <message>
+        <source>Unsupported grouped property access: Property &quot;%1&quot; with type &quot;%2&quot; has a dynamic meta-object.</source>
+        <translation>Grupperad egenskapsåtkomst som inte stöds: &quot;%1&quot; med typen &quot;%2&quot; har ett dynamiskt metaobjekt.</translation>
+    </message>
+    <message>
         <source>Cannot assign to non-existent default property</source>
         <translation>Kan inte tilldela till icke-existerande standardegenskapen</translation>
     </message>
@@ -940,10 +980,6 @@
     <message>
         <source>Invalid property assignment: unknown enumeration</source>
         <translation>Ogiltig egenskapstilldelning: okänd enumeration</translation>
-    </message>
-    <message>
-        <source> - Assigning null to incompatible properties in QML is deprecated. This will become a compile error in future versions of Qt.</source>
-        <translation> - Tilldelning av null till inkompatibla egenskaper i QML är föråldrat. Detta kommer att ge ett kompileringsfel i framtida versioner av Qt.</translation>
     </message>
     <message>
         <source>Invalid property assignment: string expected</source>
@@ -1052,14 +1088,6 @@
     <message>
         <source>Invalid property assignment: script expected</source>
         <translation>Ogiltig egenskapstilldelning: script förväntades</translation>
-    </message>
-    <message>
-        <source>Cannot assign value of type &quot;%1&quot; to property &quot;%2&quot;, expecting an object</source>
-        <translation>Kan inte tilldela värde av typen &quot;%1&quot; till egenskapen &quot;%2&quot;, förväntar ett objekt</translation>
-    </message>
-    <message>
-        <source>Invalid grouped property access: Property &quot;%1&quot; with type &quot;%2&quot;, which is not a value type</source>
-        <translation>Ogiltig grupperad egenskapsåtkomst: Egenskapen &quot;%1&quot; med typen &quot;%2&quot;, som inte är en värdestyp</translation>
     </message>
     <message>
         <source>Cannot assign object of type &quot;%1&quot; to property of type &quot;%2&quot; as the former is neither the same as the latter nor a sub-class of it.</source>
@@ -1259,8 +1287,8 @@
 <context>
     <name>QQuickLayoutMirroringAttached</name>
     <message>
-        <source>LayoutDirection attached property only works with Items and Windows</source>
-        <translation>LayoutDirection-fäst egenskap fungerar endast med poster och fönster</translation>
+        <source>LayoutMirroring attached property only works with Items and Windows</source>
+        <translation>LayoutMirroring-fäst egenskap fungerar endast på Items och Windows</translation>
     </message>
 </context>
 <context>
@@ -1396,17 +1424,6 @@
     </message>
 </context>
 <context>
-    <name>QQuickWindowQmlImpl</name>
-    <message>
-        <source>Conflicting properties &apos;visible&apos; and &apos;visibility&apos; for Window &apos;%1&apos;</source>
-        <translation>Egenskaperna &apos;visible&apos; och &apos;visibility&apos; för fönstret &apos;%1&apos; står i konflikt</translation>
-    </message>
-    <message>
-        <source>Conflicting properties &apos;visible&apos; and &apos;visibility&apos;</source>
-        <translation>Egenskaperna &apos;visible&apos; och &apos;visibility&apos; står i konflikt</translation>
-    </message>
-</context>
-<context>
     <name>qmlRegisterType</name>
     <message>
         <source>Invalid QML %1 name &quot;%2&quot;; type names must begin with an uppercase letter</source>
@@ -1435,14 +1452,8 @@
 <context>
     <name>FileDialog</name>
     <message>
-        <source>“%1” already exists. Do you want to replace it?</source>
-        <translation>&quot;%1&quot; finns redan. Vill du ersätta den?</translation>
-    </message>
-    <message>
-        <source>A file with the same name already exists in %1.
-Replacing it will overwrite its current contents.</source>
-        <translation>En fil med samma namn finns redan i %1.
-Om du ersätter den kommer dess nuvarande innehåll att skrivas över.</translation>
+        <source>Overwrite file?</source>
+        <translation>Skriv över fil?</translation>
     </message>
     <message>
         <source>File name</source>
@@ -1450,7 +1461,13 @@ Om du ersätter den kommer dess nuvarande innehåll att skrivas över.</translat
     </message>
     <message>
         <source>Filter</source>
-        <translation>Filter</translation>
+        <translation>Filtrera</translation>
+    </message>
+    <message>
+        <source>“%1” already exists.
+Do you want to replace it?</source>
+        <translation>&quot;%1&quot; finns redan.
+Vill du ersätta den?</translation>
     </message>
 </context>
 <context>
@@ -1518,7 +1535,62 @@ Om du ersätter den kommer dess nuvarande innehåll att skrivas över.</translat
     </message>
     <message>
         <source>Sample</source>
-        <translation>Prov</translation>
+        <translation>Exempel</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlComponentAndAliasResolverBase</name>
+    <message>
+        <source>Cannot wrap implicit component</source>
+        <translation>Kan inte slå in implicit komponent</translation>
+    </message>
+    <message>
+        <source>Cannot mark object as component</source>
+        <translation>Kan inte markera objekt som komponent</translation>
+    </message>
+    <message>
+        <source>Component objects cannot declare new functions.</source>
+        <translation>Komponentobjekt kan inte deklarera nya funktioner.</translation>
+    </message>
+    <message>
+        <source>Component objects cannot declare new properties.</source>
+        <translation>Komponentobjekt kan inte deklarera nya egenskaper.</translation>
+    </message>
+    <message>
+        <source>Component objects cannot declare new signals.</source>
+        <translation>Komponentobjekt kan inte deklarera nya signaler.</translation>
+    </message>
+    <message>
+        <source>Cannot create empty component specification</source>
+        <translation>Kan inte skapa tom komponentspecifikation</translation>
+    </message>
+    <message>
+        <source>Component elements may not contain properties other than id</source>
+        <translation>Komponentelement får inte innehålla egenskaper andra än id</translation>
+    </message>
+    <message>
+        <source>Invalid component body specification</source>
+        <translation>Ogiltig body-specifikation för komponent</translation>
+    </message>
+    <message>
+        <source>id is not unique</source>
+        <translation>id är inte unikt</translation>
+    </message>
+    <message>
+        <source>Circular alias reference detected</source>
+        <translation>Cirkulär aliasreferens upptäcktes</translation>
+    </message>
+    <message>
+        <source>Invalid alias reference. Unable to find id &quot;%1&quot;</source>
+        <translation>Ogiltig aliasreferens. Kunde inte hitta id &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source>Invalid alias target location: %1</source>
+        <translation>Ogiltig alias target location: %1</translation>
+    </message>
+    <message>
+        <source>Unresolved alias found</source>
+        <translation>Olöst alias hittades</translation>
     </message>
 </context>
 <context>
@@ -1610,8 +1682,8 @@ Om du ersätter den kommer dess nuvarande innehåll att skrivas över.</translat
         <translation>Okänd access semantics &quot;%1&quot;.</translation>
     </message>
     <message>
-        <source>Expected only name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isComposite, hasCustomParser, exportMetaObjectRevisions, deferredNames, and immediateNames in script bindings, not &quot;%1&quot;.</source>
-        <translation>Förväntade endast name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isComposite, hasCustomParser, exportMetaObjectRevisions, deferredNames samt immediateNames i skriptbindningar, inte &quot;%1&quot;.</translation>
+        <source>Expected only name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isStructured, isComposite, hasCustomParser, enforcesScopedEnums, aliases, exportMetaObjectRevisions, deferredNames, and immediateNames in script bindings, not &quot;%1&quot;.</source>
+        <translation>Förväntade endast name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isStructured, isComposite, hasCustomParser, enforcesScopedEnums, aliases, exportMetaObjectRevisions, deferredNames samt immediateNames i skriptbindningar, inte &quot;%1&quot;.</translation>
     </message>
     <message>
         <source>Expected only script bindings and object definitions.</source>
@@ -1626,8 +1698,8 @@ Om du ersätter den kommer dess nuvarande innehåll att skrivas över.</translat
         <translation>Förväntade endast Parameter i objektdefinitioner.</translation>
     </message>
     <message>
-        <source>Expected only name, type, revision, isPointer, isConstant, isList, isCloned, isConstructor, and isJavaScriptFunction in script bindings.</source>
-        <translation>Förväntade endast name, type, revision, isPointer, isConstant, isList, isCloned, isConstructor samt isJavaScriptFunction i skriptbindningar.</translation>
+        <source>Expected only name, type, revision, isPointer, isTypeConstant, isList, isCloned, isConstructor, isMethodConstant, and isJavaScriptFunction in script bindings.</source>
+        <translation>Förväntade endast name, type, revision, isPointer, isTypeConstant, isList, isCloned, isConstructor, isMethodConstant, samt isJavaScriptFunction i skriptbindningar.</translation>
     </message>
     <message>
         <source>Method or signal is missing a name script binding.</source>
@@ -1638,20 +1710,20 @@ Om du ersätter den kommer dess nuvarande innehåll att skrivas över.</translat
         <translation>Förväntade skriptbindning.</translation>
     </message>
     <message>
-        <source>Expected only type, name, revision, isPointer, isReadonly, isRequired, isFinal, isList, bindable, read, write, reset, notify, index, and privateClass and script bindings.</source>
-        <translation>Förväntade endast type, name, revision, isPointer, isReadonly, isRequired, isFinal, isList, bindable, read, write, reset, notify, index samt privateClass och skriptbindningar.</translation>
+        <source>Expected only type, name, revision, isPointer, isTypeConstant, isReadonly, isRequired, isFinal, isList, bindable, read, write, isPropertyConstant, reset, notify, index, and privateClass and script bindings.</source>
+        <translation>Förväntade endast type, name, revision, isPointer, isTypeConstant, isReadonly, isRequired, isFinal, isList, bindable, read, write, isPropertyConstant, reset, notify, index samt privateClass och skriptbindningar.</translation>
     </message>
     <message>
         <source>Property object is missing a name script binding.</source>
         <translation>Egenskapsobjektet saknar en namnskriptsbindning.</translation>
     </message>
     <message>
-        <source>Expected only name, alias, isFlag, values, or isScoped.</source>
-        <translation>Förväntade endast name, alias, isFlag, values eller isScoped.</translation>
+        <source>Expected only name, alias, isFlag, values, isScoped, or type.</source>
+        <translation>Förväntade endast name, alias, isFlag, values, isScoped eller type.</translation>
     </message>
     <message>
-        <source>Expected only name and type script bindings.</source>
-        <translation>Förväntade endast namn och type script-bindningar.</translation>
+        <source>Expected only name, type, isPointer, isTypeConstant, isReadonly, or IsList script bindings.</source>
+        <translation>Förväntade endast name, type, isPointer, isTypeConstant, isReadonly eller IsList-skriptbindningar.</translation>
     </message>
     <message>
         <source>Expected string after colon.</source>
@@ -1725,7 +1797,7 @@ Revision %1 motsvarar version %2.%3; den bör vara %4.%5.</translation>
     </message>
 </context>
 <context>
-    <name>QmlDomAstCreator</name>
+    <name>QQmlDomAstCreator</name>
     <message>
         <source>id is a special attribute, that should not be used as property name</source>
         <translation>id är ett speciellt attribut som inte bör användas som egenskapsnamn</translation>
@@ -1968,8 +2040,19 @@ Revision %1 motsvarar version %2.%3; den bör vara %4.%5.</translation>
         <translation>Upptäckte flera besök av %1 som besöker prototyper för %2</translation>
     </message>
     <message>
+        <source>Called visitScopeChain outside scopes</source>
+        <translation>Anropade visitScopeChain utanför omfånget</translation>
+    </message>
+    <message>
+        <source>Unexpected non scope object %1 (%2) reached in visitScopeChain</source>
+        <translation>Oväntat non scope-objekt %1 (%2) nåddes i visitScopeChain</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlJS::Dom</name>
+    <message>
         <source>could not resolve prototype %1 (%2)</source>
-        <translation>kunde inte slå upp prototyp %1 (%2)</translation>
+        <translation>kunde inte slå upp prototypen %1 (%2)</translation>
     </message>
     <message>
         <source>Multiple definitions found, using first only, resolving prototype %1 (%2): %3</source>
@@ -1978,30 +2061,6 @@ Revision %1 motsvarar version %2.%3; den bör vara %4.%5.</translation>
     <message>
         <source>Unexpected prototype type %1 (%2)</source>
         <translation>Oväntad prototype-typ %1 (%2)</translation>
-    </message>
-    <message>
-        <source>Called visitScopeChain outside scopes</source>
-        <translation>Anropade visitScopeChain utanför omfånget</translation>
-    </message>
-    <message>
-        <source>Unexpected non scope object %1 (%2) reached in visitScopeChain</source>
-        <translation>Oväntat non scope-objekt %1 (%2) nåddes i visitScopeChain</translation>
-    </message>
-    <message>
-        <source>loadFile called without DomEnvironment or DomUniverse.</source>
-        <translation>loadFile anropad utan DomEnvironment eller DomUniverse.</translation>
-    </message>
-    <message>
-        <source>loadModuleDependency called without DomEnvironment.</source>
-        <translation>loadModuleDependency anropades utan DomEnvironment.</translation>
-    </message>
-    <message>
-        <source>Cannot load builtins without DomEnvironment</source>
-        <translation>Kan inte läsa in builtins utan DomEnvironment</translation>
-    </message>
-    <message>
-        <source>Called loadPendingDependencies without environment</source>
-        <translation>Anropade loadPendingDependencies utan miljö</translation>
     </message>
 </context>
 <context>
@@ -2026,12 +2085,12 @@ Revision %1 motsvarar version %2.%3; den bör vara %4.%5.</translation>
         <translation>Modulen %1 (major version %2) har versioned och icke-versioned poster för &apos;%3&apos;</translation>
     </message>
     <message>
-        <source>Failed to find main qmldir file for %1 %2</source>
-        <translation>Misslyckades med att hitta main qmldir-fil för %1 %2</translation>
+        <source>Failed to find main qmldir file for %1 %2 in %3.</source>
+        <translation>Misslyckades med att hitta main qmldir-fil för %1 %2 i %3.</translation>
     </message>
 </context>
 <context>
-    <name>Dom::filteTypeForPath</name>
+    <name>Dom::fileTypeForPath</name>
     <message>
         <source>Could not detect type of file %1</source>
         <translation>Kunde inte upptäcka typen för filen %1</translation>
@@ -2042,10 +2101,6 @@ Revision %1 motsvarar version %2.%3; den bör vara %4.%5.</translation>
     <message>
         <source>Ignoring request to load file %1 of unexpected type %2, calling callback immediately</source>
         <translation>Ignorerar begäran att läsa in filen %1 av oväntade typen %2, anropar callback direkt</translation>
-    </message>
-    <message>
-        <source>Ignoring callback for loading of %1: universe is not valid anymore</source>
-        <translation>Ignorerar callback för inläsning av %1: universum är inte längre giltigt</translation>
     </message>
     <message>
         <source>Non existing path %1</source>
@@ -2064,15 +2119,11 @@ Revision %1 motsvarar version %2.%3; den bör vara %4.%5.</translation>
     </message>
     <message>
         <source>advanceLoad called after work should have been done, which should never happen</source>
-        <translation>advanceLoad anropades efter att arbete skulle ha gjorts, vilket aldrig ska hända</translation>
+        <translation>advanceLoad andropades efter att arbete skulle ha gjorts, vilket aldrig ska hända</translation>
     </message>
     <message>
         <source>Uninitialized LoadInfo %1</source>
         <translation>Oinitierad LoadInfo %1</translation>
-    </message>
-    <message>
-        <source>Ignoring dependencies for non resolved path import %1</source>
-        <translation>Ignorerar beroenden för icke-uppslagen sökvägsimport %1</translation>
     </message>
     <message>
         <source>Ignoring dependencies for empty (invalid) type %1</source>
@@ -2098,8 +2149,8 @@ Revision %1 motsvarar version %2.%3; den bör vara %4.%5.</translation>
         <translation>saknar load info i </translation>
     </message>
     <message>
-        <source>Failed to find main qmldir file for %1 %2</source>
-        <translation>Misslyckades med att hitta main qmldir-filen för %1 %2</translation>
+        <source>Failed to find main qmldir file for %1 %2 in %3.</source>
+        <translation>Misslyckades med att hitta main qmldir-filen för %1 %2 i %3.</translation>
     </message>
     <message>
         <source>Missing loadInfo for %1</source>
@@ -2171,7 +2222,7 @@ Revision %1 motsvarar version %2.%3; den bör vara %4.%5.</translation>
     <name>QQmlXmlListModel</name>
     <message>
         <source>&quot;%1&quot; duplicates a previous role name and will be disabled.</source>
-        <translation>&quot;%1&quot; är en dubblett av tidigare rollnamn och kommer att inaktiveras.</translation>
+        <translation>&quot;%1&quot; duplicerar ett tidigare rollnamn och kommer att inaktiveras.</translation>
     </message>
     <message>
         <source>Failed to create an instance of QRunnable query object</source>
@@ -2180,6 +2231,29 @@ Revision %1 motsvarar version %2.%3; den bör vara %4.%5.</translation>
     <message>
         <source>Query error: &quot;%1&quot;</source>
         <translation>Frågefel: &quot;%1&quot;</translation>
+    </message>
+</context>
+<context>
+    <name>QQuickTextDocument</name>
+    <message>
+        <source>Null document object: cannot load</source>
+        <translation>Null-dokumentobjekt: kan inte läsa in</translation>
+    </message>
+    <message>
+        <source>Failed to read: %1</source>
+        <translation>Misslyckades med att läsa: %1</translation>
+    </message>
+    <message>
+        <source>%1 does not exist</source>
+        <translation>%1 finns inte</translation>
+    </message>
+    <message>
+        <source>Cannot save: %1</source>
+        <translation>Kan inte spara: %1</translation>
+    </message>
+    <message>
+        <source>Can only save to local files</source>
+        <translation>Kan endast spara till lokala filer</translation>
     </message>
 </context>
 </TS>

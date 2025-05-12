@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="sv">
+<TS version="2.1" language="sv_SE">
 <context>
     <name>PdfLinkDelegate</name>
     <message>
@@ -135,7 +135,7 @@
     </message>
     <message>
         <source>&amp;Italic</source>
-        <translation>&amp;Kursiv stil</translation>
+        <translation>&amp;Kursiv</translation>
     </message>
     <message>
         <source>&amp;Underline</source>
@@ -175,7 +175,7 @@
     </message>
     <message>
         <source>Insert &amp;Unordered List</source>
-        <translation>Infoga oo&amp;rdnat lista</translation>
+        <translation>Infoga oo&amp;rdnad lista</translation>
     </message>
     <message>
         <source>Change text direction left to right</source>
