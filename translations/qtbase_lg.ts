@@ -8048,7 +8048,7 @@ atiributo ennefaananyirize eraga oba waliwo enteekateeka z&apos;enkozesa ya XML 
     </message>
     <message>
         <source>Unexpected token type %1 in %2.</source>
-        <translation>Token ey&apos;ekika kya %1 etasuubirwawo esangidwa mu %2.</translation>
+        <translation>Tokeni ey&apos;ekika kya %1 etasuubirwawo esangidwa mu %2.</translation>
     </message>
     <message>
         <source>Found second DTD token in %1.</source>
