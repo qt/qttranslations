@@ -73,7 +73,7 @@
     </message>
     <message>
         <source>General server failure</source>
-        <translation>Puloguramu ewereza ezzemu kiremya</translation>
+        <translation>Puloguramu ewereza ezzeemu kiremya</translation>
     </message>
     <message>
         <source>The server does not have the requested data</source>
@@ -159,7 +159,7 @@
     </message>
     <message>
         <source>Unselect</source>
-        <translation>Tta</translation>
+        <translation>Ta</translation>
     </message>
     <message>
         <source>&amp;Bold</source>
@@ -234,7 +234,7 @@
     </message>
     <message>
         <source>Unselect</source>
-        <translation>Tta</translation>
+        <translation>Ta</translation>
     </message>
     <message>
         <source>Are you sure you want to leave this page? Changes that you made may not be saved.</source>
