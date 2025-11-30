@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="sv_SE">
+<TS version="2.1" language="sv">
 <context>
     <name>%1: key is empty</name>
     <message>
@@ -232,7 +232,7 @@
     <name>QApplication</name>
     <message>
         <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
-        <translation>Körbara filen &quot;%1&quot; kräver Qt %2, hittade Qt %3.</translation>
+        <translation>Körbara filen &apos;%1&apos; kräver Qt %2, hittade Qt %3.</translation>
     </message>
     <message>
         <source>Incompatible Qt Library Error</source>
@@ -592,7 +592,7 @@ Tryck ESC för att avbryta</translation>
     <name>QDB2Result</name>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Kunde inte köra villkor</translation>
+        <translation>Kunde inte köra frågesats</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
@@ -668,7 +668,7 @@ Tryck ESC för att avbryta</translation>
     <message>
         <source>Kind</source>
         <comment>Match OS X Finder</comment>
-        <translation>Typ</translation>
+        <translation>Sort</translation>
     </message>
     <message>
         <source>Type</source>
@@ -707,7 +707,7 @@ Tryck ESC för att avbryta</translation>
     </message>
     <message>
         <source>Resolver initialization failed</source>
-        <translation>Initiering av uppslag misslyckades</translation>
+        <translation>Initiering av uppslagare misslyckades</translation>
     </message>
     <message>
         <source>Server could not process query</source>
@@ -767,7 +767,7 @@ Tryck ESC för att avbryta</translation>
     </message>
     <message>
         <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
-        <translation>Uppslagsbibliotek kan inte läsas in: Inget inläsningsstöd för körtidsbibliotek</translation>
+        <translation>Uppslagsbibliotek kan inte läsas in. Inget stöd för inläsning av körtidsbibliotek</translation>
     </message>
     <message>
         <source>No hostname given</source>
@@ -1076,7 +1076,7 @@ Tryck ESC för att avbryta</translation>
     </message>
     <message>
         <source>Cannot create %1 for output</source>
-        <translation>Kan inte skapa %1 för utdata</translation>
+        <translation>Kan inte skapa %1 för utmatning</translation>
     </message>
 </context>
 <context>
@@ -1334,7 +1334,7 @@ Vill du ta bort den ändå?</translation>
     <name>QFileSystemModel</name>
     <message>
         <source>&lt;b&gt;The name &quot;%1&quot; cannot be used.&lt;/b&gt;&lt;p&gt;Try using another name, with fewer characters or no punctuation marks.</source>
-        <translation>&lt;b&gt;Namnet &quot;%1&quot; kan inte användas.&lt;/b&gt;&lt;p&gt;Försök använda ett annat namn med mindre antal tecken eller inga skiljetecken.</translation>
+        <translation>&lt;b&gt;Namnet &quot;%1&quot; kan inte användas.&lt;/b&gt;&lt;p&gt;Prova att använda ett annat namn med mindre antal tecken eller inga skiljetecken.</translation>
     </message>
     <message>
         <source>Invalid filename</source>
@@ -1617,11 +1617,11 @@ Vill du ta bort den ändå?</translation>
     </message>
     <message>
         <source>Connection refused to host %1</source>
-        <translation>Anslutning vägrades till värden %1</translation>
+        <translation>Anslutningen nekades till värden %1</translation>
     </message>
     <message>
         <source>Connection timed out to host %1</source>
-        <translation>Anslutningens tidsgräns överstegs till värden %1</translation>
+        <translation>Anslutningen till värden %1 översteg tidsgränsen</translation>
     </message>
     <message>
         <source>Connected to host %1</source>
@@ -1638,7 +1638,7 @@ Vill du ta bort den ändå?</translation>
     <message>
         <source>Connecting to host failed:
 %1</source>
-        <translation>Anslutning till värden misslyckades:
+        <translation>Anslutning till värd misslyckades:
 %1</translation>
     </message>
     <message>
@@ -2178,11 +2178,11 @@ Vill du ta bort den ändå?</translation>
     </message>
     <message>
         <source>wrong cpu architecture</source>
-        <translation>felaktig cpu-arkitektur</translation>
+        <translation>fel cpu-arkitektur</translation>
     </message>
     <message>
         <source>odd endianness</source>
-        <translation>udda byteordning</translation>
+        <translation>udda endianness</translation>
     </message>
     <message>
         <source>unexpected e_shsize</source>
@@ -2195,21 +2195,21 @@ Vill du ta bort den ändå?</translation>
     <message numerus="yes">
         <source>announced %n section(s), each %1 byte(s), exceed file size</source>
         <translation>
-            <numerusform>annonserade %n sektion, varje på %1 byte, översteg filstorlek</numerusform>
-            <numerusform>annonserade %n sektioner, varje på %1 byte, översteg filstorlek</numerusform>
+            <numerusform>annonserade %n sektion(er), var och en %1 byte, överskrider filstorleken</numerusform>
+            <numerusform>annonserade %n sektion(er), var och en %1 byte, överskrider filstorleken</numerusform>
         </translation>
     </message>
     <message>
         <source>shstrtab section header seems to be at %1</source>
-        <translation>shstrtab-sektionrubrik verkar vara vid %1</translation>
+        <translation>shstrtab-sektionsrubriken verkar vara på %1</translation>
     </message>
     <message>
         <source>string table seems to be at %1</source>
-        <translation>strängtabell verkar vara vid %1</translation>
+        <translation>strängtabellen verkar vara på %1</translation>
     </message>
     <message>
         <source>section name %1 of %2 behind end of file</source>
-        <translation>sektionsnamnet %1 för %2 är bakom filslutet</translation>
+        <translation>sektionsnamnet %1 för %2 efter filslutet</translation>
     </message>
     <message>
         <source>empty .rodata. not a library.</source>
@@ -2229,7 +2229,7 @@ Vill du ta bort den ändå?</translation>
     </message>
     <message>
         <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
-        <translation>Misslyckades med att extrahera insticksmodulens metadata från &quot;%1&quot;</translation>
+        <translation>Misslyckades med att extrahera metadata för insticksmodul från &apos;%1&apos;</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; is not a valid Qt plugin.</source>
@@ -2831,7 +2831,7 @@ Vill du ta bort den ändå?</translation>
     </message>
     <message>
         <source>The requested operation is not supported by the system.</source>
-        <translation>Begärd operation stöds inte av systemet.</translation>
+        <translation>Begärd åtgärd stöds inte av systemet.</translation>
     </message>
     <message>
         <source>The specified configuration cannot be used.</source>
@@ -2890,7 +2890,7 @@ Vill du ta bort den ändå?</translation>
     </message>
     <message>
         <source>Unable to get statement type</source>
-        <translation>Kunde inte få villkorstypen</translation>
+        <translation>Kunde inte få typ av frågesats</translation>
     </message>
     <message>
         <source>Unable to bind value</source>
@@ -2936,7 +2936,7 @@ Vill du ta bort den ändå?</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Kunde inte köra villkor</translation>
+        <translation>Kunde inte köra frågesats</translation>
     </message>
     <message>
         <source>Unable to fetch</source>
@@ -3014,7 +3014,7 @@ Vill du ta bort den ändå?</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>Kunde inte förbereda villkor</translation>
+        <translation>Kunde inte förbereda frågesats</translation>
     </message>
 </context>
 <context>
@@ -4182,7 +4182,7 @@ Stäng av ett av alternativen.</translation>
     <name>QRegExp</name>
     <message>
         <source>no error occurred</source>
-        <translation>inga fel inträffade</translation>
+        <translation>inget fel inträffade</translation>
     </message>
     <message>
         <source>disabled feature used</source>
@@ -4190,11 +4190,11 @@ Stäng av ett av alternativen.</translation>
     </message>
     <message>
         <source>bad char class syntax</source>
-        <translation>fel syntax för teckenklass</translation>
+        <translation>felaktig syntax för teckenklass</translation>
     </message>
     <message>
         <source>bad lookahead syntax</source>
-        <translation>felaktig lookahead-syntax</translation>
+        <translation>felaktig syntax för lookahead</translation>
     </message>
     <message>
         <source>lookbehinds not supported, see QTBUG-2371</source>
@@ -4202,7 +4202,7 @@ Stäng av ett av alternativen.</translation>
     </message>
     <message>
         <source>bad repetition syntax</source>
-        <translation>felaktig upprepningssyntax</translation>
+        <translation>felaktig syntax för repetition</translation>
     </message>
     <message>
         <source>invalid octal value</source>
@@ -4919,11 +4919,11 @@ Stäng av ett av alternativen.</translation>
     <name>QSQLite2Result</name>
     <message>
         <source>Unable to fetch results</source>
-        <translation>Kunde inte hämta resultat</translation>
+        <translation>Kunde inte hämta resultaten</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Kunde inte köra villkor</translation>
+        <translation>Kunde inte köra frågesats</translation>
     </message>
 </context>
 <context>
@@ -4961,15 +4961,15 @@ Stäng av ett av alternativen.</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Kunde inte köra villkor</translation>
+        <translation>Kunde inte köra frågesats</translation>
     </message>
     <message>
         <source>Unable to execute multiple statements at a time</source>
-        <translation>Kunde inte köra satsfråga på en gång</translation>
+        <translation>Kunde inte köra flera satsfrågor på en gång</translation>
     </message>
     <message>
         <source>Unable to reset statement</source>
-        <translation>Kunde inte återställa villkor</translation>
+        <translation>Kunde inte återställa frågesats</translation>
     </message>
     <message>
         <source>Unable to bind parameters</source>
@@ -5065,7 +5065,7 @@ Stäng av ett av alternativen.</translation>
     <name>QSharedMemory</name>
     <message>
         <source>%1: unable to set key on lock</source>
-        <translation>%1: kunde inte ställa in nyckel på lås</translation>
+        <translation>%1: kunde inte ställa in nyckel på låset</translation>
     </message>
     <message>
         <source>%1: create size is less then 0</source>
@@ -6288,7 +6288,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>menu item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>menyrad</translation>
+        <translation>menypost</translation>
     </message>
     <message>
         <source>tool tip</source>
@@ -7105,19 +7105,19 @@ Role of an accessible object</extracomment>
     <name>QStateMachine</name>
     <message>
         <source>Missing initial state in compound state &apos;%1&apos;</source>
-        <translation>Saknar initialt tillstånd i compound-tillstånd &quot;%1&quot;</translation>
+        <translation>Saknar initialt tillstånd i compound state &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Missing default state in history state &apos;%1&apos;</source>
-        <translation>Saknar standardtillstånd i historiskt tillstånd &quot;%1&quot;</translation>
+        <translation>Saknar standardtillstånd i historiskt tillstånd &apos;%1&apos;</translation>
     </message>
     <message>
         <source>No common ancestor for targets and source of transition from state &apos;%1&apos;</source>
-        <translation>Ingen gemensam ättling för mål och källa för övergång från tillståndet &quot;%1&quot;</translation>
+        <translation>Ingen gemensam ancestor för mål och källa för övergång från tillståndet &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Child mode of state machine &apos;%1&apos; is not &apos;ExclusiveStates&apos;.</source>
-        <translation>Barnläget för tillståndsmaskin &quot;%1&quot; är inte &apos;ExclusiveStates&apos;.</translation>
+        <translation>Barnläget för tillståndsmaskin &apos;%1&apos; är inte &apos;ExclusiveStates&apos;.</translation>
     </message>
     <message>
         <source>Unknown error</source>
@@ -7155,7 +7155,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>Unable to use database</source>
-        <translation>Kunde inte använda databas</translation>
+        <translation>Kunde inte använda databasen</translation>
     </message>
 </context>
 <context>
@@ -7465,7 +7465,7 @@ Minsta Direct2D-versionen som krävs är %1. Direct2D-versionen på detta system
     <name>QXml</name>
     <message>
         <source>no error occurred</source>
-        <translation>inga fel inträffade</translation>
+        <translation>inget fel inträffade</translation>
     </message>
     <message>
         <source>error triggered by consumer</source>
@@ -7477,7 +7477,7 @@ Minsta Direct2D-versionen som krävs är %1. Direct2D-versionen på detta system
     </message>
     <message>
         <source>more than one document type definition</source>
-        <translation>fler än en dokumenttypsdefinition</translation>
+        <translation>fler än en definition av dokumenttyp</translation>
     </message>
     <message>
         <source>error occurred while parsing element</source>
@@ -7485,7 +7485,7 @@ Minsta Direct2D-versionen som krävs är %1. Direct2D-versionen på detta system
     </message>
     <message>
         <source>tag mismatch</source>
-        <translation>tagg stämmer inte</translation>
+        <translation>taggen stämmer inte</translation>
     </message>
     <message>
         <source>error occurred while parsing content</source>
@@ -7505,11 +7505,11 @@ Minsta Direct2D-versionen som krävs är %1. Direct2D-versionen på detta system
     </message>
     <message>
         <source>wrong value for standalone declaration</source>
-        <translation>fel värde för fristående deklaration</translation>
+        <translation>felaktigt värde för fristående deklaration</translation>
     </message>
     <message>
         <source>encoding declaration or standalone declaration expected while reading the XML declaration</source>
-        <translation>kodningdeklaration eller friståend deklaration förväntades vid läsning av XML-deklaration</translation>
+        <translation>kodningsdeklaration eller fristående deklaration förväntades vid läsning av XML-deklarationen</translation>
     </message>
     <message>
         <source>standalone declaration expected while reading the XML declaration</source>
@@ -7517,7 +7517,7 @@ Minsta Direct2D-versionen som krävs är %1. Direct2D-versionen på detta system
     </message>
     <message>
         <source>error occurred while parsing document type definition</source>
-        <translation>fel inträffade vid tolkning av dokumentets typdefinition</translation>
+        <translation>fel inträffade vid tolkning av dokumenttypsdefinition</translation>
     </message>
     <message>
         <source>letter is expected</source>
@@ -7537,7 +7537,7 @@ Minsta Direct2D-versionen som krävs är %1. Direct2D-versionen på detta system
     </message>
     <message>
         <source>external parsed general entity reference not allowed in attribute value</source>
-        <translation>externt tolkad allmän entitetsreferens tillåts inte i attributvärden</translation>
+        <translation>externt tolkad allmän entitetsreferens tillåts inte i ett attributvärde</translation>
     </message>
     <message>
         <source>external parsed general entity reference not allowed in DTD</source>

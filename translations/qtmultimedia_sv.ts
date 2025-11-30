@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="sv_SE">
+<TS version="2.1" language="sv">
 <context>
     <name>AudioContainerControl</name>
     <message>
         <source>RAW (headerless) file format</source>
-        <translation>RAW-filformat (saknar header)</translation>
+        <translation>RAW-filformat (headerless)</translation>
     </message>
     <message>
         <source>WAV file format</source>
@@ -16,7 +16,7 @@
     <name>AudioEncoderControl</name>
     <message>
         <source>Linear PCM audio data</source>
-        <translation>Linjär PCM-ljuddata</translation>
+        <translation>Linjärt PCM-ljuddata</translation>
     </message>
 </context>
 <context>
@@ -45,7 +45,7 @@
     </message>
     <message>
         <source>Recording permissions are not available</source>
-        <translation>Inspelningsrättigheter är inte tillgängliga</translation>
+        <translation>Inspelningsrättigheter finns inte tillgängliga</translation>
     </message>
 </context>
 <context>
@@ -79,7 +79,7 @@
     </message>
     <message>
         <source>Camera not ready for capture</source>
-        <translation>Kameran är inte redo att användas</translation>
+        <translation>Kameran är inte redo för fångst</translation>
     </message>
     <message>
         <source>Could not save image to file.</source>
@@ -95,11 +95,11 @@
     </message>
     <message>
         <source>Failed to connect capture graph and filter graph</source>
-        <translation>Misslyckades med att ansluta insamlingsgraf och filtergraf</translation>
+        <translation>Misslyckades med att ansluta fångstgraf och filtergraf</translation>
     </message>
     <message>
         <source>No capture device found</source>
-        <translation>Ingen insamlingsenhet hittades</translation>
+        <translation>Ingen fångstenhet hittades</translation>
     </message>
     <message>
         <source>Failed to create null renderer</source>
@@ -221,7 +221,7 @@
     <message>
         <source>Drive mode not supported</source>
         <extracomment>Drive mode is the camera&apos;s shutter mode, for example single shot, continuos exposure, etc.</extracomment>
-        <translation>Slutarläget stöds inte</translation>
+        <translation>Enhetsläget stöds inte</translation>
     </message>
     <message>
         <source>Failed to capture image</source>
@@ -295,7 +295,7 @@
     <name>QCameraImageCapture</name>
     <message>
         <source>Device does not support images capture.</source>
-        <translation>Enheten har inte stöd för bildinsamling.</translation>
+        <translation>Enheten har inte stöd för att fånga bilder.</translation>
     </message>
 </context>
 <context>
@@ -330,18 +330,18 @@
     <name>QGstreamerCaptureSession</name>
     <message>
         <source>Could not create an audio source element</source>
-        <translation>Kunde inte skapa ett ljudkällelement</translation>
+        <translation>Kunde inte skapa ett element för ljudkällan</translation>
     </message>
     <message>
         <source>Failed to build media capture pipeline.</source>
-        <translation>Misslyckades med att bygga pipeline för mediainsamling.</translation>
+        <translation>Misslyckades med att bygga rörledning för mediafångst.</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerImageCaptureControl</name>
     <message>
         <source>Not ready to capture</source>
-        <translation>Inte redo att användas</translation>
+        <translation>Inte redo att fånga</translation>
     </message>
 </context>
 <context>
@@ -355,7 +355,7 @@
     <name>QGstreamerPlayerControl</name>
     <message>
         <source>Attempting to play invalid user stream</source>
-        <translation>Försöker att spela upp ogiltig användarström</translation>
+        <translation>Försöker att spela upp en ogiltig användarström</translation>
     </message>
 </context>
 <context>
@@ -377,7 +377,7 @@
     </message>
     <message>
         <source>Not compatible codecs and container format.</source>
-        <translation>Inga kompatibla kodekar och containerformat.</translation>
+        <translation>Inte kompatibla kodekar och containerformat.</translation>
     </message>
 </context>
 <context>
@@ -406,7 +406,7 @@
     <name>QMediaPlaylist</name>
     <message>
         <source>Could not add items to read only playlist.</source>
-        <translation>Kunde inte lägga till poster till skrivskyddad spellista.</translation>
+        <translation>Kunde inte lägga till objekt till en skrivskyddad spellista.</translation>
     </message>
     <message>
         <source>Playlist format is not supported</source>
@@ -414,7 +414,7 @@
     </message>
     <message>
         <source>The file could not be accessed.</source>
-        <translation>Filen kunde inte kommas åt.</translation>
+        <translation>Filen gick inte att komma åt.</translation>
     </message>
     <message>
         <source>Playlist format is not supported.</source>
@@ -456,7 +456,7 @@
     <name>QPlaylistFileParser</name>
     <message>
         <source>%1 playlist type is unknown</source>
-        <translation>%1 spellistetypen är okänd</translation>
+        <translation>Spellistetypen %1 är okänd</translation>
     </message>
     <message>
         <source>invalid line in playlist file</source>
