@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="lg_UG">
+<TS version="2.1" language="lg">
 <context>
     <name>%1: key is empty</name>
     <message>
@@ -232,7 +232,7 @@
     <name>QApplication</name>
     <message>
         <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
-        <translation>Puloguramu &quot;%1&quot; yetaaga Qt %2, naye esanze Qt %3.</translation>
+        <translation>Puloguramu &apos;%1&apos; yetaaga Qt %2, naye esanze Qt %3.</translation>
     </message>
     <message>
         <source>Incompatible Qt Library Error</source>
@@ -439,7 +439,7 @@ Nyiga ESC okusazamu</translation>
     <message>
         <source>%1: ftok failed</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: ftok eremeredwa</translation>
+        <translation>%1: ftok eremedwa okukolawo obwawuliro</translation>
     </message>
 </context>
 <context>
@@ -577,7 +577,7 @@ Nyiga ESC okusazamu</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Tekisobose okukazza ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
@@ -775,7 +775,7 @@ Nyiga ESC okusazamu</translation>
     </message>
     <message>
         <source>Invalid hostname</source>
-        <translation>Ekiweeredwa ng&apos;erinnya lya kompyuta enyunge tekikozeseka</translation>
+        <translation>Ekiweeredwa ng&apos;erinnya lya kompyuta eneekeberwa tekikozeseka</translation>
     </message>
     <message>
         <source>Host %1 could not be found.</source>
@@ -795,7 +795,7 @@ Nyiga ESC okusazamu</translation>
     </message>
     <message>
         <source>Undocks and re-attaches the dock widget</source>
-        <translation>Kino paaka ya puloguramu kigikyusa wakati wa kunywerera mu kifo kimu n&apos;okubungeta</translation>
+        <translation>Kino paaka ya puloguramu kigikyusa wakati wa kunywerera mu kifo kimu n&apos;okubungeeta</translation>
     </message>
     <message>
         <source>Close</source>
@@ -1052,6 +1052,7 @@ Nyiga ESC okusazamu</translation>
     </message>
     <message>
         <source>Will not rename sequential file using block copy</source>
+        <translatorcomment>Need to find out whether this message means that the file won&apos;t be renamed or just that block copy won&apos;t be used to do so.</translatorcomment>
         <translation>Fayiro ya mugobereragano. Okukoppera mu buloka tekujja okweyambisibwa okugikyusa linnya</translation>
     </message>
     <message>
@@ -1142,7 +1143,7 @@ Nyiga ESC okusazamu</translation>
     </message>
     <message>
         <source>Create a New Folder</source>
-        <translation>Kolawo Tterekero Ppya</translation>
+        <translation>Kikolawo Tterekero Ppya</translation>
     </message>
     <message>
         <source>List View</source>
@@ -1318,12 +1319,12 @@ Era oyagala egyibwewo?</translation>
     <message>
         <source>Alias</source>
         <comment>OS X Finder</comment>
-        <translation>Nyunzi</translation>
+        <translation>Kasaliikiriza</translation>
     </message>
     <message>
         <source>Shortcut</source>
         <comment>All other platforms</comment>
-        <translation>Nyunzi</translation>
+        <translation>Kasaliikiriza</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -1766,7 +1767,7 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Instance name according to ICCCM 4.1.2.5.</source>
-        <translation>Erinnya ly&apos;olubumbujjo lwa puloguramu erigoberera omuko gwa ekiwandiko ICCCM 4.1.2.5.</translation>
+        <translation>Erinnya ly&apos;olubumbujjo lwa puloguramu erigoberera omuko 4.1.2.5 ogw&apos;ekiwandiko ICCCM.</translation>
     </message>
     <message>
         <source>Disable mouse grabbing (useful in debuggers).</source>
@@ -1874,7 +1875,7 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Error parsing authentication request from proxy</source>
-        <translation>Wazzewo kiremya mu kukebera obubaka obusaba okukakasa obuvudde ku kompyuta masanganzira etuuka ku mutimbagano</translation>
+        <translation>Wazzewo kiremya mu kukebera obubaka obusaba okukakasa obuvudde ku kalaani</translation>
     </message>
     <message>
         <source>Authentication required</source>
@@ -1886,7 +1887,7 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Error communicating with HTTP proxy</source>
-        <translation>Wazzewo kiremya mu kuwulizagana ne kompyuta masanganzira etuuka ku mutimbagano</translation>
+        <translation>Wazzewo kiremya mu kuwulizagana ne kalaani ekola ku mpulizagana ey&apos;ekika kya HTTP</translation>
     </message>
     <message>
         <source>Proxy server not found</source>
@@ -1913,11 +1914,11 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>tekisobose okutandika omukolo ogwa mu ggwanika lya data</translation>
+        <translation>Tekisobose okutandika omukolo ogwa mu ggwanika lya data</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Tekisobose okukazza ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
@@ -1956,11 +1957,11 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>tekisobose okutandika omukolo ogwa mu ggwanika lya data</translation>
+        <translation>Tekisobose okutandika omukolo ogwa mu ggwanika lya data</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Tekisobose okukazza ebikyusidwa</translation>
     </message>
     <message>
         <source>Could not allocate statement</source>
@@ -1972,7 +1973,7 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Could not describe input statement</source>
-        <translation>Tekisobose okufuna ebikwata ku paramita ez&apos;etaagbwa ekiragiro ekinoonyeza mu ggwanika lya data</translation>
+        <translation>Tekisobose okufuna ebikwata ku paramita ez&apos;etaagibwa ekiragiro ekinoonyeza mu ggwanika lya data</translation>
     </message>
     <message>
         <source>Could not describe statement</source>
@@ -2111,7 +2112,7 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>illegal number</source>
-        <translation>Waliwo ennamba eriko nsobi</translation>
+        <translation>waliwo ennamba eriko nsobi</translation>
     </message>
     <message>
         <source>invalid escape sequence</source>
@@ -2250,7 +2251,7 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Cannot unload library %1: %2</source>
-        <translation>Tekisobose okuwangula puloguramu eyeyazikibwa %1. %2</translation>
+        <translation>Tekisobose okuwangula puloguramu eyeyazikibwa %1: %2</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a valid Mach-O binary (%2)</source>
@@ -2414,7 +2415,7 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Tekisobose okukazza ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
@@ -2567,6 +2568,7 @@ Era oyagala egyibwewo?</translation>
     <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
         <extracomment>Leave this text untranslated or include a verbatim copy of it below and note that it is the authoritative version in case of doubt.</extracomment>
+        <translatorcomment>Left untranslated as one of the options provided by the developer.</translatorcomment>
         <translation></translation>
     </message>
     <message>
@@ -2719,7 +2721,7 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Remote host closed the connection prematurely on %1</source>
-        <translation>Kompyuta ey&apos;ebunaayira empulizagana ku %1 ekuggadewo nga bukyali</translation>
+        <translation>Kompyuta ey&apos;ebunaayira empulizagana ku %1 egiggadewo nga bukyali</translation>
     </message>
 </context>
 <context>
@@ -2860,7 +2862,7 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Tekisobose okukazza ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
@@ -2918,7 +2920,7 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Tekisobose okukazza ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
@@ -3853,7 +3855,8 @@ Londa erinnya lya fayiro eddala.</translation>
     <message>
         <source>%1 already exists.
 Do you want to overwrite it?</source>
-        <translation>%1 esangidwa gyeri. Oyagala okugigyawo waddewo kirala?</translation>
+        <translation>%1 esangidwa gyeri.
+Oyagala okugigyawo waddewo kirala?</translation>
     </message>
     <message>
         <source>Options &apos;Pages Per Sheet&apos; and &apos;Page Set&apos; cannot be used together.
@@ -4309,7 +4312,7 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>missing ) after (?# comment</source>
-        <translation>waliwo wabula akabonero ) akafundikira ebigambo ebitangaaza ebitandika ne (?#</translation>
+        <translation>waliwo awabula akabonero ) akafundikira ebigambo ebitangaaza ebitandika ne (?#</translation>
     </message>
     <message>
         <source>parentheses are too deeply nested</source>
@@ -4493,7 +4496,7 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>non-octal character in \o{} (closing brace missing?)</source>
-        <translation>\o{} kirimu akabonero akatali ka nnengamunaana (oba ka } (akafundikira ke kataliiko?)</translation>
+        <translation>\o{} kirimu akabonero akatali ka nnengamunaana (oba ka } akafundikira ke kataliiko?)</translation>
     </message>
     <message>
         <source>different names for subpatterns of the same number are not allowed</source>
@@ -4597,7 +4600,7 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>internal error: unknown code in parsed pattern</source>
-        <translation>puloguramu ezzeemu kiremya: esanze ebiragiro by&apos;etategeera mu kinonyezebwa ky&apos;ekebedde</translation>
+        <translation>puloguramu ezzeemu kiremya: esanze ebiragiro by&apos;etategeera mu kinoonyezebwa ky&apos;ekebedde</translation>
     </message>
     <message>
         <source>internal error: bad code value in parsed_skip()</source>
@@ -4813,7 +4816,7 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>bad JIT option</source>
-        <translation>waliwo akawayiro aka JIT akasobi</translation>
+        <translation>akawayiro aka bad JIT</translation>
     </message>
     <message>
         <source>JIT stack limit reached</source>
@@ -4927,7 +4930,7 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>Tekisobose okutandika ekiragiro ekya mu ggwanika lya data</translation>
+        <translation>Tekisobose okutandika ekiragiro ekinoonyeza mu ggwanika lya data</translation>
     </message>
 </context>
 <context>
@@ -4946,7 +4949,7 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Tekisobose okukazza ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
@@ -5511,14 +5514,17 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Application Left</source>
+        <translatorcomment>Go to the program on the left</translatorcomment>
         <translation>Puloguramu Kkono</translation>
     </message>
     <message>
         <source>Application Right</source>
+        <translatorcomment>Go to the program on the right</translatorcomment>
         <translation>Puloguramu Ddyo</translation>
     </message>
     <message>
         <source>Book</source>
+        <translatorcomment>Launch book reader program</translatorcomment>
         <translation>Kitabo</translation>
     </message>
     <message>
@@ -5559,10 +5565,12 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Display</source>
+        <translatorcomment>Switch to another display</translatorcomment>
         <translation>Lutimbe</translation>
     </message>
     <message>
         <source>DOS</source>
+        <translatorcomment>Launch DOS emulator program</translatorcomment>
         <translation>DOS</translation>
     </message>
     <message>
@@ -5583,10 +5591,12 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Go</source>
+        <translatorcomment>Go to a URL</translatorcomment>
         <translation>Genda Yo</translation>
     </message>
     <message>
         <source>iTouch</source>
+        <translatorcomment>Logitech iTouch</translatorcomment>
         <translation>iTouch</translation>
     </message>
     <message>
@@ -6245,7 +6255,7 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     <message>
         <source>scroll bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>Akaseesa</translation>
+        <translation>akaseesa</translation>
     </message>
     <message>
         <source>grip</source>
@@ -6282,7 +6292,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>filler</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>Akajjuzabbanga</translation>
+        <translation>akajjuzabbanga</translation>
     </message>
     <message>
         <source>popup menu</source>
@@ -6735,7 +6745,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>The root certificate of the certificate chain is self-signed, and untrusted</source>
-        <translation>Emmatizo ey&apos;ennono mu ngobereragana y&apos;emmatiozo teyesigika kubanga teyava wa mugabi wazo</translation>
+        <translation>Emmatizo ey&apos;ennono mu ngobereragana y&apos;emmatizo teyesigika kubanga teyava wa mugabi wazo</translation>
     </message>
     <message>
         <source>The issuer certificate of a locally looked up certificate could not be found</source>
@@ -6927,7 +6937,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>Access denied</source>
-        <translation>Okuyingira kugaanye olw&apos;okubeera nti ebisaanyizo ebiweredwayo tebikozeka</translation>
+        <translation>Okuyingira kugaanye olw&apos;okubeera nti ebisaanyizo ebiweredwayo tebikozeseka</translation>
     </message>
     <message>
         <source>No authority could be contacted for authorization</source>
@@ -7409,7 +7419,7 @@ Role of an accessible object</extracomment>
         <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
 
 The minimum Direct2D version required is %1. The Direct2D version on this system is %2.</source>
-        <translation>Qt tesobodde okuwanga ekyongerwako ekya &apos;direct2d&apos; kubanga oluwandika lwa eya ku sisitemu eno lwa dda ekiyitiridde. Kyetaagisa Windows 7 ey&apos;entumbuzi ezisinga obujja oba Windows empya okusinga awo.
+        <translation>Qt tesobodde okuwanga ekyongerwako ekya &apos;direct2d&apos; kubanga oluwandika lwa ekya ku sisitemu eno lwa dda ekiyitiridde. Kyetaagisa Windows 7 ey&apos;entumbuzi ezisinga obujja oba Windows empya okusinga awo.
 
 Oluwandika lwa &apos;Direct2D&apos; olusinga obukadde olukola lwe olwa %1. Oluwandika olwa &apos;Direct2D&apos; olwa ku sisitemu eno lwo lwa %2.</translation>
     </message>
@@ -7626,7 +7636,7 @@ atiributo ennefaananyirize eraga oba waliwo enteekateeka z&apos;enkozesa ya XML 
     </message>
     <message>
         <source>Invalid attribute in XML declaration.</source>
-        <translation>Ekitundu ekiteekateeka enkozesa ya XML mu kiwandiko kirimu atiributo etakkirizibwa.</translation>
+        <translation>Waliwo ekiteekateeke ekya XML ekirimu atiributo etategeerebwa.</translation>
     </message>
     <message>
         <source>Premature end of document.</source>
