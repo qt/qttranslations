@@ -2,13 +2,6 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="lg_UG">
 <context>
-    <name>%1: key is empty</name>
-    <message>
-        <source>QSystemSemaphore</source>
-        <translation>QSystemSemaphore</translation>
-    </message>
-</context>
-<context>
     <name>CloseButton</name>
     <message>
         <source>Close Tab</source>
@@ -231,7 +224,7 @@
 <context>
     <name>QApplication</name>
     <message>
-        <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
+        <source>Application &quot;%1&quot; requires Qt %2, found Qt %3.</source>
         <translation>Puloguramu &quot;%1&quot; yetaaga Qt %2, naye esanze Qt %3.</translation>
     </message>
     <message>
@@ -388,7 +381,7 @@ Nyiga ESC okusazamu</translation>
         <translation>Kiraga ebinnyonyola obuwayiro obusobola okwongerwa ku kiragiro ekitandika puloguramu okuva mu kiwandikiro.</translation>
     </message>
     <message>
-        <source>Displays help including Qt specific options.</source>
+        <source>Displays help, including generic Qt options.</source>
         <translation>Kiraga ebinnyonyola obuwayiro obwa mu Qt obusobola okwongerwa ku kiragiro ekitandika puloguramu okuva mu kiwandikiro.</translation>
     </message>
     <message>
@@ -427,19 +420,8 @@ Nyiga ESC okusazamu</translation>
 <context>
     <name>QCoreApplication</name>
     <message>
-        <source>%1: key is empty</source>
-        <comment>QSystemSemaphore</comment>
-        <translation>%1: obwawuliro tebutegekedwa</translation>
-    </message>
-    <message>
-        <source>%1: unable to make key</source>
-        <comment>QSystemSemaphore</comment>
-        <translation>%1: nemedwa okutegeka obwawuliro</translation>
-    </message>
-    <message>
-        <source>%1: ftok failed</source>
-        <comment>QSystemSemaphore</comment>
-        <translation>%1: ftok eremeredwa</translation>
+        <source>QHttp</source>
+        <translation>QHttp</translation>
     </message>
 </context>
 <context>
@@ -577,7 +559,7 @@ Nyiga ESC okusazamu</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Tekisobose okukazza ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
@@ -623,25 +605,6 @@ Nyiga ESC okusazamu</translation>
     </message>
 </context>
 <context>
-    <name>QDateTimeParser</name>
-    <message>
-        <source>AM</source>
-        <translation>AM</translation>
-    </message>
-    <message>
-        <source>am</source>
-        <translation>am</translation>
-    </message>
-    <message>
-        <source>PM</source>
-        <translation>PM</translation>
-    </message>
-    <message>
-        <source>pm</source>
-        <translation>pm</translation>
-    </message>
-</context>
-<context>
     <name>QDialog</name>
     <message>
         <source>What&apos;s This?</source>
@@ -656,58 +619,22 @@ Nyiga ESC okusazamu</translation>
     </message>
 </context>
 <context>
-    <name>QDirModel</name>
-    <message>
-        <source>Name</source>
-        <translation>Linnya</translation>
-    </message>
-    <message>
-        <source>Size</source>
-        <translation>Bunene</translation>
-    </message>
-    <message>
-        <source>Kind</source>
-        <comment>Match OS X Finder</comment>
-        <translation>Ngeri</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <comment>All other platforms</comment>
-        <translation>Kika</translation>
-    </message>
-    <message>
-        <source>Date Modified</source>
-        <translation>Makyusa</translation>
-    </message>
-</context>
-<context>
     <name>QDnsLookup</name>
     <message>
         <source>Operation cancelled</source>
         <translation>Omukolo gusazidwamu</translation>
-    </message>
-</context>
-<context>
-    <name>QDnsLookupRunnable</name>
-    <message>
-        <source>IPv6 addresses for nameservers are currently not supported</source>
-        <translation>Sisitemu eno kakano tesobola kukwataganya ndagiriro eza bulijjo ne ez&apos;ennono ez&apos;ekika kya IPv6</translation>
     </message>
     <message>
         <source>Invalid domain name</source>
         <translation>Erinnya ery&apos;oku mutimbagano terikkirizidwa</translation>
     </message>
     <message>
-        <source>Not yet supported on Android</source>
-        <translation>Omukolo tegunnasoboka ku Android</translation>
+        <source>SSL/TLS support not present</source>
+        <translation>Ebisobozesa empulizagana ey&apos;ekika kya SSL/TLS tebiriiwo</translation>
     </message>
     <message>
-        <source>Resolver functions not found</source>
-        <translation>Tewali puloguramu enona endagiriro ez&apos;ennono</translation>
-    </message>
-    <message>
-        <source>Resolver initialization failed</source>
-        <translation>Tekisobose okutandika puloguramu enona endagiriro ez&apos;ennono</translation>
+        <source>Request timed out</source>
+        <translation>Ekiragiro kya ku kayungirizi obw&apos;okukilindirira bukiweddeko</translation>
     </message>
     <message>
         <source>Server could not process query</source>
@@ -726,8 +653,24 @@ Nyiga ESC okusazamu</translation>
         <translation>Puloguramu ekwataganya amannya n&apos;endagiriro egaanye okuddamu</translation>
     </message>
     <message>
+        <source>Invalid reply received (rcode %1)</source>
+        <translation>Kompyuta etereka enkwatagana y&apos;amannya n&apos;endagiriro ez&apos;ennono etuddiziza ebitakozeseka (rcode %1)</translation>
+    </message>
+    <message>
         <source>Invalid reply received</source>
         <translation>Kompyuta etereka enkwatagana y&apos;amannya n&apos;endagiriro ez&apos;ennono etuddiziza ebitakozeseka</translation>
+    </message>
+    <message>
+        <source>Invalid reply received (%1)</source>
+        <translation>Kompyuta etereka enkwatagana y&apos;amannya n&apos;endagiriro ez&apos;ennono etuddiziza ebitakozeseka (%1)</translation>
+    </message>
+    <message>
+        <source>IPv6 nameservers are currently not supported on this OS</source>
+        <translation>Sisitemu eno kakano tesobola kukwataganya ndagiriro eza bulijjo ne ez&apos;ennono ez&apos;ekika kya IPv6</translation>
+    </message>
+    <message>
+        <source>Reply was too large</source>
+        <translation>Okwanukula kuyitiridde obuwanvu</translation>
     </message>
     <message>
         <source>Could not expand domain name</source>
@@ -743,7 +686,7 @@ Nyiga ESC okusazamu</translation>
     </message>
     <message>
         <source>Invalid canonical name record</source>
-        <translation>Ekiwandise ekifunidwa ekikwataganya erinnya eribbule n&apos;ery&apos;enno tekikozeseka</translation>
+        <translation>Ekiwandise ekifunidwa ekikwataganya erinnya eribbule n&apos;ery&apos;ennono tekikozeseka</translation>
     </message>
     <message>
         <source>Invalid name server record</source>
@@ -762,28 +705,19 @@ Nyiga ESC okusazamu</translation>
         <translation>Ekiwandise ekitegeka pooti puloguramu empeereze kw&apos;esangibwa tekikozeseka</translation>
     </message>
     <message>
+        <source>Invalid TLS association record</source>
+        <translation>Ekiwandise ekikwataganya emmatizo ya TLS n&apos;erinnya lya domeyini kwe kisangibwa tekikozeseka</translation>
+    </message>
+    <message>
         <source>Invalid text record</source>
         <translation>Ekiwandise ekikwataganya ebiwandiko n&apos;erinnya ly&apos;ekisangibwa ku mutimbagano tekikozeseka</translation>
     </message>
+</context>
+<context>
+    <name>QDnsLookupRunnable</name>
     <message>
-        <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
-        <translation>Tekisobose okutandika puloguramu enona endagiriro ez&apos;ennono: Sisitemu eno teriko puloguramu ezisobozesa eyo okutuukiriza mulimu gwa yo</translation>
-    </message>
-    <message>
-        <source>No hostname given</source>
-        <translation>Ku bulako erinnya lya kompyuta eneekeberwa</translation>
-    </message>
-    <message>
-        <source>Invalid hostname</source>
-        <translation>Ekiweeredwa ng&apos;erinnya lya kompyuta enyunge tekikozeseka</translation>
-    </message>
-    <message>
-        <source>Host %1 could not be found.</source>
-        <translation>Kompyuta %1 ebuze.</translation>
-    </message>
-    <message>
-        <source>Unknown error</source>
-        <translation>Wazzewo kiremya atategeereka</translation>
+        <source>Not yet supported on this OS</source>
+        <translation>Omukolo tegunnasoboka ku sisitemu eno</translation>
     </message>
 </context>
 <context>
@@ -795,7 +729,7 @@ Nyiga ESC okusazamu</translation>
     </message>
     <message>
         <source>Undocks and re-attaches the dock widget</source>
-        <translation>Kino paaka ya puloguramu kigikyusa wakati wa kunywerera mu kifo kimu n&apos;okubungeta</translation>
+        <translation>Kino paaka ya puloguramu kigikyusa wakati wa kunywerera mu kifo kimu n&apos;okubungeeta</translation>
     </message>
     <message>
         <source>Close</source>
@@ -989,16 +923,20 @@ Nyiga ESC okusazamu</translation>
 <context>
     <name>QDtlsClientVerifier</name>
     <message>
-        <source>A valid UDP socket, non-empty datagram, valid address/port were expected</source>
-        <translation>Wabadde wasuubirwawo soketi eya UDP, dataguramu etali njereere n&apos;endagiriro/pooti ebikozeseka</translation>
-    </message>
-    <message>
         <source>BIO_ADDR_new failed, ignoring client hello</source>
         <translation>Dataguramu ey&apos;okweyanjula (ClientHello) ebooledwa kubanga omulimu gwa BIO_ADD_new gugaanye</translation>
+    </message>
+    <message>
+        <source>A valid UDP socket, non-empty datagram, and valid address/port were expected</source>
+        <translation>Wabadde wasuubirwawo soketi eya UDP, dataguramu etali njereere n&apos;endagiriro/pooti ebikozeseka</translation>
     </message>
 </context>
 <context>
     <name>QErrorMessage</name>
+    <message>
+        <source>An error occurred</source>
+        <translation>Wazzewo kiremya</translation>
+    </message>
     <message>
         <source>Debug Message:</source>
         <translation>Bubaka Obuyamba Kuzuula Nsibuko ya Kiremya:</translation>
@@ -1071,12 +1009,12 @@ Nyiga ESC okusazamu</translation>
         <translation>Tekisobose okubikkula awanaagenda ebivaamu: %1</translation>
     </message>
     <message>
-        <source>Failure to write block</source>
-        <translation>Okuwandika buloka kugaanye</translation>
+        <source>Failure to write block: %1</source>
+        <translation>Okuwandika buloka kugaanye: %1</translation>
     </message>
     <message>
-        <source>Cannot create %1 for output</source>
-        <translation>Tekisobose okukolawo %1 awanaagenda ebivaamu</translation>
+        <source>Cannot create %1 for output: %2</source>
+        <translation>Tekisobose okukolawo %1 awanaagenda ebivaamu: %2</translation>
     </message>
 </context>
 <context>
@@ -1142,7 +1080,7 @@ Nyiga ESC okusazamu</translation>
     </message>
     <message>
         <source>Create a New Folder</source>
-        <translation>Kolawo Tterekero Ppya</translation>
+        <translation>Kikolawo Tterekero Ppya</translation>
     </message>
     <message>
         <source>List View</source>
@@ -1288,58 +1226,9 @@ Era oyagala egyibwewo?</translation>
         <source>Remove</source>
         <translation>Gyawo</translation>
     </message>
-    <message>
-        <source>My Computer</source>
-        <translation>Kompyuta Yange</translation>
-    </message>
-    <message>
-        <source>Drive</source>
-        <translation>Kibondo</translation>
-    </message>
-    <message>
-        <source>%1 File</source>
-        <extracomment>%1 is a file name suffix, for example txt</extracomment>
-        <translation>Fayiro ey&apos;ekika kya %1</translation>
-    </message>
-    <message>
-        <source>File</source>
-        <translation>Fayiro</translation>
-    </message>
-    <message>
-        <source>File Folder</source>
-        <comment>Match Windows Explorer</comment>
-        <translation>Tterekero lya Fayiro</translation>
-    </message>
-    <message>
-        <source>Folder</source>
-        <comment>All other platforms</comment>
-        <translation>Tterekero</translation>
-    </message>
-    <message>
-        <source>Alias</source>
-        <comment>OS X Finder</comment>
-        <translation>Nyunzi</translation>
-    </message>
-    <message>
-        <source>Shortcut</source>
-        <comment>All other platforms</comment>
-        <translation>Nyunzi</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation>Kitategeerese</translation>
-    </message>
 </context>
 <context>
     <name>QFileSystemModel</name>
-    <message>
-        <source>&lt;b&gt;The name &quot;%1&quot; cannot be used.&lt;/b&gt;&lt;p&gt;Try using another name, with fewer characters or no punctuation marks.</source>
-        <translation>&lt;b&gt;Tekisobose kukozesa linnya &quot;%1&quot;.&lt;/b&gt; Ennukuta ziyitiridde obungi oba lirimu obubonero obwawula mboozi.</translation>
-    </message>
-    <message>
-        <source>Invalid filename</source>
-        <translation>Erinnya lya fayiro teritegeeredwa</translation>
-    </message>
     <message>
         <source>Name</source>
         <translation>Linnya</translation>
@@ -1606,95 +1495,6 @@ Era oyagala egyibwewo?</translation>
     </message>
 </context>
 <context>
-    <name>QFtp</name>
-    <message>
-        <source>Not connected</source>
-        <translation>Tewali mpulizagana</translation>
-    </message>
-    <message>
-        <source>Host %1 not found</source>
-        <translation>Kompyuta enyunge %1 terabidwa</translation>
-    </message>
-    <message>
-        <source>Connection refused to host %1</source>
-        <translation>Empulizagana ne kompyuta %1 egaanidwa</translation>
-    </message>
-    <message>
-        <source>Connection timed out to host %1</source>
-        <translation>Okukwatagana ne kompyuta enyunge %1 obudde bukuyiseko</translation>
-    </message>
-    <message>
-        <source>Connected to host %1</source>
-        <translation>Waliwo empulizagana ne kompyuta %1</translation>
-    </message>
-    <message>
-        <source>Data Connection refused</source>
-        <translation>Enkwatagana ey&apos;okuwanisagana data egaanidwa</translation>
-    </message>
-    <message>
-        <source>Unknown error</source>
-        <translation>Wazzewo kiremya atategeereka</translation>
-    </message>
-    <message>
-        <source>Connecting to host failed:
-%1</source>
-        <translation>Okukwatagana ne kompyuta enyunge kugaanye:
-%1</translation>
-    </message>
-    <message>
-        <source>Login failed:
-%1</source>
-        <translation>Okutandika olutuula kugaanye:
-%1</translation>
-    </message>
-    <message>
-        <source>Listing directory failed:
-%1</source>
-        <translation>Okulaga ebiri mu tterekero kugaanye:
-%1</translation>
-    </message>
-    <message>
-        <source>Changing directory failed:
-%1</source>
-        <translation>Okudda mu tterekero ddala kugaanye:
-%1</translation>
-    </message>
-    <message>
-        <source>Downloading file failed:
-%1</source>
-        <translation>Okuwanula fayiro kugaanye:
-%1</translation>
-    </message>
-    <message>
-        <source>Uploading file failed:
-%1</source>
-        <translation>Okuteekayo fayiro kugaanye:
-%1</translation>
-    </message>
-    <message>
-        <source>Removing file failed:
-%1</source>
-        <translation>Okugyawo fayiro kugaanye:
-%1</translation>
-    </message>
-    <message>
-        <source>Creating directory failed:
-%1</source>
-        <translation>Okukolawo tterekero kugaanye:
-%1</translation>
-    </message>
-    <message>
-        <source>Removing directory failed:
-%1</source>
-        <translation>Okugywao tterekero kugaanye:
-%1</translation>
-    </message>
-    <message>
-        <source>Connection closed</source>
-        <translation>Okuwulizagana kuggadwawo</translation>
-    </message>
-</context>
-<context>
     <name>QGnomeTheme</name>
     <message>
         <source>&amp;OK</source>
@@ -1766,7 +1566,7 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Instance name according to ICCCM 4.1.2.5.</source>
-        <translation>Erinnya ly&apos;olubumbujjo lwa puloguramu erigoberera omuko gwa ekiwandiko ICCCM 4.1.2.5.</translation>
+        <translation>Erinnya ly&apos;olubumbujjo lwa puloguramu erigoberera omuko 4.1.2.5 ogw&apos;ekiwandiko ICCCM.</translation>
     </message>
     <message>
         <source>Disable mouse grabbing (useful in debuggers).</source>
@@ -1826,6 +1626,15 @@ Era oyagala egyibwewo?</translation>
 <context>
     <name>QHttp</name>
     <message>
+        <source>Brotli error: %1</source>
+        <extracomment>Brotli (compression algorithm) decoding error, e.g. corrupted input or memory allocation problem.</extracomment>
+        <translation>Omukolo ogwa Brotli guzzemu kiremya: %1</translation>
+    </message>
+    <message>
+        <source>ZStandard error: %1</source>
+        <translation>Omukolo ogwa ZStandard guzzemu kiremya: %1</translation>
+    </message>
+    <message>
         <source>Connection closed</source>
         <translation>Okuwulizagana kuggadwawo</translation>
     </message>
@@ -1865,6 +1674,30 @@ Era oyagala egyibwewo?</translation>
         <source>Insecure redirect</source>
         <translation>Wasangidwa ekiragiro ekyongezayo ku ndagiriro ndala ekiteesigika</translation>
     </message>
+    <message>
+        <source>Unsupported content encoding: %1</source>
+        <translation>Enkongojja y&apos;ebyolesebwa tetegeereka: %1</translation>
+    </message>
+    <message>
+        <source>Failed to initialize the compression decoder.</source>
+        <translation>Tekisobose okutandikawaza puloguramu epakulula ebifunidwa.</translation>
+    </message>
+    <message>
+        <source>The decompressed output exceeds the limits specified by QNetworkRequest::decompressedSafetyCheckThreshold()</source>
+        <translation>Ebipakululudwa bingi okusinga ekkomo eritegekedwa QNetworkRequest::decompressedSafetyCheckThreshold()</translation>
+    </message>
+    <message>
+        <source>Decompression failed: %1</source>
+        <translation>Okupakulula kugaanye: %1</translation>
+    </message>
+    <message>
+        <source>Data downloaded is too large to store</source>
+        <translation>Data ewanudwa teterekeka olw&apos;okuba nga eyitiridde obungi</translation>
+    </message>
+    <message>
+        <source>Failed to initialize decompression: %1</source>
+        <translation>Okutandikawaza okupakulula kugaanye: %1</translation>
+    </message>
 </context>
 <context>
     <name>QHttpSocketEngine</name>
@@ -1874,7 +1707,7 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Error parsing authentication request from proxy</source>
-        <translation>Wazzewo kiremya mu kukebera obubaka obusaba okukakasa obuvudde ku kompyuta masanganzira etuuka ku mutimbagano</translation>
+        <translation>Wazzewo kiremya mu kukebera obubaka obusaba okukakasa obuvudde ku kalaani</translation>
     </message>
     <message>
         <source>Authentication required</source>
@@ -1886,7 +1719,7 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Error communicating with HTTP proxy</source>
-        <translation>Wazzewo kiremya mu kuwulizagana ne kompyuta masanganzira etuuka ku mutimbagano</translation>
+        <translation>Wazzewo kiremya mu kuwulizagana ne kalaani ekola ku mpulizagana ey&apos;ekika kya HTTP</translation>
     </message>
     <message>
         <source>Proxy server not found</source>
@@ -1913,15 +1746,23 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>tekisobose okutandika omukolo ogwa mu ggwanika lya data</translation>
+        <translation>Tekisobose okutandika omukolo ogwa mu ggwanika lya data</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Tekisobose okukazza ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
         <translation>Tekisobose okujjulula ebikyusidwa</translation>
+    </message>
+    <message>
+        <source>Could not subscribe to event notifications for %1.</source>
+        <translation>Tekisobose okusaba okufunanga obubaka ku ebiba biguddewo ku %1.</translation>
+    </message>
+    <message>
+        <source>Could not unsubscribe from event notifications for %1.</source>
+        <translation>Tekisobose okukomya okufunanga obubaka ku ebiba biguddewo ku %1.</translation>
     </message>
 </context>
 <context>
@@ -1951,16 +1792,28 @@ Era oyagala egyibwewo?</translation>
         <translation>Tekisobose okufuna data okuva mu areyi</translation>
     </message>
     <message>
+        <source>Array size mismatch. Field name: %3, expected size: %1. Supplied size: %2</source>
+        <translation>Nsobi mu bunene bwa areyi. Erinnya ly&apos;awajjuzibwa: %3, obunune bwa wo: %1. Obunene bwa wo obulagidwa: %2</translation>
+    </message>
+    <message>
+        <source>Array dimensions mismatch. Field name: %1</source>
+        <translation>Nsobi mu bigero bya areyi. Erinnya ly&apos;awajjuzibwa: %1</translation>
+    </message>
+    <message>
+        <source>Array size mismatch: size of %1 is %2, size of provided list is %3</source>
+        <translation>Nsobi mu bigero bya areyi. %1 eweza %2, olukalala oluliwo lwo luweza %3</translation>
+    </message>
+    <message>
         <source>Could not get query info</source>
         <translation>Tekisobose okufuna ebikwata ku kiragiro ekinoonyeza mu gwanika lya data</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>tekisobose okutandika omukolo ogwa mu ggwanika lya data</translation>
+        <translation>Tekisobose okutandika omukolo ogwa mu ggwanika lya data</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Tekisobose okukazza ebikyusidwa</translation>
     </message>
     <message>
         <source>Could not allocate statement</source>
@@ -1972,7 +1825,7 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Could not describe input statement</source>
-        <translation>Tekisobose okufuna ebikwata ku paramita ez&apos;etaagbwa ekiragiro ekinoonyeza mu ggwanika lya data</translation>
+        <translation>Tekisobose okufuna ebikwata ku paramita ez&apos;etaagibwa ekiragiro ekinoonyeza mu ggwanika lya data</translation>
     </message>
     <message>
         <source>Could not describe statement</source>
@@ -2111,7 +1964,7 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>illegal number</source>
-        <translation>Waliwo ennamba eriko nsobi</translation>
+        <translation>waliwo ennamba eriko nsobi</translation>
     </message>
     <message>
         <source>invalid escape sequence</source>
@@ -2157,75 +2010,88 @@ Era oyagala egyibwewo?</translation>
 <context>
     <name>QLibrary</name>
     <message>
-        <source>&apos;%1&apos; is not an ELF object (%2)</source>
-        <translation>&apos;%1&apos; ssi kyetongole kya ELF (%2)</translation>
+        <source>file is for the wrong endianness</source>
+        <translation>Entereka ya bayiti ezikongojja ennamba fayiro eno gy&apos;ekozesa ssi ye eyetaagibwa</translation>
+    </message>
+    <message>
+        <source>file has an unknown ELF version</source>
+        <translation>fayiro eno oluwandika lwa ELF lw&apos;egoberera sisitemu terumanyi</translation>
+    </message>
+    <message>
+        <source>file has an unexpected ABI</source>
+        <translation>ABI, amateeka agafuga empulizagana wakati wa fayiro eno ne binariyo endala ssi ge gasuubidwa</translation>
+    </message>
+    <message>
+        <source>file is not a shared object</source>
+        <translation>fayiro eno ssi puloguramu eyeyazikibwa</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a valid ELF object (%2)</source>
+        <translation>&apos;%1&apos; ssi kyetongole kya ELF ekikkirizibwa (%2)</translation>
+    </message>
+    <message>
+        <source>unimplemented: PN_XNUM program headers</source>
+        <translation>sisitemu tebikozesa: Olukalala lwa mu kitundu eky&apos;okweyanjula ekya puloguramu okubeerako ebintu ebisukka mu PN_XNUM</translation>
+    </message>
+    <message>
+        <source>program header table extends past the end of the file</source>
+        <translation>olukalala lwa mu kitundu eky&apos;okweyanjula ekya puloguramu lulinga olweyongera okusukka fayiro gy&apos;ekoma</translation>
+    </message>
+    <message>
+        <source>a program header entry extends past the end of the file</source>
+        <translation>waliwo ekisangibwa ku lukalala lwa mu kitundu eky&apos;okweyanjula ekya puloguramu ekiringa ekyeyongera okusukka fayiro gy&apos;ekoma</translation>
+    </message>
+    <message>
+        <source>a note segment start is not properly aligned (offset 0x%1, alignment %2)</source>
+        <translation>waliwo segimenti ey&apos;ekika kya note etandikira awasobu (offset 0x%1, alignment %2)</translation>
+    </message>
+    <message>
+        <source>section table extends past the end of the file</source>
+        <translation>olukalala olutottola sekisoni lulinga olweyongera okuyisa fayiro gy&apos;ekoma</translation>
+    </message>
+    <message>
+        <source>section header string table extends past the end of the file</source>
+        <translation>waliwo ekigambo mu lukalala olwanjula sekisoni ekiringa ekyeyongera yo okuyisa fayiro gy&apos;ekoma</translation>
+    </message>
+    <message>
+        <source>a section name extends past the end of the file</source>
+        <translation>waliwo erinnya lya sekisoni eriringa eryeyongerayo okuyisa fayiro gy&apos;ekoma</translation>
     </message>
     <message>
         <source>file too small</source>
         <translation>fayiro ssi nnene ekimala</translation>
     </message>
     <message>
-        <source>&apos;%1&apos; is not an ELF object</source>
-        <translation>&apos;%1&apos; ssi kyetongole kya ELF</translation>
+        <source>unexpected program header entry size (%1)</source>
+        <translation>waliwo ekiwandise mu kitundu ekyanjula ebya puloguramu nga obunene bwa kyo ssi bwe busuubidwa (%1)</translation>
     </message>
     <message>
-        <source>&apos;%1&apos; is an invalid ELF object (%2)</source>
-        <translation>&apos;%1&apos; ssi kyetongole kya ELF ekikkirizibwa (%2)</translation>
+        <source>unexpected section entry size (%1)</source>
+        <translation>waliwo ekiwandise mu sekisoni nga obunene bwa kyo ssi bwe busuubidwa (%1)</translation>
     </message>
     <message>
-        <source>odd cpu architecture</source>
-        <translation>ekika ky&apos;ekitundu ekibazi kye kitegekedwa tekitegeereka</translation>
+        <source>e_shstrndx greater than the number of sections e_shnum (%1 &gt;= %2)</source>
+        <translation>e_shstrndx kinene okusinga obungi bwa sekisoni e_shnum (%1 &gt;= %2)</translation>
     </message>
     <message>
-        <source>wrong cpu architecture</source>
-        <translation>ekika ky&apos;ekitundu ekibazi kye kitegekedwa ssi kituufu</translation>
-    </message>
-    <message>
-        <source>odd endianness</source>
-        <translation>Entereka ya bayiti ezikongojja ennamba tetegeereka</translation>
-    </message>
-    <message>
-        <source>unexpected e_shsize</source>
-        <translation>e_shsize ssi y&apos;esuubidwa</translation>
-    </message>
-    <message>
-        <source>unexpected e_shentsize</source>
-        <translation>e_shentsize ssi y&apos;esuubidwa</translation>
-    </message>
-    <message numerus="yes">
-        <source>announced %n section(s), each %1 byte(s), exceed file size</source>
-        <translation>
-            <numerusform>ekitundu %n kirangiridwa, kya bayiti %1, kiyise ku kkomo ly&apos;obunene</numerusform>
-            <numerusform>ebitundu %n birangiridwa, buli kimu kya bayiti %1, biyise ku kkomo ly&apos;obunene</numerusform>
-        </translation>
-    </message>
-    <message>
-        <source>shstrtab section header seems to be at %1</source>
-        <translation>olukalala shtrtab lulabika nga olusangibwa ku %1</translation>
-    </message>
-    <message>
-        <source>string table seems to be at %1</source>
-        <translation>Tabulo y&apos;ebigambo erabika nga esangibwa ku %1</translation>
-    </message>
-    <message>
-        <source>section name %1 of %2 behind end of file</source>
-        <translation>obusangiro bw&apos;ekitundu %1 ekya %2 buteeredwa wala okusinga fayiro gy&apos;ekoma</translation>
-    </message>
-    <message>
-        <source>empty .rodata. not a library.</source>
-        <translation>ekitundu .rodata. kyereere, eno ssi puloguramu eyeyayzikibwa.</translation>
-    </message>
-    <message>
-        <source>missing section data. This is not a library.</source>
-        <translation>data ey&apos;ebifa ku bitundu teeriwo. Eno ssi puloguramu eyeyazikibwa.</translation>
-    </message>
-    <message>
-        <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
-        <translation>Tekisobose okusoma ebikwata ku byongerwako okuva mu &apos;%1&apos;</translation>
+        <source>Failed to extract plugin meta data from &apos;%1&apos;: %2</source>
+        <translation>Tekisobose okusoma ebikwata ku byongerwako okuva mu &apos;%1&apos;: %2</translation>
     </message>
     <message>
         <source>The shared library was not found.</source>
         <translation>Puloguramu eyeyazikibwa ey&apos;awamu ebuze.</translation>
+    </message>
+    <message>
+        <source>Could not resolve &apos;qt_plugin_instance&apos; function</source>
+        <translation>Tekisobose okuyungulula ekikongojjedwa mu &apos;qt_plugin_instance&apos;</translation>
+    </message>
+    <message>
+        <source>metadata too small</source>
+        <translation>meta-data tewera</translation>
+    </message>
+    <message>
+        <source>entrypoint to query the plugin meta data not found</source>
+        <translation>entandikwa y&apos;ebiragiro ebikebera meta-data y&apos;ekyongerwako tezuuse</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; is not a valid Qt plugin.</source>
@@ -2250,7 +2116,7 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Cannot unload library %1: %2</source>
-        <translation>Tekisobose okuwangula puloguramu eyeyazikibwa %1. %2</translation>
+        <translation>Tekisobose okuwangula puloguramu eyeyazikibwa %1: %2</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a valid Mach-O binary (%2)</source>
@@ -2279,6 +2145,70 @@ Era oyagala egyibwewo?</translation>
     <message>
         <source>&apos;%1&apos; is not a Qt plugin</source>
         <translation>&apos;%1&apos; ssi kyongerwako kya mu Qt</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a valid Windows DLL (%2)</source>
+        <translation>&apos;%1&apos; tekibalibwa nga DLL eya mu Windows (%2)</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is too small</source>
+        <translation>&apos;%1&apos; ssi nnene ekimala</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a Qt plugin (%2)</source>
+        <translation>&apos;%1&apos; ssi kyongerwako kya mu Qt (%2)</translation>
+    </message>
+    <message>
+        <source>metadata not found</source>
+        <translation>metadata terabidwa</translation>
+    </message>
+    <message>
+        <source>invalid signature</source>
+        <translation>ekigambo ekikakasa ekika kya fayiro kisobu</translation>
+    </message>
+    <message>
+        <source>file is for a different processor</source>
+        <translation>fayiro eno egenderedwa okukozesebwa ekitundu ekibazi eky&apos;ekika ekirala</translation>
+    </message>
+    <message>
+        <source>file has no sections</source>
+        <translation>fayiro temuli sekisoni</translation>
+    </message>
+    <message>
+        <source>wrong characteristics</source>
+        <translation>ebigambo bya byabutonde ebiriwo ssi bye byetaagibwa</translation>
+    </message>
+    <message>
+        <source>file is for a different word size</source>
+        <translation>fayiro ekolera ku bigambo eby&apos;ekigero ekirala</translation>
+    </message>
+    <message>
+        <source>file has no code</source>
+        <translation>fayiro temuli biragiro</translation>
+    </message>
+    <message>
+        <source>a section name is empty or extends past the end of the file</source>
+        <translation>waliwo erinnya lya sekisoni nga bbanga jjereere oba nga liringa eryeyongerayo okuyisa fayiro gy&apos;ekoma</translation>
+    </message>
+    <message>
+        <source>section contents extend past the end of the file</source>
+        <translation>ebiri mu sekisoni biringa ebyeyongerayo okuyisa fayiro gy&apos;ekoma</translation>
+    </message>
+    <message>
+        <source>.qtmetadata section is too small</source>
+        <translation>sekisoni eya .qtmetadata tewera</translation>
+    </message>
+    <message>
+        <source>.qtmetadata section has incorrect magic</source>
+        <translation>waliwo sekisoni eya .qtmetadata erimu akasumuluzo akasobi</translation>
+    </message>
+    <message>
+        <source>.qtmetadata section is writable</source>
+        <translation>sekisoni eya .qtmetadata ekkiriza okugiwandika mu</translation>
+    </message>
+    <message>
+        <source>.qtmetadata section is executable</source>
+        <translation>sekisoni eya .qtmetadata esobola okukola nga puloguramu</translation>
     </message>
 </context>
 <context>
@@ -2393,6 +2323,10 @@ Era oyagala egyibwewo?</translation>
         <source>Socket is not connected</source>
         <translation>Soketi tekwataganizidwa</translation>
     </message>
+    <message>
+        <source>Remote closed</source>
+        <translation>Kompyuta ey&apos;ebunaayira eggadewo okuwulizagana</translation>
+    </message>
 </context>
 <context>
     <name>QMYSQLDriver</name>
@@ -2414,7 +2348,7 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Tekisobose okukazza ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
@@ -2565,13 +2499,2281 @@ Era oyagala egyibwewo?</translation>
         <translation>&lt;h3&gt;Ku Qt&lt;/h3&gt;&lt;p&gt;Puloguramu eno ekozesa Qt wa luwandika %1.&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;https://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) The Qt Company Ltd. and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd. product developed as an open source project. See &lt;a href=&quot;https://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
         <extracomment>Leave this text untranslated or include a verbatim copy of it below and note that it is the authoritative version in case of doubt.</extracomment>
+        <translatorcomment>Left untranslated as one of the options provided by the developer.</translatorcomment>
         <translation></translation>
     </message>
     <message>
         <source>About Qt</source>
         <translation>Kwanjula Qt</translation>
+    </message>
+</context>
+<context>
+    <name>QMimeType</name>
+    <message>
+        <source>Empty document</source>
+        <extracomment>application/x-zerosize</extracomment>
+        <translation>Kiwandiko kyereere</translation>
+    </message>
+    <message>
+        <source>Desktop file</source>
+        <extracomment>application/x-desktop</extracomment>
+        <translation>Kiwandiko ekiri awakolerwa</translation>
+    </message>
+    <message>
+        <source>Qt Markup Language file</source>
+        <extracomment>text/x-qml</extracomment>
+        <translation>Fayiro eya mu mpandika ya Qt efuga enjolesa y&apos;ebiwandiko</translation>
+    </message>
+    <message>
+        <source>Compressed postscript</source>
+        <extracomment>application/x-gzpostscript</extracomment>
+        <translation>Fayiro eya postscript enfunze</translation>
+    </message>
+    <message>
+        <source>Core dump</source>
+        <extracomment>application/x-core</extracomment>
+        <translation>Fayiro eraga ebibadde mu ggwanika lya kompyuta ku kiseera omulimu kwe gukomezedwa</translation>
+    </message>
+    <message>
+        <source>BZip2 compressed tar file</source>
+        <extracomment>application/x-bzip2-compressed-tar</extracomment>
+        <translation>Fayiro ey&apos;ekika kya tar epakizisidwa BZip2</translation>
+    </message>
+    <message>
+        <source>Directory</source>
+        <extracomment>inode/directory</extracomment>
+        <translation>Tterekero</translation>
+    </message>
+    <message>
+        <source>Windows Batch / Command File</source>
+        <extracomment>application/x-bat</extracomment>
+        <translation>Fayiro ey&apos;ebiragiro bya mu Windows</translation>
+    </message>
+    <message>
+        <source>BizAgi Process Modeler</source>
+        <extracomment>application/bizagi-modeler</extracomment>
+        <translation>Fayiro eya mu &apos;BizAgi Process Modeler&apos;</translation>
+    </message>
+    <message>
+        <source>Concise Binary Object Representation container</source>
+        <extracomment>application/cbor</extracomment>
+        <translation>Ekiwandike ekibeeramu data ekongojjedwa mu nkola ya CBOR</translation>
+    </message>
+    <message>
+        <source>CorelDraw</source>
+        <extracomment>application/coreldraw</extracomment>
+        <translation>Fayiro ya mu CorelDraw</translation>
+    </message>
+    <message>
+        <source>DICOM medical imaging data</source>
+        <extracomment>application/dicom</extracomment>
+        <translation>Fayiro eya data y&apos;ekifaananyi egoberera omutindo gwa DICOM</translation>
+    </message>
+    <message>
+        <source>Darwin Information Typing Architecture</source>
+        <extracomment>application/dita+xml</extracomment>
+        <translation>Kiwandike ekyambisa DITA</translation>
+    </message>
+    <message>
+        <source>DVD information file</source>
+        <extracomment>application/x-dvd-ifo</extracomment>
+        <translation>Endagiriro y&apos;ebiri ku DVD</translation>
+    </message>
+    <message>
+        <source>EBU-STL subtitles</source>
+        <extracomment>application/x-ebu-stl</extracomment>
+        <translation>Fayiro ey&apos;ebigambo ebiragibwa ku vidiyo eya mu mpandika ya EBU-STL</translation>
+    </message>
+    <message>
+        <source>Electronic Publication</source>
+        <extracomment>application/epub+zip</extracomment>
+        <translation>Kitabo kya ku kompyuta</translation>
+    </message>
+    <message>
+        <source>Flexible Image Transport System</source>
+        <extracomment>application/fits</extracomment>
+        <translation>Fayiro egoberera omutindo ogufuga entegeka ya fayiro ezikozesebwa okuwanyisagana ebifaananyi eby&apos;ebya mu bwengula</translation>
+    </message>
+    <message>
+        <source>Adobe Illustrator Artwork</source>
+        <extracomment>application/illustrator</extracomment>
+        <translation>Fayiro ya kifaananyi kya mu Adobe Illustrator</translation>
+    </message>
+    <message>
+        <source>Adobe Illustrator Artwork -- the older postscript based AI files</source>
+        <extracomment>application/illustrator+ps</extracomment>
+        <translation>Fayiro ya kifaananyi kya mu Adobe Illustrator eyeyambisa PostScript</translation>
+    </message>
+    <message>
+        <source>Windows setup INFormation</source>
+        <extracomment>application/inf</extracomment>
+        <translation>Fayiro ey&apos;ebiragiro ebitegeka sofutiweya ku kompyuta ekolera ku Windows</translation>
+    </message>
+    <message>
+        <source>Java Archive</source>
+        <extracomment>application/java-archive</extracomment>
+        <translation>Fayiro eya Java empakire</translation>
+    </message>
+    <message>
+        <source>JavaScript Source Code</source>
+        <extracomment>text/javascript</extracomment>
+        <translation>Fayiro ey&apos;ennono y&apos;ebiragiro bya mu JavaScript</translation>
+    </message>
+    <message>
+        <source>Web Application Manifest file</source>
+        <extracomment>application/manifest+json</extracomment>
+        <translation>Fayiro eteekateeka puloguramu ezikolagana n&apos;omutimbagano</translation>
+    </message>
+    <message>
+        <source>Java Class File</source>
+        <extracomment>application/java-vm</extracomment>
+        <translation>Fayiro eya bayiti ez&apos;ebiragiro ebya mu Java</translation>
+    </message>
+    <message>
+        <source>Java Native Library for OSX</source>
+        <extracomment>application/x-java-jnilib</extracomment>
+        <translation>Fayiro ekwataganya Java ne puloguramu en&apos;eyazike eza ku sisitemu eya OSX</translation>
+    </message>
+    <message>
+        <source>Java hprof text file</source>
+        <extracomment>application/vnd.java.hprof 
+----------
+application/vnd.java.hprof.text</extracomment>
+        <translation>Fayiro ey&apos;ebigambo Java by&apos;eteeka mu ggwanika ly&apos;entuumo</translation>
+    </message>
+    <message>
+        <source>Wolfram Mathematica</source>
+        <extracomment>application/mathematica</extracomment>
+        <translation>Fayiro eya mu Wolfram Mathematica</translation>
+    </message>
+    <message>
+        <source>Wolfram Language</source>
+        <extracomment>application/vnd.wolfram.wl</extracomment>
+        <translation>Fayiro ey&apos;ebya mu lulimi lwa komputa Wolfram</translation>
+    </message>
+    <message>
+        <source>Adobe MIF File</source>
+        <extracomment>application/vnd.mif</extracomment>
+        <translation>Fayiro eya mu lulimi lwa puloguramu Adobe FrameMaker</translation>
+    </message>
+    <message>
+        <source>QuickTime container format</source>
+        <extracomment>application/quicktime</extracomment>
+        <translation>Fayiro ey&apos;ekika kya Quicktime</translation>
+    </message>
+    <message>
+        <source>MP4 container format</source>
+        <extracomment>application/mp4</extracomment>
+        <translation>Fayiro ey&apos;ekika kya MP4</translation>
+    </message>
+    <message>
+        <source>Microsoft Word Document</source>
+        <extracomment>application/msword</extracomment>
+        <translation>Fayiro eya Word owa Microsoft</translation>
+    </message>
+    <message>
+        <source>Microsoft Word 2 Document</source>
+        <extracomment>application/msword2</extracomment>
+        <translation>Fayiro eya Word 2 owa Microsoft</translation>
+    </message>
+    <message>
+        <source>Microsoft Word 5 Document</source>
+        <extracomment>application/msword5</extracomment>
+        <translation>Fayiro eya Word 5 owa Microsoft</translation>
+    </message>
+    <message>
+        <source>OneNote Package</source>
+        <extracomment>application/onenote; format=package</extracomment>
+        <translation>Kisibe kya fayiro eza mu OneNote</translation>
+    </message>
+    <message>
+        <source>Portable Document Format</source>
+        <extracomment>application/pdf</extracomment>
+        <translation>Fayiro eya mu mpandika ey&apos;obulambe bw&apos;ekiwandike etegeereka ku sisitemu ez&apos;ebika ebisoba mu kimu</translation>
+    </message>
+    <message>
+        <source>PostScript</source>
+        <extracomment>application/postscript</extracomment>
+        <translation>Fayiro ey&apos;ekika kya PostScript</translation>
+    </message>
+    <message>
+        <source>Excel 2003 xml format, pre-ooxml</source>
+        <extracomment>application/vnd.ms-spreadsheetml</extracomment>
+        <translation>Fayiro eya mu mpandika ya xml wa Excel 2003, eyasookawo ooxml</translation>
+    </message>
+    <message>
+        <source>Word 2003 xml format, pre-ooxml</source>
+        <extracomment>application/vnd.ms-wordml</extracomment>
+        <translation>Fayiro eya mu mpandika ya xml wa Word 2003, eyasookawo ooxml</translation>
+    </message>
+    <message>
+        <source>Word 2006 xml format, pre-ooxml</source>
+        <extracomment>application/vnd.ms-word2006ml</extracomment>
+        <translation>Fayiro eya mu mpandika ya xml wa Word 2006, eyasookawo ooxml</translation>
+    </message>
+    <message>
+        <source>XML syntax for RDF graphs</source>
+        <extracomment>application/rdf+xml</extracomment>
+        <translation>Fayiro egoberera mateeka ag&apos;empandika ya XML ow&apos;okukuba maapu ez&apos;enkwatagana z&apos;ebifunibwa</translation>
+    </message>
+    <message>
+        <source>Rich Text Format File</source>
+        <extracomment>application/rtf</extracomment>
+        <translation>Fayiro ey&apos;ebigambo omuli n&apos;ebiragiro ebifuga endabika ya byo - RTF</translation>
+    </message>
+    <message>
+        <source>Sereal binary serialization format</source>
+        <extracomment>application/sereal</extracomment>
+        <translation>Ekiwandike ekivudde mu kuvungisa data ezikwataganizidwa</translation>
+    </message>
+    <message>
+        <source>SMIL Multimedia</source>
+        <extracomment>application/smil+xml</extracomment>
+        <translation>Fayiro eya mu mpandika eluŋamya enjolesa mediya ey&apos;ekintabuli</translation>
+    </message>
+    <message>
+        <source>SolidWorks CAD program</source>
+        <extracomment>application/sldworks</extracomment>
+        <translation>Puloguramu eya mu CAD owa SolidWorks</translation>
+    </message>
+    <message>
+        <source>Password Protected iWorks File</source>
+        <extracomment>application/x-tika-iworks-protected</extracomment>
+        <translation>Fayiro eya mu iWorks ebikkulibwa n&apos;akasumuluo</translation>
+    </message>
+    <message>
+        <source>web archive frictionless zip</source>
+        <extracomment>application/x-wacz</extracomment>
+        <translation>ekiwanike kya fayiro ez&apos;oku mutimbagano ekipakizisidwa zip ku mutindo gwa Frictionless</translation>
+    </message>
+    <message>
+        <source>frictionless data package zip package</source>
+        <extracomment>application/x-vnd.datapackage+zip</extracomment>
+        <translation>kisibe kya data ekya zip ekigoberera emitindo gya ba Frictionless</translation>
+    </message>
+    <message>
+        <source>frictionless data package - standalong datapackage.json</source>
+        <extracomment>application/x-vnd.datapackage+json</extracomment>
+        <translation>kisibe kya data ekya json ekigoberera emitindo gya be Frictionless</translation>
+    </message>
+    <message>
+        <source>frictionless data package - gzip of standalone datapackage.json</source>
+        <extracomment>application/x-vnd.datapackage+gz</extracomment>
+        <translation>kisibe kya data ekya json ekigoberera emitindo gya ba Frictionless ekipakidwa mu nkola ya gzip</translation>
+    </message>
+    <message>
+        <source>digilite.eu Prolights configuration file</source>
+        <extracomment>application/vnd.digilite.prolights</extracomment>
+        <translation>fayiro ey&apos;enteekateeka za sofutiweya owa digilite.eu Prolights</translation>
+    </message>
+    <message>
+        <source>Extended Associated Signature Container</source>
+        <extracomment>application/vnd.etsi.asic-e+zip</extracomment>
+        <translation>Kisibe ky&apos;ebyetongole bya data n&apos;emikono gya ku kompyuta egibikakasa</translation>
+    </message>
+    <message>
+        <source>Simple Associated Signature Container</source>
+        <extracomment>application/vnd.etsi.asic-s+zip</extracomment>
+        <translation>Kisibe ky&apos;ekyetongole kya data kimu n&apos;omukono gwa ku kompyuta ogukikakasa</translation>
+    </message>
+    <message>
+        <source>Forms Data Format</source>
+        <extracomment>application/vnd.fdf</extracomment>
+        <translation>Ebiragiro ebikolawo n&apos;okujjuza ekiwandike ekya foomu</translation>
+    </message>
+    <message>
+        <source>Keyhole Markup Language</source>
+        <extracomment>application/vnd.google-earth.kml+xml</extracomment>
+        <translation>Empandika efuga enjolesa y&apos;ebiwandiko ey&apos;ekika kye Keyhole</translation>
+    </message>
+    <message>
+        <source>XML syntax for IPTC NewsMessages</source>
+        <extracomment>application/vnd.iptc.g2.newsmessage+xml</extracomment>
+        <translation>Ebigoberera mateeka ga ba IPTC ag&apos;empandika ya XML owa mu biwandike bya mawulire</translation>
+    </message>
+    <message>
+        <source>KChart File</source>
+        <extracomment>application/vnd.kde.kchart</extracomment>
+        <translation>Fayiro ya mu KChart</translation>
+    </message>
+    <message>
+        <source>KPresenter File</source>
+        <extracomment>application/vnd.kde.kpresenter</extracomment>
+        <translation>Fayiro ya mu KPresenter</translation>
+    </message>
+    <message>
+        <source>KSpread File</source>
+        <extracomment>application/vnd.kde.kspread</extracomment>
+        <translation>Fayiro ya mu KSpread</translation>
+    </message>
+    <message>
+        <source>KWord File</source>
+        <extracomment>application/vnd.kde.kword</extracomment>
+        <translation>Fayiro ya mu KWord</translation>
+    </message>
+    <message>
+        <source>SSEYO Koan File</source>
+        <extracomment>application/vnd.koan</extracomment>
+        <translation>Fayiro ya mu Koan</translation>
+    </message>
+    <message>
+        <source>Lotus 1-2-3</source>
+        <extracomment>application/vnd.lotus-1-2-3</extracomment>
+        <translation>Fayiro ya mu Lotus-1-2-3</translation>
+    </message>
+    <message>
+        <source>Lotus 1-2-3, version 1</source>
+        <extracomment>application/vnd.lotus-1-2-3;version=1</extracomment>
+        <translation>Fayiro ya mu Lotus-1-2-3, ow&apos;oluwandika 1</translation>
+    </message>
+    <message>
+        <source>Lotus 1-2-3, version 2</source>
+        <extracomment>application/vnd.lotus-1-2-3;version=2</extracomment>
+        <translation>Fayiro ya mu Lotus-1-2-3, ow&apos;oluwandika 2</translation>
+    </message>
+    <message>
+        <source>Lotus 1-2-3, version 3</source>
+        <extracomment>application/vnd.lotus-1-2-3;version=3</extracomment>
+        <translation>Fayiro ya mu Lotus-1-2-3, ow&apos;oluwandika 3</translation>
+    </message>
+    <message>
+        <source>Lotus 1-2-3, version 4-5</source>
+        <extracomment>application/vnd.lotus-1-2-3;version=4</extracomment>
+        <translation>Fayiro ya mu Lotus-1-2-3, ow&apos;empandika 4 ne 5</translation>
+    </message>
+    <message>
+        <source>Lotus 1-2-3, version 97/9.x</source>
+        <extracomment>application/vnd.lotus-1-2-3;version=97+9.x</extracomment>
+        <translation>Fayiro ya mu Lotus-1-2-3, ow&apos;empandika 97 ne 9.x</translation>
+    </message>
+    <message>
+        <source>FrameMaker Interchange Format</source>
+        <extracomment>application/vnd.mif</extracomment>
+        <translation>Ebiri mu mpandika ya fayiro eza Adobe FrameMaker ezikozesebwa ne puloguramu endala</translation>
+    </message>
+    <message>
+        <source>MindManager</source>
+        <extracomment>application/vnd.mindjet.mindmanager</extracomment>
+        <translation>Fayiro ya mu MindManager</translation>
+    </message>
+    <message>
+        <source>Microsoft Excel Spreadsheet</source>
+        <extracomment>application/vnd.ms-excel</extracomment>
+        <translation>Empapula ez&apos;okubalirira eza mu Microsoft Excel</translation>
+    </message>
+    <message>
+        <source>Office Open XML Workbook Add-in (macro-enabled)</source>
+        <extracomment>application/vnd.ms-excel.addin.macroenabled.12</extracomment>
+        <translation>Kyongerwako kya fayiro ya mpapula ez&apos;okubalirira eziwandikidwa mu XML owa Office Open (mulimu ne makuro)</translation>
+    </message>
+    <message>
+        <source>Office Open XML Workbook (macro-enabled)</source>
+        <extracomment>application/vnd.ms-excel.sheet.macroenabled.12</extracomment>
+        <translation>Fayiro ya mpapula ez&apos;okubalirira eziwandikidwa mu XML owa Office Open (mulimu ne makuro)</translation>
+    </message>
+    <message>
+        <source>Microsoft Excel 2007 Binary Spreadsheet</source>
+        <extracomment>application/vnd.ms-excel.sheet.binary.macroenabled.12</extracomment>
+        <translation>Mpapula za kubalirira eza mu Microsoft Excel 2007 nga kiwandike kya mu binariyo</translation>
+    </message>
+    <message>
+        <source>Microsoft Excel 4 Worksheet</source>
+        <extracomment>application/vnd.ms-excel.sheet.4</extracomment>
+        <translation>Lupapula lwa kubalirira lwa mu Microsoft Excel 4</translation>
+    </message>
+    <message>
+        <source>Microsoft Excel 4 Workspace</source>
+        <extracomment>application/vnd.ms-excel.workspace.4</extracomment>
+        <translation>Enteekateeka z&apos;awakolerwako mpapula ez&apos;okubalirira eza mu Microsoft Excel 4</translation>
+    </message>
+    <message>
+        <source>Microsoft Excel 3 Worksheet</source>
+        <extracomment>application/vnd.ms-excel.sheet.3</extracomment>
+        <translation>Lupapula lwa kubalirira lwa mu Microsoft Excel 3</translation>
+    </message>
+    <message>
+        <source>Microsoft Excel 3 Workspace</source>
+        <extracomment>application/vnd.ms-excel.workspace.3</extracomment>
+        <translation>Enteekateeka z&apos;awakolerwako mpapula ez&apos;okubalirira eza mu Microsoft Excel 3</translation>
+    </message>
+    <message>
+        <source>Microsoft Excel 2 Worksheet</source>
+        <extracomment>application/vnd.ms-excel.sheet.2</extracomment>
+        <translation>Lupapula lwa kubalirira lwa mu Microsoft Excel 2</translation>
+    </message>
+    <message>
+        <source>Microsoft Outlook Message</source>
+        <extracomment>application/vnd.ms-outlook</extracomment>
+        <translation>Bubaka bwa mu Microsoft Outlook</translation>
+    </message>
+    <message>
+        <source>Outlook Personal Folders File Format</source>
+        <extracomment>application/vnd.ms-outlook-pst</extracomment>
+        <translation>Ebiri mu mpandika ya mu materekero g&apos;obwa nannyini aga mu Outlook</translation>
+    </message>
+    <message>
+        <source>3D manufacturing format</source>
+        <extracomment>application/vnd.ms-package.3dmanufacturing-3dmodel+xml</extracomment>
+        <translation>Fayiro ey&apos;ekika kya 3MF eya mu pulinta eziweesa</translation>
+    </message>
+    <message>
+        <source>Microsoft Powerpoint Presentation</source>
+        <extracomment>application/vnd.ms-powerpoint</extracomment>
+        <translation>Mwoleso gwa Microsoft Powerpoint</translation>
+    </message>
+    <message>
+        <source>Office Open XML Presentation Add-in (macro-enabled)</source>
+        <extracomment>application/vnd.ms-powerpoint.addin.macroenabled.12</extracomment>
+        <translation>Kyongerwako kya mwoleso oguwandikidwa mu XML owa Office Open (mulimu ne makuro)</translation>
+    </message>
+    <message>
+        <source>Office Open XML Presentation (macro-enabled)</source>
+        <extracomment>application/vnd.ms-powerpoint.presentation.macroenabled.12</extracomment>
+        <translation>Mwoleso oguwandikidwa mu XML owa Office Open (mulimu ne makuro)</translation>
+    </message>
+    <message>
+        <source>Office Open XML Presentation Slideshow (macro-enabled)</source>
+        <extracomment>application/vnd.ms-powerpoint.slideshow.macroenabled.12</extracomment>
+        <translation>Mwoleso oguwandikidwa mu XML owa Office Open (mulimu ne makuro)</translation>
+    </message>
+    <message>
+        <source>Office Open XML Document (macro-enabled)</source>
+        <extracomment>application/vnd.ms-word.document.macroenabled.12</extracomment>
+        <translation>Kiwandike kya mu mpandika ya XML owa Office Open (mulimu ne makuro)</translation>
+    </message>
+    <message>
+        <source>Office Open XML Document Template (macro-enabled)</source>
+        <extracomment>application/vnd.ms-word.template.macroenabled.12</extracomment>
+        <translation>Lutiba lwa kiwandike kya mu mpandika ya XML owa Office Open (mulimu ne makuro)</translation>
+    </message>
+    <message>
+        <source>Open XML Paper Specification</source>
+        <extracomment>application/vnd.ms-xpsdocument</extracomment>
+        <translation>Ebiri mu mpandika ya XML omuli n&apos;ebiragiro bya pulinta</translation>
+    </message>
+    <message>
+        <source>Magic Shadow Archiver</source>
+        <extracomment>application/vnd.msa-disk-image</extracomment>
+        <translation>Koppi y&apos;ebiri ku kitereka data mu mpandika ya Magic Shadow Archiver</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Chart document</source>
+        <extracomment>application/vnd.oasis.opendocument.chart</extracomment>
+        <translation>OpenDocument v1.0: Kiwandike kya caati</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Chart document used as template</source>
+        <extracomment>application/vnd.oasis.opendocument.chart-template</extracomment>
+        <translation>OpenDocument v1.0: Lutiba lwa kiwandike kya caati</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Formula document</source>
+        <extracomment>application/vnd.oasis.opendocument.formula</extracomment>
+        <translation>OpenDocument v1.0: Kiwandike kya kyenkanankano</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Formula document used as template</source>
+        <extracomment>application/vnd.oasis.opendocument.formula-template</extracomment>
+        <translation>OpenDocument v1.0: Lutiba lwa kiwandike kya kyenkanankano</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Graphics document (Drawing)</source>
+        <extracomment>application/vnd.oasis.opendocument.graphics</extracomment>
+        <translation>OpenDocument v1.0: Kiwandike ky&apos;ebirabwa (Kifaananyi kya mukono)</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Graphics document used as template</source>
+        <extracomment>application/vnd.oasis.opendocument.graphics-template</extracomment>
+        <translation>OpenDocument v1.0: Lutiba lwa kiwandike ky&apos;ebirabwa</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Image document</source>
+        <extracomment>application/vnd.oasis.opendocument.image</extracomment>
+        <translation>OpenDocument v1.0: Kiwandike kya kifaananyi</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Image document used as template</source>
+        <extracomment>application/vnd.oasis.opendocument.image-template</extracomment>
+        <translation>OpenDocument v1.0: Lutiba lwa kiwandike kya kifaananyi</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Presentation document</source>
+        <extracomment>application/vnd.oasis.opendocument.presentation</extracomment>
+        <translation>OpenDocument v1.0: Kiwandike kya mwoleso</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Presentation document used as template</source>
+        <extracomment>application/vnd.oasis.opendocument.presentation-template</extracomment>
+        <translation>OpenDocument v1.0: Lutiba lwa kiwandike kya mwoleso</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Spreadsheet document</source>
+        <extracomment>application/vnd.oasis.opendocument.spreadsheet</extracomment>
+        <translation>OpenDocument v1.0: Kiwandike kya mpapula ez&apos;okubalirira</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Spreadsheet document used as template</source>
+        <extracomment>application/vnd.oasis.opendocument.spreadsheet-template</extracomment>
+        <translation>OpenDocument v1.0: Lutiba lwa kiwandike kya mpapula ez&apos;okubalirira</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Text document</source>
+        <extracomment>application/vnd.oasis.opendocument.text</extracomment>
+        <translation>OpenDocument v1.0: Kiwandike ky&apos;ebigambo</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Flat Text document</source>
+        <extracomment>application/vnd.oasis.opendocument.tika.flat.document
+----------
+application/vnd.oasis.opendocument.flat.text</extracomment>
+        <translation>OpenDocument v1.0: Kiwandike ky&apos;ebigambo omutali biragiro bikikolako</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Flat Presentation document</source>
+        <extracomment>application/vnd.oasis.opendocument.flat.presentation</extracomment>
+        <translation>OpenDocument v1.0: Kiwandike kya mwoleso omutali biragiro bikikolako</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Flat Spreadsheet document</source>
+        <extracomment>application/vnd.oasis.opendocument.flat.spreadsheet</extracomment>
+        <translation>OpenDocument v1.0: Kiwandike kya mpapula ez&apos;okubalirira omutali biragiro bikikolako</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Global Text document</source>
+        <extracomment>application/vnd.oasis.opendocument.text-master</extracomment>
+        <translation>OpenDocument v1.0: Kiwandike kya mu mpandika ya ba Global Text</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Text document used as template</source>
+        <extracomment>application/vnd.oasis.opendocument.text-template</extracomment>
+        <translation>OpenDocument v1.0: Lutiba lwa kiwandike ky&apos;ebigambo</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Text document used as template for HTML documents</source>
+        <extracomment>application/vnd.oasis.opendocument.text-web</extracomment>
+        <translation>OpenDocument v1.0: Kiwandike ky&apos;ebigambo ekikozesebwa nga olutiba lw&apos;ebiwandike bya mu HTML</translation>
+    </message>
+    <message>
+        <source>Office Open XML Presentation</source>
+        <extracomment>application/vnd.openxmlformats-officedocument.presentationml.presentation</extracomment>
+        <translation>Mwoleso mu XML owa Office Open</translation>
+    </message>
+    <message>
+        <source>Office Open XML Presentation Template</source>
+        <extracomment>application/vnd.openxmlformats-officedocument.presentationml.template</extracomment>
+        <translation>Lutiba lwa mwoleso mu XML owa Office Open</translation>
+    </message>
+    <message>
+        <source>Office Open XML Presentation Slideshow</source>
+        <extracomment>application/vnd.openxmlformats-officedocument.presentationml.slideshow</extracomment>
+        <translation>Mwoleso mu XML owa Office Open</translation>
+    </message>
+    <message>
+        <source>Office Open XML Workbook</source>
+        <extracomment>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</extracomment>
+        <translation>Fayiro ya mpapula ez&apos;okubalirira eziwandikidwa mu XML owa Office Open</translation>
+    </message>
+    <message>
+        <source>Office Open XML Workbook Template</source>
+        <extracomment>application/vnd.openxmlformats-officedocument.spreadsheetml.template</extracomment>
+        <translation>Lutiba lwa mpapula ez&apos;okubalirira eziwandikidwa mu XML owa Office Open</translation>
+    </message>
+    <message>
+        <source>Office Open XML Workbook Template (macro-enabled)</source>
+        <extracomment>application/vnd.ms-excel.template.macroenabled.12</extracomment>
+        <translation>Lutiba lwa mpapula ez&apos;okubalirira eziwandikidwa mu XML owa Office Open (mulimu ne makuro)</translation>
+    </message>
+    <message>
+        <source>Office Open XML Document</source>
+        <extracomment>application/vnd.openxmlformats-officedocument.wordprocessingml.document</extracomment>
+        <translation>Kiwandike kya mu mpandika ya XML owa Office Open</translation>
+    </message>
+    <message>
+        <source>Office Open XML Document Template</source>
+        <extracomment>application/vnd.openxmlformats-officedocument.wordprocessingml.template</extracomment>
+        <translation>Lutiba lwa kiwandike kya mu mpandika ya XML owa Office Open</translation>
+    </message>
+    <message>
+        <source>SubRip (srt) subtitles</source>
+        <extracomment>application/x-subrip</extracomment>
+        <translation>Fayiro ey&apos;ebigambo ebiragibwa ku vidiyo eya mu mpandika ya SubRip (srt)</translation>
+    </message>
+    <message>
+        <source>OpenOffice v1.0: Writer Document</source>
+        <extracomment>application/vnd.sun.xml.writer</extracomment>
+        <translation>OpenOffice v1: Kiwandike kya Writer</translation>
+    </message>
+    <message>
+        <source>TCPDump pcap packet capture</source>
+        <extracomment>application/vnd.tcpdump.pcap</extracomment>
+        <translation>Fayiro ya paketi ezikwatidwa tcpdump</translation>
+    </message>
+    <message>
+        <source>TCPDump next gen pcap packet capture</source>
+        <extracomment>application/vnd.tcpdump.pcapng</extracomment>
+        <translation>Fayiro ya paketi tcpdump z&apos;ekwatide mu mpandika empya</translation>
+    </message>
+    <message>
+        <source>TMX Translation Memory</source>
+        <extracomment>application/x-tmx</extracomment>
+        <translation>Lukalala lw&apos;ebikyusidwa olw&apos;ekika kya TMX</translation>
+    </message>
+    <message>
+        <source>Microsoft Visio Diagram</source>
+        <extracomment>application/vnd.visio</extracomment>
+        <translation>Diaguramu ya mu Visio owa Microsoft</translation>
+    </message>
+    <message>
+        <source>Office Open XML Visio Drawing (macro-free)</source>
+        <extracomment>application/vnd.ms-visio.drawing</extracomment>
+        <translation>Kifaananyi (omutali makuro) kya mu Visio mu XML owa Office Open</translation>
+    </message>
+    <message>
+        <source>Office Open XML Visio Template (macro-free)</source>
+        <extracomment>application/vnd.ms-visio.template</extracomment>
+        <translation>Lutiba lwa kifaananyi (omutali makuro) kya mu Visio mu XML owa Office Open</translation>
+    </message>
+    <message>
+        <source>Office Open XML Visio Stencil (macro-free)</source>
+        <extracomment>application/vnd.ms-visio.stencil</extracomment>
+        <translation>Kifaananyi ekigobererwa (omutali makuro) kya mu Visio mu XML owa Office Open</translation>
+    </message>
+    <message>
+        <source>Office Open XML Visio Drawing (macro-enabled)</source>
+        <extracomment>application/vnd.ms-visio.drawing.macroEnabled.12</extracomment>
+        <translation>Kifaananyi (ekirimu makuro) kya mu Visio mu XML owa Office Open</translation>
+    </message>
+    <message>
+        <source>Office Open XML Visio Template (macro-enabled)</source>
+        <extracomment>application/vnd.ms-visio.template.macroEnabled.12</extracomment>
+        <translation>Lutiba lwa kifaananyi (olulimu makuro) kya mu Visio mu XML owa Office Open</translation>
+    </message>
+    <message>
+        <source>Office Open XML Visio Stencil (macro-enabled)</source>
+        <extracomment>application/vnd.ms-visio.stencil.macroEnabled.12</extracomment>
+        <translation>Kifaananyi ekigobererwa (ekirimu makuro) kya mu Visio mu XML owa Office Open</translation>
+    </message>
+    <message>
+        <source>Compiled WML Document</source>
+        <extracomment>application/vnd.wap.wmlc</extracomment>
+        <translation>Ekiwandike kya mu WML ekikuŋŋaanye</translation>
+    </message>
+    <message>
+        <source>Compiled WML Script</source>
+        <extracomment>application/vnd.wap.wmlscriptc</extracomment>
+        <translation>Fayiro y&apos;ebiragiro ebya mu WML enkuŋŋaanye</translation>
+    </message>
+    <message>
+        <source>WordPerfect - Corel Word Processing</source>
+        <extracomment>application/vnd.wordperfect</extracomment>
+        <translation>Kiwandike kya WordPerfect</translation>
+    </message>
+    <message>
+        <source>WARC</source>
+        <extracomment>application/warc
+----------
+application/warc+gz</extracomment>
+        <translation>WARC</translation>
+    </message>
+    <message>
+        <source>Web Assembly</source>
+        <extracomment>application/wasm</extracomment>
+        <translation>Biragiro bya mu Webasembule</translation>
+    </message>
+    <message>
+        <source>Targa image data</source>
+        <extracomment>image/x-tga</extracomment>
+        <translation>Kifaananyi kya kika kya Targa</translation>
+    </message>
+    <message>
+        <source>AxCrypt</source>
+        <extracomment>application/x-axcrypt</extracomment>
+        <translation>Fayiro ekisawazidwa AxCrypt</translation>
+    </message>
+    <message>
+        <source>Adobe InDesign document</source>
+        <extracomment>application/x-adobe-indesign</extracomment>
+        <translatorcomment></translatorcomment>
+        <translation>Kiwandike kya mu Adobe Indesign</translation>
+    </message>
+    <message>
+        <source>Flow Cytometry Standard File</source>
+        <extracomment>application/vnd.isac.fcs</extracomment>
+        <translation>Fayiro egoberera omutindo ogw&apos;eby&apos;okupima bya butofaali</translation>
+    </message>
+    <message>
+        <source>IDML</source>
+        <extracomment>application/vnd.adobe.indesign-idml-package</extracomment>
+        <translation>Kisibe kya mu IDML</translation>
+    </message>
+    <message>
+        <source>Adobe InDesign Interchange format</source>
+        <extracomment>application/x-adobe-indesign-interchange</extracomment>
+        <translation>Fayiro ya mu Adobe InDesign tabamitindo</translation>
+    </message>
+    <message>
+        <source>ASPRS Lidar Data Exchange Format</source>
+        <extracomment>application/x-asprs</extracomment>
+        <translation>Fayiro ey&apos;ebipimidwa LiDAR mu mpandika ya ASPRS</translation>
+    </message>
+    <message>
+        <source>Berkeley DB</source>
+        <extracomment>application/x-berkeley-db</extracomment>
+        <translation>Ggwanika lya data lya kika kya Berkeley</translation>
+    </message>
+    <message>
+        <source>CD Audio</source>
+        <extracomment>application/x-cdf</extracomment>
+        <translation>Siddi ey&apos;ebiwulirizibwa</translation>
+    </message>
+    <message>
+        <source>GNU tar Compressed File Archive (GNU Tape Archive)</source>
+        <extracomment>application/x-gtar</extracomment>
+        <translatorcomment></translatorcomment>
+        <translation>Fayiro empakire mu kiwanike eky&apos;ekika ya GNU tar (GNU Tape ARchive)</translation>
+    </message>
+    <message>
+        <source>Guitar Pro</source>
+        <extracomment>application/x-guitar-pro</extracomment>
+        <translation>Fayiro eya mu Guitar Pro</translation>
+    </message>
+    <message>
+        <source>Amiga Disk File</source>
+        <extracomment>application/x-amiga-disk-format</extracomment>
+        <translation>Fayiro koppi ya disiki eya Amiga</translation>
+    </message>
+    <message>
+        <source>Bzip 2 UNIX Compressed File</source>
+        <extracomment>application/x-bzip2</extracomment>
+        <translation>Fayiro eya ku UNIX epakizisidwa enkola ya Bzip 2</translation>
+    </message>
+    <message>
+        <source>Virtual CD-ROM CD Image File</source>
+        <extracomment>application/x-cdlink</extracomment>
+        <translation>Fayiro koppi ya CD ekoledwa Virtual CD-ROM</translation>
+    </message>
+    <message>
+        <source>Chrome Extension Package</source>
+        <extracomment>application/x-chrome-package</extracomment>
+        <translation>Kisibe kya byongerwako bya Chrome</translation>
+    </message>
+    <message>
+        <source>UNIX CPIO Archive</source>
+        <extracomment>application/x-cpio</extracomment>
+        <translation>Kiwanike kya kika kya CPIO ekya ku UNIX</translation>
+    </message>
+    <message>
+        <source>Dalvik Executable Format</source>
+        <extracomment>application/x-dex</extracomment>
+        <translation>Ebiri mu mpandika ya puloguramu ez&apos;oku Dalvik</translation>
+    </message>
+    <message>
+        <source>Shockwave Movie</source>
+        <extracomment>application/x-director</extracomment>
+        <translation>Vidiyo ya kika kya Shockwave</translation>
+    </message>
+    <message>
+        <source>TeX Device Independent Document</source>
+        <extracomment>application/x-dvi</extracomment>
+        <translation>Kiwandike kya TeX kimutaboolakyuma</translation>
+    </message>
+    <message>
+        <source>Emacs Lisp bytecode</source>
+        <extracomment>application/x-elc</extracomment>
+        <translation>Bayiti ez&apos;ebiragiro ebya mu Lisp owa Emacs</translation>
+    </message>
+    <message>
+        <source>fat disk image; extensions: ima, img, dsk</source>
+        <extracomment>application/x-fat-diskimage</extracomment>
+        <translation>koppi ya disiki eyeyambisa endagiriro ey&apos;ekika kya FAT; zifundikirwa: ima, img, dsk</translation>
+    </message>
+    <message>
+        <source>KIllustrator File</source>
+        <extracomment>application/x-killustrator</extracomment>
+        <translation>Fayiro ya Killustrator</translation>
+    </message>
+    <message>
+        <source>Modified Maximum Method Digisonde Portable Sounder File format</source>
+        <extracomment>application/x-mmm-digisonde</extracomment>
+        <translation>Fayiro ey&apos;ebipimidwa Digisonde ey&apos;enkola esigazako ebipimo ebisingamu obunene</translation>
+    </message>
+    <message>
+        <source>DOS/Windows executable (EXE)</source>
+        <extracomment>application/x-dosexec</extracomment>
+        <translation>Puloguramu eya ku DOS/Windowa (EXE)</translation>
+    </message>
+    <message>
+        <source>FileMaker Pro 7</source>
+        <extracomment>application/x-filemaker</extracomment>
+        <translation>Fayiro eya mu FileMaker Pro 7</translation>
+    </message>
+    <message>
+        <source>OpenType Font</source>
+        <extracomment>application/x-font-otf</extracomment>
+        <translation>Fayiro ey&apos;akabonero ak&apos;olulyo lw&apos;enkula Open Type</translation>
+    </message>
+    <message>
+        <source>TrueType Font</source>
+        <extracomment>application/x-font-ttf</extracomment>
+        <translation>Fayiro ey&apos;akabonero ak&apos;olulyo lw&apos;enkula TrueType</translation>
+    </message>
+    <message>
+        <source>Adobe Font Metric</source>
+        <extracomment>application/x-font-adobe-metric</extracomment>
+        <translation>Bipimo by&apos;akabonero mu lulyo lw&apos;enkula Adobe</translation>
+    </message>
+    <message>
+        <source>Printer Font Metric</source>
+        <extracomment>application/x-font-printer-metric</extracomment>
+        <translation>Bipimo by&apos;akabonero mu lulyo lw&apos;enkula Printer</translation>
+    </message>
+    <message>
+        <source>Foxmail Email File</source>
+        <extracomment>application/x-foxmail</extracomment>
+        <translation>Fayiro ya yimeero eya mu Foxmail</translation>
+    </message>
+    <message>
+        <source>Macromedia FutureSplash File</source>
+        <extracomment>application/x-futuresplash</extracomment>
+        <translation>Fayiro ya mu Macromedia FutureSplash</translation>
+    </message>
+    <message>
+        <source>General Regularly-distributed Information in Binary form</source>
+        <extracomment>application/x-grib</extracomment>
+        <translation>Embuulire mu binariyo ey&apos;okusaasaanyizibwa ekwata ku by&apos;embeera y&apos;obudde</translation>
+    </message>
+    <message>
+        <source>Gzip Compressed Archive</source>
+        <extracomment>application/gzip</extracomment>
+        <translation>Kiwanike ekipakizisidwa Gzip</translation>
+    </message>
+    <message>
+        <source>https://en.wikipedia.org/wiki/Zstandard</source>
+        <extracomment>application/zstd</extracomment>
+        <translation>https://en.wikipedia.org/wiki/Zstandard</translation>
+    </message>
+    <message>
+        <source>ESRI Layer file</source>
+        <extracomment>application/x-esri-layer</extracomment>
+        <translation>Fayiro ey&apos;ettuluba ly&apos;ebiragibwa ku mapu ey&apos;enkola ya ESRI</translation>
+    </message>
+    <message>
+        <source>Hierarchical Data Format File</source>
+        <extracomment>application/x-hdf</extracomment>
+        <translation>Fayiro eraga enkwatagana ya data egirimu</translation>
+    </message>
+    <message>
+        <source>Hangul Word Processor File</source>
+        <extracomment>application/x-hwp</extracomment>
+        <translation>Fayiro eya mu Hangul Word Processor</translation>
+    </message>
+    <message>
+        <source>Hangul Word Processor File v5</source>
+        <extracomment>application/x-hwp-v5</extracomment>
+        <translation>Fayiro eya mu Hangul Word Processor v5</translation>
+    </message>
+    <message>
+        <source>Hangul Word Processor File, zip based</source>
+        <extracomment>application/hwp+zip</extracomment>
+        <translation>Fayiro eya mu Hangul Word Processor, mpakire mu nkola ya zip</translation>
+    </message>
+    <message>
+        <source>Apple iBooks Author publication format</source>
+        <extracomment>application/x-ibooks+zip</extracomment>
+        <translation>Ebiri mu mpandika y&apos;ebifulumizibwa Apple iBooks Author</translation>
+    </message>
+    <message>
+        <source>NV5 Geospatial Interactive Data Language Save File</source>
+        <extracomment>application/x-idl-save-file</extracomment>
+        <translation>Fayiro ey&apos;ekika kya SAVE omuli eby&apos;olulimi lwa kompyuta IDL olwa ba NV5 Geospatial</translation>
+    </message>
+    <message>
+        <source>ARC</source>
+        <extracomment>application/x-internet-archive</extracomment>
+        <translation>Fayiro empakire epakizisidwa enkola ya ARC</translation>
+    </message>
+    <message>
+        <source>ISA-Tab Investigation file</source>
+        <extracomment>application/x-isatab-investigation</extracomment>
+        <translation>Fayiro ey&apos;ekika kya ISA-Tab omuli ebifa ku kunoonyereza</translation>
+    </message>
+    <message>
+        <source>ISA-Tab Study file</source>
+        <extracomment>application/x-isatab</extracomment>
+        <translation>Fayiro ey&apos;ekika kya ISA-Tab omuli ebifa ku kwekkenneenya</translation>
+    </message>
+    <message>
+        <source>ISA-Tab Assay file</source>
+        <extracomment>application/x-isatab-assay</extracomment>
+        <translation>Fayiro ey&apos;ekika kya ISA-Tab omuli ebifa ku kugera</translation>
+    </message>
+    <message>
+        <source>ISO 9660 CD-ROM filesystem data</source>
+        <extracomment>application/x-iso9660-image</extracomment>
+        <translation>Fayiro koppi ya CD ey&apos;enteekateeka ya ISO 9660</translation>
+    </message>
+    <message>
+        <source>Apple iTunes Binary Property List</source>
+        <extracomment>application/x-itunes-bplist</extracomment>
+        <translation>Lukalala lwa byabutonde bya ku Apple iTunes olwa mu binariyo</translation>
+    </message>
+    <message>
+        <source>Apple iOS IPA AppStore file</source>
+        <extracomment>application/x-itunes-ipa</extracomment>
+        <translation>Kipakire kya puloguramu eya ku Apple iOS</translation>
+    </message>
+    <message>
+        <source>JDF NMR Spectroscopy</source>
+        <extracomment>application/x-jeol-jdf</extracomment>
+        <translation>Fayiro ey&apos;ekika kya JDF omuli ebikwatidwa ekyuma ekikolawo ensokesoke eziva mu kukolagana kwa nukuleo ne magineti</translation>
+    </message>
+    <message>
+        <source>Jigsaw Download</source>
+        <extracomment>application/x-jigdo</extracomment>
+        <translation>Fayiro ey&apos;ebiwanulibwa Jigsaw</translation>
+    </message>
+    <message>
+        <source>LaTeX Source Document</source>
+        <extracomment>application/x-latex</extracomment>
+        <translation>Fairo ey&apos;obulambe bw&apos;ekiwandike kya mu LaTeX</translation>
+    </message>
+    <message>
+        <source>First match LZ4 Frame</source>
+        <extracomment>application/x-lz4</extracomment>
+        <translation>Fayiro epakizisidwa enkola ya LZ4</translation>
+    </message>
+    <message>
+        <source>Lzip (LZMA) compressed archive</source>
+        <extracomment>application/x-lzip</extracomment>
+        <translation>Kiwanike ekipakizisidwa Lzip (LZMA)</translation>
+    </message>
+    <message>
+        <source>LZMA compressed archive</source>
+        <extracomment>application/x-lzma</extracomment>
+        <translation>Kiwanike ekipakizisidwa LZMA</translation>
+    </message>
+    <message>
+        <source>Mach-O</source>
+        <extracomment>application/x-mach-o</extracomment>
+        <translation>Fayiro ey&apos;ekika kya Mach-O</translation>
+    </message>
+    <message>
+        <source>Apple Xcode Memgraph</source>
+        <extracomment>application/x-memgraph</extracomment>
+        <translation>Fayiro ey&apos;ekika kya Memgraph - eva mu Apple Xcode</translation>
+    </message>
+    <message>
+        <source>Mobipocket Ebook</source>
+        <extracomment>application/x-mobipocket-ebook</extracomment>
+        <translation>Kitabo kya ku kompyuta eky&apos;ekika kya Mobipocket</translation>
+    </message>
+    <message>
+        <source>MS-DOS compression szzd</source>
+        <extracomment>application/x-ms-compress-szdd</extracomment>
+        <translation>Fayiro epakizisidwa szzd owa MS-DOS</translation>
+    </message>
+    <message>
+        <source>Temporary files created by MSOffice applications</source>
+        <extracomment>application/x-ms-owner</extracomment>
+        <translation>Fayiro ez&apos;ekiseerabuseera ezikoledwawo puloguramu ez&apos;omu MSOffice</translation>
+    </message>
+    <message>
+        <source>Microsoft National Language Support</source>
+        <extracomment>application/x-ms-nls</extracomment>
+        <translation>Fayiro ezisobozesa puloguramu za Microsoft okukolera mu nnimi ez&apos;enjawulo</translation>
+    </message>
+    <message>
+        <source>Microsoft Windows Installer</source>
+        <extracomment>application/x-ms-installer</extracomment>
+        <translation>Fayiro eteekawo puloguramu empya ku Microsoft Windows</translation>
+    </message>
+    <message>
+        <source>MySQL Table Definition (Format)</source>
+        <extracomment>application/x-mysql-table-definition</extracomment>
+        <translation>Fayiro erambika ebitundu bya tabulo eya mu MySQL</translation>
+    </message>
+    <message>
+        <source>MySQL MISAM Index</source>
+        <extracomment>application/x-mysql-misam-index</extracomment>
+        <translation>Fayiro ya ndagiriro ekozesebwa MISAM eya MySQL</translation>
+    </message>
+    <message>
+        <source>MySQL MISAM Compressed Index</source>
+        <extracomment>application/x-mysql-misam-compressed-index</extracomment>
+        <translation>Fayiro empakire ya ndagiriro ekozesebwa MISAM eya MySQL</translation>
+    </message>
+    <message>
+        <source>MySQL MISAM Data</source>
+        <extracomment>application/x-mysql-misam-data</extracomment>
+        <translation>Fayiro ya data MISAM eya MySQL gy&apos;ekolako</translation>
+    </message>
+    <message>
+        <source>Nintendo Entertainment System ROM</source>
+        <extracomment>application/x-nesrom</extracomment>
+        <translation>Fayiro etawandikikamu eya Sisitemu Ey&apos;okwesanyusa eya Nintendo</translation>
+    </message>
+    <message>
+        <source>Planetary Data System Version 3 format</source>
+        <extracomment>application/x-pds</extracomment>
+        <translation>Fayiro egoberera ebya mu luwandika 3 olw&apos;entegeka ey&apos;okuwanika data ekwata ku pulaneti</translation>
+    </message>
+    <message>
+        <source>Quattro Pro - Corel Spreadsheet (part of WordPerfect Office suite)</source>
+        <extracomment>application/x-quattro-pro</extracomment>
+        <translation>Empapula ez&apos;okubalirira ez&apos;ekika kya Quattro Pro - Corel (ekijjira mu Muganda gwa Puloguramu eza mu Wofiisi WordPerfect)</translation>
+    </message>
+    <message>
+        <source>Quattro Pro for DOS, version 1-4</source>
+        <extracomment>application/x-quattro-pro;version=1-4</extracomment>
+        <translation>Kiwandike kya mu Quattro Pro owa ku DOS, luwandika 1-4</translation>
+    </message>
+    <message>
+        <source>Quattro Pro for DOS, version 5</source>
+        <extracomment>application/x-quattro-pro;version=5</extracomment>
+        <translation>Kiwandike kya mu Quattro Pro owa ku DOS, luwandika 5</translation>
+    </message>
+    <message>
+        <source>Quattro Pro for Windows, version 1, 5</source>
+        <extracomment>application/x-quattro-pro;version=1+5</extracomment>
+        <translation>Kiwandike kya mu Quattro Pro owa ku Windows, luwandika 1, 5</translation>
+    </message>
+    <message>
+        <source>Quattro Pro for Windows, version 6</source>
+        <extracomment>application/x-quattro-pro;version=6</extracomment>
+        <translation>Kiwandike kya mu Quattro Pro owa ku Windows, luwandika 6</translation>
+    </message>
+    <message>
+        <source>XQuery source code</source>
+        <extracomment>application/xquery</extracomment>
+        <translation>Fayiro ey&apos;ennono y&apos;ebiragiro bya mu XQuery</translation>
+    </message>
+    <message>
+        <source>RAR archive</source>
+        <extracomment>application/x-rar-compressed
+----------
+application/x-rar-compressed;version=4
+----------
+application/x-rar-compressed;version=5</extracomment>
+        <translation>Kiwanike kya kika kya RAR</translation>
+    </message>
+    <message>
+        <source>RedHat Package Manager</source>
+        <extracomment>application/x-rpm</extracomment>
+        <translation>Fayiro ekolebwako Ekiteekateeka Bipakire ekya RedHat</translation>
+    </message>
+    <message>
+        <source>SAS Program</source>
+        <extracomment>application/x-sas</extracomment>
+        <translation>Puloguramu ya mu SAS</translation>
+    </message>
+    <message>
+        <source>SAS Stored Program (DATA Step)</source>
+        <extracomment>application/x-sas-program-data</extracomment>
+        <translation>Fayiro erimu puloguramu enkuŋaanye eya mu SAS (empandike mu lu-DATA Step)</translation>
+    </message>
+    <message>
+        <source>SAS Audit</source>
+        <extracomment>application/x-sas-audit</extracomment>
+        <translation>Fayiro erimu ebikwatidwa okwekakasiza ebifa ku SAS</translation>
+    </message>
+    <message>
+        <source>SAS v6 Data Set</source>
+        <extracomment>application/x-sas-data-v6</extracomment>
+        <translation>Fayiro eya data wa mu SAS v6</translation>
+    </message>
+    <message>
+        <source>SAS Data Set</source>
+        <extracomment>application/x-sas-data</extracomment>
+        <translation>Fayiro eya data wa mu SAS</translation>
+    </message>
+    <message>
+        <source>SAS Data Set View</source>
+        <extracomment>application/x-sas-view</extracomment>
+        <translation>Fayiro enonabunoni data wa mu SAS</translation>
+    </message>
+    <message>
+        <source>SAS Data Set Index</source>
+        <extracomment>application/x-sas-data-index</extracomment>
+        <translation>Fayiro ey&apos;endagiriro ya data wa mu SAS</translation>
+    </message>
+    <message>
+        <source>SAS Catalog</source>
+        <extracomment>application/x-sas-catalog</extracomment>
+        <translation>Katalogu ya mu SAS</translation>
+    </message>
+    <message>
+        <source>SAS Access Descriptor</source>
+        <extracomment>application/x-sas-access</extracomment>
+        <translation>Fayiro evvuunulira SAS data ava mu puloguramu endala</translation>
+    </message>
+    <message>
+        <source>SAS FDB Consolidation Database File</source>
+        <extracomment>application/x-sas-fdb</extracomment>
+        <translation>Fayiro ggwanika zzibizi ery&apos;ekiseera eririisa ggwanika lya data lya mu SAS</translation>
+    </message>
+    <message>
+        <source>SAS MDDB Multi-Dimensional Database File</source>
+        <extracomment>application/x-sas-mddb</extracomment>
+        <translation>Ggwanika lya data ery&apos;ebinoonyezesebwa ebisukka mu kimu erya mu SAS</translation>
+    </message>
+    <message>
+        <source>SAS DMDB Data Mining Database File</source>
+        <extracomment>application/x-sas-dmdb</extracomment>
+        <translation>Ggwanika lya data eriyungululwamu enkwatagana n&apos;amakulu ebipya erya mu SAS</translation>
+    </message>
+    <message>
+        <source>SAS Item Store (ItemStor) File</source>
+        <extracomment>application/x-sas-itemstor</extracomment>
+        <translation>Fayiro eya mu SAS ey&apos;ekika kya Item Store (ItemStor)</translation>
+    </message>
+    <message>
+        <source>SAS Utility</source>
+        <extracomment>application/x-sas-utility</extracomment>
+        <translation>Fayiro eya mu SAS ey&apos;ekika kya Utility</translation>
+    </message>
+    <message>
+        <source>SAS Permanent Utility</source>
+        <extracomment>application/x-sas-putility</extracomment>
+        <translation>Fayiro eya mu SAS ey&apos;ekika kya PUtility</translation>
+    </message>
+    <message>
+        <source>SAS Transport File</source>
+        <extracomment>application/x-sas-transport</extracomment>
+        <translation>Fayiro etambuza data wakati wa SAS ne sisitemu endala</translation>
+    </message>
+    <message>
+        <source>SAS Backup</source>
+        <extracomment>application/x-sas-backup</extracomment>
+        <translation>Koppi ya kwerinda eya mu SAS</translation>
+    </message>
+    <message>
+        <source>SAS XPORT Transfer File</source>
+        <extracomment>application/x-sas-xport</extracomment>
+        <translation>Fayiro ey&apos;ekika kya XPORT etambuza data wakati wa SAS ne sisitemu endala</translation>
+    </message>
+    <message>
+        <source>SPSS Data File</source>
+        <extracomment>application/x-spss-sav</extracomment>
+        <translation>Fayiro ya data eya mu SPSS</translation>
+    </message>
+    <message>
+        <source>UNIX/LINUX Shell Script</source>
+        <extracomment>application/x-sh</extracomment>
+        <translation>Fayiro ey&apos;ebiragiro bya puloguramu enzivvunuzi eya ku UNIX/LINUX</translation>
+    </message>
+    <message>
+        <source>ESRI Shapefiles</source>
+        <extracomment>application/x-shapefile</extracomment>
+        <translation>Fayiro ey&apos;ekika kya shapefile</translation>
+    </message>
+    <message>
+        <source>Adobe Flash</source>
+        <extracomment>application/x-shockwave-flash</extracomment>
+        <translation>Fayiro eya Adobe Flash</translation>
+    </message>
+    <message>
+        <source>Sibelius</source>
+        <extracomment>application/x-sibelius</extracomment>
+        <translation>Fayiro eya mu Sibelius</translation>
+    </message>
+    <message>
+        <source>Snappy Framed</source>
+        <extracomment>application/x-snappy-framed</extracomment>
+        <translation>Fayiro epakidwa mu nkola ya snappy framed</translation>
+    </message>
+    <message>
+        <source>Standard Formatted Data Units (SFDUs) data</source>
+        <extracomment>application/x-sfdu</extracomment>
+        <translation>Fayiro eya data egoberera SFDU (omutindo tabamawanga ogufuga empandika y&apos;ebika bya data)</translation>
+    </message>
+    <message>
+        <source>TAP (ZX Spectrum)</source>
+        <extracomment>application/x-spectrum-tzx</extracomment>
+        <translation>Fayiro ey&apos;ekika kya TAP (ya ku kompyuta za ZX Spectrum)</translation>
+    </message>
+    <message>
+        <source>Stata DTA Script</source>
+        <extracomment>application/x-stata-do</extracomment>
+        <translation>Fayiro ey&apos;ebiragiro bya mu Stata</translation>
+    </message>
+    <message>
+        <source>Stata DTA Dataset</source>
+        <extracomment>application/x-stata-dta</extracomment>
+        <translation>Fayiro eya data owa mu Stata</translation>
+    </message>
+    <message>
+        <source>TeX Source</source>
+        <extracomment>application/x-tex</extracomment>
+        <translation>Fairo ey&apos;obulambe bw&apos;ekiwandike kya mu TeX</translation>
+    </message>
+    <message>
+        <source>TeX Virtual Font format</source>
+        <extracomment>application/x-tex-virtual-font</extracomment>
+        <translation>Fayiro ey&apos;ebiragiro ebizimbirira nkula ya nnukuta mu TeX</translation>
+    </message>
+    <message>
+        <source>Pre-OLE2 (Old) Microsoft Excel Worksheets</source>
+        <extracomment>application/x-tika-old-excel</extracomment>
+        <translation>Mpapula za kubalirira eza mu Microsoft Excel omukadde (nga OLE2 tennaba)</translation>
+    </message>
+    <message>
+        <source>Password Protected OOXML File</source>
+        <extracomment>application/x-tika-ooxml-protected</extracomment>
+        <translation>Fayiro eya mu OOXML ebikkulibwa n&apos;akasumuluo</translation>
+    </message>
+    <message>
+        <source>Visio OOXML File</source>
+        <extracomment>application/x-tika-visio-ooxml</extracomment>
+        <translatorcomment></translatorcomment>
+        <translation>Fayiro eya OOXML eya mu Visio</translation>
+    </message>
+    <message>
+        <source>Virtual PC Virtual Hard Disk</source>
+        <extracomment>application/x-vhd</extracomment>
+        <translation>Disiki eya munda engeegeenye ya ku kompyuta engeegeenye</translation>
+    </message>
+    <message>
+        <source>Virtual Disk Format</source>
+        <extracomment>application/x-vmdk</extracomment>
+        <translation>Fayiro eya mu ntegeka ey&apos;okugeegeenya disiki eya munda</translation>
+    </message>
+    <message>
+        <source>Java Keystore</source>
+        <extracomment>application/x-java-keystore</extracomment>
+        <translation>Ggwanika lya mmatizo erya mu Java</translation>
+    </message>
+    <message>
+        <source>XMind Pro</source>
+        <extracomment>application/x-xmind</extracomment>
+        <translation>Fayiro eya mu XMind Pro</translation>
+    </message>
+    <message>
+        <source>Zeno IMproved (ZIM)</source>
+        <extracomment>application/x-zim</extracomment>
+        <translation>Fayiro eya mu Zeno IMproved (ZIM)</translation>
+    </message>
+    <message>
+        <source>Extensible Markup Language</source>
+        <extracomment>application/xml</extracomment>
+        <translation>Ebiri mu mpandika efuga enjolesa y&apos;ebiwandiko eya XML</translation>
+    </message>
+    <message>
+        <source>XML Document Type Definition</source>
+        <extracomment>application/xml-dtd</extracomment>
+        <translation>Kiwandika kya nteekateeka y&apos;ebika by&apos;ebitundu ebikozesebwa mu kiwandiko ekya mu XML</translation>
+    </message>
+    <message>
+        <source>XSL Format</source>
+        <extracomment>application/xslfo+xml</extracomment>
+        <translation>Kiwandike kya mu XSL-FO</translation>
+    </message>
+    <message>
+        <source>XSL Transformations</source>
+        <extracomment>application/xslt+xml</extracomment>
+        <translation>Kiwandikke kya mu XSLT</translation>
+    </message>
+    <message>
+        <source>XML Shareable Playlist Format</source>
+        <extracomment>application/xspf+xml</extracomment>
+        <translation>Kiwandike kya mu mpandika ya XSPF</translation>
+    </message>
+    <message>
+        <source>Compressed Archive File</source>
+        <extracomment>application/zip</extracomment>
+        <translation>Ekiwanike ekipakidwa</translation>
+    </message>
+    <message>
+        <source>ZLIB Compressed Data Format</source>
+        <extracomment>application/zlib</extracomment>
+        <translation>Fayiro epakizisidwa enkola ya ZLIB</translation>
+    </message>
+    <message>
+        <source>7-zip archive</source>
+        <extracomment>application/x-7z-compressed</extracomment>
+        <translation>Ekiwanike ekipakizisidwa enkola ya 7-zip</translation>
+    </message>
+    <message>
+        <source>Dolby Digital Audio Compression File</source>
+        <extracomment>audio/ac3</extracomment>
+        <translation>Fayiro ey&apos;ebiwulirizibwa eby&apos;ekika kya Dolby Digital</translation>
+    </message>
+    <message>
+        <source>uLaw/AU Audio File</source>
+        <extracomment>audio/basic</extracomment>
+        <translation>Fayiro ey&apos;ebiwulirizibwa ey&apos;ekika kya uLaw/AU</translation>
+    </message>
+    <message>
+        <source>Musical Instrument Digital Interface</source>
+        <extracomment>audio/midi</extracomment>
+        <translation>Fayiro ey&apos;ekika kya MIDI</translation>
+    </message>
+    <message>
+        <source>MPEG-1 Audio Layer 3</source>
+        <extracomment>audio/mpeg</extracomment>
+        <translation>Fayiro ey&apos;ekika kya mp3</translation>
+    </message>
+    <message>
+        <source>Ogg Vorbis Audio</source>
+        <extracomment>audio/ogg</extracomment>
+        <translation>Fayiro ey&apos;ebiwulirizibwa ey&apos;ekika kya Ogg Vorbis</translation>
+    </message>
+    <message>
+        <source>Ogg Vorbis Codec Compressed WAV File</source>
+        <extracomment>audio/vorbis</extracomment>
+        <translation>Fayiro ey&apos;ebiwulirizibwa ey&apos;ekika kya Ogg Vorbis</translation>
+    </message>
+    <message>
+        <source>Portable Sound Format</source>
+        <extracomment>audio/x-psf</extracomment>
+        <translation>Fayiro ey&apos;ebiwulirizibwa ey&apos;ekika kya PSF</translation>
+    </message>
+    <message>
+        <source>Slight Atari Player</source>
+        <extracomment>audio/x-sap</extracomment>
+        <translation>Fayiro ey&apos;ebiwulirizibwa ey&apos;ekika kya Slight Atari Player</translation>
+    </message>
+    <message>
+        <source>Ogg Packaged Free Lossless Audio Codec</source>
+        <extracomment>audio/x-oggflac</extracomment>
+        <translation>Fayiro ey&apos;ebiwulirizibwa eby&apos;ekika kya FLAC nga yetikkidwa ey&apos;ekika kya Ogg</translation>
+    </message>
+    <message>
+        <source>Ogg Packaged Unompressed WAV File</source>
+        <extracomment>audio/x-oggpcm</extracomment>
+        <translation>Fayiro etali nfunze ey&apos;ebiwulirizibwa eby&apos;ekika kya WAV nga yetikkidwa ey&apos;ekika kya Ogg</translation>
+    </message>
+    <message>
+        <source>Ogg Opus Codec Compressed WAV File</source>
+        <extracomment>audio/opus</extracomment>
+        <translation>Fayiro ey&apos;ebiwulirizibwa ey&apos;ekika kya Ogg Opus</translation>
+    </message>
+    <message>
+        <source>Ogg Speex Codec Compressed WAV File</source>
+        <extracomment>audio/speex</extracomment>
+        <translation>Fayiro ey&apos;ebiwulirizibwa ey&apos;ekika kya Ogg Speex</translation>
+    </message>
+    <message>
+        <source>Audio Interchange File Format</source>
+        <extracomment>audio/x-aiff</extracomment>
+        <translation>Fayiro ey&apos;ebiwulirizibwa ey&apos;ekika kya AIFF</translation>
+    </message>
+    <message>
+        <source>Core Audio Format</source>
+        <extracomment>audio/x-caf</extracomment>
+        <translation>Fayiro ennetisi y&apos;ez&apos;ebiwulirizibwa ey&apos;ekika kya CAF</translation>
+    </message>
+    <message>
+        <source>Free Lossless Audio Codec</source>
+        <extracomment>audio/x-flac</extracomment>
+        <translation>Fayiro ey&apos;ebiwulirizibwa eby&apos;ekika kya FLAC</translation>
+    </message>
+    <message>
+        <source>MP3 Playlist File</source>
+        <extracomment>audio/x-mpegurl</extracomment>
+        <translation>Fayiro ya lukalala lw&apos;ebiwulirizibwa eby&apos;ekika kya MP3</translation>
+    </message>
+    <message>
+        <source>Real Audio</source>
+        <extracomment>audio/x-pn-realaudio</extracomment>
+        <translation>Fayiro ey&apos;ebiwulirizibwa eby&apos;ekika kya Real Audio</translation>
+    </message>
+    <message>
+        <source>RealMedia Player Plug-in</source>
+        <extracomment>audio/x-pn-realaudio-plugin</extracomment>
+        <translation>Ekyongerwako ekya RealMedia Player</translation>
+    </message>
+    <message>
+        <source>Brookhaven Protein Databank File</source>
+        <extracomment>chemical/x-pdb</extracomment>
+        <translation>Fayiro ekongojja data ku puloteyini okuva mu Brookhaven Protein Databank</translation>
+    </message>
+    <message>
+        <source>3D Studio (V1)</source>
+        <extracomment>image/x-3ds</extracomment>
+        <translation>Fayiro eya mu 3D Studio (V1)</translation>
+    </message>
+    <message>
+        <source>ACES Image Container File</source>
+        <extracomment>image/aces</extracomment>
+        <translation>Fayiro ennetisi y&apos;ez&apos;ebifaananyi ey&apos;ekika kya ACES</translation>
+    </message>
+    <message>
+        <source>OS2 bitmap array</source>
+        <extracomment>image/x-os2-graphics; charset=binary</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya mapu ya pikiseli ekya mu OS2</translation>
+    </message>
+    <message>
+        <source>Windows bitmap</source>
+        <extracomment>image/bmp</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya mapu ya pikiseli ekya mu Windows</translation>
+    </message>
+    <message>
+        <source>Better Portable Graphics</source>
+        <extracomment>image/x-bpg</extracomment>
+        <translation>Kifaananyi kya kika kya BPG</translation>
+    </message>
+    <message>
+        <source>Computer Graphics Metafile</source>
+        <extracomment>image/cgm</extracomment>
+        <translation>Fayiro ey&apos;ebiragiro ebikuba ekifaananyi ey&apos;ekika kya CGM</translation>
+    </message>
+    <message>
+        <source>Digital Picture Exchange from SMPTE</source>
+        <extracomment>image/x-dpx</extracomment>
+        <translation>Fayiro ey&apos;ekifaananyi ey&apos;ekika kya Digital Picture Exchange (DPX)</translation>
+    </message>
+    <message>
+        <source>Enhanced Metafile</source>
+        <extracomment>image/emf</extracomment>
+        <translation>Fayiro ey&apos;ekifaananyi ey&apos;ekika kya Enhanced Metafile (EMF)</translation>
+    </message>
+    <message>
+        <source>Compressed Enhanced Metafile</source>
+        <extracomment>image/x-emf-compressed</extracomment>
+        <translation>Fayiro ey&apos;ekifaananyi empakire ey&apos;ekika kya Enhanced Metafile (EMF)</translation>
+    </message>
+    <message>
+        <source>Graphics Interchange Format</source>
+        <extracomment>image/gif</extracomment>
+        <translation>Fayiro ey&apos;ekifaananyi ey&apos;ekika kya Graphics Interchange Format (GIF)</translation>
+    </message>
+    <message>
+        <source>AV1 Image File</source>
+        <extracomment>image/avif</extracomment>
+        <translation>Fayiro ey&apos;ebifaananyi ey&apos;ekika kya AV1 (AVIF)</translation>
+    </message>
+    <message>
+        <source>HEIF - High Efficiency Image File</source>
+        <extracomment>image/heif</extracomment>
+        <translation>Fayiro ey&apos;ekika kya HEIF - High Efficiency Image File eyetikka fayiro ey&apos;ekifaananyi</translation>
+    </message>
+    <message>
+        <source>HEIF Sequence - High Efficiency Image Sequence</source>
+        <extracomment>image/heif-sequence</extracomment>
+        <translation>Fayiro ey&apos;ekika kya HEIF Sequence - High Efficiency Image Sequence eyetikka fayiro ez&apos;ebifaananyi</translation>
+    </message>
+    <message>
+        <source>HEIF Image using HEVC Codec</source>
+        <extracomment>image/heic</extracomment>
+        <translation>Fayiro ey&apos;ekika kya HEIF - High Efficiency Image File eyetikka fayiro ey&apos;ekifaananyi nga ekozesa kodeki eya HEVC</translation>
+    </message>
+    <message>
+        <source>HEIF Sequence using HEVC Codec</source>
+        <extracomment>image/heic-sequence</extracomment>
+        <translation>Fayiro ey&apos;ekika kya HEIF Sequence - High Efficiency Image File eyetikka fayiro ez&apos;ebifaananyi nga ekozesa kodeki eya HEVC</translation>
+    </message>
+    <message>
+        <source>Apple Icon Image Format</source>
+        <extracomment>image/icns</extracomment>
+        <translation>Fayiro ey&apos;akafaananyi akayunzi aka mu sistemu eya Apple</translation>
+    </message>
+    <message>
+        <source>JPEG 2000 Part 1 (JP2)</source>
+        <extracomment>image/jp2</extracomment>
+        <translation>Kifaananyi ekigoberera omutindo gwa JPEG 2000 Kitundu 1 (JP2)</translation>
+    </message>
+    <message>
+        <source>Joint Photographic Experts Group</source>
+        <extracomment>image/jpeg</extracomment>
+        <translation>Kifaananyi ekigoberera emitindo gy&apos;eKibiina ky&apos;Abakugu mu By&apos;ebifaananyi bya Kamera Ab&apos;egasse (JPEG)</translation>
+    </message>
+    <message>
+        <source>JPEG 2000 Part 6 (JPM)</source>
+        <extracomment>image/jpm</extracomment>
+        <translation>Kifaananyi ekigoberera omutindo gwa JPEG 2000 Kitundu 6 (JPM)</translation>
+    </message>
+    <message>
+        <source>JPEG 2000 Part 2 (JPX)</source>
+        <extracomment>image/jpx</extracomment>
+        <translation>Kifaananyi ekigoberera omutindo gwa JPEG 2000 Kitundu 2 (JPX)</translation>
+    </message>
+    <message>
+        <source>Portable Network Graphics</source>
+        <extracomment>image/png</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Portable Network Graphics (Ebirabwa Bimutaboolakyuma Ebiyisika ku Kayungirizi)</translation>
+    </message>
+    <message>
+        <source>Scalable Vector Graphics</source>
+        <extracomment>image/svg+xml</extracomment>
+        <translation>Kifaananyi kya kika kya Scalable Vector Graphics (Ebirabwa ebikolebwawo biragiro)</translation>
+    </message>
+    <message>
+        <source>Tagged Image File Format</source>
+        <extracomment>image/tiff</extracomment>
+        <translation>Fayiro ey&apos;ekika kya Tagged Image File Format (Fayiro ey&apos;ebifaananyi ebirambe)</translation>
+    </message>
+    <message>
+        <source>Photoshop Image</source>
+        <extracomment>image/vnd.adobe.photoshop</extracomment>
+        <translation>Kifaananyi kya kika kya Photoshop</translation>
+    </message>
+    <message>
+        <source>MicroStation v7 drawing</source>
+        <extracomment>image/vnd.dgn;version=7</extracomment>
+        <translation>Kifaananyi ekikube kya mu MicroStation v7</translation>
+    </message>
+    <message>
+        <source>MicroStation v8 drawing; requires ole2 detector</source>
+        <extracomment>image/vnd.dgn;version=8</extracomment>
+        <translation>Kifaananyi ekikube kya mu MicroStation v8; kyetaagisa ekisobola okuziga ebya ole2</translation>
+    </message>
+    <message>
+        <source>AutoCad Drawing</source>
+        <extracomment>image/vnd.dwg</extracomment>
+        <translation>Kifaananyi ekikube ekya mu AutoCad</translation>
+    </message>
+    <message>
+        <source>AutoCAD DXF simplified Binary</source>
+        <extracomment>image/vnd.dxb</extracomment>
+        <translation>Kifaananyi ekya mu AutoCad ekyeyambisa ne binariyo</translation>
+    </message>
+    <message>
+        <source>AutoCAD DXF</source>
+        <extracomment>image/vnd.dxf</extracomment>
+        <translation>Kifaananyi ekya mu AutoCad eky&apos;ekika kya DXF</translation>
+    </message>
+    <message>
+        <source>Microsoft Document Imaging</source>
+        <extracomment>image/vnd.ms-modi</extracomment>
+        <translation>Kifaananyi kya kika kya Microsoft Document Imaging (kifaananyi kya kiwandiko)</translation>
+    </message>
+    <message>
+        <source>Wireless Bitmap File Format</source>
+        <extracomment>image/vnd.wap.wbmp</extracomment>
+        <translation>Kifaananyi kya kika kya Wireless Bitmap File Format (Mapu ya pikiseli etegekedwa okusindikibwa mu wayalesi)</translation>
+    </message>
+    <message>
+        <source>ZSoft Multi-Page Paintbrush</source>
+        <extracomment>image/vnd.zbrush.dcx</extracomment>
+        <translation>Kifaananyi kya mpapula ezisukka mu lumu kya mu ZSoft Paintbrush</translation>
+    </message>
+    <message>
+        <source>ZSoft Paintbrush PiCture eXchange</source>
+        <extracomment>image/vnd.zbrush.pcx</extracomment>
+        <translation>Kifaananyi kya mu ZSoft Paintbrush eky&apos;ekika kya PiCture eXchange</translation>
+    </message>
+    <message>
+        <source>Windows Metafile</source>
+        <extracomment>image/wmf</extracomment>
+        <translation>Fayiro ey&apos;ekika kya Windows Metafile (fayiro ey&apos;ebiragiro bya mu Windows ebikolawo ekifaananyi)</translation>
+    </message>
+    <message>
+        <source>FreeHand image</source>
+        <extracomment>image/x-freehand</extracomment>
+        <translation>Kifaananyi kya mu FreeHand</translation>
+    </message>
+    <message>
+        <source>A lossless image compression standard from the
+      Joint Bi-level Image Experts Group.</source>
+        <extracomment>image/x-jbig2</extracomment>
+        <translation>Kifaananyi ekipakizisidwa enkola ya ba Joint Bi-level
+      Image Experts Group etakitoolako.</translation>
+    </message>
+    <message>
+        <source>JPEG 2000 Codestream</source>
+        <extracomment>image/x-jp2-codestream</extracomment>
+        <translation>File ey&apos;ekika kya JPEG 2000 Codestream</translation>
+    </message>
+    <message>
+        <source>JPEG 2000 Container Format</source>
+        <extracomment>image/x-jp2-container</extracomment>
+        <translation>File ey&apos;ekika kya JPEG 2000 Container (eytikka fayiro ndala)</translation>
+    </message>
+    <message>
+        <source>JPEG XL</source>
+        <extracomment>image/jxl</extracomment>
+        <translation>Fayiro ey&apos;ekika kya JPEG XL</translation>
+    </message>
+    <message>
+        <source>Navy Interchange File Format</source>
+        <extracomment>image/x-niff</extracomment>
+        <translation>Kifaananyi kya kika kya Navy Interchange File Format (NIFF)</translation>
+    </message>
+    <message>
+        <source>Apple Macintosh QuickDraw/PICT Format</source>
+        <extracomment>image/x-pict</extracomment>
+        <translation>Kifaananyi kya kika kya Apple Macintosh QuickDraw/PICT</translation>
+    </message>
+    <message>
+        <source>Portable Any Map</source>
+        <extracomment>image/x-portable-anymap</extracomment>
+        <translation>Kifaananyi kya kika kya Portable Any Map</translation>
+    </message>
+    <message>
+        <source>Portable Bit Map</source>
+        <extracomment>image/x-portable-bitmap</extracomment>
+        <translation>Kifaananyi kya kika kya Portable Bit Map (mapu ya pikiseli mutaboolakyuma)</translation>
+    </message>
+    <message>
+        <source>Portable Graymap Graphic</source>
+        <extracomment>image/x-portable-graymap</extracomment>
+        <translation>Kifaananyi kya kika kya Portable Graymap (kya mapu ya pikiseli nsirigavu n&apos;enjeru zokka)</translation>
+    </message>
+    <message>
+        <source>UNIX Portable Bitmap Graphic</source>
+        <extracomment>image/x-portable-pixmap</extracomment>
+        <translation>Kifaananyi kya kika kya Portable Bit Map eya ku UNIX (mapu ya pikiseli mutaboolakyuma eya ku UNIX)</translation>
+    </message>
+    <message>
+        <source>UNIX Portable Bitmap Graphic Arbitrary Map</source>
+        <extracomment>image/x-portable-arbitrarymap</extracomment>
+        <translation>Kifaananyi kya kika kya Portable Arbitrary Map eya ku UNIX</translation>
+    </message>
+    <message>
+        <source>Adobe Digital Negative</source>
+        <extracomment>image/x-raw-adobe</extracomment>
+        <translation>Kifaananyi kya kika kya Adobe Digital Negative (fayiro y&apos;ekifaananyi ey&apos;ennono)</translation>
+    </message>
+    <message>
+        <source>Hasselblad raw image</source>
+        <extracomment>image/x-raw-hasselblad</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Hasselblad raw image (fayiro ey&apos;ekifaananyi kya mu Hasselblad ey&apos;ennono)</translation>
+    </message>
+    <message>
+        <source>Fuji raw image</source>
+        <extracomment>image/x-raw-fuji</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Fuji raw image (fayiro ey&apos;ekifaananyi kya mu Fuji ey&apos;ennono)</translation>
+    </message>
+    <message>
+        <source>Canon raw image</source>
+        <extracomment>image/x-raw-canon</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Canon raw image (fayiro ey&apos;ekifaananyi kya mu Canon ey&apos;ennono)</translation>
+    </message>
+    <message>
+        <source>Canon raw image, version 2, TIFF-based</source>
+        <extracomment>image/x-canon-cr2</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Canon raw image, version 2, TIFF-based (fayiro ey&apos;ekifaananyi kya mu Canon ey&apos;ennono, enkola 2, yesigamizidwa ku TIFF)</translation>
+    </message>
+    <message>
+        <source>Canon raw image, version 3, Quicktime-based</source>
+        <extracomment>image/x-canon-cr3</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Canon raw image, version 3, Quicktime-based (fayiro ey&apos;ekifaananyi kya mu Canon ey&apos;ennono, enkola 3, yesigamizidwa ku Quicktime)</translation>
+    </message>
+    <message>
+        <source>Kodak raw image</source>
+        <extracomment>image/x-raw-kodak</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Kodak raw image (fayiro ey&apos;ekifaananyi kya mu Kodak ey&apos;ennono)</translation>
+    </message>
+    <message>
+        <source>Minolta raw image</source>
+        <extracomment>image/x-raw-minolta</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Minolta raw image (fayiro ey&apos;ekifaananyi kya mu Minolta ey&apos;ennono)</translation>
+    </message>
+    <message>
+        <source>Nikon raw image</source>
+        <extracomment>image/x-raw-nikon</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Nikon raw image (fayiro ey&apos;ekifaananyi kya mu Nikon ey&apos;ennono)</translation>
+    </message>
+    <message>
+        <source>Olympus raw image</source>
+        <extracomment>image/x-raw-olympus</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Olympus raw image (fayiro ey&apos;ekifaananyi kya mu Olympus ey&apos;ennono)</translation>
+    </message>
+    <message>
+        <source>Pentax raw image</source>
+        <extracomment>image/x-raw-pentax</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Pentax raw image (fayiro ey&apos;ekifaananyi kya mu Pentax ey&apos;ennono)</translation>
+    </message>
+    <message>
+        <source>Sony raw image</source>
+        <extracomment>image/x-raw-sony</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Sony raw image (fayiro ey&apos;ekifaananyi kya mu Sony ey&apos;ennono)</translation>
+    </message>
+    <message>
+        <source>Sigma raw image</source>
+        <extracomment>image/x-raw-sigma</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Sigma raw image (fayiro ey&apos;ekifaananyi kya mu Sigma ey&apos;ennono)</translation>
+    </message>
+    <message>
+        <source>Epson raw image</source>
+        <extracomment>image/x-raw-epson</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Epson raw image (fayiro ey&apos;ekifaananyi kya mu Epson ey&apos;ennono)</translation>
+    </message>
+    <message>
+        <source>Mamiya raw image</source>
+        <extracomment>image/x-raw-mamiya</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Mamiya raw image (fayiro ey&apos;ekifaananyi kya mu Mamiya ey&apos;ennono)</translation>
+    </message>
+    <message>
+        <source>Leaf raw image</source>
+        <extracomment>image/x-raw-leaf</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Leaf raw image (fayiro ey&apos;ekifaananyi kya mu Leaf ey&apos;ennono)</translation>
+    </message>
+    <message>
+        <source>Panasonic raw image</source>
+        <extracomment>image/x-raw-panasonic</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Panasonic raw image (fayiro ey&apos;ekifaananyi kya mu Panasonic ey&apos;ennono)</translation>
+    </message>
+    <message>
+        <source>Phase One raw image</source>
+        <extracomment>image/x-raw-phaseone</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Phase One raw image (fayiro ey&apos;ekifaananyi kya mu Phase One ey&apos;ennono)</translation>
+    </message>
+    <message>
+        <source>Red raw image</source>
+        <extracomment>image/x-raw-red</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya RED raw image (fayiro ey&apos;ekifaananyi kya mu RED ey&apos;ennono)</translation>
+    </message>
+    <message>
+        <source>Imacon raw image</source>
+        <extracomment>image/x-raw-imacon</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Imacon raw image (fayiro ey&apos;ekifaananyi kya mu Imacon ey&apos;ennono)</translation>
+    </message>
+    <message>
+        <source>Logitech raw image</source>
+        <extracomment>image/x-raw-logitech</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Logitech raw image (fayiro ey&apos;ekifaananyi kya mu Logitech ey&apos;ennono)</translation>
+    </message>
+    <message>
+        <source>Casio raw image</source>
+        <extracomment>image/x-raw-casio</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Casio raw image (fayiro ey&apos;ekifaananyi kya mu Casio ey&apos;ennono)</translation>
+    </message>
+    <message>
+        <source>Rawzor raw image</source>
+        <extracomment>image/x-raw-rawzor</extracomment>
+        <translation>Kifaananyi eky&apos;ekika kya Rawzor raw image (fayiro ey&apos;ekifaananyi kya mu Rawzor ey&apos;ennono)</translation>
+    </message>
+    <message>
+        <source>Silicon Graphics RGB Bitmap</source>
+        <extracomment>image/x-rgb</extracomment>
+        <translation>Kifaananyi kya kika kya Silicon Graphics RGB Bitmap (mapu ya pikiseli myufu kiragala ne bululu eya Silicon Graphics)</translation>
+    </message>
+    <message>
+        <source>GIMP Image File</source>
+        <extracomment>image/x-xcf</extracomment>
+        <translation>Fayiro ya kifaananyi kya mu GIMP</translation>
+    </message>
+    <message>
+        <source>X Windows Dump</source>
+        <extracomment>image/x-xwindowdump</extracomment>
+        <translation>Kifaananyi kya kika kya X Window Dump</translation>
+    </message>
+    <message>
+        <source>MIME Encapsulation of Aggregate HTML Documents</source>
+        <extracomment>multipart/related</extracomment>
+        <translation>Fayiro ey&apos;ekika kya MIME Encapsulation of Aggregate HTML Documents</translation>
+    </message>
+    <message>
+        <source>3d imaging data exchange</source>
+        <extracomment>model/e57</extracomment>
+        <translation>Fayiro ya kika kya 3d imaging data exchange (kifaananyi ekikwatidwa leesa)</translation>
+    </message>
+    <message>
+        <source>Initial Graphics Exchange Specification Format</source>
+        <extracomment>model/iges</extracomment>
+        <translation>Fayiro egoberera mateeka ga Initial Graphics Exchange Specification Format</translation>
+    </message>
+    <message>
+        <source>no magic available</source>
+        <extracomment>model/x.stl-binary</extracomment>
+        <translation>Fayiro ey&apos;ekika kya STL eya binariyo</translation>
+    </message>
+    <message>
+        <source>AutoCAD Design Web Format</source>
+        <extracomment>model/vnd.dwf
+----------
+model/vnd.dwfx+xps</extracomment>
+        <translation>Fayiro ey&apos;ekika kya AutoCAD Design Web Format</translation>
+    </message>
+    <message>
+        <source>ONline Information eXchange (ONIX) for books</source>
+        <extracomment>application/onix-message+xml
+----------
+application/onix-message-short+xml</extracomment>
+        <translation>Fayiro ey&apos;ekika kya ONIX ow&apos;ebitabo</translation>
+    </message>
+    <message>
+        <source>ActionScript source code</source>
+        <extracomment>text/x-actionscript</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu ActionScript</translation>
+    </message>
+    <message>
+        <source>Ada source code</source>
+        <extracomment>text/x-ada</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Ada</translation>
+    </message>
+    <message>
+        <source>AppleScript source code</source>
+        <extracomment>text/x-applescript</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu AppleScript</translation>
+    </message>
+    <message>
+        <source>Active Server Page</source>
+        <extracomment>text/asp</extracomment>
+        <translation>Biragiro bya Active Server Page</translation>
+    </message>
+    <message>
+        <source>ASP .NET</source>
+        <extracomment>text/aspdotnet</extracomment>
+        <translation>Biragiro bya ASP .NET</translation>
+    </message>
+    <message>
+        <source>AspectJ source code</source>
+        <extracomment>text/x-aspectj</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu AspectJ</translation>
+    </message>
+    <message>
+        <source>Assembler source code</source>
+        <extracomment>text/x-assembly</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Assembler</translation>
+    </message>
+    <message>
+        <source>Cascading Style Sheet</source>
+        <extracomment>text/css</extracomment>
+        <translation>Lukalala lw&apos;ebiragiro ebiranda ebifuga endabika y&apos;ebiwandike</translation>
+    </message>
+    <message>
+        <source>HyperText Markup Language</source>
+        <extracomment>text/html</extracomment>
+        <translation>Ebiri mu mpandika ey&apos;omu biwandike ebiyunge</translation>
+    </message>
+    <message>
+        <source>Makefile build file</source>
+        <extracomment>text/x-makefile</extracomment>
+        <translation>Fayiro ey&apos;ekika kya Makefile - efuga okuzimba sofutiweya</translation>
+    </message>
+    <message>
+        <source>Roff/nroff/troff/groff Unformatted Manual Page (UNIX)</source>
+        <extracomment>text/troff</extracomment>
+        <translation>Kiwandike (kya ku UNIX) ekiraga enkola mu bujjuvu ekirimu n&apos;ebiragiro ebya roff/nroff/troff/groff</translation>
+    </message>
+    <message>
+        <source>Graphviz Graph Visualization Software</source>
+        <extracomment>text/vnd.graphviz</extracomment>
+        <translation>Fayiro ya mu Graphviz sofutiweya ow&apos;ebifaananyi ebitangaazisibwa</translation>
+    </message>
+    <message>
+        <source>American Newspaper Publishers Association Wire Feeds</source>
+        <extracomment>text/vnd.iptc.anpa</extracomment>
+        <translation>Kiwandike kya kika kya American Newspaper Publishers Association Wire Feeds</translation>
+    </message>
+    <message>
+        <source>WML Script</source>
+        <extracomment>text/vnd.wap.wmlscript</extracomment>
+        <translation>Fayiro ya biragiro bya mu WML</translation>
+    </message>
+    <message>
+        <source>Web Video Text Tracks Format</source>
+        <extracomment>text/vtt</extracomment>
+        <translation>Kiwandiko kya kika kya Web Video Text Tracks</translation>
+    </message>
+    <message>
+        <source>AWK script</source>
+        <extracomment>text/x-awk</extracomment>
+        <translation>Fayiro ya biragiro bya mu AWK</translation>
+    </message>
+    <message>
+        <source>Basic source code</source>
+        <extracomment>text/x-basic</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Basic</translation>
+    </message>
+    <message>
+        <source>C++ source code header</source>
+        <extracomment>text/x-c++hdr</extracomment>
+        <translation>Fayiro ey&apos;ebyeyazikibwa ebya mu C++</translation>
+    </message>
+    <message>
+        <source>C++ source code</source>
+        <extracomment>text/x-c++src</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu C++</translation>
+    </message>
+    <message>
+        <source>CGI script</source>
+        <extracomment>text/x-cgi</extracomment>
+        <translation>Fayiro ya biragiro bya mu CGI</translation>
+    </message>
+    <message>
+        <source>C source code header</source>
+        <extracomment>text/x-chdr</extracomment>
+        <translation>Fayiro ey&apos;ebyeyazikibwa ebya mu C</translation>
+    </message>
+    <message>
+        <source>Clojure source code</source>
+        <extracomment>text/x-clojure</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Clojure</translation>
+    </message>
+    <message>
+        <source>CoffeeScript source code</source>
+        <extracomment>text/x-coffeescript</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu CoffeeScript</translation>
+    </message>
+    <message>
+        <source>C source code</source>
+        <extracomment>text/x-csrc</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu C</translation>
+    </message>
+    <message>
+        <source>C# source code</source>
+        <extracomment>text/x-csharp</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu C#</translation>
+    </message>
+    <message>
+        <source>COBOL source code</source>
+        <extracomment>text/x-cobol</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu COBOL</translation>
+    </message>
+    <message>
+        <source>ColdFusion source code</source>
+        <extracomment>text/x-coldfusion</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu ColdFusion</translation>
+    </message>
+    <message>
+        <source>Common Lisp source code</source>
+        <extracomment>text/x-common-lisp</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Common Lisp</translation>
+    </message>
+    <message>
+        <source>Eiffel source code</source>
+        <extracomment>text/x-eiffel</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Eiffel</translation>
+    </message>
+    <message>
+        <source>Emacs Lisp source code</source>
+        <extracomment>text/x-emacs-lisp</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Emacs Lisp</translation>
+    </message>
+    <message>
+        <source>Erlang source code</source>
+        <extracomment>text/x-erlang</extracomment>
+        <translation>Fayiro ey&apos;ennono y&apos;ebiragiro bya mu Erlang</translation>
+    </message>
+    <message>
+        <source>Expect Script</source>
+        <extracomment>text/x-expect</extracomment>
+        <translation>Fayiro ya biragiro bya mu Expect</translation>
+    </message>
+    <message>
+        <source>Forth source code</source>
+        <extracomment>text/x-forth</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Forth</translation>
+    </message>
+    <message>
+        <source>Fortran source code</source>
+        <extracomment>text/x-fortran</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Fortran</translation>
+    </message>
+    <message>
+        <source>Go source code</source>
+        <extracomment>text/x-go</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Go</translation>
+    </message>
+    <message>
+        <source>Groovy source code</source>
+        <extracomment>text/x-groovy</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Groovy</translation>
+    </message>
+    <message>
+        <source>Haskell source code</source>
+        <extracomment>text/x-haskell</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Haskell</translation>
+    </message>
+    <message>
+        <source>Interface Definition Language</source>
+        <extracomment>text/x-idl</extracomment>
+        <translation>Fayiro ey&apos;ebiri mu mpandika ya Interface Definition Language (IDL)</translation>
+    </message>
+    <message>
+        <source>Configuration file</source>
+        <extracomment>text/x-ini</extracomment>
+        <translation>Fayiro ey&apos;enteekateeka</translation>
+    </message>
+    <message>
+        <source>Java source code</source>
+        <extracomment>text/x-java-source</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Java</translation>
+    </message>
+    <message>
+        <source>Java Properties</source>
+        <extracomment>text/x-java-properties</extracomment>
+        <translation>Fayiro ey&apos;eby&apos;obutonde ebya mu Java</translation>
+    </message>
+    <message>
+        <source>Java Server Page</source>
+        <extracomment>text/x-jsp</extracomment>
+        <translation>Biragiro bya Java Server Page</translation>
+    </message>
+    <message>
+        <source>LESS source code</source>
+        <extracomment>text/x-less</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu LESS</translation>
+    </message>
+    <message>
+        <source>Lex/Flex source code</source>
+        <extracomment>text/x-lex</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Lex/Flex</translation>
+    </message>
+    <message>
+        <source>application log</source>
+        <extracomment>text/x-log</extracomment>
+        <translation>Fayiro ey&apos;ebifudeyo mu puloguramu</translation>
+    </message>
+    <message>
+        <source>Lua source code</source>
+        <extracomment>text/x-lua</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Lua</translation>
+    </message>
+    <message>
+        <source>ML source code</source>
+        <extracomment>text/x-ml</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu ML</translation>
+    </message>
+    <message>
+        <source>Matlab source code</source>
+        <extracomment>text/x-matlab</extracomment>
+        <translation>Fayiro ey&apos;ennono y&apos;ebiragiro bya mu MATLAB</translation>
+    </message>
+    <message>
+        <source>MATLAB data file</source>
+        <extracomment>application/x-matlab-data</extracomment>
+        <translation>Fayiro ya data eya mu MATLAB</translation>
+    </message>
+    <message>
+        <source>Modula source code</source>
+        <extracomment>text/x-modula</extracomment>
+        <translation>Fayiro ey&apos;ennono y&apos;ebiragiro bya mu Modula</translation>
+    </message>
+    <message>
+        <source>Objective-C source code</source>
+        <extracomment>text/x-objcsrc</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Objective C</translation>
+    </message>
+    <message>
+        <source>Ocaml source code</source>
+        <extracomment>text/x-ocaml</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Ocaml</translation>
+    </message>
+    <message>
+        <source>Pascal source code</source>
+        <extracomment>text/x-pascal</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Pascal</translation>
+    </message>
+    <message>
+        <source>Perl script</source>
+        <extracomment>text/x-perl</extracomment>
+        <translation>Fayiro ya biragiro bya mu Perl</translation>
+    </message>
+    <message>
+        <source>PHP script</source>
+        <extracomment>text/x-php</extracomment>
+        <translation>Fayiro ya biragiro bya mu PHP</translation>
+    </message>
+    <message>
+        <source>Prolog source code</source>
+        <extracomment>text/x-prolog</extracomment>
+        <translation>Fayiro ey&apos;ennono y&apos;ebiragiro bya mu Prolog</translation>
+    </message>
+    <message>
+        <source>Python script</source>
+        <extracomment>text/x-python</extracomment>
+        <translation>Fayiro ya biragiro bya mu Python</translation>
+    </message>
+    <message>
+        <source>reStructuredText source code</source>
+        <extracomment>text/x-rst</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu reStructuredText</translation>
+    </message>
+    <message>
+        <source>Rexx source code</source>
+        <extracomment>text/x-rexx</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Rexx</translation>
+    </message>
+    <message>
+        <source>Ruby source code</source>
+        <extracomment>text/x-ruby</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Ruby</translation>
+    </message>
+    <message>
+        <source>Scala source code</source>
+        <extracomment>text/x-scala</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Scala</translation>
+    </message>
+    <message>
+        <source>Scheme source code</source>
+        <extracomment>text/x-scheme</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Scheme</translation>
+    </message>
+    <message>
+        <source>Sed code</source>
+        <extracomment>text/x-sed</extracomment>
+        <translation>Biragiro ebya mu Sed</translation>
+    </message>
+    <message>
+        <source>SQL code</source>
+        <extracomment>text/x-sql</extracomment>
+        <translation>Biragiro bya mu SQL</translation>
+    </message>
+    <message>
+        <source>Smalltalk source code</source>
+        <extracomment>text/x-stsrc</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Smalltalk</translation>
+    </message>
+    <message>
+        <source>Tcl script</source>
+        <extracomment>text/x-tcl</extracomment>
+        <translation>Fayiro ya biragiro bya mu Tcl</translation>
+    </message>
+    <message>
+        <source>Text-based (non-binary) Message</source>
+        <extracomment>text/x-tika-text-based-message</extracomment>
+        <translation>Bigambo bya bubaka</translation>
+    </message>
+    <message>
+        <source>Visual basic source code</source>
+        <extracomment>text/x-vbasic</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Visual basic</translation>
+    </message>
+    <message>
+        <source>VB.NET source code</source>
+        <extracomment>text/x-vbdotnet</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu VB.NET</translation>
+    </message>
+    <message>
+        <source>VBScript source code</source>
+        <extracomment>text/x-vbscript</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu VBScript</translation>
+    </message>
+    <message>
+        <source>Verilog source code</source>
+        <extracomment>text/x-verilog</extracomment>
+        <translation>Fayiro ey&apos;ennono y&apos;ebiragiro bya mu Verilog</translation>
+    </message>
+    <message>
+        <source>VHDL source code</source>
+        <extracomment>text/x-vhdl</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu VHDL</translation>
+    </message>
+    <message>
+        <source>Markdown source code</source>
+        <extracomment>text/x-web-markdown</extracomment>
+        <translation>Fayiro ey&apos;ennono y&apos;ebiragiro bya mu Markdown</translation>
+    </message>
+    <message>
+        <source>Yacc/Bison source code</source>
+        <extracomment>text/x-yacc</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Yacc/Bison</translation>
+    </message>
+    <message>
+        <source>YAML source code</source>
+        <extracomment>text/x-yaml</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu YAML</translation>
+    </message>
+    <message>
+        <source>JPEG 2000 Part 3 (Motion JPEG, MJ2)</source>
+        <extracomment>video/mj2</extracomment>
+        <translation>Kifaananyi ekigoberera omutindo gwa JPEG 2000 Kitundu 3 (Motion JPEG, MJ2)</translation>
+    </message>
+    <message>
+        <source>MPEG Movie Clip</source>
+        <extracomment>video/mpeg</extracomment>
+        <translation>Katundu ka vidiyo ya kika kya MPEG</translation>
+    </message>
+    <message>
+        <source>Ogg Vorbis Video</source>
+        <extracomment>video/ogg</extracomment>
+        <translation>Vidiyo ya kika kya Ogg Vorbis</translation>
+    </message>
+    <message>
+        <source>Ogg Daala Video</source>
+        <extracomment>video/daala</extracomment>
+        <translation>Vidiyo ya kika kya Ogg Daala</translation>
+    </message>
+    <message>
+        <source>Ogg Theora Video</source>
+        <extracomment>video/theora</extracomment>
+        <translation>Vidiyo ya kika kya Ogg Theora</translation>
+    </message>
+    <message>
+        <source>Ogg Packaged Dirac Video</source>
+        <extracomment>video/x-dirac</extracomment>
+        <translation>Fayiro enetissi ey&apos;ekika kya Ogg eyetisse vidiyo ey&apos;ekika kya Dirac</translation>
+    </message>
+    <message>
+        <source>Ogg Packaged OGM Video</source>
+        <extracomment>video/x-ogm</extracomment>
+        <translation>Fayiro enetissi ey&apos;ekika kya Ogg eyetisse vidiyo ey&apos;ekika kya OGM</translation>
+    </message>
+    <message>
+        <source>Ogg Packaged Raw UVS Video</source>
+        <extracomment>video/x-ogguvs</extracomment>
+        <translation>Fayiro enetissi ey&apos;ekika kya Ogg eyetisse fayiro ey&apos;ennono eya vidiyo ey&apos;ekika kya UVS</translation>
+    </message>
+    <message>
+        <source>Ogg Packaged Raw YUV Video</source>
+        <extracomment>video/x-oggyuv</extracomment>
+        <translation>Fayiro enetissi ey&apos;ekika kya Ogg eyetisse fayiro ey&apos;ennono eya vidiyo ey&apos;ekika kya YUV</translation>
+    </message>
+    <message>
+        <source>Ogg Packaged Raw RGB Video</source>
+        <extracomment>video/x-oggrgb</extracomment>
+        <translation>Fayiro enetissi ey&apos;ekika kya Ogg eyetisse fayiro ey&apos;ennono eya vidiyo ey&apos;ekika kya RGB</translation>
+    </message>
+    <message>
+        <source>QuickTime Video</source>
+        <extracomment>video/quicktime</extracomment>
+        <translation>Vidiyo ey&apos;ekika kya QuickTime</translation>
+    </message>
+    <message>
+        <source>Windows Media Metafile</source>
+        <extracomment>application/x-ms-asx</extracomment>
+        <translation>Fayiro ey&apos;ekika kya Windows Media Metafile (fayiro ey&apos;ebiragiro bya mu Windows ebifuga enjolesa ya mediya)</translation>
+    </message>
+    <message>
+        <source>Audio Video Interleave File</source>
+        <extracomment>video/x-msvideo</extracomment>
+        <translation>Fayiro ey&apos;ekika kya Audio Video Interleave</translation>
+    </message>
+    <message>
+        <source>Matroska Media Container</source>
+        <extracomment>application/x-matroska</extracomment>
+        <translation>Fayiro ey&apos;ekika kya Matroska ennetisi ya mediya</translation>
+    </message>
+    <message>
+        <source>Cooltalk Audio</source>
+        <extracomment>x-conference/x-cooltalk</extracomment>
+        <translation>Ebiwulirizibwa eby&apos;ekika kya Cooltalk</translation>
+    </message>
+    <message>
+        <source>FictionBook document</source>
+        <extracomment>application/x-fictionbook+xml</extracomment>
+        <translation>Kiwandike kya kika kya FictionBook</translation>
+    </message>
+    <message>
+        <source>Asciidoc source code</source>
+        <extracomment>text/x-asciidoc</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Asciidoc</translation>
+    </message>
+    <message>
+        <source>D source code</source>
+        <extracomment>text/x-d</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu D</translation>
+    </message>
+    <message>
+        <source>HAML source code</source>
+        <extracomment>text/x-haml</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu HAML</translation>
+    </message>
+    <message>
+        <source>Haxe source code</source>
+        <extracomment>text/x-haxe</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu Haxe</translation>
+    </message>
+    <message>
+        <source>XLIFF 1.2 document</source>
+        <extracomment>application/x-xliff+xml</extracomment>
+        <translation>Kiwandike kya kika kya XLIFF 1.2</translation>
+    </message>
+    <message>
+        <source>XLZ Archive</source>
+        <extracomment>application/x-xliff+zip</extracomment>
+        <translation>Kiwanike kya kika kya XLZ</translation>
+    </message>
+    <message>
+        <source>R source code</source>
+        <extracomment>text/x-rsrc</extracomment>
+        <translation>Obulambe bw&apos;ekiwandike eky&apos;ennono ekya mu R</translation>
     </message>
 </context>
 <context>
@@ -2719,7 +4921,7 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Remote host closed the connection prematurely on %1</source>
-        <translation>Kompyuta ey&apos;ebunaayira empulizagana ku %1 ekuggadewo nga bukyali</translation>
+        <translation>Kompyuta ey&apos;ebunaayira empulizagana ku %1 egiggadewo nga bukyali</translation>
     </message>
 </context>
 <context>
@@ -2746,49 +4948,14 @@ Era oyagala egyibwewo?</translation>
     </message>
 </context>
 <context>
-    <name>QNetworkAccessFtpBackend</name>
-    <message>
-        <source>No suitable proxy found</source>
-        <translation>Tewali kalaani ekozeseka</translation>
-    </message>
-    <message>
-        <source>Cannot open %1: is a directory</source>
-        <translation>Tekisobose okubikkula %1: tterekero</translation>
-    </message>
-    <message>
-        <source>Logging in to %1 failed: authentication required</source>
-        <translation>Okuyingira %1 kugaanye: kyetaagisa kukakasibwa</translation>
-    </message>
-    <message>
-        <source>Error while downloading %1: %2</source>
-        <translation>Okuwanula %1 kuzzemu kiremya: %2</translation>
-    </message>
-    <message>
-        <source>Error while uploading %1: %2</source>
-        <translation>Okuteekayo %1 kuzzemu kiremya: %2</translation>
-    </message>
-</context>
-<context>
     <name>QNetworkReply</name>
     <message>
         <source>Error transferring %1 - server replied: %2</source>
         <translation>Okusimbuliza %1 kuzzemu kiremya - obubaka obuva ku kompyuta esindikirwa: %2</translation>
     </message>
     <message>
-        <source>Network session error.</source>
-        <translation>Olukolagana lwa ku kayungirizi luzzemu kiremya.</translation>
-    </message>
-    <message>
-        <source>Background request not allowed.</source>
-        <translation>Ebiragiro eby&apos;emmanju kakano tebikkirizibwa.</translation>
-    </message>
-    <message>
         <source>backend start error.</source>
         <translation>Wazzewo kiremya mu kutandika puloguramu ey&apos;oku musingi.</translation>
-    </message>
-    <message>
-        <source>Temporary network failure.</source>
-        <translation>Okuwulizagana kukomezedwa mu ngeri ya kiseerabuseera.</translation>
     </message>
     <message>
         <source>Protocol &quot;%1&quot; is unknown</source>
@@ -2814,36 +4981,6 @@ Era oyagala egyibwewo?</translation>
     </message>
 </context>
 <context>
-    <name>QNetworkSession</name>
-    <message>
-        <source>Invalid configuration.</source>
-        <translation>Enteekateeka y&apos;ebyakayungirizi eriwo eremesa omukolo.</translation>
-    </message>
-</context>
-<context>
-    <name>QNetworkSessionPrivateImpl</name>
-    <message>
-        <source>Unknown session error.</source>
-        <translation>Olukolagana lwa ku kayungirizi luzzemu kiremya atategeereka.</translation>
-    </message>
-    <message>
-        <source>The session was aborted by the user or system.</source>
-        <translation>Olukolagana lukomezedwa omukozesa oba sisitemu.</translation>
-    </message>
-    <message>
-        <source>The requested operation is not supported by the system.</source>
-        <translation>Sisitemu eno omukolo ogw&apos;oku kayungirizi ogwo tegusobola.</translation>
-    </message>
-    <message>
-        <source>The specified configuration cannot be used.</source>
-        <translation>Enteekateeka y&apos;ebyakayungirizi erondedwa tekozeseka.</translation>
-    </message>
-    <message>
-        <source>Roaming was aborted or is not possible.</source>
-        <translation>Okukyusanga mukutu guyitibwamu okutuuka ku kayungirizi eya waya tekusoboka oba kukomezedwa.</translation>
-    </message>
-</context>
-<context>
     <name>QOCIDriver</name>
     <message>
         <source>Unable to initialize</source>
@@ -2860,7 +4997,7 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Tekisobose okukazza ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
@@ -2918,7 +5055,7 @@ Era oyagala egyibwewo?</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Tekisobose okukazza ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
@@ -2939,6 +5076,11 @@ Kebera enteekateeka za puloguramu ekutabaganira ODBC ne kompyuta yo</translation
     <message>
         <source>Unable to execute statement</source>
         <translation>Tekisobose okutandika ekiragiro ekya mu ggwanika lya data</translation>
+    </message>
+    <message>
+        <source>QODBCResult::reset: Unable to set &apos;SQL_ATTR_CURSOR_TYPE&apos; as statement attribute. Please check your ODBC driver configuration</source>
+        <translation>QODBCResult::reset: Tekisobose okutegeka &apos;SQL_ATTR_CURSOR_TYPE&apos; okubeera atiributo y&apos;ekiragiro kya mu ggwanika lya data.
+Kebera enteekateeka za puloguramu ekutabaganira ODBC ne kompyuta yo</translation>
     </message>
     <message>
         <source>Unable to fetch</source>
@@ -2974,6 +5116,10 @@ Kebera enteekateeka za puloguramu ekutabaganira ODBC ne kompyuta yo</translation
     <message>
         <source>Unable to connect</source>
         <translation>Okukwatagana kulemye</translation>
+    </message>
+    <message>
+        <source>Unable to set client encoding to &apos;UNICODE&apos;</source>
+        <translation>Tekisobose okutegeka enkongojja ekozesebwa kasitoma ebeere &apos;UNICODE&apos;</translation>
     </message>
     <message>
         <source>Could not begin transaction</source>
@@ -3853,7 +5999,8 @@ Londa erinnya lya fayiro eddala.</translation>
     <message>
         <source>%1 already exists.
 Do you want to overwrite it?</source>
-        <translation>%1 esangidwa gyeri. Oyagala okugigyawo waddewo kirala?</translation>
+        <translation>%1 esangidwa gyeri.
+Oyagala okugigyawo waddewo kirala?</translation>
     </message>
     <message>
         <source>Options &apos;Pages Per Sheet&apos; and &apos;Page Set&apos; cannot be used together.
@@ -3864,10 +6011,6 @@ Jjululako ekimu.</translation>
     <message>
         <source>The &apos;From&apos; value cannot be greater than the &apos;To&apos; value.</source>
         <translation>Ennamba y&apos;olupapula esooka tekkirizibwa kusinga envanyuma obunene.</translation>
-    </message>
-    <message>
-        <source>OK</source>
-        <translation>Kale</translation>
     </message>
 </context>
 <context>
@@ -4167,6 +6310,22 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
         <translation>Obusobozi bwa kompyuta bufunye kiremya (Omulimu gulemedwa okwekolamu koppi): %1</translation>
     </message>
     <message>
+        <source>Child process modifier threw an exception: %1</source>
+        <translation>Omukolo ogufuulamu omulimu ogutandikidwa gunnaagwo guzzeeko kiremya: %1</translation>
+    </message>
+    <message>
+        <source>Child process modifier reported error: %1</source>
+        <translation>Omukolo ogufuulamu omulimu ogutandikidwa gunnaagwo gulabye awali kiremya: %1</translation>
+    </message>
+    <message>
+        <source>Child process modifier reported error: %1: %2</source>
+        <translation>Omukolo ogufuulamu omulimu ogutandikidwa gunnaagwo gulabye awali kiremya: %1: %2</translation>
+    </message>
+    <message>
+        <source>Child process set up failed: %1: %2</source>
+        <translation>Okutegeka omulimu gutandikibwe gunnaagwo kugaanye: %1: %2</translation>
+    </message>
+    <message>
         <source>Could not open output redirection for writing</source>
         <translation>Tekisobose okubikkula ekifo ekipya awanaateekebwanga ebiva mu mulimu</translation>
     </message>
@@ -4180,57 +6339,6 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     <message>
         <source>Cancel</source>
         <translation>Sazamu</translation>
-    </message>
-</context>
-<context>
-    <name>QRegExp</name>
-    <message>
-        <source>no error occurred</source>
-        <translation>temubadde nsobi</translation>
-    </message>
-    <message>
-        <source>disabled feature used</source>
-        <translation>ekiragiro kigeza okukozesa obusobozi obwaadibizibwa</translation>
-    </message>
-    <message>
-        <source>bad char class syntax</source>
-        <translation>emboozi enoonyako kamu ku lubu lw&apos;obubonero erimu ensobi</translation>
-    </message>
-    <message>
-        <source>bad lookahead syntax</source>
-        <translation>emboozi enoonya kifo mu ginnaayo erimu ensobi</translation>
-    </message>
-    <message>
-        <source>lookbehinds not supported, see QTBUG-2371</source>
-        <translation>emboozi ezinoonya ebikulembera ekifo mu zinnaazo sisitemu eno tezitegeera, soma QTBUG-2371</translation>
-    </message>
-    <message>
-        <source>bad repetition syntax</source>
-        <translation>awalaga obungi bw&apos;ekinoonyezebwa emboozi enoonya waliwo nsobi</translation>
-    </message>
-    <message>
-        <source>invalid octal value</source>
-        <translation>waliwo omuwendo ogw&apos;ennengamunaana omusobu</translation>
-    </message>
-    <message>
-        <source>missing left delim</source>
-        <translation>waliwo awabulako akabonero ak&apos;awuzi ak&apos;oku kkuono</translation>
-    </message>
-    <message>
-        <source>unexpected end</source>
-        <translation>emboozi enoonya ekomye mu ngeri etasuubidwa</translation>
-    </message>
-    <message>
-        <source>met internal limit</source>
-        <translation>ebiragiro ebinoonyesa ebigoberera oba ebikulembera ekifo bisusse obungi mu mboozi</translation>
-    </message>
-    <message>
-        <source>invalid interval</source>
-        <translation>entegeka y&apos;obungi bw&apos;ekinoonyezebwa eriko nsobi</translation>
-    </message>
-    <message>
-        <source>invalid category</source>
-        <translation>enteekateeka y&apos;ekika kya bubonero obwa mu Unicode eriko kiremya</translation>
     </message>
 </context>
 <context>
@@ -4309,7 +6417,7 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>missing ) after (?# comment</source>
-        <translation>waliwo wabula akabonero ) akafundikira ebigambo ebitangaaza ebitandika ne (?#</translation>
+        <translation>waliwo awabula akabonero ) akafundikira ebigambo ebitangaaza ebitandika ne (?#</translation>
     </message>
     <message>
         <source>parentheses are too deeply nested</source>
@@ -4493,7 +6601,7 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>non-octal character in \o{} (closing brace missing?)</source>
-        <translation>\o{} kirimu akabonero akatali ka nnengamunaana (oba ka } (akafundikira ke kataliiko?)</translation>
+        <translation>\o{} kirimu akabonero akatali ka nnengamunaana (oba ka } akafundikira ke kataliiko?)</translation>
     </message>
     <message>
         <source>different names for subpatterns of the same number are not allowed</source>
@@ -4597,7 +6705,7 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>internal error: unknown code in parsed pattern</source>
-        <translation>puloguramu ezzeemu kiremya: esanze ebiragiro by&apos;etategeera mu kinonyezebwa ky&apos;ekebedde</translation>
+        <translation>puloguramu ezzeemu kiremya: esanze ebiragiro by&apos;etategeera mu kinoonyezebwa ky&apos;ekebedde</translation>
     </message>
     <message>
         <source>internal error: bad code value in parsed_skip()</source>
@@ -4813,7 +6921,7 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>bad JIT option</source>
-        <translation>waliwo akawayiro aka JIT akasobi</translation>
+        <translation>akawayiro aka bad JIT</translation>
     </message>
     <message>
         <source>JIT stack limit reached</source>
@@ -4899,35 +7007,9 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
         <source>PCRE2_MATCH_INVALID_UTF is not supported for DFA matching</source>
         <translation>PCRE2_MATCH_INVALID_UTF tekikolagana n&apos;ogw&apos;okunoonya ogwa puloguramu eyekozesa emikolo emibale</translation>
     </message>
-</context>
-<context>
-    <name>QSQLite2Driver</name>
     <message>
-        <source>Error opening database</source>
-        <translation>Wazzewo kiremya mu kubikkula ggwanika lya data</translation>
-    </message>
-    <message>
-        <source>Unable to begin transaction</source>
-        <translation>Tekisobose okutandika omukolo</translation>
-    </message>
-    <message>
-        <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
-    </message>
-    <message>
-        <source>Unable to rollback transaction</source>
-        <translation>Tekisobose okujjulula ebikyusidwa</translation>
-    </message>
-</context>
-<context>
-    <name>QSQLite2Result</name>
-    <message>
-        <source>Unable to fetch results</source>
-        <translation>Tekisobose okunona ebivudde mu kunoonya</translation>
-    </message>
-    <message>
-        <source>Unable to execute statement</source>
-        <translation>Tekisobose okutandika ekiragiro ekya mu ggwanika lya data</translation>
+        <source>INTERNAL ERROR: invalid substring offset</source>
+        <translation>PULOGURAMU EZZEEMU KIREMYA: entandikwa y&apos;ekitundu ky&apos;ekinoonyezebwa eweeredwa tekozeseka</translation>
     </message>
 </context>
 <context>
@@ -4946,7 +7028,7 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>Tekisobose okukaza ebikyusidwa</translation>
+        <translation>Tekisobose okukazza ebikyusidwa</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
@@ -5068,10 +7150,6 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
 <context>
     <name>QSharedMemory</name>
     <message>
-        <source>%1: unable to set key on lock</source>
-        <translation>%1: waliwo ekikugizo ekigaana ekitundu ky&apos;eggwanika okugabanibwa</translation>
-    </message>
-    <message>
         <source>%1: create size is less then 0</source>
         <translation>%1: obunene obutegekedwa ku kitundu ky&apos;eggwanika ekikolebwawo bwa negatifu</translation>
     </message>
@@ -5092,14 +7170,6 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
         <translation>%1: waliwo ekituumidwa erinnya eritakozeseka</translation>
     </message>
     <message>
-        <source>%1: UNIX key file doesn&apos;t exist</source>
-        <translation>%1: ftok teraba fayiro gy&apos;ekolera ennambakifo</translation>
-    </message>
-    <message>
-        <source>%1: ftok failed</source>
-        <translation>%1: ftok eremeredwa</translation>
-    </message>
-    <message>
         <source>%1: unable to make key</source>
         <translation>%1: tekisobose okukola ennambakifo</translation>
     </message>
@@ -5110,6 +7180,14 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     <message>
         <source>%1: not attached</source>
         <translation>%1: ekitundu ky&apos;eggwanika tekikwataganizidwa</translation>
+    </message>
+    <message>
+        <source>%1: unsupported key type</source>
+        <translation>%1: waliwo ennamba y&apos;endagiriro ey&apos;ekika ekitategeereka</translation>
+    </message>
+    <message>
+        <source>%1: unable to set key on lock (%2)</source>
+        <translation>%1: waliwo ekikugizo ekigaana ekitundu ky&apos;eggwanika okugabanibwa (%2)</translation>
     </message>
     <message>
         <source>%1: permission denied</source>
@@ -5128,8 +7206,8 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
         <translation>%1: sisitemu bye yeyambsa okukola omulimu tebimala, byonna bikozesebwa</translation>
     </message>
     <message>
-        <source>%1: unknown error %2</source>
-        <translation>%1: wazzewo kiremya atategeereka %2</translation>
+        <source>%1: unknown error: %2</source>
+        <translation>%1: wazzewo kiremya atategeereka: %2</translation>
     </message>
     <message>
         <source>%1: invalid size</source>
@@ -5511,14 +7589,17 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Application Left</source>
+        <translatorcomment>Go to the program on the left</translatorcomment>
         <translation>Puloguramu Kkono</translation>
     </message>
     <message>
         <source>Application Right</source>
+        <translatorcomment>Go to the program on the right</translatorcomment>
         <translation>Puloguramu Ddyo</translation>
     </message>
     <message>
         <source>Book</source>
+        <translatorcomment>Launch book reader program</translatorcomment>
         <translation>Kitabo</translation>
     </message>
     <message>
@@ -5559,10 +7640,12 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Display</source>
+        <translatorcomment>Switch to another display</translatorcomment>
         <translation>Lutimbe</translation>
     </message>
     <message>
         <source>DOS</source>
+        <translatorcomment>Launch DOS emulator program</translatorcomment>
         <translation>DOS</translation>
     </message>
     <message>
@@ -5583,10 +7666,12 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>Go</source>
+        <translatorcomment>Go to a URL</translatorcomment>
         <translation>Genda Yo</translation>
     </message>
     <message>
         <source>iTouch</source>
+        <translatorcomment>Logitech iTouch</translatorcomment>
         <translation>iTouch</translation>
     </message>
     <message>
@@ -6137,6 +8222,10 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
         <translation>Siba akasongesebwa k&apos;osiisiriza</translation>
     </message>
     <message>
+        <source>Control</source>
+        <translation>Control</translation>
+    </message>
+    <message>
         <source>Ctrl</source>
         <translation>Ctrl</translation>
     </message>
@@ -6245,7 +8334,7 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     <message>
         <source>scroll bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>Akaseesa</translation>
+        <translation>akaseesa</translation>
     </message>
     <message>
         <source>grip</source>
@@ -6274,15 +8363,13 @@ Eky&apos;okulabirako: Bw&apos;owandika 3,5-7,9 empapula namba 3, 5, 6, 7 ne 9 ze
     </message>
     <message>
         <source>frame</source>
-        <extracomment>Role of an accessible object: a window with frame and title
-----------
-Role of an accessible object</extracomment>
+        <extracomment>Role of an accessible object: a window with frame and title</extracomment>
         <translation>mwango</translation>
     </message>
     <message>
         <source>filler</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>Akajjuzabbanga</translation>
+        <translation>akajjuzabbanga</translation>
     </message>
     <message>
         <source>popup menu</source>
@@ -6595,6 +8682,11 @@ Role of an accessible object</extracomment>
         <translation>okutangaaza</translation>
     </message>
     <message>
+        <source>block quote</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>k&apos;ogezakitundu</translation>
+    </message>
+    <message>
         <source>unknown</source>
         <extracomment>Role of an accessible object</extracomment>
         <translation>kitategeerese</translation>
@@ -6644,10 +8736,6 @@ Role of an accessible object</extracomment>
     <message>
         <source>Invalid or empty cipher list (%1)</source>
         <translation>Enkisawaza eziri ku lukalala tezikozeseka oba lukalala lwereere (%1)</translation>
-    </message>
-    <message>
-        <source>Cannot provide a certificate with no key, %1</source>
-        <translation>Tekisobose okugaba mmatizo nga tewali kasumuluzo, %1</translation>
     </message>
     <message>
         <source>Error loading local certificate, %1</source>
@@ -6735,7 +8823,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>The root certificate of the certificate chain is self-signed, and untrusted</source>
-        <translation>Emmatizo ey&apos;ennono mu ngobereragana y&apos;emmatiozo teyesigika kubanga teyava wa mugabi wazo</translation>
+        <translation>Emmatizo ey&apos;ennono mu ngobereragana y&apos;emmatizo teyesigika kubanga teyava wa mugabi wazo</translation>
     </message>
     <message>
         <source>The issuer certificate of a locally looked up certificate could not be found</source>
@@ -6927,7 +9015,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>Access denied</source>
-        <translation>Okuyingira kugaanye olw&apos;okubeera nti ebisaanyizo ebiweredwayo tebikozeka</translation>
+        <translation>Okuyingira kugaanye olw&apos;okubeera nti ebisaanyizo ebiweredwayo tebikozeseka</translation>
     </message>
     <message>
         <source>No authority could be contacted for authorization</source>
@@ -6960,6 +9048,10 @@ Role of an accessible object</extracomment>
     <message>
         <source>The data could not be encrypted</source>
         <translation>Tekisobose okukisawaza data</translation>
+    </message>
+    <message>
+        <source>The data could not be decrypted</source>
+        <translation>Tekisobose okukisulula data</translation>
     </message>
     <message>
         <source>No cipher suites in common</source>
@@ -7073,6 +9165,10 @@ Role of an accessible object</extracomment>
         <translation>Ggwanika ly&apos;ebyanguyisa</translation>
     </message>
     <message>
+        <source>State</source>
+        <translation>Embeera</translation>
+    </message>
+    <message>
         <source>Shared Data</source>
         <translation>Ebigabanibwa</translation>
     </message>
@@ -7093,8 +9189,20 @@ Role of an accessible object</extracomment>
         <translation>Ggwanika ly&apos;ebyanguyisa erigabanibwa</translation>
     </message>
     <message>
+        <source>Shared State</source>
+        <translation>Embeera Egabanibwa</translation>
+    </message>
+    <message>
         <source>Download</source>
         <translation>Ebiwanudwa</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Bya Bonna</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Entiba</translation>
     </message>
     <message>
         <source>Application Data</source>
@@ -7104,32 +9212,18 @@ Role of an accessible object</extracomment>
         <source>Application Configuration</source>
         <translation>Enteekateeka za Puloguramu</translation>
     </message>
-</context>
-<context>
-    <name>QStateMachine</name>
     <message>
-        <source>Missing initial state in compound state &apos;%1&apos;</source>
-        <translation>Sisitemu eyingira mbeera efuulikamu &apos;%1&apos; etalina mbeera ey&apos;entandikwa</translation>
-    </message>
-    <message>
-        <source>Missing default state in history state &apos;%1&apos;</source>
-        <translation>Embeera sisitemu gyeyabeeramu ko &apos;%1&apos; terina mbeera eyekubirwa</translation>
-    </message>
-    <message>
-        <source>No common ancestor for targets and source of transition from state &apos;%1&apos;</source>
-        <translation>Entandikwa n&apos;ekigenderwa eby&apos;enkyuka okuva mu mbeera &apos;%1&apos; tebiri mu sisitemu ya mbeera y&apos;emu</translation>
-    </message>
-    <message>
-        <source>Child mode of state machine &apos;%1&apos; is not &apos;ExclusiveStates&apos;.</source>
-        <translation>Sisitemu y&apos;embeera &apos;%1&apos; enyingira y&apos;embeera ya yo tetegekedwa okubeera &apos;ExclusiveStates&apos;.</translation>
-    </message>
-    <message>
-        <source>Unknown error</source>
-        <translation>Wazzewo kiremya atategeereka</translation>
+        <source>Temporary Items</source>
+        <extracomment>macOS: Temporary directory</extracomment>
+        <translation>Eby&apos;ekiseerabuseera</translation>
     </message>
 </context>
 <context>
     <name>QSystemSemaphore</name>
+    <message>
+        <source>%1: unsupported key type</source>
+        <translation>%1: waliwo ennamba y&apos;endagiriro ey&apos;ekika ekitategeereka</translation>
+    </message>
     <message>
         <source>%1: permission denied</source>
         <translation>%1: Olukusa teruweeredwa</translation>
@@ -7147,19 +9241,28 @@ Role of an accessible object</extracomment>
         <translation>%1: sisitemu bye yeyambsa okukola omulimu tebimala, byonna bikozesebwa</translation>
     </message>
     <message>
-        <source>%1: unknown error %2</source>
-        <translation>%1: wazzewo kiremya atategeereka %2</translation>
-    </message>
-</context>
-<context>
-    <name>QTDSDriver</name>
-    <message>
-        <source>Unable to open connection</source>
-        <translation>Tekisobose okuteekawo okukwatagana</translation>
+        <source>%1: key too long</source>
+        <translation>%1: ennamba ey&apos;endagiriro eyitiridde obuwanvu</translation>
     </message>
     <message>
-        <source>Unable to use database</source>
-        <translation>Tekisobose okukozesa ggwanika lya data</translation>
+        <source>%1: unknown error: %2</source>
+        <translation>%1: wazzewo kiremya atategeereka: %2</translation>
+    </message>
+    <message>
+        <source>%1: key is empty</source>
+        <translation>%1: ennamba ey&apos;endagiriro bbanga jjereere</translation>
+    </message>
+    <message>
+        <source>%1: System V semaphores are not available for sandboxed applications. Please build Qt with -feature-ipc_posix</source>
+        <translation>%1: Puloguramu ezikola nga z&apos;awulidwa ku mirimu egya bulijjo tezikkirizibwa okweyambisa semafora eza System V. Qt wetaaga okugitegeka nga otaddeko n&apos;akwayiro aka -feature-ipc_posix</translation>
+    </message>
+    <message>
+        <source>%1: unable to make key</source>
+        <translation>%1: tekisobose okukola ennamba ey&apos;endagiriro</translation>
+    </message>
+    <message>
+        <source>%1: ftok failed</source>
+        <translation>%1: ftok eremeredwa</translation>
     </message>
 </context>
 <context>
@@ -7409,13 +9512,20 @@ Role of an accessible object</extracomment>
         <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
 
 The minimum Direct2D version required is %1. The Direct2D version on this system is %2.</source>
-        <translation>Qt tesobodde okuwanga ekyongerwako ekya &apos;direct2d&apos; kubanga oluwandika lwa eya ku sisitemu eno lwa dda ekiyitiridde. Kyetaagisa Windows 7 ey&apos;entumbuzi ezisinga obujja oba Windows empya okusinga awo.
+        <translation>Qt tesobodde okuwanga ekyongerwako ekya &apos;direct2d&apos; kubanga oluwandika lwa ekya ku sisitemu eno lwa dda ekiyitiridde. Kyetaagisa Windows 7 ey&apos;entumbuzi ezisinga obujja oba Windows empya okusinga awo.
 
 Oluwandika lwa &apos;Direct2D&apos; olusinga obukadde olukola lwe olwa %1. Oluwandika olwa &apos;Direct2D&apos; olwa ku sisitemu eno lwo lwa %2.</translation>
     </message>
     <message>
         <source>Cannot load direct2d platform plugin</source>
         <translation>Tekisobose okuwanga ekyongerwako ekya &apos;direct2d&apos;</translation>
+    </message>
+</context>
+<context>
+    <name>QWindowsUiaMainProvider</name>
+    <message>
+        <source>blockquote</source>
+        <translation>k&apos;ogezakitundu</translation>
     </message>
 </context>
 <context>
@@ -7466,102 +9576,6 @@ Oluwandika lwa &apos;Direct2D&apos; olusinga obukadde olukola lwe olwa %1. Oluwa
     </message>
 </context>
 <context>
-    <name>QXml</name>
-    <message>
-        <source>no error occurred</source>
-        <translation>temubadde nsobi</translation>
-    </message>
-    <message>
-        <source>error triggered by consumer</source>
-        <translation>kiremya avudde ku puloguramu ekola ku by&apos;esanzewo</translation>
-    </message>
-    <message>
-        <source>unexpected end of file</source>
-        <translation>fayiro ekomye mu ngeri etasuubidwa</translation>
-    </message>
-    <message>
-        <source>more than one document type definition</source>
-        <translation>enteekateeka z&apos;ebika by&apos;ebitundu ebikozesebwa mu kiwandiko zisukka mu kimu</translation>
-    </message>
-    <message>
-        <source>error occurred while parsing element</source>
-        <translation>Wazzewo kiremya mu kukeberera mateeka g&apos;empandika mu kitundu ky&apos;ekiwandiko</translation>
-    </message>
-    <message>
-        <source>tag mismatch</source>
-        <translation>waliwo ekigambo ekiramba entandikwa y&apos;ekitundu eky&apos;ekiwandiko we kitagendera ku kiramba gye kikoma</translation>
-    </message>
-    <message>
-        <source>error occurred while parsing content</source>
-        <translation>wazzewo kiremya mu kukeberera mateeka g&apos;empandika mu kitundu ky&apos;ekiwandiko</translation>
-    </message>
-    <message>
-        <source>unexpected character</source>
-        <translation>akabonero kasangidwa we kabadde tekasuubidwa</translation>
-    </message>
-    <message>
-        <source>invalid name for processing instruction</source>
-        <translation>ekiragiro ekya mu XML eky&apos;enjawulo kituumidwa erinnya eritakozeseka</translation>
-    </message>
-    <message>
-        <source>version expected while reading the XML declaration</source>
-        <translation>ekitundu ekiteekateeka enkozesa ya XML kibulamu ekiraga oluwandika olugobererwa</translation>
-    </message>
-    <message>
-        <source>wrong value for standalone declaration</source>
-        <translation>ekyasanguzo ekiraga puloguramu oba waliwo enteekateeka z&apos;enkozesa ya XML mu kiwandiko ekirala kirimu ekikongojje ekisobi</translation>
-    </message>
-    <message>
-        <source>encoding declaration or standalone declaration expected while reading the XML declaration</source>
-        <translation>ekitundu ekiteekateeka enkozesa ya XML kibula mu ekyasanguzo ekiraga olulyo lw&apos;ennamba ezikongojja
-obubonero oba ekiraga oba waliwo enteekateeka z&apos;enkozesa ya XML mu kiwandiko ekirala</translation>
-    </message>
-    <message>
-        <source>standalone declaration expected while reading the XML declaration</source>
-        <translation>ekitundu ekiteekateeka enkozesa ya XML kibulamu ekiraga oba waliwo enteekateeka z&apos;enkozesa ya XML mu kiwandiko ekirala</translation>
-    </message>
-    <message>
-        <source>error occurred while parsing document type definition</source>
-        <translation>wazzewo kiremya mu kukeberera enteekateeka z&apos;ebika by&apos;ebitundu ebikozesebwa mu kiwandiko</translation>
-    </message>
-    <message>
-        <source>letter is expected</source>
-        <translation>wabadde wasuubidwawo nnukuta</translation>
-    </message>
-    <message>
-        <source>error occurred while parsing comment</source>
-        <translation>Wazzewo kiremya mu kukebera ebigambo ebinnonyola ebya mu kifo ekisukka mu kimu</translation>
-    </message>
-    <message>
-        <source>error occurred while parsing reference</source>
-        <translation>wazzewo kiremya mu kukebera obubonero obukongojja kannaabwo</translation>
-    </message>
-    <message>
-        <source>internal general entity reference not allowed in DTD</source>
-        <translation>tekikkirizibwa okukozesa obubonero obukongojja okukwatira ekikongojjabingi ekifo awategeka ebika by&apos;ebitundu ebikozesebwa mu kiwandiko</translation>
-    </message>
-    <message>
-        <source>external parsed general entity reference not allowed in attribute value</source>
-        <translation>ebikongojje ebya mu atiributo tebikkirizibwa okubeeramu ebigambo ebiwandisawo ebikongozzi ebikongojjabingi ebikeberwa</translation>
-    </message>
-    <message>
-        <source>external parsed general entity reference not allowed in DTD</source>
-        <translation>tebikkirizibwa okuteeka ebigambo ebiwandisawo ebikongozzi ebikongojjabingi ebikeberwa awategeka ebika by&apos;ebitundu ebikozesebwa mu kiwandiko</translation>
-    </message>
-    <message>
-        <source>unparsed entity reference in wrong context</source>
-        <translation>ekigambo ekiwandisawo ekikongozzi ekitaakeberwe kisangidwa we kitandibadde</translation>
-    </message>
-    <message>
-        <source>recursive entities</source>
-        <translation>mulimu ebikongozzi ebyekongojja</translation>
-    </message>
-    <message>
-        <source>error in the text declaration of an external entity</source>
-        <translation>wazzewo kiremya mu kyasanguzo ekiraga oluwandika lwa XML olugobererwa n&apos;olulyo lw&apos;ennamba ezikongojja obubonero eky&apos;omu kikongozzi ekinone</translation>
-    </message>
-</context>
-<context>
     <name>QXmlStream</name>
     <message>
         <source>Extra content at end of document.</source>
@@ -7581,7 +9595,7 @@ obubonero oba ekiraga oba waliwo enteekateeka z&apos;enkozesa ya XML mu kiwandik
     </message>
     <message>
         <source>Encountered incorrectly encoded content.</source>
-        <translation>Waliwo ebyolesebwa ebyeyambisa olulyo lw&apos;ennamba enkongozzi etali ntuufu.</translation>
+        <translation>Waliwo ebyolesebwa ebyeyambisa olulyo lw&apos;ennamba enkongozzi olutali lutuufu.</translation>
     </message>
     <message>
         <source>Namespace prefix &apos;%1&apos; not declared</source>
@@ -7625,8 +9639,16 @@ atiributo ennefaananyirize eraga oba waliwo enteekateeka z&apos;enkozesa ya XML 
         <translation>Ekyasanguzo ekiraga puloguramu oba waliwo enteekateeka z&apos;enkozesa ya XML mu kiwandiko ekirala kijjuzibwamu yes oba no byokka.</translation>
     </message>
     <message>
-        <source>Invalid attribute in XML declaration.</source>
-        <translation>Ekitundu ekiteekateeka enkozesa ya XML mu kiwandiko kirimu atiributo etakkirizibwa.</translation>
+        <source>Invalid attribute in XML declaration: %1 = %2</source>
+        <translation>Ekitundu ekiteekateeka enkozesa ya XML mu kiwandiko kirimu atiributo etakkirizibwa: %1 = %2</translation>
+    </message>
+    <message>
+        <source>Unexpected token type %1 in %2.</source>
+        <translation>Tokeni ey&apos;ekika kya %1 etasuubirwawo esangidwa mu %2.</translation>
+    </message>
+    <message>
+        <source>Found second DTD token in %1.</source>
+        <translation>%1 erimu tokeni eya DTD ey&apos;okubiri.</translation>
     </message>
     <message>
         <source>Premature end of document.</source>
@@ -7635,6 +9657,10 @@ atiributo ennefaananyirize eraga oba waliwo enteekateeka z&apos;enkozesa ya XML 
     <message>
         <source>Invalid document.</source>
         <translation>Ekiwandiko tekikozeseka.</translation>
+    </message>
+    <message>
+        <source>Length of XML attribute name exceeds implementation limits (4KiB characters).</source>
+        <translation>Waliwo atiributo eya mu XML eweeredwa erinnya eriwanvu okusinga ekkomo lya sisitemu eno (obubonero obukozesa KiB ezitasussa 4).</translation>
     </message>
     <message>
         <source>&apos;%1&apos;</source>
@@ -7727,6 +9753,267 @@ atiributo ennefaananyirize eraga oba waliwo enteekateeka z&apos;enkozesa ya XML 
     <message>
         <source>Invalid character reference.</source>
         <translation>Waliwo awali obubonero obukongojja kannabwo obutakozeseka.</translation>
+    </message>
+</context>
+<context>
+    <name>QAxSelect</name>
+    <message>
+        <source>Select ActiveX Control</source>
+        <translation>Londa Kapuloguramu Akayambi Aka Mu ActiveX</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Ekisunsuzibwa</translation>
+    </message>
+    <message>
+        <source>COM &amp;Object:</source>
+        <translation>Ekyetongole ekya C&amp;OM:</translation>
+    </message>
+    <message>
+        <source>Sandboxing:</source>
+        <translation>Okwawulibwa:</translation>
+    </message>
+    <message>
+        <source>Name:</source>
+        <translation>Linnya:</translation>
+    </message>
+    <message>
+        <source>Type:</source>
+        <translation>Kika kya yo:</translation>
+    </message>
+    <message>
+        <source>In process</source>
+        <translation>N&apos;eyazike</translation>
+    </message>
+    <message>
+        <source>Out of process</source>
+        <translation>N&apos;etonguvu</translation>
+    </message>
+    <message>
+        <source>CLSID:</source>
+        <translation>CLSID:</translation>
+    </message>
+    <message>
+        <source>Key:</source>
+        <translation>Kasumuluzo:</translation>
+    </message>
+    <message>
+        <source>Word&amp;nbsp;size:</source>
+        <translation>Kigero&amp;nbsp;ky&apos;ekigambo:</translation>
+    </message>
+    <message>
+        <source>DLL:</source>
+        <translation>DLL:</translation>
+    </message>
+    <message>
+        <source>Binary:</source>
+        <translation>Kiwandike kya mu binariyo:</translation>
+    </message>
+    <message>
+        <source>Version:</source>
+        <translation>Luwandika:</translation>
+    </message>
+</context>
+<context>
+    <name>Assets::Downloader::AssetDownloader</name>
+    <message>
+        <source>Downloading JSON file...</source>
+        <translation>Mpanula fayiro ey&apos;ekika kya SON...</translation>
+    </message>
+    <message>
+        <source>Downloading zip file...</source>
+        <translation>Mpanula fayiro ey&apos;ekika kya zip...</translation>
+    </message>
+    <message>
+        <source>Unzipping...</source>
+        <translation>Mpakulula...</translation>
+    </message>
+    <message>
+        <source>Downloading assets...</source>
+        <translation>Mpanula bintu...</translation>
+    </message>
+    <message>
+        <source>Copying assets...</source>
+        <translation>Nkola koppi z&apos;ebintu...</translation>
+    </message>
+</context>
+<context>
+    <name>QFactoryLoader</name>
+    <message>
+        <source>Metadata parsing error: %1</source>
+        <translation>Wazzewo kiremya mu kukebera meta-data: %1</translation>
+    </message>
+    <message>
+        <source>Invalid metadata version</source>
+        <translation>Oluwandika lwa meta-data luno tulukozeseka</translation>
+    </message>
+    <message>
+        <source>Unexpected metadata contents</source>
+        <translation>Metadata mulimu ebitakkirizibwa</translation>
+    </message>
+</context>
+<context>
+    <name>QAbstractFileIconProvider</name>
+    <message>
+        <source>Drive</source>
+        <translation>Kibondo</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fayiro</translation>
+    </message>
+    <message>
+        <source>File Folder</source>
+        <comment>Match Windows Explorer</comment>
+        <translation>Tterekero lya Fayiro</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <comment>All other platforms</comment>
+        <translation>Tterekero</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <comment>macOS Finder</comment>
+        <translation>Nyunzi</translation>
+    </message>
+    <message>
+        <source>Shortcut</source>
+        <comment>All other platforms</comment>
+        <translation>Nyunzi</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Kitategeerese</translation>
+    </message>
+</context>
+<context>
+    <name>QCocoaMenuBar</name>
+    <message>
+        <source>Edit</source>
+        <translation>Kyusamu</translation>
+    </message>
+</context>
+<context>
+    <name>quiaccessibilityelement</name>
+    <message>
+        <source>checked</source>
+        <translation>watonyeze</translation>
+    </message>
+    <message>
+        <source>unchecked</source>
+        <translation>ssi watonnyeze</translation>
+    </message>
+</context>
+<context>
+    <name>QMimerSQL</name>
+    <message>
+        <source>No Mimer SQL error for code %1</source>
+        <translation>Mu SQL owa Mimer temuli kiremya owa namba %1</translation>
+    </message>
+    <message>
+        <source>Generic Mimer SQL error</source>
+        <translation>SQL owa Mimer afunye kiremya</translation>
+    </message>
+</context>
+<context>
+    <name>QMimerSQLResult</name>
+    <message>
+        <source>Could not get %1, column %2</source>
+        <extracomment>Data type, column</extracomment>
+        <translation>Tekisobose okufuna %1, kikumbo namba %2</translation>
+    </message>
+    <message>
+        <source>Could not set %1, parameter %2</source>
+        <extracomment>Data type, parameter</extracomment>
+        <translation>Tekisobose okutegeka %1, paramita namba %2</translation>
+    </message>
+    <message>
+        <source>Could not close cursor</source>
+        <translation>Tekisobose okukomya kanonabiwandise</translation>
+    </message>
+    <message>
+        <source>Could not close statement</source>
+        <translation>Tekisobose okukomya ekiragiro ekya mu ggwanika lya data</translation>
+    </message>
+    <message>
+        <source>Fetch did not succeed</source>
+        <translation>Okunona tekuyisemu</translation>
+    </message>
+    <message>
+        <source>Fetch first did not succeed</source>
+        <translation>Okunona ekisooka tekuyisemu</translation>
+    </message>
+    <message>
+        <source>Could not fetch next row</source>
+        <translation>Tekisobose okunona olunyiriri oluddako</translation>
+    </message>
+    <message>
+        <source>Unknown data type %1</source>
+        <translation>Ekika kya data %1 tekitegeerese</translation>
+    </message>
+    <message>
+        <source>Could not check null, column %1</source>
+        <translation>Ssi null, kikumbo %1</translation>
+    </message>
+    <message>
+        <source>Could not prepare/execute statement</source>
+        <translation>Tekisobose okutandika oba okutegeka kiragiro kya SQL kiddibwengamu mangu</translation>
+    </message>
+    <message>
+        <source>Wrong number of parameters</source>
+        <translation>Obungi bwa paramita ssi butuufu</translation>
+    </message>
+    <message>
+        <source>Unknown datatype, parameter %1</source>
+        <translation>Ekika kya data paramita %1 tekitegeerese</translation>
+    </message>
+    <message>
+        <source>Could not execute statement/open cursor</source>
+        <translation>Tekisobose okutandika kiragiro oba akanonakiwandise</translation>
+    </message>
+    <message>
+        <source>Only input parameters can be used in batch operations</source>
+        <translation>Ebiragiro ebigattike okkirizibwa okubitegekera paramita ez&apos;ebikolebwako naye ssi ez&apos;ebivamu</translation>
+    </message>
+    <message>
+        <source>Could not add batch %1</source>
+        <extracomment>%1 is the batch number</extracomment>
+        <translation>Tekisobose okwongerako ekigattike %1</translation>
+    </message>
+    <message>
+        <source>Could not execute batch</source>
+        <translation>Tekisobose okutandika ekigattike</translation>
+    </message>
+</context>
+<context>
+    <name>QMimerSQLResult:</name>
+    <message>
+        <source>Fetch last did not succeed</source>
+        <translation>Omukolo ogwa fetchLast gulemye</translation>
+    </message>
+    <message>
+        <source>Column %1 out of range</source>
+        <translation>Ekikumbo namba %1 tekituukikako</translation>
+    </message>
+</context>
+<context>
+    <name>QMimerSQLDriver</name>
+    <message>
+        <source>Could not connect to database</source>
+        <translation>Tekisobose okukwatagana n&apos;eggwanika lya data</translation>
+    </message>
+    <message>
+        <source>Could not start transaction</source>
+        <translation>tekisobose okutandika omukolo ogwa mu ggwanika lya data</translation>
+    </message>
+    <message>
+        <source>Could not commit transaction</source>
+        <translation>Tekisobose okukaza ebikyusidwa</translation>
+    </message>
+    <message>
+        <source>Could not roll back transaction</source>
+        <translation>Tekisobose okujjulula ebikyusidwa</translation>
     </message>
 </context>
 </TS>
