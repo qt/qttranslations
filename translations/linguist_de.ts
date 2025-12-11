@@ -131,32 +131,32 @@ Es wird mit einer einfachen Universalform gearbeitet.</translation>
 <context>
     <name>ErrorsView</name>
     <message>
-        <source>Accelerator possibly superfluous in translation.</source>
-        <translation>Möglicherweise überflüssiger Kurzbefehl im Übersetzungstext.</translation>
+        <source>Accelerator possibly superfluous in translation: %1</source>
+        <translation>Möglicherweise überflüssiger Kurzbefehl im Übersetzungstext: %1</translation>
     </message>
     <message>
-        <source>Accelerator possibly missing in translation.</source>
-        <translation>Kurzbefehl fehlt im Übersetzungstext.</translation>
+        <source>Accelerator possibly missing in translation: %1</source>
+        <translation>Kurzbefehl fehlt im Übersetzungstext: %1</translation>
     </message>
     <message>
-        <source>Translation does not have same leading and trailing whitespace as the source text.</source>
-        <translation>Die Leerzeichen am Anfang bzw. Ende des Übersetzungstextes stimmen nicht mit denen des Ursprungstextes überein.</translation>
+        <source>Translation does not have same leading and trailing whitespace as the source text: %1</source>
+        <translation>Die Leerzeichen am Anfang bzw. Ende des Übersetzungstextes stimmen nicht mit denen des Ursprungstextes überein: %1</translation>
     </message>
     <message>
-        <source>Translation does not end with the same punctuation as the source text.</source>
-        <translation>Interpunktion am Ende des Übersetzungstextes unterscheidet sich von Interpunktion des Ursprungstextes.</translation>
+        <source>Translation does not end with the same punctuation as the source text: %1</source>
+        <translation>Interpunktion am Ende des Übersetzungstextes unterscheidet sich von der Interpunktion des Ursprungstextes: %1</translation>
     </message>
     <message>
         <source>A phrase book suggestion for &apos;%1&apos; was ignored.</source>
         <translation>Ein Vorschlag aus dem Wörterbuch für &apos;%1&apos; wurde nicht berücksichtigt.</translation>
     </message>
     <message>
-        <source>Translation does not refer to the same place markers as in the source text.</source>
-        <translation>Platzhalter im Übersetzungstext und Ursprungstext unterscheiden sich.</translation>
+        <source>Translation does not refer to the same place markers as in the source text: %1</source>
+        <translation>Platzhalter im Übersetzungstext und Ursprungstext unterscheiden sich: %1</translation>
     </message>
     <message>
-        <source>Translation does not contain the necessary %n/%Ln place marker.</source>
-        <translation>Der erforderliche Platzhalter (%n/%Ln) fehlt in der Übersetzung.</translation>
+        <source>Translation does not contain the necessary %n/%Ln place marker: %1</source>
+        <translation>Der erforderliche Platzhalter (%n/%Ln) fehlt in der Übersetzung: %1</translation>
     </message>
     <message>
         <source>Unknown error</source>
@@ -737,20 +737,28 @@ Es wird mit einer einfachen Universalform gearbeitet.</translation>
         <translation>Ursprungstext</translation>
     </message>
     <message>
-        <source>Index</source>
-        <translation>Index</translation>
-    </message>
-    <message>
         <source>Context</source>
         <translation>Kontext</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Label</translation>
     </message>
     <message>
         <source>Items</source>
         <translation>Einträge</translation>
     </message>
     <message>
+        <source>Context/Label</source>
+        <translation>Kontext/Label</translation>
+    </message>
+    <message>
         <source>This panel lists the source contexts.</source>
         <translation>Dieser Bereich zeigt die Kontexte an.</translation>
+    </message>
+    <message>
+        <source>This panel lists the source labels.</source>
+        <translation>Dieser Bereich zeigt die Labels der Quelldatei an.</translation>
     </message>
     <message>
         <source>Strings</source>
@@ -817,10 +825,37 @@ Soll die erstgenannte Datei übersprungen werden?</translation>
         <translation>Datei gespeichert.</translation>
     </message>
     <message>
+        <source>Please select a file to be saved.</source>
+        <translation>Bitte wählen Sie eine Datei zum Speichern.</translation>
+    </message>
+    <message>
+        <source>This function is not available on WebAssembly</source>
+        <translation>Diese Funktion ist für WebAssembly nicht verfügbar</translation>
+    </message>
+    <message>
         <source>Qt message files for released applications (*.qm)
 All files (*)</source>
         <translation>Qt-Nachrichtendateien (*.qm)
 Alle Dateien (*)</translation>
+    </message>
+    <message>
+        <source>Label: %1</source>
+        <translation>Label: %1</translation>
+    </message>
+    <message>
+        <source>Translate - Qt Linguist</source>
+        <translation>Übersetzen - Qt Linguist</translation>
+    </message>
+    <message numerus="yes">
+        <source>Translated %n entry(s)</source>
+        <translation>
+            <numerusform>Ein Eintrag übersetzt</numerusform>
+            <numerusform>%n Einträge übersetzt</numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>No more occurrences of &apos;%1&apos;. Start over?</source>
+        <translation>Keine weiteren Vorkommen von &apos;%1&apos;. Neu anfangen?</translation>
     </message>
     <message>
         <source>Qt phrase books (*.qph)
@@ -877,27 +912,16 @@ Alle Dateien (*)</translation>
         <translation>Qt Linguist</translation>
     </message>
     <message>
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
         <source>Cannot find the string &apos;%1&apos;.</source>
         <translation>Kann Zeichenkette &apos;%1&apos; nicht finden.</translation>
     </message>
     <message>
         <source>Search And Translate in &apos;%1&apos; - Qt Linguist</source>
         <translation>Suchen und übersetzen in &apos;%1&apos; - Qt Linguist</translation>
-    </message>
-    <message>
-        <source>Translate - Qt Linguist</source>
-        <translation>Übersetzung - Qt Linguist</translation>
-    </message>
-    <message numerus="yes">
-        <source>Translated %n entry(s)</source>
-        <translation>
-            <numerusform>Ein Eintrag übersetzt</numerusform>
-            <numerusform>%n Einträge übersetzt</numerusform>
-        </translation>
-    </message>
-    <message>
-        <source>No more occurrences of &apos;%1&apos;. Start over?</source>
-        <translation>Keine weiteren Vorkommen von &apos;%1&apos;. Von vorne beginnen?</translation>
     </message>
     <message>
         <source>Create New Phrase Book</source>
@@ -937,10 +961,6 @@ Alle Dateien (*)</translation>
     <message>
         <source>Select phrase book to add to</source>
         <translation>Zu welchem Wörterbuch soll der Eintrag hinzugefügt werden?</translation>
-    </message>
-    <message>
-        <source>Unable to launch Qt Assistant (%1)</source>
-        <translation>Qt Assistant kann nicht gestartet werden (%1)</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -999,6 +1019,10 @@ Alle Dateien (*)</translation>
         <translation>&apos;%1&apos; speichern &amp;unter ...</translation>
     </message>
     <message>
+        <source>&amp;Download &apos;%1&apos;</source>
+        <translation>&apos;%1&apos; Herunterla&amp;den</translation>
+    </message>
+    <message>
         <source>Release &apos;%1&apos;</source>
         <translation>&apos;%1&apos; freigeben</translation>
     </message>
@@ -1009,6 +1033,10 @@ Alle Dateien (*)</translation>
     <message>
         <source>&amp;Close &apos;%1&apos;</source>
         <translation>&apos;%1&apos; &amp;schließen</translation>
+    </message>
+    <message>
+        <source>&amp;Download</source>
+        <translation>Herunterla&amp;den</translation>
     </message>
     <message>
         <source>&amp;Close</source>
@@ -1297,6 +1325,10 @@ Alle Dateien (*)</translation>
         <source>Displays a preview of QML documents.</source>
         <translation>Zeigt eine Vorschau von QML-Dokumenten.</translation>
     </message>
+    <message>
+        <source>AI Translation...</source>
+        <translation>KI-Übersetzung...</translation>
+    </message>
 </context>
 <context>
     <name>MessageEditor</name>
@@ -1375,16 +1407,12 @@ Zeile: %2</translation>
         <translation>Bearbeitungsstand von %1</translation>
     </message>
     <message>
-        <source>&lt;file header&gt;</source>
-        <translation>&lt;Dateikopf&gt;</translation>
+        <source>&lt;unnamed label&gt;</source>
+        <translation>&lt;unbenannt&gt;</translation>
     </message>
     <message>
         <source>&lt;context comment&gt;</source>
         <translation>&lt;Kontexthinweis&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;unnamed context&gt;</source>
-        <translation>&lt;unbenannter Kontext&gt;</translation>
     </message>
     <message numerus="yes">
         <source>%n unfinished message(s) left.</source>
@@ -1716,14 +1744,303 @@ Zeile: %2</translation>
     </message>
 </context>
 <context>
-    <name>QmlFormPreviewView</name>
+    <name>MachineTranslationDialog</name>
+    <message>
+        <source>Context</source>
+        <translation>Kontext</translation>
+    </message>
+    <message>
+        <source>Model</source>
+        <translation>Modell</translation>
+    </message>
+    <message>
+        <source>All Items</source>
+        <translation>Alle Einträge</translation>
+    </message>
+    <message>
+        <source>Text Based</source>
+        <translation>Text-basiert</translation>
+    </message>
+    <message>
+        <source>ID Based</source>
+        <translation>ID-basiert</translation>
+    </message>
+    <message>
+        <source>No messages selected</source>
+        <translation>Keine Nachrichten ausgewählt</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Übersetzen</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Gruppen</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filter</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Datei</translation>
+    </message>
+    <message>
+        <source>Translation status: -</source>
+        <extracomment>Default display when no translations have been processed yet</extracomment>
+        <translation>Übersetzungsstatus: -</translation>
+    </message>
+    <message>
+        <source>Apply Translations</source>
+        <translation>Übersetzungen übernehmen</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Abbrechen</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Fertig</translation>
+    </message>
+    <message>
+        <source>Translation Log</source>
+        <translation>Logmeldungen der Übersetzung</translation>
+    </message>
+    <message>
+        <source>Configuration</source>
+        <translation>Konfiguration</translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>Auswahl</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Fortschritt</translation>
+    </message>
+    <message>
+        <source>Translation status: %1/%2 source texts translated, %3/%2 failed.</source>
+        <translation>Übersetzungsstatus: %1/%2 Nachrichten übersetzt, %3/%2 fehlgeschlagen.</translation>
+    </message>
+    <message>
+        <source>&lt;hr/&gt;&lt;b&gt;Translation completed: %1/%2 translated, %3/%2 failed.&lt;/b&gt;</source>
+        <translation>&lt;hr/&gt;&lt;b&gt;Übersetzung abgeschlossen: %1/%2 übersetzt, %3/%2 fehlgeschlagen.&lt;/b&gt;</translation>
+    </message>
     <message>
         <source>Qt Linguist</source>
         <translation>Qt Linguist</translation>
     </message>
+    <message numerus="yes">
+        <source>%n translated item(s) will be discarded. Continue?</source>
+        <translation>
+            <numerusform>Eine übersetzte Nachricht wird verworfen. Fortsetzen?</numerusform>
+            <numerusform>%n übersetzte Nachrichten werden verworfen. Fortsetzen?</numerusform>
+        </translation>
+    </message>
     <message>
-        <source>Error loading QML file: %1</source>
-        <translation>Fehler beim Laden der QML-Datei: %1</translation>
+        <source>Translation Stopped.</source>
+        <translation>Übersetzung angehalten.</translation>
+    </message>
+    <message>
+        <source>Please verify the service URL is valid and a translation model is selected.</source>
+        <translation>Bitte überprüfen Sie, dass die URL des Dienstes gültig ist und ein Übersetzungsmodell ausgewählt ist.</translation>
+    </message>
+    <message>
+        <source>Please select a file for translation.</source>
+        <translation>Bitte wählen Sie eine Datei zur Übersetzung aus.</translation>
+    </message>
+    <message>
+        <source>Please select at least one context/label to translate.</source>
+        <translation>Bitte wählen Sie mindestens einen Kontext oder ein Label zur Übersetzung aus.</translation>
+    </message>
+    <message>
+        <source>No items to translate. All selected messages already have translations.</source>
+        <translation>Es gibt keine Texte zu übersetzen. Alle ausgewählten Texte haben bereits Übersetzungen.</translation>
+    </message>
+    <message>
+        <source>Translation Started</source>
+        <translation>Übersetzung gestartet</translation>
+    </message>
+    <message>
+        <source>Plural count expected %1, got %2 for &quot;%3&quot;.</source>
+        <translation>Für &quot;%3&quot; werden %1 Pluralformen erwartet; es wurden jedoch %2 erhalten.</translation>
+    </message>
+    <message>
+        <source>Translation Batch:</source>
+        <translation>Übersetzungsstapel:</translation>
+    </message>
+    <message>
+        <source>Translations Applied.</source>
+        <translation>Übersetzungen angewandt.</translation>
+    </message>
+    <message>
+        <source>Failed Translation(s):</source>
+        <translation>Fehlgeschlagenene Übersetzung(en):</translation>
+    </message>
+    <message>
+        <source>Selection status: -</source>
+        <extracomment>No selected items</extracomment>
+        <translation>Auswahl: -</translation>
+    </message>
+    <message numerus="yes">
+        <source>Selected %n item(s).</source>
+        <translation>
+            <numerusform>1 Übersetzung ausgewählt.</numerusform>
+            <numerusform>%n Übersetzungen ausgewählt.</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <source>Selected %n item(s) in %1 group(s).</source>
+        <translation>
+            <numerusform>1 Übersetzung in %1 Gruppe(n) ausgewählt.</numerusform>
+            <numerusform>%n Übersetzungen in %1 Gruppe(n) ausgewählt.</numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>Not connected - click &quot;Connect&quot; to fetch models</source>
+        <translation>Nicht verbunden - Klicken Sie auf &quot;Verbinden&quot;, um die verfügbaren Modelle zu bestimmen</translation>
+    </message>
+    <message>
+        <source>Connection failed - verify server URL and click &quot;Connect&quot;</source>
+        <translation>Verbindung schlug fehl - Prüfen Sie die Server-URL und klicken Sie auf &quot;Verbinden&quot;</translation>
+    </message>
+    <message>
+        <source>URL modified - click &quot;Connect&quot; to apply</source>
+        <translation>URL modifiziert - klicken Sie noch einmal auf &quot;Verbinden&quot;</translation>
+    </message>
+    <message>
+        <source>Advanced Settings</source>
+        <translation>Erweiterte Einstellungen</translation>
+    </message>
+    <message>
+        <source>Warning: Maximum JSON Format Tries: Low value may cause unnecessary format switching due to temporary errors. Recommended: 3 or higher.</source>
+        <extracomment>&quot;Maximum JSON Format Tries&quot; should use the same translation as the label &quot;Maximum JSON Format Tries&quot; in Advanced Settings</extracomment>
+        <translation>Warnung: Maximalzahl der JSON-Format-Versuche: Niedrige Werte können unnötige Formatwechsel bei vorübergehenden Fehlern bewirken. Empfohlen sind 3 oder mehr.</translation>
+    </message>
+    <message>
+        <source>Warning: Maximum Retries: Should be at least 3x &apos;Maximum JSON Format Tries&apos; for full fallback coverage</source>
+        <extracomment>&quot;Maximum Retries&quot; and &quot;Maximum JSON Format Tries&quot; should use the same translations as the labels &quot;Maximum Retries&quot; and &quot;Maximum JSON Format Tries&quot; in Advanced Settings</extracomment>
+        <translation>Warnung: Maximalzahl der Versuchswiederholungen: Es sollte mindestens der dreifache Wert der &quot; Maximalzahl der JSON-Format-Versuche&quot; für eine vollständige Fallback-Abdeckung verwendet werden</translation>
+    </message>
+    <message>
+        <source>Connecting...</source>
+        <translation>Verbinde...</translation>
+    </message>
+    <message>
+        <source>Connected</source>
+        <translation>Verbunden</translation>
+    </message>
+    <message>
+        <source>Auto Translation</source>
+        <translation>Automatische Übersetzung</translation>
+    </message>
+    <message>
+        <source>API Type</source>
+        <translation>API-Typ</translation>
+    </message>
+    <message>
+        <source>Not connected</source>
+        <translation>Nicht verbunden</translation>
+    </message>
+    <message>
+        <source>Server URL</source>
+        <translation>Server-URL</translation>
+    </message>
+    <message>
+        <source>Connect</source>
+        <translation>Verbinden</translation>
+    </message>
+    <message>
+        <source>API Key</source>
+        <translation>API-Schlüssel</translation>
+    </message>
+    <message>
+        <source>Optional: Required only for cloud APIs (OpenAI, Anthropic, etc.)</source>
+        <translation>Optional: Nur für Cloud-APIs (OpenAI, Anthropic, etc.)</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Weiter</translation>
+    </message>
+    <message>
+        <source>Stop</source>
+        <translation>Stop</translation>
+    </message>
+    <message>
+        <source>Log Raw Requests</source>
+        <translation>Anfragen in Rohform loggen</translation>
+    </message>
+    <message>
+        <source>Maximum number of retry attempts for failed translation requests</source>
+        <translation>Maximalzahl der Versuchswiederholungen für fehlgeschlagene Übersetzungsanforderungen</translation>
+    </message>
+    <message>
+        <source>Maximum number of translation batches to process in parallel</source>
+        <translation>Maximalzahl der Übersetzungsstapel zur parallelen Verarbeitung</translation>
+    </message>
+    <message>
+        <source>Timeout for network requests in seconds</source>
+        <translation>Timeout für Netzwerkanforderungen in Sekunden</translation>
+    </message>
+    <message>
+        <source>Transfer Timeout (seconds)</source>
+        <translation>Timeout für Übertragung (Sekunden)</translation>
+    </message>
+    <message>
+        <source>Maximum number of source texts to include in each translation batch</source>
+        <translation>Maximalzahl der Texte pro Übersetzungsstapel</translation>
+    </message>
+    <message>
+        <source>LLM temperature (lower = more deterministic, higher = more creative)</source>
+        <translation>LLM-Temperatur (niedriger = deterministischer, höher = kreativer)</translation>
+    </message>
+    <message>
+        <source>Temperature</source>
+        <translation>Temperatur</translation>
+    </message>
+    <message>
+        <source>Timeout for waking up an idle Ollama server in seconds</source>
+        <translation>Timeout zum Aufwecken eines freien Ollama-Servers in Sekunden</translation>
+    </message>
+    <message>
+        <source>Ollama Wake-up Timeout (seconds)</source>
+        <translation>Ollama-Server-Timeout zum Aufwecken (Sekunden)</translation>
+    </message>
+    <message>
+        <source>color: #b58900;</source>
+        <translation>color: #b58900;</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Anwenden</translation>
+    </message>
+    <message>
+        <source>Reset to Defaults</source>
+        <translation>Zurücksetzen</translation>
+    </message>
+    <message>
+        <source>Maximum Retries</source>
+        <translation>Maximalzahl der Versuchswiederholungen</translation>
+    </message>
+    <message>
+        <source>Maximum Concurrent Batches</source>
+        <translation>Maximalzahl der gleichzeitigen Stapel</translation>
+    </message>
+    <message>
+        <source>Maximum Batch Size</source>
+        <translation>Maximale Stapelgröße</translation>
+    </message>
+    <message>
+        <source>Number of attempts of sending JSON-format requests before falling back to non-JSON format requests</source>
+        <translation>Anzahl der Versuche mit Anforderungen im JSON-Format vor Fallback auf Anforderungen in andereren Formaten</translation>
+    </message>
+    <message>
+        <source>Maximum JSON Format Tries</source>
+        <translation>Maximalzahl der JSON-Format-Versuche</translation>
+    </message>
+    <message>
+        <source>Optional: Provide additional context about your application (e.g., medical software, game, financial app) for more accurate translations.</source>
+        <translation>Optional: Geben Sie zusätzlichen Kontext für Ihre Anwendung an (z.B. Medizinische Software, Spiel, finanztechnische Anwendung), um genauere Übersetzungen zu erhalten.</translation>
     </message>
 </context>
 </TS>

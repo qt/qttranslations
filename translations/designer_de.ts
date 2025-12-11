@@ -1054,6 +1054,14 @@
         <source>Connect slots by name</source>
         <translation>Slots automatisch nach Name verbinden</translation>
     </message>
+    <message>
+        <source>ID-based label:</source>
+        <translation>Label für ID-basierte Übersetzung:</translation>
+    </message>
+    <message>
+        <source>Enter a label name to group id based translations of the form (optional)</source>
+        <translation>Geben Sie ein Label ein, um ID-basierte Übersetzungen des Formulars zu gruppieren (optional)</translation>
+    </message>
 </context>
 <context>
     <name>IconSelector</name>
@@ -6075,6 +6083,13 @@ This indicates an inconsistency in the ui-file.</source>
     <message>
         <source>Reset All</source>
         <translation>Alle zurücksetzen</translation>
+    </message>
+</context>
+<context>
+    <name>WebHelpClient</name>
+    <message>
+        <source>Unable to open url (%1).</source>
+        <translation>Die URL %1 konnte nicht geöffnet werden.</translation>
     </message>
 </context>
 </TS>

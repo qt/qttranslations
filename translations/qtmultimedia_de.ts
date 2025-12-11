@@ -153,6 +153,10 @@
         <translation>Es wurde versucht, eine ungültige Qt-Ressource abzuspielen</translation>
     </message>
     <message>
+        <source>Failed to establish temporary file during playback</source>
+        <translation>Es konnte keine temporäre Datei während des Abspielens erstellt werden</translation>
+    </message>
+    <message>
         <source>Could not open file</source>
         <translation>Die Datei konnte nicht geöffnet werden</translation>
     </message>
@@ -185,10 +189,6 @@
     <message>
         <source>Could not load media source&apos;s tracks</source>
         <translation>Die Medienspuren konnten nicht geladen werden</translation>
-    </message>
-    <message>
-        <source>No audio tracks found</source>
-        <translation>Es wurden keine Audiotitel gefunden</translation>
     </message>
     <message>
         <source>Unsupported source format</source>
@@ -253,13 +253,6 @@
     </message>
 </context>
 <context>
-    <name>QGstreamerMediaPlayer</name>
-    <message>
-        <source>Cannot play stream of type: &lt;unknown&gt;</source>
-        <translation>Datenstrom des Typs &lt;unbekannt&gt; kann nicht abgespielt werden</translation>
-    </message>
-</context>
-<context>
     <name>QGstreamerImageCapture</name>
     <message>
         <source>No camera available.</source>
@@ -295,10 +288,6 @@
 </context>
 <context>
     <name>QMediaRecorder</name>
-    <message>
-        <source>Output location not writable</source>
-        <translation>Ausgabe kann nicht geschrieben werden</translation>
-    </message>
     <message>
         <source>Failed to start recording</source>
         <translation>Aufnahme konnte nicht gestartet werden</translation>
@@ -526,13 +515,6 @@
     <message>
         <source>Error while writing data to temporary file</source>
         <translation>Fehler beim Schreiben der temporären Datei</translation>
-    </message>
-</context>
-<context>
-    <name>QFFmpegImageCapture</name>
-    <message>
-        <source>No camera available.</source>
-        <translation>Es ist keine Kamera verfügbar.</translation>
     </message>
 </context>
 </TS>

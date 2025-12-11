@@ -428,30 +428,8 @@ Drücken Sie ESC, um abzubrechen</translation>
         <translation>Einstellungen zum Druckauftrag</translation>
     </message>
     <message>
-        <source>Scheduled printing:</source>
-        <translation>Zum Drucken vorgesehen:</translation>
-    </message>
-    <message>
-        <source>Billing information:</source>
-        <translation>Rechnungsinformation:</translation>
-    </message>
-    <message>
-        <source>Job priority:</source>
-        <translation>Priorität des Druckauftrags:</translation>
-    </message>
-    <message>
         <source>Banner Pages</source>
         <translation>Kopfseiten</translation>
-    </message>
-    <message>
-        <source>End:</source>
-        <comment>Banner page at end</comment>
-        <translation>Ende:</translation>
-    </message>
-    <message>
-        <source>Start:</source>
-        <comment>Banner page at start</comment>
-        <translation>Anfang:</translation>
     </message>
     <message>
         <source>Print Immediately</source>
@@ -519,6 +497,28 @@ Drücken Sie ESC, um abzubrechen</translation>
         <source>Top Secret</source>
         <comment>CUPS Banner page</comment>
         <translation>Streng geheim</translation>
+    </message>
+    <message>
+        <source>Scheduled &amp;printing:</source>
+        <translation>Zum &amp;Drucken vorgesehen:</translation>
+    </message>
+    <message>
+        <source>&amp;Billing information:</source>
+        <translation>&amp;Rechnungsinformation:</translation>
+    </message>
+    <message>
+        <source>Job &amp;priority:</source>
+        <translation>&amp;Priorität des Druckauftrags:</translation>
+    </message>
+    <message>
+        <source>&amp;Start:</source>
+        <comment>Banner page at start</comment>
+        <translation>&amp;Anfang:</translation>
+    </message>
+    <message>
+        <source>&amp;End:</source>
+        <comment>Banner page at end</comment>
+        <translation>&amp;Ende:</translation>
     </message>
 </context>
 <context>
@@ -1020,10 +1020,6 @@ Drücken Sie ESC, um abzubrechen</translation>
 <context>
     <name>QFileDialog</name>
     <message>
-        <source>Look in:</source>
-        <translation>Suchen in:</translation>
-    </message>
-    <message>
         <source>Back</source>
         <translation>Zurück</translation>
     </message>
@@ -1082,10 +1078,6 @@ Drücken Sie ESC, um abzubrechen</translation>
     <message>
         <source>Files</source>
         <translation>Dateien</translation>
-    </message>
-    <message>
-        <source>Files of type:</source>
-        <translation>Dateien des Typs:</translation>
     </message>
     <message>
         <source>Find Directory</source>
@@ -1214,6 +1206,14 @@ Möchten Sie die Datei trotzdem löschen?</translation>
     <message>
         <source>Alt+Up</source>
         <translation>Alt+Up</translation>
+    </message>
+    <message>
+        <source>&amp;Look in:</source>
+        <translation>&amp;Suchen in:</translation>
+    </message>
+    <message>
+        <source>Files of &amp;type:</source>
+        <translation>Dateien des &amp;Typs:</translation>
     </message>
 </context>
 <context>
@@ -1523,11 +1523,11 @@ Möchten Sie die Datei trotzdem löschen?</translation>
     </message>
     <message>
         <source>Platform theme.</source>
-        <translation>Plattform-Theme.</translation>
+        <translation>Plattform-Thema.</translation>
     </message>
     <message>
         <source>Additional plugins to load, can be specified multiple times.</source>
-        <translation>Zu ladende zusätzliche Plugins, kann mehrfach angegeben werden.</translation>
+        <translation>Zusätzlich zu ladende Plugins, kann mehrfach angegeben werden.</translation>
     </message>
     <message>
         <source>Window geometry for the main window, using the X11-syntax, like 100x100+50+50.</source>
@@ -2682,12 +2682,20 @@ Möchten Sie die Datei trotzdem löschen?</translation>
         <source>Error transferring %1 - server replied: %2</source>
         <translation>Bei der Übertragung von %1 trat ein Fehler auf - Die Antwort des Servers ist: %2</translation>
     </message>
+    <message>
+        <source>Error transferring %1 - server replied with status code %2</source>
+        <translation>Fehler beim Übertragen von %1 - Server antwortete mit Statuscode %2</translation>
+    </message>
 </context>
 <context>
     <name>QNetworkReplyHttpImpl</name>
     <message>
         <source>Operation canceled</source>
         <translation>Operation abgebrochen</translation>
+    </message>
+    <message>
+        <source>Operation timed out</source>
+        <translation>Zeitüberschreitung</translation>
     </message>
     <message>
         <source>No suitable proxy found</source>
@@ -3013,12 +3021,12 @@ Möchten Sie die Datei trotzdem löschen?</translation>
         <translation>Seitenaufbau</translation>
     </message>
     <message>
-        <source>Page order:</source>
-        <translation>Reihenfolge der Seiten:</translation>
+        <source>Page &amp;order:</source>
+        <translation>Reihenf&amp;olge der Seiten:</translation>
     </message>
     <message>
-        <source>Pages per sheet:</source>
-        <translation>Seiten pro Blatt:</translation>
+        <source>Pages &amp;per sheet:</source>
+        <translation>Seiten &amp;pro Blatt:</translation>
     </message>
 </context>
 <context>
@@ -3925,10 +3933,6 @@ Bitte deaktivieren Sie eine der beiden.</translation>
         <translation>Graustufen</translation>
     </message>
     <message>
-        <source>Page Set:</source>
-        <translation>Seiten-Satz:</translation>
-    </message>
-    <message>
         <source>Pages</source>
         <translation>Seiten</translation>
     </message>
@@ -3951,6 +3955,10 @@ Bitte deaktivieren Sie eine der beiden.</translation>
     <message>
         <source>Short side binding</source>
         <translation>Kurze Seite</translation>
+    </message>
+    <message>
+        <source>Page &amp;Set:</source>
+        <translation>Seiten-&amp;Satz:</translation>
     </message>
 </context>
 <context>
@@ -6247,6 +6255,11 @@ Bitte deaktivieren Sie eine der beiden.</translation>
         <translation>Checkbox</translation>
     </message>
     <message>
+        <source>switch</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Schalter</translation>
+    </message>
+    <message>
         <source>radio button</source>
         <extracomment>Role of an accessible object</extracomment>
         <translation>Radioknopf</translation>
@@ -7580,21 +7593,6 @@ Die minimal erforderliche Version von Direct2D ist %1 Die auf diesem System inst
     </message>
 </context>
 <context>
-    <name>QFactoryLoader</name>
-    <message>
-        <source>Invalid metadata version</source>
-        <translation>Version der Metadaten ist ungültig</translation>
-    </message>
-    <message>
-        <source>Metadata parsing error: %1</source>
-        <translation>Fehler beim Auswerten der Metadaten: %1</translation>
-    </message>
-    <message>
-        <source>Unexpected metadata contents</source>
-        <translation>Unerwarteter Inhalt der Metadaten</translation>
-    </message>
-</context>
-<context>
     <name>QCocoaMenuBar</name>
     <message>
         <source>Edit</source>
@@ -7713,29 +7711,6 @@ Die minimal erforderliche Version von Direct2D ist %1 Die auf diesem System inst
     </message>
 </context>
 <context>
-    <name>Assets::Downloader::AssetDownloader</name>
-    <message>
-        <source>Downloading JSON file...</source>
-        <translation>JSON-Datei wird heruntergeladen...</translation>
-    </message>
-    <message>
-        <source>Downloading zip file...</source>
-        <translation>ZIP-Datei wird heruntergeladen...</translation>
-    </message>
-    <message>
-        <source>Unzipping...</source>
-        <translation>Entpacken...</translation>
-    </message>
-    <message>
-        <source>Downloading assets...</source>
-        <translation>Lade Assets herunter...</translation>
-    </message>
-    <message>
-        <source>Copying assets...</source>
-        <translation>Kopiere Assets...</translation>
-    </message>
-</context>
-<context>
     <name>QCoreApplication</name>
     <message>
         <source>QHttp</source>
@@ -7755,6 +7730,29 @@ Die minimal erforderliche Version von Direct2D ist %1 Die auf diesem System inst
         <source>%p%</source>
         <extracomment>%p is the percent value, % is the percent sign. When translated to the identical %p%, then the second % symbol will be replaced by the percentage-symbol from the user&apos;s locale.</extracomment>
         <translation>%p%</translation>
+    </message>
+</context>
+<context>
+    <name>QAccessibleColorWellItem</name>
+    <message>
+        <source>RGB %1, %2, %3</source>
+        <extracomment>Color specified via its 3 RGB components (red, green, blue)</extracomment>
+        <translation>RGB %1, %2, %3</translation>
+    </message>
+</context>
+<context>
+    <name>QFactoryLoader</name>
+    <message>
+        <source>Metadata parsing error: %1</source>
+        <translation>Fehler beim Auswerten der Metadaten: %1</translation>
+    </message>
+    <message>
+        <source>Invalid metadata version</source>
+        <translation>Version der Metadaten ist ungültig</translation>
+    </message>
+    <message>
+        <source>Unexpected metadata contents</source>
+        <translation>Unerwarteter Inhalt der Metadaten</translation>
     </message>
 </context>
 </TS>
