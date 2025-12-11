@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="sv">
+<TS version="2.1" language="pt_BR">
 <context>
     <name>QSerialPort</name>
     <message>
         <source>No error</source>
-        <translation>Inget fel</translation>
+        <translation>Nenhum erro</translation>
     </message>
     <message>
         <source>Device is already open</source>
-        <translation>Enheten är redan öppen</translation>
+        <translation>O dispositivo já está aberto</translation>
     </message>
     <message>
         <source>Device is not open</source>
-        <translation>Enheten är inte öppen</translation>
+        <translation>O dispositivo não está aberto</translation>
     </message>
     <message>
         <source>Operation timed out</source>
-        <translation>Åtgärden översteg tidsgränsen</translation>
+        <translation>Tempo de operação expirado</translation>
     </message>
     <message>
         <source>Error reading from device</source>
-        <translation>Fel vid läsning från enheten</translation>
+        <translation>Erro ao ler do dispositivo</translation>
     </message>
     <message>
         <source>Error writing to device</source>
-        <translation>Fel vid skrivning till enheten</translation>
+        <translation>Erro ao gravar para o dispositivo</translation>
     </message>
     <message>
         <source>Device disappeared from the system</source>
-        <translation>Enheten försvann från systemet</translation>
+        <translation>O dispositivo desapareceu do sistema</translation>
     </message>
     <message>
         <source>Unsupported open mode</source>
-        <translation>Öppningsläget stöds inte</translation>
+        <translation>Modo de abertura não suportado</translation>
     </message>
     <message>
         <source>Permission error while creating lock file</source>
-        <translation>Behörighetsfel vid skapande av låsfilen</translation>
+        <translation>Erro de permissão ao criar arquivo de bloqueio</translation>
     </message>
     <message>
         <source>Permission error while locking the device</source>
-        <translation>Behörighetsfel vid låsning av enheten</translation>
+        <translation>Erro de permissão ao bloquear o dispositivo</translation>
     </message>
     <message>
         <source>Cannot set custom speed for one direction</source>
-        <translation>Kan inte ställa in anpassad hastighet för en riktning</translation>
+        <translation>Não foi possível definir velocidade personalizada para uma direção</translation>
     </message>
     <message>
         <source>No suitable custom baud rate divisor</source>
-        <translation>Ingen lämplig anpassad baudhastighetsdivisor</translation>
+        <translation>Nenhum divisor de taxa de transmissão personalizado adequado</translation>
     </message>
     <message>
         <source>Custom baud rate is not supported</source>
-        <translation>Anpassad baudhastighet stöds inte</translation>
+        <translation>A taxa de transmissão personalizada não é suportada</translation>
     </message>
     <message>
         <source>Invalid baud rate value</source>
-        <translation>Ogiltigt värde för baudhastighet</translation>
+        <translation>Valor de taxa de transmissão inválido</translation>
     </message>
     <message>
         <source>Custom baud rate direction is unsupported</source>
-        <translation>Anpassad baudhastighetsriktning stöds inte</translation>
+        <translation>A direção da taxa de transmissão personalizada não é suportada</translation>
     </message>
 </context>
 </TS>
