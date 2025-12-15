@@ -267,6 +267,10 @@
         <translation>Der Delegate eines DelegateModel kann nicht in onUpdated geändert werden.</translation>
     </message>
     <message>
+        <source>The delegateModelAccess of a DelegateModel cannot be changed within onUpdated.</source>
+        <translation>delegateModelAccess eines DelegateModel kann nicht in onUpdated geändert werden.</translation>
+    </message>
+    <message>
         <source>The maximum number of supported DelegateModelGroups is 8</source>
         <translation>Die Maximalzahl der unterstützten DelegateModelGroups ist 8</translation>
     </message>
@@ -429,113 +433,6 @@
     </message>
 </context>
 <context>
-    <name>QQmlImportDatabase</name>
-    <message>
-        <source>&quot;%1&quot; is ambiguous. Found in %2 and in %3</source>
-        <translation>&quot;%1&quot; ist nicht eindeutig. Es kommt in %2 und %3 vor</translation>
-    </message>
-    <message>
-        <source>- %1 is neither a type nor a namespace</source>
-        <translation>- %1 ist weder ein Typ noch ein Namensraum</translation>
-    </message>
-    <message>
-        <source>- %1 is not a namespace</source>
-        <translation>- %1 ist kein gültiger Namensraum</translation>
-    </message>
-    <message>
-        <source>- %1 is not a type</source>
-        <translation>- %1 ist kein Typ</translation>
-    </message>
-    <message>
-        <source>- nested namespaces not allowed</source>
-        <translation>- geschachtelte Namensräume sind nicht zulässig</translation>
-    </message>
-    <message>
-        <source>local directory</source>
-        <translation>Lokales Verzeichnis</translation>
-    </message>
-    <message>
-        <source>is ambiguous. Found in %1 and in %2</source>
-        <translation>ist mehrdeutig. Es kommt in %1 und in %2 vor</translation>
-    </message>
-    <message>
-        <source>is ambiguous. Found in %1 in version %2.%3 and %4.%5</source>
-        <translation>ist mehrdeutig. Es kommt in %1 in den Versionen %2.%3 und %4.%5 vor</translation>
-    </message>
-    <message>
-        <source>is instantiated recursively</source>
-        <translation>wird rekursiv instanziiert</translation>
-    </message>
-    <message>
-        <source>is not a type</source>
-        <translation>ist kein Typ</translation>
-    </message>
-    <message>
-        <source>Cannot resolve URL for import &quot;%1&quot;</source>
-        <translation>Die URL für den Import &quot;%1&quot; kann nicht aufgelöst werden</translation>
-    </message>
-    <message>
-        <source>static plugin for module &quot;%1&quot; with name &quot;%2&quot; has no metadata URI</source>
-        <translation>Das statische Plugin des Moduls &quot;%1&quot; mit dem Namen &quot;%2&quot; hat keinen Metadaten-URI</translation>
-    </message>
-    <message>
-        <source>module does not support the designer &quot;%1&quot;</source>
-        <translation>Das Modul unterstützt den Designer &quot;%1&quot; nicht</translation>
-    </message>
-    <message>
-        <source>static plugin for module &quot;%1&quot; with name &quot;%2&quot; cannot be loaded: %3</source>
-        <translation>Das statische Plugin des Moduls &quot;%1&quot; mit dem Namen &quot;%2&quot; kann nicht geladen werden: %3</translation>
-    </message>
-    <message>
-        <source>could not resolve all plugins for module &quot;%1&quot;</source>
-        <translation>Es konnten nicht alle Plugins für das Modul &quot;%1&quot; aufgelöst werden</translation>
-    </message>
-    <message>
-        <source>module &quot;%1&quot; plugin &quot;%2&quot; not found</source>
-        <translation>Modul &quot;%1&quot; Plugin &quot;%2&quot; konnte nicht gefunden werden</translation>
-    </message>
-    <message>
-        <source>&quot;%1&quot; version %2.%3 is defined more than once in module &quot;%4&quot;</source>
-        <translation>&quot;%1&quot; Version %2.%3 ist im Modul &quot;%4&quot; mehrfach definiert</translation>
-    </message>
-    <message>
-        <source>module &quot;%1&quot; version %2.%3 is not installed</source>
-        <translation>Modul &quot;%1&quot; Version %2.%3 ist nicht installiert</translation>
-    </message>
-    <message>
-        <source>module &quot;%1&quot; is not installed</source>
-        <translation>Modul &quot;%1&quot; ist nicht installiert</translation>
-    </message>
-    <message>
-        <source>&quot;%1&quot; is not a valid import URL. You can pass relative paths or URLs with schema, but not absolute paths or resource paths. Try &quot;%2&quot;.</source>
-        <translation>&quot;%1&quot; ist keine gültige URL. Es können relative Pfade oder URLs mit Schema angegeben werden, aber keine absoluten Pfade oder Ressourcen-Pfade. Versuchen Sie &quot;%2&quot;.</translation>
-    </message>
-    <message>
-        <source>&quot;%1&quot;: no such directory</source>
-        <translation>Das Verzeichnis &quot;%1&quot; existiert nicht</translation>
-    </message>
-    <message>
-        <source>import &quot;%1&quot; has no qmldir and no namespace</source>
-        <translation>&quot;qmldir&quot; und Namensraum fehlen bei dem Import &quot;%1&quot;</translation>
-    </message>
-    <message>
-        <source>File name case mismatch for &quot;%1&quot;</source>
-        <translation>Die Groß/Kleinschreibung des Dateinamens &quot;%1&quot; stimmt nicht überein</translation>
-    </message>
-    <message>
-        <source>module &quot;%1&quot; version %2.%3 cannot be imported because:
-%4</source>
-        <translation>Das Modul &quot;%1&quot;, Version %2.%3 kann nicht importiert werden:
-%4</translation>
-    </message>
-    <message>
-        <source>module &quot;%1&quot; cannot be imported because:
-%2</source>
-        <translation>Das Modul &quot;%1&quot; kann nicht importiert werden:
-%2</translation>
-    </message>
-</context>
-<context>
     <name>QQmlListModel</name>
     <message>
         <source>unable to enable dynamic roles as this model is not empty</source>
@@ -631,6 +528,10 @@
     <message>
         <source>Cannot assign object to read only list</source>
         <translation>Zuweisung eines Objekts an eine schreibgeschützte Liste nicht zulässig</translation>
+    </message>
+    <message>
+        <source>Cannot construct value type from given object</source>
+        <translation>Vom gegebenen Objekt kann kein Werttyp erzeugt werden</translation>
     </message>
     <message>
         <source>Cannot assign primitives to lists</source>
@@ -747,8 +648,8 @@
         <translation>Objektdefinition an dieser Stelle nicht erwartet</translation>
     </message>
     <message>
-        <source>Invalid import qualifier ID</source>
-        <translation>Ungültige Id-Angabe bei Import</translation>
+        <source>Invalid import qualifier &apos;%1&apos;: must start with an uppercase letter</source>
+        <translation>Ungültige Id &apos;%1&apos; beim Import: Die ID muss mit einem Großbuchstaben beginnen</translation>
     </message>
     <message>
         <source>Reserved name &quot;Qt&quot; cannot be used as an qualifier</source>
@@ -1052,16 +953,12 @@
         <translation>&quot;%1&quot; kann nicht auf  &quot;%2&quot; angewandt werden</translation>
     </message>
     <message>
-        <source>Cannot assign object to list property &quot;%1&quot;</source>
-        <translation>Der Listeneigenschaft &quot;%1&quot; kann kein Objekt zugewiesen werden</translation>
+        <source>Cannot assign object of type &quot;%1&quot; to list property &quot;%2&quot;; expected &quot;%3&quot;</source>
+        <translation>Der Listen-Eigenschaft &quot;%2&quot; kann kein Objekt des Typs &quot;%1&quot; zugewiesen werden; es wird &quot;%3&quot; erwartet</translation>
     </message>
     <message>
         <source>Cannot assign value of type &quot;%1&quot; to property &quot;%2&quot;, expecting &quot;%3&quot;</source>
         <translation>Der Eigenschaft &quot;%2&quot; kann kein Wert des Typs &quot;%1&quot; zugewiesen werden; es wird &quot;%3&quot; erwartet</translation>
-    </message>
-    <message>
-        <source>Cannot assign value of type &quot;%1&quot; to property &quot;%2&quot;, expecting an object</source>
-        <translation>Der Eigenschaft &quot;%2&quot; kann kein Wert des Typs &quot;%1&quot; zugewiesen werden; es wird ein Objekt erwartet</translation>
     </message>
     <message>
         <source>Cannot assign object of type &quot;%1&quot; to property of type &quot;%2&quot; as the former is neither the same as the latter nor a sub-class of it.</source>
@@ -1159,6 +1056,10 @@
     <message>
         <source>File is empty</source>
         <translation>Die Datei ist leer</translation>
+    </message>
+    <message>
+        <source>Cached QML Unit has no objects</source>
+        <translation>Die QML-Unit im Cache-Speicher hat keine Objekte</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; is not installed</source>
@@ -1479,12 +1380,20 @@
         <translation>Unbekannte Zugriffssemantik &quot;%1&quot;.</translation>
     </message>
     <message>
+        <source>Expected only name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isStructured, isComposite, hasCustomParser, enforcesScopedEnums, aliases, exportMetaObjectRevisions, deferredNames, and immediateNames in script bindings, not &quot;%1&quot;.</source>
+        <translation>Es werden nur name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isStructured, isComposite, hasCustomParser, enforcesScopedEnums, aliases, exportMetaObjectRevisions, deferredNames und immediateNames in Script-Bindings erwartet, nicht jedoch &quot;%1&quot;.</translation>
+    </message>
+    <message>
         <source>Expected only script bindings and object definitions.</source>
         <translation>Es werden Script-Bindings oder Objektdefinitionen erwartet.</translation>
     </message>
     <message>
         <source>Component definition is missing a name binding.</source>
         <translation>Bei der Komponentendefinition fehlt ein name binding.</translation>
+    </message>
+    <message>
+        <source>Expected only name, type, revision, isPointer, isTypeConstant, isList, isCloned, isConstructor, isMethodConstant, and isJavaScriptFunction in script bindings.</source>
+        <translation>Es werden nur name, type, revision, isPointer, isTypeConstant, isList, isCloned, isConstructor, isMethodConstant und isJavaScriptFunction in Script-Bindings erwartet.</translation>
     </message>
     <message>
         <source>Method or signal is missing a name script binding.</source>
@@ -1495,28 +1404,20 @@
         <translation>Es werden nur Parameter in Objektdefinitionen erwartet.</translation>
     </message>
     <message>
-        <source>Expected only name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isStructured, isComposite, hasCustomParser, aliases, exportMetaObjectRevisions, deferredNames, and immediateNames in script bindings, not &quot;%1&quot;.</source>
-        <translation>Es werden nur name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isStructured, isComposite, hasCustomParser, aliases, exportMetaObjectRevisions, deferredNames und immediateNames in Script-Bindings erwartet, nicht jedoch &quot;%1&quot;.</translation>
-    </message>
-    <message>
-        <source>Expected only name, type, revision, isPointer, isConstant, isList, isCloned, isConstructor, and isJavaScriptFunction in script bindings.</source>
-        <translation>Es werden nur name, type, revision, isPointer, isConstant, isList, isCloned, isConstructor und isJavaScriptFunction in Script-Bindings erwartet.</translation>
-    </message>
-    <message>
         <source>Expected script binding.</source>
         <translation>Es wird script binding erwartet.</translation>
-    </message>
-    <message>
-        <source>Expected only type, name, revision, isPointer, isReadonly, isRequired, isFinal, isList, bindable, read, write, reset, notify, index, and privateClass and script bindings.</source>
-        <translation>Es werden nur type, name, revision, isPointer, isReadonly, isRequired, isFinal, isList, bindable, read, write, reset, notify, index, und  privateClass und Script-Bindings erwartet.</translation>
     </message>
     <message>
         <source>Expected only name, alias, isFlag, values, isScoped, or type.</source>
         <translation>Es werden nur name, alias, isFlag, values, isScoped oder type erwartet.</translation>
     </message>
     <message>
-        <source>Expected only name, type, isPointer, isConstant, isReadonly, or IsList script bindings.</source>
-        <translation>Es werden nur name, type, isPointer, isConstant, isReadonly oder IsList Script-Bindings erwartet.</translation>
+        <source>Expected only type, name, revision, isPointer, isTypeConstant, isReadonly, isRequired, isFinal, isList, bindable, read, write, isPropertyConstant, reset, notify, index, and privateClass and script bindings.</source>
+        <translation>Es werden nur type, name, revision, isPointer, isTypeConstant, isReadonly, isRequired, isFinal, isList, bindable, read, write, isPropertyConstant, reset, notify, index sowie privateClass und Script-Bindings erwartet.</translation>
+    </message>
+    <message>
+        <source>Expected only name, type, isPointer, isTypeConstant, isReadonly, or IsList script bindings.</source>
+        <translation>Es werden nur name, type, isPointer, isTypeConstant, isReadonly oder IsList Script-Bindings erwartet.</translation>
     </message>
     <message>
         <source>Expected string after colon.</source>
@@ -1932,10 +1833,6 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
         <translation>fehlende Information zum Laden für %1</translation>
     </message>
     <message>
-        <source>Could not find builtins.qmltypes file</source>
-        <translation>Die Datei builtins.qmltypes konnte nicht gefunden werden</translation>
-    </message>
-    <message>
         <source>Could not get path for newly created ModuleIndex %1 %2</source>
         <translation>Es konnte kein Pfad für den neu erstellten Modul-Index %1 %2 erhalten werden</translation>
     </message>
@@ -1950,6 +1847,10 @@ Revision %1 entspricht Version %2.%3; sie sollte %4.%5 sein.</translation>
     <message>
         <source>Failed to find main qmldir file for %1 %2 in %3.</source>
         <translation>Die qmldir-Hauptdatei für %1 %2 konnte in %3 nicht gefunden werden.</translation>
+    </message>
+    <message>
+        <source>Could not find the QML/plugins.qmltypes file</source>
+        <translation>Die Datei QML/plugins.qmltypes konnte nicht gefunden werden</translation>
     </message>
     <message>
         <source>addLoadinfo replaces unfinished load info for %1</source>
@@ -2122,6 +2023,14 @@ Soll sie überschrieben werden?</translation>
         <source>Filter</source>
         <translation>Filter</translation>
     </message>
+    <message>
+        <source>Add Favorite</source>
+        <translation>Favoriten hinzufügen</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Löschen</translation>
+    </message>
 </context>
 <context>
     <name>QQmlDomAstCreator</name>
@@ -2245,9 +2154,119 @@ Soll sie überschrieben werden?</translation>
         <source>Invalid alias target location: %1</source>
         <translation>Ungültiges Alias-Ziel: %1</translation>
     </message>
+</context>
+<context>
+    <name>QQmlImports</name>
     <message>
-        <source>Unresolved alias found</source>
-        <translation>Unaufgelöster Alias gefunden</translation>
+        <source>module &quot;%1&quot; version %2.%3 is not installed</source>
+        <translation>Modul &quot;%1&quot; Version %2.%3 ist nicht installiert</translation>
+    </message>
+    <message>
+        <source>module &quot;%1&quot; is not installed</source>
+        <translation>Modul &quot;%1&quot; ist nicht installiert</translation>
+    </message>
+    <message>
+        <source>&quot;%1&quot; is ambiguous. Found in %2 and in %3</source>
+        <translation>&quot;%1&quot; ist mehrdeutig. Es kommt in %2 und %3 vor</translation>
+    </message>
+    <message>
+        <source>- %1 is neither a type nor a namespace</source>
+        <translation>- %1 ist weder ein Typ noch ein Namensraum</translation>
+    </message>
+    <message>
+        <source>- %1 is not a namespace</source>
+        <translation>- %1 ist kein gültiger Namensraum</translation>
+    </message>
+    <message>
+        <source>- %1 is not a type</source>
+        <translation>- %1 ist kein Typ</translation>
+    </message>
+    <message>
+        <source>- nested namespaces not allowed</source>
+        <translation>- geschachtelte Namensräume sind nicht zulässig</translation>
+    </message>
+    <message>
+        <source>local directory</source>
+        <translation>Lokales Verzeichnis</translation>
+    </message>
+    <message>
+        <source>is ambiguous. Found in %1 and in %2</source>
+        <translation>ist mehrdeutig. Es kommt in %1 und in %2 vor</translation>
+    </message>
+    <message>
+        <source>is ambiguous. Found in %1 in version %2.%3 and %4.%5</source>
+        <translation>ist mehrdeutig. Es kommt in %1 in den Versionen %2.%3 und %4.%5 vor</translation>
+    </message>
+    <message>
+        <source>is instantiated recursively</source>
+        <translation>wird rekursiv instanziiert</translation>
+    </message>
+    <message>
+        <source>is not a type</source>
+        <translation>ist kein Typ</translation>
+    </message>
+    <message>
+        <source>module does not support the designer &quot;%1&quot;</source>
+        <translation>Das Modul unterstützt den Designer &quot;%1&quot; nicht</translation>
+    </message>
+    <message>
+        <source>&quot;%1&quot; version %2.%3 is defined more than once in module &quot;%4&quot;</source>
+        <translation>&quot;%1&quot; Version %2.%3 ist im Modul &quot;%4&quot; mehrfach definiert</translation>
+    </message>
+    <message>
+        <source>&quot;%1&quot; is not a valid import URL. You can pass relative paths or URLs with schema, but not absolute paths or resource paths. Try &quot;%2&quot;.</source>
+        <translation>&quot;%1&quot; ist keine gültige URL. Es können relative Pfade oder URLs mit Schema angegeben werden, aber keine absoluten Pfade oder Ressourcen-Pfade. Versuchen Sie &quot;%2&quot;.</translation>
+    </message>
+    <message>
+        <source>&quot;%1&quot;: no such directory</source>
+        <translation>Das Verzeichnis &quot;%1&quot; existiert nicht</translation>
+    </message>
+    <message>
+        <source>import &quot;%1&quot; has no qmldir and no namespace</source>
+        <translation>&quot;qmldir&quot; und Namensraum fehlen bei dem Import &quot;%1&quot;</translation>
+    </message>
+    <message>
+        <source>Cannot resolve URL for import &quot;%1&quot;</source>
+        <translation>Die URL für den Import &quot;%1&quot; kann nicht aufgelöst werden</translation>
+    </message>
+    <message>
+        <source>Found plugin with old IID, this will be unsupported in upcoming Qt releases:</source>
+        <translation>Es wurde ein Plugin mit einer veralteten IID gefunden; dies wird in zukünftigen Qt-Versionen nicht mehr unterstützt sein:</translation>
+    </message>
+    <message>
+        <source>qml static plugin with name &quot;%2&quot; has no metadata URI</source>
+        <translation>Das statische QML-Plugin mit dem Namen &quot;%2&quot; hat keine Metadata-URI</translation>
+    </message>
+    <message>
+        <source>File name case mismatch for &quot;%1&quot;</source>
+        <translation>Die Groß/Kleinschreibung des Dateinamens &quot;%1&quot; stimmt nicht überein</translation>
+    </message>
+    <message>
+        <source>could not resolve all plugins for module &quot;%1&quot;</source>
+        <translation>Es konnten nicht alle Plugins für das Modul &quot;%1&quot; aufgelöst werden</translation>
+    </message>
+    <message>
+        <source>module &quot;%1&quot; plugin &quot;%2&quot; not found</source>
+        <translation>Modul &quot;%1&quot; Plugin &quot;%2&quot; konnte nicht gefunden werden</translation>
+    </message>
+    <message>
+        <source>module &quot;%1&quot; version %2.%3 cannot be imported because:
+%4</source>
+        <translation>Das Modul &quot;%1&quot; der Version %2.%3 kann nicht importiert werden:
+%4</translation>
+    </message>
+    <message>
+        <source>module &quot;%1&quot; cannot be imported because:
+%2</source>
+        <translation>Das Modul &quot;%1&quot; kann nicht importiert werden:
+%2</translation>
+    </message>
+</context>
+<context>
+    <name>SideBar</name>
+    <message>
+        <source>Add Favorite</source>
+        <translation>Favoriten hinzufügen</translation>
     </message>
 </context>
 </TS>

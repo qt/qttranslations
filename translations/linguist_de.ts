@@ -951,10 +951,6 @@ Alle Dateien (*)</translation>
         <translation>Qt Linguist ist ein Werkzeug zum Hinzufügen von Übersetzungen zu Qt-Anwendungen</translation>
     </message>
     <message>
-        <source>Copyright (C) %1 The Qt Company Ltd.</source>
-        <translation>Copyright (C) %1 The Qt Company Ltd.</translation>
-    </message>
-    <message>
         <source>Do you want to save the modified files?</source>
         <translation>Möchten Sie die geänderten Dateien speichern?</translation>
     </message>
@@ -987,12 +983,12 @@ Alle Dateien (*)</translation>
         <translation>Ctrl+M</translation>
     </message>
     <message>
-        <source>Display the manual for %1.</source>
-        <translation>Handbuch zu %1 anzeigen.</translation>
+        <source>Displays the manual for %1.</source>
+        <translation>Zeigt das Handbuch zu %1 an.</translation>
     </message>
     <message>
-        <source>Display information about %1.</source>
-        <translation>Informationen über %1 anzeigen.</translation>
+        <source>Displays information about %1.</source>
+        <translation>Zeigt Informationen über %1 an.</translation>
     </message>
     <message>
         <source>&amp;Save &apos;%1&apos;</source>
@@ -1293,6 +1289,14 @@ Alle Dateien (*)</translation>
         <source>Shift+F3</source>
         <translation>Shift+F3</translation>
     </message>
+    <message>
+        <source>&amp;QML preview</source>
+        <translation>&amp;QML-Vorschau</translation>
+    </message>
+    <message>
+        <source>Displays a preview of QML documents.</source>
+        <translation>Zeigt eine Vorschau von QML-Dokumenten.</translation>
+    </message>
 </context>
 <context>
     <name>MessageEditor</name>
@@ -1328,6 +1332,14 @@ Alle Dateien (*)</translation>
     <message>
         <source>This area shows a comment that may guide you, and the context in which the text occurs.</source>
         <translation>Dieser Bereich zeigt eventuelle Kommentare und den Kontext, in dem der Text auftritt.</translation>
+    </message>
+    <message>
+        <source>NCR mode</source>
+        <translation>NCR-Modus</translation>
+    </message>
+    <message>
+        <source>Toggles Numeric Character Reference Mode for displaying the source text and the translations.</source>
+        <translation>Schaltet den Modus für numerische Zeichen zur Anzeige von Quelltext und Übersetzung um.</translation>
     </message>
     <message>
         <source>Here you can enter comments for your own use. They have no effect on the translated applications.</source>
@@ -1380,14 +1392,6 @@ Zeile: %2</translation>
             <numerusform>Es ist noch eine unerledigte Nachricht vorhanden.</numerusform>
             <numerusform>Es sind noch %n unerledigte Nachrichten vorhanden.</numerusform>
         </translation>
-    </message>
-</context>
-<context>
-    <name>MsgEdit</name>
-    <message>
-        <source></source>
-        <comment>This is the right panel of the main window.</comment>
-        <translation></translation>
     </message>
 </context>
 <context>
@@ -1709,6 +1713,17 @@ Zeile: %2</translation>
     <message>
         <source>Target language</source>
         <translation>Zielsprache</translation>
+    </message>
+</context>
+<context>
+    <name>QmlFormPreviewView</name>
+    <message>
+        <source>Qt Linguist</source>
+        <translation>Qt Linguist</translation>
+    </message>
+    <message>
+        <source>Error loading QML file: %1</source>
+        <translation>Fehler beim Laden der QML-Datei: %1</translation>
     </message>
 </context>
 </TS>

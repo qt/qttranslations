@@ -1,121 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="pt_BR">
+<TS version="2.1" language="sv_SE">
 <context>
     <name>QtLocationQML</name>
     <message>
         <source>Plugin property is not set.</source>
-        <translation>A propriedade do plugin não foi definida.</translation>
+        <translation>Insticksmodulegenskap är inte inställd.</translation>
     </message>
     <message>
         <source>Plugin Error (%1): %2</source>
-        <translation>Erro no plugin (%1): %2</translation>
+        <translation>Insticksmodulfel (%1): %2</translation>
     </message>
     <message>
         <source>Plugin Error (%1): Could not instantiate provider</source>
-        <translation>Erro no plugin (%1): Não foi possível instanciar o fornecedor</translation>
+        <translation>Insticksmodulfel (%1): Kunde inte instansiera leverantör</translation>
     </message>
     <message>
         <source>Plugin is not valid</source>
-        <translation>O plugin não é válido</translation>
+        <translation>Insticksmodulen är inte giltig</translation>
     </message>
     <message>
         <source>Unable to initialize categories</source>
-        <translation>Não foi possível inicializar as categorias</translation>
+        <translation>Kunde inte initiera kategorier</translation>
     </message>
     <message>
         <source>Unable to create request</source>
-        <translation>Não foi possível criar a requisição</translation>
+        <translation>Kunde inte skapa begäran</translation>
     </message>
     <message>
         <source>Index &apos;%1&apos; out of range</source>
-        <translation>Índice &apos;%1&apos; fora da faixa</translation>
+        <translation>Indexet &apos;%1&apos; är utanför intervallet</translation>
     </message>
     <message>
         <source>Qt Location requires apiKey parameter.
 Please register at https://developer.here.com/ to get your personal application credentials.</source>
-        <translation>O Qt Location requer o parâmetro apiKey.
-Registre-se em https://developer.here.com/ para obter suas credenciais de inscrição.</translation>
+        <translation>Qt Location kräver apiKey-parameter.
+Registrera dig på https://developer.here.com/ för att få din personliga programinloggning.</translation>
     </message>
     <message>
         <source>Saving places is not supported.</source>
-        <translation>Salvar lugares não é suportado.</translation>
+        <translation>Sparning av platser stöds inte.</translation>
     </message>
     <message>
         <source>Removing places is not supported.</source>
-        <translation>Excluir lugares não é suportado.</translation>
+        <translation>Borttagning av platser stöds inte.</translation>
     </message>
     <message>
         <source>Saving categories is not supported.</source>
-        <translation>Salvar categorias não é suportado.</translation>
+        <translation>Sparning av kategorier stöds inte.</translation>
     </message>
     <message>
         <source>Removing categories is not supported.</source>
-        <translation>Excluir categorias não é suportado.</translation>
+        <translation>Borttagning av kategorier stöds inte.</translation>
     </message>
     <message>
         <source>Error parsing response.</source>
-        <translation>Erro ao analisar a resposta.</translation>
+        <translation>Fel vid tolkning av svar.</translation>
     </message>
     <message>
         <source>Network error.</source>
-        <translation>Erro de rede.</translation>
+        <translation>Nätverksfel.</translation>
     </message>
     <message>
         <source>Request was canceled.</source>
-        <translation>A requisição foi cancelada.</translation>
+        <translation>Begäran avbröts.</translation>
     </message>
     <message>
         <source>The response from the service was not in a recognizable format.</source>
-        <translation>A resposta do servidor não veio em um formato reconhecido.</translation>
-    </message>
-    <message>
-        <source>Qt Location requires app_id and token parameters.
-Please register at https://developer.here.com/ to get your personal application credentials.</source>
-        <translation>O Qt Location necessita dos parâmetros app_id e token.
-Registre-se em https://developer.here.com/ para obter sua credencial de aplicativo pessoal.</translation>
+        <translation>Svaret från tjänsten var inte i ett känt format.</translation>
     </message>
 </context>
 <context>
     <name>QDeclarativeGeocodeModel</name>
     <message>
         <source>Cannot geocode, plugin not set.</source>
-        <translation>Não foi possível geocodificar, plugin não configurado.</translation>
+        <translation>Kan inte geocode, insticksmodul inte inställd.</translation>
     </message>
     <message>
         <source>Cannot geocode, geocode manager not set.</source>
-        <translation>Não foi possível geocodificar, gerenciador de geocodificação não configurado.</translation>
+        <translation>Kan inte geocode, geocode-hanterare inte inställd.</translation>
     </message>
     <message>
         <source>Cannot geocode, valid query not set.</source>
-        <translation>Não foi possível geocodificar, consulta válida não configurada.</translation>
+        <translation>Kan inte geocode, giltig frågesats inte inställd.</translation>
     </message>
     <message>
         <source>Plugin does not support (reverse) geocoding.</source>
-        <translation>O plugin não suporta geocodificação (reversa).</translation>
+        <translation>Insticksmodulen har inte stöd för (omvänd) geocoding.</translation>
     </message>
 </context>
 <context>
     <name>QDeclarativeGeoRouteModel</name>
     <message>
         <source>Plugin does not support routing.</source>
-        <translation>O plugin não suporta roteamento.</translation>
+        <translation>Insticksmodulen har inte stöd för rutter.</translation>
     </message>
     <message>
         <source>Cannot route, plugin not set.</source>
-        <translation>Não foi possível rotear, plugin não configurado.</translation>
+        <translation>Kan inte lägga rutt, instickmodul inte inställd.</translation>
     </message>
     <message>
         <source>Cannot route, route manager not set.</source>
-        <translation>Não foi possível rotear, gerenciador de rotas não configurado.</translation>
+        <translation>Kan inte lägga rutt, rutthanterare inte inställd.</translation>
     </message>
     <message>
         <source>Cannot route, valid query not set.</source>
-        <translation>Não foi possível rotear, consulta válida não configurada.</translation>
+        <translation>Kan inte lägga rutt, giltig frågesats inte inställd.</translation>
     </message>
     <message>
         <source>Not enough waypoints for routing.</source>
-        <translation>Poucos pontos para roteamento.</translation>
+        <translation>Inte tillräckliga vägpunkter för rutt.</translation>
     </message>
 </context>
 <context>
@@ -123,652 +117,652 @@ Registre-se em https://developer.here.com/ para obter sua credencial de aplicati
     <message>
         <source>North</source>
         <extracomment>Translations exist at https://github.com/Project-OSRM/osrm-text-instructions. Always used in &quot;Head %1 [onto &lt;street name&gt;]&quot;</extracomment>
-        <translation>norte</translation>
+        <translation>Norr</translation>
     </message>
     <message>
         <source>East</source>
-        <translation>leste</translation>
+        <translation>Öst</translation>
     </message>
     <message>
         <source>South</source>
-        <translation>sul</translation>
+        <translation>Syd</translation>
     </message>
     <message>
         <source>West</source>
-        <translation>oeste</translation>
+        <translation>Väster</translation>
     </message>
     <message>
         <source>first</source>
         <comment>roundabout exit</comment>
         <extracomment>always used in &quot; and take the %1 exit [onto &lt;street name&gt;]&quot;</extracomment>
-        <translation>primeira</translation>
+        <translation>första</translation>
     </message>
     <message>
         <source>second</source>
         <comment>roundabout exit</comment>
-        <translation>segunda</translation>
+        <translation>andra</translation>
     </message>
     <message>
         <source>third</source>
         <comment>roundabout exit</comment>
-        <translation>terceira</translation>
+        <translation>tredje</translation>
     </message>
     <message>
         <source>fourth</source>
         <comment>roundabout exit</comment>
-        <translation>quarta</translation>
+        <translation>fjärde</translation>
     </message>
     <message>
         <source>fifth</source>
         <comment>roundabout exit</comment>
-        <translation>quinta</translation>
+        <translation>femte</translation>
     </message>
     <message>
         <source>sixth</source>
         <comment>roundabout exit</comment>
-        <translation>sexta</translation>
+        <translation>sjätte</translation>
     </message>
     <message>
         <source>seventh</source>
         <comment>roundabout exit</comment>
-        <translation>sétima</translation>
+        <translation>sjunde</translation>
     </message>
     <message>
         <source>eighth</source>
         <comment>roundabout exit</comment>
-        <translation>oitava</translation>
+        <translation>åttonde</translation>
     </message>
     <message>
         <source>ninth</source>
         <comment>roundabout exit</comment>
-        <translation>nona</translation>
+        <translation>nionde</translation>
     </message>
     <message>
         <source>tenth</source>
         <comment>roundabout exit</comment>
-        <translation>décima</translation>
+        <translation>tionde</translation>
     </message>
     <message>
         <source>eleventh</source>
         <comment>roundabout exit</comment>
-        <translation>décima primeira</translation>
+        <translation>elfte</translation>
     </message>
     <message>
         <source>twelfth</source>
         <comment>roundabout exit</comment>
-        <translation>décima segunda</translation>
+        <translation>tolfte</translation>
     </message>
     <message>
         <source>thirteenth</source>
         <comment>roundabout exit</comment>
-        <translation>décima terceira</translation>
+        <translation>trettonde</translation>
     </message>
     <message>
         <source>fourteenth</source>
         <comment>roundabout exit</comment>
-        <translation>décima quarta</translation>
+        <translation>fjortonde</translation>
     </message>
     <message>
         <source>fifteenth</source>
         <comment>roundabout exit</comment>
-        <translation>décima quinta</translation>
+        <translation>femtonde</translation>
     </message>
     <message>
         <source>sixteenth</source>
         <comment>roundabout exit</comment>
-        <translation>décima sexta</translation>
+        <translation>sextonde</translation>
     </message>
     <message>
         <source>seventeenth</source>
         <comment>roundabout exit</comment>
-        <translation>décima sétima</translation>
+        <translation>sjuttonde</translation>
     </message>
     <message>
         <source>eighteenth</source>
         <comment>roundabout exit</comment>
-        <translation>décima oitava</translation>
+        <translation>artonde</translation>
     </message>
     <message>
         <source>nineteenth</source>
         <comment>roundabout exit</comment>
-        <translation>décima nona</translation>
+        <translation>nittonde</translation>
     </message>
     <message>
         <source>twentieth</source>
         <comment>roundabout exit</comment>
-        <translation>vigéssima</translation>
+        <translation>tjugonde</translation>
     </message>
     <message>
         <source> and take the %1 exit</source>
         <extracomment>Always appended to one of the following strings: - &quot;Enter the roundabout&quot; - &quot;Enter the rotary&quot; - &quot;Enter the rotary &lt;rotaryname&gt;&quot;</extracomment>
-        <translation> e pegue a %1 saída</translation>
+        <translation> och ta %1 avfarten</translation>
     </message>
     <message>
         <source> and take the %1 exit onto %2</source>
-        <translation> e pegue a %1 saída em %2</translation>
+        <translation> och ta %1 avfarten in på %2</translation>
     </message>
     <message>
         <source>You have arrived at your destination, straight ahead</source>
-        <translation>Você chegou ao destino, siga em frente</translation>
+        <translation>Du har kommit fram till ditt mål, rakt fram</translation>
     </message>
     <message>
         <source>You have arrived at your destination, on the left</source>
-        <translation>Você chegou ao destino, à esquerda</translation>
+        <translation>Du har kommit fram till ditt mål, till vänster</translation>
     </message>
     <message>
         <source>You have arrived at your destination, on the right</source>
-        <translation>Você chegou ao destino, à direita</translation>
+        <translation>Du har kommit fram till ditt mål, till höger</translation>
     </message>
     <message>
         <source>You have arrived at your destination</source>
-        <translation>Você chegou ao destino</translation>
+        <translation>Du har kommit fram till ditt mål</translation>
     </message>
     <message>
         <source>Continue straight</source>
-        <translation>Continue em frente</translation>
+        <translation>Fortsätt rakt framåt</translation>
     </message>
     <message>
         <source>Continue straight on %1</source>
-        <translation>Continue em frente em %1</translation>
+        <translation>Fortsätt rakt fram på %1</translation>
     </message>
     <message>
         <source>Continue left</source>
-        <translation>Continue à esquerda</translation>
+        <translation>Fortsätt till vänster</translation>
     </message>
     <message>
         <source>Continue left onto %1</source>
-        <translation>Continue à esquerda em %1</translation>
+        <translation>Fortsätt till vänster in på %1</translation>
     </message>
     <message>
         <source>Continue slightly left</source>
-        <translation>Continue ligeiramente à esquerda</translation>
+        <translation>Fortsätt svagt till vänster</translation>
     </message>
     <message>
         <source>Continue slightly left on %1</source>
-        <translation>Continue ligeiramente à esquerda em %1</translation>
+        <translation>Fortsätt svagt till vänster in på %1</translation>
     </message>
     <message>
         <source>Continue right</source>
-        <translation>Continue à direita</translation>
+        <translation>Fortsätt till höger</translation>
     </message>
     <message>
         <source>Continue right onto %1</source>
-        <translation>Continue à direita em %1</translation>
+        <translation>Fortsätt till höger in på %1</translation>
     </message>
     <message>
         <source>Continue slightly right</source>
-        <translation>Continue ligeiramente à direita</translation>
+        <translation>Fortsätt svagt till höger</translation>
     </message>
     <message>
         <source>Continue slightly right on %1</source>
-        <translation>Continue ligeiramente à direita em %1</translation>
+        <translation>Fortsätt svagt till höger in på %1</translation>
     </message>
     <message>
         <source>Make a U-turn</source>
-        <translation>Faça retorno</translation>
+        <translation>Gör en u-sväng</translation>
     </message>
     <message>
         <source>Make a U-turn onto %1</source>
-        <translation>Faça retorno em %1</translation>
+        <translation>Gör en u-sväng in på %1</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation>Continue</translation>
+        <translation>Fortsätt</translation>
     </message>
     <message>
         <source>Continue on %1</source>
-        <translation>Continue em %1</translation>
+        <translation>Fortsätt på %1</translation>
     </message>
     <message>
         <source>Head %1</source>
         <extracomment>%1 is &quot;North&quot;, &quot;South&quot;, &quot;East&quot; or &quot;West&quot;</extracomment>
-        <translation>Siga para o %1</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Head %1 onto %2</source>
-        <translation>Siga para o %1 em %2</translation>
+        <translation>Rakt fram %1 in på %2</translation>
     </message>
     <message>
         <source>Depart</source>
-        <translation>Siga</translation>
+        <translation>Avresa</translation>
     </message>
     <message>
         <source>Depart onto %1</source>
-        <translation>Siga em %1</translation>
+        <translation>Avres in på %1</translation>
     </message>
     <message>
         <source>At the end of the road, turn left</source>
-        <translation>No final da rua, vire à esquerda</translation>
+        <translation>Vid slutet av vägen, sväng vänster</translation>
     </message>
     <message>
         <source>At the end of the road, turn left onto %1</source>
-        <translation>No final da rua, vire à esquerda em %1</translation>
+        <translation>Vid slutet av vägen, sväng vänster in på %1</translation>
     </message>
     <message>
         <source>At the end of the road, turn right</source>
-        <translation>No final da rua, vire à direita</translation>
+        <translation>Vid slutet av vägen, sväng höger</translation>
     </message>
     <message>
         <source>At the end of the road, turn right onto %1</source>
-        <translation>No final da rua, vire à direita em %1</translation>
+        <translation>Vid slutet av vägen, sväng höger in på %1</translation>
     </message>
     <message>
         <source>At the end of the road, make a U-turn</source>
-        <translation>No final da rua, faça retorno</translation>
+        <translation>Vid slutet av vägen, gör en u-sväng</translation>
     </message>
     <message>
         <source>At the end of the road, make a U-turn onto %1</source>
-        <translation>No final da rua, faça retorno em %1</translation>
+        <translation>Vid slutet av vägen, gör en u-sväng in på %1</translation>
     </message>
     <message>
         <source>At the end of the road, continue straight</source>
-        <translation>No final da rua, siga em frente</translation>
+        <translation>Vid slutet av vägen, fortsätt rakt fram</translation>
     </message>
     <message>
         <source>At the end of the road, continue straight onto %1</source>
-        <translation>No final da rua, siga em frente em %1</translation>
+        <translation>Vid slutet av vägen, fortsätt rakt fram in på %1</translation>
     </message>
     <message>
         <source>At the end of the road, continue</source>
-        <translation>No final da rua, continue</translation>
+        <translation>Vid slutet av vägen, fortsätt</translation>
     </message>
     <message>
         <source>At the end of the road, continue onto %1</source>
-        <translation>No final da rua, continue em %1</translation>
+        <translation>Vid slutet av vägen, fortsätt in på %1</translation>
     </message>
     <message>
         <source>Take the ferry</source>
-        <translation>Pegue a balsa</translation>
+        <translation>Ta färjan</translation>
     </message>
     <message>
         <source>At the fork, take a sharp left</source>
-        <translation>Na bifurcação, faça uma curva acentuada à esquerda</translation>
+        <translation>Vid delningen, gör en skarp vänstersväng</translation>
     </message>
     <message>
         <source>At the fork, take a sharp left onto %1</source>
-        <translation>Na bifurcação, faça uma curva acentuada à esquerda em %1</translation>
+        <translation>Vid delningen, gör en skarp vänstersväng in på %1</translation>
     </message>
     <message>
         <source>At the fork, turn left</source>
-        <translation>Na bifurcação, vire à esquerda</translation>
+        <translation>Vid delningen, sväng vänster</translation>
     </message>
     <message>
         <source>At the fork, turn left onto %1</source>
-        <translation>Na bifurcação, vire à esquerda em %1</translation>
+        <translation>Vid delningen, sväng vänster in på %1</translation>
     </message>
     <message>
         <source>At the fork, keep left</source>
-        <translation>Na bifurcação, mantenha-se à esquerda</translation>
+        <translation>Vid delningen, håll dig till vänster</translation>
     </message>
     <message>
         <source>At the fork, keep left onto %1</source>
-        <translation>Na bifurcação, mantenha-se à esquerda em %1</translation>
+        <translation>Vid delningen, håll vänster in på %1</translation>
     </message>
     <message>
         <source>At the fork, take a sharp right</source>
-        <translation>Na bifurcação, faça uma curva acentuada à direita</translation>
+        <translation>Vid delningen, gör en skarp högersväng</translation>
     </message>
     <message>
         <source>At the fork, take a sharp right onto %1</source>
-        <translation>Na bifurcação, faça uma curva acentuada à direita em %1</translation>
+        <translation>Vid delningen, gör en skarp högersväng in på %1</translation>
     </message>
     <message>
         <source>At the fork, turn right</source>
-        <translation>Na bifurcação, vire à direita</translation>
+        <translation>Vid delningen, sväng höger</translation>
     </message>
     <message>
         <source>At the fork, turn right onto %1</source>
-        <translation>Na bifurcação, vire à direita em %1</translation>
+        <translation>Vid delningen, sväng höger in på %1</translation>
     </message>
     <message>
         <source>At the fork, keep right</source>
-        <translation>Na bifurcação, mantenha-se à direita</translation>
+        <translation>Vid delningen, håll dig till höger</translation>
     </message>
     <message>
         <source>At the fork, keep right onto %1</source>
-        <translation>Na bifurcação, mantenha-se à direita em %1</translation>
+        <translation>Vid delningen, håll dig till höger in på %1</translation>
     </message>
     <message>
         <source>At the fork, continue straight ahead</source>
-        <translation>Na bifurcação, siga em frente</translation>
+        <translation>Vid delningen, fortsätt rakt fram</translation>
     </message>
     <message>
         <source>At the fork, continue straight ahead onto %1</source>
-        <translation>Na bifurcação, siga em frente em %1</translation>
+        <translation>Vid delningen, fortsätt rakt fram in på %1</translation>
     </message>
     <message>
         <source>At the fork, continue</source>
-        <translation>Na bifurcação, continue</translation>
+        <translation>Vid delningen, fortsätt</translation>
     </message>
     <message>
         <source>At the fork, continue onto %1</source>
-        <translation>Na bifurcação, continue em %1</translation>
+        <translation>Vid delningen, fortsätt in på %1</translation>
     </message>
     <message>
         <source>Merge sharply left</source>
-        <translation>Junção acentuada à esquerda</translation>
+        <translation>Sammanslå skarpt åt vänster</translation>
     </message>
     <message>
         <source>Merge sharply left onto %1</source>
-        <translation>Junção acentuada à esquerda em %1</translation>
+        <translation>Sammanslå skarpt åt vänster in på %1</translation>
     </message>
     <message>
         <source>Merge left</source>
-        <translation>Junção à esquerda</translation>
+        <translation>Sammanslå åt vänster</translation>
     </message>
     <message>
         <source>Merge left onto %1</source>
-        <translation>Junção à esquerda em %1</translation>
+        <translation>Sammanslå åt vänster in på %1</translation>
     </message>
     <message>
         <source>Merge slightly left</source>
-        <translation>Junção leve à esquerda</translation>
+        <translation>Sammanslå svagt åt vänster</translation>
     </message>
     <message>
         <source>Merge slightly left on %1</source>
-        <translation>Junção leve à esquerda em %1</translation>
+        <translation>Sammanslå svagt åt vänster in på %1</translation>
     </message>
     <message>
         <source>Merge sharply right</source>
-        <translation>Junção acentuada à direita</translation>
+        <translation>Sammanslå skarpt åt höger</translation>
     </message>
     <message>
         <source>Merge sharply right onto %1</source>
-        <translation>Junção acentuada à direita em %1</translation>
+        <translation>Sammanslå skarpt åt höger in på %1</translation>
     </message>
     <message>
         <source>Merge right</source>
-        <translation>Junção à direita</translation>
+        <translation>Sammanslå åt höger</translation>
     </message>
     <message>
         <source>Merge right onto %1</source>
-        <translation>Junção à direita em %1</translation>
+        <translation>Sammanslå åt höger in på %1</translation>
     </message>
     <message>
         <source>Merge slightly right</source>
-        <translation>Junção leve à direita</translation>
+        <translation>Sammanslå svagt åt höger</translation>
     </message>
     <message>
         <source>Merge slightly right on %1</source>
-        <translation>Junção leve à direita em %1</translation>
+        <translation>Sammanslå svagt åt höger in på %1</translation>
     </message>
     <message>
         <source>Merge straight</source>
-        <translation>Junção à frente</translation>
+        <translation>Sammanslå rakt fram</translation>
     </message>
     <message>
         <source>Merge straight on %1</source>
-        <translation>Junção à frente em %1</translation>
+        <translation>Sammanslå rakt fram på %1</translation>
     </message>
     <message>
         <source>Merge</source>
-        <translation>Junção</translation>
+        <translation>Sammanslå</translation>
     </message>
     <message>
         <source>Merge onto %1</source>
-        <translation>Junção em %1</translation>
+        <translation>Sammanslå in på %1</translation>
     </message>
     <message>
         <source>Take a sharp left</source>
-        <translation>Vire na curva acentuada à esquerda</translation>
+        <translation>Gör en skarp vänstersväng</translation>
     </message>
     <message>
         <source>Take a sharp left onto %1</source>
-        <translation>Vire na curva acentuada à esquerda em %1</translation>
+        <translation>Gör en skarp vänstersväng in på %1</translation>
     </message>
     <message>
         <source>Turn left</source>
-        <translation>Vire à esquerda</translation>
+        <translation>Sväng vänster</translation>
     </message>
     <message>
         <source>Turn left onto %1</source>
-        <translation>Vire à esquerda em %1</translation>
+        <translation>Sväng vänster in på %1</translation>
     </message>
     <message>
         <source>Continue slightly left onto %1</source>
-        <translation>Mantenha-se levemente à esquerda em %1</translation>
+        <translation>Fortsätt svagt till vänster in på %1</translation>
     </message>
     <message>
         <source>Take a sharp right</source>
-        <translation>Vire na curva acentuada à direita</translation>
+        <translation>Gör en skarp högersväng</translation>
     </message>
     <message>
         <source>Take a sharp right onto %1</source>
-        <translation>Vire na curva acentuada à direita em %1</translation>
+        <translation>Gör en skarp högersväng in på %1</translation>
     </message>
     <message>
         <source>Turn right</source>
-        <translation>Vire à direita</translation>
+        <translation>Sväng höger</translation>
     </message>
     <message>
         <source>Turn right onto %1</source>
-        <translation>Vire à direita em %1</translation>
+        <translation>Sväng höger in på %1</translation>
     </message>
     <message>
         <source>Continue slightly right onto %1</source>
-        <translation>Mantenha-se levemente à direita em %1</translation>
+        <translation>Fortsätt svagt till höger in på %1</translation>
     </message>
     <message>
         <source>Continue straight onto %1</source>
-        <translation>Mantenha-se em frente em %1</translation>
+        <translation>Fortsätt rakt fram in på %1</translation>
     </message>
     <message>
         <source>Continue onto %1</source>
-        <translation>Mantenha-se em %1</translation>
+        <translation>Fortsätt in på %1</translation>
     </message>
     <message>
         <source>Continue on the left</source>
-        <translation>Mantenha-se à esquerda</translation>
+        <translation>Fortsätt till vänster</translation>
     </message>
     <message>
         <source>Continue on the left on %1</source>
-        <translation>Mantenha-se à esquerda em %1</translation>
+        <translation>Fortsätt till vänster in på %1</translation>
     </message>
     <message>
         <source>Continue on the right</source>
-        <translation>Mantenha-se à direita</translation>
+        <translation>Fortsätt till höger</translation>
     </message>
     <message>
         <source>Continue on the right on %1</source>
-        <translation>Mantenha-se à direita em %1</translation>
+        <translation>Fortsätt till höger in på %1</translation>
     </message>
     <message>
         <source>Take the ramp on the left</source>
-        <translation>Pegue a rampa à esquerda</translation>
+        <translation>Ta rampen till vänster</translation>
     </message>
     <message>
         <source>Take the ramp on the left onto %1</source>
-        <translation>Pegue a rampa à esquerda em %1</translation>
+        <translation>Ta rampen till vänster in på %1</translation>
     </message>
     <message>
         <source>Take the ramp on the right</source>
-        <translation>Pegue a rampa à direita</translation>
+        <translation>Ta rampen till höger</translation>
     </message>
     <message>
         <source>Take the ramp on the right onto %1</source>
-        <translation>Pegue a rampa à direita em %1</translation>
+        <translation>Ta rampen till höger in på %1</translation>
     </message>
     <message>
         <source>Take the ramp</source>
-        <translation>Pegue a rampa</translation>
+        <translation>Ta rampen</translation>
     </message>
     <message>
         <source>Take the ramp onto %1</source>
-        <translation>Pegue a rampa em %1</translation>
+        <translation>Ta rampen in på %1</translation>
     </message>
     <message>
         <source>Get off the bike and push</source>
-        <translation>Saia da bicicleta e empurre-a</translation>
+        <translation>Hoppa av cykeln och gå</translation>
     </message>
     <message>
         <source>Get off the bike and push onto %1</source>
-        <translation>Saia da bicicleta e empurre-a em %1</translation>
+        <translation>Hoppa av cykeln och gå in på %1</translation>
     </message>
     <message>
         <source>Enter the rotary</source>
         <extracomment>This string will be prepended to &quot; and take the &lt;nth&gt; exit [onto &lt;streetname&gt;]</extracomment>
-        <translation>Entre na rotatória</translation>
+        <translation>Åk in i rondellen</translation>
     </message>
     <message>
         <source>Enter the roundabout</source>
         <extracomment>This string will be prepended to &quot; and take the &lt;nth&gt; exit [onto &lt;streetname&gt;]</extracomment>
-        <translation>Entre na rotatória</translation>
+        <translation>In i rondellen</translation>
     </message>
     <message>
         <source>At the roundabout, continue straight</source>
-        <translation>Na rotatória, siga em frente</translation>
+        <translation>I rondellen, fortsätt rakt fram</translation>
     </message>
     <message>
         <source>At the roundabout, continue straight on %1</source>
-        <translation>Na rotatória, siga em frente em %1</translation>
+        <translation>Vid rondellen, fortsätt rakt fram in på %1</translation>
     </message>
     <message>
         <source>At the roundabout, turn left</source>
-        <translation>Na rotatória, vire à esquerda</translation>
+        <translation>Vid rondellen, sväng vänster</translation>
     </message>
     <message>
         <source>At the roundabout, turn left onto %1</source>
-        <translation>Na rotatória, vire à esquerda em %1</translation>
+        <translation>Vid rondellen, sväng vänster in på %1</translation>
     </message>
     <message>
         <source>At the roundabout, turn right</source>
-        <translation>Na rotatória, vire à direita</translation>
+        <translation>Vid rondellen, sväng höger</translation>
     </message>
     <message>
         <source>At the roundabout, turn right onto %1</source>
-        <translation>Na rotatória, vire à direita em %1</translation>
+        <translation>Vid rondellen, sväng höger in på %1</translation>
     </message>
     <message>
         <source>At the roundabout, turn around</source>
-        <translation>Na rotatória, dê a volta</translation>
+        <translation>Vid rondellen, sväng runt</translation>
     </message>
     <message>
         <source>At the roundabout, turn around onto %1</source>
-        <translation>Na rotatória, dê a volta em %1</translation>
+        <translation>Vid rondellen, sväng runt in på %1</translation>
     </message>
     <message>
         <source>At the roundabout, continue</source>
-        <translation>Na rotatória, continue</translation>
+        <translation>Vid rondellen, fortsätt</translation>
     </message>
     <message>
         <source>At the roundabout, continue onto %1</source>
-        <translation>Na rotatória, continue em %1</translation>
+        <translation>Vid rondellen, fortsätt in på %1</translation>
     </message>
     <message>
         <source>Take the train</source>
-        <translation>Pegue o trem</translation>
+        <translation>Ta tåget</translation>
     </message>
     <message>
         <source>Take the train [%1]</source>
-        <translation>Pegue o trem [%1]</translation>
+        <translation>Ta tåget [%1]</translation>
     </message>
     <message>
         <source>Go straight</source>
-        <translation>Siga em frente</translation>
+        <translation>Gå rakt fram</translation>
     </message>
     <message>
         <source>Go straight onto %1</source>
-        <translation>Siga em frente em %1</translation>
+        <translation>Gå rakt fram in på %1</translation>
     </message>
     <message>
         <source>Turn slightly left</source>
-        <translation>Vire levemente à esquerda</translation>
+        <translation>Sväng svagt till vänster</translation>
     </message>
     <message>
         <source>Turn slightly left onto %1</source>
-        <translation>Vire levemente à esquerda em %1</translation>
+        <translation>Sväng svagt till vänster in på %1</translation>
     </message>
     <message>
         <source>Turn slightly right</source>
-        <translation>Vire levemente à direita</translation>
+        <translation>Sväng svagt till höger</translation>
     </message>
     <message>
         <source>Turn slightly right onto %1</source>
-        <translation>Vire levemente à direita em %1</translation>
+        <translation>Sväng svagt till höger in på %1</translation>
     </message>
     <message>
         <source>Turn</source>
-        <translation>Vire</translation>
+        <translation>Sväng</translation>
     </message>
     <message>
         <source>Turn onto %1</source>
-        <translation>Vire em %1</translation>
+        <translation>Sväng in på %1</translation>
     </message>
     <message>
         <source> and continue straight</source>
         <extracomment>This string will be prepended with lane instructions. E.g., &quot;Use the left or the right lane and continue straight&quot;</extracomment>
-        <translation> e siga em frente</translation>
+        <translation> och fortsätt rakt fram</translation>
     </message>
     <message>
         <source> and continue straight onto %1</source>
-        <translation> e siga em frente em %1</translation>
+        <translation> och fortsätt rakt fram in på %1</translation>
     </message>
     <message>
         <source> and make a sharp left</source>
-        <translation> e então vire na curva acentuada à esquerda</translation>
+        <translation> och gör en skarp vänstersväng</translation>
     </message>
     <message>
         <source> and make a sharp left onto %1</source>
-        <translation> e então vire na curva acentuada à esquerda em %1</translation>
+        <translation> och gör en skarp vänstersväng in på %1</translation>
     </message>
     <message>
         <source> and turn left</source>
-        <translation> e vire à esquerda</translation>
+        <translation> och sväng vänster</translation>
     </message>
     <message>
         <source> and turn left onto %1</source>
-        <translation> e vire à esquerda em %1</translation>
+        <translation> och sväng vänster in på %1</translation>
     </message>
     <message>
         <source> and make a slight left</source>
-        <translation> e então vire na curva leve à esquerda</translation>
+        <translation> och gör en svag vänstersväng</translation>
     </message>
     <message>
         <source> and make a slight left onto %1</source>
-        <translation> e então vire na curva leve à esquerda em %1</translation>
+        <translation> och gör en svag vänstersväng in på %1</translation>
     </message>
     <message>
         <source> and make a sharp right</source>
-        <translation> e então vire na curva acentuada à direita</translation>
+        <translation> och gör en skarp högersväng</translation>
     </message>
     <message>
         <source> and make a sharp right onto %1</source>
-        <translation> e então vire na curva acentuada à direita em %1</translation>
+        <translation> och gör en skarp högersväng in på %1</translation>
     </message>
     <message>
         <source> and turn right</source>
-        <translation> e então vire à direita</translation>
+        <translation> och sväng höger</translation>
     </message>
     <message>
         <source> and turn right onto %1</source>
-        <translation> e então vire à direita em %1</translation>
+        <translation> och sväng höger in på %1</translation>
     </message>
     <message>
         <source> and make a slight right</source>
-        <translation> e então vire levemente à direita</translation>
+        <translation> och gör en svag högersväng</translation>
     </message>
     <message>
         <source> and make a slight right onto %1</source>
-        <translation> e então vire levemente à direita em %1</translation>
+        <translation> och gör en svag högersväng in på %1</translation>
     </message>
     <message>
         <source> and make a U-turn</source>
-        <translation> e então faça retorno</translation>
+        <translation> och gör en u-sväng</translation>
     </message>
     <message>
         <source> and make a U-turn onto %1</source>
-        <translation> e então faça retorno em %1</translation>
+        <translation> och gör en u-sväng in på %1</translation>
     </message>
 </context>
 <context>
     <name>QDeclarativeGeoMap</name>
     <message>
         <source>No Map</source>
-        <translation>Sem mapa</translation>
+        <translation>Ingen karta</translation>
     </message>
     <message>
         <source>Plugin does not support mapping.</source>
-        <translation>O plugin não suporta mapeamento.</translation>
+        <translation>Insticksmodulen har inte stöd för mappning.</translation>
     </message>
 </context>
 <context>
@@ -776,29 +770,29 @@ Registre-se em https://developer.here.com/ para obter sua credencial de aplicati
     <message>
         <source>Esri plugin requires a &apos;esri.token&apos; parameter.
 Please visit https://developers.arcgis.com/authentication/accessing-arcgis-online-services/</source>
-        <translation>O plugin Esri requer um parâmetro &apos;esri.token&apos;.
-Visite https://developers.arcgis.com/authentication/accessing-arcgis-online-services/</translation>
+        <translation>Insticksmodulen Esri kräver en &apos;esri.token&apos;-parameter.
+Besök https://developers.arcgis.com/authentication/accessing-arcgis-online-services/</translation>
     </message>
 </context>
 <context>
     <name>PlaceSearchReplyEsri</name>
     <message>
         <source>Response parse error</source>
-        <translation>Erro de análise de resposta</translation>
+        <translation>Tolkningsfel av svaret</translation>
     </message>
 </context>
 <context>
     <name>QGeoMappingManagerEngineItemsOverlay</name>
     <message>
         <source>Empty Map</source>
-        <translation>Mapa vazio</translation>
+        <translation>Tom karta</translation>
     </message>
 </context>
 <context>
     <name>QGeoCodeReplyMapbox</name>
     <message>
         <source>Response parse error</source>
-        <translation>Erro de análise de resposta</translation>
+        <translation>Tolkningsfel av svaret</translation>
     </message>
 </context>
 <context>
@@ -806,8 +800,8 @@ Visite https://developers.arcgis.com/authentication/accessing-arcgis-online-serv
     <message>
         <source>Mapbox plugin requires a &apos;mapbox.access_token&apos; parameter.
 Please visit https://www.mapbox.com</source>
-        <translation>O plugin Mapbox requer um parâmetro &apos;mapbox.access_token&apos;.
-Visite https://www.mapbox.com</translation>
+        <translation>Insticksmodulen Mapbox kräver en &apos;mapbox.access_token&apos;-parameter.
+Besök https://www.mapbox.com</translation>
     </message>
 </context>
 <context>
@@ -815,848 +809,650 @@ Visite https://www.mapbox.com</translation>
     <message>
         <source>Street</source>
         <extracomment>Noun describing map type &apos;Street map&apos;</extracomment>
-        <translation>Rua</translation>
+        <translation>Gator</translation>
     </message>
     <message>
         <source>Light</source>
         <extracomment>Noun describing type of a map using light colors (weak contrast)</extracomment>
-        <translation>Claro</translation>
+        <translation>Ljus</translation>
     </message>
     <message>
         <source>Dark</source>
         <extracomment>Noun describing type of a map using dark colors</extracomment>
-        <translation>Escuro</translation>
+        <translation>Mörk</translation>
     </message>
     <message>
         <source>Satellite</source>
         <extracomment>Noun describing type of a map created by satellite</extracomment>
-        <translation>Satélite</translation>
+        <translation>Satellit</translation>
     </message>
     <message>
         <source>Streets Satellite</source>
         <extracomment>Noun describing type of a street map created by satellite</extracomment>
-        <translation>Satélite ruas</translation>
+        <translation>Gator enligt satelit</translation>
     </message>
     <message>
         <source>Wheatpaste</source>
         <extracomment>Noun describing type of a map using wheat paste colors</extracomment>
-        <translation>Cores pasteis</translation>
+        <translation>Bleka färger</translation>
     </message>
     <message>
         <source>Streets Basic</source>
         <extracomment>Noun describing type of a basic street map</extracomment>
-        <translation>Ruas básico</translation>
+        <translation>Grundläggande gator</translation>
     </message>
     <message>
         <source>Comic</source>
         <extracomment>Noun describing type of a map using cartoon-style fonts</extracomment>
-        <translation>Cômico</translation>
+        <translation>Tecknad</translation>
     </message>
     <message>
         <source>Outdoors</source>
         <extracomment>Noun describing type of a map for outdoor activities</extracomment>
-        <translation>Ar livre</translation>
+        <translation>Utomhus</translation>
     </message>
     <message>
         <source>Run Bike Hike</source>
         <extracomment>Noun describing type of a map for sports</extracomment>
-        <translation>Bicicleta e caminhada</translation>
+        <translation>Kör cykla gå</translation>
     </message>
     <message>
         <source>Pencil</source>
         <extracomment>Noun describing type of a map drawn by pencil</extracomment>
-        <translation>Caneta</translation>
+        <translation>Blyerts</translation>
     </message>
     <message>
         <source>Pirates</source>
         <extracomment>Noun describing type of a treasure map with pirate boat watermark</extracomment>
-        <translation>Piratas</translation>
+        <translation>Pirater</translation>
     </message>
     <message>
         <source>Emerald</source>
         <extracomment>Noun describing type of a map using emerald colors</extracomment>
-        <translation>Esmeralda</translation>
+        <translation>Smaragd</translation>
     </message>
     <message>
         <source>High Contrast</source>
         <extracomment>Noun describing type of a map with high contrast</extracomment>
-        <translation>Alto contraste</translation>
+        <translation>Hög kontrast</translation>
     </message>
 </context>
 <context>
     <name>QPlaceSearchReplyMapbox</name>
     <message>
         <source>Response parse error</source>
-        <translation>Erro de análise de resposta</translation>
+        <translation>Tolkningsfel av svaret</translation>
     </message>
 </context>
 <context>
     <name>QPlaceSearchSuggestionReplyMapbox</name>
     <message>
         <source>Response parse error</source>
-        <translation>Erro de análise de resposta</translation>
+        <translation>Tolkningsfel av svaret</translation>
     </message>
 </context>
 <context>
     <name>QGeoMapMapboxGL</name>
     <message>
         <source>Development access token, do not use in production.</source>
-        <translation>Token de acesso de desenvolvimento, não use em produção.</translation>
+        <translation>Accesstoken för utveckling, använd inte i produktion.</translation>
     </message>
 </context>
 <context>
     <name>QGeoMappingManagerEngineMapboxGL</name>
     <message>
         <source>China Streets</source>
-        <translation>Ruas da China</translation>
+        <translation>Kinagator</translation>
     </message>
     <message>
         <source>China Light</source>
-        <translation>China claro</translation>
+        <translation>Kina ljus</translation>
     </message>
     <message>
         <source>China Dark</source>
-        <translation>China escuro</translation>
+        <translation>Kina mörk</translation>
     </message>
     <message>
         <source>Streets</source>
-        <translation>Ruas</translation>
+        <translation>Gator</translation>
     </message>
     <message>
         <source>Basic</source>
-        <translation>Básico</translation>
+        <translation>Grundläggande</translation>
     </message>
     <message>
         <source>Bright</source>
-        <translation>Brilhante</translation>
+        <translation>Starkt ljus</translation>
     </message>
     <message>
         <source>Outdoors</source>
-        <translation>Ar livre</translation>
+        <translation>Utomhus</translation>
     </message>
     <message>
         <source>Satellite</source>
-        <translation>Satélite</translation>
+        <translation>Satellit</translation>
     </message>
     <message>
         <source>Satellite Streets</source>
-        <translation>Satélite ruas</translation>
+        <translation>Satellitgator</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>Claro</translation>
+        <translation>Ljus</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>Escuro</translation>
+        <translation>Mörk</translation>
     </message>
     <message>
         <source>Navigation Preview Day</source>
-        <translation>Visualização diurna da navegação</translation>
+        <translation>Navigeringsförhandsvisning dag</translation>
     </message>
     <message>
         <source>Navigation Preview Night</source>
-        <translation>Visualização noturna da navegação</translation>
+        <translation>Navigeringsförhandsvisning natt</translation>
     </message>
     <message>
         <source>Navigation Guidance Day</source>
-        <translation>Orientação diurna da navegação</translation>
+        <translation>Navigeringsguidning dag</translation>
     </message>
     <message>
         <source>Navigation Guidance Night</source>
-        <translation>Orientação noturna da navegação</translation>
+        <translation>Navigeringsguidning natt</translation>
     </message>
     <message>
         <source>User provided style</source>
-        <translation>Estilo fornecido pelo usuário</translation>
+        <translation>Användartillhandahållen stil</translation>
     </message>
 </context>
 <context>
     <name>QGeoTiledMappingManagerEngineNokia</name>
     <message>
         <source>Street Map</source>
-        <translation>Mapa de ruas</translation>
+        <translation>Gatukarta</translation>
     </message>
     <message>
         <source>Normal map view in daylight mode</source>
-        <translation>Vista normal do mapa em modo diurno</translation>
+        <translation>Normal kartvy i dagsljusläge</translation>
     </message>
     <message>
         <source>Satellite Map</source>
-        <translation>Mapa de satélite</translation>
+        <translation>Satellitkarta</translation>
     </message>
     <message>
         <source>Satellite map view in daylight mode</source>
-        <translation>Vista de satélite do mapa em modo diurno</translation>
+        <translation>Satellitkartvy i dagsljusläge</translation>
     </message>
     <message>
         <source>Terrain Map</source>
-        <translation>Mapa de terreno</translation>
+        <translation>Terrängkarta</translation>
     </message>
     <message>
         <source>Terrain map view in daylight mode</source>
-        <translation>Vista de terreno do mapa em modo diurno</translation>
+        <translation>Terrängkartvy i dagsljusläge</translation>
     </message>
     <message>
         <source>Hybrid Map</source>
-        <translation>Mapa híbrido</translation>
+        <translation>Hybridkarta</translation>
     </message>
     <message>
         <source>Satellite map view with streets in daylight mode</source>
-        <translation>Vista de satélite do mapa com ruas em modo diurno</translation>
+        <translation>Satellitkartvy med gator i dagsljusläge</translation>
     </message>
     <message>
         <source>Transit Map</source>
-        <translation>Mapa de trânsito</translation>
+        <translation>Pendlarkarta</translation>
     </message>
     <message>
         <source>Color-reduced map view with public transport scheme in daylight mode</source>
-        <translation>Vista de cores reduzida do mapa com transporte público em modo diurno</translation>
+        <translation>Färgreducerad kartvy med kollektivtrafik i dagsljusläge</translation>
     </message>
     <message>
         <source>Gray Street Map</source>
-        <translation>Mapa de ruas cinza</translation>
+        <translation>Grå gatukarta</translation>
     </message>
     <message>
         <source>Color-reduced map view in daylight mode</source>
-        <translation>Vista de cores reduzida do mapa em modo diurno</translation>
+        <translation>Färgreducerad kartvy i dagsljusläge</translation>
     </message>
     <message>
         <source>Mobile Street Map</source>
-        <translation>Mapa de ruas móvel</translation>
+        <translation>Gatukarta (mobil)</translation>
     </message>
     <message>
         <source>Mobile normal map view in daylight mode</source>
-        <translation>Vista normal do mapa móvel em modo diurno</translation>
+        <translation>Normal kartvy i dagsljusläge (mobil)</translation>
     </message>
     <message>
         <source>Mobile Terrain Map</source>
-        <translation>Mapa de terreno móvel</translation>
+        <translation>Terrängkarta (mobil)</translation>
     </message>
     <message>
         <source>Mobile terrain map view in daylight mode</source>
-        <translation>Vista de terreno do mapa móvel em modo diurno</translation>
+        <translation>Terrängkartvy i dagsljusläge (mobil)</translation>
     </message>
     <message>
         <source>Mobile Hybrid Map</source>
-        <translation>Mapa híbrido móvel</translation>
+        <translation>Hybridkarta (mobil)</translation>
     </message>
     <message>
         <source>Mobile satellite map view with streets in daylight mode</source>
-        <translation>Vista de satélite do mapa móvel com ruas em modo diurno</translation>
+        <translation>Satellitkartvy med gator i dagsljusläge (mobil)</translation>
     </message>
     <message>
         <source>Mobile Transit Map</source>
-        <translation>Mapa de trânsito móvel</translation>
+        <translation>Pendlarkarta (mobil)</translation>
     </message>
     <message>
         <source>Mobile color-reduced map view with public transport scheme in daylight mode</source>
-        <translation>Vista de cores reduzida do mapa móvel com transporte público em modo diurno</translation>
+        <translation>Färgreducerad kartvy med kollektivtrafik i dagsljusläge (mobil)</translation>
     </message>
     <message>
         <source>Mobile Gray Street Map</source>
-        <translation>Mapa de ruas móvel cinza</translation>
+        <translation>Grå gatukarta (mobil)</translation>
     </message>
     <message>
         <source>Mobile color-reduced map view in daylight mode</source>
-        <translation>Vista de cores reduzida do mapa móvel em modo diurno</translation>
+        <translation>Färgreducerad kartvy i dagsljusläge (mobil)</translation>
     </message>
     <message>
         <source>Custom Street Map</source>
-        <translation>Mapa de ruas personalizado</translation>
+        <translation>Anpassad gatukarta</translation>
     </message>
     <message>
         <source>Night Street Map</source>
-        <translation>Mapa de ruas noturno</translation>
+        <translation>Nattgatukarta</translation>
     </message>
     <message>
         <source>Normal map view in night mode</source>
-        <translation>Vista normal do mapa em modo noturno</translation>
+        <translation>Normal kartvy i nattläge</translation>
     </message>
     <message>
         <source>Mobile Night Street Map</source>
-        <translation>Mapa de ruas móvel noturno</translation>
+        <translation>Nattgatukarta (mobil)</translation>
     </message>
     <message>
         <source>Mobile normal map view in night mode</source>
-        <translation>Vista normal do mapa móvel em modo noturno</translation>
+        <translation>Normal kartvy i nattläge (mobil)</translation>
     </message>
     <message>
         <source>Gray Night Street Map</source>
-        <translation>Mapa de ruas noturno cinza</translation>
+        <translation>Grå nattgatukarta</translation>
     </message>
     <message>
         <source>Color-reduced map view in night mode (especially used for background maps)</source>
-        <translation>Vista de cores reduzida do mapa modo noturno (usado especialmente para mapas de fundo)</translation>
+        <translation>Färgreducerad kartvy i nattläge (används specifikt för bakgrundskartor)</translation>
     </message>
     <message>
         <source>Mobile Gray Night Street Map</source>
-        <translation>Mapa de ruas noturno móvel cinza</translation>
+        <translation>Grå nattgatukarta (mobil)</translation>
     </message>
     <message>
         <source>Mobile color-reduced map view in night mode (especially used for background maps)</source>
-        <translation>Vista de cores reduzida do mapa móvel em modo noturno (usado especialmente para mapas de fundo)</translation>
+        <translation>Färgreducerad kartvy i nattläge (används specifikt för bakgrundskartor)</translation>
     </message>
     <message>
         <source>Pedestrian Street Map</source>
-        <translation>Mapa de ruas pedestre</translation>
+        <translation>Gatukarta för fotgängare</translation>
     </message>
     <message>
         <source>Pedestrian map view in daylight mode</source>
-        <translation>Vista do mapa pedestre em modo diurno</translation>
+        <translation>Kartvy för fotgängare i dagsljusläge</translation>
     </message>
     <message>
         <source>Mobile Pedestrian Street Map</source>
-        <translation>Mapa de ruas móvel pedestre</translation>
+        <translation>Gatukarta för fotgängare (mobil)</translation>
     </message>
     <message>
         <source>Mobile pedestrian map view in daylight mode for mobile usage</source>
-        <translation>Vista do mapa móvel pedestre em modo diurno para uso móvel</translation>
+        <translation>Kartvy för fotgängare i dagsljusläge för mobil användning</translation>
     </message>
     <message>
         <source>Pedestrian Night Street Map</source>
-        <translation>Mapa de ruas pedestre noturno</translation>
+        <translation>Nattgatukarta för fotgängare</translation>
     </message>
     <message>
         <source>Pedestrian map view in night mode</source>
-        <translation>Vista do mapa pedestre em modo noturno</translation>
+        <translation>Kartvy för fotgängare i nattläge</translation>
     </message>
     <message>
         <source>Mobile Pedestrian Night Street Map</source>
-        <translation>Mapa de ruas móvel pedestre noturno</translation>
+        <translation>Nattgatukarta för fotgängare (mobil)</translation>
     </message>
     <message>
         <source>Mobile pedestrian map view in night mode for mobile usage</source>
-        <translation>Vista do mapa móvel pedestre em modo noturno para uso móvel</translation>
+        <translation>Kartvy för fotgängare i nattläge för mobil användning (mobil)</translation>
     </message>
     <message>
         <source>Car Navigation Map</source>
-        <translation>Mapa de navegação em automóveis</translation>
+        <translation>Bilnavigeringskarta</translation>
     </message>
     <message>
         <source>Normal map view in daylight mode for car navigation</source>
-        <translation>Vista do mapa em modo diurno para navegação em automóveis</translation>
+        <translation>Normal kartvy i dagsljusläge för bilnavigering</translation>
     </message>
 </context>
 <context>
     <name>QGeoTileFetcherNokia</name>
     <message>
         <source>Mapping manager no longer exists</source>
-        <translation>O gerenciamento de mapas não existe mais</translation>
+        <translation>Mappningshanterare finns inte längre</translation>
     </message>
 </context>
 <context>
     <name>QGeoRouteParserOsrmV4</name>
     <message>
         <source>Go straight.</source>
-        <translation>Siga em frente.</translation>
+        <translation>Gå rakt fram.</translation>
     </message>
     <message>
         <source>Go straight onto %1.</source>
-        <translation>Siga em frente em %1.</translation>
+        <translation>Gå rakt fram in på %1.</translation>
     </message>
     <message>
         <source>Turn slightly right.</source>
-        <translation>Vire ligeiramente à direita.</translation>
+        <translation>Sväng svagt till höger.</translation>
     </message>
     <message>
         <source>Turn slightly right onto %1.</source>
-        <translation>Vire ligeiramente à direita em %1.</translation>
+        <translation>Sväng svagt till höger in på %1.</translation>
     </message>
     <message>
         <source>Turn right.</source>
-        <translation>Vire à direita.</translation>
+        <translation>Sväng höger.</translation>
     </message>
     <message>
         <source>Turn right onto %1.</source>
-        <translation>Vire à direita em %1.</translation>
+        <translation>Sväng höger in på %1.</translation>
     </message>
     <message>
         <source>Make a sharp right.</source>
-        <translation>Faça uma curva acentuada à direita.</translation>
+        <translation>Gör en skarp högersväng.</translation>
     </message>
     <message>
         <source>Make a sharp right onto %1.</source>
-        <translation>Faça uma curva acentuada à direita em %1.</translation>
+        <translation>Gör en skarp högersväng in på %1.</translation>
     </message>
     <message>
         <source>When it is safe to do so, perform a U-turn.</source>
-        <translation>Quando for seguro, faça retorno.</translation>
+        <translation>När det är säkert att göra en, gör en u-sväng.</translation>
     </message>
     <message>
         <source>Make a sharp left.</source>
-        <translation>Faça uma curva acentuada à esquerda.</translation>
+        <translation>Gör en skarp vänstersväng.</translation>
     </message>
     <message>
         <source>Make a sharp left onto %1.</source>
-        <translation>Faça uma curva acentuada à esquerda em %1.</translation>
+        <translation>Gör en skarp vänstersväng in på %1.</translation>
     </message>
     <message>
         <source>Turn left.</source>
-        <translation>Vire à esquerda.</translation>
+        <translation>Sväng vänster.</translation>
     </message>
     <message>
         <source>Turn left onto %1.</source>
-        <translation>Vire à esquerda em %1.</translation>
+        <translation>Sväng vänster in på %1.</translation>
     </message>
     <message>
         <source>Turn slightly left.</source>
-        <translation>Vire ligeiramente à esquerda.</translation>
+        <translation>Sväng svagt till vänster.</translation>
     </message>
     <message>
         <source>Turn slightly left onto %1.</source>
-        <translation>Vire ligeiramente à esquerda em %1.</translation>
+        <translation>Sväng svagt till vänster in på %1.</translation>
     </message>
     <message>
         <source>Reached waypoint.</source>
-        <translation>Chegou no destino.</translation>
+        <translation>Du har nått vägpunkten.</translation>
     </message>
     <message>
         <source>Head on.</source>
-        <translation>Siga em frente.</translation>
+        <translation>Rakt fram.</translation>
     </message>
     <message>
         <source>Head onto %1.</source>
-        <translation>Siga em frente em %1.</translation>
+        <translation>Rakt fram in på %1.</translation>
     </message>
     <message>
         <source>Enter the roundabout.</source>
-        <translation>Entre na rotatória.</translation>
+        <translation>In i rondellen.</translation>
     </message>
     <message>
         <source>At the roundabout take the first exit.</source>
-        <translation>Na rotatória pegue a primeira saída.</translation>
+        <translation>Vid rondellen, ta den första avfarten.</translation>
     </message>
     <message>
         <source>At the roundabout take the first exit onto %1.</source>
-        <translation>Na rotatória pegue a primeira saída em %1.</translation>
+        <translation>Vid rondellen, ta den första avfarten in på %1.</translation>
     </message>
     <message>
         <source>At the roundabout take the second exit.</source>
-        <translation>Na rotatória pegue a segunda saída.</translation>
+        <translation>Vid rondellen, ta den andra avfarten.</translation>
     </message>
     <message>
         <source>At the roundabout take the second exit onto %1.</source>
-        <translation>Na rotatória pegue a segunda saída em %1.</translation>
+        <translation>Vid rondellen, ta den andra avfarten in på %1.</translation>
     </message>
     <message>
         <source>At the roundabout take the third exit.</source>
-        <translation>Na rotatória pegue a terceira saída.</translation>
+        <translation>Vid rondellen, ta den tredje avfarten.</translation>
     </message>
     <message>
         <source>At the roundabout take the third exit onto %1.</source>
-        <translation>Na rotatória pegue a terceira saída em %1.</translation>
+        <translation>Vid rondellen, ta den tredje avfarten in på %1.</translation>
     </message>
     <message>
         <source>At the roundabout take the fourth exit.</source>
-        <translation>Na rotatória pegue a quarta saída.</translation>
+        <translation>Vid rondellen, ta den fjärde avfarten.</translation>
     </message>
     <message>
         <source>At the roundabout take the fourth exit onto %1.</source>
-        <translation>Na rotatória pegue a quarta saída em %1.</translation>
+        <translation>Vid rondellen, ta den fjärde avfarten in på %1.</translation>
     </message>
     <message>
         <source>At the roundabout take the fifth exit.</source>
-        <translation>Na rotatória pegue a quinta saída.</translation>
+        <translation>Vid rondellen, ta den femte avfarten.</translation>
     </message>
     <message>
         <source>At the roundabout take the fifth exit onto %1.</source>
-        <translation>Na rotatória pegue a quinta saída em %1.</translation>
+        <translation>Vid rondellen, ta den femte avfarten in på %1.</translation>
     </message>
     <message>
         <source>At the roundabout take the sixth exit.</source>
-        <translation>Na rotatória pegue a sexta saída.</translation>
+        <translation>Vid rondellen, ta den sjätte avfarten.</translation>
     </message>
     <message>
         <source>At the roundabout take the sixth exit onto %1.</source>
-        <translation>Na rotatória pegue a sexta saída em %1.</translation>
+        <translation>Vid rondellen, ta den sjätte avfarten in på %1.</translation>
     </message>
     <message>
         <source>At the roundabout take the seventh exit.</source>
-        <translation>Na rotatória pegue a sétima saída.</translation>
+        <translation>Vid rondellen, ta den sjunde avfarten.</translation>
     </message>
     <message>
         <source>At the roundabout take the seventh exit onto %1.</source>
-        <translation>Na rotatória pegue a sétima saída em %1.</translation>
+        <translation>Vid rondellen, ta den sjunde avfarten in på %1.</translation>
     </message>
     <message>
         <source>At the roundabout take the eighth exit.</source>
-        <translation>Na rotatória pegue a oitava saída.</translation>
+        <translation>Vid rondellen, ta den åttonde avfarten.</translation>
     </message>
     <message>
         <source>At the roundabout take the eighth exit onto %1.</source>
-        <translation>Na rotatória pegue a oitava saída em %1.</translation>
+        <translation>Vid rondellen, ta den åttonde avfarten in på %1.</translation>
     </message>
     <message>
         <source>At the roundabout take the ninth exit.</source>
-        <translation>Na rotatória pegue a nona saída.</translation>
+        <translation>Vid rondellen, ta den nionde avfarten.</translation>
     </message>
     <message>
         <source>At the roundabout take the ninth exit onto %1.</source>
-        <translation>Na rotatória pegue a nona saída em %1.</translation>
+        <translation>Vid rondellen, ta den nionde avfarten in på %1.</translation>
     </message>
     <message>
         <source>Leave the roundabout.</source>
-        <translation>Saia da rotatória.</translation>
+        <translation>Lämna rondellen.</translation>
     </message>
     <message>
         <source>Leave the roundabout onto %1.</source>
-        <translation>Saia da rotatória em %1.</translation>
+        <translation>Lämna rondellen in på %1.</translation>
     </message>
     <message>
         <source>Stay on the roundabout.</source>
-        <translation>Permaneça na rotatória.</translation>
+        <translation>Håll dig i rondellen.</translation>
     </message>
     <message>
         <source>Start at the end of the street.</source>
-        <translation>Comece no final da rua.</translation>
+        <translation>Börja i slutet av gatan.</translation>
     </message>
     <message>
         <source>Start at the end of %1.</source>
-        <translation>Comece no final da rua em %1.</translation>
+        <translation>Börja i slutet av %1.</translation>
     </message>
     <message>
         <source>You have reached your destination.</source>
-        <translation>Você chegou ao seu destino.</translation>
+        <translation>Du har nått ditt mål.</translation>
     </message>
     <message>
         <source>Don&apos;t know what to say for &apos;%1&apos;</source>
-        <translation>Não sei o que dizer para &apos;%1&apos;</translation>
+        <translation>Vet inte vad som ska sägas för &quot;%1&quot;</translation>
     </message>
 </context>
 <context>
     <name>QGeoTiledMappingManagerEngineOsm</name>
     <message>
         <source>Street Map</source>
-        <translation>Mapa de ruas</translation>
+        <translation>Gatukarta</translation>
     </message>
     <message>
         <source>Street map view in daylight mode</source>
-        <translation>Vista do mapa de ruas em modo diurno</translation>
+        <translation>Gatukartsvy i dagsljusläge</translation>
     </message>
     <message>
         <source>Satellite Map</source>
-        <translation>Mapa de satélite</translation>
+        <translation>Satellitkarta</translation>
     </message>
     <message>
         <source>Satellite map view in daylight mode</source>
-        <translation>Vista do mapa de satélite em modo diurno</translation>
+        <translation>Satellitkartvy i dagsljusläge</translation>
     </message>
     <message>
         <source>Cycle Map</source>
-        <translation>Mapa ciclístico</translation>
+        <translation>Cykelkarta</translation>
     </message>
     <message>
         <source>Cycle map view in daylight mode</source>
-        <translation>Vista do mapa ciclístico em modo diurno</translation>
+        <translation>Cyklingskartvy i dagsljusläge</translation>
     </message>
     <message>
         <source>Transit Map</source>
-        <translation>Mapa de trânsito</translation>
+        <translation>Pendlarkarta</translation>
     </message>
     <message>
         <source>Public transit map view in daylight mode</source>
-        <translation>Vista do mapa de trânsito público em modo diurno</translation>
+        <translation>Pendlarkartvy i dagsljusläge</translation>
     </message>
     <message>
         <source>Night Transit Map</source>
-        <translation>Mapa de trânsito noturno</translation>
+        <translation>Nattpendlingskarta</translation>
     </message>
     <message>
         <source>Public transit map view in night mode</source>
-        <translation>Vista do mapa de trânsito público em modo noturno</translation>
+        <translation>Pendlarkartvy i nattläge</translation>
     </message>
     <message>
         <source>Terrain Map</source>
-        <translation>Mapa de terreno</translation>
+        <translation>Terrängkarta</translation>
     </message>
     <message>
         <source>Terrain map view</source>
-        <translation>Vista do mapa de terreno</translation>
+        <translation>Terrängkartvy</translation>
     </message>
     <message>
         <source>Hiking Map</source>
-        <translation>Mapa de caminhada</translation>
+        <translation>Fotgängarkarta</translation>
     </message>
     <message>
         <source>Hiking map view</source>
-        <translation>Vista do mapa de caminhada</translation>
+        <translation>Fotgängarkartvy</translation>
     </message>
     <message>
         <source>Custom URL Map</source>
-        <translation>Mapa de URL personalizado</translation>
+        <translation>Anpassad URL-karta</translation>
     </message>
     <message>
         <source>Custom url map view set via urlprefix parameter</source>
-        <translation>Vista do mapa de URL personalizado definido pelo parâmetro urlprefix</translation>
-    </message>
-    <message>
-        <source>OpenStreetMap street map</source>
-        <translation>Mapa de ruas do OpenStreetMap</translation>
-    </message>
-    <message>
-        <source>OpenStreetMap satellite map</source>
-        <translation>Mapa de satélite do OpenStreetMap</translation>
+        <translation>Anpassad url-kartvy inställd via urlprefix-parametern</translation>
     </message>
 </context>
 <context>
     <name>QPlaceManagerEngineOsm</name>
     <message>
         <source>Aeroway</source>
-        <translation>Aeroporto</translation>
+        <translation>Flygplats</translation>
     </message>
     <message>
         <source>Amenity</source>
-        <translation>Estabelecimento</translation>
+        <translation>Bekvämligheter</translation>
     </message>
     <message>
         <source>Building</source>
-        <translation>Edifício</translation>
+        <translation>Byggnad</translation>
     </message>
     <message>
         <source>Highway</source>
-        <translation>Rodovia</translation>
+        <translation>Motorväg</translation>
     </message>
     <message>
         <source>Historic</source>
-        <translation>Histórico</translation>
+        <translation>Historisk plats</translation>
     </message>
     <message>
         <source>Land use</source>
-        <translation>Uso do solo</translation>
+        <translation>Landanvändning</translation>
     </message>
     <message>
         <source>Leisure</source>
-        <translation>Lazer</translation>
+        <translation>Nöje</translation>
     </message>
     <message>
         <source>Man made</source>
-        <translation>Feito pelo home</translation>
+        <translation>Konstgjord</translation>
     </message>
     <message>
         <source>Natural</source>
-        <translation>Natural</translation>
+        <translation>Naturlig</translation>
     </message>
     <message>
         <source>Place</source>
-        <translation>Local</translation>
+        <translation>Plats</translation>
     </message>
     <message>
         <source>Railway</source>
-        <translation>Ferrovia</translation>
+        <translation>Järnväg</translation>
     </message>
     <message>
         <source>Shop</source>
-        <translation>Loja</translation>
+        <translation>Affär</translation>
     </message>
     <message>
         <source>Tourism</source>
-        <translation>Turismo</translation>
+        <translation>Turism</translation>
     </message>
     <message>
         <source>Waterway</source>
-        <translation>Canal</translation>
+        <translation>Vattenväg</translation>
     </message>
     <message>
         <source>Network request error</source>
-        <translation>Erro de requisição de rede</translation>
+        <translation>Fel vid nätverksbegäran</translation>
     </message>
 </context>
 <context>
     <name>QPlaceSearchReplyOsm</name>
     <message>
         <source>Response parse error</source>
-        <translation>Erro de análise de resposta</translation>
-    </message>
-</context>
-<context>
-    <name>QDeclarativeNavigator</name>
-    <message>
-        <source>Plugin does not support navigation.</source>
-        <translation>O plugin não suporta navegação.</translation>
-    </message>
-    <message>
-        <source>Failed to create a navigator object.</source>
-        <translation>Falha ao criar um objeto navegador.</translation>
-    </message>
-</context>
-<context>
-    <name>QGeoRouteReplyOsm</name>
-    <message>
-        <source>Go straight.</source>
-        <translation>Siga em frente.</translation>
-    </message>
-    <message>
-        <source>Go straight onto %1.</source>
-        <translation>Siga em frente até %1.</translation>
-    </message>
-    <message>
-        <source>Turn slightly right.</source>
-        <translation>Vire ligeiramente à direita.</translation>
-    </message>
-    <message>
-        <source>Turn slightly right onto %1.</source>
-        <translation>Vire ligeiramente à direita em %1.</translation>
-    </message>
-    <message>
-        <source>Turn right.</source>
-        <translation>Vire à direita.</translation>
-    </message>
-    <message>
-        <source>Turn right onto %1.</source>
-        <translation>Vire à direita em %1.</translation>
-    </message>
-    <message>
-        <source>Make a sharp right.</source>
-        <translation>Faça uma curva acentuada à direita.</translation>
-    </message>
-    <message>
-        <source>Make a sharp right onto %1.</source>
-        <translation>Faça uma curva acentuada à direita em %1.</translation>
-    </message>
-    <message>
-        <source>When it is safe to do so, perform a U-turn.</source>
-        <translation>Quando for seguro, faça retorno.</translation>
-    </message>
-    <message>
-        <source>Make a sharp left.</source>
-        <translation>Faça uma curva acentuada à esquerda.</translation>
-    </message>
-    <message>
-        <source>Make a sharp left onto %1.</source>
-        <translation>Faça uma curva acentuada à esquerda em %1.</translation>
-    </message>
-    <message>
-        <source>Turn left.</source>
-        <translation>Vire à esquerda.</translation>
-    </message>
-    <message>
-        <source>Turn left onto %1.</source>
-        <translation>Vire à esquerda em %1.</translation>
-    </message>
-    <message>
-        <source>Turn slightly left.</source>
-        <translation>Vire ligeiramente à esquerda.</translation>
-    </message>
-    <message>
-        <source>Turn slightly left onto %1.</source>
-        <translation>Vire ligeiramente à esquerda em %1.</translation>
-    </message>
-    <message>
-        <source>Reached waypoint.</source>
-        <translation>Chegou no destino.</translation>
-    </message>
-    <message>
-        <source>Head on.</source>
-        <translation>Siga em frente.</translation>
-    </message>
-    <message>
-        <source>Head onto %1.</source>
-        <translation>Siga em frente em %1.</translation>
-    </message>
-    <message>
-        <source>Enter the roundabout.</source>
-        <translation>Entre na rotatória.</translation>
-    </message>
-    <message>
-        <source>At the roundabout take the first exit.</source>
-        <translation>Na rotatória pegue a primeira saída.</translation>
-    </message>
-    <message>
-        <source>At the roundabout take the first exit onto %1.</source>
-        <translation>Na rotatória pegue a primeira saída em %1.</translation>
-    </message>
-    <message>
-        <source>At the roundabout take the second exit.</source>
-        <translation>Na rotatória pegue a segunda saída.</translation>
-    </message>
-    <message>
-        <source>At the roundabout take the second exit onto %1.</source>
-        <translation>Na rotatória pegue a segunda saída em %1.</translation>
-    </message>
-    <message>
-        <source>At the roundabout take the third exit.</source>
-        <translation>Na rotatória pegue a terceira saída.</translation>
-    </message>
-    <message>
-        <source>At the roundabout take the third exit onto %1.</source>
-        <translation>Na rotatória pegue a terceira saída em %1.</translation>
-    </message>
-    <message>
-        <source>At the roundabout take the fourth exit.</source>
-        <translation>Na rotatória pegue a quarta saída.</translation>
-    </message>
-    <message>
-        <source>At the roundabout take the fourth exit onto %1.</source>
-        <translation>Na rotatória pegue a quarta saída em %1.</translation>
-    </message>
-    <message>
-        <source>At the roundabout take the fifth exit.</source>
-        <translation>Na rotatória pegue a quinta saída.</translation>
-    </message>
-    <message>
-        <source>At the roundabout take the fifth exit onto %1.</source>
-        <translation>Na rotatória pegue a quinta saída em %1.</translation>
-    </message>
-    <message>
-        <source>At the roundabout take the sixth exit.</source>
-        <translation>Na rotatória pegue a sexta saída.</translation>
-    </message>
-    <message>
-        <source>At the roundabout take the sixth exit onto %1.</source>
-        <translation>Na rotatória pegue a sexta saída em %1.</translation>
-    </message>
-    <message>
-        <source>At the roundabout take the seventh exit.</source>
-        <translation>Na rotatória pegue a sétima saída.</translation>
-    </message>
-    <message>
-        <source>At the roundabout take the seventh exit onto %1.</source>
-        <translation>Na rotatória pegue a sétima saída em %1.</translation>
-    </message>
-    <message>
-        <source>At the roundabout take the eighth exit.</source>
-        <translation>Na rotatória pegue a oitava saída.</translation>
-    </message>
-    <message>
-        <source>At the roundabout take the eighth exit onto %1.</source>
-        <translation>Na rotatória pegue a oitava saída em %1.</translation>
-    </message>
-    <message>
-        <source>At the roundabout take the ninth exit.</source>
-        <translation>Na rotatória pegue a nona saída.</translation>
-    </message>
-    <message>
-        <source>At the roundabout take the ninth exit onto %1.</source>
-        <translation>Na rotatória pegue a nona saída em %1.</translation>
-    </message>
-    <message>
-        <source>Leave the roundabout.</source>
-        <translation>Saia da rotatória.</translation>
-    </message>
-    <message>
-        <source>Leave the roundabout onto %1.</source>
-        <translation>Saia da rotatória em %1.</translation>
-    </message>
-    <message>
-        <source>Stay on the roundabout.</source>
-        <translation>Permaneça na rotatória.</translation>
-    </message>
-    <message>
-        <source>Start at the end of the street.</source>
-        <translation>Comece no final da rua.</translation>
-    </message>
-    <message>
-        <source>Start at the end of %1.</source>
-        <translation>Comece no final da rua em %1.</translation>
-    </message>
-    <message>
-        <source>You have reached your destination.</source>
-        <translation>Você chegou ao seu destino.</translation>
-    </message>
-    <message>
-        <source>Don&apos;t know what to say for &apos;%1&apos;</source>
-        <translation>Não sei o que dizer para &apos;%1&apos;</translation>
+        <translation>Tolkningsfel av svaret</translation>
     </message>
 </context>
 </TS>
