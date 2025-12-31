@@ -338,7 +338,7 @@ Press ESC to cancel</source>
     </message>
     <message>
         <source>&amp;Pick Screen Color</source>
-        <translation>拾取屏幕颜色&amp;p</translation>
+        <translation>拾取屏幕颜色(p)</translation>
     </message>
 </context>
 <context>
