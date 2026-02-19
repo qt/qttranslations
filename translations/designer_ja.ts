@@ -4987,7 +4987,7 @@ Class: %2</source>
     </message>
     <message>
         <source>No Vertical Alignment</source>
-        <translation>横方向の調整なし</translation>
+        <translation>縦方向の調整なし</translation>
     </message>
     <message>
         <source>Top</source>
