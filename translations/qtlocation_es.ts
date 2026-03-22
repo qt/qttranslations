@@ -1,116 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="es_ES">
+<TS version="2.1" language="es">
 <context>
     <name>QDeclarativeGeoMap</name>
     <message>
         <source>No Map</source>
-        <translation>No ha Mapa</translation>
+        <translation>Ningún mapa</translation>
     </message>
     <message>
         <source>Plugin does not support mapping.</source>
-        <translation>El plugin no soporta mapeado.</translation>
+        <translation>El complemento no soporta el uso de mapas.</translation>
     </message>
 </context>
 <context>
     <name>QDeclarativeGeoRouteModel</name>
     <message>
         <source>Plugin does not support routing.</source>
-        <translation>El plugin no soporta cálculo de rutas.</translation>
+        <translation>El complemento no soporta el cálculo de rutas.</translation>
     </message>
     <message>
         <source>Cannot route, plugin not set.</source>
-        <translation>No se puede calcular ruta, el plugin no se ha establecido.</translation>
+        <translation>No es posible calcular la ruta, complemento no establecido.</translation>
     </message>
     <message>
         <source>Cannot route, route manager not set.</source>
-        <translation>No se puede calcular ruta, el administrador de rutas no se ha establecido.</translation>
+        <translation>No es posible calcular la ruta, administrador de rutas no establecido.</translation>
     </message>
     <message>
         <source>Not enough waypoints for routing.</source>
-        <translation>No hay suficientes puntos de ruta para calcular la ruta.</translation>
+        <translation>No hay suficientes puntos de ruta para calcular una ruta.</translation>
     </message>
 </context>
 <context>
     <name>QDeclarativeGeocodeModel</name>
     <message>
         <source>Cannot geocode, plugin not set.</source>
-        <translation>No se puede geolocalizar, el plugin no se ha establecido.</translation>
+        <translation>No es posible geolocalizar, complemento no establecido.</translation>
     </message>
     <message>
         <source>Cannot geocode, geocode manager not set.</source>
-        <translation>No se puede geolocalizar, el administrador de geolocalización no se ha establecido.</translation>
+        <translation>No es posible geolocalizar, administrador de geolocalización no establecido.</translation>
     </message>
     <message>
         <source>Cannot geocode, valid query not set.</source>
-        <translation>No se puede geolocalizar, no hay una consulta válida.</translation>
+        <translation>No es posible geolocalizar, no se definió una consulta válida.</translation>
     </message>
     <message>
         <source>Plugin does not support (reverse) geocoding.</source>
-        <translation>El plugin no soporta geolocalización (inversa).</translation>
+        <translation>El complemento no soporta geolocalización (inversa).</translation>
     </message>
 </context>
 <context>
     <name>QGeoRouteReplyOsm</name>
     <message>
         <source>Go straight.</source>
-        <translation>Sigue recto.</translation>
+        <translation>Seguir recto.</translation>
     </message>
     <message>
         <source>Go straight onto %1.</source>
-        <translation>Sigue recto en %1.</translation>
+        <translation>Seguir recto por %1.</translation>
     </message>
     <message>
         <source>Turn slightly right.</source>
-        <translation>Gira ligéramente a la derecha.</translation>
+        <translation>Girar ligeramente a la derecha.</translation>
     </message>
     <message>
         <source>Turn slightly right onto %1.</source>
-        <translation>Gira ligéramente a la derecha en %1.</translation>
+        <translation>Girar ligeramente a la derecha en %1.</translation>
     </message>
     <message>
         <source>Turn right.</source>
-        <translation>Gira a la derecha.</translation>
+        <translation>Girar a la derecha.</translation>
     </message>
     <message>
         <source>Turn right onto %1.</source>
-        <translation>Gira a la derecha en %1.</translation>
+        <translation>Girar a la derecha en %1.</translation>
     </message>
     <message>
         <source>Make a sharp right.</source>
-        <translation>Gira fuerte a la derecha.</translation>
+        <translation>Girar pronunciado a la derecha.</translation>
     </message>
     <message>
         <source>Make a sharp right onto %1.</source>
-        <translation>Gira fuerte a la derecha en %1.</translation>
+        <translation>Girar pronunciado a la derecha en %1.</translation>
     </message>
     <message>
         <source>When it is safe to do so, perform a U-turn.</source>
-        <translation>Cuando sea seguro, haga un giro en U.</translation>
+        <translation>Cuando sea seguro, girar en U.</translation>
     </message>
     <message>
         <source>Make a sharp left.</source>
-        <translation>Gire fuerte a la izquierda.</translation>
+        <translation>Girar pronunciado a la izquierda.</translation>
     </message>
     <message>
         <source>Make a sharp left onto %1.</source>
-        <translation>Gire fuerte a la izquierda en %1.</translation>
+        <translation>Girar pronunciado a la izquierda por %1.</translation>
     </message>
     <message>
         <source>Turn left.</source>
-        <translation>Gire a la izquierda.</translation>
+        <translation>Girar a la izquierda.</translation>
     </message>
     <message>
         <source>Turn left onto %1.</source>
-        <translation>Gire a la izquierda en %1.</translation>
+        <translation>Girar a la izquierda en %1.</translation>
     </message>
     <message>
         <source>Turn slightly left.</source>
-        <translation>Gira ligéramente a la izquierda.</translation>
+        <translation>Girar ligeramente a la izquierda.</translation>
     </message>
     <message>
         <source>Turn slightly left onto %1.</source>
-        <translation>Gira ligéramente a la izquierda en %1.</translation>
+        <translation>Girar ligeramente a la izquierda por %1.</translation>
     </message>
     <message>
         <source>Reached waypoint.</source>
@@ -122,111 +122,111 @@
     </message>
     <message>
         <source>Head onto %1.</source>
-        <translation>De frente en %1.</translation>
+        <translation>De frente por %1.</translation>
     </message>
     <message>
         <source>Enter the roundabout.</source>
-        <translation>Entre en la glorieta.</translation>
+        <translation>Entrar en la rotonda.</translation>
     </message>
     <message>
         <source>At the roundabout take the first exit.</source>
-        <translation>En la glorieta tome la primera salida.</translation>
+        <translation>En la rotonda tomar la primera salida.</translation>
     </message>
     <message>
         <source>At the roundabout take the first exit onto %1.</source>
-        <translation>En la glorieta tome la primera salida en %1.</translation>
+        <translation>En la rotonda tomar la primera salida por %1.</translation>
     </message>
     <message>
         <source>At the roundabout take the second exit.</source>
-        <translation>En la glorieta tome la segunda salida.</translation>
+        <translation>En la rotonda tomar la segunda salida.</translation>
     </message>
     <message>
         <source>At the roundabout take the second exit onto %1.</source>
-        <translation>En la glorieta tome la segunda salida en %1.</translation>
+        <translation>En la rotonda tomar la segunda salida por %1.</translation>
     </message>
     <message>
         <source>At the roundabout take the third exit.</source>
-        <translation>En la glorieta tome la tercera salida.</translation>
+        <translation>En la rotonda tomar la tercera salida.</translation>
     </message>
     <message>
         <source>At the roundabout take the third exit onto %1.</source>
-        <translation>En la glorieta tome la tercera salida en %1.</translation>
+        <translation>En la rotonda tomar la tercera salida por %1.</translation>
     </message>
     <message>
         <source>At the roundabout take the fourth exit.</source>
-        <translation>En la glorieta tome la cuarta salida.</translation>
+        <translation>En la rotonda tomar la cuarta salida.</translation>
     </message>
     <message>
         <source>At the roundabout take the fourth exit onto %1.</source>
-        <translation>En la glorieta tome la cuarta salida en %1.</translation>
+        <translation>En la rotonda tomar la cuarta salida por %1.</translation>
     </message>
     <message>
         <source>At the roundabout take the fifth exit.</source>
-        <translation>En la glorieta tome la quinta salida.</translation>
+        <translation>En la rotonda tomar la quinta salida.</translation>
     </message>
     <message>
         <source>At the roundabout take the fifth exit onto %1.</source>
-        <translation>En la glorieta tome la quinta salida en %1.</translation>
+        <translation>En la rotonda tomar la quinta salida por %1.</translation>
     </message>
     <message>
         <source>At the roundabout take the sixth exit.</source>
-        <translation>En la glorieta tome la sexta salida.</translation>
+        <translation>En la rotonda tomar la sexta salida.</translation>
     </message>
     <message>
         <source>At the roundabout take the sixth exit onto %1.</source>
-        <translation>En la glorieta tome la sexta salida en %1.</translation>
+        <translation>En la rotonda tomar la sexta salida por %1.</translation>
     </message>
     <message>
         <source>At the roundabout take the seventh exit.</source>
-        <translation>En la glorieta tome la séptima salida.</translation>
+        <translation>En la rotonda tomar la séptima salida.</translation>
     </message>
     <message>
         <source>At the roundabout take the seventh exit onto %1.</source>
-        <translation>En la glorieta tome la séptima salida en %1.</translation>
+        <translation>En la rotonda tomar la séptima salida por %1.</translation>
     </message>
     <message>
         <source>At the roundabout take the eighth exit.</source>
-        <translation>En la glorieta tome la octava salida.</translation>
+        <translation>En la rotonda tomar la octava salida.</translation>
     </message>
     <message>
         <source>At the roundabout take the eighth exit onto %1.</source>
-        <translation>En la glorieta tome la octava salida en %1.</translation>
+        <translation>En la rotonda tomar la octava salida por %1.</translation>
     </message>
     <message>
         <source>At the roundabout take the ninth exit.</source>
-        <translation>En la glorieta tome la novena salida.</translation>
+        <translation>En la rotonda tomar la novena salida.</translation>
     </message>
     <message>
         <source>At the roundabout take the ninth exit onto %1.</source>
-        <translation>En la glorieta tome la novena salida en %1.</translation>
+        <translation>En la rotonda tomar la novena salida por %1.</translation>
     </message>
     <message>
         <source>Leave the roundabout.</source>
-        <translation>Salga de la glorieta.</translation>
+        <translation>Salir de la rotonda.</translation>
     </message>
     <message>
         <source>Leave the roundabout onto %1.</source>
-        <translation>Salga de la glorieta en %1.</translation>
+        <translation>Salir de la rotonda por %1.</translation>
     </message>
     <message>
         <source>Stay on the roundabout.</source>
-        <translation>Permanezca en la glorieta.</translation>
+        <translation>Permanecer en la rotonda.</translation>
     </message>
     <message>
         <source>Start at the end of the street.</source>
-        <translation>Empieza al final de la calle.</translation>
+        <translation>Comenzar al final de la calle.</translation>
     </message>
     <message>
         <source>Start at the end of %1.</source>
-        <translation>Empieza al final de %1.</translation>
+        <translation>Comenzar al final de %1.</translation>
     </message>
     <message>
         <source>You have reached your destination.</source>
-        <translation>Ha llegado a su destino.</translation>
+        <translation>Hemos llegado a destino.</translation>
     </message>
     <message>
         <source>Don&apos;t know what to say for &apos;%1&apos;</source>
-        <translation>No sé que decir para &apos;%1&apos;</translation>
+        <translation>No sé qué decir para &apos;%1&apos;</translation>
     </message>
 </context>
 <context>
@@ -234,30 +234,30 @@
     <message>
         <source>Mapbox plugin requires &apos;mapbox.map_id&apos; and &apos;mapbox.access_token&apos; parameters.
 Please visit https://www.mapbox.com</source>
-        <translation>El plugin Mapbox requiere los parámetros &apos;mapbox.map_id&apos; y &apos;mapbox.access_token&apos;.
-Por favor visite https://www.mapbox.com</translation>
+        <translation>El complemento Mapbox requiere los parámetros &apos;mapbox.map_id&apos; y &apos;mapbox.access_token&apos;.
+Por favor visitar https://www.mapbox.com</translation>
     </message>
 </context>
 <context>
     <name>QGeoTileFetcherNokia</name>
     <message>
         <source>Mapping manager no longer exists</source>
-        <translation>El administrador de mapeado ha dejado de existir</translation>
+        <translation>El administrador de mapas ya no existe</translation>
     </message>
 </context>
 <context>
     <name>QGeoTiledMapOsm</name>
     <message>
         <source>Tiles Courtesy of &lt;a href=&apos;http://www.mapquest.com/&apos;&gt;MapQuest&lt;/a&gt;&lt;br/&gt;Data &amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt; contributors</source>
-        <translation>Cuadrantes Cortesia de &lt;a href=&apos;http://www.mapquest.com/&apos;&gt;MapQuest&lt;/a&gt;&lt;br/&gt;Data &amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt; contributors</translation>
+        <translation>Cuadrantes, cortesia de &lt;a href=&apos;http://www.mapquest.com/&apos;&gt;MapQuest&lt;/a&gt;&lt;br/&gt;Datos&amp;copy; contribuyentes de &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt;</translation>
     </message>
     <message>
         <source>Maps &amp;copy; &lt;a href=&apos;http://www.thunderforest.com/&apos;&gt;Thunderforest&lt;/a&gt;&lt;br/&gt;Data &amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt; contributors</source>
-        <translation>Maps &amp;copy; &lt;a href=&apos;http://www.thunderforest.com/&apos;&gt;Thunderforest&lt;/a&gt;&lt;br/&gt;Data &amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt; contributors</translation>
+        <translation>Mapas &amp;copy; &lt;a href=&apos;http://www.thunderforest.com/&apos;&gt;Thunderforest&lt;/a&gt;&lt;br/&gt;Datos &amp;copy; contribuyentes de &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt;</translation>
     </message>
     <message>
         <source>&amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt; contributors</source>
-        <translation>&amp;copy; &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt; contributors</translation>
+        <translation>&amp;copy; contribuyentes de &lt;a href=&apos;http://www.openstreetmap.org/copyright&apos;&gt;OpenStreetMap&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -275,214 +275,214 @@ Por favor visite https://www.mapbox.com</translation>
     <name>QGeoTiledMappingManagerEngineNokia</name>
     <message>
         <source>Street Map</source>
-        <translation>Mapa de Calles</translation>
+        <translation>Mapa de calles</translation>
     </message>
     <message>
         <source>Normal map view in daylight mode</source>
-        <translation>Mapa normal en vista de día</translation>
+        <translation>Vista de mapa normal diurno</translation>
     </message>
     <message>
         <source>Satellite Map</source>
-        <translation>Mapa de Satélite</translation>
+        <translation>Mapa satelital</translation>
     </message>
     <message>
         <source>Satellite map view in daylight mode</source>
-        <translation>Mapa de satélite en vista de día</translation>
+        <translation>Vista de mapa satelital diurno</translation>
     </message>
     <message>
         <source>Terrain Map</source>
-        <translation>Mapa de Terreno</translation>
+        <translation>Mapa de terreno</translation>
     </message>
     <message>
         <source>Terrain map view in daylight mode</source>
-        <translation>Mapa de terreno en vista de día</translation>
+        <translation>Vista de mapa de terreno diurno</translation>
     </message>
     <message>
         <source>Hybrid Map</source>
-        <translation>Mapa Híbrido</translation>
+        <translation>Mapa híbrido</translation>
     </message>
     <message>
         <source>Satellite map view with streets in daylight mode</source>
-        <translation>Mapa de satelite con calles en vista de día</translation>
+        <translation>Vista de mapa satelital diurno con calles</translation>
     </message>
     <message>
         <source>Transit Map</source>
-        <translation>Mapa de Transportes</translation>
+        <translation>Mapa de transporte</translation>
     </message>
     <message>
         <source>Color-reduced map view with public transport scheme in daylight mode</source>
-        <translation>Mapa de color reducido con lineas de transporte público en modo día</translation>
+        <translation>Vista de mapa diurno en color reducido con líneas de transporte público</translation>
     </message>
     <message>
         <source>Gray Street Map</source>
-        <translation>Mapa de Calles en Gris</translation>
+        <translation>Mapa de calles en gris</translation>
     </message>
     <message>
         <source>Color-reduced map view in daylight mode</source>
-        <translation>Mapa de color reducido en vista de día</translation>
+        <translation>Vista de mapa diurno en color reducido</translation>
     </message>
     <message>
         <source>Mobile Street Map</source>
-        <translation>Mapa de Calles Móvil</translation>
+        <translation>Mapa de calles (móvil)</translation>
     </message>
     <message>
         <source>Mobile normal map view in daylight mode</source>
-        <translation>Mapa normal móvil con vista de día</translation>
+        <translation>Vista de mapa normal diurno para móviles</translation>
     </message>
     <message>
         <source>Mobile Terrain Map</source>
-        <translation>Mapa de Terreno Móvil</translation>
+        <translation>Mapa de terreno (móvil)</translation>
     </message>
     <message>
         <source>Mobile terrain map view in daylight mode</source>
-        <translation>Mapa móvil de terreno en vista de día</translation>
+        <translation>Vista de mapa de terreno diurno para móviles</translation>
     </message>
     <message>
         <source>Mobile Hybrid Map</source>
-        <translation>Mapa Híbrido de Móvil</translation>
+        <translation>Mapa híbrido (móvil)</translation>
     </message>
     <message>
         <source>Mobile satellite map view with streets in daylight mode</source>
-        <translation>Mapa de satélite móvil con calles en vista de día</translation>
+        <translation>Vista de mapa satelital diurno con calles para móviles</translation>
     </message>
     <message>
         <source>Mobile Transit Map</source>
-        <translation>Mapa Móvil de Tránsito</translation>
+        <translation>Mapa de transporte (móvil)</translation>
     </message>
     <message>
         <source>Mobile color-reduced map view with public transport scheme in daylight mode</source>
-        <translation>Mapa móvil de color reducido con lineas de transporte público en modo día</translation>
+        <translation>Vista de mapa diurno en color reducido con líneas de transporte público para móviles</translation>
     </message>
     <message>
         <source>Mobile Gray Street Map</source>
-        <translation>Mapa móvil de Calles en Gris</translation>
+        <translation>Mapa de calles en gris (móvil)</translation>
     </message>
     <message>
         <source>Mobile color-reduced map view in daylight mode</source>
-        <translation>Mapa móvil de color reducido en vista de día</translation>
+        <translation>Vista de mapa diurno en color reducido para móviles</translation>
     </message>
     <message>
         <source>Custom Street Map</source>
-        <translation>Mapa de Calles Personalizado</translation>
+        <translation>Mapa de calles personalizado</translation>
     </message>
     <message>
         <source>Night Street Map</source>
-        <translation>Mapa de Calles Nocturno</translation>
+        <translation>Mapa de calles nocturno</translation>
     </message>
     <message>
         <source>Normal map view in night mode</source>
-        <translation>Mapa normal en vista de noche</translation>
+        <translation>Vista de mapa normal nocturno</translation>
     </message>
     <message>
         <source>Mobile Night Street Map</source>
-        <translation>Mapa Móvil de Calles Nocturno</translation>
+        <translation>Mapa de calles nocturno (móvil)</translation>
     </message>
     <message>
         <source>Mobile normal map view in night mode</source>
-        <translation>Mapa móvil normal en vista de noche</translation>
+        <translation>Vista de mapa normal nocturno para móviles</translation>
     </message>
     <message>
         <source>Gray Night Street Map</source>
-        <translation>Mapa de Calles en Gris de Noche</translation>
+        <translation>Mapa de calles en gris nocturno</translation>
     </message>
     <message>
         <source>Color-reduced map view in night mode (especially used for background maps)</source>
-        <translation>Mapa de color reducido en vista de noche (especialmente usado para mapas de fondo)</translation>
+        <translation>Vista de mapa nocturno en color reducido (especialmente usado para mapas de fondo)</translation>
     </message>
     <message>
         <source>Mobile Gray Night Street Map</source>
-        <translation>Mapa Móvil de Calles en Gris de Noche</translation>
+        <translation>Mapa de calles en gris nocturno (móvil)</translation>
     </message>
     <message>
         <source>Mobile color-reduced map view in night mode (especially used for background maps)</source>
-        <translation>Mapa móvil de color reducido en vista de noche (especialmente usado para mapas de fondo)</translation>
+        <translation>Vista de mapa nocturno en color reducido para móviles (especialmente usado para mapas de fondo)</translation>
     </message>
     <message>
         <source>Pedestrian Street Map</source>
-        <translation>Mapa de Calles para Peatones</translation>
+        <translation>Mapa de calles peatonal</translation>
     </message>
     <message>
         <source>Pedestrian map view in daylight mode</source>
-        <translation>Mapa para peatones en vista de día</translation>
+        <translation>Vista de mapa peatonal diurno</translation>
     </message>
     <message>
         <source>Mobile Pedestrian Street Map</source>
-        <translation>Mapa Móvil de Calles para Peatones</translation>
+        <translation>Mapa de calles peatonal (móvil)</translation>
     </message>
     <message>
         <source>Mobile pedestrian map view in daylight mode for mobile usage</source>
-        <translation>Mapa móvil para peatones en vista de día para uso móvil</translation>
+        <translation>Vista de mapa peatonal diurno para móviles</translation>
     </message>
     <message>
         <source>Pedestrian Night Street Map</source>
-        <translation>Mapa de Calles para Peatones de Noche</translation>
+        <translation>Mapa de calles peatonal nocturno</translation>
     </message>
     <message>
         <source>Pedestrian map view in night mode</source>
-        <translation>Mapa para peatones en vista de noche</translation>
+        <translation>Vista de mapa peatonal nocturno</translation>
     </message>
     <message>
         <source>Mobile Pedestrian Night Street Map</source>
-        <translation>Mapa Móvil de Calles para Peatones de Noche</translation>
+        <translation>Mapa de calles peatonal nocturno (móvil)</translation>
     </message>
     <message>
         <source>Mobile pedestrian map view in night mode for mobile usage</source>
-        <translation>Mapa móvil para peatones en vista de noche para uso móvil</translation>
+        <translation>Vista de mapa peatonal nocturno para móviles</translation>
     </message>
     <message>
         <source>Car Navigation Map</source>
-        <translation>Mapa de Navigación en Coche</translation>
+        <translation>Mapa de viaje en coche</translation>
     </message>
     <message>
         <source>Normal map view in daylight mode for car navigation</source>
-        <translation>Mapa normal en vista de día para navegación en coche</translation>
+        <translation>Vista de mapa normal diurno para viaje en coche</translation>
     </message>
 </context>
 <context>
     <name>QGeoTiledMappingManagerEngineOsm</name>
     <message>
         <source>Street Map</source>
-        <translation>Mapa de Calles</translation>
+        <translation>Mapa de calles</translation>
     </message>
     <message>
         <source>Street map view in daylight mode</source>
-        <translation>Mapa de calles en vista de día</translation>
+        <translation>Vista de mapa de calles diurno</translation>
     </message>
     <message>
         <source>Satellite Map</source>
-        <translation>Mapa de Satélite</translation>
+        <translation>Mapa satelital</translation>
     </message>
     <message>
         <source>Satellite map view in daylight mode</source>
-        <translation>Mapa de satélite en vista de día</translation>
+        <translation>Vista de mapa satelital diurno</translation>
     </message>
     <message>
         <source>Cycle Map</source>
-        <translation>Mapa de Bicicletas</translation>
+        <translation>Mapa de viaje en bicicleta</translation>
     </message>
     <message>
         <source>Cycle map view in daylight mode</source>
-        <translation>Mapa de bicicletas en vista de día</translation>
+        <translation>Vista de mapa de viaje en bicicleta diurno</translation>
     </message>
     <message>
         <source>Transit Map</source>
-        <translation>Mapa de Transportes</translation>
+        <translation>Mapa de transporte</translation>
     </message>
     <message>
         <source>Public transit map view in daylight mode</source>
-        <translation>Mapa de transporte público en vista de día</translation>
+        <translation>Vista de mapa de transporte público diurno</translation>
     </message>
     <message>
         <source>Night Transit Map</source>
-        <translation>Mapa de Transportes de Noche</translation>
+        <translation>Mapa de transporte nocturno</translation>
     </message>
     <message>
         <source>Public transit map view in night mode</source>
-        <translation>Mapa de transporte público en vista de noche</translation>
+        <translation>Vista de mapa de transporte público nocturno</translation>
     </message>
     <message>
         <source>Terrain Map</source>
-        <translation>Mapa de Terreno</translation>
+        <translation>Mapa de terreno</translation>
     </message>
     <message>
         <source>Terrain map view</source>
@@ -490,7 +490,7 @@ Por favor visite https://www.mapbox.com</translation>
     </message>
     <message>
         <source>Hiking Map</source>
-        <translation>Mapa de Excursionismo</translation>
+        <translation>Mapa de excursionismo</translation>
     </message>
     <message>
         <source>Hiking map view</source>
@@ -498,11 +498,11 @@ Por favor visite https://www.mapbox.com</translation>
     </message>
     <message>
         <source>Custom URL Map</source>
-        <translation>Mapa de URL Personalizada</translation>
+        <translation>Mapa personalizado (desde URL)</translation>
     </message>
     <message>
         <source>Custom url map view set via urlprefix parameter</source>
-        <translation>Mapa de url personalizada establecida con el parámetro urlprefix</translation>
+        <translation>Vista de mapa personalizado desde una URL, establecido mediante el parámetro urlprefix</translation>
     </message>
 </context>
 <context>
@@ -513,7 +513,7 @@ Por favor visite https://www.mapbox.com</translation>
     </message>
     <message>
         <source>Amenity</source>
-        <translation>Amenidad</translation>
+        <translation>Servicio</translation>
     </message>
     <message>
         <source>Building</source>
@@ -537,7 +537,7 @@ Por favor visite https://www.mapbox.com</translation>
     </message>
     <message>
         <source>Man made</source>
-        <translation>Modo hombre</translation>
+        <translation>Hecho por el hombre</translation>
     </message>
     <message>
         <source>Natural</source>
@@ -561,11 +561,11 @@ Por favor visite https://www.mapbox.com</translation>
     </message>
     <message>
         <source>Waterway</source>
-        <translation>Camino acuático</translation>
+        <translation>Vía acuática</translation>
     </message>
     <message>
         <source>Network request error</source>
-        <translation>Petición de red errónea</translation>
+        <translation>Error en petición de red</translation>
     </message>
 </context>
 <context>
@@ -576,64 +576,64 @@ Por favor visite https://www.mapbox.com</translation>
     </message>
     <message>
         <source>Response parse error</source>
-        <translation>Error de parseo de respuesta</translation>
+        <translation>Error de análisis de respuesta</translation>
     </message>
 </context>
 <context>
     <name>QtLocationQML</name>
     <message>
         <source>Plugin property is not set.</source>
-        <translation>El plugin no se ha establecido correctamente.</translation>
+        <translation>Propiedad del complemento no establecida.</translation>
     </message>
     <message>
         <source>Plugin Error (%1): %2</source>
-        <translation>Error del Plugin (%1): %2</translation>
+        <translation>Error del complemento (%1): %2</translation>
     </message>
     <message>
         <source>Plugin Error (%1): Could not instantiate provider</source>
-        <translation>Error del Plugin (%1): No se puede instanciar el proveedor</translation>
+        <translation>Error del complemento (%1): No fue posible instanciar el proveedor</translation>
     </message>
     <message>
         <source>Plugin is not valid</source>
-        <translation>El plugin no es válido</translation>
+        <translation>El complemento no es válido</translation>
     </message>
     <message>
         <source>Unable to initialize categories</source>
-        <translation>No se pueden inicializar las categorias</translation>
+        <translation>No es posible inicializar las categorias</translation>
     </message>
     <message>
         <source>Unable to create request</source>
-        <translation>No se puede crear la petición</translation>
+        <translation>No es posible crear una petición</translation>
     </message>
     <message>
         <source>Index &apos;%1&apos; out of range</source>
-        <translation>El índice &apos;%1&apos; está fuera de rango</translation>
+        <translation>Identificador &apos;%1&apos; fuera de rango</translation>
     </message>
     <message>
         <source>Qt Location requires app_id and token parameters.
 Please register at https://developer.here.com/ to get your personal application credentials.</source>
         <translation>Qt Location requiere los parámetros app_id y token
-Por favor registrese en https://developer.here.com/ para obtener sus credenciales de aplicación personales.</translation>
+Registrarse en https://developer.here.com/ para obtener credenciales personales de la aplicación.</translation>
     </message>
     <message>
         <source>Saving places is not supported.</source>
-        <translation>Guardar lugares no está soportado.</translation>
+        <translation>No se soporta el guardado de lugares.</translation>
     </message>
     <message>
         <source>Removing places is not supported.</source>
-        <translation>Eliminar lugares no está soportado.</translation>
+        <translation>No se soporta la eliminación de lugares.</translation>
     </message>
     <message>
         <source>Saving categories is not supported.</source>
-        <translation>Guardar categorias no está soportado.</translation>
+        <translation>No se soporta el guardado de categorias.</translation>
     </message>
     <message>
         <source>Removing categories is not supported.</source>
-        <translation>Eliminar categorias no está soportado.</translation>
+        <translation>No se soporta la eliminación de categorias.</translation>
     </message>
     <message>
         <source>Error parsing response.</source>
-        <translation>Error de parseo de respuesta.</translation>
+        <translation>Error de análisis de respuesta.</translation>
     </message>
     <message>
         <source>Network error.</source>
@@ -641,7 +641,7 @@ Por favor registrese en https://developer.here.com/ para obtener sus credenciale
     </message>
     <message>
         <source>Request was canceled.</source>
-        <translation>La petición fué cancelada.</translation>
+        <translation>La petición fue cancelada.</translation>
     </message>
     <message>
         <source>The response from the service was not in a recognizable format.</source>

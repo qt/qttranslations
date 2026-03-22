@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="es_ES">
+<TS version="2.1" language="es">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -12,28 +12,32 @@
     <name>AboutLabel</name>
     <message>
         <source>Warning</source>
-        <translation>Aviso</translation>
+        <translation>Advertencia</translation>
+    </message>
+    <message>
+        <source>Unable to launch external application.</source>
+        <translation>No es posible lanzar la aplicación externa.</translation>
     </message>
     <message>
         <source>Unable to launch external application.
 </source>
-        <translation>Imposible ejecutar la aplicación externa.
+        <translation type="vanished">Imposible ejecutar la aplicación externa.
 </translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>Aceptar</translation>
+        <translation type="vanished">Aceptar</translation>
     </message>
 </context>
 <context>
     <name>Assistant</name>
     <message>
         <source>Error registering documentation file &apos;%1&apos;: %2</source>
-        <translation>Error registrando el archivo de documentación «%1»: %2</translation>
+        <translation>Error al registrar archivo de documentación «%1»: %2</translation>
     </message>
     <message>
         <source>Error: %1</source>
-        <translation>Error: %1</translation>
+        <translation type="vanished">Error: %1</translation>
     </message>
     <message>
         <source>Could not register documentation file
@@ -41,7 +45,7 @@
 
 Reason:
 %2</source>
-        <translation>No se puede registrar el archivo de documentación
+        <translation>No fue posible registrar el archivo de documentación
 %1
 
 Razón:
@@ -49,7 +53,7 @@ Razón:
     </message>
     <message>
         <source>Documentation successfully registered.</source>
-        <translation>La documentación ha sido registrada correctamente.</translation>
+        <translation>Documentación registrada correctamente.</translation>
     </message>
     <message>
         <source>Could not unregister documentation file
@@ -57,7 +61,7 @@ Razón:
 
 Reason:
 %2</source>
-        <translation>No se puede anular el registro del archivo de documentación
+        <translation>No fue posible quitar el registro del archivo de documentación
 %1
 
 Razón:
@@ -65,26 +69,26 @@ Razón:
     </message>
     <message>
         <source>Documentation successfully unregistered.</source>
-        <translation>El registro de la documentación ha sido anulado correctamente.</translation>
+        <translation>El registro de la documentación ha sido quitado correctamente.</translation>
     </message>
     <message>
         <source>Error reading collection file &apos;%1&apos;: %2.</source>
-        <translation>Error leyendo el archivo de colección «%1»: %2.</translation>
+        <translation>Error al leer el archivo de colección «%1»: %2.</translation>
     </message>
     <message>
         <source>Error creating collection file &apos;%1&apos;: %2.</source>
-        <translation>Error creando el archivo de colección «%1»: %2.</translation>
+        <translation>Error al crear el archivo de colección «%1»: %2.</translation>
     </message>
     <message>
         <source>Cannot load sqlite database driver!</source>
-        <translation>No se puede cargar el controlador de bases de datos sqlite!</translation>
+        <translation>¡No es posible cargar el controlador de bases de datos de sqlite!</translation>
     </message>
 </context>
 <context>
     <name>BookmarkDialog</name>
     <message>
         <source>Add Bookmark</source>
-        <translation>Añadir marcador</translation>
+        <translation>Agregar marcador</translation>
     </message>
     <message>
         <source>Bookmark:</source>
@@ -92,7 +96,7 @@ Razón:
     </message>
     <message>
         <source>Add in Folder:</source>
-        <translation>Añadir en carpeta:</translation>
+        <translation>Agregar en la carpeta:</translation>
     </message>
     <message>
         <source>+</source>
@@ -100,11 +104,11 @@ Razón:
     </message>
     <message>
         <source>New Folder</source>
-        <translation>Carpeta nueva</translation>
+        <translation>Nueva carpeta</translation>
     </message>
     <message>
         <source>Rename Folder</source>
-        <translation>Renombrar carpeta</translation>
+        <translation>Cambiar nombre a carpeta</translation>
     </message>
 </context>
 <context>
@@ -130,7 +134,7 @@ Razón:
     </message>
     <message>
         <source>You are going to delete a Folder, this will also&lt;br&gt;remove it&apos;s content. Are you sure to continue?</source>
-        <translation>Estás a punto de eliminar una carpeta, esto también&lt;br&gt; eliminará su contenido. ¿Está seguro de que desea continuar?</translation>
+        <translation>Se está a punto de eliminar una carpeta, esto también&lt;br&gt;eliminará su contenido. ¿Seguro continuar?</translation>
     </message>
     <message>
         <source>Manage Bookmarks...</source>
@@ -138,7 +142,7 @@ Razón:
     </message>
     <message>
         <source>Add Bookmark...</source>
-        <translation>Añadir marcador...</translation>
+        <translation>Agregar marcador...</translation>
     </message>
     <message>
         <source>Ctrl+D</source>
@@ -146,11 +150,11 @@ Razón:
     </message>
     <message>
         <source>Delete Folder</source>
-        <translation>Eliminar carpeta</translation>
+        <translation>Borrar carpeta</translation>
     </message>
     <message>
         <source>Rename Folder</source>
-        <translation>Renombrar carpeta</translation>
+        <translation>Cambiar nombre a carpeta</translation>
     </message>
     <message>
         <source>Show Bookmark</source>
@@ -158,15 +162,15 @@ Razón:
     </message>
     <message>
         <source>Show Bookmark in New Tab</source>
-        <translation>Mostrar marcadores en nueva pestaña</translation>
+        <translation>Mostrar marcadores en pestañas nuevas</translation>
     </message>
     <message>
         <source>Delete Bookmark</source>
-        <translation>Eliminar marcador</translation>
+        <translation>Borrar marcador</translation>
     </message>
     <message>
         <source>Rename Bookmark</source>
-        <translation>Renombrar marcador</translation>
+        <translation>Cambiar nombre a marcador</translation>
     </message>
 </context>
 <context>
@@ -185,7 +189,7 @@ Razón:
     </message>
     <message>
         <source>Import and Backup</source>
-        <translation>Importar y copia de seguridad</translation>
+        <translation>Importación y respaldo</translation>
     </message>
     <message>
         <source>OK</source>
@@ -217,19 +221,19 @@ Razón:
     </message>
     <message>
         <source>Unable to save bookmarks.</source>
-        <translation>No se han podido guardar los marcadores.</translation>
+        <translation>No es posible guardar los marcadores.</translation>
     </message>
     <message>
         <source>You are goingto delete a Folder, this will also&lt;br&gt; remove it&apos;s content. Are you sure to continue?</source>
-        <translation>Está a punto de eliminar una Carpeta, esto también&lt;br&gt; eliminará su contenido. ¿Está seguro de continuar?</translation>
+        <translation>Se está a punto de eliminar una carpeta, esto también&lt;br&gt;eliminará su contenido. ¿Seguro continuar?</translation>
     </message>
     <message>
         <source>Delete Folder</source>
-        <translation>Eliminar carpeta</translation>
+        <translation>Borrar carpeta</translation>
     </message>
     <message>
         <source>Rename Folder</source>
-        <translation>Renombrar carpeta</translation>
+        <translation>Cambiar nombre a carpeta</translation>
     </message>
     <message>
         <source>Show Bookmark</source>
@@ -237,7 +241,7 @@ Razón:
     </message>
     <message>
         <source>Show Bookmark in New Tab</source>
-        <translation>Mostrar marcadores en nueva pestaña</translation>
+        <translation>Mostrar marcadores en pestañas nuevas</translation>
     </message>
     <message>
         <source>Delete Bookmark</source>
@@ -245,7 +249,7 @@ Razón:
     </message>
     <message>
         <source>Rename Bookmark</source>
-        <translation>Renombrar marcador</translation>
+        <translation>Cambiar nombre a marcador</translation>
     </message>
 </context>
 <context>
@@ -279,7 +283,7 @@ Razón:
     </message>
     <message>
         <source>Add</source>
-        <translation>Añadir</translation>
+        <translation>Agregar</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -326,7 +330,7 @@ Razón:
                            status message.
 -help                      Displays this help.
 </source>
-        <translation>Uso: assistant [Opciones]
+        <translation type="vanished">Uso: assistant [Opciones]
 
 -collectionFile archivo    Usa el archivo de colección especificada
                            en lugar de la colección por defecto
@@ -358,6 +362,72 @@ Razón:
 </translation>
     </message>
     <message>
+        <source>Usage: assistant [Options]
+
+-collectionFile file       Uses the specified collection
+                           file instead of the default one
+-showUrl url               Shows the document with the
+                           url.
+-enableRemoteControl       Enables Assistant to be
+                           remotely controlled.
+-show widget               Shows the specified dockwidget
+                           which can be &quot;contents&quot;, &quot;index&quot;,
+                           &quot;bookmarks&quot; or &quot;search&quot;.
+-activate widget           Activates the specified dockwidget
+                           which can be &quot;contents&quot;, &quot;index&quot;,
+                           &quot;bookmarks&quot; or &quot;search&quot;.
+-hide widget               Hides the specified dockwidget
+                           which can be &quot;contents&quot;, &quot;index&quot;
+                           &quot;bookmarks&quot; or &quot;search&quot;.
+-register helpFile         Registers the specified help file
+                           (.qch) in the given collection
+                           file.
+-unregister helpFile       Unregisters the specified help file
+                           (.qch) from the give collection
+                           file.
+-setCurrentFilter filter   Set the filter as the active filter.
+-remove-search-index       Removes the full text search index.
+-rebuild-search-index      Obsolete. Use -remove-search-index instead.
+                           Removes the full text search index.
+                           It will be rebuilt on next Assistant run.
+-quiet                     Does not display any error or
+                           status message.
+-help                      Displays this help.
+</source>
+        <translation>Uso: assistant [Opciones]
+
+-collectionFile archivo    Usa el archivo de colección especificado
+                           en vez de la colección predeterminada
+-showUrl url               Muestra el documento en la
+                           url.
+-enableRemoteControl       Permite al asistente ser
+                           controlado remotamente.
+-show widget               Muestra el dockwidget especificado
+                           que podrá ser «contents», «index»,
+                           «bookmarks» o «search».
+-activate widget           Activa el dockwidget especificado
+                           que podrá ser «contents», «index»,
+                           «bookmarks» o «search».
+-hide widget               Oculta el dockwidget especificado
+                           que podrá ser «contents», «index»
+                           «bookmarks» o «search».
+-register archivoAyuda     Registra el archivo de ayuda especificado
+                           (.qch) en el archivo de colección
+                           dado.
+-unregister archivoAyuda   Quita el registro del archivo de ayuda especificado
+                           (.qch) del archivo de colección
+                           dado.
+-setCurrentFilter filtro   Establece el filtro como filtro activo.
+-remove-search-index       Elimina el índice de búsqueda completo.
+-rebuild-search-index      Obsoleto. Usar -remove-search-index.
+                           Eliminará el índice de búsqueda completo.
+                           Será reconstruido al volver a ejecutar el asistente.
+-quiet                     No muestra ningún error ni
+                           mensaje de estado.
+-help                      Muestra esta ayuda.
+</translation>
+    </message>
+    <message>
         <source>Unknown option: %1</source>
         <translation>Opción desconocida: %1</translation>
     </message>
@@ -371,19 +441,19 @@ Razón:
     </message>
     <message>
         <source>Invalid URL &apos;%1&apos;.</source>
-        <translation>URL inválido «%1».</translation>
+        <translation>URL inválida «%1».</translation>
     </message>
     <message>
         <source>Missing URL.</source>
-        <translation>Falta URL.</translation>
+        <translation>Falta la URL.</translation>
     </message>
     <message>
         <source>Unknown widget: %1</source>
-        <translation>Widget desconocido: %1</translation>
+        <translation>Control desconocido: %1</translation>
     </message>
     <message>
         <source>Missing widget.</source>
-        <translation>Falta el widget.</translation>
+        <translation>Falta el control.</translation>
     </message>
     <message>
         <source>The Qt help file &apos;%1&apos; does not exist.</source>
@@ -421,11 +491,11 @@ Razón:
     <name>FilterNameDialogClass</name>
     <message>
         <source>Add Filter Name</source>
-        <translation>Añadir nombre de filtro</translation>
+        <translation type="vanished">Añadir nombre de filtro</translation>
     </message>
     <message>
         <source>Filter Name:</source>
-        <translation>Nombre de filtro:</translation>
+        <translation type="vanished">Nombre de filtro:</translation>
     </message>
 </context>
 <context>
@@ -444,18 +514,18 @@ Razón:
     </message>
     <message>
         <source>&lt;img src=&quot;:/qt-project.org/assistant/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
-        <translation>&lt;img src=&quot;:/qt-project.org/assistant/images/wrap.png&quot;&gt;&amp;nbsp;Buscar palabra completa</translation>
+        <translation>&lt;img src=&quot;:/qt-project.org/assistant/images/wrap.png&quot;&gt;&amp;nbsp;Búsqueda cíclica</translation>
     </message>
 </context>
 <context>
     <name>FontPanel</name>
     <message>
         <source>Font</source>
-        <translation>Fuente</translation>
+        <translation>Tipografía</translation>
     </message>
     <message>
         <source>&amp;Writing system</source>
-        <translation>Sistema de e&amp;scritura</translation>
+        <translation>Sistema de es&amp;critura</translation>
     </message>
     <message>
         <source>&amp;Family</source>
@@ -467,7 +537,7 @@ Razón:
     </message>
     <message>
         <source>&amp;Point size</source>
-        <translation>Tamaño de &amp;punto</translation>
+        <translation>&amp;Tamaño</translation>
     </message>
 </context>
 <context>
@@ -486,15 +556,15 @@ Razón:
     </message>
     <message>
         <source>ALT+Home</source>
-        <translation>ALT+Inicio</translation>
+        <translation>Alt+Inicio</translation>
     </message>
     <message>
         <source>Zoom &amp;in</source>
-        <translation>Ace&amp;rcar</translation>
+        <translation>Amplia&amp;r</translation>
     </message>
     <message>
         <source>Zoom &amp;out</source>
-        <translation>Ale&amp;jar</translation>
+        <translation>Red&amp;ucir</translation>
     </message>
     <message>
         <source>&amp;Copy selected Text</source>
@@ -517,7 +587,7 @@ Razón:
     <name>HelpEngineWrapper</name>
     <message>
         <source>Unfiltered</source>
-        <translation>Sin filtro</translation>
+        <translation type="vanished">Sin filtro</translation>
     </message>
 </context>
 <context>
@@ -528,15 +598,19 @@ Razón:
     </message>
     <message>
         <source>The page could not be found!</source>
-        <translation>La página no ha podido ser encontrada!</translation>
+        <translation type="vanished">La página no ha podido ser encontrada!</translation>
+    </message>
+    <message>
+        <source>The page could not be found</source>
+        <translation>La página no pudo ser encontrada</translation>
     </message>
     <message>
         <source>Please make sure that you have all documentation sets installed.</source>
-        <translation>Por favor asegúrese de que toda la documentación ha sido instalada.</translation>
+        <translation>Asegurarse de que toda la documentación haya sido instalada.</translation>
     </message>
     <message>
         <source>Error loading: %1</source>
-        <translation>Error cargando: %1</translation>
+        <translation>Error al cargar: %1</translation>
     </message>
     <message>
         <source>&lt;title&gt;about:blank&lt;/title&gt;</source>
@@ -548,27 +622,27 @@ Razón:
     </message>
     <message>
         <source>Open Link</source>
-        <translation>Abrir enlace</translation>
+        <translation type="vanished">Abrir enlace</translation>
     </message>
     <message>
         <source>Open Link in New Tab	Ctrl+LMB</source>
-        <translation>Abrir enlace en pestaña nueva	Ctrl+LMB</translation>
+        <translation type="vanished">Abrir enlace en pestaña nueva	Ctrl+LMB</translation>
     </message>
     <message>
         <source>Copy &amp;Link Location</source>
-        <translation>Copiar &amp;la ubicación del enlace</translation>
+        <translation type="vanished">Copiar &amp;la ubicación del enlace</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Copiar</translation>
+        <translation type="vanished">Copiar</translation>
     </message>
     <message>
         <source>Reload</source>
-        <translation>Recargar</translation>
+        <translation type="vanished">Recargar</translation>
     </message>
     <message>
         <source>Open Link in New Page</source>
-        <translation>Abrir enlace en nueva pestaña</translation>
+        <translation type="vanished">Abrir enlace en nueva pestaña</translation>
     </message>
 </context>
 <context>
@@ -594,7 +668,7 @@ Razón:
     </message>
     <message>
         <source>Contents</source>
-        <translation>Contenidos</translation>
+        <translation>Contenido</translation>
     </message>
     <message>
         <source>Search</source>
@@ -626,7 +700,7 @@ Razón:
     </message>
     <message>
         <source>New &amp;Tab</source>
-        <translation>Nueva &amp;pestaña</translation>
+        <translation>Nueva pes&amp;taña</translation>
     </message>
     <message>
         <source>&amp;Close Tab</source>
@@ -634,11 +708,11 @@ Razón:
     </message>
     <message>
         <source>Page Set&amp;up...</source>
-        <translation>Config&amp;uración de la página...</translation>
+        <translation>Config&amp;urar página...</translation>
     </message>
     <message>
         <source>Print Preview...</source>
-        <translation>Previsualización de impresión...</translation>
+        <translation>Previsualizar impresión...</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -646,7 +720,7 @@ Razón:
     </message>
     <message>
         <source>CTRL+Q</source>
-        <translation>CTRL+Q</translation>
+        <translation>Ctrl+Q</translation>
     </message>
     <message>
         <source>&amp;Quit</source>
@@ -662,15 +736,15 @@ Razón:
     </message>
     <message>
         <source>Find &amp;Previous</source>
-        <translation>Buscar &amp;previo</translation>
+        <translation>Buscar &amp;anterior</translation>
     </message>
     <message>
         <source>Preferences...</source>
-        <translation>Configuración...</translation>
+        <translation>Preferencias...</translation>
     </message>
     <message>
         <source>&amp;View</source>
-        <translation>&amp;Vista</translation>
+        <translation>&amp;Ver</translation>
     </message>
     <message>
         <source>Normal &amp;Size</source>
@@ -682,23 +756,23 @@ Razón:
     </message>
     <message>
         <source>ALT+C</source>
-        <translation>ALT+C</translation>
+        <translation>Alt+C</translation>
     </message>
     <message>
         <source>ALT+I</source>
-        <translation>ALT+I</translation>
+        <translation>Alt+I</translation>
     </message>
     <message>
         <source>ALT+O</source>
-        <translation>ALT+O</translation>
+        <translation>Alt+O</translation>
     </message>
     <message>
         <source>ALT+S</source>
-        <translation>ALT+S</translation>
+        <translation>Alt+S</translation>
     </message>
     <message>
         <source>ALT+P</source>
-        <translation>ALT+P</translation>
+        <translation>Alt+P</translation>
     </message>
     <message>
         <source>&amp;Go</source>
@@ -750,7 +824,7 @@ Razón:
     </message>
     <message>
         <source>Zoom</source>
-        <translation>Zoom</translation>
+        <translation>Ampliar</translation>
     </message>
     <message>
         <source>Minimize</source>
@@ -782,15 +856,23 @@ Razón:
     </message>
     <message>
         <source>Could not find the associated content item.</source>
-        <translation>No se puede encontrar el elemento de contenido asociado.</translation>
+        <translation>No fue posible encontrar el elemento del contenido asociado.</translation>
+    </message>
+    <message>
+        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;p&gt;Browser: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) The Qt Company Ltd. and other contributors.&lt;/p&gt;</source>
+        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Versión %2&lt;/p&gt;&lt;p&gt;Navegador: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) The Qt Company Ltd. y otros contribuyentes.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;p&gt;Browser: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</source>
-        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;p&gt;Browser: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;p&gt;Browser: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About %1</source>
         <translation>Acerca de %1</translation>
+    </message>
+    <message>
+        <source>Unfiltered</source>
+        <translation>Sin filtro</translation>
     </message>
     <message>
         <source>Updating search index</source>
@@ -798,7 +880,7 @@ Razón:
     </message>
     <message>
         <source>Could not register file &apos;%1&apos;: %2</source>
-        <translation>No se puede registrar el archivo «%1»: %2</translation>
+        <translation>No fue posible registrar el archivo «%1»: %2</translation>
     </message>
 </context>
 <context>
@@ -816,54 +898,54 @@ Razón:
     <name>PreferencesDialog</name>
     <message>
         <source>Add Documentation</source>
-        <translation>Añadir documentación</translation>
+        <translation type="vanished">Añadir documentación</translation>
     </message>
     <message>
         <source>Qt Compressed Help Files (*.qch)</source>
-        <translation>Archivos de ayuda comprimidos de Qt (*.qch)</translation>
+        <translation type="vanished">Archivos de ayuda comprimidos de Qt (*.qch)</translation>
     </message>
     <message>
         <source>The namespace %1 is already registered!</source>
-        <translation>¡El espacio de nombres %1 ya está registrado!</translation>
+        <translation type="vanished">¡El espacio de nombres %1 ya está registrado!</translation>
     </message>
     <message>
         <source>The specified file is not a valid Qt Help File!</source>
-        <translation>¡El archivo especificado no es un archivo de ayuda de Qt válido!</translation>
+        <translation type="vanished">¡El archivo especificado no es un archivo de ayuda de Qt válido!</translation>
     </message>
     <message>
         <source>Remove Documentation</source>
-        <translation>Eliminar documentación</translation>
+        <translation type="vanished">Eliminar documentación</translation>
     </message>
     <message>
         <source>Some documents currently opened in Assistant reference the documentation you are attempting to remove. Removing the documentation will close those documents.</source>
-        <translation>Algunos documentos están actualmente abiertos en el Asistente referencian a la documentación que está intentando eliminar. Eliminar la documentación cerrará esos documentos.</translation>
+        <translation type="vanished">Algunos documentos están actualmente abiertos en el Asistente referencian a la documentación que está intentando eliminar. Eliminar la documentación cerrará esos documentos.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Cancelar</translation>
+        <translation type="vanished">Cancelar</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>Aceptar</translation>
+        <translation type="vanished">Aceptar</translation>
     </message>
     <message>
         <source>Use custom settings</source>
-        <translation>Utilizar configuración personalizada</translation>
+        <translation>Usar opciones personalizadas</translation>
     </message>
 </context>
 <context>
     <name>PreferencesDialogClass</name>
     <message>
         <source>Preferences</source>
-        <translation>Configuración</translation>
+        <translation>Preferencias</translation>
     </message>
     <message>
         <source>Fonts</source>
-        <translation>Fuentes</translation>
+        <translation>Tipografías</translation>
     </message>
     <message>
         <source>Font settings:</source>
-        <translation>Configuración de la fuente:</translation>
+        <translation>Configuración de tipografía:</translation>
     </message>
     <message>
         <source>Browser</source>
@@ -879,23 +961,23 @@ Razón:
     </message>
     <message>
         <source>Filter:</source>
-        <translation>Filtro:</translation>
+        <translation type="vanished">Filtro:</translation>
     </message>
     <message>
         <source>Attributes:</source>
-        <translation>Atributos:</translation>
+        <translation type="vanished">Atributos:</translation>
     </message>
     <message>
         <source>1</source>
-        <translation>1</translation>
+        <translation type="vanished">1</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation>Añadir</translation>
+        <translation type="vanished">Añadir</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Eliminar</translation>
+        <translation type="vanished">Eliminar</translation>
     </message>
     <message>
         <source>Documentation</source>
@@ -903,11 +985,11 @@ Razón:
     </message>
     <message>
         <source>Registered Documentation:</source>
-        <translation>Documentación registrada:</translation>
+        <translation type="vanished">Documentación registrada:</translation>
     </message>
     <message>
         <source>Add...</source>
-        <translation>Añadir...</translation>
+        <translation type="vanished">Añadir...</translation>
     </message>
     <message>
         <source>Options</source>
@@ -919,7 +1001,7 @@ Razón:
     </message>
     <message>
         <source>Show my home page</source>
-        <translation>Mostrar mi página inicial</translation>
+        <translation>Mostrar la página de inicio</translation>
     </message>
     <message>
         <source>Show a blank page</source>
@@ -927,7 +1009,7 @@ Razón:
     </message>
     <message>
         <source>Show my tabs from last session</source>
-        <translation>Mostrar mis pestañas de la última sesión</translation>
+        <translation>Mostrar las pestañas de la última sesión</translation>
     </message>
     <message>
         <source>Homepage</source>
@@ -943,7 +1025,7 @@ Razón:
     </message>
     <message>
         <source>Restore to default</source>
-        <translation>Restaurar a los parámetros iniciales</translation>
+        <translation>Restaurar a predeterminados</translation>
     </message>
     <message>
         <source>Appearance</source>
@@ -951,7 +1033,7 @@ Razón:
     </message>
     <message>
         <source>Show tabs for each individual page</source>
-        <translation>Mostrar pestañas para cada una de las páginas individuales</translation>
+        <translation>Mostrar pestañas para cada página individual</translation>
     </message>
 </context>
 <context>
@@ -1000,22 +1082,22 @@ Razón:
     </message>
     <message>
         <source>Close Other Tabs</source>
-        <translation>Cerrar otras pestañas</translation>
+        <translation>Cerrar las otras pestañas</translation>
     </message>
     <message>
         <source>Add Bookmark for this Page...</source>
-        <translation>Añadir marcador para esta página...</translation>
+        <translation>Agregar marcador para esta página...</translation>
     </message>
 </context>
 <context>
     <name>TopicChooser</name>
     <message>
         <source>Choose Topic</source>
-        <translation>Elegir asunto</translation>
+        <translation>Escoger tema</translation>
     </message>
     <message>
         <source>&amp;Topics</source>
-        <translation>Asun&amp;tos</translation>
+        <translation>&amp;Temas</translation>
     </message>
     <message>
         <source>&amp;Display</source>
@@ -1027,11 +1109,69 @@ Razón:
     </message>
     <message>
         <source>Filter</source>
-        <translation>Filtro</translation>
+        <translation>Filtrar</translation>
     </message>
     <message>
         <source>Choose a topic for &lt;b&gt;%1&lt;/b&gt;:</source>
-        <translation>Elija un asunto para &lt;b&gt;%1&lt;/b&gt;:</translation>
+        <translation>Escoger un tema para &lt;b&gt;%1&lt;/b&gt;:</translation>
+    </message>
+</context>
+<context>
+    <name>HelpDocSettingsWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulario</translation>
+    </message>
+    <message>
+        <source>Registered Documentation</source>
+        <translation>Documentación registrada</translation>
+    </message>
+    <message>
+        <source>&lt;Filter&gt;</source>
+        <translation>&lt;Filtro&gt;</translation>
+    </message>
+    <message>
+        <source>Add...</source>
+        <translation>Agregar...</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Eliminar</translation>
+    </message>
+    <message>
+        <source>Add Documentation</source>
+        <translation>Agregar documentación</translation>
+    </message>
+    <message>
+        <source>Qt Compressed Help Files (*.qch)</source>
+        <translation>Archivos de ayuda comprimidos de Qt (*.qch)</translation>
+    </message>
+</context>
+<context>
+    <name>HelpViewerImpl</name>
+    <message>
+        <source>Open Link</source>
+        <translation>Abrir enlace</translation>
+    </message>
+    <message>
+        <source>Open Link in New Tab	Ctrl+LMB</source>
+        <translation>Abrir enlace en nueva pestaña 	Ctrl+LMB</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Link Location</source>
+        <translation>Copiar ubicación del en&amp;lace</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>Copiar</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Recargar</translation>
+    </message>
+    <message>
+        <source>Open Link in New Page</source>
+        <translation>Abrir enlace en nueva página</translation>
     </message>
 </context>
 </TS>
