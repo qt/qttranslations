@@ -585,7 +585,7 @@
     <name>QMediaPlayer</name>
     <message>
         <source>Attempting to play invalid Qt resource</source>
-        <translation>S&apos;intenta reproduir un recurs Qt no vàlid</translation>
+        <translation type="vanished">S&apos;intenta reproduir un recurs Qt no vàlid</translation>
     </message>
     <message>
         <source>The QMediaPlayer object does not have a valid service</source>
@@ -663,6 +663,14 @@
     <message>
         <source>Empty file provided</source>
         <translation type="vanished">S&apos;ha proporcionat un fitxer buit</translation>
+    </message>
+    <message>
+        <source>Attempting to play invalid Qt resource</source>
+        <translation>S&apos;intenta reproduir un recurs no vàlid de les Qt</translation>
+    </message>
+    <message>
+        <source>Failed to establish temporary file during playback</source>
+        <translation>Ha fallat establir un fitxer temporal durant la reproducció</translation>
     </message>
 </context>
 <context>
@@ -756,7 +764,7 @@
     </message>
     <message>
         <source>Output location not writable</source>
-        <translation>No es pot escriure en la ubicació de sortida</translation>
+        <translation type="vanished">No es pot escriure en la ubicació de sortida</translation>
     </message>
     <message>
         <source>No camera or audio input</source>
@@ -765,6 +773,10 @@
     <message>
         <source>No video or audio input</source>
         <translation>No hi ha entrada de vídeo o àudio</translation>
+    </message>
+    <message>
+        <source>Cannot open the output location for writing</source>
+        <translation>No s&apos;ha pogut obrir la ubicació de sortida per a escriptura</translation>
     </message>
 </context>
 <context>
@@ -881,6 +893,10 @@
         <source>Lead performer</source>
         <translation>Intèrpret principal</translation>
     </message>
+    <message>
+        <source>Has HDR content</source>
+        <translation>Té contingut HDR</translation>
+    </message>
 </context>
 <context>
     <name>Decoder</name>
@@ -944,7 +960,11 @@
     </message>
     <message>
         <source>No audio tracks found</source>
-        <translation>No s&apos;ha trobat cap pista d&apos;àudio</translation>
+        <translation type="vanished">No s&apos;ha trobat cap pista d&apos;àudio</translation>
+    </message>
+    <message>
+        <source>Failed to create URL for the device</source>
+        <translation>Ha fallat en crear l&apos;URL per al dispositiu</translation>
     </message>
     <message>
         <source>Unsupported source format</source>
@@ -979,19 +999,19 @@
     <name>AVFMediaEncoder</name>
     <message>
         <source>No inputs specified</source>
-        <translation>No s&apos;ha especificat cap entrada</translation>
+        <translation type="vanished">No s&apos;ha especificat cap entrada</translation>
     </message>
     <message>
         <source>Invalid output file URL</source>
-        <translation>URL no vàlid del fitxer de sortida</translation>
+        <translation type="vanished">URL no vàlid del fitxer de sortida</translation>
     </message>
     <message>
         <source>Non-writeable file location</source>
-        <translation>No es pot escriure en la ubicació del fitxer</translation>
+        <translation type="vanished">No es pot escriure en la ubicació del fitxer</translation>
     </message>
     <message>
         <source>File already exists</source>
-        <translation>El fitxer ja existeix</translation>
+        <translation type="vanished">El fitxer ja existeix</translation>
     </message>
 </context>
 <context>
@@ -1005,7 +1025,7 @@
     <name>QFFmpegImageCapture</name>
     <message>
         <source>No camera available.</source>
-        <translation>La càmera no està disponible.</translation>
+        <translation type="vanished">La càmera no està disponible.</translation>
     </message>
 </context>
 <context>
@@ -1026,7 +1046,7 @@
     <name>QGstreamerMediaPlayer</name>
     <message>
         <source>Cannot play stream of type: &lt;unknown&gt;</source>
-        <translation>No s&apos;ha pogut reproduir un flux del tipus: &lt;desconegut&gt;</translation>
+        <translation type="vanished">No s&apos;ha pogut reproduir un flux del tipus: &lt;desconegut&gt;</translation>
     </message>
 </context>
 <context>

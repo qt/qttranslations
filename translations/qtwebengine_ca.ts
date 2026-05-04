@@ -714,6 +714,10 @@
 <context>
     <name>QQuickPdfDocument</name>
     <message>
+        <source>Cannot open: %1</source>
+        <translation>No s&apos;ha pogut obrir: %1</translation>
+    </message>
+    <message>
         <source>no error</source>
         <translation>sense error</translation>
     </message>
