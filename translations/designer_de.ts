@@ -179,21 +179,6 @@
     </message>
 </context>
 <context>
-    <name>AssistantClient</name>
-    <message>
-        <source>Unable to send request: Assistant is not responding.</source>
-        <translation>Fehler beim Senden einer Anforderung: Das Programm Assistant antwortet nicht.</translation>
-    </message>
-    <message>
-        <source>The binary &apos;%1&apos; does not exist.</source>
-        <translation>Die ausführbare Datei &apos;%1&apos; existiert nicht.</translation>
-    </message>
-    <message>
-        <source>Unable to launch assistant (%1).</source>
-        <translation>Das Programm Assistant kann nicht gestartet werden (%1).</translation>
-    </message>
-</context>
-<context>
     <name>BrushPropertyManager</name>
     <message>
         <source>Style</source>
@@ -1302,10 +1287,6 @@ This indicates an inconsistency in the ui-file.</source>
     <message>
         <source>Empty widget item in %1 &apos;%2&apos;.</source>
         <translation>Leeres Widget-Item in %1 &apos;%2&apos;.</translation>
-    </message>
-    <message>
-        <source>Flags property are not supported yet.</source>
-        <translation>Eigenschaften des Typs &quot;Flag&quot; werden nicht unterstützt.</translation>
     </message>
     <message>
         <source>While applying tab stops: The widget &apos;%1&apos; could not be found.</source>
@@ -4488,20 +4469,14 @@ Please select another name.</source>
         <translation>Vorgabe</translation>
     </message>
     <message>
-        <source>QVGA portrait (240x320)</source>
-        <translation>QVGA Hochformat (240x320)</translation>
+        <source>%1 portrait (%2x%3)</source>
+        <extracomment>Standard screen size: %1 Name, %2 screen width, %3 screen height</extracomment>
+        <translation>%1 Hochformat (%2x%3)</translation>
     </message>
     <message>
-        <source>QVGA landscape (320x240)</source>
-        <translation>QVGA Querformat (320x240)</translation>
-    </message>
-    <message>
-        <source>VGA portrait (480x640)</source>
-        <translation>VGA Hochformat (480x640)</translation>
-    </message>
-    <message>
-        <source>VGA landscape (640x480)</source>
-        <translation>VGA Querformat (640x480)</translation>
+        <source>%1 landscape (%2x%3)</source>
+        <extracomment>Standard screen size: %1 Name, %2 screen width, %3 screen height</extracomment>
+        <translation>%1 Querformat (%2x%3)</translation>
     </message>
     <message>
         <source>Widgets</source>
@@ -5912,6 +5887,11 @@ Klasse: %2</translation>
 <context>
     <name>qdesigner_internal::WidgetDataBase</name>
     <message>
+        <source>text</source>
+        <extracomment>Widget Box ToolTip of QAbstractButton-derived classes</extracomment>
+        <translation>Text</translation>
+    </message>
+    <message>
         <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
         <translation>Es wurde ein Plugin gefunden, das ein benutzerdefiniertes Widget enthält, dessen Klassenname (%1) einer existierenden Klasse entspricht.</translation>
     </message>
@@ -6083,13 +6063,6 @@ This indicates an inconsistency in the ui-file.</source>
     <message>
         <source>Reset All</source>
         <translation>Alle zurücksetzen</translation>
-    </message>
-</context>
-<context>
-    <name>WebHelpClient</name>
-    <message>
-        <source>Unable to open url (%1).</source>
-        <translation>Die URL %1 konnte nicht geöffnet werden.</translation>
     </message>
 </context>
 </TS>

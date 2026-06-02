@@ -145,6 +145,10 @@
         <source>QAudioDecoder not supported.</source>
         <translation>QAudioDecoder wird nicht unterstützt.</translation>
     </message>
+    <message>
+        <source>Attempting to play invalid Qt resource</source>
+        <translation>Es wurde versucht, eine ungültige Qt-Ressource abzuspielen</translation>
+    </message>
 </context>
 <context>
     <name>QMediaPlayer</name>
@@ -183,6 +187,10 @@
 <context>
     <name>AVFAudioDecoder</name>
     <message>
+        <source>Failed to create URL for the device</source>
+        <translation>Es konnte kein URL für das Gerät erstellt werden</translation>
+    </message>
+    <message>
         <source>Unable to read from specified device</source>
         <translation>Vom angegebenen Gerät kann nicht gelesen werden</translation>
     </message>
@@ -197,6 +205,10 @@
     <message>
         <source>Failed to add asset reader output</source>
         <translation>Die Ausgabe des Asset-Lesers konnte nicht hinzugefügt werden</translation>
+    </message>
+    <message>
+        <source>Media has no audio tracks</source>
+        <translation>Das Medium hat keine Audiospur</translation>
     </message>
     <message>
         <source>Could not start reading</source>
@@ -217,25 +229,6 @@
 %1</source>
         <translation>Die Zieldatei konnte nicht geöffnet werden:
 %1</translation>
-    </message>
-</context>
-<context>
-    <name>AVFMediaEncoder</name>
-    <message>
-        <source>No inputs specified</source>
-        <translation>Es wurden keine Eingänge angegeben</translation>
-    </message>
-    <message>
-        <source>Invalid output file URL</source>
-        <translation>Ungültiger URL zur Ausgabedatei</translation>
-    </message>
-    <message>
-        <source>Non-writeable file location</source>
-        <translation>Datei ist nicht schreibbar</translation>
-    </message>
-    <message>
-        <source>File already exists</source>
-        <translation>Datei existiert bereits</translation>
     </message>
 </context>
 <context>
@@ -515,6 +508,116 @@
     <message>
         <source>Error while writing data to temporary file</source>
         <translation>Fehler beim Schreiben der temporären Datei</translation>
+    </message>
+</context>
+<context>
+    <name>QOhosCameraSession</name>
+    <message>
+        <source>Camera not ready for capture</source>
+        <translation>Die Kamera ist nicht aufnahmebereit</translation>
+    </message>
+    <message>
+        <source>Capture already in progress</source>
+        <translation>Aufnahme läuft bereits</translation>
+    </message>
+    <message>
+        <source>OH_PhotoOutput_Capture failed</source>
+        <translation>OH_PhotoOutput_Capture fehlgeschlagen</translation>
+    </message>
+    <message>
+        <source>Failed to read captured image</source>
+        <translation>Das aufgenommene Bild konnte nicht gelesen werden</translation>
+    </message>
+    <message>
+        <source>Failed to encode captured image</source>
+        <translation>Das aufgenommene Bild konnte nicht kodiert werden</translation>
+    </message>
+    <message>
+        <source>Could not save captured image to: %1</source>
+        <translation>Das aufgenommene Bild konnte nicht gespeichert werden: %1</translation>
+    </message>
+    <message>
+        <source>Recorder error %1</source>
+        <translation>Aufnahme-Fehler %1</translation>
+    </message>
+    <message>
+        <source>Recording already in progress</source>
+        <translation>Aufnahme läuft bereits</translation>
+    </message>
+    <message>
+        <source>No matching camera video profile</source>
+        <translation>Kein für die Kamera passendes Videoprofil</translation>
+    </message>
+    <message>
+        <source>OH_AVRecorder_Create failed</source>
+        <translation>OH_AVRecorder_Create fehlgeschlagen</translation>
+    </message>
+    <message>
+        <source>Could not open output file: %1</source>
+        <translation>Die Ausgabedatei konnte nicht geöffnet werden: %1</translation>
+    </message>
+    <message>
+        <source>OH_AVRecorder_Prepare failed</source>
+        <translation>OH_AVRecorder_Prepare fehlgeschlagen</translation>
+    </message>
+    <message>
+        <source>OH_AVRecorder_GetInputSurface failed</source>
+        <translation>OH_AVRecorder_GetInputSurface fehlgeschlagen</translation>
+    </message>
+    <message>
+        <source>Failed to obtain recorder surface ID</source>
+        <translation>Die surface ID des Aufnahmegeräts konnte nicht erhalten werden</translation>
+    </message>
+    <message>
+        <source>Failed to attach video output to capture session</source>
+        <translation>Videoausgabe konnte nicht mit der Aufnahme verbunden werden</translation>
+    </message>
+    <message>
+        <source>OH_AVRecorder_Start failed</source>
+        <translation>OH_AVRecorder_Start fehlgeschlagen</translation>
+    </message>
+</context>
+<context>
+    <name>QOhosMediaRecorder</name>
+    <message>
+        <source>Recorder has no capture session attached</source>
+        <translation>Aufnahmegerät hat keine Aufnahmesitzung</translation>
+    </message>
+    <message>
+        <source>No writable output location</source>
+        <translation>Kein schreibbarer Ausgang vorhanden</translation>
+    </message>
+    <message>
+        <source>No audio or video input is attached to the capture session</source>
+        <translation>Die Aufnahmesitzung hat weder Audio- noch Videoeingang</translation>
+    </message>
+    <message>
+        <source>OH_AVRecorder_Create failed</source>
+        <translation>OH_AVRecorder_Create fehlgeschlagen</translation>
+    </message>
+    <message>
+        <source>Could not open output file: %1</source>
+        <translation>Kann Ausgabedatei nicht öffnen: %1</translation>
+    </message>
+    <message>
+        <source>OH_AVRecorder_Prepare failed</source>
+        <translation>OH_AVRecorder_Prepare fehlgeschlagen</translation>
+    </message>
+    <message>
+        <source>OH_AVRecorder_Start failed</source>
+        <translation>OH_AVRecorder_Start fehlgeschlagen</translation>
+    </message>
+    <message>
+        <source>Recorder error %1</source>
+        <translation>Fehler im Aufnahmegerät: %1</translation>
+    </message>
+    <message>
+        <source>No audio input device available</source>
+        <translation>Kein Audioeingang verfügbar</translation>
+    </message>
+    <message>
+        <source>Audio capture start failed</source>
+        <translation>Start der Audioaufnahme fehlgeschlagen</translation>
     </message>
 </context>
 </TS>

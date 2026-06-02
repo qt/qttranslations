@@ -118,12 +118,16 @@
         <translation>Senken</translation>
     </message>
     <message>
-        <source>ShowMenu</source>
+        <source>Show Menu</source>
         <translation>Menü anzeigen</translation>
     </message>
     <message>
-        <source>SetFocus</source>
+        <source>Set Focus</source>
         <translation>Fokus setzen</translation>
+    </message>
+    <message>
+        <source>Show on Screen</source>
+        <translation>Auf Bildschirm anzeigen</translation>
     </message>
     <message>
         <source>Toggle</source>
@@ -172,6 +176,10 @@
     <message>
         <source>Sets the focus</source>
         <translation>Setzt den Fokus</translation>
+    </message>
+    <message>
+        <source>Moves the element into the visible area</source>
+        <translation>Verschiebt das Element in den sichtbaren Bereich</translation>
     </message>
     <message>
         <source>Toggles the state</source>
@@ -2132,6 +2140,10 @@ Möchten Sie die Datei trotzdem löschen?</translation>
         <translation>Keine dynamische Bibliothek</translation>
     </message>
     <message>
+        <source>corrupted encryption_info section</source>
+        <translation>Die Sektion encryption_info ist fehlerhaft</translation>
+    </message>
+    <message>
         <source>&apos;%1&apos; is not a Qt plugin</source>
         <translation>&apos;%1&apos; ist kein Qt-Plugin</translation>
     </message>
@@ -3846,6 +3858,10 @@ Bitte deaktivieren Sie eine der beiden.</translation>
         <source>There are conflicts in some advanced options. Do you want to fix them?</source>
         <translation>Die erweiterten Einstellungen sind widersprüchlich. Möchten Sie diese korrigieren?</translation>
     </message>
+    <message>
+        <source>Custom value for %1</source>
+        <translation>Benutzerdefinierter Wert für %1</translation>
+    </message>
 </context>
 <context>
     <name>QPrintPropertiesWidget</name>
@@ -4803,8 +4819,20 @@ Bitte deaktivieren Sie eine der beiden.</translation>
         <translation>Dateiname bezeichnet ein Verzeichnis</translation>
     </message>
     <message>
-        <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled.</source>
-        <translation>QSaveFile kann &apos;%1&apos; ohne den Direct-Write-Fallback nicht öffnen.</translation>
+        <source>target is an Alternate Data Stream</source>
+        <translation>Ziel ist ein Alternate Data Stream</translation>
+    </message>
+    <message>
+        <source>target is a content:// virtual file</source>
+        <translation>Ziel ist eine virtuelle Datei (content://)</translation>
+    </message>
+    <message>
+        <source>target exists and is not a regular file</source>
+        <translation>Ziel existiert und ist keine reguläre Datei</translation>
+    </message>
+    <message>
+        <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled: %2.</source>
+        <translation>QSaveFile kann &apos;%1&apos; ohne den Direct-Write-Fallback nicht öffnen: %2</translation>
     </message>
     <message>
         <source>Writing canceled by application</source>

@@ -266,5 +266,9 @@
         <source>Invalid response received.</source>
         <translation>Ungültige Antwort erhalten.</translation>
     </message>
+    <message>
+        <source>Invalid handshake request.</source>
+        <translation>Ungültige Handshake-Anforderung.</translation>
+    </message>
 </context>
 </TS>

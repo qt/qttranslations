@@ -648,6 +648,10 @@
         <translation>Syntaxfehler</translation>
     </message>
     <message>
+        <source>Cyclic alias</source>
+        <translation>Zyklischer Alias</translation>
+    </message>
+    <message>
         <source>Unexpected object definition</source>
         <translation>Objektdefinition an dieser Stelle nicht erwartet</translation>
     </message>
@@ -792,10 +796,6 @@
     <message>
         <source>Duplicate method name: invalid override of property change signal or superclass signal</source>
         <translation>Bereits vorhandener Methodenname: Das Überschreiben eines Signals einer Eigenschaftsänderung oder der Basisklasse ist nicht zulässig</translation>
-    </message>
-    <message>
-        <source>Cyclic alias</source>
-        <translation>Zyklischer Alias</translation>
     </message>
     <message>
         <source>Invalid alias target</source>
@@ -1392,10 +1392,6 @@
         <translation>Unbekannte Zugriffssemantik &quot;%1&quot;.</translation>
     </message>
     <message>
-        <source>Expected only lineNumber, name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isStructured, isComposite, hasCustomParser, enforcesScopedEnums, aliases, exportMetaObjectRevisions, deferredNames, metaObjectHash, and immediateNames in script bindings, not &quot;%1&quot;.</source>
-        <translation>Es werden nur lineNumber, name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isStructured, isComposite, hasCustomParser, enforcesScopedEnums, aliases, exportMetaObjectRevisions, deferredNames, metaObjectHash und immediateNames in script bindings erwartet, nicht jedoch &quot;%1&quot;.</translation>
-    </message>
-    <message>
         <source>Expected only script bindings and object definitions.</source>
         <translation>Es werden Script-Bindings oder Objektdefinitionen erwartet.</translation>
     </message>
@@ -1410,6 +1406,10 @@
     <message>
         <source>Expected only Parameter in object definitions.</source>
         <translation>Es werden nur Parameter in Objektdefinitionen erwartet.</translation>
+    </message>
+    <message>
+        <source>Expected only lineNumber, name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isStructured, isComposite, hasCustomParser, enforcesScopedEnums, aliases, exportMetaObjectRevisions, deferredNames, and immediateNames in script bindings, not &quot;%1&quot;.</source>
+        <translation>Es werden nur lineNumber, name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isStructured, isComposite, hasCustomParser, enforcesScopedEnums, aliases, exportMetaObjectRevisions, deferredNames und immediateNames in script bindings erwartet, nicht jedoch &quot;%1&quot;.</translation>
     </message>
     <message>
         <source>Expected only name, lineNumber, type, revision, isPointer, isTypeConstant, isList, isCloned, isConstructor, isMethodConstant, and isJavaScriptFunction in script bindings.</source>
@@ -2083,14 +2083,6 @@ Soll sie überschrieben werden?</translation>
         <translation>id-Attribute sollten lediglich aus einem Kleinbuchstaben gefolgt von Buchstaben, Ziffern oder Unterstrichzeichen bestehen, sofern sie sich auf eine id-Eigenschaft beziehen</translation>
     </message>
     <message>
-        <source>id attributes should only be a lower case letter followed by letters, numbers or underscore, not %1</source>
-        <translation>id-Attribute sollten aus einem Kleinbuchstaben gefolgt von Buchstaben, Ziffern oder Unterstrichzeichen bestehen, nicht jedoch %1</translation>
-    </message>
-    <message>
-        <source>id attributes should only be a lower case letter followed by letters, numbers or underscore, not %1 %2, assuming they refer to a property</source>
-        <translation>id-Attribute sollten lediglich aus einem Kleinbuchstaben gefolgt von Buchstaben, Ziffern oder Unterstrichzeichen bestehen, nicht jedoch %1 %2, sofern sie sich auf eine Eigenschaft beziehen</translation>
-    </message>
-    <message>
         <source>id attributes should have only simple strings as values</source>
         <translation>id-Attribute sollten nur einfache Zeichenketten als Werte haben</translation>
     </message>
@@ -2216,6 +2208,10 @@ Soll sie überschrieben werden?</translation>
     <message>
         <source>- %1 is not a namespace</source>
         <translation>- %1 ist kein gültiger Namensraum</translation>
+    </message>
+    <message>
+        <source>- %1 is not an inline component</source>
+        <translation>- %1 ist keine Inline-Komponente</translation>
     </message>
     <message>
         <source>- %1 is not a type</source>
@@ -2367,6 +2363,52 @@ Soll sie überschrieben werden?</translation>
     <message>
         <source>Undo</source>
         <translation>Rückgängig</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlComponentAndAliasResolver</name>
+    <message>
+        <source>Invalid alias reference. Unable to find id &quot;%1&quot;</source>
+        <translation>Ungültige Alias-Referenz. Die Id &quot;%1&quot; kann nicht gefunden werden</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlCodeActions</name>
+    <message>
+        <source>TODO:</source>
+        <translatorcomment>Following are instructions generated by qmlls-based refactoring into the code. They are left untranslated.</translatorcomment>
+        <translation>TODO:</translation>
+    </message>
+    <message>
+        <source>Move position bindings from the component to the Loader.</source>
+        <translation>Move position bindings from the component to the Loader.</translation>
+    </message>
+    <message>
+        <source>Check all uses of &apos;parent&apos; inside the root element of the component.</source>
+        <translation>Check all uses of &apos;parent&apos; inside the root element of the component.</translation>
+    </message>
+    <message>
+        <source>Rename all outer uses of the id &quot;%1&quot; to &quot;%2.item&quot;.</source>
+        <translation>Rename all outer uses of the id &quot;%1&quot; to &quot;%2.item&quot;.</translation>
+    </message>
+    <message>
+        <source>Rename all outer uses of the id &quot;%1&quot; to &quot;%2.item.%1&quot;.</source>
+        <translation>Rename all outer uses of the id &quot;%1&quot; to &quot;%2.item.%1&quot;.</translation>
+    </message>
+    <message>
+        <source>Wrap Component in Loader</source>
+        <translation>Wrap Component in Loader</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlDebugConsole</name>
+    <message>
+        <source>Show the list of available commands.</source>
+        <translation>Zeige die Liste der verfügbaren Befehle.</translation>
+    </message>
+    <message>
+        <source>The following commands are available:</source>
+        <translation>Die folgenden Befehle sind verfügbar:</translation>
     </message>
 </context>
 </TS>

@@ -1455,4 +1455,113 @@ Bitte registrieren Sie sich unter https://developer.here.com/ um Ihre persönlic
         <translation>Der Index &apos;%1&apos; ist außerhalb des gültigen Bereichs</translation>
     </message>
 </context>
+<context>
+    <name>QGeoCodeReplyOhosMapKit</name>
+    <message>
+        <source>Response parse error</source>
+        <translation>Fehler beim Auswerten der Antwort</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoCodingManagerEngineOhosMapKit</name>
+    <message>
+        <source>Cannot do geocoding query using empty address</source>
+        <translation>Kann keine Geokodierung mit leerer Adresse durchführen</translation>
+    </message>
+    <message>
+        <source>Cannot do reverse geocoding query using non-valid coordinates</source>
+        <translation>Kann keine umgekehrte Geokodierung mit ungültigen Koordinaten durchführen</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoMapReplyOhosMapKit</name>
+    <message>
+        <source>Invalid format of tile data</source>
+        <translation>Ungültiges Format der Kacheldaten</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoRouteReplyOhosMapKit</name>
+    <message>
+        <source>Response parse error</source>
+        <translation>Fehler beim Auswerten der Antwort</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoRoutingManagerEngineOhosMapKit</name>
+    <message>
+        <source>Selection of multiple travel modes is not supported by OHOS Map Kit plugin</source>
+        <translation>Auswahl mehrerer Reisemodi wird vom OHOS Map Kit Plugin nicht unterstützt</translation>
+    </message>
+    <message>
+        <source>Selected travel mode: %1 is not supported by OHOS Map Kit plugin</source>
+        <translation>Der ausgewählte Reisemodus: %1 wird durch das OHOS Map Kit Plugin nicht unterstützt</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoServiceProviderFactoryOhosMapKit</name>
+    <message>
+        <source>OHOS Map Kit plugin requires a &apos;%1&apos; parameter. Visit Huawei AppGallery Connect service to generate it.</source>
+        <translation>Das OHOS Map Kit Plugin benötigt den Parameter &quot;%1&quot;. Besuchen Sie den Huawei AppGallery Connect Service, um ihn zu generieren.</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoTiledMappingManagerEngineOhosMapKit</name>
+    <message>
+        <source>Street</source>
+        <translation>Straßenkarte</translation>
+    </message>
+</context>
+<context>
+    <name>QPlaceManagerEngineOhosMapKit</name>
+    <message>
+        <source>OHOS Map Kit allows search of only one category type.</source>
+        <translation>OHOS Map Kit erlaubt die Suche nach nur einer Kategorie.</translation>
+    </message>
+</context>
+<context>
+    <name>QPlaceSearchReplyOhosMapKit</name>
+    <message>
+        <source>Opening hours</source>
+        <translation>Öffnungszeiten</translation>
+    </message>
+    <message>
+        <source>Photo URLs</source>
+        <translation>Foto-URLs</translation>
+    </message>
+    <message>
+        <source>Phone</source>
+        <translation>Telefon</translation>
+    </message>
+    <message>
+        <source>International phone</source>
+        <translation>Internationales Telefon</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>Website</translation>
+    </message>
+    <message>
+        <source>Response parse error</source>
+        <translation>Fehler beim Auswerten der Antwort</translation>
+    </message>
+</context>
+<context>
+    <name>QPlaceSearchSuggestionReplyOhosMapKit</name>
+    <message>
+        <source>Response parse error</source>
+        <translation>Fehler beim Auswerten der Antwort</translation>
+    </message>
+</context>
+<context>
+    <name>OhosMapKit</name>
+    <message>
+        <source>Network reply error: %1</source>
+        <translation>Netzwerkantwort-Fehler: %1</translation>
+    </message>
+    <message>
+        <source>Null reply</source>
+        <translation>Keine Antwort</translation>
+    </message>
+</context>
 </TS>
