@@ -56,6 +56,10 @@
         <translation>L&apos;adreça indicada no és un dispositiu local.</translation>
     </message>
     <message>
+        <source>Location permission not granted. Search is not possible.</source>
+        <translation>Manca el permís d&apos;ubicació. No es pot cercar.</translation>
+    </message>
+    <message>
         <source>Missing Location permission. Search is not possible.</source>
         <translation type="vanished">Manca el permís d&apos;ubicació. No es pot cercar.</translation>
     </message>
@@ -1238,7 +1242,7 @@
     </message>
     <message>
         <source>Unknown Service</source>
-        <translation>Servei desconegut</translation>
+        <translation type="vanished">Servei desconegut</translation>
     </message>
 </context>
 <context>

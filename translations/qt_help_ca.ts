@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ca">
+<TS version="2.1" language="ca_ES">
 <context>
     <name>FilterNameDialogClass</name>
     <message>
@@ -478,7 +478,14 @@
     <name>fulltextsearch::qt::QHelpSearchIndexWriter</name>
     <message>
         <source>Cannot open database &quot;%1&quot; using connection &quot;%2&quot;: %3</source>
-        <translation>No s&apos;ha pogut obrir la base de dades «%1» usant la connexió «%2»: %3</translation>
+        <translation type="vanished">No s&apos;ha pogut obrir la base de dades «%1» usant la connexió «%2»: %3</translation>
+    </message>
+</context>
+<context>
+    <name>fulltextsearch::QHelpSearchIndexWriter</name>
+    <message>
+        <source>Cannot open database &quot;%1&quot; using connection &quot;%2&quot;: %3</source>
+        <translation>No s&apos;ha pogut obrir la base de dades «%1» utilitzant la connexió «%2»: %3</translation>
     </message>
 </context>
 </TS>

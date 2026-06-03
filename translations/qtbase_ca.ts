@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ca">
+<TS version="2.1" language="ca_ES">
 <context>
     <name>CloseButton</name>
     <message>
@@ -464,6 +464,10 @@ Premeu Esc per a cancel·lar</translation>
         <comment>QSystemSemaphore</comment>
         <translation type="vanished">%1: ha fallat el «ftok»</translation>
     </message>
+    <message>
+        <source>QHttp</source>
+        <translation>QHttp</translation>
+    </message>
 </context>
 <context>
     <name>QCupsJobWidget</name>
@@ -477,15 +481,15 @@ Premeu Esc per a cancel·lar</translation>
     </message>
     <message>
         <source>Scheduled printing:</source>
-        <translation>Impressió planificada:</translation>
+        <translation type="vanished">Impressió planificada:</translation>
     </message>
     <message>
         <source>Billing information:</source>
-        <translation>Informació de facturació:</translation>
+        <translation type="vanished">Informació de facturació:</translation>
     </message>
     <message>
         <source>Job priority:</source>
-        <translation>Prioritat del treball:</translation>
+        <translation type="vanished">Prioritat del treball:</translation>
     </message>
     <message>
         <source>Banner Pages</source>
@@ -494,12 +498,12 @@ Premeu Esc per a cancel·lar</translation>
     <message>
         <source>End:</source>
         <comment>Banner page at end</comment>
-        <translation>Final:</translation>
+        <translation type="vanished">Final:</translation>
     </message>
     <message>
         <source>Start:</source>
         <comment>Banner page at start</comment>
-        <translation>Inici:</translation>
+        <translation type="vanished">Inici:</translation>
     </message>
     <message>
         <source>Print Immediately</source>
@@ -567,6 +571,28 @@ Premeu Esc per a cancel·lar</translation>
         <source>Top Secret</source>
         <comment>CUPS Banner page</comment>
         <translation>Alt secret</translation>
+    </message>
+    <message>
+        <source>Scheduled &amp;printing:</source>
+        <translation>Im&amp;pressió planificada:</translation>
+    </message>
+    <message>
+        <source>&amp;Billing information:</source>
+        <translation>Informació de &amp;facturació:</translation>
+    </message>
+    <message>
+        <source>Job &amp;priority:</source>
+        <translation>&amp;Prioritat del treball:</translation>
+    </message>
+    <message>
+        <source>&amp;Start:</source>
+        <comment>Banner page at start</comment>
+        <translation>&amp;Inici:</translation>
+    </message>
+    <message>
+        <source>&amp;End:</source>
+        <comment>Banner page at end</comment>
+        <translation>&amp;Final:</translation>
     </message>
 </context>
 <context>
@@ -733,6 +759,10 @@ Premeu Esc per a cancel·lar</translation>
         <translation>Nom de domini no vàlid</translation>
     </message>
     <message>
+        <source>SSL/TLS support not present</source>
+        <translation>No s&apos;admet l&apos;ús de SSL/TLS</translation>
+    </message>
+    <message>
         <source>Request timed out</source>
         <translation>S&apos;ha excedit el temps d&apos;espera de la sol·licitud</translation>
     </message>
@@ -770,7 +800,7 @@ Premeu Esc per a cancel·lar</translation>
     </message>
     <message>
         <source>Reply was too large</source>
-        <translation>La resposta era massa llarga</translation>
+        <translation>La resposta era massa gran</translation>
     </message>
     <message>
         <source>Could not expand domain name</source>
@@ -803,6 +833,10 @@ Premeu Esc per a cancel·lar</translation>
     <message>
         <source>Invalid service record</source>
         <translation>Registre no vàlid de servei</translation>
+    </message>
+    <message>
+        <source>Invalid TLS association record</source>
+        <translation>Registre d&apos;associació TLS no vàlid</translation>
     </message>
     <message>
         <source>Invalid text record</source>
@@ -1181,6 +1215,10 @@ Premeu Esc per a cancel·lar</translation>
         <translation>El fitxer de destinació existeix</translation>
     </message>
     <message>
+        <source>Cannot remove source file: %1</source>
+        <translation>No s&apos;ha pogut eliminar el fitxer d&apos;origen: %1</translation>
+    </message>
+    <message>
         <source>Error while renaming.</source>
         <translation type="vanished">Error en canviar de nom.</translation>
     </message>
@@ -1198,11 +1236,11 @@ Premeu Esc per a cancel·lar</translation>
     </message>
     <message>
         <source>Cannot remove source file</source>
-        <translation>No s&apos;ha pogut eliminar el fitxer d&apos;origen</translation>
+        <translation type="vanished">No s&apos;ha pogut eliminar el fitxer d&apos;origen</translation>
     </message>
     <message>
         <source>Cannot open destination file: %1</source>
-        <translation>No s&apos;ha pogut obrir el fitxer de destinació: %1</translation>
+        <translation type="vanished">No s&apos;ha pogut obrir el fitxer de destinació: %1</translation>
     </message>
     <message>
         <source>Cannot open %1 for input</source>
@@ -1213,12 +1251,16 @@ Premeu Esc per a cancel·lar</translation>
         <translation>No s&apos;ha pogut obrir per sortida: %1</translation>
     </message>
     <message>
+        <source>Could not copy to %1: %2</source>
+        <translation>No s&apos;ha pogut copiar a %1: %2</translation>
+    </message>
+    <message>
         <source>Failure to write block: %1</source>
         <translation>Ha fallat en escriure un bloc: %1</translation>
     </message>
     <message>
         <source>Cannot create %1 for output: %2</source>
-        <translation>No s&apos;ha pogut crear %1 per sortida: %2</translation>
+        <translation type="vanished">No s&apos;ha pogut crear %1 per sortida: %2</translation>
     </message>
     <message>
         <source>Cannot open for output</source>
@@ -1248,7 +1290,7 @@ Premeu Esc per a cancel·lar</translation>
     <name>QFileDialog</name>
     <message>
         <source>Look in:</source>
-        <translation>Cerca a:</translation>
+        <translation type="vanished">Cerca a:</translation>
     </message>
     <message>
         <source>Back</source>
@@ -1324,7 +1366,7 @@ Premeu Esc per a cancel·lar</translation>
     </message>
     <message>
         <source>Files of type:</source>
-        <translation>Fitxers de tipus:</translation>
+        <translation type="vanished">Fitxers de tipus:</translation>
     </message>
     <message>
         <source>Find Directory</source>
@@ -1487,6 +1529,14 @@ El voleu suprimir igualment?</translation>
     <message>
         <source>Unknown</source>
         <translation type="vanished">Desconegut</translation>
+    </message>
+    <message>
+        <source>&amp;Look in:</source>
+        <translation>&amp;Cerca a:</translation>
+    </message>
+    <message>
+        <source>Files of &amp;type:</source>
+        <translation>Fitxers de &amp;tipus:</translation>
     </message>
 </context>
 <context>
@@ -2089,6 +2139,15 @@ El voleu suprimir igualment?</translation>
         <translation>La sortida descomprimida excedeix els límits especificats per QNetworkRequest::decompressedSafetyCheckThreshold()</translation>
     </message>
     <message>
+        <source>Brotli error: %1</source>
+        <extracomment>Brotli (compression algorithm) decoding error, e.g. corrupted input or memory allocation problem.</extracomment>
+        <translation>Error de Brotli: %1</translation>
+    </message>
+    <message>
+        <source>ZStandard error: %1</source>
+        <translation>Error de ZStandard: %1</translation>
+    </message>
+    <message>
         <source>Decompression failed: %1</source>
         <translation>Ha fallat la descompressió: %1</translation>
     </message>
@@ -2144,7 +2203,7 @@ El voleu suprimir igualment?</translation>
     <name>QIBaseDriver</name>
     <message>
         <source>failed to query time zone mapping from system table</source>
-        <translation>ha fallat en consultar el mapatge de la zona horària des de la taula del sistema</translation>
+        <translation type="vanished">ha fallat en consultar el mapatge de la zona horària des de la taula del sistema</translation>
     </message>
     <message>
         <source>Error opening database</source>
@@ -2161,6 +2220,14 @@ El voleu suprimir igualment?</translation>
     <message>
         <source>Unable to rollback transaction</source>
         <translation>No s&apos;ha pogut desfer la transacció</translation>
+    </message>
+    <message>
+        <source>Could not subscribe to event notifications for %1.</source>
+        <translation>No s&apos;ha pogut subscriure a les notificacions d&apos;esdeveniments per a %1.</translation>
+    </message>
+    <message>
+        <source>Could not unsubscribe from event notifications for %1.</source>
+        <translation>No s&apos;ha pogut cancel·lar la suscripció a les notificacions d&apos;esdeveniments per a %1.</translation>
     </message>
 </context>
 <context>
@@ -2188,6 +2255,18 @@ El voleu suprimir igualment?</translation>
     <message>
         <source>Could not get array data</source>
         <translation>No s&apos;han pogut obtenir les dades de la matriu</translation>
+    </message>
+    <message>
+        <source>Array size mismatch. Field name: %3, expected size: %1. Supplied size: %2</source>
+        <translation>La mida de la matriu no coincideix. Nom del camp: %3, mida esperada: %1. Mida subministrada: %2</translation>
+    </message>
+    <message>
+        <source>Array dimensions mismatch. Field name: %1</source>
+        <translation>Les dimensions de la matriu no coincideixen. Nom del camp: %1</translation>
+    </message>
+    <message>
+        <source>Array size mismatch: size of %1 is %2, size of provided list is %3</source>
+        <translation>La mida de la matriu no coincideix: la mida de %1 és %2, la mida de la llista proporcionada és %3</translation>
     </message>
     <message>
         <source>Could not get query info</source>
@@ -2469,6 +2548,10 @@ El voleu suprimir igualment?</translation>
     <message>
         <source>The shared library was not found.</source>
         <translation>No s&apos;ha trobat la biblioteca compartida.</translation>
+    </message>
+    <message>
+        <source>Could not resolve &apos;qt_plugin_instance&apos; function</source>
+        <translation>No s&apos;ha pogut resoldre la funció «qt_plugin_instance»</translation>
     </message>
     <message>
         <source>metadata too small</source>
@@ -2947,9 +3030,14 @@ El voleu suprimir igualment?</translation>
         <translation>Oculta els detalls...</translation>
     </message>
     <message>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;https://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) The Qt Company Ltd. and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd. product developed as an open source project. See &lt;a href=&quot;https://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <extracomment>Leave this text untranslated or include a verbatim copy of it below and note that it is the authoritative version in case of doubt.</extracomment>
+        <translation>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;https://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) The Qt Company Ltd. and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd. product developed as an open source project. See &lt;a href=&quot;https://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</translation>
+    </message>
+    <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
         <extracomment>Leave this text untranslated or include a verbatim copy of it below and note that it is the authoritative version in case of doubt.</extracomment>
-        <translation>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
@@ -3214,7 +3302,11 @@ applications where you wish to use such applications in combination with softwar
     </message>
     <message>
         <source>Error transferring %1 - server replied: %2</source>
-        <translation>Error en transferir %1 - el servidor ha replicat: %2</translation>
+        <translation>Error en transferir %1 - el servidor ha respost: %2</translation>
+    </message>
+    <message>
+        <source>Error transferring %1 - server replied with status code %2</source>
+        <translation>Error en transferir %1 - el servidor ha respost amb el codi d&apos;estat %2</translation>
     </message>
 </context>
 <context>
@@ -3222,6 +3314,10 @@ applications where you wish to use such applications in combination with softwar
     <message>
         <source>Operation canceled</source>
         <translation>Operació cancel·lada</translation>
+    </message>
+    <message>
+        <source>Operation timed out</source>
+        <translation>L&apos;operació ha excedit el temps</translation>
     </message>
     <message>
         <source>No suitable proxy found</source>
@@ -3364,6 +3460,10 @@ applications where you wish to use such applications in combination with softwar
     <message>
         <source>Unable to execute statement</source>
         <translation>No s&apos;ha pogut executar la sentència</translation>
+    </message>
+    <message>
+        <source>QODBCResult::reset: Unable to set &apos;SQL_ATTR_CURSOR_TYPE&apos; as statement attribute. Please check your ODBC driver configuration</source>
+        <translation>QODBCResult::reset: No s&apos;ha pogut establir «SQL_ATTR_CURSOR_TYPE» com a atribut de la sentència. Comproveu la vostra configuració del controlador ODBC</translation>
     </message>
     <message>
         <source>Unable to fetch</source>
@@ -3527,11 +3627,11 @@ applications where you wish to use such applications in combination with softwar
     </message>
     <message>
         <source>Page order:</source>
-        <translation>Ordre de les pàgines:</translation>
+        <translation type="vanished">Ordre de les pàgines:</translation>
     </message>
     <message>
         <source>Pages per sheet:</source>
-        <translation>Pàgines per full:</translation>
+        <translation type="vanished">Pàgines per full:</translation>
     </message>
     <message>
         <source>Millimeters (mm)</source>
@@ -3590,6 +3690,14 @@ applications where you wish to use such applications in combination with softwar
         <source>CC</source>
         <extracomment>Unit &apos;Cicero&apos;</extracomment>
         <translation>CC</translation>
+    </message>
+    <message>
+        <source>Page &amp;order:</source>
+        <translation>&amp;Ordre de les pàgines:</translation>
+    </message>
+    <message>
+        <source>Pages &amp;per sheet:</source>
+        <translation>Pàgines &amp;per full:</translation>
     </message>
 </context>
 <context>
@@ -4319,6 +4427,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>%1%</source>
+        <extracomment>Zoom factor percentage value, % is the percent sign</extracomment>
         <translation>%1%</translation>
     </message>
     <message>
@@ -4472,7 +4581,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>Page Set:</source>
-        <translation>Disposició de la pàgina:</translation>
+        <translation type="vanished">Disposició de la pàgina:</translation>
     </message>
     <message>
         <source>Output Settings</source>
@@ -4545,6 +4654,10 @@ Desactiveu una de les dues opcions.</translation>
     <message>
         <source>Short side binding</source>
         <translation>Enquadernació per la vora curta</translation>
+    </message>
+    <message>
+        <source>Page &amp;Set:</source>
+        <translation>Di&amp;sposició de la pàgina:</translation>
     </message>
 </context>
 <context>
@@ -5369,23 +5482,23 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 2 top bits not 0x80</source>
-        <translation>error d&apos;UTF-8: els 2 bits més alts del byte no són 0x80</translation>
+        <translation>error d&apos;UTF-8: els 2 bits superiors del byte no són 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 3 top bits not 0x80</source>
-        <translation>error d&apos;UTF-8: els 3 bits més alts del byte no són 0x80</translation>
+        <translation>error d&apos;UTF-8: els 3 bits superiors del byte no són 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 4 top bits not 0x80</source>
-        <translation>error d&apos;UTF-8: els 4 bits més alts del byte no són 0x80</translation>
+        <translation>error d&apos;UTF-8: els 4 bits superiors del byte no són 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 5 top bits not 0x80</source>
-        <translation>error d&apos;UTF-8: els 5 bits més alts del byte no són 0x80</translation>
+        <translation>error d&apos;UTF-8: els 5 bits superiors del byte no són 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 6 top bits not 0x80</source>
-        <translation>error d&apos;UTF-8: els 6 bits més alts del byte no són 0x80</translation>
+        <translation>error d&apos;UTF-8: els 6 bits superiors del byte no són 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: 5-byte character is not allowed (RFC 3629)</source>
@@ -5574,6 +5687,10 @@ Desactiveu una de les dues opcions.</translation>
     <message>
         <source>PCRE2_MATCH_INVALID_UTF is not supported for DFA matching</source>
         <translation>no s&apos;admet PCRE2_MATCH_INVALID_UTF per a la coincidència DFA</translation>
+    </message>
+    <message>
+        <source>INTERNAL ERROR: invalid substring offset</source>
+        <translation>ERROR INTERN: desplaçament no vàlid de la subcadena</translation>
     </message>
     <message>
         <source>recursion limit exceeded</source>
@@ -6590,6 +6707,10 @@ Desactiveu una de les dues opcions.</translation>
         <translation>Abaixa el volum del micròfon</translation>
     </message>
     <message>
+        <source>Keyboard</source>
+        <translation>Teclat</translation>
+    </message>
+    <message>
         <source>New</source>
         <translation>Nou</translation>
     </message>
@@ -7064,9 +7185,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>frame</source>
-        <extracomment>Role of an accessible object: a window with frame and title
-----------
-Role of an accessible object</extracomment>
+        <extracomment>Role of an accessible object: a window with frame and title</extracomment>
         <translation>marc</translation>
     </message>
     <message>
@@ -7188,6 +7307,11 @@ Role of an accessible object</extracomment>
         <source>check box</source>
         <extracomment>Role of an accessible object</extracomment>
         <translation>casella de selecció</translation>
+    </message>
+    <message>
+        <source>switch</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>commutador</translation>
     </message>
     <message>
         <source>radio button</source>
@@ -7338,6 +7462,11 @@ Role of an accessible object</extracomment>
         <source>notification</source>
         <extracomment>Role of an accessible object</extracomment>
         <translation>notificació</translation>
+    </message>
+    <message>
+        <source>block quote</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>cita de bloc</translation>
     </message>
     <message>
         <source>unknown</source>
@@ -7711,6 +7840,10 @@ Role of an accessible object</extracomment>
         <translation>No s&apos;han pogut encriptar les dades</translation>
     </message>
     <message>
+        <source>The data could not be decrypted</source>
+        <translation>No s&apos;han pogut desencriptar les dades</translation>
+    </message>
+    <message>
         <source>No cipher suites in common</source>
         <translation>No hi ha cap xifra adequada en comú</translation>
     </message>
@@ -7736,15 +7869,15 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>The certificate provided cannot be used for a client.</source>
-        <translation>El certificat proporcionat no pot ser usat per un client.</translation>
+        <translation type="vanished">El certificat proporcionat no pot ser usat per un client.</translation>
     </message>
     <message>
         <source>The certificate provided cannot be used for a server.</source>
-        <translation>El certificat proporcionat no pot ser usat per un servidor.</translation>
+        <translation type="vanished">El certificat proporcionat no pot ser usat per un servidor.</translation>
     </message>
     <message>
         <source>Server did not accept any certificate we could present.</source>
-        <translation>El servidor no accepta qualsevol certificat que es pugui presentar.</translation>
+        <translation type="unfinished">El servidor no ha acceptat cap certificat que puguem presentar.</translation>
     </message>
     <message>
         <source>Algorithm mismatch</source>
@@ -7830,6 +7963,10 @@ Role of an accessible object</extracomment>
         <translation>Estat compartit</translation>
     </message>
     <message>
+        <source>Downloads</source>
+        <translation>Baixades</translation>
+    </message>
+    <message>
         <source>Application Configuration</source>
         <translation>Configuració d&apos;aplicació</translation>
     </message>
@@ -7867,7 +8004,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>Download</source>
-        <translation>Baixades</translation>
+        <translation type="vanished">Baixades</translation>
     </message>
     <message>
         <source>Temporary Items</source>
@@ -8373,6 +8510,10 @@ La versió mínima requerida del Direct2D és %1. La versió del Direct2D en aqu
         <translation>Contingut extra al final del document.</translation>
     </message>
     <message>
+        <source>Unexpected token while reading raw inner data.</source>
+        <translation>Testimoni inesperat mentre es llegien dades internes en brut.</translation>
+    </message>
+    <message>
         <source>Invalid entity value.</source>
         <translation>Valor d&apos;entitat no vàlid.</translation>
     </message>
@@ -8435,6 +8576,22 @@ La versió mínima requerida del Direct2D és %1. La versió del Direct2D en aqu
     <message>
         <source>Invalid attribute in XML declaration: %1 = %2</source>
         <translation>Atribut no vàlid a la declaració de l&apos;XML: %1 = %2</translation>
+    </message>
+    <message>
+        <source>An I/O error occurred while writing</source>
+        <translation>Hi ha hagut un error d&apos;E/S en escriure</translation>
+    </message>
+    <message>
+        <source>An encoding error occurred while writing</source>
+        <translation>Hi ha hagut un error de codificació en escriure</translation>
+    </message>
+    <message>
+        <source>Encountered an invalid XML 1.0 character while writing</source>
+        <translation>S&apos;ha trobat un caràcter XML 1.0 no vàlid en escriure</translation>
+    </message>
+    <message>
+        <source>An error occurred while writing</source>
+        <translation>Hi ha hagut un error en escriure</translation>
     </message>
     <message>
         <source>Unexpected token type %1 in %2.</source>
@@ -8812,6 +8969,2353 @@ La versió mínima requerida del Direct2D és %1. La versió del Direct2D en aqu
     <message>
         <source>Could not roll back transaction</source>
         <translation>La transacció no ha pogut desfer-se</translation>
+    </message>
+</context>
+<context>
+    <name>QMimeType</name>
+    <message>
+        <source>Empty document</source>
+        <extracomment>application/x-zerosize</extracomment>
+        <translation>document buit</translation>
+    </message>
+    <message>
+        <source>Desktop file</source>
+        <extracomment>application/x-desktop</extracomment>
+        <translation>fitxer «desktop»</translation>
+    </message>
+    <message>
+        <source>Qt Markup Language file</source>
+        <extracomment>text/x-qml</extracomment>
+        <translation>fitxer de llenguatge de marcatge de Qt</translation>
+    </message>
+    <message>
+        <source>Compressed postscript</source>
+        <extracomment>application/x-gzpostscript</extracomment>
+        <translation>Postscript comprimit</translation>
+    </message>
+    <message>
+        <source>Core dump</source>
+        <extracomment>application/x-core</extracomment>
+        <translation>bolcat de nucli</translation>
+    </message>
+    <message>
+        <source>BZip2 compressed tar file</source>
+        <extracomment>application/x-bzip2-compressed-tar</extracomment>
+        <translation>fitxer «tar» comprimit amb BZip2</translation>
+    </message>
+    <message>
+        <source>Directory</source>
+        <extracomment>inode/directory</extracomment>
+        <translation>directori</translation>
+    </message>
+    <message>
+        <source>Windows Batch / Command File</source>
+        <extracomment>application/x-bat</extracomment>
+        <translation>fitxer de lots / ordres de Windows</translation>
+    </message>
+    <message>
+        <source>BizAgi Process Modeler</source>
+        <extracomment>application/bizagi-modeler</extracomment>
+        <translation>modelador de processos BizAgi</translation>
+    </message>
+    <message>
+        <source>Concise Binary Object Representation container</source>
+        <extracomment>application/cbor</extracomment>
+        <translation>contenidor de representació concisa d&apos;objectes binaris</translation>
+    </message>
+    <message>
+        <source>CorelDraw</source>
+        <extracomment>application/coreldraw</extracomment>
+        <translation>CorelDraw</translation>
+    </message>
+    <message>
+        <source>DICOM medical imaging data</source>
+        <extracomment>application/dicom</extracomment>
+        <translation>dades d&apos;imatges mèdiques DICOM</translation>
+    </message>
+    <message>
+        <source>Darwin Information Typing Architecture</source>
+        <extracomment>application/dita+xml</extracomment>
+        <translation>arquitectura Darwin de transcripció d&apos;informació</translation>
+    </message>
+    <message>
+        <source>DVD information file</source>
+        <extracomment>application/x-dvd-ifo</extracomment>
+        <translation>fitxer d&apos;informació de DVD</translation>
+    </message>
+    <message>
+        <source>EBU-STL subtitles</source>
+        <extracomment>application/x-ebu-stl</extracomment>
+        <translation>subtítols EBU-STL</translation>
+    </message>
+    <message>
+        <source>Electronic Publication</source>
+        <extracomment>application/epub+zip</extracomment>
+        <translation>publicació electrònica</translation>
+    </message>
+    <message>
+        <source>Flexible Image Transport System</source>
+        <extracomment>application/fits</extracomment>
+        <translation>sistema flexible de transport d&apos;imatges</translation>
+    </message>
+    <message>
+        <source>Adobe Illustrator Artwork</source>
+        <extracomment>application/illustrator</extracomment>
+        <translation>Illustrator Artwork d&apos;Adobe</translation>
+    </message>
+    <message>
+        <source>Adobe Illustrator Artwork -- the older postscript based AI files</source>
+        <extracomment>application/illustrator+ps</extracomment>
+        <translation>Illustrator Artwork d&apos;Adobe -- fitxers antics d&apos;IA basats en postscript</translation>
+    </message>
+    <message>
+        <source>Windows setup INFormation</source>
+        <extracomment>application/inf</extracomment>
+        <translation>INFormació de configuració de Windows</translation>
+    </message>
+    <message>
+        <source>Java Archive</source>
+        <extracomment>application/java-archive</extracomment>
+        <translation>arxiu Java</translation>
+    </message>
+    <message>
+        <source>JavaScript Source Code</source>
+        <extracomment>text/javascript</extracomment>
+        <translation>codi font de JavaScript</translation>
+    </message>
+    <message>
+        <source>Web Application Manifest file</source>
+        <extracomment>application/manifest+json</extracomment>
+        <translation>fitxer de manifest d&apos;aplicació web</translation>
+    </message>
+    <message>
+        <source>Java Class File</source>
+        <extracomment>application/java-vm</extracomment>
+        <translation>fitxers de classe Java</translation>
+    </message>
+    <message>
+        <source>Mach-O Universal</source>
+        <extracomment>application/x-mach-o-universal</extracomment>
+        <translation>Mach-O Universal</translation>
+    </message>
+    <message>
+        <source>Java Native Library for OSX</source>
+        <extracomment>application/x-java-jnilib</extracomment>
+        <translation>biblioteca nativa de Java d&apos;OSX</translation>
+    </message>
+    <message>
+        <source>Java hprof text file</source>
+        <extracomment>application/vnd.java.hprof 
+----------
+application/vnd.java.hprof.text</extracomment>
+        <translation>fitxer de text «hprof» de Java</translation>
+    </message>
+    <message>
+        <source>Wolfram Mathematica</source>
+        <extracomment>application/mathematica</extracomment>
+        <translation>Mathematica de Wolfram</translation>
+    </message>
+    <message>
+        <source>Wolfram Language</source>
+        <extracomment>application/vnd.wolfram.wl</extracomment>
+        <translation>llenguatge Wolfram</translation>
+    </message>
+    <message>
+        <source>Adobe MIF File</source>
+        <extracomment>application/vnd.mif</extracomment>
+        <translation>fitxer MIF d&apos;Adobe</translation>
+    </message>
+    <message>
+        <source>QuickTime container format</source>
+        <extracomment>application/quicktime</extracomment>
+        <translation>format de contenidor QuickTime</translation>
+    </message>
+    <message>
+        <source>MP4 container format</source>
+        <extracomment>application/mp4</extracomment>
+        <translation>format de contenidor MP4</translation>
+    </message>
+    <message>
+        <source>Microsoft Word Document</source>
+        <extracomment>application/msword</extracomment>
+        <translation>document de Microsoft Word</translation>
+    </message>
+    <message>
+        <source>Microsoft Word 2 Document</source>
+        <extracomment>application/msword2</extracomment>
+        <translation>document de Microsoft Word 2</translation>
+    </message>
+    <message>
+        <source>Microsoft Word 5 Document</source>
+        <extracomment>application/msword5</extracomment>
+        <translation>document de Microsoft Word 5</translation>
+    </message>
+    <message>
+        <source>OneNote Package</source>
+        <extracomment>application/onenote; format=package</extracomment>
+        <translation>paquet OneNote</translation>
+    </message>
+    <message>
+        <source>Portable Document Format</source>
+        <extracomment>application/pdf</extracomment>
+        <translation>format de document portable</translation>
+    </message>
+    <message>
+        <source>PostScript</source>
+        <extracomment>application/postscript</extracomment>
+        <translation>PostScript</translation>
+    </message>
+    <message>
+        <source>Excel 2003 xml format, pre-ooxml</source>
+        <extracomment>application/vnd.ms-spreadsheetml</extracomment>
+        <translation>format XML d&apos;Excel 2003, pre-ooxml</translation>
+    </message>
+    <message>
+        <source>Word 2003 xml format, pre-ooxml</source>
+        <extracomment>application/vnd.ms-wordml</extracomment>
+        <translation>format XML de Word 2003, pre-ooxml</translation>
+    </message>
+    <message>
+        <source>Word 2006 xml format, pre-ooxml</source>
+        <extracomment>application/vnd.ms-word2006ml</extracomment>
+        <translation>format XML de Word 2006, pre-ooxml</translation>
+    </message>
+    <message>
+        <source>XML syntax for RDF graphs</source>
+        <extracomment>application/rdf+xml</extracomment>
+        <translation>sintaxi XML per a gràfics RDF</translation>
+    </message>
+    <message>
+        <source>Rich Text Format File</source>
+        <extracomment>application/rtf</extracomment>
+        <translation>fitxer de format de text enriquit</translation>
+    </message>
+    <message>
+        <source>Sereal binary serialization format</source>
+        <extracomment>application/sereal</extracomment>
+        <translation>format de serialització binari Sereal</translation>
+    </message>
+    <message>
+        <source>SMIL Multimedia</source>
+        <extracomment>application/smil+xml</extracomment>
+        <translation>multimèdia SMIL</translation>
+    </message>
+    <message>
+        <source>SolidWorks CAD program</source>
+        <extracomment>application/sldworks</extracomment>
+        <translation>programa CAD de SolidWorks</translation>
+    </message>
+    <message>
+        <source>Password Protected iWorks File</source>
+        <extracomment>application/x-tika-iworks-protected</extracomment>
+        <translation>fitxer iWorks protegit amb contrasenya</translation>
+    </message>
+    <message>
+        <source>web archive frictionless zip</source>
+        <extracomment>application/x-wacz</extracomment>
+        <translation>zip frictionless d&apos;arxiu web</translation>
+    </message>
+    <message>
+        <source>frictionless data package zip package</source>
+        <extracomment>application/x-vnd.datapackage+zip</extracomment>
+        <translation>paquet zip de paquet de dades frictionless</translation>
+    </message>
+    <message>
+        <source>frictionless data package - standalong datapackage.json</source>
+        <extracomment>application/x-vnd.datapackage+json</extracomment>
+        <translation>paquet de dades frictionless - datapackage.json autònom</translation>
+    </message>
+    <message>
+        <source>frictionless data package - gzip of standalone datapackage.json</source>
+        <extracomment>application/x-vnd.datapackage+gz</extracomment>
+        <translation>paquet de dades frictionless - gzip de datapackage.json autònom</translation>
+    </message>
+    <message>
+        <source>digilite.eu Prolights configuration file</source>
+        <extracomment>application/vnd.digilite.prolights</extracomment>
+        <translation>fitxer de configuració Prolights de digilite.eu</translation>
+    </message>
+    <message>
+        <source>Extended Associated Signature Container</source>
+        <extracomment>application/vnd.etsi.asic-e+zip</extracomment>
+        <translation>contenidor de signatura associada ampliada</translation>
+    </message>
+    <message>
+        <source>Simple Associated Signature Container</source>
+        <extracomment>application/vnd.etsi.asic-s+zip</extracomment>
+        <translation>contenidor de signatura associada simple</translation>
+    </message>
+    <message>
+        <source>Forms Data Format</source>
+        <extracomment>application/vnd.fdf</extracomment>
+        <translation>format de dades Forms</translation>
+    </message>
+    <message>
+        <source>Keyhole Markup Language</source>
+        <extracomment>application/vnd.google-earth.kml+xml</extracomment>
+        <translation>llenguatge de marcatge Keyhole</translation>
+    </message>
+    <message>
+        <source>XML syntax for IPTC NewsMessages</source>
+        <extracomment>application/vnd.iptc.g2.newsmessage+xml</extracomment>
+        <translation>sintaxi XML per a IPTC NewsMessages</translation>
+    </message>
+    <message>
+        <source>KChart File</source>
+        <extracomment>application/vnd.kde.kchart</extracomment>
+        <translation>fitxer de KChart</translation>
+    </message>
+    <message>
+        <source>KPresenter File</source>
+        <extracomment>application/vnd.kde.kpresenter</extracomment>
+        <translation>fitxer de KPresenter</translation>
+    </message>
+    <message>
+        <source>KSpread File</source>
+        <extracomment>application/vnd.kde.kspread</extracomment>
+        <translation>fitxer de KSpread</translation>
+    </message>
+    <message>
+        <source>KWord File</source>
+        <extracomment>application/vnd.kde.kword</extracomment>
+        <translation>fitxer de KWord</translation>
+    </message>
+    <message>
+        <source>SSEYO Koan File</source>
+        <extracomment>application/vnd.koan</extracomment>
+        <translation>fitxer SSEYO Koan</translation>
+    </message>
+    <message>
+        <source>Lotus 1-2-3</source>
+        <extracomment>application/vnd.lotus-1-2-3</extracomment>
+        <translation>Lotus 1-2-3</translation>
+    </message>
+    <message>
+        <source>Lotus 1-2-3, version 1</source>
+        <extracomment>application/vnd.lotus-1-2-3;version=1</extracomment>
+        <translation>Lotus 1-2-3, versió 1</translation>
+    </message>
+    <message>
+        <source>Lotus 1-2-3, version 2</source>
+        <extracomment>application/vnd.lotus-1-2-3;version=2</extracomment>
+        <translation>Lotus 1-2-3, versió 2</translation>
+    </message>
+    <message>
+        <source>Lotus 1-2-3, version 3</source>
+        <extracomment>application/vnd.lotus-1-2-3;version=3</extracomment>
+        <translation>Lotus 1-2-3, versió 3</translation>
+    </message>
+    <message>
+        <source>Lotus 1-2-3, version 4-5</source>
+        <extracomment>application/vnd.lotus-1-2-3;version=4</extracomment>
+        <translation>Lotus 1-2-3, versió 4-5</translation>
+    </message>
+    <message>
+        <source>Lotus 1-2-3, version 97/9.x</source>
+        <extracomment>application/vnd.lotus-1-2-3;version=97+9.x</extracomment>
+        <translation>Lotus 1-2-3, versió 97/9.x</translation>
+    </message>
+    <message>
+        <source>FrameMaker Interchange Format</source>
+        <extracomment>application/vnd.mif</extracomment>
+        <translation>format d&apos;intercanvi de FrameMaker</translation>
+    </message>
+    <message>
+        <source>MindManager</source>
+        <extracomment>application/vnd.mindjet.mindmanager</extracomment>
+        <translation>MindManager</translation>
+    </message>
+    <message>
+        <source>Microsoft Excel Spreadsheet</source>
+        <extracomment>application/vnd.ms-excel</extracomment>
+        <translation>full de càlcul de Microsoft Excel</translation>
+    </message>
+    <message>
+        <source>Office Open XML Workbook Add-in (macro-enabled)</source>
+        <extracomment>application/vnd.ms-excel.addin.macroenabled.12</extracomment>
+        <translation>complement de llibre de treball d&apos;Office Open XML (amb macros)</translation>
+    </message>
+    <message>
+        <source>Office Open XML Workbook (macro-enabled)</source>
+        <extracomment>application/vnd.ms-excel.sheet.macroenabled.12</extracomment>
+        <translation>llibre de treball d&apos;Office Open XML (amb macros)</translation>
+    </message>
+    <message>
+        <source>Microsoft Excel 2007 Binary Spreadsheet</source>
+        <extracomment>application/vnd.ms-excel.sheet.binary.macroenabled.12</extracomment>
+        <translation>full de càlcul binari de Microsoft Excel 2007</translation>
+    </message>
+    <message>
+        <source>Microsoft Excel 4 Worksheet</source>
+        <extracomment>application/vnd.ms-excel.sheet.4</extracomment>
+        <translation>full de treball de Microsoft Excel 4</translation>
+    </message>
+    <message>
+        <source>Microsoft Excel 4 Workspace</source>
+        <extracomment>application/vnd.ms-excel.workspace.4</extracomment>
+        <translation>espai de treball de Microsoft Excel 4</translation>
+    </message>
+    <message>
+        <source>Microsoft Excel 3 Worksheet</source>
+        <extracomment>application/vnd.ms-excel.sheet.3</extracomment>
+        <translation>full de treball de Microsoft Excel 3</translation>
+    </message>
+    <message>
+        <source>Microsoft Excel 3 Workspace</source>
+        <extracomment>application/vnd.ms-excel.workspace.3</extracomment>
+        <translation>espai de treball de Microsoft Excel 3</translation>
+    </message>
+    <message>
+        <source>Microsoft Excel 2 Worksheet</source>
+        <extracomment>application/vnd.ms-excel.sheet.2</extracomment>
+        <translation>full de treball de Microsoft Excel 2</translation>
+    </message>
+    <message>
+        <source>Microsoft Outlook Message</source>
+        <extracomment>application/vnd.ms-outlook</extracomment>
+        <translation>missatge de Microsoft Outlook</translation>
+    </message>
+    <message>
+        <source>Outlook Personal Folders File Format</source>
+        <extracomment>application/vnd.ms-outlook-pst</extracomment>
+        <translation>format de fitxer de carpetes personals d&apos;Outlook</translation>
+    </message>
+    <message>
+        <source>3D manufacturing format</source>
+        <extracomment>application/vnd.ms-package.3dmanufacturing-3dmodel+xml</extracomment>
+        <translation>format de manufactura 3D</translation>
+    </message>
+    <message>
+        <source>Microsoft Powerpoint Presentation</source>
+        <extracomment>application/vnd.ms-powerpoint</extracomment>
+        <translation>presentació de Microsoft Powerpoint</translation>
+    </message>
+    <message>
+        <source>Office Open XML Presentation Add-in (macro-enabled)</source>
+        <extracomment>application/vnd.ms-powerpoint.addin.macroenabled.12</extracomment>
+        <translation>complement de presentació d&apos;Office Open XML (amb macros)</translation>
+    </message>
+    <message>
+        <source>Office Open XML Presentation (macro-enabled)</source>
+        <extracomment>application/vnd.ms-powerpoint.presentation.macroenabled.12</extracomment>
+        <translation>presentació d&apos;Office Open XML (amb macros)</translation>
+    </message>
+    <message>
+        <source>Office Open XML Presentation Slideshow (macro-enabled)</source>
+        <extracomment>application/vnd.ms-powerpoint.slideshow.macroenabled.12</extracomment>
+        <translation>presentació de diapositives de presentació d&apos;Office Open XML (amb macros)</translation>
+    </message>
+    <message>
+        <source>Office Open XML Document (macro-enabled)</source>
+        <extracomment>application/vnd.ms-word.document.macroenabled.12</extracomment>
+        <translation>document d&apos;Office d&apos;Open XML (amb macros)</translation>
+    </message>
+    <message>
+        <source>Office Open XML Document Template (macro-enabled)</source>
+        <extracomment>application/vnd.ms-word.template.macroenabled.12</extracomment>
+        <translation>plantilla de document d&apos;Office Open XML (amb macros)</translation>
+    </message>
+    <message>
+        <source>Open XML Paper Specification</source>
+        <extracomment>application/vnd.ms-xpsdocument</extracomment>
+        <translation>especificació d&apos;article d&apos;Open XML</translation>
+    </message>
+    <message>
+        <source>Magic Shadow Archiver</source>
+        <extracomment>application/vnd.msa-disk-image</extracomment>
+        <translation>arxivador Magic Shadow</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Chart document</source>
+        <extracomment>application/vnd.oasis.opendocument.chart</extracomment>
+        <translation>OpenDocument v1.0: document de diagrama</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Chart document used as template</source>
+        <extracomment>application/vnd.oasis.opendocument.chart-template</extracomment>
+        <translation>OpenDocument v1.0: document de diagrama utilitzat com a plantilla</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Formula document</source>
+        <extracomment>application/vnd.oasis.opendocument.formula</extracomment>
+        <translation>OpenDocument v1.0: document de fórmula</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Formula document used as template</source>
+        <extracomment>application/vnd.oasis.opendocument.formula-template</extracomment>
+        <translation>OpenDocument v1.0: document de fórmula utilitzat com a plantilla</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Graphics document (Drawing)</source>
+        <extracomment>application/vnd.oasis.opendocument.graphics</extracomment>
+        <translation>OpenDocument v1.0: document de gràfic (Drawing)</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Graphics document used as template</source>
+        <extracomment>application/vnd.oasis.opendocument.graphics-template</extracomment>
+        <translation>OpenDocument v1.0: document de gràfic utilitzat com a plantilla</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Image document</source>
+        <extracomment>application/vnd.oasis.opendocument.image</extracomment>
+        <translation>OpenDocument v1.0: document d&apos;imatge</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Image document used as template</source>
+        <extracomment>application/vnd.oasis.opendocument.image-template</extracomment>
+        <translation>OpenDocument v1.0: document d&apos;imatge utilitzat com a plantilla</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Presentation document</source>
+        <extracomment>application/vnd.oasis.opendocument.presentation</extracomment>
+        <translation>OpenDocument v1.0: document de presentació</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Presentation document used as template</source>
+        <extracomment>application/vnd.oasis.opendocument.presentation-template</extracomment>
+        <translation>OpenDocument v1.0: document de presentació utilitzat com a plantilla</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Spreadsheet document</source>
+        <extracomment>application/vnd.oasis.opendocument.spreadsheet</extracomment>
+        <translation>OpenDocument v1.0: document de full de càlcul</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Spreadsheet document used as template</source>
+        <extracomment>application/vnd.oasis.opendocument.spreadsheet-template</extracomment>
+        <translation>OpenDocument v1.0: document de full de càlcul utilitzat com a plantilla</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Text document</source>
+        <extracomment>application/vnd.oasis.opendocument.text</extracomment>
+        <translation>OpenDocument v1.0: document de text</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Flat Text document</source>
+        <extracomment>application/vnd.oasis.opendocument.tika.flat.document
+----------
+application/vnd.oasis.opendocument.flat.text</extracomment>
+        <translation>OpenDocument v1.0: document de text pla</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Flat Presentation document</source>
+        <extracomment>application/vnd.oasis.opendocument.flat.presentation</extracomment>
+        <translation>OpenDocument v1.0: document de presentació pla</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Flat Spreadsheet document</source>
+        <extracomment>application/vnd.oasis.opendocument.flat.spreadsheet</extracomment>
+        <translation>OpenDocument v1.0: document de full de càlcul pla</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Global Text document</source>
+        <extracomment>application/vnd.oasis.opendocument.text-master</extracomment>
+        <translation>OpenDocument v1.0: document de text global</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Text document used as template</source>
+        <extracomment>application/vnd.oasis.opendocument.text-template</extracomment>
+        <translation>OpenDocument v1.0: document de text utilitzat com a plantilla</translation>
+    </message>
+    <message>
+        <source>OpenDocument v1.0: Text document used as template for HTML documents</source>
+        <extracomment>application/vnd.oasis.opendocument.text-web</extracomment>
+        <translation>OpenDocument v1.0: document de text utilitzat com a plantilla per a documents HTML</translation>
+    </message>
+    <message>
+        <source>Office Open XML Presentation</source>
+        <extracomment>application/vnd.openxmlformats-officedocument.presentationml.presentation</extracomment>
+        <translation>presentació d&apos;Office Open XML</translation>
+    </message>
+    <message>
+        <source>Office Open XML Presentation Template</source>
+        <extracomment>application/vnd.openxmlformats-officedocument.presentationml.template</extracomment>
+        <translation>plantilla de presentació d&apos;Office Open XML</translation>
+    </message>
+    <message>
+        <source>Office Open XML Presentation Slideshow</source>
+        <extracomment>application/vnd.openxmlformats-officedocument.presentationml.slideshow</extracomment>
+        <translation>presentació de diapositives de presentació d&apos;Office Open XML</translation>
+    </message>
+    <message>
+        <source>Office Open XML Workbook</source>
+        <extracomment>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</extracomment>
+        <translation>llibre de treball Office d&apos;Open XML</translation>
+    </message>
+    <message>
+        <source>Office Open XML Workbook Template</source>
+        <extracomment>application/vnd.openxmlformats-officedocument.spreadsheetml.template</extracomment>
+        <translation>plantilla de llibre de treball d&apos;Office Open XML</translation>
+    </message>
+    <message>
+        <source>Office Open XML Workbook Template (macro-enabled)</source>
+        <extracomment>application/vnd.ms-excel.template.macroenabled.12</extracomment>
+        <translation>plantilla de llibre de treball d&apos;Office Open XML (amb macros)</translation>
+    </message>
+    <message>
+        <source>Office Open XML Document</source>
+        <extracomment>application/vnd.openxmlformats-officedocument.wordprocessingml.document</extracomment>
+        <translation>document d&apos;Office Open XML</translation>
+    </message>
+    <message>
+        <source>Office Open XML Document Template</source>
+        <extracomment>application/vnd.openxmlformats-officedocument.wordprocessingml.template</extracomment>
+        <translation>plantilla de document d&apos;Office Open XML</translation>
+    </message>
+    <message>
+        <source>SubRip (srt) subtitles</source>
+        <extracomment>application/x-subrip</extracomment>
+        <translation>subtítols SubRip (srt)</translation>
+    </message>
+    <message>
+        <source>OpenOffice v1.0: Writer Document</source>
+        <extracomment>application/vnd.sun.xml.writer</extracomment>
+        <translation>OpenDocument v1.0: document de Writer</translation>
+    </message>
+    <message>
+        <source>TCPDump pcap packet capture</source>
+        <extracomment>application/vnd.tcpdump.pcap</extracomment>
+        <translation>captura de paquet «pcap» de TCPDump</translation>
+    </message>
+    <message>
+        <source>TCPDump next gen pcap packet capture</source>
+        <extracomment>application/vnd.tcpdump.pcapng</extracomment>
+        <translation>captura de paquet «pcap» de TCPDump «next gen»</translation>
+    </message>
+    <message>
+        <source>TMX Translation Memory</source>
+        <extracomment>application/x-tmx</extracomment>
+        <translation>memòria de traducció TMX</translation>
+    </message>
+    <message>
+        <source>Microsoft Visio Diagram</source>
+        <extracomment>application/vnd.visio</extracomment>
+        <translation>diagrama de Microsoft Visio</translation>
+    </message>
+    <message>
+        <source>Office Open XML Visio Drawing (macro-free)</source>
+        <extracomment>application/vnd.ms-visio.drawing</extracomment>
+        <translation>dibuix d&apos;Office Open XML Visio (sense macros)</translation>
+    </message>
+    <message>
+        <source>Office Open XML Visio Template (macro-free)</source>
+        <extracomment>application/vnd.ms-visio.template</extracomment>
+        <translation>plantilla d&apos;Office Open XML Visio (sense macros)</translation>
+    </message>
+    <message>
+        <source>Office Open XML Visio Stencil (macro-free)</source>
+        <extracomment>application/vnd.ms-visio.stencil</extracomment>
+        <translation>trepa d&apos;Office Open XML Visio (sense macros)</translation>
+    </message>
+    <message>
+        <source>Office Open XML Visio Drawing (macro-enabled)</source>
+        <extracomment>application/vnd.ms-visio.drawing.macroEnabled.12</extracomment>
+        <translation>dibuix d&apos;Office Open XML Visio (amb macros)</translation>
+    </message>
+    <message>
+        <source>Office Open XML Visio Template (macro-enabled)</source>
+        <extracomment>application/vnd.ms-visio.template.macroEnabled.12</extracomment>
+        <translation>plantilla d&apos;Office Open XML Visio (amb macros)</translation>
+    </message>
+    <message>
+        <source>Office Open XML Visio Stencil (macro-enabled)</source>
+        <extracomment>application/vnd.ms-visio.stencil.macroEnabled.12</extracomment>
+        <translation>trepa d&apos;Office Open XML Visio (amb macros)</translation>
+    </message>
+    <message>
+        <source>Compiled WML Document</source>
+        <extracomment>application/vnd.wap.wmlc</extracomment>
+        <translation>document WML compilat</translation>
+    </message>
+    <message>
+        <source>Compiled WML Script</source>
+        <extracomment>application/vnd.wap.wmlscriptc</extracomment>
+        <translation>script WML compilat</translation>
+    </message>
+    <message>
+        <source>WordPerfect - Corel Word Processing</source>
+        <extracomment>application/vnd.wordperfect</extracomment>
+        <translation>WordPerfect - Corel Word Processing</translation>
+    </message>
+    <message>
+        <source>WARC</source>
+        <extracomment>application/warc
+----------
+application/warc+gz</extracomment>
+        <translation>WARC</translation>
+    </message>
+    <message>
+        <source>Web Assembly</source>
+        <extracomment>application/wasm</extracomment>
+        <translation>Web Assembly</translation>
+    </message>
+    <message>
+        <source>Targa image data</source>
+        <extracomment>image/x-tga</extracomment>
+        <translation>dades d&apos;imatge Targa</translation>
+    </message>
+    <message>
+        <source>AxCrypt</source>
+        <extracomment>application/x-axcrypt</extracomment>
+        <translation>AxCrypt</translation>
+    </message>
+    <message>
+        <source>Adobe InDesign document</source>
+        <extracomment>application/x-adobe-indesign</extracomment>
+        <translation>document d&apos;Adobe InDesign</translation>
+    </message>
+    <message>
+        <source>Flow Cytometry Standard File</source>
+        <extracomment>application/vnd.isac.fcs</extracomment>
+        <translation>fitxer estàndard Flow Cytometry</translation>
+    </message>
+    <message>
+        <source>IDML</source>
+        <extracomment>application/vnd.adobe.indesign-idml-package</extracomment>
+        <translation>IDML</translation>
+    </message>
+    <message>
+        <source>Adobe InDesign Interchange format</source>
+        <extracomment>application/x-adobe-indesign-interchange</extracomment>
+        <translation>format d&apos;intercanvi d&apos;Adobe InDesign</translation>
+    </message>
+    <message>
+        <source>ASPRS Lidar Data Exchange Format</source>
+        <extracomment>application/x-asprs</extracomment>
+        <translation>format d&apos;intercanvi de dades Lidar d&apos;ASPRS</translation>
+    </message>
+    <message>
+        <source>Berkeley DB</source>
+        <extracomment>application/x-berkeley-db</extracomment>
+        <translation>Berkeley DB</translation>
+    </message>
+    <message>
+        <source>CD Audio</source>
+        <extracomment>application/x-cdf</extracomment>
+        <translation>CD d&apos;àudio</translation>
+    </message>
+    <message>
+        <source>GNU tar Compressed File Archive (GNU Tape Archive)</source>
+        <extracomment>application/x-gtar</extracomment>
+        <translation>arxiu de fitxer comprimit «tar» de GNU (arxiu de cinta GNU)</translation>
+    </message>
+    <message>
+        <source>Guitar Pro</source>
+        <extracomment>application/x-guitar-pro</extracomment>
+        <translation>Guitar Pro</translation>
+    </message>
+    <message>
+        <source>Amiga Disk File</source>
+        <extracomment>application/x-amiga-disk-format</extracomment>
+        <translation>fitxer de disc Amiga</translation>
+    </message>
+    <message>
+        <source>Bzip 2 UNIX Compressed File</source>
+        <extracomment>application/x-bzip2</extracomment>
+        <translation>fitxer comprimit Bzip 2 d&apos;UNIX</translation>
+    </message>
+    <message>
+        <source>Virtual CD-ROM CD Image File</source>
+        <extracomment>application/x-cdlink</extracomment>
+        <translation>fitxer d&apos;imatge de CD de CD-ROM virtual</translation>
+    </message>
+    <message>
+        <source>Chrome Extension Package</source>
+        <extracomment>application/x-chrome-package</extracomment>
+        <translation>paquet d&apos;extensió de Chrome</translation>
+    </message>
+    <message>
+        <source>UNIX CPIO Archive</source>
+        <extracomment>application/x-cpio</extracomment>
+        <translation>arxiu CPIO d&apos;UNIX</translation>
+    </message>
+    <message>
+        <source>Dalvik Executable Format</source>
+        <extracomment>application/x-dex</extracomment>
+        <translation>format executable Dalvik</translation>
+    </message>
+    <message>
+        <source>Shockwave Movie</source>
+        <extracomment>application/x-director</extracomment>
+        <translation>pel·licula Shockwave</translation>
+    </message>
+    <message>
+        <source>TeX Device Independent Document</source>
+        <extracomment>application/x-dvi</extracomment>
+        <translation>document TeX independent de dispositiu</translation>
+    </message>
+    <message>
+        <source>Emacs Lisp bytecode</source>
+        <extracomment>application/x-elc</extracomment>
+        <translation>codi de bytes Lisp d&apos;Emacs</translation>
+    </message>
+    <message>
+        <source>fat disk image; extensions: ima, img, dsk</source>
+        <extracomment>application/x-fat-diskimage</extracomment>
+        <translation>imatge de disk FAT; extensions: ima, img, dsk</translation>
+    </message>
+    <message>
+        <source>KIllustrator File</source>
+        <extracomment>application/x-killustrator</extracomment>
+        <translation>fitxer de KIllustrator</translation>
+    </message>
+    <message>
+        <source>Modified Maximum Method Digisonde Portable Sounder File format</source>
+        <extracomment>application/x-mmm-digisonde</extracomment>
+        <translation>format de fitxer Sounder portable amb el mètode màxim modificat</translation>
+    </message>
+    <message>
+        <source>DOS/Windows executable (EXE)</source>
+        <extracomment>application/x-dosexec</extracomment>
+        <translation>executable DOS/Windows (EXE)</translation>
+    </message>
+    <message>
+        <source>FileMaker Pro 7</source>
+        <extracomment>application/x-filemaker</extracomment>
+        <translation>FileMaker Pro 7</translation>
+    </message>
+    <message>
+        <source>OpenType Font</source>
+        <extracomment>application/x-font-otf</extracomment>
+        <translation>OpenType Font</translation>
+    </message>
+    <message>
+        <source>TrueType Font</source>
+        <extracomment>application/x-font-ttf</extracomment>
+        <translation>TrueType Font</translation>
+    </message>
+    <message>
+        <source>Adobe Font Metric</source>
+        <extracomment>application/x-font-adobe-metric</extracomment>
+        <translation>Adobe Font Metric</translation>
+    </message>
+    <message>
+        <source>Printer Font Metric</source>
+        <extracomment>application/x-font-printer-metric</extracomment>
+        <translation>Printer Font Metric</translation>
+    </message>
+    <message>
+        <source>Foxmail Email File</source>
+        <extracomment>application/x-foxmail</extracomment>
+        <translation>fitxer de correu electrònic Foxmail</translation>
+    </message>
+    <message>
+        <source>Macromedia FutureSplash File</source>
+        <extracomment>application/x-futuresplash</extracomment>
+        <translation>fitxer Macromedia FutureSplash</translation>
+    </message>
+    <message>
+        <source>General Regularly-distributed Information in Binary form</source>
+        <extracomment>application/x-grib</extracomment>
+        <translation>informació general distribuïda normalment en forma binària</translation>
+    </message>
+    <message>
+        <source>Gzip Compressed Archive</source>
+        <extracomment>application/gzip</extracomment>
+        <translation>arxiu comprimit Gzip</translation>
+    </message>
+    <message>
+        <source>https://en.wikipedia.org/wiki/Zstandard</source>
+        <extracomment>application/zstd</extracomment>
+        <translation>https://en.wikipedia.org/wiki/Zstandard</translation>
+    </message>
+    <message>
+        <source>ESRI Layer file</source>
+        <extracomment>application/x-esri-layer</extracomment>
+        <translation>fitxer de capa ESRI</translation>
+    </message>
+    <message>
+        <source>Hierarchical Data Format File</source>
+        <extracomment>application/x-hdf</extracomment>
+        <translation>fitxer de format de dades jeràrquic</translation>
+    </message>
+    <message>
+        <source>Hangul Word Processor File</source>
+        <extracomment>application/x-hwp</extracomment>
+        <translation>fitxer Hangul Word Processor</translation>
+    </message>
+    <message>
+        <source>Hangul Word Processor File v5</source>
+        <extracomment>application/x-hwp-v5</extracomment>
+        <translation>fitxer Hangul Word Processor v5</translation>
+    </message>
+    <message>
+        <source>Hangul Word Processor File, zip based</source>
+        <extracomment>application/hwp+zip</extracomment>
+        <translation>fitxer Hangul Word Processor, basat en zip</translation>
+    </message>
+    <message>
+        <source>Apple iBooks Author publication format</source>
+        <extracomment>application/x-ibooks+zip</extracomment>
+        <translation>format de publicació iBooks Author d&apos;Apple</translation>
+    </message>
+    <message>
+        <source>NV5 Geospatial Interactive Data Language Save File</source>
+        <extracomment>application/x-idl-save-file</extracomment>
+        <translation>fitxer desat de llenguatge de dades interactives geoespacials NV5</translation>
+    </message>
+    <message>
+        <source>ARC</source>
+        <extracomment>application/x-internet-archive</extracomment>
+        <translation>ARC</translation>
+    </message>
+    <message>
+        <source>ISA-Tab Investigation file</source>
+        <extracomment>application/x-isatab-investigation</extracomment>
+        <translation>fitxers d&apos;investigació ISA-Tab</translation>
+    </message>
+    <message>
+        <source>ISA-Tab Study file</source>
+        <extracomment>application/x-isatab</extracomment>
+        <translation>fitxers d&apos;estudi ISA-Tab</translation>
+    </message>
+    <message>
+        <source>ISA-Tab Assay file</source>
+        <extracomment>application/x-isatab-assay</extracomment>
+        <translation>fitxers d&apos;assaig ISA-Tab</translation>
+    </message>
+    <message>
+        <source>ISO 9660 CD-ROM filesystem data</source>
+        <extracomment>application/x-iso9660-image</extracomment>
+        <translation>dades de sistema de fitxers de CD-ROM ISO 9660</translation>
+    </message>
+    <message>
+        <source>Apple iTunes Binary Property List</source>
+        <extracomment>application/x-itunes-bplist</extracomment>
+        <translation>llista de propietats binària iTunes d&apos;Apple</translation>
+    </message>
+    <message>
+        <source>Apple iOS IPA AppStore file</source>
+        <extracomment>application/x-itunes-ipa</extracomment>
+        <translation>fitxers d&apos;AppStore iOS IPA d&apos;Apple</translation>
+    </message>
+    <message>
+        <source>JDF NMR Spectroscopy</source>
+        <extracomment>application/x-jeol-jdf</extracomment>
+        <translation>espectroscopis JDF NMR</translation>
+    </message>
+    <message>
+        <source>Jigsaw Download</source>
+        <extracomment>application/x-jigdo</extracomment>
+        <translation>baixada Jigsaw</translation>
+    </message>
+    <message>
+        <source>LaTeX Source Document</source>
+        <extracomment>application/x-latex</extracomment>
+        <translation>document de codi font LaTeX</translation>
+    </message>
+    <message>
+        <source>First match LZ4 Frame</source>
+        <extracomment>application/x-lz4</extracomment>
+        <translation>First match LZ4 Frame</translation>
+    </message>
+    <message>
+        <source>Lzip (LZMA) compressed archive</source>
+        <extracomment>application/x-lzip</extracomment>
+        <translation>arxiu comprimit Lzip (LZMA)</translation>
+    </message>
+    <message>
+        <source>LZMA compressed archive</source>
+        <extracomment>application/x-lzma</extracomment>
+        <translation>arxiu comprimit LZMA</translation>
+    </message>
+    <message>
+        <source>Mach-O</source>
+        <extracomment>application/x-mach-o</extracomment>
+        <translation>Mach-O</translation>
+    </message>
+    <message>
+        <source>Mach-O relocatable object file</source>
+        <extracomment>application/x-mach-o-object</extracomment>
+        <translation>fitxer objecte reubicable de Mach-O</translation>
+    </message>
+    <message>
+        <source>Mach-O executable</source>
+        <extracomment>application/x-mach-o-executable</extracomment>
+        <translation>executable de Mach-O</translation>
+    </message>
+    <message>
+        <source>Mach-O fixed VM shared library</source>
+        <extracomment>application/x-mach-o-fvmlib</extracomment>
+        <translation>biblioteca compartida de VM fixada de Mach-O</translation>
+    </message>
+    <message>
+        <source>Mach-O core file</source>
+        <extracomment>application/x-mach-o-core</extracomment>
+        <translation>fitxer de nucli de Mach-O</translation>
+    </message>
+    <message>
+        <source>Mach-O preloaded executable</source>
+        <extracomment>application/x-mach-o-preload</extracomment>
+        <translation>executable precarregat de Mach-O</translation>
+    </message>
+    <message>
+        <source>Mach-O dynamic shared library</source>
+        <extracomment>application/x-mach-o-dylib</extracomment>
+        <translation>biblioteca compartida dinàmica de Mach-O</translation>
+    </message>
+    <message>
+        <source>Mach-O dynamic link editor</source>
+        <extracomment>application/x-mach-o-dylinker</extracomment>
+        <translation>editor d&apos;enllaç dinàmic de Mach-O</translation>
+    </message>
+    <message>
+        <source>Mach-O dynamic bundle</source>
+        <extracomment>application/x-mach-o-bundle</extracomment>
+        <translation>paquet dinàmic de Mach-O</translation>
+    </message>
+    <message>
+        <source>Mach-O shared library for static linking</source>
+        <extracomment>application/x-mach-o-dylib-stub</extracomment>
+        <translation>biblioteca compartida per a l&apos;enllaçat dinàmic de Mach-O</translation>
+    </message>
+    <message>
+        <source>Mach-O debug symbols file</source>
+        <extracomment>application/x-mach-o-dsym</extracomment>
+        <translation>fitxer de símbols de depuració de Mach-O</translation>
+    </message>
+    <message>
+        <source>Mach-O kext bundle</source>
+        <extracomment>application/x-mach-o-kext-bundle</extracomment>
+        <translation>paquet kext de Mach-O</translation>
+    </message>
+    <message>
+        <source>Apple Xcode Memgraph</source>
+        <extracomment>application/x-memgraph</extracomment>
+        <translation>Apple Xcode Memgraph</translation>
+    </message>
+    <message>
+        <source>Mobipocket Ebook</source>
+        <extracomment>application/x-mobipocket-ebook</extracomment>
+        <translation>Mobipocket Ebook</translation>
+    </message>
+    <message>
+        <source>MS-DOS compression szzd</source>
+        <extracomment>application/x-ms-compress-szdd</extracomment>
+        <translation>MS-DOS compressió szzd</translation>
+    </message>
+    <message>
+        <source>Temporary files created by MSOffice applications</source>
+        <extracomment>application/x-ms-owner</extracomment>
+        <translation>fitxers temporals creats per les aplicacions MSOffice</translation>
+    </message>
+    <message>
+        <source>Microsoft National Language Support</source>
+        <extracomment>application/x-ms-nls</extracomment>
+        <translation>Microsoft National Language Support</translation>
+    </message>
+    <message>
+        <source>Microsoft Windows Installer</source>
+        <extracomment>application/x-ms-installer</extracomment>
+        <translation>instal·lador de Microsoft Windows</translation>
+    </message>
+    <message>
+        <source>MySQL Table Definition (Format)</source>
+        <extracomment>application/x-mysql-table-definition</extracomment>
+        <translation>definició de taula MySQL (format)</translation>
+    </message>
+    <message>
+        <source>MySQL MISAM Index</source>
+        <extracomment>application/x-mysql-misam-index</extracomment>
+        <translation>índex MISAM de MySQL</translation>
+    </message>
+    <message>
+        <source>MySQL MISAM Compressed Index</source>
+        <extracomment>application/x-mysql-misam-compressed-index</extracomment>
+        <translation>índex comprimit MISAM de MySQL</translation>
+    </message>
+    <message>
+        <source>MySQL MISAM Data</source>
+        <extracomment>application/x-mysql-misam-data</extracomment>
+        <translation>dades MISAM de MySQL</translation>
+    </message>
+    <message>
+        <source>Nintendo Entertainment System ROM</source>
+        <extracomment>application/x-nesrom</extracomment>
+        <translation>ROM del sistema d&apos;entreteniment de Nintendo</translation>
+    </message>
+    <message>
+        <source>Planetary Data System Version 3 format</source>
+        <extracomment>application/x-pds</extracomment>
+        <translation>format de Planetary Data System versió 3</translation>
+    </message>
+    <message>
+        <source>Quattro Pro - Corel Spreadsheet (part of WordPerfect Office suite)</source>
+        <extracomment>application/x-quattro-pro</extracomment>
+        <translation>Quattro Pro - Corel Spreadsheet (part del paquet WordPerfect Office)</translation>
+    </message>
+    <message>
+        <source>Quattro Pro for DOS, version 1-4</source>
+        <extracomment>application/x-quattro-pro;version=1-4</extracomment>
+        <translation>Quattro Pro per a DOS, versió 1-4</translation>
+    </message>
+    <message>
+        <source>Quattro Pro for DOS, version 5</source>
+        <extracomment>application/x-quattro-pro;version=5</extracomment>
+        <translation>Quattro Pro per a DOS, versió 5</translation>
+    </message>
+    <message>
+        <source>Quattro Pro for Windows, version 1, 5</source>
+        <extracomment>application/x-quattro-pro;version=1+5</extracomment>
+        <translation>Quattro Pro per a Windows, versió 1, 5</translation>
+    </message>
+    <message>
+        <source>Quattro Pro for Windows, version 6</source>
+        <extracomment>application/x-quattro-pro;version=6</extracomment>
+        <translation>Quattro Pro per a Windows, versió 6</translation>
+    </message>
+    <message>
+        <source>XQuery source code</source>
+        <extracomment>application/xquery</extracomment>
+        <translation>codi font XQuery</translation>
+    </message>
+    <message>
+        <source>RAR archive</source>
+        <extracomment>application/x-rar-compressed
+----------
+application/x-rar-compressed;version=4
+----------
+application/x-rar-compressed;version=5</extracomment>
+        <translation>arxiu RAR</translation>
+    </message>
+    <message>
+        <source>RedHat Package Manager</source>
+        <extracomment>application/x-rpm</extracomment>
+        <translation>gestor de paquets de RedHat</translation>
+    </message>
+    <message>
+        <source>SAS Program</source>
+        <extracomment>application/x-sas</extracomment>
+        <translation>programa SAS</translation>
+    </message>
+    <message>
+        <source>SAS Stored Program (DATA Step)</source>
+        <extracomment>application/x-sas-program-data</extracomment>
+        <translation>programa emmagatzemat SAS (pas STEP)</translation>
+    </message>
+    <message>
+        <source>SAS Audit</source>
+        <extracomment>application/x-sas-audit</extracomment>
+        <translation>SAS Audit</translation>
+    </message>
+    <message>
+        <source>SAS v6 Data Set</source>
+        <extracomment>application/x-sas-data-v6</extracomment>
+        <translation>conjunt de dades SAS v6</translation>
+    </message>
+    <message>
+        <source>SAS Data Set</source>
+        <extracomment>application/x-sas-data</extracomment>
+        <translation>conjunt de dades SAS</translation>
+    </message>
+    <message>
+        <source>SAS Data Set View</source>
+        <extracomment>application/x-sas-view</extracomment>
+        <translation>vista de conjunt de dades SAS</translation>
+    </message>
+    <message>
+        <source>SAS Data Set Index</source>
+        <extracomment>application/x-sas-data-index</extracomment>
+        <translation>índex de conjunt de dades SAS</translation>
+    </message>
+    <message>
+        <source>SAS Catalog</source>
+        <extracomment>application/x-sas-catalog</extracomment>
+        <translation>catàleg SAS</translation>
+    </message>
+    <message>
+        <source>SAS Access Descriptor</source>
+        <extracomment>application/x-sas-access</extracomment>
+        <translation>descriptor d&apos;accés SAS</translation>
+    </message>
+    <message>
+        <source>SAS FDB Consolidation Database File</source>
+        <extracomment>application/x-sas-fdb</extracomment>
+        <translation>fitxer de base de dades de consolidació FDB de SAS</translation>
+    </message>
+    <message>
+        <source>SAS MDDB Multi-Dimensional Database File</source>
+        <extracomment>application/x-sas-mddb</extracomment>
+        <translation>fitxer de base de dades multidimensional MDDB de SAS</translation>
+    </message>
+    <message>
+        <source>SAS DMDB Data Mining Database File</source>
+        <extracomment>application/x-sas-dmdb</extracomment>
+        <translation>fitxer de base de dades de mineria de dades DMDB de SAS</translation>
+    </message>
+    <message>
+        <source>SAS Item Store (ItemStor) File</source>
+        <extracomment>application/x-sas-itemstor</extracomment>
+        <translation>fitxer Item Store (ItemStor) de SAS</translation>
+    </message>
+    <message>
+        <source>SAS Utility</source>
+        <extracomment>application/x-sas-utility</extracomment>
+        <translation>utilitat SAS</translation>
+    </message>
+    <message>
+        <source>SAS Permanent Utility</source>
+        <extracomment>application/x-sas-putility</extracomment>
+        <translation>utilitat permanent SAS</translation>
+    </message>
+    <message>
+        <source>SAS Transport File</source>
+        <extracomment>application/x-sas-transport</extracomment>
+        <translation>fitxer de transport SAS</translation>
+    </message>
+    <message>
+        <source>SAS Backup</source>
+        <extracomment>application/x-sas-backup</extracomment>
+        <translation>còpia de seguretat de SAS</translation>
+    </message>
+    <message>
+        <source>SAS XPORT Transfer File</source>
+        <extracomment>application/x-sas-xport</extracomment>
+        <translation>fitxer de transferència XPORT de SAS</translation>
+    </message>
+    <message>
+        <source>SPSS Data File</source>
+        <extracomment>application/x-spss-sav</extracomment>
+        <translation>fitxer de dades SPSS</translation>
+    </message>
+    <message>
+        <source>UNIX/LINUX Shell Script</source>
+        <extracomment>application/x-sh</extracomment>
+        <translation>script d&apos;intèrpret d&apos;ordres UNIX/LINUX</translation>
+    </message>
+    <message>
+        <source>ESRI Shapefiles</source>
+        <extracomment>application/x-shapefile</extracomment>
+        <translation>shapefiles ESRI</translation>
+    </message>
+    <message>
+        <source>Adobe Flash</source>
+        <extracomment>application/x-shockwave-flash</extracomment>
+        <translation>Adobe Flash</translation>
+    </message>
+    <message>
+        <source>Sibelius</source>
+        <extracomment>application/x-sibelius</extracomment>
+        <translation>Sibelius</translation>
+    </message>
+    <message>
+        <source>Snappy Framed</source>
+        <extracomment>application/x-snappy-framed</extracomment>
+        <translation>Snappy Framed</translation>
+    </message>
+    <message>
+        <source>Standard Formatted Data Units (SFDUs) data</source>
+        <extracomment>application/x-sfdu</extracomment>
+        <translation>dades Standard Formatted Data Units (SFDU)</translation>
+    </message>
+    <message>
+        <source>TAP (ZX Spectrum)</source>
+        <extracomment>application/x-spectrum-tzx</extracomment>
+        <translation>TAP (ZX Spectrum)</translation>
+    </message>
+    <message>
+        <source>Stata DTA Script</source>
+        <extracomment>application/x-stata-do</extracomment>
+        <translation>script Stata DTA</translation>
+    </message>
+    <message>
+        <source>Stata DTA Dataset</source>
+        <extracomment>application/x-stata-dta</extracomment>
+        <translation>conjunt de dades Stata DTA</translation>
+    </message>
+    <message>
+        <source>TeX Source</source>
+        <extracomment>application/x-tex</extracomment>
+        <translation>codi font TeX</translation>
+    </message>
+    <message>
+        <source>TeX Virtual Font format</source>
+        <extracomment>application/x-tex-virtual-font</extracomment>
+        <translation>format TeX Virtual Font</translation>
+    </message>
+    <message>
+        <source>Pre-OLE2 (Old) Microsoft Excel Worksheets</source>
+        <extracomment>application/x-tika-old-excel</extracomment>
+        <translation>fulls de càlcul de Microsoft Excel Pre-OLE2 (antic)</translation>
+    </message>
+    <message>
+        <source>Password Protected OOXML File</source>
+        <extracomment>application/x-tika-ooxml-protected</extracomment>
+        <translation>fitxer OOXML protegit amb contrasenya</translation>
+    </message>
+    <message>
+        <source>Visio OOXML File</source>
+        <extracomment>application/x-tika-visio-ooxml</extracomment>
+        <translation>fitxer Visio OOXML</translation>
+    </message>
+    <message>
+        <source>Virtual PC Virtual Hard Disk</source>
+        <extracomment>application/x-vhd</extracomment>
+        <translation>disc dur virtual de Virtual PC</translation>
+    </message>
+    <message>
+        <source>Virtual Disk Format</source>
+        <extracomment>application/x-vmdk</extracomment>
+        <translation>format de disc virtual</translation>
+    </message>
+    <message>
+        <source>Java Keystore</source>
+        <extracomment>application/x-java-keystore</extracomment>
+        <translation>Java Keystore</translation>
+    </message>
+    <message>
+        <source>XMind Pro</source>
+        <extracomment>application/x-xmind</extracomment>
+        <translation>XMind Pro</translation>
+    </message>
+    <message>
+        <source>Zeno IMproved (ZIM)</source>
+        <extracomment>application/x-zim</extracomment>
+        <translation>Zeno IMproved (ZIM)</translation>
+    </message>
+    <message>
+        <source>Extensible Markup Language</source>
+        <extracomment>application/xml</extracomment>
+        <translation>llenguatge de marcatge extensible</translation>
+    </message>
+    <message>
+        <source>XML Document Type Definition</source>
+        <extracomment>application/xml-dtd</extracomment>
+        <translation>definició de tipus de document XML</translation>
+    </message>
+    <message>
+        <source>XSL Format</source>
+        <extracomment>application/xslfo+xml</extracomment>
+        <translation>format XSL</translation>
+    </message>
+    <message>
+        <source>XSL Transformations</source>
+        <extracomment>application/xslt+xml</extracomment>
+        <translation>transformacions XSL</translation>
+    </message>
+    <message>
+        <source>XML Shareable Playlist Format</source>
+        <extracomment>application/xspf+xml</extracomment>
+        <translation>format de llista de reproducció compartible XML</translation>
+    </message>
+    <message>
+        <source>Compressed Archive File</source>
+        <extracomment>application/zip</extracomment>
+        <translation>fitxer d&apos;arxiu comprimit</translation>
+    </message>
+    <message>
+        <source>ZLIB Compressed Data Format</source>
+        <extracomment>application/zlib</extracomment>
+        <translation>format de dades comprimides ZLIB</translation>
+    </message>
+    <message>
+        <source>7-zip archive</source>
+        <extracomment>application/x-7z-compressed</extracomment>
+        <translation>arxiu 7-zip</translation>
+    </message>
+    <message>
+        <source>Dolby Digital Audio Compression File</source>
+        <extracomment>audio/ac3</extracomment>
+        <translation>fitxer de compressió d&apos;àudio digital Dolby</translation>
+    </message>
+    <message>
+        <source>uLaw/AU Audio File</source>
+        <extracomment>audio/basic</extracomment>
+        <translation>fitxer d&apos;àudio uLaw/AU</translation>
+    </message>
+    <message>
+        <source>Musical Instrument Digital Interface</source>
+        <extracomment>audio/midi</extracomment>
+        <translation>interfície digital d&apos;instrument musical</translation>
+    </message>
+    <message>
+        <source>MPEG-1 Audio Layer 3</source>
+        <extracomment>audio/mpeg</extracomment>
+        <translation>àudio MPEG-1 Layer 3</translation>
+    </message>
+    <message>
+        <source>Ogg Vorbis Audio</source>
+        <extracomment>audio/ogg</extracomment>
+        <translation>àudio Ogg Vorbis</translation>
+    </message>
+    <message>
+        <source>Ogg Vorbis Codec Compressed WAV File</source>
+        <extracomment>audio/vorbis</extracomment>
+        <translation>fitxer WAV comprimit amb el còdec Ogg Vorbis</translation>
+    </message>
+    <message>
+        <source>Portable Sound Format</source>
+        <extracomment>audio/x-psf</extracomment>
+        <translation>format de so portable</translation>
+    </message>
+    <message>
+        <source>Slight Atari Player</source>
+        <extracomment>audio/x-sap</extracomment>
+        <translation>Slight Atari Player</translation>
+    </message>
+    <message>
+        <source>Ogg Packaged Free Lossless Audio Codec</source>
+        <extracomment>audio/x-oggflac</extracomment>
+        <translation>còdec d&apos;àudio lliure sense pèrdua empaquetat amb Ogg</translation>
+    </message>
+    <message>
+        <source>Ogg Packaged Unompressed WAV File</source>
+        <extracomment>audio/x-oggpcm</extracomment>
+        <translation>fitxer WAV sense comprimir empaquetat amb Ogg</translation>
+    </message>
+    <message>
+        <source>Ogg Opus Codec Compressed WAV File</source>
+        <extracomment>audio/opus</extracomment>
+        <translation>fitxer WAV comprimit amb el còdec Opus Ogg</translation>
+    </message>
+    <message>
+        <source>Ogg Speex Codec Compressed WAV File</source>
+        <extracomment>audio/speex</extracomment>
+        <translation>fitxer WAV comprimit amb el còdec Speex Ogg</translation>
+    </message>
+    <message>
+        <source>Audio Interchange File Format</source>
+        <extracomment>audio/x-aiff</extracomment>
+        <translation>format de fitxer d&apos;intercanvi d&apos;àudio</translation>
+    </message>
+    <message>
+        <source>Core Audio Format</source>
+        <extracomment>audio/x-caf</extracomment>
+        <translation>format d&apos;àudio core</translation>
+    </message>
+    <message>
+        <source>Free Lossless Audio Codec</source>
+        <extracomment>audio/x-flac</extracomment>
+        <translation>còdec d&apos;àudio lliure sense pèrdua</translation>
+    </message>
+    <message>
+        <source>MP3 Playlist File</source>
+        <extracomment>audio/x-mpegurl</extracomment>
+        <translation>fitxer de llista de reproducció de MP3</translation>
+    </message>
+    <message>
+        <source>Real Audio</source>
+        <extracomment>audio/x-pn-realaudio</extracomment>
+        <translation>Real Audio</translation>
+    </message>
+    <message>
+        <source>RealMedia Player Plug-in</source>
+        <extracomment>audio/x-pn-realaudio-plugin</extracomment>
+        <translation>connector de reproductor RealMedia</translation>
+    </message>
+    <message>
+        <source>Brookhaven Protein Databank File</source>
+        <extracomment>chemical/x-pdb</extracomment>
+        <translation>fitxer de banc de dades de proteïnes Brookhaven</translation>
+    </message>
+    <message>
+        <source>3D Studio (V1)</source>
+        <extracomment>image/x-3ds</extracomment>
+        <translation>3D Studio (V1)</translation>
+    </message>
+    <message>
+        <source>ACES Image Container File</source>
+        <extracomment>image/aces</extracomment>
+        <translation>fitxer contenidor d&apos;imatge ACES</translation>
+    </message>
+    <message>
+        <source>OS2 bitmap array</source>
+        <extracomment>image/x-os2-graphics; charset=binary</extracomment>
+        <translation>matriu de mapa de bits d&apos;OS2</translation>
+    </message>
+    <message>
+        <source>Windows bitmap</source>
+        <extracomment>image/bmp</extracomment>
+        <translation>mapa de bits de Windows</translation>
+    </message>
+    <message>
+        <source>Better Portable Graphics</source>
+        <extracomment>image/x-bpg</extracomment>
+        <translation>Better Portable Graphics</translation>
+    </message>
+    <message>
+        <source>Computer Graphics Metafile</source>
+        <extracomment>image/cgm</extracomment>
+        <translation>metafitxer de Computer Graphics</translation>
+    </message>
+    <message>
+        <source>Digital Picture Exchange from SMPTE</source>
+        <extracomment>image/x-dpx</extracomment>
+        <translation>intercanvi d&apos;imatge digital de SMPTE</translation>
+    </message>
+    <message>
+        <source>Enhanced Metafile</source>
+        <extracomment>image/emf</extracomment>
+        <translation>metafitxer millorat</translation>
+    </message>
+    <message>
+        <source>Compressed Enhanced Metafile</source>
+        <extracomment>image/x-emf-compressed</extracomment>
+        <translation>metafitxer millorat comprimit</translation>
+    </message>
+    <message>
+        <source>Graphics Interchange Format</source>
+        <extracomment>image/gif</extracomment>
+        <translation>format d&apos;intercanvi de gràfics</translation>
+    </message>
+    <message>
+        <source>AV1 Image File</source>
+        <extracomment>image/avif</extracomment>
+        <translation>fitxer d&apos;imatge AV1</translation>
+    </message>
+    <message>
+        <source>HEIF - High Efficiency Image File</source>
+        <extracomment>image/heif</extracomment>
+        <translation>HEIF - Fitxer d&apos;imatge d&apos;alta eficiència</translation>
+    </message>
+    <message>
+        <source>HEIF Sequence - High Efficiency Image Sequence</source>
+        <extracomment>image/heif-sequence</extracomment>
+        <translation>seqüència HEIF - Seqüència d&apos;imatge d&apos;alta eficiència</translation>
+    </message>
+    <message>
+        <source>HEIF Image using HEVC Codec</source>
+        <extracomment>image/heic</extracomment>
+        <translation>imatge HEIF utilitzant el còdec HEVC</translation>
+    </message>
+    <message>
+        <source>HEIF Sequence using HEVC Codec</source>
+        <extracomment>image/heic-sequence</extracomment>
+        <translation>seqüència HEIF utilitzant el còdec HEVC</translation>
+    </message>
+    <message>
+        <source>Apple Icon Image Format</source>
+        <extracomment>image/icns</extracomment>
+        <translation>format d&apos;imatge d&apos;icones d&apos;Apple</translation>
+    </message>
+    <message>
+        <source>JPEG 2000 Part 1 (JP2)</source>
+        <extracomment>image/jp2</extracomment>
+        <translation>JPEG 2000 Part 1 (JP2)</translation>
+    </message>
+    <message>
+        <source>Joint Photographic Experts Group</source>
+        <extracomment>image/jpeg</extracomment>
+        <translation>Joint Photographic Experts Group</translation>
+    </message>
+    <message>
+        <source>JPEG 2000 Part 6 (JPM)</source>
+        <extracomment>image/jpm</extracomment>
+        <translation>JPEG 2000 Part 6 (JPM)</translation>
+    </message>
+    <message>
+        <source>JPEG 2000 Part 2 (JPX)</source>
+        <extracomment>image/jpx</extracomment>
+        <translation>JPEG 2000 Part 2 (JPX)</translation>
+    </message>
+    <message>
+        <source>Portable Network Graphics</source>
+        <extracomment>image/png</extracomment>
+        <translation>gràfics portables de xarxa</translation>
+    </message>
+    <message>
+        <source>Scalable Vector Graphics</source>
+        <extracomment>image/svg+xml</extracomment>
+        <translation>gràfics vectorials escalables</translation>
+    </message>
+    <message>
+        <source>Tagged Image File Format</source>
+        <extracomment>image/tiff</extracomment>
+        <translation>format de fitxer d&apos;imnatge etiquetat</translation>
+    </message>
+    <message>
+        <source>Photoshop Image</source>
+        <extracomment>image/vnd.adobe.photoshop</extracomment>
+        <translation>imatge de Photoshop</translation>
+    </message>
+    <message>
+        <source>MicroStation v7 drawing</source>
+        <extracomment>image/vnd.dgn;version=7</extracomment>
+        <translation>dibuix de MicroStation v7</translation>
+    </message>
+    <message>
+        <source>MicroStation v8 drawing; requires ole2 detector</source>
+        <extracomment>image/vnd.dgn;version=8</extracomment>
+        <translation>dibuix de MicroStation v8; requereix un detector ole2</translation>
+    </message>
+    <message>
+        <source>AutoCad Drawing</source>
+        <extracomment>image/vnd.dwg</extracomment>
+        <translation>dibuix d&apos;AutoCad</translation>
+    </message>
+    <message>
+        <source>AutoCAD DXF simplified Binary</source>
+        <extracomment>image/vnd.dxb</extracomment>
+        <translation>binari simplificat DXF d&apos;AutoCAD</translation>
+    </message>
+    <message>
+        <source>AutoCAD DXF</source>
+        <extracomment>image/vnd.dxf</extracomment>
+        <translation>DXF d&apos;AutoCAD</translation>
+    </message>
+    <message>
+        <source>Microsoft Document Imaging</source>
+        <extracomment>image/vnd.ms-modi</extracomment>
+        <translation>imatgeria de documents de Microsoft</translation>
+    </message>
+    <message>
+        <source>Wireless Bitmap File Format</source>
+        <extracomment>image/vnd.wap.wbmp</extracomment>
+        <translation>format de fitxer de mapa de bits sense fils</translation>
+    </message>
+    <message>
+        <source>ZSoft Multi-Page Paintbrush</source>
+        <extracomment>image/vnd.zbrush.dcx</extracomment>
+        <translation>ZSoft Multi-Page Paintbrush</translation>
+    </message>
+    <message>
+        <source>ZSoft Paintbrush PiCture eXchange</source>
+        <extracomment>image/vnd.zbrush.pcx</extracomment>
+        <translation>ZSoft Paintbrush PiCture eXchange</translation>
+    </message>
+    <message>
+        <source>Windows Metafile</source>
+        <extracomment>image/wmf</extracomment>
+        <translation>metafitxer de Windows</translation>
+    </message>
+    <message>
+        <source>FreeHand image</source>
+        <extracomment>image/x-freehand</extracomment>
+        <translation>imatge de FreeHand</translation>
+    </message>
+    <message>
+        <source>A lossless image compression standard from the
+      Joint Bi-level Image Experts Group.</source>
+        <extracomment>image/x-jbig2</extracomment>
+        <translation>Un estàndard de compressió d&apos;imatges sense pèrdua de
+      Joint Bi-level Image Experts Group.</translation>
+    </message>
+    <message>
+        <source>JPEG 2000 Codestream</source>
+        <extracomment>image/x-jp2-codestream</extracomment>
+        <translation>flux de codi JPEG 2000</translation>
+    </message>
+    <message>
+        <source>JPEG 2000 Container Format</source>
+        <extracomment>image/x-jp2-container</extracomment>
+        <translation>format de contenidor JPEG 2000</translation>
+    </message>
+    <message>
+        <source>JPEG XL</source>
+        <extracomment>image/jxl</extracomment>
+        <translation>JPEG XL</translation>
+    </message>
+    <message>
+        <source>Navy Interchange File Format</source>
+        <extracomment>image/x-niff</extracomment>
+        <translation>format de fitxer d&apos;intercanvi Navy</translation>
+    </message>
+    <message>
+        <source>Apple Macintosh QuickDraw/PICT Format</source>
+        <extracomment>image/x-pict</extracomment>
+        <translation>format QuickDraw/PICT d&apos;Apple Macintosh</translation>
+    </message>
+    <message>
+        <source>Portable Any Map</source>
+        <extracomment>image/x-portable-anymap</extracomment>
+        <translation>Any Map portable</translation>
+    </message>
+    <message>
+        <source>Portable Bit Map</source>
+        <extracomment>image/x-portable-bitmap</extracomment>
+        <translation>Bit Map portable</translation>
+    </message>
+    <message>
+        <source>Portable Graymap Graphic</source>
+        <extracomment>image/x-portable-graymap</extracomment>
+        <translation>gràfic de mapa de grisos portable</translation>
+    </message>
+    <message>
+        <source>UNIX Portable Bitmap Graphic</source>
+        <extracomment>image/x-portable-pixmap</extracomment>
+        <translation>gràfic de mapa de bits portable UNIX</translation>
+    </message>
+    <message>
+        <source>UNIX Portable Bitmap Graphic Arbitrary Map</source>
+        <extracomment>image/x-portable-arbitrarymap</extracomment>
+        <translation>mapa arbitrari de gràfic de mapa de bits portable UNIX</translation>
+    </message>
+    <message>
+        <source>Adobe Digital Negative</source>
+        <extracomment>image/x-raw-adobe</extracomment>
+        <translation>negatiu digital d&apos;Adobe</translation>
+    </message>
+    <message>
+        <source>Hasselblad raw image</source>
+        <extracomment>image/x-raw-hasselblad</extracomment>
+        <translation>imatge en brut de Hasselblad</translation>
+    </message>
+    <message>
+        <source>Fuji raw image</source>
+        <extracomment>image/x-raw-fuji</extracomment>
+        <translation>imatge en brut de Fuji</translation>
+    </message>
+    <message>
+        <source>Canon raw image</source>
+        <extracomment>image/x-raw-canon</extracomment>
+        <translation>imatge en brut de Canon</translation>
+    </message>
+    <message>
+        <source>Canon raw image, version 2, TIFF-based</source>
+        <extracomment>image/x-canon-cr2</extracomment>
+        <translation>imatge en brut de Canon, versió 2, basada en TIFF</translation>
+    </message>
+    <message>
+        <source>Canon raw image, version 3, Quicktime-based</source>
+        <extracomment>image/x-canon-cr3</extracomment>
+        <translation>imatge en brut de Canon, versió 3, basada en Quicktime</translation>
+    </message>
+    <message>
+        <source>Kodak raw image</source>
+        <extracomment>image/x-raw-kodak</extracomment>
+        <translation>imatge en brut de Kodak</translation>
+    </message>
+    <message>
+        <source>Minolta raw image</source>
+        <extracomment>image/x-raw-minolta</extracomment>
+        <translation>imatge en brut de Minolta</translation>
+    </message>
+    <message>
+        <source>Nikon raw image</source>
+        <extracomment>image/x-raw-nikon</extracomment>
+        <translation>imatge en brut de Nikon</translation>
+    </message>
+    <message>
+        <source>Olympus raw image</source>
+        <extracomment>image/x-raw-olympus</extracomment>
+        <translation>imatge en brut d&apos;Olympus</translation>
+    </message>
+    <message>
+        <source>Pentax raw image</source>
+        <extracomment>image/x-raw-pentax</extracomment>
+        <translation>imatge en brut de Pentax</translation>
+    </message>
+    <message>
+        <source>Sony raw image</source>
+        <extracomment>image/x-raw-sony</extracomment>
+        <translation>imatge en brut de Sony</translation>
+    </message>
+    <message>
+        <source>Sigma raw image</source>
+        <extracomment>image/x-raw-sigma</extracomment>
+        <translation>imatge en brut de Sigma</translation>
+    </message>
+    <message>
+        <source>Epson raw image</source>
+        <extracomment>image/x-raw-epson</extracomment>
+        <translation>imatge en brut d&apos;Epson</translation>
+    </message>
+    <message>
+        <source>Mamiya raw image</source>
+        <extracomment>image/x-raw-mamiya</extracomment>
+        <translation>imatge en brut de Mamiya</translation>
+    </message>
+    <message>
+        <source>Leaf raw image</source>
+        <extracomment>image/x-raw-leaf</extracomment>
+        <translation>imatge en brut de Leaf</translation>
+    </message>
+    <message>
+        <source>Panasonic raw image</source>
+        <extracomment>image/x-raw-panasonic</extracomment>
+        <translation>imatge en brut de Panasonic</translation>
+    </message>
+    <message>
+        <source>Phase One raw image</source>
+        <extracomment>image/x-raw-phaseone</extracomment>
+        <translation>imatge en brut de Phase One</translation>
+    </message>
+    <message>
+        <source>Red raw image</source>
+        <extracomment>image/x-raw-red</extracomment>
+        <translation>imatge en brut de Red</translation>
+    </message>
+    <message>
+        <source>Imacon raw image</source>
+        <extracomment>image/x-raw-imacon</extracomment>
+        <translation>imatge en brut d&apos;Imacon</translation>
+    </message>
+    <message>
+        <source>Logitech raw image</source>
+        <extracomment>image/x-raw-logitech</extracomment>
+        <translation>imatge en brut de Logitech</translation>
+    </message>
+    <message>
+        <source>Casio raw image</source>
+        <extracomment>image/x-raw-casio</extracomment>
+        <translation>imatge en brut de Casio</translation>
+    </message>
+    <message>
+        <source>Rawzor raw image</source>
+        <extracomment>image/x-raw-rawzor</extracomment>
+        <translation>imatge en brut de Rawzor</translation>
+    </message>
+    <message>
+        <source>Silicon Graphics RGB Bitmap</source>
+        <extracomment>image/x-rgb</extracomment>
+        <translation>mapa de bits RGB de Silicon Graphics</translation>
+    </message>
+    <message>
+        <source>GIMP Image File</source>
+        <extracomment>image/x-xcf</extracomment>
+        <translation>fitxer d&apos;imatge GIMP</translation>
+    </message>
+    <message>
+        <source>X Windows Dump</source>
+        <extracomment>image/x-xwindowdump</extracomment>
+        <translation>bolcat de X Windows</translation>
+    </message>
+    <message>
+        <source>MIME Encapsulation of Aggregate HTML Documents</source>
+        <extracomment>multipart/related</extracomment>
+        <translation>encapsulació MIME de documents HTML agregats</translation>
+    </message>
+    <message>
+        <source>3d imaging data exchange</source>
+        <extracomment>model/e57</extracomment>
+        <translation>intercanvi de dades d&apos;imatges 3D</translation>
+    </message>
+    <message>
+        <source>Initial Graphics Exchange Specification Format</source>
+        <extracomment>model/iges</extracomment>
+        <translation>format inicial d&apos;especificació d&apos;intercanvi de gràfics</translation>
+    </message>
+    <message>
+        <source>no magic available</source>
+        <extracomment>model/x.stl-binary</extracomment>
+        <translation>sense màgia disponible</translation>
+    </message>
+    <message>
+        <source>AutoCAD Design Web Format</source>
+        <extracomment>model/vnd.dwf
+----------
+model/vnd.dwfx+xps</extracomment>
+        <translation>format web de disseny AutoCAD</translation>
+    </message>
+    <message>
+        <source>ONline Information eXchange (ONIX) for books</source>
+        <extracomment>application/onix-message+xml
+----------
+application/onix-message-short+xml</extracomment>
+        <translation>ONline Information eXchange (ONIX) de llibres</translation>
+    </message>
+    <message>
+        <source>ActionScript source code</source>
+        <extracomment>text/x-actionscript</extracomment>
+        <translation>codi font d&apos;ActionScript</translation>
+    </message>
+    <message>
+        <source>Ada source code</source>
+        <extracomment>text/x-ada</extracomment>
+        <translation>codi font d&apos;Ada</translation>
+    </message>
+    <message>
+        <source>AppleScript source code</source>
+        <extracomment>text/x-applescript</extracomment>
+        <translation>codi font d&apos;AppleScript</translation>
+    </message>
+    <message>
+        <source>Active Server Page</source>
+        <extracomment>text/asp</extracomment>
+        <translation>Active Server Page</translation>
+    </message>
+    <message>
+        <source>ASP .NET</source>
+        <extracomment>text/aspdotnet</extracomment>
+        <translation>ASP .NET</translation>
+    </message>
+    <message>
+        <source>AspectJ source code</source>
+        <extracomment>text/x-aspectj</extracomment>
+        <translation>codi font d&apos;AspectJ</translation>
+    </message>
+    <message>
+        <source>Assembler source code</source>
+        <extracomment>text/x-assembly</extracomment>
+        <translation>codi font d&apos;assemblador</translation>
+    </message>
+    <message>
+        <source>Cascading Style Sheet</source>
+        <extracomment>text/css</extracomment>
+        <translation>Cascading Style Sheet</translation>
+    </message>
+    <message>
+        <source>HyperText Markup Language</source>
+        <extracomment>text/html</extracomment>
+        <translation>llenguatge de marcatge HyperText</translation>
+    </message>
+    <message>
+        <source>Makefile build file</source>
+        <extracomment>text/x-makefile</extracomment>
+        <translation>fitxer de construcció Makefile</translation>
+    </message>
+    <message>
+        <source>Roff/nroff/troff/groff Unformatted Manual Page (UNIX)</source>
+        <extracomment>text/troff</extracomment>
+        <translation>pàgina de manual sense format roff/nroff/troff/groff (UNIX)</translation>
+    </message>
+    <message>
+        <source>Graphviz Graph Visualization Software</source>
+        <extracomment>text/vnd.graphviz</extracomment>
+        <translation>programari de visualització de gràfics Graphviz</translation>
+    </message>
+    <message>
+        <source>American Newspaper Publishers Association Wire Feeds</source>
+        <extracomment>text/vnd.iptc.anpa</extracomment>
+        <translation>American Newspaper Publishers Association Wire Feeds</translation>
+    </message>
+    <message>
+        <source>WML Script</source>
+        <extracomment>text/vnd.wap.wmlscript</extracomment>
+        <translation>script WML</translation>
+    </message>
+    <message>
+        <source>Web Video Text Tracks Format</source>
+        <extracomment>text/vtt</extracomment>
+        <translation>format de les pistes de text de vídeo web</translation>
+    </message>
+    <message>
+        <source>AWK script</source>
+        <extracomment>text/x-awk</extracomment>
+        <translation>script AWK</translation>
+    </message>
+    <message>
+        <source>Basic source code</source>
+        <extracomment>text/x-basic</extracomment>
+        <translation>codi font de Basic</translation>
+    </message>
+    <message>
+        <source>C++ source code header</source>
+        <extracomment>text/x-c++hdr</extracomment>
+        <translation>capçalera de codi font de C++</translation>
+    </message>
+    <message>
+        <source>C++ source code</source>
+        <extracomment>text/x-c++src</extracomment>
+        <translation>codi font de C++</translation>
+    </message>
+    <message>
+        <source>CGI script</source>
+        <extracomment>text/x-cgi</extracomment>
+        <translation>script CGI</translation>
+    </message>
+    <message>
+        <source>C source code header</source>
+        <extracomment>text/x-chdr</extracomment>
+        <translation>capçalera de codi font de C</translation>
+    </message>
+    <message>
+        <source>Clojure source code</source>
+        <extracomment>text/x-clojure</extracomment>
+        <translation>codi font de Clojure</translation>
+    </message>
+    <message>
+        <source>CoffeeScript source code</source>
+        <extracomment>text/x-coffeescript</extracomment>
+        <translation>codi font de CoffeeScript</translation>
+    </message>
+    <message>
+        <source>C source code</source>
+        <extracomment>text/x-csrc</extracomment>
+        <translation>codi font de C</translation>
+    </message>
+    <message>
+        <source>C# source code</source>
+        <extracomment>text/x-csharp</extracomment>
+        <translation>codi font de C#</translation>
+    </message>
+    <message>
+        <source>COBOL source code</source>
+        <extracomment>text/x-cobol</extracomment>
+        <translation>codi font de COBOL</translation>
+    </message>
+    <message>
+        <source>ColdFusion source code</source>
+        <extracomment>text/x-coldfusion</extracomment>
+        <translation>codi font de ColdFusion</translation>
+    </message>
+    <message>
+        <source>Common Lisp source code</source>
+        <extracomment>text/x-common-lisp</extracomment>
+        <translation>codi font de Common Lisp</translation>
+    </message>
+    <message>
+        <source>Eiffel source code</source>
+        <extracomment>text/x-eiffel</extracomment>
+        <translation>codi font d&apos;Eiffel</translation>
+    </message>
+    <message>
+        <source>Emacs Lisp source code</source>
+        <extracomment>text/x-emacs-lisp</extracomment>
+        <translation>codi font de Lisp d&apos;Emacs</translation>
+    </message>
+    <message>
+        <source>Erlang source code</source>
+        <extracomment>text/x-erlang</extracomment>
+        <translation>codi font d&apos;Erlang</translation>
+    </message>
+    <message>
+        <source>Expect Script</source>
+        <extracomment>text/x-expect</extracomment>
+        <translation>script Expect</translation>
+    </message>
+    <message>
+        <source>Forth source code</source>
+        <extracomment>text/x-forth</extracomment>
+        <translation>codi font de Forth</translation>
+    </message>
+    <message>
+        <source>Fortran source code</source>
+        <extracomment>text/x-fortran</extracomment>
+        <translation>codi font de Fortran</translation>
+    </message>
+    <message>
+        <source>Go source code</source>
+        <extracomment>text/x-go</extracomment>
+        <translation>codi font de Go</translation>
+    </message>
+    <message>
+        <source>Groovy source code</source>
+        <extracomment>text/x-groovy</extracomment>
+        <translation>codi font de Groovy</translation>
+    </message>
+    <message>
+        <source>Haskell source code</source>
+        <extracomment>text/x-haskell</extracomment>
+        <translation>codi font de Haskell</translation>
+    </message>
+    <message>
+        <source>Interface Definition Language</source>
+        <extracomment>text/x-idl</extracomment>
+        <translation>llenguatge de definició d&apos;interfície</translation>
+    </message>
+    <message>
+        <source>Configuration file</source>
+        <extracomment>text/x-ini</extracomment>
+        <translation>fitxer de configuració</translation>
+    </message>
+    <message>
+        <source>Java source code</source>
+        <extracomment>text/x-java-source</extracomment>
+        <translation>codi font de Java</translation>
+    </message>
+    <message>
+        <source>Java Properties</source>
+        <extracomment>text/x-java-properties</extracomment>
+        <translation>propietats de Java</translation>
+    </message>
+    <message>
+        <source>Java Server Page</source>
+        <extracomment>text/x-jsp</extracomment>
+        <translation>pàgina de servidor Java</translation>
+    </message>
+    <message>
+        <source>LESS source code</source>
+        <extracomment>text/x-less</extracomment>
+        <translation>codi font de LESS</translation>
+    </message>
+    <message>
+        <source>Lex/Flex source code</source>
+        <extracomment>text/x-lex</extracomment>
+        <translation>codi font de Lex/Flex</translation>
+    </message>
+    <message>
+        <source>application log</source>
+        <extracomment>text/x-log</extracomment>
+        <translation>registre d&apos;aplicació</translation>
+    </message>
+    <message>
+        <source>Lua source code</source>
+        <extracomment>text/x-lua</extracomment>
+        <translation>codi font de Lua</translation>
+    </message>
+    <message>
+        <source>ML source code</source>
+        <extracomment>text/x-ml</extracomment>
+        <translation>codi font de ML</translation>
+    </message>
+    <message>
+        <source>Matlab source code</source>
+        <extracomment>text/x-matlab</extracomment>
+        <translation>codi font de Matlab</translation>
+    </message>
+    <message>
+        <source>MATLAB data file</source>
+        <extracomment>application/x-matlab-data</extracomment>
+        <translation>fitxer de dades de MATLAB</translation>
+    </message>
+    <message>
+        <source>Modula source code</source>
+        <extracomment>text/x-modula</extracomment>
+        <translation>codi font de Modula</translation>
+    </message>
+    <message>
+        <source>Objective-C source code</source>
+        <extracomment>text/x-objcsrc</extracomment>
+        <translation>codi font d&apos;Objective-C</translation>
+    </message>
+    <message>
+        <source>Ocaml source code</source>
+        <extracomment>text/x-ocaml</extracomment>
+        <translation>codi font d&apos;Ocaml</translation>
+    </message>
+    <message>
+        <source>Pascal source code</source>
+        <extracomment>text/x-pascal</extracomment>
+        <translation>codi font de Pascal</translation>
+    </message>
+    <message>
+        <source>Perl script</source>
+        <extracomment>text/x-perl</extracomment>
+        <translation>script Perl</translation>
+    </message>
+    <message>
+        <source>PHP script</source>
+        <extracomment>text/x-php</extracomment>
+        <translation>script PHP</translation>
+    </message>
+    <message>
+        <source>Prolog source code</source>
+        <extracomment>text/x-prolog</extracomment>
+        <translation>codi font de Prolog</translation>
+    </message>
+    <message>
+        <source>Python script</source>
+        <extracomment>text/x-python</extracomment>
+        <translation>script Python</translation>
+    </message>
+    <message>
+        <source>reStructuredText source code</source>
+        <extracomment>text/x-rst</extracomment>
+        <translation>codi font de reStructuredText</translation>
+    </message>
+    <message>
+        <source>Rexx source code</source>
+        <extracomment>text/x-rexx</extracomment>
+        <translation>codi font de Rexx</translation>
+    </message>
+    <message>
+        <source>Ruby source code</source>
+        <extracomment>text/x-ruby</extracomment>
+        <translation>codi font de Ruby</translation>
+    </message>
+    <message>
+        <source>Scala source code</source>
+        <extracomment>text/x-scala</extracomment>
+        <translation>codi font de Scala</translation>
+    </message>
+    <message>
+        <source>Scheme source code</source>
+        <extracomment>text/x-scheme</extracomment>
+        <translation>codi font de Scheme</translation>
+    </message>
+    <message>
+        <source>Sed code</source>
+        <extracomment>text/x-sed</extracomment>
+        <translation>codi Sed</translation>
+    </message>
+    <message>
+        <source>SQL code</source>
+        <extracomment>text/x-sql</extracomment>
+        <translation>codi SQL</translation>
+    </message>
+    <message>
+        <source>Smalltalk source code</source>
+        <extracomment>text/x-stsrc</extracomment>
+        <translation>codi font de Smalltalk</translation>
+    </message>
+    <message>
+        <source>Tcl script</source>
+        <extracomment>text/x-tcl</extracomment>
+        <translation>script Tcl</translation>
+    </message>
+    <message>
+        <source>Text-based (non-binary) Message</source>
+        <extracomment>text/x-tika-text-based-message</extracomment>
+        <translation>missatge basat en text (no binari)</translation>
+    </message>
+    <message>
+        <source>Visual basic source code</source>
+        <extracomment>text/x-vbasic</extracomment>
+        <translation>codi font de Visual Basic</translation>
+    </message>
+    <message>
+        <source>VB.NET source code</source>
+        <extracomment>text/x-vbdotnet</extracomment>
+        <translation>codi font de VB.NET</translation>
+    </message>
+    <message>
+        <source>VBScript source code</source>
+        <extracomment>text/x-vbscript</extracomment>
+        <translation>codi font de VBScript</translation>
+    </message>
+    <message>
+        <source>Verilog source code</source>
+        <extracomment>text/x-verilog</extracomment>
+        <translation>codi font de Verilog</translation>
+    </message>
+    <message>
+        <source>VHDL source code</source>
+        <extracomment>text/x-vhdl</extracomment>
+        <translation>codi font de VHDL</translation>
+    </message>
+    <message>
+        <source>Markdown source code</source>
+        <extracomment>text/x-web-markdown</extracomment>
+        <translation>codi font de Markdown</translation>
+    </message>
+    <message>
+        <source>Yacc/Bison source code</source>
+        <extracomment>text/x-yacc</extracomment>
+        <translation>codi font de Yacc/Bison</translation>
+    </message>
+    <message>
+        <source>YAML source code</source>
+        <extracomment>text/x-yaml</extracomment>
+        <translation>codi font de YAML</translation>
+    </message>
+    <message>
+        <source>JPEG 2000 Part 3 (Motion JPEG, MJ2)</source>
+        <extracomment>video/mj2</extracomment>
+        <translation>JPEG 2000 Part 3 (Motion JPEG, MJ2)</translation>
+    </message>
+    <message>
+        <source>MPEG Movie Clip</source>
+        <extracomment>video/mpeg</extracomment>
+        <translation>clip pel·licula MPEG</translation>
+    </message>
+    <message>
+        <source>Ogg Vorbis Video</source>
+        <extracomment>video/ogg</extracomment>
+        <translation>vídeo Ogg Vorbis</translation>
+    </message>
+    <message>
+        <source>Ogg Daala Video</source>
+        <extracomment>video/daala</extracomment>
+        <translation>vídeo Ogg Daala</translation>
+    </message>
+    <message>
+        <source>Ogg Theora Video</source>
+        <extracomment>video/theora</extracomment>
+        <translation>vídeo Ogg Theora</translation>
+    </message>
+    <message>
+        <source>Ogg Packaged Dirac Video</source>
+        <extracomment>video/x-dirac</extracomment>
+        <translation>vídeo Ogg empaquetat amb Dirac</translation>
+    </message>
+    <message>
+        <source>Ogg Packaged OGM Video</source>
+        <extracomment>video/x-ogm</extracomment>
+        <translation>vídeo Ogg empaquetat amb OGM</translation>
+    </message>
+    <message>
+        <source>Ogg Packaged Raw UVS Video</source>
+        <extracomment>video/x-ogguvs</extracomment>
+        <translation>vídeo Ogg empaquetat UVS en brut</translation>
+    </message>
+    <message>
+        <source>Ogg Packaged Raw YUV Video</source>
+        <extracomment>video/x-oggyuv</extracomment>
+        <translation>vídeo Ogg empaquetat YUV en brut</translation>
+    </message>
+    <message>
+        <source>Ogg Packaged Raw RGB Video</source>
+        <extracomment>video/x-oggrgb</extracomment>
+        <translation>vídeo Ogg empaquetat RGB en brut</translation>
+    </message>
+    <message>
+        <source>QuickTime Video</source>
+        <extracomment>video/quicktime</extracomment>
+        <translation>vídeo QuickTime</translation>
+    </message>
+    <message>
+        <source>Windows Media Metafile</source>
+        <extracomment>application/x-ms-asx</extracomment>
+        <translation>metafitxer multimèdia de Windows</translation>
+    </message>
+    <message>
+        <source>Audio Video Interleave File</source>
+        <extracomment>video/x-msvideo</extracomment>
+        <translation>fitxer d&apos;entrellaçat vídeo àudio</translation>
+    </message>
+    <message>
+        <source>Matroska Media Container</source>
+        <extracomment>application/x-matroska</extracomment>
+        <translation>contenidor multimèdia Matroska</translation>
+    </message>
+    <message>
+        <source>Cooltalk Audio</source>
+        <extracomment>x-conference/x-cooltalk</extracomment>
+        <translation>àudio Cooltalk</translation>
+    </message>
+    <message>
+        <source>FictionBook document</source>
+        <extracomment>application/x-fictionbook+xml</extracomment>
+        <translation>document FictionBook</translation>
+    </message>
+    <message>
+        <source>Asciidoc source code</source>
+        <extracomment>text/x-asciidoc</extracomment>
+        <translation>codi font d&apos;Asciidoc</translation>
+    </message>
+    <message>
+        <source>D source code</source>
+        <extracomment>text/x-d</extracomment>
+        <translation>codi font de D</translation>
+    </message>
+    <message>
+        <source>HAML source code</source>
+        <extracomment>text/x-haml</extracomment>
+        <translation>codi font d&apos;HAML</translation>
+    </message>
+    <message>
+        <source>Haxe source code</source>
+        <extracomment>text/x-haxe</extracomment>
+        <translation>codi font d&apos;Haxe</translation>
+    </message>
+    <message>
+        <source>XLIFF 1.2 document</source>
+        <extracomment>application/x-xliff+xml</extracomment>
+        <translation>document XLIFF 1.2</translation>
+    </message>
+    <message>
+        <source>XLZ Archive</source>
+        <extracomment>application/x-xliff+zip</extracomment>
+        <translation>arxiu XLZ</translation>
+    </message>
+    <message>
+        <source>R source code</source>
+        <extracomment>text/x-rsrc</extracomment>
+        <translation>codi font de R</translation>
+    </message>
+</context>
+<context>
+    <name>QWindowsUiaMainProvider</name>
+    <message>
+        <source>blockquote</source>
+        <translation>blockquote</translation>
+    </message>
+</context>
+<context>
+    <name>QAccessibleColorWellItem</name>
+    <message>
+        <source>RGB %1, %2, %3</source>
+        <extracomment>Color specified via its 3 RGB components (red, green, blue)</extracomment>
+        <translation>RGB %1, %2, %3</translation>
+    </message>
+</context>
+<context>
+    <name>QProgressBar</name>
+    <message>
+        <source>%p%</source>
+        <extracomment>%p is the percent value, % is the percent sign. When translated to the identical %p%, then the second % symbol will be replaced by the percentage-symbol from the user&apos;s locale.</extracomment>
+        <translation>%p%</translation>
     </message>
 </context>
 </TS>

@@ -36,6 +36,18 @@
 <context>
     <name>ColorDialog</name>
     <message>
+        <source>Eyedropper</source>
+        <translation>Comptagotes</translation>
+    </message>
+    <message>
+        <source>Hue</source>
+        <translation>To</translation>
+    </message>
+    <message>
+        <source>Alpha</source>
+        <translation>Alfa</translation>
+    </message>
+    <message>
         <source>Color</source>
         <translation>Color</translation>
     </message>
@@ -44,13 +56,23 @@
     <name>FileDialog</name>
     <message>
         <source>“%1” already exists. Do you want to replace it?</source>
-        <translation>«%1» ja existeix. El voleu substituir?</translation>
+        <translation type="vanished">«%1» ja existeix. El voleu substituir?</translation>
     </message>
     <message>
         <source>A file with the same name already exists in %1.
 Replacing it will overwrite its current contents.</source>
-        <translation>Ja existeix un fitxer amb el mateix nom a %1.
+        <translation type="vanished">Ja existeix un fitxer amb el mateix nom a %1.
 Substituir-lo sobreescriurà el seu contingut actual.</translation>
+    </message>
+    <message>
+        <source>Overwrite file?</source>
+        <translation>Voleu sobreescriure el fitxer?</translation>
+    </message>
+    <message>
+        <source>“%1” already exists.
+Do you want to replace it?</source>
+        <translation>«%1» ja existeix.
+El voleu substituir?</translation>
     </message>
     <message>
         <source>File name</source>
@@ -59,6 +81,18 @@ Substituir-lo sobreescriurà el seu contingut actual.</translation>
     <message>
         <source>Filter</source>
         <translation>Filtre</translation>
+    </message>
+    <message>
+        <source>Up</source>
+        <translation>Amunt</translation>
+    </message>
+    <message>
+        <source>Add Favorite</source>
+        <translation>Afegeix un preferit</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Elimina</translation>
     </message>
 </context>
 <context>
@@ -105,12 +139,25 @@ Substituir-lo sobreescriurà el seu contingut actual.</translation>
         <translation>Família</translation>
     </message>
     <message>
+        <source>Font family</source>
+        <translation>Família de lletra</translation>
+    </message>
+    <message>
         <source>Style</source>
         <translation>Estil</translation>
     </message>
     <message>
+        <source>Font style</source>
+        <translation>Estil de lletra</translation>
+    </message>
+    <message>
         <source>Size</source>
         <translation>Mida</translation>
+    </message>
+    <message>
+        <source>Font point size</source>
+        <translatorcomment>Mida de lletra en punts</translatorcomment>
+        <translation>Mida de punts de lletra</translation>
     </message>
     <message>
         <source>Effects</source>
@@ -348,7 +395,11 @@ Substituir-lo sobreescriurà el seu contingut actual.</translation>
     </message>
     <message>
         <source>Invalid import qualifier ID</source>
-        <translation>Identificador de qualificador d&apos;importació no vàlid</translation>
+        <translation type="vanished">Identificador de qualificador d&apos;importació no vàlid</translation>
+    </message>
+    <message>
+        <source>Invalid import qualifier &apos;%1&apos;: must start with an uppercase letter</source>
+        <translation>Qualificador d&apos;importació «%1» no vàlid: ha de començar amb una lletra en majúscula</translation>
     </message>
     <message>
         <source>Reserved name &quot;Qt&quot; cannot be used as an qualifier</source>
@@ -425,6 +476,14 @@ Substituir-lo sobreescriurà el seu contingut actual.</translation>
     <message>
         <source>Unclosed string at end of line</source>
         <translation>Cadena sense tancar al final de línia</translation>
+    </message>
+    <message>
+        <source>There can be at most one numeric separator between digits</source>
+        <translation>Com a màxim pot haver-hi un separador numèric entre dígits</translation>
+    </message>
+    <message>
+        <source>A trailing numeric separator is not allowed in numeric literals</source>
+        <translation>No es permet un separador numèric final en literals numèrics</translation>
     </message>
     <message>
         <source>At least one hexadecimal digit is required after &apos;0%1&apos;</source>
@@ -557,106 +616,106 @@ Substituir-lo sobreescriurà el seu contingut actual.</translation>
     <name>QQmlImportDatabase</name>
     <message>
         <source>module &quot;%1&quot; version %2.%3 is not installed</source>
-        <translation>el mòdul «%1» versió %2.%3 no està instal·lat</translation>
+        <translation type="vanished">el mòdul «%1» versió %2.%3 no està instal·lat</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; is not installed</source>
-        <translation>el mòdul «%1» no està instal·lat</translation>
+        <translation type="vanished">el mòdul «%1» no està instal·lat</translation>
     </message>
     <message>
         <source>&quot;%1&quot; is ambiguous. Found in %2 and in %3</source>
-        <translation>«%1» és ambigu. S&apos;ha trobat a %2 i a %3</translation>
+        <translation type="vanished">«%1» és ambigu. S&apos;ha trobat a %2 i a %3</translation>
     </message>
     <message>
         <source>- %1 is neither a type nor a namespace</source>
-        <translation>- %1 ni és un tipus ni un espai de noms</translation>
+        <translation type="vanished">- %1 ni és un tipus ni un espai de noms</translation>
     </message>
     <message>
         <source>- %1 is not a namespace</source>
-        <translation>- %1 no és un espai de noms</translation>
+        <translation type="vanished">- %1 no és un espai de noms</translation>
     </message>
     <message>
         <source>- %1 is not a type</source>
-        <translation>- %1 no és un tipus</translation>
+        <translation type="vanished">- %1 no és un tipus</translation>
     </message>
     <message>
         <source>- nested namespaces not allowed</source>
-        <translation>- no es permeten espais de noms imbricats</translation>
+        <translation type="vanished">- no es permeten espais de noms imbricats</translation>
     </message>
     <message>
         <source>local directory</source>
-        <translation>directori local</translation>
+        <translation type="vanished">directori local</translation>
     </message>
     <message>
         <source>is ambiguous. Found in %1 and in %2</source>
-        <translation>és ambigu. S&apos;ha trobat a %1 i a %2</translation>
+        <translation type="vanished">és ambigu. S&apos;ha trobat a %1 i a %2</translation>
     </message>
     <message>
         <source>is ambiguous. Found in %1 in version %2.%3 and %4.%5</source>
-        <translation>és ambigu. S&apos;ha trobat en %1 amb la versió %2.%3 i %4.%5</translation>
+        <translation type="vanished">és ambigu. S&apos;ha trobat en %1 amb la versió %2.%3 i %4.%5</translation>
     </message>
     <message>
         <source>is instantiated recursively</source>
-        <translation>està instanciat recursivament</translation>
+        <translation type="vanished">està instanciat recursivament</translation>
     </message>
     <message>
         <source>is not a type</source>
-        <translation>no és un tipus</translation>
+        <translation type="vanished">no és un tipus</translation>
     </message>
     <message>
         <source>module does not support the designer &quot;%1&quot;</source>
-        <translation>el mòdul no permet el dissenyador «%1»</translation>
+        <translation type="vanished">el mòdul no permet el dissenyador «%1»</translation>
     </message>
     <message>
         <source>&quot;%1&quot; version %2.%3 is defined more than once in module &quot;%4&quot;</source>
-        <translation>«%1» versió %2.%3 està definit més d&apos;una vegada en el mòdul «%4»</translation>
+        <translation type="vanished">«%1» versió %2.%3 està definit més d&apos;una vegada en el mòdul «%4»</translation>
     </message>
     <message>
         <source>&quot;%1&quot; is not a valid import URL. You can pass relative paths or URLs with schema, but not absolute paths or resource paths. Try &quot;%2&quot;.</source>
-        <translation>«%1» no és un URL vàlid d&apos;importació. Podeu passar camins relatius o URL amb esquema, però no camins absoluts o camins de recursos. Intenteu «%2».</translation>
+        <translation type="vanished">«%1» no és un URL vàlid d&apos;importació. Podeu passar camins relatius o URL amb esquema, però no camins absoluts o camins de recursos. Intenteu «%2».</translation>
     </message>
     <message>
         <source>&quot;%1&quot;: no such directory</source>
-        <translation>«%1»: no hi ha aquest directori</translation>
+        <translation type="vanished">«%1»: no hi ha aquest directori</translation>
     </message>
     <message>
         <source>import &quot;%1&quot; has no qmldir and no namespace</source>
-        <translation>importació de «%1» no té «qmldir» ni espai de noms</translation>
+        <translation type="vanished">importació de «%1» no té «qmldir» ni espai de noms</translation>
     </message>
     <message>
         <source>Cannot resolve URL for import &quot;%1&quot;</source>
-        <translation>No s&apos;ha pogut resoldre l&apos;URL per a importar «%1»</translation>
+        <translation type="vanished">No s&apos;ha pogut resoldre l&apos;URL per a importar «%1»</translation>
     </message>
     <message>
         <source>File name case mismatch for &quot;%1&quot;</source>
-        <translation>Les lletres minúscules i majúscules del nom del fitxer «%1» no coincideixen</translation>
+        <translation type="vanished">Les lletres minúscules i majúscules del nom del fitxer «%1» no coincideixen</translation>
     </message>
     <message>
         <source>static plugin for module &quot;%1&quot; with name &quot;%2&quot; has no metadata URI</source>
-        <translation>el connector estàtic per al mòdul «%1» amb el nom «%2» no té l&apos;URI de metadades</translation>
+        <translation type="vanished">el connector estàtic per al mòdul «%1» amb el nom «%2» no té l&apos;URI de metadades</translation>
     </message>
     <message>
         <source>static plugin for module &quot;%1&quot; with name &quot;%2&quot; cannot be loaded: %3</source>
-        <translation>el connector estàtic per al mòdul «%1» amb el nom «%2» no s&apos;ha pogut carregar: %3</translation>
+        <translation type="vanished">el connector estàtic per al mòdul «%1» amb el nom «%2» no s&apos;ha pogut carregar: %3</translation>
     </message>
     <message>
         <source>could not resolve all plugins for module &quot;%1&quot;</source>
-        <translation>no s&apos;han pogut resoldre tots els connectors del mòdul «%1»</translation>
+        <translation type="vanished">no s&apos;han pogut resoldre tots els connectors del mòdul «%1»</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; plugin &quot;%2&quot; not found</source>
-        <translation>mòdul «%1» no s&apos;ha trobat el connector «%2»</translation>
+        <translation type="vanished">mòdul «%1» no s&apos;ha trobat el connector «%2»</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; version %2.%3 cannot be imported because:
 %4</source>
-        <translation>mòdul «%1» versió %2.%3 no s&apos;ha pogut importar perquè:
+        <translation type="vanished">mòdul «%1» versió %2.%3 no s&apos;ha pogut importar perquè:
 %4</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; cannot be imported because:
 %2</source>
-        <translation>mòdul «%1» no s&apos;ha pogut importar perquè:
+        <translation type="vanished">mòdul «%1» no s&apos;ha pogut importar perquè:
 %2</translation>
     </message>
 </context>
@@ -701,6 +760,10 @@ Substituir-lo sobreescriurà el seu contingut actual.</translation>
     <message>
         <source>File is empty</source>
         <translation>El fitxer és buit</translation>
+    </message>
+    <message>
+        <source>Cached QML Unit has no objects</source>
+        <translation>La unitat QML en memòria cau no té objectes</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; is not installed</source>
@@ -757,6 +820,10 @@ Substituir-lo sobreescriurà el seu contingut actual.</translation>
         <translation>No s&apos;han pogut establir les propietats de %1 perquè és nul</translation>
     </message>
     <message>
+        <source>Using grouped property syntax on %1 which has no properties</source>
+        <translation>S&apos;està utilitzant la sintaxi de propietat agrupada a %1 que no té propietats</translation>
+    </message>
+    <message>
         <source>Cannot assign an object to signal property %1</source>
         <translation>No s&apos;ha pogut assignar un objecte a la propietat %1 del senyal</translation>
     </message>
@@ -775,6 +842,10 @@ Substituir-lo sobreescriurà el seu contingut actual.</translation>
     <message>
         <source>Cannot assign object to read only list</source>
         <translation>No s&apos;ha pogut assignar un objecte a una llista de només lectura</translation>
+    </message>
+    <message>
+        <source>Cannot construct value type from given object</source>
+        <translation>No es pot construir el tipus de valor a partir de l&apos;objecte donat</translation>
     </message>
     <message>
         <source>Cannot assign primitives to lists</source>
@@ -835,6 +906,18 @@ Substituir-lo sobreescriurà el seu contingut actual.</translation>
         <translation>No s&apos;ha pogut sobreescriure la propietat FINAL</translation>
     </message>
     <message>
+        <source>Nothing to override. Remove &quot;override&quot; keyword</source>
+        <translation>No hi ha res a sobreescriure. Elimineu la paraula clau «override»</translation>
+    </message>
+    <message>
+        <source>Cannot override non virtual property. Add &quot;virtual&quot; to the property of the base object</source>
+        <translation>No es pot sobreescriure una propietat no virtual. Afegiu «virtual» a la propietat de l&apos;objecte base</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>desconegut</translation>
+    </message>
+    <message>
         <source>Invalid signal parameter type: %1</source>
         <translation>Tipus no vàlid de paràmetre del senyal: %1</translation>
     </message>
@@ -848,7 +931,7 @@ Substituir-lo sobreescriurà el seu contingut actual.</translation>
     </message>
     <message>
         <source>Invalid property type</source>
-        <translation>Tipus de propietat no vàlid</translation>
+        <translation type="vanished">Tipus de propietat no vàlid</translation>
     </message>
     <message>
         <source>Cyclic alias</source>
@@ -915,7 +998,7 @@ Substituir-lo sobreescriurà el seu contingut actual.</translation>
     </message>
     <message>
         <source>Invalid grouped property access: Property &quot;%1&quot; with type &quot;%2&quot;, which is not a value type</source>
-        <translation>Accés no vàlid a una propietat agrupada: propietat «%1» amb el tipus «%2», el qual no és un tipus de valor</translation>
+        <translation type="vanished">Accés no vàlid a una propietat agrupada: propietat «%1» amb el tipus «%2», el qual no és un tipus de valor</translation>
     </message>
     <message>
         <source>Cannot assign to non-existent default property</source>
@@ -940,6 +1023,14 @@ Substituir-lo sobreescriurà el seu contingut actual.</translation>
     <message>
         <source> - Assigning null to incompatible properties in QML is deprecated. This will become a compile error in future versions of Qt.</source>
         <translation type="vanished"> - L&apos;assignació de «null» a propietats incompatibles en el QML és obsoleta. Això es convertirà en un error de compilació en versions futures de les Qt.</translation>
+    </message>
+    <message>
+        <source>Invalid grouped property access: Property &quot;%1&quot; with type &quot;%2&quot;, which is neither a value nor an object type</source>
+        <translation>Accés no vàlid de propietat agrupada: la propietat «%1» amb el tipus «%2», que no és ni un valor ni un tipus d&apos;objecte</translation>
+    </message>
+    <message>
+        <source>Unsupported grouped property access: Property &quot;%1&quot; with type &quot;%2&quot; has a dynamic meta-object.</source>
+        <translation>Accés no admès de propietat agrupada: la propietat «%1» amb el tipus «%2» té un metaobjecte dinàmic.</translation>
     </message>
     <message>
         <source>Invalid property assignment: string expected</source>
@@ -1038,8 +1129,12 @@ Substituir-lo sobreescriurà el seu contingut actual.</translation>
         <translation>«%1» no pot operar en «%2»</translation>
     </message>
     <message>
+        <source>Cannot assign object of type &quot;%1&quot; to list property &quot;%2&quot;; expected &quot;%3&quot;</source>
+        <translation>No s&apos;ha pogut assignar l&apos;objecte de tipus «%1» a la propietat de llista «%2»; s&apos;esperava «%3»</translation>
+    </message>
+    <message>
         <source>Cannot assign object to list property &quot;%1&quot;</source>
-        <translation>No s&apos;ha pogut assignar un objecte a la propietat «%1» de la llista</translation>
+        <translation type="vanished">No s&apos;ha pogut assignar un objecte a la propietat «%1» de la llista</translation>
     </message>
     <message>
         <source>Cannot assign value of type &quot;%1&quot; to property &quot;%2&quot;, expecting &quot;%3&quot;</source>
@@ -1051,7 +1146,7 @@ Substituir-lo sobreescriurà el seu contingut actual.</translation>
     </message>
     <message>
         <source>Cannot assign value of type &quot;%1&quot; to property &quot;%2&quot;, expecting an object</source>
-        <translation>No s&apos;ha pogut assignar el valor del tipus «%1» a la propietat «%2», s&apos;esperava un objecte</translation>
+        <translation type="vanished">No s&apos;ha pogut assignar el valor del tipus «%1» a la propietat «%2», s&apos;esperava un objecte</translation>
     </message>
     <message>
         <source>Cannot assign object of type &quot;%1&quot; to property of type &quot;%2&quot; as the former is neither the same as the latter nor a sub-class of it.</source>
@@ -1268,7 +1363,7 @@ Substituir-lo sobreescriurà el seu contingut actual.</translation>
     </message>
     <message>
         <source>Expected only type, name, revision, isPointer, isReadonly, isRequired, isFinal, isList, bindable, read, write, reset, notify, index, and privateClass and script bindings.</source>
-        <translation>Només s&apos;espera un tipus, nom, revisió, «isPointer», «isReadonly», «isRequired», «isFinal», «isList», «bindable», «read», «write», «reset», «notify», «index» o «privateClass» i vinculacions de scripts.</translation>
+        <translation type="vanished">Només s&apos;espera un tipus, nom, revisió, «isPointer», «isReadonly», «isRequired», «isFinal», «isList», «bindable», «read», «write», «reset», «notify», «index» o «privateClass» i vinculacions de scripts.</translation>
     </message>
     <message>
         <source>Property object is missing a name script binding.</source>
@@ -1284,19 +1379,39 @@ Substituir-lo sobreescriurà el seu contingut actual.</translation>
     </message>
     <message>
         <source>Expected only name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isStructured, isComposite, hasCustomParser, exportMetaObjectRevisions, deferredNames, and immediateNames in script bindings, not &quot;%1&quot;.</source>
-        <translation>Només s&apos;esperava «name», «prototype», «defaultProperty», «attachedType», «valueType», «exports», «interfaces», «isSingleton», «isCreatable», «isStructured», «isComposite», «hasCustomParser», «exportMetaObjectRevisions», «deferredNames» i «immediateNames» en els llligams d&apos;scripts, no «%1».</translation>
+        <translation type="vanished">Només s&apos;esperava «name», «prototype», «defaultProperty», «attachedType», «valueType», «exports», «interfaces», «isSingleton», «isCreatable», «isStructured», «isComposite», «hasCustomParser», «exportMetaObjectRevisions», «deferredNames» i «immediateNames» en els lligams de scripts, no «%1».</translation>
     </message>
     <message>
         <source>Expected only name, type, revision, isPointer, isList, isCloned, isConstructor, and isJavaScriptFunction in script bindings.</source>
-        <translation>Només s&apos;esperava «name», «type», «revision», «isPointer», «isList», «isCloned», «isConstructor» i «isJavaScriptFunction» en els lligams d&apos;scripts.</translation>
+        <translation type="vanished">Només s&apos;esperava «name», «type», «revision», «isPointer», «isList», «isCloned», «isConstructor» i «isJavaScriptFunction» en els lligams de scripts.</translation>
     </message>
     <message>
         <source>Expected only name, alias, isFlag, values, scoped, or type.</source>
-        <translation>Només s&apos;esperavas «name», «alias», «isFlag», «values», «scoped» o «type».</translation>
+        <translation type="vanished">Només s&apos;esperava «name», «alias», «isFlag», «values», «scoped» o «type».</translation>
     </message>
     <message>
         <source>Expected only name, type, isPointer, isConstant, isReadonly, or IsList script bindings.</source>
-        <translation>Només s&apos;esperava «name», «type», «isPointer», «isConstant», «isReadonly» o «IsList» als lligams d&apos;scripts.</translation>
+        <translation type="vanished">Només s&apos;esperava «name», «type», «isPointer», «isConstant», «isReadonly» o «IsList» als lligams de scripts.</translation>
+    </message>
+    <message>
+        <source>Expected only lineNumber, name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isStructured, isComposite, hasCustomParser, enforcesScopedEnums, aliases, exportMetaObjectRevisions, deferredNames, and immediateNames in script bindings, not &quot;%1&quot;.</source>
+        <translation>Només s&apos;esperava lineNumber, name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isStructured, isComposite, hasCustomParser, enforcesScopedEnums, aliases, exportMetaObjectRevisions, deferredNames i immediateNames als lligams de script, no «%1».</translation>
+    </message>
+    <message>
+        <source>Expected only name, lineNumber, type, revision, isPointer, isTypeConstant, isList, isCloned, isConstructor, isMethodConstant, and isJavaScriptFunction in script bindings.</source>
+        <translation>Només s&apos;esperava name, lineNumber, type, revision, isPointer, isTypeConstant, isList, isCloned, isConstructor, isMethodConstant i isJavaScriptFunction als lligams de script.</translation>
+    </message>
+    <message>
+        <source>Expected only type, name, lineNumber, revision, isPointer, isTypeConstant, isReadonly, isRequired, isFinal, isList, bindable, read, write, isPropertyConstant, reset, notify, index, privateClass and script bindings.</source>
+        <translation>Només s&apos;esperava type, name, lineNumber, revision, isPointer, isTypeConstant, isReadonly, isRequired, isFinal, isList, bindable, read, write, isPropertyConstant, reset, notify, index, privateClass i lligams de scripts.</translation>
+    </message>
+    <message>
+        <source>Expected only name, alias, isFlag, values, isScoped, type, or lineNumber.</source>
+        <translation>Només s&apos;esperava name, alias, isFlag, values, isScoped, type o lineNumber.</translation>
+    </message>
+    <message>
+        <source>Expected only name, type, isPointer, isTypeConstant, isReadonly, or IsList script bindings.</source>
+        <translation>Només s&apos;esperava name, type, isPointer, isTypeConstant, isReadonly o IsList de lligams de scripts.</translation>
     </message>
     <message>
         <source>Expected string after colon.</source>
@@ -1634,19 +1749,19 @@ La revisió %1 correspon a la versió %2.%3; i hauria de ser %4.%5.</translation
     </message>
     <message>
         <source>loadFile called without DomEnvironment or DomUniverse.</source>
-        <translation>S&apos;ha cridat «loadFile» sense «DomEnvironment» o «DomUniverse».</translation>
+        <translation type="vanished">S&apos;ha cridat «loadFile» sense «DomEnvironment» o «DomUniverse».</translation>
     </message>
     <message>
         <source>loadModuleDependency called without DomEnvironment.</source>
-        <translation>S&apos;ha cridat «loadModuleDependency» sense «DomEnvironment».</translation>
+        <translation type="vanished">S&apos;ha cridat «loadModuleDependency» sense «DomEnvironment».</translation>
     </message>
     <message>
         <source>Cannot load builtins without DomEnvironment</source>
-        <translation>No s&apos;han pogut carregar les «builtins» sense «DomEnvironment»</translation>
+        <translation type="vanished">No s&apos;han pogut carregar les «builtins» sense «DomEnvironment»</translation>
     </message>
     <message>
         <source>Called loadPendingDependencies without environment</source>
-        <translation>S&apos;ha cridat «loadPendingDependencis» sense entorn</translation>
+        <translation type="vanished">S&apos;ha cridat «loadPendingDependencis» sense entorn</translation>
     </message>
 </context>
 <context>
@@ -1694,7 +1809,7 @@ La revisió %1 correspon a la versió %2.%3; i hauria de ser %4.%5.</translation
     </message>
     <message>
         <source>Ignoring callback for loading of %1: universe is not valid anymore</source>
-        <translation>S&apos;ha ignorat la crida de retorn per a la càrrega de %1: l&apos;univers ja no és vàlid</translation>
+        <translation type="vanished">S&apos;ha ignorat la crida de retorn per a la càrrega de %1: l&apos;univers ja no és vàlid</translation>
     </message>
     <message>
         <source>Non existing path %1</source>
@@ -1721,7 +1836,7 @@ La revisió %1 correspon a la versió %2.%3; i hauria de ser %4.%5.</translation
     </message>
     <message>
         <source>Ignoring dependencies for non resolved path import %1</source>
-        <translation>S&apos;ignoren les dependències per al camí no resolt d&apos;importació %1</translation>
+        <translation type="vanished">S&apos;ignoren les dependències per al camí no resolt d&apos;importació %1</translation>
     </message>
     <message>
         <source>Ignoring dependencies for empty (invalid) type %1</source>
@@ -1760,7 +1875,11 @@ La revisió %1 correspon a la versió %2.%3; i hauria de ser %4.%5.</translation
     </message>
     <message>
         <source>Could not find builtins.qmltypes file</source>
-        <translation>No s&apos;ha pogut trobar el fitxer «builtins.qmltypes»</translation>
+        <translation type="vanished">No s&apos;ha pogut trobar el fitxer «builtins.qmltypes»</translation>
+    </message>
+    <message>
+        <source>Could not find the QML/plugins.qmltypes file</source>
+        <translation>No s&apos;ha pogut trobar el fitxer QML/plugins.qmltypes</translation>
     </message>
     <message>
         <source>A mutable module was requested in a multithreaded environment</source>
@@ -1901,7 +2020,11 @@ La revisió %1 correspon a la versió %2.%3; i hauria de ser %4.%5.</translation
     <name>QQmlDelegateModel</name>
     <message>
         <source>The delegate of a DelegateModel cannot be changed within onUpdated.</source>
-        <translation>El delegat d&apos;un «DelegateModel» no es pot canviar a dins d&apos;«onUpdated».</translation>
+        <translation>El delegat d&apos;un «DelegateModel» no es pot canviar en «onUpdated».</translation>
+    </message>
+    <message>
+        <source>The delegateModelAccess of a DelegateModel cannot be changed within onUpdated.</source>
+        <translation>El «delegateModelAccess» d&apos;un «DelegateModel» no es pot canviar en «onUpdated».</translation>
     </message>
     <message>
         <source>The maximum number of supported DelegateModelGroups is 8</source>
@@ -2108,7 +2231,11 @@ La revisió %1 correspon a la versió %2.%3; i hauria de ser %4.%5.</translation
     <name>QQuickLayoutMirroringAttached</name>
     <message>
         <source>LayoutDirection attached property only works with Items and Windows</source>
-        <translation>La propietat adjunta «LayoutDirection» només funciona amb «Items» i «Windows»</translation>
+        <translation type="vanished">La propietat adjunta «LayoutDirection» només funciona amb «Items» i «Windows»</translation>
+    </message>
+    <message>
+        <source>LayoutMirroring attached property only works with Items and Windows</source>
+        <translation>La propietat adjunta «LayoutMirroring» només funciona amb «Items» i «Windows»</translation>
     </message>
 </context>
 <context>
@@ -2346,15 +2473,256 @@ La revisió %1 correspon a la versió %2.%3; i hauria de ser %4.%5.</translation
     <name>QQuickTextDocument</name>
     <message>
         <source>Cannot load:</source>
-        <translation>No s&apos;ha pogut carregar:</translation>
+        <translation type="vanished">No s&apos;ha pogut carregar:</translation>
     </message>
     <message>
         <source>Cannot save:</source>
-        <translation>No s&apos;ha pogut desar:</translation>
+        <translation type="vanished">No s&apos;ha pogut desar:</translation>
+    </message>
+    <message>
+        <source>Null document object: cannot load</source>
+        <translation>Objecte de document nul: no es pot carregar</translation>
+    </message>
+    <message>
+        <source>Failed to read: %1</source>
+        <translation>Ha fallat en llegir: %1</translation>
+    </message>
+    <message>
+        <source>%1 does not exist</source>
+        <translation>%1 no existeix</translation>
+    </message>
+    <message>
+        <source>Cannot save: %1</source>
+        <translation>No s&apos;ha pogut desar: %1</translation>
     </message>
     <message>
         <source>Can only save to local files</source>
         <translation>Només es pot desar a fitxers locals</translation>
+    </message>
+</context>
+<context>
+    <name>CopyAction</name>
+    <message>
+        <source>Copy</source>
+        <translation>Copia</translation>
+    </message>
+</context>
+<context>
+    <name>CutAction</name>
+    <message>
+        <source>Cut</source>
+        <translation>Retalla</translation>
+    </message>
+</context>
+<context>
+    <name>DeleteAction</name>
+    <message>
+        <source>Delete</source>
+        <translation>Suprimeix</translation>
+    </message>
+</context>
+<context>
+    <name>PasteAction</name>
+    <message>
+        <source>Paste</source>
+        <translation>Enganxa</translation>
+    </message>
+</context>
+<context>
+    <name>RedoAction</name>
+    <message>
+        <source>Redo</source>
+        <translation>Refés</translation>
+    </message>
+</context>
+<context>
+    <name>SelectAllAction</name>
+    <message>
+        <source>Select All</source>
+        <translation>Selecciona-ho tot</translation>
+    </message>
+</context>
+<context>
+    <name>UndoAction</name>
+    <message>
+        <source>Undo</source>
+        <translation>Desfés</translation>
+    </message>
+</context>
+<context>
+    <name>SideBar</name>
+    <message>
+        <source>Add Favorite</source>
+        <translation>Afegeix un preferit</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlComponentAndAliasResolverBase</name>
+    <message>
+        <source>Cannot wrap implicit component</source>
+        <translation>No es pot ajustar el component implícit</translation>
+    </message>
+    <message>
+        <source>Cannot mark object as component</source>
+        <translation>No es pot marcar l&apos;objecte com a component</translation>
+    </message>
+    <message>
+        <source>Component objects cannot declare new functions.</source>
+        <translation>Els objectes del component no poden declarar funcions noves.</translation>
+    </message>
+    <message>
+        <source>Component objects cannot declare new properties.</source>
+        <translation>Els objectes del component no poden declarar propietats noves.</translation>
+    </message>
+    <message>
+        <source>Component objects cannot declare new signals.</source>
+        <translation>Els objectes del component no poden declarar senyals nous.</translation>
+    </message>
+    <message>
+        <source>Cannot create empty component specification</source>
+        <translation>No s&apos;ha pogut crear una especificació buida de component</translation>
+    </message>
+    <message>
+        <source>Component elements may not contain properties other than id</source>
+        <translation>Els elements del component no poden contenir altres propietats a part d&apos;ID</translation>
+    </message>
+    <message>
+        <source>Invalid component body specification</source>
+        <translation>Especificació no vàlida del cos del component</translation>
+    </message>
+    <message>
+        <source>id is not unique</source>
+        <translation>L&apos;ID no és únic</translation>
+    </message>
+    <message>
+        <source>Cyclic alias</source>
+        <translation>Àlies cíclic</translation>
+    </message>
+    <message>
+        <source>Invalid alias reference. Unable to find id &quot;%1&quot;</source>
+        <translation>Referència no vàlida d&apos;àlies. No s&apos;ha pogut trobar l&apos;ID «%1»</translation>
+    </message>
+    <message>
+        <source>Invalid alias target location: %1</source>
+        <translation>Ubicació no vàlida del destí de l&apos;àlies: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlImports</name>
+    <message>
+        <source>module &quot;%1&quot; version %2.%3 is not installed</source>
+        <translation>el mòdul «%1» versió %2.%3 no està instal·lat</translation>
+    </message>
+    <message>
+        <source>module &quot;%1&quot; is not installed</source>
+        <translation>el mòdul «%1» no està instal·lat</translation>
+    </message>
+    <message>
+        <source>&quot;%1&quot; is ambiguous. Found in %2 and in %3</source>
+        <translation>«%1» és ambigu. S&apos;ha trobat a %2 i a %3</translation>
+    </message>
+    <message>
+        <source>- %1 is neither a type nor a namespace</source>
+        <translation>- %1 ni és un tipus ni un espai de noms</translation>
+    </message>
+    <message>
+        <source>- %1 is not a namespace</source>
+        <translation>- %1 no és un espai de noms</translation>
+    </message>
+    <message>
+        <source>- %1 is not a type</source>
+        <translation>- %1 no és un tipus</translation>
+    </message>
+    <message>
+        <source>- nested namespaces not allowed</source>
+        <translation>- no es permeten espais de noms imbricats</translation>
+    </message>
+    <message>
+        <source>local directory</source>
+        <translation>directori local</translation>
+    </message>
+    <message>
+        <source>is ambiguous. Found in %1 and in %2</source>
+        <translation>és ambigu. S&apos;ha trobat a %1 i a %2</translation>
+    </message>
+    <message>
+        <source>is ambiguous. Found in %1 in version %2.%3 and %4.%5</source>
+        <translation>és ambigu. S&apos;ha trobat a %1 amb la versió %2.%3 i %4.%5</translation>
+    </message>
+    <message>
+        <source>is instantiated recursively</source>
+        <translation>està instanciat recursivament</translation>
+    </message>
+    <message>
+        <source>is not a type</source>
+        <translation>no és un tipus</translation>
+    </message>
+    <message>
+        <source>module does not support the designer &quot;%1&quot;</source>
+        <translation>el mòdul no permet el dissenyador «%1»</translation>
+    </message>
+    <message>
+        <source>&quot;%1&quot; version %2.%3 is defined more than once in module &quot;%4&quot;</source>
+        <translation>«%1» versió %2.%3 està definit més d&apos;una vegada en el mòdul «%4»</translation>
+    </message>
+    <message>
+        <source>&quot;%1&quot; is not a valid import URL. You can pass relative paths or URLs with schema, but not absolute paths or resource paths. Try &quot;%2&quot;.</source>
+        <translation>«%1» no és un URL vàlid d&apos;importació. Podeu passar camins relatius o URL amb esquema, però no camins absoluts o camins de recursos. Intenteu «%2».</translation>
+    </message>
+    <message>
+        <source>&quot;%1&quot;: no such directory</source>
+        <translation>«%1»: no hi ha aquest directori</translation>
+    </message>
+    <message>
+        <source>import &quot;%1&quot; has no qmldir and no namespace</source>
+        <translation>importació de «%1» no té «qmldir» ni espai de noms</translation>
+    </message>
+    <message>
+        <source>Cannot resolve URL for import &quot;%1&quot;</source>
+        <translation>No s&apos;ha pogut resoldre l&apos;URL per a importar «%1»</translation>
+    </message>
+    <message>
+        <source>Found plugin with old IID, this will be unsupported in upcoming Qt releases:</source>
+        <translation>S&apos;ha trobat un connector amb IID antic, això no serà compatible a les properes versions de les Qt:</translation>
+    </message>
+    <message>
+        <source>qml static plugin with name &quot;%2&quot; has no metadata URI</source>
+        <translation>el connector estàtic qml amb el nom «%2» no té cap URI de metadades</translation>
+    </message>
+    <message>
+        <source>could not resolve all plugins for module &quot;%1&quot;</source>
+        <translation>no s&apos;han pogut resoldre tots els connectors del mòdul «%1»</translation>
+    </message>
+    <message>
+        <source>module &quot;%1&quot; plugin &quot;%2&quot; not found</source>
+        <translation>mòdul «%1» no s&apos;ha trobat el connector «%2»</translation>
+    </message>
+    <message>
+        <source>module &quot;%1&quot; version %2.%3 cannot be imported because:
+%4</source>
+        <translation>mòdul «%1» versió %2.%3 no s&apos;ha pogut importar perquè:
+%4</translation>
+    </message>
+    <message>
+        <source>module &quot;%1&quot; cannot be imported because:
+%2</source>
+        <translation>mòdul «%1» no s&apos;ha pogut importar perquè:
+%2</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlProfilerQtdWriter</name>
+    <message>
+        <source>Could not open %1 for writing</source>
+        <translation>No s&apos;ha pogut obrir %1 per a escriure-hi</translation>
+    </message>
+    <message>
+        <source>Could not open stdout for writing</source>
+        <translation>No s&apos;ha pogut obrir «stdout» per a escriure-hi</translation>
+    </message>
+    <message>
+        <source>No data to save</source>
+        <translation>No hi ha dades a desar</translation>
     </message>
 </context>
 </TS>

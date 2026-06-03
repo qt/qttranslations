@@ -428,30 +428,8 @@ Drücken Sie ESC, um abzubrechen</translation>
         <translation>Einstellungen zum Druckauftrag</translation>
     </message>
     <message>
-        <source>Scheduled printing:</source>
-        <translation>Zum Drucken vorgesehen:</translation>
-    </message>
-    <message>
-        <source>Billing information:</source>
-        <translation>Rechnungsinformation:</translation>
-    </message>
-    <message>
-        <source>Job priority:</source>
-        <translation>Priorität des Druckauftrags:</translation>
-    </message>
-    <message>
         <source>Banner Pages</source>
         <translation>Kopfseiten</translation>
-    </message>
-    <message>
-        <source>End:</source>
-        <comment>Banner page at end</comment>
-        <translation>Ende:</translation>
-    </message>
-    <message>
-        <source>Start:</source>
-        <comment>Banner page at start</comment>
-        <translation>Anfang:</translation>
     </message>
     <message>
         <source>Print Immediately</source>
@@ -519,6 +497,28 @@ Drücken Sie ESC, um abzubrechen</translation>
         <source>Top Secret</source>
         <comment>CUPS Banner page</comment>
         <translation>Streng geheim</translation>
+    </message>
+    <message>
+        <source>Scheduled &amp;printing:</source>
+        <translation>Zum &amp;Drucken vorgesehen:</translation>
+    </message>
+    <message>
+        <source>&amp;Billing information:</source>
+        <translation>&amp;Rechnungsinformation:</translation>
+    </message>
+    <message>
+        <source>Job &amp;priority:</source>
+        <translation>&amp;Priorität des Druckauftrags:</translation>
+    </message>
+    <message>
+        <source>&amp;Start:</source>
+        <comment>Banner page at start</comment>
+        <translation>&amp;Anfang:</translation>
+    </message>
+    <message>
+        <source>&amp;End:</source>
+        <comment>Banner page at end</comment>
+        <translation>&amp;Ende:</translation>
     </message>
 </context>
 <context>
@@ -986,12 +986,8 @@ Drücken Sie ESC, um abzubrechen</translation>
         <translation>Eine sequentielle Datei wird nicht durch blockweises Kopieren umbenannt</translation>
     </message>
     <message>
-        <source>Cannot remove source file</source>
-        <translation>Die Quelldatei kann nicht entfernt werden</translation>
-    </message>
-    <message>
-        <source>Cannot open destination file: %1</source>
-        <translation>Die Zieldatei kann nicht geöffnet werden: %1</translation>
+        <source>Cannot remove source file: %1</source>
+        <translation>Die Quelldatei kann nicht entfernt werden: %1</translation>
     </message>
     <message>
         <source>Cannot open %1 for input</source>
@@ -1002,12 +998,12 @@ Drücken Sie ESC, um abzubrechen</translation>
         <translation>Kann nicht zum Schreiben geöffnet werden: %1</translation>
     </message>
     <message>
-        <source>Failure to write block: %1</source>
-        <translation>Der Datenblock konnte nicht geschrieben werden: %1</translation>
+        <source>Could not copy to %1: %2</source>
+        <translation>Es kann nicht nach %1 kopiert werden: %2</translation>
     </message>
     <message>
-        <source>Cannot create %1 for output: %2</source>
-        <translation>%1 kann nicht erstellt werden: %2</translation>
+        <source>Failure to write block: %1</source>
+        <translation>Datenblock konnte nicht geschrieben werden: %1</translation>
     </message>
 </context>
 <context>
@@ -1023,10 +1019,6 @@ Drücken Sie ESC, um abzubrechen</translation>
 </context>
 <context>
     <name>QFileDialog</name>
-    <message>
-        <source>Look in:</source>
-        <translation>Suchen in:</translation>
-    </message>
     <message>
         <source>Back</source>
         <translation>Zurück</translation>
@@ -1086,10 +1078,6 @@ Drücken Sie ESC, um abzubrechen</translation>
     <message>
         <source>Files</source>
         <translation>Dateien</translation>
-    </message>
-    <message>
-        <source>Files of type:</source>
-        <translation>Dateien des Typs:</translation>
     </message>
     <message>
         <source>Find Directory</source>
@@ -1218,6 +1206,14 @@ Möchten Sie die Datei trotzdem löschen?</translation>
     <message>
         <source>Alt+Up</source>
         <translation>Alt+Up</translation>
+    </message>
+    <message>
+        <source>&amp;Look in:</source>
+        <translation>&amp;Suchen in:</translation>
+    </message>
+    <message>
+        <source>Files of &amp;type:</source>
+        <translation>Dateien des &amp;Typs:</translation>
     </message>
 </context>
 <context>
@@ -1527,11 +1523,11 @@ Möchten Sie die Datei trotzdem löschen?</translation>
     </message>
     <message>
         <source>Platform theme.</source>
-        <translation>Plattform-Theme.</translation>
+        <translation>Plattform-Thema.</translation>
     </message>
     <message>
         <source>Additional plugins to load, can be specified multiple times.</source>
-        <translation>Zu ladende zusätzliche Plugins, kann mehrfach angegeben werden.</translation>
+        <translation>Zusätzlich zu ladende Plugins, kann mehrfach angegeben werden.</translation>
     </message>
     <message>
         <source>Window geometry for the main window, using the X11-syntax, like 100x100+50+50.</source>
@@ -1669,6 +1665,15 @@ Möchten Sie die Datei trotzdem löschen?</translation>
     <message>
         <source>The decompressed output exceeds the limits specified by QNetworkRequest::decompressedSafetyCheckThreshold()</source>
         <translation>Die Größe der dekomprimierten Ausgabedaten überschreitet die durch QNetworkRequest::decompressedSafetyCheckThreshold() gesetzten Grenzen</translation>
+    </message>
+    <message>
+        <source>Brotli error: %1</source>
+        <extracomment>Brotli (compression algorithm) decoding error, e.g. corrupted input or memory allocation problem.</extracomment>
+        <translation>Brotli-Fehler: %1</translation>
+    </message>
+    <message>
+        <source>ZStandard error: %1</source>
+        <translation>ZStandard-Fehler: %1</translation>
     </message>
     <message>
         <source>Decompression failed: %1</source>
@@ -2677,12 +2682,20 @@ Möchten Sie die Datei trotzdem löschen?</translation>
         <source>Error transferring %1 - server replied: %2</source>
         <translation>Bei der Übertragung von %1 trat ein Fehler auf - Die Antwort des Servers ist: %2</translation>
     </message>
+    <message>
+        <source>Error transferring %1 - server replied with status code %2</source>
+        <translation>Fehler beim Übertragen von %1 - Server antwortete mit Statuscode %2</translation>
+    </message>
 </context>
 <context>
     <name>QNetworkReplyHttpImpl</name>
     <message>
         <source>Operation canceled</source>
         <translation>Operation abgebrochen</translation>
+    </message>
+    <message>
+        <source>Operation timed out</source>
+        <translation>Zeitüberschreitung</translation>
     </message>
     <message>
         <source>No suitable proxy found</source>
@@ -3008,12 +3021,12 @@ Möchten Sie die Datei trotzdem löschen?</translation>
         <translation>Seitenaufbau</translation>
     </message>
     <message>
-        <source>Page order:</source>
-        <translation>Reihenfolge der Seiten:</translation>
+        <source>Page &amp;order:</source>
+        <translation>Reihenf&amp;olge der Seiten:</translation>
     </message>
     <message>
-        <source>Pages per sheet:</source>
-        <translation>Seiten pro Blatt:</translation>
+        <source>Pages &amp;per sheet:</source>
+        <translation>Seiten &amp;pro Blatt:</translation>
     </message>
 </context>
 <context>
@@ -3735,6 +3748,7 @@ Bitte deaktivieren Sie eine der beiden.</translation>
     </message>
     <message>
         <source>%1%</source>
+        <extracomment>Zoom factor percentage value, % is the percent sign</extracomment>
         <translation>%1%</translation>
     </message>
     <message>
@@ -3919,10 +3933,6 @@ Bitte deaktivieren Sie eine der beiden.</translation>
         <translation>Graustufen</translation>
     </message>
     <message>
-        <source>Page Set:</source>
-        <translation>Seiten-Satz:</translation>
-    </message>
-    <message>
         <source>Pages</source>
         <translation>Seiten</translation>
     </message>
@@ -3945,6 +3955,10 @@ Bitte deaktivieren Sie eine der beiden.</translation>
     <message>
         <source>Short side binding</source>
         <translation>Kurze Seite</translation>
+    </message>
+    <message>
+        <source>Page &amp;Set:</source>
+        <translation>Seiten-&amp;Satz:</translation>
     </message>
 </context>
 <context>
@@ -5564,6 +5578,10 @@ Bitte deaktivieren Sie eine der beiden.</translation>
         <translation>Zeit</translation>
     </message>
     <message>
+        <source>Keyboard</source>
+        <translation>Tastatur</translation>
+    </message>
+    <message>
         <source>Select</source>
         <translation>Auswählen</translation>
     </message>
@@ -6113,9 +6131,7 @@ Bitte deaktivieren Sie eine der beiden.</translation>
     </message>
     <message>
         <source>frame</source>
-        <extracomment>Role of an accessible object: a window with frame and title
-----------
-Role of an accessible object</extracomment>
+        <extracomment>Role of an accessible object: a window with frame and title</extracomment>
         <translation>Rahmen</translation>
     </message>
     <message>
@@ -6237,6 +6253,11 @@ Role of an accessible object</extracomment>
         <source>check box</source>
         <extracomment>Role of an accessible object</extracomment>
         <translation>Checkbox</translation>
+    </message>
+    <message>
+        <source>switch</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Schalter</translation>
     </message>
     <message>
         <source>radio button</source>
@@ -6387,6 +6408,11 @@ Role of an accessible object</extracomment>
         <source>notification</source>
         <extracomment>Role of an accessible object</extracomment>
         <translation>Benachrichtigung</translation>
+    </message>
+    <message>
+        <source>block quote</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>Zitatblock</translation>
     </message>
     <message>
         <source>unknown</source>
@@ -6752,6 +6778,10 @@ Role of an accessible object</extracomment>
         <translation>Die Daten konnten nicht verschlüsselt werden</translation>
     </message>
     <message>
+        <source>The data could not be decrypted</source>
+        <translation>Die Daten konnten nicht entschlüsselt werden</translation>
+    </message>
+    <message>
         <source>No cipher suites in common</source>
         <translation>Keine gemeinsamen Cipher Suites</translation>
     </message>
@@ -6774,14 +6804,6 @@ Role of an accessible object</extracomment>
     <message>
         <source>Invalid protocol chosen</source>
         <translation>Es wurde ein ungültiges Protokoll gewählt</translation>
-    </message>
-    <message>
-        <source>The certificate provided cannot be used for a client.</source>
-        <translation>Das bereitgestellte Zertifikat kann nicht für einen Client verwendet werden.</translation>
-    </message>
-    <message>
-        <source>The certificate provided cannot be used for a server.</source>
-        <translation>Das bereitgestellte Zertifikat kann nicht für einen Server verwendet werden.</translation>
     </message>
     <message>
         <source>Server did not accept any certificate we could present.</source>
@@ -6871,6 +6893,10 @@ Role of an accessible object</extracomment>
         <translation>Gemeinsame Statusdaten</translation>
     </message>
     <message>
+        <source>Downloads</source>
+        <translation>Downloads</translation>
+    </message>
+    <message>
         <source>Application Configuration</source>
         <translation>Anwendungskonfiguration</translation>
     </message>
@@ -6905,10 +6931,6 @@ Role of an accessible object</extracomment>
     <message>
         <source>Shared Cache</source>
         <translation>Gemeinsamer Zwischenspeicher</translation>
-    </message>
-    <message>
-        <source>Download</source>
-        <translation>Download</translation>
     </message>
     <message>
         <source>Temporary Items</source>
@@ -7273,6 +7295,10 @@ Die minimal erforderliche Version von Direct2D ist %1 Die auf diesem System inst
         <translation>Überzähliger Inhalt nach Ende des Dokuments.</translation>
     </message>
     <message>
+        <source>Unexpected token while reading raw inner data.</source>
+        <translation>Nicht erwartetes Token beim Lesen der enthaltenen Rohdaten.</translation>
+    </message>
+    <message>
         <source>Invalid entity value.</source>
         <translation>Ungültiger Entity-Wert.</translation>
     </message>
@@ -7379,6 +7405,22 @@ Die minimal erforderliche Version von Direct2D ist %1 Die auf diesem System inst
     <message>
         <source>Expected character data.</source>
         <translation>Es wurden Zeichendaten erwartet.</translation>
+    </message>
+    <message>
+        <source>An I/O error occurred while writing</source>
+        <translation>Beim Schreiben trat ein Ein/Ausgabefehler auf</translation>
+    </message>
+    <message>
+        <source>An encoding error occurred while writing</source>
+        <translation>Beim Schreiben trat ein Kodierungsfehler auf</translation>
+    </message>
+    <message>
+        <source>Encountered an invalid XML 1.0 character while writing</source>
+        <translation>Beim Schreiben wurde ein ungültiges XML 1.0-Zeichen festgestellt</translation>
+    </message>
+    <message>
+        <source>An error occurred while writing</source>
+        <translation>Beim Schreiben trat ein Fehler auf</translation>
     </message>
     <message>
         <source>Unexpected token type %1 in %2.</source>
@@ -7551,21 +7593,6 @@ Die minimal erforderliche Version von Direct2D ist %1 Die auf diesem System inst
     </message>
 </context>
 <context>
-    <name>QFactoryLoader</name>
-    <message>
-        <source>Invalid metadata version</source>
-        <translation>Version der Metadaten ist ungültig</translation>
-    </message>
-    <message>
-        <source>Metadata parsing error: %1</source>
-        <translation>Fehler beim Auswerten der Metadaten: %1</translation>
-    </message>
-    <message>
-        <source>Unexpected metadata contents</source>
-        <translation>Unerwarteter Inhalt der Metadaten</translation>
-    </message>
-</context>
-<context>
     <name>QCocoaMenuBar</name>
     <message>
         <source>Edit</source>
@@ -7684,26 +7711,48 @@ Die minimal erforderliche Version von Direct2D ist %1 Die auf diesem System inst
     </message>
 </context>
 <context>
-    <name>Assets::Downloader::AssetDownloader</name>
+    <name>QCoreApplication</name>
     <message>
-        <source>Downloading JSON file...</source>
-        <translation>JSON-Datei wird heruntergeladen...</translation>
+        <source>QHttp</source>
+        <translation>QHttp</translation>
+    </message>
+</context>
+<context>
+    <name>QWindowsUiaMainProvider</name>
+    <message>
+        <source>blockquote</source>
+        <translation>Zitatblock</translation>
+    </message>
+</context>
+<context>
+    <name>QProgressBar</name>
+    <message>
+        <source>%p%</source>
+        <extracomment>%p is the percent value, % is the percent sign. When translated to the identical %p%, then the second % symbol will be replaced by the percentage-symbol from the user&apos;s locale.</extracomment>
+        <translation>%p%</translation>
+    </message>
+</context>
+<context>
+    <name>QAccessibleColorWellItem</name>
+    <message>
+        <source>RGB %1, %2, %3</source>
+        <extracomment>Color specified via its 3 RGB components (red, green, blue)</extracomment>
+        <translation>RGB %1, %2, %3</translation>
+    </message>
+</context>
+<context>
+    <name>QFactoryLoader</name>
+    <message>
+        <source>Metadata parsing error: %1</source>
+        <translation>Fehler beim Auswerten der Metadaten: %1</translation>
     </message>
     <message>
-        <source>Downloading zip file...</source>
-        <translation>ZIP-Datei wird heruntergeladen...</translation>
+        <source>Invalid metadata version</source>
+        <translation>Version der Metadaten ist ungültig</translation>
     </message>
     <message>
-        <source>Unzipping...</source>
-        <translation>Entpacken...</translation>
-    </message>
-    <message>
-        <source>Downloading assets...</source>
-        <translation>Lade Assets herunter...</translation>
-    </message>
-    <message>
-        <source>Copying assets...</source>
-        <translation>Kopiere Assets...</translation>
+        <source>Unexpected metadata contents</source>
+        <translation>Unerwarteter Inhalt der Metadaten</translation>
     </message>
 </context>
 </TS>

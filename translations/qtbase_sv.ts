@@ -1,328 +1,429 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="tr_TR">
+<TS version="2.1" language="sv_SE">
 <context>
     <name>CloseButton</name>
     <message>
         <source>Close Tab</source>
-        <translation>Sekmeyi Kapat</translation>
+        <translation>Stäng flik</translation>
     </message>
 </context>
 <context>
     <name>MAC_APPLICATION_MENU</name>
     <message>
         <source>About %1</source>
-        <translation>%1 Hakkında</translation>
+        <translation>Om %1</translation>
     </message>
     <message>
         <source>Preferences...</source>
-        <translation>Tercihler…</translation>
+        <translation>Inställningar…</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>Hizmetler</translation>
+        <translation>Tjänster</translation>
     </message>
     <message>
         <source>Hide %1</source>
-        <translation>Gizle: %1</translation>
+        <translation>Dölj %1</translation>
     </message>
     <message>
         <source>Hide Others</source>
-        <translation>Diğerlerini Gizle</translation>
+        <translation>Dölj övriga</translation>
     </message>
     <message>
         <source>Show All</source>
-        <translation>Tümünü Göster</translation>
+        <translation>Visa alla</translation>
     </message>
     <message>
         <source>Quit %1</source>
-        <translation>Çık: %1</translation>
+        <translation>Avsluta %1</translation>
     </message>
 </context>
 <context>
     <name>Print Device Input Slot</name>
     <message>
         <source>Automatic</source>
-        <translation>Otomatik</translation>
+        <translation>Automatisk</translation>
     </message>
 </context>
 <context>
     <name>Print Device Output Bin</name>
     <message>
         <source>Automatic</source>
-        <translation>Otomatik</translation>
+        <translation>Automatisk</translation>
+    </message>
+</context>
+<context>
+    <name>QAbstractFileIconProvider</name>
+    <message>
+        <source>Drive</source>
+        <translation>Enhet</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fil</translation>
+    </message>
+    <message>
+        <source>File Folder</source>
+        <comment>Match Windows Explorer</comment>
+        <translation>Filmapp</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <comment>All other platforms</comment>
+        <translation>Mapp</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <comment>macOS Finder</comment>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Shortcut</source>
+        <comment>All other platforms</comment>
+        <translation>Genväg</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Okänt</translation>
     </message>
 </context>
 <context>
     <name>QAbstractSocket</name>
     <message>
         <source>Socket operation timed out</source>
-        <translation>Yuva işlemi zaman aşımına uğradı</translation>
+        <translation>Tidsgräns för uttagsåtgärd överstegs</translation>
     </message>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>Yuva üzerinde işlem desteklenmiyor</translation>
+        <translation>Åtgärden på uttag stöds inte</translation>
     </message>
     <message>
         <source>Host not found</source>
-        <translation>Ana bilgisayar bulunamadı</translation>
+        <translation>Värden hittades inte</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>Bağlantı reddedildi</translation>
+        <translation>Anslutningen nekades</translation>
     </message>
     <message>
         <source>Connection timed out</source>
-        <translation>Bağlantı zaman aşımına uğradı</translation>
+        <translation>Tidsgränsen för anslutning överstegs</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation>Bağlantı sürerken bağlanmaya çalışıyor</translation>
+        <translation>Försöker ansluta när en anslutning pågår</translation>
     </message>
     <message>
         <source>Socket is not connected</source>
-        <translation>Yuva bağlı değil</translation>
+        <translation>Uttaget är inte anslutet</translation>
     </message>
     <message>
         <source>Network unreachable</source>
-        <translation>Ağa erişilemiyor</translation>
+        <translation>Nätverket är inte nåbart</translation>
     </message>
 </context>
 <context>
     <name>QAbstractSpinBox</name>
     <message>
         <source>&amp;Select All</source>
-        <translation>Tümünü &amp;Seç</translation>
+        <translation>Markera &amp;allt</translation>
     </message>
     <message>
         <source>&amp;Step up</source>
-        <translation>&amp;Yukarı çık</translation>
+        <translation>&amp;Stega uppåt</translation>
     </message>
     <message>
         <source>Step &amp;down</source>
-        <translation>&amp;Aşağı in</translation>
+        <translation>Stega &amp;nedåt</translation>
     </message>
 </context>
 <context>
     <name>QAccessibleActionInterface</name>
     <message>
         <source>Press</source>
-        <translation>Bas</translation>
+        <translation>Tryck</translation>
     </message>
     <message>
         <source>Increase</source>
-        <translation>Artır</translation>
+        <translation>Öka</translation>
     </message>
     <message>
         <source>Decrease</source>
-        <translation>Azalt</translation>
+        <translation>Minska</translation>
     </message>
     <message>
         <source>ShowMenu</source>
-        <translation>MenüGöster</translation>
+        <translation>Visa meny</translation>
     </message>
     <message>
         <source>SetFocus</source>
-        <translation>OdakAyarla</translation>
+        <translation>Ställ in fokus</translation>
     </message>
     <message>
         <source>Toggle</source>
-        <translation>Aç/Kapat</translation>
+        <translation>Växla</translation>
     </message>
     <message>
         <source>Scroll Left</source>
-        <translation>Sola Kaydır</translation>
+        <translation>Rulla vänster</translation>
     </message>
     <message>
         <source>Scroll Right</source>
-        <translation>Sağa Kaydır</translation>
+        <translation>Rulla höger</translation>
     </message>
     <message>
         <source>Scroll Up</source>
-        <translation>Yukarı Kaydır</translation>
+        <translation>Rulla uppåt</translation>
     </message>
     <message>
         <source>Scroll Down</source>
-        <translation>Aşağı Kaydır</translation>
+        <translation>Rulla nedåt</translation>
     </message>
     <message>
         <source>Previous Page</source>
-        <translation>Önceki Sayfa</translation>
+        <translation>Föregående sida</translation>
     </message>
     <message>
         <source>Next Page</source>
-        <translation>Sonraki Sayfa</translation>
+        <translation>Nästa sida</translation>
     </message>
     <message>
         <source>Triggers the action</source>
-        <translation>Eylemi tetikler</translation>
+        <translation>Växlar åtgärden</translation>
     </message>
     <message>
         <source>Increase the value</source>
-        <translation>Değeri artır</translation>
+        <translation>Öka värdet</translation>
     </message>
     <message>
         <source>Decrease the value</source>
-        <translation>Değeri azalt</translation>
+        <translation>Minska värdet</translation>
     </message>
     <message>
         <source>Shows the menu</source>
-        <translation>Menüyü gösterir</translation>
+        <translation>Visar menyn</translation>
     </message>
     <message>
         <source>Sets the focus</source>
-        <translation>Odağı ayarlar</translation>
+        <translation>Ställ in fokus</translation>
     </message>
     <message>
         <source>Toggles the state</source>
-        <translation>Durumu değiştirir</translation>
+        <translation>Växlar tillståndet</translation>
     </message>
     <message>
         <source>Scrolls to the left</source>
-        <translation>Sola sarar</translation>
+        <translation>Rullar åt vänster</translation>
     </message>
     <message>
         <source>Scrolls to the right</source>
-        <translation>Sağa sarar</translation>
+        <translation>Rullar åt höger</translation>
     </message>
     <message>
         <source>Scrolls up</source>
-        <translation>Yukarı sarar</translation>
+        <translation>Rullar upp</translation>
     </message>
     <message>
         <source>Scrolls down</source>
-        <translation>Aşağı sarar</translation>
+        <translation>Rullar ner</translation>
     </message>
     <message>
         <source>Goes back a page</source>
-        <translation>Sayfayı geri döndürür</translation>
+        <translation>Går tillbaka en sida</translation>
     </message>
     <message>
         <source>Goes to the next page</source>
-        <translation>Bir sonraki sayfaya gider</translation>
+        <translation>Går framåt en sida</translation>
     </message>
 </context>
 <context>
     <name>QAndroidPlatformTheme</name>
     <message>
         <source>Yes</source>
-        <translation>Evet</translation>
+        <translation>Ja</translation>
     </message>
     <message>
         <source>Yes to All</source>
-        <translation>Tümüne Evet</translation>
+        <translation>Ja till allt</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Hayır</translation>
+        <translation>Nej</translation>
     </message>
     <message>
         <source>No to All</source>
-        <translation>Tümüne Hayır</translation>
+        <translation>Nej till allt</translation>
     </message>
 </context>
 <context>
     <name>QApplication</name>
     <message>
         <source>Application &quot;%1&quot; requires Qt %2, found Qt %3.</source>
-        <translation>“%1” uygulaması Qt %2 gerektirir, Qt %3 bulundu.</translation>
+        <translation>Programmet &quot;%1&quot; kräver Qt %2, hittade Qt %3.</translation>
     </message>
     <message>
         <source>Incompatible Qt Library Error</source>
-        <translation>Uyumsuz Qt Kitaplığı Hatası</translation>
+        <translation>Inkompatibelt Qt-biblioteksfel</translation>
+    </message>
+</context>
+<context>
+    <name>QAxSelect</name>
+    <message>
+        <source>Select ActiveX Control</source>
+        <translation>Välj ActiveX Control</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filter</translation>
+    </message>
+    <message>
+        <source>COM &amp;Object:</source>
+        <translation>COM-&amp;objekt:</translation>
+    </message>
+    <message>
+        <source>Sandboxing:</source>
+        <translation>Sandboxing:</translation>
+    </message>
+    <message>
+        <source>Name:</source>
+        <translation>Namn:</translation>
+    </message>
+    <message>
+        <source>Type:</source>
+        <translation>Typ:</translation>
+    </message>
+    <message>
+        <source>In process</source>
+        <translation>I process</translation>
+    </message>
+    <message>
+        <source>Out of process</source>
+        <translation>Utanför process</translation>
+    </message>
+    <message>
+        <source>CLSID:</source>
+        <translation>CLSID:</translation>
+    </message>
+    <message>
+        <source>Key:</source>
+        <translation>Nyckel:</translation>
+    </message>
+    <message>
+        <source>Word&amp;nbsp;size:</source>
+        <translation>Ordstorlek:</translation>
+    </message>
+    <message>
+        <source>DLL:</source>
+        <translation>DLL:</translation>
+    </message>
+    <message>
+        <source>Binary:</source>
+        <translation>Binär:</translation>
+    </message>
+    <message>
+        <source>Version:</source>
+        <translation>Version:</translation>
+    </message>
+</context>
+<context>
+    <name>QCocoaMenuBar</name>
+    <message>
+        <source>Edit</source>
+        <translation>Redigera</translation>
     </message>
 </context>
 <context>
     <name>QCocoaMenuItem</name>
     <message>
         <source>About</source>
-        <translation>Hakkında</translation>
+        <translation>Om</translation>
     </message>
     <message>
         <source>Config</source>
-        <translation>Yapılandırma</translation>
+        <translation>Konfiguration</translation>
     </message>
     <message>
         <source>Preference</source>
-        <translation>Tercih</translation>
+        <translation>Inställning</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Seçenekler</translation>
+        <translation>Alternativ</translation>
     </message>
     <message>
         <source>Setting</source>
-        <translation>Ayar</translation>
+        <translation>Inställning</translation>
     </message>
     <message>
         <source>Setup</source>
-        <translation>Ayarla</translation>
+        <translation>Konfigurera</translation>
     </message>
     <message>
         <source>Quit</source>
-        <translation>Çık</translation>
+        <translation>Avsluta</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>Çıkış</translation>
+        <translation>Avsluta</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation>Kes</translation>
+        <translation>Klipp ut</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Kopyala</translation>
+        <translation>Kopiera</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>Yapıştır</translation>
+        <translation>Klistra in</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Tümünü Seç</translation>
+        <translation>Markera alla</translation>
     </message>
     <message>
         <source>About Qt</source>
-        <translation>Qt Hakkında</translation>
+        <translation>Om Qt</translation>
     </message>
 </context>
 <context>
     <name>QCocoaTheme</name>
     <message>
         <source>Don&apos;t Save</source>
-        <translation>Kaydetme</translation>
+        <translation>Spara inte</translation>
     </message>
 </context>
 <context>
     <name>QColorDialog</name>
     <message>
         <source>Hu&amp;e:</source>
-        <translation>T&amp;on:</translation>
+        <translation>Nya&amp;ns:</translation>
     </message>
     <message>
         <source>&amp;Sat:</source>
-        <translation>&amp;Doy:</translation>
+        <translation>&amp;Mättnad:</translation>
     </message>
     <message>
         <source>&amp;Val:</source>
-        <translation>D&amp;eğ:</translation>
+        <translation>&amp;Ljushet:</translation>
     </message>
     <message>
         <source>&amp;Red:</source>
-        <translation>&amp;Kırmızı:</translation>
+        <translation>&amp;Röd:</translation>
     </message>
     <message>
         <source>&amp;Green:</source>
-        <translation>&amp;Yeşil:</translation>
+        <translation>&amp;Grön:</translation>
     </message>
     <message>
         <source>Bl&amp;ue:</source>
-        <translation>&amp;Mavi:</translation>
+        <translation>Bl&amp;å:</translation>
     </message>
     <message>
         <source>A&amp;lpha channel:</source>
-        <translation>A&amp;lfa kanalı:</translation>
+        <translation>Alfa&amp;kanal:</translation>
     </message>
     <message>
         <source>&amp;HTML:</source>
@@ -331,386 +432,386 @@
     <message>
         <source>Cursor at %1, %2
 Press ESC to cancel</source>
-        <translation>İmleç %1, %2 konumunda.
-İptal etmek için Vazgeç’e basın.</translation>
+        <translation>Markör på %1, %2
+Tryck ESC för att avbryta</translation>
     </message>
     <message>
         <source>Select Color</source>
-        <translation>Renk Seç</translation>
+        <translation>Välj färg</translation>
     </message>
     <message>
         <source>&amp;Basic colors</source>
-        <translation>&amp;Temel renkler</translation>
+        <translation>&amp;Basfärger</translation>
     </message>
     <message>
         <source>&amp;Custom colors</source>
-        <translation>&amp;Özel renkler</translation>
+        <translation>&amp;Anpassade färger</translation>
     </message>
     <message>
         <source>&amp;Add to Custom Colors</source>
-        <translation>Özel Renklere &amp;Ekle</translation>
+        <translation>&amp;Lägg till i anpassade färger</translation>
     </message>
     <message>
         <source>&amp;Pick Screen Color</source>
-        <translation>Ekran Rengini &amp;Seç</translation>
+        <translation>&amp;Välj skärmfärg</translation>
     </message>
 </context>
 <context>
     <name>QComboBox</name>
     <message>
         <source>Open the combo box selection popup</source>
-        <translation>Çoklu kutu seçim penceresini aç</translation>
+        <translation>Öppnar kombinationsruta för väljare</translation>
     </message>
     <message>
         <source>False</source>
-        <translation>Yanlış</translation>
+        <translation>Falskt</translation>
     </message>
     <message>
         <source>True</source>
-        <translation>Doğru</translation>
+        <translation>Sant</translation>
     </message>
 </context>
 <context>
     <name>QCommandLineParser</name>
     <message>
         <source>Displays version information.</source>
-        <translation>Sürüm bilgisini görüntüler.</translation>
+        <translation>Visar versionsinformation.</translation>
     </message>
     <message>
         <source>Displays help on commandline options.</source>
-        <translation>Komut satırı seçenekleriyle ilgili yardımı görüntüler.</translation>
+        <translation>Visar hjälp för kommandoradsalternativ.</translation>
     </message>
     <message>
         <source>Displays help, including generic Qt options.</source>
-        <translation>Genel Qt seçeneklerini de içeren yardımı görüntüler.</translation>
+        <translation>Visar hjälp, inklusive allmänna Qt-alternativ.</translation>
     </message>
     <message>
         <source>Unknown option &apos;%1&apos;.</source>
-        <translation>Bilinmeyen seçenek “%1”.</translation>
+        <translation>Okänt alternativ &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Unknown options: %1.</source>
-        <translation>Bilinmeyen seçenekler: %1.</translation>
+        <translation>Okända alternativ: %1.</translation>
     </message>
     <message>
         <source>Missing value after &apos;%1&apos;.</source>
-        <translation>“%1” sonrası değer eksik.</translation>
+        <translation>Saknar värde efter &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Unexpected value after &apos;%1&apos;.</source>
-        <translation>“%1” sonrası beklenmedik değer.</translation>
+        <translation>Oväntat värde efter &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>[options]</source>
-        <translation>[seçenekler]</translation>
+        <translation>[alternativ]</translation>
     </message>
     <message>
         <source>Usage: %1</source>
-        <translation>Kullanım: %1</translation>
+        <translation>Användning: %1</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>Seçenekler:</translation>
+        <translation>Alternativ:</translation>
     </message>
     <message>
         <source>Arguments:</source>
-        <translation>Argümanlar:</translation>
+        <translation>Argument:</translation>
     </message>
 </context>
 <context>
     <name>QCupsJobWidget</name>
     <message>
         <source>Job</source>
-        <translation>İş</translation>
+        <translation>Jobb</translation>
     </message>
     <message>
         <source>Job Control</source>
-        <translation>İş Denetimi</translation>
-    </message>
-    <message>
-        <source>Scheduled printing:</source>
-        <translation>Zamanlanmış baskı:</translation>
-    </message>
-    <message>
-        <source>Billing information:</source>
-        <translation>Fatura bilgisi:</translation>
-    </message>
-    <message>
-        <source>Job priority:</source>
-        <translation>İş önceliği:</translation>
+        <translation>Jobbkontroll</translation>
     </message>
     <message>
         <source>Banner Pages</source>
-        <translation>Afiş Sayfaları</translation>
-    </message>
-    <message>
-        <source>End:</source>
-        <comment>Banner page at end</comment>
-        <translation>Bitiş:</translation>
-    </message>
-    <message>
-        <source>Start:</source>
-        <comment>Banner page at start</comment>
-        <translation>Başlangıç:</translation>
+        <translation>Försättssidor</translation>
     </message>
     <message>
         <source>Print Immediately</source>
-        <translation>Hemen Yazdır</translation>
+        <translation>Skriv ut direkt</translation>
     </message>
     <message>
         <source>Hold Indefinitely</source>
-        <translation>Süresiz Tut</translation>
+        <translation>Håll kvar tills vidare</translation>
     </message>
     <message>
         <source>Day (06:00 to 17:59)</source>
-        <translation>Gün (06:00–17:59)</translation>
+        <translation>Dag (06:00 till 17:59)</translation>
     </message>
     <message>
         <source>Night (18:00 to 05:59)</source>
-        <translation>Gece (18:00–05:59)</translation>
+        <translation>Natt (18:00 till 05:59)</translation>
     </message>
     <message>
         <source>Second Shift (16:00 to 23:59)</source>
-        <translation>İkinci Vardiya (16:00–23:59)</translation>
+        <translation>Andra skiftet (16:00 till 23:59)</translation>
     </message>
     <message>
         <source>Third Shift (00:00 to 07:59)</source>
-        <translation>Üçüncü Vardiya (00:00–07:59)</translation>
+        <translation>Tredje skiftet (00:00 till 07:59)</translation>
     </message>
     <message>
         <source>Weekend (Saturday to Sunday)</source>
-        <translation>Hafta Sonu (Cumartesi–Pazar)</translation>
+        <translation>Helg (Lördag till söndag)</translation>
     </message>
     <message>
         <source>Specific Time</source>
-        <translation>Belirli Bir Zaman</translation>
+        <translation>Specifik tid</translation>
     </message>
     <message>
         <source>None</source>
         <comment>CUPS Banner page</comment>
-        <translation>Hiçbiri</translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <source>Standard</source>
         <comment>CUPS Banner page</comment>
-        <translation>Standart</translation>
+        <translation>Standard</translation>
     </message>
     <message>
         <source>Unclassified</source>
         <comment>CUPS Banner page</comment>
-        <translation>Sınıflandırılmamış</translation>
+        <translation>Öppet</translation>
     </message>
     <message>
         <source>Confidential</source>
         <comment>CUPS Banner page</comment>
-        <translation>Gizli</translation>
+        <translation>Konfidentiellt</translation>
     </message>
     <message>
         <source>Classified</source>
         <comment>CUPS Banner page</comment>
-        <translation>Sınıflandırılmış</translation>
+        <translation>Begränsat hemligt</translation>
     </message>
     <message>
         <source>Secret</source>
         <comment>CUPS Banner page</comment>
-        <translation>Gizli</translation>
+        <translation>Hemligt</translation>
     </message>
     <message>
         <source>Top Secret</source>
         <comment>CUPS Banner page</comment>
-        <translation>Çok Gizli</translation>
+        <translation>Kvalificerat hemligt</translation>
+    </message>
+    <message>
+        <source>Scheduled &amp;printing:</source>
+        <translation>Schemalag&amp;d utskrift:</translation>
+    </message>
+    <message>
+        <source>&amp;Billing information:</source>
+        <translation>&amp;Faktureringsinformation:</translation>
+    </message>
+    <message>
+        <source>Job &amp;priority:</source>
+        <translation>Jobb&amp;prioritet:</translation>
+    </message>
+    <message>
+        <source>&amp;Start:</source>
+        <comment>Banner page at start</comment>
+        <translation>&amp;Start:</translation>
+    </message>
+    <message>
+        <source>&amp;End:</source>
+        <comment>Banner page at end</comment>
+        <translation>Sl&amp;ut:</translation>
     </message>
 </context>
 <context>
     <name>QCupsPrinterSupport</name>
     <message>
         <source>Authentication Needed</source>
-        <translation>Kimlik Doğrulaması Gerekiyor</translation>
+        <translation>Autentisering krävs</translation>
     </message>
     <message>
         <source>Authentication needed to use %1.</source>
-        <translation>%1 kullanmak için kimlik doğrulaması gerekiyor.</translation>
+        <translation>Autentisering krävs för att använda %1.</translation>
     </message>
     <message>
         <source>Authentication needed to use %1 on %2.</source>
-        <translation>%2 üzerinde %1 kullanmak için kimlik doğrulaması gerekiyor.</translation>
+        <translation>Autentisering krävs för att använda %1 på %2.</translation>
     </message>
     <message>
         <source>Username:</source>
-        <translation>Kullanıcı adı:</translation>
+        <translation>Användarnamn:</translation>
     </message>
     <message>
         <source>Password:</source>
-        <translation>Parola:</translation>
+        <translation>Lösenord:</translation>
     </message>
 </context>
 <context>
     <name>QDB2Driver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>Bağlanılamıyor</translation>
+        <translation>Kunde inte ansluta</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>İşleme yapılamıyor</translation>
+        <translation>Kunde inte verkställa transaktion</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>İşlem geri alınamıyor</translation>
+        <translation>Kunde inte rulla tillbaka transaktion</translation>
     </message>
     <message>
         <source>Unable to set autocommit</source>
-        <translation>Otomatik işleme ayarlanamıyor</translation>
+        <translation>Kunde inte ställa in automatisk verkställning</translation>
     </message>
 </context>
 <context>
     <name>QDB2Result</name>
     <message>
         <source>Unable to execute statement</source>
-        <translation>İfade yürütülemiyor</translation>
+        <translation>Kunde inte köra villkor</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>İfade hazırlanamıyor</translation>
+        <translation>Kunde inte förbereda frågesats</translation>
     </message>
     <message>
         <source>Unable to bind variable</source>
-        <translation>Değişken bağıntılanamıyor</translation>
+        <translation>Kunde inte binda variabel</translation>
     </message>
     <message>
         <source>Unable to fetch record %1</source>
-        <translation>%1 kaydı getirilemiyor</translation>
+        <translation>Kunde inte hämta posten %1</translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>Sonraki getirilemiyor</translation>
+        <translation>Kunde inte hämta nästa</translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>İlki getirilemiyor</translation>
+        <translation>Kunde inte hämta första</translation>
     </message>
 </context>
 <context>
     <name>QDBusTrayIcon</name>
     <message>
         <source>OK</source>
-        <translation>Tamam</translation>
+        <translation>Ok</translation>
     </message>
 </context>
 <context>
     <name>QDialog</name>
     <message>
         <source>What&apos;s This?</source>
-        <translation>Bu Nedir?</translation>
+        <translation>Vad är det här?</translation>
     </message>
 </context>
 <context>
     <name>QDialogButtonBox</name>
     <message>
         <source>OK</source>
-        <translation>Tamam</translation>
+        <translation>Ok</translation>
     </message>
 </context>
 <context>
     <name>QDnsLookup</name>
     <message>
         <source>Operation cancelled</source>
-        <translation>İşlem iptal edildi</translation>
+        <translation>Åtgärden avbröts</translation>
     </message>
     <message>
         <source>Invalid domain name</source>
-        <translation>Geçersiz alan adı</translation>
+        <translation>Ogiltigt domännamn</translation>
     </message>
     <message>
         <source>SSL/TLS support not present</source>
-        <translation>SSL/TLS desteği yok</translation>
+        <translation>SSL/TLS-stöd finns inte</translation>
     </message>
     <message>
         <source>Request timed out</source>
-        <translation>İstek zaman aşımına uğradı</translation>
+        <translation>Begäran gick över tidsgränsen</translation>
     </message>
     <message>
         <source>Server could not process query</source>
-        <translation>Sunucu sorguyu işleyemedi</translation>
+        <translation>Servern kunde inte behandla frågesats</translation>
     </message>
     <message>
         <source>Server failure</source>
-        <translation>Sunucu hatası</translation>
+        <translation>Serverfel</translation>
     </message>
     <message>
         <source>Non existent domain</source>
-        <translation>Var olmayan alan adı</translation>
+        <translation>Icke-existerande domän</translation>
     </message>
     <message>
         <source>Server refused to answer</source>
-        <translation>Sunucu yanıt vermeyi reddetti</translation>
+        <translation>Servern vägrade svara</translation>
     </message>
     <message>
         <source>Invalid reply received (rcode %1)</source>
-        <translation>Geçersiz yanıt alındı (dönüş kodu %1)</translation>
+        <translation>Ogiltigt svar togs emot (rcode %1)</translation>
     </message>
     <message>
         <source>Invalid reply received</source>
-        <translation>Geçersiz yanıt alındı</translation>
+        <translation>Ogiltigt svar togs emot</translation>
     </message>
     <message>
         <source>Invalid reply received (%1)</source>
-        <translation>Geçersiz yanıt alındı (%1)</translation>
+        <translation>Ogiltigt svar togs emot (%1)</translation>
     </message>
     <message>
         <source>IPv6 nameservers are currently not supported on this OS</source>
-        <translation>IPv6 alan sunucuları, şu anda bu işletim sisteminde desteklenmiyor</translation>
+        <translation>IPv6-namnservrar stöds för närvarande inte av detta operativsystem</translation>
     </message>
     <message>
         <source>Reply was too large</source>
-        <translation>Yanıt pek büyüktü</translation>
+        <translation>Svaret var för stort</translation>
     </message>
     <message>
         <source>Could not expand domain name</source>
-        <translation>Alan adı genişletilemedi</translation>
+        <translation>Kunde inte expandera domännamn</translation>
     </message>
     <message>
         <source>Invalid IPv4 address record</source>
-        <translation>Geçersiz IPv4 adres kaydı</translation>
+        <translation>Ogiltig IPv4-adresspost</translation>
     </message>
     <message>
         <source>Invalid IPv6 address record</source>
-        <translation>Geçersiz IPv6 adres kaydı</translation>
+        <translation>Ogiltig IPv6-adresspost</translation>
     </message>
     <message>
         <source>Invalid canonical name record</source>
-        <translation>Geçersiz standart ad kaydı</translation>
+        <translation>Ogiltig kanonisk namnpost</translation>
     </message>
     <message>
         <source>Invalid name server record</source>
-        <translation>Geçersiz ad sunucusu kaydı</translation>
+        <translation>Ogiltig namnserverpost</translation>
     </message>
     <message>
         <source>Invalid pointer record</source>
-        <translation>Geçersiz işaretçi kaydı</translation>
+        <translation>Ogiltig pekarpost</translation>
     </message>
     <message>
         <source>Invalid mail exchange record</source>
-        <translation>Geçersiz posta değişim kaydı</translation>
+        <translation>Ogiltig e-postserverpost</translation>
     </message>
     <message>
         <source>Invalid service record</source>
-        <translation>Geçersiz hizmet kaydı</translation>
+        <translation>Ogiltig tjänstepost</translation>
     </message>
     <message>
         <source>Invalid TLS association record</source>
-        <translation>Geçersiz TLS ilişkilendirme kaydı</translation>
+        <translation>Ogiltig TLS-associeringspost</translation>
     </message>
     <message>
         <source>Invalid text record</source>
-        <translation>Geçersiz metin kaydı</translation>
+        <translation>Ogiltig textpost</translation>
     </message>
 </context>
 <context>
     <name>QDnsLookupRunnable</name>
     <message>
         <source>Not yet supported on this OS</source>
-        <translation>Bu işletim sisteminde henüz desteklenmiyor</translation>
+        <translation>Stöds ännu inte i detta operativsystem</translation>
     </message>
 </context>
 <context>
@@ -718,547 +819,519 @@ Press ESC to cancel</source>
     <message>
         <source>Float</source>
         <extracomment>Accessible name for button undocking a dock widget (floating state)</extracomment>
-        <translation>Yüzen</translation>
+        <translation>Flytande</translation>
     </message>
     <message>
         <source>Undocks and re-attaches the dock widget</source>
-        <translation>Rıhtım araç takımını çıkarır ve yeniden ekler</translation>
+        <translation>Avdockar och återkopplar dockwidgeten</translation>
     </message>
     <message>
         <source>Close</source>
         <extracomment>Accessible name for button closing a dock widget</extracomment>
-        <translation>Kapat</translation>
+        <translation>Stäng</translation>
     </message>
     <message>
         <source>Closes the dock widget</source>
-        <translation>Rıhtım araç takımını kapatır</translation>
+        <translation>Stänger dockwidgeten</translation>
     </message>
 </context>
 <context>
     <name>QDomParser</name>
     <message>
         <source>Error occurred while processing XML declaration</source>
-        <translation>XML bildirimi işlenirken hata oluştu</translation>
+        <translation>Fel inträffade under behandling av XML-deklaration</translation>
     </message>
     <message>
         <source>Multiple DTD sections are not allowed</source>
-        <translation>Çoklu DTD bölümüne izin verilmiyor</translation>
+        <translation>Flera DTD-sektioner tillåts inte</translation>
     </message>
     <message>
         <source>Error occurred while processing document type declaration</source>
-        <translation>Belge türü bildirimi işlenirken hata oluştu</translation>
+        <translation>Fel inträffade vid behandling av dokumenttypens deklaration</translation>
     </message>
     <message>
         <source>Error occurred while processing comment</source>
-        <translation>Yorum işlenirken hata oluştu</translation>
+        <translation>Fel inträffade vid behandling av kommentar</translation>
     </message>
     <message>
         <source>Error occurred while processing a processing instruction</source>
-        <translation>İşleme talimatı işlenirken hata oluştu</translation>
+        <translation>Fel inträffade vid behandling av en behandlande instruktion</translation>
     </message>
     <message>
         <source>Error occurred while processing a start element</source>
-        <translation>Bir başlangıç ögesi işlenirken hata oluştu</translation>
+        <translation>Fel inträffade vid behandling av ett startelement</translation>
     </message>
     <message>
         <source>Unexpected end element &apos;%1&apos;</source>
-        <translation>Beklenmeyen son öge “%1”</translation>
+        <translation>Oväntat slutelement &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Error occurred while processing an end element</source>
-        <translation>Bir son öge işlenirken hata oluştu</translation>
+        <translation>Fel inträffade vid behandling av ett slutelement</translation>
     </message>
     <message>
         <source>Error occurred while processing the element content</source>
-        <translation>Öge içeriği işlenirken hata oluştu</translation>
+        <translation>Fel inträffade vid behandling av elementinnehållet</translation>
     </message>
     <message>
         <source>Error occurred while processing comments</source>
-        <translation>Yorumlar işlenirken hata oluştu</translation>
+        <translation>Fel inträffade vid behandling av kommentarer</translation>
     </message>
     <message>
         <source>Error occurred while processing an entity reference</source>
-        <translation>Bir varlık başvurusu işlenirken hata oluştu</translation>
+        <translation>Fel inträffade vid behandling av en entitetsreferens</translation>
     </message>
     <message>
         <source>Unexpected token</source>
-        <translation>Beklenmedik jeton</translation>
+        <translation>Oväntad token</translation>
     </message>
     <message>
         <source>Tag mismatch</source>
-        <translation>Etiket uyuşmazlığı</translation>
+        <translation>Tagg stämmer inte överens</translation>
     </message>
     <message>
         <source>Error occurred while processing entity declaration</source>
-        <translation>Varlık beyanı işlenirken hata oluştu</translation>
+        <translation>Fel inträffade vid behandling av entitetsdeklaration</translation>
     </message>
     <message>
         <source>Error occurred while processing notation declaration</source>
-        <translation>Simgelem beyanı işlenirken hata oluştu</translation>
+        <translation>Fel inträffade vid behandling av notationsdeklaration</translation>
     </message>
 </context>
 <context>
     <name>QDtls</name>
     <message>
-        <source>Invalid (empty) secret</source>
-        <translation>Geçersiz (boş) gizli</translation>
-    </message>
-    <message>
         <source>Multicast and broadcast addresses are not supported</source>
-        <translation>Çok noktaya yayın ve yayın adresleri desteklenmez</translation>
+        <translation>Multicast och broadcast-adresser stöds inte</translation>
     </message>
     <message>
         <source>Cannot set peer after handshake started</source>
-        <translation>El sıkışma başladıktan sonra eş ayarlanamaz</translation>
+        <translation>Kan inte ställa in motpart efter handskakning startats</translation>
     </message>
     <message>
         <source>Invalid address</source>
-        <translation>Geçersiz adres</translation>
+        <translation>Ogiltig adress</translation>
     </message>
     <message>
         <source>Cannot set verification name after handshake started</source>
-        <translation>El sıkışma başladıktan sonra doğrulama adı ayarlanamaz</translation>
+        <translation>Kan inte ställa in verifieringsnamn efter att handskakning startats</translation>
     </message>
     <message>
         <source>Cannot set configuration after handshake started</source>
-        <translation>El sıkışma başladıktan sonra yapılandırma ayarlanamaz</translation>
+        <translation>Kan inte ställa in konfiguration efter att handskakning startats</translation>
     </message>
     <message>
         <source>Cannot start/continue handshake, invalid handshake state</source>
-        <translation>El sıkışma başlatılamıyor/sürdürülemiyor, geçersiz el sıkışma durumu</translation>
+        <translation>Kan inte starta/fortsätta handskakning, ogiltigt handshake-tillstånd</translation>
     </message>
     <message>
         <source>Invalid (nullptr) socket</source>
-        <translation>Geçersiz (nullptr) yuva</translation>
+        <translation>Ogiltigt uttag (nullptr)</translation>
     </message>
     <message>
         <source>To start a handshake you must set peer&apos;s address and port first</source>
-        <translation>Bir el sıkışma başlatmak için önce eşin adresini ve kapısını ayarlamanız gerekir</translation>
+        <translation>Du måste ange motpartens adress och port först för att starta en handskakning</translation>
     </message>
     <message>
         <source>To start a handshake, DTLS server requires non-empty datagram (client hello)</source>
-        <translation>Bir el sıkışma başlatmak için DTLS sunucusu boş olmayan datagram gerektirir (istemci merhaba)</translation>
+        <translation>DTLS-servern kräver icke-tomt datagram (client hello) för att starta en handskakning</translation>
     </message>
     <message>
         <source>Cannot start handshake, already done/in progress</source>
-        <translation>El sıkışma başlatılamıyor, zaten yapıldı/sürüyor</translation>
+        <translation>Kan inte starta handskakning, redan gjort/pågår</translation>
     </message>
     <message>
         <source>A valid QUdpSocket and non-empty datagram are needed to continue the handshake</source>
-        <translation>El sıkışmayı sürdürmek için geçerli bir QUdpSocket ve boş olmayan datagram gereklidir</translation>
+        <translation>En giltig QUdpSocket och icke-tomt datagram krävs för att fortsätta handskakningen</translation>
     </message>
     <message>
         <source>Cannot continue handshake, not in InProgress state</source>
-        <translation>El sıkışmalar sürdürülemiyor, Sürüyor durumunda değil</translation>
+        <translation>Kan inte fortsätta handskakning, inte i InProgress-tillstånd</translation>
     </message>
     <message>
         <source>Cannot resume, not in VerificationError state</source>
-        <translation>Sürdürülemiyor, Doğrulama Hatası durumunda değil</translation>
+        <translation>Kan inte återuppta, inte i VerificationError-tillstånd</translation>
     </message>
     <message>
         <source>No handshake in progress, nothing to abort</source>
-        <translation>Süren el sıkışma yok, iptal edilecek bir şey yok</translation>
+        <translation>Ingen handskakning pågår, ingenting att avbryta</translation>
     </message>
     <message>
         <source>Cannot send shutdown alert, not encrypted</source>
-        <translation>Kapatma uyarısı gönderilemiyor, şifreli değil</translation>
+        <translation>Kan inte skicka nerstängningsvarning, inte krypterad</translation>
     </message>
     <message>
         <source>Cannot write a datagram, not in encrypted state</source>
-        <translation>Datagram yazılamıyor, şifreli durumda değil</translation>
+        <translation>Kan inte skriva ett datagram, inte i encrypted-tillstånd</translation>
     </message>
     <message>
         <source>Cannot read a datagram, not in encrypted state</source>
-        <translation>Datagram okunamıyor, şifreli durumda değil</translation>
+        <translation>Kan inte läsa ett datagram, inte i encrypted-tillstånd</translation>
     </message>
     <message>
         <source>%1 failed</source>
         <extracomment>%1: Some function</extracomment>
-        <translation>%1 başarısız oldu</translation>
+        <translation>%1 misslyckades</translation>
     </message>
     <message>
         <source>Invalid SslMode, SslServerMode or SslClientMode expected</source>
-        <translation>Geçersiz SslMode, SslServerMode veya SslClientMode bekleniyor</translation>
+        <translation>Ogiltigt SslMode, SslServerMode eller SslClientMode förväntades</translation>
     </message>
     <message>
         <source>Invalid protocol version, DTLS protocol expected</source>
-        <translation>Geçersiz protokol sürümü, DTLS protokolü bekleniyor</translation>
+        <translation>Ogiltig protokollversion, DTLS-protokollet förväntades</translation>
     </message>
     <message>
         <source>BIO_ADD_new failed, cannot start handshake</source>
-        <translation>BIO_ADD_new başarısız oldu, el sıkışma başlatılamıyor</translation>
+        <translation>BIO_ADD_new misslyckades, kan inte starta handskakning</translation>
     </message>
     <message>
         <source>Cannot start the handshake, verified client hello expected</source>
-        <translation>El sıkışma başlatılamıyor, doğrulanmış istemci merhaba bekleniyor</translation>
+        <translation>Kan inte starta handskakningen, verifierad client hello förväntades</translation>
     </message>
     <message>
         <source>Peer verification failed</source>
-        <translation>Eş doğrulaması başarısız oldu</translation>
+        <translation>Verifiering av motpart misslyckades</translation>
     </message>
     <message>
         <source>The DTLS connection has been closed</source>
-        <translation>DTLS bağlantısı kapatıldı</translation>
+        <translation>DTLS-anslutningen har stängts</translation>
     </message>
     <message>
         <source>Error while writing: %1</source>
-        <translation>Yazarken hata: %1</translation>
+        <translation>Fel vid skrivning: %1</translation>
     </message>
     <message>
         <source>The DTLS connection has been shutdown</source>
-        <translation>DTLS bağlantısı kapatıldı</translation>
+        <translation>DTLS-anslutningen har stängts ner</translation>
     </message>
     <message>
         <source>Error while reading: %1</source>
-        <translation>Okurken hata: %1</translation>
+        <translation>Fel vid läsning: %1</translation>
+    </message>
+    <message>
+        <source>Invalid (empty) secret</source>
+        <translation>Ogiltig hemlighet (empty)</translation>
     </message>
 </context>
 <context>
     <name>QDtlsClientVerifier</name>
     <message>
-        <source>BIO_ADDR_new failed, ignoring client hello</source>
-        <translation>BIO_ADDR_new başarısız oldu, istemci selamı yok sayılıyor</translation>
+        <source>A valid UDP socket, non-empty datagram, and valid address/port were expected</source>
+        <translation>Ett giltigt UDP-uttag, icke-tomt datagram och giltig adress/port förväntades</translation>
     </message>
     <message>
-        <source>A valid UDP socket, non-empty datagram, and valid address/port were expected</source>
-        <translation>Geçerli bir UDP yuvası, boş olmayan bir datagram ve geçerli adres/kapı bekleniyordu</translation>
+        <source>BIO_ADDR_new failed, ignoring client hello</source>
+        <translation>BIO_ADDR_new misslyckades, ignorerar client hello</translation>
     </message>
 </context>
 <context>
     <name>QErrorMessage</name>
     <message>
         <source>An error occurred</source>
-        <translation>Bir hata oluştu</translation>
+        <translation>Ett fel inträffade</translation>
     </message>
     <message>
         <source>Debug Message:</source>
-        <translation>Hata ayıklama iletisi:</translation>
+        <translation>Felsökningsmeddelande:</translation>
     </message>
     <message>
         <source>Warning:</source>
-        <translation>Uyarı:</translation>
+        <translation>Varning:</translation>
     </message>
     <message>
         <source>Critical Error:</source>
-        <translation>Kritik hata:</translation>
+        <translation>Kritiskt fel:</translation>
     </message>
     <message>
         <source>Fatal Error:</source>
-        <translation>Onulmaz hata:</translation>
+        <translation>Ödesdigert fel:</translation>
     </message>
     <message>
         <source>Information:</source>
-        <translation>Bilgi:</translation>
+        <translation>Information:</translation>
     </message>
     <message>
         <source>&amp;Show this message again</source>
-        <translation>Bu iletiyi yeniden gö&amp;ster</translation>
+        <translation>&amp;Visa detta meddelande igen</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;Tamam</translation>
+        <translation>&amp;Ok</translation>
     </message>
 </context>
 <context>
     <name>QFile</name>
     <message>
         <source>Destination file is the same file.</source>
-        <translation>Hedef dosya aynı dosya.</translation>
+        <translation>Målfilen är samma fil.</translation>
     </message>
     <message>
         <source>Source file does not exist.</source>
-        <translation>Kaynak dosya yok.</translation>
+        <translation>Källfilen finns inte.</translation>
     </message>
     <message>
         <source>Destination file exists</source>
-        <translation>Hedef dosya var</translation>
+        <translation>Målfilen finns redan</translation>
     </message>
     <message>
         <source>Error while renaming: %1</source>
-        <translation>Yeniden adlandırma sırasında hata: %1</translation>
+        <translation>Fel vid namnbyte: %1</translation>
     </message>
     <message>
         <source>Unable to restore from %1: %2</source>
-        <translation>%1 konumundan geri yüklenemedi: %2</translation>
+        <translation>Kunde inte återskapa från %1: %2</translation>
     </message>
     <message>
         <source>Will not rename sequential file using block copy</source>
-        <translation>Kopya engelleme kullanarak sıralı dosyayı yeniden adlandırmaz</translation>
+        <translation>Kommer inte byta namn på sekvensfil med blockkopiering</translation>
     </message>
     <message>
         <source>Cannot remove source file: %1</source>
-        <translation>Kaynak dosya kaldırılamıyor: %1</translation>
-    </message>
-    <message>
-        <source>Cannot remove source file</source>
-        <translation type="vanished">Kaynak dosya kaldırılamıyor</translation>
-    </message>
-    <message>
-        <source>Cannot open destination file: %1</source>
-        <translation type="vanished">Hedef dosya açılamıyor: %1</translation>
-    </message>
-    <message>
-        <source>Cannot open %1 for input</source>
-        <translation>Girdi için %1 açılamıyor</translation>
-    </message>
-    <message>
-        <source>Cannot open for output: %1</source>
-        <translation>Çıktı için açılamıyor: %1</translation>
-    </message>
-    <message>
-        <source>Could not copy to %1: %2</source>
-        <translation>%1 konumuna kopyalanamadı: %2</translation>
-    </message>
-    <message>
-        <source>Failure to write block: %1</source>
-        <translation>Blok yazılamadı: %1</translation>
-    </message>
-    <message>
-        <source>Cannot create %1 for output: %2</source>
-        <translation type="vanished">Çıktı için %1 oluşturulamadı: %2</translation>
+        <translation>Kan inte ta bort källfilen: %1</translation>
     </message>
 </context>
 <context>
     <name>QFileDevice</name>
     <message>
         <source>No file engine available or engine does not support UnMapExtension</source>
-        <translation>Hiçbir dosya işletkesi yok veya işletke UnMapExtension’ı desteklemiyor</translation>
+        <translation>Ingen filmotor tillgänglig eller motorn saknar stöd för UnMapExtension</translation>
     </message>
     <message>
         <source>No file engine available</source>
-        <translation>Kullanılabilir dosya işletkesi yok</translation>
+        <translation>Ingen filmotor tillgänglig</translation>
     </message>
 </context>
 <context>
     <name>QFileDialog</name>
     <message>
-        <source>All Files (*)</source>
-        <translation>Tüm dosyalar (*)</translation>
-    </message>
-    <message>
-        <source>Look in:</source>
-        <translation>Arama konumu:</translation>
-    </message>
-    <message>
         <source>Back</source>
-        <translation>Geri</translation>
+        <translation>Bakåt</translation>
     </message>
     <message>
         <source>Go back</source>
-        <translation>Geri git</translation>
+        <translation>Gå bakåt</translation>
     </message>
     <message>
         <source>Alt+Left</source>
-        <translation>Seçenek+Sol</translation>
+        <translation>Alt+vänster</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>İleri</translation>
+        <translation>Framåt</translation>
     </message>
     <message>
         <source>Go forward</source>
-        <translation>İleri git</translation>
+        <translation>Gå framåt</translation>
     </message>
     <message>
         <source>Alt+Right</source>
-        <translation>Seçenek+Sağ</translation>
+        <translation>Alt+höger</translation>
     </message>
     <message>
         <source>Parent Directory</source>
-        <translation>Üst Dizin</translation>
+        <translation>Föräldrakatalog</translation>
     </message>
     <message>
         <source>Go to the parent directory</source>
-        <translation>Üst dizine git</translation>
+        <translation>Gå till överliggande katalog</translation>
     </message>
     <message>
         <source>Alt+Up</source>
-        <translation>Seçenek+Yukarı</translation>
+        <translation>Alt+upp</translation>
     </message>
     <message>
         <source>Create New Folder</source>
-        <translation>Yeni Klasör Oluştur</translation>
+        <translation>Skapa ny mapp</translation>
     </message>
     <message>
         <source>Create a New Folder</source>
-        <translation>Yeni bir klasör Oluştur</translation>
+        <translation>Skapa en ny mapp</translation>
     </message>
     <message>
         <source>List View</source>
-        <translation>Liste Görünümü</translation>
+        <translation>Listvy</translation>
     </message>
     <message>
         <source>Change to list view mode</source>
-        <translation>Liste görünümü kipine geç</translation>
+        <translation>Byt till listvyläget</translation>
     </message>
     <message>
         <source>Detail View</source>
-        <translation>Ayrıntılı Görünüm</translation>
+        <translation>Detaljerad vy</translation>
     </message>
     <message>
         <source>Change to detail view mode</source>
-        <translation>Ayrıntılı görünüm kipine geç</translation>
+        <translation>Byt till detaljerat vyläge</translation>
     </message>
     <message>
         <source>Sidebar</source>
-        <translation>Kenar Çubuğu</translation>
+        <translation>Sidorad</translation>
     </message>
     <message>
         <source>List of places and bookmarks</source>
-        <translation>Yerlerin ve yer imlerinin listesi</translation>
+        <translation>Lista över platser och bokmärken</translation>
     </message>
     <message>
         <source>Files</source>
-        <translation>Dosyalar</translation>
+        <translation>Filer</translation>
     </message>
     <message>
-        <source>Files of type:</source>
-        <translation>Şu türde dosyalar:</translation>
+        <source>All Files (*)</source>
+        <translation>Alla filer (*)</translation>
     </message>
     <message>
         <source>Find Directory</source>
-        <translation>Dizin Bul</translation>
+        <translation>Hitta katalog</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Aç</translation>
+        <translation>Öppna</translation>
     </message>
     <message>
         <source>Save As</source>
-        <translation>Farklı Kaydet</translation>
+        <translation>Spara som</translation>
     </message>
     <message>
         <source>Directory:</source>
-        <translation>Dizin:</translation>
+        <translation>Katalog:</translation>
     </message>
     <message>
         <source>File &amp;name:</source>
-        <translation>Dosya a&amp;dı:</translation>
+        <translation>Fil&amp;namn:</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Aç</translation>
+        <translation>&amp;Öppna</translation>
     </message>
     <message>
         <source>&amp;Choose</source>
-        <translation>&amp;Seç</translation>
+        <translation>&amp;Välj</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;Kaydet</translation>
+        <translation>&amp;Spara</translation>
     </message>
     <message>
         <source>Show </source>
-        <translation>Göster </translation>
+        <translation>Visa </translation>
     </message>
     <message>
         <source>&amp;Rename</source>
-        <translation>Yeniden Adlandı&amp;r</translation>
+        <translation>&amp;Byt namn</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Sil</translation>
+        <translation>&amp;Ta bort</translation>
     </message>
     <message>
         <source>Show &amp;hidden files</source>
-        <translation>&amp;Gizli dosyaları göster</translation>
+        <translation>Visa &amp;dolda filer</translation>
     </message>
     <message>
         <source>&amp;New Folder</source>
-        <translation>&amp;Yeni Klasör</translation>
+        <translation>&amp;Ny mapp</translation>
     </message>
     <message>
         <source>All files (*)</source>
-        <translation>Tüm dosyalar (*)</translation>
+        <translation>Alla filer (*)</translation>
     </message>
     <message>
         <source>Directories</source>
-        <translation>Dizinler</translation>
+        <translation>Kataloger</translation>
+    </message>
+    <message>
+        <source>%1 already exists.
+Do you want to replace it?</source>
+        <translation>%1 finns redan.
+Vill du ersätta den?</translation>
     </message>
     <message>
         <source>%1
 Directory not found.
 Please verify the correct directory name was given.</source>
         <translation>%1
-Dizin bulunamadı.
-Lütfen doğru dizin adının verildiğini doğrulayın.</translation>
-    </message>
-    <message>
-        <source>%1 already exists.
-Do you want to replace it?</source>
-        <translation>%1 halihazırda var.
-Değiştirmek istiyor musunuz?</translation>
+Katalogen hittades inte.
+Kontrollera att det korrekta katalognamnet angavs.</translation>
     </message>
     <message>
         <source>%1
 File not found.
 Please verify the correct file name was given.</source>
         <translation>%1
-Dosya bulunamadı.
-Lütfen doğru dosya adının verildiğini doğrulayın.</translation>
+Filen hittades inte.
+Kontrollera att det korrekta filnamnet angavs.</translation>
     </message>
     <message>
         <source>New Folder</source>
-        <translation>Yeni Klasör</translation>
+        <translation>Ny mapp</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Sil</translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is write protected.
 Do you want to delete it anyway?</source>
-        <translation>“%1” yazma korumalı.
-Yine de silmek istiyor musunuz?</translation>
+        <translation>\&quot;%1\&quot; är skrivskyddad.
+Vill du ta bort den ändå?</translation>
     </message>
     <message>
         <source>Are you sure you want to delete &apos;%1&apos;?</source>
-        <translation>“%1” silinecek, emin misiniz?</translation>
+        <translation>Är du säker på att du vill ta bort \&quot;%1\&quot;?</translation>
     </message>
     <message>
         <source>Could not delete directory.</source>
-        <translation>Dizin silinemedi.</translation>
+        <translation>Kunde inte ta bort katalogen.</translation>
     </message>
     <message>
         <source>Recent Places</source>
-        <translation>Son Yerler</translation>
+        <translation>Tidigare platser</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Kaldır</translation>
+        <translation>Ta bort</translation>
+    </message>
+    <message>
+        <source>&amp;Look in:</source>
+        <translation>&amp;Titta i:</translation>
+    </message>
+    <message>
+        <source>Files of &amp;type:</source>
+        <translation>Filer av &amp;typ:</translation>
     </message>
 </context>
 <context>
     <name>QFileSystemModel</name>
     <message>
         <source>Name</source>
-        <translation>Ad</translation>
+        <translation>Namn</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Boyut</translation>
+        <translation>Storlek</translation>
     </message>
     <message>
         <source>Kind</source>
         <comment>Match OS X Finder</comment>
-        <translation>Tür</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Type</source>
         <comment>All other platforms</comment>
-        <translation>Tür</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Date Modified</source>
-        <translation>Değiştirilme Tarihi</translation>
+        <translation>Datum ändrad</translation>
     </message>
     <message>
         <source>My Computer</source>
-        <translation>Bilgisayarım</translation>
+        <translation>Min dator</translation>
     </message>
     <message>
         <source>Computer</source>
-        <translation>Bilgisayar</translation>
+        <translation>Dator</translation>
     </message>
 </context>
 <context>
@@ -1270,178 +1343,178 @@ Yine de silmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>Bold</source>
-        <translation>Kalın</translation>
+        <translation>Fet stil</translation>
     </message>
     <message>
         <source>Demi Bold</source>
-        <translation>Yarı Kalın</translation>
+        <translation>Demi-fet</translation>
     </message>
     <message>
         <source>Medium</source>
         <comment>The Medium font weight</comment>
-        <translation>Orta</translation>
+        <translation>Medium</translation>
     </message>
     <message>
         <source>Black</source>
-        <translation>Siyah</translation>
+        <translation>Svart</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>Açık</translation>
+        <translation>Ljus</translation>
     </message>
     <message>
         <source>Thin</source>
-        <translation>İnce</translation>
+        <translation>Tunn</translation>
     </message>
     <message>
         <source>Extra Light</source>
-        <translation>Ekstra Açık</translation>
+        <translation>Extraljus</translation>
     </message>
     <message>
         <source>Extra Bold</source>
-        <translation>Ekstra Kalın</translation>
+        <translation>Extrafet stil</translation>
     </message>
     <message>
         <source>Extra</source>
         <extracomment>The word for &quot;Extra&quot; as in &quot;Extra Bold, Extra Thin&quot; used as a pattern for string searches</extracomment>
-        <translation>Ekstra</translation>
+        <translation>Extra</translation>
     </message>
     <message>
         <source>Demi</source>
         <extracomment>The word for &quot;Demi&quot; as in &quot;Demi Bold&quot; used as a pattern for string searches</extracomment>
-        <translation>Yarı</translation>
+        <translation>Demi</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation>Yatık</translation>
+        <translation>Kursiv</translation>
     </message>
     <message>
         <source>Oblique</source>
-        <translation>Eğik</translation>
+        <translation>Sned</translation>
     </message>
     <message>
         <source>Any</source>
-        <translation>Herhangi</translation>
+        <translation>Valfri</translation>
     </message>
     <message>
         <source>Latin</source>
-        <translation>Latince</translation>
+        <translation>Latin</translation>
     </message>
     <message>
         <source>Greek</source>
-        <translation>Yunanca</translation>
+        <translation>Grekiska</translation>
     </message>
     <message>
         <source>Cyrillic</source>
-        <translation>Kiril</translation>
+        <translation>Kyrilliska</translation>
     </message>
     <message>
         <source>Armenian</source>
-        <translation>Ermenice</translation>
+        <translation>Armeniska</translation>
     </message>
     <message>
         <source>Hebrew</source>
-        <translation>İbranice</translation>
+        <translation>Hebreiska</translation>
     </message>
     <message>
         <source>Arabic</source>
-        <translation>Arapça</translation>
+        <translation>Arabiska</translation>
     </message>
     <message>
         <source>Syriac</source>
-        <translation>Süryanice</translation>
+        <translation>Syriska</translation>
     </message>
     <message>
         <source>Thaana</source>
-        <translation>Thaana Dili</translation>
+        <translation>Tāna</translation>
     </message>
     <message>
         <source>Devanagari</source>
-        <translation>Devanagari Dili</translation>
+        <translation>Devanāgarī</translation>
     </message>
     <message>
         <source>Bengali</source>
-        <translation>Bengalce</translation>
+        <translation>Bengaliska</translation>
     </message>
     <message>
         <source>Gurmukhi</source>
-        <translation>Gurmuki Dili</translation>
+        <translation>Gurmukhi</translation>
     </message>
     <message>
         <source>Gujarati</source>
-        <translation>Gücerat</translation>
+        <translation>Gujarati</translation>
     </message>
     <message>
         <source>Oriya</source>
-        <translation>Oriya Dili</translation>
+        <translation>Oriya</translation>
     </message>
     <message>
         <source>Tamil</source>
-        <translation>Tamilce</translation>
+        <translation>Tamil</translation>
     </message>
     <message>
         <source>Telugu</source>
-        <translation>Teluguca</translation>
+        <translation>Telugu</translation>
     </message>
     <message>
         <source>Kannada</source>
-        <translation>Kannadaca</translation>
+        <translation>Kannada</translation>
     </message>
     <message>
         <source>Malayalam</source>
-        <translation>Malayalam Dili</translation>
+        <translation>Malayalam</translation>
     </message>
     <message>
         <source>Sinhala</source>
-        <translation>Sinhala Dili</translation>
+        <translation>Sinhala</translation>
     </message>
     <message>
         <source>Thai</source>
-        <translation>Tayca</translation>
+        <translation>Thai</translation>
     </message>
     <message>
         <source>Lao</source>
-        <translation>Lao Dili</translation>
+        <translation>Laotiska</translation>
     </message>
     <message>
         <source>Tibetan</source>
-        <translation>Tibetçe</translation>
+        <translation>Tibetanska</translation>
     </message>
     <message>
         <source>Myanmar</source>
-        <translation>Myanmar Dili</translation>
+        <translation>Burmesiska</translation>
     </message>
     <message>
         <source>Georgian</source>
-        <translation>Gürcüce</translation>
+        <translation>Georgiska</translation>
     </message>
     <message>
         <source>Khmer</source>
-        <translation>Kmer</translation>
+        <translation>Khmer</translation>
     </message>
     <message>
         <source>Simplified Chinese</source>
-        <translation>Basitleştirilmiş Çince</translation>
+        <translation>Förenklad kinesiska</translation>
     </message>
     <message>
         <source>Traditional Chinese</source>
-        <translation>Geleneksel Çince</translation>
+        <translation>Traditionell kinesiska</translation>
     </message>
     <message>
         <source>Japanese</source>
-        <translation>Japonca</translation>
+        <translation>Japanska</translation>
     </message>
     <message>
         <source>Korean</source>
-        <translation>Korece</translation>
+        <translation>Koreanska</translation>
     </message>
     <message>
         <source>Vietnamese</source>
-        <translation>Vietnamca</translation>
+        <translation>Vietnamesiska</translation>
     </message>
     <message>
         <source>Symbol</source>
-        <translation>Sembol</translation>
+        <translation>Symbolspråk</translation>
     </message>
     <message>
         <source>Ogham</source>
@@ -1449,73 +1522,73 @@ Yine de silmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>Runic</source>
-        <translation>Rünik</translation>
+        <translation>Runsvenska</translation>
     </message>
     <message>
         <source>N&apos;Ko</source>
-        <translation>N’Ko</translation>
+        <translation>N&apos;Ko</translation>
     </message>
 </context>
 <context>
     <name>QFontDialog</name>
     <message>
         <source>Select Font</source>
-        <translation>Yazıtipi Seç</translation>
+        <translation>Välj typsnitt</translation>
     </message>
     <message>
         <source>&amp;Font</source>
-        <translation>&amp;Yazıtipi</translation>
+        <translation>&amp;Typsnitt</translation>
     </message>
     <message>
         <source>Font st&amp;yle</source>
-        <translation>Yazıtipi biç&amp;emi</translation>
+        <translation>T&amp;ypsnittsstil</translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>&amp;Boyut</translation>
+        <translation>&amp;Storlek</translation>
     </message>
     <message>
         <source>Effects</source>
-        <translation>Efektler</translation>
+        <translation>Effekter</translation>
     </message>
     <message>
         <source>Stri&amp;keout</source>
-        <translation>Üzeri ç&amp;izili</translation>
+        <translation>Genomstru&amp;ken</translation>
     </message>
     <message>
         <source>&amp;Underline</source>
-        <translation>&amp;Altı çizili</translation>
+        <translation>&amp;Understruken</translation>
     </message>
     <message>
         <source>Sample</source>
-        <translation>Örnek</translation>
+        <translation>Test</translation>
     </message>
     <message>
         <source>Wr&amp;iting System</source>
-        <translation>Yazı S&amp;istemi</translation>
+        <translation>Skr&amp;ivsystem</translation>
     </message>
 </context>
 <context>
     <name>QGnomeTheme</name>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;Tamam</translation>
+        <translation>&amp;Ok</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;Kaydet</translation>
+        <translation>&amp;Spara</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>İ&amp;ptal</translation>
+        <translation>&amp;Avbryt</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Kapat</translation>
+        <translation>S&amp;täng</translation>
     </message>
     <message>
         <source>Close without Saving</source>
-        <translation>Kaydetmeden Kapat</translation>
+        <translation>Stäng utan att spara</translation>
     </message>
 </context>
 <context>
@@ -1525,982 +1598,910 @@ Yine de silmek istiyor musunuz?</translation>
         <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
         <translation>LTR</translation>
     </message>
-    <message>
-        <source>QPA plugin. See QGuiApplication documentation for available options for each plugin.</source>
-        <translation>QPA eklentisi. Her eklenti için kullanılabilir seçenekler için QGuiApplication belgelerine bakın.</translation>
-    </message>
-    <message>
-        <source>Path to the platform plugins.</source>
-        <translation>Platform eklentilerinin yolu.</translation>
-    </message>
-    <message>
-        <source>Platform theme.</source>
-        <translation>Platform teması.</translation>
-    </message>
-    <message>
-        <source>Additional plugins to load, can be specified multiple times.</source>
-        <translation>Yüklenecek ilave eklentiler, birden çok kez belirtilebilir.</translation>
-    </message>
-    <message>
-        <source>Window geometry for the main window, using the X11-syntax, like 100x100+50+50.</source>
-        <translation>100x100+50+50 gibi X11 sözdizimini kullanarak ana pencere için pencere geometrisi.</translation>
-    </message>
-    <message>
-        <source>Default window icon.</source>
-        <translation>Öntanımlı pencere simgesi.</translation>
-    </message>
-    <message>
-        <source>Title of the first window.</source>
-        <translation>İlk pencerenin başlığı.</translation>
-    </message>
-    <message>
-        <source>Sets the application&apos;s layout direction to Qt::RightToLeft (debugging helper).</source>
-        <translation>Uygulamanın düzen yönünü Qt::RightToLeft (hata ayıklama yardımcısı) olarak ayarlar.</translation>
-    </message>
-    <message>
-        <source>Restores the application from an earlier session.</source>
-        <translation>Uygulamayı önceki bir oturumdan geri yükler.</translation>
-    </message>
-    <message>
-        <source>Display name, overrides $DISPLAY.</source>
-        <translation>Görünen ad, $DISPLAY değerini geçersiz kılar.</translation>
-    </message>
-    <message>
-        <source>Instance name according to ICCCM 4.1.2.5.</source>
-        <translation>ICCCM 4.1.2.5’e göre örnek adı.</translation>
-    </message>
-    <message>
-        <source>Disable mouse grabbing (useful in debuggers).</source>
-        <translation>Fare yakalamayı devre dışı bırak (hata ayıklayıcılarda yararlıdır).</translation>
-    </message>
-    <message>
-        <source>Force mouse grabbing (even when running in a debugger).</source>
-        <translation>Fare yakalamayı zorla (hata ayıklayıcıda çalışırken bile).</translation>
-    </message>
-    <message>
-        <source>ID of the X11 Visual to use.</source>
-        <translation>Kullanılacak X11 Visual’ın kimliği.</translation>
-    </message>
-    <message>
-        <source>Alias for --qwindowgeometry.</source>
-        <translation>--qwindowgeometry için arma.</translation>
-    </message>
-    <message>
-        <source>Alias for --qwindowicon.</source>
-        <translation>--qwindowicon için arma.</translation>
-    </message>
-    <message>
-        <source>Alias for --qwindowtitle.</source>
-        <translation>--qwindowtitle için arma.</translation>
-    </message>
 </context>
 <context>
     <name>QHostInfo</name>
     <message>
         <source>No host name given</source>
-        <translation>Ana bilgisayar adı belirtilmedi</translation>
+        <translation>Inget värdnamn angivet</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Bilinmeyen hata</translation>
+        <translation>Okänt fel</translation>
     </message>
 </context>
 <context>
     <name>QHostInfoAgent</name>
     <message>
         <source>No host name given</source>
-        <translation>Ana bilgisayar adı belirtilmedi</translation>
+        <translation>Inget värdnamn angivet</translation>
     </message>
     <message>
         <source>Invalid hostname</source>
-        <translation>Geçersiz ana bilgisayar adı</translation>
+        <translation>Ogiltigt värdnamn</translation>
     </message>
     <message>
         <source>Unknown address type</source>
-        <translation>Bilinmeyen adres türü</translation>
+        <translation>Okänd adresstyp</translation>
     </message>
     <message>
         <source>Host not found</source>
-        <translation>Ana bilgisayar bulunamadı</translation>
+        <translation>Värden hittades inte</translation>
     </message>
 </context>
 <context>
     <name>QHttp</name>
     <message>
-        <source>Connection closed</source>
-        <translation>Bağlantı kapandı</translation>
-    </message>
-    <message>
-        <source>Host %1 not found</source>
-        <translation>%1 ana bilgisayarı bulunamadı</translation>
-    </message>
-    <message>
-        <source>Connection refused</source>
-        <translation>Bağlantı reddedildi</translation>
-    </message>
-    <message>
-        <source>Proxy requires authentication</source>
-        <translation>Vekil kimlik doğrulaması gerektiriyor</translation>
-    </message>
-    <message>
-        <source>Host requires authentication</source>
-        <translation>Ana bilgisayar kimlik doğrulaması gerektiriyor</translation>
-    </message>
-    <message>
-        <source>Data corrupted</source>
-        <translation>Veri hasar görmüş</translation>
-    </message>
-    <message>
-        <source>Unknown protocol specified</source>
-        <translation>Bilinmeyen protokol belirtildi</translation>
-    </message>
-    <message>
-        <source>SSL handshake failed</source>
-        <translation>SSL el sıkışması başarısız oldu</translation>
-    </message>
-    <message>
-        <source>Too many redirects</source>
-        <translation>Çok fazla yönlendirme</translation>
-    </message>
-    <message>
-        <source>Insecure redirect</source>
-        <translation>Güvensiz yönlendirme</translation>
-    </message>
-    <message>
         <source>Unsupported content encoding: %1</source>
-        <translation>Bilinmeyen içerik kodlaması: %1</translation>
+        <translation>Oväntad innehållsenkodning: %1</translation>
     </message>
     <message>
         <source>Failed to initialize the compression decoder.</source>
-        <translation>Sıkıştırma kod çözücüsü başlatılamadı.</translation>
+        <translation>Misslyckades med att initiera komprimeringsdekodern.</translation>
     </message>
     <message>
         <source>The decompressed output exceeds the limits specified by QNetworkRequest::decompressedSafetyCheckThreshold()</source>
-        <translation>Sıkıştırılması açılmış çıktı, QNetworkRequest::decompressedSafetyCheckThreshold() tarafından belirtilen sınırları aşıyor</translation>
+        <translation>Dekomprimerat utdata överstiger gränserna som angivets av QNetworkRequest::decompressedSafetyCheckThreshold()</translation>
     </message>
     <message>
         <source>Brotli error: %1</source>
         <extracomment>Brotli (compression algorithm) decoding error, e.g. corrupted input or memory allocation problem.</extracomment>
-        <translation>Brotli hatası: %1</translation>
+        <translation>Brotli-fel: %1</translation>
     </message>
     <message>
         <source>ZStandard error: %1</source>
-        <translation>ZStandard hatası: %1</translation>
+        <translation>ZStandard-fel: %1</translation>
+    </message>
+    <message>
+        <source>Connection closed</source>
+        <translation>Anslutningen stängd</translation>
+    </message>
+    <message>
+        <source>Host %1 not found</source>
+        <translation>Värden %1 hittades inte</translation>
+    </message>
+    <message>
+        <source>Connection refused</source>
+        <translation>Anslutningen nekades</translation>
+    </message>
+    <message>
+        <source>Proxy requires authentication</source>
+        <translation>Proxy kräver autentisering</translation>
+    </message>
+    <message>
+        <source>Host requires authentication</source>
+        <translation>Värden kräver autentisering</translation>
+    </message>
+    <message>
+        <source>Data corrupted</source>
+        <translation>Data är skadat</translation>
+    </message>
+    <message>
+        <source>Unknown protocol specified</source>
+        <translation>Okänt protokoll angivet</translation>
+    </message>
+    <message>
+        <source>SSL handshake failed</source>
+        <translation>SSL-handskakningsfel</translation>
+    </message>
+    <message>
+        <source>Too many redirects</source>
+        <translation>För många omdirigeringar</translation>
+    </message>
+    <message>
+        <source>Insecure redirect</source>
+        <translation>Osäker omdirigering</translation>
     </message>
     <message>
         <source>Decompression failed: %1</source>
-        <translation>Sıkıştırmayı açma başarısız oldu: %1</translation>
+        <translation>Dekomprimering misslyckades: %1</translation>
     </message>
     <message>
         <source>Data downloaded is too large to store</source>
-        <translation>İndirilen veri depolanmak için pek büyük</translation>
+        <translation>Data hämtat är för stort att lagra</translation>
     </message>
     <message>
         <source>Failed to initialize decompression: %1</source>
-        <translation>Sıkıştırmayı açma başlatılamadı: %1</translation>
+        <translation>Misslyckades med att initiera dekomprimering: %1</translation>
     </message>
 </context>
 <context>
     <name>QHttpSocketEngine</name>
     <message>
         <source>Did not receive HTTP response from proxy</source>
-        <translation>Vekilden HTTP yanıtı alınamadı</translation>
+        <translation>Tog inte emot något HTTP-svar från proxyn</translation>
     </message>
     <message>
         <source>Error parsing authentication request from proxy</source>
-        <translation>Vekilden kimlik doğrulama isteği ayrıştırılırken hata oluştu</translation>
+        <translation>Fel vid tolkning av autentiseringsbegäran från proxy</translation>
     </message>
     <message>
         <source>Authentication required</source>
-        <translation>Kimlik doğrulaması gerekiyor</translation>
+        <translation>Autentisering krävs</translation>
     </message>
     <message>
         <source>Proxy denied connection</source>
-        <translation>Vekil bağlantıyı reddetti</translation>
+        <translation>Proxyn nekade anslutningen</translation>
     </message>
     <message>
         <source>Error communicating with HTTP proxy</source>
-        <translation>HTTP vekili ile iletişim hatası</translation>
+        <translation>Fel vid kommunicering med HTTP-proxy</translation>
     </message>
     <message>
         <source>Proxy server not found</source>
-        <translation>Vekil sunucu bulunamadı</translation>
+        <translation>Proxyservern hittades inte</translation>
     </message>
     <message>
         <source>Proxy connection refused</source>
-        <translation>Vekil bağlantısı reddedildi</translation>
+        <translation>Proxyanslutningen vägrades</translation>
     </message>
     <message>
         <source>Proxy server connection timed out</source>
-        <translation>Vekil sunucu bağlantısı zaman aşımına uğradı</translation>
+        <translation>Anslutningen till proxyservern gick över tidsgränsen</translation>
     </message>
     <message>
         <source>Proxy connection closed prematurely</source>
-        <translation>Vekil bağlantısı erken kapatıldı</translation>
+        <translation>Proxyanslutningen stängdes i förtid</translation>
     </message>
 </context>
 <context>
     <name>QIBaseDriver</name>
     <message>
-        <source>failed to query time zone mapping from system table</source>
-        <translation type="vanished">sistem tablosundan zaman dilimi eşlemleri sorgulanamadı</translation>
-    </message>
-    <message>
         <source>Error opening database</source>
-        <translation>Veritabanı açılırken hata oluştu</translation>
+        <translation>Fel vid öppnade av databas</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>İşlem başlatılamadı</translation>
+        <translation>Kunde inte starta transaktion</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>İşleme yapılamıyor</translation>
+        <translation>Kunde inte verkställa transaktion</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>İşlem geri alınamıyor</translation>
+        <translation>Kunde inte rulla tillbaka transaktion</translation>
     </message>
     <message>
         <source>Could not subscribe to event notifications for %1.</source>
-        <translation>%1 için olan olay bildirimlerine abone olunamadı.</translation>
+        <translation>Kunde inte prenumerera på händelseaviseringar för %1.</translation>
     </message>
     <message>
         <source>Could not unsubscribe from event notifications for %1.</source>
-        <translation>%1 için olan olay bildirimleri aboneliğinden çıkılamadı.</translation>
+        <translation>Kunde inte avprenumerera från händelseaviseringar för %1.</translation>
     </message>
 </context>
 <context>
     <name>QIBaseResult</name>
     <message>
         <source>Unable to create BLOB</source>
-        <translation>BLOB oluşturulamıyor</translation>
+        <translation>Kunde inte skapa BLOB</translation>
     </message>
     <message>
         <source>Unable to write BLOB</source>
-        <translation>BLOB yazılamıyor</translation>
+        <translation>Kunde inte skriva BLOB</translation>
     </message>
     <message>
         <source>Unable to open BLOB</source>
-        <translation>BLOB açılamıyor</translation>
+        <translation>Kunde inte öppna BLOB</translation>
     </message>
     <message>
         <source>Unable to read BLOB</source>
-        <translation>BLOB okunamıyor</translation>
+        <translation>Kunde inte läsa BLOB</translation>
     </message>
     <message>
         <source>Could not find array</source>
-        <translation>Diziliş bulunamadı</translation>
+        <translation>Kunde inte hitta kedja</translation>
     </message>
     <message>
         <source>Could not get array data</source>
-        <translation>Diziliş verisi alınamadı</translation>
+        <translation>Kunde inte få kedjedata</translation>
     </message>
     <message>
         <source>Array size mismatch. Field name: %3, expected size: %1. Supplied size: %2</source>
-        <translation>Diziliş boyutu uyumsuzluğu. Alan adı: %3, beklenen boyut: %1. Sağlanan boyut: %2</translation>
+        <translation>Kedjestorleken stämmer inte. Fältnamn: %3, förväntad storlek: %1. Levererad storlek: %2</translation>
     </message>
     <message>
         <source>Array dimensions mismatch. Field name: %1</source>
-        <translation>Diziliş boyutu uyumsuzluğu. Alan adı: %3</translation>
+        <translation>Kedjans dimensioner stämmer inte. Fältnamn: %1</translation>
     </message>
     <message>
         <source>Array size mismatch: size of %1 is %2, size of provided list is %3</source>
-        <translation>Diziliş boyutu uyumsuzluğu: %1 boyutu %2, sağlanan listenin boyutu %3</translation>
+        <translation>Kedjans storlek stämmer inte: storlek för %1 är %2, storlek för tillhandahållen lista är %3</translation>
     </message>
     <message>
         <source>Could not get query info</source>
-        <translation>Sorgu bilgisi alınamadı</translation>
+        <translation>Kunde inte gå frågesatsinformation</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
-        <translation>İşlem başlatılamadı</translation>
+        <translation>Kunde inte starta transaktion</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>İşleme yapılamıyor</translation>
+        <translation>Kunde inte verkställa transaktion</translation>
     </message>
     <message>
         <source>Could not allocate statement</source>
-        <translation>İfade ayrılamadı</translation>
+        <translation>Kunde inte allokera frågesats</translation>
     </message>
     <message>
         <source>Could not prepare statement</source>
-        <translation>İfade hazırlanamadı</translation>
+        <translation>Kunde inte förbereda frågesats</translation>
     </message>
     <message>
         <source>Could not describe input statement</source>
-        <translation>Girdi ifadesi tanımlanamadı</translation>
+        <translation>Kunde inte beskriva inmatningsfrågesats</translation>
     </message>
     <message>
         <source>Could not describe statement</source>
-        <translation>İfade açıklanamadı</translation>
+        <translation>Kunde inte beskriva frågesats</translation>
     </message>
     <message>
         <source>Unable to close statement</source>
-        <translation>İfade kapatılamıyor</translation>
+        <translation>Kunde inte stänga frågesats</translation>
     </message>
     <message>
         <source>Unable to execute query</source>
-        <translation>Sorgu yürütülemiyor</translation>
+        <translation>Kunde inte köra frågesats</translation>
     </message>
     <message>
         <source>Could not fetch next item</source>
-        <translation>Sonraki öge getirilemedi</translation>
+        <translation>Kunde inte hämta nästa post</translation>
     </message>
     <message>
         <source>Could not get statement info</source>
-        <translation>İfade bilgisi alınamadı</translation>
+        <translation>Kunde inte få frågesatsinformation</translation>
     </message>
 </context>
 <context>
     <name>QIODevice</name>
     <message>
         <source>file to open is a directory</source>
-        <translation>açılacak dosya bir dizin</translation>
+        <translation>filen som ska öppnas är en katalog</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Bilinmeyen hata</translation>
+        <translation>Okänt fel</translation>
     </message>
     <message>
         <source>Permission denied</source>
-        <translation>İzin reddedildi</translation>
+        <translation>Åtkomst nekad</translation>
     </message>
     <message>
         <source>Too many open files</source>
-        <translation>Çok fazla açık dosya var</translation>
+        <translation>För många öppna filer</translation>
     </message>
     <message>
         <source>No such file or directory</source>
-        <translation>Böyle bir dosya veya dizin yok</translation>
+        <translation>Ingen sådan fil eller katalog</translation>
     </message>
     <message>
         <source>No space left on device</source>
-        <translation>Aygıtta boş yer kalmadı</translation>
+        <translation>Inget ledigt utrymme på enheten</translation>
     </message>
 </context>
 <context>
     <name>QImageReader</name>
     <message>
         <source>Invalid device</source>
-        <translation>Geçersiz aygıt</translation>
+        <translation>Ogiltig enhet</translation>
     </message>
     <message>
         <source>File not found</source>
-        <translation>Dosya bulunamadı</translation>
+        <translation>Filen hittades inte</translation>
     </message>
     <message>
         <source>Unsupported image format</source>
-        <translation>Desteklenmeyen görsel biçimi</translation>
+        <translation>Bildformatet stöds inte</translation>
     </message>
     <message>
         <source>Unable to read image data</source>
-        <translation>Görsel verisi okunamıyor</translation>
+        <translation>Kunde inte läsa bilddata</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Bilinmeyen hata</translation>
+        <translation>Okänt fel</translation>
     </message>
 </context>
 <context>
     <name>QImageWriter</name>
     <message>
         <source>Unknown error</source>
-        <translation>Bilinmeyen hata</translation>
+        <translation>Okänt fel</translation>
     </message>
     <message>
         <source>Device is not set</source>
-        <translation>Aygıt ayarlanmadı</translation>
+        <translation>Enheten är inte inställd</translation>
     </message>
     <message>
         <source>Cannot open device for writing: %1</source>
-        <translation>Aygıt yazmak için açılamıyor: %1</translation>
+        <translation>Kan inte öppna enhet för skrivning: %1</translation>
     </message>
     <message>
         <source>Device not writable</source>
-        <translation>Aygıt yazılabilir değil</translation>
+        <translation>Enheten är inte skrivbar</translation>
     </message>
     <message>
         <source>Unsupported image format</source>
-        <translation>Desteklenmeyen görsel biçimi</translation>
+        <translation>Bildformatet stöds inte</translation>
     </message>
     <message>
         <source>Image is empty</source>
-        <translation>Görsel boş</translation>
+        <translation>Bilden är tom</translation>
     </message>
 </context>
 <context>
     <name>QInputDialog</name>
     <message>
         <source>Enter a value:</source>
-        <translation>Bir değer girin:</translation>
+        <translation>Ange ett värde:</translation>
     </message>
 </context>
 <context>
     <name>QJsonParseError</name>
     <message>
         <source>no error occurred</source>
-        <translation>oluşan hata yok</translation>
+        <translation>inga fel inträffade</translation>
     </message>
     <message>
         <source>unterminated object</source>
-        <translation>sonlandırılmamış nesne</translation>
+        <translation>oavslutat objekt</translation>
     </message>
     <message>
         <source>missing name separator</source>
-        <translation>eksik ad ayırıcısı</translation>
+        <translation>saknar namnavgränsare</translation>
     </message>
     <message>
         <source>unterminated array</source>
-        <translation>sonlandırılmamış diziliş</translation>
+        <translation>oavslutad kedja</translation>
     </message>
     <message>
         <source>missing value separator</source>
-        <translation>eksik değer ayırıcısı</translation>
+        <translation>saknar värdesavgränsare</translation>
     </message>
     <message>
         <source>illegal value</source>
-        <translation>izin verilmeyen değer</translation>
+        <translation>ogiltigt värde</translation>
     </message>
     <message>
         <source>invalid termination by number</source>
-        <translation>numaraya göre geçersiz sonlandırma</translation>
+        <translation>ogiltig avslutning med siffra</translation>
     </message>
     <message>
         <source>illegal number</source>
-        <translation>izin verilmeyen numara</translation>
+        <translation>ogiltig siffra</translation>
     </message>
     <message>
         <source>invalid escape sequence</source>
-        <translation>geçersiz kaçış dizisi</translation>
+        <translation>ogiltig escape sequence</translation>
     </message>
     <message>
         <source>invalid UTF8 string</source>
-        <translation>geçersiz UTF8 dizisi</translation>
+        <translation>ogiltig UTF8-sträng</translation>
     </message>
     <message>
         <source>unterminated string</source>
-        <translation>sonlandırılmamış dizi</translation>
+        <translation>oavslutad sträng</translation>
     </message>
     <message>
         <source>object is missing after a comma</source>
-        <translation>virgül sonrası nesne eksik</translation>
+        <translation>objekt saknas efter ett komma</translation>
     </message>
     <message>
         <source>too deeply nested document</source>
-        <translation>pek derin iç içe belge</translation>
+        <translation>för djupt nästlat dokument</translation>
     </message>
     <message>
         <source>too large document</source>
-        <translation>pek büyük belge</translation>
+        <translation>för stort dokument</translation>
     </message>
     <message>
         <source>garbage at the end of the document</source>
-        <translation>belgenin sonunda hatalı veri</translation>
+        <translation>skräp på slutet av dokumentet</translation>
     </message>
 </context>
 <context>
     <name>QKeySequenceEdit</name>
     <message>
         <source>Press shortcut</source>
-        <translation>Kısayola bas</translation>
+        <translation>Tryck genväg</translation>
     </message>
     <message>
         <source>%1, ...</source>
         <extracomment>This text is an &quot;unfinished&quot; shortcut, expands like &quot;Ctrl+A, ...&quot;</extracomment>
-        <translation>%1, …</translation>
+        <translation>%1, ...</translation>
     </message>
 </context>
 <context>
     <name>QLibrary</name>
     <message>
-        <source>file is for the wrong endianness</source>
-        <translation>dosya, yanlış son hanelilik için</translation>
-    </message>
-    <message>
-        <source>file has an unknown ELF version</source>
-        <translation>dosyanın bilinmeyen bir ELF sürümü var</translation>
-    </message>
-    <message>
-        <source>file has an unexpected ABI</source>
-        <translation>Dosyanın beklenmeyen bir ABI’si var</translation>
-    </message>
-    <message>
-        <source>file is not a shared object</source>
-        <translation>dosya paylaşılan bir nesne değil</translation>
-    </message>
-    <message>
-        <source>&apos;%1&apos; is not a valid ELF object (%2)</source>
-        <translation>“%1”, geçerli bir ELF nesnesi değil (%2)</translation>
-    </message>
-    <message>
-        <source>unimplemented: PN_XNUM program headers</source>
-        <translation>gerçeklenmedi: PN_XNUM program üstbilgileri</translation>
-    </message>
-    <message>
-        <source>program header table extends past the end of the file</source>
-        <translation>program üstbilgi tablosu dosyanın sonunu geçiyor</translation>
-    </message>
-    <message>
-        <source>a program header entry extends past the end of the file</source>
-        <translation>bir program üstbilgi girdisi dosyanın sonunu geçiyor</translation>
-    </message>
-    <message>
-        <source>a note segment start is not properly aligned (offset 0x%1, alignment %2)</source>
-        <translation>bir not bölütü başlangıcı düzgünce hizalanmamış (ofset 0x%1, hizalama %2)</translation>
-    </message>
-    <message>
-        <source>section table extends past the end of the file</source>
-        <translation>bölüm tablosu dosyanın sonunu geçiyor</translation>
-    </message>
-    <message>
-        <source>section header string table extends past the end of the file</source>
-        <translation>bölüm üstbilgisi dizisi tablosu dosyanın sonunu geçiyor</translation>
-    </message>
-    <message>
-        <source>a section name extends past the end of the file</source>
-        <translation>bir bölüm adı dosyanın sonunu geçiyor</translation>
-    </message>
-    <message>
-        <source>file too small</source>
-        <translation>dosya pek küçük</translation>
-    </message>
-    <message>
-        <source>unexpected program header entry size (%1)</source>
-        <translation>beklenmedik program üstbilgi girdisi boyutu (%1)</translation>
-    </message>
-    <message>
-        <source>unexpected section entry size (%1)</source>
-        <translation>beklenmedik bölüm girdisi boyutu (%1)</translation>
-    </message>
-    <message>
-        <source>e_shstrndx greater than the number of sections e_shnum (%1 &gt;= %2)</source>
-        <translation>e_shstrndx, bölüm sayısından daha büyük e_shnum (%1 &gt;= %2)</translation>
-    </message>
-    <message>
-        <source>Failed to extract plugin meta data from &apos;%1&apos;: %2</source>
-        <translation>“%1” konumundan eklenti üst verisi çıkarılamadı: %2</translation>
-    </message>
-    <message>
-        <source>The shared library was not found.</source>
-        <translation>Paylaşılan kitaplık bulunamadı.</translation>
-    </message>
-    <message>
-        <source>Could not resolve &apos;qt_plugin_instance&apos; function</source>
-        <translation>“qt_plugin_instance” işlevi çözülemedi</translation>
-    </message>
-    <message>
-        <source>metadata too small</source>
-        <translation>üst veri pek küçük</translation>
-    </message>
-    <message>
-        <source>entrypoint to query the plugin meta data not found</source>
-        <translation>eklenti üst verisini sorgulamaya giriş noktası bulunamadı</translation>
-    </message>
-    <message>
-        <source>The file &apos;%1&apos; is not a valid Qt plugin.</source>
-        <translation>“%1” dosyası geçerli bir Qt eklentisi değil.</translation>
-    </message>
-    <message>
-        <source>The plugin &apos;%1&apos; uses incompatible Qt library. (%2.%3.%4) [%5]</source>
-        <translation>“%1” eklentisi uyumsuz Qt kitaplığı kullanıyor. (%2.%3.%4) [%5]</translation>
-    </message>
-    <message>
-        <source>The plugin &apos;%1&apos; uses incompatible Qt library. (Cannot mix debug and release libraries.)</source>
-        <translation>“%1” eklentisi uyumsuz Qt kitaplığı kullanıyor. (Hata ayıklama ve sürüm kitaplıkları karıştırılamıyor.)</translation>
-    </message>
-    <message>
-        <source>Unknown error</source>
-        <translation>Bilinmeyen hata</translation>
-    </message>
-    <message>
-        <source>Cannot load library %1: %2</source>
-        <translation>%1 kitaplığı yüklenemiyor: %2</translation>
-    </message>
-    <message>
-        <source>Cannot unload library %1: %2</source>
-        <translation>%1 kitaplığı kaldırılamıyor: %2</translation>
-    </message>
-    <message>
-        <source>&apos;%1&apos; is not a valid Mach-O binary (%2)</source>
-        <translation>“%1” geçerli bir Mach-O ikili dosyası değil (%2)</translation>
-    </message>
-    <message>
-        <source>file is corrupt</source>
-        <translation>dosya hasar görmüş</translation>
-    </message>
-    <message>
-        <source>no suitable architecture in fat binary</source>
-        <translation>şişman ikili içinde uygun mimari yok</translation>
-    </message>
-    <message>
-        <source>invalid magic %1</source>
-        <translation>geçersiz %1 sihri</translation>
-    </message>
-    <message>
-        <source>wrong architecture</source>
-        <translation>yanlış mimari</translation>
-    </message>
-    <message>
-        <source>not a dynamic library</source>
-        <translation>devingen bir kitaplık değil</translation>
-    </message>
-    <message>
-        <source>&apos;%1&apos; is not a Qt plugin</source>
-        <translation>“%1” bir Qt eklentisi değil</translation>
-    </message>
-    <message>
         <source>&apos;%1&apos; is not a valid Windows DLL (%2)</source>
-        <translation>“%1”, geçerli bir Windows DLL’si değil (%2)</translation>
+        <translation>&apos;%1&apos;är inte en giltig Windows DLL (%2)</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is too small</source>
-        <translation>“%1” pek küçük</translation>
+        <translation>&apos;%1&apos; är för liten</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a Qt plugin (%2)</source>
-        <translation>“%1” bir Qt eklentisi değil (%2)</translation>
+        <translation>&apos;%1&apos; är inte ett Qt-instick (%2)</translation>
     </message>
     <message>
         <source>metadata not found</source>
-        <translation>üst veri bulunamadı</translation>
+        <translation>metadata hittades inte</translation>
     </message>
     <message>
         <source>invalid signature</source>
-        <translation>geçersiz imza</translation>
+        <translation>ogiltig signatur</translation>
     </message>
     <message>
         <source>file is for a different processor</source>
-        <translation>dosyanın başka bir işlemcisi var</translation>
+        <translation>filen är för en annan processor</translation>
     </message>
     <message>
         <source>file has no sections</source>
-        <translation>dosyanın bölümleri yok</translation>
+        <translation>filen har inga sektioner</translation>
     </message>
     <message>
         <source>wrong characteristics</source>
-        <translation>yanlış karakteristikler</translation>
+        <translation>felaktiga egenskaper</translation>
     </message>
     <message>
         <source>file is for a different word size</source>
-        <translation>dosya başka bir sözcük boyutu için</translation>
+        <translation>filen är för en annan word-storlek</translation>
     </message>
     <message>
         <source>file has no code</source>
-        <translation>dosyanın bir kodu yok</translation>
+        <translation>filen är ingen kod</translation>
     </message>
     <message>
         <source>a section name is empty or extends past the end of the file</source>
-        <translation>bir bölüm adı boş veya dosyanın sonunu geçiyor</translation>
+        <translation>ett sektionsnamn är tomt eller överstiger filslutet</translation>
     </message>
     <message>
         <source>section contents extend past the end of the file</source>
-        <translation>bölüm içeriği dosyanın sonunu geçiyor</translation>
+        <translation>sektionsinnehållet överstiger filslutet</translation>
     </message>
     <message>
         <source>.qtmetadata section is too small</source>
-        <translation>.qtmetadata bölümü pek küçük</translation>
+        <translation>.qtmetadata-sektionen är för liten</translation>
     </message>
     <message>
         <source>.qtmetadata section has incorrect magic</source>
-        <translation>.qtmetadata bölümünde yanlış sihir var</translation>
+        <translation>.qtmetadata-sektionen har felaktig magic</translation>
     </message>
     <message>
         <source>.qtmetadata section is writable</source>
-        <translation>.qtmetadata bölümü yazılabilir</translation>
+        <translation>.qtmetadata-sektionen är skrivbar</translation>
     </message>
     <message>
         <source>.qtmetadata section is executable</source>
-        <translation>.qtmetadata bölümü yürütülebilir</translation>
+        <translation>.qtmetadata-sektionen är körbar</translation>
+    </message>
+    <message>
+        <source>file is for the wrong endianness</source>
+        <translation>filen är för fel byteordning</translation>
+    </message>
+    <message>
+        <source>file has an unknown ELF version</source>
+        <translation>filen har en okänd ELF-version</translation>
+    </message>
+    <message>
+        <source>file has an unexpected ABI</source>
+        <translation>filen har en oväntad ABI</translation>
+    </message>
+    <message>
+        <source>file is not a shared object</source>
+        <translation>filen är inte ett delat objekt</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a valid ELF object (%2)</source>
+        <translation>&apos;%1&apos; är inte ett giltigt ELF-objekt (%2)</translation>
+    </message>
+    <message>
+        <source>unimplemented: PN_XNUM program headers</source>
+        <translation>inte implementerat: PN_XNUM-programrubriker</translation>
+    </message>
+    <message>
+        <source>program header table extends past the end of the file</source>
+        <translation>programrubrikstabell sträcker sig över filens slut</translation>
+    </message>
+    <message>
+        <source>a program header entry extends past the end of the file</source>
+        <translation>en programrubrikspost sträcker sig över slutet på filen</translation>
+    </message>
+    <message>
+        <source>a note segment start is not properly aligned (offset 0x%1, alignment %2)</source>
+        <translation>en note-segmentstart är inte korrekt justerad (offset 0x%1, justering %2)</translation>
+    </message>
+    <message>
+        <source>section table extends past the end of the file</source>
+        <translation>sektionstabellen överstiger filslutet</translation>
+    </message>
+    <message>
+        <source>section header string table extends past the end of the file</source>
+        <translation>strängtabell för sektionshuvud sträcker sig över filens slut</translation>
+    </message>
+    <message>
+        <source>a section name extends past the end of the file</source>
+        <translation>ett sektionsnamn överstiger filslutet</translation>
+    </message>
+    <message>
+        <source>file too small</source>
+        <translation>filen är för liten</translation>
+    </message>
+    <message>
+        <source>unexpected program header entry size (%1)</source>
+        <translation>oväntad storlek för programrubrikpost (%1)</translation>
+    </message>
+    <message>
+        <source>unexpected section entry size (%1)</source>
+        <translation>oväntad storlek för sektionspost (%1)</translation>
+    </message>
+    <message>
+        <source>e_shstrndx greater than the number of sections e_shnum (%1 &gt;= %2)</source>
+        <translation>e_shstrndx större än antalet sektioner e_shnum (%1 &gt;= %2)</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a Qt plugin</source>
+        <translation>&apos;%1&apos; är inte en Qt-insticksmodul</translation>
+    </message>
+    <message>
+        <source>Failed to extract plugin meta data from &apos;%1&apos;: %2</source>
+        <translation>Misslyckades med att extrahera metadata för insticksmodul från &quot;%1&quot;: %2</translation>
+    </message>
+    <message>
+        <source>The shared library was not found.</source>
+        <translation>Delade biblioteket hittades inte.</translation>
+    </message>
+    <message>
+        <source>Could not resolve &apos;qt_plugin_instance&apos; function</source>
+        <translation>Kunde inte slå upp funktionen &apos;qt_plugin_instance&apos;</translation>
+    </message>
+    <message>
+        <source>metadata too small</source>
+        <translation>metadata för litet</translation>
+    </message>
+    <message>
+        <source>entrypoint to query the plugin meta data not found</source>
+        <translation>ingångspunkt för fråga efter insticksmodulens metadata hittades inte</translation>
+    </message>
+    <message>
+        <source>The file &apos;%1&apos; is not a valid Qt plugin.</source>
+        <translation>Filen &apos;%1&apos; är inte en giltig Qt-insticksmodul.</translation>
+    </message>
+    <message>
+        <source>The plugin &apos;%1&apos; uses incompatible Qt library. (%2.%3.%4) [%5]</source>
+        <translation>Insticksmodulen &apos;%1&apos; använder inkompatibelt Qt-bibliotek. (%2.%3.%4) [%5]</translation>
+    </message>
+    <message>
+        <source>The plugin &apos;%1&apos; uses incompatible Qt library. (Cannot mix debug and release libraries.)</source>
+        <translation>Insticksmodulen &apos;%1&apos; använder inkompatibelt Qt-bibliotek. (Kan inte blanda bibliotek för debug och release.)</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>Okänt fel</translation>
+    </message>
+    <message>
+        <source>Cannot load library %1: %2</source>
+        <translation>Kan inte läsa in biblioteket %1: %2</translation>
+    </message>
+    <message>
+        <source>Cannot unload library %1: %2</source>
+        <translation>Kan inte läsa ur biblioteket %1: %2</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a valid Mach-O binary (%2)</source>
+        <translation>&apos;%1&apos; är inte en giltig Mach-O-binär (%2)</translation>
+    </message>
+    <message>
+        <source>file is corrupt</source>
+        <translation>filen är skadad</translation>
+    </message>
+    <message>
+        <source>no suitable architecture in fat binary</source>
+        <translation>ingen passande arkitektur i fet binär</translation>
+    </message>
+    <message>
+        <source>invalid magic %1</source>
+        <translation>ogiltig magic %1</translation>
+    </message>
+    <message>
+        <source>wrong architecture</source>
+        <translation>fel arkitektur</translation>
+    </message>
+    <message>
+        <source>not a dynamic library</source>
+        <translation>inte ett dynamiskt bibliotek</translation>
     </message>
 </context>
 <context>
     <name>QLineEdit</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;Geri Al</translation>
+        <translation>&amp;Ångra</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>&amp;Yinele</translation>
+        <translation>&amp;Gör om</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>&amp;Kes</translation>
+        <translation>Klipp &amp;ut</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>Ko&amp;pyala</translation>
+        <translation>&amp;Kopiera</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>&amp;Yapıştır</translation>
+        <translation>Klistra &amp;in</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Sil</translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Tümünü Seç</translation>
+        <translation>Markera alla</translation>
     </message>
 </context>
 <context>
     <name>QLocalServer</name>
     <message>
         <source>%1: Name error</source>
-        <translation>%1: Ad hatası</translation>
+        <translation>%1: Namnfel</translation>
     </message>
     <message>
         <source>%1: Permission denied</source>
-        <translation>%1: İzin reddedildi</translation>
+        <translation>%1: Behörighet nekad</translation>
     </message>
     <message>
         <source>%1: Address in use</source>
-        <translation>%1: Adres kullanımda</translation>
+        <translation>%1: Adressen används</translation>
     </message>
     <message>
         <source>%1: Unknown error %2</source>
-        <translation>%1: Bilinmeyen hata %2</translation>
+        <translation>%1: Okänt fel %2</translation>
     </message>
 </context>
 <context>
     <name>QLocalSocket</name>
     <message>
         <source>%1: Connection refused</source>
-        <translation>%1: Bağlantı reddedildi</translation>
+        <translation>%1: Anslutningen nekades</translation>
     </message>
     <message>
         <source>%1: Remote closed</source>
-        <translation>%1: Uzak konum kapattı</translation>
+        <translation>%1: Fjärr stängde</translation>
     </message>
     <message>
         <source>%1: Invalid name</source>
-        <translation>%1: Geçersiz ad</translation>
+        <translation>%1: Ogiltig namn</translation>
     </message>
     <message>
         <source>%1: Socket access error</source>
-        <translation>%1: Yuva erişim hatası</translation>
+        <translation>%1: Fel vid uttagsåtkomst</translation>
     </message>
     <message>
         <source>%1: Socket resource error</source>
-        <translation>%1: Yuva özkaynağı hatası</translation>
+        <translation>%1: Fel i uttagsresurs</translation>
     </message>
     <message>
         <source>%1: Socket operation timed out</source>
-        <translation>%1: Yuva işlemi zaman aşımına uğradı</translation>
+        <translation>%1: Uttagsåtgärden översteg tidsgräns</translation>
     </message>
     <message>
         <source>%1: Datagram too large</source>
-        <translation>%1: Datagram pek büyük</translation>
+        <translation>%1: Datagram för stort</translation>
     </message>
     <message>
         <source>%1: Connection error</source>
-        <translation>%1: Bağlantı hatası</translation>
+        <translation>%1: Anslutningsfel</translation>
     </message>
     <message>
         <source>%1: The socket operation is not supported</source>
-        <translation>%1: Yuva işlemi desteklenmiyor</translation>
+        <translation>%1: Uttagsåtgärden stöds inte</translation>
     </message>
     <message>
         <source>%1: Operation not permitted when socket is in this state</source>
-        <translation>%1: Yuva bu durumdayken işleme izin verilmiyor</translation>
+        <translation>%1: Åtgärden tilläts inte när uttaget är i detta tillstånd</translation>
     </message>
     <message>
         <source>%1: Unknown error</source>
-        <translation>%1: Bilinmeyen hata</translation>
+        <translation>%1: Okänt fel</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation>Bağlantı sürerken bağlanmaya çalışıyor</translation>
+        <translation>Försöker ansluta när en anslutning pågår</translation>
     </message>
     <message>
         <source>%1: Unknown error %2</source>
-        <translation>%1: Bilinmeyen hata %2</translation>
+        <translation>%1: Okänt fel %2</translation>
     </message>
     <message>
         <source>%1: Access denied</source>
-        <translation>%1: Erişim reddedildi</translation>
+        <translation>%1: Åtkomst nekad</translation>
     </message>
     <message>
         <source>Socket is not connected</source>
-        <translation>Yuva bağlı değil</translation>
+        <translation>Uttaget är inte anslutet</translation>
     </message>
     <message>
         <source>Remote closed</source>
-        <translation>Uzak konum kapattı</translation>
+        <translation>Fjärr stängde</translation>
     </message>
 </context>
 <context>
     <name>QMYSQLDriver</name>
     <message>
         <source>Unable to allocate a MYSQL object</source>
-        <translation>Bir MYSQL nesnesi ayrılamıyor</translation>
-    </message>
-    <message>
-        <source>Unable to open database &apos;%1&apos;</source>
-        <translation>“%1” veritabanı açılamıyor</translation>
+        <translation>Kunde inte allokera ett MYSQL-objekt</translation>
     </message>
     <message>
         <source>Unable to connect</source>
-        <translation>Bağlanılamıyor</translation>
+        <translation>Kunde inte ansluta</translation>
+    </message>
+    <message>
+        <source>Unable to open database &apos;%1&apos;</source>
+        <translation>Kunde inte öppna databasen &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>İşlem başlatılamıyor</translation>
+        <translation>Kunde inte påbörja transaktion</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>İşleme yapılamıyor</translation>
+        <translation>Kunde inte verkställa transaktion</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>İşlem geri alınamıyor</translation>
+        <translation>Kunde inte rulla tillbaka transaktion</translation>
     </message>
 </context>
 <context>
     <name>QMYSQLResult</name>
     <message>
         <source>Unable to fetch data</source>
-        <translation>Veri getirilemiyor</translation>
+        <translation>Kunde inte hämta data</translation>
     </message>
     <message>
         <source>Unable to execute query</source>
-        <translation>Sorgu yürütülemiyor</translation>
+        <translation>Kunde inte köra frågesats</translation>
     </message>
     <message>
         <source>Unable to store result</source>
-        <translation>Sonuç depolanamıyor</translation>
+        <translation>Kunde inte lagra resultat</translation>
     </message>
     <message>
         <source>Unable to execute next query</source>
-        <translation>Bir sonraki sorgu yürütülemiyor</translation>
+        <translation>Kunde inte köra nästa frågesats</translation>
     </message>
     <message>
         <source>Unable to store next result</source>
-        <translation>Sonraki sonuç depolanamıyor</translation>
+        <translation>Kunde inte lagra nästa resultat</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>İfade hazırlanamıyor</translation>
+        <translation>Kunde inte förbereda frågesats</translation>
     </message>
     <message>
         <source>Unable to reset statement</source>
-        <translation>İfade sıfırlanamıyor</translation>
+        <translation>Kunde inte återställa frågesats</translation>
     </message>
     <message>
         <source>Unable to bind value</source>
-        <translation>Değer bağıntılanamıyor</translation>
+        <translation>Kunde inte binda värde</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>İfade yürütülemiyor</translation>
+        <translation>Kunde inte köra frågesats</translation>
     </message>
     <message>
         <source>Unable to bind outvalues</source>
-        <translation>Çıktı değerleri bağıntılanamıyor</translation>
+        <translation>Kunde inte binda utvärden</translation>
     </message>
     <message>
         <source>Unable to store statement results</source>
-        <translation>İfade sonuçları depolanamıyor</translation>
+        <translation>Kunde inte lagra resultat från frågesats</translation>
     </message>
 </context>
 <context>
     <name>QMdiArea</name>
     <message>
         <source>(Untitled)</source>
-        <translation>(Başlıksız)</translation>
+        <translation>(Namnlös)</translation>
     </message>
 </context>
 <context>
     <name>QMdiSubWindow</name>
     <message>
         <source>- [%1]</source>
-        <translation>— [%1]</translation>
+        <translation>- [%1]</translation>
     </message>
     <message>
         <source>%1 - [%2]</source>
-        <translation>%1 — [%2]</translation>
+        <translation>%1 - [%2]</translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>Simge Durumuna Küçült</translation>
+        <translation>Minimera</translation>
     </message>
     <message>
         <source>Maximize</source>
-        <translation>Ekranı Kapla</translation>
+        <translation>Maximera</translation>
     </message>
     <message>
         <source>Unshade</source>
-        <translation>Panjuru Aç</translation>
+        <translation>Avskugga</translation>
     </message>
     <message>
         <source>Shade</source>
-        <translation>Panjuru Kapat</translation>
+        <translation>Skugga</translation>
     </message>
     <message>
         <source>Restore Down</source>
-        <translation>Aşağı Geri Yükle</translation>
+        <translation>Återställ nedåt</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation>Geri Yükle</translation>
+        <translation>Återställ</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Kapat</translation>
+        <translation>Stäng</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Yardım</translation>
+        <translation>Hjälp</translation>
     </message>
     <message>
         <source>Menu</source>
-        <translation>Menü</translation>
+        <translation>Meny</translation>
     </message>
     <message>
         <source>&amp;Restore</source>
-        <translation>Ge&amp;ri Yükle</translation>
+        <translation>Åte&amp;rställ</translation>
     </message>
     <message>
         <source>&amp;Move</source>
-        <translation>&amp;Taşı</translation>
+        <translation>&amp;Flytta</translation>
     </message>
     <message>
         <source>&amp;Size</source>
-        <translation>&amp;Boyut</translation>
+        <translation>&amp;Storlek</translation>
     </message>
     <message>
         <source>Mi&amp;nimize</source>
-        <translation>Simge Durumuna Küçü&amp;lt</translation>
+        <translation>Mi&amp;nimera</translation>
     </message>
     <message>
         <source>Ma&amp;ximize</source>
-        <translation>&amp;Ekranı Kapla</translation>
+        <translation>Ma&amp;ximera</translation>
     </message>
     <message>
         <source>Stay on &amp;Top</source>
-        <translation>&amp;Üstte Kal</translation>
+        <translation>Stanna kvar övers&amp;t</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Kapat</translation>
+        <translation>S&amp;täng</translation>
     </message>
 </context>
 <context>
     <name>QMessageBox</name>
     <message>
         <source>Show Details...</source>
-        <translation>Ayrıntıları Göster…</translation>
+        <translation>Visa detaljer...</translation>
     </message>
     <message>
         <source>Hide Details...</source>
-        <translation>Ayrıntıları Gizle…</translation>
+        <translation>Dölj detaljer...</translation>
     </message>
     <message>
         <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
-        <translation>&lt;h3&gt;Qt Hakkında&lt;/h3&gt;&lt;p&gt;Bu program Qt %1 sürümünü kullanıyor.&lt;/p&gt;</translation>
+        <translation>&lt;h3&gt;Om Qt&lt;/h3&gt;&lt;p&gt;Detta program använder Qt version %1.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;https://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) The Qt Company Ltd. and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd. product developed as an open source project. See &lt;a href=&quot;https://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
@@ -2508,217 +2509,331 @@ Yine de silmek istiyor musunuz?</translation>
         <translation>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;https://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) The Qt Company Ltd. and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd. product developed as an open source project. See &lt;a href=&quot;https://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <extracomment>Leave this text untranslated or include a verbatim copy of it below and note that it is the authoritative version in case of doubt.</extracomment>
-        <translation type="vanished">&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</translation>
+        <source>About Qt</source>
+        <translation>Om Qt</translation>
+    </message>
+</context>
+<context>
+    <name>QMimerSQL</name>
+    <message>
+        <source>No Mimer SQL error for code %1</source>
+        <translation>Inget Mimer SQL-fel för kod %1</translation>
     </message>
     <message>
-        <source>About Qt</source>
-        <translation>Qt Hakkında</translation>
+        <source>Generic Mimer SQL error</source>
+        <translation>Allmänt Mimer SQL-fel</translation>
+    </message>
+</context>
+<context>
+    <name>QMimerSQLDriver</name>
+    <message>
+        <source>Could not connect to database</source>
+        <translation>Kunde inte ansluta till databasen</translation>
+    </message>
+    <message>
+        <source>Could not start transaction</source>
+        <translation>Kunde inte starta transaktion</translation>
+    </message>
+    <message>
+        <source>Could not commit transaction</source>
+        <translation>Kunde inte verkställa transaktion</translation>
+    </message>
+    <message>
+        <source>Could not roll back transaction</source>
+        <translation>Kunde inte rulla tillbaka transaktion</translation>
+    </message>
+</context>
+<context>
+    <name>QMimerSQLResult</name>
+    <message>
+        <source>Could not get %1, column %2</source>
+        <extracomment>Data type, column</extracomment>
+        <translation>Kunde inte få %1, kolumn %2</translation>
+    </message>
+    <message>
+        <source>Could not set %1, parameter %2</source>
+        <extracomment>Data type, parameter</extracomment>
+        <translation>Kunde inte ställa in %1, parameter %2</translation>
+    </message>
+    <message>
+        <source>Could not close cursor</source>
+        <translation>Kunde inte stänga markör</translation>
+    </message>
+    <message>
+        <source>Could not close statement</source>
+        <translation>Kunde inte stänga villkor</translation>
+    </message>
+    <message>
+        <source>Fetch did not succeed</source>
+        <translation>Hämtningen lyckades inte</translation>
+    </message>
+    <message>
+        <source>Fetch first did not succeed</source>
+        <translation>Hämta först lyckades inte</translation>
+    </message>
+    <message>
+        <source>Could not fetch next row</source>
+        <translation>Kunde inte hämta nästa rad</translation>
+    </message>
+    <message>
+        <source>Unknown data type %1</source>
+        <translation>Okänd datatyp %1</translation>
+    </message>
+    <message>
+        <source>Could not check null, column %1</source>
+        <translation>Kunde inte kontrollera null, kolumn %1</translation>
+    </message>
+    <message>
+        <source>Could not prepare/execute statement</source>
+        <translation>Kunde inte förbereda/köra frågesats</translation>
+    </message>
+    <message>
+        <source>Wrong number of parameters</source>
+        <translation>Felaktigt antal parametrar</translation>
+    </message>
+    <message>
+        <source>Unknown datatype, parameter %1</source>
+        <translation>Okänd datatyp, parameter %1</translation>
+    </message>
+    <message>
+        <source>Could not execute statement/open cursor</source>
+        <translation>Kunde inte köra villkor/öppen markör</translation>
+    </message>
+    <message>
+        <source>Only input parameters can be used in batch operations</source>
+        <translation>Endast inmatningsparametrar kan användas i satskörningar</translation>
+    </message>
+    <message>
+        <source>Could not add batch %1</source>
+        <extracomment>%1 is the batch number</extracomment>
+        <translation>Kunde inte lägga till sats %1</translation>
+    </message>
+    <message>
+        <source>Could not execute batch</source>
+        <translation>Kunde inte köra sats</translation>
+    </message>
+</context>
+<context>
+    <name>QMimerSQLResult:</name>
+    <message>
+        <source>Fetch last did not succeed</source>
+        <translation>Hämtning sist lyckades inte</translation>
+    </message>
+    <message>
+        <source>Column %1 out of range</source>
+        <translation>Kolumn %1 utanför intervallet</translation>
     </message>
 </context>
 <context>
     <name>QNativeSocketEngine</name>
     <message>
         <source>Unable to initialize non-blocking socket</source>
-        <translation>Engellemeyen yuva ilklendirilemiyor</translation>
+        <translation>Kunde inte initiera icke-blockerande uttag</translation>
     </message>
     <message>
         <source>Unable to initialize broadcast socket</source>
-        <translation>Yayın yuvası ilklendirilemiyor</translation>
+        <translation>Kunde inte initiera uttag för broadcast</translation>
     </message>
     <message>
         <source>Attempt to use IPv6 socket on a platform with no IPv6 support</source>
-        <translation>IPv6 desteği olmayan bir platformda IPv6 yuvasını kullanmaya çalış</translation>
+        <translation>Försök att använda IPv6-uttag på en plattform som saknar IPv6-stöd</translation>
     </message>
     <message>
         <source>The remote host closed the connection</source>
-        <translation>Uzak ana bilgisayar bağlantıyı kapattı</translation>
+        <translation>Fjärrvärden stängde anslutningen</translation>
     </message>
     <message>
         <source>Network operation timed out</source>
-        <translation>Ağ işlemi zaman aşımına uğradı</translation>
+        <translation>Tidsgräns för nätverksåtgärd överstegs</translation>
     </message>
     <message>
         <source>Out of resources</source>
-        <translation>Özkaynaklar tükendi</translation>
+        <translation>Slut på resurser</translation>
     </message>
     <message>
         <source>Unsupported socket operation</source>
-        <translation>Desteklenmeyen yuva işlemi</translation>
+        <translation>Uttagsåtgärden stöds inte</translation>
     </message>
     <message>
         <source>Protocol type not supported</source>
-        <translation>Protokol türü desteklenmiyor</translation>
+        <translation>Protokolltypen stöds inte</translation>
     </message>
     <message>
         <source>Invalid socket descriptor</source>
-        <translation>Geçersiz yuva tanımlayıcısı</translation>
+        <translation>Ogiltig uttagsbeskrivare</translation>
     </message>
     <message>
         <source>Host unreachable</source>
-        <translation>Ana bilgisayara ulaşılamıyor</translation>
+        <translation>Värden är inte nåbar</translation>
     </message>
     <message>
         <source>Network unreachable</source>
-        <translation>Ağa erişilemiyor</translation>
+        <translation>Nätverket är inte nåbart</translation>
     </message>
     <message>
         <source>Permission denied</source>
-        <translation>İzin reddedildi</translation>
+        <translation>Åtkomst nekad</translation>
     </message>
     <message>
         <source>Connection timed out</source>
-        <translation>Bağlantı zaman aşımına uğradı</translation>
+        <translation>Tidsgränsen för anslutning överstegs</translation>
     </message>
     <message>
         <source>Connection refused</source>
-        <translation>Bağlantı reddedildi</translation>
+        <translation>Anslutningen vägrades</translation>
     </message>
     <message>
         <source>The bound address is already in use</source>
-        <translation>Bağlı adres zaten kullanılıyor</translation>
+        <translation>Bindningsadress används redan</translation>
     </message>
     <message>
         <source>The address is not available</source>
-        <translation>Adres kullanılamıyor</translation>
+        <translation>Adressen är inte tillgänglig</translation>
     </message>
     <message>
         <source>The address is protected</source>
-        <translation>Adres korunuyor</translation>
+        <translation>Adressen är skyddad</translation>
     </message>
     <message>
         <source>Datagram was too large to send</source>
-        <translation>Datagram gönderilemeyecek kadar büyüktü</translation>
+        <translation>Datagram för för stor för att skicka</translation>
     </message>
     <message>
         <source>Unable to send a message</source>
-        <translation>İleti gönderilemiyor</translation>
+        <translation>Kunde inte skicka ett meddelande</translation>
     </message>
     <message>
         <source>Unable to receive a message</source>
-        <translation>İleti alınamıyor</translation>
+        <translation>Kunde inte ta emot ett meddelande</translation>
     </message>
     <message>
         <source>Unable to write</source>
-        <translation>Yazılamıyor</translation>
+        <translation>Kunde inte skriva</translation>
     </message>
     <message>
         <source>Network error</source>
-        <translation>Ağ hatası</translation>
+        <translation>Nätverksfel</translation>
     </message>
     <message>
         <source>Another socket is already listening on the same port</source>
-        <translation>Aynı kapıda başka bir yuva halihazırda dinliyor</translation>
+        <translation>Ett annat uttag lyssnar redan på samma port</translation>
     </message>
     <message>
         <source>Operation on non-socket</source>
-        <translation>İşlem yuvada değil</translation>
+        <translation>Åtgärd på icke-uttag</translation>
     </message>
     <message>
         <source>The proxy type is invalid for this operation</source>
-        <translation>Vekil türü bu işlem için geçersiz</translation>
+        <translation>Proxytypen är ogiltig för denna åtgärd</translation>
     </message>
     <message>
         <source>Temporary error</source>
-        <translation>Geçici hata</translation>
+        <translation>Temporärt fel</translation>
     </message>
     <message>
         <source>Network dropped connection on reset</source>
-        <translation>Sıfırlama sırasında ağ bağlantısı kesildi</translation>
+        <translation>Nätverket stängde anslutningen vid nollställning</translation>
     </message>
     <message>
         <source>Connection reset by peer</source>
-        <translation>Eş tarafından bağlantı sıfırlandı</translation>
+        <translation>Anslutningen nollställdes av motpart</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Bilinmeyen hata</translation>
+        <translation>Okänt fel</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessCacheBackend</name>
     <message>
         <source>Error opening %1</source>
-        <translation>%1 açılırken hata oluştu</translation>
+        <translation>Fel vid öppning %1</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessDataBackend</name>
     <message>
         <source>Invalid URI: %1</source>
-        <translation>Geçersiz URI: %1</translation>
+        <translation>Ogiltig URI: %1</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessDebugPipeBackend</name>
     <message>
         <source>Write error writing to %1: %2</source>
-        <translation>%1 ögesine yazma hatası: %2</translation>
+        <translation>Skrivfel vid skrivning till %1: %2</translation>
     </message>
     <message>
         <source>Socket error on %1: %2</source>
-        <translation>%1 üzerinde yuva hatası: %2</translation>
+        <translation>Uttagsfel på %1: %2</translation>
     </message>
     <message>
         <source>Remote host closed the connection prematurely on %1</source>
-        <translation>Uzak ana bilgisayar %1 üzerinde bağlantıyı erken kapattı</translation>
+        <translation>Fjärrvärden stängde anslutningen i förtid på %1</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessFileBackend</name>
     <message>
         <source>Request for opening non-local file %1</source>
-        <translation>Yerel olmayan %1 dosyasını açma isteği</translation>
+        <translation>Begäran för öppning av icke-lokala filen %1</translation>
     </message>
     <message>
         <source>Error opening %1: %2</source>
-        <translation>%1 açılırken hata oluştu: %2</translation>
+        <translation>Fel vid öppning av %1: %2</translation>
     </message>
     <message>
         <source>Write error writing to %1: %2</source>
-        <translation>%1 ögesine yazma hatası: %2</translation>
+        <translation>Skrivfel vid skrivning till %1: %2</translation>
     </message>
     <message>
         <source>Cannot open %1: Path is a directory</source>
-        <translation>%1 açılamıyor: Yol bir dizin</translation>
+        <translation>Kan inte öppna %1: Sökvägen är en katalog</translation>
     </message>
     <message>
         <source>Read error reading from %1: %2</source>
-        <translation>%1 kaynağından okunurken okuma hatası: %2</translation>
+        <translation>Läsfel vid läsning från %1: %2</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReply</name>
     <message>
         <source>Error transferring %1 - server replied: %2</source>
-        <translation>%1 aktarılırken hata oluştu — sunucu yanıtı: %2</translation>
+        <translation>Fel vid överföring %1 - servern svarade: %2</translation>
     </message>
     <message>
-        <source>backend start error.</source>
-        <translation>arka uç başlatma hatası.</translation>
+        <source>Error transferring %1 - server replied with status code %2</source>
+        <translation>Fel vid överföring %1 - servern svarade med statuskod %2</translation>
     </message>
     <message>
         <source>Protocol &quot;%1&quot; is unknown</source>
-        <translation>“%1” protokolü bilinmiyor</translation>
+        <translation>Protokollet &quot;%1&quot; är okänt</translation>
+    </message>
+    <message>
+        <source>backend start error.</source>
+        <translation>fel vid start av bakände.</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReplyHttpImpl</name>
     <message>
         <source>Operation canceled</source>
-        <translation>İşlem iptal edildi</translation>
+        <translation>Åtgärden avbröts</translation>
+    </message>
+    <message>
+        <source>Operation timed out</source>
+        <translation>Åtgärden översteg tidsgränsen</translation>
     </message>
     <message>
         <source>No suitable proxy found</source>
-        <translation>Uygun vekil bulunamadı</translation>
+        <translation>Ingen lämplig proxy hittades</translation>
     </message>
 </context>
 <context>
     <name>QNetworkReplyImpl</name>
     <message>
         <source>Operation canceled</source>
-        <translation>İşlem iptal edildi</translation>
+        <translation>Åtgärden avbröts</translation>
     </message>
 </context>
 <context>
@@ -2726,277 +2841,269 @@ Yine de silmek istiyor musunuz?</translation>
     <message>
         <source>Unable to initialize</source>
         <comment>QOCIDriver</comment>
-        <translation>İlklendirilemiyor</translation>
+        <translation>Kunde inte initiera</translation>
     </message>
     <message>
         <source>Unable to logon</source>
-        <translation>Oturum açılamıyor</translation>
+        <translation>Kunde inte logga in</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>İşlem başlatılamıyor</translation>
+        <translation>Kunde inte påbörja transaktion</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>İşleme yapılamıyor</translation>
+        <translation>Kunde inte verkställa transaktion</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>İşlem geri alınamıyor</translation>
+        <translation>Kunde inte rulla tillbaka transaktion</translation>
     </message>
 </context>
 <context>
     <name>QOCIResult</name>
     <message>
         <source>Unable to bind column for batch execute</source>
-        <translation>Toplu yürütme sütunu bağıntılanamıyor</translation>
+        <translation>Kunde inte binda kolumn för satskörning</translation>
     </message>
     <message>
         <source>Unable to execute batch statement</source>
-        <translation>Toplu ifade çalıştırılamıyor</translation>
+        <translation>Kunde inte köra satsfråga</translation>
     </message>
     <message>
         <source>Unable to goto next</source>
-        <translation>Sonrakine gidilemiyor</translation>
+        <translation>Kunde inte gå till nästa</translation>
     </message>
     <message>
         <source>Unable to alloc statement</source>
-        <translation>İfade ayrılamıyor</translation>
+        <translation>Kunde inte allokera frågesats</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>İfade hazırlanamıyor</translation>
+        <translation>Kunde inte förbereda frågesats</translation>
     </message>
     <message>
         <source>Unable to get statement type</source>
-        <translation>İfade türü alınamıyor</translation>
+        <translation>Kunde inte få villkorstypen</translation>
     </message>
     <message>
         <source>Unable to bind value</source>
-        <translation>Değer bağıntılanamıyor</translation>
+        <translation>Kunde inte binda värde</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>İfade yürütülemiyor</translation>
+        <translation>Kunde inte köra frågesats</translation>
     </message>
 </context>
 <context>
     <name>QODBCDriver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>Bağlanılamıyor</translation>
+        <translation>Kunde inte ansluta</translation>
     </message>
     <message>
         <source>Unable to connect - Driver doesn&apos;t support all functionality required</source>
-        <translation>Bağlanılamıyor — sürücü gereken tüm işlevleri desteklemiyor</translation>
+        <translation>Kunde inte ansluta - Drivrutinen har inte stöd för all funktionalitet som krävs</translation>
     </message>
     <message>
         <source>Unable to disable autocommit</source>
-        <translation>Otomatik işleme devre dışı bırakılamıyor</translation>
+        <translation>Kunde inte inaktivera automatisk verkställning</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>İşleme yapılamıyor</translation>
+        <translation>Kunde inte verkställa transaktion</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>İşlem geri alınamıyor</translation>
+        <translation>Kunde inte rulla tillbaka transaktion</translation>
     </message>
     <message>
         <source>Unable to enable autocommit</source>
-        <translation>Otomatik işleme etkinleştirilemiyor</translation>
+        <translation>Kunde inte aktivera automatisk verkställning</translation>
     </message>
 </context>
 <context>
     <name>QODBCResult</name>
     <message>
-        <source>QODBCResult::reset: Unable to set &apos;SQL_CURSOR_STATIC&apos; as statement attribute. Please check your ODBC driver configuration</source>
-        <translation>QODBCResult::reset: “SQL_CURSOR_STATIC” ifade özniteliği olarak ayarlanamıyor. Lütfen ODBC sürücü yapılandırmanızı denetleyin.</translation>
-    </message>
-    <message>
-        <source>Unable to execute statement</source>
-        <translation>İfade yürütülemiyor</translation>
+        <source>Unable to fetch last</source>
+        <translation>Kunde inte hämta sista</translation>
     </message>
     <message>
         <source>QODBCResult::reset: Unable to set &apos;SQL_ATTR_CURSOR_TYPE&apos; as statement attribute. Please check your ODBC driver configuration</source>
-        <translation>QODBCResult::reset: İfade özniteliği olarak “SQL_ATTR_CURSOR_TYPE” ayarlanamıyor. Lütfen, ODBC sürücüsü yapılandırmanızı denetleyin.</translation>
+        <translation>QODBCResult::reset: Kunde inte ställa in \&quot;SQL_ATTR_CURSOR_TYPE\&quot; som frågesatsattribut. Kontrollera konfigurationen för din ODBC-drivrutin</translation>
+    </message>
+    <message>
+        <source>Unable to execute statement</source>
+        <translation>Kunde inte köra villkor</translation>
     </message>
     <message>
         <source>Unable to fetch</source>
-        <translation>Getirilemiyor</translation>
+        <translation>Kunde inte hämta</translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>Sonraki getirilemiyor</translation>
+        <translation>Kunde inte hämta nästa</translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>İlk önceki getirilemiyor</translation>
+        <translation>Kunde inte hämta första</translation>
     </message>
     <message>
         <source>Unable to fetch previous</source>
-        <translation>Önceki getirilemiyor</translation>
+        <translation>Kunde inte hämta föregående</translation>
     </message>
     <message>
-        <source>Unable to fetch last</source>
-        <translation>Sonuncu getirilemiyor</translation>
+        <source>QODBCResult::reset: Unable to set &apos;SQL_CURSOR_STATIC&apos; as statement attribute. Please check your ODBC driver configuration</source>
+        <translation>QODBCResult::reset: Kunde inte ställa in \&quot;SQL_CURSOR_STATIC\&quot; som frågesatsattribut. Kontrollera konfigurationen för din ODBC-drivrutin</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>İfade hazırlanamıyor</translation>
+        <translation>Kunde inte förbereda frågesats</translation>
     </message>
     <message>
         <source>Unable to bind variable</source>
-        <translation>Değişken bağıntılanamıyor</translation>
+        <translation>Kunde inte binda variabel</translation>
     </message>
 </context>
 <context>
     <name>QPSQLDriver</name>
     <message>
         <source>Unable to connect</source>
-        <translation>Bağlanılamıyor</translation>
+        <translation>Kunde inte ansluta</translation>
     </message>
     <message>
         <source>Unable to set client encoding to &apos;UNICODE&apos;</source>
-        <translation>İstemci kodlaması “UNICODE” olarak ayarlanamıyor</translation>
+        <translation>Kunde inte ställa in klientenkodning till &apos;UNICODE&apos;</translation>
     </message>
     <message>
         <source>Could not begin transaction</source>
-        <translation>İşlem başlatılamadı</translation>
+        <translation>Kunde inte påbörja transaktion</translation>
     </message>
     <message>
         <source>Could not commit transaction</source>
-        <translation>İşlem gerçekleştirilemedi</translation>
+        <translation>Kunde inte verkställa transaktion</translation>
     </message>
     <message>
         <source>Could not rollback transaction</source>
-        <translation>İşlem geri alınamadı</translation>
+        <translation>Kunde inte rulla tillbaka transaktion</translation>
     </message>
     <message>
         <source>Unable to subscribe</source>
-        <translation>Abone olunamıyor</translation>
+        <translation>Kunde inte prenumerera</translation>
     </message>
     <message>
         <source>Unable to unsubscribe</source>
-        <translation>Abonelikten çıkılamıyor</translation>
+        <translation>Kunde inte avprenumerera</translation>
     </message>
 </context>
 <context>
     <name>QPSQLResult</name>
     <message>
         <source>Query results lost - probably discarded on executing another SQL query.</source>
-        <translation>Sorgu sonuçları kaybedildi — büyük olasılıkla başka bir SQL sorgusu yürütülürken atıldı.</translation>
+        <translation>Frågesatsens resultat förlorades - antagligen förkastade vid körning av en annan SQL-fråga.</translation>
     </message>
     <message>
         <source>Unable to create query</source>
-        <translation>Sorgu oluşturulamıyor</translation>
+        <translation>Kunde inte skapa fråga</translation>
     </message>
     <message>
         <source>Unable to get result</source>
-        <translation>Sonuç alınamıyor</translation>
+        <translation>Kunde inte få resultat</translation>
     </message>
     <message>
         <source>Unable to send query</source>
-        <translation>Sorgu gönderilemiyor</translation>
+        <translation>Kunde inte skicka frågesats</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
-        <translation>İfade hazırlanamıyor</translation>
+        <translation>Kunde inte förbereda villkor</translation>
     </message>
 </context>
 <context>
     <name>QPageSetupWidget</name>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation>Formulär</translation>
     </message>
     <message>
         <source>Paper</source>
-        <translation>Kâğıt</translation>
+        <translation>Papper</translation>
     </message>
     <message>
         <source>Page size:</source>
-        <translation>Sayfa boyutu:</translation>
+        <translation>Sidstorlek:</translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation>Genişlik:</translation>
+        <translation>Bredd:</translation>
     </message>
     <message>
         <source>Height:</source>
-        <translation>Yükseklik:</translation>
+        <translation>Höjd:</translation>
     </message>
     <message>
         <source>Paper source:</source>
-        <translation>Kâğıt kaynağı:</translation>
+        <translation>Papperskälla:</translation>
     </message>
     <message>
         <source>Orientation</source>
-        <translation>Yönlendirme</translation>
+        <translation>Orientering</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>Dikey</translation>
+        <translation>Stående</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>Yatay</translation>
+        <translation>Liggande</translation>
     </message>
     <message>
         <source>Reverse landscape</source>
-        <translation>Ters yatay</translation>
+        <translation>Omvänt liggande</translation>
     </message>
     <message>
         <source>Reverse portrait</source>
-        <translation>Ters dikey</translation>
+        <translation>Omvänt stående</translation>
     </message>
     <message>
         <source>Margins</source>
-        <translation>Kenar boşlukları</translation>
+        <translation>Marginaler</translation>
     </message>
     <message>
         <source>top margin</source>
-        <translation>üst kenar boşluğu</translation>
+        <translation>övre marginal</translation>
     </message>
     <message>
         <source>left margin</source>
-        <translation>sol kenar boşluğu</translation>
+        <translation>vänstermarginal</translation>
     </message>
     <message>
         <source>right margin</source>
-        <translation>sağ kenar boşluğu</translation>
+        <translation>högermarginal</translation>
     </message>
     <message>
         <source>bottom margin</source>
-        <translation>alt kenar boşluğu</translation>
+        <translation>nedre marginal</translation>
     </message>
     <message>
         <source>Page Layout</source>
-        <translation>Sayfa Yerleşimi</translation>
-    </message>
-    <message>
-        <source>Page order:</source>
-        <translation>Sayfa sırası:</translation>
-    </message>
-    <message>
-        <source>Pages per sheet:</source>
-        <translation>Yaprak başına sayfa:</translation>
+        <translation>Sidlayout</translation>
     </message>
     <message>
         <source>Millimeters (mm)</source>
-        <translation>Milimetre (mm)</translation>
+        <translation>Millimeter (mm)</translation>
     </message>
     <message>
         <source>Inches (in)</source>
-        <translation>İnç (in)</translation>
+        <translation>Tum (in)</translation>
     </message>
     <message>
         <source>Points (pt)</source>
-        <translation>Nokta (pt)</translation>
+        <translation>Punkter (pt)</translation>
     </message>
     <message>
         <source>Pica (P̸)</source>
-        <translation>Pika (P̸)</translation>
+        <translation>Pica (P̸)</translation>
     </message>
     <message>
         <source>Didot (DD)</source>
@@ -3008,7 +3115,7 @@ Yine de silmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>Özel</translation>
+        <translation>Anpassad</translation>
     </message>
     <message>
         <source>mm</source>
@@ -3023,7 +3130,7 @@ Yine de silmek istiyor musunuz?</translation>
     <message>
         <source>in</source>
         <extracomment>Unit &apos;Inch&apos;</extracomment>
-        <translation>in</translation>
+        <translation>tum</translation>
     </message>
     <message>
         <source>P̸</source>
@@ -3040,43 +3147,51 @@ Yine de silmek istiyor musunuz?</translation>
         <extracomment>Unit &apos;Cicero&apos;</extracomment>
         <translation>CC</translation>
     </message>
+    <message>
+        <source>Page &amp;order:</source>
+        <translation>Sid&amp;ordning:</translation>
+    </message>
+    <message>
+        <source>Pages &amp;per sheet:</source>
+        <translation>Sidor &amp;per ark:</translation>
+    </message>
 </context>
 <context>
     <name>QPageSize</name>
     <message>
         <source>Custom (%1mm x %2mm)</source>
         <extracomment>Custom size name in millimeters</extracomment>
-        <translation>Özel (%1 mm × %2 mm)</translation>
+        <translation>Anpassad (%1mm x %2mm)</translation>
     </message>
     <message>
         <source>Custom (%1pt x %2pt)</source>
         <extracomment>Custom size name in points</extracomment>
-        <translation>Özel (%1 pt × %2 pt)</translation>
+        <translation>Anpassad (%1pt x %2pt)</translation>
     </message>
     <message>
         <source>Custom (%1in x %2in)</source>
         <extracomment>Custom size name in inches</extracomment>
-        <translation>Özel (%1 in × %2 in)</translation>
+        <translation>Anpassad (%1 tum x %2 tum)</translation>
     </message>
     <message>
         <source>Custom (%1pc x %2pc)</source>
         <extracomment>Custom size name in picas</extracomment>
-        <translation>Özel (%1 pk × %2 pk)</translation>
+        <translation>Anpassad (%1pc x %2pc)</translation>
     </message>
     <message>
         <source>Custom (%1DD x %2DD)</source>
         <extracomment>Custom size name in didots</extracomment>
-        <translation>Özel (%1 DD × %2 DD)</translation>
+        <translation>Anpassad (%1DD x %2DD)</translation>
     </message>
     <message>
         <source>Custom (%1CC x %2CC)</source>
         <extracomment>Custom size name in ciceros</extracomment>
-        <translation>Özel (%1 CC × %2 CC)</translation>
+        <translation>Anpassad (%1CC x %2CC)</translation>
     </message>
     <message>
         <source>%1 x %2 in</source>
         <extracomment>Page size in &apos;Inch&apos;.</extracomment>
-        <translation>%1 × %2 in</translation>
+        <translation>%1 x %2 tum</translation>
     </message>
     <message>
         <source>A0</source>
@@ -3168,59 +3283,59 @@ Yine de silmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>Executive (7.5 x 10 in)</source>
-        <translation>Yönetici (7,5 × 10 in)</translation>
+        <translation>Executive (7.5 x 10 tum)</translation>
     </message>
     <message>
         <source>Executive (7.25 x 10.5 in)</source>
-        <translation>Yönetici (7,25 × 10,5 in)</translation>
+        <translation>Executive (7.25 x 10.5 tum)</translation>
     </message>
     <message>
         <source>Folio (8.27 x 13 in)</source>
-        <translation>Folyo (8,27 × 13 in)</translation>
+        <translation>Folio (8.27 x 13 tum)</translation>
     </message>
     <message>
         <source>Legal</source>
-        <translation>Yasal</translation>
+        <translation>Legal</translation>
     </message>
     <message>
         <source>Letter / ANSI A</source>
-        <translation>Mektup / ANSI A</translation>
+        <translation>Brev / ANSI A</translation>
     </message>
     <message>
         <source>Tabloid / ANSI B</source>
-        <translation>Küçük Gazete / ANSI B</translation>
+        <translation>Nyhetstidning / ANSI B</translation>
     </message>
     <message>
         <source>Ledger / ANSI B</source>
-        <translation>Büyük Defter / ANSI B</translation>
+        <translation>Ledger / ANSI B</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>Özel</translation>
+        <translation>Anpassad</translation>
     </message>
     <message>
         <source>A3 Extra</source>
-        <translation>A3 Ekstra</translation>
+        <translation>A3 Extra</translation>
     </message>
     <message>
         <source>A4 Extra</source>
-        <translation>A4 Ekstra</translation>
+        <translation>A4 Extra</translation>
     </message>
     <message>
         <source>A4 Plus</source>
-        <translation>At Artı</translation>
+        <translation>A4 Plus</translation>
     </message>
     <message>
         <source>A4 Small</source>
-        <translation>A4 Küçük</translation>
+        <translation>A4 liten</translation>
     </message>
     <message>
         <source>A5 Extra</source>
-        <translation>A5 Ekstra</translation>
+        <translation>A5 Extra</translation>
     </message>
     <message>
         <source>B5 Extra</source>
-        <translation>B5 Ekstra</translation>
+        <translation>B5 Extra</translation>
     </message>
     <message>
         <source>JIS B0</source>
@@ -3280,71 +3395,71 @@ Yine de silmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>Legal Extra</source>
-        <translation>Yasal Ekstra</translation>
+        <translation>Brev extra</translation>
     </message>
     <message>
         <source>Letter Extra</source>
-        <translation>Mektup Ekstra</translation>
+        <translation>Brev extra</translation>
     </message>
     <message>
         <source>Letter Plus</source>
-        <translation>Mektup Artı</translation>
+        <translation>Brev plus</translation>
     </message>
     <message>
         <source>Letter Small</source>
-        <translation>Mektup Küçük</translation>
+        <translation>Brev litet</translation>
     </message>
     <message>
         <source>Tabloid Extra</source>
-        <translation>Tabloit Ekstra</translation>
+        <translation>Nyhetstidning extra</translation>
     </message>
     <message>
         <source>Architect A</source>
-        <translation>Mimar A</translation>
+        <translation>Arkitekt A</translation>
     </message>
     <message>
         <source>Architect B</source>
-        <translation>Mimar B</translation>
+        <translation>Arkitekt B</translation>
     </message>
     <message>
         <source>Architect C</source>
-        <translation>Mimar C</translation>
+        <translation>Arkitekt C</translation>
     </message>
     <message>
         <source>Architect D</source>
-        <translation>Mimar D</translation>
+        <translation>Arkitekt D</translation>
     </message>
     <message>
         <source>Architect E</source>
-        <translation>Mimar E</translation>
+        <translation>Arkitekt E</translation>
     </message>
     <message>
         <source>Note</source>
-        <translation>Not</translation>
+        <translation>Anteckning</translation>
     </message>
     <message>
         <source>Quarto</source>
-        <translation>Dört Yapraklı</translation>
+        <translation>Quarto</translation>
     </message>
     <message>
         <source>Statement</source>
-        <translation>İfade</translation>
+        <translation>Kungörelse</translation>
     </message>
     <message>
         <source>Super A</source>
-        <translation>Süper A</translation>
+        <translation>Super A</translation>
     </message>
     <message>
         <source>Super B</source>
-        <translation>Süper B</translation>
+        <translation>Super B</translation>
     </message>
     <message>
         <source>Postcard</source>
-        <translation>Kartpostal</translation>
+        <translation>Vykort</translation>
     </message>
     <message>
         <source>Double Postcard</source>
-        <translation>Çift Kartpostal</translation>
+        <translation>Dubbelt vykort</translation>
     </message>
     <message>
         <source>PRC 16K</source>
@@ -3356,1610 +3471,1607 @@ Yine de silmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>PRC 32K Big</source>
-        <translation>PRC 32K Büyük</translation>
+        <translation>PRC 32K stor</translation>
     </message>
     <message>
         <source>Fan-fold US (14.875 x 11 in)</source>
-        <translation>Sürekli Form Kâğıdı ABD (14,875 × 11 in)</translation>
+        <translation>Fan-fold US (14.875 x 11 tum)</translation>
     </message>
     <message>
         <source>Fan-fold German (8.5 x 12 in)</source>
-        <translation>Sürekli Form Kâğıdı Alman (8,5 × 12 in)</translation>
+        <translation>Fan-fold tysk (8.5 x 12 tum)</translation>
     </message>
     <message>
         <source>Fan-fold German Legal (8.5 x 13 in)</source>
-        <translation>Sürekli Form Kâğıdı Alman Yasal (8,5 × 13 in)</translation>
+        <translation>Fan-fold tysk Legal (8.5 x 13 tum)</translation>
     </message>
     <message>
         <source>Envelope B4</source>
-        <translation>Zarf B4</translation>
+        <translation>Kuvert B4</translation>
     </message>
     <message>
         <source>Envelope B5</source>
-        <translation>Zarf B5</translation>
+        <translation>Kuvert B5</translation>
     </message>
     <message>
         <source>Envelope B6</source>
-        <translation>Zarf B6</translation>
+        <translation>Kuvert B6</translation>
     </message>
     <message>
         <source>Envelope C0</source>
-        <translation>Zarf C0</translation>
+        <translation>Kuvert C0</translation>
     </message>
     <message>
         <source>Envelope C1</source>
-        <translation>Zarf C1</translation>
+        <translation>Kuvert C1</translation>
     </message>
     <message>
         <source>Envelope C2</source>
-        <translation>Zarf C2</translation>
+        <translation>Kuvert C2</translation>
     </message>
     <message>
         <source>Envelope C3</source>
-        <translation>Zarf C3</translation>
+        <translation>Kuvert C3</translation>
     </message>
     <message>
         <source>Envelope C4</source>
-        <translation>Zarf C4</translation>
+        <translation>Kuvert C4</translation>
     </message>
     <message>
         <source>Envelope C5</source>
-        <translation>Zarf C5</translation>
+        <translation>Kuvert C5</translation>
     </message>
     <message>
         <source>Envelope C6</source>
-        <translation>Zarf C6</translation>
+        <translation>Kuvert C6</translation>
     </message>
     <message>
         <source>Envelope C65</source>
-        <translation>Zarf C65</translation>
+        <translation>Kuvert C65</translation>
     </message>
     <message>
         <source>Envelope C7</source>
-        <translation>Zarf C7</translation>
+        <translation>Kuvert C7</translation>
     </message>
     <message>
         <source>Envelope DL</source>
-        <translation>Zarf DL</translation>
+        <translation>Kuvert DL</translation>
     </message>
     <message>
         <source>Envelope US 9</source>
-        <translation>Zarf ABD 9</translation>
+        <translation>Kuvert US 9</translation>
     </message>
     <message>
         <source>Envelope US 10</source>
-        <translation>Zarf ABD 10</translation>
+        <translation>Kuvert US 10</translation>
     </message>
     <message>
         <source>Envelope US 11</source>
-        <translation>Zarf ABD 11</translation>
+        <translation>Kuvert US 11</translation>
     </message>
     <message>
         <source>Envelope US 12</source>
-        <translation>Zarf ABD 12</translation>
+        <translation>Kuvert US 12</translation>
     </message>
     <message>
         <source>Envelope US 14</source>
-        <translation>Zarf ABD 14</translation>
+        <translation>Kuvert US 14</translation>
     </message>
     <message>
         <source>Envelope Monarch</source>
-        <translation>Zarf Monarş</translation>
+        <translation>Envelope Monarch</translation>
     </message>
     <message>
         <source>Envelope Personal</source>
-        <translation>Zarf Kişisel</translation>
+        <translation>Kuvert Personal</translation>
     </message>
     <message>
         <source>Envelope Chou 3</source>
-        <translation>Zarf Çou 3</translation>
+        <translation>Kuvert Chou 3</translation>
     </message>
     <message>
         <source>Envelope Chou 4</source>
-        <translation>Zarf Çou 4</translation>
+        <translation>Kuvert Chou 4</translation>
     </message>
     <message>
         <source>Envelope Invite</source>
-        <translation>Zarf Davetiye</translation>
+        <translation>Envelope Invite</translation>
     </message>
     <message>
         <source>Envelope Italian</source>
-        <translation>Zarf İtalyan</translation>
+        <translation>Kuvert italienskt</translation>
     </message>
     <message>
         <source>Envelope Kaku 2</source>
-        <translation>Zarf Kaku 2</translation>
+        <translation>Kuvert Kaku 2</translation>
     </message>
     <message>
         <source>Envelope Kaku 3</source>
-        <translation>Zarf Kaku 3</translation>
+        <translation>Kuvert Kaku 3</translation>
     </message>
     <message>
         <source>Envelope PRC 1</source>
-        <translation>Zarf ÇHC 1</translation>
+        <translation>Kuvert PRC 1</translation>
     </message>
     <message>
         <source>Envelope PRC 2</source>
-        <translation>Zarf ÇHC 2</translation>
+        <translation>Kuvert PRC 2</translation>
     </message>
     <message>
         <source>Envelope PRC 3</source>
-        <translation>Zarf ÇHC 3</translation>
+        <translation>Kuvert PRC 3</translation>
     </message>
     <message>
         <source>Envelope PRC 4</source>
-        <translation>Zarf ÇHC 4</translation>
+        <translation>Kuvert PRC 4</translation>
     </message>
     <message>
         <source>Envelope PRC 5</source>
-        <translation>Zarf ÇHC 5</translation>
+        <translation>Kuvert PRC 5</translation>
     </message>
     <message>
         <source>Envelope PRC 6</source>
-        <translation>Zarf ÇHC 6</translation>
+        <translation>Kuvert PRC 6</translation>
     </message>
     <message>
         <source>Envelope PRC 7</source>
-        <translation>Zarf ÇHC 7</translation>
+        <translation>Kuvert PRC 7</translation>
     </message>
     <message>
         <source>Envelope PRC 8</source>
-        <translation>Zarf ÇHC 8</translation>
+        <translation>Kuvert PRC 8</translation>
     </message>
     <message>
         <source>Envelope PRC 9</source>
-        <translation>Zarf ÇHC 9</translation>
+        <translation>Kuvert PRC 9</translation>
     </message>
     <message>
         <source>Envelope PRC 10</source>
-        <translation>Zarf ÇHC 10</translation>
+        <translation>Kuvert PRC 10</translation>
     </message>
     <message>
         <source>Envelope You 4</source>
-        <translation>Zarf You 4</translation>
+        <translation>Kuvert You 4</translation>
     </message>
 </context>
 <context>
     <name>QPlatformTheme</name>
     <message>
         <source>OK</source>
-        <translation>Tamam</translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Kaydet</translation>
+        <translation>Spara</translation>
     </message>
     <message>
         <source>Save All</source>
-        <translation>Tümünü Kaydet</translation>
+        <translation>Spara allt</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Aç</translation>
+        <translation>Öppna</translation>
     </message>
     <message>
         <source>&amp;Yes</source>
-        <translation>&amp;Evet</translation>
+        <translation>&amp;Ja</translation>
     </message>
     <message>
         <source>Yes to &amp;All</source>
-        <translation>&amp;Tümüne Evet</translation>
+        <translation>Ja till &amp;allt</translation>
     </message>
     <message>
         <source>&amp;No</source>
-        <translation>&amp;Hayır</translation>
+        <translation>&amp;Nej</translation>
     </message>
     <message>
         <source>N&amp;o to All</source>
-        <translation>&amp;Tümüne Hayır</translation>
+        <translation>N&amp;ej till allt</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation>İptal Et</translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Retry</source>
-        <translation>Yeniden Dene</translation>
+        <translation>Försök igen</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation>Yok Say</translation>
+        <translation>Ignorera</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Kapat</translation>
+        <translation>Stäng</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>İptal</translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation>At</translation>
+        <translation>Förkasta</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Yardım</translation>
+        <translation>Hjälp</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation>Uygula</translation>
+        <translation>Verkställ</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Sıfırla</translation>
+        <translation>Nollställ</translation>
     </message>
     <message>
         <source>Restore Defaults</source>
-        <translation>Öntanımlıları Geri Yükle</translation>
+        <translation>Nollställ till standard</translation>
     </message>
 </context>
 <context>
     <name>QPluginLoader</name>
     <message>
         <source>The plugin was not loaded.</source>
-        <translation>Eklenti yüklenmedi.</translation>
+        <translation>Insticksprogrammet lästes inte in.</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Bilinmeyen hata</translation>
+        <translation>Okänt fel</translation>
     </message>
 </context>
 <context>
     <name>QPrintDialog</name>
     <message>
         <source>Print</source>
-        <translation>Yazdır</translation>
+        <translation>Skriv ut</translation>
     </message>
     <message>
         <source>Left to Right, Top to Bottom</source>
-        <translation>Soldan Sağa, Yukarıdan Aşağıya</translation>
+        <translation>Vänster till höger, topp till botten</translation>
     </message>
     <message>
         <source>Left to Right, Bottom to Top</source>
-        <translation>Soldan Sağa, Aşağıdan Yukarı</translation>
+        <translation>Vänster till höger, botten till toppen</translation>
     </message>
     <message>
         <source>Right to Left, Bottom to Top</source>
-        <translation>Sağdan Sola, Aşağıdan Yukarı</translation>
+        <translation>Höger till vänster, botten till toppen</translation>
     </message>
     <message>
         <source>Right to Left, Top to Bottom</source>
-        <translation>Sağdan Sola, Yukarıdan Aşağıya</translation>
+        <translation>Höger till vänster, toppen till botten</translation>
     </message>
     <message>
         <source>Bottom to Top, Left to Right</source>
-        <translation>Aşağıdan Yukarıya, Soldan Sağa</translation>
+        <translation>Botten till toppen, vänster till höger</translation>
     </message>
     <message>
         <source>Bottom to Top, Right to Left</source>
-        <translation>Aşağıdan Yukarıya, Sağdan Sola</translation>
+        <translation>Botten till toppen, höger till vänster</translation>
     </message>
     <message>
         <source>Top to Bottom, Left to Right</source>
-        <translation>Yukarıdan Aşağıya, Soldan Sağa</translation>
+        <translation>Topp till botten, vänster till höger</translation>
     </message>
     <message>
         <source>Top to Bottom, Right to Left</source>
-        <translation>Yukarıdan Aşağıya, Sağdan Sola</translation>
+        <translation>Topp till botten, höger till vänster</translation>
     </message>
     <message>
         <source>1 (1x1)</source>
-        <translation>1 (1 × 1)</translation>
+        <translation>1 (1x1)</translation>
     </message>
     <message>
         <source>2 (2x1)</source>
-        <translation>2 (2 × 1)</translation>
+        <translation>2 (2x1)</translation>
     </message>
     <message>
         <source>4 (2x2)</source>
-        <translation>4 (2 × 2)</translation>
+        <translation>4 (2x2)</translation>
     </message>
     <message>
         <source>6 (2x3)</source>
-        <translation>6 (2 × 3)</translation>
+        <translation>6 (2x3)</translation>
     </message>
     <message>
         <source>9 (3x3)</source>
-        <translation>9 (3 × 3)</translation>
+        <translation>9 (3x3)</translation>
     </message>
     <message>
         <source>16 (4x4)</source>
-        <translation>16 (4 × 4)</translation>
+        <translation>16 (4x4)</translation>
     </message>
     <message>
         <source>All Pages</source>
-        <translation>Tüm Sayfalar</translation>
+        <translation>Alla sidor</translation>
     </message>
     <message>
         <source>Odd Pages</source>
-        <translation>Tek Sayfalar</translation>
+        <translation>Udda sidor</translation>
     </message>
     <message>
         <source>Even Pages</source>
-        <translation>Çift Sayfalar</translation>
+        <translation>Jämna sidor</translation>
     </message>
     <message>
         <source>&amp;Options &gt;&gt;</source>
-        <translation>&amp;Seçenekler ≫</translation>
+        <translation>A&amp;lternativ &gt;&gt;</translation>
     </message>
     <message>
         <source>&amp;Print</source>
-        <translation>&amp;Yazdır</translation>
+        <translation>Skriv &amp;ut</translation>
     </message>
     <message>
         <source>&amp;Options &lt;&lt;</source>
-        <translation>&amp;Seçenekler ≪</translation>
+        <translation>A&amp;lternativ &lt;&lt;</translation>
     </message>
     <message>
         <source>Invalid Pages Definition</source>
-        <translation>Geçersiz Sayfa Tanımı</translation>
+        <translation>Ogiltig siddefinition</translation>
     </message>
     <message>
         <source>%1 does not follow the correct syntax. Please use &apos;,&apos; to separate ranges and pages, &apos;-&apos; to define ranges and make sure ranges do not intersect with each other.</source>
-        <translation>%1 doğru sözdizimi izlemiyor. Aralıkları ve sayfaları ayırmak için lütfen “,” aralıkları tanımlamak ve aralıkların birbiriyle kesişmediğinden emin olmak için “-” kullanın.</translation>
+        <translation>%1 följer inte korrekt syntax. Använd &quot;,&quot; för att separera intervall och sidor, &quot;&apos;-&quot; för att definiera intervall och försäka dig om att intervallen inte överlappar varandra.</translation>
     </message>
     <message>
         <source>Duplex Settings Conflicts</source>
-        <translation>Çift Taraflı Ayar Çakışmaları</translation>
+        <translation>Konflikter i dubbelsidiga inställningar</translation>
     </message>
     <message>
         <source>There are conflicts in duplex settings. Do you want to fix them?</source>
-        <translation>Çift taraf ayarlarında çakışma var. Onları düzeltmek istiyor musunuz?</translation>
+        <translation>Det finns konflikter i dubbelsidiga inställningar. Vill du rätta till dem?</translation>
     </message>
     <message>
         <source>Print to File (PDF)</source>
-        <translation>Dosyaya Yazdır (PDF)</translation>
+        <translation>Skriv ut till fil (PDF)</translation>
     </message>
     <message>
         <source>Local file</source>
-        <translation>Yerel dosya</translation>
+        <translation>Lokal fil</translation>
     </message>
     <message>
         <source>Write PDF file</source>
-        <translation>PDF dosyası yaz</translation>
+        <translation>Skriv PDF-fil</translation>
     </message>
     <message>
         <source>Print To File ...</source>
-        <translation>Dosyaya Yazdır…</translation>
+        <translation>Skriv ut till fil ...</translation>
     </message>
     <message>
         <source>%1 is a directory.
 Please choose a different file name.</source>
-        <translation>%1 bir dizin.
-Lütfen farklı bir dosya adı seçin.</translation>
+        <translation>%1 är en katalog.
+Välj ett annat filnamn.</translation>
     </message>
     <message>
         <source>File %1 is not writable.
 Please choose a different file name.</source>
-        <translation>%1 dosyası yazılabilir değil.
-Lütfen farklı bir dosya adı seçin.</translation>
+        <translation>Filen %1 är inte skrivbar.
+Välj ett annat filnamn.</translation>
     </message>
     <message>
         <source>%1 already exists.
 Do you want to overwrite it?</source>
-        <translation>%1 halihazırda var.
-Üzerine yazmak istiyor musunuz?</translation>
+        <translation>%1 finns redan.
+Vill du skriva över den?</translation>
     </message>
     <message>
         <source>Options &apos;Pages Per Sheet&apos; and &apos;Page Set&apos; cannot be used together.
 Please turn one of those options off.</source>
-        <translation>“Yaprak Başına Sayfa” ve “Sayfa Kümesi” seçenekleri birlikte kullanılamaz.
-Lütfen bu seçeneklerden birini kapatın.</translation>
+        <translation>Alternativen &quot;Sidor per ark&quot; och &quot;Siduppsättning&quot; kan inte användas samtidigt.
+Stäng av ett av alternativen.</translation>
     </message>
     <message>
         <source>The &apos;From&apos; value cannot be greater than the &apos;To&apos; value.</source>
-        <translation>“Kimden” değeri, “Kime” değerinden büyük olamaz.</translation>
+        <translation>Värdet &quot;Från&quot; får inte vara större än värdet för &quot;Till&quot;.</translation>
     </message>
 </context>
 <context>
     <name>QPrintPreviewDialog</name>
     <message>
         <source>Page Setup</source>
-        <translation>Sayfa Ayarı</translation>
+        <translation>Sidkonfiguration</translation>
     </message>
     <message>
         <source>%1%</source>
-        <translation>%​%1</translation>
+        <extracomment>Zoom factor percentage value, % is the percent sign</extracomment>
+        <translation>%1%</translation>
     </message>
     <message>
         <source>Print Preview</source>
-        <translation>Yazdırma Önizlemesi</translation>
+        <translation>Förhandsvisa utskrift</translation>
     </message>
     <message>
         <source>Next page</source>
-        <translation>Sonraki sayfa</translation>
+        <translation>Nästa sida</translation>
     </message>
     <message>
         <source>Previous page</source>
-        <translation>Önceki sayfa</translation>
+        <translation>Föregående sida</translation>
     </message>
     <message>
         <source>First page</source>
-        <translation>İlk sayfa</translation>
+        <translation>Första sidan</translation>
     </message>
     <message>
         <source>Last page</source>
-        <translation>Son sayfa</translation>
+        <translation>Sista sidan</translation>
     </message>
     <message>
         <source>Fit width</source>
-        <translation>Genişliğe sığdır</translation>
+        <translation>Anpassa till bredd</translation>
     </message>
     <message>
         <source>Fit page</source>
-        <translation>Sayfayı sığdır</translation>
+        <translation>Anpassa till sida</translation>
     </message>
     <message>
         <source>Zoom in</source>
-        <translation>Yakınlaştır</translation>
+        <translation>Zooma in</translation>
     </message>
     <message>
         <source>Zoom out</source>
-        <translation>Uzaklaştır</translation>
+        <translation>Zooma ut</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>Dikey</translation>
+        <translation>Stående</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>Yatay</translation>
+        <translation>Liggande</translation>
     </message>
     <message>
         <source>Show single page</source>
-        <translation>Tek sayfayı göster</translation>
+        <translation>Visa en sida</translation>
     </message>
     <message>
         <source>Show facing pages</source>
-        <translation>Karşılıklı sayfaları göster</translation>
+        <translation>Visa uppslagssidor</translation>
     </message>
     <message>
         <source>Show overview of all pages</source>
-        <translation>Tüm sayfalara genel bakışı göster</translation>
+        <translation>Visa översikt över alla sidor</translation>
     </message>
     <message>
         <source>Print</source>
-        <translation>Yazdır</translation>
+        <translation>Skriv ut</translation>
     </message>
     <message>
         <source>Page setup</source>
-        <translation>Sayfa ayarı</translation>
+        <translation>Sidkonfiguration</translation>
     </message>
     <message>
         <source>Export to PDF</source>
-        <translation>PDF’ye Dışa Aktar</translation>
+        <translation>Exportera till PDF</translation>
     </message>
 </context>
 <context>
     <name>QPrintPropertiesDialog</name>
     <message>
         <source>Printer Properties</source>
-        <translation>Yazıcı Özellikleri</translation>
+        <translation>Skrivaregenskaper</translation>
     </message>
     <message>
         <source>Job Options</source>
-        <translation>İş Seçenekleri</translation>
+        <translation>Jobbalternativ</translation>
     </message>
     <message>
         <source>Page Setup Conflicts</source>
-        <translation>Sayfa Ayarı Çakışmaları</translation>
+        <translation>Konflikter i sidkonfiguration</translation>
     </message>
     <message>
         <source>There are conflicts in page setup options. Do you want to fix them?</source>
-        <translation>Sayfa ayarı seçeneklerinde çakışma var. Onları düzeltmek istiyor musunuz?</translation>
+        <translation>Det finns konflikter i alternativen för sidkonfiguration. Vill du rätta till dem?</translation>
     </message>
     <message>
         <source>Advanced Option Conflicts</source>
-        <translation>Gelişmiş Seçenek Çakışmaları</translation>
+        <translation>Konflikter i avancerade alternativ</translation>
     </message>
     <message>
         <source>There are conflicts in some advanced options. Do you want to fix them?</source>
-        <translation>Bazı gelişmiş seçeneklerde çakışmalar vardır. Onları düzeltmek ister misiniz?</translation>
+        <translation>Det finns konflikter i några avancerade alternativ. Vill du rätta till dem?</translation>
     </message>
 </context>
 <context>
     <name>QPrintPropertiesWidget</name>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation>Formulär</translation>
     </message>
     <message>
         <source>Page</source>
-        <translation>Sayfa</translation>
+        <translation>Sida</translation>
     </message>
     <message>
         <source>Advanced</source>
-        <translation>Gelişmiş</translation>
+        <translation>Avancerat</translation>
     </message>
     <message>
         <source>There are conflicts in some options. Please fix them.</source>
-        <translation>Bazı seçeneklerde çakışmalar var. Lütfen düzeltin.</translation>
+        <translation>Det finns konflikter i vissa alternativ. Rätta till dem.</translation>
     </message>
 </context>
 <context>
     <name>QPrintSettingsOutput</name>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation>Formulär</translation>
     </message>
     <message>
         <source>Copies</source>
-        <translation>Kopyalar</translation>
+        <translation>Kopior</translation>
     </message>
     <message>
         <source>Print range</source>
-        <translation>Erimi yazdır</translation>
+        <translation>Skriv ut intervall</translation>
     </message>
     <message>
         <source>Print all</source>
-        <translation>Tümünü yazdır</translation>
+        <translation>Skriv ut alla</translation>
     </message>
     <message>
         <source>Pages from</source>
-        <translation>Şuradan sayfalar</translation>
+        <translation>Sidor från</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>şuraya</translation>
+        <translation>till</translation>
     </message>
     <message>
         <source>Pages</source>
-        <translation>Sayfalar</translation>
+        <translation>Sidor</translation>
     </message>
     <message>
         <source>Specify pages or ranges separated by commas. Ranges are specified by two numbers separated by a hyphen. E.g: 3,5-7,9 prints pages 3, 5, 6, 7 and 9.</source>
-        <translation>Virgüllerle ayrılmış sayfaları veya aralıkları belirtin. Aralıklar, tire işareti ile ayrılmış iki sayı ile belirtilir. Örneğin: 3,5-7,9; sayfa 3, 5, 6, 7 ve 9’u yazdırır.</translation>
+        <translation>Ange sidor eller intervall separerade med kommatecken. Intervall anges med två siffror separerade med ett skiljetecken. T.ex 3,5-7,9 skriver ut sidorna 3, 5, 6, 7 och 9.</translation>
     </message>
     <message>
         <source>Current Page</source>
-        <translation>Geçerli Sayfa</translation>
+        <translation>Aktuell sida</translation>
     </message>
     <message>
         <source>Selection</source>
-        <translation>Seçim</translation>
-    </message>
-    <message>
-        <source>Page Set:</source>
-        <translation>Sayfa kümesi:</translation>
+        <translation>Val</translation>
     </message>
     <message>
         <source>Output Settings</source>
-        <translation>Çıktı Ayarları</translation>
+        <translation>Utskriftsinställningar</translation>
     </message>
     <message>
         <source>Copies:</source>
-        <translation>Kopyalar:</translation>
+        <translation>Kopior:</translation>
     </message>
     <message>
         <source>Collate</source>
-        <translation>Harmanla</translation>
+        <translation>Sortera</translation>
     </message>
     <message>
         <source>Reverse</source>
-        <translation>Tersine Çevir</translation>
+        <translation>Omvänd</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Seçenekler</translation>
+        <translation>Alternativ</translation>
     </message>
     <message>
         <source>Color Mode</source>
-        <translation>Renk Kipi</translation>
+        <translation>Färgläge</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation>Renkli</translation>
+        <translation>Färg</translation>
     </message>
     <message>
         <source>Grayscale</source>
-        <translation>Gri Tonlu</translation>
+        <translation>Gråskala</translation>
     </message>
     <message>
         <source>Double Sided Printing</source>
-        <translation>Çift Taraflı Yazdırma</translation>
+        <translation>Dubbelsidig utskrift</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation>Kapalı</translation>
+        <translation>Av</translation>
     </message>
     <message>
         <source>Long side binding</source>
-        <translation>Uzun kenardan ciltleme</translation>
+        <translation>Långsidesbindning</translation>
     </message>
     <message>
         <source>Short side binding</source>
-        <translation>Kısa kenardan ciltleme</translation>
+        <translation>Kortsidesbindning</translation>
+    </message>
+    <message>
+        <source>Page &amp;Set:</source>
+        <translation>Sidupps&amp;ättning:</translation>
     </message>
 </context>
 <context>
     <name>QPrintWidget</name>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation>Formulär</translation>
     </message>
     <message>
         <source>Printer</source>
-        <translation>Yazıcı</translation>
+        <translation>Skrivare</translation>
     </message>
     <message>
         <source>&amp;Name:</source>
-        <translation>&amp;Ad:</translation>
+        <translation>&amp;Namn:</translation>
     </message>
     <message>
         <source>P&amp;roperties</source>
-        <translation>Özellikle&amp;r</translation>
+        <translation>E&amp;genskaper</translation>
     </message>
     <message>
         <source>Location:</source>
-        <translation>Konum:</translation>
+        <translation>Plats:</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation>Önizleme</translation>
+        <translation>Förhandsvisa</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation>Tür:</translation>
+        <translation>Typ:</translation>
     </message>
     <message>
         <source>Output &amp;file:</source>
-        <translation>Çıktı &amp;dosyası:</translation>
+        <translation>Utdata&amp;fil:</translation>
     </message>
     <message>
         <source>...</source>
-        <translation>…</translation>
+        <translation>...</translation>
     </message>
 </context>
 <context>
     <name>QProcess</name>
     <message>
         <source>Process failed to start</source>
-        <translation>İşlem başlatılamadı</translation>
+        <translation>Proceesen misslyckades att starta</translation>
     </message>
     <message>
         <source>Process crashed</source>
-        <translation>İşlem çöktü</translation>
+        <translation>Processen kraschade</translation>
     </message>
     <message>
         <source>Process operation timed out</source>
-        <translation>İşlemi yapılırken zaman aşımına uğradı</translation>
+        <translation>Processåtgärden gick över tidsgränsen</translation>
     </message>
     <message>
         <source>Error reading from process</source>
-        <translation>İşlemden okuma hatası</translation>
+        <translation>Fel vid läsning från process</translation>
     </message>
     <message>
         <source>Error writing to process</source>
-        <translation>İşleme yazma hatası</translation>
+        <translation>Fel vid skrivning till process</translation>
     </message>
     <message>
         <source>No program defined</source>
-        <translation>Program tanımlanmadı</translation>
+        <translation>Inget program definierat</translation>
     </message>
     <message>
         <source>Could not open input redirection for reading</source>
-        <translation>Okuma için girdi yönlendirmesi açılamadı</translation>
+        <translation>Kunde inte öppna inmatningsomdirigering för läsning</translation>
     </message>
     <message>
         <source>Resource error (fork failure): %1</source>
-        <translation>Özkaynak hatası (çatallama başarısız): %1</translation>
-    </message>
-    <message>
-        <source>childProcessModifier() function threw an exception</source>
-        <translation type="vanished">childProcessModifier() bir istisna verdi</translation>
+        <translation>Resursfel (förgreningsfel): %1</translation>
     </message>
     <message>
         <source>Child process modifier threw an exception: %1</source>
-        <translation>Alt süreç niteleyicisi bir istisna verdi: %1</translation>
+        <translation>Barnprocessmodifierare kastade ett undantag: %1</translation>
     </message>
     <message>
         <source>Child process modifier reported error: %1</source>
-        <translation>Alt süreç niteleyicisi hata bildirdi: %1</translation>
+        <translation>Barnprocessmodifierare rapporterade fel: %1</translation>
     </message>
     <message>
         <source>Child process modifier reported error: %1: %2</source>
-        <translation>Alt süreç niteleyicisi hata bildirdi: %1: %2</translation>
+        <translation>Barnprocessmodifierare rapporterade fel: %1: %2</translation>
     </message>
     <message>
         <source>Child process set up failed: %1: %2</source>
-        <translation>Alt süreç ayarlanamadı: %1: %2</translation>
+        <translation>Barnprocesskonfiguration misslyckades: %1: %2</translation>
     </message>
     <message>
         <source>Could not open output redirection for writing</source>
-        <translation>Yazma için çıktı yeniden yönlendirmesi açılamadı</translation>
+        <translation>Kunde inte öppna utmatningsomdirigering för skrivning</translation>
     </message>
     <message>
         <source>Process failed to start: %1</source>
-        <translation>İşlem başlatılamadı: %1</translation>
+        <translation>Process misslyckades med att starta: %1</translation>
     </message>
 </context>
 <context>
     <name>QProgressDialog</name>
     <message>
         <source>Cancel</source>
-        <translation>İptal</translation>
+        <translation>Avbryt</translation>
     </message>
 </context>
 <context>
     <name>QRegularExpression</name>
     <message>
         <source>no error</source>
-        <translation>hata yok</translation>
+        <translation>inget fel</translation>
     </message>
     <message>
         <source>\ at end of pattern</source>
-        <translation>dizginin sonunda \</translation>
+        <translation>\ vid slutet av mönstret</translation>
     </message>
     <message>
         <source>\c at end of pattern</source>
-        <translation>dizginin sonunda \c</translation>
+        <translation>\c vid slutet av mönstret</translation>
     </message>
     <message>
         <source>unrecognized character follows \</source>
-        <translation>\ sonrası tanınmayan karakter</translation>
+        <translation>okänt tecken följer efter \</translation>
     </message>
     <message>
         <source>numbers out of order in {} quantifier</source>
-        <translation>{} nicelik belirtecindeki sayılar sıra dışı</translation>
+        <translation>antalet är i fel ordning i {}-kvantifierare</translation>
     </message>
     <message>
         <source>number too big in {} quantifier</source>
-        <translation>{} nicelik belirtecindeki sayı pek büyük</translation>
+        <translation>antal för stort i {}-kvantifierare</translation>
     </message>
     <message>
         <source>missing terminating ] for character class</source>
-        <translation>karakter sınıfı için eksik sonlandırma ]</translation>
+        <translation>saknar avslutande ] för teckenklass</translation>
     </message>
     <message>
         <source>escape sequence is invalid in character class</source>
-        <translation>karakter sınıfında çıkış sırası geçersiz</translation>
+        <translation>escape-sekvens är ogiltig i teckenklass</translation>
     </message>
     <message>
         <source>range out of order in character class</source>
-        <translation>karakter sınıfında sıra dışı</translation>
+        <translation>intervallet är i fel ordning i teckenklass</translation>
     </message>
     <message>
         <source>quantifier does not follow a repeatable item</source>
-        <translation>nicelik belirteci yinelenebilir bir ögeyi takip etmiyor</translation>
+        <translation>kvantifierare följer inte en upprepande post</translation>
     </message>
     <message>
         <source>internal error: unexpected repeat</source>
-        <translation>iç hata: beklenmedik yineleme</translation>
+        <translation>internt fel: oväntad repetition</translation>
     </message>
     <message>
         <source>unrecognized character after (? or (?-</source>
-        <translation>(? veya (?- sonrası tanınmayan karakter</translation>
+        <translation>okänt tecken efter (? eller (?-</translation>
     </message>
     <message>
         <source>POSIX named classes are supported only within a class</source>
-        <translation>POSIX adlı sınıflar yalnızca bir sınıf içinde destekleniyor</translation>
+        <translation>POSIX-namngivna klasser stöds endast inom en klass</translation>
     </message>
     <message>
         <source>POSIX collating elements are not supported</source>
-        <translation>POSIX harmanlama ögeleri desteklenmiyor</translation>
+        <translation>POSIX sammanställande element stöds inte</translation>
     </message>
     <message>
         <source>missing closing parenthesis</source>
-        <translation>kapanış parantezi eksik</translation>
+        <translation>saknar avslutande  parantes</translation>
     </message>
     <message>
         <source>reference to non-existent subpattern</source>
-        <translation>var olmayan alt dizgi başvurusu</translation>
+        <translation>referens till icke-existerande undermönster</translation>
     </message>
     <message>
         <source>pattern passed as NULL</source>
-        <translation>dizgi NULL olarak geçti</translation>
+        <translation>mönster skickad som NULL</translation>
     </message>
     <message>
         <source>unrecognised compile-time option bit(s)</source>
-        <translation>tanınmayan derleme zamanı seçenek bit(ler)i</translation>
+        <translation>okänd compile-time option bit(ar)</translation>
     </message>
     <message>
         <source>missing ) after (?# comment</source>
-        <translation>(?# yorumu sonrası ) eksik</translation>
+        <translation>saknar ) efter (?#-kommentar</translation>
     </message>
     <message>
         <source>parentheses are too deeply nested</source>
-        <translation>parantezler pek derin yuvalanmış</translation>
+        <translation>paranteser är för djupt nästlade</translation>
     </message>
     <message>
         <source>regular expression is too large</source>
-        <translation>düzenli ifade pek büyük</translation>
+        <translation>reguljärt uttryck är för stort</translation>
     </message>
     <message>
         <source>failed to allocate heap memory</source>
-        <translation>yığın bellek ayrılamadı</translation>
+        <translation>misslyckades med att allokera heap-minne</translation>
     </message>
     <message>
         <source>unmatched closing parenthesis</source>
-        <translation>eşlenmemiş kapanış parantezi</translation>
+        <translation>omatchad avslutande parantes</translation>
     </message>
     <message>
         <source>internal error: code overflow</source>
-        <translation>iç hata: kod taşması</translation>
+        <translation>internt fel: kodöverflöde</translation>
     </message>
     <message>
         <source>missing closing parenthesis for condition</source>
-        <translation>koşul için kapanış parantezi eksik</translation>
+        <translation>saknar avslutande parantes för villkor</translation>
     </message>
     <message>
         <source>lookbehind assertion is not fixed length</source>
-        <translation>geriya bakma denetimi sabit uzunluk değil</translation>
+        <translation>lookbehind-assertion har ingen fast längd</translation>
     </message>
     <message>
         <source>a relative value of zero is not allowed</source>
-        <translation>göreceli sıfır değerine izin verilmez</translation>
+        <translation>ett relativt värde av noll tillåts inte</translation>
     </message>
     <message>
         <source>conditional subpattern contains more than two branches</source>
-        <translation>koşullu alt desen ikiden fazla dal içeriyor</translation>
+        <translation>villkorligt undermönster innehåller fler än två grenar</translation>
     </message>
     <message>
         <source>assertion expected after (?( or (?(?C)</source>
-        <translation>(?( veya (?(?C)) sonrasında iddia bekleniyor</translation>
+        <translation>assertion förväntades efter (?( eller (?(?C)</translation>
     </message>
     <message>
         <source>digit expected after (?+ or (?-</source>
-        <translation>(?+ veya (?- sonrası basamak bekleniyor</translation>
+        <translation>siffra förväntades efter (?+ eller (?-</translation>
     </message>
     <message>
         <source>unknown POSIX class name</source>
-        <translation>bilinmeyen POSIX sınıfı adı</translation>
+        <translation>okänt POSIX-klassnamn</translation>
     </message>
     <message>
         <source>internal error in pcre2_study(): should not occur</source>
-        <translation>pcre2_study () içinde iç hata: olmamalı</translation>
+        <translation>internt fel i pcre2_study(): ska inte inträffa</translation>
     </message>
     <message>
         <source>this version of PCRE2 does not have Unicode support</source>
-        <translation>PCRE2’nin bu sürümü Unicode desteğine sahip değil</translation>
+        <translation>denna version av PCRE2 har inte stöd för Unicode</translation>
     </message>
     <message>
         <source>parentheses are too deeply nested (stack check)</source>
-        <translation>parantezler pek derin yuvalanmış (yığın denetimi)</translation>
+        <translation>parenteser är för djupt nästlade (stackkontroll)</translation>
     </message>
     <message>
         <source>character code point value in \x{} or \o{} is too large</source>
-        <translation>\x{} veya \o{} içindeki karakter kodu nokta değeri pek büyük</translation>
+        <translation>värdet för teckenkodpunkt i \x{} eller \o{} är för stort</translation>
     </message>
     <message>
         <source>lookbehind is too complicated</source>
-        <translation>geriye bakma pek karmaşık</translation>
+        <translation>lookbehind är för komplicerad</translation>
     </message>
     <message>
         <source>\C is not allowed in a lookbehind assertion in UTF-16 mode</source>
-        <translation>UTF-16 kipinde bir ileriye bakma iddiasında \C için izin verilmiyor</translation>
+        <translation>\C är inte tillåtet i en lookbehind-assertion i UTF-16-läget</translation>
     </message>
     <message>
         <source>PCRE2 does not support \F, \L, \l, \N{name}, \U, or \u</source>
-        <translation>PCRE2; \F, \L, \l, \N{name}, \U veya \u desteklemez</translation>
+        <translation>PCRE2 har inte stöd för \F, \L, \l, \N{name}, \U, eller \u</translation>
     </message>
     <message>
         <source>number after (?C is greater than 255</source>
-        <translation>(?C sonrası sayı 255’ten büyük</translation>
+        <translation>tal efter (?C är större än 255</translation>
     </message>
     <message>
         <source>closing parenthesis for (?C expected</source>
-        <translation>(?C için kapanış parantezi bekleniyor</translation>
+        <translation>avslutande parentes för (?C förväntades</translation>
     </message>
     <message>
         <source>invalid escape sequence in (*VERB) name</source>
-        <translation>(* VERB) adında geçersiz çıkış sırası</translation>
+        <translation>ogiltig escape-sekvens i (*VERB)-namn</translation>
     </message>
     <message>
         <source>unrecognized character after (?P</source>
-        <translation>(?P sonrası tanınmayan karakter</translation>
+        <translation>okänt tecken efter (?P</translation>
     </message>
     <message>
         <source>syntax error in subpattern name (missing terminator?)</source>
-        <translation>alt dizgi adında sözdizim hatası (eksik sonlandırıcı?)</translation>
+        <translation>syntaxfel i undermönsternamnet (saknar avslut?)</translation>
     </message>
     <message>
         <source>two named subpatterns have the same name (PCRE2_DUPNAMES not set)</source>
-        <translation>adlandırılmış iki alt dizgi aynı ada sahip (PCRE2_DUPNAMES ayarlanmamış)</translation>
+        <translation>två namngivna undermönster har samma namn (PCRE2_DUPNAMES inte inställt)</translation>
     </message>
     <message>
         <source>subpattern name must start with a non-digit</source>
-        <translation>alt dizgi adı rakam olmayan bir harfle başlamalıdır</translation>
+        <translation>undermönstrets namn måste börja med en icke-siffra</translation>
     </message>
     <message>
         <source>this version of PCRE2 does not have support for \P, \p, or \X</source>
-        <translation>PCRE2’nin bu sürümü \P, \p veya \X için destek içermiyor</translation>
+        <translation>denna version av PCRE2 har inte stöd för \P, \p, eller \X</translation>
     </message>
     <message>
         <source>malformed \P or \p sequence</source>
-        <translation>hatalı biçimlendirilmiş \P veya \p dizisi</translation>
+        <translation>felformaterad \P eller \p-sekvens</translation>
     </message>
     <message>
         <source>unknown property name after \P or \p</source>
-        <translation>\P veya \p’den sonra bilinmeyen özellik adı</translation>
+        <translation>okänt egenskapsnamn efter \P eller \p</translation>
     </message>
     <message>
         <source>subpattern name is too long (maximum 32 code units)</source>
-        <translation>alt dizgi adı pek uzun (en çok 32 kod birimi)</translation>
+        <translation>undermönsternamn är för långt (maximalt 32 kodenheter)</translation>
     </message>
     <message>
         <source>too many named subpatterns (maximum 10000)</source>
-        <translation>pek çok adlandırılmış alt dizgi (en çok 10000)</translation>
+        <translation>för många namngivna undermönster (maximalt 10000)</translation>
     </message>
     <message>
         <source>invalid range in character class</source>
-        <translation>karakter sınıfında geçersiz aralık</translation>
+        <translation>ogiltigt intervall i teckenklass</translation>
     </message>
     <message>
         <source>octal value is greater than \377 in 8-bit non-UTF-8 mode</source>
-        <translation>8 bit UTF-8 olmayan kipte sekizlik değer \377’den büyük</translation>
+        <translation>oktalt värde är större än \377 i 8-bitars icke-UTF-8-läge</translation>
     </message>
     <message>
         <source>internal error: overran compiling workspace</source>
-        <translation>iç hata: overran derleme çalışma alanı</translation>
+        <translation>internt fel: överskridit kompileringsarbetsytan</translation>
     </message>
     <message>
         <source>internal error: previously-checked referenced subpattern not found</source>
-        <translation>iç hata: önceden denetlenen başvurulmuş alt dizgi bulunamadı</translation>
+        <translation>internt fel: tidigare kontrollerat refererande undermönster hittades inte</translation>
     </message>
     <message>
         <source>DEFINE subpattern contains more than one branch</source>
-        <translation>DEFINE alt dizgisi birden fazla dal içeriyor</translation>
+        <translation>DEFINE-undermönster innehåller fler än en gren</translation>
     </message>
     <message>
         <source>missing opening brace after \o</source>
-        <translation>\o sonrası açılış süslü parantezi eksik</translation>
+        <translation>saknar öppnande klammer efter \o</translation>
     </message>
     <message>
         <source>internal error: unknown newline setting</source>
-        <translation>iç hata: bilinmeyen yeni satır ayarı</translation>
+        <translation>internt fel: okänd nyradsinställning</translation>
     </message>
     <message>
         <source>\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number</source>
-        <translation>\g ifadesini süslü parantez, açılı parantez içinde veya tırnak içine alınmış bir ad/numara ya da düz bir sayı izlemez</translation>
+        <translation>\g följs inte av en klammer, vinkelparentes eller citerat namn/nummer eller av ett vanligt nummer</translation>
     </message>
     <message>
         <source>(?R (recursive pattern call) must be followed by a closing parenthesis</source>
-        <translation>(?R (özyineli desen çağrısı) ardından kapanış parantezinin gelmesi gerekir</translation>
+        <translation>(?R (rekursivt mönsteranrop) måste efterföljas av en stängande parentes</translation>
     </message>
     <message>
         <source>obsolete error (should not occur)</source>
-        <translation>eski hata (oluşmamalı)</translation>
+        <translation>föråldrat fel (ska inte inträffa)</translation>
     </message>
     <message>
         <source>(*VERB) not recognized or malformed</source>
-        <translation>(*VERB) tanınmadı veya hatalı biçimlendirildi</translation>
+        <translation>(*VERB) känns inte igen eller är felformaterat</translation>
     </message>
     <message>
         <source>subpattern number is too big</source>
-        <translation>alt dizgi numarası pek büyük</translation>
+        <translation>undermönsternummer är för stort</translation>
     </message>
     <message>
         <source>subpattern name expected</source>
-        <translation>alt dizgi adı bekleniyor</translation>
+        <translation>undermönstrets namn förväntades</translation>
     </message>
     <message>
         <source>internal error: parsed pattern overflow</source>
-        <translation>iç hata: ayrıştırılmış dizgi taşması</translation>
+        <translation>internt fel: överflöde i tolkat mönster</translation>
     </message>
     <message>
         <source>non-octal character in \o{} (closing brace missing?)</source>
-        <translation>\o{} içindeki sekizli olmayan karakter (kapanış süslü parantezi eksik mi?)</translation>
+        <translation>icke-oktalt tecken i \o{} (avslutande klammerparentes saknas?)</translation>
     </message>
     <message>
         <source>different names for subpatterns of the same number are not allowed</source>
-        <translation>aynı numaranın alt dizgileri için farklı adlara izin verilmez</translation>
+        <translation>olika namn för undermönster för samma antal tillåts inte</translation>
     </message>
     <message>
         <source>(*MARK) must have an argument</source>
-        <translation>(*MARK) bir değişkeni olmalı</translation>
+        <translation>(*MARK) måste ha ett argument</translation>
     </message>
     <message>
         <source>non-hex character in \x{} (closing brace missing?)</source>
-        <translation>\x{} içinde onaltılık olmayan karakter (kapanış süslü parantezi eksik mi?)</translation>
+        <translation>icke-hexadecimalt tecken i \x{} (saknas stängande klammer?)</translation>
     </message>
     <message>
         <source>\c must be followed by a printable ASCII character</source>
-        <translation>\c ifadesini yazdırılabilir bir ASCII karakteri izlemelidir</translation>
+        <translation>\c måste efterföljas av ett utskrivbart ASCII-tecken</translation>
     </message>
     <message>
         <source>\c must be followed by a letter or one of [\]^_?</source>
-        <translation>\c ifadesini [\]^_? değerlerinden biri veya bir harf izlemelidir</translation>
+        <translation>\c måste efterföljas av en bokstav eller en av [\]^_?</translation>
     </message>
     <message>
         <source>\k is not followed by a braced, angle-bracketed, or quoted name</source>
-        <translation>\k ifadesini süslü parantez, açılı parantez veya tırnak içinde bir ad izlemiyor</translation>
+        <translation>\k efterföljs inte av en klammer-, vinkelparentes eller citerat namn</translation>
     </message>
     <message>
         <source>internal error: unknown meta code in check_lookbehinds()</source>
-        <translation>iç hata: check_lookbehinds() içinde bilinmeyen üst kod</translation>
+        <translation>internt fel: okänd metakod i check_lookbehinds()</translation>
     </message>
     <message>
         <source>\N is not supported in a class</source>
-        <translation>\N bir sınıfta desteklenmiyor</translation>
+        <translation>\N stöds inte i en klass</translation>
     </message>
     <message>
         <source>callout string is too long</source>
-        <translation>ek bilgi dizisi pek uzun</translation>
+        <translation>callout-sträng är för lång</translation>
     </message>
     <message>
         <source>disallowed Unicode code point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</source>
-        <translation>izin verilmeyen Unicode kod noktası (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</translation>
+        <translation>otillåten Unicode-kodpunkt (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</translation>
     </message>
     <message>
         <source>using UTF is disabled by the application</source>
-        <translation>UTF kullanımı uygulama tarafından devre dışı bırakıldı</translation>
+        <translation>användning av UTF är inaktiverat av programmet</translation>
     </message>
     <message>
         <source>using UCP is disabled by the application</source>
-        <translation>UCP kullanımı uygulama tarafından devre dışı bırakıldı</translation>
+        <translation>användning av UDP är inaktiverat av programmet</translation>
     </message>
     <message>
         <source>name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)</source>
-        <translation>(*MARK), (*PRUNE), (*SKIP), veya (*THEN) içinde ad pek uzun</translation>
+        <translation>namnet är för långt i (*MARK), (*PRUNE), (*SKIP), eller (*THEN)</translation>
     </message>
     <message>
         <source>character code point value in \u.... sequence is too large</source>
-        <translation>\u…. dizisindeki karakter kod noktası değeri pek büyük</translation>
+        <translation>värdet för teckenkodpunkt i \u....-sekvensen är för stort</translation>
     </message>
     <message>
         <source>digits missing in \x{} or \o{} or \N{U+}</source>
-        <translation>\x{} veya \o{} veya \N{U+} içinde rakamlar eksik</translation>
+        <translation>siffror saknas i \x{} eller \o{} eller \N{U+}</translation>
     </message>
     <message>
         <source>syntax error or number too big in (?(VERSION condition</source>
-        <translation>(?(VERSION koşulu içinde sözdizim hatası veya sayı pek büyük</translation>
+        <translation>syntaxfel eller för antal för stort i villkoret (?(VERSION</translation>
     </message>
     <message>
         <source>internal error: unknown opcode in auto_possessify()</source>
-        <translation>iç hata: auto_possessify () içinde bilinmeyen opcode</translation>
+        <translation>internt fel: okänd opcode i auto_possessify()</translation>
     </message>
     <message>
         <source>missing terminating delimiter for callout with string argument</source>
-        <translation>dize değişkenli ek bilgi için sonlandırma sınırlayıcı eksik</translation>
+        <translation>saknar avslutande avgränsare för callout med strängargument</translation>
     </message>
     <message>
         <source>unrecognized string delimiter follows (?C</source>
-        <translation>tanınmayan dizi sınırlayıcısı (?C</translation>
+        <translation>okänd strängavgränsare följer (?C</translation>
     </message>
     <message>
         <source>using \C is disabled by the application</source>
-        <translation>\C kullanımı uygulama tarafından devre dışı bırakıldı</translation>
+        <translation>användning av \C är inaktiverat av programmet</translation>
     </message>
     <message>
         <source>(?| and/or (?J: or (?x: parentheses are too deeply nested</source>
-        <translation>(?| ve/veya (?J: veya (?x: parantezler pek derin iç içe</translation>
+        <translation>(?| och/eller (?J: eller (?x: parentes är för djupt nästlad</translation>
     </message>
     <message>
         <source>using \C is disabled in this PCRE2 library</source>
-        <translation>\C kullanımı bu PCRE2 kütüphanesinde devre dışı bırakıldı</translation>
+        <translation>användning av \C är inaktiverat i detta PCRE2-bibliotek</translation>
     </message>
     <message>
         <source>regular expression is too complicated</source>
-        <translation>düzenli ifade pek karmaşık</translation>
+        <translation>reguljärt uttryck är för komplicerat</translation>
     </message>
     <message>
         <source>lookbehind assertion is too long</source>
-        <translation>geriye bakma denetimi pek uzun</translation>
+        <translation>lookbehind-assertion är för lång</translation>
     </message>
     <message>
         <source>pattern string is longer than the limit set by the application</source>
-        <translation>dizgi dizisi uygulama tarafından ayarlanan sınırdan daha uzun</translation>
+        <translation>mönstersträng är längre än gränsen inställd av programmet</translation>
     </message>
     <message>
         <source>internal error: unknown code in parsed pattern</source>
-        <translation>iç hata: ayrıştırılmış dizgide bilinmeyen kod</translation>
+        <translation>internt fel: okänd kod i tolkat mönster</translation>
     </message>
     <message>
         <source>internal error: bad code value in parsed_skip()</source>
-        <translation>iç hata: parsed_skip () içinde hatalı kod değeri</translation>
+        <translation>internt fel: felaktigt kodvärde i parsed_skip()</translation>
     </message>
     <message>
         <source>PCRE2_EXTRA_ALLOW_SURROGATE_ESCAPES is not allowed in UTF-16 mode</source>
-        <translation>UTF-16 kipinde PCRE2_EXTRA_ALLOW_SURROGATE_ESCAPES için izin verilmiyor</translation>
+        <translation>PCRE2_EXTRA_ALLOW_SURROGATE_ESCAPES tillåts inte i UTF-16-läge</translation>
     </message>
     <message>
         <source>invalid option bits with PCRE2_LITERAL</source>
-        <translation>PCRE2_LITERAL ile geçersiz seçenek bitleri</translation>
+        <translation>ogiltiga option-bitar med PCRE2_LITERAL</translation>
     </message>
     <message>
         <source>\N{U+dddd} is supported only in Unicode (UTF) mode</source>
-        <translation>\N{U+dddd} yalnızca Unicode (UTF) kipinde desteklenir</translation>
+        <translation>\N{U+dddd} stöds endast i Unicode-läge (UTF)</translation>
     </message>
     <message>
         <source>invalid hyphen in option setting</source>
-        <translation>seçenek ayarında geçersiz kısa çizgi</translation>
+        <translation>ogiltigt bindestreck i option-inställning</translation>
     </message>
     <message>
         <source>(*alpha_assertion) not recognized</source>
-        <translation>(*alpha_assertion) tanınamadı</translation>
+        <translation>(*alpha_assertion) kändes inte igen</translation>
     </message>
     <message>
         <source>script runs require Unicode support, which this version of PCRE2 does not have</source>
-        <translation>betik çalıştırmaları, bu PCRE2 sürümünün sahip olmadığı Unicode desteği gerektirir</translation>
+        <translation>skriptkörningar kräver Unicode-stöd, vilket denna version av PCRE2 inte har</translation>
     </message>
     <message>
         <source>too many capturing groups (maximum 65535)</source>
-        <translation>pek çok yakalama grubu (en fazla 65535)</translation>
+        <translation>för många fångade grupper (maximalt 65535)</translation>
     </message>
     <message>
         <source>atomic assertion expected after (?( or (?(?C)</source>
-        <translation>(?( or (?(?C) sonrası atomik denetim beklenir</translation>
+        <translation>atomic assertion förväntades efter (?( eller (?(?C)</translation>
     </message>
     <message>
         <source>no match</source>
-        <translation>eşleşme yok</translation>
+        <translation>ingen matchning</translation>
     </message>
     <message>
         <source>partial match</source>
-        <translation>kısımsal eşleşme</translation>
+        <translation>delvis matchning</translation>
     </message>
     <message>
         <source>UTF-8 error: 1 byte missing at end</source>
-        <translation>UTF-8 hatası: Sonda 1 bayt eksik</translation>
+        <translation>UTF-8-fel: 1 byte saknas på slutet</translation>
     </message>
     <message>
         <source>UTF-8 error: 2 bytes missing at end</source>
-        <translation>UTF-8 hatası: Sonda 2 bayt eksik</translation>
+        <translation>UTF-8-fel: 2 bytes saknas på slutet</translation>
     </message>
     <message>
         <source>UTF-8 error: 3 bytes missing at end</source>
-        <translation>UTF-8 hatası: Sonda 3 bayt eksik</translation>
+        <translation>UTF-8-fel: 3 bytes saknas på slutet</translation>
     </message>
     <message>
         <source>UTF-8 error: 4 bytes missing at end</source>
-        <translation>UTF-8 hatası: Sonda 4 bayt eksik</translation>
+        <translation>UTF-8-fel: 4 bytes saknas på slutet</translation>
     </message>
     <message>
         <source>UTF-8 error: 5 bytes missing at end</source>
-        <translation>UTF-8 hatası: Sonda 5 bayt eksik</translation>
+        <translation>UTF-8-fel: 5 bytes saknas på slutet</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 2 top bits not 0x80</source>
-        <translation>UTF-8 hatası: Bayt 2 üst bit 0x80 değil</translation>
+        <translation>UTF-8-fel: byte 2 top bits inte 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 3 top bits not 0x80</source>
-        <translation>UTF-8 hatası: Bayt 3 üst bit 0x80 değil</translation>
+        <translation>UTF-8-fel: byte 3 top bits inte 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 4 top bits not 0x80</source>
-        <translation>UTF-8 hatası: Bayt 4 üst bit 0x80 değil</translation>
+        <translation>UTF-8-fel: byte 4 top bits inte 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 5 top bits not 0x80</source>
-        <translation>UTF-8 hatası: Bayt 4 üst bit 0x80 değil</translation>
+        <translation>UTF-8-fel: byte 5 top bits inte 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: byte 6 top bits not 0x80</source>
-        <translation>UTF-8 hatası: Bayt 6 üst bit 0x80 değil</translation>
+        <translation>UTF-8-fel: byte 6 top bits inte 0x80</translation>
     </message>
     <message>
         <source>UTF-8 error: 5-byte character is not allowed (RFC 3629)</source>
-        <translation>UTF-8 hatası: 5 bayt karaktere izin verilmiyor (RFC 3629)</translation>
+        <translation>UTF-8-fel: 5-byte-tecken tillåts inte (RFC 3629)</translation>
     </message>
     <message>
         <source>UTF-8 error: 6-byte character is not allowed (RFC 3629)</source>
-        <translation>UTF-8 hatası: 6 bayt karaktere izin verilmiyor (RFC 3629)</translation>
+        <translation>UTF-8-fel: 6-byte-tecken tillåts inte (RFC 3629)</translation>
     </message>
     <message>
         <source>UTF-8 error: code points greater than 0x10ffff are not defined</source>
-        <translation>UTF-8 hatası: 0x10ffff değerinden büyük kod noktaları tanımlanmadı</translation>
+        <translation>UTF-8-fel: kodpunkter större än 0x10ffff är inte definierade</translation>
     </message>
     <message>
         <source>UTF-8 error: code points 0xd800-0xdfff are not defined</source>
-        <translation>UTF-8 hatası: 0xd800-0xdfff kod noktaları tanımlanmadı</translation>
+        <translation>UTF-8-fel: kodpunkterna 0xd800-0xdfff är inte definierade</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 2-byte sequence</source>
-        <translation>UTF-8 hatası: Aşırı 2 baytlık sıra</translation>
+        <translation>UTF-8-fel: overlong 2-byte-sekvens</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 3-byte sequence</source>
-        <translation>UTF-8 hatası: Aşırı 3 baytlık sıra</translation>
+        <translation>UTF-8-fel: overlong 3-byte-sekvens</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 4-byte sequence</source>
-        <translation>UTF-8 hatası: Aşırı 4 baytlık sıra</translation>
+        <translation>UTF-8-fel: overlong 4-byte-sekvens</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 5-byte sequence</source>
-        <translation>UTF-8 hatası: Aşırı 5 baytlık sıra</translation>
+        <translation>UTF-8-fel: overlong 5-byte-sekvens</translation>
     </message>
     <message>
         <source>UTF-8 error: overlong 6-byte sequence</source>
-        <translation>UTF-8 hatası: Aşırı 6 baytlık sıra</translation>
+        <translation>UTF-8-fel: overlong 6-byte-sekvens</translation>
     </message>
     <message>
         <source>UTF-8 error: isolated byte with 0x80 bit set</source>
-        <translation>UTF-8 hatası: 0x80 bit kümesi ile yalıtılmış bayt</translation>
+        <translation>UTF-8-fel: isolerad byte med 0x80 bit inställd</translation>
     </message>
     <message>
         <source>UTF-8 error: illegal byte (0xfe or 0xff)</source>
-        <translation>UTF-8 hatası: Geçersiz bayt (0xfe veya 0xff)</translation>
+        <translation>UTF-8-fel: otillåten byte (0xfe eller 0xff)</translation>
     </message>
     <message>
         <source>UTF-16 error: missing low surrogate at end</source>
-        <translation>UTF-16 hatası: Sonda düşük vekil eksik</translation>
+        <translation>UTF-16-fel: saknar låg surrogat på slutet</translation>
     </message>
     <message>
         <source>UTF-16 error: invalid low surrogate</source>
-        <translation>UTF-16 hatası: Geçersiz düşük vekil</translation>
+        <translation>UTF-16-fel: ogiltig låg surrogat</translation>
     </message>
     <message>
         <source>UTF-16 error: isolated low surrogate</source>
-        <translation>UTF-16 hatası: Yalıtılmış düşük vekil</translation>
+        <translation>UTF-16-fel: isolerad låg surrogat</translation>
     </message>
     <message>
         <source>UTF-32 error: code points 0xd800-0xdfff are not defined</source>
-        <translation>UTF-32 hatası: 0xd800-0xdfff kod noktaları tanımlanmadı</translation>
+        <translation>UTF-32-fel: kodpunkterna 0xd800-0xdfff är inte definierade</translation>
     </message>
     <message>
         <source>UTF-32 error: code points greater than 0x10ffff are not defined</source>
-        <translation>UTF-32 hatası: 0x10ffff değerinden büyük kod noktaları tanımlanmadı</translation>
+        <translation>UTF-32-fel: kodpunkter större än 0x10ffff är inte definierade</translation>
     </message>
     <message>
         <source>bad data value</source>
-        <translation>hatalı veri değeri</translation>
+        <translation>felaktigt datavärde</translation>
     </message>
     <message>
         <source>patterns do not all use the same character tables</source>
-        <translation>dizgilerin tümü aynı karakter tablolarını kullanmaz</translation>
+        <translation>mönstren använder inte alla samma teckentabeller</translation>
     </message>
     <message>
         <source>magic number missing</source>
-        <translation>sihirli numara eksik</translation>
+        <translation>magic number saknas</translation>
     </message>
     <message>
         <source>pattern compiled in wrong mode: 8/16/32-bit error</source>
-        <translation>dizgi yanlış kipte derlendi: 8/16/32-bit hatası</translation>
+        <translation>mönstret kompilerat i felaktigt läge: 8/16/32-bitarsfel</translation>
     </message>
     <message>
         <source>bad offset value</source>
-        <translation>bozuk ofset değeri</translation>
+        <translation>felaktigt offset-värde</translation>
     </message>
     <message>
         <source>bad option value</source>
-        <translation>bozuk seçenek değeri</translation>
+        <translation>felaktigt option-värde</translation>
     </message>
     <message>
         <source>invalid replacement string</source>
-        <translation>geçersiz değiştirme dizisi</translation>
+        <translation>ogiltig ersättningssträng</translation>
     </message>
     <message>
         <source>bad offset into UTF string</source>
-        <translation>UTF dizisine bozuk ofset</translation>
+        <translation>felaktig offset till UTF-sträng</translation>
     </message>
     <message>
         <source>callout error code</source>
-        <translation>ek bilgi hata kodu</translation>
+        <translation>callout-felkod</translation>
     </message>
     <message>
         <source>invalid data in workspace for DFA restart</source>
-        <translation>DFA yeniden başlatması için çalışma alanındaki geçersiz veri</translation>
+        <translation>ogiltigt data i arbetsyta för DFA-omstart</translation>
     </message>
     <message>
         <source>too much recursion for DFA matching</source>
-        <translation>DFA eşleşmesi için pek çok özyineleme</translation>
+        <translation>för mycket rekursion för DFA-matchning</translation>
     </message>
     <message>
         <source>backreference condition or recursion test is not supported for DFA matching</source>
-        <translation>DFA eşleşmesi için geri başvuru koşulu veya yineleme sınaması desteklenmiyor</translation>
+        <translation>backreference-villkor eller rekursionstest stöds inte för DFA-matchning</translation>
     </message>
     <message>
         <source>function is not supported for DFA matching</source>
-        <translation>işlev DFA eşleşmesi için desteklenmiyor</translation>
+        <translation>funktionen stöds inte för DFA-matchning</translation>
     </message>
     <message>
         <source>pattern contains an item that is not supported for DFA matching</source>
-        <translation>dizgi DFA eşleşmesi için desteklenmeyen bir öge içeriyor</translation>
+        <translation>mönster innehåller en post som inte stöds för DFA-matchning</translation>
     </message>
     <message>
         <source>workspace size exceeded in DFA matching</source>
-        <translation>DFA eşleşmesinde çalışma alanı boyutu aşıldı</translation>
+        <translation>arbetsytans storlek överstigs i DFA-matchning</translation>
     </message>
     <message>
         <source>internal error - pattern overwritten?</source>
-        <translation>iç hata — dizginin üzerine yazılıyor mu?</translation>
+        <translation>internt fel - mönstret överskrivet?</translation>
     </message>
     <message>
         <source>bad JIT option</source>
-        <translation>bozuk JIT seçeneği</translation>
+        <translation>felaktigt JIT-alternativ</translation>
     </message>
     <message>
         <source>JIT stack limit reached</source>
-        <translation>JIT yığın sınırına ulaşıldı</translation>
+        <translation>gräns för JIT-stack nåddes</translation>
     </message>
     <message>
         <source>match limit exceeded</source>
-        <translation>eşleşme sınırı aşıldı</translation>
+        <translation>matchningsgräns överstigen</translation>
     </message>
     <message>
         <source>no more memory</source>
-        <translation>daha fazla bellek yok</translation>
+        <translation>slut på minne</translation>
     </message>
     <message>
         <source>unknown substring</source>
-        <translation>bilinmeyen alt dizi</translation>
+        <translation>okänd understräng</translation>
     </message>
     <message>
         <source>non-unique substring name</source>
-        <translation>benzersiz olmayan alt dizi adı</translation>
+        <translation>icke-unikt understrängsnamn</translation>
     </message>
     <message>
         <source>NULL argument passed</source>
-        <translation>NULL değişkeni geçti</translation>
+        <translation>NULL-argument skickades</translation>
     </message>
     <message>
         <source>nested recursion at the same subject position</source>
-        <translation>aynı konu konumunda iç içe özyineleme</translation>
+        <translation>nästlad rekursion på samma ämnesposition</translation>
     </message>
     <message>
         <source>matching depth limit exceeded</source>
-        <translation>eşleşen derinlik sınırı aşıldı</translation>
+        <translation>gräns för matchningsdjup överstigen</translation>
     </message>
     <message>
         <source>requested value is not available</source>
-        <translation>istenen değer kullanılamıyor</translation>
+        <translation>begärt värde är inte tillgängligt</translation>
     </message>
     <message>
         <source>requested value is not set</source>
-        <translation>istenen değer ayarlanmadı</translation>
+        <translation>begärt värde är inte inställt</translation>
     </message>
     <message>
         <source>offset limit set without PCRE2_USE_OFFSET_LIMIT</source>
-        <translation>PCRE2_USE_OFFSET_LIMIT olmadan ofset sınırı ayarlandı</translation>
+        <translation>offset-gräns inställd utan PCRE2_USE_OFFSET_LIMIT</translation>
     </message>
     <message>
         <source>bad escape sequence in replacement string</source>
-        <translation>değiştirme dizisinde bozuk kaçış sırası</translation>
+        <translation>felaktig escape-sekvens i ersättningssträng</translation>
     </message>
     <message>
         <source>expected closing curly bracket in replacement string</source>
-        <translation>değiştirme dizisinde kapanış parantezi bekleniyordu</translation>
+        <translation>förväntade stängande klammerparentes i ersättningssträng</translation>
     </message>
     <message>
         <source>bad substitution in replacement string</source>
-        <translation>değiştirme dizisinde bozuk ikame</translation>
+        <translation>felaktig ersättning i ersättningssträng</translation>
     </message>
     <message>
         <source>match with end before start or start moved backwards is not supported</source>
-        <translation>başlamadan önce bitiş ile eşleşme veya geriye doğru hareket etme desteklenmez</translation>
+        <translation>matchning med slut före start eller start flyttad bakåt stöds inte</translation>
     </message>
     <message>
         <source>too many replacements (more than INT_MAX)</source>
-        <translation>pek fazla değişiklik (INT_MAX değerinden fazla)</translation>
+        <translation>för många ersättningar (fler än INT_MAX)</translation>
     </message>
     <message>
         <source>bad serialized data</source>
-        <translation>bozuk serileştirilmiş veri</translation>
+        <translation>felaktigt serialiserat data</translation>
     </message>
     <message>
         <source>heap limit exceeded</source>
-        <translation>yığın sınırı aşıldı</translation>
+        <translation>heap-gräns överstegs</translation>
     </message>
     <message>
         <source>invalid syntax</source>
-        <translation>geçersiz sözdizim</translation>
+        <translation>ogiltig syntax</translation>
     </message>
     <message>
         <source>internal error - duplicate substitution match</source>
-        <translation>iç hata — yinelenen ikame eşleşmesi</translation>
+        <translation>internt fel - dubblett av ersättningsmatchning</translation>
     </message>
     <message>
         <source>PCRE2_MATCH_INVALID_UTF is not supported for DFA matching</source>
-        <translation>PCRE2_MATCH_INVALID_UTF, DFA eşleşmesi için desteklenmiyor</translation>
+        <translation>PCRE2_MATCH_INVALID_UTF stöds inte för DFA-matchning</translation>
     </message>
     <message>
         <source>INTERNAL ERROR: invalid substring offset</source>
-        <translation>İÇSEL HATA: Geçersiz alt dizi ofseti</translation>
+        <translation>INTERNT FEL: ogiltig substring-offset</translation>
     </message>
 </context>
 <context>
     <name>QSQLiteDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>Veritabanı açılırken hata oluştu</translation>
+        <translation>Fel vid öppnade av databas</translation>
     </message>
     <message>
         <source>Error closing database</source>
-        <translation>Veritabanı kapatılırken hata oluştu</translation>
+        <translation>Fel vid stängning av databas</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>İşlem başlatılamıyor</translation>
+        <translation>Kunde inte påbörja transaktion</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>İşleme yapılamıyor</translation>
+        <translation>Kunde inte verkställa transaktion</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>İşlem geri alınamıyor</translation>
+        <translation>Kunde inte rulla tillbaka transaktion</translation>
     </message>
 </context>
 <context>
     <name>QSQLiteResult</name>
     <message>
         <source>Unable to fetch row</source>
-        <translation>Satır getirilemedi</translation>
+        <translation>Kunde inte hämta rad</translation>
     </message>
     <message>
         <source>No query</source>
-        <translation>Sorgu yok</translation>
+        <translation>Ingen fråga</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>İfade yürütülemiyor</translation>
+        <translation>Kunde inte köra villkor</translation>
     </message>
     <message>
         <source>Unable to execute multiple statements at a time</source>
-        <translation>Bir kerede birden fazla ifade çalıştırılamıyor</translation>
+        <translation>Kunde inte köra satsfråga på en gång</translation>
     </message>
     <message>
         <source>Unable to reset statement</source>
-        <translation>İfade sıfırlanamıyor</translation>
+        <translation>Kunde inte återställa villkor</translation>
     </message>
     <message>
         <source>Unable to bind parameters</source>
-        <translation>Parametreler bağıntılanamıyor</translation>
+        <translation>Kunde inte binda parametrar</translation>
     </message>
     <message>
         <source>Parameter count mismatch</source>
-        <translation>Parametre sayısı uyuşmazlığı</translation>
+        <translation>Parameterantal stämmer inte</translation>
     </message>
 </context>
 <context>
     <name>QSaveFile</name>
     <message>
         <source>Existing file %1 is not writable</source>
-        <translation>Var olan %1 dosyası yazılabilir değil</translation>
+        <translation>Befintliga filen %1 är inte skrivbar</translation>
     </message>
     <message>
         <source>Filename refers to a directory</source>
-        <translation>Dosya adı bir dizini ifade eder</translation>
+        <translation>Filnamnet refererar till en katalog</translation>
     </message>
     <message>
         <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled.</source>
-        <translation>QSaveFile doğrudan yazma geri dönüşü etkinleştirilmeden “%1” dosyasını açamıyor.</translation>
+        <translation>QSaveFile kan inte öppna &quot;%1&quot; utan direktskrivning att falla tillbaka på är aktiverad.</translation>
     </message>
     <message>
         <source>Writing canceled by application</source>
-        <translation>Yazma, uygulama tarafından iptal edildi</translation>
+        <translation>Skrivningen avbröts av programmet</translation>
     </message>
 </context>
 <context>
     <name>QScrollBar</name>
     <message>
         <source>Scroll here</source>
-        <translation>Buraya Sar</translation>
+        <translation>Rulla här</translation>
     </message>
     <message>
         <source>Left edge</source>
-        <translation>Sol Kenar</translation>
+        <translation>Vänsterkant</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation>Üst</translation>
+        <translation>Överkant</translation>
     </message>
     <message>
         <source>Right edge</source>
-        <translation>Sağ Kenar</translation>
+        <translation>Högerkant</translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation>Alt</translation>
+        <translation>Nederkant</translation>
     </message>
     <message>
         <source>Page left</source>
-        <translation>Sayfa Sola</translation>
+        <translation>Sida vänster</translation>
     </message>
     <message>
         <source>Page up</source>
-        <translation>Sayfa Yukarı</translation>
+        <translation>Sida uppåt</translation>
     </message>
     <message>
         <source>Page right</source>
-        <translation>Sayfa Sağa</translation>
+        <translation>Sida höger</translation>
     </message>
     <message>
         <source>Page down</source>
-        <translation>Sayfa Aşağı</translation>
+        <translation>Sida nedåt</translation>
     </message>
     <message>
         <source>Scroll left</source>
-        <translation>Sola Sar</translation>
+        <translation>Rulla vänster</translation>
     </message>
     <message>
         <source>Scroll up</source>
-        <translation>Yukarı Sar</translation>
+        <translation>Rulla uppåt</translation>
     </message>
     <message>
         <source>Scroll right</source>
-        <translation>Sağa Sar</translation>
+        <translation>Rulla höger</translation>
     </message>
     <message>
         <source>Scroll down</source>
-        <translation>Aşağı Sar</translation>
+        <translation>Rulla nedåt</translation>
     </message>
 </context>
 <context>
     <name>QSctpSocket</name>
     <message>
         <source>The remote host closed the connection</source>
-        <translation>Uzak ana bilgisayar bağlantıyı kapattı</translation>
+        <translation>Fjärrvärden stängde anslutningen</translation>
     </message>
 </context>
 <context>
     <name>QSharedMemory</name>
     <message>
-        <source>%1: create size is less then 0</source>
-        <translation>%1: Oluşturma boyutu 0’dan küçük</translation>
-    </message>
-    <message>
-        <source>%1: unable to lock</source>
-        <translation>%1: Kilitlenemiyor</translation>
-    </message>
-    <message>
-        <source>%1: unable to unlock</source>
-        <translation>%1: Kilit açılamıyor</translation>
-    </message>
-    <message>
-        <source>%1: key is empty</source>
-        <translation>%1: Anahtar boş</translation>
-    </message>
-    <message>
-        <source>%1: bad name</source>
-        <translation>%1: Bozuk ad</translation>
-    </message>
-    <message>
-        <source>%1: unable to make key</source>
-        <translation>%1: Anahtar yapılamıyor</translation>
-    </message>
-    <message>
-        <source>%1: system-imposed size restrictions</source>
-        <translation>%1: Sistem tarafından uygulanan boyut kısıtlamaları</translation>
-    </message>
-    <message>
-        <source>%1: not attached</source>
-        <translation>%1: İlişik değil</translation>
-    </message>
-    <message>
         <source>%1: unsupported key type</source>
-        <translation>%1: Desteklenmeyen anahtar türü</translation>
+        <translation>%1: nyckeltypen stöds inte</translation>
     </message>
     <message>
         <source>%1: unable to set key on lock (%2)</source>
-        <translation>%1: Kilide anahtar koyulamıyor (%2)</translation>
+        <translation>%1: kunde inte ställa in nyckel på låset (%2)</translation>
+    </message>
+    <message>
+        <source>%1: create size is less then 0</source>
+        <translation>%1: skapad storlek är mindre än 0</translation>
+    </message>
+    <message>
+        <source>%1: unable to lock</source>
+        <translation>%1: kunde inte låsa</translation>
+    </message>
+    <message>
+        <source>%1: unable to unlock</source>
+        <translation>%1: kunde inte låsa upp</translation>
     </message>
     <message>
         <source>%1: permission denied</source>
-        <translation>%1: İzin reddedildi</translation>
+        <translation>%1: behörighet nekad</translation>
     </message>
     <message>
         <source>%1: already exists</source>
-        <translation>%1: Halihazırda var</translation>
+        <translation>%1: finns redan</translation>
     </message>
     <message>
         <source>%1: doesn&apos;t exist</source>
-        <translation>%1: Yok</translation>
+        <translation>%1: finns inte</translation>
     </message>
     <message>
         <source>%1: out of resources</source>
-        <translation>%1: Özkaynaklar tükendi</translation>
+        <translation>%1: slut på resurser</translation>
     </message>
     <message>
         <source>%1: unknown error: %2</source>
-        <translation>%1: Bilinmeyen hata: %2</translation>
+        <translation>%1: okänt fel: %2</translation>
+    </message>
+    <message>
+        <source>%1: key is empty</source>
+        <translation>%1: nyckeln är tom</translation>
+    </message>
+    <message>
+        <source>%1: bad name</source>
+        <translation>%1: felaktigt namn</translation>
+    </message>
+    <message>
+        <source>%1: unable to make key</source>
+        <translation>%1: kunde inte skapa nyckel</translation>
+    </message>
+    <message>
+        <source>%1: system-imposed size restrictions</source>
+        <translation>%1: storleksbegränsningar för systemet</translation>
+    </message>
+    <message>
+        <source>%1: not attached</source>
+        <translation>%1: inte ansluten</translation>
     </message>
     <message>
         <source>%1: invalid size</source>
-        <translation>%1: Geçersiz boyut</translation>
+        <translation>%1: ogiltig storlek</translation>
     </message>
     <message>
         <source>%1: key error</source>
-        <translation>%1: Anahtar hatası</translation>
+        <translation>%1: nyckelfel</translation>
     </message>
     <message>
         <source>%1: size query failed</source>
-        <translation>%1: Boyut sorgusu başarısız oldu</translation>
+        <translation>%1: storleksfråga misslyckades</translation>
     </message>
 </context>
 <context>
@@ -4967,317 +5079,317 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     <message>
         <source>Space</source>
         <extracomment>This and all following &quot;incomprehensible&quot; strings in QShortcut context are key names. Please use the localized names appearing on actual keyboards or whatever is commonly used.</extracomment>
-        <translation>Boşluk</translation>
+        <translation>Mellanslag</translation>
     </message>
     <message>
         <source>Esc</source>
-        <translation>Vazgeç</translation>
+        <translation>Esc</translation>
     </message>
     <message>
         <source>Tab</source>
-        <translation>Sekme</translation>
+        <translation>Tab</translation>
     </message>
     <message>
         <source>Backtab</source>
-        <translation>Geri Sekme</translation>
+        <translation>Backtab</translation>
     </message>
     <message>
         <source>Backspace</source>
-        <translation>Geri Sil</translation>
+        <translation>Backsteg</translation>
     </message>
     <message>
         <source>Return</source>
-        <translation>Dönüş</translation>
+        <translation>Return</translation>
     </message>
     <message>
         <source>Enter</source>
-        <translation>Giriş</translation>
+        <translation>Enter</translation>
     </message>
     <message>
         <source>Ins</source>
-        <translation>Ekle</translation>
+        <translation>Ins</translation>
     </message>
     <message>
         <source>Del</source>
-        <translation>Sil</translation>
+        <translation>Del</translation>
     </message>
     <message>
         <source>Pause</source>
-        <translation>Duraklat</translation>
+        <translation>Pause</translation>
     </message>
     <message>
         <source>Print</source>
-        <translation>Yazdır</translation>
+        <translation>Print</translation>
     </message>
     <message>
         <source>SysReq</source>
-        <translation>Sisİstğ</translation>
+        <translation>SysReq</translation>
     </message>
     <message>
         <source>Home</source>
-        <translation>Baş</translation>
+        <translation>Hem</translation>
     </message>
     <message>
         <source>End</source>
-        <translation>Son</translation>
+        <translation>End</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation>Sol</translation>
+        <translation>Vänster</translation>
     </message>
     <message>
         <source>Up</source>
-        <translation>Yukarı</translation>
+        <translation>Upp</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation>Sağ</translation>
+        <translation>Höger</translation>
     </message>
     <message>
         <source>Down</source>
-        <translation>Aşağı</translation>
+        <translation>Ned</translation>
     </message>
     <message>
         <source>PgUp</source>
-        <translation>Sayfa Yukarı</translation>
+        <translation>PgUp</translation>
     </message>
     <message>
         <source>PgDown</source>
-        <translation>Sayfa Aşağı</translation>
+        <translation>PgDown</translation>
     </message>
     <message>
         <source>CapsLock</source>
-        <translation>Büyük Harf</translation>
+        <translation>CapsLock</translation>
     </message>
     <message>
         <source>NumLock</source>
-        <translation>Sayı Kilidi</translation>
+        <translation>NumLock</translation>
     </message>
     <message>
         <source>ScrollLock</source>
-        <translation>Sarma Kilidi</translation>
+        <translation>ScrollLock</translation>
     </message>
     <message>
         <source>Menu</source>
-        <translation>Menü</translation>
+        <translation>Meny</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Yardım</translation>
+        <translation>Hjälp</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Geri</translation>
+        <translation>Bakåt</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>İleri</translation>
+        <translation>Framåt</translation>
     </message>
     <message>
         <source>Stop</source>
-        <translation>Durdur</translation>
+        <translation>Stoppa</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation>Yenile</translation>
+        <translation>Uppdatera</translation>
     </message>
     <message>
         <source>Volume Down</source>
-        <translation>Sesi Düşür</translation>
+        <translation>Sänk volym</translation>
     </message>
     <message>
         <source>Volume Mute</source>
-        <translation>Sesi Kes</translation>
+        <translation>Volym tyst</translation>
     </message>
     <message>
         <source>Volume Up</source>
-        <translation>Sesi Yükselt</translation>
+        <translation>Höj volym</translation>
     </message>
     <message>
         <source>Bass Boost</source>
-        <translation>Bası Kuvvetlendir</translation>
+        <translation>Förstärk bas</translation>
     </message>
     <message>
         <source>Bass Up</source>
-        <translation>Bası Yükselt</translation>
+        <translation>Höj bas</translation>
     </message>
     <message>
         <source>Bass Down</source>
-        <translation>Bası Düşür</translation>
+        <translation>Sänk bas</translation>
     </message>
     <message>
         <source>Treble Up</source>
-        <translation>Tizi Yükselt</translation>
+        <translation>Höj diskant</translation>
     </message>
     <message>
         <source>Treble Down</source>
-        <translation>Tizi Düşür</translation>
+        <translation>Sänk diskant</translation>
     </message>
     <message>
         <source>Media Play</source>
-        <translation>Ortam Çal/Oynat</translation>
+        <translation>Media spela upp</translation>
     </message>
     <message>
         <source>Media Stop</source>
-        <translation>Ortamı Durdur</translation>
+        <translation>Media stopp</translation>
     </message>
     <message>
         <source>Media Previous</source>
-        <translation>Önceki Ortam</translation>
+        <translation>Media föregående</translation>
     </message>
     <message>
         <source>Media Next</source>
-        <translation>Sonraki Ortam</translation>
+        <translation>Media nästa</translation>
     </message>
     <message>
         <source>Media Record</source>
-        <translation>Ortam Kaydı</translation>
+        <translation>Media spela in</translation>
     </message>
     <message>
         <source>Media Pause</source>
         <extracomment>Media player pause button</extracomment>
-        <translation>Ortamı Duraklat</translation>
+        <translation>Pausa media</translation>
     </message>
     <message>
         <source>Toggle Media Play/Pause</source>
         <extracomment>Media player button to toggle between playing and paused</extracomment>
-        <translation>Ortamı Çal–Oynat/Duraklat</translation>
+        <translation>Växla media spela upp/paus</translation>
     </message>
     <message>
         <source>Home Page</source>
-        <translation>Ana Sayfa</translation>
+        <translation>Hemsida</translation>
     </message>
     <message>
         <source>Favorites</source>
-        <translation>Sık Kullanılanlar</translation>
+        <translation>Favoriter</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Ara</translation>
+        <translation>Sök</translation>
     </message>
     <message>
         <source>Standby</source>
-        <translation>Hazırda Beklet</translation>
+        <translation>Avvakta</translation>
     </message>
     <message>
         <source>Open URL</source>
-        <translation>URL Aç</translation>
+        <translation>Öppna url</translation>
     </message>
     <message>
         <source>Launch Mail</source>
-        <translation>Postayı Başlat</translation>
+        <translation>Starta e-post</translation>
     </message>
     <message>
         <source>Launch Media</source>
-        <translation>Ortamı Başlat</translation>
+        <translation>Starta media</translation>
     </message>
     <message>
         <source>Launch (0)</source>
-        <translation>Başlat (0)</translation>
+        <translation>Starta (0)</translation>
     </message>
     <message>
         <source>Launch (1)</source>
-        <translation>Başlat (1)</translation>
+        <translation>Starta (1)</translation>
     </message>
     <message>
         <source>Launch (2)</source>
-        <translation>Başlat (2)</translation>
+        <translation>Starta (2)</translation>
     </message>
     <message>
         <source>Launch (3)</source>
-        <translation>Başlat (3)</translation>
+        <translation>Starta (3)</translation>
     </message>
     <message>
         <source>Launch (4)</source>
-        <translation>Başlat (4)</translation>
+        <translation>Starta (4)</translation>
     </message>
     <message>
         <source>Launch (5)</source>
-        <translation>Başlat (5)</translation>
+        <translation>Starta (5)</translation>
     </message>
     <message>
         <source>Launch (6)</source>
-        <translation>Başlat (6)</translation>
+        <translation>Starta (6)</translation>
     </message>
     <message>
         <source>Launch (7)</source>
-        <translation>Başlat (7)</translation>
+        <translation>Starta (7)</translation>
     </message>
     <message>
         <source>Launch (8)</source>
-        <translation>Başlat (8)</translation>
+        <translation>Starta (8)</translation>
     </message>
     <message>
         <source>Launch (9)</source>
-        <translation>Başlat (9)</translation>
+        <translation>Starta (9)</translation>
     </message>
     <message>
         <source>Launch (A)</source>
-        <translation>Başlat (A)</translation>
+        <translation>Starta (A)</translation>
     </message>
     <message>
         <source>Launch (B)</source>
-        <translation>Başlat (B)</translation>
+        <translation>Starta (B)</translation>
     </message>
     <message>
         <source>Launch (C)</source>
-        <translation>Başlat (C)</translation>
+        <translation>Starta (C)</translation>
     </message>
     <message>
         <source>Launch (D)</source>
-        <translation>Başlat (D)</translation>
+        <translation>Starta (D)</translation>
     </message>
     <message>
         <source>Launch (E)</source>
-        <translation>Başlat (E)</translation>
+        <translation>Starta (E)</translation>
     </message>
     <message>
         <source>Launch (F)</source>
-        <translation>Başlat (F)</translation>
+        <translation>Starta (F)</translation>
     </message>
     <message>
         <source>Launch (G)</source>
-        <translation>Başlat (G)</translation>
+        <translation>Starta (G)</translation>
     </message>
     <message>
         <source>Launch (H)</source>
-        <translation>Başlat (H)</translation>
+        <translation>Starta (H)</translation>
     </message>
     <message>
         <source>Monitor Brightness Up</source>
-        <translation>Ekran Parlaklığını Yükselt</translation>
+        <translation>Monitor ljusstyrka upp</translation>
     </message>
     <message>
         <source>Monitor Brightness Down</source>
-        <translation>Ekran Parlaklığını Düşür</translation>
+        <translation>Monitor ljusstyrka ner</translation>
     </message>
     <message>
         <source>Keyboard Light On/Off</source>
-        <translation>Klavye Işığını Aç/Kapat</translation>
+        <translation>Tangentbord ljus på/av</translation>
     </message>
     <message>
         <source>Keyboard Brightness Up</source>
-        <translation>Klavye Işığını Yükselt</translation>
+        <translation>Tangentbord ljusstyrka upp</translation>
     </message>
     <message>
         <source>Keyboard Brightness Down</source>
-        <translation>Klavye Işığını Düşür</translation>
+        <translation>Tangentbord ljusstyrka ner</translation>
     </message>
     <message>
         <source>Power Off</source>
-        <translation>Gücü Kapat</translation>
+        <translation>Stäng av</translation>
     </message>
     <message>
         <source>Wake Up</source>
-        <translation>Uyandır</translation>
+        <translation>Vakna</translation>
     </message>
     <message>
         <source>Eject</source>
-        <translation>Çıkar</translation>
+        <translation>Mata ut</translation>
     </message>
     <message>
         <source>Screensaver</source>
-        <translation>Ekran Koruyucusu</translation>
+        <translation>Skärmsläckare</translation>
     </message>
     <message>
         <source>WWW</source>
@@ -5285,31 +5397,31 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Sleep</source>
-        <translation>Uyut</translation>
+        <translation>Sov</translation>
     </message>
     <message>
         <source>LightBulb</source>
-        <translation>Ampül</translation>
+        <translation>Glödlampa</translation>
     </message>
     <message>
         <source>Shop</source>
-        <translation>Mağaza</translation>
+        <translation>Affär</translation>
     </message>
     <message>
         <source>History</source>
-        <translation>Geçmiş</translation>
+        <translation>Historik</translation>
     </message>
     <message>
         <source>Add Favorite</source>
-        <translation>Sık Kullanılanlara Ekle</translation>
+        <translation>Lägg till favorit</translation>
     </message>
     <message>
         <source>Hot Links</source>
-        <translation>Popüler Bağlantılar</translation>
+        <translation>Bra länkar</translation>
     </message>
     <message>
         <source>Adjust Brightness</source>
-        <translation>Parlaklığı Ayarla</translation>
+        <translation>Justera ljusstyrka</translation>
     </message>
     <message>
         <source>Finance</source>
@@ -5317,27 +5429,27 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Community</source>
-        <translation>Topluluk</translation>
+        <translation>Gemenskap</translation>
     </message>
     <message>
         <source>Media Rewind</source>
-        <translation>Ortamı Geri Sar</translation>
+        <translation>Media spola tillbaka</translation>
     </message>
     <message>
         <source>Back Forward</source>
-        <translation>İleri Geri</translation>
+        <translation>Bakåt framåt</translation>
     </message>
     <message>
         <source>Application Left</source>
-        <translation>Sol Uygulama</translation>
+        <translation>Program vänster</translation>
     </message>
     <message>
         <source>Application Right</source>
-        <translation>Sağ Uygulama</translation>
+        <translation>Program höger</translation>
     </message>
     <message>
         <source>Book</source>
-        <translation>Kitap</translation>
+        <translation>Bok</translation>
     </message>
     <message>
         <source>CD</source>
@@ -5345,39 +5457,39 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Calculator</source>
-        <translation>Hesap Makinesi</translation>
+        <translation>Miniräknare</translation>
     </message>
     <message>
         <source>Calendar</source>
-        <translation>Takvim</translation>
+        <translation>Kalender</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Temizle</translation>
+        <translation>Töm</translation>
     </message>
     <message>
         <source>Clear Grab</source>
-        <translation>Temiz Yakala</translation>
+        <translation>Töm fångst</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Kapat</translation>
+        <translation>Stäng</translation>
     </message>
     <message>
         <source>Adjust contrast</source>
-        <translation>Karşıtlığı Ayarla</translation>
+        <translation>Justera kontrast</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Kopyala</translation>
+        <translation>Kopiera</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation>Kes</translation>
+        <translation>Klipp ut</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation>Ekran</translation>
+        <translation>Skärm</translation>
     </message>
     <message>
         <source>DOS</source>
@@ -5385,23 +5497,23 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Documents</source>
-        <translation>Belgeler</translation>
+        <translation>Dokument</translation>
     </message>
     <message>
         <source>Spreadsheet</source>
-        <translation>Hesap Tablosu</translation>
+        <translation>Kalkylark</translation>
     </message>
     <message>
         <source>Browser</source>
-        <translation>Tarayıcı</translation>
+        <translation>Webbläsare</translation>
     </message>
     <message>
         <source>Game</source>
-        <translation>Oyun</translation>
+        <translation>Spel</translation>
     </message>
     <message>
         <source>Go</source>
-        <translation>Git</translation>
+        <translation>Gå</translation>
     </message>
     <message>
         <source>iTouch</source>
@@ -5409,47 +5521,47 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Logoff</source>
-        <translation>Oturumu Kapat</translation>
+        <translation>Logga ut</translation>
     </message>
     <message>
         <source>Market</source>
-        <translation>Market</translation>
+        <translation>Marknad</translation>
     </message>
     <message>
         <source>Meeting</source>
-        <translation>Toplantı</translation>
+        <translation>Möte</translation>
     </message>
     <message>
         <source>Memo</source>
-        <translation>Anımsatıcı</translation>
+        <translation>Memo</translation>
     </message>
     <message>
         <source>Keyboard Menu</source>
-        <translation>Klavye Menüsü</translation>
+        <translation>Tangentbordsmeny</translation>
     </message>
     <message>
         <source>Menu PB</source>
-        <translation>PB Menüsü</translation>
+        <translation>Meny PB</translation>
     </message>
     <message>
         <source>My Sites</source>
-        <translation>Sitelerim</translation>
+        <translation>Mina platser</translation>
     </message>
     <message>
         <source>News</source>
-        <translation>Haberler</translation>
+        <translation>Nyheter</translation>
     </message>
     <message>
         <source>Home Office</source>
-        <translation>Ev Ofisi</translation>
+        <translation>Hemmakontor</translation>
     </message>
     <message>
         <source>Option</source>
-        <translation>Seçenek</translation>
+        <translation>Alternativ</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>Yapıştır</translation>
+        <translation>Klistra in</translation>
     </message>
     <message>
         <source>Phone</source>
@@ -5457,63 +5569,63 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Reply</source>
-        <translation>Yanıtla</translation>
+        <translation>Svara</translation>
     </message>
     <message>
         <source>Reload</source>
-        <translation>Yeniden Yükle</translation>
+        <translation>Uppdatera</translation>
     </message>
     <message>
         <source>Rotate Windows</source>
-        <translation>Pencereleri Döndür</translation>
+        <translation>Rotera fönster</translation>
     </message>
     <message>
         <source>Rotation PB</source>
-        <translation>PB Döndürme</translation>
+        <translation>Rotation PB</translation>
     </message>
     <message>
         <source>Rotation KB</source>
-        <translation>KB Döndürme</translation>
+        <translation>Rotation KB</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Kaydet</translation>
+        <translation>Spara</translation>
     </message>
     <message>
         <source>Send</source>
-        <translation>Gönder</translation>
+        <translation>Skicka</translation>
     </message>
     <message>
         <source>Spellchecker</source>
-        <translation>Yazım Denetleyicisi</translation>
+        <translation>Stavningskontroll</translation>
     </message>
     <message>
         <source>Split Screen</source>
-        <translation>Bölünmüş Ekran</translation>
+        <translation>Delad skärm</translation>
     </message>
     <message>
         <source>Support</source>
-        <translation>Destek</translation>
+        <translation>Support</translation>
     </message>
     <message>
         <source>Task Panel</source>
-        <translation>Görev Paneli</translation>
+        <translation>Åtgärdspanel</translation>
     </message>
     <message>
         <source>Terminal</source>
-        <translation>Uçbirim</translation>
+        <translation>Terminal</translation>
     </message>
     <message>
         <source>To-do list</source>
-        <translation>Yapılacaklar Listesi</translation>
+        <translation>Att-göra-lista</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation>Araçlar</translation>
+        <translation>Verktyg</translation>
     </message>
     <message>
         <source>Travel</source>
-        <translation>Yolculuk</translation>
+        <translation>Resa</translation>
     </message>
     <message>
         <source>Video</source>
@@ -5521,7 +5633,7 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Word Processor</source>
-        <translation>Sözcük İşlemci</translation>
+        <translation>Ordbehandlare</translation>
     </message>
     <message>
         <source>XFer</source>
@@ -5529,39 +5641,39 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Zoom In</source>
-        <translation>Yakınlaştır</translation>
+        <translation>Zooma in</translation>
     </message>
     <message>
         <source>Zoom Out</source>
-        <translation>Uzaklaştır</translation>
+        <translation>Zooma ut</translation>
     </message>
     <message>
         <source>Away</source>
-        <translation>Uzakta</translation>
+        <translation>Borta</translation>
     </message>
     <message>
         <source>Messenger</source>
-        <translation>İletileşme</translation>
+        <translation>Messenger</translation>
     </message>
     <message>
         <source>WebCam</source>
-        <translation>Web Kamerası</translation>
+        <translation>Webbkamera</translation>
     </message>
     <message>
         <source>Mail Forward</source>
-        <translation>Postayı Yönlendir</translation>
+        <translation>Vidarebefordra e-post</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>Resimler</translation>
+        <translation>Bilder</translation>
     </message>
     <message>
         <source>Music</source>
-        <translation>Müzik</translation>
+        <translation>Musik</translation>
     </message>
     <message>
         <source>Battery</source>
-        <translation>Pil</translation>
+        <translation>Batteri</translation>
     </message>
     <message>
         <source>Bluetooth</source>
@@ -5569,238 +5681,238 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Wireless</source>
-        <translation>Kablosuz</translation>
+        <translation>Trådlös</translation>
     </message>
     <message>
         <source>Ultra Wide Band</source>
-        <translation>Ultra Geniş Bant</translation>
+        <translation>Ultra Wide Band</translation>
     </message>
     <message>
         <source>Media Fast Forward</source>
-        <translation>Ortamı Hızlı İleri Sar</translation>
+        <translation>Media snabbspola</translation>
     </message>
     <message>
         <source>Audio Repeat</source>
-        <translation>Otomatik Yinele</translation>
+        <translation>Ljud upprepa</translation>
     </message>
     <message>
         <source>Audio Random Play</source>
-        <translation>Rastgele Ses Çal</translation>
+        <translation>Ljud slumpmässig uppspelning</translation>
     </message>
     <message>
         <source>Subtitle</source>
-        <translation>Altyazı</translation>
+        <translation>Undertext</translation>
     </message>
     <message>
         <source>Audio Cycle Track</source>
-        <translation>Ses Parçası Döngüsü</translation>
+        <translation>Ljud växla spår</translation>
     </message>
     <message>
         <source>Time</source>
-        <translation>Zaman</translation>
+        <translation>Tid</translation>
     </message>
     <message>
         <source>Hibernate</source>
-        <translation>Hazırda Beklet</translation>
+        <translation>Viloläge</translation>
     </message>
     <message>
         <source>View</source>
-        <translation>Görünüm</translation>
+        <translation>Visa</translation>
     </message>
     <message>
         <source>Top Menu</source>
-        <translation>Üst Menü</translation>
+        <translation>Toppmeny</translation>
     </message>
     <message>
         <source>Power Down</source>
-        <translation>Gücü Kapat</translation>
+        <translation>Stäng ner</translation>
     </message>
     <message>
         <source>Suspend</source>
-        <translation>Askıya Al</translation>
+        <translation>Vänteläge</translation>
     </message>
     <message>
         <source>Microphone Mute</source>
-        <translation>Mikrofonu Sessize Al</translation>
+        <translation>Mikrofon tyst</translation>
     </message>
     <message>
         <source>Red</source>
-        <translation>Kırmızı</translation>
+        <translation>Röd</translation>
     </message>
     <message>
         <source>Green</source>
-        <translation>Yeşil</translation>
+        <translation>Grön</translation>
     </message>
     <message>
         <source>Yellow</source>
-        <translation>Sarı</translation>
+        <translation>Gul</translation>
     </message>
     <message>
         <source>Blue</source>
-        <translation>Mavi</translation>
+        <translation>Blå</translation>
     </message>
     <message>
         <source>Channel Up</source>
-        <translation>Kanal Yukarı</translation>
+        <translation>Kanal upp</translation>
     </message>
     <message>
         <source>Channel Down</source>
-        <translation>Kanal Aşağı</translation>
+        <translation>Kanal ner</translation>
     </message>
     <message>
         <source>Guide</source>
-        <translation>Kılavuz</translation>
+        <translation>Guide</translation>
     </message>
     <message>
         <source>Info</source>
-        <translation>Bilgi</translation>
+        <translation>Info</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation>Ayarlar</translation>
+        <translation>Inställningar</translation>
     </message>
     <message>
         <source>Microphone Volume Up</source>
-        <translation>Mikrofon Sesini Yükselt</translation>
+        <translation>Mikrofon volym upp</translation>
     </message>
     <message>
         <source>Microphone Volume Down</source>
-        <translation>Mikrofon Sesini Düşür</translation>
+        <translation>Mikrofon volym ner</translation>
     </message>
     <message>
         <source>Keyboard</source>
-        <translation>Klavye</translation>
+        <translation>Tangentbord</translation>
     </message>
     <message>
         <source>New</source>
-        <translation>Yeni</translation>
+        <translation>Ny</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Aç</translation>
+        <translation>Öppna</translation>
     </message>
     <message>
         <source>Find</source>
-        <translation>Bul</translation>
+        <translation>Sök</translation>
     </message>
     <message>
         <source>Undo</source>
-        <translation>Geri Al</translation>
+        <translation>Ångra</translation>
     </message>
     <message>
         <source>Redo</source>
-        <translation>Yinele</translation>
+        <translation>Gör om</translation>
     </message>
     <message>
         <source>Print Screen</source>
-        <translation>Ekran Görüntüsü</translation>
+        <translation>Print Screen</translation>
     </message>
     <message>
         <source>Page Up</source>
-        <translation>Sayfa Yukarı</translation>
+        <translation>Page Up</translation>
     </message>
     <message>
         <source>Page Down</source>
-        <translation>Sayfa Aşağı</translation>
+        <translation>Page Down</translation>
     </message>
     <message>
         <source>Caps Lock</source>
-        <translation>Büyük Harf</translation>
+        <translation>Caps Lock</translation>
     </message>
     <message>
         <source>Num Lock</source>
-        <translation>Sayı Kilidi</translation>
+        <translation>Num Lock</translation>
     </message>
     <message>
         <source>Number Lock</source>
-        <translation>Sayı Kilidi</translation>
+        <translation>Number Lock</translation>
     </message>
     <message>
         <source>Scroll Lock</source>
-        <translation>Sarma Kilidi</translation>
+        <translation>Scroll Lock</translation>
     </message>
     <message>
         <source>Insert</source>
-        <translation>Ekle</translation>
+        <translation>Insert</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Sil</translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <source>Escape</source>
-        <translation>Vazgeç</translation>
+        <translation>Escape</translation>
     </message>
     <message>
         <source>System Request</source>
-        <translation>Sistem İsteği</translation>
+        <translation>System Request</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation>Seç</translation>
+        <translation>Välj</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Evet</translation>
+        <translation>Ja</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Hayır</translation>
+        <translation>Nej</translation>
     </message>
     <message>
         <source>Context1</source>
-        <translation>Bağlam1</translation>
+        <translation>Sammanhang1</translation>
     </message>
     <message>
         <source>Context2</source>
-        <translation>Bağlam2</translation>
+        <translation>Sammanhang2</translation>
     </message>
     <message>
         <source>Context3</source>
-        <translation>Bağlam3</translation>
+        <translation>Sammanhang3</translation>
     </message>
     <message>
         <source>Context4</source>
-        <translation>Bağlam4</translation>
+        <translation>Sammanhang4</translation>
     </message>
     <message>
         <source>Call</source>
         <extracomment>Button to start a call (note: a separate button is used to end the call)</extracomment>
-        <translation>Arama Yap</translation>
+        <translation>Ring upp</translation>
     </message>
     <message>
         <source>Hangup</source>
         <extracomment>Button to end a call (note: a separate button is used to start the call)</extracomment>
-        <translation>Aramayı Bitir</translation>
+        <translation>Lägg på</translation>
     </message>
     <message>
         <source>Toggle Call/Hangup</source>
         <extracomment>Button that will hang up if we&apos;re in call, or make a call if we&apos;re not.</extracomment>
-        <translation>Arama Yap/Bitir</translation>
+        <translation>Växla ring upp/lägg på</translation>
     </message>
     <message>
         <source>Flip</source>
-        <translation>Ters Çevir</translation>
+        <translation>Vänd</translation>
     </message>
     <message>
         <source>Voice Dial</source>
         <extracomment>Button to trigger voice dialing</extracomment>
-        <translation>Sesli Arama</translation>
+        <translation>Ring röstsamtal</translation>
     </message>
     <message>
         <source>Last Number Redial</source>
         <extracomment>Button to redial the last number called</extracomment>
-        <translation>Son Numarayı Yeniden Ara</translation>
+        <translation>Ring upp senaste nummer</translation>
     </message>
     <message>
         <source>Camera Shutter</source>
         <extracomment>Button to trigger the camera shutter (take a picture)</extracomment>
-        <translation>Fotoğraf Çek</translation>
+        <translation>Kameraslutare</translation>
     </message>
     <message>
         <source>Camera Focus</source>
         <extracomment>Button to focus the camera</extracomment>
-        <translation>Kamerayı Odakla</translation>
+        <translation>Kamerafokus</translation>
     </message>
     <message>
         <source>Kanji</source>
@@ -5852,31 +5964,31 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Kana Lock</source>
-        <translation>Kana Kilidi</translation>
+        <translation>Kana lås</translation>
     </message>
     <message>
         <source>Kana Shift</source>
-        <translation>Kana Üst Karakter</translation>
+        <translation>Kana skift</translation>
     </message>
     <message>
         <source>Eisu Shift</source>
-        <translation>Eisu Üst Karakter</translation>
+        <translation>Eisu skift</translation>
     </message>
     <message>
         <source>Eisu toggle</source>
-        <translation>Eisu Aç/Kapat</translation>
+        <translation>Eisu växla</translation>
     </message>
     <message>
         <source>Code input</source>
-        <translation>Kod Girişi</translation>
+        <translation>Kodinmatning</translation>
     </message>
     <message>
         <source>Multiple Candidate</source>
-        <translation>Çoklu Aday</translation>
+        <translation>Flera kandidat</translation>
     </message>
     <message>
         <source>Previous Candidate</source>
-        <translation>Önceki Aday</translation>
+        <translation>Föregående kandidat</translation>
     </message>
     <message>
         <source>Hangul</source>
@@ -5884,11 +5996,11 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Hangul Start</source>
-        <translation>Hangul Başlangıç</translation>
+        <translation>Hangul Start</translation>
     </message>
     <message>
         <source>Hangul End</source>
-        <translation>Hangul Bitiş</translation>
+        <translation>Hangul slut</translation>
     </message>
     <message>
         <source>Hangul Hanja</source>
@@ -5912,75 +6024,75 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Hangul PreHanja</source>
-        <translation>Hangul Hanja Öncesi</translation>
+        <translation>Hangul PreHanja</translation>
     </message>
     <message>
         <source>Hangul PostHanja</source>
-        <translation>Hangul Hanja Sonrası</translation>
+        <translation>Hangul PostHanja</translation>
     </message>
     <message>
         <source>Hangul Special</source>
-        <translation>Hangul Özel</translation>
+        <translation>Hangul Special</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>İptal</translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Printer</source>
-        <translation>Yazdır</translation>
+        <translation>Skrivare</translation>
     </message>
     <message>
         <source>Execute</source>
-        <translation>Yürüt</translation>
+        <translation>Kör</translation>
     </message>
     <message>
         <source>Play</source>
-        <translation>Çal/Oynat</translation>
+        <translation>Spela upp</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation>Yakınlaştırma</translation>
+        <translation>Zooma</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>Çıkış</translation>
+        <translation>Avsluta</translation>
     </message>
     <message>
         <source>Touchpad Toggle</source>
-        <translation>Dokunmatik Yüzey Aç/Kapat</translation>
+        <translation>Pekplatta växla</translation>
     </message>
     <message>
         <source>Touchpad On</source>
-        <translation>Dokunmatik Yüzeyi Aç</translation>
+        <translation>Pekplatta på</translation>
     </message>
     <message>
         <source>Touchpad Off</source>
-        <translation>Dokunmatik Yüzeyi Kapat</translation>
-    </message>
-    <message>
-        <source>Control</source>
-        <translation>Kontrol</translation>
-    </message>
-    <message>
-        <source>Ctrl</source>
-        <translation>Kontrol</translation>
+        <translation>Pekplatta av</translation>
     </message>
     <message>
         <source>Shift</source>
-        <translation>Üst Karakter</translation>
+        <translation>Skift</translation>
+    </message>
+    <message>
+        <source>Control</source>
+        <translation>Control</translation>
     </message>
     <message>
         <source>Alt</source>
-        <translation>Seçenek</translation>
+        <translation>Alt</translation>
     </message>
     <message>
         <source>Meta</source>
         <translation>Meta</translation>
     </message>
     <message>
+        <source>Ctrl</source>
+        <translation>Ctrl</translation>
+    </message>
+    <message>
         <source>Num</source>
-        <translation>Sayı</translation>
+        <translation>Num</translation>
     </message>
     <message>
         <source>+</source>
@@ -5996,59 +6108,59 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     <name>QSocks5SocketEngine</name>
     <message>
         <source>Connection to proxy refused</source>
-        <translation>Vekil bağlantısı reddedildi</translation>
+        <translation>Anslutning till proxyn nekades</translation>
     </message>
     <message>
         <source>Connection to proxy closed prematurely</source>
-        <translation>Vekil bağlantısı erken kapatıldı</translation>
+        <translation>Anslutning till proxyn stängdes i förtid</translation>
     </message>
     <message>
         <source>Proxy host not found</source>
-        <translation>Vekil ana bilgisayarı bulunamadı</translation>
+        <translation>Proxyvärden hittades inte</translation>
     </message>
     <message>
         <source>Connection to proxy timed out</source>
-        <translation>Vekil bağlantısı zaman aşımına uğradı</translation>
+        <translation>Anslutning till proxyn översteg tidsgränsen</translation>
     </message>
     <message>
         <source>Proxy authentication failed</source>
-        <translation>Vekil kimlik doğrulaması başarısız oldu</translation>
+        <translation>Proxyautentisering misslyckades</translation>
     </message>
     <message>
         <source>Proxy authentication failed: %1</source>
-        <translation>Vekil kimlik doğrulaması başarısız oldu: %1</translation>
+        <translation>Proxyautentisering misslyckades: %1</translation>
     </message>
     <message>
         <source>SOCKS version 5 protocol error</source>
-        <translation>SOCKS sürüm 5 protokol hatası</translation>
+        <translation>Protokollfel i SOCKS version 5</translation>
     </message>
     <message>
         <source>General SOCKSv5 server failure</source>
-        <translation>Genel SOCKSv5 sunucusu hatası</translation>
+        <translation>Allmänt serverfel för SOCKSv5</translation>
     </message>
     <message>
         <source>Connection not allowed by SOCKSv5 server</source>
-        <translation>SOCKSv5 sunucusu tarafından bağlantıya izin verilmiyor</translation>
+        <translation>Anslutning tillåts inte av SOCKSv5-server</translation>
     </message>
     <message>
         <source>TTL expired</source>
-        <translation>TTL süresi doldu</translation>
+        <translation>TTL överstegs</translation>
     </message>
     <message>
         <source>SOCKSv5 command not supported</source>
-        <translation>SOCKSv5 komutu desteklenmiyor</translation>
+        <translation>SOCKSv5-kommando stöds inte</translation>
     </message>
     <message>
         <source>Address type not supported</source>
-        <translation>Adres türü desteklenmiyor</translation>
+        <translation>Adresstypen stöds inte</translation>
     </message>
     <message>
         <source>Unknown SOCKSv5 proxy error code 0x%1</source>
-        <translation>Bilinmeyen SOCKSv5 vekili hata kodu 0x%1</translation>
+        <translation>Okänd SOCKSv5-proxyfelkod 0x%1</translation>
     </message>
     <message>
         <source>Network operation timed out</source>
-        <translation>Ağ işlemi zaman aşımına uğradı</translation>
+        <translation>Tidsgräns för nätverksåtgärd överstegs</translation>
     </message>
 </context>
 <context>
@@ -6056,82 +6168,82 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     <message>
         <source>invalid role</source>
         <extracomment>Role of an accessible object - the object is in an invalid state or could not be constructed</extracomment>
-        <translation>geçersiz rol</translation>
+        <translation>ogiltig roll</translation>
     </message>
     <message>
         <source>title bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>başlık çubuğu</translation>
+        <translation>titelrad</translation>
     </message>
     <message>
         <source>menu bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>menü çubuğu</translation>
+        <translation>menyrad</translation>
     </message>
     <message>
         <source>scroll bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>sarma çubuğu</translation>
+        <translation>rullningslist</translation>
     </message>
     <message>
         <source>grip</source>
         <extracomment>Role of an accessible object - the grip is usually used for resizing another object</extracomment>
-        <translation>kavra</translation>
+        <translation>grepp</translation>
     </message>
     <message>
         <source>sound</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ses</translation>
+        <translation>ljud</translation>
     </message>
     <message>
         <source>cursor</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>imleç</translation>
+        <translation>markör</translation>
     </message>
     <message>
         <source>text caret</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>metin imleci</translation>
+        <translation>insättningstecken</translation>
     </message>
     <message>
         <source>alert message</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>uyarı iletisi</translation>
+        <translation>larmmeddelande</translation>
     </message>
     <message>
         <source>frame</source>
         <extracomment>Role of an accessible object: a window with frame and title</extracomment>
-        <translation>çerçeve</translation>
+        <translation>ram</translation>
     </message>
     <message>
         <source>filler</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>doldurucu</translation>
+        <translation>utfyllnad</translation>
     </message>
     <message>
         <source>popup menu</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>açılır pencere menüsü</translation>
+        <translation>popupmeny</translation>
     </message>
     <message>
         <source>menu item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>menü ögesi</translation>
+        <translation>menypost</translation>
     </message>
     <message>
         <source>tool tip</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>araç ipucu</translation>
+        <translation>verktygstips</translation>
     </message>
     <message>
         <source>application</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>uygulama</translation>
+        <translation>program</translation>
     </message>
     <message>
         <source>document</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>belge</translation>
+        <translation>dokument</translation>
     </message>
     <message>
         <source>panel</source>
@@ -6141,107 +6253,107 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     <message>
         <source>chart</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>grafik</translation>
+        <translation>diagram</translation>
     </message>
     <message>
         <source>dialog</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>iletişim kutusu</translation>
+        <translation>dialogruta</translation>
     </message>
     <message>
         <source>separator</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ayırıcı</translation>
+        <translation>avgränsare</translation>
     </message>
     <message>
         <source>tool bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>araç çubuğu</translation>
+        <translation>verktygsrad</translation>
     </message>
     <message>
         <source>status bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>durum çubuğu</translation>
+        <translation>statusrad</translation>
     </message>
     <message>
         <source>table</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>tablo</translation>
+        <translation>tabell</translation>
     </message>
     <message>
         <source>column header</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>sütun başlığı</translation>
+        <translation>kolumnhuvud</translation>
     </message>
     <message>
         <source>row header</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>satır başlığı</translation>
+        <translation>radhuvud</translation>
     </message>
     <message>
         <source>column</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>sütun</translation>
+        <translation>kolumn</translation>
     </message>
     <message>
         <source>row</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>satır</translation>
+        <translation>rad</translation>
     </message>
     <message>
         <source>cell</source>
         <extracomment>Role of an accessible object - part of a table</extracomment>
-        <translation>hücre</translation>
+        <translation>cell</translation>
     </message>
     <message>
         <source>link</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>bağlantı</translation>
+        <translation>länk</translation>
     </message>
     <message>
         <source>help balloon</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>uyarı balonu</translation>
+        <translation>hjälpballong</translation>
     </message>
     <message>
         <source>assistant</source>
         <extracomment>Role of an accessible object - a helper dialog</extracomment>
-        <translation>yardımcı</translation>
+        <translation>assistent</translation>
     </message>
     <message>
         <source>list</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>liste</translation>
+        <translation>lista</translation>
     </message>
     <message>
         <source>list item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>liste ögesi</translation>
+        <translation>listpost</translation>
     </message>
     <message>
         <source>tree</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ağaç</translation>
+        <translation>träd</translation>
     </message>
     <message>
         <source>tree item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ağaç ögesi</translation>
+        <translation>trädpost</translation>
     </message>
     <message>
         <source>page tab</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>sayfa sekmesi</translation>
+        <translation>sidflik</translation>
     </message>
     <message>
         <source>property page</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>özellik sayfası</translation>
+        <translation>egenskapssida</translation>
     </message>
     <message>
         <source>indicator</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>gösterge</translation>
+        <translation>indikator</translation>
     </message>
     <message>
         <source>graphic</source>
@@ -6251,117 +6363,122 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     <message>
         <source>label</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>etiket</translation>
+        <translation>etikett</translation>
     </message>
     <message>
         <source>text</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>metin</translation>
+        <translation>text</translation>
     </message>
     <message>
         <source>push button</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>basılır düğme</translation>
+        <translation>tryckknapp</translation>
     </message>
     <message>
         <source>check box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>onay kutusu</translation>
+        <translation>kryssruta</translation>
+    </message>
+    <message>
+        <source>switch</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>växel</translation>
     </message>
     <message>
         <source>radio button</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>radyo düğmesi</translation>
+        <translation>radioknapp</translation>
     </message>
     <message>
         <source>combo box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>çoklu kutu</translation>
+        <translation>kombinationsruta</translation>
     </message>
     <message>
         <source>progress bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ilerleme çubuğu</translation>
+        <translation>förloppsmätare</translation>
     </message>
     <message>
         <source>dial</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>çevir</translation>
+        <translation>snurrbox</translation>
     </message>
     <message>
         <source>hotkey field</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>kısayol düğmesi alanı</translation>
+        <translation>snabbtangentsfält</translation>
     </message>
     <message>
         <source>slider</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>kaydırıcı</translation>
+        <translation>draglist</translation>
     </message>
     <message>
         <source>spin box</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>döndürme kutusu</translation>
+        <translation>snurrbox</translation>
     </message>
     <message>
         <source>canvas</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>tuval</translation>
+        <translation>kanvas</translation>
     </message>
     <message>
         <source>animation</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>canlandırma</translation>
+        <translation>animering</translation>
     </message>
     <message>
         <source>equation</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>denklem</translation>
+        <translation></translation>
     </message>
     <message>
         <source>button with drop down</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>aşağı açılır düğme</translation>
+        <translation>knapp med rullgardin</translation>
     </message>
     <message>
         <source>button menu</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>düğme menüsü</translation>
+        <translation>knappmeny</translation>
     </message>
     <message>
         <source>button with drop down grid</source>
         <extracomment>Role of an accessible object - a button that expands a grid.</extracomment>
-        <translation>açılır ızgaralı düğme</translation>
+        <translation>knapp med rullgardinsrutnät</translation>
     </message>
     <message>
         <source>space</source>
         <extracomment>Role of an accessible object - blank space between other objects.</extracomment>
-        <translation>boşluk</translation>
+        <translation>tomrum</translation>
     </message>
     <message>
         <source>page tab list</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>sayfa sekmesi listesi</translation>
+        <translation>sidflikslista</translation>
     </message>
     <message>
         <source>clock</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>saat</translation>
+        <translation>klocka</translation>
     </message>
     <message>
         <source>splitter</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ayırıcı</translation>
+        <translation>delare</translation>
     </message>
     <message>
         <source>layered pane</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>katmanlı bölme</translation>
+        <translation>skiktad panel</translation>
     </message>
     <message>
         <source>web document</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>web belgesi</translation>
+        <translation>webbdokument</translation>
     </message>
     <message>
         <source>paragraph</source>
@@ -6371,783 +6488,826 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     <message>
         <source>section</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>bölüm</translation>
+        <translation>sektion</translation>
     </message>
     <message>
         <source>color chooser</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>renk seçicisi</translation>
+        <translation>färgväljare</translation>
     </message>
     <message>
         <source>footer</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>altbilgi</translation>
+        <translation>sidfot</translation>
     </message>
     <message>
         <source>form</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>form</translation>
+        <translation>formulär</translation>
     </message>
     <message>
         <source>heading</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>başlık</translation>
+        <translation>rubrik</translation>
     </message>
     <message>
         <source>note</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>not</translation>
+        <translation>anteckning</translation>
     </message>
     <message>
         <source>complementary content</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>tamamlayıcı içerik</translation>
+        <translation>kompletterande innehåll</translation>
     </message>
     <message>
         <source>terminal</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>uçbirim</translation>
+        <translation>terminal</translation>
     </message>
     <message>
         <source>desktop</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>masaüstü</translation>
+        <translation>skrivbord</translation>
     </message>
     <message>
         <source>notification</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>bildirim</translation>
+        <translation>avisering</translation>
     </message>
     <message>
         <source>block quote</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>blok alıntı</translation>
+        <translation>blockcitat</translation>
     </message>
     <message>
         <source>unknown</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>bilinmeyen</translation>
+        <translation>okänt</translation>
     </message>
 </context>
 <context>
     <name>QSslDiffieHellmanParameter</name>
     <message>
         <source>No error</source>
-        <translation>Hata yok</translation>
+        <translation>Inget fel</translation>
     </message>
     <message>
         <source>Invalid input data</source>
-        <translation>Geçersiz giriş verisi</translation>
+        <translation>Ogiltig inmatningsdata</translation>
     </message>
     <message>
         <source>The given Diffie-Hellman parameters are deemed unsafe</source>
-        <translation>Verilen Diffie-Hellman parametreleri güvensiz kabul edilir</translation>
+        <translation>Angivna Diffie-Hellman-parametrar anses vara osäkra</translation>
     </message>
 </context>
 <context>
     <name>QSslSocket</name>
     <message>
-        <source>Error when setting the OpenSSL configuration (%1)</source>
-        <translation>OpenSSL yapılandırması ayarlanırken hata oluştu (%1)</translation>
-    </message>
-    <message>
-        <source>Error when setting the elliptic curves (%1)</source>
-        <translation>Eliptik eğriler ayarlanırken hata oluştu (%1)</translation>
-    </message>
-    <message>
-        <source>Error creating SSL context (%1)</source>
-        <translation>SSL bağlamı oluşturulurken hata oluştu (%1)</translation>
-    </message>
-    <message>
-        <source>unsupported protocol</source>
-        <translation>desteklenmeyen protokol</translation>
-    </message>
-    <message>
-        <source>Error while setting the minimal protocol version</source>
-        <translation>En düşük protokol sürümü ayarlanırken hata oluştu</translation>
-    </message>
-    <message>
-        <source>Error while setting the maximum protocol version</source>
-        <translation>En yüksek protokol sürümü ayarlanırken hata oluştu</translation>
-    </message>
-    <message>
-        <source>Invalid or empty cipher list (%1)</source>
-        <translation>Geçersiz veya boş şifre listesi (%1)</translation>
-    </message>
-    <message>
-        <source>Error loading local certificate, %1</source>
-        <translation>Yerel sertifika yüklenirken hata oluştu, %1</translation>
-    </message>
-    <message>
-        <source>Error loading private key, %1</source>
-        <translation>Özel anahtar yüklenirken hata oluştu, %1</translation>
-    </message>
-    <message>
-        <source>Private key does not certify public key, %1</source>
-        <translation>Özel anahtar ortak anahtarı onaylamıyor, %1</translation>
-    </message>
-    <message>
-        <source>Diffie-Hellman parameters are not valid</source>
-        <translation>Diffie-Hellman parametreleri geçerli değil</translation>
-    </message>
-    <message>
-        <source>OpenSSL version with disabled elliptic curves</source>
-        <translation>Eliptik eğrileri devre dışı bırakılmış OpenSSL sürümü</translation>
-    </message>
-    <message>
-        <source>Expecting QByteArray for %1</source>
-        <translation>%1 için QByteArray bekleniyor</translation>
-    </message>
-    <message>
-        <source>An error occurred attempting to set %1 to %2</source>
-        <translation>%1 ile %2 arasında ayarlanmaya çalışılırken bir hata oluştu</translation>
-    </message>
-    <message>
-        <source>Wrong value for %1 (%2)</source>
-        <translation>%1 (%2) için yanlış değer</translation>
-    </message>
-    <message>
-        <source>Unrecognized command %1 = %2</source>
-        <translation>Tanınmayan komut %1 = %2</translation>
-    </message>
-    <message>
-        <source>SSL_CONF_finish() failed</source>
-        <translation>SSL_CONF_finish() başarısız oldu</translation>
-    </message>
-    <message>
-        <source>SSL_CONF_CTX_new() failed</source>
-        <translation>SSL_CONF_CTX_new() başarısız oldu</translation>
-    </message>
-    <message>
         <source>No error</source>
-        <translation>Hata yok</translation>
+        <translation>Inget fel</translation>
     </message>
     <message>
         <source>The issuer certificate could not be found</source>
-        <translation>Yayıncı sertifika bulunamadı</translation>
+        <translation>Utfärdarcertifikatet kunde inte hittas</translation>
     </message>
     <message>
         <source>The certificate signature could not be decrypted</source>
-        <translation>Sertifika imzasının şifresi çözülemedi</translation>
+        <translation>Certifikatsignaturen kunde inte dekrypteras</translation>
     </message>
     <message>
         <source>The public key in the certificate could not be read</source>
-        <translation>Sertifikadaki ortak anahtar okunamadı</translation>
+        <translation>Publika nyckeln i certifikatet kunde inte läsas</translation>
     </message>
     <message>
         <source>The signature of the certificate is invalid</source>
-        <translation>Sertifikanın imzası geçersiz</translation>
+        <translation>Signaturen för certifikatet är ogiltig</translation>
     </message>
     <message>
         <source>The certificate is not yet valid</source>
-        <translation>Sertifika henüz geçerli değil</translation>
+        <translation>Certifikatet är ännu inte giltigt</translation>
     </message>
     <message>
         <source>The certificate has expired</source>
-        <translation>Sertifikanın süresi doldu</translation>
+        <translation>Certifikatet har gått ut</translation>
     </message>
     <message>
         <source>The certificate&apos;s notBefore field contains an invalid time</source>
-        <translation>Sertifikanın notBefore alanı geçersiz bir zaman içeriyor</translation>
+        <translation>Certifikatets notBefore-fält innehåller en ogiltig tid</translation>
     </message>
     <message>
         <source>The certificate&apos;s notAfter field contains an invalid time</source>
-        <translation>Sertifikanın notAfter alanı geçersiz bir zaman içeriyor</translation>
+        <translation>Certifikatets notAfter-fält innehåller en ogiltig tid</translation>
     </message>
     <message>
         <source>The certificate is self-signed, and untrusted</source>
-        <translation>Sertifika kendinden imzalı ve güvenilmez</translation>
+        <translation>Certifikatet är självsignerat och inte pålitligt</translation>
     </message>
     <message>
         <source>The root certificate of the certificate chain is self-signed, and untrusted</source>
-        <translation>Sertifika zincirinin kök sertifikası kendinden imzalı ve güvenilmez</translation>
+        <translation>Rotcertifikatet för certifikatskedjan är självsignerat och inte pålitligt</translation>
     </message>
     <message>
         <source>The issuer certificate of a locally looked up certificate could not be found</source>
-        <translation>Yerel olarak aranan bir sertifikanın yayımcı sertifikası bulunamadı</translation>
+        <translation>Utfärdarcertifikatet för ett lokalt uppslaget certifikat kunde inte hittas</translation>
     </message>
     <message>
         <source>No certificates could be verified</source>
-        <translation>Hiçbir sertifika doğrulanamadı</translation>
+        <translation>Inga certifikat kunde verifieras</translation>
     </message>
     <message>
         <source>One of the CA certificates is invalid</source>
-        <translation>CA sertifikalarından biri geçersiz</translation>
+        <translation>Ett av CA-certifikaten var ogiltigt</translation>
     </message>
     <message>
         <source>The basicConstraints path length parameter has been exceeded</source>
-        <translation>BasicConstraints yol uzunluğu parametresi aşıldı</translation>
+        <translation>Sökvägslängden för parametern basicConstraints har överstigits</translation>
     </message>
     <message>
         <source>The supplied certificate is unsuitable for this purpose</source>
-        <translation>Verilen sertifika bu amaç için uygun değil</translation>
+        <translation>Angivet certifikat är inte lämpligt för detta syfte</translation>
     </message>
     <message>
         <source>The root CA certificate is not trusted for this purpose</source>
-        <translation>Kök CA sertifikasına bu amaçla güvenilmez</translation>
+        <translation>Rot-CA-certifikatet är inte pålitligt för detta syfte</translation>
     </message>
     <message>
         <source>The root CA certificate is marked to reject the specified purpose</source>
-        <translation>Kök CA sertifikası belirtilen amacı reddetmek için işaretlendi</translation>
+        <translation>Rot-CA-certifikatet är markerat för att neka angivet syfte</translation>
     </message>
     <message>
         <source>The current candidate issuer certificate was rejected because its subject name did not match the issuer name of the current certificate</source>
-        <translation>Konu adı geçerli sertifikanın yayımcı adıyla eşleşmediğinden, geçerli aday yayımcı sertifikası reddedildi</translation>
+        <translation>Aktuellt kandidatutfärdarcertifikat nekades därför att dess ämnesrad inte matchade utfärdarnamnet för det aktuella certifikatet</translation>
     </message>
     <message>
         <source>The current candidate issuer certificate was rejected because its issuer name and serial number was present and did not match the authority key identifier of the current certificate</source>
-        <translation>Geçerli aday yayımcı sertifikası, yayımcı adı ve seri numarası bulunduğundan ve geçerli sertifikanın yetki anahtarı tanımlayıcısıyla eşleşmediğinden reddedildi</translation>
+        <translation>Aktuella kandidatutfärdarens certifikat nekades därför att dess utfärdarnamn och serienummer fanns där och matchade inte utfärdarens nyckelidentifierare för det aktuella certifikatet</translation>
     </message>
     <message>
         <source>The peer did not present any certificate</source>
-        <translation>Eş herhangi bir sertifika sunmadı</translation>
+        <translation>Motparten presenterade inte något certifikat</translation>
     </message>
     <message>
         <source>The host name did not match any of the valid hosts for this certificate</source>
-        <translation>Ana bilgisayar adı, bu sertifika için geçerli ana bilgisayarlarla eşleşmedi</translation>
+        <translation>Värdnamnet matchade inte någon av de giltiga värdar för detta certifikat</translation>
     </message>
     <message>
         <source>The peer certificate is blacklisted</source>
-        <translation>Eş sertifikası kara listede</translation>
+        <translation>Motpartens certifikat är svartlistat</translation>
     </message>
     <message>
         <source>No OCSP status response found</source>
-        <translation>OCSP durum yanıtı bulunamadı</translation>
+        <translation>Inget OCSP-statussvar hittades</translation>
     </message>
     <message>
         <source>The OCSP status request had invalid syntax</source>
-        <translation>OCSP durum isteğinde geçersiz sözdizimi vardı</translation>
+        <translation>Begäran om OCSP-status har en ogiltig syntax</translation>
     </message>
     <message>
         <source>OCSP response contains an unexpected number of SingleResponse structures</source>
-        <translation>OCSP yanıtı beklenmeyen sayıda SingleResponse yapısı içeriyor</translation>
+        <translation>OCSP-svaret innehåller ett oväntat antal SingleResponse-strukturer</translation>
     </message>
     <message>
         <source>OCSP responder reached an inconsistent internal state</source>
-        <translation>OCSP yanıtlayıcısı tutarsız bir iç duruma ulaştı</translation>
+        <translation>OCSP-besvararen nådde ett inkonsistent internt tillstånd</translation>
     </message>
     <message>
         <source>OCSP responder was unable to return a status for the requested certificate</source>
-        <translation>OCSP yanıtlayıcısı istenen sertifika için durum döndüremedi</translation>
+        <translation>OCSP-besvararen kunde inte returnera en status för det begärda certifikatet</translation>
     </message>
     <message>
         <source>The server requires the client to sign the OCSP request in order to construct a response</source>
-        <translation>Sunucu, istemcinin yanıt oluşturmak için OCSP isteğini imzalamasını gerektirir</translation>
+        <translation>Servern kräver att klienten signerar OCSP-begäran för att kunna konstruera ett svar</translation>
     </message>
     <message>
         <source>The client is not authorized to request OCSP status from this server</source>
-        <translation>İstemcinin bu sunucudan OCSP durumu isteme yetkisi yok</translation>
+        <translation>Klienten är inte auktoriserad att begära OCSP-status från denna server</translation>
     </message>
     <message>
         <source>OCSP responder&apos;s identity cannot be verified</source>
-        <translation>OCSP yanıtlayıcısının kimliği doğrulanamıyor</translation>
+        <translation>OCSP-besvararens identitet kan inte verifieras</translation>
     </message>
     <message>
         <source>The identity of a certificate in an OCSP response cannot be established</source>
-        <translation>OCSP yanıtındaki bir sertifikanın kimliği oluşturulamıyor</translation>
+        <translation>Identiteten för ett certifikat i ett OCSP-svar kan inte etableras</translation>
     </message>
     <message>
         <source>The certificate status response has expired</source>
-        <translation>Sertifika durumu yanıtının süresi doldu</translation>
+        <translation>Certifikatets statussvar har gått över tidsgränsen</translation>
     </message>
     <message>
         <source>The certificate&apos;s status is unknown</source>
-        <translation>Sertifikanın durumu bilinmiyor</translation>
+        <translation>Certifikatets status är okänt</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Bilinmeyen hata</translation>
+        <translation>Okänt fel</translation>
     </message>
     <message>
         <source>TLS initialization failed</source>
-        <translation>TLS başlatılamadı</translation>
+        <translation>TLS-initiering misslyckades</translation>
     </message>
     <message>
         <source>Attempted to use an unsupported protocol.</source>
-        <translation>Desteklenmeyen bir protokol kullanılmaya çalışıldı.</translation>
+        <translation>Försökte använda ett protokoll som inte stöds.</translation>
     </message>
     <message>
-        <source>The TLS/SSL connection has been closed</source>
-        <translation>TLS / SSL bağlantısı kapatıldı</translation>
+        <source>Error when setting the OpenSSL configuration (%1)</source>
+        <translation>Fel vid inställning av OpenSSL-konfigurationen (%1)</translation>
     </message>
     <message>
-        <source>Error creating SSL session, %1</source>
-        <translation>SSL oturumu oluşturulurken hata oluştu, %1</translation>
+        <source>Error when setting the elliptic curves (%1)</source>
+        <translation>Fel vid inställning av elliptiska kurvor (%1)</translation>
     </message>
     <message>
-        <source>Error creating SSL session: %1</source>
-        <translation>SSL oturumu oluşturulurken hata oluştu: %1</translation>
+        <source>Error creating SSL context (%1)</source>
+        <translation>Fel vid skapandet av SSL-kontext (%1)</translation>
     </message>
     <message>
-        <source>Server-side QSslSocket does not support OCSP stapling</source>
-        <translation>Sunucu tarafı QSslSocket OCSP zımbalamayı desteklemiyor</translation>
+        <source>unsupported protocol</source>
+        <translation>protokollet stöds inte</translation>
     </message>
     <message>
-        <source>Failed to enable OCSP stapling</source>
-        <translation>OCSP zımbalama etkinleştirilemedi</translation>
+        <source>Error while setting the minimal protocol version</source>
+        <translation>Fel vid inställning av minimum protokollversion</translation>
     </message>
     <message>
-        <source>Client-side sockets do not send OCSP responses</source>
-        <translation>İstemci tarafı soketleri OCSP yanıtları göndermez</translation>
+        <source>Error while setting the maximum protocol version</source>
+        <translation>Fel vid inställning av minimal protokollversion</translation>
     </message>
     <message>
-        <source>Unable to init SSL Context: %1</source>
-        <translation>SSL başlatılamadı: %1</translation>
-    </message>
-    <message>
-        <source>Unable to write data: %1</source>
-        <translation>Veri yazılamıyor: %1</translation>
-    </message>
-    <message>
-        <source>Unable to decrypt data: %1</source>
-        <translation>Verilerin şifresi çözülemiyor: %1</translation>
-    </message>
-    <message>
-        <source>TLS certificate unexpectedly changed during renegotiation!</source>
-        <translation>Yeniden pazarlık sırasında TLS sertifikası beklenmedik bir biçimde değişti!</translation>
-    </message>
-    <message>
-        <source>Error while reading: %1</source>
-        <translation>Okurken hata oluştu: %1</translation>
-    </message>
-    <message>
-        <source>Error during SSL handshake: %1</source>
-        <translation>SSL el sıkışması sırasında hata: %1</translation>
-    </message>
-    <message>
-        <source>Failed to decode OCSP response</source>
-        <translation>OCSP yanıtının kodu çözülemedi</translation>
-    </message>
-    <message>
-        <source>Failed to extract basic OCSP response</source>
-        <translation>Temel OCSP yanıtı alınamadı</translation>
-    </message>
-    <message>
-        <source>No certificate verification store, cannot verify OCSP response</source>
-        <translation>Sertifika doğrulama deposu yok, OCSP yanıtı doğrulanamıyor</translation>
-    </message>
-    <message>
-        <source>Failed to decode a SingleResponse from OCSP status response</source>
-        <translation>OCSP durum yanıtından bir SingleResponse kodu çözülemedi</translation>
-    </message>
-    <message>
-        <source>Failed to extract &apos;this update time&apos; from the SingleResponse</source>
-        <translation>“Bu güncelleme zamanı” SingleResponse’den alınamadı</translation>
-    </message>
-    <message>
-        <source>Insufficient memory</source>
-        <translation>Yetersiz bellek</translation>
-    </message>
-    <message>
-        <source>Internal error</source>
-        <translation>İçsel hata</translation>
-    </message>
-    <message>
-        <source>An internal handle was invalid</source>
-        <translation>Bir içsel tanıtıcı geçersizdi</translation>
-    </message>
-    <message>
-        <source>An internal token was invalid</source>
-        <translation>Bir içsel belirteç geçersizdi</translation>
-    </message>
-    <message>
-        <source>Access denied</source>
-        <translation>Erişim reddedildi</translation>
-    </message>
-    <message>
-        <source>No authority could be contacted for authorization</source>
-        <translation>Yetkilendirme için hiçbir yetkiliyle temas kurulamadı</translation>
-    </message>
-    <message>
-        <source>No credentials</source>
-        <translation>Kimlik bilgisi yok</translation>
-    </message>
-    <message>
-        <source>The target is unknown or unreachable</source>
-        <translation>Hedef bilinmiyor veya ulaşılamıyor</translation>
-    </message>
-    <message>
-        <source>An unsupported function was requested</source>
-        <translation>Desteklenmeyen bir işlev istendi</translation>
-    </message>
-    <message>
-        <source>The hostname provided does not match the one received from the peer</source>
-        <translation>Sağlanan ana bilgisayar adı, eşden alınan adla eşleşmiyor</translation>
-    </message>
-    <message>
-        <source>No common protocol exists between the client and the server</source>
-        <translation>İstemci ve sunucu arasında ortak bir protokol yok</translation>
-    </message>
-    <message>
-        <source>Unexpected or badly-formatted message received</source>
-        <translation>Beklenmeyen veya kötü biçimlendirilmiş ileti alındı</translation>
-    </message>
-    <message>
-        <source>The data could not be encrypted</source>
-        <translation>Veri şifrelenemedi</translation>
-    </message>
-    <message>
-        <source>The data could not be decrypted</source>
-        <translation>Verinin şifresi çözülemedi</translation>
-    </message>
-    <message>
-        <source>No cipher suites in common</source>
-        <translation>Ortak şifre takımı yok</translation>
-    </message>
-    <message>
-        <source>The credentials were not recognized / Invalid argument</source>
-        <translation>Kimlik bilgileri tanınmadı / Geçersiz değişken</translation>
-    </message>
-    <message>
-        <source>The message was tampered with, damaged or out of sequence.</source>
-        <translation>İleti kurcalandı, hasar gördü veya dizinin dışında.</translation>
-    </message>
-    <message>
-        <source>A message was received out of sequence.</source>
-        <translation>Sıra dışı bir ileti alındı.</translation>
-    </message>
-    <message>
-        <source>Unknown error occurred: %1</source>
-        <translation>Bilinmeyen hata oluştu: %1</translation>
-    </message>
-    <message>
-        <source>Invalid protocol chosen</source>
-        <translation>Geçersiz protokol seçildi</translation>
-    </message>
-    <message>
-        <source>The certificate provided cannot be used for a client.</source>
-        <translation>Sağlanan sertifika bir istemci için kullanılamaz.</translation>
-    </message>
-    <message>
-        <source>The certificate provided cannot be used for a server.</source>
-        <translation>Sağlanan sertifika bir sunucu için kullanılamaz.</translation>
-    </message>
-    <message>
-        <source>Server did not accept any certificate we could present.</source>
-        <translation>Sunucu sunabileceğimiz hiçbir sertifikayı kabul etmedi.</translation>
-    </message>
-    <message>
-        <source>Algorithm mismatch</source>
-        <translation>Algoritma uyumsuzluğu</translation>
-    </message>
-    <message>
-        <source>Handshake failed: %1</source>
-        <translation>El sıkışması başarısız oldu: %1</translation>
-    </message>
-    <message>
-        <source>Failed to query the TLS context: %1</source>
-        <translation>TLS içeriği sorgulanamadı: %1</translation>
-    </message>
-    <message>
-        <source>Did not get the required attributes for the connection.</source>
-        <translation>Bağlantı için gerekli öznitelikler alınamadı.</translation>
-    </message>
-    <message>
-        <source>Unwanted protocol was negotiated</source>
-        <translation>İstenmeyen protokol müzakere edildi</translation>
-    </message>
-    <message>
-        <source>Renegotiation was unsuccessful: %1</source>
-        <translation>Yeniden görüşme başarısız oldu: %1</translation>
-    </message>
-    <message>
-        <source>Schannel failed to encrypt data: %1</source>
-        <translation>Schannel verileri şifreleyemedi: %1</translation>
+        <source>Invalid or empty cipher list (%1)</source>
+        <translation>Ogiltig eller tom chifferlista (%1)</translation>
     </message>
     <message>
         <source>Cannot provide a certificate with no key</source>
-        <translation>Anahtarsız sertifika verilemiyor</translation>
+        <translation>Kan inte tillhandahålla ett certifikat utan en nyckel</translation>
+    </message>
+    <message>
+        <source>Error loading local certificate, %1</source>
+        <translation>Fel vid inläsning av lokalt certifikat, %1</translation>
+    </message>
+    <message>
+        <source>Error loading private key, %1</source>
+        <translation>Fel vid inläsning av privat nyckel, %1</translation>
+    </message>
+    <message>
+        <source>Private key does not certify public key, %1</source>
+        <translation>Privat nyckel certifierar inte publika nyckeln, %1</translation>
+    </message>
+    <message>
+        <source>Diffie-Hellman parameters are not valid</source>
+        <translation>Diffie-Hellman-parametrar är inte giltiga</translation>
+    </message>
+    <message>
+        <source>OpenSSL version with disabled elliptic curves</source>
+        <translation>OpenSSL-version med inaktiverade elliptiska kurvor</translation>
+    </message>
+    <message>
+        <source>Expecting QByteArray for %1</source>
+        <translation>Förväntade QByteArray för %1</translation>
+    </message>
+    <message>
+        <source>An error occurred attempting to set %1 to %2</source>
+        <translation>Ett fel inträffade vid försök att ställa in %1 till %2</translation>
+    </message>
+    <message>
+        <source>Wrong value for %1 (%2)</source>
+        <translation>Fel värde för %1 (%2)</translation>
+    </message>
+    <message>
+        <source>Unrecognized command %1 = %2</source>
+        <translation>Kommandot känns inte igen %1 = %2</translation>
+    </message>
+    <message>
+        <source>SSL_CONF_finish() failed</source>
+        <translation>SSL_CONF_finish() misslyckades</translation>
+    </message>
+    <message>
+        <source>SSL_CONF_CTX_new() failed</source>
+        <translation>SSL_CONF_CTX_new() misslyckades</translation>
+    </message>
+    <message>
+        <source>Unable to init SSL Context: %1</source>
+        <translation>Kunde inte initiera SSL-kontext: %1</translation>
+    </message>
+    <message>
+        <source>Unable to write data: %1</source>
+        <translation>Kunde inte skriva data: %1</translation>
+    </message>
+    <message>
+        <source>Unable to decrypt data: %1</source>
+        <translation>Kunde inte dekryptera data: %1</translation>
+    </message>
+    <message>
+        <source>TLS certificate unexpectedly changed during renegotiation!</source>
+        <translation>TLS-certifikatet ändrades oväntat under omförhandlingen!</translation>
+    </message>
+    <message>
+        <source>The TLS/SSL connection has been closed</source>
+        <translation>TLS/SSL-anslutningen har stängts</translation>
+    </message>
+    <message>
+        <source>Error while reading: %1</source>
+        <translation>Fel vid läsning: %1</translation>
+    </message>
+    <message>
+        <source>Error creating SSL session, %1</source>
+        <translation>Fel vid skapandet av SSL-session, %1</translation>
+    </message>
+    <message>
+        <source>Error creating SSL session: %1</source>
+        <translation>Fel vid skapande av SSL-session: %1</translation>
+    </message>
+    <message>
+        <source>Server-side QSslSocket does not support OCSP stapling</source>
+        <translation>Serversidans QSslSocket har inte stöd för OCSP-häftning</translation>
+    </message>
+    <message>
+        <source>Failed to enable OCSP stapling</source>
+        <translation>Misslyckades med att aktivera OCSP-häftning</translation>
+    </message>
+    <message>
+        <source>Client-side sockets do not send OCSP responses</source>
+        <translation>Klientsidans uttag skickar inte OCSP-svar</translation>
+    </message>
+    <message>
+        <source>Failed to decode OCSP response</source>
+        <translation>Misslyckades med att avkoda OCSP-svar</translation>
+    </message>
+    <message>
+        <source>Failed to extract basic OCSP response</source>
+        <translation>Misslyckades med att extrahera grundläggande OCSP-svar</translation>
+    </message>
+    <message>
+        <source>No certificate verification store, cannot verify OCSP response</source>
+        <translation>Inget arkiv för certifikatverifiering, kan inte verifiera OCSP-svar</translation>
+    </message>
+    <message>
+        <source>Failed to decode a SingleResponse from OCSP status response</source>
+        <translation>Misslyckades med att avkoda en SingleResponse från OCSP-statussvar</translation>
+    </message>
+    <message>
+        <source>Failed to extract &apos;this update time&apos; from the SingleResponse</source>
+        <translation>Misslyckades med att extrahera &apos;this update time&apos; från SingleResponse</translation>
+    </message>
+    <message>
+        <source>Error during SSL handshake: %1</source>
+        <translation>Fel under SSL-handskakning: %1</translation>
+    </message>
+    <message>
+        <source>Insufficient memory</source>
+        <translation>Otillräckligt med minne</translation>
+    </message>
+    <message>
+        <source>Internal error</source>
+        <translation>Internt fel</translation>
+    </message>
+    <message>
+        <source>An internal handle was invalid</source>
+        <translation>Ett internt handtag var ogiltigt</translation>
+    </message>
+    <message>
+        <source>An internal token was invalid</source>
+        <translation>Ett internt token var ogiltigt</translation>
+    </message>
+    <message>
+        <source>Access denied</source>
+        <translation>Åtkomst nekad</translation>
+    </message>
+    <message>
+        <source>No authority could be contacted for authorization</source>
+        <translation>Ingen utfärdare kunde kontaktas för auktorisering</translation>
+    </message>
+    <message>
+        <source>No credentials</source>
+        <translation>Inga inloggningsuppgifter</translation>
+    </message>
+    <message>
+        <source>The target is unknown or unreachable</source>
+        <translation>Målet är okänt eller inte möjligt att nå</translation>
+    </message>
+    <message>
+        <source>An unsupported function was requested</source>
+        <translation>En funktion som inte stöds begärdes</translation>
+    </message>
+    <message>
+        <source>The hostname provided does not match the one received from the peer</source>
+        <translation>Värdnamnet som tillhandahölls matchar inte det som togs emot från motparten</translation>
+    </message>
+    <message>
+        <source>No common protocol exists between the client and the server</source>
+        <translation>Inget gemensamt protokoll finns mellan klient och servern</translation>
+    </message>
+    <message>
+        <source>Unexpected or badly-formatted message received</source>
+        <translation>Oväntat eller felaktigt formaterat meddelande togs emot</translation>
+    </message>
+    <message>
+        <source>The data could not be encrypted</source>
+        <translation>Detta data kunde inte krypteras</translation>
+    </message>
+    <message>
+        <source>The data could not be decrypted</source>
+        <translation>Datan kunde inte dekrypteras</translation>
+    </message>
+    <message>
+        <source>No cipher suites in common</source>
+        <translation>Inga chiffersviter gemensamt</translation>
+    </message>
+    <message>
+        <source>The credentials were not recognized / Invalid argument</source>
+        <translation>Inloggningsuppgifterna kändes inte igen / Ogiltigt argument</translation>
+    </message>
+    <message>
+        <source>The message was tampered with, damaged or out of sequence.</source>
+        <translation>Meddelandet har mixtrats med, skadats eller utanför sekvensen.</translation>
+    </message>
+    <message>
+        <source>A message was received out of sequence.</source>
+        <translation>Ett meddelande togs emot utanför sekvensen.</translation>
+    </message>
+    <message>
+        <source>Unknown error occurred: %1</source>
+        <translation>Okänt fel inträffade: %1</translation>
+    </message>
+    <message>
+        <source>Invalid protocol chosen</source>
+        <translation>Ogiltigt protkoll valt</translation>
+    </message>
+    <message>
+        <source>Server did not accept any certificate we could present.</source>
+        <translation>Servern accepterade inte något certifikat vi kunde presentera.</translation>
+    </message>
+    <message>
+        <source>Algorithm mismatch</source>
+        <translation>Algoritmen stämmer inte överens</translation>
+    </message>
+    <message>
+        <source>Handshake failed: %1</source>
+        <translation>Handskakningsfel: %1</translation>
+    </message>
+    <message>
+        <source>Failed to query the TLS context: %1</source>
+        <translation>Misslyckades med att fråga TLS-kontexten: %1</translation>
+    </message>
+    <message>
+        <source>Did not get the required attributes for the connection.</source>
+        <translation>Fick inte de nödvändiga attributen för anslutningen.</translation>
+    </message>
+    <message>
+        <source>Unwanted protocol was negotiated</source>
+        <translation>Oönskat protokoll förhandlades</translation>
+    </message>
+    <message>
+        <source>Renegotiation was unsuccessful: %1</source>
+        <translation>Omförhandling lyckades inte: %1</translation>
+    </message>
+    <message>
+        <source>Schannel failed to encrypt data: %1</source>
+        <translation>Schannel misslyckades att kryptera data: %1</translation>
     </message>
 </context>
 <context>
     <name>QStandardPaths</name>
     <message>
         <source>Desktop</source>
-        <translation>Masaüstü</translation>
+        <translation>Skrivbord</translation>
     </message>
     <message>
         <source>Documents</source>
-        <translation>Belgeler</translation>
+        <translation>Dokument</translation>
     </message>
     <message>
         <source>Fonts</source>
-        <translation>Yazıtipleri</translation>
+        <translation>Typsnitt</translation>
     </message>
     <message>
         <source>Applications</source>
-        <translation>Uygulamalar</translation>
+        <translation>Program</translation>
     </message>
     <message>
         <source>Music</source>
-        <translation>Müzik</translation>
+        <translation>Musik</translation>
     </message>
     <message>
         <source>Movies</source>
-        <translation>Filmler</translation>
+        <translation>Filmer</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>Resimler</translation>
+        <translation>Bilder</translation>
     </message>
     <message>
         <source>Temporary Directory</source>
-        <translation>Geçici Dizin</translation>
+        <translation>Temporärkatalog</translation>
     </message>
     <message>
         <source>Home</source>
-        <translation>Ana Klasör</translation>
-    </message>
-    <message>
-        <source>Cache</source>
-        <translation>Önbellek</translation>
-    </message>
-    <message>
-        <source>State</source>
-        <translation>Durum</translation>
-    </message>
-    <message>
-        <source>Shared Data</source>
-        <translation>Paylaşılan Veri</translation>
-    </message>
-    <message>
-        <source>Runtime</source>
-        <translation>Çalışma Zamanı</translation>
-    </message>
-    <message>
-        <source>Configuration</source>
-        <translation>Yapılandırma</translation>
-    </message>
-    <message>
-        <source>Shared Configuration</source>
-        <translation>Paylaşılan Yapılandırma</translation>
-    </message>
-    <message>
-        <source>Shared Cache</source>
-        <translation>Paylaşılan Önbellek</translation>
-    </message>
-    <message>
-        <source>Shared State</source>
-        <translation>Paylaşılan Durum</translation>
-    </message>
-    <message>
-        <source>Download</source>
-        <translation>İndirmeler</translation>
-    </message>
-    <message>
-        <source>Public</source>
-        <translation>Ortak</translation>
-    </message>
-    <message>
-        <source>Templates</source>
-        <translation>Şablonlar</translation>
+        <translation>Hem</translation>
     </message>
     <message>
         <source>Application Data</source>
-        <translation>Uygulama Verisi</translation>
+        <translation>Programdata</translation>
+    </message>
+    <message>
+        <source>Cache</source>
+        <translation>Cache</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Tillstånd</translation>
+    </message>
+    <message>
+        <source>Shared Data</source>
+        <translation>Delat data</translation>
+    </message>
+    <message>
+        <source>Runtime</source>
+        <translation>Körtid</translation>
+    </message>
+    <message>
+        <source>Configuration</source>
+        <translation>Konfiguration</translation>
+    </message>
+    <message>
+        <source>Shared Configuration</source>
+        <translation>Delad konfiguration</translation>
+    </message>
+    <message>
+        <source>Shared Cache</source>
+        <translation>Delad cache</translation>
+    </message>
+    <message>
+        <source>Shared State</source>
+        <translation>Delat tillstånd</translation>
+    </message>
+    <message>
+        <source>Downloads</source>
+        <translation>Hämtningar</translation>
     </message>
     <message>
         <source>Application Configuration</source>
-        <translation>Uygulama Yapılandırması</translation>
+        <translation>Programkonfiguration</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Publik</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Mallar</translation>
     </message>
     <message>
         <source>Temporary Items</source>
         <extracomment>macOS: Temporary directory</extracomment>
-        <translation>Geçici Ögeler</translation>
+        <translation>Temporära objekt</translation>
     </message>
 </context>
 <context>
     <name>QSystemSemaphore</name>
     <message>
         <source>%1: unsupported key type</source>
-        <translation>%1: Desteklenmeyen anahtar türü</translation>
+        <translation>%1: nyckeltypen stöds inte</translation>
     </message>
     <message>
         <source>%1: permission denied</source>
-        <translation>%1: İzin reddedildi</translation>
+        <translation>%1: Behörighet nekad</translation>
     </message>
     <message>
         <source>%1: already exists</source>
-        <translation>%1: Halihazırda var</translation>
+        <translation>%1: finns redan</translation>
     </message>
     <message>
         <source>%1: does not exist</source>
-        <translation>%1: Yok</translation>
+        <translation>%1: finns inte</translation>
     </message>
     <message>
         <source>%1: out of resources</source>
-        <translation>%1: Özkaynaklar tükendi</translation>
+        <translation>%1: slut på resurser</translation>
     </message>
     <message>
         <source>%1: key too long</source>
-        <translation>%1: Anahtar pek uzun</translation>
+        <translation>%1: nyckeln är för lång</translation>
     </message>
     <message>
         <source>%1: unknown error: %2</source>
-        <translation>%1: Bilinmeyen hata: %2</translation>
+        <translation>%1: okänt fel: %2</translation>
     </message>
     <message>
         <source>%1: key is empty</source>
-        <translation>%1: Anahtar boş</translation>
+        <translation>%1: nyckeln är tom</translation>
     </message>
     <message>
         <source>%1: System V semaphores are not available for sandboxed applications. Please build Qt with -feature-ipc_posix</source>
-        <translation>%1: System V semaforları kum havuzundaki uygulamalarda kullanılamaz. Lütfen, Qt’yi -feature-ipc_posix ile yapın.</translation>
+        <translation>%1: System V-semaforer är inte tillgängliga för sandboxade program. Bygg Qt med -feature-ipc_posix</translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
-        <translation>%1: Anahtar yapılamıyor</translation>
+        <translation>%1: kunde inte skapa nyckel</translation>
     </message>
     <message>
         <source>%1: ftok failed</source>
-        <translation>%1: ftok başarısız oldu</translation>
+        <translation>%1: ftok misslyckades</translation>
     </message>
 </context>
 <context>
     <name>QTabBar</name>
     <message>
         <source>Scroll Left</source>
-        <translation>Sola Sar</translation>
+        <translation>Rulla vänster</translation>
     </message>
     <message>
         <source>Scroll Right</source>
-        <translation>Sağa Sar</translation>
+        <translation>Rulla höger</translation>
     </message>
 </context>
 <context>
     <name>QTcpServer</name>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>Yuva üzerinde işlem desteklenmiyor</translation>
+        <translation>Åtgärd på uttag stöds inte</translation>
+    </message>
+</context>
+<context>
+    <name>QTgaFile</name>
+    <message>
+        <source>Could not read image data</source>
+        <translation>Kunde inte läsa bilddata</translation>
+    </message>
+    <message>
+        <source>Sequential device (eg socket) for image read not supported</source>
+        <translation>Sekventiell enhet (t.ex uttag) för bildläsning stöds inte</translation>
+    </message>
+    <message>
+        <source>Seek file/device for image read failed</source>
+        <translation>Spola i fil/enhet för bildläsning misslyckades</translation>
+    </message>
+    <message>
+        <source>Image header read failed</source>
+        <translation>Läsning av bildrubrik misslyckades</translation>
+    </message>
+    <message>
+        <source>Image type not supported</source>
+        <translation>Bildtypen stöds inte</translation>
+    </message>
+    <message>
+        <source>Image depth not valid</source>
+        <translation>Bilddjup inte giltigt</translation>
+    </message>
+    <message>
+        <source>Image size exceeds limit</source>
+        <translation>Bildstorleken överstiger gränsen</translation>
+    </message>
+    <message>
+        <source>Could not seek to image read footer</source>
+        <translation>Kunde inte spola till bildläsningsfot</translation>
+    </message>
+    <message>
+        <source>Could not read footer</source>
+        <translation>Kunde inte läsa sidfot</translation>
+    </message>
+    <message>
+        <source>Image type (non-TrueVision 2.0) not supported</source>
+        <translation>Bildtyp (icke-TrueVision 2.0) stöds inte</translation>
+    </message>
+    <message>
+        <source>Could not reset to read data</source>
+        <translation>Kunde inte nollställa för att läsa data</translation>
+    </message>
+    <message>
+        <source>Invalid color map depth (%1)</source>
+        <translation>Ogiltigt färgkartsdjup (%1)</translation>
     </message>
 </context>
 <context>
     <name>QUdpSocket</name>
     <message>
         <source>Unable to send a datagram</source>
-        <translation>Bir datagram gönderilemiyor</translation>
+        <translation>Kunde inte skicka ett datagram</translation>
     </message>
     <message>
         <source>No datagram available for reading</source>
-        <translation>Okunacak datagram yok</translation>
+        <translation>Ingen datagram tillgängligt för läsning</translation>
     </message>
 </context>
 <context>
     <name>QUndoGroup</name>
     <message>
         <source>Undo %1</source>
-        <translation>Geri Al: %1</translation>
+        <translation>Ångra %1</translation>
     </message>
     <message>
         <source>Undo</source>
         <comment>Default text for undo action</comment>
-        <translation>Geri Al</translation>
+        <translation>Ångra</translation>
     </message>
     <message>
         <source>Redo %1</source>
-        <translation>Yinele: %1</translation>
+        <translation>Gör om %1</translation>
     </message>
     <message>
         <source>Redo</source>
         <comment>Default text for redo action</comment>
-        <translation>Yinele</translation>
+        <translation>Gör om</translation>
     </message>
 </context>
 <context>
     <name>QUndoModel</name>
     <message>
         <source>&lt;empty&gt;</source>
-        <translation>&lt;empty&gt;</translation>
+        <translation>&lt;tom&gt;</translation>
     </message>
 </context>
 <context>
     <name>QUndoStack</name>
     <message>
         <source>Undo %1</source>
-        <translation>Geri Al: %1</translation>
+        <translation>Ångra %1</translation>
     </message>
     <message>
         <source>Undo</source>
         <comment>Default text for undo action</comment>
-        <translation>Geri Al</translation>
+        <translation>Ångra</translation>
     </message>
     <message>
         <source>Redo %1</source>
-        <translation>Yinele: %1</translation>
+        <translation>Gör om %1</translation>
     </message>
     <message>
         <source>Redo</source>
         <comment>Default text for redo action</comment>
-        <translation>Yinele</translation>
+        <translation>Gör om</translation>
     </message>
 </context>
 <context>
     <name>QUnicodeControlCharacterMenu</name>
     <message>
         <source>LRM Left-to-right mark</source>
-        <translation>LRM Soldan sağa imi</translation>
+        <translation>U+200E</translation>
     </message>
     <message>
         <source>RLM Right-to-left mark</source>
-        <translation>RLM Sağdan sola imi</translation>
+        <translation>U+200F</translation>
     </message>
     <message>
         <source>ZWJ Zero width joiner</source>
-        <translation>ZWJ Sıfır genişlikli katıcı</translation>
+        <translation>U+200D</translation>
     </message>
     <message>
         <source>ZWNJ Zero width non-joiner</source>
-        <translation>ZWNJ Sıfır genişlikli katıcı</translation>
+        <translation>U+200C</translation>
     </message>
     <message>
         <source>ZWSP Zero width space</source>
-        <translation>ZWSP Sıfır genişlikli boşluk</translation>
+        <translation>U+200B</translation>
     </message>
     <message>
         <source>LRE Start of left-to-right embedding</source>
-        <translation>LRE Soldan sağa gömme başlangıcı</translation>
+        <translation>U+202A</translation>
     </message>
     <message>
         <source>RLE Start of right-to-left embedding</source>
-        <translation>RLE Sağdan sola gömme başlangıcı</translation>
+        <translation>U+202B</translation>
     </message>
     <message>
         <source>LRO Start of left-to-right override</source>
-        <translation>LRO Soldan sağa geçersiz kılma başlangıcı</translation>
+        <translation>U+202D</translation>
     </message>
     <message>
         <source>RLO Start of right-to-left override</source>
-        <translation>RLO Sağdan sola geçersiz kılma başlangıcı</translation>
+        <translation>U+202E</translation>
     </message>
     <message>
         <source>PDF Pop directional formatting</source>
-        <translation>PDF Pop yönlü biçimlendirme</translation>
+        <translation>U+202C</translation>
     </message>
     <message>
         <source>LRI Left-to-right isolate</source>
-        <translation>LRI Soldan sağa yalıtma</translation>
+        <translation>U+2066</translation>
     </message>
     <message>
         <source>RLI Right-to-left isolate</source>
-        <translation>RLI Sağdan sola yalıtma</translation>
+        <translation>U+2067</translation>
     </message>
     <message>
         <source>FSI First strong isolate</source>
-        <translation>FSI İlk güçlü yalıtma</translation>
+        <translation>U+2068</translation>
     </message>
     <message>
         <source>PDI Pop directional isolate</source>
-        <translation>PDI Pop yönlü yalıtma</translation>
+        <translation>U+2069</translation>
     </message>
     <message>
         <source>Insert Unicode control character</source>
-        <translation>Unicode denetim karakteri ekle</translation>
+        <translation>Infoga unicode-kontrolltecken</translation>
     </message>
 </context>
 <context>
     <name>QWhatsThisAction</name>
     <message>
         <source>What&apos;s This?</source>
-        <translation>Bu Nedir?</translation>
+        <translation>Vad är det här?</translation>
     </message>
 </context>
 <context>
@@ -7161,35 +7321,35 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     <name>QWidgetTextControl</name>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;Geri Al</translation>
+        <translation>&amp;Ångra</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>&amp;Yinele</translation>
+        <translation>&amp;Gör om</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>&amp;Kes</translation>
+        <translation>Klipp &amp;ut</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>Ko&amp;pyala</translation>
+        <translation>&amp;Kopiera</translation>
     </message>
     <message>
         <source>Copy &amp;Link Location</source>
-        <translation>&amp;Bağlantı Konumunu Kopyala</translation>
+        <translation>Kopiera &amp;länkplats</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>&amp;Yapıştır</translation>
+        <translation>Klistra &amp;in</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Sil</translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>Tümünü Seç</translation>
+        <translation>Markera alla</translation>
     </message>
 </context>
 <context>
@@ -7198,477 +7358,262 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
         <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
 
 The minimum Direct2D version required is %1. The Direct2D version on this system is %2.</source>
-        <translation>Qt, bu sistemdeki Direct2D sürümü pek eski olduğundan direct2d platform eklentisini yükleyemiyor. Bu platform eklentisi için en düşük sistem gereksinimi Platform Güncellemeli Windows 7 SP1’dir.
+        <translation>Qt kan inte läsa in plattformsinsticksmodulen för direct2d därför att Direct2D-versionen på detta system är för gammal. Minsta systemkravet för denna plattformsinsticksmodul är Windows 7 SP1 med Platform Update.
 
-Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.</translation>
+Minsta Direct2D-versionen som krävs är %1. Direct2D-versionen på detta system är %2.</translation>
     </message>
     <message>
         <source>Cannot load direct2d platform plugin</source>
-        <translation>Direct2D platform eklentisi yüklenemiyor</translation>
+        <translation>Kan inte läsa in plattformsinsticksmodul för direct2d</translation>
     </message>
 </context>
 <context>
     <name>QWizard</name>
     <message>
         <source>Go Back</source>
-        <translation>Geri Git</translation>
+        <translation>Gå bakåt</translation>
     </message>
     <message>
         <source>&lt; &amp;Back</source>
-        <translation>&lt; &amp;Geri</translation>
+        <translation>&lt; Till&amp;baka</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation>Sürdür</translation>
+        <translation>Fortsätt</translation>
     </message>
     <message>
         <source>&amp;Next</source>
-        <translation>&amp;Sonraki</translation>
+        <translation>&amp;Nästa</translation>
     </message>
     <message>
         <source>&amp;Next &gt;</source>
-        <translation>&amp;Sonraki &gt;</translation>
+        <translation>&amp;Nästa &gt;</translation>
     </message>
     <message>
         <source>Commit</source>
-        <translation>İşle</translation>
+        <translation>Verkställ</translation>
     </message>
     <message>
         <source>Done</source>
-        <translation>Bitti</translation>
+        <translation>Färdig</translation>
     </message>
     <message>
         <source>&amp;Finish</source>
-        <translation>&amp;Bitir</translation>
+        <translation>&amp;Färdig</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>İptal</translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Yardım</translation>
+        <translation>Hjälp</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Yardım</translation>
+        <translation>&amp;Hjälp</translation>
     </message>
 </context>
 <context>
     <name>QXmlStream</name>
     <message>
         <source>Extra content at end of document.</source>
-        <translation>Belgenin sonunda fazladan içerik.</translation>
+        <translation>Extra innehåll i slutet av dokumentet.</translation>
     </message>
     <message>
         <source>Invalid entity value.</source>
-        <translation>Geçersiz varlık değeri.</translation>
+        <translation>Ogiltigt entitetsvärde.</translation>
     </message>
     <message>
         <source>Invalid XML character.</source>
-        <translation>Geçersiz XML karakteri.</translation>
+        <translation>Ogiltigt XML-tecken.</translation>
     </message>
     <message>
         <source>Sequence &apos;]]&gt;&apos; not allowed in content.</source>
-        <translation>“]]&gt;” sırasına içerikte izin verilmiyor.</translation>
+        <translation>Sekvensen &apos;]]&gt;&apos; tillåts inte i innehåll.</translation>
     </message>
     <message>
         <source>Encountered incorrectly encoded content.</source>
-        <translation>Yanlış kodlanmış içerikle karşılaşıldı.</translation>
+        <translation>Påträffade felaktigt enkodat innehåll.</translation>
     </message>
     <message>
         <source>Namespace prefix &apos;%1&apos; not declared</source>
-        <translation>“%1” ad alanı öneki bildirilmedi</translation>
+        <translation>Namnrymdsprefixet &apos;%1&apos; är inte deklarerat</translation>
     </message>
     <message>
         <source>Illegal namespace declaration.</source>
-        <translation>Geçersiz ad alanı bildirimi.</translation>
+        <translation>Ogiltig namnrymdsdeklaration.</translation>
     </message>
     <message>
         <source>Attribute &apos;%1&apos; redefined.</source>
-        <translation>“%1” özelliği yeniden tanımlandı.</translation>
+        <translation>Attributet &apos;%1&apos; omdefinierat.</translation>
     </message>
     <message>
         <source>Unexpected character &apos;%1&apos; in public id literal.</source>
-        <translation>Genel kimlik düz verisinde beklenmeyen “%1” karakteri.</translation>
+        <translation>Oväntat tecken &apos;%1&apos; i public id literal.</translation>
     </message>
     <message>
         <source>Invalid XML version string.</source>
-        <translation>Geçersiz XML sürüm dizisi.</translation>
+        <translation>Ogiltig XML-versionssträng.</translation>
     </message>
     <message>
         <source>Unsupported XML version.</source>
-        <translation>Desteklenmeyen XML sürümü.</translation>
+        <translation>XML-versionen stöds inte.</translation>
     </message>
     <message>
         <source>The standalone pseudo attribute must appear after the encoding.</source>
-        <translation>Bağımsız sözde öznitelik kodlamadan sonra görünmelidir.</translation>
+        <translation>Pseudoattributet standalone måste synas efter enkodningen.</translation>
     </message>
     <message>
         <source>%1 is an invalid encoding name.</source>
-        <translation>%1 geçersiz bir kodlama adıdır.</translation>
+        <translation>%1 är ett ogiltigt enkodningsnamn.</translation>
     </message>
     <message>
         <source>Encoding %1 is unsupported</source>
-        <translation>%1 kodlaması desteklenmiyor</translation>
+        <translation>Enkodningen %1 stöds inte</translation>
     </message>
     <message>
         <source>Standalone accepts only yes or no.</source>
-        <translation>Bağımsız yalnızca evet veya hayır kabul eder.</translation>
+        <translation>Standalone accepterar endast yes eller no.</translation>
     </message>
     <message>
         <source>Invalid attribute in XML declaration: %1 = %2</source>
-        <translation>XML beyanında geçersiz öznitelik: %1 = %2</translation>
-    </message>
-    <message>
-        <source>Unexpected token type %1 in %2.</source>
-        <translation>%2 içinde beklenmedik jeton türü %1.</translation>
-    </message>
-    <message>
-        <source>Found second DTD token in %1.</source>
-        <translation>%1 içinde ikinci DTD jetonu bulundu.</translation>
+        <translation>Ogiltigt attribut i XML-deklaration: %1 = %2</translation>
     </message>
     <message>
         <source>Premature end of document.</source>
-        <translation>Belgenin erken sonu.</translation>
+        <translation>För tidigt slut på dokumentet.</translation>
     </message>
     <message>
         <source>Invalid document.</source>
-        <translation>Geçersiz belge.</translation>
+        <translation>Ogiltigt dokument.</translation>
     </message>
     <message>
         <source>Length of XML attribute name exceeds implementation limits (4KiB characters).</source>
-        <translation>XML özniteliğinin uzunluğu uygulama sınırlarını aşıyor (4 KiB karakter).</translation>
+        <translation>Längd för XML-attributnamn överstiger implementationsgränser (4KiB tecken).</translation>
     </message>
     <message>
         <source>&apos;%1&apos;</source>
         <comment>expected</comment>
         <extracomment>&apos;&lt;first option&gt;&apos;</extracomment>
-        <translation>“%1”</translation>
+        <translation>&apos;%1&apos;</translation>
     </message>
     <message>
         <source>%1 or &apos;%2&apos;</source>
         <comment>expected</comment>
         <extracomment>&lt;first option&gt;, &apos;&lt;second option&gt;&apos;</extracomment>
-        <translation>%1 veya “%2”</translation>
+        <translation>%1 eller &apos;%2&apos;</translation>
     </message>
     <message>
         <source>%1, &apos;%2&apos;</source>
         <comment>expected</comment>
         <extracomment>&lt;options so far&gt;, &apos;&lt;next option&gt;&apos;</extracomment>
-        <translation>%1, “%2”</translation>
+        <translation>%1, &apos;%2&apos;</translation>
     </message>
     <message>
         <source>%1, or &apos;%2&apos;</source>
         <comment>expected</comment>
         <extracomment>&lt;options so far&gt;, or &apos;&lt;final option&gt;&apos;</extracomment>
-        <translation>%1 veya “%2”</translation>
+        <translation>%1, eller &apos;%2&apos;</translation>
     </message>
     <message>
         <source>Expected %1, but got &apos;%2&apos;.</source>
-        <translation>%1 bekleniyordu; ancak “%2” alındı.</translation>
+        <translation>Förväntade %1, men fick &apos;%2&apos;.</translation>
     </message>
     <message>
         <source>Unexpected &apos;%1&apos;.</source>
-        <translation>Beklenmedik “%1”.</translation>
+        <translation>Förväntade &apos;%1&apos;.</translation>
     </message>
     <message>
-        <source>Expected character data.</source>
-        <translation>Karakter verisi bekleniyordu.</translation>
+        <source>An I/O error occurred while writing</source>
+        <translation>Ett in-/ut-fel inträffade under skrivning</translation>
+    </message>
+    <message>
+        <source>An encoding error occurred while writing</source>
+        <translation>Ett kodningsfel inträffade under skrivning</translation>
+    </message>
+    <message>
+        <source>Encountered an invalid XML 1.0 character while writing</source>
+        <translation>Påträffade ett ogiltigt XML 1.0-tecken under skrivning</translation>
+    </message>
+    <message>
+        <source>An error occurred while writing</source>
+        <translation>Ett fel inträffade vid skrivning</translation>
+    </message>
+    <message>
+        <source>Unexpected token type %1 in %2.</source>
+        <translation>Oväntad token-typ %1 i %2.</translation>
+    </message>
+    <message>
+        <source>Found second DTD token in %1.</source>
+        <translation>Hittade andra DTD-token i %1.</translation>
     </message>
     <message>
         <source>Self-referencing entity detected.</source>
-        <translation>Kendine başvuran varlık algılandı.</translation>
+        <translation>Självrefererande entitet upptäcktes.</translation>
     </message>
     <message>
         <source>Entity expands to more characters than the entity expansion limit.</source>
-        <translation>Varlık, varlık genişletme sınırından daha fazla karaktere genişler.</translation>
+        <translation>Entiteten expanderar till fler tecken än entitetens expansionsgräns.</translation>
     </message>
     <message>
         <source>Start tag expected.</source>
-        <translation>Başlangıç etiketi bekleniyor.</translation>
+        <translation>Starttagg förväntades.</translation>
     </message>
     <message>
         <source>NDATA in parameter entity declaration.</source>
-        <translation>Parametre varlık bildirimindeki NDATA.</translation>
+        <translation>NDATA i parametern entitetsdeklaration.</translation>
     </message>
     <message>
         <source>XML declaration not at start of document.</source>
-        <translation>XML bildirimi belgenin başında değil.</translation>
+        <translation>XML-deklaration inte i början av dokumentet.</translation>
     </message>
     <message>
         <source>%1 is an invalid processing instruction name.</source>
-        <translation>%1 geçersiz bir işlem talimatı adı.</translation>
+        <translation>%1 är ett ogiltigt namn på behandlande instruktion.</translation>
     </message>
     <message>
         <source>Invalid processing instruction name.</source>
-        <translation>Geçersiz işlem talimatı adı.</translation>
+        <translation>Ogiltigt namn för behandlande instruktion.</translation>
     </message>
     <message>
         <source>%1 is an invalid PUBLIC identifier.</source>
-        <translation>%1 geçersiz bir PUBLIC tanımlayıcısı.</translation>
+        <translation>%1 är en ogiltig PUBLIC-identifierare.</translation>
     </message>
     <message>
         <source>Invalid XML name.</source>
-        <translation>Geçersiz XML adı.</translation>
+        <translation>Ogiltigt XML-namn.</translation>
     </message>
     <message>
         <source>Opening and ending tag mismatch.</source>
-        <translation>Etiket uyuşmazlığını açma ve sonlandırma.</translation>
+        <translation>Öppnande och avslutande tagg stämmer inte överens.</translation>
     </message>
     <message>
         <source>Entity &apos;%1&apos; not declared.</source>
-        <translation>“%1” varlık bildirilmedi.</translation>
+        <translation>Entiteten &apos;%1&apos; är inte deklarerad.</translation>
     </message>
     <message>
         <source>Reference to unparsed entity &apos;%1&apos;.</source>
-        <translation>Ayrıştırılmamış “%1” varlığına başvuru.</translation>
+        <translation>Referens till otolkad entitet &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Reference to external entity &apos;%1&apos; in attribute value.</source>
-        <translation>Özellik değerinde “%1” dış varlığına başvuru.</translation>
+        <translation>Referens till extern entitet &apos;%1&apos; i attributvärdet.</translation>
     </message>
     <message>
         <source>Invalid character reference.</source>
-        <translation>Geçersiz karakter başvurusu.</translation>
-    </message>
-</context>
-<context>
-    <name>QFactoryLoader</name>
-    <message>
-        <source>Invalid metadata version</source>
-        <translation>Geçersiz üst veri sürümü</translation>
-    </message>
-    <message>
-        <source>Metadata parsing error: %1</source>
-        <translation>Üst veri ayrıştırma hatası: %1</translation>
-    </message>
-    <message>
-        <source>Unexpected metadata contents</source>
-        <translation>Beklenmedik üst veri içeriği</translation>
-    </message>
-</context>
-<context>
-    <name>QAbstractFileIconProvider</name>
-    <message>
-        <source>Drive</source>
-        <translation>Sürücü</translation>
-    </message>
-    <message>
-        <source>File</source>
-        <translation>Dosya</translation>
-    </message>
-    <message>
-        <source>File Folder</source>
-        <comment>Match Windows Explorer</comment>
-        <translation>Dosya Klasörü</translation>
-    </message>
-    <message>
-        <source>Folder</source>
-        <comment>All other platforms</comment>
-        <translation>Klasör</translation>
-    </message>
-    <message>
-        <source>Alias</source>
-        <comment>macOS Finder</comment>
-        <translation>Arma</translation>
-    </message>
-    <message>
-        <source>Shortcut</source>
-        <comment>All other platforms</comment>
-        <translation>Kısayol</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation>Bilinmeyen</translation>
-    </message>
-</context>
-<context>
-    <name>QCocoaMenuBar</name>
-    <message>
-        <source>Edit</source>
-        <translation>Düzen</translation>
+        <translation>Ogiltig teckenreferens.</translation>
     </message>
 </context>
 <context>
     <name>quiaccessibilityelement</name>
     <message>
         <source>checked</source>
-        <translation>işaretli</translation>
+        <translation>markerad</translation>
     </message>
     <message>
         <source>unchecked</source>
-        <translation>işaretsiz</translation>
-    </message>
-</context>
-<context>
-    <name>QMimerSQL</name>
-    <message>
-        <source>No Mimer SQL error for code %1</source>
-        <translation>%1 kodu için Mimer SQL hatası yok</translation>
-    </message>
-    <message>
-        <source>Generic Mimer SQL error</source>
-        <translation>Genel Mimer SQL hatası</translation>
-    </message>
-</context>
-<context>
-    <name>QMimerSQLResult</name>
-    <message>
-        <source>Could not get %1, column %2</source>
-        <extracomment>Data type, column</extracomment>
-        <translation>%1 alınamadı, sütun %2</translation>
-    </message>
-    <message>
-        <source>Could not set %1, parameter %2</source>
-        <extracomment>Data type, parameter</extracomment>
-        <translation>%1 ayarlanamadı, parametre %2</translation>
-    </message>
-    <message>
-        <source>Could not close cursor</source>
-        <translation>İmleç kapatılamadı</translation>
-    </message>
-    <message>
-        <source>Could not close statement</source>
-        <translation>İfade kapatılamadı</translation>
-    </message>
-    <message>
-        <source>Fetch did not succeed</source>
-        <translation>Getirme başarısız</translation>
-    </message>
-    <message>
-        <source>Fetch first did not succeed</source>
-        <translation>Getirme, ilk başta başarısız</translation>
-    </message>
-    <message>
-        <source>Could not fetch next row</source>
-        <translation>Sonraki satır getirilemedi</translation>
-    </message>
-    <message>
-        <source>Unknown data type %1</source>
-        <translation>Bilinmeyen veri türü %1</translation>
-    </message>
-    <message>
-        <source>Could not check null, column %1</source>
-        <translation>Boş veri denetlenemedi, sütun %1</translation>
-    </message>
-    <message>
-        <source>Could not prepare/execute statement</source>
-        <translation>İfade hazırlanamadı/yürütülemedi</translation>
-    </message>
-    <message>
-        <source>Wrong number of parameters</source>
-        <translation>Yanlış parametre sayısı</translation>
-    </message>
-    <message>
-        <source>Unknown datatype, parameter %1</source>
-        <translation>Bilinmeyen veri türü, parametre %1</translation>
-    </message>
-    <message>
-        <source>Could not execute statement/open cursor</source>
-        <translation>İfade yürütülemedi/imleç açılamadı</translation>
-    </message>
-    <message>
-        <source>Only input parameters can be used in batch operations</source>
-        <translation>Toplu işlemlerde yalnızca girdi parametreleri kullanılabilir</translation>
-    </message>
-    <message>
-        <source>Could not add batch %1</source>
-        <extracomment>%1 is the batch number</extracomment>
-        <translation>%1 toplu işi eklenemedi</translation>
-    </message>
-    <message>
-        <source>Could not execute batch</source>
-        <translation>Toplu iş yürütülemedi</translation>
-    </message>
-</context>
-<context>
-    <name>QMimerSQLResult:</name>
-    <message>
-        <source>Fetch last did not succeed</source>
-        <translation>Sonuncuyu getirme başarısız</translation>
-    </message>
-    <message>
-        <source>Column %1 out of range</source>
-        <translation>Sütun %1 erim dışında</translation>
-    </message>
-</context>
-<context>
-    <name>QMimerSQLDriver</name>
-    <message>
-        <source>Could not connect to database</source>
-        <translation>Veritabanına bağlanamadı</translation>
-    </message>
-    <message>
-        <source>Could not start transaction</source>
-        <translation>İşlem başlatılamadı</translation>
-    </message>
-    <message>
-        <source>Could not commit transaction</source>
-        <translation>İşlem gerçekleştirilemedi</translation>
-    </message>
-    <message>
-        <source>Could not roll back transaction</source>
-        <translation>İşlem geri alınamadı</translation>
-    </message>
-</context>
-<context>
-    <name>QAxSelect</name>
-    <message>
-        <source>Select ActiveX Control</source>
-        <translation>ActiveX Denetimi Seç</translation>
-    </message>
-    <message>
-        <source>Filter</source>
-        <translation>Süzgeç</translation>
-    </message>
-    <message>
-        <source>COM &amp;Object:</source>
-        <translation>COM &amp;nesnesi:</translation>
-    </message>
-    <message>
-        <source>Sandboxing:</source>
-        <translation>Yalıtım:</translation>
-    </message>
-    <message>
-        <source>Name:</source>
-        <translation>Ad:</translation>
-    </message>
-    <message>
-        <source>Type:</source>
-        <translation>Tür:</translation>
-    </message>
-    <message>
-        <source>In process</source>
-        <translation>Sürüyor</translation>
-    </message>
-    <message>
-        <source>Out of process</source>
-        <translation>Süreç dışı</translation>
-    </message>
-    <message>
-        <source>CLSID:</source>
-        <translation>CLSID:</translation>
-    </message>
-    <message>
-        <source>Key:</source>
-        <translation>Anahtar:</translation>
-    </message>
-    <message>
-        <source>Word&amp;nbsp;size:</source>
-        <translation>Sözcük&amp;nbsp;boyutu:</translation>
-    </message>
-    <message>
-        <source>DLL:</source>
-        <translation>DLL:</translation>
-    </message>
-    <message>
-        <source>Binary:</source>
-        <translation>İkili:</translation>
-    </message>
-    <message>
-        <source>Version:</source>
-        <translation>Sürüm:</translation>
+        <translation>avmarkerad</translation>
     </message>
 </context>
 <context>
@@ -7676,52 +7621,52 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Empty document</source>
         <extracomment>application/x-zerosize</extracomment>
-        <translation>Boş belge</translation>
+        <translation>Tomt dokument</translation>
     </message>
     <message>
         <source>Desktop file</source>
         <extracomment>application/x-desktop</extracomment>
-        <translation>Masaüstü dosyası</translation>
+        <translation>Skrivbordsfil</translation>
     </message>
     <message>
         <source>Qt Markup Language file</source>
         <extracomment>text/x-qml</extracomment>
-        <translation>Qt Markup Language dosyası</translation>
+        <translation>Qt Markup Language-fil</translation>
     </message>
     <message>
         <source>Compressed postscript</source>
         <extracomment>application/x-gzpostscript</extracomment>
-        <translation>Sıkıştırılmış PostScript</translation>
+        <translation>Komprimerad postscript</translation>
     </message>
     <message>
         <source>Core dump</source>
         <extracomment>application/x-core</extracomment>
-        <translation>Çekirdek dökümü</translation>
+        <translation>Minnesdump</translation>
     </message>
     <message>
         <source>BZip2 compressed tar file</source>
         <extracomment>application/x-bzip2-compressed-tar</extracomment>
-        <translation>BZip2 sıkıştırılmış TAR dosyası</translation>
+        <translation>BZip2-komprimerad tar-fil</translation>
     </message>
     <message>
         <source>Directory</source>
         <extracomment>inode/directory</extracomment>
-        <translation>Dizin</translation>
+        <translation>Katalog</translation>
     </message>
     <message>
         <source>Windows Batch / Command File</source>
         <extracomment>application/x-bat</extracomment>
-        <translation>Windows toplu iş/komut dosyası</translation>
+        <translation>Windows Batch / kommandofil</translation>
     </message>
     <message>
         <source>BizAgi Process Modeler</source>
         <extracomment>application/bizagi-modeler</extracomment>
-        <translation>BizAgi süreç modelleyicisi</translation>
+        <translation>BizAgi Process Modeler</translation>
     </message>
     <message>
         <source>Concise Binary Object Representation container</source>
         <extracomment>application/cbor</extracomment>
-        <translation>Concise Binary Object Representation kapsayıcısı</translation>
+        <translation>Concise Binary Object Representation-behållare</translation>
     </message>
     <message>
         <source>CorelDraw</source>
@@ -7731,7 +7676,7 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>DICOM medical imaging data</source>
         <extracomment>application/dicom</extracomment>
-        <translation>DICOM medikal görselleştirme verisi</translation>
+        <translation>DICOM medicinsk bilddata</translation>
     </message>
     <message>
         <source>Darwin Information Typing Architecture</source>
@@ -7741,17 +7686,17 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>DVD information file</source>
         <extracomment>application/x-dvd-ifo</extracomment>
-        <translation>DVD bilgisi dosyası</translation>
+        <translation>DVD-informationsfil</translation>
     </message>
     <message>
         <source>EBU-STL subtitles</source>
         <extracomment>application/x-ebu-stl</extracomment>
-        <translation>EBU-STL altyazıları</translation>
+        <translation>EBU-STL-undertexter</translation>
     </message>
     <message>
         <source>Electronic Publication</source>
         <extracomment>application/epub+zip</extracomment>
-        <translation>Elektronik yayım</translation>
+        <translation>Electronic Publication</translation>
     </message>
     <message>
         <source>Flexible Image Transport System</source>
@@ -7761,47 +7706,54 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Adobe Illustrator Artwork</source>
         <extracomment>application/illustrator</extracomment>
-        <translation>Adobe Illustrator sanatı</translation>
+        <translation>Adobe Illustrator Artwork</translation>
     </message>
     <message>
         <source>Adobe Illustrator Artwork -- the older postscript based AI files</source>
         <extracomment>application/illustrator+ps</extracomment>
-        <translation>Adobe Illustrator sanatı — eski PostScript tabanlı AI dosyaları</translation>
+        <translation>Adobe Illustrator Artwork -- äldre postscript-baserade AI-filer</translation>
     </message>
     <message>
         <source>Windows setup INFormation</source>
         <extracomment>application/inf</extracomment>
-        <translation>Windows kurulum bilgisi</translation>
+        <translation>Windows setup INFormation</translation>
     </message>
     <message>
         <source>Java Archive</source>
         <extracomment>application/java-archive</extracomment>
-        <translation>Java arşivi</translation>
+        <translation>Java-arkiv</translation>
     </message>
     <message>
         <source>JavaScript Source Code</source>
         <extracomment>text/javascript</extracomment>
-        <translation>JavaScript kaynak kodu</translation>
+        <translation>JavaScript-källkod</translation>
     </message>
     <message>
         <source>Web Application Manifest file</source>
         <extracomment>application/manifest+json</extracomment>
-        <translation>Web uygulaması manifestosu dosyası</translation>
+        <translation>Web Application Manifest-fil</translation>
     </message>
     <message>
         <source>Java Class File</source>
         <extracomment>application/java-vm</extracomment>
-        <translation>Java sınıf dosyası</translation>
+        <translation>Java-klassfil</translation>
+    </message>
+    <message>
+        <source>Mach-O Universal</source>
+        <extracomment>application/x-mach-o-universal</extracomment>
+        <translation>Mach-O Universal</translation>
     </message>
     <message>
         <source>Java Native Library for OSX</source>
         <extracomment>application/x-java-jnilib</extracomment>
-        <translation>macOS için Java yerel kitaplığı</translation>
+        <translation>Java Native Library för OSX</translation>
     </message>
     <message>
         <source>Java hprof text file</source>
-        <extracomment>application/vnd.java.hprof----------application/vnd.java.hprof.text</extracomment>
-        <translation>Java hprof metin dosyası</translation>
+        <extracomment>application/vnd.java.hprof 
+----------
+application/vnd.java.hprof.text</extracomment>
+        <translation>Java hprof-textfil</translation>
     </message>
     <message>
         <source>Wolfram Mathematica</source>
@@ -7816,42 +7768,42 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Adobe MIF File</source>
         <extracomment>application/vnd.mif</extracomment>
-        <translation>Adobe MIF dosyası</translation>
+        <translation>Adobe MIF-fil</translation>
     </message>
     <message>
         <source>QuickTime container format</source>
         <extracomment>application/quicktime</extracomment>
-        <translation>QuickTime kapsayıcı biçimi</translation>
+        <translation>QuickTime-containerformat</translation>
     </message>
     <message>
         <source>MP4 container format</source>
         <extracomment>application/mp4</extracomment>
-        <translation>MP4 kapsayıcı biçimi</translation>
+        <translation>MP4-containerformat</translation>
     </message>
     <message>
         <source>Microsoft Word Document</source>
         <extracomment>application/msword</extracomment>
-        <translation>Microsoft Word belgesi</translation>
+        <translation>Microsoft Word-dokument</translation>
     </message>
     <message>
         <source>Microsoft Word 2 Document</source>
         <extracomment>application/msword2</extracomment>
-        <translation>Microsoft Word 2 belgesi</translation>
+        <translation>Microsoft Word 2-dokument</translation>
     </message>
     <message>
         <source>Microsoft Word 5 Document</source>
         <extracomment>application/msword5</extracomment>
-        <translation>Microsoft Word 5 belgesi</translation>
+        <translation>Microsoft Word 5-dokument</translation>
     </message>
     <message>
         <source>OneNote Package</source>
         <extracomment>application/onenote; format=package</extracomment>
-        <translation>OneNote paketi</translation>
+        <translation>OneNote-paket</translation>
     </message>
     <message>
         <source>Portable Document Format</source>
         <extracomment>application/pdf</extracomment>
-        <translation>Taşınabilir belge biçimi</translation>
+        <translation>Portable Document Format</translation>
     </message>
     <message>
         <source>PostScript</source>
@@ -7861,122 +7813,122 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Excel 2003 xml format, pre-ooxml</source>
         <extracomment>application/vnd.ms-spreadsheetml</extracomment>
-        <translation>Excel 2003 XML biçimi, OOXML öncesi</translation>
+        <translation>Excel 2003 xml-format, före ooxml</translation>
     </message>
     <message>
         <source>Word 2003 xml format, pre-ooxml</source>
         <extracomment>application/vnd.ms-wordml</extracomment>
-        <translation>Word 2003 XML biçimi, OOXML öncesi</translation>
+        <translation>Word 2003 xml-format, före ooxml</translation>
     </message>
     <message>
         <source>Word 2006 xml format, pre-ooxml</source>
         <extracomment>application/vnd.ms-word2006ml</extracomment>
-        <translation>Word 2006 XML biçimi, OOXML öncesi</translation>
+        <translation>Word 2006 xml-format, före ooxml</translation>
     </message>
     <message>
         <source>XML syntax for RDF graphs</source>
         <extracomment>application/rdf+xml</extracomment>
-        <translation>RDF grafikleri için XML sözdizimi</translation>
+        <translation>XML-syntax för RDF-diagram</translation>
     </message>
     <message>
         <source>Rich Text Format File</source>
         <extracomment>application/rtf</extracomment>
-        <translation>Zengin metin biçimi dosyası</translation>
+        <translation>Rich Text Format-fil</translation>
     </message>
     <message>
         <source>Sereal binary serialization format</source>
         <extracomment>application/sereal</extracomment>
-        <translation>Sereal ikili dizileştirme biçimi</translation>
+        <translation>Sereal binärt serialiseringsformat</translation>
     </message>
     <message>
         <source>SMIL Multimedia</source>
         <extracomment>application/smil+xml</extracomment>
-        <translation>SMIL çoklu ortam dosyası</translation>
+        <translation>SMIL Multimedia</translation>
     </message>
     <message>
         <source>SolidWorks CAD program</source>
         <extracomment>application/sldworks</extracomment>
-        <translation>SolidWorks CAD programı</translation>
+        <translation>SolidWorks CAD-program</translation>
     </message>
     <message>
         <source>Password Protected iWorks File</source>
         <extracomment>application/x-tika-iworks-protected</extracomment>
-        <translation>Parola korumalı iWorks dosyası</translation>
+        <translation>Lösenordsskyddad iWorks-fil</translation>
     </message>
     <message>
         <source>web archive frictionless zip</source>
         <extracomment>application/x-wacz</extracomment>
-        <translation>Sürtünmesiz ZIP web arşivi</translation>
+        <translation>webbarkiv friktionsfritt zip</translation>
     </message>
     <message>
         <source>frictionless data package zip package</source>
         <extracomment>application/x-vnd.datapackage+zip</extracomment>
-        <translation>Sürtünmesiz ZIP veri paketi</translation>
+        <translation>friktionsfritt datapaket zip-paket</translation>
     </message>
     <message>
         <source>frictionless data package - standalong datapackage.json</source>
         <extracomment>application/x-vnd.datapackage+json</extracomment>
-        <translation>Sürtünmesiz veri paketi — tekil datapackage.json</translation>
+        <translation>friktionsfritt datapaket – fristående datapackage.json</translation>
     </message>
     <message>
         <source>frictionless data package - gzip of standalone datapackage.json</source>
         <extracomment>application/x-vnd.datapackage+gz</extracomment>
-        <translation>Sürtünmesiz veri paketi — tekil datapackage.json GZIP’i</translation>
+        <translation>friktionsfritt datapaket – gzip av fristående datapackage.json</translation>
     </message>
     <message>
         <source>digilite.eu Prolights configuration file</source>
         <extracomment>application/vnd.digilite.prolights</extracomment>
-        <translation>digilite.eu Prolights yapılandırma dosyası</translation>
+        <translation>digilite.eu Prolights konfigurationsfil</translation>
     </message>
     <message>
         <source>Extended Associated Signature Container</source>
         <extracomment>application/vnd.etsi.asic-e+zip</extracomment>
-        <translation>Genişletilmiş ilişkili imza kapsayıcısı</translation>
+        <translation>Extended Associated Signature Container</translation>
     </message>
     <message>
         <source>Simple Associated Signature Container</source>
         <extracomment>application/vnd.etsi.asic-s+zip</extracomment>
-        <translation>Basit ilişkili imza kapsayıcısı</translation>
+        <translation>Simple Associated Signature Container</translation>
     </message>
     <message>
         <source>Forms Data Format</source>
         <extracomment>application/vnd.fdf</extracomment>
-        <translation>Forms veri biçimi</translation>
+        <translation>Forms Data Format</translation>
     </message>
     <message>
         <source>Keyhole Markup Language</source>
         <extracomment>application/vnd.google-earth.kml+xml</extracomment>
-        <translation>Keyhole işaretleme dili</translation>
+        <translation>Keyhole Markup Language</translation>
     </message>
     <message>
         <source>XML syntax for IPTC NewsMessages</source>
         <extracomment>application/vnd.iptc.g2.newsmessage+xml</extracomment>
-        <translation>IPTC NewsMessages için XML sözdizimi</translation>
+        <translation>XML-syntax för IPTC NewsMessages</translation>
     </message>
     <message>
         <source>KChart File</source>
         <extracomment>application/vnd.kde.kchart</extracomment>
-        <translation>KChart dosyası</translation>
+        <translation>KChart-fil</translation>
     </message>
     <message>
         <source>KPresenter File</source>
         <extracomment>application/vnd.kde.kpresenter</extracomment>
-        <translation>KPresenter dosyası</translation>
+        <translation>KPresenter-fil</translation>
     </message>
     <message>
         <source>KSpread File</source>
         <extracomment>application/vnd.kde.kspread</extracomment>
-        <translation>KSpread dosyası</translation>
+        <translation>KSpread-fil</translation>
     </message>
     <message>
         <source>KWord File</source>
         <extracomment>application/vnd.kde.kword</extracomment>
-        <translation>KWord dosyası</translation>
+        <translation>KWord-fil</translation>
     </message>
     <message>
         <source>SSEYO Koan File</source>
         <extracomment>application/vnd.koan</extracomment>
-        <translation>SSEYO Koan dosyası</translation>
+        <translation>SSEYO Koan-fil</translation>
     </message>
     <message>
         <source>Lotus 1-2-3</source>
@@ -7986,32 +7938,32 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Lotus 1-2-3, version 1</source>
         <extracomment>application/vnd.lotus-1-2-3;version=1</extracomment>
-        <translation>Lotus 1-2-3, sürüm 1</translation>
+        <translation>Lotus 1-2-3, version 1</translation>
     </message>
     <message>
         <source>Lotus 1-2-3, version 2</source>
         <extracomment>application/vnd.lotus-1-2-3;version=2</extracomment>
-        <translation>Lotus 1-2-3, sürüm 2</translation>
+        <translation>Lotus 1-2-3, version 2</translation>
     </message>
     <message>
         <source>Lotus 1-2-3, version 3</source>
         <extracomment>application/vnd.lotus-1-2-3;version=3</extracomment>
-        <translation>Lotus 1-2-3, sürüm 3</translation>
+        <translation>Lotus 1-2-3, version 3</translation>
     </message>
     <message>
         <source>Lotus 1-2-3, version 4-5</source>
         <extracomment>application/vnd.lotus-1-2-3;version=4</extracomment>
-        <translation>Lotus 1-2-3, sürüm 4–5</translation>
+        <translation>Lotus 1-2-3, version 4-5</translation>
     </message>
     <message>
         <source>Lotus 1-2-3, version 97/9.x</source>
         <extracomment>application/vnd.lotus-1-2-3;version=97+9.x</extracomment>
-        <translation>Lotus 1-2-3, sürüm 97/9.x</translation>
+        <translation>Lotus 1-2-3, version 97/9.x</translation>
     </message>
     <message>
         <source>FrameMaker Interchange Format</source>
         <extracomment>application/vnd.mif</extracomment>
-        <translation>FrameMaker değişim biçimi</translation>
+        <translation>FrameMaker Interchange Format</translation>
     </message>
     <message>
         <source>MindManager</source>
@@ -8021,316 +7973,320 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Microsoft Excel Spreadsheet</source>
         <extracomment>application/vnd.ms-excel</extracomment>
-        <translation>Microsoft Excel hesap tablosu</translation>
+        <translation>Microsoft Excel-kalkylark</translation>
     </message>
     <message>
         <source>Office Open XML Workbook Add-in (macro-enabled)</source>
         <extracomment>application/vnd.ms-excel.addin.macroenabled.12</extracomment>
-        <translation>Office Open XML çalışma kitabı eklentisi (makrolar etkin)</translation>
+        <translation>Office Open XML-arbetsbokstillägg (makroaktiverat)</translation>
     </message>
     <message>
         <source>Office Open XML Workbook (macro-enabled)</source>
         <extracomment>application/vnd.ms-excel.sheet.macroenabled.12</extracomment>
-        <translation>Office Open XML çalışma kitabı (makrolar etkin)</translation>
+        <translation>Office Open XML-arbetsbok (makroaktiverad)</translation>
     </message>
     <message>
         <source>Microsoft Excel 2007 Binary Spreadsheet</source>
         <extracomment>application/vnd.ms-excel.sheet.binary.macroenabled.12</extracomment>
-        <translation>Microsoft Excel 2007 ikili hesap tablosu</translation>
+        <translation>Microsoft Excel 2007 binärt kalkylblad</translation>
     </message>
     <message>
         <source>Microsoft Excel 4 Worksheet</source>
         <extracomment>application/vnd.ms-excel.sheet.4</extracomment>
-        <translation>Microsoft Excel 4 çalışma sayfası</translation>
+        <translation>Microsoft Excel 4-kalkylblad</translation>
     </message>
     <message>
         <source>Microsoft Excel 4 Workspace</source>
         <extracomment>application/vnd.ms-excel.workspace.4</extracomment>
-        <translation>Microsoft Excel 4 çalışma alanı</translation>
+        <translation>Microsoft Excel 4-arbetsyta</translation>
     </message>
     <message>
         <source>Microsoft Excel 3 Worksheet</source>
         <extracomment>application/vnd.ms-excel.sheet.3</extracomment>
-        <translation>Microsoft Excel 3 çalışma sayfası</translation>
+        <translation>Microsoft Excel 3-kalkylblad</translation>
     </message>
     <message>
         <source>Microsoft Excel 3 Workspace</source>
         <extracomment>application/vnd.ms-excel.workspace.3</extracomment>
-        <translation>Microsoft Excel 3 çalışma alanı</translation>
+        <translation>Microsoft Excel 3-arbetsyta</translation>
     </message>
     <message>
         <source>Microsoft Excel 2 Worksheet</source>
         <extracomment>application/vnd.ms-excel.sheet.2</extracomment>
-        <translation>Microsoft Excel 2 çalışma sayfası</translation>
+        <translation>Microsoft Excel 2-kalkylblad</translation>
     </message>
     <message>
         <source>Microsoft Outlook Message</source>
         <extracomment>application/vnd.ms-outlook</extracomment>
-        <translation>Microsoft Outlook iletisi</translation>
+        <translation>Microsoft Outlook-meddelande</translation>
     </message>
     <message>
         <source>Outlook Personal Folders File Format</source>
         <extracomment>application/vnd.ms-outlook-pst</extracomment>
-        <translation>Outlook kişisel klasörler dosya biçimi</translation>
+        <translation>Outlook filformat för personliga mappar</translation>
     </message>
     <message>
         <source>3D manufacturing format</source>
         <extracomment>application/vnd.ms-package.3dmanufacturing-3dmodel+xml</extracomment>
-        <translation>3B üretim biçimi</translation>
+        <translation>3D manufacturing-format</translation>
     </message>
     <message>
         <source>Microsoft Powerpoint Presentation</source>
         <extracomment>application/vnd.ms-powerpoint</extracomment>
-        <translation>Microsoft Powerpoint sunusu</translation>
+        <translation>Microsoft Powerpoint-presentation</translation>
     </message>
     <message>
         <source>Office Open XML Presentation Add-in (macro-enabled)</source>
         <extracomment>application/vnd.ms-powerpoint.addin.macroenabled.12</extracomment>
-        <translation>Office Open XML sunusu eklentisi (makrolar etkin)</translation>
+        <translation>Office Open XML-presentationstillägg (makroaktiverat)</translation>
     </message>
     <message>
         <source>Office Open XML Presentation (macro-enabled)</source>
         <extracomment>application/vnd.ms-powerpoint.presentation.macroenabled.12</extracomment>
-        <translation>Office Open XML sunusu (makrolar etkin)</translation>
+        <translation>Office Open XML-presentation (makroaktiverad)</translation>
     </message>
     <message>
         <source>Office Open XML Presentation Slideshow (macro-enabled)</source>
         <extracomment>application/vnd.ms-powerpoint.slideshow.macroenabled.12</extracomment>
-        <translation>Office Open XML slayt gösterisi (makrolar etkin)</translation>
+        <translation>Office Open XML-presentationsbildspel (makroaktiverat)</translation>
     </message>
     <message>
         <source>Office Open XML Document (macro-enabled)</source>
         <extracomment>application/vnd.ms-word.document.macroenabled.12</extracomment>
-        <translation>Office Open XML belgesi (makrolar etkin)</translation>
+        <translation>Office Open XML-dokument (makroaktiverat)</translation>
     </message>
     <message>
         <source>Office Open XML Document Template (macro-enabled)</source>
         <extracomment>application/vnd.ms-word.template.macroenabled.12</extracomment>
-        <translation>Office Open XML belge şablonu (makrolar etkin)</translation>
+        <translation>Office Open XML-dokumentmall (makroaktiverad)</translation>
     </message>
     <message>
         <source>Open XML Paper Specification</source>
         <extracomment>application/vnd.ms-xpsdocument</extracomment>
-        <translation>Open XML kâğıt belirtimi</translation>
+        <translation>Open XML-pappersspecifikation</translation>
     </message>
     <message>
         <source>Magic Shadow Archiver</source>
         <extracomment>application/vnd.msa-disk-image</extracomment>
-        <translation>Magic Shadow arşivleyicisi</translation>
+        <translation>Magic Shadow Archiver</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Chart document</source>
         <extracomment>application/vnd.oasis.opendocument.chart</extracomment>
-        <translation>OpenDocument v1.0: Çizelge belgesi</translation>
+        <translation>OpenDocument v1.0: Chart-dokument</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Chart document used as template</source>
         <extracomment>application/vnd.oasis.opendocument.chart-template</extracomment>
-        <translation>OpenDocument v1.0: Şablon olarak kullanılan çizelge belgesi</translation>
+        <translation>OpenDocument v1.0: Chart-dokument som används som mall</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Formula document</source>
         <extracomment>application/vnd.oasis.opendocument.formula</extracomment>
-        <translation>OpenDocument v1.0: Formül belgesi</translation>
+        <translation>OpenDocument v1.0: Formula-dokument</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Formula document used as template</source>
         <extracomment>application/vnd.oasis.opendocument.formula-template</extracomment>
-        <translation>OpenDocument v1.0: Şablon olarak kullanılan formül belgesi</translation>
+        <translation>OpenDocument v1.0: Formeldokument som används som mall</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Graphics document (Drawing)</source>
         <extracomment>application/vnd.oasis.opendocument.graphics</extracomment>
-        <translation>OpenDocument v1.0: Grafik belgesi (çizim)</translation>
+        <translation>OpenDocument v1.0: Grafikdokument (Ritning)</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Graphics document used as template</source>
         <extracomment>application/vnd.oasis.opendocument.graphics-template</extracomment>
-        <translation>OpenDocument v1.0: Şablon olarak kullanılan grafik belgesi</translation>
+        <translation>OpenDocument v1.0: Grafikdokument som används som mall</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Image document</source>
         <extracomment>application/vnd.oasis.opendocument.image</extracomment>
-        <translation>OpenDocument v1.0: Görsel belgesi</translation>
+        <translation>OpenDocument v1.0: Bilddokument</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Image document used as template</source>
         <extracomment>application/vnd.oasis.opendocument.image-template</extracomment>
-        <translation>OpenDocument v1.0: Şablon olarak kullanılan görsel belgesi</translation>
+        <translation>OpenDocument v1.0: Bilddokument som används som mall</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Presentation document</source>
         <extracomment>application/vnd.oasis.opendocument.presentation</extracomment>
-        <translation>OpenDocument v1.0: Sunum belgesi</translation>
+        <translation>OpenDocument v1.0: Presentationsdokument</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Presentation document used as template</source>
         <extracomment>application/vnd.oasis.opendocument.presentation-template</extracomment>
-        <translation>OpenDocument v1.0: Şablon olarak kullanılan sunum belgesi</translation>
+        <translation>OpenDocument v1.0: Presentationsdokument som används som mall</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Spreadsheet document</source>
         <extracomment>application/vnd.oasis.opendocument.spreadsheet</extracomment>
-        <translation>OpenDocument v1.0: Hesap tablosu belgesi</translation>
+        <translation>OpenDocument v1.0: Kalkylbladsdokument</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Spreadsheet document used as template</source>
         <extracomment>application/vnd.oasis.opendocument.spreadsheet-template</extracomment>
-        <translation>OpenDocument v1.0: Şablon olarak kullanılan hesap tablosu belgesi</translation>
+        <translation>OpenDocument v1.0: Kalkylbladsdokument som används som mall</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Text document</source>
         <extracomment>application/vnd.oasis.opendocument.text</extracomment>
-        <translation>OpenDocument v1.0: Metin belgesi</translation>
+        <translation>OpenDocument v1.0: Textdokument</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Flat Text document</source>
-        <extracomment>application/vnd.oasis.opendocument.tika.flat.document----------application/vnd.oasis.opendocument.flat.text</extracomment>
-        <translation>OpenDocument v1.0: Düz metin belgesi</translation>
+        <extracomment>application/vnd.oasis.opendocument.tika.flat.document
+----------
+application/vnd.oasis.opendocument.flat.text</extracomment>
+        <translation>OpenDocument v1.0: Platt textdokument</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Flat Presentation document</source>
         <extracomment>application/vnd.oasis.opendocument.flat.presentation</extracomment>
-        <translation>OpenDocument v1.0: Düz sunum belgesi</translation>
+        <translation>OpenDocument v1.0: Platt presentationsdokument</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Flat Spreadsheet document</source>
         <extracomment>application/vnd.oasis.opendocument.flat.spreadsheet</extracomment>
-        <translation>OpenDocument v1.0: Düz hesap tablosu belgesi</translation>
+        <translation>OpenDocument v1.0: Platt kalkylbladsdokument</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Global Text document</source>
         <extracomment>application/vnd.oasis.opendocument.text-master</extracomment>
-        <translation>OpenDocument v1.0: Global metin belgesi</translation>
+        <translation>OpenDocument v1.0: Globalt textdokument</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Text document used as template</source>
         <extracomment>application/vnd.oasis.opendocument.text-template</extracomment>
-        <translation>OpenDocument v1.0: Şablon olarak kullanılan metin belgesi</translation>
+        <translation>OpenDocument v1.0: Textdokument som används som mall</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Text document used as template for HTML documents</source>
         <extracomment>application/vnd.oasis.opendocument.text-web</extracomment>
-        <translation>OpenDocument v1.0: HTML belgeleri için şablon olarak kullanılan metin belgesi</translation>
+        <translation>OpenDocument v1.0: Textdokument som används som mall för HTML-dokument</translation>
     </message>
     <message>
         <source>Office Open XML Presentation</source>
         <extracomment>application/vnd.openxmlformats-officedocument.presentationml.presentation</extracomment>
-        <translation>Office Open XML sunusu</translation>
+        <translation>Office Open XML-presentation</translation>
     </message>
     <message>
         <source>Office Open XML Presentation Template</source>
         <extracomment>application/vnd.openxmlformats-officedocument.presentationml.template</extracomment>
-        <translation>Office Open XML sunusu şablonu</translation>
+        <translation>Office Open XML-presentationsmall</translation>
     </message>
     <message>
         <source>Office Open XML Presentation Slideshow</source>
         <extracomment>application/vnd.openxmlformats-officedocument.presentationml.slideshow</extracomment>
-        <translation>Office Open XML sunusu slayt gösterisi</translation>
+        <translation>Office Open XML-presentationsbildspel</translation>
     </message>
     <message>
         <source>Office Open XML Workbook</source>
         <extracomment>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</extracomment>
-        <translation>Office Open XML çalışma kitabı</translation>
+        <translation>Office Open XML-arbetsbok</translation>
     </message>
     <message>
         <source>Office Open XML Workbook Template</source>
         <extracomment>application/vnd.openxmlformats-officedocument.spreadsheetml.template</extracomment>
-        <translation>Office Open XML çalışma kitabı şablonu</translation>
+        <translation>Office Open XML-arbetsboksmall</translation>
     </message>
     <message>
         <source>Office Open XML Workbook Template (macro-enabled)</source>
         <extracomment>application/vnd.ms-excel.template.macroenabled.12</extracomment>
-        <translation>Office Open XML çalışma kitabı şablonu (makrolar etkin)</translation>
+        <translation>Office Open XML-arbetsboksmall (makroaktiverad)</translation>
     </message>
     <message>
         <source>Office Open XML Document</source>
         <extracomment>application/vnd.openxmlformats-officedocument.wordprocessingml.document</extracomment>
-        <translation>Office Open XML belgesi</translation>
+        <translation>Office Open XML-dokument</translation>
     </message>
     <message>
         <source>Office Open XML Document Template</source>
         <extracomment>application/vnd.openxmlformats-officedocument.wordprocessingml.template</extracomment>
-        <translation>Office Open XML belgesi şablonu</translation>
+        <translation>Office Open XML-dokumentmall</translation>
     </message>
     <message>
         <source>SubRip (srt) subtitles</source>
         <extracomment>application/x-subrip</extracomment>
-        <translation>SubRip (srt) altyazıları</translation>
+        <translation>SubRip (srt) undertexter</translation>
     </message>
     <message>
         <source>OpenOffice v1.0: Writer Document</source>
         <extracomment>application/vnd.sun.xml.writer</extracomment>
-        <translation>OpenOffice v1.0: Writer belgesi</translation>
+        <translation>OpenOffice v1.0: Writer-dokument</translation>
     </message>
     <message>
         <source>TCPDump pcap packet capture</source>
         <extracomment>application/vnd.tcpdump.pcap</extracomment>
-        <translation>TCPDump pcap paket yakalaması</translation>
+        <translation>TCPDump pcap-paketfångst</translation>
     </message>
     <message>
         <source>TCPDump next gen pcap packet capture</source>
         <extracomment>application/vnd.tcpdump.pcapng</extracomment>
-        <translation>TCPDump next gen pcap paket yakalaması</translation>
+        <translation>TCPDump nästa generations pcap-paketfångst</translation>
     </message>
     <message>
         <source>TMX Translation Memory</source>
         <extracomment>application/x-tmx</extracomment>
-        <translation>TMX çeviri belleği</translation>
+        <translation>TMX-översättningsminne</translation>
     </message>
     <message>
         <source>Microsoft Visio Diagram</source>
         <extracomment>application/vnd.visio</extracomment>
-        <translation>Microsoft Visio diyagramı</translation>
+        <translation>Microsoft Visio-diagram</translation>
     </message>
     <message>
         <source>Office Open XML Visio Drawing (macro-free)</source>
         <extracomment>application/vnd.ms-visio.drawing</extracomment>
-        <translation>Office Open XML Visio çizimi (makrosuz)</translation>
+        <translation>Office Open XML Visio-ritning (makrofri)</translation>
     </message>
     <message>
         <source>Office Open XML Visio Template (macro-free)</source>
         <extracomment>application/vnd.ms-visio.template</extracomment>
-        <translation>Office Open XML Visio şablonu (makrosuz)</translation>
+        <translation>Office Open XML Visio-mall (makrofri)</translation>
     </message>
     <message>
         <source>Office Open XML Visio Stencil (macro-free)</source>
         <extracomment>application/vnd.ms-visio.stencil</extracomment>
-        <translation>Office Open XML Visio kalıbı (makrosuz)</translation>
+        <translation>Office Open XML Visio-stencil (makrofri)</translation>
     </message>
     <message>
         <source>Office Open XML Visio Drawing (macro-enabled)</source>
         <extracomment>application/vnd.ms-visio.drawing.macroEnabled.12</extracomment>
-        <translation>Office Open XML Visio çizimi (makrolar etkin)</translation>
+        <translation>Office Open XML Visio-ritning (makroaktiverad)</translation>
     </message>
     <message>
         <source>Office Open XML Visio Template (macro-enabled)</source>
         <extracomment>application/vnd.ms-visio.template.macroEnabled.12</extracomment>
-        <translation>Office Open XML Visio şablonu (makrolar etkin)</translation>
+        <translation>Office Open XML Visio-mall (makroaktiverad)</translation>
     </message>
     <message>
         <source>Office Open XML Visio Stencil (macro-enabled)</source>
         <extracomment>application/vnd.ms-visio.stencil.macroEnabled.12</extracomment>
-        <translation>Office Open XML Visio kalıbı (makrolar etkin)</translation>
+        <translation>Office Open XML Visio-stencil (makroaktiverad)</translation>
     </message>
     <message>
         <source>Compiled WML Document</source>
         <extracomment>application/vnd.wap.wmlc</extracomment>
-        <translation>Derlenmiş WML belgesi</translation>
+        <translation>Kompilerat WML-dokument</translation>
     </message>
     <message>
         <source>Compiled WML Script</source>
         <extracomment>application/vnd.wap.wmlscriptc</extracomment>
-        <translation>Derlenmiş WML betiği</translation>
+        <translation>Kompilerat WML-skript</translation>
     </message>
     <message>
         <source>WordPerfect - Corel Word Processing</source>
         <extracomment>application/vnd.wordperfect</extracomment>
-        <translation>WordPerfect — Corel sözcük işleme</translation>
+        <translation>WordPerfect - Corel Word Processing</translation>
     </message>
     <message>
         <source>WARC</source>
-        <extracomment>application/warc----------application/warc+gz</extracomment>
+        <extracomment>application/warc
+----------
+application/warc+gz</extracomment>
         <translation>WARC</translation>
     </message>
     <message>
@@ -8341,7 +8297,7 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Targa image data</source>
         <extracomment>image/x-tga</extracomment>
-        <translation>Targa görseli verisi</translation>
+        <translation>Targa-bilddata</translation>
     </message>
     <message>
         <source>AxCrypt</source>
@@ -8351,12 +8307,12 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Adobe InDesign document</source>
         <extracomment>application/x-adobe-indesign</extracomment>
-        <translation>Adobe InDesign belgesi</translation>
+        <translation>Adobe InDesign-dokument</translation>
     </message>
     <message>
         <source>Flow Cytometry Standard File</source>
         <extracomment>application/vnd.isac.fcs</extracomment>
-        <translation>Flow Cytometry standardı dosyası</translation>
+        <translation>Flow Cytometry Standard File</translation>
     </message>
     <message>
         <source>IDML</source>
@@ -8366,12 +8322,12 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Adobe InDesign Interchange format</source>
         <extracomment>application/x-adobe-indesign-interchange</extracomment>
-        <translation>Adobe InDesign değişim biçimi</translation>
+        <translation>Adobe InDesign Interchange-format</translation>
     </message>
     <message>
         <source>ASPRS Lidar Data Exchange Format</source>
         <extracomment>application/x-asprs</extracomment>
-        <translation>ASPRS Lidar veri değişimi biçimi</translation>
+        <translation>ASPRS Lidar Data Exchange Format</translation>
     </message>
     <message>
         <source>Berkeley DB</source>
@@ -8381,12 +8337,12 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>CD Audio</source>
         <extracomment>application/x-cdf</extracomment>
-        <translation>CD sesi</translation>
+        <translation>CD-ljud</translation>
     </message>
     <message>
         <source>GNU tar Compressed File Archive (GNU Tape Archive)</source>
         <extracomment>application/x-gtar</extracomment>
-        <translation>GNU tar sıkıştırılmış dosya arşivi (GNU teyp arşivi)</translation>
+        <translation>GNU tar-komprimerat filarkiv (GNU Tape Archive)</translation>
     </message>
     <message>
         <source>Guitar Pro</source>
@@ -8396,67 +8352,67 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Amiga Disk File</source>
         <extracomment>application/x-amiga-disk-format</extracomment>
-        <translation>Amiga disk dosyası</translation>
+        <translation>Amiga Disk File</translation>
     </message>
     <message>
         <source>Bzip 2 UNIX Compressed File</source>
         <extracomment>application/x-bzip2</extracomment>
-        <translation>Bzip 2 UNIX sıkıştırılmış dosya</translation>
+        <translation>Bzip 2 UNIX-komprimerad fil</translation>
     </message>
     <message>
         <source>Virtual CD-ROM CD Image File</source>
         <extracomment>application/x-cdlink</extracomment>
-        <translation>Sanal CD-ROM CD kalıbı dosyası</translation>
+        <translation>Virtuell CD-ROM cd-avbildningsfil</translation>
     </message>
     <message>
         <source>Chrome Extension Package</source>
         <extracomment>application/x-chrome-package</extracomment>
-        <translation>Chrome genişletmesi paketi</translation>
+        <translation>Chrome-tilläggspaket</translation>
     </message>
     <message>
         <source>UNIX CPIO Archive</source>
         <extracomment>application/x-cpio</extracomment>
-        <translation>UNIX CPIO arşivi</translation>
+        <translation>UNIX CPIO-arkiv</translation>
     </message>
     <message>
         <source>Dalvik Executable Format</source>
         <extracomment>application/x-dex</extracomment>
-        <translation>Dalvik yürütülebilir biçimi</translation>
+        <translation>Dalvik Executable-format</translation>
     </message>
     <message>
         <source>Shockwave Movie</source>
         <extracomment>application/x-director</extracomment>
-        <translation>Shockwave filmi</translation>
+        <translation>Shockwave Movie</translation>
     </message>
     <message>
         <source>TeX Device Independent Document</source>
         <extracomment>application/x-dvi</extracomment>
-        <translation>TeX aygıttan bağımsız dosyası</translation>
+        <translation>TeX Device Independent Document</translation>
     </message>
     <message>
         <source>Emacs Lisp bytecode</source>
         <extracomment>application/x-elc</extracomment>
-        <translation>Emacs Lisp bayt kodu</translation>
+        <translation>Emacs Lisp-bytekod</translation>
     </message>
     <message>
         <source>fat disk image; extensions: ima, img, dsk</source>
         <extracomment>application/x-fat-diskimage</extracomment>
-        <translation>FAT diski kalıbı; uzantılar: ima, img, dsk</translation>
+        <translation>fat disk image; ändelser: ima, img, dsk</translation>
     </message>
     <message>
         <source>KIllustrator File</source>
         <extracomment>application/x-killustrator</extracomment>
-        <translation>KIllustrator dosyası</translation>
+        <translation>KIllustrator-fil</translation>
     </message>
     <message>
         <source>Modified Maximum Method Digisonde Portable Sounder File format</source>
         <extracomment>application/x-mmm-digisonde</extracomment>
-        <translation>Modified Maximum Method Digisonde Portable Sounder dosyası biçimi</translation>
+        <translation>Filformat för Modified Maximum Method Digisonde bärbar ionosond</translation>
     </message>
     <message>
         <source>DOS/Windows executable (EXE)</source>
         <extracomment>application/x-dosexec</extracomment>
-        <translation>DOS/Windows yürütülebiliri (EXE)</translation>
+        <translation>DOS/Windows körbar fil (EXE)</translation>
     </message>
     <message>
         <source>FileMaker Pro 7</source>
@@ -8466,42 +8422,42 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>OpenType Font</source>
         <extracomment>application/x-font-otf</extracomment>
-        <translation>OpenType yazıtipi</translation>
+        <translation>OpenType Font</translation>
     </message>
     <message>
         <source>TrueType Font</source>
         <extracomment>application/x-font-ttf</extracomment>
-        <translation>TrueType yazıtipi</translation>
+        <translation>TrueType Font</translation>
     </message>
     <message>
         <source>Adobe Font Metric</source>
         <extracomment>application/x-font-adobe-metric</extracomment>
-        <translation>Adobe yazıtipi ölçüsü</translation>
+        <translation>Adobe Font Metric</translation>
     </message>
     <message>
         <source>Printer Font Metric</source>
         <extracomment>application/x-font-printer-metric</extracomment>
-        <translation>Yazıcı yazıtipi ölçüsü</translation>
+        <translation>Printer Font Metric</translation>
     </message>
     <message>
         <source>Foxmail Email File</source>
         <extracomment>application/x-foxmail</extracomment>
-        <translation>Foxmail e-posta dosyası</translation>
+        <translation>Foxmail-epostfil</translation>
     </message>
     <message>
         <source>Macromedia FutureSplash File</source>
         <extracomment>application/x-futuresplash</extracomment>
-        <translation>Macromedia FutureSplash dosyası</translation>
+        <translation>Macromedia FutureSplash-fil</translation>
     </message>
     <message>
         <source>General Regularly-distributed Information in Binary form</source>
         <extracomment>application/x-grib</extracomment>
-        <translation>İkili biçimde genel düzenli olarak dağıtılan bilgi</translation>
+        <translation>General Regularly-distributed Information in Binary form</translation>
     </message>
     <message>
         <source>Gzip Compressed Archive</source>
         <extracomment>application/gzip</extracomment>
-        <translation>Gzip sıkıştırılmış arşivi</translation>
+        <translation>Gzip-komprimerat arkiv</translation>
     </message>
     <message>
         <source>https://en.wikipedia.org/wiki/Zstandard</source>
@@ -8511,37 +8467,37 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>ESRI Layer file</source>
         <extracomment>application/x-esri-layer</extracomment>
-        <translation>ESRI katmanı dosyası</translation>
+        <translation>ESRI Layer-fil</translation>
     </message>
     <message>
         <source>Hierarchical Data Format File</source>
         <extracomment>application/x-hdf</extracomment>
-        <translation>Hiyerarşik veri biçimi dosyası</translation>
+        <translation>Hierarchical Data Format-fil</translation>
     </message>
     <message>
         <source>Hangul Word Processor File</source>
         <extracomment>application/x-hwp</extracomment>
-        <translation>Hangul sözcük işlemcisi dosyası</translation>
+        <translation>Hangul Word Processor-fil</translation>
     </message>
     <message>
         <source>Hangul Word Processor File v5</source>
         <extracomment>application/x-hwp-v5</extracomment>
-        <translation>Hangul sözcük işlemcisi dosyası v5</translation>
+        <translation>Hangul Word Processor-fil v5</translation>
     </message>
     <message>
         <source>Hangul Word Processor File, zip based</source>
         <extracomment>application/hwp+zip</extracomment>
-        <translation>Hangul sözcük işlemcisi dosyası, ZIP tabanlı</translation>
+        <translation>Hangul Word Processor-fil, zip baserad</translation>
     </message>
     <message>
         <source>Apple iBooks Author publication format</source>
         <extracomment>application/x-ibooks+zip</extracomment>
-        <translation>Apple iBooks yazar yayım biçimi</translation>
+        <translation>Apple iBooks Author-publiceringsformat</translation>
     </message>
     <message>
         <source>NV5 Geospatial Interactive Data Language Save File</source>
         <extracomment>application/x-idl-save-file</extracomment>
-        <translation>NV5 coğrafi olarak uzamsal interaktif veri dili kayıt dosyası</translation>
+        <translation>NV5 Geospatial Interactive Data Language Save File</translation>
     </message>
     <message>
         <source>ARC</source>
@@ -8551,62 +8507,62 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>ISA-Tab Investigation file</source>
         <extracomment>application/x-isatab-investigation</extracomment>
-        <translation>ISA-Tab araştırma dosyası</translation>
+        <translation>ISA-Tab Investigation-fil</translation>
     </message>
     <message>
         <source>ISA-Tab Study file</source>
         <extracomment>application/x-isatab</extracomment>
-        <translation>ISA-Tab çalışma dosyası</translation>
+        <translation>ISA-Tab Study-fil</translation>
     </message>
     <message>
         <source>ISA-Tab Assay file</source>
         <extracomment>application/x-isatab-assay</extracomment>
-        <translation>ISA-Tab makale dosyası</translation>
+        <translation>ISA-Tab Assay-fil</translation>
     </message>
     <message>
         <source>ISO 9660 CD-ROM filesystem data</source>
         <extracomment>application/x-iso9660-image</extracomment>
-        <translation>ISO 9660 CD-ROM dosya sistemi verisi</translation>
+        <translation>ISO 9660 CD-ROM-filsystemsdata</translation>
     </message>
     <message>
         <source>Apple iTunes Binary Property List</source>
         <extracomment>application/x-itunes-bplist</extracomment>
-        <translation>Apple iTunes ikili özellik listesi</translation>
+        <translation>Apple iTunes Binary Property List</translation>
     </message>
     <message>
         <source>Apple iOS IPA AppStore file</source>
         <extracomment>application/x-itunes-ipa</extracomment>
-        <translation>Apple iOS IPA App Store dosyası</translation>
+        <translation>Apple iOS IPA AppStore-fil</translation>
     </message>
     <message>
         <source>JDF NMR Spectroscopy</source>
         <extracomment>application/x-jeol-jdf</extracomment>
-        <translation>JDF NMR tayf ölçümü</translation>
+        <translation>JDF NMR Spectroscopy</translation>
     </message>
     <message>
         <source>Jigsaw Download</source>
         <extracomment>application/x-jigdo</extracomment>
-        <translation>Jigsaw indirmesi</translation>
+        <translation>Jigsaw-hämtning</translation>
     </message>
     <message>
         <source>LaTeX Source Document</source>
         <extracomment>application/x-latex</extracomment>
-        <translation>LaTeX kaynak belgesi</translation>
+        <translation>LaTeX-källdokument</translation>
     </message>
     <message>
         <source>First match LZ4 Frame</source>
         <extracomment>application/x-lz4</extracomment>
-        <translation>First match LZ4 çerçevesi</translation>
+        <translation>First match LZ4 Frame</translation>
     </message>
     <message>
         <source>Lzip (LZMA) compressed archive</source>
         <extracomment>application/x-lzip</extracomment>
-        <translation>Lzip (LZMA) sıkıştırılmış arşivi</translation>
+        <translation>Lzip-komprimerat arkiv (LZMA)</translation>
     </message>
     <message>
         <source>LZMA compressed archive</source>
         <extracomment>application/x-lzma</extracomment>
-        <translation>LZMA sıkıştırılmış arşivi</translation>
+        <translation>LZMA-komprimerat arkiv</translation>
     </message>
     <message>
         <source>Mach-O</source>
@@ -8614,209 +8570,268 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
         <translation>Mach-O</translation>
     </message>
     <message>
+        <source>Mach-O relocatable object file</source>
+        <extracomment>application/x-mach-o-object</extracomment>
+        <translation>Mach-O flyttbar objektfil</translation>
+    </message>
+    <message>
+        <source>Mach-O executable</source>
+        <extracomment>application/x-mach-o-executable</extracomment>
+        <translation>Mach-O körbar fil</translation>
+    </message>
+    <message>
+        <source>Mach-O fixed VM shared library</source>
+        <extracomment>application/x-mach-o-fvmlib</extracomment>
+        <translation>Mach-O fast VM-delat bibliotek</translation>
+    </message>
+    <message>
+        <source>Mach-O core file</source>
+        <extracomment>application/x-mach-o-core</extracomment>
+        <translation>Mach-O core file</translation>
+    </message>
+    <message>
+        <source>Mach-O preloaded executable</source>
+        <extracomment>application/x-mach-o-preload</extracomment>
+        <translation>Mach-O förinläst körbar fil</translation>
+    </message>
+    <message>
+        <source>Mach-O dynamic shared library</source>
+        <extracomment>application/x-mach-o-dylib</extracomment>
+        <translation>Mach-O dynamiskt delat bibliotek</translation>
+    </message>
+    <message>
+        <source>Mach-O dynamic link editor</source>
+        <extracomment>application/x-mach-o-dylinker</extracomment>
+        <translation>Mach-O dynamic link editor</translation>
+    </message>
+    <message>
+        <source>Mach-O dynamic bundle</source>
+        <extracomment>application/x-mach-o-bundle</extracomment>
+        <translation>Mach-O dynamic bundle</translation>
+    </message>
+    <message>
+        <source>Mach-O shared library for static linking</source>
+        <extracomment>application/x-mach-o-dylib-stub</extracomment>
+        <translation>Mach-O-delat bibliotek för statisk länkning</translation>
+    </message>
+    <message>
+        <source>Mach-O debug symbols file</source>
+        <extracomment>application/x-mach-o-dsym</extracomment>
+        <translation>Mach-O debug symbols file</translation>
+    </message>
+    <message>
+        <source>Mach-O kext bundle</source>
+        <extracomment>application/x-mach-o-kext-bundle</extracomment>
+        <translation>Mach-O kext bundle</translation>
+    </message>
+    <message>
         <source>Apple Xcode Memgraph</source>
         <extracomment>application/x-memgraph</extracomment>
-        <translation>Apple Xcode bellek grafiği</translation>
+        <translation>Apple Xcode Memgraph</translation>
     </message>
     <message>
         <source>Mobipocket Ebook</source>
         <extracomment>application/x-mobipocket-ebook</extracomment>
-        <translation>Mobipocket e-kitap</translation>
+        <translation>Mobipocket Ebook</translation>
     </message>
     <message>
         <source>MS-DOS compression szzd</source>
         <extracomment>application/x-ms-compress-szdd</extracomment>
-        <translation>MS-DOS sıkıştırma szzd</translation>
+        <translation>MS-DOS-komprimerad szzd</translation>
     </message>
     <message>
         <source>Temporary files created by MSOffice applications</source>
         <extracomment>application/x-ms-owner</extracomment>
-        <translation>MS Office uygulamaları tarafından oluşturulan geçici dosyalar</translation>
+        <translation>Temporärfiler skapade av MSOffice-applikationer</translation>
     </message>
     <message>
         <source>Microsoft National Language Support</source>
         <extracomment>application/x-ms-nls</extracomment>
-        <translation>Microsoft ulusal dil desteği</translation>
+        <translation>Microsoft National Language Support</translation>
     </message>
     <message>
         <source>Microsoft Windows Installer</source>
         <extracomment>application/x-ms-installer</extracomment>
-        <translation>Microsoft Windows kurulum programı</translation>
+        <translation>Microsoft Windows-installationsprogram</translation>
     </message>
     <message>
         <source>MySQL Table Definition (Format)</source>
         <extracomment>application/x-mysql-table-definition</extracomment>
-        <translation>MySQL tablo tanımı (biçim)</translation>
+        <translation>MySQL-tabelldefinition (Format)</translation>
     </message>
     <message>
         <source>MySQL MISAM Index</source>
         <extracomment>application/x-mysql-misam-index</extracomment>
-        <translation>MySQL MISAM indeksi</translation>
+        <translation>MySQL MISAM Index</translation>
     </message>
     <message>
         <source>MySQL MISAM Compressed Index</source>
         <extracomment>application/x-mysql-misam-compressed-index</extracomment>
-        <translation>MySQL MISAM sıkıştırılmış indeksi</translation>
+        <translation>MySQL MISAM-komprimerat Index</translation>
     </message>
     <message>
         <source>MySQL MISAM Data</source>
         <extracomment>application/x-mysql-misam-data</extracomment>
-        <translation>MySQL MISAM verisi</translation>
+        <translation>MySQL MISAM Data</translation>
     </message>
     <message>
         <source>Nintendo Entertainment System ROM</source>
         <extracomment>application/x-nesrom</extracomment>
-        <translation>Nintendo eğlence sistemi ROM’u</translation>
+        <translation>Nintendo Entertainment System ROM</translation>
     </message>
     <message>
         <source>Planetary Data System Version 3 format</source>
         <extracomment>application/x-pds</extracomment>
-        <translation>Gezegensel veri sistemi sürüm 3 biçimi</translation>
+        <translation>Planetary Data System Version 3 format</translation>
     </message>
     <message>
         <source>Quattro Pro - Corel Spreadsheet (part of WordPerfect Office suite)</source>
         <extracomment>application/x-quattro-pro</extracomment>
-        <translation>Quattro Pro — Corel hesap tablosu (WordPerfect ofis takımının bir parçası)</translation>
+        <translation>Quattro Pro - Corel Spreadsheet (del av WordPerfect Office-sviten)</translation>
     </message>
     <message>
         <source>Quattro Pro for DOS, version 1-4</source>
         <extracomment>application/x-quattro-pro;version=1-4</extracomment>
-        <translation>DOS için Quattro Pro, sürüm 1–4</translation>
+        <translation>Quattro Pro för DOS, version 1-4</translation>
     </message>
     <message>
         <source>Quattro Pro for DOS, version 5</source>
         <extracomment>application/x-quattro-pro;version=5</extracomment>
-        <translation>DOS için Quattro Pro, sürüm 5</translation>
+        <translation>Quattro Pro för DOS, version 5</translation>
     </message>
     <message>
         <source>Quattro Pro for Windows, version 1, 5</source>
         <extracomment>application/x-quattro-pro;version=1+5</extracomment>
-        <translation>Windows için Quattro Pro, sürüm 1–5</translation>
+        <translation>Quattro Pro för Windows, version 1, 5</translation>
     </message>
     <message>
         <source>Quattro Pro for Windows, version 6</source>
         <extracomment>application/x-quattro-pro;version=6</extracomment>
-        <translation>Windows için Quattro Pro, sürüm 6</translation>
+        <translation>Quattro Pro för Windows, version 6</translation>
     </message>
     <message>
         <source>XQuery source code</source>
         <extracomment>application/xquery</extracomment>
-        <translation>XQuery kaynak kodu</translation>
+        <translation>XQuery-källkod</translation>
     </message>
     <message>
         <source>RAR archive</source>
-        <extracomment>application/x-rar-compressed----------application/x-rar-compressed;version=4----------application/x-rar-compressed;version=5</extracomment>
-        <translation>RAR arşivi</translation>
+        <extracomment>application/x-rar-compressed
+----------
+application/x-rar-compressed;version=4
+----------
+application/x-rar-compressed;version=5</extracomment>
+        <translation>RAR-arkiv</translation>
     </message>
     <message>
         <source>RedHat Package Manager</source>
         <extracomment>application/x-rpm</extracomment>
-        <translation>RedHat paket yöneticisi</translation>
+        <translation>RedHat-pakethanterare</translation>
     </message>
     <message>
         <source>SAS Program</source>
         <extracomment>application/x-sas</extracomment>
-        <translation>SAS programı</translation>
+        <translation>SAS Program</translation>
     </message>
     <message>
         <source>SAS Stored Program (DATA Step)</source>
         <extracomment>application/x-sas-program-data</extracomment>
-        <translation>SAS depolanmış programı (DATA adımı)</translation>
+        <translation>SAS Stored Program (DATA Step)</translation>
     </message>
     <message>
         <source>SAS Audit</source>
         <extracomment>application/x-sas-audit</extracomment>
-        <translation>SAS denetimi</translation>
+        <translation>SAS Audit</translation>
     </message>
     <message>
         <source>SAS v6 Data Set</source>
         <extracomment>application/x-sas-data-v6</extracomment>
-        <translation>SAS v6 veri kümesi</translation>
+        <translation>SAS v6 Data Set</translation>
     </message>
     <message>
         <source>SAS Data Set</source>
         <extracomment>application/x-sas-data</extracomment>
-        <translation>SAS veri kümesi</translation>
+        <translation>SAS Data Set</translation>
     </message>
     <message>
         <source>SAS Data Set View</source>
         <extracomment>application/x-sas-view</extracomment>
-        <translation>SAS veri kümesi görünümü</translation>
+        <translation>SAS Data Set View</translation>
     </message>
     <message>
         <source>SAS Data Set Index</source>
         <extracomment>application/x-sas-data-index</extracomment>
-        <translation>SAS veri kümesi indeksi</translation>
+        <translation>SAS Data Set Index</translation>
     </message>
     <message>
         <source>SAS Catalog</source>
         <extracomment>application/x-sas-catalog</extracomment>
-        <translation>SAS kataloğu</translation>
+        <translation>SAS Catalog</translation>
     </message>
     <message>
         <source>SAS Access Descriptor</source>
         <extracomment>application/x-sas-access</extracomment>
-        <translation>SAS erişim açıklayıcısı</translation>
+        <translation>SAS Access Descriptor</translation>
     </message>
     <message>
         <source>SAS FDB Consolidation Database File</source>
         <extracomment>application/x-sas-fdb</extracomment>
-        <translation>SAS FDB mutabakat veritabanı dosyası</translation>
+        <translation>SAS FDB Consolidation Database File</translation>
     </message>
     <message>
         <source>SAS MDDB Multi-Dimensional Database File</source>
         <extracomment>application/x-sas-mddb</extracomment>
-        <translation>SAS MDDB çok boyutlu veritabanı dosyası</translation>
+        <translation>SAS MDDB Multi-Dimensional Database File</translation>
     </message>
     <message>
         <source>SAS DMDB Data Mining Database File</source>
         <extracomment>application/x-sas-dmdb</extracomment>
-        <translation>SAS DMDB veri madenciliği veritabanı dosyası</translation>
+        <translation>SAS DMDB Data Mining Database File</translation>
     </message>
     <message>
         <source>SAS Item Store (ItemStor) File</source>
         <extracomment>application/x-sas-itemstor</extracomment>
-        <translation>SAS öge deposu dosyası</translation>
+        <translation>SAS Item Store (ItemStor) File</translation>
     </message>
     <message>
         <source>SAS Utility</source>
         <extracomment>application/x-sas-utility</extracomment>
-        <translation>SAS izlencesi</translation>
+        <translation>SAS Utility</translation>
     </message>
     <message>
         <source>SAS Permanent Utility</source>
         <extracomment>application/x-sas-putility</extracomment>
-        <translation>SAS kalıcı izlencesi</translation>
+        <translation>SAS Permanent Utility</translation>
     </message>
     <message>
         <source>SAS Transport File</source>
         <extracomment>application/x-sas-transport</extracomment>
-        <translation>SAS ulaşım dosyası</translation>
+        <translation>SAS Transport File</translation>
     </message>
     <message>
         <source>SAS Backup</source>
         <extracomment>application/x-sas-backup</extracomment>
-        <translation>SAS yedeği</translation>
+        <translation>SAS Backup</translation>
     </message>
     <message>
         <source>SAS XPORT Transfer File</source>
         <extracomment>application/x-sas-xport</extracomment>
-        <translation>SAS XPORT ulaşım dosyası</translation>
+        <translation>SAS XPORT Transfer File</translation>
     </message>
     <message>
         <source>SPSS Data File</source>
         <extracomment>application/x-spss-sav</extracomment>
-        <translation>SPSS veri dosyası</translation>
+        <translation>SPSS Data File</translation>
     </message>
     <message>
         <source>UNIX/LINUX Shell Script</source>
         <extracomment>application/x-sh</extracomment>
-        <translation>UNIX/Linux kabuk betiği</translation>
+        <translation>UNIX/LINUX-skalskript</translation>
     </message>
     <message>
         <source>ESRI Shapefiles</source>
         <extracomment>application/x-shapefile</extracomment>
-        <translation>ESRI şekil dosyaları</translation>
+        <translation>ESRI Shapefiles</translation>
     </message>
     <message>
         <source>Adobe Flash</source>
@@ -8836,7 +8851,7 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Standard Formatted Data Units (SFDUs) data</source>
         <extracomment>application/x-sfdu</extracomment>
-        <translation>Standart biçimlendirilmiş veri birimleri (SFDU) verisi</translation>
+        <translation>Standard Formatted Data Units (SFDUs) data</translation>
     </message>
     <message>
         <source>TAP (ZX Spectrum)</source>
@@ -8846,52 +8861,52 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Stata DTA Script</source>
         <extracomment>application/x-stata-do</extracomment>
-        <translation>Stata DTA betiği</translation>
+        <translation>Stata DTA Script</translation>
     </message>
     <message>
         <source>Stata DTA Dataset</source>
         <extracomment>application/x-stata-dta</extracomment>
-        <translation>Stata DTA veri kümesi</translation>
+        <translation>Stata DTA Dataset</translation>
     </message>
     <message>
         <source>TeX Source</source>
         <extracomment>application/x-tex</extracomment>
-        <translation>TeX kaynağı</translation>
+        <translation>TeX-källa</translation>
     </message>
     <message>
         <source>TeX Virtual Font format</source>
         <extracomment>application/x-tex-virtual-font</extracomment>
-        <translation>TeX sanal yazıtipi biçimi</translation>
+        <translation>TeX Virtual Font-format</translation>
     </message>
     <message>
         <source>Pre-OLE2 (Old) Microsoft Excel Worksheets</source>
         <extracomment>application/x-tika-old-excel</extracomment>
-        <translation>OLE2 öncesi (eski) Microsoft Excel çalışma sayfaları</translation>
+        <translation>Före-OLE2 (Gammal) Microsoft Excel-arbetsblad</translation>
     </message>
     <message>
         <source>Password Protected OOXML File</source>
         <extracomment>application/x-tika-ooxml-protected</extracomment>
-        <translation>Parola korumalı OOXML dosyası</translation>
+        <translation>Lösenordsskyddad OOXML-fil</translation>
     </message>
     <message>
         <source>Visio OOXML File</source>
         <extracomment>application/x-tika-visio-ooxml</extracomment>
-        <translation>Visio OOXML dosyası</translation>
+        <translation>Visio OOXML-fil</translation>
     </message>
     <message>
         <source>Virtual PC Virtual Hard Disk</source>
         <extracomment>application/x-vhd</extracomment>
-        <translation>Virtual PC sanal sabit diski</translation>
+        <translation>Virtuell PC Virtuell hårddisk</translation>
     </message>
     <message>
         <source>Virtual Disk Format</source>
         <extracomment>application/x-vmdk</extracomment>
-        <translation>Sanal disk biçimi</translation>
+        <translation>Virtuellt diskformat</translation>
     </message>
     <message>
         <source>Java Keystore</source>
         <extracomment>application/x-java-keystore</extracomment>
-        <translation>Java anahtar deposu</translation>
+        <translation>Java Keystore</translation>
     </message>
     <message>
         <source>XMind Pro</source>
@@ -8906,57 +8921,57 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Extensible Markup Language</source>
         <extracomment>application/xml</extracomment>
-        <translation>Genişletilebilir işaretleme dili</translation>
+        <translation>eXtensible Markup Language</translation>
     </message>
     <message>
         <source>XML Document Type Definition</source>
         <extracomment>application/xml-dtd</extracomment>
-        <translation>XML belgesi türü tanımı</translation>
+        <translation>XML Document Type Definition</translation>
     </message>
     <message>
         <source>XSL Format</source>
         <extracomment>application/xslfo+xml</extracomment>
-        <translation>XSL biçimi</translation>
+        <translation>XSL Format</translation>
     </message>
     <message>
         <source>XSL Transformations</source>
         <extracomment>application/xslt+xml</extracomment>
-        <translation>XSL dönüşümleri</translation>
+        <translation>XSL Transformations</translation>
     </message>
     <message>
         <source>XML Shareable Playlist Format</source>
         <extracomment>application/xspf+xml</extracomment>
-        <translation>XML paylaşılabilir oynatma/çalma listesi biçimi</translation>
+        <translation>XML Shareable Playlist Format</translation>
     </message>
     <message>
         <source>Compressed Archive File</source>
         <extracomment>application/zip</extracomment>
-        <translation>Sıkıştırılmış arşiv dosyası</translation>
+        <translation>Komprimerad arkivfil</translation>
     </message>
     <message>
         <source>ZLIB Compressed Data Format</source>
         <extracomment>application/zlib</extracomment>
-        <translation>ZLIB sıkıştırılmış veri biçimi</translation>
+        <translation>ZLIB-komprimerat dataformat</translation>
     </message>
     <message>
         <source>7-zip archive</source>
         <extracomment>application/x-7z-compressed</extracomment>
-        <translation>7-Zip arşivi</translation>
+        <translation>7-zip-arkiv</translation>
     </message>
     <message>
         <source>Dolby Digital Audio Compression File</source>
         <extracomment>audio/ac3</extracomment>
-        <translation>Dolby Digital ses sıkıştırma dosyası</translation>
+        <translation>Dolby Digital Audio-komprimeringsfil</translation>
     </message>
     <message>
         <source>uLaw/AU Audio File</source>
         <extracomment>audio/basic</extracomment>
-        <translation>uLaw/AU ses dosyası</translation>
+        <translation>uLaw/AU-ljudfil</translation>
     </message>
     <message>
         <source>Musical Instrument Digital Interface</source>
         <extracomment>audio/midi</extracomment>
-        <translation>Müzikal enstrüman sayısal arayüzü</translation>
+        <translation>Musical Instrument Digital Interface</translation>
     </message>
     <message>
         <source>MPEG-1 Audio Layer 3</source>
@@ -8966,62 +8981,62 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Ogg Vorbis Audio</source>
         <extracomment>audio/ogg</extracomment>
-        <translation>Ogg Vorbis sesi</translation>
+        <translation>Ogg Vorbis Audio</translation>
     </message>
     <message>
         <source>Ogg Vorbis Codec Compressed WAV File</source>
         <extracomment>audio/vorbis</extracomment>
-        <translation>Ogg Vorbis kodlayıcısı sıkıştırmalı WAV dosyası</translation>
+        <translation>Ogg Vorbis Codec-komprimerad WAV-fil</translation>
     </message>
     <message>
         <source>Portable Sound Format</source>
         <extracomment>audio/x-psf</extracomment>
-        <translation>Taşınabilir ses biçimi</translation>
+        <translation>Portable Sound Format</translation>
     </message>
     <message>
         <source>Slight Atari Player</source>
         <extracomment>audio/x-sap</extracomment>
-        <translation>Slight Atari oynatıcısı</translation>
+        <translation>Slight Atari Player</translation>
     </message>
     <message>
         <source>Ogg Packaged Free Lossless Audio Codec</source>
         <extracomment>audio/x-oggflac</extracomment>
-        <translation>Ogg paketli özgür kayıpsız ses kodlayıcısı</translation>
+        <translation>Ogg-paketerad Free Lossless Audio Codec</translation>
     </message>
     <message>
         <source>Ogg Packaged Unompressed WAV File</source>
         <extracomment>audio/x-oggpcm</extracomment>
-        <translation>Ogg paketli sıkıştırılmamış WAV dosyası</translation>
+        <translation>Ogg-paketerad okomprimerad WAV-fil</translation>
     </message>
     <message>
         <source>Ogg Opus Codec Compressed WAV File</source>
         <extracomment>audio/opus</extracomment>
-        <translation>Ogg Opus kodlayıcısı sıkıştırmalı WAV dosyası</translation>
+        <translation>Ogg Opus Codec-komprimerad WAV-fil</translation>
     </message>
     <message>
         <source>Ogg Speex Codec Compressed WAV File</source>
         <extracomment>audio/speex</extracomment>
-        <translation>Ogg Speex kodlayıcısı sıkıştırmalı WAV dosyası</translation>
+        <translation>Ogg Speex Codec-komprimerad WAV-fil</translation>
     </message>
     <message>
         <source>Audio Interchange File Format</source>
         <extracomment>audio/x-aiff</extracomment>
-        <translation>Ses değişimi dosya biçimi</translation>
+        <translation>Audio Interchange File Format</translation>
     </message>
     <message>
         <source>Core Audio Format</source>
         <extracomment>audio/x-caf</extracomment>
-        <translation>Çekirdek ses biçimi</translation>
+        <translation>Core Audio Format</translation>
     </message>
     <message>
         <source>Free Lossless Audio Codec</source>
         <extracomment>audio/x-flac</extracomment>
-        <translation>Özgür kayıpsız ses kodlayıcısı</translation>
+        <translation>Free Lossless Audio Codec</translation>
     </message>
     <message>
         <source>MP3 Playlist File</source>
         <extracomment>audio/x-mpegurl</extracomment>
-        <translation>MP3 çalma listesi dosyası</translation>
+        <translation>MP3-spellistefil</translation>
     </message>
     <message>
         <source>Real Audio</source>
@@ -9031,12 +9046,12 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>RealMedia Player Plug-in</source>
         <extracomment>audio/x-pn-realaudio-plugin</extracomment>
-        <translation>RealMedia Player eklentisi</translation>
+        <translation>RealMedia Player Plug-in</translation>
     </message>
     <message>
         <source>Brookhaven Protein Databank File</source>
         <extracomment>chemical/x-pdb</extracomment>
-        <translation>Brookhaven Protein veri bankası dosyası</translation>
+        <translation>Brookhaven Protein Databank File</translation>
     </message>
     <message>
         <source>3D Studio (V1)</source>
@@ -9046,77 +9061,77 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>ACES Image Container File</source>
         <extracomment>image/aces</extracomment>
-        <translation>ACES görsel kapsayıcısı dosyası</translation>
+        <translation>ACES Image Container File</translation>
     </message>
     <message>
         <source>OS2 bitmap array</source>
         <extracomment>image/x-os2-graphics; charset=binary</extracomment>
-        <translation>OS2 biteşlemi dizilişi</translation>
+        <translation>OS2 bitmap array</translation>
     </message>
     <message>
         <source>Windows bitmap</source>
         <extracomment>image/bmp</extracomment>
-        <translation>Windows biteşlemi</translation>
+        <translation>Windows bitmap</translation>
     </message>
     <message>
         <source>Better Portable Graphics</source>
         <extracomment>image/x-bpg</extracomment>
-        <translation>Daha iyi taşınabilir grafikler</translation>
+        <translation>Better Portable Graphics</translation>
     </message>
     <message>
         <source>Computer Graphics Metafile</source>
         <extracomment>image/cgm</extracomment>
-        <translation>Bilgisayar grafikleri meta dosyası</translation>
+        <translation>Computer Graphics Metafile</translation>
     </message>
     <message>
         <source>Digital Picture Exchange from SMPTE</source>
         <extracomment>image/x-dpx</extracomment>
-        <translation>SMPTE’den sayısal resim değişimi biçimi</translation>
+        <translation>Digital Picture Exchange från SMPTE</translation>
     </message>
     <message>
         <source>Enhanced Metafile</source>
         <extracomment>image/emf</extracomment>
-        <translation>İyileştirilmiş meta dosya</translation>
+        <translation>Enhanced Metafile</translation>
     </message>
     <message>
         <source>Compressed Enhanced Metafile</source>
         <extracomment>image/x-emf-compressed</extracomment>
-        <translation>Sıkıştırılmış iyileştirilmiş meta dosya</translation>
+        <translation>Compressed Enhanced Metafile</translation>
     </message>
     <message>
         <source>Graphics Interchange Format</source>
         <extracomment>image/gif</extracomment>
-        <translation>Grafik değişim biçimi</translation>
+        <translation>Graphics Interchange Format</translation>
     </message>
     <message>
         <source>AV1 Image File</source>
         <extracomment>image/avif</extracomment>
-        <translation>AV1 görseli dosyası</translation>
+        <translation>AV1 Image File</translation>
     </message>
     <message>
         <source>HEIF - High Efficiency Image File</source>
         <extracomment>image/heif</extracomment>
-        <translation>HEIF — Yüksek verimlilikli görsel dosyası</translation>
+        <translation>HEIF - High Efficiency Image File</translation>
     </message>
     <message>
         <source>HEIF Sequence - High Efficiency Image Sequence</source>
         <extracomment>image/heif-sequence</extracomment>
-        <translation>HEIF Sequence — Yüksek verimlilikli görsel dizisi</translation>
+        <translation>HEIF Sequence - High Efficiency Image Sequence</translation>
     </message>
     <message>
         <source>HEIF Image using HEVC Codec</source>
         <extracomment>image/heic</extracomment>
-        <translation>HEVC kodlayıcısı kullanan HEIF görseli</translation>
+        <translation>HEIF Image med HEVC Codec</translation>
     </message>
     <message>
         <source>HEIF Sequence using HEVC Codec</source>
         <extracomment>image/heic-sequence</extracomment>
-        <translation>HEVC kodlayıcısı kullanan HEIF diziai</translation>
+        <translation>HEIF Sequence med HEVC Codec</translation>
     </message>
     <message>
         <source>Apple Icon Image Format</source>
         <extracomment>image/icns</extracomment>
-        <translation>Apple simge görseli biçimi</translation>
+        <translation>Apple Icon Image Format</translation>
     </message>
     <message>
         <source>JPEG 2000 Part 1 (JP2)</source>
@@ -9126,7 +9141,7 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Joint Photographic Experts Group</source>
         <extracomment>image/jpeg</extracomment>
-        <translation>Birleşik fotografik uzmanları grubu</translation>
+        <translation>Joint Photographic Experts Group</translation>
     </message>
     <message>
         <source>JPEG 2000 Part 6 (JPM)</source>
@@ -9141,42 +9156,42 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Portable Network Graphics</source>
         <extracomment>image/png</extracomment>
-        <translation>Taşınabilir ağ grafikleri</translation>
+        <translation>Portable Network Graphics</translation>
     </message>
     <message>
         <source>Scalable Vector Graphics</source>
         <extracomment>image/svg+xml</extracomment>
-        <translation>Ölçeklenebilir vektör grafikler</translation>
+        <translation>Scalable Vector Graphics</translation>
     </message>
     <message>
         <source>Tagged Image File Format</source>
         <extracomment>image/tiff</extracomment>
-        <translation>Künyeli görsel dosyası biçimi</translation>
+        <translation>Tagged Image File Format</translation>
     </message>
     <message>
         <source>Photoshop Image</source>
         <extracomment>image/vnd.adobe.photoshop</extracomment>
-        <translation>Photoshop görseli</translation>
+        <translation>Photoshop-bild</translation>
     </message>
     <message>
         <source>MicroStation v7 drawing</source>
         <extracomment>image/vnd.dgn;version=7</extracomment>
-        <translation>MicroStation v7 çizimi</translation>
+        <translation>MicroStation v7 drawing</translation>
     </message>
     <message>
         <source>MicroStation v8 drawing; requires ole2 detector</source>
         <extracomment>image/vnd.dgn;version=8</extracomment>
-        <translation>MicroStation v8 çizimi; ole2 algılayıcısı gerektirir</translation>
+        <translation>MicroStation v8 drawing; kräver ole2 detector</translation>
     </message>
     <message>
         <source>AutoCad Drawing</source>
         <extracomment>image/vnd.dwg</extracomment>
-        <translation>AutoCad çizimi</translation>
+        <translation>AutoCad Drawing</translation>
     </message>
     <message>
         <source>AutoCAD DXF simplified Binary</source>
         <extracomment>image/vnd.dxb</extracomment>
-        <translation>AutoCAD DXF basitleştirilmiş ikilisi</translation>
+        <translation>AutoCAD DXF förenklad binär</translation>
     </message>
     <message>
         <source>AutoCAD DXF</source>
@@ -9186,12 +9201,12 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Microsoft Document Imaging</source>
         <extracomment>image/vnd.ms-modi</extracomment>
-        <translation>Microsoft belge görselleştirmesi</translation>
+        <translation>Microsoft Document Imaging</translation>
     </message>
     <message>
         <source>Wireless Bitmap File Format</source>
         <extracomment>image/vnd.wap.wbmp</extracomment>
-        <translation>Kablosuz biteşlem dosyası biçimi</translation>
+        <translation>Wireless Bitmap File Format</translation>
     </message>
     <message>
         <source>ZSoft Multi-Page Paintbrush</source>
@@ -9201,34 +9216,34 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>ZSoft Paintbrush PiCture eXchange</source>
         <extracomment>image/vnd.zbrush.pcx</extracomment>
-        <translation>ZSoft Paintbrush resim değişimi biçimi</translation>
+        <translation>ZSoft Paintbrush PiCture eXchange</translation>
     </message>
     <message>
         <source>Windows Metafile</source>
         <extracomment>image/wmf</extracomment>
-        <translation>Windows meta dosyası</translation>
+        <translation>Windows Metafile</translation>
     </message>
     <message>
         <source>FreeHand image</source>
         <extracomment>image/x-freehand</extracomment>
-        <translation>FreeHand görseli</translation>
+        <translation>FreeHand-bild</translation>
     </message>
     <message>
         <source>A lossless image compression standard from the
       Joint Bi-level Image Experts Group.</source>
         <extracomment>image/x-jbig2</extracomment>
-        <translation>Joint Bi-level Image Experts Group’tan
-       kayıpsız görsel sıkıştırma standardı.</translation>
+        <translation>En förlustfri bildkomprimeringsstandard från
+      Joint Bi-level Image Experts Group.</translation>
     </message>
     <message>
         <source>JPEG 2000 Codestream</source>
         <extracomment>image/x-jp2-codestream</extracomment>
-        <translation>JPEG 2000 kod akışı</translation>
+        <translation>JPEG 2000 Codestream</translation>
     </message>
     <message>
         <source>JPEG 2000 Container Format</source>
         <extracomment>image/x-jp2-container</extracomment>
-        <translation>JPEG 2000 kapsayıcı biçimi</translation>
+        <translation>JPEG 2000 Container Format</translation>
     </message>
     <message>
         <source>JPEG XL</source>
@@ -9238,217 +9253,221 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Navy Interchange File Format</source>
         <extracomment>image/x-niff</extracomment>
-        <translation>Navy değişim dosyası biçimi</translation>
+        <translation>Navy Interchange File Format</translation>
     </message>
     <message>
         <source>Apple Macintosh QuickDraw/PICT Format</source>
         <extracomment>image/x-pict</extracomment>
-        <translation>Apple Macintosh QuickDraw/PICT biçimi</translation>
+        <translation>Apple Macintosh QuickDraw/PICT Format</translation>
     </message>
     <message>
         <source>Portable Any Map</source>
         <extracomment>image/x-portable-anymap</extracomment>
-        <translation>Taşınabilir herhangi bir eşlem</translation>
+        <translation>Portable Any Map</translation>
     </message>
     <message>
         <source>Portable Bit Map</source>
         <extracomment>image/x-portable-bitmap</extracomment>
-        <translation>Taşınabilir biteşlem</translation>
+        <translation>Portable Bit Map</translation>
     </message>
     <message>
         <source>Portable Graymap Graphic</source>
         <extracomment>image/x-portable-graymap</extracomment>
-        <translation>Taşınabilir gri eşlemli grafik</translation>
+        <translation>Portable Graymap Graphic</translation>
     </message>
     <message>
         <source>UNIX Portable Bitmap Graphic</source>
         <extracomment>image/x-portable-pixmap</extracomment>
-        <translation>UNIX taşınabilir biteşlem grafiği</translation>
+        <translation>UNIX Portable Bitmap Graphic</translation>
     </message>
     <message>
         <source>UNIX Portable Bitmap Graphic Arbitrary Map</source>
         <extracomment>image/x-portable-arbitrarymap</extracomment>
-        <translation>UNIX taşınabilir biteşlem grafik eşlemi</translation>
+        <translation>UNIX Portable Bitmap Graphic Arbitrary Map</translation>
     </message>
     <message>
         <source>Adobe Digital Negative</source>
         <extracomment>image/x-raw-adobe</extracomment>
-        <translation>Adobe sayısal negatifi</translation>
+        <translation>Adobe Digital Negative</translation>
     </message>
     <message>
         <source>Hasselblad raw image</source>
         <extracomment>image/x-raw-hasselblad</extracomment>
-        <translation>Hasselblad RAW görseli</translation>
+        <translation>Hasselblad råbild</translation>
     </message>
     <message>
         <source>Fuji raw image</source>
         <extracomment>image/x-raw-fuji</extracomment>
-        <translation>Fuji RAW görseli</translation>
+        <translation>Fuji råbild</translation>
     </message>
     <message>
         <source>Canon raw image</source>
         <extracomment>image/x-raw-canon</extracomment>
-        <translation>Canon RAW görseli</translation>
+        <translation>Canon råbild</translation>
     </message>
     <message>
         <source>Canon raw image, version 2, TIFF-based</source>
         <extracomment>image/x-canon-cr2</extracomment>
-        <translation>Canon RAW görseli, sürüm 2, TIFF tabanlı</translation>
+        <translation>Canon råbild, version 2, TIFF-baserad</translation>
     </message>
     <message>
         <source>Canon raw image, version 3, Quicktime-based</source>
         <extracomment>image/x-canon-cr3</extracomment>
-        <translation>Canon RAW görseli, sürüm 3, QuickTime tabanlı</translation>
+        <translation>Canon råbild, version 3, Quicktime-baserad</translation>
     </message>
     <message>
         <source>Kodak raw image</source>
         <extracomment>image/x-raw-kodak</extracomment>
-        <translation>Kodak RAW görseli</translation>
+        <translation>Kodak råbild</translation>
     </message>
     <message>
         <source>Minolta raw image</source>
         <extracomment>image/x-raw-minolta</extracomment>
-        <translation>Minolta RAW görseli</translation>
+        <translation>Minolta råbild</translation>
     </message>
     <message>
         <source>Nikon raw image</source>
         <extracomment>image/x-raw-nikon</extracomment>
-        <translation>Nikon RAW görseli</translation>
+        <translation>Nikon råbild</translation>
     </message>
     <message>
         <source>Olympus raw image</source>
         <extracomment>image/x-raw-olympus</extracomment>
-        <translation>Olympus RAW görseli</translation>
+        <translation>Olympus råbild</translation>
     </message>
     <message>
         <source>Pentax raw image</source>
         <extracomment>image/x-raw-pentax</extracomment>
-        <translation>Pentax RAW görseli</translation>
+        <translation>Pentax råbild</translation>
     </message>
     <message>
         <source>Sony raw image</source>
         <extracomment>image/x-raw-sony</extracomment>
-        <translation>Sony RAW görseli</translation>
+        <translation>Sony råbild</translation>
     </message>
     <message>
         <source>Sigma raw image</source>
         <extracomment>image/x-raw-sigma</extracomment>
-        <translation>Sigma RAW görseli</translation>
+        <translation>Sigma råbild</translation>
     </message>
     <message>
         <source>Epson raw image</source>
         <extracomment>image/x-raw-epson</extracomment>
-        <translation>Epson RAW görseli</translation>
+        <translation>Epson råbild</translation>
     </message>
     <message>
         <source>Mamiya raw image</source>
         <extracomment>image/x-raw-mamiya</extracomment>
-        <translation>Mamiya RAW görseli</translation>
+        <translation>Mamiya råbild</translation>
     </message>
     <message>
         <source>Leaf raw image</source>
         <extracomment>image/x-raw-leaf</extracomment>
-        <translation>Leaf RAW görseli</translation>
+        <translation>Leaf råbild</translation>
     </message>
     <message>
         <source>Panasonic raw image</source>
         <extracomment>image/x-raw-panasonic</extracomment>
-        <translation>Panasonic RAW görseli</translation>
+        <translation>Panasonic råbild</translation>
     </message>
     <message>
         <source>Phase One raw image</source>
         <extracomment>image/x-raw-phaseone</extracomment>
-        <translation>Phase One RAW görseli</translation>
+        <translation>Phase One råbild</translation>
     </message>
     <message>
         <source>Red raw image</source>
         <extracomment>image/x-raw-red</extracomment>
-        <translation>Red RAW görseli</translation>
+        <translation>Red råbild</translation>
     </message>
     <message>
         <source>Imacon raw image</source>
         <extracomment>image/x-raw-imacon</extracomment>
-        <translation>Imacon RAW görseli</translation>
+        <translation>Imacon råbild</translation>
     </message>
     <message>
         <source>Logitech raw image</source>
         <extracomment>image/x-raw-logitech</extracomment>
-        <translation>Logitech RAW görseli</translation>
+        <translation>Logitech råbild</translation>
     </message>
     <message>
         <source>Casio raw image</source>
         <extracomment>image/x-raw-casio</extracomment>
-        <translation>Casio RAW görseli</translation>
+        <translation>Casio råbild</translation>
     </message>
     <message>
         <source>Rawzor raw image</source>
         <extracomment>image/x-raw-rawzor</extracomment>
-        <translation>Rawzor RAW görseli</translation>
+        <translation>Rawzor råbild</translation>
     </message>
     <message>
         <source>Silicon Graphics RGB Bitmap</source>
         <extracomment>image/x-rgb</extracomment>
-        <translation>Silicon Graphics RGB biteşlemi</translation>
+        <translation>Silicon Graphics RGB Bitmap</translation>
     </message>
     <message>
         <source>GIMP Image File</source>
         <extracomment>image/x-xcf</extracomment>
-        <translation>GIMP görseli dosyası</translation>
+        <translation>GIMP-bildfil</translation>
     </message>
     <message>
         <source>X Windows Dump</source>
         <extracomment>image/x-xwindowdump</extracomment>
-        <translation>X Windows dökümü</translation>
+        <translation>X Windows Dump</translation>
     </message>
     <message>
         <source>MIME Encapsulation of Aggregate HTML Documents</source>
         <extracomment>multipart/related</extracomment>
-        <translation>Toplu HTML belgelerinin MIME kapsüllenmesi</translation>
+        <translation>MIME-inkapsling av aggregerade HTML-dokument</translation>
     </message>
     <message>
         <source>3d imaging data exchange</source>
         <extracomment>model/e57</extracomment>
-        <translation>3B görselleştirme veri değişimi</translation>
+        <translation>3d imaging data exchange</translation>
     </message>
     <message>
         <source>Initial Graphics Exchange Specification Format</source>
         <extracomment>model/iges</extracomment>
-        <translation>İlk grafik değişimi belirtimi biçimi</translation>
+        <translation>Initial Graphics Exchange Specification Format</translation>
     </message>
     <message>
         <source>no magic available</source>
         <extracomment>model/x.stl-binary</extracomment>
-        <translation>no magic available</translation>
+        <translation>Ingen magic tillgänglig</translation>
     </message>
     <message>
         <source>AutoCAD Design Web Format</source>
-        <extracomment>model/vnd.dwf----------model/vnd.dwfx+xps</extracomment>
-        <translation>AutoCAD tasarımı web biçimi</translation>
+        <extracomment>model/vnd.dwf
+----------
+model/vnd.dwfx+xps</extracomment>
+        <translation>AutoCAD Design Web Format</translation>
     </message>
     <message>
         <source>ONline Information eXchange (ONIX) for books</source>
-        <extracomment>application/onix-message+xml----------application/onix-message-short+xml</extracomment>
-        <translation>Kitaplar için ONline Information eXchange (ONIX)</translation>
+        <extracomment>application/onix-message+xml
+----------
+application/onix-message-short+xml</extracomment>
+        <translation>ONline Information eXchange (ONIX) för böcker</translation>
     </message>
     <message>
         <source>ActionScript source code</source>
         <extracomment>text/x-actionscript</extracomment>
-        <translation>ActionScript kaynak kodu</translation>
+        <translation>ActionScript-källkod</translation>
     </message>
     <message>
         <source>Ada source code</source>
         <extracomment>text/x-ada</extracomment>
-        <translation>Ada kaynak kodu</translation>
+        <translation>Ada-källkod</translation>
     </message>
     <message>
         <source>AppleScript source code</source>
         <extracomment>text/x-applescript</extracomment>
-        <translation>AppleScript kaynak kodu</translation>
+        <translation>AppleScript-källkod</translation>
     </message>
     <message>
         <source>Active Server Page</source>
         <extracomment>text/asp</extracomment>
-        <translation>Etkin sunucu sayfası</translation>
+        <translation>Active Server Page</translation>
     </message>
     <message>
         <source>ASP .NET</source>
@@ -9458,352 +9477,352 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>AspectJ source code</source>
         <extracomment>text/x-aspectj</extracomment>
-        <translation>AspectJ kaynak kodu</translation>
+        <translation>AspectJ-källkod</translation>
     </message>
     <message>
         <source>Assembler source code</source>
         <extracomment>text/x-assembly</extracomment>
-        <translation>Assembler kaynak kodu</translation>
+        <translation>Assembler-källkod</translation>
     </message>
     <message>
         <source>Cascading Style Sheet</source>
         <extracomment>text/css</extracomment>
-        <translation>Basamaklı biçem sayfası</translation>
+        <translation>CSS-stilmallar</translation>
     </message>
     <message>
         <source>HyperText Markup Language</source>
         <extracomment>text/html</extracomment>
-        <translation>HyperText işaretleme dili</translation>
+        <translation>HyperText Markup Language</translation>
     </message>
     <message>
         <source>Makefile build file</source>
         <extracomment>text/x-makefile</extracomment>
-        <translation>Makefile yapı dosyası</translation>
+        <translation>Makefile-byggfil</translation>
     </message>
     <message>
         <source>Roff/nroff/troff/groff Unformatted Manual Page (UNIX)</source>
         <extracomment>text/troff</extracomment>
-        <translation>Roff/nroff/troff/groff biçimlendirilmemiş kılavuz sayfası (UNIX)</translation>
+        <translation>Roff/nroff/troff/groff oformaterad manualsida (UNIX)</translation>
     </message>
     <message>
         <source>Graphviz Graph Visualization Software</source>
         <extracomment>text/vnd.graphviz</extracomment>
-        <translation>Graphviz grafik görselleştirme yazılımı</translation>
+        <translation>Graphviz Graph Visualization Software</translation>
     </message>
     <message>
         <source>American Newspaper Publishers Association Wire Feeds</source>
         <extracomment>text/vnd.iptc.anpa</extracomment>
-        <translation>Amerikan gazete yayımcıları birliği iletişim beslemeleri</translation>
+        <translation>American Newspaper Publishers Association Wire Feeds</translation>
     </message>
     <message>
         <source>WML Script</source>
         <extracomment>text/vnd.wap.wmlscript</extracomment>
-        <translation>WML betiği</translation>
+        <translation>WML-skript</translation>
     </message>
     <message>
         <source>Web Video Text Tracks Format</source>
         <extracomment>text/vtt</extracomment>
-        <translation>Web videosu metin izleri biçimi</translation>
+        <translation>Web Video Text Tracks Format</translation>
     </message>
     <message>
         <source>AWK script</source>
         <extracomment>text/x-awk</extracomment>
-        <translation>AWK betiği</translation>
+        <translation>AWK-skript</translation>
     </message>
     <message>
         <source>Basic source code</source>
         <extracomment>text/x-basic</extracomment>
-        <translation>Basit kaynak kod</translation>
+        <translation>Basic-källkod</translation>
     </message>
     <message>
         <source>C++ source code header</source>
         <extracomment>text/x-c++hdr</extracomment>
-        <translation>C++ kaynak kodu üstbilgisi</translation>
+        <translation>C++-källkodsheader</translation>
     </message>
     <message>
         <source>C++ source code</source>
         <extracomment>text/x-c++src</extracomment>
-        <translation>C++ kaynak kodu</translation>
+        <translation>C++-källkod</translation>
     </message>
     <message>
         <source>CGI script</source>
         <extracomment>text/x-cgi</extracomment>
-        <translation>CGI betiği</translation>
+        <translation>CGI-skript</translation>
     </message>
     <message>
         <source>C source code header</source>
         <extracomment>text/x-chdr</extracomment>
-        <translation>C kaynak kodu üstbilgisi</translation>
+        <translation>C-källkodsheader</translation>
     </message>
     <message>
         <source>Clojure source code</source>
         <extracomment>text/x-clojure</extracomment>
-        <translation>Clojure kaynak kodu</translation>
+        <translation>Clojure-källkod</translation>
     </message>
     <message>
         <source>CoffeeScript source code</source>
         <extracomment>text/x-coffeescript</extracomment>
-        <translation>CoffeeScript kaynak kodu</translation>
+        <translation>CoffeeScript-källkod</translation>
     </message>
     <message>
         <source>C source code</source>
         <extracomment>text/x-csrc</extracomment>
-        <translation>C kaynak kodu</translation>
+        <translation>C-källkod</translation>
     </message>
     <message>
         <source>C# source code</source>
         <extracomment>text/x-csharp</extracomment>
-        <translation>C# kaynak kodu</translation>
+        <translation>C#-källkod</translation>
     </message>
     <message>
         <source>COBOL source code</source>
         <extracomment>text/x-cobol</extracomment>
-        <translation>COBOL kaynak kodu</translation>
+        <translation>COBOL-källkod</translation>
     </message>
     <message>
         <source>ColdFusion source code</source>
         <extracomment>text/x-coldfusion</extracomment>
-        <translation>ColdFusion kaynak kodu</translation>
+        <translation>ColdFusion-källkod</translation>
     </message>
     <message>
         <source>Common Lisp source code</source>
         <extracomment>text/x-common-lisp</extracomment>
-        <translation>Common Lisp kaynak kodu</translation>
+        <translation>Common Lisp-källkod</translation>
     </message>
     <message>
         <source>Eiffel source code</source>
         <extracomment>text/x-eiffel</extracomment>
-        <translation>Eiffel kaynak kodu</translation>
+        <translation>Eiffel-källkod</translation>
     </message>
     <message>
         <source>Emacs Lisp source code</source>
         <extracomment>text/x-emacs-lisp</extracomment>
-        <translation>Emacs Lisp kaynak kodu</translation>
+        <translation>Emacs Lisp-källkod</translation>
     </message>
     <message>
         <source>Erlang source code</source>
         <extracomment>text/x-erlang</extracomment>
-        <translation>Erlang kaynak kodu</translation>
+        <translation>Erlang-källkod</translation>
     </message>
     <message>
         <source>Expect Script</source>
         <extracomment>text/x-expect</extracomment>
-        <translation>Expect betiği</translation>
+        <translation>Expect-skript</translation>
     </message>
     <message>
         <source>Forth source code</source>
         <extracomment>text/x-forth</extracomment>
-        <translation>Forth kaynak kodu</translation>
+        <translation>Forth-källkod</translation>
     </message>
     <message>
         <source>Fortran source code</source>
         <extracomment>text/x-fortran</extracomment>
-        <translation>Fortran kaynak kodu</translation>
+        <translation>Fortran-källkod</translation>
     </message>
     <message>
         <source>Go source code</source>
         <extracomment>text/x-go</extracomment>
-        <translation>Go kaynak kodu</translation>
+        <translation>Go-källkod</translation>
     </message>
     <message>
         <source>Groovy source code</source>
         <extracomment>text/x-groovy</extracomment>
-        <translation>Groovy kaynak kodu</translation>
+        <translation>Groovy-källkod</translation>
     </message>
     <message>
         <source>Haskell source code</source>
         <extracomment>text/x-haskell</extracomment>
-        <translation>Haskell kaynak kodu</translation>
+        <translation>Haskell-källkod</translation>
     </message>
     <message>
         <source>Interface Definition Language</source>
         <extracomment>text/x-idl</extracomment>
-        <translation>Arabirim tanımlama dili</translation>
+        <translation>Interface Definition Language</translation>
     </message>
     <message>
         <source>Configuration file</source>
         <extracomment>text/x-ini</extracomment>
-        <translation>Yapılandırma dosyası</translation>
+        <translation>Konfigurationsfil</translation>
     </message>
     <message>
         <source>Java source code</source>
         <extracomment>text/x-java-source</extracomment>
-        <translation>Java kaynak kodu</translation>
+        <translation>Java-källkod</translation>
     </message>
     <message>
         <source>Java Properties</source>
         <extracomment>text/x-java-properties</extracomment>
-        <translation>Java özellikleri</translation>
+        <translation>Java Properties</translation>
     </message>
     <message>
         <source>Java Server Page</source>
         <extracomment>text/x-jsp</extracomment>
-        <translation>Java sunucu sayfası</translation>
+        <translation>Java Server Page</translation>
     </message>
     <message>
         <source>LESS source code</source>
         <extracomment>text/x-less</extracomment>
-        <translation>LESS kaynak kodu</translation>
+        <translation>LESS-källkod</translation>
     </message>
     <message>
         <source>Lex/Flex source code</source>
         <extracomment>text/x-lex</extracomment>
-        <translation>Lex/Flex kaynak kodu</translation>
+        <translation>Lex/Flex-källkod</translation>
     </message>
     <message>
         <source>application log</source>
         <extracomment>text/x-log</extracomment>
-        <translation>Uygulama günlüğü</translation>
+        <translation>applikationslogg</translation>
     </message>
     <message>
         <source>Lua source code</source>
         <extracomment>text/x-lua</extracomment>
-        <translation>Lua kaynak kodu</translation>
+        <translation>Lua-källkod</translation>
     </message>
     <message>
         <source>ML source code</source>
         <extracomment>text/x-ml</extracomment>
-        <translation>ML kaynak kodu</translation>
+        <translation>ML-källkod</translation>
     </message>
     <message>
         <source>Matlab source code</source>
         <extracomment>text/x-matlab</extracomment>
-        <translation>MATLAB kaynak kodu</translation>
+        <translation>Matlab-källkod</translation>
     </message>
     <message>
         <source>MATLAB data file</source>
         <extracomment>application/x-matlab-data</extracomment>
-        <translation>MATLAB veri dosyası</translation>
+        <translation>MATLAB-datafil</translation>
     </message>
     <message>
         <source>Modula source code</source>
         <extracomment>text/x-modula</extracomment>
-        <translation>Modula kaynak kodu</translation>
+        <translation>Modula-källkod</translation>
     </message>
     <message>
         <source>Objective-C source code</source>
         <extracomment>text/x-objcsrc</extracomment>
-        <translation>Objective-C kaynak kodu</translation>
+        <translation>Objective-C-källkod</translation>
     </message>
     <message>
         <source>Ocaml source code</source>
         <extracomment>text/x-ocaml</extracomment>
-        <translation>Ocaml kaynak kodu</translation>
+        <translation>Ocaml-källkod</translation>
     </message>
     <message>
         <source>Pascal source code</source>
         <extracomment>text/x-pascal</extracomment>
-        <translation>Pascal kaynak kodu</translation>
+        <translation>Pascal-källkod</translation>
     </message>
     <message>
         <source>Perl script</source>
         <extracomment>text/x-perl</extracomment>
-        <translation>Perl kaynak kodu</translation>
+        <translation>Perl-skript</translation>
     </message>
     <message>
         <source>PHP script</source>
         <extracomment>text/x-php</extracomment>
-        <translation>PHP betiği</translation>
+        <translation>PHP-skript</translation>
     </message>
     <message>
         <source>Prolog source code</source>
         <extracomment>text/x-prolog</extracomment>
-        <translation>Prolog kaynak kodu</translation>
+        <translation>Prolog-källkod</translation>
     </message>
     <message>
         <source>Python script</source>
         <extracomment>text/x-python</extracomment>
-        <translation>Python betiği</translation>
+        <translation>Python-skript</translation>
     </message>
     <message>
         <source>reStructuredText source code</source>
         <extracomment>text/x-rst</extracomment>
-        <translation>reStructuredText kaynak kodu</translation>
+        <translation>reStructuredText-källkod</translation>
     </message>
     <message>
         <source>Rexx source code</source>
         <extracomment>text/x-rexx</extracomment>
-        <translation>Rexx kaynak kodu</translation>
+        <translation>Rexx-källkod</translation>
     </message>
     <message>
         <source>Ruby source code</source>
         <extracomment>text/x-ruby</extracomment>
-        <translation>Ruby kaynak kodu</translation>
+        <translation>Ruby-källkod</translation>
     </message>
     <message>
         <source>Scala source code</source>
         <extracomment>text/x-scala</extracomment>
-        <translation>Scala kaynak kodu</translation>
+        <translation>Scala-källkod</translation>
     </message>
     <message>
         <source>Scheme source code</source>
         <extracomment>text/x-scheme</extracomment>
-        <translation>Scheme kaynak kodu</translation>
+        <translation>Scheme-källkod</translation>
     </message>
     <message>
         <source>Sed code</source>
         <extracomment>text/x-sed</extracomment>
-        <translation>Sed kodu</translation>
+        <translation>Sed-kod</translation>
     </message>
     <message>
         <source>SQL code</source>
         <extracomment>text/x-sql</extracomment>
-        <translation>SQL kodu</translation>
+        <translation>SQL-kod</translation>
     </message>
     <message>
         <source>Smalltalk source code</source>
         <extracomment>text/x-stsrc</extracomment>
-        <translation>Smalltalk kaynak kodu</translation>
+        <translation>Smalltalk-källkod</translation>
     </message>
     <message>
         <source>Tcl script</source>
         <extracomment>text/x-tcl</extracomment>
-        <translation>Tcl betiği</translation>
+        <translation>Tcl-skript</translation>
     </message>
     <message>
         <source>Text-based (non-binary) Message</source>
         <extracomment>text/x-tika-text-based-message</extracomment>
-        <translation>Metin tabanlı (ikili olmayan) ileti</translation>
+        <translation>Textbaserat (icke-binärt) meddelande</translation>
     </message>
     <message>
         <source>Visual basic source code</source>
         <extracomment>text/x-vbasic</extracomment>
-        <translation>Visual Basic kaynak kodu</translation>
+        <translation>Visual basic-källkod</translation>
     </message>
     <message>
         <source>VB.NET source code</source>
         <extracomment>text/x-vbdotnet</extracomment>
-        <translation>VB.NET kaynak kodu</translation>
+        <translation>VB.NET-källkod</translation>
     </message>
     <message>
         <source>VBScript source code</source>
         <extracomment>text/x-vbscript</extracomment>
-        <translation>VBScript kaynak kodu</translation>
+        <translation>VBScript-källkod</translation>
     </message>
     <message>
         <source>Verilog source code</source>
         <extracomment>text/x-verilog</extracomment>
-        <translation>Verilog kaynak kodu</translation>
+        <translation>Verilog-källkod</translation>
     </message>
     <message>
         <source>VHDL source code</source>
         <extracomment>text/x-vhdl</extracomment>
-        <translation>VHDL kaynak kodu</translation>
+        <translation>VHDL-källkod</translation>
     </message>
     <message>
         <source>Markdown source code</source>
         <extracomment>text/x-web-markdown</extracomment>
-        <translation>Markdown kaynak kodu</translation>
+        <translation>Markdown-källkod</translation>
     </message>
     <message>
         <source>Yacc/Bison source code</source>
         <extracomment>text/x-yacc</extracomment>
-        <translation>Yacc/Bison kaynak kodu</translation>
+        <translation>Yacc/Bison-källkod</translation>
     </message>
     <message>
         <source>YAML source code</source>
         <extracomment>text/x-yaml</extracomment>
-        <translation>YAML kaynak kodu</translation>
+        <translation>YAML-källkod</translation>
     </message>
     <message>
         <source>JPEG 2000 Part 3 (Motion JPEG, MJ2)</source>
@@ -9813,135 +9832,223 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>MPEG Movie Clip</source>
         <extracomment>video/mpeg</extracomment>
-        <translation>MPEG film klibi</translation>
+        <translation>MPEG-filmklipp</translation>
     </message>
     <message>
         <source>Ogg Vorbis Video</source>
         <extracomment>video/ogg</extracomment>
-        <translation>Ogg Vorbis videosu</translation>
+        <translation>Ogg Vorbis Video</translation>
     </message>
     <message>
         <source>Ogg Daala Video</source>
         <extracomment>video/daala</extracomment>
-        <translation>Ogg Daala videosu</translation>
+        <translation>Ogg Daala Video</translation>
     </message>
     <message>
         <source>Ogg Theora Video</source>
         <extracomment>video/theora</extracomment>
-        <translation>Ogg Theora videosu</translation>
+        <translation>Ogg Theora Video</translation>
     </message>
     <message>
         <source>Ogg Packaged Dirac Video</source>
         <extracomment>video/x-dirac</extracomment>
-        <translation>Ogg paketlenmiş Dirac videosu</translation>
+        <translation>Ogg Packaged Dirac Video</translation>
     </message>
     <message>
         <source>Ogg Packaged OGM Video</source>
         <extracomment>video/x-ogm</extracomment>
-        <translation>Ogg paketlenmiş OGM videosu</translation>
+        <translation>Ogg Packaged OGM Video</translation>
     </message>
     <message>
         <source>Ogg Packaged Raw UVS Video</source>
         <extracomment>video/x-ogguvs</extracomment>
-        <translation>Ogg paketlenmiş ham UVS videosu</translation>
+        <translation>Ogg Packaged Raw UVS Video</translation>
     </message>
     <message>
         <source>Ogg Packaged Raw YUV Video</source>
         <extracomment>video/x-oggyuv</extracomment>
-        <translation>Ogg paketlenmiş ham YUV videosu</translation>
+        <translation>Ogg Packaged Raw YUV Video</translation>
     </message>
     <message>
         <source>Ogg Packaged Raw RGB Video</source>
         <extracomment>video/x-oggrgb</extracomment>
-        <translation>Ogg paketlenmiş ham RGB videosu</translation>
+        <translation>Ogg Packaged Raw RGB Video</translation>
     </message>
     <message>
         <source>QuickTime Video</source>
         <extracomment>video/quicktime</extracomment>
-        <translation>QuickTime videosu</translation>
+        <translation>QuickTime Video</translation>
     </message>
     <message>
         <source>Windows Media Metafile</source>
         <extracomment>application/x-ms-asx</extracomment>
-        <translation>Windows ortam meta dosyası</translation>
+        <translation>Windows Media Metafile</translation>
     </message>
     <message>
         <source>Audio Video Interleave File</source>
         <extracomment>video/x-msvideo</extracomment>
-        <translation>Ses ve video ara dosyası</translation>
+        <translation>Audio Video Interleave File</translation>
     </message>
     <message>
         <source>Matroska Media Container</source>
         <extracomment>application/x-matroska</extracomment>
-        <translation>Matroska ortam kapsayıcısı</translation>
+        <translation>Matroska Media Container</translation>
     </message>
     <message>
         <source>Cooltalk Audio</source>
         <extracomment>x-conference/x-cooltalk</extracomment>
-        <translation>Cooltalk sesi</translation>
+        <translation>Cooltalk-ljud</translation>
     </message>
     <message>
         <source>FictionBook document</source>
         <extracomment>application/x-fictionbook+xml</extracomment>
-        <translation>FictionBook belgesi</translation>
+        <translation>FictionBook-dokument</translation>
     </message>
     <message>
         <source>Asciidoc source code</source>
         <extracomment>text/x-asciidoc</extracomment>
-        <translation>Asciidoc kaynak kodu</translation>
+        <translation>Asciidoc-källkod</translation>
     </message>
     <message>
         <source>D source code</source>
         <extracomment>text/x-d</extracomment>
-        <translation>D kaynak kodu</translation>
+        <translation>D-källkod</translation>
     </message>
     <message>
         <source>HAML source code</source>
         <extracomment>text/x-haml</extracomment>
-        <translation>HAML kaynak kodu</translation>
+        <translation>HAML-källkod</translation>
     </message>
     <message>
         <source>Haxe source code</source>
         <extracomment>text/x-haxe</extracomment>
-        <translation>Haxe kaynak kodu</translation>
+        <translation>Haxe-källkod</translation>
     </message>
     <message>
         <source>XLIFF 1.2 document</source>
         <extracomment>application/x-xliff+xml</extracomment>
-        <translation>XLIFF 1.2 belgesi</translation>
+        <translation>XLIFF 1.2-dokument</translation>
     </message>
     <message>
         <source>XLZ Archive</source>
         <extracomment>application/x-xliff+zip</extracomment>
-        <translation>XLZ arşivi</translation>
+        <translation>XLZ-arkiv</translation>
     </message>
     <message>
         <source>R source code</source>
         <extracomment>text/x-rsrc</extracomment>
-        <translation>R kaynak kodu</translation>
+        <translation>R-källkod</translation>
     </message>
 </context>
 <context>
-    <name>Assets::Downloader::AssetDownloader</name>
+    <name></name>
     <message>
-        <source>Downloading JSON file...</source>
-        <translation>JSON dosyası indiriliyor…</translation>
+        <source>Cannot open %1 for input</source>
+        <translation>Kan inte öppna %1 för inmatning</translation>
     </message>
     <message>
-        <source>Downloading zip file...</source>
-        <translation>ZIP dosyası indiriliyor…</translation>
+        <source>Cannot open for output: %1</source>
+        <translation>Kan inte öppna för utmatning: %1</translation>
     </message>
     <message>
-        <source>Unzipping...</source>
-        <translation>ZIP açılıyor…</translation>
+        <source>Could not copy to %1: %2</source>
+        <translation>Kunde inte kopiera till %1: %2</translation>
     </message>
     <message>
-        <source>Downloading assets...</source>
-        <translation>Varlıklar indiriliyor…</translation>
+        <source>Failure to write block: %1</source>
+        <translation>Misslyckades med att skriva block: %1</translation>
     </message>
     <message>
-        <source>Copying assets...</source>
-        <translation>Varlıklar kopyalanıyor…</translation>
+        <source>Metadata parsing error: %1</source>
+        <translation>Tolkningsfel av metadata: %1</translation>
+    </message>
+    <message>
+        <source>Invalid metadata version</source>
+        <translation>Ogiltig metadataversion</translation>
+    </message>
+    <message>
+        <source>Unexpected metadata contents</source>
+        <translation>Oväntat metadatainnehåll</translation>
+    </message>
+    <message>
+        <source>Extra content at end of document.</source>
+        <translation>Extra innehåll i slutet av dokumentet.</translation>
+    </message>
+    <message>
+        <source>Unexpected token while reading raw inner data.</source>
+        <translation>Oväntad token vid läsning av rå inre data.</translation>
+    </message>
+    <message>
+        <source>Expected character data.</source>
+        <translation>Förväntade teckendata.</translation>
+    </message>
+    <message>
+        <source>QPA plugin. See QGuiApplication documentation for available options for each plugin.</source>
+        <translation>QPA-insticksmodul. Se dokumentation för QGuiApplication för tillgängliga alternativ för varje insticksmodul.</translation>
+    </message>
+    <message>
+        <source>Path to the platform plugins.</source>
+        <translation>Sökväg till plattformens insticksmoduler.</translation>
+    </message>
+    <message>
+        <source>Platform theme.</source>
+        <translation>Plattformstema.</translation>
+    </message>
+    <message>
+        <source>Additional plugins to load, can be specified multiple times.</source>
+        <translation>Ytterligare insticksmoduler att läsa in, kan anges flera gånger.</translation>
+    </message>
+    <message>
+        <source>Window geometry for the main window, using the X11-syntax, like 100x100+50+50.</source>
+        <translation>Fönstergeometri för huvudfönstret, använder X11-syntax, som 100x100+50+50.</translation>
+    </message>
+    <message>
+        <source>Default window icon.</source>
+        <translation>Fönsterikon som standard.</translation>
+    </message>
+    <message>
+        <source>Title of the first window.</source>
+        <translation>Titel för första fönstret.</translation>
+    </message>
+    <message>
+        <source>Sets the application&apos;s layout direction to Qt::RightToLeft (debugging helper).</source>
+        <translation>Ställer in programmets layoutriktning till  Qt::RightToLeft (felsökningshjälpare).</translation>
+    </message>
+    <message>
+        <source>Restores the application from an earlier session.</source>
+        <translation>Återställer programmet från en tidigare session.</translation>
+    </message>
+    <message>
+        <source>Display name, overrides $DISPLAY.</source>
+        <translation>Skärmnamn, åsidosätter $DISPLAY.</translation>
+    </message>
+    <message>
+        <source>Instance name according to ICCCM 4.1.2.5.</source>
+        <translation>Instansnamn enligt ICCCM 4.1.2.5.</translation>
+    </message>
+    <message>
+        <source>Disable mouse grabbing (useful in debuggers).</source>
+        <translation>Inaktivera musfångst (användbart i felsökare).</translation>
+    </message>
+    <message>
+        <source>Force mouse grabbing (even when running in a debugger).</source>
+        <translation>Tvinga musfångst (även vid körning i en felsökare).</translation>
+    </message>
+    <message>
+        <source>ID of the X11 Visual to use.</source>
+        <translation>ID för X11 Visual att använda.</translation>
+    </message>
+    <message>
+        <source>Alias for --qwindowgeometry.</source>
+        <translation>Alias för --qwindowgeometry.</translation>
+    </message>
+    <message>
+        <source>Alias for --qwindowicon.</source>
+        <translation>Alias för --qwindowicon.</translation>
+    </message>
+    <message>
+        <source>Alias for --qwindowtitle.</source>
+        <translation>Alias för --qwindowtitle.</translation>
     </message>
 </context>
 <context>
@@ -9955,7 +10062,15 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <name>QWindowsUiaMainProvider</name>
     <message>
         <source>blockquote</source>
-        <translation>blok alıntı</translation>
+        <translation>blockquote</translation>
+    </message>
+</context>
+<context>
+    <name>QAccessibleColorWellItem</name>
+    <message>
+        <source>RGB %1, %2, %3</source>
+        <extracomment>Color specified via its 3 RGB components (red, green, blue)</extracomment>
+        <translation>RGB %1, %2, %3</translation>
     </message>
 </context>
 <context>
@@ -9963,58 +10078,7 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>%p%</source>
         <extracomment>%p is the percent value, % is the percent sign. When translated to the identical %p%, then the second % symbol will be replaced by the percentage-symbol from the user&apos;s locale.</extracomment>
-        <translation>%%p</translation>
-    </message>
-</context>
-<context>
-    <name>QTgaFile</name>
-    <message>
-        <source>Could not read image data</source>
-        <translation>Görsel verisi okunamadı</translation>
-    </message>
-    <message>
-        <source>Sequential device (eg socket) for image read not supported</source>
-        <translation>Görsel okuması için sıralı aygıt (örneğin, yuva) desteklenmiyor</translation>
-    </message>
-    <message>
-        <source>Seek file/device for image read failed</source>
-        <translation>Görsel okuması için aygıta/dosyaya bakma başarısız</translation>
-    </message>
-    <message>
-        <source>Image header read failed</source>
-        <translation>Görsel üstbilgisi okuması başarısız</translation>
-    </message>
-    <message>
-        <source>Image type not supported</source>
-        <translation>Görsel türü desteklenmiyor</translation>
-    </message>
-    <message>
-        <source>Image depth not valid</source>
-        <translation>Görsel derinliği geçerli değil</translation>
-    </message>
-    <message>
-        <source>Image size exceeds limit</source>
-        <translation>Görsel boyutu sınırı aşıyor</translation>
-    </message>
-    <message>
-        <source>Could not seek to image read footer</source>
-        <translation>Görsel okuması altbilgisine bakılamadı</translation>
-    </message>
-    <message>
-        <source>Could not read footer</source>
-        <translation>Altbilgi okunamadı</translation>
-    </message>
-    <message>
-        <source>Image type (non-TrueVision 2.0) not supported</source>
-        <translation>Görsel türü (TrueVision 2.0 olmayan) desteklenmiyor</translation>
-    </message>
-    <message>
-        <source>Could not reset to read data</source>
-        <translation>Veriyi okumak için sıfırlanamadı</translation>
-    </message>
-    <message>
-        <source>Invalid color map depth (%1)</source>
-        <translation>Geçersiz renk eşlemi derinliği (%1)</translation>
+        <translation>%p%</translation>
     </message>
 </context>
 </TS>
