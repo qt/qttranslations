@@ -3132,8 +3132,24 @@ application/onix-message-short+xml</extracomment>
         <translation>Файл атауы бумаға сілтейді</translation>
     </message>
     <message>
+        <source>target is an Alternate Data Stream</source>
+        <translation>мақсат балама деректер ағыны болып тұр</translation>
+    </message>
+    <message>
+        <source>target is a content:// virtual file</source>
+        <translation>мақсат content:// виртуалды файлы болып тұр</translation>
+    </message>
+    <message>
+        <source>target exists and is not a regular file</source>
+        <translation>мақсат бар және қалыпты файл емес болып тұр</translation>
+    </message>
+    <message>
+        <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled: %2.</source>
+        <translation>QSaveFile тікелей жазудың резервтік режимі іске қосылмаса, &quot;%1&quot; файлын аша алмайды: %2.</translation>
+    </message>
+    <message>
         <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled.</source>
-        <translation>Тікелей жазу мүмкіндігі іске қосылмаған болса, QSaveFile &apos;%1&apos; файлын аша алмайды.</translation>
+        <translation type="vanished">Тікелей жазу мүмкіндігі іске қосылмаған болса, QSaveFile &apos;%1&apos; файлын аша алмайды.</translation>
     </message>
     <message>
         <source>Writing canceled by application</source>
@@ -3559,6 +3575,10 @@ application/onix-message-short+xml</extracomment>
     <message>
         <source>not a dynamic library</source>
         <translation>динамикалық кітапхана емес</translation>
+    </message>
+    <message>
+        <source>corrupted encryption_info section</source>
+        <translation>зақымдалған encryption_info бөлімі</translation>
     </message>
 </context>
 <context>
@@ -4966,11 +4986,23 @@ application/onix-message-short+xml</extracomment>
     </message>
     <message>
         <source>ShowMenu</source>
-        <translation>МәзірдіКөрсету</translation>
+        <translation type="vanished">МәзірдіКөрсету</translation>
     </message>
     <message>
         <source>SetFocus</source>
-        <translation>ФокустыОрнату</translation>
+        <translation type="vanished">ФокустыОрнату</translation>
+    </message>
+    <message>
+        <source>Show Menu</source>
+        <translation>Мәзірді көрсету</translation>
+    </message>
+    <message>
+        <source>Set Focus</source>
+        <translation>Фокусты орнату</translation>
+    </message>
+    <message>
+        <source>Show on Screen</source>
+        <translation>Экранда көрсету</translation>
     </message>
     <message>
         <source>Toggle</source>
@@ -5019,6 +5051,10 @@ application/onix-message-short+xml</extracomment>
     <message>
         <source>Sets the focus</source>
         <translation>Фокусты орнатады</translation>
+    </message>
+    <message>
+        <source>Moves the element into the visible area</source>
+        <translation>Элементті көрінетін аймаққа жылжытады</translation>
     </message>
     <message>
         <source>Toggles the state</source>
@@ -7168,6 +7204,10 @@ application/onix-message-short+xml</extracomment>
         <source>Failed to initialize decompression: %1</source>
         <translation>Тарқатуды инициализациялау сәтсіз аяқталды: %1</translation>
     </message>
+    <message>
+        <source>Server stopped accepting new streams before this stream was established</source>
+        <translation>Сервер бұл ағын орнатылғанға дейін жаңа ағындарды қабылдауды тоқтатты</translation>
+    </message>
 </context>
 <context>
     <name>QCoreApplication</name>
@@ -7357,6 +7397,10 @@ application/onix-message-short+xml</extracomment>
     <message>
         <source>Reply was too large</source>
         <translation>Жауап тым үлкен болды</translation>
+    </message>
+    <message>
+        <source>Setting a nameserver is currently not supported on this OS</source>
+        <translation>Атаулар серверін орнатуға бұл операциялық жүйеде қазіргі уақытта қолдау көрсетілмейді</translation>
     </message>
     <message>
         <source>Could not expand domain name</source>
@@ -9319,6 +9363,10 @@ Please turn one of those options off.</source>
         <source>There are conflicts in some advanced options. Do you want to fix them?</source>
         <translation>Кейбір кеңейтілген опцияларда қайшылықтар бар. Оларды түзету керек пе?</translation>
     </message>
+    <message>
+        <source>Custom value for %1</source>
+        <translation>%1 үшін пайдаланушылық мән</translation>
+    </message>
 </context>
 <context>
     <name>Print Device Input Slot</name>
@@ -10075,6 +10123,10 @@ Press ESC to cancel</source>
     <message>
         <source>Invalid color map depth (%1)</source>
         <translation>Түстер картасының тереңдігі жарамсыз (%1)</translation>
+    </message>
+    <message>
+        <source>Insufficient image data for declared image size</source>
+        <translation>Көрсетілген сурет өлшемі үшін сурет деректері жеткіліксіз</translation>
     </message>
 </context>
 </TS>

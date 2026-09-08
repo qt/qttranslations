@@ -5,7 +5,63 @@
     <name>QAudioDecoder</name>
     <message>
         <source>QAudioDecoder not supported.</source>
-        <translation>QAudioDecoder-ге қолдау көрсетілмейді.</translation>
+        <translation type="vanished">QAudioDecoder-ге қолдау көрсетілмейді.</translation>
+    </message>
+    <message>
+        <source>Attempting to play invalid Qt resource</source>
+        <translation>Жарамсыз Qt ресурсын ойнату әрекеті жасалуда</translation>
+    </message>
+    <message>
+        <source>Unable to decode audio file</source>
+        <translation>Аудио файлды декодтау мүмкін емес</translation>
+    </message>
+    <message>
+        <source>Audio file sample rate does not match requested format</source>
+        <translation>Аудио файлдың үлгі жиілігі сұралған пішімге сәйкес келмейді</translation>
+    </message>
+    <message>
+        <source>Audio file channel count does not match requested format</source>
+        <translation>Аудио файлдың арналар саны сұралған пішімге сәйкес келмейді</translation>
+    </message>
+    <message>
+        <source>Unsupported sample format</source>
+        <translation>Қолдау көрсетілмейтін үлгі пішімі</translation>
+    </message>
+    <message>
+        <source>Unable to read audio data</source>
+        <translation>Аудио деректерін оқу мүмкін емес</translation>
+    </message>
+    <message>
+        <source>Failed to create audio buffer</source>
+        <translation>Аудио буферін жасау сәтсіз аяқталды</translation>
+    </message>
+    <message>
+        <source>Cannot open audio file</source>
+        <translation>Аудио файлды ашу мүмкін емес</translation>
+    </message>
+    <message>
+        <source>Cannot open audio resource</source>
+        <translation>Аудио ресурсын ашу мүмкін емес</translation>
+    </message>
+    <message>
+        <source>Failed to download audio file</source>
+        <translation>Аудио файлды жүктеп алу сәтсіз аяқталды</translation>
+    </message>
+    <message>
+        <source>Network error while downloading audio</source>
+        <translation>Аудионы жүктеп алу кезіндегі желі қатесі</translation>
+    </message>
+    <message>
+        <source>Cannot open audio device</source>
+        <translation>Аудио құрылғысын ашу мүмкін емес</translation>
+    </message>
+    <message>
+        <source>No audio source specified</source>
+        <translation>Аудио дереккөзі көрсетілмеген</translation>
+    </message>
+    <message>
+        <source>Audio file is empty</source>
+        <translation>Аудио файл бос</translation>
     </message>
 </context>
 <context>
@@ -58,7 +114,7 @@
     </message>
     <message>
         <source>Failed to establish temporary file during playback</source>
-        <translation>Ойнату кезінде уақытша файлды жасау сәтсіз аяқталды</translation>
+        <translation type="vanished">Ойнату кезінде уақытша файлды жасау сәтсіз аяқталды</translation>
     </message>
     <message>
         <source>Could not open file</source>
@@ -278,6 +334,10 @@
     <message>
         <source>Failed to add asset reader output</source>
         <translation>Активтерді оқығыш шығысын қосу сәтсіз аяқталды</translation>
+    </message>
+    <message>
+        <source>Media has no audio tracks</source>
+        <translation>Медиада аудио тректері жоқ</translation>
     </message>
     <message>
         <source>Could not start reading</source>
@@ -500,6 +560,123 @@
     <message>
         <source>Unsupported media, a codec is missing.</source>
         <translation>Медиаға қолдау көрсетілмейді, кодек жоқ.</translation>
+    </message>
+</context>
+<context>
+    <name>QDrWavAudioDecoder</name>
+    <message>
+        <source>No audio source specified</source>
+        <translation>Аудио дереккөзі көрсетілмеген</translation>
+    </message>
+</context>
+<context>
+    <name>QOhosCameraSession</name>
+    <message>
+        <source>Camera not ready for capture</source>
+        <translation>Камера түсіруге дайын емес</translation>
+    </message>
+    <message>
+        <source>Capture already in progress</source>
+        <translation>Түсіру әлдеқашан жүріп жатыр</translation>
+    </message>
+    <message>
+        <source>OH_PhotoOutput_Capture failed</source>
+        <translation>OH_PhotoOutput_Capture сәтсіз аяқталды</translation>
+    </message>
+    <message>
+        <source>Failed to read captured image</source>
+        <translation>Түсірілген суретті оқу сәтсіз аяқталды</translation>
+    </message>
+    <message>
+        <source>Failed to encode captured image</source>
+        <translation>Түсірілген суретті кодтау сәтсіз аяқталды</translation>
+    </message>
+    <message>
+        <source>Could not save captured image to: %1</source>
+        <translation>Түсірілген суретті мына орынға сақтау мүмкін болмады: %1</translation>
+    </message>
+    <message>
+        <source>Recorder error %1</source>
+        <translation>Жазғыш қатесі %1</translation>
+    </message>
+    <message>
+        <source>Recording already in progress</source>
+        <translation>Жазу әлдеқашан жүріп жатыр</translation>
+    </message>
+    <message>
+        <source>No matching camera video profile</source>
+        <translation>Камераның сәйкес видео профилі жоқ</translation>
+    </message>
+    <message>
+        <source>OH_AVRecorder_Create failed</source>
+        <translation>OH_AVRecorder_Create сәтсіз аяқталды</translation>
+    </message>
+    <message>
+        <source>Could not open output file: %1</source>
+        <translation>Шығыс файлын ашу мүмкін болмады: %1</translation>
+    </message>
+    <message>
+        <source>OH_AVRecorder_Prepare failed</source>
+        <translation>OH_AVRecorder_Prepare сәтсіз аяқталды</translation>
+    </message>
+    <message>
+        <source>OH_AVRecorder_GetInputSurface failed</source>
+        <translation>OH_AVRecorder_GetInputSurface сәтсіз аяқталды</translation>
+    </message>
+    <message>
+        <source>Failed to obtain recorder surface ID</source>
+        <translation>Жазғыш бетінің идентификаторын алу сәтсіз аяқталды</translation>
+    </message>
+    <message>
+        <source>Failed to attach video output to capture session</source>
+        <translation>Видео шығысын түсіру сеансына тіркеу сәтсіз аяқталды</translation>
+    </message>
+    <message>
+        <source>OH_AVRecorder_Start failed</source>
+        <translation>OH_AVRecorder_Start сәтсіз аяқталды</translation>
+    </message>
+</context>
+<context>
+    <name>QOhosMediaRecorder</name>
+    <message>
+        <source>Recorder has no capture session attached</source>
+        <translation>Жазғышқа түсіру сеансы тіркелмеген</translation>
+    </message>
+    <message>
+        <source>No writable output location</source>
+        <translation>Жазуға болатын шығыс орналасуы жоқ</translation>
+    </message>
+    <message>
+        <source>No audio or video input is attached to the capture session</source>
+        <translation>Түсіру сеансына аудио немесе видео кірісі тіркелмеген</translation>
+    </message>
+    <message>
+        <source>OH_AVRecorder_Create failed</source>
+        <translation>OH_AVRecorder_Create сәтсіз аяқталды</translation>
+    </message>
+    <message>
+        <source>Could not open output file: %1</source>
+        <translation>Шығыс файлын ашу мүмкін болмады: %1</translation>
+    </message>
+    <message>
+        <source>OH_AVRecorder_Prepare failed</source>
+        <translation>OH_AVRecorder_Prepare сәтсіз аяқталды</translation>
+    </message>
+    <message>
+        <source>OH_AVRecorder_Start failed</source>
+        <translation>OH_AVRecorder_Start сәтсіз аяқталды</translation>
+    </message>
+    <message>
+        <source>Recorder error %1</source>
+        <translation>Жазғыш қатесі %1</translation>
+    </message>
+    <message>
+        <source>No audio input device available</source>
+        <translation>Қолжетімді аудио кіріс құрылғысы жоқ</translation>
+    </message>
+    <message>
+        <source>Audio capture start failed</source>
+        <translation>Аудио түсіруді бастау сәтсіз аяқталды</translation>
     </message>
 </context>
 </TS>

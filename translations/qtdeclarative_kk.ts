@@ -404,6 +404,10 @@ Do you want to replace it?</source>
 <context>
     <name>QQmlParser</name>
     <message>
+        <source>Cyclic alias</source>
+        <translation>Циклдік бүркеншік ат</translation>
+    </message>
+    <message>
         <source>Unexpected object definition</source>
         <translation>Күтпеген объект сипаттамасы</translation>
     </message>
@@ -696,6 +700,10 @@ Do you want to replace it?</source>
         <translation>- %1 атаулар кеңістігі емес</translation>
     </message>
     <message>
+        <source>- %1 is not an inline component</source>
+        <translation>- %1 жолішілік компонент емес</translation>
+    </message>
+    <message>
         <source>- %1 is not a type</source>
         <translation>- %1 түр емес</translation>
     </message>
@@ -816,7 +824,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>File is empty</source>
-        <translation>Файл бос</translation>
+        <translation type="vanished">Файл бос</translation>
     </message>
     <message>
         <source>Cached QML Unit has no objects</source>
@@ -988,7 +996,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Cyclic alias</source>
-        <translation>Циклдік бүркеншік аты</translation>
+        <translation type="vanished">Циклдік бүркеншік аты</translation>
     </message>
     <message>
         <source>Invalid alias target</source>
@@ -2358,6 +2366,51 @@ Revision %1 corresponds to version %2.%3; it should be %4.%5.</source>
     <message>
         <source>Cannot assign to read-only property &quot;%1&quot;</source>
         <translation>Тек оқуға арналған &quot;%1&quot; қасиетіне тағайындау мүмкін емес</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlComponentAndAliasResolver</name>
+    <message>
+        <source>Invalid alias reference. Unable to find id &quot;%1&quot;</source>
+        <translation>Жарамсыз бүркеншік ат сілтемесі. &quot;%1&quot; идентификаторын табу мүмкін емес</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlDebugConsole</name>
+    <message>
+        <source>Show the list of available commands.</source>
+        <translation>Қолжетімді командалар тізімін көрсету.</translation>
+    </message>
+    <message>
+        <source>The following commands are available:</source>
+        <translation>Келесі командалар қолжетімді:</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlCodeActions</name>
+    <message>
+        <source>TODO:</source>
+        <translation>TODO:</translation>
+    </message>
+    <message>
+        <source>Move position bindings from the component to the Loader.</source>
+        <translation>Орын байланыстарын компоненттен Loader-ге жылжыту.</translation>
+    </message>
+    <message>
+        <source>Check all uses of &apos;parent&apos; inside the root element of the component.</source>
+        <translation>Компоненттің түбірлік элементінің ішіндегі &apos;parent&apos; барлық қолданысын тексеру.</translation>
+    </message>
+    <message>
+        <source>Rename all outer uses of the id &quot;%1&quot; to &quot;%2.item&quot;.</source>
+        <translation>&quot;%1&quot; идентификаторының барлық сыртқы қолданысының атын &quot;%2.item&quot; етіп өзгерту.</translation>
+    </message>
+    <message>
+        <source>Rename all outer uses of the id &quot;%1&quot; to &quot;%2.item.%1&quot;.</source>
+        <translation>&quot;%1&quot; идентификаторының барлық сыртқы қолданысының атын &quot;%2.item.%1&quot; етіп өзгерту.</translation>
+    </message>
+    <message>
+        <source>Wrap Component in Loader</source>
+        <translation>Компонентті Loader ішіне орау</translation>
     </message>
 </context>
 </TS>
