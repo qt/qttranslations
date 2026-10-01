@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="es_ES">
+<TS version="2.1" language="es">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -20,7 +20,7 @@
     </message>
     <message>
         <source>Set translated entries to finished</source>
-        <translation>Marcar las entradas como finalizadas</translation>
+        <translation>Marcar entradas traducidas como finalizadas</translation>
     </message>
     <message>
         <source>Retranslate entries with existing translation</source>
@@ -28,7 +28,7 @@
     </message>
     <message>
         <source>Note that the modified entries will be reset to unfinished if &apos;Set translated entries to finished&apos; above is unchecked</source>
-        <translation>Tenga en cuenta que las entradas modificadas se marcarán como no finalizadas si no tiene activado tiene «Marcar las entradas traducidas como finalizadas»</translation>
+        <translation>Tener en cuenta que las entradas modificadas se marcarán como no finalizadas si no está activada «Marcar entradas traducidas como finalizadas»</translation>
     </message>
     <message>
         <source>Translate also finished entries</source>
@@ -48,7 +48,7 @@
     </message>
     <message>
         <source>The batch translator will search through the selected phrase books in the order given above</source>
-        <translation>El traductor por lotes buscará por todos los libros de frases seleccionados en el orden especificado encima</translation>
+        <translation>El traductor por lotes buscará en todos los libros de frases seleccionados, en el orden especificado arriba</translation>
     </message>
     <message>
         <source>&amp;Run</source>
@@ -64,7 +64,7 @@
     </message>
     <message>
         <source>Searching, please wait...</source>
-        <translation>Buscando, por favor espere...</translation>
+        <translation>Buscando, aguardar...</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
@@ -78,7 +78,7 @@
         <source>Batch translated %n entries</source>
         <translation>
             <numerusform>Traducida por lotes %n entrada</numerusform>
-            <numerusform>Traducidas por lotes %n entradas</numerusform>
+            <numerusform>Se tradujeron por lotes %n entradas</numerusform>
         </translation>
     </message>
 </context>
@@ -86,7 +86,7 @@
     <name>DataModel</name>
     <message>
         <source>The translation file &apos;%1&apos; will not be loaded because it is empty.</source>
-        <translation>La traducción del archivo «%1» no será cargada porque está vacía.</translation>
+        <translation>El archivo de traducción «%1» no será cargado porque está vacío.</translation>
     </message>
     <message>
         <source>&lt;qt&gt;Duplicate messages found in &apos;%1&apos;:</source>
@@ -116,7 +116,12 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Cannot create &apos;%2&apos;: %1</source>
-        <translation>No se puede crear «%2»: %1</translation>
+        <translation>No es posible crear «%2»: %1</translation>
+    </message>
+    <message>
+        <source>%1 (%2)</source>
+        <extracomment>&lt;language&gt; (&lt;territory&gt;)</extracomment>
+        <translation>%1 (%2)</translation>
     </message>
     <message>
         <source>Universal Form</source>
@@ -127,27 +132,51 @@ Se asumirá una forma simple universal.</translation>
     <name>ErrorsView</name>
     <message>
         <source>Accelerator possibly superfluous in translation.</source>
-        <translation>El acelerador es posiblemente superfluo en la traducción.</translation>
+        <translation type="vanished">El acelerador es posiblemente superfluo en la traducción.</translation>
     </message>
     <message>
         <source>Accelerator possibly missing in translation.</source>
-        <translation>El acelerador posiblemente falte en la traducción.</translation>
+        <translation type="vanished">El acelerador posiblemente falte en la traducción.</translation>
     </message>
     <message>
         <source>Translation does not end with the same punctuation as the source text.</source>
-        <translation>La traducción no termina con el mismo signo de puntuación que el texto de origen.</translation>
+        <translation type="vanished">La traducción no termina con el mismo signo de puntuación que el texto de origen.</translation>
+    </message>
+    <message>
+        <source>Accelerator possibly superfluous in translation: %1</source>
+        <translation>El acelerador es posiblemente superfluo en la traducción: %1</translation>
+    </message>
+    <message>
+        <source>Accelerator possibly missing in translation: %1</source>
+        <translation>El acelerador posiblemente falte en la traducción: %1</translation>
+    </message>
+    <message>
+        <source>Translation does not have same leading and trailing whitespace as the source text: %1</source>
+        <translation>La traducción no contiene los mismos espacios vacíos al inicio y final que el texto de origen: %1</translation>
+    </message>
+    <message>
+        <source>Translation does not end with the same punctuation as the source text: %1</source>
+        <translation>La traducción no termina con el mismo signo de puntuación que el texto de origen: %1</translation>
     </message>
     <message>
         <source>A phrase book suggestion for &apos;%1&apos; was ignored.</source>
-        <translation>La sugerencia del libro de frases para «%1» fue ignorada.</translation>
+        <translation>Una sugerencia del libro de frases para «%1» fue ignorada.</translation>
+    </message>
+    <message>
+        <source>Translation does not refer to the same place markers as in the source text: %1</source>
+        <translation>La traducción no se refiere a los mismos marcadores de posición que el texto de origen: %1</translation>
+    </message>
+    <message>
+        <source>Translation does not contain the necessary %n/%Ln place marker: %1</source>
+        <translation>La traducción no contiene el marcador de posición necesario %n/%Ln: %1</translation>
     </message>
     <message>
         <source>Translation does not refer to the same place markers as in the source text.</source>
-        <translation>La traducción no contiene los mismos signos de puntuación que el texto de origen.</translation>
+        <translation type="vanished">La traducción no contiene los mismos signos de puntuación que el texto de origen.</translation>
     </message>
     <message>
         <source>Translation does not contain the necessary %n/%Ln place marker.</source>
-        <translation>La traducción no contiene el signo de puntuación necesario %n/%Ln.</translation>
+        <translation type="vanished">La traducción no contiene el signo de puntuación necesario %n/%Ln.</translation>
     </message>
     <message>
         <source>Unknown error</source>
@@ -162,15 +191,15 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>This window allows you to search for some text in the translation source file.</source>
-        <translation>Esta ventana le permite buscar un texto en el archivo de traducción original.</translation>
+        <translation>Esta ventana permite buscar un texto en el archivo de traducción original.</translation>
     </message>
     <message>
         <source>&amp;Find what:</source>
-        <translation>&amp;Buscar qué:</translation>
+        <translation>&amp;Buscar:</translation>
     </message>
     <message>
         <source>Type in the text to search for.</source>
-        <translation>Escriba un texto para buscar.</translation>
+        <translation>Introducir un texto a ser buscado.</translation>
     </message>
     <message>
         <source>Options</source>
@@ -178,7 +207,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Source texts are searched when checked.</source>
-        <translation>Textos de origen serán buscados cuando está activado.</translation>
+        <translation>Se buscará en los textos de origen cuando esté activa.</translation>
     </message>
     <message>
         <source>&amp;Source texts</source>
@@ -186,7 +215,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Translations are searched when checked.</source>
-        <translation>Las traducciones serán buscadas cuando está activado.</translation>
+        <translation>Se buscará en las traducciones cuando esté activa.</translation>
     </message>
     <message>
         <source>&amp;Translations</source>
@@ -194,15 +223,15 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Texts such as &apos;TeX&apos; and &apos;tex&apos; are considered as different when checked.</source>
-        <translation>Textos como «TeX» y «tex» son considerados diferentes cuando está activado.</translation>
+        <translation>Textos tales como «TeX» y «tex» serán considerados como distintos cuando esté activa.</translation>
     </message>
     <message>
         <source>&amp;Match case</source>
-        <translation>Coincidir &amp;mayúsculas y minúsculas</translation>
+        <translation>Distinguir &amp;mayúsculas y minúsculas</translation>
     </message>
     <message>
         <source>Comments and contexts are searched when checked.</source>
-        <translation>Los comentarios y contextos son buscados cuando está activado.</translation>
+        <translation>Se buscará en comentarios y contextos cuando esté activa.</translation>
     </message>
     <message>
         <source>&amp;Comments</source>
@@ -214,15 +243,15 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Obsoleted messages are skipped when checked.</source>
-        <translation>Mensajes obsoletos serán ignorados cuando está activado.</translation>
+        <translation>Los mensajes obsoletos serán ignorados cuando esté activa.</translation>
     </message>
     <message>
         <source>Skip &amp;obsolete</source>
-        <translation>Saltar &amp;obsoletos</translation>
+        <translation>Omitir &amp;obsoletos</translation>
     </message>
     <message>
         <source>Click here to find the next occurrence of the text you typed in.</source>
-        <translation>Haz click aquí para buscar la siguiente ocurrencia del texto que has escrito.</translation>
+        <translation>Hacer clic aquí para buscar la siguiente ocurrencia del texto introducido.</translation>
     </message>
     <message>
         <source>Find Next</source>
@@ -230,32 +259,62 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Click here to close this window.</source>
-        <translation>Haga click aquí para cerrar esta ventana.</translation>
+        <translation>Hacer clic aquí para cerrar esta ventana.</translation>
     </message>
     <message>
         <source>Cancel</source>
         <translation>Cancelar</translation>
+    </message>
+    <message>
+        <source>Lets you use a Perl-compatible regular expression</source>
+        <translation>Permite usar una expresión regular compatible con Perl</translation>
+    </message>
+    <message>
+        <source>Regular &amp;expression</source>
+        <translation>&amp;Expresión regular</translation>
+    </message>
+    <message>
+        <source>T&amp;ranslation status:</source>
+        <translation>Estado de la t&amp;raducción:</translation>
+    </message>
+    <message>
+        <source>Lets you filter the search target by translation status</source>
+        <translation>Permite filtrar la búsqueda por estado de traducción</translation>
+    </message>
+    <message>
+        <source></source>
+        <comment>Choose Edit|Find from the menu bar or press Ctrl+F to pop up the Find dialog</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Todo</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Finalizado</translation>
+    </message>
+    <message>
+        <source>Unfinished</source>
+        <translation>Pendiente</translation>
     </message>
 </context>
 <context>
     <name>FormMultiWidget</name>
     <message>
         <source>Alt+Delete</source>
-        <extracomment>translate, but don&apos;t change
-</extracomment>
-        <translation>Alt+Suprimir</translation>
+        <extracomment>translate, but don&apos;t change</extracomment>
+        <translation>Alt+Supr</translation>
     </message>
     <message>
         <source>Shift+Alt+Insert</source>
-        <extracomment>translate, but don&apos;t change
-</extracomment>
-        <translation>Shift+Alt+Insertar</translation>
+        <extracomment>translate, but don&apos;t change</extracomment>
+        <translation>Mayús+Alt+Ins</translation>
     </message>
     <message>
         <source>Alt+Insert</source>
-        <extracomment>translate, but don&apos;t change
-</extracomment>
-        <translation>Alt+Insertar</translation>
+        <extracomment>translate, but don&apos;t change</extracomment>
+        <translation>Alt+Ins</translation>
     </message>
     <message>
         <source>Confirmation - Qt Linguist</source>
@@ -263,35 +322,35 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Delete non-empty length variant?</source>
-        <translation>¿Desea eliminar variantes no vacías?</translation>
+        <translation>¿Eliminar variantes no vacías?</translation>
     </message>
 </context>
 <context>
     <name>LRelease</name>
     <message numerus="yes">
         <source>Dropped %n message(s) which had no ID.</source>
-        <translation>
+        <translation type="vanished">
             <numerusform>Eliminado %n mensaje el cuál no contenía un identificador.</numerusform>
             <numerusform>Eliminados %n mensajes los cuales no contenían un identificador.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>Excess context/disambiguation dropped from %n message(s).</source>
-        <translation>
+        <translation type="vanished">
             <numerusform>Contexto/desambiaguación excesiva eliminada de %n mensaje.</numerusform>
             <numerusform>Contexto/desambiaguación excesiva eliminada de %n mensajes.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>    Generated %n translation(s) (%1 finished and %2 unfinished)</source>
-        <translation>
+        <translation type="vanished">
             <numerusform>    Generadas %n traducción (%1 terminado y %2 no finalizado)</numerusform>
             <numerusform>    Generadas %n traducciones (%1 terminados y %2 no finalizados)</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>    Ignored %n untranslated source text(s)</source>
-        <translation>
+        <translation type="vanished">
             <numerusform>    Ignorado %n texto original no traducido</numerusform>
             <numerusform>    Ignorados %n textos originales no traducidos</numerusform>
         </translation>
@@ -301,27 +360,27 @@ Se asumirá una forma simple universal.</translation>
     <name>Linguist</name>
     <message>
         <source>GNU Gettext localization files</source>
-        <translation>Archivos de localización de GNU Gettext</translation>
+        <translation type="vanished">Archivos de localización de GNU Gettext</translation>
     </message>
     <message>
         <source>GNU Gettext localization template files</source>
-        <translation>Archivos de plantilla de localización de GNU Gettext</translation>
+        <translation type="vanished">Archivos de plantilla de localización de GNU Gettext</translation>
     </message>
     <message>
         <source>Compiled Qt translations</source>
-        <translation>Traducciones de Qt compiladas</translation>
+        <translation type="vanished">Traducciones de Qt compiladas</translation>
     </message>
     <message>
         <source>Qt Linguist &apos;Phrase Book&apos;</source>
-        <translation>Qt Linguist «Libro de frases»</translation>
+        <translation type="vanished">Qt Linguist «Libro de frases»</translation>
     </message>
     <message>
         <source>Qt translation sources</source>
-        <translation>Fuentes de traducción de Qt</translation>
+        <translation type="vanished">Fuentes de traducción de Qt</translation>
     </message>
     <message>
         <source>XLIFF localization files</source>
-        <translation>Archivos de localización XLIFF</translation>
+        <translation type="vanished">Archivos de localización XLIFF</translation>
     </message>
 </context>
 <context>
@@ -356,7 +415,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Vie&amp;ws</source>
-        <translation>Vist&amp;as</translation>
+        <translation>P&amp;aneles</translation>
     </message>
     <message>
         <source>&amp;Toolbars</source>
@@ -364,7 +423,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>&amp;Zoom</source>
-        <translation>&amp;Zoom</translation>
+        <translation>&amp;Ampliación</translation>
     </message>
     <message>
         <source>&amp;Help</source>
@@ -380,7 +439,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Recently Opened &amp;Files</source>
-        <translation>Archivos &amp;recientemente abiertos</translation>
+        <translation>Archivos abiertos &amp;recientemente</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
@@ -392,7 +451,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Open a Qt translation source file (TS file) for editing</source>
-        <translation>Abrir un archivo fuente de traducción de Qt (archivo TS) para edición</translation>
+        <translation>Abre un archivo fuente de traducción de Qt (.TS) para su edición</translation>
     </message>
     <message>
         <source>Ctrl+O</source>
@@ -404,7 +463,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Close this window and exit.</source>
-        <translation>Cerrar esta ventana y salir.</translation>
+        <translation>Cierra esta ventana y permite salir.</translation>
     </message>
     <message>
         <source>Ctrl+Q</source>
@@ -416,7 +475,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Save changes made to this Qt translation source file</source>
-        <translation>Guardar cambios hechos en este archivo de origen de traducción de Qt</translation>
+        <translation>Guarda los cambios hechos en este archivo de traducción de Qt</translation>
     </message>
     <message>
         <source>Save &amp;As...</source>
@@ -428,15 +487,15 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Save changes made to this Qt translation source file into a new file.</source>
-        <translation>Guardar cambios hechos en este archivos fuente de traducción de Qt en un nuevo archivo.</translation>
+        <translation>Guarda los cambios hechos en este archivo de traducción de Qt en un nuevo archivo.</translation>
     </message>
     <message>
         <source>Release</source>
-        <translation>Liberar</translation>
+        <translation>Procesar</translation>
     </message>
     <message>
         <source>Create a Qt message file suitable for released applications from the current message file.</source>
-        <translation>Cree un archivo de mensaje de Qt válido para la aplicación distribuida desde el archivo de mensajes actual.</translation>
+        <translation>Crea un archivo de mensajes de Qt, válido para su uso en aplicaciones distribuidas, a partir del archivo de mensajes actual.</translation>
     </message>
     <message>
         <source>&amp;Print...</source>
@@ -444,7 +503,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Print a list of all the translation units in the current translation source file.</source>
-        <translation>Imprimir una lista con todas las unidades de traducción en el archivo de origen de traducción actual.</translation>
+        <translation>Imprime una lista con todas las unidades de traducción en el archivo de traducción actual.</translation>
     </message>
     <message>
         <source>Ctrl+P</source>
@@ -468,7 +527,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Redo an undone editing operation performed on the translation.</source>
-        <translation>Rehacer una operación deshecha en la traducción.</translation>
+        <translation>Rehace una operación deshecha en la traducción.</translation>
     </message>
     <message>
         <source>Ctrl+Y</source>
@@ -480,7 +539,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Copy the selected translation text to the clipboard and deletes it.</source>
-        <translation>Copia el texto de traducción seleccionada al portapapeles y la elimina.</translation>
+        <translation>Copia el texto de traducción seleccionado al portapapeles y lo borra.</translation>
     </message>
     <message>
         <source>Ctrl+X</source>
@@ -492,7 +551,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Copy the selected translation text to the clipboard.</source>
-        <translation>Copia el texto de traducción seleccionada al portapapeles.</translation>
+        <translation>Copia el texto de traducción seleccionado al portapapeles.</translation>
     </message>
     <message>
         <source>Ctrl+C</source>
@@ -504,7 +563,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Paste the clipboard text into the translation.</source>
-        <translation>Pegar el texto del portapapeles en la traducción.</translation>
+        <translation>Pega el texto en el portapapeles a la traducción.</translation>
     </message>
     <message>
         <source>Ctrl+V</source>
@@ -528,7 +587,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Search for some text in the translation source file.</source>
-        <translation>Buscar un texto en el archivo de origen de traducción.</translation>
+        <translation>Busca un texto en el archivo de traducción.</translation>
     </message>
     <message>
         <source>Ctrl+F</source>
@@ -540,7 +599,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Continue the search where it was left.</source>
-        <translation>Continuar la búsqueda donde fue dejada.</translation>
+        <translation>Continúa con la búsqueda donde fue dejada.</translation>
     </message>
     <message>
         <source>F3</source>
@@ -548,15 +607,15 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>&amp;Prev Unfinished</source>
-        <translation>&amp;Anterior no terminada</translation>
+        <translation>Pendiente &amp;anterior</translation>
     </message>
     <message>
         <source>Previous unfinished item</source>
-        <translation>Elemento anterior no finalizado</translation>
+        <translation>Elemento pendiente anterior</translation>
     </message>
     <message>
         <source>Move to the previous unfinished item.</source>
-        <translation>Mover al elemento no finalizado anterior.</translation>
+        <translation>Ir al elemento pendiente anterior.</translation>
     </message>
     <message>
         <source>Ctrl+K</source>
@@ -564,15 +623,15 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>&amp;Next Unfinished</source>
-        <translation>Siguie&amp;nte no terminado</translation>
+        <translation>Pendiente siguie&amp;nte</translation>
     </message>
     <message>
         <source>Next unfinished item</source>
-        <translation>Siguiente elemento no terminado</translation>
+        <translation>Elemento pendiente siguiente</translation>
     </message>
     <message>
         <source>Move to the next unfinished item.</source>
-        <translation>Mover al siguiente elemento no finalizado.</translation>
+        <translation>Ir al elemento pendiente siguiente.</translation>
     </message>
     <message>
         <source>Ctrl+J</source>
@@ -580,19 +639,19 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>P&amp;rev</source>
-        <translation>P&amp;revio</translation>
+        <translation>Ante&amp;rior</translation>
     </message>
     <message>
         <source>Move to previous item</source>
-        <translation>Mover al elemento anterior</translation>
+        <translation>Ir al elemento anterior</translation>
     </message>
     <message>
         <source>Move to the previous item.</source>
-        <translation>Mover al elemento anterior.</translation>
+        <translation>Mueve hacia el elemento anterior.</translation>
     </message>
     <message>
         <source>Ctrl+Shift+K</source>
-        <translation>Ctrl+Mayus.+K</translation>
+        <translation>Ctrl+Mayús+K</translation>
     </message>
     <message>
         <source>Ne&amp;xt</source>
@@ -600,31 +659,31 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Next item</source>
-        <translation>Siguiente elemento</translation>
+        <translation>Ir al elemento siguiente</translation>
     </message>
     <message>
         <source>Move to the next item.</source>
-        <translation>Mover al siguiente elemento.</translation>
+        <translation>Mueve hacia el elemento siguiente.</translation>
     </message>
     <message>
         <source>Ctrl+Shift+J</source>
-        <translation>Ctrl+Mayus.+J</translation>
+        <translation>Ctrl+Mayús+J</translation>
     </message>
     <message>
         <source>&amp;Done and Next</source>
-        <translation>&amp;Marcar como terminado y siguiente</translation>
+        <translation>&amp;Marcar finalizado y siguiente</translation>
     </message>
     <message>
         <source>Mark item as done and move to the next unfinished item</source>
-        <translation>Marca un elemento como terminado y se mueve al siguiente elemento no terminado</translation>
+        <translation>Marcar elemento como finalizado y mover al siguiente elemento pendiente</translation>
     </message>
     <message>
         <source>Mark this item as done and move to the next unfinished item.</source>
-        <translation>Marca este elemento como terminado y se mueve al siguiente elemento no terminado.</translation>
+        <translation>Marca este elemento como finalizado y mueve al siguiente elemento pendiente.</translation>
     </message>
     <message>
         <source>Copy from source text</source>
-        <translation>Copia desde el texto de origen</translation>
+        <translation>Copiar desde el texto original</translation>
     </message>
     <message>
         <source>Copies the source text into the translation field</source>
@@ -644,11 +703,11 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Toggle the validity check of accelerators</source>
-        <translation>Intercambia el chequeo de validez de los aceleradores</translation>
+        <translation type="vanished">Intercambia el chequeo de validez de los aceleradores</translation>
     </message>
     <message>
         <source>Toggle the validity check of accelerators, i.e. whether the number of ampersands in the source and translation text is the same. If the check fails, a message is shown in the warnings window.</source>
-        <translation>Intercambia la validez del chequeo de los aceleradores, por ejemplo cuando el numero de &amp; en el texto y el texto traducido es el mismo. Si el chequeo falla, un mensaje es mostrado en la ventana de avisos.</translation>
+        <translation type="vanished">Intercambia la validez del chequeo de los aceleradores, por ejemplo cuando el numero de &amp; en el texto y el texto traducido es el mismo. Si el chequeo falla, un mensaje es mostrado en la ventana de avisos.</translation>
     </message>
     <message>
         <source>&amp;Ending Punctuation</source>
@@ -656,35 +715,35 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Toggle the validity check of ending punctuation</source>
-        <translation>Intercambia el chequeo de validez de los signos de puntuación finales</translation>
+        <translation type="vanished">Intercambia el chequeo de validez de los signos de puntuación finales</translation>
     </message>
     <message>
         <source>Toggle the validity check of ending punctuation. If the check fails, a message is shown in the warnings window.</source>
-        <translation>Intercambia la validez del chequeo de los signos de puntuación finales. Si el chequeo falla, un mensaje es mostrado en la ventana de avisos.</translation>
+        <translation type="vanished">Intercambia la validez del chequeo de los signos de puntuación finales. Si el chequeo falla, un mensaje es mostrado en la ventana de avisos.</translation>
     </message>
     <message>
         <source>&amp;Phrase matches</source>
-        <translation>Coincidencias de &amp;frases</translation>
+        <translation>Coincidencia de &amp;frases</translation>
     </message>
     <message>
         <source>Toggle checking that phrase suggestions are used</source>
-        <translation>Intercambia el chequeo de que las sugerencias de frases son usadas</translation>
+        <translation type="vanished">Intercambia el chequeo de que las sugerencias de frases son usadas</translation>
     </message>
     <message>
         <source>Toggle checking that phrase suggestions are used. If the check fails, a message is shown in the warnings window.</source>
-        <translation>Intercambia el chequeo de que las sugerencias de frases son usadas. En el caso de fallar, un mensaje es mostrado en la ventana de avisos.</translation>
+        <translation type="vanished">Intercambia el chequeo de que las sugerencias de frases son usadas. En el caso de fallar, un mensaje es mostrado en la ventana de avisos.</translation>
     </message>
     <message>
         <source>Place &amp;Marker Matches</source>
-        <translation>Poner &amp;marcas de coincidencia</translation>
+        <translation>Coincidencia de &amp;marcadores de posición</translation>
     </message>
     <message>
         <source>Toggle the validity check of place markers</source>
-        <translation>Intercambia el chequeo de validez de las marcas de lugar</translation>
+        <translation type="vanished">Intercambia el chequeo de validez de las marcas de lugar</translation>
     </message>
     <message>
         <source>Toggle the validity check of place markers, i.e. whether %1, %2, ... are used consistently in the source text and translation text. If the check fails, a message is shown in the warnings window.</source>
-        <translation>Intercambia el chequeo de validez de las marcas de lugar, por ejemplo %1, %2, ... son usadas consistentemente en el texto original y traducido. Si el chequeo falla, un mensaje es mostrado en la ventana de avisos.</translation>
+        <translation type="vanished">Intercambia el chequeo de validez de las marcas de lugar, por ejemplo %1, %2, ... son usadas consistentemente en el texto original y traducido. Si el chequeo falla, un mensaje es mostrado en la ventana de avisos.</translation>
     </message>
     <message>
         <source>&amp;New Phrase Book...</source>
@@ -700,11 +759,11 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>&amp;Open Phrase Book...</source>
-        <translation>Abre un libr&amp;o de frases...</translation>
+        <translation>Abrir un libr&amp;o de frases...</translation>
     </message>
     <message>
         <source>Open a phrase book to assist translation.</source>
-        <translation>Abre un libro de frases para ayudar en la traducción.</translation>
+        <translation>Abre un libro de frases para asistir con la traducción.</translation>
     </message>
     <message>
         <source>Ctrl+H</source>
@@ -712,11 +771,11 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>&amp;Reset Sorting</source>
-        <translation>&amp;Reiniciar ordenación</translation>
+        <translation>&amp;Restablecer orden</translation>
     </message>
     <message>
         <source>Sort the items back in the same order as in the message file.</source>
-        <translation>Ordena los elementos en el mismo orden que el archivo de mensaje.</translation>
+        <translation>Vuelve a ordenar los elementos como aparecen en el archivo de mensajes.</translation>
     </message>
     <message>
         <source>&amp;Display guesses</source>
@@ -724,7 +783,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Set whether or not to display translation guesses.</source>
-        <translation>Establece si se debe mostrar sugerencias de traducción.</translation>
+        <translation>Establece si se deben mostrar sugerencias de traducción.</translation>
     </message>
     <message>
         <source>&amp;Statistics</source>
@@ -732,7 +791,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Display translation statistics.</source>
-        <translation>Muestra las estadísticas de traducción.</translation>
+        <translation>Muestra estadísticas de la traducción.</translation>
     </message>
     <message>
         <source>&amp;Manual</source>
@@ -752,7 +811,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Display information about the Qt toolkit by Digia.</source>
-        <translation>Muestra la información acerca del toolkit de Qt de Digia.</translation>
+        <translation>Muestra información acerca del conjunto de herramientas Qt de Digia.</translation>
     </message>
     <message>
         <source>&amp;What&apos;s This?</source>
@@ -764,11 +823,11 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Enter What&apos;s This? mode.</source>
-        <translation>Entrar en el modo ¿Qué es esto?.</translation>
+        <translation>Ingresa al modo ¿Qué es esto?</translation>
     </message>
     <message>
         <source>Shift+F1</source>
-        <translation>Mayus.+F1</translation>
+        <translation>Mayús+F1</translation>
     </message>
     <message>
         <source>&amp;Search And Translate...</source>
@@ -776,7 +835,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Replace the translation on all entries that matches the search source text.</source>
-        <translation>Reemplazar la traducción en todas las entradas que coinciden en la búsqueda en el texto original.</translation>
+        <translation>Reemplaza la traducción para todas las entradas que coincidan con la búsqueda en el texto original.</translation>
     </message>
     <message>
         <source>&amp;Batch Translation...</source>
@@ -784,15 +843,15 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Batch translate all entries using the information in the phrase books.</source>
-        <translation>Traducir por lotes todas las entradas usando la información en los libros de frases.</translation>
+        <translation>Traducir por lotes todas las entradas, usando la información en los libros de frases.</translation>
     </message>
     <message>
         <source>Release As...</source>
-        <translation>Distribuir como...</translation>
+        <translation>Procesar como...</translation>
     </message>
     <message>
         <source>Create a Qt message file suitable for released applications from the current message file. The filename will automatically be determined from the name of the TS file.</source>
-        <translation>Crea un archivo de mensajes de Qt usable en aplicaciones distribuidas a partir del archivo de mensajes actual. El nombre de archivo será automáticamente determinado por el nombre del archivo TS.</translation>
+        <translation>Crea un archivo de mensajes de Qt, válido para su uso en aplicaciones distribuidas, a partir del archivo de mensajes actual. El nombre de archivo será automáticamente determinado por el nombre del archivo TS.</translation>
     </message>
     <message>
         <source>File</source>
@@ -800,7 +859,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Edición</translation>
+        <translation>Editar</translation>
     </message>
     <message>
         <source>Translation</source>
@@ -816,7 +875,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Open/Refresh Form &amp;Preview</source>
-        <translation>Abrir/refrescar la &amp;previsualización del formulario</translation>
+        <translation>Abrir/refrescar &amp;previsualización de formularios</translation>
     </message>
     <message>
         <source>Form Preview Tool</source>
@@ -832,7 +891,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>&amp;Add to Phrase Book</source>
-        <translation>&amp;Añadir al libro de frases</translation>
+        <translation>&amp;Agregar al libro de frases</translation>
     </message>
     <message>
         <source>Ctrl+T</source>
@@ -840,7 +899,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Open Read-O&amp;nly...</source>
-        <translation>Abrir e&amp;n sólo lectura...</translation>
+        <translation>Abrir co&amp;mo sólo lectura...</translation>
     </message>
     <message>
         <source>&amp;Save All</source>
@@ -852,7 +911,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>&amp;Release All</source>
-        <translation>Distribui&amp;r todo</translation>
+        <translation>Procesa&amp;r todo</translation>
     </message>
     <message>
         <source>Close</source>
@@ -872,15 +931,15 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Visualize whitespace</source>
-        <translation>Visualizar espacios en blanco</translation>
+        <translation>Visualizar espacios</translation>
     </message>
     <message>
         <source>Toggle visualize whitespace in editors</source>
-        <translation>Alternar la visualización de espacios en blanco en los editores</translation>
+        <translation type="vanished">Alternar la visualización de espacios en blanco en los editores</translation>
     </message>
     <message>
         <source>Increase</source>
-        <translation>Incrementar</translation>
+        <translation>Aumentar</translation>
     </message>
     <message>
         <source>Ctrl++</source>
@@ -888,7 +947,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Decrease</source>
-        <translation>Decrementar</translation>
+        <translation>Disminuir</translation>
     </message>
     <message>
         <source>Ctrl+-</source>
@@ -896,7 +955,7 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Reset to default</source>
-        <translation>Revertir cambios</translation>
+        <translation>Predeterminada</translation>
     </message>
     <message>
         <source>Ctrl+0</source>
@@ -908,23 +967,35 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Index</source>
-        <translation>Índice</translation>
+        <translation type="vanished">Índice</translation>
     </message>
     <message>
         <source>Context</source>
         <translation>Contexto</translation>
     </message>
     <message>
+        <source>Label</source>
+        <translation>Etiqueta</translation>
+    </message>
+    <message>
         <source>Items</source>
         <translation>Elementos</translation>
     </message>
     <message>
+        <source>Context/Label</source>
+        <translation>Contexto/Etiqueta</translation>
+    </message>
+    <message>
         <source>This panel lists the source contexts.</source>
-        <translation>Este panel muestra los contextos de origen.</translation>
+        <translation>Este panel muestra los contextos originales.</translation>
+    </message>
+    <message>
+        <source>This panel lists the source labels.</source>
+        <translation>Este panel muestra las etiquetas originales.</translation>
     </message>
     <message>
         <source>Strings</source>
-        <translation>Cadenas de caracteres</translation>
+        <translation>Cadenas de texto</translation>
     </message>
     <message>
         <source>Phrases and guesses</source>
@@ -936,12 +1007,12 @@ Se asumirá una forma simple universal.</translation>
     </message>
     <message>
         <source>Warnings</source>
-        <translation>Avisos</translation>
+        <translation>Advertencias</translation>
     </message>
     <message>
         <source> MOD </source>
         <comment>status bar: file(s) modified</comment>
-        <translation> MOD </translation>
+        <translation> MODIFICADO </translation>
     </message>
     <message>
         <source>Loading...</source>
@@ -957,15 +1028,15 @@ Se asumirá una forma simple universal.</translation>
 Close the open file(s) first?</source>
         <translation>El archivo «%1» no parece estar relacionado con los archivos actualmente abiertos «%2».
 
-¿Desea cerrar los archivos actualmente abiertos?</translation>
+¿Cerrar los archivos actualmente abiertos?</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; does not seem to be related to the file &apos;%2&apos; which is being loaded as well.
 
 Skip loading the first named file?</source>
-        <translation>El archivo «%1» no parece estar relacionado con el archivo «%2» que también está siendo abierto.
+        <translation>El archivo «%1» no parece estar relacionado con el archivo «%2» que también está siendo cargado.
 
-¿Desea no cargar el primer archivo?</translation>
+¿Omitir la carga del primer archivo?</translation>
     </message>
     <message numerus="yes">
         <source>%n translation unit(s) loaded.</source>
@@ -987,6 +1058,14 @@ Skip loading the first named file?</source>
         <translation>Archivo guardado.</translation>
     </message>
     <message>
+        <source>Please select a file to be saved.</source>
+        <translation>Seleccionar un archivo a ser guardado.</translation>
+    </message>
+    <message>
+        <source>This function is not available on WebAssembly</source>
+        <translation>Esta función no está disponible en WebAssembly</translation>
+    </message>
+    <message>
         <source>Qt message files for released applications (*.qm)
 All files (*)</source>
         <translation>Archivos de mensajes de Qt para aplicaciones distribuidas (*.qm)
@@ -1001,12 +1080,16 @@ Todos los archivos (*)</translation>
         <translation>Imprimiendo...</translation>
     </message>
     <message>
+        <source>Label: %1</source>
+        <translation>Etiqueta: %1</translation>
+    </message>
+    <message>
         <source>Context: %1</source>
         <translation>Contexto: %1</translation>
     </message>
     <message>
         <source>finished</source>
-        <translation>terminado</translation>
+        <translation>finalizado</translation>
     </message>
     <message>
         <source>unresolved</source>
@@ -1022,23 +1105,44 @@ Todos los archivos (*)</translation>
     </message>
     <message>
         <source>Printing completed</source>
-        <translation>Impresión completada</translation>
+        <translation>Impresión completa</translation>
     </message>
     <message>
         <source>Printing aborted</source>
-        <translation>Impresión abortada</translation>
+        <translation>Impresión interrumpida</translation>
     </message>
     <message>
         <source>Search wrapped.</source>
-        <translation>Búsqueda envuelta.</translation>
+        <translation>Búsqueda reiniciada.</translation>
+    </message>
+    <message>
+        <source>Qt Linguist is a tool for adding translations to Qt applications.</source>
+        <translation>Qt Linguist es una herramienta para agregar traducciones a las aplicaciones Qt.</translation>
+    </message>
+    <message>
+        <source>Displays the manual for %1.</source>
+        <translation>Muestra el manual de %1.</translation>
+    </message>
+    <message>
+        <source>Displays information about %1.</source>
+        <translation>Muestra información acerca de %1.</translation>
     </message>
     <message>
         <source>Qt Linguist</source>
         <translation>Qt Linguist</translation>
     </message>
     <message>
+        <source></source>
+        <comment>This is the application&apos;s main window.</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
         <source>Cannot find the string &apos;%1&apos;.</source>
-        <translation>No se puede encontrar la cadena de caracteres «%1».</translation>
+        <translation>No es posible encontrar la cadena de caracteres «%1».</translation>
     </message>
     <message>
         <source>Search And Translate in &apos;%1&apos; - Qt Linguist</source>
@@ -1051,8 +1155,8 @@ Todos los archivos (*)</translation>
     <message numerus="yes">
         <source>Translated %n entry(s)</source>
         <translation>
-            <numerusform>Traducidas %n entrada</numerusform>
-            <numerusform>Traducidas %n entradas</numerusform>
+            <numerusform>Se tradujo %n entrada</numerusform>
+            <numerusform>Se tradujeron %n entradas</numerusform>
         </translation>
     </message>
     <message>
@@ -1066,7 +1170,7 @@ Todos los archivos (*)</translation>
     <message>
         <source>Qt phrase books (*.qph)
 All files (*)</source>
-        <translation>Archivos de frases de Qt (*.qph)
+        <translation>Libros de frases de Qt (*.qph)
 Todos los archivos (*)</translation>
     </message>
     <message>
@@ -1090,23 +1194,23 @@ Todos los archivos (*)</translation>
     </message>
     <message>
         <source>Add to phrase book</source>
-        <translation>Añadir a libro de frases</translation>
+        <translation>Agregar a libro de frases</translation>
     </message>
     <message>
         <source>No appropriate phrasebook found.</source>
-        <translation>No se ha encontrado un libro de frases apropiado.</translation>
+        <translation>No se encontró un libro de frases apropiado.</translation>
     </message>
     <message>
         <source>Adding entry to phrasebook %1</source>
-        <translation>Añadiendo entrada al libro de frases %1</translation>
+        <translation>Agregando entrada al libro de frases %1</translation>
     </message>
     <message>
         <source>Select phrase book to add to</source>
-        <translation>Seleccionar el libro de frases para añadir a</translation>
+        <translation>Seleccionar un libro de frases al cual agregar</translation>
     </message>
     <message>
         <source>Unable to launch Qt Assistant (%1)</source>
-        <translation>No se ha podido ejecutar Qt Assistant (%1)</translation>
+        <translation type="vanished">No se ha podido ejecutar Qt Assistant (%1)</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1114,15 +1218,15 @@ Todos los archivos (*)</translation>
     </message>
     <message>
         <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</source>
-        <translation>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist es una herramientas para añadir traducciones a aplicaciones de Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</translation>
+        <translation type="vanished">&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist es una herramientas para añadir traducciones a aplicaciones de Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</translation>
     </message>
     <message>
         <source>Do you want to save the modified files?</source>
-        <translation>¿Quiere guardar los archivos modificados?</translation>
+        <translation>¿Guardar archivos modificados?</translation>
     </message>
     <message>
         <source>Do you want to save &apos;%1&apos;?</source>
-        <translation>¿Quiere guardar «%1»?</translation>
+        <translation>¿Guardar «%1»?</translation>
     </message>
     <message>
         <source>Qt Linguist[*]</source>
@@ -1134,7 +1238,7 @@ Todos los archivos (*)</translation>
     </message>
     <message>
         <source>No untranslated translation units left.</source>
-        <translation>No quedan unidades de traducción sin traducir.</translation>
+        <translation>No quedan más unidades de traducción pendientes.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1150,11 +1254,11 @@ Todos los archivos (*)</translation>
     </message>
     <message>
         <source>Display the manual for %1.</source>
-        <translation>Mostrar el manual para %1.</translation>
+        <translation type="vanished">Mostrar el manual para %1.</translation>
     </message>
     <message>
         <source>Display information about %1.</source>
-        <translation>Mostrar información acerca de %1.</translation>
+        <translation type="vanished">Mostrar información acerca de %1.</translation>
     </message>
     <message>
         <source>&amp;Save &apos;%1&apos;</source>
@@ -1165,12 +1269,16 @@ Todos los archivos (*)</translation>
         <translation>Guardar «%1» &amp;como...</translation>
     </message>
     <message>
+        <source>&amp;Download &apos;%1&apos;</source>
+        <translation>&amp;Descargar &apos;%1&apos;</translation>
+    </message>
+    <message>
         <source>Release &apos;%1&apos;</source>
-        <translation>Distribuir «%1»</translation>
+        <translation>Procesar «%1»</translation>
     </message>
     <message>
         <source>Release &apos;%1&apos; As...</source>
-        <translation>Distribuir «%1» como...</translation>
+        <translation>Procesar «%1» como...</translation>
     </message>
     <message>
         <source>&amp;Close &apos;%1&apos;</source>
@@ -1178,8 +1286,11 @@ Todos los archivos (*)</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>%
-&amp;Guardar</translation>
+        <translation>&amp;Guardar</translation>
+    </message>
+    <message>
+        <source>&amp;Download</source>
+        <translation>&amp;Descargar</translation>
     </message>
     <message>
         <source>&amp;Close</source>
@@ -1195,11 +1306,11 @@ Todos los archivos (*)</translation>
     </message>
     <message>
         <source>&amp;Release</source>
-        <translation>Dist&amp;ribuir</translation>
+        <translation>P&amp;rocesar</translation>
     </message>
     <message>
         <source>Translation File &amp;Settings for &apos;%1&apos;...</source>
-        <translation>Configuración para el archivo de &amp;traducción «%1»...</translation>
+        <translation>Configuración del archivo de &amp;traducción para «%1»...</translation>
     </message>
     <message>
         <source>&amp;Batch Translation of &apos;%1&apos;...</source>
@@ -1215,7 +1326,7 @@ Todos los archivos (*)</translation>
     </message>
     <message>
         <source>Cannot read from phrase book &apos;%1&apos;.</source>
-        <translation>No se puede leer del libro de frases «%1».</translation>
+        <translation>No es posible leer del libro de frases «%1».</translation>
     </message>
     <message>
         <source>Close this phrase book.</source>
@@ -1223,7 +1334,7 @@ Todos los archivos (*)</translation>
     </message>
     <message>
         <source>Enables you to add, modify, or delete entries in this phrase book.</source>
-        <translation>Le permite añadir, modificar, o eliminar entradas de este libro de frases.</translation>
+        <translation>Permite agregar, modificar o eliminar entradas de este libro de frases.</translation>
     </message>
     <message>
         <source>Print the entries in this phrase book.</source>
@@ -1231,50 +1342,166 @@ Todos los archivos (*)</translation>
     </message>
     <message>
         <source>Cannot create phrase book &apos;%1&apos;.</source>
-        <translation>No se puede crear el libro de frases «%1».</translation>
+        <translation>No es posible crear el libro de frases «%1».</translation>
     </message>
     <message>
         <source>Do you want to save phrase book &apos;%1&apos;?</source>
-        <translation>¿Desea guardar el libro de frases «%1»?</translation>
+        <translation>¿Guardar el libro de frases «%1»?</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n unfinished message(s) left.</source>
+        <translation>
+            <numerusform>%n mensajes pendientes.</numerusform>
+            <numerusform></numerusform>
+        </translation>
     </message>
     <message>
         <source>All</source>
         <translation>Todo</translation>
+    </message>
+    <message>
+        <source>Guesses</source>
+        <translation>Sugerencias</translation>
+    </message>
+    <message>
+        <source>Toggles the validity check of accelerators</source>
+        <translation>Alternar comprobación de validez de los aceleradores</translation>
+    </message>
+    <message>
+        <source>Toggles the validity check of accelerators, i.e. whether the number of ampersands in the source and translation text is the same. If the check fails, a message is shown in the warnings window.</source>
+        <translation>Alterna la comprobación de validez de aceleradores, esto es, si la cantidad de ampersands en las cadenas originales y las traducidas coinciden. En caso de que la comprobación fallara, se mostrará un mensaje en el panel de advertencias.</translation>
+    </message>
+    <message>
+        <source>Surrounding &amp;Whitespace</source>
+        <translation>Espacios inicial &amp;y final</translation>
+    </message>
+    <message>
+        <source>Toggles the validity check of surrounding whitespace.</source>
+        <translation>Alternar comprobación de validez de espacios inicial y final.</translation>
+    </message>
+    <message>
+        <source>Toggles the validity check of surrounding whitespace. If the check fails, a message is shown in the warnings window.</source>
+        <translation>Alternar comprobación de validez de espacios inicial y final. En caso de que la comprobación fallara, se mostrará un mensaje en el panel de advertencias.</translation>
+    </message>
+    <message>
+        <source>Toggles the validity check of ending punctuation</source>
+        <translation>Alternar comprobación de validez de puntuación final</translation>
+    </message>
+    <message>
+        <source>Toggles the validity check of ending punctuation. If the check fails, a message is shown in the warnings window.</source>
+        <translation>Alterna la comprobación de validez de puntuación final. En caso de que la comprobación fallara, se mostrará un mensaje en el panel de advertencias.</translation>
+    </message>
+    <message>
+        <source>Toggles checking that phrase suggestions are used</source>
+        <translation>Alternar comprobación de uso de frases</translation>
+    </message>
+    <message>
+        <source>Toggles checking that phrase suggestions are used. If the check fails, a message is shown in the warnings window.</source>
+        <translation>Alterna la comprobación del uso de frases. En caso de que la comprobación fallara, se mostrará un mensaje en el panel de advertencias.</translation>
+    </message>
+    <message>
+        <source>Toggles the validity check of place markers</source>
+        <translation>Alternar comprobación de validez de marcadores de posición</translation>
+    </message>
+    <message>
+        <source>Toggles the validity check of place markers, i.e. whether %1, %2, ... are used consistently in the source text and translation text. If the check fails, a message is shown in the warnings window.</source>
+        <translation>Alternar comprobación de validez de marcadores de posición, es decir, si %1, %2, ... son usados de forma consistente en el texto original y en la traducción. En caso de que la comprobación fallara, se mostrará un mensaje en el panel de advertencias.</translation>
+    </message>
+    <message>
+        <source>&amp;QML preview</source>
+        <translation>Previsualización &amp;QML</translation>
+    </message>
+    <message>
+        <source>Displays a preview of QML documents.</source>
+        <translation>Muestra una previsualización de documentos QML.</translation>
+    </message>
+    <message>
+        <source>Toggles visualize whitespace in editors</source>
+        <translation>Alterna la visualización de los espacios en los editores</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Mostrar más</translation>
+    </message>
+    <message>
+        <source>Alt++</source>
+        <translation>Alt++</translation>
+    </message>
+    <message>
+        <source>Show fewer</source>
+        <translation>Mostrar menos</translation>
+    </message>
+    <message>
+        <source>Alt+-</source>
+        <translation>Alt+-</translation>
+    </message>
+    <message>
+        <source>Alt+0</source>
+        <translation>Alt+0</translation>
+    </message>
+    <message>
+        <source>D&amp;one</source>
+        <translation>Finalizad&amp;o</translation>
+    </message>
+    <message>
+        <source>Mark item as done</source>
+        <translation>Marcar elemento como finalizado</translation>
+    </message>
+    <message>
+        <source>Mark this item as done.</source>
+        <translation>Marca a este elemento como finalizado.</translation>
+    </message>
+    <message>
+        <source>Find P&amp;revious</source>
+        <translation>Buscar anterio&amp;r</translation>
+    </message>
+    <message>
+        <source>Shift+F3</source>
+        <translation>Mayús+F3</translation>
+    </message>
+    <message>
+        <source>AI Translation...</source>
+        <translation>Traducción mediante IA...</translation>
     </message>
 </context>
 <context>
     <name>MessageEditor</name>
     <message>
         <source>Russian</source>
-        <translation>Ruso</translation>
+        <translation type="vanished">Ruso</translation>
     </message>
     <message>
         <source>German</source>
-        <translation>Alemán</translation>
+        <translation type="vanished">Alemán</translation>
     </message>
     <message>
         <source>Japanese</source>
-        <translation>Japones</translation>
+        <translation type="vanished">Japones</translation>
     </message>
     <message>
         <source>French</source>
-        <translation>Francés</translation>
+        <translation type="vanished">Francés</translation>
     </message>
     <message>
         <source>Polish</source>
-        <translation>Polaco</translation>
+        <translation type="vanished">Polaco</translation>
     </message>
     <message>
         <source>Chinese</source>
-        <translation>Chino</translation>
+        <translation type="vanished">Chino</translation>
+    </message>
+    <message>
+        <source></source>
+        <comment>This is the right panel of the main window.</comment>
+        <translation></translation>
     </message>
     <message>
         <source>This whole panel allows you to view and edit the translation of some source text.</source>
-        <translation>Este panel le permite ver y editar una traducción de un texto de origen.</translation>
+        <translation>Este panel permite ver y editar la traducción de un texto de origen.</translation>
     </message>
     <message>
         <source>Source text</source>
-        <translation>Texto de origen</translation>
+        <translation>Texto original</translation>
     </message>
     <message>
         <source>This area shows the source text.</source>
@@ -1282,7 +1509,7 @@ Todos los archivos (*)</translation>
     </message>
     <message>
         <source>Source text (Plural)</source>
-        <translation>Texto de origen (plural)</translation>
+        <translation>Texto original (plural)</translation>
     </message>
     <message>
         <source>This area shows the plural form of the source text.</source>
@@ -1294,27 +1521,47 @@ Todos los archivos (*)</translation>
     </message>
     <message>
         <source>This area shows a comment that may guide you, and the context in which the text occurs.</source>
-        <translation>Este área muestra un comentario que le podría guiar, y el contexto en el que el texto aparece.</translation>
+        <translation>Este área muestra un comentario de guía y el contexto en el que el texto aparece.</translation>
+    </message>
+    <message>
+        <source>NCR mode</source>
+        <translation>Modo RNC</translation>
+    </message>
+    <message>
+        <source>Toggles Numeric Character Reference Mode for displaying the source text and the translations.</source>
+        <translation>ALterna el modo Referencia Numérica de Caracteres para mostrar los textos originales y traducidos.</translation>
     </message>
     <message>
         <source>Here you can enter comments for your own use. They have no effect on the translated applications.</source>
-        <translation>Aquí puede introducir comentarios para su propio uso. Esto no tiene efecto sobre las aplicaciones traducidas.</translation>
+        <translation>Aquí es posible introducir comentarios para uso propio. Esto no tendrá efecto sobre las traducciones de las aplicaciones.</translation>
+    </message>
+    <message>
+        <source>Translation to %1 (%2)</source>
+        <translation>Traducción a %1 (%2)</translation>
+    </message>
+    <message>
+        <source>Translation to %1</source>
+        <translation>Traducción a %1</translation>
+    </message>
+    <message>
+        <source>Translator comments for %1</source>
+        <translation>Comentarios de traducción para %1</translation>
     </message>
     <message>
         <source>%1 translation (%2)</source>
-        <translation>Traduccion %1 (%2)</translation>
+        <translation type="vanished">Traduccion %1 (%2)</translation>
     </message>
     <message>
         <source>This is where you can enter or modify the translation of the above source text.</source>
-        <translation>Aquí es donde puede introducir o modificar la traducción del texto original que aparece arriba.</translation>
+        <translation>Aquí es donde será posible introducir o modificar la traducción del texto original de arriba.</translation>
     </message>
     <message>
         <source>%1 translation</source>
-        <translation>Traduccion %1</translation>
+        <translation type="vanished">Traduccion %1</translation>
     </message>
     <message>
         <source>%1 translator comments</source>
-        <translation>Comentarios del traductor %1</translation>
+        <translation type="vanished">Comentarios del traductor %1</translation>
     </message>
     <message>
         <source>&apos;%1&apos;
@@ -1327,11 +1574,22 @@ Línea: %2</translation>
     <name>MessageModel</name>
     <message>
         <source>Completion status for %1</source>
-        <translation>Estado de %1</translation>
+        <translation>Estado de finalización de %1</translation>
+    </message>
+    <message>
+        <source>&lt;unnamed label&gt;</source>
+        <translation>&lt;etiqueta sin nombre&gt;</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n unfinished message(s) left.</source>
+        <translation>
+            <numerusform>Hay %n mensajes pendientes.</numerusform>
+            <numerusform></numerusform>
+        </translation>
     </message>
     <message>
         <source>&lt;file header&gt;</source>
-        <translation>&lt;archivo de cabecera&gt;</translation>
+        <translation type="vanished">&lt;archivo de cabecera&gt;</translation>
     </message>
     <message>
         <source>&lt;context comment&gt;</source>
@@ -1339,14 +1597,14 @@ Línea: %2</translation>
     </message>
     <message>
         <source>&lt;unnamed context&gt;</source>
-        <translation>&lt;contexto sin nombre&gt;</translation>
+        <translation type="vanished">&lt;contexto sin nombre&gt;</translation>
     </message>
 </context>
 <context>
     <name>PhraseBook</name>
     <message>
         <source>Parse error at line %1, column %2 (%3).</source>
-        <translation>Error de parseo en la línea %1, columna %2 (%3).</translation>
+        <translation>Error al analizar la línea %1, columna %2 (%3).</translation>
     </message>
 </context>
 <context>
@@ -1357,11 +1615,11 @@ Línea: %2</translation>
     </message>
     <message>
         <source>This window allows you to add, modify, or delete entries in a phrase book.</source>
-        <translation>Esta ventana permite añadir, modificar o eliminar entradas de un libro de frases.</translation>
+        <translation>Esta ventana permite agregar, modificar o eliminar entradas de un libro de frases.</translation>
     </message>
     <message>
         <source>&amp;Translation:</source>
-        <translation>&amp;Traduccion:</translation>
+        <translation>&amp;Traducción:</translation>
     </message>
     <message>
         <source>This is the phrase in the target language corresponding to the source phrase.</source>
@@ -1369,7 +1627,7 @@ Línea: %2</translation>
     </message>
     <message>
         <source>S&amp;ource phrase:</source>
-        <translation>Frase de &amp;origen:</translation>
+        <translation>Frase &amp;original:</translation>
     </message>
     <message>
         <source>This is a definition for the source phrase.</source>
@@ -1377,7 +1635,7 @@ Línea: %2</translation>
     </message>
     <message>
         <source>This is the phrase in the source language.</source>
-        <translation>Esta es una frase en el idioma original.</translation>
+        <translation>Esta es la frase en el idioma original.</translation>
     </message>
     <message>
         <source>&amp;Definition:</source>
@@ -1385,7 +1643,7 @@ Línea: %2</translation>
     </message>
     <message>
         <source>Click here to add the phrase to the phrase book.</source>
-        <translation>Haga click aquí para añadir la frase al libro de frases.</translation>
+        <translation>Hacer clic aquí para agregar la frase al libro de frases.</translation>
     </message>
     <message>
         <source>&amp;New Entry</source>
@@ -1393,7 +1651,7 @@ Línea: %2</translation>
     </message>
     <message>
         <source>Click here to remove the entry from the phrase book.</source>
-        <translation>Haga click aquí para eliminar la entrada del libro de frases.</translation>
+        <translation>Hacer clic aquí para eliminar la entrada del libro de frases.</translation>
     </message>
     <message>
         <source>&amp;Remove Entry</source>
@@ -1405,7 +1663,7 @@ Línea: %2</translation>
     </message>
     <message>
         <source>Click here to save the changes made.</source>
-        <translation>Haga click aquí para guardar los cambios hechos.</translation>
+        <translation>Hacer clic aquí para guardar los cambios realizados.</translation>
     </message>
     <message>
         <source>&amp;Save</source>
@@ -1413,11 +1671,16 @@ Línea: %2</translation>
     </message>
     <message>
         <source>Click here to close this window.</source>
-        <translation>Haga click aquí para cerrar esta ventana.</translation>
+        <translation>Hacer clic aquí para cerrar esta ventana.</translation>
     </message>
     <message>
         <source>Close</source>
         <translation>Cerrar</translation>
+    </message>
+    <message>
+        <source></source>
+        <comment>Go to Phrase &gt; Edit Phrase Book... The dialog that pops up is a PhraseBookBox.</comment>
+        <translation></translation>
     </message>
     <message>
         <source>(New Entry)</source>
@@ -1433,7 +1696,7 @@ Línea: %2</translation>
     </message>
     <message>
         <source>Cannot save phrase book &apos;%1&apos;.</source>
-        <translation>No se puede guardar el libro de frases «%1».</translation>
+        <translation>No es posible guardar el libro de frases «%1».</translation>
     </message>
 </context>
 <context>
@@ -1444,7 +1707,7 @@ Línea: %2</translation>
     </message>
     <message>
         <source>Translation</source>
-        <translation>Traduccion</translation>
+        <translation>Traducción</translation>
     </message>
     <message>
         <source>Definition</source>
@@ -1459,15 +1722,27 @@ Línea: %2</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Edición</translation>
+        <translation>Editar</translation>
+    </message>
+    <message>
+        <source>Go to</source>
+        <translation>Ir a</translation>
+    </message>
+    <message>
+        <source>Guess from &apos;%1&apos; (%2)</source>
+        <translation>Sugerencia desde &apos;%1&apos; (%2)</translation>
+    </message>
+    <message>
+        <source>Guess from &apos;%1&apos;</source>
+        <translation>Sugerencia desde &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Guess (%1)</source>
-        <translation>Sugerencia (%1)</translation>
+        <translation type="vanished">Sugerencia (%1)</translation>
     </message>
     <message>
         <source>Guess</source>
-        <translation>Sugerencia</translation>
+        <translation type="vanished">Sugerencia</translation>
     </message>
 </context>
 <context>
@@ -1512,7 +1787,7 @@ Línea: %2</translation>
     </message>
     <message>
         <source>Translation</source>
-        <translation>Traduccion</translation>
+        <translation>Traducción</translation>
     </message>
     <message>
         <source>Source</source>
@@ -1532,18 +1807,46 @@ Línea: %2</translation>
     </message>
     <message>
         <source>Characters (with spaces):</source>
-        <translation>Caracteres (incluyendo espacios en blanco):</translation>
+        <translation>Caracteres (incluyendo espacios):</translation>
+    </message>
+    <message>
+        <source>Unfinished</source>
+        <translation>Pendientes</translation>
+    </message>
+    <message>
+        <source>Total translatable messages:</source>
+        <translation>Total de mensajes traducibles:</translation>
+    </message>
+    <message>
+        <source>Total finished:</source>
+        <translation>Total finalizado:</translation>
+    </message>
+    <message>
+        <source>Without warnings:</source>
+        <translation>Sin advertencias:</translation>
+    </message>
+    <message>
+        <source>With warnings:</source>
+        <translation>Con advertencias:</translation>
+    </message>
+    <message>
+        <source>Unfinished:</source>
+        <translation>Pendientes:</translation>
+    </message>
+    <message>
+        <source>Total messages including obsolete:</source>
+        <translation>Total de mensajes incluyendo obsoletos:</translation>
     </message>
 </context>
 <context>
     <name>TranslateDialog</name>
     <message>
         <source>This window allows you to search for some text in the translation source file.</source>
-        <translation>Esta ventana le permite buscar algún texto en el archivo original de traducción.</translation>
+        <translation>Esta ventana permite buscar textos en el archivo original de traducción.</translation>
     </message>
     <message>
         <source>Type in the text to search for.</source>
-        <translation>Escriba el texto para buscar.</translation>
+        <translation>Introducir el texto a ser buscado.</translation>
     </message>
     <message>
         <source>Find &amp;source text:</source>
@@ -1559,11 +1862,11 @@ Línea: %2</translation>
     </message>
     <message>
         <source>Texts such as &apos;TeX&apos; and &apos;tex&apos; are considered as different when checked.</source>
-        <translation>Textos como «TeX» y «tex» son considerados como diferentes cuando está marcado.</translation>
+        <translation>Textos tales como «TeX» y «tex» serán considerados como diferentes cuando esté marcada.</translation>
     </message>
     <message>
         <source>Match &amp;case</source>
-        <translation>&amp;Coincidir mayúsculas y minúsculas</translation>
+        <translation>Distinguir mayúsculas y minús&amp;culas</translation>
     </message>
     <message>
         <source>Mark new translation as &amp;finished</source>
@@ -1571,7 +1874,7 @@ Línea: %2</translation>
     </message>
     <message>
         <source>Click here to find the next occurrence of the text you typed in.</source>
-        <translation>Haga click aquí para encontrar la siguiente ocurrencia del texto escrito.</translation>
+        <translation>Hacer clic aquí para encontrar la siguiente ocurrencia del texto introducido.</translation>
     </message>
     <message>
         <source>Find Next</source>
@@ -1587,7 +1890,7 @@ Línea: %2</translation>
     </message>
     <message>
         <source>Click here to close this window.</source>
-        <translation>Haga click aquí para cerrar esta ventana.</translation>
+        <translation>Hacer clic aquí para cerrar esta ventana.</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -1598,7 +1901,7 @@ Línea: %2</translation>
     <name>TranslationSettingsDialog</name>
     <message>
         <source>Source language</source>
-        <translation>Idioma de origen</translation>
+        <translation>Idioma original</translation>
     </message>
     <message>
         <source>Language</source>
@@ -1613,12 +1916,321 @@ Línea: %2</translation>
         <translation>Idioma de destino</translation>
     </message>
     <message>
+        <source>%1 (%2)</source>
+        <extracomment>&lt;english&gt; (&lt;endonym&gt;) (language names)</extracomment>
+        <translation>%1 (%2)</translation>
+    </message>
+    <message>
         <source>Settings for &apos;%1&apos; - Qt Linguist</source>
         <translation>Configuración de «%1» - Qt Linguist</translation>
     </message>
     <message>
+        <source>Any Territory</source>
+        <translation>Cualquier territorio</translation>
+    </message>
+    <message>
         <source>Any Country</source>
-        <translation>Cualquier país</translation>
+        <translation type="vanished">Cualquier país</translation>
+    </message>
+</context>
+<context>
+    <name>MachineTranslationDialog</name>
+    <message>
+        <source>Auto Translation</source>
+        <translation>Traducción automática</translation>
+    </message>
+    <message>
+        <source>Context</source>
+        <translation>Contexto</translation>
+    </message>
+    <message>
+        <source>API Type</source>
+        <translation>Tipo de API</translation>
+    </message>
+    <message>
+        <source>Optional: Provide additional context about your application (e.g., medical software, game, financial app) for more accurate translations.</source>
+        <translation>Opcional: Proporcionar un contexto adicional acerca de la aplicación (p.ej: programa médico, juego, aplicación financiera) para obtener traducciones más precisas.</translation>
+    </message>
+    <message>
+        <source>Maximum number of retry attempts for failed translation requests</source>
+        <translation>Cantidad máxima de reintentos ante peticiones fallidas de traducción</translation>
+    </message>
+    <message>
+        <source>Maximum Retries</source>
+        <translation>Reintentos máximos</translation>
+    </message>
+    <message>
+        <source>Maximum number of translation batches to process in parallel</source>
+        <translation>Cantidad máxima de lotes de traducción a ser procesados en paralelo</translation>
+    </message>
+    <message>
+        <source>Maximum Concurrent Batches</source>
+        <translation>Lotes concurrentes máximos</translation>
+    </message>
+    <message>
+        <source>Timeout for network requests in seconds</source>
+        <translation>Tiempo de espera para peticiones de red, en segundos</translation>
+    </message>
+    <message>
+        <source>Transfer Timeout (seconds)</source>
+        <translation>Tiempo de espera de transferencia (segundos)</translation>
+    </message>
+    <message>
+        <source>Maximum number of source texts to include in each translation batch</source>
+        <translation>Cantidad máxima de textos originales a ser incluidos en cada lote de traducción</translation>
+    </message>
+    <message>
+        <source>Maximum Batch Size</source>
+        <translation>Tamaño máximo del lote</translation>
+    </message>
+    <message>
+        <source>LLM temperature (lower = more deterministic, higher = more creative)</source>
+        <translation>Temperatura del LLM (baja = más determinista, alta = más creativa)</translation>
+    </message>
+    <message>
+        <source>Temperature</source>
+        <translation>Temperatura</translation>
+    </message>
+    <message>
+        <source>Number of attempts of sending JSON-format requests before falling back to non-JSON format requests</source>
+        <translation>Cantidad de intentos de enviar peticiones en formato JSON, antes de usar peticiones en otro formato alternativo</translation>
+    </message>
+    <message>
+        <source>Maximum JSON Format Tries</source>
+        <translation>Intentos máximos en formato JSON</translation>
+    </message>
+    <message>
+        <source>Timeout for waking up an idle Ollama server in seconds</source>
+        <translation>Tiempo máximo para activar un servidor Ollama en espera, en segundos</translation>
+    </message>
+    <message>
+        <source>Ollama Wake-up Timeout (seconds)</source>
+        <translation>Tiempo de espera activación Ollama (segundos)</translation>
+    </message>
+    <message>
+        <source>color: #b58900;</source>
+        <translation>color: #b58900;</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Aplicar</translation>
+    </message>
+    <message>
+        <source>Reset to Defaults</source>
+        <translation>Restablecer a predeterminados</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Siguiente</translation>
+    </message>
+    <message>
+        <source>Not connected</source>
+        <translation>No conectado</translation>
+    </message>
+    <message>
+        <source>Server URL</source>
+        <translation>URL del servidor</translation>
+    </message>
+    <message>
+        <source>Model</source>
+        <translation>Modelo</translation>
+    </message>
+    <message>
+        <source>Connect</source>
+        <translation>Conectar</translation>
+    </message>
+    <message>
+        <source>API Key</source>
+        <translation>Clave de API</translation>
+    </message>
+    <message>
+        <source>Optional: Required only for cloud APIs (OpenAI, Anthropic, etc.)</source>
+        <translation>Opcional: Requerido sólo para API en la nube (como OpenAI, Anthropic, etc.)</translation>
+    </message>
+    <message>
+        <source>All Items</source>
+        <translation>Todos los elementos</translation>
+    </message>
+    <message>
+        <source>Text Based</source>
+        <translation>Basado en texto</translation>
+    </message>
+    <message>
+        <source>ID Based</source>
+        <translation>Basado en ID</translation>
+    </message>
+    <message>
+        <source>No messages selected</source>
+        <translation>Ningún mensaje seleccionado</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Traducir</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Grupos</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filtrar</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Archivo</translation>
+    </message>
+    <message>
+        <source>Translation Log</source>
+        <translation>Registro de traducción</translation>
+    </message>
+    <message>
+        <source>Translation status: -</source>
+        <extracomment>Default display when no translations have been processed yet</extracomment>
+        <translation>Estado de traducción: -</translation>
+    </message>
+    <message>
+        <source>Stop</source>
+        <translation>Detener</translation>
+    </message>
+    <message>
+        <source>Log Raw Requests</source>
+        <translation>Registrar peticiones crudas</translation>
+    </message>
+    <message>
+        <source>Apply Translations</source>
+        <translation>Aplicar traducciones</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Cancelar</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Finalizado</translation>
+    </message>
+    <message>
+        <source>Configuration</source>
+        <translation>Configuración</translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>Selección</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Progreso</translation>
+    </message>
+    <message>
+        <source>Translation status: %1/%2 source texts translated, %3/%2 failed.</source>
+        <translation>Estado de traducción: %1/%2 textos originales traducidos, %3/%2 fallidos.</translation>
+    </message>
+    <message>
+        <source>&lt;hr/&gt;&lt;b&gt;Translation completed: %1/%2 translated, %3/%2 failed.&lt;/b&gt;</source>
+        <translation>&lt;hr/&gt;&lt;b&gt;Traducción completa: %1/%2 traducidos, %3/%2 fallidos.&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Qt Linguist</source>
+        <translation>Qt Linguist</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n translated item(s) will be discarded. Continue?</source>
+        <translation>
+            <numerusform>%n elementos traducidos serán descartados. ¿Continuar?</numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>Translation Stopped.</source>
+        <translation>Traducción detenida.</translation>
+    </message>
+    <message>
+        <source>Please verify the service URL is valid and a translation model is selected.</source>
+        <translation>Verificar si la URL del servicio es válida y si hay un modelo de traducción seleccionado.</translation>
+    </message>
+    <message>
+        <source>Please select a file for translation.</source>
+        <translation>Seleccionar un archivo a ser traducido.</translation>
+    </message>
+    <message>
+        <source>Please select at least one context/label to translate.</source>
+        <translation>Seleccionar al menos un contexto/etiqueta para ser traducido.</translation>
+    </message>
+    <message>
+        <source>No items to translate. All selected messages already have translations.</source>
+        <translation>Ningún elemento a ser traducido. Todos los mensajes seleccionados ya han sido traducidos</translation>
+    </message>
+    <message>
+        <source>Translation Started</source>
+        <translation>Traducción iniciada</translation>
+    </message>
+    <message>
+        <source>Plural count expected %1, got %2 for &quot;%3&quot;.</source>
+        <translation>Número de plurales esperado %1, se obtuvieron %2 para &quot;%3&quot;.</translation>
+    </message>
+    <message>
+        <source>Translation Batch:</source>
+        <translation>Traducción por lotes:</translation>
+    </message>
+    <message>
+        <source>Translations Applied.</source>
+        <translation>Traducciones aplicadas.</translation>
+    </message>
+    <message>
+        <source>Failed Translation(s):</source>
+        <translation>Traducciones fallidas:</translation>
+    </message>
+    <message>
+        <source>Selection status: -</source>
+        <extracomment>No selected items</extracomment>
+        <translation>Estado de selección: -</translation>
+    </message>
+    <message numerus="yes">
+        <source>Selected %n item(s).</source>
+        <translation>
+            <numerusform>Elementos seleccionados %n.</numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <source>Selected %n item(s) in %1 group(s).</source>
+        <translation>
+            <numerusform>%n elementos seleccionados en %1 grupos.</numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>Not connected - click &quot;Connect&quot; to fetch models</source>
+        <translation>No conectados - hacer clic en &quot;Conectar&quot; para obtener modelos</translation>
+    </message>
+    <message>
+        <source>Connecting...</source>
+        <translation>Conectando...</translation>
+    </message>
+    <message>
+        <source>Connected</source>
+        <translation>Conectado</translation>
+    </message>
+    <message>
+        <source>Connection failed - verify server URL and click &quot;Connect&quot;</source>
+        <translation>Falló la conexión - comprobar la URL del servidor y hacer clic en &quot;Conectar&quot;</translation>
+    </message>
+    <message>
+        <source>URL modified - click &quot;Connect&quot; to apply</source>
+        <translation>URL modificada - hacer clic en &quot;Conectar&quot; para aplicar</translation>
+    </message>
+    <message>
+        <source>Advanced Settings</source>
+        <translation>Opciones avanzadas</translation>
+    </message>
+    <message>
+        <source>Warning: Maximum JSON Format Tries: Low value may cause unnecessary format switching due to temporary errors. Recommended: 3 or higher.</source>
+        <extracomment>&quot;Maximum JSON Format Tries&quot; should use the same translation as the label &quot;Maximum JSON Format Tries&quot; in Advanced Settings</extracomment>
+        <translation>Advertencia: Intentos máximos en formato JSON: Un valor bajo puede causar cambios innecesarios de formato debidos a errores temporales. Se recomiendan: 3 o más.</translation>
+    </message>
+    <message>
+        <source>Warning: Maximum Retries: Should be at least 3x &apos;Maximum JSON Format Tries&apos; for full fallback coverage</source>
+        <extracomment>&quot;Maximum Retries&quot; and &quot;Maximum JSON Format Tries&quot; should use the same translations as the labels &quot;Maximum Retries&quot; and &quot;Maximum JSON Format Tries&quot; in Advanced Settings</extracomment>
+        <translation>Advertencia: Intentos máximos: Debe ser de al menos 3 veces el valor de &quot;Intentos máximos en formato JSON&quot; para una cobertura completa</translation>
     </message>
 </context>
 </TS>

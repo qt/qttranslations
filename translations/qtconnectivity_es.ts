@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="es_ES">
+<TS version="2.1" language="es">
 <context>
     <name>QBluetoothDeviceDiscoveryAgent</name>
     <message>
@@ -9,7 +9,7 @@
     </message>
     <message>
         <source>Cannot find valid Bluetooth adapter.</source>
-        <translation>No se puede encontrar un adaptador Bluetooth válido.</translation>
+        <translation>No es posible encontrar un adaptador Bluetooth válido.</translation>
     </message>
     <message>
         <source>Input Output Error</source>
@@ -24,20 +24,32 @@
         <translation>Error desconocido</translation>
     </message>
     <message>
+        <source>Missing permission</source>
+        <translation>Permiso faltante</translation>
+    </message>
+    <message>
         <source>Cannot start device inquiry</source>
-        <translation>No se puede iniciar el examen del dispositivo</translation>
+        <translation>No es posible iniciar consulta del dispositivo</translation>
     </message>
     <message>
         <source>Cannot start low energy device inquiry</source>
-        <translation>No se puede iniciar la petición de bajo consumo en el dispositivo</translation>
+        <translation>No es posible iniciar consulta de bajo consumo del dispositivo</translation>
     </message>
     <message>
         <source>Discovery cannot be stopped</source>
-        <translation>El descubrimiento de dispositivos no puede ser parado</translation>
+        <translation>El descubrimiento de dispositivos no puede ser detenido</translation>
     </message>
     <message>
         <source>Invalid Bluetooth adapter address</source>
-        <translation>La dirección del adaptador Bluetooth es inválida</translation>
+        <translation>Dirección del adaptador Bluetooth inválida</translation>
+    </message>
+    <message>
+        <source>One or more device discovery methods are not supported on this platform</source>
+        <translation>Uno o más métodos de descubrimiento de dispositivos no están soportados en esta plataforma</translation>
+    </message>
+    <message>
+        <source>Classic Discovery cannot be started</source>
+        <translation>No es posible iniciar el descubrimiento clásico</translation>
     </message>
     <message>
         <source>Device does not support Bluetooth</source>
@@ -45,11 +57,23 @@
     </message>
     <message>
         <source>Passed address is not a local device.</source>
-        <translation>La dirección dada no es un dispositivo local.</translation>
+        <translation>La dirección proporcionada no es un dispositivo local.</translation>
+    </message>
+    <message>
+        <source>Failed to start device discovery due to missing permissions.</source>
+        <translation>Error al iniciar descubrimiento de dispositivos debido a falta de permisos.</translation>
+    </message>
+    <message>
+        <source>Location permission not granted. Search is not possible.</source>
+        <translation>No se otorgó permiso para la ubicación. La búsqueda no es posible.</translation>
+    </message>
+    <message>
+        <source>Location service turned off. Search is not possible.</source>
+        <translation>Servicio de la ubicación apagado. La búsqueda no es posible.</translation>
     </message>
     <message>
         <source>Discovery cannot be started</source>
-        <translation>El descubrimiento de dispositivos no puede ser iniciado</translation>
+        <translation type="vanished">El descubrimiento de dispositivos no puede ser iniciado</translation>
     </message>
     <message>
         <source>Bluetooth adapter error</source>
@@ -61,7 +85,11 @@
     </message>
     <message>
         <source>Cannot access adapter during service discovery</source>
-        <translation>No se puede acceder al adaptador durante el descubrimiento de servicios</translation>
+        <translation>No es posible acceder al adaptador durante el descubrimiento de servicios</translation>
+    </message>
+    <message>
+        <source>Bluetooth adapter powered off.</source>
+        <translation>Adaptador Bluetooth apagado.</translation>
     </message>
 </context>
 <context>
@@ -72,11 +100,11 @@
     </message>
     <message>
         <source>Minimal service discovery failed</source>
-        <translation>El descubrimiento de servicios mínimo ha fallado</translation>
+        <translation>Error en el descubrimiento de servicios mínimo</translation>
     </message>
     <message>
         <source>Invalid Bluetooth adapter address</source>
-        <translation>La dirección del adaptador Bluetooth es inválida</translation>
+        <translation>Dirección del adaptador Bluetooth inválida</translation>
     </message>
     <message>
         <source>Platform does not support Bluetooth</source>
@@ -84,15 +112,19 @@
     </message>
     <message>
         <source>Android API below v15 does not support SDP discovery</source>
-        <translation>El API de Android por debajo de v15 no soporta descubrimiento SDP</translation>
+        <translation type="vanished">El API de Android por debajo de v15 no soporta descubrimiento SDP</translation>
+    </message>
+    <message>
+        <source>Failed to start service discovery due to missing permissions.</source>
+        <translation>Error al iniciar el descubrimiento de servicios debido a falta de permisos.</translation>
     </message>
     <message>
         <source>Cannot create Android BluetoothDevice</source>
-        <translation>No se puede crear el dispositivo Bluetooth de Android</translation>
+        <translation>No es posible crear el dispositivo Bluetooth de Android</translation>
     </message>
     <message>
         <source>Cannot obtain service uuids</source>
-        <translation>No se pueden obtener los uuid de servicio</translation>
+        <translation>No es posible obtener los UUID del servicio</translation>
     </message>
     <message>
         <source>Serial Port Profile</source>
@@ -104,23 +136,23 @@
     </message>
     <message>
         <source>Unable to find appointed local adapter</source>
-        <translation>No se puede encontrar el adaptador local apuntado</translation>
+        <translation type="vanished">No se puede encontrar el adaptador local apuntado</translation>
     </message>
     <message>
         <source>Cannot find local Bluetooth adapter</source>
-        <translation>No se puede buscar el adaptador Bluetooth</translation>
+        <translation>No es posible encontrar un adaptador Bluetooth local</translation>
     </message>
     <message>
         <source>Unable to find sdpscanner</source>
-        <translation>No se puede encontrar el sdpscanner</translation>
+        <translation>No es posible encontrar el sdpscanner</translation>
     </message>
     <message>
         <source>Unable to perform SDP scan</source>
-        <translation>No se puede hacer un escaneo SDP</translation>
+        <translation>No es posible realizar un escaneo SDP</translation>
     </message>
     <message>
         <source>Unable to access device</source>
-        <translation>No se ha podido acceder al dispositivo</translation>
+        <translation type="vanished">No se ha podido acceder al dispositivo</translation>
     </message>
     <message>
         <source>Custom Service</source>
@@ -132,11 +164,11 @@
     </message>
     <message>
         <source>Browse Group Descriptor</source>
-        <translation>Navegar descriptores de grupo</translation>
+        <translation>Explorar descriptores de grupo</translation>
     </message>
     <message>
         <source>Public Browse Group</source>
-        <translation>Navegar grupo público</translation>
+        <translation>Explorar grupo público</translation>
     </message>
     <message>
         <source>LAN Access Profile</source>
@@ -152,7 +184,7 @@
     </message>
     <message>
         <source>Object Push</source>
-        <translation>Subir objeto</translation>
+        <translation>Enviar objeto</translation>
     </message>
     <message>
         <source>File Transfer</source>
@@ -168,11 +200,11 @@
     </message>
     <message>
         <source>Audio Source</source>
-        <translation>Origen de audio</translation>
+        <translation>Fuente de audio</translation>
     </message>
     <message>
         <source>Audio Sink</source>
-        <translation>Disipador de audio</translation>
+        <translation>Receptor de audio</translation>
     </message>
     <message>
         <source>Audio/Video Remote Control Target</source>
@@ -180,7 +212,7 @@
     </message>
     <message>
         <source>Advanced Audio Distribution</source>
-        <translation>Distribución de audio avanzada</translation>
+        <translation>Distribución avanzada de audio</translation>
     </message>
     <message>
         <source>Audio/Video Remote Control</source>
@@ -228,7 +260,7 @@
     </message>
     <message>
         <source>Basic Imaging Ref Objects</source>
-        <translation>Objetos de referencia básica de imágenes</translation>
+        <translation>Objetos de referencia básicos de imágenes</translation>
     </message>
     <message>
         <source>Hands-Free</source>
@@ -240,11 +272,11 @@
     </message>
     <message>
         <source>Basic Printing RefObject Service</source>
-        <translation>Servicio de impresión básica de objetos de referencia</translation>
+        <translation>Impresión básica - Servicio obj. referencia</translation>
     </message>
     <message>
         <source>Basic Printing Reflected UI</source>
-        <translation>UI refleja de impresión básica</translation>
+        <translation>Impresión básica - Interfaz reflejada</translation>
     </message>
     <message>
         <source>Basic Printing</source>
@@ -252,7 +284,7 @@
     </message>
     <message>
         <source>Basic Printing Status</source>
-        <translation>Estado de impresión básica</translation>
+        <translation>Impresión básica - Estado</translation>
     </message>
     <message>
         <source>Human Interface Device</source>
@@ -260,15 +292,15 @@
     </message>
     <message>
         <source>Hardcopy Cable Replacement</source>
-        <translation>Reemplazo de copia de cable</translation>
+        <translation>Sustitución de cable de impresión</translation>
     </message>
     <message>
         <source>Hardcopy Cable Replacement Print</source>
-        <translation>Impresión de reemplazo de copia de cable</translation>
+        <translation>Sustitución de cable de impresión - Imprimir</translation>
     </message>
     <message>
         <source>Hardcopy Cable Replacement Scan</source>
-        <translation>Escaneo de reemplazo de copia de cable</translation>
+        <translation>Sustitución de cable de impresión - Escanear</translation>
     </message>
     <message>
         <source>SIM Access Server</source>
@@ -296,7 +328,7 @@
     </message>
     <message>
         <source>Message Notification Server</source>
-        <translation>Servidor de notificaciones de mensaje</translation>
+        <translation>Servidor de notificaciones de mensajes</translation>
     </message>
     <message>
         <source>Message Access</source>
@@ -304,19 +336,19 @@
     </message>
     <message>
         <source>Global Navigation Satellite System</source>
-        <translation>Sistema de navegación global por satélite</translation>
+        <translation>Sistema satelital de navegación global</translation>
     </message>
     <message>
         <source>Global Navigation Satellite System Server</source>
-        <translation>Servidor de sistema de navegación global por satélite</translation>
+        <translation>Servidor del sistema satelital de navegación global</translation>
     </message>
     <message>
         <source>3D Synchronization Display</source>
-        <translation>Monitor de sincronización 3D</translation>
+        <translation>Sincronización 3D - Monitor</translation>
     </message>
     <message>
         <source>3D Synchronization Glasses</source>
-        <translation>Gafas de sincronización 3D</translation>
+        <translation>Sincronización 3D - Gafas</translation>
     </message>
     <message>
         <source>3D Synchronization</source>
@@ -324,11 +356,11 @@
     </message>
     <message>
         <source>Multi-Profile Specification (Profile)</source>
-        <translation>Especificación multi-perfil (Perfil)</translation>
+        <translation>Especificación de perfil múltiple (Perfil)</translation>
     </message>
     <message>
         <source>Multi-Profile Specification</source>
-        <translation>Especificación multi-perfil</translation>
+        <translation>Especificación de perfil múltiple</translation>
     </message>
     <message>
         <source>Device Identification</source>
@@ -352,11 +384,11 @@
     </message>
     <message>
         <source>Video Source</source>
-        <translation>Origen de video</translation>
+        <translation>Fuente de video</translation>
     </message>
     <message>
         <source>Video Sink</source>
-        <translation>Disipador de video</translation>
+        <translation>Receptor de video</translation>
     </message>
     <message>
         <source>Video Distribution</source>
@@ -368,11 +400,11 @@
     </message>
     <message>
         <source>Health Device Source</source>
-        <translation>Origen de dispositivo de salud</translation>
+        <translation>Dispositivo de salud - Origen</translation>
     </message>
     <message>
         <source>Health Device Sink</source>
-        <translation>Disipador de dispositivo de salud</translation>
+        <translation>Dispositivo de salud - Receptor</translation>
     </message>
     <message>
         <source>Generic Access</source>
@@ -388,7 +420,7 @@
     </message>
     <message>
         <source>Link Loss</source>
-        <translation>Pérdida del enlace</translation>
+        <translation>Pérdida de enlace</translation>
     </message>
     <message>
         <source>Tx Power</source>
@@ -400,7 +432,7 @@
     </message>
     <message>
         <source>Reference Time Update Service</source>
-        <translation>Referencia de servicio de actualización de hora</translation>
+        <translation>Servicio de actualización de referencia de hora</translation>
     </message>
     <message>
         <source>Next DST Change Service</source>
@@ -412,7 +444,7 @@
     </message>
     <message>
         <source>Health Thermometer</source>
-        <translation>Termómetro de salud</translation>
+        <translation>Termómetro corporal</translation>
     </message>
     <message>
         <source>Device Information</source>
@@ -420,7 +452,7 @@
     </message>
     <message>
         <source>Heart Rate</source>
-        <translation>Ritmo cardiaco</translation>
+        <translation>Ritmo cardíaco</translation>
     </message>
     <message>
         <source>Phone Alert Status Service</source>
@@ -436,7 +468,7 @@
     </message>
     <message>
         <source>Alert Notification Service</source>
-        <translation>Servicio de notificaciones de alerta</translation>
+        <translation>Servicio de notificaciones de alertas</translation>
     </message>
     <message>
         <source>Scan Parameters</source>
@@ -444,11 +476,11 @@
     </message>
     <message>
         <source>Running Speed and Cadence</source>
-        <translation>Velocidad de carrera y cadencia</translation>
+        <translation>Velocidad y cadencia de carrera</translation>
     </message>
     <message>
         <source>Cycling Speed and Cadence</source>
-        <translation>Velocidad de pedaleo y cadencia</translation>
+        <translation>Velocidad y cadencia de pedaleo</translation>
     </message>
     <message>
         <source>Cycling Power</source>
@@ -476,13 +508,12 @@
     </message>
     <message>
         <source>Bond Management</source>
-        <extracomment>Connection management (Bluetooth)
-</extracomment>
-        <translation>Gestión de enlaces</translation>
+        <extracomment>Connection management (Bluetooth)</extracomment>
+        <translation>Administración de enlaces</translation>
     </message>
     <message>
         <source>Continuous Glucose Monitoring</source>
-        <translation>Monitorización continua de glucosa</translation>
+        <translation>Monitoreo continuo de glucosa</translation>
     </message>
     <message>
         <source>Service Discovery Protocol</source>
@@ -494,7 +525,7 @@
     </message>
     <message>
         <source>Radio Frequency Communication</source>
-        <translation>Comunicación de radio frecuencia</translation>
+        <translation>Comunicación por radio frecuencia</translation>
     </message>
     <message>
         <source>Transmission Control Protocol</source>
@@ -530,7 +561,7 @@
     </message>
     <message>
         <source>Wireless Short Packet Protocol</source>
-        <translation>Protocolo de paquetes inálambrico de corto alcance</translation>
+        <translation>Protocolo inalámbrico de paquetes cortos</translation>
     </message>
     <message>
         <source>Bluetooth Network Encapsulation Protocol</source>
@@ -542,19 +573,19 @@
     </message>
     <message>
         <source>Human Interface Device Protocol</source>
-        <translation>Protocolo de dispositivo de interfaz de usuario</translation>
+        <translation>Protocolo de dispositivo de interfaz humana</translation>
     </message>
     <message>
         <source>Hardcopy Control Channel</source>
-        <translation>Canal de control de copia</translation>
+        <translation>Impresión - Canal de control</translation>
     </message>
     <message>
         <source>Hardcopy Data Channel</source>
-        <translation>Canal de copia de datos</translation>
+        <translation>Impresión - Canal de datos</translation>
     </message>
     <message>
         <source>Hardcopy Notification</source>
-        <translation>Notificación de copia</translation>
+        <translation>Impresión - Notificación</translation>
     </message>
     <message>
         <source>Audio/Video Control Transport Protocol</source>
@@ -566,7 +597,7 @@
     </message>
     <message>
         <source>Common ISDN Access Protocol</source>
-        <translation>Protocolo de acceso común ISDN</translation>
+        <translation>Protocolo común de acceso a ISDN</translation>
     </message>
     <message>
         <source>UdiCPlain</source>
@@ -586,37 +617,32 @@
     </message>
     <message>
         <source>GAP Device Name</source>
-        <extracomment>GAP: Generic Access Profile (Bluetooth)
-</extracomment>
-        <translation>Nombre de dispositivo GAP</translation>
+        <extracomment>GAP: Generic Access Profile (Bluetooth)</extracomment>
+        <translation>GAP - Nombre de dispositivo</translation>
     </message>
     <message>
         <source>GAP Appearance</source>
-        <extracomment>GAP: Generic Access Profile (Bluetooth)
-</extracomment>
-        <translation>Apariencia GAP</translation>
+        <extracomment>GAP: Generic Access Profile (Bluetooth)</extracomment>
+        <translation>GAP - Apariencia</translation>
     </message>
     <message>
         <source>GAP Peripheral Privacy Flag</source>
-        <extracomment>GAP: Generic Access Profile (Bluetooth)
-</extracomment>
-        <translation>Flag de privacidad del periférico GAP</translation>
+        <extracomment>GAP: Generic Access Profile (Bluetooth)</extracomment>
+        <translation>GAP - Indicador de privacidad del periférico</translation>
     </message>
     <message>
         <source>GAP Reconnection Address</source>
-        <extracomment>GAP: Generic Access Profile (Bluetooth)
-</extracomment>
-        <translation>Dirección de reconexión GAP</translation>
+        <extracomment>GAP: Generic Access Profile (Bluetooth)</extracomment>
+        <translation>GAP - Dirección de reconexión</translation>
     </message>
     <message>
         <source>GAP Peripheral Preferred Connection Parameters</source>
-        <translation>Parámetros de conexión diferida de periféricos GAP</translation>
+        <translation>GAP - Parámetros preferidos de conexión de periféricos</translation>
     </message>
     <message>
         <source>GATT Service Changed</source>
-        <extracomment>GATT: _G_eneric _Att_ribute Profile (Bluetooth)
-</extracomment>
-        <translation>Servicio cambiado GATT</translation>
+        <extracomment>GATT: _G_eneric _Att_ribute Profile (Bluetooth)</extracomment>
+        <translation>Servicio GATT cambiado</translation>
     </message>
     <message>
         <source>Alert Level</source>
@@ -624,11 +650,11 @@
     </message>
     <message>
         <source>TX Power</source>
-        <translation>Intensidad TX</translation>
+        <translation>Potencia TX</translation>
     </message>
     <message>
         <source>Date Time</source>
-        <translation>Hora-fecha</translation>
+        <translation>Fecha y hora</translation>
     </message>
     <message>
         <source>Day Of Week</source>
@@ -636,7 +662,7 @@
     </message>
     <message>
         <source>Day Date Time</source>
-        <translation>Hora del día</translation>
+        <translation>Día, fecha y hora</translation>
     </message>
     <message>
         <source>Exact Time 256</source>
@@ -644,7 +670,7 @@
     </message>
     <message>
         <source>DST Offset</source>
-        <translation>Compensación DST</translation>
+        <translation>Corrección por horario de verano</translation>
     </message>
     <message>
         <source>Time Zone</source>
@@ -656,19 +682,19 @@
     </message>
     <message>
         <source>Time With DST</source>
-        <translation>Hora con DST</translation>
+        <translation>Hora con horario de verano</translation>
     </message>
     <message>
         <source>Time Accuracy</source>
-        <translation>Exactitud de hora</translation>
+        <translation>Exactitud de la hora</translation>
     </message>
     <message>
         <source>Time Source</source>
-        <translation>Origen de la hora</translation>
+        <translation>Fuente de la hora</translation>
     </message>
     <message>
         <source>Reference Time Information</source>
-        <translation>Información de la hora de referencia</translation>
+        <translation>Información de hora de referencia</translation>
     </message>
     <message>
         <source>Time Update Control Point</source>
@@ -712,27 +738,27 @@
     </message>
     <message>
         <source>Model Number String</source>
-        <translation>Cadena de caracteres de número de modelo</translation>
+        <translation>Número de modelo</translation>
     </message>
     <message>
         <source>Serial Number String</source>
-        <translation>Cadena de caracteres de número de serie</translation>
+        <translation>Número de serie</translation>
     </message>
     <message>
         <source>Firmware Revision String</source>
-        <translation>Cadena de caracteres de la revisión del firmware</translation>
+        <translation>Revisión del firmware</translation>
     </message>
     <message>
         <source>Hardware Revision String</source>
-        <translation>Cadena de caracteres de la revisión del hardware</translation>
+        <translation>Revisión del hardware</translation>
     </message>
     <message>
         <source>Software Revision String</source>
-        <translation>Cadena de caracteres de la revisión del software</translation>
+        <translation>Revisión del software</translation>
     </message>
     <message>
         <source>Manufacturer Name String</source>
-        <translation>Cadena de caracteres del nombre del fabricante</translation>
+        <translation>Nombre del fabricante</translation>
     </message>
     <message>
         <source>IEEE 11073 20601 Regulatory Certification Data List</source>
@@ -760,11 +786,11 @@
     </message>
     <message>
         <source>Blood Pressure Measurement</source>
-        <translation>Medición de presión sanguínea</translation>
+        <translation>Medición de presión arterial</translation>
     </message>
     <message>
         <source>Intermediate Cuff Pressure</source>
-        <translation>Presión intermedia del manguito</translation>
+        <translation>Presión intermedia del puño</translation>
     </message>
     <message>
         <source>Heart Rate Measurement</source>
@@ -800,11 +826,11 @@
     </message>
     <message>
         <source>Alert Notification Control Point</source>
-        <translation>Punto de control de alerta de notificación</translation>
+        <translation>Punto de control de notificación de alerta</translation>
     </message>
     <message>
         <source>Unread Alert Status</source>
-        <translation>Estado de alerta no leído</translation>
+        <translation>Estado de alerta no leída</translation>
     </message>
     <message>
         <source>New Alert</source>
@@ -812,31 +838,29 @@
     </message>
     <message>
         <source>Supported New Alert Category</source>
-        <translation>Categoría de nueva alerta soportada</translation>
+        <translation>Nueva categoría de alertas soportada</translation>
     </message>
     <message>
         <source>Supported Unread Alert Category</source>
-        <translation>Categoría de alerta no leída soportada</translation>
+        <translation>Categoría de alertas no leídas soportada</translation>
     </message>
     <message>
         <source>Blood Pressure Feature</source>
-        <translation>Prestación de presión sanguínea</translation>
+        <translation>Función de presión sanguínea</translation>
     </message>
     <message>
         <source>HID Information</source>
-        <extracomment>HID: Human Interface Device Profile (Bluetooth)
-</extracomment>
-        <translation>Información HID</translation>
+        <extracomment>HID: Human Interface Device Profile (Bluetooth)</extracomment>
+        <translation>Información de HID</translation>
     </message>
     <message>
         <source>Report Map</source>
-        <translation>Informe de mapa</translation>
+        <translation>Mapa de informe</translation>
     </message>
     <message>
         <source>HID Control Point</source>
-        <extracomment>HID: Human Interface Device Profile (Bluetooth)
-</extracomment>
-        <translation>Punto de control HID</translation>
+        <extracomment>HID: Human Interface Device Profile (Bluetooth)</extracomment>
+        <translation>Punto de control de HID</translation>
     </message>
     <message>
         <source>Report</source>
@@ -844,7 +868,7 @@
     </message>
     <message>
         <source>Protocol Mode</source>
-        <translation>Modo de protocolo</translation>
+        <translation>Modo del protocolo</translation>
     </message>
     <message>
         <source>Scan Interval Window</source>
@@ -856,41 +880,36 @@
     </message>
     <message>
         <source>Glucose Feature</source>
-        <translation>Prestación de lectura nivel de glucosa</translation>
+        <translation>Función de lectura nivel de glucosa</translation>
     </message>
     <message>
         <source>Record Access Control Point</source>
-        <extracomment>Glucose Sensor patient record database.
-</extracomment>
-        <translation>Punto de control de grabacción de acceso</translation>
+        <extracomment>Glucose Sensor patient record database.</extracomment>
+        <translation>Punto de control de registro de accesos</translation>
     </message>
     <message>
         <source>RSC Measurement</source>
-        <extracomment>RSC: Running Speed and Cadence
-</extracomment>
-        <translation>Medición de velocidad de carrera y cadencia</translation>
+        <extracomment>RSC: Running Speed and Cadence</extracomment>
+        <translation>Medición de velocidad y cadencia de carrera</translation>
     </message>
     <message>
         <source>RSC Feature</source>
-        <extracomment>RSC: Running Speed and Cadence
-</extracomment>
-        <translation>Prestación de lectura de velocidad de carrera y cadencia</translation>
+        <extracomment>RSC: Running Speed and Cadence</extracomment>
+        <translation>Función de velocidad y cadencia de carrera</translation>
     </message>
     <message>
         <source>SC Control Point</source>
-        <translation>Punto de control SC</translation>
+        <translation>Punto de control de velocidad y cadencia</translation>
     </message>
     <message>
         <source>CSC Measurement</source>
-        <extracomment>CSC: Cycling Speed and Cadence
-</extracomment>
-        <translation>Medición de velocidad de pedaleo y cadencia</translation>
+        <extracomment>CSC: Cycling Speed and Cadence</extracomment>
+        <translation>Medición de velocidad y cadencia de pedaleo</translation>
     </message>
     <message>
         <source>CSC Feature</source>
-        <extracomment>CSC: Cycling Speed and Cadence
-</extracomment>
-        <translation>Prestación de lectura de velocidad de pedaleo y cadencia</translation>
+        <extracomment>CSC: Cycling Speed and Cadence</extracomment>
+        <translation>Función de velocidad y cadencia de pedaleo</translation>
     </message>
     <message>
         <source>Sensor Location</source>
@@ -906,7 +925,7 @@
     </message>
     <message>
         <source>Cycling Power Feature</source>
-        <translation>Prestación de medición de potencia de pedaleo</translation>
+        <translation>Función de potencia de pedaleo</translation>
     </message>
     <message>
         <source>Cycling Power Control Point</source>
@@ -926,7 +945,7 @@
     </message>
     <message>
         <source>LN Feature</source>
-        <translation>Característica LN</translation>
+        <translation>Función LN</translation>
     </message>
     <message>
         <source>LN Control Point</source>
@@ -934,14 +953,12 @@
     </message>
     <message>
         <source>Magnetic Declination</source>
-        <extracomment>Angle between geographic and magnetic north
-</extracomment>
-        <translation>Desviación entre polos geográficos y magnéticos</translation>
+        <extracomment>Angle between geographic and magnetic north</extracomment>
+        <translation>Declinación magnética</translation>
     </message>
     <message>
         <source>Elevation</source>
-        <extracomment>Above/below sea level
-</extracomment>
+        <extracomment>Above/below sea level</extracomment>
         <translation>Elevación</translation>
     </message>
     <message>
@@ -958,8 +975,7 @@
     </message>
     <message>
         <source>True Wind Speed</source>
-        <extracomment>Wind speed while standing
-</extracomment>
+        <extracomment>Wind speed while standing</extracomment>
         <translation>Velocidad real del viento</translation>
     </message>
     <message>
@@ -968,8 +984,7 @@
     </message>
     <message>
         <source>Apparent Wind Speed</source>
-        <extracomment>Wind speed while observer is moving
-</extracomment>
+        <extracomment>Wind speed while observer is moving</extracomment>
         <translation>Velocidad aparente del viento</translation>
     </message>
     <message>
@@ -978,8 +993,7 @@
     </message>
     <message>
         <source>Gust Factor</source>
-        <extracomment>Factor by which wind gust is stronger than average wind
-</extracomment>
+        <extracomment>Factor by which wind gust is stronger than average wind</extracomment>
         <translation>Factor de ráfagas</translation>
     </message>
     <message>
@@ -1012,9 +1026,8 @@
     </message>
     <message>
         <source>Descriptor Value Changed</source>
-        <extracomment>Environmental sensing related
-</extracomment>
-        <translation>El valor del descriptor ha cambiado</translation>
+        <extracomment>Environmental sensing related</extracomment>
+        <translation>Valor del descriptor cambiado</translation>
     </message>
     <message>
         <source>Aerobic Heart Rate Lower Limit</source>
@@ -1030,8 +1043,7 @@
     </message>
     <message>
         <source>Age</source>
-        <extracomment>Age of person
-</extracomment>
+        <extracomment>Age of person</extracomment>
         <translation>Edad</translation>
     </message>
     <message>
@@ -1072,7 +1084,7 @@
     </message>
     <message>
         <source>5-Zone Heart Rate Limits</source>
-        <translation>Límites de zona 5 de ritmo cardíaco</translation>
+        <translation>Límites de ritmo cardíaco de 5 zonas</translation>
     </message>
     <message>
         <source>Gender</source>
@@ -1084,17 +1096,16 @@
     </message>
     <message>
         <source>Height</source>
-        <extracomment>Height of a person
-</extracomment>
+        <extracomment>Height of a person</extracomment>
         <translation>Altura</translation>
     </message>
     <message>
         <source>Hip Circumference</source>
-        <translation>Tamaño de la cadera</translation>
+        <translation>Circunferencia de cadera</translation>
     </message>
     <message>
         <source>Last Name</source>
-        <translation>Apellidos</translation>
+        <translation>Apellido</translation>
     </message>
     <message>
         <source>Maximum Recommended Heart Rate</source>
@@ -1110,11 +1121,11 @@
     </message>
     <message>
         <source>3-Zone Heart Rate Limits</source>
-        <translation>Límites de zona 3 de ritmo cardíaco</translation>
+        <translation>Límites de ritmo cardíaco de 3 zonas</translation>
     </message>
     <message>
         <source>2-Zone Heart Rate Limits</source>
-        <translation>Límites de zona 2 de ritmo cardíaco</translation>
+        <translation>Límites de ritmo cardíaco de 2 zonas</translation>
     </message>
     <message>
         <source>Oxygen Uptake</source>
@@ -1122,7 +1133,7 @@
     </message>
     <message>
         <source>Waist Circumference</source>
-        <translation>Tamaño de cintura</translation>
+        <translation>Circunferencia de cintura</translation>
     </message>
     <message>
         <source>Weight</source>
@@ -1130,8 +1141,7 @@
     </message>
     <message>
         <source>Database Change Increment</source>
-        <extracomment>Environmental sensing related
-</extracomment>
+        <extracomment>Environmental sensing related</extracomment>
         <translation>Incremento de cambio de base de datos</translation>
     </message>
     <message>
@@ -1140,7 +1150,7 @@
     </message>
     <message>
         <source>Body Composition Feature</source>
-        <translation>Prestación de composición corporal</translation>
+        <translation>Función de composición corporal</translation>
     </message>
     <message>
         <source>Body Composition Measurement</source>
@@ -1149,6 +1159,10 @@
     <message>
         <source>Weight Measurement</source>
         <translation>Medición de peso</translation>
+    </message>
+    <message>
+        <source>Weight Scale Feature</source>
+        <translation>Función de balanza</translation>
     </message>
     <message>
         <source>User Control Point</source>
@@ -1172,27 +1186,27 @@
     </message>
     <message>
         <source>Characteristic Extended Properties</source>
-        <translation>Propiedades características extendidas</translation>
+        <translation>Características - Propiedades extendidas</translation>
     </message>
     <message>
         <source>Characteristic User Description</source>
-        <translation>Descripción de característica de usuario</translation>
+        <translation>Características - Descripción de usuario</translation>
     </message>
     <message>
         <source>Client Characteristic Configuration</source>
-        <translation>Configuración de característica del cliente</translation>
+        <translation>Características - Configuración del cliente</translation>
     </message>
     <message>
         <source>Server Characteristic Configuration</source>
-        <translation>Configuración de característica del servidor</translation>
+        <translation>Características - Configuración del servidor</translation>
     </message>
     <message>
         <source>Characteristic Presentation Format</source>
-        <translation>Formato de presentación de característica</translation>
+        <translation>Características - Formato de presentación</translation>
     </message>
     <message>
         <source>Characteristic Aggregate Format</source>
-        <translation>Formato agregado de característica</translation>
+        <translation>Características - Formato agregado</translation>
     </message>
     <message>
         <source>Valid Range</source>
@@ -1200,27 +1214,27 @@
     </message>
     <message>
         <source>External Report Reference</source>
-        <translation>Informe de referencia externa</translation>
+        <translation>Referencia de informe externo</translation>
     </message>
     <message>
         <source>Report Reference</source>
-        <translation>Referencia del informe</translation>
+        <translation>Referencia de informe</translation>
     </message>
     <message>
         <source>Environmental Sensing Configuration</source>
-        <translation>Configuración de detección del medio ambiente</translation>
+        <translation>Detección del medio ambiente - Configuración</translation>
     </message>
     <message>
         <source>Environmental Sensing Measurement</source>
-        <translation>Medición de detección del medio ambiente</translation>
+        <translation>Detección del medio ambiente - Medición</translation>
     </message>
     <message>
         <source>Environmental Sensing Trigger Setting</source>
-        <translation>Configuración del disparador de detección del medio ambiente</translation>
+        <translation>Detección del medio ambiente - Configuración del disparador</translation>
     </message>
     <message>
         <source>Unknown Service</source>
-        <translation>Servicio desconocido</translation>
+        <translation type="vanished">Servicio desconocido</translation>
     </message>
 </context>
 <context>
@@ -1231,11 +1245,11 @@
     </message>
     <message>
         <source>Cannot write while not connected</source>
-        <translation>No se puede escribir mientras se está desconectado</translation>
+        <translation>No es posible escribir mientras se está desconectado</translation>
     </message>
     <message>
         <source>Trying to connect while connection is in progress</source>
-        <translation>Intento de conexión cuando una conexión ya está en progreso</translation>
+        <translation>Intento de conexión mientras una conexión ya está en progreso</translation>
     </message>
     <message>
         <source>Service cannot be found</source>
@@ -1243,23 +1257,36 @@
     </message>
     <message>
         <source>Invalid data/data size</source>
-        <translation>Datos inválidos o tamaño de datos inválidos</translation>
+        <translation>Datos o tamaño de datos inválidos</translation>
     </message>
     <message>
         <source>Cannot read while not connected</source>
-        <translation>No se puede leer cuando no está conectado</translation>
+        <translation>No es posible leer cuando no hay conexión</translation>
     </message>
     <message>
         <source>Socket type not supported</source>
-        <translation>El tipo de socket no está soportado</translation>
+        <translation>El tipo de conector no está soportado</translation>
     </message>
     <message>
         <source>Unknown socket error</source>
-        <translation>Error de socket desconocido</translation>
+        <translation>Error de conector desconocido</translation>
+    </message>
+    <message>
+        <source>Network Error: %1</source>
+        <translation>Error de red: %1</translation>
     </message>
     <message>
         <source>Connecting to port is not supported</source>
-        <translation>Conectar a un puerto no está soportado</translation>
+        <translation type="vanished">Conectar a un puerto no está soportado</translation>
+    </message>
+    <message>
+        <source>Cannot connect to %1</source>
+        <comment>%1 = uuid</comment>
+        <translation>No es posible conectar a %1</translation>
+    </message>
+    <message>
+        <source>Bluetooth socket connect failed due to missing permissions.</source>
+        <translation>Error al conectar a Bluetooth debido a falta de permisos.</translation>
     </message>
     <message>
         <source>Device does not support Bluetooth</source>
@@ -1272,36 +1299,80 @@
     <message>
         <source>Cannot access address %1</source>
         <comment>%1 = Bt address e.g. 11:22:33:44:55:66</comment>
-        <translation>No se puede conectar a la dirección %1</translation>
+        <translation>No es posible conectar a la dirección %1</translation>
     </message>
     <message>
         <source>Cannot connect to %1 on %2</source>
         <comment>%1 = uuid, %2 = Bt address</comment>
-        <translation>No se puede conectar a %1 en %2</translation>
+        <translation>No es posible conectar a %1 en %2</translation>
     </message>
     <message>
         <source>Obtaining streams for service failed</source>
-        <translation>Ha fallado la obtención de flujos para el servicio</translation>
+        <translation>Error al obtener fuentes para el servicio</translation>
     </message>
     <message>
         <source>Input stream thread cannot be started</source>
-        <translation>El hilo del flujo de entrada no puede ser iniciado</translation>
+        <translation>No es posible iniciar hilo de fuente de entrada</translation>
     </message>
     <message>
         <source>Connection to service failed</source>
-        <translation>Ha fallado la conexión al servicio</translation>
+        <translation>Error al conectar al servicio</translation>
     </message>
     <message>
         <source>Error during write on socket.</source>
-        <translation>Error mientras se escribía en el socket.</translation>
+        <translation>Error al escribir en el conector.</translation>
     </message>
     <message>
         <source>Network error during read</source>
-        <translation>Error de red mientras se leía</translation>
+        <translation>Error de red al leer</translation>
     </message>
     <message>
         <source>Cannot set connection security level</source>
-        <translation>No se puede establecer el nivel de seguridad</translation>
+        <translation>No es posible establecer nivel de seguridad de la conexión</translation>
+    </message>
+    <message>
+        <source>Cannot export profile on DBus</source>
+        <translation>No es posible exportar perfil mediante DBus</translation>
+    </message>
+    <message>
+        <source>Cannot register profile on DBus</source>
+        <translation>No es posible registrar perfil mediante DBus</translation>
+    </message>
+    <message>
+        <source>Cannot find remote device</source>
+        <translation>No es posible encontrar dispositivo remoto</translation>
+    </message>
+    <message>
+        <source>Cannot connect to remote profile</source>
+        <translation>No es posible conectar a perfil remoto</translation>
+    </message>
+    <message>
+        <source>Missing serviceUuid or Serial Port service class uuid</source>
+        <translation>Falta serviceUuid o uuid de clase de servicio del puerto de serie</translation>
+    </message>
+    <message>
+        <source>Invalid Bluetooth address passed to connectToService()</source>
+        <translation>Se proporcionó una dirección inválida de Bluetooth a connectToService()</translation>
+    </message>
+    <message>
+        <source>Network error</source>
+        <translation>Error de red</translation>
+    </message>
+    <message>
+        <source>Remote host closed connection</source>
+        <translation>El anfitrión remoto cerró la conexión</translation>
+    </message>
+    <message>
+        <source>Connection timed out</source>
+        <translation>Expiró el tiempo de espera para la conexión</translation>
+    </message>
+    <message>
+        <source>Host not reachable</source>
+        <translation>Anfitrión no disponible</translation>
+    </message>
+    <message>
+        <source>Host refused connection</source>
+        <translation>El anfitrión rechazó la conexión</translation>
     </message>
 </context>
 <context>
@@ -1316,7 +1387,7 @@
     </message>
     <message>
         <source>Push session cannot connect</source>
-        <translation>La sesión push no puede conectar</translation>
+        <translation>La sesión push no puede conectarse</translation>
     </message>
     <message>
         <source>Source file does not exist</source>
@@ -1324,7 +1395,7 @@
     </message>
     <message>
         <source>QIODevice cannot be read. Make sure it is open for reading.</source>
-        <translation>El QIODevice no puede ser leído. Asegúrese de que está abierto para lectura.</translation>
+        <translation>El QIODevice no puede ser leído. Asegurarse de que esté abierto para lectura.</translation>
     </message>
     <message>
         <source>Push session failed</source>
@@ -1332,7 +1403,7 @@
     </message>
     <message>
         <source>Invalid input device (null)</source>
-        <translation>Dispositivo inválido de entrada (nulo)</translation>
+        <translation>Dispositivo de entrada inválido (nulo)</translation>
     </message>
     <message>
         <source>Operation canceled</source>
@@ -1340,7 +1411,7 @@
     </message>
     <message>
         <source>Transfer already started</source>
-        <translation>La transferencia ya estaba iniciada</translation>
+        <translation>La transferencia previamente iniciada</translation>
     </message>
     <message>
         <source>Push service not found</source>
@@ -1351,19 +1422,19 @@
     <name>QBluetoothTransferReplyBluez</name>
     <message>
         <source>Unknown Error</source>
-        <translation>Error desconocido</translation>
+        <translation type="vanished">Error desconocido</translation>
     </message>
     <message>
         <source>Could not open file for sending</source>
-        <translation>No se puede abrir el archivo para envío</translation>
+        <translation type="vanished">No se puede abrir el archivo para envío</translation>
     </message>
     <message>
         <source>The transfer was canceled</source>
-        <translation>La transferencia fue cancelada</translation>
+        <translation type="vanished">La transferencia fue cancelada</translation>
     </message>
     <message>
         <source>Operation canceled</source>
-        <translation>Operación cancelada</translation>
+        <translation type="vanished">Operación cancelada</translation>
     </message>
 </context>
 <context>
@@ -1378,15 +1449,69 @@
     </message>
     <message>
         <source>Error occurred during connection I/O</source>
-        <translation>Ha ocurrido un error durante la conexión de entrada/salida</translation>
+        <translation>Ocurrió un error durante la conexión de entrada/salida</translation>
     </message>
     <message>
         <source>Unknown Error</source>
         <translation>Error desconocido</translation>
     </message>
     <message>
+        <source>Missing permission</source>
+        <translation>Faltan permisos</translation>
+    </message>
+    <message>
         <source>Error occurred trying to connect to remote device.</source>
-        <translation>Ocurrió un error intentando conectar a un dispositivo remoto.</translation>
+        <translation>Ocurrió un error al intentar conectar a un dispositivo remoto.</translation>
+    </message>
+    <message>
+        <source>Remote device closed the connection</source>
+        <translation>El dispositivo remoto cerró la conexión</translation>
+    </message>
+    <message>
+        <source>Failed to authorize on the remote device</source>
+        <translation>Error de autorización en el dispositivo remoto</translation>
+    </message>
+    <message>
+        <source>Missing permissions error</source>
+        <translation>Error de falta de permisos</translation>
+    </message>
+    <message>
+        <source>Error reading RSSI value</source>
+        <translation>Error al leer el valor de RSSI</translation>
+    </message>
+    <message>
+        <source>Advertisement data is larger than 31 bytes</source>
+        <translation>Los datos del anuncio son mayores a 31 bytes</translation>
+    </message>
+    <message>
+        <source>Advertisement feature not supported on the platform</source>
+        <translation>Función de anuncios no soportada en la plataforma</translation>
+    </message>
+    <message>
+        <source>Error occurred trying to start advertising</source>
+        <translation>Ocurrió un error al intentar iniciar un anuncio</translation>
+    </message>
+    <message>
+        <source>Failed due to too many advertisers</source>
+        <translation>Error debido a demasiados anunciantes</translation>
+    </message>
+    <message>
+        <source>Unknown advertisement error</source>
+        <translation>Error desconocido en el anuncio</translation>
+    </message>
+</context>
+<context>
+    <name>QBluetoothSocketPrivateAndroid</name>
+    <message>
+        <source>Connecting to port is not supported</source>
+        <translation>La conexión a un puerto no está soportada</translation>
+    </message>
+</context>
+<context>
+    <name>QBluetoothSocketPrivateBluezDBus</name>
+    <message>
+        <source>Connecting to port is not supported via Bluez DBus</source>
+        <translation>La conexión a un puerto no está soportada mediante Bluez DBus</translation>
     </message>
 </context>
 </TS>

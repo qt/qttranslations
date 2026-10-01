@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="es_ES">
+<TS version="2.1" language="es">
 <context>
     <name>AbstractFindWidget</name>
     <message>
@@ -17,11 +17,15 @@
     </message>
     <message>
         <source>Whole &amp;words</source>
-        <translation>Palabras &amp;completas</translation>
+        <translation>&amp;Palabras completas</translation>
     </message>
     <message>
         <source>&lt;img src=&quot;:/qt-project.org/shared/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
-        <translation>&lt;img src=&quot;:/qt-project.org/shared/images/wrap.png&quot;&gt;&amp;nbsp;Búsqueda envuelta</translation>
+        <translation>&lt;img src=&quot;:/qt-project.org/shared/images/wrap.png&quot;&gt;&amp;nbsp;Búsqueda cíclica</translation>
+    </message>
+    <message>
+        <source>&amp;Find in Text...</source>
+        <translation>&amp;Buscar en texto...</translation>
     </message>
 </context>
 <context>
@@ -44,7 +48,7 @@
     </message>
     <message>
         <source>UserCheckable</source>
-        <translation>ActivablePorElUsuario</translation>
+        <translation>ActivablePorUsuario</translation>
     </message>
     <message>
         <source>Enabled</source>
@@ -71,7 +75,7 @@
     <name>AddLinkDialog</name>
     <message>
         <source>Insert Link</source>
-        <translation>Insertar vínculo</translation>
+        <translation>Insertar enlace</translation>
     </message>
     <message>
         <source>Title:</source>
@@ -86,7 +90,7 @@
     <name>AppFontDialog</name>
     <message>
         <source>Additional Fonts</source>
-        <translation>Fuentes adicionales</translation>
+        <translation>Tipografías adicionales</translation>
     </message>
 </context>
 <context>
@@ -97,70 +101,70 @@
     </message>
     <message>
         <source>The font file &apos;%1&apos; does not have read permissions.</source>
-        <translation>El archivo de tipo de letras «%1» no tiene permisos de lectura.</translation>
+        <translation>El archivo de tipografías «%1» no tiene permisos de lectura.</translation>
     </message>
     <message>
         <source>The font file &apos;%1&apos; is already loaded.</source>
-        <translation>El archivo de tipo de letras «%1» ya está cargado.</translation>
+        <translation>El archivo de tipografías «%1» ya está cargado.</translation>
     </message>
     <message>
         <source>The font file &apos;%1&apos; could not be loaded.</source>
-        <translation>El archivo de tipo de letras «%1» no puede ser cargado.</translation>
+        <translation>El archivo de tipografías «%1» no puede ser cargado.</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a valid font id.</source>
-        <translation>«%1» no es un identificador de tipo de letras válido.</translation>
+        <translation>«%1» no es un identificador de tipografía válido.</translation>
     </message>
     <message>
         <source>There is no loaded font matching the id &apos;%1&apos;.</source>
-        <translation>No hay tipo de letras cargada que coincida con el identificador «%1».</translation>
+        <translation>No hay ninguna tipografía cargada que coincida con el identificador «%1».</translation>
     </message>
     <message>
         <source>The font &apos;%1&apos; (%2) could not be unloaded.</source>
-        <translation>La tipo de letras «%1» (%2) no puede ser descargada.</translation>
+        <translation>La tipografía «%1» (%2) no puede ser quitada.</translation>
     </message>
 </context>
 <context>
     <name>AppFontWidget</name>
     <message>
         <source>Fonts</source>
-        <translation>Fuentes</translation>
+        <translation>Tipografías</translation>
     </message>
     <message>
         <source>Add font files</source>
-        <translation>Añadir archivos de tipos de letras</translation>
+        <translation>Agregar archivos de tipografías</translation>
     </message>
     <message>
         <source>Remove current font file</source>
-        <translation>Eliminar el archivo de tipo de letras actual</translation>
+        <translation>Eliminar el archivo de tipografía actual</translation>
     </message>
     <message>
         <source>Remove all font files</source>
-        <translation>Eliminar todos los archivos de tipos de letras</translation>
+        <translation>Eliminar todos los archivos de tipografías</translation>
     </message>
     <message>
         <source>Add Font Files</source>
-        <translation>Añadir archivos de tipos de letras</translation>
+        <translation>Agregar archivos de tipografías</translation>
     </message>
     <message>
         <source>Font files (*.ttf)</source>
-        <translation>Archivos de tipos de letras (*.ttf)</translation>
+        <translation>Archivos de tipografías (*.ttf)</translation>
     </message>
     <message>
         <source>Error Adding Fonts</source>
-        <translation>Error añadiendo tipos de letras</translation>
+        <translation>Error al agregar tipografías</translation>
     </message>
     <message>
         <source>Error Removing Fonts</source>
-        <translation>Error eliminando tipos de letras</translation>
+        <translation>Error al eliminar tipografías</translation>
     </message>
     <message>
         <source>Remove Fonts</source>
-        <translation>Eliminar tipos de letras</translation>
+        <translation>Eliminar tipografías</translation>
     </message>
     <message>
         <source>Would you like to remove all fonts?</source>
-        <translation>¿Está seguro de querer eliminar todas las tipos de letras?</translation>
+        <translation>¿Eliminar todas las tipografías?</translation>
     </message>
 </context>
 <context>
@@ -178,22 +182,22 @@
     <name>AssistantClient</name>
     <message>
         <source>Unable to send request: Assistant is not responding.</source>
-        <translation>No se ha podido enviar petición: El asistente no está respondiendo.</translation>
+        <translation type="vanished">No se ha podido enviar petición: El asistente no está respondiendo.</translation>
     </message>
     <message>
         <source>The binary &apos;%1&apos; does not exist.</source>
-        <translation>El binario «%1» no existe.</translation>
+        <translation type="vanished">El binario «%1» no existe.</translation>
     </message>
     <message>
         <source>Unable to launch assistant (%1).</source>
-        <translation>No se puede lanzar el asistente (%1).</translation>
+        <translation type="vanished">No se puede lanzar el asistente (%1).</translation>
     </message>
 </context>
 <context>
     <name>BrushPropertyManager</name>
     <message>
         <source>No brush</source>
-        <translation>No hay brocha</translation>
+        <translation>No hay pincel</translation>
     </message>
     <message>
         <source>Solid</source>
@@ -237,19 +241,19 @@
     </message>
     <message>
         <source>Cross</source>
-        <translation>Cruz</translation>
+        <translation>Cruzado</translation>
     </message>
     <message>
         <source>Backward diagonal</source>
-        <translation>Diagonal hacía atrás</translation>
+        <translation>Diagonal inversa</translation>
     </message>
     <message>
         <source>Forward diagonal</source>
-        <translation>Diagonal hacía delante</translation>
+        <translation>Diagonal</translation>
     </message>
     <message>
         <source>Crossing diagonal</source>
-        <translation>Diagonal en cruce</translation>
+        <translation>Diagonal cruzada</translation>
     </message>
     <message>
         <source>Style</source>
@@ -268,7 +272,7 @@
     <name>Command</name>
     <message>
         <source>Add connection</source>
-        <translation>Añadir conexión</translation>
+        <translation>Agregar conexión</translation>
     </message>
     <message>
         <source>Adjust connection</source>
@@ -276,7 +280,7 @@
     </message>
     <message>
         <source>Delete connections</source>
-        <translation>Eliminar conexiones</translation>
+        <translation>Borrar conexiones</translation>
     </message>
     <message>
         <source>Change source</source>
@@ -288,15 +292,13 @@
     </message>
     <message>
         <source>Add &apos;%1&apos; to &apos;%2&apos;</source>
-        <extracomment>Command description for adding buttons to a QButtonGroup
-</extracomment>
-        <translation>Añadir «%1» a «%2»</translation>
+        <extracomment>Command description for adding buttons to a QButtonGroup</extracomment>
+        <translation>Agregar «%1» a «%2»</translation>
     </message>
     <message>
         <source>Morph %1/&apos;%2&apos; into %3</source>
-        <extracomment>MorphWidgetCommand description
-</extracomment>
-        <translation>Convertir %1/«%2» en %3</translation>
+        <extracomment>MorphWidgetCommand description</extracomment>
+        <translation>Transformar %1/«%2» en %3</translation>
     </message>
     <message>
         <source>Insert &apos;%1&apos;</source>
@@ -304,35 +306,35 @@
     </message>
     <message>
         <source>Change Z-order of &apos;%1&apos;</source>
-        <translation>Cambiar el orden-Z de «%1»</translation>
+        <translation>Cambiar orden-Z de «%1»</translation>
     </message>
     <message>
         <source>Raise &apos;%1&apos;</source>
-        <translation>Elevar «%1»</translation>
+        <translation>Ascender «%1»</translation>
     </message>
     <message>
         <source>Lower &apos;%1&apos;</source>
-        <translation>Hundir «%1»</translation>
+        <translation>Descender «%1»</translation>
     </message>
     <message>
         <source>Delete &apos;%1&apos;</source>
-        <translation>Eliminar «%1»</translation>
+        <translation>Borrar «%1»</translation>
     </message>
     <message>
         <source>Reparent &apos;%1&apos;</source>
-        <translation>Reparentar «%1»</translation>
+        <translation>Cambiar superior de «%1»</translation>
     </message>
     <message>
         <source>Promote to custom widget</source>
-        <translation>Promover a un widget personalizado</translation>
+        <translation>Promover a control personalizado</translation>
     </message>
     <message>
         <source>Demote from custom widget</source>
-        <translation>Degradar desde widget personalizado</translation>
+        <translation>Degradar desde control personalizado</translation>
     </message>
     <message>
         <source>Lay out using grid</source>
-        <translation>Organizar usando una cuadrícula</translation>
+        <translation>Organizar usando cuadrícula</translation>
     </message>
     <message>
         <source>Lay out vertically</source>
@@ -348,7 +350,7 @@
     </message>
     <message>
         <source>Simplify Grid Layout</source>
-        <translation>Simplificar la organización en rejilla</translation>
+        <translation>Simplificar organización en cuadrícula</translation>
     </message>
     <message>
         <source>Move Page</source>
@@ -356,7 +358,7 @@
     </message>
     <message>
         <source>Delete Page</source>
-        <translation>Eliminar página</translation>
+        <translation>Borrar página</translation>
     </message>
     <message>
         <source>Page</source>
@@ -368,7 +370,7 @@
     </message>
     <message>
         <source>Change Tab order</source>
-        <translation>Cambiar orden de las pestañas</translation>
+        <translation>Cambiar orden de pestañas</translation>
     </message>
     <message>
         <source>Create Menu Bar</source>
@@ -376,7 +378,7 @@
     </message>
     <message>
         <source>Delete Menu Bar</source>
-        <translation>Eliminar barra de menú</translation>
+        <translation>Borrar barra de menú</translation>
     </message>
     <message>
         <source>Create Status Bar</source>
@@ -384,31 +386,31 @@
     </message>
     <message>
         <source>Delete Status Bar</source>
-        <translation>Eliminar barra de estado</translation>
+        <translation>Borrar barra de estado</translation>
     </message>
     <message>
         <source>Add Tool Bar</source>
-        <translation>Añadir barra de herramientas</translation>
+        <translation>Agregar barra de herramientas</translation>
     </message>
     <message>
         <source>Add Dock Window</source>
-        <translation>Añadir ventana acopable</translation>
+        <translation>Agregar ventana empotrable</translation>
     </message>
     <message>
         <source>Adjust Size of &apos;%1&apos;</source>
-        <translation>Ajustar tamaño a «%1»</translation>
+        <translation>Ajustar tamaño de «%1»</translation>
     </message>
     <message>
         <source>Change Form Layout Item Geometry</source>
-        <translation>Cambiar la geometría de la organización de elementos en el formulario</translation>
+        <translation>Cambiar geometría de elementos del diseño del formulario</translation>
     </message>
     <message>
         <source>Change Layout Item Geometry</source>
-        <translation>Cambiar la geometría del elemento de organización</translation>
+        <translation>Cambiar geometría de elementos del diseño</translation>
     </message>
     <message>
         <source>Delete Subwindow</source>
-        <translation>Eliminar subventana</translation>
+        <translation>Borrar subventana</translation>
     </message>
     <message>
         <source>Insert Subwindow</source>
@@ -420,15 +422,15 @@
     </message>
     <message>
         <source>Change Table Contents</source>
-        <translation>Cambiar contenidos de la tabla</translation>
+        <translation>Cambiar contenido de tabla</translation>
     </message>
     <message>
         <source>Change Tree Contents</source>
-        <translation>Cambiar contenidos de árbol</translation>
+        <translation>Cambiar contenido de árbol</translation>
     </message>
     <message>
         <source>Add action</source>
-        <translation>Añadir acción</translation>
+        <translation>Agregar acción</translation>
     </message>
     <message>
         <source>Remove action</source>
@@ -436,7 +438,7 @@
     </message>
     <message>
         <source>Add menu</source>
-        <translation>Añadir menú</translation>
+        <translation>Agregar menú</translation>
     </message>
     <message>
         <source>Remove menu</source>
@@ -448,19 +450,19 @@
     </message>
     <message>
         <source>Delete Tool Bar</source>
-        <translation>Eliminar barra de herramientas</translation>
+        <translation>Borrar barra de herramientas</translation>
     </message>
     <message>
         <source>Change layout of &apos;%1&apos; from %2 to %3</source>
-        <translation>Cambiar la organización de «%1» de %2 a %3</translation>
+        <translation>Cambiar organización de «%1» de %2 a %3</translation>
     </message>
     <message>
         <source>Change layout alignment</source>
-        <translation>Cambiar la alineación del layaout</translation>
+        <translation>Cambiar alineación de organización</translation>
     </message>
     <message>
         <source>Set action text</source>
-        <translation>Establecer el texto de la acción</translation>
+        <translation>Definir texto de acción</translation>
     </message>
     <message>
         <source>Insert action</source>
@@ -480,35 +482,35 @@
     </message>
     <message>
         <source>Changed &apos;%1&apos; of &apos;%2&apos;</source>
-        <translation>Cambiado «%1» de «%2»</translation>
+        <translation>Cambiados «%1» de «%2»</translation>
     </message>
     <message numerus="yes">
         <source>Changed &apos;%1&apos; of %n objects</source>
         <translation>
-            <numerusform>Cambiado «%1» de «%n» objeto</numerusform>
+            <numerusform>Cambiado «%1» de «%n» objetos</numerusform>
             <numerusform>Cambiados «%1» de «%n» objetos</numerusform>
         </translation>
     </message>
     <message>
         <source>Reset &apos;%1&apos; of &apos;%2&apos;</source>
-        <translation>Reiniciar «%1» de «%2»</translation>
+        <translation>Restablecidos «%1» de «%2»</translation>
     </message>
     <message numerus="yes">
         <source>Reset &apos;%1&apos; of %n objects</source>
         <translation>
-            <numerusform>Reiniciar «%1» de %n objeto</numerusform>
-            <numerusform>Reiniciar «%1» de %n objetos</numerusform>
+            <numerusform>Restablecido «%1» de «%n» objetos</numerusform>
+            <numerusform>Restablecidos «%1» de «%n» objetos</numerusform>
         </translation>
     </message>
     <message>
         <source>Add dynamic property &apos;%1&apos; to &apos;%2&apos;</source>
-        <translation>Añadir propiedades dinámicas «%1» de «%2»</translation>
+        <translation>Agregar propiedad dinámica «%1» a «%2»</translation>
     </message>
     <message numerus="yes">
         <source>Add dynamic property &apos;%1&apos; to %n objects</source>
         <translation>
-            <numerusform>Añadir propiedades dinámicas a «%1» de «%n» objeto</numerusform>
-            <numerusform>Añadir propiedades dinámicas a «%1» de «%n» objetos</numerusform>
+            <numerusform>Agregar propiedad dinámica «%1» a «%n» objeto</numerusform>
+            <numerusform>Agregar propiedad dinámica «%1» a «%n» objetos</numerusform>
         </translation>
     </message>
     <message>
@@ -524,7 +526,7 @@
     </message>
     <message>
         <source>Change signals/slots</source>
-        <translation>Cambiar señales/slots</translation>
+        <translation>Cambiar señales/ranuras</translation>
     </message>
     <message>
         <source>Change signal</source>
@@ -532,11 +534,11 @@
     </message>
     <message>
         <source>Change slot</source>
-        <translation>Cambiar slot</translation>
+        <translation>Cambiar ranura</translation>
     </message>
     <message>
         <source>Change signal-slot connection</source>
-        <translation>Cambiar conexión señal-slot</translation>
+        <translation>Cambiar conexión señal-ranura</translation>
     </message>
     <message>
         <source>Change sender</source>
@@ -548,7 +550,7 @@
     </message>
     <message>
         <source>Create button group</source>
-        <translation>Crear un grupo de botones</translation>
+        <translation>Crear grupo de botones</translation>
     </message>
     <message>
         <source>Break button group</source>
@@ -560,7 +562,7 @@
     </message>
     <message>
         <source>Add buttons to group</source>
-        <translation>Añadir botones al grupo</translation>
+        <translation>Agregar botones al grupo</translation>
     </message>
     <message>
         <source>Remove buttons from group</source>
@@ -568,8 +570,7 @@
     </message>
     <message>
         <source>Remove &apos;%1&apos; from &apos;%2&apos;</source>
-        <extracomment>Command description for removing buttons from a QButtonGroup
-</extracomment>
+        <extracomment>Command description for removing buttons from a QButtonGroup</extracomment>
         <translation>Eliminar «%1» de «%2»</translation>
     </message>
 </context>
@@ -589,7 +590,7 @@
     </message>
     <message>
         <source>Show signals and slots inherited from QWidget</source>
-        <translation>Mostrar señales y slots heredados de QWidget</translation>
+        <translation>Mostrar señales y ranuras heredados de QWidget</translation>
     </message>
 </context>
 <context>
@@ -604,86 +605,90 @@
     </message>
     <message>
         <source>&lt;slot&gt;</source>
-        <translation>&lt;slot&gt;</translation>
+        <translation>&lt;ranura&gt;</translation>
     </message>
 </context>
 <context>
     <name>DPI_Chooser</name>
     <message>
         <source>Standard (96 x 96)</source>
-        <extracomment>Embedded device standard screen resolution
-</extracomment>
+        <extracomment>Embedded device standard screen resolution</extracomment>
         <translation>Estándar (96 x 96)</translation>
     </message>
     <message>
         <source>Greenphone (179 x 185)</source>
-        <extracomment>Embedded device screen resolution
-</extracomment>
+        <extracomment>Embedded device screen resolution</extracomment>
         <translation>Greenphone (179 x 185)</translation>
     </message>
     <message>
         <source>High (192 x 192)</source>
-        <extracomment>Embedded device high definition screen resolution
-</extracomment>
-        <translation>Alta (192 x 192)</translation>
+        <extracomment>Embedded device high definition screen resolution</extracomment>
+        <translation>Alto (192 x 192)</translation>
     </message>
 </context>
 <context>
     <name>Designer</name>
     <message>
         <source>Unable to launch %1.</source>
-        <translation>Imposible ejecutar %1.</translation>
+        <translation type="vanished">Imposible ejecutar %1.</translation>
+    </message>
+    <message>
+        <source>%1 does not exist.</source>
+        <translation>%1 no existe.</translation>
+    </message>
+    <message>
+        <source>Unable to launch %1: %2</source>
+        <translation>No es posible ejecutar %1: %2</translation>
     </message>
     <message>
         <source>%1 timed out.</source>
-        <translation>El tiempo de espera por %1 espiró.</translation>
+        <translation>Tiempo expirado para %1.</translation>
     </message>
     <message>
         <source>Custom Widgets</source>
-        <translation>Widgets personalizados</translation>
+        <translation>Controles personalizados</translation>
     </message>
     <message>
         <source>Promoted Widgets</source>
-        <translation>Widgets promocionados</translation>
+        <translation>Controles promovidos</translation>
     </message>
     <message>
         <source>Qt Widgets Designer</source>
-        <translation>Qt Widgets Designer</translation>
+        <translation>Diseñador de controles de Qt</translation>
     </message>
     <message>
         <source>This file cannot be read because the extra info extension failed to load.</source>
-        <translation>Este archivo no puede ser leído porque la carga de la extensión de información extra falló.</translation>
+        <translation>Este archivo no puede ser leído porque no fue posible cargar la extensión de información adicional.</translation>
     </message>
 </context>
 <context>
     <name>DesignerMetaEnum</name>
     <message>
         <source>%1 is not a valid enumeration value of &apos;%2&apos;.</source>
-        <translation>%1 no es un valor de enumeración válida de «%2».</translation>
+        <translation>%1 no es un valor de enumeración válido de «%2».</translation>
     </message>
     <message>
         <source>&apos;%1&apos; could not be converted to an enumeration value of type &apos;%2&apos;.</source>
-        <translation>«%1» no puede ser convertido a un valor de enumeración de tipo «%2».</translation>
+        <translation>«%1» no pudo ser convertido a un valor de enumeración de tipo «%2».</translation>
     </message>
 </context>
 <context>
     <name>DesignerMetaFlags</name>
     <message>
         <source>&apos;%1&apos; could not be converted to a flag value of type &apos;%2&apos;.</source>
-        <translation>«%1» no puede ser convertido a un valor de flag de tipo «%2».</translation>
+        <translation>«%1» no pudo ser convertido a un valor de indicador de tipo «%2».</translation>
     </message>
 </context>
 <context>
     <name>DeviceProfile</name>
     <message>
         <source>&apos;%1&apos; is not a number.</source>
-        <extracomment>Reading a number for an embedded device profile
-</extracomment>
+        <extracomment>Reading a number for an embedded device profile</extracomment>
         <translation>«%1» no es un número.</translation>
     </message>
     <message>
         <source>An invalid tag &lt;%1&gt; was encountered.</source>
-        <translation>Una etiqueta inválida &lt;%1&gt; fue encontrado.</translation>
+        <translation>Se ecncontró una etiqueta inválida &lt;%1&gt;.</translation>
     </message>
 </context>
 <context>
@@ -702,7 +707,7 @@
     </message>
     <message>
         <source>Device DPI</source>
-        <translation>DPI del dispositivo</translation>
+        <translation>PPP del dispositivo</translation>
     </message>
     <message>
         <source>Name</source>
@@ -713,19 +718,19 @@
     <name>DeviceSkin</name>
     <message>
         <source>The image file &apos;%1&apos; could not be loaded.</source>
-        <translation>El nombre de archivo «%1» no puede ser cargada.</translation>
+        <translation>El archivo de imagen «%1» no pudo ser cargado.</translation>
     </message>
     <message>
         <source>The skin directory &apos;%1&apos; does not contain a configuration file.</source>
-        <translation>El directorio de pieles «%1» no contiene un archivo de configuración.</translation>
+        <translation>La carpeta de decoraciones «%1» no contiene un archivo de configuración.</translation>
     </message>
     <message>
         <source>The skin configuration file &apos;%1&apos; could not be opened.</source>
-        <translation>El archivo de pieles «%1» no puede ser abierto.</translation>
+        <translation>El archivo de configuración de decoraciones «%1» no pudo ser abierto.</translation>
     </message>
     <message>
         <source>The skin configuration file &apos;%1&apos; could not be read: %2</source>
-        <translation>El archivo de pieles «%1» no puede ser leído: %2</translation>
+        <translation>El archivo de configuración de decoraciones «%1» no pudo ser leído : %2</translation>
     </message>
     <message>
         <source>Syntax error: %1</source>
@@ -733,19 +738,19 @@
     </message>
     <message>
         <source>The skin &quot;up&quot; image file &apos;%1&apos; does not exist.</source>
-        <translation>El archivo de imagen «up» (%1) de la piel no existe.</translation>
+        <translation>El archivo de imagen «arriba» (%1) de la decoración no existe.</translation>
     </message>
     <message>
         <source>The skin &quot;down&quot; image file &apos;%1&apos; does not exist.</source>
-        <translation>El archivo de imagen «down» (%1) de la piel no existe.</translation>
+        <translation>El archivo de imagen «abajo» (%1) de la decoración no existe.</translation>
     </message>
     <message>
         <source>The skin &quot;closed&quot; image file &apos;%1&apos; does not exist.</source>
-        <translation>El archivo de imagen «closed» (%1) de la piel no existe.</translation>
+        <translation>El archivo de imagen «cerrado» (%1) de la decoración no existe.</translation>
     </message>
     <message>
         <source>The skin cursor image file &apos;%1&apos; does not exist.</source>
-        <translation>El archivo de cursor (%1) de la piel no existe.</translation>
+        <translation>El archivo de puntero (%1) de la decoración no existe.</translation>
     </message>
     <message>
         <source>Syntax error in area definition: %1</source>
@@ -760,31 +765,28 @@
     <name>EmbeddedOptionsControl</name>
     <message>
         <source>&lt;html&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Font&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1, %2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Style&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Resolution&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%4 x %5&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;</source>
-        <extracomment>Format embedded device profile description
-</extracomment>
-        <translation>&lt;html&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Fuente&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1, %2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Estilo&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Resolución&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%4 x %5&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;</translation>
+        <extracomment>Format embedded device profile description</extracomment>
+        <translation>&lt;html&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Tipografía&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1, %2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Estilo&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Resolución&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%4 x %5&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
     <name>EmbeddedOptionsPage</name>
     <message>
         <source>Embedded Design</source>
-        <extracomment>Tab in preferences dialog
-</extracomment>
-        <translation>Diseño empotrado</translation>
+        <extracomment>Tab in preferences dialog</extracomment>
+        <translation>Diseño incorporado</translation>
     </message>
     <message>
         <source>Device Profiles</source>
-        <extracomment>EmbeddedOptionsControl group box&quot;
-</extracomment>
-        <translation>Perfiles de dispositivo</translation>
+        <extracomment>EmbeddedOptionsControl group box&quot;</extracomment>
+        <translation>Perfiles de dispositivos</translation>
     </message>
 </context>
 <context>
     <name>FontPanel</name>
     <message>
         <source>Font</source>
-        <translation>Fuente</translation>
+        <translation>Tipografía</translation>
     </message>
     <message>
         <source>&amp;Writing system</source>
@@ -800,40 +802,107 @@
     </message>
     <message>
         <source>&amp;Point size</source>
-        <translation>Tamaño de &amp;punto</translation>
+        <translation>&amp;Tamaño</translation>
     </message>
 </context>
 <context>
     <name>FontPropertyManager</name>
     <message>
         <source>PreferDefault</source>
-        <translation>PreferirPorDefecto</translation>
+        <translation>PreferirPredeterminado</translation>
     </message>
     <message>
         <source>NoAntialias</source>
-        <translation>SinAntialias</translation>
+        <translation>SinSuavizadoDeBordes</translation>
     </message>
     <message>
         <source>PreferAntialias</source>
-        <translation>PreferirAntialias</translation>
+        <translation>PreferirSuavizadoDeBordes</translation>
+    </message>
+    <message>
+        <source>PreferDefaultHinting</source>
+        <comment>QFont::StyleStrategy combo</comment>
+        <translation>PreferirAjustePredeterminado</translation>
+    </message>
+    <message>
+        <source>PreferNoHinting</source>
+        <comment>QFont::StyleStrategy combo</comment>
+        <translation>PreferirSinAjuste</translation>
+    </message>
+    <message>
+        <source>PreferVerticalHinting</source>
+        <comment>QFont::StyleStrategy combo</comment>
+        <translation>PreferirAjusteVertical</translation>
+    </message>
+    <message>
+        <source>PreferFullHinting</source>
+        <comment>QFont::StyleStrategy combo</comment>
+        <translation>PreferirAjusteCompleto</translation>
     </message>
     <message>
         <source>Antialiasing</source>
-        <translation>Antialiasing</translation>
+        <translation>Suavizado de bordes</translation>
+    </message>
+    <message>
+        <source>HintingPreference</source>
+        <translation>PreferenciasAjuste</translation>
+    </message>
+    <message>
+        <source>Thin</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>Delgada</translation>
+    </message>
+    <message>
+        <source>ExtraLight</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>ExtraLigera</translation>
+    </message>
+    <message>
+        <source>Light</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>Ligera</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Medium</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>Media</translation>
+    </message>
+    <message>
+        <source>DemiBold</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>SemiNegrita</translation>
+    </message>
+    <message>
+        <source>Bold</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>NegritaNegrita</translation>
+    </message>
+    <message>
+        <source>ExtraBold</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>ExtraNegrita</translation>
+    </message>
+    <message>
+        <source>Black</source>
+        <comment>QFont::Weight combo</comment>
+        <translation>Muy pesada</translation>
     </message>
 </context>
 <context>
     <name>FormBuilder</name>
     <message>
         <source>Invalid stretch value for &apos;%1&apos;: &apos;%2&apos;</source>
-        <extracomment>Parsing layout stretch values
-</extracomment>
-        <translation>Valor inválido para ajuste para «%1»: «%2»</translation>
+        <extracomment>Parsing layout stretch values</extracomment>
+        <translation>Valor inválido de estiramiento para «%1»: «%2»</translation>
     </message>
     <message>
         <source>Invalid minimum size for &apos;%1&apos;: &apos;%2&apos;</source>
-        <extracomment>Parsing grid layout minimum size values
-</extracomment>
+        <extracomment>Parsing grid layout minimum size values</extracomment>
         <translation>Tamaño mínimo inválido para «%1»: «%2»</translation>
     </message>
 </context>
@@ -841,38 +910,52 @@
     <name>FormEditorOptionsPage</name>
     <message>
         <source>%1 %</source>
-        <extracomment>Zoom percentage
-</extracomment>
+        <extracomment>Zoom percentage</extracomment>
         <translation>%1 %</translation>
     </message>
     <message>
         <source>Preview Zoom</source>
-        <translation>Previsualizar zoom</translation>
+        <translation>Ampliación de previsualización</translation>
     </message>
     <message>
         <source>Default Zoom</source>
-        <translation>Zoom por defecto</translation>
+        <translation>Ampliación predeterminada</translation>
     </message>
     <message>
         <source>Forms</source>
-        <extracomment>Tab in preferences dialog
-</extracomment>
+        <extracomment>Tab in preferences dialog</extracomment>
         <translation>Formularios</translation>
     </message>
     <message>
         <source>Default Grid</source>
-        <translation>Cuadrícula por defecto</translation>
+        <translation>Cuadrícula predeterminada</translation>
+    </message>
+    <message>
+        <source>Object Naming Convention</source>
+        <translation>Nomenclatura de objetos</translation>
+    </message>
+    <message>
+        <source>Naming convention used for generating action object names from their text</source>
+        <translation>Convención de nomenclatura usada para generar nombres de objetos de acciones a partir de su texto</translation>
+    </message>
+    <message>
+        <source>Camel Case</source>
+        <translation>Mayúsculas intercaladas</translation>
+    </message>
+    <message>
+        <source>Underscore</source>
+        <translation>Subrayado</translation>
     </message>
 </context>
 <context>
     <name>FormLayoutRowDialog</name>
     <message>
         <source>Add Form Layout Row</source>
-        <translation>Añadir fila al diseño del formulario</translation>
+        <translation>Agregar fila a organización de formulario</translation>
     </message>
     <message>
         <source>&amp;Label text:</source>
-        <translation>Te&amp;xto de etiqueta:</translation>
+        <translation>Texto de eti&amp;queta:</translation>
     </message>
     <message>
         <source>Field &amp;type:</source>
@@ -880,7 +963,7 @@
     </message>
     <message>
         <source>&amp;Field name:</source>
-        <translation>Nombre de &amp;campo:</translation>
+        <translation>Nombre del &amp;campo:</translation>
     </message>
     <message>
         <source>&amp;Buddy:</source>
@@ -903,18 +986,18 @@
     </message>
     <message>
         <source>Error while pasting clipboard contents at line %1, column %2: %3</source>
-        <translation>Error mientras se pegaba el contenido del portapapeles en la línea %1, columna %2: %3</translation>
+        <translation>Error al pegar el contenido del portapapeles en la línea %1, columna %2: %3</translation>
     </message>
 </context>
 <context>
     <name>FormWindowSettings</name>
     <message>
         <source>Form Settings</source>
-        <translation>Configuración del formulario</translation>
+        <translation>Opciones del formulario</translation>
     </message>
     <message>
         <source>Layout &amp;Default</source>
-        <translation>&amp;Diseño por defecto</translation>
+        <translation>Organización pre&amp;determinada</translation>
     </message>
     <message>
         <source>&amp;Spacing:</source>
@@ -926,7 +1009,7 @@
     </message>
     <message>
         <source>&amp;Layout Function</source>
-        <translation>Función de &amp;diseño</translation>
+        <translation>F&amp;unción de organización</translation>
     </message>
     <message>
         <source>Ma&amp;rgin:</source>
@@ -938,11 +1021,11 @@
     </message>
     <message>
         <source>&amp;Pixmap Function</source>
-        <translation>Función de &amp;Pixmap</translation>
+        <translation>Función de mapa de &amp;píxeles</translation>
     </message>
     <message>
         <source>&amp;Include Hints</source>
-        <translation>&amp;Incluir indicios</translation>
+        <translation>&amp;Incluir ajustes</translation>
     </message>
     <message>
         <source>Grid</source>
@@ -950,35 +1033,89 @@
     </message>
     <message>
         <source>Embedded Design</source>
-        <translation>Diseño empotrado</translation>
+        <translation>Diseño incorporado</translation>
     </message>
     <message>
         <source>&amp;Author</source>
         <translation>&amp;Autor</translation>
     </message>
+    <message>
+        <source>Translations</source>
+        <translation>Traducciones</translation>
+    </message>
+    <message>
+        <source>ID-based</source>
+        <translation>Basadas en el ID</translation>
+    </message>
+    <message>
+        <source>ID-based label:</source>
+        <translation>Etiqueta basada en ID:</translation>
+    </message>
+    <message>
+        <source>Enter a label name to group id based translations of the form (optional)</source>
+        <translation>Introducir un nombre de etiqueta para agrupar las traducciones del formulario basadas en el ID (opcional)</translation>
+    </message>
+    <message>
+        <source>Connections</source>
+        <translation>Conexiones</translation>
+    </message>
+    <message>
+        <source>Connect slots by name</source>
+        <translation>Conectar ranuras por nombre</translation>
+    </message>
 </context>
 <context>
     <name>IconSelector</name>
     <message>
+        <source>Normal Off</source>
+        <translation>Normal inactivo</translation>
+    </message>
+    <message>
+        <source>Normal On</source>
+        <translation>Normal activo</translation>
+    </message>
+    <message>
+        <source>Disabled Off</source>
+        <translation>Deshabilitado inactivo</translation>
+    </message>
+    <message>
+        <source>Disabled On</source>
+        <translation>Deshabilitado activo</translation>
+    </message>
+    <message>
+        <source>Active Off</source>
+        <translation>Activo inactivo</translation>
+    </message>
+    <message>
+        <source>Active On</source>
+        <translation>Activo activo</translation>
+    </message>
+    <message>
+        <source>Selected Off</source>
+        <translation>Seleccionado inactivo</translation>
+    </message>
+    <message>
+        <source>Selected On</source>
+        <translation>Seleccionado activo</translation>
+    </message>
+    <message>
         <source>All Pixmaps (</source>
-        <translation>Todos los pixmaps (</translation>
+        <translation>Todos los mapas de píxeles (</translation>
     </message>
 </context>
 <context>
     <name>ItemPropertyBrowser</name>
     <message>
         <source>XX Icon Selected off</source>
-        <extracomment>Sample string to determinate the width for the first column of the list item property browser
-</extracomment>
-        <translation>XX Icono seleccionado apagado</translation>
+        <extracomment>Sample string to determinate the width for the first column of the list item property browser</extracomment>
+        <translation>Ícono XX seleccionado inactivo</translation>
     </message>
 </context>
 <context>
     <name>MainWindowBase</name>
     <message>
         <source>Main</source>
-        <extracomment>Not currently used (main tool bar)
-</extracomment>
+        <extracomment>Not currently used (main tool bar)</extracomment>
         <translation>Principal</translation>
     </message>
     <message>
@@ -987,7 +1124,7 @@
     </message>
     <message>
         <source>Edit</source>
-        <translation>Edición</translation>
+        <translation>Editar</translation>
     </message>
     <message>
         <source>Tools</source>
@@ -999,14 +1136,14 @@
     </message>
     <message>
         <source>Qt Widgets Designer</source>
-        <translation>Qt Widgets Designer</translation>
+        <translation>Diseñador de controles de Qt</translation>
     </message>
 </context>
 <context>
     <name>NewForm</name>
     <message>
         <source>Show this Dialog on Startup</source>
-        <translation>Mostrar este diálogo en inicio</translation>
+        <translation>Mostrar este diálogo al iniciar</translation>
     </message>
     <message>
         <source>C&amp;reate</source>
@@ -1026,7 +1163,7 @@
     </message>
     <message>
         <source>&amp;Open...</source>
-        <translation>A&amp;brir...</translation>
+        <translation>&amp;Abrir...</translation>
     </message>
     <message>
         <source>&amp;Recent Forms</source>
@@ -1037,12 +1174,20 @@
         <translation>Error de lectura</translation>
     </message>
     <message>
+        <source>A temporary form file could not be created in %1: %2</source>
+        <translation>No fue posible crear un archivo temporal de formulario en %1: %2</translation>
+    </message>
+    <message>
+        <source>The temporary form file %1 could not be written: %2</source>
+        <translation>El archivo temporal de formulario %1 no pudo ser escrito: %2</translation>
+    </message>
+    <message>
         <source>A temporary form file could not be created in %1.</source>
-        <translation>Un archivo temporal de formulario no puede ser creado en %1.</translation>
+        <translation type="vanished">Un archivo temporal de formulario no puede ser creado en %1.</translation>
     </message>
     <message>
         <source>The temporary form file %1 could not be written.</source>
-        <translation>El archivo temporal de formulario %1 no puede ser escrito.</translation>
+        <translation type="vanished">El archivo temporal de formulario %1 no puede ser escrito.</translation>
     </message>
 </context>
 <context>
@@ -1068,18 +1213,18 @@
     <name>ObjectNameDialog</name>
     <message>
         <source>Change Object Name</source>
-        <translation>Cambia el nombre de objeto</translation>
+        <translation>Cambiar nombre de objeto</translation>
     </message>
     <message>
         <source>Object Name</source>
-        <translation>Nombre de objeto</translation>
+        <translation>Nombre del objeto</translation>
     </message>
 </context>
 <context>
     <name>PluginDialog</name>
     <message>
         <source>Plugin Information</source>
-        <translation>Información de plugin</translation>
+        <translation>Información de complementos</translation>
     </message>
     <message>
         <source>1</source>
@@ -1090,7 +1235,7 @@
     <name>PreferencesDialog</name>
     <message>
         <source>Preferences</source>
-        <translation>Configuración</translation>
+        <translation>Preferencias</translation>
     </message>
 </context>
 <context>
@@ -1101,7 +1246,7 @@
     </message>
     <message>
         <source>Print/Preview Configuration</source>
-        <translation>Imprimir/previsualizar configuración</translation>
+        <translation>Configuración de impresión/previsualización</translation>
     </message>
     <message>
         <source>Style</source>
@@ -1117,15 +1262,14 @@
     </message>
     <message>
         <source>Device skin</source>
-        <translation>Piel del dispositivo</translation>
+        <translation>Decoración dispositivo</translation>
     </message>
 </context>
 <context>
     <name>PromotionModel</name>
     <message>
         <source>Not used</source>
-        <extracomment>Usage of promoted widgets
-</extracomment>
+        <extracomment>Usage of promoted widgets</extracomment>
         <translation>No usado</translation>
     </message>
 </context>
@@ -1133,19 +1277,19 @@
     <name>QAbstractFormBuilder</name>
     <message>
         <source>An error has occurred while reading the UI file at line %1, column %2: %3</source>
-        <translation>Un error ocurrió mientras se leía el archivo de interfaz en la línea %1, columna %2: %3</translation>
+        <translation>Ocurrió un error al leer el archivo de interfaz en la línea %1, columna %2: %3</translation>
     </message>
     <message>
         <source>This file was created using Designer from Qt-%1 and cannot be read.</source>
-        <translation>El archivo ha sido creado usando Designer de Qt-%1 y no puede ser leído.</translation>
+        <translation>Este archivo fue creado usando Designer de Qt-%1 y no puede ser leído.</translation>
     </message>
     <message>
         <source>This file cannot be read because it was created using %1.</source>
-        <translation>Este archivo no puede ser leído porque ha sido creado usando %1.</translation>
+        <translation>Este archivo no puede ser leído porque fue creado usando %1.</translation>
     </message>
     <message>
         <source>Invalid UI file: The root element &lt;ui&gt; is missing.</source>
-        <translation>Archivo de interfaz inválido: Falta el elemento raíz &lt;ui&gt;.</translation>
+        <translation>Archivo de interfaz inválido: Falta el elemento principal &lt;ui&gt;.</translation>
     </message>
     <message>
         <source>Invalid UI file</source>
@@ -1153,33 +1297,33 @@
     </message>
     <message>
         <source>The creation of a widget of the class &apos;%1&apos; failed.</source>
-        <translation>La creación del widget de la clase «%1» falló.</translation>
+        <translation>Error al crear control de clase «%1».</translation>
     </message>
     <message>
         <source>Attempt to add child that is not of class QWizardPage to QWizard.</source>
-        <translation>Intento de añadir un hijo que no es de la clase QWizardPage a QWizard.</translation>
+        <translation>Intento de agregar un elemento secundario a QWizard que no es de clase QWizardPage.</translation>
     </message>
     <message>
         <source>Attempt to add a layout to a widget &apos;%1&apos; (%2) which already has a layout of non-box type %3.
 This indicates an inconsistency in the ui-file.</source>
-        <translation>Intento de añadir una disposición al widgets «%1» (%2) el cuál ya tiene una disposición que no es de un tipo caja %3.
-Esto significa una inconsistencia del archivo de interfaz.</translation>
+        <translation>Intento de agregar una organización a un control «%1» (%2), que ya tiene una organización de un tipo distinto a caja %3.
+Esto indica una inconsistencia del archivo de interfaz.</translation>
     </message>
     <message>
         <source>Empty widget item in %1 &apos;%2&apos;.</source>
-        <translation>Elemento de widget vacío en %1 «%2».</translation>
+        <translation>Elemento vacío del control en %1 «%2».</translation>
     </message>
     <message>
         <source>Flags property are not supported yet.</source>
-        <translation>La propiedad flags no está soportada todavía.</translation>
+        <translation type="vanished">La propiedad flags no está soportada todavía.</translation>
     </message>
     <message>
         <source>While applying tab stops: The widget &apos;%1&apos; could not be found.</source>
-        <translation>Mientras se aplicaban las tabulaciones: El widget «%1» no puede ser encontrado.</translation>
+        <translation>Al aplicar tabulaciones: El control «%1» no pudo ser encontrado.</translation>
     </message>
     <message>
         <source>Invalid QButtonGroup reference &apos;%1&apos; referenced by &apos;%2&apos;.</source>
-        <translation>Referencia a QButtonGroup «%1» inválida referenciada por «%2».</translation>
+        <translation>Referencia de QButtonGroup «%1» inválida, referenciada por «%2».</translation>
     </message>
 </context>
 <context>
@@ -1190,14 +1334,14 @@ Esto significa una inconsistencia del archivo de interfaz.</translation>
     </message>
     <message>
         <source>ActiveX control widget</source>
-        <translation>Widget de control ActiveX</translation>
+        <translation>Control de control ActiveX</translation>
     </message>
 </context>
 <context>
     <name>QAxWidgetTaskMenu</name>
     <message>
         <source>Set Control</source>
-        <translation>Establecer control</translation>
+        <translation>Definir control</translation>
     </message>
     <message>
         <source>Reset Control</source>
@@ -1209,14 +1353,14 @@ Esto significa una inconsistencia del archivo de interfaz.</translation>
     </message>
     <message>
         <source>The control requires a design-time license</source>
-        <translation>Este control requiere una licencia de tiempo de diseño</translation>
+        <translation>Este control requiere una licencia en tiempo de diseño</translation>
     </message>
 </context>
 <context>
     <name>QCoreApplication</name>
     <message>
         <source>%1 is not a promoted class.</source>
-        <translation>%1 no es una clase promocionada.</translation>
+        <translation>%1 no es una clase promovida.</translation>
     </message>
     <message>
         <source>The base class %1 is invalid.</source>
@@ -1228,7 +1372,7 @@ Esto significa una inconsistencia del archivo de interfaz.</translation>
     </message>
     <message>
         <source>Promoted Widgets</source>
-        <translation>Widgets promocionados</translation>
+        <translation>Controles promovidos</translation>
     </message>
     <message>
         <source>The class %1 cannot be removed</source>
@@ -1244,7 +1388,7 @@ Esto significa una inconsistencia del archivo de interfaz.</translation>
     </message>
     <message>
         <source>The class %1 cannot be renamed to an empty name.</source>
-        <translation>La clase %1 no puede ser renombrada a una cadena vacía.</translation>
+        <translation>La clase %1 no puede ser renombrada a un nombre vacío.</translation>
     </message>
     <message>
         <source>There is already a class named %1.</source>
@@ -1252,31 +1396,31 @@ Esto significa una inconsistencia del archivo de interfaz.</translation>
     </message>
     <message>
         <source>Cannot set an empty include file.</source>
-        <translation>No se puede usar un nombre de archivo vacío.</translation>
+        <translation>No se puede definir un archivo include vacío.</translation>
     </message>
 </context>
 <context>
     <name>QDesigner</name>
     <message>
         <source>%1 - warning</source>
-        <translation>%1 - aviso</translation>
+        <translation>%1 - advertencia</translation>
     </message>
 </context>
 <context>
     <name>QDesignerActions</name>
     <message>
         <source>Saved %1.</source>
-        <translation>%1 salvado.</translation>
+        <translation>%1 guardado.</translation>
     </message>
     <message>
         <source>%1 already exists.
 Do you want to replace it?</source>
-        <translation>%1 ya existe.
+        <translation type="vanished">%1 ya existe.
 ¿Estás seguro de querer reemplazarlo?</translation>
     </message>
     <message>
         <source>Edit Widgets</source>
-        <translation>Editar widgets</translation>
+        <translation>Editar controles</translation>
     </message>
     <message>
         <source>&amp;New...</source>
@@ -1284,7 +1428,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>&amp;Open...</source>
-        <translation>Ab&amp;rir...</translation>
+        <translation>&amp;Abrir...</translation>
     </message>
     <message>
         <source>&amp;Save</source>
@@ -1292,11 +1436,11 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Save &amp;As...</source>
-        <translation>Guardar &amp;como...</translation>
+        <translation>Guardar c&amp;omo...</translation>
     </message>
     <message>
         <source>Save A&amp;ll</source>
-        <translation>Guardar to&amp;do</translation>
+        <translation>Guardar &amp;todo</translation>
     </message>
     <message>
         <source>Save As &amp;Template...</source>
@@ -1320,7 +1464,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>View &amp;Code...</source>
-        <translation>Ver &amp;código...</translation>
+        <translation type="vanished">Ver &amp;código...</translation>
     </message>
     <message>
         <source>&amp;Minimize</source>
@@ -1332,39 +1476,39 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Preferences...</source>
-        <translation>Configuración...</translation>
+        <translation>Preferencias...</translation>
     </message>
     <message>
         <source>Additional Fonts...</source>
-        <translation>Fuentes adicionales...</translation>
+        <translation>Tipografías adicionales...</translation>
     </message>
     <message>
         <source>ALT+CTRL+S</source>
-        <translation>ALT+CTRL+S</translation>
+        <translation>Alt+Ctrl+S</translation>
     </message>
     <message>
         <source>CTRL+SHIFT+S</source>
-        <translation>CTRL+SHIFT+S</translation>
+        <translation>Ctrl+Mayús +S</translation>
     </message>
     <message>
         <source>CTRL+R</source>
-        <translation>CTRL+R</translation>
+        <translation>Ctrl+R</translation>
     </message>
     <message>
         <source>CTRL+M</source>
-        <translation>CTRL+M</translation>
+        <translation>Ctrl+M</translation>
     </message>
     <message>
         <source>Qt Widgets Designer &amp;Help</source>
-        <translation>&amp;Ayuda de Qt Widgets Designer</translation>
+        <translation>&amp;Ayuda del diseñador de controles de Qt</translation>
     </message>
     <message>
         <source>Current Widget Help</source>
-        <translation>Ayuda del widget actual</translation>
+        <translation>Ayuda del control actual</translation>
     </message>
     <message>
         <source>About Plugins</source>
-        <translation>Acerca de los plugins</translation>
+        <translation>Acerca de complementos</translation>
     </message>
     <message>
         <source>About Qt Widgets Designer</source>
@@ -1376,7 +1520,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Clear &amp;Menu</source>
-        <translation>Borrar &amp;menú</translation>
+        <translation>Limpiar &amp;menú</translation>
     </message>
     <message>
         <source>&amp;Recent Forms</source>
@@ -1395,16 +1539,24 @@ Do you want to replace it?</source>
         <translation>Guardar formulario como</translation>
     </message>
     <message>
+        <source>View &amp;C++ Code...</source>
+        <translation>Ver código &amp;C++...</translation>
+    </message>
+    <message>
+        <source>View &amp;Python Code...</source>
+        <translation>Ver código &amp;Python...</translation>
+    </message>
+    <message>
         <source>Designer</source>
-        <translation>Designer</translation>
+        <translation>Diseñador</translation>
     </message>
     <message>
         <source>Feature not implemented yet!</source>
-        <translation>¡Prestación no implementada todavía!</translation>
+        <translation>¡Función aún no implementada!</translation>
     </message>
     <message>
         <source>Code generation failed</source>
-        <translation>La generación de código falló</translation>
+        <translation>Error al generar código</translation>
     </message>
     <message>
         <source>Read error</source>
@@ -1414,7 +1566,7 @@ Do you want to replace it?</source>
         <source>%1
 Do you want to update the file location or generate a new form?</source>
         <translation>%1
-¿Quieres actualizar la ubicación del archivo o generar un nuevo formulario?</translation>
+¿Actualizar ubicación del archivo o generar un formulario nuevo?</translation>
     </message>
     <message>
         <source>&amp;Update</source>
@@ -1422,47 +1574,61 @@ Do you want to update the file location or generate a new form?</source>
     </message>
     <message>
         <source>&amp;New Form</source>
-        <translation>Formulario &amp;nuevo</translation>
+        <translation>&amp;Nuevo formulario</translation>
     </message>
     <message>
         <source>Qt Widgets Designer</source>
-        <translation>Qt Widgets Designer</translation>
+        <translation>Diseñador de controles de Qt</translation>
     </message>
     <message>
         <source>Save Form?</source>
-        <translation>¿Quiere guardar el formulario?</translation>
+        <translation>¿Guardar formulario?</translation>
     </message>
     <message>
         <source>Could not open file</source>
-        <translation>No se ha podido abrir el archivo</translation>
+        <translation>No fue posible abrir el archivo</translation>
     </message>
     <message>
         <source>The file %1 could not be opened.
 Reason: %2
 Would you like to retry or select a different file?</source>
-        <translation>El archivo %1 no ha podido ser abierto.
-Razón: %2
-¿Desea reintentarlo o seleccionar un archivo diferente?</translation>
+        <translation>No fue posible abrir el archivo %1.
+Causa: %2
+¿Reintentarlo o seleccionar un archivo diferente?</translation>
     </message>
     <message>
         <source>Select New File</source>
         <translation>Seleccionar nuevo archivo</translation>
     </message>
     <message>
+        <source>Save Form</source>
+        <translation>Guardar formulario</translation>
+    </message>
+    <message>
         <source>Could not write file</source>
-        <translation>No se ha podido escribir el archivo</translation>
+        <translation>No fue posible escribir el archivo</translation>
+    </message>
+    <message>
+        <source>It was not possible to write the file %1 to disk.
+Reason: %2</source>
+        <translation>No fue posible escribir el archivo %1 al disco.
+Causa: %2</translation>
+    </message>
+    <message>
+        <source>The backup file %1 could not be written: %2</source>
+        <translation>El archivo de respaldo %1 no pudo ser escrito: %2</translation>
     </message>
     <message>
         <source>It was not possible to write the entire file %1 to disk.
 Reason:%2
 Would you like to retry?</source>
-        <translation>No ha sido posible escribir el archivo entero %1 al disco.
+        <translation type="vanished">No ha sido posible escribir el archivo entero %1 al disco.
 Razón: %2
 ¿Quiere reintentar?</translation>
     </message>
     <message>
         <source>Assistant</source>
-        <translation>Assistant</translation>
+        <translation>Asistente</translation>
     </message>
     <message>
         <source>&amp;Close Preview</source>
@@ -1470,19 +1636,19 @@ Razón: %2
     </message>
     <message>
         <source>The backup file %1 could not be written.</source>
-        <translation>El archivo de copia de seguridad %1 no puede ser escrito.</translation>
+        <translation type="vanished">El archivo de copia de seguridad %1 no puede ser escrito.</translation>
     </message>
     <message>
         <source>The backup directory %1 could not be created.</source>
-        <translation>El directorio de copia de seguridad %1 no puede ser creado.</translation>
+        <translation>La carpeta de respaldo %1 no pudo ser creada.</translation>
     </message>
     <message>
         <source>The temporary backup directory %1 could not be created.</source>
-        <translation>El directorio temporal de copia de seguridad %1 no puede ser creado.</translation>
+        <translation type="vanished">El directorio temporal de copia de seguridad %1 no puede ser creado.</translation>
     </message>
     <message>
         <source>Preview failed</source>
-        <translation>La previsualización ha fallado</translation>
+        <translation>Error al previsualizar</translation>
     </message>
     <message>
         <source>Image files (*.%1)</source>
@@ -1490,31 +1656,30 @@ Razón: %2
     </message>
     <message>
         <source>Save Image</source>
-        <translation>Guarda imagen</translation>
+        <translation>Guardar imagen</translation>
     </message>
     <message>
         <source>Saved image %1.</source>
-        <translation>Imagen guardada %1.</translation>
+        <translation>Imagen %1 guardada.</translation>
     </message>
     <message>
         <source>The file %1 could not be written.</source>
-        <translation>El archivo %1 no puede ser escrito.</translation>
+        <translation>El archivo %1 no pudo ser escrito.</translation>
     </message>
     <message>
         <source>Please close all forms to enable the loading of additional fonts.</source>
-        <translation>Por favor cierre todos los formularios para posibilitar la carga de tipos de letras adicionales.</translation>
+        <translation>Cerrar todos los formularios para posibilitar la carga de tipografías adicionales.</translation>
     </message>
     <message>
         <source>Printed %1.</source>
-        <translation>Impreso %1.</translation>
+        <translation>%1 impreso.</translation>
     </message>
 </context>
 <context>
     <name>QDesignerAppearanceOptionsPage</name>
     <message>
         <source>Appearance</source>
-        <extracomment>Tab in preferences dialog
-</extracomment>
+        <extracomment>Tab in preferences dialog</extracomment>
         <translation>Apariencia</translation>
     </message>
 </context>
@@ -1522,15 +1687,15 @@ Razón: %2
     <name>QDesignerAppearanceOptionsWidget</name>
     <message>
         <source>Docked Window</source>
-        <translation>Ventana acoplada</translation>
+        <translation>Paneles empotrados</translation>
     </message>
     <message>
         <source>Multiple Top-Level Windows</source>
-        <translation>Múltiples ventanas de nivel más alto</translation>
+        <translation>Múltiples ventanas flotantes</translation>
     </message>
     <message>
         <source>Toolwindow Font</source>
-        <translation>Fuente de la ventana de herramientas</translation>
+        <translation>Tipografía de ventana de herramientas</translation>
     </message>
 </context>
 <context>
@@ -1541,7 +1706,7 @@ Razón: %2
     </message>
     <message>
         <source>Set control</source>
-        <translation>Establecer control</translation>
+        <translation>Definir control</translation>
     </message>
     <message>
         <source>Control loaded</source>
@@ -1549,18 +1714,18 @@ Razón: %2
     </message>
     <message>
         <source>A COM exception occurred when executing a meta call of type %1, index %2 of &quot;%3&quot;.</source>
-        <translation>Una excepción COM ocurrió cuando se ejecutaba una meta-llamada al tipo %1, índice %2 de «%3».</translation>
+        <translation>Ocurrió una excepción COM al ejecutar una metallamada de tipo %1, índice %2 de «%3».</translation>
     </message>
 </context>
 <context>
     <name>QDesignerFormBuilder</name>
     <message>
         <source>The preview failed to build.</source>
-        <translation>La creación de la previsualización falló.</translation>
+        <translation>Error al crear previsualización.</translation>
     </message>
     <message>
         <source>Designer</source>
-        <translation>Designer</translation>
+        <translation>Diseñador</translation>
     </message>
 </context>
 <context>
@@ -1571,26 +1736,26 @@ Razón: %2
     </message>
     <message>
         <source>Save Form?</source>
-        <translation>¿Desea guardar el formulario?</translation>
+        <translation>¿Guardar el formulario?</translation>
     </message>
     <message>
         <source>Do you want to save the changes to this document before closing?</source>
-        <translation>¿Está seguro de querer guardar los cambios de este documento antes de ser cerrado?</translation>
+        <translation>¿Guardar los cambios a este documento antes de cerrarlo?</translation>
     </message>
     <message>
         <source>If you don&apos;t save, your changes will be lost.</source>
-        <translation>Si no guarda, sus cambios serán perdidos.</translation>
+        <translation>De no guardar, los cambios se perderán.</translation>
     </message>
 </context>
 <context>
     <name>QDesignerMenu</name>
     <message>
         <source>Type Here</source>
-        <translation>Escriba aquí</translation>
+        <translation>Escribir aquí</translation>
     </message>
     <message>
         <source>Add Separator</source>
-        <translation>Añadir separador</translation>
+        <translation>Agregar separador</translation>
     </message>
     <message>
         <source>Insert separator</source>
@@ -1606,7 +1771,7 @@ Razón: %2
     </message>
     <message>
         <source>Add separator</source>
-        <translation>Añadir separador</translation>
+        <translation>Agregar separador</translation>
     </message>
     <message>
         <source>Insert action</source>
@@ -1617,7 +1782,7 @@ Razón: %2
     <name>QDesignerMenuBar</name>
     <message>
         <source>Type Here</source>
-        <translation>Escriba aquí</translation>
+        <translation>Escribir aquí</translation>
     </message>
     <message>
         <source>Remove Menu &apos;%1&apos;</source>
@@ -1636,31 +1801,31 @@ Razón: %2
     <name>QDesignerPluginManager</name>
     <message>
         <source>An XML error was encountered when parsing the XML of the custom widget %1: %2</source>
-        <translation>Un error XML ha sido encontrado cuando se cargaba el XML del widget personalizado %1: %2</translation>
+        <translation>Se encontró un error de XML al analizar el XML del control personalizado %1: %2</translation>
     </message>
     <message>
         <source>A required attribute (&apos;%1&apos;) is missing.</source>
-        <translation>Un atributo requerido (%1) no ha sido encontrado.</translation>
+        <translation>Falta un atributo requerido (%1).</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a valid string property specification.</source>
-        <translation>«%1» no es una cadena de caracteres de especificación de propiedad válida.</translation>
+        <translation>«%1» no es una especificación válida de una propiedad de tipo cadena.</translation>
     </message>
     <message>
         <source>An invalid property specification (&apos;%1&apos;) was encountered. Supported types: %2</source>
-        <translation>Una especificación de propiedad (%1) inválida fue encontrada. Tipos soportados: %2</translation>
+        <translation>Se encontró una especificación inválida de propiedad (%1). Tipos soportados: %2</translation>
     </message>
     <message>
         <source>The XML of the custom widget %1 does not contain any of the elements &lt;widget&gt; or &lt;ui&gt;.</source>
-        <translation>El XML del widget personalizado %1 no puede contener los elementos &lt;widget&gt; o &lt;ui&gt;.</translation>
+        <translation>El XML del control personalizado %1 no contiene ninguno de los elementos &lt;widget&gt; o &lt;ui&gt;.</translation>
     </message>
     <message>
         <source>The class attribute for the class %1 is missing.</source>
-        <translation>Falta la clase de atributo para la clase %1.</translation>
+        <translation>Falta el atributo class para la clase %1.</translation>
     </message>
     <message>
         <source>The class attribute for the class %1 does not match the class name %2.</source>
-        <translation>La clase de atributo para la clase %1 no coincide con el nombre de la clase %2.</translation>
+        <translation>El atributo class para la clase %1 no coincide con el nombre de la clase %2.</translation>
     </message>
 </context>
 <context>
@@ -1674,42 +1839,39 @@ Razón: %2
     <name>QDesignerResource</name>
     <message>
         <source>The layout type &apos;%1&apos; is not supported, defaulting to grid.</source>
-        <translation>El tipo de disposición «%1» no está soportada, se cambiará por defecto a la cuadrícula.</translation>
+        <translation>El tipo de organización «%1» no está soportado, se usará la cuadrícula predeterminada.</translation>
     </message>
     <message>
         <source>The container extension of the widget &apos;%1&apos; (%2) returned a widget not managed by Designer &apos;%3&apos; (%4) when queried for page #%5.
 Container pages should only be added by specifying them in XML returned by the domXml() method of the custom widget.</source>
-        <translation>La extensión del contenedor del widget «%1» (%2) retornó un widget que no está administrado por Designer «%3» (%4) cuando se pedía la página #%5
-Las páginas de contenedor deben de ser añadidas especificándolas en el XML devuelto por el método domXml() del widget personalizado.</translation>
+        <translation>La extensión contenedor del control «%1» (%2) devolvió un control que no está administrado por Designer «%3» (%4) cuando se solicitó la página #%5
+Las páginas de contenedor sólo deben de ser agregadas especificándolas en el XML devuelto por el método domXml() del control personalizado.</translation>
     </message>
     <message>
         <source>Unexpected element &lt;%1&gt;</source>
-        <extracomment>Parsing clipboard contents
-</extracomment>
+        <extracomment>Parsing clipboard contents</extracomment>
         <translation>Elemento inesperado &lt;%1&gt;</translation>
     </message>
     <message>
         <source>Error while pasting clipboard contents at line %1, column %2: %3</source>
-        <extracomment>Parsing clipboard contents
-</extracomment>
-        <translation>Error mientras se pegaba el contenido del cortapapeles en la línea %1, columna %2: %3</translation>
+        <extracomment>Parsing clipboard contents</extracomment>
+        <translation>Error al pegar el contenido del portapapeles en la línea %1, columna %2: %3</translation>
     </message>
     <message>
         <source>Error while pasting clipboard contents: The root element &lt;ui&gt; is missing.</source>
-        <extracomment>Parsing clipboard contents
-</extracomment>
-        <translation>Error mientras se pegaba el contenido del portapapeles. El elemento raíz &lt;ui&gt; falta.</translation>
+        <extracomment>Parsing clipboard contents</extracomment>
+        <translation>Error al pegar el contenido del portapapeles. Falta el elemento principal &lt;ui&gt;.</translation>
     </message>
 </context>
 <context>
     <name>QDesignerSharedSettings</name>
     <message>
         <source>The template path %1 could not be created.</source>
-        <translation>La ubicación de la plantilla %1 no puede ser creada.</translation>
+        <translation>La ruta de la plantilla %1 no pudo ser creada.</translation>
     </message>
     <message>
         <source>An error has been encountered while parsing device profile XML: %1</source>
-        <translation>Un error fue encontrado cuando se cargaba el perfil XML del dispositivo: %1</translation>
+        <translation>Se encontró un error al analizar el XML de perfil del dispositivo: %1</translation>
     </message>
 </context>
 <context>
@@ -1732,11 +1894,11 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Signal/Slot Editor</source>
-        <translation>Editor de señales/slots</translation>
+        <translation>Editor de señales/ranuras</translation>
     </message>
     <message>
         <source>Widget Box</source>
-        <translation>Caja de widgets</translation>
+        <translation>Lista de controles</translation>
     </message>
 </context>
 <context>
@@ -1759,11 +1921,11 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>&amp;View</source>
-        <translation>&amp;Vista</translation>
+        <translation>&amp;Ver</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>Con&amp;figuración</translation>
+        <translation>Preferencia&amp;s</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1779,11 +1941,11 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Widget Box</source>
-        <translation>Caja de widgets</translation>
+        <translation>Lista de controles</translation>
     </message>
     <message>
         <source>Save Forms?</source>
-        <translation>¿Quiere guardar los formularios?</translation>
+        <translation>¿Guardar los formularios?</translation>
     </message>
     <message numerus="yes">
         <source>There are %n forms with unsaved changes. Do you want to review these changes before quitting?</source>
@@ -1821,45 +1983,52 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     <name>QFormBuilder</name>
     <message>
         <source>An empty class name was passed on to %1 (object name: &apos;%2&apos;).</source>
-        <extracomment>Empty class name passed to widget factory method
-</extracomment>
+        <extracomment>Empty class name passed to widget factory method</extracomment>
         <translation>Un nombre de clase vacía ha sido pasado a %1 (nombre de objeto «%2»).</translation>
     </message>
     <message>
         <source>QFormBuilder was unable to create a custom widget of the class &apos;%1&apos;; defaulting to base class &apos;%2&apos;.</source>
-        <translation>QFormBuilder no pudo crear un widget personalizado de la clase «%1», se ha pasado a la clase base «%2».</translation>
+        <translation>QFormBuilder no pudo crear un control personalizado de clase «%1», se ha pasado a la clase base «%2».</translation>
     </message>
     <message>
         <source>QFormBuilder was unable to create a widget of the class &apos;%1&apos;.</source>
-        <translation>QFormBuilder no pudo crear un widget la clase «%1».</translation>
+        <translation>QFormBuilder no pudo crear un control de clase «%1».</translation>
     </message>
     <message>
         <source>The layout type `%1&apos; is not supported.</source>
-        <translation>La disposición de tipo «%1» no está soportado.</translation>
+        <translation>La organización de tipo «%1» no está soportada.</translation>
     </message>
     <message>
         <source>The set-type property %1 could not be read.</source>
-        <translation>La propiedad de tipo set %1 no puede ser leída.</translation>
+        <translation>La propiedad %1 de tipo set no pudo ser leída.</translation>
+    </message>
+    <message>
+        <source>The value &quot;%1&quot; of the set-type property %2 could not be read.</source>
+        <translation>El valor &quot;%1&quot; de la propiedad de tipo set %2 no pudo ser leído.</translation>
     </message>
     <message>
         <source>The enumeration-type property %1 could not be read.</source>
-        <translation>La propiedad de tipo enumeración %1 no puede ser leída.</translation>
+        <translation>La propiedad de tipo enumeración %1 no pudo ser leída.</translation>
+    </message>
+    <message>
+        <source>The value &quot;%1&quot; of the enum-type property %2 could not be read.</source>
+        <translation>EL valor &quot;%1&quot; de la propiedad de tipo enum %2 no pudo ser leída.</translation>
     </message>
     <message>
         <source>Reading properties of the type %1 is not supported yet.</source>
-        <translation>Leer propiedades de tipo %1 no está soportado todavía.</translation>
+        <translation>La lectura de propiedades de tipo %1 no está soportada todavía.</translation>
     </message>
     <message>
         <source>The property %1 could not be written. The type %2 is not supported yet.</source>
-        <translation>La propiedad %1 no puede ser escrita. El tipo %2 no está soportado todavía.</translation>
+        <translation>La propiedad %1 no pudo ser escrita. El tipo %2 no está soportado todavía.</translation>
     </message>
     <message>
         <source>The enumeration-value &apos;%1&apos; is invalid. The default value &apos;%2&apos; will be used instead.</source>
-        <translation>El valor de enumeración «%1» es inválido. El valor por defecto «%2» será usado en su lugar.</translation>
+        <translation>El valor de enumeración «%1» es inválido. Se usará en su lugar el valor predeterminado «%2».</translation>
     </message>
     <message>
         <source>The flag-value &apos;%1&apos; is invalid. Zero will be used instead.</source>
-        <translation>El valor de tipo flag «%1» es inválido. El cero será usado en su lugar.</translation>
+        <translation>El valor de indicador «%1» es inválido. Se usará cero en su lugar.</translation>
     </message>
 </context>
 <context>
@@ -1874,7 +2043,7 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Delete</source>
-        <translation>Eliminar</translation>
+        <translation>Borrar</translation>
     </message>
     <message>
         <source>Before Current Page</source>
@@ -1882,15 +2051,15 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>After Current Page</source>
-        <translation>Tras la página actual</translation>
+        <translation>Después de la página actual</translation>
     </message>
     <message>
         <source>Change Page Order...</source>
-        <translation>Cambiar el orden de la página...</translation>
+        <translation>Cambiar orden de páginas...</translation>
     </message>
     <message>
         <source>Change Page Order</source>
-        <translation>Cambiar el orden de la página</translation>
+        <translation>Cambiar orden de páginas</translation>
     </message>
     <message>
         <source>Page %1 of %2</source>
@@ -1898,7 +2067,7 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Insert Page</source>
-        <translation>Insertar Página</translation>
+        <translation>Insertar página</translation>
     </message>
 </context>
 <context>
@@ -1916,7 +2085,7 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     <name>QTabWidgetEventFilter</name>
     <message>
         <source>Delete</source>
-        <translation>Eliminar</translation>
+        <translation>Borrar</translation>
     </message>
     <message>
         <source>Before Current Page</source>
@@ -1924,7 +2093,7 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>After Current Page</source>
-        <translation>Tras la página actual</translation>
+        <translation>Después de la página actual</translation>
     </message>
     <message>
         <source>Page %1 of %2</source>
@@ -1932,14 +2101,14 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Insert Page</source>
-        <translation>Insertar Página</translation>
+        <translation>Insertar página</translation>
     </message>
 </context>
 <context>
     <name>QToolBoxHelper</name>
     <message>
         <source>Delete Page</source>
-        <translation>Eliminar Página</translation>
+        <translation>Borrar página</translation>
     </message>
     <message>
         <source>Before Current Page</source>
@@ -1947,15 +2116,15 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>After Current Page</source>
-        <translation>Tras la página actual</translation>
+        <translation>Después de la página actual</translation>
     </message>
     <message>
         <source>Change Page Order...</source>
-        <translation>Cambiar el orden de la página...</translation>
+        <translation>Cambiar orden de páginas...</translation>
     </message>
     <message>
         <source>Change Page Order</source>
-        <translation>Cambiar el orden de la página</translation>
+        <translation>Cambiar orden de páginas</translation>
     </message>
     <message>
         <source>Page %1 of %2</source>
@@ -1963,7 +2132,7 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Insert Page</source>
-        <translation>Insertar Página</translation>
+        <translation>Insertar página</translation>
     </message>
 </context>
 <context>
@@ -1992,7 +2161,7 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     <name>QtCharEdit</name>
     <message>
         <source>Clear Char</source>
-        <translation>Borrar carácter</translation>
+        <translation>Borrar caracter</translation>
     </message>
 </context>
 <context>
@@ -2018,7 +2187,7 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Alpha</source>
-        <translation>Alpha</translation>
+        <translation>Alfa</translation>
     </message>
 </context>
 <context>
@@ -2029,7 +2198,7 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Up Arrow</source>
-        <translation>Flecha hacia arriba</translation>
+        <translation>Flecha (arriba)</translation>
     </message>
     <message>
         <source>Cross</source>
@@ -2037,43 +2206,43 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Wait</source>
-        <translation>Esperar</translation>
+        <translation>Ocupado</translation>
     </message>
     <message>
         <source>IBeam</source>
-        <translation>Viga en I</translation>
+        <translation>Cursor de texto</translation>
     </message>
     <message>
         <source>Size Vertical</source>
-        <translation>Tamaño vertical</translation>
+        <translation>Tamaño (vertical)</translation>
     </message>
     <message>
         <source>Size Horizontal</source>
-        <translation>Tamaño horizontal</translation>
+        <translation>Tamaño (horizontal)</translation>
     </message>
     <message>
         <source>Size Backslash</source>
-        <translation>Tamaño de barra invertida</translation>
+        <translation>Tamaño (diagonal invertida)</translation>
     </message>
     <message>
         <source>Size Slash</source>
-        <translation>Tamaño de barra</translation>
+        <translation>Tamaño (diagonal)</translation>
     </message>
     <message>
         <source>Size All</source>
-        <translation>Tamaño de todo</translation>
+        <translation>Tamaño (todo)</translation>
     </message>
     <message>
         <source>Blank</source>
-        <translation>Blanco</translation>
+        <translation>Oculto</translation>
     </message>
     <message>
         <source>Split Vertical</source>
-        <translation>Dividir en vertical</translation>
+        <translation>División (vertical)</translation>
     </message>
     <message>
         <source>Split Horizontal</source>
-        <translation>Dividir en horizontal</translation>
+        <translation>División (horizontal)</translation>
     </message>
     <message>
         <source>Pointing Hand</source>
@@ -2085,11 +2254,11 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Open Hand</source>
-        <translation>Mano abierta</translation>
+        <translation>Mano (abierta)</translation>
     </message>
     <message>
         <source>Closed Hand</source>
-        <translation>Mano cerrada</translation>
+        <translation>Mano (cerrada)</translation>
     </message>
     <message>
         <source>What&apos;s This</source>
@@ -2097,7 +2266,7 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Busy</source>
-        <translation>Ocupado</translation>
+        <translation>Flecha (ocupado)</translation>
     </message>
 </context>
 <context>
@@ -2108,7 +2277,7 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Select Font</source>
-        <translation>Seleccionar tipo de letras</translation>
+        <translation>Seleccionar tipografía</translation>
     </message>
 </context>
 <context>
@@ -2119,10 +2288,15 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Point Size</source>
-        <translation>Tamaño de punto</translation>
+        <translation>Tamaño</translation>
     </message>
     <message>
         <source>Bold</source>
+        <translation type="vanished">Negrita</translation>
+    </message>
+    <message>
+        <source>Bold</source>
+        <comment>Bold toggle</comment>
         <translation>Negrita</translation>
     </message>
     <message>
@@ -2140,6 +2314,10 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     <message>
         <source>Kerning</source>
         <translation>Espacio entre letras</translation>
+    </message>
+    <message>
+        <source>Weight</source>
+        <translation>Peso</translation>
     </message>
 </context>
 <context>
@@ -2161,7 +2339,7 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>This area shows a preview of the gradient being edited. It also allows you to edit parameters specific to the gradient&apos;s type such as start and final point, radius, etc. by drag &amp; drop.</source>
-        <translation>Este área muestra una previsualización del gradiente que está siendo editado. Esto le permite editar los parámetros especificando los tipos de gradientes, así como puntos inicial y final, radio, etc. Usando arrastrar y soltar.</translation>
+        <translation>Este área muestra una previsualización del gradiente que está siendo editado. También permite editar parámetros específicos del tipo de gradiente escogido, tales como los puntos inicial y final, radio, etc.</translation>
     </message>
     <message>
         <source>1</source>
@@ -2185,19 +2363,19 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Gradient Stops Editor</source>
-        <translation>Editor de puntos de gradiente</translation>
+        <translation>Editor de paradas del gradiente</translation>
     </message>
     <message>
         <source>This area allows you to edit gradient stops. Double click on the existing stop handle to duplicate it. Double click outside of the existing stop handles to create a new stop. Drag &amp; drop the handle to reposition it. Use right mouse button to popup context menu with extra actions.</source>
-        <translation>Este área le permite editar los puntos del gradiente. Haga doble click en un punto existente para duplicarlo. Haga doble click fuera de un punto existente para crear un nuevo punto. Arrastre un punto para moverlo. Use el botón derecho del ratón para mostrar el menú contextual con acciones extra.</translation>
+        <translation>Este área permite editar las paradas de color del gradiente. Hacer doble clic sobre el asa de una parada existente para duplicarla. Hacer doble clic fuera de las asas para crear una nueva parada. Arrastrar un asa para moverla. Usar el botón derecho del ratón para desplegar el menú contextual con acciones adicionales.</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation>Enfocar</translation>
+        <translation>Ampliación</translation>
     </message>
     <message>
         <source>Reset Zoom</source>
-        <translation>Restablecer zoom</translation>
+        <translation>Restablecer ampliación</translation>
     </message>
     <message>
         <source>Position</source>
@@ -2205,11 +2383,11 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Hue</source>
-        <translation>Color</translation>
+        <translation>Tono</translation>
     </message>
     <message>
         <source>H</source>
-        <translation>H</translation>
+        <translation>T</translation>
     </message>
     <message>
         <source>Saturation</source>
@@ -2241,7 +2419,7 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>A</source>
-        <translation>A</translation>
+        <translation>α</translation>
     </message>
     <message>
         <source>Type</source>
@@ -2249,7 +2427,7 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Spread</source>
-        <translation>Dispersión</translation>
+        <translation>Extrapolación</translation>
     </message>
     <message>
         <source>Color</source>
@@ -2257,27 +2435,27 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Current stop&apos;s color</source>
-        <translation>Puntos de color actuales</translation>
+        <translation>Color de la parada actual</translation>
     </message>
     <message>
         <source>Show HSV specification</source>
-        <translation>Mostrar especificación HSV</translation>
+        <translation>Mostrar modelo TSV</translation>
     </message>
     <message>
         <source>HSV</source>
-        <translation>HSV</translation>
+        <translation>TSV</translation>
     </message>
     <message>
         <source>Show RGB specification</source>
-        <translation>Mostrar especificación RGB</translation>
+        <translation>Mostrar modelo RVA</translation>
     </message>
     <message>
         <source>RGB</source>
-        <translation>RGB</translation>
+        <translation>RVA</translation>
     </message>
     <message>
         <source>Current stop&apos;s position</source>
-        <translation>Puntos de control actuales</translation>
+        <translation>Posición de la parada actual</translation>
     </message>
     <message>
         <source>%</source>
@@ -2285,15 +2463,15 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Zoom In</source>
-        <translation>Acercar</translation>
+        <translation>Ampliar</translation>
     </message>
     <message>
         <source>Zoom Out</source>
-        <translation>Alejar</translation>
+        <translation>Reducir</translation>
     </message>
     <message>
         <source>Toggle details extension</source>
-        <translation>Alternar extensión de detalles</translation>
+        <translation>Alternar panel de detalles</translation>
     </message>
     <message>
         <source>&gt;</source>
@@ -2301,7 +2479,7 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Linear Type</source>
-        <translation>Tipo lineal</translation>
+        <translation>Lineal</translation>
     </message>
     <message>
         <source>...</source>
@@ -2309,39 +2487,39 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Radial Type</source>
-        <translation>Tipo radial</translation>
+        <translation>Radial</translation>
     </message>
     <message>
         <source>Conical Type</source>
-        <translation>Tipo cónico</translation>
+        <translation>Cónico</translation>
     </message>
     <message>
         <source>Pad Spread</source>
-        <translation>Tampón de distorsión</translation>
+        <translation>Extrapolación: Color final</translation>
     </message>
     <message>
         <source>Repeat Spread</source>
-        <translation>Repetir distorsión</translation>
+        <translation>Extrapolación: Repetir</translation>
     </message>
     <message>
         <source>Reflect Spread</source>
-        <translation>Reflejar distorsión</translation>
+        <translation>Extrapolación: Reflejar</translation>
     </message>
     <message>
         <source>Start X</source>
-        <translation>Posición X de inicio</translation>
+        <translation>Inicio X</translation>
     </message>
     <message>
         <source>Start Y</source>
-        <translation>Posición Y de inicio</translation>
+        <translation>Inicio Y</translation>
     </message>
     <message>
         <source>Final X</source>
-        <translation>Posición X de final</translation>
+        <translation>Fin X</translation>
     </message>
     <message>
         <source>Final Y</source>
-        <translation>Posición Y de final</translation>
+        <translation>Fin Y</translation>
     </message>
     <message>
         <source>Central X</source>
@@ -2381,7 +2559,7 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Pad</source>
-        <translation>Tampón</translation>
+        <translation>Color</translation>
     </message>
     <message>
         <source>Repeat</source>
@@ -2396,11 +2574,11 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     <name>QtGradientStopsWidget</name>
     <message>
         <source>New Stop</source>
-        <translation>Nuevo punto</translation>
+        <translation>Nueva parada</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Eliminar</translation>
+        <translation>Borrar</translation>
     </message>
     <message>
         <source>Flip All</source>
@@ -2412,22 +2590,22 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Zoom In</source>
-        <translation>Acercar</translation>
+        <translation>Ampliar</translation>
     </message>
     <message>
         <source>Zoom Out</source>
-        <translation>Alejar</translation>
+        <translation>Reducir</translation>
     </message>
     <message>
         <source>Reset Zoom</source>
-        <translation>Restablecer zoom</translation>
+        <translation>Restablecer ampliación</translation>
     </message>
 </context>
 <context>
     <name>QtGradientView</name>
     <message>
         <source>Gradient View</source>
-        <translation>Vista de gradiente</translation>
+        <translation>Vista del gradiente</translation>
     </message>
     <message>
         <source>New...</source>
@@ -2455,7 +2633,7 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Are you sure you want to remove the selected gradient?</source>
-        <translation>¿Está seguro de que desea eliminar el gradiente seleccionado?</translation>
+        <translation>¿Seguro eliminar el gradiente seleccionado?</translation>
     </message>
 </context>
 <context>
@@ -2480,8 +2658,12 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
         <translation>Idioma</translation>
     </message>
     <message>
+        <source>Territory</source>
+        <translation>Territorio</translation>
+    </message>
+    <message>
         <source>Country</source>
-        <translation>País</translation>
+        <translation type="vanished">País</translation>
     </message>
 </context>
 <context>
@@ -2545,7 +2727,7 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Height</source>
-        <translation>Alto</translation>
+        <translation>Altura</translation>
     </message>
 </context>
 <context>
@@ -2568,7 +2750,7 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
     </message>
     <message>
         <source>Height</source>
-        <translation>Alto</translation>
+        <translation>Altura</translation>
     </message>
 </context>
 <context>
@@ -2613,19 +2795,19 @@ Las páginas de contenedor deben de ser añadidas especificándolas en el XML de
         <source>%1 already exists.
 Do you want to replace it?</source>
         <translation>%1 ya existe.
-¿Está seguro de querer reemplazarlo?</translation>
+¿Reemplazarlo?</translation>
     </message>
     <message>
         <source>The file does not appear to be a resource file; element &apos;%1&apos; was found where &apos;%2&apos; was expected.</source>
-        <translation>El archivo no parece ser un archivo de recurso, el elemento «%1» fue encontrado donde se esperaba «%2».</translation>
+        <translation>El archivo no parece ser un archivo de recurso, se encontró el elemento «%1» donde se esperaba «%2».</translation>
     </message>
     <message>
         <source>%1 [read-only]</source>
-        <translation>%1 [sólo-lectura]</translation>
+        <translation>%1 [sólo_lectura]</translation>
     </message>
     <message>
         <source>%1 [missing]</source>
-        <translation>%1 [no-encontrado]</translation>
+        <translation>%1 [no_encontrado]</translation>
     </message>
     <message>
         <source>&lt;no prefix&gt;</source>
@@ -2645,19 +2827,19 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>newPrefix</source>
-        <translation>prefijoNuevo</translation>
+        <translation>nuevoPrefijo</translation>
     </message>
     <message>
         <source>&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; The file&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;is outside of the current resource file&apos;s parent directory.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;b&gt;Atención:&lt;/b&gt; El archivo&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;está fuera del directorio padre del archivo de recurso.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;&lt;b&gt;Advertencia:&lt;/b&gt; El archivo&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;está fuera de la carpeta superior del archivo del recurso actual.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;To resolve the issue, press:&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Copy&lt;/th&gt;&lt;td&gt;to copy the file to the resource file&apos;s parent directory.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Copy As...&lt;/th&gt;&lt;td&gt;to copy the file into a subdirectory of the resource file&apos;s parent directory.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Keep&lt;/th&gt;&lt;td&gt;to use its current location.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</source>
-        <translation>&lt;p&gt;Para resolver este problema, presione:&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Copiar&lt;/th&gt;&lt;td&gt;para copiar el archivo al directorio padre del archivo de recursos.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Copiar como...&lt;/th&gt;&lt;td&gt;para copiar el archivo dentro de un subdirectorio del directorio padre del archivo de recursos&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Mantener&lt;/th&gt;&lt;td&gt;para usar su ubicación actual.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</translation>
+        <translation>&lt;p&gt;Para resolver este asunto, pulsar:&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Copiar&lt;/th&gt;&lt;td&gt;para copiar el archivo a la carpeta superior del archivo de recursos. &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Copiar como...&lt;/th&gt;&lt;td&gt;para copiar el archivo dentro de una subcarpeta de la carpeta superior del archivo de recursos &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Mantener&lt;/th&gt;&lt;td&gt;para usar su ubicación actual.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</translation>
     </message>
     <message>
         <source>Add Files</source>
-        <translation>Añadir archivos</translation>
+        <translation>Agregar archivos</translation>
     </message>
     <message>
         <source>Incorrect Path</source>
@@ -2677,7 +2859,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Skip</source>
-        <translation>Saltar</translation>
+        <translation>Omitir</translation>
     </message>
     <message>
         <source>Clone Prefix</source>
@@ -2686,8 +2868,8 @@ Do you want to replace it?</source>
     <message>
         <source>Enter the suffix which you want to add to the names of the cloned files.
 This could for example be a language extension like &quot;_de&quot;.</source>
-        <translation>Introduzca el sufijo que quiere añadir a los nombres de los archivos clonados.
-Este puede ser por ejemplo una extensión de idioma como por ejemplo «_de».</translation>
+        <translation>Introducir el sufijo que se desee añadir a los nombres de los archivos clonados.
+Este podría ser, por ejemplo, la extensión de un idioma, tal como «_es».</translation>
     </message>
     <message>
         <source>Copy As</source>
@@ -2695,18 +2877,18 @@ Este puede ser por ejemplo una extensión de idioma como por ejemplo «_de».</t
     </message>
     <message>
         <source>&lt;p&gt;The selected file:&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;is outside of the current resource file&apos;s directory:&lt;/p&gt;&lt;p&gt;%2&lt;/p&gt;&lt;p&gt;Please select another path within this directory.&lt;p&gt;</source>
-        <translation>&lt;p&gt;El archivo seleccionado:&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;está fuera del directorio padre del recurso:&lt;/p&gt;&lt;p&gt;%2&lt;/p&gt;&lt;p&gt;Por favor seleccione una ubicación dentro de este directorio.&lt;p&gt;</translation>
+        <translation>&lt;p&gt;El archivo seleccionado:&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;está fuera de la carpeta superior del recurso actual:&lt;/p&gt;&lt;p&gt;%2&lt;/p&gt;&lt;p&gt; Seleccionar otra ruta dentro de dicha carpeta.&lt;p&gt;</translation>
     </message>
     <message>
         <source>Could not overwrite %1.</source>
-        <translation>No se puede sobrescribir %1.</translation>
+        <translation>No fue posible sobrescribir %1.</translation>
     </message>
     <message>
         <source>Could not copy
 %1
 to
 %2</source>
-        <translation>No se puede copiar
+        <translation>No fue posible copiar
 %1
 a
 %2</translation>
@@ -2714,7 +2896,7 @@ a
     <message>
         <source>A parse error occurred at line %1, column %2 of %3:
 %4</source>
-        <translation>Un error de sintaxis ocurrió en la línea %1, columna %2 de %3:
+        <translation>Ocurrió un error al analizar la línea %1, columna %2 de %3:
 %4</translation>
     </message>
     <message>
@@ -2723,7 +2905,7 @@ a
     </message>
     <message>
         <source>Could not write %1: %2</source>
-        <translation>No se puede escribir %1: %2</translation>
+        <translation>No fue posible escribir %1: %2</translation>
     </message>
     <message>
         <source>Edit Resources</source>
@@ -2755,11 +2937,11 @@ a
     </message>
     <message>
         <source>Add Prefix</source>
-        <translation>Añadir prefijo</translation>
+        <translation>Agregar prefijo</translation>
     </message>
     <message>
         <source>Add Files...</source>
-        <translation>Añadir archivos...</translation>
+        <translation>Agregar archivos...</translation>
     </message>
     <message>
         <source>Change Prefix</source>
@@ -2779,15 +2961,15 @@ a
     </message>
     <message>
         <source>Prefix / Path</source>
-        <translation>Prefijo / ruta</translation>
+        <translation>Prefijo / Ruta</translation>
     </message>
     <message>
         <source>Language / Alias</source>
-        <translation>Idioma / alias</translation>
+        <translation>Idioma / Alias</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; There have been problems while reloading the resources:&lt;/p&gt;&lt;pre&gt;%1&lt;/pre&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;p&gt;&lt;b&gt;Atención:&lt;/b&gt; Ha habido problemas mientras se recargaban los recursos:&lt;/p&gt;&lt;pre&gt;%1&lt;/pre&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;p&gt;&lt;b&gt;Advertencia:&lt;/b&gt; Hubo problemas al recargar los recursos:&lt;/p&gt;&lt;pre&gt;%1&lt;/pre&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Resource Warning</source>
@@ -2838,14 +3020,14 @@ a
     </message>
     <message>
         <source>Height</source>
-        <translation>Alto</translation>
+        <translation>Altura</translation>
     </message>
 </context>
 <context>
     <name>QtSizePolicyPropertyManager</name>
     <message>
         <source>&lt;Invalid&gt;</source>
-        <translation>&lt;Inválido&gt;</translation>
+        <translation>&lt;inválido&gt;</translation>
     </message>
     <message>
         <source>[%1, %2, %3, %4]</source>
@@ -2861,11 +3043,11 @@ a
     </message>
     <message>
         <source>Horizontal Stretch</source>
-        <translation>Ajuste horizontal</translation>
+        <translation>Estiramiento horizontal</translation>
     </message>
     <message>
         <source>Vertical Stretch</source>
-        <translation>Ajuste vertical</translation>
+        <translation>Estiramiento vertical</translation>
     </message>
 </context>
 <context>
@@ -2880,7 +3062,7 @@ a
     </message>
     <message>
         <source>Height</source>
-        <translation>Alto</translation>
+        <translation>Altura</translation>
     </message>
 </context>
 <context>
@@ -2903,11 +3085,11 @@ a
     </message>
     <message>
         <source>Add new toolbar</source>
-        <translation>Añadir nueva barra de herramientas</translation>
+        <translation>Agregar nueva barra de herramientas</translation>
     </message>
     <message>
         <source>New</source>
-        <translation>Nuevo</translation>
+        <translation>Nueva</translation>
     </message>
     <message>
         <source>Remove selected toolbar</source>
@@ -2919,11 +3101,11 @@ a
     </message>
     <message>
         <source>Rename toolbar</source>
-        <translation>Renombrar barra de herramientas</translation>
+        <translation>Cambiar nombre a barra de herramientas</translation>
     </message>
     <message>
         <source>Rename</source>
-        <translation>Renombrar</translation>
+        <translation>Cambiar nombre</translation>
     </message>
     <message>
         <source>Move action up</source>
@@ -2931,11 +3113,11 @@ a
     </message>
     <message>
         <source>Up</source>
-        <translation>Arriba</translation>
+        <translation>Subir</translation>
     </message>
     <message>
         <source>Remove action from toolbar</source>
-        <translation>Eliminar acción de la barra de herramientas</translation>
+        <translation>Eliminar acción de barra de herramientas</translation>
     </message>
     <message>
         <source>&lt;-</source>
@@ -2943,7 +3125,7 @@ a
     </message>
     <message>
         <source>Add action to toolbar</source>
-        <translation>Añadir acción a la barra de herramientas</translation>
+        <translation>Agregar acción a barra de herramientas</translation>
     </message>
     <message>
         <source>-&gt;</source>
@@ -2955,11 +3137,11 @@ a
     </message>
     <message>
         <source>Down</source>
-        <translation>Abajo</translation>
+        <translation>Bajar</translation>
     </message>
     <message>
         <source>Current Toolbar Actions</source>
-        <translation>Acciones actuales de la barra de herramientas</translation>
+        <translation>Acciones de barra de herramientas actual</translation>
     </message>
     <message>
         <source>Custom Toolbar</source>
@@ -2997,17 +3179,17 @@ a
     </message>
     <message>
         <source>Add path...</source>
-        <translation>Añadir ruta...</translation>
+        <translation>Agregar ruta...</translation>
     </message>
     <message>
         <source>Template Exists</source>
-        <translation>La plantilla existe</translation>
+        <translation>La plantilla ya existe</translation>
     </message>
     <message>
         <source>A template with the name %1 already exists.
 Do you want overwrite the template?</source>
-        <translation>Una plantilla con nombre %1 ya existe.
-¿Quiere sobrescribir la plantilla?</translation>
+        <translation>Ya existe una plantilla con el nombre %1.
+¿Sobrescribirla?</translation>
     </message>
     <message>
         <source>Overwrite Template</source>
@@ -3019,7 +3201,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>There was an error opening template %1 for writing. Reason: %2</source>
-        <translation>Ha habido un error abriendo la plantilla %1 para escritura. La razón es: %2</translation>
+        <translation>Hubo un error al abrir la plantilla %1 para escritura. Causa: %2</translation>
     </message>
     <message>
         <source>Write Error</source>
@@ -3027,22 +3209,22 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>There was an error writing the template %1 to disk. Reason: %2</source>
-        <translation>Ha habido un error escribiendo la plantilla %1 en el disco. La razón es: %2</translation>
+        <translation>Hubo un error al escribir la plantilla %1 en el disco. Causa: %2</translation>
     </message>
     <message>
         <source>Pick a directory to save templates in</source>
-        <translation>Seleccione un directorio donde guardar las plantillas</translation>
+        <translation>Escoger una carpeta donde guardar las plantillas</translation>
     </message>
 </context>
 <context>
     <name>SelectSignalDialog</name>
     <message>
         <source>Go to slot</source>
-        <translation>Ir al slot</translation>
+        <translation>Ir a ranura</translation>
     </message>
     <message>
         <source>Select signal</source>
-        <translation>Seleccionar la señal</translation>
+        <translation>Seleccionar señal</translation>
     </message>
     <message>
         <source>signal</source>
@@ -3057,22 +3239,22 @@ Do you want overwrite the template?</source>
     <name>SignalSlotConnection</name>
     <message>
         <source>SENDER(%1), SIGNAL(%2), RECEIVER(%3), SLOT(%4)</source>
-        <translation>EMISOR(%1), SEÑAL(%2), RECEPTOR(%3), SLOT(%4)</translation>
+        <translation>EMISOR(%1), SEÑAL(%2), RECEPTOR(%3), RANURA(%4)</translation>
     </message>
 </context>
 <context>
     <name>SignalSlotDialogClass</name>
     <message>
         <source>Signals and slots</source>
-        <translation>Señales y slots</translation>
+        <translation>Señales y ranuras</translation>
     </message>
     <message>
         <source>Slots</source>
-        <translation>Slots</translation>
+        <translation>Ranuras</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation>Añadir</translation>
+        <translation>Agregar</translation>
     </message>
     <message>
         <source>...</source>
@@ -3080,7 +3262,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Eliminar</translation>
+        <translation>Borrar</translation>
     </message>
     <message>
         <source>Signals</source>
@@ -3102,8 +3284,7 @@ Do you want overwrite the template?</source>
     <name>TemplateOptionsPage</name>
     <message>
         <source>Template Paths</source>
-        <extracomment>Tab in preferences dialog
-</extracomment>
+        <extracomment>Tab in preferences dialog</extracomment>
         <translation>Rutas de plantillas</translation>
     </message>
 </context>
@@ -3127,7 +3308,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Dock views</source>
-        <translation>Vista de acoples</translation>
+        <translation>Empotrar vistas</translation>
     </message>
     <message>
         <source>File</source>
@@ -3135,7 +3316,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Edición</translation>
+        <translation>Editar</translation>
     </message>
     <message>
         <source>Tools</source>
@@ -3158,40 +3339,48 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Qt Widgets Designer</source>
-        <translation>Qt Widgets Designer</translation>
+        <translation>Diseñador de controles de Qt</translation>
     </message>
     <message>
         <source>&lt;br/&gt;Qt Widgets Designer is a graphical user interface designer for Qt applications.&lt;br/&gt;</source>
-        <translation>&lt;br/&gt;Qt Widgets Designer es un diseñador de interfaces gráficas de usuario para aplicaciones Qt.&lt;br/&gt;</translation>
+        <translation>&lt;br/&gt;El Diseñador de Controles de Qt es un diseñador de interfaces gráficas de usuario para aplicaciones Qt.&lt;br/&gt;</translation>
+    </message>
+    <message>
+        <source>%1&lt;br/&gt;Copyright (C) The Qt Company Ltd. and other contributors.</source>
+        <translation>%1&lt;br/&gt;Copyright (C) The Qt Company Ltd. y otros contribuyentes.</translation>
     </message>
     <message>
         <source>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</source>
-        <translation>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</translation>
+        <translation type="vanished">%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</translation>
     </message>
 </context>
 <context>
     <name>WidgetDataBase</name>
     <message>
         <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
-        <translation>Un widget personalizado cuyo nombre de clase (%1) coincide con el nombre de una clase existente ha sido encontrado.</translation>
+        <translation type="vanished">Un widget personalizado cuyo nombre de clase (%1) coincide con el nombre de una clase existente ha sido encontrado.</translation>
+    </message>
+    <message>
+        <source>Abstract base class that cannot be instantiated. For promotion/custom widget usage only.</source>
+        <translation>Clase abstracta de base que no puede ser instanciada. Sólo para uso de controles promovidos/personalizados.</translation>
     </message>
     <message>
         <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
-        <translation>El archivo contiene un widget personalizado «%1» cuya clase base (%2) difiere de la entrada actual en la base de datos de widgets (%3). La base de datos quedará intacta.</translation>
+        <translation>El archivo contiene un control personalizado «%1» cuya clase base (%2) difiere de la entrada actual en la base de datos de controles (%3). La base de datos quedará intacta.</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal</name>
     <message>
         <source>%1 Widget</source>
-        <translation>%1 Widget</translation>
+        <translation type="vanished">%1 Widget</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::ActionEditor</name>
     <message>
         <source>New...</source>
-        <translation>Nuevo...</translation>
+        <translation>Nueva...</translation>
     </message>
     <message>
         <source>Edit...</source>
@@ -3199,7 +3388,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Go to slot...</source>
-        <translation>Ir al slot...</translation>
+        <translation>Ir a ranura...</translation>
     </message>
     <message>
         <source>Copy</source>
@@ -3219,7 +3408,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Eliminar</translation>
+        <translation>Borrar</translation>
     </message>
     <message>
         <source>Actions</source>
@@ -3231,7 +3420,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Icon View</source>
-        <translation>Vista de iconos</translation>
+        <translation>Vista de íconos</translation>
     </message>
     <message>
         <source>Detailed View</source>
@@ -3243,7 +3432,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>New action</source>
-        <translation>Acción nueva</translation>
+        <translation>Nueva acción</translation>
     </message>
     <message>
         <source>Edit action</source>
@@ -3259,7 +3448,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Used In</source>
-        <translation>Usado en</translation>
+        <translation>Usada en</translation>
     </message>
 </context>
 <context>
@@ -3270,7 +3459,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Used</source>
-        <translation>Usado</translation>
+        <translation>Usada</translation>
     </message>
     <message>
         <source>Text</source>
@@ -3278,7 +3467,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Shortcut</source>
-        <translation>Acceso rápido</translation>
+        <translation>Atajo</translation>
     </message>
     <message>
         <source>Checkable</source>
@@ -3286,14 +3475,18 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>ToolTip</source>
-        <translation>Consejo</translation>
+        <translation>Descripción</translation>
+    </message>
+    <message>
+        <source>MenuRole</source>
+        <translation>RolMenú</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::BuddyEditor</name>
     <message>
         <source>Add buddy</source>
-        <translation>Añadir compañero</translation>
+        <translation>Agregar compañero</translation>
     </message>
     <message>
         <source>Remove buddies</source>
@@ -3309,8 +3502,8 @@ Do you want overwrite the template?</source>
     <message numerus="yes">
         <source>Add %n buddies</source>
         <translation>
-            <numerusform>Añadir %n compañero</numerusform>
-            <numerusform>Añadir %n compañeros</numerusform>
+            <numerusform>Agregar %n compañero</numerusform>
+            <numerusform>Agregar %n compañeros</numerusform>
         </translation>
     </message>
     <message>
@@ -3382,7 +3575,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>&amp;Find in Text...</source>
-        <translation>&amp;Buscar en el texto...</translation>
+        <translation type="vanished">&amp;Buscar en el texto...</translation>
     </message>
     <message>
         <source>A temporary form file could not be created in %1.</source>
@@ -3390,11 +3583,11 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>The temporary form file %1 could not be written.</source>
-        <translation>El archivo temporal de formulario %1 no puede ser escrito.</translation>
+        <translation>El archivo temporal de formulario %1 no pudo ser escrito.</translation>
     </message>
     <message>
         <source>%1 - [Code]</source>
-        <translation>%1 - [Código]</translation>
+        <translation type="vanished">%1 - [Código]</translation>
     </message>
     <message>
         <source>Save Code</source>
@@ -3402,15 +3595,19 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Header Files (*.%1)</source>
-        <translation>Archivos de cabecera (*.%1)</translation>
+        <translation type="vanished">Archivos de cabecera (*.%1)</translation>
+    </message>
+    <message>
+        <source>%1 - [%2 Code]</source>
+        <translation>%1 - [%2 Código]</translation>
     </message>
     <message>
         <source>The file %1 could not be opened: %2</source>
-        <translation>El archivo %1 no puede ser abierto: %2</translation>
+        <translation>El archivo %1 no pudo ser abierto: %2</translation>
     </message>
     <message>
         <source>The file %1 could not be written: %2</source>
-        <translation>El archivo %1 no puede ser escrito: %2</translation>
+        <translation>El archivo %1 no pudo ser escrito: %2</translation>
     </message>
     <message>
         <source>%1 - Error</source>
@@ -3432,7 +3629,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Change Combobox Contents</source>
-        <translation>Cambiar contenido del ComboBox</translation>
+        <translation>Cambiar contenido del cuadro combinado</translation>
     </message>
 </context>
 <context>
@@ -3454,7 +3651,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Eliminar</translation>
+        <translation>Borrar</translation>
     </message>
 </context>
 <context>
@@ -3473,7 +3670,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Slot</source>
-        <translation>Slot</translation>
+        <translation>Ranura</translation>
     </message>
     <message>
         <source>&lt;sender&gt;</source>
@@ -3489,7 +3686,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>&lt;slot&gt;</source>
-        <translation>&lt;slot&gt;</translation>
+        <translation>&lt;ranura&gt;</translation>
     </message>
     <message>
         <source>The connection already exists!&lt;br&gt;%1</source>
@@ -3497,14 +3694,14 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Signal and Slot Editor</source>
-        <translation>Editor de señales y slots</translation>
+        <translation>Editor de señales y ranuras</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::ContainerWidgetTaskMenu</name>
     <message>
         <source>Delete</source>
-        <translation>Eliminar</translation>
+        <translation>Borrar</translation>
     </message>
     <message>
         <source>Insert</source>
@@ -3512,15 +3709,15 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Insert Page Before Current Page</source>
-        <translation>Insertar página antes de la página actual</translation>
+        <translation>Insertar página antes de la actual</translation>
     </message>
     <message>
         <source>Insert Page After Current Page</source>
-        <translation>Insertar página antes de la página actual</translation>
+        <translation>Insertar página después de la actual</translation>
     </message>
     <message>
         <source>Add Subwindow</source>
-        <translation>Añadir subventana</translation>
+        <translation>Agregar subventana</translation>
     </message>
     <message>
         <source>Subwindow</source>
@@ -3539,18 +3736,16 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::DPI_Chooser</name>
     <message>
         <source>System (%1 x %2)</source>
-        <extracomment>System resolution
-</extracomment>
+        <extracomment>System resolution</extracomment>
         <translation>Sistema (%1 x %2)</translation>
     </message>
     <message>
         <source>User defined</source>
-        <translation>Definido por el usuario</translation>
+        <translation>Definida por el usuario</translation>
     </message>
     <message>
         <source> x </source>
-        <extracomment>DPI X/Y separator
-</extracomment>
+        <extracomment>DPI X/Y separator</extracomment>
         <translation> x </translation>
     </message>
 </context>
@@ -3567,6 +3762,10 @@ Do you want overwrite the template?</source>
     <message>
         <source>comment</source>
         <translation>comentario</translation>
+    </message>
+    <message>
+        <source>id</source>
+        <translation>id</translation>
     </message>
     <message>
         <source>AlignLeft</source>
@@ -3609,11 +3808,11 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Inherited</source>
-        <translation>Heredado</translation>
+        <translation>Heredada</translation>
     </message>
     <message>
         <source>[Theme] %1</source>
-        <translation>[Tema] %1</translation>
+        <translation type="vanished">[Tema] %1</translation>
     </message>
     <message>
         <source>Horizontal</source>
@@ -3628,47 +3827,51 @@ Do you want overwrite the template?</source>
         <translation>Tema</translation>
     </message>
     <message>
+        <source>XDG Theme</source>
+        <translation>Tema XDG</translation>
+    </message>
+    <message>
         <source>Normal Off</source>
-        <translation>Normal apagado</translation>
+        <translation>Normal inactivo</translation>
     </message>
     <message>
         <source>Normal On</source>
-        <translation>Normal encendido</translation>
+        <translation>Normal activo</translation>
     </message>
     <message>
         <source>Disabled Off</source>
-        <translation>Deshabilitado apagado</translation>
+        <translation>Deshabilitado inactivo</translation>
     </message>
     <message>
         <source>Disabled On</source>
-        <translation>Deshabilitado encendido</translation>
+        <translation>Deshabilitado activo</translation>
     </message>
     <message>
         <source>Active Off</source>
-        <translation>Activo apagado</translation>
+        <translation>Activo inactivo</translation>
     </message>
     <message>
         <source>Active On</source>
-        <translation>Activo encendido</translation>
+        <translation>Activo activo</translation>
     </message>
     <message>
         <source>Selected Off</source>
-        <translation>Seleccionado apagado</translation>
+        <translation>Seleccionado inactivo</translation>
     </message>
     <message>
         <source>Selected On</source>
-        <translation>Seleccionado encendido</translation>
+        <translation>Seleccionado activo</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::DeviceProfileDialog</name>
     <message>
         <source>Device Profiles (*.%1)</source>
-        <translation>Perfiles del dispositivo (*.%1)</translation>
+        <translation>Perfiles de dispositivos (*.%1)</translation>
     </message>
     <message>
         <source>Default</source>
-        <translation>Por defecto</translation>
+        <translation>Predeterminado</translation>
     </message>
     <message>
         <source>Save Profile</source>
@@ -3680,7 +3883,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Unable to open the file &apos;%1&apos; for writing: %2</source>
-        <translation>No se ha podido abrir el archivo «%1» para escritura: %2</translation>
+        <translation>No fue posible abrir el archivo «%1» para escritura: %2</translation>
     </message>
     <message>
         <source>Open profile</source>
@@ -3692,7 +3895,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Unable to open the file &apos;%1&apos; for reading: %2</source>
-        <translation>No se ha podido abrir el archivo «%1» para lectura: %2</translation>
+        <translation>No fue posible abrir el archivo «%1» para lectura: %2</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a valid profile: %2</source>
@@ -3711,19 +3914,19 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>New String</source>
-        <translation>Nueva cadena de texto</translation>
+        <translation>Nueva cadena</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Nuevo</translation>
+        <translation>&amp;Nueva</translation>
     </message>
     <message>
         <source>Delete String</source>
-        <translation>Eliminar cadena de texto</translation>
+        <translation>Borrar cadena</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Eliminar</translation>
+        <translation>&amp;Borrar</translation>
     </message>
     <message>
         <source>&amp;Value:</source>
@@ -3731,19 +3934,19 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Move String Up</source>
-        <translation>Subir cadena de texto</translation>
+        <translation>Subir cadena</translation>
     </message>
     <message>
         <source>Up</source>
-        <translation>Arriba</translation>
+        <translation>Subir</translation>
     </message>
     <message>
         <source>Move String Down</source>
-        <translation>Bajar cadena de texto</translation>
+        <translation>Bajar cadena</translation>
     </message>
     <message>
         <source>Down</source>
-        <translation>Abajo</translation>
+        <translation>Bajar</translation>
     </message>
 </context>
 <context>
@@ -3754,19 +3957,19 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Add a profile</source>
-        <translation>Añadir a perfil</translation>
+        <translation>Agregar perfil</translation>
     </message>
     <message>
         <source>Edit the selected profile</source>
-        <translation>Editar el perfil seleccionado</translation>
+        <translation>Editar perfil seleccionado</translation>
     </message>
     <message>
         <source>Delete the selected profile</source>
-        <translation>Eliminar el perfil seleccionado</translation>
+        <translation>Borrar perfil seleccionado</translation>
     </message>
     <message>
         <source>Add Profile</source>
-        <translation>Añadir perfil</translation>
+        <translation>Agregar perfil</translation>
     </message>
     <message>
         <source>New profile</source>
@@ -3778,15 +3981,15 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Delete Profile</source>
-        <translation>Eliminar perfil</translation>
+        <translation>Borrar perfil</translation>
     </message>
     <message>
         <source>Would you like to delete the profile &apos;%1&apos;?</source>
-        <translation>¿Le gustaría eliminar el perfil «%1»?</translation>
+        <translation>¿Borrar el perfil «%1»?</translation>
     </message>
     <message>
         <source>Default</source>
-        <translation>Por defecto</translation>
+        <translation>Predeterminado</translation>
     </message>
 </context>
 <context>
@@ -3797,21 +4000,21 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>The file &quot;%1&quot; has changed outside Designer. Do you want to reload it?</source>
-        <translation>El archivo «%1» ha cambiado desde fuera del Designer. ¿Le gustaría recargarlo?</translation>
+        <translation>El archivo «%1» ha cambiado desde fuera de Designer. ¿Recargarlo?</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::FormLayoutMenu</name>
     <message>
         <source>Add form layout row...</source>
-        <translation>Añadir un diseño formulario de filas...</translation>
+        <translation>Agregar fila a organización del formulario...</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::FormWindow</name>
     <message>
         <source>Edit contents</source>
-        <translation>Editar contenidos</translation>
+        <translation>Editar contenido</translation>
     </message>
     <message>
         <source>F2</source>
@@ -3819,7 +4022,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Insert widget &apos;%1&apos;</source>
-        <translation>Insertar widget «%1»</translation>
+        <translation>Insertar control «%1»</translation>
     </message>
     <message>
         <source>Resize</source>
@@ -3827,7 +4030,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Key Resize</source>
-        <translation>Redimensión de clave</translation>
+        <translation>Redimensionar clave</translation>
     </message>
     <message>
         <source>Key Move</source>
@@ -3843,21 +4046,21 @@ Do you want overwrite the template?</source>
     <message numerus="yes">
         <source>Paste %n widget(s)</source>
         <translation>
-            <numerusform>Pegar %n widget</numerusform>
-            <numerusform>Pegar %n widgets</numerusform>
+            <numerusform>Pegar %n control</numerusform>
+            <numerusform>Pegar %n controles</numerusform>
         </translation>
     </message>
     <message>
         <source>Paste (%1 widgets, %2 actions)</source>
-        <translation>Pegar (%1 widgets, %2 acciones)</translation>
+        <translation>Pegar (%1 controles, %2 acciones)</translation>
     </message>
     <message>
         <source>Cannot paste widgets. Designer could not find a container without a layout to paste into.</source>
-        <translation>No se pueden pegar los widgets. Designer no pudo encontrar un contenedor con sin una organización para pegar dentro.</translation>
+        <translation>No se pueden pegar los controles. Designer no pudo encontrar un contenedor sin organización en donde pegarlos.</translation>
     </message>
     <message>
         <source>Break the layout of the container you want to paste into, select this container and then paste again.</source>
-        <translation>Rompa la organización del contenedor donde quiere pegar el contenido, seleccione este contenedor y pegue de nuevo.</translation>
+        <translation>Romper la organización del contenedor donde se desee pegar el contenido, después seleccionarlo y pegar de nuevo.</translation>
     </message>
     <message>
         <source>Paste error</source>
@@ -3865,11 +4068,11 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Raise widgets</source>
-        <translation>Levantar widgets</translation>
+        <translation>Ascender controles</translation>
     </message>
     <message>
         <source>Lower widgets</source>
-        <translation>Hundir widgets</translation>
+        <translation>Descender controles</translation>
     </message>
     <message>
         <source>Select Ancestor</source>
@@ -3881,22 +4084,22 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Drop widget</source>
-        <translation>Soltar widget</translation>
+        <translation>Soltar control</translation>
     </message>
     <message>
         <source>A QMainWindow-based form does not contain a central widget.</source>
-        <translation>Un formulario basado en QMainWindow no contiene un widget central.</translation>
+        <translation>Un formulario basado en QMainWindow no contiene un control central.</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::FormWindowBase</name>
     <message>
         <source>Delete &apos;%1&apos;</source>
-        <translation>Eliminar «%1»</translation>
+        <translation>Borrar «%1»</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Eliminar</translation>
+        <translation>Borrar</translation>
     </message>
     <message>
         <source>Invalid form</source>
@@ -3904,7 +4107,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>&lt;p&gt;This file contains top level spacers.&lt;br/&gt;They will &lt;b&gt;not&lt;/b&gt; be saved.&lt;/p&gt;&lt;p&gt;Perhaps you forgot to create a layout?&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Este archivo contiene espaciadores de alto nivel.&lt;br/&gt; &lt;b&gt;No&lt;/b&gt; serán salvados.&lt;/p&gt;&lt;p&gt;¿Quizá olvido crear una distrubución?&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Este archivo contiene espaciadores de nivel superior. Estos&lt;br/&gt; &lt;b&gt;no&lt;/b&gt; serán guardados.&lt;/p&gt;&lt;p&gt;¿Quizá faltó crear una organización?&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -3915,7 +4118,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Cuts the selected widgets and puts them on the clipboard</source>
-        <translation>Corta los widgets seleccionados y los pone en el portapapeles</translation>
+        <translation>Corta los controles seleccionados y los pone en el portapapeles</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -3923,7 +4126,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Copies the selected widgets to the clipboard</source>
-        <translation>Copia los widgets seleccionados al portapapeles</translation>
+        <translation>Copia los controles seleccionados al portapapeles</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
@@ -3935,11 +4138,11 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>Elimina&amp;r</translation>
+        <translation>Borra&amp;r</translation>
     </message>
     <message>
         <source>Deletes the selected widgets</source>
-        <translation>Elimina los widgets seleccionados</translation>
+        <translation>Borra los controles seleccionados</translation>
     </message>
     <message>
         <source>Select &amp;All</source>
@@ -3947,7 +4150,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Selects all widgets</source>
-        <translation>Selecciona todos los widgets</translation>
+        <translation>Selecciona todos los controles</translation>
     </message>
     <message>
         <source>Bring to &amp;Front</source>
@@ -3955,7 +4158,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Raises the selected widgets</source>
-        <translation>Eleva los widgets seleccionados</translation>
+        <translation>Asciende los controles seleccionados</translation>
     </message>
     <message>
         <source>Send to &amp;Back</source>
@@ -3963,75 +4166,75 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Lowers the selected widgets</source>
-        <translation>Reduce los widgets seleccionados</translation>
+        <translation>Desciende los controles seleccionados</translation>
     </message>
     <message>
         <source>Adjust &amp;Size</source>
-        <translation>Aju&amp;ste de tamaño</translation>
+        <translation>Aju&amp;star tamaño</translation>
     </message>
     <message>
         <source>Adjusts the size of the selected widget</source>
-        <translation>Ajusta el tamaño del widget seleccionado</translation>
+        <translation>Ajusta el tamaño del control seleccionado</translation>
     </message>
     <message>
         <source>Lay Out &amp;Horizontally</source>
-        <translation>Distribución &amp;horizontal</translation>
+        <translation>Distribuir &amp;horizontalmente</translation>
     </message>
     <message>
         <source>Lays out the selected widgets horizontally</source>
-        <translation>Distribuye los widgets seleccionados horizontalmente</translation>
+        <translation>Distribuye de manera horizontal los controles seleccionados</translation>
     </message>
     <message>
         <source>Lay Out &amp;Vertically</source>
-        <translation>Distribución vertical</translation>
+        <translation>Distribuir &amp;verticalmente</translation>
     </message>
     <message>
         <source>Lays out the selected widgets vertically</source>
-        <translation>Distribuye los widgets seleccionados verticalmente</translation>
+        <translation>Distribuye de manera vertical los controles seleccionados</translation>
     </message>
     <message>
         <source>Lay Out in a &amp;Form Layout</source>
-        <translation>Distribuye en una distribución de &amp;formulario</translation>
+        <translation>Distribuir en una organización de &amp;formulario</translation>
     </message>
     <message>
         <source>Lays out the selected widgets in a form layout</source>
-        <translation>Distribuye los widgets seleccionados en una distribución de formulario</translation>
+        <translation>Distribuye los controles seleccionados en una organización de formulario</translation>
     </message>
     <message>
         <source>Lay Out in a &amp;Grid</source>
-        <translation>Distribución en &amp;cuadrícula</translation>
+        <translation>Distribuir en &amp;cuadrícula</translation>
     </message>
     <message>
         <source>Lays out the selected widgets in a grid</source>
-        <translation>Distribuye los widgets seleccionados en una cuadrícula</translation>
+        <translation>Distribuye los controles seleccionados en una cuadrícula</translation>
     </message>
     <message>
         <source>Lay Out Horizontally in S&amp;plitter</source>
-        <translation>Distribuye horizontalmente en un se&amp;parador</translation>
+        <translation>Distribuir horizontalmente en un se&amp;parador</translation>
     </message>
     <message>
         <source>Lays out the selected widgets horizontally in a splitter</source>
-        <translation>Distribuye los widgets seleccionados horizontalmente con un separador</translation>
+        <translation>Distribuye los controles seleccionados horizontalmente en un separador</translation>
     </message>
     <message>
         <source>Lay Out Vertically in Sp&amp;litter</source>
-        <translation>Distribuye vertica&amp;lmente con un separador</translation>
+        <translation>Distribuir vertica&amp;lmente en un separador</translation>
     </message>
     <message>
         <source>Lays out the selected widgets vertically in a splitter</source>
-        <translation>Distribuye los widgets seleccionados verticalmente usando un separador</translation>
+        <translation>Distribuye los controles seleccionados verticalmente en un separador</translation>
     </message>
     <message>
         <source>&amp;Break Layout</source>
-        <translation>Rompe la distri&amp;bución</translation>
+        <translation>&amp;Romper organización</translation>
     </message>
     <message>
         <source>Breaks the selected layout</source>
-        <translation>Rompe la distribución de widgets seleccionada</translation>
+        <translation>Rompe la organización seleccionada</translation>
     </message>
     <message>
         <source>Si&amp;mplify Grid Layout</source>
-        <translation>Si&amp;mplificar distribución en cuadrícula</translation>
+        <translation>Si&amp;mplificar organización en cuadrícula</translation>
     </message>
     <message>
         <source>Removes empty columns and rows</source>
@@ -4039,19 +4242,19 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>&amp;Preview...</source>
-        <translation>&amp;Vista previa...</translation>
+        <translation>&amp;Previsualizar...</translation>
     </message>
     <message>
         <source>Preview current form</source>
-        <translation>Previsualizar formulario actual</translation>
+        <translation>Previsualizar el formulario actual</translation>
     </message>
     <message>
         <source>Form &amp;Settings...</source>
-        <translation>&amp;Configuración del formulario...</translation>
+        <translation>&amp;Opciones del formulario...</translation>
     </message>
     <message>
         <source>Break Layout</source>
-        <translation>Romper distribución</translation>
+        <translation>Romper organización</translation>
     </message>
     <message>
         <source>Adjust Size</source>
@@ -4060,11 +4263,11 @@ Do you want overwrite the template?</source>
     <message>
         <source>Could not create form preview</source>
         <comment>Title of warning message box</comment>
-        <translation>No se puede crear la previsualización del formulario</translation>
+        <translation>No fue posible crear previsualización de formulario</translation>
     </message>
     <message>
         <source>Form Settings - %1</source>
-        <translation>Configuración del formulario - %1</translation>
+        <translation>Opciones del formulario - %1</translation>
     </message>
 </context>
 <context>
@@ -4075,7 +4278,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Device Profile: %1</source>
-        <translation>Perfil del dispositivo: %1</translation>
+        <translation>Perfil de dispositivo: %1</translation>
     </message>
 </context>
 <context>
@@ -4086,7 +4289,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Grid</source>
-        <translation>Rejilla</translation>
+        <translation>Cuadrícula</translation>
     </message>
     <message>
         <source>Visible</source>
@@ -4094,11 +4297,11 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Grid &amp;X</source>
-        <translation>Rejilla &amp;X</translation>
+        <translation>Cuadrícula &amp;X</translation>
     </message>
     <message>
         <source>Snap</source>
-        <translation>Ajustar</translation>
+        <translation>Adherir</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -4106,7 +4309,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Grid &amp;Y</source>
-        <translation>Rejilla &amp;Y</translation>
+        <translation>Cuadrícula &amp;Y</translation>
     </message>
 </context>
 <context>
@@ -4120,30 +4323,30 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::HtmlTextEdit</name>
     <message>
         <source>Insert HTML entity</source>
-        <translation>Inserta entidad HTML</translation>
+        <translation>Insertar entidad HTML</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::IconSelector</name>
     <message>
         <source>The pixmap file &apos;%1&apos; cannot be read.</source>
-        <translation>El archivo de pixmap «%1» no puede ser leído.</translation>
+        <translation>No es posible leer el archivo de mapa de píxeles «%1».</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; does not appear to be a valid pixmap file: %2</source>
-        <translation>El archivo «%1» no parece ser un archivo de pixmap válido: %2</translation>
+        <translation>El archivo «%1» no parece ser un archivo de mapa de píxeles válido: %2</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; could not be read: %2</source>
-        <translation>El archivo «%1» no puede ser leído: %2</translation>
+        <translation>El archivo «%1» no pudo ser leído: %2</translation>
     </message>
     <message>
         <source>Choose a Pixmap</source>
-        <translation>Elije a pixmap</translation>
+        <translation>Escoger un mapa de píxeles</translation>
     </message>
     <message>
         <source>Pixmap Read Error</source>
-        <translation>Error de lectura del pixmap</translation>
+        <translation>Error de lectura de mapa de píxeles</translation>
     </message>
     <message>
         <source>...</source>
@@ -4151,43 +4354,43 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Normal Off</source>
-        <translation>Normal apagado</translation>
+        <translation type="vanished">Normal apagado</translation>
     </message>
     <message>
         <source>Normal On</source>
-        <translation>Normal encendido</translation>
+        <translation type="vanished">Normal encendido</translation>
     </message>
     <message>
         <source>Disabled Off</source>
-        <translation>Deshabilitado apagado</translation>
+        <translation type="vanished">Deshabilitado apagado</translation>
     </message>
     <message>
         <source>Disabled On</source>
-        <translation>Deshabilitado encendido</translation>
+        <translation type="vanished">Deshabilitado encendido</translation>
     </message>
     <message>
         <source>Active Off</source>
-        <translation>Activo apagado</translation>
+        <translation type="vanished">Activo apagado</translation>
     </message>
     <message>
         <source>Active On</source>
-        <translation>Activo encendido</translation>
+        <translation type="vanished">Activo encendido</translation>
     </message>
     <message>
         <source>Selected Off</source>
-        <translation>Seleccionado apagado</translation>
+        <translation type="vanished">Seleccionado apagado</translation>
     </message>
     <message>
         <source>Selected On</source>
-        <translation>Seleccionado encendido</translation>
+        <translation type="vanished">Seleccionado encendido</translation>
     </message>
     <message>
         <source>Choose Resource...</source>
-        <translation>Elija recurso...</translation>
+        <translation>Escoger recurso...</translation>
     </message>
     <message>
         <source>Choose File...</source>
-        <translation>Elija archivo...</translation>
+        <translation>Escoger archivo...</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -4202,18 +4405,26 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::IconThemeDialog</name>
     <message>
         <source>Set Icon From Theme</source>
-        <translation>Seleccione icono del tema</translation>
+        <translation type="vanished">Seleccione icono del tema</translation>
     </message>
     <message>
         <source>Input icon name from the current theme:</source>
-        <translation>Introduzca el nombre del icono del tema actual:</translation>
+        <translation type="vanished">Introduzca el nombre del icono del tema actual:</translation>
+    </message>
+    <message>
+        <source>Set Icon From XDG Theme</source>
+        <translation>Definir ícono desde tema XDG</translation>
+    </message>
+    <message>
+        <source>Select icon name from XDG theme:</source>
+        <translation>Seleccionar nombre del ícono desde tema XDG:</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::ItemListEditor</name>
     <message>
         <source>Items List</source>
-        <translation>Elementos de la lista</translation>
+        <translation>Lista de elementos</translation>
     </message>
     <message>
         <source>New Item</source>
@@ -4225,11 +4436,11 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Delete Item</source>
-        <translation>Eliminar elemento</translation>
+        <translation>Borrar elemento</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Eliminar</translation>
+        <translation>&amp;Borrar</translation>
     </message>
     <message>
         <source>Move Item Up</source>
@@ -4237,7 +4448,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>U</source>
-        <translation>U</translation>
+        <translation>S</translation>
     </message>
     <message>
         <source>Move Item Down</source>
@@ -4245,7 +4456,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>D</source>
-        <translation>D</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>Properties &amp;&gt;&gt;</source>
@@ -4264,14 +4475,14 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Change plain text...</source>
-        <translation>Cambiar texto plano...</translation>
+        <translation>Cambiar texto simple...</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::LanguageResourceDialog</name>
     <message>
         <source>Choose Resource</source>
-        <translation>Cambiar recurso</translation>
+        <translation>Escoger recurso</translation>
     </message>
 </context>
 <context>
@@ -4289,7 +4500,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Edit List Widget</source>
-        <translation>Editar widget de lista</translation>
+        <translation>Editar control de lista</translation>
     </message>
     <message>
         <source>Edit Combobox</source>
@@ -4304,14 +4515,14 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Change List Contents</source>
-        <translation>Cambiar los contenidos de la lista</translation>
+        <translation>Cambiar contenido de lista</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::MdiContainerWidgetTaskMenu</name>
     <message>
         <source>Next Subwindow</source>
-        <translation>Siguiente subventana</translation>
+        <translation>Subventana siguiente</translation>
     </message>
     <message>
         <source>Previous Subwindow</source>
@@ -4337,14 +4548,14 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::MorphMenu</name>
     <message>
         <source>Morph into</source>
-        <translation>Convertir en</translation>
+        <translation>Transformar en</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::NewActionDialog</name>
     <message>
         <source>New Action...</source>
-        <translation>Acción nueva...</translation>
+        <translation>Nueva acción...</translation>
     </message>
     <message>
         <source>&amp;Text:</source>
@@ -4352,11 +4563,11 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Object &amp;name:</source>
-        <translation>&amp;Nombre de objeto:</translation>
+        <translation>Nombre de &amp;objeto:</translation>
     </message>
     <message>
         <source>T&amp;oolTip:</source>
-        <translation>C&amp;onsejo:</translation>
+        <translation>&amp;Descripción:</translation>
     </message>
     <message>
         <source>...</source>
@@ -4364,11 +4575,11 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Icon th&amp;eme:</source>
-        <translation>T&amp;ema de iconos:</translation>
+        <translation type="vanished">T&amp;ema de iconos:</translation>
     </message>
     <message>
         <source>&amp;Icon:</source>
-        <translation>&amp;Icono:</translation>
+        <translation>íco&amp;no:</translation>
     </message>
     <message>
         <source>&amp;Checkable:</source>
@@ -4376,7 +4587,19 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>&amp;Shortcut:</source>
-        <translation>Acce&amp;so rápido:</translation>
+        <translation>Ata&amp;jo:</translation>
+    </message>
+    <message>
+        <source>Icon &amp;XDG theme:</source>
+        <translation>Tema &amp;XDG de ícono:</translation>
+    </message>
+    <message>
+        <source>&amp;Menu role:</source>
+        <translation>Rol de &amp;menú:</translation>
+    </message>
+    <message>
+        <source>Icon &amp;theme:</source>
+        <translation>&amp;Tema de ícono:</translation>
     </message>
 </context>
 <context>
@@ -4399,19 +4622,19 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Set Property Name</source>
-        <translation>Poner nombre de propiedad</translation>
+        <translation>Definir nombre de propiedad</translation>
     </message>
     <message>
         <source>The current object already has a property named &apos;%1&apos;.
 Please select another, unique one.</source>
-        <translation>El objeto actual ya tiene una propiedad llamada «%1».
-Por favor seleccione otra, con un nombre único.</translation>
+        <translation>El objeto actual ya tiene una propiedad de nombre «%1».
+Seleccionar otro nombre único.</translation>
     </message>
     <message>
         <source>The &apos;_q_&apos; prefix is reserved for the Qt library.
 Please select another name.</source>
-        <translation>El prefijo «_q_» está reservado para las bibliotecas Qt.
-Por favor seleccione un nombre diferente.</translation>
+        <translation>El prefijo «_q_» está reservado para la biblioteca Qt.
+Seleccionar un nombre diferente.</translation>
     </message>
 </context>
 <context>
@@ -4422,11 +4645,11 @@ Por favor seleccione un nombre diferente.</translation>
     </message>
     <message>
         <source>Choose a template for a preview</source>
-        <translation>Elija una plantilla para previsualizar</translation>
+        <translation>Escoger una plantilla para previsualizar</translation>
     </message>
     <message>
         <source>Embedded Design</source>
-        <translation>Diseño empotrado</translation>
+        <translation>Diseño incorporado</translation>
     </message>
     <message>
         <source>Device:</source>
@@ -4438,7 +4661,7 @@ Por favor seleccione un nombre diferente.</translation>
     </message>
     <message>
         <source>Default size</source>
-        <translation>Tamaño por defecto</translation>
+        <translation>Tamaño predeterminado</translation>
     </message>
     <message>
         <source>QVGA portrait (240x320)</source>
@@ -4446,7 +4669,7 @@ Por favor seleccione un nombre diferente.</translation>
     </message>
     <message>
         <source>QVGA landscape (320x240)</source>
-        <translation>QVGA apaisado (320x240)</translation>
+        <translation>QVGA horizontal (320x240)</translation>
     </message>
     <message>
         <source>VGA portrait (480x640)</source>
@@ -4454,17 +4677,16 @@ Por favor seleccione un nombre diferente.</translation>
     </message>
     <message>
         <source>VGA landscape (640x480)</source>
-        <translation>VGA apaisado (640x480)</translation>
+        <translation>VGA horizontal (640x480)</translation>
     </message>
     <message>
         <source>Widgets</source>
-        <extracomment>New Form Dialog Categories
-</extracomment>
-        <translation>Widgets</translation>
+        <extracomment>New Form Dialog Categories</extracomment>
+        <translation>Controles</translation>
     </message>
     <message>
         <source>Custom Widgets</source>
-        <translation>Widgets personalizados</translation>
+        <translation>Controles personalizados</translation>
     </message>
     <message>
         <source>None</source>
@@ -4472,42 +4694,50 @@ Por favor seleccione un nombre diferente.</translation>
     </message>
     <message>
         <source>Error loading form</source>
-        <translation>Error cargando formulario</translation>
+        <translation>Error al cargar formulario</translation>
     </message>
     <message>
         <source>Unable to open the form template file &apos;%1&apos;: %2</source>
-        <translation>No se ha podido abrir el archivo de plantilla de formulario «%1»: %2</translation>
+        <translation>No fue posible abrir el archivo de plantilla de formulario «%1»: %2</translation>
     </message>
     <message>
         <source>Internal error: No template selected.</source>
-        <translation>Error interno: No se seleccionó plantilla.</translation>
+        <translation>Error interno: No se seleccionó ninguna plantilla.</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::NewPromotedClassPanel</name>
     <message>
         <source>Add</source>
-        <translation>Añadir</translation>
+        <translation>Agregar</translation>
     </message>
     <message>
         <source>New Promoted Class</source>
-        <translation>Nueva clase promocionada</translation>
+        <translation>Nueva clase promovida</translation>
     </message>
     <message>
         <source>Base class name:</source>
-        <translation>Nombre de la clase base:</translation>
+        <translation>Nombre de clase base:</translation>
     </message>
     <message>
         <source>Promoted class name:</source>
-        <translation>Nombre de la clase promocionada:</translation>
+        <translation>Nombre de clase promovida:</translation>
+    </message>
+    <message>
+        <source>Header file for C++ classes or module name for Qt for Python.</source>
+        <translation>El archivo de encabezado para las clases C++ o el nombre del módulo para Qt for Python.</translation>
     </message>
     <message>
         <source>Header file:</source>
-        <translation>Archivo de cabecera:</translation>
+        <translation>Archivo de encabezado:</translation>
+    </message>
+    <message>
+        <source>Indicates that the header file is a global header file. Does not have any effect on Qt for Python.</source>
+        <translation>Indica que el archivo de encabezado es un archivo global. No ejerce ningún efecto sobre Qt for Python.</translation>
     </message>
     <message>
         <source>Global include</source>
-        <translation>Archivo de cabecera global</translation>
+        <translation>Inclusión global</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -4517,19 +4747,23 @@ Por favor seleccione un nombre diferente.</translation>
 <context>
     <name>qdesigner_internal::ObjectInspector</name>
     <message>
+        <source>Filter</source>
+        <translation>Filtro</translation>
+    </message>
+    <message>
         <source>Change Current Page</source>
         <translation>Cambiar página actual</translation>
     </message>
     <message>
         <source>&amp;Find in Text...</source>
-        <translation>&amp;Buscar en el texto...</translation>
+        <translation type="vanished">&amp;Buscar en el texto...</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::OrderDialog</name>
     <message>
         <source>Change Page Order</source>
-        <translation>Cambiar el orden de páginas</translation>
+        <translation>Cambiar orden de páginas</translation>
     </message>
     <message>
         <source>Page Order</source>
@@ -4537,11 +4771,11 @@ Por favor seleccione un nombre diferente.</translation>
     </message>
     <message>
         <source>Move page up</source>
-        <translation>Subir una página</translation>
+        <translation>Subir página</translation>
     </message>
     <message>
         <source>Move page down</source>
-        <translation>Bajar una página</translation>
+        <translation>Bajar página</translation>
     </message>
     <message>
         <source>Index %1 (%2)</source>
@@ -4560,15 +4794,15 @@ Por favor seleccione un nombre diferente.</translation>
     </message>
     <message>
         <source>Tune Palette</source>
-        <translation>Afinar paleta</translation>
+        <translation>Retocar paleta</translation>
     </message>
     <message>
         <source>Show Details</source>
-        <translation>Mostrar detalles</translation>
+        <translation>Mostrar variantes</translation>
     </message>
     <message>
         <source>Compute Details</source>
-        <translation>Calcular detalles</translation>
+        <translation>Calcular variantes</translation>
     </message>
     <message>
         <source>Quick</source>
@@ -4590,6 +4824,70 @@ Por favor seleccione un nombre diferente.</translation>
         <source>Active</source>
         <translation>Activo</translation>
     </message>
+    <message>
+        <source>Save...</source>
+        <translation>Guardar...</translation>
+    </message>
+    <message>
+        <source>Load...</source>
+        <translation>Cargar...</translation>
+    </message>
+    <message>
+        <source>Preview (%1)</source>
+        <translation>Previsualizar (%1)</translation>
+    </message>
+    <message>
+        <source>Lighter</source>
+        <translation>Más claro</translation>
+    </message>
+    <message>
+        <source>Darker</source>
+        <translation>Más oscuro</translation>
+    </message>
+    <message>
+        <source>Copy color %1</source>
+        <translation>Copiar color %1</translation>
+    </message>
+    <message>
+        <source>QPalette UI file (*.xml)</source>
+        <translation>Archivo de QPalette (*.xml)</translation>
+    </message>
+    <message>
+        <source>Cannot open %1 for writing: %2</source>
+        <translation>No es posible abrir %1 para escritura : %2</translation>
+    </message>
+    <message>
+        <source>Cannot write %1: %2</source>
+        <translation>No es posible escribir en %1: %2</translation>
+    </message>
+    <message>
+        <source>Cannot read palette from %1:%2:%3</source>
+        <translation>No es posible leer paleta desde %1:%2:%3</translation>
+    </message>
+    <message>
+        <source>Cannot open %1 for reading: %2</source>
+        <translation>No es posible abrir %1 para lectura : %2</translation>
+    </message>
+    <message>
+        <source>Invalid element &quot;%1&quot;, expected &quot;palette&quot;.</source>
+        <translation>Elemento inválido &quot;%1&quot;, se esperaba &quot;palette&quot;.</translation>
+    </message>
+    <message>
+        <source>Save Palette</source>
+        <translation>Guardar paleta</translation>
+    </message>
+    <message>
+        <source>Error Writing Palette</source>
+        <translation>Error al escribir paleta</translation>
+    </message>
+    <message>
+        <source>Load Palette</source>
+        <translation>Cargar paleta</translation>
+    </message>
+    <message>
+        <source>Error Reading Palette</source>
+        <translation>Error al leer paleta</translation>
+    </message>
 </context>
 <context>
     <name>qdesigner_internal::PaletteEditorButton</name>
@@ -4602,7 +4900,7 @@ Por favor seleccione un nombre diferente.</translation>
     <name>qdesigner_internal::PaletteModel</name>
     <message>
         <source>Color Role</source>
-        <translation>Rol de color</translation>
+        <translation>Rol del color</translation>
     </message>
     <message>
         <source>Active</source>
@@ -4621,15 +4919,19 @@ Por favor seleccione un nombre diferente.</translation>
     <name>qdesigner_internal::PixmapEditor</name>
     <message>
         <source>Choose Resource...</source>
-        <translation>Elija recurso...</translation>
+        <translation>Escoger recurso...</translation>
     </message>
     <message>
         <source>Choose File...</source>
-        <translation>Elija archivo...</translation>
+        <translation>Escoger archivo...</translation>
     </message>
     <message>
         <source>Set Icon From Theme...</source>
-        <translation>Seleccione icono del tema...</translation>
+        <translation>Definir ícono desde tema...</translation>
+    </message>
+    <message>
+        <source>Set Icon From XDG Theme...</source>
+        <translation>Definir ícono desde tema XDG...</translation>
     </message>
     <message>
         <source>Copy Path</source>
@@ -4647,6 +4949,14 @@ Por favor seleccione un nombre diferente.</translation>
         <source>[Theme] %1</source>
         <translation>[Tema] %1</translation>
     </message>
+    <message>
+        <source>[Theme] %1 (missing)</source>
+        <translation>[Tema] %1 (faltante)</translation>
+    </message>
+    <message>
+        <source>%1 (fallback)</source>
+        <translation>%1 (alternativa)</translation>
+    </message>
 </context>
 <context>
     <name>qdesigner_internal::PlainTextEditorDialog</name>
@@ -4663,7 +4973,7 @@ Por favor seleccione un nombre diferente.</translation>
     </message>
     <message>
         <source>Plugin Information</source>
-        <translation>Información del plugin</translation>
+        <translation>Información de complementos</translation>
     </message>
     <message>
         <source>Refresh</source>
@@ -4671,27 +4981,32 @@ Por favor seleccione un nombre diferente.</translation>
     </message>
     <message>
         <source>Scan for newly installed custom widget plugins.</source>
-        <translation>Buscar nuevos plugins de widgets personalizados instalados.</translation>
+        <translation>Buscar complementos de controles personalizados recientemente instalados.</translation>
     </message>
     <message>
         <source>Loaded Plugins</source>
-        <translation>Plugins cargados</translation>
+        <translation>Complementos cargados</translation>
     </message>
     <message>
         <source>Failed Plugins</source>
-        <translation>Plugins fallados</translation>
+        <translation>Complementos fallidos</translation>
     </message>
     <message>
         <source>Qt Widgets Designer couldn&apos;t find any plugins</source>
-        <translation>Qt Widgets Designer no puede encontrar ningún plugin</translation>
+        <translation>Qt Widgets Designer no pudo encontrar ningún complemento</translation>
     </message>
     <message>
         <source>Qt Widgets Designer found the following plugins</source>
-        <translation>Qt Widgets Designer ha encontrado los siguientes plugins</translation>
+        <translation>Qt Widgets Designer encontró los siguientes complementos</translation>
     </message>
     <message>
         <source>New custom widget plugins have been found.</source>
-        <translation>Nuevos plugins de widget personalizados han sido encontrados.</translation>
+        <translation>Se han encontrado nuevos complementos de controles personalizados.</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <extracomment>Copy error text</extracomment>
+        <translation>Copiar</translation>
     </message>
 </context>
 <context>
@@ -4705,7 +5020,7 @@ Por favor seleccione un nombre diferente.</translation>
     <name>qdesigner_internal::PreviewConfigurationWidget</name>
     <message>
         <source>Default</source>
-        <translation>Por defecto</translation>
+        <translation>Predeterminado</translation>
     </message>
     <message>
         <source>None</source>
@@ -4713,23 +5028,23 @@ Por favor seleccione un nombre diferente.</translation>
     </message>
     <message>
         <source>Browse...</source>
-        <translation>Navegar...</translation>
+        <translation>Explorar...</translation>
     </message>
     <message>
         <source>Load Custom Device Skin</source>
-        <translation>Cargar una piel de dispositivo personalizada</translation>
+        <translation>Cargar una decoración personalizada de dispositivo</translation>
     </message>
     <message>
         <source>All QVFB Skins (*.%1)</source>
-        <translation>Todos las pieles QVFB (*.%1)</translation>
+        <translation>Todas las decoraciones QVFB (*.%1)</translation>
     </message>
     <message>
         <source>%1 - Duplicate Skin</source>
-        <translation>%1 - Piel duplicada</translation>
+        <translation>%1 - Decoración duplicada</translation>
     </message>
     <message>
         <source>The skin &apos;%1&apos; already exists.</source>
-        <translation>La piel «%1» ya existe.</translation>
+        <translation>La decoración «%1» ya existe.</translation>
     </message>
     <message>
         <source>%1 - Error</source>
@@ -4738,7 +5053,7 @@ Por favor seleccione un nombre diferente.</translation>
     <message>
         <source>%1 is not a valid skin directory:
 %2</source>
-        <translation>%1 no es un directorio de pieles válido:
+        <translation>%1 no es una carpeta válida de decoraciones:
 %2</translation>
     </message>
 </context>
@@ -4750,15 +5065,13 @@ Por favor seleccione un nombre diferente.</translation>
     </message>
     <message>
         <source>Landscape (&amp;CCW)</source>
-        <extracomment>Rotate form preview counter-clockwise
-</extracomment>
-        <translation>Apaisado (&amp;CCW)</translation>
+        <extracomment>Rotate form preview counter-clockwise</extracomment>
+        <translation>Horizontal (&amp;antihorario)</translation>
     </message>
     <message>
         <source>&amp;Landscape (CW)</source>
-        <extracomment>Rotate form preview clockwise
-</extracomment>
-        <translation>Apaisado (C&amp;W)</translation>
+        <extracomment>Rotate form preview clockwise</extracomment>
+        <translation>Horizontal (&amp;horario)</translation>
     </message>
     <message>
         <source>&amp;Close</source>
@@ -4769,7 +5082,7 @@ Por favor seleccione un nombre diferente.</translation>
     <name>qdesigner_internal::PreviewManager</name>
     <message>
         <source>%1 - [Preview]</source>
-        <translation>%1 - [Previsualizar]</translation>
+        <translation>%1 - [Previsualización]</translation>
     </message>
 </context>
 <context>
@@ -4777,79 +5090,163 @@ Por favor seleccione un nombre diferente.</translation>
     <message>
         <source>The moose in the noose
 ate the goose who was loose.</source>
-        <extracomment>Palette editor background
-</extracomment>
-        <translation>El alce en el lazo
-comió la gallina que estaba suelta.</translation>
+        <extracomment>Palette editor background</extracomment>
+        <translation>El veloz murciélago hindú
+comía feliz cardillo y kiwi.</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::PreviewWidget</name>
     <message>
         <source>Preview Window</source>
-        <extracomment>Palette Editor Preview Widget
-</extracomment>
-        <translation>Previsualizar ventana</translation>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>Ventana de previsualización</translation>
     </message>
     <message>
         <source>LineEdit</source>
-        <extracomment>Palette Editor Preview Widget
-</extracomment>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>LineEdit</translation>
     </message>
     <message>
         <source>ComboBox</source>
-        <extracomment>Palette Editor Preview Widget
-</extracomment>
-        <translation>ComboBox</translation>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>CuadroCombinado</translation>
     </message>
     <message>
         <source>PushButton</source>
-        <extracomment>Palette Editor Preview Widget
-</extracomment>
-        <translation>PushButton</translation>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>BotónPulsable</translation>
     </message>
     <message>
         <source>ButtonGroup2</source>
         <extracomment>Palette Editor Preview Widget
 </extracomment>
-        <translation>ButtonGroup2</translation>
+        <translation type="vanished">ButtonGroup2</translation>
     </message>
     <message>
         <source>CheckBox1</source>
-        <extracomment>Palette Editor Preview Widget
-</extracomment>
-        <translation>CheckBox1</translation>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>CuadroVerificación1</translation>
     </message>
     <message>
         <source>CheckBox2</source>
         <extracomment>Palette Editor Preview Widget
 </extracomment>
-        <translation>CheckBox2</translation>
+        <translation type="vanished">CheckBox2</translation>
     </message>
     <message>
         <source>ButtonGroup</source>
         <extracomment>Palette Editor Preview Widget
 </extracomment>
-        <translation>ButtonGroup</translation>
+        <translation type="vanished">ButtonGroup</translation>
     </message>
     <message>
         <source>RadioButton1</source>
-        <extracomment>Palette Editor Preview Widget
-</extracomment>
-        <translation>RadioButton1</translation>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>BotónRadio1</translation>
     </message>
     <message>
         <source>RadioButton2</source>
-        <extracomment>Palette Editor Preview Widget
-</extracomment>
-        <translation>RadioButton2</translation>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>BotónRadio2</translation>
     </message>
     <message>
         <source>RadioButton3</source>
-        <extracomment>Palette Editor Preview Widget
-</extracomment>
-        <translation>RadioButton3</translation>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>BotónRadio3</translation>
+    </message>
+    <message>
+        <source>Buttons</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>Botones</translation>
+    </message>
+    <message>
+        <source>Tristate CheckBox</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>CuadroVerificaciónTriestado</translation>
+    </message>
+    <message>
+        <source>ToggleButton</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>BotónAlternable</translation>
+    </message>
+    <message>
+        <source>ToolButton</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>BotónHerramienta</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>Menú</translation>
+    </message>
+    <message>
+        <source>Item Views</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>Vistas de elementos</translation>
+    </message>
+    <message>
+        <source>Column 1</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>Columna 1</translation>
+    </message>
+    <message>
+        <source>Top Level 1</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>Nivel superior 1</translation>
+    </message>
+    <message>
+        <source>Nested Item 1</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>Elemento anidado 1</translation>
+    </message>
+    <message>
+        <source>Nested Item 2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>Elemento anidado 2</translation>
+    </message>
+    <message>
+        <source>Nested Item 3</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>Elemento anidado 3</translation>
+    </message>
+    <message>
+        <source>Simple Input Widgets</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>Controles de entrada simple</translation>
+    </message>
+    <message>
+        <source>Item1</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>Elemento1</translation>
+    </message>
+    <message>
+        <source>Item2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>Elemento2</translation>
+    </message>
+    <message>
+        <source>Display Widgets</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>Controles de visualización</translation>
+    </message>
+    <message>
+        <source>QLabel</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>QLabel</translation>
+    </message>
+    <message>
+        <source>QLabel with frame</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation>QLabel con marco</translation>
+    </message>
+    <message>
+        <source>Option 1</source>
+        <translation>Opción 1</translation>
+    </message>
+    <message>
+        <source>Checkable</source>
+        <translation>Activable</translation>
     </message>
 </context>
 <context>
@@ -4860,11 +5257,11 @@ comió la gallina que estaba suelta.</translation>
     </message>
     <message>
         <source>Header file</source>
-        <translation>Archivo de cabecera</translation>
+        <translation>Archivo de encabezado</translation>
     </message>
     <message>
         <source>Global include</source>
-        <translation>Archivo de cabecera global</translation>
+        <translation>Inclusión global</translation>
     </message>
     <message>
         <source>Usage</source>
@@ -4875,19 +5272,19 @@ comió la gallina que estaba suelta.</translation>
     <name>qdesigner_internal::PromotionTaskMenu</name>
     <message>
         <source>Promoted widgets...</source>
-        <translation>Widgets promocionados...</translation>
+        <translation>Controles promovidos...</translation>
     </message>
     <message>
         <source>Promote to ...</source>
-        <translation>Promocionar a ...</translation>
+        <translation>Promover a ...</translation>
     </message>
     <message>
         <source>Change signals/slots...</source>
-        <translation>Cambiar señales/slots...</translation>
+        <translation>Cambiar señales/ranuras...</translation>
     </message>
     <message>
         <source>Promote to</source>
-        <translation>Promocionar a</translation>
+        <translation>Promover a</translation>
     </message>
     <message>
         <source>Demote to %1</source>
@@ -4898,7 +5295,7 @@ comió la gallina que estaba suelta.</translation>
     <name>qdesigner_internal::PropertyEditor</name>
     <message>
         <source>Add Dynamic Property...</source>
-        <translation>Añadir propiedad dinámica...</translation>
+        <translation>Agregar propiedad dinámica...</translation>
     </message>
     <message>
         <source>Remove Dynamic Property</source>
@@ -4906,7 +5303,7 @@ comió la gallina que estaba suelta.</translation>
     </message>
     <message>
         <source>Sorting</source>
-        <translation>Ordenación</translation>
+        <translation>Orden</translation>
     </message>
     <message>
         <source>Color Groups</source>
@@ -4918,19 +5315,19 @@ comió la gallina que estaba suelta.</translation>
     </message>
     <message>
         <source>Drop Down Button View</source>
-        <translation>Vista de botones desplegable</translation>
+        <translation>Vista de botones desplegables</translation>
     </message>
     <message>
         <source>String...</source>
-        <translation>Cadena de caracteres...</translation>
+        <translation>Cadena...</translation>
     </message>
     <message>
         <source>Bool...</source>
-        <translation>Booleano...</translation>
+        <translation>Booleana...</translation>
     </message>
     <message>
         <source>Other...</source>
-        <translation>Otro...</translation>
+        <translation>Otras...</translation>
     </message>
     <message>
         <source>Configure Property Editor</source>
@@ -4946,6 +5343,10 @@ Class: %2</source>
         <translation>Objeto: %1
 Clase: %2</translation>
     </message>
+    <message>
+        <source>Deprecated since Qt %1: %2</source>
+        <translation>Obsoleto a partir de Qt %1: %2</translation>
+    </message>
 </context>
 <context>
     <name>qdesigner_internal::PropertyLineEdit</name>
@@ -4958,19 +5359,19 @@ Clase: %2</translation>
     <name>qdesigner_internal::QDesignerPromotionDialog</name>
     <message>
         <source>Promoted Widgets</source>
-        <translation>Widgets promocionados</translation>
+        <translation>Controles promovidos</translation>
     </message>
     <message>
         <source>Promoted Classes</source>
-        <translation>Clases promocionadas</translation>
+        <translation>Clases promovidas</translation>
     </message>
     <message>
         <source>Promote</source>
-        <translation>Promocionar</translation>
+        <translation>Promover</translation>
     </message>
     <message>
         <source>Change signals/slots...</source>
-        <translation>Cambiar señales/slots...</translation>
+        <translation>Cambiar señales/ranuras...</translation>
     </message>
     <message>
         <source>%1 - Error</source>
@@ -4985,7 +5386,7 @@ Clase: %2</translation>
     </message>
     <message>
         <source>The specified qrc file &lt;p&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;&lt;p&gt;could not be found. Do you want to update the file location?&lt;/p&gt;</source>
-        <translation>El archivo qrc especificado &lt;p&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;&lt;p&gt;no puede ser encontrado. ¿Desea actualizar la ubicación del archivo?&lt;/p&gt;</translation>
+        <translation>El archivo qrc especificado &lt;p&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;&lt;p&gt;no pudo ser encontrado. ¿Actualizar ubicación del archivo?&lt;/p&gt;</translation>
     </message>
     <message>
         <source>New location for %1</source>
@@ -4993,14 +5394,14 @@ Clase: %2</translation>
     </message>
     <message>
         <source>Resource files (*.qrc)</source>
-        <translation>Archivos de recurso (*.qrc)</translation>
+        <translation>Archivos de recursos (*.qrc)</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::QDesignerTaskMenu</name>
     <message>
         <source>Layout Alignment</source>
-        <translation>Alineación de la distribucción</translation>
+        <translation>Alineación de organización</translation>
     </message>
     <message>
         <source>No Horizontal Alignment</source>
@@ -5036,15 +5437,15 @@ Clase: %2</translation>
     </message>
     <message>
         <source>Change objectName...</source>
-        <translation>Cambiar nombreDelObjeto...</translation>
+        <translation>Cambiar nombreDeObjeto...</translation>
     </message>
     <message>
         <source>Change toolTip...</source>
-        <translation>Cambiar toolTip...</translation>
+        <translation>Cambiar descripción...</translation>
     </message>
     <message>
         <source>Change whatsThis...</source>
-        <translation>Cambiar quéEs...</translation>
+        <translation>Cambiar quéEsEsto...</translation>
     </message>
     <message>
         <source>Change styleSheet...</source>
@@ -5052,15 +5453,19 @@ Clase: %2</translation>
     </message>
     <message>
         <source>Create Menu Bar</source>
-        <translation>Crear Barra de Menú</translation>
+        <translation>Crear barra de menús</translation>
     </message>
     <message>
         <source>Add Tool Bar</source>
-        <translation>Añadir Barra de Herramientas</translation>
+        <translation>Agregar barra de herramientas</translation>
+    </message>
+    <message>
+        <source>Add Tool Bar to Other Area</source>
+        <translation>Agregar barra de herramientas a otra área</translation>
     </message>
     <message>
         <source>Create Status Bar</source>
-        <translation>Crear Barra de Estado</translation>
+        <translation>Crear barra de estado</translation>
     </message>
     <message>
         <source>Remove Status Bar</source>
@@ -5068,11 +5473,11 @@ Clase: %2</translation>
     </message>
     <message>
         <source>Change signals/slots...</source>
-        <translation>Cambiar señales/slots...</translation>
+        <translation>Cambiar señales/ranuras...</translation>
     </message>
     <message>
         <source>Go to slot...</source>
-        <translation>Ir al slot...</translation>
+        <translation>Ir a ranura...</translation>
     </message>
     <message>
         <source>Size Constraints</source>
@@ -5080,45 +5485,45 @@ Clase: %2</translation>
     </message>
     <message>
         <source>Set Minimum Width</source>
-        <translation>Establecer el ancho mínimo</translation>
+        <translation>Definir ancho mínimo</translation>
     </message>
     <message>
         <source>Set Minimum Height</source>
-        <translation>Establecer la altura mínima</translation>
+        <translation>Definir altura mínima</translation>
     </message>
     <message>
         <source>Set Minimum Size</source>
-        <translation>Establecer el tamaño mínimo</translation>
+        <translation>Definir tamaño mínimo</translation>
     </message>
     <message>
         <source>Set Maximum Width</source>
-        <translation>Establecer el ancho máximo</translation>
+        <translation>Definir ancho máximo</translation>
     </message>
     <message>
         <source>Set Maximum Height</source>
-        <translation>Establecer la altura máxima</translation>
+        <translation>Definir altura máxima</translation>
     </message>
     <message>
         <source>Set Maximum Size</source>
-        <translation>Establecer tamaño máximo</translation>
+        <translation>Definir tamaño máximo</translation>
     </message>
     <message>
         <source>Edit ToolTip</source>
-        <translation>Editar ToolTip</translation>
+        <translation>Editar descripción</translation>
     </message>
     <message>
         <source>Edit WhatsThis</source>
-        <translation>Editar QuéEs</translation>
+        <translation>Editar qué es esto</translation>
     </message>
     <message>
         <source>no signals available</source>
-        <translation>no hay señales disponibles</translation>
+        <translation type="vanished">no hay señales disponibles</translation>
     </message>
     <message numerus="yes">
         <source>Set size constraint on %n widget(s)</source>
         <translation>
-            <numerusform>Establece una restricción en %n widget</numerusform>
-            <numerusform>Establece una restricción en %n widgets</numerusform>
+            <numerusform>Define una restricción de tamaño para %n control</numerusform>
+            <numerusform>Define una restricción de tamaño para %n controles</numerusform>
         </translation>
     </message>
 </context>
@@ -5131,37 +5536,37 @@ Clase: %2</translation>
     <message>
         <source>A parse error occurred at line %1, column %2 of the XML code specified for the widget %3: %4
 %5</source>
-        <translation>Un error de sintaxis ocurrió en la línea %1, columna %2 del código XML especificado por el widget %3: %4
+        <translation>Ocurrió un error de análisis en la línea %1, columna %2 del código XML especificado para el control %3: %4
 %5</translation>
     </message>
     <message>
         <source>The XML code specified for the widget %1 does not contain any widget elements.
 %2</source>
-        <translation>El código XML especificado por el widget %1 no contiene ningún elemento de widget.
+        <translation>El código XML especificado para el control %1 no contiene ningún elemento de control.
 %2</translation>
     </message>
     <message>
         <source>An error has been encountered at line %1 of %2: %3</source>
-        <translation>Un error ha sido encontrado en la línea %1 de %2: %3</translation>
+        <translation type="vanished">Un error ha sido encontrado en la línea %1 de %2: %3</translation>
     </message>
     <message>
         <source>Unexpected element &lt;%1&gt; encountered when parsing for &lt;widget&gt; or &lt;ui&gt;</source>
-        <translation>Elemento inesperado &lt;%1&gt; encontrado cuando se buscaba &lt;widget&gt; o &lt;ui&gt;</translation>
+        <translation type="vanished">Elemento inesperado &lt;%1&gt; encontrado cuando se buscaba &lt;widget&gt; o &lt;ui&gt;</translation>
     </message>
     <message>
         <source>Unexpected end of file encountered when parsing widgets.</source>
-        <translation>Final de archivo inesperado encontrado cuando se cargaban los widgets.</translation>
+        <translation type="vanished">Final de archivo inesperado encontrado cuando se cargaban los widgets.</translation>
     </message>
     <message>
         <source>A widget element could not be found.</source>
-        <translation>Un elemento de widget no puede ser encontrado.</translation>
+        <translation type="vanished">Un elemento de widget no puede ser encontrado.</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::QtGradientStopsController</name>
     <message>
         <source>H</source>
-        <translation>H</translation>
+        <translation>T</translation>
     </message>
     <message>
         <source>S</source>
@@ -5173,7 +5578,7 @@ Clase: %2</translation>
     </message>
     <message>
         <source>Hue</source>
-        <translation>Color</translation>
+        <translation>Tono</translation>
     </message>
     <message>
         <source>Sat</source>
@@ -5197,11 +5602,11 @@ Clase: %2</translation>
     </message>
     <message>
         <source>G</source>
-        <translation>G</translation>
+        <translation>V</translation>
     </message>
     <message>
         <source>B</source>
-        <translation>B</translation>
+        <translation>A</translation>
     </message>
     <message>
         <source>Red</source>
@@ -5228,7 +5633,7 @@ Clase: %2</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation>Origen</translation>
+        <translation>Código fuente</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -5247,7 +5652,7 @@ Clase: %2</translation>
     </message>
     <message>
         <source>CTRL+B</source>
-        <translation>CTRL+B</translation>
+        <translation>Ctrl+B</translation>
     </message>
     <message>
         <source>Italic</source>
@@ -5255,7 +5660,7 @@ Clase: %2</translation>
     </message>
     <message>
         <source>CTRL+I</source>
-        <translation>CTRL+I</translation>
+        <translation>Ctrl+I</translation>
     </message>
     <message>
         <source>Underline</source>
@@ -5263,7 +5668,7 @@ Clase: %2</translation>
     </message>
     <message>
         <source>CTRL+U</source>
-        <translation>CTRL+U</translation>
+        <translation>Ctrl+U</translation>
     </message>
     <message>
         <source>Left Align</source>
@@ -5271,7 +5676,7 @@ Clase: %2</translation>
     </message>
     <message>
         <source>Center</source>
-        <translation>Centrado</translation>
+        <translation>Centrar</translation>
     </message>
     <message>
         <source>Right Align</source>
@@ -5283,7 +5688,7 @@ Clase: %2</translation>
     </message>
     <message>
         <source>Right to Left</source>
-        <translation>Derecha a izquierda</translation>
+        <translation>De derecha a izquierda</translation>
     </message>
     <message>
         <source>Superscript</source>
@@ -5310,11 +5715,11 @@ Clase: %2</translation>
     <name>qdesigner_internal::SignalSlotDialog</name>
     <message>
         <source>There is already a slot with the signature &apos;%1&apos;.</source>
-        <translation>Ya hay un slot con la declaración «%1».</translation>
+        <translation>Ya hay una ranura con la declaración «%1».</translation>
     </message>
     <message>
         <source>There is already a signal with the signature &apos;%1&apos;.</source>
-        <translation>Ya hay una señal con la declaración «%1»</translation>
+        <translation>Ya hay una señal con la declaración «%1».</translation>
     </message>
     <message>
         <source>%1 - Duplicate Signature</source>
@@ -5322,14 +5727,14 @@ Clase: %2</translation>
     </message>
     <message>
         <source>Signals/Slots of %1</source>
-        <translation>Señales/slots de %1</translation>
+        <translation>Señales/ranuras de %1</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::SignalSlotEditorPlugin</name>
     <message>
         <source>Edit Signals/Slots</source>
-        <translation>Editar señales/slots</translation>
+        <translation>Editar señales/ranuras</translation>
     </message>
     <message>
         <source>F4</source>
@@ -5340,7 +5745,7 @@ Clase: %2</translation>
     <name>qdesigner_internal::SignalSlotEditorTool</name>
     <message>
         <source>Edit Signals/Slots</source>
-        <translation>Editar señales/slots</translation>
+        <translation>Editar señales/ranuras</translation>
     </message>
 </context>
 <context>
@@ -5354,7 +5759,7 @@ Clase: %2</translation>
     <name>qdesigner_internal::StringListEditorButton</name>
     <message>
         <source>Change String List</source>
-        <translation>Cambiar la lista de cadenas de texto</translation>
+        <translation>Cambiar lista de cadenas</translation>
     </message>
 </context>
 <context>
@@ -5365,19 +5770,19 @@ Clase: %2</translation>
     </message>
     <message>
         <source>Add Resource...</source>
-        <translation>Añadir recurso...</translation>
+        <translation>Agregar recurso...</translation>
     </message>
     <message>
         <source>Add Gradient...</source>
-        <translation>Añadir gradiente...</translation>
+        <translation>Agregar gradiente...</translation>
     </message>
     <message>
         <source>Add Color...</source>
-        <translation>Añadir color...</translation>
+        <translation>Agregar color...</translation>
     </message>
     <message>
         <source>Add Font...</source>
-        <translation>Añadir tipo de letras...</translation>
+        <translation>Agregar tipografía...</translation>
     </message>
     <message>
         <source>Edit Style Sheet</source>
@@ -5400,40 +5805,40 @@ Clase: %2</translation>
     </message>
     <message>
         <source>Tab Order List...</source>
-        <translation>Orden de lista de pestañas...</translation>
+        <translation>Lista de orden de tabulación...</translation>
     </message>
     <message>
         <source>Tab Order List</source>
-        <translation>Orden de lista de pestañas</translation>
+        <translation>Lista de orden de tabulación</translation>
     </message>
     <message>
         <source>Tab Order</source>
-        <translation>Orden de pestañas</translation>
+        <translation>Orden de tabulación</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::TabOrderEditorPlugin</name>
     <message>
         <source>Edit Tab Order</source>
-        <translation>Editar orden de pestañas</translation>
+        <translation>Editar orden de tabulación</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::TabOrderEditorTool</name>
     <message>
         <source>Edit Tab Order</source>
-        <translation>Editar orden de pestañas</translation>
+        <translation>Editar orden de tabulación</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::TableWidgetEditor</name>
     <message>
         <source>Edit Table Widget</source>
-        <translation>Editar widget de tabla</translation>
+        <translation>Editar control de tabla</translation>
     </message>
     <message>
         <source>&amp;Items</source>
-        <translation>E&amp;lementos</translation>
+        <translation>&amp;Elementos</translation>
     </message>
     <message>
         <source>Table Items</source>
@@ -5479,7 +5884,7 @@ Clase: %2</translation>
     </message>
     <message>
         <source>Additional Template Paths</source>
-        <translation>Ubicaciones adiccionales de plantillas</translation>
+        <translation>Rutas de plantillas adiccionales</translation>
     </message>
     <message>
         <source>...</source>
@@ -5487,7 +5892,7 @@ Clase: %2</translation>
     </message>
     <message>
         <source>Pick a directory to save templates in</source>
-        <translation>Seleccione un directorio para salvar las plantillas</translation>
+        <translation>Escoger una carpeta donde guardar las plantillas</translation>
     </message>
 </context>
 <context>
@@ -5506,18 +5911,18 @@ Clase: %2</translation>
     </message>
     <message>
         <source>Change Plain Text...</source>
-        <translation>Cambiar texto plano...</translation>
+        <translation>Cambiar texto simple...</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::TextEditor</name>
     <message>
         <source>Choose Resource...</source>
-        <translation>Cambiar recurso...</translation>
+        <translation>Escoger recurso...</translation>
     </message>
     <message>
         <source>Choose File...</source>
-        <translation>Elegir archivo...</translation>
+        <translation>Escoger archivo...</translation>
     </message>
     <message>
         <source>...</source>
@@ -5525,7 +5930,7 @@ Clase: %2</translation>
     </message>
     <message>
         <source>Choose a File</source>
-        <translation>Elija archivo</translation>
+        <translation>Escoger un archivo</translation>
     </message>
 </context>
 <context>
@@ -5555,15 +5960,15 @@ Clase: %2</translation>
     <name>qdesigner_internal::TreeWidgetEditor</name>
     <message>
         <source>Edit Tree Widget</source>
-        <translation>Editar widget de árbol</translation>
+        <translation>Editar control de árbol</translation>
     </message>
     <message>
         <source>&amp;Items</source>
-        <translation>E&amp;lementos</translation>
+        <translation>&amp;Elementos</translation>
     </message>
     <message>
         <source>Tree Items</source>
-        <translation>Elementos de árbol</translation>
+        <translation>Elementos del árbol</translation>
     </message>
     <message>
         <source>1</source>
@@ -5587,27 +5992,27 @@ Clase: %2</translation>
     </message>
     <message>
         <source>Delete Item</source>
-        <translation>Eliminar elemento</translation>
+        <translation>Borrar elemento</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Eliminar</translation>
+        <translation>&amp;Borrar</translation>
     </message>
     <message>
         <source>Move Item Left (before Parent Item)</source>
-        <translation>Mover elemento a la izquierda (antes del elemento padre)</translation>
+        <translation>Mover elemento a la izquierda (antes del elemento superior)</translation>
     </message>
     <message>
         <source>L</source>
-        <translation>L</translation>
+        <translation>I</translation>
     </message>
     <message>
         <source>Move Item Right (as a First Subitem of the Next Sibling Item)</source>
-        <translation>Mover elemento a la derecha (como primer subelemento del siguiente elemento hermano)</translation>
+        <translation>Mover elemento a la derecha (como primer subelemento del siguiente elemento del mismo nivel)</translation>
     </message>
     <message>
         <source>R</source>
-        <translation>R</translation>
+        <translation>D</translation>
     </message>
     <message>
         <source>Move Item Up</source>
@@ -5615,7 +6020,7 @@ Clase: %2</translation>
     </message>
     <message>
         <source>U</source>
-        <translation>U</translation>
+        <translation>S</translation>
     </message>
     <message>
         <source>Move Item Down</source>
@@ -5623,7 +6028,7 @@ Clase: %2</translation>
     </message>
     <message>
         <source>D</source>
-        <translation>D</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>Properties &amp;&gt;&gt;</source>
@@ -5665,7 +6070,7 @@ Clase: %2</translation>
     </message>
     <message>
         <source>Warning: Widget creation failed in the widget box. This could be caused by invalid custom widget XML.</source>
-        <translation>Peligro: La creación del widget falló en la caja del widget. Esto puede ser causado por el XML inválido de un widget personalizado.</translation>
+        <translation>Advertencia: Error al crear el control en la lista de controles. Esto pudo haber sido causado por un XML inválido de un control personalizado.</translation>
     </message>
 </context>
 <context>
@@ -5676,7 +6081,7 @@ Clase: %2</translation>
     </message>
     <message>
         <source>Custom Widgets</source>
-        <translation>Widgets personalizados</translation>
+        <translation>Controles personalizados</translation>
     </message>
     <message>
         <source>Expand all</source>
@@ -5692,7 +6097,7 @@ Clase: %2</translation>
     </message>
     <message>
         <source>Icon View</source>
-        <translation>Vista de iconos</translation>
+        <translation>Vista de íconos</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -5707,32 +6112,36 @@ Clase: %2</translation>
     <name>qdesigner_internal::WidgetEditorTool</name>
     <message>
         <source>Edit Widgets</source>
-        <translation>Editar widgets</translation>
+        <translation>Editar controles</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::WidgetFactory</name>
     <message>
         <source>The custom widget factory registered for widgets of class %1 returned 0.</source>
-        <translation>La factoría de widgets personalizados registrada para widgets de clase %1 devolvió 0.</translation>
+        <translation>La fábrica de controles personalizados registrada para controles de clase %1 devolvió 0.</translation>
     </message>
     <message>
         <source>A class name mismatch occurred when creating a widget using the custom widget factory registered for widgets of class %1. It returned a widget of class %2.</source>
-        <translation>El nombre de clase no coincide cuando se creo un widget usando la factoría de widgets personalizados registrada para widgets de la clase %1. Devolvió un widget de la clase %2.</translation>
+        <translation>Ocurrió una falta de coincidencia al crear un control usando la fábrica de controles personalizados registrada para controles de clase %1. Devolvió un control de clase %2.</translation>
+    </message>
+    <message>
+        <source>%1 Widget</source>
+        <translation>Control %1</translation>
     </message>
     <message>
         <source>The current page of the container &apos;%1&apos; (%2) could not be determined while creating a layout.This indicates an inconsistency in the ui-file, probably a layout being constructed on a container widget.</source>
-        <translation>La página actual del contenedor «%1» (%2) no puede ser determinada durante la creación de la distribucción. Esto indica una inconsistencia en el archivo de interfaz, probablemente una distribución fue construida en un widget contenedor.</translation>
+        <translation>La página actual del contenedor «%1» (%2) no pudo ser determinada al crear una organización. Esto indica una inconsistencia en el archivo de interfaz, probablemente una organización fue construida sobre un control de tipo Contenedor.</translation>
     </message>
     <message>
         <source>Attempt to add a layout to a widget &apos;%1&apos; (%2) which already has an unmanaged layout of type %3.
 This indicates an inconsistency in the ui-file.</source>
-        <translation>Intento de cargar una distribución en un widget «%1» (%2) el cual ya tiene una distribución no manejada de tipo %3.
+        <translation>Se intentó agregar una organización a un control «%1» (%2) que ya tenía una organización no administrada de tipo %3.
 Esto indica una inconsistencia en el archivo de interfaz.</translation>
     </message>
     <message>
         <source>Cannot create style &apos;%1&apos;.</source>
-        <translation>No se puede crear el estilo «%1».</translation>
+        <translation>No es posible crear el estilo «%1».</translation>
     </message>
 </context>
 <context>
@@ -5750,8 +6159,7 @@ Esto indica una inconsistencia en el archivo de interfaz.</translation>
     <name>qdesigner_internal::ZoomMenu</name>
     <message>
         <source>%1 %</source>
-        <extracomment>Zoom factor
-</extracomment>
+        <extracomment>Zoom factor</extracomment>
         <translation>%1 %</translation>
     </message>
 </context>
@@ -5759,7 +6167,86 @@ Esto indica una inconsistencia en el archivo de interfaz.</translation>
     <name>qdesigner_internal::ZoomablePreviewDeviceSkin</name>
     <message>
         <source>&amp;Zoom</source>
-        <translation>&amp;Zoom</translation>
+        <translation>&amp;Ampliar</translation>
+    </message>
+</context>
+<context>
+    <name>Dialog</name>
+    <message>
+        <source>Dialog</source>
+        <translation>Diálogo</translation>
+    </message>
+</context>
+<context>
+    <name>MainWindow</name>
+    <message>
+        <source>MainWindow</source>
+        <translation>Ventana principal</translation>
+    </message>
+</context>
+<context>
+    <name>Form</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulario</translation>
+    </message>
+</context>
+<context>
+    <name>qdesigner_internal::IconThemeEnumDialog</name>
+    <message>
+        <source>Set Icon From Theme</source>
+        <translation>Definir ícono desde tema</translation>
+    </message>
+    <message>
+        <source>Select icon name from theme:</source>
+        <translation>Seleccionar nombre del ícono desde tema:</translation>
+    </message>
+</context>
+<context>
+    <name>QDesignerWidgetBox</name>
+    <message>
+        <source>An error has been encountered at line %1 of %2: %3</source>
+        <translation>Se ha encontrado un error en la línea %1 de %2: %3</translation>
+    </message>
+    <message>
+        <source>Unexpected element &lt;%1&gt; encountered when parsing for &lt;widget&gt; or &lt;ui&gt;</source>
+        <translation>Se ha encontrado un elemento inesperado &lt;%1&gt; cuando se analizaba buscando &lt;widget&gt; o &lt;ui&gt;</translation>
+    </message>
+    <message>
+        <source>Unexpected end of file encountered when parsing widgets.</source>
+        <translation>Se encontró el final del archivo de forma inesperada al analizar controles.</translation>
+    </message>
+    <message>
+        <source>A widget element could not be found.</source>
+        <translation>No fue posible encontrar un elemento de un control.</translation>
+    </message>
+</context>
+<context>
+    <name>QDesignerTaskMenu</name>
+    <message>
+        <source>no signals available</source>
+        <translation>no hay señales disponibles</translation>
+    </message>
+</context>
+<context>
+    <name>qdesigner_internal::WidgetDataBase</name>
+    <message>
+        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
+        <translation>Se ha encontrado un complemento de control personalizado cuyo nombre de clase (%1) coincide con el de una clase ya existente.</translation>
+    </message>
+</context>
+<context>
+    <name>QView3DPlugin</name>
+    <message>
+        <source>3D View</source>
+        <translation>Vista 3D</translation>
+    </message>
+</context>
+<context>
+    <name>QView3DTool</name>
+    <message>
+        <source>3DView</source>
+        <translation>Vista3D</translation>
     </message>
 </context>
 </TS>

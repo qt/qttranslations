@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="es_ES">
+<TS version="2.1" language="es">
 <context>
     <name>QSerialPort</name>
     <message>
@@ -17,19 +17,19 @@
     </message>
     <message>
         <source>Operation timed out</source>
-        <translation>El tiempo de espera de la operación ha expirado</translation>
+        <translation>Tiempo expirado para la operación</translation>
     </message>
     <message>
         <source>Error reading from device</source>
-        <translation>Error leyendo del dispositivo</translation>
+        <translation>Error al leer desde el dispositivo</translation>
     </message>
     <message>
         <source>Error writing to device</source>
-        <translation>Error escribiendo al dispositivo</translation>
+        <translation>Error al escribir en el dispositivo</translation>
     </message>
     <message>
         <source>Device disappeared from the system</source>
-        <translation>El dispositivo ha desaparecido del sistema</translation>
+        <translation>El dispositivo desapareció del sistema</translation>
     </message>
     <message>
         <source>Unsupported open mode</source>
@@ -37,7 +37,7 @@
     </message>
     <message>
         <source>The device supports only the ignoring policy</source>
-        <translation>El dispositivo sólo soporta la política de ignorar</translation>
+        <translation type="vanished">El dispositivo sólo soporta la política de ignorar</translation>
     </message>
     <message>
         <source>Permission error while creating lock file</source>
@@ -49,23 +49,23 @@
     </message>
     <message>
         <source>Cannot set custom speed for one direction</source>
-        <translation>No se puede establecer una velocidad personalizada para una dirección</translation>
+        <translation>No es posible establecer una velocidad personalizada en una dirección</translation>
     </message>
     <message>
         <source>No suitable custom baud rate divisor</source>
-        <translation>No hay divisores válidos de ratio de baudios personalizado</translation>
+        <translation>No hay divisores personalizados apropiados para la tasa de baudios</translation>
     </message>
     <message>
         <source>Custom baud rate is not supported</source>
-        <translation>El ratio de baudios personalizado no está soportado</translation>
+        <translation>No se soporta una tasa de baudios personalizada</translation>
     </message>
     <message>
         <source>Invalid baud rate value</source>
-        <translation>Valor de ratio de baudios inválido</translation>
+        <translation>Valor inválido para la tasa de baudios</translation>
     </message>
     <message>
         <source>Custom baud rate direction is unsupported</source>
-        <translation>Establecer un ratio de baudios para una sola dirección no está soportado</translation>
+        <translation>No se soporta el establecimiento de una tasa de baudios en una sola dirección</translation>
     </message>
 </context>
 </TS>
