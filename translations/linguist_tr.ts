@@ -28,7 +28,7 @@
     </message>
     <message>
         <source>Note that the modified entries will be reset to unfinished if &apos;Set translated entries to finished&apos; above is unchecked</source>
-        <translation>Yukarıdaki “Çevrilmiş girdileri bitmiş olarak ayarla” seçeneği işaretlenmezse değiştirilen girdilerin tamamlanmamış olarak sıfırlanacağını unutmayın.</translation>
+        <translation>Yukarıdaki “Çevrilmiş girdileri bitmiş olarak ayarla” seçeneği işaretlenmezse değiştirilen girdilerin tamamlanmamış olarak sıfırlanacağını unutmayın</translation>
     </message>
     <message>
         <source>Translate also finished entries</source>
@@ -48,7 +48,7 @@
     </message>
     <message>
         <source>The batch translator will search through the selected phrase books in the order given above</source>
-        <translation>Toplu çevirmen, seçili deyiş kitabı girdilerinde yukarıda verilen sırayla arama yapar.</translation>
+        <translation>Toplu çevirmen, seçili deyiş kitabı girdilerinde yukarıda verilen sırayla arama yapar</translation>
     </message>
     <message>
         <source>&amp;Run</source>
@@ -131,31 +131,55 @@ Tek bir evrensel form alır.</translation>
     <name>ErrorsView</name>
     <message>
         <source>Accelerator possibly superfluous in translation.</source>
-        <translation>Çeviride ivmelendirici kullanımı gereksiz olabilir.</translation>
+        <translation type="vanished">Çeviride ivmelendirici kullanımı gereksiz olabilir.</translation>
     </message>
     <message>
         <source>Accelerator possibly missing in translation.</source>
-        <translation>Çeviride büyük olasılıkla ivmelendirici eksik.</translation>
+        <translation type="vanished">Çeviride büyük olasılıkla ivmelendirici eksik.</translation>
     </message>
     <message>
         <source>Translation does not have same leading and trailing whitespace as the source text.</source>
-        <translation>Çeviri, kaynak metinle aynı ön ve arka boşluğu içermiyor.</translation>
+        <translation type="vanished">Çeviri, kaynak metinle aynı ön ve arka boşluğu içermiyor.</translation>
     </message>
     <message>
         <source>Translation does not end with the same punctuation as the source text.</source>
-        <translation>Çeviri, kaynak metinle aynı noktalama işaretiyle bitmiyor.</translation>
+        <translation type="vanished">Çeviri, kaynak metinle aynı noktalama işaretiyle bitmiyor.</translation>
+    </message>
+    <message>
+        <source>Accelerator possibly superfluous in translation: %1</source>
+        <translation>Çevirideki ivmelendirici büyük olasılıkla gereksiz: %1</translation>
+    </message>
+    <message>
+        <source>Accelerator possibly missing in translation: %1</source>
+        <translation>Çeviride büyük olasılıkla ivmelendirici eksik: %1</translation>
+    </message>
+    <message>
+        <source>Translation does not have same leading and trailing whitespace as the source text: %1</source>
+        <translation>Çeviride, kaynak metindeki baş ve son boşlukları yok: %1</translation>
+    </message>
+    <message>
+        <source>Translation does not end with the same punctuation as the source text: %1</source>
+        <translation>Çeviri, kaynak metindeki noktalama işareti ile bitmiyor: %1</translation>
     </message>
     <message>
         <source>A phrase book suggestion for &apos;%1&apos; was ignored.</source>
         <translation>“%1” için bir sözcük grubu kitabı önerisi yok sayıldı.</translation>
     </message>
     <message>
+        <source>Translation does not refer to the same place markers as in the source text: %1</source>
+        <translation>Çeviri, kaynak metin ile aynı imleyicilere başvurmuyor: %1</translation>
+    </message>
+    <message>
+        <source>Translation does not contain the necessary %n/%Ln place marker: %1</source>
+        <translation>Çeviride, gerekli olan %n/%Ln yer imleyici yok: %1</translation>
+    </message>
+    <message>
         <source>Translation does not refer to the same place markers as in the source text.</source>
-        <translation>Çeviri, kaynak metinde olan aynı yer imleyicilerine başvurmuyor.</translation>
+        <translation type="vanished">Çeviri, kaynak metinde olan aynı yer imleyicilerine başvurmuyor.</translation>
     </message>
     <message>
         <source>Translation does not contain the necessary %n/%Ln place marker.</source>
-        <translation>Çeviri gerekli %n/%Ln yer imleyicisini içermiyor.</translation>
+        <translation type="vanished">Çeviri gerekli %n/%Ln yer imleyicisini içermiyor.</translation>
     </message>
     <message>
         <source>Unknown error</source>
@@ -213,7 +237,7 @@ Tek bir evrensel form alır.</translation>
     </message>
     <message>
         <source>Lets you use a Perl-compatible regular expression</source>
-        <translation>Perl uyumlu bir düzenli ifade kullanmanıza izin verir.</translation>
+        <translation>Perl uyumlu bir düzenli ifade kullanmanıza izin verir</translation>
     </message>
     <message>
         <source>Regular &amp;expression</source>
@@ -285,7 +309,12 @@ Tek bir evrensel form alır.</translation>
     </message>
     <message>
         <source>Lets you filter the search target by translation status</source>
-        <translation>Arama hedefini çeviri durumuna göre süzmenize olanak tanır.</translation>
+        <translation>Arama hedefini çeviri durumuna göre süzmenize olanak tanır</translation>
+    </message>
+    <message>
+        <source></source>
+        <comment>Choose Edit|Find from the menu bar or press Ctrl+F to pop up the Find dialog</comment>
+        <translation></translation>
     </message>
     <message>
         <source>All</source>
@@ -425,7 +454,7 @@ Tek bir evrensel form alır.</translation>
     </message>
     <message>
         <source>Open a Qt translation source file (TS file) for editing</source>
-        <translation>Düzenlemek için bir Qt çeviri kaynak dosyası (TS dosyası) açın.</translation>
+        <translation>Düzenlemek için bir Qt çeviri kaynak dosyası (TS dosyası) aç</translation>
     </message>
     <message>
         <source>Ctrl+O</source>
@@ -449,7 +478,7 @@ Tek bir evrensel form alır.</translation>
     </message>
     <message>
         <source>Save changes made to this Qt translation source file</source>
-        <translation>Bu Qt çeviri kaynak dosyasında yapılan değişiklikleri kaydedin.</translation>
+        <translation>Bu Qt çeviri kaynak dosyasında yapılan değişiklikleri kaydet</translation>
     </message>
     <message>
         <source>Save &amp;As...</source>
@@ -581,7 +610,7 @@ Tek bir evrensel form alır.</translation>
     </message>
     <message>
         <source>&amp;Prev Unfinished</source>
-        <translation>&amp;Önceki Bitmemiş</translation>
+        <translation>Ö&amp;nceki Bitmemiş</translation>
     </message>
     <message>
         <source>Previous unfinished item</source>
@@ -657,7 +686,7 @@ Tek bir evrensel form alır.</translation>
     </message>
     <message>
         <source>Copy from source text</source>
-        <translation>Kaynak metinden kopyala</translation>
+        <translation>Kaynak Metinden Kopyala</translation>
     </message>
     <message>
         <source>Copies the source text into the translation field</source>
@@ -673,7 +702,7 @@ Tek bir evrensel form alır.</translation>
     </message>
     <message>
         <source>&amp;Accelerators</source>
-        <translation>&amp;İvmelendiriciler</translation>
+        <translation>İ&amp;vmelendiriciler</translation>
     </message>
     <message>
         <source>Toggles the validity check of accelerators</source>
@@ -709,7 +738,7 @@ Tek bir evrensel form alır.</translation>
     </message>
     <message>
         <source>&amp;Phrase matches</source>
-        <translation>&amp;Deyiş eşleşmeleri</translation>
+        <translation>&amp;Deyiş Eşleşmeleri</translation>
     </message>
     <message>
         <source>Toggles checking that phrase suggestions are used</source>
@@ -765,7 +794,7 @@ Tek bir evrensel form alır.</translation>
     </message>
     <message>
         <source>&amp;Display guesses</source>
-        <translation>Tahminleri &amp;görüntüle</translation>
+        <translation>Tahminleri &amp;Görüntüle</translation>
     </message>
     <message>
         <source>Set whether or not to display translation guesses.</source>
@@ -817,7 +846,7 @@ Tek bir evrensel form alır.</translation>
     </message>
     <message>
         <source>&amp;Search And Translate...</source>
-        <translation>&amp;Ara Ve Çevir…</translation>
+        <translation>&amp;Ara ve Çevir…</translation>
     </message>
     <message>
         <source>Replace the translation on all entries that matches the search source text.</source>
@@ -861,11 +890,11 @@ Tek bir evrensel form alır.</translation>
     </message>
     <message>
         <source>Open/Refresh Form &amp;Preview</source>
-        <translation>Form &amp;Önizlemesini Aç/Yenile</translation>
+        <translation>Form Ö&amp;n İzlemesini Aç/Yenile</translation>
     </message>
     <message>
         <source>Form Preview Tool</source>
-        <translation>Form Önizleme Aracı</translation>
+        <translation>Form Ön İzleme Aracı</translation>
     </message>
     <message>
         <source>F5</source>
@@ -917,7 +946,7 @@ Tek bir evrensel form alır.</translation>
     </message>
     <message>
         <source>Visualize whitespace</source>
-        <translation>Boşluğu görselleştir</translation>
+        <translation>Boşlukları Görselleştir</translation>
     </message>
     <message>
         <source>Toggles visualize whitespace in editors</source>
@@ -941,7 +970,7 @@ Tek bir evrensel form alır.</translation>
     </message>
     <message>
         <source>Reset to default</source>
-        <translation>Öntanımlılara sıfırla</translation>
+        <translation>Varsayılanlara Sıfırla</translation>
     </message>
     <message>
         <source>Ctrl+0</source>
@@ -949,7 +978,7 @@ Tek bir evrensel form alır.</translation>
     </message>
     <message>
         <source>Show more</source>
-        <translation>Daha fazla göster</translation>
+        <translation>Daha Çok Göster</translation>
     </message>
     <message>
         <source>Alt++</source>
@@ -957,7 +986,7 @@ Tek bir evrensel form alır.</translation>
     </message>
     <message>
         <source>Show fewer</source>
-        <translation>Daha az göster</translation>
+        <translation>Daha Az Göster</translation>
     </message>
     <message>
         <source>Alt+-</source>
@@ -973,11 +1002,11 @@ Tek bir evrensel form alır.</translation>
     </message>
     <message>
         <source>Mark item as done</source>
-        <translation>Öğeyi bitti olarak işaretle</translation>
+        <translation>Ögeyi bitti olarak işaretle</translation>
     </message>
     <message>
         <source>Mark this item as done.</source>
-        <translation>Bu öğeyi bitti olarak işaretle.</translation>
+        <translation>Bu ögeyi bitti olarak işaretleyin.</translation>
     </message>
     <message>
         <source>Source text</source>
@@ -985,19 +1014,31 @@ Tek bir evrensel form alır.</translation>
     </message>
     <message>
         <source>Index</source>
-        <translation>Dizin</translation>
+        <translation type="vanished">Dizin</translation>
     </message>
     <message>
         <source>Context</source>
         <translation>Bağlam</translation>
     </message>
     <message>
+        <source>Label</source>
+        <translation>Etiket</translation>
+    </message>
+    <message>
         <source>Items</source>
-        <translation>Öğeler</translation>
+        <translation>Ögeler</translation>
+    </message>
+    <message>
+        <source>Context/Label</source>
+        <translation>Bağlam/Etiket</translation>
     </message>
     <message>
         <source>This panel lists the source contexts.</source>
         <translation>Bu panel kaynak bağlamları listeler.</translation>
+    </message>
+    <message>
+        <source>This panel lists the source labels.</source>
+        <translation>Bu panel, kaynak etiketlerini listeler.</translation>
     </message>
     <message>
         <source>Strings</source>
@@ -1005,7 +1046,7 @@ Tek bir evrensel form alır.</translation>
     </message>
     <message>
         <source>Phrases and guesses</source>
-        <translation>Deyişler ve tahminler</translation>
+        <translation>Deyişler ve Tahminler</translation>
     </message>
     <message>
         <source>Sources and Forms</source>
@@ -1059,6 +1100,14 @@ Skip loading the first named file?</source>
         <translation>Dosya kaydedildi.</translation>
     </message>
     <message>
+        <source>Please select a file to be saved.</source>
+        <translation>Lütfen kaydedilecek bir dosya seçin.</translation>
+    </message>
+    <message>
+        <source>This function is not available on WebAssembly</source>
+        <translation>Bu işlev, WebAssembly bünyesinde kullanılamıyor</translation>
+    </message>
+    <message>
         <source>Qt message files for released applications (*.qm)
 All files (*)</source>
         <translation>Yayınlanan uygulamalar için Qt mesaj dosyaları (*.qm)
@@ -1071,6 +1120,10 @@ Tüm dosyalar (*)</translation>
     <message>
         <source>Printing...</source>
         <translation>Yazdırılıyor…</translation>
+    </message>
+    <message>
+        <source>Label: %1</source>
+        <translation>Etiket: %1</translation>
     </message>
     <message>
         <source>Context: %1</source>
@@ -1105,8 +1158,25 @@ Tüm dosyalar (*)</translation>
         <translation>Arama tamamlandı.</translation>
     </message>
     <message>
+        <source>Displays the manual for %1.</source>
+        <translation>%1 için olan kılavuzu görüntüler.</translation>
+    </message>
+    <message>
+        <source>Displays information about %1.</source>
+        <translation>%1 hakkında bilgi görüntüler.</translation>
+    </message>
+    <message>
         <source>Qt Linguist</source>
         <translation>Qt Linguist</translation>
+    </message>
+    <message>
+        <source></source>
+        <comment>This is the application&apos;s main window.</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation>Kimlik</translation>
     </message>
     <message>
         <source>Cannot find the string &apos;%1&apos;.</source>
@@ -1176,7 +1246,7 @@ Tüm dosyalar (*)</translation>
     </message>
     <message>
         <source>Unable to launch Qt Assistant (%1)</source>
-        <translation>Qt Assistant başlatılamadı (%1)</translation>
+        <translation type="vanished">Qt Assistant başlatılamadı (%1)</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1224,11 +1294,11 @@ Tüm dosyalar (*)</translation>
     </message>
     <message>
         <source>Display the manual for %1.</source>
-        <translation>%1 için kılavuzu görüntüleyin.</translation>
+        <translation type="vanished">%1 için kılavuzu görüntüleyin.</translation>
     </message>
     <message>
         <source>Display information about %1.</source>
-        <translation>%1 ile ilgili bilgileri görüntüleyin.</translation>
+        <translation type="vanished">%1 ile ilgili bilgileri görüntüleyin.</translation>
     </message>
     <message>
         <source>&amp;Save &apos;%1&apos;</source>
@@ -1237,6 +1307,10 @@ Tüm dosyalar (*)</translation>
     <message>
         <source>Save &apos;%1&apos; &amp;As...</source>
         <translation>F&amp;arklı Kaydet: “%1”…</translation>
+    </message>
+    <message>
+        <source>&amp;Download &apos;%1&apos;</source>
+        <translation>İ&amp;ndir: “%1”</translation>
     </message>
     <message>
         <source>Release &apos;%1&apos;</source>
@@ -1253,6 +1327,10 @@ Tüm dosyalar (*)</translation>
     <message>
         <source>&amp;Save</source>
         <translation>&amp;Kaydet</translation>
+    </message>
+    <message>
+        <source>&amp;Download</source>
+        <translation>İ&amp;ndir</translation>
     </message>
     <message>
         <source>&amp;Close</source>
@@ -1280,7 +1358,7 @@ Tüm dosyalar (*)</translation>
     </message>
     <message>
         <source>Search And &amp;Translate in &apos;%1&apos;...</source>
-        <translation>“%1” içinde Ara Ve &amp;Çevir…</translation>
+        <translation>“%1” İçinde Ara ve &amp;Çevir…</translation>
     </message>
     <message>
         <source>Search And &amp;Translate...</source>
@@ -1328,16 +1406,33 @@ Tüm dosyalar (*)</translation>
         <source>Shift+F3</source>
         <translation>Üst Karakter+F3</translation>
     </message>
+    <message>
+        <source>&amp;QML preview</source>
+        <translation>&amp;QML Ön İzlemesi</translation>
+    </message>
+    <message>
+        <source>Displays a preview of QML documents.</source>
+        <translation>QML belgelerinin bir ön izlemesini görüntüler.</translation>
+    </message>
+    <message>
+        <source>AI Translation...</source>
+        <translation>Yapay Zekâ Çevirisi…</translation>
+    </message>
 </context>
 <context>
     <name>MessageEditor</name>
+    <message>
+        <source></source>
+        <comment>This is the right panel of the main window.</comment>
+        <translation></translation>
+    </message>
     <message>
         <source>This whole panel allows you to view and edit the translation of some source text.</source>
         <translation>Bu panelin tamamı, bazı kaynak metnin çevirisini görüntülemenizi ve düzenlemenizi sağlar.</translation>
     </message>
     <message>
         <source>Source text</source>
-        <translation>Kaynak metin</translation>
+        <translation>Kaynak Metin</translation>
     </message>
     <message>
         <source>This area shows the source text.</source>
@@ -1345,15 +1440,15 @@ Tüm dosyalar (*)</translation>
     </message>
     <message>
         <source>Source text (Plural)</source>
-        <translation>Kaynak metin (Çoğul)</translation>
+        <translation>Kaynak Metin (Çoğul)</translation>
     </message>
     <message>
         <source>This area shows the plural form of the source text.</source>
-        <translation>Bu alan kaynak metnin çoğul halini gösterir.</translation>
+        <translation>Bu alan kaynak metnin çoğul hâlini gösterir.</translation>
     </message>
     <message>
         <source>Developer comments</source>
-        <translation>Geliştirici yorumları</translation>
+        <translation>Geliştirici Yorumları</translation>
     </message>
     <message>
         <source>This area shows a comment that may guide you, and the context in which the text occurs.</source>
@@ -1373,7 +1468,7 @@ Tüm dosyalar (*)</translation>
     </message>
     <message>
         <source>Translation to %1 (%2)</source>
-        <translation>%1 (%2) diline çeviri</translation>
+        <translation>%1 (%2) Diline Çeviri</translation>
     </message>
     <message>
         <source>This is where you can enter or modify the translation of the above source text.</source>
@@ -1381,7 +1476,7 @@ Tüm dosyalar (*)</translation>
     </message>
     <message>
         <source>Translation to %1</source>
-        <translation>%1 diline çeviri</translation>
+        <translation>%1 Diline Çeviri</translation>
     </message>
     <message>
         <source>Translator comments for %1</source>
@@ -1401,8 +1496,12 @@ Satır: %2</translation>
         <translation>%1 için tamamlanma durumu</translation>
     </message>
     <message>
+        <source>&lt;unnamed label&gt;</source>
+        <translation>&lt;adsız etiket&gt;</translation>
+    </message>
+    <message>
         <source>&lt;file header&gt;</source>
-        <translation>&lt;dosya üstbilgisi&gt;</translation>
+        <translation type="vanished">&lt;dosya üstbilgisi&gt;</translation>
     </message>
     <message>
         <source>&lt;context comment&gt;</source>
@@ -1410,7 +1509,7 @@ Satır: %2</translation>
     </message>
     <message>
         <source>&lt;unnamed context&gt;</source>
-        <translation>&lt;adsız bağlam&gt;</translation>
+        <translation type="vanished">&lt;adsız bağlam&gt;</translation>
     </message>
     <message numerus="yes">
         <source>%n unfinished message(s) left.</source>
@@ -1495,6 +1594,11 @@ Satır: %2</translation>
     <message>
         <source>Close</source>
         <translation>Kapat</translation>
+    </message>
+    <message>
+        <source></source>
+        <comment>Go to Phrase &gt; Edit Phrase Book... The dialog that pops up is a PhraseBookBox.</comment>
+        <translation></translation>
     </message>
     <message>
         <source>(New Entry)</source>
@@ -1737,6 +1841,303 @@ Satır: %2</translation>
     <message>
         <source>Any Country</source>
         <translation type="vanished">Herhangi Bir Ülke</translation>
+    </message>
+</context>
+<context>
+    <name>MachineTranslationDialog</name>
+    <message>
+        <source>Auto Translation</source>
+        <translation>Otomatik Çeviri</translation>
+    </message>
+    <message>
+        <source>Context</source>
+        <translation>Bağlam</translation>
+    </message>
+    <message>
+        <source>API Type</source>
+        <translation>API Türü</translation>
+    </message>
+    <message>
+        <source>Optional: Provide additional context about your application (e.g., medical software, game, financial app) for more accurate translations.</source>
+        <translation>İsteğe bağlı: Daha doğru çeviriler için uygulamanız hakkında ek bağlam belirtin (örneğin, ne tür bir yazılım; medikal, oyun, finansal vb.).</translation>
+    </message>
+    <message>
+        <source>Maximum number of retry attempts for failed translation requests</source>
+        <translation>Başarısız çeviri istekleri için yeniden deneme sayısı</translation>
+    </message>
+    <message>
+        <source>Maximum Retries</source>
+        <translation>En Çok Deneme</translation>
+    </message>
+    <message>
+        <source>Maximum number of translation batches to process in parallel</source>
+        <translation>Paralel olarak işlenecek en çok çeviri partisi</translation>
+    </message>
+    <message>
+        <source>Maximum Concurrent Batches</source>
+        <translation>En Çok Paralel Partiler</translation>
+    </message>
+    <message>
+        <source>Timeout for network requests in seconds</source>
+        <translation>Ağ isteklerinin saniye türünden zaman aşımı</translation>
+    </message>
+    <message>
+        <source>Transfer Timeout (seconds)</source>
+        <translation>Transfer Zaman Aşımı (Saniye)</translation>
+    </message>
+    <message>
+        <source>Maximum number of source texts to include in each translation batch</source>
+        <translation>Her bir çeviri partisinde içerilecek en çok kaynak metin sayısı</translation>
+    </message>
+    <message>
+        <source>Maximum Batch Size</source>
+        <translation>En Çok Parti Sayısı</translation>
+    </message>
+    <message>
+        <source>LLM temperature (lower = more deterministic, higher = more creative)</source>
+        <translation>Büyük dil modeli sıcaklığı (daha az = daha belirleyici; daha çok = daha yaratıcı)</translation>
+    </message>
+    <message>
+        <source>Temperature</source>
+        <translation>Sıcaklık</translation>
+    </message>
+    <message>
+        <source>Number of attempts of sending JSON-format requests before falling back to non-JSON format requests</source>
+        <translation>JSON olmayın biçim isteklerine geri dönmeden önce yapılacak en çok JSON biçimli istek denemesi sayısı</translation>
+    </message>
+    <message>
+        <source>Maximum JSON Format Tries</source>
+        <translation>En Çok JSON Biçimi Denemesi</translation>
+    </message>
+    <message>
+        <source>Timeout for waking up an idle Ollama server in seconds</source>
+        <translation>Boştaki bir Ollama sunucusunu uyandırmak için zaman aşımı (saniye türünden)</translation>
+    </message>
+    <message>
+        <source>Ollama Wake-up Timeout (seconds)</source>
+        <translation>Ollama Uyandırma Zaman Aşımı (Saniye)</translation>
+    </message>
+    <message>
+        <source>color: #b58900;</source>
+        <translation>renk: #b58900;</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>Uygula</translation>
+    </message>
+    <message>
+        <source>Reset to Defaults</source>
+        <translation>Varsayılanlara Sıfırla</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Sonraki</translation>
+    </message>
+    <message>
+        <source>Not connected</source>
+        <translation>Bağlı değil</translation>
+    </message>
+    <message>
+        <source>Server URL</source>
+        <translation>Sunucu URL’si</translation>
+    </message>
+    <message>
+        <source>Model</source>
+        <translation>Model</translation>
+    </message>
+    <message>
+        <source>Connect</source>
+        <translation>Bağlan</translation>
+    </message>
+    <message>
+        <source>API Key</source>
+        <translation>API Anahtarı</translation>
+    </message>
+    <message>
+        <source>Optional: Required only for cloud APIs (OpenAI, Anthropic, etc.)</source>
+        <translation>İsteğe bağlı: Yalnızca bulut API’leri için gereklidir (OpenAI, Anthropic, vb.)</translation>
+    </message>
+    <message>
+        <source>All Items</source>
+        <translation>Tüm Ögeler</translation>
+    </message>
+    <message>
+        <source>Text Based</source>
+        <translation>Metin Tabanlı</translation>
+    </message>
+    <message>
+        <source>ID Based</source>
+        <translation>Kimlik Tabanlı</translation>
+    </message>
+    <message>
+        <source>No messages selected</source>
+        <translation>Seçili ileti yok</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Çevir</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>Gruplar</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Süzgeç</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Dosya</translation>
+    </message>
+    <message>
+        <source>Translation Log</source>
+        <translation>Çeviri Günlüğü</translation>
+    </message>
+    <message>
+        <source>Translation status: -</source>
+        <extracomment>Default display when no translations have been processed yet</extracomment>
+        <translation>Çeviri durumu: —</translation>
+    </message>
+    <message>
+        <source>Stop</source>
+        <translation>Durdur</translation>
+    </message>
+    <message>
+        <source>Log Raw Requests</source>
+        <translation>Ham İstekleri Günlükle</translation>
+    </message>
+    <message>
+        <source>Apply Translations</source>
+        <translation>Çevirileri Uygula</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>İptal</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Bitti</translation>
+    </message>
+    <message>
+        <source>Configuration</source>
+        <translation>Yapılandırma</translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>Seçim</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>İlerleme</translation>
+    </message>
+    <message>
+        <source>Translation status: %1/%2 source texts translated, %3/%2 failed.</source>
+        <translation>Çeviri durumu: %1/%2 kaynak metin çevrildi; %3/%2 başarısız oldu.</translation>
+    </message>
+    <message>
+        <source>&lt;hr/&gt;&lt;b&gt;Translation completed: %1/%2 translated, %3/%2 failed.&lt;/b&gt;</source>
+        <translation>&lt;hr/&gt;&lt;b&gt;Çeviri tamamlandı: %1/%2 çevrildi, %3/%2 başarısız oldu.&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Qt Linguist</source>
+        <translation>Qt Linguist</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n translated item(s) will be discarded. Continue?</source>
+        <translation>
+            <numerusform>%n çevrilmiş öge atılacak. Sürdürülsün mü?</numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>Translation Stopped.</source>
+        <translation>Çeviri durduruldu.</translation>
+    </message>
+    <message>
+        <source>Please verify the service URL is valid and a translation model is selected.</source>
+        <translation>Hizmet URL’lerinin geçerli ve bir çeviri modelinin seçili olduğundan emin olun.</translation>
+    </message>
+    <message>
+        <source>Please select a file for translation.</source>
+        <translation>Lütfen çeviri için bir dosya seçin.</translation>
+    </message>
+    <message>
+        <source>Please select at least one context/label to translate.</source>
+        <translation>Lütfen çevrilecek en az bir bağlam/etiket seçin.</translation>
+    </message>
+    <message>
+        <source>No items to translate. All selected messages already have translations.</source>
+        <translation>Çevrilecek hiçbir öge yok. Tüm seçili iletilerin hâlihazırda çevirileri var.</translation>
+    </message>
+    <message>
+        <source>Translation Started</source>
+        <translation>Çeviri Başladı</translation>
+    </message>
+    <message>
+        <source>Plural count expected %1, got %2 for &quot;%3&quot;.</source>
+        <translation>“%3” için %1 çoğul sayısı bekleniyordu; %2 alındı.</translation>
+    </message>
+    <message>
+        <source>Translation Batch:</source>
+        <translation>Çeviri partisi:</translation>
+    </message>
+    <message>
+        <source>Translations Applied.</source>
+        <translation>Çeviriler uygulandı.</translation>
+    </message>
+    <message>
+        <source>Failed Translation(s):</source>
+        <translation>Başarısız çeviriler:</translation>
+    </message>
+    <message>
+        <source>Selection status: -</source>
+        <extracomment>No selected items</extracomment>
+        <translation>Çeviri durumu: —</translation>
+    </message>
+    <message numerus="yes">
+        <source>Selected %n item(s).</source>
+        <translation>
+            <numerusform>%n öge seçildi.</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <source>Selected %n item(s) in %1 group(s).</source>
+        <translation>
+            <numerusform>%1 grupta %n öge seçildi.</numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>Not connected - click &quot;Connect&quot; to fetch models</source>
+        <translation>Bağlı değil — modelleri getirmek için “Bağlan”a tıklayın</translation>
+    </message>
+    <message>
+        <source>Connecting...</source>
+        <translation>Bağlanıyor…</translation>
+    </message>
+    <message>
+        <source>Connected</source>
+        <translation>Bağlı</translation>
+    </message>
+    <message>
+        <source>Connection failed - verify server URL and click &quot;Connect&quot;</source>
+        <translation>Bağlantı kurulamadı — sunucu URL’sini doğrulayın ve “Bağlan”a tıklayın</translation>
+    </message>
+    <message>
+        <source>URL modified - click &quot;Connect&quot; to apply</source>
+        <translation>URL’de değişiklik yapıldı — uygulamak için “Bağlan”a tıklayın</translation>
+    </message>
+    <message>
+        <source>Advanced Settings</source>
+        <translation>Gelişmiş Ayarlar</translation>
+    </message>
+    <message>
+        <source>Warning: Maximum JSON Format Tries: Low value may cause unnecessary format switching due to temporary errors. Recommended: 3 or higher.</source>
+        <extracomment>&quot;Maximum JSON Format Tries&quot; should use the same translation as the label &quot;Maximum JSON Format Tries&quot; in Advanced Settings</extracomment>
+        <translation>Uyarı: En Çok JSON Biçimi Denemesi: Düşük değerler, geçici hatalardan dolayın gereksiz biçim değişikliklerine neden olabilir. 3 veya daha yüksek bir değer önerilir.</translation>
+    </message>
+    <message>
+        <source>Warning: Maximum Retries: Should be at least 3x &apos;Maximum JSON Format Tries&apos; for full fallback coverage</source>
+        <extracomment>&quot;Maximum Retries&quot; and &quot;Maximum JSON Format Tries&quot; should use the same translations as the labels &quot;Maximum Retries&quot; and &quot;Maximum JSON Format Tries&quot; in Advanced Settings</extracomment>
+        <translation>Uyarı: En çok yeniden deneme: Tam yedek kapsaması için en az 3× “En Çok JSON Biçimi Denemesi” olmalıdır</translation>
     </message>
 </context>
 </TS>

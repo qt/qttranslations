@@ -16,7 +16,7 @@
     </message>
     <message>
         <source>Cannot load sqlite database driver.</source>
-        <translation>Sqlite veritabanı sürücüsü yüklenemiyor.</translation>
+        <translation>Sqlite veri tabanı sürücüsü yüklenemiyor.</translation>
     </message>
     <message>
         <source>Cannot open collection file: %1</source>
@@ -40,7 +40,7 @@
     </message>
     <message>
         <source>The collection file &quot;%1&quot; already exists.</source>
-        <translation>“%1” koleksiyon dosyası halihazırda var.</translation>
+        <translation>“%1” koleksiyon dosyası hâlihazırda var.</translation>
     </message>
     <message>
         <source>Cannot create directory: %1</source>
@@ -72,7 +72,7 @@
     </message>
     <message>
         <source>Namespace %1 already exists.</source>
-        <translation>%1 ad alanı halihazırda var.</translation>
+        <translation>%1 ad alanı hâlihazırda var.</translation>
     </message>
     <message>
         <source>Cannot register namespace &quot;%1&quot;.</source>
@@ -92,7 +92,7 @@
     <message>
         <source>Cannot open database &quot;%1&quot; &quot;%2&quot;: %3</source>
         <extracomment>The placeholders are: %1 - The name of the database which cannot be opened %2 - The unique id for the connection %3 - The actual error string</extracomment>
-        <translation>“%1” “%2” veritabanı açılamıyor: %3</translation>
+        <translation>“%1” “%2” veri tabanı açılamıyor: %3</translation>
     </message>
 </context>
 <context>
@@ -224,7 +224,7 @@
     </message>
     <message>
         <source>The filter &quot;%1&quot; already exists.</source>
-        <translation>“%1” süzgeci halihazırda var.</translation>
+        <translation>“%1” süzgeci hâlihazırda var.</translation>
     </message>
     <message>
         <source>No Component</source>
@@ -258,7 +258,7 @@
     <name>fulltextsearch::QHelpSearchIndexWriter</name>
     <message>
         <source>Cannot open database &quot;%1&quot; using connection &quot;%2&quot;: %3</source>
-        <translation>“%2” bağlantısı kullanılarak “%1” veritabanı açılamıyor: %3</translation>
+        <translation>“%2” bağlantısı kullanılarak “%1” veri tabanı açılamıyor: %3</translation>
     </message>
 </context>
 </TS>

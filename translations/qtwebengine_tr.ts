@@ -70,7 +70,7 @@
     </message>
     <message>
         <source>The file cannot be written locally, due to access restrictions</source>
-        <translation>Erişim kısıtlamalarından dolayı dosyaya yerel olarak yazılamıyor.</translation>
+        <translation>Erişim kısıtlamalarından dolayı dosyaya yerel olarak yazılamıyor</translation>
     </message>
     <message>
         <source>Insufficient space on the target drive</source>
@@ -82,7 +82,7 @@
     </message>
     <message>
         <source>The file size exceeds the file system limitation</source>
-        <translation>Dosya boyutu, dosya sistemi sınırlamasını aşıyor.</translation>
+        <translation>Dosya boyutu, dosya sistemi sınırlamasını aşıyor</translation>
     </message>
     <message>
         <source>The file is infected with a virus</source>
@@ -94,11 +94,11 @@
     </message>
     <message>
         <source>The file was blocked due to local policy</source>
-        <translation>Dosya yerel politikadan dolayı engellendi.</translation>
+        <translation>Dosya yerel politikadan dolayı engellendi</translation>
     </message>
     <message>
         <source>Checking the safety of the download failed due to unexpected reasons</source>
-        <translation>İndirmenin güvenliğini denetleme bilinmeyen nedenlerden dolayı başarısız oldu.</translation>
+        <translation>İndirmenin güvenliğini denetleme bilinmeyen nedenlerden dolayı başarısız oldu</translation>
     </message>
     <message>
         <source>File seek past the end of a file (resuming previously interrupted download)</source>
@@ -106,7 +106,7 @@
     </message>
     <message>
         <source>The partial file did not match the expected hash</source>
-        <translation>Kısımsal dosya beklenen sağlamayla eşleşmedi.</translation>
+        <translation>Kısımsal dosya beklenen sağlamayla eşleşmedi</translation>
     </message>
     <message>
         <source>General network failure</source>
@@ -114,15 +114,15 @@
     </message>
     <message>
         <source>The network operation has timed out</source>
-        <translation>Ağ işlemi zaman aşımına uğradı.</translation>
+        <translation>Ağ işlemi zaman aşımına uğradı</translation>
     </message>
     <message>
         <source>The network connection has been terminated</source>
-        <translation>Ağ bağlantısı sonlandırıldı.</translation>
+        <translation>Ağ bağlantısı sonlandırıldı</translation>
     </message>
     <message>
         <source>The server has gone down</source>
-        <translation>Sunucu kapandı.</translation>
+        <translation>Sunucu kapandı</translation>
     </message>
     <message>
         <source>The network request was invalid (for example, the URL or scheme is invalid)</source>
@@ -142,11 +142,11 @@
     </message>
     <message>
         <source>A problem with the server certificate occurred</source>
-        <translation>Sunucu sertifikasıyla ilgili bir sorun oluştu.</translation>
+        <translation>Sunucu sertifikasıyla ilgili bir sorun oluştu</translation>
     </message>
     <message>
         <source>Access forbidden by the server</source>
-        <translation>Erişim, sunucu tarafından engellendi.</translation>
+        <translation>Erişim, sunucu tarafından engellendi</translation>
     </message>
     <message>
         <source>Unexpected server response</source>
@@ -154,7 +154,7 @@
     </message>
     <message>
         <source>Download canceled by the user</source>
-        <translation>İndirme, kullanıcı tarafından iptal edildi.</translation>
+        <translation>İndirme, kullanıcı tarafından iptal edildi</translation>
     </message>
 </context>
 <context>
@@ -211,7 +211,7 @@
     </message>
     <message>
         <source>Reload and Bypass Cache</source>
-        <translation>Yeniden Yükle ve Önbelleği Atla</translation>
+        <translation>Yeniden Yükle ve Ön Belleği Atla</translation>
     </message>
     <message>
         <source>Open link in this window</source>
@@ -247,7 +247,7 @@
     </message>
     <message>
         <source>&amp;Strikethrough</source>
-        <translation>Üz&amp;eri Çizili</translation>
+        <translation>Ü&amp;zeri Çizili</translation>
     </message>
     <message>
         <source>Align &amp;Left</source>
@@ -290,7 +290,7 @@
     </message>
     <message>
         <source>Reload and Bypass Cache</source>
-        <translation>Yeniden Yükle ve Önbelleği Atla</translation>
+        <translation>Yeniden Yükle ve Ön Belleği Atla</translation>
     </message>
     <message>
         <source>Toggle Play/Pause</source>
@@ -330,7 +330,7 @@
     </message>
     <message>
         <source>&amp;Strikethrough</source>
-        <translation>Üz&amp;eri Çizili</translation>
+        <translation>Ü&amp;zeri Çizili</translation>
     </message>
     <message>
         <source>Align &amp;Left</source>
@@ -381,18 +381,18 @@
     </message>
     <message>
         <source>Cannot create separate instance of %1</source>
-        <translation>%1 ögesinin ayrı bir örneği oluşturulamıyor.</translation>
+        <translation>%1 ögesinin ayrı bir örneği oluşturulamıyor</translation>
     </message>
 </context>
 <context>
     <name>QtWebEngineTestSupportPlugin</name>
     <message>
         <source>Cannot create a separate instance of WebEngineErrorPage</source>
-        <translation>WebEngineErrorPage’in ayrı bir örneği oluşturulamıyor.</translation>
+        <translation>WebEngineErrorPage’in ayrı bir örneği oluşturulamıyor</translation>
     </message>
     <message>
         <source>Cannot create a separate instance of WebEngineTestEvent</source>
-        <translation>WebEngineTestEvent’in ayrı bir örneği oluşturulamıyor.</translation>
+        <translation>WebEngineTestEvent’in ayrı bir örneği oluşturulamıyor</translation>
     </message>
 </context>
 <context>
@@ -435,7 +435,7 @@
     </message>
     <message>
         <source>Paste and match style</source>
-        <translation>Yapıştır ve Biçemi Eşleştir</translation>
+        <translation>Yapıştır ve Stili Eşleştir</translation>
     </message>
     <message>
         <source>Open link in new window</source>

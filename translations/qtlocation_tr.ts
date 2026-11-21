@@ -25,7 +25,7 @@ Lütfen https://developers.arcgis.com/authentication/accessing-arcgis-online-ser
     </message>
     <message>
         <source>Plugin does not support mapping.</source>
-        <translation>Eklenti haritalama desteklemiyor.</translation>
+        <translation>Eklenti, haritalama desteklemiyor.</translation>
     </message>
 </context>
 <context>
@@ -55,30 +55,30 @@ Lütfen https://developers.arcgis.com/authentication/accessing-arcgis-online-ser
     <name>QDeclarativeGeocodeModel</name>
     <message>
         <source>Cannot geocode, plugin not set.</source>
-        <translation>Coğrafi kod yapılamıyor, eklenti ayarlanmadı.</translation>
+        <translation>Coğrafî kodlama yapılamıyor, eklenti ayarlanmadı.</translation>
     </message>
     <message>
         <source>Cannot geocode, geocode manager not set.</source>
-        <translation>Coğrafi kod yapılamıyor, coğrafi kod yöneticisi ayarlanmadı.</translation>
+        <translation>Coğrafî kodlama yapılamıyor, coğrafî kod yöneticisi ayarlanmadı.</translation>
     </message>
     <message>
         <source>Cannot geocode, valid query not set.</source>
-        <translation>Coğrafi kod yapılamıyor, geçerli sorgu ayarlanmadı.</translation>
+        <translation>Coğrafî kodlama yapılamıyor, geçerli sorgu ayarlanmadı.</translation>
     </message>
     <message>
         <source>Plugin does not support (reverse) geocoding.</source>
-        <translation>Eklenti (ters) coğrafi kodlamayı desteklemiyor.</translation>
+        <translation>Eklenti (ters) coğrafî kodlamayı desteklemiyor.</translation>
     </message>
 </context>
 <context>
     <name>QDeclarativeNavigator</name>
     <message>
         <source>Plugin does not support navigation.</source>
-        <translation>Eklenti gezinmeyi desteklemiyor.</translation>
+        <translation type="vanished">Eklenti gezinmeyi desteklemiyor.</translation>
     </message>
     <message>
         <source>Failed to create a navigator object.</source>
-        <translation>Bir gezgin nesnesi oluşturulamadı.</translation>
+        <translation type="vanished">Bir gezgin nesnesi oluşturulamadı.</translation>
     </message>
 </context>
 <context>
@@ -150,15 +150,15 @@ Lütfen https://developers.arcgis.com/authentication/accessing-arcgis-online-ser
     </message>
     <message>
         <source>Navigation Preview Day</source>
-        <translation>Dolaşım Önizleme Gün</translation>
+        <translation>Dolaşım Ön İzleme Gündüz</translation>
     </message>
     <message>
         <source>Navigation Preview Night</source>
-        <translation>Dolaşım Önizleme Gece</translation>
+        <translation>Dolaşım Ön İzleme Gece</translation>
     </message>
     <message>
         <source>Navigation Guidance Day</source>
-        <translation>Dolaşım Rehberi Gün</translation>
+        <translation>Dolaşım Rehberi Gündüz</translation>
     </message>
     <message>
         <source>Navigation Guidance Night</source>
@@ -166,7 +166,7 @@ Lütfen https://developers.arcgis.com/authentication/accessing-arcgis-online-ser
     </message>
     <message>
         <source>User provided style</source>
-        <translation>Kullanıcı tarafından sağlanan tarz</translation>
+        <translation>Kullanıcı tarafından sağlanan stil</translation>
     </message>
 </context>
 <context>
@@ -421,47 +421,47 @@ Lütfen https://developers.arcgis.com/authentication/accessing-arcgis-online-ser
     <message>
         <source>eleventh</source>
         <comment>roundabout exit</comment>
-        <translation>onbirinci</translation>
+        <translation>on birinci</translation>
     </message>
     <message>
         <source>twelfth</source>
         <comment>roundabout exit</comment>
-        <translation>onikinci</translation>
+        <translation>on ikinci</translation>
     </message>
     <message>
         <source>thirteenth</source>
         <comment>roundabout exit</comment>
-        <translation>onüçüncü</translation>
+        <translation>on üçüncü</translation>
     </message>
     <message>
         <source>fourteenth</source>
         <comment>roundabout exit</comment>
-        <translation>ondördüncü</translation>
+        <translation>on dördüncü</translation>
     </message>
     <message>
         <source>fifteenth</source>
         <comment>roundabout exit</comment>
-        <translation>onbeşinci</translation>
+        <translation>on beşinci</translation>
     </message>
     <message>
         <source>sixteenth</source>
         <comment>roundabout exit</comment>
-        <translation>onaltıncı</translation>
+        <translation>on altıncı</translation>
     </message>
     <message>
         <source>seventeenth</source>
         <comment>roundabout exit</comment>
-        <translation>onyedinci</translation>
+        <translation>on yedinci</translation>
     </message>
     <message>
         <source>eighteenth</source>
         <comment>roundabout exit</comment>
-        <translation>onsekizinci</translation>
+        <translation>on sekizinci</translation>
     </message>
     <message>
         <source>nineteenth</source>
         <comment>roundabout exit</comment>
-        <translation>ondokuzuncu</translation>
+        <translation>on dokuzuncu</translation>
     </message>
     <message>
         <source>twentieth</source>
@@ -568,7 +568,7 @@ Lütfen https://developers.arcgis.com/authentication/accessing-arcgis-online-ser
     </message>
     <message>
         <source>At the end of the road, turn left</source>
-        <translation>Yolun sonunda sola dönün</translation>
+        <translation>Yolun sonunda, sola dönün</translation>
     </message>
     <message>
         <source>At the end of the road, turn left onto %1</source>
@@ -584,7 +584,7 @@ Lütfen https://developers.arcgis.com/authentication/accessing-arcgis-online-ser
     </message>
     <message>
         <source>At the end of the road, make a U-turn</source>
-        <translation>Yolun sonunda bir U dönüşü yapın</translation>
+        <translation>Yolun sonunda, bir U dönüşü yapın</translation>
     </message>
     <message>
         <source>At the end of the road, make a U-turn onto %1</source>
@@ -612,7 +612,7 @@ Lütfen https://developers.arcgis.com/authentication/accessing-arcgis-online-ser
     </message>
     <message>
         <source>At the fork, take a sharp left</source>
-        <translation>Çataldan keskin bir şekilde sola dönün</translation>
+        <translation>Çatalda, keskin bir şekilde sola dönün</translation>
     </message>
     <message>
         <source>At the fork, take a sharp left onto %1</source>
@@ -620,23 +620,23 @@ Lütfen https://developers.arcgis.com/authentication/accessing-arcgis-online-ser
     </message>
     <message>
         <source>At the fork, turn left</source>
-        <translation>Çataldan sola dönün</translation>
+        <translation>Çatalda, sola dönün</translation>
     </message>
     <message>
         <source>At the fork, turn left onto %1</source>
-        <translation>Çataldan %1 yönünde sola dönün</translation>
+        <translation>Çatalda, %1 yönünde sola dönün</translation>
     </message>
     <message>
         <source>At the fork, keep left</source>
-        <translation>Çatalda soldan gidin</translation>
+        <translation>Çatalda, soldan gidin</translation>
     </message>
     <message>
         <source>At the fork, keep left onto %1</source>
-        <translation>Çatalda %1 yönünde soldan gidin</translation>
+        <translation>Çatalda, %1 yönünde soldan gidin</translation>
     </message>
     <message>
         <source>At the fork, take a sharp right</source>
-        <translation>Çataldan keskin bir şekilde sağa dönün</translation>
+        <translation>Çatalda, keskin bir şekilde sağa dönün</translation>
     </message>
     <message>
         <source>At the fork, take a sharp right onto %1</source>
@@ -644,35 +644,35 @@ Lütfen https://developers.arcgis.com/authentication/accessing-arcgis-online-ser
     </message>
     <message>
         <source>At the fork, turn right</source>
-        <translation>Çataldan sağa dön</translation>
+        <translation>Çatalda, sağa dön</translation>
     </message>
     <message>
         <source>At the fork, turn right onto %1</source>
-        <translation>Çataldan %1 yönünde sağa dönün</translation>
+        <translation>Çatalda, %1 yönünde sağa dönün</translation>
     </message>
     <message>
         <source>At the fork, keep right</source>
-        <translation>Çatalda sağdan gidin</translation>
+        <translation>Çatalda, sağdan gidin</translation>
     </message>
     <message>
         <source>At the fork, keep right onto %1</source>
-        <translation>Çatalda %1 yönünde sağdan gidin</translation>
+        <translation>Çatalda, %1 yönünde sağdan gidin</translation>
     </message>
     <message>
         <source>At the fork, continue straight ahead</source>
-        <translation>Çatalda düz devam edin</translation>
+        <translation>Çatalda, düz devam edin</translation>
     </message>
     <message>
         <source>At the fork, continue straight ahead onto %1</source>
-        <translation>Çatalda %1 yönünde düz devam edin</translation>
+        <translation>Çatalda, %1 yönünde düz devam edin</translation>
     </message>
     <message>
         <source>At the fork, continue</source>
-        <translation>Çatalda devam edin</translation>
+        <translation>Çatalda, devam edin</translation>
     </message>
     <message>
         <source>At the fork, continue onto %1</source>
-        <translation>Çatalda %1 yönünde devam edin</translation>
+        <translation>Çatalda, %1 yönünde devam edin</translation>
     </message>
     <message>
         <source>Merge sharply left</source>
@@ -846,31 +846,31 @@ Lütfen https://developers.arcgis.com/authentication/accessing-arcgis-online-ser
     </message>
     <message>
         <source>At the roundabout, continue straight</source>
-        <translation>Döner kavşakta düz devam edin</translation>
+        <translation>Döner kavşakta, düz devam edin</translation>
     </message>
     <message>
         <source>At the roundabout, continue straight on %1</source>
-        <translation>Döner kavşakta %1 üzerinde düz devam edin</translation>
+        <translation>Döner kavşakta, %1 üzerinde düz devam edin</translation>
     </message>
     <message>
         <source>At the roundabout, turn left</source>
-        <translation>Döner kavşakta sola dönün</translation>
+        <translation>Döner kavşakta, sola dönün</translation>
     </message>
     <message>
         <source>At the roundabout, turn left onto %1</source>
-        <translation>Döner kavşakta %1 yönünde sola dönün</translation>
+        <translation>Döner kavşakta, %1 yönünde sola dönün</translation>
     </message>
     <message>
         <source>At the roundabout, turn right</source>
-        <translation>Döner kavşakta sağa dönün</translation>
+        <translation>Döner kavşakta, sağa dönün</translation>
     </message>
     <message>
         <source>At the roundabout, turn right onto %1</source>
-        <translation>Döner kavşakta %1 yönünde sağa dönün</translation>
+        <translation>Döner kavşakta, %1 yönünde sağa dönün</translation>
     </message>
     <message>
         <source>At the roundabout, turn around</source>
-        <translation>Döner kavşakta geriye dönün</translation>
+        <translation>Döner kavşakta, geriye dönün</translation>
     </message>
     <message>
         <source>At the roundabout, turn around onto %1</source>
@@ -878,11 +878,11 @@ Lütfen https://developers.arcgis.com/authentication/accessing-arcgis-online-ser
     </message>
     <message>
         <source>At the roundabout, continue</source>
-        <translation>Döner kavşakta devam edin</translation>
+        <translation>Döner kavşakta, devam edin</translation>
     </message>
     <message>
         <source>At the roundabout, continue onto %1</source>
-        <translation>Döner kavşakta %1 yönünde devam edin</translation>
+        <translation>Döner kavşakta, %1 yönünde devam edin</translation>
     </message>
     <message>
         <source>Take the train</source>
@@ -1266,11 +1266,11 @@ Lütfen https://www.mapbox.com adresini ziyaret edin.</translation>
     </message>
     <message>
         <source>Cycle Map</source>
-        <translation>Çevrim Haritası</translation>
+        <translation>Bisiklet Haritası</translation>
     </message>
     <message>
         <source>Cycle map view in daylight mode</source>
-        <translation>Gün ışığı kipinde çevrim haritası görünümü</translation>
+        <translation>Gün ışığı kipinde bisiklet haritası görünümü</translation>
     </message>
     <message>
         <source>Transit Map</source>
@@ -1430,8 +1430,14 @@ Lütfen https://www.mapbox.com adresini ziyaret edin.</translation>
     <message>
         <source>Qt Location requires app_id and token parameters.
 Please register at https://developer.here.com/ to get your personal application credentials.</source>
-        <translation>Qt Location, app_id ve token parametreleri gerektirir.
+        <translation type="vanished">Qt Location, app_id ve token parametreleri gerektirir.
 Kişisel başvuru bilgilerinizi almak için lütfen https://developer.here.com/ adresinden kaydolun.</translation>
+    </message>
+    <message>
+        <source>Qt Location requires apiKey parameter.
+Please register at https://developer.here.com/ to get your personal application credentials.</source>
+        <translation>Qt Location, apiKey parametresini gerektirir.
+Kişisel uygulama kimlik bilgilerinizi almak için lütfen https://developer.here.com/ adresinde kayıt olun.</translation>
     </message>
     <message>
         <source>Saving places is not supported.</source>
@@ -1464,6 +1470,115 @@ Kişisel başvuru bilgilerinizi almak için lütfen https://developer.here.com/ 
     <message>
         <source>The response from the service was not in a recognizable format.</source>
         <translation>Hizmetten gelen yanıt tanınabilir bir biçimde değildi.</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoCodeReplyOhosMapKit</name>
+    <message>
+        <source>Response parse error</source>
+        <translation>Yanıt ayrıştırma hatası</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoCodingManagerEngineOhosMapKit</name>
+    <message>
+        <source>Cannot do geocoding query using empty address</source>
+        <translation>Boş adres kullanılarak coğrafî kodlama yapılamıyor</translation>
+    </message>
+    <message>
+        <source>Cannot do reverse geocoding query using non-valid coordinates</source>
+        <translation>Geçerli olmayan koordinatlar kullanarak ters coğrafî kodlama sorgusu yapılamıyor</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoMapReplyOhosMapKit</name>
+    <message>
+        <source>Invalid format of tile data</source>
+        <translation>Geçersiz karo verisi biçimi</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoRouteReplyOhosMapKit</name>
+    <message>
+        <source>Response parse error</source>
+        <translation>Yanıt ayrıştırma hatası</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoRoutingManagerEngineOhosMapKit</name>
+    <message>
+        <source>Selection of multiple travel modes is not supported by OHOS Map Kit plugin</source>
+        <translation>Birden çok yolculuk kipi seçimi, OHOS Harita Kiti eklentisi tarafından desteklenmiyor.</translation>
+    </message>
+    <message>
+        <source>Selected travel mode: %1 is not supported by OHOS Map Kit plugin</source>
+        <translation>Seçili yolculuk kipi: %1, OHOS Harita Kiti eklentisi tarafından desteklenmiyor.</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoServiceProviderFactoryOhosMapKit</name>
+    <message>
+        <source>OHOS Map Kit plugin requires a &apos;%1&apos; parameter. Visit Huawei AppGallery Connect service to generate it.</source>
+        <translation>OHOS Harita Kiti, bir “%1” parametresi gerektiriyor. Bir tane üretmek için lütfen Huawei AppGallery Connect hizmetini ziyaret edin.</translation>
+    </message>
+</context>
+<context>
+    <name>QGeoTiledMappingManagerEngineOhosMapKit</name>
+    <message>
+        <source>Street</source>
+        <translation>Sokak</translation>
+    </message>
+</context>
+<context>
+    <name>OhosMapKit</name>
+    <message>
+        <source>Network reply error: %1</source>
+        <translation>Ağ yanıt hatası: %1</translation>
+    </message>
+    <message>
+        <source>Null reply</source>
+        <translation>Boş yanıt</translation>
+    </message>
+</context>
+<context>
+    <name>QPlaceManagerEngineOhosMapKit</name>
+    <message>
+        <source>OHOS Map Kit allows search of only one category type.</source>
+        <translation>OHOS Harita Kiti, yalnızca bir kategori türünü aramaya izin verir.</translation>
+    </message>
+</context>
+<context>
+    <name>QPlaceSearchReplyOhosMapKit</name>
+    <message>
+        <source>Opening hours</source>
+        <translation>Açılış saati:</translation>
+    </message>
+    <message>
+        <source>Photo URLs</source>
+        <translation>Fotoğraf URL’leri</translation>
+    </message>
+    <message>
+        <source>Phone</source>
+        <translation>Telefon</translation>
+    </message>
+    <message>
+        <source>International phone</source>
+        <translation>Uluslararası telefon</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>Web sitesi</translation>
+    </message>
+    <message>
+        <source>Response parse error</source>
+        <translation>Yanıt ayrıştırma hatası</translation>
+    </message>
+</context>
+<context>
+    <name>QPlaceSearchSuggestionReplyOhosMapKit</name>
+    <message>
+        <source>Response parse error</source>
+        <translation>Yanıt ayrıştırma hatası</translation>
     </message>
 </context>
 </TS>

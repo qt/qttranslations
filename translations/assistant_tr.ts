@@ -70,7 +70,7 @@ Gerekçe:
     </message>
     <message>
         <source>Cannot load sqlite database driver!</source>
-        <translation>Sqlite veritabanı sürücüsü yüklenemiyor!</translation>
+        <translation>Sqlite veri tabanı sürücüsü yüklenemiyor!</translation>
     </message>
 </context>
 <context>
@@ -323,7 +323,7 @@ Gerekçe:
 </source>
         <translation>Kullanım: assistant [Seçenekler]
 
--collectionFile dosya      Öntanımlı yerine belirtilen
+-collectionFile dosya      Varsayılan yerine belirtilen
                              koleksiyon dosyasını kullanır.
 -showUrl url               Belgeyi url ile gösterir
 -enableRemoteControl       Assistant’ın uzaktan
@@ -352,7 +352,8 @@ Gerekçe:
                              yeniden yapılır.
 -quiet                     Herhangi bir hata veya durum
                              iletisi görüntülemez.
--help                      Bu yardım görüntüler.</translation>
+-help                      Bu yardımı görüntüler.
+</translation>
     </message>
     <message>
         <source>Unknown option: %1</source>
@@ -448,7 +449,7 @@ Gerekçe:
     <name>FontPanel</name>
     <message>
         <source>Font</source>
-        <translation>Yazıtipi</translation>
+        <translation>Yazı Tipi</translation>
     </message>
     <message>
         <source>&amp;Writing system</source>
@@ -460,11 +461,11 @@ Gerekçe:
     </message>
     <message>
         <source>&amp;Style</source>
-        <translation>&amp;Biçem</translation>
+        <translation>&amp;Stil</translation>
     </message>
     <message>
         <source>&amp;Point size</source>
-        <translation>&amp;Nokta boyutu</translation>
+        <translation>&amp;Punto</translation>
     </message>
 </context>
 <context>
@@ -580,7 +581,7 @@ Gerekçe:
     <name>MainWindow</name>
     <message>
         <source>Index</source>
-        <translation>Dizin</translation>
+        <translation>İndeks</translation>
     </message>
     <message>
         <source>Contents</source>
@@ -628,11 +629,11 @@ Gerekçe:
     </message>
     <message>
         <source>Print Preview...</source>
-        <translation>Baskı Önizleme…</translation>
+        <translation>Baskı Ön İzleme…</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>&amp;Çıkış</translation>
+        <translation>Çı&amp;kış</translation>
     </message>
     <message>
         <source>CTRL+Q</source>
@@ -652,7 +653,7 @@ Gerekçe:
     </message>
     <message>
         <source>Find &amp;Previous</source>
-        <translation>&amp;Öncekini Bul</translation>
+        <translation>Ö&amp;ncekini Bul</translation>
     </message>
     <message>
         <source>Preferences...</source>
@@ -792,7 +793,7 @@ Gerekçe:
     </message>
     <message>
         <source>Updating search index</source>
-        <translation>Arama dizini güncelleniyor…</translation>
+        <translation>Arama indeksi güncelleniyor…</translation>
     </message>
     <message>
         <source>Could not register file &apos;%1&apos;: %2</source>
@@ -888,11 +889,11 @@ Gerekçe:
     </message>
     <message>
         <source>Fonts</source>
-        <translation>Yazıtipleri</translation>
+        <translation>Yazı Tipleri</translation>
     </message>
     <message>
         <source>Font settings:</source>
-        <translation>Yazıtipi ayarları:</translation>
+        <translation>Yazı tipi ayarları:</translation>
     </message>
     <message>
         <source>Browser</source>
@@ -976,7 +977,7 @@ Gerekçe:
     </message>
     <message>
         <source>Restore to default</source>
-        <translation>Öntanımlılara sıfırla</translation>
+        <translation>Varsayılanlara sıfırla</translation>
     </message>
     <message>
         <source>Appearance</source>

@@ -119,11 +119,23 @@
     </message>
     <message>
         <source>ShowMenu</source>
-        <translation>MenüGöster</translation>
+        <translation type="vanished">MenüGöster</translation>
     </message>
     <message>
         <source>SetFocus</source>
-        <translation>OdakAyarla</translation>
+        <translation type="vanished">OdakAyarla</translation>
+    </message>
+    <message>
+        <source>Show Menu</source>
+        <translation>Menüyü Göster</translation>
+    </message>
+    <message>
+        <source>Set Focus</source>
+        <translation>Odağı Ayarla</translation>
+    </message>
+    <message>
+        <source>Show on Screen</source>
+        <translation>Ekranda Göster</translation>
     </message>
     <message>
         <source>Toggle</source>
@@ -172,6 +184,10 @@
     <message>
         <source>Sets the focus</source>
         <translation>Odağı ayarlar</translation>
+    </message>
+    <message>
+        <source>Moves the element into the visible area</source>
+        <translation>Ögeyi, görünür alana taşır</translation>
     </message>
     <message>
         <source>Toggles the state</source>
@@ -429,15 +445,15 @@ Press ESC to cancel</source>
     </message>
     <message>
         <source>Scheduled printing:</source>
-        <translation>Zamanlanmış baskı:</translation>
+        <translation type="vanished">Zamanlanmış baskı:</translation>
     </message>
     <message>
         <source>Billing information:</source>
-        <translation>Fatura bilgisi:</translation>
+        <translation type="vanished">Fatura bilgisi:</translation>
     </message>
     <message>
         <source>Job priority:</source>
-        <translation>İş önceliği:</translation>
+        <translation type="vanished">İş önceliği:</translation>
     </message>
     <message>
         <source>Banner Pages</source>
@@ -446,12 +462,12 @@ Press ESC to cancel</source>
     <message>
         <source>End:</source>
         <comment>Banner page at end</comment>
-        <translation>Bitiş:</translation>
+        <translation type="vanished">Bitiş:</translation>
     </message>
     <message>
         <source>Start:</source>
         <comment>Banner page at start</comment>
-        <translation>Başlangıç:</translation>
+        <translation type="vanished">Başlangıç:</translation>
     </message>
     <message>
         <source>Print Immediately</source>
@@ -519,6 +535,28 @@ Press ESC to cancel</source>
         <source>Top Secret</source>
         <comment>CUPS Banner page</comment>
         <translation>Çok Gizli</translation>
+    </message>
+    <message>
+        <source>Scheduled &amp;printing:</source>
+        <translation>Planlanan &amp;yazdırma:</translation>
+    </message>
+    <message>
+        <source>&amp;Billing information:</source>
+        <translation>&amp;Fatura bilgisi:</translation>
+    </message>
+    <message>
+        <source>Job &amp;priority:</source>
+        <translation>İş ö&amp;nceliği:</translation>
+    </message>
+    <message>
+        <source>&amp;Start:</source>
+        <comment>Banner page at start</comment>
+        <translation>&amp;Başlangıç:</translation>
+    </message>
+    <message>
+        <source>&amp;End:</source>
+        <comment>Banner page at end</comment>
+        <translation>B&amp;itiş:</translation>
     </message>
 </context>
 <context>
@@ -664,6 +702,10 @@ Press ESC to cancel</source>
     <message>
         <source>Reply was too large</source>
         <translation>Yanıt pek büyüktü</translation>
+    </message>
+    <message>
+        <source>Setting a nameserver is currently not supported on this OS</source>
+        <translation>Bu işletim sistemi üzerinde bir ad sunucusu ayarlamak henüz desteklenmiyor</translation>
     </message>
     <message>
         <source>Could not expand domain name</source>
@@ -1037,7 +1079,7 @@ Press ESC to cancel</source>
     </message>
     <message>
         <source>Look in:</source>
-        <translation>Arama konumu:</translation>
+        <translation type="vanished">Arama konumu:</translation>
     </message>
     <message>
         <source>Back</source>
@@ -1113,7 +1155,7 @@ Press ESC to cancel</source>
     </message>
     <message>
         <source>Files of type:</source>
-        <translation>Şu türde dosyalar:</translation>
+        <translation type="vanished">Şu türde dosyalar:</translation>
     </message>
     <message>
         <source>Find Directory</source>
@@ -1186,7 +1228,7 @@ Lütfen doğru dizin adının verildiğini doğrulayın.</translation>
     <message>
         <source>%1 already exists.
 Do you want to replace it?</source>
-        <translation>%1 halihazırda var.
+        <translation>%1 hâlihazırda var.
 Değiştirmek istiyor musunuz?</translation>
     </message>
     <message>
@@ -1226,6 +1268,14 @@ Yine de silmek istiyor musunuz?</translation>
     <message>
         <source>Remove</source>
         <translation>Kaldır</translation>
+    </message>
+    <message>
+        <source>&amp;Look in:</source>
+        <translation>Ş&amp;uraya bak:</translation>
+    </message>
+    <message>
+        <source>Files of &amp;type:</source>
+        <translation>Şu &amp;türdeki dosyalar:</translation>
     </message>
 </context>
 <context>
@@ -1460,15 +1510,15 @@ Yine de silmek istiyor musunuz?</translation>
     <name>QFontDialog</name>
     <message>
         <source>Select Font</source>
-        <translation>Yazıtipi Seç</translation>
+        <translation>Yazı Tipi Seç</translation>
     </message>
     <message>
         <source>&amp;Font</source>
-        <translation>&amp;Yazıtipi</translation>
+        <translation>&amp;Yazı Tipi</translation>
     </message>
     <message>
         <source>Font st&amp;yle</source>
-        <translation>Yazıtipi biç&amp;emi</translation>
+        <translation>Yazı tipi &amp;stili</translation>
     </message>
     <message>
         <source>&amp;Size</source>
@@ -1543,11 +1593,11 @@ Yine de silmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>Window geometry for the main window, using the X11-syntax, like 100x100+50+50.</source>
-        <translation>100x100+50+50 gibi X11 sözdizimini kullanarak ana pencere için pencere geometrisi.</translation>
+        <translation>100x100+50+50 gibi X11 söz dizimini kullanarak ana pencere için pencere geometrisi.</translation>
     </message>
     <message>
         <source>Default window icon.</source>
-        <translation>Öntanımlı pencere simgesi.</translation>
+        <translation>Varsayılan pencere simgesi.</translation>
     </message>
     <message>
         <source>Title of the first window.</source>
@@ -1699,6 +1749,10 @@ Yine de silmek istiyor musunuz?</translation>
         <source>Failed to initialize decompression: %1</source>
         <translation>Sıkıştırmayı açma başlatılamadı: %1</translation>
     </message>
+    <message>
+        <source>Server stopped accepting new streams before this stream was established</source>
+        <translation>Bu akış kurulmadan önce sunucu yeni akışları kabul etmeyi durdurdu</translation>
+    </message>
 </context>
 <context>
     <name>QHttpSocketEngine</name>
@@ -1747,7 +1801,7 @@ Yine de silmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>Error opening database</source>
-        <translation>Veritabanı açılırken hata oluştu</translation>
+        <translation>Veri tabanı açılırken hata oluştu</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
@@ -2036,15 +2090,15 @@ Yine de silmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>unimplemented: PN_XNUM program headers</source>
-        <translation>gerçeklenmedi: PN_XNUM program üstbilgileri</translation>
+        <translation>gerçeklenmedi: PN_XNUM program üst bilgileri</translation>
     </message>
     <message>
         <source>program header table extends past the end of the file</source>
-        <translation>program üstbilgi tablosu dosyanın sonunu geçiyor</translation>
+        <translation>program üst bilgi tablosu dosyanın sonunu geçiyor</translation>
     </message>
     <message>
         <source>a program header entry extends past the end of the file</source>
-        <translation>bir program üstbilgi girdisi dosyanın sonunu geçiyor</translation>
+        <translation>bir program üst bilgi girdisi dosyanın sonunu geçiyor</translation>
     </message>
     <message>
         <source>a note segment start is not properly aligned (offset 0x%1, alignment %2)</source>
@@ -2056,7 +2110,7 @@ Yine de silmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>section header string table extends past the end of the file</source>
-        <translation>bölüm üstbilgisi dizisi tablosu dosyanın sonunu geçiyor</translation>
+        <translation>bölüm üst bilgisi dizisi tablosu dosyanın sonunu geçiyor</translation>
     </message>
     <message>
         <source>a section name extends past the end of the file</source>
@@ -2068,7 +2122,7 @@ Yine de silmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>unexpected program header entry size (%1)</source>
-        <translation>beklenmedik program üstbilgi girdisi boyutu (%1)</translation>
+        <translation>beklenmedik program üst bilgi girdisi boyutu (%1)</translation>
     </message>
     <message>
         <source>unexpected section entry size (%1)</source>
@@ -2132,7 +2186,7 @@ Yine de silmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>no suitable architecture in fat binary</source>
-        <translation>şişman ikili içinde uygun mimari yok</translation>
+        <translation>şişman ikili içinde uygun mimarî yok</translation>
     </message>
     <message>
         <source>invalid magic %1</source>
@@ -2140,11 +2194,15 @@ Yine de silmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>wrong architecture</source>
-        <translation>yanlış mimari</translation>
+        <translation>yanlış mimarî</translation>
     </message>
     <message>
         <source>not a dynamic library</source>
         <translation>devingen bir kitaplık değil</translation>
+    </message>
+    <message>
+        <source>corrupted encryption_info section</source>
+        <translation>hasar görmüş encryption_info bölümü</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a Qt plugin</source>
@@ -2340,7 +2398,7 @@ Yine de silmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>Unable to open database &apos;%1&apos;</source>
-        <translation>“%1” veritabanı açılamıyor</translation>
+        <translation>“%1” veri tabanı açılamıyor</translation>
     </message>
     <message>
         <source>Unable to connect</source>
@@ -2609,7 +2667,7 @@ Yine de silmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>Another socket is already listening on the same port</source>
-        <translation>Aynı kapıda başka bir yuva halihazırda dinliyor</translation>
+        <translation>Aynı kapıda başka bir yuva hâlihazırda dinliyor</translation>
     </message>
     <message>
         <source>Operation on non-socket</source>
@@ -2695,6 +2753,10 @@ Yine de silmek istiyor musunuz?</translation>
         <translation>%1 aktarılırken hata oluştu — sunucu yanıtı: %2</translation>
     </message>
     <message>
+        <source>Error transferring %1 - server replied with status code %2</source>
+        <translation>%1 aktarılırken hata — sunucu, %2 durum kodu ile yanıt verdi</translation>
+    </message>
+    <message>
         <source>backend start error.</source>
         <translation>arka uç başlatma hatası.</translation>
     </message>
@@ -2708,6 +2770,10 @@ Yine de silmek istiyor musunuz?</translation>
     <message>
         <source>Operation canceled</source>
         <translation>İşlem iptal edildi</translation>
+    </message>
+    <message>
+        <source>Operation timed out</source>
+        <translation>İşlem zaman aşımına uğradı</translation>
     </message>
     <message>
         <source>No suitable proxy found</source>
@@ -2976,11 +3042,11 @@ Yine de silmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>Page order:</source>
-        <translation>Sayfa sırası:</translation>
+        <translation type="vanished">Sayfa sırası:</translation>
     </message>
     <message>
         <source>Pages per sheet:</source>
-        <translation>Yaprak başına sayfa:</translation>
+        <translation type="vanished">Yaprak başına sayfa:</translation>
     </message>
     <message>
         <source>Millimeters (mm)</source>
@@ -3039,6 +3105,14 @@ Yine de silmek istiyor musunuz?</translation>
         <source>CC</source>
         <extracomment>Unit &apos;Cicero&apos;</extracomment>
         <translation>CC</translation>
+    </message>
+    <message>
+        <source>Page &amp;order:</source>
+        <translation>&amp;Sayfa sırası:</translation>
+    </message>
+    <message>
+        <source>Pages &amp;per sheet:</source>
+        <translation>&amp;Yaprak başına sayfa:</translation>
     </message>
 </context>
 <context>
@@ -3591,7 +3665,7 @@ Yine de silmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>Restore Defaults</source>
-        <translation>Öntanımlıları Geri Yükle</translation>
+        <translation>Varsayılanları Geri Yükle</translation>
     </message>
 </context>
 <context>
@@ -3697,7 +3771,7 @@ Yine de silmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>%1 does not follow the correct syntax. Please use &apos;,&apos; to separate ranges and pages, &apos;-&apos; to define ranges and make sure ranges do not intersect with each other.</source>
-        <translation>%1 doğru sözdizimi izlemiyor. Aralıkları ve sayfaları ayırmak için lütfen “,” aralıkları tanımlamak ve aralıkların birbiriyle kesişmediğinden emin olmak için “-” kullanın.</translation>
+        <translation>%1 doğru söz dizimini izlemiyor. Erimleri ve sayfaları ayırmak için lütfen “,”; erimleri tanımlamak ve erimlerin birbiriyle kesişmediğinden emin olmak için “-” kullanın.</translation>
     </message>
     <message>
         <source>Duplex Settings Conflicts</source>
@@ -3738,7 +3812,7 @@ Lütfen farklı bir dosya adı seçin.</translation>
     <message>
         <source>%1 already exists.
 Do you want to overwrite it?</source>
-        <translation>%1 halihazırda var.
+        <translation>%1 hâlihazırda var.
 Üzerine yazmak istiyor musunuz?</translation>
     </message>
     <message>
@@ -3756,15 +3830,16 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     <name>QPrintPreviewDialog</name>
     <message>
         <source>Page Setup</source>
-        <translation>Sayfa Ayarı</translation>
+        <translation>Sayfa Düzeni</translation>
     </message>
     <message>
         <source>%1%</source>
+        <extracomment>Zoom factor percentage value, % is the percent sign</extracomment>
         <translation>%​%1</translation>
     </message>
     <message>
         <source>Print Preview</source>
-        <translation>Yazdırma Önizlemesi</translation>
+        <translation>Baskı Ön İzleme</translation>
     </message>
     <message>
         <source>Next page</source>
@@ -3824,7 +3899,7 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Page setup</source>
-        <translation>Sayfa ayarı</translation>
+        <translation>Sayfa düzeni</translation>
     </message>
     <message>
         <source>Export to PDF</source>
@@ -3843,11 +3918,11 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Page Setup Conflicts</source>
-        <translation>Sayfa Ayarı Çakışmaları</translation>
+        <translation>Sayfa Düzeni Çakışmaları</translation>
     </message>
     <message>
         <source>There are conflicts in page setup options. Do you want to fix them?</source>
-        <translation>Sayfa ayarı seçeneklerinde çakışma var. Onları düzeltmek istiyor musunuz?</translation>
+        <translation>Sayfa düzeni seçeneklerinde çakışma var. Onları düzeltmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>Advanced Option Conflicts</source>
@@ -3855,7 +3930,11 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>There are conflicts in some advanced options. Do you want to fix them?</source>
-        <translation>Bazı gelişmiş seçeneklerde çakışmalar vardır. Onları düzeltmek ister misiniz?</translation>
+        <translation>Bazı gelişmiş seçeneklerde çakışmalar var. Onları düzeltmek istiyor musunuz?</translation>
+    </message>
+    <message>
+        <source>Custom value for %1</source>
+        <translation>%1 için özel değer</translation>
     </message>
 </context>
 <context>
@@ -3874,7 +3953,7 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>There are conflicts in some options. Please fix them.</source>
-        <translation>Bazı seçeneklerde çakışmalar var. Lütfen düzeltin.</translation>
+        <translation>Bazı seçeneklerde çakışmalar var. Lütfen onları düzeltin.</translation>
     </message>
 </context>
 <context>
@@ -3909,7 +3988,7 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Specify pages or ranges separated by commas. Ranges are specified by two numbers separated by a hyphen. E.g: 3,5-7,9 prints pages 3, 5, 6, 7 and 9.</source>
-        <translation>Virgüllerle ayrılmış sayfaları veya aralıkları belirtin. Aralıklar, tire işareti ile ayrılmış iki sayı ile belirtilir. Örneğin: 3,5-7,9; sayfa 3, 5, 6, 7 ve 9’u yazdırır.</translation>
+        <translation>Virgüllerle ayrılmış sayfaları veya erimleri belirtin. Erimler, tire işareti ile ayrılmış iki sayı ile belirtilir. Örneğin: 3,5-7,9; sayfa 3, 5, 6, 7 ve 9’u yazdırır.</translation>
     </message>
     <message>
         <source>Current Page</source>
@@ -3921,7 +4000,7 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Page Set:</source>
-        <translation>Sayfa kümesi:</translation>
+        <translation type="vanished">Sayfa kümesi:</translation>
     </message>
     <message>
         <source>Output Settings</source>
@@ -3929,7 +4008,7 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Copies:</source>
-        <translation>Kopyalar:</translation>
+        <translation>Kopya:</translation>
     </message>
     <message>
         <source>Collate</source>
@@ -3971,6 +4050,10 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
         <source>Short side binding</source>
         <translation>Kısa kenardan ciltleme</translation>
     </message>
+    <message>
+        <source>Page &amp;Set:</source>
+        <translation>Sayfa &amp;ayarı:</translation>
+    </message>
 </context>
 <context>
     <name>QPrintWidget</name>
@@ -3996,7 +4079,7 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation>Önizleme</translation>
+        <translation>Ön İzleme</translation>
     </message>
     <message>
         <source>Type:</source>
@@ -4015,27 +4098,27 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     <name>QProcess</name>
     <message>
         <source>Process failed to start</source>
-        <translation>İşlem başlatılamadı</translation>
+        <translation>Süreç başlatılamadı</translation>
     </message>
     <message>
         <source>Process crashed</source>
-        <translation>İşlem çöktü</translation>
+        <translation>Süreç çöktü</translation>
     </message>
     <message>
         <source>Process operation timed out</source>
-        <translation>İşlemi yapılırken zaman aşımına uğradı</translation>
+        <translation>İşlem, yapılırken zaman aşımına uğradı</translation>
     </message>
     <message>
         <source>Error reading from process</source>
-        <translation>İşlemden okuma hatası</translation>
+        <translation>Süreçten okuma hatası</translation>
     </message>
     <message>
         <source>Error writing to process</source>
-        <translation>İşleme yazma hatası</translation>
+        <translation>Sürece yazma hatası</translation>
     </message>
     <message>
         <source>No program defined</source>
-        <translation>Program tanımlanmadı</translation>
+        <translation>Tanımlanmış program yok</translation>
     </message>
     <message>
         <source>Could not open input redirection for reading</source>
@@ -4253,7 +4336,7 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>syntax error in subpattern name (missing terminator?)</source>
-        <translation>alt dizgi adında sözdizim hatası (eksik sonlandırıcı?)</translation>
+        <translation>alt dizgi adında söz dizimi hatası (eksik sonlandırıcı?)</translation>
     </message>
     <message>
         <source>two named subpatterns have the same name (PCRE2_DUPNAMES not set)</source>
@@ -4405,7 +4488,7 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>syntax error or number too big in (?(VERSION condition</source>
-        <translation>(?(VERSION koşulu içinde sözdizim hatası veya sayı pek büyük</translation>
+        <translation>(?(VERSION koşulu içinde söz dizimi hatası veya sayı pek büyük</translation>
     </message>
     <message>
         <source>internal error: unknown opcode in auto_possessify()</source>
@@ -4737,7 +4820,7 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>invalid syntax</source>
-        <translation>geçersiz sözdizim</translation>
+        <translation>geçersiz söz dizimi</translation>
     </message>
     <message>
         <source>internal error - duplicate substitution match</source>
@@ -4756,11 +4839,11 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     <name>QSQLiteDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>Veritabanı açılırken hata oluştu</translation>
+        <translation>Veri tabanı açılırken hata oluştu</translation>
     </message>
     <message>
         <source>Error closing database</source>
-        <translation>Veritabanı kapatılırken hata oluştu</translation>
+        <translation>Veri tabanı kapatılırken hata oluştu</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
@@ -4817,8 +4900,24 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
         <translation>Dosya adı bir dizini ifade eder</translation>
     </message>
     <message>
+        <source>target is an Alternate Data Stream</source>
+        <translation>hedef bir alternatif veri akışı</translation>
+    </message>
+    <message>
+        <source>target is a content:// virtual file</source>
+        <translation>hedef bir content:// sanal dosyası</translation>
+    </message>
+    <message>
+        <source>target exists and is not a regular file</source>
+        <translation>hedef var ve düzenli bir dosya değil</translation>
+    </message>
+    <message>
+        <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled: %2.</source>
+        <translation>QSaveFile, doğrudan yedek öge etkinleştirilmeden “%1” ögesini açamıyor: %2.</translation>
+    </message>
+    <message>
         <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled.</source>
-        <translation>QSaveFile doğrudan yazma geri dönüşü etkinleştirilmeden “%1” dosyasını açamıyor.</translation>
+        <translation type="vanished">QSaveFile doğrudan yazma geri dönüşü etkinleştirilmeden “%1” dosyasını açamıyor.</translation>
     </message>
     <message>
         <source>Writing canceled by application</source>
@@ -4935,7 +5034,7 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>%1: already exists</source>
-        <translation>%1: Halihazırda var</translation>
+        <translation>%1: Hâlihazırda var</translation>
     </message>
     <message>
         <source>%1: doesn&apos;t exist</source>
@@ -5141,7 +5240,7 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     <message>
         <source>Toggle Media Play/Pause</source>
         <extracomment>Media player button to toggle between playing and paused</extracomment>
-        <translation>Ortamı Çal–Oynat/Duraklat</translation>
+        <translation>Ortamı Çal/Oynat–Duraklat</translation>
     </message>
     <message>
         <source>Home Page</source>
@@ -5589,7 +5688,7 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Subtitle</source>
-        <translation>Altyazı</translation>
+        <translation>Alt Yazı</translation>
     </message>
     <message>
         <source>Audio Cycle Track</source>
@@ -6269,6 +6368,11 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
         <translation>onay kutusu</translation>
     </message>
     <message>
+        <source>switch</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>anahtar</translation>
+    </message>
+    <message>
         <source>radio button</source>
         <extracomment>Role of an accessible object</extracomment>
         <translation>radyo düğmesi</translation>
@@ -6381,7 +6485,7 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     <message>
         <source>footer</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>altbilgi</translation>
+        <translation>alt bilgi</translation>
     </message>
     <message>
         <source>form</source>
@@ -6616,7 +6720,7 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>The OCSP status request had invalid syntax</source>
-        <translation>OCSP durum isteğinde geçersiz sözdizimi vardı</translation>
+        <translation>OCSP durum isteğinde geçersiz söz dizimi vardı</translation>
     </message>
     <message>
         <source>OCSP response contains an unexpected number of SingleResponse structures</source>
@@ -6816,11 +6920,11 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>The certificate provided cannot be used for a client.</source>
-        <translation>Sağlanan sertifika bir istemci için kullanılamaz.</translation>
+        <translation type="vanished">Sağlanan sertifika bir istemci için kullanılamaz.</translation>
     </message>
     <message>
         <source>The certificate provided cannot be used for a server.</source>
-        <translation>Sağlanan sertifika bir sunucu için kullanılamaz.</translation>
+        <translation type="vanished">Sağlanan sertifika bir sunucu için kullanılamaz.</translation>
     </message>
     <message>
         <source>Server did not accept any certificate we could present.</source>
@@ -6871,7 +6975,7 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Fonts</source>
-        <translation>Yazıtipleri</translation>
+        <translation>Yazı Tipleri</translation>
     </message>
     <message>
         <source>Applications</source>
@@ -6899,7 +7003,7 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Cache</source>
-        <translation>Önbellek</translation>
+        <translation>Ön Bellek</translation>
     </message>
     <message>
         <source>State</source>
@@ -6923,7 +7027,7 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Shared Cache</source>
-        <translation>Paylaşılan Önbellek</translation>
+        <translation>Paylaşılan Ön Bellek</translation>
     </message>
     <message>
         <source>Shared State</source>
@@ -6931,7 +7035,7 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>Download</source>
-        <translation>İndirmeler</translation>
+        <translation type="vanished">İndirmeler</translation>
     </message>
     <message>
         <source>Public</source>
@@ -6944,6 +7048,10 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     <message>
         <source>Application Data</source>
         <translation>Uygulama Verisi</translation>
+    </message>
+    <message>
+        <source>Downloads</source>
+        <translation>İndirmeler</translation>
     </message>
     <message>
         <source>Application Configuration</source>
@@ -6967,7 +7075,7 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     </message>
     <message>
         <source>%1: already exists</source>
-        <translation>%1: Halihazırda var</translation>
+        <translation>%1: Hâlihazırda var</translation>
     </message>
     <message>
         <source>%1: does not exist</source>
@@ -7056,7 +7164,7 @@ Lütfen bu seçeneklerden birini kapatın.</translation>
     <name>QUndoModel</name>
     <message>
         <source>&lt;empty&gt;</source>
-        <translation>&lt;empty&gt;</translation>
+        <translation>&lt;boş&gt;</translation>
     </message>
 </context>
 <context>
@@ -7261,6 +7369,10 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
         <translation>Belgenin sonunda fazladan içerik.</translation>
     </message>
     <message>
+        <source>Unexpected token while reading raw inner data.</source>
+        <translation>Ham içsel veri okunurken beklenmedik jeton.</translation>
+    </message>
+    <message>
         <source>Invalid entity value.</source>
         <translation>Geçersiz varlık değeri.</translation>
     </message>
@@ -7319,6 +7431,22 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Invalid attribute in XML declaration: %1 = %2</source>
         <translation>XML beyanında geçersiz öznitelik: %1 = %2</translation>
+    </message>
+    <message>
+        <source>An I/O error occurred while writing</source>
+        <translation>Yazma sırasında bir giriş/çıkış hatası oluştu</translation>
+    </message>
+    <message>
+        <source>An encoding error occurred while writing</source>
+        <translation>Yazma sırasında bir kodlama hatası oluştu</translation>
+    </message>
+    <message>
+        <source>Encountered an invalid XML 1.0 character while writing</source>
+        <translation>Yazma sırasında geçersiz bir XML 1.0 karakterine rastlandı</translation>
+    </message>
+    <message>
+        <source>An error occurred while writing</source>
+        <translation>Yazma sırasında bir hata oluştu</translation>
     </message>
     <message>
         <source>Unexpected token type %1 in %2.</source>
@@ -7597,7 +7725,7 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <name>QMimerSQLDriver</name>
     <message>
         <source>Could not connect to database</source>
-        <translation>Veritabanına bağlanamadı</translation>
+        <translation>Veri tabanına bağlanamadı</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
@@ -7800,7 +7928,9 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     </message>
     <message>
         <source>Java hprof text file</source>
-        <extracomment>application/vnd.java.hprof----------application/vnd.java.hprof.text</extracomment>
+        <extracomment>application/vnd.java.hprof 
+----------
+application/vnd.java.hprof.text</extracomment>
         <translation>Java hprof metin dosyası</translation>
     </message>
     <message>
@@ -7876,7 +8006,7 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>XML syntax for RDF graphs</source>
         <extracomment>application/rdf+xml</extracomment>
-        <translation>RDF grafikleri için XML sözdizimi</translation>
+        <translation>RDF grafikleri için XML söz dizimi</translation>
     </message>
     <message>
         <source>Rich Text Format File</source>
@@ -7951,7 +8081,7 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>XML syntax for IPTC NewsMessages</source>
         <extracomment>application/vnd.iptc.g2.newsmessage+xml</extracomment>
-        <translation>IPTC NewsMessages için XML sözdizimi</translation>
+        <translation>IPTC NewsMessages için XML söz dizimi</translation>
     </message>
     <message>
         <source>KChart File</source>
@@ -8161,12 +8291,12 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>OpenDocument v1.0: Presentation document</source>
         <extracomment>application/vnd.oasis.opendocument.presentation</extracomment>
-        <translation>OpenDocument v1.0: Sunum belgesi</translation>
+        <translation>OpenDocument v1.0: Sunu belgesi</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Presentation document used as template</source>
         <extracomment>application/vnd.oasis.opendocument.presentation-template</extracomment>
-        <translation>OpenDocument v1.0: Şablon olarak kullanılan sunum belgesi</translation>
+        <translation>OpenDocument v1.0: Şablon olarak kullanılan sunu belgesi</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Spreadsheet document</source>
@@ -8185,13 +8315,15 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     </message>
     <message>
         <source>OpenDocument v1.0: Flat Text document</source>
-        <extracomment>application/vnd.oasis.opendocument.tika.flat.document----------application/vnd.oasis.opendocument.flat.text</extracomment>
+        <extracomment>application/vnd.oasis.opendocument.tika.flat.document
+----------
+application/vnd.oasis.opendocument.flat.text</extracomment>
         <translation>OpenDocument v1.0: Düz metin belgesi</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Flat Presentation document</source>
         <extracomment>application/vnd.oasis.opendocument.flat.presentation</extracomment>
-        <translation>OpenDocument v1.0: Düz sunum belgesi</translation>
+        <translation>OpenDocument v1.0: Düz sunu belgesi</translation>
     </message>
     <message>
         <source>OpenDocument v1.0: Flat Spreadsheet document</source>
@@ -8330,7 +8462,9 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     </message>
     <message>
         <source>WARC</source>
-        <extracomment>application/warc----------application/warc+gz</extracomment>
+        <extracomment>application/warc
+----------
+application/warc+gz</extracomment>
         <translation>WARC</translation>
     </message>
     <message>
@@ -8466,22 +8600,22 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>OpenType Font</source>
         <extracomment>application/x-font-otf</extracomment>
-        <translation>OpenType yazıtipi</translation>
+        <translation>OpenType yazı tipi</translation>
     </message>
     <message>
         <source>TrueType Font</source>
         <extracomment>application/x-font-ttf</extracomment>
-        <translation>TrueType yazıtipi</translation>
+        <translation>TrueType yazı tipi</translation>
     </message>
     <message>
         <source>Adobe Font Metric</source>
         <extracomment>application/x-font-adobe-metric</extracomment>
-        <translation>Adobe yazıtipi ölçüsü</translation>
+        <translation>Adobe yazı tipi ölçüsü</translation>
     </message>
     <message>
         <source>Printer Font Metric</source>
         <extracomment>application/x-font-printer-metric</extracomment>
-        <translation>Yazıcı yazıtipi ölçüsü</translation>
+        <translation>Yazıcı yazı tipi ölçüsü</translation>
     </message>
     <message>
         <source>Foxmail Email File</source>
@@ -8705,7 +8839,11 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     </message>
     <message>
         <source>RAR archive</source>
-        <extracomment>application/x-rar-compressed----------application/x-rar-compressed;version=4----------application/x-rar-compressed;version=5</extracomment>
+        <extracomment>application/x-rar-compressed
+----------
+application/x-rar-compressed;version=4
+----------
+application/x-rar-compressed;version=5</extracomment>
         <translation>RAR arşivi</translation>
     </message>
     <message>
@@ -8761,17 +8899,17 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>SAS FDB Consolidation Database File</source>
         <extracomment>application/x-sas-fdb</extracomment>
-        <translation>SAS FDB mutabakat veritabanı dosyası</translation>
+        <translation>SAS FDB mutabakat veri tabanı dosyası</translation>
     </message>
     <message>
         <source>SAS MDDB Multi-Dimensional Database File</source>
         <extracomment>application/x-sas-mddb</extracomment>
-        <translation>SAS MDDB çok boyutlu veritabanı dosyası</translation>
+        <translation>SAS MDDB çok boyutlu veri tabanı dosyası</translation>
     </message>
     <message>
         <source>SAS DMDB Data Mining Database File</source>
         <extracomment>application/x-sas-dmdb</extracomment>
-        <translation>SAS DMDB veri madenciliği veritabanı dosyası</translation>
+        <translation>SAS DMDB veri madenciliği veri tabanı dosyası</translation>
     </message>
     <message>
         <source>SAS Item Store (ItemStor) File</source>
@@ -8861,7 +8999,7 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>TeX Virtual Font format</source>
         <extracomment>application/x-tex-virtual-font</extracomment>
-        <translation>TeX sanal yazıtipi biçimi</translation>
+        <translation>TeX sanal yazı tipi biçimi</translation>
     </message>
     <message>
         <source>Pre-OLE2 (Old) Microsoft Excel Worksheets</source>
@@ -9422,12 +9560,16 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     </message>
     <message>
         <source>AutoCAD Design Web Format</source>
-        <extracomment>model/vnd.dwf----------model/vnd.dwfx+xps</extracomment>
+        <extracomment>model/vnd.dwf
+----------
+model/vnd.dwfx+xps</extracomment>
         <translation>AutoCAD tasarımı web biçimi</translation>
     </message>
     <message>
         <source>ONline Information eXchange (ONIX) for books</source>
-        <extracomment>application/onix-message+xml----------application/onix-message-short+xml</extracomment>
+        <extracomment>application/onix-message+xml
+----------
+application/onix-message-short+xml</extracomment>
         <translation>Kitaplar için ONline Information eXchange (ONIX)</translation>
     </message>
     <message>
@@ -9468,7 +9610,7 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Cascading Style Sheet</source>
         <extracomment>text/css</extracomment>
-        <translation>Basamaklı biçem sayfası</translation>
+        <translation>Basamaklı stil sayfası</translation>
     </message>
     <message>
         <source>HyperText Markup Language</source>
@@ -9518,7 +9660,7 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>C++ source code header</source>
         <extracomment>text/x-c++hdr</extracomment>
-        <translation>C++ kaynak kodu üstbilgisi</translation>
+        <translation>C++ kaynak kodu üst bilgisi</translation>
     </message>
     <message>
         <source>C++ source code</source>
@@ -9533,7 +9675,7 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>C source code header</source>
         <extracomment>text/x-chdr</extracomment>
-        <translation>C kaynak kodu üstbilgisi</translation>
+        <translation>C kaynak kodu üst bilgisi</translation>
     </message>
     <message>
         <source>Clojure source code</source>
@@ -9793,7 +9935,7 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Markdown source code</source>
         <extracomment>text/x-web-markdown</extracomment>
-        <translation>Markdown kaynak kodu</translation>
+        <translation type="vanished">Markdown kaynak kodu</translation>
     </message>
     <message>
         <source>Yacc/Bison source code</source>
@@ -9920,35 +10062,100 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
         <extracomment>text/x-rsrc</extracomment>
         <translation>R kaynak kodu</translation>
     </message>
+    <message>
+        <source>Mach-O Universal</source>
+        <extracomment>application/x-mach-o-universal</extracomment>
+        <translation>Mach-O evrensel</translation>
+    </message>
+    <message>
+        <source>Mach-O relocatable object file</source>
+        <extracomment>application/x-mach-o-object</extracomment>
+        <translation>Mach-O yeniden konumlandırılabilir nesne dosyası</translation>
+    </message>
+    <message>
+        <source>Mach-O executable</source>
+        <extracomment>application/x-mach-o-executable</extracomment>
+        <translation>Mach-O yürütülebiliri</translation>
+    </message>
+    <message>
+        <source>Mach-O fixed VM shared library</source>
+        <extracomment>application/x-mach-o-fvmlib</extracomment>
+        <translation>Mach-O sabit sanal makine paylaşılan kitaplığı</translation>
+    </message>
+    <message>
+        <source>Mach-O core file</source>
+        <extracomment>application/x-mach-o-core</extracomment>
+        <translation>Mach-O çekirdek dosyası</translation>
+    </message>
+    <message>
+        <source>Mach-O preloaded executable</source>
+        <extracomment>application/x-mach-o-preload</extracomment>
+        <translation>Mach-O önceden yüklenmiş yürütülebilir</translation>
+    </message>
+    <message>
+        <source>Mach-O dynamic shared library</source>
+        <extracomment>application/x-mach-o-dylib</extracomment>
+        <translation>Mach-O devingen paylaşılan kitaplık</translation>
+    </message>
+    <message>
+        <source>Mach-O dynamic link editor</source>
+        <extracomment>application/x-mach-o-dylinker</extracomment>
+        <translation>Mach-O devingen bağlantı düzenleyicisi</translation>
+    </message>
+    <message>
+        <source>Mach-O dynamic bundle</source>
+        <extracomment>application/x-mach-o-bundle</extracomment>
+        <translation>Mach-O devingen demet</translation>
+    </message>
+    <message>
+        <source>Mach-O shared library for static linking</source>
+        <extracomment>application/x-mach-o-dylib-stub</extracomment>
+        <translation>Mach-O statik bağlantılama için paylaşılan kitaplık</translation>
+    </message>
+    <message>
+        <source>Mach-O debug symbols file</source>
+        <extracomment>application/x-mach-o-dsym</extracomment>
+        <translation>Mach-O hata ayıklama sembolleri dosyası</translation>
+    </message>
+    <message>
+        <source>Mach-O kext bundle</source>
+        <extracomment>application/x-mach-o-kext-bundle</extracomment>
+        <translation>Mach-O KEXT demeti</translation>
+    </message>
+    <message>
+        <source>Markdown document</source>
+        <extracomment>text/markdown</extracomment>
+        <translation>Markdown belgesi</translation>
+    </message>
 </context>
 <context>
     <name>Assets::Downloader::AssetDownloader</name>
     <message>
         <source>Downloading JSON file...</source>
-        <translation>JSON dosyası indiriliyor…</translation>
+        <translation type="vanished">JSON dosyası indiriliyor…</translation>
     </message>
     <message>
         <source>Downloading zip file...</source>
-        <translation>ZIP dosyası indiriliyor…</translation>
+        <translation type="vanished">ZIP dosyası indiriliyor…</translation>
     </message>
     <message>
         <source>Unzipping...</source>
-        <translation>ZIP açılıyor…</translation>
+        <translation type="vanished">ZIP açılıyor…</translation>
     </message>
     <message>
         <source>Downloading assets...</source>
-        <translation>Varlıklar indiriliyor…</translation>
+        <translation type="vanished">Varlıklar indiriliyor…</translation>
     </message>
     <message>
         <source>Copying assets...</source>
-        <translation>Varlıklar kopyalanıyor…</translation>
+        <translation type="vanished">Varlıklar kopyalanıyor…</translation>
     </message>
 </context>
 <context>
     <name>QCoreApplication</name>
     <message>
         <source>QHttp</source>
-        <translation>QHttp</translation>
+        <translation type="vanished">QHttp</translation>
     </message>
 </context>
 <context>
@@ -9982,7 +10189,7 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     </message>
     <message>
         <source>Image header read failed</source>
-        <translation>Görsel üstbilgisi okuması başarısız</translation>
+        <translation>Görsel üst bilgisi okuması başarısız</translation>
     </message>
     <message>
         <source>Image type not supported</source>
@@ -9998,11 +10205,11 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     </message>
     <message>
         <source>Could not seek to image read footer</source>
-        <translation>Görsel okuması altbilgisine bakılamadı</translation>
+        <translation>Görsel okuması alt bilgisine bakılamadı</translation>
     </message>
     <message>
         <source>Could not read footer</source>
-        <translation>Altbilgi okunamadı</translation>
+        <translation>Alt bilgi okunamadı</translation>
     </message>
     <message>
         <source>Image type (non-TrueVision 2.0) not supported</source>
@@ -10015,6 +10222,18 @@ Gereken en düşük Direct2D sürümü %1. Bu sistemdeki Direct2D sürümü %2.<
     <message>
         <source>Invalid color map depth (%1)</source>
         <translation>Geçersiz renk eşlemi derinliği (%1)</translation>
+    </message>
+    <message>
+        <source>Insufficient image data for declared image size</source>
+        <translation>Beyan edilen görsel boyutu için yetersiz görsel verisi</translation>
+    </message>
+</context>
+<context>
+    <name>QAccessibleColorWellItem</name>
+    <message>
+        <source>RGB %1, %2, %3</source>
+        <extracomment>Color specified via its 3 RGB components (red, green, blue)</extracomment>
+        <translation>RGB %1, %2, %3</translation>
     </message>
 </context>
 </TS>

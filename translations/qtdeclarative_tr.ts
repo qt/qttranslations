@@ -57,7 +57,7 @@
     </message>
     <message>
         <source>Duplicate default property</source>
-        <translation>Yinelenen öntanımlı özellik</translation>
+        <translation>Yinelenen varsayılan özellik</translation>
     </message>
     <message>
         <source>Duplicate alias name</source>
@@ -165,7 +165,7 @@
     </message>
     <message>
         <source>Enum value must be an integer</source>
-        <translation>Enum değeri bir tamsayı olmalıdır</translation>
+        <translation>Enum değeri bir tam sayı olmalıdır</translation>
     </message>
     <message>
         <source>Enum value out of range</source>
@@ -255,7 +255,7 @@
     </message>
     <message>
         <source>Connections: syntax error</source>
-        <translation>Bağlantılar: Sözdizim hatası</translation>
+        <translation>Bağlantılar: Söz dizimi hatası</translation>
     </message>
     <message>
         <source>Connections: script expected</source>
@@ -263,7 +263,7 @@
     </message>
     <message>
         <source>Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(&lt;arguments&gt;) { ... }</source>
-        <translation>Bağlantılarda örtülü olarak tanımlanan onFoo özellikleri kullanımdan kaldırıldı. Bunun yerine bu sözdizimi kullanın: function onFoo(&lt;arguments&gt;) {…}</translation>
+        <translation>Bağlantılarda örtülü olarak tanımlanan onFoo özellikleri kullanımdan kaldırıldı. Bunun yerine bu söz dizimi kullanın: function onFoo(&lt;arguments&gt;) {…}</translation>
     </message>
     <message>
         <source>Detected function &quot;%1&quot; in Connections element. This is probably intended to be a signal handler but no signal of the target matches the name.</source>
@@ -298,7 +298,7 @@
     </message>
     <message>
         <source>&quot;services:&quot; can be used to specify which debug services the debugger should load. Some debug services interact badly with others. The V4 debugger should not be loaded when using the QML profiler as it will force any V4 engines to use the JavaScript interpreter rather than the JIT. The following debug services are available by default:</source>
-        <translation>“services:”, hata ayıklayıcısının hangi hata ayıklama hizmetlerini yüklemesi gerektiğini belirtmek için kullanılabilir. Bazı hata ayıklama hizmetleri diğerleriyle kötü etkileşime girer. VML hata ayıklayıcısı, QML profili oluşturucusu kullanılırken yüklenmemelidir; çünkü herhangi bir V4 motorunu JIT yerine JavaScript yorumlayıcısını kullanmaya zorlar. Aşağıdaki hata ayıklama hizmetleri öntanımlı olarak kullanılabilir:</translation>
+        <translation>“services:”, hata ayıklayıcısının hangi hata ayıklama hizmetlerini yüklemesi gerektiğini belirtmek için kullanılabilir. Bazı hata ayıklama hizmetleri diğerleriyle kötü etkileşime girer. VML hata ayıklayıcısı, QML profili oluşturucusu kullanılırken yüklenmemelidir; çünkü herhangi bir V4 motorunu JIT yerine JavaScript yorumlayıcısını kullanmaya zorlar. Aşağıdaki hata ayıklama hizmetleri varsayılan olarak kullanılabilir:</translation>
     </message>
     <message>
         <source>The QML debugger</source>
@@ -344,7 +344,7 @@
     </message>
     <message>
         <source>Other services offered by qmltooling plugins that implement QQmlDebugServiceFactory and which can be found in the standard plugin paths will also be available and can be specified. If no &quot;services&quot; argument is given, all services found this way, including the default ones, are loaded.</source>
-        <translation>QQmlDebugServiceFactory uygulayan ve standart eklenti yollarında bulunabilen qmltooling eklentileri tarafından sunulan diğer hizmetler de kullanılabilir ve belirtilebilir. Hiçbir “services” argümanı verilmezse öntanımlılar da dahil olmak üzere bu şekilde bulunan tüm hizmetler yüklenir.</translation>
+        <translation>QQmlDebugServiceFactory uygulayan ve standart eklenti yollarında bulunabilen qmltooling eklentileri tarafından sunulan diğer hizmetler de kullanılabilir ve belirtilebilir. Hiçbir “services” argümanı verilmezse varsayılanlar da dahil olmak üzere bu şekilde bulunan tüm hizmetler yüklenir.</translation>
     </message>
 </context>
 <context>
@@ -352,6 +352,10 @@
     <message>
         <source>The delegate of a DelegateModel cannot be changed within onUpdated.</source>
         <translation>Bir DelegateModel temsilcisi onUpdated içinde değiştirilemez.</translation>
+    </message>
+    <message>
+        <source>The delegateModelAccess of a DelegateModel cannot be changed within onUpdated.</source>
+        <translation>Bir DelegateModel’in delegateModelAccess özelliği, onUpdated içerisinde değiştirilemez.</translation>
     </message>
     <message>
         <source>The maximum number of supported DelegateModelGroups is 8</source>
@@ -497,7 +501,7 @@
     </message>
     <message>
         <source>SQL: can&apos;t create database, offline storage is disabled.</source>
-        <translation>SQL: veritabanı oluşturulamıyor, çevrimdışı depolama devre dışı bırakıldı.</translation>
+        <translation>SQL: Veri tabanı oluşturulamıyor, çevrim dışı depolama devre dışı bırakıldı.</translation>
     </message>
     <message>
         <source>LocalStorage: can&apos;t create path %1</source>
@@ -505,11 +509,11 @@
     </message>
     <message>
         <source>SQL: database version mismatch</source>
-        <translation>SQL: veritabanı sürüm uyuşmazlığı</translation>
+        <translation>SQL: Veri tabanı sürümü uyuşmazlığı</translation>
     </message>
     <message>
         <source>SQL: Cannot open database</source>
-        <translation>SQL: Veritabanı açılamıyor</translation>
+        <translation>SQL: Veri tabanı açılamıyor</translation>
     </message>
 </context>
 <context>
@@ -685,7 +689,7 @@
     </message>
     <message>
         <source>Cannot assign object type %1 with no default method</source>
-        <translation>%1 nesne türü öntanımlı yöntemle atanamıyor</translation>
+        <translation>%1 nesne türü varsayılan yöntemle atanamıyor</translation>
     </message>
     <message>
         <source>Cannot connect mismatched signal/slot %1 %vs. %2</source>
@@ -698,6 +702,10 @@
     <message>
         <source>Cannot instantiate bound component outside its creation context</source>
         <translation>Oluşturulma bağlamı dışında bağıl bileşen örneklendirilemiyor</translation>
+    </message>
+    <message>
+        <source>Using grouped property syntax on %1 which has no properties</source>
+        <translation>Hiçbir özelliği bulunmayan %1 üzerinde gruplandırılmış özellik söz dizimi kullanılıyor</translation>
     </message>
     <message>
         <source>Cannot connect mismatched signal/slot %1 vs %2</source>
@@ -751,7 +759,15 @@
     </message>
     <message>
         <source>Invalid import qualifier ID</source>
-        <translation>Geçersiz içe aktarma niteleyici kimliği</translation>
+        <translation type="vanished">Geçersiz içe aktarma niteleyici kimliği</translation>
+    </message>
+    <message>
+        <source>Cyclic alias</source>
+        <translation>Döngüsel arma</translation>
+    </message>
+    <message>
+        <source>Invalid import qualifier &apos;%1&apos;: must start with an uppercase letter</source>
+        <translation>Geçersiz içe aktarma niteleyicisi “%1”: BÜYÜK harfle başlamalıdır</translation>
     </message>
     <message>
         <source>Reserved name &quot;Qt&quot; cannot be used as an qualifier</source>
@@ -871,7 +887,7 @@
     </message>
     <message>
         <source>Illegal syntax for exponential number</source>
-        <translation>Üstel sayı için geçersiz sözdizim</translation>
+        <translation>Üstel sayı için geçersiz söz dizimi</translation>
     </message>
     <message>
         <source>Invalid regular expression flag &apos;%0&apos;</source>
@@ -891,7 +907,7 @@
     </message>
     <message>
         <source>Syntax error</source>
-        <translation>Sözdizim hatası</translation>
+        <translation>Söz dizimi hatası</translation>
     </message>
     <message>
         <source>Imported file must be a script</source>
@@ -972,6 +988,18 @@
         <translation>FINAL özelliği geçersiz kılınamıyor</translation>
     </message>
     <message>
+        <source>Nothing to override. Remove &quot;override&quot; keyword</source>
+        <translation>Geçersiz kılınacak bir şey yok. “override” anahtar sözcüğünü kaldırın.</translation>
+    </message>
+    <message>
+        <source>Cannot override non virtual property. Add &quot;virtual&quot; to the property of the base object</source>
+        <translation>Sanal olmayan özellik geçersiz kılınamıyor. Taban nesnenin özelliğine “virtual” ekleyin.</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>bilinmeyen</translation>
+    </message>
+    <message>
         <source>Invalid signal parameter type: %1</source>
         <translation>Geçersiz sinyal parametresi türü: %1</translation>
     </message>
@@ -985,11 +1013,11 @@
     </message>
     <message>
         <source>Invalid property type</source>
-        <translation>Geçersiz özellik türü</translation>
+        <translation type="vanished">Geçersiz özellik türü</translation>
     </message>
     <message>
         <source>Cyclic alias</source>
-        <translation>Döngüsel arma</translation>
+        <translation type="vanished">Döngüsel arma</translation>
     </message>
     <message>
         <source>Invalid alias target</source>
@@ -1056,7 +1084,7 @@
     </message>
     <message>
         <source>Cannot assign to non-existent default property</source>
-        <translation>Var olmayan öntanımlı özelliğe atanamıyor</translation>
+        <translation>Var olmayan varsayılan özelliğe atanamıyor</translation>
     </message>
     <message>
         <source>Cannot assign to non-existent property &quot;%1&quot;</source>
@@ -1108,11 +1136,11 @@
     </message>
     <message>
         <source>Invalid property assignment: unsigned int expected</source>
-        <translation>Geçersiz özellik ataması: İmzalanmamış tamsayı bekleniyordu</translation>
+        <translation>Geçersiz özellik ataması: İmzalanmamış tam sayı bekleniyordu</translation>
     </message>
     <message>
         <source>Invalid property assignment: int expected</source>
-        <translation>Geçersiz özellik ataması: Tamsayı bekleniyordu</translation>
+        <translation>Geçersiz özellik ataması: Tam sayı bekleniyordu</translation>
     </message>
     <message>
         <source>Invalid property assignment: number expected</source>
@@ -1155,6 +1183,10 @@
         <translation>Geçersiz özellik ataması: %1 bekleniyordus</translation>
     </message>
     <message>
+        <source>Cannot assign object of type &quot;%1&quot; to list property &quot;%2&quot;; expected &quot;%3&quot;</source>
+        <translation>“%1” türündeki nesne, “%2” liste özelliğine atanamıyor; “%3” bekleniyordu.</translation>
+    </message>
+    <message>
         <source>Invalid property assignment: 2D vector expected</source>
         <translation type="vanished">sGeçersiz özellik ataması: 2B vektör bekleniyordu</translation>
     </message>
@@ -1180,7 +1212,7 @@
     </message>
     <message>
         <source>Invalid property assignment: int or array of ints expected</source>
-        <translation>Geçersiz özellik ataması: Tamsayı veya tamsayılar dizilişi bekleniyordu</translation>
+        <translation>Geçersiz özellik ataması: Tam sayı veya tam sayılar dizilişi bekleniyordu</translation>
     </message>
     <message>
         <source>Invalid property assignment: bool or array of bools expected</source>
@@ -1204,7 +1236,7 @@
     </message>
     <message>
         <source>Cannot assign object to list property &quot;%1&quot;</source>
-        <translation>“%1” listesine nesne atanamıyor</translation>
+        <translation type="vanished">“%1” listesine nesne atanamıyor</translation>
     </message>
     <message>
         <source>Cannot assign value of type &quot;%1&quot; to property &quot;%2&quot;, expecting &quot;%3&quot;</source>
@@ -1293,11 +1325,11 @@
     </message>
     <message>
         <source>File is empty</source>
-        <translation>Dosya boş</translation>
+        <translation type="vanished">Dosya boş</translation>
     </message>
     <message>
         <source>Cached QML Unit has no objects</source>
-        <translation>Önbelleklenmiş QML türünde nesne yok</translation>
+        <translation>Ön bellekteki QML biriminde nesne yok</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; is not installed</source>
@@ -1309,7 +1341,7 @@
     </message>
     <message>
         <source>Unreported error adding script import to import database</source>
-        <translation>Veritabanını içe aktarmak için betik içe aktarma eklenirken bildirilmeyen hata</translation>
+        <translation>Veri tabanını içe aktarmak için betik içe aktarma eklenirken bildirilmeyen hata</translation>
     </message>
     <message>
         <source>%1 %2</source>
@@ -1862,6 +1894,18 @@ OpenGL 2.0 veya üstünü sağlayan bir sürücü kurun veya bu mümkün değils
 <context>
     <name>ColorDialog</name>
     <message>
+        <source>Eyedropper</source>
+        <translation>Damlalık</translation>
+    </message>
+    <message>
+        <source>Hue</source>
+        <translation>Ton</translation>
+    </message>
+    <message>
+        <source>Alpha</source>
+        <translation>Alfa</translation>
+    </message>
+    <message>
         <source>Color</source>
         <translation>Renk</translation>
     </message>
@@ -1902,7 +1946,7 @@ OpenGL 2.0 veya üstünü sağlayan bir sürücü kurun veya bu mümkün değils
     <message>
         <source>“%1” already exists.
 Do you want to replace it?</source>
-        <translation>“%1” halihazırda var.
+        <translation>“%1” hâlihazırda var.
 Onu başkasıyla değiştirmek istiyor musunuz?</translation>
     </message>
     <message>
@@ -1912,6 +1956,10 @@ Onu başkasıyla değiştirmek istiyor musunuz?</translation>
     <message>
         <source>Remove</source>
         <translation>Kaldır</translation>
+    </message>
+    <message>
+        <source>Up</source>
+        <translation>Yukarı</translation>
     </message>
 </context>
 <context>
@@ -1939,12 +1987,24 @@ Onu başkasıyla değiştirmek istiyor musunuz?</translation>
         <translation>Aile</translation>
     </message>
     <message>
+        <source>Font family</source>
+        <translation>Yazı tipi ailesi</translation>
+    </message>
+    <message>
         <source>Style</source>
-        <translation>Biçem</translation>
+        <translation>Stil</translation>
+    </message>
+    <message>
+        <source>Font style</source>
+        <translation>Yazı tipi stili</translation>
     </message>
     <message>
         <source>Size</source>
         <translation>Boyut</translation>
+    </message>
+    <message>
+        <source>Font point size</source>
+        <translation>Yazı tipi puntosu</translation>
     </message>
     <message>
         <source>Effects</source>
@@ -2002,8 +2062,12 @@ Onu başkasıyla değiştirmek istiyor musunuz?</translation>
         <translation>kimlik benzersiz değil</translation>
     </message>
     <message>
+        <source>Cyclic alias</source>
+        <translation>Döngüsel arma</translation>
+    </message>
+    <message>
         <source>Circular alias reference detected</source>
-        <translation>Döngüsel arma başvurusu algılandı</translation>
+        <translation type="vanished">Döngüsel arma başvurusu algılandı</translation>
     </message>
     <message>
         <source>Invalid alias reference. Unable to find id &quot;%1&quot;</source>
@@ -2015,7 +2079,7 @@ Onu başkasıyla değiştirmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>Unresolved alias found</source>
-        <translation>Çözülmemiş arma bulundu</translation>
+        <translation type="vanished">Çözülmemiş arma bulundu</translation>
     </message>
 </context>
 <context>
@@ -2039,6 +2103,10 @@ Onu başkasıyla değiştirmek istiyor musunuz?</translation>
     <message>
         <source>- %1 is not a namespace</source>
         <translation>- %1 bir ad alanı değil</translation>
+    </message>
+    <message>
+        <source>- %1 is not an inline component</source>
+        <translation>— %1, bir satır içi bileşen değil</translation>
     </message>
     <message>
         <source>- %1 is not a type</source>
@@ -2094,15 +2162,23 @@ Onu başkasıyla değiştirmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>File name case mismatch for &quot;%1&quot;</source>
-        <translation>“%1” için dosya adı BÜYÜK/küçük harf uyuşmazlığı</translation>
+        <translation type="vanished">“%1” için dosya adı BÜYÜK/küçük harf uyuşmazlığı</translation>
     </message>
     <message>
         <source>static plugin for module &quot;%1&quot; with name &quot;%2&quot; has no metadata URI</source>
-        <translation>“%2” adında “%1” modülünün statik eklentisinde meta veri URI’si yok</translation>
+        <translation type="vanished">“%2” adında “%1” modülünün statik eklentisinde meta veri URI’si yok</translation>
     </message>
     <message>
         <source>static plugin for module &quot;%1&quot; with name &quot;%2&quot; cannot be loaded: %3</source>
-        <translation>“%2” adlı “%1” modülü için statik eklenti yüklenemiyor: %3</translation>
+        <translation type="vanished">“%2” adlı “%1” modülü için statik eklenti yüklenemiyor: %3</translation>
+    </message>
+    <message>
+        <source>Found plugin with old IID, this will be unsupported in upcoming Qt releases:</source>
+        <translation>Eski IID’li eklenti bulundu; bu, bir sonraki Qt sürümünde desteklenmeyecek:</translation>
+    </message>
+    <message>
+        <source>qml static plugin with name &quot;%2&quot; has no metadata URI</source>
+        <translation>“%2” adındaki QML statik eklentisinde üst veri URI’si yok</translation>
     </message>
     <message>
         <source>could not resolve all plugins for module &quot;%1&quot;</source>
@@ -2215,7 +2291,7 @@ Onu başkasıyla değiştirmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>Expected only name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isStructured, isComposite, hasCustomParser, enforcesScopedEnums, aliases, exportMetaObjectRevisions, deferredNames, and immediateNames in script bindings, not &quot;%1&quot;.</source>
-        <translation>Betik bağıntılarında yalnızca name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isStructured, isComposite, hasCustomParser, enforcesScopedEnums, aliases, exportMetaObjectRevisions, deferredNames ve immediateNames bekleniyordu, “%1” değil.</translation>
+        <translation type="vanished">Betik bağıntılarında yalnızca name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isStructured, isComposite, hasCustomParser, enforcesScopedEnums, aliases, exportMetaObjectRevisions, deferredNames ve immediateNames bekleniyordu, “%1” değil.</translation>
     </message>
     <message>
         <source>Expected only script bindings and object definitions.</source>
@@ -2231,7 +2307,7 @@ Onu başkasıyla değiştirmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>Expected only name, type, revision, isPointer, isTypeConstant, isList, isCloned, isConstructor, isMethodConstant, and isJavaScriptFunction in script bindings.</source>
-        <translation>Betik bağıntılarında yalnızca name, type, revision, isPointer, isTypeConstant, isList, isCloned, isConstructor, isMethodConstant ve isJavaScriptFunction bekleniyordu.</translation>
+        <translation type="vanished">Betik bağıntılarında yalnızca name, type, revision, isPointer, isTypeConstant, isList, isCloned, isConstructor, isMethodConstant ve isJavaScriptFunction bekleniyordu.</translation>
     </message>
     <message>
         <source>Method or signal is missing a name script binding.</source>
@@ -2243,7 +2319,7 @@ Onu başkasıyla değiştirmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>Expected only type, name, revision, isPointer, isTypeConstant, isReadonly, isRequired, isFinal, isList, bindable, read, write, isPropertyConstant, reset, notify, index, and privateClass and script bindings.</source>
-        <translation>Yalnızca type, name, revision, isPointer, isTypeConstant, isReadonly, isRequired, isFinal, isList, bindable, read, write, isPropertyConstant, reset, notify, index ve privateClass ve betik bağıntıları bekleniyordu.</translation>
+        <translation type="vanished">Yalnızca type, name, revision, isPointer, isTypeConstant, isReadonly, isRequired, isFinal, isList, bindable, read, write, isPropertyConstant, reset, notify, index ve privateClass ve betik bağıntıları bekleniyordu.</translation>
     </message>
     <message>
         <source>Property object is missing a name script binding.</source>
@@ -2251,7 +2327,23 @@ Onu başkasıyla değiştirmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>Expected only name, alias, isFlag, values, isScoped, or type.</source>
-        <translation>Yalnızca name, alias, isFlag, values, isScoped veya tür bekleniyordu.</translation>
+        <translation type="vanished">Yalnızca name, alias, isFlag, values, isScoped veya tür bekleniyordu.</translation>
+    </message>
+    <message>
+        <source>Expected only lineNumber, name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isStructured, isComposite, hasCustomParser, enforcesScopedEnums, aliases, exportMetaObjectRevisions, deferredNames, and immediateNames in script bindings, not &quot;%1&quot;.</source>
+        <translation>Betik bağıntılarında yalnızca lineNumber, name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isStructured, isComposite, hasCustomParser, enforcesScopedEnums, aliases, exportMetaObjectRevisions, deferredNames ve immediateNames bekleniyordu; “%1” değil.</translation>
+    </message>
+    <message>
+        <source>Expected only name, lineNumber, type, revision, isPointer, isTypeConstant, isList, isCloned, isConstructor, isMethodConstant, and isJavaScriptFunction in script bindings.</source>
+        <translation>Betik bağıntılarında yalnızca name, lineNumber, type, revision, isPointer, isTypeConstant, isList, isCloned, isConstructor, isMethodConstant ve isJavaScriptFunction bekleniyordu.</translation>
+    </message>
+    <message>
+        <source>Expected only type, name, lineNumber, revision, isPointer, isTypeConstant, isReadonly, isRequired, isFinal, isList, bindable, read, write, isPropertyConstant, reset, notify, index, privateClass and script bindings.</source>
+        <translation>Yalnızca type, name, lineNumber, revision, isPointer, isTypeConstant, isReadonly, isRequired, isFinal, isList, bindable, read, write, isPropertyConstant, reset, notify, index, privateClass ve betik bağıntıları bekleniyordu.</translation>
+    </message>
+    <message>
+        <source>Expected only name, alias, isFlag, values, isScoped, type, or lineNumber.</source>
+        <translation>Yalnızca name, alias, isFlag, values, isScoped, type veya lineNumber bekleniyordu.</translation>
     </message>
     <message>
         <source>Expected only name, type, isPointer, isTypeConstant, isReadonly, or IsList script bindings.</source>
@@ -2275,7 +2367,7 @@ Onu başkasıyla değiştirmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>Expected integer after colon.</source>
-        <translation>İki nokta sonrası tamsayı bekleniyordu.</translation>
+        <translation>İki nokta sonrası tam sayı bekleniyordu.</translation>
     </message>
     <message>
         <source>Expected array of strings after colon.</source>
@@ -2303,7 +2395,7 @@ Onu başkasıyla değiştirmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>Expected integer.</source>
-        <translation>Tamsayı bekleniyordu.</translation>
+        <translation>Tam sayı bekleniyordu.</translation>
     </message>
     <message>
         <source>Meta object revision and export version differ.
@@ -2340,11 +2432,11 @@ Revision %1 corresponds to version %2.%3; it should be %4.%5.</source>
     </message>
     <message>
         <source>id attributes should only be a lower case letter followed by letters, numbers or underscore, not %1</source>
-        <translation>id öznitelikleri yalnızca bir küçük harften oluşmalı ve bunu harfler, sayılar veya alt çizgi izlemelidir, %1 değil.</translation>
+        <translation type="vanished">id öznitelikleri yalnızca bir küçük harften oluşmalı ve bunu harfler, sayılar veya alt çizgi izlemelidir, %1 değil.</translation>
     </message>
     <message>
         <source>id attributes should only be a lower case letter followed by letters, numbers or underscore, not %1 %2, assuming they refer to a property</source>
-        <translation>id öznitelikleri yalnızca bir küçük harften oluşmalı ve bunu harfler, sayılar veya alt çizgi izlemelidir, %1 %2 değil (bir özelliğe başvurdukları varsayılarak).</translation>
+        <translation type="vanished">id öznitelikleri yalnızca bir küçük harften oluşmalı ve bunu harfler, sayılar veya alt çizgi izlemelidir, %1 %2 değil (bir özelliğe başvurdukları varsayılarak).</translation>
     </message>
     <message>
         <source>id attributes should have only simple strings as values</source>
@@ -2382,7 +2474,7 @@ Revision %1 corresponds to version %2.%3; it should be %4.%5.</source>
     </message>
     <message>
         <source>Error extracting integer from &apos;%1&apos; at char %2.</source>
-        <translation>%2 karakterinden “%1” tamsayısını çıkarırken hata.</translation>
+        <translation>%2 karakterinden “%1” tam sayısını çıkarırken hata.</translation>
     </message>
     <message>
         <source>Unclosed quoted string at char %1.</source>
@@ -2689,8 +2781,12 @@ Revision %1 corresponds to version %2.%3; it should be %4.%5.</source>
         <translation>%1 için eksik loadInfo</translation>
     </message>
     <message>
+        <source>Could not find the QML/plugins.qmltypes file</source>
+        <translation>QML/plugins.qmltypes dosyası bulunamadı</translation>
+    </message>
+    <message>
         <source>Could not find builtins.qmltypes file</source>
-        <translation>builtins.qmltypes dosyası bulunamadı.</translation>
+        <translation type="vanished">builtins.qmltypes dosyası bulunamadı.</translation>
     </message>
     <message>
         <source>A mutable module was requested in a multithreaded environment</source>
@@ -2786,6 +2882,87 @@ Revision %1 corresponds to version %2.%3; it should be %4.%5.</source>
     <message>
         <source>Can only save to local files</source>
         <translation>Yalnızca yerel dosyalara kaydedilebilir.</translation>
+    </message>
+</context>
+<context>
+    <name>RedoAction</name>
+    <message>
+        <source>Redo</source>
+        <translation>Yinele</translation>
+    </message>
+</context>
+<context>
+    <name>UndoAction</name>
+    <message>
+        <source>Undo</source>
+        <translation>Geri Al</translation>
+    </message>
+</context>
+<context>
+    <name>SideBar</name>
+    <message>
+        <source>Add Favorite</source>
+        <translation>Sık Kullanılanlara Ekle</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlComponentAndAliasResolver</name>
+    <message>
+        <source>Invalid alias reference. Unable to find id &quot;%1&quot;</source>
+        <translation>Geçersiz arma başvurusu. “%1” kimliği bulunamıyor.</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlDebugConsole</name>
+    <message>
+        <source>Show the list of available commands.</source>
+        <translation>Kullanılabilir komutların listesini gösterin.</translation>
+    </message>
+    <message>
+        <source>The following commands are available:</source>
+        <translation>Aşağıdaki komutlar kullanılabilirdir:</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlProfilerQtdWriter</name>
+    <message>
+        <source>Could not open %1 for writing</source>
+        <translation>%1, yazma için açılamadı</translation>
+    </message>
+    <message>
+        <source>Could not open stdout for writing</source>
+        <translation>Stfdout, yazma için açılamadı</translation>
+    </message>
+    <message>
+        <source>No data to save</source>
+        <translation>Kaydedilecek veri yok</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlCodeActions</name>
+    <message>
+        <source>TODO:</source>
+        <translation>Yapılacak:</translation>
+    </message>
+    <message>
+        <source>Move position bindings from the component to the Loader.</source>
+        <translation>Konum bağıntılarını bileşenden yükleyiciye taşıyın.</translation>
+    </message>
+    <message>
+        <source>Check all uses of &apos;parent&apos; inside the root element of the component.</source>
+        <translation>Bileşenin kök ögesinin içinde tüm “parent” kullanımlarını denetleyin.</translation>
+    </message>
+    <message>
+        <source>Rename all outer uses of the id &quot;%1&quot; to &quot;%2.item&quot;.</source>
+        <translation>“%1” kimliğinin tüm dış kullanımlarının adını “%2.item” olarak değiştirin.</translation>
+    </message>
+    <message>
+        <source>Rename all outer uses of the id &quot;%1&quot; to &quot;%2.item.%1&quot;.</source>
+        <translation>“%1” kimliğinin tüm dış kullanımlarının adını “%2.item.%1” olarak değiştirin.</translation>
+    </message>
+    <message>
+        <source>Wrap Component in Loader</source>
+        <translation>Yükleyicideki Bileşeni Kaydır</translation>
     </message>
 </context>
 </TS>

@@ -5,7 +5,7 @@
     <name>QSerialPort</name>
     <message>
         <source>Device is already open</source>
-        <translation>Aygıt halihazırda açık</translation>
+        <translation>Aygıt hâlihazırda açık</translation>
     </message>
     <message>
         <source>Unsupported open mode</source>
@@ -65,7 +65,7 @@
     </message>
     <message>
         <source>The device supports only the ignoring policy</source>
-        <translation>Aygıt yalnızca yok sayma politikasını destekliyor</translation>
+        <translation type="vanished">Aygıt yalnızca yok sayma politikasını destekliyor</translation>
     </message>
 </context>
 </TS>

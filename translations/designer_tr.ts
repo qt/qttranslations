@@ -9,11 +9,11 @@
     </message>
     <message>
         <source>&amp;Next</source>
-        <translation>S&amp;onraki</translation>
+        <translation>&amp;Sonraki</translation>
     </message>
     <message>
         <source>&amp;Case sensitive</source>
-        <translation>&amp;BÜYÜK/küçük harfe duyarlı</translation>
+        <translation>&amp;BÜYÜK/küçük harf duyarlı</translation>
     </message>
     <message>
         <source>Whole &amp;words</source>
@@ -56,7 +56,7 @@
     </message>
     <message>
         <source>Tristate</source>
-        <translation>Üçdurum</translation>
+        <translation>ÜçDurumlu</translation>
     </message>
     <message>
         <source>Unchecked</source>
@@ -64,7 +64,7 @@
     </message>
     <message>
         <source>PartiallyChecked</source>
-        <translation>Kısmiİşaretli</translation>
+        <translation>Kısmîİşaretli</translation>
     </message>
     <message>
         <source>Checked</source>
@@ -90,7 +90,7 @@
     <name>AppFontDialog</name>
     <message>
         <source>Additional Fonts</source>
-        <translation>Ek Yazıtipleri</translation>
+        <translation>Ek Yazı Tipleri</translation>
     </message>
 </context>
 <context>
@@ -101,70 +101,70 @@
     </message>
     <message>
         <source>The font file &apos;%1&apos; does not have read permissions.</source>
-        <translation>“%1” yazıtipi dosyasının okuma izinleri yok.</translation>
+        <translation>“%1” yazı tipi dosyasının okuma izinleri yok.</translation>
     </message>
     <message>
         <source>The font file &apos;%1&apos; is already loaded.</source>
-        <translation>“%1” yazıtipi dosyası halihazırda yüklü.</translation>
+        <translation>“%1” yazı tipi dosyası hâlihazırda yüklü.</translation>
     </message>
     <message>
         <source>The font file &apos;%1&apos; could not be loaded.</source>
-        <translation>“%1” yazıtipi dosyası yüklenemedi.</translation>
+        <translation>“%1” yazı tipi dosyası yüklenemedi.</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a valid font id.</source>
-        <translation>“%1” geçerli bir yazıtipi kimliği değil.</translation>
+        <translation>“%1” geçerli bir yazı tipi kimliği değil.</translation>
     </message>
     <message>
         <source>There is no loaded font matching the id &apos;%1&apos;.</source>
-        <translation>“%1” kimliğiyle eşleşen yüklü yazıtipi yok.</translation>
+        <translation>“%1” kimliğiyle eşleşen yüklü yazı tipi yok.</translation>
     </message>
     <message>
         <source>The font &apos;%1&apos; (%2) could not be unloaded.</source>
-        <translation>“%1” (%2) yazıtipi kaldırılamadı.</translation>
+        <translation>“%1” (%2) yazı tipi kaldırılamadı.</translation>
     </message>
 </context>
 <context>
     <name>AppFontWidget</name>
     <message>
         <source>Fonts</source>
-        <translation>Yazıtipleri</translation>
+        <translation>Yazı Tipleri</translation>
     </message>
     <message>
         <source>Add font files</source>
-        <translation>Yazıtipi dosyaları ekle</translation>
+        <translation>Yazı tipi dosyaları ekle</translation>
     </message>
     <message>
         <source>Remove current font file</source>
-        <translation>Geçerli yazıtipi dosyasını kaldır</translation>
+        <translation>Geçerli yazı tipi dosyasını kaldır</translation>
     </message>
     <message>
         <source>Remove all font files</source>
-        <translation>Tüm yazıtipi dosyalarını kaldır</translation>
+        <translation>Tüm yazı tipi dosyalarını kaldır</translation>
     </message>
     <message>
         <source>Add Font Files</source>
-        <translation>Yazıtipi Dosyaları Ekle</translation>
+        <translation>Yazı Tipi Dosyaları Ekle</translation>
     </message>
     <message>
         <source>Font files (*.ttf)</source>
-        <translation>Yazıtipi dosyaları (*.ttf)</translation>
+        <translation>Yazı tipi dosyaları (*.ttf)</translation>
     </message>
     <message>
         <source>Error Adding Fonts</source>
-        <translation>Yazıtipi Ekleme Hatası</translation>
+        <translation>Yazı Tipi Ekleme Hatası</translation>
     </message>
     <message>
         <source>Error Removing Fonts</source>
-        <translation>Yazıtipi Kaldırma Hatası</translation>
+        <translation>Yazı Tipi Kaldırma Hatası</translation>
     </message>
     <message>
         <source>Remove Fonts</source>
-        <translation>Yazıtiplerini Kaldır</translation>
+        <translation>Yazı Tiplerini Kaldır</translation>
     </message>
     <message>
         <source>Would you like to remove all fonts?</source>
-        <translation>Tüm yazıtiplerini kaldırmak ister misiniz?</translation>
+        <translation>Tüm yazı tiplerini kaldırmak ister misiniz?</translation>
     </message>
 </context>
 <context>
@@ -182,15 +182,15 @@
     <name>AssistantClient</name>
     <message>
         <source>Unable to send request: Assistant is not responding.</source>
-        <translation>İstek gönderilemiyor: Assistant yanıt vermiyor.</translation>
+        <translation type="vanished">İstek gönderilemiyor: Assistant yanıt vermiyor.</translation>
     </message>
     <message>
         <source>The binary &apos;%1&apos; does not exist.</source>
-        <translation>“%1” ikilisi yok.</translation>
+        <translation type="vanished">“%1” ikilisi yok.</translation>
     </message>
     <message>
         <source>Unable to launch assistant (%1).</source>
-        <translation>Assistant başlatılamadı (%1).</translation>
+        <translation type="vanished">Assistant başlatılamadı (%1).</translation>
     </message>
 </context>
 <context>
@@ -257,7 +257,7 @@
     </message>
     <message>
         <source>Style</source>
-        <translation>Biçem</translation>
+        <translation>Stil</translation>
     </message>
     <message>
         <source>Color</source>
@@ -676,7 +676,7 @@
     <message>
         <source>&apos;%1&apos; is not a number.</source>
         <extracomment>Reading a number for an embedded device profile</extracomment>
-        <translation>“%1” bir sayı değil.</translation>
+        <translation>“%1”, bir sayı değil.</translation>
     </message>
     <message>
         <source>An invalid tag &lt;%1&gt; was encountered.</source>
@@ -691,15 +691,15 @@
     </message>
     <message>
         <source>&amp;Point Size</source>
-        <translation>&amp;Nokta Boyutu</translation>
+        <translation>&amp;Punto</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation>Biçem</translation>
+        <translation>Stil</translation>
     </message>
     <message>
         <source>Device DPI</source>
-        <translation>Aygıt DPI</translation>
+        <translation>Aygıt DPI’si</translation>
     </message>
     <message>
         <source>Name</source>
@@ -726,7 +726,7 @@
     </message>
     <message>
         <source>Syntax error: %1</source>
-        <translation>Sözdizimi hatası: %1</translation>
+        <translation>Söz dizimi hatası: %1</translation>
     </message>
     <message>
         <source>The skin &quot;up&quot; image file &apos;%1&apos; does not exist.</source>
@@ -746,7 +746,7 @@
     </message>
     <message>
         <source>Syntax error in area definition: %1</source>
-        <translation>Alan tanımında sözdizimi hatası: %1</translation>
+        <translation>Alan tanımında söz dizimi hatası: %1</translation>
     </message>
     <message>
         <source>Mismatch in number of areas, expected %1, got %2.</source>
@@ -758,7 +758,7 @@
     <message>
         <source>&lt;html&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Font&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1, %2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Style&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Resolution&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%4 x %5&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;</source>
         <extracomment>Format embedded device profile description</extracomment>
-        <translation>&lt;html&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Yazıtipi&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1, %2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Biçem&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Çözünürlük&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%4 × %5&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Yazı Tipi&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1, %2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Stil&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Çözünürlük&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%4 × %5&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -778,7 +778,7 @@
     <name>FontPanel</name>
     <message>
         <source>Font</source>
-        <translation>Yazıtipi</translation>
+        <translation>Yazı Tipi</translation>
     </message>
     <message>
         <source>&amp;Writing system</source>
@@ -790,18 +790,18 @@
     </message>
     <message>
         <source>&amp;Style</source>
-        <translation>&amp;Biçem</translation>
+        <translation>&amp;Stil</translation>
     </message>
     <message>
         <source>&amp;Point size</source>
-        <translation>&amp;Nokta boyutu</translation>
+        <translation>&amp;Punto</translation>
     </message>
 </context>
 <context>
     <name>FontPropertyManager</name>
     <message>
         <source>PreferDefault</source>
-        <translation>ÖntanımlıTercih</translation>
+        <translation>VarsayılanTercih</translation>
     </message>
     <message>
         <source>NoAntialias</source>
@@ -814,22 +814,22 @@
     <message>
         <source>PreferDefaultHinting</source>
         <comment>QFont::StyleStrategy combo</comment>
-        <translation>Öntanımlı düzeltme tercih et</translation>
+        <translation>VarsayılanGölgelemeyiYeğle</translation>
     </message>
     <message>
         <source>PreferNoHinting</source>
         <comment>QFont::StyleStrategy combo</comment>
-        <translation>Düzeltme tercih etme</translation>
+        <translation>GölgelemeYeğleme</translation>
     </message>
     <message>
         <source>PreferVerticalHinting</source>
         <comment>QFont::StyleStrategy combo</comment>
-        <translation>Dikey düzeltme tercih et</translation>
+        <translation>DikeyGölgelemeYeğle</translation>
     </message>
     <message>
         <source>PreferFullHinting</source>
         <comment>QFont::StyleStrategy combo</comment>
-        <translation>Tam düzeltme tercih et</translation>
+        <translation>TamGölgelemeYeğle</translation>
     </message>
     <message>
         <source>Antialiasing</source>
@@ -837,7 +837,7 @@
     </message>
     <message>
         <source>HintingPreference</source>
-        <translation>Düzeltme tercihi</translation>
+        <translation>GölgelemeTercihi</translation>
     </message>
     <message>
         <source>Thin</source>
@@ -907,11 +907,11 @@
     </message>
     <message>
         <source>Preview Zoom</source>
-        <translation>Önizleme Yakınlaştırma</translation>
+        <translation>Ön İzleme Yakınlaştırma</translation>
     </message>
     <message>
         <source>Default Zoom</source>
-        <translation>Öntanımlı Yakınlaştırma</translation>
+        <translation>Varsayılan Yakınlaştırma</translation>
     </message>
     <message>
         <source>Forms</source>
@@ -920,7 +920,7 @@
     </message>
     <message>
         <source>Default Grid</source>
-        <translation>Öntanımlı Izgara</translation>
+        <translation>Varsayılan Izgara</translation>
     </message>
     <message>
         <source>Object Naming Convention</source>
@@ -932,11 +932,11 @@
     </message>
     <message>
         <source>Camel Case</source>
-        <translation>Deve Kılıfı</translation>
+        <translation>Baş Harfler Büyük</translation>
     </message>
     <message>
         <source>Underscore</source>
-        <translation>Vurgulama</translation>
+        <translation>Altı Çizili</translation>
     </message>
 </context>
 <context>
@@ -974,7 +974,7 @@
     <name>FormWindow</name>
     <message>
         <source>Unexpected element &lt;%1&gt;</source>
-        <translation>Beklenmeyen öge &lt;%1&gt;</translation>
+        <translation>Beklenmedik öge &lt;%1&gt;</translation>
     </message>
     <message>
         <source>Error while pasting clipboard contents at line %1, column %2: %3</source>
@@ -993,7 +993,7 @@
     </message>
     <message>
         <source>&amp;Include Hints</source>
-        <translation>&amp;İpuçlarını Dahil Et</translation>
+        <translation>İ&amp;puçlarını Dahil Et</translation>
     </message>
     <message>
         <source>Translations</source>
@@ -1005,7 +1005,7 @@
     </message>
     <message>
         <source>&amp;Pixmap Function</source>
-        <translation>&amp;Pixmap İşlevi</translation>
+        <translation>&amp;Piksel Eşlem İşlevi</translation>
     </message>
     <message>
         <source>&amp;Author</source>
@@ -1017,7 +1017,7 @@
     </message>
     <message>
         <source>Layout &amp;Default</source>
-        <translation>&amp;Yerleşim Öntanımlısı</translation>
+        <translation>&amp;Yerleşim Varsayılanı</translation>
     </message>
     <message>
         <source>&amp;Spacing:</source>
@@ -1025,7 +1025,7 @@
     </message>
     <message>
         <source>&amp;Margin:</source>
-        <translation>&amp;Kenar Payı:</translation>
+        <translation>&amp;Kenar payı:</translation>
     </message>
     <message>
         <source>&amp;Layout Function</source>
@@ -1033,7 +1033,7 @@
     </message>
     <message>
         <source>Ma&amp;rgin:</source>
-        <translation>Kena&amp;r Payı:</translation>
+        <translation>Kena&amp;r payı:</translation>
     </message>
     <message>
         <source>Spa&amp;cing:</source>
@@ -1047,36 +1047,44 @@
         <source>Connect slots by name</source>
         <translation>Yuvaları ada göre bağla</translation>
     </message>
+    <message>
+        <source>ID-based label:</source>
+        <translation>Kimlik tabanlı etiket:</translation>
+    </message>
+    <message>
+        <source>Enter a label name to group id based translations of the form (optional)</source>
+        <translation>Formun kimlik tabanlı çevirilerini gruplamak için bir etiket adı girin</translation>
+    </message>
 </context>
 <context>
     <name>IconSelector</name>
     <message>
         <source>The pixmap file &apos;%1&apos; cannot be read.</source>
-        <translation>“%1” pixmap dosyası okunamıyor.</translation>
+        <translation type="vanished">“%1” pixmap dosyası okunamıyor.</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; does not appear to be a valid pixmap file: %2</source>
-        <translation>“%1” dosyası geçerli bir pixmap dosyası gibi görünmüyor: %2</translation>
+        <translation type="vanished">“%1” dosyası geçerli bir pixmap dosyası gibi görünmüyor: %2</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; could not be read: %2</source>
-        <translation>“%1” dosyası okunamadı: %2</translation>
+        <translation type="vanished">“%1” dosyası okunamadı: %2</translation>
     </message>
     <message>
         <source>All Pixmaps (</source>
-        <translation>Tüm Pixmaplar (</translation>
+        <translation>Tüm Piksel Eşlemler (</translation>
     </message>
     <message>
         <source>Choose a Pixmap</source>
-        <translation>Bir Pixmap seçin</translation>
+        <translation type="vanished">Bir Pixmap seçin</translation>
     </message>
     <message>
         <source>Pixmap Read Error</source>
-        <translation>Pixmap Okuma Hatası</translation>
+        <translation type="vanished">Pixmap Okuma Hatası</translation>
     </message>
     <message>
         <source>...</source>
-        <translation>…</translation>
+        <translation type="vanished">…</translation>
     </message>
     <message>
         <source>Normal Off</source>
@@ -1112,19 +1120,19 @@
     </message>
     <message>
         <source>Choose Resource...</source>
-        <translation>Özkaynak Seç…</translation>
+        <translation type="vanished">Özkaynak Seç…</translation>
     </message>
     <message>
         <source>Choose File...</source>
-        <translation>Dosya Seç…</translation>
+        <translation type="vanished">Dosya Seç…</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Sıfırla</translation>
+        <translation type="vanished">Sıfırla</translation>
     </message>
     <message>
         <source>Reset All</source>
-        <translation>Tümünü Sıfırla</translation>
+        <translation type="vanished">Tümünü Sıfırla</translation>
     </message>
 </context>
 <context>
@@ -1262,15 +1270,15 @@
     </message>
     <message>
         <source>Print/Preview Configuration</source>
-        <translation>Yazdırma/Önizleme Yapılandırması</translation>
+        <translation>Yazdırma/Ön İzleme Yapılandırması</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation>Biçem</translation>
+        <translation>Stil</translation>
     </message>
     <message>
         <source>Style sheet</source>
-        <translation>Biçem Sayfası</translation>
+        <translation>Stil Sayfası</translation>
     </message>
     <message>
         <source>...</source>
@@ -1302,7 +1310,7 @@
     <message>
         <source>Attempt to add a layout to a widget &apos;%1&apos; (%2) which already has a layout of non-box type %3.
 This indicates an inconsistency in the ui-file.</source>
-        <translation>Halihazırda %3 türünde kutu olmayan bir yerleşime sahip olan “%1” (%2) araç takımına bir yerleşim eklemeyi deneyin.
+        <translation>Hâlihazırda %3 türünde kutu olmayan bir yerleşime sahip olan “%1” (%2) araç takımına bir yerleşim eklemeyi deneyin.
 Bu, arayüz dosyasında bir tutarsızlık olduğunu gösterir.</translation>
     </message>
     <message>
@@ -1311,7 +1319,7 @@ Bu, arayüz dosyasında bir tutarsızlık olduğunu gösterir.</translation>
     </message>
     <message>
         <source>Flags property are not supported yet.</source>
-        <translation>Flags özelliği henüz desteklenmiyor.</translation>
+        <translation type="vanished">Flags özelliği henüz desteklenmiyor.</translation>
     </message>
     <message>
         <source>While applying tab stops: The widget &apos;%1&apos; could not be found.</source>
@@ -1384,7 +1392,7 @@ Bu, arayüz dosyasında bir tutarsızlık olduğunu gösterir.</translation>
     </message>
     <message>
         <source>The class %1 already exists.</source>
-        <translation>%1 sınıfı zaten var.</translation>
+        <translation>%1 sınıfı hâlihazırda var.</translation>
     </message>
     <message>
         <source>Promoted Widgets</source>
@@ -1396,7 +1404,7 @@ Bu, arayüz dosyasında bir tutarsızlık olduğunu gösterir.</translation>
     </message>
     <message>
         <source>The class %1 cannot be removed because it is still referenced.</source>
-        <translation>%1 sınıfı halen başvurulduğu için kaldırılamaz.</translation>
+        <translation>%1 sınıfı hâlen başvurulduğu için kaldırılamaz.</translation>
     </message>
     <message>
         <source>The class %1 cannot be renamed</source>
@@ -1408,7 +1416,7 @@ Bu, arayüz dosyasında bir tutarsızlık olduğunu gösterir.</translation>
     </message>
     <message>
         <source>There is already a class named %1.</source>
-        <translation>Zaten %1 adında bir sınıf var.</translation>
+        <translation>Hâlihazırda %1 adında bir sınıf var.</translation>
     </message>
     <message>
         <source>Cannot set an empty include file.</source>
@@ -1502,11 +1510,11 @@ Bu, arayüz dosyasında bir tutarsızlık olduğunu gösterir.</translation>
     </message>
     <message>
         <source>Additional Fonts...</source>
-        <translation>Ek Yazıtipleri…</translation>
+        <translation>Ek Yazı Tipleri…</translation>
     </message>
     <message>
         <source>ALT+CTRL+S</source>
-        <translation>ALT+CTRL+S</translation>
+        <translation>Seçenek+Kontrol+S</translation>
     </message>
     <message>
         <source>CTRL+SHIFT+S</source>
@@ -1588,7 +1596,7 @@ Dosya konumunu güncellemek veya yeni bir form oluşturmak istiyor musunuz?</tra
     </message>
     <message>
         <source>Save Form?</source>
-        <translation>Form Kaydedilsin mi?</translation>
+        <translation>Formu Kaydet?</translation>
     </message>
     <message>
         <source>Could not open file</source>
@@ -1617,7 +1625,7 @@ Yeniden denemek veya farklı bir dosya seçmek ister misiniz?</translation>
     <message>
         <source>It was not possible to write the file %1 to disk.
 Reason: %2</source>
-        <translation>%1 dosyasını diske yazmak mümkün değildi.
+        <translation>%1 dosyasını diske yazmak olanaklı değildi.
 Nedeni: %2</translation>
     </message>
     <message>
@@ -1626,7 +1634,7 @@ Nedeni: %2</translation>
     </message>
     <message>
         <source>&amp;Close Preview</source>
-        <translation>Önizlemeyi &amp;Kapat</translation>
+        <translation>Ön İzlemeyi &amp;Kapat</translation>
     </message>
     <message>
         <source>The backup file %1 could not be written: %2</source>
@@ -1646,7 +1654,7 @@ Nedeni: %2</translation>
     </message>
     <message>
         <source>Preview failed</source>
-        <translation>Önizleme başarısız oldu</translation>
+        <translation>Ön izleme başarısız oldu</translation>
     </message>
     <message>
         <source>Image files (*.%1)</source>
@@ -1666,7 +1674,7 @@ Nedeni: %2</translation>
     </message>
     <message>
         <source>Please close all forms to enable the loading of additional fonts.</source>
-        <translation>Lütfen ek yazıtiplerinin yüklenmesini sağlamak için tüm formları kapatın.</translation>
+        <translation>Lütfen ek yazı tiplerinin yüklenmesini sağlamak için tüm formları kapatın.</translation>
     </message>
     <message>
         <source>Printed %1.</source>
@@ -1678,7 +1686,7 @@ Nedeni: %2</translation>
     <message>
         <source>Appearance</source>
         <extracomment>Tab in preferences dialog</extracomment>
-        <translation>Görünüm</translation>
+        <translation>Görünüş</translation>
     </message>
 </context>
 <context>
@@ -1693,7 +1701,7 @@ Nedeni: %2</translation>
     </message>
     <message>
         <source>Toolwindow Font</source>
-        <translation>Araç Penceresi Yazıtipi</translation>
+        <translation>Araç Penceresi Yazı Tipi</translation>
     </message>
 </context>
 <context>
@@ -1719,7 +1727,7 @@ Nedeni: %2</translation>
     <name>QDesignerFormBuilder</name>
     <message>
         <source>The preview failed to build.</source>
-        <translation>Önizleme oluşturulamadı.</translation>
+        <translation>Ön izleme oluşturulamadı.</translation>
     </message>
     <message>
         <source>Designer</source>
@@ -1734,7 +1742,7 @@ Nedeni: %2</translation>
     </message>
     <message>
         <source>Save Form?</source>
-        <translation>Form Kaydedilsin mi?</translation>
+        <translation>Formu Kaydet?</translation>
     </message>
     <message>
         <source>Do you want to save the changes to this document before closing?</source>
@@ -1742,7 +1750,7 @@ Nedeni: %2</translation>
     </message>
     <message>
         <source>If you don&apos;t save, your changes will be lost.</source>
-        <translation>Kaydetmezseniz, değişiklikleriniz kaybolur.</translation>
+        <translation>Kaydetmezseniz değişiklikleriniz kaybolur.</translation>
     </message>
 </context>
 <context>
@@ -1757,7 +1765,7 @@ Nedeni: %2</translation>
     </message>
     <message>
         <source>Insert separator</source>
-        <translation>Ayırıcı ekle</translation>
+        <translation>Ayırıcı gir</translation>
     </message>
     <message>
         <source>Remove separator</source>
@@ -1837,7 +1845,7 @@ Nedeni: %2</translation>
     <name>QDesignerResource</name>
     <message>
         <source>The layout type &apos;%1&apos; is not supported, defaulting to grid.</source>
-        <translation>“%1” yerleşimi türü desteklenmiyor, öntanımlı olarak ızgara kullanılıyor.</translation>
+        <translation>“%1” yerleşimi türü desteklenmiyor, varsayılan olarak ızgara kullanılıyor.</translation>
     </message>
     <message>
         <source>The container extension of the widget &apos;%1&apos; (%2) returned a widget not managed by Designer &apos;%3&apos; (%4) when queried for page #%5.
@@ -1848,7 +1856,7 @@ Kapsayıcı sayfaları, yalnızca özel araç takımının domXml() yöntemi tar
     <message>
         <source>Unexpected element &lt;%1&gt;</source>
         <extracomment>Parsing clipboard contents</extracomment>
-        <translation>Beklenmeyen öge &lt;%1&gt;</translation>
+        <translation>Beklenmedik öge &lt;%1&gt;</translation>
     </message>
     <message>
         <source>Error while pasting clipboard contents at line %1, column %2: %3</source>
@@ -1883,11 +1891,11 @@ Kapsayıcı sayfaları, yalnızca özel araç takımının domXml() yöntemi tar
     <name>QDesignerToolWindow</name>
     <message>
         <source>Property Editor</source>
-        <translation>Özellik Düzenleyici</translation>
+        <translation>Özellik Düzenleyicisi</translation>
     </message>
     <message>
         <source>Action Editor</source>
-        <translation>Eylem Düzenleyici</translation>
+        <translation>Eylem Düzenleyicisi</translation>
     </message>
     <message>
         <source>Object Inspector</source>
@@ -1914,7 +1922,7 @@ Kapsayıcı sayfaları, yalnızca özel araç takımının domXml() yöntemi tar
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>Dü&amp;zenle</translation>
+        <translation>Dü&amp;zen</translation>
     </message>
     <message>
         <source>F&amp;orm</source>
@@ -1922,7 +1930,7 @@ Kapsayıcı sayfaları, yalnızca özel araç takımının domXml() yöntemi tar
     </message>
     <message>
         <source>Preview in</source>
-        <translation>içinde önizle</translation>
+        <translation>Şurada ön izle:</translation>
     </message>
     <message>
         <source>&amp;View</source>
@@ -1950,7 +1958,7 @@ Kapsayıcı sayfaları, yalnızca özel araç takımının domXml() yöntemi tar
     </message>
     <message>
         <source>Save Forms?</source>
-        <translation>Formlar Kaydedilsin mi?</translation>
+        <translation>Formları Kaydet?</translation>
     </message>
     <message numerus="yes">
         <source>There are %n forms with unsaved changes. Do you want to review these changes before quitting?</source>
@@ -1960,7 +1968,7 @@ Kapsayıcı sayfaları, yalnızca özel araç takımının domXml() yöntemi tar
     </message>
     <message>
         <source>If you do not review your documents, all your changes will be lost.</source>
-        <translation>Belgelerinizi gözden geçirmezseniz, tüm değişiklikleriniz kaybolacaktır.</translation>
+        <translation>Belgelerinizi gözden geçirmezseniz tüm değişiklikleriniz kaybolacaktır.</translation>
     </message>
     <message>
         <source>Discard Changes</source>
@@ -1992,7 +2000,7 @@ Kapsayıcı sayfaları, yalnızca özel araç takımının domXml() yöntemi tar
     </message>
     <message>
         <source>QFormBuilder was unable to create a custom widget of the class &apos;%1&apos;; defaulting to base class &apos;%2&apos;.</source>
-        <translation>QFormBuilder “%1” sınıfının özel bir araç takımını oluşturamadı; öntanımlı olarak “%2” temel sınıfına ayarlandı.</translation>
+        <translation>QFormBuilder “%1” sınıfının özel bir araç takımını oluşturamadı; varsayılan olarak “%2” temel sınıfına ayarlandı.</translation>
     </message>
     <message>
         <source>QFormBuilder was unable to create a widget of the class &apos;%1&apos;.</source>
@@ -2028,7 +2036,7 @@ Kapsayıcı sayfaları, yalnızca özel araç takımının domXml() yöntemi tar
     </message>
     <message>
         <source>The enumeration-value &apos;%1&apos; is invalid. The default value &apos;%2&apos; will be used instead.</source>
-        <translation>“%1” numaralandırma değeri geçersiz. Bunun yerine “%2” öntanımlı değeri kullanılır.</translation>
+        <translation>“%1” numaralandırma değeri geçersiz. Bunun yerine “%2” varsayılan değeri kullanılır.</translation>
     </message>
     <message>
         <source>The flag-value &apos;%1&apos; is invalid. Zero will be used instead.</source>
@@ -2266,7 +2274,7 @@ Kapsayıcı sayfaları, yalnızca özel araç takımının domXml() yöntemi tar
     </message>
     <message>
         <source>What&apos;s This</source>
-        <translation>Bu Nedir</translation>
+        <translation>Bu Nedir?</translation>
     </message>
     <message>
         <source>Busy</source>
@@ -2281,7 +2289,7 @@ Kapsayıcı sayfaları, yalnızca özel araç takımının domXml() yöntemi tar
     </message>
     <message>
         <source>Select Font</source>
-        <translation>Yazıtipini Seç</translation>
+        <translation>Yazı Tipi Seç</translation>
     </message>
 </context>
 <context>
@@ -2292,7 +2300,7 @@ Kapsayıcı sayfaları, yalnızca özel araç takımının domXml() yöntemi tar
     </message>
     <message>
         <source>Point Size</source>
-        <translation>Nokta Boyutu</translation>
+        <translation>Punto</translation>
     </message>
     <message>
         <source>Bold</source>
@@ -2313,11 +2321,11 @@ Kapsayıcı sayfaları, yalnızca özel araç takımının domXml() yöntemi tar
     </message>
     <message>
         <source>Strikeout</source>
-        <translation>Üstü çizili</translation>
+        <translation>Üstü Çizili</translation>
     </message>
     <message>
         <source>Kerning</source>
-        <translation>Karakter aralığı</translation>
+        <translation>Karakter Aralığı</translation>
     </message>
     <message>
         <source>Weight</source>
@@ -2328,7 +2336,7 @@ Kapsayıcı sayfaları, yalnızca özel araç takımının domXml() yöntemi tar
     <name>QtGradientDialog</name>
     <message>
         <source>Edit Gradient</source>
-        <translation>Gradyan Düzenle</translation>
+        <translation>Gradyanı Düzenle</translation>
     </message>
 </context>
 <context>
@@ -2339,11 +2347,11 @@ Kapsayıcı sayfaları, yalnızca özel araç takımının domXml() yöntemi tar
     </message>
     <message>
         <source>Gradient Editor</source>
-        <translation>Gradyan Düzenleyici</translation>
+        <translation>Gradyan Düzenleyicisi</translation>
     </message>
     <message>
         <source>This area shows a preview of the gradient being edited. It also allows you to edit parameters specific to the gradient&apos;s type such as start and final point, radius, etc. by drag &amp; drop.</source>
-        <translation>Bu alan, düzenlenen gradyanın önizlemesini gösterir. Ayrıca, sürükle ve bırak yöntemiyle gradyanın türüne özgü parametreleri başlangıç ve son nokta, yarıçap vb. düzenlemenize izin verir.</translation>
+        <translation>Bu alan, düzenlenen gradyanın ön izlemesini gösterir. Ayrıca, sürükle ve bırak yöntemiyle gradyanın türüne özgü parametreleri başlangıç ve son nokta, yarıçap vb. düzenlemenize izin verir.</translation>
     </message>
     <message>
         <source>1</source>
@@ -2371,7 +2379,7 @@ Kapsayıcı sayfaları, yalnızca özel araç takımının domXml() yöntemi tar
     </message>
     <message>
         <source>This area allows you to edit gradient stops. Double click on the existing stop handle to duplicate it. Double click outside of the existing stop handles to create a new stop. Drag &amp; drop the handle to reposition it. Use right mouse button to popup context menu with extra actions.</source>
-        <translation>Bu alan gradyan duraklarını düzenlemenizi sağlar. Çoğaltmak için mevcut durdurma tutamacına çift tıklayın. Yeni bir durak oluşturmak için mevcut durdurma tutamaçlarının dışına çift tıklayın. Yeniden konumlandırmak için tutamacı sürükleyip bırakın. Ek eylemlerle bağlam menüsünü açmak için sağ fare düğmesini kullanın.</translation>
+        <translation>Bu alan gradyan duraklarını düzenlemenizi sağlar. Çoğaltmak için mevcut durdurma tutamacına çift tıklayın. Yeni bir durak oluşturmak için var olan durdurma tutamaçlarının dışına çift tıklayın. Yeniden konumlandırmak için tutamacı sürükleyip bırakın. Ek eylemlerle bağlam menüsünü açmak için sağ fare düğmesini kullanın.</translation>
     </message>
     <message>
         <source>Zoom</source>
@@ -2403,7 +2411,7 @@ Kapsayıcı sayfaları, yalnızca özel araç takımının domXml() yöntemi tar
     </message>
     <message>
         <source>Sat</source>
-        <translation>Sat</translation>
+        <translation>Doy</translation>
     </message>
     <message>
         <source>Value</source>
@@ -2798,7 +2806,7 @@ Kapsayıcı sayfaları, yalnızca özel araç takımının domXml() yöntemi tar
     <message>
         <source>%1 already exists.
 Do you want to replace it?</source>
-        <translation>%1 halihazırda var.
+        <translation>%1 hâlihazırda var.
 Başkasıyla değiştirmek istiyor musunuz?</translation>
     </message>
     <message>
@@ -3192,7 +3200,7 @@ kopyalanamadı</translation>
     <message>
         <source>A template with the name %1 already exists.
 Do you want overwrite the template?</source>
-        <translation>%1 adında bir şablon zaten var.
+        <translation>%1 adında bir şablon hâlihazırda var.
 Şablonun üzerine yazmak ister misiniz?</translation>
     </message>
     <message>
@@ -3308,7 +3316,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Style</source>
-        <translation>Biçem</translation>
+        <translation>Stil</translation>
     </message>
     <message>
         <source>Dock views</source>
@@ -3366,7 +3374,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
-        <translation>Dosya, temel sınıfı (%2) araç takımı veritabanındaki geçerli girdiden (%3) farklı olan özel bir “%1” araç takımı içeriyor. Araç takımı veritabanı değişmeden bırakıldı.</translation>
+        <translation>Dosya, temel sınıfı (%2) araç takımı veri tabanındaki geçerli girdiden (%3) farklı olan özel bir “%1” araç takımı içeriyor. Araç takımı veri tabanı değişmeden bırakıldı.</translation>
     </message>
 </context>
 <context>
@@ -3416,7 +3424,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Configure Action Editor</source>
-        <translation>Eylem Düzenleyiciyi Yapılandır</translation>
+        <translation>Eylem Düzenleyicisini Yapılandır</translation>
     </message>
     <message>
         <source>Icon View</source>
@@ -3676,7 +3684,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>The connection already exists!&lt;br&gt;%1</source>
-        <translation>Bağlantı zaten var!&lt;br&gt;%1</translation>
+        <translation>Bağlantı hâlihazırda var!&lt;br&gt;%1</translation>
     </message>
     <message>
         <source>Signal and Slot Editor</source>
@@ -3739,7 +3747,7 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::DesignerPropertyManager</name>
     <message>
         <source>translatable</source>
-        <translation type="vanished">çeviri yapılabilir</translation>
+        <translation>çeviri yapılabilir</translation>
     </message>
     <message>
         <source>disambiguation</source>
@@ -3747,7 +3755,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>comment</source>
-        <translation type="vanished">yorum</translation>
+        <translation>yorum</translation>
     </message>
     <message>
         <source>id</source>
@@ -3856,7 +3864,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Default</source>
-        <translation>Öntanımlı</translation>
+        <translation>Varsayılan</translation>
     </message>
     <message>
         <source>Save Profile</source>
@@ -3895,11 +3903,11 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>StringList</source>
-        <translation>DizeListesi</translation>
+        <translation>DiziListesi</translation>
     </message>
     <message>
         <source>New String</source>
-        <translation>Yeni Dize</translation>
+        <translation>Yeni Dizi</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -3907,7 +3915,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Delete String</source>
-        <translation>Dizeyi Sil</translation>
+        <translation>Diziyi Sil</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -3919,7 +3927,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Move String Up</source>
-        <translation>Dizeyi Yukarı Taşı</translation>
+        <translation>Diziyi Yukarı Taşı</translation>
     </message>
     <message>
         <source>Up</source>
@@ -3927,7 +3935,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Move String Down</source>
-        <translation>Dizeyi Aşağı Taşı</translation>
+        <translation>Diziyi Aşağı Taşı</translation>
     </message>
     <message>
         <source>Down</source>
@@ -3974,7 +3982,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Default</source>
-        <translation>Öntanımlı</translation>
+        <translation>Varsayılan</translation>
     </message>
 </context>
 <context>
@@ -4078,7 +4086,7 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::FormWindowBase</name>
     <message>
         <source>Delete &apos;%1&apos;</source>
-        <translation>“%1” Sil</translation>
+        <translation>Sil: “%1”</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -4097,7 +4105,7 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::FormWindowManager</name>
     <message>
         <source>Cu&amp;t</source>
-        <translation>Ke&amp;s</translation>
+        <translation>&amp;Kes</translation>
     </message>
     <message>
         <source>Cuts the selected widgets and puts them on the clipboard</source>
@@ -4105,7 +4113,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Kopyala</translation>
+        <translation>Ko&amp;pyala</translation>
     </message>
     <message>
         <source>Copies the selected widgets to the clipboard</source>
@@ -4113,7 +4121,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>Ya&amp;pıştır</translation>
+        <translation>&amp;Yapıştır</translation>
     </message>
     <message>
         <source>Pastes the clipboard&apos;s contents</source>
@@ -4137,7 +4145,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Bring to &amp;Front</source>
-        <translation>&amp;Öne Getir</translation>
+        <translation>Ö&amp;ne Getir</translation>
     </message>
     <message>
         <source>Raises the selected widgets</source>
@@ -4225,11 +4233,11 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>&amp;Preview...</source>
-        <translation>&amp;Önizleme…</translation>
+        <translation>Ö&amp;n İzleme…</translation>
     </message>
     <message>
         <source>Preview current form</source>
-        <translation>Geçerli formu önizle</translation>
+        <translation>Geçerli formu ön izle</translation>
     </message>
     <message>
         <source>Form &amp;Settings...</source>
@@ -4246,7 +4254,7 @@ Do you want overwrite the template?</source>
     <message>
         <source>Could not create form preview</source>
         <comment>Title of warning message box</comment>
-        <translation>Form önizlemesi oluşturulamadı</translation>
+        <translation>Form Ön İzlemesi Oluşturulamadı</translation>
     </message>
     <message>
         <source>Form Settings - %1</source>
@@ -4261,7 +4269,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Device Profile: %1</source>
-        <translation>Aygıt Profili: %1</translation>
+        <translation>Aygıt profili: %1</translation>
     </message>
 </context>
 <context>
@@ -4368,11 +4376,11 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Properties &amp;&gt;&gt;</source>
-        <translation>Özellikler &amp;&gt;&gt;</translation>
+        <translation>Öz&amp;ellikler ≫</translation>
     </message>
     <message>
         <source>Properties &amp;&lt;&lt;</source>
-        <translation>Özellikler &amp;&lt;&lt;</translation>
+        <translation>Ö&amp;zellikler ≪</translation>
     </message>
 </context>
 <context>
@@ -4535,7 +4543,7 @@ Do you want overwrite the template?</source>
     <message>
         <source>The current object already has a property named &apos;%1&apos;.
 Please select another, unique one.</source>
-        <translation>Geçerli nesnenin zaten “%1” adlı bir özelliği var.
+        <translation>Geçerli nesnenin hâlihazırda “%1” adlı bir özelliği var.
 Lütfen başka, benzersiz bir tane seçin.</translation>
     </message>
     <message>
@@ -4553,7 +4561,7 @@ Lütfen başka bir ad seçin.</translation>
     </message>
     <message>
         <source>Choose a template for a preview</source>
-        <translation>Önizleme için bir şablon seçin</translation>
+        <translation>Ön izleme için bir şablon seçin</translation>
     </message>
     <message>
         <source>Embedded Design</source>
@@ -4569,23 +4577,33 @@ Lütfen başka bir ad seçin.</translation>
     </message>
     <message>
         <source>Default size</source>
-        <translation>Öntanımlı boyut</translation>
+        <translation>Varsayılan boyut</translation>
     </message>
     <message>
         <source>QVGA portrait (240x320)</source>
-        <translation>QVGA dikey (240 × 320)</translation>
+        <translation type="vanished">QVGA dikey (240 × 320)</translation>
     </message>
     <message>
         <source>QVGA landscape (320x240)</source>
-        <translation>QVGA yatay (320 × 240)</translation>
+        <translation type="vanished">QVGA yatay (320 × 240)</translation>
     </message>
     <message>
         <source>VGA portrait (480x640)</source>
-        <translation>VGA portre (480 × 640)</translation>
+        <translation type="vanished">VGA portre (480 × 640)</translation>
     </message>
     <message>
         <source>VGA landscape (640x480)</source>
-        <translation>VGA manzara (640 × 480)</translation>
+        <translation type="vanished">VGA manzara (640 × 480)</translation>
+    </message>
+    <message>
+        <source>%1 portrait (%2x%3)</source>
+        <extracomment>Standard screen size: %1 Name, %2 screen width, %3 screen height</extracomment>
+        <translation>%1 dikey (%2 × %3)</translation>
+    </message>
+    <message>
+        <source>%1 landscape (%2x%3)</source>
+        <extracomment>Standard screen size: %1 Name, %2 screen width, %3 screen height</extracomment>
+        <translation>%1 yatay (%2 × %3)</translation>
     </message>
     <message>
         <source>Widgets</source>
@@ -4633,7 +4651,7 @@ Lütfen başka bir ad seçin.</translation>
     </message>
     <message>
         <source>Header file for C++ classes or module name for Qt for Python.</source>
-        <translation>C++ sınıfları için üstbilgi dosyası veya Python için Qt için modül adı.</translation>
+        <translation>C++ sınıfları için üst bilgi dosyası veya Python için Qt için modül adı</translation>
     </message>
     <message>
         <source>Header file:</source>
@@ -4641,7 +4659,7 @@ Lütfen başka bir ad seçin.</translation>
     </message>
     <message>
         <source>Indicates that the header file is a global header file. Does not have any effect on Qt for Python.</source>
-        <translation>Üstbilgi dosyasının bir global üstbilgi olduğunu belirtir. Python için Qt üzerinde bir etkisi yoktur.</translation>
+        <translation>Üst bilgi dosyasının bir global üst bilgi olduğunu belirtir. Python için Qt üzerinde bir etkisi yoktur.</translation>
     </message>
     <message>
         <source>Global include</source>
@@ -4714,7 +4732,7 @@ Lütfen başka bir ad seçin.</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation>Önizleme</translation>
+        <translation>Ön İzleme</translation>
     </message>
     <message>
         <source>Disabled</source>
@@ -4738,7 +4756,7 @@ Lütfen başka bir ad seçin.</translation>
     </message>
     <message>
         <source>Preview (%1)</source>
-        <translation>Önizle (%1)</translation>
+        <translation>Ön İzle (%1)</translation>
     </message>
     <message>
         <source>Lighter</source>
@@ -4770,7 +4788,7 @@ Lütfen başka bir ad seçin.</translation>
     </message>
     <message>
         <source>Cannot open %1 for reading: %2</source>
-        <translation>%1 yazmak için açılamıyor: %2</translation>
+        <translation>%1, yazmak için açılamıyor: %2</translation>
     </message>
     <message>
         <source>Invalid element &quot;%1&quot;, expected &quot;palette&quot;.</source>
@@ -4917,14 +4935,14 @@ Lütfen başka bir ad seçin.</translation>
     <name>qdesigner_internal::PreviewActionGroup</name>
     <message>
         <source>%1 Style</source>
-        <translation>%1 Biçemi</translation>
+        <translation>%1 Stili</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::PreviewConfigurationWidget</name>
     <message>
         <source>Default</source>
-        <translation>Öntanımlı</translation>
+        <translation>Varsayılan</translation>
     </message>
     <message>
         <source>None</source>
@@ -4948,7 +4966,7 @@ Lütfen başka bir ad seçin.</translation>
     </message>
     <message>
         <source>The skin &apos;%1&apos; already exists.</source>
-        <translation>“%1” kaplaması zaten var.</translation>
+        <translation>“%1” kaplaması hâlihazırda var.</translation>
     </message>
     <message>
         <source>%1 - Error</source>
@@ -4965,17 +4983,17 @@ Lütfen başka bir ad seçin.</translation>
     <name>qdesigner_internal::PreviewDeviceSkin</name>
     <message>
         <source>&amp;Portrait</source>
-        <translation>&amp;Portre</translation>
+        <translation>&amp;Dikey</translation>
     </message>
     <message>
         <source>Landscape (&amp;CCW)</source>
         <extracomment>Rotate form preview counter-clockwise</extracomment>
-        <translation>Manzara (&amp;CCW)</translation>
+        <translation>Yatay (&amp;CCW)</translation>
     </message>
     <message>
         <source>&amp;Landscape (CW)</source>
         <extracomment>Rotate form preview clockwise</extracomment>
-        <translation>&amp;Manzara (CW)</translation>
+        <translation>&amp;Yatay (CW)</translation>
     </message>
     <message>
         <source>&amp;Close</source>
@@ -4986,7 +5004,7 @@ Lütfen başka bir ad seçin.</translation>
     <name>qdesigner_internal::PreviewManager</name>
     <message>
         <source>%1 - [Preview]</source>
-        <translation>%1 — [Önizleme]</translation>
+        <translation>%1 — [Ön İzleme]</translation>
     </message>
 </context>
 <context>
@@ -5004,7 +5022,7 @@ gevşek olan kazları yedi.</translation>
     <message>
         <source>Preview Window</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>Önizleme Penceresi</translation>
+        <translation>Ön İzleme Penceresi</translation>
     </message>
     <message>
         <source>LineEdit</source>
@@ -5220,11 +5238,11 @@ gevşek olan kazları yedi.</translation>
     </message>
     <message>
         <source>String...</source>
-        <translation>Dize…</translation>
+        <translation>Dizi…</translation>
     </message>
     <message>
         <source>Bool...</source>
-        <translation>Bool…</translation>
+        <translation>Boole…</translation>
     </message>
     <message>
         <source>Other...</source>
@@ -5243,6 +5261,10 @@ gevşek olan kazları yedi.</translation>
 Class: %2</source>
         <translation>Nesne: %1
 Sınıf: %2</translation>
+    </message>
+    <message>
+        <source>Deprecated since Qt %1: %2</source>
+        <translation>Qt %1 sürümünden bu yana kullanılmıyor: %2</translation>
     </message>
 </context>
 <context>
@@ -5346,7 +5368,7 @@ Sınıf: %2</translation>
     </message>
     <message>
         <source>Change styleSheet...</source>
-        <translation>Biçem Sayfasını Değiştir…</translation>
+        <translation>Stil Sayfasını Değiştir…</translation>
     </message>
     <message>
         <source>Create Menu Bar</source>
@@ -5533,7 +5555,7 @@ Sınıf: %2</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;İptal</translation>
+        <translation>İ&amp;ptal</translation>
     </message>
 </context>
 <context>
@@ -5584,11 +5606,11 @@ Sınıf: %2</translation>
     </message>
     <message>
         <source>Superscript</source>
-        <translation>Üst simge</translation>
+        <translation>Üst Simge</translation>
     </message>
     <message>
         <source>Subscript</source>
-        <translation>Alt simge</translation>
+        <translation>Alt Simge</translation>
     </message>
     <message>
         <source>Insert &amp;Link</source>
@@ -5607,11 +5629,11 @@ Sınıf: %2</translation>
     <name>qdesigner_internal::SignalSlotDialog</name>
     <message>
         <source>There is already a slot with the signature &apos;%1&apos;.</source>
-        <translation>“%1” imzalı bir yuva zaten var.</translation>
+        <translation>“%1” imzalı bir yuva hâlihazırda var.</translation>
     </message>
     <message>
         <source>There is already a signal with the signature &apos;%1&apos;.</source>
-        <translation>“%1” imzalı bir sinyal zaten var.</translation>
+        <translation>“%1” imzalı bir sinyal hâlihazırda var.</translation>
     </message>
     <message>
         <source>%1 - Duplicate Signature</source>
@@ -5651,14 +5673,14 @@ Sınıf: %2</translation>
     <name>qdesigner_internal::StringListEditorButton</name>
     <message>
         <source>Change String List</source>
-        <translation>Dize Listesini Değiştir</translation>
+        <translation>Dizi Listesini Değiştir</translation>
     </message>
 </context>
 <context>
     <name>qdesigner_internal::StyleSheetEditorDialog</name>
     <message>
         <source>Valid Style Sheet</source>
-        <translation>Geçerli Biçem Sayfası</translation>
+        <translation>Geçerli Stil Sayfası</translation>
     </message>
     <message>
         <source>Add Resource...</source>
@@ -5674,15 +5696,15 @@ Sınıf: %2</translation>
     </message>
     <message>
         <source>Add Font...</source>
-        <translation>Yazıtipi Ekle…</translation>
+        <translation>Yazı Tipi Ekle…</translation>
     </message>
     <message>
         <source>Edit Style Sheet</source>
-        <translation>Biçem Sayfasını Düzenle</translation>
+        <translation>Stil Sayfasını Düzenle</translation>
     </message>
     <message>
         <source>Invalid Style Sheet</source>
-        <translation>Geçersiz Biçem Sayfası</translation>
+        <translation>Geçersiz Stil Sayfası</translation>
     </message>
 </context>
 <context>
@@ -5730,7 +5752,7 @@ Sınıf: %2</translation>
     </message>
     <message>
         <source>&amp;Items</source>
-        <translation>&amp;Ögeler</translation>
+        <translation>Ö&amp;geler</translation>
     </message>
     <message>
         <source>Table Items</source>
@@ -5738,7 +5760,7 @@ Sınıf: %2</translation>
     </message>
     <message>
         <source>Properties &amp;&gt;&gt;</source>
-        <translation>Özellikler &amp;&gt;&gt;</translation>
+        <translation>Öz&amp;ellikler ≫</translation>
     </message>
     <message>
         <source>New Column</source>
@@ -5758,7 +5780,7 @@ Sınıf: %2</translation>
     </message>
     <message>
         <source>Properties &amp;&lt;&lt;</source>
-        <translation>Özellikler &amp;&lt;&lt;</translation>
+        <translation>Ö&amp;zellikler ≪</translation>
     </message>
 </context>
 <context>
@@ -5856,7 +5878,7 @@ Sınıf: %2</translation>
     </message>
     <message>
         <source>&amp;Items</source>
-        <translation>&amp;Ögeler</translation>
+        <translation>Ö&amp;geler</translation>
     </message>
     <message>
         <source>Tree Items</source>
@@ -5944,7 +5966,7 @@ Sınıf: %2</translation>
     </message>
     <message>
         <source>Properties &amp;&lt;&lt;</source>
-        <translation>Öze&amp;llikler ≪</translation>
+        <translation>Öz&amp;ellikler ≪</translation>
     </message>
 </context>
 <context>
@@ -5969,7 +5991,7 @@ Sınıf: %2</translation>
     <name>qdesigner_internal::WidgetBoxTreeWidget</name>
     <message>
         <source>Scratchpad</source>
-        <translation>Çalışma defteri</translation>
+        <translation>Çalışma Defteri</translation>
     </message>
     <message>
         <source>Custom Widgets</source>
@@ -6002,6 +6024,11 @@ Sınıf: %2</translation>
 </context>
 <context>
     <name>qdesigner_internal::WidgetDataBase</name>
+    <message>
+        <source>text</source>
+        <extracomment>Widget Box ToolTip of QAbstractButton-derived classes</extracomment>
+        <translation>metin</translation>
+    </message>
     <message>
         <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
         <translation>Sınıf adı (%1) var olan bir sınıfınki ile eşleşen özel bir araç takımı eklentisi bulundu.</translation>
@@ -6040,7 +6067,7 @@ Bu, arayüz dosyasında bir tutarsızlık gösterir.</translation>
     </message>
     <message>
         <source>Cannot create style &apos;%1&apos;.</source>
-        <translation>“%1” biçemi oluşturulamıyor.</translation>
+        <translation>“%1” stili oluşturulamıyor.</translation>
     </message>
 </context>
 <context>
@@ -6094,11 +6121,11 @@ Bu, arayüz dosyasında bir tutarsızlık gösterir.</translation>
     <name>qdesigner_internal::PropertySheetValue</name>
     <message>
         <source>translatable</source>
-        <translation>çevrilebilir</translation>
+        <translation type="vanished">çevrilebilir</translation>
     </message>
     <message>
         <source>comment</source>
-        <translation>yorum</translation>
+        <translation type="vanished">yorum</translation>
     </message>
 </context>
 <context>
@@ -6120,7 +6147,7 @@ Bu, arayüz dosyasında bir tutarsızlık gösterir.</translation>
     </message>
     <message>
         <source>Unexpected element &lt;%1&gt; encountered when parsing for &lt;widget&gt; or &lt;ui&gt;</source>
-        <translation>&lt;widget&gt; veya &lt;ui&gt; için ayrıştırılırken beklenmeyen &lt;%1&gt; ögesiyle karşılaşıldı.</translation>
+        <translation>&lt;widget&gt; veya &lt;ui&gt; için ayrıştırılırken beklenmeyen &lt;%1&gt; ögesiyle karşılaşıldı</translation>
     </message>
     <message>
         <source>Unexpected end of file encountered when parsing widgets.</source>
@@ -6143,6 +6170,49 @@ Bu, arayüz dosyasında bir tutarsızlık gösterir.</translation>
     <message>
         <source>3DView</source>
         <translation>3B Görünüm</translation>
+    </message>
+</context>
+<context>
+    <name>qdesigner_internal::IconSelector</name>
+    <message>
+        <source>The pixmap file &apos;%1&apos; cannot be read.</source>
+        <translation>“%1” piksel eşlem dosyası okunamıyor.</translation>
+    </message>
+    <message>
+        <source>The file &apos;%1&apos; does not appear to be a valid pixmap file: %2</source>
+        <translation>“%1” dosyası geçerli bir piksel eşlem dosyası gibi görünmüyor: %2</translation>
+    </message>
+    <message>
+        <source>The file &apos;%1&apos; could not be read: %2</source>
+        <translation>“%1” dosyası okunamadı: %2</translation>
+    </message>
+    <message>
+        <source>Choose a Pixmap</source>
+        <translation>Piksel Eşlem Seç</translation>
+    </message>
+    <message>
+        <source>Pixmap Read Error</source>
+        <translation>Piksel Eşlem Okuma Hatası</translation>
+    </message>
+    <message>
+        <source>...</source>
+        <translation>…</translation>
+    </message>
+    <message>
+        <source>Choose Resource...</source>
+        <translation>Özkaynak Seç…</translation>
+    </message>
+    <message>
+        <source>Choose File...</source>
+        <translation>Dosya Seç…</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Sıfırla</translation>
+    </message>
+    <message>
+        <source>Reset All</source>
+        <translation>Tümünü Sıfırla</translation>
     </message>
 </context>
 </TS>
